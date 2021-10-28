@@ -4,4 +4,4 @@ description: Add description here.
 ---
 # Commerce Admin Guide
 
-Placeholder note
+Placeholder
