@@ -1,5 +1,5 @@
 ---
-solution: Adobe Commerce
+solution: Commerce,Adobe Commerce
 product: magento
 type: Documentation
 audience: end-user
