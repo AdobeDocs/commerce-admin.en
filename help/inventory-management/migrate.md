@@ -6,7 +6,7 @@ description: Learn how Adobe Commerce and Magento Open Source upgrades affect ca
 
 If you used single-source inventory in a previous release, this information provides details on new features and changes to your existing catalog and Inventory configurations.
 
-[!DNL Inventory Management] for Adobe Commerce and Magento Open Source includes features, enhancements, and developer support that enhances and updates all product stock management and add new features. All features are available out-of-the-box including the Source Selection Algorithm and Concurrent Checkout to match order quantities to sources and order fulfillment. Depending on your websites, stores, and merchant type, you can create additional stock and sources, assigning inventory amounts, and more. For complete information, see [Inventory Management](introduction.md).
+[!DNL Inventory Management] for Adobe Commerce and Magento Open Source includes features, enhancements, and developer support that enhances and updates all product stock management and add new features. All features are available out-of-the-box including the Source Selection Algorithm and Concurrent Checkout to match order quantities to sources and order fulfillment. Depending on your websites, stores, and merchant type, you can create additional stock and sources, assign inventory amounts, and more. For complete information, see [Inventory Management](introduction.md).
 
 When you install Magento Open Source 2.4.x or Adobe Commerce 2.4.x, the following initial changes occur:
 
@@ -46,7 +46,7 @@ When you install Magento Open Source 2.4.x or Adobe Commerce 2.4.x, the followin
 
 MCOM provides extensive features and services for advanced omnichannel order management, global inventory and multisourcing, store to warehouse fulfillment, and centralized customer service. For a complete list of features, see the [MCOM Feature list][2].
 
-[!DNL Inventory Management] extends existing [!DNL Commerce] features with additional options to track in-flight orders, on-hand inventory, available inventory for a stock, and APIs for extension development.
+[!DNL Inventory Management] extends existing [!DNL Commerce] features with additional options to track in-process orders, on-hand inventory, available inventory for a stock, and APIs for extension development.
 
 ## [!DNL Inventory Management] modules
 

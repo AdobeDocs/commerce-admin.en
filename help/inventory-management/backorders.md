@@ -4,7 +4,7 @@ description: Learn how to configure backorders to support sale of out-of-stock p
 ---
 # Configure backorders
 
-Backorders allow your store to continue selling products after the quantity reaches zero, or is effectively out of stock. When a customer order is a backorder, the funds are authorized and captured immediately, the processing status of the order does not change, and the shipping remains on-hold until stock is available.
+Backorders allow your store to continue selling products after the quantity reaches zero or is effectively out of stock. When a customer order is a backorder, the funds are authorized and captured immediately, the processing status of the order does not change, and the shipping remains on-hold until stock is available.
 
 Depending on your store and sales, you may want to enable or disable backorders at the following levels:
 
@@ -35,7 +35,7 @@ The Salable Quantity for this product is `75 (25 - (-50))`.
 
 ![Example Salable Quantity after backorders enabled](assets/inventory-backorders-after.png)
 
-When customers purchase more than 25 products, new orders enter as backorders. As the product's Salable Quantity reduces to 5 (70 items have been sold), the _Product_ page displays a message `Only 5 left` on the storefront. When the Salable Quantity reaches `0`, the product is displayed as `Out of Stock` in the storefront.
+When customers purchase the available 25 products, new orders enter as backorders. As the product's Salable Quantity reduces to 5 (70 items have been sold), the _Product_ page displays a message `Only 5 left` on the storefront. When the Salable Quantity reaches `0`, the product is displayed as `Out of Stock` in the storefront.
 
 >[!NOTE]
 >
@@ -99,7 +99,7 @@ Product level configurations override global configurations. You may want to con
     | -- | -- |
     | `No Backorders` | To not accept backorders when product is out of stock. |
     | `Allow Qty Below 0` | To accept backorders when the quantity falls below zero. |
-    | `Allow Qty Below 0 and Notify Customer` | To accept backorders when the quantity falls below zero and notify the customer that the order can still be placed. |
+    | `Allow Qty Below 0 and Notify Customer` | To accept backorders when the quantity falls below zero and to notify the customer that the order can still be placed. |
 
 1. For **[!UICONTROL Out-of-Stock Threshold]**, deselect the **[!UICONTROL Use Config Setting]** checkbox and enter an amount:
 

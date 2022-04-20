@@ -14,7 +14,7 @@ After adding new custom sources, you can add [inventory quantities per product](
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Select the products where you want to modify the sources.
+1. Select the products for which you want to modify the sources.
 
    Browse or search to find the products and select those checkboxes.
 

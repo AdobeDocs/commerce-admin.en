@@ -6,7 +6,7 @@ description: Learn how to assign sources and quantities for new products or chan
 
 The following information details how to assign sources and quantities for new products or change existing products.
 
-When creating products, assign sources and quantities during product creation. See [Product Types](https://docs.magento.com/user-guide/catalog/product-types.html){target="_blank"} documentation for full instructions. These pages includes single and multi-source information for sources and quantities per source.
+When creating products, assign sources and quantities during product creation. See [Product Types](https://docs.magento.com/user-guide/catalog/product-types.html){target="_blank"} documentation for full instructions. These pages includes single- and multi-source information for sources and quantities per source.
 
 When first accessing an upgraded [!DNL Commerce] with [!DNL Inventory Management], all products and quantities are assigned to the Default Source. When importing new products via .csv file, they are also assigned to the Default Source.
 

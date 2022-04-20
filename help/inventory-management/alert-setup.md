@@ -10,11 +10,11 @@ Customers can subscribe to two types of alerts by email - price change alerts an
 
 ## Price change alerts
 
-When price change alerts are enabled, a _Notify me when the price drops_ link appears on every product page. Customers can click the link to subscribe to alerts related to the product. Guests are prompted to open an account with your store. Whenever the price changes or the product goes on special, everyone who has signed up to be notified receives an email alert.
+When price change alerts are enabled, a _Notify me when the price drops_ link appears on every product page. Customers can click the link to subscribe to alerts related to the product. Guests are prompted to open an account with your store. Whenever the price changes or the product goes on special, everyone who has subscribed to the alert receives an email alert.
 
 ## In-Stock alerts
 
-The in-stock alert creates a link called _Notify me when this product is in stock_ for every product that is out of stock. Customers can click the link to subscribe to the alert. When the product is back in stock, customers receive email notification that the product is available. Products with alerts have a _Product Alerts_ tab in the Product Information panel that lists the customers who have subscribed to an alert.
+The in-stock alert creates a link called _Notify me when this product is in stock_ for every product that is out of stock. Customers can click the link to subscribe to the alert. When the product is back in stock, customers receive an email notification that the product is available. Products with alerts have a _Product Alerts_ tab in the Product Information panel that lists the customers who have subscribed to an alert.
 
 ![List of product and price alert subscriptions](assets/inventory-product-alerts.png)
 
@@ -56,13 +56,13 @@ For more detailed information about using email messaging, see [Message Template
 
 1. Under _Load default template_, choose the **Template** that you want to customize.
 
-   You might choose the alert template included with your theme. Or you can select the `Price Alert` or `Stock Alert` templates under *[!UICONTROL Magento_PriceAlert]*.
+   You might choose the alert template included with your theme. Or you can select the `Price Alert` or `Stock Alert` templates under _[!UICONTROL Magento_PriceAlert]_.
 
 1. Click **[!UICONTROL Load Template]**.
 
 1. Enter a **[!UICONTROL Template Name]**.
 
-   You can select this name in the Price Alerts configuration.
+   You can select this name in the _Price Alerts_ configuration.
 
 1. Read through the existing content and make changes as needed for the following:
 

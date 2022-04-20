@@ -44,7 +44,7 @@ Single-source merchants may also send partial shipments to support backorders or
 
 ### Recommendations and Source Selection Algorithm
 
-The [Source Selection Algorithm](selection-reservations.md) provides recommendations for partial and full shipments. You can access Source Selection Algorithms when creating shipment invoices for an order. Through the Ship page, run the Source Priority or Distance Priority algorithm at any time to determine the best options for matching ordered quantities and available sources. The system supports shipping a complete order from one source, and breaking the order into multiple partial shipments across multiple sources. You can access these options for immediate fulfillment and staggered shipments to send smaller amounts over time.
+The [Source Selection Algorithm](selection-reservations.md) (SSA) provides recommendations for partial and full shipments. You can access Source Selection Algorithms when creating shipment invoices for an order. Through the Ship page, run the Source Priority or Distance Priority algorithm at any time to determine the best options for matching ordered quantities and available sources. The system supports shipping a complete order from one source, and breaking the order into multiple partial shipments across multiple sources. You can access these options for immediate fulfillment and staggered shipments to send smaller amounts over time.
 
 To complete and ship an order, it must have completed payment and be invoiced. Currently, you can rerun the SSA for recommendations and ship from one or more sources, or override the SSA recommendations with manually set sources and quantities to fulfill shipment.
 

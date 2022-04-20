@@ -16,7 +16,7 @@ How this setting works in single- and multi-source inventories:
 
 - To use [!DNL Inventory Management], enable _[!UICONTROL Manage Stock]_.
 
-- [!UICONTROL Manage Stock] settings at the product level override the store configuration.
+- [!UICONTROL Manage Stock] settings at the product level configuration override the store configuration.
 
 - To use Order Management or third-party services (such as ERP), disable [!UICONTROL Manage Stock].
 

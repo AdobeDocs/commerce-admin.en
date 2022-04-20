@@ -48,7 +48,7 @@ After adding sources, you must prioritize the order for the sources from top (fi
 
 1. Use ![Sort icon](assets/icon-sort.png) to drag and drop the sources into a priority from top (first) to bottom (last).
 
-   This order is important when shipping orders.
+   The source order is important when shipping orders.
 
    ![Assigned Sources Example](assets/inventory-stock-priority-after.png)
 

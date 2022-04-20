@@ -20,7 +20,7 @@ The following diagram helps define how a Stock works in relation to Sources and 
 
 ## Example stocks for a mountain bike and store
 
-All stores start with a Default Stock. It must remain "Enabled" for the following reasons:
+All stores start with a Default Stock. It must remain `Enabled` for the following reasons:
 
 - It is used when importing new products, automatically assigning products to the default source and stock for immediate access to [!DNL Inventory Management].
 - You cannot add additional sources beyond the Default Source to this stock.

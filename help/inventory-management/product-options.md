@@ -42,7 +42,7 @@ Configure the quantities and additional settings per [added source](sources-add.
 | [!UICONTROL Name] | Global | The unique name for a source. |
 | [!UICONTROL Status] | Global | Product is enabled or disabled in the catalog. |
 | [!UICONTROL Source Item Status] | Global | Determines the current availability of the product. Options:<br />**[!UICONTROL In Stock]** - Makes the product available for purchase.<br />**[!UICONTROL Out of Stock]** - Unless Backorders are activated, prevents the product from being available for purchase and removes the listing from the catalog. |
-| [!UICONTROL Qty] | Global | On-hand stock amounts for each source, or location. |
+| [!UICONTROL Qty] | Global | On-hand stock amounts for each source or location. |
 | [!UICONTROL Notify Quantity] | Global | An amount for the _[!UICONTROL Notify for Quantity Below]_ for this specific source if _[!UICONTROL Notify Quantity Use Default]_ is not selected. |
 | [!UICONTROL Notify Quantity Use Default] | Global | Indicates to use the default setting for _[!UICONTROL Notify for Quantity Below]_ in the product _[!UICONTROL Advanced Inventory]_ or global setting in the store configuration. |
 

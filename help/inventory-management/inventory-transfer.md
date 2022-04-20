@@ -4,7 +4,7 @@ description: Learn how multi-source merchants can transfer product inventory fro
 ---
 # Transfer Inventory to Source
 
-Depending on the business needs and status of location, multi-source merchants often transfer product inventory from one source location to another. For example, you may be closing a warehouse location or no longer ship specific products from a location, moving all operations for those products to a new location.
+Depending on the business needs and status of location, multi-source merchants often transfer product inventory from one source location to another. For example, you may be closing a warehouse location or no longer shipping specific products from a location, moving all operations for those products to a new location.
 
 This option allows you to select one or more products, the origin source to transfer inventory, and the destination source to receive quantities:
 
