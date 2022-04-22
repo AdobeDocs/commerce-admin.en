@@ -4,7 +4,7 @@ description: Learn about product alerts and how to use them to notify customers 
 ---
 # Product Alerts
 
-Customers can subscribe to two types of alerts by email - price change alerts and in-stock alerts. For each type of alert, you can determine if customers are able to subscribe, select the email template that is used and identify the sender of the email.
+Customers can subscribe to two types of alerts by email - price change alerts and in-stock alerts. For each type of alert, you can determine if customers are able to subscribe, select the email template that is used, and identify the sender of the email.
 
 ![Sign up for a product alert](assets/product-alert-setting.png)
 
