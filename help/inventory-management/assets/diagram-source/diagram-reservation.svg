@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="426px" height="348px" viewBox="0 0 426 348" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>reservations</title>
+    <defs>
+        <circle id="path-1" cx="12" cy="12" r="12"></circle>
+        <path d="M21.113865,0.496229797 L33.7805314,6.82956302 C35.3947184,7.63167179 36.4158249,9.27832108 36.4167816,11.0816532 L36.4167816,26.17166 C36.4158249,27.974152 35.3947184,29.6208013 33.7840365,30.4211629 L21.1178233,36.7542694 C19.7798244,37.4238045 18.2045721,37.4238045 16.8670268,36.7544963 L4.19598663,30.4189677 C2.58334359,29.6064065 1.57091971,27.9497128 1.58333333,26.1549865 L1.58333333,11.080813 C1.58440498,9.27832108 2.60551152,7.63167179 4.21619343,6.83131015 L10.2483608,3.81452182 C10.32984,3.76405748 10.4155587,3.72120111 10.5043299,3.68634838 L16.886365,0.496229797 C18.2178674,-0.165409932 19.7823625,-0.165409932 21.113865,0.496229797 Z M4.74933333,11.679 L4.75003806,26.1660053 C4.74588764,26.7679204 5.08336227,27.3201516 5.61653648,27.5888101 L17.4163333,33.488 L17.4163333,18.013 L4.74933333,11.679 Z M33.2493333,11.68 L20.5833333,18.013 L20.5833333,33.481 L32.3713652,27.587063 C32.9094275,27.3196934 33.2497964,26.7708103 33.2501152,26.1708199 L33.2493333,11.68 Z M11.0913333,6.934 L6.71533333,9.122 L19.000115,15.264766 L23.3763333,13.076 L11.0913333,6.934 Z M18.2990365,3.33032958 L14.6323333,5.163 L26.9163333,11.306 L31.2843333,9.122 L19.7032447,3.33135521 C19.2597258,3.11153028 18.7388852,3.11176884 18.2990365,3.33032958 Z" id="path-3"></path>
+        <path d="M21.113865,0.496229797 L33.7805314,6.82956302 C35.3947184,7.63167179 36.4158249,9.27832108 36.4167816,11.0816532 L36.4167816,26.17166 C36.4158249,27.974152 35.3947184,29.6208013 33.7840365,30.4211629 L21.1178233,36.7542694 C19.7798244,37.4238045 18.2045721,37.4238045 16.8670268,36.7544963 L4.19598663,30.4189677 C2.58334359,29.6064065 1.57091971,27.9497128 1.58333333,26.1549865 L1.58333333,11.080813 C1.58440498,9.27832108 2.60551152,7.63167179 4.21619343,6.83131015 L10.2483608,3.81452182 C10.32984,3.76405748 10.4155587,3.72120111 10.5043299,3.68634838 L16.886365,0.496229797 C18.2178674,-0.165409932 19.7823625,-0.165409932 21.113865,0.496229797 Z M4.74933333,11.679 L4.75003806,26.1660053 C4.74588764,26.7679204 5.08336227,27.3201516 5.61653648,27.5888101 L17.4163333,33.488 L17.4163333,18.013 L4.74933333,11.679 Z M33.2493333,11.68 L20.5833333,18.013 L20.5833333,33.481 L32.3713652,27.587063 C32.9094275,27.3196934 33.2497964,26.7708103 33.2501152,26.1708199 L33.2493333,11.68 Z M11.0913333,6.934 L6.71533333,9.122 L19.000115,15.264766 L23.3763333,13.076 L11.0913333,6.934 Z M18.2990365,3.33032958 L14.6323333,5.163 L26.9163333,11.306 L31.2843333,9.122 L19.7032447,3.33135521 C19.2597258,3.11153028 18.7388852,3.11176884 18.2990365,3.33032958 Z" id="path-5"></path>
+        <path d="M12,1 C18.0751322,1 23,5.92486775 23,12 C23,18.0751322 18.0751322,23 12,23 C5.92486775,23 1,18.0751322 1,12 C1,5.92486775 5.92486775,1 12,1 Z M12,3 C7.02943725,3 3,7.02943725 3,12 C3,16.9705627 7.02943725,21 12,21 C16.9705627,21 21,16.9705627 21,12 C21,7.02943725 16.9705627,3 12,3 Z M16,11 C16.5522847,11 17,11.4477153 17,12 C17,12.5522847 16.5522847,13 16,13 L16,13 L8,13 C7.44771525,13 7,12.5522847 7,12 C7,11.4477153 7.44771525,11 8,11 L8,11 Z" id="path-7"></path>
+        <path d="M12,1 C18.0751322,1 23,5.92486775 23,12 C23,18.0751322 18.0751322,23 12,23 C5.92486775,23 1,18.0751322 1,12 C1,5.92486775 5.92486775,1 12,1 Z M12,3 C7.02943725,3 3,7.02943725 3,12 C3,16.9705627 7.02943725,21 12,21 C16.9705627,21 21,16.9705627 21,12 C21,7.02943725 16.9705627,3 12,3 Z M12,7 C12.5522847,7 13,7.44771525 13,8 L13,8 L13,11 L16,11 C16.5128358,11 16.9355072,11.3860402 16.9932723,11.8833789 L17,12 C17,12.5522847 16.5522847,13 16,13 L16,13 L13,13 L13,16 C13,16.5128358 12.6139598,16.9355072 12.1166211,16.9932723 L12,17 C11.4477153,17 11,16.5522847 11,16 L11,16 L11,13 L8,13 C7.48716416,13 7.06449284,12.6139598 7.00672773,12.1166211 L7,12 C7,11.4477153 7.44771525,11 8,11 L8,11 L11,11 L11,8 C11,7.48716416 11.3860402,7.06449284 11.8833789,7.00672773 Z" id="path-9"></path>
+        <circle id="path-11" cx="12" cy="12" r="12"></circle>
+        <path d="M12,1 C18.0751322,1 23,5.92486775 23,12 C23,18.0751322 18.0751322,23 12,23 C5.92486775,23 1,18.0751322 1,12 C1,5.92486775 5.92486775,1 12,1 Z M12,3 C7.02943725,3 3,7.02943725 3,12 C3,16.9705627 7.02943725,21 12,21 C16.9705627,21 21,16.9705627 21,12 C21,7.02943725 16.9705627,3 12,3 Z M12,7 C12.5522847,7 13,7.44771525 13,8 L13,8 L13,11 L16,11 C16.5128358,11 16.9355072,11.3860402 16.9932723,11.8833789 L17,12 C17,12.5522847 16.5522847,13 16,13 L16,13 L13,13 L13,16 C13,16.5128358 12.6139598,16.9355072 12.1166211,16.9932723 L12,17 C11.4477153,17 11,16.5522847 11,16 L11,16 L11,13 L8,13 C7.48716416,13 7.06449284,12.6139598 7.00672773,12.1166211 L7,12 C7,11.4477153 7.44771525,11 8,11 L8,11 L11,11 L11,8 C11,7.48716416 11.3860402,7.06449284 11.8833789,7.00672773 Z" id="path-13"></path>
+        <path d="M5,4 C4.44771525,4 4,4.44771525 4,5 L4,19 C4,19.5522847 4.44771525,20 5,20 L19,20 C19.5522847,20 20,19.5522847 20,19 L20,5 C20,4.44771525 19.5522847,4 19,4 L5,4 Z M19,2 C20.6568542,2 22,3.34314575 22,5 L22,19 C22,20.6568542 20.6568542,22 19,22 L5,22 C3.34314575,22 2,20.6568542 2,19 L2,5 C2,3.34314575 3.34314575,2 5,2 L19,2 Z M8.29289322,8.29289322 C7.90236893,8.68341751 7.90236893,9.31658249 8.29289322,9.70710678 L10.5857864,12 L8.29289322,14.2928932 C7.90236893,14.6834175 7.90236893,15.3165825 8.29289322,15.7071068 C8.68341751,16.0976311 9.31658249,16.0976311 9.70710678,15.7071068 L12,13.4142136 L14.2928932,15.7071068 C14.6834175,16.0976311 15.3165825,16.0976311 15.7071068,15.7071068 C16.0976311,15.3165825 16.0976311,14.6834175 15.7071068,14.2928932 L13.4142136,12 L15.7071068,9.70710678 C16.0976311,9.31658249 16.0976311,8.68341751 15.7071068,8.29289322 C15.3165825,7.90236893 14.6834175,7.90236893 14.2928932,8.29289322 L12,10.5857864 L9.70710678,8.29289322 C9.31658249,7.90236893 8.68341751,7.90236893 8.29289322,8.29289322 Z" id="path-15"></path>
+        <circle id="path-17" cx="12" cy="12" r="12"></circle>
+    </defs>
+    <g id="reservations" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="426" height="348"></rect>
+        <g id="number" transform="translate(15.000000, 57.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#D0021B" xlink:href="#path-1"></use>
+            <g id="Group" mask="url(#mask-2)">
+                <g id="Color">
+                    <rect id="Rectangle" fill="#DF4743" x="0" y="0" width="24" height="24"></rect>
+                    <rect id="color" fill="#BD3C39" x="0" y="0" width="24" height="24"></rect>
+                </g>
+            </g>
+            <text id="1" mask="url(#mask-2)" font-family="Graphik-Medium, Graphik" font-size="16" font-weight="400" fill="#FFFFFF">
+                <tspan x="8.648" y="17">1</tspan>
+            </text>
+        </g>
+        <text id="Order-Submit:-5-Back" font-family="EncodeSansCondensed-Regular, Encode Sans Condensed" font-size="14" font-style="condensed" font-weight="normal" fill="#000000">
+            <tspan x="60.103" y="108">Order Submit:</tspan>
+            <tspan x="64.6775" y="125">5 Backpacks</tspan>
+        </text>
+        <text id="Order-Cancel:-3-Back" font-family="EncodeSansCondensed-Regular, Encode Sans Condensed" font-size="14" font-style="condensed" font-weight="normal" fill="#000000">
+            <tspan x="62.409" y="197">Order Cancel:</tspan>
+            <tspan x="65.195" y="214">3 Backpacks</tspan>
+        </text>
+        <text id="5-SKU/Stock" font-family="EncodeSansCondensed-Regular, Encode Sans Condensed" font-size="14" font-style="condensed" font-weight="normal" fill="#000000">
+            <tspan x="205.244" y="83">5 SKU/Stock</tspan>
+        </text>
+        <text id="Quantity" font-family="EncodeSansCondensed-Regular, Encode Sans Condensed" font-size="16" font-style="condensed" font-weight="normal" fill="#000000">
+            <tspan x="322.36" y="33">Quantity</tspan>
+        </text>
+        <text id="Order/Shipment" font-family="EncodeSansCondensed-Regular, Encode Sans Condensed" font-size="16" font-style="condensed" font-weight="normal" fill="#000000">
+            <tspan x="48.148" y="33">Order/Shipment</tspan>
+        </text>
+        <text id="Reservations" font-family="EncodeSansCondensed-Regular, Encode Sans Condensed" font-size="16" font-style="condensed" font-weight="normal" fill="#000000">
+            <tspan x="182.08" y="33">Reservations</tspan>
+        </text>
+        <g id="package" transform="translate(78.000000, 51.000000)">
+            <mask id="mask-4" fill="white">
+                <use xlink:href="#path-3"></use>
+            </mask>
+            <use id="Combined-Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-3"></use>
+            <g id="Group" mask="url(#mask-4)" fill="#000000">
+                <g id="COLOR/-black">
+                    <rect id="Rectangle" x="0" y="0" width="38" height="38"></rect>
+                </g>
+            </g>
+        </g>
+        <text id="Order-Ship:-2-Backpa" font-family="EncodeSansCondensed-Regular, Encode Sans Condensed" font-size="14" font-style="condensed" font-weight="normal" fill="#000000">
+            <tspan x="67.065" y="309">Order Ship:</tspan>
+            <tspan x="64.335" y="326">2 Backpacks</tspan>
+        </text>
+        <g id="package" transform="translate(77.000000, 252.000000)">
+            <mask id="mask-6" fill="white">
+                <use xlink:href="#path-5"></use>
+            </mask>
+            <use id="Combined-Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-5"></use>
+            <g id="Group" mask="url(#mask-6)" fill="#000000">
+                <g id="COLOR/-black">
+                    <rect id="Rectangle" x="0" y="0" width="38" height="38"></rect>
+                </g>
+            </g>
+        </g>
+        <g id="Group" transform="translate(173.000000, 65.000000)">
+            <mask id="mask-8" fill="white">
+                <use xlink:href="#path-7"></use>
+            </mask>
+            <use id="Combined-Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-7"></use>
+        </g>
+        <g id="Group" transform="translate(173.000000, 171.000000)">
+            <mask id="mask-10" fill="white">
+                <use xlink:href="#path-9"></use>
+            </mask>
+            <use id="Combined-Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-9"></use>
+            <g mask="url(#mask-10)" fill="#000000" id="COLOR/-black">
+                <g>
+                    <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                </g>
+            </g>
+        </g>
+        <text id="3-SKU/Stock" font-family="EncodeSansCondensed-Regular, Encode Sans Condensed" font-size="14" font-style="condensed" font-weight="normal" fill="#000000">
+            <tspan x="205.2615" y="188">3 SKU/Stock</tspan>
+        </text>
+        <text id="2-SKU/Stock" font-family="EncodeSansCondensed-Regular, Encode Sans Condensed" font-size="14" font-style="condensed" font-weight="normal" fill="#000000">
+            <tspan x="205.4015" y="292">2 SKU/Stock</tspan>
+        </text>
+        <line x1="162.5" y1="8.75454545" x2="162.5" y2="340" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></line>
+        <line x1="280.5" y1="8.75454545" x2="280.5" y2="340" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></line>
+        <text id="salable-quantity-15" font-family="EncodeSansCondensed-Regular, Encode Sans Condensed" font-size="14" font-style="condensed" font-weight="normal" fill="#000000">
+            <tspan x="300.21" y="81">salable quantity 15</tspan>
+            <tspan x="397.79" y="81" font-size="12"></tspan>
+            <tspan x="322.732" y="98" font-size="12">quantity 20</tspan>
+        </text>
+        <line x1="8.5" y1="138" x2="415" y2="135" id="Line-2" stroke="#979797" stroke-linecap="square" stroke-dasharray="3"></line>
+        <line x1="8.5" y1="236" x2="415" y2="233" id="Line-2" stroke="#979797" stroke-linecap="square" stroke-dasharray="3"></line>
+        <g id="number" transform="translate(15.000000, 167.000000)">
+            <mask id="mask-12" fill="white">
+                <use xlink:href="#path-11"></use>
+            </mask>
+            <use id="Mask" fill="#D0021B" xlink:href="#path-11"></use>
+            <g id="Group" mask="url(#mask-12)">
+                <g id="Color">
+                    <rect id="Rectangle" fill="#DF4743" x="0" y="0" width="24" height="24"></rect>
+                    <rect id="color" fill="#BD3C39" x="0" y="0" width="24" height="24"></rect>
+                </g>
+            </g>
+            <text id="1" mask="url(#mask-12)" font-family="Graphik-Medium, Graphik" font-size="16" font-weight="400" fill="#FFFFFF">
+                <tspan x="7.376" y="17">2</tspan>
+            </text>
+        </g>
+        <g id="Group" transform="translate(173.000000, 275.000000)">
+            <mask id="mask-14" fill="white">
+                <use xlink:href="#path-13"></use>
+            </mask>
+            <use id="Combined-Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-13"></use>
+            <g mask="url(#mask-14)" fill="#000000" id="COLOR/-black">
+                <g>
+                    <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                </g>
+            </g>
+        </g>
+        <g id="Group" transform="translate(84.000000, 154.000000)">
+            <mask id="mask-16" fill="white">
+                <use xlink:href="#path-15"></use>
+            </mask>
+            <use id="Combined-Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-15"></use>
+            <g mask="url(#mask-16)" fill="#000000" id="COLOR/-black">
+                <g>
+                    <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                </g>
+            </g>
+        </g>
+        <text id="salable-quantity-18" font-family="EncodeSansCondensed-Regular, Encode Sans Condensed" font-size="14" font-style="condensed" font-weight="normal" fill="#000000">
+            <tspan x="300.0485" y="185">salable quantity 18</tspan>
+            <tspan x="398.9515" y="185" font-size="12"></tspan>
+            <tspan x="323.232" y="202" font-size="12">quantity 20</tspan>
+        </text>
+        <g id="number" transform="translate(15.000000, 275.000000)">
+            <mask id="mask-18" fill="white">
+                <use xlink:href="#path-17"></use>
+            </mask>
+            <use id="Mask" fill="#D0021B" xlink:href="#path-17"></use>
+            <g id="Group" mask="url(#mask-18)">
+                <g id="Color">
+                    <rect id="Rectangle" fill="#DF4743" x="0" y="0" width="24" height="24"></rect>
+                    <rect id="color" fill="#BD3C39" x="0" y="0" width="24" height="24"></rect>
+                </g>
+            </g>
+            <text id="1" mask="url(#mask-18)" font-family="Graphik-Medium, Graphik" font-size="16" font-weight="400" fill="#FFFFFF">
+                <tspan x="7.016" y="17">3</tspan>
+            </text>
+        </g>
+        <text id="salable-quantity-18" font-family="EncodeSansCondensed-Regular, Encode Sans Condensed" font-size="14" font-style="condensed" font-weight="normal" fill="#000000">
+            <tspan x="300.0485" y="290">salable quantity 18</tspan>
+            <tspan x="398.9515" y="290" font-size="12"></tspan>
+            <tspan x="323.994" y="307" font-size="12">quantity 18</tspan>
+        </text>
+        <text id="reservations-cleared" font-family="EncodeSansCondensed-Regular, Encode Sans Condensed" font-size="10" font-style="condensed" font-weight="normal" fill="#000000">
+            <tspan x="184.16" y="338">reservations cleared</tspan>
+        </text>
+        <text id="quantities-updated" font-family="EncodeSansCondensed-Regular, Encode Sans Condensed" font-size="10" font-style="condensed" font-weight="normal" fill="#000000">
+            <tspan x="316.3875" y="338">quantities updated</tspan>
+        </text>
+    </g>
+</svg>
