@@ -17,15 +17,17 @@ This guide covers:
 
 | Subject | Description |
 | ------- | ----------- |
-| [Introduction](introduction.md) | # |
-| [Release Notes](release-notes.md) | # |
+| [Introduction](introduction.md) | What is Page Builder? And how does it enhance content creation for Adobe Commerce and Magento Open Source sites?|
+| [Release Notes](release-notes.md) | Review the updates provided in each Page Builder module release. |
 | [Setup](setup.md) | To update default settings, you can change the default page layout and enable more advance Page Builder features. You can also integrate Google Maps to incorporate location content in your pages. |
 | [Workspace](workspace.md) | Review the components of the Page Builder workspace and how they enable you to create engaging content for your stores. |
-| Walkthroughs | If you are just getting started with Page Builder, you can get up to speed quickly by completing the walkthrough exercises and building a sample page, reusable content block, and catalog page for product listings. |
-| Layout | Explore the Layout section of the Page Builder panel, and how to use these tools to add rows, columns, or tabs to the Page Builder stage. |
-| Elements | Explore the Elements section of the Page Builder panel, and how to use these tools to add text, headings, buttons, dividers, and HTML code to any layout container on the Page Builder stage. |
-| Media | Explore the Media section of the Page Builder panel, and how to use these tools to add images, video, banners, sliders, and Google Maps to any layout container on the Page Builder stage. |
-| Add Content | Explore the Add Content section of the Page Builder panel, and how to add existing content components to the Page Builder stage. |
+| Walkthroughs | If you are just getting started with Page Builder, you can get up to speed quickly by completing the walkthrough exercises and building a [sample page](1-simple-page.md), [reusable content block](2-blocks.md), and [catalog page for product listings](3-catalog-content.md). |
+| [Workspace](workspace.md) | Explore the tools available in the Page Builder workspace when you create basic pages, product and catalog pages, blocks, and dynamic blocks.|
+| Layout | Explore the _Layout_ section of the Page Builder panel, and how to use these tools to add [rows](row.md), [columns](column.md), or [tabs](tabs.md) to the Page Builder stage. |
+| Elements | Explore the _Elements_ section of the Page Builder panel, and how to use these tools to add [text](text.md), [headings](heading.md), [buttons](buttons.md), [dividers](divider.md), and [HTML code](html-code.md) to any layout container on the Page Builder stage. |
+| Media | Explore the _Media_ section of the Page Builder panel, and how to use these tools to add [images](image.md), [video](video.md), [banners](banner.md), [sliders](slider.md), and [Google Maps](map.md) to any layout container on the Page Builder stage. |
+| Add Content | Explore the _Add Content_ section of the Page Builder panel, and how to add existing content components to the Page Builder stage:  |
+| [Templates] | Save your existing Page Builder content as a template, and then apply that template to another area for quick and consistent content creation. |
 
 It does not cover the core capabilities of Adobe Commerce and Magento Open Source.
 
