@@ -34,9 +34,9 @@ You can also unassign the source when transferring inventory quantities.
 
 1. Click **[!UICONTROL OK]** in the confirmation dialog.
 
-1. To transfer products to a new destination, select the origin (_from_) source.
+1. To transfer products to a new destination, select the origin (_[!UICONTROL from]_) source.
 
-1. to transfer products to a new destination, select the destination (_to_) source.
+1. to transfer products to a new destination, select the destination (_[!UICONTROL to]_) source.
 
 1. To remove the source from the products, select the optional checkbox **[!UICONTROL Unassign from origin source after transfer]**.
 

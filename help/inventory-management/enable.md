@@ -40,7 +40,7 @@ With [!DNL Inventory Management] enabled, see the following to configure all set
 
    - To manage inventory and use all [!DNL Commerce] features, set **[!UICONTROL Manage Stock]** to `Yes` (default).
 
-   - To disable [!DNL Inventory Management], deselect the **[!UICONTROL Use system value]** checkbox and set **Manage Stock** to `No`.
+   - To disable [!DNL Inventory Management], deselect the **[!UICONTROL Use system value]** checkbox and set **[!UICONTROL Manage Stock]** to `No`.
 
 1. When complete, click **[!UICONTROL Save Config]**.
 

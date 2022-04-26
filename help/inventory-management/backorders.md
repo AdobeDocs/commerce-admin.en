@@ -39,7 +39,7 @@ When customers purchase the available 25 products, new orders enter as backorder
 
 >[!NOTE]
 >
->When a customer places an order using _backorder qty_, [!DNL Inventory Management] automatically subtracts the quantity from the salable quantity. If an order is not shipped and is canceled, the quantity returns to the aggregated virtual salable quantity. The **_canceled order quantity is not assigned to any of the sources_**, but is returned to the total number of products available for sale (_Salable Quantity_ column  on the products grid).
+>When a customer places an order using _[!UICONTROL backorder qty]_, [!DNL Inventory Management] automatically subtracts the quantity from the salable quantity. If an order is not shipped and is canceled, the quantity returns to the aggregated virtual salable quantity. The **_canceled order quantity is not assigned to any of the sources_**, but is returned to the total number of products available for sale (_[!UICONTROL Salable Quantity]_ column  on the products grid).
 
 <!--### Notify for Quantity Below JIRA MDVA-8099 MDVA-33783
 

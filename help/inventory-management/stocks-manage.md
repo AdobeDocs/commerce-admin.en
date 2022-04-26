@@ -36,7 +36,7 @@ For a multi-store installation, the Default Stock is initially assigned to the [
 
 |Button|Description|
 |--|--|
-|[!UICONTROL Add New Stock]|Opens the New Stock form that is used to enter a new inventory stock for mapping inventory to sales channel.|
+|[!UICONTROL Add New Stock]|Opens the _[!UICONTROL New Stock]_ form that is used to enter a new inventory stock for mapping inventory to sales channel.|
 
 ## Manage Stock column descriptions
 
@@ -44,6 +44,6 @@ For a multi-store installation, the Default Stock is initially assigned to the [
 |--|--|
 |[!UICONTROL ID]|Unique, numeric ID generated for the stock entry.|
 |[!UICONTROL Name]|Unique name that identifies the inventory stock.|
-|[!UICONTROL Sales Channels]|Defines the [scope](https://docs.magento.com/user-guide/configuration/scope.html){target="_blank"} of the stock by assigning the stock to specific websites as _sales channels_.|
+|[!UICONTROL Sales Channels]|Defines the scope of the stock by assigning the stock to specific websites as _sales channels_.|
 |[!UICONTROL Assigned sources]|Sources assigned to the stock that supply all product quantities.|
 |[!UICONTROL Action]|**[!UICONTROL Edit]** - Opens the inventory stock record in edit mode.|

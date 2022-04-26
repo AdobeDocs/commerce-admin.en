@@ -24,7 +24,7 @@ After adding new custom sources, you can add [inventory quantities per product](
 
 1. For all sources that you want to add to the products, select the checkboxes.
 
-1. Click **Assign Sources**.  
+1. Click **[!UICONTROL Assign Sources]**.  
 
     ![Select products to add sources](assets/inventory-bulk-assign-sources-summary.png)
 

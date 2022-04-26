@@ -75,7 +75,7 @@ The key is from the [Google Maps Platform][1] and should have [Geocoding API][2]
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the _[!UICONTROL Google Distance Provider]_ section and configure the settings:
 
-   - For **[!UICONTROL Google API Key]**, enter the key copied from your Google Account.
+   - For **[!UICONTROL Google API Key]**, enter the key copied from your Google account.
 
    - For **[!UICONTROL Computation mode]**, select a configuration.
 

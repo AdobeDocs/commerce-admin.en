@@ -37,7 +37,7 @@ Quantity is the number of products in your active inventory that is available fo
 
 Reservations track stock requests for the entire shopping process---adding products to cart, completing checkout, and managing refunds. For available inventory and stock, reservations reserve inventory amounts per order through the checkout process, subtracted from the salable quantity. Reservations convert to quantity deductions when invoicing and shipping products.
 
-Salable Quantity calculates the virtual inventory of products (or availability), using configured thresholds, reserved or sold amounts, and quantities per source. For each stock, [!DNL Commerce] accesses all assigned sources and aggregates associated product quantities. With this base value, it then subtracts all reservation amounts and the _Notify for Quantity Below_ threshold.
+Salable Quantity calculates the virtual inventory of products (or availability), using configured thresholds, reserved or sold amounts, and quantities per source. For each stock, [!DNL Commerce] accesses all assigned sources and aggregates associated product quantities. With this base value, it then subtracts all reservation amounts and the _[!UICONTROL Notify for Quantity Below]_ threshold.
 
 ![Calculating the salable quantity for a stock](assets/diagram-salable-quantity.png)
 
@@ -47,8 +47,8 @@ Every product, source, and stock includes several options to configure for your 
 
 The following are important options to understand for [!DNL Inventory Management]:
 
-- **Out-of-Stock Threshold** - Sets an amount to subtract from your Salable Quantity. If you enable Backorders, this value is not deducted from the Salable Quantity.
-- **Backorders** - Determines if products can be sold beyond a zero inventory, saving orders until restocked. When backorders are enabled, configuring the Out-of-Stock Threshold is recommended.
+- **[!UICONTROL Out-of-Stock Threshold]** - Sets an amount to subtract from your Salable Quantity. If you enable Backorders, this value is not deducted from the Salable Quantity.
+- **[!UICONTROL Backorders]** - Determines if products can be sold beyond a zero inventory, saving orders until restocked. When backorders are enabled, configuring the [!UICONTROL Out-of-Stock Threshold] is recommended.
 
 >[!NOTE]
 >

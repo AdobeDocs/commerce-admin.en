@@ -44,21 +44,21 @@ The following tables detail order and credit memo status with reservation change
 
 |Order Status|Description|Reservation for Salable Quantity|
 |--|--|--|
-|Open|New and recently submitted, no processing|Reservation is saved when order is submitted for the stock.|
-|Canceled|Canceled in partial or full before payment|Reservation compensation is entered to return partial or full quantity back to the stock salable quantity.|
-|On Hold|Payment and shipping not processed or invoiced|Reservation stays in place.|
-|Suspected Fraud|Not processed due to fraud|If approved or in review, the reservation stays in place.<br/>If declined, the reservation stays in place until the merchant makes a decision.<br/>If canceled, the reservation compensation is entered to return full quantity back to the stock salable quantity.|
-|Pending|Waiting for payment|The reservation stays in place.|
-|Processing|Payment processing, not received|The reservation stays in place.|
-|Pending Payment|Payment not received|The reservation stays in place.|
-|Payment Review|Payment being reviewed for processing and completion|The reservation stays in place.|
-|Complete|Paid and shipped in full|The reservation amount is deducted from the product quantity for the selected source when invoiced partial or in full. The reservation compensation is entered to update the total salable quantity.|
-|Closed|Refunded or archived|If archived, there is no change in quantities. If refunded in partial or full, the reservation compensation is entered and converted to add back product quantities per source and salable quantity per stock.|
+|[!UICONTROL Open]|New and recently submitted, no processing|Reservation is saved when order is submitted for the stock.|
+|[!UICONTROL Canceled]|Canceled in partial or full before payment|Reservation compensation is entered to return partial or full quantity back to the stock salable quantity.|
+|[!UICONTROL On Hold]|Payment and shipping not processed or invoiced|Reservation stays in place.|
+|[!UICONTROL Suspected Fraud]|Not processed due to fraud|If approved or in review, the reservation stays in place.<br/>If declined, the reservation stays in place until the merchant makes a decision.<br/>If canceled, the reservation compensation is entered to return full quantity back to the stock salable quantity.|
+|[!UICONTROL Pending]|Waiting for payment|The reservation stays in place.|
+|[!UICONTROL Processing]|Payment processing, not received|The reservation stays in place.|
+|[!UICONTROL Pending Payment]|Payment not received|The reservation stays in place.|
+|[!UICONTROL Payment Review]|Payment being reviewed for processing and completion|The reservation stays in place.|
+|[!UICONTROL Complete]|Paid and shipped in full|The reservation amount is deducted from the product quantity for the selected source when invoiced partial or in full. The reservation compensation is entered to update the total salable quantity.|
+|[!UICONTROL Closed]|Refunded or archived|If archived, there is no change in quantities. If refunded in partial or full, the reservation compensation is entered and converted to add back product quantities per source and salable quantity per stock.|
 
 |Credit Memo Status|Description|Reservation for Salable Quantity|
 |--|--|--|
-|Open|The refund is due, not completed|There is no change in reservations.|
-|Refunded|Completed, funds returned|If refunded in partial or full, the reservation compensation is entered and converted to add back product quantities per source and salable quantity per stock.|
+|[!UICONTROL Open]|The refund is due, not completed|There is no change in reservations.|
+|[!UICONTROL Refunded]|Completed, funds returned|If refunded in partial or full, the reservation compensation is entered and converted to add back product quantities per source and salable quantity per stock.|
 
 ## Example complex order
 

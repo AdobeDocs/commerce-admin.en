@@ -24,7 +24,7 @@ The in-stock alert creates a link called _Notify me when this product is in stoc
 
 1. In the left panel, expand **[!UICONTROL Catalog]** and choose **[!UICONTROL Catalog]** underneath.
 
-1. Click to expand the _Product Alerts_ section and do the following:
+1. Click to expand the _[!UICONTROL Product Alerts]_ section and do the following:
 
     ![Product Alerts](assets/config-catalog-product-alerts.png)
 
@@ -54,7 +54,7 @@ For more detailed information about using email messaging, see [Message Template
 
 1. Click **[!UICONTROL Add New Template]**.
 
-1. Under _Load default template_, choose the **Template** that you want to customize.
+1. Under _Load default template_, choose the **[!UICONTROL Template]** that you want to customize.
 
    You might choose the alert template included with your theme. Or you can select the `Price Alert` or `Stock Alert` templates under _[!UICONTROL Magento_PriceAlert]_.
 

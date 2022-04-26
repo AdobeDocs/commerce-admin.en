@@ -40,11 +40,11 @@ When you install Magento Open Source 2.4.x or Adobe Commerce 2.4.x, the followin
 
 - [!DNL Inventory Management] supports B2B catalogs. Currently, all B2B products must be assigned to the Default Source and Default Stock.
 
-## [!DNL Commerce] Order Management and Inventory Management
+## [!DNL Commerce Order Management] and [!DNL Inventory Management]
 
-[Commerce Order Management (MCOM)][1] is not compatible with the Inventory Management. When installed, MCOM modules provide all inventory management features to [!DNL Commerce], including single- and multi-source management, stocks, reservations, and more. The [!DNL Inventory Management] modules are disabled by default.
+[Commerce Order Management (MCOM)][1] is not compatible with the [!DNL Inventory Management]. When installed, MCOM modules provide all inventory management features to [!DNL Commerce], including single- and multi-source management, stocks, reservations, and more. The [!DNL Inventory Management] modules are disabled by default.
 
-MCOM provides extensive features and services for advanced omnichannel order management, global inventory and multisourcing, store to warehouse fulfillment, and centralized customer service. For a complete list of features, see the [MCOM Feature list][2].
+MCOM provides extensive features and services for advanced omnichannel order management, global inventory and multi-sourcing, store to warehouse fulfillment, and centralized customer service. For a complete list of features, see the [MCOM Feature list][2].
 
 [!DNL Inventory Management] extends existing [!DNL Commerce] features with additional options to track in-process orders, on-hand inventory, available inventory for a stock, and APIs for extension development.
 
