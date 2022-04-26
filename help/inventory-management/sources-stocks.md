@@ -16,7 +16,7 @@ A source can have priority in the scope of stock in one warehouse, but not neces
 
 In this example, the merchant has a mountain bike available for shipment from stores, warehouses, and a drop shipper.
 
-![Example sources diagram](assets/inventory-diagram-sources.png)
+![Example sources diagram](assets/diagram-sources.png)
 
 ## Stocks
 
@@ -26,7 +26,7 @@ Sales Channels represent entities selling your inventory, including websites, st
 
 You start with a Default Stock assigned with the Default Source and your website, best used by single-source merchants. Only the Default Source can be assigned to this stock. Multi-source merchants create custom stocks for custom sources and websites as needed.
 
-![Diagram for example stocks for a store](assets/inventory-diagram-stock.png)
+![Diagram for example stocks for a store](assets/diagram-stock.png)
 
 ## Product quantities
 
@@ -39,7 +39,7 @@ Reservations track stock requests for the entire shopping process---adding produ
 
 Salable Quantity calculates the virtual inventory of products (or availability), using configured thresholds, reserved or sold amounts, and quantities per source. For each stock, [!DNL Commerce] accesses all assigned sources and aggregates associated product quantities. With this base value, it then subtracts all reservation amounts and the _Notify for Quantity Below_ threshold.
 
-![Calculating the salable quantity for a stock](assets/inventory-diagram-salable-quantity.png)
+![Calculating the salable quantity for a stock](assets/diagram-salable-quantity.png)
 
 ## Inventory configurations
 
