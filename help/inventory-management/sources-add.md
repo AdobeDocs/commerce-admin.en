@@ -78,7 +78,7 @@ If editing the Default Source, you can edit all configurations except name and c
 
     - To save your work and continue editing, click **[!UICONTROL Save & Continue]**.
 
-    - To save your work and return to the Manage Sources page, click the down arrow ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png)<!-- set width 25px --> ) and choose **[!UICONTROL Save & Close]**.
+    - To save your work and return to the Manage Sources page, click the down arrow (![Menu arrow](../assets/icon-menu-down-arrow-red.png)) and choose **[!UICONTROL Save & Close]**.
 
     - To save your work on the current source record and enter a new source, choose **[!UICONTROL Save & New]**.
 

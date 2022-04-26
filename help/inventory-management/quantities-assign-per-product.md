@@ -33,7 +33,7 @@ All updated quantities and sources display in the product grid.
 
    - Click **[!UICONTROL Save]**.
 
-   - On the **[!UICONTROL Save]** (![Menu arrow](../assets/icon-menu-down-arrow-red.png)<!-- set width 25px --> menu, choose **[!UICONTROL Save & Close]**.
+   - On the **[!UICONTROL Save]** (![Menu arrow](../assets/icon-menu-down-arrow-red.png)) menu, choose **[!UICONTROL Save & Close]**.
 
 
 The Product Grid updates with a list of all sources and related quantities. For products with more than five assigned sources, hover over the _[!UICONTROL Quantity per Source]_ column to see the full list.

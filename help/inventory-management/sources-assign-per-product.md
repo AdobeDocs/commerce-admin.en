@@ -35,6 +35,6 @@ Before modifying quantities and settings, you must assign [sources](sources-mana
 1. Do one of the following to save:
 
    - Click **[!UICONTROL Save]**.
-   - On the _[!UICONTROL Save]_ ( ![menu arrow](../assets/icon-menu-down-arrow-red.png)<!-- set width 25px --> ) menu, choose **[!UICONTROL Save & Close]**.
+   - On the _[!UICONTROL Save]_ (![menu arrow](../assets/icon-menu-down-arrow-red.png)) menu, choose **[!UICONTROL Save & Close]**.
 
 After assigning sources, update the [inventory quantity](quantities-assign-per-product.md) for each product source.

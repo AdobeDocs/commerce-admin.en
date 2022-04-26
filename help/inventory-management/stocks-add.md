@@ -52,7 +52,7 @@ After adding sources, you must prioritize the order for the sources from top (fi
 
    ![Assigned Sources Example](assets/inventory-stock-priority-after.png)
 
-1. On the _[!UICONTROL Save]_ (![Menu arrow](../assets/icon-menu-down-arrow-red.png)<!-- set width 25pc --> ) menu, choose **[!UICONTROL Save & Close]**.
+1. On the _[!UICONTROL Save]_ (![Menu arrow](../assets/icon-menu-down-arrow-red.png)) menu, choose **[!UICONTROL Save & Close]**.
 
 ## Field descriptions
 
