@@ -515,7 +515,7 @@ If you want a title above the slider, simply add a [Text content type] above the
 
 1. Complete the [Advanced](#slider-advanced) slider settings as needed.
 
-1. When complete, click **[!UICONTROL Save]** to apply the settings and return to the Page Builder workspace.
+1. When complete, click **[!UICONTROL Save]** to apply the settings and return to the [!DNL Page Builder] workspace.
 
 ### Advanced - slider {#slider-advanced}
 
