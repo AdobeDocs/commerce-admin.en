@@ -1,6 +1,6 @@
 ---
-title: Release Notes for [!DNL Page Builder]
-description: description: Review the release notes for information about all [!DNL Page Builder] releases.
+title: "Release Notes for [!DNL Page Builder]"
+description: Review the release notes for information about all [!DNL Page Builder] releases.
 ---
 
 # Release notes for [!DNL Page Builder]
