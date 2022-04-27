@@ -5,11 +5,11 @@ redirect_from:
    recommendations/page-builder-add-product-recs.html
 ---
 
-Use the _Product Recommendations_ content type to add an existing, active [recommendation unit](https://docs.magento.com/user-guide/recommendations/create.html) to the [Page Builder stage](workspace.md#stage) for a CMS page, block, or dynamic block.
+Use the _Product Recommendations_ content type to add an existing, active [recommendation unit](https://docs.magento.com/user-guide/recommendations/create.html) to the [[!DNL Page Builder] stage](workspace.md#stage) for a CMS page, block, or dynamic block.
 
 >[!NOTE]
 >
->The Page Builder _Product Recommendations_ content type is supported in Adobe Commerce 2.3.1 and later and available in the [Product Recommendations metapackage versions 3.0.x or later](https://marketplace.magento.com/magento-product-recommendations.html). To add Page Builder support for Product Recommendations, [see the installation information](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html#pbsupport). This type is not available for Magento Open  Source.
+>The [!DNL Page Builder] _Product Recommendations_ content type is supported in Adobe Commerce 2.3.1 and later and available in the [Product Recommendations metapackage versions 3.0.x or later](https://marketplace.magento.com/magento-product-recommendations.html). To add [!DNL Page Builder] support for Product Recommendations, [see the installation information](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html#pbsupport). This type is not available for Magento Open  Source.
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -26,38 +26,38 @@ Use the _Product Recommendations_ content type to add an existing, active [recom
 
 ## Add an existing recommendation unit
 
-1. Make sure you have already [created a recommendation unit](https://docs.magento.com/user-guide/recommendations/create.html) for the Page Builder page type.
+1. Make sure you have already [created a recommendation unit](https://docs.magento.com/user-guide/recommendations/create.html) for the [!DNL Page Builder] page type.
 
 >[!NOTE]
 >
->You can create recommendation units for the Page Builder page type only in the default store view.
+>You can create recommendation units for the [!DNL Page Builder] page type only in the default store view.
 
 1. Open the page, block, or dynamic block in edit mode.
 
-1. Expand the _Content_ section and click **Edit with Page Builder** or inside the content preview area to open the Page Builder workspace.
+1. Expand the _[!UICONTROL Content]_ section and click **[!UICONTROL Edit with Page Builder]** or inside the content preview area to open the [!DNL Page Builder] workspace.
 
-1. In the Page Builder panel under _Layout_, drag a **Row** placeholder to the stage.
+1. In the [!DNL Page Builder] panel under _[!UICONTROL Layout]_, drag a **[!UICONTROL Row]** placeholder to the stage.
 
-1. In the Page Builder panel under _Add Content_, drag a **Product Recommendation** placeholder to the row.
+1. In the [!DNL Page Builder] panel under _[!UICONTROL Add Content]_, drag a **[!UICONTROL Product Recommendation]** placeholder to the row.
 
    ![Adding the Product Recommendation content type](./assets/pb-add-prex-drag.png)<!-- zoom -->
 
 1. Do one of the following:
 
-   - Click **Edit Product Recommendation**.
+   - Click **[!UICONTROL Edit Product Recommendation]**.
    - Hover over the empty container to display the toolbox and click the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon.
 
    ![Edit Product Recommendation](./assets/pb-prex-toolbox.png)<!-- zoom -->
 
-1. In the _Selection_ section, click **Select**.
+1. In the _[!UICONTROL Selection]_ section, click **[!UICONTROL Select]**.
 
-1. In the list of active product recommendations, find the row with the recommendation unit that you want to add and click **Select** in the last column.
+1. In the list of active product recommendations, find the row with the recommendation unit that you want to add and click **[!UICONTROL Select]** in the last column.
 
    ![Selected Product Recommendation](./assets/pb-prex-select.png)<!-- zoom -->
 
-1. In the upper-right corner, click **Add Selected**.
+1. In the upper-right corner, click **[!UICONTROL Add Selected]**.
 
-   The name of the selected product recommendation appears in the _Selection_ section of the _Edit Product Recommendation_ page.
+   The name of the selected product recommendation appears in the _[!UICONTROL Selection]_ section of the _[!UICONTROL Edit Product Recommendation]_ page.
 
 1. Make any changes necessary to the [Advanced settings](#advanced-settings).
 
@@ -67,19 +67,19 @@ Use the _Product Recommendations_ content type to add an existing, active [recom
 
    - If working with a fully maximized browser window, click the _Close Full Screen_ (![Close full screen icon](./assets/pb-icon-reduce.png)) icon in the upper-right corner of the workspace.
 
-   - Click **Save** to apply the settings and return to the Page Builder workspace.
+   - Click **[!UICONTROL Save]** to apply the settings and return to the [!DNL Page Builder] workspace.
 
    When you return to the stage, product placeholder images appear in the container.
 
 ## Edit recommendation unit settings
 
-1. Hover over the recommendation unit container to display the toolbox and click the **Settings** (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon.
+1. Hover over the recommendation unit container to display the toolbox and click the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon.
 
    ![Recommendation Toolbox](./assets/pb-placeholder-toolbox.png)<!-- zoom -->
 
 1. Make any changes necessary to the [Advanced settings](#advanced-settings).
 
-1. When complete, click **Save** to apply the settings and return to the Page Builder workspace.
+1. When complete, click **[!UICONTROL Save]** to apply the settings and return to the [!DNL Page Builder] workspace.
 
 ## Duplicate a recommendation unit
 
@@ -97,51 +97,51 @@ Use the _Product Recommendations_ content type to add an existing, active [recom
 
 1. Hover over the recommendation unit container and click the _Remove_ (![Remove icon](./assets/pb-icon-remove.png)) icon in the toolbox.
 
-1. When prompted to confirm, click **OK**.
+1. When prompted to confirm, click **[!UICONTROL OK]**.
 
 ## Advanced settings
 
-1. To control the positioning of the Product Recommendations unit within the parent container, choose the **Alignment**:
+1. To control the positioning of the Product Recommendations unit within the parent container, choose the **[!UICONTROL Alignment]**:
 
    | Option | Description |
    | ------ | ----------- |
-   | Default | Applies the alignment default setting that is specified in the style sheet of the current theme. |
-   | Left | Aligns the unit along the left border of the parent container, with allowance for any padding that is specified. |
-   | Center | Aligns the unit in the center of the parent container, with allowance for any padding that is specified. |
-   | Right | Aligns the unit along the right border of the parent container, with allowance for any padding that is specified. |
+   | `Default` | Applies the alignment default setting that is specified in the style sheet of the current theme. |
+   | `Left` | Aligns the unit along the left border of the parent container, with allowance for any padding that is specified. |
+   | `Center` | Aligns the unit in the center of the parent container, with allowance for any padding that is specified. |
+   | `Right` | Aligns the unit along the right border of the parent container, with allowance for any padding that is specified. |
 
-1. Set the **Border** style that is applied to all four sides of the Product Recommendations unit:
+1. Set the **[!UICONTROL Border]** style that is applied to all four sides of the Product Recommendations unit:
 
    | Option | Description |
    | ------ | ----------- |
-   | Default | Applies the default border style that is specified by the associated style sheet. |
-   | None | Does not provide any visible indication of the unit borders. |
-   | Dotted | The unit border appears as a dotted line. |
-   | Dashed | The unit border appears as a dashed line. |
-   | Solid | The unit border appears as a solid line. |
-   | Double | The unit border appears as a double line. |
-   | Groove | The unit border appears as a grooved line. |
-   | Ridge | The unit border appears as a ridged line. |
-   | Inset | The unit border appears as an inset line. |
-   | Outset | The unit border appears as an outset line. |
+   | `Default` | Applies the default border style that is specified by the associated style sheet. |
+   | `None` | Does not provide any visible indication of the unit borders. |
+   | `Dotted` | The unit border appears as a dotted line. |
+   | `Dashed` | The unit border appears as a dashed line. |
+   | `Solid` | The unit border appears as a solid line. |
+   | `Double` | The unit border appears as a double line. |
+   | `Groove` | The unit border appears as a grooved line. |
+   | `Ridge` | The unit border appears as a ridged line. |
+   | `Inset` | The unit border appears as an inset line. |
+   | `Outset` | The unit border appears as an outset line. |
 
 1. If you set a border style other than `None`, complete the border display options:
 
-   - **Border Color** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
+   - **[!UICONTROL Border Color]** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
 
-   - **Border Width** - Enter the number of pixels for the border line width.
+   - **[!UICONTROL Border Width]** - Enter the number of pixels for the border line width.
 
-   - **Border Radius** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
+   - **[!UICONTROL Border Radius]** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
 
-1. (Optional) Specify the names of **CSS classes** from the current style sheet to apply to the unit.
+1. (Optional) Specify the names of **[!UICONTROL CSS classes]** from the current style sheet to apply to the unit.
 
    Separate multiple class names with a space.
 
-1. Enter values, in pixels, for the **Margins and Padding** to determine the outer margins and inner padding of the unit.
+1. Enter values, in pixels, for the **[!UICONTROL Margins and Padding]** to determine the outer margins and inner padding of the unit.
 
    Enter the corresponding values in the diagram.
 
    | Container area | Description |
    | ------ | ----------- |
-   | Margins | The amount of blank space that is applied to the outside edge of all sides of the unit. Options: Top / Right / Bottom / Left |
-   | Padding | The amount of blank space that is applied to the inside edge of all sides of the unit. Options: Top / Right / Bottom / Left |
+   | [!UICONTROL Margins] | The amount of blank space that is applied to the outside edge of all sides of the unit. Options: `Top` / `Right` / `Bottom` / `Left` |
+   | [!UICONTROL Padding] | The amount of blank space that is applied to the inside edge of all sides of the unit. Options: `Top` / `Right` / `Bottom` / `Left` |

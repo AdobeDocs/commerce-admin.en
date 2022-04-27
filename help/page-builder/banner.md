@@ -1,10 +1,10 @@
 ---
 title: Media - Banner
-description: Learn about the Banner content type used for adding an illustrated, interactive component in the Page Builder stage.
+description: Learn about the Banner content type used for adding an illustrated, interactive component in the [!DNL Page Builder] stage.
 ---
 # Media - Banner
 
-Use the _Banner_ content type to add an illustrated, interactive component that engages users with a call to action and button in the [Page Builder stage](workspace.md#stage).
+Use the _Banner_ content type to add an illustrated, interactive component that engages users with a call to action and button in the [[!DNL Page Builder] stage](workspace.md#stage).
 
 >[!NOTE]
 >
@@ -29,16 +29,16 @@ The banner toolbox appears when you hover over the banner container.
 |Show|![Show icon](./assets/pb-icon-show.png)<!-- width="25px" -->|Shows the  hidden banner.|
 |Duplicate|![Duplicate icon](./assets/pb-icon-duplicate.png)<!-- width="25px" -->|Makes a copy of the banner.|
 |Remove|![Remove icon](./assets/pb-icon-remove.png)<!-- width="25px" -->|Deletes the banner from the stage.|
-|Upload New Image||Uploads an image from your local file system to the gallery for the banner background.|
-|Select from Gallery||Uses an existing image from the gallery for the banner background.|
+|[!UICONTROL Upload New Image]||Uploads an image from your local file system to the gallery for the banner background.|
+|[!UICONTROL Select from Gallery]||Uses an existing image from the gallery for the banner background.|
 
 ## Add a banner
 
-1. In the Page Builder panel, expand **Media** and drag a **Banner** placeholder to the stage.
+1. In the [!DNL Page Builder] panel, expand **[!UICONTROL Media]** and drag a **[!UICONTROL Banner]** placeholder to the stage.
 
    ![Dragging a banner content type to the stage](./assets/pb-tutorial1-banner-drag-to-stage.png)<!-- zoom -->
 
-   The _Upload Image_ and _Select from Gallery_ buttons are included so you can make quick changes to the banner content directly from the stage. You can also change the content on the _Edit Banner_ page.
+   The _[!UICONTROL Upload Image]_ and _[!UICONTROL Select from Gallery]_ buttons are included so you can make quick changes to the banner content directly from the stage. You can also change the content on the _[!UICONTROL Edit Banner]_ page.
 
 1. Click in the banner placeholder to display the [text editor](https://docs.magento.com/user-guide/cms/editor.html) and enter content for the banner.
 
@@ -50,16 +50,16 @@ The banner toolbox appears when you hover over the banner container.
 
 1. Use the following sections for detailed information about updating the available settings:
 
-   - [Appearance](#appearance)
-   - [Content](#content)
-   - [Background](#background)
-   - [Advanced](#advanced)
+   - [[!UICONTROL Appearance]](#appearance)
+   - [[!UICONTROL Content]](#content)
+   - [[!UICONTROL Background]](#background)
+   - [[!UICONTROL Advanced]](#advanced)
 
-1. When complete, click **Save** in the upper-right corner to close the _Edit Banner_ page.
+1. When complete, click **[!UICONTROL Save]** in the upper-right corner to close the _[!UICONTROL Edit Banner]_ page.
 
-1. In the upper-right corner, click **Save** to apply the settings and return to the Page Builder workspace.
+1. In the upper-right corner, click **[!UICONTROL Save]** to apply the settings and return to the [!DNL Page Builder] workspace.
 
-## Appearance
+## [!UICONTROL Appearance]
 
 Banners are easy to set up and maintain, because they are based on one of four predefined templates.
 
@@ -67,24 +67,24 @@ Banners are easy to set up and maintain, because they are based on one of four p
 
    | Placement | Description |
    | --------- | ----------- |
-   | Poster | Centers content and button on the banner. The overlay, if used, extends the full width of the banner. |
-   | Collage Left | Places content and button in a defined area on the left side of the banner. The overlay, if used, covers only the defined area. |
-   | Collage Center | Places content and button in a defined area that is centered on the banner. The overlay, if used, covers only the defined area. |
-   | Collage Right | Places content and button in a defined area on the right side of the banner. The overlay, if used, covers only the defined area. |
+   | [!UICONTROL Poster] | Centers content and button on the banner. The overlay, if used, extends the full width of the banner. |
+   | [!UICONTROL Collage Left] | Places content and button in a defined area on the left side of the banner. The overlay, if used, covers only the defined area. |
+   | [!UICONTROL Collage Center] | Places content and button in a defined area that is centered on the banner. The overlay, if used, covers only the defined area. |
+   | [!UICONTROL Collage Right] | Places content and button in a defined area on the right side of the banner. The overlay, if used, covers only the defined area. |
 
    ![Appearance - collage right](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png)<!-- zoom -->
 
-- (Optional) Enter the **Minimum Height** for the row.
+- (Optional) Enter the **[!UICONTROL Minimum Height]** for the row.
 
    The minimum height can be a number with any valid CSS unit (such as `100px`, `50%`, `50em`, `100vh`) or a calculation (such as `100vh - 237px`).
 
    For example, you can set the minimum height of a banner to stretch the full height of the page, giving you compelling options for full-page background images and videos.
 
-## Background
+## [!UICONTROL Background]
 
 There are many options for defining the background display of a banner. You can apply a simple color or background image, and manage more sophisticated effects.
 
-### Background Color
+### [!UICONTROL Background Color]
 
 Specify the background color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value. This setting determines the background color of the row. You can also adjust the opacity of the color.
 
@@ -106,11 +106,11 @@ If you click the color box to open the color picker again, the box below the sli
 
 >[!NOTE]
 >
->Page Builder also supports a transparency layer, or _alpha channel_, in background images that can be used to create backgrounds with varying degrees of opacity.
+>[!DNL Page Builder] also supports a transparency layer, or _alpha channel_, in background images that can be used to create backgrounds with varying degrees of opacity.
 
-### Background Type
+### [!UICONTROL Background Type]
 
-A background type can be an image or a video. Page Builder defaults to `Image` and shows various image settings. If you select `Video`, Page Builder swaps the image settings with video settings. Both background type settings are described in the following sections.
+A background type can be an image or a video. [!DNL Page Builder] defaults to `Image` and shows various image settings. If you select `Video`, [!DNL Page Builder] swaps the image settings with video settings. Both background type settings are described in the following sections.
 
 ![Background type](./assets/pb-background-type.png)<!-- zoom -->
 
@@ -120,50 +120,50 @@ If you set the _Background Type_ to `Image`, use the following settings to defin
 
 ![Banner with background image](./assets/pb-tutorial1-banner-background.png)<!-- zoom -->
 
-- **Background Image** - If needed, use the provided tools to choose a background image to apply to the banner:
+- **[!UICONTROL Background Image]** - If needed, use the provided tools to choose a background image to apply to the banner:
 
    | Tool | Description |
    | ---- | ----------- |
-   | Upload | Uploads an image file from your local computer to the gallery and then applies it as the background image for the banner. |
-   | Select from Gallery | Prompts you to choose an existing image from the gallery as the background image for the banner. |
+   | [!UICONTROL Upload] | Uploads an image file from your local computer to the gallery and then applies it as the background image for the banner. |
+   | [!UICONTROL Select from Gallery] | Prompts you to choose an existing image from the gallery as the background image for the banner. |
    | ![Camera icon](./assets/pb-icon-camera.png)<!-- width="25px" --> | Allows you to either drag the image to the camera tile or browse to the image in your local file system. |
 
-- **Background Mobile Image** - If needed, use the same tools to choose a different background image to be used for display on mobile devices.
+- **[!UICONTROL Background Mobile Image]** - If needed, use the same tools to choose a different background image to be used for display on mobile devices.
 
-- **Background Size** - Set this option to determine how the background image is scaled in relation to the width of the banner:
+- **[!UICONTROL Background Size]** - Set this option to determine how the background image is scaled in relation to the width of the banner:
 
    | Option | Description |
    | ------ | ----------- |
-   | Cover | The background image covers the full width of the banner. |
-   | Contain | The background image is limited to the width of the content area. |
-   | Auto | Applies the size from the current style sheet. |
+   | `Cover` | The background image covers the full width of the banner. |
+   | `Contain` | The background image is limited to the width of the content area. |
+   | `Auto` | Applies the size from the current style sheet. |
 
    ![Background size](./assets/pb-layout-row-settings-background-size-cover.png)<!-- zoom -->
 
-- **Background Position** - Set this option to determine how the background image is anchored in relation to the banner:
+- **[!UICONTROL Background Position]** - Set this option to determine how the background image is anchored in relation to the banner:
 
-   | Option | Description |
+   | Anchor | Positions |
    | ------ | ----------- |
-   | Top | Left / Center / Right |
-   | Center | Left / Center / Right |
-   | Bottom | Left / Center / Right |
+   | `Top` | Left / Center / Right |
+   | `Center` | Left / Center / Right |
+   | `Bottom` | Left / Center / Right |
 
    The anchor point is like a push pin that attaches the image to the banner at the specified background position.
 
-- **Background Attachment** - Set the attachment type to determine how the background image moves in relation to the scrolling page:
+- **[!UICONTROL Background Attachment]** - Set the attachment type to determine how the background image moves in relation to the scrolling page:
 
    | Option | Description |
    | ------ | ----------- |
-   | Scroll|The attached background image is synchronized to move down as the page scrolls.|
-   | Fixed|(Not available for mobile) The background image does not move as the container scrolls over the image and is fixed at the specified background position.|
+   | `Scroll` |The attached background image is synchronized to move down as the page scrolls.|
+   | `Fixed` |(Not available for mobile) The background image does not move as the container scrolls over the image and is fixed at the specified background position.|
 
-- **Background Repeat** - If you want to repeat the background image to fill the space, change this setting `Yes`.
+- **[!UICONTROL Background Repeat]** - If you want to repeat the background image to fill the space, change this setting `Yes`.
 
 ### Video type settings
 
-If you set the _Background Type_ to `Video`, use the following settings to define the background image display.
+If you set the _[!UICONTROL Background Type]_ to `Video`, use the following settings to define the background image display.
 
-- **Video URL** - Enter a valid video URL. Valid video URLs can be links to:
+- **[!UICONTROL Video URL]** - Enter a valid video URL. Valid video URLs can be links to:
 
   - YouTube videos: `https://youtu.be/CoDhMRUUjeI`
   - Vimeo videos: `https://vimeo.com/190156113`
@@ -171,17 +171,17 @@ If you set the _Background Type_ to `Video`, use the following settings to defin
 
    ![Background video URL](./assets/pb-video-url.png)<!-- zoom -->
 
-- **Overlay Color** - Select a color to apply a transparent tint to the video.
+- **[!UICONTROL Overlay Color]** - Select a color to apply a transparent tint to the video.
 
-- **Infinite Loop** - Set to `No` to make the video play once and stop. When it is set to `Yes` (default), the video repeats in an infinite loop.
+- **[!UICONTROL Infinite Loop]** - Set to `No` to make the video play once and stop. When it is set to `Yes` (default), the video repeats in an infinite loop.
 
-- **Lazy Load** - Set to `No` to make the video load with the page, even when not visible. When it is set to `Yes` (default), the video loads from the source only when visible on the screen.
+- **[!UICONTROL Lazy Load]** - Set to `No` to make the video load with the page, even when not visible. When it is set to `Yes` (default), the video loads from the source only when visible on the screen.
 
-- **Play Only When Visible** - Set to `No` to make the video start playing immediately after it loads, regardless of whether it is visible. When it is set to `Yes` (default), the video starts playing only when it is visible.
+- **[!UICONTROL Play Only When Visible]** - Set to `No` to make the video start playing immediately after it loads, regardless of whether it is visible. When it is set to `Yes` (default), the video starts playing only when it is visible.
 
-- **Fallback Image** - If needed, specify an image to display on the screen before the video loads and if the video does not load for some reason.
+- **[!UICONTROL Fallback Image]** - If needed, specify an image to display on the screen before the video loads and if the video does not load for some reason.
 
-## Content
+## [!UICONTROL Content]
 
 You can modify the banner content directly on the stage or when you are changing the settings. The settings provide more complex content features, such as banner links and buttons, and overlays. The position of the content reflects the [Appearance](#appearance) placement setting.
 
@@ -201,24 +201,24 @@ You can modify the banner content directly on the stage or when you are changing
 
 1. Hover over the banner container to display the toolbox and choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon.
 
-1. Scroll down to the _Content_ section and use the **Message Text** editor to enter and format banner text.
+1. Scroll down to the _[!UICONTROL Content]_ section and use the **[!UICONTROL Message Text]** editor to enter and format banner text.
 
    You can also insert elements, such as text links, images, and widgets.
 
    ![Message Text editor](./assets/pb-tutorial1-banner-settings-content-message-text.png)<!-- zoom -->
 
-1. If needed, specify a **Link** for the banner.
+1. If needed, specify a **[!UICONTROL Link]** for the banner.
 
    The link is the destination page that appears when the customer clicks the banner button or area. You can use one of three link types:
 
-   - **URL** - Links to either a relative or fully qualified URL.
-   - **Product** - Identifies the destination page based on the product name or SKU. Search for the product by name based on either a partial or full name. Choose the product from the search results list.
-   - **Category** - Identifies the destination page as a specific category or subcategory in the category tree. Search for the category based on either a partial or full name. Choose the category from the expanded section of the displayed tree.
-   - **Page** - Identifies the destination page as a specific content page. Search for the page based on either a partial or full name. Choose the page from the search results list.
+   - **[!UICONTROL URL]** - Links to either a relative or fully qualified URL.
+   - **[!UICONTROL Product]** - Identifies the destination page based on the product name or SKU. Search for the product by name based on either a partial or full name. Choose the product from the search results list.
+   - **[!UICONTROL Category]** - Identifies the destination page as a specific category or subcategory in the category tree. Search for the category based on either a partial or full name. Choose the category from the expanded section of the displayed tree.
+   - **[!UICONTROL Page]** - Identifies the destination page as a specific content page. Search for the page based on either a partial or full name. Choose the page from the search results list.
 
    >[!NOTE]
    >
-   >Starting with the 2.4.1 release, Page Builder no longer supports linking the banner and links within the nested text due to issues with display on the storefront. If you are using a link in the _Message Text_, you cannot configure the _Link_ option. If you prefer to use a single link for the whole banner, you can remove all links from the text.<br/>
+   >Starting with the 2.4.1 release, [!DNL Page Builder] no longer supports linking the banner and links within the nested text due to issues with display on the storefront. If you are using a link in the _[!UICONTROL Message Text]_, you cannot configure the _[!UICONTROL Link]_ option. If you prefer to use a single link for the whole banner, you can remove all links from the text.<br/>
    >
    >![Link configuration is blocked](./assets/pb-nested-link-blocked.png)<!-- width="400px"} -->
 
@@ -233,105 +233,105 @@ You can modify the banner content directly on the stage or when you are changing
    >
    >You can also use multiple buttons or links by adding a [block](block.md) to the banner. To avoid conflict, keep all the links or buttons in the separate block, and do not add a link or button directly to the banner.
 
-   - Set **Show Button** to one of the following:
+   - Set **[!UICONTROL Show Button]** to one of the following:
 
       | Option | Description |
       | ------ | ----------- |
-      | Always | A button always appears on the banner. |
-      | On Hover | A button appears on the banner only on hover. |
-      | Never Show | A button never appears on the banner. |
+      | `Always` | A button always appears on the banner. |
+      | `On Hover` | A button appears on the banner only on hover. |
+      | `Never Show` | A button never appears on the banner. |
 
-   - Enter the **Button Text** to appear on the button.
+   - Enter the **[!UICONTROL Button Text]** to appear on the button.
 
-   - Set **Button Type** to one of the following:
+   - Set **[!UICONTROL Button Type]** to one of the following:
 
       | Option | Description |
       | ------ | ----------- |
-      | Primary | Applies the primary button style from the current style sheet.|
-      | Secondary | Applies the secondary button style from the current style sheet, if applicable.|
-      | Link | Creates a hyperlink rather than a button. |
+      | `Primary` | Applies the primary button style from the current style sheet.|
+      | `Secondary` | Applies the secondary button style from the current style sheet, if applicable.|
+      | `Link` | Creates a hyperlink rather than a button. |
 
       The button style from the current theme determines the button format. Typically, a primary button has a more prominent background color than a secondary button.
 
-1. Set **Show Overlay** to one of the following:
+1. Set **[!UICONTROL Show Overlay]** to one of the following:
 
    | Option | Description |
    | ------ | ----------- |
-   | Always | The overlay is always visible. |
-   | On Hover | The overlay appears only on hover. |
-   | Never Show | The overlay is not visible. |
+   | `Always` | The overlay is always visible. |
+   | `On Hover` | The overlay appears only on hover. |
+   | `Never Show` | The overlay is not visible. |
 
-   You can use an overlay to apply a background color to the active content area that is defined by the Appearance setting. The banner background image remains visible for the full width of the banner.
+   You can use an overlay to apply a background color to the active content area that is defined by the [!UICONTROL Appearance] setting. The banner background image remains visible for the full width of the banner.
 
-   If you choose to show an overlay, set the **Overlay Color**:
+   If you choose to show an overlay, set the **[!UICONTROL Overlay Color]**:
 
    - Click the **No Color** swatch, and choose a swatch.
    - In the **No Color** field, either enter a valid color name, or hexadecimal value.
 
    ![Overlay Color](./assets/pb-tutorial1-banner-settings-overlay-color.png)<!-- zoom -->
 
-1. In the upper-right corner, click **Save** to apply the settings and return to the Page Builder workspace.
+1. In the upper-right corner, click **[!UICONTROL Save]** to apply the settings and return to the [!DNL Page Builder] workspace.
 
    ![Banner with text message and button](./assets/pb-tutorial1-banner-stage-background-color.png)<!-- zoom -->
 
 
-## Search Engine Optimization {#seo}
+## [!UICONTROL Search Engine Optimization] {#seo}
 
 Text for these settings is visible to search engines and improves the way the page is indexed.
 
-- For **Alternative Text**, enter an _alt_ text description for digital accessibility tools to display.
+- For **[!UICONTROL Alternative Text]**, enter an _alt_ text description for digital accessibility tools to display.
 
    The use of alt text is an accessibility best practice, and is required by law in some locales. In HTML, the `alt` attribute is a subset of the `image` tag: `<image title="tooltip" alt="description" src="image.jpg">`.
 
-- For **Title Attribute**, enter the text to display as a tooltip on mouseover.
+- For **[!UICONTROL Title Attribute]**, enter the text to display as a tooltip on mouseover.
 
    As a best practice, choose a descriptive, keyword-rich title to improve the way the image is indexed by search engines. In HTML, the `title` attribute is a subset of the `image` tag: `<image title="tooltip" alt="description" src="image.jpg">`.
 
-## Advanced
+## [!UICONTROL Advanced]
 
-1. To control the horizontal positioning of content containers that are added to the banner, choose an **Alignment**:
-
-   | Option | Description |
-   | ------ | ----------- |
-   | Default | Applies the alignment default setting that is specified in the style sheet of the current theme. |
-   | Left | Aligns the content containers along the left border of the banner container, with allowance for any padding that is specified. |
-   | Center | Aligns the content container in the center of the banner container, with allowance for any padding that is specified. |
-   | Right | Aligns the content container along the right border of the banner container, with allowance for any padding that is specified. |
-
-1. Set the **Border** style applied to all four sides of the banner container:
+1. To control the horizontal positioning of content containers that are added to the banner, choose an **[!UICONTROL Alignment]**:
 
    | Option | Description |
    | ------ | ----------- |
-   | Default | Applies the default border style that is specified by the associated style sheet. |
-   | None | Does not provide any visible indication of the container borders. |
-   | Dotted | The container border appears as a dotted line. |
-   | Dashed | The container border appears as a dashed line. |
-   | Solid | The container border appears as a solid line. |
-   | Double | The container border appears as a double line. |
-   | Groove | The container border appears as a grooved line. |
-   | Ridge | The container border appears as a ridged line. |
-   | Inset | The container border appears as an inset line. |
-   | Outset | The container border appears as an outset line. |
+   | `Default` | Applies the alignment default setting that is specified in the style sheet of the current theme. |
+   | `Left` | Aligns the content containers along the left border of the banner container, with allowance for any padding that is specified. |
+   | `Center` | Aligns the content container in the center of the banner container, with allowance for any padding that is specified. |
+   | `Right` | Aligns the content container along the right border of the banner container, with allowance for any padding that is specified. |
+
+1. Set the **[!UICONTROL Border]** style applied to all four sides of the banner container:
+
+   | Option | Description |
+   | ------ | ----------- |
+   | `Default` | Applies the default border style that is specified by the associated style sheet. |
+   | `None` | Does not provide any visible indication of the container borders. |
+   | `Dotted` | The container border appears as a dotted line. |
+   | `Dashed` | The container border appears as a dashed line. |
+   | `Solid` | The container border appears as a solid line. |
+   | `Double` | The container border appears as a double line. |
+   | `Groove` | The container border appears as a grooved line. |
+   | `Ridge` | The container border appears as a ridged line. |
+   | `Inset` | The container border appears as an inset line. |
+   | `Outset` | The container border appears as an outset line. |
 
 1. If you set a border style other than `None`, complete the border display options:
 
-   - **Border Color** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
+   - **[!UICONTROL Border Color]** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
 
       ![Border Color](./assets/pb-settings-border-color.png)<!-- zoom -->
 
-   - **Border Width** - Enter the number of pixels for the border line width.
+   - **[!UICONTROL Border Width]** - Enter the number of pixels for the border line width.
 
-   - **Border Radius** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
+   - **[!UICONTROL Border Radius]** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
 
-1. (Optional) Specify the names of **CSS classes** from the current style sheet to apply to the banner container.
+1. (Optional) Specify the names of **[!UICONTROL CSS classes]** from the current style sheet to apply to the banner container.
 
    Separate multiple class names with a space.
 
-1. Enter values, in pixels, for the **Margins and Padding** to specify the outer margins and inner padding of the banner.
+1. Enter values, in pixels, for the **[!UICONTROL Margins and Padding]** to specify the outer margins and inner padding of the banner.
 
    Enter each corresponding value in the banner container diagram.
 
    | Option | Description |
    | ------ | ----------- |
-   | Margins | The amount of blank space that is applied to the outside edge of all sides of the container. |
-   | Padding | The amount of blank space that is applied to the inside edge of all sides of the container. |
+   | [!UICONTROL Margins] | The amount of blank space that is applied to the outside edge of all sides of the container. |
+   | [!UICONTROL Padding] | The amount of blank space that is applied to the inside edge of all sides of the container. |

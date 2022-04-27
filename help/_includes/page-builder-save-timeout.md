@@ -1,8 +1,8 @@
 ---
-title: Page Builder Timeout
+title: [!DNL Page Builder] Timeout
 description: Reused note about Admin timeout setting
 ---
-# Page Builder Timeout
+# [!DNL Page Builder] Timeout
 
 >[!NOTE]
 >

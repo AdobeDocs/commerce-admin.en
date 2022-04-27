@@ -1,10 +1,10 @@
 ---
 title: Elements - Text
-description: Learn about the Text content type, used to add a text container in the Page Builder stage.
+description: Learn about the Text content type, used to add a text container in the [!DNL Page Builder] stage.
 ---
 # Elements - Text
 
-Use the _Text_ content type to add a text container with a WYSIWYG (“What You See Is What You Get”) editor in the [Page Builder stage](workspace.md#stage). In addition, you can add links, images, [variables](https://docs.magento.com/user-guide/marketing/variables.html), and widgets to the text from the editor toolbar.
+Use the _Text_ content type to add a text container with a WYSIWYG (“What You See Is What You Get”) editor in the [[!DNL Page Builder] stage](workspace.md#stage). In addition, you can add links, images, [variables](https://docs.magento.com/user-guide/marketing/variables.html), and widgets to the text from the editor toolbar.
 
 ![Formatted text on a banner](./assets/pb-storefont-banner-with-button.png)<!-- zoom -->
 
@@ -32,7 +32,7 @@ You can access the text editor directly from the stage or from a settings page. 
 
 ## Add text
 
-1. In the Page Builder panel, expand **Elements** and drag a **Text** placeholder to a row, column, or tab set on the stage.
+1. In the [!DNL Page Builder] panel, expand **[!UICONTROL Elements]** and drag a **[!UICONTROL Text]** placeholder to a row, column, or tab set on the stage.
 
    ![Dragging a text placeholder to the stage](./assets/pb-elements-text-drag.png)<!-- zoom -->
 
@@ -60,17 +60,17 @@ To create a link for a telephone number or email, see [Adding Custom Variables](
 
    ![Adding a link to formatted text](./assets/pb-tutorial2-column-text-editor-link-insert.png)<!-- zoom -->
 
-1. For **Url**, enter the relative link that you prepared.
+1. For **[!UICONTROL URL]**, enter the relative link that you prepared.
 
-1. Set **Target** to `None`.
+1. Set **[!UICONTROL Target]** to `None`.
 
    This setting opens the page in the same browser window, rather than opening a new tab.
 
-1. For **Title**, enter `Shop Tees`.
+1. For **[!UICONTROL Title]**, enter `Shop Tees`.
 
    The `Title` link attribute is used by some browsers as a tooltip.
 
-1. To save the link and return to the Page Builder workspace, click **OK**.
+1. To save the link and return to the [!DNL Page Builder] workspace, click **[!UICONTROL OK]**.
 
    ![Link detail](./assets/pb-tutorial2-column-text-editor-link-insert-detail.png)<!-- zoom -->
 
@@ -80,17 +80,17 @@ To create a link for a telephone number or email, see [Adding Custom Variables](
 
 1. Click _Insert/edit image_ (![Insert/edit image button](./assets/icon-pb-add-image.png)) on the editor toolbar.
 
-1. For **Source**, click the search icon to use the media storage for locating and selecting an image.
+1. For **[!UICONTROL Source]**, click the search icon to use the media storage for locating and selecting an image.
 
-1. For **Image description**, enter descriptive text for the image.
+1. For **[!UICONTROL Image Description]**, enter descriptive text for the image.
 
    This text populates the `alt` link attribute for the image and is used by some browsers for accessibility.
 
-1. Enter the width and height **Dimensions**, in pixels, for rendering the image on the page.
+1. Enter the width and height **[!UICONTROL Dimensions]**, in pixels, for rendering the image on the page.
 
-   Keep the **Constrain proportions** checkbox selected to automatically maintain the aspect ratio for the image.
+   Keep the **[!UICONTROL Constrain proportions]** checkbox selected to automatically maintain the aspect ratio for the image.
 
-1. To insert the image and then return to the Page Builder workspace, click **OK**.
+1. To insert the image and then return to the [!DNL Page Builder] workspace, click **[!UICONTROL OK]**.
 
 ## Change text settings
 
@@ -102,51 +102,51 @@ To create a link for a telephone number or email, see [Adding Custom Variables](
 
 1. Update the content as needed.
 
-1. Update the _Advanced_ settings as needed.
+1. Update the _[!UICONTROL Advanced]_ settings as needed.
 
-   - To control the positioning of the text within the parent container, choose an **Alignment**:
-
-      | Option | Description |
-      | ------ |------------ |
-      | Default | Applies the alignment default setting that is specified in the style sheet of the current theme. |
-      | Left | Aligns the list along the left border of the parent container, with allowance for any padding that is specified. |
-      | Center | Aligns the list in the center of the parent container, with allowance for any padding that is specified. |
-      | Right | Aligns the block along the right border of the parent container, with allowance for any padding that is specified. |
-
-   - Set the **Border** style that is applied to all four sides of the text container:
+   - To control the positioning of the text within the parent container, choose an **[!UICONTROL Alignment]**:
 
       | Option | Description |
       | ------ |------------ |
-      | Default | Applies the default border style that is specified by the associated style sheet. |
-      | None | Does not provide any visible indication of the container borders. |
-      | Dotted | The container border appears as a dotted line. |
-      | Dashed | The container border appears as a dashed line. |
-      | Solid | The container border appears as a solid line. |
-      | Double | The container border appears as a double line. |
-      | Groove | The container border appears as a grooved line. |
-      | Ridge | The container border appears as a ridged line. |
-      | Inset | The container border appears as an inset line. |
-      | Outset | The container border appears as an outset line. |
+      | `Default` | Applies the alignment default setting that is specified in the style sheet of the current theme. |
+      | `Left` | Aligns the list along the left border of the parent container, with allowance for any padding that is specified. |
+      | `Center` | Aligns the list in the center of the parent container, with allowance for any padding that is specified. |
+      | `Right` | Aligns the block along the right border of the parent container, with allowance for any padding that is specified. |
+
+   - Set the **[!UICONTROL Border]** style that is applied to all four sides of the text container:
+
+      | Option | Description |
+      | ------ |------------ |
+      | `Default` | Applies the default border style that is specified by the associated style sheet. |
+      | `None` | Does not provide any visible indication of the container borders. |
+      | `Dotted` | The container border appears as a dotted line. |
+      | `Dashed` | The container border appears as a dashed line. |
+      | `Solid` | The container border appears as a solid line. |
+      | `Double` | The container border appears as a double line. |
+      | `Groove` | The container border appears as a grooved line. |
+      | `Ridge` | The container border appears as a ridged line. |
+      | `Inset` | The container border appears as an inset line. |
+      | `Outset` | The container border appears as an outset line. |
 
    - If you set a border style other than `None`, complete the border display options:
 
-      - **Border Color** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
+      - **[!UICONTROL Border Color]** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
 
-      - **Border Width** - Enter the number of pixels for the border line width.
+      - **[!UICONTROL Border Width]** - Enter the number of pixels for the border line width.
 
-      - **Border Radius** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
+      - **[!UICONTROL Border Radius]** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
 
-   - (Optional) Specify the names of **CSS classes** from the current style sheet to apply to the container.
+   - (Optional) Specify the names of **[!UICONTROL CSS classes]** from the current style sheet to apply to the container.
 
       Separate multiple class names with a space.
 
-   - Enter values, in pixels, for the **Margins and Padding** to determine the outer margins and inner padding of the text container.
+   - Enter values, in pixels, for the **[!UICONTROL Margins and Padding]** to determine the outer margins and inner padding of the text container.
 
       Enter the corresponding values in the diagram.
 
       | Container area | Description |
       | -------------- |------------ |
-      | Margins | The amount of blank space that is applied to the outside edge of all sides of the container. Options: Top / Right / Bottom / Left |
-      | Padding | The amount of blank space that is applied to the inside edge of all sides of the container. Options: Top / Right / Bottom / Left |
+      | [!UICONTROL Margins] | The amount of blank space that is applied to the outside edge of all sides of the container. Options: `Top` / `Right` / `Bottom` / `Left` |
+      | [!UICONTROL Padding] | The amount of blank space that is applied to the inside edge of all sides of the container. Options: `Top` / `Right` / `Bottom` / `Left` |
 
-1. When complete, click **Save** to apply the settings and return to the Page Builder workspace.
+1. When complete, click **[!UICONTROL Save]** to apply the settings and return to the [!DNL Page Builder] workspace.

@@ -1,16 +1,16 @@
 ---
-title: "Walkthrough Part 1: Simple Page"
-description: Use the sample files and follow the steps to create a simple page in the Page Builder interface.
+title: "[!DNL Page Builder] Walkthrough Part 1: Simple Page"
+description: Use the sample files and follow the steps to create a simple page in the [!DNL Page Builder] interface.
 ---
 # Walkthrough Part 1: Simple Page
 
-Follow this three-part exercise to become familiar with the Page Builder workspace by creating a simple page that illustrates how easy it is to create content-rich pages of your own design.
+Follow this three-part exercise to become familiar with the [!DNL Page Builder] workspace by creating a simple page that illustrates how easy it is to create content-rich pages of your own design.
 
 ![Simple Page example](./assets/pb-tutorial1-simple-layout.png)<!-- zoom -->
 
 >[!NOTE]
 >
->These walkthrough exercises are updated to reflect recent changes to the Page Builder workspace in the 2.4.1 release. If you are using an earlier Adobe Commerce release, use the Page Builder walkthrough exercises included in the [Commerce 2.3 User Guide](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html).
+>These walkthrough exercises are updated to reflect recent changes to the [!DNL Page Builder] workspace in the 2.4.1 release. If you are using an earlier Adobe Commerce release, use the [!DNL Page Builder] walkthrough exercises included in the [[!DNL Commerce] 2.3 User Guide](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html).
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Verify the required Content Management configuration settings:
 
 - WYSIWYG Editor is enabled in the [WYSIWYG Options](https://docs.magento.com/user-guide/cms/editor-configure.html) configuration.
 
-- Page Builder is enabled in the [Advanced Content Tools](setup.md) configuration.
+- [!DNL Page Builder] is enabled in the [Advanced Content Tools](setup.md) configuration.
 
 ### Download the walkthrough image assets
 
@@ -28,13 +28,13 @@ Verify the required Content Management configuration settings:
 
 1. Navigate to the downloaded file and extract the zipped files.
 
-   On a Windows system, right-click and choose **Extract All** files. Then, choose the destination folder and click **Extract**.
+   On a Windows system, right-click and choose **[!UICONTROL Extract All]** files. Then, choose the destination folder and click **[!UICONTROL Extract]**.
 
    On a Mac system, you can simply double-click the zip file and the move the extracted files to the destination folder.
 
    The folder contains the following image files:
 
-   ![Page Builder walkthrough files - simple page assets](./assets/pb-tutorial-simple-page-assets.png)<!-- zoom -->
+   ![[!DNL Page Builder] walkthrough files - simple page assets](./assets/pb-tutorial-simple-page-assets.png)<!-- zoom -->
 
 Follow the three parts of this walkthrough in order.
 
@@ -42,27 +42,27 @@ Follow the three parts of this walkthrough in order.
 
 In this part of the Simple Page exercise, you create a page that has a full-bleed row and banner. The row has different background images for desktop and mobile devices.
 
-![Page Builder full bleed row with banner](./assets/pb-tutorial1-full-bleed-with-banner.png)<!-- zoom -->
+![[!DNL Page Builder] full bleed row with banner](./assets/pb-tutorial1-full-bleed-with-banner.png)<!-- zoom -->
 
 ### Step 1: Create a page
 
-1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Pages**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Elements]_ > **[!UICONTROL Pages]**.
 
-1. In the upper-right corner, click **Add New Page** and do the following:
+1. In the upper-right corner, click **[!UICONTROL Add New Page]** and do the following:
 
-   - To prevent this page from being published in your store, set **Enable Page** to `No`.
+   - To prevent this page from being published in your store, set **[!UICONTROL Enable Page]** to `No`.
 
-   - For **Page Title**, enter `Simple Page`.
+   - For **[!UICONTROL Page Title]**, enter `Simple Page`.
 
    ![Basic page settings](./assets/pb-tutorial1-currently-active.png)<!-- zoom -->
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Design** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Design]** section.
 
-   Notice that **Layout** is set to `Page -- Full Width` by default. In addition to the five standard [layout](https://docs.magento.com/user-guide/design/page-layout.html) options, Page Builder adds full-width layouts for pages, categories, and products.
+   Notice that **[!UICONTROL Layout]** is set to `Page -- Full Width` by default. In addition to the five standard [layout](https://docs.magento.com/user-guide/design/page-layout.html) options, [!DNL Page Builder] adds full-width layouts for pages, categories, and products.
 
-1. If the sample data is available, set **New Theme** to `Magento Luma`. Otherwise, you can choose another available theme or leave it blank to use the default theme.
+1. If the sample data is available, set **[!UICONTROL New Theme]** to `Magento Luma`. Otherwise, you can choose another available theme or leave it blank to use the default theme.
 
-   The New Theme setting can be used to override the default theme and to apply a different theme to the page.
+   The _[!UICONTROL New Theme]_ setting can be used to override the default theme and to apply a different theme to the page.
 
    >[!NOTE]
    >
@@ -70,15 +70,15 @@ In this part of the Simple Page exercise, you create a page that has a full-blee
 
    ![Page design settings](./assets/pb-tutorial1-design-section.png)<!-- zoom -->
 
-1. In the upper-right corner, click **Save**.
+1. In the upper-right corner, click **[!UICONTROL Save]**.
 
    When the page is saved, the name _Simple Page_ appears in the upper-left corner of the page.
 
 ### Step 2: Format the row
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Content** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Content]** section.
 
-   This action displays the Page Builder preview with an empty row.
+   This action displays the [!DNL Page Builder] preview with an empty row.
 
    >[!NOTE]
    >
@@ -86,39 +86,39 @@ In this part of the Simple Page exercise, you create a page that has a full-blee
 
    ![Page content preview with empty row](./assets/pb-content-preview-empty.png)<!-- zoom -->
 
-1. Click **Edit with Page Builder** or inside the content preview area.
+1. Click **[!UICONTROL Edit with Page Builder]** or inside the content preview area.
 
-   In the expanded Page Builder [workspace](workspace.md), the panel on the left provides the content tools you can use to build your content in the stage.
+   In the expanded [!DNL Page Builder] [workspace](workspace.md), the panel on the left provides the content tools you can use to build your content in the stage.
 
 1. Hover over the empty row to display the toolbox.
 
    Each content container has a toolbox with a similar set of options.
 
-   ![Page Builder row toolbox](./assets/pb-layout-page-add-content-row-tools.png)<!-- zoom -->
+   ![[!DNL Page Builder] row toolbox](./assets/pb-layout-page-add-content-row-tools.png)<!-- zoom -->
 
 1. In the Row toolbox, choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" -->) icon.
 
-1. Under _Appearance_, choose **Full Bleed**.
+1. Under _[!UICONTROL Appearance]_, choose **Full Bleed**.
 
    The Full Bleed appearance setting extends the left and right borders of the content area of the row and background to the full width of the page.
 
    ![Row settings - full bleed](./assets/pb-tutorial1-row-settings-appearance-full-bleed.png)<!-- zoom -->
 
-1. Scroll down to the _Advanced_ section and set all **Margins and Padding** settings to `0`.
+1. Scroll down to the _[!UICONTROL Advanced]_ section and set all **[!UICONTROL Margins and Padding]** settings to `0`.
 
    This setting ensures that the banner extends the full width of the row.
 
    ![Row settings - margins and padding](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png)<!-- zoom -->
 
-1. To save the settings and return to the Page Builder workspace, scroll up to the top of the page and click **Save** in the upper-right corner.
+1. To save the settings and return to the [!DNL Page Builder] workspace, scroll up to the top of the page and click **[!UICONTROL Save]** in the upper-right corner.
 
 ### Step 3: Add a banner
 
 >[!NOTE]
 >
->Page Builder has a new content type called _Banner_, which is featured in this step. What was previously the _Banner_ option in the Content menu, is now a _Dynamic Block_.
+>[!DNL Page Builder] has a new content type called _Banner_, which is featured in this step. What was previously the _Banner_ option in the Content menu, is now a _Dynamic Block_.
 
-1. In the Page Builder panel, expand **Media** and drag a **Banner** placeholder to the stage.
+1. In the [!DNL Page Builder] panel, expand **[!UICONTROL Media]** and drag a **Banner** placeholder to the stage.
 
    ![Dragging a banner content type to the stage](./assets/pb-tutorial1-banner-drag-to-stage.png)<!-- zoom -->
 
@@ -134,15 +134,15 @@ In this part of the Simple Page exercise, you create a page that has a full-blee
 
 1. In the Banner toolbox, choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon.
 
-1. Under _Appearance_, choose **Collage Right**.
+1. Under _[!UICONTROL Appearance]_, choose **Collage Right**.
 
    The Collage Right setting positions content on the right side of the banner.
 
    ![Banner appearance - collage right](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png)<!-- zoom -->
 
-1. Scroll down to the _Background_ section and set the background image for the banner:
+1. Scroll down to the _[!UICONTROL Background]_ section and set the background image for the banner:
 
-   - For **Background Image**, click **Upload**.
+   - For **[!UICONTROL Background Image]**, click **Upload**.
 
       ![Banner background - upload image](./assets/pb-tutorial1-row-background-image-upload.png)<!-- zoom -->
 
@@ -154,7 +154,7 @@ In this part of the Simple Page exercise, you create a page that has a full-blee
 
       ![Uploaded background image in the media gallery](./assets/pb-tutorial1-row-settings-background-image-selected.png)<!-- zoom -->
 
-   - For **Background Mobile Image**, click **Upload**.
+   - For **[!UICONTROL Background Mobile Image]**, click **Upload**.
 
       In the same file directory, choose the `wide-banner-background-mobile.jpg` file.
 
@@ -162,7 +162,7 @@ In this part of the Simple Page exercise, you create a page that has a full-blee
 
       ![Selecting the sample banner image file for mobile](./assets/pb-tutorial1-row-settings-background-mobile-image-selected.png)<!-- zoom -->
 
-   - Scroll back to the top of the page and click **Save** to save the settings and return to the Page Builder workspace.
+   - Scroll back to the top of the page and click **[!UICONTROL Save]** to save the settings and return to the [!DNL Page Builder] workspace.
 
       The background appears on the stage and extends the full width of the row.
 
@@ -193,25 +193,25 @@ In this part of the Simple Page exercise, you create a page that has a full-blee
    ![Banner in the content stage with formatted text](./assets/pb-tutorial1-banner-stage-text-format-line2.png)<!-- zoom -->
    __
 
-1. Hover to display the Banner toolbox, choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon again, then scroll to the _Content_ section.
+1. Hover to display the Banner toolbox, choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon again, then scroll to the _[!UICONTROL Content]_ section.
 
-   Notice that your text is displayed in the _Message Text_ box. Text can be entered and edited either from the stage or from the _Content_ section of the banner settings.
+   Notice that your text is displayed in the _Message Text_ box. Text can be entered and edited either from the stage or from the _[!UICONTROL Content]_ section of the banner settings.
 
    ![Banner settings - message text](./assets/pb-tutorial1-banner-settings-content-message-text.png)<!-- zoom -->
 
-1. Continuing in the _Content_ section, set the banner link and button:
+1. Continuing in the _[!UICONTROL Content]_ section, set the banner link and button:
 
-   - Set **Link** to `Category`, and then click **Select** to show the category tree.
+   - Set **Link** to `Category`, and then click **[!UICONTROL Select]** to show the category tree.
 
    - Choose `What’s New` as the linked category.
 
       ![Banner content - link to category](./assets/pb-tutorial1-banner-settings-link-category-tree.png)<!-- zoom -->
 
-   - Set **Show Button** to `Always`.
+   - Set **[!UICONTROL Show Button]** to `Always`.
 
-   - For **Button Text**, enter `Shop Now` as the text that appears on the button.
+   - For **[!UICONTROL Button Text]**, enter `Shop Now` as the text that appears on the button.
 
-   - For **Button Type**, accept the `Primary` default.
+   - For **[!UICONTROL Button Type]**, accept the `Primary` default.
 
       The button style from the current theme determines the button format.
 
@@ -219,9 +219,9 @@ In this part of the Simple Page exercise, you create a page that has a full-blee
 
    You can use an overlay to apply a background color to the active content area that is defined by the Appearance setting. The banner background image remains visible for the full width of the banner.
 
-   - Set **Show Overlay** to `Always`.
+   - Set **[!UICONTROL Show Overlay]** to `Always`.
 
-   - For **Overlay Color**, do one of the following:
+   - For **[!UICONTROL Overlay Color]**, do one of the following:
 
       - Click the color square and choose the white swatch.
       - Click in the **No Color** text box and enter `White` or the hexadecimal value `#ffffff`.
@@ -230,7 +230,7 @@ In this part of the Simple Page exercise, you create a page that has a full-blee
 
       ![Banner settings - button overlay color](./assets/pb-tutorial1-banner-settings-overlay-color.png)<!-- zoom -->
 
-   - Scroll back to the top of the page and click **Save** to save the settings and return to the Page Builder workspace.
+   - Scroll back to the top of the page and click **[!UICONTROL Save]** to save the settings and return to the [!DNL Page Builder] workspace.
 
       The button appears below the banner message on the stage.
 
@@ -238,11 +238,11 @@ In this part of the Simple Page exercise, you create a page that has a full-blee
 
 1. In the upper-right corner of the stage, click the _Close Full Screen_ (![Close full screen icon](./assets/pb-icon-reduce.png)) icon.
 
-   Clicking this icon returns you to the _Content_ section for the page with the preview displayed.
+   Clicking this icon returns you to the _[!UICONTROL Content]_ section for the page with the preview displayed.
 
    You can toggle between the two workspace modes at any time you want.
 
-1. In the upper-right corner, click the **Save** arrow and choose **Save & Close**.
+1. In the upper-right corner, click the **[!UICONTROL Save]** arrow and choose **[!UICONTROL Save & Close]**.
 
    ![Choosing the Save & Close option](./assets/pb-tutorial1-save-and-close.png)<!-- zoom -->
 
@@ -252,19 +252,19 @@ In this part of the Simple Page exercise, you create a page that has a full-blee
 
 ## Part 2: Contained row with two equal columns
 
-In this part of the exercise, you add a row to the page, and divide the row into two equal columns. Then, you add a linked image to each column. In the instructions, each new row is added before the first row to make the Page Builder panel line up with the stage. At the end of the exercise, you rearrange the rows so they match the Simple Page example.
+In this part of the exercise, you add a row to the page, and divide the row into two equal columns. Then, you add a linked image to each column. In the instructions, each new row is added before the first row to make the [!DNL Page Builder] panel line up with the stage. At the end of the exercise, you rearrange the rows so they match the Simple Page example.
 
 ![Example page using contained row with two equal columns](./assets/pb-tutorial1-contained-row-with-two-equal-columns.png)<!-- zoom -->
 
 ### Step 1: Add a row
 
-1. In the Pages grid, find the _Simple Page_ that you created in the first part of this exercise and select **Edit** in the _Action_ column.
+1. In the Pages grid, find the _Simple Page_ that you created in the first part of this exercise and select **[!UICONTROL Edit]** in the _[!UICONTROL Action]_ column.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Content** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Content]** section.
 
-1. Click **Edit with Page Builder** or inside the content preview area.
+1. Click **[!UICONTROL Edit with Page Builder]** or inside the content preview area.
 
-1. In the Page Builder panel under _Layout_, drag a **Row** placeholder to the stage and place it above the banner.
+1. In the [!DNL Page Builder] panel under _[!UICONTROL Layout]_, drag a **[!UICONTROL Row]** placeholder to the stage and place it above the banner.
 
    The red guideline marks the boundary between the two rows.
 
@@ -274,17 +274,17 @@ In this part of the exercise, you add a row to the page, and divide the row into
 
    ![Row toolbox](./assets/pb-tutorial1-row-settings.png)<!-- zoom -->
 
-1. Under _Appearance_, accept the **Contained** default setting.
+1. Under _[!UICONTROL Appearance]_, accept the **Contained** default setting.
 
    This setting limits the content area of the row to the width of the page as defined by the theme.
 
    ![Keeping the default Contained appearance setting](./assets/pb-tutorial1-row-settings-appearance.png)<!-- zoom -->
 
-1. In the upper-right corner, click **Save** to save the settings and return to the Page Builder workspace.
+1. In the upper-right corner, click **[!UICONTROL Save]** to save the settings and return to the [!DNL Page Builder] workspace.
 
 ### Step 2: Add a column
 
-1. In the Page Builder panel under _Layout_, drag a **Column** placeholder to the new row.
+1. In the [!DNL Page Builder] panel under _[!UICONTROL Layout]_, drag a **[!UICONTROL Column]** placeholder to the new row.
 
    ![Dragging a column content type to the stage](./assets/pb-tutorial1-column-drag-to-stage.png)<!-- zoom -->
 
@@ -294,7 +294,7 @@ In this part of the exercise, you add a row to the page, and divide the row into
 
 1. In the upper-left corner of the first column, click the circular _Grid_ control (![Grid control](./assets/pb-icon-grid-control.png)) to show the grid guidelines.
 
-   The grid ensures that content is aligned consistently, and that it renders correctly on both desktop and mobile devices. For information about configuring the grid size, see the [Configure Page Builder](setup.md#configure-page-builder) section in the Page Builder Setup topic.
+   The grid ensures that content is aligned consistently, and that it renders correctly on both desktop and mobile devices. For information about configuring the grid size, see the [Configure [!DNL Page Builder]](setup.md#configure-page-builder) section in the [!DNL Page Builder] Setup topic.
 
    The numbers in parentheses (6/12) in the top border of each column container indicate the number of grid divisions in each column, and the total number of divisions in the row.
 
@@ -304,7 +304,7 @@ In this part of the exercise, you add a row to the page, and divide the row into
 
 In this step, you learn how to upload an image to the banner.
 
-1. In the Page Builder panel, expand the **Media** section and drag an **Image** placeholder to the first column.
+1. In the [!DNL Page Builder] panel, expand the **[!UICONTROL Media]** section and drag an **[!UICONTROL Image]** placeholder to the first column.
 
    ![Dragging the image content type to first column](./assets/pb-tutorial1-column1-media-image-drag.png)<!-- zoom -->
 
@@ -314,12 +314,12 @@ In this step, you learn how to upload an image to the banner.
 
    For am image that is located on your system, you can choose either of these methods:
 
-   - **Upload the image file**: In the first column, click **Upload Image**. Then, navigate to the directory where you saved the extracted simple page assets and choose the `small-banner-1.jpg` file.
+   - **Upload the image file**: In the first column, click **[!UICONTROL Upload Image]**. Then, navigate to the directory where you saved the extracted simple page assets and choose the `small-banner-1.jpg` file.
 
       ![Uploaded image added to the first column](./assets/pb-tutorial1-column1-image.png)<!-- zoom -->
       Repeat this action to add the `small-banner-2.jpg` file to the second column.
 
-   - **Drag the image file**: On your desktop, open the simple page assets folder and position it alongside the Admin browser window where you are working with the Page Builder stage. Then, drag the file `small-banner-1.jpg` from the simple page assets folder, and drop it in the first column.
+   - **Drag the image file**: On your desktop, open the simple page assets folder and position it alongside the Admin browser window where you are working with the [!DNL Page Builder] stage. Then, drag the file `small-banner-1.jpg` from the simple page assets folder, and drop it in the first column.
 
       ![Dragging the image onto the second column](./assets/pb-tutorial1-column-image-drag.png)<!-- zoom -->
 
@@ -337,15 +337,15 @@ In this step, you learn how to upload an image to the banner.
 
    - In the category tree, drill down and choose the `Men’s Hoodies & Sweatshirt` category.
 
-   - In the upper-right corner, **Save** the settings and return to the Page Builder workspace.
+   - In the upper-right corner, **[!UICONTROL Save]** the settings and return to the [!DNL Page Builder] workspace.
 
 1. Repeat the previous step to link the image in the second column to the _Gear_ category.
 
 1. In the upper-right corner of the stage, click the _Close Full Screen_ (![Close full screen icon](./assets/pb-icon-reduce.png)) icon.
 
-   Clicking this icon returns you to the _Content_ section for the page with the preview displayed.
+   Clicking this icon returns you to the _[!UICONTROL Content]_ section for the page with the preview displayed.
 
-1. In the upper-right corner, click the **Save** arrow and choose **Save & Close**.
+1. In the upper-right corner, click the **[!UICONTROL Save]** arrow and choose **[!UICONTROL Save & Close]**.
 
    ![Choosing the Save & Close option](./assets/pb-tutorial1-save-and-close.png)<!-- zoom -->
 
@@ -361,13 +361,13 @@ The final row on this page features content from a product review. You add a ful
 
 ### Step 1: Add a row
 
-1. In the Pages grid, find the _Simple Page_ that you created in the first part of this exercise and select **Edit** in the _Action_ column.
+1. In the Pages grid, find the _Simple Page_ that you created in the first part of this exercise and select **[!UICONTROL Edit]** in the _[!UICONTROL Action]_ column.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Content** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Content]** section.
 
-1. Click **Edit with Page Builder** or inside the content preview area.
+1. Click **[!UICONTROL Edit with Page Builder]** or inside the content preview area.
 
-1. In the Page Builder panel under _Layout_, drag a **Row** placeholder to the stage and place it above the row that was created in the second part of this exercise.
+1. In the [!DNL Page Builder] panel under _[!UICONTROL Layout]_, drag a **[!UICONTROL Row]** placeholder to the stage and place it above the row that was created in the second part of this exercise.
 
    A red guideline marks the boundary between the two rows.
 
@@ -377,21 +377,21 @@ The final row on this page features content from a product review. You add a ful
 
    ![Row toolbox](./assets/pb-tutorial1-row-toolbox.png)<!-- zoom -->
 
-1. On the Edit Row page under _Appearance_, choose **Full Width**.
+1. On the Edit Row page Under _[!UICONTROL Appearance]_, choose **[!UICONTROL Full Width]**.
 
    This setting limits the content area to the maximum page width that is defined by the theme. The background color and/or image are not limited, and extend the full width of the row.
 
    ![Selecting the Full Width appearance](./assets/pb-tutorial1-row-settings-appearance-full-width.png)<!-- zoom -->
 
-1. In the _Background_ section, enter `#f1f1f1` as the **Background Color**.
+1. In the _[!UICONTROL Background]_ section, enter `#f1f1f1` as the **[!UICONTROL Background Color]**.
 
    ![Setting the background color](./assets/pb-tutorial1-row-settings-background-color.png)<!-- zoom -->
 
-1. Scroll down to the _Advanced_ section and set all **Margins & Padding** values to `0`.
+1. Scroll down to the _[!UICONTROL Advanced]_ section and set all **Margins & Padding** values to `0`.
 
    ![Setting the margins and padding](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png)<!-- zoom -->
 
-1. Scroll back to the top of the page and click **Save** to save the settings and return to the Page Builder workspace.
+1. Scroll back to the top of the page and click **[!UICONTROL Save]** to save the settings and return to the [!DNL Page Builder] workspace.
 
    The background color of the row is now a pale beige.
 
@@ -399,7 +399,7 @@ The final row on this page features content from a product review. You add a ful
 
 ### Step 2: Add columns of different widths
 
-1. In the Page Builder panel under _Layout_, drag a **Column** placeholder to the top row on the stage.
+1. In the [!DNL Page Builder] panel under _[!UICONTROL Layout]_, drag a **[!UICONTROL Column]** placeholder to the top row on the stage.
 
    ![Dragging a column to the stage](./assets/pb-tutorial1-column-drag.png)<!-- zoom -->
 
@@ -411,19 +411,19 @@ The final row on this page features content from a product review. You add a ful
 
 1. Hover over the first column container to display the toolbox and choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon.
 
-1. Scroll down to the _Advanced_ section and set all **Margins & Padding** values to `0`.
+1. Scroll down to the _[!UICONTROL Advanced]_ section and set all **Margins & Padding** values to `0`.
 
    ![Setting the margins and padding](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png)<!-- zoom -->
 
-1. Scroll back to the top of the page and click **Save** to save the settings and return to the Page Builder workspace.
+1. Scroll back to the top of the page and click **[!UICONTROL Save]** to save the settings and return to the [!DNL Page Builder] workspace.
 
 ### Step 3: Add an image to the first column
 
-1. In the Page Builder panel, expand **Media** and drag an **Image** content type to the first column.
+1. In the [!DNL Page Builder] panel, expand **[!UICONTROL Media]** and drag an **[!UICONTROL Image]** content type to the first column.
 
    ![Dragging an image content type to the first column](./assets/pb-tutorial1-column1-image-drag.png)<!-- zoom -->
 
-1. In the image placeholder, click **Upload Image**.
+1. In the image placeholder, click **[!UICONTROL Upload Image]**.
 
    ![Upload Image](./assets/pb-tutorial1-column1-image-upload.png)<!-- zoom -->
 
@@ -437,7 +437,7 @@ The final row on this page features content from a product review. You add a ful
 
 The second column of the row should contain content from a customer review, including the five-star rating image and formatted text message.
 
-1. In the Page Builder panel, expand the **Elements** section and drag the **Text** content type to the second column.
+1. In the [!DNL Page Builder] panel, expand the **[!UICONTROL Elements]** section and drag the **[!UICONTROL Text]** content type to the second column.
 
    ![Dragging the text content type to the stage](./assets/pb-tutorial1-column2-text-drag.png)<!-- zoom -->
 
@@ -447,11 +447,11 @@ The second column of the row should contain content from a customer review, incl
 
    ![Inserting an image in the text](./assets/pb-tutorial1-column2-editor-toolbar-insert-image.png)<!-- zoom -->
 
-   - In the _Insert/edit image_ dialog, click the _Find_ ( ![Find icon](./assets/editor-btn-find-source.png) ) icon next to the _Source_ field.
+   - In the _[!UICONTROL Insert/edit image]_ dialog, click the _Find_ ( ![Find icon](./assets/editor-btn-find-source.png) ) icon next to the _[!UICONTROL Source]_ field.
 
       ![Insert/edit image dialog](./assets/pb-tutorial1-column2-text-insert-edit-image.png)<!-- zoom -->
 
-   - On the _Select Images_ page, click **Choose Files**.
+   - On the _[!UICONTROL Select Images]_ page, click **[!UICONTROL Choose Files]**.
 
    - In the folder where you saved the simple page assets, choose `rating.png`.
 
@@ -459,7 +459,7 @@ The second column of the row should contain content from a customer review, incl
 
       ![Choosing the image on the page](./assets/pb-tutorial1-column2-editor-gallery-select-image.png)<!-- zoom -->
 
-   - For **Image Description**, enter `5-Star Rating` and click **OK** to insert the image into the column.
+   - For **[!UICONTROL Image Description]**, enter `5-Star Rating` and click **[!UICONTROL OK]** to insert the image into the column.
 
    - In the editor toolbar, click **Align Center** (![Align center button](./assets/editor-btn-align-center.png)) to center the image in the column.
 
@@ -503,17 +503,17 @@ The second column of the row should contain content from a customer review, incl
    >
    >Make sure to select the column container rather than the Text container to display the correct toolbox.
 
-   - For **Minimum Height**, enter `450` as the height in pixels for the image in the first column.
+   - For **[!UICONTROL Minimum Height]**, enter `450` as the height in pixels for the image in the first column.
 
-   - Set **Vertical Alignment** to `Center`.
+   - Set **[!UICONTROL Vertical Alignment]** to `Center`.
 
    ![Setting the minimum height and vertical alignment](./assets/pb-tutorial1-column2-layout-vertical-alignment.png)<!-- zoom -->
 
-1. Scroll down to the _Advanced_ section and set all **Margins and Padding** values to zero ( `0` ).
+1. Scroll down to the _[!UICONTROL Advanced]_ section and set all **[!UICONTROL Margins and Padding]** values to zero ( `0` ).
 
    ![Setting the margins and padding](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png)<!-- zoom -->
 
-1. Scroll back to the top of the page and in the upper-right corner, click **Save** to save the settings and return to the Page Builder workspace.
+1. Scroll back to the top of the page and in the upper-right corner, click **[!UICONTROL Save]** to save the settings and return to the [!DNL Page Builder] workspace.
 
    ![Row with review content on the stage](./assets/pb-tutorial1-row-reviw-content.png)<!-- zoom -->
 
@@ -523,7 +523,7 @@ The second column of the row should contain content from a customer review, incl
 
 1. In the _Insert link_ dialog, specify the link to the catalog product:
 
-   - Enter the product **URL**.
+   - Enter the product **[!UICONTROL URL]**.
 
       You can enter either a relative or fully qualified URL. The following relative link is entered for this example:
 
@@ -535,7 +535,7 @@ The second column of the row should contain content from a customer review, incl
 
       ![Inserting a link in the text](./assets/pb-tutorial1-text-link-insert.png)<!-- zoom -->
 
-   - When complete, click **OK** to save the link.
+   - When complete, click **[!UICONTROL OK]** to save the link.
 
       The linked text is now highlighted in the banner.
 
@@ -543,17 +543,17 @@ The second column of the row should contain content from a customer review, incl
 
 1. In the upper-right corner of the stage, click the _Close Full Screen_ (![Close full screen icon](./assets/pb-icon-reduce.png)) icon.
 
-   Clicking this icon returns you to the _Content_ section for the page with the preview displayed.
+   Clicking this icon returns you to the _[!UICONTROL Content]_ section for the page with the preview displayed.
 
-1. In the upper-right corner, click **Save**.
+1. In the upper-right corner, click **[!UICONTROL Save]**.
 
 ### Step 6: Rearrange the rows
 
 With all three rows complete, the final step is to rearrange the rows to match the original _Simple Page_ example. To match the original example, the first row must be moved to the bottom, and the last row must be moved to the top.
 
-1. If necessary, expand ![Expansion selector](../assets/icon-display-expand.png) the **Content** section.
+1. If necessary, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Content]** section.
 
-1. Click **Edit with Page Builder** or inside the content preview area.
+1. Click **[!UICONTROL Edit with Page Builder]** or inside the content preview area.
 
 1. Hover over the first row on the stage to display the toolbox and choose the _Move_ ( ![Move icon](./assets/pb-icon-move.png)) icon.
 
@@ -573,11 +573,11 @@ With all three rows complete, the final step is to rearrange the rows to match t
 
 1. In the upper-right corner of the stage, click the _Close Full Screen_ (![Close full screen icon](./assets/pb-icon-reduce.png)) icon.
 
-   Clicking this icon returns you to the _Content_ section for the page with the preview displayed.
+   Clicking this icon returns you to the _[!UICONTROL Content]_ section for the page with the preview displayed.
 
-1. In the upper-right corner, click the **Save** arrow and choose **Save & Close**.
+1. In the upper-right corner, click the **[!UICONTROL Save]** arrow and choose **[!UICONTROL Save & Close]**.
 
-   ![Choosing the Save & Close option](./assets/pb-tutorial1-save-and-close.png)<!-- zoom -->
+   ![Choosing the [!UICONTROL Save & Close] option](./assets/pb-tutorial1-save-and-close.png)<!-- zoom -->
 
 1. If prompted, click the [Cache Management](https://docs.magento.com/user-guide/system/cache-management.html) link in the message at the top of the page and refresh any invalid cache.
 

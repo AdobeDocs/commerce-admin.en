@@ -1,18 +1,18 @@
 ---
 title: Elements - Heading
-description: Learn about the Heading content type, used to add a text container with a heading level from H1 to H6 to the Page Builder stage.
+description: Learn about the Heading content type, used to add a text container with a heading level from H1 to H6 to the [!DNL Page Builder] stage.
 ---
 # Elements - Heading
 
-Heading levels establish a hierarchy that organizes content, and helps search engines index each page. Use the _Heading_ content type in the [Page Builder stage](workspace.md#stage) to add a text container with a heading level from H1 to H6 to the stage. Headings are formatted according to the style sheet that is associated with the current theme.
+Heading levels establish a hierarchy that organizes content, and helps search engines index each page. Use the _Heading_ content type in the [[!DNL Page Builder] stage](workspace.md#stage) to add a text container with a heading level from H1 to H6 to the stage. Headings are formatted according to the style sheet that is associated with the current theme.
 
-The [Content Heading](workspace.md) field in the _Content_ section can be used to add an H1 heading to the top of the page. However, the field is a legacy from previous Commerce versions and is provided to support older content. This field does not take advantage of Page Builder’s advanced features. It is recommended that you leave the Content Heading field blank and use the Page Builder Heading content type to add headings of any level to the page.
+The [Content Heading](workspace.md) field in the _[!UICONTROL Content]_ section can be used to add an H1 heading to the top of the page. However, the field is a legacy from previous [!DNL Commerce] versions and is provided to support older content. This field does not take advantage of [!DNL Page Builder]’s advanced features. It is recommended that you leave the Content Heading field blank and use the [!DNL Page Builder] Heading content type to add headings of any level to the page.
 
 The following example shows how the Content Heading and the Heading content type appear when formatted by the Luma theme.
 
 ![Content Heading and heading Levels on the storefront](./assets/pb-storefront-heading-levels.png)<!-- zoom -->
 
-You can drag a heading from the _Elements_ section of the Page Builder panel to a row, column, or tab set on the stage. The heading level and alignment can be controlled from the editor toolbar on the stage, or by using the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png) ) control.
+You can drag a heading from the _Elements_ section of the [!DNL Page Builder] panel to a row, column, or tab set on the stage. The heading level and alignment can be controlled from the editor toolbar on the stage, or by using the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png) ) control.
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -38,7 +38,7 @@ As with all content containers, the toolbox appears when you hover over the cont
 
 ## Add a heading
 
-1. In the Page Builder panel, expand **Elements** and drag a **Heading** placeholder to a row, column, or tab set on the stage.
+1. In the [!DNL Page Builder] panel, expand **[!UICONTROL Elements]** and drag a **[!UICONTROL Heading]** placeholder to a row, column, or tab set on the stage.
 
    ![Dragging a heading to the stage](./assets/pb-elements-heading-drag.png)<!-- zoom -->
 
@@ -58,58 +58,58 @@ As with all content containers, the toolbox appears when you hover over the cont
 
    ![Heading toolbox](./assets/pb-elements-heading-toolbox.png)<!-- zoom -->
 
-1. Update the heading content (**Heading Type** and **Heading Text**) if needed.
+1. Update the heading content (**[!UICONTROL Heading Type]** and **[!UICONTROL Heading Text]**) if needed.
 
    You can also update  this content in the heading editor.
 
-1. Update the _Advanced_ settings as needed.
+1. Update the _[!UICONTROL Advanced]_ settings as needed.
 
-   - To control the positioning of the heading within the parent container, choose an **Alignment**:
-
-      | Option | Description |
-      | ------ | ----------- |
-      | Default | Applies the alignment default setting that is specified in the style sheet of the current theme. |
-      | Left | Aligns the list along the left border of the parent container, with allowance for any padding that is specified.|
-      | Center | Aligns the list in the center of the parent container, with allowance for any padding that is specified. |
-      | Right | Aligns the block along the right border of the parent container, with allowance for any padding that is specified. |
-
-   - Set the **Border** style applied to all four sides of the heading container:
+   - To control the positioning of the heading within the parent container, choose an **[!UICONTROL Alignment]**:
 
       | Option | Description |
       | ------ | ----------- |
-      | Default | Applies the default border style that is specified by the associated style sheet. |
-      | None | Does not provide any visible indication of the container borders. |
-      | Dotted | The container border appears as a dotted line. |
-      | Dashed | The container border appears as a dashed line. |
-      | Solid | The container border appears as a solid line. |
-      | Double | The container border appears as a double line. |
-      | Groove | The container border appears as a grooved line. |
-      | Ridge | The container border appears as a ridged line. |
-      | Inset | The container border appears as an inset line. |
-      | Outset | The container border appears as an outset line. |
+      | `Default` | Applies the alignment default setting that is specified in the style sheet of the current theme. |
+      | `Left` | Aligns the list along the left border of the parent container, with allowance for any padding that is specified.|
+      | `Center` | Aligns the list in the center of the parent container, with allowance for any padding that is specified. |
+      | `Right` | Aligns the block along the right border of the parent container, with allowance for any padding that is specified. |
+
+   - Set the **[!UICONTROL Border]** style applied to all four sides of the heading container:
+
+      | Option | Description |
+      | ------ | ----------- |
+      | `Default` | Applies the default border style that is specified by the associated style sheet. |
+      | `None` | Does not provide any visible indication of the container borders. |
+      | `Dotted` | The container border appears as a dotted line. |
+      | `Dashed` | The container border appears as a dashed line. |
+      | `Solid` | The container border appears as a solid line. |
+      | `Double` | The container border appears as a double line. |
+      | `Groove` | The container border appears as a grooved line. |
+      | `Ridge` | The container border appears as a ridged line. |
+      | `Inset` | The container border appears as an inset line. |
+      | `Outset` | The container border appears as an outset line. |
 
    - If you set a border style other than `None`, complete the border display options:
 
-      - **Border Color** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
+      - **[!UICONTROL Border Color]** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
 
-      - **Border Width** - Enter the number of pixels for the border line width.
+      - **[!UICONTROL Border Width]** - Enter the number of pixels for the border line width.
 
-      - **Border Radius** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
+      - **[!UICONTROL Border Radius]** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
 
-   - (Optional) Specify the names of **CSS classes** from the current style sheet to apply to the container.
+   - (Optional) Specify the names of **[!UICONTROL CSS classes]** from the current style sheet to apply to the container.
 
       Separate multiple class names with a space.
 
-   - Enter values, in pixels, for the **Margins and Padding** to determine the outer margins and inner padding of the heading container.
+   - Enter values, in pixels, for the **[!UICONTROL Margins and Padding]** to determine the outer margins and inner padding of the heading container.
 
       Enter the corresponding values in the diagram.
 
       | Container area | Description |
       | -------------- | ----------- |
-      | Margins | The amount of blank space that is applied to the outside edge of all sides of the container. Options: Top / Right / Bottom / Left |
-      | Padding | The amount of blank space that is applied to the inside edge of all sides of the container. Options: Top / Right / Bottom / Left |
+      | [!UICONTROL Margins] | The amount of blank space that is applied to the outside edge of all sides of the container. Options: `Top` / `Right` / `Bottom` / `Left` |
+      | [!UICONTROL Padding] | The amount of blank space that is applied to the inside edge of all sides of the container. Options: `Top` / `Right` / `Bottom` / `Left` |
 
-1. When complete, click **Save** to apply the settings and return to the Page Builder workspace.
+1. When complete, click **[!UICONTROL Save]** to apply the settings and return to the [!DNL Page Builder] workspace.
 
 ## Duplicate a heading
 

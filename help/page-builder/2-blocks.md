@@ -1,14 +1,14 @@
 ---
-title: 'Walkthrough Part 2: Blocks'
-description: Learn the difference between simple blocks and dynamic blocks when using Page Builder.
+title: "[!DNL Page Builder] Walkthrough Part 2: Blocks"
+description: Learn the difference between simple blocks and dynamic blocks when using [!DNL Page Builder].
 ---
 # Walkthrough Part 2: Blocks
 
-The following exercise illustrates the difference between [simple blocks](https://docs.magento.com/user-guide/cms/blocks.html) and [dynamic blocks](dynamic-block.md), and how to use Page Builder to create each type of block.
+The following exercise illustrates the difference between [simple blocks](https://docs.magento.com/user-guide/cms/blocks.html) and [dynamic blocks](dynamic-block.md), and how to use [!DNL Page Builder] to create each type of block.
 
 >[!NOTE]
 >
->Page Builder has a new content type called _Banner_, which is featured in the first walkthrough exercise and is unrelated to the previous banner functionality. What was previously the Banner option in the [Content menu](https://docs.magento.com/user-guide/cms/content-menu.html), is now _Dynamic Block_.
+>[!DNL Page Builder] has a new content type called _Banner_, which is featured in the first walkthrough exercise and is unrelated to the previous banner functionality. What was previously the Banner option in the [Content menu](https://docs.magento.com/user-guide/cms/content-menu.html), is now _Dynamic Block_.
 
 ![Dynamic block in the storefront](./assets/pb-tutorial2-dynamic-block-storefront.png)<!-- zoom -->
 
@@ -16,33 +16,33 @@ This exercise assumes that you have completed [Part 1: Simple Page](1-simple-pag
 
 >[!NOTE]
 >
->These walkthrough exercises are updated to reflect recent changes to the Page Builder workspace in the 2.4.1 release. If you are using an earlier Adobe Commerce release, use the Page Builder exercises included in the [Commerce 2.3 User Guide](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html).
+>These walkthrough exercises are updated to reflect recent changes to the [!DNL Page Builder] workspace in the 2.4.1 release. If you are using an earlier Adobe Commerce release, use the [!DNL Page Builder] exercises included in the [[!DNL Commerce] 2.3 User Guide](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html).
 
 ## Part 1: Create a simple block
 
-In this walkthrough exercise, you create a simple block with content from Google Maps. Simple blocks are sometimes called _CMS blocks_ or _static blocks_, because the content does not change. A simple block is ideal for content that you might want to reuse.
+In this walkthrough exercise, you create a simple block with content from [!DNL Google Maps]. Simple blocks are sometimes called _CMS blocks_ or _static blocks_, because the content does not change. A simple block is ideal for content that you might want to reuse.
 
 ### Step 1: Create a block
 
-1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Blocks**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Elements]_ > **[!UICONTROL Blocks]**.
 
-1. In the upper-right corner, click **Add New Block**.
+1. In the upper-right corner, click **[!UICONTROL Add New Block]**.
 
-1. For **Block Title**, enter `Google Map`.
+1. For **[!UICONTROL Block Title]**, enter `Google Map`.
 
-1. For **Identifier**, enter `google-map`.
+1. For **[!UICONTROL Identifier]**, enter `google-map`.
 
-1. Choose the **Store View** where the block is to be available.
+1. Choose the **[!UICONTROL Store View]** where the block is to be available.
 
    ![Block Information](./assets/pb-tutorial2-block-new-google-map.png)<!-- zoom -->
 
-1. In the upper-right corner, click **Save**.
+1. In the upper-right corner, click **[!UICONTROL Save]**.
 
 ### Step 2: Add a [!DNL Google Map]
 
-1. Scroll down to the Page Builder content preview (currently empty) and click **Edit with Page Builder**.
+1. Scroll down to the [!DNL Page Builder] content preview (currently empty) and click **[!UICONTROL Edit with Page Builder]**.
 
-1. In the Page Builder panel, expand **Media** and drag a **Map** placeholder to the stage.
+1. In the [!DNL Page Builder] panel, expand **[!UICONTROL Media]** and drag a **Map** placeholder to the stage.
 
    ![Dragging a map to the stage](./assets/pb-media-map-drag.png)<!-- zoom -->
 
@@ -50,19 +50,19 @@ In this walkthrough exercise, you create a simple block with content from Google
 
    ![Configured Google Map for your store](./assets/pb-tutorial2-google-map.png)<!-- zoom -->
 
-   A placeholder map appears if Google Maps isn’t yet configured for your store.
+   A placeholder map appears if [!DNL Google Maps] isn’t yet configured for your store.
 
-   ![Google Maps placeholder](./assets/pb-tutorial2-media-map-not-configured.png)<!-- zoom -->
+   ![[!DNL Google Maps] placeholder](./assets/pb-tutorial2-media-map-not-configured.png)<!-- zoom -->
 
 1. In the upper-right corner of the stage, click the _Close Full Screen_ (![Close full screen icon](./assets/pb-icon-reduce.png)) icon.
 
-   Clicking this icon returns you to the _Content_ section for the block with the preview displayed.
+   Clicking this icon returns you to the _[!UICONTROL Content]_ section for the block with the preview displayed.
 
-1. In the upper-right corner, click the **Save** arrow and choose **Save & Close**.
+1. In the upper-right corner, click the **[!UICONTROL Save]** arrow and choose **[!UICONTROL Save & Close]**.
 
-### Step 3: Configure Google Maps
+### Step 3: Configure [!DNL Google Maps]
 
-If Google Maps is already configured for your store, you can skip this step and proceed to the next.
+If [!DNL Google Maps] is already configured for your store, you can skip this step and proceed to the next.
 
 1. Go to the [Google Cloud Platform Console](https://console.cloud.google.com/google/maps-apis/overview).
 
@@ -72,43 +72,43 @@ If Google Maps is already configured for your store, you can skip this step and 
 
 1. Copy your API Key to the clipboard.
 
-1. Return to the Commerce Admin and go to **Stores** > _Settings_ > **Configuration**.
+1. Return to the [!DNL Commerce] Admin and go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel under _General_, choose **Content Management**.
+1. In the left panel under _[!UICONTROL General]_, choose **[!UICONTROL Content Management]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) **Advanced Content Tools**.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
 
    ![Advanced Content Tools](./assets/content-management-advanced-content-tools.png)<!-- zoom -->
 
    For more information about the Content Management Advanced Tools configuration options, see the [Configuration Reference Guide](https://docs.magento.com/user-guide/configuration/general/content-management.html).
 
-1. For **Google Maps API Key**, paste the key you copied.
+1. For **[!UICONTROL Google Maps API Key]**, paste the key you copied.
 
-1. Click **Test Key**.
+1. Click **[!UICONTROL Test Key]**.
 
-   If there is a problem with your key, return to the Google Maps Platform site to resolve the problem. Then, try again.
+   If there is a problem with your key, return to the [!DNL Google Maps] Platform site to resolve the problem. Then, try again.
 
-1. After your key is verified, click **Save Config**.
+1. After your key is verified, click **[!UICONTROL Save Config]**.
 
 ### Step 4: Add the block to a page
 
-1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Pages**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Elements]_ > **[!UICONTROL Pages]**.
 
-1. In the grid, find the _Simple Page_ that you created in the first tutorial and select **Edit** in the _Action_ column.
+1. In the grid, find the _[!UICONTROL Simple Page]_ that you created in the first tutorial and select **[!UICONTROL Edit]** in the _[!UICONTROL Action]_ column.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Content** section and click **Edit with Page Builder** or inside the content preview area.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Content]** section and click **[!UICONTROL Edit with Page Builder]** or inside the content preview area.
 
-1. In the Page Builder panel under _Layout_, drag a **Row** placeholder to the top of the stage.
+1. In the [!DNL Page Builder] panel under _[!UICONTROL Layout]_, drag a **[!UICONTROL Row]** placeholder to the top of the stage.
 
    ![Adding the row to the top of the stage](./assets/pb-tutorial2-elements-row-drag-top.png)<!-- zoom -->
 
-1. In the Page Builder panel, expand **Add Content** and drag a **Block** placeholder to the new row.
+1. In the [!DNL Page Builder] panel, expand **[!UICONTROL Add Content]** and drag a **[!UICONTROL Block]** placeholder to the new row.
 
 1. Hover over the empty block container to display the toolbox and choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon.
 
    ![Block toolbox](./assets/pb-add-content-block-toolbox.png)<!-- zoom -->
 
-1. On the Edit Block page, click **Select Block**.
+1. On the Edit Block page, click **[!UICONTROL Select Block]**.
 
    ![Select Block](./assets/pb-add-content-block-settings-block-select.png)<!-- zoom -->
 
@@ -116,15 +116,15 @@ If Google Maps is already configured for your store, you can skip this step and 
 
    ![Find Block in List](./assets/pb-add-content-block-settings-block-find.png)<!-- zoom -->
 
-1. In the grid, click **Select** to choose the Google Maps block.
+1. In the grid, click **[!UICONTROL Select]** to choose the [!DNL Google Maps] block.
 
-1. In the upper-right corner, click **Save** to save the settings and return to the Page Builder workspace.
+1. In the upper-right corner, click **[!UICONTROL Save]** to save the settings and return to the [!DNL Page Builder] workspace.
 
 1. In the upper-right corner of the stage, click the _Close Full Screen_ (![Close full screen icon](./assets/pb-icon-reduce.png)) icon.
 
-   Clicking this icon returns you to the _Content_ section for the page with the preview displayed.
+   Clicking this icon returns you to the _[!UICONTROL Content]_ section for the page with the preview displayed.
 
-1. In the upper-right corner, click the **Save** arrow and choose **Save & Close**.
+1. In the upper-right corner, click the **[!UICONTROL Save]** arrow and choose **[!UICONTROL Save & Close]**.
 
    ![Choosing the Save & Close option](./assets/pb-tutorial1-save-and-close.png)<!-- zoom -->
 
@@ -166,25 +166,25 @@ A dynamic block includes logic that determines where, when, and to whom it appea
 
 ### Step 2: Complete the settings
 
-Scroll down to the _Content_ section, which displays an empty Page Builder content preview, and click **Edit with Page Builder**. Then, complete the following tasks:
+Scroll down to the _[!UICONTROL Content]_ section, which displays an empty [!DNL Page Builder] content preview, and click **[!UICONTROL Edit with Page Builder]**. Then, complete the following tasks:
 
 **Task 1:** Add a background image
 
 1. Hover over the row container to display the toolbox and choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon.
 
-1. Under _Appearance_, choose **Full Bleed**.
+1. Under _[!UICONTROL Appearance]_, choose **Full Bleed**.
 
-1. For **Minimum Height**, enter `400px`.
+1. For **[!UICONTROL Minimum Height]**, enter `400px`.
 
-1. Scroll to the _Background_ section and set the **Background Image** by clicking **Select from Gallery** and choosing the `wide-banner-background.png` image uploaded in the first tutorial.
+1. Scroll to the _[!UICONTROL Background]_ section and set the **[!UICONTROL Background Image]** by clicking **[!UICONTROL Select from Gallery]** and choosing the `wide-banner-background.png` image uploaded in the first tutorial.
 
-1. In the upper-right corner, click **Save** to apply the settings and return to the Page Builder workspace.
+1. In the upper-right corner, click **[!UICONTROL Save]** to apply the settings and return to the [!DNL Page Builder] workspace.
 
    ![Row with the image](./assets/pb-tutorial2-row-image.png)<!-- zoom -->
 
 **Task 2:** Add columns
 
-In the Page Builder panel under _Layout_, drag a **Column** placeholder onto the row.
+In the [!DNL Page Builder] panel under _[!UICONTROL Layout]_, drag a **[!UICONTROL Column]** placeholder onto the row.
 
 ![Dragging the column type into the row](./assets/pb-tutorial2-column-drag.png)<!-- zoom -->
 
@@ -192,7 +192,7 @@ The row is now divided into two columns of equal width.
 
 **Task 3:** Add text
 
-1. In the Page Builder panel, expand **Elements** and drag a **Text** placeholder to the second column.
+1. In the [!DNL Page Builder] panel, expand **[!UICONTROL Elements]** and drag a **Text** placeholder to the second column.
 
    ![Dragging a text box to the second column](./assets/pb-tutorial2-column-text-drag.png)<!-- zoom -->
 
@@ -236,13 +236,13 @@ In the first exercise, you learned how to use the [Button](buttons.md) content t
    Relative URL
    : `../women/tops-women/tees-women.html`
 
-1. Return to the Page Builder workspace tab and text editor, select the `Shop Tees >` text in the third line, and choose **Bold** (![Bold button](./assets/editor-btn-bold.png)) in the editor toolbar.
+1. Return to the [!DNL Page Builder] workspace tab and text editor, select the `Shop Tees >` text in the third line, and choose **Bold** (![Bold button](./assets/editor-btn-bold.png)) in the editor toolbar.
 
 1. With the `Shop Tees >` text in the third line still selected, choose **Insert/edit link** (![Insert/edit link button](./assets/pb-icon-add-link.png)) in the editor toolbar.
 
    ![Inserting a link](./assets/pb-tutorial2-column-text-editor-link-insert.png)<!-- zoom -->
 
-1. For **Url**, enter the relative link that you prepared.
+1. For **[!UICONTROL URL]**, enter the relative link that you prepared.
 
 1. Set **Target** to `None`.
 
@@ -252,15 +252,15 @@ In the first exercise, you learned how to use the [Button](buttons.md) content t
 
    The Title link attribute is used by some browsers as a tooltip.
 
-1. To save the link and return to the Page Builder workspace, click **OK**.
+1. To save the link and return to the [!DNL Page Builder] workspace, click **[!UICONTROL OK]**.
 
    ![Link details](./assets/pb-tutorial2-column-text-editor-link-insert-detail.png)<!-- zoom -->
 
 1. In the upper-right corner of the stage, click the _Close Full Screen_ (![Close full screen icon](./assets/pb-icon-reduce.png)) icon.
 
-   Clicking this icon returns you to the _Content_ section for the dynamic block with the preview displayed.
+   Clicking this icon returns you to the _[!UICONTROL Content]_ section for the dynamic block with the preview displayed.
 
-1. In the upper-right corner, click **Save**.
+1. In the upper-right corner, click **[!UICONTROL Save]**.
 
 ### Step 3: Add a price rule
 
@@ -270,7 +270,7 @@ In the first exercise, you learned how to use the [Button](buttons.md) content t
 
    ![Related promotions](./assets/pb-dynamic-blocks-related-promotions.png)<!-- zoom -->
 
-1. On the _Add Related Cart Price Rules_ page, select the checkbox for the _Buy 3 tee shirts and get the 4th free_ price rule and click **Add Selected**.
+1. On the _Add Related Cart Price Rules_ page, select the checkbox for the _Buy 3 tee shirts and get the 4th free_ price rule and click **[!UICONTROL Add Selected]**.
 
    ![Adding a related cart price rule](./assets/pb-dynamic-block-add-related-cart-price-rules.png)<!-- zoom -->
 
@@ -278,7 +278,7 @@ In the first exercise, you learned how to use the [Button](buttons.md) content t
 
    ![Selected cart price rule](./assets/pb-dynamic-block-related-cart-price-rule-list.png)<!-- zoom -->
 
-1. In the upper-right corner, click **Save**.
+1. In the upper-right corner, click **[!UICONTROL Save]**.
 
 ### Step 4: Add the dynamic block to a page
 
@@ -286,15 +286,15 @@ In the first exercise, you learned how to use the [Button](buttons.md) content t
 
 1. Find the _Simple Page_ that you created in the [first walkthrough exercise](1-simple-page.md) and open it in edit mode.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Content** section and click **Edit with Page Builder**.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Content]** section and click **[!UICONTROL Edit with Page Builder]**.
 
 1. Hover over the top row with the same image as the dynamic block to display the toolbox and the _Remove_ (![Remove icon](./assets/pb-icon-remove.png))<!-- width="20px" --> icon.
 
    To confirm removal of the row from the page, click  **OK** .
 
-1. In the Page Builder panel under _Layout_, drag a new **Row** placeholder to the top of the stage.
+1. In the [!DNL Page Builder] panel under _[!UICONTROL Layout]_, drag a new **[!UICONTROL Row]** placeholder to the top of the stage.
 
-1. In the Page Builder panel, expand **Add Content** and drag a **Dynamic Block** placeholder to the new row.
+1. In the [!DNL Page Builder] panel, expand **[!UICONTROL Add Content]** and drag a **[!UICONTROL Dynamic Block]** placeholder to the new row.
 
    ![Dragging a dynamic block onto the row](./assets/pb-dynamic-block-drag.png)<!-- zoom -->
 
@@ -302,27 +302,27 @@ In the first exercise, you learned how to use the [Button](buttons.md) content t
 
    ![Dynamic block toolbox](./assets/pb-dynamic-block-settings.png)<!-- zoom -->
 
-1. On the _Edit Dynamic Block_ page, click **Select Dynamic Block**.
+1. On the _[!UICONTROL Edit Dynamic Block]_ page, click **[!UICONTROL Select Dynamic Block]**.
 
    ![Select Dynamic Block](./assets/pb-dynamic-block-select.png)<!-- zoom -->
 
-1. Find the _Tee Shirt Promo_ dynamic block that you created and click **Select**.
+1. Find the _[!DNL Tee Shirt Promo]_ dynamic block that you created and click **[!UICONTROL Select]**.
 
    A summary of the dynamic block information appears below.
 
    ![Dynamic block information](./assets/pb-tutorial2-dynamic-block-edit.png)<!-- zoom -->
 
-1. Accept the default **Template**, `Dynamic Block Block Template`.
+1. Accept the default **[!UICONTROL Template]**, `Dynamic Block Block Template`.
 
-1. When complete, click **Save** to save the settings and return to the Page Builder workspace.
+1. When complete, click **[!UICONTROL Save]** to save the settings and return to the [!DNL Page Builder] workspace.
 
    ![Dynamic Block in the page preview](./assets/pb-tutorial2-dynamic-block-on-page.png)<!-- zoom -->
 
 1. In the upper-right corner of the stage, click the _Close Full Screen_ (![Close full screen icon](./assets/pb-icon-reduce.png)) icon.
 
-   Clicking this icon returns you to the _Content_ section for the page with the preview displayed.
+   Clicking this icon returns you to the _[!UICONTROL Content]_ section for the page with the preview displayed.
 
-1. In the upper-right corner, click the **Save** arrow and choose **Save & Close**.
+1. In the upper-right corner, click the **[!UICONTROL Save]** arrow and choose **[!UICONTROL Save & Close]**.
 
 **Congratulations!** You have completed the second part of the Block exercise. Make sure to keep your work for reference.
 
@@ -334,11 +334,11 @@ In this final part of the exercise, you edit a dynamic block while the page is l
 
 ### Step 1: Edit the dynamic block
 
-1. In the _Admin_ sidebar, go to **Content** > _Elements_ > **Dynamic Blocks**.
+1. In the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Elements]_ > **[!UICONTROL Dynamic Blocks]**.
 
-1. Find your _Tee Shirt Promo_ dynamic block in the grid and open it in edit mode.
+1. Find your _[!DNL Tee Shirt Promo]_ dynamic block in the grid and open it in edit mode.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Content** section and click **Edit with Page Builder**.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Content]** section and click **[!UICONTROL Edit with Page Builder]**.
 
 1. Change the column width:
 
@@ -356,15 +356,15 @@ In this final part of the exercise, you edit a dynamic block while the page is l
 
    - Select the first two lines of text.
 
-   - On the editor toolbar, choose **Text Color** and click the **White** swatch.
+   - On the editor toolbar, choose **[!UICONTROL Text Color]** and click the **[!UICONTROL White]** swatch.
 
    ![Text color](./assets/pb-tutorial2-dynamic-block-edit-text-color.png)<!-- zoom -->
 
 1. In the upper-right corner of the stage, click the _Close Full Screen_ (![Close full screen icon](./assets/pb-icon-reduce.png)) icon.
 
-   Clicking this icon returns you to the _Content_ section for the dynamic block with the preview displayed.
+   Clicking this icon returns you to the _[!UICONTROL Content]_ section for the dynamic block with the preview displayed.
 
-1. In the upper-right corner, click **Save**.
+1. In the upper-right corner, click **[!UICONTROL Save]**.
 
 ### Step 2: View the Dynamic Block
 
@@ -382,15 +382,15 @@ Because this dynamic block is visible only to members of a specific customer seg
 
 1. Sign in as a female customer:
 
-   - In the upper-right corner of your home page, click **Sign In**.
+   - In the upper-right corner of your home page, click **[!UICONTROL Sign In]**.
 
    - If the sample Luma data is installed on your system, use the following credentials:
 
-      **Email** - `roni_cost@example.com`
+      **[!UICONTROL Email]** - `roni_cost@example.com`
 
-      **Password** -  `roni_cost3@example.com`
+      **[!UICONTROL Password]** -  `roni_cost3@example.com`
 
-   - Click **Sign In**.
+   - Click **[!UICONTROL Sign In]**.
 
    - Return to the sample page to see the dynamic block that you created with the Tee Shirt Promo.
 

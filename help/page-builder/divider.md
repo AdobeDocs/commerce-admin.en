@@ -1,10 +1,10 @@
 ---
 title: Elements - Divider
-description: Learn about the Divider content type, used to add a rule as a visual break between sections of content in the Page Builder stage.
+description: Learn about the Divider content type, used to add a rule as a visual break between sections of content in the [!DNL Page Builder] stage.
 ---
 # Elements - Divider
 
-Use the _Divider_ content type to add a rule as a visual break between sections of content in the [Page Builder stage](workspace.md#stage). You can specify the line color, thickness, and width of the divider. You can also control the alignment, set the margins and padding, and format of the container border. By default, the divider is a hairline rule that extends the full width of the container, with allowance for padding.
+Use the _Divider_ content type to add a rule as a visual break between sections of content in the [[!DNL Page Builder] stage](workspace.md#stage). You can specify the line color, thickness, and width of the divider. You can also control the alignment, set the margins and padding, and format of the container border. By default, the divider is a hairline rule that extends the full width of the container, with allowance for padding.
 
 ![Default divider in a container without a border](./assets/pb-elements-divider-default.png)<!-- zoom -->
 
@@ -28,7 +28,7 @@ Although most divider containers are invisible, the following example displays t
 
 ## Add a divider
 
-1. In the Page Builder panel, expand **Elements** and drag a **Divider** placeholder to a row, column, or tab set on the stage.
+1. In the [!DNL Page Builder] panel, expand **[!UICONTROL Elements]** and drag a **[!UICONTROL Divider]** placeholder to a row, column, or tab set on the stage.
 
    Use the red guideline for reference as you position the divider either before or after another content container on the stage.
 
@@ -46,73 +46,73 @@ Although most divider containers are invisible, the following example displays t
 
    ![Divider toolbox](./assets/pb-elements-divider-toolbox.png)<!-- zoom -->
 
-1. Change the divider **Line Color** using one of the following methods:
+1. Change the divider **[!UICONTROL Line Color]** using one of the following methods:
 
    - Enter a valid [HTML color name][1]. For example, `Teal`.
    - Enter the hexadecimal color value. For example, `#008080`.
 
-   When complete, click **Apply**.
+   When complete, click **[!UICONTROL Apply]**.
 
    ![Setting the line color](./assets/pb-elements-divider-settings-line-color.png)<!-- zoom -->
 
-1. Enter the **Line Thickness** in pixels.
+1. Enter the **[!UICONTROL Line Thickness]** in pixels.
 
-1. To indicate the unit of measurement, enter the **Line Width** followed by either `px` or `%`.
+1. To indicate the unit of measurement, enter the **[!UICONTROL Line Width]** followed by either `px` or `%`.
 
    ![Setting line color, thickness, and width](./assets/pb-elements-divider-settings-line-color-thickness-width.png)<!-- zoom -->
 
-1. Update the _Advanced_ settings as needed.
+1. Update the _[!UICONTROL Advanced]_ settings as needed.
 
-   - To control the positioning of the divider within the parent container, choose the **Alignment**:
+   - To control the positioning of the divider within the parent container, choose the **[!UICONTROL Alignment]**:
 
       | Option | Description |
       | ------ | ----------- |
-      | Default | Applies the alignment default setting that is specified in the style sheet of the current theme. |
-      | Left | Aligns the list along the left border of the parent container, with allowance for any padding that is specified. |
-      | Center | Aligns the list in the center of the parent container, with allowance for any padding that is specified. |
-      | Right | Aligns the block along the right border of the parent container, with allowance for any padding that is specified. |
+      | `Default` | Applies the alignment default setting that is specified in the style sheet of the current theme. |
+      | `Left` | Aligns the list along the left border of the parent container, with allowance for any padding that is specified. |
+      | `Center` | Aligns the list in the center of the parent container, with allowance for any padding that is specified. |
+      | `Right` | Aligns the block along the right border of the parent container, with allowance for any padding that is specified. |
 
       In the following example, the options are set to use a center alignment for the divider.
 
       ![Divider with a center alignment](./assets/pb-elements-divider-settings-advanced-alignment-center.png)<!-- zoom -->
 
-   - Set the **Border** style applied to all four sides of the divider container:
+   - Set the **[!UICONTROL Border]** style applied to all four sides of the divider container:
 
       | Option | Description |
       | ------ | ----------- |
-      | Default | Applies the default border style that is specified by the associated style sheet. |
-      | None | Does not provide any visible indication of the container borders. |
-      | Dotted | The container border appears as a dotted line. |
-      | Dashed | The container border appears as a dashed line. |
-      | Solid | The container border appears as a solid line. |
-      | Double | The container border appears as a double line. |
-      | Groove | The container border appears as a grooved line. |
-      | Ridge | The container border appears as a ridged line. |
-      | Inset | The container border appears as an inset line. |
-      | Outset | The container border appears as an outset line. |
+      | `Default` | Applies the default border style that is specified by the associated style sheet. |
+      | `None` | Does not provide any visible indication of the container borders. |
+      | `Dotted` | The container border appears as a dotted line. |
+      | `Dashed` | The container border appears as a dashed line. |
+      | `Solid` | The container border appears as a solid line. |
+      | `Double` | The container border appears as a double line. |
+      | `Groove` | The container border appears as a grooved line. |
+      | `Ridge` | The container border appears as a ridged line. |
+      | `Inset` | The container border appears as an inset line. |
+      | `Outset` | The container border appears as an outset line. |
 
    - If you set a border style other than `None`, complete the border display options:
 
-      - **Border Color** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
+      - **[!UICONTROL Border Color]** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
 
-      - **Border Width** - Enter the number of pixels for the border line width.
+      - **[!UICONTROL Border Width]** - Enter the number of pixels for the border line width.
 
-      - **Border Radius** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
+      - **[!UICONTROL Border Radius]** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
 
-   - (Optional) Specify the names of **CSS classes** from the current style sheet to apply to the container.
+   - (Optional) Specify the names of **[!UICONTROL CSS classes]** from the current style sheet to apply to the container.
 
       Separate multiple class names with a space.
 
-   - Enter values, in pixels, for the **Margins and Padding** to determine the outer margins and inner padding of the divider container.
+   - Enter values, in pixels, for the **[!UICONTROL Margins and Padding]** to determine the outer margins and inner padding of the divider container.
 
       Enter the corresponding values in the diagram.
 
       | Container area | Description |
       | -------------- | ----------- |
-      | Margins | The amount of blank space that is applied to the outside edge of all sides of the container. Options: Top / Right / Bottom / Left |
-      | Padding | The amount of blank space that is applied to the inside edge of all sides of the container. Options: Top / Right / Bottom / Left |
+      | [!UICONTROL Margins] | The amount of blank space that is applied to the outside edge of all sides of the container. Options: `Top` / `Right` / `Bottom` / `Left` |
+      | [!UICONTROL Padding] | The amount of blank space that is applied to the inside edge of all sides of the container. Options: `Top` / `Right` / `Bottom` / `Left` |
 
-1. When complete, click **Save** to apply the settings and return to the Page Builder workspace.
+1. When complete, click **[!UICONTROL Save]** to apply the settings and return to the [!DNL Page Builder] workspace.
 
    ![Divider centered in a row](./assets/pb-elements-divider-settings-2px-centered.png)<!-- zoom -->
 
