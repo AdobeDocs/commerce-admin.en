@@ -33,7 +33,6 @@ hide: yes
   - [Slider](slider.md)
   - [Map](map.md)
 - Add Content {#add-content}
-  - Content
   - [Block](block.md)
   - [Dynamic Block](dynamic-block.md)
   - [Products](products.md)
