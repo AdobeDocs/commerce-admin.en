@@ -2,6 +2,7 @@
 title: Layout - Row
 description: Learn about the Row content type, used to add a row in the [!DNL Page Builder] stage.
 ---
+# Layout - Row
 
 Use the _Row_ content type to add a row in the [[!DNL Page Builder] stage](workspace.md#stage).
 

@@ -2,6 +2,7 @@
 title: Add Content - Product Recommendations
 description: Learn about the Product Recommendations content type, used to add a list of recommendations to the [!DNL Page Builder] stage.
 ---
+# Add Content - Product Recommendations
 
 Use the _Product Recommendations_ content type to add an existing, active [recommendation unit](https://docs.magento.com/user-guide/recommendations/create.html) to the [[!DNL Page Builder] stage](workspace.md#stage) for a CMS page, block, or dynamic block.
 
