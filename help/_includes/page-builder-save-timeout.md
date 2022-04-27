@@ -1,9 +1,9 @@
 ---
-title: [!DNL Page Builder] Timeout
+title: "[!DNL Page Builder] Timeout"
 description: Reused note about Admin timeout setting
 ---
 # [!DNL Page Builder] Timeout
 
 >[!NOTE]
 >
->If you are making significant changes to Page Builder content, it is recommended that you increase the [Admin Session Lifetime](https://docs.magento.com/user-guide/stores/security-admin.html) to prevent the session from timing out while you work.
+>If you are making significant changes to [!DNL Page Builder] content, it is recommended that you increase the [Admin Session Lifetime](https://docs.magento.com/user-guide/stores/security-admin.html) to prevent the session from timing out while you work.
