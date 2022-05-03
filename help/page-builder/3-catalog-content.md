@@ -80,7 +80,7 @@ This exercise assumes that you have completed [Part 1: Simple Page](1-simple-pag
 
 1. In the upper-right corner, click the **[!UICONTROL Save]** arrow and choose **[!UICONTROL Save & Close]**.
 
-## PART 2: Customize the product page
+## Part 2: Customize the product page
 
 In this part of the exercise, you learn how easy it is to customize a product page by placing a video below the set of tabs on the product page. The process to update [category page](https://docs.magento.com/user-guide/catalog/categories-content-settings.html) content is basically the same.
 
@@ -138,7 +138,7 @@ In the storefront, the video appears below the set of tabs. To see how the page 
 
 **Congratulations!** You have completed the second part of the Catalog Content tutorial. Keep the work that you created, so you can refer to it later.
 
-## PART 3: Add custom attributes
+## Part 3: Add custom attributes
 
 Use the [!DNL Page Builder] custom attribute to add a fully functioning [!DNL Page Builder] workspace to a product page, which you can use to create engaging content. In this part of the exercise, you learn how to create a custom attribute using the [!DNL Page Builder] input type and apply it to product pages in your catalog. For more information about these attributes, see [Product Attributes](https://docs.magento.com/user-guide/stores/attributes-product.html).
 
@@ -154,14 +154,14 @@ To avoid changes to your live store, create a product using the described proper
 
 1. Create the product with the following properties:
 
-   | [!UICONTROL Attribute Set]: | Default |
-   | [!UICONTROL Product Name]: | My Product |
-   | [!UICONTROL SKU]: | Tutorial |
-   | [!UICONTROL Price]: | 75.00 |
-   | [!UICONTROL Quantity]: | 100 |
-   | [!UICONTROL Stock Status]: | In Stock |
-   | [!UICONTROL Weight]: | 1 |
-   | [!UICONTROL Categories]: | Women > Tops > Tees |
+   - [!UICONTROL Attribute Set]: Default
+   - [!UICONTROL Product Name]: My Product
+   - [!UICONTROL SKU]: Tutorial
+   - [!UICONTROL Price]: 75.00 
+   - [!UICONTROL Quantity]: 100
+   - [!UICONTROL Stock Status]: In Stock
+   - [!UICONTROL Weight]: 1
+   - [!UICONTROL Categories]: Women > Tops > Tees
 
 1. In the upper-right corner, click the **[!UICONTROL Save]** arrow and choose **[!UICONTROL Save & Close]**.
 
@@ -185,26 +185,26 @@ In this step, you create two new custom attributes to show how the [!DNL Page Bu
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Advanced Attribute Properties]** section and make the following settings:
 
-   | [!UICONTROL Attribute Code]: | Enter an attribute code in lowercase characters, using hyphens instead of spaces. For this example, use `my_page_builder_attribute`. |
-   | [!UICONTROL Scope]: | Accept the default value, `Store View`. |
-   | [!UICONTROL Default Value]: | Enter a default value for the attribute. |
-   | [!UICONTROL Unique Value]: | `No` |
-   | [!UICONTROL Add to Column Options]: | `No` |
-   | [!UICONTROL Use in Filter Options]: | `Yes` |
+   - [!UICONTROL Attribute Code]: Enter an attribute code in lowercase characters, using hyphens instead of spaces. For this example, use `my_page_builder_attribute`.
+   - [!UICONTROL Scope]: Accept the default value, `Store View`.
+   - [!UICONTROL Default Value]: Enter a default value for the attribute.
+   - [!UICONTROL Unique Value]: `No`
+   - [!UICONTROL Add to Column Options]: `No`
+   - [!UICONTROL Use in Filter Options]: `Yes`
 
 1. In the _[!UICONTROL Attribute Information]_ panel on the left, choose **[!UICONTROL Storefront Properties]** and make the following settings:
 
-   | [!UICONTROL Use for Promo Rule Conditions]: | `Yes` |
-   | [!UICONTROL Visible on Catalog Pages on Storefront]: | `Yes` |
-   | [!UICONTROL Used in Product Listing]: | `Yes` |
+   - [!UICONTROL Use for Promo Rule Conditions]: `Yes`
+   - [!UICONTROL Visible on Catalog Pages on Storefront]: `Yes`
+   - [!UICONTROL Used in Product Listing]: `Yes`
 
 1. When complete, click **[!UICONTROL Save Attribute]**.
 
 1. Repeat the previous steps to create a second attribute with the same basic properties, but with the Text Editor input type as follows:
 
-   | [!UICONTROL Default Label]: | My Text Editor Attribute |
-   | [!UICONTROL Catalog Input Type for Store Owner]: | Text Editor |
-   | [!UICONTROL Attribute Code]: | `my_text_editor_attribute` |
+   - [!UICONTROL Default Label]: My Text Editor Attribute
+   - [!UICONTROL Catalog Input Type for Store Owner]: Text Editor
+   - [!UICONTROL Attribute Code]: `my_text_editor_attribute` 
 
 ### Step 3: Update the product attribute set
 

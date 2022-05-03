@@ -24,6 +24,8 @@ The row toolbox appears when you hover over the row container. The toolbox inclu
 | Duplicate | ![Duplicate icon](./assets/pb-icon-duplicate.png) | Makes a copy of the row. |
 | Remove | ![Remove icon](./assets/pb-icon-remove.png) | Deletes the row container and its content from the stage. |
 
+{style="table-layout:auto"}
+
 ## Add a row
 
 1. In the [!DNL Page Builder] panel under _[!UICONTROL Layout]_, drag a new **[!UICONTROL Row]** to the stage, just below the first row.
@@ -57,6 +59,8 @@ Use the _Appearance_ settings to determine how content is displayed in the row.
    | [!UICONTROL Contained] | The background color or image is limited to the maximum page width that is defined by the theme. |
    | [!UICONTROL Full Width] | Limits the content to the maximum page width that is defined by the theme. The background color and/or image is not limited, and extends the full width of the row. |
    | [!UICONTROL Full Bleed] | The content and background image and/or color are not limited, and extend the full width of the row. Full Bleed can be used only with [themes](https://docs.magento.com/user-guide/design/themes.html) that support the layout. |
+
+   {style="table-layout:auto"}
 
 - Enter the **[!UICONTROL Minimum Height]** for the row. This value can be a number with any valid CSS unit (such as `100px`, `50%`, `50em`, `100vh`) or a calculation (such as `100vh - 237px`).
 
@@ -112,6 +116,8 @@ If you set the _[!UICONTROL Background Type]_ to `Image`, use the following sett
    | [!UICONTROL Select from Gallery] |Prompts you to choose an existing image from the gallery as the background image for the row. |
    | ![Camera icon](./assets/pb-icon-camera.png)<!-- width="25px" --> |Allows you to either drag the image to the camera tile or browse to the image in your local file system. |
 
+   {style="table-layout:auto"}
+
 - **[!UICONTROL Background Mobile Image]** - If needed, use the same tools to choose a different background image to be used for display on mobile devices.
 
 - **[!UICONTROL Background Size]** - Set this option to determine how the background image is scaled in relation to the width of the row:
@@ -121,6 +127,8 @@ If you set the _[!UICONTROL Background Type]_ to `Image`, use the following sett
    | `Cover` | The background image covers the full width of the row. |
    | `Contain` | The background image is limited to the width of the content area. |
    | `Auto` | Applies the size from the current style sheet. |
+
+   {style="table-layout:auto"}
 
    ![Background Size](./assets/pb-layout-row-settings-background-size-cover.png)<!-- zoom -->
 
@@ -132,6 +140,8 @@ If you set the _[!UICONTROL Background Type]_ to `Image`, use the following sett
    | `Center` | Left / Center / Right |
    | `Bottom` | Left / Center / Right |
 
+   {style="table-layout:auto"}
+
    The anchor point is like a push pin that attaches the image to the row at the specified background position.
 
 - **[!UICONTROL Background Attachment]** - Set the attachment type to determine how the background image moves in relation to the scrolling page:
@@ -140,6 +150,8 @@ If you set the _[!UICONTROL Background Type]_ to `Image`, use the following sett
    | ------ | ----------- |
    | `Scroll` | The attached background image is synchronized to move down as the page scrolls. Use Parallax Background to control the scrolling speed. |
    | `Fixed` | (Not available for mobile) The background image does not move as the container scrolls over the image and is fixed at the specified background position. |
+
+   {style="table-layout:auto"}
 
 - **[!UICONTROL Background Repeat]** - Set to `Yes` to repeat the background image to fill the available space in the row.
 
@@ -185,6 +197,8 @@ Use these options to control the speed of a scrolling background image or video 
    | `Center`| Aligns the content container in the center of the row container, with allowance for any padding that is specified. |
    | `Right` | Aligns the content container along the right border of the row container, with allowance for any padding that is specified. |
 
+   {style="table-layout:auto"}
+
 - Set the **[!UICONTROL Border]** style that is applied to all four sides of the row container:
 
    | Option | Description |
@@ -199,6 +213,8 @@ Use these options to control the speed of a scrolling background image or video 
    | `Ridge` | The container border appears as a ridged line. |
    | `Inset` | The container border appears as an inset line. |
    | `Outset` | The container border appears as an outset line. |
+
+   {style="table-layout:auto"}
 
 - If you set a border style other than `None`, complete the border display options:
 
@@ -226,5 +242,7 @@ Use these options to control the speed of a scrolling background image or video 
    | -------------- | ----------- |
    | [!UICONTROL Margins] | The amount of blank space that is applied to the outside edge of all sides of the container. Options: `Top` / `Right` / `Bottom` / `Left` |
    | [!UICONTROL Padding] | The amount of blank space that is applied to the inside edge of all sides of the container. Options: `Top` / `Right` / `Bottom` / `Left` |
+
+   {style="table-layout:auto"}
 
    ![Margins and Padding](./assets/pb-layout-row-settings-margin-padding-default.png)<!-- zoom -->

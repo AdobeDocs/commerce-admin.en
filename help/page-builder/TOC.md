@@ -7,8 +7,8 @@ hide: yes
 
 # [!DNL Page Builder] User Guide {#page-builder}
 
-- [Guide overview](guide-overview.md)
-- [Introduction to Page Builder](introduction.md)
+- [[!DNL Page Builder] User Guide](guide-overview.md)
+- [Introduction to [!DNL Page Builder]](introduction.md)
 - [Release notes](release-notes.md)
 - [Configuration and setup](setup.md)
 - Walkthrough {#walkthrough}

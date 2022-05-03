@@ -1,6 +1,7 @@
 ---
 title: "Release Notes for [!DNL Page Builder]"
 description: Review the release notes for information about all [!DNL Page Builder] releases.
+
 ---
 
 # Release notes for [!DNL Page Builder]
@@ -157,27 +158,18 @@ This version of [!DNL Page Builder] is just a version-number update for Adobe Co
 ![New](../assets/new.svg) **Documentation for adding new Appearances**<br/>
    Everything developers should know about [adding appearances](https://devdocs.magento.com/page-builder/docs/content-types/extend/add-appearances.html) for existing or custom content types.
 
-### **Various fixes**
+![Fixed issue](../assets/fix.svg) **Various fixes**
 
-![Fixed issue](../assets/fix.svg) <!-- PB-50 -->Fixed an issue where the TinyMCE menu for slide content appears underneath other content types if the parent container of the slide is duplicated.
-
-![Fixed issue](../assets/fix.svg) <!-- PB-166 -->Updated [!DNL Page Builder] to implement a destroy method to prevent memory leaks in some scenarios.
-
-![Fixed issue](../assets/fix.svg) <!-- PB-170 -->Improved TinyMCE performance when multiple instances are used on the Admin stage.
-
-![Fixed issue](../assets/fix.svg) <!-- PB-252 -->Fixed an issue in which the Dynamic Block content type does not render on the Admin stage if the top row is marked as hidden.
-
-![Fixed issue](../assets/fix.svg) <!-- PB-273 -->Refined mouse-hover events on the Admin stage by removing a 200ms delay from various UI controls. This change makes it easier to work with nested content items on the stage.
-
-![Fixed issue](../assets/fix.svg) <!-- PB-294 -->Fixed an issue in which the currency symbol was being escaped improperly in the Product List widget within the Block/Dynamic Block on the Admin stage.
-
-![Fixed issue](../assets/fix.svg) <!-- PB-296 -->Fixed an issue in which the product total on the [!DNL Page Builder] edit panel did not work for custom MSI stock products.
-
-![Fixed issue](../assets/fix.svg) <!-- PB-317 -->Fixed an issue in which saving [!DNL Page Builder] content with background images on Microsoft Edge does not render those images on the storefront.
-
-![Fixed issue](../assets/fix.svg) <!-- PB-390 -->Fixed an issue in which nested [!DNL Page Builder] content fails to save if users click the Save button before the page fully renders.
-
-![Fixed issue](../assets/fix.svg) <!-- PB-418 -->Fixed exception error thrown in cron jobs due to [!DNL Page Builder] analytics.
+- <!-- PB-50 -->Fixed an issue where the TinyMCE menu for slide content appears underneath other content types if the parent container of the slide is duplicated.
+- <!-- PB-166 -->Updated [!DNL Page Builder] to implement a destroy method to prevent memory leaks in some scenarios.
+- <!-- PB-170 -->Improved TinyMCE performance when multiple instances are used on the Admin stage.
+- <!-- PB-252 -->Fixed an issue in which the Dynamic Block content type does not render on the Admin stage if the top row is marked as hidden.
+- <!-- PB-273 -->Refined mouse-hover events on the Admin stage by removing a 200ms delay from various UI controls. This change makes it easier to work with nested content items on the stage.
+- <!-- PB-294 -->Fixed an issue in which the currency symbol was being escaped improperly in the Product List widget within the Block/Dynamic Block on the Admin stage.
+- <!-- PB-296 -->Fixed an issue in which the product total on the [!DNL Page Builder] edit panel did not work for custom MSI stock products.
+- <!-- PB-317 -->Fixed an issue in which saving [!DNL Page Builder] content with background images on Microsoft Edge does not render those images on the storefront.
+- <!-- PB-390 -->Fixed an issue in which nested [!DNL Page Builder] content fails to save if users click the Save button before the page fully renders.
+- <!-- PB-418 -->Fixed exception error thrown in cron jobs due to [!DNL Page Builder] analytics.
 
 ## **1.2.2** for Adobe Commerce 2.3.4-p2
 
@@ -189,37 +181,30 @@ This version of [!DNL Page Builder] is just a version-number update for Adobe Co
 
 ## **1.2.0** for Adobe Commerce 2.3.4
 
-### **[!DNL Page Builder] integration with PWA Studio**
+![New](../assets/new.svg)  **[!DNL Page Builder] integration with PWA Studio**<br/>
+   Added [!DNL Page Builder] content rendering to the Venia app in PWA Studio. [!DNL Page Builder] content can now be viewed within the PWA Studio Venia app. See the [!DNL Page Builder] documentation within [PWA Studio][] for all the information on this new feature.
 
-![New](../assets/new.svg) Added [!DNL Page Builder] content rendering to the Venia app in PWA Studio. [!DNL Page Builder] content can now be viewed within the PWA Studio Venia app. See the [!DNL Page Builder] documentation within [PWA Studio][] for all the information on this new feature.
+![New](../assets/new.svg) **Added Product carousel**<!-- PB-77, PB-173, PB-175 -->The Products content type now provides an option to display your products in a carousel / slider format, including several options to customize the carousel to your needs.
 
-### **Products content type enhancements**
+![New](../assets/new.svg) **Added Product SKU sorting**<br/>
+   <!-- PB-69 -->. The Products content type now provides an option to sort your products by SKU in the order you add them to a list within the Admin.
 
-![New](../assets/new.svg) <!-- PB-77, PB-173, PB-175 -->Added Product carousel. The Products content type now provides an option to display your products in a carousel / slider format, including several options to customize the carousel to your needs.
+![New](../assets/new.svg) **Added Product Category sorting**<br/>
+   <!-- PB-181 -->. The Products content type now provides an option to sort your products by category _position_, displaying them in same order that they appear within your Commerce Catalog.
 
-![New](../assets/new.svg) <!-- PB-69 -->Added Product SKU sorting. The Products content type now provides an option to sort your products by SKU in the order you add them to a list within the Admin.
+![New](../assets/new.svg) **Added Product selection totals**<br/>
+   <!-- PB-107 -->. The Products content type Admin editor now displays the total number of products that match your product selection options.
 
-![New](../assets/new.svg) <!-- PB-181 -->Added Product Category sorting. The Products content type now provides an option to sort your products by category _position_, displaying them in same order that they appear within your Commerce Catalog.
+![Fixed issue](../assets/fix.svg) **Various fixes**
 
-![New](../assets/new.svg) <!-- PB-107 -->Added Product selection totals. The Products content type Admin editor now displays the total number of products that match your product selection options.
-
-### **Various fixes**
-
-![Fixed issue](../assets/fix.svg) <!-- PB-237 -->Security enhancements.
-
-![Fixed issue](../assets/fix.svg) <!-- PB-41 -->Fixed searches within UI select components to make only one AJAX request per search term.
-
-![Fixed issue](../assets/fix.svg) <!-- PB-76, PB-84-->Updated Product previews in the Admin to match the storefront, including the star rating, color, and size options of the product when relevant.
-
-![Fixed issue](../assets/fix.svg) <!-- PB-169 -->Fixed an issue in which [!DNL Page Builder] could not be saved when Commerce's JavaScript minification and bundling are enabled.
-
-![Fixed issue](../assets/fix.svg) <!-- PB-241 -->Fixed the Admin previews of Products, Blocks, and Dynamic Blocks to render correctly on Commerce installations that define different URLs for the Admin and the frontend.
-
-![Fixed issue](../assets/fix.svg) <!-- PB-238 -->Fixed the Admin previews of Products, Blocks, and Dynamic Blocks to render correctly on Commerce installations with B2B installed with the "Login Only" option enabled. Before this fix, the [!DNL Page Builder] preview would cause the page to redirect to the customer account login.
-
-![Fixed issue](../assets/fix.svg) <!-- PB-239 -->Fixed a session error that can occur when previewing a large page in the [!DNL Page Builder] Admin.
-
-![Fixed issue](../assets/fix.svg) <!-- PB-248 -->Updated [!DNL Page Builder] LESS styles to prevent storefront style duplication.
+- <!-- PB-237 -->Security enhancements.
+- <!-- PB-41 -->Fixed searches within UI select components to make only one AJAX request per search term.
+- <!-- PB-76, PB-84-->Updated Product previews in the Admin to match the storefront, including the star rating, color, and size options of the product when relevant.
+- <!-- PB-169 -->Fixed an issue in which [!DNL Page Builder] could not be saved when Commerce's JavaScript minification and bundling are enabled.
+- <!-- PB-241 -->Fixed the Admin previews of Products, Blocks, and Dynamic Blocks to render correctly on Commerce installations that define different URLs for the Admin and the frontend.
+- <!-- PB-238 -->Fixed the Admin previews of Products, Blocks, and Dynamic Blocks to render correctly on Commerce installations with B2B installed with the "Login Only" option enabled. Before this fix, the [!DNL Page Builder] preview would cause the page to redirect to the customer account login.
+- <!-- PB-239 -->Fixed a session error that can occur when previewing a large page in the [!DNL Page Builder] Admin.
+- <!-- PB-248 -->Updated [!DNL Page Builder] LESS styles to prevent storefront style duplication.
 
 ## **1.1.1** for Adobe Commerce 2.3.3-p1
 

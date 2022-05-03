@@ -6,8 +6,6 @@ description: Learn about [!DNL Page Builder] feature configuration in the Admin 
 
 When enabled in the configuration, [!DNL Page Builder] is the default content creation tool for CMS Pages, Blocks, and Dynamic Blocks. In addition, the _[!UICONTROL Enable Advanced CMS]_ button offers [!DNL Page Builder] as an option for Categories and Products. You can also choose the default [page layout](https://docs.magento.com/user-guide/design/page-layout.html) that you want to use for products, categories, and CMS pages. [!DNL Page Builder] is not available for newsletter content, which uses the WYSIWYG [editor](https://docs.magento.com/user-guide/cms/editor.html).
 
-![Advanced Content Tools](./assets/content-management-advanced-content-tools.png)<!-- zoom -->
-
 For more information about the Content Management Advanced Tools configuration options, see the [Configuration Reference Guide](https://docs.magento.com/user-guide/configuration/general/content-management.html).
 
 ## Configure [!DNL Page Builder]
@@ -17,6 +15,8 @@ For more information about the Content Management Advanced Tools configuration o
 1. In the left panel under _[!UICONTROL General]_, choose **[!UICONTROL Content Management]**.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** and verify that **[!UICONTROL Enable Page Builder]** is set to `Yes`.
+
+   ![Advanced Content Tools](./assets/content-management-advanced-content-tools.png)<!-- zoom -->
 
 1. If you are ready to set up [!DNL Google Maps], do the following:
 
@@ -33,8 +33,6 @@ For more information about the Content Management Advanced Tools configuration o
    - For **[!UICONTROL Default Column Grid Size]**, enter the default number of columns that you want to appear in the grid.
 
    - For **[!UICONTROL Maximum Column Grid Size]**, enter the largest number of columns that you want to be available in the grid.
-
-   ![Column grid size](./assets/pb-configure-advanced-content-tools-grid-size.png)
 
    >[!NOTE]
    >

@@ -22,6 +22,8 @@ Each column has a toolbox of options that appears when you hover over the contai
 |Duplicate|![Duplicate icon](./assets/pb-icon-duplicate.png)|Makes a copy of the current column.|
 |Remove|![Remove icon](./assets/pb-icon-remove.png)|Deletes the current column and its content.|
 
+{style="table-layout:auto"}
+
 ## Column grid
 
 The [grid](workspace.md) ensures that content is aligned consistently in a column and helps the page render correctly on both desktop and mobile devices. For more information, see the [Advanced Content Tools](setup.md) section of the [!DNL Page Builder] configuration.
@@ -105,6 +107,8 @@ In the following two-column example, the numbers in parentheses (6 /12) in the t
       | `Centered` | The column in centered in the middle of its container. |
       | `Bottom Aligned` | The column is aligned at the bottom of its container. |
 
+      {style="table-layout:auto"}
+
    - If needed, enter the **[!UICONTROL Minimum Height]** for the column. For example, you might set the minimum height to match the height of a background image.
 
    - If you set the minimum height, set the **[!UICONTROL Vertical Alignment]**  to control the position of content containers that are added to the column (`Top`, `Center`, or `Bottom`).
@@ -121,6 +125,8 @@ In the following two-column example, the numbers in parentheses (6 /12) in the t
       | [!UICONTROL Select from Gallery] | Prompts you to choose an existing image from the gallery as the background image for the column. |
       | ![Camera icon](./assets/pb-icon-camera.png)<!-- width="25px" --> | Allows you to either drag the image to the camera tile or browse to the image in your local file system. |
 
+      {style="table-layout:auto"}
+
    - **[!UICONTROL Background Mobile Image]** - If needed, use the same tools to choose a different background image to be used for display on mobile devices.
 
    - **[!UICONTROL Background Size]** - Change this setting to determines how the background image is scaled in relation to the width of the column:
@@ -131,6 +137,8 @@ In the following two-column example, the numbers in parentheses (6 /12) in the t
       | `Contain` | The background image is limited to the width of the content area. |
       | `Auto` | Applies the default background size that is specified in the style sheet of the current theme. |
 
+      {style="table-layout:auto"}
+
    - **[!UICONTROL Background Position]** - Change this setting to determine the anchor point of the image in relation to the column. Options: `Top Left`, `Top Center`, `Top Right`, `Center Left`, `Center`, `Center Right`, `Bottom Left`, `Bottom Center`, or `Bottom Right`
 
    - **[!UICONTROL Background Attachment]** - Change this setting to determine how the background image moves in relation to the scrolling page:
@@ -139,6 +147,8 @@ In the following two-column example, the numbers in parentheses (6 /12) in the t
       | ------ | ----------- |
       | `Scroll` | The background image is synchronized to move down as the  page scrolls. |
       | `Fixed` | (Not available for mobile) The background image does not move as the container scrolls over the image, and is fixed at the specified background position. |
+
+      {style="table-layout:auto"}
 
    - **[!UICONTROL Background Repeat]** - If you want to repeat the background image to fill the space, change this setting `Yes`.
 
@@ -152,6 +162,8 @@ In the following two-column example, the numbers in parentheses (6 /12) in the t
       | `Left` | Aligns the content containers along the left border of the column container, with allowance for any padding that is specified. |
       | `Center` | Aligns the content container in the center of the column container, with allowance for any padding that is specified. |
       | `Right` | Aligns the content container along the right border of the column container, with allowance for any padding that is specified. |
+
+      {style="table-layout:auto"}
 
    - Set the **[!UICONTROL Border]** style, which is applied to all four sides of the column container:
 
@@ -167,6 +179,8 @@ In the following two-column example, the numbers in parentheses (6 /12) in the t
       | `Ridge` | The container border appears as a ridged line. |
       | `Inset` | The container border appears as an inset line. |
       | `Outset`| The container border appears as an outset line. |
+
+      {style="table-layout:auto"}
 
    - If you set a border style other than `None`, complete the border display options:
 
@@ -188,5 +202,7 @@ In the following two-column example, the numbers in parentheses (6 /12) in the t
       | -------------- | ----------- |
       | [!UICONTROL Margins] | The amount of blank space that is applied to the outside edge of all sides of the container. Options: `Top` / `Right` / `Bottom` / `Left` |
       | [!UICONTROL Padding] | The amount of blank space that is applied to the inside edge of all sides of the container. Options: `Top` / `Right` / `Bottom` / `Left` |
+
+      {style="table-layout:auto"}
 
 1. When complete, click **[!UICONTROL Save]** to apply the settings and return to the [!DNL Page Builder] workspace.

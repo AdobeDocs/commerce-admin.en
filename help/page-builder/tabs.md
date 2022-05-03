@@ -25,6 +25,8 @@ When you are working with the _Tabs_ content type, you add and edit individual t
 |Duplicate|![Duplicate icon](./assets/pb-icon-duplicate.png)<!-- width="25px" -->|Makes a copy of the tab.|
 |Remove|![Remove icon](./assets/pb-icon-remove.png)<!-- width="25px" -->|Deletes the tab from the tab set.|
 
+{style="table-layout:auto"}
+
 ### Tabs container toolbox
 
 ![Tab container toolbox](./assets/pb-tabs-toolbox-settings.png)<!-- zoom -->
@@ -39,6 +41,8 @@ When you are working with the _Tabs_ content type, you add and edit individual t
 |Show|![Show icon](./assets/pb-icon-show.png)<!-- width="25px" -->|Shows the hidden tab container.|
 |Duplicate|![Duplicate icon](./assets/pb-icon-duplicate.png)<!-- width="25px" -->|Makes a copy of the current tab.|
 |Remove|![Remove icon](./assets/pb-icon-remove.png)<!-- width="25px" -->|Deletes the current tab set from the stage.|
+
+{style="table-layout:auto"}
 
 ## Add an individual tab
 
@@ -151,6 +155,8 @@ You can any content type to a tab just as you can to a row. Use the following st
    | [!UICONTROL Select from Gallery] | Prompts you to choose an existing image from the gallery as the background image for the tab. |
    | ![Camera icon](./assets/pb-icon-camera.png)<!-- width="25px" --> |  Allows you to either drag the image to the camera tile or browse to the image in your local file system. |
 
+   {style="table-layout:auto"}
+
 - **[!UICONTROL Background Mobile Image]** - If needed, use the same tools to choose a different background image to be used for display on mobile devices.
 
 - **[!UICONTROL Background Size]** - Choose how the background image is scaled in relation to the width of the tab:
@@ -161,6 +167,8 @@ You can any content type to a tab just as you can to a row. Use the following st
    | `Contain` | The background image is limited to the width of the tab area. |
    | `Auto` | Applies the size from the current style sheet. |
 
+   {style="table-layout:auto"}
+
 - **[!UICONTROL Background Position]** - Choose how the background image is anchored in relation to the tab: `Top Left` / `Top Center` / `Top Right` / `Center Left` / `Center` / `Center Right` / `Bottom Left` / `Bottom Center` / `Bottom Right`
 
 - **[!UICONTROL Background Attachment]** - Choose the attachment type to determine how the background image moves in relation to the scrolling page:
@@ -169,6 +177,8 @@ You can any content type to a tab just as you can to a row. Use the following st
    | --- | --- |
    | `Scroll` | The attached background image is synchronized to move down as the page scrolls.|
    | `Fixed` |(Not available for mobile) The background image does not move as the container scrolls over the image and is fixed at the specified background position.|
+
+   {style="table-layout:auto"}
 
 - **[!UICONTROL Background Repeat]** - Set to `Yes` to repeat the background image to fill the available space in the tab.
 
@@ -182,6 +192,8 @@ You can any content type to a tab just as you can to a row. Use the following st
    | `Left` | Aligns the content containers along the left border of the tab, with allowance for any padding that is specified. |
    | `Center` | Aligns the content container in the center of the tab, with allowance for any padding that is specified. |
    | `Right` | Aligns the content container along the right border of the tab, with allowance for any padding that is specified. |
+
+   {style="table-layout:auto"}
 
 - Set the **[!UICONTROL Border]** style that is applied to all four sides of the tab container:
 
@@ -197,6 +209,8 @@ You can any content type to a tab just as you can to a row. Use the following st
    | `Ridge` | The container border appears as a ridged line. |
    | `Inset` | The container border appears as an inset line. |
    | `Outset` | The container border appears as an outset line. |
+
+   {style="table-layout:auto"}
 
 - If you set a border style other than `None`, complete the border display options:
 
@@ -225,6 +239,8 @@ You can any content type to a tab just as you can to a row. Use the following st
    | [!UICONTROL Margins] | The amount of blank space that is applied to the outside edge of all sides of the container. Options: `Top` / `Right` / `Bottom` / `Left` |
    | [!UICONTROL Padding] | The amount of blank space that is applied to the inside edge of all sides of the container. Options: `Top` / `Right` / `Bottom` / `Left` |
 
+   {style="table-layout:auto"}
+
 ## Change tab set settings
 
 1. Hover over the top border of the tab set container to display the toolbox and choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon.
@@ -250,6 +266,8 @@ You can any content type to a tab just as you can to a row. Use the following st
       | `Center` | Aligns the tab set in the center of the parent container, with allowance for any padding that is specified. |
       | `Right` | Aligns the tab set along the right border of the parent container, with allowance for any padding that is specified. |
 
+      {style="table-layout:auto"}
+
    - Set the **[!UICONTROL Border]** style applied to all four sides of the tabs container:
 
       | Option | Description|
@@ -264,6 +282,8 @@ You can any content type to a tab just as you can to a row. Use the following st
       | `Ridge` | The container border appears as a ridged line. |
       | `Inset` | The container border appears as an inset line. |
       | `Outset` | The container border appears as an outset line. |
+
+      {style="table-layout:auto"}
 
    - If you set a border style other than `None`, complete the border display options:
 
@@ -285,6 +305,8 @@ You can any content type to a tab just as you can to a row. Use the following st
       | -------------- | ---------- |
       | [!UICONTROL Margins] |The amount of blank space that is applied to the outside edge of all sides of the container. Options: `Top` / `Right` / `Bottom` / `Left` |
       | [!UICONTROL Padding] | The amount of blank space that is applied to the inside edge of all sides of the container. Options: `Top` / `Right` / `Bottom` / `Left` |
+
+      {style="table-layout:auto"}
 
 1. When complete, click **[!UICONTROL Save]** to apply the settings and return to the [!DNL Page Builder] workspace.
 

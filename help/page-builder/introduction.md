@@ -13,7 +13,7 @@ description: Learn about the [!DNL Page Builder] tools for easy content creation
 - Rich assortment of content types
 - Custom product attribute input types
 
-The [!DNL Page Builder] advanced content tools were introduced in the Adobe Commerce 2.3.1 release. Starting with the 2.4.3 release, the basic [!DNL Page Builder] functionality is also available in Magento Open Source. However, [!DNL Page Builder] in Adobe Commerce adds in the ability to use the rest of the _Experience Management_ tools. These tools to enable merchants to deliver engaging, personalized experiences and campaigns: Staging and preview, Personalized content, Product Recommendations, with additional capabilities to come.
+The [!DNL Page Builder] advanced content tools were introduced in the Adobe Commerce 2.3.1 release. Starting with the 2.4.3 release, the basic [!DNL Page Builder] functionality is also available in Magento Open Source. However, [!DNL Page Builder] within Adobe Commerce has enhanced capabilities to use the rest of the _Experience Management_ tools. These tools enable merchants to deliver engaging, personalized experiences and campaigns: staging and preview, personalized content, Product Recommendations, with additional capabilities to come.
 
 ## Learn [!DNL Page Builder]
 

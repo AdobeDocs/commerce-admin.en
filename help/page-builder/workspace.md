@@ -92,6 +92,8 @@ By default, the [!DNL Page Builder] stage is empty. As you drag layout content t
 | [Column](column.md) | A column can be dragged from the panel to the stage, or to rows and tabs. The maximum number of columns that can be added is determined by the number of grid divisions that is specified in the [configuration](setup.md). |
 | [Tabs](tabs.md) | A single tab can be dragged from the panel to the stage, or to rows and columns. Additional tabs can be added from the toolbox. |
 
+{style="table-layout:auto"}
+
 ### Elements
 
 Use the _[!UICONTROL Elements]_ section of the [!DNL Page Builder] panel to add text, headings, buttons, dividers, and HTML code to any layout container on the [[!DNL Page Builder] stage](workspace.md#stage). When you drag a content type from the panel to either a row or column, or to a tab set on the stage, a container appears. Use the content type toolbox to access the settings that are specific to the type.
@@ -105,6 +107,8 @@ Use the _[!UICONTROL Elements]_ section of the [!DNL Page Builder] panel to add 
 | [Buttons](buttons.md) | Adds a container for either an individual button, or set of buttons to the stage. |
 | [Divider](divider.md) | Adds a container for a divider to the stage. |
 | [HTML Code](html-code.md) | Adds a container for HTML code to the stage. |
+
+{style="table-layout:auto"}
 
 ### Media
 
@@ -120,6 +124,8 @@ Use the _[!UICONTROL Media]_ section of the [!DNL Page Builder] panel to add ima
 | [Slider](slider.md) | Adds a slider container to the stage.      |
 | [Map](map.md)       | Adds a [!DNL Google Maps] container to the stage. |
 
+{style="table-layout:auto"}
+
 ### Add Content
 
 Use the _[!UICONTROL Add Content]_ section of the [!DNL Page Builder] panel to add existing content to the [[!DNL Page Builder] stage](workspace.md#stage). When you drag a media content type from the panel to the stage, a container appears. Use the content type toolbox to access the _Settings_ that are specific to the type.
@@ -132,6 +138,8 @@ Use the _[!UICONTROL Add Content]_ section of the [!DNL Page Builder] panel to a
 | [Dynamic Block](dynamic-block.md)                                | Adds an existing dynamic block to the stage. |
 | [Products](products.md)                                          | Adds a list of products to the stage.        |
 | ![Adobe Commerce only](../assets/adobe-logo.svg) [Product Recommendations](recommendations.md) | Adds a recommendation unit to the stage. |
+
+{style="table-layout:auto"}
 
 ## Toolbox
 
@@ -155,3 +163,5 @@ Hover over the container to display the toolbox and choose an option.
 | Show      | ![Show icon](./assets/pb-icon-show.png)| Shows the current content container.|
 | Duplicate | ![Duplicate icon](./assets/pb-icon-duplicate.png) | Makes a copy of the current content container. |
 | Remove    | ![Remove](./assets/pb-icon-remove.png) | Deletes the current content container from the stage. |
+
+{style="table-layout:auto"}
