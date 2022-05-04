@@ -18,11 +18,11 @@ The product carousel provides a powerful and engaging way to show off your produ
 
 - Set the **[!UICONTROL Carousel Mode]** to `Continuous` to highlight, center, and scroll one product at a time within the carousel. The other products are visible in the list, but transparent in order to highlight the centered product.
 
-   ![Product list in continuous carousel mode](./assets/pb-products-settings_carousel-continuous.png)<!-- zoom -->
+   ![Product list in continuous carousel mode](./assets/pb-products-settings-carousel-continuous.png)<!-- zoom -->
 
 - To show and scroll up to five products at a time within the carousel, keep the **[!UICONTROL Carousel Mode]** set to `Default`.
 
-   ![Product list in default carousel mode](./assets/pb-products-settings_carousel-default.png)<!-- zoom -->
+   ![Product list in default carousel mode](./assets/pb-products-settings-carousel-default.png)<!-- zoom -->
 
 The following instructions show how to add a Products list to a block. You can then use a [widget](https://docs.magento.com/user-guide/cms/widgets.html) to place the block at a specific location on any page in your store.
 
@@ -38,6 +38,8 @@ The following instructions show how to add a Products list to a block. You can t
 | Show      | ![Show icon](./assets/pb-icon-show.png) | Shows the  hidden products container and its content.  |
 | Duplicate | ![Duplicate icon](./assets/pb-icon-duplicate.png) | Makes a copy of the products container and its content.  |
 | Remove    | ![Remove icon](./assets/pb-icon-remove.png)| Deletes the products container and its content from the stage. |
+
+{style="table-layout:auto"}
 
 ## Create a products list block
 
@@ -73,6 +75,8 @@ Complete the _Settings_ according to the following sections:
    | ---- | ----------- |
    | Product Grid | Displays the products within a grid that shows five products per row (by default), with as many rows as are required to display the number entered in the **[!UICONTROL Number of Products to Display]** setting.  |
    | Product Carousel | Displays the products within a carousel (also known as a slider). The carousel shows up to five products per slide. <br/><br/>**Responsiveness Alert**: When you select this appearance, it is best to add the Products content type directly to a row, tab, or one-column layout where it is responsive, showing fewer products per side on smaller screens. If you add it to content types that are narrower than the width of the page (such as a narrow column), the carousel displays more products per slide than the container allows, regardless of the screen size. |
+
+   {style="table-layout:auto"}
 
    ![Product appearance](./assets/pb-products-appearances.png)<!-- zoom -->
    _Setting the product appearance_
@@ -128,6 +132,8 @@ Complete the _Settings_ according to the following sections:
    | `Price: high to low` |  Sorts products from highest to lowest price. |
    | `Price: low to high` | Sorts products from lowest to highest price. |
 
+   {style="table-layout:auto"}
+
    ![Product sorting options](./assets/pb-products-sortby.png)<!-- zoom -->
 
 1. Enter the **[!UICONTROL Number of Products to Display]** in the carousel or grid.
@@ -150,6 +156,8 @@ Complete the _Settings_ according to the following sections:
    | ------ | ----------- |
    | `Default` | The carousel displays five products per slide by default and responsively reduces that number as needed. |
    | `Continuous` | The carousel displays five products per slide by default (with half of a product on the right and left), but centers and scrolls one product at a time in an infinite loop. Products to the right and left of the centered product are dimmed so that the center product is highlighted. |
+
+   {style="table-layout:auto"}
 
    If you switch between these two modes, the other carousel settings are retained, except for the **[!UICONTROL Infinite Loop]** setting, which is always set to `Yes` in Continuous mode and the field is disabled.
 
@@ -188,6 +196,8 @@ Complete the _Settings_ according to the following sections:
    | `Center` | Aligns the list in the center of the parent container, with allowance for any padding that is specified. |
    | `Right` | Aligns the list along the right border of the parent container, with allowance for any padding that is specified. |
 
+   {style="table-layout:auto"}
+
 1. Set the **[!UICONTROL Border]** style that is applied to all four sides of the Products container:
 
    | Option | Description |
@@ -203,13 +213,17 @@ Complete the _Settings_ according to the following sections:
    | `Inset` | The container border appears as an inset line. |
    | `Outset` | The container border appears as an outset line. |
 
+   {style="table-layout:auto"}
+
 1. If you set a border style other than `None`, complete the border display options:
 
-   - **[!UICONTROL Border Color]** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
+   | Option | Description |
+   | ------ |------------ |
+   | [!UICONTROL Border Color] | Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value. |
+   | [!UICONTROL Border Width] | Enter the number of pixels for the border line width. |
+   | [!UICONTROL Border Radius] | Enter the number of pixels to define the size of the radius that is used to round each corner of the border. |
 
-   - **[!UICONTROL Border Width]** - Enter the number of pixels for the border line width.
-
-   - **[!UICONTROL Border Radius]** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
+   {style="table-layout:auto"}
 
 1. (Optional) Specify the names of **[!UICONTROL CSS classes]** from the current style sheet to apply to the container.
 
@@ -224,6 +238,7 @@ Complete the _Settings_ according to the following sections:
    | [!UICONTROL Margins] | The amount of blank space that is applied to the outside edge of all sides of the container. Options: `Top` / `Right` / `Bottom` / `Left` |
    | [!UICONTROL Padding] | The amount of blank space that is applied to the inside edge of all sides of the container. Options: `Top` / `Right` / `Bottom` / `Left` |
 
+
 ## Save and preview on the stage
 
 In the upper-right corner, click **[!UICONTROL Save]** to apply the settings and return to the [!DNL Page Builder] workspace.
@@ -231,6 +246,5 @@ In the upper-right corner, click **[!UICONTROL Save]** to apply the settings and
 If you configured a product carousel, it should look similar to the following example:
 
 ![Product carousel on the stage](./assets/pb-products-admin-carousel.png)<!-- zoom -->
-_Products carousel on the stage_
 
 You can now use a [widget](https://docs.magento.com/user-guide/cms/widgets.html) to place this block wherever you want it to appear in the store. Or, you can use [Add Content - Block](block.md) to add the block to an existing page, tab, or block.

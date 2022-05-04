@@ -32,6 +32,8 @@ The banner toolbox appears when you hover over the banner container.
 |[!UICONTROL Upload New Image]||Uploads an image from your local file system to the gallery for the banner background.|
 |[!UICONTROL Select from Gallery]||Uses an existing image from the gallery for the banner background.|
 
+{style="table-layout:auto"}
+
 ## Add a banner
 
 1. In the [!DNL Page Builder] panel, expand **[!UICONTROL Media]** and drag a **[!UICONTROL Banner]** placeholder to the stage.
@@ -71,6 +73,8 @@ Banners are easy to set up and maintain, because they are based on one of four p
    | [!UICONTROL Collage Left] | Places content and button in a defined area on the left side of the banner. The overlay, if used, covers only the defined area. |
    | [!UICONTROL Collage Center] | Places content and button in a defined area that is centered on the banner. The overlay, if used, covers only the defined area. |
    | [!UICONTROL Collage Right] | Places content and button in a defined area on the right side of the banner. The overlay, if used, covers only the defined area. |
+
+   {style="table-layout:auto"}
 
    ![Appearance - collage right](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png)<!-- zoom -->
 
@@ -128,6 +132,8 @@ If you set the _Background Type_ to `Image`, use the following settings to defin
    | [!UICONTROL Select from Gallery] | Prompts you to choose an existing image from the gallery as the background image for the banner. |
    | ![Camera icon](./assets/pb-icon-camera.png)<!-- width="25px" --> | Allows you to either drag the image to the camera tile or browse to the image in your local file system. |
 
+   {style="table-layout:auto"}
+
 - **[!UICONTROL Background Mobile Image]** - If needed, use the same tools to choose a different background image to be used for display on mobile devices.
 
 - **[!UICONTROL Background Size]** - Set this option to determine how the background image is scaled in relation to the width of the banner:
@@ -137,6 +143,8 @@ If you set the _Background Type_ to `Image`, use the following settings to defin
    | `Cover` | The background image covers the full width of the banner. |
    | `Contain` | The background image is limited to the width of the content area. |
    | `Auto` | Applies the size from the current style sheet. |
+
+   {style="table-layout:auto"}
 
    ![Background size](./assets/pb-layout-row-settings-background-size-cover.png)<!-- zoom -->
 
@@ -148,6 +156,8 @@ If you set the _Background Type_ to `Image`, use the following settings to defin
    | `Center` | Left / Center / Right |
    | `Bottom` | Left / Center / Right |
 
+   {style="table-layout:auto"}
+
    The anchor point is like a push pin that attaches the image to the banner at the specified background position.
 
 - **[!UICONTROL Background Attachment]** - Set the attachment type to determine how the background image moves in relation to the scrolling page:
@@ -156,6 +166,8 @@ If you set the _Background Type_ to `Image`, use the following settings to defin
    | ------ | ----------- |
    | `Scroll` |The attached background image is synchronized to move down as the page scrolls.|
    | `Fixed` |(Not available for mobile) The background image does not move as the container scrolls over the image and is fixed at the specified background position.|
+
+   {style="table-layout:auto"}
 
 - **[!UICONTROL Background Repeat]** - If you want to repeat the background image to fill the space, change this setting `Yes`.
 
@@ -241,6 +253,8 @@ You can modify the banner content directly on the stage or when you are changing
       | `On Hover` | A button appears on the banner only on hover. |
       | `Never Show` | A button never appears on the banner. |
 
+      {style="table-layout:auto"}
+
    - Enter the **[!UICONTROL Button Text]** to appear on the button.
 
    - Set **[!UICONTROL Button Type]** to one of the following:
@@ -251,6 +265,8 @@ You can modify the banner content directly on the stage or when you are changing
       | `Secondary` | Applies the secondary button style from the current style sheet, if applicable.|
       | `Link` | Creates a hyperlink rather than a button. |
 
+      {style="table-layout:auto"}
+
       The button style from the current theme determines the button format. Typically, a primary button has a more prominent background color than a secondary button.
 
 1. Set **[!UICONTROL Show Overlay]** to one of the following:
@@ -260,6 +276,8 @@ You can modify the banner content directly on the stage or when you are changing
    | `Always` | The overlay is always visible. |
    | `On Hover` | The overlay appears only on hover. |
    | `Never Show` | The overlay is not visible. |
+
+   {style="table-layout:auto"}
 
    You can use an overlay to apply a background color to the active content area that is defined by the [!UICONTROL Appearance] setting. The banner background image remains visible for the full width of the banner.
 
@@ -298,6 +316,8 @@ Text for these settings is visible to search engines and improves the way the pa
    | `Center` | Aligns the content container in the center of the banner container, with allowance for any padding that is specified. |
    | `Right` | Aligns the content container along the right border of the banner container, with allowance for any padding that is specified. |
 
+   {style="table-layout:auto"}
+
 1. Set the **[!UICONTROL Border]** style applied to all four sides of the banner container:
 
    | Option | Description |
@@ -312,6 +332,8 @@ Text for these settings is visible to search engines and improves the way the pa
    | `Ridge` | The container border appears as a ridged line. |
    | `Inset` | The container border appears as an inset line. |
    | `Outset` | The container border appears as an outset line. |
+
+   {style="table-layout:auto"}
 
 1. If you set a border style other than `None`, complete the border display options:
 
@@ -335,3 +357,5 @@ Text for these settings is visible to search engines and improves the way the pa
    | ------ | ----------- |
    | [!UICONTROL Margins] | The amount of blank space that is applied to the outside edge of all sides of the container. |
    | [!UICONTROL Padding] | The amount of blank space that is applied to the inside edge of all sides of the container. |
+
+   {style="table-layout:auto"}

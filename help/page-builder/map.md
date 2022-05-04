@@ -36,6 +36,8 @@ The map toolbox appears when you hover over the map container.
 |Duplicate|![Duplicate icon](./assets/pb-icon-duplicate.png)<!-- width="25px" -->|Makes a copy of the map.|
 |Remove|![Remove icon](./assets/pb-icon-remove.png)<!-- width="25px" -->|Deletes the map from the stage.|
 
+{style="table-layout:auto"}
+
 ## Configure [!DNL Google Maps] for your Admin
 
 Before adding a map, you must first open an [account][3] for a free trial of [!DNL Google Maps] Platform. The free trial lasts for 12 months and includes a $300 credit. If you use up your credit, Google does not bill your account without your permission.
@@ -138,6 +140,8 @@ Depending on whether you already have a [!DNL Google Maps] key, use one of the f
    | [!UICONTROL Country] | The country of the location. |
    | [!UICONTROL Comment] | Any comments that you want to include. |
 
+   {style="table-layout:auto"}
+
 1. When complete, click **[!UICONTROL Save]**.
 
    The new location appears in the map and in the map location grid on the _[!UICONTROL Edit Map]_ page.
@@ -191,6 +195,8 @@ Use the [!DNL Google Maps] Platform Styling Wizard to apply a one of six predefi
    |[!UICONTROL Height]|Specifies the height of the displayed map in pixels.|
    |[!UICONTROL Show Controls]|Determines if the standard Google Map controls appear.|
 
+   {style="table-layout:auto"}
+
 1. Modify the _[!UICONTROL Advanced]_ settings as needed:
 
    -  To control the horizontal positioning of the map content that added to the container, choose an **[!UICONTROL Alignment]**:
@@ -201,6 +207,8 @@ Use the [!DNL Google Maps] Platform Styling Wizard to apply a one of six predefi
       | `Left` | Aligns the content along the left border of the map container, with allowance for any padding that is specified. |
       | `Center` | Aligns the content in the center of the map container, with allowance for any padding that is specified. |
       | `Right` | Aligns the content along the right border of the map container, with allowance for any padding that is specified. |
+
+      {style="table-layout:auto"}
 
    - Set the **[!UICONTROL Border]** style applied to all four sides of the map container:
 
@@ -217,15 +225,19 @@ Use the [!DNL Google Maps] Platform Styling Wizard to apply a one of six predefi
       | `Inset` | The container border appears as an inset line. |
       | `Outset` | The container border appears as an outset line. |
 
-   - If you set a border style other than `None`, complete the border display options:
+      {style="table-layout:auto"}
 
-      - **[!UICONTROL Border Color]** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
+   - If you set a border style other than `None`, complete the border display options:
 
       ![Border Color](./assets/pb-settings-border-color.png)<!-- zoom -->
 
-      - **[!UICONTROL Border Width]** - Enter the number of pixels for the border line width.
+      | Option | Description |
+      | ------ |------------ |
+      | [!UICONTROL Border Color] | Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value. |
+      | [!UICONTROL Border Width] | Enter the number of pixels for the border line width. |
+      | [!UICONTROL Border Radius] | Enter the number of pixels to define the size of the radius that is used to round each corner of the border. |
 
-      - **[!UICONTROL Border Radius]** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
+      {style="table-layout:auto"}
 
    - (Optional) Specify the names of **[!UICONTROL CSS classes]** from the current style sheet to apply to the map container.
 
@@ -239,6 +251,8 @@ Use the [!DNL Google Maps] Platform Styling Wizard to apply a one of six predefi
       | -------------- | ----------- |
       | [!UICONTROL Margins] | The amount of blank space that is applied to the outside edge of all sides of the container. |
       | [!UICONTROL Padding] | The amount of blank space that is applied to the inside edge of all sides of the container. |
+
+      {style="table-layout:auto"}
 
       >[!NOTE]
       >

@@ -23,6 +23,8 @@ Use the _Product Recommendations_ content type to add an existing, active [recom
 | Duplicate | ![Duplicate icon](./assets/pb-icon-duplicate.png) | Makes a duplicate copy of the product recommendation container and its content. |
 | Remove | ![Remove icon](./assets/pb-icon-remove.png) | Deletes the product recommendation container and its content from the stage. |
 
+{style="table-layout:auto"}
+
 ## Add an existing recommendation unit
 
 1. Make sure you have already [created a recommendation unit](https://docs.magento.com/user-guide/recommendations/create.html) for the [!DNL Page Builder] page type.
@@ -109,6 +111,8 @@ Use the _Product Recommendations_ content type to add an existing, active [recom
    | `Center` | Aligns the unit in the center of the parent container, with allowance for any padding that is specified. |
    | `Right` | Aligns the unit along the right border of the parent container, with allowance for any padding that is specified. |
 
+   {style="table-layout:auto"}
+
 1. Set the **[!UICONTROL Border]** style that is applied to all four sides of the Product Recommendations unit:
 
    | Option | Description |
@@ -124,13 +128,17 @@ Use the _Product Recommendations_ content type to add an existing, active [recom
    | `Inset` | The unit border appears as an inset line. |
    | `Outset` | The unit border appears as an outset line. |
 
+   {style="table-layout:auto"}
+
 1. If you set a border style other than `None`, complete the border display options:
 
-   - **[!UICONTROL Border Color]** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
+   | Option | Description |
+   | ------ |------------ |
+   | [!UICONTROL Border Color] | Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value. |
+   | [!UICONTROL Border Width] | Enter the number of pixels for the border line width. |
+   | [!UICONTROL Border Radius] | Enter the number of pixels to define the size of the radius that is used to round each corner of the border. |
 
-   - **[!UICONTROL Border Width]** - Enter the number of pixels for the border line width.
-
-   - **[!UICONTROL Border Radius]** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
+   {style="table-layout:auto"}
 
 1. (Optional) Specify the names of **[!UICONTROL CSS classes]** from the current style sheet to apply to the unit.
 
@@ -144,3 +152,5 @@ Use the _Product Recommendations_ content type to add an existing, active [recom
    | ------ | ----------- |
    | [!UICONTROL Margins] | The amount of blank space that is applied to the outside edge of all sides of the unit. Options: `Top` / `Right` / `Bottom` / `Left` |
    | [!UICONTROL Padding] | The amount of blank space that is applied to the inside edge of all sides of the unit. Options: `Top` / `Right` / `Bottom` / `Left` |
+
+   {style="table-layout:auto"}

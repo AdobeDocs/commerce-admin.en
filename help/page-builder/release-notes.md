@@ -1,7 +1,6 @@
 ---
 title: "Release Notes for [!DNL Page Builder]"
 description: Review the release notes for information about all [!DNL Page Builder] releases.
-
 ---
 
 # Release notes for [!DNL Page Builder]
@@ -14,58 +13,58 @@ These release notes describe releases of [!DNL Page Builder] and include:
 
 ![Known issue](../assets/bug.svg) Known issues
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Starting with the 2.4.3 release, [!DNL Page Builder] is now available as a bundled extension in Magento Open Source. It is now the default content-editing tool for both Adobe Commerce 2.4.3 and Magento Open Source, and can replace the WYSIWG editor with any third-party module.
+>Starting with the 2.4.3 release, [!DNL Page Builder] is now available as a bundled extension in Magento Open Source. It is now the default content-editing tool for both Adobe Commerce and Magento Open Source, and can replace the WYSIWG editor with any third-party module.
 
 ## 1.6.0 for Adobe Commerce 2.4.2
 
-![New](../assets/new.svg) <!-- Issue 558 -->**New [!DNL Page Builder] styling**.<br/> 
-[!DNL Page Builder] made massive improvements to how it styles content. The changes now make it easy to create simple CSS selectors to override Page Builder's existing content type styles. These changes make it possible to create [!DNL Page Builder] themes with rich responsiveness for all content types.
+![New](../assets/new.svg) <!-- Issue 558 -->**New [!DNL Page Builder] styling**<br/> 
+[!DNL Page Builder] made massive improvements to how it styles content. The changes now make it easy to create simple CSS selectors to override the existing content type styles. These changes make it possible to create [!DNL Page Builder] themes with rich responsiveness for all content types.
 
-![New](../assets/new.svg) <!-- Issue 429 -->**Row container now optional**.<br/>
+![New](../assets/new.svg) <!-- Issue 429 -->**Row container now optional**<br/>
 You can now create content in [!DNL Page Builder] without requiring a Row container. In addition to the Row, the following content types can now be dragged and dropped directly on the stage: HTML, Block, Dynamic Block, Columns, and Tabs.
 
-![New](../assets/new.svg) <!-- Issue 636 -->**New responsive viewport switcher**.<br/>
-You can now preview your [!DNL Page Builder] content at different device widths (breakpoints) using the new Admin viewport switcher buttons above the stage. The Admin viewport switcher simulates how your content is styled when displayed on the storefront using different devices.
+![New](../assets/new.svg) <!-- Issue 636 -->**New responsive viewport switcher**<br/>
+You can now preview your [!DNL Page Builder] content at different device widths (breakpoints) using the new Admin viewport switcher buttons above the stage. The viewport switcher simulates how your content is styled when displayed on the storefront using different devices.
 
-![New](../assets/new.svg) <!-- Issue 637 -->**New breakpoint-specific form fields**.<br/>
-Content type field values can now be set to specific viewport breakpoints. Icon indicators next to the fields show which viewport the content type's field value is applied to.
+![New](../assets/new.svg) <!-- Issue 637 -->**New breakpoint-specific form fields**<br/>
+Content type field values can now be set to specific viewport breakpoints. Icon indicators next to the fields show which viewport the content type field value is applied to.
 
-![New](../assets/new.svg) <!-- Issue 559 -->**Removed predefined form field entries**.<br/>
+![New](../assets/new.svg) <!-- Issue 559 -->**Removed predefined form field entries**<br/>
 Advanced form settings for margins, paddings, and border-related properties (border, border width, and border radius) are now set as `default`, so that values can be defined by a module's CSS.
 
-![New](../assets/new.svg) <!-- Issue 635, 557,  -->**Added stage spacing**.<br/>
-Rows and Columns now provide extra spacing affordances around contained content types on the stage, but not on the storefront. The extra stage spacing makes it easier to access the mouseover option menus for both the container and contained content types.
+![New](../assets/new.svg) <!-- Issue 635, 557,  -->**Added stage spacing**<br/>
+Rows and Columns now provide extra spacing allowances around contained content types on the stage, but not on the storefront. The extra stage spacing makes it easier to access the mouseover option menus for both the container and contained content types.
 
-![Fixed issue](../assets/fix.svg) <!-- MC-37348 -->**Fixed auto-scrolling to reviews**.<br/>
+![Fixed issue](../assets/fix.svg) <!-- MC-37348 -->**Fixed auto-scrolling to reviews**<br/>
 Auto-scrolling to product reviews on the storefront is now fixed.
 
-![Fixed issue](../assets/fix.svg) <!-- MC-36227 -->**Fixed cropped content**.<br/>
+![Fixed issue](../assets/fix.svg) <!-- MC-36227 -->**Fixed cropped content**<br/>
 Lengthy category and product descriptions are no longer cropped.
 
-![Fixed issue](../assets/fix.svg) <!-- MC-35402 -->**Fixed full-width, full-bleed Category content**.<br/>
+![Fixed issue](../assets/fix.svg) <!-- MC-35402 -->**Fixed full-width, full-bleed Category content**<br/>
 Category content can now be displayed in a full-width or full-bleed layout.
 
-![Fixed issue](../assets/fix.svg) <!-- MC-37989 -->**Security enhancements**.
+![Fixed issue](../assets/fix.svg) <!-- MC-37989 -->**Security enhancements**
 
 ## 1.5.1 for Adobe Commerce 2.4.1-p1
 
-![Fixed issue](../assets/fix.svg) <!-- PB-1140, MC-38812 -->**Error popup.**<br/>
+![Fixed issue](../assets/fix.svg) <!-- PB-1140, MC-38812 -->**Error popup**<br/>
 Fixed an issue in which [!DNL Page Builder] displayed an error popup when adding Catalog subcategories in the Admin.
 
 ## 1.5.0 for Adobe Commerce 2.4.1
 
-![New](../assets/new.svg) <!-- Issue 510, 511, 512, 513 -->**Immersive, full-screen editing.**<br/>
+![New](../assets/new.svg) <!-- Issue 510, 511, 512, 513 -->**Immersive, full-screen editing**<br/>
 Editing [!DNL Page Builder] content is now full-screen only for all areas controlled by [!DNL Page Builder]. This change includes CMS pages, Product and Category pages, Blocks, and Dynamic Blocks. Full-screen editing puts the focus on your content and provides a view that better matches the user experience on the storefront.
 
-![New](../assets/new.svg) <!-- Issue 544 -->**[!DNL Page Builder] content previews.**<br/>
-By default, [!DNL Page Builder] now provides content previews not only for CMS pages, Blocks, and Dynamic Blocks, but for Product and Category pages as well. You can configure this feature to be on or off for Product and Category pages using the new [!DNL Page Builder] Content Preview setting, accessed in Stores > Configuration > Content Management > Advanced Content Tools.
+![New](../assets/new.svg) <!-- Issue 544 -->**[!DNL Page Builder] content previews**<br/>
+By default, [!DNL Page Builder] now provides content previews not only for CMS pages, Blocks, and Dynamic Blocks, but for Product and Category pages as well. You can configure this feature to be on or off for Product and Category pages using the new [!DNL Page Builder] Content Preview setting, accessed in the store configuration at Content Management > Advanced Content Tools.
 
-![New](../assets/new.svg) <!-- Issue 543 -->**Improved access to Product short descriptions.**<br/>
+![New](../assets/new.svg) <!-- Issue 543 -->**Improved access to Product short descriptions**<br/>
 By default, a Product short description is now displayed before the longer description. This change results in a match to the order that they appear on the storefront, and prevents the need to scroll through the longer description content to get access to the short description.
 
-![New](../assets/new.svg) <!-- Issue 419 -->**Prevented nested links in Banners and Slides.**<br/>
+![New](../assets/new.svg) <!-- Issue 419 -->**Prevented nested links in Banners and Slides**<br/>
 Adding links to both the content and the outer elements of Banners and Slides created nested links which did not display or behave correctly on the storefront. To resolve the issue, links can no longer be added to *both* the Message Text area and the Link attribute for Banners and Slides.
 
 ![Fixed issue](../assets/fix.svg) <!-- Issue 421 --> Fixed issue where setting empty border radius on a Tab Item caused errors and broke Tab Item content.
@@ -94,11 +93,11 @@ Adding links to both the content and the outer elements of Banners and Slides cr
 
 ![Fixed issue](../assets/fix.svg) <!-- MC-34848 -->Fixed the HTML content type to correctly display embedded widgets like "Order by SKU" on the Storefront.
 
-## **1.4.1** for Adobe Commerce 2.4.0-p1
+## 1.4.1 for Adobe Commerce 2.4.0-p1
 
 ![New](../assets/new.svg) <!-- PB-590 --> Upgraded to TinyMCE 4. Removed TinyMCE 3 to improve security.
 
-## **1.4.0** for Adobe Commerce 2.4.0
+## 1.4.0 for Adobe Commerce 2.4.0
 
 ![New](../assets/new.svg) <!-- PB-494 -->Added support for PHP 7.4.
 
@@ -110,11 +109,11 @@ Adding links to both the content and the outer elements of Banners and Slides cr
 
 ![Fixed issue](../assets/fix.svg) Security enhancements.
 
-## **1.3.3-p1** for Adobe Commerce 2.3.6-p1
+## 1.3.3-p1 for Adobe Commerce 2.3.6-p1
 
 ![Fixed issue](../assets/fix.svg) Security enhancements.
 
-## **1.3.3** for Adobe Commerce 2.3.6
+## 1.3.3 for Adobe Commerce 2.3.6
 
 ![Fixed issue](../assets/fix.svg) <!-- MC-32766 -->Fixed the Text content type to correctly save the variable directives added to html attributes.
 
@@ -126,15 +125,15 @@ Adding links to both the content and the outer elements of Banners and Slides cr
 
 ![Fixed issue](../assets/fix.svg) Fixed an error that sometimes prevented users from saving content-type forms. The error ("[!DNL Page Builder] was rendering for 5 seconds without releasing locks") caused the loader icon to spin indefinitely after trying to save a form.
 
-## **1.3.2** for Adobe Commerce 2.3.5-p2
+## 1.3.2 for Adobe Commerce 2.3.5-p2
 
 ![New](../assets/new.svg) Security enhancements.
 
-## **1.3.1** for Adobe Commerce 2.3.5-p1
+## 1.3.1 for Adobe Commerce 2.3.5-p1
 
 This version of [!DNL Page Builder] is just a version-number update for Adobe Commerce 2.3.5-p1. All features described for version 1.3.0 apply to this version as well.
 
-## **1.3.0** for Adobe Commerce 2.3.5
+## 1.3.0 for Adobe Commerce 2.3.5
 
 ![New](../assets/new.svg) **Templates**<br/>
    [!DNL Page Builder] now has templates that can be created from existing content and applied to new content areas. [!DNL Page Builder] templates save both content and layouts of existing pages, blocks, dynamic blocks, product attributes, and category descriptions. For example, you can save an existing [!DNL Page Builder] CMS page as a template and then apply that template (with all its content and layouts) to quickly create CMS Pages for your site. This new feature is documented here: [Templates](templates.md).
@@ -171,15 +170,15 @@ This version of [!DNL Page Builder] is just a version-number update for Adobe Co
 - <!-- PB-390 -->Fixed an issue in which nested [!DNL Page Builder] content fails to save if users click the Save button before the page fully renders.
 - <!-- PB-418 -->Fixed exception error thrown in cron jobs due to [!DNL Page Builder] analytics.
 
-## **1.2.2** for Adobe Commerce 2.3.4-p2
+## 1.2.2 for Adobe Commerce 2.3.4-p2
 
 ![New](../assets/new.svg) Security enhancements.
 
-## **1.2.1** for Adobe Commerce 2.3.4-p1
+## 1.2.1 for Adobe Commerce 2.3.4-p1
 
 ![New](../assets/new.svg) Security enhancements.
 
-## **1.2.0** for Adobe Commerce 2.3.4
+## 1.2.0 for Adobe Commerce 2.3.4
 
 ![New](../assets/new.svg)  **[!DNL Page Builder] integration with PWA Studio**<br/>
    Added [!DNL Page Builder] content rendering to the Venia app in PWA Studio. [!DNL Page Builder] content can now be viewed within the PWA Studio Venia app. See the [!DNL Page Builder] documentation within [PWA Studio][] for all the information on this new feature.
@@ -200,17 +199,17 @@ This version of [!DNL Page Builder] is just a version-number update for Adobe Co
 - <!-- PB-237 -->Security enhancements.
 - <!-- PB-41 -->Fixed searches within UI select components to make only one AJAX request per search term.
 - <!-- PB-76, PB-84-->Updated Product previews in the Admin to match the storefront, including the star rating, color, and size options of the product when relevant.
-- <!-- PB-169 -->Fixed an issue in which [!DNL Page Builder] could not be saved when Commerce's JavaScript minification and bundling are enabled.
+- <!-- PB-169 -->Fixed an issue in which [!DNL Page Builder] could not be saved when JavaScript minification and bundling are enabled in Commerce.
 - <!-- PB-241 -->Fixed the Admin previews of Products, Blocks, and Dynamic Blocks to render correctly on Commerce installations that define different URLs for the Admin and the frontend.
-- <!-- PB-238 -->Fixed the Admin previews of Products, Blocks, and Dynamic Blocks to render correctly on Commerce installations with B2B installed with the "Login Only" option enabled. Before this fix, the [!DNL Page Builder] preview would cause the page to redirect to the customer account login.
+- <!-- PB-238 -->Fixed the Admin previews of Products, Blocks, and Dynamic Blocks to render correctly on Commerce installations with B2B installed with the _Login Only_ option enabled. Before this fix, the [!DNL Page Builder] preview would cause the page to redirect to the customer account login.
 - <!-- PB-239 -->Fixed a session error that can occur when previewing a large page in the [!DNL Page Builder] Admin.
 - <!-- PB-248 -->Updated [!DNL Page Builder] LESS styles to prevent storefront style duplication.
 
-## **1.1.1** for Adobe Commerce 2.3.3-p1
+## 1.1.1 for Adobe Commerce 2.3.3-p1
 
 ![New](../assets/new.svg) Security enhancements.
 
-## **1.1.0** for Adobe Commerce 2.3.3
+## 1.1.0 for Adobe Commerce 2.3.3
 
 ![New](../assets/new.svg) <!-- MC-15250 -->Added explicit product sorting to the Products content type.
 
@@ -222,14 +221,14 @@ This version of [!DNL Page Builder] is just a version-number update for Adobe Co
 
 ![Fixed issue](../assets/fix.svg) <!-- MC-4137 -->Updated TinyMCE to version 4.9.5. This update, along with the additional improvements, fixed several TinyMCE inline editor issues:
 
-- Variables, images, & image links now get added where the cursor is place.
-- Tables and table cells can now be center aligned.
-- Copy/paste now pastes content at the cursor's position.
-- Links can now be applied to selected text.
-- Bullets are now properly aligned.
-- Changes within the inline editor can now be saved without first clicking outside the editor.
+- Variables, images, and image links are added where the cursor is place.
+- Tables and table cells can be center aligned.
+- Copy/paste now pastes content at the cursor position.
+- Links can be applied to selected text.
+- Bullets are properly aligned.
+- Changes within the inline editor can be saved without first clicking outside the editor.
 
-![Fixed issue](../assets/fix.svg) <!-- MC-3880 -->Fixed an issue in which the minimum height & vertical alignment was inconsistent between sections on the edit panel for each content type.
+![Fixed issue](../assets/fix.svg) <!-- MC-3880 -->Fixed an issue in which the minimum height and vertical alignment was inconsistent between sections on the edit panel for each content type.
 
 ![Fixed issue](../assets/fix.svg) <!-- MC-14994 -->Fixed an issue in which the toolbar from the Heading content type was positioned incorrectly when first dropped on the stage.
 
@@ -237,21 +236,21 @@ This version of [!DNL Page Builder] is just a version-number update for Adobe Co
 
 ![Fixed issue](../assets/fix.svg) <!-- MC-16241 -->Fixed an issue in which the required asterisk symbol was displayed twice on form fields.
 
-## **1.0.3** for Adobe Commerce 2.3.2-p2
+## 1.0.3 for Adobe Commerce 2.3.2-p2
 
 ![New](../assets/new.svg) Security enhancements.
 
-## **1.0.2** for Adobe Commerce 2.3.2-p1
+## 1.0.2 for Adobe Commerce 2.3.2-p1
 
 ![New](../assets/new.svg) Security enhancements.
 
-## **1.0.1** for Adobe Commerce 2.3.2
+## 1.0.1 for Adobe Commerce 2.3.2
 
 ![New](../assets/new.svg) Ensures compatibility with Adobe Commerce 2.3.2.
 
-## **1.0.0** for Adobe Commerce 2.3.1
+## 1.0.0 for Adobe Commerce 2.3.1
 
-![New](../assets/new.svg) General availability release!
+![New](../assets/new.svg) General availability release
 
 
 [PWA Studio]: https://developer.adobe.com/commerce/pwa-studio/

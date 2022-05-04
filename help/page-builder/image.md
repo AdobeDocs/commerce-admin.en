@@ -30,6 +30,8 @@ The image toolbox appears when you hover over the image container.
 |Upload New Image||Uploads an image from your local file system to the gallery.|
 |Select from Gallery||Chooses an existing image from the gallery.|
 
+{style="table-layout:auto"}
+
 ## Add an image
 
 1. In the [!DNL Page Builder] panel, expand **[!UICONTROL Media]** and drag an **[!UICONTROL Image]** placeholder to the target container.
@@ -205,6 +207,8 @@ Text for these settings is visible to search engines and improves the way the pa
    | `Center` | Aligns the image content in the center of the image container, with allowance for any padding that is specified. |
    | `Right` | Aligns the image content along the right border of the image container, with allowance for any padding that is specified. |
 
+   {style="table-layout:auto"}
+
 - Set the **[!UICONTROL Border]** style applied to all four sides of the image container:
 
    | Option | Description |
@@ -220,15 +224,19 @@ Text for these settings is visible to search engines and improves the way the pa
    | `Inset` | The container border appears as an inset line. |
    | `Outset` | The container border appears as an outset line. |
 
+   {style="table-layout:auto"}
+
 - If you set a border style other than `None`, complete the border display options:
 
-  - **[!UICONTROL Border Color]** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
+   ![Border Color](./assets/pb-settings-border-color.png)<!-- zoom -->
 
-      ![Border Color](./assets/pb-settings-border-color.png)<!-- zoom -->
+   | Option | Description |
+   | ------ |------------ |
+   | [!UICONTROL Border Color] | Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value. |
+   | [!UICONTROL Border Width] | Enter the number of pixels for the border line width. |
+   | [!UICONTROL Border Radius] | Enter the number of pixels to define the size of the radius that is used to round each corner of the border. |
 
-  - **[!UICONTROL Border Width]** - Enter the number of pixels for the border line width.
-
-  - **[!UICONTROL Border Radius]** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
+   {style="table-layout:auto"}
 
 - (Optional) Specify the names of **[!UICONTROL CSS classes]** from the current style sheet to apply to the image container.
 
@@ -242,3 +250,5 @@ Text for these settings is visible to search engines and improves the way the pa
    | -------------- | ----------- |
    | [!UICONTROL Margins] | The amount of blank space that is applied to the outside edge of all sides of the container. |
    | [!UICONTROL Padding] | The amount of blank space that is applied to the inside edge of all sides of the container. |
+
+   {style="table-layout:auto"}

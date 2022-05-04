@@ -21,6 +21,8 @@ Use the _Block_ content type to add an existing, active [block](https://docs.mag
 | Duplicate | ![Duplicate icon](./assets/pb-icon-duplicate.png) | Makes a copy of the block container and its content. |
 | Remove    | ![Remove icon](./assets/pb-icon-remove.png) | Deletes the block container and its content from the stage. |
 
+{style="table-layout:auto"}
+
 ## Add an existing block
 
 1. Navigate to the [!DNL Page Builder] workspace on the target page, block, dynamic block, product, or category.
@@ -58,6 +60,8 @@ Use the _Block_ content type to add an existing, active [block](https://docs.mag
    | `Center` | Aligns the list in the center of the parent container, with allowance for any padding that is specified. |
    | `Right` | Aligns the block along the right border of the parent container, with allowance for any padding that is specified. |
 
+   {style="table-layout:auto"}
+
 1. Set a **[!UICONTROL Border]** style that is applied to all four sides of the block container:
 
    | Option | Description |
@@ -73,13 +77,17 @@ Use the _Block_ content type to add an existing, active [block](https://docs.mag
    | `Inset` |The container border appears as an inset line. |
    | `Outset` |The container border appears as an outset line. |
 
+   {style="table-layout:auto"}
+
 1. If you set a border style other than `None`, complete the border display options:
 
-   - **[!UICONTROL Border Color]** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
+   | Option | Description |
+   | ------ |------------ |
+   | [!UICONTROL Border Color] | Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value. |
+   | [!UICONTROL Border Width] | Enter the number of pixels for the border line width. |
+   | [!UICONTROL Border Radius] | Enter the number of pixels to define the size of the radius that is used to round each corner of the border. |
 
-   - **[!UICONTROL Border Width]** - Enter the number of pixels for the border line width.
-
-   - **[!UICONTROL Border Radius]** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
+   {style="table-layout:auto"}
 
 1. (Optional) Specify the names of **[!UICONTROL CSS classes]** from the current style sheet to apply to the container.
 
@@ -93,6 +101,8 @@ Use the _Block_ content type to add an existing, active [block](https://docs.mag
    | -------------- | ----------- |
    | [!UICONTROL Margins] | The amount of blank space that is applied to the outside edge of all sides of the container. Options: `Top` / `Right` / `Bottom` / `Left` |
    | [!UICONTROL Padding] | The amount of blank space that is applied to the inside edge of all sides of the container. Options: `Top` / `Right` / `Bottom` / `Left` |
+
+   {style="table-layout:auto"}
 
 ## Edit block settings
 

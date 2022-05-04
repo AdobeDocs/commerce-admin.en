@@ -26,6 +26,8 @@ Although most divider containers are invisible, the following example displays t
 | Duplicate | ![Duplicate icon](./assets/pb-icon-duplicate.png) | Makes a copy of the divider container. |
 | Remove | ![Remove icon](./assets/pb-icon-remove.png) | Deletes the divider container and its content from the stage. |
 
+{style="table-layout:auto"}
+
 ## Add a divider
 
 1. In the [!DNL Page Builder] panel, expand **[!UICONTROL Elements]** and drag a **[!UICONTROL Divider]** placeholder to a row, column, or tab set on the stage.
@@ -72,6 +74,8 @@ Although most divider containers are invisible, the following example displays t
       | `Center` | Aligns the list in the center of the parent container, with allowance for any padding that is specified. |
       | `Right` | Aligns the block along the right border of the parent container, with allowance for any padding that is specified. |
 
+      {style="table-layout:auto"}
+
       In the following example, the options are set to use a center alignment for the divider.
 
       ![Divider with a center alignment](./assets/pb-elements-divider-settings-advanced-alignment-center.png)<!-- zoom -->
@@ -91,13 +95,17 @@ Although most divider containers are invisible, the following example displays t
       | `Inset` | The container border appears as an inset line. |
       | `Outset` | The container border appears as an outset line. |
 
+      {style="table-layout:auto"}
+
    - If you set a border style other than `None`, complete the border display options:
 
-      - **[!UICONTROL Border Color]** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
+      | Option | Description |
+      | ------ |------------ |
+      | [!UICONTROL Border Color] | Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value. |
+      | [!UICONTROL Border Width] | Enter the number of pixels for the border line width. |
+      | [!UICONTROL Border Radius] | Enter the number of pixels to define the size of the radius that is used to round each corner of the border. |
 
-      - **[!UICONTROL Border Width]** - Enter the number of pixels for the border line width.
-
-      - **[!UICONTROL Border Radius]** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
+      {style="table-layout:auto"}
 
    - (Optional) Specify the names of **[!UICONTROL CSS classes]** from the current style sheet to apply to the container.
 
@@ -111,6 +119,8 @@ Although most divider containers are invisible, the following example displays t
       | -------------- | ----------- |
       | [!UICONTROL Margins] | The amount of blank space that is applied to the outside edge of all sides of the container. Options: `Top` / `Right` / `Bottom` / `Left` |
       | [!UICONTROL Padding] | The amount of blank space that is applied to the inside edge of all sides of the container. Options: `Top` / `Right` / `Bottom` / `Left` |
+
+      {style="table-layout:auto"}
 
 1. When complete, click **[!UICONTROL Save]** to apply the settings and return to the [!DNL Page Builder] workspace.
 

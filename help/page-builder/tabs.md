@@ -214,17 +214,19 @@ You can any content type to a tab just as you can to a row. Use the following st
 
 - If you set a border style other than `None`, complete the border display options:
 
-   - **[!UICONTROL Border Color]** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
+   ![Border Color](./assets/pb-settings-border-color.png)<!-- zoom -->
 
-      ![Border Color](./assets/pb-settings-border-color.png)<!-- zoom -->
+   | Option | Description |
+   | ------ |------------ |
+   | [!UICONTROL Border Color] | Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value. |
+   | [!UICONTROL Border Width] | Enter the number of pixels for the border line width. |
+   | [!UICONTROL Border Radius] | Enter the number of pixels to define the size of the radius that is used to round each corner of the border. |
 
-   - **[!UICONTROL Border Width]** - Enter the number of pixels for the border line width.
+   {style="table-layout:auto"}
 
-   - **[!UICONTROL Border Radius]** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
+   The row in the following example has a border radius of 15.
 
-      The row in the following example has a border radius of 15.
-
-      ![Row with border radius of 15](./assets/pb-settings-border-radius-15.png)<!-- zoom -->
+   ![Row with border radius of 15](./assets/pb-settings-border-radius-15.png)<!-- zoom -->
 
 - (Optional) Specify the names of **[!UICONTROL CSS classes]** from the current style sheet to apply to the column container.
 
@@ -287,11 +289,13 @@ You can any content type to a tab just as you can to a row. Use the following st
 
    - If you set a border style other than `None`, complete the border display options:
 
-      - **[!UICONTROL Border Color]** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
+      | Option | Description |
+      | ------ |------------ |
+      | [!UICONTROL Border Color] | Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value. |
+      | [!UICONTROL Border Width] | Enter the number of pixels for the border line width. |
+      | [!UICONTROL Border Radius] | Enter the number of pixels to define the size of the radius that is used to round each corner of the border. |
 
-      - **[!UICONTROL Border Width]** - Enter the number of pixels for the border line width.
-
-      - **[!UICONTROL Border Radius]** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
+      {style="table-layout:auto"}
 
    - (Optional) Specify the names of **[!UICONTROL CSS classes]** from the current style sheet to apply to the tabs container.
 

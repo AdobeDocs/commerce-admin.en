@@ -21,6 +21,8 @@ Use the Dynamic Block content type to add an existing [dynamic block](https://do
 | Duplicate | ![Duplicate icon](./assets/pb-icon-duplicate.png) | Makes a copy of the block container and its content.  |
 | Remove    | ![Remove icon](./assets/pb-icon-remove.png)| Deletes the block container and its content from the stage. |
 
+{style="table-layout:auto"}
+
 ## Add an existing dynamic block to the stage
 
 1. Navigate to the [!DNL Page Builder] workspace on the target page, block, product, or category.
@@ -52,6 +54,8 @@ Use the Dynamic Block content type to add an existing [dynamic block](https://do
    | `Dynamic Block Block Template` | Adds a standalone block. |
    | `Dynamic Block Inline Template` | Inserts the block content into text. |
 
+   {style="table-layout:auto"}
+
    ![Dynamic block template](./assets/pb-add-content-dynamic-block-template.png)<!-- zoom -->
 
 1. Complete the Advanced settings as needed.
@@ -69,6 +73,8 @@ Use the Dynamic Block content type to add an existing [dynamic block](https://do
    | `Center` | Aligns the list in the center of the parent container, with allowance for any padding that is specified. |
    | `Right` | Aligns the block along the right border of the parent container, with allowance for any padding that is specified. |
 
+   {style="table-layout:auto"}
+
 1. Set the **[!UICONTROL Border]** style that is applied to all four sides of the dynamic block container:
 
    | Option | Description |
@@ -84,13 +90,17 @@ Use the Dynamic Block content type to add an existing [dynamic block](https://do
    | `Inset` | The container border appears as an inset line. |
    | `Outset` | The container border appears as an outset line. |
 
+   {style="table-layout:auto"}
+
 1. If you set a border style other than `None`, complete the border display options:
 
-   - **[!UICONTROL Border Color]** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
+   | Option | Description |
+   | ------ |------------ |
+   | [!UICONTROL Border Color] | Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value. |
+   | [!UICONTROL Border Width] | Enter the number of pixels for the border line width. |
+   | [!UICONTROL Border Radius] | Enter the number of pixels to define the size of the radius that is used to round each corner of the border. |
 
-   - **[!UICONTROL Border Width]** - Enter the number of pixels for the border line width.
-
-   - **[!UICONTROL Border Radius]** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
+   {style="table-layout:auto"}
 
 1. (Optional) Specify the names of **[!UICONTROL CSS classes]** from the current style sheet to apply to the container.
 
@@ -104,6 +114,8 @@ Use the Dynamic Block content type to add an existing [dynamic block](https://do
    | -------------- | ----------- |
    | [!UICONTROL Margins] | The amount of blank space that is applied to the outside edge of all sides of the container. Options: `Top` / `Right` / `Bottom` / `Left` |
    | [!UICONTROL Padding] | The amount of blank space that is applied to the inside edge of all sides of the container. Options: `Top` / `Right` / `Bottom` / `Left` |
+
+   {style="table-layout:auto"}
 
 ## Edit dynamic block container settings
 

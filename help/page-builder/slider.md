@@ -26,6 +26,8 @@ When you are working with the Slider content type, you add and edit individual s
 |Duplicate|![Duplicate icon](./assets/pb-icon-duplicate.png)<!-- width="25px" -->|Makes a copy of the current slide.|
 |Remove|![Remove icon](./assets/pb-icon-remove.png)<!-- width="25px" -->|Deletes the current slide from the slider.|
 
+{style="table-layout:auto"}
+
 ## Slider toolbox
 
 |Tool|Icon|Description|
@@ -37,6 +39,8 @@ When you are working with the Slider content type, you add and edit individual s
 |Show|![Show icon](./assets/pb-icon-show.png)<!-- width="25px" -->|Shows the  hidden slider.|
 |Duplicate|![Duplicate icon](./assets/pb-icon-duplicate.png)<!-- width="25px" -->|Makes a copy of the slider.|
 |Remove|![Remove icon](./assets/pb-icon-remove.png)<!-- width="25px" -->|Deletes the slider from the stage.|
+
+{style="table-layout:auto"}
 
 ## Add an individual slide
 
@@ -165,6 +169,8 @@ The slide in the preceding example has a background image, a transparent mobile 
 |[!UICONTROL Border Color]|`#000000` (Black)|
 |[!UICONTROL Border Width]|`1 px`|
 
+{style="table-layout:auto"}
+
 ## Change individual slide settings
 
 1. Change the slider display on the stage and view the slide you want to change.
@@ -183,6 +189,8 @@ The slide in the preceding example has a background image, a transparent mobile 
    | `Collage Left` | Places slide content in a defined area on the left side of the slider container. The overlay, if used, covers only the defined area. |
    | `Collage Center` | Places slide content in a defined area that is centered on the slider container. The overlay, if used, covers only the defined area. |
    | `Collage Right` | Places slide content in a defined area on the right side of the slider container. The overlay, if used, covers only the defined area. |
+
+   {style="table-layout:auto"}
 
    ![Slide positioning](./assets/pb-slide-appearance-collage-right.png)<!-- zoom -->
 
@@ -250,6 +258,8 @@ If you set the _[!UICONTROL Background Type]_ to `Image`, use the following sett
    | [!UICONTROL Select from Gallery] | Prompts you to choose an existing image from the gallery as the background image for the banner. |
    | ![Camera icon](./assets/pb-icon-camera.png)<!-- width="25px" --> | Allows you to either drag the image to the camera tile or browse to the image in your local file system. |
 
+   {style="table-layout:auto"}
+
 - **[!UICONTROL Background Mobile Image]** - If needed, use the same tools to choose a different background image to be used for display on mobile devices.
 
 - **[!UICONTROL Background Size]** - Choose how the background image is scaled in relation to the width of the banner:
@@ -260,15 +270,19 @@ If you set the _[!UICONTROL Background Type]_ to `Image`, use the following sett
    | `Contain` | The background image is limited to the width of the content area. |
    | `Auto` | Applies the size from the current style sheet. |
 
+   {style="table-layout:auto"}
+
    ![Background size](./assets/pb-layout-row-settings-background-size-cover.png)<!-- zoom -->
 
 - **[!UICONTROL Background Position]** - Choose how the background image is anchored in relation to the banner:
 
    | Anchor point | Position |
-   | ------------ | s-------- |
+   | ------------ | -------- |
    | `Top` | Left / Center / Right |
    | `Center` | Left / Center / Right |
    | `Bottom` | Left / Center / Right |
+
+   {style="table-layout:auto"}
 
    The anchor point is like a push pin that attaches the image to the banner at the specified background position.
 
@@ -370,6 +384,8 @@ You can modify the slide content directly on the stage or when you are changing 
       | `On Hover` | A button appears on the slide only on hover. |
       | `Never Show` | A button never appears on the slide. |
 
+      {style="table-layout:auto"}
+
    - Enter the **[!UICONTROL Button Text]** to display on the button.
 
    - Set **[!UICONTROL Button Type]** to one of the following:
@@ -380,6 +396,8 @@ You can modify the slide content directly on the stage or when you are changing 
       | `Secondary` | Applies the secondary button style from the current style sheet, if applicable. |
       | `Link` | Creates a hyperlink rather than a button. |
 
+      {style="table-layout:auto"}
+
       The button style from the current theme determines the button format. Typically, a primary button has a more prominent background color than a secondary button.
 
 1. Set **[!UICONTROL Show Overlay]** to one of the following:
@@ -389,6 +407,8 @@ You can modify the slide content directly on the stage or when you are changing 
    | `Always` | The overlay is always visible. |
    | `On Hover` | The overlay appears only on hover. |
    | `Never Show` | The overlay is not visible. |
+
+   {style="table-layout:auto"}
 
    You can use an overlay to apply a background color to the active content area that is defined by the Appearance setting. The slide background image remains visible for the full width of the slide.
 
@@ -425,6 +445,8 @@ Text for these settings is visible to search engines and improves the way the pa
    | `Center` | Aligns the content in the center of the slide, with allowance for any padding that is specified. |
    | `Right` | Aligns the content along the right border of the slide, with allowance for any padding that is specified. |
 
+   {style="table-layout:auto"}
+
 1. Set the **[!UICONTROL Border]** style that is applied to all four sides of the slide:
 
    | Option | Description |
@@ -440,15 +462,19 @@ Text for these settings is visible to search engines and improves the way the pa
    | `Inset` | The container border appears as an inset line. |
    | `Outset` | The container border appears as an outset line. |
 
+   {style="table-layout:auto"}
+
 1. If you set a border style other than `None`, complete the border display options:
 
-   - **[!UICONTROL Border Color]** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
+   ![Border Color](./assets/pb-settings-border-color.png)<!-- zoom -->
 
-      ![Border Color](./assets/pb-settings-border-color.png)<!-- zoom -->
+   | Option | Description |
+   | ------ |------------ |
+   | [!UICONTROL Border Color] | Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value. |
+   | [!UICONTROL Border Width] | Enter the number of pixels for the border line width. |
+   | [!UICONTROL Border Radius] | Enter the number of pixels to define the size of the radius that is used to round each corner of the border. |
 
-   - **[!UICONTROL Border Width]** - Enter the number of pixels for the border line width.
-
-   - **[!UICONTROL Border Radius]** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
+   {style="table-layout:auto"}
 
 1. (Optional) Specify the names of **[!UICONTROL CSS classes]** from the current style sheet to apply to the slide.
 
@@ -462,6 +488,8 @@ Text for these settings is visible to search engines and improves the way the pa
    | -------------- | ----------- |
    | [!UICONTROL Margins] | The amount of blank space that is applied to the outside edge of all sides of the slide. |
    | [!UICONTROL Padding] |  The amount of blank space that is applied to the inside edge of all sides of the slide. |
+
+   {style="table-layout:auto"}
 
 ## Add a slider title
 
@@ -528,6 +556,8 @@ If you want a title above the slider, simply add a [Text content type] above the
    | `Center` | Aligns the slides in the center of the slider container, with allowance for any padding that is specified. |
    | `Right` | Aligns the slides along the right border of the slider container, with allowance for any padding that is specified. |
 
+   {style="table-layout:auto"}
+
 1. Set the **[!UICONTROL Border]** style that is applied to all four sides of the slider container:
 
    | Option | Description |
@@ -543,13 +573,17 @@ If you want a title above the slider, simply add a [Text content type] above the
    | `Inset` | The container border appears as an inset line. |
    | `Outset` | The container border appears as an outset line. |
 
+   {style="table-layout:auto"}
+
 1. If you set a border style other than `None`, complete the border display options:
 
-   - **[!UICONTROL Border Color]** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
+   | Option | Description |
+   | ------ |------------ |
+   | [!UICONTROL Border Color] | Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value. |
+   | [!UICONTROL Border Width] | Enter the number of pixels for the border line width. |
+   | [!UICONTROL Border Radius] | Enter the number of pixels to define the size of the radius that is used to round each corner of the border. |
 
-   - **[!UICONTROL Border Width]** - Enter the number of pixels for the border line width.
-
-   - **[!UICONTROL Border Radius]** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
+   {style="table-layout:auto"}
 
 1. (Optional) Specify the names of **[!UICONTROL CSS classes]** from the current style sheet to apply to the slider container.
 
@@ -563,6 +597,8 @@ If you want a title above the slider, simply add a [Text content type] above the
    | -------------- | ----------- |
    | [!UICONTROL Margins] | The amount of blank space that is applied to the outside edge of all sides of the container.|
    | [!UICONTROL Padding] | The amount of blank space that is applied to the inside edge of all sides of the container. |
+
+   {style="table-layout:auto"}
 
 ## Test the slider
 

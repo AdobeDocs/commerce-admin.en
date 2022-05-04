@@ -24,6 +24,8 @@ When you are working with the Buttons content type, you add and edit individual 
 | Duplicate | ![Duplicate icon](./assets/pb-icon-duplicate.png) | Makes a copy of the button. |
 | Remove    | ![Remove icon](./assets/pb-icon-remove.png)    | Deletes the button from the stage. |
 
+{style="table-layout:auto"}
+
 ### Buttons container toolbox
 
 ![Buttons container toolbox](./assets/pb-elements-buttons-toolbox-settings.png)<!-- zoom -->
@@ -38,6 +40,8 @@ When you are working with the Buttons content type, you add and edit individual 
 | Show      | ![Show icon](./assets/pb-icon-show.png) | Shows the hidden button container. |
 | Duplicate | ![Duplicate icon](./assets/pb-icon-duplicate.png) | Makes a copy of the button container. |
 | Remove    | ![Remove icon](./assets/pb-icon-remove.png) | Deletes the button container and its content from the stage. |
+
+{style="table-layout:auto"}
 
 ## Add an individual button
 
@@ -58,6 +62,8 @@ When you are working with the Buttons content type, you add and edit individual 
    | `Primary` | Applies the primary button style from the current style sheet. |
    | `Secondary` | Applies the secondary button style from the current style sheet if applicable. |
    | `Link` | Creates a hyperlink rather than a button. |
+
+   {style="table-layout:auto"}
 
    ![Primary and secondary button example](./assets/pb-elements-button-settings-button-primary-secondary.png)<!-- zoom -->
 
@@ -185,6 +191,8 @@ The following sections describe a series of steps to start with an individual bu
       | `Secondary` | Applies the secondary button style from the current style sheet, if applicable. |
       | `Link` | Creates a hyperlink rather than a button. |
 
+      {style="table-layout:auto"}
+
    - **[!UICONTROL Button Link]** - Determines the destination page that is served when the button is clicked.
 
       | Option | Description |
@@ -193,6 +201,8 @@ The following sections describe a series of steps to start with an individual bu
       | `Product` | Identifies the destination page based on the product name or SKU. The product name can be searched for based on either a partial or full name. The product is then chosen from the search results list. |
       | `Category` | Identifies the destination page as a specific category or subcategory in the category tree. |
       | `Page` | Identifies the destination page as a specific CMS page. |
+
+      {style="table-layout:auto"}
 
 1. Complete the [advanced settings][advanced-settings] as needed.
 
@@ -210,6 +220,8 @@ The following sections describe a series of steps to start with an individual bu
       | ------ | ----------- |
       | `Inline` | Arranges the buttons horizontally. |
       | `Stacked` | Arranges the buttons vertically. |
+
+      {style="table-layout:auto"}
 
    - Set the **[!UICONTROL All buttons are same size]** option according to your preference.
 
@@ -232,6 +244,8 @@ You can modify the _[!UICONTROL Advanced]_ settings for individual buttons and f
    | `Center` | Aligns the content in the center of the parent container, with allowance for any padding that is specified. |
    | `Right` | Aligns the content along the right border of the parent container, with allowance for any padding that is specified. |
 
+   {style="table-layout:auto"}
+
 1. Set the **[!UICONTROL Border]** style applied to all four sides of the button or buttons container:
 
    | Option | Description |
@@ -247,13 +261,17 @@ You can modify the _[!UICONTROL Advanced]_ settings for individual buttons and f
    | `Inset` | The container border appears as an inset line. |
    | `Outset` | The container border appears as an outset line. |
 
+   {style="table-layout:auto"}
+
 1. If you set a border style other than `None`, complete the border display options:
 
-   - **[!UICONTROL Border Color]** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
+   | Option | Description |
+   | ------ |------------ |
+   | [!UICONTROL Border Color] | Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value. |
+   | [!UICONTROL Border Width] | Enter the number of pixels for the border line width. |
+   | [!UICONTROL Border Radius] | Enter the number of pixels to define the size of the radius that is used to round each corner of the border. |
 
-   - **[!UICONTROL Border Width]** - Enter the number of pixels for the border line width.
-
-   - **[!UICONTROL Border Radius]** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
+   {style="table-layout:auto"}
 
 1. (Optional) Specify the names of **[!UICONTROL CSS classes]** from the current style sheet to apply to the button  or buttons container.
 
@@ -267,6 +285,8 @@ You can modify the _[!UICONTROL Advanced]_ settings for individual buttons and f
    | -------------- | ----------- |
    | [!UICONTROL Margins] | The amount of blank space that is applied to the outside edge of all sides of the container. Options: `Top` / `Right` / `Bottom` / `Left` |
    | [!UICONTROL Padding] | The amount of blank space that is applied to the inside edge of all sides of the container. Options: `Top` / `Right` / `Bottom` / `Left` |
+
+   {style="table-layout:auto"}
 
 [advanced-settings]: #change-advanced-settings
 [button-container]: #change-settings-for-a-button-container

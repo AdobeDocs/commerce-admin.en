@@ -24,6 +24,8 @@ Use the _Video_ content type to add a video that is hosted on [YouTube][1] or [V
 |Duplicate|![Duplicate icon](./assets/pb-icon-duplicate.png)<!-- width="25px" -->|Makes a copy of the video.|
 |Remove|![Remove icon](./assets/pb-icon-remove.png)<!-- width="25px" -->|Deletes the video from the stage.|
 
+{style="table-layout:auto"}
+
 ## Add a video
 
 1. Before you begin, navigate to the [YouTube][1] or [Vimeo][2] video that you want to embed, and copy the link.
@@ -94,6 +96,8 @@ Use the _Video_ content type to add a video that is hosted on [YouTube][1] or [V
    | `Center` | Aligns the content in the center of the video container, with allowance for any padding that is specified. |
    | `Right` | Aligns the content along the right border of the video container, with allowance for any padding that is specified. |
 
+   {style="table-layout:auto"}
+
 - Set the **[!UICONTROL Border]** style that is applied to all four sides of the video container:
 
    | Option | Description |
@@ -109,15 +113,19 @@ Use the _Video_ content type to add a video that is hosted on [YouTube][1] or [V
    | `Inset` | The container border appears as an inset line. |
    | `Outset` | The container border appears as an outset line. |
 
+   {style="table-layout:auto"}
+
 - If you set a border style other than `None`, complete the border display options:
 
-   - **[!UICONTROL Border Color]** - Specify the color by choosing a swatch, clicking the color picker, or entering a valid color name or equivalent hexadecimal value.
+   ![Border Color](./assets/pb-settings-border-color.png)<!-- zoom -->
 
-      ![Border Color](./assets/pb-settings-border-color.png)<!-- zoom -->
+   | Option | Description |
+   | ------ |------------ |
+   | [!UICONTROL Border Color] | Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value. |
+   | [!UICONTROL Border Width] | Enter the number of pixels for the border line width. |
+   | [!UICONTROL Border Radius] | Enter the number of pixels to define the size of the radius that is used to round each corner of the border. |
 
-   - **[!UICONTROL Border Width]** - Enter the number of pixels for the border line width.
-
-   - **[!UICONTROL Border Radius]** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
+   {style="table-layout:auto"}
 
 - (Optional) Specify the names of **[!UICONTROL CSS classes]** from the current style sheet to apply to the video container.
 
@@ -131,6 +139,8 @@ Use the _Video_ content type to add a video that is hosted on [YouTube][1] or [V
    | -------------- | ----------- |
    | [!UICONTROL Margins] | The amount of blank space that is applied to the outside edge of all sides of the container. |
    | [!UICONTROL Padding] | The amount of blank space that is applied to the inside edge of all sides of the container. |
+
+   {style="table-layout:auto"}
 
 ## Move a video
 
