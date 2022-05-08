@@ -218,17 +218,19 @@ Use these options to control the speed of a scrolling background image or video 
 
 - If you set a border style other than `None`, complete the border display options:
 
-   - **[!UICONTROL Border Color]** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
+   ![Border Color](./assets/pb-settings-border-color.png)<!-- zoom -->
+   
+   | Option | Description |
+   | ------ |------------ |
+   | [!UICONTROL Border Color] | Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value. |
+   | [!UICONTROL Border Width] | Enter the number of pixels for the border line width. |
+   | [!UICONTROL Border Radius] | Enter the number of pixels to define the size of the radius that is used to round each corner of the border. |
 
-      ![Border Color](./assets/pb-settings-border-color.png)<!-- zoom -->
+   {style="table-layout:auto"}
 
-   - **[!UICONTROL Border Width]** - Enter the number of pixels for the border line width.
+   The row in the following example has a border radius of 15.
 
-   - **[!UICONTROL Border Radius]** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
-
-      The row in the following example has a border radius of 15.
-
-      ![Row with Border Radius of 15](./assets/pb-settings-border-radius-15.png)<!-- zoom -->
+   ![Row with Border Radius of 15](./assets/pb-settings-border-radius-15.png)<!-- zoom -->
 
 - (Optional) Specify the names of **[!UICONTROL CSS classes]** from the current style sheet to apply to the row container.
 
