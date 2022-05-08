@@ -192,6 +192,8 @@ Use the [!DNL Google Maps] Platform Styling Wizard to apply a one of six predefi
 
 1. Change the basic settings as needed:
 
+   | Option | Description |
+   | ------ | ----------- |
    |[!UICONTROL Height]|Specifies the height of the displayed map in pixels.|
    |[!UICONTROL Show Controls]|Determines if the standard Google Map controls appear.|
 
