@@ -146,7 +146,7 @@ Complete the _Settings_ according to the following sections:
 
    >[!IMPORTANT]
    >
-   >Prices for configurable, grouped, and bundled (dynamic price) products are undefined in the Admin area. Therefore, these products are not displayed in the **preview** if the products are filtered by price. These products cannot be ordered correctly in the **preview** if ordered by price.
+   >Prices for configurable, grouped, and bundled (dynamic price) products are undefined in the Admin. Therefore, these products are not displayed in the **preview** if the products are filtered by price. These products cannot be ordered correctly in the **preview** if ordered by price.
 
 ### Carousel Settings
 

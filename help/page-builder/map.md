@@ -10,7 +10,7 @@ To get the most from [!DNL Google Maps] Platform, you can customize the map, hig
 
 ## Benefits of embedding a Google map
 
-1. Provides buyers with a full scope of information about your business (phone number, website, reviews, star ratings, and so on.) right on your site.
+1. Provides buyers with a full scope of information about your business (phone number, website, reviews, star ratings, and so on) right on your site.
 
 1. A Google map usually highlights nearby attractions, parks, restaurants, and so on. This information helps your customers determine your physical location and plan their trip.
 

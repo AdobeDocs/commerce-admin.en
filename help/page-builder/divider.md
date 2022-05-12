@@ -130,7 +130,7 @@ Although most divider containers are invisible, the following example displays t
 
 For a formatted divider with specific settings, it is more efficient to make a duplicate, rather than start over with a new placeholder.
 
-1. Hover over the divider container to display the toolbox and choose the  _Duplicate_ (![Duplicate icon](./assets/pb-icon-duplicate.png)) icon.
+1. Hover over the divider container to display the toolbox and choose the _Duplicate_ (![Duplicate icon](./assets/pb-icon-duplicate.png)) icon.
 
    The duplicate divider container appears just below the original.
 

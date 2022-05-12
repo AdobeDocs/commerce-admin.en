@@ -31,7 +31,7 @@ This guide covers:
 
 {style="table-layout:auto"}
 
-It does not cover other, core capabilities of Adobe Commerce and Magento Open Source.
+It does not cover the core capabilities of Adobe Commerce and Magento Open Source.
 
 ## Additional documentation
 

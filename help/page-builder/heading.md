@@ -4,7 +4,7 @@ description: Learn about the Heading content type, used to add a text container 
 ---
 # Elements - Heading
 
-Heading levels establish a hierarchy that organizes content, and helps search engines index each page. Use the _Heading_ content type in the [[!DNL Page Builder] stage](workspace.md#stage) to add a text container with a heading level from H1 to H6 to the stage. Headings are formatted according to the style sheet that is associated with the current theme.
+Heading levels establish a hierarchy that organizes content and helps search engines index each page. Use the _Heading_ content type in the [[!DNL Page Builder] stage](workspace.md#stage) to add a text container with a heading level from H1 to H6 to the stage. Headings are formatted according to the style sheet that is associated with the current theme.
 
 The [Content Heading](workspace.md) field in the _[!UICONTROL Content]_ section can be used to add an H1 heading to the top of the page. However, the field is a legacy from previous [!DNL Commerce] versions and is provided to support older content. This field does not take advantage of [!DNL Page Builder]’s advanced features. It is recommended that you leave the Content Heading field blank and use the [!DNL Page Builder] Heading content type to add headings of any level to the page.
 
@@ -62,7 +62,7 @@ As with all content containers, the toolbox appears when you hover over the cont
 
 1. Update the heading content (**[!UICONTROL Heading Type]** and **[!UICONTROL Heading Text]**) if needed.
 
-   You can also update  this content in the heading editor.
+   You can also update this content in the heading editor.
 
 1. Update the _[!UICONTROL Advanced]_ settings as needed.
 

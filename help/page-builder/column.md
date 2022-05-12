@@ -30,7 +30,7 @@ The [grid](workspace.md) ensures that content is aligned consistently in a colum
 
 ![Grid divisions on a row with one column](./assets/pb-layout-column-one-grid.png)<!-- zoom -->
 
-In the following two-column example, the numbers in parentheses (6 /12) in the top border of each column container indicate the number of grid divisions in each column and the total number of divisions. In this case, the column is the width of six grid units out of a total of 12.
+In the following two-column example, the numbers in parentheses (6/12) in the top border of each column container indicate the number of grid divisions in each column and the total number of divisions. In this case, the column is the width of six grid units out of a total of 12.
 
 ![Grid divisions on row with two columns](./assets/pb-layout-column-two-grid.png)<!-- zoom -->
 
