@@ -150,7 +150,7 @@ Depending on whether you already have a [!DNL Google Maps] key, use one of the f
 
 ## Style the map {#styling}
 
-Use the [!DNL Google Maps] Platform Styling Wizard to apply a one of six predefined themes or create a custom theme. You can generate a JSON file with the map style properties or a link to the styled map.
+Use the [!DNL Google Maps] Platform Styling Wizard to apply a one of six predefined themes or to create a custom theme. You can generate a JSON file with the map style properties or a link to the styled map.
 
 ### Change the map style
 

@@ -74,7 +74,7 @@ There are many options for defining the background display of a row. You can app
 
 ### Background Color
 
-Specify the background color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value. This setting determines the background color of the row. You can also adjust the opacity of the color.
+Specify the background color by choosing a swatch, by clicking the color picker, or by entering a valid color name or equivalent hexadecimal value. This setting determines the background color of the row. You can also adjust the opacity of the color.
 
 ![No color (default)](./assets/pb-settings-background-color-no-color.png)<!-- zoom -->
 

@@ -4,7 +4,7 @@ description: Learn how to add a product list to a page in [!DNL Page Builder].
 ---
 # Walkthrough Part 3: Catalog Content
 
-In this exercise demonstrates how easy it is to add a product list to a page, customize product pages, and create a custom attribute that adds the [!DNL Page Builder] workspace to a product attribute set.
+This exercise demonstrates how easy it is to add a product list to a page, customize product pages, and create a custom attribute that adds the [!DNL Page Builder] workspace to a product attribute set.
 
 ![Product list](./assets/pb-add-content-products-list.png)<!-- zoom -->
 
