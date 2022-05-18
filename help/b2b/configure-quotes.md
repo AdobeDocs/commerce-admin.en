@@ -4,7 +4,7 @@ description: Learn about quote configuration, which controls the minimum require
 ---
 # Configure Quotes
 
-If quotes are enabled in the general [B2B features](b2b-features-company-enabled.md), you can configure support for quotes in the Admin. The quote configuration determines the minimum required order amount for quote requests, the quote lifetime, and the supported file formats for attached files. 
+If quotes are enabled in the general [B2B features](enable-basic-features.md), you can configure support for quotes in the Admin. The quote configuration determines the minimum required order amount for quote requests, the quote lifetime, and the supported file formats for attached files. 
 
 >[!NOTE]
 >
