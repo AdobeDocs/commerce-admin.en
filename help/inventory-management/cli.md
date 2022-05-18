@@ -37,7 +37,7 @@ You can manually review and check reservations in the `inventory_reservation` ta
 
 The following configurations and events can cause reservation inconsistencies:
 
--  **Upgrade to 2.3.x with orders not in a final state (Complete, Canceled, or Closed).** [!DNL Inventory Management] creates compensatory reservations for these orders, but it does not enter or have the initial reservation that deducts from the salable quantity. Using these commands after upgrading to Adobe Commerce or Magento Open Source v2.3.x from 2.1.x or 2.2.x is recommended. If you have pending orders, the commands correctly update your salable quantity and reservations for sales and order fulfillment.
+-  **Upgrade to 2.3.x with orders not in a final state (Complete, Canceled, or Closed).** [!DNL Inventory Management] creates compensatory reservations for these orders, but it does not enter or have the initial reservation that deducts from the salable quantity. Using these commands after upgrading to Adobe Commerce or Adobe Commerce Open Source v2.3.x from 2.1.x or 2.2.x is recommended. If you have pending orders, the commands correctly update your salable quantity and reservations for sales and order fulfillment.
 -  **You do not manage stock then later change this configuration.** You may start using 2.3.x with **[!UICONTROL Manage Stock]** set to `No` in the configuration. [!DNL Commerce] does not place reservations at order placement and shipment events. If you later enable the **[!UICONTROL Manage Stock]** configuration and some orders are created, the Salable Qty would be corrupted with compensation reservation when you handle and fulfill that order.
 -  **You reassign the Stock for a Website while orders submit to that website**. The initial reservation enters for the initial stock and all compensation reservation enter to the new stock.
 -  **The total of all reservations may not resolve to `0`.** All reservations in the scope of an order in a final state (Complete, Canceled, Closed) should resolve to `0`, clearing all salable quantity holds.
@@ -47,7 +47,7 @@ The following configurations and events can cause reservation inconsistencies:
 The `list-inconsistencies` command detects and lists all reservation inconsistencies. Use the command options to check only completed or incomplete orders, or all.
 
 ```bash
-bin/magento inventory:reservation:list-inconsistencies
+bin/Adobe Commerce inventory:reservation:list-inconsistencies
 ```
 
 Command options:
@@ -67,7 +67,7 @@ Responses using `-r` return in `<ORDER_INCREMENT_ID>:<SKU>:<QUANTITY>:<STOCK-ID>
 Examples:
 
 ```terminal
-bin/magento inventory:reservation:list-inconsistencies
+bin/Adobe Commerce inventory:reservation:list-inconsistencies
 
 Inconsistencies found on following entries:
 Order 172:
@@ -75,7 +75,7 @@ Order 172:
 ```
 
 ```terminal
-bin/magento inventory:reservation:list-inconsistencies -r
+bin/Adobe Commerce inventory:reservation:list-inconsistencies -r
 
 172:bike-123:+2.000000:1
 ```
@@ -89,7 +89,7 @@ The `create-compensations` command creates compensation reservations. Depending 
 To create reservations, provide compensations using the format `<ORDER_INCREMENT_ID>:<SKU>:<QUANTITY>:<STOCK-ID>` such as `172:bike-123:+2.000000:1`.
 
 ```bash
-bin/magento inventory:reservation:create-compensations
+bin/Adobe Commerce inventory:reservation:create-compensations
 ```
 
 Command option:
@@ -105,7 +105,7 @@ Error while parsing argument "your_incorrect_format_argument". Given argument do
 As the command creates reservations, it displays messages indicating the updates by SKU, order, and stock.
 
 ```terminal
-bin/magento inventory:reservation:create-compensations 172:bike-123:+2.000000:1
+bin/Adobe Commerce inventory:reservation:create-compensations 172:bike-123:+2.000000:1
 
 Following reservations were created:
 - Product bike-123 was compensated by +2.000000 for stock 1
@@ -114,7 +114,7 @@ Following reservations were created:
 If the SKU for a compensation entry includes spaces, enclose the SKU in quotation marks.
 
 ```bash
-bin/magento inventory:reservation:create-compensations 172:"bike 123":+2.000000:1
+bin/Adobe Commerce inventory:reservation:create-compensations 172:"bike 123":+2.000000:1
 ```
 
 ### Detect inconsistencies and create compensations
@@ -122,13 +122,13 @@ bin/magento inventory:reservation:create-compensations 172:"bike 123":+2.000000:
 You can detect inconsistences and immediately create compensations by using a pipe to run both the `list-inconsistencies` and `create-compensations`. Use the `-r` command option to generate and submit the raw data to `create-compensations`.
 
 ```bash
-bin/magento inventory:reservation:list-inconsistencies -r | bin/magento inventory:reservation:create-compensations
+bin/Adobe Commerce inventory:reservation:list-inconsistencies -r | bin/Adobe Commerce inventory:reservation:create-compensations
 ```
 
 Example response:
 
 ```bash
-bin/magento inventory:reservation:list-inconsistencies -r | bin/magento inventory:reservation:create-compensations
+bin/Adobe Commerce inventory:reservation:list-inconsistencies -r | bin/Adobe Commerce inventory:reservation:create-compensations
 ```
 
 ```terminal
@@ -140,7 +140,7 @@ Following reservations were created:
 After updates complete, run the list command to verify:
 
 ```bash
-bin/magento inventory:reservation:list-inconsistencies -r
+bin/Adobe Commerce inventory:reservation:list-inconsistencies -r
 ```
 
 ```terminal
@@ -150,11 +150,11 @@ No order inconsistencies were found.
 You can also pipe the commands to detect inconsistencies and create compensations for only incomplete (`-i`) or complete (`-c`) orders.
 
 ```bash
-bin/magento inventory:reservation:list-inconsistencies -r -i | bin/magento inventory:reservation:create-compensations
+bin/Adobe Commerce inventory:reservation:list-inconsistencies -r -i | bin/Adobe Commerce inventory:reservation:create-compensations
 ```
 
 ```bash
-bin/magento inventory:reservation:list-inconsistencies -r -c | bin/magento inventory:reservation:create-compensations
+bin/Adobe Commerce inventory:reservation:list-inconsistencies -r -c | bin/Adobe Commerce inventory:reservation:create-compensations
 ```
 
 ## Import geocodes
@@ -172,13 +172,13 @@ To import geocodes for offline calculation:
 Enter the following command with a space-separated list of [ISO-3166 alpha2 country codes](https://www.geonames.org/countries/):
 
 ```bash
-bin/magento inventory-geonames:import <country code> <country code> ...
+bin/Adobe Commerce inventory-geonames:import <country code> <country code> ...
 ```
 
 For example:
 
 ```bash
-bin/magento inventory-geonames:import us ca gb de
+bin/Adobe Commerce inventory-geonames:import us ca gb de
 ```
 
 The system downloads and imports the geocodes data to your database, then displays the message  `Importing <country code>: OK`.
