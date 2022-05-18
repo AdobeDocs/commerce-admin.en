@@ -17,6 +17,7 @@ breadcrumb-title: "[!DNL B2B for Adobe Commerce]"
   - [Company Account Approvals](account-company-approve.md)
   - [Assign a Company Administrator](account-company-admin.md)
   - [Manage Company Accounts](account-company-manage.md)
+  - [Assigning a Customer Group to a Company](account-company-customer-group.md)
   - [Add Customers to a Company](customer-assign-company.md)
   - [Manage Company Credit](credit-company.md)
   - Company Users and Structure {#users}
@@ -25,7 +26,6 @@ breadcrumb-title: "[!DNL B2B for Adobe Commerce]"
     - [Define Company Structure](account-company-structure.md)
 - Shared Catalogs {#shared-catalogs}
   - [Using Shared Catalogs](catalog-shared.md)
-  - [Configure Catalog Price Scope](catalog-shared-price-scope.md)
   - Define Shared Catalogs {#define}
     - [Create a Shared Catalog](catalog-shared-create.md)
     - [Add Products to a Shared Catalog](catalog-shared-product-add.md)
