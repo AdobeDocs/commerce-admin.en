@@ -297,7 +297,7 @@ This release includes improvements to order approvals, shipping methods, shoppin
 
 This extension release is fully compatible and supported with Adobe Commerce 2.4.0.
 
-![New](../assets/new.svg) Storefront Order Search, with added thanks to contribution by [Marek Mularczyk]( https://github.com/mmularski) from [Divante](https://www.divante.com/) and community members.
+![New](../assets/new.svg) Storefront Order Search, with added thanks for contribution by [Marek Mularczyk](https://github.com/mmularski) from [Divante](https://www.divante.com/) and community members.
 
 ![New](../assets/new.svg) Purchase Orders have been enhanced and rewritten. They are now included by default in Adobe Commerce.
 
