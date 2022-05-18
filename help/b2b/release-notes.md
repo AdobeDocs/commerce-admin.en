@@ -193,7 +193,7 @@ This extension release is fully compatible and supported with Adobe Commerce 2.4
 
 ![Fixed issue](../assets/fix.svg) Custom customer address attribute fields that are associated with a shopper’s non-default address are now saved as expected in the storefront checkout workflow. <!--- MC-36630-->
 
-![Fixed issue](../assets/fix.svg) Orders for products that belong to a store’s default shared catalog can now be placed for shoppers through the Admin REST API (`rest/V1/carts/{{CART_ID}}/items`) as expected. Adobe Commerce now checks if the product was assigned to a public catalog before shared catalog permissions validation in `\Magento\SharedCatalog\Plugin\Quote\Api\ValidateAddProductToCartPlugin::beforeSave`. Previously, Adobe Commerce did not add the product to the shopper’s cart and threw this error: `No such shared catalog entity`. <!--- MC-36535-->
+![Fixed issue](../assets/fix.svg) Orders for products that belong to a store’s default shared catalog can now be placed for shoppers through the Admin REST API (`rest/V1/carts/{<CART_ID>/items`) as expected. Adobe Commerce now checks if the product was assigned to a public catalog before shared catalog permissions validation in `\Magento\SharedCatalog\Plugin\Quote\Api\ValidateAddProductToCartPlugin::beforeSave`. Previously, Adobe Commerce did not add the product to the shopper’s cart and threw this error: `No such shared catalog entity`. <!--- MC-36535-->
 
 ![Fixed issue](../assets/fix.svg) Adobe Commerce now sends new company user registration emails from the Adobe Commerce store's address. Previously, this email was sent from the company administrator’s address. <!--- MC-36480-->
 
