@@ -4,7 +4,7 @@ description: Learn how to assign a company user account as the company administr
 ---
 # Assign a Company Administrator
 
-The company administrator is initially assigned when the company account is first created, and can later be modified only by a store administrator from the Admin.
+The company administrator is initially assigned when the company account is first created, and can be modified only by a store administrator from the Admin.
 
 1. On the _Admin_ sidebar, go to **Customers** > **Companies**.
 
@@ -12,7 +12,7 @@ The company administrator is initially assigned when the company account is firs
 
    ![Companies](./assets/companies-grid.png)<!-- zoom -->
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png)  the **Company Admin** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Company Admin** section.
 
    ![Company Admin](./assets/company-account-company-admin.png)<!-- zoom -->
 
