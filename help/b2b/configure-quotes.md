@@ -16,7 +16,7 @@ If quotes are enabled in the general [B2B features](enable-basic-features.md), y
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **General** section and do the following:
 
-   ![Sales quotes configuration - general](./assets/quotes-general.png)<!--- zoom --->
+   ![Sales quotes configuration - general](./assets/quotes-general.png)<!-- zoom -->
 
    See [Quotes](https://docs.magento.com/user-guide/configuration/sales/quotes.html) in the _Configuration Reference_ for a full list of Quotes feature options and their functions.
 
@@ -38,6 +38,6 @@ If quotes are enabled in the general [B2B features](enable-basic-features.md), y
 
       The value you enter might be overridden by the server setting.
 
-      ![Sales quotes configuration - attached files](./assets/quotes-attached-files.png)<!--- zoom --->
+      ![Sales quotes configuration - attached files](./assets/quotes-attached-files.png)<!-- zoom -->
 
 1. When complete, click **Save Config**.

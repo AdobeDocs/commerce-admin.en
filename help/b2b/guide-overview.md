@@ -1,7 +1,8 @@
 ---
-title: B2B for Adobe Commerce Guide Overview
-description: Comprehensive information about B2B for Adobe Commerce administrators, including installation and configuration.
-seo-title: B2B for Adobe Commerce Guide
+title: "[!DNL B2B for Adobe Commerce] Guide Overview"
+description: "Comprehensive information for [!DNL B2B for Adobe Commerce] administrators, including installation and configuration."
+breadcrumb-title: Guide Overview
+seo-title: "[!DNL B2B for Adobe Commerce] Guide"
 seo-description: Describes how to use the B2B features module in Adobe Commerce.
 ---
 # B2B for Adobe Commerce Guide
@@ -15,11 +16,20 @@ There are two areas for store administrators:
 
 This guide covers:
 
-- All B2B-specific tasks that are done in the Admin.
-- All B2B-specific tasks that are done on the storefront
-- All B2B-specific tasks that are done using the [!DNL Commerce] command line
+| Subject | Description |
+| ------- | ----------- |
+| [Introduction](introduction.md) | What features are available with [!DNL B2B for Adobe Commerce]?|
+| [Release Notes](release-notes.md) | Review the updates provided in each [!DNL B2B for Adobe Commerce] module release. |
+| [Install](install.md) | Install the [!DNL B2B for Adobe Commerce] extension.|
+| [Enable Basic B2B Features](enable-basic-features.md) | After you install [!DNL B2B for Adobe Commerce], you must enable the features that you want to activate for your store. |
+| [Company Accounts](account-companies.md) | Learn about company accounts and how they provide the primary building block for providing support for B2B buyers on your store. |
+| [Shared Catalogs](catalog-shared.md) | Learn about using shared catalogs to maintain gated catalogs with custom pricing for different companies. |
+| [Quick Orders](quick-order.md) | Learn about quick order functionality and enabling it for your customers. |
+| [Purchase Orders](purchase-order-flow.md) | Learn about purchase order workflows that allow companies to track and control their spending. |
+| [Quotes](quotes.md) | Learn about quote workflows and how you can provide this service to your company accounts. |
+| [Requisition Lists](requisition-lists.md) | Learn about requisition lists and how they are used to easily add frequently ordered products to the shopping cart. |
 
-It does not cover the core capabilities of Adobe Commerce.
+{style="table-layout:auto"}
 
 ## Additional documentation
 

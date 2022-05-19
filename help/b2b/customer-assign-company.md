@@ -20,7 +20,7 @@ When enabled in the configuration, the company administrator adds users to the c
 
    The system generates a list of all possible matches.
 
-   ![Associate to Company](./assets/company-assign-customer-account.png)<!--- zoom --->
+   ![Associate to Company](./assets/company-assign-customer-account.png)<!-- zoom -->
 
 1. In the list, select the company where you want to assign the customer and click **Done**.
 

@@ -18,13 +18,13 @@ If quotes are enabled in the [Sales features configuration](configure-quotes.md)
 
 1. Clicks **Request a Quote**.
 
-   ![Requesting a quote from the shopping cart](./assets/quote-request-from-cart.png)<!--- zoom --->
+   ![Requesting a quote from the shopping cart](./assets/quote-request-from-cart.png)<!-- zoom -->
 
 1. In the **Add your comment** box, enters a brief note that describes the request.
 
 1. Enters a **Quote Name**.
 
-   ![Entering the quote comments and name](./assets/quote-request-from-cart-name-comments.png)<!--- zoom --->
+   ![Entering the quote comments and name](./assets/quote-request-from-cart-name-comments.png)<!-- zoom -->
 
 1. If needed, attaches a supporting document or image to the quote:
 

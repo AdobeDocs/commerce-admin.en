@@ -6,7 +6,7 @@ description: Learn about roles and permissions for company users, allowing for v
 
 Roles for company users are set up with various levels of permission to access sales information and resources. By default, the company administrator is a _super user_ with full permissions. The [Access Denied](https://docs.magento.com/user-guide/cms/pages-core.html) page appears if the user does not have permission to access the page.
 
-![Roles and Permissions page with default role](./assets/company-roles-permissions.png)<!--- zoom --->
+![Roles and Permissions page with default role](./assets/company-roles-permissions.png)<!-- zoom -->
 
 The system has one predefined Default User role, which you can use _as is_ or modify to suit your needs. You can create as many roles as necessary to match your company structure and organizational responsibilities, such as the following:
 
@@ -28,7 +28,7 @@ The system has one predefined Default User role, which you can use _as is_ or mo
 
 1. Click **Add New Role**.
 
-   ![Add New Role](./assets/company-roles-permissions-add-storefront.png)<!--- zoom --->
+   ![Add New Role](./assets/company-roles-permissions-add-storefront.png)<!-- zoom -->
 
 1. Enter a descriptive **Role Name**.
 
@@ -123,12 +123,12 @@ After defining the roles that are needed, the store admin assigns a role to each
 
 1. In the left panel, choose **Company Users**.
 
-   ![Company Users](./assets/company-users-list-storefront.png)<!--- zoom --->
+   ![Company Users](./assets/company-users-list-storefront.png)<!-- zoom -->
 
 1. Find the user in the list and click **Edit**.
 
 1. Choose the appropriate **User Role** for the user.
 
-   ![Edit User - choose a user role](./assets/company-user-assign-role.png)<!--- zoom --->
+   ![Edit User - choose a user role](./assets/company-user-assign-role.png)<!-- zoom -->
 
 1. Click **Save**.

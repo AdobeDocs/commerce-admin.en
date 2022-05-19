@@ -10,11 +10,11 @@ The company administrator is initially assigned when the company account is firs
 
 1. Find the company in the list and click **Edit**.
 
-   ![Companies](./assets/companies-grid.png)<!--- zoom --->
+   ![Companies](./assets/companies-grid.png)<!-- zoom -->
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png)  the **Company Admin** section.
 
-   ![Company Admin](./assets/company-account-company-admin.png)<!--- zoom --->
+   ![Company Admin](./assets/company-account-company-admin.png)<!-- zoom -->
 
 1. Enter the **Job Title** of the new company administrator and click **Proceed** to continue.
 

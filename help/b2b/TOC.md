@@ -1,13 +1,13 @@
 ---
-user-guide-title: "[!DNL B2B for Adobe Commerce] User Guide"
+user-guide-title: "[!DNL B2B for Adobe Commerce] Guide"
 user-guide-description: Learn how to use the integrated B2B features available for Adobe Commerce, 
 breadcrumb-title: "[!DNL B2B for Adobe Commerce]"
 ---
 
-# [!DNL B2B for Adobe Commerce] User Guide {#b2b}
+# [!DNL B2B for Adobe Commerce] Guide {#b2b}
 
-- [Guide Overview](guide-overview.md)
-- [Introduction to B2B Features](introduction.md)
+- [[!DNL B2B for Adobe Commerce] Guide](guide-overview.md)
+- [Introduction](introduction.md)
 - [Release Notes](release-notes.md)
 - [Installation](install.md)
 - [Enable Basic B2B Features](enable-basic-features.md)
@@ -44,6 +44,6 @@ breadcrumb-title: "[!DNL B2B for Adobe Commerce]"
   - [Negotiate a Quote](quote-price-negotiation.md)
   - [My Quotes](account-dashboard-my-quotes.md)
 - Requisition Lists {#requisition-lists}
-  - [Requisition Lists Overview](account-dashboard-requisition-lists.md)
+  - [Requisition Lists Overview](requisition-lists.md)
   - [Configure Requisition List Maximum](configure-requisition-lists.md)
   - [My Requisition Lists](account-dashboard-requisition-lists-manage.md)

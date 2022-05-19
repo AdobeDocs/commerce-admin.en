@@ -6,7 +6,7 @@ description: Learn about company credit lines, setting parameters, and processin
 
 If [Payment on Account](https://docs.magento.com/user-guide/payment/payment-on-account.html) is enabled in the configuration, companies can make purchases on their account up to the credit limit that is granted to the company. When enabled, customers can check the status of their company credit from their account dashboard.
 
-![Company Credit](./assets/company-add-credit-admin.png)<!--- zoom --->
+![Company Credit](./assets/company-add-credit-admin.png)<!-- zoom -->
 
 You can set the following credit-related parameters for each company profile:
 
@@ -21,7 +21,7 @@ If the company has an outstanding balance, a notice to the store administrator a
 
 The Company Credit section of the company profile displays a summary of the customer credit activity, with a grid of the company credit history.
 
-![Company Credit activity](./assets/company-credit-reimbursements-grid.png)<!--- zoom --->
+![Company Credit activity](./assets/company-credit-reimbursements-grid.png)<!-- zoom -->
 
 |Column|Description|
 |--- |--- |
@@ -58,7 +58,7 @@ When the customer makes the payment for their outstanding credit to the merchant
 
 A reimbursed balance is an offline payment that is made by a company toward the balance of their account. The store administrator enters the amount manually in the company profile, using the _Reimburse Balance_ button. When the amount is submitted, the system recalculates the outstanding balance and available company credit, and records the action in the company credit history. The reimbursed amount is entered in the credit currency, as specified in the configuration.
 
-![Reimburse Balance](./assets/company-reimburse-balance.png)<!--- zoom --->
+![Reimburse Balance](./assets/company-reimburse-balance.png)<!-- zoom -->
 
 ### Apply a payment to a company account
 
@@ -84,7 +84,7 @@ A reimbursed balance is an offline payment that is made by a company toward the 
 
    The company’s outstanding balance and available credit is recalculated, and the Company Credit history is updated to reflect the reimbursement.
 
-   ![Company Credit activity](./assets/company-credit-reimbursements-grid.png)<!--- zoom --->
+   ![Company Credit activity](./assets/company-credit-reimbursements-grid.png)<!-- zoom -->
 
 ### Edit a reimbursement
 
@@ -106,4 +106,4 @@ For the company administrator, the account dashboard displays the _Company Credi
 
 If the merchant cancels an order that was charged to company credit, the amount of the order is returned to the company balance and the _Credit Allocation History_ includes a record of the action.
 
-![Company Credit](./assets/company-credit.png)<!--- zoom --->
+![Company Credit](./assets/company-credit.png)<!-- zoom -->

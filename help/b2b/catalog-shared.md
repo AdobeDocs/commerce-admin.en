@@ -16,7 +16,7 @@ For the Default (General) public shared catalog, you must assign products to dis
 
 The Shared Catalogs page provides access to the tools used for managing your shared catalogs. The page is similar to the standard [Admin workspace](https://docs.magento.com/user-guide/stores/admin-workspace.html), with filters and action controls. The grid lists all shared catalogs, including the default public shared catalog, and any custom catalogs that you have set up.
 
-![Shared Catalogs](./assets/shared-catalogs-grid.png)<!--- zoom --->
+![Shared Catalogs](./assets/shared-catalogs-grid.png)<!-- zoom -->
 
 ## Access the Shared Catalogs page
 
@@ -26,7 +26,7 @@ On the _Admin_ sidebar, go to **Catalog** > **Shared Catalogs**.
 
 The [Actions controls](https://docs.magento.com/user-guide/stores/admin-actions-control.html) in the upper-left corner can be used with the mass actions control to delete selected shared catalogs that are no longer needed. In the grid, the Actions column contains the full selection of tools to manage your shared catalogs.
 
-![Shared Catalog Actions](./assets/shared-catalog-grid-action-column-controls.png)<!--- zoom --->
+![Shared Catalog Actions](./assets/shared-catalog-grid-action-column-controls.png)<!-- zoom -->
 
 |Control|Description|
 |------|-----------|

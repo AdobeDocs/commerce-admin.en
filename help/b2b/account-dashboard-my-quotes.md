@@ -6,7 +6,7 @@ description: Learn about the customer experience for quotes, which is available 
 
 If quotes are enabled, the _My Quotes_ section of the account dashboard lists all quotes submitted by the customer. Depending on their permissions, only buyers who make purchases on behalf of a company can submit requests to negotiate the price of a purchase.
 
-![My Quotes](./assets/account-dashboard-my-quotes.png)<!--- zoom --->
+![My Quotes](./assets/account-dashboard-my-quotes.png)<!-- zoom -->
 
 The buyer begins the process by [submitting a request](quote-request.md) for a quote from the shopping cart. Email is exchanged between the buyer and seller during the [negotiation process](quote-price-negotiation.md). For the buyer, the My Quotes page is the focal point for all communication between buyer and seller during the negotiation process. A buyer who accepts the negotiated price offered by the seller can proceed directly to checkout from the quote. Additional discounts cannot be added to the negotiated quote.
 

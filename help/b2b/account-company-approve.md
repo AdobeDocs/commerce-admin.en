@@ -13,7 +13,7 @@ The status of requests received from the storefront to create a company are “P
 
 You can also use the [Actions control](account-company-manage.md) to approve multiple company requests. New company requests are easy to find, because they appear at the top of the list in the _Companies_ grid.
 
-![Pending Approval](./assets/companies-pending-approval.png)<!--- zoom --->
+![Pending Approval](./assets/companies-pending-approval.png)<!-- zoom -->
 
 ## Approve a pending company account
 
@@ -25,7 +25,7 @@ You can also use the [Actions control](account-company-manage.md) to approve mul
 
 1. Set **Company Status** to `Active`.
 
-   ![Set the company status](./assets/company-status-active.png)<!--- zoom --->
+   ![Set the company status](./assets/company-status-active.png)<!-- zoom -->
 
 1. When prompted to confirm, click **Change status**.
 

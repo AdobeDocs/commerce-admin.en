@@ -12,23 +12,26 @@ With the [installation](install.md) and [enablement](enable-basic-features.md) o
 
 The Company component is the key entity within B2B on which all other features are in some way dependent. It allows joining multiple buyers that belong to the same company into a single company account (or corporate account). The company administrator is able to build the company structure (divisions, subdivisions, and users) in the appropriate hierarchy and provide different user roles and permissions to the company members. This hierarchy allows the company administrator to control user activity for the company account: ordering, quoting, purchasing, access to company credit information or profile, and so on. A seller can configure how the buying company operates on the website, including the payment methods, pricing levels, the ability to negotiate prices, and the ability to create requisition lists.
 
-![Example of company structure](./assets/company-structure-diagram.png)<!--- zoom --->
-
-For more information, see #.
+For more information, see [Company Accounts](account-companies.md).
 
 >[!NOTE]
 >
 >When enabled, your store can give companies the option to _Pay on Account_, which means to make purchases on a company credit line. As the merchant, you can allocate credit for a company account and manage credit settings for a company, and credit reimbursement.
 
-
 ## Shared catalogs
 
 Shared catalogs are the pricing levels that allow setting custom prices per product for different companies on one or multiple websites. By using shared catalogs, you can sell products by applying different pricing levels for different customer groups.
 
-For more information, see #.
+For more information, see [Working with Shared Catalogs](catalog-shared.md).
+
+## Quick Order
+
+Configure Quick Order to reduce the order process to several clicks for logged in customers when they know the product name or SKU of the products they want to order.
+
+For more information, see [Quick Orders](quick-order.md).
 
 ## Negotiated quotes
 
-A merchant and a buyer representing a company can negotiate the price of an order before order placement---before making an order, the buyer can initiate negotiations with the merchant for pricing and discounts. Negotiations suggest that the created quote can be submitted, reviewed, and modified several times before it is converted into an order.
+Use the Quotes feature to allow authorized buyers to initiate the price negotiation process by submitting a request from the shopping cart. The _Quotes_ grid in the Admin lists each quote received, and maintains a history of the communication between buyer and seller.
 
-For more information, see #.
+For more information, see [Negotiated Quotes](quotes.md).

@@ -6,7 +6,7 @@ description: Learn about quick order functionality and enabling it for your cust
 
 The Quick Order feature reduces the order process to several clicks for customers who know the product name or SKU of the products they want to order. Orders with multiple SKUs can be entered manually, or imported into the Quick Order form. Quick Order can be used by customers who are logged in to their accounts, and by guests. When enabled, the Quick Order link appears at the top of the page, next to the customer name.
 
-![Quick Order Link](./assets/quick-order-link.png)<!--- zoom --->
+![Quick Order Link](./assets/quick-order-link.png)<!-- zoom -->
 
 ## Step 1: Enable Quick Orders
 
@@ -16,7 +16,7 @@ The Quick Order feature reduces the order process to several clicks for customer
 
 1. Set **Enable Quick Order** to `Yes`.
 
-    ![Enable Quick Order](./assets/quick-orders-config.png)<!--- zoom --->
+    ![Enable Quick Order](./assets/quick-orders-config.png)<!-- zoom -->
 
 1. Click **Save Config**.
 
@@ -40,7 +40,7 @@ You can specify products for Quick Order using either of the following methods.
 
          The SKU appears in the input line, with the product detail below.
 
-         ![Quick Order Detail](./assets/quick-order-product-detail.png)<!--- zoom --->
+         ![Quick Order Detail](./assets/quick-order-product-detail.png)<!-- zoom -->
 
    - To place a quick order by **Product Name**, do the following:
 
@@ -52,7 +52,7 @@ You can specify products for Quick Order using either of the following methods.
 
       - When the list of possible matches appears, click the product that you want to order.
 
-          ![Click to Choose Product Name](./assets/quick-order-product-name.png)<!--- zoom --->
+          ![Click to Choose Product Name](./assets/quick-order-product-name.png)<!-- zoom -->
 
 1. Enter the **Qty**.
 
@@ -68,25 +68,25 @@ You can specify products for Quick Order using either of the following methods.
 
    - Enter all SKUs on the same line, separated by commas, and without spaces.
 
-        ![Enter Multiple SKUs](./assets/quick-order-skus.png)<!--- zoom --->
+        ![Enter Multiple SKUs](./assets/quick-order-skus.png)<!-- zoom -->
 
 1. To add the products to the list, click **Add to List**.
 
 1. Enter the **Qty** to be ordered for each item in the list.
 
-   ![Quick Order List](./assets/quick-order-skus-detail.png)<!--- zoom --->
+   ![Quick Order List](./assets/quick-order-skus-detail.png)<!-- zoom -->
 
    >[!NOTE]
    >
    >If the product has required options, you are prompted to choose the options. Wait until you reach the shopping cart to add product options.
 
-   ![Choose Options](./assets/quick-order-skus-product-options.png)<!--- zoom --->
+   ![Choose Options](./assets/quick-order-skus-product-options.png)<!-- zoom -->
 
 ### Method 3: Upload a List of Products
 
 1. In the _Add from File_ section, click **Download Sample** to download an order template.
 
-    ![Add from File](./assets/quick-order-skus-add-from-file.png)<!--- zoom --->
+    ![Add from File](./assets/quick-order-skus-add-from-file.png)<!-- zoom -->
 
 1. In the lower left corner of your browser window, open the file.
 
@@ -94,7 +94,7 @@ You can specify products for Quick Order using either of the following methods.
 
 1. When complete, click **Save**.
 
-    ![SKUs to Upload](./assets/quick-order-skus-add-from-file-sample.png)<!--- zoom --->
+    ![SKUs to Upload](./assets/quick-order-skus-add-from-file-sample.png)<!-- zoom -->
 
 1. To upload the file, click **Choose**.
 
@@ -106,4 +106,4 @@ You can specify products for Quick Order using either of the following methods.
 
 After you create the quick order, you can proceed through checkout as usual.
 
-![Quick Order](./assets/quick-order-add-to-cart.png)<!--- zoom --->
+![Quick Order](./assets/quick-order-add-to-cart.png)<!-- zoom -->

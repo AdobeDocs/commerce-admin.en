@@ -10,7 +10,7 @@ The Shared Catalogs page provides access to the tools needed for managing your s
 
 The selection of products in any shared catalog can be easily updated from the Action column of the Shared Catalogs grid. The changes you make are visible to members of any associated company accounts. The process is essentially the same as choosing products for a new [catalog structure](catalog-shared-pricing-structure.md), except that the scope of the configuration cannot be changed.
 
-![Shared catalog grid](./assets/shared-catalog-grid-set-pricing-structure.png)<!--- zoom --->
+![Shared catalog grid](./assets/shared-catalog-grid-set-pricing-structure.png)<!-- zoom -->
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Shared Catalogs**.
 
@@ -22,13 +22,13 @@ The selection of products in any shared catalog can be easily updated from the A
 
 If you are working with a specific product, the _Products In Shared Catalog section list each shared catalog where the product is available. To learn more, see [Adding Products to a Shared Catalog](catalog-shared-product-add.md).
 
-![Product in Shared Catalogs](./assets/shared-catalog-assigned.png)<!--- zoom --->
+![Product in Shared Catalogs](./assets/shared-catalog-assigned.png)<!-- zoom -->
 
 ## Update custom pricing
 
 The custom pricing of products in any shared catalog can be easily updated from the Action column of the Shared Catalogs grid. The changes you make are visible to in the storefront to members of the associated company or customer group. The process is essentially the same as setting custom pricing for a new [shared catalog](catalog-shared-pricing-structure.md), except that the scope of the configuration cannot be changed.
 
-![General Settings](./assets/shared-catalog-grid-set-pricing-structure.png)<!--- zoom --->
+![General Settings](./assets/shared-catalog-grid-set-pricing-structure.png)<!-- zoom -->
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Shared Catalogs**.
 
@@ -59,11 +59,11 @@ The custom pricing of products in any shared catalog can be easily updated from 
 
 1. Click **New Permission** and do the following:
 
-   ![New Permission](./assets/category-permissions-new.png)<!--- zoom --->
+   ![New Permission](./assets/category-permissions-new.png)<!-- zoom -->
 
    - Choose the **Customer Group** that corresponds to the shared catalog and change the permission settings as needed.
 
-      ![Category Permissions Rule](./assets/shared-catalog-category-permissions.png)<!--- zoom --->
+      ![Category Permissions Rule](./assets/shared-catalog-category-permissions.png)<!-- zoom -->
 
    - To create a permissions rule for another customer group, click **New Permissions** and repeat the process.
 
@@ -75,13 +75,13 @@ The custom pricing of products in any shared catalog can be easily updated from 
 
 The detail information of any shared catalog can be easily updated from the Action column of the Shared Catalogs grid. The changes you make are reflected in any associated company accounts.
 
-![General Settings](./assets/shared-catalog-grid-general-settings.png)<!--- zoom --->
+![General Settings](./assets/shared-catalog-grid-general-settings.png)<!-- zoom -->
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Shared Catalogs**.
 
 1. For the shared catalog that you want to update, go to the **Action** column and select **General Settings**.
 
-   ![Catalog Details](./assets/shared-catalog-update-details.png)<!--- zoom --->
+   ![Catalog Details](./assets/shared-catalog-update-details.png)<!-- zoom -->
 
 1. Update the catalog detail information as needed.
 

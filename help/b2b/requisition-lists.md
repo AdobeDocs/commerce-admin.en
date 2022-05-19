@@ -15,7 +15,7 @@ Requisition list functionality is similar to wish lists, with the following diff
 - A requisition list is not cleared after sending items to the shopping cart. It can be used multiple times.
 - The user interface for requisition lists uses a compact view in order to display many items.
 
-![Requisition Lists displayed on the storefront](./assets/account-dashboard-my-requisition-lists.png)<!--- zoom --->
+![Requisition Lists displayed on the storefront](./assets/account-dashboard-my-requisition-lists.png)<!-- zoom -->
 
 ## Create a requisition list from the account dashboard
 
@@ -27,7 +27,7 @@ A logged in customer that is associated with a company account can create a requ
 
 1. Enters the **Requisition List Name** and **Description**.
 
-   ![Create Requisition List](./assets/requisition-list-create.png)<!--- zoom --->
+   ![Create Requisition List](./assets/requisition-list-create.png)<!-- zoom -->
 
 1. When complete, clicks **Save**.
 
@@ -61,7 +61,7 @@ Customers can add products to a requisition list from:
    - Chooses an existing requisition list.
    - Creates a requisition list.
 
-   ![Add to Requisition List](./assets/requisition-list-product-detail.png)<!--- zoom --->
+   ![Add to Requisition List](./assets/requisition-list-product-detail.png)<!-- zoom -->
 
 ### From a catalog page
 
@@ -74,7 +74,7 @@ Customers can add products to a requisition list from:
    - Chooses an existing requisition list.
    - Creates a requisition list.
 
-   ![Add to Requisition List](./assets/requisition-list-add-product.png)<!--- zoom --->
+   ![Add to Requisition List](./assets/requisition-list-add-product.png)<!-- zoom -->
 
 ### From an existing order
 
@@ -85,7 +85,7 @@ Customers can add products to a requisition list from:
    - Chooses an existing requisition list.
    - Creates a requisition list.
 
-   ![Add to Requisition List](./assets/requisition-list-add-from-order.png)<!--- zoom --->
+   ![Add to Requisition List](./assets/requisition-list-add-from-order.png)<!-- zoom -->
 
 ### From the cart
 
@@ -94,13 +94,13 @@ Customers can add products to a requisition list from:
    - Chooses an existing requisition list.
    - Creates a requisition list.
 
-   ![Add from Cart](./assets/requisition-list-add-from-cart.png)<!--- zoom --->
+   ![Add from Cart](./assets/requisition-list-add-from-cart.png)<!-- zoom -->
 
 ## View the updated requisition list
 
 When logged into their account, a customer can use either of the following methods to view any of their requisition lists.
 
-![My Requisition Lists](./assets/requisition-lists-menu-select-storefront.png)<!--- zoom --->
+![My Requisition Lists](./assets/requisition-lists-menu-select-storefront.png)<!-- zoom -->
 
 ### From the account dashboard
 

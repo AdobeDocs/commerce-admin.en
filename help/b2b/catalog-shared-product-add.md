@@ -12,7 +12,7 @@ The following requirements must be met for a complex product (such as bundle, gr
 - For [configurable](https://docs.magento.com/user-guide/catalog/product-create-configurable.html) and [grouped](https://docs.magento.com/user-guide/catalog/product-create-grouped.html) products, only the enabled associated products are visible.
 - For a [bundle](https://docs.magento.com/user-guide/catalog/product-create-bundle.html) product, all options must be included in the shared catalog.
 
-   ![Select Products for Catalog](./assets/shared-catalog-select-products-step-1.png)<!--- zoom --->
+   ![Select Products for Catalog](./assets/shared-catalog-select-products-step-1.png)<!-- zoom -->
 
 ## Method 1: Add a single product
 
@@ -24,11 +24,11 @@ The following requirements must be met for a complex product (such as bundle, gr
 
    - Select the checkbox of each shared catalog where the product should appear. To choose all catalogs, click **Select all**.
 
-      ![Product in Shared Catalogs](./assets/shared-catalog-assign-from-product.png)<!--- zoom --->
+      ![Product in Shared Catalogs](./assets/shared-catalog-assign-from-product.png)<!-- zoom -->
 
       The name of each selected catalog appears in the _Shared Catalogs_ field.
 
-      ![Shared catalogs assigned](./assets/shared-catalog-assigned.png)<!--- zoom --->
+      ![Shared catalogs assigned](./assets/shared-catalog-assigned.png)<!-- zoom -->
 
    - Click **Done** to save the settings.
 

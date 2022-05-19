@@ -8,7 +8,7 @@ When a shared catalog is created, the system automatically creates a [customer g
 
 A new shared catalog does not include products, custom pricing, or company associations. This is not the case for a public catalog, which is automatically assigned to guests and to customers who are not associated with a company.
 
-![Shared Catalogs](./assets/shared-catalogs-grid.png)<!--- zoom --->
+![Shared Catalogs](./assets/shared-catalogs-grid.png)<!-- zoom -->
 
 The following aspects of a shared catalog must be set up before it can be used:
 
@@ -21,7 +21,7 @@ The following aspects of a shared catalog must be set up before it can be used:
 
 If you have a multisite installation, make sure to configure the price scope before you create your shared catalogs. The [price scope](https://docs.magento.com/user-guide/catalog/catalog-price-scope.html) can be set to `Global` or `Website`. However, it can be set only at the beginning of the setup process. The Website chooser appears during Step 2 of the [shared catalog setup](catalog-shared-pricing-structure.md).
 
-![Website Chooser](./assets/shared-catalog-scope-pricing.png)<!--- zoom --->
+![Website Chooser](./assets/shared-catalog-scope-pricing.png)<!-- zoom -->
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -31,7 +31,7 @@ If you have a multisite installation, make sure to configure the price scope bef
 
 1. Set **Catalog Price Scope** to `Website`.
 
-   ![Catalog Price Scope](./assets/catalog-price-scope-website.png)<!--- zoom --->
+   ![Catalog Price Scope](./assets/catalog-price-scope-website.png)<!-- zoom -->
 
 1. Click **Save Config**.
 
@@ -55,7 +55,7 @@ There are two ways to create a shared catalog. You can create a shared catalog o
 
       The following example shows a new custom catalog for a specific wholesale customer.
 
-      ![New Shared Catalog](./assets/shared-catalog-new.png)<!--- zoom --->
+      ![New Shared Catalog](./assets/shared-catalog-new.png)<!-- zoom -->
 
    - Enter **Description**
 
@@ -63,7 +63,7 @@ There are two ways to create a shared catalog. You can create a shared catalog o
 
    The new catalog appears in the Shared Catalogs grid.
 
-   ![New Shared Custom Catalog](./assets/shared-catalog-grid-new.png)<!--- zoom --->
+   ![New Shared Custom Catalog](./assets/shared-catalog-grid-new.png)<!-- zoom -->
 
 ### Method 2: Duplicate an existing shared catalog
 
@@ -82,13 +82,13 @@ If a public shared catalog is duplicated, the type of the duplicate catalog chan
    - **Customer Tax Class**
    - **Description**
 
-   ![Duplicate Shared Catalog](./assets/shared-catalog-duplicate.png)<!--- zoom --->
+   ![Duplicate Shared Catalog](./assets/shared-catalog-duplicate.png)<!-- zoom -->
 
 1. When complete, click **Save**.
 
    The duplicate appears in the Shared Catalogs grid, with a unique ID.
 
-   ![New Shared Catalog](./assets/shared-catalog-grid-duplicate.png)<!--- zoom --->
+   ![New Shared Catalog](./assets/shared-catalog-grid-duplicate.png)<!-- zoom -->
 
 ## Step 2: Complete the setup
 

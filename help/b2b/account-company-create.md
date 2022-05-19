@@ -16,7 +16,7 @@ The person who sets up a company account from the storefront is assigned a role 
 
 1. In the upper-right corner of the storefront header, the customer clicks **Create an Account** and chooses **Create New Company Account**.
 
-   ![Create New Company Account](./assets/company-account-create-storefront-options.png)<!--- zoom --->
+   ![Create New Company Account](./assets/company-account-create-storefront-options.png)<!-- zoom -->
 
    >[!NOTE]
    >
@@ -35,7 +35,7 @@ The person who sets up a company account from the storefront is assigned a role 
       - **VAT/TAX ID**
       - **Re-seller ID**
 
-   ![Company Information](./assets/company-information-storefront.png)<!--- zoom --->
+   ![Company Information](./assets/company-information-storefront.png)<!-- zoom -->
 
 1. Completes the required fields in the _Legal Address_ section.
 
@@ -46,7 +46,7 @@ The person who sets up a company account from the storefront is assigned a role 
    - **ZIP/Postal Code**
    - **Phone Number**
 
-   ![Legal Address](./assets/company-legal-address-storefront.png)<!--- zoom --->
+   ![Legal Address](./assets/company-legal-address-storefront.png)<!-- zoom -->
 
 1. In the _Company Administrator_ section, does the following:
 
@@ -69,7 +69,7 @@ The person who sets up a company account from the storefront is assigned a role 
 
    When the request to create a company account is approved by the merchant, an email notification is sent to the company administrator.
 
-   ![](./assets/company-admin-welcome-email.png)<!--- zoom --->
+   ![](./assets/company-admin-welcome-email.png)<!-- zoom -->
 
    When the password is set, the company administrator can [sign in](https://docs.magento.com/user-guide/customers/customer-sign-in.html) to the account.
 
@@ -77,7 +77,7 @@ The person who sets up a company account from the storefront is assigned a role 
 
 The process of creating a company from the Admin is essentially the same as from the storefront, but with additional fields.
 
-![New Company](./assets/company-create-admin.png)<!--- zoom --->
+![New Company](./assets/company-create-admin.png)<!-- zoom -->
 
 1. On the _Admin_ sidebar, go to **Customers** > **Companies**.
 
@@ -104,7 +104,7 @@ The process of creating a company from the Admin is essentially the same as from
 
       The Comments are visible only from the Admin.
 
-   ![Account Information](./assets/company-create-account-information-admin.png)<!--- zoom --->
+   ![Account Information](./assets/company-create-account-information-admin.png)<!-- zoom -->
 
 1. In the _Legal Address_ section, complete these required fields:
 
@@ -134,7 +134,7 @@ The process of creating a company from the Admin is essentially the same as from
       - **Gender**
       - **Send Welcome Email From**
 
-    ![Company Admin](./assets/company-create-company-admin.png)<!--- zoom --->
+    ![Company Admin](./assets/company-create-company-admin.png)<!-- zoom -->
 
 1. In the _Company Credit_ section, which displays a summary of the customer’s credit activity, complete as many of the fields in the lower part of the section as applicable:
 
@@ -143,7 +143,7 @@ The process of creating a company from the Admin is essentially the same as from
    - **Allow to Exceed Credit Limit**
    - **Reason for Change**
 
-   ![Company Credit](./assets/company-create-credit-admin.png)<!--- zoom --->
+   ![Company Credit](./assets/company-create-credit-admin.png)<!-- zoom -->
 
 1. In the _Advanced Settings_ section, do the following:
 
@@ -153,7 +153,7 @@ The process of creating a company from the Admin is essentially the same as from
 
    - You can change the **Customer Group** assignment for the Company and its employees to a group that has access to a different shared catalog, or to a standard customer group. You are prompted to confirm before the group is changed.
 
-      ![](./assets/company-advanced-settings-customer-group-admin.png)<!--- zoom --->
+      ![](./assets/company-advanced-settings-customer-group-admin.png)<!-- zoom -->
       _Changing the customer group_
 
    - If you want to allow company employees to generate quotes from their account, set **Allow Quotes** to `Yes`.

@@ -31,7 +31,7 @@ The [sales representative](account-company-manage.md) that is assigned as the pr
 
    - If you have prepared an email template that is to be used instead of the default, set **Default Company Registration Email** to the name of the template. By default, the `Company Registration Request` template is used.
 
-      ![Customers configuration - company registration](./assets/company-email-options-company-registration.png)<!--- zoom --->
+      ![Customers configuration - company registration](./assets/company-email-options-company-registration.png)<!-- zoom -->
 
 1. Complete the **Customer-Related Emails** section:
 
@@ -45,7 +45,7 @@ The [sales representative](account-company-manage.md) that is assigned as the pr
    - **Default ‘Customer Status Active’ Email**
    - **Default ‘Customer Status Inactive’ Email**
 
-      ![Customers configuration - customer related emails](./assets/company-email-options-customer-related-emails.png)<!--- zoom --->
+      ![Customers configuration - customer related emails](./assets/company-email-options-customer-related-emails.png)<!-- zoom -->
 
 1. Complete the **Company Status Change** section:
 
@@ -68,7 +68,7 @@ The [sales representative](account-company-manage.md) that is assigned as the pr
 
    - If you have a prepared email template that is to be used instead of the default when company status changes to `Pending Approval`, set **Default ‘Company Status Change to Pending Approval’ Email** to that template. By default, the `Company Status Pending Approval` template is used.
 
-      ![Customers configuration - company status change](TOC.md/assets/company-email-options-company-status-change.png)<!--- zoom --->
+      ![Customers configuration - company status change](TOC.md/assets/company-email-options-company-status-change.png)<!-- zoom -->
 
 1. Complete the **Company Credit Emails** section:
 
@@ -89,6 +89,6 @@ The [sales representative](account-company-manage.md) that is assigned as the pr
       - **Refunded Email Template**
       - **Reverted Email Template**
 
-    ![Customers configuration - company credit emails](./assets/company-email-options-company-credit.png)<!--- zoom --->
+    ![Customers configuration - company credit emails](./assets/company-email-options-company-credit.png)<!-- zoom -->
 
 1. When complete, click **Save Config**.

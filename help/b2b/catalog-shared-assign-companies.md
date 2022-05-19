@@ -6,7 +6,7 @@ description: Learn about assigning companies to shared catalogs.
 
 There are two ways to assign a company to a shared catalog. You can make the assignment from the _Shared Catalogs_ grid, or edit the company and assign the shared catalog as you would choose a customer group.
 
-![Assign Companies](./assets/shared-catalog-assign-companies.png)<!--- zoom --->
+![Assign Companies](./assets/shared-catalog-assign-companies.png)<!-- zoom -->
 
 ## Method 1: Assign companies from the shared catalog
 
@@ -16,7 +16,7 @@ There are two ways to assign a company to a shared catalog. You can make the ass
 
    The list of available companies appears in the grid. Companies that are already assigned to the catalog do not appear in the list.
 
-   ![Available Companies](./assets/shared-catalog-assign-companies-grid.png)<!--- zoom --->
+   ![Available Companies](./assets/shared-catalog-assign-companies-grid.png)<!-- zoom -->
 
 1. For the company that you want to assign to the shared catalog, go to the **Action** column and click **Assign**.
 
@@ -32,11 +32,11 @@ There are two ways to assign a company to a shared catalog. You can make the ass
 
 1. For the company displayed in the grid, go to the **Action** column and click **Edit**.
 
-   ![Edit Company](./assets/companies-grid-edit.png)<!--- zoom --->
+   ![Edit Company](./assets/companies-grid-edit.png)<!-- zoom -->
 
 1. On the company page, scroll down and expand ![Expansion selector](../assets/icon-display-expand.png) the **Advanced Settings** section.
 
-   ![Customer Groups / Shared Catalogs](./assets/company-customer-group-shared-catalog.png)<!--- zoom --->
+   ![Customer Groups / Shared Catalogs](./assets/company-customer-group-shared-catalog.png)<!-- zoom -->
 
 1. Set **Customer Group** to the appropriate shared catalog.
 

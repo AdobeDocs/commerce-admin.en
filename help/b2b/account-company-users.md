@@ -22,7 +22,7 @@ The company administrator first sets up the [company structure](account-company-
 
 1. In the left panel, chooses **Company Users**.
 
-   ![Company Users](./assets/company-users-list-storefront.png)<!--- zoom --->
+   ![Company Users](./assets/company-users-list-storefront.png)<!-- zoom -->
 
 1. Clicks **Add New User** and does the following:
 
@@ -30,7 +30,7 @@ The company administrator first sets up the [company structure](account-company-
 
    - If the roles and permissions are defined, chooses the appropriate **User Role**. Otherwise, they can return later to assign the role.
 
-      ![Add new user](./assets/company-structure-users-add.png)<!--- zoom --->
+      ![Add new user](./assets/company-structure-users-add.png)<!-- zoom -->
 
    - Completes the remaining fields as needed for the user:
 
@@ -48,7 +48,7 @@ The company administrator first sets up the [company structure](account-company-
 
 To save time during their first order, the company administrator can remind each company user to add the default company billing and shipping address to their [address book](https://docs.magento.com/user-guide/customers/account-dashboard-address-book.html).
 
-![List of Company Users](./assets/company-users-list-storefront.png)<!--- zoom --->
+![List of Company Users](./assets/company-users-list-storefront.png)<!-- zoom -->
 
 ## Edit company users
 
@@ -72,7 +72,7 @@ To save time during their first order, the company administrator can remind each
 
 1. Clicks **Delete Selected**.
 
-   ![Delete User](./assets/company-structure-delete-user.png)<!--- zoom --->
+   ![Delete User](./assets/company-structure-delete-user.png)<!-- zoom -->
 
 1. When prompted to confirm, clicks **Delete**.
 

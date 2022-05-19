@@ -6,7 +6,7 @@ description: Learn about the customer experience for requisition lists, which is
 
 The primary reason to maintain a requisition list is to make it easy to reorder products. Authorized customers can easily reorder items from a requisition list by adding them to the shopping cart, and move or copy items from one list to another.
 
-![My Requisition Lists](./assets/account-dashboard-my-requisition-lists.png)<!--- zoom --->
+![My Requisition Lists](./assets/account-dashboard-my-requisition-lists.png)<!-- zoom -->
 
 ## View a requisition list
 
@@ -31,7 +31,7 @@ The primary reason to maintain a requisition list is to make it easy to reorder 
 
 1. Clicks **Add to Cart**.
 
-   ![Requisition List Detail](./assets/requisition-list-view.png)<!--- zoom --->
+   ![Requisition List Detail](./assets/requisition-list-view.png)<!-- zoom -->
 
 ### Copy items to a different list
 
@@ -65,7 +65,7 @@ Adobe Commerce generates and downloads a CSV list with `sku` and `qty` values.
 
 1. Verifies the output device, and clicks **Print**.
 
-   ![Print Requisition List](./assets/requisition-list-print.png)<!--- zoom --->
+   ![Print Requisition List](./assets/requisition-list-print.png)<!-- zoom -->
 
 ### Edit product options
 
@@ -77,7 +77,7 @@ To edit product options in the list, the customer does the following:
 
 1. Clicks **Update Requisition List**.
 
-   ![Update Requisition List](./assets/requisition-list-update.png)<!--- zoom --->
+   ![Update Requisition List](./assets/requisition-list-update.png)<!-- zoom -->
 
 A product in the Requisition List can be edited when:
 
@@ -105,7 +105,7 @@ A product in the Requisition List can be edited when:
 
 1. Clicks **Save**.
 
-   ![Rename Requisition List](./assets/requisition-list-rename.png)<!--- zoom --->
+   ![Rename Requisition List](./assets/requisition-list-rename.png)<!-- zoom -->
 
 ### Remove a requisition list
 

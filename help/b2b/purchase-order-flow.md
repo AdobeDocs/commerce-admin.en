@@ -10,7 +10,7 @@ Purchase orders (POs) are a common way for companies to track and control spendi
 
 Depending on their role, and the order, company users could be subjected to several approval rules. And depending on whether using online or offline payment methods, the flow is slightly different. Company administrators can create orders automatically, bypassing the approval rules. Because storing online payment details during the approval process is a security risk, these details are added after approval and then the purchase order is converted to a real order.
 
-![Purchase order flow](./assets/purchase-order-flow.png)<!--- zoom --->
+![Purchase order flow](./assets/purchase-order-flow.png)<!-- zoom -->
 
 The purchase order workflow for a company can vary in a few ways:
 
@@ -60,7 +60,7 @@ When purchase orders are enabled for a company, the **My Purchase Orders** item 
 - **Company Purchase Orders**: POs made by subordinate users within the company (depends on company structure and roles).
 - **Requires My Approval**: (Visible for designated approvers) POs that are waiting for the customer's approval. The counter shows how many orders are awaiting approval.
 
-![My Purchase Orders](./assets/account-dashboard-my-purchase-orders.png)<!--- zoom --->
+![My Purchase Orders](./assets/account-dashboard-my-purchase-orders.png)<!-- zoom -->
 
 For more information about the supported purchase order functions available for company users on the storefront, see [My Purchase Orders](account-dashboard-my-purchase-orders.md).
 

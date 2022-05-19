@@ -18,7 +18,7 @@ By default, all B2B features are initially disabled. However, they are always av
 
 1. In the left panel under _General_, choose **B2B Features** and enable the basic features:
 
-   ![B2B configuration - general](./assets/b2b-features.png)<!--- zoom --->
+   ![B2B configuration - general](./assets/b2b-features.png)<!-- zoom -->
 
    See [B2B Features](https://docs.magento.com/user-guide/configuration/general/b2b-features.html) in the _Configuration Reference_ for a full list of general B2B feature options and their functions.
 
@@ -32,7 +32,7 @@ By default, all B2B features are initially disabled. However, they are always av
 
       You can also [configure the maximum number of lists](configure-requisition-lists.md) a customer can have for their account.
 
-   ![B2B configuration - enable company settings](./assets/b2b-features-company-enabled.png)<!--- zoom --->
+   ![B2B configuration - enable company settings](./assets/b2b-features-company-enabled.png)<!-- zoom -->
 
 1. To make custom pricing available for different companies, set **Enable Shared Catalog** to `Yes`.
 
@@ -55,7 +55,7 @@ By default, all B2B features are initially disabled. However, they are always av
       - Stored Accounts
       - Stored Cards
 
-      ![B2B configuration - default payment method settings](./assets/b2b-features-default-payment-methods.png)<!--- zoom --->
+      ![B2B configuration - default payment method settings](./assets/b2b-features-default-payment-methods.png)<!-- zoom -->
 
 1. To specify the default shipping methods for B2B orders, set **Applicable Shipping Methods** to one of the following:
 
@@ -66,11 +66,11 @@ By default, all B2B features are initially disabled. However, they are always av
 
      The list of shipping methods shows which are currently [enabled or disabled](https://docs.magento.com/user-guide/configuration/sales/delivery-methods.html).
 
-     ![B2B configuration - default shipping methods](./assets/b2b-features-shipping-methods.png)<!--- zoom --->
+     ![B2B configuration - default shipping methods](./assets/b2b-features-shipping-methods.png)<!-- zoom -->
 
 1. To enable purchase orders for company accounts, expand ![Expansion selector](../assets/icon-display-expand.png) the **Order Approval Configuration** section and set **Enable Purchase Orders** to `Yes`.
 
-   ![Order Approval Configuration](./assets/b2b-features-order-approval.png)<!--- zoom --->
+   ![Order Approval Configuration](./assets/b2b-features-order-approval.png)<!-- zoom -->
 
    You must also enable purchases orders for each [company account](account-company-create.md) where you want to activate them.
 
@@ -126,7 +126,7 @@ To enable Payment on Account for your store:
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Payment on Account** section.
 
-   ![Payment on Account](./assets/payment-methods-payment-on-account.png)<!--- zoom --->
+   ![Payment on Account](./assets/payment-methods-payment-on-account.png)<!-- zoom -->
 
    >[!NOTE]
    >

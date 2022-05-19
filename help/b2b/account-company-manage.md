@@ -8,7 +8,7 @@ The _Companies_ page lists all current company accounts, regardless of status. A
 
 The Actions control above the grid can be used to apply an action to multiple company records. For example, rather than approving each individual company request, you can select multiple requests and activate the accounts in a single action. The actions that are available depend on the [permissions](https://docs.magento.com/user-guide/system/permissions.html) for the role that is assigned to your Admin user account.
 
-![Companies Grid](./assets/companies-grid.png)<!--- zoom --->
+![Companies Grid](./assets/companies-grid.png)<!-- zoom -->
 
 ## Company role resources
 
@@ -75,7 +75,7 @@ Method 1: **Quick edit**
 
    Each value that can be updated appears in a text box.
 
-   ![](./assets/companies-grid-quick-edit.png)<!--- zoom --->
+   ![](./assets/companies-grid-quick-edit.png)<!-- zoom -->
    _Quick Edit_
 
 1. Update any of the following values as needed:
@@ -120,7 +120,7 @@ The name and email address of the assigned sales representative is visible to co
 
 The company profile can be maintained from the storefront by the company administrator, and also from the Admin by a store administrator.
 
-![Company Profile](./assets/company-update.png)<!--- zoom --->
+![Company Profile](./assets/company-update.png)<!-- zoom -->
 
 1. On the _Admin_ sidebar, go to **Customers** > **Companies**.
 

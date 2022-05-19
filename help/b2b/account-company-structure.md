@@ -6,25 +6,25 @@ description: Learn about company structures and how a company administrator can 
 
 A company account can be set up to reflect the structure of the business. Initially, the company structure includes only the company administrator, but can be expanded to include teams of users. The users can be associated with teams or organized within a hierarchy of divisions and subdivisions within the company.
 
-![Company Structure with Divisions](./assets/company-structure-diagram.png)<!--- zoom --->
+![Company Structure with Divisions](./assets/company-structure-diagram.png)<!-- zoom -->
 
 In the company administrator's account dashboard, the company structure is represented as a tree and initially consists of only the company administrator.
 
-![Company Structure with Company Administrator](./assets/company-structure-tree-admin.png)<!--- zoom --->
+![Company Structure with Company Administrator](./assets/company-structure-tree-admin.png)<!-- zoom -->
 
 When the account is created and approved, the company administrator can use the company email address or be assigned a different email address.
 
 It is possible that the person who serves as company administrator has multiple roles within the company. If a separate email address is entered for the company administrator, the initial company structure includes the company administrator plus an individual user account in the name of the company administrator. In such a case, the company administrator can sign in to the account as the company or as an individual user.
 
-![Company Structure with Administrator and User Account](./assets/company-structure-tree-admin-user.png)<!--- zoom --->
+![Company Structure with Administrator and User Account](./assets/company-structure-tree-admin-user.png)<!-- zoom -->
 
 For merchants, the full company structure is reflected in the _Companies_ and _Customers_ grids within the Admin. The Companies grid lists all companies regardless of status. The following example shows accounts for two companies: the _ABC Company_ and the _XYZ Company_.
 
-![Companies Grid](./assets/companies-grid.png)<!--- zoom --->
+![Companies Grid](./assets/companies-grid.png)<!-- zoom -->
 
 The following example shows the Customers grid with the initial company administrator account for the _XYZ Company_.
 
-![Customers grid with company administrator account](./assets/company-admin-user-account.png)<!--- zoom --->
+![Customers grid with company administrator account](./assets/company-admin-user-account.png)<!-- zoom -->
 
 After creating the account, the company administrator must define the company structure of [teams](account-company-structure.md), set up the [company users](account-company-users.md), and establish [roles and permissions](account-company-roles-permissions.md) for each.
 
@@ -47,7 +47,7 @@ The structure of a company account should reflect the purchasing organization, w
 
 If the store is [configured](enable-basic-features.md) to allow companies to manage their own accounts, setting up the company structure is one of the first tasks for a company administrator to complete after the account is approved. In the company account, the structure of the company is represented as a tree with the company administrator at the top.
 
-![Company Structure with Teams](./assets/company-structure-teams-diagram.png)<!--- zoom --->
+![Company Structure with Teams](./assets/company-structure-teams-diagram.png)<!-- zoom -->
 
 1. The company administrator signs in to their account.
 
@@ -55,25 +55,25 @@ If the store is [configured](enable-basic-features.md) to allow companies to man
 
 1. Under **Business Structure**, clicks **Add Team** and does the following:
 
-   ![Company tree - Add Team](./assets/company-structure-tree-admin.png)<!--- zoom --->
+   ![Company tree - Add Team](./assets/company-structure-tree-admin.png)<!-- zoom -->
 
    - Enters the **Team Title** and **Description**.
 
       The Team Title can be anything that represents the structure of the company, such as a team, office, or division within the company
 
-      ![Add team](./assets/company-structure-add-team.png)<!--- zoom --->
+      ![Add team](./assets/company-structure-add-team.png)<!-- zoom -->
 
    - When complete, clicks **Save**.
 
    - Creates as many teams as need.
 
-      ![Company Structure with Teams](./assets/company-structure-teams.png)<!--- zoom --->
+      ![Company Structure with Teams](./assets/company-structure-teams.png)<!-- zoom -->
 
 1. To create a hierarchy of teams, does the following:
 
    - Selects the parent team, and click **Add Team**.
 
-      ![Company Structure with Divisions](./assets/company-structure-northwest-division.png)<!--- zoom --->
+      ![Company Structure with Divisions](./assets/company-structure-northwest-division.png)<!-- zoom -->
 
    - Enters the **Team Title** and **Description**.
 
@@ -81,7 +81,7 @@ If the store is [configured](enable-basic-features.md) to allow companies to man
 
 1. Repeats these steps to create as many teams, or divisions and subdivisions as needed.
 
-   ![Company Structure with Divisions and Subdivisions](./assets/company-structure-divisions.png)<!--- zoom --->
+   ![Company Structure with Divisions and Subdivisions](./assets/company-structure-divisions.png)<!-- zoom -->
 
 ## Move a team
 
@@ -115,7 +115,7 @@ As the company administrator works with the company structure, they can collapse
 
 When teams and users are first added to the [company structure](account-company-structure.md), they are placed at the same level under the company administrator.
 
-![Company structure with users and teams](./assets/company-users-added.png)<!--- zoom --->
+![Company structure with users and teams](./assets/company-users-added.png)<!-- zoom -->
 
 |Control|Description|
 |--- |--- |
@@ -130,4 +130,4 @@ When teams and users are first added to the [company structure](account-company-
 
 1. To assign a user to an existing team, they drag (![Move icon](../assets/icon-move.png)) the user under the appropriate team.
 
-   ![Team Assignments](./assets/company-structure-teams-users-assigned.png)<!--- zoom --->
+   ![Team Assignments](./assets/company-structure-teams-users-assigned.png)<!-- zoom -->

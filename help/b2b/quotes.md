@@ -1,8 +1,8 @@
 ---
-title: Quotes
+title: Negotiated Quotes
 description: Learn about quote workflows and how you can provide this service to your company accounts.
 ---
-# Quotes 
+# Negotiated Quotes
 
 If quotes are [enabled in the configuration](configure-quotes.md), an authorized buyer from a company can initiate the price negotiation process by submitting a [request to negotiate](quote-price-negotiation.md) the price from the shopping cart. The _Quotes_ grid lists each quote received and maintains a history of the communication between buyer and seller. The standard [workplace controls](https://docs.magento.com/user-guide/stores/admin-workspace.html) can be used to filter the list, change the column layout, save views, and export data.
 
@@ -26,7 +26,7 @@ To grant access to quote functions in the Admin, go to **System** > _Permissions
 
 ## Apply an action
 
-![Quotes](./assets/quotes-grid.png)<!--- zoom --->
+![Quotes](./assets/quotes-grid.png)<!-- zoom -->
 
 The following actions can be applied to either single or multiple records.
 
@@ -52,7 +52,7 @@ Only quote requests with an `Open` status can be declined.
 
 1. When prompted, enter the reason the quote was declined and click **Confirm**.
 
-   ![Decline Quote?](./assets/quote-decline-confirm.png)<!--- zoom --->
+   ![Decline Quote?](./assets/quote-decline-confirm.png)<!-- zoom -->
 
 ## Column descriptions
 

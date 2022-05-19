@@ -29,7 +29,7 @@ Purchase order approval flows support both online and offline payment methods. A
 
 With the required [permissions for their role](account-company-roles-permissions.md), B2B customers can set up approval rules to enforce company policies by clicking **Approval Rules** in the left panel for their customer account.
 
-![Company Approval Rules](./assets/approval-rules.png)<!--- zoom --->
+![Company Approval Rules](./assets/approval-rules.png)<!-- zoom -->
 
 To create an approval rule, a customer completes the following steps:
 
@@ -51,7 +51,7 @@ To create an approval rule, a customer completes the following steps:
 
    The following sections provide a detailed explanation and example for each rule type.
 
-   ![Creating a new approval rule](./assets/approval-rules-create.png)<!--- zoom --->
+   ![Creating a new approval rule](./assets/approval-rules-create.png)<!-- zoom -->
 
 1. For **Requires approval from**, chooses one or more required approvers according to the type of approval.
 
@@ -76,7 +76,7 @@ This rule type is used to require a PO approval based on the order total, includ
 
 1. Selects the currency type and enter the amount.
 
-![Order Total Approval Rule](./assets/approval-rules-order-total.png)<!--- zoom --->
+![Order Total Approval Rule](./assets/approval-rules-order-total.png)<!-- zoom -->
 
 ### Shipping cost
 
@@ -91,7 +91,7 @@ This rule type is used to require a PO approval based on shipping cost, which ma
 
 1. Sets the desired shipping amount.
 
-![Shipping Cost Approval Rule](./assets/approval-rules-shipping-cost.png)<!--- zoom --->
+![Shipping Cost Approval Rule](./assets/approval-rules-shipping-cost.png)<!-- zoom -->
 
 ### Number of SKUs
 
@@ -111,7 +111,7 @@ This example specifies five items, but two distinct SKUs.
 
 1. Sets the quantity of SKUs.
 
-![Number of SKUs Approval Rule](./assets/approval-rules-number-skus.png)<!--- zoom --->
+![Number of SKUs Approval Rule](./assets/approval-rules-number-skus.png)<!-- zoom -->
 
 ## Edit approval rules
 
