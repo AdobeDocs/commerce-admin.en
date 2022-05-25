@@ -1,6 +1,6 @@
 ---
 title: Commerce Installation
-group: Review basic information for Adobe Commerce and Magento Open Source installation.
+description: Review basic information for Adobe Commerce and Magento Open Source installation.
 ---
 # Commerce Installation
 
