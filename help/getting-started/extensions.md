@@ -50,7 +50,6 @@ The [Commerce Marketplace](https://marketplace.magento.com/) is the global eComm
 ### Payment Services
 
 Payment services for Adobe Commerce and Magento Open Source is a fully integrated payment solution that simplifies the process of managing payments and provides your customers with the opportunity to pay their way. Securely reconcile all payment and transaction data within the Adobe Commerce Admin – allowing you to manage orders and payments in one place while delivering a seamless checkout. See the [Payment Services User Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html) for more information.
-
 <!-- ### Quick Checkout
 
 Add Quick Checkout when the extension reaches GA
@@ -61,6 +60,7 @@ Add Quick Checkout when the extension reaches GA
 This one will not be in Marketplace. We may need to omit this one from the list?
 
 -->
+
 ### Live Search
 
 ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce only
@@ -76,12 +76,12 @@ See the [Live Search User Guide](https://experienceleague.adobe.com/docs/commerc
 The Product Recommendations extension connects your store to the Product Recommendations service---a powerful marketing tool that you can use to increase conversions, revenue, and engagement. Product Recommendations was built by Adobe Commerce and is driven by its battle tested artificial intelligence, Adobe Sensei, so that you can confidently drive engagement and conversion. This feature removes the manual work required to make relevant product recommendations to every shopper. 
 
 See the [Product Recommendations User Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html?lang=en) for more information.
-
 <!-- Channel Manager
 
 Add Channel Manager, Walmart when the extension reaches GA
 
 -->
+
 ### Amazon Sales Channel
 
 The Amazon Sales Channel for Adobe Commerce and Magento Open Source enables you to integrate your Amazon Seller Central listing database with your Commerce product catalog and manage your Amazon listings and sales in the Commerce Admin. See the [Amazon Sales Guide User Guide](https://experienceleague.adobe.com/docs/commerce-channels/amazon/guide-overview.html) for more information.

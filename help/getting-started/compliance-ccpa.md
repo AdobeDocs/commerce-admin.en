@@ -27,7 +27,7 @@ The CCPA also requires businesses to provide "reasonable security", and includes
 
 Consult with your legal counsel to determine whether and how you should comply with any CCPA requirements that may be applicable to you and your business, including the new notice, opt-out, and record-keeping requirements that businesses must implement in accordance with the law.
 
-## Business Requirements
+## Business requirements
 
 The CCPA applies to the following businesses--regardless of where the business is registered--that do business in California and collect, share, or sell California consumers' personal data:
 
@@ -55,7 +55,7 @@ If your business is required to comply with both the [General Data Protection Re
 
 Businesses that comply with GDPR might have additional obligations under the CCPA. To learn more, see the [CCPA Fact Sheet][3]{:target="_blank"}.
 
-## Compliance Roadmap
+### Compliance roadmap
 
 A coordinated effort is required to develop and implement a plan to address compliance. Use this roadmap as a guide to mobilize resources and prioritize tasks so you can move ahead on multiple fronts. The process is essentially the same for all Commerce installations, with the following exception:
 
@@ -63,7 +63,7 @@ A coordinated effort is required to develop and implement a plan to address comp
 
 - **On-Premise**: Merchants with on-premise installations of Adobe Commerce or Magento Open Source must develop their own processes and tools to respond to and manage consumer requests related to privacy regulations.
 
-#### Step 1: Assemble a cross-functional team to address regulation compliance.
+#### Step 1: Assemble a cross-functional team to address regulation compliance
 
 Assemble a team that represents the following functional roles in your business, and schedule a training session to bring them up to speed on the legislation. Then, assign required tasks to stakeholders by role.
 
@@ -76,7 +76,7 @@ Assemble a team that represents the following functional roles in your business,
 
 From a business perspective, you must determine if your company extends these privacy-protection measures only to consumers in California, or make them available to all consumers, regardless of location.
 
-#### Step 2: Take inventory of your digital properties.
+#### Step 2: Take inventory of your digital properties
 
 **Stakeholders:** Information Technology, Legal, Administrative Support
 
@@ -98,7 +98,7 @@ Take inventory of your digital properties, including all integrations and who ha
 
    - **Other Third Parties**: Entities with whom you share or sell consumer data. For example, you might share consumer data with an advertising network in exchange for advertising.
 
-#### Step 3: Map the customer journey and data collection process in your stores.
+#### Step 3: Map the customer journey and data collection process in your stores
 
 **Stakeholders:** User Experience, Information Technology, Administrative Support
 
@@ -114,7 +114,7 @@ Take inventory of your digital properties, including all integrations and who ha
     ![](https://devdocs.magento.com/compliance/privacy/frontend-data-entry-points.svg)<!-- zoom -->
     _Storefront Data Entry Points_
 
-#### Step 4: Establish procedures and mechanisms to respond to customer requests.
+#### Step 4: Establish procedures and mechanisms to respond to customer requests
 
 **Stakeholders:** Customer Service, Information Technology, User Experience, Administrative Support
 
@@ -147,7 +147,7 @@ Merchants are responsible to do the following:
       - Merchants whose stores are hosted on Adobe Commerce Cloud should contact Adobe Support for assistance deleting personal information. Contact your Adobe Technical Account Manager or Customer Support for more information.
       - Merchants running installations of Adobe Commerce or Magento Open Source on premise must implement their own process and script to delete personal information upon request.
 
-#### Step 5: Write the content for the required customer notifications.
+#### Step 5: Write the content for the required customer notifications
 
 **Stakeholders:** Legal, Customer Service, User Experience, Information Technology, Administrative Support
 
@@ -174,13 +174,13 @@ Merchants are responsible to do the following:
 
 1. Pass the approved content to your development team.
 
-#### Step 6: Review your agreements with service providers.
+#### Step 6: Review your agreements with service providers
 
 **Stakeholders:** Legal, Administrative Support
 
 Review and if necessary, update all service provider contracts to reflect CCPA requirements.
 
-#### Step 7: Update your privacy policy.
+#### Step 7: Update your privacy policy
 
 **Stakeholders:** Legal, Administrative Support
 
@@ -198,7 +198,7 @@ Review your current privacy policy and consider what, if any, additional disclos
    >
    >Merchants are prohibited from storing the personal data of children on Commerce platform or systems. If there is reason to believe that collected data belongs to a minor, it must be removed from a Commerce platform immediately to avoid breach of Adobe license terms.
 
-#### Step 8: Document all related procedures and maintain records.
+#### Step 8: Document all related procedures and maintain records
 
 **Stakeholders:** Customer Service, Administrative Support
 
