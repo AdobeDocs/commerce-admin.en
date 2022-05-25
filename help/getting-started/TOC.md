@@ -8,6 +8,7 @@ breadcrumb-title: Getting Started
 
 - [Guide Overview](guide-overview.md)
 - [Release Information](about-this-release.md)
+- [Installation](installation.md)
 - [Login Credentials and URLs](login-urls.md)
 - Commerce Accounts {#commerce-account}
   - [Create and Access Your Account](commerce-account-create.md)
@@ -40,7 +41,7 @@ breadcrumb-title: Getting Started
   - Privacy {#privacy}
     - [Store Privacy Policy](privacy-policy.md)
     - [CCPA Compliance](compliance-ccpa.md)
-    - [GDPR Compliance](compliance-gdpr.mds)
+    - [GDPR Compliance](compliance-gdpr.md)
     - [Cookie Law Compliance](compliance-cookie-law.md)
 - Standard Reporting  {#reporting}
   - [Reports Menu](reports-menu.md)

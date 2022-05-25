@@ -1,6 +1,6 @@
 ---
 title: Extensions
-description: 
+description: Review information about extensions for Adobe Commerce and Magento Open Source released by Adobe. 
 ---
 # Extensions
 
