@@ -47,3 +47,5 @@ Unless the store is running in [Single Store Mode](https://docs.magento.com/user
 |Website|Settings and resources that are limited to the current website. Each website has a default store.|
 |Store|Settings and resources that are limited to the current store. Each store has a default root category (main menu) and default store view.|
 |Store View|Setting and resources that are limited to the current store view.|
+
+{style="table-layout:auto"}

@@ -21,6 +21,8 @@ The Admin workspace provides access to all the tools, data, and content used to 
 |Actions|The Actions control applies an operation to all selected records.|
 |Select|The Select control is used to select multiple records that are to be the target of action. Options: Select All / Deselect All|
 
+{style="table-layout:auto"}
+
 ## Workspace Search
 
 To find any record in the database, use the magnifying glass icon in the header of the _Admin_. The results can include customers, products, orders, or any related attribute. For example, if you enter a customer name, the results might include the customer record and any orders that are associated with the name.

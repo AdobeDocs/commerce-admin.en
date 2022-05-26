@@ -24,6 +24,8 @@ The Order Total Report shows customer orders for a specified time interval or da
 |Export|Exports the selected records as a CSV or Excel XML file.|
 |Scope| Used to set the site or store for which the report is generated.|
 
+{style="table-layout:auto"}
+
 ### Column descriptions
 
 |Column|Description|
@@ -33,6 +35,8 @@ The Order Total Report shows customer orders for a specified time interval or da
 |Orders|The number of orders for the specified interval.|
 |Average|Average order amount.|
 |Total|The sum of all orders for the period.|
+
+{style="table-layout:auto"}
 
 ## Order Count
 
@@ -52,6 +56,8 @@ The Order Count Report shows the number of orders per customer for a specified t
 |Export|Exports the selected records as a CSV or Excel XML file.|
 |Scope| Used to set the site or store for which the report is generated.|
 
+{style="table-layout:auto"}
+
 ### Column descriptions
 
 |Column|Description|
@@ -61,6 +67,8 @@ The Order Count Report shows the number of orders per customer for a specified t
 |Orders|The number of orders for the specified interval.|
 |Average|Average order amount.|
 |Total|The sum of all orders for the period.|
+
+{style="table-layout:auto"}
 
 ## New Accounts
 
@@ -80,12 +88,16 @@ The New Accounts Report shows the number of new customer accounts opened during 
 |Export|Exports the selected records as a CSV or Excel XML file.|
 |Scope|Used to set the site or store for which the report is generated.|
 
+{style="table-layout:auto"}
+
 ### Column descriptions
 
 |Column|Description|
 |--- |--- |
 |Interval|New account creation interval, by Month / Day / Year.|
 |New Accounts|The number of new accounts created in a certain interval.|
+
+{style="table-layout:auto"}
 
 ## Wish Lists
 
@@ -111,6 +123,8 @@ The Customer Wish List Report provides information about customer Wish Lists.
 |Status| The status of the wish list. Options: Private / Public |
 |Comment| Initiates a search by text in the wish list comments.|
 
+{style="table-layout:auto"}
+
 ### Column descriptions
 
 |Column|Description|
@@ -121,7 +135,9 @@ The Customer Wish List Report provides information about customer Wish Lists.
 |Status| The status of the wish list. Options: Private / Public |
 |Product| Name of the product added to the wish list.|
 |SKU| SKU of the product added to the wish list.|
-|Comment| Сomment text that was entered when the wish list was created.|
+|Comment| The comment text that was entered when the wish list was created.|
+
+{style="table-layout:auto"}
 
 ## Segments
 
@@ -142,6 +158,8 @@ The Customer Segment Report provides information about the number of customers i
 |Action| Initiates the display of segments by parameters. Options: Action / View Combined Report|
 |Per Page| Sets the number of records displayed in a single page.|
 
+{style="table-layout:auto"}
+
 ### Column descriptions
 
 |Column|Description|
@@ -151,3 +169,5 @@ The Customer Segment Report provides information about the number of customers i
 |Status|Segment status. Options: Active / Inactive|
 |Website|Website to which the segment is assigned.|
 |Customers|Number of customers assigned to the segment.|
+
+{style="table-layout:auto"}

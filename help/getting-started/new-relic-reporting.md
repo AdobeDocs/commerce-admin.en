@@ -23,6 +23,8 @@ description: Learn about the New Relic reporting available for accounts for Adob
     | New Relic API Key | From your New Relic account dashboard, click **Account Settings**. In the menu on the left under Integrations, choose **Data Sharing**. You can create, regenerate, or delete your API key from this page. |
     | Insights API Key | From your New Relic account dashboard, click **Insights**. In the menu on the left under Administration, choose **API Keys**. Your Insights API Keys appear on this page. If necessary, click the plus sign (**+**) next to Insert Keys to generate a key. |
 
+    {style="table-layout:auto"}
+
 ## Step 2: Install the New Relic Agent on Your Server
 
 To use New Relic APM Pro to gather and transmit data, the PHP agent must be installed on your server.

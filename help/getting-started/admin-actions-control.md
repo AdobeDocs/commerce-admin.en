@@ -51,3 +51,5 @@ The checkbox in the first column of the list identifies each record that is a ta
 |Unselect All|Clears the checkbox of all records in the list.|
 |Select All on This Page|Marks the checkbox of records on the current page.|
 |Deselect All on This Page|Clears the checkbox of  records on the current page.|
+
+{style="table-layout:auto"}

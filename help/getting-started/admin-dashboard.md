@@ -84,6 +84,8 @@ The dashboard chart can be generated in real time or by using historical, aggreg
 |Time Range|Determines the data that is represented in the chart and summary totals below. Options: Last 7 Days / Current Month / YTD / 2YTD|
 |Summary Totals|The revenue, tax, shipping, and quantity totals below the chart are based on the chart data and current time range setting.|
 
+{style="table-layout:auto"}
+
 ## Snapshot data
 
 |Section|Description|
@@ -94,6 +96,8 @@ The dashboard chart can be generated in real time or by using historical, aggreg
 |Last Search Terms|The last five search terms.|
 |Top Search Terms|The five most commonly used search terms.|
 
+{style="table-layout:auto"}
+
 ## Report tabs
 
 |Section|Description|
@@ -103,9 +107,13 @@ The dashboard chart can be generated in real time or by using historical, aggreg
 |New Customers|The most recent five customers who registered for an account during the specified time period.|
 |Customers|The last five customers with an order that completed processing during the specified time period.|
 
+{style="table-layout:auto"}
+
 ## Dashboard buttons
 
 |Button|Description|
 |--- |--- |
 |**Reload Data**|Refreshes dashboard data.|
 |**Go to Advanced Reporting**|Displays a personalized dashboard of dynamic charts and reports based on your product, order, and customer data. For more extensive analysis, see [Advanced Reporting](business-intelligence.md#advanced-reporting).|
+
+{style="table-layout:auto"}

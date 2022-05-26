@@ -19,6 +19,8 @@ Adobe provides a wealth of business and technical resources, self-help tools, an
 [Partners][12]{:target="_blank"}|Adobe partners are committed to your success and provide custom integrations, best-in-class customer experiences, strategic marketing initiatives, and expert performance and scalability optimization for both on-premise and cloud-based solutions.|
 [Adobe Commerce Managed Services][13]{:target="_blank"}|The Adobe Commerce Managed Services team helps merchants and Solution Partners maximize their success. These experts offer comprehensive analysis and best practice recommendations, from architecture planning through post-deployment.|
 
+{style="table-layout:auto"}
+
 [1]: https://experienceleague.adobe.com/docs/commerce.html
 [3]: https://business.adobe.com/resources/main.html?Products+%26+Services=Commerce%252CCommerce%2520Cloud
 [4]: https://helpx.adobe.com/security.html

@@ -17,6 +17,8 @@ For more information about accessibility, see [Accessibility Guidelines][2]{:tar
 |Next Field|`Tab`|
 |Previous Field|`Shift + Tab`|
 
+{style="table-layout:auto"}
+
 ## macOS
 
 | Function | Standard keyboard shortcut |
@@ -25,6 +27,8 @@ For more information about accessibility, see [Accessibility Guidelines][2]{:tar
 |Previous Page|`Cmd + Left`|
 |Next Field|`Tab`|
 |Previous Field|`Shift-Tab`|
+
+{style="table-layout:auto"}
 
 ## General
 
@@ -38,6 +42,8 @@ For more information about accessibility, see [Accessibility Guidelines][2]{:tar
 |Close|`Esc`|
 |Scroll Vertically|`PgUp`, `PgDn`|
 |Scroll Horizontally|`Left`, `Right`|
+
+{style="table-layout:auto"}
 
 [1]: https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts
 [2]: https://devdocs.magento.com/guides/v2.4/pattern-library/general/accessibilityguideline/accessibilityGuideline.html

@@ -1,6 +1,6 @@
 ---
 title: Login Credentials and URLs
-description: Learn about the Commerce URLs used to gain access to your Admin and to your storefront.
+description: Learn about the Commerce URLs and account credentials used to gain access to your Admin and to your storefront.
 ---
 # Login Credentials and URLs
 

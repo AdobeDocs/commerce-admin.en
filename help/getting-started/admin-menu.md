@@ -19,3 +19,5 @@ The sidebar on the left is the main menu for the store _Admin_, and is designed 
 | ![Stores menu](./assets/icon-admin-sidebar-stores.png) | **[Stores](https://docs.magento.com/user-guide/stores/stores.html)** | The Stores menu includes tools to configure and maintain every aspect of your store, including multisite installation settings, taxes, currency, product attributes, and customer groups. |
 | ![System menu](./assets/icon-admin-sidebar-system.png) | **[System](https://docs.magento.com/user-guide/system/system.html)** | The System menu includes tools to manage system operations, install extensions, and manage Web Services for integration with other applications. |
 | ![Find Extensions](./assets/icon-admin-sidebar-extensions.png) | **[Find Partners & Extensions](commerce-marketplace.md)** | The COmmerce Marketplace is where you can find Adobe Commerce and Magento Open Source solutions for your store. |
+
+{style="table-layout:auto"}

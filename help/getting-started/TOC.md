@@ -8,7 +8,6 @@ breadcrumb-title: Getting Started
 
 - [Guide Overview](guide-overview.md)
 - [Release Information](about-this-release.md)
-- [Installation](installation.md)
 - [Login Credentials and URLs](login-urls.md)
 - Commerce Accounts {#commerce-account}
   - [Create and Access Your Account](commerce-account-create.md)
@@ -34,15 +33,15 @@ breadcrumb-title: Getting Started
   - [Storefront Branding](storefront-branding.md)
   - [Prelaunch Checklist](prelaunch-checklist.md)
 - Site Compliance {#compliance}
-  - [Accessibility](navigation-accessibility.md)
-  - Payments {#payments}
-    - [PCI Compliance](compliance-pci.md)
-    - [Payment Services Directive](compliance-payment-services-directive.md)
   - Privacy {#privacy}
     - [Store Privacy Policy](privacy-policy.md)
     - [CCPA Compliance](compliance-ccpa.md)
     - [GDPR Compliance](compliance-gdpr.md)
     - [Cookie Law Compliance](compliance-cookie-law.md)
+  - Payments {#payments}
+    - [PCI Compliance](compliance-pci.md)
+    - [Payment Services Directive](compliance-payment-services-directive.md)
+  - [Accessibility](navigation-accessibility.md)
 - Standard Reporting  {#reporting}
   - [Reports Menu](reports-menu.md)
   - [Marketing Reports](marketing-reports.md)

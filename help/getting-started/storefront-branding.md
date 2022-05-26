@@ -34,6 +34,8 @@ Supported logo file formats:
 |GIF|(Graphics Interchange Format) A widely supported, and older bitmap format that is limited to 256 colors (8 bit). The GIF format supports simple animation and transparent layers.|
 |JPG (JPEG)|(Joint Photographics Expert Group) A compressed bitmap format that is used by most digital cameras. The lossy compression causes some data loss, which is sometimes noticeable as blurry spots in text.|
 
+{style="table-layout:auto"}
+
 1. On the _Admin_ sidebar, go to **Content** > _Design_ > **Configuration**.
 
    ![Design Configuration page](./assets/design-configuration.png)<!-- zoom -->
@@ -69,6 +71,8 @@ Commerce supports the following file formats as the favicon:
 |APNG|(Animated Portable Network Graphics) A file format similar to PNG that supports simple animation.|
 |GIF|(Graphics Interchange Format) A widely supported, and older bitmap format that is limited to 256 colors (8 bit). The GIF format supports simple animation and transparent layers.|
 |JPG (JPEG)|(Joint Photographics Expert Group) A compressed bitmap format that is used by most digital cameras. The lossy compression causes some data loss, which is sometimes noticeable as blurry spots in text.|
+
+{style="table-layout:auto"}
 
 ### Step 1: Create a favicon
 
