@@ -6,7 +6,7 @@ description: Learn about company structures and how a company administrator can 
 
 A company account can be set up to reflect the structure of the business. Initially, the company structure includes only the company administrator, but can be expanded to include teams of users. The users can be associated with teams or organized within a hierarchy of divisions and subdivisions within the company.
 
-![Company Structure with Divisions](./assets/company-structure-diagram.png)<!-- zoom -->
+![Company Structure with Divisions](./assets/company-structure-diagram.svg)<!-- zoom -->
 
 In the company administrator's account dashboard, the company structure is represented as a tree and initially consists of only the company administrator.
 
@@ -47,7 +47,7 @@ The structure of a company account should reflect the purchasing organization, w
 
 If the store is [configured](enable-basic-features.md) to allow companies to manage their own accounts, setting up the company structure is one of the first tasks for a company administrator to complete after the account is approved. In the company account, the structure of the company is represented as a tree with the company administrator at the top.
 
-![Company Structure with Teams](./assets/company-structure-teams-diagram.png)<!-- zoom -->
+![Company Structure with Teams](./assets/company-structure-teams-diagram.svg)<!-- zoom -->
 
 1. The company administrator signs in to their account.
 

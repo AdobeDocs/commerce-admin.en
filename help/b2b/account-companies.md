@@ -42,7 +42,7 @@ After creating the account, the company administrator defines the company struct
 
 A company account can be set up to reflect the structure of the business. Initially, the company structure includes only the company administrator, but can be expanded to include teams of users. The users can be associated with teams or organized within a hierarchy of divisions and subdivisions within the company. This is designed to support the use of [approval rules](account-dashboard-approval-rules.md) for [purchase orders](purchase-order-flow.md) (POs) associated with the company account.
 
-![Company Structure with Divisions](./assets/company-structure-diagram.png)<!-- zoom -->
+![Company Structure with Divisions](./assets/company-structure-diagram.svg)<!-- zoom -->
 
 In the company administrator's account dashboard, the company structure is represented as a tree and initially consists of only the company administrator.
 
