@@ -50,7 +50,7 @@ Inventory Management 1.2.4 (module version: `magento/inventory-metapackage = 1.2
 
 ![Fixed issue](../assets/fix.svg) Improved cart page management performance with the minimum required quantity.
 
-![Fixed issue](../assets/fix.svg) Several bug fixes targeted to resolve issues with source creation, out of stock items, stock sourcing, sorting allocated sources, in-store delivery, and inventory commands.
+![Fixed issue](../assets/fix.svg) Several fixes targeted to resolve issues with source creation, out of stock items, stock sourcing, sorting allocated sources, in-store delivery, and inventory commands.
 
 ![Fixed issue](../assets/fix.svg) [!DNL Commerce] now supports three-digit Canadian postal codes for in-store delivery. Six-digit codes are not supported due to limitations set by `geonames.org`.
 
@@ -66,7 +66,7 @@ Inventory Management 1.2.4 (module version: `magento/inventory-metapackage = 1.2
 
 ![Fixed issue](../assets/fix.svg) Improved cart page performance during quantity update on B2B.
 
-![Fixed issue](../assets/fix.svg) Several bug fixes targeted to resolve issues with in-store pickup, mass updates, and inventory threshold.
+![Fixed issue](../assets/fix.svg) Several fixes targeted to resolve issues with in-store pickup, mass updates, and inventory threshold.
 
 ![New](../assets/new.svg) **Functional tests.** Introduced new functional tests and provided fixes for existing tests to make them more stable.
 
@@ -82,7 +82,7 @@ Inventory Management 1.2.4 (module version: `magento/inventory-metapackage = 1.2
 
 [!DNL Inventory Management] 1.2.0 (module version: `magento/inventory-metapackage = 1.2.0`) is supported with version 2.4.0 of Magento Open Source, Adobe Commerce, and Adobe Commerce on cloud infrastructure.
 
-![Fixed issue](../assets/fix.svg) Numerous bug fixes to resolve issues with source assignment, scalable environment feature support, and compatibility with PHP 7.4, MySQL 8, and PHPUNIT 9.
+![Fixed issue](../assets/fix.svg) Numerous fixes to resolve issues with source assignment, scalable environment feature support, and compatibility with PHP 7.4, MySQL 8, and PHPUNIT 9.
 
 ![New](../assets/new.svg) **In-store delivery method.** Added an option for users to select a source to be used as a pickup location during checkout. See [In-store Delivery](https://docs.magento.com/user-guide/shipping/shipping-in-store-delivery.html){target="_blank"}.
 
@@ -107,7 +107,7 @@ Inventory Management 1.2.4 (module version: `magento/inventory-metapackage = 1.2
 
 [!DNL Inventory Management] 1.1.6 (module version: `inventory-composer-metapackage = 1.1.6`) is supported with version 2.3.6 and compatible with version 2.3.5, 2.3.4, 2.3.3, 2.3.2, 2.3.1, and 2.3.0 of Magento Open Source, Adobe Commerce, and Adobe Commerce on cloud infrastructure.
 
-![Fixed issue](../assets/fix.svg) Bug fixes to resolve issues related to backorders, credit memos, low stock report grid, fixes connected to "resolve inconsistencies" CLI tool and general improvements.
+![Fixed issue](../assets/fix.svg) Fixes to resolve issues related to backorders, credit memos, low stock report grid, fixes connected to "resolve inconsistencies" CLI tool and general improvements.
 
 ![New](../assets/new.svg) **Asynchronous stock reindexing.** Added the ability to asynchronously reindex stock and improved the performance of several critical scenarios.
 
@@ -119,7 +119,7 @@ Inventory Management 1.2.4 (module version: `magento/inventory-metapackage = 1.2
 
 ![New](../assets/new.svg) **Functional tests.** Introduced new functional tests to eliminate the test coverage gap. Fixed several issues to make tests more stable and reliable).
 
-![Known issue](../assets/bug.svg) Bug fixes to prevent product oversell, "Out of stock" products visibility on the storefront, numerous fixes for scalable environment support and user interface improvements.
+![Known issue](../assets/bug.svg) Fixes to prevent product oversell, "Out of stock" products visibility on the storefront, numerous fixes for scalable environment support and user interface improvements.
 
 ## 1.1.4
 
@@ -129,7 +129,7 @@ Inventory Management 1.2.4 (module version: `magento/inventory-metapackage = 1.2
 
 ![New](../assets/new.svg)**Increased test coverage.** Introduced many new Functional tests. Almost all manual Inventory scenarios are covered with automated tests.
 
-![Known issue](../assets/bug.svg) Numerous bug fixes targeted to resolve issues with credit memos, grouped products, and source and stock mass actions.
+![Known issue](../assets/bug.svg) Numerous fixes targeted to resolve issues with credit memos, grouped products, and source and stock mass actions.
 
 ## 1.1.3
 
