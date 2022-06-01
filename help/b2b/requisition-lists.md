@@ -21,11 +21,11 @@ Requisition list functionality is similar to wish lists, with the following diff
 
 A logged in customer that is associated with a company account can create a requisition list from their account dashboard.
 
-1. In the sidebar of their account, chooses **My Requisition Lists**.
+1. In the sidebar of their account, chooses **[!UICONTROL My Requisition Lists]**.
 
-1. On the _Requisition Lists_ page, clicks **Create New Requisition List**.
+1. On the _[!UICONTROL Requisition Lists]_ page, clicks **[!UICONTROL Create New Requisition List]**.
 
-1. Enters the **Requisition List Name** and **Description**.
+1. Enters the **[!UICONTROL Requisition List Name]** and **[!UICONTROL Description]**.
 
    ![Create Requisition List](./assets/requisition-list-create.png)<!-- zoom -->
 
@@ -35,11 +35,11 @@ A logged in customer that is associated with a company account can create a requ
 
 A logged in customer that is associated with a company account can create a requisition list from a product page. This method provides an easy shortcut to create the list and add the product.
 
-1. From the product detail page, clicks **Add to Requisition List**.
+1. From the product detail page, clicks **[!UICONTROL Add to Requisition List]**.
 
-1. Clicks **Create New Requisition List**.
+1. Clicks **[!UICONTROL Create New Requisition List]**.
 
-1. Enters the **Requisition List Name** and **Description**.
+1. Enters the **[!UICONTROL Requisition List Name]** and **[!UICONTROL Description]**.
 
 1. When complete, clicks **[!UICONTROL Save]**.
 
@@ -56,7 +56,7 @@ Customers can add products to a requisition list from:
 
 1. From the storefront, the customer goes to the detail page of the product that is to be added to the requisition list.
 
-1. Clicks **Add to Requisition List** and does one of the following:
+1. Clicks **[!UICONTROL Add to Requisition List]** and does one of the following:
 
    - Chooses an existing requisition list.
    - Creates a requisition list.
@@ -69,7 +69,7 @@ Customers can add products to a requisition list from:
 
 1. Hovers over the product.
 
-1. Clicks **Add to Requisition List** and does one of the following:
+1. Clicks **[!UICONTROL Add to Requisition List]** and does one of the following:
 
    - Chooses an existing requisition list.
    - Creates a requisition list.
@@ -78,7 +78,7 @@ Customers can add products to a requisition list from:
 
 ### From an existing order
 
-1. In the sidebar of their account dashboard, the customer chooses **My Orders**.
+1. In the sidebar of their account dashboard, the customer chooses **[!UICONTROL My Orders]**.
 
 1. At the top of the order, clicks **Add to Requisition List** and does one of the following:
 
@@ -89,7 +89,7 @@ Customers can add products to a requisition list from:
 
 ### From the cart
 
-1. Under the item, the customer clicks the **Add to Requisition List** menu and does one of the following:
+1. Under the item, the customer clicks the **[!UICONTROL Add to Requisition List]** menu and does one of the following:
 
    - Chooses an existing requisition list.
    - Creates a requisition list.
@@ -104,7 +104,7 @@ When logged into their account, a customer can use either of the following metho
 
 ### From the account dashboard
 
-1. In the sidebar of their account dashboard, chooses **My Requisition Lists**.
+1. In the sidebar of their account dashboard, chooses **[!UICONTROL My Requisition Lists]**.
 
 1. In the list of requisition lists, clicks **[!UICONTROL View]** in the _Actions_ column.
 
@@ -112,5 +112,5 @@ When logged into their account, a customer can use either of the following metho
 
 1. In the quick links bar at the top of the page, clicks their user name.
 
-1. On the menu, chooses **My Requisition Lists**.
+1. On the menu, chooses **[!UICONTROL My Requisition Lists]**.
     
