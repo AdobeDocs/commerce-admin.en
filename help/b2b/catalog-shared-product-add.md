@@ -16,13 +16,13 @@ The following requirements must be met for a complex product (such as bundle, gr
 
 ## Method 1: Add a single product
 
-1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. For the product in the grid that you want to add, go to the _Action_ column and click **Edit**.
+1. For the product in the grid that you want to add, go to the _[!UICONTROL Action]_ column and click **[!UICONTROL Edit]**.
 
 1. Scroll down, expand ![Expansion selector](../assets/icon-display-expand.png) the _Product in Shared Catalogs_ section, and do the following:
 
-   - Select the checkbox of each shared catalog where the product should appear. To choose all catalogs, click **Select all**.
+   - Select the checkbox of each shared catalog where the product should appear. To choose all catalogs, click **[!UICONTROL Select all]**.
 
       ![Product in Shared Catalogs](./assets/shared-catalog-assign-from-product.png)<!-- zoom -->
 
@@ -30,19 +30,19 @@ The following requirements must be met for a complex product (such as bundle, gr
 
       ![Shared catalogs assigned](./assets/shared-catalog-assigned.png)<!-- zoom -->
 
-   - Click **Done** to save the settings.
+   - Click **[!UICONTROL Done]** to save the settings.
 
-1. When complete, click **Save**.
+1. When complete, Click **[!UICONTROL Save]**.
 
 ## Method 2: Add multiple products
 
-1. On the _Admin_ sidebar, go to **Catalog** > **Shared Catalogs**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
 
-1. For the shared catalog in the grid, go to the _Action_ column and select **Set Pricing and Structure**.
+1. For the shared catalog in the grid, go to the _[!UICONTROL Action]_ column and select **[!UICONTROL Set Pricing and Structure]**.
 
 1. In the category tree, do any of the following:
 
-   - To include all products, click **Select all** or select the checkbox of the parent category.
+   - To include all products, click **[!UICONTROL Select all]** or select the checkbox of the parent category.
    - To include specific categories of products, select the checkbox of each category that you want to include.
    - To include or exclude an individual product, select or deselect the checkbox of product.
 

@@ -6,21 +6,21 @@ description: Learn how to assign a company user account as the company administr
 
 The company administrator is initially assigned when the company account is first created, and can be modified only by a store administrator from the Admin.
 
-1. On the _Admin_ sidebar, go to **Customers** > **Companies**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-1. Find the company in the list and click **Edit**.
+1. Find the company in the list and click **[!UICONTROL Edit]**.
 
    ![Companies](./assets/companies-grid.png)<!-- zoom -->
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Company Admin** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Company Admin]** section.
 
    ![Company Admin](./assets/company-account-company-admin.png)<!-- zoom -->
 
-1. Enter the **Job Title** of the new company administrator and click **Proceed** to continue.
+1. Enter the **[!UICONTROL Job Title]** of the new company administrator and click **[!UICONTROL Proceed]** to continue.
 
-   This action clears the form and the required _First Name_ and _Last Name_ fields are highlighted.
+   This action clears the form and the required _[!UICONTROL First Name]_ and _[!UICONTROL Last Name]_ fields are highlighted.
 
-1. Enter the **Email** address of the new company administrator.
+1. Enter the **[!UICONTROL Email]** address of the new company administrator.
 
    If the system doesn’t find the email address in the database, you are prompted to confirm that you want to replace the company administrator.
 
@@ -28,9 +28,9 @@ The company administrator is initially assigned when the company account is firs
 
    - If the user account exists in the system, it is moved to the company administrator position in the company hierarchy.
 
-1. Enter the **First Name** and **Last Name**, and any other information as applicable for the new company administrator.
+1. Enter the **[!UICONTROL First Name]** and **[!UICONTROL Last Name]**, and any other information as applicable for the new company administrator.
 
-1. When complete, click **Save**.
+1. When complete, click **[!UICONTROL Save]**.
 
    The individual account of the former company administrator remains in the system as an active individual user account in the company hierarchy, assigned to the default user role.
 

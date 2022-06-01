@@ -4,7 +4,7 @@ description: Learn about company user accounts and how they function within the 
 ---
 # Manage Company User Accounts
 
-Company users are assigned by the company administrator, and are visible from the Admin in the _Customers_ grid by the customer type, _Company User_. These individuals are typically buyers with varying levels of permission to access store services and resources.
+Company users are assigned by the company administrator, and are visible from the Admin in the _[!UICONTROL Customers]_ grid by the customer type, _[!UICONTROL Company User]_. These individuals are typically buyers with varying levels of permission to access store services and resources.
 
 The company administrator first sets up the [company structure](account-company-structure.md), and then completes the following tasks, as needed:
 
@@ -20,27 +20,27 @@ The company administrator first sets up the [company structure](account-company-
 
 1. From the storefront, the company administrator signs in to their account.
 
-1. In the left panel, chooses **Company Users**.
+1. In the left panel, chooses **[!UICONTROL Company Users]**.
 
    ![Company Users](./assets/company-users-list-storefront.png)<!-- zoom -->
 
-1. Clicks **Add New User** and does the following:
+1. Clicks **[!UICONTROL Add New User]** and does the following:
 
-   - Enters the **Job Title** of the new user.
+   - Enters the **[!UICONTROL Job Title]** of the new user.
 
-   - If the roles and permissions are defined, chooses the appropriate **User Role**. Otherwise, they can return later to assign the role.
+   - If the roles and permissions are defined, chooses the appropriate **[!UICONTROL User Role]**. Otherwise, they can return later to assign the role.
 
       ![Add new user](./assets/company-structure-users-add.png)<!-- zoom -->
 
    - Completes the remaining fields as needed for the user:
 
-      - **First Name** and **Last Name**
-      - **Email**
-      - **Phone Number**
+      - **[!UICONTROL First Name]** and **[!UICONTROL Last Name]**
+      - **[!UICONTROL Email]**
+      - **[!UICONTROL Phone Number]**
 
-   By default, the **Status** of the account is `Active`.
+   By default, the **[!UICONTROL Status]** of the account is `Active`.
 
-1. When complete, clicks **Save**.
+1. When complete, clicks **[!UICONTROL Save]**.
 
 1. Repeats the process to create as many company users as needed.
 
@@ -54,27 +54,27 @@ To save time during their first order, the company administrator can remind each
 
 1. From the storefront, the company administrator signs in to their account.
 
-1. In the left panel, chooses **Company Users**.
+1. In the left panel, chooses **[!UICONTROL Company Users]**.
 
-1. Finds the user record to be updated, and clicks **Edit**.
+1. Finds the user record to be updated, and clicks **[!UICONTROL Edit]**.
 
 1. Makes the needed changes.
 
-1. When complete, clicks **Save**.
+1. When complete, clicks **[!UICONTROL Save]**.
 
 ## Remove a company user
 
 1. From the storefront, the company administrator signs in to their account.
 
-1. In the left panel, chooses **Company Structure**.
+1. In the left panel, chooses **[!UICONTROL Company Structure]**.
 
 1. Selects the company user in the company structure.
 
-1. Clicks **Delete Selected**.
+1. Clicks **[!UICONTROL Delete Selected]**.
 
    ![Delete User](./assets/company-structure-delete-user.png)<!-- zoom -->
 
-1. When prompted to confirm, clicks **Delete**.
+1. When prompted to confirm, clicks **[!UICONTROL Delete]**.
 
 In the Admin, the company user remains listed in the [Customers](https://docs.magento.com/user-guide/customers/customers-all.html) grid, but with an `Inactive` status.
 
@@ -82,12 +82,12 @@ In the Admin, the company user remains listed in the [Customers](https://docs.ma
 
 | Field        | Description |
 |--------------|---------------|
-| Job Title    | The job title of the company user. |
-| User Role    | The [role](account-company-roles-permissions.md) assigned to the company user. Options: Default User / (other roles) |
-| First Name   | The first name of the company user.  |
-| Last Name    | The last name of the company user.   |
-| Email        | The email address of the company user.  |
-| Phone Number | The phone number of the company user.  |
-| Status       | The status of the company user account. Options: Active / Inactive  |
+| [!UICONTROL Job Title]    | The job title of the company user. |
+| [!UICONTROL User Role]    | The [role](account-company-roles-permissions.md) assigned to the company user. Options: `Default User` / (other roles) |
+| [!UICONTROL First Name]   | The first name of the company user.  |
+| [!UICONTROL Last Name]    | The last name of the company user.   |
+| [!UICONTROL Email]        | The email address of the company user.  |
+| [!UICONTROL Phone Number] | The phone number of the company user.  |
+| [!UICONTROL Status]       | The status of the company user account. Options: Active / Inactive  |
 
 {style="table-layout:auto"}

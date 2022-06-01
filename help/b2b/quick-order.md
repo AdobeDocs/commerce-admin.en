@@ -10,69 +10,69 @@ The Quick Order feature reduces the order process to several clicks for customer
 
 ## Step 1: Enable Quick Orders
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the _General_ section on the left panel, choose **B2B Features**.
+1. In the _[!UICONTROL General]_ section on the left panel, choose **[!UICONTROL B2B Features]**.
 
-1. Set **Enable Quick Order** to `Yes`.
+1. Set **[!UICONTROL Enable Quick Order]** to `Yes`.
 
     ![Enable Quick Order](./assets/quick-orders-config.png)<!-- zoom -->
 
-1. Click **Save Config**.
+1. Click **[!UICONTROL Save Config]**.
 
 1. When prompted, click [Cache Management](https://docs.magento.com/user-guide/system/cache-management.html) and refresh any invalid caches.
 
-## Step 2: Specify Products for Quick Order
+## Step 2: Specify products for Quick Order
 
-You can specify products for Quick Order using either of the following methods.
+Customers can specify products for Quick Order using either of the following methods.
 
-### Method 1: Enter Individual Products
+### Method 1: Enter individual products
 
-1. Click the **Quick Order** link.
+1. The customer clicks the **[!UICONTROL Quick Order]** link.
 
-1. Select the product by SKU or product name:
+1. Selects the product by SKU or product name:
 
-   - To place a quick order by **SKU**, do the following:
+   - To place a quick order by SKU, does the following:
 
-      - Enter the **SKU**.
+      - Enters the **[!UICONTROL SKU]**.
 
-      - Click **Add to List**.
+      - Clicks **[!UICONTROL Add to List]**.
 
          The SKU appears in the input line, with the product detail below.
 
          ![Quick Order Detail](./assets/quick-order-product-detail.png)<!-- zoom -->
 
-   - To place a quick order by **Product Name**, do the following:
+   - To place a quick order by Product Name, does the following:
 
-      - Enter the first few characters of the **Product Name**.
+      - Enters the first few characters of the **[!UICONTROL Product Name]**.
 
          >[!NOTE]
          >
          >Do not use the _Enter_ key to choose the name of the product.
 
-      - When the list of possible matches appears, click the product that you want to order.
+      - When the list of possible matches appears, clicks the product that you want to order.
 
           ![Click to Choose Product Name](./assets/quick-order-product-name.png)<!-- zoom -->
 
-1. Enter the **Qty**.
+1. Enters the **[!UICONTROL Qty]**.
 
-1. Using the next input line, repeat this process as many times as necessary.
+1. Using the next input line, repeats this process as many times as necessary.
 
-1. Click **Add to Cart**.
+1. Clicks **[!UICONTROL Add to Cart]**.
 
-### Method 2: Enter Multiple Products
+### Method 2: Enter multiple products
 
-1. In the **Enter Multiple SKUs** box, do one of the following:
+1. In the **[!UICONTROL Enter Multiple SKUs]** box, the customer does one of the following:
 
-   - Enter one SKU per line
+   - Enters one SKU per line
 
-   - Enter all SKUs on the same line, separated by commas, and without spaces.
+   - Enters all SKUs on the same line, separated by commas, and without spaces.
 
-        ![Enter Multiple SKUs](./assets/quick-order-skus.png)<!-- zoom -->
+      ![Enter Multiple SKUs](./assets/quick-order-skus.png)<!-- zoom -->
 
-1. To add the products to the list, click **Add to List**.
+1. To add the products to the list, clicks **[!UICONTROL Add to List]**.
 
-1. Enter the **Qty** to be ordered for each item in the list.
+1. Enters the **[!UICONTROL Qty]** to be ordered for each item in the list.
 
    ![Quick Order List](./assets/quick-order-skus-detail.png)<!-- zoom -->
 
@@ -82,28 +82,26 @@ You can specify products for Quick Order using either of the following methods.
 
    ![Choose Options](./assets/quick-order-skus-product-options.png)<!-- zoom -->
 
-### Method 3: Upload a List of Products
+### Method 3: Upload a list of products
 
-1. In the _Add from File_ section, click **Download Sample** to download an order template.
+1. In the _[!UICONTROL Add from File]_ section, click **[!UICONTROL Download Sample]** to download an order template.
 
     ![Add from File](./assets/quick-order-skus-add-from-file.png)<!-- zoom -->
 
-1. In the lower left corner of your browser window, open the file.
+1. Opens the downloaded file.
 
-1. Use the template to add the product SKUs to upload for the Quick Order list.
+1. Uses the template to add the product SKUs to upload for the Quick Order list.
 
-1. When complete, click **Save**.
+1. When complete, clicks **[!UICONTROL Save]**.
 
     ![SKUs to Upload](./assets/quick-order-skus-add-from-file-sample.png)<!-- zoom -->
 
-1. To upload the file, click **Choose**.
+1. To upload the file, clicks **[!UICONTROL Choose]** and selects the file from their system.
 
-1. Select the file from your directory.
+   The items are added to the Quick Order list.
 
-    The items are added to the Quick Order list.
+1. When ready, clicks **[!UICONTROL Add to Cart]**.
 
-1. When ready, click **Add to Cart**.
-
-After you create the quick order, you can proceed through checkout as usual.
+After the customer creates the quick order, they can proceed through checkout as usual.
 
 ![Quick Order](./assets/quick-order-add-to-cart.png)<!-- zoom -->

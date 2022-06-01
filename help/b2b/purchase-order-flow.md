@@ -54,11 +54,11 @@ All these factors can have an influence on the exact checkout process.
 
 ## My Purchase Orders
 
-When purchase orders are enabled for a company, the **My Purchase Orders** item is displayed in left panel for customers logged in to a company user account. There are three tabs that provide different purchase order lists and functions:
+When purchase orders are enabled for a company, the **[!UICONTROL My Purchase Orders]** item is displayed in left panel for customers logged in to a company user account. There are three tabs that provide different purchase order lists and functions:
 
-- **My Purchase Orders**: POs created by the customer.
-- **Company Purchase Orders**: POs made by subordinate users within the company (depends on company structure and roles).
-- **Requires My Approval**: (Visible for designated approvers) POs that are waiting for the customer's approval. The counter shows how many orders are awaiting approval.
+- **[!UICONTROL My Purchase Orders]**: POs created by the customer.
+- **[!UICONTROL Company Purchase Orders]**: POs made by subordinate users within the company (depends on company structure and roles).
+- **[!UICONTROL Requires My Approval]**: (Visible for designated approvers) POs that are waiting for the customer's approval. The counter shows how many orders are awaiting approval.
 
 ![My Purchase Orders](./assets/account-dashboard-my-purchase-orders.png)<!-- zoom -->
 
@@ -66,7 +66,7 @@ For more information about the supported purchase order functions available for 
 
 ## Offline vs online payment methods
 
-Workflows can vary depending on the payment method. To learn more about Commerce payment methods, see [Payment Methods](https://docs.magento.com/user-guide/payment/payments.html) in the core _Adobe Commerce User Guide_.
+Workflows can vary depending on the payment method. To learn more about Adobe Commerce payment methods, see [Payment Methods](https://docs.magento.com/user-guide/payment/payments.html) in the core _Adobe Commerce User Guide_.
 
 >[!IMPORTANT]
 >

@@ -23,7 +23,7 @@ If you have a multisite installation, make sure to configure the price scope bef
 
 ![Website Chooser](./assets/shared-catalog-scope-pricing.png)<!-- zoom -->
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
@@ -33,7 +33,7 @@ If you have a multisite installation, make sure to configure the price scope bef
 
    ![Catalog Price Scope](./assets/catalog-price-scope-website.png)<!-- zoom -->
 
-1. Click **Save Config**.
+1. Click **[!UICONTROL Save Config]**.
 
 ## Step 1: Create the shared catalog
 
@@ -41,25 +41,25 @@ There are two ways to create a shared catalog. You can create a shared catalog o
 
 ### Method 1: Add a new shared catalog
 
-1. On the _Admin_ sidebar, go to **Catalog** > **Shared Catalogs**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
 
-1. In the upper-right corner, click **Add Shared Catalog** and do the following:
+1. In the upper-right corner, click **[!UICONTROL Add Shared Catalog]** and do the following:
 
-   - Enter a **Name** for the shared catalog.
+   - Enter a **[!UICONTROL Name*]* for the shared catalog.
 
       The name you assign is used throughout the Admin and customer dashboard, if applicable, to refer to the shared catalog. It also becomes the name of the corresponding customer group.
 
-   - Select **Type** : `Custom` or `Public`.
+   - Select **[!UICONTROL Type]** : `Custom` or `Public`.
 
-   - Choose the appropriate **Customer Tax Class** that applies to purchases made from the shared catalog.
+   - Choose the appropriate **[!UICONTROL Customer Tax Class]** that applies to purchases made from the shared catalog.
 
       The following example shows a new custom catalog for a specific wholesale customer.
 
       ![New Shared Catalog](./assets/shared-catalog-new.png)<!-- zoom -->
 
-   - Enter **Description**
+   - Enter **[!UICONTROL Description]**
 
-1. When complete, click **Save**.
+1. When complete, Click **[!UICONTROL Save]**.
 
    The new catalog appears in the Shared Catalogs grid.
 
@@ -71,20 +71,20 @@ A duplicate custom catalog retains the pricing model and structure of the origin
 
 If a public shared catalog is duplicated, the type of the duplicate catalog changes to `custom`.
 
-1. On the _Admin_ sidebar, go to **Catalog** > **Shared Catalogs**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
 
-1. For the shared catalog in the grid that you want to duplicate, go to the **Action** column and select **General Settings**.
+1. For the shared catalog in the grid that you want to duplicate, go to the **[!UICONTROL Action]** column and select **[!UICONTROL General Settings]**.
 
-1. In the options across the top of the page, click **Duplicate** and update the following fields as needed:
+1. In the options across the top of the page, click **[!UICONTROL Duplicate]** and update the following fields as needed:
 
-   - **Name**
-   - **Type**
-   - **Customer Tax Class**
-   - **Description**
+   - **[!UICONTROL Name]**
+   - **[!UICONTROL Type]**
+   - **[!UICONTROL Customer Tax Class]**
+   - **[!UICONTROL Description]**
 
    ![Duplicate Shared Catalog](./assets/shared-catalog-duplicate.png)<!-- zoom -->
 
-1. When complete, click **Save**.
+1. When complete, Click **[!UICONTROL Save]**.
 
    The duplicate appears in the Shared Catalogs grid, with a unique ID.
 
@@ -100,10 +100,10 @@ After creating a new shared catalog, it must be configured with the appropriate 
 
 |Button|Description|
 |--- |--- |
-| Back |Returns to the Shared Catalogs page without saving the new shared catalog.|
-| Reset |Clears the form of any unsaved changes, and restores the original catalog detail information.|
-| Save and Continue Edit |Saves all changes, and keeps the form open in edit mode.|
-| Save |Saves changes, closes the form, and returns to the Shared Catalogs page.|
+| [!UICONTROL Back] |Returns to the Shared Catalogs page without saving the new shared catalog.|
+| [!UICONTROL Reset] |Clears the form of any unsaved changes, and restores the original catalog detail information.|
+| [!UICONTROL Save and Continue Edit] |Saves all changes, and keeps the form open in edit mode.|
+| [!UICONTROL Save] |Saves changes, closes the form, and returns to the Shared Catalogs page.|
 
 {style="table-layout:auto"}
 
@@ -111,22 +111,22 @@ After creating a new shared catalog, it must be configured with the appropriate 
 
 |Field|Description|
 |--- |--- |
-|Name|Identifies the shared catalog throughout the Admin, and in the customer accounts where it is available. The catalog name should be descriptive and no more than 32 characters in length. You cannot have two shared catalogs with the same name. Maximum characters: 32|
-|Type|**Custom** - Identifies a catalog with custom pricing that is available only to the specific companies to which it is assigned.<br/>**Public** - Identifies the shared catalog that is available to all guest visitors and to logged-in customers who are not associated with a company. A default public shared catalog is created when [!DNL B2B for Adobe Commerce] is installed, but must be configured by a store administrator. Only one public shared catalog can exist at a time.|
-|Customer Tax Class|Determines the tax class that is used for purchases made from the catalog. The options include all available tax classes.|
-|Description|A brief explanation of how the catalog is to be used.|
+|[!UICONTROL Name]|Identifies the shared catalog throughout the Admin, and in the customer accounts where it is available. The catalog name should be descriptive and no more than 32 characters in length. You cannot have two shared catalogs with the same name. Maximum characters: 32|
+|[!UICONTROL Type]|**[!UICONTROL Custom]** - Identifies a catalog with custom pricing that is available only to the specific companies to which it is assigned.<br/>**[!UICONTROL Public]** - Identifies the shared catalog that is available to all guest visitors and to logged-in customers who are not associated with a company. A default public shared catalog is created when [!DNL B2B for Adobe Commerce] is installed, but must be configured by a store administrator. Only one public shared catalog can exist at a time.|
+|[!UICONTROL Customer Tax Class]|Determines the tax class that is used for purchases made from the catalog. The options include all available tax classes.|
+|[!UICONTROL Description]|A brief explanation of how the catalog is to be used.|
 
 {style="table-layout:auto"}
 
-### Grid Columns
+### Grid columns
 
 |Field|Description|
 |--- |--- |
-|ID|A unique numeric identifier that is assigned to shared catalog entity.|
-|Name|The name of the shared catalog.|
-|Type|Indicates the type of shared catalog. Can be `Public` or `Custom`.|
-|Created At|The date when the shared catalog was created in the system.|
-|Created By|The name of admin user who created a shared catalog.|
-|Action|The list of actions. Options: `Set Pricing and Structure`, `Assign Companies`, `General Settings`, `Delete`.|
+|[!UICONTROL ID]|A unique numeric identifier that is assigned to shared catalog entity.|
+|[!UICONTROL Name]|The name of the shared catalog.|
+|[!UICONTROL Type]|Indicates the type of shared catalog. Can be `Public` or `Custom`.|
+|[!UICONTROL Created At]|The date when the shared catalog was created in the system.|
+|[!UICONTROL Created By]|The name of admin user who created a shared catalog.|
+|[!UICONTROL Action]|The list of actions. Options: `Set Pricing and Structure`, `Assign Companies`, `General Settings`, `Delete`.|
 
 {style="table-layout:auto"}

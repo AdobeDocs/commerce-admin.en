@@ -13,14 +13,14 @@ A customer can have multiple lists that focus on products from different vendors
 
 By default, customers can maintain up to 999 requisition lists for their account. But you can modify the configuration and specify a lower number to lessen the load on your store.
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Customers** and choose **Requisition Lists**.
+1. In the left panel, expand **[!UICONTROL Customers]** and choose **[!UICONTROL Requisition Lists]**.
 
    ![Requisition lists - general setting](./assets/requisition-lists-general.png)<!-- zoom -->
 
-1. For **Number of Requisition Lists**, enter the maximum number of requisition lists that can be maintained for each customer account.
+1. For **[!UICONTROL Number of Requisition Lists]**, enter the maximum number of requisition lists that can be maintained for each customer account.
 
    The minimum number is `2`, and the maximum is `999`.
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.

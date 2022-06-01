@@ -16,7 +16,7 @@ When Purchase Orders are [enabled for a company](purchase-order-flow.md), any or
 
 From the _View Purchase Order_ page, the customer can manage the PO, depending on their [role permissions](account-company-roles-permissions.md).
 
-- To see the PO, click **View**.
+- To see the PO, click **[!UICONTROL View]**.
 - To see any comments about the PO, click the **Comments** tab.
 - To see a complete order history, click the **History Log** tab.
 
@@ -28,7 +28,7 @@ From the _View Purchase Order_ page, the customer can manage the PO, depending o
 
 If the customer has an existing purchase order and would like to add new items, they can generate a duplicate purchase order with new products added to the new PO. The customer completes the following steps:
 
-1. On the _My Purchase Order_ page, the customer locates the purchase order and clicks the **View** link.
+1. On the _My Purchase Order_ page, the customer locates the purchase order and clicks the **[!UICONTROL View]** link.
 
 1. Clicks the **Add Items to Shopping Cart** link.
 
@@ -46,18 +46,18 @@ The original purchase order can be closed if it is no longer needed.
 
 ## Purchase order approvals
 
-For a customer that is designated as an approver based on company structure or assigned company role, the _My Purchase Orders_ dashboard page displays the **Requires My Approval** tab. The customer clicks this tab to review POs that are waiting for their approval. The counter shows how many orders are awaiting approval.
+For a customer that is designated as an approver based on company structure or assigned company role, the _[!UICONTROL My Purchase Orders]_ dashboard page displays the **[!UICONTROL Requires My Approval]** tab. The customer clicks this tab to review POs that are waiting for their approval. The counter shows how many orders are awaiting approval.
 
-After clicking **View** for a purchase order and reviewing the details, the approver can click **Approve** or **Reject**.
+After clicking **[!UICONTROL View]** for a purchase order and reviewing the details, the approver can click **[!UICONTROL Approve]** or **[!UICONTROL Reject]**.
 
 ### Bulk approval/rejection
 
 Starting with Adobe Commerce 2.4.1, approvers can approve or reject multiple purchase orders at one time.
 
-1. On the _My Purchase Order_ page, clicks the **Requires My Approval** tab.
+1. On the _[!UICONTROL My Purchase Order]_ page, clicks the **[!UICONTROL Requires My Approval]** tab.
 
 1. Select the checkbox for each purchase order to be approved or rejected.
 
-1. Clicks **Approve Selected** or **Reject Selected**.
+1. Clicks **[!UICONTROL Approve Selected]** or **[!UICONTROL Reject Selected]**.
 
 A customer can select only the purchase orders with a status that allows an action. Company administrators can make bulk approvals or rejections for any active purchase orders in their company.

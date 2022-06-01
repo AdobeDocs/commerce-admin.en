@@ -17,7 +17,7 @@ This extension release is fully compatible and supported with Adobe Commerce 2.4
 
 ![Fixed issue](../assets/fix.svg) <!--- MC-41985--> The time required to upgrade from Adobe Commerce 2.3.x to Adobe Commerce 2.4.x in deployments with more than 100,000 company roles has been substantially reduced.
 
-![Fixed issue](../assets/fix.svg) <!--- MC-42153--> The POST `V1/order/:orderId/invoice` request now supports the creation of partial invoices when the **Payment on Account** payment method is enabled. Previously, Adobe Commerce threw this error: `An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity`. [GitHub-32428](https://github.com/magento/magento2/issues/32428)
+![Fixed issue](../assets/fix.svg) <!--- MC-42153--> The POST `V1/order/:orderId/invoice` request now supports the creation of partial invoices when the **[!UICONTROL Payment on Account]** payment method is enabled. Previously, Adobe Commerce threw this error: `An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity`. [GitHub-32428](https://github.com/magento/magento2/issues/32428)
 
 ![Fixed issue](../assets/fix.svg) <!--- MC-41975--> PayPal PayFlow Pro now works as expected with B2B negotiable quote when the customer’s cart contains other products. Adobe Commerce now successfully processes the order and sends an email to the customer as expected. Previously, Adobe Commerce threw a fatal error and sent a confirmation email to the customer that contained zero values.
 
@@ -25,9 +25,9 @@ This extension release is fully compatible and supported with Adobe Commerce 2.4
 
 ![Fixed issue](../assets/fix.svg) <!--- MC-42886--> Customer custom attributes are now saved as expected when creating or saving a company user in the Admin.
 
-![Fixed issue](../assets/fix.svg) <!--- MC-42927--> The **Submit** button on the Create New Company form is now disabled after one click to prevent multiple form submissions. Previously, you could submit this form multiple times by clicking this button repeatedly, which generated an error.
+![Fixed issue](../assets/fix.svg) <!--- MC-42927--> The **[!UICONTROL Submit]** button on the Create New Company form is now disabled after one click to prevent multiple form submissions. Previously, you could submit this form multiple times by clicking this button repeatedly, which generated an error.
 
-![Fixed issue](../assets/fix.svg) <!--- MC-42787--> Adobe Commerce no longer displays the reorder link on the storefront when a shopper logs into a store for which reorders have been disabled. Adobe Commerce now uses the Admin configuration settings (Admin **Reorder** > **Stores** > **Configuration** > **Sales** > **Allow Reorder** set to **no**).
+![Fixed issue](../assets/fix.svg) <!--- MC-42787--> Adobe Commerce no longer displays the reorder link on the storefront when a shopper logs into a store for which reorders have been disabled.
 
 ![Fixed issue](../assets/fix.svg) <!--- MC-43115--> Quick Order search by SKU is now case-insensitive when shared catalog is enabled.
 
@@ -71,7 +71,7 @@ This extension release is fully compatible with Adobe Commerce 2.4.3.
 
 ![Fixed issue](../assets/fix.svg) <!--- MC-41542--> The Create New Company Account page country dropdown field no longer lists empty option values. Previously, the first two option values and the country code `AN` were empty.
 
-![Fixed issue](../assets/fix.svg) <!--- MC-41260--> Clicking the **Return** button for an order that was created by a company user now redirects an administrative user to the Create Return page as expected. Previously, the administrator was redirected to the Order History page.
+![Fixed issue](../assets/fix.svg) <!--- MC-41260--> Clicking the **[!UICONTROL Return]** button for an order that was created by a company user now redirects an administrative user to the Create Return page as expected. Previously, the administrator was redirected to the Order History page.
 
 ![Fixed issue](../assets/fix.svg) <!--- MC-40798--> Adobe Commerce no longer fails with an out-of-memory error when executing the `app/code/Magento/PurchaseOrder/Setup/Patch/Data/InitPermissions.php::apply` method during `bin/Adobe Commerce setup:upgrade`. Previously, Adobe Commerce did not use batch size for collection when initializing permissions, but instead loaded a collection of all company roles.
 
@@ -117,7 +117,7 @@ This extension release is fully compatible with Adobe Commerce 2.4.3.
 
 ### Purchase orders
 
-![Fixed issue](../assets/fix.svg) <!--- MC-39983--> Adobe Commerce now displays an informative error message as expected when you place a purchase order using PayPal Express Checkout when the **Name Prefix** attribute is set to **required**. Previously, Adobe Commerce did not place the order or display an error message.
+![Fixed issue](../assets/fix.svg) <!--- MC-39983--> Adobe Commerce now displays an informative error message as expected when you place a purchase order using PayPal Express Checkout when the **[!UICONTROL Name Prefix]** attribute is set to `required`. Previously, Adobe Commerce did not place the order or display an error message.
 
 ![Fixed issue](../assets/fix.svg) <!--- MC-39620--> The UI component for the billing address in the Purchase Order module now uses quote address correctly when Google Tag Manager is enabled. Previously, a JavaScript error occurred on the payment page.
 
@@ -125,11 +125,11 @@ This extension release is fully compatible with Adobe Commerce 2.4.3.
 
 ![Fixed issue](../assets/fix.svg) <!--- MC-40426--> Merchants can now use the POST `rest/all/V1/requisition_lists` endpoint to create a requisition list for a customer. Previously, Adobe Commerce threw this 400 error when you tried to create a requisition list: `Could not save Requisition List`.
 
-![Fixed issue](../assets/fix.svg) <!--- MC-41123--> The **Add to Requisition List** button now appears for a shopping cart’s in-stock products when the cart also contains out-of-stock products. Previously, if a cart contained two products, one of which was out-of-stock, the **Add to Requisition List** button did not appear for either products.
+![Fixed issue](../assets/fix.svg) <!--- MC-41123--> The **[!UICONTROL Add to Requisition List]** button now appears for a shopping cart’s in-stock products when the cart also contains out-of-stock products. Previously, if a cart contained two products, one of which was out-of-stock, the _[!UICONTROL Add to Requisition List]_ button did not appear for either products.
 
 ![Fixed issue](../assets/fix.svg) <!--- MC-40877--> You can now use the REST API to add a product to a requisition list.
 
-![Fixed issue](../assets/fix.svg) <!--- MC-40155--> Requisition list **Latest Activity Date** values now adhere to locale format.
+![Fixed issue](../assets/fix.svg) <!--- MC-40155--> Requisition list **[!UICONTROL Latest Activity Date]** values now adhere to locale format.
 
 ![Fixed issue](../assets/fix.svg) <!--- MC-39580--> Adobe Commerce no longer throws a fatal error when you edit a bundle product from a requisition list.
 
@@ -163,7 +163,7 @@ This extension release is fully compatible and supported with Adobe Commerce 2.4
 
 ![Fixed issue](../assets/fix.svg) Adobe Commerce now displays details about bundle products and gift card when you view purchase orders.
 
-![Fixed issue](../assets/fix.svg) Shoppers are now redirected as expected after logging into their account while browsing in a store where **Website Restriction** is enabled and **Restriction Mode** is set to **Private Sales: Login Only**. Previously, shoppers were redirected to the store home page. <!--- MC-38934-->
+![Fixed issue](../assets/fix.svg) Shoppers are now redirected as expected after logging into their account while browsing in a store where **[!UICONTROL Website Restriction]** is enabled and **[!UICONTROL Restriction Mode]** is set to `Private Sales: Login Only`. Previously, shoppers were redirected to the store home page. <!--- MC-38934-->
 
 ![Fixed issue](../assets/fix.svg) Order history now loads as expected in a company administrator's account dashboard page in deployments with a B2B company hierarchy that contains many customers (greater than 13000). Previously, order history loaded slowly or not at all, and Adobe Commerce displayed a 503 error. <!--- MC-38830-->
 
@@ -175,7 +175,7 @@ This extension release is fully compatible and supported with Adobe Commerce 2.4
 
 ![Fixed issue](../assets/fix.svg) Adobe Commerce now saves a grouped product to a requisition list as a list of simple products in the same way as it adds a grouped product to a shopping cart. Previously, due to how Adobe Commerce saved grouped products, the link for a grouped product from the requisition list always redirected to simple products and not to the grouped product. <!--- MC-38049-->
 
-![Fixed issue](../assets/fix.svg) You can now filter orders by the **Company Name** field when exporting order information in CSV format. Previously, Adobe Commerce logged an error in `var/export/{file-id}`. <!--- MC-37785-->
+![Fixed issue](../assets/fix.svg) You can now filter orders by the **[!UICONTROL Company Name]** field when exporting order information in CSV format. Previously, Adobe Commerce logged an error in `var/export/{file-id}`. <!--- MC-37785-->
 
 ![Fixed issue](../assets/fix.svg) Adobe Commerce now displays the Create Requisition List popup as expected when you select the Create New Requisition List tab on the storefront. <!--- MC-37915-->
 
@@ -185,9 +185,9 @@ This extension release is fully compatible and supported with Adobe Commerce 2.4
 
 ![Fixed issue](../assets/fix.svg) Ordering products by SKU using Quick Order no longer results in duplicate product quantities in the CSV file. <!--- MC-37427-->
 
-![Fixed issue](../assets/fix.svg) The **Add to Cart** button is no longer blocked when the Enter Multiple SKUs section of the Quick Order page contains an empty value. Instead, Adobe Commerce now displays a message prompting you to enter valid SKUs. <!--- MC-37387-->
+![Fixed issue](../assets/fix.svg) The **[!UICONTROL Add to Cart]** button is no longer blocked when the Enter Multiple SKUs section of the Quick Order page contains an empty value. Instead, Adobe Commerce now displays a message prompting you to enter valid SKUs. <!--- MC-37387-->
 
-![Fixed issue](../assets/fix.svg) Adobe Commerce now displays this message on the product page when you submit a product review from a requisition list: `You submitted your review for moderation`. The review also appears on the Pending Reviews page (Admin **Marketing** > **Pending Reviews**). Previously, although Adobe Commerce added the review to the list of pending reviews, it threw a 404 error on the product page. <!--- MC-37119-->
+![Fixed issue](../assets/fix.svg) Adobe Commerce now displays this message on the product page when you submit a product review from a requisition list: `You submitted your review for moderation`. The review also appears on the Pending Reviews page (Admin **[!UICONTROL Marketing]** > **[!UICONTROL Pending Reviews]**). Previously, although Adobe Commerce added the review to the list of pending reviews, it threw a 404 error on the product page. <!--- MC-37119-->
 
 ![Fixed issue](../assets/fix.svg) The performance of the `sharedCatalogUpdateCategoryPermissions` consumer has been improved. After creating a shared catalog, the catalog permission indexer now uses only the customer group ID from the shared catalog, not all customer groups. <!--- MC-36770-->
 
@@ -201,17 +201,17 @@ This extension release is fully compatible and supported with Adobe Commerce 2.4
 
 ![Fixed issue](../assets/fix.svg) The `credit_history` query now returns the specified company’s credit history for both the originally allocated amount and the purchased amount. Previously, this query returned an error.
 
-![Fixed issue](../assets/fix.svg) The **Company** and  **Job Title** fields on the Edit Account Information page are no longer editable.
+![Fixed issue](../assets/fix.svg) The **[!UICONTROL Company]** and  **[!UICONTROL Job Title]** fields on the Edit Account Information page are no longer editable.
 
 ### Known issues
 
-- B2B buyers can use online payment methods to bypass the usual purchase order flow. This scenario can occur if the buyer can reduce their entire checkout total to a 0 — for example, by a promo code or gift card —  and then remove the code or gift card. Even under those conditions, Adobe Commerce still places the order for the correct amount based on the prices of the items in their assigned catalog. **Workaround**: Disable gift cards and coupon codes when online payment methods are enabled for purchase order approval. <!--- B2B-1603-->
+- B2B buyers can use online payment methods to bypass the usual purchase order flow. This scenario can occur if the buyer can reduce their entire checkout total to a 0 — for example, by a promo code or gift card —  and then remove the code or gift card. Even under those conditions, Adobe Commerce still places the order for the correct amount based on the prices of the items in their assigned catalog. **_Workaround_**: Disable gift cards and coupon codes when online payment methods are enabled for purchase order approval. <!--- B2B-1603-->
 
-- Buyers are redirected to the shopping cart when trying to place an order from a purchase order using PayPal Express Checkout when **In-Context Mode** is disabled. <!--- B2B-1604-->
+- Buyers are redirected to the shopping cart when trying to place an order from a purchase order using PayPal Express Checkout when **[!UICONTROL In-Context Mode]** is disabled. <!--- B2B-1604-->
 
-- Adobe Commerce sometimes displays a 404 error when a buyer creates a purchase order and then navigates to the checkout page. This error occurs when a buyer has previously created a different purchase order with an online payment method before navigating to the checkout page without completing the previous purchase. The buyer can still place the purchase order. **Work around**: None. <!--- B2B-1605-->
+- Adobe Commerce sometimes displays a 404 error when a buyer creates a purchase order and then navigates to the checkout page. This error occurs when a buyer has previously created a different purchase order with an online payment method before navigating to the checkout page without completing the previous purchase. The buyer can still place the purchase order. **_Work around_**: None. <!--- B2B-1605-->
 
-- Discounts for a specific payment method persist during checkout for a purchase order even when the buyer changes their payment method during final checkout. As a result, customers may receive a discount that they are not entitled to. This occurs because a cart rule for the original payment method is still applied despite the change in payment method. **Work around**: None. See the [Adobe Commerce 2.4.2 B2B known issue: discount remains for online Purchase Orders after payment method is changed](https://support.magento.com/hc/en-us/articles/360054667312) Knowledge Base article. <!-- B2B-1012 -->
+- Discounts for a specific payment method persist during checkout for a purchase order even when the buyer changes their payment method during final checkout. As a result, customers may receive a discount that they are not entitled to. This occurs because a cart rule for the original payment method is still applied despite the change in payment method. **_Work around_**: None. See the [Adobe Commerce 2.4.2 B2B known issue: discount remains for online Purchase Orders after payment method is changed](https://support.magento.com/hc/en-us/articles/360054667312) Knowledge Base article. <!-- B2B-1012 -->
 
 - The `deleteRequisitionListOutput` query returns details about the deleted requisition list instead of the remaining requisition lists. <!--- MC-39894-->
 
@@ -241,15 +241,15 @@ This release includes improvements to order approvals, shipping methods, shoppin
 
 ![New](../assets/new.svg) Admin actions taken in the Company modules are now logged in the Admin Actions Log. Actions are logged from all relevant company modules: `Company`, `NegotiableQuote`, `CompanyCredit`, `SharedCatalog`.  <!--- BUNDLE-180 181 182 183 -->
 
-![Fixed issue](../assets/fix.svg) Adobe Commerce no longer displays the **Delete customer** button on the **Customers** page when the logged-in administrator does not have rights to delete customers in deployments where B2B is installed. <!--- MC-35655-->
+![Fixed issue](../assets/fix.svg) Adobe Commerce no longer displays the **[!UICONTROL Delete customer]** button on the **Customers** page when the logged-in administrator does not have rights to delete customers in deployments where B2B is installed. <!--- MC-35655-->
 
 ![Fixed issue](../assets/fix.svg) Customer group is no longer changed automatically for a customer who is assigned to a Company when you edit the customer on the Customer grid. <!--- MC-35254-->
 
-![Fixed issue](../assets/fix.svg) When a merchant creates a shared catalog, permissions are now automatically set to **Allow** for the **Display Product Prices** and **Add to Cart** features in categories when the customer group is assigned this access in catalog permission settings. Previously, these settings were automatically set to **Deny** even when catalog permissions were set to **Allow**.<!--- MC-34792-->
+![Fixed issue](../assets/fix.svg) When a merchant creates a shared catalog, permissions are now automatically set to `Allow` for the **[!UICONTROL Display Product Prices]** and **[!UICONTROL Add to Cart]** features in categories when the customer group is assigned this access in catalog permission settings. Previously, these settings were automatically set to `Deny` even when catalog permissions were set to `Allow`.<!--- MC-34792-->
 
 ![Fixed issue](../assets/fix.svg) Shared catalog category permissions are no longer overwritten when a product is edited from the product edit page.<!--- MC-34777-->
 
-![Fixed issue](../assets/fix.svg) Adobe Commerce now sends an email notification confirming that a customer has permission to exceed the designated credit limit when a merchant enables the **Allow To Exceed Credit Limit** setting. Previously, the notification email sent by Adobe Commerce indicated that the customer did not have permission to exceed the limit. <!--- MC-34584-->
+![Fixed issue](../assets/fix.svg) Adobe Commerce now sends an email notification confirming that a customer has permission to exceed the designated credit limit when a merchant enables the **[!UICONTROL Allow To Exceed Credit Limit]** setting. Previously, the notification email sent by Adobe Commerce indicated that the customer did not have permission to exceed the limit. <!--- MC-34584-->
 
 ![Fixed issue](../assets/fix.svg) The HTML container that surrounds product price on requisition lists is now rendered correctly for the children of bundled products. <!--- MC-36331-->
 
@@ -257,13 +257,13 @@ This release includes improvements to order approvals, shipping methods, shoppin
 
 ![Fixed issue](../assets/fix.svg) Custom customer address attributes fields are now displayed as expected in the storefront checkout workflow. <!--- MC-35607-->
 
-![Fixed issue](../assets/fix.svg) The B2B Features tab (Admin **Stores** > **Configuration** > **General** ) now opens correctly. <!--- MC-35458-->Guests can now use QuickOrder to add products to their cart and then successfully remove items. Previously, when a shopper used QuickOrder to add multiple products to their cart, and then removed a product, the product was not removed. <!--- MC-35327-->
+![Fixed issue](../assets/fix.svg) The B2B Features configuration tab now opens correctly. <!--- MC-35458-->Guests can now use QuickOrder to add products to their cart and then successfully remove items. Previously, when a shopper used QuickOrder to add multiple products to their cart, and then removed a product, the product was not removed. <!--- MC-35327-->
 
 ![Fixed issue](../assets/fix.svg) A company can now be updated using the REST API PUT `/V1/company/:companyId` request without specifying the `region_id` when state is configured as **not required**. Previously, even though `region_id` was not required, Adobe Commerce threw an error if it was not specified. <!--- MC-35304-->
 
 ![Fixed issue](../assets/fix.svg) When you create or update a B2B Company using the REST API (`http://magento.local/rest/V1/company/2`, where `2` represents the company ID), the response now includes the settings for `applicable_payment_method` or `available_payment_methods` as expected. <!--- MC-35248-->
 
-![Fixed issue](../assets/fix.svg) Adobe Commerce no longer displays a 404 page when a merchant uses the **Enter** button instead of clicking the **Save** button when creating a requisition list on the storefront.<!--- MC-35094-->
+![Fixed issue](../assets/fix.svg) Adobe Commerce no longer displays a 404 page when a merchant uses the **Enter** button instead of clicking the **[!UICONTROL Save]** button when creating a requisition list on the storefront.<!--- MC-35094-->
 
 ![Fixed issue](../assets/fix.svg) Category permissions no longer change when a new product is assigned to a public shared catalog. Previously, category permissions were duplicated. <!--- MC-34386-->
 
@@ -275,7 +275,7 @@ This release includes improvements to order approvals, shipping methods, shoppin
 
 ![Fixed issue](../assets/fix.svg) You can now successfully implement multishipping for orders that contain both physical and virtual products. <!--- MC-33818-->
 
-![Fixed issue](../assets/fix.svg) Merchants can now create company users from the _Company Users_ section in My Account and Company Structure pages when **Access Restriction** is enabled and **Restriction Mode** is set to **Sales: Login Only**. Previously, Adobe Commerce threw this error when a merchant tried to create a user: `Can not register new customer due to restrictions are enabled`. <!--- MC-33608-->
+![Fixed issue](../assets/fix.svg) Merchants can now create company users from the _[!UICONTROL Company Users]_ section in My Account and Company Structure pages when **[!UICONTROL Access Restriction]** is enabled and **[!UICONTROL Restriction Mode]** is set to `Sales: Login Only`. Previously, Adobe Commerce threw this error when a merchant tried to create a user: `Can not register new customer due to restrictions are enabled`. <!--- MC-33608-->
 
 ![Fixed issue](../assets/fix.svg) Adobe Commerce no longer resets a customer’s customer group to the default when a customer saves their account information. <!--- MC-33554-->
 
@@ -309,7 +309,7 @@ This extension release is fully compatible and supported with Adobe Commerce 2.4
 
 ![Fixed issue](../assets/fix.svg) Searching orders by special characters is now working properly.
 
-![Fixed issue](../assets/fix.svg) Clicking the **Clear All** Button now expands all the filters, rather than collapsing them.
+![Fixed issue](../assets/fix.svg) Clicking the **[!UICONTROL Clear All]** Button now expands all the filters, rather than collapsing them.
 
 ![Fixed issue](../assets/fix.svg) Product SKU/Name is now included in the Order History search filter summary.
 
@@ -355,6 +355,6 @@ This extension release is fully compatible and supported with Adobe Commerce 2.4
 
 ### Known issues
 
--  Adobe Commerce throws an exception during upgrade to B2B 1.2.0 in a multi-website deployment. When `setup:upgrade` runs, this error occurs on the `PurchaseOrder` module: `Module Magento_PurchaseOrder: Unable to apply data patch Magento\PurchaseOrder\Setup\Patch\Data\InitPurchaseOrderSalesSequence for moduleMagento_PurchaseOrder`. **Workaround**: Install the **B2B-716 Add NonTransactionableInterface interface to the InitPurchaseOrderSalesSequence data patch** hotfix, which is now available from the **My Account** > **Downloads** section of `magento.com`.
--  If a discount code expires before a Purchase Order (PO) is approved, the PO continues to display the discounted amount, but once the PO is approved, the order is placed at the non-discounted total. **Workaround**: Install the **B2B-709 Purchase Order Discount patch** hotfix for this issue, which is now available from the **My Account** > **Downloads** section of `magento.com`.
+-  Adobe Commerce throws an exception during upgrade to B2B 1.2.0 in a multi-website deployment. When `setup:upgrade` runs, this error occurs on the `PurchaseOrder` module: `Module Magento_PurchaseOrder: Unable to apply data patch Magento\PurchaseOrder\Setup\Patch\Data\InitPurchaseOrderSalesSequence for moduleMagento_PurchaseOrder`. **Workaround**: Install the `B2B-716 Add NonTransactionableInterface` interface to the `InitPurchaseOrderSalesSequence` data patch hotfix, which is now available from the **My Account** > **Downloads** section of `magento.com`.
+-  If a discount code expires before a Purchase Order (PO) is approved, the PO continues to display the discounted amount, but once the PO is approved, the order is placed at the non-discounted total. **Workaround**: Install the `B2B-709 Purchase Order Discount patch` hotfix for this issue, which is now available from the **My Account** > **Downloads** section of `magento.com`.
 -  If items in a purchase order are out of stock, or of insufficient quantity when the purchase order is converted into an actual order, an error occurs. If backorders are enabled, the order is processed normally.

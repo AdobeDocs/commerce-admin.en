@@ -20,61 +20,61 @@ The system has one predefined Default User role, which you can use _as is_ or mo
 
 1. The company administrator signs in to their store account.
 
-1. In the left panel, chooses **Roles and Permissions**.
+1. In the left panel, chooses **[!UICONTROL Roles and Permissions]**.
 
 1. Completes any of the following tasks.
 
 ### Create a role
 
-1. Click **Add New Role**.
+1. Clicks **[!UICONTROL Add New Role]**.
 
    ![Add New Role](./assets/company-roles-permissions-add-storefront.png)<!-- zoom -->
 
-1. Enter a descriptive **Role Name**.
+1. Enters a descriptive **[!UICONTROL Role Name]**.
 
-1. Under _Role Permissions_, do one of the following:
+1. Under _[!UICONTROL Role Permissions]_, does one of the following:
 
-   - Select the checkbox of each resource or activity that users assigned the role have permission to access.
+   - Selects the checkbox of each resource or activity that users assigned the role have permission to access.
 
-   - Select the **All** checkbox. Then, clear the checkbox of each resource or activity that users assigned to the role do not have permission to access.
+   - Selects the **[!UICONTROL All]** checkbox. Then, clears the checkbox of each resource or activity that users assigned to the role do not have permission to access.
 
-1. Click **Save Role**.
+1. Clicks **[!UICONTROL Save Role]**.
 
-1. Create as many roles as necessary by repeating these steps.
+1. Creates as many roles as necessary by repeating these steps.
 
 ### Modify a role
 
-1. For the role to be modified, click **Edit** in the _Actions_ column.
+1. For the role to be modified, the company administrator clicks **[!UICONTROL Edit]** in the _[!UICONTROL Actions]_ column.
 
-1. Make the necessary changes to the name and permission settings.
+1. Makes the necessary changes to the name and permission settings.
 
-1. When complete, click **Save Role**.
+1. When complete, clicks **[!UICONTROL Save Role]**.
 
 ### Duplicate a role
 
-1. For the role to be duplicated, click **Duplicate** in the _Actions_ column.
+1. For the role to be duplicated, the company administrator clicks **[!UICONTROL Duplicate]** in the _[!UICONTROL Actions]_ column.
 
-1. Make the necessary changes to the name and permission settings.
+1. Makes the necessary changes to the name and permission settings.
 
-1. When complete, click **Save Role**.
+1. When complete, clicks **[!UICONTROL Save Role]**.
 
 ### Delete a role
 
-1. Find the role to be deleted In the list of roles.
+1. The company administrator finds the role to be deleted In the list of roles.
 
    Only roles without assigned users can be deleted.
 
-1. Click **Delete** in the _Actions_ column.
+1. Clicks **[!UICONTROL Delete]** in the _[!UICONTROL Actions]_ column.
 
-1. When prompted to confirm, click **OK**.
+1. When prompted to confirm, clicks **[!UICONTROL OK]**.
 
 ## Actions
 
 | Action    | Description |
 |-----------| ----------- |
-| Duplicate | Creates a copy of the selected role. The name of the duplicate role has `- Duplicated` added to the end. |
-| Edit      | Change the name and/or set of permissions.                                                               |
-| Delete    | Delete the role. Only roles without assigned users can be deleted.                                       |
+| [!UICONTROL Duplicate] | Creates a copy of the selected role. The name of the duplicate role has `- Duplicated` added to the end. |
+| [!UICONTROL Edit]      | Change the name and/or set of permissions.                                                               |
+| [!UICONTROL Delete ]   | Delete the role. Only roles without assigned users can be deleted.                                       |
 
 {style="table-layout:auto"}
 
@@ -117,18 +117,18 @@ The system has one predefined Default User role, which you can use _as is_ or mo
 
 ## Assign a role to a company user
 
-After defining the roles that are needed, the store admin assigns a role to each company user.
+After defining the roles that are needed, the company administrator assigns a role to each company user.
 
-1. Log in to your company account as the company administrator.
+1. Logs in to their company account as the company administrator.
 
-1. In the left panel, choose **Company Users**.
+1. In the left panel, chooses **[!UICONTROL Company Users]**.
 
    ![Company Users](./assets/company-users-list-storefront.png)<!-- zoom -->
 
-1. Find the user in the list and click **Edit**.
+1. Finds the user in the list and clicks **[!UICONTROL Edit]**.
 
-1. Choose the appropriate **User Role** for the user.
+1. Chooses the appropriate **[!UICONTROL User Role]** for the user.
 
    ![Edit User - choose a user role](./assets/company-user-assign-role.png)<!-- zoom -->
 
-1. Click **Save**.
+1. Clicks **[!UICONTROL Save]**.

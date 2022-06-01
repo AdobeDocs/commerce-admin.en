@@ -17,7 +17,7 @@ You can set the following credit-related parameters for each company profile:
 
 If the company has an outstanding balance, a notice to the store administrator appears at the top of the sales order when it is viewed from the Admin. To learn more, see [Creating a Company Account](account-company-create.md).
 
-## Company Credit Activity
+## Company Credit activity
 
 The Company Credit section of the company profile displays a summary of the customer credit activity, with a grid of the company credit history.
 
@@ -34,7 +34,7 @@ The Company Credit section of the company profile displays a summary of the cust
 |Updated By|The name of the person who initiated the operation.|
 |Custom Reference Number|The custom reference number that is associated with the transaction.|
 |Comment|A compilation of the values from the `Reason for Change` field, according to operation type. <br/>**Purchased** - Includes comments from the purchase, and the order number and link to the order. <br/>**Reimbursed** - Includes comments from the reimbursed transaction.|
-|Action|For `Reimbursed` operations only. **Edit** - Allows the reimbursement amount to be updated.|
+|Action|For `Reimbursed` operations only. **[!UICONTROL Edit]** - Allows the reimbursement amount to be updated.|
 
 {style="table-layout:auto"}
 
@@ -52,7 +52,7 @@ When the customer makes the payment for their outstanding credit to the merchant
 
 1. Change the other values as needed.
 
-1. When updates are complete, click **Save**.
+1. When updates are complete, Click **[!UICONTROL Save]**.
 
 ## Receive Payments
 
@@ -62,9 +62,9 @@ A reimbursed balance is an offline payment that is made by a company toward the 
 
 ### Apply a payment to a company account
 
-1. On the _Admin_ sidebar, go to **Customers** > **Companies**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-1. Find the company record in the list and open in **Edit** mode.
+1. Find the company record in the list and open in **[!UICONTROL Edit]** mode.
 
 1. At the top of the page, click **Reimburse Balance**.
 
@@ -88,17 +88,17 @@ A reimbursed balance is an offline payment that is made by a company toward the 
 
 ### Edit a reimbursement
 
-1. Open the company profile in **Edit** mode.
+1. Open the company profile in **[!UICONTROL Edit]** mode.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Company Credit** section.
 
-1. Find the reimbursement transaction in the grid and click **Edit**.
+1. Find the reimbursement transaction in the grid and click **[!UICONTROL Edit]**.
 
 1. Make any changes necessary to **Custom Reference Number** and **Comment**.
 
    The reimbursement amount cannot be changed.
 
-1. Click **Save**.
+1. Click **[!UICONTROL Save]**.
 
 ## Storefront credit information
 

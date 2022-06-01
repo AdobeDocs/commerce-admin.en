@@ -67,7 +67,7 @@ description: "Learn how to install the [!DNL B2B for Adobe Commerce] metapackage
 
 >[!NOTE]
 >
->In Production mode, you may receive a message to `Please rerun Magento compile command`. Enter the commands. Commerce does not prompt you to run the compile command in Developer mode.
+>In Production mode, you may receive a message to `Please rerun Magento compile command`. Enter the commands. Adobe Commerce does not prompt you to run the compile command in Developer mode.
 
 >[!IMPORTANT]
 >
@@ -75,7 +75,7 @@ description: "Learn how to install the [!DNL B2B for Adobe Commerce] metapackage
 
 ## Start message consumers
 
-The [!DNL B2B for Adobe Commerce] extension uses MySQL for message queue management. If you want to enable the B2B **Shared Catalog** feature, you must start the corresponding message consumers after installation.
+The [!DNL B2B for Adobe Commerce] extension uses MySQL for message queue management. If you want to enable the B2B Shared Catalog feature, you must start the corresponding message consumers after installation.
 
 1. List the available message consumers:
 
@@ -130,4 +130,4 @@ Depending on your system configuration, to prevent possible issues, specify the 
 
 ## Enable B2B features in the Admin
 
-After installing the B2B for Adobe Commerce extension and starting message consumers (if you want to enable the **Shared Catalog** feature), you must also [enable B2B features in the Admin](enable-basic-features.md).
+After installing the B2B for Adobe Commerce extension and starting message consumers (if you want to enable the Shared Catalog feature), you must also [enable B2B features in the Admin](enable-basic-features.md).

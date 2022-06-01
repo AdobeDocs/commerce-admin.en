@@ -16,21 +16,21 @@ If quotes are enabled in the [Sales features configuration](configure-quotes.md)
 
 1. Adds the products that they want to be included in the quote to the shopping cart.
 
-1. Clicks **Request a Quote**.
+1. Clicks **[!UICONTROL Request a Quote]**.
 
    ![Requesting a quote from the shopping cart](./assets/quote-request-from-cart.png)<!-- zoom -->
 
-1. In the **Add your comment** box, enters a brief note that describes the request.
+1. In the **[!UICONTROL Add your comment]** box, enters a brief note that describes the request.
 
-1. Enters a **Quote Name**.
+1. Enters a **[!UICONTROL Quote Name]**.
 
    ![Entering the quote comments and name](./assets/quote-request-from-cart-name-comments.png)<!-- zoom -->
 
 1. If needed, attaches a supporting document or image to the quote:
 
-   - Clicks **Attach file**.
+   - Clicks **[!UICONTROL Attach file]**.
    - Chooses the file from their system.
 
    By default, an [attached file](configure-quotes.md) can be up to 2 MB, in any of the following file formats: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG or JPEG, PNG.
 
-1. Clicks **Send Request**.
+1. Clicks **[!UICONTROL Send Request]**.

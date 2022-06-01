@@ -29,7 +29,7 @@ A logged in customer that is associated with a company account can create a requ
 
    ![Create Requisition List](./assets/requisition-list-create.png)<!-- zoom -->
 
-1. When complete, clicks **Save**.
+1. When complete, clicks **[!UICONTROL Save]**.
 
 ## Create a requisition list from a product page
 
@@ -41,7 +41,7 @@ A logged in customer that is associated with a company account can create a requ
 
 1. Enters the **Requisition List Name** and **Description**.
 
-1. When complete, clicks **Save**.
+1. When complete, clicks **[!UICONTROL Save]**.
 
 ## Add products to a requisition list
 
@@ -106,7 +106,7 @@ When logged into their account, a customer can use either of the following metho
 
 1. In the sidebar of their account dashboard, chooses **My Requisition Lists**.
 
-1. In the list of requisition lists, clicks **View** in the _Actions_ column.
+1. In the list of requisition lists, clicks **[!UICONTROL View]** in the _Actions_ column.
 
 ### From any storefront page
 

@@ -22,7 +22,7 @@ For merchants, the full company structure is reflected in the _Companies_ and _C
 
 ![Companies Grid](./assets/companies-grid.png)<!-- zoom -->
 
-The following example shows the Customers grid with the initial company administrator account for the _XYZ Company_.
+The following example shows the [!UICONTROL Customers] grid with the initial company administrator account for the _XYZ Company_.
 
 ![Customers grid with company administrator account](./assets/company-admin-user-account.png)<!-- zoom -->
 
@@ -51,19 +51,19 @@ If the store is [configured](enable-basic-features.md) to allow companies to man
 
 1. The company administrator signs in to their account.
 
-1. In the left panel, chooses **Company Structure**.
+1. In the left panel, chooses **[!UICONTROL Company Structure]**.
 
-1. Under **Business Structure**, clicks **Add Team** and does the following:
+1. Under **[!UICONTROL Business Structure]**, clicks **[!UICONTROL Add Team]** and does the following:
 
    ![Company tree - Add Team](./assets/company-structure-tree-admin.png)<!-- zoom -->
 
-   - Enters the **Team Title** and **Description**.
+   - Enters the **[!UICONTROL Team Title]** and **[!UICONTROL Description]**.
 
       The Team Title can be anything that represents the structure of the company, such as a team, office, or division within the company
 
       ![Add team](./assets/company-structure-add-team.png)<!-- zoom -->
 
-   - When complete, clicks **Save**.
+   - When complete, clicks **[!UICONTROL Save]**.
 
    - Creates as many teams as need.
 
@@ -71,13 +71,13 @@ If the store is [configured](enable-basic-features.md) to allow companies to man
 
 1. To create a hierarchy of teams, does the following:
 
-   - Selects the parent team, and click **Add Team**.
+   - Selects the parent team, and click **[!UICONTROL Add Team]**.
 
       ![Company Structure with Divisions](./assets/company-structure-northwest-division.png)<!-- zoom -->
 
-   - Enters the **Team Title** and **Description**.
+   - Enters the **[!UICONTROL Team Title]** and **[!UICONTROL Description]**.
 
-   - Clicks **Save**.
+   - Clicks **[!UICONTROL Save]**.
 
 1. Repeats these steps to create as many teams, or divisions and subdivisions as needed.
 
@@ -99,15 +99,15 @@ As the company administrator works with the company structure, they can drag tea
 
 1. The company administrator selects the team to be deleted.
 
-1. Clicks **Delete Selected**.
+1. Clicks **[!UICONTROL Delete Selected]**.
 
-1. When prompted to confirm, clicks **Delete**.
+1. When prompted to confirm, clicks **[!UICONTROL Delete]**.
 
 ## Expand or collapse the team structure
 
 As the company administrator works with the company structure, they can collapse or expand the tree:
 
-- Clicks **Collapse All** or **Expand All**.
+- Clicks **[!UICONTROL Collapse All]** or **[!UICONTROL Expand All]**.
 
 - Clicks ![Expanded icon](../assets/icon-display-collapse.png) to collapse a team or ![Collapsed icon](../assets/icon-display-expand.png) to expand a team.
 
@@ -119,14 +119,14 @@ When teams and users are first added to the [company structure](account-company-
 
 |Control|Description|
 |--- |--- |
-|Collapse All / Expand All |Either collapses or expands the business structure tree|
-|Add User|Creates a user below the current team|
-|Add Team|Creates a team|
-|Edit Selected / Delete Selected|Edits or removes users from the business tree|
+|[!UICONTROL Collapse All / Expand All] |Either collapses or expands the business structure tree|
+|[!UICONTROL Add User]|Creates a user below the current team|
+|[!UICONTROL Add Team]|Creates a team|
+|[!UICONTROL Edit Selected / Delete Selected]|Edits or removes users from the business tree|
 
 {style="table-layout:auto"}
 
-1. In the left panel, the company administrator chooses **Company Structure**.
+1. In the left panel, the company administrator chooses **[!UICONTROL Company Structure]**.
 
 1. To assign a user to an existing team, they drag (![Move icon](../assets/icon-move.png)) the user under the appropriate team.
 

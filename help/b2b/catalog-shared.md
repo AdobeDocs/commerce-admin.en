@@ -20,7 +20,7 @@ The Shared Catalogs page provides access to the tools used for managing your sha
 
 ## Access the Shared Catalogs page
 
-On the _Admin_ sidebar, go to **Catalog** > **Shared Catalogs**.
+On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
 
 ## Actions controls
 
@@ -30,10 +30,10 @@ The [Actions controls](https://docs.magento.com/user-guide/stores/admin-actions-
 
 |Control|Description|
 |------|-----------|
-|[Set Pricing and Structure](catalog-shared-pricing-structure.md)|Determines the product selection and custom pricing that is available in the shared catalog.|
-|[Assign Companies](catalog-shared-assign-companies.md)|Determines which companies can access a shared catalog.|
-|[General Settings](catalog-shared-manage.md)|Determines the catalog detail information, including the name, catalog type, customer tax class, and description.|
-|Delete|Deletes the selected shared catalogs.|
+|[[!UICONTROL Set Pricing and Structure]](catalog-shared-pricing-structure.md)|Determines the product selection and custom pricing that is available in the shared catalog.|
+|[[!UICONTROL Assign Companies]](catalog-shared-assign-companies.md)|Determines which companies can access a shared catalog.|
+|[[!UICONTROL General Settings]](catalog-shared-manage.md)|Determines the catalog detail information, including the name, catalog type, customer tax class, and description.|
+|[!UICONTROL Delete]|Deletes the selected shared catalogs.|
 
 {style="table-layout:auto"}
 
@@ -41,13 +41,13 @@ The [Actions controls](https://docs.magento.com/user-guide/stores/admin-actions-
 
 |Heading|Description|
 |--- |--- |
-|Select|Selects shared catalog records for applying an action. The control in the header can be used to select all or deselect all shared catalog records in the grid. To select an individual shared catalog, select the checkbox.|
-|ID|A unique numeric identifier that is assigned in sequence when the catalog is created.|
-|Name|The name of the shared catalog. By default, the default (General) shared catalog is available.|
-|Type|Identifies the type of shared catalog as either: <br/>**Public** - The default public shared catalog is created automatically when Adobe Commerce is installed. It is initially assigned to the `General` and `Not Logged In` customer groups, and is visible to guests and individual logged-in customers who are not associated with a company. The system supports only one public shared catalog at a time. <br/>**Custom** - A custom shared catalog contains pricing that is visible only to logged-in associates of the assigned company accounts. You can create as many custom shared catalogs as you need.|
-|Customer Tax Class|The tax class that is assigned to the corresponding customer group. The Customer Tax Class column does not appear in the default grid, but can be added by changing the column layout.|
-|Created At|The date and time the shared catalog was created.|
-|Created By|The first and last name of the store administrator who created the shared catalog.|
-|Action|Lists actions that be applied to selected catalogs. Options: Set Pricing and Structure / Assign Companies / General Settings / Delete|
+|[!UICONTROL Select]|Selects shared catalog records for applying an action. The control in the header can be used to select all or deselect all shared catalog records in the grid. To select an individual shared catalog, select the checkbox.|
+|[!UICONTROL ID]|A unique numeric identifier that is assigned in sequence when the catalog is created.|
+|[!UICONTROL Name]|The name of the shared catalog. By default, the default (General) shared catalog is available.|
+|[!UICONTROL Type]|Identifies the type of shared catalog as either: <br/>**[!UICONTROL Public]** - The default public shared catalog is created automatically when Adobe Commerce is installed. It is initially assigned to the `General` and `Not Logged In` customer groups, and is visible to guests and individual logged-in customers who are not associated with a company. The system supports only one public shared catalog at a time. <br/>**[!UICONTROL Custom]** - A custom shared catalog contains pricing that is visible only to logged-in associates of the assigned company accounts. You can create as many custom shared catalogs as you need.|
+|[!UICONTROL Customer Tax Class]|The tax class that is assigned to the corresponding customer group. The Customer Tax Class column does not appear in the default grid, but can be added by changing the column layout.|
+|[!UICONTROL Created At]|The date and time the shared catalog was created.|
+|[!UICONTROL Created By]|The first and last name of the store administrator who created the shared catalog.|
+|[!UICONTROL Action]|Lists actions that be applied to selected catalogs. Options: Set Pricing and Structure / Assign Companies / General Settings / Delete|
 
 {style="table-layout:auto"}
