@@ -12,7 +12,7 @@ The primary reason to maintain a requisition list is to make it easy to reorder 
 
 1. From their account dashboard, the customer chooses **My Requisition Lists**.
 
-1. Find the requisition list that you want to open, and click **View** and do any of the following:
+1. Locates the requisition list that they want to open, and clicks **View** and do any of the following:
 
 ### Add products to cart
 

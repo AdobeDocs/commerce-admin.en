@@ -29,7 +29,7 @@ You can also use the [Actions control](account-company-manage.md) to approve mul
 
 1. When prompted to confirm, click **Change status**.
 
-   The company administrator receives notification that the company is now active.
+   The company administrator receives email notification that the company is now active.
 
 1. If applicable, set **Sales Representative** to a specific Admin user account.
 

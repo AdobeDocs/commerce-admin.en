@@ -52,7 +52,7 @@ The person who sets up a company account from the storefront is assigned a role 
 
    - Enters the **Email address** for the company administrator.
 
-      The email address for the company administrator can be the same as the company email address, or a different email address. If a different email address is entered, a company user account is created, in addition to the company administrator account.
+      The email address for the company administrator can be the same as the company email address or a different email address. If a different email address is entered, a company user account is created, in addition to the company administrator account.
 
    - Enters the **First Name** and **Last Name** of the company administrator.
 
@@ -67,7 +67,7 @@ The person who sets up a company account from the storefront is assigned a role 
 
 1. When complete, clicks **Submit**.
 
-   When the request to create a company account is approved by the merchant, an email notification is sent to the company administrator.
+   When the request to create a company account is approved by the merchant, email notification is sent to the company administrator.
 
    ![](./assets/company-admin-welcome-email.png)<!-- zoom -->
 
@@ -151,7 +151,7 @@ The process of creating a company from the Admin is essentially the same as from
    >
    >The customer group assignment determines which shared catalog is available to the company and its employees. By default, the company is assigned to the customer group that is set as the default in the configuration.
 
-   - You can change the **Customer Group** assignment for the Company and its employees to a group that has access to a different shared catalog, or to a standard customer group. You are prompted to confirm before the group is changed.
+   - You can change the **Customer Group** assignment for the Company and its employees to a group that has access to a different shared catalog or to a standard customer group. You are prompted to confirm before the group is changed.
 
       ![](./assets/company-advanced-settings-customer-group-admin.png)<!-- zoom -->
       _Changing the customer group_

@@ -115,7 +115,7 @@ This example specifies five items, but two distinct SKUs.
 
 ## Edit approval rules
 
-To modify an existing approval rule, a customer completes the following steps:
+To modify an existing approval rule, a customer can complete the following steps:
 
 1. In the sidebar of their account, selects **Approval Rules**.
 
@@ -127,7 +127,7 @@ To modify an existing approval rule, a customer completes the following steps:
 
 ## Delete approval rules
 
-To remove an existing approval rule, a customer completes the following steps:
+To remove an existing approval rule, a customer can complete the following steps:
 
 1. In the sidebar of their account, selects **Approval Rules**.
 

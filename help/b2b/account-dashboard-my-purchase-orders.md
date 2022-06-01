@@ -4,7 +4,7 @@ description: Learn about purchase orders and how companies can use them to manag
 ---
 # My Purchase Orders
 
-When Purchase Orders are [enabled for a company](purchase-order-flow.md), any order for a customer signed into a company user account is automatically created as a purchase order (PO). Company users with the required permissions can create, edit, and delete POs that they create, and the POs created by subordinate users.
+When Purchase Orders are [enabled for a company](purchase-order-flow.md), any order for a customer signed into a company user account is automatically created as a purchase order (PO). Company users with the required permissions can create, edit, and delete POs that they create, along with the POs created by subordinate users.
 
 ![My Purchase Orders](./assets/account-dashboard-my-purchase-orders.png)<!-- zoom -->
 
