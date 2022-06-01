@@ -4,7 +4,7 @@ description: Learn how company accounts allow for joining multiple buyers that b
 ---
 # Company Accounts
 
-When you incorporate B2B company accounts in your store, you can simplify the corporate shopping experience by enabling companies to create multiple subaccounts with flexible permissions based on user roles in their organization. Depending on the customer groups of the company, a store administrator can adjust promotions and prices to suit their needs, and create highly customized offers that cater to the shoppers’ demands and increase orders. Adding a company account association to a standard [individual](https://docs.magento.com/user-guide/customers/account-create.html) allows the customer to use the specific purchasing workflows defined for the company.
+When you incorporate B2B company accounts in your store, you can simplify the corporate shopping experience by enabling companies to create multiple subaccounts with flexible permissions based on user roles in their organization. Depending on the company, a store administrator can adjust promotions and prices to suit their needs, and create highly customized offers that cater to the shoppers’ demands and increase orders. Adding a company account association to a standard [individual](https://docs.magento.com/user-guide/customers/account-create.html) allows the customer to use the specific purchasing workflows defined for the company.
 
 Advantages of a company account:
 
