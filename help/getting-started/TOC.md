@@ -1,6 +1,6 @@
 ---
 user-guide-title: Adobe Commerce Getting Started Guide
-user-guide-description: If you are new to Adobe Commerce and Magento Open Source, discover resources of the Commerce ecosystem, follow the customer journey to explore your store, and learn about key features.
+user-guide-description: If you are new to Adobe Commerce and Magento Open Source, discover resources of the [!DNL Commerce] ecosystem, follow the customer journey to explore your store, and learn about key features.
 breadcrumb-title: Getting Started
 ---
 
@@ -9,11 +9,11 @@ breadcrumb-title: Getting Started
 - [Guide Overview](guide-overview.md)
 - [Release Information](about-this-release.md)
 - [Login Credentials and URLs](login-urls.md)
-- Commerce Accounts {#commerce-account}
+- [!DNL Commerce] Accounts {#commerce-account}
   - [Create and Access Your Account](commerce-account-create.md)
-  - [Secure Your Commerce Account](commerce-account-secure.md)
+  - [Secure Your [!DNL Commerce] Account](commerce-account-secure.md)
   - [Share Your Account](commerce-account-share.md)
-  - [Commerce Identity Manager](commerce-identity-manager.md)
+  - [[!DNL Commerce Identity Manager]](commerce-identity-manager.md)
 - The Admin {#admin}
   - [What is the Admin?](admin.md)
   - [Your Admin Account](admin-signin.md)
@@ -55,4 +55,4 @@ breadcrumb-title: Getting Started
 - Resources {#resources}
   - [Ecosystem](resources.md)
   - [Extensions](extensions.md)
-  - [Commerce Marketplace](commerce-marketplace.md)
+  - [[!DNL Commerce Marketplace]](commerce-marketplace.md)

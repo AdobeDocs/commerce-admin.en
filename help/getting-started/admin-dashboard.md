@@ -16,21 +16,21 @@ If you have a significant amount of data to process, the chart can be turned off
 
 ## Configure the dashboard
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration** and complete any of the following settings.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]** and complete any of the following settings.
 
-1. When the configuration is complete, click **Save Config**.
+1. When the configuration is complete, click **[!UICONTROL Save Config]**.
 
-1. After saving the changes, click **Cache Management** and refresh every invalid cache.
+1. After saving the changes, click **[!UICONTROL Cache Management]** and refresh every invalid cache.
 
 ### Enable charts
 
 If you have a large amount of data to process, you can turn off the display of the chart to improve performance. When not enabled, the message "No Data Found" appears in place of the chart, although the summary totals below are still generated.
 
-1. In the left side panel under **Advanced**, choose **Admin**.
+1. In the left side panel under **[!UICONTROL Advanced]**, choose **[!UICONTROL Admin]**.
 
-1. If necessary, expand the **Dashboard** section.
+1. If necessary, expand the **[!UICONTROL Dashboard]** section.
 
-1. To change the default value, clear the **Use system value** checkbox.
+1. To change the default value, clear the **[!UICONTROL Use system value]** checkbox.
 
 1. Set **Enable Charts** to `Yes`.
 
@@ -44,15 +44,15 @@ The dashboard is the default [startup page](https://docs.magento.com/user-guide/
 
 1. Continuing in the Advanced > Admin section, click to expand the **Startup Page** section.
 
-1. Clear the **Use system value** checkbox and choose the **Startup Page** that you want to appear when you log in to the Admin.
+1. Clear the **[!UICONTROL Use system value]** checkbox and choose the **Startup Page** that you want to appear when you log in to the Admin.
 
    ![Admin dashboard - startup page setting](./assets/admin-startup-page.png)<!-- zoom -->
 
 ### Choose the starting dates
 
-1. In the left side panel under **General**, choose **Reports**.
+1. In the left side panel under **[!UICONTROL General]**, choose **Reports**.
 
-1. In the **Dashboard** section, clear the **Use system value** check boxes for the date settings and do the following:
+1. In the **[!UICONTROL Dashboard]** section, clear the **[!UICONTROL Use system value]** check boxes for the date settings and do the following:
 
    - Set **Year-To-Date Starts** to the **Month** and **Day**.
 
@@ -68,7 +68,7 @@ The dashboard chart can be generated in real time or by using historical, aggreg
 
 1. In the left side panel, click to expand **Sales** and choose **Sales**.
 
-1. In the **Dashboard** section, clear the **Use system value** checkbox and set **Use Aggregated Data** to one of the following:
+1. In the **[!UICONTROL Dashboard]** section, clear the **[!UICONTROL Use system value]** checkbox and set **[!UICONTROL Use Aggregated Data]** to one of the following:
 
    - For historical, aggregated data, choose `Yes`.
    - For real-time data, choose `No`.
@@ -79,10 +79,10 @@ The dashboard chart can be generated in real time or by using historical, aggreg
 
 |Section|Description|
 |--- |--- |
-|Orders|The Orders tab displays a real-time chart of all completed orders for the current store view and specified time period.|
-|Amounts|The Amounts tab displays a real-time chart of all completed order amounts for the current store view and specified time period.|
-|Time Range|Determines the data that is represented in the chart and summary totals below. Options: Last 7 Days / Current Month / YTD / 2YTD|
-|Summary Totals|The revenue, tax, shipping, and quantity totals below the chart are based on the chart data and current time range setting.|
+|[!UICONTROL Orders]|This tab displays a real-time chart of all completed orders for the current store view and specified time period.|
+|[!UICONTROL Amounts]|This tab displays a real-time chart of all completed order amounts for the current store view and specified time period.|
+|[!UICONTROL Time Range]|Determines the data that is represented in the chart and summary totals below. Options: `Last 7 Days` / `Current Month` / `YTD` / `2YTD`|
+|[!UICONTROL Summary Totals]|The revenue, tax, shipping, and quantity totals below the chart are based on the chart data and current time range setting.|
 
 {style="table-layout:auto"}
 
@@ -90,11 +90,11 @@ The dashboard chart can be generated in real time or by using historical, aggreg
 
 |Section|Description|
 |--- |--- |
-|Lifetime Sales|The aggregated total sales during the lifetime of the store.|
-|Average Order|The average order amount during the lifetime of the store.|
-|Last Orders| A summary of the last five placed orders.|
-|Last Search Terms|The last five search terms.|
-|Top Search Terms|The five most commonly used search terms.|
+|[!UICONTROL Lifetime Sales]|The aggregated total sales during the lifetime of the store.|
+|[!UICONTROL Average Order]|The average order amount during the lifetime of the store.|
+|[!UICONTROL Last Orders]| A summary of the last five placed orders.|
+|[!UICONTROL Last Search Terms]|The last five search terms.|
+|[!UICONTROL Top Search Terms]|The five most commonly used search terms.|
 
 {style="table-layout:auto"}
 
@@ -102,10 +102,10 @@ The dashboard chart can be generated in real time or by using historical, aggreg
 
 |Section|Description|
 |--- |--- |
-|Bestsellers|The five best-selling products during the specified time period.|
-|Most Viewed Products|The five products viewed the most during the specified time period.|
-|New Customers|The most recent five customers who registered for an account during the specified time period.|
-|Customers|The last five customers with an order that completed processing during the specified time period.|
+|[!UICONTROL Bestsellers]|The five best-selling products during the specified time period.|
+|[!UICONTROL Most Viewed Products]|The five products viewed the most during the specified time period.|
+|[!UICONTROL New Customers]|The most recent five customers who registered for an account during the specified time period.|
+|[!UICONTROL Customers]|The last five customers with an order that completed processing during the specified time period.|
 
 {style="table-layout:auto"}
 
@@ -113,7 +113,7 @@ The dashboard chart can be generated in real time or by using historical, aggreg
 
 |Button|Description|
 |--- |--- |
-|**Reload Data**|Refreshes dashboard data.|
-|**Go to Advanced Reporting**|Displays a personalized dashboard of dynamic charts and reports based on your product, order, and customer data. For more extensive analysis, see [Advanced Reporting](business-intelligence.md#advanced-reporting).|
+|[!UICONTROL Reload Data]|Refreshes dashboard data.|
+|[!UICONTROL Go to Advanced Reporting]|Displays a personalized dashboard of dynamic charts and reports based on your product, order, and customer data. For more extensive analysis, see [Advanced Reporting](business-intelligence.md#advanced-reporting).|
 
 {style="table-layout:auto"}

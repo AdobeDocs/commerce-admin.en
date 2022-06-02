@@ -4,7 +4,7 @@ description: Learn about the Commerce URLs and account credentials used to gain 
 ---
 # Login Credentials and URLs
 
-Before you proceed with setup and configuration, make sure that you have the information that is required to access the Admin of your store and your Commerce account.
+Before you proceed with setup and configuration, make sure that you have the information that is required to access the Admin of your store and your [!DNL Commerce] account.
 
 ## Storefront URL
 
@@ -23,14 +23,14 @@ The address for your store [Admin](admin.md) is set up during the installation. 
 - `http://mydomain.com/admin`
 - `http://www.mydomain.com/admin`
 
-## Commerce account
+## [!DNL Commerce] account
 
-Your [Commerce account](commerce-account-create.md) provides access to information about your products and services, account settings, billing history, and support resources. To access your account, go to the main Commerce site and click **My Account** in the upper-right corner.
+Your [[!DNL Commerce] account](commerce-account-create.md) provides access to information about your products and services, account settings, billing history, and support resources. To access your account, go to the main Commerce site and click **[!UICONTROL My Account]** in the upper-right corner.
 
 ## Customer account
 
 While you are learning your way around the store, make sure to set up a test [customer account](https://docs.magento.com/user-guide/customers/customer-account.html), so you can experience the store and checkout process from the customer’s perspective.
 
-## Sample Data
+## Sample data
 
 Adobe provides a sample data set that includes a sample store with more than 250 products (about 200 of them are configurable products), categories, promotional price rules, CMS pages, banners, and so on. Sample data uses the _Luma_ theme on the storefront. [Installing this sample data](https://devdocs.magento.com/guides/v2.4/install-gde/install/sample-data-after-magento.html) is optional, but can be helpful for testing and developing customizations for your eCommerce business.

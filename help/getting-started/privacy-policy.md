@@ -24,11 +24,11 @@ Any representation of information that permits the identity of an individual to 
 >
 >The Luma sample data includes a sample privacy policy that you can modify for your use.
 
-1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Pages**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Elements]_ > **[!UICONTROL Pages]**.
 
-1. In the grid, find **Privacy Policy**. Then, in the _Action_ column, click **Select** and choose **Edit**.
+1. In the grid, find **[!UICONTROL Privacy Policy]**. Then, in the _[!UICONTROL Action]_ column, click **[!UICONTROL Select]** and choose **[!UICONTROL Edit]**.
 
-1. Expand the **Content** section and make the necessary changes to the content.
+1. Expand the **[!UICONTROL Content]** section and make the necessary changes to the content.
 
    To learn more, see [Using the Editor](https://docs.magento.com/user-guide/cms/editor.html).
 
@@ -38,4 +38,4 @@ Any representation of information that permits the identity of an individual to 
    >
    >If you change the URL key of the privacy policy page, you must also create a [custom URL rewrite](https://docs.magento.com/user-guide/marketing/url-rewrite-cms-page.html) to redirect traffic to the new URL key. Otherwise, the link in the footer returns `404 Page Not Found`.
 
-1. When complete, click **Save Page**.
+1. When complete, click **[!UICONTROL Save Page]**.

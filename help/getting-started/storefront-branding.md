@@ -36,33 +36,33 @@ Supported logo file formats:
 
 {style="table-layout:auto"}
 
-1. On the _Admin_ sidebar, go to **Content** > _Design_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Design]_ > **[!UICONTROL Configuration]**.
 
    ![Design Configuration page](./assets/design-configuration.png)<!-- zoom -->
 
-1. Find the store view that you want to configure and click **Edit** in the _Action_ column.
+1. Find the store view that you want to configure and click **[!UICONTROL Edit]** in the _Action_ column.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Header** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Header]** section.
 
    ![Header settings](./assets/configuration-header.png)<!-- zoom -->
 
-1. To upload a new logo, click **Upload** and choose the file from your system.
+1. To upload a new logo, click **[!UICONTROL Upload]** and choose the file from your system.
 
-1. Enter the **Logo Image Width** and **Logo Image Height** in pixels.
+1. Enter the **[!UICONTROL Logo Image Width]** and **[!UICONTROL Logo Image Height]** in pixels.
 
-1. For **Logo Image Alt**, enter the text that you want to appear when someone hovers over the image.
+1. For **[!UICONTROL Logo Image Alt]**, enter the text that you want to appear when someone hovers over the image.
 
-1. When complete, click **Save Configuration**.
+1. When complete, click **[!UICONTROL Save Configuration]**.
 
 ## Add a Favicon
 
 _Favicon_ is short for _favorite icon_ and refers to the little icon on the tab of each browser page. Depending on the browser, the favicon also appears in address bar, just before the URL.
 
-A favicon is generally 16 x 16 pixels or 32 x 32 pixels in size. Commerce accepts ICO, PNG, APNG, GIF, and JPG (JPEG) file types, although not all browsers support these formats. The most widely supported file format to use for a favicon is ICO. You can use other image file types, but the format might not be supported by all browsers. There are many free tools available online that you can use to generate an ICO image or convert an image to that format.
+A favicon is generally 16 x 16 pixels or 32 x 32 pixels in size. [!DNL Commerce] accepts ICO, PNG, APNG, GIF, and JPG (JPEG) file types, although not all browsers support these formats. The most widely supported file format to use for a favicon is ICO. You can use other image file types, but the format might not be supported by all browsers. There are many free tools available online that you can use to generate an ICO image or convert an image to that format.
 
 ![Favicon in the browser tab](./assets/storefront-favicon.png)<!-- zoom -->
 
-Commerce supports the following file formats as the favicon:
+[!DNL Commerce] supports the following file formats as the favicon:
 
 |File format|Description|
 |--- |--- |
@@ -82,29 +82,29 @@ Commerce supports the following file formats as the favicon:
 
 ### Step 2: Upload the favicon to your store
 
-1. On the _Admin_ sidebar, go to **Content** > _Design_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Design]_ > **[!UICONTROL Configuration]**.
 
-1. In the grid, find the store view that you want to configure and click **Edit** in the _Action_ column.
+1. In the grid, find the store view that you want to configure and click **[!UICONTROL Edit]** in the _[!UICONTROL Action]_ column.
 
-1. Under _Other Settings_, expand ![Expansion selector](../assets/icon-display-expand.png) the **HTML Head** section.
+1. Under _[!UICONTROL Other Settings]_, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL HTML Head]** section.
 
    ![HTML Head settings](./assets/configuration-html-head.png)<!-- zoom -->
 
 1. If you want to remove the current favicon, click the _Delete_ (![Trash can icon](../assets/icon-delete-trashcan.png)) icon in the lower-left corner of the image.
 
-1. Click **Upload** and open the favicon file that you prepared.
+1. Click **[!UICONTROL Upload]** and open the favicon file that you prepared.
 
    ![Uploaded favicon](./assets/favicon-upload.png)<!-- zoom -->
 
-1. When complete, click **Save Configuration**.
+1. When complete, click **[!UICONTROL Save Configuration]**.
 
 ### Step 3: Refresh the cache
 
-1. When prompted to refresh the cache, click the **Cache Management** link in the message at the top of the workspace.
+1. When prompted to refresh the cache, click the **[!UICONTROL Cache Management]** link in the message at the top of the workspace.
 
-1. In the list, select the **Page Cache** checkbox that is marked `Invalidated`.
+1. In the list, select the **[!UICONTROL Page Cache]** checkbox that is marked `Invalidated`.
 
-1. Set **Actions** to `Refresh` and click **Submit**.
+1. Set **[!UICONTROL Actions]** to `Refresh` and click **[!UICONTROL Submit]**.
 
 1. To view the new favicon, return to your storefront and refresh the browser.
 
@@ -114,19 +114,19 @@ The welcome message in the header expands to include the name of the customer wh
 
 ![Welcome message](./assets/storefront-welcome-message.png)<!-- zoom -->
 
-1. On the _Admin_ sidebar, go to **Content** > _Design_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Design]_ > **[!UICONTROL Configuration]**.
 
-1. In the grid, find the store view that you want to configure and click **Edit** in the _Action_ column.
+1. In the grid, find the store view that you want to configure and click **[!UICONTROL Edit]** in the _[!UICONTROL Action]_ column.
 
-1. Under _Other Settings_, expand ![Expansion selector](../assets/icon-display-expand.png) the **Header** section.
+1. Under _[!UICONTROL Other Settings]_, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Header]** section.
 
-1. For **Welcome Text**, enter the welcome message text that you want to appear in the header of your store.
+1. For **[!UICONTROL Welcome Text]**, enter the welcome message text that you want to appear in the header of your store.
 
    ![Header settings](./assets/configuration-header.png)<!-- zoom -->
 
-1. When complete, click **Save Configuration**.
+1. When complete, click **[!UICONTROL Save Configuration]**.
 
-1. When prompted to update the Page Cache, click the **Cache Management** link at the top of the workspace and follow the instructions to refresh the cache.
+1. When prompted to update the Page Cache, click the **[!UICONTROL Cache Management]** link at the top of the workspace and follow the instructions to refresh the cache.
 
 ## Change the copyright notice
 
@@ -146,15 +146,15 @@ The `&copy;` character code is used to insert the copyright symbol, as shown in 
 
 To update the copyright notice:
 
-1. On the _Admin_ sidebar, go to **Content** > _Design_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Design]_ > **[!UICONTROL Configuration]**.
 
-1. In the grid, find the store view that you want to configure and click **Edit** in the _Action_ column.
+1. In the grid, find the store view that you want to configure and click **[!UICONTROL Edit]** in the _[!UICONTROL Action]_ column.
 
-1. Under _Other Settings_, expand ![Expansion selector](../assets/icon-display-expand.png)the **Footer** section.
+1. Under _Other Settings_, expand ![Expansion selector](../assets/icon-display-expand.png)the **[!UICONTROL Footer]** section.
 
    ![Footer design settings](./assets/configuration-footer.png)<!-- zoom -->
 
-1. For **Copyright**, enter the copyright notice that you want to appear in the footer of each page.
+1. For **[!UICONTROL Copyright]**, enter the copyright notice that you want to appear in the footer of each page.
 
    Use the `&copy;` character code to insert a copyright symbol.
 
@@ -166,16 +166,16 @@ If your store is online, but still under construction, you can display a store d
 
 ![Storefront demo notice](./assets/storefront-demo-notice.png)<!-- zoom -->
 
-1. On the _Admin_ sidebar, go to **Content** > _Design_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Design]_ > **[!UICONTROL Configuration]**.
 
-1. In the grid, find the store view that you want to configure and click **Edit** in the _Action_ column.
+1. In the grid, find the store view that you want to configure and click **[!UICONTROL Edit]** in the _[!UICONTROL Action]_ column.
 
-1. Under _Other Settings_, expand ![Expansion selector](../assets/icon-display-expand.png) the **HTML Head** section.
+1. Under _[!UICONTROL Other Settings]_, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL HTML Head]** section.
 
    ![HTML Head](./assets/configuration-html-head.png)<!-- zoom -->
 
-1. Scroll down to the bottom and set the **Display Demo Store Notice** to your preference.
+1. Scroll down to the bottom and set the **[!UICONTROL Display Demo Store Notice]** to your preference.
 
-1. When complete, click **Save Configuration**.
+1. When complete, click **[!UICONTROL Save Configuration]**.
 
-1. If you are prompted to update the cache, click **Cache Management** in the system message and follow the instructions to refresh the cache.
+1. If you are prompted to update the cache, click **[!UICONTROL Cache Management]** in the system message and follow the instructions to refresh the cache.

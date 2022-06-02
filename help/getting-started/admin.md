@@ -1,6 +1,6 @@
 ---
 title: What is the Admin?
-description: Learn about the Commerce Admin, the place where merchants set up products and promotions, manage orders, and perform other administrative tasks.
+description: "Learn about the [!DNL Commerce] Admin, the place where merchants set up products and promotions, manage orders, and perform other administrative tasks."
 ---
 # What is the Admin?
 

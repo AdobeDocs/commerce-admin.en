@@ -16,7 +16,7 @@ The selection of available actions varies by list, and additional options might 
 
 The checkbox in the first column of the list identifies each record that is a target for the action. The [filter controls](admin-grid-controls.md) can be used to narrow the list to the records you want to target for the action.
 
-1. Select the checkbox of each record that is a target for the action. Or, use one of the following **Actions** to select a group of records:
+1. Select the checkbox of each record that is a target for the action. Or, use one of the following **[!UICONTROL Actions]** to select a group of records:
 
    - Select or deselect  `All`
    - Select or deselect `All on This Page`
@@ -25,31 +25,31 @@ The checkbox in the first column of the list identifies each record that is a ta
 
 ## Step 2: Apply an action to selected records
 
-1. Set the **Actions** control to the operation that you want to apply.
+1. Set the **[!UICONTROL Actions]** control to the operation that you want to apply.
 
    **Example:** Update Attributes
 
    - In the list, select the checkbox of each record to be updated.
 
-   - Set the **Actions** control to `Update Attributes` and click **Submit**.
+   - Set the **Actions** control to `Update Attributes` and click **[!UICONTROL Submit]**.
 
       The Update Attributes page lists all the available attributes, organized by group in the panel on the left.
 
       ![Update Attributes page](./assets/action-update-attributes.png)<!-- zoom -->
 
-   - Select the **Change** checkbox next to each attribute and make the necessary changes.
+   - Select the **[!UICONTROL Change]** checkbox next to each attribute and make the necessary changes.
 
-   - Click **Save** to update the attributes for the group of selected records.
+   - Click **[!UICONTROL Save]** to update the attributes for the group of selected records.
 
-1. When complete, click **Submit**.
+1. When complete, click **[!UICONTROL Submit]**.
 
 ## Actions
 
 |Action|Description|
 |--- |--- |
-|Select All|Marks the checkbox of all records in the list.|
-|Unselect All|Clears the checkbox of all records in the list.|
-|Select All on This Page|Marks the checkbox of records on the current page.|
-|Deselect All on This Page|Clears the checkbox of  records on the current page.|
+|[!UICONTROL Select All]|Marks the checkbox of all records in the list.|
+|[!UICONTROL Unselect All]|Clears the checkbox of all records in the list.|
+|[!UICONTROL Select All on This Page]|Marks the checkbox of records on the current page.|
+|[!UICONTROL Deselect All on This Page]|Clears the checkbox of records on the current page.|
 
 {style="table-layout:auto"}

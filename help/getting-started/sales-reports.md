@@ -1,6 +1,6 @@
 ---
 title: Sales Reports
-description: The Commerce sales reports help you to track orders, taxes, invoices, shipping, refunds, coupons, and PayPal settlement.
+description: "The [!DNL Commerce] sales reports help you to track orders, taxes, invoices, shipping, refunds, coupons, and PayPal settlement."
 ---
 # Sales Reports
 
@@ -58,11 +58,11 @@ The [Braintree](https://docs.magento.com/user-guide/payment/braintree.html) Sett
 
 ### Step 1: Refresh the report statistics
 
-1. On the _Admin_ sidebar, go to **Reports**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Reports]**.
 
 1. Choose the reports to refresh.
 
-1. To update statistics, click **here** in the text.
+1. To update statistics, click **[!UICONTROL here]** in the text.
 
 ### Step 2: Filter reports
 
@@ -70,33 +70,33 @@ In the Admin, you can access can generate a report for a whole website or for on
 
 | Option | Description |
 |--- |--- |
-|Date Used|Sets the data to be used for the report.|
-|Period|The period for which the data is used: Day/Month/Year.|
-|From/To|Used to define search data by start and end date.|
-|Order Status|Indicates the order status|
-|Empty Rows|Indicates whether to add blank rows to the report.|
+|[!UICONTROL Date Used]|Sets the data to be used for the report.|
+|[!UICONTROL Period]|The period for which the data is used: Day/Month/Year.|
+|[!UICONTROL From/To]|Used to define search data by start and end date.|
+|[!UICONTROL Order Status]|Indicates the order status|
+|[!UICONTROL Empty Rows]|Indicates whether to add blank rows to the report.|
 
 ### Step 3: Show and export reports
 
-1. To generate the report, click **Show Report**.
+1. To generate the report, click **[!UICONTROL Show Report]**.
 
 1. To export the report, select the file type: `Excel XML` or `CSV`
 
-1. Click **Export**.
+1. Click **[!UICONTROL Export]**.
 
 ## Refresh Statistics
 
-To reduce the performance impact of generating sales reports, Commerce calculates and stores the required statistics for each report. Rather than recalculate the statistics every time a report is generated, the stored statistics are used, unless you refresh the statistics. To include the most recent data, the report statistics must be refreshed before a sales report is generated.
+To reduce the performance impact of generating sales reports, [!DNL Commerce] calculates and stores the required statistics for each report. Rather than recalculate the statistics every time a report is generated, the stored statistics are used, unless you refresh the statistics. To include the most recent data, the report statistics must be refreshed before a sales report is generated.
 
 ![Refresh Statistics](./assets/refresh-stats.png)<!-- zoom -->
 
-1. On the _Admin_ sidebar, go to **Reports** > _Statistics_ > **Refresh Statistics**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Reports]** > _[!UICONTROL Statistics]_ > **[!UICONTROL Refresh Statistics]**.
 
 1. In the list, select the checkbox for each report to be refreshed.
 
-1. Set the **Actions** control to one of the following:
+1. Set the **[!UICONTROL Actions]** control to one of the following:
 
    - `Refresh Lifetime Statistics`
    - `Refresh Statistics for the Last Day`
 
-1. Click **Submit**.
+1. Click **[!UICONTROL Submit]**.

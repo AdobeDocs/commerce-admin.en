@@ -57,7 +57,7 @@ Businesses that comply with GDPR might have additional obligations under the CCP
 
 ### Compliance roadmap
 
-A coordinated effort is required to develop and implement a plan to address compliance. Use this roadmap as a guide to mobilize resources and prioritize tasks so you can move ahead on multiple fronts. The process is essentially the same for all Commerce installations, with the following exception:
+A coordinated effort is required to develop and implement a plan to address compliance. Use this roadmap as a guide to mobilize resources and prioritize tasks so you can move ahead on multiple fronts. The process is essentially the same for all [!DNL Commerce] installations, with the following exception:
 
 - **Adobe Commerce on cloud infrastructure**: Merchants with stores hosted on Adobe [cloud infrastructure][4]{:target="_blank"} can ask their Adobe Commerce Technical Account Manager or Customer Support for help with responding to consumer requests.
 
@@ -82,13 +82,13 @@ From a business perspective, you must determine if your company extends these pr
 
 Take inventory of your digital properties, including all integrations and who has access to your consumer data.
 
-1. Determine what public and private personal information is collected through your websites and mobile applications. For example, a standard Commerce database stores the following types of public and private personal information:
+1. Determine what public and private personal information is collected through your websites and mobile applications. For example, a standard [!DNL Commerce] database stores the following types of public and private personal information:
 
    - **Public**: Wish Lists, Product Reviews
 
    - **Private**: Customer Information, Order Information, Reward Points, Gift Registry, Address Book, Store Credit, Payment Methods, Billing Agreements, Newsletter Subscriptions, Invitations.
 
-      If your Commerce installation has been customized, additional personal information might be collected. Personal information might also reside in [cookies](https://docs.magento.com/user-guide/stores/cookie-reference.html), tags, and other technologies that collect information.
+      If your [!DNL Commerce] installation has been customized, additional personal information might be collected. Personal information might also reside in [cookies](https://docs.magento.com/user-guide/stores/cookie-reference.html), tags, and other technologies that collect information.
 
 1. Identify the parties with whom you share data. The list should include service providers and third parties such as advertising networks, internet service providers, data analytics providers, government entities, operating systems and platforms, social networks, and consumer data resellers who do not directly collect personal information from your consumers.
 
@@ -122,7 +122,7 @@ From a data management perspective, each request for personal information involv
 
 - **Data Subjects** (Consumers): Under CCPA, any person in California who provides personal information to make a purchase and/or to maintain a customer account might submit a request to access or delete their personal data.
 
-- **Entities acting as Businesses within the scope of CCPA** (Brands): Commerce merchants collect and store personal information from their customers and guests who make purchases in their stores.
+- **Entities acting as Businesses within the scope of CCPA** (Brands): [!DNL Commerce] merchants collect and store personal information from their customers and guests who make purchases in their stores.
 
 - **Data Processor** (Technology Vendors): Adobe Commerce and Magento Open Source act as processors of the personal data that is stored as part the services provided to merchants. As a processor, Adobe processes personal data in accordance with the merchant's permission and instructions, according to the license agreement.
 
@@ -196,7 +196,7 @@ Review your current privacy policy and consider what, if any, additional disclos
 
    >[!IMPORTANT]
    >
-   >Merchants are prohibited from storing the personal data of children on Commerce platform or systems. If there is reason to believe that collected data belongs to a minor, it must be removed from a Commerce platform immediately to avoid breach of Adobe license terms.
+   >Merchants are prohibited from storing the personal data of children on [!DNL Commerce] platform or systems. If there is reason to believe that collected data belongs to a minor, it must be removed from a [!DNL Commerce] platform immediately to avoid breach of Adobe license terms.
 
 #### Step 8: Document all related procedures and maintain records
 

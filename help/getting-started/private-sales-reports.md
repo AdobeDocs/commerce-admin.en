@@ -8,7 +8,7 @@ Available only in Adobe Commerce, the Private Sales reports provide information 
 
 ## Invitations
 
-On the _Admin_ sidebar, go to **Reports** > _Private Sales_ > **Invitations**.
+On the _Admin_ sidebar, go to **[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_ > **[!UICONTROL Invitations]**.
 
 ![Invitations Report](./assets/private-sales-invitations.png)<!-- zoom -->
 
@@ -16,7 +16,7 @@ The [Invitations Report](https://docs.magento.com/user-guide/marketing/invitatio
 
 ## Invited Customers
 
-On the _Admin_ sidebar, go to **Reports** > _Private Sales_ > **Invited Customers**.
+On the _Admin_ sidebar, go to **[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_ > **[!UICONTROL Invited Customers]**.
 
 ![Invited Customers Report](./assets/private-sales-invited-customers.png)<!-- zoom -->
 
@@ -24,7 +24,7 @@ The Invited Customers Report shows all customers who have been sent invitations 
 
 ## Conversions
 
-On the _Admin_ sidebar, go to **Reports** > _Private Sales_ > **Conversions**.
+On the _Admin_ sidebar, go to **[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_ > **[!UICONTROL Conversions]**.
 
 ![Conversions Report](./assets/private-sales-conversions.png)<!-- zoom -->
 

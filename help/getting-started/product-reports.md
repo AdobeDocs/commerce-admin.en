@@ -8,7 +8,7 @@ The product reports give you insight regarding products viewed and ordered, best
 
 ## Product Views
 
-On the _Admin_ sidebar, go to **Reports** > _Products_ > **Views**.
+On the _Admin_ sidebar, go to **[!UICONTROL Reports]** > _[!UICONTROL Products]_ > **[!UICONTROL Views]**.
 
 ![Product Views Report](./assets/product-views.png)<!-- zoom -->
 
@@ -16,7 +16,7 @@ The Product Views Report shows the products that have been viewed during a time 
 
 ## Bestsellers
 
-On the _Admin_ sidebar, go to **Reports** > _Products_ > **Bestsellers**.
+On the _Admin_ sidebar, go to **[!UICONTROL Reports]** > _[!UICONTROL Products]_ > **[!UICONTROL Bestsellers]**.
 
 ![Bestsellers Report](./assets/bestsellers.png)<!-- zoom -->
 
@@ -24,7 +24,7 @@ The Bestsellers Report shows the five top-selling five during an interval of tim
 
 ## Low Stock
 
-On the _Admin_ sidebar, go to **Reports** > _Products_ > **Low Stock**.
+On the _Admin_ sidebar, go to **[!UICONTROL Reports]** > _[!UICONTROL Products]_ > **[!UICONTROL Low Stock]**.
 
 ![Low Stock Report](./assets/low-stock.png)<!-- zoom -->
 
@@ -32,7 +32,7 @@ The Low Stock Report lists all products with stock levels within a specified ran
 
 ## Ordered Products
 
-On the _Admin_ sidebar, go to **Reports** > _Products_ > **Ordered**.
+On the _Admin_ sidebar, go to **[!UICONTROL Reports]** > _[!UICONTROL Products]_ > **[!UICONTROL Ordered]**.
 
 ![Ordered Products Report](./assets/products-ordered.png)<!-- zoom -->
 
@@ -40,7 +40,7 @@ The Ordered Products Report lists all products ordered for a specified time inte
 
 ## Downloads
 
-On the _Admin_ sidebar, go to **Reports** > _Products_ > **Downloaded**.
+On the _Admin_ sidebar, go to **[!UICONTROL Reports]** > _[!UICONTROL Products]_ > **[!UICONTROL Downloaded]**.
 
 ![Downloads Report](./assets/downloads.png)<!-- zoom -->
 

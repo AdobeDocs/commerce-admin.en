@@ -16,7 +16,7 @@ In addition to the standard elements that enable customers to make purchases in 
 
 Adobe Commerce and Magento Open Source are packed with features that make it easy to create _search-engine-friendly_ websites and increase the likelihood of bringing the right customers to your site.
 
-- Search Engine Optimization - Commerce offers powerful, native capabilities to streamline [Search Engine Optimization (SEO)](https://docs.magento.com/user-guide/marketing/seo-search.html) practices for content and site exposure that are integrated with the Admin, and tied directly into the user experience.
+- Search Engine Optimization - [!DNL Commerce] offers powerful, native capabilities to streamline [Search Engine Optimization (SEO)](https://docs.magento.com/user-guide/marketing/seo-search.html) practices for content and site exposure that are integrated with the Admin, and tied directly into the user experience.
 
 - Custom URLs - Specify [custom URLs](https://docs.magento.com/user-guide/stores/store-urls.html) to make them short, clean, and easy to remember. You can also autogenerate search-friendly URLs to streamline your purchase path.
 
@@ -36,7 +36,7 @@ Adobe Commerce and Magento Open Source make it easy to create a customized, enga
 
 - Multiple Stores, Sites, and Views - Control the look and feel of [multiple sites](websites-stores-views.md), introduce new markets and languages, and track analytics from a single Admin.
 
-- Multiple Devices - The powerful Commerce features make it easy to [create storefronts](https://docs.magento.com/user-guide/design/themes.html) optimized for iPhone, Android™, and Mobile Opera browsers to help you engage consumers with mobile commerce now, and into the future.
+- Multiple Devices - The powerful [!DNL Commerce] features make it easy to [create storefronts](https://docs.magento.com/user-guide/design/themes.html) optimized for iPhone, Android™, and Mobile Opera browsers to help you engage consumers with mobile commerce now, and into the future.
 
 - Shopping Tools - Your store includes a set of [shopping tools](https://docs.magento.com/user-guide/ marketing/shopping-tools.html) that create opportunities for your customers to interact with your store, connect on social media, and share with friends.
 
@@ -58,7 +58,7 @@ Adobe Commerce and Magento Open Source offer a rich set of tools to create perso
 
 Adobe Commerce and Magento Open Source provide a range of tools to help you tailor the shopping experience, and encourage your customers to put more items in their shopping carts and spend more money.
 
-- Targeted Promotions - Use catalog and shopping cart price rules to create [promotions](https://docs.magento.com/user-guide/marketing/promotions.html) that kick into gear when a set of conditions is met. In Adobe Commerce, segment customers dynamically and build segments based on specific characteristics such as customer address, order history, shopping cart content, and much more. Then, use [Page Builder](https://docs.magento.com/user-guide/cms/page-builder.html) to create a dynamic block that is triggered by a promotion, and appears only to the targeted customer segment.
+- Targeted Promotions - Use catalog and shopping cart price rules to create [promotions](https://docs.magento.com/user-guide/marketing/promotions.html) that kick into gear when a set of conditions is met. In Adobe Commerce, segment customers dynamically and build segments based on specific characteristics such as customer address, order history, shopping cart content, and much more. Then, use [[!DNL Page Builder]](https://docs.magento.com/user-guide/cms/page-builder.html) to create a dynamic block that is triggered by a promotion, and appears only to the targeted customer segment.
 
 - Promotional EVents - Hold an invitation-only [event](https://docs.magento.com/user-guide/marketing/events-private-sales.html) to launch a brand, and offer a [count-down ticker](https://docs.magento.com/user-guide/marketing/event-ticker.html) to member-only sales.
 
@@ -76,11 +76,11 @@ Adobe Commerce and Magento Open Source provide a range of tools to help you tail
 
 ## Optimize business processes and profitability
 
-- Advanced Reporting - Gain valuable insights at a glance with dynamic product, order, and customer reports, powered by [Business Intelligence](https://docs.magento.com/mbi/).
+- [!DNL Advanced Reporting] - Gain valuable insights at a glance with dynamic product, order, and customer reports, powered by [Business Intelligence](https://docs.magento.com/mbi/).
 
 - Dashboard Snapshots - Knowing what is of interest on your site is crucial to maximize your marketing budget. Use this [information on your dashboard](admin-dashboard.md) to determine what you should cross- and up-sell to loyal customers, or which products to put on sale.
 
-- Taxes - Manage your [taxes](https://docs.magento.com/user-guide/tax/taxes.html) with native tools, or add third-party extensions from [Commerce Marketplace](https://marketplace.magento.com/){:target="_blank"}.
+- Taxes - Manage your [taxes](https://docs.magento.com/user-guide/tax/taxes.html) with native tools, or add third-party extensions from [[!DNL Commerce Marketplace]](https://marketplace.magento.com/){:target="_blank"}.
 
 -  Automated Business Rules - Set up [automated business rules](https://docs.magento.com/user-guide/marketing/price-rules-cart.html) that define product relationships and use price rules that trigger discounts based on various conditions.
 
@@ -94,11 +94,11 @@ Instant Purchase - Simplify ordering and boost conversion rates by allowing your
 
 Shopping Assistance - [Assisted shopping](https://docs.magento.com/user-guide/sales/shopping-assistance.html) makes it easy for customer service reps to create orders for customers. In Adobe Commerce, customer service reps working in the Admin have access to shopping cart contents, and can move items from a wish list to a shopping cart, apply coupon codes, and more.
 
-Security - Whether an order is fulfilled online or over the phone, Commerce provides [sophisticated security](https://docs.magento.com/user-guide/stores/security.html), including [CAPTCHA](https://docs.magento.com/user-guide/stores/security-captcha.html) and SSL encryption, with best-in-breed encryption and hashing algorithms to protect the security of the system.
+Security - Whether an order is fulfilled online or over the phone, [!DNL Commerce] provides [sophisticated security](https://docs.magento.com/user-guide/stores/security.html), including [CAPTCHA](https://docs.magento.com/user-guide/stores/security-captcha.html) and SSL encryption, with best-in-breed encryption and hashing algorithms to protect the security of the system.
 
-Order Processing - Commerce supports a complete [order processing](https://docs.magento.com/user-guide/sales/order-processing.html) workflow. It is easy to customize order statuses and track communications between sales reps and customers.
+Order Processing - [!DNL Commerce] supports a complete [order processing](https://docs.magento.com/user-guide/sales/order-processing.html) workflow. It is easy to customize order statuses and track communications between sales reps and customers.
 
-Multiple Payment Options  - Commerce supports the [payment methods](https://docs.magento.com/user-guide/payment/payments.html) and currencies needed for global commerce. You can choose the ones you want to offer, and your customers can choose the ones they prefer at checkout.
+Multiple Payment Options  - [!DNL Commerce] supports the [payment methods](https://docs.magento.com/user-guide/payment/payments.html) and currencies needed for global commerce. You can choose the ones you want to offer, and your customers can choose the ones they prefer at checkout.
 
 PayPal Merchant Solutions - It is easy to integrate a [PayPal Payments](https://docs.magento.com/user-guide/payment/paypal.html) account to provide your customers faster, more secure checkout options.
 
@@ -123,7 +123,6 @@ RSS Feed - When [RSS feeds](https://docs.magento.com/user-guide/marketing/rss-fe
 ## Loyalty and Advocacy
 
 Give customers a direct connection to your brand by allowing them to create customer accounts where they can see their purchase history, wish list, and newsletter subscription information. Use product ratings and reviews to give new customers objective product opinions and promote a sense of community. These features turn customer satisfaction into one of the most powerful and cost-efficient marketing tools at your disposal.
-
 
 Customer Accounts - Opening an account provides [customers](https://docs.magento.com/user-guide/customers/customer-account.html) with a personalized shopping experience that they can share with their friends. Customers can save their shopping preferences, and manage their own store billing and shipping information.
 

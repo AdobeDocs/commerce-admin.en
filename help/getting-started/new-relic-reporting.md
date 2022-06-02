@@ -1,8 +1,8 @@
 ---
-title: New Relic Reporting
-description: Learn about the New Relic reporting available for accounts for Adobe Commerce on cloud infrastructure, which includes the software for the New Relic APM service.
+title: "[!DNL New Relic] Reporting"
+description: "Learn about the [!DNL New Relic] reporting available for accounts for Adobe Commerce on cloud infrastructure, which includes the software for the New Relic APM service."
 ---
-# New Relic Reporting
+# [!DNL New Relic] Reporting
 
 [New Relic][1] is a software analytics service that helps you analyze and improve application interactions. Accounts for Adobe Commerce on cloud infrastructure include the software for the New Relic APM service. For more information, see [New Relic services][4]{:target="_blank"} in the developer documentation.
 
@@ -19,9 +19,9 @@ description: Learn about the New Relic reporting available for accounts for Adob
     | Option | Description |
     | ------ | ----------- |
     | Account ID | From your New Relic account dashboard, the Account ID is the number in the URL after: `/accounts` |
-    | Application ID | From your New Relic account dashboard, click **New Relic APM**. In the menu, choose **Applications**. Then, choose your application. The Application ID is the number in the URL after: `/applications/` |
-    | New Relic API Key | From your New Relic account dashboard, click **Account Settings**. In the menu on the left under Integrations, choose **Data Sharing**. You can create, regenerate, or delete your API key from this page. |
-    | Insights API Key | From your New Relic account dashboard, click **Insights**. In the menu on the left under Administration, choose **API Keys**. Your Insights API Keys appear on this page. If necessary, click the plus sign (**+**) next to Insert Keys to generate a key. |
+    | Application ID | From your New Relic account dashboard, click **[!UICONTROL New Relic APM]**. In the menu, choose **[!UICONTROL Applications]**. Then, choose your application. The Application ID is the number in the URL after: `/applications/` |
+    | New Relic API Key | From your New Relic account dashboard, click **[!UICONTROL Account Settings]**. In the menu on the left under Integrations, choose **[!UICONTROL Data Sharing]**. You can create, regenerate, or delete your API key from this page. |
+    | Insights API Key | From your New Relic account dashboard, click **[!UICONTROL Insights]**. In the menu on the left under Administration, choose **[!UICONTROL API Keys]**. Your Insights API Keys appear on this page. If necessary, click the plus sign (**+**) next to Insert Keys to generate a key. |
 
     {style="table-layout:auto"}
 
@@ -41,45 +41,45 @@ To use New Relic APM Pro to gather and transmit data, the PHP agent must be ins
 
 ## Step 3: Configure Your Store
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel where **General** is expanded, choose **New Relic Reporting** and do the following:
+1. In the left panel where **[!UICONTROL General]** is expanded, choose **[!UICONTROL New Relic Reporting]** and do the following:
 
    ![New Relic Reporting configuration](./assets/new-relic-reporting-general.png)<!-- zoom -->
 
-    * Set **Enable New Relic Integration** to `Yes`.
+    * Set **[!UICONTROL Enable New Relic Integration]** to `Yes`.
 
-    * In the **Insights API URL**, replace the percent (%) symbol with your New Relic Account ID.
+    * In the **[!UICONTROL Insights API URL]**, replace the percent (%) symbol with your New Relic Account ID.
 
-    * Enter your **New Relic Account ID**.
+    * Enter your **[!UICONTROL New Relic Account ID]**.
 
-    * Enter your **New Relic Application ID**.
+    * Enter your **[!UICONTROL New Relic Application ID]**.
 
-    * Enter your **New Relic API Key**.
+    * Enter your **[!UICONTROL New Relic API Key]**.
 
-    * Enter you **Insights API Key**.
+    * Enter you **[!UICONTROL Insights API Key]**.
 
-1. In the **New Relic Application Name** field, enter a name to identify the configuration for internal reference.
+1. For **[!UICONTROL New Relic Application Name]**, enter a name to identify the configuration for internal reference.
 
-1. (Optional) For the **Send Adminhtml and Frontend as Separate Apps** field, select `Yes` to send collected data for the storefront and Admin as separate apps to New Relic.
+1. (Optional) For **[!UICONTROL Send Adminhtml and Frontend as Separate Apps]**, select `Yes` to send collected data for the storefront and Admin as separate apps to New Relic.
 
-   This option requires a name entered for the **New Relic Application Name**.
+   This option requires a name entered for the **[!UICONTROL New Relic Application Name]**.
 
    >[!NOTE]
    >
    >Enabling this feature reduces the number of false positive New Relic alerts and allows for configured monitoring and alerts strictly for frontend performance. New Relic receives separate app data files with names of Application Name appended to `Adminhtml` and frontend. For example: `MyStore_Adminhtml`
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.
 
 ## Step 4: Enable Cron for New Relic Reporting
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Cron** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Cron]** section.
 
     ![New Relic Cron configuration](./assets/new-relic-reporting-cron.png)<!-- zoom -->
 
-1. Set **Enable Cron** to `Yes`.
+1. Set **[!UICONTROL Enable Cron]** to `Yes`.
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.
 
 ## New Relic Queries
 

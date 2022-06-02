@@ -12,14 +12,14 @@ The Admin workspace provides access to all the tools, data, and content used to 
 
 |Control|Description|
 |--- |--- |
-|Search|The Search box can be used to find any value in the database, including product, customer, and order records.|
-|Sort|The header of each column can be used to sort the list in ascending or descending order.|
-|Filters|Defines a set of search parameters that determines the records that appear in the grid. In addition, the filters in the header of some columns can be used to limit the list to specific values. Some filters have additional options that can be selected from a list box.|
-|Default View|Determines the default column layout of the grid.|
-|Columns|Determines the selection of [columns](admin-grid-controls.md) and their order in the grid. The column layout can be changed and saved as a _view_. By default, only some of the columns are included in the grid.|
-|Paginate|The pagination controls are used to view the additional pages of results.|
-|Actions|The Actions control applies an operation to all selected records.|
-|Select|The Select control is used to select multiple records that are to be the target of action. Options: Select All / Deselect All|
+|[!UICONTROL Search]|The Search box can be used to find any value in the database, including product, customer, and order records.|
+|[!UICONTROL Sort]|The header of each column can be used to sort the list in ascending or descending order.|
+|[!UICONTROL Filters]|Defines a set of search parameters that determines the records that appear in the grid. In addition, the filters in the header of some columns can be used to limit the list to specific values. Some filters have additional options that can be selected from a list box.|
+|[!UICONTROL Default View]|Determines the default column layout of the grid.|
+|[!UICONTROL Columns]|Determines the selection of [columns](admin-grid-controls.md) and their order in the grid. The column layout can be changed and saved as a _view_. By default, only some of the columns are included in the grid.|
+|[!UICONTROL Paginate]|The pagination controls are used to view the additional pages of results.|
+|[!UICONTROL Actions]|The Actions control applies an operation to all selected records.|
+|[!UICONTROL Select]|The Select control is used to select multiple records that are to be the target of action. Options: Select All / Deselect All|
 
 {style="table-layout:auto"}
 
@@ -29,7 +29,7 @@ To find any record in the database, use the magnifying glass icon in the header 
 
 ![Admin search tool](./assets/admin-search.png)<!-- zoom -->
 
-1. In the header, click the **magnifying glass** (![magnifying glass](../assets/icon-magnify-search.png)) to open the search box.
+1. In the header, click the _Search_ (![magnifying glass](../assets/icon-magnify-search.png)) icon to open the search box.
 
 1. Do one of the following:
 
@@ -42,16 +42,16 @@ To find any record in the database, use the magnifying glass icon in the header 
 
 The [dashboard](admin-workspace.md#the-dashboard) is the default startup page for the Admin, although you can configure a different startup page.
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left side panel under **Advanced**, choose **Admin**.
+1. In the left side panel under **[!UICONTROL Advanced]**, choose **[!UICONTROL Admin]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Startup Page** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Startup Page]** section.
 
-1. Set **Startup Page** to the page that you want to appear first after you log in to the Admin.
+1. Set **[!UICONTROL Startup Page]** to the page that you want to appear first after you log in to the Admin.
 
    ![Advanced configuration - Admin startup page setting](./assets/admin-startup-page.png)<!-- zoom -->
    
    For a detailed list of all Admin options, see [Admin](https://docs.magento.com/user-guide/configuration/advanced/admin.html) in the _Configuration Reference_.
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.

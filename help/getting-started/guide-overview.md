@@ -14,9 +14,9 @@ This guide covers:
 | Subject | Description |
 | ------- | ----------- |
 | [Release Information](about-this-release.md) | Learn about the current Adobe Commerce and Magento Open Source release. |
-| [Login Credentials and URLs](login-urls.md) | Learn about the Commerce URLs and account credentials used to gain access to your Admin and to your storefront. |
-| [Commerce Accounts](commerce-account-create.md)  | Learn about Commerce accounts, which manage the products and services that you have purchased. |
-| [The Admin](admin.md) | Learn about the Commerce Admin, the place where merchants set up products and promotions, manage orders, and perform other administrative tasks. |
+| [Login Credentials and URLs](login-urls.md) | Learn about the [!DNL Commerce] URLs and account credentials used to gain access to your Admin and to your storefront. |
+| [[!DNL Commerce] accounts](commerce-account-create.md)  | Learn about [!DNL Commerce] accounts, which manage the products and services that you have purchased. |
+| [The Admin](admin.md) | Learn about the [!DNL Commerce] Admin, the place where merchants set up products and promotions, manage orders, and perform other administrative tasks. |
 | [The Storefront](storefront.md) | Learn about the pages and functional elements that your store can provide to support the shopping experience for your customers. |
 | [Basic Setup and Configuration](websites-stores-views.md) | Learn the concepts of store hierarchy and configuration scope and walk through the basic configuration settings. |
 | [Site Compliance](privacy-policy.md) | Learn how merchants are responsible to meet industry guidelines for maintaining a secure environment, and to meet the legal requirements and best practices for online merchants in their jurisdiction. |

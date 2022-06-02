@@ -32,29 +32,29 @@ Your [privacy policy](https://docs.magento.com/user-guide/stores/privacy-policy.
 
 ### Step 1: Enable Cookie Restriction Mode
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel under **General**, choose **Web**.
+1. In the left panel under **[!UICONTROL General]**, choose **[!UICONTROL Web]**.
 
-1. Expand the **Default Cookie Settings** section and do the following:
+1. Expand the **[!UICONTROL Default Cookie Settings]** section and do the following:
 
     ![Web configuration - default cookie settings](./assets/web-default-cookie-settings.png)<!-- zoom -->
  
-    - Enter the **Cookie Lifetime** in seconds.
+    - Enter the **[!UICONTROL Cookie Lifetime]** in seconds.
 
-    - If you want to make cookies available to other folders, enter the **Cookie Path**. To make the cookies available anywhere in the site, enter a forward slash (`/`). This value can contain only the cookie path, and **_cannot_** contain any other cookie parameters.
+    - If you want to make cookies available to other folders, enter the **[!UICONTROL Cookie Path]**. To make the cookies available anywhere in the site, enter a forward slash (`/`). This value can contain only the cookie path, and **_cannot_** contain any other cookie parameters.
 
-    - To make the cookies available to a subdomain, enter the subdomain name in the **Cookie Domain** field (`subdomain.yourdomain.com`). To make cookies available to all subdomains, enter the domain name preceded by a period (`.yourdomain.com`). This value can contain only the cookie domain, and **_cannot_** contain any other cookie parameters.
+    - To make the cookies available to a subdomain, enter the subdomain name in the **[!UICONTROL Cookie Domain]** field (`subdomain.yourdomain.com`). To make cookies available to all subdomains, enter the domain name preceded by a period (`.yourdomain.com`). This value can contain only the cookie domain, and **_cannot_** contain any other cookie parameters.
 
     - To prevent scripting languages, such as JavaScript, from gaining access to cookies, make sure that **Use HTTP Only** is set to `Yes`.
 
-    - Set **Cookie Restriction Mode** to `Yes`.
+    - Set **[!UICONTROL Cookie Restriction Mode]** to `Yes`.
 
-        If necessary, clear the checkbox and click **OK** to confirm scope switching.
+        If necessary, clear the checkbox and click **[!UICONTROL OK]** to confirm scope switching.
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.
 
-1. When prompted to update the cache, click the **Cache Management** link in the system message. Then, refresh each invalid cache.
+1. When prompted to update the cache, click the **[!UICONTROL Cache Management]** link in the system message. Then, refresh each invalid cache.
 
 ### Step 2: Update Your Privacy Policy
 
@@ -64,7 +64,7 @@ Update your [privacy policy](https://docs.magento.com/user-guide/stores/privacy-
 
 The default cookies in Adobe Commerce and Magento Open Source are classified as Exempt / Non-Exempt to help merchants meet the requirements of privacy regulations such as the [GDPR](compliance-gdpr.md). Merchants should use this information as a guide, and consult with legal advisors to update their Privacy and Cookie Policies as part of a comprehensive privacy regulation compliance strategy.
 
-The following cookies are used by Commerce “out of the box” for on-premise and cloud installations. These cookies may be required by functionality that is explicitly requested by the customer. To learn about the lifetime of session cookies, see [Session Lifetime](https://docs.magento.com/user-guide/customers/customer-online-options.html).
+The following cookies are used by [!DNL Commerce] “out of the box” for on-premise and cloud installations. These cookies may be required by functionality that is explicitly requested by the customer. To learn about the lifetime of session cookies, see [Session Lifetime](https://docs.magento.com/user-guide/customers/customer-online-options.html).
 
 Some of these cookies may provide configuration options, including enable/disable, as needed.
 

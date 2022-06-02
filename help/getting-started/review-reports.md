@@ -4,7 +4,7 @@ description: If your site uses the built-in review feature, Review Reports provi
 ---
 # Review Reports
 
-If you are using the built-in Commerce Reviews, Review Reports provide information about product reviews by customer and by product.
+If you are using the built-in [!DNL Commerce] Reviews, Review Reports provide information about product reviews by customer and by product.
 
 ## By Customer
 

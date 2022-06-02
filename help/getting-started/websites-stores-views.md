@@ -8,7 +8,7 @@ Every Adobe Commerce and Magento Open Source installation has a [hierarchy](http
 
 >[!NOTE]
 >
->To learn more, see [Multiple websites or stores ](https://devdocs.magento.com/guides/v2.4/config-guide/multi-site/ms_over.html) in the Commerce developer documentation.
+>To learn more, see [Multiple websites or stores ](https://devdocs.magento.com/guides/v2.4/config-guide/multi-site/ms_over.html) in the [!DNL Commerce] developer documentation.
 
 ## Websites
 
@@ -24,7 +24,7 @@ Each store that is available to customers is presented according to a specific _
 
 When working with websites, stores, and store views, keep the following in mind:
 
-- Commerce instances have a cascading model: global → website → store → store view.
+- [!DNL Commerce] instances have a cascading model: global → website → store → store view.
 - Every website has at least one default store and store view.
 - Each store view can have a different base URL.
 - The primary function of a website is top-level feature configuration.

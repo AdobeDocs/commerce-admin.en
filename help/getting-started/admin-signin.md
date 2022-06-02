@@ -12,7 +12,7 @@ The primary Admin account was initially set up during the installation, and migh
 
 ## Admin Sign In
 
-The Commerce _Admin_ is protected by multiple layers of security measures to prevent unauthorized access to your store, order, and customer data. The first time you sign in to the _Admin_, you are required to enter your username and password and to set up [two-factor authentication](https://docs.magento.com/user-guide/stores/security-two-factor-authentication.html) (2FA).
+The [!DNL Commerce] _Admin_ is protected by multiple layers of security measures to prevent unauthorized access to your store, order, and customer data. The first time you sign in to the _Admin_, you are required to enter your username and password and to set up [two-factor authentication](https://docs.magento.com/user-guide/stores/security-two-factor-authentication.html) (2FA).
 
 Depending on the configuration of your store, there may be a [CAPTCHA](https://docs.magento.com/user-guide/stores/security-google-recaptcha.html) challenge to resolve, such as entering a series of keyboard characters, solving a puzzle, or clicking a series of images with a common theme. These tests are designed to identify you as a human, rather than an automated bot.
 
@@ -26,13 +26,13 @@ For additional security, you can determine which parts of the _Admin_ each user 
 
 ### Step 1: Set up two-factor authentication
 
-Before you can sign in to the _Admin_ of your store, you must have a two-factor authentication solution set up and ready to use. To learn more about the authentication process used by each solution, see [Using Two-Factor Authentication](https://docs.magento.com/user-guide/stores/security-two-factor-authentication-use.html). By default, Commerce supports [Google Authenticator][1].
+Before you can sign in to the _Admin_ of your store, you must have a two-factor authentication solution set up and ready to use. To learn more about the authentication process used by each solution, see [Using Two-Factor Authentication](https://docs.magento.com/user-guide/stores/security-two-factor-authentication-use.html). By default, [!DNL Commerce] supports [Google Authenticator][1].
 
-Ask your Commerce system administrator which 2FA solutions are supported for the store. Then, complete the setup of your preferred 2FA solution according to the provider's instructions.
+Ask your [!DNL Commerce] system administrator which 2FA solutions are supported for the store. Then, complete the setup of your preferred 2FA solution according to the provider's instructions.
 
 ### Step 2: Sign in to the Admin
 
-1. Enter the _Admin_ URL that was specified during the Commerce installation.
+1. Enter the _Admin_ URL that was specified during the [!DNL Commerce] installation.
 
    The default _Admin_ URL looks something like `https://www.yourdomain.com/your-custom-admin-domain`.
 
@@ -42,13 +42,13 @@ Ask your Commerce system administrator which 2FA solutions are supported for the
 
    You can add a bookmark for the page or save a shortcut on your desktop for easy access.
 
-1. Enter your _Admin_ **Username** and **Password**.
+1. Enter your _Admin_ **[!UICONTROL Username]** and **[!UICONTROL Password]**.
 
 1. (Optional) If a CAPTCHA is enabled for your store, follow the onscreen instructions to resolve the challenge.
 
    To learn more, see [CAPTCHA](https://docs.magento.com/user-guide/stores/security-captcha.html) and [reCAPTCHA](https://docs.magento.com/user-guide/stores/security-google-recaptcha.html).
 
-1. Click **Sign in**.
+1. Click **[!UICONTROL Sign in]**.
 
    If it is the first time you have signed in to the _Admin_ from the account, you should receive an email with a link to configuration instructions.
 
@@ -62,7 +62,7 @@ The following example shows how to pair your _Admin_ account with Google Authent
 
    - Capture QR Code using a smart phone
 
-      On your smart phone, launch Google Authenticator. Tap the **plus** sign (+) in the upper-right corner of the app. Then at the bottom of the screen, tap **Scan Barcode** and take a picture of the QR code.
+      On your smart phone, launch Google Authenticator. Tap the _plus sign_ (+) in the upper-right corner of the app. Then at the bottom of the screen, tap **[!UICONTROL Scan Barcode]** and take a picture of the QR code.
 
    - Capture QR Code from browser
 
@@ -70,9 +70,9 @@ The following example shows how to pair your _Admin_ account with Google Authent
 
    - Manually enter QR code
 
-      Copy the string of text below the QR code. Launch Google Authenticator with either your smart phone or browser, and click the plus sign (+). Then, choose **Manual Entry**. Under **Account**, enter the email address that is associated with your _Admin_ account and paste the QR code string into the **Key** field.
+      Copy the string of text below the QR code. Launch Google Authenticator with either your smart phone or browser, and click the plus sign (+). Then, choose **[!UICONTROL Manual Entry]**. Under **[!UICONTROL Account]**, enter the email address that is associated with your _Admin_ account and paste the QR code string into the **[!UICONTROL Key]** field.
 
-1. To sign in to the _Admin_ with two-factor authentication, enter the six-digit code generated by Google Authenticator into the **Authenticator code** field, and then click **Confirm**.
+1. To sign in to the _Admin_ with two-factor authentication, enter the six-digit code generated by Google Authenticator into the **[!UICONTROL Authenticator code]** field, and then click **[!UICONTROL Confirm]**.
 
    ![Enter the Authenticator code](./assets/admin-login-2fa-google.png)
 
@@ -80,11 +80,11 @@ The following example shows how to pair your _Admin_ account with Google Authent
 
 Reuse of the last four passwords assigned to the account is not allowed.
 
-1. Enter the **Email Address** that is associated with the _Admin_ account.
+1. Enter the **[!UICONTROL Email Address]** that is associated with the _Admin_ account.
 
    ![Forgotten password](./assets/admin-sign-in-forgot-password.png)
 
-1. Click **Retrieve Password**.
+1. Click **[!UICONTROL Retrieve Password]**.
 
    If an account is associated with the email address, an email is sent to reset your password.
 
@@ -94,9 +94,9 @@ Reuse of the last four passwords assigned to the account is not allowed.
 
 ## Sign out of the Admin
 
-1. In the upper-right corner, click the **Account** (![Account](../assets/icon-admin-user.png)) icon.
+1. In the upper-right corner, click the _Account_ (![Account](../assets/icon-admin-user.png)) icon.
 
-1. Click **Sign Out**.
+1. Click **[!UICONTROL Sign Out]**.
 
 ![Sign out](./assets/admin-sign-out.png)<!-- zoom -->
 
@@ -104,9 +104,9 @@ The Sign In page displays a message that you are logged out. Sign out of the _Ad
 
 ## Edit Account Information
 
-1. Click the **Account** (![Account icon](../assets/icon-admin-user.png)) icon.
+1. Click the _Account_ (![Account icon](../assets/icon-admin-user.png)) icon.
 
-1. Click **Account Setting**.
+1. Click **[!UICONTROL Account Setting]**.
 
    ![Account Information](./assets/admin-account-information.png)<!-- zoom -->
 
@@ -116,34 +116,34 @@ The Sign In page displays a message that you are logged out. Sign out of the _Ad
 
 1. Enter your current account password.
 
-1. Click **Save Account**.
+1. Click **[!UICONTROL Save Account]**.
 
 ## Allow multiple Admin logins
 
 The Admin provides access to manage the orders, customers, products, shipping, and payments functionality. The default configuration is set to disallow multiple logins for an Admin user account as a security best practice. However, you can change this setting to allow Admin users to be logged in from multiple devices to accommodate your business workflows.
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Advanced** and choose **Admin**.
+1. In the left panel, expand **[!UICONTROL Advanced]** and choose **[!UICONTROL Admin]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Security** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Security]** section.
 
 1. For **Admin Account Sharing**, select `Yes`.
 
    ![Allow Admin account sharing](./assets/multiple-admin-login.png)<!-- zoom -->
 
-1. Click **Save Config**.
+1. Click **[!UICONTROL Save Config]**.
 
 ## Set Admin user login names as case sensitive
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Advanced** and choose **Admin**.
+1. In the left panel, expand **[!UICONTROL Advanced]** and choose **[!UICONTROL Admin]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Security** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Security]** section.
 
-1. Set the **Login is Case Sensitive** field to `Yes`.
+1. Set the **[!UICONTROL Login is Case Sensitive]** field to `Yes`.
 
-1. Click **Save Config**.
+1. Click **[!UICONTROL Save Config]**.
 
 [1]: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_US
