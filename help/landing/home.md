@@ -7,7 +7,7 @@ breadcrumb-title: Documentation
 ---
 # <!-- use banner as heading -->![Merchant documentation](./assets/banner-user-home.png) {#documentation}
 
-Welcome to the next generation of the world’s leading digital commerce platform! Adobe Commerce provides online merchants with unparalleled flexibility and control over the look, content, and functionality of their online stores. The Admin features powerful marketing, search engine optimization, and product management tools that give you the power to create sites that are tailored to your unique business needs.
+Welcome to the next generation of the world’s leading digital commerce platform. Adobe Commerce provides online merchants with unparalleled flexibility and control over the look, content, and functionality of their online stores. The Admin features powerful marketing, search engine optimization, and product management tools that give you the power to create sites that are tailored to your unique business needs.
 
 ## Product editions
 
@@ -49,8 +49,8 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 <tr>
     <td valign="top">
        <img alt="Inventory Management" src="./assets/icon-transfer.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://docs.magento.com/user-guide/catalog/inventory-management.html"> <strong>Inventory Management</strong></a>
-    <div><em>The Inventory Management features enable merchants with a single store to multiple warehouses, stores, pickup locations, drop shippers, and more. Use these features to maintain quantities for sales and handle shipments to complete orders. </em></div>
+   <td valign="top"><a href="https://docs.magento.com/user-guide/catalog/inventory-management.html"> <strong>[!DNL Inventory Management]</strong></a>
+    <div><em>The [!DNL Inventory Management] features enable merchants with a single store to multiple warehouses, stores, pickup locations, drop shippers, and more. Use these features to maintain quantities for sales and handle shipments to complete orders. </em></div>
   </td>
 </tr>
 <tr>
@@ -70,8 +70,8 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 <tr>
     <td valign="top">
        <img alt="Page Builder" src="./assets/icon-web-pages.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://docs.magento.com/user-guide/cms/page-builder.html"> <strong>Page Builder</strong></a>
-    <div><em>Page Builder makes it easy to create content-rich pages with custom layouts. These features are designed to improve quality, and reduce the time and expense of producing custom pages.</em></div>
+   <td valign="top"><a href="https://docs.magento.com/user-guide/cms/page-builder.html"> <strong>[!DNL Page Builder]</strong></a>
+    <div><em>[!DNL Page Builder] makes it easy to create content-rich pages with custom layouts. These features are designed to improve quality, and reduce the time and expense of producing custom pages.</em></div>
   </td>
 </tr>
 <tr>
@@ -104,7 +104,7 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 </tr>
 </table>
 
-
+<!--
 ## What's new
 
 | Description | Type | Date |
@@ -112,4 +112,4 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 | Added notes to [Search Results](https://docs.magento.com/user-guide/catalog/search-results.html) and [Configuring Catalog Search](https://docs.magento.com/user-guide/catalog/search-configuration.html) to clarify the limitations of search by suffix in out-of-the-box ElasticSearch implementations. | Minor update | 4/21/2022 |
 | Redirected the Site-Wide-Analysis Tool topic to the [new location](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html) on Adobe Experience League. | Moved | 4/14/2022 |
 
-{style="table-layout:auto"}
+{style="table-layout:auto"} -->
