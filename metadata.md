@@ -6,7 +6,7 @@ audience: end-user
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/commerce-admin.en
 role: User
-hide: yes
+index: yes
 ---
 
 # Metadata for internal use
