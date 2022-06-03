@@ -4,7 +4,7 @@ description: Placeholder
 ---
 # The Admin Sidebar
 
-The sidebar on the left is the main menu for the store _Admin_, and is designed for both desktop and mobile devices. The flyout menu provides access to all the tools that you use to manage your store daily.
+The sidebar on the left is the main menu for the store _Admin_ and is designed for both desktop and mobile devices. The flyout menu provides access to all the tools that you use to manage your store daily.
 
 | Menu icon | Link | Description |
 | --------- | ---- | ----------- |

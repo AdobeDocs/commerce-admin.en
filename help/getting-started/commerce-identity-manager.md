@@ -4,7 +4,7 @@ description: "Learn about the identity manager that you can use to link your [!D
 ---
 # [!DNL Commerce Identity Manager]
 
-The [[!DNL Commerce Identity Manager]](https://identity.magento.com) provides users with the ability to link their [!DNL Commerce] product accounts with an Adobe ID for seamless single sign-on across all Adobe Commerce products and simpler user account management. When your [!DNL Commerce] accounts are linked to an Adobe ID and you are logged into that Adobe ID, you bypass the standard [!DNL Commerce] product login process and do not need to log in again.
+The [[!DNL Commerce Identity Manager]](https://identity.magento.com) lets users link their [!DNL Commerce] product accounts with an Adobe ID for seamless single sign-on across all Adobe Commerce products and simpler user account management. When your [!DNL Commerce] accounts are linked to an Adobe ID and you are logged into that Adobe ID, you bypass the standard [!DNL Commerce] product login process and do not need to log in again.
 
 The Identity Manager is designed to work with all [!DNL Commerce] products, but account linking is only enabled for [!DNL Commerce] products that have been integrated with it. The [!DNL Commerce] products that are currently and officially integrated are:
 

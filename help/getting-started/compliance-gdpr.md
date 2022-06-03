@@ -37,7 +37,7 @@ Businesses that comply with GDPR might have additional obligations under the CCP
 
 - Update your [Google settings](https://docs.magento.com/user-guide/stores/compliance-privacy-google.html) and ensure that they align with your legal obligations regarding the use of personal data.
 
-- Maintain transparency, and keep thorough documentation.
+- Maintain transparency and keep thorough documentation.
 
 - To learn how Adobe helps merchants comply with applicable legal obligations, visit the [website][1]{:target="_blank"}.
 

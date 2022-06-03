@@ -28,4 +28,4 @@ The Abandoned Carts Report lists all registered customers who have abandoned car
 
 ![Newsletter Problems Report](./assets/newsletter-problems.png)<!-- zoom -->
 
-The Newsletter Problems Report includes information about any newsletter queue that failed to transmit successfully. The report includes the name of each subscriber, and queue date and subject, the information about the error.
+The Newsletter Problems Report includes information about any newsletter queue that failed to transmit successfully. The report includes the name of each subscriber, queue date and subject, and the information about the error.

@@ -34,7 +34,7 @@ To find any record in the database, use the magnifying glass icon in the header 
 1. Do one of the following:
 
    - To find a close match, enter the first few letters of what you want to find.
-   - To find an exact match, enter the word, or multiple words that you want to find.
+   - To find an exact match, enter the word or multiple words that you want to find.
 
 1. In the displayed search results, click any item to open the record.
 
