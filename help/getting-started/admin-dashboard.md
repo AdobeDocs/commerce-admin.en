@@ -42,7 +42,9 @@ For more information about the Admin configuration options, see the [Configurati
 
 The dashboard is the default [startup page](https://docs.magento.com/user-guide/configuration/advanced/admin.html) for the Admin, although you can configure a different startup page.
 
-1. Continuing in the Advanced > Admin section, click to expand the **Startup Page** section.
+1. If you do not already have the Admin configuration options open, choose **[!UICONTROL Admin]** under _[!UICONTROL Advanced]_ in the left panel.
+
+1. Click to expand the **Startup Page** section.
 
 1. Clear the **[!UICONTROL Use system value]** checkbox and choose the **Startup Page** that you want to appear when you log in to the Admin.
 
@@ -52,7 +54,7 @@ The dashboard is the default [startup page](https://docs.magento.com/user-guide/
 
 1. In the left side panel under **[!UICONTROL General]**, choose **Reports**.
 
-1. In the **[!UICONTROL Dashboard]** section, clear the **[!UICONTROL Use system value]** check boxes for the date settings and do the following:
+1. In the **[!UICONTROL Dashboard]** section, clear the **[!UICONTROL Use system value]** checkboxes for the date settings and do the following:
 
    - Set **Year-To-Date Starts** to the **Month** and **Day**.
 
