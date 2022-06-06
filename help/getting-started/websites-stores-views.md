@@ -39,7 +39,7 @@ Some configuration settings such as postal code, have a global scope because the
 
 Unless the store is running in [Single Store Mode](https://docs.magento.com/user-guide/stores/store-mode-single.html), the scope of each configuration setting appears in small text below the field label. If your installation includes multiple websites, stores, or views, choose the [Store View](https://docs.magento.com/user-guide/stores/stores-all-create-view.html) where the settings apply before making any changes.
 
-![Hierarchy of websites, stores, and store views](./assets/scope-multisite.png)<!-- zoom -->
+![Hierarchy of websites, stores, and store views](./assets/scope-multisite.svg)<!-- zoom -->
 
 |Scope|Description|
 |--- |--- |
