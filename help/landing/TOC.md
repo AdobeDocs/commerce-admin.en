@@ -6,13 +6,13 @@ title: Adobe Commerce Merchant Documentation
 # Adobe Commerce merchant documentation {#user-guides}
 
 - [Adobe Commerce Merchant Documentation](home.md)
-- [Getting Started](https://docs.magento.com/user-guide/magento/about-this-release.html)
-- [B2B for Adobe Commerce](https://docs.magento.com/user-guide/stores/b2b-features.html)
+- [Getting Started](../getting-started/guide-overview.md)
+- [B2B for Adobe Commerce](../b2b/guide-overview.md)
 - [Catalog Management](https://docs.magento.com/user-guide/catalog.html)
-- [[!DNL Inventory Management]](https://docs.magento.com/user-guide/catalog/inventory-management.html)
+- [[!DNL Inventory Management]](../inventory-management/guide-overview.md)
 - [Merchandising and Promotions](https://docs.magento.com/user-guide/marketing/promotions.html)
 - [Content and Design](https://docs.magento.com/user-guide/content.html)
-- [[!DNL Page Builder]](https://docs.magento.com/user-guide/cms/page-builder.html)
+- [[!DNL Page Builder]](../page-builder/guide-overview.md)
 - [Customer Management](https://docs.magento.com/user-guide/customers.html)
 - [Sales and Purchase Experience](https://docs.magento.com/user-guide/sales.html)
 - [System Administration](https://docs.magento.com/user-guide/sales.html)
