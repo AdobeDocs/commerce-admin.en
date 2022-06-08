@@ -32,7 +32,7 @@ Adobe Commerce and Magento Open Source make it easy to create a customized, enga
 
 - Content Management - [Page Builder](https://docs.magento.com/user-guide/cms/page-builder.html) makes it easy to create targeted pages with interactive elements that engage your customers. Even users without a technology background can create and manage site content.
 
-- Design and Theme - Control the [visual elements](https://docs.magento.com/user-guide/design/design-menu.html) of your store with a collection of templates and skin files. You can apply these visual elements to all pages in your store, giving your store a cohesive look and feel.
+- Design and Theme - Control the [visual elements](../content-design/themes.md) of your store with a collection of templates and skin files. You can apply these visual elements to all pages in your store, giving your store a cohesive look and feel.
 
 - Multiple Stores, Sites, and Views - Control the look and feel of [multiple sites](websites-stores-views.md), introduce new markets and languages, and track analytics from a single Admin.
 
