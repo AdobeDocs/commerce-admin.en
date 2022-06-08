@@ -8,7 +8,7 @@ Before you begin working with custom layout updates, it is important to understa
 
 The XML layout of your Commerce store is a hierarchical structure of containers and blocks. Some elements appear on every page, and others appear only on specific pages. To learn more about layout, containers, and blocks, see [Layout overview][1] in our _Frontend Developer Guide_.
 
-The [Widget](widgets.md) tool is an easy way to add an existing [content block](blocks.md) to the default layout of a page. For more advanced updates, you must save the XML layout update code on the server, and then reference the file as a custom layout update from the Admin. For an overview of the process, see [Using Layout Updates](layout-update-place-block.md).
+The [Widget](widgets.md) tool is an easy way to add an existing [content block](blocks.md) to the default layout of a page. For more advanced updates, you must save the XML layout update code on the server, and then reference the file as a custom layout update from the Admin. For an overview of the process, see [Use Layout Updates](layout-updates.md#place-a-block-using-layout-updates).
 
 In the following diagram, the names that refer to containers are black and the block types, or block class paths, are blue.
 
@@ -31,4 +31,56 @@ In the following diagram, the names that refer to containers are black and the b
 
 {style="table-layout:auto"}
 
+## Place a Block Using Layout Updates
+
+[Layout updates](layout-updates.md) make it possible to customize the layout of a page. Layout updates offer more flexibility than a [widget](widgets.md), but require access to the server and a basic knowledge of XML.
+
+The following steps show how to use a layout update to place a block on a page. For specific examples and help with syntax, see [Common layout customization tasks][4] in the _Frontend Developer Guide_.
+
+### Step 1: Create the block
+
+1. Create the [block](block-add.md) that you want to place.
+
+1. Take note of the `block_id`, because you will need to reference it in the layout update instructions.
+
+### Step 2: Compose the layout update in XML
+
+1. Compose the layout instructions in XML to [Reference a CMS Block][3].
+
+1. Save the [layout instructions][2] on the server in the layout folder where XML files are saved for the theme.
+
+   For example:
+
+   `<theme_dir>/<Namespace>_<Module>/layout`
+
+   The [layout handle][4] is the filename that begins with `cms_page_view_selectable_`, followed by the URL key of the CMS page, the layout update option, and the `xml` file suffix. In the following example, `customer-service` is the URL key of the page, and `ChatTool` is the option that you select to apply the layout update to the page.
+
+   `cms_page_view_selectable_`<`customer-service`>`_`<`ChatTool`>`.xml`
+
+   |CMS Page Identifier|The URL key of the page with any forward slash (`/`) replaced by an underscore (`_`).|
+   |Layout Update Name|The option that appears in the _Custom Layout Update_ list.|
+
+### Step 3: Reference the layout update from the page
+
+1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Pages**.
+
+1. Find the page where you want to place the block and open it in edit mode.
+
+1. Scroll down and expand ![Expansion selector](../assets/icon-display-expand.png) the **Design** section.
+
+1. Click **Custom Layout Update** arrow to display all available layout updates that are associated with the page.
+
+   ![Custom Layout Update list](./assets/page-design-custom-layout-update.png)<!-- zoom -->
+
+1. Select the layout update that you want to apply to the page.
+
+### Step 4: Save and refresh cache
+
+1. When complete, click **Save & Close**.
+
+1. In the message at the top of the workspace, click **Cache Management** and refresh each invalid cache.
+
 [1]: https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/layouts/layout-overview.html
+[2]: https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/layouts/xml-instructions.html
+[3]: https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/layouts/xml-manage.html#ref_cms_block
+[4]: https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/layouts/layout-overview.html

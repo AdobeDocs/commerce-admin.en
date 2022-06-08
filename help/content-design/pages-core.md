@@ -16,7 +16,7 @@ The store [Privacy Policy](../getting-started/privacy-policy.md) page should be 
 
 ## 404 Not Found
 
-The [404 Page Not Found](pages-default.md) page is named for the response code that is returned when a page cannot be found. URL redirects reduce the number of times that this page appears. However, for those times when it is necessary, you might as well take advantage of the opportunity to offer some links to products that the customer might find interesting.
+The 404 Page Not Found page is named for the response code that is returned when a page cannot be found. URL redirects reduce the number of times that this page appears. However, for those times when it is necessary, you might as well take advantage of the opportunity to offer some links to products that the customer might find interesting.
 
 ## Access Denied
 

@@ -12,7 +12,7 @@ breadcrumb-title: Content and Design
 - Design {#design}
   - [Design configuration](configuration.md)
   - Themes {#themes}
-    - [Theme overview and defaults](theme-default.md)
+    - [Theme overview and defaults](themes.md)
     - [Install a new theme](theme-install.md)
     - [Manage theme assets](theme-assets.md)
     - [Schedule design updates](schedule.md)
@@ -24,7 +24,7 @@ breadcrumb-title: Content and Design
 - Content elements {#elements}
   - Pages {#pages}
     - [Page Overview](pages.md)
-    - [Core Content and Default Pages](pages-core.md)
+    - [Core Content](pages-core.md)
     - [Page Workspace and Controls](pages-workspace.md)
     - [Add and Remove Pages](page-add.md)
     - [Set Home Page](page-home-new.md)
@@ -41,6 +41,7 @@ breadcrumb-title: Content and Design
   - Widgets {#widgets}
     - [Widget Overview](widgets.md)
     - [Create and Manage Widgets](widget-create.md)
+    - [Use a Widget to Position a Block](widget-static-block.md)
     - [New Products List Widget](widget-new-products-list.md)
     - [Orders and Returns Widget](widget-orders-returns.md)
 - WYSIWYG editor {#wysiwyg}
@@ -68,5 +69,5 @@ breadcrumb-title: Content and Design
   - [Content Staging Overview](content-staging.md)
   - [Schedule an Update](content-staging-scheduled-update.md)
   - [Staging Dashboard](content-staging-dashboard.md)
-    - [Add a Campaign Item](content-staging-add-item.md)
-    - [Preview a Campaign](content-staging-preview.md)
+  - [Add a Campaign Item](content-staging-add-item.md)
+  - [Preview a Campaign](content-staging-preview.md)
