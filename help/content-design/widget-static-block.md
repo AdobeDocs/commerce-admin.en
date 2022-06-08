@@ -52,6 +52,8 @@ The _CMS Static Block_ [widget](widgets.md) gives you the ability to place an ex
 
 ### Layout updates options
 
+|Field|Description|
+|--- |--- |
 |**_Categories_**||
 |Anchor Categories|Displays the widget on the anchor category page. Options:<br/>**Categories** - Categories where the anchor is displayed. Options: All / Specific Categories<br/>**Container** - Set container to the part of the page layout where you want to display the widget.<br/>**Template** - Determines the theme of the layout.|
 |Non-Anchor Categories|Displays the widget on the non-anchor category page. Options:<br/>**Categories** - Categories where the anchor is displayed. Options: All / Specific Categories<br/>**Container** - Set container to the part of the page layout where you want to display the widget.<br/>**Template** - Determines the theme of the layout.|
