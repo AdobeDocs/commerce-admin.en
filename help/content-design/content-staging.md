@@ -20,7 +20,7 @@ When a new scheduled update is created for any of the following objects, a corre
 - [Categories](https://docs.magento.com/user-guide/catalog/category-scheduled-changes.html)
 - [Catalog Price Rules](https://docs.magento.com/user-guide/marketing/price-rule-catalog-scheduled-changes.html)
 - [Cart Price Rules](https://docs.magento.com/user-guide/marketing/price-rule-cart-scheduled-changes.html)
-- [CMS Pages](page-scheduled-changes.md)
+- [CMS Pages](pages-workspace.md#scheduled-changes)
 - [CMS Blocks](blocks.md)
 
 ## Content staging workflow

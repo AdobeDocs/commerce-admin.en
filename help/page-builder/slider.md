@@ -120,7 +120,7 @@ You can save time by duplicating a slide that has already been configured with t
 
 ### Add widget on a slide
 
-You can add any [widgets type](widgets.md#widget-types) to your slide in a [!DNL Page Builder] stage using the following steps:
+You can add any [widgets type](../content-design/widgets.md#widget-types) to your slide in a [!DNL Page Builder] stage using the following steps:
 
 1. [Create the widget](https://docs.magento.com/user-guide/cms/widget-create.html) that you want to see on a slide.
 

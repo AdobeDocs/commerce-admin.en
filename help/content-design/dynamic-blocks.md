@@ -12,17 +12,17 @@ Create rich, interactive content that is driven by logic from [price rules](http
 >
 >The _Banner_ option in the [Content menu](content-menu.md) was deprecated in 2.3.1 and removed in 2.4.0. Its functionality is replaced by Dynamic Blocks.
 
-![Page Builder - dynamic block with price rule and customer segment](./assets/pb-tutorial2-dynamic-block-storefront.png)<!-- zoom -->
+![Page Builder - dynamic block with price rule and customer segment](../page-builder/assets/pb-tutorial2-dynamic-block-storefront.png)<!-- zoom -->
 
 ## Step 1: Create a dynamic block
 
 1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Dynamic Blocks**.
 
-   ![Dynamic blocks list](./assets/pb-tutorial2-block-dynamic-add.png)<!-- zoom -->
+   ![Dynamic blocks list](../page-builder/assets/pb-tutorial2-block-dynamic-add.png)<!-- zoom -->
 
 1. In the upper-right corner, click **Add Dynamic Block**.
 
-   ![New dynamic block](./assets/pb-tutorial2-block-dynamic-new.png)<!-- zoom -->
+   ![New dynamic block](../page-builder/assets/pb-tutorial2-block-dynamic-new.png)<!-- zoom -->
 
 1. If applicable, set **Store View** to a specific store view where the dynamic block is to appear.
 
@@ -32,11 +32,11 @@ Create rich, interactive content that is driven by logic from [price rules](http
 
 1. Set **Dynamic Block Type** to the area of the page where you want the dynamic block to appear and click **Done**.
 
-   ![Setting the dynamic block type](./assets/pb-dynamic-block-type.png)<!-- zoom -->
+   ![Setting the dynamic block type](../page-builder/assets/pb-dynamic-block-type.png)<!-- zoom -->
 
 1. In the **Customer Segment** list, select the checkbox of each segment that you want to see the dynamic block and click **Done** to save the setting.
 
-   ![Choosing a customer segment](./assets/pb-dynamic-block-customer-segment.png)<!-- zoom -->
+   ![Choosing a customer segment](../page-builder/assets/pb-dynamic-block-customer-segment.png)<!-- zoom -->
 
    >[!NOTE]
    >
@@ -48,7 +48,7 @@ Create rich, interactive content that is driven by logic from [price rules](http
 
 Use the Page Builder [workspace](../page-builder/workspace.md) to complete the content.
 
-![Page Builder - dynamic block workspace](./assets/pb-dynamic-block-workspace.png)<!-- zoom -->
+![Page Builder - dynamic block workspace](../page-builder/assets/pb-dynamic-block-workspace.png)<!-- zoom -->
 
 ## Step 3: Choose a related promotion
 
@@ -86,10 +86,10 @@ Use the Page Builder [workspace](../page-builder/workspace.md) to complete the c
 
 |Field|Description|
 |--- |--- |
-|[Layout](../page-builder/layout.md)|Add rows, columns, or tabs to the stage.|
-|[Elements](../page-builder/elements.md)|Add text, headings, buttons, dividers, and HTML code to any layout container on the stage.|
-|[Media](../page-builder/media.md)|Add images, video, banners, sliders, and Google Maps to any existing layout container on the stage.|
-|[Add Content](../page-builder/add-content.md)|Add existing blocks, dynamic blocks, and products to the stage.|
+|Layout|Add rows, columns, or tabs to the stage.|
+|Elements|Add text, headings, buttons, dividers, and HTML code to any layout container on the stage.|
+|Media|Add images, video, banners, sliders, and Google Maps to any existing layout container on the stage.|
+|Add Content|Add existing blocks, dynamic blocks, and products to the stage.|
 
 {style="table-layout:auto"}
 

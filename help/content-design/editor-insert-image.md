@@ -40,7 +40,7 @@ From the editor, you can insert an image that has been uploaded to [Media Storag
 
       - Click the thumbnail and click **Add Selected**.
 
-         ![Adding a selected image](./assets/pb-media-image-gallery-add-selected.png)<!-- zoom -->
+         ![Adding a selected image](../page-builder/assets/pb-media-image-gallery-add-selected.png)<!-- zoom -->
 
    - **Search and select an Adobe Stock image**: Use this method to find an image from Adobe Stock.
 

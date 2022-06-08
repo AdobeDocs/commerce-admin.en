@@ -52,7 +52,7 @@ To access the new Media Gallery when you are adding or editing a page:
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Content** section and do the following:
 
-   - If you have [Page Builder enabled](../page-builder/page-builder-setup.md), expand the **Media** panel and drag an **Image** placeholder to the target container. Then click **Select from Gallery**.
+   - If you have [Page Builder enabled](../page-builder/setup.md), expand the **Media** panel and drag an **Image** placeholder to the target container. Then click **Select from Gallery**.
 
       ![Drag image to stage](./assets/pb-media-image-drag.png)<!-- zoom -->
 

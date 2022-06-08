@@ -20,11 +20,11 @@ To search Adobe Stock assets and add a stock image to a page:
 
    If you want to edit an existing page, you can use the _Action_ column to click **Select** and choose **Edit**.
 
-1. Expand ![Expansion selector](./assets/icon-display-expand.png) the **Content** section and do the following:
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Content** section and do the following:
 
-   - If you have the [WYSIWYG editor enabled](editor-configure.md), click **Show/Hide Editor** and then click **Insert Image**.
+   - If you have the [WYSIWYG editor enabled](editor.md), click **Show/Hide Editor** and then click **Insert Image**.
 
-   - If you have [Page Builder enabled](../page-builder/page-builder-setup.md), expand the **Media** panel and drag an **Image** placeholder to the target container. Then click **Select from Gallery**.
+   - If you have [Page Builder enabled](../page-builder/setup.md), expand the **Media** panel and drag an **Image** placeholder to the target container. Then click **Select from Gallery**.
 
       ![Dragging an image to the Page Builder stage](./assets/pb-media-image-drag.png)<!-- zoom -->
 
