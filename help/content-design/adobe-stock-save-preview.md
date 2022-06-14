@@ -1,12 +1,12 @@
 ---
 title: Save an Adobe Stock Image Preview
-description: Placeholder
+description: Image previews are free and are a good way to experiment with different Adobe Stock images before you decide to purchase a license.s
 ---
 # Save an Adobe Stock Image Preview
 
 An image preview is a watermarked version of an Adobe Stock asset. Image previews are free and are a good way to experiment with different images before you decide to [purchase a license][stock-license] for specific images and use them on your production stores.
 
-When you are ready to license an image, the new [Media Gallery](media-gallery.md) provides a direct integration with Adobe Stock, making it easy to license the image directly from the gallery page.
+When you are ready to license an image, the new [[!DNL Media Gallery]](media-gallery.md) provides a direct integration with Adobe Stock, making it easy to license the image directly from the gallery page.
 
 ## Prerequisites
 
@@ -14,20 +14,19 @@ This feature requires the [Adobe Stock Integration][adobe-stock-integration] mod
 
 ## Save a preview image
 
-1. [Access the Adobe Stock Search grid][access-search].
+1. [Access the Adobe Stock search grid][access-search].
 
-1. Click an image in the search grid in order to [view the image details][view-details].
+1. To [view the image details][view-details], click an image in the search grid.
 
-1. Click **Save Preview**.
+1. Click **[!UICONTROL Save Preview]**.
 
-   This displays a prompt for you to specify a file name that is used to save the image to the [Media Storage][media-storage]. A default file name is provided, but you can customize the name to your preferences.
+   This action displays a prompt for you to specify a file name that is used to save the image to the [media storage][media-storage]. A default file name is provided, but you can customize the name to your preferences.
 
    ![Save Adobe Stock preview image](./assets/adobe-stock-save-preview.png)<!-- zoom -->
-   _Save the preview image_
 
-1. Click **Confirm**.
+1. Click **[!UICONTROL Confirm]**.
 
-   The page redirects to the Media Storage and your saved preview is displayed.
+   The page redirects to the media storage and your saved preview is displayed.
 
 [stock-license]: adobe-stock-license-image.md
 [access-search]: adobe-stock-manage.md#access-the-adobe-stock-search-grid

@@ -6,16 +6,16 @@ breadcrumb-title: Content and Design
 
 # Content and Design Guide {#store-content}
 
-- [Content and Design Overview](guide-overview.md)
-- [Introduction to COntent and Design](introduction.md)
-- [Content menu](content-menu.md)
+- [Guide Overview](guide-overview.md)
+- [Introduction to Content and Design](introduction.md)
+- [Content Menu](content-menu.md)
 - Design {#design}
-  - [Design configuration](configuration.md)
+  - [Design Configuration](configuration.md)
   - Themes {#themes}
-    - [Theme overview and defaults](themes.md)
-    - [Install a new theme](theme-install.md)
-    - [Manage theme assets](theme-assets.md)
-    - [Schedule design updates](schedule.md)
+    - [Themes Overview](themes.md)
+    - [Install a New Theme](theme-install.md)
+    - [Manage Theme Assets](theme-assets.md)
+    - [Schedule Design Updates](schedule.md)
   - [Page Section Setup](page-setup.md)
   - Page layout {#layout}
     - [Page Layout Overview](page-layout.md)
@@ -23,8 +23,7 @@ breadcrumb-title: Content and Design
     - [Layout Updates](layout-updates.md)
 - Content elements {#elements}
   - Pages {#pages}
-    - [Page Overview](pages.md)
-    - [Core Content](pages-core.md)
+    - [Pages Overview](pages.md)
     - [Page Workspace and Controls](pages-workspace.md)
     - [Add and Remove Pages](page-add.md)
     - [Set Home Page](page-home-new.md)
@@ -44,28 +43,28 @@ breadcrumb-title: Content and Design
     - [Use a Widget to Position a Block](widget-static-block.md)
     - [New Products List Widget](widget-new-products-list.md)
     - [Orders and Returns Widget](widget-orders-returns.md)
-- WYSIWYG editor {#wysiwyg}
+- WYSIWYG Editor {#wysiwyg}
   - [The WSIWYG Editor](editor.md)
   - [Insert a Link](editor-insert-link.md)
   - [Insert an Image](editor-insert-image.md)
   - [Insert a Widget](editor-widget.md)
   - [Insert a Variable](editor-insert-variable.md)
 - Media {#media}
-  - Media storage {#storage}
-    - [Media Storage](media-storage.md)
+  - Media Storage {#storage}
+    - [Media Storage Overview](media-storage.md)
     - [Use a Media Database](media-storage-database.md)
     - [Use a Content Delivery Network](media-storage-content-delivery-network.md)
-  - Adobe Stock integration {#adobe-stock}
+  - Adobe Stock {#adobe-stock}
     - [Adobe Stock Integration](adobe-stock.md)
     - [Use Adobe Stock Images](adobe-stock-manage.md)
     - [Save an Image Preview](adobe-stock-save-preview.md)
     - [License a Stock Image](adobe-stock-license-image.md)
-  - New Media Gallery {#gallery}
-    - [Media gallery overview](media-gallery.md)
+  - Media Gallery {#gallery}
+    - [Media gallery Overview](media-gallery.md)
     - [Asset Management](media-gallery-asset-management.md)
     - [Folder Management](media-gallery-folder-management.md)
     - [Image Optimization](media-gallery-image-optimization.md)
-- Content staging {#staging}
+- Content Staging {#staging}
   - [Content Staging Overview](content-staging.md)
   - [Schedule an Update](content-staging-scheduled-update.md)
   - [Staging Dashboard](content-staging-dashboard.md)

@@ -1,6 +1,6 @@
 ---
 title: Storefront Layout Examples
-description: Placeholder
+description: Review the examples of page layout options.
 ---
 # Storefront Layout Examples
 

@@ -1,8 +1,8 @@
 ---
-title: Introduction to Commerce Content and Design
-description: Learn how to use the content and site design features to .
+title: "Introduction to [!DNL Commerce] Content and Design"
+description: Learn how to use the content and site design features to reflect your branding and style on your store.
 ---
-# Introduction to Commerce Content and Design
+# Introduction to [!DNL Commerce] Content and Design
 
 The term _content marketing_ refers to the art of promoting your products or services by providing valuable information to your customers at no charge. The quality of your content helps distinguish your store from others, increases your visibility to search engines, and provides support to your customers. This soft-sell approach is often more effective than advertising, builds credibility and trust, and can turn your store into a destination. Content is still king.
 
@@ -10,13 +10,13 @@ Your content should reflect the branding of your store, and be delivered with yo
 
 ## Design
 
-Adobe Commerce and Magento Open Source provide a variety of easy-to-use design options that you can use to make simple changes to your store. You will also find many professionally designed themes available in the Commerce Marketplace. Like the window dressing of your store, you can change the theme for the season or for a promotion.
+Adobe Commerce and Magento Open Source provide a variety of easy-to-use design options that you can use to make simple changes to your store. You will also find many professionally designed themes available in the [Commerce Marketplace](../getting-started/commerce-marketplace.md). Like the window dressing of your store, you can change the theme for the season or for a promotion.
 
-More advanced users appreciate the flexibility of working with an object-oriented environment that assembles pages from separate components. After you understand the basics, you will appreciate working in such a flexible and fluid environment. To learn more, see the [Frontend Developer Guide][1].
+More advanced store designers appreciate the flexibility of working with an object-oriented environment that assembles pages from separate components. After you understand the basics, you will appreciate working in such a flexible and fluid environment. To learn more, see the [Frontend Developer Guide][1].
 
 ### Configuration
 
-The [Design configuration](configuration.md) lets you easily maintain different settings for each website, store, and view in your Commerce installation.
+The [Design configuration](configuration.md) lets you easily maintain different settings for each website, store, and view in your [!DNL Commerce] installation.
 
 ### Themes
 
@@ -28,6 +28,6 @@ Themes can be activated for a period of time, according to a [schedule](schedule
 
 ## Content
 
-Add summary
+Your content defines the [pages](pages.md) and elements that customers see when they access your store. You can define basic elements for your pages, such as text and images, as well as more advanced elements that provide interactive and dynamic content to enhance the shopping experience.
 
 [1]: https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/bk-frontend-dev-guide.html

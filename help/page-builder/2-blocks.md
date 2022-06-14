@@ -138,27 +138,27 @@ A dynamic block includes logic that determines where, when, and to whom it appea
 
 ### Step 1: Create a new dynamic block
 
-1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Dynamic Blocks**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Elements]_ > **[!UICONTROL Dynamic Blocks]**.
 
    ![Dynamic Blocks list](./assets/pb-tutorial2-block-dynamic-add.png)<!-- zoom -->
 
-1. In the upper-right corner, click **Add Dynamic Block**.
+1. In the upper-right corner, click **[!UICONTROL Add Dynamic Block]**.
 
    ![New Dynamic Block page](./assets/pb-tutorial2-block-dynamic-new.png)<!-- zoom -->
 
 1. Complete the basic settings for the new dynamic block:
 
-   - Set **Enable Dynamic Block** to `Yes`.
+   - Set **[!UICONTROL Enable Dynamic Block]** to `Yes`.
 
-   - For **Dynamic Block Name**, enter `Tee Shirt Promo`.
+   - For **[!UICONTROL Dynamic Block Name]**, enter `Tee Shirt Promo`.
 
-   - Set **Dynamic Block Type** to `Content Area` and click **Done**.
+   - Set **[!UICONTROL Dynamic Block Type]** to `Content Area` and click **[!UICONTROL Done]**.
 
       The Dynamic Block Type determines where in the [page layout](https://docs.magento.com/user-guide/design/page-layout-standard.html) that the block is placed. When setting up a dynamic block for your store, consider both the [page layout](https://docs.magento.com/user-guide/design/page-layout.html) and the [theme](https://docs.magento.com/user-guide/design/themes.html), so you can put the available space to good use. Some stores have an active content area that is limited to a fixed width, while others extend the full width of the screen.
 
       ![Dynamic Block Type setting](./assets/pb-dynamic-block-type.png)<!-- zoom -->
 
-   - For **Customer Segment**, select the checkbox of each segment that you want to apply to the dynamic block and click **Done** to save the list of segments.
+   - For **[!UICONTROL Customer Segment]**, select the checkbox of each segment that you want to apply to the dynamic block and click **Done** to save the list of segments.
 
       For the following example, there are two [customer segments](https://docs.magento.com/user-guide/marketing/customer-segments.html) that identify registered customers by gender. This dynamic block appears only to registered female customers who are logged in to their accounts while they shop in your store.
 
@@ -172,7 +172,7 @@ Scroll down to the _[!UICONTROL Content]_ section, which displays an empty [!DNL
 
 1. Hover over the row container to display the toolbox and choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon.
 
-1. Under _[!UICONTROL Appearance]_, choose **Full Bleed**.
+1. Under _[!UICONTROL Appearance]_, choose **[!UICONTROL Full Bleed]**.
 
 1. For **[!UICONTROL Minimum Height]**, enter `400px`.
 
@@ -210,7 +210,7 @@ The row is now divided into two columns of equal width.
 
    ![Setting the line height](./assets/pb-tutorial2-column-text-editor-line-height.png)<!-- zoom -->
 
-1. Set the **Font Size** for each line as follows:
+1. Set the **[!UICONTROL Font Size]** for each line as follows:
 
    |Line | Font size |
    |-----| ---------- |
@@ -244,11 +244,11 @@ In the first exercise, you learned how to use the [Button](buttons.md) content t
 
 1. For **[!UICONTROL URL]**, enter the relative link that you prepared.
 
-1. Set **Target** to `None`.
+1. Set **[!UICONTROL Target]** to `None`.
 
    This setting opens the page in the same browser window, rather than opening a new tab.
 
-1. For **Title**, enter `Shop Tees`.
+1. For **[!UICONTROL Title]**, enter `Shop Tees`.
 
    The Title link attribute is used by some browsers as a tooltip.
 
@@ -266,7 +266,7 @@ In the first exercise, you learned how to use the [Button](buttons.md) content t
 
 1. Open the _Tee Shirt Promo_ dynamic block in edit mode again.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Related Promotions** section and click **Add Cart Price Rules**.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Related Promotions]** section and click **[!UICONTROL Add Cart Price Rules]**.
 
    ![Related promotions](./assets/pb-dynamic-blocks-related-promotions.png)<!-- zoom -->
 
@@ -282,7 +282,7 @@ In the first exercise, you learned how to use the [Button](buttons.md) content t
 
 ### Step 4: Add the dynamic block to a page
 
-1. In the _Admin_ sidebar, go to **Content** > _Element_ > **Pages**
+1. In the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Elements]_ > **[!UICONTROL Pages]**
 
 1. Find the _Simple Page_ that you created in the [first walkthrough exercise](1-simple-page.md) and open it in edit mode.
 
@@ -290,7 +290,7 @@ In the first exercise, you learned how to use the [Button](buttons.md) content t
 
 1. Hover over the top row with the same image as the dynamic block to display the toolbox and the _Remove_ (![Remove icon](./assets/pb-icon-remove.png))<!-- width="20px" --> icon.
 
-   To confirm removal of the row from the page, click  **OK** .
+   To confirm removal of the row from the page, click  **[!UICONTROL OK]** .
 
 1. In the [!DNL Page Builder] panel under _[!UICONTROL Layout]_, drag a new **[!UICONTROL Row]** placeholder to the top of the stage.
 
@@ -324,7 +324,7 @@ In the first exercise, you learned how to use the [Button](buttons.md) content t
 
 1. In the upper-right corner, click the **[!UICONTROL Save]** arrow and choose **[!UICONTROL Save & Close]**.
 
-**Congratulations!** You have completed the second part of the Block exercise. Make sure to keep your work for reference.
+You have completed the second part of the Block exercise. Make sure to keep your work for reference.
 
 ## Part 3: Update the dynamic block
 
@@ -396,7 +396,7 @@ Because this dynamic block is visible only to members of a specific customer seg
 
    ![Dynamic block displayed for a customer segment](./assets/pb-tutorial2-dynamic-block-storefront.png)<!-- zoom -->
 
-**Congratulations!** You have completed the third part of the Block exercise. Make sure to keep your work for reference.
+You have completed the third part of the Block exercise. Make sure to keep your work for reference.
 
 When you are ready, proceed to [Part 3: Catalog Content](3-catalog-content.md)
 

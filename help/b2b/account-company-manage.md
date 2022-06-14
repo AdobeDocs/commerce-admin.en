@@ -39,7 +39,7 @@ The following actions can be applied to either single or multiple records.
 
 Users who are associated with a blocked company account cannot access the account, or place orders from the store. A company with an account that is not in good standing might be blocked temporarily until the matter is resolved.
 
-1. Set the **Actions** control to `Block`.
+1. Set the **[!UICONTROL Actions]** control to `Block`.
 
 1. When prompted to confirm, click **[!UICONTROL OK]**.
 
@@ -47,7 +47,7 @@ Users who are associated with a blocked company account cannot access the accoun
 
 Deleted company accounts cannot be restored. The status of user accounts that are associated with the company is set to `Inactive` and the Company ID is removed from the profiles of user accounts. Information about company activity and transactions is retained in the system.
 
-1. Set the **Actions** control to `Delete`.
+1. Set the **[!UICONTROL Actions]** control to `Delete`.
 
 1. When prompted to confirm, click **[!UICONTROL OK]**.
 
@@ -55,7 +55,7 @@ Deleted company accounts cannot be restored. The status of user accounts that ar
 
 The credit in the accounts of selected companies is converted to the current rate of the selected currency.
 
-1. Set the **Actions** control to `Convert Currency`.
+1. Set the **[!UICONTROL Actions]** control to `Convert Currency`.
 
 1. When prompted to confirm, click **[!UICONTROL OK]**.
 

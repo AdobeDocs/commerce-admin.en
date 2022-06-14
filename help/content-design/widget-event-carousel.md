@@ -1,6 +1,6 @@
 ---
 title: Catalog Events Carousel Widget
-description: Placeholder
+description: Learn how to use the Catalog Events Carousel widget to display a slider of upcoming events on a page.
 ---
 # Catalog Events Carousel Widget
 
@@ -18,43 +18,43 @@ Before you begin, follow the [instructions](https://docs.magento.com/user-guide/
 
 ## Step 2: Create the widget
 
-1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Widgets**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Elements]_ > **[!UICONTROL Widgets]**.
 
-1. In the upper-right corner, click **Add Widget**.
+1. In the upper-right corner, click **[!UICONTROL Add Widget]**.
 
-1. In the _Settings_ section, do the following:
+1. In the _[!UICONTROL Settings]_ section, do the following:
 
-   - Set **Type** to `Catalog Events Carousel`.
+   - Set **[!UICONTROL Type]** to `Catalog Events Carousel`.
 
-   - Choose the **Design Theme** that is used by the store.
+   - Choose the **[!UICONTROL Design Theme]** that is used by the store.
 
-1. Click **Continue**.
+1. Click **[!UICONTROL Continue]**.
 
    ![Widget settings for an event carousel](./assets/widget-event-carousel-settings.png)<!-- zoom -->
 
-1. In the _Storefront Properties_ section, do the following:
+1. In the _[!UICONTROL Storefront Properties]_ section, do the following:
 
-   - For **Widget Title**, enter a descriptive title for the widget.
+   - For **[!UICONTROL Widget Title]**, enter a descriptive title for the widget.
 
       This title is visible only from the _Admin_.
 
-   - For **Assign to Store Views**, select the store views where the widget will be visible.
+   - For **[!UICONTROL Assign to Store Views]**, select the store views where the widget will be visible.
 
       You can select a specific store view, or `All Store Views`. To select multiple views, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
 
-   - (Optional) For **Sort Order**, enter a number to determine the order this item appears with others in the same part of the page. (`0` = first, `1` = second, `3` = third, and so on.)
+   - (Optional) For **[!UICONTROL Sort Order]**, enter a number to determine the order this item appears with others in the same part of the page. (`0` = first, `1` = second, `3` = third, and so on.)
 
    ![Widget storefront properties](./assets/widget-event-carousel-storefront-properties.png)<!-- zoom -->
 
 ## Step 3: Choose the location
 
-1. In the _Layout Updates_ section, click **Add Layout Update**.
+1. In the _Layout Updates_ section, click **[!UICONTROL Add Layout Update]**.
 
-1. Set **Display On** to `Specified Page`.
+1. Set **[!UICONTROL Display On]** to `Specified Page`.
 
-1. Set **Page** to `CMS Home Page`.
+1. Set **[!UICONTROL Page]** to `CMS Home Page`.
 
-1. Set **Container** one fo the following:
+1. Set **[!UICONTROL Container]** one fo the following:
 
    - `Main Content Area`
    - `Sidebar Additional`
@@ -62,34 +62,34 @@ Before you begin, follow the [instructions](https://docs.magento.com/user-guide/
 
    >[!NOTE]
    >
-   >The results vary according to theme and page layout. The _Catalog Events Carousel Default Template_ must also be specified in the category configuration.
+   >The results vary according to theme and page layout. The _[!UICONTROL Catalog Events Carousel Default Template]_ must also be specified in the category configuration.
 
-1. If you want the events carousel to appear in an additional location in the storefront, click **Add Layout Update** and repeat the these steps for another location.
+1. If you want the events carousel to appear in an additional location in the storefront, click **[!UICONTROL Add Layout Update]** and repeat the these steps for another location.
 
    ![Layout updates](./assets/widget-event-carousel-layout-updates-catalog-category-sidebar.png)<!-- zoom -->
 
-1. Click **Save and Continue Edit**.
+1. Click **[!UICONTROL Save and Continue Edit]**.
 
    For now, you can ignore the message to refresh the cache.
 
 ## Step 4: Configure the options
 
-1. In the left panel, choose **Widget Options**.
+1. In the left panel, choose **[!UICONTROL Widget Options]**.
 
-1. For **Frame Size**, enter the number of events that you want to list in the slider at the same time.
+1. For **[!UICONTROL Frame Size]**, enter the number of events that you want to list in the slider at the same time.
 
    To view only one event at a time, enter `1`.
 
-1. For **Scroll**, enter the number of event listings that you want to scroll per click.
+1. For **[!UICONTROL Scroll]**, enter the number of event listings that you want to scroll per click.
 
    To scroll to the next event, enter `1`.
 
-1. For a custom width, enter the number of pixels for **Block Custom Width**.
+1. For a custom width, enter the number of pixels for **[!UICONTROL Block Custom Width]**.
 
    The custom width for the example on this page is set to 250 pixels.
 
    ![Custom width widget options](./assets/widget-options-custom-width.png)<!-- zoom -->
 
-1. When complete, click **Save**.
+1. When complete, click **[!UICONTROL Save]**.
 
 1. When prompted to refresh the cache, click the link in the message at the top of the page and follow the instructions.

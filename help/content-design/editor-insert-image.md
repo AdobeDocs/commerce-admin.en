@@ -1,16 +1,16 @@
 ---
 title: Insert an Image in the Editor
-description: Placeholder
+description: The editor provides an easy way to insert an image from the media storage, link to an image that resides on another server, or use Adobe Stock assets.
 ---
 # Insert an Image in the Editor
 
-From the editor, you can insert an image that has been uploaded to [Media Storage](media-storage.md), link to an image that resides on another server, or use the Adobe Stock Integration to search for and use Adobe Stock assets.
+From the editor, you can insert an image that has been uploaded to the [media storage](media-storage.md), link to an image that resides on another server, or use the Adobe Stock integration to search for and use Adobe Stock assets.
 
 ![Media Storage](./assets/media-storage.png)<!-- zoom -->
 
 1. Open a page, block, or dynamic block in edit mode.
 
-1. Go to the _Content_ section and click any element that supports the editor.
+1. Go to the _[!UICONTROL Content]_ section and click any element that supports the editor.
 
 1. Position your cursor where you want the image to appear.
 
@@ -18,7 +18,7 @@ From the editor, you can insert an image that has been uploaded to [Media Storag
 
    ![Insert Image icon](./assets/editor-toolbar-image-button.png)<!-- zoom -->
 
-   This opens the _Insert/edit image_ dialog.
+   This opens the _[!UICONTROL Insert/edit image]_ dialog.
 
 1. For **Source**, click the _Search_ icon and use the method that matches the location of the image asset that you want to use:
 
@@ -28,17 +28,17 @@ From the editor, you can insert an image that has been uploaded to [Media Storag
 
       - Select the folder in the tree where you want to add the new image file.
 
-      - Click **Choose Files**.
+      - Click **[!UICONTROL Choose Files]**.
 
       - Locate and choose the image to add it to the gallery.
 
-      - Click the thumbnail of the new file and click **Add Selected**.
+      - Click the thumbnail of the new file and click **[!UICONTROL Add Selected]**.
 
    - **Select an existing asset**: Use this method to select an existing image asset from the media storage/gallery.
 
       - Use the tree to navigate to the image.
 
-      - Click the thumbnail and click **Add Selected**.
+      - Click the thumbnail and click **[!UICONTROL Add Selected]**.
 
          ![Adding a selected image](../page-builder/assets/pb-media-image-gallery-add-selected.png)<!-- zoom -->
 
@@ -48,20 +48,20 @@ From the editor, you can insert an image that has been uploaded to [Media Storag
       >
       >This requires an [Adobe Stock integration](adobe-stock.md) configured for your Admin.
 
-      - Click **Search Adobe Stock** and search for an image.
+      - Click **[!UICONTROL Search Adobe Stock]** and search for an image.
 
       - Save the preview or licensed image to the gallery.
 
          See [Using Adobe Stock Images](adobe-stock-manage.md) for more information about working with [Adobe Stock][adobe-stock] assets.
 
-      - Select the asset thumbnail in the gallery and click **Add Selected**.
+      - Select the asset thumbnail in the gallery and click **[!UICONTROL Add Selected]**.
 
-1. For **Image Description**, enter a brief description of the image.
+1. For **[!UICONTROL Image Description]**, enter a brief description of the image.
 
-1. Enter the with and height **Dimensions**, in pixels, for rendering the image on the page.
+1. Enter the with and height **[!UICONTROL Dimensions]**, in pixels, for rendering the image on the page.
 
-   Keep the **Constrain proportions** checkbox selected to automatically maintain the aspect ratio for the image.
+   Keep the **[!UICONTROL Constrain proportions]** checkbox selected to automatically maintain the aspect ratio for the image.
 
-1. Click **Insert** to complete the process.
+1. Click **[!UICONTROL Insert]** to complete the process.
 
 [adobe-stock]: https://stock.adobe.com

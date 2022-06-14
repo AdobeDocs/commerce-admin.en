@@ -1,6 +1,6 @@
 ---
 title: Page Layouts
-description: Placeholder
+description: Learn about the page layout sections and how to configure default layouts.
 ---
 # Page Layouts
 
@@ -12,17 +12,17 @@ On the page, content blocks float to fill the available space, according to the 
 
 ## Configure default layouts
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel under _General_, choose **Web**.
+1. In the left panel under _[!UICONTROL General]_, choose **[!UICONTROL Web]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Default Layouts** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Default Layouts]** section.
 
    ![Default layouts](./assets/web-default-layouts.png)<!-- zoom -->
 
    [Default Layouts](https://docs.magento.com/user-guide/configuration/general/web.html#default-layouts)
 
-1. Choose the **Default Product Layout** that you want to use for product pages.
+1. Choose the **[!UICONTROL Default Product Layout]** that you want to use for product pages.
 
    This determines the layout that is used by default for product pages.
 
@@ -39,7 +39,7 @@ On the page, content blocks float to fill the available space, according to the 
    - `Category -- Full Width` - Uses the _Category - Full Width_ layout for product pages.
    - `Product -- Full Width` - (Recommended) Uses the _Product - Full Width_ layout for product pages.
 
-1. Choose the **Default Category Layout** that you want to use for category pages.
+1. Choose the **[!UICONTROL Default Category Layout]** that you want to use for category pages.
 
    This determines the layout that is used by default for category pages.
 
@@ -56,7 +56,7 @@ On the page, content blocks float to fill the available space, according to the 
    - `Category -- Full Width` - (Recommended) Uses the _Category - Full Width_ layout for category pages.
    - `Product -- Full Width` - Uses the _Product - Full Width_ layout for category pages.
 
-1. Choose the **Default Page Layout** that you want to use for CMS pages.
+1. Choose the **[!UICONTROL Default Page Layout]** that you want to use for CMS pages.
 
    This determines the layout that is used by default for CMS pages.
 
@@ -73,7 +73,7 @@ On the page, content blocks float to fill the available space, according to the 
    - `Category - Full Width` - Uses the _Category - Full Width_ layout for CMS pages.
    - `Product - Full Width` - Uses the _Product - Full Width_ layout for CMS pages.
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.
 
 ## Standard Page Layouts
 

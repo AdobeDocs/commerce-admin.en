@@ -1,13 +1,12 @@
 ---
-title: Page Grid Layout
-description: Placeholder
+title: Pages Grid Layout
+description: Learn how to change the columns displayed in the Pages grid in the Admin.
 ---
-# Page Grid Layout
+# Pages Grid Layout
 
 The selection of columns and their order in the grid can be changed according to your preference. To keep the new column arrangement, you can save it as a view.
 
 ![A column in the Pages grid moved to a new location](./assets/page-view-column-move.png)<!-- zoom -->
-_Moving a column_
 
 ## Change the selection of columns
 
@@ -25,7 +24,7 @@ In the upper-right corner, click the _Columns_ (![Column icon](../assets/icon-co
 
 ## Save a view
 
-1. Click the _View_ (![Eye icon](../assets/icon-view-eye.png)) control and then click **Save View As**.
+1. Click the _View_ (![Eye icon](../assets/icon-view-eye.png)) control and then click **[!UICONTROL Save View As]**.
 
    ![The view controls displayed above the Pages grid](./assets/page-grid-default-view-save.png)<!-- zoom -->
 

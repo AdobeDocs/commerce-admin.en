@@ -1,12 +1,12 @@
 ---
 title: Content Staging
-description: placeholder
+description: Content Staging gives your business team the ability to easily create, preview, and schedule a wide range of content updates for your store directly from the Admin.
 ---
 # Content Staging
 
 {{ee-feature}}
 
-Content Staging gives your business team the ability to easily create, preview, and schedule a wide range of content updates for your store directly from the _Admin_. For example, rather than thinking in terms of a static page, consider a page to be a collection of different elements that can be turned _on_ or _off_ according to schedule. You can use Content Staging to create a page that changes automatically throughout the year on schedule.
+Content staging gives your business team the ability to easily create, preview, and schedule a wide range of content updates for your store directly from the _Admin_. For example, rather than thinking in terms of a static page, consider a page to be a collection of different elements that can be turned _on_ or _off_ according to schedule. You can use content staging to create a page that changes automatically throughout the year on schedule.
 
 The term _campaign_ refers to the record of a scheduled change, or collection of changes, that might be viewed on a calendar or timeline, and managed from the Staging Dashboard. The terms _scheduled change_ and _scheduled update_ are interchangeable and refer to a single change.
 
@@ -14,7 +14,7 @@ When you schedule a content change for a specific period of time, the content re
 
 ## Content staging objects and campaigns
 
-When a new scheduled update is created for any of the following objects, a corresponding campaign is created as a placeholder, and the _Scheduled Changes_ box appears across the top of the page. The placeholder campaign has a start date, but not an end date. You can schedule updates to the content as part of a campaign, and then preview and share the changes by date, time, or store view. After a new campaign is created for one object, you can assign it as a scheduled update for other objects.
+When a new scheduled update is created for any of the following objects, a corresponding campaign is created as a placeholder, and the _[!UICONTROL Scheduled Changes]_ box appears across the top of the page. The placeholder campaign has a start date, but not an end date. You can schedule updates to the content as part of a campaign, and then preview and share the changes by date, time, or store view. After a new campaign is created for one object, you can assign it as a scheduled update for other objects.
 
 - [Products](https://docs.magento.com/user-guide/catalog/product-scheduled-changes.html)
 - [Categories](https://docs.magento.com/user-guide/catalog/category-scheduled-changes.html)
@@ -27,7 +27,7 @@ When a new scheduled update is created for any of the following objects, a corre
 
 1. **Create the baseline content**
 
-   The baseline is the content of an asset without a campaign and includes everything below the _Scheduled Changes_ section at the top of the page. The baseline content is always used, unless there is an active campaign with changes scheduled for that place on the timeline.
+   The baseline is the content of an asset without a campaign and includes everything below the _[!UICONTROL Scheduled Changes]_ section at the top of the page. The baseline content is always used, unless there is an active campaign with changes scheduled for that place on the timeline.
 
 1. **Create the first campaign**
 
@@ -35,7 +35,7 @@ When a new scheduled update is created for any of the following objects, a corre
 
    >[!NOTE]
    >
-   >Campaign **Start Date** and **End Date** must be defined by using the **_default_** Admin time zone, which is converted from each website local time zone. For example, if you have multiple websites in different time zones, but you want to start campaign based on a US time zone, you need to schedule separate update for each local time zone, and set **Start Date** and **End Date** in converted from each local website time zone to default Admin time zone.
+   >Campaign Start Date and End Date must be defined by using the **_default_** Admin time zone, which is converted from each website local time zone. For example, if you have multiple websites in different time zones, but you want to start campaign based on a US time zone, you need to schedule separate update for each local time zone, and set **[!UICONTROL Start Date]** and **[!UICONTROL End Date]** in converted from each local website time zone to default Admin time zone.
 
 1. **Add a second campaign**
 
@@ -53,15 +53,15 @@ When a new scheduled update is created for any of the following objects, a corre
 >
 >While a staging update is active for an entity, editing the entity is editing the current active staging update. It does not affect the baseline content, which is restored when the staging update ends.
 
-## Content Staging dashboard
+## [!UICONTROL Content Staging] dashboard
 
-The Content Staging [dashboard](content-staging-dashboard.md) provides visibility into all planned site changes and updates. Any day, range of dates, or time period of a campaign can be previewed, and shared with others.
+The [!UICONTROL Content Staging] [dashboard](content-staging-dashboard.md) provides visibility into all planned site changes and updates. Any day, range of dates, or time period of a campaign can be previewed, and shared with others.
 
 ![Staging dashboard](./assets/content-staging-dashboard-grid.png)<!-- zoom -->
 
 ## Troubleshooting resources
 
-For help with troubleshooting content staging issues, see the following Commerce Support articles:
+For help with troubleshooting content staging issues, see the following [!DNL Commerce] Support articles:
 
 - [Error 404 on all pages due to content staging issue](https://support.magento.com/hc/en-us/articles/360000262174)
 - [Scheduled Content Staging updates not displayed with stale Fastly cache](https://support.magento.com/hc/en-us/articles/360000548734)

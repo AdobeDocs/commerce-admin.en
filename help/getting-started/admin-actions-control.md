@@ -31,7 +31,7 @@ The checkbox in the first column of the list identifies each record that is a ta
 
    - In the list, select the checkbox of each record to be updated.
 
-   - Set the **Actions** control to `Update Attributes` and click **[!UICONTROL Submit]**.
+   - Set the **[!UICONTROL Actions]** control to `Update Attributes` and click **[!UICONTROL Submit]**.
 
       The Update Attributes page lists all the available attributes, organized by group in the panel on the left.
 

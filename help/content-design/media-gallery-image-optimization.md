@@ -1,6 +1,6 @@
 ---
 title: Media Gallery Image Optimization
-description: Placeholder
+description: "Learn how to use image optimization for your [!DNL Commerce] media assets."
 ---
 # Media Gallery Image Optimization
 
@@ -8,14 +8,14 @@ The new [Media Gallery](media-gallery.md) provides an _Image Optimization_ featu
 
 ## Configure image optimization
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Advanced** and choose **System**.
+1. In the left panel, expand **[!UICONTROL Advanced]** and choose **[!UICONTROL System]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) **Media Gallery Image Optimization** and do the following:
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) **[!UICONTROL Media Gallery Image Optimization]** and do the following:
 
-   - Set **Enable Image Optimization** to `Yes`.
-   - Enter the **Maximum Width** and **Maximum Height** values (in pixels) according to your needs..
+   - Set **[!UICONTROL Enable Image Optimization]** to `Yes`.
+   - Enter the **[!UICONTROL Maximum Width]** and **[!UICONTROL Maximum Height]** values (in pixels) according to your needs..
 
 ## Behavior
 

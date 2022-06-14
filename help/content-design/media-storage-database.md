@@ -1,6 +1,6 @@
 ---
 title: Use a Media Database
-description: Placeholder
+description: "Learn how to use a media database to store your [!DNL Commerce] media files."
 ---
 # Use a Media Database
 
@@ -8,7 +8,7 @@ description: Placeholder
 >
 >The database media storage method is deprecated as of Adobe Commerce and Magento Open Source 2.4.3.
 
-By default, all images, compiled CSS files, and compiled JavaScript files of the Commerce instance are stored in the file system on the web server. You can choose to store these files in a database on a database server. One advantage of this approach is the option of automatic synchronization and reverse synchronization between the web server file system and the database. You can use the default database to store media or create a new one. To be able to use a newly created database as media storage, you must add information about it and its access credentials to the `env.php` file.
+By default, all images, compiled CSS files, and compiled JavaScript files of the [!DNL Commerce] instance are stored in the file system on the web server. You can choose to store these files in a database on a database server. One advantage of this approach is the option of automatic synchronization and reverse synchronization between the web server file system and the database. You can use the default database to store media or create a new one. To be able to use a newly created database as media storage, you must add information about it and its access credentials to the `env.php` file.
 
 ## Database workflow
 
@@ -20,29 +20,29 @@ By default, all images, compiled CSS files, and compiled JavaScript files of the
 
 1. **System locates media in database** - A PHP script transfers the files from the database to the file system, and sent to the customer’s browser. The browser request for media triggers the script to run as follows:
 
-    - If web server [rewrites](https://docs.magento.com/user-guide/marketing/url-rewrite.html) are enabled for Commerce and supported by the server, the PHP script runs only when the requested media is not found in the file system.
-    - If web server rewrites are disabled for Commerce, or not supported by the server, the PHP script runs anyway, even if the required media is available in the file system.
+    - If web server [rewrites](https://docs.magento.com/user-guide/marketing/url-rewrite.html) are enabled for [!DNL Commerce] and supported by the server, the PHP script runs only when the requested media is not found in the file system.
+    - If web server rewrites are disabled for [!DNL Commerce], or not supported by the server, the PHP script runs anyway, even if the required media is available in the file system.
 
 ## Use a database for media storage
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Advanced** and choose **System**.
+1. In the left panel, expand **[!UICONTROL Advanced]** and choose **[!UICONTROL System]**.
 
-1. In the upper-left corner, set **Store View** to `Default Config` to apply the configuration at the global level.
+1. In the upper-left corner, set **[!UICONTROL Store Viewl]** to `Default Config` to apply the configuration at the global level.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Storage Configuration for Media** section and do the following:
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Storage Configuration for Media]** section and do the following:
 
     ![Advanced configuration - storage configuration for media](./assets/database-storage-deprecated.png)<!-- zoom -->
 
     [_Storage Configuration for Media (Database)_](https://docs.magento.com/user-guide/configuration/advanced/system.html)
 
-    - Set **Media Storage** to `Database`.
+    - Set **[!UICONTROL Media Storage]** to `Database`.
 
-    - Set **Select Media Database** to the database you want to use.
+    - Set **[!UICONTROL Select Media Database]** to the database you want to use.
 
-    - Click **Synchronize** to transfer the existing media to the newly selected database.
+    - Click **[!UICONTROL Synchronize]** to transfer the existing media to the newly selected database.
 
-    - Enter the **Environment Update Time** in seconds.
+    - Enter the **[!UICONTROL Environment Update Time]** in seconds.
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.

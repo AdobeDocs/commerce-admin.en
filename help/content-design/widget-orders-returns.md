@@ -1,6 +1,6 @@
 ---
 title: Orders and Returns Widget
-description: Placeholder
+description: Learn how to use the Orders and Returns to give customers the ability to check the status of their orders, print invoices, and track shipments.
 ---
 # Orders and Returns Widget
 
@@ -10,51 +10,51 @@ The _Orders and Returns_ widget gives guests the ability to check the status of 
 
 ## Use the Orders and Returns widget
 
-1. Use the **Find Order By** option to choose one of the following parameters to be used to find the order:
+1. Use the **[!UICONTROL Find Order By]** option to choose one of the following parameters to be used to find the order:
 
    - Email Address
    - ZIP Code
 
-1. Enter the **Order ID** and **Billing Last Name**.
+1. Enter the **[!UICONTROL Order ID]** and **[!UICONTROL Billing Last Name]**.
 
-1. Enter either the billing **Email Address** or **ZIP Code** that is associated with the order.
+1. Enter either the billing **[!UICONTROL Email Address]** or **[!UICONTROL ZIP Code]** that is associated with the order.
 
-1. Click **Search** to retrieve the order.
+1. Click **[!UICONTROL Search]** to retrieve the order.
 
    ![Order information displayed in the storefront](./assets/storefront-widget-orders-returns-view.png)<!-- zoom -->
 
 ## Set up the Orders and Returns widget
 
-1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Widgets**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Elements]_ > **[!UICONTROL Widgets]**.
 
-1. In the upper-right corner, click **Add Widget**.
+1. In the upper-right corner, click **[!UICONTROL Add Widget]**.
 
-1. In the _Settings_ section, do the following:
+1. In the _[!UICONTROL Settings]_ section, do the following:
 
-   - Set **Type** to `Orders and Returns`.
+   - Set **[!UICONTROL Type]** to `Orders and Returns`.
 
-   - Choose the **Design Theme** that is used by the store.
+   - Choose the **[!UICONTROL Design Theme]** that is used by the store.
 
-1. Click **Continue**.
+1. Click **[!UICONTROL Continue]**.
 
-1. In the _Storefront Properties_ section, do the following:
+1. In the _[!UICONTROL Storefront Properties]_ section, do the following:
 
-   - For **Widget Title**, enter a descriptive title for the widget.
+   - For **[!UICONTROL Widget Title]**, enter a descriptive title for the widget.
 
       This title is visible only from the Admin.
 
-   - For **Assign to Store Views**, select the store views where the widget will be visible.
+   - For **[!UICONTROL Assign to Store Views]**, select the store views where the widget will be visible.
 
       You can select a specific store view, or `All Store Views`. To select multiple views, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
 
-   - (Optional) For **Sort Order**, enter a number to determine the order this item appears with others in the same part of the page. (`0` = first, `1` = second, `3` = third, and so on.)
+   - (Optional) For **[!UICONTROL Sort Order]**, enter a number to determine the order this item appears with others in the same part of the page. (`0` = first, `1` = second, `3` = third, and so on.)
 
-1. In the _Layout Updates_ section, click **Add Layout Update** and do the following:
+1. In the _[!UICONTROL Layout Updates]_ section, click **[!UICONTROL Add Layout Update]** and do the following:
 
-   - Set **Display On** to the type of page where you want the widget to appear.
+   - Set **[!UICONTROL Display On]** to the type of page where you want the widget to appear.
 
    - Complete the rest of the layout update information to determine where the widget is displayed on the page.
 
-1. When complete, click **Save**.
+1. When complete, click **[!UICONTROL Save]**.
 
 1. When prompted to refresh the cache, click the link in the message at the top of the page and follow the instructions.

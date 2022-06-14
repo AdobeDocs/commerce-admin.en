@@ -1,62 +1,62 @@
 ---
-title: The Media Gallery
-description: Placeholder
+title: "The [!DNL Media Gallery]"
+description: Use the Media Gallery to organize and manage your media files on the server.
 ---
-# The Media Gallery
+# The [!DNL Media Gallery]
 
-With Adobe Commerce or Magento Open Source 2.4, merchants can use the new _enhanced_ Media Gallery to organize and manage their media files on the server. This new Media Gallery contains the same functionalities as the existing Media Storage, but includes an improved user interface and a closer integration with [Adobe Stock][adobe-stock].
+With Adobe Commerce or Magento Open Source 2.4, merchants can use the new _enhanced_ [!DNL Media Gallery] to organize and manage their media files on the server. This new [!DNL Media Gallery] contains the same functionalities as the existing media storage, but includes an improved user interface and a closer integration with [Adobe Stock][adobe-stock].
 
 ![Images displayed in the Media Gallery grid](./assets/media-gallery-grid.png)<!-- zoom -->
 
 >[!NOTE]
 >
->Product Gallery images added to the [_Images and Videos_ product section](https://docs.magento.com/user-guide/catalog/product-image-upload.html) are not managed by the new Media Gallery. Only images used in the _Content_ product section fields are displayed and filtered in the new Media Gallery.
+>Product images added to the [_[!UICONTROL Images and Videos]_ product section](https://docs.magento.com/user-guide/catalog/product-image-upload.html) are not managed by the [!DNL Media Gallery]. Only images used in the _[!UICONTROL Content]_ product section fields are displayed and filtered in the new [!DNL Media Gallery].
 
-## Enable the new Media Gallery
+## Enable the new [!DNL Media Gallery]
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Advanced** and choose **System**.
+1. In the left panel, expand **[!UICONTROL Advanced]** and choose **[!UICONTROL System]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) **Media Gallery**.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) **[!UICONTROL Media Gallery]**.
 
-   ![Advanced configuration - Media Gallery](./assets/system-media-gallery.png)<!-- zoom -->
+   ![Advanced configuration - [!DNL Media Gallery]](./assets/system-media-gallery.png)<!-- zoom -->
 
-1. Set **Enable Old Media Gallery** to `No`.
+1. Set **[!UICONTROL Enable Old Media Gallery]** to `No`.
 
-1. Click **Save Config**.
+1. Click **[!UICONTROL Save Config]**.
 
-1. When prompted, click the **Cache Management** link in the system message and refresh the invalid cache.
+1. When prompted, click the **[!UICONTROL Cache Management]** link in the system message and refresh the invalid cache.
 
-   The [Content menu][content-menu] now displays the new _Media Gallery_ option.
+   The [[!UICONTROL Content] menu][content-menu] now displays the new _[!UICONTROL Media Gallery]_ option.
 
 >[!NOTE]
 >
->Full functionality for new Media Gallery requires `media.gallery.synchronization` and `media.content.synchronization` queue consumers to be started for initial synchronization. See [Manage message queues](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html) in our developer documentation for more details.
+>Full functionality for new [!DNL Media Gallery] requires `media.gallery.synchronization` and `media.content.synchronization` queue consumers to be started for initial synchronization. See [Manage message queues](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html) in our developer documentation for more details.
 
-## Access the new Media Gallery
+## Access the new [!DNL Media Gallery]
 
-The new Media Gallery is accessible from the Content menu or when you [add or edit a page][add-page]. You can also access it when you [create or edit a category][create-category], or when you [insert images using the Content Editor][editor-insert-image].
+The new [!DNL Media Gallery] is accessible from the Content menu or when you [add or edit a page][add-page]. You can also access it when you [create or edit a category][create-category], or when you [insert images using the Content Editor][editor-insert-image].
 
-To access the new Media Gallery through the Content menu:
+To access the new [!UICONTROL Media Gallery] through the [!UICONTROL Content] menu:
 
-- On the _Admin_ sidebar, go to **Content** > _Media_ > **Media Gallery**.
+- On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Media]_ > **[!UICONTROL Media Gallery]**.
 
 To access the new Media Gallery when you are adding or editing a page:
 
-1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Pages**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Elements]_ > **[!UICONTROL Pages]**.
 
-1. Click **Add a New Page**.
+1. Click **[!UICONTROL Add a New Page]**.
 
-   If you want to edit an existing page, you can use the _Action_ column to click **Select** and choose **Edit**.
+   If you want to edit an existing page, you can use the _[!UICONTROL Action]_ column to click **[!UICONTROL Select]** and choose **[!UICONTROL Edit]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Content** section and do the following:
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Content]** section and do the following:
 
-   - If you have [Page Builder enabled](../page-builder/setup.md), expand the **Media** panel and drag an **Image** placeholder to the target container. Then click **Select from Gallery**.
+   - If you have [Page Builder enabled](../page-builder/setup.md), expand the **[!UICONTROL Media]** panel and drag an **[!UICONTROL Image]** placeholder to the target container. Then click **[!UICONTROL Select from Gallery]**.
 
       ![Drag image to stage](./assets/pb-media-image-drag.png)<!-- zoom -->
 
-   - If you have the [WYSIWYG editor enabled][editor-config], click **Show/Hide Editor** and then click **Insert Image**.
+   - If you have the [WYSIWYG editor enabled][editor-config], click **[!UICONTROL Show/Hide Editor]** and then click **[!UICONTROL Insert Image]**.
 
 [adobe-stock]: https://stock.adobe.com
 [content-menu]: content-menu.md

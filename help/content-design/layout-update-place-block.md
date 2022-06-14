@@ -1,6 +1,6 @@
 ---
 title: Place a Block Using Layout Updates
-description: Placeholder
+description: Learn how to use a layout update to place a block on a content page.
 ---
 # Place a Block Using Layout Updates
 
@@ -33,11 +33,11 @@ The following steps show how to use a layout update to place a block on a page. 
 
 ## Step 3: Reference the layout update from the page
 
-1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Pages**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Elements]_ > **[!UICONTROL Pages]**.
 
 1. Find the page where you want to place the block and open it in edit mode.
 
-1. Scroll down and expand ![Expansion selector](../assets/icon-display-expand.png) the **Design** section.
+1. Scroll down and expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Design]** section.
 
 1. Click **Custom Layout Update** arrow to display all available layout updates that are associated with the page.
 
@@ -47,9 +47,9 @@ The following steps show how to use a layout update to place a block on a page. 
 
 ## Step 4: Save and refresh cache
 
-1. When complete, click **Save & Close**.
+1. When complete, click **[!UICONTROL Save & Close]**.
 
-1. In the message at the top of the workspace, click **Cache Management** and refresh each invalid cache.
+1. In the message at the top of the workspace, click **[!UICONTROL Cache Management]** and refresh each invalid cache.
 
 [1]: https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/layouts/layout-overview.html
 [2]: https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/layouts/xml-instructions.html

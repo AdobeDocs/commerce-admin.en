@@ -1,12 +1,12 @@
 ---
 title: Theme Assets
-description: Placeholder
+description: Learn how to manage your theme assets, such as CSS, fonts, images, and JavaScript files.
 ---
 # Theme Assets
 
 The term _static files_ refers to the collection of assets, such as CSS, fonts, images, and JavaScript, that is used by a theme. The location of static files is specified in the [Base URL](https://docs.magento.com/user-guide/stores/store-urls.html) configuration. You can add a digital signature to the URL of each static file to make it possible for browsers to detect when a newer version is available. The newer version of the file is used if the signature differs from what is stored in the browser cache.
 
-For a standard installation, the assets associated with a theme are organized in the `web` folder at the following location below the Commerce root.
+For a standard installation, the assets associated with a theme are organized in the `web` folder at the following location below the [!DNL Commerce] root.
 
    `[commerce_root]/app/design/frontend/Magento/[theme_name]/web`
 
@@ -14,17 +14,17 @@ For a standard installation, the assets associated with a theme are organized in
 
 ## Add a digital signature to static file URLs
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Advanced** and choose **Developer**.
+1. In the left panel, expand **[!UICONTROL Advanced]** and choose **[!UICONTROL Developer]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Static Files Settings** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Static Files Settings]** section.
 
    ![Static Files Settings](./assets/developer-static-files-settings.png)<!-- zoom -->
 
-1. Set **Sign Static Files** to `Yes`.
+1. Set **[!UICONTROL Sign Static Files]** to `Yes`.
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.
 
 |File type|Description|
 |--- |--- |
@@ -43,19 +43,19 @@ As part of an effort to optimize your site and reduce page load time, you can re
 >
 >CSS files can be merged from the _Admin_ panel only when working in [Developer Mode](https://docs.magento.com/user-guide/magento/installation-modes.html).
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Advanced** and choose **Developer**.
+1. In the left panel, **[!UICONTROL Advanced]** and choose **[!UICONTROL Developer]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **CSS Settings** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL CSS Settings]** section.
 
    ![CSS Settings](./assets/developer-css-settings.png)<!-- zoom -->
    
-   [*CSS Settings*](https://docs.magento.com/user-guide/configuration/advanced/developer.html#css-settings)
+   For detailed descriptions of these configuration options, see [CSS Settings](https://docs.magento.com/user-guide/configuration/advanced/developer.html#css-settings) in the _Configuration Reference_.
 
-1. Set **Merge CSS Files** to `Yes`.
+1. Set **[!UICONTROL Merge CSS Files]** to `Yes`.
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.
 
 ## Merge JavaScript files
 
@@ -65,16 +65,16 @@ Multiple JavaScript files can be merged into a single, condensed file to reduce 
 >
 >JavaScript files can be merged from the _Admin_ panel only when working in [Developer Mode](https://docs.magento.com/user-guide/magento/installation-modes.html).
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Advanced** and choose **Developer**.
+1. In the left panel, **[!UICONTROL Advanced]** and choose **[!UICONTROL Developer]**.
 
-1. Expand ![Expansion selecctor](../assets/icon-display-expand.png) the **JavaScript Settings** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL JavaScript Settings]** section.
 
    ![JavaScript Settings](./assets/developer-javascript-settings.png)<!-- zoom -->
 
-   [*JavaScript Settings*](https://docs.magento.com/user-guide/configuration/advanced/developer.html#javascript-settings)
+   For detailed descriptions of these configuration options, see [JavaScript Settings](https://docs.magento.com/user-guide/configuration/advanced/developer.html#javascript-settings) in the _Configuration Reference_.
 
-1. Set **Merge JavaScript Files** to `Yes`.
+1. Set **[!UICONTROL Merge JavaScript Files]** to `Yes`.
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.

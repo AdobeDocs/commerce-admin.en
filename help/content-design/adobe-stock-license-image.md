@@ -1,34 +1,34 @@
 ---
 title: License an Adobe Stock Image
-description: Placeholder
+description: To ensure you have legal access and to eliminate the Adobe Stock watermark, license your Adobe Stock images.
 ---
 # License an Adobe Stock Image
 
-Adobe Stock assets that you want to use for your production Adobe Commerce and Magento Open Source stores should be licensed to ensure you have legal access to the image as well as to eliminate the Adobe Stock watermark that is present on all [image previews][save-preview]. To license images or to save already-licensed images, you must be logged in to your Adobe account.
+Adobe Stock assets that you want to use for your production Adobe Commerce and Magento Open Source stores should be licensed. This licensing ensures you have legal access to the image and to eliminate the Adobe Stock watermark that is present on all [image previews][save-preview]. To license images or to save already-licensed images, you must be logged in to your Adobe account.
 
-The new [Media Gallery](media-gallery.md) provides a direct integration with Adobe Stock, making it easy to license your images directly from the gallery page.
+The new [[!DNL Media Gallery]](media-gallery.md) provides a direct integration with Adobe Stock, making it easy to license your images directly from the gallery page.
 
 ## Prerequisites
 
-This feature requires the [Adobe Stock Integration][adobe-stock-integration] module and configuration. In order to license [Adobe Stock][adobe-stock] images, a paid Adobe Stock plan and an [Adobe account][adobe-signin] are also required.
+This feature requires the [Adobe Stock Integration][adobe-stock-integration] module and configuration. Licensing [Adobe Stock][adobe-stock] images requires a paid Adobe Stock plan and an [Adobe account][adobe-signin].
 
-## License an image from the new Media Gallery
+## License an image from the new [!DNL Media Gallery]
 
-1. On the _Admin_ sidebar, go to **Content** > _Media_ > **Media Gallery**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Media]_ > **[!UICONTROL Media Gallery]**.
 
-1. Follow the steps on [Using Adobe Stock Images][using-adobe-stock] to login and save preview images to the [Media Storage][media-storage].
+1. Follow the steps on [Using Adobe Stock Images][using-adobe-stock] to log in and save preview images to the [media storage][media-storage].
 
-    ![Saved Preview Image](./assets/adobe-stock-gallery-unlicensed.png)<!-- zoom -->
+    ![Saved preview image](./assets/adobe-stock-gallery-unlicensed.png)<!-- zoom -->
 
-1. Click the three dots below the image (![Asset menu icon](./assets/media-gallery-asset-menu-icon.png)), and then click **License**.
+1. Click the three dots below the image (![Asset menu icon](./assets/media-gallery-asset-menu-icon.png)), and then click **[!UICONTROL License]**.
 
-    ![Adobe Stock Image Actions](./assets/adobe-stock-gallery-image-actions.png)<!-- zoom -->
+    ![Adobe Stock image actions](./assets/adobe-stock-gallery-image-actions.png)<!-- zoom -->
 
    >[!NOTE]
    >
    >If you are not logged in, login form appears. For more information about login, see [Using Adobe Stock Images][using-adobe-stock].
 
-1. In the licensing confirmation dialog, click **Confirm** to license the image.
+1. In the licensing confirmation dialog, click **[!UICONTROL Confirm]** to license the image.
 
     ![License Confirmation](./assets/adobe-stock-gallery-license-confirm.png)<!-- zoom -->
 
@@ -40,25 +40,25 @@ This feature requires the [Adobe Stock Integration][adobe-stock-integration] mod
 
 1. [Access the Adobe Stock Search grid][access-search].
 
-1. Click an image in the search grid in order to [view the image details][view-details].
+1. To [view the image details][view-details], click an image in the search grid in order.
 
 1. Depending on the current licensing status of the image, do one of the following:
 
-   - If the image is already licensed, click **Save**.
+   - If the image is already licensed, click **[!UICONTROL Save]**.
 
-   - If the image is _not_ licensed, click **License and Save**.
+   - If the image is _not_ licensed, click **[!UICONTROL License and Save]**.
 
       >[!NOTE]
       >
       >You must have available [Adobe Stock credits][stock-credits] in your account to license the image.
 
-    This displays a prompt for you to specify a file name that is used to save the image to the [Media Storage][media-storage]. A default file name is provided, but you can customize the name to your preferences.
+    This action displays a prompt for you to specify a file name that is used to save the image to the [media storage][media-storage]. A default file name is provided, but you can customize the name to your preferences.
 
     ![Save Adobe Stock licensed image](./assets/adobe-stock-save-licensed.png)<!-- zoom -->
 
-1. Click **Confirm**.
+1. Click **[!UICONTROL Confirm]**.
 
-    The page redirects to the Media Storage and your saved preview is displayed.
+    The page redirects to the media storage and your saved preview is displayed.
 
 [adobe-stock-integration]: adobe-stock.md
 [media-storage]: media-storage.md
