@@ -1,4 +1,6 @@
 ---
+cloud: Experience Cloud
+solution-title: Commerce
 solution: Commerce
 product: magento
 type: Documentation
