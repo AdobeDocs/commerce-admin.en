@@ -56,22 +56,22 @@ If your Adobe Commerce or Magento Open Source installation has only a single sto
 
 ![Scope - single view](./assets/scope-single-view.svg)<!-- {:width="550px"} -->
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. Under **General**, scroll down to the bottom of the page and expand the **Single-Store Mode** section.
+1. Under **[!UICONTROL General]**, scroll down to the bottom of the page and expand the **[!UICONTROL Single-Store Mode]** section.
 
-1. Set **Enable Single-Store Mode** to `Yes`.
+1. Set **[!UICONTROL Enable Single-Store Mode]** to `Yes`.
 
     ![General configuration - Enable Single-Store Mode](./assets/general-single-store-mode.png)<!-- {: .zoom} -->
 
-1. Click **Save Config**.
+1. Click **[!UICONTROL Save Config]**.
 
 1. When prompted to refresh the cache, do the following:
 
-    - Click the **Cache Management** link in the system message at the top of the page.
+    - Click the **[!UICONTROL Cache Management]** link in the system message at the top of the page.
 
         ![System message - cache management]({% link stores/assets/msg-cache-management.png %}){: .zoom}
 
-    - Select the **Page Cache** checkbox.
+    - Select the **[!UICONTROL Page Cache]** checkbox.
 
-    - With **Actions** set to `Refresh`, click **Submit**
+    - With **[!UICONTROL Actions]** set to `Refresh`, click **[!UICONTROL Submit]**
