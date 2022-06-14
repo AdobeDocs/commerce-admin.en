@@ -49,3 +49,29 @@ Unless the store is running in [Single Store Mode](https://docs.magento.com/user
 |Store View|Setting and resources that are limited to the current store view.|
 
 {style="table-layout:auto"}
+
+## Single Store Mode
+
+If your Adobe Commerce or Magento Open Source installation has only a single store and store view, you can simplify the display by turning off all store view options and scope indicators. Single Store Mode is overridden if you [add more store views](https://docs.magento.com/user-guide/stores/stores-all-create-view.html) later.
+
+![Scope - single view](./assets/scope-single-view.svg)<!-- {:width="550px"} -->
+
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+
+1. Under **[!UICONTROL General]**, scroll down to the bottom of the page and expand the **[!UICONTROL Single-Store Mode]** section.
+
+1. Set **[!UICONTROL Enable Single-Store Mode]** to `Yes`.
+
+    ![General configuration - Enable Single-Store Mode](./assets/general-single-store-mode.png)<!-- {: .zoom} -->
+
+1. Click **[!UICONTROL Save Config]**.
+
+1. When prompted to refresh the cache, do the following:
+
+    - Click the **[!UICONTROL Cache Management]** link in the system message at the top of the page.
+
+        ![System message - cache management]({% link stores/assets/msg-cache-management.png %}){: .zoom}
+
+    - Select the **[!UICONTROL Page Cache]** checkbox.
+
+    - With **[!UICONTROL Actions]** set to `Refresh`, click **[!UICONTROL Submit]**
