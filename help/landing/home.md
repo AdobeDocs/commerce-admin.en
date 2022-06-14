@@ -49,7 +49,7 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 <tr>
     <td valign="top">
        <img alt="Inventory Management" src="./assets/icon-transfer.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/inventory-management/guide-overview.html"> <strong>[!DNL Inventory Management]</strong></a>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/inventory/guide-overview.html"> <strong>[!DNL Inventory Management]</strong></a>
     <div><em>The [!DNL Inventory Management] features enable merchants with a single store to multiple warehouses, stores, pickup locations, drop shippers, and more. Use these features to maintain quantities for sales and handle shipments to complete orders. </em></div>
   </td>
 </tr>
