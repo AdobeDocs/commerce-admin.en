@@ -1,6 +1,7 @@
 ---
 title: Requisition Lists
 description: Learn about requisition lists and how they are used to easily add frequently ordered products to the shopping cart.
+exl-id: a21909de-18e7-4aa6-b30d-5d4fb02060ec
 ---
 # Requisition Lists
 
@@ -113,4 +114,3 @@ When logged into their account, a customer can use either of the following metho
 1. In the quick links bar at the top of the page, clicks their user name.
 
 1. On the menu, chooses **[!UICONTROL My Requisition Lists]**.
-    

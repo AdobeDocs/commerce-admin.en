@@ -1,6 +1,7 @@
 ---
 title: Login Credentials and URLs
 description: Learn about the Commerce URLs and account credentials used to gain access to your Admin and to your storefront.
+exl-id: fa16b7e9-e05f-4eb8-bc32-596946c57e1c
 ---
 # Login Credentials and URLs
 

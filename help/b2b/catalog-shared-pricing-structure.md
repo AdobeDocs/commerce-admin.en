@@ -1,6 +1,7 @@
 ---
 title: Set Pricing and Structure
 description: Learn about setting up the pricing and structure of a shared catalog.
+exl-id: 67caf56f-1b31-44bb-98dc-ea6ea7d8a4d5
 ---
 # Set Pricing and Structure
 

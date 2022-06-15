@@ -1,6 +1,7 @@
 ---
 title: My Purchase Orders
 description: Learn about purchase orders and how companies can use them to manage their purchasing.
+exl-id: b7348bc8-b874-4642-a372-530883d9d94c
 ---
 # My Purchase Orders
 

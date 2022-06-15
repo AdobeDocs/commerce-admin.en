@@ -1,6 +1,7 @@
 ---
-title: "[!DNL Page Builder] Workspace"
+title: '[!DNL Page Builder] Workspace'
 description: Learn about the tools available in the [!DNL Page Builder] workspace when you create basic pages, product and catalog pages, blocks, and dynamic blocks.
+exl-id: 1cd7b300-0a18-490f-bc11-36de3fec13dc
 ---
 # [!DNL Page Builder] Workspace
 

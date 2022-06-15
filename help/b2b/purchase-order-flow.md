@@ -1,6 +1,7 @@
 ---
 title: Purchase Orders for Companies
 description: Learn about purchase order workflows that allow companies to track and control spending.
+exl-id: 4f93ab4c-6bdf-495e-9183-3a18898b377f
 ---
 # Purchase Orders for Companies
 

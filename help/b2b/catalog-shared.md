@@ -1,6 +1,7 @@
 ---
 title: Working with Shared Catalogs
 description: Learn about using shared catalogs to maintain gated catalogs with custom pricing for different companies.
+exl-id: cf7c9099-9b7d-407b-adb9-06a4815624ee
 ---
 # Working with Shared Catalogs
 

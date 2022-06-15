@@ -1,6 +1,7 @@
 ---
 title: Media - Slider
 description: Learn about the Slider content type, used to add a slideshow of images to the [!DNL Page Builder] stage.
+exl-id: 757dbdc3-b146-4ef8-a17d-59f8da62626f
 ---
 # Media - Slider
 

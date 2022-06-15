@@ -1,6 +1,7 @@
 ---
 title: Storefront Branding
 description: Learn about changing the elements that define your store's brand identity.
+exl-id: 91630717-9da7-4d2f-a0d8-adb794a30ee1
 ---
 # Storefront Branding
 

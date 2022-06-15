@@ -1,6 +1,7 @@
 ---
 title: Configure Global Options
-description: Learn how to configure the default [!DNL Inventory Management] configuration options for product and stock for your websites. 
+description: Learn how to configure the default [!DNL Inventory Management] configuration options for product and stock for your websites.
+exl-id: 1a8c9605-ae61-4d45-b549-64911b329203
 ---
 # Configure Global Options
 

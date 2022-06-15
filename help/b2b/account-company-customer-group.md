@@ -1,6 +1,7 @@
 ---
 title: Assign a Customer Group to a Company
 description: Learn about assigning a customer group to a company account.
+exl-id: fba3c17e-95df-4e9e-84b8-67409c6da72d
 ---
 # Assign a Customer Group to a Company
 

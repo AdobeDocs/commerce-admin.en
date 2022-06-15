@@ -1,6 +1,7 @@
 ---
 title: Enhanced Storefront Experiences
 description: Learn about the many tools designed to help you maximize your customer engagement, retention, and loyalty.
+exl-id: 04d196fa-0d19-4ff2-870c-6cd3666ac2cf
 ---
 # Enhanced Storefront Experiences
 

@@ -1,6 +1,7 @@
 ---
 title: Expand and Restructure Inventory
 description: Learn how to expand to a multi-source merchant or reduce down to a single-source merchant.
+exl-id: 880474e3-6533-4b2f-adf7-4312787ff736
 ---
 # Expand and Restructure Inventory
 

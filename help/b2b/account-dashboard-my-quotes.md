@@ -1,6 +1,7 @@
 ---
-title: "[!UICONTROL My Quotes]"
+title: '[!UICONTROL My Quotes]'
 description: Learn about the customer experience for quotes, which is available in their account dashboard.
+exl-id: 137f0a99-8f24-4838-b54b-b0ef2c39a32a
 ---
 # [!UICONTROL My Quotes]
 

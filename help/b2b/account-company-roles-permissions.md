@@ -1,6 +1,7 @@
 ---
 title: Company Roles and Permissions
 description: Learn about roles and permissions for company users, allowing for various levels access to order information and resources.
+exl-id: 9fe20d6a-2c9c-4618-a395-805d64dcf0de
 ---
 # Company Roles and Permissions
 

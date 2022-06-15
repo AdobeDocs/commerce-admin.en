@@ -1,6 +1,7 @@
 ---
 title: Assign Companies to a Shared Catalog
 description: Learn about assigning companies to shared catalogs.
+exl-id: b1d05684-8522-49ec-b5ed-87b35d4e2b6d
 ---
 # Assign Companies to a Shared Catalog
 

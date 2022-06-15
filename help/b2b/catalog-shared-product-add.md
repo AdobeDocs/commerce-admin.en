@@ -1,6 +1,7 @@
 ---
 title: Add Products to a Shared Catalog
 description: Learn about adding products to a shared catalog, either individually or in groups by category.
+exl-id: c88b46b4-cea8-4f65-b7e4-6681bab64d41
 ---
 # Add Products to a Shared Catalog
 

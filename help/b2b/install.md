@@ -1,6 +1,7 @@
 ---
-title: "Install the [!DNL B2B for Adobe Commerce] Extension"
-description: "Learn how to install the [!DNL B2B for Adobe Commerce] metapackage."
+title: Install the [!DNL B2B for Adobe Commerce] Extension
+description: Learn how to install the [!DNL B2B for Adobe Commerce] metapackage.
+exl-id: a6947212-1708-40ae-9e81-874467eba5e1
 ---
 # Install the [!DNL B2B for Adobe Commerce] Extension
 

@@ -1,6 +1,7 @@
 ---
-title: "Introduction to [!DNL Page Builder]"
+title: Introduction to [!DNL Page Builder]
 description: Learn about the [!DNL Page Builder] tools for easy content creation in Adobe Commerce and Magento Open Source.
+exl-id: 2f71f910-4141-4fe5-bc0f-b891daeb8334
 ---
 # Introduction to [!DNL Page Builder]
 

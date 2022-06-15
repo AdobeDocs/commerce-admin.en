@@ -1,6 +1,7 @@
 ---
 title: Create a Company Account
 description: Learn about company account creation in the Admin and on the storefront.
+exl-id: 8c06395b-102b-4a41-8eb3-e6a344feac70
 ---
 # Create a Company Account
 

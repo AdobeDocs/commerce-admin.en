@@ -1,6 +1,7 @@
 ---
 title: Manage Company User Accounts
 description: Learn about company user accounts and how they function within the associated company account.
+exl-id: 36b55f61-e579-4eb8-8f67-0156221d378e
 ---
 # Manage Company User Accounts
 

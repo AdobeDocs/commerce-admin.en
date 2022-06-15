@@ -1,6 +1,7 @@
 ---
-title: "Secure Your [!DNL Commerce] Account"
-description: "Learn how to use two-factor authentication to secure your [!DNL Commerce] account."
+title: Secure Your [!DNL Commerce] Account
+description: Learn how to use two-factor authentication to secure your [!DNL Commerce] account.
+exl-id: 4847b5cb-a93a-40d0-8c31-c30afa27c0ce
 ---
 # Secure Your [!DNL Commerce] Account
 

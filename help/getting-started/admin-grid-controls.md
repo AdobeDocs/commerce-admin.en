@@ -1,6 +1,7 @@
 ---
 title: Admin Grid Controls
 description: Learn how to work in Admin pages that manage data display a collection of records in a grid.
+exl-id: a4a9531d-eb2f-41d6-bb36-dc6d8811ee95
 ---
 # Admin Grid Controls
 

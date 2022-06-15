@@ -1,6 +1,7 @@
 ---
 title: Company Accounts
-description: Learn how company accounts allow for joining multiple buyers that belong to the same company into a single company account. 
+description: Learn how company accounts allow for joining multiple buyers that belong to the same company into a single company account.
+exl-id: 0b3c3635-a1cf-4ee6-a8bc-e7cbcb4e2e63
 ---
 # Company Accounts
 

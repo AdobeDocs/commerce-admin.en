@@ -1,8 +1,9 @@
 ---
-title: "[!DNL Inventory Management] Guide overview"
+title: '[!DNL Inventory Management] Guide overview'
 description: Comprehensive information about [!DNL Inventory Management] for Adobe Commerce and Magento Open Source administrators, including migration and configuration.
 seo-title: Adobe Commerce Inventory Management Guide
 seo-description: Describes how to use the [!DNL Inventory Management] module in Adobe Commerce or Magento Open Source.
+exl-id: 8013bc13-b057-4ad7-bbed-ee00c2f6e4eb
 ---
 # [!DNL Inventory Management] Guide overview
 

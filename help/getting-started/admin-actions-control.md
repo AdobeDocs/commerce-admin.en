@@ -1,6 +1,7 @@
 ---
 title: Actions Control
 description: Learn about using the Actions control to apply an operation to one or more records in the Admin.
+exl-id: 03f313a9-bc17-4151-a2c8-8906342f025d
 ---
 # Actions Control
 

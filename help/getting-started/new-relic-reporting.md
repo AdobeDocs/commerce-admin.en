@@ -1,6 +1,7 @@
 ---
-title: "[!DNL New Relic] Reporting"
-description: "Learn about the [!DNL New Relic] reporting available for accounts for Adobe Commerce on cloud infrastructure, which includes the software for the New Relic APM service."
+title: '[!DNL New Relic] Reporting'
+description: Learn about the [!DNL New Relic] reporting available for accounts for Adobe Commerce on cloud infrastructure, which includes the software for the New Relic APM service.
+exl-id: 65d08bda-da01-4dcf-9d92-189d4d303c76
 ---
 # [!DNL New Relic] Reporting
 

@@ -1,6 +1,7 @@
 ---
-title: "Create and Access Your [!DNL Commerce] Account"
-description: "Learn about [!DNL Commerce] accounts, which manage the products and services that you have purchased."
+title: Create and Access Your [!DNL Commerce] Account
+description: Learn about [!DNL Commerce] accounts, which manage the products and services that you have purchased.
+exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 ---
 # Create and Access Your [!DNL Commerce] Account
 

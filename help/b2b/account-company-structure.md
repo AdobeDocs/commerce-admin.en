@@ -1,6 +1,7 @@
 ---
 title: Company Structure
 description: Learn about company structures and how a company administrator can define it to support their business workflows and policies.
+exl-id: 4724b208-b6ac-4de5-9a4c-bc4d68402506
 ---
 # Company Structure
 

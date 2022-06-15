@@ -1,6 +1,7 @@
 ---
 title: Configure Product Options
-description: Learn how to configure the [!DNL Inventory Management] product configuration options. 
+description: Learn how to configure the [!DNL Inventory Management] product configuration options.
+exl-id: b5cff7d2-5197-4362-9503-b07c80793ac7
 ---
 # Configure Product Options
 

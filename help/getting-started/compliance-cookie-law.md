@@ -1,6 +1,7 @@
 ---
 title: Cookie Law Compliance
-description:  To keep pace with legislation in many countries regarding the use of cookies, Adobe Commerce and Magento Open Source offer merchants a choice of methods to obtain customer consent.
+description: To keep pace with legislation in many countries regarding the use of cookies, Adobe Commerce and Magento Open Source offer merchants a choice of methods to obtain customer consent.
+exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 ---
 # Cookie Law Compliance
 

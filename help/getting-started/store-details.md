@@ -1,6 +1,7 @@
 ---
 title: Store Details
 description: Learn how to update the basic information for your store.
+exl-id: f4910ff7-4fcc-482f-be1d-cad8564cdd86
 ---
 # Store Details
 

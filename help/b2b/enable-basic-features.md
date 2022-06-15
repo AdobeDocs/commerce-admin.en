@@ -1,6 +1,7 @@
 ---
 title: Enable Basic B2B Features
 description: Learn about enabling the primary B2B features for your store.
+exl-id: aed203ef-f39b-4f7e-b32f-ded53eca09a8
 ---
 # Enable Basic B2B Features
 

@@ -1,6 +1,7 @@
 ---
 title: Elements - HTML Code
 description: Learn about the HTML Code content type, used to add snippets of HTML, CSS, and JavaScript code in the [!DNL Page Builder] stage.
+exl-id: b6e2dff5-ceac-4c7e-a87f-f95a542ada28
 ---
 # Elements - HTML Code
 

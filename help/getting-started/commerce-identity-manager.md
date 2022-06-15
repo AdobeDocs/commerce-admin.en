@@ -1,6 +1,7 @@
 ---
-title: "[!DNL Commerce Identity Manager]"
-description: "Learn about the identity manager that you can use to link your [!DNL Commerce] product accounts with an Adobe ID."
+title: '[!DNL Commerce Identity Manager]'
+description: Learn about the identity manager that you can use to link your [!DNL Commerce] product accounts with an Adobe ID.
+exl-id: d67475f4-3127-49a4-b997-a9ab1c054d08
 ---
 # [!DNL Commerce Identity Manager]
 

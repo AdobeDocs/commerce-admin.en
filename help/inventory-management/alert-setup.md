@@ -1,6 +1,7 @@
 ---
 title: Product Alerts
 description: Learn about product alerts and how to use them to notify customers about stock status and price changes for products.
+exl-id: c9f736c5-7bba-4e3e-804d-5b0fe52c8f9b
 ---
 # Product Alerts
 

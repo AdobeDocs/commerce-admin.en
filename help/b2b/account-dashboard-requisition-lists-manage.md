@@ -1,6 +1,7 @@
 ---
-title: "[!UICONTROL My Requisition Lists]"
+title: '[!UICONTROL My Requisition Lists]'
 description: Learn about the customer experience for requisition lists, which is available in their account dashboard.
+exl-id: ed1b41aa-9c36-49f8-80f2-ad0eb151b7a5
 ---
 # [!UICONTROL My Requisition Lists]
 

@@ -1,6 +1,7 @@
 ---
-title: "[!DNL Business Intelligence] Tools"
+title: '[!DNL Business Intelligence] Tools'
 description: Learn how Adobe Commerce and Magento Open Source merchants can use business intelligence tools to gain the insight used to make sound business decisions.
+exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 ---
 # [!DNL Business Intelligence] Tools
 

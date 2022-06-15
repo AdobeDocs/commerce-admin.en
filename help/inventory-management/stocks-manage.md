@@ -1,6 +1,7 @@
 ---
 title: Manage Stock
 description: Learn how stock is used to represent a virtual, aggregated inventory of products for sources of your sales channels.
+exl-id: 076b1325-2de4-46d3-9976-d900bd2cef47
 ---
 # Manage Stock
 

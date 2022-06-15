@@ -4,6 +4,7 @@ description: Browse Adobe Commerce product documentation
 seo-title: Services for Adobe Commerce
 seo-description: Documentation and resources for Adobe Commerce and Magento Open Source users working in the Admin.
 breadcrumb-title: Documentation
+exl-id: e30f769f-9140-4370-943e-75007b39ebc0
 ---
 # <!-- use banner as heading -->![Merchant documentation](./assets/banner-user-home.png) {#documentation}
 

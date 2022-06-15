@@ -1,6 +1,7 @@
 ---
 title: Layout - Tabs
 description: Learn about the Tabs content type, used to add a set of tabs in the [!DNL Page Builder] stage.
+exl-id: e83d248d-7cf3-4ccc-a03d-ede32c7e71ae
 ---
 # Layout - Tabs
 

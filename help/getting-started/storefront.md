@@ -1,6 +1,7 @@
 ---
 title: What is the Storefront?
 description: Learn about the pages and functional elements that your store can provide to support the shopping experience for your customers.
+exl-id: 1c64888f-2bc0-4e2e-b7da-0e7182ea67e0
 ---
 # What is the Storefront?
 
