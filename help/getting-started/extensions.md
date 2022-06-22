@@ -5,11 +5,11 @@ exl-id: 86338edc-c32a-41c8-9594-6aec26f53ac6
 ---
 # Extensions
 
-This section provides information about extensions for Adobe Commerce and Magento Open Source released by Adobe. Some of these extensions are developed through Magento Open Source Community contributions. Some extensions require separate installation, and others are installed by default.
+This topic provides information about extensions for Adobe Commerce and Magento Open Source released by Adobe. Extensions add features, functionality, services, and integrations to the Admin and storefront. Some of these extensions are developed through Magento Open Source Community contributions. Some extensions require separate installation, and others are installed by default.
 
 ## Installed extensions
 
-There are some extensions that are automatically installed as part of the 
+There are some extensions that are automatically installed with Adobe Commerce or Magento Open Source.
 
 ### [!DNL Inventory Management]
 

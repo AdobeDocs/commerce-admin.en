@@ -74,9 +74,23 @@ exl-id: a6947212-1708-40ae-9e81-874467eba5e1
 >
 >After completing the installation, you must follow the [post-installation steps](#configure-b2b).
 
-## Start message consumers
+## Message consumers
 
-The [!DNL B2B for Adobe Commerce] extension uses MySQL for message queue management. If you want to enable the B2B Shared Catalog feature, you must start the corresponding message consumers after installation.
+The [!DNL B2B for Adobe Commerce] extension uses MySQL for message queue management. Start the corresponding message consumers for the needed B2B features after installation.
+
+| Consumer | Description |
+|----------|-------------|
+| `sharedCatalogUpdatePrice` | Updates price for each product in a shared catalog. Required when the [**Shared Catalogs**](catalog-shared.md) option is enabled in the Admin system configuration settings. |
+| `sharedCatalogUpdateCategoryPermissions` | Updates categories assigned to a shared catalog category. Required when the [**Shared Catalogs**](catalog-shared.md) option is enabled in the Admin system configuration settings. |
+| `negotiableQuotePriceUpdate` | Updates prices for negotiable quotes. Required when the [**Quotes**](quotes.md) option is enabled in the Admin system configuration settings. |
+| `purchaseorder.toorder` | Converts purchase order to order. Required when the [**Purchase Orders**](purchase-order-flow.md) option is enabled in the Admin system configuration settings.   |
+| `purchaseorder.transactional.email` | Send purchase order emails. Required when the [**Purchase Order**](purchase-order-flow.md) option is enabled in the Admin system configuration settings. |
+| `purchaseorder.validation` | Validates purchase order against relevant [approval rules](account-dashboard-approval-rules.md). Required when the [**Purchase Order**](purchase-order-flow.md) option is enabled in the Admin system configuration settings. |
+| `quoteItemCleaner` | Deletes invalid or inactive price quotes when a product is deleted from the catalog or removed from the cart. Required when the [**Quotes**](quotes.md) option is enabled in the Admin system configuration settings. |
+| `inventoryQtyCounter` | Asynchronously corrects the stock index after an order is placed or a product is removed. Required when the [**Use deferred stock update**](https://docs.magento.com/user-guide/configuration/catalog/inventory.html#product-stock-options) option is enabled for Inventory Management in the Admin configuration settings. See [Performance Best Practices](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/configuration.html#deferred-stock-update). |
+| `async.operations.all` | Creates messages for each individual task of a [bulk operation](https://developer.adobe.com/commerce/php/development/components/message-queues/bulk-operations/), such as importing or exporting items, changing prices on a mass scale, and assigning products to a warehouse. Required when the [**Admin bulk operations**](https://docs.magento.com/user-guide/configuration/catalog/inventory.html#admin-bulk-operations) option for Inventory Management is set to **Run asynchronously** in the Admin system configuration settings. |
+
+### Start message consumers
 
 1. List the available message consumers:
 
@@ -110,7 +124,7 @@ The [!DNL B2B for Adobe Commerce] extension uses MySQL for message queue managem
 >
 >Append `&` to the command to run it in the background, return to a prompt, and continue running commands. For example: `bin/magento queue:consumers:start sharedCatalogUpdatePrice &`.
 
-Refer to [Manage message queues](https://devdocs.magento.com/guides/v2.3/config-guide/mq/manage-message-queues.html) in the _Configuration Guide_ for more information.
+Refer to [Manage message queues](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html) in the _Configuration Guide_ for more information.
 
 ### Add message consumers to cron
 
