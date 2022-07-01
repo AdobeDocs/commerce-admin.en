@@ -4,10 +4,10 @@ user-guide-description: add description here
 breadcrumb-title: Content and Design
 ---
 
-# Content and Design Guide {#store-content}
+# Content and Design Guide {#content-design}
 
-- [Guide Overview](guide-overview.md)
-- [Introduction to Content and Design](introduction.md)
+- [Content and Design Guide](guide-overview.md)
+- [Introduction](introduction.md)
 - [Content Menu](content-menu.md)
 - Design {#design}
   - [Design Configuration](configuration.md)

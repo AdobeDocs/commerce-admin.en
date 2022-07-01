@@ -27,7 +27,7 @@ On the _Admin_ sidebar, choose **[!UICONTROL Content]**.
 >
 >The _[!UICONTROL Banners]_ option in this menu was deprecated in 2.3.1 and is now removed. Its functionality is replaced by Dynamic Blocks.
 
-## [!UICONTROL Design]
+## [!UICONTROL Design] {#design-features}
 
 Manage the visual presentation of your store:
 
