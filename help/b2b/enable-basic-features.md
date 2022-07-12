@@ -43,39 +43,47 @@ By default, all B2B features are initially disabled. However, they are always av
 
 1. To give company buyers the ability to negotiate prices, set **[!UICONTROL Enable B2B Quote]** to `Yes`.
 
-1. To establish the default payment methods for B2B orders, set **[!UICONTROL Applicable Payment Methods]** to one of the following:
-
-   - `All Payment Methods`
-
-   - `Specific Payment Methods`
-
-      For the specific option, select the **[!UICONTROL Payment Methods]** that you want to make available to your customers by holding down the Ctrl key (PC) or the Command key (Mac) as you click each option.
-
-      The list of [payment methods](https://docs.magento.com/user-guide/configuration/sales/payment-methods.html) shows which are currently enabled or disabled in your store. In addition to the standard payment methods, the list also includes the following:
-
-      - No Payment Information is Required
-      - [Payment on Account](#configure-payment-on-account)
-      - Stored Accounts
-      - Stored Cards
-
-      ![B2B configuration - default payment method settings](./assets/b2b-features-default-payment-methods.png)<!-- zoom -->
-
-1. To specify the default shipping methods for B2B orders, set **[!UICONTROL Applicable Shipping Methods]** to one of the following:
-
-   - `All Shipping Methods`
-   - `Specific Shipping Methods`
-
-     For the specific option, select the **[!UICONTROL Shipping Methods]** that you want to make available to your customers by holding down the Ctrl key (PC) or the Command key (Mac) as you click each option.
-
-     The list of shipping methods shows which are currently [enabled or disabled](https://docs.magento.com/user-guide/configuration/sales/delivery-methods.html).
-
-     ![B2B configuration - default shipping methods](./assets/b2b-features-shipping-methods.png)<!-- zoom -->
-
 1. To enable purchase orders for company accounts, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Order Approval Configuration]** section and set **[!UICONTROL Enable Purchase Orders]** to `Yes`.
 
    ![Order Approval Configuration](./assets/b2b-features-order-approval.png)<!-- zoom -->
 
    You must also enable purchases orders for each [company account](account-company-create.md) where you want to activate them.
+
+1. When complete, click **[!UICONTROL Save Config]**.
+
+## Configure default B2B payment and shipping methods
+
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Default B2B Payment Methods]** section.
+
+1. To establish the default payment methods for B2B orders, set **[!UICONTROL Applicable Payment Methods]** to one of the following:
+
+   - `All Payment Methods`
+
+   - `Selected Payment Methods`
+
+      For the specific option, select the **[!UICONTROL Payment Methods]** that you want to make available to your customers by holding down the Ctrl key (PC) or the Command key (Mac) as you click each option.
+
+   The list of [payment methods](https://docs.magento.com/user-guide/configuration/sales/payment-methods.html) shows which are currently enabled or disabled in your store. In addition to the standard payment methods, the list also includes the following:
+
+   - No Payment Information is Required
+   - [Payment on Account](#configure-payment-on-account)
+   - Stored Accounts
+   - Stored Cards
+
+   ![B2B configuration - default payment method settings](./assets/b2b-features-default-payment-methods.png)<!-- zoom -->
+
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Default B2B Shipping Methods]** section.
+
+1. To specify the default shipping methods for B2B orders, set **[!UICONTROL Applicable Shipping Methods]** to one of the following:
+
+   - `All Shipping Methods`
+   - `Selected Shipping Methods`
+
+     For the specific option, select the **[!UICONTROL Shipping Methods]** that you want to make available to your customers by holding down the Ctrl key (PC) or the Command key (Mac) as you click each option.
+
+     The list of shipping methods shows which are currently [enabled or disabled](https://docs.magento.com/user-guide/configuration/sales/delivery-methods.html).
+
+   ![B2B configuration - default shipping methods](./assets/b2b-features-shipping-methods.png)<!-- zoom -->
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
