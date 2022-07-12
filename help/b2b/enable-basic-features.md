@@ -43,12 +43,6 @@ By default, all B2B features are initially disabled. However, they are always av
 
 1. To give company buyers the ability to negotiate prices, set **[!UICONTROL Enable B2B Quote]** to `Yes`.
 
-1. To enable purchase orders for company accounts, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Order Approval Configuration]** section and set **[!UICONTROL Enable Purchase Orders]** to `Yes`.
-
-   ![Order Approval Configuration](./assets/b2b-features-order-approval.png)<!-- zoom -->
-
-   You must also enable purchases orders for each [company account](account-company-create.md) where you want to activate them.
-
 1. When complete, click **[!UICONTROL Save Config]**.
 
 ## Configure default B2B payment and shipping methods
@@ -186,11 +180,13 @@ The ability to track order processing and purchase orders gives company administ
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Order Approval Configuration]** section.
 
+   ![Order Approval Configuration](./assets/b2b-features-order-approval.png)<!-- zoom -->
+
 1. To allow companies to create purchase orders, set **[!UICONTROL Enable Purchase Orders]** to `Yes`.
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-   The purchase orders feature is enabled at the website level. To enable this type of order for a company, do the same with the appropriate settings in each company profile.
+   The purchase orders feature is enabled at the website level. To enable this type of order for a company, do the same with the appropriate settings in each [company profile](account-company-manage.md).   
 
 ## Configure purchase orders
 
