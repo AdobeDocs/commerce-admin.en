@@ -33,11 +33,11 @@ By default, all B2B features are initially disabled. However, they are always av
 
       You can also [configure the maximum number of lists](configure-requisition-lists.md) a customer can have for their account.
 
-   ![B2B configuration - enable company settings](./assets/b2b-features-company-enabled.png)<!-- zoom -->
-
 1. To make custom pricing available for different companies, set **[!UICONTROL Enable Shared Catalog]** to `Yes`.
 
    Enabling shared catalogs also enables category permissions for all stores.
+
+   ![B2B configuration - enable companies with shared catalogs](./assets/b2b-features-company-enabled.png)<!-- zoom -->
 
    When the Shared Catalog feature is enabled, the **Enable Shared Catalog direct products price assigning** option is available. When this option is set to `Yes`, only products that are assigned to a shared catalog are stored in the price index. This is recommended if you have a large number of shared catalogs to manage custom pricing for different companies.
 
