@@ -8,13 +8,13 @@ A theme is a collection of files that determines the visual presentation of your
 
 A responsive theme adjusts the page layout to fit the view port of the device. The sample _Luma_ theme has a flexible, responsive layout that can be viewed from the desktop, tablet, or mobile device.
 
-[!DNL Commerce] themes include layout files, template files, translation files, and skins. A skin is a collection of supporting CSS, images, and JavaScript files that together, create the visual presentation and interactions that your customers experience when they visit your store. Themes and skins can be modified and customized by a developer or designer who has knowledge of [!DNL Commerce] theme design and access to your server. To learn more, see the [Frontend Developer Guide][2].
+[!DNL Commerce] themes include layout files, template files, translation files, and skins. A skin is a collection of supporting CSS, images, and JavaScript files that together, create the visual presentation and interactions that your customers experience when they visit your store. Themes and skins can be modified and customized by a developer or designer who understands [!DNL Commerce] theme design and has access to your server. To learn more, see the [Frontend Developer Guide][2].
 
 ![Luma theme](./assets/design-responsive.png)<!-- zoom -->
 
 ## The Default theme
 
-The _[!DNL Magento Blank]_ responsive theme renders the display of your storefront for different devices and incorporates best practices for desktop, table, and mobile devices. Some themes are designed to be used only with specific devices. When [!DNL Commerce] detects a specific browser ID, or user agent, it uses the theme that is configured to be used for the specific browser. The search string can also include Perl-Compatible Regular Expressions (PCRE).
+The _[!DNL Magento Blank]_ responsive theme renders the display of your storefront for different devices and incorporates best practices for desktop, table, and mobile devices. Some themes are designed for use only with specific devices. When [!DNL Commerce] detects a specific browser ID, or user agent, it uses the theme that is configured for the specific browser. The search string can also include Perl-Compatible Regular Expressions (PCRE).
 
 ![Themes](./assets/themes.png)<!-- zoom -->
 
@@ -60,11 +60,11 @@ The _[!DNL Magento Blank]_ responsive theme renders the display of your storefro
 
 1. For **[!UICONTROL Search String]**, enter the browser ID for the specific device.
 
-   Search strings are matched in the order they are entered. For example, for Firefox enter:
+   Search strings are matched in the order that they are entered. For example, for Firefox enter:
 
     `/^mozilla/i`
 
-1. Repeat the process to enter additional devices.
+1. To enter additional devices, repeat the process.
 
 1. When complete, click **[!UICONTROL Save Configuration]**.
 

@@ -6,7 +6,7 @@ description: Learn how to change the home page used as the default CMS page.
 
 You can maintain a selection of different home pages, and activate the page that you want to use as the default home page.
 
-1. Complete the steps to add a [new page](page-add.md).
+1. Complete the steps for [adding a page](page-add.md).
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 

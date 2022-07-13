@@ -6,7 +6,7 @@ description: Learn how to use the Catalog Events Carousel widget to display a sl
 
 {{ee-feature}}
 
-The Catalog Events Carousel widget displays a slider of upcoming events with a countdown ticker for each event. You can choose the page(s) and area of the page layout where you want the carousel to appear, and control the width and number of events that appear at one time. The result you get depends on your theme, where it is positioned to appear on the page, and the options that you choose.
+The Catalog Events Carousel widget displays a slider of upcoming events with a countdown ticker for each event. You can choose the pages and area of the page layout where you want the carousel to appear, and control the width and number of events that appear at one time. The result you get depends on your theme, where it is positioned to appear on the page, and the options that you choose.
 
 ![Event carousel in the left sidebar](./assets/storefront-event-carousel-sidebar-gear.png)<!-- zoom -->
 
@@ -38,7 +38,7 @@ Before you begin, follow the [instructions](https://docs.magento.com/user-guide/
 
       This title is visible only from the _Admin_.
 
-   - For **[!UICONTROL Assign to Store Views]**, select the store views where the widget will be visible.
+   - For **[!UICONTROL Assign to Store Views]**, select the store views where you want the widget to be visible.
 
       You can select a specific store view, or `All Store Views`. To select multiple views, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
 
@@ -62,9 +62,9 @@ Before you begin, follow the [instructions](https://docs.magento.com/user-guide/
 
    >[!NOTE]
    >
-   >The results vary according to theme and page layout. The _[!UICONTROL Catalog Events Carousel Default Template]_ must also be specified in the category configuration.
+   >The results vary according to theme and page layout. You must also specify the _[!UICONTROL Catalog Events Carousel Default Template]_ in the category configuration.
 
-1. If you want the events carousel to appear in an additional location in the storefront, click **[!UICONTROL Add Layout Update]** and repeat the these steps for another location.
+1. If you want the events carousel to appear in another location in the storefront, click **[!UICONTROL Add Layout Update]** and repeat these steps for that location.
 
    ![Layout updates](./assets/widget-event-carousel-layout-updates-catalog-category-sidebar.png)<!-- zoom -->
 
@@ -86,7 +86,7 @@ Before you begin, follow the [instructions](https://docs.magento.com/user-guide/
 
 1. For a custom width, enter the number of pixels for **[!UICONTROL Block Custom Width]**.
 
-   The custom width for the example on this page is set to 250 pixels.
+   The custom width for the example on the following page is set to 250 pixels.
 
    ![Custom width widget options](./assets/widget-options-custom-width.png)<!-- zoom -->
 

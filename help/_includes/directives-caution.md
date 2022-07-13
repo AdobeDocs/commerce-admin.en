@@ -6,4 +6,4 @@ description: Reused note about directives
 
 >[!IMPORTANT]
 >
->Inserting many directives, especially widgets like the Recently Viewed / Compared Products type, can produce a negative effect on the first page load when the page is not cached. For this reason, we advise that you use them with caution. In most cases, it should not create an issue. But this is something that you should discuss with your development team.
+>Inserting many directives, especially widgets like the Recently Viewed / Compared Products type, can produce a negative effect on the first load of the page when it is not cached. For this reason, use them with caution. Usually, it does not create an issue. But you should discuss this potential issue with your development team.

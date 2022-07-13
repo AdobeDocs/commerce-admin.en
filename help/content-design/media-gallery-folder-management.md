@@ -4,7 +4,7 @@ description: Learn how to use folders to organize your media assets.
 ---
 # Media Gallery Folder Management
 
-Use folders to organize images in the new [Media Gallery](media-gallery.md). As the number of media assets increases, this will make it easier to locate and manage existing assets in your media gallery.
+Use folders to organize images in the new [Media Gallery](media-gallery.md). As the number of media assets increases, folders make it easier to locate and manage existing assets in your media gallery.
 
 ## Create a folder
 
@@ -12,7 +12,7 @@ Use folders to organize images in the new [Media Gallery](media-gallery.md). As 
 
 1. Click **[!UICONTROL Create Folder]**.
 
-    If you want to create a sub-folder, select the parent folder before clicking **[!UICONTROL Create Folder]**.
+    If you want to create a subfolder, select the parent folder before clicking **[!UICONTROL Create Folder]**.
 
 1. Enter the new folder name and click **[!UICONTROL Confirm]**.
 
@@ -22,7 +22,7 @@ Use folders to organize images in the new [Media Gallery](media-gallery.md). As 
 
 >[!WARNING]
 >
->Deleting a folder will cause the removal of all the images within that folder.
+>Deleting a folder causes the removal of all the images within that folder.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Media]_ > **[!UICONTROL Media Gallery]**.
 

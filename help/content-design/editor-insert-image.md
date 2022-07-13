@@ -18,7 +18,7 @@ From the editor, you can insert an image that has been uploaded to the [media st
 
    ![Insert Image icon](./assets/editor-toolbar-image-button.png)<!-- zoom -->
 
-   This opens the _[!UICONTROL Insert/edit image]_ dialog.
+   This action opens the _[!UICONTROL Insert/edit image]_ dialog.
 
 1. For **Source**, click the _Search_ icon and use the method that matches the location of the image asset that you want to use:
 
@@ -30,7 +30,7 @@ From the editor, you can insert an image that has been uploaded to the [media st
 
       - Click **[!UICONTROL Choose Files]**.
 
-      - Locate and choose the image to add it to the gallery.
+      - Locate and choose the image file.
 
       - Click the thumbnail of the new file and click **[!UICONTROL Add Selected]**.
 
@@ -46,7 +46,7 @@ From the editor, you can insert an image that has been uploaded to the [media st
 
       >[!NOTE]
       >
-      >This requires an [Adobe Stock integration](adobe-stock.md) configured for your Admin.
+      >This method requires an [Adobe Stock integration](adobe-stock.md) configured for your Admin.
 
       - Click **[!UICONTROL Search Adobe Stock]** and search for an image.
 
@@ -58,7 +58,7 @@ From the editor, you can insert an image that has been uploaded to the [media st
 
 1. For **[!UICONTROL Image Description]**, enter a brief description of the image.
 
-1. Enter the with and height **[!UICONTROL Dimensions]**, in pixels, for rendering the image on the page.
+1. Enter the width and height **[!UICONTROL Dimensions]**, in pixels, for rendering the image on the page.
 
    Keep the **[!UICONTROL Constrain proportions]** checkbox selected to automatically maintain the aspect ratio for the image.
 

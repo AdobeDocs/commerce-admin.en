@@ -1,10 +1,10 @@
 ---
 title: Media Gallery Asset Management
-description: Learn how to manage uploaded media files, and those that you acquire through an Adobe Stock integration.
+description: Learn how to manage uploaded media files, and assets that you acquire through an Adobe Stock integration.
 ---
 # Media Gallery Asset Management
 
-The new [Media Gallery](media-gallery.md) provides tools for managing uploaded media files, as well as those that you acquire through an [Adobe Stock integration][adobe-stock-integration]. If you have saved an Adobe Stock [image preview][save-preview], you can also [license][stock-license] the image in the new Media Gallery.
+The new [Media Gallery](media-gallery.md) provides tools for managing uploaded media files, and assets that you acquire through an [Adobe Stock integration][adobe-stock-integration]. If you have saved an Adobe Stock [image preview][save-preview], you can also [license][stock-license] the image in the new Media Gallery.
 
 ## Upload an asset
 
@@ -14,7 +14,7 @@ The new [Media Gallery](media-gallery.md) provides tools for managing uploaded m
 
 1. Select the file to be uploaded.
 
-   The selected asset will automatically be uploaded to the selected folder (or to the storage root if no folder is selected).
+   The selected asset is automatically uploaded to the selected folder (or to the storage root if no folder is selected).
 
 ## View asset details
 
@@ -24,7 +24,7 @@ The new [Media Gallery](media-gallery.md) provides tools for managing uploaded m
 
     ![Asset Actions](./assets/media-gallery-asset-actions.png)<!-- zoom -->
 
-    The asset details will be displayed on a slide panel. They include the information where the asset is being used:
+    The asset details are displayed on a slide panel. They include the information where the asset is being used:
 
    - **[!UICONTROL Categories]**
    - **[!UICONTROL Products]**
@@ -33,7 +33,7 @@ The new [Media Gallery](media-gallery.md) provides tools for managing uploaded m
 
     ![Asset Details](./assets/media-gallery-asset-details.png)<!-- zoom -->
 
-    Click the **[!UICONTROL Used In]** links to see the details. The grid in the following example shows all categories where a specific asset is used.
+    To see the details, click the **[!UICONTROL Used In]** links . The grid in the following example shows all categories where a specific asset is used.
 
     ![Category Grid](./assets/media-gallery-asset-categories.png)<!-- zoom -->
 
@@ -53,7 +53,7 @@ The new [Media Gallery](media-gallery.md) provides tools for managing uploaded m
    - **[!UICONTROL Description]**
    - **[!UICONTROL Tags/Keywords]**
 
-   This data will be saved to the data base as well as to the file metadata itself. Currently, XMP and IPTC formats are supported.
+   This data is saved to the data base and to the file metadata itself. Currently, XMP and IPTC formats are supported.
 
    You can download the image with the updated metadata.
 
@@ -81,15 +81,15 @@ Assets can be used extensively throughout the Admin, such as [add or edit a page
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Media]_ > **[!UICONTROL Media Gallery]**.
 
-1. Use the **Search by keywords** input to perform image search by keywords/tags.
-[!UICONTROL ]
+1. Use the **[!UICONTROL Search by keywords]** input to perform image search by keywords/tags.
+
     The search in the following example finds assets that contain a specific tag (`mountain`).
 
     ![Asset Search](./assets/media-gallery-asset-search.png)<!-- zoom -->
 
 >[!NOTE]
 >
->See the [Edit an asset][edit-asset] section to learn how you can update image tags.
+>To learn how you can update image tags, see the [Edit an asset][edit-asset] section.
 
 ## Filtering assets
 
@@ -120,7 +120,7 @@ Assets can be used extensively throughout the Admin, such as [add or edit a page
 
 1. Click the **[!UICONTROL Filters]** tab and select the **[!UICONTROL Show duplicates]** checkbox.
 
-1. Click **[!UICONTROL Appply Filters]** to see the results.
+1. To see the results, click **[!UICONTROL Apply Filters]**.
 
     ![Show Duplicates](./assets/media-gallery-filter-duplicates.png)<!-- zoom -->
 

@@ -12,7 +12,7 @@ An easy way to insert a link is to use the _Link_ button in the [editor](editor.
 
    ![Editor toolbar - Insert Link](./assets/editor-toolbar-link-button.png)<!-- zoom -->
 
-   This opens the _[!UICONTROL Insert link]_ dialog.
+   This action opens the _[!UICONTROL Insert link]_ dialog.
 
    ![Editor - Insert link dialog](./assets/editor-dialog-insert-link.png)<!-- zoom -->
 
@@ -34,4 +34,4 @@ An easy way to insert a link is to use the _Link_ button in the [editor](editor.
 
    - `Open in a new window`
 
-1. Click **[!UICONTROL OK]** to create the link.
+1. To create the link, click **[!UICONTROL OK]**.

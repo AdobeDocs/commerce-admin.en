@@ -12,9 +12,9 @@ The selection of columns and their order in the grid can be changed according to
 
 In the upper-right corner, click the _Columns_ (![Column icon](../assets/icon-columns.png)) control and do the following:
 
-- Select the checkbox of any column you want to add to the grid.
+- Select the checkbox of any column that you want to add to the grid.
 
-- Clear the checkbox of any column you want to remove from the grid.
+- Clear the checkbox of any column that you want to remove from the grid.
 
 ## Move a column
 
@@ -30,7 +30,7 @@ In the upper-right corner, click the _Columns_ (![Column icon](../assets/icon-co
 
 1. Enter a name for the view.
 
-1. Click the _Arrow_ (![Arrow icon](../assets/icon-arrow-save.png)) to save the view.
+1. To save the view, click the _Arrow_ (![Arrow icon](../assets/icon-arrow-save.png)).
 
    The name of the view now appears as the current view.
 

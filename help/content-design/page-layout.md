@@ -6,7 +6,7 @@ description: Learn about the page layout sections and how to configure default l
 
 The layout of each page in your store consists of distinct sections, or containers, that define the header, footer, and content areas of the page. Depending on the layout, each page might have one, two, three columns, or more. You can think of the layout as the _floor plan_ of the page, and assign a specific layout to be used as the default for CMS, product, and category pages.
 
-On the page, content blocks float to fill the available space, according to the section of the [page layout](layout-updates.md) where they are assigned to appear. You will discover that if you change the layout from a three-column to a two-column layout, the content of the main area expands to fill the available space, and any blocks that are associated with the unused side bar seem to disappear. However, if you restore the three-column layout, the blocks reappear. This fluid approach, or _liquid layout_, makes it possible to change the page layout without having to rework the content. If you are used to working with individual HTML pages, you will discover that this modular, _building block_ approach requires a different way of thinking.
+On the page, content blocks float to fill the available space, according to the section of the [page layout](layout-updates.md) where they are assigned to appear. Notice that if you change the layout from a three-column to a two-column layout, the content of the main area expands to fill the available space. Also notice that any blocks that are associated with the unused side bar seem to disappear. However, if you restore the three-column layout, the blocks reappear. This fluid approach, or _liquid layout_, makes it possible to change the page layout without having to rework the content. If you are used to working with individual HTML pages, this modular, _building block_ approach requires a different way of thinking.
 
 ![Standard two-column with left bar page layout](./assets/storefront-2-column-ee.png)<!-- zoom -->
 
@@ -24,7 +24,7 @@ On the page, content blocks float to fill the available space, according to the 
 
 1. Choose the **[!UICONTROL Default Product Layout]** that you want to use for product pages.
 
-   This determines the layout that is used by default for product pages.
+   This setting determines the layout that is used by default for product pages.
 
    - `No layout updates` - Layout updates are not available for product pages.
    - `Empty` - Uses a blank layout for product pages.
@@ -41,7 +41,7 @@ On the page, content blocks float to fill the available space, according to the 
 
 1. Choose the **[!UICONTROL Default Category Layout]** that you want to use for category pages.
 
-   This determines the layout that is used by default for category pages.
+   This setting determines the layout that is used by default for category pages.
 
    - `No layout updates` - Layout updates are not available for category pages.
    - `Empty` - Uses a blank layout for category pages.
@@ -58,7 +58,7 @@ On the page, content blocks float to fill the available space, according to the 
 
 1. Choose the **[!UICONTROL Default Page Layout]** that you want to use for CMS pages.
 
-   This determines the layout that is used by default for CMS pages.
+   This setting determines the layout that is used by default for CMS pages.
 
    - `No layout updates` - Layout updates are not available for CMS pages.
    - `Empty` - Uses a blank layout for CMS pages.

@@ -12,7 +12,7 @@ The following steps show how to use a layout update to place a block on a page. 
 
 1. Create the [block](block-add.md) that you want to place.
 
-1. Take note of the `block_id`, because you will need to reference it in the layout update instructions.
+1. Take note of the `block_id`, because you must reference it in the layout update instructions.
 
 ## Step 2: Compose the layout update in XML
 
@@ -28,6 +28,9 @@ The following steps show how to use a layout update to place a block on a page. 
 
    `cms_page_view_selectable_`<`customer-service`>`_`<`ChatTool`>`.xml`
 
+
+   | Element | Description |
+   |----------------------- | ----------- |
    |CMS Page Identifier|The URL key of the page with any forward slash (`/`) replaced by an underscore (`_`).|
    |Layout Update Name|The option that appears in the _Custom Layout Update_ list.|
 
@@ -39,7 +42,7 @@ The following steps show how to use a layout update to place a block on a page. 
 
 1. Scroll down and expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Design]** section.
 
-1. Click **Custom Layout Update** arrow to display all available layout updates that are associated with the page.
+1. To display all available layout updates that are associated with the page, click **Custom Layout Update** arrow.
 
    ![Custom Layout Update list](./assets/page-design-custom-layout-update.png)<!-- zoom -->
 

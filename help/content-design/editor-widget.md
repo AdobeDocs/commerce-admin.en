@@ -1,10 +1,10 @@
 ---
 title: Insert a Widget in the Editor
-description: Use the widget tool to add a variety of content elements to a page, including links to any content page or node, product, or category.
+description: Use the widget tool to add various content elements to a page, including links to any content page or node, product, or category.
 ---
 # Insert a Widget in the Editor
 
-The [widget](widget-create.md) tool can be used to add a variety of content elements to the page, including links to any content page or node, product, or category. Links can be positioned on the page in a block format, or incorporated directly into the content. You can use the Widget tool to create links to the following types of content:
+The [widget](widget-create.md) tool can be used to add various content elements to the page, including links to any content page or node, product, or category. Links can be positioned on the page in a block format, or incorporated directly into the content. You can use the Widget tool to create links to the following types of content:
 
 - [Content Pages](pages.md)
 - [Catalog Categories](https://docs.magento.com/user-guide/catalog/categories.html)
@@ -30,7 +30,7 @@ By default, links inherit their style from the style sheet of the theme.
 
 1. To use the product name, leave the **[!UICONTROL Anchor Custom Text]** field empty.
 
-1. Enter a **[!UICONTROL Anchor Custom Title]** for best SEO practice.
+1. Enter an **[!UICONTROL Anchor Custom Title]** for best SEO practice.
 
    This title is not visible on the page.
 
@@ -48,6 +48,6 @@ By default, links inherit their style from the style sheet of the theme.
 
 1. Click **[!UICONTROL Insert Widget]** to place the link on the page.
 
-   If you are working with HTML code, a [markup tag](https://docs.magento.com/user-guide/marketing/markup-tags-links.htmls) for the link appears at the top of the page, enclosed in double curly braces. If needed, use _Cut and Paste_ to position the markup tag in the code where you want the link to appear.
+   If you are working with HTML code, a [markup tag](https://docs.magento.com/user-guide/marketing/markup-tags-links.html) for the link appears at the top of the page, enclosed in double curly braces. If needed, use _Cut and Paste_ to position the markup tag in the code where you want the link to appear.
 
 1. When your content edits are complete, click **[!UICONTROL Save]**.
