@@ -31,7 +31,7 @@ These release notes describe releases of [!DNL Inventory Management] and include
 
 -  ![Fixed issue](../assets/fix.svg) Product stock status is now always **in stock** on the storefront when infinite back orders are enabled and the product is assigned to a custom stock, regardless of the quantity backordered. Previously, products went out of stock even when back orders were enabled. <!--- ACP2E-664-->
 
--  ![Fixed issue](../assets/fix.svg) Configurable product parent and child product stock is now updated correctly after the source item is updated with `POST /V1/inventory/source-items`. After the child product has been updated through the API, a new Inventory plugin for default stock checks and updates configurable product quantity and status. <!--- ACP2E-442-->
+-  ![Fixed issue](../assets/fix.svg) Configurable product parent and child product stock is now updated correctly after the source item is updated with `POST /V1/inventory/source-items`. After the child product is updated through the API, a new Inventory plugin for default stock checks and updates configurable product quantity and status. <!--- ACP2E-442-->
 
 -  ![Fixed issue](../assets/fix.svg) Out-of-stock grouped products are no longer listed on the storefront Category page. <!--- ACP2E-2082-->
 
@@ -41,9 +41,9 @@ These release notes describe releases of [!DNL Inventory Management] and include
 
 -  ![Fixed issue](../assets/fix.svg) Out-of-stock bundle products are no longer displayed on the storefront Category page when the bundle product is updated from the stocks section. <!--- ACP2E-2012-->
 
--  ![Fixed issue](../assets/fix.svg) Compatibility issues with PHP 7.4 have been resolved. <!--- AC-3192-->
+-  ![Fixed issue](../assets/fix.svg) Compatibility issues with PHP 7.4 are resolved. <!--- AC-3192-->
 
--  ![Fixed issue](../assets/fix.svg) The performance of save operations that include bundle products that contain many options (several hundred) has been improved. Previously, saving these large bundle products took several minutes and sometimes resulted in timeouts in deployments with Inventory services enabled. [GitHub-34732](https://github.com/magento/magento2/issues/34732) <!--- AC-1901-->
+-  ![Fixed issue](../assets/fix.svg) The performance of save operations that include bundle products that contain many options (several hundred) is improved. Previously, saving these large bundle products took several minutes and sometimes resulted in timeouts in deployments with Inventory services enabled. [GitHub-34732](https://github.com/magento/magento2/issues/34732) <!--- AC-1901-->
 
 -  ![Fixed issue](../assets/fix.svg) The product bulk action tool (**[!UICONTROL Catalog]** > **[!UICONTROL Products]** > **[!UICONTROL Select Products]** > **[!UICONTROL Actions]** > **[!UICONTROL Assign Inventory Source]**) now works as expected when assigning inventory source to multiple products when SKUs are duplicated with the exception of a leading 0 (for example, 01234 and 1234). Previously, only one product was assigned an Inventory source. [GitHub-35171](https://github.com/magento/magento2/issues/35171) <!--- AC-2584-->
 
@@ -53,7 +53,7 @@ These release notes describe releases of [!DNL Inventory Management] and include
 
 -  ![Fixed issue](../assets/fix.svg) <!--- ACP2E-274--> The category list product count is now correct when using inventory single-source mode with the **[!UICONTROL Display Out-Of-Stock Products]** setting enabled. A new plugin now uses `AreProductsSalableInterface` and `StockConfigurationInterface` to determine the total number of products. Previously, the category product list returned the wrong product quantity.
 
--  ![Fixed issue](../assets/fix.svg) <!--- ACP2E-322--> Configurable products are now moved to the last position in the product listing after stock is updated when the **Move out of stock to the bottom** setting is enabled. A new custom database query has been implemented to negate Elasticsearch index sort order, which disregards Admin-enabled sort order. Previously, configurable products and their child products were not moved to the bottom of the list when this setting was enabled.
+-  ![Fixed issue](../assets/fix.svg) <!--- ACP2E-322--> Configurable products are now moved to the last position in the product listing after stock is updated when the **[!UICONTROL Move out of stock to the bottom]** setting is enabled. A new custom database query is implemented to negate Elasticsearch index sort order, which disregards Admin-enabled sort order. Previously, configurable products and their child products were not moved to the bottom of the list when this setting was enabled.
 
 ## v1.2.4
 
