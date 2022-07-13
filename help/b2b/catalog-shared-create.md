@@ -1,6 +1,7 @@
 ---
 title: Create a Shared Catalog
 description: Learn about creating shared catalogs and duplicating existing shared catalogs.
+exl-id: 969c352c-ff88-4902-8347-334ee8b79afb
 ---
 # Create a Shared Catalog
 

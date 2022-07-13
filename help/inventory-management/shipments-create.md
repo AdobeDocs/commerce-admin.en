@@ -1,6 +1,7 @@
 ---
 title: Create Multi-Source Shipments
 description: Learn how multi-source merchants can create and send shipments.
+exl-id: d2995139-0fc3-4379-a4ec-b0d38ed566bb
 ---
 # Create Multi-Source Shipments
 

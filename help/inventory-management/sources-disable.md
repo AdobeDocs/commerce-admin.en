@@ -1,6 +1,7 @@
 ---
 title: Disable Sources
 description: Learn how to disable sources and modify information, including location and point of contact.
+exl-id: 3fcbfa3c-8bb7-4e08-a395-9760bbd69f04
 ---
 # Disable Sources
 

@@ -1,9 +1,10 @@
 ---
-title: "[!DNL B2B for Adobe Commerce] Guide Overview"
-description: "Comprehensive information for [!DNL B2B for Adobe Commerce] administrators, including installation and configuration."
+title: '[!DNL B2B for Adobe Commerce] Guide Overview'
+description: Comprehensive information for [!DNL B2B for Adobe Commerce] administrators, including installation and configuration.
 breadcrumb-title: Guide Overview
-seo-title: "[!DNL B2B for Adobe Commerce] Guide"
+seo-title: '[!DNL B2B for Adobe Commerce] Guide'
 seo-description: Describes how to use the B2B features module in Adobe Commerce.
+exl-id: 8a7fda1d-0040-48fe-b393-9244adca6fde
 ---
 # B2B for Adobe Commerce Guide
 
@@ -35,8 +36,8 @@ This guide covers:
 
 | Guide | Description |
 |------ | ----------- |
-| [Adobe Commerce 2.4 User Guide](https://docs.magento.com/user-guide/) | Merchant-focused documentation for both Adobe Commerce and Magento Open Source |
-| [Adobe Commerce 2.4 Developer Guide](https://devdocs.magento.com/) | Developer-focused documentation used to build and customize Adobe Commerce or Magento Open Source |
+| [Adobe Commerce 2.4 Merchant Documentation](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) | Merchant-focused documentation for both Adobe Commerce and Magento Open Source |
+| [Adobe Commerce 2.4 Developer Documentation](https://devdocs.magento.com/) | Developer-focused documentation used to build and customize Adobe Commerce or Magento Open Source |
 
 ## Developer information
 

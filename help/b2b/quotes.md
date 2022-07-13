@@ -1,6 +1,7 @@
 ---
 title: Negotiated Quotes
 description: Learn about quote workflows and how you can provide this service to your company accounts.
+exl-id: c278818b-fa5a-4e7a-8ca2-c4b757da4f05
 ---
 # Negotiated Quotes
 

@@ -1,6 +1,7 @@
 ---
 title: The Admin Tools and Workspace
 description: Learn about the Admin workspace, which provides access to all the tools, data, and content used to run your store.
+exl-id: 61cc53ab-e1c5-4349-b306-a15eb7c5ab57
 ---
 # The Admin Tools and Workspace
 

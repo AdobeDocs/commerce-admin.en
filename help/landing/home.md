@@ -4,6 +4,7 @@ description: Browse Adobe Commerce product documentation
 seo-title: Services for Adobe Commerce
 seo-description: Documentation and resources for Adobe Commerce and Magento Open Source users working in the Admin.
 breadcrumb-title: Documentation
+exl-id: e30f769f-9140-4370-943e-75007b39ebc0
 ---
 # <!-- use banner as heading -->![Merchant documentation](./assets/banner-user-home.png) {#documentation}
 
@@ -24,7 +25,7 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
    <td valign="top" width="60px">
        <img alt="Getting Started" src="./assets/icon-lightbulb.svg" width="40" height="40" /></td>
    <td valign="top">
-   <a href="https://docs.magento.com/user-guide/magento/about-this-release.html"><strong>Getting Started</strong></a>
+   <a href="https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html"><strong>Getting Started</strong></a>
     <div>
     <em>The “why, where, and how” questions that most merchants have when first learning to use Adobe Commerce or Magento Open Source, as well as resources and reference information. This is a springboard to more advanced topics.</em>
     <br> </div>
@@ -33,7 +34,7 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 <tr>
   <td valign="top">
       <img alt="B2B for Adobe Commerce" src="./assets/icon-building.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://docs.magento.com/user-guide/stores/b2b-features.html"><strong>B2B for Adobe Commerce</strong></a>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html"><strong>B2B for Adobe Commerce</strong></a>
     <div><em>This feature set is designed to meet the needs of sellers (merchants) whose customers are primarily companies—possibly with complex organizational structures and multiple staff members with various roles and levels of buying permission.</em>
     <br></div>
   </td>
@@ -49,7 +50,7 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 <tr>
     <td valign="top">
        <img alt="Inventory Management" src="./assets/icon-transfer.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://docs.magento.com/user-guide/catalog/inventory-management.html"> <strong>[!DNL Inventory Management]</strong></a>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/inventory/guide-overview.html"> <strong>[!DNL Inventory Management]</strong></a>
     <div><em>The [!DNL Inventory Management] features enable merchants with a single store to multiple warehouses, stores, pickup locations, drop shippers, and more. Use these features to maintain quantities for sales and handle shipments to complete orders. </em></div>
   </td>
 </tr>
@@ -70,7 +71,7 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 <tr>
     <td valign="top">
        <img alt="Page Builder" src="./assets/icon-web-pages.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://docs.magento.com/user-guide/cms/page-builder.html"> <strong>[!DNL Page Builder]</strong></a>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/page-builder/guide-overview.html"> <strong>[!DNL Page Builder]</strong></a>
     <div><em>[!DNL Page Builder] makes it easy to create content-rich pages with custom layouts. These features are designed to improve quality, and reduce the time and expense of producing custom pages.</em></div>
   </td>
 </tr>

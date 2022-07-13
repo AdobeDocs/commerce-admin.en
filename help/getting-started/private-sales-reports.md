@@ -1,6 +1,7 @@
 ---
 title: Private Sales Reports
 description: The private sales reports available in Adobe Commerce provide useful information about events and private sales.
+exl-id: e1c2b01f-500a-475e-b61e-20f3ccbc0e70
 ---
 # Private Sales Reports
 

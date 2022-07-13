@@ -1,6 +1,7 @@
 ---
 title: Store Privacy Policy
-description: Your privacy policy should describe the type of information that your company collects, and how it is used. 
+description: Your privacy policy should describe the type of information that your company collects, and how it is used.
+exl-id: d8eaa946-2a12-4a36-8f7e-025778ffa7dd
 ---
 # Store Privacy Policy
 

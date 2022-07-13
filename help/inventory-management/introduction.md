@@ -1,6 +1,7 @@
 ---
 title: Introduction to Inventory Management
 description: Learn how to use [!DNL Inventory Management] features to manage stock in multiple locations so that your [!DNL Commerce] store accurately reflects the physical inventory.
+exl-id: 6a7dd27e-248f-4c40-b2db-0d70529422a1
 ---
 # Introduction to Inventory Management
 

@@ -1,6 +1,7 @@
 ---
 title: Add a Stock
 description: Learn how to add a stock and map sources to sales channels (websites), providing a direct link to salable quantities and product inventories.
+exl-id: d0032ed7-c0d6-4654-b182-43a165e7dcf6
 ---
 # Add a Stock
 

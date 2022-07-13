@@ -1,6 +1,7 @@
 ---
 title: Manage Your Shared Catalogs
 description: Learn about the information and tools available from the Shared Catalogs page.
+exl-id: a01ac292-240d-42e7-b4c9-2982f293c521
 ---
 # Manage Your Shared Catalogs
 

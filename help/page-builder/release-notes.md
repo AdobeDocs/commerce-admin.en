@@ -1,8 +1,8 @@
 ---
-title: "Release Notes for [!DNL Page Builder]"
+title: Release Notes for [!DNL Page Builder]
 description: Review the release notes for information about all [!DNL Page Builder] releases.
+exl-id: 81abe2f9-ed48-49fe-bbf0-70699d7106b2
 ---
-
 # Release notes for [!DNL Page Builder]
 
 These release notes describe releases of [!DNL Page Builder] and include:

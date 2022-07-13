@@ -1,6 +1,7 @@
 ---
 title: Layout - Row
 description: Learn about the Row content type, used to add a row in the [!DNL Page Builder] stage.
+exl-id: 0aa8bf6f-7ae3-4718-9f76-430ed63ba05c
 ---
 # Layout - Row
 

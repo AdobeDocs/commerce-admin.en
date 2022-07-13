@@ -1,6 +1,7 @@
 ---
 title: Source Algorithms and Reservations
 description: Learn about the Source Selection Algorithm and Reservations systems that run in the background to keep your salable quantities updated.
+exl-id: dcd63322-fb4c-4448-b6e7-0c54350905d7
 ---
 # Source Algorithms and Reservations
 

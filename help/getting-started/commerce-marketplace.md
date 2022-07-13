@@ -1,6 +1,7 @@
 ---
-title: "[!DNL Commerce Marketplace]"
-description: "Learn about the [!DNL Commerce Marketplace], which offers merchants a curated selection of solutions, and provides qualified developers the tools, platform, and prime location to build a thriving business."
+title: '[!DNL Commerce Marketplace]'
+description: Learn about the [!DNL Commerce Marketplace], which offers merchants a curated selection of solutions, and provides qualified developers the tools, platform, and prime location to build a thriving business.
+exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 ---
 # Commerce Marketplace
 

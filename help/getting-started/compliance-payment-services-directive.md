@@ -1,6 +1,7 @@
 ---
 title: PSD2 Compliance
 description: Learn about the requirements of the Payment Services Directive (PSD2) that could affect your store.
+exl-id: efe94cac-a170-48df-88cf-36019ca52951
 ---
 # PSD2 Compliance
 

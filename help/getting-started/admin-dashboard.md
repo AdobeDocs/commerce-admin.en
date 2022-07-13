@@ -1,6 +1,7 @@
 ---
 title: Admin Dashboard
-description: Learn about the Admin dashboard, which is usually the first page that appears when you log in. 
+description: Learn about the Admin dashboard, which is usually the first page that appears when you log in.
+exl-id: 56957c0a-1618-444b-a37a-ecf0d7b27eae
 ---
 # Admin Dashboard
 

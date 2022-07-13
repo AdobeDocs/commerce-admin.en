@@ -1,6 +1,7 @@
 ---
 title: Manage Sources
-description: Learn about sources and how they define the physical locations where product inventory is managed and shipped for order fulfillment, or where services are available. 
+description: Learn about sources and how they define the physical locations where product inventory is managed and shipped for order fulfillment, or where services are available.
+exl-id: 1315a8c9-7791-4c4b-9463-3126b79793c2
 ---
 # Manage Sources
 

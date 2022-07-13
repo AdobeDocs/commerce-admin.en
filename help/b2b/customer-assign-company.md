@@ -1,6 +1,7 @@
 ---
 title: Add Customers to a Company
 description: Learn about adding an existing customer to a company account.
+exl-id: ee2f9c27-37d6-4997-8285-1c4c84f8d04c
 ---
 # Add Customers to a Company
 

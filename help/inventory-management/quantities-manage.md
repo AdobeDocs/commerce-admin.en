@@ -1,6 +1,7 @@
 ---
 title: Manage Inventory Quantities
 description: Learn how to assign sources and quantities for new products or change existing products.
+exl-id: b3d4a4c0-725a-4e62-854f-efb6a5709f73
 ---
 # Manage Inventory Quantities
 

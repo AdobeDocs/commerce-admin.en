@@ -1,6 +1,7 @@
 ---
-title: "[!DNL Business Intelligence] Tools"
+title: '[!DNL Business Intelligence] Tools'
 description: Learn how Adobe Commerce and Magento Open Source merchants can use business intelligence tools to gain the insight used to make sound business decisions.
+exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 ---
 # [!DNL Business Intelligence] Tools
 
@@ -8,13 +9,13 @@ Use business intelligence tools to gain the insight used to make sound business 
 
 ## [!DNL Business Intelligence] account
 
-When you activate a [!DNL Business Intelligence] account through Adobe, you get access to five dashboards with approximately 70 reports. These reports are designed to provide insights around your data and answer questions like “How are my orders growing month-over-month?", "Who are my most loyal customers?", and "Is my coupon strategy working?” For detailed information about this tool set, see the [Magento Business Intelligence User Guide][2].
+When you activate a [!DNL Business Intelligence] account through Adobe, you get access to five dashboards with approximately 70 reports. These reports are designed to provide insights around your data and answer questions like “How are my orders growing month-over-month?", "Who are my most loyal customers?", and "Is my coupon strategy working?” For detailed information about this tool set, see the [Magento Business Intelligence User Guide][1].
 
 ## [!DNL Advanced Reporting]
 
 [!DNL Advanced Reporting] is included with Adobe Commerce and Magento Open Source. This feature gives you access to a suite of dynamic reports that are based on your product, order, and customer data, with a personalized dashboard that is tailored to your business needs. While [!DNL Advanced Reporting] uses [!DNL Business Intelligence] for analytics, you do not need to have a Business Intelligence account to use [!DNL Advanced Reporting].
 
-For technical information, see the [[!DNL Advanced Reporting]][1]{:target="_blank"} topic in the developer documentation.
+For technical information, see the [[!DNL Advanced Reporting]][2]{:target="_blank"} topic in the developer documentation.
 
 >[!NOTE]
 >
@@ -170,5 +171,5 @@ If you notice that the `Data last updated...` caption displays yesterday's date 
 
 
 [1]: https://docs.magento.com/mbi/
-[2]: https://devdocs.magento.com//guides/v2.4/advanced-reporting/overview.html
+[2]: https://devdocs.magento.com/guides/v2.4/advanced-reporting/overview.html
 [3]: https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-cron.html

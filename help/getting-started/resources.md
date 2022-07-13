@@ -1,6 +1,7 @@
 ---
-title: "The [!DNL Commerce] Ecosystem"
+title: The [!DNL Commerce] Ecosystem
 description: Adobe provides a wealth of business and technical resources, self-help tools, and services to help merchants succeed.
+exl-id: 05fb3769-6f99-45c0-81d6-3ccdd50dc047
 ---
 # The [!DNL Commerce] Ecosystem
 
@@ -32,4 +33,3 @@ Adobe provides a wealth of business and technical resources, self-help tools, an
 [10]: https://learning.adobe.com/catalog.html?solution=Adobe%20Commerce
 [12]: https://business.adobe.com/products/magento/partners.html
 [13]: https://business.adobe.com/products/magento/fully-managed-service.html
-

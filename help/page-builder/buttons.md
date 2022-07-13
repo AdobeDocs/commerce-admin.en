@@ -1,6 +1,7 @@
 ---
 title: Elements - Buttons
 description: Learn about the Buttons content type, used to add an individual button or a set of buttons in the [!DNL Page Builder] stage.
+exl-id: 9f1681c5-04b0-4259-aaf6-5d8081bd8cdb
 ---
 # Elements - Buttons
 

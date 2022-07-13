@@ -1,6 +1,7 @@
 ---
 title: Stocks and Sources
 description: Learn about the relationships between products, sources, and stocks.
+exl-id: 01bbbd82-898b-4757-ab40-0d8b89ec59bc
 ---
 # Stocks and Sources
 

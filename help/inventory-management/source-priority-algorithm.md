@@ -1,6 +1,7 @@
 ---
 title: Configure the Source Priority Algorithm
 description: Learn how to configure the source priority used for the order of assigned sources in your stock to make recommendations.
+exl-id: 7b25212d-0cd0-4280-be23-c67f06db900a
 ---
 # Configure the Source Priority Algorithm
 

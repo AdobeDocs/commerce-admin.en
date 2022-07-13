@@ -1,6 +1,7 @@
 ---
 title: Product Types
 description: Learn how [!DNL Inventory Management] supports inventory and order management for all Adobe Commerce and Magento Open Source product types.
+exl-id: c800168a-e8b2-4d72-bd3d-68f46ece8a5e
 ---
 # Product Types
 

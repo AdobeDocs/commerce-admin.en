@@ -1,6 +1,7 @@
 ---
 title: Release Information
 description: Learn about the current Adobe Commerce and Magento Open Source release.
+exl-id: 7313c81c-0205-4690-a873-fdd4a29032c9
 ---
 # Release Information
 

@@ -1,6 +1,7 @@
 ---
 title: Media - Banner
 description: Learn about the Banner content type used for adding an illustrated, interactive component in the [!DNL Page Builder] stage.
+exl-id: 287d866c-8a63-4531-8c1b-40d560a07947
 ---
 # Media - Banner
 

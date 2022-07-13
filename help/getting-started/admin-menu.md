@@ -1,6 +1,7 @@
 ---
 title: The Admin Sidebar
 description: Placeholder
+exl-id: 2619645e-22fc-4365-80c5-14e2ce7ea8df
 ---
 # The Admin Sidebar
 

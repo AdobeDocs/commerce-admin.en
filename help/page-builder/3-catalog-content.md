@@ -1,6 +1,7 @@
 ---
-title: "[!DNL Page Builder] Walkthrough Part 3: Catalog Content"
+title: '[!DNL Page Builder] Walkthrough Part 3: Catalog Content'
 description: Learn how to add a product list to a page in [!DNL Page Builder].
+exl-id: f2a0dc29-6d8f-4b97-a947-72659c01d0cb
 ---
 # Walkthrough Part 3: Catalog Content
 

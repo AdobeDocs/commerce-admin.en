@@ -1,6 +1,7 @@
 ---
 title: Approve a Company Account
 description: Learn how to approve company account requests in the Admin.
+exl-id: c7123383-0e94-4d6c-be3c-b6ca84145a59
 ---
 # Approve a Company Account
 

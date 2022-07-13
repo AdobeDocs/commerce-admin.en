@@ -1,6 +1,7 @@
 ---
-title: "[!DNL Page Builder] Templates"
+title: '[!DNL Page Builder] Templates'
 description: Learn how to save your existing [!DNL Page Builder] content as a template, and then apply that template to another area.
+exl-id: 02c1a93f-4186-4af9-ad35-bd0f5734f979
 ---
 # [!DNL Page Builder] Templates
 

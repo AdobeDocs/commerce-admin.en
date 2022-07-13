@@ -1,6 +1,7 @@
 ---
-title: "[!DNL B2B for Adobe Commerce] Release Notes"
-description: "Review the release notes for information about changes in [!DNL B2B for Adobe Commerce] extension releases."
+title: '[!DNL B2B for Adobe Commerce] Release Notes'
+description: Review the release notes for information about changes in [!DNL B2B for Adobe Commerce] extension releases.
+exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 ---
 # [!DNL B2B for Adobe Commerce] Release Notes
 

@@ -1,6 +1,7 @@
 ---
 title: Purchase Order Approval Rules
 description: Learn about purchase order approval rules and how company administrators can define them on the storefront.
+exl-id: e8d8bbc9-41cf-4024-85cc-92f0b0ce32d6
 ---
 # Purchase Order Approval Rules
 

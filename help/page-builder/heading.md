@@ -1,6 +1,7 @@
 ---
 title: Elements - Heading
 description: Learn about the Heading content type, used to add a text container with a heading level from H1 to H6 to the [!DNL Page Builder] stage.
+exl-id: dc51e7f6-a235-49dc-a978-1419a63fa33e
 ---
 # Elements - Heading
 

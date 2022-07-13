@@ -3,8 +3,8 @@ title: Adobe Commerce Getting Started Guide
 description: Comprehensive information for merchants that are new to Adobe Commerce and Magento Open Source.
 seo-title: Adobe Commerce Getting Started Guide
 seo-description: Describes basic tools and initial tasks for launching an Adobe Commerce or Magento Open Source store.
+exl-id: 1397872f-d5d0-46e4-9bb6-ab6b0c07255d
 ---
-
 # Adobe Commerce Getting Started Guide
 
 This guide is intended for merchants and system administrators that are new to Adobe Commerce and Magento Open Source. It provides an overview of the platform from their perspective and some detailed information about basic features that enable a functional store.
@@ -31,7 +31,7 @@ It does not cover the more detailed capabilities of Adobe Commerce and Magento O
 
 | Guide | Description |
 |------ | ----------- |
-| [Adobe Commerce 2.4 User Guide](https://docs.magento.com/user-guide/) | Merchant-focused documentation for both Adobe Commerce and Magento Open Source |
+| [Adobe Commerce 2.4 Merchant Documentation](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) | Merchant-focused documentation for both Adobe Commerce and Magento Open Source |
 | [Adobe Commerce 2.4 Developer Guide](https://devdocs.magento.com/) | Developer-focused documentation used to build and customize Adobe Commerce or Magento Open Source |
 
 {style="table-layout:auto"}

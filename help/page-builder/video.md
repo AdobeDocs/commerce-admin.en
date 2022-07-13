@@ -1,6 +1,7 @@
 ---
 title: Media - Video
 description: Learn about the Video content type, used to add a video that is hosted on YouTube or Vimeo to the [!DNL Page Builder] stage.
+exl-id: 9cd075e7-c10d-4c34-8932-c1ccb32bf198
 ---
 # Media - Video
 

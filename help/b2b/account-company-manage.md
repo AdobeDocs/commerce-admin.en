@@ -1,6 +1,7 @@
 ---
 title: Manage Company Accounts
 description: Learn about the Companies page and the tools available in the grid that help you to manage company accounts.
+exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 ---
 # Manage Company Accounts
 

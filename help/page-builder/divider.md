@@ -1,6 +1,7 @@
 ---
 title: Elements - Divider
 description: Learn about the Divider content type, used to add a rule as a visual break between sections of content in the [!DNL Page Builder] stage.
+exl-id: e1052170-6d2f-4893-a78b-a845a8b6c0d9
 ---
 # Elements - Divider
 
