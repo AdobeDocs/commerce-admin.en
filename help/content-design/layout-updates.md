@@ -57,8 +57,12 @@ The following steps show how to use a layout update to place a block on a page. 
 
    `cms_page_view_selectable_`<`customer-service`>`_`<`ChatTool`>`.xml`
 
+   |Element|Description|
+   |--- |--- |
    |CMS Page Identifier|The URL key of the page with any forward slash (`/`) replaced by an underscore (`_`).|
    |Layout Update Name|The option that appears in the _Custom Layout Update_ list.|
+
+   {style="table-layout:auto"}   
 
 ### Step 3: Reference the layout update from the page
 

@@ -21,7 +21,7 @@ breadcrumb-title: Content and Design
     - [Page Layout Overview](page-layout.md)
     - [Storefront Layout Examples](page-layout-examples.md)
     - [Layout Updates](layout-updates.md)
-- Content elements {#elements}
+- Content Elements {#elements}
   - Pages {#pages}
     - [Pages Overview](pages.md)
     - [Page Workspace and Controls](pages-workspace.md)
@@ -44,7 +44,7 @@ breadcrumb-title: Content and Design
     - [New Products List Widget](widget-new-products-list.md)
     - [Orders and Returns Widget](widget-orders-returns.md)
 - WYSIWYG Editor {#wysiwyg}
-  - [The WSIWYG Editor](editor.md)
+  - [WYSIWYG Editor Overview](editor.md)
   - [Insert a Link](editor-insert-link.md)
   - [Insert an Image](editor-insert-image.md)
   - [Insert a Widget](editor-widget.md)
@@ -60,7 +60,7 @@ breadcrumb-title: Content and Design
     - [Save an Image Preview](adobe-stock-save-preview.md)
     - [License a Stock Image](adobe-stock-license-image.md)
   - Media Gallery {#gallery}
-    - [Media gallery Overview](media-gallery.md)
+    - [Media Gallery Overview](media-gallery.md)
     - [Asset Management](media-gallery-asset-management.md)
     - [Folder Management](media-gallery-folder-management.md)
     - [Image Optimization](media-gallery-image-optimization.md)

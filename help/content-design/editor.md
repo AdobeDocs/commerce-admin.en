@@ -1,8 +1,8 @@
 ---
-title: The WSIWYG Editor
+title: WYSIWYG Editor
 description: Learn how to use the editor and work with content in a _What You See Is What You Get_ (WYSIWYG) view.
 ---
-# The WSIWYG Editor
+# WYSIWYG Editor
 
 The editor gives you the ability to enter and format while working in a _What You See Is What You Get_ (WYSIWYG) view of the content. If you prefer to work directly with the underlying HTML code, you can easily change modes. The editor can be used to create content for [pages](pages.md), [blocks](blocks.md), and [product descriptions](https://docs.magento.com/user-guide/catalog/product-content.html). When working on product detail, access the editor by clicking **[!UICONTROL Show / Hide Editor]**.
 

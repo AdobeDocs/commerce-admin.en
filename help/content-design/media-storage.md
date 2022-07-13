@@ -34,7 +34,7 @@ The first two steps are the same as if you are inserting an image.
 
 1. To add one or more files to Media Storage, you can either upload the files from your system or use the [Adobe Stock Integration](adobe-stock.md):
 
-   - To upload files from your system, click **[!UICONTROL Choose Files]** and do the following:
+   To upload files from your system, click **[!UICONTROL Choose Files]** and do the following:
 
       - In the directory of your local computer, navigate to the location of the images.
 
@@ -42,7 +42,7 @@ The first two steps are the same as if you are inserting an image.
 
       - Click **[!UICONTROL Open]**.
 
-   - To use assets from Adobe Stock using the [integration](adobe-stock.md):
+   To use assets from Adobe Stock using the [integration](adobe-stock.md):
 
       - Click **[!UICONTROL Search Adobe Stock]**.
 
