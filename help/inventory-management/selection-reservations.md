@@ -7,6 +7,10 @@ exl-id: dcd63322-fb4c-4448-b6e7-0c54350905d7
 
 The heart of [!DNL Inventory Management] tracks every available product virtually and on-hand in your warehouses and stores. The Source Selection Algorithm and Reservations systems run in the background, keeping your salable quantities updated, checkout free of collisions, and shipment options recommended.
 
+>[!NOTE]
+>
+>Refer to the [developer guide](https://developer.adobe.com/commerce/php/development/framework/inventory-management/) for information about programmatically working with the [!DNL Inventory Management] system.
+
 ## Source Selection Algorithm
 
 The Source Selection Algorithm (SSA) analyzes and determines the best match for sources and shipping using the priority order of sources configured in a stock. During order shipment, the algorithm provides a recommended list of sources, available quantities, and amounts to deduct according to the selected algorithm. [!DNL Inventory Management] provides a Priority algorithm and supports extensions for new options.
@@ -69,6 +73,10 @@ To configure, select configurations and complete additional steps such as the Go
 
 Instead of immediately deducting or adding product inventory quantities, reservations hold inventory amounts until orders ship or cancel. Reservations work entirely in the backend to automatically update your salable quantity at the stock level.
 
+>[!NOTE]
+>
+>The reservation capability requires the `inventory.reservations.updateSalabilityStatus` message queue consumer to be running at all times. To check if it is running, use the `bin/magento queue:consumers:list` command. If you do not see it in the list, start it: `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`.
+
 ### Order reservations
 
 Reservations place holds on inventory quantities deducted from the salable quantity when submitting an order. The reservations are at the stock level, counting against quantities until the order is invoiced and shipped, canceled, and so on. When shipping the order, you can use the SSA recommendations or manually enter quantity deductions per source. When shipped, the reservations are automatically cleared and the quantity deducted. The salable quantity recalculates for the stock with an updated quantity and any reservation amounts remaining in the system.
@@ -80,6 +88,104 @@ The following diagram helps define the process of reservations during an order a
 A customer submits an order. [!DNL Commerce] checks the current inventory salable quantity. If enough inventory is available at the stock level, a reservation enters placing a temporary hold for the product SKU (for that stock) and recalculates the salable quantity.
 
 After invoicing the order, you determine the product amounts to deduct and ship from your sources. The shipment is processed and sent from one or more selected sources to the customer. The quantities automatically deduct from the source inventory quantity and reservations clear. For complete details and examples, see [About Order Status and Reservations](order-status.md).
+
+## Reservation calculations
+
+The system creates a reservation for each product when the following events occur:
+
+-  A customer or merchant places an order.
+-  A customer or merchant fully or partially cancels an order.
+-  The merchant creates a shipment for a physical product.
+-  The merchant creates an invoice for a virtual or downloadable product.
+-  The merchant issues a credit memo.
+
+Reservations are append-only operations, similar to a log of events. The initial reservation is assigned a negative quantity value. All subsequent reservations created while processing the order are positive values. When the order is complete, the sum of all reservations for the product is 0.
+
+Before the system can issue a reservation in response to a new order, it determines whether there are enough salable items to fulfill the order. The following quantities factor into the calculation:
+
+-  **StockItem quantity**. The StockItem quantity is the aggregated amount of inventory from all the physical sources for the current sales channel. If the Baltimore source has 20 units of a product, the Austin source has 25 units of the same product, while the Reno source has 10, and all these sources are linked to Stock A, then the StockItem count for thus product is 55 (20 + 25 + 10). (When items are shipped, the Inventory indexer updates the quantities available at each source.)
+
+-  **Outstanding reservations**. The system totals all the initial reservations that have not been compensated. This number will always be negative. If customer A has a reservation for 10 items, and customer B has a reservation 5 for items, then outstanding reservations for the product total -15.
+
+Therefore, the merchant can fulfill an incoming order as long as the customer orders less than 40 (55 + -15) units.
+
+When you complete processing an order (Complete, Canceled, Closed), all reservations in the scope of that order should resolve to `0`. This clears all salable quantity holds.
+
+>[!NOTE]
+>
+>Backorders (with Out-of-Stock Thresholds) and Notify for Quantity Below Threshold settings also affect the calculation of salable quantities, but they are outside the scope of this topic. For more information about these settings, see [Configuring [!DNL Inventory Management]](https://experienceleague.adobe.com/docs/commerce-admin/inventory/configuration/configuration.html) in the _Admin User Guide_.
+
+## Reservation objects
+
+A reservation contains the following information:
+
+Parameter | Data type | Description
+--- | --- | ---
+`reservation_id` | Integer | A system-generated ID
+`stock_id` | Integer | The ID of the stock the product is assigned to
+`sku` | String | The SKU of the product
+`quantity` | Float | The number of items in this reservation
+`metadata` | String | The event type, object type, and object ID for this reservation. For example, `{"event_type":"order_placed","object_type":"order","object_id":"8"}`
+
+The metadata `event_type` can have the following values:
+
+-  `order_placed`
+-  `order_canceled`
+-  `shipment_created`
+-  `creditmemo_created`
+-  `invoice_created`
+
+Currently, the metadata object type must be `order`, and the object ID is the order ID.
+
+In future releases, it might be possible to create a reservation when a customer adds an item to a shopping cart. Each item could be reserved for a fixed amount of time, such as 15 minutes, allowing the customer to reserve items while continuing to shop. When this type of reservation is enabled, the metadata could contain additional types of information.
+
+## Reservation lifecycle
+
+The following example shows the sequence of reservations generated for a simple order.
+
+1. The customer makes a purchase order for 25 units of product `SKU-1`. The reservation contains the following information:
+
+   ```text
+   reservation_id = 1
+   stock_id = 1
+   sku = SKU-1
+   quantity = -25
+   event_type = order_placed
+   ```
+
+1. The customer sends an invoice for 20 items, essentially canceling 5 of the units ordered.
+
+   ```text
+   reservation_id = 2
+   stock_id = 1
+   sku = SKU-1
+   quantity = 5
+   event_type = order_canceled
+   ```
+
+1. The merchant ships the purchased 20 units.
+
+   ```text
+   reservation_id = 3
+   stock_id = 1
+   sku = `SKU-1`
+   quantity = 20
+   event_type = shipment_created
+   ```
+
+The three `quantity` values sum up to 0 (-25 + 5 + 20). Note that the system does not modify any existing reservations.
+
+## Removing processed reservations
+
+The `inventory_cleanup_reservations` cron job executes SQL queries to clear the reservation database table. By default, it runs daily at midnight, but you can configure the times and frequency. The cron job runs a script that queries the database to find complete reservation sequences in which the sum of quantity values is 0. When all reservations for a given product that originated on the same day (or other configured time) have been compensated, the cron job deletes the reservations all at once.
+
+The `inventory_reservations_cleanup` cron job is not the same as the `inventory.reservations.cleanup` message queue consumer. The consumer asynchronously deletes reservations by product SKU after a product has been removed, whereas the cron job clears the entire reservations table. The consumer is required when you enable the [**Synchronize with Catalog**]({{ site.user_guide_url }}/configuration/catalog/inventory.html) stock option in the Admin system configuration. See [Manage message queues]({{ page.baseurl }}/config-guide/mq/manage-message-queues.html).
+
+Often, all initial reservations produced in a single day cannot compensated that same day. This situation could occur when a customer places an order minutes before the cron job begins or makes the purchase with an offline payment method, such as a bank transfer. The compensated reservation sequences remain in the database until they have all been compensated. This practice does not interfere with reservation calculations, because the total for each reservation is 0.
+
+>[!NOTE]
+>
+>Inventory Management provides commands to detect and manage reservation inconsistencies. See [[!DNL Inventory Management] CLI Reference](cli.md).
 
 ### Reservation updates
 
