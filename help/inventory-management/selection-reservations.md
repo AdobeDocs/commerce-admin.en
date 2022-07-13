@@ -119,13 +119,13 @@ When you complete processing an order (Complete, Canceled, Closed), all reservat
 
 A reservation contains the following information:
 
-Parameter | Data type | Description
---- | --- | ---
-`reservation_id` | Integer | A system-generated ID
-`stock_id` | Integer | The ID of the stock the product is assigned to
-`sku` | String | The SKU of the product
-`quantity` | Float | The number of items in this reservation
-`metadata` | String | The event type, object type, and object ID for this reservation. For example, `{"event_type":"order_placed","object_type":"order","object_id":"8"}`
+| Parameter | Data type | Description |
+| --- | --- | --- |
+| `reservation_id` | Integer | A system-generated ID |
+| `stock_id` | Integer | The ID of the stock the product is assigned to |
+| `sku` | String | The SKU of the product |
+| `quantity` | Float | The number of items in this reservation |
+| `metadata` | String | The event type, object type, and object ID for this reservation. For example, `{"event_type":"order_placed","object_type":"order",| "object_id":"8"}` |
 
 The metadata `event_type` can have the following values:
 
@@ -185,7 +185,7 @@ Often, all initial reservations produced in a single day cannot compensated that
 
 >[!NOTE]
 >
->Inventory Management provides commands to detect and manage reservation inconsistencies. See [[!DNL Inventory Management] CLI Reference](cli.md).
+>`[!DNL Inventory Management]` provides commands to detect and manage reservation inconsistencies. See [[!DNL Inventory Management] CLI Reference](cli.md).
 
 ### Reservation updates
 
