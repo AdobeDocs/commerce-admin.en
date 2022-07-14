@@ -4,13 +4,15 @@ description: "Learn how to add and remove content pages used in your [!DNL Comme
 ---
 # Add and Remove Pages
 
-The process of adding a content page to your store is essentially the same for any type of page you might want to create. You can include text, images, blocks of content, variables, and widgets. Most content pages are designed to be read by search engines first, and by people second. Keep the needs of each of these two very different audiences in mind when choosing the page title, and URL, and when composing the meta data, and content. When your page is complete, it can be added to your store navigation, linked to other pages, linked from the footer of your store, or used as a new [home page](page-home-new.md).
-
-The following instructions walk you through each step to create a basic page. Some advanced features are skipped over, but are covered in other topics.
+The process of adding a content page to your store is essentially the same for any type of page that you might want to create. You can include text, images, blocks of content, variables, and widgets. Most content pages are designed for reading by search engines first, and by people second. Keep the needs of each of these two different audiences in mind when choosing the page title, and URL, and when composing the meta data, and content. When your page is complete, it can be added to your store navigation, linked to other pages, linked from the footer of your store, or used as a new [home page](page-home-new.md).
 
 ![Pages Grid](./assets/pages-grid.png)<!-- zoom -->
 
-## Step 1: Add a new page
+## Add a page
+
+The following instructions walk you through each step to create a basic page. Some advanced features are skipped over, but are covered in other topics.
+
+### Step 1: Create the page
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Elements]_ > **[!UICONTROL Pages]**.
 
@@ -24,11 +26,11 @@ The following instructions walk you through each step to create a basic page. So
 
    The page title appears in the [breadcrumb](https://docs.magento.com/user-guide/catalog/navigation-breadcrumb-trail.html) navigation.
 
-## Step 2: Complete the content
+### Step 2: Complete the content
 
 Depending on your [Advanced Content Tools configuration](https://docs.magento.com/user-guide/configuration/general/content-management.html), add the page content.
 
-### Use the Page Builder content tools
+#### Use the Page Builder content tools
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) **[!UICONTROL Content]**.
 
@@ -40,7 +42,7 @@ Depending on your [Advanced Content Tools configuration](https://docs.magento.co
 
 1. Complete the content, and format the text as needed.
 
-### Use the editor toolbar
+#### Use the editor toolbar
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) **[!UICONTROL Content]**.
 
@@ -52,7 +54,7 @@ Depending on your [Advanced Content Tools configuration](https://docs.magento.co
 
    You can add [images](media-storage.md), [variables](https://docs.magento.com/user-guide/marketing/variables.html), and [widgets](widgets.md) as needed. For more information, see [Using the Editor](editor.md).
 
-## Step 3: Complete the SEO information
+### Step 3: Complete the SEO information
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) **[!UICONTROL Search Engine Optimization]**.
 
@@ -64,7 +66,7 @@ Depending on your [Advanced Content Tools configuration](https://docs.magento.co
 
 1. Enter a **[!UICONTROL Meta Title]** for the page.
 
-   The Meta Title should be less than seventy characters in length and appears in the browser title bar and tab.
+   The Meta Title should contain fewer than 70 characters and appears in the browser title bar and tab.
 
 1. Enter your choice of high-value **[!UICONTROL Meta Keywords]** that search engines can use to index the page.
 
@@ -72,11 +74,11 @@ Depending on your [Advanced Content Tools configuration](https://docs.magento.co
 
 1. For **[!UICONTROL Meta Description]**, enter a brief description of the page for search results listings.
 
-   Ideally, the description should be from 150-160 characters in length, with a maximum limit of 255.
+   Ideally, the description should be 150-160 characters in length, with a maximum limit of 255.
 
 1. Click **[!UICONTROL Save]**.
 
-## Step 4: Specify the scope of the page
+### Step 4: Specify the scope of the page
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) **[!UICONTROL Page in Websites]**.
 
@@ -86,7 +88,7 @@ Depending on your [Advanced Content Tools configuration](https://docs.magento.co
 
    If the installation has multiple websites, select each website and store view where the page is to be available.
 
-## Step 5: Identify the parent page (if applicable)
+### Step 5: Identify the parent page (if applicable)
 
 {{ee-feature}}
 
@@ -96,7 +98,7 @@ Depending on your [Advanced Content Tools configuration](https://docs.magento.co
 
 1. If this page is a child of another page, select the checkbox of the **[!UICONTROL Parent page]**.
 
-## Step 6: Enter design changes (optional)
+### Step 6: Enter design changes (optional)
 
 1. To change the layout of the page, expand ![Expansion selector](../assets/icon-display-expand.png) **[!UICONTROL Design]**.
 
@@ -132,7 +134,7 @@ Depending on your [Advanced Content Tools configuration](https://docs.magento.co
 
    - To change the column layout of the page, choose the **[!UICONTROL Layout]** that you want to apply.
 
-## Step 7: Preview the page
+### Step 7: Preview the page
 
 1. Click the **[!UICONTROL Save]** arrow and choose **[!UICONTROL Save & Close]** to return to the Pages grid.
 
@@ -140,7 +142,7 @@ Depending on your [Advanced Content Tools configuration](https://docs.magento.co
 
 1. To return to the grid, click **[!UICONTROL Back]** in the upper-left corner of the browser window.
 
-## Step 8: Publish the page
+### Step 8: Publish the page
 
 1. Select **[!UICONTROL Edit]** in the _[!UICONTROL Action]_ column of the grid.
 
@@ -174,7 +176,7 @@ Any content page can be used as a template, and saved as a duplicate. You might 
 
 1. Open the duplicate page in _Edit_ mode and do the following:
 
-   - If you want to publish the page at this time, set **[!UICONTROL Enable Page]** to `Yes`.
+   - If you want to publish the page immediately, set **[!UICONTROL Enable Page]** to `Yes`.
 
    - Update the **[!UICONTROL Page Title]**, as needed.
 

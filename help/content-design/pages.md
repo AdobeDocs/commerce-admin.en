@@ -4,7 +4,7 @@ description: "Learn details about the core content pages included with the [!DNL
 ---
 # Pages
 
-All content can be viewed in terms of its shelf life, just as any product in a store. Did you know that the shelf life of social media content is less than twenty-four hours? The potential shelf life of the content you create can help you decide where to invest your resources.
+Content can be viewed in terms of its shelf life, just as any product in a store. Did you know that the shelf life of social media content is less than 24 hours? The potential shelf life of the content you create can help you decide where to invest your resources.
 
 Content with a long shelf life is sometimes referred to as _evergreen content_. Examples of evergreen content include customer success stories, _how to_ instructions, and Frequently Asked Questions (FAQ). In contrast, content that is perishable by nature includes events, industry news, and press releases.
 
@@ -12,7 +12,7 @@ Content with a long shelf life is sometimes referred to as _evergreen content_. 
 
 ## Core Content pages
 
-The [!DNL Commerce] demo store has examples of core content pages to help you get started. All of the pages can be modified to meet your needs. Take a look at the following pages in your store to make sure that the content conveys your message, voice, and brand.
+The [!DNL Commerce] demo store has examples of core content pages to help you get started. All of these pages can be modified to meet your needs. Look at the following pages in your store and make sure that the content conveys your message, voice, and brand.
 
 ### Home
 
@@ -64,7 +64,7 @@ The _Default Pages_ configuration determines the landing page that is associated
 
    |Field|[Scope](https://docs.magento.com/user-guide/configuration/scope.html)|Description|
    |--- |--- |--- |
-   |[!UICONTROL Default Web URL]|Store View|Indicates the landing page that is associated with the base URL. This is set by default to `cms` to indicate a page from the [!DNL Commerce] content management system. You can also use a different type of landing page, such as a blog. For example, if a blog is installed on the server at `magento/blog`, you can enter the folder name `blog` as a relative path to the selection of pages.|
+   |[!UICONTROL Default Web URL]|Store View|Indicates the landing page that is associated with the base URL. By default, this field is set to `cms` to indicate a page from the [!DNL Commerce] content management system. You can also use a different type of landing page, such as a blog. For example, if a blog is installed on the server at `magento/blog`, you can enter the folder name `blog` as a relative path to the selection of pages.|
    |[!UICONTROL CMS Home Page]|Store View|To choose the home page for the store, simply select the CMS page from the list. By default, the CMS Home Page lists the entire selection of CMS pages that are available for your store.|
    |[!UICONTROL Default No-route URL]|Store View|Contains the URL of the default page that you want to appear when a `404 Page not Found` error occurs. The default value is `cms/noroute/index`.|
    |[!UICONTROL CMS No Route Page]|Store View|Identifies a specific CMS page that you want to appear when a 404 Page Not Found error occurs. The default page is `404 Not Found`.|
@@ -75,7 +75,7 @@ The _Default Pages_ configuration determines the landing page that is associated
 
 1. For **[!UICONTROL Default Web URL]**, enter the relative path to the folder in the [!DNL Commerce] installation that contains the landing page.
 
-   This is set by default to `cms` to indicate a page from the [!DNL Commerce] content management system.
+   The default setting, `cms`, indicates a page from the [!DNL Commerce] content management system.
 
    >[!NOTE]
    >
@@ -83,7 +83,7 @@ The _Default Pages_ configuration determines the landing page that is associated
 
 1. Set **[!UICONTROL CMS Home Page]** to the CMS page to be used as the home page. Other created pages may be used as the home page, such as:
 
-   - Welcome to our Exclusive Online Store
+   - Welcome to the Exclusive Online Store
    - Rewards Points
    - About Us
    - Customer Service

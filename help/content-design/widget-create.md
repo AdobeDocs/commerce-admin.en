@@ -4,7 +4,7 @@ description: Learn how to create and manage the widgets that automatically updat
 ---
 # Create and Manage Widgets
 
-Widgets are reusable components and you can easily create new widgets, as well as modify existing ones to automatically update content across your store. You can also delete widgets that are no longer in use.
+Widgets are reusable components. You can easily create widgets, and modify existing ones to automatically update content across your store. You can also delete widgets that are no longer in use.
 
 ![Widgets](./assets/widgets.png)<!-- zoom -->
 
@@ -36,7 +36,7 @@ The process of creating a widget is nearly the same for each [widget type](widge
 
       This title is visible only from the Admin.
 
-   - For **[!UICONTROL Assign to Store Views]**, select the store views where the widget will be visible.
+   - For **[!UICONTROL Assign to Store Views]**, select the store views where you want the widget to be visible.
 
       You can select a specific store view, or `All Store Views`. To select multiple views, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
 

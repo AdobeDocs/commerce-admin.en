@@ -1,18 +1,18 @@
 ---
 title: Add a Rotating Dynamic Block
-description: Add multiple dynamic blocks to a rotator to present a slide show of interactive content.
+description: Present a slide show of interactive content on the storefront by adding multiple dynamic blocks to a rotator.
 ---
 # Add a Rotating Dynamic Block
 
 {{ee-feature}}
 
-Multiple [dynamic blocks](dynamic-blocks.md) can be added to a rotator to present a slide show of interactive content. The [widget](widgets.md) tool is used to place the rotator at a specific place on a either a single page, or on multiple pages throughout your store.
+To present a slide show of interactive content, you can add multiple [dynamic blocks](dynamic-blocks.md) to a rotator. The [widget](widgets.md) tool is used to place the rotator at a specific place on a either a single page, or on multiple pages throughout your store.
 
 ![Dynamic block rotator](./assets/widget-dynamic-block-rotator.png)<!-- zoom -->
 
 ## Step 1: Create individual dynamic blocks
 
-Follow the instructions to [create the dynamic blocks](dynamic-blocks.md) that you want to place in the rotator.
+To [create the dynamic blocks](dynamic-blocks.md) that you want to place in the rotator, follow these instructions:
 
 ## Step 2: Add a dynamic block rotator widget
 
@@ -24,7 +24,7 @@ Follow the instructions to [create the dynamic blocks](dynamic-blocks.md) that y
 
 1. Choose the current **[!UICONTROL Design Theme]** of the store.
 
-   This identifies the current package or [theme](themes.md) that determines the page layout of the store.
+   This setting identifies the current package or [theme](themes.md) that determines the page layout of the store.
 
 1. Click **[!UICONTROL Continue]**.
 
@@ -36,9 +36,9 @@ Follow the instructions to [create the dynamic blocks](dynamic-blocks.md) that y
 
    - Enter a **[!UICONTROL Title]** for the rotator.
 
-   - In the **[!UICONTROL Assign to Store Views]** list, select the [store view(s)](https://docs.magento.com/user-guide/stores/websites-stores-views.html) where the rotator is available.
+   - In the **[!UICONTROL Assign to Store Views]** list, select the [store views](https://docs.magento.com/user-guide/stores/websites-stores-views.html) where the rotator is available.
 
-   - (Optional) Enter a **[!UICONTROL Sort Order]** number to determine the position of the rotator in the target container. This is relative to other widgets that might be assigned to the same container.
+   - (Optional) Enter a **[!UICONTROL Sort Order]** number to determine the position of the rotator in the target container. It is relative to other widgets that might be assigned to the same container.
 
    ![Rotator storefront properties](./assets/widget-dynamic-block-rotator-storefront-properties.png)<!-- zoom -->
 
@@ -50,7 +50,7 @@ Follow the instructions to [create the dynamic blocks](dynamic-blocks.md) that y
       - `Products` - Displays the rotator on either a specific type of product page, or on all product pages. Options: All Product Types / [Simple Product](https://docs.magento.com/user-guide/catalog/product-create-simple.html) /  [Virtual Product](https://docs.magento.com/user-guide/catalog/product-create-virtual.html) / [Bundle Product](https://docs.magento.com/user-guide/catalog/product-create-bundle.html) / [Downloadable Product](https://docs.magento.com/user-guide/catalog/product-create-downloadable.html) / [Gift Card](https://docs.magento.com/user-guide/catalog/product-gift-card.html) / [Configurable Product](https://docs.magento.com/user-guide/catalog/product-create-configurable.html) / [Grouped Product](https://docs.magento.com/user-guide/catalog/product-create-grouped.html)
       - `Generic Pages` - Displays the rotator on all pages, a specific page, or only on pages with a certain layout. Options: All Pages / Specified Page / Page Layouts
 
-      In this example, the rotator is to be placed on a `Specified Page`.
+      In the example, the rotator is to be placed on a `Specified Page`.
 
    - Select the specific **[!UICONTROL Page]** where the rotator is to appear.
 
@@ -60,7 +60,7 @@ Follow the instructions to [create the dynamic blocks](dynamic-blocks.md) that y
 
    - Accept `Dynamic Block Template` as the default **[!UICONTROL Template]**.
 
-      This determines the template that is used to format the rotator, based on whether the rotator is to stand alone, or be placed inside existing text.
+      This setting determines the template that is used to format the rotator, based on whether the rotator is to stand alone, or be placed inside existing text.
 
       ![Rotator layout updates](./assets/widget-dynamic-block-rotator-layout-updates.png)<!-- zoom -->
 
@@ -78,7 +78,7 @@ Follow the instructions to [create the dynamic blocks](dynamic-blocks.md) that y
 
 1. To **[!UICONTROL Restrict the Dynamic Block Types]** that can be used with the widget, select `Content Area`.
 
-   This limits the banner to a specific part of the page layout.
+   This setting limits the banner to a specific part of the page layout.
 
    - `Content Area` - Places the dynamic block in the main content area of the page.
    - `Footer` - Places the dynamic block in the page footer.
@@ -90,7 +90,7 @@ Follow the instructions to [create the dynamic blocks](dynamic-blocks.md) that y
 
    - `Display all instead of rotating` - Displays a stack of dynamic blocks, where all are visible.
    - `One at a time, Random` - Displays the specified dynamic blocks in a random order. When the page is refreshed, a different (and random) dynamic block appears.
-   - `One at the time, Series` - Displays the specified dynamic blocks in the sequence they were added. When the page is refreshed, the next dynamic block in the sequence appears.
+   - `One at the time, Series` - Displays the specified dynamic blocks in the sequence that they were added. When the page is refreshed, the next dynamic block in the sequence appears.
    - `One at the time, Shuffle` - Displays one dynamic block at a time in a shuffled order. This option is similar to the `One at a time, Random` option, except that the same dynamic block is not repeated.
 
    ![Rotator widget options](./assets/widget-dynamic-block-rotator-widget-options.png)<!-- zoom -->

@@ -40,9 +40,9 @@ Create rich, interactive content that is driven by logic from [price rules](http
 
    >[!NOTE]
    >
-   >- If no Segment is created, the dynamic block will be visible to everyone.
+   >- If no Segment is created, the dynamic block is visible to everyone.
    >- If the customer does not belong to any segments and the dynamic block is created for all segments, the contents of dynamic block is still displayed.
-   >- If all customer segments that were assigned to Dynamic Block are deleted, its contents will be visible to everyone.
+   >- If all customer segments assigned to a Dynamic Block are deleted, its contents are then visible to everyone.
 
 ## Step 2: Complete the content
 
@@ -54,7 +54,7 @@ Use the [!DNL Page Builder] [workspace](../page-builder/workspace.md) to complet
 
 1. Scroll down and expand ![Expansion selector](../assets/icon-display-expand.png) **[!UICONTROL Related Promotions]**.
 
-1. Click the type of promotion to associate with the dynamic block:
+1. Click the type of promotion that you want to associate with the dynamic block:
 
    - **[!UICONTROL Add Cart Price Rules]** (see [Cart Price Rules](https://docs.magento.com/user-guide/marketing/price-rules-cart.html))
 
@@ -74,7 +74,7 @@ Use the [!DNL Page Builder] [workspace](../page-builder/workspace.md) to complet
 
 |Field|Description|
 |--- |--- |
-|[!UICONTROL Store View]|Specifies the store view(s) where the dynamic block is to be available.|
+|[!UICONTROL Store View]|Specifies the store views where the dynamic block is to be available.|
 |[!UICONTROL Enable Dynamic Block]|Activates or deactivates the dynamic block. Options: Yes / No|
 |[!UICONTROL Dynamic Block Name]|A descriptive name that identifies the dynamic block in the Admin.|
 |[!UICONTROL Dynamic Block Type]|Identifies the place in the [standard page layout](layout-updates.md) where the dynamic block is placed. Options: <br/>**[!UICONTROL Content Area]** - Places the dynamic block in the main [content area](layout-updates.md) of the page. <br/>**[!UICONTROL Footer]** - Places the dynamic block in the page [footer](page-setup.md#footer). <br/>**[!UICONTROL Header]** - Places the dynamic block in the page [header](page-setup.md#header). <br/>**[!UICONTROL Left Column]** - Places the dynamic block in the [left sidebar](page-layout.md#standard-page-layouts) of a two-or three-column layout. <br/>**[!UICONTROL Right Column]** - Places the dynamic block in the [right sidebar](page-layout.md#standard-page-layouts) of a two- or three-column layout.|
