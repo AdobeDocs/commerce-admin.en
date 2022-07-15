@@ -41,7 +41,7 @@ Supported logo file formats:
 
    ![Design Configuration page](./assets/design-configuration.png)<!-- zoom -->
 
-1. Find the store view that you want to configure and click **[!UICONTROL Edit]** in the _Action_ column.
+1. Find the store view that you want to configure and click **[!UICONTROL Edit]** in the _[!UICONTROL Action]_ column.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Header]** section.
 
@@ -159,7 +159,7 @@ To update the copyright notice:
 
    Use the `&copy;` character code to insert a copyright symbol.
 
-1. When complete, click **Save Configuration**.
+1. When complete, click **[!UICONTROL Save Configuration]**.
 
 ## Set the store demo notice
 
