@@ -1,6 +1,7 @@
 ---
 title: Create and Manage Widgets
 description: Learn how to create and manage the widgets that automatically update content across your store.
+exl-id: 680f2f41-ec51-4ac6-9e92-2817591af3e6
 ---
 # Create and Manage Widgets
 

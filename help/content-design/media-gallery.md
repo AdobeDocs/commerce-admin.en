@@ -1,6 +1,7 @@
 ---
-title: "The [!DNL Media Gallery]"
+title: The [!DNL Media Gallery]
 description: Use the Media Gallery to organize and manage your media files on the server.
+exl-id: bf730e46-70f3-405c-88cf-62d0a3e8634f
 ---
 # The [!DNL Media Gallery]
 

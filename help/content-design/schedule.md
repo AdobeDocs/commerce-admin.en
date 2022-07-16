@@ -1,6 +1,7 @@
 ---
 title: Schedule Design Changes
 description: Learn how to schedule your theme design changes in advance
+exl-id: 0a214fd5-77a6-4ad4-9740-5138d40ad0a1
 ---
 # Schedule Design Changes
 

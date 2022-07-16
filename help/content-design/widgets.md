@@ -1,6 +1,7 @@
 ---
 title: Widgets
 description: Learn about widgets, which provide a snippet of code that makes it possible to display a wide range of content and place it at specific block references in your store.
+exl-id: 993ba2ca-a8de-4f7e-8cab-7ba7d16eebe7
 ---
 # Widgets
 

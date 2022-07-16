@@ -1,6 +1,7 @@
 ---
 title: Add and Remove Pages
-description: "Learn how to add and remove content pages used in your [!DNL Commerce] store."
+description: Learn how to add and remove content pages used in your [!DNL Commerce] store.
+exl-id: a7a503ea-3631-4be2-81e4-aed2ae9419dc
 ---
 # Add and Remove Pages
 

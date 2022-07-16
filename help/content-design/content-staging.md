@@ -1,6 +1,7 @@
 ---
 title: Content Staging
 description: Content Staging gives your business team the ability to easily create, preview, and schedule a wide range of content updates for your store directly from the Admin.
+exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 ---
 # Content Staging
 

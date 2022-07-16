@@ -1,6 +1,7 @@
 ---
 title: Page Workspace Controls
 description: Learn about the workspace tools used to located and update content pages.
+exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 ---
 # Page Workspace Controls
 

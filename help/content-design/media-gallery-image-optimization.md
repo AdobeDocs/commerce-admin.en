@@ -1,6 +1,7 @@
 ---
 title: Media Gallery Image Optimization
-description: "Learn how to use image optimization for your [!DNL Commerce] media assets."
+description: Learn how to use image optimization for your [!DNL Commerce] media assets.
+exl-id: ba75e90a-406b-4b14-b049-0b78c4a27188
 ---
 # Media Gallery Image Optimization
 

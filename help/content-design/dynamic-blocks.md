@@ -1,6 +1,7 @@
 ---
 title: Dynamic Blocks
 description: Use dynamic blocks to create rich, interactive content that is driven by logic from price rules and customer segments.
+exl-id: 0c842ad9-2e46-48aa-9a12-2f74a54c352e
 ---
 # Dynamic Blocks
 

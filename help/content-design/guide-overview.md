@@ -3,6 +3,7 @@ title: Content and Design Guide
 description: Comprehensive information about Content and Design features for Adobe Commerce and Magento Open Source administrators and eCommerce marketers.
 seo-title: Adobe Commerce Content and Design Guide
 seo-description: Describes how to use the Content and Design features for Adobe Commerce and Magento Open Source.
+exl-id: ad3cd024-1703-409f-9820-a0b90e7d460f
 ---
 # Adobe Commerce Content and Design Guide
 

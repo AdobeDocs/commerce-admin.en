@@ -1,6 +1,7 @@
 ---
 title: Insert a Widget in the Editor
 description: Use the widget tool to add various content elements to a page, including links to any content page or node, product, or category.
+exl-id: bbc5e059-06d8-4dda-89a7-6c9826b73fd3
 ---
 # Insert a Widget in the Editor
 

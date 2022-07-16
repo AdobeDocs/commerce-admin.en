@@ -1,6 +1,7 @@
 ---
-title: "Introduction to [!DNL Commerce] Content and Design"
+title: Introduction to [!DNL Commerce] Content and Design
 description: Learn how to use the content and site design features to reflect your branding and style on your store.
+exl-id: e13782e3-b53c-4f25-b2cc-8dacec57e451
 ---
 # Introduction to [!DNL Commerce] Content and Design
 

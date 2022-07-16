@@ -1,6 +1,7 @@
 ---
 title: Insert a Link in the Editor
 description: Use the editor to add a link to your content
+exl-id: c9930a4f-a082-4bd8-b0c4-9d86b59a2365
 ---
 # Insert a Link in the Editor
 

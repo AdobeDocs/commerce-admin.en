@@ -1,6 +1,7 @@
 ---
 title: Insert a Variable in the Editor
 description: Add predefined or custom variables to your content.
+exl-id: 49b05df0-f425-4706-a402-f1c3f868cb49
 ---
 # Insert a Variable in the Editor
 

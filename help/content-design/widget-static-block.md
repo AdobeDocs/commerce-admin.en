@@ -1,6 +1,7 @@
 ---
 title: Use a Widget to Position a Block
 description: Learn how to use a static block widget to place an existing content nearly anywhere within your store.
+exl-id: 174deef2-33c4-4f1a-8ca8-4969be209bc7
 ---
 # Use a Widget to Position a Block
 

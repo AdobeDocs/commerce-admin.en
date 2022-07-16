@@ -1,6 +1,7 @@
 ---
 title: Themes
 description: Learn about [!DNL Commerce] themes, which include layout files, template files, translation files, and skins that define the look and feel of your store.
+exl-id: d2ccff51-5019-4f80-8eaa-3fe50d5cd6cc
 ---
 # Themes
 

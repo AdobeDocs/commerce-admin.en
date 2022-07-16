@@ -1,6 +1,7 @@
 ---
 title: Preview a Campaign
 description: Create a preview for any day or period of time during a campaign and share it with team members.
+exl-id: f05589ae-9fc8-4e51-a504-ab90772b3c3d
 ---
 # Preview a Campaign
 

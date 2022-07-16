@@ -1,6 +1,7 @@
 ---
 title: Design Configuration
 description: The Design Configuration makes it easy to edit design-related rules and configuration settings by displaying the settings on a single page.
+exl-id: 43fec57f-d76d-45a9-812b-ba1947cea46d
 ---
 # Design Configuration
 

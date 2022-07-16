@@ -1,6 +1,7 @@
 ---
 title: Insert an Image in the Editor
 description: The editor provides an easy way to insert an image from the media storage, link to an image that resides on another server, or use Adobe Stock assets.
+exl-id: 591830c9-6dba-4738-a6e7-cf5f93b3c319
 ---
 # Insert an Image in the Editor
 

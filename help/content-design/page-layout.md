@@ -1,6 +1,7 @@
 ---
 title: Page Layouts
 description: Learn about the page layout sections and how to configure default layouts.
+exl-id: 397a92cf-6f20-4729-8d7c-c5f672fc1c9a
 ---
 # Page Layouts
 

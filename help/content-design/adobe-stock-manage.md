@@ -1,6 +1,7 @@
 ---
 title: Use Adobe Stock Images
 description: Enhance your store pages with images from Adobe Stock.
+exl-id: 8f7d6f0a-511f-4f4b-821d-10a06e18041e
 ---
 # Use Adobe Stock Images
 

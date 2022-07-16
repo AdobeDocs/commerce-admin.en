@@ -1,6 +1,7 @@
 ---
 title: Media Gallery Folder Management
 description: Learn how to use folders to organize your media assets.
+exl-id: 23cfbdac-08dd-454c-8212-8739c540ba16
 ---
 # Media Gallery Folder Management
 

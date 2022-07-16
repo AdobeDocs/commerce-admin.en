@@ -1,6 +1,7 @@
 ---
 title: Media Gallery Asset Management
 description: Learn how to manage uploaded media files, and assets that you acquire through an Adobe Stock integration.
+exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 ---
 # Media Gallery Asset Management
 

@@ -1,6 +1,7 @@
 ---
 title: Install a New Theme
 description: Learn about installing a new theme for your Adobe Commerce or Magento Open Source store.
+exl-id: 28728064-cf3e-44ef-a251-61a23499d096
 ---
 # Install a New Theme
 

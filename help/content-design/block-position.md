@@ -1,6 +1,7 @@
 ---
 title: Position Blocks
 description: Position a block at a specific place on the page, and even for a specific product or category, without writing any code
+exl-id: cfc9eb2c-19c8-43f1-937d-4162b5011b8a
 ---
 # Position Blocks
 

@@ -1,6 +1,7 @@
 ---
 title: Blocks
 description: A block can be used to display fixed information such as text, images, and embedded video, and dynamic information.
+exl-id: 545740f7-802c-459e-acd1-a3b3ede29d07
 ---
 # Blocks
 

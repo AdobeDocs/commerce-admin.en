@@ -1,6 +1,7 @@
 ---
-title: "[!UICONTROL Content] Menu"
-description: "Use the [!UICONTROL Content] menu to access multiple features for managing the content in your store."
+title: '[!UICONTROL Content] Menu'
+description: Use the [!UICONTROL Content] menu to access multiple features for managing the content in your store.
+exl-id: 4e149836-f13c-4240-8700-882f2fc1619a
 ---
 # Content Menu
 

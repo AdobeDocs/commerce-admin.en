@@ -1,6 +1,7 @@
 ---
 title: Add a Rotating Dynamic Block
 description: Present a slide show of interactive content on the storefront by adding multiple dynamic blocks to a rotator.
+exl-id: 3d338014-cf26-4171-b48b-d37b3d7b0e81
 ---
 # Add a Rotating Dynamic Block
 

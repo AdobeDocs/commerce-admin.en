@@ -1,6 +1,7 @@
 ---
 title: Content Staging Dashboard
 description: Use the Content Staging Dashboard to access an overview of all active and upcoming campaigns.
+exl-id: 67c18c1c-94c3-4d89-ae1e-868a465431e3
 ---
 # Content Staging Dashboard
 

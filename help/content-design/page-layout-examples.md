@@ -1,6 +1,7 @@
 ---
 title: Storefront Layout Examples
 description: Review the examples of page layout options.
+exl-id: 1cda1175-269b-42b9-bf4e-9bf14483da1d
 ---
 # Storefront Layout Examples
 

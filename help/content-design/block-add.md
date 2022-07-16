@@ -1,6 +1,7 @@
 ---
 title: Add Blocks
 description: Create custom blocks of content that you can reuse in any page or within another block.
+exl-id: 2f104d77-a1d1-4f10-82ce-014955fe560b
 ---
 # Add Blocks
 

@@ -1,6 +1,7 @@
 ---
 title: Layout Updates
 description: Learn how layout updates make it possible to customize the layout of a page.
+exl-id: e2d8261f-cae1-4bd4-a047-f861dd7ca14e
 ---
 # Layout Updates
 

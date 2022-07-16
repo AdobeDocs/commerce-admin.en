@@ -1,6 +1,7 @@
 ---
 title: Page Hierarchy
 description: Learn how the page hierarchy system gives you the ability to organize your content pages and add pagination, navigation, and menus.
+exl-id: 2ce79b85-1420-4640-a4f7-0143a608a71a
 ---
 # Page Hierarchy
 
