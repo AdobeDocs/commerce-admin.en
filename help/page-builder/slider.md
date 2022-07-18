@@ -55,7 +55,7 @@ When you are working with the Slider content type, you add and edit individual s
 
    The slider container is displayed on the stage with a single, empty slide.
 
-1. Click in the slider container to display the [text editor](https://docs.magento.com/user-guide/cms/editor.html) and enter content for the first slide.
+1. Click in the slider container to display the [text editor](../content-design/editor.md) and enter content for the first slide.
 
    You can also include more complex banner content using the [Content](#content) settings.
 
@@ -123,13 +123,13 @@ You can save time by duplicating a slide that has already been configured with t
 
 You can add any [widgets type](../content-design/widgets.md#widget-types) to your slide in a [!DNL Page Builder] stage using the following steps:
 
-1. [Create the widget](https://docs.magento.com/user-guide/cms/widget-create.html) that you want to see on a slide.
+1. [Create the widget](../content-design/widget-create.md) that you want to see on a slide.
 
 1. Open the page, block, or dynamic block where you want to place the slider and expand the **[!UICONTROL Content]** section.
 
 1. In the [!DNL Page Builder] panel, expand **[!UICONTROL Media]** and drag a **[!UICONTROL Slider]** placeholder to a row, column, or tab on the stage.
 
-1. Click in the slider container to display the [text editor](https://docs.magento.com/user-guide/cms/editor.html) toolbar and click the _Insert Widget_ ![Insert widget icon](./assets/editor-btn-insert-widget.png) icon.
+1. Click in the slider container to display the [text editor](../content-design/editor.md) toolbar and click the _Insert Widget_ ![Insert widget icon](./assets/editor-btn-insert-widget.png) icon.
 
 1. Select the **[!UICONTROL Widget Type]** you need.
 

@@ -5,7 +5,7 @@ exl-id: 91fea8f8-d48a-43f1-ba2a-212c7130cee9
 ---
 # Media - Map
 
-Use the _Map_ content type to add a map from [[!DNL Google Maps] Platform][1] to the [[!DNL Page Builder] stage](workspace.md#stage). For example, you might add a map to a block, and then add the block to the [About Us](https://docs.magento.com/user-guide/cms/pages-core.html) and [Contact Us](https://docs.magento.com/user-guide/stores/contact-us.html) pages.
+Use the _Map_ content type to add a map from [[!DNL Google Maps] Platform][1] to the [[!DNL Page Builder] stage](workspace.md#stage). For example, you might add a map to a block, and then add the block to the [About Us](../content-design/pages.md#about-us) and [Contact Us](https://docs.magento.com/user-guide/stores/contact-us.html) pages.
 
 To get the most from [!DNL Google Maps] Platform, you can customize the map, highlight your store locations, and use Google [Places][2] to add rich information about your store to all [!DNL Google Maps].
 

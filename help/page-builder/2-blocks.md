@@ -5,11 +5,11 @@ exl-id: 864a3078-8cb3-4add-bdb7-14189aba535e
 ---
 # Walkthrough Part 2: Blocks
 
-The following exercise illustrates the difference between [simple blocks](https://docs.magento.com/user-guide/cms/blocks.html) and [dynamic blocks](dynamic-block.md), and how to use [!DNL Page Builder] to create each type of block.
+The following exercise illustrates the difference between [simple blocks](../content-design/blocks.md) and [dynamic blocks](dynamic-block.md), and how to use [!DNL Page Builder] to create each type of block.
 
 >[!NOTE]
 >
->[!DNL Page Builder] has a new content type called _Banner_, which is featured in the first walkthrough exercise and is unrelated to the previous banner functionality. What was previously the Banner option in the [Content menu](https://docs.magento.com/user-guide/cms/content-menu.html), is now _Dynamic Block_.
+>[!DNL Page Builder] has a new content type called _Banner_, which is featured in the first walkthrough exercise and is unrelated to the previous banner functionality. What was previously the Banner option in the [Content menu](../content-design/content-menu.md), is now _Dynamic Block_.
 
 ![Dynamic block in the storefront](./assets/pb-tutorial2-dynamic-block-storefront.png)<!-- zoom -->
 
@@ -155,7 +155,7 @@ A dynamic block includes logic that determines where, when, and to whom it appea
 
    - Set **[!UICONTROL Dynamic Block Type]** to `Content Area` and click **[!UICONTROL Done]**.
 
-      The Dynamic Block Type determines where in the [page layout](https://docs.magento.com/user-guide/design/page-layout-standard.html) that the block is placed. When setting up a dynamic block for your store, consider both the [page layout](https://docs.magento.com/user-guide/design/page-layout.html) and the [theme](https://docs.magento.com/user-guide/design/themes.html), so you can put the available space to good use. Some stores have an active content area that is limited to a fixed width, while others extend the full width of the screen.
+      The Dynamic Block Type determines where in the [page layout](../content-design/page-layout.md) that the block is placed. When setting up a dynamic block for your store, consider both the page layout and the [theme](../content-design/themes.md), so you can put the available space to good use. Some stores have an active content area that is limited to a fixed width, while others extend the full width of the screen.
 
       ![Dynamic Block Type setting](./assets/pb-dynamic-block-type.png)<!-- zoom -->
 

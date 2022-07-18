@@ -31,13 +31,13 @@ Adobe Commerce and Magento Open Source are packed with features that make it eas
 
 Adobe Commerce and Magento Open Source make it easy to create a customized, engaging site experience. Encourage your customers to spend more time exploring your site, and give them the tools to make it easy to find what they want faster.
 
-- Content Management - [Page Builder](https://docs.magento.com/user-guide/cms/page-builder.html) makes it easy to create targeted pages with interactive elements that engage your customers. Even users without a technology background can create and manage site content.
+- Content Management - [Page Builder](../page-builder/introduction.md) makes it easy to create targeted pages with interactive elements that engage your customers. Even users without a technology background can create and manage site content.
 
 - Design and Theme - Control the [visual elements](../content-design/themes.md) of your store with a collection of templates and skin files. You can apply these visual elements to all pages in your store, giving your store a cohesive look and feel.
 
 - Multiple Stores, Sites, and Views - Control the look and feel of [multiple sites](websites-stores-views.md), introduce new markets and languages, and track analytics from a single Admin.
 
-- Multiple Devices - The powerful [!DNL Commerce] features make it easy to [create storefronts](https://docs.magento.com/user-guide/design/themes.html) optimized for iPhone, Android™, and Mobile Opera browsers to help you engage consumers with mobile commerce now, and into the future.
+- Multiple Devices - The powerful [!DNL Commerce] features make it easy to [create storefronts](../content-design/themes.md) optimized for iPhone, Android™, and Mobile Opera browsers to help you engage consumers with mobile commerce now, and into the future.
 
 - Shopping Tools - Your store includes a set of [shopping tools](https://docs.magento.com/user-guide/ marketing/shopping-tools.html) that create opportunities for your customers to interact with your store, connect on social media, and share with friends.
 
@@ -59,7 +59,7 @@ Adobe Commerce and Magento Open Source offer a rich set of tools to create perso
 
 Adobe Commerce and Magento Open Source provide a range of tools to help you tailor the shopping experience, and encourage your customers to put more items in their shopping carts and spend more money.
 
-- Targeted Promotions - Use catalog and shopping cart price rules to create [promotions](https://docs.magento.com/user-guide/marketing/promotions.html) that kick into gear when a set of conditions is met. In Adobe Commerce, segment customers dynamically and build segments based on specific characteristics such as customer address, order history, shopping cart content, and much more. Then, use [[!DNL Page Builder]](https://docs.magento.com/user-guide/cms/page-builder.html) to create a dynamic block that is triggered by a promotion, and appears only to the targeted customer segment.
+- Targeted Promotions - Use catalog and shopping cart price rules to create [promotions](https://docs.magento.com/user-guide/marketing/promotions.html) that kick into gear when a set of conditions is met. In Adobe Commerce, segment customers dynamically and build segments based on specific characteristics such as customer address, order history, shopping cart content, and much more. Then, use [[!DNL Page Builder]](../page-builder/introduction.md) to create a dynamic block that is triggered by a promotion, and appears only to the targeted customer segment.
 
 - Promotional EVents - Hold an invitation-only [event](https://docs.magento.com/user-guide/marketing/events-private-sales.html) to launch a brand, and offer a [count-down ticker](https://docs.magento.com/user-guide/marketing/event-ticker.html) to member-only sales.
 

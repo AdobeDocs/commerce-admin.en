@@ -5,7 +5,7 @@ exl-id: 48396045-0fef-4f4f-8138-e6d969560e42
 ---
 # [!DNL Page Builder] Setup
 
-When enabled in the configuration, [!DNL Page Builder] is the default content creation tool for CMS Pages, Blocks, and Dynamic Blocks. In addition, the _[!UICONTROL Enable Advanced CMS]_ button offers [!DNL Page Builder] as an option for Categories and Products. You can also choose the default [page layout](https://docs.magento.com/user-guide/design/page-layout.html) that you want to use for products, categories, and CMS pages. [!DNL Page Builder] is not available for newsletter content, which uses the WYSIWYG [editor](https://docs.magento.com/user-guide/cms/editor.html).
+When enabled in the configuration, [!DNL Page Builder] is the default content creation tool for CMS Pages, Blocks, and Dynamic Blocks. In addition, the _[!UICONTROL Enable Advanced CMS]_ button offers [!DNL Page Builder] as an option for Categories and Products. You can also choose the default [page layout](../content-design/page-layout.md) that you want to use for products, categories, and CMS pages. [!DNL Page Builder] is not available for newsletter content, which uses the WYSIWYG [editor](../content-design/editor.md).
 
 For more information about the Content Management Advanced Tools configuration options, see the [Configuration Reference Guide](https://docs.magento.com/user-guide/configuration/general/content-management.html).
 
@@ -65,7 +65,7 @@ For more information about the Content Management Advanced Tools configuration o
 
 >[!NOTE]
 >
->Disabling [!DNL Page Builder] replaces the Advanced Content Tools with the WYSIWYG [editor](https://docs.magento.com/user-guide/cms/editor.html), and might cause display errors in the storefront. Content that you previously created with [!DNL Page Builder] might not be editable from the Admin.
+>Disabling [!DNL Page Builder] replaces the Advanced Content Tools with the WYSIWYG [editor](../content-design/editor.md), and might cause display errors in the storefront. Content that you previously created with [!DNL Page Builder] might not be editable from the Admin.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
