@@ -286,7 +286,7 @@ The Luma sample data includes additional information on the Contact Us page that
 
 ### Method 1: Using sample data
 
-The Luma sample data includes a _Contact Us Info_ block that can be customized for your store. The `contact-us-info` [block](https://docs.magento.com/user-guide/cms/blocks.html) can be easily modified to add your own content to the Contact Us page.
+The Luma sample data includes a _Contact Us Info_ block that can be customized for your store. The `contact-us-info` [block](../content-design/blocks.md) can be easily modified to add your own content to the Contact Us page.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Elements]_ > **[!UICONTROL Blocks]**.
 
@@ -296,7 +296,7 @@ The Luma sample data includes a _Contact Us Info_ block that can be customized f
 
 1. Scroll down to the **[!UICONTROL Content]** field and make any necessary changes.
 
-   - Use the editor [toolbar](https://docs.magento.com/user-guide/cms/editor.html) to format the text, and add [images](https://docs.magento.com/user-guide/cms/editor-insert-image.html) and [links](https://docs.magento.com/user-guide/cms/editor-insert-link.html).
+   - Use the editor [toolbar](../content-design/editor.md) to format the text, and add [images](../content-design/editor-insert-image.md) and [links](../content-design/editor-insert-link.md).
 
    -  To work directly with the HTML, click **[!UICONTROL Show / Hide Editor]**.
 

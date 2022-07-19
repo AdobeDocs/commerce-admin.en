@@ -13,7 +13,7 @@ Use the _Text_ content type to add a text container with a WYSIWYG (“What You 
 
 ## Text editor tools
 
-You can access the text editor directly from the stage or from a settings page. Changes made directly to the stage are saved automatically. For more information, see [Using the Editor](https://docs.magento.com/user-guide/cms/editor.html).
+You can access the text editor directly from the stage or from a settings page. Changes made directly to the stage are saved automatically. For more information, see [Using the Editor](../content-design/editor.md).
 
 ![Text editor tool - TinyMCE](./assets/pb-elements-text-editor-tools.png)<!-- zoom -->
 
@@ -41,7 +41,7 @@ You can access the text editor directly from the stage or from a settings page. 
 
 1. Use the editor to enter and format text, as needed.
 
-   For more information, see [Using the Editor](https://docs.magento.com/user-guide/cms/editor.html).
+   For more information, see [Using the Editor](../content-design/editor.md).
 
    ![Text editor with content](./assets/pb-elements-text-editor.png)<!-- zoom -->
 

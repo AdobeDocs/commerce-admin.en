@@ -9,7 +9,7 @@ Use the _Image_ content type to add a JPG, GIF, or PNG image to the [[!DNL Page 
 
 >[!TIP]
 >
->You can use the [Adobe Stock Integration](https://docs.magento.com/user-guide/cms/adobe-stock.html) to find and save an appropriate asset from among the millions provided by [Adobe Stock](https://stock.adobe.com). See [Using Adobe Stock Images](https://docs.magento.com/user-guide/cms/adobe-stock-manage.html) for details about how to search, refine, and save Adobe Stock assets into your gallery.
+>You can use the [Adobe Stock Integration](../content-design/adobe-stock.md) to find and save an appropriate asset from among the millions provided by [Adobe Stock](https://stock.adobe.com). See [Using Adobe Stock Images](../content-design/adobe-stock-manage.md) for details about how to search, refine, and save Adobe Stock assets into your gallery.
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -71,13 +71,13 @@ The image toolbox appears when you hover over the image container.
 
       >[!NOTE]
       >
-      >This method requires an [Adobe Stock integration](https://docs.magento.com/user-guide/cms/adobe-stock.html) configured for your Admin.
+      >This method requires an [Adobe Stock integration](../content-design/adobe-stock.md) configured for your Admin.
 
       - Click **[!UICONTROL Search Adobe Stock]** and search for an image.
 
       - Save the preview or licensed image to the gallery.
 
-         See [Using Adobe Stock Images](https://docs.magento.com/user-guide/cms/adobe-stock-manage.html) for more information about working with Adobe Stock assets.
+         See [Using Adobe Stock Images](../content-design/adobe-stock-manage.md) for more information about working with Adobe Stock assets.
 
       - Select the asset thumbnail in the gallery and click **[!UICONTROL Add Selected]**.
 
@@ -118,13 +118,13 @@ The image toolbox appears when you hover over the image container.
 
       >[!NOTE]
       >
-      >This method requires an [Adobe Stock integration](https://docs.magento.com/user-guide/cms/adobe-stock.html) configured for your Admin.
+      >This method requires an [Adobe Stock integration](../content-design/adobe-stock.md) configured for your Admin.
 
       - Click **[!UICONTROL Search Adobe Stock]** and search for an image.
 
       - Save the preview or licensed image to the gallery.
 
-         See [Using Adobe Stock Images](https://docs.magento.com/user-guide/cms/adobe-stock-manage.html) for more information about working with Adobe Stock assets.
+         See [Using Adobe Stock Images](../content-design/adobe-stock-manage.md) for more information about working with Adobe Stock assets.
 
       - Select the asset thumbnail in the gallery and click **[!UICONTROL Add Selected]**.
 

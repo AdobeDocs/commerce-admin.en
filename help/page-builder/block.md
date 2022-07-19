@@ -5,7 +5,7 @@ exl-id: fcedb125-e0c8-4b59-bd26-7f3912e0db2a
 ---
 # Add Content - Block
 
-Use the _Block_ content type to add an existing, active [block](https://docs.magento.com/user-guide/cms/blocks.html) to the [[!DNL Page Builder] stage](workspace.md#stage). In the following example, the first column contains the block with a side menu for the page. The second column contains an image.
+Use the _Block_ content type to add an existing, active [block](../content-design/blocks.md) to the [[!DNL Page Builder] stage](workspace.md#stage). In the following example, the first column contains the block with a side menu for the page. The second column contains an image.
 
 ![Block with a side menu](./assets/pb-add-content-block-example.png)<!-- zoom -->
 

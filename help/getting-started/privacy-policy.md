@@ -31,7 +31,7 @@ Any representation of information that permits the identity of an individual to 
 
 1. Expand the **[!UICONTROL Content]** section and make the necessary changes to the content.
 
-   To learn more, see [Using the Editor](https://docs.magento.com/user-guide/cms/editor.html).
+   To learn more, see [Using the Editor](../content-design/editor.md).
 
    ![Privacy Policy page - edit content](./assets/page-privacy-content-edit.png)<!-- zoom -->
 

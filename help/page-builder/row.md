@@ -59,7 +59,7 @@ Use the _Appearance_ settings to determine how content is displayed in the row.
    | ------ | ----------- |
    | [!UICONTROL Contained] | The background color or image is limited to the maximum page width that is defined by the theme. |
    | [!UICONTROL Full Width] | Limits the content to the maximum page width that is defined by the theme. The background color and/or image is not limited, and extends the full width of the row. |
-   | [!UICONTROL Full Bleed] | The content and background image and/or color are not limited, and extend the full width of the row. Full Bleed can be used only with [themes](https://docs.magento.com/user-guide/design/themes.html) that support the layout. |
+   | [!UICONTROL Full Bleed] | The content and background image and/or color are not limited, and extend the full width of the row. Full Bleed can be used only with [themes](../content-design/themes.md) that support the layout. |
 
    {style="table-layout:auto"}
 

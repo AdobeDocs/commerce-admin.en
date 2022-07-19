@@ -19,7 +19,7 @@ Before starting this exercise, it is recommended that you increase the [Admin Se
 
 Verify the required Content Management configuration settings:
 
-- WYSIWYG Editor is enabled in the [WYSIWYG Options](https://docs.magento.com/user-guide/cms/editor-configure.html) configuration.
+- WYSIWYG Editor is enabled in the [WYSIWYG Options](../content-design/editor.md#configure-the-editor) configuration.
 
 - [!DNL Page Builder] is enabled in the [Advanced Content Tools](setup.md) configuration.
 
@@ -59,7 +59,7 @@ In this part of the Simple Page exercise, you create a page that has a full-blee
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Design]** section.
 
-   Notice that **[!UICONTROL Layout]** is set to `Page -- Full Width` by default. In addition to the five standard [layout](https://docs.magento.com/user-guide/design/page-layout.html) options, [!DNL Page Builder] adds full-width layouts for pages, categories, and products.
+   Notice that **[!UICONTROL Layout]** is set to `Page -- Full Width` by default. In addition to the five standard [layout](../content-design/page-layout.md) options, [!DNL Page Builder] adds full-width layouts for pages, categories, and products.
 
 1. If the sample data is available, set **[!UICONTROL New Theme]** to `Magento Luma`. Otherwise, you can choose another available theme or leave it blank to use the default theme.
 
@@ -67,7 +67,7 @@ In this part of the Simple Page exercise, you create a page that has a full-blee
 
    >[!NOTE]
    >
-   >The Full Width layout can be used only with a compatible [theme](https://docs.magento.com/user-guide/design/themes.html).
+   >The Full Width layout can be used only with a compatible [theme](../content-design/themes.md).
 
    ![Page design settings](./assets/pb-tutorial1-design-section.png)<!-- zoom -->
 

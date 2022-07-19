@@ -11,7 +11,7 @@ title: Adobe Commerce Merchant Documentation
 - [Catalog Management](https://docs.magento.com/user-guide/catalog.html)
 - [[!DNL Inventory Management]](https://experienceleague.adobe.com/docs/commerce-admin/inventory/guide-overview.html)
 - [Merchandising and Promotions](https://docs.magento.com/user-guide/marketing/promotions.html)
-- [Content and Design](https://docs.magento.com/user-guide/content.html)
+- [Content and Design](https://experienceleague.adobe.com/docs/commerce-admin/content-design/guide-overview.html)
 - [[!DNL Page Builder]](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/guide-overview.html)
 - [Customer Management](https://docs.magento.com/user-guide/customers.html)
 - [Sales and Purchase Experience](https://docs.magento.com/user-guide/sales.html)
