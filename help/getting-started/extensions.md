@@ -5,21 +5,21 @@ exl-id: 86338edc-c32a-41c8-9594-6aec26f53ac6
 ---
 # Extensions
 
-This section provides information about extensions for Adobe Commerce and Magento Open Source released by Adobe. Some of these extensions are developed through Magento Open Source Community contributions. Some extensions require separate installation, and others are installed by default.
+This topic provides information about extensions for Adobe Commerce and Magento Open Source released by Adobe. Extensions add features, functionality, services, and integrations to the Admin and storefront. Some of these extensions are developed through Magento Open Source Community contributions. Some extensions require separate installation, and others are installed by default.
 
 ## Installed extensions
 
-There are some extensions that are automatically installed as part of the 
+There are some extensions that are automatically installed with Adobe Commerce or Magento Open Source.
 
 ### [!DNL Inventory Management]
 
-[!DNL Commerce] [[!DNL Inventory Management]](https://docs.magento.com/user-guide/catalog/inventory-management.html) provides enhanced stock and shipment management across one or multiple locations and sales channels with concurrent checkout protection and shipment-matching algorithms. Track your inventory quantities, provide accurate salable stock amounts to customers, and ship according to recommendations or manual selections to control your entire inventory. Configure management settings globally, per source, and per product.
+[!DNL Commerce] [[!DNL Inventory Management]](../inventory-management/introduction.md) provides enhanced stock and shipment management across one or multiple locations and sales channels with concurrent checkout protection and shipment-matching algorithms. Track your inventory quantities, provide accurate salable stock amounts to customers, and ship according to recommendations or manual selections to control your entire inventory. Configure management settings globally, per source, and per product.
 
 >[!NOTE]
 >
 >This extension was developed as part of the [[!DNL Inventory Management]](https://github.com/magento/inventory) (formerly MSI) project through the Community Engineering program.
 
-[!DNL Inventory Management] installs with all features enabled by default. No additional steps are required to enable these inventory features. For details about the [!DNL Inventory Management] capabilities, see the [[!DNL Inventory Management] User Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/inventory-management/guide-overview.html).
+[!DNL Inventory Management] installs with all features enabled by default. No additional steps are required to enable these inventory features. For details about the [!DNL Inventory Management] capabilities, see the [[!DNL Inventory Management] User Guide](../inventory-management/guide-overview.md).
 
 ### Braintree
 

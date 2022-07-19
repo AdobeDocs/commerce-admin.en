@@ -9,7 +9,7 @@ Use the _Banner_ content type to add an illustrated, interactive component that 
 
 >[!NOTE]
 >
->What was previously the _Banner_ option in the Content menu, is now [Dynamic Block](https://docs.magento.com/user-guide/cms/dynamic-blocks.html).
+>What was previously the _Banner_ option in the Content menu, is now [Dynamic Block](../content-design/dynamic-blocks.md).
 
 ![Banner on a storefront home page](./assets/pb-banner-homepage.png)<!-- zoom -->
 
@@ -43,7 +43,7 @@ The banner toolbox appears when you hover over the banner container.
 
    The _[!UICONTROL Upload Image]_ and _[!UICONTROL Select from Gallery]_ buttons are included so you can make quick changes to the banner content directly from the stage. You can also change the content on the _[!UICONTROL Edit Banner]_ page.
 
-1. Click in the banner placeholder to display the [text editor](https://docs.magento.com/user-guide/cms/editor.html) and enter content for the banner.
+1. Click in the banner placeholder to display the [text editor](../content-design/editor.md) and enter content for the banner.
 
    You can also include more complex banner content using the [Content](#content) settings.
 

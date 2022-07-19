@@ -56,7 +56,7 @@ The _[!UICONTROL Manage Sources]_ page lists all available inventory locations a
 |[!UICONTROL Name]|A unique name that identifies the  inventory source for Admin users.|
 |[!UICONTROL Is Enabled]|Indicates if the inventory source is active and available to use.|
 |[!UICONTROL Pickup Location]|Indicates if the source is active as a pickup location for [in-store delivery](https://docs.magento.com/user-guide/shipping/shipping-in-store-delivery.html){target="_blank"}.|
-|[!UICONTROL Action]|Clicking **Edit** opens the inventory source record in edit mode.|
+|[!UICONTROL Action]|Clicking **[!UICONTROL Edit]** opens the inventory source record in edit mode.|
 
 ## Other columns
 

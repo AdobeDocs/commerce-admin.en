@@ -25,7 +25,7 @@ The product carousel provides a powerful and engaging way to show off your produ
 
    ![Product list in default carousel mode](./assets/pb-products-settings-carousel-default.png)<!-- zoom -->
 
-The following instructions show how to add a Products list to a block. You can then use a [widget](https://docs.magento.com/user-guide/cms/widgets.html) to place the block at a specific location on any page in your store.
+The following instructions show how to add a Products list to a block. You can then use a [widget](../content-design/widgets.md) to place the block at a specific location on any page in your store.
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -147,7 +147,7 @@ Complete the _Settings_ according to the following sections:
 
    >[!IMPORTANT]
    >
-   >Prices for configurable, grouped, and bundled (dynamic price) products are undefined in the Admin. Therefore, these products are not displayed in the **preview** if the products are filtered by price. These products cannot be ordered correctly in the **preview** if ordered by price.
+   >Prices for configurable, grouped, and bundled (dynamic price) products are undefined in the Admin. Therefore, these products are not displayed in the **[!UICONTROL Preview]** if the products are filtered by price. These products cannot be ordered correctly in the **[!UICONTROL Preview]** if ordered by price.
 
 ### Carousel Settings
 
@@ -248,4 +248,4 @@ If you configured a product carousel, it should look similar to the following ex
 
 ![Product carousel on the stage](./assets/pb-products-admin-carousel.png)<!-- zoom -->
 
-You can now use a [widget](https://docs.magento.com/user-guide/cms/widgets.html) to place this block wherever you want it to appear in the store. Or, you can use [Add Content - Block](block.md) to add the block to an existing page, tab, or block.
+You can now use a [widget](../content-design/widgets.md) to place this block wherever you want it to appear in the store. Or, you can use [Add Content - Block](block.md) to add the block to an existing page, tab, or block.

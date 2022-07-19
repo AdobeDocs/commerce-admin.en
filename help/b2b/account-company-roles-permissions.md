@@ -5,7 +5,7 @@ exl-id: 9fe20d6a-2c9c-4618-a395-805d64dcf0de
 ---
 # Company Roles and Permissions
 
-Roles for company users are set up with various levels of permission to access sales information and resources. By default, the company administrator is a _super user_ with full permissions. The [Access Denied](https://docs.magento.com/user-guide/cms/pages-core.html) page appears if the user does not have permission to access the page.
+Roles for company users are set up with various levels of permission to access sales information and resources. By default, the company administrator is a _super user_ with full permissions. The [Access Denied](../content-design/pages.md#access-denied) page appears if the user does not have permission to access the page.
 
 ![Roles and Permissions page with default role](./assets/company-roles-permissions.png)<!-- zoom -->
 

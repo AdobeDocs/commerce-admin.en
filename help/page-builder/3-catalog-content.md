@@ -239,7 +239,7 @@ In this step, you create two new custom attributes to show how the [!DNL Page Bu
 
    At the top of the section, there are two standard attributes for product content:
 
-   - _Short Description_, which uses the standard WYSIWYG [editor](https://docs.magento.com/user-guide/cms/editor.html).
+   - _Short Description_, which uses the standard WYSIWYG [editor](../content-design/editor.md).
    - _Description_, which displays the [!DNL Page Builder] preview.
 
    ![Product content](./assets/pb-product-content-edit-with-page-builder.png)<!-- zoom -->

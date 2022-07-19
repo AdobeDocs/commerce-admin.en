@@ -5,7 +5,7 @@ exl-id: 04c90f47-9e32-4d34-ac0d-a2f2cec95ffc
 ---
 # Add Content - Dynamic Block
 
-Use the Dynamic Block content type to add an existing [dynamic block](https://docs.magento.com/user-guide/cms/dynamic-blocks.html) to the [[!DNL Page Builder] stage](workspace.md#stage).
+Use the Dynamic Block content type to add an existing [dynamic block](../content-design/dynamic-blocks.md) to the [[!DNL Page Builder] stage](workspace.md#stage).
 
 ![Dynamic block on the storefront](./assets/pb-tutorial2-dynamic-block-storefront.png)<!-- zoom -->
 

@@ -5,7 +5,7 @@ exl-id: 91630717-9da7-4d2f-a0d8-adb794a30ee1
 ---
 # Storefront Branding
 
-One of the first things you want to do is to [change the logo](https://docs.magento.com/user-guide/design/logo-upload.html) in the header and [upload a favicon](https://docs.magento.com/user-guide/design/favicon.html) for the browser. You should also [add your welcome message](https://docs.magento.com/user-guide/design/welcome-message.html) and [update the copyright notice](https://docs.magento.com/user-guide/design/copyright-notice.html) in the footer. These tasks are a few simple design elements that you can take care of right away. While your store is in development, you can [turn on the store demo notice](https://docs.magento.com/user-guide/design/demo-notice.html), and then remove it when you are ready to launch.
+One of the first things you want to do is to [change the logo](#upload-your-logo) in the header and [upload a favicon](#add-a-favicon) for the browser. You should also [add your welcome message](#change-the-welcome-message) and [update the copyright notice](#change-the-copyright-notice) in the footer. These tasks are a few simple design elements that you can take care of right away. While your store is in development, you can [turn on the store demo notice](#set-the-store-demo-notice), and then remove it when you are ready to launch.
 
 ![Storefront branding elements](./assets/storefront-home-page-branding.png)<!-- zoom -->
 
@@ -41,7 +41,7 @@ Supported logo file formats:
 
    ![Design Configuration page](./assets/design-configuration.png)<!-- zoom -->
 
-1. Find the store view that you want to configure and click **[!UICONTROL Edit]** in the _Action_ column.
+1. Find the store view that you want to configure and click **[!UICONTROL Edit]** in the _[!UICONTROL Action]_ column.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Header]** section.
 
@@ -159,7 +159,7 @@ To update the copyright notice:
 
    Use the `&copy;` character code to insert a copyright symbol.
 
-1. When complete, click **Save Configuration**.
+1. When complete, click **[!UICONTROL Save Configuration]**.
 
 ## Set the store demo notice
 
