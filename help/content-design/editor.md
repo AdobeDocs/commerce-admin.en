@@ -9,7 +9,7 @@ The editor gives you the ability to enter and format while working in a _What Yo
 
 >[!NOTE]
 >
->TinyMCE 5 is the default WYSIWYG editor. TinyMCE 3 was deprecated in the 2.4.0 release and removed in the 2.4.3 release. TinyMCE 4 is now removed in the 2.4.4 release.
+>TinyMCE 5 is the default WYSIWYG editor, with an update to the TinyMCE 5.10 library in Adobe Commerce and Magento Open Source 2.4.5 to resolve a vulnerability that allowed arbitrary JavaScript execution when updating an image or link using a specially crafted URL. TinyMCE 3 was deprecated in the 2.4.0 release and removed in the 2.4.3 release. TinyMCE 4 is was removed in the 2.4.4 release.
 
 ![Editor toolbar](./assets/editor-toolbar.png)<!-- zoom -->
 
@@ -23,8 +23,6 @@ The following topics provide detailed information about using the editor:
 ## Configure the Editor
 
 The WYSIWYG editor is enabled by default, and can be used to edit content on CMS pages and blocks, and in products and categories. From the configuration you can activate or deactivate the editor, and elect to use static, rather than [dynamic](https://docs.magento.com/user-guide/catalog/catalog-urls-dynamic-media.html), [URLS](https://docs.magento.com/user-guide/catalog/catalog-urls.html) for media content in product and category descriptions.
-
-TinyMCE 5 is the default WYSIWYG editor. The implemented version (5.8.1) offers an improved user experience and supports a wide range of WYSIWYG plugins. TinyMCE 3 was deprecated in the 2.4.0 release and removed in the 2.4.3 release. TinyMCE 4 is now removed in the 2.4.4 release.
 
 ![WYSIWYG Options](./assets/content-management-wysiwyg-options.png)<!-- zoom -->
 
