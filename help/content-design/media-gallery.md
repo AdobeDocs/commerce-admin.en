@@ -59,6 +59,12 @@ To access the new Media Gallery when you are adding or editing a page:
 
    - If you have the [WYSIWYG editor enabled][editor-config], click **[!UICONTROL Show/Hide Editor]** and then click **[!UICONTROL Insert Image]**.
 
+## Media Gallery demo
+
+Watch this video to learn about the Media Gallery:
+
+>[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12&learn=on)
+
 [adobe-stock]: https://stock.adobe.com
 [content-menu]: content-menu.md
 [add-page]: page-add.md

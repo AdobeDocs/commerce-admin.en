@@ -54,3 +54,9 @@ The following are important options to understand for [!DNL Inventory Management
 >[!NOTE]
 >
 >The Out-of-Stock Threshold value supports negative and positive amounts. If you enable Backorders, set this value to a negative amount for the maximum number of products that can be backordered before the product is truly considered out of stock.
+
+## Inventory Management demo
+
+Watch this video to learn about Inventory Management sources and stocks:
+
+>[!VIDEO](https://video.tv.adobe.com/v/343748?quality=12&learn=on)
