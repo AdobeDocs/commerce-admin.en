@@ -84,4 +84,4 @@ The _Apply Template_ grid and the _Templates_ page grid provide two ways to filt
 
 Watch this video to learn about Page Builder templates:
 
->[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12)

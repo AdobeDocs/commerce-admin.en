@@ -113,4 +113,4 @@ If the merchant cancels an order that was charged to company credit, the amount 
 
 Watch this video to learn about managing company credit:
 
->[!VIDEO](https://video.tv.adobe.com/v/344445?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344445?quality=12)

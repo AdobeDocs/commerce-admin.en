@@ -59,4 +59,4 @@ The following are important options to understand for [!DNL Inventory Management
 
 Watch this video to learn about Inventory Management sources and stocks:
 
->[!VIDEO](https://video.tv.adobe.com/v/343748?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343748?quality=12)

@@ -63,7 +63,7 @@ To access the new Media Gallery when you are adding or editing a page:
 
 Watch this video to learn about the Media Gallery:
 
->[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12)
 
 [adobe-stock]: https://stock.adobe.com
 [content-menu]: content-menu.md

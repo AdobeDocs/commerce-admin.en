@@ -135,7 +135,7 @@ The company profile can be maintained from the storefront by the company adminis
 
 Watch this video to learn about managing company accounts:
 
->[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12)
 
 ## Company options and columns
 

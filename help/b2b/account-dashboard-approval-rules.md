@@ -142,4 +142,4 @@ To remove an existing approval rule, a customer can complete the following steps
 
 Watch this video to learn about purchase order approvals:
 
->[!VIDEO](https://video.tv.adobe.com/v/344450?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344450?quality=12)

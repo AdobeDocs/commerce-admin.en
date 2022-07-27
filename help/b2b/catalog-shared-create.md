@@ -99,7 +99,7 @@ After creating a new shared catalog, it must be configured with the appropriate 
 
 Watch this video to learn about managing shared catalogs:
 
->[!VIDEO](https://video.tv.adobe.com/v/344446?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344446?quality=12)
 
 ## Shared Catalog page reference
 
