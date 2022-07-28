@@ -75,7 +75,7 @@ Instead of immediately deducting or adding product inventory quantities, reserva
 
 >[!NOTE]
 >
->The reservation capability requires the `inventory.reservations.updateSalabilityStatus` message queue consumer to always be running. To check if it is running, use the `bin/magento queue:consumers:list` command. If it is not listed, start it: `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`.
+>The reservation capability requires the `inventory.reservations.updateSalabilityStatus` message queue consumer to run continuously. To check if it is running, use the `bin/magento queue:consumers:list` command. If the message queue consumer is not listed, start it: `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`.
 
 ### Order reservations
 
@@ -183,11 +183,11 @@ The `inventory_cleanup_reservations` cron job executes SQL queries to clear the 
 
 The `inventory_reservations_cleanup` cron job is not the same as the `inventory.reservations.cleanup` message queue consumer. The consumer asynchronously deletes reservations by product SKU after a product has been removed, whereas the cron job clears the entire reservations table. The consumer is required when you enable the [**Synchronize with Catalog**](https://docs.magento.com/user-guide/configuration/catalog/inventory.html) stock option in the store configuration. See [Manage message queues](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html).
 
-Often, all initial reservations produced in a single day cannot be compensated that same day. This situation could occur when a customer places an order just before the cron job begins or makes the purchase with an offline payment method, such as a bank transfer. The compensated reservation sequences remain in the database until they are all compensated. This practice does not interfere with reservation calculations, because the total for each reservation is 0.
+Often, all initial reservations produced in a single day cannot be compensated that same day. This situation can occur when a customer places an order just before the cron job begins or makes the purchase with an offline payment method, such as a bank transfer. The compensated reservation sequences remain in the database until they are all compensated. This practice does not interfere with reservation calculations, because the total for each reservation is 0.
 
 >[!NOTE]
 >
->There are CLI commands that you can use to detect and manage reservation inconsistencies (see [[!DNL Inventory Management] CLI Reference](cli.md)).
+>There are CLI commands that you can use to detect and manage reservation inconsistencies (see the [[!DNL Inventory Management] CLI Reference](cli.md)).
 
 ### Reservation updates
 
