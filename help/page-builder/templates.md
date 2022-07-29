@@ -79,3 +79,9 @@ The _Apply Template_ grid and the _Templates_ page grid provide two ways to filt
    - The designated content area (**[!UICONTROL Created For]**)
 
 ![[!DNL Page Builder] Apply Template grid](./assets/pb-templates-apply-slideout-withfilters.png)<!-- zoom -->
+
+## Templates demo
+
+Watch this video to learn about Page Builder templates:
+
+>[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12)
