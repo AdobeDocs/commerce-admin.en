@@ -17,4 +17,4 @@ You can create custom blocks of content without writing any code, and assign the
 
 Watch this video to learn about static and [dynamic blocks](dynamic-blocks.md):
 
->[!VIDEO](https://video.tv.adobe.com/v/343781?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343783?quality=12)
