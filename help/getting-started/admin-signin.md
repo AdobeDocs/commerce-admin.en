@@ -11,6 +11,11 @@ The primary Admin account was initially set up during the installation, and migh
 
 - See [Permissions](https://docs.magento.com/user-guide/system/permissions.html) and [User Roles](https://docs.magento.com/user-guide/system/permissions-user-roles.html) for information about Admin and user roles.
 
+   >[!NOTE]
+   >
+   >Adobe Commerce administrators with entitlements to other Adobe products can streamline their login and authentication process by integrating their Commerce login with the Adobe Admin panel. See [Integrating Adobe Commerce with Adobe IMS overview](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/IMS-integration-overview.html).
+
+
 ## Admin Sign In
 
 The [!DNL Commerce] _Admin_ is protected by multiple layers of security measures to prevent unauthorized access to your store, order, and customer data. The first time you sign in to the _Admin_, you are required to enter your username and password and to set up [two-factor authentication](https://docs.magento.com/user-guide/stores/security-two-factor-authentication.html) (2FA).
