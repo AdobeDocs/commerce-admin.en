@@ -1,0 +1,38 @@
+---
+title: Configure the Adobe Commerce Admin integration with IMS
+description: Introduces the optional integration of Adobe Commerce Admin login with Adobe IMS
+---
+
+# Adobe Commerce - AdobeIMS integration overview
+
+Adobe Commerce administrators who have an Adobe account can now use their Adobe ID to log in to Adobe Commerce.  Adobe Identity Management Service (IMS) is Adobe’s OAuth 2.0 -based identity management feature that supports authentication.  Integrating Commerce’s authentication into Adobe Business Product’s IMS authentication workflow can streamline the authentication process for Adobe administrators who work with other Adobe products. 
+This integration is optional and is enabled on a per-instance basis. Only administrator workflows are affected when enabled. 
+
+Ready to enable the integration? See [Configure the Adobe Commerce Admin integration with Adobe IMS](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/IMS-config-procedure.html).
+
+
+## Relationship of account.magento.com (Mage ID) to Adobe ID
+
+Your MageID is the primary authentication mechanism for accessing `accounts.magento.com`. Integrating Adobe Commerce with Adobe Business Products requires mapping your Mage ID to an Adobe ID. 
+A key distinction between Mage IDs and Adobe IDs is the potential for linking multiple email addresses to one Mage ID. In contrast, Adobe IDs support the association of only one email address per AdobeID. 
+
+Due to this restriction in the number of email addresses that can be associated with an AdobeID, a new AdobeID is created for each MageID and unique email address when MageIDs are migrated AdobeIDs. Customers who were identified bu one MageID can potentially have multiple AdobeIDs. 
+B2B works differently. `account.magento.com` uses a B2B Company entity as a container for an Adobe Org ID and creates a one-to-one mapping with the IMS `AdobeOrgId` for authentication purposes. 
+
+## Web API token generation with IMS credentials
+
+Adobe Commerce Admin APIs are affected when authentication with Adobe IMS is enabled in a Commerce instance. Adobe Commerce Admin users can no longer use credentials issued by theirn Commerce instance. Administrators need these credentials to log in to the Commerce Admin and to obtain access tokens that services can use to make requests to the Admin REST and SOAP APIs. 
+
+Commerce Admin users must use [Adobe IMS OAuth tokens](https://developer.adobe.com/developer-console/docs/guides/authentication/OAuthIntegration/) for Adobe Commerce API endpoints that require authentication. Client solutions obtain these dynamically for web API use. This authentication mechanism is enabled for REST and SOAP web API areas as part of configuring this integration.
+
+## Changes to Admin workflows and interface after integration with IMS
+
+When this integration is enabled, Adobe Commerce administrators will experience changes to the legacy Commerce Admin login and authentication workflow as they perform routine tasks within the Admin that require re-authentication, such as creating a new user.  The legacy Adobe Commerce Admin login and 2FA are disabled, and the Sign In with Adobe ID  button replaces the legacy Adobe Commerce Sign in button
+Entitlements are still managed from the Adobe Commerce Admin.
+
+## Enable the integration
+
+This feature is installed with Adobe Commerce 2.4.5 but must be configured. It extends the `AdobeIms` module to support the module that enables authentication logic (`AdminAdobeIms`).
+
+
+See [Configure the Adobe Commerce Admin integration with Adobe IMS](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/IMS-config-procedure.html).
