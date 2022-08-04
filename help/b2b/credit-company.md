@@ -108,3 +108,9 @@ For the company administrator, the account dashboard displays the _Company Credi
 If the merchant cancels an order that was charged to company credit, the amount of the order is returned to the company balance and the _Credit Allocation History_ includes a record of the action.
 
 ![Company Credit](./assets/company-credit.png)<!-- zoom -->
+
+## Company credit demo
+
+Watch this video to learn about managing company credit:
+
+>[!VIDEO](https://video.tv.adobe.com/v/344445?quality=12)

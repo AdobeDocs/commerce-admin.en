@@ -60,6 +60,12 @@ The [!UICONTROL Content Staging] [dashboard](content-staging-dashboard.md) provi
 
 ![Staging dashboard](./assets/content-staging-dashboard-grid.png)<!-- zoom -->
 
+## Content staging demo
+
+Watch this video to learn about content staging:
+
+>[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12)
+
 ## Troubleshooting resources
 
 For help with troubleshooting content staging issues, see the following [!DNL Commerce] Support articles:

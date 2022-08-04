@@ -131,11 +131,17 @@ The company profile can be maintained from the storefront by the company adminis
 
 1. When complete, click **[!UICONTROL Save]**.
 
+## Company account demo
+
+Watch this video to learn about managing company accounts:
+
+>[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12)
+
 ## Company options and columns
 
 The following sections provide a reference for the available actions, options, and displayed information available for managing company accounts.
 
-## Actions control options
+### Actions control options
 
 |Option|Description|
 |--- |--- |
