@@ -44,6 +44,10 @@ The [!DNL Commerce] Admin provides all access to your store, orders, and custome
 
 These features are enabled by default. Each Admin user must install and configure one of the supported authenticators. For complete instructions, see Using Two-Factor Authentication.
 
+>[!NOTE]
+>
+>Stores that have enabled Adobe Identity Management Services (IMS) authentication have native Adobe Commerce and Magento Open Source 2FA disabled. Admin users who are logged into their Commerce instance with their Adobe credentials do not need to re-authenticate for many Admin tasks. Authentication is handled by Adobe IMS when the Admin user logs into their current session. See [Integrating Adobe Commerce with Adobe IMS overview](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/IMS-integration-overview.html).
+
 ## Extensions to add
 
 The [[!DNL Commerce Marketplace]](https://marketplace.magento.com/) is the global eCommerce resource for applications and services that expand [!DNL Commerce] solutions with powerful new features and functionality. Adobe releases several extensions through the [!DNL Marketplace] that can be installed and configured within your Adobe Commerce or Magento Open Source store to provide enhanced integrations and capabilities.
