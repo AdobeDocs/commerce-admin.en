@@ -13,7 +13,7 @@ The primary Admin account was initially set up during the installation, and migh
 
    >[!NOTE]
    >
-   >Adobe Commerce administrators with entitlements to other Adobe products can streamline their login and authentication process by integrating their Commerce login with the Adobe Admin panel. See [Integrating Adobe Commerce with Adobe IMS overview](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/IMS-integration-overview.html).
+   >Adobe Commerce merchants who have an Adobe ID and want a streamlined login to Adobe Commerce and Adobe Business products can integrate Commerce authentication with the Adobe IMS authentication workflow. After this integration is enabled for your Commerce store, each Admin user must use their Adobe credentials — not their Commerce credentials — to log in.  See [Integrating Adobe Commerce with Adobe IMS overview](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/IMS-integration-overview.html).
 
 
 ## Admin Sign In
