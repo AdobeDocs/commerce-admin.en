@@ -6,9 +6,14 @@ description: Introduces the optional integration of Adobe Commerce Admin login w
 # Adobe Commerce - AdobeIMS integration overview
 
 Adobe Commerce Admin users who have an Adobe account can now use their Adobe ID to log in to Adobe Commerce.  Adobe Identity Management Service (IMS) is Adobe’s OAuth 2.0-based identity management feature that supports authentication.  Integrating Commerce’s authentication into Adobe Business Product’s IMS authentication workflow can streamline the authentication process for Adobe Admin users who work with other Adobe products. 
-This integration is optional and is enabled on a per-instance basis. Only Admin user workflows are affected when enabled. 
+This integration is optional and is enabled on a per-instance basis. Only Admin user workflows are affected when this integration is enabled. 
 
 Ready to enable the integration? See [Configure the Adobe Commerce Admin integration with Adobe IMS](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/IMS-config-procedure.html).
+
+## Changes to Admin workflows and interface after integration with IMS
+
+When this integration is enabled, Commerce Admin users will experience changes to the legacy Commerce Admin login and authentication workflow as they perform routine tasks within the Admin that require re-authentication, such as creating a new Admin user.  2FA enforcement on the Adobe organization level is required for module enablement. The legacy Adobe Commerce Admin login and 2FA are disabled, and the [!UICONTROL Sign In with Adobe ID] button replaces the legacy Adobe Commerce Sign in form.
+Entitlements are still managed from the Adobe Commerce Admin.
 
 ## Web API token generation with IMS credentials
 
@@ -16,10 +21,15 @@ Adobe Commerce Admin APIs are affected when authentication with Adobe IMS is ena
 
 Commerce Admin users must use [Adobe IMS OAuth tokens](https://developer.adobe.com/developer-console/docs/guides/authentication/OAuthIntegration/) for Adobe Commerce API endpoints that require authentication. Client solutions obtain these dynamically for web API use. This authentication mechanism is enabled for REST and SOAP web API areas as part of configuring this integration.
 
-## Changes to Admin workflows and interface after integration with IMS
+## Important files
 
-When this integration is enabled, Commerce Admin users will experience changes to the legacy Commerce Admin login and authentication workflow as they perform routine tasks within the Admin that require re-authentication, such as creating a new Admin user.  2FA enforcement on the Adobe organization level is required for module enablement. The legacy Adobe Commerce Admin login and 2FA are disabled, and the Sign In with Adobe ID  button replaces the legacy Adobe Commerce Sign in form.
-Entitlements are still managed from the Adobe Commerce Admin.
+`adobeImsApi`. Declares the interfaces that support integration with Adobe IMS.
+
+`adobeIms`. Implements all the business logic that is related to integration with Adobe IMS (preserved to prevent backward incompatibilities).
+
+`adminAdobeIms`. Provides an implementation of the Commerce Admin login based on the `AdobeImsApi` module.
+
+`adminadobe-ims.log`. Error log file.
 
 ## Enable the integration
 
