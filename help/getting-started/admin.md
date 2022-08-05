@@ -16,7 +16,8 @@ Your initial [sign-in](admin-signin.md) credentials were set up during Adobe Com
 In addition to the default _Admin_ account, you can create as many [additional accounts](https://docs.magento.com/user-guide/system/permissions-users-all.html) that you require to manage the store and support customer accounts. Each account can be associated with a specific [role](https://docs.magento.com/user-guide/system/permissions-user-roles.html) and [level of access](https://docs.magento.com/user-guide/system/permissions-role-resources.html), based on business _need to know_. The email address that is associated with each _Admin_ account must be unique.
 
 >[!NOTE]
-
+>
+>
 Adobe Commerce merchants who have an Adobe ID and want a streamlined login to Adobe Commerce and Adobe Business products can integrate Commerce authentication with the Adobe IMS authentication workflow. After this integration is enabled for your Commerce store, each Admin user must use their Adobe credentials — not their Commerce credentials — to log in.  See [Integrating Adobe Commerce with Adobe IMS overview](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/IMS-integration-overview.html).
 
 ## Usage data collection
