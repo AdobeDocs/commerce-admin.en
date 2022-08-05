@@ -17,6 +17,9 @@ breadcrumb-title: Getting Started
 - The Admin {#admin}
   - [What is the Admin?](admin.md)
   - [Your Admin Account](admin-signin.md)
+  - Adobe Identity Management Service (IMS) Integration {#ims}
+    - [IMS Integration Overview](adobe-ims-integration-overview.md)
+    - [Configure the Admin Integration with IMS](adobe-ims-config.md)
   - Admin Tools and Workspace {#tools}
     - [Workspace](admin-workspace.md)
     - [The Admin Sidebar](admin-menu.md)
