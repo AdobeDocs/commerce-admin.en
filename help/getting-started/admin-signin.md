@@ -11,10 +11,7 @@ The primary Admin account was initially set up during the installation, and migh
 
 - See [Permissions](https://docs.magento.com/user-guide/system/permissions.html) and [User Roles](https://docs.magento.com/user-guide/system/permissions-user-roles.html) for information about Admin and user roles.
 
-   >[!NOTE]
-   >
-   >Adobe Commerce merchants who have an Adobe ID and want a streamlined login to Adobe Commerce and Adobe Business products can integrate Commerce authentication with the Adobe IMS authentication workflow. After this integration is enabled for your Commerce store, each Admin user must use their Adobe credentials — not their Commerce credentials — to log in.  See [Integrating Adobe Commerce with Adobe IMS overview](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/IMS-integration-overview.html).
-
+{{ims-admin-note}}
 
 ## Admin Sign In
 

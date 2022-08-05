@@ -42,11 +42,11 @@ It reduces potential user error when entering a Captcha code and encourages cart
 
 The [!DNL Commerce] Admin provides all access to your store, orders, and customer data. [Two-factor authentication](https://docs.magento.com/user-guide/stores/security-two-factor-authentication.html) (2FA or TFA) improves security by requiring additional authentication, beyond the standard login name and password, to access the [!DNL Commerce] Admin from all devices. The extension supports multiple authenticators including Google Authenticator, Authy, [!DNL Duo], and U2F keys. This authentication applies to Admin users only. It is not available for storefront customer accounts.
 
-These features are enabled by default. Each Admin user must install and configure one of the supported authenticators. For complete instructions, see Using Two-Factor Authentication.
+These features are enabled by default. Each Admin user must install and configure one of the supported authenticators.
 
 >[!NOTE]
 >
->Stores that have enabled Adobe Identity Management Services (IMS) authentication have native Adobe Commerce and Magento Open Source 2FA disabled. Admin users who are logged into their Commerce instance with their Adobe credentials do not need to re-authenticate for many Admin tasks. Authentication is handled by Adobe IMS when the Admin user logs into their current session. See [Integrating Adobe Commerce with Adobe IMS overview](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/IMS-integration-overview.html).
+>Adobe Commerce stores that have enabled Adobe Identity Management Services (IMS) authentication for the Admin have native Commerce 2FA disabled. Users who are logged into the Admin with their Adobe credentials do not need to reauthenticate for many Admin tasks. Authentication is handled by Adobe IMS when the Admin user logs into their current session. See [Adobe Identity Management Service (IMS) Integration Overview](./adobe-ims-integration-overview.md).
 
 ## Extensions to add
 
