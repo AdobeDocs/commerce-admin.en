@@ -36,7 +36,7 @@ This extension release is fully compatible and supported with Adobe Commerce 2.4
 
 -  ![Fixed issue](../assets/fix.svg) <!--- ACP2E-665 -->Customers are now redirected to the login page when their account is deleted by an administrator from the Admin. Previously, Adobe Commerce threw an error.  The plugin (`SessionPlugin`) code block is now inside the `try…catch` block. Previously, this code was not wrapped inside the generic exception handling block.
 
--  ![Fixed issue](../assets/fix.svg) <!--- ACP2E-661 --> On the Quick Order page in mobile mode, pressing **Enter**  after entering a valid product name or SKU now takes the shopper to the next field as expected.
+-  ![Fixed issue](../assets/fix.svg) <!--- ACP2E-661 --> On the Quick Order page in mobile mode, pressing **Enter** after entering a valid product name or SKU now takes the shopper to the next field as expected.
 
 -  ![Fixed issue](../assets/fix.svg) <!--- ACP2E-607 -->Company name is now visible as expected in the billing and shipping address sections of the checkout workflow.
 

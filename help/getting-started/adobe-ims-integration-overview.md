@@ -12,7 +12,7 @@ To implement this integration, see [Configure the Commerce Admin Integration wit
 
 ## Changes to Admin workflows and interface after integration with IMS
 
-When this integration is enabled, Commerce Admin users experience changes to the default Commerce Admin login and authentication workflow as they perform routine tasks in the Admin that require reauthentication, such as creating an Admin user. 2FA enforcement on the Adobe organization level is required for module enablement. The default Admin login and 2FA are disabled, and the _[!UICONTROL Sign In with Adobe ID]_ button replaces the default Admin sign in form. Entitlements are still managed from the Admin.
+When this integration is enabled, Commerce Admin users experience changes to the default Commerce Admin login and authentication workflow as they perform routine tasks in the Admin that require reauthentication, such as creating an Admin user. Two-factor authentication (2FA) enforcement on the Adobe organization level is required for module enablement. The default Admin login and 2FA are disabled, and the _[!UICONTROL Sign In with Adobe ID]_ button replaces the default Admin sign in form. Entitlements are still managed from the Admin.
 
 ## Web API token generation with IMS credentials
 
