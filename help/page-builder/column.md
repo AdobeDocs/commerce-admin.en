@@ -11,6 +11,16 @@ Use the _Column_ content type to divide a page into multiple columns in the [[!D
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
+## Updates in the 2.4.5 release
+
+Page Builder capabilities are updated in the 2.4.5 release so that users now use _[!DNL Columns]_ as a parent container for individual columns. This new container also supports properties for background and eliminates the need to wrap columns in a row. It reduces unnecessary markup and gives a finer control over the storefront display and experience.
+
+You can change the layout of the [!DNL Columns] container by dragging a column above or below other columns in the group and stack them. This opens a new variety of possible layout combinations that can be achieved without the need for customization by developers.
+
+Watch this video for a demonstration of how the [!DNL Columns] container can be used to refine your page layouts:
+
+>[!VIDEO](https://video.tv.adobe.com/v/345828?quality=12)
+
 ## Column toolbox
 
 Each column has a toolbox of options that appears when you hover over the container.
