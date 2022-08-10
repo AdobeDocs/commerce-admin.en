@@ -1,6 +1,7 @@
 ---
 title: Configure the Commerce Admin Integration with IMS
 description: Follow this optional procedure for integrating Adobe Commerce Admin user account logins with Adobe IMS.
+exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 ---
 # Configure the Commerce Admin Integration with Adobe IMS
 
