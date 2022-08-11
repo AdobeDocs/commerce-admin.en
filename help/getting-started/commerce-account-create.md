@@ -72,4 +72,4 @@ You must use an Adobe ID to access a Commerce account. If you already have a Com
 
 1. Enter your email address.
 
-1. Click **[!Continue]**.
+1. Click **[!UICONTROL Continue]**.
