@@ -3,11 +3,11 @@ title: Configure the Commerce Admin Integration with IMS
 description: Follow this optional procedure for integrating Adobe Commerce Admin user account logins with Adobe IMS.
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 ---
-# Configure the Commerce Admin Integration with Adobe IMS
+# Configure the Commerce Admin Integration with Adobe ID
 
 {{ee-feature}}
 
-This integration supports Admin users who have an Adobe ID and who want to streamline login to Adobe Commerce and Adobe Business products. It is optional and is enabled on a per-instance basis. Only Admin user workflows are affected when enabled. 
+This integration supports Commerce merchants with Admin users who have an Adobe ID and who want to streamline login to Adobe Commerce and Adobe Business products. It is optional and is enabled on a per-instance basis. Only Admin user workflows are affected when enabled. 
 
 ## Prerequisites
 
@@ -17,16 +17,18 @@ This integration supports Admin users who have an Adobe ID and who want to strea
 The administrator who configures this integration needs the following credentials during module enablement:
 
 * Organization ID (obtained from [Adobe Admin Console](https://adminconsole.adobe.com/)), which must be at least 24 characters in length. The authenticated user must belong to this IMS organization.
+* 2FA should be enforced on the Organization level in Adobe Admin Console to enable the module.
 * Client ID
 * Client secret
 * Client ID and client secret are available after retrieving API keys in the [Adobe Developer Console](https://developer.adobe.com/).
 
 Commerce Admin users must create an account with an Adobe ID to log in.
 
+
 ## General steps
 
 * Get Adobe Org ID from the [Adobe Admin Console](https://adminconsole.adobe.com/)
-* Generate a new project, IMS API keys, and secret from the [Adobe Admin Console](https://adminconsole.adobe.com/)
+* Generate a new project, IMS API keys, and secret from the [Adobe Developer Console](https://developer.adobe.com/)
 * Enable the `AdminAdobeIms` module
 * Configure Adobe Commerce users in the Adobe Admin Console.
 
@@ -47,7 +49,7 @@ You must have an Adobe account to generate a new project and register it in IMS.
 1. Log in to [Adobe Developer Console](https://developer.adobe.com/).
 1. Go to the **[!UICONTROL Projects]** tab (adobe.io/projects) and click **[!UICONTROL Create a new project]**.
 1. Click **[!UICONTROL Add API]** on the newly created Project page.
-1. Select **[!UICONTROL Adobe Services]** > **[!UICONTROL Adobe Commerce Admin IMS]**.
+1. Select **[!UICONTROL Adobe Services]** > **[!UICONTROL Adobe Commerce with Adobe ID]**.
 1. Select **[!UICONTROL Oauth 2.0 Web]**.
 1. Specify the **[!UICONTROL Redirect URI]**: `https://<hostname>/<backend_frontname>/adobe_ims/oauth/callback/`
 1. Specify the **[!UICONTROL Redirect URI pattern]**: `https://<hostname>/<backend_frontname>/adobe_ims/oauth/callback/.*`
@@ -61,11 +63,12 @@ You must have an Adobe account to generate a new project and register it in IMS.
 
 The `AdminAdobeIms` module is responsible for the Adobe Commerce/Adobe IMS integration. After setting up the new project and copying your organization ID, client ID, and client secret, you can enable the `AdminAdobeIms` module.
 
-Enter `bin/magento admin:adobe-ims enable`. You are prompted to enter the following credentials. Use the values that were generated during project creation.
+Enter `bin/magento admin:adobe-ims enable`. You are prompted to enter the following parameters. Use the values that were generated during project creation.
 
 * Organization ID
 * Client ID
 * Client secret
+* 2FA enabled
 
 Adobe Commerce displays a message to report that enablement succeeded or failed.
 
@@ -73,7 +76,7 @@ After a new Adobe ID is created, customer information must be synced back to Ado
 
 ### Step 4: Configure Adobe Commerce users in the Adobe Admin Console
 
-After successfully enabling this feature, you can transition other Adobe Commerce user accounts to Adobe IMS accounts. Adobe Commerce users must belong to at least one Adobe organization to log in using an Adobe ID.
+After successfully enabling this feature, you can transition other Adobe Commerce user accounts to Adobe IMS accounts. Adobe Commerce users must belong to the configured Adobe organization to log in using an Adobe ID.
 
 1. In the Admin Console, navigate to **[!UICONTROL Users]**  > **[!UICONTROL Users]**.
 1. Click **[!UICONTROL Add User]**.
