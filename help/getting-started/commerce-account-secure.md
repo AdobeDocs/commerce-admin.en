@@ -31,7 +31,7 @@ In order to use TFA, you must have a TFA application installed on your personal 
 
 1. Click **[!UICONTROL Enable]** to begin the two-factor authentication setup process.
 
-1. Enter the **[!UICONTROL Verification Code** sent to your device and click **[!UICONTROL Verify Code]** to continue.
+1. Enter the **[!UICONTROL Verification Code]** sent to your device and click **[!UICONTROL Verify Code]** to continue.
 
    ![Enter verification code](./assets/2fA-verification-code-prompt.png)<!-- zoom -->
 
