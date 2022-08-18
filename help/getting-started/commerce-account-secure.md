@@ -43,7 +43,7 @@ To use TFA, you must have a TFA application installed on your personal device (s
 
    ![Add Adobe Commerce to TFA app](./assets/commerce-account-2fa-setup-app.png)<!-- zoom -->
 
-   You can add the code by scanning the QR code using the TFA application, or manually entering it. This code pairs your TFA application with your [!DNL Commerce] account and enables the permissions for the TFA app to generate verification codes for secure account access.
+   You can add the code by scanning the QR code using the TFA application, or by manually entering it. This code pairs your TFA application with your [!DNL Commerce] account and enables the permissions to generate the TFA app to generate verification codes for secure account access.
 
 1. Complete the setup.
 
@@ -81,7 +81,7 @@ To use TFA, you must have a TFA application installed on your personal device (s
 
    - A notification is sent to the email address associated with your [!DNL Commerce] account to confirm that you have successfully enabled two-factor authentication.
 
-   - A notification is sent to the email address that you specified for receiving Recovery codes to confirm the configuration.
+   - A notification is sent to your Recovery email account to confirm the configuration.
 
 ## Log in using a verification code
 
@@ -119,7 +119,7 @@ To use TFA, you must have a TFA application installed on your personal device (s
 
    ![Use recovery code](./assets/commerce-account-2fa-login-verification-code.png)<!-- zoom -->
 
-1. To get a temporary Recovery Code through email, select the **[!UICONTROL recovery email]** link.
+1. To get a temporary recovery code through email, select the **[!UICONTROL recovery email]** link.
 
    ![Use recovery email](./assets/2fa-recovery-email.png)<!-- zoom -->
 
