@@ -35,7 +35,7 @@ To use TFA, you must have a TFA application installed on your personal device (s
 
 1. Enter the **[!UICONTROL Verification Code]** sent to your email and select **[!UICONTROL Verify Code]** to continue.
 
-   ![Enter the Verification Code](./assets/2fA-verification-code-prompt.png)<!-- zoom -->
+   ![Enter the verification code](./assets/2fA-verification-code-prompt.png)<!-- zoom -->
 
 1. Open the two-factor authentication application you downloaded and installed on your personal device.
 
@@ -59,21 +59,21 @@ To use TFA, you must have a TFA application installed on your personal device (s
 
    ![Store recovery codes](./assets/commerce-account-2fa-store-recovery-codes.png)<!-- zoom -->
 
-   If you cannot provide a Verification Code when you log in to your [!DNL Commerce] account, you must use a Recovery Code to regain account access.
+   If you cannot provide a verification code when you log in to your [!DNL Commerce] account, you must use a recovery code to regain account access.
 
-   Each Recovery Code can be used only one time, but you can [generate](#generate-new-recovery-codes) new ones. Recovery Codes are case-sensitive.
+   Each recovery code can be used only one time, but you can [generate](#generate-new-recovery-codes) new ones. Recovery codes are case-sensitive.
 
 1. Select the confirmation checkbox and select **[!UICONTROL Submit]** to continue.
 
 1. To ensure that you can recover access to your account, enter a **[!UICONTROL Recovery Email]**.
 
-   This email address is needed if you cannot generate a Verification Code from your two-factor authentication application and you do not have access to an unused pre-generated Recovery Code.
+   This email address is needed if you cannot generate a verification code from your two-factor authentication application and you do not have access to an unused pre-generated Recovery Code.
 
-   Once every 24 hours, you can generate and send a temporary Recovery Code to your designated Recovery email address. Use this code to regain account access.
+   Once every 24 hours, you can generate and send a temporary recovery code to your designated recovery email address. Use this code to regain account access.
 
    >[!IMPORTANT]
    >
-   >Maintain access to your Recovery email account. Otherwise, you cannot use temporary recovery codes sent to that account.
+   >Maintain access to your recovery email account. Otherwise, you cannot use temporary recovery codes sent to that account.
 
    ![Set recovery email](./assets/commerce-account-2fa-set-recovery-email.png)<!-- zoom -->
 
@@ -81,7 +81,7 @@ To use TFA, you must have a TFA application installed on your personal device (s
 
    - A notification is sent to the email address associated with your [!DNL Commerce] account to confirm that you have successfully enabled two-factor authentication.
 
-   - A notification is sent to your Recovery email account to confirm the configuration.
+   - A notification is sent to your recovery email account to confirm the configuration.
 
 
 >[!TIP]
@@ -128,7 +128,7 @@ and generate new recovery codes.
 
    ![Use recovery email](./assets/2fa-recovery-email.png)<!-- zoom -->
 
-1. Open your Recovery email account to get the temporary code, and then enter the code in the designated fields.
+1. Open your recovery email account to get the temporary code, and then enter the code in the designated fields.
 
 1. Select **[!UICONTROL Submit]** to complete the login process.
 
@@ -147,17 +147,17 @@ After using a temporary recovery code to access your account, [generate new reco
 
    ![2FA settings](./assets/commerce-account-2fa-manage.png)<!-- zoom -->
 
-1. To view your pre-generated Recovery Codes, select **View Recovery Codes**.
+1. To view your pre-generated recovery codes, select **View Recovery Codes**.
 
 1. Enter the **[!UICONTROL Verification Code]** sent to your email and select **[!UICONTROL Verify Code]** to continue.
 
-   ![Enter Verification Code](./assets/2fA-verification-code-prompt.png)<!-- zoom-->
+   ![Enter verification code](./assets/2fA-verification-code-prompt.png)<!-- zoom-->
 
 1. Save the **Recovery Codes** presented in a safe and accessible place.
 
    If you cannot provide a verification code to log in to your [!DNL Commerce] account, using a recovery code is the only way to regain account access.
 
-   Each recovery code is one-time use only, but you can always [generate](#generate-new-recovery-codes) new ones. Recovery Codes are case-sensitive.
+   Each recovery code is one-time use only, but you can always [generate](#generate-new-recovery-codes) new ones. Recovery codes are case-sensitive.
 
    ![View recovery codes](./assets/2fa-view-recovery.png)<!-- zoom -->
 
@@ -186,7 +186,7 @@ After using a temporary recovery code to access your account, [generate new reco
 
    If you cannot provide a verification code when you log in to your [!DNL Commerce] account, using a recovery code is the only way to regain account access.
 
-   All previously generated Recovery Codes are now rendered invalid and should be discarded (only the current set of generated Recovery Codes are functional). Recovery Codes are case-sensitive.
+   All previously generated recovery codes are now rendered invalid and should be discarded (only the current set of generated recovery codes are functional). Recovery codes are case-sensitive.
 
    ![Generate recovery codes](./assets/2fa-generate-recovery.png)<!-- zoom -->
 
@@ -204,7 +204,7 @@ After using a temporary recovery code to access your account, [generate new reco
 
    ![TFA settings](./assets/commerce-account-2fa-manage.png)<!-- zoom -->
 
-1. Select **Change Recovery Email** to change the Recovery Email on file for your account.
+1. Select **Change Recovery Email** to change the recovery email on file for your account.
 
 
 1. Enter the **[!UICONTROL Verification Code]** sent to your email and select **[!UICONTROL Verify Code]** to continue.
@@ -213,19 +213,19 @@ After using a temporary recovery code to access your account, [generate new reco
 
 1. To help ensure that you can recover access to your account, enter a **Recovery Email**.
 
-   This email address is needed if you cannot generate a Verification Code from your two-factor authentication application and you do not have access to an unused pre-generated Recovery Code.
+   This email address is needed if you cannot generate a verification code from your two-factor authentication application and you do not have access to an unused pre-generated recovery code.
 
-   Once every 24 hours, you can generate and send a temporary Recovery Code to your designated Recovery email address. You can use this code to regain account access.
+   Once every 24 hours, you can generate and send a temporary recovery code to your designated recovery email address. You can use this code to regain account access.
 
    >[!IMPORTANT]
    >
-   >Maintain access to your Recovery email account. Otherwise, you cannot use temporary recovery codes sent to that account.
+   >Maintain access to your recovery email account. Otherwise, you cannot use temporary recovery codes sent to that account.
 
    ![Set recovery email](./assets/commerce-account-2fa-set-recovery-email.png)<!-- zoom -->
 
 1. Select the confirmation checkbox and select **[!UICONTROL Submit]** to close the dialog.
 
-   The system sends an email notification to the Recovery Email that you designated to confirm that particular email address is on file as your Recovery Email for receiving temporary Recovery Codes.
+   The system sends an email notification to the recovery email that you designated to confirm that particular email address is on file as your recovery email for receiving temporary recovery codes.
 
 ## Change your two-factor authentication application
 
@@ -243,7 +243,7 @@ After using a temporary recovery code to access your account, [generate new reco
 
 1. Enter the **[!UICONTROL Verification Code]** sent to your email and select **[!UICONTROL Verify Code]** to continue.
 
-   ![Enter Verification Code](./assets/2fA-verification-code-prompt.png)<!-- zoom -->
+   ![Enter verification code](./assets/2fA-verification-code-prompt.png)<!-- zoom -->
 
 1. Open the two-factor authentication application on your personal device.
 
@@ -263,7 +263,7 @@ After using a temporary recovery code to access your account, [generate new reco
 
    If you cannot provide a verification code when you log in to your [!DNL Commerce] account, the only way to regain account access is to use a recovery code.
 
-     Each recovery code is one-time use only, but you can always [generate](#generate-new-recovery-codes) new ones. Recovery Codes are case-sensitive.Recovery Codes are case-sensitive.
+     Each recovery code is one-time use only, but you can always [generate](#generate-new-recovery-codes) new ones. Recovery codes are case-sensitive. Recovery codes are case-sensitive.
 
 1. Select the checkbox to confirm and select **[!UICONTROL Submit]** to continue.
 
@@ -271,19 +271,19 @@ After using a temporary recovery code to access your account, [generate new reco
 
 1. To help ensure that you can recover access to your account, enter a **Recovery Email**.
 
-   This email address is needed if you cannot generate a Verification Code from your two-factor authentication application and you do not have access to an unused pre-generated Recovery Code.
+   This email address is needed if you cannot generate a verification code from your two-factor authentication application and you do not have access to an unused pre-generated recovery code.
 
-   Once every 24 hours, you can generate and send a temporary Recovery Code to your designated Recovery email address. Use this code to regain account access.
+   Once every 24 hours, you can generate and send a temporary recovery code to your designated recovery email address. Use this code to regain account access.
 
    >[!IMPORTANT]
    >
-   >Maintain access to your Recovery email account. Otherwise, you cannot use temporary recovery codes sent to that account.
+   >Maintain access to your recovery email account. Otherwise, you cannot use temporary recovery codes sent to that account.
 
    ![Set recovery email](./assets/commerce-account-2fa-set-recovery-email.png)<!-- zoom -->
 
 1. Select the confirmation checkbox and select **[!UICONTROL Submit]** to complete the two-factor authentication setup process.
 
-   An email notification is sent to the Recovery Email that you designated to confirm that particular email address is on file as your Recovery Email for receiving a temporary Recovery Code.
+   An email notification is sent to the recovery email that you designated to confirm that particular email address is on file as your recovery email for receiving a temporary recovery code.
 
 ## Disable two-factor authentication
 
