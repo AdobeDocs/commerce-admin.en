@@ -33,9 +33,9 @@ To use TFA, you must have a TFA application installed on your personal device (s
 
 1. Select **[!UICONTROL Enable]** to begin the two-factor authentication setup process.
 
-1. Enter the **[!UICONTROL One-time password]** sent to your email and select **[!UICONTROL Verify Code]** to continue.
+1. Enter the **[!UICONTROL Verification Code]** sent to your email and select **[!UICONTROL Verify Code]** to continue.
 
-   ![Enter one-time password](./assets/2fA-verification-code-prompt.png)<!-- zoom -->
+   ![Enter the Verification Code](./assets/2fA-verification-code-prompt.png)<!-- zoom -->
 
 1. Open the two-factor authentication application you downloaded and installed on your personal device.
 
@@ -53,7 +53,7 @@ To use TFA, you must have a TFA application installed on your personal device (s
 
    >[!NOTE]
    >
-   >For security, the Verification Codes in your TFA application continuously expire and regenerate. **_Always_** use the code that is currently displayed.
+   >For security, the verification codes in your TFA application continuously expire and regenerate. **_Always_** use the code that is currently displayed.
 
 1. Save the **[!UICONTROL Recovery Codes]** presented in a safe and accessible place.
 
@@ -69,7 +69,7 @@ To use TFA, you must have a TFA application installed on your personal device (s
 
    This email address is needed if you cannot generate a Verification Code from your two-factor authentication application and you do not have access to an unused pre-generated Recovery Code.
 
-   Once every 24 hours, you can generate and send a temporary Recovery Code to your designated Recovery email address. You can use this code to regain account access.
+   Once every 24 hours, you can generate and send a temporary Recovery Code to your designated Recovery email address. Use this code to regain account access.
 
    >[!IMPORTANT]
    >
@@ -127,7 +127,7 @@ To use TFA, you must have a TFA application installed on your personal device (s
 
 1. Select **[!UICONTROL Submit]** to complete the login process.
 
-   - Because the Recovery Email capability is only available once every 24 hours, it is recommended that you generate new Recovery Codes and securely store them to prevent further issues accessing your [!DNL Commerce] account.
+   - Because the Recovery Email capability is only available once every 24 hours, it is recommended that you generate new Recovery Codes and securely store them to prevent further account access issues.
 
    - It is also recommended that you change your two-factor authentication application (if you have a device available) in order to generate Verification Codes again and use them to access your [!DNL Commerce] account.
 
@@ -151,9 +151,9 @@ To use TFA, you must have a TFA application installed on your personal device (s
 
 1. Save the **Recovery Codes** presented in a safe and accessible place.
 
-   If you cannot provide a Verification Code to log in to your [!DNL Commerce] account, using a Recovery Code is the only way to regain account access.
+   If you cannot provide a verification code to log in to your [!DNL Commerce] account, using a recovery code is the only way to regain account access.
 
-   Each Recovery Code is one-time use only, so do not try to reuse a Recovery Code you have already used previously (but you can always generate more---see the following for details). Recovery Codes are case-sensitive.
+   Each recovery code is one-time use only, but you can always [generate](#generate-new-recovery-codes) new ones. Recovery Codes are case-sensitive.
 
    ![View recovery codes](./assets/2fa-view-recovery.png)<!-- zoom -->
 
@@ -174,13 +174,13 @@ To use TFA, you must have a TFA application installed on your personal device (s
 1. To generate new pre-generated Recovery Codes, select **Generate New Recovery Codes**.
 
 
-1. Enter the **[!UICONTROL One-time password]** sent to your email and select **[!UICONTROL Verify Code]** to continue.
+1. Enter the **[!UICONTROL Verification Code]** sent to your email and select **[!UICONTROL Verify Code]** to continue.
 
-   ![Enter one-time password](./assets/2fA-verification-code-prompt.png)<!-- zoom -->
+   ![Enter verification code](./assets/2fA-verification-code-prompt.png)<!-- zoom -->
 
 1. Save the **Recovery Codes** presented in a safe and accessible place.
 
-   If you cannot provide a Verification Code when you log in to your [!DNL Commerce] account, using a Recovery Code is the only way to regain account access.
+   If you cannot provide a verification code when you log in to your [!DNL Commerce] account, using a recovery code is the only way to regain account access.
 
    All previously generated Recovery Codes are now rendered invalid and should be discarded (only the current set of generated Recovery Codes are functional). Recovery Codes are case-sensitive.
 
@@ -203,9 +203,9 @@ To use TFA, you must have a TFA application installed on your personal device (s
 1. Select **Change Recovery Email** to change the Recovery Email on file for your account.
 
 
-1. Enter the **[!UICONTROL One-time password]** sent to your email and select **[!UICONTROL Verify Code]** to continue.
+1. Enter the **[!UICONTROL Verification Code]** sent to your email and select **[!UICONTROL Verify Code]** to continue.
 
-   ![Enter one-time password](./assets/2fA-verification-code-prompt.png)<!-- zoom -->
+   ![Enter verification code](./assets/2fA-verification-code-prompt.png)<!-- zoom -->
 
 1. To help ensure that you can recover access to your account, enter a **Recovery Email**.
 
@@ -249,17 +249,17 @@ To use TFA, you must have a TFA application installed on your personal device (s
 
    >[!NOTE]
    >
-   >For security, the Verification Codes in your TFA application continuously expire and regenerate. **_Always_** use the code that is currently displayed.
+   >For security, the verification codes in your TFA application continuously expire and regenerate. **_Always_** use the code that is currently displayed.
 
-1. With your TFA application now synced to your [!DNL Commerce] account, enter the **Verification Code** displayed in your TFA application and select **Verify Code** to continue.
+1. With your TFA application now paired with  your [!DNL Commerce] account, enter the **[!UICONTROL Verification Code]** displayed in your TFA application and select **[!UICONTROL Verify Code]** to continue.
 
    ![Setup TFA app](./assets/commerce-account-2fa-setup-app.png)<!-- zoom -->
 
 1. Save the **Recovery Codes** presented in a safe and accessible place.
 
-   If you cannot provide a Verification Code when you log in to your [!DNL Commerce] account, the only way to regain account access is to use a Recovery Code.
+   If you cannot provide a verification code when you log in to your [!DNL Commerce] account, the only way to regain account access is to use a recovery code.
 
-   Each Recovery Code is one-time use only, so do not try to reuse a Recovery Code you have already used previously (but you can always generate more---see the previous for details). Recovery Codes are case-sensitive.
+Each recovery code is one-time use only, but you can always [generate](#generate-new-recovery-codes) new ones. Recovery Codes are case-sensitive.Recovery Codes are case-sensitive.
 
 1. Select the checkbox to confirm and select **[!UICONTROL Submit]** to continue.
 
@@ -269,11 +269,11 @@ To use TFA, you must have a TFA application installed on your personal device (s
 
    This email address is needed if you cannot generate a Verification Code from your two-factor authentication application and you do not have access to an unused pre-generated Recovery Code.
 
-   Once every 24 hours, you can generate and send a temporary Recovery Code to your designated Recovery email address. You can use this code to regain account access.
+   Once every 24 hours, you can generate and send a temporary Recovery Code to your designated Recovery email address. Use this code to regain account access.
 
    >[!IMPORTANT]
    >
-   >You must maintain access to the email account designated as your Recovery Email; otherwise, you cannot access any temporary Recovery Codes sent to that account.
+   >You must maintain access to the email account designated as your Recovery Email; otherwise, you can not access any temporary Recovery Codes sent to that account.
 
    ![Set recovery email](./assets/commerce-account-2fa-set-recovery-email.png)<!-- zoom -->
 
@@ -301,9 +301,9 @@ To use TFA, you must have a TFA application installed on your personal device (s
 
 1. Select **[!UICONTROL Disable]** to begin the TFA deactivation process.
 
-1. Enter the **[!UICONTROL One-time password]** sent to your email and select **[!UICONTROL Verify Code]** to continue.
+1. Enter the **[!UICONTROL Verification Code]** sent to your email and select **[!UICONTROL Verify Code]** to continue.
 
-   ![Enter one-time password](./assets/2fA-verification-code-prompt.png)<!-- zoom -->
+   ![Enter verification code](./assets/2fA-verification-code-prompt.png)<!-- zoom -->
 
 1. Select the confirmation checkbox and select **[!UICONTROL Submit]** to complete the deactivation for two-factor authentication.
 
