@@ -86,8 +86,7 @@ To use TFA, you must have a TFA application installed on your personal device (s
 
 >[!TIP]
 >
->If you lose your personal device or get a new one, you can [change your two-factor authentication app](#change-your-two-factor-authentication-application)
-and generate new recovery codes.
+>If you lose your personal device or get a new one, you can [change your two-factor authentication app](#change-your-two-factor-authentication-application) and generate new recovery codes.
 
 ## Log in using a verification code
 
