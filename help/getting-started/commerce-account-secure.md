@@ -67,7 +67,7 @@ To use TFA, you must have a TFA application installed on your personal device (s
 
 1. To ensure that you can recover access to your account, enter a **[!UICONTROL Recovery Email]**.
 
-   This email address is needed if you cannot generate a verification code from your two-factor authentication application and you do not have access to an unused pre-generated Recovery Code.
+   This email address is needed if you cannot generate a verification code from your two-factor authentication application and you do not have access to an unused pre-generated recovery code.
 
    Once every 24 hours, you can generate and send a temporary recovery code to your designated recovery email address. Use this code to regain account access.
 
@@ -85,6 +85,7 @@ To use TFA, you must have a TFA application installed on your personal device (s
 
 
 >[!TIP]
+>
 >If you lose your personal device or get a new one, you can [change your two-factor authentication app](#change-your-two-factor-authentication-application)
 and generate new recovery codes.
 
