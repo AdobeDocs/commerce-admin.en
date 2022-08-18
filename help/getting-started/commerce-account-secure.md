@@ -259,7 +259,7 @@ To use TFA, you must have a TFA application installed on your personal device (s
 
    If you cannot provide a verification code when you log in to your [!DNL Commerce] account, the only way to regain account access is to use a recovery code.
 
-Each recovery code is one-time use only, but you can always [generate](#generate-new-recovery-codes) new ones. Recovery Codes are case-sensitive.Recovery Codes are case-sensitive.
+     Each recovery code is one-time use only, but you can always [generate](#generate-new-recovery-codes) new ones. Recovery Codes are case-sensitive.Recovery Codes are case-sensitive.
 
 1. Select the checkbox to confirm and select **[!UICONTROL Submit]** to continue.
 
