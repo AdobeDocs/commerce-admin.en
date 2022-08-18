@@ -94,6 +94,10 @@ Assets can be used extensively throughout the Admin, such as [add or edit a page
 
 ## Filtering assets
 
+>[!NOTE]
+>
+>To use "Used in" functionallity "Media Gallery Image Optimization" should be enabled in _Admin_ sidebar **[!UICONTROL Stores]** > _[!UICONTROL Configuration]_ > **[!UICONTROL Advanced]** > _[!UICONTROL System]_ > **[!UICONTROL Media Gallery Image Optimization]**
+
 1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Media]_ > **[!UICONTROL Media Gallery]**.
 
 1. Click the **[!UICONTROL Filters]** tab.
