@@ -5,7 +5,7 @@ exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 ---
 # Cookie Law Compliance
 
-Cookies are small files that are saved to the computer of each visitor to your site, and used as temporary holding places for information. Information that is saved in cookies is used to personalize the shopping experience, link visitors to their shopping carts, measure traffic patterns, and improve the effectiveness of promotions. To keep pace with legislation in many countries regarding the use of cookies, Adobe Commerce and Magento Open Source offer merchants a choice of methods to obtain customer consent. For a list of the default cookies in Adobe Commerce and Magento Open Source, the [Cookie Reference](https://docs.magento.com/user-guide/stores/cookie-reference.html).
+Cookies are small files that are saved to the computer of each visitor to your site, and used as temporary holding places for information. Information that is saved in cookies is used to personalize the shopping experience, link visitors to their shopping carts, measure traffic patterns, and improve the effectiveness of promotions. To keep pace with legislation in many countries regarding the use of cookies, Adobe Commerce and Magento Open Source offer merchants a choice of methods to obtain customer consent. For a list of the default cookies in Adobe Commerce and Magento Open Source, the [Cookie Reference](#defaultcookies).
 
 >[!NOTE]
 >
@@ -17,13 +17,13 @@ Implied consent means that visitors to your store have a clear understanding tha
 
 ## Method 2: Expressed Consent
 
-Operating your store in [cookie restriction mode](https://docs.magento.com/user-guide/stores/compliance-cookie-restriction-mode.html) requires visitors to express their consent before any cookies can be saved to their computers. Unless consent is granted, many features of your store are unavailable. For example, if Google Analytics is available for your store, it can be invoked only after the visitor has granted permission to use cookies.
+Operating your store in [cookie restriction mode](#cookierestrict) requires visitors to express their consent before any cookies can be saved to their computers. Unless consent is granted, many features of your store are unavailable. For example, if Google Analytics is available for your store, it can be invoked only after the visitor has granted permission to use cookies.
 
-## Cookie Restriction Mode
+## Cookie Restriction Mode {#cookierestrict}
 
 When Cookie Restriction Mode is enabled, visitors to your store are notified that cookies are required for full-featured operations. Depending on your theme, the message might appear above the header, below the footer, or somewhere else on the page. The message links to your privacy policy for more information, and encourages visitors to click the Allow button to grant consent. After consent is granted, the message disappears.
 
-Your [privacy policy](https://docs.magento.com/user-guide/stores/privacy-policy.html) should include the name of your store and contact information, and explain the purpose of each cookie that is used by your store. To learn more, see: [Cookie Reference](https://docs.magento.com/user-guide/stores/cookie-reference.html).
+Your [privacy policy](https://docs.magento.com/user-guide/stores/privacy-policy.html) should include the name of your store and contact information, and explain the purpose of each cookie that is used by your store. To learn more, see: [Cookie Reference](#defaultcookies).
 
 >[!NOTE]
 >
@@ -61,7 +61,7 @@ Your [privacy policy](https://docs.magento.com/user-guide/stores/privacy-policy.
 
 Update your [privacy policy](https://docs.magento.com/user-guide/stores/privacy-policy.html) so that it reflects the information that your company collects and how it is used.
 
-## Default Cookies
+## Default Cookies {#defaultcookies}
 
 The default cookies in Adobe Commerce and Magento Open Source are classified as Exempt / Non-Exempt to help merchants meet the requirements of privacy regulations such as the [GDPR](compliance-gdpr.md). Merchants should use this information as a guide, and consult with legal advisors to update their Privacy and Cookie Policies as part of a comprehensive privacy regulation compliance strategy.
 
@@ -337,7 +337,7 @@ JavaScript Library: `ga.js`
 The following cookies are used by Product Recommendations for Adobe Commerce customers. These cookies are installed with the [DataServices module](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html).
 
 - `mg_dnt`: Allows you to [restrict Adobe Commerce data collection](https://devdocs.magento.com/recommendations/setting-cookie.html) if you have custom code to manage cookie consent on your site.
-- `user_allowed_save_cookie`: Used for [cookie restriction mode](https://docs.magento.com/user-guide/stores/compliance-cookie-restriction-mode.html).
+- `user_allowed_save_cookie`: Used for [cookie restriction mode](#cookierestrict).
 - `authentication_flag`: Indicates if a shopper has signed in or signed out. This cookie is updated at the same time as the `dataservices_customer_id` cookie.
 - `dataservices_customer_id`: Indicates if a shopper has signed in or signed out. This cookie does not contain the customer ID.
 - `dataservices_cart_id`: Identifies a shopper's cart actions.
