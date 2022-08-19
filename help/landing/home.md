@@ -18,7 +18,7 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 
 - **Adobe Commerce** is an enterprise-level eCommerce platform that provides a richer set of out-of-the-box features, with an unlimited ability to customize and seamlessly integrate with third-party providers. Robust and scalable, Adobe Commerce offers you a stable, secure, and customizable solution for your growing business. Adobe Commerce includes one of our cloud infrastructure options as well as 24/7 customer support. It is designed to allow you to sell multiple brands, geographies, currencies as well as to both B2C and B2B buyers from a single platform. For a list of the advanced capabilities included with Adobe Commerce, see Commerce features in our developer documentation.
 
-## User guides
+## Merchant guides
 
 <table>
 <tr>
@@ -105,7 +105,7 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 </tr>
 </table>
 
-## What's new in merchant documentation
+## What's new in the merchant guides
 
 | Description | Type | Date |
 | ----------- | ---- | ---- |
