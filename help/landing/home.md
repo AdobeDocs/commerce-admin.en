@@ -107,6 +107,10 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 
 ## What's new in the merchant guides
 
+>[!TIP]
+>
+>You can also review [what's new in the services documentation](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html#what%E2%80%99s-new) and [what's new in the operational guides](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html#what%E2%80%99s-new).
+
 | Description | Type | Date |
 | ----------- | ---- | ---- |
 | **2.4.5 release** - Updated information in [Secure Your Commerce Account](../getting-started/commerce-account-secure.md) for authentication workflow and two-factor authentication introduced with Adobe IMS requirement for Commerce accounts. | Update | 8/11/2022 |
