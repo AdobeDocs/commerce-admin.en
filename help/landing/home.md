@@ -18,7 +18,7 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 
 - **Adobe Commerce** is an enterprise-level eCommerce platform that provides a richer set of out-of-the-box features, with an unlimited ability to customize and seamlessly integrate with third-party providers. Robust and scalable, Adobe Commerce offers you a stable, secure, and customizable solution for your growing business. Adobe Commerce includes one of our cloud infrastructure options as well as 24/7 customer support. It is designed to allow you to sell multiple brands, geographies, currencies as well as to both B2C and B2B buyers from a single platform. For a list of the advanced capabilities included with Adobe Commerce, see Commerce features in our developer documentation.
 
-## User guides
+## Merchant guides
 
 <table>
 <tr>
@@ -105,12 +105,20 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 </tr>
 </table>
 
-<!--
-## What's new
+## What's new in the merchant guides
+
+>[!TIP]
+>
+>You can also review [what's new in the Commerce Services documentation](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html#what%E2%80%99s-new) and [what's new in the Operational guides](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html#what%E2%80%99s-new).
 
 | Description | Type | Date |
 | ----------- | ---- | ---- |
-| Added notes to [Search Results](https://docs.magento.com/user-guide/catalog/search-results.html) and [Configuring Catalog Search](https://docs.magento.com/user-guide/catalog/search-configuration.html) to clarify the limitations of search by suffix in out-of-the-box ElasticSearch implementations. | Minor update | 4/21/2022 |
-| Redirected the Site-Wide-Analysis Tool topic to the [new location](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html) on Adobe Experience League. | Moved | 4/14/2022 |
+| **2.4.5 release** - Updated information in [Secure Your Commerce Account](../getting-started/commerce-account-secure.md) for authentication workflow and two-factor authentication introduced with Adobe IMS requirement for Commerce accounts. | Update | 8/11/2022 |
+| **2.4.5 release** - Updated information in [Access Your Commerce Account](../getting-started/commerce-account-create.md) to reflect the Adobe ID requirement to access their Commerce account (accounts.magento.com). | Update | 8/11/2022 |
+| **2.4.5 release** - Added release notes for the [B2B v1.3.4](../b2b/release-notes.md#b2b-v134), [Inventory Management v1.2.5](../inventory-management/release-notes.md#v125), and [Page Builder](../page-builder/release-notes.md#172-for-commerce-245) modules. | New | 8/9/2022 |
+| **2.4.5 release** - Added new topics for Adobe Identity Management System integration in the Commerce Admin: [Adobe Identity Management Service (IMS) Integration Overview](../getting-started/adobe-ims-integration-overview.md) and [Configure the Commerce Admin Integration with Adobe IMS](../getting-started/adobe-ims-config.md). | New | 8/9/2022 |
+| **2.4.5 release** - Updated information in the [Google API configuration reference](https://docs.magento.com/user-guide/configuration/sales/google-api.html), and the [Google Analytics](https://docs.magento.com/user-guide/marketing/google-universal-analytics.html) and [Google AdWords](https://docs.magento.com/user-guide/marketing/google-adwords.html) topics for new GTag support for Google services integration and move from Google Universal Analytics to Analytics 4. | Update | 8/9/2022 |
+| **2.4.5 release** - Updated [Google reCAPTCHA](https://docs.magento.com/user-guide/stores/security-google-recaptcha.html) and [Google reCAPTCHA Storefront](https://docs.magento.com/user-guide/configuration/security/google-recaptcha-storefront.html) topics to reflect additional support for configuration of reCAPTCHA validation on the storefront. | Update | 8/9/2022 |
+| **2.4.5 release** - Updated the Page Builder [Layout - Columns](../page-builder/column.md) topic for new _columns_ container. | Update | 8/9/2022 |
 
-{style="table-layout:auto"} -->
+{style="table-layout:auto"}
