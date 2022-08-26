@@ -44,7 +44,7 @@ The following example uses keyword mapping based on SKU. When either SKU is ente
    | |Catalog Input Type for Store Owner:|`Text Field`|
 
    |Advanced Attribute Properties|||
-      |----|-----|-----|
+   |----|-----|-----|
    | |Add to Column Options:|`Yes` (default)|
    | |Use in Filter Options:|`Yes` (default)|
 

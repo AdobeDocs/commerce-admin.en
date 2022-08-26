@@ -101,7 +101,7 @@ Complete the information in the following sections as needed:
 - [Related Products, Up-Sells, and Cross-Sells](related-products-up-sells-cross-sells.md)
 - [Customizable Options](settings-advanced-custom-options.md)
 - [Products in Websites](settings-basic-websites.md)
-- [Design]({settings-advanced-design.md)
+- [Design](settings-advanced-design.md)
 - [Gift Options](product-gift-options.md)
 
 >[!NOTE]
