@@ -35,7 +35,7 @@ breadcrumb-title: Catalog Management
     - [Design settings](categories-custom-design.md)
     - [Modify a category](category-modify.md)
   - Products in category {#products-in-category}
-    - [Product assignments](categories-category-products.md)
+    - [Product assignments](categories-product-assignments.md)
     - [Sort category products](category-products-sort.md)
     - [Add and remove category products](category-products-add.md)
   - [Scheduled changes](category-scheduled-changes.md)
@@ -51,7 +51,7 @@ breadcrumb-title: Catalog Management
     - [Virtual product](product-create-virtual.md)
     - [Bundle product](product-create-bundle.md)
     - [Downloadable product](product-create-downloadable.md)
-    - [Gift card](assets/product-gift-card-create.png)
+    - [Gift card](product-gift-card-create.md)
   - Product digital assets {#digital-assets}
     - [Catalog images and videos](catalog-images-video.md)
     - [Image asset configuration](product-image-config.md)
@@ -81,7 +81,7 @@ breadcrumb-title: Catalog Management
     - [Gift Options](product-gift-options.md)
 - Product attributes {#product-attributes}
   - [Attributes overview](product-attributes.md)
-  - [Attribute input type](attributes-input-type.md)
+  - [Attribute input type](attributes-input-types.md)
   - [Add attributes to a product](product-attributes-add.md)
   - [Product swatches](swatches.md)
   - Create and update attributes {#create}
