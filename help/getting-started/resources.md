@@ -29,7 +29,7 @@ Adobe provides a wealth of business and technical resources, self-help tools, an
 [6]: https://community.magento.com/
 [7]: https://business.adobe.com/blog/
 [8]: https://www.adobe.com/events.html
-[9]: https://marketplace.magento.com/s
+[9]: https://marketplace.magento.com/
 [10]: https://learning.adobe.com/catalog.html?solution=Adobe%20Commerce
 [12]: https://business.adobe.com/products/magento/partners.html
 [13]: https://business.adobe.com/products/magento/fully-managed-service.html

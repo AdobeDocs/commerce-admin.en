@@ -11,6 +11,8 @@ The primary Admin account was initially set up during the installation, and migh
 
 - See [Permissions](https://docs.magento.com/user-guide/system/permissions.html) and [User Roles](https://docs.magento.com/user-guide/system/permissions-user-roles.html) for information about Admin and user roles.
 
+{{ims-admin-note}}
+
 ## Admin Sign In
 
 The [!DNL Commerce] _Admin_ is protected by multiple layers of security measures to prevent unauthorized access to your store, order, and customer data. The first time you sign in to the _Admin_, you are required to enter your username and password and to set up [two-factor authentication](https://docs.magento.com/user-guide/stores/security-two-factor-authentication.html) (2FA).

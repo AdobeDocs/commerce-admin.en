@@ -90,6 +90,12 @@ The options for each widget type vary slightly, but the process is essentially t
 
    To move it to a different location, you can reopen the widget and try a different page or block reference.
 
+## Widget creation demo
+
+Watch this video to learn about creating widgets:
+
+>[!VIDEO](https://video.tv.adobe.com/v/343786?quality=12)
+
 ## Edit a widget
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Elements]_ > **[!UICONTROL Widgets]**.

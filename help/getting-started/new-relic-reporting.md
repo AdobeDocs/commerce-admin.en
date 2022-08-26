@@ -11,7 +11,7 @@ exl-id: 65d08bda-da01-4dcf-9d92-189d4d303c76
 
 1. Go to the [New Relic][1] website and sign up for an account.
 
-   You can also sign up for a [free trial account][2].
+   You can also sign up for a free trial account.
 
 1. Follow the instructions on the site. When prompted, choose the product that you want to install first.
 
@@ -321,8 +321,7 @@ Returns the total number of line items ordered during the specified time period.
       FROM Transaction SINCE 1 day ago
 
 
-[1]: http://newrelic.com/
-[2]: http://newrelic.com/magento
+[1]: https://newrelic.com/
 [3]: https://docs.newrelic.com/docs/agents/php-agent/getting-started/new-relic-php
 [4]: https://devdocs.magento.com/cloud/project/new-relic.html
 [5]: https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-cron.html

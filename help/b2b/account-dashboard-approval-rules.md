@@ -137,3 +137,9 @@ To remove an existing approval rule, a customer can complete the following steps
 1. Clicks **[!UICONTROL Delete]**.
 
 1. To confirm the action, clicks **[!UICONTROL OK]**.
+
+## Purchase order approvals demo
+
+Watch this video to learn about purchase order approvals:
+
+>[!VIDEO](https://video.tv.adobe.com/v/344450?quality=12)

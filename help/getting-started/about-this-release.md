@@ -7,9 +7,9 @@ exl-id: 7313c81c-0205-4690-a873-fdd4a29032c9
 
 It is a best practice to keep your [!DNL Commerce] installation up to date, so you can benefit from the latest fixes, improvements, and advancements. Release notes provide a detailed description of the changes in each product release, with links to additional technical information, installation instructions, and support resources. To learn more about the current releases, see:
 
-![Magento Open Source](../assets/open-source.svg) [Magento Open Source 2.4.4 Release Notes][2]{:target="_blank"}
+![Magento Open Source](../assets/open-source.svg) [Magento Open Source 2.4.5 Release Notes][2]{:target="_blank"}
 
-![Adobe Commerce](../assets/adobe-logo.svg) [Adobe Commerce 2.4.4 Release Notes][1]{:target="_blank"}
+![Adobe Commerce](../assets/adobe-logo.svg) [Adobe Commerce 2.4.5 Release Notes][1]{:target="_blank"}
 
 ## Installation
 
@@ -35,8 +35,8 @@ The [!DNL Commerce] mode can be changed only from the command line of the server
 The [[!DNL Commerce] 2.3 User Guide][8]{:target="_blank"} remains available on the docs.magento.com domain until it reaches end of life/end of support.
 
 
-[1]: https://devdocs.magento.com/guides/v2.4/release-notes/commerce-2-4-4.html
-[2]: https://devdocs.magento.com/guides/v2.4/release-notes/open-source-2-4-4.html
+[1]: https://devdocs.magento.com/guides/v2.4/release-notes/commerce-2-4-5.html
+[2]: https://devdocs.magento.com/guides/v2.4/release-notes/open-source-2-4-5.html
 [3]: https://devdocs.magento.com/guides/v2.4/install-gde/install-flow-diagram.html
 [4]: https://devdocs.magento.com/guides/v2.4/config-guide/bk-config-guide.html
 [5]: https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements.html

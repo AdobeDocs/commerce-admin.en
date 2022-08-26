@@ -13,10 +13,12 @@ breadcrumb-title: Getting Started
   - [Create and Access Your Account](commerce-account-create.md)
   - [Secure Your [!DNL Commerce] Account](commerce-account-secure.md)
   - [Share Your Account](commerce-account-share.md)
-  - [[!DNL Commerce Identity Manager]](commerce-identity-manager.md)
 - The Admin {#admin}
   - [What is the Admin?](admin.md)
   - [Your Admin Account](admin-signin.md)
+  - Adobe Identity Management Service (IMS) Integration {#ims}
+    - [IMS Integration Overview](adobe-ims-integration-overview.md)
+    - [Configure the Admin Integration with IMS](adobe-ims-config.md)
   - Admin Tools and Workspace {#tools}
     - [Workspace](admin-workspace.md)
     - [The Admin Sidebar](admin-menu.md)

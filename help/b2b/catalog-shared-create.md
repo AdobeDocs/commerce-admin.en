@@ -95,6 +95,12 @@ If a public shared catalog is duplicated, the type of the duplicate catalog chan
 
 After creating a new shared catalog, it must be configured with the appropriate product selection, [company assignments](catalog-shared-assign-companies.md), and [category permissions](https://docs.magento.com/user-guide/catalog/category-permissions.html). To continue, see [Set Pricing and Structure](catalog-shared-pricing-structure.md).
 
+## Shared catalog demo
+
+Watch this video to learn about managing shared catalogs:
+
+>[!VIDEO](https://video.tv.adobe.com/v/344446?quality=12)
+
 ## Shared Catalog page reference
 
 ### Button bar
