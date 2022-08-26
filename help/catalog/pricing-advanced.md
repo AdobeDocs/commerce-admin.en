@@ -45,7 +45,7 @@ Enter the special price to offer a discounted price during a specified time peri
 | Field | Description |
 | ---- | ----------- |
 |From|Sets the first date the Special Price is available. You can either enter the date or select it from the calendar.|
-|To|Sets the last date the Special Price is available. You can either enter the date or select it from the calendar.
+|To|Sets the last date the Special Price is available. You can either enter the date or select it from the calendar.|
 
 ### Cost
 
