@@ -24,7 +24,7 @@ Choosing a product type is one of the first things you must do to create a new p
 
 **[Downloadable product](product-create-downloadable.md)** - A digitally [downloadable product](product-create-downloadable.md) consists of one or more files that are downloaded. The files can reside on your server or be provided as URLs to any other server.
 
-**[Gift card](product-gift-card.md)** - ([Adobe Commerce](../landing/home.md#product-editions) only) There are three kinds of gift cards: virtual gift cards that are sent by email, physical gift cards that are shipped to the recipient, and combined gift cards that are a combination of the two. Each has a unique code, which is redeemed during checkout. Gift cards can also be included in a grouped product.
+**[Gift card](product-gift-card-create.md)** - ([Adobe Commerce](../landing/home.md#product-editions) only) There are three kinds of gift cards: virtual gift cards that are sent by email, physical gift cards that are shipped to the recipient, and combined gift cards that are a combination of the two. Each has a unique code, which is redeemed during checkout. Gift cards can also be included in a grouped product.
 
 The most frequently used product settings and attributes are located at the top of the page, followed by custom attributes. Any other product settings are in expandable sections at the bottom of the page.
 

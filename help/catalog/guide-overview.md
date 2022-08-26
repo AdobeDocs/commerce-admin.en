@@ -14,13 +14,13 @@ This guide covers:
 | Subject | Description |
 | ------- | ----------- |
 | [Introduction](introduction.md) | Overview of using the catalog management features to reflect how you want customers to find products in your store.|
-| [Catalog menu](content-menu.md) | Use the [!UICONTROL Catalog] menu to access multiple features for managing catalogs, categories, and products for your store. |
-| [Catalog and product URLs](catalog-urls.md) |  |
-| [Catalog navigation](navigation.md) |  |
-| [Catalog search](search.md) |  |
-| [Categories](categories.md) |  |
-| [Products](products-list.md) |  |
-| [Product attributes](product-attributes.md) |  |
+| [Catalog menu](catalog-menu.md) | Use the [!UICONTROL Catalog] menu to access multiple features for managing catalogs, categories, and products for your store. |
+| [Catalog and product URLs](catalog-urls.md) | Add description. |
+| [Catalog navigation](navigation.md) | Add description. |
+| [Catalog search](search.md) | Add description. |
+| [Categories](categories.md) | Add description. |
+| [Products](products-list.md) | Add description. |
+| [Product attributes](product-attributes.md) | Add description. |
 
 {style="table-layout:auto"}
 

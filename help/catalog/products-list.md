@@ -16,7 +16,7 @@ You can browse through the list page by page, or search for specific products. U
 
 |Control|Description|
 |--- |--- |
-|Add Product|Initiates the process to create a new simple product. To choose a specific product type, click the down arrow. Options: [Simple Product](product-create-simple.md) / [Configurable Product](product-create-configurable.md) / [Grouped Product](product-create-grouped.md) / [Virtual Product](product-create-virtual.md) / [Bundle Product](product-create-bundle.md) / [Downloadable Product](product-create-downloadable.md) / [Gift Card](product-gift-card.md)|
+|Add Product|Initiates the process to create a new simple product. To choose a specific product type, click the down arrow. Options: [Simple Product](product-create-simple.md) / [Configurable Product](product-create-configurable.md) / [Grouped Product](product-create-grouped.md) / [Virtual Product](product-create-virtual.md) / [Bundle Product](product-create-bundle.md) / [Downloadable Product](product-create-downloadable.md) / [Gift Card](product-gift-card-create.md)|
 |Export Full Catalog|Manually request a full catalog export from Adobe Commerce. Outgoing messages will be exported to a .csv file in batches.|
 |Actions|Lists all actions that can be applied to selected products in the list. To apply an action to a product or group of products, select the checkbox in the first column of each product. Options: Delete / Change Status / Update Attributes / Assign Inventory Source / Unassign Inventory Source / Transfer Inventory To Source|
 |Filters|Initiates a catalog search based on the current filters.|

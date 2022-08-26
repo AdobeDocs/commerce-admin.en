@@ -6,7 +6,7 @@ description: <placeholder>
 
 {{ee-feature}}
 
-Each gift card has a unique code, which can be redeemed by only one customer during checkout. A [code pool](product-gift-card-account-configuration.md) must be established before gift cards can be sold. See [Gift Card Workflow](https://docs.magento.com/user-guide/catalog/product-gift-card-workflow.html) for information about how gift cards are redeemed in the shopping cart.
+Each gift card has a unique code, which can be redeemed by only one customer during checkout. A [code pool](https://docs.magento.com/user-guide/catalog/product-gift-card-account-configuration.html#step-3-establish-the-gift-card-code-pool) must be established before gift cards can be sold. See [Gift Card Workflow](https://docs.magento.com/user-guide/catalog/product-gift-card-workflow.html) for information about how gift cards are redeemed in the shopping cart.
 
 ![Gift card product page](./assets/storefront-giftcard-product-page.png)<!-- zoom -->
 
@@ -132,7 +132,7 @@ Complete the information in the following sections as needed:
 
    On the _Save_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png)<!-- {: width="25px"} --> ) menu, choose **Save & Close**.
 
-    ![Save & Close](./assets/product-edit-save-close.png)<!-- zoom -->
+   ![Save & Close](./assets/product-edit-save-close.png)<!-- zoom -->
 
 ## Things to remember
 

@@ -42,7 +42,7 @@ To change the order of images in the gallery, click the **Sort** ( ![Sort icon]
 
 ### Delete an image
 
-To remove an image from the gallery, click the **Delete** ( ![Trash icon](./assets/icon-delete-trashcan.png) ) icon in the upper-right corner of the image tile and click **Save**.
+To remove an image from the gallery, click the **Delete** ( ![Trash icon](../assets/icon-delete-trashcan.png) ) icon in the upper-right corner of the image tile and click **Save**.
 
 ### Set image details
 
