@@ -44,6 +44,8 @@ The _Save_ menu includes several options that let you save and continue, save an
 
 To save time when creating products, the default value of several product fields references values from another field. You can either accept the default value or enter another. The following fields have automatically generated default values:
 
+|Field |Default |
+|----- |------- |
 |SKU|Based on product Name. |
 |Meta Title|Based on product Name. |
 |Meta Keywords|Based on product Name. |
@@ -74,12 +76,12 @@ See also [Product Fields Auto-Generation](https://docs.magento.com/user-guide/co
 ### Common placeholders
 
 - `{{color}}`
-- {% raw %}{{country_of_manufacture}}{% endraw %}
-- {% raw %}{{description}}{% endraw %}
-- {% raw %}{{gender}}{% endraw %}
-- {% raw %}{{material}}{% endraw %}
-- {% raw %}{{name}}{% endraw %}
-- {% raw %}{{short_description}}{% endraw %}
-- {% raw %}{{size}}{% endraw %}
-- {% raw %}{{sku}}{% endraw %}
+- `{{country_of_manufacture}}`
+- `{{description}}`
+- `{{gender}}`
+- `{{material}}`
+- `{{name}}`
+- `{{short_description}}`
+- `{{size}}`
+- `{{sku}}`
 
