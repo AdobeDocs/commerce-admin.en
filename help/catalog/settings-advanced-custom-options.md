@@ -1,10 +1,10 @@
 ---
 title: Product settings - [!UICONTROL Customizable Options]
-description: For a product, the [!UICONTROL Customizable Options] settings allow you to offer a selection of options with a variety of text, selection, and date input types.
+description: For a product, the [!UICONTROL Customizable Options] settings allow you to offer a selection of options with text, selection, and date input types.
 ---
 # Product settings - [!UICONTROL Customizable Options]
 
-Adding customizable options to a product is an easy way to offer a selection of options with a variety of text, selection, and date input types. Customizable options are a good solution if your inventory needs are simple. However, because they are based on variations of a single SKU, they cannot be used to manage stock or as the basis of price rule conditions. If you have multiple products with the same options, you can set up one product and import the options to the other products.
+Adding customizable options to a product is an easy way to offer a selection of options with text, selection, and date input types. Customizable options are a good solution if your inventory needs are simple. However, because they are based on variations of a single SKU, they cannot be used to manage stock or as the basis of price rule conditions. If you have multiple products with the same options, you can set up one product and import the options to the other products.
 
 When a customer purchases a product with a customizable option, a description of each selected option appears below the product description, and any associated markup (or markdown) is automatically applied to the price of the item.
 
@@ -79,7 +79,7 @@ If a cart price rule is triggered by the purchase, the initial calculation appli
 
 |Type|Description|
 |--- |--- |
-|[!UICONTROL Text]|An input line or text box where the customer can enter the required information. Options:<br />**[!UICONTROL Field]** - A  single line input field for text.<br />**[!UICONTROL Area]** - A multiple-line input field. Text can be formatted with the WYSIWYG editor or entered as HTML directly into the text box.|
+|[!UICONTROL Text]|An input line or text box where the customer can enter the required information. Options:<br />**[!UICONTROL Field]** - A  single-line input field for text.<br />**[!UICONTROL Area]** - A multiple-line input field. Text can be formatted with the WYSIWYG editor or entered as HTML directly into the text box.|
 |[!UICONTROL File]|Allows the customer to upload a file.|
 |[!UICONTROL Select]|Allows the customer to select a single option or multiple options, depending on input type used. Options:<br />**[!UICONTROL Drop-down]** - A drop-down list of options that allows only one selection.<br />**[!UICONTROL Radio Buttons]** - A set of options that allows only one selection.<br />**[!UICONTROL Checkbox]** - A checkbox is a variation of a yes/no option. If the product has more than one checkbox, multiple selections can be made.<br />**[!UICONTROL Multiple Select]** - A drop-down list box of options that accepts multiple selections. To choose multiple options, hold down the Ctrl (PC) or Command (Mac) key and click each option.|
 |[!UICONTROL Date]|Allows the customer to enter a date or time or choose the value from a calendar. Options: <br />**[!UICONTROL Date]** - An input field for a date value. The date can be typed directly into the field or selected from a list or calendar. The input method and format is determined by the [Date & Time Custom Options](https://docs.magento.com/user-guide/stores/attribute-date-time-options.html) configuration.<br />**[!UICONTROL Date & Time]** - An input field for a date and time value.<br />**[!UICONTROL Time]** - An input field for a time value.|

@@ -31,7 +31,7 @@ The following example uses keyword mapping based on SKU. When either SKU is ente
 - Montana Wind Jacket (MJ03)
 - Chaz Kangaroo Hoodie (MH01)
 
-### Step 1: Create a new attribute
+### Step 1: Create an attribute
 
 1. In the _[!UICONTROL Products]_ list, open the `Montana Wind Jacket` (MJ03) in edit mode.
 1. In the upper-right corner, click **[!UICONTROL Add Attribute]**.

@@ -1,10 +1,10 @@
 ---
 title: Product settings - [!UICONTROL Gift Options]
-description: For a product, the [!UICONTROL Gift Options] settings determine if a gift message can be included or if gift wrapping options are available during checkout.
+description: For a product, the [!UICONTROL Gift Options] settings determine if a gift message can be included or if gift-wrapping options are available during checkout.
 ---
 # Product settings - [!UICONTROL Gift Options]
 
-In the _[!UICONTROL Gift Options]_ section, you can set gift message and gift wrapping options at checkout at the product level. To override the default configuration setting, deselect the **[!UICONTROL Use Config Settings]** checkbox.
+In the _[!UICONTROL Gift Options]_ section, you can set gift message and gift-wrapping options at checkout at the product level. To override the default configuration setting, deselect the **[!UICONTROL Use Config Settings]** checkbox.
 
 ![Gift Options](./assets/product-gift-options-ee.png)<!-- zoom -->
 

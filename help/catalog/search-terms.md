@@ -1,6 +1,6 @@
 ---
 title: Manage search terms
-description: Learn how to manage the search terms for your store to redirect customers using mispelled or alternative terms.
+description: Learn how to manage the search terms for your store to redirect customers using misspelled or alternative terms.
 ---
 # Manage search terms
 
@@ -10,13 +10,13 @@ description: Learn how to manage the search terms for your store to redirect cus
 
 The [landing page](../content-design/pages.md) for a search term can be a content page, a category page, a product detail page, or even a page on a different site.
 
-Use search terms to capture common misspellings and redirect them to the appropriate page. For example, if you sell wrought iron patio furniture, you know that many people misspell the term as _rod iron_, or even _rot iron_. You can enter each misspelled word as a search term, and make them synonyms for _wrought iron_. Even though the word is misspelled, the search will be directed to the page for wrought iron.
+Use search terms to capture common misspellings and redirect them to the appropriate page. For example, if you sell wrought iron patio furniture, you know that many people misspell the term as _rod iron_, or even _rot iron_. You can enter each misspelled word as a search term, and make them synonyms for _wrought iron_. Even though the word is misspelled, the search is directed to the page for wrought iron.
 
 You can also learn what your customers are looking for by examining the search terms they use to find products in your store. If enough people look for a product that is not in your catalog, it could indicate a sales opportunity. Meanwhile, rather than have them leave them empty handed, you can redirect them to another product in your catalog.
 
 ## Add search terms
 
-As you learn new words that people use to search for products in your catalog, you can add them to your search terms list to direct people to the most closely matching products in your catalog.
+As you learn new words that people use to search in your store, you can add them to your search terms list to direct people to the most closely matching products in your catalog.
 
 ![Search Terms grid](./assets/search-terms.png)<!-- zoom -->
 
@@ -129,7 +129,7 @@ Adobe Commerce supports two different synonym management solutions:
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_ > **[!UICONTROL Search Synonyms]**.
 
-   The _[!UICONTROL Search Synonyms]_ grid appears. If this is the first time you have used search synonyms, the grid will be empty.
+   The _[!UICONTROL Search Synonyms]_ grid appears. If this is the first time you have used search synonyms, the grid is empty.
 
    ![Search synonyms grid](./assets/search-synonyms-grid-empty.png)<!-- zoom -->
 

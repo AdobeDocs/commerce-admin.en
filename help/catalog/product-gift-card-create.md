@@ -141,7 +141,7 @@ Complete the information in the following sections as needed:
 
 - Gift cards can be set to `Redeemable` or `Non-Redeemable`.
 
-- The lifetime of a gift card can be unlimited or set to a number of days.
+- The lifetime of a gift card can be unlimited or set to a specified number of days.
 
 - The value of a gift card can be set to a fixed amount or set to an open amount with a minimum and maximum value.
 

@@ -14,7 +14,7 @@ The _[!UICONTROL Content]_ settings determine any additional content appears on 
 
    ![Category content](./assets/category-content.png)<!-- zoom -->
 
-1. At the top-right of the **[!UICONTROL Description]** area, click **[!UICONTROL Edit with Page Builder]**.
+1. At the top right of the **[!UICONTROL Description]** area, click **[!UICONTROL Edit with Page Builder]**.
 
 1. Use the [Page Builder](../page-builder/introduction.md)  content tools to [edit any existing text](../page-builder/text.md) and add other content (if needed).
 

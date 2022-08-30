@@ -4,7 +4,7 @@ description: Learn how to add attributes to products in your catalog.
 ---
 # Add attributes to a product
 
-Although attributes are managed primarily from the [Stores](https://docs.magento.com/user-guide/stores/stores-menu.html) menu, you can also add new attributes _on the fly_ while working on a product. You can choose from the list of existing attributes or create a new attribute. The new attribute is added to the [attribute set](https://docs.magento.com/user-guide/stores/attribute-sets.html) upon which the product is based.
+Although attributes are managed primarily from the [Stores](https://docs.magento.com/user-guide/stores/stores-menu.html) menu, you can also add new attributes _on the fly_ while working on a product. You can choose from the list of existing attributes or create an attribute. The new attribute is added to the [attribute set](https://docs.magento.com/user-guide/stores/attribute-sets.html) upon which the product is based.
 
 ![New product with default attribute set](./assets/product-attribute-add.png)<!-- zoom -->
 
@@ -40,7 +40,7 @@ Although attributes are managed primarily from the [Stores](https://docs.magento
 
    - Enter the first value that you want to appear in the list.
 
-      You can enter one value for the Admin and a translation of the value for each store view. If you have only one store view, you can enter only the Admin value, and it will be used for the storefront as well.
+      You can enter one value for the Admin and a translation of the value for each store view. If you have only one store view, you can enter only the Admin value, and it is used for the storefront as well.
 
    - Click **[!UICONTROL Add Value]** and repeat the previous step for each option that you want to include in the list.
 
@@ -56,7 +56,7 @@ Although attributes are managed primarily from the [Stores](https://docs.magento
 
 1. Enter a unique **[!UICONTROL Attribute Code]** in lowercase characters and without spaces.
 
-1. Set **[!UICONTROL Scope]** to indicate where in your store hierarchy the attribute can be used.
+1. Set **[!UICONTROL Scope]** to indicate where in your store hierarchy that the attribute can be used.
 
    If the attribute is used for a [configurable product](product-create-configurable.md), choose `Global`.
 
@@ -101,7 +101,7 @@ Although attributes are managed primarily from the [Stores](https://docs.magento
 
 1. To include dropdown, multiple select, or price attributes in layered navigation, set **[!UICONTROL Use in Search Results Layered Navigation]** to one of the following:
 
-   - `Filterable (with results)` - Layered navigation includes only those filters for which matching products can be found. Any attribute value that already applies to all products shown in the list does not appear as an available filter. Attribute values with a count of zero (0) product matches are also omitted from the list of available filters.<br/><br/>The filtered list of products includes only those that match the filter. The products list is updated only if the selected filter(s) change what is currently shown.
+   - `Filterable (with results)` - Layered navigation includes only those filters for which matching products can be found. Any attribute value that already applies to all products shown in the list does not appear as an available filter. Attribute values with a count of zero (0) product matches are also omitted from the list of available filters.<br/><br/>The filtered list of products includes only those that match the filter. The products list is updated only if the selected filters change what is shown.
 
    - `Filterable (no results)` - Layered navigation includes filters for all available attribute values and their product counts, including those with zero (0) product matches. If the attribute value is a swatch, the value appears as a filter, but is crossed out.
 

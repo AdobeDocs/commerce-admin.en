@@ -1,12 +1,12 @@
 ---
 title: Attribute sets
-description: Learn how to organize attributes into groups, which determines where they appear in the product record.
+description: Learn how to organize attributes into groups, which determine where they appear in the product record.
 ---
 # Attribute sets
 
 One of the first steps when creating a product is to choose the attribute set that is used as a template for the product record. The attribute set determines the fields that are available during data entry, and the values that appear to the customer.
 
-The attributes are organized into groups that determine where they appear in the product record. Your store comes with an initial attribute set, called _default_, that includes a set of commonly-used attributes. If you would like to add only a small number of attributes, you can add them to this default attribute set. However, if you sell products that require specific types of information, such as cameras, it might be better to create a dedicated attribute set that includes the specific attributes that are needed to describe the product.
+The attributes are organized into groups that determine where they appear in the product record. Your store comes with an initial attribute set, called _default_, that includes a set of commonly used attributes. If you would like to add only a few attributes, you can add them to this default attribute set. If you sell products that require specific types of information, it might be better to create a dedicated attribute set that includes the specific attributes needed for the product.
 
 ![Attribute Sets](./assets/attribute-sets.png)<!-- zoom -->
 
@@ -30,7 +30,7 @@ The attributes are organized into groups that determine where they appear in the
    - The center of the page lists the current selection of attribute groups.
    - The right column lists the selection of attributes that are currently not assigned to the attribute set.
 
-1. To add a new attribute to the set, drag the attribute from the **[!UICONTROL Unassigned Attributes]** list to the appropriate folder in the **[!UICONTROL Groups]** column.
+1. To add an attribute to the set, drag the attribute from the **[!UICONTROL Unassigned Attributes]** list to the appropriate folder in the **[!UICONTROL Groups]** column.
 
    >[!NOTE]
    >

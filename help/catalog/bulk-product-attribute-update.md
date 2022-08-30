@@ -1,10 +1,10 @@
 ---
 title: Bulk updates for product attributes
-description: Use the Update Attributes tool to apply attribute changes to  multiple products.
+description: Use the [!UICONTROL Update Attributes] tool to apply attribute changes to  multiple products.
 ---
 # Bulk updates for product attributes
 
-Use the _Update Attributes_ tool to change one or more attributes in your products. This tool allows you to apply significant changes across a large group of products.
+Use the _[!UICONTROL Update Attributes]_ tool to change one or more attributes in your products. This tool allows you to apply significant changes across a large group of products.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 

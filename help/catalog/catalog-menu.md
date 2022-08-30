@@ -4,7 +4,7 @@ description: Use the [!UICONTROL Catalog] menu to access to product creation, ca
 ---
 # [!UICONTROL Catalog] menu
 
-The [!UICONTROL Catalog] menu provides easy access to product creation, category, and inventory management tools, as well as shared catalogs for custom pricing in [B2B stores](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+The [!UICONTROL Catalog] menu provides easy access to product creation, category, and inventory management tools, and shared catalogs for custom pricing in [B2B stores](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 ![Catalog menu](./assets/admin-menu-catalog.png)<!-- zoom -->
 
@@ -12,7 +12,7 @@ On the _Admin_ sidebar, click **[!UICONTROL Catalog]**.
 
 ## [!UICONTROL Products]
 
-Create new [products](products-list.md) of every type and manage your inventory.
+Create [products](products-list.md) of every type and manage your inventory.
 
 ![Products grid](./assets/products-grid.png)<!-- zoom -->
 

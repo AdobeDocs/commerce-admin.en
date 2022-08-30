@@ -33,8 +33,8 @@ description: Reused visual elements to note feature or pages applying to a speci
 | Documentation resource | Description |
 |----------------------- | ----------- |
 | [Adobe Commerce 2.4 Merchant Documentation](../landing/home.md) | Merchant-focused documentation for both Adobe Commerce and Magento Open Source |
-| [Services for Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | Documentation to support a collection of services that help merchants integrate key components of their business with their store. |
+| [Services for Adobe Commerce Documentation](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | Documentation to support a collection of services that help merchants integrate key components of their business with their store. |
 | [Adobe Commerce 2.4 Operational Guides](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Systems documentation about the concepts, processes, tools, and best practices to develop, deploy, and maintain projects deployed on Adobe Commerce and Magento Open Source platforms.|
-| [Adobe Commerce 2.4 Developer Documentation](https://devdocs.magento.com/) | Developer-focused documentation used to build and customize Adobe Commerce or Magento Open Source |
+| [Adobe Commerce 2.4 Developer Documentation](https://developer.adobe.com/commerce/) | Developer-focused documentation used to build and customize Adobe Commerce or Magento Open Source |
 
 {style="table-layout:auto"}

@@ -4,7 +4,7 @@ description: Learn how to configure catalog search for your store.
 ---
 # Configure catalog search
 
-There are two variations of the Catalog Search configuration: The first method describes the available settings when [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) is installed, and the second method describes the configuration settings for native Adobe Commerce with [Elasticsearch][1]{:target="_blank"}.
+There are two variations of the Catalog Search configuration. The first method describes the available settings when [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) is installed. The second method describes the configuration settings for native Adobe Commerce with [Elasticsearch][1]{:target="_blank"}.
 
 For information about each of the catalog search configuration options, see [_Elasticsearch Suggestion and Recommendation Settings_](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#catalog-search) in the _Configuration Reference_.
 
@@ -26,9 +26,9 @@ For information about each of the catalog search configuration options, see [_El
 
    The default value is `100`. Entering a value of `0` caches all search terms and results when entered a second time.
 
-1. To change the maximum number of lines that are available for returned results in the [storefront popover](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-storefront/quick-tour.html), enter a different **[!UICONTROL Autocomplete Limit]** value.
+1. To change the maximum number of lines that are available for returned results in the [storefront pop over](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-storefront/quick-tour.html), enter a different **[!UICONTROL Autocomplete Limit]** value.
 
-   Restricting the number of lines improves the performance of searches and reduces the size of the returned list. The default value is 8 lines.
+   Restricting the number of lines improves the performance of searches and reduces the size of the returned list. The default value is `8` lines.
 
 ## Method 2: Commerce with Elasticsearch
 
@@ -70,7 +70,7 @@ For information about each of the catalog search configuration options, see [_El
 
 >[!IMPORTANT]
 >
->The **[!UICONTROL Search Engine]**, **[!UICONTROL Elasticsearch Server Hostname]**, **[!UICONTROL Elasticsearch Server Port]**, **[!UICONTROL Elasticsearch Index Prefix]**, **[!UICONTROL Enable Elasticsearch HTTP Auth]**, and **[!UICONTROL Elasticsearch Server Timeout]** fields were configured when Commerce was installed or upgraded. These values should only be changed when upgrading or modifying Elasticsearch.
+>The **[!UICONTROL Search Engine]**, **[!UICONTROL Elasticsearch Server Hostname]**, **[!UICONTROL Elasticsearch Server Port]**, **[!UICONTROL Elasticsearch Index Prefix]**, **[!UICONTROL Enable Elasticsearch HTTP Auth]**, and **[!UICONTROL Elasticsearch Server Timeout]** fields were configured when Commerce was installed or upgraded. These values should be changed only when upgrading or modifying Elasticsearch.
 
 ![Elasticsearch Connection Settings](./assets/elasticsearch-2.png)<!-- zoom -->
 

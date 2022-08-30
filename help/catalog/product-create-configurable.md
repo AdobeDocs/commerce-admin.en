@@ -12,7 +12,7 @@ The following instructions demonstrate the process of creating a configurable pr
 
 ## Part 1: Creating a configurable product
 
-Although a configurable product uses more SKUs and may initially take a little longer to set up, it can save you time in the long run. If you plan to grow your business, the configurable product type is a good choice for products with multiple options.
+Although a configurable product uses more SKUs and may initially take a little longer to set up, it can save you time in the end. If you plan to grow your business, the configurable product type is a good choice for products with multiple options.
 
 Before you begin, prepare an [attribute set](attribute-sets.md) that includes an attribute that is set to one of the allowable input types for each product variation. For example, the attribute set might include drop-down attributes for color and size.
 
@@ -47,7 +47,7 @@ The [attribute set](attribute-sets.md) determines the selection of fields that a
 
    The form is updated to reflect the change.
 
-1. If you need to add an additional attribute to the attribute set, click **[!UICONTROL Add Attribute]** and follow the instructions in [Adding an Attribute](product-attributes-add.md).
+1. If you need to add another attribute to the attribute set, click **[!UICONTROL Add Attribute]** and follow the instructions in [Adding an Attribute](product-attributes-add.md).
 
    ![Choose template](./assets/product-create-choose-attribute-set.png)<!-- zoom -->
 
@@ -94,23 +94,23 @@ The [attribute set](attribute-sets.md) determines the selection of fields that a
 
 1. Accept the default **[!UICONTROL Visibility]** setting of `Catalog, Search`.
 
-1. To feature the product in the list of[ new products](../content-design/widget-new-products-list.md), select the **[!UICONTROL Set Product as New]** checkbox.
+1. To feature the product in the list of [new products](../content-design/widget-new-products-list.md), select the **[!UICONTROL Set Product as New]** checkbox.
 
 1. To assign Categories to the product, click the **[!UICONTROL Select…]** box and do either of the following:
 
-   - Choose an existing category:
+   **Choose an existing category**:
 
-      - Start typing in the box to find a match.
+   - Start typing in the box to find a match.
 
-      - Select the checkbox of the category that is to be assigned.
+   - Select the checkbox of the category that is to be assigned.
 
-   - Create a new category:
+   **Create a category**:
 
-      - Click **[!UICONTROL New Category]**.
+   - Click **[!UICONTROL New Category]**.
 
-      - Enter the **[!UICONTROL Category Name]** and choose the **[!UICONTROL Parent Category]** to determine its position in the menu structure.
+   - Enter the **[!UICONTROL Category Name]** and choose the **[!UICONTROL Parent Category]** to determine its position in the menu structure.
 
-      - Click **[!UICONTROL Create Category]**.
+   s- Click **[!UICONTROL Create Category]**.
 
 1. Choose the **[!UICONTROL Country of Manufacture]**.
 
@@ -124,7 +124,7 @@ This is a good time to save your work. In the upper-right corner, click **[!UICO
 
 ## Part 2: Adding configurations
 
-The following example shows how to add configurations for three colors and three sizes. In all, nine simple products will be created with unique SKUs to cover every possible combination of variations. By default, the product name and SKU for each variation is based on the attribute value and either the parent product name or SKU.
+The following example shows how to add configurations for three colors and three sizes. In all, nine simple products are created with unique SKUs to cover every possible combination of variations. By default, the product name and SKU for each variation is based on the attribute value and either the parent product name or SKU.
 
 The progress bar at the top of the page shows where you are in the process and guides you through each step.
 
@@ -144,7 +144,7 @@ The progress bar at the top of the page shows where you are in the process and g
 
    ![Select Attributes](./assets/product-create-configurable-step1.png)<!-- zoom -->
 
-1. If you need to add a new attribute, click **[!UICONTROL Create New Attribute]** and do the following:
+1. If you need to add an attribute, click **[!UICONTROL Create New Attribute]** and do the following:
 
    - Complete the attribute properties.
 
@@ -184,7 +184,7 @@ Use one of the following methods to configure the **[!UICONTROL images]**:
 
 **Method 2:** Apply unique images for each SKU
 
-Because we already uploaded an image for the parent product, we'll use this option to upload an image of each color. This is the image that will appear in the shopping cart when someone buys the shirt in a specific color.
+Because the image for the parent product is already uploaded, this example uses this option to upload an image of each color. This is the image that appears in the shopping cart when someone buys the shirt in a specific color.
 
    1. Select **[!UICONTROL Apply unique images by attribute to each SKU]**.
 
@@ -192,7 +192,7 @@ Because we already uploaded an image for the parent product, we'll use this opti
 
    1. For each attribute value, either browse to the images that you want to use for that configuration or drag them to the box.
 
-      If you drag the an image to a value box, it also appears in the sections for the other values. If you want to delete an image, click the _Trash can_ (![Trash icon](../assets/icon-delete-trashcan-solid.png)) icon.
+      If you drag the image to a value box, it also appears in the sections for the other values. If you want to delete an image, click the _Trash can_ (![Trash icon](../assets/icon-delete-trashcan-solid.png)) icon.
 
       ![Unique images per SKU](./assets/product-configurable-create-configurations-add-images-unique.png)<!-- zoom -->
 
@@ -232,11 +232,11 @@ Use one of the following methods to configure the **[!UICONTROL Quantity]**:
 
    For Multi Source merchants using [Inventory Management](../inventory-management/introduction.md), assign sources and add quantities for all generated product variants:
 
-   - Select the **[!UICONTROL Apply single quantity to each SKUs]** option.
+   - Select the **[!UICONTROL Apply single quantity to each SKU]** option.
 
    - To add a source, click **[!UICONTROL Assign Sources]**.
 
-   - Browse or search for a source you want to add. Select the checkbox next to the sources you want to add for the product.
+   - Browse or search for a source you want to add. Select the checkbox next to the sources that you want to add for the product.
 
    - Enter an on-hand inventory amount per source.
 
@@ -312,7 +312,7 @@ Scroll down and complete the information in the following sections as needed:
 
 ### Step 8: Configure the cart thumbnails
 
-If you have a different image for each variation you can set the configuration to use the correct image for the shopping cart thumbnail.
+If you have a different image for each variation, you can set the configuration to use the correct image for the shopping cart thumbnail.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -340,13 +340,13 @@ With these Stock Status relationships in mind, note the following:
 
 - When you change the **[!UICONTROL Stock Status]** of the configurable product as `Out of Stock` and click **[!UICONTROL Save]**, it is **_not controlled_** by the stock statuses of its child products. It is always displayed as `Out of Stock` in the Admin and on the storefront.
 
-- When you set the **[!UICONTROL Stock Status]** of the configurable product as `In Stock` and click **[!UICONTROL Save]**, it is **_controlled_** by the stock statuses of its child products, which is reflected in the Admin and on the storefront.
+- When you set the **[!UICONTROL Stock Status]** of the configurable product as `In Stock` and click **[!UICONTROL Save]**, it is **_controlled_** by the stock statuses of its child products, which are reflected in the Admin and on the storefront.
 
 ## Things to remember
 
-- A configurable product allows the shopper to choose options from drop-down, multiple select, visual swatch and text swatch input types. Each option is a separate, simple product.
+- A configurable product allows the shopper to choose options from drop-down, multiple select, visual swatch, and text swatch input types. Each option is a separate, simple product.
 
-- [Stock Status](../inventory-management/sources-stocks.md) for a configurable product is a semi-manually controlled setting. This is different from the stock status of the simple product, where it is a direct representation of the product availability. In the case of a configurable product, the stock status is a part of a multi-criteria stock status calculation. When child products are sold out or come back in stock, it does not automatically change the stock status for the parent configurable product.
+- [Stock Status](../inventory-management/sources-stocks.md) for a configurable product is a semi-manually controlled setting. This is different from the stock status of the simple product, where it is a direct representation of the product availability. For a configurable product, the stock status is a part of a multi-criteria stock status calculation. When child products are sold out or come back in stock, it does not automatically change the stock status for the parent configurable product.
 
 - Configurable child products can be simple or virtual products **without custom options**. To make custom child products virtual, you must select `Тhis item has no weight` for the **[!UICONTROL Weight]** setting for each of them.
 

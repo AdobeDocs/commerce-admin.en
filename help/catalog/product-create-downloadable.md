@@ -6,11 +6,11 @@ description: Learn how to create a downloadable product that can be delivered as
 
 A downloadable product can be anything that you can deliver as a file, such as an eBook, music, video, software application, or update. You can offer an album for sale and sell each song individually. You can also use a downloadable product to deliver an electronic version of your product catalog.
 
-Because the actual download is not available until after the purchase, you can provide samples, such as an excerpt from a book, a clip from an audio file, or a trailer from a video that the customer can try before purchasing the product. The files that you make available for download can be either uploaded to your server or from a different server.
+Because the download is not available until after the purchase, you can provide samples, such as an excerpt from a book, a clip from an audio file, or a trailer from a video. This is something that the customer can try before purchasing the product. The files that you make available for download can be either uploaded to your server or from a different server.
 
 ![Downloadable product](./assets/storefront-product-downloadable.png)<!-- zoom -->
 
-Downloadable products can be configured to require that the customer log in to an account to receive the link or can be sent by email and shared with others. The status of the order before the download becomes available, default values, and other delivery options are set in the configuration.
+Downloadable products can be configured to require that the customer logs in to an account to receive the link or can be sent by email and shared with others. The status of the order before the download becomes available, default values, and other delivery options are set in the configuration.
 
 ## Configure the download options
 
@@ -130,19 +130,19 @@ The form is updated to reflect the change.
 
 1. To assign _[!UICONTROL Categories]_ to the product, click the **[!UICONTROL Select…]** box and do either of the following:
 
-   - Choose an existing category:
+   **Choose an existing category**:
 
-      - Start typing in the box to find a match.
+   - Start typing in the box to find a match.
 
-      - Select the checkbox of each category that is to be assigned.
+   - Select the checkbox of each category that is to be assigned.
 
-   - Create a new category:
+   **Create a category**:
 
-      - Click **[!UICONTROL New Category]**.
+   - Click **[!UICONTROL New Category]**.
 
-      - Enter the **[!UICONTROL Category Name]** and choose the **[!UICONTROL Parent Category]** to determine its position in the [menu structure](category-root.md).
+   - Enter the **[!UICONTROL Category Name]** and choose the **[!UICONTROL Parent Category]** to determine its position in the [menu structure](category-root.md).
 
-      - Click **[!UICONTROL Create Category]**.
+   - Click **[!UICONTROL Create Category]**.
 
 1. Set **[!UICONTROL Format]** to one of the following:
 

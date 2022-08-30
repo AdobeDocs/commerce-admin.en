@@ -14,7 +14,7 @@ The _[!UICONTROL Sources]_ section of the product settings lists the sources fro
 
 1. Click **[!UICONTROL Done]**.
 
-1. Select **[!UICONTROL Source Item Status]** , fill in the **[!UICONTROL Qty]** and **[!UICONTROL Notify Qty]** fields as needed.
+1. Select **[!UICONTROL Source Item Status]** and enter the **[!UICONTROL Qty]** and **[!UICONTROL Notify Qty]** values as needed.
 
 1. click **[!UICONTROL Save]** to save the changes.
 

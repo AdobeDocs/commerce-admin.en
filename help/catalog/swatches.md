@@ -4,15 +4,15 @@ description: Learn how to define swatches for your configurable product listings
 ---
 # Product swatches
 
-Customers have high expectations when it comes to color, and it is crucial that product descriptions accurately represent each available color, pattern, or texture. For example, the capris in the illustration below are not simply available in red, green, and blue. Rather, they are available only in very specific shades of red, green, and blue, which are probably unique to this product.
+Customers have high expectations for choosing a color, and it is crucial that product descriptions accurately represent each available color, pattern, or texture. For example, the pants in the following example are not available in red, green, and blue. Rather, they are available only in specific shades of red, green, and blue, which are probably unique to this product.
+
+![Swatches on a product page](./assets/storefront-color-swatches.png)<!-- zoom -->
 
 For [configurable products](product-create-configurable.md), color can be indicated by a visual swatch, text swatch, or input control. Swatches can be used on the product page, in product listings, and in [layered navigation](navigation-layered.md). On the product page, swatches are synchronized to display the corresponding product image when the swatch is selected. When the customer selects the swatch, the corresponding value appears in the input field and the swatch is outlined as the current selection.
 
 >[!NOTE]
 >
 >Swatch attributes can be configured to not display corresponding simple product images when the swatch is selected by setting the _[!UICONTROL Update Product Preview Image]_ option value to `No` on the [!UICONTROL Attribute Edit] page in the Admin.
-
-![Swatches on a product page](./assets/storefront-color-swatches.png)<!-- zoom -->
 
 ## Text-based swatches
 
@@ -22,7 +22,7 @@ If an image isn't available for a swatch, the attribute value appears as text. A
 
 ## Swatches in layered navigation
 
-Swatches can also be used in layered navigation, provided that the Use in **Layered Navigation** property of the color attribute is set to `Yes`. The following example shows both text-based and color image swatches in layered navigation.
+Swatches can also be used in layered navigation, if the Use in **Layered Navigation** property of the color attribute is set to `Yes`. The following example shows both text-based and color image swatches in layered navigation.
 
 ![Swatches in layered navigation](./assets/storefront-swatches-layered-navigation.png)<!-- zoom -->
 
@@ -31,7 +31,7 @@ Swatches can also be used in layered navigation, provided that the Use in **Laye
 
 Swatches can be defined as a component of the `color` attribute or set up locally for a specific product and uploaded as [product images](product-image.md#upload-an-image).
 
-In the earlier examples, the Sylvia Capris are available in specific values of `red`, `green`, and `blue`. Because the swatches were taken from the product image, each is a true representation of the color. The `color` attribute is used to manage the information for all product colors and swatches.
+In the earlier examples, the "Sylvia Capri" pants are available in specific values of `red`, `green`, and `blue`. Because the swatches were taken from the product image, each is a true representation of the color. The `color` attribute is used to manage the information for all product colors and swatches.
 
 ## Step 1: Create the swatches
 
@@ -87,7 +87,7 @@ Use either of the following methods to create swatches for your products.
 
    If needed, you can repeat this for each variation of the product.
 
-   The size and dimensions of the swatch is determined by the theme. As a general rule, saving an image as a square helps to preserve the aspect ratio of a pattern.
+   The size and dimensions of the swatch is determined by the theme. Generally, saving an image as a square helps to preserve the aspect ratio of a pattern.
 
    ![Swatch images](./assets/swatch-samples.png)<!-- zoom -->
 
@@ -135,7 +135,7 @@ Use either of the following methods to create swatches for your products.
 
 1. Set **[!UICONTROL Actions]** to `Update Attributes`.
 
-   In this example, all blue capris are selected.
+   In this example, all blue capri pants are selected.
 
    ![Update product swatch attributes](./assets/swatch-apply-update-attributes.png)<!-- zoom -->
 
@@ -157,7 +157,7 @@ Use either of the following methods to create swatches for your products.
 
 1. Click **[!UICONTROL Create Configurations]** button (under the `Configurations` tab).
 
-1. In the pop up window choose the Color attribute and **[!UICONTROL Next]**.
+1. In the pop-up window, choose the Color attribute and **[!UICONTROL Next]**.
 
 1. Select color swatches from the attribute that you want to include in this product.
 
@@ -165,7 +165,7 @@ Use either of the following methods to create swatches for your products.
 
 1. [Configure the images, price, and quantity](product-create-configurable.md#step-3-configure-the-images-price-and-quantity).
 
-   On this step set the images, pricing, and quantity of each configuration. The available options are the same for each, and you can choose only one. You can apply the same setting to all SKUs, apply a unique setting to each SKU, or skip the settings for now.
+   On this step, set the images, pricing, and quantity of each configuration. The available options are the same for each, and you can choose only one. You can apply the same setting to all SKUs, apply a unique setting to each SKU, or skip the settings for now.
 
 1. When configuration for images, price, and quantity are complete, click **[!UICONTROL Next]** in the upper-right corner.
 

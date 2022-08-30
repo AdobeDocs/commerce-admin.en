@@ -62,7 +62,7 @@ The form is updated to reflect the change.
 
    - To charge a fixed price for the bundle, set **[!UICONTROL Dynamic Price]** to `No` and enter the **[!UICONTROL Price]** that you want to charge for the bundle.
 
-1. Because the product is not yet ready to publish, set set **[!UICONTROL Enable Product]** to `No`.
+1. Because the product is not yet ready to publish, set **[!UICONTROL Enable Product]** to `No`.
 
 1. click **[!UICONTROL Save]** and continue.
 
@@ -107,7 +107,7 @@ The form is updated to reflect the change.
 
    - Select the checkbox of each category that is to be assigned.
 
-   **Create a new category:**
+   **Create a category:**
 
    - Click **[!UICONTROL New Category]**.
 
@@ -176,7 +176,7 @@ The _[!UICONTROL Bundle Items]_ section is used to add items to a Bundle product
 
       ![Item Detail](./assets/product-bundle-item-detail.png)<!-- zoom -->
 
-1. Repeat these steps for each item you want to add to the bundle.
+1. Repeat these steps for each item that you want to add to the bundle.
 
 1. To change the order of items in a bundle section, click the _Move_ ( ![Move icon](../assets/icon-move.png) ) icon at the beginning of the row and drag the item into position.
 
@@ -234,7 +234,7 @@ Scroll down and complete the information in the following sections as needed:
 |Control|Description|Example|
 |--- |--- |--- |
 |[!UICONTROL Drop-down]|Displays a drop-down list of options with the product name and price. Only one item can be selected.|![Drop-down](./assets/product-bundle-input-type-drop-down.png)<!-- zoom -->|
-|[!UICONTROL Radio Buttons]|Displays a radio button for each option, followed by the product name and price.  Only one item can be selected.|![Radio Buttons](./assets/product-bundle-input-type-radio-buttons.png)<!-- zoom -->|
+|[!UICONTROL Radio Buttons]|Displays a radio button for each option, followed by the product name and price. Only one item can be selected.|![Radio Buttons](./assets/product-bundle-input-type-radio-buttons.png)<!-- zoom -->|
 |[!UICONTROL Checkbox]|Displays a checkbox for each option, followed by the product name and price. Multiple items can be selected.|![Checkbox](./assets/product-bundle-input-type-checkbox.png)<!-- zoom -->|
 |[!UICONTROL Multiple Select]|Displays a list of options with the product name and price. To select multiple items, hold down the Ctrl key (PC) or the Command key (Mac) and click each item.|![Multiple Select](./assets/product-bundle-input-type-multiple-select.png)<!-- zoom -->|
 

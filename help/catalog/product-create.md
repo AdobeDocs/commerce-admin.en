@@ -4,15 +4,15 @@ description: Learn about the types of products that you can create for your cata
 ---
 # Create a product
 
-Choosing a product type is one of the first things you must do to create a new product. If you are just beginning to construct your product catalog, you can create a few sample products to experiment with each product type. In addition to the basic product types, the term _complex product_ is sometimes used to refer to products with multiple options, such as a configurable product that is available in various colors and sizes.
+Choosing a product type is one of the first things that you must do to create a product. If you are just beginning to construct your product catalog, you can create a few sample products to experiment with each product type. In addition to the basic product types, the term _complex product_ is sometimes used to refer to products with multiple options, such as a configurable product that is available in various colors and sizes.
 
 >[!NOTE]
 >
->For a deeper understanding, refer to catalog [navigation](navigation.md), how to set up [categories](categories.md) and [attributes](product-attributes.md), and the catalog [URL options](catalog-urls.md) that are available. After you understand these concepts, the most efficient way to add a large number of products to the catalog is to [import](https://docs.magento.com/user-guide/system/data-import.html) them from a CSV file.
+>For a deeper understanding, refer to catalog [navigation](navigation.md), how to set up [categories](categories.md) and [attributes](product-attributes.md), and the catalog [URL options](catalog-urls.md) that are available. After you understand these concepts, the most efficient way to add many products to the catalog is to [import](https://docs.magento.com/user-guide/system/data-import.html) them from a CSV file.
 
 ![Product page on the storefront](./assets/storefront-product-page.png)<!-- zoom -->
 
-**[Simple product](product-create-simple.md)** - A simple product is a physical item with a single SKU. Simple products have a variety of pricing and of input controls which makes it possible to sell variations of the product. Simple products can be used in association with grouped, bundle, and configurable products.
+**[Simple product](product-create-simple.md)** - A simple product is a physical item with a single SKU. Simple products have various pricing and of input controls which makes it possible to sell variations of the product. Simple products can be used in association with grouped, bundle, and configurable products.
 
 **[Configurable product](product-create-configurable.md)** - A configurable product appears to be a single product with lists of options for each variation. However, each option represents a separate, simple product with a distinct SKU, which makes it possible to track inventory for each variation.
 
@@ -24,7 +24,7 @@ Choosing a product type is one of the first things you must do to create a new p
 
 **[Downloadable product](product-create-downloadable.md)** - A digitally downloadable product consists of one or more files that are downloaded. The files can reside on your server or be provided as URLs to any other server.
 
-**[Gift card](product-gift-card-create.md)** - ([Adobe Commerce](../landing/home.md#product-editions) only) There are three kinds of gift cards: virtual gift cards that are sent by email, physical gift cards that are shipped to the recipient, and combined gift cards that are a combination of the two. Each has a unique code, which is redeemed during checkout. Gift cards can also be included in a grouped product.
+**[Gift card](product-gift-card-create.md)** - ([Adobe Commerce](../landing/home.md#product-editions) only) There are three kinds of gift cards. _Virtual_ gift cards are sent by email. _Physical_ gift cards are shipped to the recipient. _Combined_ gift cards that are a combination of virtual and physical. Each has a unique code, which is redeemed during checkout. Gift cards can also be included in a grouped product.
 
 The most frequently used product settings and attributes are located at the top of the page, followed by custom attributes. Any other product settings are in expandable sections at the bottom of the page.
 

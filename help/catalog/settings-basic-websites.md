@@ -18,7 +18,7 @@ To copy a product to a different website:
 
 1. Select the checkbox of the website where you want to place the copied product.
 
-   For an single website installation, the website checkbox is selected by default.
+   For a single website installation, the website checkbox is selected by default.
 
 1. Choose the **[!UICONTROL Store View]** where you want to make a copy of the existing product.
 

@@ -4,11 +4,11 @@ description:  Learn about using the [!UICONTROL Products in Category] settings t
 ---
 # Category product assignments
 
-For a category, the _[!UICONTROL Products in Category]_ section lists the products that are currently assigned to the category. The search filters at the top of each column are used to add and remove products from the category. You can also use [category rules](https://docs.magento.com/user-guide/catalog/category-product-rules.html) ( ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce only) to dynamically change the product selection when a set of conditions is met. To learn more, see [Visual Merchandiser](https://docs.magento.com/user-guide/marketing/visual-merchandiser.html).
+For a category, use the _[!UICONTROL Products in Category]_ section to review the products that are currently assigned to the category. The search filters at the top of each column are used to add and remove products from the category. You can also use [category rules](https://docs.magento.com/user-guide/catalog/category-product-rules.html) ( ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce only) to dynamically change the product selection when a set of conditions is met. To learn more, see [Visual Merchandiser](https://docs.magento.com/user-guide/marketing/visual-merchandiser.html).
 
 >[!TIP]
 >
->During category rule setup, the products are _sorted_, _matched_, _assigned_, and _unassigned_ according to that rule **_only_** when this category is saved. For example, if you add a new product to the catalog and want to assign it according to the rule, you **must re-save each category** that is set to match products by rule to ensure that the new product is assigned. Also, if any product stock status is changed to `In Stock` or `Out of Stock` and products in the category should be _sorted_ according to the **Automatic Sorting** rule, you must click **[!UICONTROL Save Category]** as well.
+>During category rule setup, the products are _sorted_, _matched_, _assigned_, and _unassigned_ according to that rule **_only_** when this category is saved. For example, if you add a product to the catalog and want to assign it according to the rule, you **must resave each category** that is set to match products by rule to ensure that the new product is assigned. Also, if any product stock status is changed to `In Stock` or `Out of Stock` and products in the category are _sorted_ according to the **Automatic Sorting** rule, you must click **[!UICONTROL Save Category]**.
 
 ![Category Products](./assets/category-products-in-category.png)<!-- zoom -->
 
@@ -46,7 +46,7 @@ For a category, the _[!UICONTROL Products in Category]_ section lists the produc
 
    ![Add Condition to Category Rule](./assets/category-rule-create.png)<!-- zoom -->
 
-   Repeat this process for each attribute that is needed to describe the condition(s) to be met. For example, to match products that were created between 7 and 30 days ago, do the following:
+   Repeat this process for each attribute that is needed to describe the conditions to be met. For example, to match products that were created from 7 through 30 days ago, do the following:
 
    - Set **[!UICONTROL Date Created]** to `Less than 30`.
    - Set **[!UICONTROL Logic]** to `AND`.
@@ -70,14 +70,14 @@ For a category, the _[!UICONTROL Products in Category]_ section lists the produc
 |--- |--- |
 |[!UICONTROL Attribute]|Determines the attribute that is used as the basis of the condition. Options: <br/>**[!UICONTROL Clone Category ID(s)]** - Dynamically clones products, without their sorting and order, from multiple categories based on Category ID. <br/>**[!UICONTROL Color]** - Includes products based on color. <br/>**[!UICONTROL Date Created (days ago)]** - Includes products based on the number of days since the products were added to the catalog. <br/>**[!UICONTROL Date Modified (days ago)]** - Includes products based on the number of days since the products were last modified. <br/>**[!UICONTROL Name]** - Includes products based on the product name. <br/>**[!UICONTROL Price]** - Includes products based on price. <br/>**[!UICONTROL Quantity]** - Includes products based on the quantity in stock. <br/>**SKU** - Includes products based on SKU.|
 |[!UICONTROL Operator]|Specifies the operator that is applied to the attribute value to meet the condition. Unless an operator is specified, `Equal` is used as the default. Options: `Equal` / `Not equal` / `Greater than` / `Greater than or equal to` / `Less than` / `Less than or equal to` / `Contains`|
-|[!UICONTROL Value]|Specifies the value  the attribute must have to meet the condition.|
-|[!UICONTROL Logic]|Used to define multiple conditions, and appears only when an additional condition is added. Options: `OR` / `AND`|
+|[!UICONTROL Value]|Specifies the value that the attribute must have to meet the condition.|
+|[!UICONTROL Logic]|Used to define multiple conditions, and appears only when another condition is added. Options: `OR` / `AND`|
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->The quantity of a configurable product with child options is calculated by combining all the salable child product quantities. For example, if you have a configurable product _Nona Fitness Tank_ with purple, red, and yellow color options and different quantities of each, the parent product (Nona Fitness Tank) quantity is the combined salable quantity of the purple, red, and yellow color child products.
+>The quantity of a configurable product with child options is calculated by combining all the salable child product quantities. For example, if you have a configurable product _Endurance Fitness Tank_ with purple, red, and yellow color options with different quantities of each, the parent product quantity is the combined salable quantity of the purple, red, and yellow color child products.
 
 ## Controls
 

@@ -4,7 +4,7 @@ description: For a product, the [!UICONTROL Images and Videos] settings determin
 ---
 # Product settings - [!UICONTROL Images and Videos]
 
-From the _[!UICONTROL Images and Videos]_ section, you can perform basic image management tasks such as upload multiple images, rearrange the order of images, and control how each image is used. For additional control over individual images, you can open each image in _detail view_. For more information, see [Catalog Images and Video](catalog-images-video.md).
+From the _[!UICONTROL Images and Videos]_ section, you can perform basic image management tasks such as upload multiple images, rearrange images, and control how each image is used. For additional control over individual images, you can open each image in _detail view_. For more information, see [Catalog Images and Video](catalog-images-video.md).
 
 ## Upload a new image
 
@@ -24,7 +24,7 @@ A [placeholder](product-image-config.md#image-placeholders) image appears in the
 
 ## Image Detail
 
-As you add product images, you can customize the display in the  customize the display in the _[!UICONTROL Image Detail]_ window.
+As you add product images, you can customize the image display in the _[!UICONTROL Image Detail]_ window.
 
 ![Product images](./assets/image-video.png)<!-- zoom -->
 

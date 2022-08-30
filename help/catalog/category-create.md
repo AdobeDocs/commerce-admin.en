@@ -4,7 +4,7 @@ description: You can create as many additional subcategories as needed, accordin
 ---
 # Create categories
 
-The category structure of your catalog is like an upside-down tree, with the root at the top. Each section of the tree can be expanded and collapsed. Any disabled or hidden categories are grayed out. The first level of categories below the [root](category-root.md) typically appear as options in the [main menu](navigation-top.md). You can create as many additional subcategories as needed, according to the maximum menu depth that is set in the configuration. Categories can be dragged and dropped to other locations in the tree. The category ID number appears in parentheses after the category name at the top of the page.
+The category structure of your catalog is like an upside-down tree, with the root at the top. Each section of the tree can be expanded and collapsed. Any disabled or hidden categories are grayed out. The categories at the first level (below the [root](category-root.md)) typically appear as options in the [main menu](navigation-top.md). You can create as many additional subcategories as needed, according to the maximum menu depth that is set in the configuration. Categories can be dragged and dropped to other locations in the tree. The category ID number appears in parentheses after the category name at the top of the page.
 
 For a website with multiple [stores](https://docs.magento.com/user-guide/stores/stores-all-create-store.html), you can create a different root category for each store that defines the set of categories that is used for the [top navigation](navigation-top.md).
 
@@ -16,17 +16,29 @@ Use these best practices when you plan and create categories.
 
 ### Category structure
 
-The structure of the categories in the main menu can impact customer experience and performance. As a best practice, it is usually best to identify one over-arching top-level category, and avoid having other categories with the same name. For example, rather than having multiple categories for "Women" organized under different departments, such as `Clothing/Women`, `Shoes/Woman`, `Hats/Women`. It can be more efficient to make the top-level parent category `Women`, and then create subcategories as needed below. Be consistent with the category structure, and use the same approach for all product types in your catalog.
+The structure of the categories in the main menu can impact customer experience and performance. As a best practice, you should identify one over-arching top-level category, and avoid having other categories with the same name. For example, rather than having multiple categories for "Kids" organized under different departments, such as `Clothing/Kids`, `Shoes/Kids`, `Accessories/Kids`. It can be more efficient to make the top-level parent category `Kids`, and then create subcategories as needed below. Be consistent with the category structure, and use the same approach for all product types in your catalog.
 
 ### Business rules and automation
 
-Consider the category structure and available attribute values when using business logic to show similar items on a catalog page, or to set up a personalized promotion, automated process,  or search criteria. For example, if you were to specify  "polo" as a parent category, the results might include  mixed gender and age-inappropriate products. However, if you were to match a specific subcategory of polo shirts, the results would be more narrow and likely to appeal to a specific customer — especially when combined with other attribute values that target a specific customer. Consider the number of products that must be filtered through and retrieved when referencing a specific category path. The difference in results can be dramatic. Consider the different results returned by the following category paths:
+Consider the category structure and available attribute values when using business logic to show similar items on a catalog page, or to set up a personalized promotion, automated process,  or search criteria. For example, if you specify  "polo" as a parent category, the results might include  mixed gender and age-inappropriate products. However, if you match a specific subcategory of polo shirts, the results are more narrow and likely to appeal to a specific customer. The results can be even more specific when combined with other attribute values that target a specific customer. Consider the number of products that must be filtered through and retrieved when referencing a specific category path. The difference in results can be dramatic. Consider the different results returned by the following category paths:
 
 - `[Category:  All Products/Shirts/Father's Day/Polos/Sale]`
 - `[Category Path: Men/Shirts/Polos]`
 - `[Child Category: Polos]`
 
-It's important to clearly define categorical relationships such as parent category, sub category, category path, and any associated keywords and attributes such as availability, sale price, brand, size and color.
+It is important to clearly define categorical relationships, such as:
+
+- parent category
+- sub category
+- category path
+
+Also define any associated keywords and attributes, such as:
+
+- availability
+- sale price
+- brand
+- size
+- color
 
 ## Step 1: Create a category
 
@@ -60,7 +72,7 @@ It's important to clearly define categorical relationships such as parent catego
 
    ![Category content](./assets/category-content.png)<!-- zoom -->
 
-1. To display a **[!UICONTROL Category Image]** at the top of the page, you can either upload your own image or use an image that already exists in the [Media Storage](../content-design/media-storage.md).
+1. To display a **[!UICONTROL Category Image]** at the top of the page, you can either upload your own image or use an image that exists in the [Media Storage](../content-design/media-storage.md).
 
    - To upload your own image, click **[!UICONTROL Upload]** and choose the image that you want to represent the category.
 
@@ -68,7 +80,7 @@ It's important to clearly define categorical relationships such as parent catego
 
    >[!NOTE]
    >
-   >Inside the Media Gallery, you can also leverage the [Adobe Stock Integration](../content-design/adobe-stock.md) to find an appropriate image by clicking **[!UICONTROL Search Adobe Stock]**.
+   >Inside the Media Gallery, you can also use the [Adobe Stock Integration](../content-design/adobe-stock.md) to find an appropriate image by clicking **[!UICONTROL Search Adobe Stock]**.
 
 1. For **[!UICONTROL Description]**, enter the text or other content that you want to appear on the category landing page.
 

@@ -6,7 +6,7 @@ description: Learn about managing image and video assets for your product listin
 
 For each product, you can upload multiple images and videos, rearrange their order, and control how each is used. If you have a large quantity of images to manage, you may prefer to import them as a batch, rather than upload each one individually. For more information, see [Import product images](https://docs.magento.com/user-guide/system/data-import-product-images.html).
 
-If you plan to upload large images for viewing on the _[!UICONTROL Product Details]_ page, you may want to consider setting a maximum pixel size (width and height) and automatically resize the files prior to upload. We provide an option to enable automatic resizing of larger image files as you upload. For more information, see [Product image resizing](product-image-config.md#product-image-resizing).
+If you plan to upload large images for viewing on the _[!UICONTROL Product Details]_ page, you may want to consider setting a maximum pixel size (width and height) and automatically resize the files at upload. We provide an option to enable automatic resizing of larger image files as you upload. For more information, see [Product image resizing](product-image-config.md#product-image-resizing).
 
 ## Update the product images
 

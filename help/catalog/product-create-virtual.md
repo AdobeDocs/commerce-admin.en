@@ -4,13 +4,13 @@ description: Learn how to create a virtual product that represents a non-tangibl
 ---
 # Virtual product
 
-Virtual products, or digital goods, represent non-tangible items such as memberships, services, warranties, or subscriptions and digital downloads of books, music, videos, or other products. Virtual products can be sold individually or included as part of the [Grouped Product](product-create-grouped.md), [Configurable Product](product-create-configurable.md) or [Bundle Product](product-create-bundle.md) product types.
+Virtual products, or digital goods, represent non-tangible items such as memberships, services, warranties, or subscriptions and digital downloads of books, music, videos, or other products. Virtual products can be sold individually or included as part of the [Grouped Product](product-create-grouped.md), [Configurable Product, or [Bundle Product](product-create-bundle.md) product types.
 
 Aside from the absence of the _[!UICONTROL Weight]_ field, the process of creating a virtual product and a simple product is the same. The following instructions demonstrate the process of creating a virtual product using a [product template](attribute-sets.md), required fields, and basic settings. When you finish the basics, you can complete the other product settings as needed.
 
 >[!NOTE]
 >
->PayPal has deprecated support for the sale of digital goods through PayPal Express Checkout and recommends that you use either [PayPal Payments Standard](https://docs.magento.com/user-guide/payment/paypal-payments-standard.html) or any other PayPal payment gateway to process any order that includes virtual products.
+>PayPal has deprecated support for the sale of digital goods through PayPal Express Checkout. They recommend that you use either [PayPal Payments Standard](https://docs.magento.com/user-guide/payment/paypal-payments-standard.html) or any other PayPal payment gateway to process any order that includes virtual products.
 
 ![Virtual Product](./assets/product-virtual-membership.png)<!-- zoom -->
 
@@ -73,21 +73,21 @@ The form is updated to reflect the change.
 
 1. To assign **[!UICONTROL Categories]** to the product, click the **[!UICONTROL Select…]** box and do either of the following:
 
-   - Choose an existing category:
+   **Choose an existing category**:
 
-      - Start typing in the box to find a match.
+   - Start typing in the box to find a match.
 
-      - Select the checkbox of the category that is to be assigned.
+   - Select the checkbox of the category that is to be assigned.
 
-   - Create a new category:
+   **Create a category**:
 
-      - Click **[!UICONTROL New Category]**.
+   - Click **[!UICONTROL New Category]**.
 
-      - Enter the **[!UICONTROL Category Name]** and choose the **[!UICONTROL Parent Category]** to determine its position in the menu structure.
+   - Enter the **[!UICONTROL Category Name]** and choose the **[!UICONTROL Parent Category]** to determine its position in the menu structure.
 
-      - Click **[!UICONTROL Create Category]**.
+   - Click **[!UICONTROL Create Category]**.
 
-      There might be additional individual attributes that describe the product. The selection varies by attribute set and you can complete them later.
+   There might be additional individual attributes that describe the product. The selection varies by attribute set and you can complete them later.
 
 ### Assign sources and quantities ([!DNL Inventory Management])
 

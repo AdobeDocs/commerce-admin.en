@@ -6,7 +6,7 @@ description: Learn about the Quick Search and Advanced Search tools that custome
 
 >[!TIP]
 >
->[Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) delivers a lightning fast, super-relevant, and intuitive search experience and is available for Adobe Commerce at no additional charge. This section describes the standard search functionality that might differ from Live Search.
+>[Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) delivers a fast, super-relevant, and intuitive search experience and is available for Adobe Commerce at no additional charge. This section describes the standard search functionality that might differ from Live Search.
 
 Research shows that people who use search are more likely to make a purchase than those who rely on navigation alone. In fact, according to some studies, people who use search are nearly twice as likely to make a purchase.
 
@@ -16,7 +16,7 @@ The following sections describe how customers search for products in your catalo
 
 >[!NOTE]
 >
->When [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-storefront/quick-tour.html) is installed, the search box returns "search as you type" results in a popover.
+>When [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-storefront/quick-tour.html) is installed, the search box returns "search as you type" results in a pop over.
 
 The Search box in the header of the store helps visitors find products in your catalog. The search text can be the full or partial product name or any other word or phrase that describes the product. The search terms that people use to find products can be managed from the Admin.
 
@@ -38,7 +38,7 @@ Advanced Search lets shoppers search the catalog based on values entered into a 
 
 ![Advanced Search](./assets/storefront-search-advanced.png)<!-- zoom -->
 
-Each field in the form corresponds to an attribute from your product catalog. To add a field, set the frontend properties of the attribute to `Include in Advanced Search`. As a best practice, include only the fields that customers are most likely to use to find a product, because having too many will slow down the search.
+Each field in the form corresponds to an attribute from your product catalog. To add a field, set the frontend properties of the attribute to `Include in Advanced Search`. As a best practice, include only the fields that customers are most likely to use to find a product, because having too many slows down the search.
 
 1. In the footer of the store, the customer clicks **[!UICONTROL Advanced Search]**.
 
@@ -79,7 +79,7 @@ The following example uses keyword mapping based on SKU. When either SKU is ente
 - Montana Wind Jacket (MJ03)
 - Chaz Kangaroo Hoodie (MH01)
 
-#### Step 1: Create a new attribute
+#### Step 1: Create an attribute
 
 1. In the _[!UICONTROL Products]_ list, open the `Montana Wind Jacket` (MJ03) in edit mode.
 1. In the upper-right corner, click **[!UICONTROL Add Attribute]**.

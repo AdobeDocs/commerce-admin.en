@@ -10,20 +10,20 @@ When viewed from the Admin, attributes are the fields that you complete when you
 
 |Property|Description|
 |--- |--- |
-|[!UICONTROL Text Field]|A single line input field for text.|
+|[!UICONTROL Text Field]|A single-line input field for text.|
 |[!UICONTROL Text Area]|A multiple-line input field for entering paragraphs of text, such as a product description. You can use the WYSIWYG Editor to format the text with HTML tags, or enter the tags directly into the text.|
-|[!UICONTROL Text Editor]|A fully-functioning text editor at the attribute location.|
-|[!UICONTROL Date]|Displays a date value in the [preferred format](#date-and-time-options) and [time zone](https://docs.magento.com/user-guide/stores/locale-options.html). Date values can be selected from a list or a calendar ( ![Calendar icon](../assets/icon-calendar.png) ). <br/><br/>**_Note:_** Depending on your system configuration, _Admin_ users can enter dates directly into a field or select a date from the calendar or list. For information about specifying date and time values, see [Date and Time Custom Options](https://docs.magento.com/user-guide/stores/attribute-date-time-options.md).|
+|[!UICONTROL Text Editor]|A fully functioning text editor at the attribute location.|
+|[!UICONTROL Date]|Displays a date value in the [preferred format](#date-and-time-options) and [time zone](https://docs.magento.com/user-guide/stores/locale-options.html). Date values can be selected from a list or a calendar ( ![Calendar icon](../assets/icon-calendar.png) ). <br/><br/>**_Note:_** Depending on your system configuration, _Admin_ users can enter dates directly into a field or select a date from the calendar or list. For information about specifying date and time values, see [Date and Time Custom Options](https://docs.magento.com/user-guide/stores/attribute-date-time-options.html).|
 |[!UICONTROL Date and Time]|Displays a date and time value in the [preferred format](https://docs.magento.com/user-guide/stores/attribute-date-time-options.html) and [time zone](https://docs.magento.com/user-guide/stores/locale-options.html). The date and time can be entered manually or selected from a calendar. Example format: MM/DD/YYYY HH:MM|
 |[!UICONTROL Yes/No]|Displays a drop-down list with pre-defined options of `Yes` and `No`.|
 |Dropdown|Displays a drop-down list of values that accepts only a single selection. The Dropdown input type is a key component of [configurable products](https://docs.magento.com/user-guide/catalog/product-create-configurable.html).|
 |[!UICONTROL Multiple Select]|Displays a drop-down list of values that accepts multiple selections.|
 |[!UICONTROL Price]|This input type is used to create price fields that are in addition to the predefined attributes: Price, Special Price, Tier Price, and Cost. The currency used is determined by your system configuration.|
-|[!UICONTROL Media Image]|Associates an additional image with a product, such as a product logo, care instructions, or ingredients from a food label. When you add a media image attribute to the attribute set of a product, it becomes an additional image type, along with Base, Small, and Thumbnail. The media image attribute can be excluded from the [storefront media browser](catalog-images-video.md#storefront-media-browser).|
+|[!UICONTROL Media Image]|Associates an extra image with a product, such as a product logo, care instructions, or ingredients from a food label. When you add a media image attribute to the attribute set of a product, it becomes an extra image type, along with Base, Small, and Thumbnail. The media image attribute can be excluded from the [storefront media browser](catalog-images-video.md#storefront-media-browser).|
 |[!UICONTROL Fixed Product Tax]|Lets you define [FPT rates](https://docs.magento.com/user-guide/tax/fixed-product-tax.html) based on the requirements of your locale.|
 |[!UICONTROL Visual Swatch]|Displays a swatch that depicts the color, texture, or pattern of a configurable product. A [visual swatch](swatches.md) can be filled with a hexadecimal color value, or display an uploaded image that represents the color, material, texture, or pattern of the option.|
 |[!UICONTROL Text Swatch]|A text-based representation of a configurable product option that is frequently used for size. [Text swatches](swatches.md) can also include hexadecimal color values.|
-|[!UICONTROL Page Builder]|A fully-functioning [[!DNL Page Builder]](../page-builder/workspace.md) workspace at the attribute location that makes it easy to add engaging content to the product page.|
+|[!UICONTROL Page Builder]|A [[!DNL Page Builder]](../page-builder/workspace.md) workspace at the attribute location that makes it easy to add engaging content to the product page.|
 
 {style="table-layout:auto"}
 

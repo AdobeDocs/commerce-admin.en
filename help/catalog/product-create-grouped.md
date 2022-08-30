@@ -6,9 +6,9 @@ description: Learn how to create a grouped product that consists of simple stand
 
 A grouped product consists of simple standalone products that are presented as a group. You can offer variations of a single product or group them by season or theme. Presenting a grouped product can create an incentive for customers to purchase additional items. A grouped product provides an easy way to offer variations of a product and list them all on the same page.
 
-For example, you might sell open stock flatware and list every type of utensil that is used in a formal place setting. Some might order multiple salad forks, fish forks, dinner forks, dinner knives, fish knives, butter knives, soup spoons, and dessert spoons. Other customers might order a simple fork, knife, and spoon. Customers can order as many of each item as they want.
+For example, you might sell open stock flatware and list every type of utensil that is used in a formal place setting. Some might order multiple salad forks, fish forks, dinner forks, dinner knives, fish knives, butter knives, soup spoons, and dessert spoons. Other customers might order a simple fork, knife, and spoon. Customers can order any number of each item as they want.
 
-Although they are presented as a group, each product in the group is purchased as a separate item. In the shopping cart, each item and the quantity purchased appears a separate line item.
+Although they are presented as a group, each product in the group is purchased as a separate item. In the shopping cart, each item and the quantity purchased is displayed as a separate line item.
 
 The following instructions demonstrate the process of creating a grouped product using a [product template](attribute-sets.md), required fields, and basic settings. Each required field is marked with a red asterisk (`*`). When you finish the basics, you can complete the other product settings as needed.
 
@@ -75,7 +75,7 @@ To add an existing attribute to the product, use the [filter controls](https://d
 
    - Select the checkbox of the category that is to be assigned.
 
-   **Create a new category:**
+   **Create a category:**
 
    - Click **[!UICONTROL New Category]**.
 
@@ -142,7 +142,7 @@ Complete the information in the following sections as needed:
 
 1. Do one of the following:
 
-   **Method 1:**: Save and Preview
+   **Method 1:** Save and Preview
 
    - In the upper-right corner, click **[!UICONTROL Save]**.
 

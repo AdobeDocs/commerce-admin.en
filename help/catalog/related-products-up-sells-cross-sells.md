@@ -4,7 +4,7 @@ description: For a product, the [!UICONTROL Related Products, Up-Sells, and Cros
 ---
 # Product settings - [!UICONTROL Related Products, Up-Sells, and Cross-Sells]
 
-The _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_ section is used to set up simple promotional blocks that present a selection of additional products that might be of interest to the customer. For more information, see [Product Relationships](https://docs.magento.com/user-guide/marketing/product-relationships.html).
+Use the _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_ section to set up simple promotional blocks that present a selection of additional products that might be of interest to the customer. For more information, see [Product Relationships](https://docs.magento.com/user-guide/marketing/product-relationships.html).
 
 ![Related Products, Up-Sells, and Cross-Sells](./assets/product-related-up-sell-cross-sell.png)<!-- zoom -->
 
@@ -20,6 +20,8 @@ Every block consists of a list of products which belong to a specific option.
 |[!UICONTROL SKU]|The unique Stock Keeping Unit that is assigned to the product.|
 |[!UICONTROL Price]|The unit price of the product.|
 |[!UICONTROL Action]|Options: `Remove`. Removes a product from the block.|
+
+{style="table-layout:auto"}
 
 ## Related Products
 
@@ -47,7 +49,7 @@ To set up related products:
 
 ## Up-sells
 
-Up-sell products are items that your customer might prefer instead of the product currently considered. An item offered as an up-sell might be of a higher quality, more popular, or have better profit margin. Up-sell products appear on the product page under a heading such as _You may also be interested in the following products_.
+Up-sell products are items that your customer might prefer instead of the product currently considered. An item offered as an up sell might be of a higher quality, more popular, or have better profit margin. Up-sell products appear on the product page under a heading such as _You may also be interested in the following products_.
 
 ![Up-Sell](./assets/storefront-product-upsell.png)<!-- zoom -->
 

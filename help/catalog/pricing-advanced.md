@@ -4,7 +4,7 @@ description: Learn about the advanced pricing controls available in Adobe Commer
 ---
 # Advanced Pricing
 
-Adobe Commerce and Magento Open Source support a number of pricing options that you can use for promotions, or to meet the minimum advertised pricing requirements of the manufacturer. Changes to product pricing can be made on schedule, or by price rule that is applied at the product level or in the shopping cart.
+Adobe Commerce and Magento Open Source support various pricing options that you can use for promotions, or to meet the minimum advertised pricing requirements of the manufacturer. Changes to product pricing can be made on schedule, or by price rule that is applied at the product level or in the shopping cart.
 
 Manage prices for your products with advanced pricing to offer customers better rates that encourage consumers to spend more, drive the traffic to your site, and clear old stock.
 
@@ -44,8 +44,8 @@ Enter the special price to offer a discounted price during a specified time peri
 
 | Field | Description |
 | ---- | ----------- |
-|[!UICONTROL From]|Sets the first date the Special Price is available. You can either enter the date or select it from the calendar.|
-|[!UICONTROL To]|Sets the last date the Special Price is available. You can either enter the date or select it from the calendar.|
+|[!UICONTROL From]|Sets the first date that the Special Price is available. You can either enter the date or select it from the calendar.|
+|[!UICONTROL To]|Sets the last date that the Special Price is available. You can either enter the date or select it from the calendar.|
 
 {style="table-layout:auto"}
 
@@ -66,7 +66,7 @@ Sets up promotional and tier prices for specific customer groups.
 |[!UICONTROL Quantity]|Specifies the quantity that is required to receive a tier price.|
 |[!UICONTROL Price]|(Required) Specifies a fixed or discount product price for members of the customer group, within the specific website. Options: <br/>**[!UICONTROL Fixed]** - (Default) The discount price is entered as a fixed decimal value. For example, enter `9.99` as the discount price. <br/>**[!UICONTROL Discount]** - The discount price is entered as a percentage (%) of the base product price. For example, enter `10` for a 10% discount.|
 |![Trash icon](../assets/icon-delete-trashcan-solid.png) |Deletes the current rule.|
-|**[!UICONTROL Add]**|Inserts an additional row for a new rule.|
+|**[!UICONTROL Add]**|Inserts another row for a new rule.|
 
 {style="table-layout:auto"}
 
@@ -80,12 +80,12 @@ Sets up promotional and tier prices for specific shared catalogs and customer gr
 
 |Item|Description|
 |----|-----------|
-|[!UICONTROL Website]|Identifies the website where the group price rule applies. This option appears only if the installation has multiple websites. <br>**_Important:_** The _Website_ value should also be selected in the [Catalog Price Scope](catalog-price-scope.md) configuration, otherwise the set advanced prices will be displayed for **all** websites.|
+|[!UICONTROL Website]|Identifies the website where the group price rule applies. This option appears only if the installation has multiple websites. <br>**_Important:_** ALso select _Website_ in the [Catalog Price Scope](catalog-price-scope.md) configuration, otherwise the set advanced prices are displayed for **all** websites.|
 |[!UICONTROL Group or Catalog]|(Required) Identifies the customer group or shared catalog that qualifies to receive the discount price. When a value in a group or catalog field is changed, the corresponding custom price row that matched the previous setting is deleted from the shared catalog. <br/>**[!UICONTROL ALL GROUPS]** - Applies the rule to all customer groups. The value is not applied to the shared catalog and changes in advanced pricing data are not synchronized with the shared catalog.<br/>**[!UICONTROL NOT LOGGED IN]** - Applies the rule guests and customers who are not logged in to their accounts.<br/>**[!UICONTROL Shared Catalogs]** - Applies the rule to a specific shared catalog.|
 |Quantity|Specifies the quantity that is required to receive a tier price.|
 |[!UICONTROL Price]|(Required) Specifies a fixed or discount product price for members of the customer group, within the specific website. Options: <br/>**[!UICONTROL Fixed]** - (Default) The discount price is entered as a fixed decimal value. For example, enter `9.99` as the discount price. <br/>**[!UICONTROL Discount]** - The discount price is entered as a percentage (%) of the base product price. For example, enter `10` for a 10% discount.|
 |![Trash icon](../assets/icon-delete-trashcan-solid.png) |Deletes the current rule.|
-|**[!UICONTROL Add]**|Inserts an additional row for a new rule.|
+|**[!UICONTROL Add]**|Inserts another row for a new rule.|
 
 {style="table-layout:auto"}
 

@@ -4,7 +4,7 @@ description: Learn about the URL format types for your catalog products, and how
 ---
 # Catalog and product URLs
 
-The URLs you assign to products and categories play a major role in determining how well your site is indexed by search engines. Before you start building your catalog is an ideal time to consider the available options. To view the current URL format, go to the storefront and navigate to any product in your catalog. The format of the URL depends on the current configuration settings and method that you use to find the page.
+The URLs you assign to products and categories play a major role in determining how well your site is indexed by search engines. Before you start building your catalog, consider the available options. To view the current URL format, go to the storefront and navigate to any product in your catalog. The format of the URL depends on the current configuration settings and method that you use to find the page.
 
 ## URL formats
 
@@ -41,7 +41,7 @@ The URL key should consist of lowercase characters with non-trailing hyphens bet
 
 Your catalog can be configured to either include or exclude the suffix as part of category and product URLs. There are various reasons why people might choose to use or to omit the suffix. Some believe that the suffix no longer serves any useful purpose, and that pages without a suffix are indexed more effectively by search engines. However, your company might have a standardized format for URLs that requires a suffix.
 
-Because the suffix is controlled by the system configuration, you should never type it directly into the URL key of a category or product. (Doing so will result in a double suffix at the end of the URL.) Whether you decide to use the suffix or not, be consistent and use the same setting for all your product and category pages. Here are examples of URLs with—and without—a suffix.
+Because the suffix is controlled by the system configuration, you should never type it directly into the URL key of a category or product. (Doing so results in a double suffix at the end of the URL.) Whether you decide to use the suffix or not, be consistent and use the same setting for all your product and category pages. Here are examples of URLs with—and without—a suffix.
 
 #### URL with HTML suffix
 

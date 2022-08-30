@@ -1,12 +1,12 @@
 ---
-title: Category scheduled changes
+title: Scheduled changes for categories
 description: Learn how to schedule category changes to support marketing campaigns and store promotions.
 ---
-# Category scheduled changes
+# Scheduled changes for categories
 
 {{ee-feature}}
 
-Category updates can be applied on schedule, and grouped with other content changes. You can create a new campaign based on scheduled changes to the category, or apply the changes to an existing campaign. To learn more, see [Content Staging](../content-design/content-staging.md).
+Category updates can be applied on schedule, and grouped with other content changes. You can create a campaign based on scheduled changes to the category, or apply the changes to an existing campaign. To learn more, see [Content Staging](../content-design/content-staging.md).
 
 >[!NOTE]
 >
@@ -32,11 +32,11 @@ Category updates can be applied on schedule, and grouped with other content chan
 
 >[!IMPORTANT]
 >
->Campaign **[!UICONTROL Start Date]** and **[!UICONTROL End Date]** must be defined by using the **_default_** Admin time zone, which is converted from each website local time zone. For example, if you have multiple websites in different time zones, but you want to start campaign based on a US time zone, you need to schedule separate update for each local time zone, and set **[!UICONTROL Start Date]** and **[!UICONTROL End Date]** in converted from each local website time zone to default Admin time zone.
+>Campaign **[!UICONTROL Start Date]** and **[!UICONTROL End Date]** must be defined by using the **_default_** Admin time zone, which is converted from the local time zone of each website. For example, with multiple websites in different time zones where you want to start a campaign based on a US time zone, you need to schedule a separate update for each local time zone. You set the **[!UICONTROL Start Date]** and **[!UICONTROL End Date]** for each, which is converted from the local website time zone to the default Admin time zone.
 
 1. Make any changes necessary to the scheduled update.
 
-1. Click **[!UICONTROL Preview]** in the top right button bar to preview the changes.
+1. Click **[!UICONTROL Preview]** in the top-right button bar to preview the changes.
 
 1. When complete, click **[!UICONTROL Save]**.
 

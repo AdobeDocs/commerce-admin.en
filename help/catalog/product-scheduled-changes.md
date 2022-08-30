@@ -6,7 +6,7 @@ description: Learn how to schedule changes to your product listings to support c
 
 {{ee-feature}}
 
-Product updates can be applied on schedule and grouped with other content changes. You can use [content staging](../content-design/content-staging.md) to create a new campaign based on scheduled changes to the product, or apply the changes to an existing campaign.
+Product updates can be applied on schedule and grouped with other content changes. You can use [content staging](../content-design/content-staging.md) to create a campaign based on scheduled changes to the product, or apply the changes to an existing campaign.
 
 >[!NOTE]
 >
@@ -14,7 +14,7 @@ Product updates can be applied on schedule and grouped with other content change
 
 ![Scheduled Changes](./assets/product-scheduled-changes.png)<!-- zoom -->
 
-## Create a new schedule update
+## Create a schedule update
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
@@ -32,7 +32,7 @@ Product updates can be applied on schedule and grouped with other content change
 
    >[!NOTE]
    >
-   >Campaign **[!UICONTROL Start Date]** and **[!UICONTROL End Date]** must be defined by using the **_default_** Admin time zone, which is converted from each website local time zone. For example, if you have multiple websites in different time zones, but you want to start campaign based on a US time zone, you need to schedule separate update for each local time zone, and set **[!UICONTROL Start Date]** and **[!UICONTROL End Date]** in converted from each local website time zone to default Admin time zone.
+   >Campaign **[!UICONTROL Start Date]** and **[!UICONTROL End Date]** must be defined by using the **_default_** Admin time zone, which is converted from the local time zone for each website. For example, with multiple websites in different time zones where you want to start a campaign based on a US time zone, you need to schedule a separate update for each local time zone. Set **[!UICONTROL Start Date]** and **[!UICONTROL End Date]** for each, and it is converted from the local website time zone to default Admin time zone.
 
 1. Scroll down to _[!UICONTROL Price]_ and click **[!UICONTROL Advanced Pricing]**.
 
@@ -76,7 +76,7 @@ The scheduled change appears at the top of the product page, with the start and 
 
 1. In the _[!UICONTROL Scheduled Changes]_ box at the top of the page, click **[!UICONTROL View/Edit]**.
 
-1. On the top bar click **[!UICONTROL Remove from Update]**.
+1. On the top bar, click **[!UICONTROL Remove from Update]**.
 
 1. In the dialog, select **[!UICONTROL Delete the Update]** and click **[!UICONTROL Done]**.
 
@@ -90,7 +90,7 @@ The scheduled change appears at the top of the product page, with the start and 
 
 {{ce-feature}}
 
-The _[!UICONTROL Schedule Design Update]_ section gives you the ability to make temporary changes to the appearance of the product page. You can schedule design changes for a season, promotion, or just to mix things up. Design changes can be scheduled in advance, so they go into effect, or _drip_, on your defined schedule.
+The _[!UICONTROL Schedule Design Update]_ section gives you the ability to make temporary changes to the appearance of the product page. You can schedule design changes for a season, promotion, or just to make things fresh. Design changes can be scheduled in advance, so they go into effect, or _drip_, on your defined schedule.
 
 ![Scheduled Design Update](./assets/product-design-update-scheduled.png)<!-- zoom -->
 
@@ -98,6 +98,6 @@ The _[!UICONTROL Schedule Design Update]_ section gives you the ability to make 
 |--- |--- |
 |[!UICONTROL Schedule Update From/To]|Determines the range of dates when a custom layout is applied to the product.|
 |[!UICONTROL New Theme]|Applies a custom theme to the product.|
-|[!UICONTROL New Layout]|Applies a different layout to the product page. Options: <br/>**[!UICONTROL No layout updates]** - By default, layout updates are not available for the product page. <br/>**[!UICONTROL Empty]** - Allows you define your own layout, such as a 4-column page. (Requires an understanding of XML.) <br/>**[!UICONTROL 1 column]** - Applies a one-column layout to the product page. <br/>**[!UICONTROL 2 columns with left bar]** - Applies a two-column layout with a left sidebar to the product page. <br/>**[!UICONTROL 2 columns with right bar]** - Applies a two-column layout with a right sidebar to the product page. <br/>**[!UICONTROL 3 columns]** - Applies a three-column layout to the product page.|
+|[!UICONTROL New Layout]|Applies a different layout to the product page. Options: <br/>**[!UICONTROL No layout updates]** - By default, layout updates are not available for the product page. <br/>**[!UICONTROL Empty]** - Allows you to define your own layout, such as a 4-column page. (Requires an understanding of XML.) <br/>**[!UICONTROL 1 column]** - Applies a one-column layout to the product page. <br/>**[!UICONTROL 2 columns with left bar]** - Applies a two-column layout with a left sidebar to the product page. <br/>**[!UICONTROL 2 columns with right bar]** - Applies a two-column layout with a right sidebar to the product page. <br/>**[!UICONTROL 3 columns]** - Applies a three-column layout to the product page.|
 
 {style="table-layout:auto"}

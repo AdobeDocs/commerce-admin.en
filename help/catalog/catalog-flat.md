@@ -10,7 +10,7 @@ description: Learn  about creating a flat catalog, where each row contains all t
 
 Commerce typically stores catalog data in multiple tables, based on the Entity-Attribute-Value (EAV) model. Because product attributes are stored in many tables, SQL queries are sometimes long and complex.
 
-In contrast, a flat catalog creates new tables on the fly, where each row contains all the necessary data about a product or category. A flat catalog is updated automatically—either every minute, or according to your cron job. Flat catalog indexing can also speed up the processing of catalog and cart price rules. A catalog with as many as 500,000 SKUs can be indexed quickly as a flat catalog.
+In contrast, a flat catalog creates tables on the fly, where each row contains all the necessary data about a product or category. A flat catalog is updated automatically—either every minute, or according to your cron job. Flat catalog indexing can also speed up the processing of catalog and cart price rules. A catalog with as many as 500,000 SKUs can be indexed quickly as a flat catalog.
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ In contrast, a flat catalog creates new tables on the fly, where each row contai
 
 ## Step 2: Verify the results
 
-There are two methods you can use to verify the results.
+There are two methods that you can use to verify the results.
 
 ### Method 1: Verify the results for a single product
 
@@ -54,7 +54,7 @@ There are two methods you can use to verify the results.
 
    - Use the navigation to browse to the product under its assigned category.
 
-      If necessary, refresh the page to see the results. The change will appear within the minute or according to your [Cron](https://docs.magento.com/user-guide/system/cron.html) schedule.
+      If necessary, refresh the page to see the results. The change appears within the minute or according to your [Cron](https://docs.magento.com/user-guide/system/cron.html) schedule.
 
    ![Storefront with Flat Catalog](./assets/storefront-flat-catalog-enabled.png)<!-- zoom -->
 
@@ -84,7 +84,7 @@ There are two methods you can use to verify the results.
 
 1. On a new browser tab, navigate to the home page of your store and use the store navigation to browse to the category you created.
 
-   If necessary, refresh the page to see the results. The change will appear within the minute or according to your cron schedule.
+   If necessary, refresh the page to see the results. The change appears within the minute or according to your cron schedule.
 
 ## Step 3: Remove the test data
 
@@ -100,7 +100,7 @@ Do the following to remove the test data and restore the original product name a
 
 1. When prompted to confirm, click **[!UICONTROL OK]**.
 
-   This will not remove the products that are assigned to the category.
+   This does not remove the products that are assigned to the category.
 
 ### Restore the original product name
 

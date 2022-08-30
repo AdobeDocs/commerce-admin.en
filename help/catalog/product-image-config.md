@@ -1,14 +1,14 @@
 ---
 title: Product image configuration 
-description: Learn how to set a maximum pixel size (width and height) and automatically resize product image files prior to upload.
+description: Learn how to set a maximum pixel size (width and height) and automatically resize product image files during upload.
 ---
 # Product image configuration 
 
-If you plan to upload large images for viewing on the _[!UICONTROL Product Details]_ page, you may want to consider setting a maximum pixel size (width and height) and automatically resize the files prior to upload. To support this type of product image upload, there is an option to enable automatic resizing of larger image files as you upload. For product that you want to add to your catalog but you do not yet have an image asset to display, you can configure a placeholder image.
+If you plan to upload large images for viewing on the _[!UICONTROL Product Details]_ page, you may want to consider setting a maximum pixel size (width and height) and automatically resize the files at upload. To support this type of product image upload, there is an option to enable automatic resizing of larger image files as you upload. For product that you want to add to your catalog but you do not yet have an image asset to display, you can configure a placeholder image.
 
 ## Product image resizing
 
-When uploading product images, you may add larger images with varying sizes to provide detailed, high quality zooms on the _[!UICONTROL Product Details]_ page. To ensure all images have a similar size and look, we provide an image upload resizing option to ensure all images match a specific pixel size. This option automatically resizes all product images using the configuration settings, which can help with performance of zoom, faster loading of images and keep a uniform look to your product images.
+When uploading product images, you may add larger images with varying sizes to provide detailed, high-quality zooms on the _[!UICONTROL Product Details]_ page. To ensure that all images have a similar size and look, we provide an image resizing option to ensure that all images match a specific pixel size. This option automatically resizes all product images using the configuration settings, which can help with performance of zoom, faster loading of images and keep a uniform look to your product images.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ For example, a 3000 x 2100 pixel JPG at 100% could be a 5mb+ image file. Resizin
 |Field|[Scope](../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |[!UICONTROL Quality]|Global|Determines the JPG quality for the resized image. Lower quality reduces the file size. We recommend 80-90% to help reduce file size with high quality. Default: 80|
-|[!UICONTROL Enable Frontend Resize]|Global|Enable to allow Commerce to resize large, oversized images you may upload for the _[!UICONTROL Product Details]_ page. Commerce resizes the image files using JavaScript prior to uploading the file. When the image is resized, it keeps the exact proportions, meeting and not exceeding the largest size for Maximum Width or Maximum Height. Default: `Yes`|
+|[!UICONTROL Enable Frontend Resize]|Global|Allows Commerce to resize large, oversized images you may upload for the _[!UICONTROL Product Details]_ page. Commerce resizes the image files using JavaScript when uploading the file. When the image is resized, it keeps the exact proportions, to meet and not exceed the largest size for Maximum Width or Maximum Height. Default: `Yes`|
 |[!UICONTROL Maximum Width]|Global|Determines the maximum pixel width for the image. When the image is resized, it does not exceed this width. Default: `1920`|
 |[!UICONTROL Maximum Height]|Global|Determines the maximum pixel height for the image. When the image is resized, it does not exceed this height. Default: `1200`|
 

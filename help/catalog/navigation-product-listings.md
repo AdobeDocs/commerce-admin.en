@@ -1,10 +1,10 @@
 ---
 title: Product listings
-description: Learn how to configure the product listings, which determines how many products appear per page, and which attribute is used to sort the list. 
+description: Learn how to modify the product listing configuration, which determines how many products appear per page, and which attribute is used to sort the list. 
 ---
 # Product listings
 
-Product listings can be set to appear by default as either a list or grid. You can also determine how many products appear per page, and which attribute is used to sort the list. Each catalog page with a product list has a set of controls that can be used to sort the products, change the format of the list, sort by attribute, and advance from one page to the next.
+Product listings can be set to appear by default as either a list or grid. You can also determine how many products appear per page, and which attribute is used to sort the list. The product list includes a set of controls that can be used to sort the products, change the format of the list, sort by attribute, and advance from one page to the next.
 
 ![Products displayed as a grid](./assets/storefront-catalog-page.png)<!-- zoom -->
 

@@ -77,21 +77,21 @@ The form is updated to reflect the change.
 
 1. To assign _[!UICONTROL Categories]_ to the product, click the **[!UICONTROL Select…]** box and do either of the following:
 
-   - Choose an existing category:
+   **Choose an existing category**:
 
-      - Start typing in the box to find a match.
+   - Start typing in the box to find a match.
 
-      - Select the checkbox of each category that is to be assigned.
+   - Select the checkbox of each category that is to be assigned.
 
-   - Create a new category:
+   **Create a category**:
 
-      - Click **[!UICONTROL New Category]**.
+   - Click **[!UICONTROL New Category]**.
 
-      - Enter the **[!UICONTROL Category Name]** and choose the **[!UICONTROL Parent Category]** to determine its position in the menu structure.
+   - Enter the **[!UICONTROL Category Name]** and choose the **[!UICONTROL Parent Category]** to determine its position in the menu structure.
 
-      - Click **[!UICONTROL Create Category]**.
+   - Click **[!UICONTROL Create Category]**.
 
-1. To feature the product in the list of[ new products](../content-design/widget-new-products-list.md), select the **[!UICONTROL Set Product as New]** checkbox.
+1. To feature the product in the list of [new products](../content-design/widget-new-products-list.md), select the **[!UICONTROL Set Product as New]** checkbox.
 
 1. Choose the **[!UICONTROL Country of Manufacture]**.
 
@@ -144,4 +144,4 @@ Scroll down and complete the information in the following sections as needed:
 
 - Simple product configuration overrides configurable product configurations for a specific product.
 
-- A simple product can have custom options with a variety of input controls, which makes it possible to sell many product variations from a single SKU.
+- A simple product can have custom options with various types of input, which makes it possible to sell many product variations from a single SKU.

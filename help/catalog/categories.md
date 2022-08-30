@@ -4,15 +4,15 @@ description: Before you add products to your store, define the basic category st
 ---
 # Categories overview
 
-Before you add products to your catalog, you need to establish the basic category structure of your catalog. Products can be assigned to zero or more categories. Categories are usually created in advance, before products are added to the catalog. However, you can also add categories _on the fly_ while creating a product. The category structure of the catalog is reflected by the main menu — or [top navigation](navigation-top.md) — of the store.
+Before you add products to your catalog, you need to establish the basic category structure of your catalog. Products can be assigned to zero or more categories. Usually, categories are created in advance, before products are added to the catalog. However, you can also add categories _on the fly_ while creating a product. The category structure of the catalog is reflected by the main menu — or [top navigation](navigation-top.md) — of the store.
 
 ![Category tree](./assets/category-selected.png)<!-- zoom -->
 
 |Control|Description|
 |--- |--- |
-|**[!UICONTROL Add Root Category]** |Creates a new root category.|
+|**[!UICONTROL Add Root Category]** |Creates a root category.|
 |**[!UICONTROL Add Subcategory]** |Adds a subcategory below the current category or subcategory.|
-|[!UICONTROL Collapse All] / [!UICONTROL Expand All] |Either collapses or expands the category tree.|
+|**[!UICONTROL Collapse All]** / **[!UICONTROL Expand All]** |Either collapses or expands the category tree.|
 |**[!UICONTROL Delete]** |Removes the current category or subcategory from the tree.|
 |**[!UICONTROL Save]** |Saves any changes made to the category.|
 

@@ -54,23 +54,23 @@ In the _[!UICONTROL Products in Category]_ section, click the tiles ( ![View til
 
 1. Set **[!UICONTROL Match products by rule]** (![Toggle yes](../assets/toggle-yes.png)) to `Yes`.
 
-1. Click **[!UICONTROL Add Condition]** and do the following:
+1. Click **[!UICONTROL Add Condition]**.
 
    ![Category condition](./assets/category-edit-condition.png)<!-- zoom -->
 
-   - Choose the **[!UICONTROL Attribute]** that is the basis of the condition.
+1. Choose the **[!UICONTROL Attribute]** that is the basis of the condition.
 
-   - Set **[!UICONTROL Operator]** to one of the following:
+1. Set **[!UICONTROL Operator]** to one of the following:
 
-      - `Equal`
-      - `Not equal`
-      - `Greater than`
-      - `Greater than or equal to`
-      - `Less than`
-      - `Less than or equal to`
-      - `Contains`
+   - `Equal`
+   - `Not equal`
+   - `Greater than`
+   - `Greater than or equal to`
+   - `Less than`
+   - `Less than or equal to`
+   - `Contains`
 
-   - Enter the appropriate **[!UICONTROL Value]**.
+1. Enter the appropriate **[!UICONTROL Value]**.
 
 1. To add another condition, click **[!UICONTROL Add Condition]** and repeat the process.
 

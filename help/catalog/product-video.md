@@ -24,7 +24,7 @@ To add a product video, you must first obtain an API Key from your Google accoun
 
 1. Copy the API key to the clipboard.
 
-1. Click the Edit icon on the right and set the restrictions to make sure the API key is limited to the correct referrers.
+1. Click the Edit icon on the right and set the restrictions to make sure that the API key is limited to the correct referrers.
 
 1. Wait a few moments while the key is generated and then copy the key to the clipboard.
 
@@ -50,7 +50,7 @@ To add a product video, you must first obtain an API Key from your Google accoun
 
 1. In the _[!UICONTROL Images and Videos]_ section, click **[!UICONTROL Add Video]**.
 
-   If you haven't yet configured your YouTube API key, click **[!UICONTROL OK]** to continue. You won't be able to link to a YouTube video, but you can go through the process.
+   If you haven't yet configured your YouTube API key, click **[!UICONTROL OK]** to continue. You cannot link to a YouTube video, but you can go through the process.
 
    ![Add Video](./assets/product-video-add.png)<!-- zoom -->
 
@@ -58,7 +58,7 @@ To add a product video, you must first obtain an API Key from your Google accoun
 
 1. Click outside the field and wait for feedback on the API key or video.
 
-   If everything checks out, Youtube provides base information of the video
+   If everything checks out, YouTube provides base information of the video
 
 1. Enter the **[!UICONTROL Title]** and **[!UICONTROL Description]** of the video.
 

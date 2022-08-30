@@ -10,4 +10,4 @@ The _[!UICONTROL Autosettings]_ section includes any attributes that are depende
 
 ![Autosettings](./assets/product-autosettings.png)<!-- zoom -->
 
-With RMA, an Admin user has the ability to allow return functionality for specific products, as well as disallow the returning of specific products.
+With RMA, an Admin user can allow return functionality for specific products, and disallow the returning of specific products.

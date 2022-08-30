@@ -38,9 +38,9 @@ The following instructions show how to set up basic layered navigation with filt
 
 1. In the left panel, choose **[!UICONTROL Storefront Properties]** and set **[!UICONTROL Use In Layered Navigation]** to one of the following:
 
-   - `Filterable (with results)` - Layered navigation includes only those filters for which matching products can be found. Any attribute value that already applies to all products shown in the list should still appear as an available filter. Attribute values with a count of zero (0) product matches are omitted from the list of available filters. The filtered list of products includes only those that match the filter. The products list is updated only if the selected filter(s) change what is currently shown.
+   - `Filterable (with results)` - Layered navigation includes only those filters for which matching products can be found. Any attribute value that already applies to all products shown in the list should still appear as an available filter. Attribute values with a count of zero (0) product matches are omitted from the list of available filters. The filtered list of products includes only those that match the filter. The products list is updated only if the selected filters change what is shown.
 
-   - `Filterable (no results)` - Layered navigation includes filters for all available attribute values and their product counts, including those with zero (0) product matches. If the attribute value is a swatch, the value appears as a filter, but is crossed out. Price layered filtering is not supported by this option, and does not affect Price filters.
+   - `Filterable (no results)` - Layered navigation includes filters for all available attribute values and their product counts, including those with zero (0) product matches. If the attribute value is a swatch, the value appears as a filter, but is crossed out. Price-layered filtering is not supported by this option, and does not affect Price filters.
 
 1. Set **[!UICONTROL Use In Search Results Layered Navigation]** to `Yes`.
 
@@ -76,7 +76,7 @@ Layered navigation includes filters for all available attribute values and their
 
    ![Zero filters displaying](./assets/filterable-attributes-on-plp.png)<!-- zoom -->
 
-This makes it difficult for customers to select a preferred product, and there is no need to display attribute values ​​with 0 products in the front-end.
+This makes it difficult for customers to select a preferred product, and there is no need to display attribute values ​​with 0 products in the front end.
 
 You can use the following steps to remove filterable attribute values with 0 Products from the layered navigation:
 
@@ -106,7 +106,7 @@ Price navigation can be used to distribute products by price range in layered na
 
 With the first two methods, the navigation steps are calculated automatically. The manual method lets you specify a division limit for price intervals. The following example shows the difference between price navigation steps of 10 and 100.
 
-Iterative splitting provides the best distribution of products among price ranges. With iterative splitting, after choosing the $0.00-$99 range, the customer can drill down through several sub-ranges of prices. Price-range splitting stops when the number of products reaches the threshold set by the Interval Division Limit.
+Iterative splitting provides the best distribution of products among price ranges. With iterative splitting, after choosing the $0.00-$99 range, the customer can drill down through several subranges of prices. Price-range splitting stops when the number of products reaches the threshold set by the Interval Division Limit.
 
 ## Example: Price navigation steps
 
@@ -157,11 +157,11 @@ Leave **[!UICONTROL Price Navigation Steps Calculation]** set to `Automatic (Equ
 >
 >If necessary, first deselect the **[!UICONTROL Use system value]** checkbox to change these settings.
 
-1. Set **Price Navigation Steps Calculation** to `Automatic (equalize product counts)`.
+1. Set **[!UICONTROL Price Navigation Steps Calculation]** to `Automatic (equalize product counts)`.
 
-1. To display a single price when multiple products with the same price, set **Display Price Interval as One Price** to `Yes`.
+1. To display a single price when multiple products with the same price, set **[!UICONTROL Display Price Interval as One Price]** to `Yes`.
 
-1. For **Interval Division Limit**, enter the threshold for a number of products within a price range.
+1. For **[!UICONTROL Interval Division Limit]**, enter the threshold for the number of products within a price range.
 
    The range cannot be further split beyond this limit. The default value is `9`.
 

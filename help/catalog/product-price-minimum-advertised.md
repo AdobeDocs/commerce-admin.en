@@ -4,11 +4,11 @@ description: Learn how to use the Minimum Advertised Price (MAP) feature to rema
 ---
 # Minimum Advertised Price
 
-Merchants are sometimes prohibited from displaying a price that is lower than the manufacturer's suggested retail price (MSRP). Minimum Advertised Price (MAP) gives you the ability to remain in compliance with the manufacturer's requirements while offering your customers a better price. Because requirements differ from one manufacturer to another, you can configure your store to prevent the display of your actual price on pages where it is not allowed to appear according to the terms of the manufacturer
+Merchants are sometimes prohibited from displaying a price that is lower than the manufacturer's suggested retail price (MSRP). Minimum Advertised Price (MAP) gives you the ability to remain in compliance with the manufacturer's requirements while offering your customers a better price. Because requirements differ from one manufacturer to another, you can configure your store to prevent the display of your actual price on pages where it is not allowed.
 
 The MAP feature adds a dedicated "Click for Price" button instead of the regular product price. Therefore, if the price in your store is below the minimum set price for that product, the price is either not displayed, or the list/market price is displayed with a strikethrough to emphasize that your price is lower. If the buyer clicks the "Click for Price" button, only then does the actual price at which you are selling the product become visible.
 
-Additionally, the MAP feature allows you to suggest some improvements. For example, when a customer adds such a product to their cart, they are not redirected to the cart, and instead there are offers displayed that allow the buyer to:
+Also, the MAP feature allows you to suggest some improvements. For example, when a customer adds such a product to their cart, they are not redirected to the cart, and instead there are offers displayed that allow the buyer to:
 
 - Remove an item from the cart (this can be done if the buyer just wants to clarify the price and has not yet made a purchase decision)
 
@@ -18,7 +18,7 @@ Additionally, the MAP feature allows you to suggest some improvements. For examp
 
 ## MAP logic
 
-For products with prices that depend on a selected option (such as custom options or simple products with their own SKUs and stock management), the following logic is applied, according to the product type and price setting. The actual price is used by order management, customer management tools, and reports.
+Some products have prices that depend on a selected option, such as custom options or simple products with their own SKUs and stock management). For these products, the following logic is applied, according to the product type and price setting. The actual price is used by order management, customer management tools, and reports.
 
 ## Using MAP with product types
 
@@ -39,16 +39,16 @@ For products with prices that depend on a selected option (such as custom option
 | Main Price | When MAP is applied to the main price, the prices of options, bundle items, and associated products (which add or subtract from the main price) appear normally. |
 | Associated Product Price | If a product does not have a main price, and its price is derived from the associated product prices (such as in a grouped product), the MAP settings of the associated products are applied. |
 | [MSRP](product-price-minimum-advertised.md) | If a product in the cart has the Manufacturer's Suggested Retail Price (MSRP) specified, the price is not crossed-out. |
-| [Tier Price](product-price-tier.md) | If tier pricing is set, the tier pricing message is not displayed in the catalog. On the product page a notification is displayed that indicates that the price can be lower when ordering more than a certain quantity, but the discount is displayed in percentages only. For associated products of a grouped product, the discounts are not displayed on the product page. The tier price appears according to the Display Actual Price setting. |
+| [Tier Price](product-price-tier.md) | If tier pricing is set, the tier pricing message is not displayed in the catalog. On the product page, a notification is displayed that indicates that the price can be lower when ordering more than a certain quantity, but the discount is displayed in percentages only. For associated products of a grouped product, the discounts are not displayed on the product page. The tier price appears according to the Display Actual Price setting. |
 | [Special Price](product-price-special.md) | If the Special price is specified, the special price is displayed according to the Display Actual Price setting. |
 
 ## MAP configuration
 
-The Minimum Advertised Price (MAP) feature is not enabled by default. If you want to add this capability to your store, you must enable it and configure the MAP settings for your products. The MAP settings can be applied to all products in your catalog or configured for specific products. When MAP is enabled globally, all product prices in the storefront are hidden from view. There are a variety of configuration options that you can use to remain in compliance with the terms of your agreement with the manufacturer, while still offering your customers a better price.
+The Minimum Advertised Price (MAP) feature is not enabled by default. If you want to add this capability to your store, you must enable it and configure the MAP settings for your products. The MAP settings can be applied to all products in your catalog or configured for specific products. When MAP is enabled globally, all product prices in the storefront are hidden from view. There are various configuration options that you can use to remain in compliance with the terms of your agreement with the manufacturer, while still offering your customers a better price.
 
 ![Actual Price Appears "On Gesture"](./assets/storefront-msrp-on-gesture.png)<!-- zoom -->
 
-On the global level, you can enable or disable MAP, apply it to all products, define how the actual price is displayed, and edit the text of the related messages and information tips that appear in the store.
+On the global level, you can enable or disable MAP, apply it to all products, define how the actual price is displayed. You can also edit the text of the related messages and information tips that appear in the store.
 
 When MAP is enabled, the product-level MAP settings become available. You can apply MAP to an individual product by entering the MSRP and choosing how you want the actual price to appear in the store. Product-level MAP settings override the global MAP settings.
 

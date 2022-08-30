@@ -1,10 +1,10 @@
 ---
 title: Products list
-description: Learn about the _[!UICONTROL Products]_ page in the Admin, where you can create new products and edit existing ones.
+description: Learn about the _[!UICONTROL Products]_ page in the Admin, where you can create products and edit existing ones.
 ---
 # Products list
 
-All products in the catalog are accessible from the _[!UICONTROL Products]_ page in the Admin, where you can create new products and edit existing ones. For a multi-site installation, each website can offer a different selection of products for sale from the same catalog.
+All products in the catalog are accessible from the _[!UICONTROL Products]_ page in the Admin, where you can create products and edit existing ones. For a multi-site installation, each website can offer a different selection of products for sale from the same catalog.
 
 The _[!UICONTROL Products]_ list includes all products in the catalog, indicates the websites where they are available, and if they are currently enabled for sale. In B2B for Adobe Commerce installations with [shared catalogs](../b2b/catalog-shared.md) enabled, the grid includes a column that indicates which products have alternate discount pricing in a shared catalog.
 
@@ -17,7 +17,7 @@ You can browse through the list page by page, or search for specific products. U
 |Control|Description|
 |--- |--- |
 |[!UICONTROL Add Product]|Initiates the process to create a new simple product. To choose a specific product type, click the down arrow. Options: [[!UICONTROL Simple Product]](product-create-simple.md) / [[!UICONTROL Configurable Product]](product-create-configurable.md) / [[!UICONTROL Grouped Product]](product-create-grouped.md) / [[!UICONTROL Virtual Product]](product-create-virtual.md) / [[!UICONTROL Bundle Product]](product-create-bundle.md) / [[!UICONTROL Downloadable Product]](product-create-downloadable.md) / [[!UICONTROL Gift Card]](product-gift-card-create.md)|
-|[!UICONTROL Export Full Catalog]|([MCOM Connector](https://docs.magento.com/user-guide/mcom.html) required) Manually request a [full catalog export](https://docs.magento.com/user-guide/catalog/export-full-catalog.html) from Adobe Commerce. Outgoing messages will be exported to a .csv file in batches.|
+|[!UICONTROL Export Full Catalog]|([MCOM Connector](https://docs.magento.com/user-guide/mcom.html) required) Manually request a [full catalog export](https://docs.magento.com/user-guide/catalog/export-full-catalog.html) from Adobe Commerce. Outgoing messages are exported to a .csv file in batches.|
 |[!UICONTROL Actions]|Lists all actions that can be applied to selected products in the list. To apply an action to a product or group of products, select the checkbox in the first column of each product. Options: `Delete` / `Change Status` / `Update Attributes` / `Assign Inventory Source` / `Unassign Inventory Source` / `Transfer Inventory To Source`|
 |[!UICONTROL Filters]|Initiates a catalog search based on the current filters.|
 |[!UICONTROL Default View]|Indicates the current grid column layout. If there are saved grid column views, you can choose another.|
@@ -41,9 +41,9 @@ You can browse through the list page by page, or search for specific products. U
 |[!UICONTROL Price]|The unit price of the product.|
 |[!UICONTROL Quantity]|The quantity that is currently in stock.|
 |[!UICONTROL Salable Quantity]|The sum of all available units of this product.|
-|[!UICONTROL Visibility]|Indicates where the product is visible in the catalog. Options: Not Visible Individually / Catalog / Search / Catalog, Search|
-|[!UICONTROL Status]|Indicates the current status of the product. Options: Enabled and Disabled|
-|[!UICONTROL Websites]|Indicates the website(s) where the product is available.|
+|[!UICONTROL Visibility]|Indicates where the product is visible in the catalog. Options: `Not Visible Individually` / `Catalog` / `Search` / `Catalog, Search`|
+|[!UICONTROL Status]|Indicates the status of the product. Options: `Enabled` and `Disabled`|
+|[!UICONTROL Websites]|Indicates the websites where the product is available.|
 |[!UICONTROL Action]|Opens the product in Edit mode.|
 |[!UICONTROL Shared Catalog]|![B2B for Adobe Commerce](../assets/b2b.svg) (Available with [B2B for Adobe Commerce](./b2b/../introduction.md) only) Indicates the shared catalogs that contain custom pricing for the product.|
 
@@ -69,11 +69,11 @@ You can browse through the list page by page, or search for specific products. U
 |[!UICONTROL Special Price]|Special price for the product.|
 |[!UICONTROL Weight]|The product weight.|
 |[!UICONTROL Meta Title]|Meta title for the product.|
-|[!UICONTROL Meta Description]|The product meta description.|
+|[!UICONTROL Meta Description]|The product metadata description.|
 |[!UICONTROL Country of Manufacture]|The country of manufacture.|
 |[!UICONTROL New Theme]|Applied custom theme to the product.|
 |[!UICONTROL URL Key]|The URL Key of the product.|
 |[!UICONTROL Tax Class]|The product tax class.|
-|[!UICONTROL Allow Gift Message]|Displays the availability of the _include a gift message_ option for the product.|
+|[!UICONTROL Allow Gift Message]|Displays the availability of the gift message option for the product.|
 
 {style="table-layout:auto"}

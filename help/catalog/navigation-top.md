@@ -8,7 +8,7 @@ The main menu of your store is like a directory to the different departments in 
 
 ![Top Navigation](./assets/storefront-top-navigation.png)<!-- zoom -->
 
-The category structure of your catalog can influence how well your site is indexed by search engines. The more deeply nested a category, the less likely it is to be thoroughly indexed. As a general rule, anywhere between one and three visible levels is considered to be the most effective. The [root category](category-root.md) counts as the first level, although it doesn't appear in the menu. The maximum number of levels that are available in the top navigation is determined by the configuration. In addition, there might be a limit to the number of menu levels that are supported by your store theme. For example, the sample Luma theme supports up to five levels, including the root.
+The category structure of your catalog can influence how well your site is indexed by search engines. The more deeply nested a category, the less likely it is to be thoroughly indexed. Generally, using between one and three visible levels is the most effective. The [root category](category-root.md) counts as the first level, although it doesn't appear in the menu. The maximum number of levels that are available in the top navigation is determined by the configuration. In addition, there might be a limit to the number of menu levels that are supported by your store theme. For example, the sample Luma theme supports up to five levels, including the root.
 
 ## Counting menu levels
 
@@ -16,7 +16,7 @@ The category structure of your catalog can influence how well your site is index
 |--- |--- |
 |Level 1|The first level is the root category, which in the sample data  is named "Default Category." The root is a container for the menu, and its name does not appear as an option in the menu.|
 |Level 2|On a desktop display, the top navigation is the main menu that appears across the top of the page. On a mobile device, the main menu typically appears as a fly-out menu of options. The second-level options in the Luma  store are _What's New_, _Women_, _Men_, _Gear_, _Training_, and _Sale_.|
-|Level 3|The third-level appears below each  main menu option. For example, under _Women_, the third-level options are _Tops_ and _Bottoms_.|
+|Level 3|The third level appears below each  main menu option. For example, under _Women_, the third-level options are _Tops_ and _Bottoms_.|
 |Level 4|The fourth-level options are subcategories that fly out from a third-level option. For example, under _Tops_, the fourth level menu options are _Jackets_, _Hoodies & Sweatshirts_, _Tees_, and _Bras & Tanks_.|
 
 {style="table-layout:auto"}

@@ -4,9 +4,9 @@ description: Learn how catalog and product scope function within catalog managem
 ---
 # Introduction to catalog management
 
-Adobe Commerce and Magento Open Source use the term _catalog_ to refer to the product database as a whole. 
+Adobe Commerce and Magento Open Source use the term _catalog_ to refer to the product database as a whole.
 
-One of the most important areas in creating and managing your store is product creation and categories. The Admin provides a number of tools you will use for the initial setup for your store, as well as maintaining your store and optimizing your business.
+One of the most important areas in creating and managing your store is product creation and categories. The Admin provides several tools that you use for the initial setup of your store, and for maintaining your store and optimizing your business.
 
 >[!TIP]
 >
@@ -14,7 +14,7 @@ One of the most important areas in creating and managing your store is product c
 
 ## Catalog scope
 
-Access to catalog data is determined by several factors, including the [scope](../getting-started/websites-stores-views.md#scope-settings) setting, the catalog configuration, and the [root category](category-root.md) that is assigned to the store. The catalog includes products that are enabled and available for sale, as well as those that are currently not offered for sale.
+Access to catalog data is determined by several factors, including the [scope](../getting-started/websites-stores-views.md#scope-settings) setting, the catalog configuration, and the [root category](category-root.md) that is assigned to the store. The catalog includes products that are enabled and available for sale, and those that are currently not offered for sale.
 
 In sales, the term _catalog_ usually refers to a curated selection of products that is available for sale. For example, a store might have a "Spring Catalog" and a "Fall Catalog".
 

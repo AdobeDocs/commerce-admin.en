@@ -30,6 +30,6 @@ There are many ways to use hidden categories. You might want to create additiona
    - Set **[!UICONTROL Enable Category]** to `Yes`.
    - In the **[!UICONTROL Display Settings]** section, set **[!UICONTROL Anchor]** to `Yes`.
 
-   As active categories, you can now link to them from other places in your store, but they will not appear in the menu.
+   As active categories, you can now link to them from other places in your store, but they do not appear in the menu.
 
 1. When complete, click **[!UICONTROL Save]**.

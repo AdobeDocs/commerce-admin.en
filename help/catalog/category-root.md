@@ -1,6 +1,6 @@
 ---
 title: Root category and hierarchy
-description: Learn about the categiry hierarchy and the root category, which acts as a container for the main menu in the category tree.
+description: Learn about the category hierarchy and the root category, which acts as a container for the main menu in the category tree.
 ---
 # Root category and hierarchy
 
@@ -10,9 +10,9 @@ The products in the main menu are determined by the root category that is assign
 
 From the Admin, the category structure is like an upside-down tree, with the root on top. The root has a name, but no URL key, and does not appear in the [top navigation](navigation-top.md) of the store. All other categories in the menu are nested below the root. Because the root category is the highest level of the catalog, your store can have only one root category active at a time. You can, however, create additional root categories for alternate catalog structures and different stores.
 
-The following example shows how to create a new root category and assign it to a different store.
+The following example shows how to create a root category and assign it to a different store.
 
-## Step 1: Create a new root category
+## Step 1: Create a root category
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
@@ -22,7 +22,7 @@ The following example shows how to create a new root category and assign it to a
 
 1. Assign a **[!UICONTROL Category Name]**.
 
-   The name you choose will initially be assigned to all store views.
+   The name you choose is initially assigned to all store views.
 
 1. If you want to add products to the catalog from the current catalog, do the following:
 

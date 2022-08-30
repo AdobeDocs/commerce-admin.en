@@ -1,10 +1,10 @@
 ---
 title: Special Price
-description: Learn how to offer special pricing for a designated period of time.
+description: Learn how to offer special pricing for a designated time period.
 ---
 # Special Price
 
-A special price can be offered for a designated period of time. During the specified time period, the special price appears instead of the regular price, followed by a notation that shows the regular price.
+A special price can be offered for a designated time period. During the specified time period, the special price appears instead of the regular price, followed by a notation that shows the regular price.
 
 ![Special price on a product page](./assets/storefront-price-special.png)<!-- zoom -->
 
@@ -78,7 +78,7 @@ The following example shows how to assign the same special price to multiple pro
 
 1. Set **Type** to `Configurable Product` and click **Apply Filters**.
 
-1. If you want to assign the same special price to all of the products, set the control in the header of the first column to `Select All`.
+1. If you want to assign the same special price to all products, set the control in the header of the first column to `Select All`.
 
    As an alternative, you can select the checkbox of each product that you want to include.
 
@@ -90,7 +90,7 @@ The following example shows how to assign the same special price to multiple pro
 
 1. When complete, click **[!UICONTROL Save]**.
 
-The special price available in the store appears in catalog listings as well as on the product page. For a configurable product, the regular price also appears on the product page when the options are chosen.
+The special price available in the store appears in catalog listings and on the product page. For a configurable product, the regular price also appears on the product page when the options are chosen.
 
 ### Set a special price and date range for selected products
 
@@ -114,7 +114,7 @@ The following example shows how to assign the same special price to multiple pro
 
    ![Product Variations](./assets/product-price-special-filter-grid.png)<!-- zoom -->
 
-1. If you want to assign the same special price to all of the products, set the control in the header of the first column to `Select All`.
+1. If you want to assign the same special price to all products, set the control in the header of the first column to `Select All`.
 
    As an alternative, you can select the checkbox of each product that you want to include.
 
@@ -138,7 +138,7 @@ The following example shows how to assign the same special price to multiple pro
 
    A message indicates how many records were updated with the special price.
 
-   The special price becomes available in the store on the date specified, and appears in catalog listings as well as on the product page. For a configurable product, the regular price also appears on the product page when the options are chosen.
+   The special price becomes available in the store on the date specified, and appears in catalog listings and on the product page. For a configurable product, the regular price also appears on the product page when the options are chosen.
 
    ![Special Price for Configurable Product](./assets/storefront-special-price-configurable-product-detail.png)<!-- zoom -->
 
