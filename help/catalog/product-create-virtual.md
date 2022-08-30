@@ -4,7 +4,7 @@ description: Learn how to create a virtual product that represents a non-tangibl
 ---
 # Virtual product
 
-Virtual products, or digital goods, represent non-tangible items such as memberships, services, warranties, or subscriptions and digital downloads of books, music, videos, or other products. Virtual products can be sold individually or included as part of the [Grouped Product](product-create-grouped.md), [Configurable Product, or [Bundle Product](product-create-bundle.md) product types.
+Virtual products, or digital goods, represent non-tangible items such as memberships, services, warranties, or subscriptions and digital downloads of books, music, videos, or other products. Virtual products can be sold individually or included as part of the [Grouped Product](product-create-grouped.md), [Configurable Product](product-create-configurable.md), or [Bundle Product](product-create-bundle.md) product types.
 
 Aside from the absence of the _[!UICONTROL Weight]_ field, the process of creating a virtual product and a simple product is the same. The following instructions demonstrate the process of creating a virtual product using a [product template](attribute-sets.md), required fields, and basic settings. When you finish the basics, you can complete the other product settings as needed.
 
