@@ -1,5 +1,5 @@
 ---
-title: "[!UICONTROL Catalog]" menu"
+title: "[!UICONTROL Catalog] menu"
 description: Use the [!UICONTROL Catalog] menu to access to product creation, category, and inventory management tools.
 ---
 # [!UICONTROL Catalog] menu
