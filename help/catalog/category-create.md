@@ -108,7 +108,7 @@ It's important to clearly define categorical relationships such as parent catego
 
    - Enter the value to be used as an incremental price step for layered navigation.
 
-1. click **[!UICONTROL Save]** and continue.
+1. Click **[!UICONTROL Save]** and continue.
 
    ![Display settings](./assets/category-display-settings.png)<!-- zoom -->
    
@@ -128,7 +128,7 @@ It's important to clearly define categorical relationships such as parent catego
    
    See also [_Search engine optimization_](categories-search-engine-optimization.md)
 
-1. click **[!UICONTROL Save]** and continue.
+1. Click **[!UICONTROL Save]** and continue.
 
 ## Step 6: Choose the products in category
 
@@ -144,7 +144,7 @@ It's important to clearly define categorical relationships such as parent catego
 
    See also [Products in category](categories-product-assignments.md)
 
-1. click **[!UICONTROL Save]** and continue.
+1. Click **[!UICONTROL Save]** and continue.
 
 ## Step 7: Set the category permissions
 

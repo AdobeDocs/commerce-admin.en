@@ -19,6 +19,8 @@ The category structure of your catalog can influence how well your site is index
 |Level 3|The third-level appears below each  main menu option. For example, under _Women_, the third-level options are _Tops_ and _Bottoms_.|
 |Level 4|The fourth-level options are subcategories that fly out from a third-level option. For example, under _Tops_, the fourth level menu options are _Jackets_, _Hoodies & Sweatshirts_, _Tees_, and _Bras & Tanks_.|
 
+{style="table-layout:auto"}
+
 ## Set the top navigation
 
 For a category to appear in the top navigation of a store, complete the following steps:

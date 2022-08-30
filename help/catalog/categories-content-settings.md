@@ -66,5 +66,7 @@ For more information, see [Using the Editor](../content-design/editor.md).
 |Setting|[Scope](../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |[!UICONTROL Category Image]|Store View|Specifies an image for the top of the category page. Methods: <br/><br/>**[!UICONTROL Upload]** - Uploads an image file from your local computer to the gallery and uses it as the category image. <br/><br/>**[!UICONTROL Select from Gallery]** - Prompts you to choose an existing image from the gallery. <br/><br/>![Page Builder camera icon](../assets/icon-camera.png) - Either drag an image file to the camera tile or browse to the image and select it from your local file system.|
-|[!UICONTROL Description]|Store View|Specifies a description that appears on the category page. <br/><br/>**[!UICONTROL Edit with Page Builder]** - Opens the [Page Builder workspace](../page-builder/workspace.md), where you can edit the description. <br/><br/>**[!UICONTROL Show / Hide Editor]** - Toggles the display between WYSIWYG editor and HTML modes.|
+|[!UICONTROL Description]|Store View|Specifies a description that appears on the category page. <br/><br/>**[!UICONTROL Edit with Page Builder]** - Opens the [[!DNL Page Builder] workspace](../page-builder/workspace.md), where you can edit the description. <br/><br/>**[!UICONTROL Show / Hide Editor]** - Toggles the display between WYSIWYG editor and HTML modes.|
 |[!UICONTROL Add CMS Block]|Store View|Adds an existing [CMS block](../content-design/blocks.md) to the category page.|
+
+{style="table-layout:auto"}

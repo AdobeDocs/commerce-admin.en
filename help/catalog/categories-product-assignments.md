@@ -62,6 +62,8 @@ For a category, the _[!UICONTROL Products in Category]_ section lists the produc
 |[!UICONTROL Automatic Sorting]|Automatically applies a sorting order to the list of category products. Options: <br/>`None`<br/>`Move low stock to top`<br/>`Move low stock to bottom`<br/>`Special price to top`<br/>`Special price to bottom`<br/>`Newest products first`<br/>`Sort by color`<br/>`Name: A - Z`<br/>`Name: Z - A`<br/>`SKU: Ascending`<br/>`SKU: Descending`<br/>`Price: High to Low`<br/>`Price: Low to High`|
 |[!UICONTROL Add Condition]|Adds another condition to the rule.|
 
+{style="table-layout:auto"}
+
 ### Page conditions
 
 |Option|Description|
@@ -70,6 +72,8 @@ For a category, the _[!UICONTROL Products in Category]_ section lists the produc
 |[!UICONTROL Operator]|Specifies the operator that is applied to the attribute value to meet the condition. Unless an operator is specified, `Equal` is used as the default. Options: `Equal` / `Not equal` / `Greater than` / `Greater than or equal to` / `Less than` / `Less than or equal to` / `Contains`|
 |[!UICONTROL Value]|Specifies the value  the attribute must have to meet the condition.|
 |[!UICONTROL Logic]|Used to define multiple conditions, and appears only when an additional condition is added. Options: `OR` / `AND`|
+
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -91,6 +95,8 @@ For a category, the _[!UICONTROL Products in Category]_ section lists the produc
 | ![Move controller](../assets/icon-move.png) | The drag and drop control allows you to grab a product and move it to another position in the current page of the grid. To learn more, see [Visual Merchandiser](https://docs.magento.com/user-guide/marketing/visual-merchandiser.html). |
 | ![Position controller](../assets/control-position.png) | Determines the position of the product in the list. |
 
+{style="table-layout:auto"}
+
 ## Page controls
 
 {{ce-feature}}
@@ -101,3 +107,5 @@ For a category, the _[!UICONTROL Products in Category]_ section lists the produc
 | [!UICONTROL Search Filters] | The filter controls at the top of each column can be used to enter specific values you want to either include or omit from the list, depending on the Select All setting. |
 | [!UICONTROL Reset Filter] | Clears all search filters. |
 | [!UICONTROL Search] | Searches the catalog based on the filter criteria and displays the result. |
+
+{style="table-layout:auto"}

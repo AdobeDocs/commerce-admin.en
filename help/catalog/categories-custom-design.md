@@ -20,6 +20,8 @@ The _[!UICONTROL Design]_ section gives you control over the look and feel of a 
 |[!UICONTROL Custom Layout Update]|Lists the available custom layout update files on the server. Choose the custom layout update that you want to apply to the category.|
 |[!UICONTROL Apply Design to Products]|When selected, applies the custom settings to all products in the category.|
 
+{style="table-layout:auto"}
+
 ## Scheduled Design Update
 
 {{ce-feature}}

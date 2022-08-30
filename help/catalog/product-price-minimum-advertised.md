@@ -30,6 +30,8 @@ For products with prices that depend on a selected option (such as custom option
 |[Bundle](product-create-bundle.md) (with fixed price)|The actual price does not automatically appear on catalog pages, but is included only according to the [!UICONTROL Display Actual Price] setting. The prices of bundle items appear normally. MAP is not available for bundle products with dynamic pricing.|
 |[Downloadable](product-create-downloadable.md)|The actual price does not automatically appear on  catalog list and product pages, but is included only according to the [!UICONTROL Display Actual Price] setting. The price associated with each download link appears normally.|
 
+{style="table-layout:auto"}
+
 ## Using MAP with price settings
 
 | Price setting | Description |

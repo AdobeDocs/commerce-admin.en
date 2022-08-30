@@ -38,22 +38,22 @@ The downloadable configuration settings determine the default values and deliver
    - `Yes` - Allows customers to email the download link to others.
    - `No` - Prevents customers from sharing the download link with others by requiring customers to log in to their accounts to access download links.
 
-1. For **Default Sample Title**, enter the heading that you want to appear above the selection of samples.
+1. For **[!UICONTROL Default Sample Title]**, enter the heading that you want to appear above the selection of samples.
 
    ![Sample Title](./assets/product-downloadable-config-sample-title.png)<!-- zoom -->
 
-1. For **Default Link Title**, enter the default text that you want to use for download links.
+1. For **[!UICONTROL Default Link Title]**, enter the default text that you want to use for download links.
 
-1. If you want the download link to open in a new browser window, set **Opens Links in New Window** to `Yes`.
+1. If you want the download link to open in a new browser window, set **[!UICONTROL Opens Links in New Window]** to `Yes`.
 
    This setting is used to keep the browser window to your store open.
 
-1. To determine how downloadable content is delivered, set **Use Content Disposition** to one of the following:
+1. To determine how downloadable content is delivered, set **[!UICONTROL Use Content Disposition]** to one of the following:
 
    - `Attachment` - Delivers the download link by email as an attachment.
    - `Inline` - Delivers the download link as a link on a web page.
 
-1. If you want to require that purchasers register for a customer account and log in before purchasing a download, set **Disable Guest Checkout if Cart Contains Downloadable Items** to `Yes`.
+1. If you want to require that purchasers register for a customer account and log in before purchasing a download, set **[!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items]** to `Yes`.
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
@@ -154,6 +154,8 @@ The form is updated to reflect the change.
    ![Product Details](./assets/product-details-downloadable.png)<!-- zoom -->
 
    There might be additional attributes that describe the product. The selection varies by attribute set and you can complete them later.
+
+#### Assign sources and quantities ([!DNL Inventory Management])
 
 {{$include /help/_includes/inventory-assign-sources.md}}
 

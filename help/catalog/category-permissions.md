@@ -112,7 +112,7 @@ Set this option to prevent members of a specific customer group from using Catal
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) **[!UICONTROL Category Permissions]** on the page and do the following:
 
-   - To create a permissions rule, click **New Permission**.
+   - To create a permissions rule, click **[!UICONTROL New Permission]**.
 
       ![Category Permissions Section](./assets/category-permissions-section-admin.png)<!-- zoom -->
 

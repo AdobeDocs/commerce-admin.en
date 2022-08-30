@@ -6,7 +6,7 @@ description: For a product, the [!UICONTROL Product in Websites] settings identi
 
 The _[!UICONTROL Product in Websites]_ section identifies each website where the product is available, according to the [store hierarchy](https://docs.magento.com/user-guide/stores/stores-all-stores.html).
 
-![Product website scope diagram](./assets/scope-product-website.svg){: "width=550px"}
+![Product website scope diagram](./assets/scope-product-website.svg)
 
 To copy a product to a different website:
 

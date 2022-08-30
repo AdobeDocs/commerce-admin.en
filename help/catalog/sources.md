@@ -31,3 +31,5 @@ The _[!UICONTROL Sources]_ section of the product settings lists the sources fro
 |[!UICONTROL Notify Qty]|An amount for the _Notify for Quantity_ for this specific source if `Notify Quantity Use Default` is not selected.|
 |[!UICONTROL Notify Qty Use Default]|Indicates to use the default setting for _Notify for Quantity_ in the product Advanced Inventory or global setting in the store configuration. For more information about advanced inventory settings for your product, see [Configure advanced product options](../inventory-management/product-options.md).|
 |[!UICONTROL Actions]|For an assigned source, click **[!UICONTROL Unassign]** to make the source not available for the product. For an unassigned source, click **[!UICONTROL Assign Sources]** to make a source available for the product. For more information about [!UICONTROL Assign Sources] options, see [Assigning Sources per Product](../inventory-management/sources-assign-per-product.md).|
+
+{style="table-layout:auto"}

@@ -71,7 +71,7 @@ breadcrumb-title: Catalog Management
     - [Configurations](product-configurations.md)
     - [Product Reviews](settings-advanced-product-reviews.md)
     - [Images and Videos](product-images-and-video.md)
-    - [Search engine optimization](product-search-engine-optimization.md)
+    - [Search Engine Optimization](product-search-engine-optimization.md)
     - [Related Products, Up-Sells, and Cross-Sells](related-products-up-sells-cross-sells.md)
     - [Product View Optimization](product-view-optimization.md)
     - [Customizable Options](settings-advanced-custom-options.md)

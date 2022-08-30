@@ -17,6 +17,8 @@ The online status of the product is indicated by the switch at the top of the fo
 | ![Toggle yes](../assets/toggle-yes.png) | Indicates that the product is currently online. |
 | ![Toggle no](../assets/toggle-no.png) | Indicates that the product is currently offline. |
 
+{style="table-layout:auto"}
+
 ## Attribute set
 
 The name of the [attribute set](attribute-sets.md) appears in the upper-left corner and determines the fields that appear in the product record. To choose a different attribute set, click the down arrow next to the default attribute set name.
@@ -40,6 +42,8 @@ The _[!UICONTROL Save]_ menu includes several options that let you save and cont
 |[!UICONTROL Save & Duplicate]|Save and close the current product, and open a new duplicate copy.|
 |[!UICONTROL Save & Close]|Save the current product and return to the _[!UICONTROL Products]_ workspace.|
 
+{style="table-layout:auto"}
+
 ## Default field values
 
 To save time when creating products, the default value of several product fields references values from another field. You can either accept the default value or enter another. The following fields have automatically generated default values:
@@ -50,6 +54,8 @@ To save time when creating products, the default value of several product fields
 |[!UICONTROL Meta Title]|Based on product name. |
 |[!UICONTROL Meta Keywords]|Based on product name. |
 |[!UICONTROL Meta Description]|Based on product name and description. |
+
+{style="table-layout:auto"}
 
 The placeholders that represent the value of another field are enclosed in double-curly braces. Any attribute code that is included in the product [attribute set](attribute-sets.md) can be used as a placeholder.
 

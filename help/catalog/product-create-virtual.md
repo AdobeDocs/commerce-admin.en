@@ -89,6 +89,8 @@ The form is updated to reflect the change.
 
       There might be additional individual attributes that describe the product. The selection varies by attribute set and you can complete them later.
 
+### Assign sources and quantities ([!DNL Inventory Management])
+
 {{$include /help/_includes/inventory-assign-sources.md}}
 
 ## Step 5: Complete the product information

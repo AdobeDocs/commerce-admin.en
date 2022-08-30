@@ -8,6 +8,10 @@ Adobe Commerce and Magento Open Source use the term _catalog_ to refer to the pr
 
 One of the most important areas in creating and managing your store is product creation and categories. The Admin provides a number of tools you will use for the initial setup for your store, as well as maintaining your store and optimizing your business.
 
+>[!TIP]
+>
+>Inventory Management for Adobe Commerce and Magento Open Source gives you the tools to manage your product inventory. Merchants with a single store to multiple warehouses, stores, pickup locations, drop shippers, and more can use these features to maintain quantities for sales and handle shipments to complete orders. For more information about these features and how you can use them to manage stock in multiple locations, see the [Inventory Management User Guide](../inventory-management/introduction.md).
+
 ## Catalog scope
 
 Access to catalog data is determined by several factors, including the [scope](../getting-started/websites-stores-views.md#scope-settings) setting, the catalog configuration, and the [root category](category-root.md) that is assigned to the store. The catalog includes products that are enabled and available for sale, as well as those that are currently not offered for sale.
@@ -56,10 +60,10 @@ Although the _Spanish_ store view is selected in the following example, the prod
 
 1. To verify the change in your store, do the following:
 
-   - In the upper-right corner, click the _Admin_ menu arrow and choose **Customer View**.
+   - In the upper-right corner, click the _Admin_ menu arrow and choose **[!UICONTROL Customer View]**.
 
       ![Customer view](./assets/product-admin-menu-customer-view.png)<!-- zoom -->
 
-   - In the upper-right corner of the store, set the **Language Chooser** to the store view of the product that you edited and find the product that you edited for the view.
+   - In the upper-right corner of the store, set the **[!UICONTROL Language Chooser]** to the store view of the product that you edited and find the product that you edited for the view.
 
       ![Language Chooser](./assets/storefront-language-chooser.png)<!-- zoom -->

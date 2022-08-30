@@ -23,3 +23,5 @@ The _[!UICONTROL Configurations]_ section lists any existing variations of the p
 |[!UICONTROL Status]|Product status **[!UICONTROL Enabled]** / **[!UICONTROL Disabled]**|
 |[!UICONTROL Attributes]|A set of attributes that are used to describe a product|
 |[!UICONTROL Actions]|Lists all actions that can be applied to selected products. Actions:<br /> **[!UICONTROL Choose a different Product]** - Removes and replaces the current product with the new selection.<br /> **[!UICONTROL Disable Product]** / **[!UICONTROL Enable Product]** - Disables or enables the selected product.<br /> **[!UICONTROL Remove Product]** - Removes selected product from the current configuration.|
+
+{style="table-layout:auto"}

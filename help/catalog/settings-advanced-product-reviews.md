@@ -22,7 +22,9 @@ The _[!UICONTROL Product Reviews]_ section lists all reviews that customers have
 |[!UICONTROL Type]|Type of user who left the review (`Guest` or `Customer`)|
 |[!UICONTROL Product]|Reviewed product name|
 |[!UICONTROL SKU]|The unique Stock Keeping Unit that is assigned to the product|
-|[!UICONTROL Action]|Opens the product in Edit mode|
+|[!UICONTROL Action]|Opens the product in edit mode|
+
+{style="table-layout:auto"}
 
 ## Moderate reviews for a specific product
 

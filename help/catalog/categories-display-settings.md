@@ -15,3 +15,5 @@ Display settings determine which content elements appear on a category page and 
 |[!UICONTROL Available Product Listing Sort By]|(Required) The default values are `Position`, `Name`, and `Price`. To customize the sorting option, deselect the **[!UICONTROL Use All Available Attributes]** checkbox and select the attributes you want to use. You can define and add attributes as needed.|
 |[!UICONTROL Default Product Listing Sort By]|(Required) To define the default _[!UICONTROL Sort By]_ option, deselect the **[!UICONTROL Use Config Settings]** checkbox and select an attribute.|
 |[!UICONTROL Layered Navigation Price Step]|By default, Commerce displays the price range in increments of 10, 100, and 1000, depending on the products in the list. To change the Price Step range, deselect the **[!UICONTROL Use Config Settings]** checkbox.|
+
+{style="table-layout:auto"}

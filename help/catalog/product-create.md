@@ -44,6 +44,8 @@ The most frequently used product settings and attributes are located at the top 
 |[[!UICONTROL Gift options]](product-gift-options.md)|Used to enable or disable a gift message option during checkout at the product level.|
 |[[!UICONTROL Product In Shared Catalogs]](../b2b/catalog-shared.md) | ![B2B for Adobe Commerce](../assets/b2b.svg) (Available with [B2B for Adobe Commerce](./b2b/../introduction.md) only) Enables the ability to maintain shared catalogs with custom pricing for different companies, with access to two types of shared catalogs using different pricing structures.|
 
+{style="table-layout:auto"}
+
 To access the advanced pricing and inventory settings, click the link below **[!UICONTROL Price]** and **[!UICONTROL Quantity]**. For more information, see [Managing Pricing](pricing-advanced.md) and [Inventory Management](../inventory-management/introduction.md).
 
 ![Price and quantity option links](./assets/product-details-simple.png)<!-- zoom -->

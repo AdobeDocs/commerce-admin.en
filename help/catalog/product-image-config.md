@@ -57,6 +57,8 @@ For example, a 3000 x 2100 pixel JPG at 100% could be a 5mb+ image file. Resizin
 |[!UICONTROL Maximum Width]|Global|Determines the maximum pixel width for the image. When the image is resized, it does not exceed this width. Default: `1920`|
 |[!UICONTROL Maximum Height]|Global|Determines the maximum pixel height for the image. When the image is resized, it does not exceed this height. Default: `1200`|
 
+{style="table-layout:auto"}
+
 ## Image placeholders
 
 Adobe Commerce and Magento Open Source use temporary images as placeholders until the permanent product images become available. A different placeholder can be uploaded for each role. The initial placeholder image is a sample logo, which you can replace with the image of your choice.

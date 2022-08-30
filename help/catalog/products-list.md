@@ -25,6 +25,8 @@ You can browse through the list page by page, or search for specific products. U
 |[!UICONTROL Search by keyword]|The search box, in the top-left corner, is used to find products by keyword.|
 |[!UICONTROL Edit]|Opens the product in edit mode. You can accomplish the same thing by clicking anywhere on the row.|
 
+{style="table-layout:auto"}
+
 ## Default columns
 
 |Column|Description|
@@ -44,6 +46,8 @@ You can browse through the list page by page, or search for specific products. U
 |[!UICONTROL Websites]|Indicates the website(s) where the product is available.|
 |[!UICONTROL Action]|Opens the product in Edit mode.|
 |[!UICONTROL Shared Catalog]|![B2B for Adobe Commerce](../assets/b2b.svg) (Available with [B2B for Adobe Commerce](./b2b/../introduction.md) only) Indicates the shared catalogs that contain custom pricing for the product.|
+
+{style="table-layout:auto"}
 
 ## Other columns
 
@@ -71,3 +75,5 @@ You can browse through the list page by page, or search for specific products. U
 |[!UICONTROL URL Key]|The URL Key of the product.|
 |[!UICONTROL Tax Class]|The product tax class.|
 |[!UICONTROL Allow Gift Message]|Displays the availability of the _include a gift message_ option for the product.|
+
+{style="table-layout:auto"}

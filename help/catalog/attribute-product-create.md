@@ -36,6 +36,8 @@ You can create attributes while working on a product or from the _[!UICONTROL Pr
    |`Text Swatch`|A text-based representation of a configurable product option that is frequently used for size. [Text swatches](swatches.md#text-based-swatches) can also include hexadecimal color values.|
    |`Page Builder`|A fully-functioning [Page Builder](../page-builder/introduction.md) workspace at the attribute location that makes it easy to add engaging content to the product page.|
 
+   {style="table-layout:auto"}
+
 1. If you want to require an option selection before the customer can purchase the product, set **[!UICONTROL Values Required]** to `Yes`.
 
 1. For [!UICONTROL Dropdown] and [!UICONTROL Multiple Select] input types, do the following:
@@ -148,6 +150,8 @@ Any attribute that is used as a drop-down list of options for a [configurable pr
 |----------|------ |
 | Catalog Input Type for Store Owner | Dropdown |
 | Scope | Global |
+
+{style="table-layout:auto"}
 
 ## Delete an attribute
 

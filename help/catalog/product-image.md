@@ -85,6 +85,8 @@ To exclude an image from the thumbnail gallery, select the **[!UICONTROL Hidden]
 |[!UICONTROL Base Image]|The base image is the main image on the product detail page. Image zoom is activated if you upload an image that is larger image than the image container. Depending on the level of zoom that you want to achieve, the base image should be two or three times the size of the container. Example sizes: 470 x 470 pixels (without Zoom), 1100 x 1100 pixels (with Zoom)|
 |[!UICONTROL Swatch]|A [swatch](swatches.md) can be used to illustrate the color, pattern, or texture. Example size: 50 x 50 pixels|
 
+{style="table-layout:auto"}
+
 ### Watermarks
 
 If you go to the expense of creating your own original product images, there is not much you can do to prevent unscrupulous competitors from stealing them with the click of a mouse. However, you can make them a less attractive target by placing a watermark on each image to identify them as your property. A watermark file can be either a JPG (JPEG), GIF, or PNG image. Both GIF and PNG file types support transparent layers, which can be used to give the watermark a transparent background.

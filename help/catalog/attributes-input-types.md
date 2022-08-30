@@ -23,7 +23,9 @@ When viewed from the Admin, attributes are the fields that you complete when you
 |[!UICONTROL Fixed Product Tax]|Lets you define [FPT rates](https://docs.magento.com/user-guide/tax/fixed-product-tax.html) based on the requirements of your locale.|
 |[!UICONTROL Visual Swatch]|Displays a swatch that depicts the color, texture, or pattern of a configurable product. A [visual swatch](swatches.md) can be filled with a hexadecimal color value, or display an uploaded image that represents the color, material, texture, or pattern of the option.|
 |[!UICONTROL Text Swatch]|A text-based representation of a configurable product option that is frequently used for size. [Text swatches](swatches.md) can also include hexadecimal color values.|
-|[!UICONTROL Page Builder]|A fully-functioning [Page Builder](../page-builder/workspace.md) workspace at the attribute location that makes it easy to add engaging content to the product page.|
+|[!UICONTROL Page Builder]|A fully-functioning [[!DNL Page Builder]](../page-builder/workspace.md) workspace at the attribute location that makes it easy to add engaging content to the product page.|
+
+{style="table-layout:auto"}
 
 ## Date and time options
 

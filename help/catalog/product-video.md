@@ -97,5 +97,7 @@ According to the Google developer [Terms and Conditions], YouTube may disable AP
 |[!UICONTROL Get Video Information]|Retrieves the video meta data that is stored on the host server. You can use the original data or update it as needed.|
 |[!UICONTROL Role]|Determines how the preview image is used in your store. You can choose any combination of options: `Base Image`, `Small Image`, `Thumbnail`, `Swatch Image`, `Hide from Product Page`|
 
+{style="table-layout:auto"}
+
 [1]: https://console.developers.google.com/
 [Terms and Conditions]: https://developers.google.com/youtube/terms/developer-policies#d.-accessing-youtube-api-services

@@ -70,6 +70,8 @@ Product listings can be set to appear by default as either a list or grid. You c
 |[!UICONTROL Show Per Page]|Determines how many products appear per page.|
 |Pagination links|Navigation links to other pages.|
 
+{style="table-layout:auto"}
+
 ## Pagination controls
 
 The Pagination settings appear at the top and bottom of the list, and control the format of the pagination links for product listings. You can set the number of links that appear in the control, and configure the Next and Previous links. For the pagination links to appear, there must be more products in the list than are allowed per page in the product list configuration.

@@ -26,6 +26,8 @@ The properties of each attribute that is used for a configurable product variati
 |[!UICONTROL Catalog Input Type for Store Owner]|The input type of any attribute that is used for a product variation must be one of the following: `Dropdown`, `Visual Swatch`, or `Text Swatch`.|
 |[!UICONTROL Values Required]|`Yes`|
 
+{style="table-layout:auto"}
+
 ### Step 1: Choose the product type
 
 1. On the _Admin_ sidebar, go to  **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
@@ -88,13 +90,13 @@ The [attribute set](attribute-sets.md) determines the selection of fields that a
 
 >[!NOTE]
 >
->A configurable product must always have a weight. If you select **This item has no weight** from the drop-down list, it is automatically changed to **This item has weight** after saving the product.
+>A configurable product must always have a weight. If you select **[!UICONTROL This item has no weight]** from the drop-down list, it is automatically changed to **[!UICONTROL This item has weight]** after saving the product.
 
-1. Accept the default **Visibility** setting of `Catalog, Search`.
+1. Accept the default **[!UICONTROL Visibility]** setting of `Catalog, Search`.
 
-1. To feature the product in the list of[ new products](../content-design/widget-new-products-list.md), select the **Set Product as New** checkbox.
+1. To feature the product in the list of[ new products](../content-design/widget-new-products-list.md), select the **[!UICONTROL Set Product as New]** checkbox.
 
-1. To assign Categories to the product, click the **Select…** box and do either of the following:
+1. To assign Categories to the product, click the **[!UICONTROL Select…]** box and do either of the following:
 
    - Choose an existing category:
 
@@ -104,13 +106,13 @@ The [attribute set](attribute-sets.md) determines the selection of fields that a
 
    - Create a new category:
 
-      - Click **New Category**.
+      - Click **[!UICONTROL New Category]**.
 
-      - Enter the **Category Name** and choose the **Parent Category** to determine its position in the menu structure.
+      - Enter the **[!UICONTROL Category Name]** and choose the **[!UICONTROL Parent Category]** to determine its position in the menu structure.
 
-      - Click **Create Category**.
+      - Click **[!UICONTROL Create Category]**.
 
-1. Choose the **Country of Manufacture**.
+1. Choose the **[!UICONTROL Country of Manufacture]**.
 
    ![Product Details](./assets/product-details-configurable.png)<!-- zoom -->
 
@@ -130,7 +132,7 @@ The progress bar at the top of the page shows where you are in the process and g
 
 ### Step 1: Choose the attributes
 
-1. Continuing from above, scroll down to the _Configurations_ section and click **Create Configurations**.
+1. Continuing from above, scroll down to the _[!UICONTROL Configurations]_ section and click **[!UICONTROL Create Configurations]**.
 
    ![Configurations](./assets/product-configurable-create-configurations.png)<!-- zoom -->
 
@@ -142,7 +144,7 @@ The progress bar at the top of the page shows where you are in the process and g
 
    ![Select Attributes](./assets/product-create-configurable-step1.png)<!-- zoom -->
 
-1. If you need to add a new attribute, click **Create New Attribute** and do the following:
+1. If you need to add a new attribute, click **[!UICONTROL Create New Attribute]** and do the following:
 
    - Complete the attribute properties.
 
@@ -170,7 +172,7 @@ This step determines the images, pricing, and quantity of each configuration. Th
 
 Choose the configuration options that apply.
 
-Use one of the following methods to configure the **images**:
+Use one of the following methods to configure the **[!UICONTROL images]**:
 
 **Method 1:** Apply a single set of images to all SKUs
 
@@ -190,11 +192,11 @@ Because we already uploaded an image for the parent product, we'll use this opti
 
    1. For each attribute value, either browse to the images that you want to use for that configuration or drag them to the box.
 
-      If you drag the an image to a value box, it also appears in the sections for the other values. If you want to delete an image, click the **trashcan** (![Trash icon](../assets/icon-delete-trashcan-solid.png)) icon.
+      If you drag the an image to a value box, it also appears in the sections for the other values. If you want to delete an image, click the _Trash can_ (![Trash icon](../assets/icon-delete-trashcan-solid.png)) icon.
 
       ![Unique images per SKU](./assets/product-configurable-create-configurations-add-images-unique.png)<!-- zoom -->
 
-Use one of the following methods to configure the **prices**:
+Use one of the following methods to configure the **[!UICONTROL prices]**:
 
 **Method 1:** Apply the same price to all SKUs
 
@@ -232,7 +234,7 @@ Use one of the following methods to configure the **[!UICONTROL Quantity]**:
 
    - Select the **[!UICONTROL Apply single quantity to each SKUs]** option.
 
-   - To add a source, click **Assign Sources**.
+   - To add a source, click **[!UICONTROL Assign Sources]**.
 
    - Browse or search for a source you want to add. Select the checkbox next to the sources you want to add for the product.
 
@@ -338,7 +340,7 @@ With these Stock Status relationships in mind, note the following:
 
 - When you change the **[!UICONTROL Stock Status]** of the configurable product as `Out of Stock` and click **[!UICONTROL Save]**, it is **_not controlled_** by the stock statuses of its child products. It is always displayed as `Out of Stock` in the Admin and on the storefront.
 
-- When you set the **[!UICONTROL Stock Status]** of the configurable product as `In Stock` and click **[!UICONTROL Save]**, it is  **_controlled_** by the stock statuses of its child products, which is reflected in the Admin and on the storefront.
+- When you set the **[!UICONTROL Stock Status]** of the configurable product as `In Stock` and click **[!UICONTROL Save]**, it is **_controlled_** by the stock statuses of its child products, which is reflected in the Admin and on the storefront.
 
 ## Things to remember
 

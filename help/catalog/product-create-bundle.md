@@ -83,23 +83,23 @@ The form is updated to reflect the change.
 
 1. Take note of the following:
 
-   - The **Quantity** is not available because the value is determined for each bundle item.
+   - The **[!UICONTROL Quantity]** is not available because the value is determined for each bundle item.
 
    - By default, the **[!UICONTROL Stock Status]** is set to `In Stock`.
 
 1. To determine the weight of the bundle, do one of the following:
 
-   - To have the weight reflect the options chosen by the customer, set **Dynamic Weight** set `Yes` and leave **[!UICONTROL Weight]** blank.
+   - To have the weight reflect the options chosen by the customer, set **[!UICONTROL Dynamic Weight]** set `Yes` and leave **[!UICONTROL Weight]** blank.
 
-   - To assign a fixed weight to the bundle, set **Dynamic Weight** to `No` and enter the **[!UICONTROL Weight]** of the bundle.
+   - To assign a fixed weight to the bundle, set **[!UICONTROL Dynamic Weight]** to `No` and enter the **[!UICONTROL Weight]** of the bundle.
 
    ![Dynamic Weight](./assets/product-bundle-dynamic-weight.png)<!-- zoom -->
 
-1. To feature the product in the list of [new products](../content-design/widget-new-products-list.md), select the **Set Product as New** checkbox.
+1. To feature the product in the list of [new products](../content-design/widget-new-products-list.md), select the **[!UICONTROL Set Product as New]** checkbox.
 
-1. Accept the default **Visibility** setting of `Catalog, Search`.
+1. Accept the default **[!UICONTROL Visibility]** setting of `Catalog, Search`.
 
-1. To assign Categories to the product, click the **Select…** box and do either of the following:
+1. To assign _[!UICONTROL Categories]_ to the product, click the **[!UICONTROL Select…]** box and do either of the following:
 
    **Choose an existing category:**
 
@@ -109,13 +109,13 @@ The form is updated to reflect the change.
 
    **Create a new category:**
 
-   - Click **New Category**.
+   - Click **[!UICONTROL New Category]**.
 
-   - Enter the **Category Name** and choose the **Parent Category** to determine its position in the menu structure.
+   - Enter the **[!UICONTROL Category Name]** and choose the **[!UICONTROL Parent Category]** to determine its position in the menu structure.
 
-   - Click **Create Category**.
+   - Click **[!UICONTROL Create Category]**.
 
-1. Choose the **Country of Manufacture**.
+1. Choose the **[!UICONTROL Country of Manufacture]**.
 
    ![Bundle Details](./assets/product-bundle-details.png)<!-- zoom -->
 
@@ -123,11 +123,11 @@ The form is updated to reflect the change.
 
 ## Step 5: Add the bundle items
 
-The Bundle Items section is used to add items to a Bundle product type and to edit the current selection of items.
+The _[!UICONTROL Bundle Items]_ section is used to add items to a Bundle product type and to edit the current selection of items.
 
 ![Bundle items defined for a product](./assets/product-bundle-items-ball.png)<!-- zoom -->
 
-1. Scroll down to the _Bundle Items_ section and set **Ship Bundle Items** to one of the following:
+1. Scroll down to the _Bundle Items_ section and set **[!UICONTROL Ship Bundle Items]** to one of the following:
 
    - `Separately`
    - `Together`
@@ -136,11 +136,11 @@ The Bundle Items section is used to add items to a Bundle product type and to ed
 
    If you select `Together`, all bundle items must be assigned the same [source](../inventory-management/sources-manage.md). <!-- Add link to In-Store Delivery when the topic is added -->
 
-1. Click **Add Option** and do the following:
+1. Click **[!UICONTROL Add Option]** and do the following:
 
    ![Add Bundle Options](./assets/product-bundle-new-option.png)<!-- zoom -->
 
-   - Enter an **Option Title** to be used as the field label.
+   - Enter an **[!UICONTROL Option Title]** to be used as the field label.
 
    - Set **[!UICONTROL Input Type]** to one of the following:
 
@@ -151,24 +151,24 @@ The Bundle Items section is used to add items to a Bundle product type and to ed
 
    - To make the field a required entry, select the **[!UICONTROL Required]** checkbox.
 
-   - Click **Add Products to Option** and select the checkbox of each product that you want to include in this option.
+   - Click **[!UICONTROL Add Products to Option]** and select the checkbox of each product that you want to include in this option.
 
       If there are many products, use the list filters and pagination controls to find the products you need.
 
-   - Click **Add Selected Products**.
+   - Click **[!UICONTROL Add Selected Products]**.
 
       ![Add Selected Products](./assets/product-bundle-add-products-to-option.png)<!-- zoom -->
 
-   - After the items appear in the _Options_ section, choose an item to be the **Default** selection.
+   - After the items appear in the _Options_ section, choose an item to be the **[!UICONTROL Default]** selection.
 
    - In the _Default Quantity_ column, enter the quantity of each item that is to be added to the bundle when a customer chooses the item.
 
-   - To allow customers to change the quantity of a bundle item, select **User Defined**.
+   - To allow customers to change the quantity of a bundle item, select **[!UICONTROL User Defined]**.
 
       
       >[!NOTE]
       >
-      >The quantity can be a preset or user-defined value. However, do not assign the _User Defined_ property to checkbox or multiple-select input types.
+      >The quantity can be a preset or user-defined value. However, do not assign the _[!UICONTROL User Defined]_ property to checkbox or multiple-select input types.
 
       By default, the Default Quantity that is included in a bundle item cannot be changed by the customer. However, the customer can enter the quantity of the item that is to be included in the bundle.
 
@@ -178,13 +178,13 @@ The Bundle Items section is used to add items to a Bundle product type and to ed
 
 1. Repeat these steps for each item you want to add to the bundle.
 
-1. To change the order of items in a bundle section, click the **Move** ( ![Move icon](../assets/icon-move.png) ) icon at the beginning of the row and drag the item into position.
+1. To change the order of items in a bundle section, click the _Move_ ( ![Move icon](../assets/icon-move.png) ) icon at the beginning of the row and drag the item into position.
 
    ![Change the Order of Bundle Items](./assets/product-bundle-items-move.png)<!-- zoom -->
 
    The order of items can also be changed in the data of an exported bundle product and then reimported into the catalog. For more information, see [Importing Bundle Products](https://docs.magento.com/user-guide/system/data-transfer-bundle-products.html).
 
-1. To change the order of sections in a bundle product, click the **Move** ( ![Move icon](../assets/icon-move.png) ) icon in the header of the section and drag the section to the new position.
+1. To change the order of sections in a bundle product, click the _Move_ ( ![Move icon](../assets/icon-move.png) ) icon in the header of the section and drag the section to the new position.
 
    To have a better view of the workspace, collapse each section first and then drag them into position.
 
@@ -238,6 +238,8 @@ Scroll down and complete the information in the following sections as needed:
 |[!UICONTROL Checkbox]|Displays a checkbox for each option, followed by the product name and price. Multiple items can be selected.|![Checkbox](./assets/product-bundle-input-type-checkbox.png)<!-- zoom -->|
 |[!UICONTROL Multiple Select]|Displays a list of options with the product name and price. To select multiple items, hold down the Ctrl key (PC) or the Command key (Mac) and click each item.|![Multiple Select](./assets/product-bundle-input-type-multiple-select.png)<!-- zoom -->|
 
+{style="table-layout:auto"}
+
 ## Field descriptions
 
 |Field|Description|
@@ -246,6 +248,8 @@ Scroll down and complete the information in the following sections as needed:
 |[!UICONTROL Weight]|Specifies whether the weight is calculated based on the items selected or is a fixed weight for the entire bundle. Options: `Fixed` / `Dynamic`|
 |[!UICONTROL Price View]|Determines if the product price is shown as a range, from the least expensive to the most expensive (Price Range) or with the least expensive shown (As Low As). Options: `Price Range` / `As Low As`|
 |Ship Bundle Items|Specifies if individual items can be shipped separately.|
+
+{style="table-layout:auto"}
 
 ## Things to remember
 

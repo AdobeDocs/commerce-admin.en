@@ -37,6 +37,8 @@ From the [Products in Category](categories-product-assignments.md) section, a st
 |[!UICONTROL Select All on This Page]|Selects the checkbox of records on the current page.|
 |[!UICONTROL Deselect All on This Page]|Clears the checkbox of records on the current page.|
 
+{style="table-layout:auto"}
+
 ## Add products by SKU
 
 1. Click **[!UICONTROL Add Products]**

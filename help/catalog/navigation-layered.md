@@ -123,6 +123,8 @@ Iterative splitting provides the best distribution of products among price range
 | $440.00 - $449.99 (1) |   |
 | $710.00 and above (1) |   |
 
+{style="table-layout:auto"}
+
 ## Configure price navigation
 
 >[!IMPORTANT]

@@ -47,6 +47,8 @@ Enter the special price to offer a discounted price during a specified time peri
 |[!UICONTROL From]|Sets the first date the Special Price is available. You can either enter the date or select it from the calendar.|
 |[!UICONTROL To]|Sets the last date the Special Price is available. You can either enter the date or select it from the calendar.|
 
+{style="table-layout:auto"}
+
 ### Cost
 
 This is the actual cost of the item.
@@ -66,6 +68,8 @@ Sets up promotional and tier prices for specific customer groups.
 |![Trash icon](../assets/icon-delete-trashcan-solid.png) |Deletes the current rule.|
 |**[!UICONTROL Add]**|Inserts an additional row for a new rule.|
 
+{style="table-layout:auto"}
+
 ### Catalog and Tier Price
 
 Sets up promotional and tier prices for specific shared catalogs and customer groups.
@@ -83,6 +87,8 @@ Sets up promotional and tier prices for specific shared catalogs and customer gr
 |![Trash icon](../assets/icon-delete-trashcan-solid.png) |Deletes the current rule.|
 |**[!UICONTROL Add]**|Inserts an additional row for a new rule.|
 
+{style="table-layout:auto"}
+
 ### Minimum Advertised Price
 
 The minimum advertised price (MAP) for the product.
@@ -97,3 +103,5 @@ Determines where the actual price of the product is visible to the customer.
 |[!UICONTROL On Gesture]|Displays the actual product price in a popup, in response to the _Click for price_ or _What's this?_ link.|
 |[!UICONTROL In Cart]|Displays the actual product price in the shopping cart.|
 |[!UICONTROL Before Order Confirmation]|Displays the actual product price at the end of the checkout process, just before the order is submitted.|
+
+{style="table-layout:auto"}

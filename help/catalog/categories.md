@@ -16,6 +16,8 @@ Before you add products to your catalog, you need to establish the basic categor
 |**[!UICONTROL Delete]** |Removes the current category or subcategory from the tree.|
 |**[!UICONTROL Save]** |Saves any changes made to the category.|
 
+{style="table-layout:auto"}
+
 >[!NOTE]
 >
 >Restricted administrators do not have access to root categories and cannot create subcategories, unless they have access to all Websites.

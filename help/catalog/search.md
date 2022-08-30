@@ -1,8 +1,8 @@
 ---
-title: Catalog Search Overview
+title: Catalog search overview
 description: Learn about the Quick Search and Advanced Search tools that customers can use to locate products on the storefront.
 ---
-# Catalog Search Overview
+# Catalog search overview
 
 >[!TIP]
 >

@@ -14,3 +14,5 @@ The _[!UICONTROL Search Engine Optimization]_ section specifies the [URL Key](c
 |[!UICONTROL Meta Title]|Store View| The title appears in the title bar and tab of your browser, and is also the title on a search engine results page (SERP). The meta title should be unique to the page and less than 70 characters in length. |
 |[!UICONTROL Meta Keywords]|Store View| Relevant keywords for the category. Consider using keywords that customers might use to find products in the category. |
 |[!UICONTROL Meta Description]|Store View| The meta description provides a brief overview of the page for search results listings. An ideal length is between 150-160 characters in length, with a maximum of 255 characters. Although not visible to the customer, some search engines include the meta description on the search results page. |
+
+{style="table-layout:auto"}

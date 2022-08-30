@@ -30,6 +30,8 @@ As you learn new words that people use to search for products in your catalog, y
 |[!UICONTROL Suggested Terms]|Determines if the query result displays suggested terms.|
 |[!UICONTROL Actions]|Opens the product in edit mode.|
 
+{style="table-layout:auto"}
+
 ### Add a search term
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_ > **[!UICONTROL Search Terms]**.
@@ -210,3 +212,5 @@ The Search Terms report shows the number of results for each term, and the numbe
 |[!UICONTROL Store]|The store where the search query was applied|
 |[!UICONTROL Results]|Number of results|
 |[!UICONTROL Hits]|Number of uses|
+
+{style="table-layout:auto"}

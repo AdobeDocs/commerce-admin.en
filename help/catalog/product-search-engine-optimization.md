@@ -40,3 +40,5 @@ The default value for each meta data field can be auto-generated based on values
 |[!UICONTROL Meta Title]|Store View| The title appears in the title bar and tab of your browser and is also used as the title on a search engine results page (SERP). The meta title should be unique to the page and less than 70 characters in length. Auto-generated value: `{{name}}` |
 |[!UICONTROL Meta Keywords]|Store View| Relevant keywords for the product. Consider using keywords that customers might use to find the product. Auto-generated value: `{{name}}` |
 |[!UICONTROL Meta Description]|Store View| The meta description provides a brief overview of the page for search results listings. An ideal length is between 150-160 characters in length, with a maximum of  255 characters. Although not visible to the customer, some search engines include the meta description on the search results page. Auto-generated value: `{{name}} {{description}}` |
+
+{style="table-layout:auto"}

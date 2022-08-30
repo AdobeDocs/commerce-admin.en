@@ -99,3 +99,5 @@ The _[!UICONTROL Schedule Design Update]_ section gives you the ability to make 
 |[!UICONTROL Schedule Update From/To]|Determines the range of dates when a custom layout is applied to the product.|
 |[!UICONTROL New Theme]|Applies a custom theme to the product.|
 |[!UICONTROL New Layout]|Applies a different layout to the product page. Options: <br/>**[!UICONTROL No layout updates]** - By default, layout updates are not available for the product page. <br/>**[!UICONTROL Empty]** - Allows you define your own layout, such as a 4-column page. (Requires an understanding of XML.) <br/>**[!UICONTROL 1 column]** - Applies a one-column layout to the product page. <br/>**[!UICONTROL 2 columns with left bar]** - Applies a two-column layout with a left sidebar to the product page. <br/>**[!UICONTROL 2 columns with right bar]** - Applies a two-column layout with a right sidebar to the product page. <br/>**[!UICONTROL 3 columns]** - Applies a three-column layout to the product page.|
+
+{style="table-layout:auto"}
