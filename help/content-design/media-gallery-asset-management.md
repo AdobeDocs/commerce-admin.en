@@ -96,7 +96,7 @@ Assets can be used extensively throughout the Admin, such as [add or edit a page
 
 >[!NOTE]
 >
->To use "Used in" functionallity "Media Gallery Image Optimization" should be enabled in _Admin_ sidebar **[!UICONTROL Stores]** > _[!UICONTROL Configuration]_ > **[!UICONTROL Advanced]** > _[!UICONTROL System]_ > **[!UICONTROL Media Gallery Image Optimization]**
+>The _Used in_ functionality requires that [!UICONTROL Media Gallery Image Optimization] is enabled in the [configuration settings](media-gallery-image-optimization.md).
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Media]_ > **[!UICONTROL Media Gallery]**.
 
