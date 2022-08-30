@@ -1,6 +1,6 @@
 ---
 title: Catalog images and video
-description: <placeholder>
+description: Learn about using digital media to enhance your catalog product pages and provide visuals for your customers.
 ---
 # Catalog images and video
 

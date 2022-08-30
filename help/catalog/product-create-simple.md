@@ -1,6 +1,6 @@
 ---
 title: Simple product
-description: <placeholder>
+description: Learn how to create a simple product that can be sold individually or as part of a grouped, configurable, or bundle product.
 ---
 # Simple product
 
@@ -12,19 +12,19 @@ The following instructions demonstrate the process of creating a simple product 
 
 ## Step 1: Choose the product type
 
-1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. On the _Add Product_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png)<!-- {: width="25px"} --> ) menu at the upper-right, choose **Simple Product**.
+1. On the _[!UICONTROL Add Product]_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png)<!-- {: width="25px"} --> ) menu at the upper-right, choose **[!UICONTROL Simple Product]**.
 
    ![Add Simple Product](./assets/product-add-simple.png)<!-- zoom -->
 
 ## Step 2: Choose the attribute set
 
-To choose the [attribute set](attribute-sets.md) that is used as a template for the product, do one of the following:
+To choose the [attribute set](attribute-sets.md) that is used as a template for the product:
 
-- For **Search**, enter the name of the attribute set.
+- Click in the **[!UICONTROL Attribute Set]** field and enter the all or part of the name of the attribute set.
 
-- In the list, choose the attribute set that you want to use.
+- In the displayed list, choose the attribute set that you want to use.
 
 The form is updated to reflect the change.
 
@@ -32,25 +32,25 @@ The form is updated to reflect the change.
 
 ## Step 3: Complete the required settings
 
-1. Enter the **Product Name**.
+1. Enter the **[!UICONTROL Product Name]**.
 
-1. Accept the default **SKU** that is based on the product name or enter another.
+1. Accept the default **[!UICONTROL SKU]** that is based on the product name or enter another.
 
-1. Enter the product **Price**.
+1. Enter the product **[!UICONTROL Price]**.
 
-1. Because the product is not yet ready to publish, set the **Enable Product** option to `No`.
+1. Because the product is not yet ready to publish, set the **[!UICONTROL Enable Product]** option to `No`.
 
-1. Click **Save** and continue.
+1. click **[!UICONTROL Save]** and continue.
 
    When the product is saved, the [Store View](introduction.md#product-scope) chooser appears in the upper-left corner.
 
-1. Choose the **Store View** where the product is to be available.
+1. Choose the **[!UICONTROL Store View]** where the product is to be available.
 
    ![Choose the store view](./assets/product-create-store-view-choose.png)<!-- zoom -->
 
 ## Step 4: Complete the basic settings
 
-1. Set **Tax Class** to one of the following:
+1. Set **[!UICONTROL Tax Class]** to one of the following:
 
    - `None`
    - `Taxable Goods`
@@ -63,19 +63,19 @@ The form is updated to reflect the change.
    - `VAT Reduced`
    - `VAT Standard`
 
-1. Enter the **Quantity** of the product that is currently in stock.
+1. Enter the **[!UICONTROL Quantity]** of the product that is currently in stock.
 
-   By default, **Stock Status** is set to `In Stock`.
+   By default, **[!UICONTROL Stock Status]** is set to `In Stock`.
 
    >[!NOTE]
    >
    >If you enable [Inventory Management](../inventory-management/introduction.md), Single Source merchants set the quantity in this section. Multi Source merchants add sources and quantities in the Sources section. See the following _Assign Sources and Quantities (Inventory Management)_ section.
 
-1. Enter the **Weight** of the product.
+1. Enter the **[!UICONTROL Weight]** of the product.
 
-1. Accept the default **Visibility** setting of `Catalog, Search`.
+1. Accept the default **[!UICONTROL Visibility]** setting of `Catalog, Search`.
 
-1. To assign _Categories_ to the product, click the **Select…** box and do either of the following:
+1. To assign _[!UICONTROL Categories]_ to the product, click the **[!UICONTROL Select…]** box and do either of the following:
 
    - Choose an existing category:
 
@@ -85,15 +85,15 @@ The form is updated to reflect the change.
 
    - Create a new category:
 
-      - Click **New Category**.
+      - Click **[!UICONTROL New Category]**.
 
-      - Enter the **Category Name** and choose the **Parent Category** to determine its position in the menu structure.
+      - Enter the **[!UICONTROL Category Name]** and choose the **[!UICONTROL Parent Category]** to determine its position in the menu structure.
 
-      - Click **Create Category**.
+      - Click **[!UICONTROL Create Category]**.
 
-1. To feature the product in the list of[ new products](../content-design/widget-new-products-list.md), select the **Set Product as New** checkbox.
+1. To feature the product in the list of[ new products](../content-design/widget-new-products-list.md), select the **[!UICONTROL Set Product as New]** checkbox.
 
-1. Choose the **Country of Manufacture**.
+1. Choose the **[!UICONTROL Country of Manufacture]**.
 
    ![Product Details](./assets/product-details-simple.png)<!-- zoom -->
 
@@ -116,15 +116,15 @@ Scroll down and complete the information in the following sections as needed:
 
 ## Step 6: Publish the product
 
-1. If you are ready to publish the product in the catalog, set the **Enable Product** switch to `Yes`.
+1. If you are ready to publish the product in the catalog, set the **[!UICONTROL Enable Product]** switch to `Yes`.
 
 1. Do one of the following:
 
    - **Method 1:** Save and Preview
 
-      - In the upper-right corner, click **Save**.
+      - In the upper-right corner, click **[!UICONTROL Save]**.
 
-      - To view the product in your store, choose **Customer View** on the **Admin** (![Menu arrow](../assets/icon-menu-down-arrow-black.png)) menu.
+      - To view the product in your store, choose **[!UICONTROL Customer View]** on the _Admin_ (![Menu arrow](../assets/icon-menu-down-arrow-black.png)) menu.
 
       The store opens in a new browser tab.
 
@@ -132,7 +132,7 @@ Scroll down and complete the information in the following sections as needed:
 
    - **Method 2:** Save and Close
 
-      On the _Save_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png)<!-- {: width="25px"} --> ) menu, choose **Save & Close**.
+      On the _[!UICONTROL Save]_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png)<!-- {: width="25px"} --> ) menu, choose **[!UICONTROL Save & Close]**.
 
       ![Save & Close](./assets/product-edit-save-close.png)<!-- zoom -->
 

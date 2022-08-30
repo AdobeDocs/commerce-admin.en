@@ -20,33 +20,33 @@ When enabled, a new "Category Permissions" section appears on the Category page 
 
 ## Step 1: Configure category permissions
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
+1. In the left panel, expand **[!UICONTROL Catalog]** and choose **[!UICONTROL Catalog]** underneath.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Category Permissions** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Category Permissions]** section.
 
    ![Category Permissions](./assets/catalog-category-permissions.png)<!-- zoom -->
     
    See also [Category Permissions](https://docs.magento.com/user-guide/configuration/catalog/catalog.html)
 
-1. Set **Enable** to `Yes`.
+1. Set **[!UICONTROL Enable]** to `Yes`.
 
 1. Complete the other options according to what you want to allow or restrict on your store (see following sections).
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.
 
-1. When prompted to update the cache, click the **Cache Management** link in the system message and follow the instructions to refresh the cache.
+1. When prompted to update the cache, click the **[!UICONTROL Cache Management]** link in the system message and follow the instructions to refresh the cache.
 
-### Allow Browsing Category
+### [!UICONTROL Allow Browsing Category]
 
 This option applies to all categories in the [website](https://docs.magento.com/user-guide/stores/websites-stores-views.html).
 
 To allow members of a **_specific customer group_** to browse through category products, do the following:
 
-1. Set **Allow Browsing Category** to `Specified Customer Groups`.
+1. Set **[!UICONTROL Allow Browsing Category]** to `Specified Customer Groups`.
 
-1. In the **Customer Groups** box, select each group that is allowed to browse through products in the category.
+1. In the **[!UICONTROL Customer Groups]** box, select each group that is allowed to browse through products in the category.
 
    To select multiple groups, hold down the Ctrl key (PC) or the Command key (Mac) as you click each group.
 
@@ -54,45 +54,45 @@ To allow members of a **_specific customer group_** to browse through category p
 
 To **_restrict access and redirect to a landing page_**, do the following:
 
-1. Set **Allow Browsing Category** to `No, Redirect to Landing Page`.
+1. Set **[!UICONTROL Allow Browsing Category]** to `No, Redirect to Landing Page`.
 
-1. Choose the **Landing Page** where visitors are redirected.
+1. Choose the **[!UICONTROL Landing Page]** where visitors are redirected.
 
    ![Redirect to Home Page](./assets/category-permissions-browse-category-landing-page.png)<!-- zoom -->
 
    >[!NOTE]
    >
-   >Although the _Allow Browsing Category_ setting applies to all categories in the website, you can configure a different Landing Page for each store view.
+   >Although the _[!UICONTROL Allow Browsing Category]_ setting applies to all categories in the website, you can configure a different landing page for each store view.
 
-### Display Product Prices
+### [!UICONTROL Display Product Prices]
 
 This option applies to all categories in the [website](https://docs.magento.com/user-guide/stores/websites-stores-views.html).
 
 To allow only members of **_specific customer groups_** to see the price of products in the category, do the following:
 
-1. Set **Display Product Prices** to `Yes, for Specified Customer Groups`.
+1. Set **[!UICONTROL Display Product Prices]** to `Yes, for Specified Customer Groups`.
 
-1. In the **Customer Groups** box, select each group that is allowed to see the price of products in the category.
+1. In the **[!UICONTROL Customer Groups]** box, select each group that is allowed to see the price of products in the category.
 
    To select multiple groups, hold down the Ctrl key (PC) or the Command key (Mac) as you click each group.)
 
    ![Only Wholesale customer group can see prices](./assets/category-permissions-price-customer-groups.png)<!-- zoom -->
 
-### Allow Adding to Cart
+### [!UICONTROL Allow Adding to Cart]
 
 This option applies to all categories in the [website](https://docs.magento.com/user-guide/stores/websites-stores-views.html).
 
 To allow only members of **_specific customer groups_** to put category products into the shopping cart, do the following:
 
-1. Set **Allow Adding to Cart** to `Yes, for Specified Customer Groups`.
+1. Set **[!UICONTROL Allow Adding to Cart]** to `Yes, for Specified Customer Groups`.
 
-1. In the **Customer Groups** box, select each group that is allowed to add products from the category to the cart.
+1. In the **[!UICONTROL Customer Groups]** box, select each group that is allowed to add products from the category to the cart.
 
    To select multiple groups, hold down the Ctrl key (PC) or the Command key (Mac) as you click each group.
 
    ![Only Wholesale customer group can put product in cart](./assets/category-permissions-cart-customer-groups.png)<!-- zoom -->
 
-### Disallow Catalog Search
+### [!UICONTROL Disallow Catalog Search]
 
 Set this option to prevent members of a specific customer group from using Catalog Search. It applies to all categories in the [website](https://docs.magento.com/user-guide/stores/websites-stores-views.html).
 
@@ -106,17 +106,17 @@ Set this option to prevent members of a specific customer group from using Catal
 
 ## Step 2: Apply category permissions
 
-1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. In the category tree, select the target category.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) **Category Permissions** on the page and do the following:
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) **[!UICONTROL Category Permissions]** on the page and do the following:
 
    - To create a permissions rule, click **New Permission**.
 
       ![Category Permissions Section](./assets/category-permissions-section-admin.png)<!-- zoom -->
 
-   - Choose the applicable **Website** and **Customer Group**.
+   - Choose the applicable **[!UICONTROL Website]** and **[!UICONTROL Customer Group]**.
 
    - Set the individual permissions as needed.
 
@@ -124,7 +124,7 @@ Set this option to prevent members of a specific customer group from using Catal
    >
    >When `Browsing Category` = `Deny` permission is set for any parent category, it is not displayed on the [Breadcrumb Trail](navigation-breadcrumb-trail.md) on the child category page.
 
-1. When complete, click **Save**.
+1. When complete, click **[!UICONTROL Save]**.
 
 >[!NOTE]
 >

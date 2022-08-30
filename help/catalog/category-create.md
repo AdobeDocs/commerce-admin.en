@@ -1,6 +1,6 @@
 ---
 title: Create categories
-description: <placeholder>
+description: You can create as many additional subcategories as needed, according to the maximum menu depth that is set in the configuration. 
 ---
 # Create categories
 
@@ -30,9 +30,9 @@ It's important to clearly define categorical relationships such as parent catego
 
 ## Step 1: Create a category
 
-1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
-1. Set **Store View** to determine where the new category is to be available.
+1. Set **[!UICONTROL Store View]** to determine where the new category is to be available.
 
 1. In the category tree, select the parent category of the new category.
 
@@ -40,75 +40,75 @@ It's important to clearly define categorical relationships such as parent catego
 
    If you're starting from the beginning without any data, there might be only two categories in the list: _Default Category_, which is the root, and an _Example category_
 
-1. Click **Add Subcategory**.
+1. Click **[!UICONTROL Add Subcategory]**.
 
 ## Step 2: Complete the basic information
 
-1. If you want the category to be immediately available in the store, set **Enable Category** to `Yes`.
+1. If you want the category to be immediately available in the store, set **[!UICONTROL Enable Category]** to `Yes`.
 
-1. To include the category in the [top navigation](navigation-top.md), set **Include in Menu** to `Yes`.
+1. To include the category in the [top navigation](navigation-top.md), set **[!UICONTROL Include in Menu]** to `Yes`.
 
-1. Enter the **Category Name**.
+1. Enter the **[!UICONTROL Category Name]**.
 
    ![Basic category information](./assets/catalog-categories-currently-active.png)<!-- zoom -->
 
-1. Click **Save** and continue.
+1. click **[!UICONTROL Save]** and continue.
 
 ## Step 3: Complete the category content
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Content** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Content]** section.
 
    ![Category content](./assets/category-content.png)<!-- zoom -->
 
-1. To display a **Category Image** at the top of the page, you can either upload your own image or use an image that already exists in the [Media Storage](../content-design/media-storage.md).
+1. To display a **[!UICONTROL Category Image]** at the top of the page, you can either upload your own image or use an image that already exists in the [Media Storage](../content-design/media-storage.md).
 
-   - To upload your own image, click **Upload** and choose the image that you want to represent the category.
+   - To upload your own image, click **[!UICONTROL Upload]** and choose the image that you want to represent the category.
 
-   - To use images from the Media Storage, click **Select from Gallery** and select the image you want to represent the category.
+   - To use images from the Media Storage, click **[!UICONTROL Select from Gallery]** and select the image you want to represent the category.
 
    >[!NOTE]
    >
-   >Inside the Media Gallery, you can also leverage the [Adobe Stock Integration](../content-design/adobe-stock.md) to find an appropriate image by clicking **Search Adobe Stock**.
+   >Inside the Media Gallery, you can also leverage the [Adobe Stock Integration](../content-design/adobe-stock.md) to find an appropriate image by clicking **[!UICONTROL Search Adobe Stock]**.
 
-1. For **Description**, enter the text or other content that you want to appear on the category landing page.
+1. For **[!UICONTROL Description]**, enter the text or other content that you want to appear on the category landing page.
 
    For more information, see [Category Content](categories-content-settings.md).
 
-1. To include a content block on the category landing page, choose the **CMS Block** that you want to appear.
+1. To include a content block on the category landing page, choose the **[!UICONTROL CMS Block]** that you want to appear.
 
-1. Click **Save** and continue.
+1. click **[!UICONTROL Save]** and continue.
 
 ## Step 4: Complete the display settings
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Display Setting** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Display Setting]** section.
 
-1. Set **Display Mode** to one of the following:
+1. Set **[!UICONTROL Display Mode]** to one of the following:
 
-   - Products Only
-   - Static Block Only
-   - Static Block and Products
+   - `Products Only`
+   - `Static Block Only`
+   - `Static Block and Products`
 
-1. If you want the category page to include the _Filter by Attribute_ section of layered navigation, set **Anchor** to `Yes`.
+1. If you want the category page to include the _`Filter by Attribute`_ section of layered navigation, set **[!UICONTROL Anchor]** to `Yes`.
 
-1. To change the _Available Product Listing Sort By_ options, do the following:
+1. To change the _[!UICONTROL Available Product Listing Sort By]_ options, do the following:
 
-   - Deselect the **Use All** checkbox.
+   - Deselect the **[!UICONTROL Use All]** checkbox.
 
    - Select one or more of the available values to be available for customers to sort the list. By default, all available values are included. For example, the values might include:
 
-      - Position
-      - Product Name
-      - Price
+      - `Position`
+      - `Product Name`
+      - `Price`
 
-1. To set the default sort order for the category, choose the **Default Product Listing Sort By** value.
+1. To set the default sort order for the category, choose the **[!UICONTROL Default Product Listing Sort By]** value.
 
 1. To change the default layered navigation [price step](navigation-layered.md#configure-price-navigation) setting, do the following:
 
-   - Deselect the **Use Config Settings** checkbox.
+   - Deselect the **[!UICONTROL Use Config Settings]** checkbox.
 
    - Enter the value to be used as an incremental price step for layered navigation.
 
-1. Click **Save** and continue.
+1. click **[!UICONTROL Save]** and continue.
 
    ![Display settings](./assets/category-display-settings.png)<!-- zoom -->
    
@@ -116,27 +116,27 @@ It's important to clearly define categorical relationships such as parent catego
 
 ## Step 5: Complete the search engine optimization settings
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Search Engine Optimization Settings** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Search Engine Optimization Settings]** section.
 
 1. Complete the following [meta data](https://docs.magento.com/user-guide/marketing/meta-data.html) for the category:
 
-   - Meta Title
-   - Meta Keywords
-   - Meta Description
+   - [!UICONTROL Meta Title]
+   - [!UICONTROL Meta Keywords]
+   - [!UICONTROL Meta Description]
 
    ![Search engine optimization](./assets/catalog-categories-search-engine-optimization.png)<!-- zoom -->
    
    See also [_Search engine optimization_](categories-search-engine-optimization.md)
 
-1. Click **Save** and continue.
+1. click **[!UICONTROL Save]** and continue.
 
 ## Step 6: Choose the products in category
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Products in Category** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Products in Category]** section.
 
 1. Use the [filters](https://docs.magento.com/user-guide/stores/admin-grid-controls.html) as needed to find the products.
 
-   To display all records that are not yet included in the category, set the record chooser in the first column to `No` and click **Search**.
+   To display all records that are not yet included in the category, set the record chooser in the first column to `No` and click **[!UICONTROL Search]**.
 
 1. In the first column, select the checkbox for each product to include in the category.
 
@@ -144,31 +144,29 @@ It's important to clearly define categorical relationships such as parent catego
 
    See also [Products in category](categories-product-assignments.md)
 
-1. Click **Save** and continue.
+1. click **[!UICONTROL Save]** and continue.
 
 ## Step 7: Set the category permissions
 
 {{ee-feature}}
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Category Permissions** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Category Permissions]** section.
 
-1. For a multi-site installation, choose the **Website** where the category permissions apply.
+1. For a multi-site installation, choose the **[!UICONTROL Website]** where the category permissions apply.
 
-1. Choose the **Customer Group** where the category permissions apply.
+1. Choose the **[!UICONTROL Customer Group]** where the category permissions apply.
 
-   ![B2B for Adobe Commerce](../assets/b2b.svg) ([B2B for Adobe Commerce](../b2b/introduction.md) only) If needed, you can choose a **Shared Catalog** instead.
+   ![B2B for Adobe Commerce](../assets/b2b.svg) ([B2B for Adobe Commerce](../b2b/introduction.md) only) If needed, you can choose a **[!UICONTROL Shared Catalog]** instead.
 
 1. Set the following permissions as needed:
 
-   - Browsing Category
-   - Display Product Prices
-   - Add to Cart
+   - [!UICONTROL Browsing Category]
+   - [!UICONTROL Display Product Prices]
+   - [!UICONTROL Add to Cart]
 
-1. To add another permission rule, click **New Permission** and repeat the process.
+1. To add another permission rule, click **[!UICONTROL New Permission]** and repeat the process.
 
    ![Category permissions](./assets/category-create-permissions.png)<!-- zoom -->
-
-   See also [Category permissions](category-permissions.md)
 
 ## Step 8: Complete the design settings
 
@@ -178,13 +176,13 @@ It's important to clearly define categorical relationships such as parent catego
 
    - ([B2B for Adobe Commerce](../b2b/introduction.md) only) To apply the parent category design settings to this category, set **Use Parent Category Settings** to `Yes`.
 
-   - To change the design of the category pages, choose the **Theme** that you want to apply.
+   - To change the design of the category pages, choose the **[!UICONTROL Theme]** that you want to apply.
 
-   - To change the column layout of the category pages, choose the **Layout** that you want to apply.
+   - To change the column layout of the category pages, choose the **[!UICONTROL Layout]** that you want to apply.
 
    - To enter custom code, enter valid XML code in the **Layout Update XML** box.
 
-   - To use the same design for product pages, set **Apply Design to Products** to `Yes`.
+   - To use the same design for product pages, set **[!UICONTROL Apply Design to Products]** to `Yes`.
 
    ![Design settings](./assets/category-design.png)<!-- zoom -->
 
@@ -194,10 +192,10 @@ It's important to clearly define categorical relationships such as parent catego
 
    {{ce-feature}}
 
-   - Expand the _Schedule Design Update_ section.
+   - Expand the _[!UICONTROL Schedule Design Update]_ section.
 
-   - Use the calendar (![Calendar icon](../assets/icon-calendar.png)) to choose the Schedule Update **From** and **To** dates.
+   - Use the calendar (![Calendar icon](../assets/icon-calendar.png)) to choose the Schedule Update **[!UICONTROL from]** and **[!UICONTROL to]** dates.
 
    ![Scheduled design update](./assets/category-scheduled-design-update.png)<!-- zoom -->
 
-1. When complete, click **Save**.
+1. When complete, click **[!UICONTROL Save]**.

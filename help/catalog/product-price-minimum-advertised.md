@@ -1,12 +1,12 @@
 ---
 title: Minimum Advertised Price
-description: <placeholder>
+description: Learn how to use the Minimum Advertised Price (MAP) feature to remain in compliance with the manufacturer's requirements with special pricing.
 ---
 # Minimum Advertised Price
 
 Merchants are sometimes prohibited from displaying a price that is lower than the manufacturer's suggested retail price (MSRP). Minimum Advertised Price (MAP) gives you the ability to remain in compliance with the manufacturer's requirements while offering your customers a better price. Because requirements differ from one manufacturer to another, you can configure your store to prevent the display of your actual price on pages where it is not allowed to appear according to the terms of the manufacturer
 
-The MAP feature adds a dedicated "Click for Price" button instead of the regular product price. Therefore, if the price in your store is below the minimum set price for that product, the price is either not displayed, or the list/market price is displayed with a strikethrough to emphasize that your price is lower. If the buyer clicks the "Click to find out the price" button, only then does the actual price at which you are selling the product become visible.
+The MAP feature adds a dedicated "Click for Price" button instead of the regular product price. Therefore, if the price in your store is below the minimum set price for that product, the price is either not displayed, or the list/market price is displayed with a strikethrough to emphasize that your price is lower. If the buyer clicks the "Click for Price" button, only then does the actual price at which you are selling the product become visible.
 
 Additionally, the MAP feature allows you to suggest some improvements. For example, when a customer adds such a product to their cart, they are not redirected to the cart, and instead there are offers displayed that allow the buyer to:
 
@@ -24,11 +24,11 @@ For products with prices that depend on a selected option (such as custom option
 
 |Product type|Description|
 |--- |--- |
-|[Simple](product-create-simple.md), [Virtual](product-create-virtual.md)|The actual price does not automatically appear on catalog list and product pages, but is included only according to the Display Actual Price setting. Custom option prices appear normally.|
-|[Grouped](product-create-grouped.md)|The prices of associated simple products do not automatically appear on catalog list and product pages, but are included only according to the Display Actual Price setting.|
-|[Configurable](product-create-configurable.md)|The actual price does not automatically appear on catalog list and product pages, but is included only according to the Display Actual Price setting. Option prices appear normally.|
-|[Bundle](product-create-bundle.md) (with fixed price)|The actual price does not automatically appear on catalog pages, but is included only according to the Display Actual Price setting. The prices of bundle items appear normally. MAP is not available for bundle products with dynamic pricing.|
-|[Downloadable](product-create-downloadable.md)|The actual price does not automatically appear on  catalog list and product pages, but is included only according to the Display Actual Price setting. The price associated with each download link appears normally.|
+|[Simple](product-create-simple.md), [Virtual](product-create-virtual.md)|The actual price does not automatically appear on catalog list and product pages, but is included only according to the [!UICONTROL Display Actual Price] setting. Custom option prices appear normally.|
+|[Grouped](product-create-grouped.md)|The prices of associated simple products do not automatically appear on catalog list and product pages, but are included only according to the [!UICONTROL Display Actual Price] setting.|
+|[Configurable](product-create-configurable.md)|The actual price does not automatically appear on catalog list and product pages, but is included only according to the [!UICONTROL Display Actual Price] setting. Option prices appear normally.|
+|[Bundle](product-create-bundle.md) (with fixed price)|The actual price does not automatically appear on catalog pages, but is included only according to the [!UICONTROL Display Actual Price] setting. The prices of bundle items appear normally. MAP is not available for bundle products with dynamic pricing.|
+|[Downloadable](product-create-downloadable.md)|The actual price does not automatically appear on  catalog list and product pages, but is included only according to the [!UICONTROL Display Actual Price] setting. The price associated with each download link appears normally.|
 
 ## Using MAP with price settings
 
@@ -54,19 +54,19 @@ When MAP is enabled, the product-level MAP settings become available. You can ap
 
 ### Step 1: Enable MAP for the store view
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. If applicable, set **Store View** at the upper-right corner to the view where the configuration applies.
+1. If applicable, set **[!UICONTROL Store View]** at the upper-right corner to the view where the configuration applies.
 
-1. In the left panel, expand **Sales** and choose **Sales** underneath.
+1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Sales]** underneath.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the _Minimum Advertised Price_ section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the _[!UICONTROL Minimum Advertised Price]_ section.
 
 1. If necessary, set **Enable MAP** to `Yes`.
 
    ![MAP configuration](./assets/sales-minimum-advertised-price.png)<!-- zoom -->
    
-   See also [_Minimum Advertised Price_](https://docs.magento.com/user-guide/configuration/sales/sales.html)
+   For more information about these configuration options, see [_Minimum Advertised Price_](https://docs.magento.com/user-guide/configuration/sales/sales.html#minimum-advertised-price) in the _Configuration Reference_.
 
 ### Step 2: Configure the MAP settings
 
@@ -76,34 +76,34 @@ Use one of the following methods to configure the MAP settings:
 
 1. To determine when and where you want the actual price to be visible to customers, do the following:
 
-   - To change the default value, deselect the **Use system value** checkbox.
+   - To change the default value, deselect the **[!UICONTROL Use system value]** checkbox.
 
    - Set **Display Actual Price** to one of the following:
       - `In Cart`
       - `Before Order Confirmation`
       - `On Gesture (on click)`
 
-1. Enter the text that you want to appear in the **Default Popup Text Message**.
+1. Enter the text that you want to appear in the **[!UICONTROL Default Popup Text Message]**.
 
-1. Enter any additional explanation that you want to appear in the **Default "What's This" Text Message**.
+1. Enter any additional explanation that you want to appear in the **[!UICONTROL Default "What's This" Text Message]**.
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.
 
 #### Method 2: Configure MAP for a single product
 
-1. On the _Admin_ sidebar, go to **Catalog** > **Inventory** > **Products**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Inventory]** > **[!UICONTROL Products]**.
 
-1. Open the product in **Edit** mode.
+1. Open the product in **[!UICONTROL Edit]** mode.
 
-1. In the left panel, expand **Advanced Settings** and choose **Advanced Pricing**.
+1. In the left panel, expand **[!UICONTROL Advanced Settings]** and choose **[!UICONTROL Advanced Pricing]**.
 
    ![Manufacturer's Suggested Retail Price](./assets/product-price-msrp.png)<!-- zoom -->
 
-1. Enter the **Manufacturer's Suggested Retail Price** (MSRP).
+1. Enter the **[!UICONTROL Manufacturer's Suggested Retail Price]** (MSRP).
 
    In this example, the product price is $54.00, and the MSRP is 59.95.
 
-1. Set **Display Actual Price** to one of the following:
+1. Set **[!UICONTROL Display Actual Price]** to one of the following:
 
    - `Use config` - (Default) Applies the MAP configuration setting. |
    - `On Gesture` - Displays the actual product price in a popup when the customer clicks the _Click for price_ or _What's this?_ link.
@@ -112,8 +112,8 @@ Use one of the following methods to configure the MAP settings:
 
    >[!NOTE]
    >
-   >The Manufacturer's Suggested Retail Price and Display Actual Price fields appear only when [Minimum Advertised Price](https://docs.magento.com/user-guide/configuration/sales/sales.html) is enabled in the configuration.
+   >The [!UICONTROL Manufacturer's Suggested Retail Price] and [!UICONTROL Display Actual Price] fields appear only when [Minimum Advertised Price](https://docs.magento.com/user-guide/configuration/sales/sales.html) is enabled in the configuration.
 
 ### Step 3: Save the configuration
 
-When complete, click **Done** and then **Save**.
+When complete, click **[!UICONTROL Done]** and then **[!UICONTROL Save]**.

@@ -1,10 +1,10 @@
 ---
-title: Product settings - Related Products, Up-Sells, and Cross-Sells
-description: <placeholder>
+title: Product settings - [!UICONTROL Related Products, Up-Sells, and Cross-Sells]
+description: For a product, the [!UICONTROL Related Products, Up-Sells, and Cross-Sells] settings define simple promotional blocks on the product page that highlight a selection of additional products.
 ---
-# Product settings - Related Products, Up-Sells, and Cross-Sells
+# Product settings - [!UICONTROL Related Products, Up-Sells, and Cross-Sells]
 
-The _Related Products, Up-Sells, and Cross-Sells_ section is used to set up simple promotional blocks that present a selection of additional products that might be of interest to the customer. For more information, see [Product Relationships](https://docs.magento.com/user-guide/marketing/product-relationships.html).
+The _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_ section is used to set up simple promotional blocks that present a selection of additional products that might be of interest to the customer. For more information, see [Product Relationships](https://docs.magento.com/user-guide/marketing/product-relationships.html).
 
 ![Related Products, Up-Sells, and Cross-Sells](./assets/product-related-up-sell-cross-sell.png)<!-- zoom -->
 
@@ -12,14 +12,14 @@ Every block consists of a list of products which belong to a specific option.
 
 |Field|Description|
 |--- |--- |
-|ID|A unique numeric identifier that is assigned to product entity.|
-|Thumbnail|Product thumbnail image.|
-|Name|The name of the product.|
-|Status|Indicates the product status. Options: `Enabled` / `Disabled`. Disabled products are not displayed in the blocks on the frontend.|
-|Attribute Set|The name of the attribute set that is used as a template for the product.|
-|SKU|The unique Stock Keeping Unit that is assigned to the product.|
-|Price|The unit price of the product.|
-|Action|Options: `Remove`. Removes a product from the block.|
+|[!UICONTROL ID]|A unique numeric identifier that is assigned to product entity.|
+|[!UICONTROL Thumbnail]|Product thumbnail image.|
+|[!UICONTROL Name]|The name of the product.|
+|[!UICONTROL Status]|Indicates the product status. Options: `Enabled` / `Disabled`. Disabled products are not displayed in the blocks on the frontend.|
+|[!UICONTROL Attribute Set]|The name of the attribute set that is used as a template for the product.|
+|[!UICONTROL SKU]|The unique Stock Keeping Unit that is assigned to the product.|
+|[!UICONTROL Price]|The unit price of the product.|
+|[!UICONTROL Action]|Options: `Remove`. Removes a product from the block.|
 
 ## Related Products
 
@@ -31,9 +31,9 @@ To set up related products:
 
 1. Open the product in edit mode.
 
-1. Scroll down and expand ![Expansion selector](../assets/icon-display-expand.png)the _Related Products, Up-Sells, and Cross-Sells_ section.
+1. Scroll down and expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Related Products, Up-Sells, and Cross-Sells]** section.
 
-1. Click **Add Related Products**.
+1. Click **[!UICONTROL Add Related Products]**.
 
    ![Related Products](./assets/product-related-up-sell-cross-sell.png)<!-- zoom -->
 
@@ -43,11 +43,11 @@ To set up related products:
 
    ![Related Products](./assets/products-related-add.png)<!-- zoom -->
 
-1. When complete, click **Add Selected Products**.
+1. When complete, click **[!UICONTROL Add Selected Products]**.
 
 ## Up-sells
 
-Up-sell products are items that your customer might prefer instead of the product currently considered. An item offered as an up-sell might be of a higher quality, more popular, or have better profit margin. Up-sell products appear on the product page under a heading such as _You may also be interested in the following product(s)_.
+Up-sell products are items that your customer might prefer instead of the product currently considered. An item offered as an up-sell might be of a higher quality, more popular, or have better profit margin. Up-sell products appear on the product page under a heading such as _You may also be interested in the following products_.
 
 ![Up-Sell](./assets/storefront-product-upsell.png)<!-- zoom -->
 
@@ -55,9 +55,9 @@ To select up-sell products:
 
 1. Open the product in edit mode.
 
-1. Scroll down and expand ![Expansion selector](../assets/icon-display-expand.png) the _Related Products, Up-Sells, and Cross-Sells_ section.
+1. Scroll down and expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Related Products, Up-Sells, and Cross-Sells]** section.
 
-1. Click **Add Up-Sell Products**.
+1. Click **[!UICONTROL Add Up-Sell Products]**.
 
    ![Add Up-Sell Products](./assets/product-related-up-sell-cross-sell.png)<!-- zoom -->
 
@@ -67,7 +67,7 @@ To select up-sell products:
 
    ![Up-Sell Products](./assets/product-up-sell-add.png)<!-- zoom -->
 
-1. When complete, click **Add Selected Products**.
+1. When complete, click **[!UICONTROL Add Selected Products]**.
 
 ## Cross-sells
 
@@ -75,7 +75,7 @@ Cross-sell items are similar to impulse purchases positioned next to the cash re
 
 >[!NOTE]
 >
->To show or hide cross-sell items per store view, see the [Checkout > Shopping Cart](https://docs.magento.com/user-guide/configuration/sales/checkout.html) option called _Show Cross-sell Items_ in the Shopping Cart. You may want to hide cross-sells during specific sales or for A/B testing in a store view.
+>To show or hide cross-sell items per store view, see the [Checkout > Shopping Cart](https://docs.magento.com/user-guide/configuration/sales/checkout.html) option called _[!UICONTROL Show Cross-sell Items]_ in the Shopping Cart. You may want to hide cross-sells during specific sales or for A/B testing in a store view.
 
 ![Cross-sells in shopping cart](./assets/storefront-cart-cross-sells.png)<!-- zoom -->
 
@@ -83,9 +83,9 @@ To select cross-sell products:
 
 1. Open the product in edit mode.
 
-1. Scroll down and expand ![Expansion selector](../assets/icon-display-expand.png) the _Related Products, Up-Sells, and Cross-Sells_ section.
+1. Scroll down and expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Related Products, Up-Sells, and Cross-Sells]** section.
 
-1. Click **Add Cross-Sell Products**.
+1. Click **[!UICONTROL Add Cross-Sell Products]**.
 
    ![Add Cross-Sell Products](./assets/product-related-up-sell-cross-sell.png)<!-- zoom -->
 
@@ -95,4 +95,4 @@ To select cross-sell products:
 
    ![Cross-sell Products](./assets/product-cross-sell-add.png)<!-- zoom -->
 
-1. When complete, click **Add Selected Products**.
+1. When complete, click **[!UICONTROL Add Selected Products]**.

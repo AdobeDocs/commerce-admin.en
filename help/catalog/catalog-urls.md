@@ -1,6 +1,6 @@
 ---
 title: Catalog and product URLs
-description: <placeholder>
+description: Learn about the URL format types for your catalog products, and how to configure them.
 ---
 # Catalog and product URLs
 
@@ -68,25 +68,25 @@ To prevent search engines from indexing multiple URLs that lead to the same cont
 
 ## Configure catalog URLs
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
+1. In the left panel, expand **[!UICONTROL Catalog]** and choose **[!UICONTROL Catalog]** underneath.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Search Engine Optimizations** section and set the options:
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Search Engine Optimizations]** section and set the options:
 
-   - Set **Product URL Suffix** to `html` or `htm`. Enter the suffix without a period, because it is applied automatically.
+   - Set **[!UICONTROL Product URL Suffix]** to `html` or `htm`. Enter the suffix without a period, because it is applied automatically.
 
-   - Set **Category URL Suffix** to `html` or `htm`. Enter the suffix without a period, because it is applied automatically.
+   - Set **[!UICONTROL Category URL Suffix]** to `html` or `htm`. Enter the suffix without a period, because it is applied automatically.
 
-   - Set **Use Categories Path for Product URLs** to your preference.
+   - Set **[!UICONTROL Use Categories Path for Product URLs]** to your preference.
 
    ![Search Engine Optimization](./assets/catalog-search-engine-optimization.png)<!-- zoom -->
    
    See also [Search Engine Optimization](https://docs.magento.com/user-guide/configuration/catalog/catalog.html)
 
-1. When complete, click ** Save Config **.
+1. When complete, click **[!UICONTROL Save Config]**.
 
-1. When prompted, click the **Cache Management** link in the system message and refresh the invalid cache.
+1. When prompted, click the **[!UICONTROL Cache Management]** link in the system message and refresh the invalid cache.
 
    ![Refresh Cache](./assets/msg-cache-management.png)<!-- zoom -->
    
@@ -94,18 +94,16 @@ To prevent search engines from indexing multiple URLs that lead to the same cont
 
 ## Configure catalog media URL format
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **General** and choose **Web**.
+1. In the left panel, expand **[!UICONTROL General]** and choose **[!UICONTROL Web]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Url Options** section and set the options:
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Url Options]** section and set the options:
 
 ![Web > General Options](./assets/web-url-options.png)<!-- zoom -->
 
-See also [URL Options configuration settings](https://docs.magento.com/user-guide/stores/store-urls.html)
-
-|Field|[Scope](https://docs.magento.com/user-guide/configuration/scope.html)|Description|
+|Field|[Scope](../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|Add Store Code to URLs|Global|If Web Server Rewrites are enabled, this inserts the Store Code of the current view in the URL. Options: Yes / No|
-|Auto-redirect to Base URL|Global|(For single-store setups) If there is a broken link on your site, this redirects traffic to the base URL rather than to a page with a "404 Page Not Found" message. Options: No / Yes (302 Found) / Yes (301 Moved Permanently) <br /><br />**_Important!_** Do not use auto-redirect to base URL for multi-store setups.|
-|Catalog media URL format|Global|Defines the URL format assigned to products and categories. Options: <br />**Unique hash per image variant (Legacy mode)** - Defines converted filename as a unique hash value.<br />**Image optimization based on query parameters** - Defines [image optimization](../content-design/media-gallery-image-optimization.md) process depending on query parameters.|
+|[!UICONTROL Add Store Code to URLs]|Global|If Web Server Rewrites are enabled, this inserts the Store Code of the current view in the URL. Options: Yes / No|
+|[!UICONTROL Auto-redirect to Base URL]|Global|(For single-store setups) If there is a broken link on your site, this redirects traffic to the base URL rather than to a page with a "404 Page Not Found" message. Options: No / Yes (302 Found) / Yes (301 Moved Permanently) <br /><br />**_Important!_** Do not use auto-redirect to base URL for multi-store setups.|
+|[!UICONTROL Catalog media URL format]|Global|Defines the URL format assigned to products and categories. Options: <br />**[!UICONTROL Unique hash per image variant (Legacy mode)]** - Defines converted filename as a unique hash value.<br />**[!UICONTROL Image optimization based on query parameters]** - Defines [image optimization](../content-design/media-gallery-image-optimization.md) process depending on query parameters.|

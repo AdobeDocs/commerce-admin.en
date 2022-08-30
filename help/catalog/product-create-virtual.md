@@ -1,12 +1,12 @@
 ---
 title: Virtual product
-description: <placeholder>
+description: Learn how to create a virtual product that represents a non-tangible item,  such as a membership, service, warranty, or subscription.
 ---
 # Virtual product
 
 Virtual products, or digital goods, represent non-tangible items such as memberships, services, warranties, or subscriptions and digital downloads of books, music, videos, or other products. Virtual products can be sold individually or included as part of the [Grouped Product](product-create-grouped.md), [Configurable Product](product-create-configurable.md) or [Bundle Product](product-create-bundle.md) product types.
 
-Aside from the absence of the Weight field, the process of creating a virtual product and a simple product is the same. The following instructions demonstrate the process of creating a virtual product using a [product template](attribute-sets.md), required fields, and basic settings. When you finish the basics, you can complete the other product settings as needed.
+Aside from the absence of the _[!UICONTROL Weight]_ field, the process of creating a virtual product and a simple product is the same. The following instructions demonstrate the process of creating a virtual product using a [product template](attribute-sets.md), required fields, and basic settings. When you finish the basics, you can complete the other product settings as needed.
 
 >[!NOTE]
 >
@@ -16,9 +16,9 @@ Aside from the absence of the Weight field, the process of creating a virtual pr
 
 ## Step 1: Choose the product type
 
-1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. On the _Add Product_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png)<!-- {: width="25px"} --> ) menu at the upper-right corner, choose **Virtual Product**.
+1. On the _[!UICONTROL Add Product]_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png)<!-- {: width="25px"} --> ) menu at the upper-right corner, choose **[!UICONTROL Virtual Product]**.
 
    ![Add Virtual Product](./assets/product-add-virtual.png)<!-- zoom -->
 
@@ -26,9 +26,9 @@ Aside from the absence of the Weight field, the process of creating a virtual pr
 
 To choose the [attribute set](attribute-sets.md) that is used as a template for the product, do one of the following:
 
-- For **Search**, enter the name of the attribute set.
+- Click in the **[!UICONTROL Attribute Set]** field and enter all or part of the name of the attribute set.
 
-- In the list, choose the attribute set that you want to use.
+- In the displayed list, choose the attribute set that you want to use.
 
 The form is updated to reflect the change.
 
@@ -36,42 +36,42 @@ The form is updated to reflect the change.
 
 ## Step 3: Complete the required settings
 
-1. Enter the **Product Name**.
+1. Enter the **[!UICONTROL Product Name]**.
 
-1. Accept the default **SKU** that is based on the product name or enter another.
+1. Accept the default **[!UICONTROL SKU]** that is based on the product name or enter another.
 
-1. Enter the product **Price**.
+1. Enter the product **[!UICONTROL Price]**.
 
-1. Because the product is not yet ready to publish, set **Enable Product** to `No`.
+1. Because the product is not yet ready to publish, set **[!UICONTROL Enable Product]** to `No`.
 
-1. Click **Save** and continue.
+1. click **[!UICONTROL Save]** and continue.
 
    When the product is saved, the [Store View](introduction.md#product-scope) chooser appears in the upper-left corner.
 
-1. Choose the **Store View** where the product is to be available.
+1. Choose the **[!UICONTROL Store View]** where the product is to be available.
 
    ![Choose Store View](./assets/product-create-store-view-choose.png)<!-- zoom -->
 
 ## Step 4: Complete the basic settings
 
-1. Set **Tax Class** to one of the following:
+1. Set **[!UICONTROL Tax Class]** to one of the following:
 
    - `None`
    - `Taxable Goods`
 
-1. Enter the **Quantity** of the product that is currently in stock and do the following:
+1. Enter the **[!UICONTROL Quantity]** of the product that is currently in stock and do the following:
 
-   - Accept the default **Stock Status** setting of `In Stock`.
+   - Accept the default **[!UICONTROL Stock Status]** setting of `In Stock`.
 
-      Because a virtual product is not shipped, the **Weight** field is not used.
+      Because a virtual product is not shipped, the **[!UICONTROL Weight]** field is not used.
 
-   - Accept the default **Visibility** setting of `Catalog, Search`.
+   - Accept the default **[!UICONTROL Visibility]** setting of `Catalog, Search`.
 
    >[!NOTE]
    >
-   >**Inventory Management:** If you enable [Inventory Management](../inventory-management/introduction.md), Single Source merchants set the quantity in this section. Multi Source merchants add sources and quantities in the Sources section. See the following _Assign Sources and Quantities (Inventory Management)_ section.
+   >If you enable [Inventory Management](../inventory-management/introduction.md), single source merchants set the quantity in this section. Multi source merchants add sources and quantities in the Sources section. See the following _Assign Sources and Quantities (Inventory Management)_ section.
 
-1. To assign **Categories** to the product, click the **Select…** box and do either of the following:
+1. To assign **[!UICONTROL Categories]** to the product, click the **[!UICONTROL Select…]** box and do either of the following:
 
    - Choose an existing category:
 
@@ -81,11 +81,11 @@ The form is updated to reflect the change.
 
    - Create a new category:
 
-      - Click **New Category**.
+      - Click **[!UICONTROL New Category]**.
 
-      - Enter the **Category Name** and choose the **Parent Category** to determine its position in the menu structure.
+      - Enter the **[!UICONTROL Category Name]** and choose the **[!UICONTROL Parent Category]** to determine its position in the menu structure.
 
-      - Click **Create Category**.
+      - Click **[!UICONTROL Create Category]**.
 
       There might be additional individual attributes that describe the product. The selection varies by attribute set and you can complete them later.
 
@@ -106,27 +106,27 @@ Complete the information in the following sections as needed:
 
 >[!NOTE]
 >
->The _Is this downloadable product_ option is disabled by default. Enabling this feature for a virtual product makes the product [Downloadable](product-create-downloadable.md#downloadable-product).
+>The _[!UICONTROL Is this downloadable product?]_ option is disabled by default. Enabling this feature for a virtual product makes the product [Downloadable](product-create-downloadable.md#downloadable-product).
 
 ## Step 6: Publish the product
 
-1. If you are ready to publish the product in the catalog, set **Enable Product** to `Yes`.
+1. If you are ready to publish the product in the catalog, set **[!UICONTROL Enable Product]** to `Yes`.
 
 1. Do one of the following:
 
-   - **Method 1:** Save and Preview
+   - **Method 1:** Save and preview
 
-      - At the upper-right corner, click **Save**.
+      - At the upper-right corner, click **[!UICONTROL Save]**.
 
-      - To view the product in your store, choose **Customer View** on the _Admin_ ( ![Menu arrow](../assets/icon-menu-down-arrow-black.png) ) menu.
+      - To view the product in your store, choose **[!UICONTROL Customer View]** on the _Admin_ ( ![Menu arrow](../assets/icon-menu-down-arrow-black.png) ) menu.
 
       The store opens in a new browser tab.
 
       ![Customer View](./assets/product-admin-customer-view.png)<!-- zoom -->
 
-   - **Method 2:** Save and Close
+   - **Method 2:** Save and close
 
-      On the _Save_ (![Menu arrow](../assets/icon-menu-down-arrow-red.png)<!-- {: width="25px"} --> ) menu, choose **Save & Close**.
+      On the _[!UICONTROL Save]_ (![Menu arrow](../assets/icon-menu-down-arrow-red.png)<!-- {: width="25px"} --> ) menu, choose **[!UICONTROL Save & Close]**.
 
       ![Save & Close](./assets/product-edit-save-close.png)<!-- zoom -->
 

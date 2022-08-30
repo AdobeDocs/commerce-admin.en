@@ -1,6 +1,6 @@
 ---
 title: Hidden categories
-description: <placeholder>
+description: Learn how to use hidden categories for internal purposes or to link to a category that is not included in the navigation menu.
 ---
 # Hidden categories
 
@@ -8,14 +8,14 @@ There are many ways to use hidden categories. You might want to create additiona
 
 ## Create hidden categories
 
-1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. In the category tree, select the category you want to hide and do the following:
 
-   - Set **Is Active** to `Yes`.
-   - Set **Include in Menu** to `No`.
+   - Set **[!UICONTROL Is Active]** to `Yes`.
+   - Set **[!UICONTROL Include in Menu]** to `No`.
 
-1. In the **Display Settings** section, set **Anchor** to `No`.
+1. In the **[!UICONTROL Display Settings]** section, set **[!UICONTROL Anchor]** to `No`.
 
    ![Hidden category](./assets/hidden-categories.png)<!-- zoom -->
 
@@ -27,9 +27,9 @@ There are many ways to use hidden categories. You might want to create additiona
    >
    >Although the category is hidden, you can create subcategories beneath it and make them active.
 
-   - Set **Enable Category** to `Yes`.
-   - In the **Display Settings** section, set **Anchor** to `Yes`.
+   - Set **[!UICONTROL Enable Category]** to `Yes`.
+   - In the **[!UICONTROL Display Settings]** section, set **[!UICONTROL Anchor]** to `Yes`.
 
    As active categories, you can now link to them from other places in your store, but they will not appear in the menu.
 
-1. When complete, click **Save**.
+1. When complete, click **[!UICONTROL Save]**.

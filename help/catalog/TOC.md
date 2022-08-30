@@ -12,13 +12,13 @@ breadcrumb-title: Catalog Management
 - Catalog basics {#catalog}
   - [Catalog and product URLs](catalog-urls.md)
   - [Flat catalogs](catalog-flat.md)
-  - Catalog Navigation {#navigation}
+  - Catalog navigation {#navigation}
     - [Navigation overview](navigation.md)
     - [Top navigation](navigation-top.md)
     - [Breadcrumb trails](navigation-breadcrumb-trail.md)
     - [Product listings](navigation-product-listings.md)
     - [Layered navigation](navigation-layered.md)
-  - Catalog Search {#search}
+  - Catalog search {#search}
     - [Search overview](search.md)
     - [Configure catalog search](search-configuration.md)
     - [Search results](search-results.md)

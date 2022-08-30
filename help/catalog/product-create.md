@@ -1,6 +1,6 @@
 ---
 title: Create a product
-description: <placeholder>
+description: Learn about the types of products that you can create for your catalog.
 ---
 # Create a product
 
@@ -22,7 +22,7 @@ Choosing a product type is one of the first things you must do to create a new p
 
 **[Bundle product](product-create-bundle.md)**  - A bundle product lets customers "build their own" from an assortment of options. The bundle could be a gift basket, computer, or anything else that can be customized. Each item in the bundle is a separate, standalone product.
 
-**[Downloadable product](product-create-downloadable.md)** - A digitally [downloadable product](product-create-downloadable.md) consists of one or more files that are downloaded. The files can reside on your server or be provided as URLs to any other server.
+**[Downloadable product](product-create-downloadable.md)** - A digitally downloadable product consists of one or more files that are downloaded. The files can reside on your server or be provided as URLs to any other server.
 
 **[Gift card](product-gift-card-create.md)** - ([Adobe Commerce](../landing/home.md#product-editions) only) There are three kinds of gift cards: virtual gift cards that are sent by email, physical gift cards that are shipped to the recipient, and combined gift cards that are a combination of the two. Each has a unique code, which is redeemed during checkout. Gift cards can also be included in a grouped product.
 
@@ -32,18 +32,18 @@ The most frequently used product settings and attributes are located at the top 
 
 |Setting|Description|
 |--- |--- |
-|[Sources](../inventory-management/sources-assign-per-product.md)|Lists the sources from which the product can be distributed.|
-|[Content](product-content.md)|Used to enter and edit the main product description that appears on the storefront product page.|
-|[Configurations](product-configurations.md)| Lists any existing variations of the product and can be used to generate variations for use with the Configurable product type.|
-|[Product Reviews](settings-advanced-product-reviews.md)|Lists all reviews that customers have submitted for the product.|
-|[Search Engine Optimization](product-search-engine-optimization.md)|Specifies the URL Key and metadata fields that are used by search engines to index the product.|
-|[Related Products, Up-Sells, and Cross-Sells](related-products-up-sells-cross-sells.md)|Used to set up simple promotional blocks on the storefront that present a selection of additional products that might be of interest to the customer.|
-|[Customizable Options](settings-advanced-custom-options.md)|Adds customizable options to a product.|
-|[Product in Websites](settings-basic-websites.md)| Identifies each website where the product is available, according to the store hierarchy.|
-|[Design](settings-advanced-design.md)|Used to apply a different theme to the product page, change the column layout, determine where product options appear, and enter custom XML code.|
-|[Gift options](product-gift-options.md)|Used to enable or disable a gift message option during checkout at the product level.|
-|[Product In Shared Catalogs](../b2b/catalog-shared.md) | ![B2B for Adobe Commerce](../assets/b2b.svg) (Available with [B2B for Adobe Commerce](./b2b/../introduction.md) only) Enables the ability to maintain shared catalogs with custom pricing for different companies, with access to two types of shared catalogs using different pricing structures.|
+|[[!UICONTROL Sources]](../inventory-management/sources-assign-per-product.md)|Lists the sources from which the product can be distributed.|
+|[[!UICONTROL Content]](product-content.md)|Used to enter and edit the main product description that appears on the storefront product page.|
+|[[!UICONTROL Configurations]](product-configurations.md)| Lists any existing variations of the product and can be used to generate variations for use with the Configurable product type.|
+|[[!UICONTROL Product Reviews]](settings-advanced-product-reviews.md)|Lists all reviews that customers have submitted for the product.|
+|[[!UICONTROL Search Engine Optimization]](product-search-engine-optimization.md)|Specifies the URL Key and metadata fields that are used by search engines to index the product.|
+|[[!UICONTROL Related Products, Up-Sells, and Cross-Sells]](related-products-up-sells-cross-sells.md)|Used to set up simple promotional blocks on the storefront that present a selection of additional products that might be of interest to the customer.|
+|[[!UICONTROL Customizable Options]](settings-advanced-custom-options.md)|Adds customizable options to a product.|
+|[[!UICONTROL Product in Websites]](settings-basic-websites.md)| Identifies each website where the product is available, according to the store hierarchy.|
+|[[!UICONTROL Design]](settings-advanced-design.md)|Used to apply a different theme to the product page, change the column layout, determine where product options appear, and enter custom XML code.|
+|[[!UICONTROL Gift options]](product-gift-options.md)|Used to enable or disable a gift message option during checkout at the product level.|
+|[[!UICONTROL Product In Shared Catalogs]](../b2b/catalog-shared.md) | ![B2B for Adobe Commerce](../assets/b2b.svg) (Available with [B2B for Adobe Commerce](./b2b/../introduction.md) only) Enables the ability to maintain shared catalogs with custom pricing for different companies, with access to two types of shared catalogs using different pricing structures.|
 
-To access the advanced pricing and inventory settings, click the link below **Price** and **Quantity**. For more information, see [Managing Pricing](pricing-advanced.md) and [Inventory Management](../inventory-management/introduction.md).
+To access the advanced pricing and inventory settings, click the link below **[!UICONTROL Price]** and **[!UICONTROL Quantity]**. For more information, see [Managing Pricing](pricing-advanced.md) and [Inventory Management](../inventory-management/introduction.md).
 
 ![Price and quantity option links](./assets/product-details-simple.png)<!-- zoom -->

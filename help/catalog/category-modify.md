@@ -1,6 +1,6 @@
 ---
 title: Modify a category
-description: <placeholder>
+description: Learn how to move or delete a category.
 ---
 # Modify a category
 
@@ -8,7 +8,7 @@ After a category is established, it can be edited, moved to another position in 
 
 ## Move a category
 
-1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. To move a category, drag-and-drop the category to a new position in the tree.
 
@@ -20,8 +20,8 @@ After a category is established, it can be edited, moved to another position in 
 
    A deleted category cannot be restored, so make sure that you have selected the correct category before proceeding.
 
-1. Click **Delete Category**.
+1. Click **[!UICONTROL Delete Category]**.
 
-1. When prompted to confirm, click **OK**.
+1. When prompted to confirm, click **[!UICONTROL OK]**.
 
-You can also [update the events](https://docs.magento.com/user-guide/marketing/event-update.html) associated with a category from either the **Events** page or the **Category** page.
+You can also [update the events](https://docs.magento.com/user-guide/marketing/event-update.html) associated with a category from either the **[!UICONTROL Events]** page or the **[!UICONTROL Category]** page.

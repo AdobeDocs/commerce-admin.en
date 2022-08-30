@@ -1,8 +1,8 @@
 ---
-title: Product settings - Customizable Options
-description: <placeholder>
+title: Product settings - [!UICONTROL Customizable Options]
+description: For a product, the [!UICONTROL Customizable Options] settings allow you to offer a selection of options with a variety of text, selection, and date input types.
 ---
-# Product settings - Customizable Options
+# Product settings - [!UICONTROL Customizable Options]
 
 Adding customizable options to a product is an easy way to offer a selection of options with a variety of text, selection, and date input types. Customizable options are a good solution if your inventory needs are simple. However, because they are based on variations of a single SKU, they cannot be used to manage stock or as the basis of price rule conditions. If you have multiple products with the same options, you can set up one product and import the options to the other products.
 
@@ -18,52 +18,52 @@ If a cart price rule is triggered by the purchase, the initial calculation appli
 
 1. Open the product in edit mode.
 
-1. Scroll down and expand ![Expansion selector](../assets/icon-display-expand.png) the _Customizable Options_ section.
+1. Scroll down and expand ![Expansion selector](../assets/icon-display-expand.png) the _[!UICONTROL Customizable Options]_ section.
 
-1. Click **Add Option**.
+1. Click **[!UICONTROL Add Option]**.
 
    ![Customizable Options](./assets/product-customizable-options.png)<!-- zoom -->
 
-1. In the upper-left corner, click **New Option**.
+1. In the upper-left corner, click **[!UICONTROL New Option]**.
 
 1. Complete the new option settings:
 
-   - For **Option Title**, enter a name for the option.
+   - For **[!UICONTROL Option Title]**, enter a name for the option.
 
-   - Set the **Option Type** for data entry.
+   - Set the **[!UICONTROL Option Type]** for data entry.
 
-   - If the option is not required to purchase the product, deselect the **Required** checkbox.
+   - If the option is not required to purchase the product, deselect the **[!UICONTROL Required]** checkbox.
 
    ![New Option](./assets/product-customizable-options-new-option.png)<!-- zoom -->
 
-1. Click **Add New Row** and complete the following:
+1. Click **[!UICONTROL Add New Row]** and complete the following:
 
    ![Add Value](./assets/product-customizable-options-add-values.png)<!-- zoom -->
 
-   - For **Title**, enter a name for this option.
+   - For **[!UICONTROL Title]**, enter a name for this option.
 
-   - For **Price**, enter any markup or markdown from the base product price that applies to this option.
+   - For **[!UICONTROL Price]**, enter any markup or markdown from the base product price that applies to this option.
 
-   - Set **Price Type** to one of the following:
+   - Set **[!UICONTROL Price Type]** to one of the following:
 
       - `Fixed` - The price of the variation differs from the price of the base product by a fixed monetary amount, such as $1.
       - `Percentage` - The price of the variation differs from the price of the base product by a percentage, such as 10%.
 
-   - Enter a **SKU** for the option. The option SKU is a suffix that is added to the product SKU.
+   - Enter a **[!UICONTROL SKU]** for the option. The option SKU is a suffix that is added to the product SKU.
 
-   - If the _Option Type_ is `File`, set the parameters for the file. For **Compatible File Extensions**, enter the valid extensions as comma-separated values (such as `png, jpg, gif`). For **Maximum Image Size**, enter the maximum image size in pixels.
+   - If the _[!UICONTROL Option Type]_ is `File`, set the parameters for the file. For **[!UICONTROL Compatible File Extensions]**, enter the valid extensions as comma-separated values (such as `png, jpg, gif`). For **[!UICONTROL Maximum Image Size]**, enter the maximum image size in pixels.
 
-   - To change the order of the options, click the **Change Order** ![Sort order icon](../assets/icon-sort-order.png) icon and drag the option to a new position in the list.
+   - To change the order of the options, click the **[!UICONTROL Change Order]** ![Sort order icon](../assets/icon-sort-order.png) icon and drag the option to a new position in the list.
 
    ![Change Order of Options](./assets/product-customizable-options-move.png)<!-- zoom -->
 
    Repeat this step for each option to be added.
 
-1. When complete, click **Save**.
+1. When complete, click **[!UICONTROL Save]**.
 
 ## Import customizable options
 
-1. In the _Customizable Options_ section, click **Import Options**.
+1. In the _Customizable Options_ section, click **[!UICONTROL Import Options]**.
 
    ![Customizable Options](./assets/product-customizable-options.png)<!-- zoom -->
 
@@ -71,15 +71,15 @@ If a cart price rule is triggered by the purchase, the initial calculation appli
 
 1. In the list, select the checkbox of the product with the options that you want to import.
 
-1. Click ** Import **.
+1. Click **[!UICONTROL Import]**.
 
-1. When complete, you can continue to add more custom options or click **Save and Close**.
+1. When complete, you can continue to add more custom options or click **[!UICONTROL Save and Close]**.
 
 ## Input types
 
 |Type|Description|
 |--- |--- |
-|Text|An input line or text box where the customer can enter the required information. Options:<br />**Field** - A  single line input field for text.<br />**Area** - A multiple-line input field. Text can be formatted with the WYSIWYG editor or entered as HTML directly into the text box.|
-|File|Allows the customer to upload a file.|
-|Select|Allows the customer to select a single option or multiple options, depending on input type used. Options:<br />**Drop-down** - A drop-down list of options that allows only one selection.<br />**Radio Buttons** - A set of options that allows only one selection.<br />**Checkbox** - A checkbox is a variation of a yes/no option. If the product has more than one checkbox, multiple selections can be made.<br />**Multiple Select** - A drop-down list box of options that accepts multiple selections. To choose multiple options, hold down the Ctrl (PC) or Command (Mac) key and click each option.|
-|Date|Allows the customer to enter a date or time or choose the value from a calendar. Options: <br />**Date** - An input field for a date value. The date can be typed directly into the field or selected from a list or calendar. The input method and format is determined by the [Date & Time Custom Options](https://docs.magento.com/user-guide/stores/attribute-date-time-options.html) configuration.<br />**Date & Time** - An input field for a date and time value.<br />**Time** - An input field for a time value.|
+|[!UICONTROL Text]|An input line or text box where the customer can enter the required information. Options:<br />**[!UICONTROL Field]** - A  single line input field for text.<br />**[!UICONTROL Area]** - A multiple-line input field. Text can be formatted with the WYSIWYG editor or entered as HTML directly into the text box.|
+|[!UICONTROL File]|Allows the customer to upload a file.|
+|[!UICONTROL Select]|Allows the customer to select a single option or multiple options, depending on input type used. Options:<br />**[!UICONTROL Drop-down]** - A drop-down list of options that allows only one selection.<br />**[!UICONTROL Radio Buttons]** - A set of options that allows only one selection.<br />**[!UICONTROL Checkbox]** - A checkbox is a variation of a yes/no option. If the product has more than one checkbox, multiple selections can be made.<br />**[!UICONTROL Multiple Select]** - A drop-down list box of options that accepts multiple selections. To choose multiple options, hold down the Ctrl (PC) or Command (Mac) key and click each option.|
+|[!UICONTROL Date]|Allows the customer to enter a date or time or choose the value from a calendar. Options: <br />**[!UICONTROL Date]** - An input field for a date value. The date can be typed directly into the field or selected from a list or calendar. The input method and format is determined by the [Date & Time Custom Options](https://docs.magento.com/user-guide/stores/attribute-date-time-options.html) configuration.<br />**[!UICONTROL Date & Time]** - An input field for a date and time value.<br />**[!UICONTROL Time]** - An input field for a time value.|

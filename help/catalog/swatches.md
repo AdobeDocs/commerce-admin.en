@@ -1,6 +1,6 @@
 ---
 title: Product swatches
-description: <placeholder>
+description: Learn how to define swatches for your configurable product listings. 
 ---
 # Product swatches
 
@@ -10,7 +10,7 @@ For [configurable products](product-create-configurable.md), color can be indica
 
 >[!NOTE]
 >
->Swatch attributes can be configured to not display corresponding simple product images when the swatch is selected by setting the "Update Product Preview Image" option value to "No" on the Attribute Edit page in the Admin.
+>Swatch attributes can be configured to not display corresponding simple product images when the swatch is selected by setting the _[!UICONTROL Update Product Preview Image]_ option value to `No` on the [!UICONTROL Attribute Edit] page in the Admin.
 
 ![Swatches on a product page](./assets/storefront-color-swatches.png)<!-- zoom -->
 
@@ -43,7 +43,7 @@ Use either of the following methods to create swatches for your products.
 
    ![Hexadecimal color values](./assets/swatch-hex-values.png)<!-- zoom -->
 
-1. On the _Admin_ sidebar, go to **Stores** > _Attributes_ > **Product**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_ > **[!UICONTROL Product]**.
 
 1. In the grid, open the _color_ attribute in edit mode.
 
@@ -75,7 +75,7 @@ Use either of the following methods to create swatches for your products.
 
       ![Swatch labels](./assets/attribute-swatch-labels.png)<!-- zoom -->
 
-1. When complete, click **Save Attribute** and refresh the cache when prompted.
+1. When complete, click **[!UICONTROL Save Attribute]** and refresh the cache when prompted.
 
 1. Open each product in edit mode and update the **Color** attribute with the correct swatch.
 
@@ -91,17 +91,17 @@ Use either of the following methods to create swatches for your products.
 
    ![Swatch images](./assets/swatch-samples.png)<!-- zoom -->
 
-1. On the _Admin_ sidebar, go to **Stores** > _Attributes_ > **Product**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_ > **[!UICONTROL Product]**.
 
-1. In the grid, open the **color** attribute in edit mode.
+1. In the grid, open the **[!UICONTROL color]** attribute in edit mode.
 
-1. Verify that **Catalog Input Type for Store Owner** is set to `Visual Swatch`.
+1. Verify that **[!UICONTROL Catalog Input Type for Store Owner]** is set to `Visual Swatch`.
 
-1. If you prefer to not display corresponding simple product images when the swatch is selected on the product display page, set the "Update Product Preview Image" option value to "No".
+1. If you prefer to not display corresponding simple product images when the swatch is selected on the product display page, set **[!UICONTROL Update Product Preview Image]** to `No`.
 
-1. Under _Manage Swatch_ (values of your attribute), click **Add Swatch** and do the following:
+1. Under _[!UICONTROL Manage Swatch]_ (values of your attribute), click **[!UICONTROL Add Swatch]** and do the following:
 
-   - In the _Swatch_ column, click the new swatch to display the menu and choose **Upload a file**.
+   - In the _[!UICONTROL Swatch]_ column, click the new swatch to display the menu and choose **[!UICONTROL Upload a file]**.
 
       ![Upload an image file](./assets/attribute-swatch-add-upload-file.png)<!-- zoom -->
 
@@ -109,23 +109,23 @@ Use either of the following methods to create swatches for your products.
 
    - Repeat these steps for each swatch image.
 
-   - Enter the labels for the Admin and Storefront.
+   - Enter the labels for the Admin and storefront.
 
       In this example, we include the SKU in the admin label for reference because these colors are used only for a specific product. You can include a space or underscore in the label, but cannot include a hyphen.
 
       ![Enter labels](./assets/swatch-upload.png)<!-- zoom -->
 
-1. When complete, click **Save Attribute** and refresh the cache when prompted.
+1. When complete, click **[!UICONTROL Save Attribute]** and refresh the cache when prompted.
 
-1. Open each product in edit mode and update the **Color** attribute with the correct swatch.
+1. Open each product in edit mode and update the **[!UICONTROL Color]** attribute with the correct swatch.
 
    To update multiple products at the same time, follow the steps below.
 
 ## Step 2: Update the products
 
-1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Use the **Filter** to display the list by Name or SKU and include only the applicable products.
+1. Use the **[!UICONTROL Filter]** to display the list by Name or SKU and include only the applicable products.
 
    The following example filters the list on a partial product name.
 
@@ -133,17 +133,17 @@ Use either of the following methods to create swatches for your products.
 
 1. In the grid, select the checkbox of each product to which the swatch applies.
 
-1. Set **Actions** to `Update Attributes`.
+1. Set **[!UICONTROL Actions]** to `Update Attributes`.
 
    In this example, all blue capris are selected.
 
    ![Update product swatch attributes](./assets/swatch-apply-update-attributes.png)<!-- zoom -->
 
-1. Scroll down to the **Color** attribute and select the **Change** checkbox.
+1. Scroll down to the **[!UICONTROL Color]** attribute and select the **[!UICONTROL Change]** checkbox.
 
    ![Change checkbox](./assets/swatch-update-attributes-choose-color.png)<!-- zoom -->
 
-1. Choose the swatch that applies to the selected products and click **Save**.
+1. Choose the swatch that applies to the selected products and click **[!UICONTROL Save]**.
 
 1. When prompted, refresh the cache.
 
@@ -151,22 +151,22 @@ Use either of the following methods to create swatches for your products.
 
 ## Add swatches to a simple product
 
-1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
 1. Open a product in edit mode, check the product status (should be enabled).
 
-1. Click **Create Configurations** button (under the `Configurations` tab).
+1. Click **[!UICONTROL Create Configurations]** button (under the `Configurations` tab).
 
-1. In the pop up window choose the Color attribute and **Next**.
+1. In the pop up window choose the Color attribute and **[!UICONTROL Next]**.
 
 1. Select color swatches from the attribute that you want to include in this product.
 
-1. In the progress bar, click **Next**.
+1. In the progress bar, click **[!UICONTROL Next]**.
 
 1. [Configure the images, price, and quantity](product-create-configurable.md#step-3-configure-the-images-price-and-quantity).
 
    On this step set the images, pricing, and quantity of each configuration. The available options are the same for each, and you can choose only one. You can apply the same setting to all SKUs, apply a unique setting to each SKU, or skip the settings for now.
 
-1. When configuration for images, price, and quantity are complete, click **Next** in the upper-right corner.
+1. When configuration for images, price, and quantity are complete, click **[!UICONTROL Next]** in the upper-right corner.
 
-   The current product variations appear at the bottom of the Configuration section. If you are satisfied with the configurations, click **Generate Products**
+   The current product variations appear at the bottom of the Configuration section. If you are satisfied with the configurations, click **[!UICONTROL Generate Products]**.

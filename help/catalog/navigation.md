@@ -1,6 +1,6 @@
 ---
 title: Catalog navigation
-description: <placeholder>
+description: Learn about the concept of catalog navigation in a web store.
 ---
 # Catalog navigation
 

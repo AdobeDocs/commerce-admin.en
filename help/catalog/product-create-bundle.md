@@ -1,6 +1,6 @@
 ---
 title: Bundle product
-description: <placeholder>
+description: Learn how to create a bundle product that allows shoppers to build a customized product in your store.
 ---
 # Bundle product
 
@@ -11,7 +11,7 @@ A bundle is a _build your own_, customizable product. Each item in a bundle can 
 
 ![Bundle product](./assets/product-bundle.png)<!-- zoom -->
 
-The options appear when the customer clicks either **Customize** or **Add to Cart**. Because the products that are included in the bundle vary, the SKU, Price, and Weight can be set to either a dynamic or fixed value.
+The options appear when the customer clicks either **[!UICONTROL Customize]** or **[!UICONTROL Add to Cart]**. Because the products that are included in the bundle vary, the SKU, Price, and Weight can be set to either a dynamic or fixed value.
 
 >[!NOTE]
 >
@@ -25,9 +25,9 @@ The following instructions take you through the process of creating a bundle pro
 
 ## Step 1: Choose the product type
 
-1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. In the upper-right corner on the _Add Product_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png)<!-- {: width="25px"} --> ) menu, choose **Bundle Product**.
+1. In the upper-right corner on the _[!UICONTROL Add Product]_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png)<!-- {: width="25px"} --> ) menu, choose **[!UICONTROL Bundle Product]**.
 
    ![Add Bundle Product](./assets/product-add-bundle.png)<!-- zoom -->
 
@@ -35,7 +35,7 @@ The following instructions take you through the process of creating a bundle pro
 
 To choose the [attribute set](attribute-sets.md) that is used as a template for the product, do one of the following:
 
-- For **Search**, enter the name of the attribute set,
+- For **[!UICONTROL Search]**, enter the name of the attribute set,
 - In the list, choose the attribute set that you want to use.
 
 The form is updated to reflect the change.
@@ -44,37 +44,37 @@ The form is updated to reflect the change.
 
 ## Step 3: Complete the required settings
 
-1. Enter the product **Product Name**.
+1. Enter the product **[!UICONTROL Product Name]**.
 
-1. Either accept the default **SKU** that is based on the product name or enter a different value.
+1. Either accept the default **[!UICONTROL SKU]** that is based on the product name or enter a different value.
 
    To determine the type of SKU that is assigned to each bundle item, do the following:
 
-   - A **Dynamic SKU** can be assigned automatically to each bundle item by adding a suffix to the default SKU. By default, this is set to `Yes`.
+   - A **[!UICONTROL Dynamic SKU]** can be assigned automatically to each bundle item by adding a suffix to the default SKU. By default, this is set to `Yes`.
 
-   - If you prefer to assign a unique SKU for each bundle item, set **Dynamic SKU** to `No`.
+   - If you prefer to assign a unique SKU for each bundle item, set **[!UICONTROL Dynamic SKU]** to `No`.
 
    ![Dynamic SKU and price](./assets/product-bundle-dynamic-sku-price.png)<!-- zoom -->
 
 1. To determine the price of the bundle, do one of the following:
 
-   - To have the price reflect the options chosen by the customer, set **Dynamic Price** to `Yes` and leave **Price** blank.
+   - To have the price reflect the options chosen by the customer, set **[!UICONTROL Dynamic Price]** to `Yes` and leave **[!UICONTROL Price]** blank.
 
-   - To charge a fixed price for the bundle, set **Dynamic Price** to `No` and enter the **Price** that you want to charge for the bundle.
+   - To charge a fixed price for the bundle, set **[!UICONTROL Dynamic Price]** to `No` and enter the **[!UICONTROL Price]** that you want to charge for the bundle.
 
-1. Because the product is not yet ready to publish, set **Enable Product** to `No`.
+1. Because the product is not yet ready to publish, set set **[!UICONTROL Enable Product]** to `No`.
 
-1. Click **Save** and continue.
+1. click **[!UICONTROL Save]** and continue.
 
    When the product is saved, the [Store View](introduction.md#product-scope) chooser appears in the upper-left corner.
 
-1. Choose the **Store View** where the product is to be available.
+1. Choose the **[!UICONTROL Store View]** where the product is to be available.
 
    ![Choose Store View](./assets/product-create-store-view-choose.png)<!-- zoom -->
 
 ## Step 4: Complete the basic settings
 
-1. If the bundle has Fixed Pricing, set **Tax Class** to one of the following:
+1. If the bundle has Fixed Pricing, set **[!UICONTROL Tax Class]** to one of the following:
 
    - `None`
    - `Taxable Goods`
@@ -85,13 +85,13 @@ The form is updated to reflect the change.
 
    - The **Quantity** is not available because the value is determined for each bundle item.
 
-   - By default, the **Stock Status** is set to `In Stock`.
+   - By default, the **[!UICONTROL Stock Status]** is set to `In Stock`.
 
 1. To determine the weight of the bundle, do one of the following:
 
-   - To have the weight reflect the options chosen by the customer, set **Dynamic Weight** set `Yes` and leave **Weight** blank.
+   - To have the weight reflect the options chosen by the customer, set **Dynamic Weight** set `Yes` and leave **[!UICONTROL Weight]** blank.
 
-   - To assign a fixed weight to the bundle, set **Dynamic Weight** to `No` and enter the **Weight** of the bundle.
+   - To assign a fixed weight to the bundle, set **Dynamic Weight** to `No` and enter the **[!UICONTROL Weight]** of the bundle.
 
    ![Dynamic Weight](./assets/product-bundle-dynamic-weight.png)<!-- zoom -->
 
@@ -142,14 +142,14 @@ The Bundle Items section is used to add items to a Bundle product type and to ed
 
    - Enter an **Option Title** to be used as the field label.
 
-   - Set **Input Type** to one of the following:
+   - Set **[!UICONTROL Input Type]** to one of the following:
 
       - `Drop-down`
       - `Radio buttons`
       - `Checkbox`
       - `Multiple Select`
 
-   - To make the field a required entry, select the **Required** checkbox.
+   - To make the field a required entry, select the **[!UICONTROL Required]** checkbox.
 
    - Click **Add Products to Option** and select the checkbox of each product that you want to include in this option.
 
@@ -190,9 +190,9 @@ The Bundle Items section is used to add items to a Bundle product type and to ed
 
    ![Change the Order of Bundle Sections](./assets/product-bundle-section-move.png)<!-- zoom -->
 
-1. To remove any item from the bundle, click the **Delete** ( ![Trash icon](../assets/icon-delete-trashcan.png) ) icon.
+1. To remove any item from the bundle, click the **[!UICONTROL Delete]** ( ![Trash icon](../assets/icon-delete-trashcan.png) ) icon.
 
-1. When complete, click **Save**.
+1. When complete, click **[!UICONTROL Save]**.
 
 ## Step 6: Complete the product information
 
@@ -209,15 +209,15 @@ Scroll down and complete the information in the following sections as needed:
 
 ## Step 7: Publish the product
 
-1. If you are ready to publish the product in the catalog, set **Enable Product** to `Yes` ( ![Toggle yes](../assets/toggle-yes.png) ).
+1. If you are ready to publish the product in the catalog, set **[!UICONTROL Enable Product]** to `Yes` ( ![Toggle yes](../assets/toggle-yes.png) ).
 
 1. Do one of the following:
 
    **Method 1:** Save and preview
 
-   - In the upper-right corner, click **Save**.
+   - In the upper-right corner, click **[!UICONTROL Save]**.
 
-   - To view the product in your store, choose **Customer View** on the _Admin_ ( ![Menu arrow](../assets/icon-menu-down-arrow-black.png) ) menu.
+   - To view the product in your store, choose **[!UICONTROL Customer View]** on the _Admin_ ( ![Menu arrow](../assets/icon-menu-down-arrow-black.png) ) menu.
 
       The store opens in a new browser tab.
 
@@ -225,7 +225,7 @@ Scroll down and complete the information in the following sections as needed:
 
    **Method 2:** Save and close
 
-    On the _Save_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png)<!-- {: width="25px"} --> ) menu, choose **Save & Close**.
+    On the _[!UICONTROL Save]_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png)<!-- {: width="25px"} --> ) menu, choose **[!UICONTROL Save & Close]**.
 
    ![Save & Close](./assets/product-edit-save-close.png)<!-- zoom -->
 
@@ -233,18 +233,18 @@ Scroll down and complete the information in the following sections as needed:
 
 |Control|Description|Example|
 |--- |--- |--- |
-|Drop-down|Displays a drop-down list of options with the product name and price. Only one item can be selected.|![Drop-down](./assets/product-bundle-input-type-drop-down.png)<!-- zoom -->|
-|Radio Buttons|Displays a radio button for each option, followed by the product name and price.  Only one item can be selected.|![Radio Buttons](./assets/product-bundle-input-type-radio-buttons.png)<!-- zoom -->|
-|Checkbox|Displays a checkbox for each option, followed by the product name and price. Multiple items can be selected.|![Checkbox](./assets/product-bundle-input-type-checkbox.png)<!-- zoom -->|
-|Multiple Select|Displays a list of options with the product name and price. To select multiple items, hold down the Ctrl key (PC) or the Command key (Mac) and click each item.|![Multiple Select](./assets/product-bundle-input-type-multiple-select.png)<!-- zoom -->|
+|[!UICONTROL Drop-down]|Displays a drop-down list of options with the product name and price. Only one item can be selected.|![Drop-down](./assets/product-bundle-input-type-drop-down.png)<!-- zoom -->|
+|[!UICONTROL Radio Buttons]|Displays a radio button for each option, followed by the product name and price.  Only one item can be selected.|![Radio Buttons](./assets/product-bundle-input-type-radio-buttons.png)<!-- zoom -->|
+|[!UICONTROL Checkbox]|Displays a checkbox for each option, followed by the product name and price. Multiple items can be selected.|![Checkbox](./assets/product-bundle-input-type-checkbox.png)<!-- zoom -->|
+|[!UICONTROL Multiple Select]|Displays a list of options with the product name and price. To select multiple items, hold down the Ctrl key (PC) or the Command key (Mac) and click each item.|![Multiple Select](./assets/product-bundle-input-type-multiple-select.png)<!-- zoom -->|
 
 ## Field descriptions
 
 |Field|Description|
 |--- |--- |
-|SKU|Determines if each item is assigned a variable or dynamic SKU or if a fixed SKU is used for the bundle. Options: Fixed / Dynamic.|
-|Weight|Specifies whether the weight is calculated based on the items selected or is a fixed weight for the entire bundle. Options: Fixed / Dynamic.|
-|Price View|Determines if the product price is shown as a range, from the least expensive to the most expensive (Price Range) or with the least expensive shown (As Low As). Options: Price Range / As Low As.|
+|[!UICONTROL SKU]|Determines if each item is assigned a variable or dynamic SKU or if a fixed SKU is used for the bundle. Options: `Fixed` / `Dynamic`|
+|[!UICONTROL Weight]|Specifies whether the weight is calculated based on the items selected or is a fixed weight for the entire bundle. Options: `Fixed` / `Dynamic`|
+|[!UICONTROL Price View]|Determines if the product price is shown as a range, from the least expensive to the most expensive (Price Range) or with the least expensive shown (As Low As). Options: `Price Range` / `As Low As`|
 |Ship Bundle Items|Specifies if individual items can be shipped separately.|
 
 ## Things to remember

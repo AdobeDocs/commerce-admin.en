@@ -1,6 +1,6 @@
 ---
 title: Search results
-description: <placeholder>
+description: Learn how to configure how your products match the search criteria entered in the Quick Search box or the Advanced Search form.
 ---
 # Search results
 
@@ -33,50 +33,50 @@ The following example uses keyword mapping based on SKU. When either SKU is ente
 
 ### Step 1: Create a new attribute
 
-1. In the _Catalog Products_ grid, open the `Montana Wind Jacket` (MJ03) in edit mode.
-1. In the upper-right corner, click **Add Attribute**.
-1. On the _Select Attribute_ page, click **Create New Attribute**.
+1. In the _[!UICONTROL Products]_ list, open the `Montana Wind Jacket` (MJ03) in edit mode.
+1. In the upper-right corner, click **[!UICONTROL Add Attribute]**.
+1. On the _Select Attribute_ page, click **[!UICONTROL Create New Attribute]**.
 1. Complete the attribute properties as follows:
 
-   |Attribute Properties|||
-   |----|-----|-----|
-   | |Attribute Label:|`Search Keywords`|
-   | |Catalog Input Type for Store Owner:|`Text Field`|
+   **[!UICONTROL Attribute Properties]**
 
-   |Advanced Attribute Properties|||
-   |----|-----|-----|
-   | |Add to Column Options:|`Yes` (default)|
-   | |Use in Filter Options:|`Yes` (default)|
+   - [!UICONTROL Attribute Label]  - `Search Keywords`
+   - [!UICONTROL Catalog Input Type for Store Owner] - `Text Field`
 
-   |Storefront Properties|||
-   |----|-----|-----|
-   | |Use in Search:|`Yes` |
-   | |Visible on Catalog Pages in the Storefront:|`No` |
-   | |Used in Product Listings:|`No` |
+   **[!UICONTROL Advanced Attribute Properties]**
 
-1. When complete, click **Save Attribute**.
+   - [!UICONTROL Add to Column Options] - `Yes` (default)
+   - [!UICONTROL Use in Filter Options] - `Yes` (default)
+
+   **[!UICONTROL Storefront Properties]**
+
+   - [!UICONTROL Use in Search] - `Yes`
+   - [!UICONTROL Visible on Catalog Pages in the Storefront] - `No`
+   - [!UICONTROL Used in Product Listings] - `No`
+
+1. When complete, click **[!UICONTROL Save Attribute]**.
 
    The attribute is added to the attribute set for the product.
 
 ### Step 2: Map the first product
 
-1. On the product settings page, scroll down and expand the _Attributes_ section.
-1. In the **Search Keywords** field, enter the SKU `MH01` that is to be mapped to this product.
+1. On the product settings page, scroll down and expand the _[!UICONTROL Attributes]_ section.
+1. In the **[!UICONTROL Search Keywords]** field, enter the SKU `MH01` that is to be mapped to this product.
 
    You can enter multiple SKUs separated by a space in the Search Keywords field. In this example, only one is entered.
 
    ![Attributes section with search keyword](./assets/search-keywords-attribute.png)<!-- zoom -->
 
-1. When complete, click **Save**.
-1. Go to **System** > _Tools_ > **Cache Management** and refresh the **Page Cache**.
+1. When complete, click **[!UICONTROL Save]**.
+1. Go to **[!UICONTROL System]** > _[!UICONTROL Tools]_ > **[!UICONTROL Cache Management]** and refresh the **[!UICONTROL Page Cache]**.
 
 ### Step 3: Map the second product
 
-1. In the _Catalog Products_ grid, open the `Chaz Kangaroo Hoodie` (MH01) in edit mode.
-1. Scroll down and expand the **Attributes** section.
-1. In the **Search Keywords** field, enter the SKU for the other product, `MJ03`.
-1. Click **Save**.
-1. Go to **System** > _Tools_ > **Cache Management** and refresh the **Page Cache**.
+1. In the _[!UICONTROL Products]_ list, open the `Chaz Kangaroo Hoodie` (MH01) in edit mode.
+1. Scroll down and expand the **[!UICONTROL Attributes]** section.
+1. In the **[!UICONTROL Search Keywords]** field, enter the SKU for the other product, `MJ03`.
+1. click **[!UICONTROL Save]**.
+1. Go to **[!UICONTROL System]** > _[!UICONTROL Tools]_ > **[!UICONTROL Cache Management]** and refresh the **[!UICONTROL Page Cache]**.
 
 ### Step 4: Test it in the storefront
 
@@ -91,14 +91,14 @@ Product attributes that are enabled for catalog search can be assigned a weight 
 
 To set the search weight properties of an attribute:
 
-1. On the _Admin_ sidebar, go to **Stores** > _Attributes_ > **Product**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_ > **[!UICONTROL Product]**.
 
 1. Find the attribute in the list and open in edit mode.
 
-1. In the left panel, choose **Storefront Properties** and do the following:
+1. In the left panel, choose **[!UICONTROL Storefront Properties]** and do the following:
 
-   - To include the attribute in search queries, set **Use in Search** to `Yes`.
+   - To include the attribute in search queries, set **[!UICONTROL Use in Search]** to `Yes`.
 
-   - To establish the search value of the attribute, set **Search Weight** to a number from 1 to 10, where `10` has the highest priority. If no value is entered, all attributes default to a search weight of `1`.
+   - To establish the search value of the attribute, set **[!UICONTROL Search Weight]** to a number from 1 to 10, where `10` has the highest priority. If no value is entered, all attributes default to a search weight of `1`.
 
-1. When complete, click **Save Attribute**.
+1. When complete, click **[!UICONTROL Save Attribute]**.

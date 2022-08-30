@@ -1,6 +1,6 @@
 ---
 title: Breadcrumb trails
-description: <placeholder>
+description: Learn about the different breadcrumb trail patterns and how to configure them to appear on content and catalog pages.
 ---
 # Breadcrumb trails
 
@@ -38,17 +38,17 @@ Example: `Home > Suits > All Suits > Refined by > Slim Fit`
 
 ## Add/Remove the breadcrumbs from CMS pages
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel under _General_, choose **Web** and do the following:
+1. In the left panel under _[!UICONTROL General]_, choose **[!UICONTROL Web]** and do the following:
 
-   - Expand the _Default Pages_ section.
+   - Expand the _[!UICONTROL Default Pages]_ section.
 
-   - Deselect the **Use system value** checkbox.
+   - Deselect the **[!UICONTROL Use system value]** checkbox.
 
-   - Set **Show Breadcrumbs for CMS Pages** to `No` or `Yes`.
+   - Set **[!UICONTROL Show Breadcrumbs for CMS Pages]** to `No` or `Yes`.
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.
 
    ![Show Breadcrumbs for CMS Pages](./assets/web-default-pages.png)<!-- zoom -->
 

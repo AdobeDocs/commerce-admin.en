@@ -1,6 +1,6 @@
 ---
 title: Introduction to catalog management
-description: <placeholder>
+description: Learn how catalog and product scope function within catalog management.
 ---
 # Introduction to catalog management
 
@@ -10,7 +10,7 @@ One of the most important areas in creating and managing your store is product c
 
 ## Catalog scope
 
-Access to catalog data is determined by several factors, including the [scope](https://docs.magento.com/user-guide/configuration/scope.html) setting, the catalog configuration, and the [root category](category-root.md) that is assigned to the store. The catalog includes products that are enabled and available for sale, as well as those that are currently not offered for sale.
+Access to catalog data is determined by several factors, including the [scope](../getting-started/websites-stores-views.md#scope-settings) setting, the catalog configuration, and the [root category](category-root.md) that is assigned to the store. The catalog includes products that are enabled and available for sale, as well as those that are currently not offered for sale.
 
 In sales, the term _catalog_ usually refers to a curated selection of products that is available for sale. For example, a store might have a "Spring Catalog" and a "Fall Catalog".
 
@@ -20,7 +20,7 @@ Like the table of contents of a printed catalog, the main menu of your store —
 
 ## Product scope
 
-For installations with multiple websites, stores, and views, the [scope](https://docs.magento.com/user-guide/configuration/scope.html) setting determines where products are available for sale, and the product information that is available for each store view. Initially, all products that you create are published to the default website, store, and store view.
+For installations with multiple websites, stores, and views, the [scope](../getting-started/websites-stores-views.md#scope-settings) setting determines where products are available for sale, and the product information that is available for each store view. Initially, all products that you create are published to the default website, store, and store view.
 
 ![multi-site store diagram](./assets/scope-multisite.svg)<!-- {:width="550px"} -->
 
@@ -38,9 +38,9 @@ Although the _Spanish_ store view is selected in the following example, the prod
 
 ## Edit a product for a different view
 
-1. In the upper-left corner, set **Store View** to the specific view to be edited.
+1. In the upper-left corner, set **[!UICONTROL Store View]** to the specific view to be edited.
 
-1. Click **OK** to confirm the scope change.
+1. click **[!UICONTROL OK]** to confirm the scope change.
 
    ![Store view](./assets/product-store-view-spanish-racer-tank.png)<!-- zoom -->
 
@@ -50,9 +50,9 @@ Although the _Spanish_ store view is selected in the following example, the prod
 
    ![Translating product name for Spanish store view](./assets/product-translate-field-spanish.png)<!-- zoom -->
 
-1. When complete, click **Save**.
+1. When complete, click **[!UICONTROL Save]**.
 
-1. In the upper-left corner, set the **Store View** chooser back to the default.
+1. In the upper-left corner, set the **[!UICONTROL Store View]** chooser back to the default.
 
 1. To verify the change in your store, do the following:
 

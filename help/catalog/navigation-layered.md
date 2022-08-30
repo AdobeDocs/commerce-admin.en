@@ -1,6 +1,6 @@
 ---
 title: Layered navigation
-description: <placeholder>
+description: Learn how layered navigation makes it easy for shoppers to find products based on category, price range, or any other available attribute. 
 ---
 # Layered navigation
 
@@ -30,19 +30,19 @@ The following instructions show how to set up basic layered navigation with filt
 
 ## Step 1: Set up the attribute properties
 
-1. On the _Admin_ sidebar, go to **Stores** > _Attributes_ > **Product**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_ > **[!UICONTROL Product]**.
 
 1. Browse or use filtered search to find an attribute in the list and open it in edit mode.
 
    ![Enter search terms per column to use filtered search](./assets/attribute-search.png)<!-- zoom -->
 
-1. In the left panel, choose **Storefront Properties** and set **Use In Layered Navigation** to one of the following:
+1. In the left panel, choose **[!UICONTROL Storefront Properties]** and set **[!UICONTROL Use In Layered Navigation]** to one of the following:
 
    - `Filterable (with results)` - Layered navigation includes only those filters for which matching products can be found. Any attribute value that already applies to all products shown in the list should still appear as an available filter. Attribute values with a count of zero (0) product matches are omitted from the list of available filters. The filtered list of products includes only those that match the filter. The products list is updated only if the selected filter(s) change what is currently shown.
 
    - `Filterable (no results)` - Layered navigation includes filters for all available attribute values and their product counts, including those with zero (0) product matches. If the attribute value is a swatch, the value appears as a filter, but is crossed out. Price layered filtering is not supported by this option, and does not affect Price filters.
 
-1. Set **Use In Search Results Layered Navigation** to `Yes`.
+1. Set **[!UICONTROL Use In Search Results Layered Navigation]** to `Yes`.
 
    ![Storefront properties](./assets/attribute-storefront-properties.png)<!-- zoom -->
 
@@ -54,13 +54,13 @@ The following instructions show how to set up basic layered navigation with filt
 
 ## Step 2: Make the category an anchor
 
-1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. In the categories tree, select the category where you want to use layered navigation.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Display Settings** section and set **Anchor** to `Yes`.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Display Settings]** section and set **[!UICONTROL Anchor]** to `Yes`.
 
-1. Click **Save**.
+1. click **[!UICONTROL Save]**.
 
    ![Category Display Settings](./assets/category-layered-navigation-anchor.png)<!-- zoom -->
 
@@ -80,17 +80,17 @@ This makes it difficult for customers to select a preferred product, and there i
 
 You can use the following steps to remove filterable attribute values with 0 Products from the layered navigation:
 
-1. On the _Admin_ sidebar, go to **Stores** > _Attributes_ > **Product**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_ > **[!UICONTROL Product]**.
 
 1. Browse or use filtered search to find an attribute in the list and open it in edit mode.
 
-1. Under _Attribute Information_ , click **Storefront Properties**.
+1. Under _[!UICONTROL Attribute Information]_ , click **[!UICONTROL Storefront Properties]**.
 
    ![Attribute Information section](./assets/storefront-properties-tab.png)<!-- zoom -->
 
-1. For **Layered Navigation**, choose `Filterable (with results)`.
+1. For **[!UICONTROL Layered Navigation]**, choose `Filterable (with results)`.
 
-1. Click **Save Attribute**.
+1. Click **[!UICONTROL Save Attribute]**.
 
 ## Price navigation
 
@@ -127,33 +127,33 @@ Iterative splitting provides the best distribution of products among price range
 
 >[!IMPORTANT]
 >
->To correctly display products and their prices according to _price filters_ in the layered navigation, make sure that the settings for the price display in the [Sales Tax configuration](https://docs.magento.com/user-guide/configuration/sales/tax.html) have the same value (`Excluding Tax` **or** `Including Tax`). For the _Calculation Settings_, check the **Catalog Prices** value. And for _Price Display Settings_, check the **Display Product Prices in Catalog** value. If these have different values, price filters in the layered navigation may not properly filter and sort products by price.
+>To correctly display products and their prices according to _price filters_ in the layered navigation, make sure that the settings for the price display in the [Sales Tax configuration](https://docs.magento.com/user-guide/configuration/sales/tax.html) have the same value (`Excluding Tax` **or** `Including Tax`). For the _[!UICONTROL Calculation Settings]_, check the **[!UICONTROL Catalog Prices]** value. And for _[!UICONTROL Price Display Settings]_, check the **[!UICONTROL Display Product Prices in Catalog]** value. If these have different values, price filters in the layered navigation may not properly filter and sort products by price.
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
+1. In the left panel, expand **[!UICONTROL Catalog]** and choose **[!UICONTROL Catalog]** underneath.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the _Layered Navigation_ section.
 
-   By default, **Display Product Count** is set to `Yes`. If necessary, deselect the **Use system value** checkbox to change this setting.
+   By default, **[!UICONTROL Display Product Count]** is set to `Yes`. If necessary, deselect the **[!UICONTROL Use system value]** checkbox to change this setting.
 
    ![Layered Navigation](./assets/layered-navigation.png)<!-- zoom -->
-     
-   See also [Layered Navigation](https://docs.magento.com/user-guide/configuration/catalog/catalog.html)
 
-1. Set **Price Navigation Steps Calculation** for one of the methods in the following sections.
+   For information about these configuration options, see [Layered Navigation](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#layered-navigation)
 
-1. When complete, click **Save Config**.
+1. Set **[!UICONTROL Price Navigation Steps Calculation]** for one of the methods in the following sections.
+
+1. When complete, click **[!UICONTROL Save Config]**.
 
 ### Method 1: Automatic (equalize price ranges)
 
-Leave **Price Navigation Steps Calculation** set to `Automatic (Equalize Price Ranges)` (default). This setting uses the standard algorithm for price navigation.
+Leave **[!UICONTROL Price Navigation Steps Calculation]** set to `Automatic (Equalize Price Ranges)` (default). This setting uses the standard algorithm for price navigation.
 
 ### Method 2: Automatic (equalize product counts)
 
 >[!TIP]
 >
->If necessary, first deselect the **Use system value** checkbox to change these settings.
+>If necessary, first deselect the **[!UICONTROL Use system value]** checkbox to change these settings.
 
 1. Set **Price Navigation Steps Calculation** to `Automatic (equalize product counts)`.
 
@@ -163,25 +163,21 @@ Leave **Price Navigation Steps Calculation** set to `Automatic (Equalize Price R
 
    The range cannot be further split beyond this limit. The default value is `9`.
 
-    ![Automatic (equalize product counts)](./assets/equalize-product-counts.png)<!-- zoom -->
-    
-    See also [_Automatic (equalize product counts)_](https://docs.magento.com/user-guide/configuration/catalog/catalog.html)
+   ![Automatic (equalize product counts)](./assets/equalize-product-counts.png)<!-- zoom -->
 
 ### Method 3: Manual
 
 >[!NOTE]
 >
->If necessary, first deselect the **Use system value** checkbox to change these settings.
+>If necessary, first deselect the **[!UICONTROL Use system value]** checkbox to change these settings.
 
-1. Set **Price Navigation Steps Calculation** to `Manual`.
+1. Set **[!UICONTROL Price Navigation Steps Calculation]** to `Manual`.
 
-1. Enter a value to determine the **Default Price Navigation Step**.
+1. Enter a value to determine the **[!UICONTROL Default Price Navigation Step]**.
 
-1. Enter the **Maximum Number of Price Intervals** allowed, up to `100`.
+1. Enter the **[!UICONTROL Maximum Number of Price Intervals]** allowed, up to `100`.
 
-    ![Manual](./assets/layered-navigation-manual.png)<!-- zoom -->
-
-    See also [_Manual_](https://docs.magento.com/user-guide/configuration/catalog/catalog.html)
+   ![Manual](./assets/layered-navigation-manual.png)<!-- zoom -->
 
 ## Configure layered navigation
 
@@ -191,22 +187,20 @@ Leave **Price Navigation Steps Calculation** set to `Automatic (Equalize Price R
 
 The layered navigation configuration determines if a product count appears in parentheses after each attribute, and the size of the step calculation that is used in price navigation.
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand the _Catalog_ section and choose **Catalog** underneath.
+1. In the left panel, expand the _[!UICONTROL Catalog]_ section and choose **[!UICONTROL Catalog]** underneath.
 
-1. Expand the _Layered Navigation_ section and do the following:
+1. Expand the _[!UICONTROL Layered Navigation]_ section.
 
    ![Layered Navigation](./assets/layered-navigation.png)<!-- zoom -->
 
    >[!NOTE]
    >
-   >If necessary, first deselect the **Use system value** checkbox to change these settings.
+   >If necessary, first deselect the **[!UICONTROL Use system value]** checkbox to change these settings.
 
-    - To display the number of products found for each attribute, set **Display Product Count** to `Yes`.
+1. To display the number of products found for each attribute, set **[!UICONTROL Display Product Count]** to `Yes`.
 
-    - Set **Price Navigation Step Calculation** to `Automatic (equalize price ranges)`.
+1. Set **[!UICONTROL Price Navigation Step Calculation]** to `Automatic (equalize price ranges)`.
 
-   See also [Layered Navigation](https://docs.magento.com/user-guide/configuration/catalog/catalog.html) in the _Configuration Reference_.
-
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.

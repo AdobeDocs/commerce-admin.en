@@ -1,6 +1,6 @@
 ---
 title: Root category and hierarchy
-description: <placeholder>
+description: Learn about the categiry hierarchy and the root category, which acts as a container for the main menu in the category tree.
 ---
 # Root category and hierarchy
 
@@ -14,13 +14,13 @@ The following example shows how to create a new root category and assign it to a
 
 ## Step 1: Create a new root category
 
-1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
-1. On the left, click **Add Root Category**.
+1. On the left, click **[!UICONTROL Add Root Category]**.
 
    ![New root category](./assets/category-root-ee.png)<!-- zoom -->
 
-1. Assign a **Category Name**.
+1. Assign a **[!UICONTROL Category Name]**.
 
    The name you choose will initially be assigned to all store views.
 
@@ -30,31 +30,31 @@ The following example shows how to create a new root category and assign it to a
 
    - Use the [search filters](https://docs.magento.com/user-guide/stores/admin-grid-controls.html) to find the products you want and select the checkbox for each product that you want to copy into the new catalog.
 
-1. When complete, click **Save**.
+1. When complete, click **[!UICONTROL Save]**.
 
 ## Step 2: Build out the main menu
 
 1. On the left, select the new root category that you created in the previous step.
 
-1. Click **Add Subcategory** and follow the instructions to create the [category structure](category-create.md) for the main menu.
+1. Click **[!UICONTROL Add Subcategory]** and follow the instructions to create the [category structure](category-create.md) for the main menu.
 
 ## Step 3: Assign the root category to the store
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **All Stores**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL All Stores]**.
 
 1. In the _Stores_ column of the grid, click the store that you want to assign the new catalog.
 
-1. Set **Root Category** to the new root category that you created.
+1. Set **[!UICONTROL Root Category]** to the new root category that you created.
 
-1. Make sure that the store has a **Default Store View** assigned.
+1. Make sure that the store has a **[!UICONTROL Default Store View]** assigned.
 
    The store must have at least one [store view](https://docs.magento.com/user-guide/stores/stores-all-create-view.html).
 
-1. When complete, click **Save Store**.
+1. When complete, click **[!UICONTROL Save Store]**.
 
 1. To verify that the store has a new catalog, do the following:
 
-   - On the _Admin_ sidebar, go to **Catalog** > **Products**.
+   - On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
       Any products that were copied to the new catalog appear in the grid.
 

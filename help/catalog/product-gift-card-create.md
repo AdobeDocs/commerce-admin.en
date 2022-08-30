@@ -1,6 +1,6 @@
 ---
 title: Gift card product
-description: <placeholder>
+description: Learn how to create a gift card product that produces a unique code to be redeemed by a recipient customer during checkout. 
 ---
 # Gift card product
 
@@ -24,9 +24,9 @@ The following instructions demonstrate the process of creating a gift card using
 
 ## Step 1: Choose the product type
 
-1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. In the upper-right corner on the _Add Product_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png)<!-- {: width="25px"} --> ) menu, choose **Gift Card**.
+1. In the upper-right corner on the _[!UICONTROL Add Product]_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png)<!-- {: width="25px"} --> ) menu, choose **[!UICONTROL Gift Card]**.
 
    ![Add Gift Card](./assets/product-add-gift-card.png)<!-- zoom -->
 
@@ -34,22 +34,23 @@ The following instructions demonstrate the process of creating a gift card using
 
 You can use the default `Gift Card` attribute set or choose another. To choose the attribute set that is used as a template for the product, do one of the following:
 
-- For **Search**, enter the name of the attribute set.
-- In the list, choose the attribute set that you want to use.
+- Click in the **[!UICONTROL Attribute Set]** field and enter all or part of the name of the attribute set.
+
+- In the displayed list, choose the attribute set that you want to use.
 
 ![Choose Attribute Set](./assets/product-create-choose-attribute-set-gift-card.png)<!-- zoom -->
 
 ## Step 3: Complete the required settings
 
-1. Enter a **Product Name** for the gift card.
+1. Enter a **[!UICONTROL Product Name]** for the gift card.
 
    You might also indicate the type of gift card in the name. For example, _Luma Virtual Gift Card_.
 
-1. Enter a **SKU** for the product.
+1. Enter a **[!UICONTROL SKU]** for the product.
 
    By default, the Product Name is used as the default SKU.
 
-1. Set **Card Type** to one of the following:
+1. Set **[!UICONTROL Card Type]** to one of the following:
 
    - `Virtual` - Virtual gift cards are delivered by email to the recipient.
    - `Physical` - Physical gift cards can be mass produced in advance and embossed with unique codes.
@@ -57,7 +58,7 @@ You can use the default `Gift Card` attribute set or choose another. To choose t
 
    ![Gift Card Type](./assets/product-create-gift-card-type.png)<!-- zoom -->
 
-1. To offer the customer a choice of fixed amounts, click **Add Amount** and enter the first fixed value of the card as a decimal.
+1. To offer the customer a choice of fixed amounts, click **[!UICONTROL Add Amount]** and enter the first fixed value of the card as a decimal.
 
    Repeat this step to enter the selection of fixed amounts.
 
@@ -65,27 +66,27 @@ You can use the default `Gift Card` attribute set or choose another. To choose t
 
 1. To give customers the ability to set the value of the gift card, do the following:
 
-   - Set **Open Amount** to `Yes`.
+   - Set **[!UICONTROL Open Amount]** to `Yes`.
 
-   - To define the range of minimum and maximum acceptable values, enter the **Open Amount From** and **To** values.
+   - To define the range of minimum and maximum acceptable values, enter the **[!UICONTROL Open Amount From]** and **[!UICONTROL To]** values.
 
    You can create gift cards with fixed pricing, open amount pricing, or both.
 
 ## Step 4: Complete the basic settings
 
-1. For a physical or combined gift card, enter the **Quantity** in stock.
+1. For a physical or combined gift card, enter the **[!UICONTROL Quantity]** in stock.
 
-1. If the gift card that is to be shipped, enter the **Weight** of the package.
+1. If the gift card that is to be shipped, enter the **[!UICONTROL Weight]** of the package.
 
-1. In the **Categories** field, choose `Gift Card`.
+1. In the **[!UICONTROL Categories]** field, choose `Gift Card`.
 
 There might be additional individual attributes that describe the product. The selection varies attribute set, and you can complete them later.
 
 ## Step 5: Complete the gift card information
 
-The _Gift Card Information_ section of the product settings can be used to override the [gift card configuration](https://docs.magento.com/user-guide/configuration/sales/gift-cards.html) settings that determine how the card is managed.
+The _[!UICONTROL Gift Card Information]_ section of the product settings can be used to override the [gift card configuration](https://docs.magento.com/user-guide/configuration/sales/gift-cards.html) settings that determine how the card is managed.
 
-1. Scroll down to the _Gift Card Information_ section.
+1. Scroll down to the _[!UICONTROL Gift Card Information]_ section.
 
    The default settings in this section are determined by the system configuration.
 
@@ -93,13 +94,13 @@ The _Gift Card Information_ section of the product settings can be used to overr
 
 1. Change additional fields according to how you want the gift card to function:
 
-   - **Treat Balance as Store Credit** - Determines if the gift card holder can redeem the balance as store credit.
+   - **[!UICONTROL Treat Balance as Store Credit]** - Determines if the gift card holder can redeem the balance as store credit.
 
-   - **Lifetime (days)** - Determines the number of days after purchase until the gift card expires. If you do not want to set a limit for the lifetime of the card, leave this field blank.
+   - **[!UICONTROL Lifetime (days)]** - Determines the number of days after purchase until the gift card expires. If you do not want to set a limit for the lifetime of the card, leave this field blank.
 
-   - **Allow Message** - Determines if the purchaser of the gift card can enter a message for to the recipient. A gift message can be included for both virtual (emailed) and physical (shipped) gift cards.
+   - **[!UICONTROL Allow Message]** - Determines if the purchaser of the gift card can enter a message for to the recipient. A gift message can be included for both virtual (emailed) and physical (shipped) gift cards.
 
-   - **Email Template** - Determines the email template that is used for the notification sent to the recipient of a gift card.
+   - **[!UICONTROL Email Template]** - Determines the email template that is used for the notification sent to the recipient of a gift card.
 
 ## Step 6: Complete the product information
 
@@ -122,23 +123,21 @@ Complete the information in the following sections as needed:
 
    **Method 1:** Save and Preview
 
-   - In the upper-right corner, click **Save**.
+   - In the upper-right corner, click **[!UICONTROL Save]**.
 
-   - To view the product in your store, choose **Customer View** on the _Admin_ ( ![Menu arrow](../assets/icon-menu-down-arrow-black.png) ) menu,
+   - To view the product in your store, choose **[!UICONTROL Customer View]** on the _Admin_ ( ![Menu arrow](../assets/icon-menu-down-arrow-black.png) ) menu,
 
    ![Customer View](./assets/admin-customer-view.png)<!-- zoom -->
 
    **Method 2:** Save and Close
 
-   On the _Save_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png)<!-- {: width="25px"} --> ) menu, choose **Save & Close**.
+   On the _[!UICONTROL Save]_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png)<!-- {: width="25px"} --> ) menu, choose **[!UICONTROL Save & Close]**.
 
    ![Save & Close](./assets/product-edit-save-close.png)<!-- zoom -->
 
 ## Things to remember
 
 - A _code pool_ of unique numbers must be generated before a gift card can be offered for sale.
-
-- The three types of gift cards are Virtual, Physical, and Combined.
 
 - Gift cards can be set to `Redeemable` or `Non-Redeemable`.
 

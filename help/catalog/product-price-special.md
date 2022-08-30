@@ -1,6 +1,6 @@
 ---
 title: Special Price
-description: <placeholder>
+description: Learn how to offer special pricing for a designated period of time.
 ---
 # Special Price
 
@@ -20,45 +20,47 @@ Adobe Commerce includes support for [Scheduled Updates](../content-design/conten
 
 1. Open the product in edit mode.
 
-1. Click **Scheduled Update**.
+1. Click **[!UICONTROL Scheduled Update]**.
 
 1. For **Update Name**, enter a name for the special price promotion.
 
-1. Enter a brief **Description**.
+1. Enter a brief **[!UICONTROL Description]**.
 
-1. Use the **Calendar** ( ![calendar icon](../assets/icon-calendar.png) ) to choose the **Start Date** and **End Date** for the special price promotion.
+1. Use the **Calendar** ( ![calendar icon](../assets/icon-calendar.png) ) to choose the **[!UICONTROL Start Date]** and **[!UICONTROL End Date]** for the special price promotion.
 
-   You can use the **Hour** and **Minute** sliders to choose the start and end time, as well. Click **Close** when the start and end are set.
+   You can use the **[!UICONTROL Hour]** and **[!UICONTROL Minute]** sliders to choose the start and end time, as well. Click **[!UICONTROL Close]** when the start and end are set.
 
    ![Save as New Update](./assets/product-price-special-scheduled-update.png)<!-- zoom -->
 
-1. Scroll down to the _Price_ field, click **Advanced Pricing**, and enter the amount of the **Special Price**.
+1. Scroll down to the _Price_ field, click **[!UICONTROL Advanced Pricing]**, and enter the amount of the **[!UICONTROL Special Price]**.
 
    ![Special Pricing Settings](./assets/product-price-special.png)<!-- zoom -->
 
-1. When complete, click **Done** and then **Save**.
+1. When complete, click **[!UICONTROL Done]** and then **[!DNL Save]**.
 
    In the storefront, the special price should appear in both catalog listing and on the product page.
 
-   The Scheduled Change appears at the top of the page.
+   The _[!UICONTROL Scheduled Change]_ appears at the top of the page.
 
    ![Scheduled Change](./assets/product-price-special-scheduled-change.png)<!-- zoom -->
 
 ### Use a simple start and end date
 
+{{ce-feature}}
+
 Magento Open Source includes simple start and end date options in the Advanced Pricing options.
 
 1. Open the product in edit mode.
 
-1. Scroll down to the _Price_ field, click **Advanced Pricing**, and enter the **Special Price** amount.
+1. Scroll down to the _[!UICONTROL Price]_ field, click **[!UICONTROL Advanced Pricing]**, and enter the **[!UICONTROL Special Price]** amount.
 
-1. Use the **Calendar** ( ![Calendar icon](../assets/icon-calendar.png) ) to choose the **Start Date** and **End Date** for the special price promotion.
+1. Use the _Calendar_ ( ![Calendar icon](../assets/icon-calendar.png) ) to choose the **[!UICONTROL Start Date]** and **[!UICONTROL End Date]** for the special price promotion.
 
    The special price goes into effect immediately after midnight at the beginning of the start date (00:01) and continues until just before midnight (23:59) on the day before the end date.
 
    ![Special Pricing Settings](./assets/product-price-special.png)<!-- zoom -->
 
-1. When complete, click **Done** and then **Save**.
+1. When complete, click **[!UICONTROL Done]** and then **[!UICONTROL Save]**.
 
    In the storefront, the special price should appear in both catalog listing and on the product page.
 
@@ -72,7 +74,7 @@ You can also assign a special price to multiple products, such as multiple varia
 
 The following example shows how to assign the same special price to multiple product variations of a configurable product in Adobe Commerce.
 
-1. On the **Products** page, click **Filters** and enter the **Name** of the configurable product.
+1. On the _[!UICONTROL Products]_ page, click **[!UICONTROL Filters]** and enter the **[!UICONTROL Name]** of the configurable product.
 
 1. Set **Type** to `Configurable Product` and click **Apply Filters**.
 
@@ -82,29 +84,31 @@ The following example shows how to assign the same special price to multiple pro
 
 1. Set the **Actions** control to `Update attributes`.
 
-1. Scroll down to the _Special Price_ field and select the **Change** checkbox below the _Special Price_ field and enter the special price that you want to offer.
+1. Scroll down to the _[!UICONTROL Special Price]** field and select the **Change** checkbox below the _[!UICONTROL Special Price]** field and enter the special price that you want to offer.
 
    ![Special Price fields](./assets/product-price-special-commerce.png)<!-- zoom -->
 
-1. When complete, click **Save**.
+1. When complete, click **[!UICONTROL Save]**.
 
 The special price available in the store appears in catalog listings as well as on the product page. For a configurable product, the regular price also appears on the product page when the options are chosen.
 
 ### Set a special price and date range for selected products
 
+{{ce-feature}}
+
 The following example shows how to assign the same special price to multiple product variations of a configurable product in Magento Open Source.
 
-1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Click **Filters**.
+1. Click **[!UICONTROL Filters]**.
 
-1. Enter the **Name** of the configurable product.
+1. Enter the **[!UICONTROL Name]** of the configurable product.
 
-1. Set **Type** to `Simple Product`.
+1. Set **[!UICONTROL Type]** to `Simple Product`.
 
    ![Filters](./assets/product-price-special-filter.png)<!-- zoom -->
 
-1. Click **Apply Filters**.
+1. Click **[!UICONTROL Apply Filters]**.
 
    The grid lists all simple products that are associated as variations of the configurable product.
 
@@ -114,23 +118,23 @@ The following example shows how to assign the same special price to multiple pro
 
    As an alternative, you can select the checkbox of each product that you want to include.
 
-1. Set the **Actions** control to `Update attributes`.
+1. Set the **[!UICONTROL Actions]** control to `Update attributes`.
 
    ![Update Attributes](./assets/product-price-special-action-update-attributes.png)<!-- zoom -->
 
-1. Scroll down to the _Special Price_ field and do the following:
+1. Scroll down to the _[!UICONTROL Special Price]** field and do the following:
 
-   - Select the **Change** checkbox below the _Special Price_ field and enter the special price that you want to offer.
+   - Select the **[!UICONTROL Change]** checkbox below the _[!UICONTROL Special Price]** field and enter the special price that you want to offer.
 
-   - Select the **Change** checkbox below the _Special Price From Date_ field, click the **Calendar** ( ![Calendar icon](../assets/icon-calendar.png) ), and choose the first date of the special price promotion.
+   - Select the **[!UICONTROL Change]** checkbox below the _Special Price From Date_ field, click the _Calendar_ ( ![Calendar icon](../assets/icon-calendar.png) ), and choose the first date of the special price promotion.
 
       The special price goes into effect immediately after midnight at the beginning of the start date (00:01) and continues until just before midnight (23:59) on the day before the end date.
 
-   - Select the **Change** checkbox below the _Special Price To Date_ field, click the **Calendar** ( ![Calendar icon](../assets/icon-calendar.png) ), and choose the last date of the special price promotion.
+   - Select the **[!UICONTROL Change]** checkbox below the _Special Price To Date_ field, click the _Calendar_ ( ![Calendar icon](../assets/icon-calendar.png) ), and choose the last date of the special price promotion.
 
    ![Special Price Fields](./assets/product-price-special-action-update-attributes-fields.png)<!-- zoom -->
 
-1. When complete, click **Save**.
+1. When complete, click **[!UICONTROL Save]**.
 
    A message indicates how many records were updated with the special price.
 
@@ -142,9 +146,9 @@ The following example shows how to assign the same special price to multiple pro
 
 If the special price does not appear correctly in the storefront on both the catalog listing and product pages, clear your browser cache:
 
-1. On the _Admin_ sidebar, go to **System** > **Cache Management**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > **[!UICONTROL Cache Management]**.
 
-1. Click **Flush Magento Cache**.
+1. Click **[!UICONTROL Flush Magento Cache]**.
 
 >[!NOTE]
 >

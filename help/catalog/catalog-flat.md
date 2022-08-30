@@ -1,6 +1,6 @@
 ---
 title: Flat catalogs
-description: <placeholder>
+description: Learn  about creating a flat catalog, where each row contains all the necessary data about a product or category.
 ---
 # Flat catalogs
 
@@ -18,21 +18,21 @@ In contrast, a flat catalog creates new tables on the fly, where each row contai
 
 ## Step 1: Enable the Flat Catalog
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
+1. In the left panel, expand **[!UICONTROL Catalog]** and choose **[!UICONTROL Catalog]** underneath.
 
 1. Expand the _Storefront_ section and do the following:
 
-   - Set **Use Flat Catalog Category** to `Yes`. (If necessary, deselect the **Use system value** checkbox.)
+   - Set **[!UICONTROL Use Flat Catalog Category]** to `Yes`. (If necessary, deselect the **[!UICONTROL Use system value]** checkbox.)
 
-   - Set **Use Flat Catalog Product** to `Yes`.
+   - Set **[!UICONTROL Use Flat Catalog Product]** to `Yes`.
 
    ![Flat catalog configuration](./assets/use-flat-catalog.png)<!-- zoom -->
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.
 
-1. When prompted to update the cache, click **Cache Management** in the system message and follow the instructions to refresh the cache.
+1. When prompted to update the cache, click **[!UICONTROL Cache Management]** in the system message and follow the instructions to refresh the cache.
 
 ## Step 2: Verify the results
 
@@ -40,13 +40,13 @@ There are two methods you can use to verify the results.
 
 ### Method 1: Verify the results for a single product
 
-1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
 1. Open a product in edit mode.
 
-1. For **Name**, add the text `_TEST` to the end of the product name.
+1. For **[!UICONTROL Name]**, add the text `_TEST` to the end of the product name.
 
-1. Click **Save**.
+1. click **[!UICONTROL Save]**.
 
 1. On a new browser tab, navigate to the home page of your store and do the following:
 
@@ -60,25 +60,25 @@ There are two methods you can use to verify the results.
 
 ### Method 2: Verify the results for a category
 
-1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
-1. In the upper-left corner, verify that **Store View** is set to `All Store Views`.
+1. In the upper-left corner, verify that **[!UICONTROL Store View]** is set to `All Store Views`.
 
-   If prompted, click **OK** to confirm.
+   If prompted, click **[!UICONTROL OK]** to confirm.
 
-1. In the category tree, select an existing category, click **Add Subcategory**, and do the following:
+1. In the category tree, select an existing category, click **[!UICONTROL Add Subcategory]**, and do the following:
 
-   - For **Category Name**, enter `Test Category`.
+   - For **[!UICONTROL Category Name]**, enter `Test Category`.
 
-   - When complete, click **Save**.
+   - When complete, click **[!UICONTROL Save]**.
 
       ![Test subcategory](./assets/catalog-flat-test-category.png)<!-- zoom -->
 
-   - Expand ![Expansion selector](../assets/icon-display-expand.png) the **Products in Category** section and click **Reset Filter** to display all products.
+   - Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Products in Category]** section and click **[!UICONTROL Reset Filter]** to display all products.
 
    - Select the checkbox of several products to add them to the new category.
 
-   - Click **Save**.
+   - click **[!UICONTROL Save]**.
 
    ![Test category products](./assets/catalog-flat-test-category-products.png)<!-- zoom -->
 
@@ -92,38 +92,38 @@ Do the following to remove the test data and restore the original product name a
 
 ### Remove the test category
 
-1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. In the category tree, select the test subcategory that you created.
 
-1. In the upper-right corner, click **Delete**.
+1. In the upper-right corner, click **[!UICONTROL Delete]**.
 
-1. When prompted to confirm, click **OK**.
+1. When prompted to confirm, click **[!UICONTROL OK]**.
 
    This will not remove the products that are assigned to the category.
 
 ### Restore the original product name
 
-1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. Open the test product in edit mode.
 
-1. Remove the `_TEST` text that you added to the **Product Name**.
+1. Remove the `_TEST` text that you added to the **[!UICONTROL Product Name]**.
 
-1. In the upper-right corner, click **Save**.
+1. In the upper-right corner, click **[!UICONTROL Save]**.
 
 ### Restore the original catalog configuration
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
+1. In the left panel, expand **[!UICONTROL Catalog]** and choose **[!UICONTROL Catalog]** underneath.
 
 1. Expand the _Storefront_ section and do the following:
 
-   - Set **Use Flat Catalog Category** to `No`.
+   - Set **[!UICONTROL Use Flat Catalog Category]** to `No`.
 
-   - Set **Use Flat Catalog Product** to `No`.
+   - Set **[!UICONTROL Use Flat Catalog Product]** to `No`.
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.
 
 1. When prompted, refresh the cache.

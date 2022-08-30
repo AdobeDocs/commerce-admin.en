@@ -1,6 +1,6 @@
 ---
 title: Categories overview
-description: <placeholder>
+description: Before you add products to your store, define the basic category structure of your catalog.
 ---
 # Categories overview
 
@@ -10,11 +10,11 @@ Before you add products to your catalog, you need to establish the basic categor
 
 |Control|Description|
 |--- |--- |
-|**Add Root Category** |Creates a new root category.|
-|**Add Subcategory** |Adds a subcategory below the current category or subcategory.|
-|Collapse All / Expand All |Either collapses or expands the category tree.|
-|**Delete** |Removes the current category or subcategory from the tree.|
-|**Save** |Saves any changes made to the category.|
+|**[!UICONTROL Add Root Category]** |Creates a new root category.|
+|**[!UICONTROL Add Subcategory]** |Adds a subcategory below the current category or subcategory.|
+|[!UICONTROL Collapse All] / [!UICONTROL Expand All] |Either collapses or expands the category tree.|
+|**[!UICONTROL Delete]** |Removes the current category or subcategory from the tree.|
+|**[!UICONTROL Save]** |Saves any changes made to the category.|
 
 >[!NOTE]
 >

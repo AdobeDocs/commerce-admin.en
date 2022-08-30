@@ -1,6 +1,6 @@
 ---
 title: Group Price
-description: <placeholder>
+description: Learn how to use group pricing to set prices for discounted items based on customer groups in your store.
 ---
 # Group Price
 
@@ -26,21 +26,21 @@ Pricing for customer groups is a component of [tiered pricing](product-price-tie
 
 1. Open the product in edit mode.
 
-1. Below the _Price_ field, click **Advanced Pricing**.
+1. Below the _[!UICONTROL Price]_ field, click **[!UICONTROL Advanced Pricing]**.
 
-1. In the _Customer Group Price_ section, click **Add**.
+1. In the _[!UICONTROL Customer Group Price]_ section, click **[!UICONTROL Add]**.
 
    ![Advanced Pricing](./assets/product-price-group.png)<!-- zoom -->
 
 1. Configure the group price:
 
-   - For a multi-site installation, choose the **Website** where the group price applies.
+   - For a multi-site installation, choose the **[!UICONTROL Website]** where the group price applies.
 
-   - Choose the **Customer Group** that is to receive the discount.
+   - Choose the **[!UICONTROL Customer Group]** that is to receive the discount.
 
-   - Enter a **Quantity** of `1`.
+   - Enter a **[!UICONTROL Quantity]** of `1`.
 
-   - For **Price**, set the pricing type and amount:
+   - For **[!UICONTROL Price]**, set the pricing type and amount:
 
       - `Fixed` - Enter the discounted product price.
 
@@ -48,9 +48,9 @@ Pricing for customer groups is a component of [tiered pricing](product-price-tie
 
       ![10% Discount Customer Group Price](./assets/product-price-group-discount.png)<!-- zoom -->
 
-1. To add another group price, click **Add** and repeat the previous step.
+1. To add another group price, click **[!UICONTROL Add]** and repeat the previous step.
 
-1. When complete, click **Done** and then **Save**.
+1. When complete, click **[!UICONTROL Done]** and then **[!UICONTROL Save]**.
 
    ![Group Price in Shopping Cart](./assets/storefront-cart-price-group-discount.png)<!-- zoom -->
 

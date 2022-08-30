@@ -14,11 +14,11 @@ Different factors can affect the price of the same product in one location and n
 
 ## Configure price scope
 
-1. On the _Admin_ menu, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ menu, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
+1. In the left panel, expand **[!UICONTROL Catalog]** and choose **[!UICONTROL Catalog]** underneath.
 
-1. Scroll down to the **Price** section and set **Catalog Price Scope** to one of the following:
+1. Scroll down to the **[!UICONTROL Price]** section and set **[!UICONTROL Catalog Price Scope]** to one of the following:
 
    - `Global`
    - `Website`
@@ -27,16 +27,16 @@ Different factors can affect the price of the same product in one location and n
 
    ![Catalog price scope](./assets/catalog-price.png)<!-- zoom -->
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.
 
 ## Use scope to set up product prices
 
 Commerce does not allow setting a product price for each store. But you can change the price per website:
 
-1. On the _Admin_ menu, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ menu, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
+1. In the left panel, expand **[!UICONTROL Catalog]** and choose **[!UICONTROL Catalog]** underneath.
 
-1. In the **Price** tab, set price scope to `Website` instead of global.
+1. In the **[!UICONTROL Price]** tab, set price scope to `Website` instead of global.
 
 1. Set the price by opening the product edit page, selecting the scope on the upper left, and then entering a new price per website.

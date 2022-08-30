@@ -1,6 +1,6 @@
 ---
 title: Catalog Search Overview
-description: <placeholder>
+description: Learn about the Quick Search and Advanced Search tools that customers can use to locate products on the storefront.
 ---
 # Catalog Search Overview
 
@@ -20,11 +20,11 @@ The following sections describe how customers search for products in your catalo
 
 The Search box in the header of the store helps visitors find products in your catalog. The search text can be the full or partial product name or any other word or phrase that describes the product. The search terms that people use to find products can be managed from the Admin.
 
-1. For **Search**, the customer enters the first few letters of what they want to find.
+1. For **[!UICONTROL Search]**, the customer enters the first few letters of what they want to find.
 
    Any matches in the catalog appear below, with the number of results found.
 
-1. The customer presses the **Enter** key or clicks a result in the list of matching products.
+1. The customer presses the Enter key or clicks a result in the list of matching products.
 
    ![Search](./assets/storefront-search-box.png)<!-- zoom -->
 
@@ -40,15 +40,15 @@ Advanced Search lets shoppers search the catalog based on values entered into a 
 
 Each field in the form corresponds to an attribute from your product catalog. To add a field, set the frontend properties of the attribute to `Include in Advanced Search`. As a best practice, include only the fields that customers are most likely to use to find a product, because having too many will slow down the search.
 
-1. In the footer of the store, the customer clicks **Advanced Search**.
+1. In the footer of the store, the customer clicks **[!UICONTROL Advanced Search]**.
 
 1. In the _Advanced Search_ form, adds full or partial values in as many fields as necessary.
 
-1. Clicks **Search** to display the results.
+1. Clicks **[!UICONTROL Search]** to display the results.
 
    ![Search Results](./assets/storefront-search-advanced-results-modify.png)<!-- zoom -->
 
-1. If they do not see what they are looking for in the search results, the customer clicks **Modify your search** and tries another combination of criteria.
+1. If they do not see what they are looking for in the search results, the customer clicks **[!UICONTROL Modify your search]** and tries another combination of criteria.
 
 ## Search Results
 
@@ -81,54 +81,57 @@ The following example uses keyword mapping based on SKU. When either SKU is ente
 
 #### Step 1: Create a new attribute
 
-1. In the _Catalog Products_ grid, open the `Montana Wind Jacket` (MJ03) in edit mode.
-1. In the upper-right corner, click **Add Attribute**.
-1. On the _Select Attribute_ page, click **Create New Attribute**.
+1. In the _[!UICONTROL Products]_ list, open the `Montana Wind Jacket` (MJ03) in edit mode.
+1. In the upper-right corner, click **[!UICONTROL Add Attribute]**.
+1. On the _Select Attribute_ page, click **[!UICONTROL Create New Attribute]**.
 1. Complete the attribute properties as follows:
 
-   - **Attribute Properties**
-     - Attribute Label: `Search Keywords`
-     - Catalog Input Type for Store Owner: `Text Field`
+   **Attribute Properties**
 
-   - **Advanced Attribute Properties**
-     - Add to Column Options: `Yes` (default)
-     - Use in Filter Options: `Yes` (default)
+   - [!UICONTROL Attribute Label] - `Search Keywords`
+   - [!UICONTROL Catalog Input Type for Store Owner] - `Text Field`
 
-   - **Storefront Properties**
-     - Use in Search: `Yes`
-     - Visible on Catalog Pages in the Storefront: `No`
-     - Used in Product Listings: `No`
+   **Advanced Attribute Properties**
 
-1. When complete, click **Save Attribute**.
+   - [!UICONTROL Add to Column Options] -  `Yes` (default)
+   - [!UICONTROL Use in Filter Options] -  `Yes` (default)
+
+   **Storefront Properties**
+
+   - [!UICONTROL Use in Search] - `Yes`
+   - [!UICONTROL Visible on Catalog Pages in the Storefront] - `No`
+   - [!UICONTROL Used in Product Listings] - `No`
+
+1. When complete, click **[!UICONTROL Save Attribute]**.
 
    The attribute is added to the attribute set for the product.
 
 #### Step 2: Map the first product
 
-1. On the product settings page, scroll down and expand the _Attributes_ section.
-1. In the **Search Keywords** field, enter the SKU `MH01` that is to be mapped to this product.
+1. On the product settings page, scroll down and expand the _[!UICONTROL Attributes]_ section.
+1. In the **[!UICONTROL Search Keywords]** field, enter the SKU `MH01` that is to be mapped to this product.
 
    You can enter multiple SKUs separated by a space in the Search Keywords field. In this example, only one is entered.
 
    ![Attributes section with search keyword](./assets/search-keywords-attribute.png)<!-- zoom -->
 
-1. When complete, click **Save**.
+1. When complete, click **[!UICONTROL Save]**.
 
-1. Go to **System** > _Tools_ > **Cache Management** and refresh the **Page Cache**.
+1. Go to **[!UICONTROL System]** > _[!UICONTROL Tools]_ > **[!UICONTROL Cache Management]** and refresh the **[!UICONTROL Page Cache]**.
 
 #### Step 3: Map the second product
 
-1. In the _Catalog Products_ grid, open the `Chaz Kangaroo Hoodie` (MH01) in edit mode.
+1. In the _[!UICONTROL Products]_ list, open the `Chaz Kangaroo Hoodie` (MH01) in edit mode.
 
-1. Scroll down and expand the **Attributes** section.
+1. Scroll down and expand the **[!UICONTROL Attributes]** section.
 
-1. In the **Search Keywords** field, enter the SKU for the other product, `MJ03`.
+1. In the **[!UICONTROL Search Keywords]** field, enter the SKU for the other product, `MJ03`.
 
-1. Click **Save**.
+1. click **[!UICONTROL Save]**.
 
-1. Go to **System** > _Tools_ > **Cache Management** and refresh the **Page Cache**.
+1. Go to **[!UICONTROL System]** > _[!UICONTROL Tools]_ > **[!UICONTROL Cache Management]** and refresh the **[!UICONTROL Page Cache]**.
 
 #### Step 4: Test it in the storefront
 
-1. Go to the storefront and enter `MJ03` in the _Quick Search_ box.
+1. Go to the storefront and enter `MJ03` in the _[!UICONTROL Quick Search]_ box.
 1. Verify that both products are returned in the search results list.

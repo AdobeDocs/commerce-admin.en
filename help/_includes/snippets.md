@@ -13,7 +13,7 @@ description: Reused visual elements to note feature or pages applying to a speci
 ## B2B only feature {#b2b-feature}
 
 <table style="border:1px solid green">
-<tr><td><img alt="Adobe Commerce feature" src="../assets/b2b.svg" width="20" height="20" /> Exclusive feature available only with <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=en">B2B for Adobe Commerce</a></td></tr>
+<tr><td><img alt="B2B for Adobe Commerce feature" src="../assets/b2b.svg" width="20" height="20" /> Exclusive feature available only with <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=en">B2B for Adobe Commerce</a></td></tr>
 </table>
 
 ## CE only feature {#ce-feature}

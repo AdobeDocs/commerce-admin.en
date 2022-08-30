@@ -1,6 +1,6 @@
 ---
 title: Category scheduled changes
-description: <placeholder>
+description: Learn how to schedule category changes to support marketing campaigns and store promotions.
 ---
 # Category scheduled changes
 
@@ -16,42 +16,42 @@ Category updates can be applied on schedule, and grouped with other content chan
 
 ## Schedule an update to a category
 
-1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. In the category tree on the left, choose the category to be modified.
 
-1. In the _Scheduled Changes_ box at the top of the page, click **Schedule New Update**.
+1. In the _Scheduled Changes_ box at the top of the page, click **[!UICONTROL Schedule New Update]**.
 
-1. With the **Save as a New Update** option selected, set the basic parameters for the update:
+1. With the **[!UICONTROL Save as a New Update]** option selected, set the basic parameters for the update:
 
-   - For **Update Name**, enter a name for the new content staging campaign.
+   - For **[!UICONTROL Update Name]**, enter a name for the new content staging campaign.
 
-   - Enter a brief **Description** of the update and how it is to be used.
+   - Enter a brief **[!UICONTROL Description]** of the update and how it is to be used.
 
-   - Use the Calendar ( ![Calendar icon](../assets/icon-calendar.png) ) tool to choose the **Start Date** and **End Date** for the campaign.
+   - Use the Calendar ( ![Calendar icon](../assets/icon-calendar.png) ) tool to choose the **[!UICONTROL Start Date]** and **[!UICONTROL End Date]** for the campaign.
 
 >[!IMPORTANT]
 >
->Campaign **Start Date** and **End Date** must be defined by using the **_default_** Admin time zone, which is converted from each website local time zone. For example, if you have multiple websites in different time zones, but you want to start campaign based on a US time zone, you need to schedule separate update for each local time zone, and set **Start Date** and **End Date** in converted from each local website time zone to default Admin time zone.
+>Campaign **[!UICONTROL Start Date]** and **[!UICONTROL End Date]** must be defined by using the **_default_** Admin time zone, which is converted from each website local time zone. For example, if you have multiple websites in different time zones, but you want to start campaign based on a US time zone, you need to schedule separate update for each local time zone, and set **[!UICONTROL Start Date]** and **[!UICONTROL End Date]** in converted from each local website time zone to default Admin time zone.
 
 1. Make any changes necessary to the scheduled update.
 
-1. Click **Preview** in the top right button bar to preview the changes.
+1. Click **[!UICONTROL Preview]** in the top right button bar to preview the changes.
 
-1. When complete, click **Save**.
+1. When complete, click **[!UICONTROL Save]**.
 
-## Assign to existing update
+## Assign to an existing update
 
-1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. In the category tree on the left, choose the category to be modified.
 
-1. In the _Scheduled Changes_ box at the top of the page, click **Schedule New Update**.
+1. In the _Scheduled Changes_ box at the top of the page, click **[!UICONTROL Schedule New Update]**.
 
-1. Select **Assign to Existing Campaign**.
+1. Select **[!UICONTROL Assign to Existing Campaign]**.
 
-1. In the list, find the needed campaign and click **Select**.
+1. In the list, find the needed campaign and click **[!UICONTROL Select]**.
 
 1. Make the necessary changes to the scheduled update.
 
-1. When complete, click **Save**.
+1. When complete, click **[!UICONTROL Save]**.

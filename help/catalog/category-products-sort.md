@@ -1,6 +1,6 @@
 ---
 title: Sort category products
-description: <placeholder>
+description: Learn how to define the positioning of products in a category manually or by applying a predefined sort order.
 ---
 # Sort category products
 
@@ -12,11 +12,11 @@ You can set up the category options separately for each [store](https://docs.mag
 
 ## Step 1: Set the scope of the configuration
 
-1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
-1. If necessary, choose the **Store View** where the settings apply.
+1. If necessary, choose the **[!UICONTROL Store View]** where the settings apply.
 
-   For a multi-store installation, the Store View setting applies the sort order to all available views within the store.
+   For a multi-store installation, the _[!UICONTROL Store View]_ setting applies the sort order to all available views within the store.
 
 1. In the category tree on the left, choose the category that you want to edit.
 
@@ -24,43 +24,43 @@ You can set up the category options separately for each [store](https://docs.mag
 
 ## Step 2: Sort the products
 
-In the _Products in Category_ section, click the tiles ( ![View tiles](../assets/icon-view-tiles.png) ) icon to show the product tiles in a grid. Use either the **Manual** or **Automatic** method to sort the products.
+In the _[!UICONTROL Products in Category]_ section, click the tiles ( ![View tiles](../assets/icon-view-tiles.png) ) icon to show the product tiles in a grid. Use either the manual or automatic method to sort the products.
 
 ![Product tiles](./assets/category-products-tiles.png)<!-- zoom -->
 
 ### Method 1: Manual sort
 
-1. Set **Sort Order** to your preference.
+1. Set **[!UICONTROL Sort Order]** to your preference.
 
-1. Click **Sort** to apply the new sort order.
+1. Click **[!UICONTROL Sort]** to apply the new sort order.
 
    ![Sort order](./assets/category-edit-sort-order.png)<!-- zoom -->
 
-1. To save the sort order, click **Save Category**.
+1. To save the sort order, click **[!UICONTROL Save Category]**.
 
 1. When prompted, update any invalid indexers.
 
 ### Method 2: Automatic sort
 
-1. Set **Match products by rule** (![Toggle yes](../assets/toggle-yes.png)) to `Yes`.
+1. Set **[!UICONTROL Match products by rule]** (![Toggle yes](../assets/toggle-yes.png)) to `Yes`.
 
    ![Match Products by Rule](./assets/category-edit-automatic-sorting.png)<!-- zoom -->
 
-1. Set **Automatic Sorting** to your preference.
+1. Set **[!UICONTROL Automatic Sorting]** to your preference.
 
 1. Follow the instructions in the next step to create a category rule.
 
 ## Step 3: Create a category rule
 
-1. Set **Match products by rule** (![Toggle yes](../assets/toggle-yes.png)) to `Yes`.
+1. Set **[!UICONTROL Match products by rule]** (![Toggle yes](../assets/toggle-yes.png)) to `Yes`.
 
-1. Click **Add Condition** and do the following:
+1. Click **[!UICONTROL Add Condition]** and do the following:
 
    ![Category condition](./assets/category-edit-condition.png)<!-- zoom -->
 
-   - Choose the **Attribute** that is the basis of the condition.
+   - Choose the **[!UICONTROL Attribute]** that is the basis of the condition.
 
-   - Set **Operator** to one of the following:
+   - Set **[!UICONTROL Operator]** to one of the following:
 
       - `Equal`
       - `Not equal`
@@ -70,15 +70,15 @@ In the _Products in Category_ section, click the tiles ( ![View tiles](../assets
       - `Less than or equal to`
       - `Contains`
 
-   - Enter the appropriate **Value**.
+   - Enter the appropriate **[!UICONTROL Value]**.
 
-1. To add another condition, click **Add Condition** and repeat the process.
+1. To add another condition, click **[!UICONTROL Add Condition]** and repeat the process.
 
 ## Step 4: Save, refresh, and verify
 
-1. When complete, click **Save Category**.
+1. When complete, click **[!UICONTROL Save Category]**.
 
-1. When prompted to refresh the cache, click **Cache Management** and refresh each invalid cache.
+1. When prompted to refresh the cache, click **[!UICONTROL Cache Management]** and refresh each invalid cache.
 
 1. In the storefront, verify that the product selection, sorting, and category rules work correctly.
 
