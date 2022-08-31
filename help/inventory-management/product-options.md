@@ -77,7 +77,7 @@ Configure the quantities and additional settings per [added source](sources-add.
 
 1. Set **[!UICONTROL Qty uses Decimals]** to `Yes` if customers can use a decimal value rather than a whole number when entering the quantity ordered.
 
-1. Set **[!UICONTROL Allow Multiple Boxes for Shipping]** to `Yes` if the product can be sold separately, in many boxes. This option is visible when **Qty Uses Decimals** is set to `Yes` only.
+1. Set **[!UICONTROL Allow Multiple Boxes for Shipping]** to `Yes` if the product can be sold separately, in many boxes. This option is visible when **[!UICONTROL Qty Uses Decimals]** is set to `Yes` only.
 
 1. Set **[!UICONTROL Backorders]** to one of the following:
 
@@ -104,7 +104,7 @@ Configure the quantities and additional settings per [added source](sources-add.
 | [!UICONTROL Minimum Qty Allowed in Shopping Cart] | Global | Determines the minimum number of the product that can be purchased in a single order. |
 | [!UICONTROL Maximum Qty Allowed in Shopping Cart] | Global | Determines the maximum number of the product that can be purchased in a single order. |
 | [!UICONTROL Qty Uses Decimals] | Global | Determines if customers can use a decimal value rather than a whole number when entering the quantity ordered. Options:<br />**[!UICONTROL Yes]** - Permits values to be entered as decimals, rather than whole numbers. Decimals are suitable for products sold by weight, volume, or length.<br />**[!UICONTROL No]** - Requires quantity values to be entered as whole numbers. |
-| [!UICONTROL Allow Multiple Boxes for Shipping] | Global | Determines if parts of the product can be shipped separately. Is visible when **Qty Uses Decimals** = `Yes`. |
+| [!UICONTROL Allow Multiple Boxes for Shipping] | Global | Determines if parts of the product can be shipped separately. This option is visible when **[!UICONTROL Qty Uses Decimals]** = `Yes`. |
 | [!UICONTROL Backorders] | Global | Determines how  backorders are managed. Backorders do not change the processing status of the order. Funds are still authorized or captured immediately when the order is placed, regardless of whether the product is in stock. Products are shipped as they become available. When enabled, it is recommended that you enter a negative amount for the Out-of-Stock Threshold. Options:<br />**[!UICONTROL No Backorders]** -  Does not accept backorders when product is out of stock.<br />**[!UICONTROL Allow Qty Below 0]** - Accepts backorders when the quantity falls below zero.<br />**[!UICONTROL Allow Qty Below 0 and Notify Customer]** - Accepts backorders when the quantity falls below zero, but notifies customers that orders can still be placed. |
 | [!UICONTROL Enable Qty Increments] | Global | Determines if the product can be sold in quantity increments. |
 
