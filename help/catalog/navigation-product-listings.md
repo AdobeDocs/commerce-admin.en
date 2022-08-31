@@ -18,7 +18,7 @@ Product listings can be set to appear by default as either a list or grid. You c
 
    ![Storefront configuration options](./assets/catalog-storefront.png)<!-- zoom -->
 
-   See also [_Storefront_](https://docs.magento.com/user-guide/configuration/catalog/catalog.html)
+   For more information about these options, see [Storefront](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#storefront) in the _Configuration Reference_.
 
    >[!NOTE]
    >
@@ -26,10 +26,10 @@ Product listings can be set to appear by default as either a list or grid. You c
 
 1. Set the default **[!UICONTROL List Mode]** to one of the following:
 
-    - `Grid Only`
-    - `List Only`
-    - `Grid (default) / List`
-    - `List (default / Grid`
+   - `Grid Only`
+   - `List Only`
+   - `Grid (default) / List`
+   - `List (default / Grid`
 
 1. For **[!UICONTROL Products per Page on Grid Allowed Values]**, enter the number of products that you want to appear per page when shown in grid format.
 

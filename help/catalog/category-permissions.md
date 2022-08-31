@@ -1,6 +1,6 @@
 ---
 title: Category permissions
-description: <placeholder>
+description: Learn how to use categories to control the display of product prices, and determine which customer groups can add products to the cart, and specify the landing page.
 ---
 # Category permissions
 
@@ -16,7 +16,7 @@ For example, if you sell only to wholesale customers, you can allow anyone to br
 
 ![Logged-in users see "Collections" category](./assets/storefront-category-permissions-logged-in.png)<!-- zoom -->
 
-When enabled, a new "Category Permissions" section appears on the Category page that allows you to apply the needed access for each category. You can add multiple permission rules to each category for different websites and customer groups.
+When enabled, a new _[!UICONTROL Category Permissions]_ section appears on the Category page that allows you to apply the needed access for each category. You can add multiple permission rules to each category for different websites and customer groups.
 
 ## Step 1: Configure category permissions
 
@@ -27,8 +27,8 @@ When enabled, a new "Category Permissions" section appears on the Category page 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Category Permissions]** section.
 
    ![Category Permissions](./assets/catalog-category-permissions.png)<!-- zoom -->
-    
-   See also [Category Permissions](https://docs.magento.com/user-guide/configuration/catalog/catalog.html)
+
+   For more information about these options, see [Category Permissions](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#category-permissions) in the _Configuration Reference_.
 
 1. Set **[!UICONTROL Enable]** to `Yes`.
 

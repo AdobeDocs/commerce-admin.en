@@ -18,7 +18,7 @@ For information about each of the catalog search configuration options, see [_El
 
    ![Catalog Search for Live Search](./assets/catalog-search-live-search.png)<!-- zoom -->
    
-   See also [Catalog Search for Live Search](search-configuration.md#method-1-adobe-commerce-with-live-search)
+   For more information about these options, see [Catalog Search for Live Search](search-configuration.md#method-1-adobe-commerce-with-live-search).
 
 1. To limit the length and word count of search query text, set a value for **[!UICONTROL Minimal Query Length]** and **[!UICONTROL Maximum Query Length]**.
 
@@ -46,7 +46,7 @@ For information about each of the catalog search configuration options, see [_El
 
    ![Elasticsearch Settings](./assets/elasticsearch-1.png)<!-- zoom -->
    
-   See also [_Elasticsearch Settings_](https://docs.magento.com/user-guide/configuration/catalog/catalog.html)
+   For more information about these options, see [Adobe Commerce with Elasticsearch](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#adobe-commerce-with-elasticsearch) in the _Configuration Reference_.
 
 1. To limit the length and word count of search query text, set a value for **[!UICONTROL Minimal Query Length]** and **[!UICONTROL Maximum Query Length]**.
 
@@ -73,8 +73,6 @@ For information about each of the catalog search configuration options, see [_El
 >The **[!UICONTROL Search Engine]**, **[!UICONTROL Elasticsearch Server Hostname]**, **[!UICONTROL Elasticsearch Server Port]**, **[!UICONTROL Elasticsearch Index Prefix]**, **[!UICONTROL Enable Elasticsearch HTTP Auth]**, and **[!UICONTROL Elasticsearch Server Timeout]** fields were configured when Commerce was installed or upgraded. These values should be changed only when upgrading or modifying Elasticsearch.
 
 ![Elasticsearch Connection Settings](./assets/elasticsearch-2.png)<!-- zoom -->
-
-See also [_Elasticsearch Connection Settings_](https://docs.magento.com/user-guide/configuration/catalog/catalog.html)
 
 1. For **[!UICONTROL Search Engine]**, accept the default value `Elasticsearch 7`.
 

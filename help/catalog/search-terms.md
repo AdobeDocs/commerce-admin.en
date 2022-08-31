@@ -96,15 +96,15 @@ To configure popular search terms:
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Search Engine Optimization]** section.
 
+   ![Catalog configuration - search engine optimization](./assets/catalog-search-engine-optimization.png)<!-- zoom -->
+
+   For more information about these options, see [Search Engine Optimization](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#search-engine-optimization) in the _Configuration Reference_.
+
 1. Set **[!UICONTROL Popular Search Terms]** as needed.
 
    If needed, clear the **[!UICONTROL Use system value]** checkbox to change this setting.
 
 1. When complete, click **[!UICONTROL Save Config]**.
-
-![Catalog configuration - search engine optimization](./assets/catalog-search-engine-optimization.png)<!-- zoom -->
-
-See also [_Search Engine Optimization_](https://docs.magento.com/user-guide/configuration/catalog/catalog.html)
 
 >[!NOTE]
 >

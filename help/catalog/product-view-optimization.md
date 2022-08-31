@@ -1,6 +1,6 @@
 ---
 title: Product settings - [!UICONTROL Product View Optimization]
-description: <placeholder>
+description: For a product, use  the [!UICONTROL Product View Optimization] settings to set up a series of A/B tests with Google Content Experiments.
 ---
 # Product settings - [!UICONTROL Product View Optimization]
 

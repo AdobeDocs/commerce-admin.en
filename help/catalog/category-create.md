@@ -94,6 +94,10 @@ Also define any associated keywords and attributes, such as:
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Display Setting]** section.
 
+   ![Display settings](./assets/category-display-settings.png)<!-- zoom -->
+   
+   For more information about these options, see For more information about these options, see  [Display settings](categories-display-settings.md).
+
 1. Set **[!UICONTROL Display Mode]** to one of the following:
 
    - `Products Only`
@@ -122,13 +126,13 @@ Also define any associated keywords and attributes, such as:
 
 1. Click **[!UICONTROL Save]** and continue.
 
-   ![Display settings](./assets/category-display-settings.png)<!-- zoom -->
-   
-   See also [Display settings](categories-display-settings.md)
-
 ## Step 5: Complete the search engine optimization settings
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Search Engine Optimization Settings]** section.
+
+   ![Search engine optimization](./assets/catalog-categories-search-engine-optimization.png)<!-- zoom -->
+   
+   For more information about these options, see [Search engine optimization](categories-search-engine-optimization.md).
 
 1. Complete the following [meta data](https://docs.magento.com/user-guide/marketing/meta-data.html) for the category:
 
@@ -136,25 +140,21 @@ Also define any associated keywords and attributes, such as:
    - [!UICONTROL Meta Keywords]
    - [!UICONTROL Meta Description]
 
-   ![Search engine optimization](./assets/catalog-categories-search-engine-optimization.png)<!-- zoom -->
-   
-   See also [_Search engine optimization_](categories-search-engine-optimization.md)
-
 1. Click **[!UICONTROL Save]** and continue.
 
 ## Step 6: Choose the products in category
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Products in Category]** section.
 
+   ![Products in category](./assets/catalog-categories-products-in-category.png)<!-- zoom -->
+
+   For more information about these options, see [Products in category](categories-product-assignments.md).
+
 1. Use the [filters](https://docs.magento.com/user-guide/stores/admin-grid-controls.html) as needed to find the products.
 
    To display all records that are not yet included in the category, set the record chooser in the first column to `No` and click **[!UICONTROL Search]**.
 
 1. In the first column, select the checkbox for each product to include in the category.
-
-   ![Products in category](./assets/catalog-categories-products-in-category.png)<!-- zoom -->
-
-   See also [Products in category](categories-product-assignments.md)
 
 1. Click **[!UICONTROL Save]** and continue.
 
@@ -182,23 +182,21 @@ Also define any associated keywords and attributes, such as:
 
 ## Step 8: Complete the design settings
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Design** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Design]** section.
 
 1. Set the design settings as needed:
 
-   - ([B2B for Adobe Commerce](../b2b/introduction.md) only) To apply the parent category design settings to this category, set **Use Parent Category Settings** to `Yes`.
+   - ([B2B for Adobe Commerce](../b2b/introduction.md) only) To apply the parent category design settings to this category, set **[!UICONTROL Use Parent Category Settings]** to `Yes`.
 
    - To change the design of the category pages, choose the **[!UICONTROL Theme]** that you want to apply.
 
    - To change the column layout of the category pages, choose the **[!UICONTROL Layout]** that you want to apply.
 
-   - To enter custom code, enter valid XML code in the **Layout Update XML** box.
+   - To enter custom code, enter valid XML code in the **[!UICONTROL Layout Update XML]** box.
 
    - To use the same design for product pages, set **[!UICONTROL Apply Design to Products]** to `Yes`.
 
    ![Design settings](./assets/category-design.png)<!-- zoom -->
-
-   See also [Design settings](categories-custom-design.md)
 
 1. To schedule the design update for a specific time period, do the following:
 
