@@ -106,15 +106,13 @@ Also define any associated keywords and attributes, such as:
 
 1. If you want the category page to include the _`Filter by Attribute`_ section of layered navigation, set **[!UICONTROL Anchor]** to `Yes`.
 
-1. To change the _[!UICONTROL Available Product Listing Sort By]_ options, do the following:
+1. For the **[!UICONTROL Available Product Listing Sort By]** options, select one or more of the available values to be available for customers to sort the list.
 
-   - Deselect the **[!UICONTROL Use All]** checkbox.
+   By default, all available values are included. Deselect the **[!UICONTROL Use All]** checkbox to change the selections. For example, the values might include:
 
-   - Select one or more of the available values to be available for customers to sort the list. By default, all available values are included. For example, the values might include:
-
-      - `Position`
-      - `Product Name`
-      - `Price`
+   - `Position`
+   - `Product Name`
+   - `Price`
 
 1. To set the default sort order for the category, choose the **[!UICONTROL Default Product Listing Sort By]** value.
 
@@ -198,9 +196,7 @@ Also define any associated keywords and attributes, such as:
 
    ![Design settings](./assets/category-design.png)<!-- zoom -->
 
-1. To schedule the design update for a specific time period, do the following:
-
-   {{ce-feature}}
+1. ![Magento Open Source](../assets/open-source.svg) (Magento Open Source only) To schedule the design update for a specific time period, do the following:
 
    - Expand the _[!UICONTROL Schedule Design Update]_ section.
 
