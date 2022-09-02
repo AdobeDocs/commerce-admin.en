@@ -117,7 +117,7 @@ Reward Points - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only
 
 Target Shopping History - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Encourage customers to make return purchases with targeted promotions based on their shopping history. With Adobe Commerce, you can easily [build segments](https://docs.magento.com/user-guide/marketing/customer-segments.html) based on your customer base.
 
-Newsletters - Stay in touch with current customers who've opted to receive [newsletters](https://docs.magento.com/user-guide/marketing/newsletters.html). You can create as many newsletter templates as you want.
+Newsletters - Stay in touch with current customers who have opted to receive [newsletters](https://docs.magento.com/user-guide/marketing/newsletters.html). You can create as many newsletter templates as you want.
 
 RSS Feed - When [RSS feeds](https://docs.magento.com/user-guide/marketing/rss-feed.html) are enabled, subscribers of each feed automatically receive alerts about any additions to products, specials, categories, and coupons. A link to all RSS feeds that you publish is provided in the footer of your store.
 
