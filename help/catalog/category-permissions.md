@@ -40,7 +40,7 @@ When enabled, a new _[!UICONTROL Category Permissions]_ section appears on the C
 
 ### [!UICONTROL Allow Browsing Category]
 
-This option applies to all categories in the [website](https://docs.magento.com/user-guide/stores/websites-stores-views.html).
+This option applies to all categories in the [website](../getting-started/websites-stores-views.md).
 
 To allow members of a **_specific customer group_** to browse through category products, do the following:
 
@@ -66,7 +66,7 @@ To **_restrict access and redirect to a landing page_**, do the following:
 
 ### [!UICONTROL Display Product Prices]
 
-This option applies to all categories in the [website](https://docs.magento.com/user-guide/stores/websites-stores-views.html).
+This option applies to all categories in the [website](../getting-started/websites-stores-views.md).
 
 To allow only members of **_specific customer groups_** to see the price of products in the category, do the following:
 
@@ -80,7 +80,7 @@ To allow only members of **_specific customer groups_** to see the price of prod
 
 ### [!UICONTROL Allow Adding to Cart]
 
-This option applies to all categories in the [website](https://docs.magento.com/user-guide/stores/websites-stores-views.html).
+This option applies to all categories in the [website](../getting-started/websites-stores-views.md).
 
 To allow only members of **_specific customer groups_** to put category products into the shopping cart, do the following:
 
@@ -94,7 +94,7 @@ To allow only members of **_specific customer groups_** to put category products
 
 ### [!UICONTROL Disallow Catalog Search]
 
-Set this option to prevent members of a specific customer group from using Catalog Search. It applies to all categories in the [website](https://docs.magento.com/user-guide/stores/websites-stores-views.html).
+Set this option to prevent members of a specific customer group from using Catalog Search. It applies to all categories in the [website](../getting-started/websites-stores-views.md).
 
 - To allow **_only logged in customers_** to use Catalog Search, select `NOT LOGGED IN`.
 

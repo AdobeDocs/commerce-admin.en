@@ -17,8 +17,8 @@ When you schedule a content change for a specific time period, the content rever
 
 When a new scheduled update is created for any of the following objects, a corresponding campaign is created as a placeholder, and the _[!UICONTROL Scheduled Changes]_ box appears across the top of the page. The placeholder campaign has a start date, but not an end date. You can schedule updates to the content as part of a campaign, and then preview and share the changes by date, time, or store view. After a new campaign is created for one object, you can assign it as a scheduled update for other objects.
 
-- [Products](https://docs.magento.com/user-guide/catalog/product-scheduled-changes.html)
-- [Categories](https://docs.magento.com/user-guide/catalog/category-scheduled-changes.html)
+- [Products](../catalog/product-scheduled-changes.md)
+- [Categories](../catalog/category-scheduled-changes.md)
 - [Catalog Price Rules](https://docs.magento.com/user-guide/marketing/price-rule-catalog-scheduled-changes.html)
 - [Cart Price Rules](https://docs.magento.com/user-guide/marketing/price-rule-cart-scheduled-changes.html)
 - [CMS Pages](pages-workspace.md#scheduled-changes)

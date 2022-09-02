@@ -87,7 +87,7 @@ To exclude an image from the thumbnail gallery, select the **[!UICONTROL Hidden]
 
 {style="table-layout:auto"}
 
-### Watermarks
+## Watermarks
 
 If you go to the expense of creating your own original product images, there is not much you can do to prevent unscrupulous competitors from stealing them with the click of a mouse. However, you can make them a less attractive target by placing a watermark on each image to identify them as your property. A watermark file can be either a JPG (JPEG), GIF, or PNG image. Both GIF and PNG file types support transparent layers, which can be used to give the watermark a transparent background.
 

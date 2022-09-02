@@ -83,7 +83,7 @@ This exercise assumes that you have completed [Part 1: Simple Page](1-simple-pag
 
 ## Part 2: Customize the product page
 
-In this part of the exercise, you learn how easy it is to customize a product page by placing a video below the set of tabs on the product page. The process to update [category page](https://docs.magento.com/user-guide/catalog/categories-content-settings.html) content is basically the same.
+In this part of the exercise, you learn how easy it is to customize a product page by placing a video below the set of tabs on the product page. The process to update [category page](../catalog/categories-content-settings.md) content is basically the same.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
@@ -141,7 +141,7 @@ In the storefront, the video appears below the set of tabs. To see how the page 
 
 ## Part 3: Add custom attributes
 
-Use the [!DNL Page Builder] custom attribute to add a fully functioning [!DNL Page Builder] workspace to a product page, which you can use to create engaging content. In this part of the exercise, you learn how to create a custom attribute using the [!DNL Page Builder] input type and apply it to product pages in your catalog. For more information about these attributes, see [Product Attributes](https://docs.magento.com/user-guide/stores/attributes-product.html).
+Use the [!DNL Page Builder] custom attribute to add a fully functioning [!DNL Page Builder] workspace to a product page, which you can use to create engaging content. In this part of the exercise, you learn how to create a custom attribute using the [!DNL Page Builder] input type and apply it to product pages in your catalog. For more information about these attributes, see [Product Attributes](../catalog/product-attributes.md).
 
 ![[!DNL Page Builder] and text editor attributes in the storefront](./assets/pb-storefront-product-attribute.png)<!-- zoom -->
 

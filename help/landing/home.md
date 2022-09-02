@@ -8,7 +8,7 @@ exl-id: e30f769f-9140-4370-943e-75007b39ebc0
 ---
 # <!-- use banner as heading -->![Merchant documentation](./assets/banner-user-home.png) {#documentation}
 
-Welcome to the next generation of the world’s leading digital commerce platform. Adobe Commerce provides online merchants with unparalleled flexibility and control over the look, content, and functionality of their online stores. The Admin features powerful marketing, search engine optimization, and product management tools that give you the power to create sites that are tailored to your unique business needs.
+Welcome to the next generation of the world's leading digital commerce platform. Adobe Commerce provides online merchants with unparalleled flexibility and control over the look, content, and functionality of their online stores. The Admin features powerful marketing, search engine optimization, and product management tools that give you the power to create sites that are tailored to your unique business needs.
 
 ## Product editions
 
@@ -27,7 +27,7 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
    <td valign="top">
    <a href="https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html"><strong>Getting Started</strong></a>
     <div>
-    <em>The “why, where, and how” questions that most merchants have when first learning to use Adobe Commerce or Magento Open Source, as well as resources and reference information. This is a springboard to more advanced topics.</em>
+    <em>The "why, where, and how" questions that most merchants have when first learning to use Adobe Commerce or Magento Open Source, as well as resources and reference information. This is a springboard to more advanced topics.</em>
     <br> </div>
   </td>
   </tr>
@@ -42,7 +42,7 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 <tr>
   <td valign="top">
     <img alt="Catalog Management" src="./assets/icon-shop.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://docs.magento.com/user-guide/catalog.html"><strong>Catalog Management</strong></a>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/catalog/guide-overview.html"><strong>Catalog Management</strong></a>
     <div><em>One of the most important areas in creating and managing your store is the product catalog and categories. The Admin provides a number of tools for the initial setup for your store and product catalog.</em>
     <br></div>
   </td>

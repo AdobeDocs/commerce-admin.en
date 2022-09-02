@@ -48,7 +48,7 @@ The Design Configuration makes it easy to edit design-related rules and configur
    - [[!UICONTROL Header]](page-setup.md#header)
    - [[!UICONTROL Footer]](page-setup.md#footer)
    - [[!UICONTROL Search Engine Robots]](https://docs.magento.com/user-guide/marketing/search-engine-robots.html)
-   - [[!UICONTROL Product Image Watermarks]](https://docs.magento.com/user-guide/catalog/product-image-watermarks.html)
+   - [[!UICONTROL Product Image Watermarks]](../catalog/product-image.md#watermarks)
    - [[!UICONTROL Transactional Emails]](https://docs.magento.com/user-guide/marketing/email-template-configuration.html)
 
    ![Other settings to affect design](./assets/configuration-other-settings.png)<!-- zoom -->

@@ -89,7 +89,7 @@ The [sales representative](account-company-manage.md#assign-a-sales-representati
 
 1. In the left panel, expand **[!UICONTROL Customers]** and choose **[!UICONTROL Company Configuration]**.
 
-1. If necessary, set **[!UICONTROL Store View]** to the store view to define the [scope](https://docs.magento.com/user-guide/configuration/scope.html) of the configuration.
+1. If necessary, set **[!UICONTROL Store View]** to the store view to define the [scope](../getting-started/websites-stores-views.md#scope-settings) of the configuration.
 
 1. Complete the **[!UICONTROL Company Registration]** section:
 

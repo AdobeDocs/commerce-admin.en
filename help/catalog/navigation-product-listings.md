@@ -83,7 +83,7 @@ The Pagination settings appear at the top and bottom of the list, and control th
 |Control|Description|
 |--- |--- |
 |![Display grid](./assets/controls-pagination-list-grid.png)|[!UICONTROL View As] - Displays the list in either a Grid or List format.|
-|![Sort by](./assets/control-pagination-sort-by.png)|[!UICONTROL Sort By] - Changes the sort order of the list. The _[!UICONTROL Used for Sorting in Product Listing]_ storefront property determines which [product attributes](https://docs.magento.com/user-guide/stores/attributes-product.html) can be used to sort the list.|
+|![Sort by](./assets/control-pagination-sort-by.png)|[!UICONTROL Sort By] - Changes the sort order of the list. The _[!UICONTROL Used for Sorting in Product Listing]_ storefront property determines which [product attributes](../catalog/product-attributes.md) can be used to sort the list.|
 |![Show per page](./assets/control-pagination-show-per-page.png)|[!UICONTROL Show Per Page] - Determines how many products appear per page.|
 |![Pagination links](./assets/control-pagination.png)|Pagination links - Navigation links to other pages.|
 

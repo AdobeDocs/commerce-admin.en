@@ -20,7 +20,7 @@ The following aspects of a shared catalog must be set up before it can be used:
 
 ## Price scope
 
-If you have a multisite installation, make sure to configure the price scope before you create your shared catalogs. The [price scope](https://docs.magento.com/user-guide/catalog/catalog-price-scope.html) can be set to `Global` or `Website`. However, it can be set only at the beginning of the setup process. The Website chooser appears during Step 2 of the [shared catalog setup](catalog-shared-pricing-structure.md).
+If you have a multisite installation, make sure to configure the price scope before you create your shared catalogs. The [price scope](../catalog/catalog-price-scope.md) can be set to `Global` or `Website`. However, it can be set only at the beginning of the setup process. The Website chooser appears during Step 2 of the [shared catalog setup](catalog-shared-pricing-structure.md).
 
 ![Website Chooser](./assets/shared-catalog-scope-pricing.png)<!-- zoom -->
 
@@ -93,7 +93,7 @@ If a public shared catalog is duplicated, the type of the duplicate catalog chan
 
 ## Step 2: Complete the setup
 
-After creating a new shared catalog, it must be configured with the appropriate product selection, [company assignments](catalog-shared-assign-companies.md), and [category permissions](https://docs.magento.com/user-guide/catalog/category-permissions.html). To continue, see [Set Pricing and Structure](catalog-shared-pricing-structure.md).
+After creating a new shared catalog, it must be configured with the appropriate product selection, [company assignments](catalog-shared-assign-companies.md), and [category permissions](../catalog/category-permissions.md). To continue, see [Set Pricing and Structure](catalog-shared-pricing-structure.md).
 
 ## Shared catalog demo
 

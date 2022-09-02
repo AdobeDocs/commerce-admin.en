@@ -8,7 +8,7 @@ All products in the catalog are accessible from the _[!UICONTROL Products]_ page
 
 The _[!UICONTROL Products]_ list includes all products in the catalog, indicates the websites where they are available, and if they are currently enabled for sale. In B2B for Adobe Commerce installations with [shared catalogs](../b2b/catalog-shared.md) enabled, the grid includes a column that indicates which products have alternate discount pricing in a shared catalog.
 
-You can browse through the list page by page, or search for specific products. Use the standard [controls](https://docs.magento.com/user-guide/stores/admin-grid-controls.html) to sort and filter the list, and apply [actions](https://docs.magento.com/user-guide/stores/admin-actions-control.html) to selected products.
+You can browse through the list page by page, or search for specific products. Use the standard [controls](../getting-started/admin-grid-controls.md) to sort and filter the list, and apply [actions](https://docs.magento.com/user-guide/stores/admin-actions-control.html) to selected products.
 
 ![Products grid](./assets/products-grid.png)<!-- zoom -->
 

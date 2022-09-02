@@ -11,7 +11,7 @@ The path customers take to a sale is sometimes called the _path to purchase_, an
 
 ## Home Page
 
-Did you know that most people spend only a few seconds on a page before they decide to stay or go somewhere else? That’s not long to make an impression. Studies show that people also love photographs, especially of other people. Whatever design you choose, everything on your home page should move visitors along toward the next step in the sales process. The idea is to guide their attention in a cohesive flow from one point of interest to the next.
+Did you know that most people spend only a few seconds on a page before they decide to stay or go somewhere else? That's not long to make an impression. Studies show that people also love photographs, especially of other people. Whatever design you choose, everything on your home page should move visitors along toward the next step in the sales process. The idea is to guide their attention in a cohesive flow from one point of interest to the next.
 
 ![Example storefront home page](./assets/storefront-homepage-full.png)<!-- zoom -->
 
@@ -35,7 +35,7 @@ With [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-ser
 
 ### Standard catalog search
 
-With [standard catalog search](https://docs.magento.com/user-guide/catalog/search.html), your store includes a Search box in the upper-right corner, and a link to Advanced Search in the footer. All search terms that shoppers submit are saved, so you can see exactly what they’re looking for. You can offer suggestions, and enter synonyms and common misspellings. Then, display a specific page when a search term is entered.
+With [standard catalog search](../catalog/search.md), your store includes a Search box in the upper-right corner, and a link to Advanced Search in the footer. All search terms that shoppers submit are saved, so you can see exactly what they're looking for. You can offer suggestions, and enter synonyms and common misspellings. Then, display a specific page when a search term is entered.
 
 ![Example of standard catalog search results](./assets/storefront-search-results-page-full.png)<!-- zoom -->
 

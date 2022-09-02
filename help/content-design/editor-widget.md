@@ -8,8 +8,8 @@ exl-id: bbc5e059-06d8-4dda-89a7-6c9826b73fd3
 The [widget](widget-create.md) tool can be used to add various content elements to the page, including links to any content page or node, product, or category. Links can be positioned on the page in a block format, or incorporated directly into the content. You can use the Widget tool to create links to the following types of content:
 
 - [Content Pages](pages.md)
-- [Catalog Categories](https://docs.magento.com/user-guide/catalog/categories.html)
-- [Catalog Products](https://docs.magento.com/user-guide/catalog/product-create.html)
+- [Catalog Categories](../catalog/categories.md)
+- [Catalog Products](../catalog/product-create.md)
 
 By default, links inherit their style from the style sheet of the theme.
 

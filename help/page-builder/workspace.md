@@ -5,7 +5,7 @@ exl-id: 1cd7b300-0a18-490f-bc11-36de3fec13dc
 ---
 # [!DNL Page Builder] Workspace
 
-When [[!DNL Page Builder] is enabled](setup.md), the _[!UICONTROL Content]_ section and content creation process are modified to take advantage of the advanced [!DNL Page Builder] tools for CMS [pages](../content-design/page-add.md), [product](https://docs.magento.com/user-guide/catalog/product-content.html) and [category](https://docs.magento.com/user-guide/catalog/categories-content-settings.html) pages, [blocks](../content-design/block-add.md), and [dynamic blocks](../content-design/dynamic-blocks.md). This section includes a _Content Heading_ field, a preview of the content, and easy access to the full-screen [!DNL Page Builder] workspace.
+When [[!DNL Page Builder] is enabled](setup.md), the _[!UICONTROL Content]_ section and content creation process are modified to take advantage of the advanced [!DNL Page Builder] tools for CMS [pages](../content-design/page-add.md), [product](../catalog/product-content.md) and [category](../catalog/categories-content-settings.md) pages, [blocks](../content-design/block-add.md), and [dynamic blocks](../content-design/dynamic-blocks.md). This section includes a _Content Heading_ field, a preview of the content, and easy access to the full-screen [!DNL Page Builder] workspace.
 
 ![Content section with [!DNL Page Builder] preview](./assets/pb-content-preview.png)<!-- zoom -->
 

@@ -5,7 +5,7 @@ exl-id: 91fea8f8-d48a-43f1-ba2a-212c7130cee9
 ---
 # Media - Map
 
-Use the _Map_ content type to add a map from [[!DNL Google Maps] Platform][1] to the [[!DNL Page Builder] stage](workspace.md#stage). For example, you might add a map to a block, and then add the block to the [About Us](../content-design/pages.md#about-us) and [Contact Us](https://docs.magento.com/user-guide/stores/contact-us.html) pages.
+Use the _Map_ content type to add a map from [[!DNL Google Maps] Platform][1] to the [[!DNL Page Builder] stage](workspace.md#stage). For example, you might add a map to a block, and then add the block to the [About Us](../content-design/pages.md#about-us) and [Contact Us](../getting-started/store-details.md#contact-us-form) pages.
 
 To get the most from [!DNL Google Maps] Platform, you can customize the map, highlight your store locations, and use Google [Places][2] to add rich information about your store to all [!DNL Google Maps].
 
@@ -45,7 +45,7 @@ Before adding a map, you must first open an [account][3] for a free trial of [!D
 
 ### Step 1: Get your [!DNL Google Maps] API key
 
-Depending on whether you already have a [!DNL Google Maps] key, use one of the following procedures to get the API key required for configuration. To set up a [!DNL Google Maps] key, you must be a site administrator authorized to enable billing for your account. If you’re not ready to set up a [!DNL Google Maps] Platform account, you can skip this step and use the placeholder map for now.
+Depending on whether you already have a [!DNL Google Maps] key, use one of the following procedures to get the API key required for configuration. To set up a [!DNL Google Maps] key, you must be a site administrator authorized to enable billing for your account. If you're not ready to set up a [!DNL Google Maps] Platform account, you can skip this step and use the placeholder map for now.
 
 1. Go to the [Google Cloud Platform Console](https://cloud.google.com/console/google/maps-apis/overview).
 
@@ -115,11 +115,11 @@ Depending on whether you already have a [!DNL Google Maps] key, use one of the f
 
    ![[!DNL Google Maps] - copy coordinates from URL](./assets/pb-media-maps-settings-add-location-coordinates-url.png)<!-- zoom -->
 
-   **Method 2:** Copy from “What’s here?”
+   **Method 2:** Copy from "What's here?"
 
-   - Right-click the red pin that marks the location on the map and choose **[!UICONTROL What’s here?]** in the menu.
+   - Right-click the red pin that marks the location on the map and choose **[!UICONTROL What's here?]** in the menu.
 
-      ![[!DNL Google Maps] - What’s here?](./assets/pb-media-maps-settings-add-location-pin-menu.png)<!-- zoom -->
+      ![[!DNL Google Maps] - What's here?](./assets/pb-media-maps-settings-add-location-pin-menu.png)<!-- zoom -->
 
    - In the displayed label, copy the text, including the coordinates and paste the text into a notepad.
 

@@ -40,7 +40,7 @@ If the needed attributes do not exist, you can add new attributes while creating
 
    ![New Attribute](./assets/product-attribute-add-select.png)<!-- zoom -->
 
-To add an existing attribute to the product, use the [filter controls](https://docs.magento.com/user-guide/stores/admin-grid-controls.html) to find the attribute in the grid and do the following:
+To add an existing attribute to the product, use the [filter controls](../getting-started/admin-grid-controls.md) to find the attribute in the grid and do the following:
 
 - Select the checkbox in the first column of each attribute to be added.
 - Click **[!UICONTROL Add Selected]**.
@@ -99,7 +99,7 @@ To add an existing attribute to the product, use the [filter controls](https://d
 
    ![Grouped Products](./assets/product-grouped-products.png)<!-- zoom -->
 
-1. If necessary, use the [filters](https://docs.magento.com/user-guide/stores/admin-grid-controls.html) to find the products that you want to include in the group.
+1. If necessary, use the [filters](../getting-started/admin-grid-controls.md) to find the products that you want to include in the group.
 
 1. In the list, select the checkbox of each item that you want to include in the group.
 

@@ -5,7 +5,7 @@ exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 ---
 # Manage Company Accounts
 
-The _Companies_ page lists all current company accounts, regardless of status. Any pending requests for approval appear at the top of the list. The standard [workplace controls](https://docs.magento.com/user-guide/stores/admin-workspace.html) can be used to filter the list, change the [column layout](https://docs.magento.com/user-guide/stores/admin-grid-controls.html), save views, and export data.
+The _Companies_ page lists all current company accounts, regardless of status. Any pending requests for approval appear at the top of the list. The standard [workplace controls](../getting-started/admin-workspace.md) can be used to filter the list, change the [column layout](../getting-started/admin-grid-controls.md), save views, and export data.
 
 The Actions control above the grid can be used to apply an action to multiple company records. For example, rather than approving each individual company request, you can select multiple requests and activate the accounts in a single action. The actions that are available depend on the [permissions](https://docs.magento.com/user-guide/system/permissions.html) for the role that is assigned to your Admin user account.
 
@@ -178,7 +178,7 @@ The following sections provide a reference for the available actions, options, a
 
 #### Additional columns
 
-The following columns are available by changing the [column layout](https://docs.magento.com/user-guide/stores/admin-grid-controls.html) of the grid.
+The following columns are available by changing the [column layout](../getting-started/admin-grid-controls.md) of the grid.
 
 |Column|Description|
 |--- |--- |
@@ -268,7 +268,7 @@ The following columns are available by changing the [column layout](https://docs
 
 |Field|Description|
 |--- |--- |
-|[!UICONTROL Customer Group]|Indicates the [customer group](https://docs.magento.com/user-guide/customers/customer-groups.html) or [shared catalog](https://docs.magento.com/user-guide/catalog/catalog-shared.html) that is assigned to the company.|
+|[!UICONTROL Customer Group]|Indicates the [customer group](https://docs.magento.com/user-guide/customers/customer-groups.html) or [shared catalog](catalog-shared.md) that is assigned to the company.|
 |[!UICONTROL Allow Quotes]|Determines if company members can prepare and submit negotiable quotes on behalf of the company.|
 |[!UICONTROL Enable Purchase Orders]|Determines if Purchase Orders are permitted for the company. For purchase orders to function for company member accounts, the company administrator must also enable this feature on the storefront. | 
 |[!UICONTROL Applicable Payment Methods]|Indicates the payment methods that are available for company purchases. Options: `B2B Payment Methods` / `All Enabled Payment Methods` / `Specific Payment Methods`|

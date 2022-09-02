@@ -133,6 +133,6 @@ Assets can be used extensively throughout the Admin, such as [add or edit a page
 [save-preview]: adobe-stock-save-preview.md
 [stock-license]: adobe-stock-license-image.md
 [add-edit-page]: page-add.md
-[create-edit-category]: https://docs.magento.com/user-guide/catalog/category-create.html
+[create-edit-category]: ../catalog/category-create.md
 [editor-insert-media]: editor-insert-image.md
 [edit-asset]: #edit-an-asset

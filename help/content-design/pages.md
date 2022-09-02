@@ -53,7 +53,7 @@ The Customer Service page is another node in the page hierarchy. The two headers
 
 ## Configure default pages
 
-The _Default Pages_ configuration determines the landing page that is associated with the [base URL](https://docs.magento.com/user-guide/stores/store-urls.html) and the corresponding home page. It also determines which page appears when a _Page Not Found_ error occurs, and if a [breadcrumb trail](https://docs.magento.com/user-guide/catalog/navigation-breadcrumb-trail.html) appears at the top of each page.
+The _Default Pages_ configuration determines the landing page that is associated with the [base URL](https://docs.magento.com/user-guide/stores/store-urls.html) and the corresponding home page. It also determines which page appears when a _Page Not Found_ error occurs, and if a [breadcrumb trail](../catalog/navigation-breadcrumb-trail.md) appears at the top of each page.
 
 1. On the _Admin_ sidebar, go to  **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -63,7 +63,7 @@ The _Default Pages_ configuration determines the landing page that is associated
 
    ![Default pages](./assets/web-default-pages.png)<!-- zoom -->
 
-   |Field|[Scope](https://docs.magento.com/user-guide/configuration/scope.html)|Description|
+   |Field|[Scope](../getting-started/websites-stores-views.md#scope-settings)|Description|
    |--- |--- |--- |
    |[!UICONTROL Default Web URL]|Store View|Indicates the landing page that is associated with the base URL. By default, this field is set to `cms` to indicate a page from the [!DNL Commerce] content management system. You can also use a different type of landing page, such as a blog. For example, if a blog is installed on the server at `magento/blog`, you can enter the folder name `blog` as a relative path to the selection of pages.|
    |[!UICONTROL CMS Home Page]|Store View|To choose the home page for the store, simply select the CMS page from the list. By default, the CMS Home Page lists the entire selection of CMS pages that are available for your store.|

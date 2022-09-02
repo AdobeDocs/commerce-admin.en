@@ -71,7 +71,7 @@ The page workspace includes tools to help you quickly find the pages you need, a
 
 ## Page Search
 
-The Search box in the upper left of the _[!UICONTROL Pages]_ grid can be used to find specific pages by keyword. For a more advanced search, you can [filter](https://docs.magento.com/user-guide/stores/admin-grid-controls.html) the search by multiple parameters.
+The Search box in the upper left of the _[!UICONTROL Pages]_ grid can be used to find specific pages by keyword. For a more advanced search, you can [filter](../getting-started/admin-grid-controls.md) the search by multiple parameters.
 
 ![The term Home is entered in the search box to filter the Pages list](./assets/pages-search-home.png)<!-- zoom -->
 
