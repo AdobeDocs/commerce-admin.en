@@ -26,18 +26,17 @@ Swatches can also be used in layered navigation, if the Use in **Layered Navigat
 
 ![Swatches in layered navigation](./assets/storefront-swatches-layered-navigation.png)<!-- zoom -->
 
-
 ## Create swatches for products
 
 Swatches can be defined as a component of the `color` attribute or set up locally for a specific product and uploaded as [product images](product-image.md#upload-an-image).
 
 In the earlier examples, the "Sylvia Capri" pants are available in specific values of `red`, `green`, and `blue`. Because the swatches were taken from the product image, each is a true representation of the color. The `color` attribute is used to manage the information for all product colors and swatches.
 
-## Step 1: Create the swatches
+### Step 1: Create the swatches
 
 Use either of the following methods to create swatches for your products.
 
-### Method 1: Add a color swatch
+#### Method 1: Add a color swatch
 
 1. To capture the true color of a product, open the image in a photo editor and use the eye dropper tool to identify the exact color and take note of the equivalent hexadecimal value.
 
@@ -81,7 +80,7 @@ Use either of the following methods to create swatches for your products.
 
    To update multiple products at the same time, follow the steps below.
 
-### Method 2: Upload a swatch image
+#### Method 2: Upload a swatch image
 
 1. To capture an image for a swatch, open the product image in a photo editor and save a square area of the image that depicts the color, pattern, or texture.
 
@@ -121,7 +120,7 @@ Use either of the following methods to create swatches for your products.
 
    To update multiple products at the same time, follow the steps below.
 
-## Step 2: Update the products
+### Step 2: Update the products
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
