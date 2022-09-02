@@ -42,7 +42,7 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 <tr>
   <td valign="top">
     <img alt="Catalog Management" src="./assets/icon-shop.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://experienceleague.corp.adobe.com/docs/commerce-admin/catalog/guide-overview.html"><strong>Catalog Management</strong></a>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/catalog/guide-overview.html"><strong>Catalog Management</strong></a>
     <div><em>One of the most important areas in creating and managing your store is the product catalog and categories. The Admin provides a number of tools for the initial setup for your store and product catalog.</em>
     <br></div>
   </td>

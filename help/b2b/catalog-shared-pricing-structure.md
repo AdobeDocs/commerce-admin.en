@@ -76,7 +76,7 @@ To set the discount to a fixed amount or a percentage for the following product 
 - [Downloadable](../catalog/product-create-downloadable.md)
 - [Virtual](../catalog/product-create-virtual.md)
 
-The Custom Price column is blank for [configurable](../catalog/product-create-configurable.md) and [grouped](../catalog/product-create-grouped.md) products types and for [gift cards](../catalog/product-gift-card.md).
+The Custom Price column is blank for [configurable](../catalog/product-create-configurable.md) and [grouped](../catalog/product-create-grouped.md) products types and for [gift cards](../catalog/product-gift-card-create.md).
 
 The selection of products in the grid cannot be changed from the _Custom Prices_ page. However, you can use the progress indicator at the top of the page to return to the previous step and change the selection of products.
 

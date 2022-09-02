@@ -8,7 +8,7 @@ title: Adobe Commerce Merchant Documentation
 - [Adobe Commerce Merchant Documentation](home.md)
 - [Getting Started](https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html)
 - [B2B for Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html)
-- [Catalog Management](https://experienceleague.corp.adobe.com/docs/commerce-admin/catalog/guide-overview.html)
+- [Catalog Management](https://experienceleague.adobe.com/docs/commerce-admin/catalog/guide-overview.html)
 - [[!DNL Inventory Management]](https://experienceleague.adobe.com/docs/commerce-admin/inventory/guide-overview.html)
 - [Merchandising and Promotions](https://docs.magento.com/user-guide/marketing/promotions.html)
 - [Content and Design](https://experienceleague.adobe.com/docs/commerce-admin/content-design/guide-overview.html)
