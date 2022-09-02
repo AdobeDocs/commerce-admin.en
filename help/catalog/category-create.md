@@ -148,7 +148,7 @@ Also define any associated keywords and attributes, such as:
 
    For more information about these options, see [Products in category](categories-product-assignments.md).
 
-1. Use the [filters](https://docs.magento.com/user-guide/stores/admin-grid-controls.html) as needed to find the products.
+1. Use the [filters](../getting-started/admin-grid-controls.md) as needed to find the products.
 
    To display all records that are not yet included in the category, set the record chooser in the first column to `No` and click **[!UICONTROL Search]**.
 

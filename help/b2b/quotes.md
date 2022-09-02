@@ -5,7 +5,7 @@ exl-id: c278818b-fa5a-4e7a-8ca2-c4b757da4f05
 ---
 # Negotiated Quotes
 
-If quotes are [enabled in the configuration](configure-quotes.md), an authorized buyer from a company can initiate the price negotiation process by submitting a [request to negotiate](quote-price-negotiation.md) the price from the shopping cart. The _Quotes_ grid lists each quote received and maintains a history of the communication between buyer and seller. The standard [workplace controls](https://docs.magento.com/user-guide/stores/admin-workspace.html) can be used to filter the list, change the column layout, save views, and export data.
+If quotes are [enabled in the configuration](configure-quotes.md), an authorized buyer from a company can initiate the price negotiation process by submitting a [request to negotiate](quote-price-negotiation.md) the price from the shopping cart. The _Quotes_ grid lists each quote received and maintains a history of the communication between buyer and seller. The standard [workplace controls](../getting-started/admin-workspace.md) can be used to filter the list, change the column layout, save views, and export data.
 
 ## Quote workflow
 
@@ -66,10 +66,10 @@ Only quote requests with an `Open` status can be declined.
 |[!UICONTROL Company]|The name of the company on behalf of which a buyer submits a request for a quote.|
 |[!UICONTROL Submitted By]|The first and last name of the company buyer who submits a request for a quote.|
 |[!UICONTROL Last Updated]|The date and time of the last communication between buyer and seller regarding the quote.|
-|[!UICONTROL Sales Rep]|The first and last name of the sales representative who manages the buyer’s account.|
+|[!UICONTROL Sales Rep]|The first and last name of the sales representative who manages the buyer's account.|
 |[!UICONTROL Quote Total (Base)]|The total price of products to be purchased based on the original quote. The total amount appears in the base currency of the website and in the currency of the storefront.|
 |[!UICONTROL Quote Total (Negotiated)]|The total price of products to be purchased based on the negotiated quote. The total amount appears in the base currency of the website and in the currency of the storefront.|
-|[!UICONTROL Status]|Indicates the current state of a quote request. The status of a quote can be changed only by action on the part of either the buyer or seller. See also the Status settings from the [buyer’s account](account-dashboard-my-quotes.md). <br/>**[!UICONTROL New]** - The buyer submitted a request for a quote, but it has not been viewed by the seller. The request can be updated by the buyer until it is opened by the seller. <br/>**[!UICONTROL Open]** - The seller opened the request and is in the process of reviewing it and preparing a response. <br/>**[!UICONTROL Submitted]** - The seller sent a response to the buyer. The quote record cannot be edited during the negotiation process. <br/>**[!UICONTROL Client Reviewed]** - The buyer viewed the response from the seller and is in the process of preparing a reply. <br/>**[!UICONTROL Updated]** - The buyer submitted a response, but it has not been viewed by the seller. <br/>**[!UICONTROL Ordered]** - The buyer submitted the order based on the negotiated quote. <br/>**[!UICONTROL Closed]** - The buyer canceled the quote request. <br/>**[!UICONTROL Declined]** - The seller declined the request for a quote. Any custom pricing is removed from the quote and the record is locked from further edits. <br/>**[!UICONTROL Expired]** - The buyer did not respond to the seller’s reply within the designated time period and the quote is no longer valid.|
+|[!UICONTROL Status]|Indicates the current state of a quote request. The status of a quote can be changed only by action on the part of either the buyer or seller. See also the Status settings from the [buyer's account](account-dashboard-my-quotes.md). <br/>**[!UICONTROL New]** - The buyer submitted a request for a quote, but it has not been viewed by the seller. The request can be updated by the buyer until it is opened by the seller. <br/>**[!UICONTROL Open]** - The seller opened the request and is in the process of reviewing it and preparing a response. <br/>**[!UICONTROL Submitted]** - The seller sent a response to the buyer. The quote record cannot be edited during the negotiation process. <br/>**[!UICONTROL Client Reviewed]** - The buyer viewed the response from the seller and is in the process of preparing a reply. <br/>**[!UICONTROL Updated]** - The buyer submitted a response, but it has not been viewed by the seller. <br/>**[!UICONTROL Ordered]** - The buyer submitted the order based on the negotiated quote. <br/>**[!UICONTROL Closed]** - The buyer canceled the quote request. <br/>**[!UICONTROL Declined]** - The seller declined the request for a quote. Any custom pricing is removed from the quote and the record is locked from further edits. <br/>**[!UICONTROL Expired]** - The buyer did not respond to the seller's reply within the designated time period and the quote is no longer valid.|
 |[!UICONTROL Actions]|**[!UICONTROL View]** - Opens the request for a quote and maintains a record of the negotiation between buyer and seller.|
 
 {style="table-layout:auto"}
@@ -78,7 +78,7 @@ Only quote requests with an `Open` status can be declined.
 
 | Button | Description |
 | ------ | ----------- |
-| [!UICONTROL Send ]| Sends the updated quote as a reply to the buyer’s inquiry. This button is disabled if the seller is waiting for a reply from the buyer. |
+| [!UICONTROL Send ]| Sends the updated quote as a reply to the buyer's inquiry. This button is disabled if the seller is waiting for a reply from the buyer. |
 | [!UICONTROL Back] | Returns to the _Quotes_ page without saving changes. |
 | [!UICONTROL Print] | Sends the quote to a printer or saves it as a PDF file. |
 | [!UICONTROL Save as Draft] |Saves any changes made to the quote, but does not send it back to the buyer.|

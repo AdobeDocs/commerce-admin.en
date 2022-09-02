@@ -37,7 +37,7 @@ To [create the dynamic blocks](dynamic-blocks.md) that you want to place in the 
 
    - Enter a **[!UICONTROL Title]** for the rotator.
 
-   - In the **[!UICONTROL Assign to Store Views]** list, select the [store views](https://docs.magento.com/user-guide/stores/websites-stores-views.html) where the rotator is available.
+   - In the **[!UICONTROL Assign to Store Views]** list, select the [store views](../getting-started/websites-stores-views.md) where the rotator is available.
 
    - (Optional) Enter a **[!UICONTROL Sort Order]** number to determine the position of the rotator in the target container. It is relative to other widgets that might be assigned to the same container.
 
@@ -47,9 +47,9 @@ To [create the dynamic blocks](dynamic-blocks.md) that you want to place in the 
 
    - Set **[!UICONTROL Display on]** to the page, or type of page, where the rotator is to appear.
 
-      - `Categories` - Displays the rotator on either [anchor](https://docs.magento.com/user-guide/catalog/navigation-layered.html) or non-anchor category pages. Options: Anchor Categories / Non-Anchor Categories
-      - `Products` - Displays the rotator on either a specific type of product page, or on all product pages. Options: All Product Types / [Simple Product](https://docs.magento.com/user-guide/catalog/product-create-simple.html) /  [Virtual Product](https://docs.magento.com/user-guide/catalog/product-create-virtual.html) / [Bundle Product](https://docs.magento.com/user-guide/catalog/product-create-bundle.html) / [Downloadable Product](https://docs.magento.com/user-guide/catalog/product-create-downloadable.html) / [Gift Card](https://docs.magento.com/user-guide/catalog/product-gift-card.html) / [Configurable Product](https://docs.magento.com/user-guide/catalog/product-create-configurable.html) / [Grouped Product](https://docs.magento.com/user-guide/catalog/product-create-grouped.html)
-      - `Generic Pages` - Displays the rotator on all pages, a specific page, or only on pages with a certain layout. Options: All Pages / Specified Page / Page Layouts
+      - `Categories` - Displays the rotator on either [anchor](../catalog/navigation-layered.md) or non-anchor category pages. Options: Anchor Categories / Non-Anchor Categories
+      - `Products` - Displays the rotator on either a specific type of product page, or on all product pages. Options: All Product Types / [Simple Product](../catalog/product-create-simple.md) /  [Virtual Product](../catalog/product-create-virtual.md) / [Bundle Product](../catalog/product-create-bundle.md) / [Downloadable Product](../catalog/product-create-downloadable.md) / [Gift Card](../catalog/product-gift-card.md) / [Configurable Product](../catalog/product-create-configurable.md) / [Grouped Product](../catalog/product-create-grouped.md)
+      - `Generic Pages` - Displays the rotator on all pages, a specific page, or only on pages with a certain layout. Options: `All Pages` / `Specified Page` / `Page Layouts`
 
       In the example, the rotator is to be placed on a `Specified Page`.
 

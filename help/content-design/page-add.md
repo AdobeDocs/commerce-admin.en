@@ -25,7 +25,7 @@ The following instructions walk you through each step to create a basic page. So
 
 1. Enter the **[!UICONTROL Page Title]**.
 
-   The page title appears in the [breadcrumb](https://docs.magento.com/user-guide/catalog/navigation-breadcrumb-trail.html) navigation.
+   The page title appears in the [breadcrumb](../catalog/navigation-breadcrumb-trail.md) navigation.
 
 ### Step 2: Complete the content
 
@@ -39,7 +39,7 @@ Depending on your [Advanced Content Tools configuration](https://docs.magento.co
 
 1. In the **[!UICONTROL Content Heading]** box, enter the heading that you want to appear at the top of the page.
 
-   If enabled, the [Page Builder](../page-builder/introduction.md) stage and panel appear below the Content Heading.    For more information, see [Workspace](../page-builder/workspace.md). If _Page Builder_ is not enabled, the editor opens in WYSIWYG mode with the toolbar at the top.
+   If enabled, the [Page Builder](../page-builder/introduction.md) stage and panel appear below the Content Heading. For more information, see [Workspace](../page-builder/workspace.md). If _Page Builder_ is not enabled, the editor opens in WYSIWYG mode with the toolbar at the top.
 
 1. Complete the content, and format the text as needed.
 

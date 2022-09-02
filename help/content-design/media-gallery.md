@@ -11,7 +11,7 @@ With Adobe Commerce or Magento Open Source 2.4, merchants can use the new _enhan
 
 >[!NOTE]
 >
->Product images added to the [_[!UICONTROL Images and Videos]_ product section](https://docs.magento.com/user-guide/catalog/product-image-upload.html) are not managed by the [!DNL Media Gallery]. Only images used in the _[!UICONTROL Content]_ product section fields are displayed and filtered in the new [!DNL Media Gallery].
+>Product images added to the [_[!UICONTROL Images and Videos]_ product section](../catalog/product-image.md#upload-an-image) are not managed by the [!DNL Media Gallery]. Only images used in the _[!UICONTROL Content]_ product section fields are displayed and filtered in the new [!DNL Media Gallery].
 
 ## Enable the new [!DNL Media Gallery]
 
@@ -68,6 +68,6 @@ Watch this video to learn about the Media Gallery:
 [adobe-stock]: https://stock.adobe.com
 [content-menu]: content-menu.md
 [add-page]: page-add.md
-[create-category]: https://docs.magento.com/user-guide/catalog/category-create.html
+[create-category]: ../catalog/category-create.md
 [editor-insert-image]: editor-insert-image.md
 [editor-config]: editor.md#configure-the-editor

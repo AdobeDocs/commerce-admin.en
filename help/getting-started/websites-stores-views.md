@@ -26,7 +26,7 @@ Each store that is available to customers is presented according to a specific _
 When working with websites, stores, and store views, keep the following in mind:
 
 - [!DNL Commerce] instances have a cascading model: global → website → store → store view.
-- Every website has at least one default store and store view.
+- Every website has a minimum of one default store and store view.
 - Each store view can have a different base URL.
 - The primary function of a website is top-level feature configuration.
 - The primary function of a store is root category configuration.
@@ -34,7 +34,7 @@ When working with websites, stores, and store views, keep the following in mind:
 
 ## Scope settings
 
-If your Adobe Commerce or Magento Open Source installation has a hierarchy of websites, stores, or views, you can set the context, or “scope” of a configuration setting to apply to a specific part of the installation. The context of many database entities can also be assigned a specific scope to determine how it is used in the store hierarchy. To learn more, see [Product Scope](https://docs.magento.com/user-guide/catalog/product-scope.html) and [Price Scope](https://docs.magento.com/user-guide/catalog/catalog-price-scope.html).
+If your Adobe Commerce or Magento Open Source installation has a hierarchy of websites, stores, or views, you can set the context, or "scope" of a configuration setting. The context of many database entities can also be assigned a specific scope to determine how it is used in the store hierarchy. To learn more, see [Product Scope](../catalog/introduction.md#product-scope) and [Price Scope](../catalog/catalog-price-scope.md).
 
 Some configuration settings such as postal code, have a global scope because the same value is used throughout the system. The [website](https://docs.magento.com/user-guide/stores/stores-all-create-website.html) scope applies to any stores below that level in the hierarchy, including all stores and their views. Any item with the scope of [store view](https://docs.magento.com/user-guide/stores/stores-all-create-view.html) can be set differently for each store view, which is typically used to support multiple languages. To override the default values of configuration settings, see [Changing Scope](https://docs.magento.com/user-guide/configuration/scope-change.html).
 
@@ -71,7 +71,7 @@ If your Adobe Commerce or Magento Open Source installation has only a single sto
 
     - Click the **[!UICONTROL Cache Management]** link in the system message at the top of the page.
 
-        ![System message - cache management]({% link stores/assets/msg-cache-management.png %}){: .zoom}
+      ![System message - cache management]({% link stores/assets/msg-cache-management.png %})<!-- {: .zoom} -->
 
     - Select the **[!UICONTROL Page Cache]** checkbox.
 

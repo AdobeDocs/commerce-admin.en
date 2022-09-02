@@ -5,7 +5,7 @@ exl-id: 209ca9d6-973c-4ad9-b7cd-4fba58dbfbb8
 ---
 # WYSIWYG Editor
 
-The editor gives you the ability to enter and format while working in a _What You See Is What You Get_ (WYSIWYG) view of the content. If you prefer to work directly with the underlying HTML code, you can easily change modes. The editor can be used to create content for [pages](pages.md), [blocks](blocks.md), and [product descriptions](https://docs.magento.com/user-guide/catalog/product-content.html). When working on product detail, access the editor by clicking **[!UICONTROL Show / Hide Editor]**.
+The editor gives you the ability to enter and format while working in a _What You See Is What You Get_ (WYSIWYG) view of the content. If you prefer to work directly with the underlying HTML code, you can easily change modes. The editor can be used to create content for [pages](pages.md), [blocks](blocks.md), and [product descriptions](../catalog/product-content.md). When working on product detail, access the editor by clicking **[!UICONTROL Show / Hide Editor]**.
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ The following topics provide detailed information about using the editor:
 
 ## Configure the Editor
 
-The WYSIWYG editor is enabled by default, and can be used to edit content on CMS pages and blocks, and in products and categories. From the configuration you can activate or deactivate the editor, and elect to use static, rather than [dynamic](https://docs.magento.com/user-guide/catalog/catalog-urls-dynamic-media.html), [URLS](https://docs.magento.com/user-guide/catalog/catalog-urls.html) for media content in product and category descriptions.
+The WYSIWYG editor is enabled by default, and can be used to edit content on CMS pages and blocks, and in products and categories. From the configuration you can activate or deactivate the editor, and elect to use static, rather than [dynamic](https://docs.magento.com/user-guide/catalog/catalog-urls-dynamic-media.html), URLs for media content in product and category descriptions.
 
 ![WYSIWYG Options](./assets/content-management-wysiwyg-options.png)<!-- zoom -->
 

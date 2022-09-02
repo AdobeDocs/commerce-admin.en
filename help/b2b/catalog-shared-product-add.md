@@ -9,9 +9,9 @@ Products can be added to a shared catalog either individually or in groups of mu
 
 The following requirements must be met for a complex product (such as bundle, grouped, or configurable) to be visible from the storefront in a shared catalog:
 
-- All [associated products](https://docs.magento.com/user-guide/catalog/product-configurations.html) and options must be assigned to the same shared catalog and enabled in the primary catalog.
-- For [configurable](https://docs.magento.com/user-guide/catalog/product-create-configurable.html) and [grouped](https://docs.magento.com/user-guide/catalog/product-create-grouped.html) products, only the enabled associated products are visible.
-- For a [bundle](https://docs.magento.com/user-guide/catalog/product-create-bundle.html) product, all options must be included in the shared catalog.
+- All [associated products](../catalog/product-configurations.md) and options must be assigned to the same shared catalog and enabled in the primary catalog.
+- For [configurable](../catalog/product-create-configurable.md) and [grouped](../catalog/product-create-grouped.md) products, only the enabled associated products are visible.
+- For a [bundle](../catalog/product-create-bundle.md) product, all options must be included in the shared catalog.
 
    ![Select Products for Catalog](./assets/shared-catalog-select-products-step-1.png)<!-- zoom -->
 
@@ -47,12 +47,12 @@ The following requirements must be met for a complex product (such as bundle, gr
    - To include specific categories of products, select the checkbox of each category that you want to include.
    - To include or exclude an individual product, select or deselect the checkbox of product.
 
-   The notation below each category in the tree shows the number of products from the category that are currently included in the shared catalog. The notation below the [root category](https://docs.magento.com/user-guide/catalog/category-root.html) shows the total number of products from all categories that are currently selected for the shared catalog.
+   The notation below each category in the tree shows the number of products from the category that are currently included in the shared catalog. The notation below the [root category](../catalog/category-root.md) shows the total number of products from all categories that are currently selected for the shared catalog.
 
 1. To view category products in the grid, click the name of the category in the tree.
 
    When a category is selected, the following occurs:
 
    - The toggle in the first column of the grid is set to `On` for each selected product.
-   - If a product is assigned to multiple categories and is omitted in one of them, it remains available through the other categories and through [catalog search](https://docs.magento.com/user-guide/catalog/search.html).
-   - The system automatically sets [Category Permissions](https://docs.magento.com/user-guide/catalog/category-permissions.html) to `Allow` for the selected products.
+   - If a product is assigned to multiple categories and is omitted in one of them, it remains available through the other categories and through [catalog search](../catalog/search.md).
+   - The system automatically sets [Category Permissions](../catalog/category-permissions.md) to `Allow` for the selected products.

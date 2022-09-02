@@ -39,7 +39,7 @@ To set up related products:
 
    ![Related Products](./assets/product-related-up-sell-cross-sell.png)<!-- zoom -->
 
-1. Use the [filter controls](https://docs.magento.com/user-guide/stores/admin-grid-controls.html) to find the products that you want.
+1. Use the [filter controls](../getting-started/admin-grid-controls.md) to find the products that you want.
 
 1. In the list, select the checkbox of any product you want to feature as a related product.
 
@@ -63,7 +63,7 @@ To select up-sell products:
 
    ![Add Up-Sell Products](./assets/product-related-up-sell-cross-sell.png)<!-- zoom -->
 
-1. Use the [filter controls](https://docs.magento.com/user-guide/stores/admin-grid-controls.html) to find the products that you want.
+1. Use the [filter controls](../getting-started/admin-grid-controls.md) to find the products that you want.
 
 1. In the list, select the checkbox of any product you want to feature as an up-sell product.
 
@@ -91,7 +91,7 @@ To select cross-sell products:
 
    ![Add Cross-Sell Products](./assets/product-related-up-sell-cross-sell.png)<!-- zoom -->
 
-1. Use the [filter controls](https://docs.magento.com/user-guide/stores/admin-grid-controls.html) to find the products that you want.
+1. Use the [filter controls](../getting-started/admin-grid-controls.md) to find the products that you want.
 
 1. In the list, select the checkbox of any product you want to feature as a cross-sell product.
 

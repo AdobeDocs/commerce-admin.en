@@ -86,7 +86,7 @@ When you are working with the Buttons content type, you add and edit individual 
 
       >[!NOTE]
       >
-      >The products are displayed in the list according to the _Show out of stock products_ settings. For Multi Source merchants using [Inventory Management](https://docs.magento.com/user-guide/catalog/inventory-management.html), the products list is limited by the source assigned to the default website only.
+      >The products are displayed in the list according to the _Show out of stock products_ settings. For Multi Source merchants using [Inventory Management](../inventory-management/introduction.md), the products list is limited by the source assigned to the default website only.
 
       ![Choosing a product for the button link](./assets/pb-elements-button-settings-button-link-product-search.png)<!-- zoom -->
 
@@ -122,7 +122,7 @@ The following sections describe a series of steps to start with an individual bu
 
 1. Set up the **[!UICONTROL Button Link]** as needed.
 
-   In the following example, the link is a relative URL that goes to the [Contact Us](https://docs.magento.com/user-guide/stores/contact-us.html) page.
+   In the following example, the link is a relative URL that goes to the [Contact Us](../getting-started/store-details.md#contact-us-form) page.
 
    ![Contact Us button settings](./assets/pb-elements-button-set-edit-button2-toolbox-settings.png)<!-- zoom -->
 

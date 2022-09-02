@@ -5,11 +5,11 @@ exl-id: 67caf56f-1b31-44bb-98dc-ea6ea7d8a4d5
 ---
 # Set Pricing and Structure
 
-Setting up the pricing and structure of a shared catalog is a two-step process. Your current place in the process is highlighted with a number in the progress bar at the top of the page. You can view the other step in the process at any time by clicking the progress bar. For example, if you’re working on custom pricing, you might want to return to the product selection page for reference. Simply click **[!UICONTROL Products]** in the progress bar at the top of the page, and then click **[!UICONTROL Pricing]** to return to the custom pricing page. Your work is not lost in this process.
+Setting up the pricing and structure of a shared catalog is a two-step process. Your current place in the process is highlighted with a number in the progress bar at the top of the page. You can view the other step in the process at any time by clicking the progress bar. For example, if you're working on custom pricing, you might want to return to the product selection page for reference. Simply click **[!UICONTROL Products]** in the progress bar at the top of the page, and then click **[!UICONTROL Pricing]** to return to the custom pricing page. Your work is not lost in this process.
 
 ![Products in Catalog](./assets/shared-catalog-products-workspace.png)<!-- zoom -->
 
-In the standard category tree, the root category is the topmost container and is referred to as _Default Category_ in the sample data. However, when shared catalogs are enabled, the category tree has an outer container called _Root Catalog_. The root catalog encompasses all other category structures that exist in the system. For more information, see [Catalog Scope](https://docs.magento.com/user-guide/catalog/catalog-scope.html).
+In the standard category tree, the root category is the topmost container and is referred to as _Default Category_ in the sample data. However, when shared catalogs are enabled, the category tree has an outer container called _Root Catalog_. The root catalog encompasses all other category structures that exist in the system. For more information, see [Catalog Scope](../catalog/introduction.md#catalog-scope).
 
 ## Step 1: Open the shared catalog pricing and structure configuration
 
@@ -21,11 +21,11 @@ In the standard category tree, the root category is the topmost container and is
 
 ## Step 2: Choose the products
 
-The first step in the process is to choose the products that you want to include in the shared catalog. The product selection page features the [category tree](https://docs.magento.com/user-guide/catalog/category-create.html) on the left, and a synchronized product grid on the right. If you click a category in the tree, the products in the category appear in the grid.
+The first step in the process is to choose the products that you want to include in the shared catalog. The product selection page features the [category tree](../catalog/category-create.md) on the left, and a synchronized product grid on the right. If you click a category in the tree, the products in the category appear in the grid.
 
-Only categories with selected products appear in the [top navigation](https://docs.magento.com/user-guide/catalog/navigation-top.html) when the shared catalog is viewed from the storefront. By default, only the first three [category levels](https://docs.magento.com/user-guide/catalog/navigation-top.html) are included in the storefront navigation, not including the root category.
+Only categories with selected products appear in the [top navigation](../catalog/navigation-top.md) when the shared catalog is viewed from the storefront. By default, only the first three category levels are included in the storefront navigation, not including the root category.
 
-1. Use the **Store** chooser to set the [scope](https://docs.magento.com/user-guide/catalog/product-scope.html) of the configuration.
+1. Use the **Store** chooser to set the [scope](../catalog/introduction.md#product-scope) of the configuration.
 
    The scope of the configuration can be set only before the shared catalog is saved for the first time. If you later edit the product selection, the Store chooser is not available.
 
@@ -37,13 +37,13 @@ Only categories with selected products appear in the [top navigation](https://do
    - To include specific categories of products, select the checkbox of each category that you want to include.
    - To include or exclude an individual product, select or deselect the checkbox of product.
 
-   The notation below each category in the tree shows the number of products from the category that are currently included in the shared catalog. The notation below the [root category](https://docs.magento.com/user-guide/catalog/category-root.html) shows the total number of products from all categories that are currently selected for the shared catalog.
+   The notation below each category in the tree shows the number of products from the category that are currently included in the shared catalog. The notation below the [root category](../catalog/category-root.md) shows the total number of products from all categories that are currently selected for the shared catalog.
 
 1. To view category products in the grid, click the name of the category in the tree. When a category is selected, the following occurs:
 
    - The toggle in the first column of the grid is set to the green _On_ position for each selected product.
-   - If a product is assigned to multiple categories and is not selected in one of them, it remains available through the other categories, and also when using [catalog search](https://docs.magento.com/user-guide/catalog/search.html).
-   - The system automatically sets [Category Permissions](https://docs.magento.com/user-guide/catalog/category-permissions.html) to `Allow` for the selected products.
+   - If a product is assigned to multiple categories and is not selected in one of them, it remains available through the other categories, and also when using [catalog search](../catalog/search.md).
+   - The system automatically sets [Category Permissions](../catalog/category-permissions.md) to `Allow` for the selected products.
 
 1. If necessary, use the filters and other grid controls to find the products that you want to include in the shared catalog.
 
@@ -71,12 +71,12 @@ You can set custom pricing for each product individually or use the Action contr
 
 To set the discount to a fixed amount or a percentage for the following product types, use the _[!UICONTROL Custom Price]_ column in the grid:
 
-- [Simple](https://docs.magento.com/user-guide/catalog/product-create-simple.html) (including configurable product variations)
-- [Bundle](https://docs.magento.com/user-guide/catalog/product-create-bundle.html)
-- [Downloadable](https://docs.magento.com/user-guide/catalog/product-create-downloadable.html)
-- [Virtual](https://docs.magento.com/user-guide/catalog/product-create-virtual.html)
+- [Simple](../catalog/product-create-simple.md) (including configurable product variations)
+- [Bundle](../catalog/product-create-bundle.md)
+- [Downloadable](../catalog/product-create-downloadable.md)
+- [Virtual](../catalog/product-create-virtual.md)
 
-The Custom Price column is blank for [configurable](https://docs.magento.com/user-guide/catalog/product-create-configurable.html) and [grouped](https://docs.magento.com/user-guide/catalog/product-create-grouped.html) products types and for [gift cards](https://docs.magento.com/user-guide/catalog/product-gift-card.html).
+The Custom Price column is blank for [configurable](../catalog/product-create-configurable.md) and [grouped](../catalog/product-create-grouped.md) products types and for [gift cards](../catalog/product-gift-card.md).
 
 The selection of products in the grid cannot be changed from the _Custom Prices_ page. However, you can use the progress indicator at the top of the page to return to the previous step and change the selection of products.
 
@@ -115,7 +115,7 @@ The selection of products in the grid cannot be changed from the _Custom Prices_
 
 ### Apply a tier price
 
-[Tier pricing](https://docs.magento.com/user-guide/catalog/product-price-tier.html) lets you offer a quantity discount for products in the shared catalog. The _Tier Price_ column of the grid contains a link to the _Advanced Pricing_ options that apply specifically to the shared catalog. If the product already includes tier pricing, the number of existing tiers appears in parentheses after the link.
+[Tier pricing](../catalog/product-price-tier.md) lets you offer a quantity discount for products in the shared catalog. The _Tier Price_ column of the grid contains a link to the _Advanced Pricing_ options that apply specifically to the shared catalog. If the product already includes tier pricing, the number of existing tiers appears in parentheses after the link.
 
 The following instructions show how to apply tier pricing to a single product. To apply tier pricing to multiple products, refer to [Importing Tier Prices](https://docs.magento.com/user-guide/system/data-import-price-tier.html).
 

@@ -22,7 +22,7 @@ There are three kinds of gift card products:
 
 The following instructions demonstrate the process of creating a gift card using a [product template](attribute-sets.md), required fields, and basic settings. Each required field is marked with a red asterisk (`*`). When you finish the basics, you can complete the other product settings as needed.
 
-## Step 1: Choose the product type
+### Step 1: Choose the product type
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
@@ -30,7 +30,7 @@ The following instructions demonstrate the process of creating a gift card using
 
    ![Add Gift Card](./assets/product-add-gift-card.png)<!-- zoom -->
 
-## Step 2: Choose the attribute set
+### Step 2: Choose the attribute set
 
 You can use the default `Gift Card` attribute set or choose another. To choose the attribute set that is used as a template for the product, do one of the following:
 
@@ -40,7 +40,7 @@ You can use the default `Gift Card` attribute set or choose another. To choose t
 
 ![Choose Attribute Set](./assets/product-create-choose-attribute-set-gift-card.png)<!-- zoom -->
 
-## Step 3: Complete the required settings
+### Step 3: Complete the required settings
 
 1. Enter a **[!UICONTROL Product Name]** for the gift card.
 
@@ -72,7 +72,7 @@ You can use the default `Gift Card` attribute set or choose another. To choose t
 
    You can create gift cards with fixed pricing, open amount pricing, or both.
 
-## Step 4: Complete the basic settings
+### Step 4: Complete the basic settings
 
 1. For a physical or combined gift card, enter the **[!UICONTROL Quantity]** in stock.
 
@@ -82,7 +82,7 @@ You can use the default `Gift Card` attribute set or choose another. To choose t
 
 There might be additional individual attributes that describe the product. The selection varies attribute set, and you can complete them later.
 
-## Step 5: Complete the gift card information
+### Step 5: Complete the gift card information
 
 The _[!UICONTROL Gift Card Information]_ section of the product settings can be used to override the [gift card configuration](https://docs.magento.com/user-guide/configuration/sales/gift-cards.html) settings that determine how the card is managed.
 
@@ -102,7 +102,7 @@ The _[!UICONTROL Gift Card Information]_ section of the product settings can be 
 
    - **[!UICONTROL Email Template]** - Determines the email template that is used for the notification sent to the recipient of a gift card.
 
-## Step 6: Complete the product information
+### Step 6: Complete the product information
 
 Complete the information in the following sections as needed:
 
@@ -115,7 +115,7 @@ Complete the information in the following sections as needed:
 - [Design](settings-advanced-design.md)
 - [Gift Options](product-gift-options.md)
 
-## Step 7: Publish the product
+### Step 7: Publish the product
 
 1. If you are ready to publish the product in the catalog, set the **Enable Product** switch to `Yes`.
 

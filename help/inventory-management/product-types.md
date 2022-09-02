@@ -13,9 +13,9 @@ exl-id: c800168a-e8b2-4d72-bd3d-68f46ece8a5e
 
 |Product Type|Shipping and Source Selection Algorithm|
 |--|--|
-|[Simple](https://docs.magento.com/user-guide/catalog/product-create-simple.html){target="_blank"}|Supports SSA recommendations and overrides at shipping.|
-|[Configurable](https://docs.magento.com/user-guide/catalog/product-create-configurable.html){target="_blank"}|Supports SSA recommendations and overrides at shipping.|
-|[Virtual](https://docs.magento.com/user-guide/catalog/product-create-virtual.html){target="_blank"}|Always uses the SSA recommendation. The system runs the algorithm implicitly when it creates invoices, and always uses the suggested results.<br/>You cannot adjust these results.|
-|[Downloadable](https://docs.magento.com/user-guide/catalog/product-create-downloadable.html){target="_blank"}|Always uses the SSA recommendation. The system runs the algorithm implicitly when it creates invoices, and always uses the suggested results. <br/>You cannot adjust these results.|
-|[Bundle](https://docs.magento.com/user-guide/catalog/product-create-bundle.html){target="_blank"}|Supports SSA recommendations and overrides at shipping.|
-|[Grouped](https://docs.magento.com/user-guide/catalog/product-create-grouped.html){target="_blank"}|Supports SSA recommendations and overrides at shipping.|
+|[Simple](../catalog/product-create-simple.md){target="_blank"}|Supports SSA recommendations and overrides at shipping.|
+|[Configurable](../catalog/product-create-configurable.md){target="_blank"}|Supports SSA recommendations and overrides at shipping.|
+|[Virtual](../catalog/product-create-virtual.md){target="_blank"}|Always uses the SSA recommendation. The system runs the algorithm implicitly when it creates invoices, and always uses the suggested results.<br/>You cannot adjust these results.|
+|[Downloadable](../catalog/product-create-downloadable.md){target="_blank"}|Always uses the SSA recommendation. The system runs the algorithm implicitly when it creates invoices, and always uses the suggested results. <br/>You cannot adjust these results.|
+|[Bundle](../catalog/product-create-bundle.md){target="_blank"}|Supports SSA recommendations and overrides at shipping.|
+|[Grouped](../catalog/product-create-grouped.md){target="_blank"}|Supports SSA recommendations and overrides at shipping.|

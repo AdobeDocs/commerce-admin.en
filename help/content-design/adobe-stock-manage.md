@@ -11,7 +11,7 @@ The [[!DNL Media Gallery]](media-gallery.md) provides a direct integration with 
 
 ## Access the Adobe Stock search grid
 
-The Adobe Stock search panel is accessible when you [add or edit a page](page-add.md), when you [create or edit a category](https://docs.magento.com/user-guide/catalog/category-create.html), or when you [insert images via the Content Editor](editor-insert-image.md).
+The Adobe Stock search panel is accessible when you [add or edit a page](page-add.md), when you [create or edit a category](../catalog/category-create.md), or when you [insert images via the Content Editor](editor-insert-image.md).
 
 To search Adobe Stock assets and add a stock image to a page:
 

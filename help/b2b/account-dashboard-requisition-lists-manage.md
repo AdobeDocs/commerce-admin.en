@@ -82,11 +82,11 @@ To edit product options in the list, the customer does the following:
 
 A product in the requisition list can be edited when:
 
-- The product has **[!UICONTROL all options set]** (when it is a [configured product](https://docs.magento.com/user-guide/catalog/product-create-configurable.html) in the Requisition List).
+- The product has **[!UICONTROL all options set]** (when it is a [configured product](../catalog/product-create-configurable.md) in the Requisition List).
 
    The product is **[!UICONTROL added to this Requisition List]**.
 
-- The product is [a simple product with options](https://docs.magento.com/user-guide/catalog/settings-advanced-custom-options.html)
+- The product is [a simple product with options](../catalog/settings-advanced-custom-options.md)
 
 - Edit is allowed for the product type.
 
@@ -130,6 +130,6 @@ A product in the requisition list can be edited when:
 |[!UICONTROL Select]|Manages the item selections that are to be the subject of an action. <br/>**[!UICONTROL Select All]** - Selects all items in the requisition list. <br/>**[!UICONTROL Remove Selected]** - Removes all selected items from the requisition list. <br/>**[!UICONTROL Copy Selected]** - Copies all selected items to another requisition list.|
 |[!UICONTROL Add to Cart]|Adds selected items to the shopping cart.|
 |[!UICONTROL Update List]|Recalculates the subtotal to reflect a change in quantity.|
-|[!UICONTROL Delete Requisition List]|Deletes the requisition list from the company user’s account.|
+|[!UICONTROL Delete Requisition List]|Deletes the requisition list from the company user's account.|
 
 {style="table-layout:auto"}

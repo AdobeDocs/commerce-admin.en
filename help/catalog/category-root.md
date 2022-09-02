@@ -28,7 +28,7 @@ The following example shows how to create a root category and assign it to a dif
 
    - Expand ![Expansion selector](../assets/icon-display-expand.png) the _Products in Category_ section.
 
-   - Use the [search filters](https://docs.magento.com/user-guide/stores/admin-grid-controls.html) to find the products you want and select the checkbox for each product that you want to copy into the new catalog.
+   - Use the [search filters](../getting-started/admin-grid-controls.md) to find the products you want and select the checkbox for each product that you want to copy into the new catalog.
 
 1. When complete, click **[!UICONTROL Save]**.
 

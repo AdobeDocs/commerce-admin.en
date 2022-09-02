@@ -25,7 +25,7 @@ There are two ways to assign a company to a shared catalog. You can make the ass
 
    The company is assigned to the shared catalog and is removed from the list of available companies.
 
-1. When complete, Click **[!UICONTROL Save]**.
+1. When complete, click **[!UICONTROL Save]**.
 
 ## Method 2: Edit the company
 

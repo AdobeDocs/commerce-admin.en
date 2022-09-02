@@ -5,7 +5,7 @@ exl-id: ca90c10d-8d7a-42a2-bb13-2602aa9d6eef
 ---
 # Add Content - Product Recommendations
 
-Use the _Product Recommendations_ content type to add an existing, active [recommendation unit](https://docs.magento.com/user-guide/recommendations/create.html) to the [[!DNL Page Builder] stage](workspace.md#stage) for a CMS page, block, or dynamic block.
+Use the _Product Recommendations_ content type to add an existing, active [recommendation unit](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/create.html) to the [[!DNL Page Builder] stage](workspace.md#stage) for a CMS page, block, or dynamic block.
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ Use the _Product Recommendations_ content type to add an existing, active [recom
 
 ## Add an existing recommendation unit
 
-1. Make sure you have already [created a recommendation unit](https://docs.magento.com/user-guide/recommendations/create.html) for the [!DNL Page Builder] page type.
+1. Make sure you have already [created a recommendation unit](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/create.html) for the [!DNL Page Builder] page type.
 
 >[!NOTE]
 >
