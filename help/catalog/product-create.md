@@ -12,6 +12,8 @@ Choosing a product type is one of the first things that you must do to create a 
 
 ![Product page on the storefront](./assets/storefront-product-page.png)<!-- zoom -->
 
+## Product types
+
 **[Simple product](product-create-simple.md)** - A simple product is a physical item with a single SKU. Simple products have various pricing and of input controls which makes it possible to sell variations of the product. Simple products can be used in association with grouped, bundle, and configurable products.
 
 **[Configurable product](product-create-configurable.md)** - A configurable product appears to be a single product with lists of options for each variation. However, each option represents a separate, simple product with a distinct SKU, which makes it possible to track inventory for each variation.
@@ -25,6 +27,8 @@ Choosing a product type is one of the first things that you must do to create a 
 **[Downloadable product](product-create-downloadable.md)** - A digitally downloadable product consists of one or more files that are downloaded. The files can reside on your server or be provided as URLs to any other server.
 
 **[Gift card](product-gift-card-create.md)** - ([Adobe Commerce](../landing/home.md#product-editions) only) There are three kinds of gift cards. _Virtual_ gift cards are sent by email. _Physical_ gift cards are shipped to the recipient. _Combined_ gift cards that are a combination of virtual and physical. Each has a unique code, which is redeemed during checkout. Gift cards can also be included in a grouped product.
+
+## Product settings
 
 The most frequently used product settings and attributes are located at the top of the page, followed by custom attributes. Any other product settings are in expandable sections at the bottom of the page.
 
@@ -45,6 +49,8 @@ The most frequently used product settings and attributes are located at the top 
 |[[!UICONTROL Product In Shared Catalogs]](../b2b/catalog-shared.md) | ![B2B for Adobe Commerce](../assets/b2b.svg) (Available with [B2B for Adobe Commerce](./b2b/../introduction.md) only) Enables the ability to maintain shared catalogs with custom pricing for different companies, with access to two types of shared catalogs using different pricing structures.|
 
 {style="table-layout:auto"}
+
+## Advanced pricing and inventory
 
 To access the advanced pricing and inventory settings, click the link below **[!UICONTROL Price]** and **[!UICONTROL Quantity]**. For more information, see [Managing Pricing](pricing-advanced.md) and [Inventory Management](../inventory-management/introduction.md).
 
