@@ -49,7 +49,7 @@ hide: yes
     - [Example: discount with minimum purchase](price-rule-discount-minimum-purchase.md)
     - [Example: discount with first purchase](price-rule-discount-first-purchase.md)
   - Product relationships {#product-relationships}   
-    - Product relation 
+    - [Overview](product-relationships.md)
     - [Related products rules and configuration](product-related-rules.md)
     - [Create a related product rule](product-related-rule-create.md)
 - Marketing communications {#communications}
