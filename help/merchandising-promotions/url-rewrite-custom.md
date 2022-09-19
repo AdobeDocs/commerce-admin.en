@@ -1,6 +1,6 @@
 ---
 title: Custom URL rewrites
-description: <placeholder>
+description: Learn how to use custom URL rewrites to manage miscellaneous redirects in your Commerce store.
 ---
 # Custom URL rewrites
 
@@ -32,31 +32,33 @@ Redirect from:
 
 ## Step 2. Create the rewrite
 
-1. On the _Admin_ sidebar, go to **Marketing** > _SEO & Search_ > **URL Rewrites**.
+{{url-rewrite-params}}
+
+1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_ > **[!UICONTROL URL Rewrites]**.
 
 1. Before you proceed, do the following to verify that the request path is available:
 
-   - In the search filter at the top of the **Request Path** column, enter the URL key of the page that is to be redirected and click **Search**.
+   - In the search filter at the top of the **[!UICONTROL Request Path]** column, enter the URL key of the page that is to be redirected and click **[!UICONTROL Search]**.
 
    - If there are multiple redirect records for the page, find the one that matches the applicable store view and open it in edit mode.
 
-   - In the upper-right corner, click **Delete**. When prompted, click **OK** to confirm.
+   - In the upper-right corner, click **[!UICONTROL Delete]**. When prompted, click **[!UICONTROL OK]** to confirm.
 
-1. When you return to the URL Rewrites page, click **Add URL Rewrite**.
+1. When you return to the URL Rewrites page, click **[!UICONTROL Add URL Rewrite]**.
 
-1. Set **Create URL Rewrite** to `Custom`.
+1. Set **[!UICONTROL Create URL Rewrite]** to `Custom`.
 
 1. Under URL Rewrite Information, do the following:
 
-   - If you have multiple store views, select the **Store** where the rewrite applies.
+   - If you have multiple store views, select the **[!UICONTROL Store]** where the rewrite applies.
 
-   - In the **Request Path** field, enter the URL key and path—if applicable—of the product, category, or CMS page that is to be redirected.
+   - For **[!UICONTROL Request Path]**, enter the URL key and path—if applicable—of the product, category, or CMS page that is to be redirected.
 
       >[!NOTE]
       >
-      >The Request Path must be unique for the specified store. If there is already a redirect that uses the same Request Path, you will receive an error when you try to save the redirect. The previous redirect must be deleted before you can create a new one.
+      >The request path must be unique for the specified store. If there is already a redirect that uses the same request path, you receive an error when you try to save the redirect. The previous redirect must be deleted before you can create one.
 
-   - In the **Target Path** field, enter the URL of the destination. If the target is located on another website, enter the fully qualified URL.
+   - For **[!UICONTROL Target Path]**, enter the URL of the destination. If the target is on another website, enter the fully qualified URL.
 
    - Set **Redirect** to one of the following:
 
@@ -67,14 +69,12 @@ Redirect from:
 
     ![URL rewrite information](./assets/url-rewrite-custom-add.png)<!-- zoom -->
 
-    {{url-rewrite-params}}
-
 1. Before saving the redirect, review the following:
 
-   - The Request Path contains the URL key or path of the original _redirect from_ page.
-   - The Target Path contains the URL of the _redirect to_ page.
+   - The [!UICONTROL Request Path] contains the URL key or path of the original _redirect from_ page.
+   - The [!UICONTROL Target Path] contains the URL of the _redirect to_ page.
 
-1. When complete, click **Save**.
+1. When complete, click **[!UICONTROL Save]**.
 
     The new rewrite appears in the grid at the top of the list.
 
@@ -95,8 +95,10 @@ Redirect from:
 
 |Field|Description|
 |--- |--- |
-|Create URL Rewrite|Indicates the type of rewrite. The type cannot be changed after the rewrite is created. Options: `Custom` / `For category` / `For product` / `For CMS page`|
-|Request Path|The CMS page that is to be redirected. The Request Path must be unique, and cannot be in use by another redirect. If you receive an error message that the Request Path already exists, delete the existing redirect and try again.|
-|Target Path|The internal path that is used by the system to point to the destination. The target path is grayed out and cannot be edited.|
-|Redirect|Determines the type of redirect. Options: <br/>**No** - No redirect is specified. <br/>**Temporary (302)** - Indicates to search engines that the rewrite is for a limited time. Search engines generally do not retain page rank information for temporary rewrites. <br/>**Permanent (301)** - Indicates to search engines that the rewrite is permanent. Search engines generally retain page rank information for permanent rewrites.|
-|Description|Describes the purpose of the rewrite for internal reference.|
+|[!UICONTROL Create URL Rewrite]|Indicates the type of rewrite. The type cannot be changed after the rewrite is created. Options: `Custom` / `For category` / `For product` / `For CMS page`|
+|[!UICONTROL Request Path]|The page that is to be redirected. The request path must be unique, and cannot be in use by another redirect. If you receive an error message that the request path exists, delete the existing redirect and try again.|
+|[!UICONTROL Target Path]|The internal path that is used by the system to point to the destination. The target path is grayed out and cannot be edited.|
+|[!UICONTROL Redirect]|Determines the type of redirect. Options: <br/>**No** - No redirect is specified. <br/>**[!UICONTROL Temporary (302)]** - Indicates to search engines that the rewrite is for a limited time. Search engines generally do not retain page rank information for temporary rewrites. <br/>**[!UICONTROL Permanent (301)]** - Indicates to search engines that the rewrite is permanent. Search engines generally retain page rank information for permanent rewrites.|
+|[!UICONTROL Description]|Describes the purpose of the rewrite for internal reference.|
+
+{style="table-layout:auto"}

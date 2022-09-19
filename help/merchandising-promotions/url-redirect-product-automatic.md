@@ -1,10 +1,10 @@
 ---
 title: Automatic redirects
-description: <placeholder>
+description: Learn how to configure automatic redirects to be generated whenever the URL key of a product or category changes in your Commerce store.
 ---
 # Automatic redirects
 
-Your store can be configured to automatically generate a permanent redirect whenever the URL key of a product or category changes. In the Search Engine Optimization section, the checkbox below the URL key indicates if permanent redirects are enabled. If your store is already configured to automatically redirect catalog URLs, making a redirect is as easy as updating the URL key. The process to create an automatic redirect is the same for both products and categories.
+Your store can be configured to automatically generate a permanent redirect whenever the URL key of a product or category changes. In the Search Engine Optimization section, the checkbox below the URL key indicates if permanent redirects are enabled. If your store is already configured to automatically redirect catalog URLs, a redirect is a simple update to the URL key. The process to create an automatic redirect is the same for both products and categories.
 
 >[!NOTE]
 >
@@ -12,35 +12,35 @@ Your store can be configured to automatically generate a permanent redirect when
 
 ## Set up automatic redirects
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In left panel, expand **Catalog** and choose **Catalog** underneath.
+1. In left panel, expand **[!UICONTROL Catalog]** and choose **[!UICONTROL Catalog]** underneath.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Search Engine Optimization** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Search Engine Optimization]** section.
 
-1. Set **Create Permanent Redirect for URLs if URL Key Changed** to `Yes`.
+1. Set **[!UICONTROL Create Permanent Redirect for URLs if URL Key Changed]** to `Yes`.
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.
 
     ![Catalog configuration - search engine optimization](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png)<!-- zoom -->
 
 ## Automatically redirect product URLs
 
-1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
 1. Find the product in the list and click to open the record.
 
-1. Expand ![Expansion selector ](../assets/icon-display-expand.png) the **Search Engine Optimization** section.
+1. Expand ![Expansion selector ](../assets/icon-display-expand.png) the **[!UICONTROL Search Engine Optimization]** section.
 
    ![Product search engine optimization - permanent redirect](./assets/product-search-engine-optimization-create-permanent-redirect.png)<!-- zoom -->
 
-1. For **URL Key**, do the following:
+1. For **[!UICONTROL URL Key]**, do the following:
 
-   - Make sure that the **Create Permanent Redirect for old URL** checkbox is selected. If not, follow the instructions to [enable automatic redirects](url-rewrite.md#configure-url-rewrites).
+   - Make sure that the **[!UICONTROL Create Permanent Redirect for old URL]** checkbox is selected. If not, follow the instructions to [enable automatic redirects](url-rewrite.md#configure-url-rewrites).
 
-   - Update the **URL Key** as needed, using all lowercase characters and non-trailing hyphens between these characters instead of spaces.
+   - Update the **[!UICONTROL URL Key]** as needed, using all lowercase characters and non-trailing hyphens between these characters instead of spaces.
 
-1. When complete, click **Save**.
+1. When complete, click **[!UICONTROL Save]**.
 
 1. When prompted to refresh the cache, follow the links in the message at the top of the workspace.
 
@@ -48,19 +48,19 @@ Your store can be configured to automatically generate a permanent redirect when
 
 ## Automatically redirect category URLs
 
-1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. Find the category in the tree and click to open the record.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Search Engine Optimization** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Search Engine Optimization]** section.
 
-1. For **URL Key**, do the following:
+1. For **[!UICONTROL URL Key]**, do the following:
 
-   - Make sure that the **Create Permanent Redirect for old URL** checkbox is selected. If not, follow the instructions to [enable automatic redirects](url-rewrite.md#configure-url-rewrites).
+   - Make sure that the **[!UICONTROL Create Permanent Redirect for old URL]** checkbox is selected. If not, follow the instructions to [enable automatic redirects](url-rewrite.md#configure-url-rewrites).
 
-   - Update the **URL Key** as needed, using all lowercase characters and non-trailing hyphens between these characters instead of spaces.
+   - Update the **[!UICONTROL URL Key]** as needed, using all lowercase characters and non-trailing hyphens between these characters instead of spaces.
 
-1. When complete, click **Save**.
+1. When complete, click **[!UICONTROL Save]**.
 
 1. When prompted to refresh the cache, follow the links in the message at the top of the workspace.
 
@@ -70,20 +70,20 @@ Your store can be configured to automatically generate a permanent redirect when
 
 >[!WARNING]
 >
->Turning off automatic generation of category/products URL rewrites results in permanent removal of all existing category/product type URL rewrites, which cannot be restored. This could potentially cause unresolved category/product type URL conflicts that will require a manual update of the URL key to resolve.
+>Turning off automatic generation of category/products URL rewrites results in permanent removal of all existing category/product type URL rewrites, which cannot be restored. This could potentially cause unresolved category/product type URL conflicts that require a manual update of the URL key to resolve.
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In left panel, expand **Catalog** and choose **Catalog** underneath.
+1. In left panel, expand **[!UICONTROL Catalog]** and choose **[!UICONTROL Catalog]** underneath.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Search Engine Optimization** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Search Engine Optimization]** section.
 
-1. For the  **Generate "category/product" URL Rewrites** field, clear the **Use system value** checkbox and set the value to `No`.
+1. Set **[!UICONTROL Generate "category/product" URL Rewrites]** to `No`.
 
    ![Catalog configuration - no automatic URL rewrites](./assets/seo-rewrite-no.png)<!-- zoom -->
 
-1. In the confirmation dialog, click **OK** to confirm the change and the removal of existing URL rewrites.
+1. In the confirmation dialog, click **[!UICONTROL OK]** to confirm the change and the removal of existing URL rewrites.
 
    ![Turn off category/product URL rewrites - confirm](./assets/seo-rewrite-off.png)<!-- width="350px" -->
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.

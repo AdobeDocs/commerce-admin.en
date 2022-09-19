@@ -1,12 +1,12 @@
 ---
 title: Cart price rule example - free shipping promotion
-description: <placeholder>
+description: Review an example of using a cart price rule to offer free shipping.
 ---
 # Cart price rule example - free shipping promotion
 
 Free shipping can be offered as a promotion, either with, or without a [coupon](price-rules-cart-coupon.md). A free shipping coupon, or voucher, can also be applied to customer pick-up orders, so the order can be invoiced and shipped to complete the [workflow](https://docs.magento.com/user-guide/sales/order-workflow.html).
 
-Some shipping carrier configurations give you the ability of offer free shipping based on a minimum order. To expand upon this basic capability, you can use shopping cart price rules to create complex conditions based on multiple product attributes, cart contents, and customer groups.
+Some shipping carrier configurations give you the ability to offer free shipping based on a minimum order. To expand upon this basic capability, you can use shopping cart price rules to create complex conditions based on multiple product attributes, cart contents, and customer groups.
 
 ## Step 1. Enable free shipping
 
@@ -16,50 +16,50 @@ Some shipping carrier configurations give you the ability of offer free shipping
 
 ## Step 2. Create a cart price rule
 
-On the _Admin_ sidebar, go to **Marketing** > _Promotions_ > **Cart Price Rules**.
+On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_ > **[!UICONTROL Cart Price Rules]**.
 
 Follow the steps below to set up the type of free shipping promotion that you want to offer.
 
 ### Example 1: Free shipping for any order
 
-1. Complete the **Rule Information** as follows:
+1. Complete the **[!UICONTROL Rule Information]** as follows:
 
-   - Enter a **Rule Name** for internal reference.
-   - Enter a brief **Description** to describe the rule.
-   - Set **Active** to `Yes`.
-   - In the **Websites** box, select each site where the free shipping coupon is to be available.
-   - Select the **Customer Groups** to which the rule applies.
-   - Set **Coupon** to one of the following:
+   - Enter a **[!UICONTROL Rule Name]** for internal reference.
+   - Enter a brief **[!UICONTROL Description]** to describe the rule.
+   - Set **[!UICONTROL Active]** to `Yes`.
+   - In the **[!UICONTROL Websites]** box, select each site where the free shipping coupon is to be available.
+   - Select the **[!UICONTROL Customer Groups]** to which the rule applies.
+   - Set **[!UICONTROL Coupon]** to one of the following:
       - To offer a free shipping promotion without a coupon, accept the default (`No Coupon`) setting.
       - To use a coupon with the price rule, select `Specific Coupon`. If necessary, complete the instructions to set up a [coupon](price-rules-cart-coupon.md).
 
-1. Scroll down and expand ![Expansion selector](../assets/icon-display-expand.png) the **Actions** section and do the following:
+1. Scroll down and expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Actions]** section and do the following:
 
-   - Set **Apply** to `Percent of product price discount`.
-   - Set **Apply to Shipping Amount** to `Yes`.
-   - Set **Free Shipping** to `For shipment with matching items`.
+   - Set **[!UICONTROL Apply]** to `Percent of product price discount`.
+   - Set **[!UICONTROL Apply to Shipping Amount]** to `Yes`.
+   - Set **[!UICONTROL Free Shipping]** to `For shipment with matching items`.
 
    ![Cart price rule - free shipping actions](./assets/free-shipping-actions.png)<!-- zoom -->
 
 ### Example 2: Free shipping for orders over $ amount
 
-1. Complete the **General Information** settings as described in the previous example.
+1. Complete the **[!UICONTROL General Information]** settings as described in the previous example.
 
-1. Scroll down and expand ![Expansion selector](../assets/icon-display-expand.png) the **Conditions** section.
+1. Scroll down and expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Conditions]** section.
 
-1. Click **Add** (![Add icon](../assets/icon-add-green-circle.png)) to insert a condition and do the following:
+1. Click _Add_ (![Add icon](../assets/icon-add-green-circle.png)) to insert a condition and do the following:
 
-   - In the list under **Cart Attribute**, choose **Subtotal**.
-   - Click **is** and choose `equals or greater than`.
+   - In the list under **[!UICONTROL Cart Attribute]**, choose `Subtotal`.
+   - Click **[!UICONTROL is]** and choose `equals or greater than`.
    - Click **...** and enter a threshold value for the Subtotal, such as `100`, to complete the condition.
 
    ![Cart price rule - condition](./assets/free-shipping-condition1.png)<!-- zoom -->
 
-1. If necessary, expand ![Expansion selector](../assets/icon-display-expand.png) the **Actions** section and do the following:
+1. If necessary, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Actions]** section and do the following:
 
-   - Set **Apply** to `Percent of product price discount`.
-   - Set **Apply to Shipping Amount** to `Yes`.
-   - Set **Free Shipping** to `For shipment with matching items`.
+   - Set **[!UICONTROL Apply]** to `Percent of product price discount`.
+   - Set **[!UICONTROL Apply to Shipping Amount]** to `Yes`.
+   - Set **[!UICONTROL Free Shipping]** to `For shipment with matching items`.
 
    ![Cart price rule - free shipping actions](./assets/free-shipping-actions-example2.png)<!-- zoom -->
 
@@ -71,6 +71,6 @@ Complete [Step 4](price-rules-cart.md) of the cart price rule instructions to en
 
 {{new-price-rule}}
 
-1. When your rule is complete, click **Save Rule**.
+1. When your rule is complete, click **[!UICONTROL Save Rule]**.
 
 1. Test the rule to make sure that it works correctly.

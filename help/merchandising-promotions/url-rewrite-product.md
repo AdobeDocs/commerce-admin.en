@@ -1,6 +1,6 @@
 ---
 title: Product URL rewrites
-description: <placeholder>
+description: Learn how to use product URL rewrites to redirect links to the URL of another product in your Commerce store.
 ---
 # Product URL rewrites
 
@@ -12,7 +12,7 @@ If [automatic redirects](url-redirect-product-automatic.md) are enabled for your
 
 {{url-rewrite-skip}}
 
-## Step 1. Plan the Rewrite
+## Step 1. Plan the rewrite
 
 To avoid mistakes, write down the _redirect to_ path and _redirect from_ path and include the URL Key and suffix (if applicable).
 
@@ -30,57 +30,59 @@ Redirect to: `impulse-duffle.html`
 
 Redirect from: `overnight-duffle.html`
 
-## Step 2. Create the Rewrite
+## Step 2. Create the rewrite
 
-1. On the _Admin_ sidebar, go to **Marketing** > _Search & SEO_ > **URL Rewrites**.
+{{url-rewrite-params}}
+
+1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_ > **[!UICONTROL URL Rewrites]**.
 
 1. Before you proceed, do the following to verify that the request path is available.
 
-   - In the search filter at the top of the **Request Path** column, enter the URL key of the page to be redirected and click **Search**.
+   - In the search filter at the top of the **[!UICONTROL Request Path]** column, enter the URL key of the page to be redirected and click **[!UICONTROL Search]**.
 
    - If there are multiple redirect records for the page, find the one that matches the applicable store view and open it in edit mode.
 
-   - In the upper-right corner, click **Delete**. When prompted, click **OK** to confirm.
+   - In the upper-right corner, click **[!UICONTROL Delete]**. When prompted, click **[!UICONTROL OK]** to confirm.
 
 1. In the upper-right corner of the URL Rewrites page, click **Add URL Rewrite**.
 
-1. Set **Create URL Rewrite** to `For product`.
+1. Set **[!UICONTROL Create URL Rewrite]** to `For product`.
 
 1. In the grid, find the product that is the target (destination) of the redirect and click the row.
 
    ![Product URL rewrite](./assets/url-rewrite-product-grid.png)<!-- zoom -->
 
-1. Below the category tree, click **lection**. For this example, the redirect does not include a category.
+1. Below the category tree, click **[!UICONTROL Skip Category Selection]**. 
+
+   For this example, the redirect does not include a category.
 
     ![Product URL rewrite - skip category selection](./assets/url-rewrite-skip-category-selection.png)<!-- zoom -->
 
     The Add URL Rewrite for a Product page displays a link to the target in the upper-left corner, and the Target Path field displays the system version of the path, which cannot be changed. Initially, the Redirect Path field also displays the target path.
 
-   - If you have multiple store views, set **Store** to the view where the rewrite applies. Otherwise, a rewrite will be created for each view.
+   - If you have multiple store views, set **[!UICONTROL Store]** to the view where the rewrite applies. Otherwise, a rewrite is created for each view.
 
-   - In the **Request Path** field, replace the default by entering the URL key and suffix (if applicable) of the original product request. This is the _redirect from_ product that you identified in the planning step.
+   - For **[!UICONTROL Request Path]**, replace the default by entering the URL key and suffix (if applicable) of the original product request. This is the _redirect from_ product that you identified in the planning step.
 
       >[!NOTE]
       >
-      >The Request Path must be unique for the specified store. If there is already a redirect that uses the same Request Path, you will receive an error when you try to save the redirect. The previous redirect must be deleted before you can create a new one.
+      >The request path must be unique for the specified store. If there is already a redirect that uses the same request path, you receive an error when you try to save the redirect. The previous redirect must be deleted before you can create one.
 
-   - Set **Redirect Type** to one of the following:
+   - Set **[!UICONTROL Redirect Type]** to one of the following:
 
       - `Temporary (302)`
       - `Permanent (301)`
 
-   - For your own reference, enter a brief **Description** of the rewrite.
+   - For your own reference, enter a brief **[!UICONTROL Description]** of the rewrite.
 
     ![Product URL rewrite - information](./assets/url-rewrite-product-permanent-301.png)<!-- zoom -->
-
-    {{url-rewrite-params}}
 
 1. Before saving the redirect, review the following:
 
    - The link in the upper-left corner displays the name of the target product.
    - The Request Path contains the path for the original _redirect from_ product.
 
-1. When complete, click **Save**.
+1. When complete, click **[!UICONTROL Save]**.
 
     The new product rewrite now appears at the top of the URL Rewrites grid.
 
@@ -95,36 +97,38 @@ Redirect from: `overnight-duffle.html`
    - Navigate to the original _redirect from_ product request page.
    - In the address bar of the browser, enter the path to the original _redirect from_ product immediately after the store URL and press **Enter**.
 
-    The new target product appears instead of the original product request.
+   The new target product appears instead of the original product request.
 
 ## Field descriptions
 
 |Field|Description|
 |--- |--- |
-|Create URL Rewrite|Indicates the type of rewrite. The type cannot be changed after the rewrite is created. Options: Custom / For category / For product / For CMS page|
-|Request Path|The product that is to be redirected. Depending on your configuration, the Request Path might include the `.html` or `.htm` suffix, and category. The Request Path must be unique, and cannot be in use by another redirect. If you receive an error that the Request Path already exists, delete the existing redirect, and try again.|
-|Target Path|The internal  path that is used by the system to point to the destination of the redirect. The target path is grayed out and cannot be edited.|
-|Redirect|Determines the type of redirect. Options: <br/>**No** - No redirect is specified. Many operations create redirect requests of this type. For example, every time you add products to a category, a redirect of the `No` type is created each store view. <br/>**Temporary (302)** - Indicates to search engines that the rewrite is for a limited time. Search engines generally do not retain page rank information for temporary rewrites. <br/>**Permanent (301)** - Indicates to search engines that the rewrite is permanent. Search engines generally retain page rank information for permanent rewrites.|
-|Description|Describes the purpose of the rewrite for internal reference.|
+|[!UICONTROL Create URL Rewrite]|Indicates the type of rewrite. The type cannot be changed after the rewrite is created. Options: `Custom` / `For category` / `For product` / `For CMS page`|
+|[!UICONTROL Request Path]|The product that is to be redirected. Depending on your configuration, the Request Path might include the `.html` or `.htm` suffix, and category. The Request Path must be unique, and cannot be in use by another redirect. If you receive an error that the Request Path exists, delete the existing redirect, and try again.|
+|[!UICONTROL Target Path]|The internal  path that is used by the system to point to the destination of the redirect. The target path is grayed out and cannot be edited.|
+|[!UICONTROL Redirect]|Determines the type of redirect. Options: <br/>**[!UICONTROL No]** - No redirect is specified. Many operations create redirect requests of this type. For example, every time you add products to a category, a redirect of the `No` type is created each store view. <br/>**[!UICONTROL Temporary (302)]** - Indicates to search engines that the rewrite is for a limited time. Search engines generally do not retain page rank information for temporary rewrites. <br/>**[!UICONTROL Permanent (301)]** - Indicates to search engines that the rewrite is permanent. Search engines generally retain page rank information for permanent rewrites.|
+|[!UICONTROL Description]|Describes the purpose of the rewrite for internal reference.|
+
+{style="table-layout:auto"}
 
 ## Multiple URL rewrites
 
 You can quickly update URL rewrites for multiple or all products simultaneously using the following steps.
 
-1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Select all of the products for which you want to update URL rewrites.
+1. Select all the products for which you want to update URL rewrites.
 
-1. Under _Actions_, choose **Update attributes** to update multiple or all rewrites.
+1. Under _[!UICONTROL Actions]_, choose **[!UICONTROL Update attributes]** to update multiple or all rewrites.
 
-1. Under _PRODUCTS INFORMATION_, click the **Websites** tab.
+1. Under _[!UICONTROL PRODUCTS INFORMATION]_, click the **[!UICONTROL Websites]** tab.
 
-1. In the _Add Product To Websites_ section, select all websites for which you want to restore URL rewrites.
+1. In the _[!UICONTROL Add Product To Websites]_ section, select all websites for which you want to restore URL rewrites.
 
-1. When ready to update, click **Save**.
+1. When ready to update, click **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
->All selected products are re-added to the selected websites and URL rewrites are regenerated.
+>All selected products are readded to the selected websites and URL rewrites are regenerated.
 
 ![Update Attributes - update multiple URL rewrites](./assets/url-rewrites-update.png)<!-- zoom -->

@@ -1,6 +1,6 @@
 ---
 title: Configure gift registries
-description: <placeholder>
+description: Lean how to enable gift registries and configure the related email notifications.
 ---
 # Configure gift registries
 
@@ -16,47 +16,47 @@ Adobe Commerce has predefined templates for each of these email messages that ca
 
 ## Step 1. Enable Gift Registries
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Customers** and choose **Gift Registry**
+1. In the left panel, expand **[!UICONTROL Customers]** and choose **[!UICONTROL Gift Registry]**
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **General Options** section and do the following:
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL General Options]** section and do the following:
 
    ![Customers configuration - gift registry general](../configuration-reference/customers/assets/gift-registry-general-options.png)<!-- zoom -->
 
-   - The Gift Registry is enabled by default. If necessary, set **Enable Gift Registry** to `Yes`.
+   - The Gift Registry is enabled by default. If necessary, set **[!UICONTROL Enable Gift Registry]** to `Yes`.
 
-   - In the **Maximum Registrants** field, enter the maximum number of people that can be invited to participate in a gift registry event.
+   - For **[!UICONTROL Maximum Registrants]**, enter the maximum number of people that can be invited to participate in a gift registry event.
 
 ## Step 2. Configure Email Notifications
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Owner Notification** section and do the following:
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Owner Notification]** section and do the following:
 
    ![Customers configuration - gift registry owner notification](../configuration-reference/customers/assets/gift-registry-owner-notification.png)<!-- zoom -->
 
-   - Choose the **Email Template** that notifies gift registry owners when their registries are created.
+   - Choose the **[!UICONTROL Email Template]** that notifies gift registry owners when their registries are created.
 
-   - Choose the [store contact](https://docs.magento.com/user-guide/stores/store-email-addresses.html) that appears as the **Email Sender** of the message.
+   - Choose the [store contact](https://docs.magento.com/user-guide/stores/store-email-addresses.html) that appears as the **[!UICONTROL Email Sender]** of the message.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Gift Registry Sharing** section and do the following:
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Gift Registry Sharing]** section and do the following:
 
    ![Customers configuration - gift registry sharing](../configuration-reference/customers/assets/gift-registry-gift-registry-sharing.png)<!-- zoom -->
 
-   - Choose the **Email Template** that notifies gift registry recipients when a registry is shared with them.
+   - Choose the **[!UICONTROL Email Template]** that notifies gift registry recipients when a registry is shared with them.
 
-   - Choose the store identify that appears as the **Email Sender** of the message.
+   - Choose the store identify that appears as the **[!UICONTROL Email Sender]** of the message.
 
-   - In the **Maximum Sent Emails Threshold** field, enter the maximum number of emails that can be sent at one time.
+   - For **[!UICONTROL Maximum Sent Emails Threshold]**, enter the maximum number of emails that can be sent at one time.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Gift Registry Update** section and do the following:
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Gift Registry Update]** section and do the following:
 
    ![Customers configuration - gift registry update](../configuration-reference/customers/assets/gift-registry-gift-registry-update.png)<!-- zoom -->
 
-   - Choose the **Email Template** that notifies gift registry owners of changes to the registry.
+   - Choose the **[!UICONTROL Email Template]** that notifies gift registry owners of changes to the registry.
 
-   - Choose the store identify that appears as the **Email Sender** of the message.
+   - Choose the store identify that appears as the **[!UICONTROL Email Sender]** of the message.
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.
 
 1. When prompted, update the cache.
 

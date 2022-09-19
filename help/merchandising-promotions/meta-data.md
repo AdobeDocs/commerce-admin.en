@@ -1,18 +1,18 @@
 ---
 title: Meta data
-description: <placeholder>
+description: Learn about how can enter keyword-rich meta data to improve the way search engines index your Commerce site.
 ---
 # Meta data
 
 Your store is loaded with places where you can enter keyword-rich meta data to improve the way search engines index your site. While setting up your store, you might enter preliminary meta data, with the intention of finishing it later. Over time, you can fine-tune the meta data to target the buying patterns and preferences of your customers.
 
-![Example storefront - meta title](./assets/storefront-home-page-meta-title.png)<!-- zoom -->
+![Product settings - search engine optimization](./assets/product-basic-settings-search-engine-optimization-yoga-strap.png)<!-- zoom -->
 
 ## Meta title
 
-The meta title appears in the title bar and tab of your browser and search results listings. The meta title should be unique to the page, and less than seventy characters in length.
+The meta title appears in the title bar and tab of your browser and search results listings. The meta title should be unique to the page, and fewer than 70 characters in length.
 
-![Product settings - search engine optimization](./assets/product-basic-settings-search-engine-optimization-yoga-strap.png)<!-- zoom -->
+![Example storefront - meta title](./assets/storefront-home-page-meta-title.png)<!-- zoom -->
 
 ## Meta keywords
 
@@ -22,21 +22,19 @@ Although some search engines ignore meta keywords, others continue to use them. 
 
 ## Meta description
 
-Meta descriptions provide a brief overview of the page for search results listings. Ideally, a meta description should be between 150-160 characters in length, although the field will accept up to 255 characters.
-
-![Catalog configuration - search engine optimization](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png)<!-- zoom -->
+Meta descriptions provide a brief overview of the page for search results listings. Ideally, a meta description should be between 150-160 characters in length, although the field accepts up to 255 characters.
 
 ## Rich snippets
 
-Rich snippets provide detailed information for search results listings and other applications. By default, structured data markup that is based on the [schema.org][1] standard is added to your store's product template. As a result, more information is available for search engines to include as "rich snippets" in product listings.
+Rich snippets provide detailed information for search results listings and other applications. By default, structured data markup that is based on the [schema.org][1] standard is added to your store's product template. As a result, more information is available for search engines to include as _rich snippets_ in product listings.
 
 ## Canonical meta tag
 
-Some search engines penalize websites that have multiple URLs that point to the same content. The canonical meta tag tells search engines which page to index when multiple URLs have identical or very similar content. Using the canonical meta tag can improve your site ranking and aggregate page views. The canonical meta tag is placed in the `<head>` block of a product or category page. It provides a link to your preferred URL, so search engines will give it greater weight.
+Some search engines penalize websites that have multiple URLs that point to the same content. The canonical meta tag tells search engines which page to index when multiple URLs have identical or similar content. Using the canonical meta tag can improve your site ranking and aggregate page views. The canonical meta tag is placed in the `<head>` block of a product or category page. It provides a link to your preferred URL, so search engines give it greater weight.
 
 ### Example 1: Category path creates duplicate URLs
 
-For example, if your catalog is configured to include the category path in product URLs, your store will generate multiple URLs that point to the same product page.
+For example, if your catalog is configured to include the category path in product URLs, your store generates multiple URLs that point to the same product page.
 
     http://mystore.com/gear/bags/driven-backpack.html
     http://mystore.com/driven-backpack.html
@@ -59,9 +57,9 @@ You can avoid being penalized by search engines by omitting the category from th
 
 ### Enable the canonical meta tag
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
+1. In the left panel, expand **[!UICONTROL Catalog]** and choose **[!UICONTROL Catalog]** underneath.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Search Engine Optimization** section.
 
@@ -81,7 +79,7 @@ You can avoid being penalized by search engines by omitting the category from th
 
     - Set **Use Canonical Link Meta Tag for Categories** to `No`.
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.
 
 ## Meta data demo
 

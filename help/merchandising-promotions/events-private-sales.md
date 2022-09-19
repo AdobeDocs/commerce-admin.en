@@ -1,12 +1,12 @@
 ---
 title: Private sales and events
-description: <placeholder>
+description: Learn about using private sales and other catalog events to increase sales to your existing customer base and to generate buzz and new leads.
 ---
-# Private sales and eventsPrivate sales and events
+# Private sales and events
 
 {{ee-feature}}
 
-Private sales and other catalog events are a great way to leverage your existing customer base to generate buzz and new leads, or to offload surplus inventory. You can create limited-time sales, limit sales to specific members, or create a stand-alone private sale page. You can also define invitations and event details. Increase brand loyalty and generate a buzz by giving your best customers the VIP treatment. Offer exclusive access to Member Only sales or private sales to increase brand loyalty. You can also use these sales to liquidate excess merchandise. Customer Groups are extremely useful in setting up these types of Members Only and VIP sales.
+Private sales and other catalog events are a great way to use your existing customer base to generate buzz and new leads, or to offload surplus inventory. You can create limited-time sales, limit sales to specific members, or create a stand-alone private sale page. You can also define invitations and event details. Increase brand loyalty and generate a buzz by giving your best customers the VIP treatment. Offer exclusive access to Member Only sales or private sales to increase brand loyalty. You can also use these sales to liquidate excess merchandise. Customer Groups are useful in setting up these types of Members Only and VIP sales.
 
 ![Example storefront - event on home page](./assets/storefront-event-home-page.png)<!-- zoom -->
 
@@ -16,9 +16,9 @@ Private sales and other catalog events are a great way to leverage your existing
 
 - **Events** - Event sales are based on a starting and ending date. You can use a [countdown ticker](#event-ticker) to show the time remaining.
 
-- **Catalog event carousel** - When the [Catalog Event widget](../content-design/widget-event-carousel.md) is enabled in the configuration, it can be placed on store pages as a listing of open and upcoming events, sorted by end date. If two or more events share the same end date, the events are sorted based on the order specified in the configuration.
+- **Catalog event carousel** - When the [Catalog Event widget](../content-design/widget-event-carousel.md) is enabled in the configuration, it can be placed on store pages as a listing of open and upcoming events, sorted by end date. If two or more events have the same end date, the events are sorted based on the order specified in the configuration.
 
-- **Customer groups** - Category permissions are based primarily on [customer groups](https://docs.magento.com/user-guide/customers/customer-groups.html).
+- **[!UICONTROL Websites]** - Category permissions are based primarily on [customer groups](https://docs.magento.com/user-guide/customers/customer-groups.html).
 
 - **Category permissions** - [Category permissions](../catalog/category-permissions.md) gives you full control over the specific activities that can take place in a given category.
 
@@ -34,8 +34,8 @@ The ticker block displays a countdown ticker for open events, with the start and
 
 ![Example storefront - event carousel](./assets/storefront-event-ticker-carousel.png)<!-- zoom -->
 
-If the Category Page ticker is enabled for an event, the ticker block appears at the top of the category listing. If the Product Page ticker is enabled, the ticker block also appears at the top of the product page of any product that is associated with the category.
+If the category page ticker is enabled for an event, the ticker block appears at the top of the category listing. If the product page ticker is enabled, the ticker block also appears at the top of the product page of any product that is associated with the category.
 
-The Event Ticker can be enabled when you are [Creating Events](event-create.md).
+The event ticker can be enabled when you [creating events](event-create.md).
 
 ![Example storefront - event sidebar](./assets/storefront-event-sidebar.png)<!-- zoom -->

@@ -1,6 +1,6 @@
 ---
 title: Product reviews
-description: <placeholder>
+description: Learn how product reviews can enhance your store and bring more credibility to your products.
 ---
 # Product reviews
 
@@ -40,20 +40,20 @@ The Commerce Product Reviews function is enabled by default.
 >
 >To set these fields to `No` and disable Commerce Product Reviews, you must clear the **Use system value** checkboxes.
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Catalog** and select **Catalog** underneath.
+1. In the left panel, expand **[!UICONTROL Catalog]** and select **[!UICONTROL Catalog]** underneath.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Product Reviews** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Product Reviews]** section.
 
    ![Catalog configuration - Commerce product reviews](./assets/product-reviews-config.png)<!-- zoom -->
 
-1. Set **Enabled** to `Yes`.
+1. Set **[!UICONTROL Enabled]** to `Yes`.
 
    This is the default setting that enables product reviews.
 
-1. Set **Allow Guests to Write Reviews** to `Yes`.
+1. Set **[!UICONTROL Allow Guests to Write Reviews]** to `Yes`.
 
    This is the default setting that determines if customers must open an account with your store to be able to write product reviews.
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.

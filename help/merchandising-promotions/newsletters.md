@@ -1,10 +1,10 @@
 ---
 title: Newsletters and subscriptions
-description: <placeholder>
+description: Learn about newsletters and how to enable this feature as a low-cost promotional tool.
 ---
 # Newsletters and subscriptions
 
-Publishing a regular newsletter is considered to be one of the most powerful and affordable marketing tools available. Commerce gives you the ability to publish and distribute newsletters to customers who have subscribed, plus tools to produce your newsletter, build and manage your list of subscribers, develop content, and drive traffics to your store. You can also use [Page Hierarchy](../content-design/page-hierarchy.md) to create an archive of past issues.
+Publishing a regular newsletter is considered to be one of the most powerful and affordable marketing tools available. Commerce gives you the ability to publish and distribute newsletters to customers who have subscribed, plus tools to produce your newsletter, build and manage your list of subscribers, develop content, and drive traffics to your store. You can also use [page hierarchy](../content-design/page-hierarchy.md) to create an archive of past issues.
 
 >[!NOTE]
 >
@@ -14,36 +14,36 @@ The first step in creating newsletters is to configure the newsletter settings f
 
 ## Enable newsletters
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Customers** and choose **Newsletter**.
+1. In the left panel, expand **[!UICONTROL Customers]** and choose **[!UICONTROL Newsletter]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **General Options** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL General Options]** section.
 
-1. To enable newsletters for the store view scope, set **Enabled** to `Yes`.
+1. To enable newsletters for the store view scope, set **[!UICONTROL Enabled]** to `Yes`.
 
-After enabling the newsletter function the **Subscription Options** section appears.
+After enabling the newsletter function, the _[!UICONTROL Subscription Options]_ section appears.
 
 ## Configure the subscription options
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Customers** and choose **Newsletter**.
+1. In the left panel, expand **[!UICONTROL Customers]** and choose **[!UICONTROL Newsletter]**.
 
 1. If needed, [change the configuration scope](../getting-started/websites-stores-views.md#scope-settings) to apply the newsletter configuration changes to a specific site/store view.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Subscription Options** section and do the following:
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Subscription Options]** section and do the following:
 
    ![Customers configuration - newsletter subscriptions](../configuration-reference/customers/assets/newsletter-subscription-options.png)<!-- zoom -->
 
-   - Confirm the email template and sender of the each of the following email messages that are sent to subscribers:
+   - Confirm the email template and sender of each of the following email messages that are sent to subscribers:
 
-      - Success email
-      - Confirmation email
-      - Unsubscribe email
+      - [!UICONTROL Success email]
+      - [!UICONTROL Confirmation email]
+      - [!UICONTROL Unsubscribe email]
 
-   - To use the double opt-in process to confirm subscriptions, set **Need to Confirm** to `Yes`.
+   - To use the double opt-in process to confirm subscriptions, set **[!UICONTROL Need to Confirm]** to `Yes`.
 
-   - To allow people who do not have an account with your store to subscribe to the newsletter, set **Allow Guest Subscription** to `Yes`.
+   - To allow people who do not have an account with your store to subscribe to the newsletter, set **[!UICONTROL Allow Guest Subscription]** to `Yes`.
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.

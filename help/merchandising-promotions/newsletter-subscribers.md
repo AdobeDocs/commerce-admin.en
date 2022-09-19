@@ -1,10 +1,10 @@
 ---
 title: Manage newsletter subscribers
-description: <placeholder>
+description: Learn how to manage your newsletter subscribers using a simple list of active subscriptions.
 ---
 # Manage newsletter subscribers
 
-As a best practice you should manage your subscription list on a regular basis, and make sure to process any requests to unsubscribe. In some jurisdictions, it is required by law that requests to unsubscribe are processed within a specific period of time.
+As a best practice you should manage your subscription list regularly, and make sure to process any requests to unsubscribe. In some jurisdictions, it is required by law that requests to unsubscribe are processed within a specific time period.
 
 You can easily manage your subscribers using a simple list of active subscriptions. When a customer submits an unsubscribe request, you can simply apply an _Unsubscribe_ action to one or more selected subscriptions.
 
@@ -16,31 +16,31 @@ If you want to use a third-party service to send newsletters, you can export you
 
 ## Manage subscriptions for a customer
 
-1. On the _Admin_ sidebar, go to **Customers** > **All Customers**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
-1. Find the customer in the grid and click **Edit** in the _Action_ column.
+1. Find the customer in the grid and click **[!UICONTROL Edit]** in the _[!UICONTROL Action]_ column.
 
-1. Click **Newsletter** in the left panel.
+1. Click **[!UICONTROL Newsletter]** in the left panel.
 
-1. Modify the subscription(s) for the customer according to your site/store setup.
+1. Modify the subscriptions for the customer according to your site/store setup.
 
-   For a single site/single store setup, you can simply select or clear the **Subscribed to Newsletter** checkbox.
+   For a single site/single store setup, you can simply select or clear the **[!UICONTROL Subscribed to Newsletter]** checkbox.
 
    ![Single store customer newsletter subscription checkbox](./assets/newsletter-customer-single-store.png)<!-- zoom -->
 
-   For a single site/multi-store setup, you can select or clear the **Subscribed to Newsletter** checkbox and set **Subscribed on Store View** to the correct store view for the subscription.
+   For a single site/multi-store setup, you can select or clear the **[!UICONTROL Subscribed to Newsletter]** checkbox and set **[!UICONTROL Subscribed on Store View]** to the correct store view for the subscription.
 
    ![Multi-store customer newsletter subscription checkbox and store view selector](./assets/newsletter-customer-multi-store.png)<!-- zoom -->
 
-   For a multi-site/multi-store setup with a global customer account scope, the page displays the subscription status for all sites. You can select or clear the **Subscribed** checkbox and/or change the **Store View** for the subscription.
+   For a multi-site/multi-store setup with a global customer account scope, the page displays the subscription status for all sites. You can select or clear the **[!UICONTROL Subscribed]** checkbox and/or change the **[!UICONTROL Store View]** for the subscription.
 
    ![Multi-site customer newsletter subscription checkboxes and store view selectors](./assets/newsletter-customer-multi-site.png)<!-- zoom -->
 
-1. Click **Save Customer**.
+1. Click **[!UICONTROL Save Customer]**.
 
-## Cancel a subscription from the Newsletter Subscribers list
+## Cancel a subscription from the subscribers list
 
-1. On the _Admin_ sidebar, go to **Marketing** > _Communications_ > **Newsletter Subscribers**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_ > **[!UICONTROL Newsletter Subscribers]**.
 
    For a multi-site setup where some customers have subscriptions for more than one site, each subscription is displayed as a line item in the grid.
 
@@ -50,7 +50,7 @@ If you want to use a third-party service to send newsletters, you can export you
    >
    >For a bulk unsubscribe, select the checkbox of each subscriber that you want to cancel.
 
-1. Set the _Action_ control to **Unsubscribe** and click **Submit**.
+1. Set the _[!UICONTROL Action]_ control to **[!UICONTROL Unsubscribe]** and click **[!UICONTROL Submit]**.
 
    ![Unsubscribe newsletter](./assets/newsletter-unsubscribe.png)<!-- zoom -->
 
@@ -58,23 +58,23 @@ If you want to use a third-party service to send newsletters, you can export you
 
 ## Export the list of subscribers
 
-1. From the _Newsletter Subscribers_ list, use the filter controls to include only records with a _Status_ of `Subscribed` and for the appropriate website, store, or store view.
+1. From the _[!UICONTROL Newsletter Subscribers]_ list, use the filter controls to include only records with a _Status_ of `Subscribed` and for the appropriate website, store, or store view.
 
-1. Set the **Export to** control to one of the following:
+1. Set the **[!UICONTROL Export to]** control to one of the following:
 
    - `CSV`
    - `XML`
 
-1. Click **Export** and look for the prompt at the bottom of the screen and save the file.
+1. Click **[!UICONTROL Export]** and look for the prompt at the bottom of the screen and save the file.
 
    ![Export newsletter subscribers](./assets/newsletter-subscribers-export.png)<!-- zoom -->
 
-## Delete a subscriber from the Newsletter Subscribers list
+## Delete a subscriber from the subscribers list
 
-1. On the _Admin_ sidebar, go to **Marketing** > _Communications_ > **Newsletter Subscribers**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_ > **[!UICONTROL Newsletter Subscribers]**.
 
 1. Find the subscriber in the grid and select the checkbox in the first column.
 
-1. Set the _Action_ control to **Delete** and click **Submit**.
+1. Set the _[!UICONTROL Action]_ control to **[!UICONTROL Delete]** and click **[!UICONTROL Submit]**.
 
-1. When prompted to confirm, click **OK**.
+1. When prompted to confirm, click **[!UICONTROL OK]**.

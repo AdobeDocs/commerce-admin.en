@@ -1,26 +1,26 @@
 ---
 title: Visual Merchandiser overview
-description: <placeholder>
+description: Learn about the Visual Merchandiser tools that allow you to position products and determine which products appear in the category listing.
 ---
 # Visual Merchandiser
 
 {{ee-feature}}
 
-The _Visual Merchandiser_ is a set of advanced tools that allows you to position products and apply conditions that determine which products appear in the category listing. The result can be a dynamic selection of products that adjusts to changes in the catalog. You have the option to work in _visual mode_, which shows each product as a tile on a grid, or to work from a list of products in the category. The same tools are available in each mode and you can use the buttons in the upper-right corner to toggle between each type of display.
+The _Visual Merchandiser_ is a set of advanced tools that allows you to position products and apply conditions that determine which products appear in the category listing. The result can be a dynamic selection of products that adjusts to changes in the catalog. You can work in _visual mode_, which shows each product as a tile on a grid, or to work from a list of products in the category. The same tools are available in each mode and you can use the buttons in the upper-right corner to toggle between each type of display.
 
 ![Category products in tile view](./assets/category-products-visual-with-stock.png)<!-- zoom -->
 
 ## Access the Visual Merchandiser
 
-1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. Drill down through the category tree and click the category that you want to edit.
 
-1. Scroll down and expand ![Expansion selector](../assets/icon-display-expand.png) the **Products in Category** section.
+1. Scroll down and expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Products in Category]** section.
 
-1. Click the **View as Tiles** ( ![View as tiles](../assets/icon-view-tiles.png) ) button to display the products as a grid.
+1. Click the _View as Tiles_ ( ![View as tiles](../assets/icon-view-tiles.png) ) button to display the products as a grid.
 
-1. When complete, click **Save Category**.
+1. When complete, click **[!UICONTROL Save Category]**.
 
 ## Change the position of a product
 
@@ -34,7 +34,7 @@ The _Visual Merchandiser_ is a set of advanced tools that allows you to position
 
       In the _Position_ controller (![Position field](../assets/control-position.png)) on the product tile, enter the number where you want the product to appear. Enter `0` to place the product at the top of the list.
 
-1. When complete, click **Save Category**.
+1. When complete, click **[!UICONTROL Save Category]**.
 
 >[!NOTE]
 >
@@ -53,3 +53,5 @@ The _Visual Merchandiser_ is a set of advanced tools that allows you to position
 |![Remove from category icon](../assets/icon-delete-x.png)|Remove from category|
 |![Items per page control](../assets/control-items-per-page.png)|View per page|
 |![Change page display](../assets/control-page-display.png)|Go to next / previous|
+
+{style="table-layout:auto"}

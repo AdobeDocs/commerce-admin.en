@@ -1,6 +1,6 @@
 ---
 title: Google site tools
-description: <placeholder>
+description: Learn about the Google tools integrations that you can use to optimize your content, analyze your traffic, and connect your catalog to shopping aggregators and marketplaces.
 ---
 # Google site tools
 
@@ -18,17 +18,17 @@ Your store configuration is integrated with the following Google tools to help o
 
 ## Google privacy settings
 
-If your business is required to comply with privacy regulations such as the [GDPR](../getting-started/compliance-gdpr.md) or [CCPA](../getting-started/compliance-ccpa.md), the default settings of Google Analytics, or [Google Universal Analytics](google-universal-analytics.md) and [Google Tag Manager](google-tag-manager.md) (![Adobe Commerce](../assets/adobe-logo.svg) - Adobe Commerce only), can be changed to meet privacy requirements. Follow these steps to ensure that your use of customer data remains in compliance.
+If your business is required to comply with privacy regulations such as the [GDPR](../getting-started/compliance-gdpr.md) or [CCPA](../getting-started/compliance-ccpa.md), change the default settings of the Google tools to meet privacy requirements. Follow these steps to ensure that your use of customer data remains in compliance.
 
 ![Google Analytics - data sharing settings](./assets/google-data-sharing-settings.png)<!-- zoom -->
 
 ### Step 1: Update Google settings
 
-1. [Sign in][1]{: target="_blank"} to your company's **Google Analytics** account.
+1. [Sign in][1]{: target="_blank"} to your company's Google Analytics account.
 
-1. At the bottom of the left sidebar, choose **Admin**, and then navigate to the account that you want to edit (if applicable).
+1. At the bottom of the left sidebar, choose **[!UICONTROL Admin]**, and then navigate to the account that you want to edit (if applicable).
 
-1. In the **Account** column, click **Account Settings**.
+1. In the **[!UICONTROL Account]** column, click **[!UICONTROL Account Settings]**.
 
 1. Turn off data sharing in order to meet privacy regulation requirements.
 
@@ -43,18 +43,18 @@ If your business is required to comply with privacy regulations such as the [GDP
 
    The Google Ads Data Processing Terms describe how Google processes data, and the measures it takes to ensure data security for business that are subject to the GDPR. A record of your legal entities and contact information is also maintained with the amendment. To [learn more][2]{: target="_blank"}, click the link in the message at the top of the page.
 
-   - Scroll down the page to **Data Processing Amendment**.
-   - Click **Review Amendment** to read the **Google Ads Data Processing Terms**.
-   - Click **Accept**.
-   - Click **Save**.
+   - Scroll down the page to **[!UICONTROL Data Processing Amendment]**.
+   - Click **[!UICONTROL Review Amendment]** to read the _Google Ads Data Processing Terms_.
+   - Click **[!UICONTROL Accept]**.
+   - Click **[!UICONTROL Save]**.
 
-1. Complete the DPA Administration details.
+1. Complete the _DPA Administration_ details.
 
-   - Click **Manage DPA Details** to open a DPA administration page where you can edit contacts and your organization's legal entities.
+   - Click **[!UICONTROL Manage DPA Details]** to open a DPA administration page where you can edit contacts and your organization's legal entities.
 
-   - In the **Legal Entities** section, click the **Edit** ( ![Google edit icon](./assets/google-icon-edit.png) ) icon and add one or more registered name(s) for your organization. When complete, click **Save**.
+   - In the **[!UICONTROL Legal Entities]** section, click the _Edit_ ( ![Google edit icon](./assets/google-icon-edit.png) ) icon and add one or more registered names for your organization. When complete, click **[!UICONTROL Save]**.
 
-   - In the **Contacts** section, click the **Add** ( ![Google add icon](./assets/google-icon-add.png) ) icon and enter the information for the first contact. Next, select the checkbox of each applicable role and click **Add**.
+   - In the **Contacts** section, click the _Add_ ( ![Google add icon](./assets/google-icon-add.png) ) icon and enter the information for the first contact. Next, select the checkbox of each applicable role and click **[!UICONTROL Add]**.
 
       - Primary Contact - (Notification Email Address) The contact to whom notices are sent.
       - Data Protection Officer - (If applicable) The person who is designated to facilitate privacy regulation compliance.
@@ -68,22 +68,31 @@ Google supports three JavaScript libraries to measure website usage, depending o
 
 #### Anonymize IP addresses
 
-1. To anonymize the IP addresses used by **Google Universal Analytics**, add the following snippet to the `analytics.js` library on your web server:
+To anonymize the IP addresses used by **_Google Universal Analytics_**, add the following snippet to the `analytics.js` library on your web server:
 
    analytics.js
-    : `ga('set', 'anonymizeIp', true);`
 
-      To learn more, see the [Analytics.js Field Reference][3]{: target="_blank"}.
+   ```
+   : `ga('set', 'anonymizeIp', true);`
+   ```
 
-    If you use the legacy `ga.js` library, add the following snippet:
+   To learn more, see the [Analytics.js Field Reference][3]{: target="_blank"} in Google Help.
 
-    ga.js
-    : `ga('set', 'anonymizeIp', true);`
+   If you use the legacy `ga.js` library, add the following snippet:
+   
+   ga.js
+   
+   ```
+   : `ga('set', 'anonymizeIp', true);`
+   ```
 
-1. To anonymize the IP addresses used by **Google Tag Manager**, set the `anonymize_ip` parameter to `true` in the `gtag.js` library on your web server.
+To anonymize the IP addresses used by **_Google Tag Manager_**, set the `anonymize_ip` parameter to `true` in the `gtag.js` library on your web server.
 
    gtag.js
+
+   ```
    : `gtag('event', 'your_event', { 'anonymize_ip': true })`
+   ```
 
    To learn more, see [IP Anonymization in Analytics][4] in Google Help.
 
@@ -92,7 +101,10 @@ Google supports three JavaScript libraries to measure website usage, depending o
 To force all Google data to be transmitted over a secure socket layer (SSL), add the following snippet to the `analytics.js` library on your web server.
 
 analytics.js
+
+```
 : `ga('set', 'forceSSL', true);`
+```
 
 ### Step 3: Update your privacy policy
 
@@ -101,7 +113,7 @@ Update your [privacy policy](../getting-started/privacy-policy.md ) to state tha
 - Uses Google Analytics
 - Masks IP addresses to hide personal information
 - Has turned off Google Data Sharing
-- Does not use other Google services in conjunction with Google Analytics cookies
+- Does not use other Google services with Google Analytics cookies
 
 [1]: https://www.google.com/analytics/
 [2]: https://support.google.com/analytics/answer/3379636

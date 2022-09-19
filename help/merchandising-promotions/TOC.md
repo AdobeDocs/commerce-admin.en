@@ -11,14 +11,14 @@ hide: yes
 - [Introduction to merchandising and promotions](introduction.md)
 - [Marketing menu](marketing-menu.md)
 - Merchandising {#merchandising}
-  - Visual merchandiser {#visual-merch}
-    - [Visual merchandiser overview](visual-merchandiser.md)
+  - Visual Merchandiser {#visual-merch}
+    - [Visual Merchandiser overview](visual-merchandiser.md)
     - [Category rules for merchandising](category-product-rules.md)
     - [Configure smart attributes](smart-attributes-configure.md)
   - Gift registries {#gift-registry}
     - [Gift registry overview](gift-registries.md)
-    - [Gift registry setup](gift-registry-create.md)
     - [Configure gift registries](gift-registry-configure.md)
+    - [Gift registry setup](gift-registry-create.md)
     - [Add gift registry search](gift-registry-search.md)
     - [Gift registry storefront experience](gift-registry-storefront.md)
   - Reward points {#reward-points}
@@ -27,7 +27,8 @@ hide: yes
     - [Reward points in price rules](reward-points-price-rules.md)
     - [Reward points storefront experience](reward-points-storefront.md)
   - Product reviews {#product-reviews}
-    - [Enable product reviews](product-reviews.md)
+    - [Customer product reviews](product-reviews.md)
+    - [Moderate reviews](product-reviews-moderate.md)
 - Promotions {#promotions}
   - Private sales and events {#events}
     - [Events overview](events-private-sales.md)
@@ -62,12 +63,6 @@ hide: yes
   - Email reminders {#email-reminders}
     - [Enable email reminders](email-reminder-rules.md)
     - [Create email reminders](email-reminder-rules-create.md)
-- Google site tools {#google-tools}
-  - [Overview](google-tools.md)
-  - [Google Analytics](google-universal-analytics.md)
-  - [Google Tag Manager](google-tag-manager.md)
-  - [Google Adwords](google-adwords.md)
-  - [Google Content Experiments](google-content-experiments.md)
 - Search engine optimization {#seo}
   - [SEO overview and best practices](seo-overview.md)
   - [Meta data](meta-data.md)
@@ -79,3 +74,9 @@ hide: yes
     - [CMS page rewrites](url-rewrite-cms-page.md)
     - [Custom rewrites](url-rewrite-custom.md)
     - [Automatic redirects](url-redirect-product-automatic.md)
+- Google site tools {#google-tools}
+  - [Overview](google-tools.md)
+  - [Google Analytics](google-universal-analytics.md)
+  - [Google Tag Manager](google-tag-manager.md)
+  - [Google Adwords](google-adwords.md)
+  - [Google Content Experiments](google-content-experiments.md)
