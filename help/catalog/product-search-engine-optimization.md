@@ -4,7 +4,7 @@ description: For a product, the [!UICONTROL Search Engine Optimization] settings
 ---
 # Product settings - [!UICONTROL Search Engine Optimization]
 
-The _[!UICONTROL Search Engine Optimization]_ section specifies the [URL Key](catalog-urls.md) and [metadata](https://docs.magento.com/user-guide/marketing/meta-data.html) fields that are used by search engines to index the product. Although some search engines ignore meta keywords, other search engines continue to use them. The current [SEO best practice](https://docs.magento.com/user-guide/marketing/seo-best-practices.html) is to incorporate high-value keywords in both the meta title and meta description.
+The _[!UICONTROL Search Engine Optimization]_ section specifies the [URL Key](catalog-urls.md) and [metadata](https://docs.magento.com/user-guide/marketing/meta-data.html) fields that are used by search engines to index the product. Although some search engines ignore meta keywords, other search engines continue to use them. The current [SEO best practice](https://docs.magento.com/user-guide/marketing/seo-overview.html) is to incorporate high-value keywords in both the meta title and meta description.
 
 The default value for each metadata field can be auto-generated based on values specified in the configuration. Each field contains a placeholder that is replaced by an actual value. For more information, see [Default Field Values](https://docs.magento.com/user-guide/configuration/catalog/catalog.html).
 
