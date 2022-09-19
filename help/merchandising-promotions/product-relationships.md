@@ -8,15 +8,15 @@ Products in your catalog can be promoted on other pages by defining the nature o
 
 ## Related Products
 
-[Related Products](../catalog/settings-advanced-related-products.md) are meant to be purchased in addition to the item the customer is viewing. They complement, enhance, or add optional features to the product.
+[Related Products](../catalog/related-products-up-sells-cross-sells.md) are meant to be purchased in addition to the item the customer is viewing. They complement, enhance, or add optional features to the product.
 
 ## Up-sells
 
-[Up-sell products](../catalog/settings-advanced-up-sells.md) are items that are similar, but are perhaps of a higher-quality, more popular, or have a better profit margin than the item the customer is considering.
+[Up-sell products](../catalog/related-products-up-sells-cross-sells.md) are items that are similar, but are perhaps of a higher-quality, more popular, or have a better profit margin than the item the customer is considering.
 
 ## Cross-sells
 
-[Cross-sell products](../catalog/settings-advanced-cross-sells.md) are offered on the shopping cart page as last-minute purchases before the checkout process begins.
+[Cross-sell products](../catalog/related-products-up-sells-cross-sells.md) are offered on the shopping cart page as last-minute purchases before the checkout process begins.
 
 ## Related Product Rules
 
