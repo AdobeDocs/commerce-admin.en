@@ -4,7 +4,7 @@ description: <placeholder>
 ---
 # Reward exchange rates
 
-{{#ee-feature}}
+{{ee-feature}}
 
 Reward exchange rates determine the number of points that are earned based on the order amount, as well as the value of the points earned. Different exchange rates can be applied to different websites and different customer groups. If multiple exchange rates from different websites and customer groups apply to the same customer, the following rules of priority apply:
 

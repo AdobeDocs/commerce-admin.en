@@ -4,7 +4,7 @@ description: <placeholder>
 ---
 # Reward points storefront experience
 
-{{#ee-feature}}
+{{ee-feature}}
 
 The [Reward Points](rewards-loyalty.md) section of the customer account shows the current balance of reward points earned by the customer, and a history of their reward point balance.
 

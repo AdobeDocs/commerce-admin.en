@@ -4,7 +4,7 @@ description: <placeholder>
 ---
 # Related product rules
 
-{{#ee-feature}}
+{{ee-feature}}
 
 Related product rules give you the ability to target the selection of products that are presented to customers as related products, up-sells, and cross-sells. Each product rule can be associated with a [customer segment](https://docs.magento.com/user-guide/marketing/customer-segments.html) to produce a dynamic display of targeted merchandising.
 

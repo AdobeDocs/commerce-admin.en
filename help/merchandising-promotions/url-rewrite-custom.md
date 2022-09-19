@@ -67,7 +67,7 @@ Redirect from:
 
     ![URL rewrite information](./assets/url-rewrite-custom-add.png)<!-- zoom -->
 
-    {{#url-rewrite-params}}
+    {{url-rewrite-params}}
 
 1. Before saving the redirect, review the following:
 

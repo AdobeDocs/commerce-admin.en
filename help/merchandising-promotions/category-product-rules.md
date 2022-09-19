@@ -4,7 +4,7 @@ description: <placeholder>
 ---
 # Create category rules
 
-{{#ee-feature}}
+{{ee-feature}}
 
 Category rules dynamically change the product selection according to a set of conditions. Each category can have only one category rule, although the single rule can have multiple conditions. For example, you can create a category rule for a specific brand. Products of the same brand are automatically added to the list, even if they're not assigned to the same category. You can add as many conditions to the expression as needed to describe the products that you want to include.
 

@@ -4,7 +4,7 @@ description: <placeholder>
 ---
 # Cart price rule example - discount with first purchase
 
-{{#ee-feature}}
+{{ee-feature}}
 
 Cart price rules can be used to automatically offer a discount to customers on their first purchase, with no coupon needed.
 
@@ -151,7 +151,7 @@ The new rule is normally available within the hour. You should test the rule to 
 
 ## Step 3: Save and test the rule
 
-{{#new-price-rule}}
+{{new-price-rule}}
 
 1. When your rule is complete, click **Save Rule**.
 

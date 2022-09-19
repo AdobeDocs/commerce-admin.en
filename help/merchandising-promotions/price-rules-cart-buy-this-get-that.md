@@ -60,7 +60,7 @@ Complete [Step 4](price-rules-cart.md) of the cart price rule instructions to en
 
 ## Step 5: Save and test the rule
 
-{{#new-price-rule}}
+{{new-price-rule}}
 
 1. When your rule is complete, click **Save Rule**.
 

@@ -4,7 +4,7 @@ description: <placeholder>
 ---
 # Scheduled changes for cart price rules
 
-{{#ee-feature}}
+{{ee-feature}}
 
 Cart price rules can be applied on schedule as part of a campaign, and grouped with other content changes. You can create a new campaign based on scheduled changes to a price rule, or apply the changes to an existing campaign.
 

@@ -4,7 +4,7 @@ description: <placeholder>
 ---
 # Configure events
 
-{{#ee-feature}}
+{{ee-feature}}
 
 Before you can create an event, you must complete the basic configuration to enable events and set up the event block in the sidebar.
 

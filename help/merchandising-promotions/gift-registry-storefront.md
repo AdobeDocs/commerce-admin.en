@@ -4,7 +4,7 @@ description: <placeholder>
 ---
 # Gift registry storefront experience
 
-{{#ee-feature}}
+{{ee-feature}}
 
 The [Gift Registry](gift-registries.md) section of the customer account lists the customer's current gift registries and the associated event.  Customers can manage the current registries and add new ones.
 

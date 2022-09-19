@@ -4,7 +4,7 @@ description: <placeholder>
 ---
 # Event invitations
 
-{{#ee-feature}}
+{{ee-feature}}
 
 When invitations are enabled, customers can send and [view invitations](invitations-storefront.md) from the dashboard of their customer accounts. The invitation email includes a link to your store's customer login page.
 

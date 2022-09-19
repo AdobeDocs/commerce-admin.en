@@ -10,7 +10,7 @@ If [automatic redirects](url-redirect-product-automatic.md) are enabled for your
 
 ![URL rewrites - product](./assets/url-rewrite-product.png)<!-- zoom -->
 
-{{#url-rewrite-skip}}
+{{url-rewrite-skip}}
 
 ## Step 1. Plan the Rewrite
 
@@ -73,7 +73,7 @@ Redirect from: `overnight-duffle.html`
 
     ![Product URL rewrite - information](./assets/url-rewrite-product-permanent-301.png)<!-- zoom -->
 
-    {{#url-rewrite-params}}
+    {{url-rewrite-params}}
 
 1. Before saving the redirect, review the following:
 

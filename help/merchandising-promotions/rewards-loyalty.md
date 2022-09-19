@@ -4,7 +4,7 @@ description: <placeholder>
 ---
 # Reward and loyalty programs
 
-{{#ee-feature}}
+{{ee-feature}}
 
 The _reward points_ system in Adobe Commerce gives you the ability to implement unique programs that drive customer engagement and promote customer loyalty. Points can be awarded for a wide range of transaction and customer activities, and the configuration can be set to control the point allotment, balance, and expiration. Customers can redeem points toward purchases, based on the conversion rate that you establish between reward points and currency. A few examples:
 

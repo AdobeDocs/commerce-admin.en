@@ -4,7 +4,7 @@ description: <placeholder>
 ---
 # Google Tag Manager
 
-{{#ee-feature}}
+{{ee-feature}}
 
 Google Tag Manager helps you manage the many tags, or snippets of code, that are related to your marketing campaign events. Google Tag Manager gives you the ability to add tracking tags to your site to measure the audience, or to personalize, retarget, or conduct search engine marketing initiatives.
 
@@ -120,7 +120,7 @@ The following instructions show how to configure a new container with the basic 
 
     - Use the default values for the remaining fields.
 
-    {{#gtag-api-note}}
+    {{gtag-api-note}}
 
 1. When complete, click **Save Config**.
 

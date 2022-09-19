@@ -4,7 +4,7 @@ description: <placeholder>
 ---
 # Gift registry setup
 
-{{#ee-feature}}
+{{ee-feature}}
 
 A gift registry can be created for any type of event, such as a wedding, birthday, anniversary, new baby, or any other special occasion. By default, Adobe Commerce includes the following special events:
 

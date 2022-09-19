@@ -134,7 +134,7 @@ Most of the available conditions are based on existing attribute values. To appl
 
 ## Step 4: Add related dynamic blocks
 
-{{#ee-feature}}
+{{ee-feature}}
 
 [Dynamic blocks](../content-design/dynamic-blocks.md) that are associated with a catalog price rule appear in the storefront whenever the conditions are met. This is an optional step.
 
@@ -148,7 +148,7 @@ Most of the available conditions are based on existing attribute values. To appl
 
 ## Step 5: Schedule the rule
 
-{{#ee-feature}}
+{{ee-feature}}
 
 >[!NOTE]
 >
@@ -229,6 +229,6 @@ Specifies the conditions that must be met before the catalog price rule goes int
 
 ### Related Dynamic Blocks
 
-{{#ee-feature}}
+{{ee-feature}}
 
 Identifies any dynamic block(s) that are associated with the rule.

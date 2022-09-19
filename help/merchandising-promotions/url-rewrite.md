@@ -14,9 +14,9 @@ The terms _rewrite_ and _redirect_ are often used interchangeably, but refer to 
 
 By default, [automatic URL redirects](url-redirect-product-automatic.md) are enabled for your store and the **Create Permanent Redirect for old URL** checkbox is selected under the URL key field of each product.
 
-{{#url-rewrite-skip}}
+{{url-rewrite-skip}}
 
-{{#url-rewrite-params}}
+{{url-rewrite-params}}
 
 ![Search engine optimization - create permanent URL redirect](./assets/product-search-engine-optimization-create-permanent-redirect.png)<!-- zoom -->
 

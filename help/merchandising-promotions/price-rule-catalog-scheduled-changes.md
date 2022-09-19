@@ -4,7 +4,7 @@ description: <placeholder>
 ---
 # Scheduled changes for catalog price rules
 
-{{#ee-feature}}
+{{ee-feature}}
 
 The Scheduled Changes box appears at the top of the page when a new price rule is saved or updated. Catalog price rules can be applied on schedule as part of a campaign, and grouped with other content changes. You can create a new campaign based on scheduled changes to a price rule, or apply the changes to an existing campaign.
 

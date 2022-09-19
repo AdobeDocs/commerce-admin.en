@@ -14,7 +14,7 @@ Your store configuration is integrated with the following Google tools to help o
 
 - [Google AdWords](google-adwords.md) - Create a Google AdWords campaign and track conversions for your store.
 
-{{#gtag-api-note}}
+{{gtag-api-note}}
 
 ## Google privacy settings
 

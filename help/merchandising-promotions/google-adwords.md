@@ -72,7 +72,7 @@ Conversion tracking shows how many ad clicks lead to a sale or other valuable ac
 
    ![Sales configuration - Google Ads API](../configuration-reference/sales/assets/google-api-google-adwords.png)<!-- zoom -->
 
-   {{#gtag-api-note}}
+   {{gtag-api-note}}
 
 1. To format the Google Sites Stat notification, do the following:
 

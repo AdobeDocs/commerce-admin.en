@@ -4,7 +4,7 @@ description: <placeholder>
 ---
 # Gift registries
 
-{{#ee-feature}}
+{{ee-feature}}
 
 Adobe Commerce gives your customers the ability to create gift registries for special occasions, and to invite their friends and family to purchase their gifts from the gift registry. Adobe Commerce keeps track of all items purchased and the quantities remaining.
 

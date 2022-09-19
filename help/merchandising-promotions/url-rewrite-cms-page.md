@@ -59,7 +59,7 @@ Redirect from: old-page
 
     ![URL rewrite information](./assets/url-rewrite-cms-page-information.png)<!-- zoom -->
 
-    {{#url-rewrite-params}}
+    {{url-rewrite-params}}
 
 1. Before saving the redirect, review the following:
 

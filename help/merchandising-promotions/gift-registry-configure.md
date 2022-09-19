@@ -4,7 +4,7 @@ description: <placeholder>
 ---
 # Configure gift registries
 
-{{#ee-feature}}
+{{ee-feature}}
 
 Before you can offer gift registries to your customers, you must enable gift registries and configure the related email notifications. Adobe Commerce sends the following email notifications in response to events in the gift registry workflow.
 

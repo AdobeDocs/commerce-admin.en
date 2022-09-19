@@ -10,7 +10,7 @@ If [automatic redirects](url-redirect-product-automatic.md) are enabled for your
 
 ![Add URL rewrite for category](./assets/url-rewrite-for-category.png)<!-- zoom -->
 
-{{#url-rewrite-skip}}
+{{url-rewrite-skip}}
 
 ## Step 1. Plan the rewrite
 
@@ -60,7 +60,7 @@ If you are not sure, open each category page in your store, and copy the path fr
 
     ![Category URL rewrite - settings](./assets/url-rewrite-category-information.png)<!-- zoom -->
 
-   {{#url-rewrite-params}}
+   {{url-rewrite-params}}
 
 1. Before saving the redirect, review the following:
 

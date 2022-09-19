@@ -55,4 +55,4 @@ Before you begin, make sure that the [Storefront Properties](../catalog/attribut
 
 1. When your rule is complete, click **Save**.
 
-{{#new-price-rule}}
+{{new-price-rule}}

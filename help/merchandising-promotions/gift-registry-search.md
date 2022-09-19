@@ -5,7 +5,7 @@ description: <placeholder>
 ---
 # Add gift registry search
 
-{{#ee-feature}}
+{{ee-feature}}
 
 The [Widget](../content-design/widgets.md) tool can be used to place a gift registry search box most anywhere in your store. You can specify the search options to be available to customers, such as name, email address, and gift registry ID. When the customer clicks the Search button, the results appear on the Gift Registry Search page. If the search returns no results, the customer can try again with other parameters.
 

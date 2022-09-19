@@ -4,7 +4,7 @@ description: <placeholder>
 ---
 # Create and update events
 
-{{#ee-feature}}
+{{ee-feature}}
 
 Each event is associated with a category from your catalog, and only one event can be associated with any given category at a time. To display a list of upcoming events in your store, you must also set up a [Catalog Events Carousel](../content-design/widget-event-carousel.md) widget.
 

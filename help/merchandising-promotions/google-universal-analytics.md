@@ -46,7 +46,7 @@ Visit the Google website, and sign up for a [Google Universal Analytics][1] acco
 
 ## Google Analytics 4
 
-{{#gtag-api-note}}
+{{gtag-api-note}}
 
 ### Step 1: Set up Google Analytics 4
 

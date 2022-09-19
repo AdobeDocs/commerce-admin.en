@@ -4,7 +4,7 @@ description: <placeholder>
 ---
 # Configure smart attributes for Visual Merchandiser
 
-{{#ee-feature}}
+{{ee-feature}}
 
 The Visual Merchandiser configuration determines the attributes that can be used in the merchandising window and the minimum stock threshold. The configuration also identifies the attribute used for color and the order of color values.
 

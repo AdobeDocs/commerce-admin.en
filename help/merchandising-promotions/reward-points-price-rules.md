@@ -4,7 +4,7 @@ description: <placeholder>
 ---
 # Reward points in price rules
 
-{{#ee-feature}}
+{{ee-feature}}
 
 Reward points can be awarded to customers on the basis of a [cart price rule](price-rules-cart.md). The award of points can be the only action of the price rule, or can be used in combination with a discount.
 
