@@ -67,6 +67,7 @@ hide: yes
   - [Google Analytics](google-universal-analytics.md)
   - [Google Tag Manager](google-tag-manager.md)
   - [Google Adwords](google-adwords.md)
+  - [Google Content Experiments](google-content-experiments.md)
 - Search engine optimization {#seo}
   - [SEO overview and best practices](seo-overview.md)
   - [Meta data](meta-data.md)
