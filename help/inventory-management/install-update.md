@@ -98,7 +98,7 @@ When complete, the system provides a list of modules and values in `<Magento_ins
 ```
 ## Remove Inventory Management
 
-Inventory Management moudule can be remove through composer file. To remove all MSI module simply add the following into composer.json
+Inventory Management module can be remove through composer file. To remove all Inventory Managements modules, simply add the following into composer.json.
 
 ```
 "replace": {
