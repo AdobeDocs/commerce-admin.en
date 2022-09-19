@@ -52,7 +52,7 @@ If your business is required to comply with privacy regulations such as the [GDP
 
    - Click **Manage DPA Details** to open a DPA administration page where you can edit contacts and your organization's legal entities.
 
-   - In the **Legal Entities** section, click the **Edit** ( ![Google edit icon]({,/assets/google-icon-edit.png) ) icon and add one or more registered name(s) for your organization. When complete, click **Save**.
+   - In the **Legal Entities** section, click the **Edit** ( ![Google edit icon](./assets/google-icon-edit.png) ) icon and add one or more registered name(s) for your organization. When complete, click **Save**.
 
    - In the **Contacts** section, click the **Add** ( ![Google add icon](./assets/google-icon-add.png) ) icon and enter the information for the first contact. Next, select the checkbox of each applicable role and click **Add**.
 

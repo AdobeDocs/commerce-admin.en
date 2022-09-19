@@ -276,10 +276,10 @@ Watch this video to learn about creating cart price rules:
 |Field|Description|
 |--- |--- |
 |Rule Name|(Required) The name of the rule is for internal reference.|
-|Description|A description of the rule should include the purpose of the rule, and explain how it is used.
-|Active|(Required) Determines if the rule is currently active in the store. Options: Yes / No
-|Websites|(Required) Identifies the websites where the rule can be used.
-|Customer Groups|(Required) Identifies the customer groups to which the rule applies.
+|Description|A description of the rule should include the purpose of the rule, and explain how it is used.|
+|Active|(Required) Determines if the rule is currently active in the store. Options: Yes / No|
+|Websites|(Required) Identifies the websites where the rule can be used.|
+|Customer Groups|(Required) Identifies the customer groups to which the rule applies.|
 |Coupon|(Required) Indicates if a coupon is associated with the rule. Options: <br/>**No Coupon** - No coupon is associated with the rule. <br/>**Specific Coupon** - A specific coupon is associated with the rule. <br/>**Coupon Code** - When prompted, enter the Coupon Code that the customer must enter to take advantage of the promotion. <br/>**Use Auto Generation** - Select the checkbox to automatically generate multiple coupon codes that can be used with the promotion. <br/>**Auto** - Displays the Manage Coupon Codes section to define the format of the  coupon codes to be generated.|
 |Uses per Customer|Determines how many times the coupon code can be used by the same registered customer who belongs to any selected customer group. Does not apply to guest shoppers who are members of the NOT LOGGED IN customer group, or to customers who shop without logging in to their accounts. For no limit, leave blank.|
 |Priority|A number that indicates the priority of this rule in relation to others. The highest priority is number 1.|
@@ -299,7 +299,7 @@ Specifies the conditions that must be met before the cart price rule goes into a
 |Discount Amount|(Required) The amount of discount that is offered.|
 |Maximum Qty Discount is Applied To|Sets the maximum number of products that the discount can be applied to in the same purchase.|
 |Discount Qty Step (Buy X)|Sets the number of products represented by `X` in a `Buy X Get Y Free` promotion.|
-|Apply to Shipping Amount|Determines if the discount is applied separately to the subtotal and shipping amounts. Otherwise, it is applied only to the subtotal. Options: Yes / No
+|Apply to Shipping Amount|Determines if the discount is applied separately to the subtotal and shipping amounts. Otherwise, it is applied only to the subtotal. Options: Yes / No|
 |Discard Subsequent Rules|Determines if additional rules can be applied to this purchase. To prevent multiple discounts from being applied to the same purchase, select `Yes`.  Options: Yes / No|
 |Free Shipping| Determines if free shipping is included in the promotion, and if so, for which items. Options: <br/>**No** - Free shipping is not available when a coupon that is based on the rule is used. <br/>**For matching items only** - Free shipping is available only for specific items in the cart that match the rule. <br/>**For shipment with matching items** - Free shipping is available for the entire cart when a coupon that is based on the rule is used.|
 |Add Reward Points|![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Specifies the number of [reward points](rewards-loyalty.md) that are earned by the customer whenever the price rule is applied.|

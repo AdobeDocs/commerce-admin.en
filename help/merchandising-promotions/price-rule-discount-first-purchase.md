@@ -133,7 +133,7 @@ Your customer segment is created and displayed in the Customer Segment list.
 
 1. Scroll down and expand ![Expansion selector](../assets/icon-display-expand.png)the **Actions** section and define the actions for the rule.
 
-   In this section, you define the type of discount and value/amount of the discount you want to apply for first-time customers. This example defines a 10% discount for all customers who meet the defined condition. For information on other available options, see [Creating a Cart Price Rule](price-rules-cart-create.md %}).
+   In this section, you define the type of discount and value/amount of the discount you want to apply for first-time customers. This example defines a 10% discount for all customers who meet the defined condition. For information on other available options, see [Creating a Cart Price Rule](price-rules-cart-create.md).
 
    - For **Apply**, select Percent of product price discount.
 

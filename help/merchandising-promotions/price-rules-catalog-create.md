@@ -206,7 +206,7 @@ Watch this video to learn about creating catalog price rules:
 
 |Field|Description|
 |-----|-----------|
-|Rule name|(Required) The name of the rule is for internal reference.
+|Rule name|(Required) The name of the rule is for internal reference.|
 |Description|A description of the rule should include the purpose of the rule and explain how it is used.|
 |Websites|(Required) Identifies the websites where the rule can be used.|
 |Customer Groups|(Required) Identifies the customer groups to which the rule applies.|

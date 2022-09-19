@@ -77,8 +77,6 @@ If you do not already have a Google Analytics 4 setup for your site, follow one 
 
    ![Sales configuration - Google API for Google Analytics 4](../configuration-reference/sales/assets/google-api-gtag-google-analytics4.png)<!-- zoom -->
 
-   [_Google API - GTag - Google Analytics4_](../configuration-reference/sales/google-api.md %})
-
 1. When complete, click **Save Config**.
 
 ## Enhanced Ecommerce

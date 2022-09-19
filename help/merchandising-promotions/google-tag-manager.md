@@ -134,17 +134,17 @@ The following instructions show how to configure a new container with the basic 
 
 1. To copy the GTM code, go to **Admin** > **Install Google Tag Manager**.
 
-   There are two GTM code snippets to be added to your Commerce site: the first one for the <head> tag and the and the second for the <body> tag.
+   There are two GTM code snippets to be added to your Commerce site: the first one for the `<head>` tag and the and the second for the `<body>` tag.
 
     ![Install Google Tag Manager](./assets/install-google-tag-manager.png)<!-- zoom -->
 
 1. In the Commerce Admin, go to **Content** > _Design_ > **Configuration** and open the store view in edit mode.
 
-1. Under _Other Settings_, expand **HTML Head** and paste the code you copied from GTM for the <head> tag in the **Scripts and Style Sheets** field.
+1. Under _Other Settings_, expand **HTML Head** and paste the code you copied from GTM for the `<head>` tag in the **Scripts and Style Sheets** field.
 
     ![Inserting code in the HTML Head](./assets/head-tag.png)<!-- zoom -->
 
-1. Expand **Footer** and paste the GTM code for <body> in the **Miscellaneous HTML** field.
+1. Expand **Footer** and paste the GTM code for `<body>` in the **Miscellaneous HTML** field.
 
     ![Inserting code in the Footer](./assets/footer-tag-section.png)<!-- zoom -->
 

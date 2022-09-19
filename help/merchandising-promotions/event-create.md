@@ -97,7 +97,7 @@ Events can be edited from either the Events page or from the category that is as
 |Button|Description|
 |--- |--- |
 |**Back**|Returns to the Events page without saving the new event or changes in an existing event.|
-|**Delete**|Deletes the event.
+|**Delete**|Deletes the event.|
 |**Reset**|Clears the form of any unsaved changes and restores the original event information.|
 |**Save and Continue Edit**|Saves all changes and keeps the form open in edit mode.|
 |**Save**|Saves changes, closes the form, and returns to the Events page.|
