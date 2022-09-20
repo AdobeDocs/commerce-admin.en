@@ -96,9 +96,14 @@ When complete, the system provides a list of modules and values in `<Magento_ins
    'Magento_InventoryAdvancedCheckout' => 0,
    ...
 ```
+
+>[!IMPORTANT]
+>
+>If you have the OMS Connector modules installed, make sure that you do not disable the `Magento_InventoryMessageBus` module, which is a Connector module. It is required to use the Connector with OMS.
+
 ## Remove Inventory Management
 
-Inventory Management module can be remove through composer file. To remove all Inventory Managements modules, simply add the following into composer.json.
+If you choose not to use the Inventory Management functionality, you can remove (uninstall) these modules to improve performance. To remove all the modules through the composer file, add the following to `composer.json`.
 
 ```
 "replace": {
@@ -151,10 +156,8 @@ Inventory Management module can be remove through composer file. To remove all I
         "magento/module-inventory-source-selection-api": "*"
     }
 ```
-once done, run composer install. It will automatically remove the above MSI modules.
->[!IMPORTANT]
->
->If you have the OMS Connector modules installed, make sure that you do not disable the `Magento_InventoryMessageBus` module, which is a Connector module. It is required to use the Connector with OMS.
+
+When this change is complete, run composer install and it automatically removes these Inventory Management modules.
 
 ## Upgrade Inventory Management
 
