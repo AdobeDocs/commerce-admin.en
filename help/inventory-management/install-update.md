@@ -1,5 +1,5 @@
 ---
-title: Install and Update Inventory Management
+title: Install, Update and Remove Inventory Management
 description: Learn how to manage the installed [!DNL Inventory Management] metapackage.
 exl-id: d088ff35-c0e1-41c8-89fb-78180eaefbf7
 ---
@@ -96,7 +96,62 @@ When complete, the system provides a list of modules and values in `<Magento_ins
    'Magento_InventoryAdvancedCheckout' => 0,
    ...
 ```
+## Remove Inventory Management
 
+Inventory Management module can be remove through composer file. To remove all Inventory Managements modules, simply add the following into composer.json.
+
+```
+"replace": {
+        "magento/module-inventory": "*",
+        "magento/module-inventory-admin-ui": "*",
+        "magento/module-inventory-advanced-checkout": "*",
+        "magento/module-inventory-api": "*",
+        "magento/module-inventory-bundle-product": "*",
+        "magento/module-inventory-bundle-product-admin-ui": "*",
+        "magento/module-inventory-cache": "*",
+        "magento/module-inventory-catalog": "*",
+        "magento/module-inventory-catalog-admin-ui": "*",
+        "magento/module-inventory-catalog-api": "*",
+        "magento/module-inventory-catalog-search": "*",
+        "magento/module-inventory-configurable-product": "*",
+        "magento/module-inventory-configurable-product-admin-ui": "*",
+        "magento/module-inventory-configurable-product-indexer": "*",
+        "magento/module-inventory-configuration": "*",
+        "magento/module-inventory-configuration-api": "*",
+        "magento/module-inventory-distance-based-source-selection": "*",
+        "magento/module-inventory-distance-based-source-selection-admin-ui": "*",
+        "magento/module-inventory-distance-based-source-selection-api": "*",
+        "magento/module-inventory-export-stock": "*",
+        "magento/module-inventory-export-stock-api": "*",
+        "magento/module-inventory-elasticsearch": "*",
+        "magento/module-inventory-graph-ql": "*",
+        "magento/module-inventory-grouped-product": "*",
+        "magento/module-inventory-grouped-product-admin-ui": "*",
+        "magento/module-inventory-grouped-product-indexer": "*",
+        "magento/module-inventory-import-export": "*",
+        "magento/module-inventory-indexer": "*",
+        "magento/module-inventory-low-quantity-notification": "*",
+        "magento/module-inventory-low-quantity-notification-admin-ui": "*",
+        "magento/module-inventory-low-quantity-notification-api": "*",
+        "magento/module-inventory-multi-dimensional-indexer-api": "*",
+        "magento/module-inventory-product-alert": "*",
+        "magento/module-inventory-requisition-list": "*",
+        "magento/module-inventory-reservations": "*",
+        "magento/module-inventory-reservations-api": "*",
+        "magento/module-inventory-reservation-cli": "*",
+        "magento/module-inventory-sales": "*",
+        "magento/module-inventory-sales-admin-ui": "*",
+        "magento/module-inventory-sales-api": "*",
+        "magento/module-inventory-sales-frontend-ui": "*",
+        "magento/module-inventory-setup-fixture-generator": "*",
+        "magento/module-inventory-shipping": "*",
+        "magento/module-inventory-shipping-admin-ui": "*",
+        "magento/module-inventory-source-deduction-api": "*",
+        "magento/module-inventory-source-selection": "*",
+        "magento/module-inventory-source-selection-api": "*"
+    }
+```
+once done, run composer install. It will automatically remove the above MSI modules.
 >[!IMPORTANT]
 >
 >If you have the OMS Connector modules installed, make sure that you do not disable the `Magento_InventoryMessageBus` module, which is a Connector module. It is required to use the Connector with OMS.
