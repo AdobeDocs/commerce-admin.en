@@ -251,14 +251,18 @@ Scroll down and complete the information in the following sections as needed:
 
 {style="table-layout:auto"}
 
-## Bundle product Stock Status
+## Bundle product stock status
 
-Bundle product Stock Status is automatically changed to **_Out of Stock_** if either:
+Bundle product stock status is **_automatically changed to Out of Stock_** when either of these scenarios occurs:
+
 - All options are optional and all associated products are _Out of Stock_.
-- Some options are required and all products, which are associated to any required option, are _Out of Stock_.
 
-Bundle Product Stock Status is **_not_** automatically changed to **Out of Stock** if either:
+- Some options are required and products that are associated to any required options are _Out of Stock_.
+
+Bundle product stock status is **_not automatically changed to Out of Stock_** when either of these scenarios occurs:
+
 - All options are optional and at least one associated product is _In Stock_.
+
 - Some options are required and at least one associated product in each required option is _In Stock_.
 
 ## Things to remember
