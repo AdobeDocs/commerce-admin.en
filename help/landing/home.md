@@ -113,6 +113,7 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 
 | Description | Type | Date |
 | ----------- | ---- | ---- |
+| **New page section** - Added information about [removal of the Inventory Management modules](../inventory-management/install-update.md#remove-inventory-management) to improve performance for Commerce instances that do not use these features.|
 | **2.4.5 release** - Updated information in [Secure Your Commerce Account](../getting-started/commerce-account-secure.md) for authentication workflow and two-factor authentication introduced with Adobe IMS requirement for Commerce accounts. | Update | 8/11/2022 |
 | **2.4.5 release** - Updated information in [Access Your Commerce Account](../getting-started/commerce-account-create.md) to reflect the Adobe ID requirement to access their Commerce account (accounts.magento.com). | Update | 8/11/2022 |
 | **2.4.5 release** - Added release notes for the [B2B v1.3.4](../b2b/release-notes.md#b2b-v134), [Inventory Management v1.2.5](../inventory-management/release-notes.md#v125), and [Page Builder](../page-builder/release-notes.md#172-for-commerce-245) modules. | New | 8/9/2022 |
