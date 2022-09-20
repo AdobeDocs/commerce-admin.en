@@ -1,9 +1,9 @@
 ---
-title: Install, Update and Remove Inventory Management
+title: Install, Update, and Remove Inventory Management
 description: Learn how to manage the installed [!DNL Inventory Management] metapackage.
 exl-id: d088ff35-c0e1-41c8-89fb-78180eaefbf7
 ---
-# Install and Update Inventory Management
+# Install, Update, and Remove Inventory Management
 
 [!DNL Inventory Management] modules provide all inventory features and options for single- and multi-source merchants to manage product quantities and stock for sales channels. These features are available in 2.4.x releases of Adobe Commerce and Magento Open Source.
 
