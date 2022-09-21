@@ -251,6 +251,20 @@ Scroll down and complete the information in the following sections as needed:
 
 {style="table-layout:auto"}
 
+## Bundle product stock status
+
+Bundle product stock status is **_automatically changed to Out of Stock_** when either of these scenarios occurs:
+
+- All options are optional and all associated products are _Out of Stock_.
+
+- Some options are required and products that are associated to any required options are _Out of Stock_.
+
+Bundle product stock status is **_not automatically changed to Out of Stock_** when either of these scenarios occurs:
+
+- All options are optional and at least one associated product is _In Stock_.
+
+- Some options are required and at least one associated product in each required option is _In Stock_.
+
 ## Things to remember
 
 ![Checkbox](../assets/checkbox.png) Customers can _build their own_ bundle product.

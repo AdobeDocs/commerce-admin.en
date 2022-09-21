@@ -16,7 +16,7 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 
 - **Magento Open Source** is a self-hosted eCommerce platform with essential commerce features available free of charge. It offers you a stable and customizable solution for your growing small business or as a tool to prototype new ideas and business models for larger merchants.
 
-- **Adobe Commerce** is an enterprise-level eCommerce platform that provides a richer set of out-of-the-box features, with an unlimited ability to customize and seamlessly integrate with third-party providers. Robust and scalable, Adobe Commerce offers you a stable, secure, and customizable solution for your growing business. Adobe Commerce includes one of our cloud infrastructure options as well as 24/7 customer support. It is designed to allow you to sell multiple brands, geographies, currencies as well as to both B2C and B2B buyers from a single platform. For a list of the advanced capabilities included with Adobe Commerce, see Commerce features in our developer documentation.
+- **Adobe Commerce** is an enterprise-level eCommerce platform that provides a richer set of out-of-the-box features, with an unlimited ability to customize and seamlessly integrate with third-party providers. Robust and scalable, Adobe Commerce offers you a stable, secure, and customizable solution for your growing business. Adobe Commerce includes one of our cloud infrastructure options and 24/7 customer support. It is designed to allow you to sell multiple brands, geographies, currencies for both B2C and B2B buyers from a single platform. For a list of the advanced capabilities included with Adobe Commerce, see Commerce features in our developer documentation.
 
 ## Merchant guides
 
@@ -43,7 +43,7 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
   <td valign="top">
     <img alt="Catalog Management" src="./assets/icon-shop.svg" width="40" height="40"/></td>
    <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/catalog/guide-overview.html"><strong>Catalog Management</strong></a>
-    <div><em>One of the most important areas in creating and managing your store is the product catalog and categories. The Admin provides a number of tools for the initial setup for your store and product catalog.</em>
+    <div><em>One of the most important areas in creating and managing your store is the product catalog and categories. The Admin provides many tools for the initial setup for your store and product catalog.</em>
     <br></div>
   </td>
     </tr>
@@ -58,7 +58,7 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
     <td valign="top">
        <img alt="Merchandising and Promotions" src="./assets/icon-labels.svg" width="40" height="40"/></td>
    <td valign="top"><a href="https://docs.magento.com/user-guide/marketing/promotions.html"> <strong>Merchandising and Promotions</strong></a>
-    <div><em>Use category-based navigation as the floor plan of the store, and the dynamic presentation of products as conditions that you can apply to product listings. Set up product relationships and use price rules to trigger discounts based on a variety of conditions.</em></div>
+    <div><em>Use category-based navigation as the floor plan of the store, and the dynamic presentation of products as conditions that you can apply to product listings. Set up product relationships and use price rules to trigger discounts based on various conditions.</em></div>
   </td>
 </tr>
 <tr>
@@ -113,7 +113,8 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 
 | Description | Type | Date |
 | ----------- | ---- | ---- |
-| **2.4.5 release** - Updated information in [Secure Your Commerce Account](../getting-started/commerce-account-secure.md) for authentication workflow and two-factor authentication introduced with Adobe IMS requirement for Commerce accounts. | Update | 8/11/2022 |
+| **New page section** - Added information about [removal of the Inventory Management modules](../inventory-management/install-update.md#remove-inventory-management) to improve performance for Commerce instances that do not use these features. | Update | 9/21/2022 |
+| **2.4.5 release** - Updated information in [Secure Your Commerce Account](../getting-started/commerce-account-secure.md) for authentication workflow and two-factor authentication introduced with Adobe Identity Management System requirement for Commerce accounts. | Update | 8/11/2022 |
 | **2.4.5 release** - Updated information in [Access Your Commerce Account](../getting-started/commerce-account-create.md) to reflect the Adobe ID requirement to access their Commerce account (accounts.magento.com). | Update | 8/11/2022 |
 | **2.4.5 release** - Added release notes for the [B2B v1.3.4](../b2b/release-notes.md#b2b-v134), [Inventory Management v1.2.5](../inventory-management/release-notes.md#v125), and [Page Builder](../page-builder/release-notes.md#172-for-commerce-245) modules. | New | 8/9/2022 |
 | **2.4.5 release** - Added new topics for Adobe Identity Management System integration in the Commerce Admin: [Adobe Identity Management Service (IMS) Integration Overview](../getting-started/adobe-ims-integration-overview.md) and [Configure the Commerce Admin Integration with Adobe IMS](../getting-started/adobe-ims-config.md). | New | 8/9/2022 |

@@ -32,7 +32,8 @@ Reservations place a salable quantity hold for product SKUs per stock. When you 
 
 Reservation inconsistencies can occur when:
 
-- [!DNL Inventory Management] loses the initial reservation and enters too many reservation compensations (overcompensating and leading to inconsistent amounts)- [!DNL Inventory Management] correctly places the initial reservation, but loses compensatory reservations.
+- [!DNL Inventory Management] loses the initial reservation and enters too many reservation compensations (overcompensating and leading to inconsistent amounts)
+- [!DNL Inventory Management] correctly places the initial reservation, but loses compensatory reservations.
 
 You can manually review and check reservations in the `inventory_reservation` table.
 
