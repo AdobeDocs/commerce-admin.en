@@ -54,7 +54,7 @@ Events can be edited from either the Events page or from the category that is as
 
 1. When complete, click **[!UICONTROL Save]**.
 
-## Method 2: Edit an event from a category
+### Method 2: Edit an event from a category
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
@@ -76,9 +76,7 @@ Events can be edited from either the Events page or from the category that is as
 
 1. To confirm the action click **[!UICONTROL OK]**.
 
-## Fields and buttons
-
-### Field descriptions
+## Field descriptions
 
 |Field|[Scope](../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -92,7 +90,7 @@ Events can be edited from either the Events page or from the category that is as
 
 {style="table-layout:auto"}
 
-### Button bar
+## Button bar
 
 |Button|Description|
 |--- |--- |

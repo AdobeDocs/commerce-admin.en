@@ -64,7 +64,7 @@ You can create as many newsletter templates as you need for different purposes. 
 
 1. To save the HTML version, click **[!UICONTROL Save Template]**.
 
-## Delete Newsletter Template
+## Delete a newsletter template
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_ > **[!UICONTROL Newsletter Template]**.
 

@@ -205,7 +205,7 @@ Your site map should be updated as frequently as the content on your site change
 
    The default size is 10,485,760 bytes.
 
-## Step 4. Set the search engine submission settings
+### Step 4. Set the search engine submission settings
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Search Engine Submission Settings]** section.
 

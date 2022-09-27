@@ -48,7 +48,7 @@ To manage the load on the server, newsletters with many subscribers are sent in 
 
 On the _Admin_ menu, go to **[!UICONTROL Reports]** > _[!UICONTROL Marketing]_ > **[!UICONTROL Newsletter Problem Reports]**.
 
-### Button bar
+## Button bar
 
 |Button|Description|
 |--- |--- |

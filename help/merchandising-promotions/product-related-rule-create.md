@@ -52,7 +52,7 @@ The process of creating a related product rule is similar to setting up a price 
 
 1. When complete, click **[!UICONTROL Save]**.
 
-## Delete a Related Product Rule
+## Delete a related product rule
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_ > **[!UICONTROL Related Product Rules]**.
 
