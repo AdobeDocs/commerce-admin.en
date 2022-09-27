@@ -13,15 +13,15 @@ By default, all images, compiled CSS files, and compiled JavaScript files of the
 
 ## Database workflow
 
-1. **Browser requests media** - A page from the store opens in the customer’s browser, and the browser requests the media that is specified in the HTML.
+1. **Browser requests media** - A page from the store opens in the customer's browser, and the browser requests the media that is specified in the HTML.
 
 1. **System looks for media in file system** - The system searches for the media in the file system and if found, passes it to the browser.
 
 1. **System locates media in database** - If the media is not found in the file system, a request for the media is sent to the database that is specified in the configuration.
 
-1. **System locates media in database** - A PHP script transfers the files from the database to the file system, and sent to the customer’s browser. The browser request for media triggers the script to run as follows:
+1. **System locates media in database** - A PHP script transfers the files from the database to the file system, and sent to the customer's browser. The browser request for media triggers the script to run as follows:
 
-    - If web server [rewrites](https://docs.magento.com/user-guide/marketing/url-rewrite.html) are enabled for [!DNL Commerce] and supported by the server, the PHP script runs only when the requested media is not found in the file system.
+    - If web server [rewrites](../merchandising-promotions/url-rewrite.md) are enabled for [!DNL Commerce] and supported by the server, the PHP script runs only when the requested media is not found in the file system.
     - If web server rewrites are disabled for [!DNL Commerce], or not supported by the server, the PHP script runs anyway, even if the required media is available in the file system.
 
 ## Use a database for media storage

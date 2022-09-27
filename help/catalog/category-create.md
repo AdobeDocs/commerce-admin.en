@@ -132,7 +132,7 @@ Also define any associated keywords and attributes, such as:
    
    For more information about these options, see [Search engine optimization](categories-search-engine-optimization.md).
 
-1. Complete the following [meta data](https://docs.magento.com/user-guide/marketing/meta-data.html) for the category:
+1. Complete the following [meta data](../merchandising-promotions/meta-data.md) for the category:
 
    - [!UICONTROL Meta Title]
    - [!UICONTROL Meta Keywords]

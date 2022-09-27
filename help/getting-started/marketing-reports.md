@@ -17,7 +17,7 @@ The [!UICONTROL Products in Cart] report provides a list of all products current
 
 ![Search Terms Report](./assets/search-terms.png)<!-- zoom -->
 
-The [Search Terms Report](https://docs.magento.com/user-guide/marketing/search-terms-report.html) shows what your customers are looking for in each store view. The report includes the number of matching items found in the catalog, and how many times the search term has been used.
+The [Search Terms Report](../catalog/search-terms.md#search-terms-report) shows what your customers are looking for in each store view. The report includes the number of matching items found in the catalog, and how many times the search term has been used.
 
 ## Abandoned Carts
 

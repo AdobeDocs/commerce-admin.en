@@ -76,7 +76,7 @@ The options for each widget type vary slightly, but the process is essentially t
 
    - Set **[!UICONTROL Condition]** to the category of products to be featured.
 
-      The process is the same as setting a condition for a [price rule](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html).
+      The process is the same as setting a condition for a [price rule](../merchandising-promotions/price-rules-catalog.md).
 
    ![Widget options](./assets/widget-options-new-product-list.png)<!-- zoom -->
 

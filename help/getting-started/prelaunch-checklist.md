@@ -17,7 +17,7 @@ After you complete the design, development, and testing of your store, check the
 
 - [Email Templates](https://docs.magento.com/user-guide/marketing/email-templates.html) - Update the default email templates to reflect your brand. Make sure to update the configuration if you create templates.
 - [Sales Communications](https://docs.magento.com/user-guide/marketing/sales-communications.html) - Make sure that your invoices and packing slips include the correct business information and reflect your brand.
-- [Google Tools](https://docs.magento.com/user-guide/marketing/google-tools.html) - [!DNL Commerce] provides integration with Google API to allow your business to use Google Analytics and Google AdWords.
+- [Google Tools](../merchandising-promotions/google-tools.md) - [!DNL Commerce] provides integration with Google API to allow your business to use Google Analytics and Google AdWords.
 
 ## Sales settings
 

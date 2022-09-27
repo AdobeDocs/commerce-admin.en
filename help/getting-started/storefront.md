@@ -68,7 +68,7 @@ Checkout process consists of two steps:
 
    >[!NOTE]
    >
-   >Although [!DNL Commerce] allows configuring multiple coupon codes, a customer may apply only one coupon code to the cart. (See the [Coupon Codes](https://docs.magento.com/user-guide/marketing/price-rules-cart-coupon.html) for more information.)
+   >Although [!DNL Commerce] allows configuring multiple coupon codes, a customer may apply only one coupon code to the cart. (See the [Coupon codes](../merchandising-promotions/price-rules-cart-coupon.md#coupon-codes) for more information.)
 
    ![Example storefront checkout page](./assets/storefront-checkout-payment-full.png)<!-- zoom -->
 

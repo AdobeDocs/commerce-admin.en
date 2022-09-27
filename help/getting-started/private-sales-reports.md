@@ -13,7 +13,7 @@ On the _Admin_ sidebar, go to **[!UICONTROL Reports]** > _[!UICONTROL Private Sa
 
 ![Invitations Report](./assets/private-sales-invitations.png)<!-- zoom -->
 
-The [Invitations Report](https://docs.magento.com/user-guide/marketing/invitations.html) shows the number of invitations sent during the specified time period, and the number accepted, and discarded.
+The [Invitations report](../merchandising-promotions/invitations.md) shows the number of invitations sent during the specified time period, and the number accepted, and discarded.
 
 ## Invited Customers
 

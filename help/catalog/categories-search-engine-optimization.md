@@ -4,7 +4,7 @@ description: Learn about using the [!UICONTROL Search Engine Optimization] setti
 ---
 # Categories - Search Engine Optimization settings
 
-The _[!UICONTROL Search Engine Optimization]_ section specifies the [URL Key](catalog-urls.md) and [metadata](https://docs.magento.com/user-guide/marketing/meta-data.html) fields that are used by search engines to index the category. Although some search engines ignore meta keywords, others continue to use them. The current SEO best practice is to incorporate high-value keywords in both the meta title and meta description.
+The _[!UICONTROL Search Engine Optimization]_ section specifies the [URL Key](catalog-urls.md) and [meta data](../merchandising-promotions/meta-data.md) fields that are used by search engines to index the category. Although some search engines ignore meta keywords, others continue to use them. The current SEO best practice is to incorporate high-value keywords in both the meta title and meta description.
 
 ![Search Engine Optimization](./assets/categories-search-engine-optimization.png)<!-- zoom -->
 

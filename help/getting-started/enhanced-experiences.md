@@ -17,15 +17,15 @@ In addition to the standard elements that enable customers to make purchases in 
 
 Adobe Commerce and Magento Open Source are packed with features that make it easy to create _search-engine-friendly_ websites and increase the likelihood of bringing the right customers to your site.
 
-- Search Engine Optimization - [!DNL Commerce] offers powerful, native capabilities to streamline [Search Engine Optimization (SEO)](https://docs.magento.com/user-guide/marketing/seo-search.html) practices for content and site exposure that are integrated with the Admin, and tied directly into the user experience.
+- Search Engine Optimization - [!DNL Commerce] offers powerful, native capabilities to streamline [Search Engine Optimization (SEO)](../merchandising-promotions/seo-overview.md) practices for content and site exposure that are integrated with the Admin, and tied directly into the user experience.
 
 - Custom URLs - Specify [custom URLs](https://docs.magento.com/user-guide/stores/store-urls.html) to make them short, clean, and easy to remember. You can also autogenerate search-friendly URLs to streamline your purchase path.
 
-- Meta Data - Improve your search engine rankings by choosing specific criteria that help search engines to find and index your products more easily. You can enter [meta data](https://docs.magento.com/user-guide/marketing/meta-data.html) for product, category, and content pages.
+- Meta Data - Improve your search engine rankings by choosing specific criteria that help search engines to find and index your products more easily. You can enter [meta data](../merchandising-promotions/meta-data.md) for product, category, and content pages.
 
-- Sitemap - Link to a [sitemap](https://docs.magento.com/user-guide/marketing/sitemap-xml.html) from the footer of your store to give customers an overview of the catalog structure, with links to all categories and products in the store. Easy integration with Google Sitemap.
+- Sitemap - Link to a [sitemap](../merchandising-promotions/sitemap-xml.md) from the footer of your store to give customers an overview of the catalog structure, with links to all categories and products in the store. Easy integration with Google Sitemap.
 
-- Analytics - In addition to monitoring your site from the Admin dashboard, you can integrate third-party analytics tools such as [Google Analytics](https://docs.magento.com/user-guide/marketing/google-universal-analytics.html) and [New Relic Reporting](new-relic-reporting.md) for detailed statistics on traffic and sales.
+- Analytics - In addition to monitoring your site from the Admin dashboard, you can integrate third-party analytics tools such as [Google Analytics](../merchandising-promotions/google-universal-analytics.md) and [New Relic Reporting](new-relic-reporting.md) for detailed statistics on traffic and sales.
 
 ## Engage Your Customers
 
@@ -41,7 +41,7 @@ Adobe Commerce and Magento Open Source make it easy to create a customized, enga
 
 - Shopping Tools - Your store includes a set of [shopping tools](https://docs.magento.com/user-guide/ marketing/shopping-tools.html) that create opportunities for your customers to interact with your store, connect on social media, and share with friends.
 
-- Sophisticated Search - [Filter product](https://docs.magento.com/user-guide/marketing/seo-search.html) by price, manufacturer, or any other criteria to reduce the time to purchase.
+- Sophisticated Search - [Filter product](../catalog/search.md) by price, manufacturer, or any other criteria to reduce the time to purchase.
 
 ## Differentiate and Personalize
 
@@ -51,7 +51,7 @@ Adobe Commerce and Magento Open Source offer a rich set of tools to create perso
 
 - Targeted Segmentation - Optimize your marketing initiatives with dynamic content, promotions, and banner [based on properties](https://docs.magento.com/user-guide/marketing/customer-segments.html) such as customer address, order history, and shopping cart contents.
 
-- Smart Shopping Rules - Customize the shopping experience with price rules and [promotions](https://docs.magento.com/user-guide/marketing/promotions.html) that trigger at the product or shopping cart level.
+- Smart Shopping Rules - Customize the shopping experience with price rules and [promotions](../merchandising-promotions/introduction.md#promotions) that trigger at the product or shopping cart level.
 
 - Customer Groups - Offer different products and pricing according to [customer group](https://docs.magento.com/user-guide/customers/customer-groups.html) or [shared catalog](../b2b/catalog-shared.md). Determine which discounts are available and the tax class that applies to the order.
 
@@ -59,15 +59,15 @@ Adobe Commerce and Magento Open Source offer a rich set of tools to create perso
 
 Adobe Commerce and Magento Open Source provide a range of tools to help you tailor the shopping experience, and encourage your customers to put more items in their shopping carts and spend more money.
 
-- Targeted Promotions - Use catalog and shopping cart price rules to create [promotions](https://docs.magento.com/user-guide/marketing/promotions.html) that kick into gear when a set of conditions is met. In Adobe Commerce, segment customers dynamically and build segments based on specific characteristics such as customer address, order history, shopping cart content, and much more. Then, use [[!DNL Page Builder]](../page-builder/introduction.md) to create a dynamic block that is triggered by a promotion, and appears only to the targeted customer segment.
+- Targeted Promotions - Use catalog and shopping cart price rules to create [promotions](../merchandising-promotions/introduction.md#promotions) that kick into gear when a set of conditions is met. In Adobe Commerce, segment customers dynamically and build segments based on specific characteristics such as customer address, order history, shopping cart content, and much more. Then, use [[!DNL Page Builder]](../page-builder/introduction.md) to create a dynamic block that is triggered by a promotion, and appears only to the targeted customer segment.
 
-- Promotional EVents - Hold an invitation-only [event](https://docs.magento.com/user-guide/marketing/events-private-sales.html) to launch a brand, and offer a [count-down ticker](https://docs.magento.com/user-guide/marketing/event-ticker.html) to member-only sales.
+- Promotional Events - Hold an invitation-only [event](../merchandising-promotions/events-private-sales.md) to launch a brand, and offer a [count-down ticker](../merchandising-promotions/events-private-sales.md#event-ticker) to member-only sales.
 
-- Coupons - Create limited-time offers and [coupons](https://docs.magento.com/user-guide/marketing/price-rules-cart-coupon.html) that customers can scan with their phone and apply to a purchase.
+- Coupons - Create limited-time offers and [coupons](../merchandising-promotions/price-rules-cart-coupon.md) that customers can scan with their phone and apply to a purchase.
 
 - Product Suggestions - Another way to increase AOV is to offer [suggestions](../catalog/related-products-up-sells-cross-sells.md) for related products and opportunities to up-sell and cross-sell at strategic points along the path to conversion.
 
--  Email Reminders - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Send automated [reminder emails](https://docs.magento.com/user-guide/marketing/email-reminder-rules.html) to customers who have added items to their carts or wish lists, but haven't made a purchase. Various triggers can launch automated emails, including total cart value, quantity, items in the cart, and more.
+-  Email Reminders - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Send automated [reminder emails](../merchandising-promotions/email-reminder-rules.md) to customers who have added items to their carts or wish lists, but haven't made a purchase. Various triggers can launch automated emails, including total cart value, quantity, items in the cart, and more.
 
 - Full-Page Caching - Enhance performance by [caching primary pages](https://docs.magento.com/user-guide/system/cache-full-page.html). Caching pages improves server response times, reduces load, and increases sustainable traffic. You can use tags to define which components to cache, so that only relevant pages are cached as updates take place. It can also identify and differentiate visitors from shoppers.
 
@@ -83,7 +83,7 @@ Adobe Commerce and Magento Open Source provide a range of tools to help you tail
 
 - Taxes - Manage your [taxes](https://docs.magento.com/user-guide/tax/taxes.html) with native tools, or add third-party extensions from [[!DNL Commerce Marketplace]](https://marketplace.magento.com/){:target="_blank"}.
 
--  Automated Business Rules - Set up [automated business rules](https://docs.magento.com/user-guide/marketing/price-rules-cart.html) that define product relationships and use price rules that trigger discounts based on various conditions.
+-  Automated Business Rules - Set up [automated business rules](../merchandising-promotions/price-rules-cart.md) that define product relationships and use price rules that trigger discounts based on various conditions.
 
 - Integrated B2B and B2C - With B2B for Adobe Commerce, you can serve both B2C and B2B customers. Through an easy-to-use customer portal, B2B customers can set up multiple tiers of buyers with specific roles and permissions, track quotes and orders, define purchase approval rules, and manage their credit online.
 
@@ -113,13 +113,13 @@ Merchandise Return - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce
 
 Store Credit - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Keep customers loyal and happy by issuing refunds as [store credit](https://docs.magento.com/user-guide/customers/store-credit-using.html) or virtual gift cards to ensure that the money they spend stays in your store.
 
-Reward Points - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only)  Drive customer engagement with [reward programs and points](https://docs.magento.com/user-guide/marketing/rewards-loyalty.html) based on a range of transactions and customer behaviors. Base redemption on various factors, such as balance, customer history, and conversion rates.
+Reward Points - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only)  Drive customer engagement with [reward programs and points](../merchandising-promotions/rewards-loyalty.md) based on a range of transactions and customer behaviors. Base redemption on various factors, such as balance, customer history, and conversion rates.
 
 Target Shopping History - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Encourage customers to make return purchases with targeted promotions based on their shopping history. With Adobe Commerce, you can easily [build segments](https://docs.magento.com/user-guide/marketing/customer-segments.html) based on your customer base.
 
-Newsletters - Stay in touch with current customers who have opted to receive [newsletters](https://docs.magento.com/user-guide/marketing/newsletters.html). You can create as many newsletter templates as you want.
+Newsletters - Stay in touch with current customers who have opted to receive [newsletters](../merchandising-promotions/newsletters.md). You can create as many newsletter templates as you want.
 
-RSS Feed - When [RSS feeds](https://docs.magento.com/user-guide/marketing/rss-feed.html) are enabled, subscribers of each feed automatically receive alerts about any additions to products, specials, categories, and coupons. A link to all RSS feeds that you publish is provided in the footer of your store.
+RSS Feed - When [RSS feeds](../merchandising-promotions/social-rss.md#rss-feeds) are enabled, subscribers of each feed automatically receive alerts about any additions to products, specials, categories, and coupons. A link to all RSS feeds that you publish is provided in the footer of your store.
 
 ## Loyalty and Advocacy
 
@@ -129,6 +129,6 @@ Customer Accounts - Opening an account provides [customers](https://docs.magento
 
 Advocacy Tools - Customers who share [wish lists](https://docs.magento.com/user-guide/marketing/wishlists.html) and send [gift cards](../catalog/product-gift-card-create.md) make a powerful endorsement of your brand. Wish lists become powerful advocacy tools when shared by email or RSS feed, and gift cards bring motivated new shoppers to your store. (Gift cards are an Adobe Commerce only feature.)
 
-Reviews and Ratings - [Product reviews](https://docs.magento.com/user-guide/marketing/product-reviews.html) give your customers a way to engage with your brand while fostering a sense of community. You can curate your reviews with tools to help you edit and approve comments for inappropriate content before they go live.
+Reviews and Ratings - [Product reviews](../merchandising-promotions/product-reviews.md) give your customers a way to engage with your brand while fostering a sense of community. You can curate your reviews with tools to help you edit and approve comments for inappropriate content before they go live.
 
 [1]: https://docs.magento.com/mbi/

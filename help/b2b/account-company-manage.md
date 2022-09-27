@@ -103,7 +103,7 @@ Method 2: **Full edit**
 
 ## Assign a sales representative
 
-The sales representative is an [Admin user](https://docs.magento.com/user-guide/system/permissions.html) who is assigned as the point of contact for a company account and receives all automated [email messages](https://docs.magento.com/user-guide/marketing/email-company-configuration.html) related to the company. Only one sales representative can be assigned per company account, but a single sales representative can manage multiple company accounts. The default admin account is assigned as the sales representative, unless a different admin user is assigned.
+The sales representative is an [Admin user](https://docs.magento.com/user-guide/system/permissions.html) who is assigned as the point of contact for a company account and receives all automated [email messages](../b2b/enable-basic-features.md#configure-company-email-options) related to the company. Only one sales representative can be assigned per company account, but a single sales representative can manage multiple company accounts. The default admin account is assigned as the sales representative, unless a different admin user is assigned.
 
 The name and email address of the assigned sales representative is visible to company members from the company account and quotes page.
 

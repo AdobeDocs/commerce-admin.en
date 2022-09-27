@@ -57,8 +57,8 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 <tr>
     <td valign="top">
        <img alt="Merchandising and Promotions" src="./assets/icon-labels.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://docs.magento.com/user-guide/marketing/promotions.html"> <strong>Merchandising and Promotions</strong></a>
-    <div><em>Use category-based navigation as the floor plan of the store, and the dynamic presentation of products as conditions that you can apply to product listings. Set up product relationships and use price rules to trigger discounts based on various conditions.</em></div>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/marketing/guide-overview.html"> <strong>Merchandising and Promotions</strong></a>
+    <div><em>Create targeted promotions and opportunities for customer engagement that turn shoppers into buyers. Manage customer relationships by supporting post-purchase activities and offering special discounts to returning customers. Learn best practices and techniques to support your SEO initiatives.</em></div>
   </td>
 </tr>
 <tr>
@@ -92,7 +92,7 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 <tr>
     <td valign="top">
        <img alt="System Administration" src="./assets/icon-globe-grid.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://docs.magento.com/user-guide/sales.html"> <strong>System Administration</strong></a>
+   <td valign="top"><a href="https://docs.magento.com/user-guide/system/system.html"> <strong>System Administration</strong></a>
     <div><em>The Admin provides multiple tools for managing your system and optimizing its performance. This includes Admin user account administration, with the associated roles and permissions.</em></div>
   </td>
 </tr>
@@ -113,13 +113,16 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 
 | Description | Type | Date |
 | ----------- | ---- | ---- |
+| **New guide** - Content now published in the Experience League: [Merchandising and Promotions Guide](../merchandising-promotions/guide-overview.md) | Move | 9/27/2022 |
 | **New page section** - Added information about [removal of the Inventory Management modules](../inventory-management/install-update.md#remove-inventory-management) to improve performance for Commerce instances that do not use these features. | Update | 9/21/2022 |
+| **New guide** - Content now published in the Experience League: [Catalog Management Guide](../catalog/guide-overview.md) | Move | 9/1/2022 |
 | **2.4.5 release** - Updated information in [Secure Your Commerce Account](../getting-started/commerce-account-secure.md) for authentication workflow and two-factor authentication introduced with Adobe Identity Management System requirement for Commerce accounts. | Update | 8/11/2022 |
 | **2.4.5 release** - Updated information in [Access Your Commerce Account](../getting-started/commerce-account-create.md) to reflect the Adobe ID requirement to access their Commerce account (accounts.magento.com). | Update | 8/11/2022 |
 | **2.4.5 release** - Added release notes for the [B2B v1.3.4](../b2b/release-notes.md#b2b-v134), [Inventory Management v1.2.5](../inventory-management/release-notes.md#v125), and [Page Builder](../page-builder/release-notes.md#172-for-commerce-245) modules. | New | 8/9/2022 |
 | **2.4.5 release** - Added new topics for Adobe Identity Management System integration in the Commerce Admin: [Adobe Identity Management Service (IMS) Integration Overview](../getting-started/adobe-ims-integration-overview.md) and [Configure the Commerce Admin Integration with Adobe IMS](../getting-started/adobe-ims-config.md). | New | 8/9/2022 |
-| **2.4.5 release** - Updated information in the [Google API configuration reference](https://docs.magento.com/user-guide/configuration/sales/google-api.html), and the [Google Analytics](https://docs.magento.com/user-guide/marketing/google-universal-analytics.html) and [Google AdWords](https://docs.magento.com/user-guide/marketing/google-adwords.html) topics for new GTag support for Google services integration and move from Google Universal Analytics to Analytics 4. | Update | 8/9/2022 |
+| **2.4.5 release** - Updated information in the [Google API configuration reference](https://docs.magento.com/user-guide/configuration/sales/google-api.html), and the [Google Analytics](../merchandising-promotions/google-universal-analytics.md) and [Google AdWords](../merchandising-promotions/google-adwords.md) topics for new GTag support for Google services integration and move from Google Universal Analytics to Analytics 4. | Update | 8/9/2022 |
 | **2.4.5 release** - Updated [Google reCAPTCHA](https://docs.magento.com/user-guide/stores/security-google-recaptcha.html) and [Google reCAPTCHA Storefront](https://docs.magento.com/user-guide/configuration/security/google-recaptcha-storefront.html) topics to reflect additional support for configuration of reCAPTCHA validation on the storefront. | Update | 8/9/2022 |
 | **2.4.5 release** - Updated the Page Builder [Layout - Columns](../page-builder/column.md) topic for new _columns_ container. | Update | 8/9/2022 |
+| **New guide** - Content now published in the Experience League: [Content and Design Guide](../content-design/guide-overview.md) | Move | 7/15/2022 |
 
 {style="table-layout:auto"}

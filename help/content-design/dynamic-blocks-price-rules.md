@@ -7,7 +7,7 @@ exl-id: e1564df2-1c06-4d11-a32d-6f5c0be974e3
 
 {{ee-feature}}
 
-Any [dynamic block](dynamic-blocks.md) that you create can be associated with a promotion. To make the association, you must first create both the dynamic block and the [catalog price rule](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html) or [cart price rule](https://docs.magento.com/user-guide/marketing/price-rules-cart.html). The association can be made while working on a price rule or when working on a dynamic block.
+Any [dynamic block](dynamic-blocks.md) that you create can be associated with a promotion. To make the association, you must first create both the dynamic block and the [catalog price rule](../merchandising-promotions/price-rules-catalog.md) or [cart price rule](../merchandising-promotions/price-rules-cart.md). The association can be made while working on a price rule or when working on a dynamic block.
 
 >[!IMPORTANT]
 >

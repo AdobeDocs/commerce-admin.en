@@ -41,7 +41,7 @@ The Refunds Report can be filtered by time interval, date, and status. The repor
 
 ![Coupons Report](./assets/sales-coupons.png)<!-- zoom -->
 
-The [Coupons Report](https://docs.magento.com/user-guide/marketing/price-rules-cart-coupon-report.html) can be filtered by time interval, date, and status. The report includes each coupon code used during the specified time interval, related price rule, and number of times used, with totals and subtotals for sales and discounts.
+The [Coupons report](../merchandising-promotions/price-rules-cart-coupon.md#coupons-report) can be filtered by time interval, date, and status. The report includes each coupon code used during the specified time interval, related price rule, and number of times used, with totals and subtotals for sales and discounts.
 
 ## PayPal Settlement
 

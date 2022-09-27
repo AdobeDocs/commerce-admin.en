@@ -4,7 +4,7 @@ description:  Learn about using the [!UICONTROL Products in Category] settings t
 ---
 # Category product assignments
 
-For a category, use the _[!UICONTROL Products in Category]_ section to review the products that are currently assigned to the category. The search filters at the top of each column are used to add and remove products from the category. You can also use [category rules](https://docs.magento.com/user-guide/catalog/category-product-rules.html) ( ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce only) to dynamically change the product selection when a set of conditions is met. To learn more, see [Visual Merchandiser](https://docs.magento.com/user-guide/marketing/visual-merchandiser.html).
+For a category, use the _[!UICONTROL Products in Category]_ section to review the products that are currently assigned to the category. The search filters at the top of each column are used to add and remove products from the category. You can also use [category rules](https://docs.magento.com/user-guide/catalog/category-product-rules.html) ( ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce only) to dynamically change the product selection when a set of conditions is met. To learn more, see [Visual Merchandiser](../merchandising-promotions/visual-merchandiser.md)).
 
 >[!TIP]
 >
@@ -92,7 +92,7 @@ For a category, use the _[!UICONTROL Products in Category]_ section to review th
 | ![View as tiles](../assets/icon-view-tiles.png) | View as Tiles |
 | ![Toggle no](../assets/toggle-no.png) | Match by Rule - No|
 |![Toggle yes](../assets/toggle-yes.png) | Match by Rule - Yes|
-| ![Move controller](../assets/icon-move.png) | The drag and drop control allows you to grab a product and move it to another position in the current page of the grid. To learn more, see [Visual Merchandiser](https://docs.magento.com/user-guide/marketing/visual-merchandiser.html). |
+| ![Move controller](../assets/icon-move.png) | The drag and drop control allows you to grab a product and move it to another position in the current page of the grid. To learn more, see [Visual Merchandiser](../merchandising-promotions/visual-merchandiser.md). |
 | ![Position controller](../assets/control-position.png) | Determines the position of the product in the list. |
 
 {style="table-layout:auto"}

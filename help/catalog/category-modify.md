@@ -24,4 +24,4 @@ After a category is established, it can be edited, moved to another position in 
 
 1. When prompted to confirm, click **[!UICONTROL OK]**.
 
-You can also [update the events](https://docs.magento.com/user-guide/marketing/event-update.html) associated with a category from either the **[!UICONTROL Events]** page or the **[!UICONTROL Category]** page.
+You can also [update the events](../merchandising-promotions/event-create.md#create-and-update-events) associated with a category from either the **[!UICONTROL Events]** page or the **[!UICONTROL Category]** page.
