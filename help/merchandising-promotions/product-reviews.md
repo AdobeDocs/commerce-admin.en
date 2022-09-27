@@ -57,3 +57,41 @@ The Commerce Product Reviews function is enabled by default.
    This is the default setting that determines if customers must open an account with your store to be able to write product reviews.
 
 1. When complete, click **[!UICONTROL Save Config]**.
+
+## Create custom ratings
+
+With the Commerce Product Reviews, customers can assign ratings when they submit a product review. The default ratings are quality, price, and value. In addition to these, you can add your own custom ratings. The five-star ratings that appear on catalog pages are averaged for each product.
+
+![Example storefront - custom ratings](./assets/attribute-custom-ratings-review.png)<!-- zoom -->
+
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_ > **[!UICONTROL Rating]**.
+
+1. In the upper-right corner, click **[!UICONTROL Add New Rating]**.
+
+   ![Admin - Ratings](./assets/product-reviews-rating.png)<!-- zoom -->
+
+1. In the _[!UICONTROL Rating Title]_ section, enter the **[!UICONTROL Default Value]** for the new rating.
+
+   If applicable, also enter the translation for each store view.
+
+   ![Rating title settings](./assets/product-rating-title.png)<!-- zoom -->
+
+1. In the _Rating Visibility_ section, set **[!UICONTROL Visibility In]** to the store view where the rating is to be used.
+
+   To select multiple store views, hold down the Ctrl key (PC) or the Command key (Mac) and click each item.
+
+   >[!NOTE]
+   >
+   >Ratings are not visible unless assigned to a store view.
+
+1. For **[!UICONTROL Sort Order]**, enter a number to determine the order of this rating when listed with others.
+
+1. If you want to show your rating on the storefront, select the **[!UICONTROL Is Active]** checkbox.
+
+   ![Rating visibility settings](./assets/product-rating-visibility.png)<!-- zoom -->
+
+1. When complete, click **[!UICONTROL Save Rating]**.
+
+   The average rating for all reviews is displayed for each product on the catalog product grid page.
+
+   ![Catalog Page](./assets/catalog-rating-page.png)<!-- zoom -->
