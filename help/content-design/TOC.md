@@ -43,6 +43,7 @@ breadcrumb-title: Content and Design
     - [Use a Widget to Position a Block](widget-static-block.md)
     - [New Products List Widget](widget-new-products-list.md)
     - [Orders and Returns Widget](widget-orders-returns.md)
+    - [Catalog Events Carousel Widget](widget-event-carousel.md)
 - WYSIWYG Editor {#wysiwyg}
   - [WYSIWYG Editor Overview](editor.md)
   - [Insert a Link](editor-insert-link.md)

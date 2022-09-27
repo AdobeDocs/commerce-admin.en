@@ -1,10 +1,82 @@
 ---
-user-guide-title: Merchandising and Promotions Guide
-user-guide-description: add description here
+user-guide-title: Adobe Commerce Merchandising and Promotions Guide
+user-guide-description: Adobe Commerce and Magento Open Source include many tools that you can use to drive sales, create opportunities for customer engagement, and set up targeted promotions.
 breadcrumb-title: Merchandising and Promotions
 hide: yes
 ---
 
-# Merchandising and Promotions Guide {#merch}
+# Adobe Commerce Merchandising and Promotions Guide {#marketing}
 
-- [Guide Overview](overview.md)
+- [Guide Overview](guide-overview.md)
+- [Introduction to merchandising and promotions](introduction.md)
+- [Marketing menu](marketing-menu.md)
+- Merchandising {#merchandising}
+  - Visual Merchandiser {#visual-merch}
+    - [Visual Merchandiser overview](visual-merchandiser.md)
+    - [Category rules for merchandising](category-product-rules.md)
+    - [Configure smart attributes](smart-attributes-configure.md)
+  - Gift registries {#gift-registry}
+    - [Gift registry overview](gift-registries.md)
+    - [Configure gift registries](gift-registry-configure.md)
+    - [Gift registry setup](gift-registry-create.md)
+    - [Add gift registry search](gift-registry-search.md)
+    - [Gift registry storefront experience](gift-registry-storefront.md)
+  - Reward points {#reward-points}
+    - [Rewards overview and configuration](rewards-loyalty.md)
+    - [Reward exchange rates](reward-exchange-rates.md)
+    - [Reward points in price rules](reward-points-price-rules.md)
+    - [Reward points storefront experience](reward-points-storefront.md)
+  - Product reviews {#product-reviews}
+    - [Customer product reviews](product-reviews.md)
+    - [Moderate reviews](product-reviews-moderate.md)
+- Promotions {#promotions}
+  - Private sales and events {#events}
+    - [Events overview](events-private-sales.md)
+    - [Configure events](event-configure.md)
+    - [Create events](event-create.md)
+    - [Event invitations](invitations.md)
+  - Catalog price rules {#catalog-rules}
+    - [Catalog price rules overview](price-rules-catalog.md)
+    - [Create a catalog price rule](price-rules-catalog-create.md)
+    - [Scheduled changes for catalog price rules](price-rule-catalog-scheduled-changes.md)
+    - [Price rule with multiple SKUs](price-rule-multiple-sku.md)
+  - Cart price rules {#cart-rules}
+    - [Cart price rules overview](price-rules-cart.md)
+    - [Create a cart price rule](price-rules-cart-create.md)
+    - [Coupon codes](price-rules-cart-coupon.md)
+    - [Scheduled changes for cart price rules](price-rule-cart-scheduled-changes.md)
+    - [Example: free shipping promotion](price-rules-cart-free-shipping.md)
+    - [Example: buy this get that free](price-rules-cart-buy-this-get-that.md)
+    - [Example: discount with minimum purchase](price-rule-discount-minimum-purchase.md)
+    - [Example: discount with first purchase](price-rule-discount-first-purchase.md)
+  - Product relationships {#product-relationships}   
+    - [Overview](product-relationships.md)
+    - [Related products rules and configuration](product-related-rules.md)
+    - [Create a related product rule](product-related-rule-create.md)
+- Marketing communications {#communications}
+  - Newsletters {#newsletters}
+    - [Enable newsletters](newsletters.md)
+    - [Newsletter templates](newsletter-template.md)
+    - [Send newsletters](newsletter-queue.md)
+    - [Manage subscribers](newsletter-subscribers.md)
+  - [Social media and RSS feeds](social-rss.md)
+  - Email reminders {#email-reminders}
+    - [Enable email reminders](email-reminder-rules.md)
+    - [Create email reminders](email-reminder-rules-create.md)
+- Search engine optimization {#seo}
+  - [SEO overview and best practices](seo-overview.md)
+  - [Meta data](meta-data.md)
+  - [Site maps](sitemap-xml.md)
+  - URL rewrites {#url-rewrites}
+    - [Overview and configuration](url-rewrite.md)
+    - [Category rewrites](url-rewrite-category.md)
+    - [Product rewrites](url-rewrite-product.md)
+    - [CMS page rewrites](url-rewrite-cms-page.md)
+    - [Custom rewrites](url-rewrite-custom.md)
+    - [Automatic redirects](url-redirect-product-automatic.md)
+- Google site tools {#google-tools}
+  - [Overview](google-tools.md)
+  - [Google Analytics](google-universal-analytics.md)
+  - [Google Tag Manager](google-tag-manager.md)
+  - [Google Adwords](google-adwords.md)
+  - [Google Content Experiments](google-content-experiments.md)
