@@ -4,7 +4,7 @@ description: For a product, the [!UICONTROL Related Products, Up-Sells, and Cros
 ---
 # Product settings - [!UICONTROL Related Products, Up-Sells, and Cross-Sells]
 
-Use the _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_ section to set up simple promotional blocks that present a selection of additional products that might be of interest to the customer. For more information, see [Product Relationships](https://docs.magento.com/user-guide/marketing/product-relationships.html).
+Use the _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_ section to set up simple promotional blocks that present a selection of additional products that might be of interest to the customer. For more information, see [Product Relationships](../merchandising-promotions/product-relationships.md).
 
 ![Related Products, Up-Sells, and Cross-Sells](./assets/product-related-up-sell-cross-sell.png)<!-- zoom -->
 

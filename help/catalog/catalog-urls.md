@@ -35,7 +35,7 @@ The URL key should consist of lowercase characters with non-trailing hyphens bet
 
 >[!NOTE]
 >
->To extend URL customizations, such as localized URLs, see [URL Rewrites](https://docs.magento.com/user-guide/marketing/url-rewrite.html) for more information.
+>To extend URL customizations, such as localized URLs, see [URL Rewrites](../merchandising-promotions/url-rewrite.md) for more information.
 
 ### HTML suffix
 

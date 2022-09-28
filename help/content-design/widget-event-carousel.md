@@ -12,7 +12,7 @@ The Catalog Events Carousel widget displays a slider of upcoming events with a c
 
 ## Step 1: Enable the catalog carousel widget
 
-Before you begin, follow the [instructions](https://docs.magento.com/user-guide/marketing/event-configure.html) to configure the _Catalog Event_ widget so that it is enabled for the storefront.
+Before you begin, follow the [instructions](../merchandising-promotions/event-configure.md) to configure the _Catalog Event_ widget so that it is enabled for the storefront.
 
 ![Catalog event configuration](./assets/config-catalog-catalog-events-1.png)<!-- zoom -->
 

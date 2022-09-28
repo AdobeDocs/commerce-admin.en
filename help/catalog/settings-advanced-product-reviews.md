@@ -4,7 +4,7 @@ description: For a product, the [!UICONTROL Product Reviews] settings provide ac
 ---
 # Product settings - [!UICONTROL Product Reviews]
 
-The _[!UICONTROL Product Reviews]_ section lists all reviews that customers have submitted about the product. This section appears with the other product information only after a new product is saved for the first time. For more information, see [Product Reviews](https://docs.magento.com/user-guide/marketing/product-reviews.html).
+The _[!UICONTROL Product Reviews]_ section lists all reviews that customers have submitted about the product. This section appears with the other product information only after a new product is saved for the first time. For more information, see [Product Reviews](../merchandising-promotions/product-reviews.md).
 
 ![Product Reviews](./assets/product-review.png)<!-- zoom -->
 

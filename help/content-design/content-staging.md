@@ -19,8 +19,8 @@ When a new scheduled update is created for any of the following objects, a corre
 
 - [Products](../catalog/product-scheduled-changes.md)
 - [Categories](../catalog/category-scheduled-changes.md)
-- [Catalog Price Rules](https://docs.magento.com/user-guide/marketing/price-rule-catalog-scheduled-changes.html)
-- [Cart Price Rules](https://docs.magento.com/user-guide/marketing/price-rule-cart-scheduled-changes.html)
+- [Catalog Price Rules](../merchandising-promotions/price-rule-catalog-scheduled-changes.md)
+- [Cart Price Rules](../merchandising-promotions/price-rule-cart-scheduled-changes.md)
 - [CMS Pages](pages-workspace.md#scheduled-changes)
 - [CMS Blocks](blocks.md)
 

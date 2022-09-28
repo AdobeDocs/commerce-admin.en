@@ -37,6 +37,6 @@ Any representation of information that permits the identity of an individual to 
 
    >[!NOTE]
    >
-   >If you change the URL key of the privacy policy page, you must also create a [custom URL rewrite](https://docs.magento.com/user-guide/marketing/url-rewrite-cms-page.html) to redirect traffic to the new URL key. Otherwise, the link in the footer returns `404 Page Not Found`.
+   >If you change the URL key of the privacy policy page, you must also create a [custom URL rewrite](../merchandising-promotions/url-rewrite-custom.md) to redirect traffic to the new URL key. Otherwise, the link in the footer returns `404 Page Not Found`.
 
 1. When complete, click **[!UICONTROL Save Page]**.

@@ -13,7 +13,7 @@ Cookies are small files that are saved to the computer of each visitor to your s
 
 ## Method 1: Implied Consent
 
-Implied consent means that visitors to your store have a clear understanding that cookies are a necessary part of operations, and by using your site, have indirectly granted permission to use them. The key to gaining implied consent is to provide enough information for a visitor to make an informed decision. Many stores display a message at the top of all standard pages that provides a brief overview of how cookies are used, with a link to the store’s privacy policy. The privacy policy should describe the type of information that your store collects, and how it is used.
+Implied consent means that visitors to your store have a clear understanding that cookies are a necessary part of operations, and by using your site, have indirectly granted permission to use them. The key to gaining implied consent is to provide enough information for a visitor to make an informed decision. Many stores display a message at the top of all standard pages that provides a brief overview of how cookies are used, with a link to the store's privacy policy. The privacy policy should describe the type of information that your store collects, and how it is used.
 
 ## Method 2: Expressed Consent
 
@@ -65,7 +65,7 @@ Update your [privacy policy](https://docs.magento.com/user-guide/stores/privacy-
 
 The default cookies in Adobe Commerce and Magento Open Source are classified as Exempt / Non-Exempt to help merchants meet the requirements of privacy regulations such as the [GDPR](compliance-gdpr.md). Merchants should use this information as a guide, and consult with legal advisors to update their Privacy and Cookie Policies as part of a comprehensive privacy regulation compliance strategy.
 
-The following cookies are used by [!DNL Commerce] “out of the box” for on-premise and cloud installations. These cookies may be required by functionality that is explicitly requested by the customer. To learn about the lifetime of session cookies, see [Session Lifetime](https://docs.magento.com/user-guide/customers/customer-online-options.html).
+The following cookies are used by [!DNL Commerce] "out of the box" for on-premise and cloud installations. These cookies may be required by functionality that is explicitly requested by the customer. To learn about the lifetime of session cookies, see [Session Lifetime](https://docs.magento.com/user-guide/customers/customer-online-options.html).
 
 Some of these cookies may provide configuration options, including enable/disable, as needed.
 
@@ -180,7 +180,7 @@ Stores product IDs of recently previously viewed products for easy navigation.
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only)
 
-Used by [Google Tag Manager](https://docs.magento.com/user-guide/marketing/google-tag-manager.html). Captures the product SKU, name, price, and quantity added to the cart, and makes the information available for future integration by third-party scripts.
+Used by [Google Tag Manager](../merchandising-promotions/google-tag-manager.md). Captures the product SKU, name, price, and quantity added to the cart, and makes the information available for future integration by third-party scripts.
 
 #### `stf`
 
@@ -303,7 +303,7 @@ Local storage for Banner functionality.
 
 ## Google Analytics Cookies
 
-The following cookies are used when [Google Analytics](https://docs.magento.com/user-guide/marketing/google-universal-analytics.html) or [Google Universal Analytics](https://docs.magento.com/user-guide/marketing/google-universal-analytics.html) is fully enabled for your installation. To disable these cookies for privacy regulation compliance, see [Google Privacy Settings](https://docs.magento.com/user-guide/stores/compliance-privacy-google.html). To learn more, see [Google Analytics Cookie Usage on Websites][1].
+The following cookies are used when [Google Analytics](../merchandising-promotions/google-universal-analytics.md) or Google Universal Analytics is fully enabled for your installation. To disable these cookies for privacy regulation compliance, see [Google Privacy Settings](../merchandising-promotions/google-tools.md#google-privacy-settings). To learn more, see [Google Analytics Cookie Usage on Websites][1].
 
 ### Google Universal Analytics Cookies  - Non-Exempt
 
@@ -314,7 +314,7 @@ JavaScript Libraries: `gtag.js` and `analytics.js`
 - `_ga`: Distinguishes visitors to your site.
 - `_gid`: Distinguishes visitors to your site.
 - `gat`: Used to throttle request rate.
-- `dc_gtm_<property-id>`: Throttles request rate when Google Analytics is deployed with [Google Tag Manager.](https://docs.magento.com/user-guide/marketing/google-tag-manager.html)
+- `dc_gtm_<property-id>`: Throttles request rate when Google Analytics is deployed with [Google Tag Manager](../merchandising-promotions/google-tag-manager.md).
 - `AMP_TOKEN`: Contains a token that can be used to retrieve a Client ID from AMP Client ID service. Other possible values include opt-out, inflight request or an error retrieving a Client ID from  AMP Client ID service.
 - `_gac_<property-id>`: Contains campaign-related information for the user. Google AdWords conversion tags read this cookie if Google Analytics is linked to your [AdWords][2] account.
 

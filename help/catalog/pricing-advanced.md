@@ -8,7 +8,7 @@ Adobe Commerce and Magento Open Source support various pricing options that you 
 
 Manage prices for your products with advanced pricing to offer customers better rates that encourage consumers to spend more, drive the traffic to your site, and clear old stock.
 
-The _[!UICONTROL Advanced Pricing]_ settings define the conditions required for special pricing that is available for a specific customer group or shared catalog. Advanced pricing can be applied to simple, virtual, downloadable, and bundle products. To apply discounted pricing to other product types, use a [catalog price rule](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html). For more information, see [Price Scope](catalog-price-scope.md).
+The _[!UICONTROL Advanced Pricing]_ settings define the conditions required for special pricing that is available for a specific customer group or shared catalog. Advanced pricing can be applied to simple, virtual, downloadable, and bundle products. To apply discounted pricing to other product types, use a [catalog price rule](../merchandising-promotions/price-rules-catalog.md). For more information, see [Price Scope](catalog-price-scope.md).
 
 Advanced pricing data is synchronized with product pages. For example, if you update a tier price quantity, the system updates the value on the product page.
 
