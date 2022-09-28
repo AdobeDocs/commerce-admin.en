@@ -57,3 +57,7 @@ Pricing for customer groups is a component of [tiered pricing](product-price-tie
 >[!NOTE]
 >
 >The **_final_** product price is calculated as the **_minimum_** relevant price, using the following formula: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)`
+
+>[!NOTE]
+>
+>**_Fixed Price_** product Customizable Options are _not_ affected by a Group Price, Tier Price, Special Price or Catalog Price rules.

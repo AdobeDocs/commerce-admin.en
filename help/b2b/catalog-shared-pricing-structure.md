@@ -67,6 +67,10 @@ You can set custom pricing for each product individually or use the Action contr
    >
    >The minimum value between the Base Price and the entered Fixed value is used as the final product price.
 
+  >[!NOTE]
+  >
+  >**_Fixed Price_** product Customizable Options are _not_ affected by a Group Price, Tier Price, Special Price or Catalog Price rules.
+
 - **[!UICONTROL Percentage]**: Determines the custom price based on the discount percent. For example, to offer a 10 percent discount, set the custom price type to `Percentage` and enter `10`. The discounted custom price is 90 percent of the original product price. |
 
 To set the discount to a fixed amount or a percentage for the following product types, use the _[!UICONTROL Custom Price]_ column in the grid:
