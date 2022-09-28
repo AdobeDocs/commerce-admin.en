@@ -170,6 +170,10 @@ In this step, the conditions are described that must be met for an order to qual
 
 1. Click **[!UICONTROL Save]**.
 
+>[!NOTE]
+>
+>To use `is not one of` condition with _SKU_ product attribute and configurable product, both parent and child product SKUs must be selected. `Does not contain` condition with a common SKU parts of configurable and its child products can be used to avoid listing of all child SKUs in the rule.
+
 ## Step 3: Define the actions
 
 The shopping cart price rule actions describe how prices are updated when the conditions are met.
