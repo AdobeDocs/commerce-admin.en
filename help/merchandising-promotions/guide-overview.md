@@ -1,6 +1,6 @@
 ---
 title: Merchandising and Promotions Guide
-description: Add description here.
+description: Explore detailed information about merchandising and promotional features in Adobe Commerce, including targeted discounts and events.
 exl-id: 76ba1e08-3afd-409c-8376-d07e98095d26
 ---
 # Adobe Commerce Merchandising and Promotions Guide
