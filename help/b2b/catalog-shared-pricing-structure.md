@@ -69,7 +69,7 @@ You can set custom pricing for each product individually or use the Action contr
 
   >[!NOTE]
   >
-  >**_Fixed Price_** product Customizable Options are _not_ affected by a Group Price, Tier Price, Special Price or Catalog Price rules.
+  >**_Fixed Price_** product Customizable Options are _not_ affected by Group Price, Tier Price, Special Price, or Catalog Price rules.
 
 - **[!UICONTROL Percentage]**: Determines the custom price based on the discount percent. For example, to offer a 10 percent discount, set the custom price type to `Percentage` and enter `10`. The discounted custom price is 90 percent of the original product price. |
 

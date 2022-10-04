@@ -60,4 +60,4 @@ Pricing for customer groups is a component of [tiered pricing](product-price-tie
 
 >[!NOTE]
 >
->**_Fixed Price_** product Customizable Options are _not_ affected by a Group Price, Tier Price, Special Price or Catalog Price rules.
+>**_Fixed Price_** product Customizable Options are _not_ affected by Group Price, Tier Price, Special Price, or Catalog Price rules.

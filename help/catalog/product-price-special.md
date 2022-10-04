@@ -156,4 +156,4 @@ If the special price does not appear correctly in the storefront on both the cat
 
 >[!NOTE]
 >
->**_Fixed Price_** product Customizable Options are _not_ affected by a Group Price, Tier Price, Special Price or Catalog Price rules.
+>**_Fixed Price_** product Customizable Options are _not_ affected by Group Price, Tier Price, Special Price, or Catalog Price rules.
