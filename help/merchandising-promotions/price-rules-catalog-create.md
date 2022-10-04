@@ -88,7 +88,7 @@ Most of the available conditions are based on existing attribute values. To appl
 
    >[!NOTE]
    >
-   >To use `is not one of` condition with _SKU_ product attribute and configurable product, both parent and child product SKUs must be selected. `Does not contain` condition with a common SKU parts of configurable and its child products can be used to avoid listing of all child SKUs in the rule.
+   >When using the `is not one of` condition with a _SKU_ product attribute and configurable product, both the parent and child product SKUs must be selected. To avoid listing all child SKUs in the rule, you can use the `does not contain` condition with a common SKU parts of a configurable product and its child products.
 
    The selected condition appears in the statement, followed by two more bold links. The options differ depending on the condition attribute that you select. The statement now says:
 

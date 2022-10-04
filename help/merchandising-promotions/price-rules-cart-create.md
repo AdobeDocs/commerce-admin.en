@@ -172,7 +172,7 @@ In this step, the conditions are described that must be met for an order to qual
 
 >[!NOTE]
 >
->To use `is not one of` condition with _SKU_ product attribute and configurable product, both parent and child product SKUs must be selected. `Does not contain` condition with a common SKU parts of configurable and its child products can be used to avoid listing of all child SKUs in the rule.
+>When using the `is not one of` condition with a _SKU_ product attribute and configurable product, both the parent and child product SKUs must be selected. To avoid listing all child SKUs in the rule, you can use the `does not contain` condition with a common SKU parts of a configurable product and its child products.
 
 ## Step 3: Define the actions
 
