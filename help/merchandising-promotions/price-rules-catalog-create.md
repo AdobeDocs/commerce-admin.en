@@ -130,6 +130,10 @@ Most of the available conditions are based on existing attribute values. To appl
    >
    >_Regular price_ refers to the base product price without any advanced pricing (special/tier/group) or promotional discounts. _Final price_ refers to the discounted price that appears in the shopping cart. <br/>The **_final_** product price is calculated as the **_minimum_** relevant price, using the following formula: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)`
 
+   >[!NOTE]
+   >
+   >**_Fixed Price_** product Customizable Options are _not_ affected by Group Price, Tier Price, Special Price, or Catalog Price rules.
+
 1. Enter the **[!UICONTROL Discount Amount]**.
 
 1. To stop processing other rules after this rule is applied, set **[!UICONTROL Discard Subsequent Rules]** to `Yes`.
