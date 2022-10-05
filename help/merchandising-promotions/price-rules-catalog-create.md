@@ -86,6 +86,10 @@ Most of the available conditions are based on existing attribute values. To appl
    >
    >For an attribute to appear in the list, it must be configured for use in promotional rule conditions. To learn more, see [Product Attributes](../catalog/product-attributes.md).
 
+   >[!NOTE]
+   >
+   >When using the `is not one of` condition with a _SKU_ product attribute and configurable product, both the parent and child product SKUs must be selected. To avoid listing all child SKUs in the rule, you can use the `does not contain` condition with common SKU parts of a configurable product and its child products.
+
    The selected condition appears in the statement, followed by two more bold links. The options differ depending on the condition attribute that you select. The statement now says:
 
       `If **ALL** of these conditions are **TRUE**: <br/>Attribute Set **is** …`
