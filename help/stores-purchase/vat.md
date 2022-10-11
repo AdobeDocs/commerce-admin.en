@@ -76,7 +76,7 @@ Based on the submitted tax rate, you can create subsequent tax rules. In the abs
 
 1. Click **Save Rule**.
 
-   ![Set up product tax classes](/assets/vat-add-new-class.png)<!-- zoom -->
+   ![Set up product tax classes](./assets/vat-add-new-class.png)<!-- zoom -->
 
 ### Step 3: Set up tax zones and rates
 

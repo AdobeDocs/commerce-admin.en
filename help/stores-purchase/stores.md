@@ -14,7 +14,7 @@ Before you begin, plan your store catalog hierarchy in advance because it is ref
 
 A single installation of Adobe Commerce or Magento Open Source can have multiple stores that share the same Admin. Stores that are under the same website have the same IP address and domain, use the same security certificate, and share a single checkout process.
 
-The important thing to understand is that the stores use the same code and share the same Admin. Each store can have a separate catalog, or the stores can share the same catalog. Each store can have a separate [root category](./catalog/category-root.md), which makes it possible to have a different main menu for each store. Stores can also have different branding, presentation, and content. Take some time to plan your store hierarchy with future growth in mind before you begin, because it is used throughout the configuration.
+The important thing to understand is that the stores use the same code and share the same Admin. Each store can have a separate catalog, or the stores can share the same catalog. Each store can have a separate [root category](../catalog/category-root.md), which makes it possible to have a different main menu for each store. Stores can also have different branding, presentation, and content. Take some time to plan your store hierarchy with future growth in mind before you begin, because it is used throughout the configuration.
 
 ![Scope - multiple stores](./assets/scope-multistore.svg)<!-- {:width="550px"} -->
 

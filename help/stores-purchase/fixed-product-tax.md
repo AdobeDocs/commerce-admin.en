@@ -79,7 +79,7 @@ The following instructions show how to set up a fixed product tax for your store
 
    - **Attribute Code** - Enter a unique identifier in lowercase, without spaces or special characters. The maximum length is 30 characters. You can leave the field blank to the text from the Default Label field.
 
-   - **Add to Column Options** - If you want the FPT field to appear in the [grid](../catalog/products.md), set to `Yes`.
+   - **Add to Column Options** - If you want the FPT field to appear in the [Products list](../catalog/products-list.md), set to `Yes`.
 
    - **Use in Filter Options** - If you want to be able to [filter](../getting-started/admin-workspace.md) products in the grid based on the value of the FPT field, set to `Yes`.
 
