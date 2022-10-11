@@ -38,10 +38,10 @@ Because the view name appears in the language chooser, you might eventually want
 
 If your Adobe Commerce or Magento Open Source installation has a multisite or multi-store setup, do not change the store Code field without verifying that the value is not referenced in the `index.php` file. If you do not have access to the server to examine the file, ask a developer for help.
 
-Field | Original value | Updated value
------ | -------------- | -------------
-Name  | Default Store View | English
-Code  | default | english
+| Field | Original value | Updated value |
+| ----- | -------------- | ------------- |
+| Name  | Default Store View | English |
+| Code  | default | english |
 
 {style="table-layout:auto"}
 

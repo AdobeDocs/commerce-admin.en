@@ -1,6 +1,8 @@
 ---
-title: Shipping Settings
+title: Shipping settings
+description: <Add description here>
 ---
+# Shipping settings
 
 The shipping configuration establishes the point of origin for all shipments, your shipping policy, and the handling of shipments to multiple addresses.
 

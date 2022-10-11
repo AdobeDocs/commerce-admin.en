@@ -196,8 +196,8 @@ Merchants operating across regions and geographies can show their customers a si
 
 >[!NOTE]
 >
->When cross-border trade is enabled, your profit margin changes by tax rate. Profit is determined by the formula:
-`Revenue - CustomerVAT - CostOfGoodsSold`
+>When cross-border trade is enabled, your profit margin changes by tax rate. Profit is determined by the formula:<br>
+>`Revenue - CustomerVAT - CostOfGoodsSold`
 
 **_To enable cross-border price consistency:_**
 

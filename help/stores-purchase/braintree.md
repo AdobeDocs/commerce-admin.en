@@ -163,9 +163,31 @@ The following descriptors are used to identify purchases on customer credit card
 
 1. Enter the Dynamic Descriptor for the **Name**, **Phone**, and **URL** according to these guidelines:
 
-    | **Name** | There are two parts to the Name descriptor, which are separated by an asterisk (*). For example:<br/>`company*myproduct`<br/><br/>The first part of the descriptor identifies the company or DBA, and the second part identifies the product. The length of the Company  and Product parts of the descriptor can be allocated in the following ways, for a combined length of up to twenty-two characters.<br/><br/>**Characters in Name Descriptor**<br/><br/>Option 1: Company must be three characters, Product may be up to 18 characters<br/><br/>Option 2: Company must be seven characters, Product may be up to 14 characters<br/><br/>Option 3: Company must be 12 characters, Product may be up to nine characters|
-    | **Phone** | The Phone descriptor must be 10 to 14 characters in length, and can include only numbers, dashes, parentheses, and periods. For example:<br/> `9999999999`<br/> `(999) 999-9999`<br/> `999.999.9999`|
-    | **URL** | The URL descriptor represents your domain name, and can be up to thirteen characters long. For example: <br/>`company.com`|
+   -  **Name** - There are two parts to the Name descriptor, which are separated by an asterisk (*). For example:
+      
+      `company*myproduct`
+      
+      The first part of the descriptor identifies the company or DBA, and the second part identifies the product. The length of the Company  and Product parts of the descriptor can be allocated in the following ways, for a combined length of up to twenty-two characters.
+      
+      **Characters in Name descriptor**
+      
+      _Option 1:_ Company must be three characters, Product may be up to 18 characters
+      
+      _Option 2:_ Company must be seven characters, Product may be up to 14 characters
+      
+      _Option 3_: Company must be 12 characters, Product may be up to nine characters
+
+   - **Phone** - The Phone descriptor must be 10 to 14 characters in length, and can include only numbers, dashes, parentheses, and periods. For example:
+
+      `9999999999`
+      
+      `(999) 999-9999`
+      
+      `999.999.9999`
+
+   - **URL** - The URL descriptor represents your domain name, and can be up to thirteen characters long. For example:
+
+      `company.com`
 
 1. When your Braintree configuration is complete, click **Save Config**.
 
@@ -173,7 +195,7 @@ The following descriptors are used to identify purchases on customer credit card
 >
 >**2.4 Upgrade Notes:**<br />
 Before upgrading to Commerce 2.4, we recommended that merchants replace the core Commerce Braintree integration with the official Braintree extension from [Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree). Beginning with Adobe Commerce and Magento Open Source 2.4.0, the Braintree extension is included in the release.<br/><br/>
-If you are migrating to Commerce 2.4.x from a pre-2.4.0 version that has the Marketplace Braintree extension installed, you must uninstall the Marketplace Braintree extension (`paypal/module-braintree` or `gene/module-braintree`) and update any code customizations to use the `PayPal_Braintree` namespace instead of `Magento_Braintree`. Configuration settings from the core Commerce Braintree Payments bundled extension and the extension distributed on Commerce Marketplace will persist and payments placed with those previous versions of the extension can still be captured, voided, or refunded as normal.<br />
+>If you are migrating to Commerce 2.4.x from a pre-2.4.0 version that has the Marketplace Braintree extension installed, you must uninstall the Marketplace Braintree extension (`paypal/module-braintree` or `gene/module-braintree`) and update any code customizations to use the `PayPal_Braintree` namespace instead of `Magento_Braintree`. Configuration settings from the core Commerce Braintree Payments bundled extension and the extension distributed on Commerce Marketplace will persist and payments placed with those previous versions of the extension can still be captured, voided, or refunded as normal.
 
 [1]: https://www.braintreepayments.com/
 [2]: https://developers.braintreepayments.com/reference/general/testing/php

@@ -5,7 +5,7 @@ exl-id: 01c075a5-d9ac-4edb-82de-35a52748b800
 ---
 # Adobe Commerce Sales and Shopping Experience Guide
 
-This guide is intended <add description of audience and guide purpose>. It assumes a basic understanding of the core [!DNL Commerce] configuration, and functionality.
+This guide is intended _add description of audience and guide purpose_. It assumes a basic understanding of the core [!DNL Commerce] configuration, and functionality.
 
 This guide covers:
 
