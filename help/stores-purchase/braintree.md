@@ -6,7 +6,7 @@ description: <Add description here>
 
 Braintree offers a fully customizable checkout experience with fraud detection and PayPal integration. Braintree reduces the PCI compliance burden for merchants because the transaction takes place on the Braintree system.
 
-If you are upgrading to 2.4.x from an earlier version of Adobe Commerce and Magento Open Source with the Braintree extension from Commerce Marketplace installed, see the [2.4 Migration Notes](#migration) at the end of this topic.
+If you are upgrading to 2.4.x from an earlier version of Adobe Commerce and Magento Open Source with the Braintree extension from Commerce Marketplace installed, see the [2.4 upgrade notes](#24-upgrade-notes) at the end of this topic.
 
 ## Step 1: Get your Braintree credentials
 
@@ -191,11 +191,11 @@ The following descriptors are used to identify purchases on customer credit card
 
 1. When your Braintree configuration is complete, click **Save Config**.
 
->[!IMPORTANT]
->
->**2.4 Upgrade Notes:**<br />
-Before upgrading to Commerce 2.4, we recommended that merchants replace the core Commerce Braintree integration with the official Braintree extension from [Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree). Beginning with Adobe Commerce and Magento Open Source 2.4.0, the Braintree extension is included in the release.<br/><br/>
->If you are migrating to Commerce 2.4.x from a pre-2.4.0 version that has the Marketplace Braintree extension installed, you must uninstall the Marketplace Braintree extension (`paypal/module-braintree` or `gene/module-braintree`) and update any code customizations to use the `PayPal_Braintree` namespace instead of `Magento_Braintree`. Configuration settings from the core Commerce Braintree Payments bundled extension and the extension distributed on Commerce Marketplace will persist and payments placed with those previous versions of the extension can still be captured, voided, or refunded as normal.
+## 2.4 upgrade notes 
+
+Before upgrading to Commerce 2.4, we recommended that merchants replace the core Commerce Braintree integration with the official Braintree extension from [Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree). Beginning with Adobe Commerce and Magento Open Source 2.4.0, the Braintree extension is included in the release.
+
+If you are migrating to Commerce 2.4.x from a pre-2.4.0 version that has the Marketplace Braintree extension installed, you must uninstall the Marketplace Braintree extension (`paypal/module-braintree` or `gene/module-braintree`) and update any code customizations to use the `PayPal_Braintree` namespace instead of `Magento_Braintree`. Configuration settings from the core Commerce Braintree Payments bundled extension and the extension distributed on Commerce Marketplace will persist and payments placed with those previous versions of the extension can still be captured, voided, or refunded as normal.
 
 [1]: https://www.braintreepayments.com/
 [2]: https://developers.braintreepayments.com/reference/general/testing/php

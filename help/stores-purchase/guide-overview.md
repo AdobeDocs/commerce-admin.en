@@ -26,7 +26,7 @@ This guide covers:
 | [Search engine optimization](seo-overview.md) | Implement Commerce features to fine-tune the content and presentation of your site and improve the way the pages are indexed by search engines. |
 | [Google site tools](google-tools.md) | Configure integrations with Google tools to help optimize your content, analyze your traffic, and connect your catalog to shopping aggregators and marketplaces. | -->
 
-{style="table-layout:auto"}
+<!-- {style="table-layout:auto"} -->
 
 ## Available documentation
 
