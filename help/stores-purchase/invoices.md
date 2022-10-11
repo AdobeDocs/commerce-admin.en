@@ -35,6 +35,8 @@ On the _Admin_ sidebar, go to **Sales** > _Operations_ > **Invoices** to open th
 |Shipping and Handling|The amount charged for shipping and handling.|
 |Action|View: opens the invoice in edit mode.|
 
+{style="table-layout:auto"}
+
 ## Create an invoice
 
 Creating an invoice for an order moves it to a state in which it cannot be canceled or changed. A new invoice page looks similar to a completed order, with some additional fields. Every activity that is related to an order is noted in the Comments section of the invoice.

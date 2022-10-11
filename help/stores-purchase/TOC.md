@@ -9,7 +9,7 @@ breadcrumb-title: Stores and Purchase Experience
 - [Sales and Shopping Experience Guide overview](guide-overview.md)
 - [Introduction to sales and shopping experience](introduction.md)
 - Site and store management {#site-store}
-  - [Stores menu](store-menu.md)
+  - [Stores menu](stores-menu.md)
   - [Store and site structure](stores.md)
   - [Store views](store-views.md)
   - [Store localization](store-localize.md)
@@ -26,7 +26,7 @@ breadcrumb-title: Stores and Purchase Experience
     - [Value added tax (VAT)](vat.md)
     - [Tax guidelines by countries](international-tax-guidelines.md)
   - Currency {#currency}
-    - [Overview](currency-overview.md)
+    - [Overview](currency.md)
     - [Currency configuration](currency-configuration.md)
     - [Update currency rates](currency-update.md)
 - Point of purchase {#point-of-purchase}
@@ -62,7 +62,7 @@ breadcrumb-title: Stores and Purchase Experience
   - [Allow reorders](reorders-allow.md)
 - Payments {#payments}
   - [Payments overview](payments.md)
-  - PayPal payment solutions {#PayPal}
+  - PayPal payment solutions {#paypal}
     - [PayPal solutions overview](paypal.md)
     - [PayPal Express Checkout](paypal-express-checkout.md)
     - [PayPal Payments Advanced](paypal-payments-advanced.md)

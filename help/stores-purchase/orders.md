@@ -79,7 +79,7 @@ Click the **View** (![Eye icon](../assets/icon-view-eye.png)) control. Then, do 
 
 To apply an action to specific orders, mark the checkbox in the first column of each order. To select or deselect all orders, use the control at the top of the column.
 
-![Order Actions](./assets/orders-action.png)<!-- {: .zoom} -->
+![Order Actions](./assets/orders-action.png)<!-- zoom -->
 
 |Control|Description|
 |--- |--- |

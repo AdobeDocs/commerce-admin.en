@@ -22,14 +22,26 @@ For example, a customer shopping in the demo Luma store can purchase either a vi
 
 ## Gift card lifecycle
 
-1. **Customer determines the gift card value**. The customer determines the value of the gift card from the product page. Depending on the configuration, there is either a fixed price field, a list of price options, or both. All amounts appear in the currency that is used in the store.
+1. **Customer determines the gift card value**. 
 
-1. **Customer completes the gift card information**. For a physical gift card, the customer enters the **Sender Name** and **Recipient Name**. For virtual or combined gift cards, the customer also enters the **Sender Email** and **Recipient Email**. If the customer is logged in, the Sender Name (and Sender Email, if applicable) is entered automatically from their account. Depending on the configuration, the customer might also enter a message to the recipient.
+   The customer determines the value of the gift card from the product page. Depending on the configuration, there is either a fixed price field, a list of price options, or both. All amounts appear in the currency that is used in the store.
 
-1. **Customer completes checkout**. The gift card appears as a line item in the cart with detail that shows the name of the sender, recipient, and message, if applicable. The amount associated with the gift card is converted to the base currency of the store when it is added to the cart.
+1. **Customer completes the gift card information**.
 
-1. **Customer receives confirmation of the order**. The gift card purchaser can click the link in the confirmation to track the order from their account dashboard.
+   For a physical gift card, the customer enters the **Sender Name** and **Recipient Name**. For virtual or combined gift cards, the customer also enters the **Sender Email** and **Recipient Email**. If the customer is logged in, the Sender Name (and Sender Email, if applicable) is entered automatically from their account. Depending on the configuration, the customer might also enter a message to the recipient.
 
-1. **Recipient receives the gift card**. For virtual or combined gift cards, the recipient receives an email with the gift card code, name of the sender, and message, if applicable. If multiple gift cards are purchased in a single order and the type is either virtual or combined, all corresponding gift card codes are sent to the recipient in a single email. Physical gift cards can be shipped directly to the recipient or to the customer, who can then personally deliver the gift card to the recipient.
+1. **Customer completes checkout**.
 
-1. **Recipient applies gift card to purchase**. The recipient purchases an item in your store and applies the gift card code during checkout. Each time a gift card is applied during checkout, the amount appears in the order totals block and is subtracted from the grand total. The full balance of each gift card is subtracted from the shopping cart total. If multiple gift cards are used to pay for a purchase, the amounts are applied in ascending order, starting with the card with the smallest remaining balance, until the customer runs out of cards or until the grand total is zero. When the grand total reaches zero, the last gift card account applied to the cart receives a partial deduction. Any cards that have not been applied to the cart do not receive a balance deduction. The amounts are deducted from the gift card accounts only after the order is placed.
+   The gift card appears as a line item in the cart with detail that shows the name of the sender, recipient, and message, if applicable. The amount associated with the gift card is converted to the base currency of the store when it is added to the cart.
+
+1. **Customer receives confirmation of the order**.
+
+   The gift card purchaser can click the link in the confirmation to track the order from their account dashboard.
+
+1. **Recipient receives the gift card**.
+
+   For virtual or combined gift cards, the recipient receives an email with the gift card code, name of the sender, and message, if applicable. If multiple gift cards are purchased in a single order and the type is either virtual or combined, all corresponding gift card codes are sent to the recipient in a single email. Physical gift cards can be shipped directly to the recipient or to the customer, who can then personally deliver the gift card to the recipient.
+
+1. **Recipient applies gift card to purchase**.
+
+   The recipient purchases an item in your store and applies the gift card code during checkout. Each time a gift card is applied during checkout, the amount appears in the order totals block and is subtracted from the grand total. The full balance of each gift card is subtracted from the shopping cart total. If multiple gift cards are used to pay for a purchase, the amounts are applied in ascending order, starting with the card with the smallest remaining balance, until the customer runs out of cards or until the grand total is zero. When the grand total reaches zero, the last gift card account applied to the cart receives a partial deduction. Any cards that have not been applied to the cart do not receive a balance deduction. The amounts are deducted from the gift card accounts only after the order is placed.
