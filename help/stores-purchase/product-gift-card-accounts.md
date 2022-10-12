@@ -34,7 +34,7 @@ The Gift Card configuration establishes the default settings for all gift cards 
 
 See [Store Email Addresses](https://docs.magento.com/user-guide/configuration/general/store-email-addresses.html) for specific configuration fields and options.
 
-## Step 2: Complete the general settings
+### Step 2: Complete the general settings
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the _Gift Card General Settings_ section.
 
@@ -57,7 +57,7 @@ See [Store Email Addresses](https://docs.magento.com/user-guide/configuration/ge
 
    ![Gift Card General Settings](../configuration-reference/sales/assets/gift-cards-gift-card-general-settings.png)<!-- zoom -->
 
-## Step 3: Establish the gift card code pool
+### Step 3: Establish the gift card code pool
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the _Gift Card Account General Settings_ section and do the following:
 
@@ -170,7 +170,7 @@ See [Store Email Addresses](https://docs.magento.com/user-guide/configuration/ge
 
 1. To confirm the action, click **OK**.
 
-## Column Descriptions
+## Column descriptions
 
 |Column|Description|
 |--- |--- |

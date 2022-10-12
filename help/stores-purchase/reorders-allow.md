@@ -34,7 +34,7 @@ When enabled, reorders can be made directly from the customer account or from th
 
 1. Click **Save Config**.
 
-## Reorder from Storefront
+## Reorder from the storefront
 
 A customer can initiate the reorder functionality for a specific order from two pages:
 
@@ -42,7 +42,7 @@ A customer can initiate the reorder functionality for a specific order from two 
 
 - _Order View_ page
 
-## My Orders
+### My Orders
 
 The _Reorder_ button is always displayed in the list with Orders (even if all products from the order are not available for reorder).
 
@@ -64,7 +64,7 @@ The _Reorder_ button will not appear on the _My Orders_ and _View Order_ pages.
 
 ![My Orders page 1](./assets/my-orders-view-page1.png)<!-- zoom -->
 
-## Order view page
+### Order view page
 
 **Case 1.** All products from the order are available for reorder
 
@@ -80,7 +80,7 @@ The _Reorder_ button will not appear on the _My Orders_ and _View Order_ pages.
 
 ![Order details page](./assets/order-view-page.png)<!-- zoom -->
 
-## Cart is not empty
+### Cart is not empty
 
 If the cart is not empty and the user clicks **Reorder** (from the _My Orders_  or _Order View_ page), the existing products remain in the cart with the added reorder products.
 

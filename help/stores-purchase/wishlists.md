@@ -22,7 +22,7 @@ When a product with multiple options is added to a wish list, any options that h
 
 Customers can [manage their wish lists](wishlist-storefront.md) by logging in to their accounts on the storefront. As a store administrator, you can also manage customer wish lists from the Admin.
 
-To update wish list items from the Admin:
+**_To update wish list items from the Admin:_**
 
 1. On the _Admin_ sidebar, go to **Customers** > **All Customers**.
 

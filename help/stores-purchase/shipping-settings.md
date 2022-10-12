@@ -10,7 +10,7 @@ The shipping configuration establishes the point of origin for all shipments, yo
 
 ## Point of origin
 
-The point of origin is used to calculate the charge for shipments made from your store or warehouse, and also determines the tax rate for products sold. When calculating [EU taxes](international-tax-guidelines.md#eu-tax-guidelines), make sure that the [Default Tax Destination Calculation](https://docs.magento.com/user-guide/configuration/sales/tax.html) for each store view corresponds to the Shipping Settings point of origin.
+The point of origin is used to calculate the charge for shipments made from your store or warehouse, and also determines the tax rate for products sold. When calculating [EU taxes](international-tax-guidelines.md#eu-tax-configuration), make sure that the [Default Tax Destination Calculation](https://docs.magento.com/user-guide/configuration/sales/tax.html) for each store view corresponds to the Shipping Settings point of origin.
 
 ![Origin](../configuration-reference/sales/assets/shipping-settings-origin.png)<!-- zoom -->
 

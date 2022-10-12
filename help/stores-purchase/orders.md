@@ -22,7 +22,7 @@ The selection of columns and their order in the grid can be changed according to
 
 #### Change the column selection
 
-In the upper-right corner, click the **Columns** ( ![Column settings](../assets/icon-columns.png)) control and do the following:
+In the upper-right corner, click the **Columns** ( ![Column settings](../assets/icon-columns.png) ) control and do the following:
 
 - Select the checkbox of any column you want to add to the grid.
 - Clear the checkbox of any column you want to remove from the grid.
@@ -55,7 +55,7 @@ In the upper-right corner, click the **Columns** ( ![Column settings](../assets
 
 #### Change the view
 
-Click the **View** (![Eye icon](../assets/icon-view-eye.png)) control. Then, do one of the following:
+Click the **View** ( ![Eye icon](../assets/icon-view-eye.png) ) control. Then, do one of the following:
 
 - To use a different view, click the name of the view.
 

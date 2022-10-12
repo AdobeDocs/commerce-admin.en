@@ -123,7 +123,7 @@ Any public wish list can be found using the Wish List Search [widget](../content
 
 1. When prompted, refresh all invalid caches.
 
-### Find a customer wishlist 
+### Find a customer wish list 
 
 1. From the Wish List Search widget, select a search option.
 

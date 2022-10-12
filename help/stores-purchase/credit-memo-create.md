@@ -272,7 +272,7 @@ To print or view the completed credit memo, you must have a PDF reader installe
 
 1. Use one of the following methods to print the credit memo:
 
-## Method 1: Print current credit memo
+### Method 1: Print current credit memo
 
 1. In the grid, open the credit memo.
 
@@ -280,7 +280,7 @@ To print or view the completed credit memo, you must have a PDF reader installe
 
    ![Print the credit memo](./assets/credit-memo-print.png)<!-- zoom -->
 
-## Method 2: Print multiple credit memos
+### Method 2: Print multiple credit memos
 
 1. In the list, select the checkbox of each credit memo that you want to print.
 

@@ -38,7 +38,7 @@ The Email link makes it easy for your customers to share links to products with 
 
       `Cookie (unsafe)` - Identifies the sender by browser cookie. This method is less effective because the sender can delete the cookie to bypass the limit.
 
-1. When complete, click ** Save Config**.
+1. When complete, click **Save Config**.
 
 ## Send email to a friend on the storefront
 

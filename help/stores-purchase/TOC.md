@@ -6,8 +6,8 @@ breadcrumb-title: Stores and Purchase Experience
 
 # Stores and Purchase Experience Guide {#stores-sales}
 
-- [Sales and Shopping Experience Guide overview](guide-overview.md)
-- [Introduction to sales and shopping experience](introduction.md)
+- [Sales and Purchase Experience Guide](guide-overview.md)
+- [Introduction](introduction.md)
 - Site and store management {#site-store}
   - [Stores menu](stores-menu.md)
   - [Store and site structure](stores.md)
@@ -24,7 +24,7 @@ breadcrumb-title: Stores and Purchase Experience
     - [Hidden tax calculation](hidden-tax-calculation.md)
     - [Tax zones and rates](tax-zones-rates.md)
     - [Value added tax (VAT)](vat.md)
-    - [Tax guidelines by countries](international-tax-guidelines.md)
+    - [Tax guidelines by country](international-tax-guidelines.md)
   - Currency {#currency}
     - [Overview](currency.md)
     - [Currency configuration](currency-configuration.md)
@@ -61,7 +61,7 @@ breadcrumb-title: Stores and Purchase Experience
   - [Recently viewed or compared](products-viewed-compared.md)
   - [Allow reorders](reorders-allow.md)
 - Payments {#payments}
-  - [Payments overview](payments.md)
+  - [Overview](payments.md)
   - PayPal payment solutions {#paypal}
     - [PayPal solutions overview](paypal.md)
     - [PayPal Express Checkout](paypal-express-checkout.md)
@@ -91,10 +91,10 @@ breadcrumb-title: Stores and Purchase Experience
   - [Invoices](invoices.md)
   - [Shipments](shipments.md)
   - Credit memos {#credit-memos}
-    - [Credit memo overview](credit-memos.md)
+    - [Overview](credit-memos.md)
     - [Issue a credit memo](credit-memo-create.md)
   - Returns {#returns}
-    - [Return and RMA overview](returns.md)
+    - [Overview](returns.md)
     - [Configure returns](rma-configure.md)
     - [Return attributes](attributes-returns.md)
     - [Returns storefront experience](rma-customer-experience.md)

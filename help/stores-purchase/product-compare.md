@@ -22,7 +22,7 @@ There are a few ways to use comparison list on the storefront.
 
    Depending on the theme and page layout, there might be a _Compare Products_ block in the sidebar. If so, the items in the category that are marked for comparison are listed.
 
-   The customer can click **Delete** (![Delete icon](../assets/icon-delete-x.png)) for any product to remove it from the comparison report, or click **Clear All** to remove all items and start over with your compare selections.
+   The customer can click _Delete_ ( ![Delete icon](../assets/icon-delete-x.png) ) for any product to remove it from the comparison report, or click **Clear All** to remove all items and start over with your compare selections.
 
 1. Clicks **Compare**.
 

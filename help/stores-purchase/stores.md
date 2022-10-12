@@ -144,7 +144,7 @@ Multi-site installations of Adobe Commerce or Magento Open Source must be config
 
 Follow the instructions to configure the [store URLs](store-urls.md).
 
-## Step 3: Configure the server
+### Step 3: Configure the server
 
 To configure your server to support multiple websites, see [Multiple websites or stores](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) in the _Configuration Guide_.
 

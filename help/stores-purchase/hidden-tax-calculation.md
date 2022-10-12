@@ -12,9 +12,7 @@ _Hidden Tax_ is the amount of VAT that a discount amount has. It is non-zero whe
 
 When there is a discount that has tax embedded in it, Commerce computes a _hidden tax_ that is added back in order to compute the discounted price.
 
-```mathematica
-discountedItemPrice = fullPriceWithOutTax - discountAmountOnFullPriceWithoutTax + vatAmountOnDiscountedPrice + hiddenTax
-```
+`discountedItemPrice = fullPriceWithOutTax - discountAmountOnFullPriceWithoutTax + vatAmountOnDiscountedPrice + hiddenTax`
 
 ## Example
 

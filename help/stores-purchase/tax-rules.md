@@ -24,7 +24,7 @@ Tax rules incorporate a combination of product class, customer class and tax rat
 
    If you need to edit an existing tax rate, do the following:
 
-   - Hover over the tax rate and click the _Edit_ ![Pencil icon](../assets/icon-edit-pencil.png)) icon.
+   - Hover over the tax rate and click the _Edit_ ![Pencil icon](../assets/icon-edit-pencil.png) icon.
 
    - Update the form as needed and click **Save**.
 

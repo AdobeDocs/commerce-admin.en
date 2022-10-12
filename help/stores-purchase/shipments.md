@@ -191,7 +191,7 @@ The status of the shipment changes to `Canceled`. If the carrier does not suppor
 
 {style="table-layout:auto"}
 
-### Items ordered
+### Items Ordered
 
 |Field|Description|
 |-----|-----------|

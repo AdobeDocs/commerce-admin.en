@@ -1,8 +1,8 @@
 ---
-title: Persistent cart
+title: Cart persistence
 description: <Add description here>
 ---
-# Persistent cart
+# Cart persistence
 
 A persistent shopping cart keeps track of unpurchased items that are left in the cart and saves the information for the customer's next visit. Customers who are _remembered_ can have the contents of their shopping carts restored the next time they visit your store.
 
@@ -55,7 +55,7 @@ Customers can select the _Remember Me_ checkbox on the login page to save the co
 
 {style="table-layout:auto"}
 
-## Clear persistence on logout
+### Clear persistence on logout
 
 | Action | Result |
 | ------ | ------ |

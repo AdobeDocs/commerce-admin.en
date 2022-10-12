@@ -1,8 +1,8 @@
 ---
-title: Value Added Tax (VAT)
+title: Value added tax (VAT)
 description: <Add description here>
 ---
-# Value Added Tax (VAT)
+# Value added tax (VAT)
 
 Some countries charge a value-added tax, or VAT, on goods and services. There can be different VAT rates depending on the stage in the manufacture or distribution process, materials, or services that you sell to your customers. In some cases, you might need to apply more than one VAT rate to correctly calculate the tax that is due.
 
@@ -128,7 +128,7 @@ A tax rule is a combination of a customer tax class, a product tax class, and a 
 
    ![Set up tax rules](./assets/vat-tax-rules.png)<!-- zoom -->
 
-## Step 5: Apply tax classes to products
+### Step 5: Apply tax classes to products
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Manage Products**.
 

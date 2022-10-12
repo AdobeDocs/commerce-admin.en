@@ -54,7 +54,7 @@ At the customer's request, the store administrator can also create an order from
 
 1. **Returns** - If for any reason the customer returns the purchased products and claims a refund, as with order amount capturing and invoice creation, you can create an online refund either from the Admin or from your PayPal merchant account.
 
-## Configure your PayPal Account
+## Configure your PayPal account
 
 Before you set up PayPal Payments Pro in Commerce, you must configure your merchant account on the PayPal website.
 

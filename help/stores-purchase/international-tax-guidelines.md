@@ -288,7 +288,7 @@ For this tax rule, make sure to set the priority to 0 and select the **Calculate
 
 1. Return to your storefront and create a sample order to test the results.
 
-## EU tax guidelines
+## EU tax configuration
 
 The following example depicts a store based in France that sells 100k+ Euros in France and 100k+ Euros in Germany.
 

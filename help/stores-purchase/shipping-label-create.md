@@ -18,10 +18,10 @@ Follow the instructions provided by each carrier to add shipping label support t
 
 - **FedEx** - Contact [FedEx Web Integration Services][1] to learn about the label printing requirements for your account.
 - **USPS** - Refer to the [Web Tools API Portal][4] under Shipper Support Center to learn how to set up your label printing credentials.
-- **UPS **- Contact [UPS][2] to confirm that your account supports shipping labels. To generate shipping labels, you must use the UPS XML option.
+- **UPS**- Contact [UPS][2] to confirm that your account supports shipping labels. To generate shipping labels, you must use the UPS XML option.
 - **DHL** - Contact [DHL eCommerce Solutions][3] to learn about the label printing requirements for your account.
 
-## Step 2 Update the configuration for each carrier
+## Step 2: Update the configuration for each carrier
 
 1. Make sure that your [Store Information](../getting-started/store-details.md#store-information) is complete.
 
@@ -96,7 +96,7 @@ DHL provides international shipping services.
 
 1. Click **Save Config**.
 
-## Step 3 Create shipping labels
+## Step 3: Create shipping labels
 
 ### Method 1: Create label for new shipment
 

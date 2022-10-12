@@ -209,10 +209,10 @@ Merchants operating across regions and geographies can show their customers a si
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Calculation Settings** section.
 
-   ![Enable Cross Border Trade Settings](./assets/cross-border-calculations-settings.png)<!-- zoom -->
-
 1. Set **Catalog Prices** to `Including Tax`.
 
 1. To enable cross-border price consistency, set **Enable Cross Border Trade** to `Yes`.
+
+   ![Enable Cross Border Trade Settings](./assets/cross-border-calculations-settings.png)<!-- zoom -->
 
 1. When complete, click **Save Config**.
