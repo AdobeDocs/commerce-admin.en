@@ -4,7 +4,7 @@ description: <Add description here>
 ---
 # DHL
 
-DHL offers integrated international services and tailored, customer-focused solutions for managing and transporting letters, goods and information.
+DHL offers integrated international services and tailored, customer-focused solutions for managing and transporting letters, goods, and information.
 
 ## Step 1: Enable DHL
 
@@ -20,7 +20,7 @@ DHL offers integrated international services and tailored, customer-focused solu
 
 1. Set **Enabled for Checkout** to `Yes`.
 
-1. In most cases, you can accept the default **Gateway URL**.
+1. Usually, you can accept the default **Gateway URL**.
 
    If DHL has given you an alternate URL, enter that value in this field.
 
@@ -41,7 +41,7 @@ DHL offers integrated international services and tailored, customer-focused solu
 
 1. Configure the handling fee options according to your requirements.
 
-   The handling fee is optional, and appears as an additional charge that is added to the DHL shipping cost. If you want to include a handling fee, do the following:
+   The handling fee is optional, and appears as an extra charge that is added to the DHL shipping cost. If you want to include a handling fee, do the following:
 
    - For **Calculate Handling Fee**, select the method you want to use to calculate handling fees:
 

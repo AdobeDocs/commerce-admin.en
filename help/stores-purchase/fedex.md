@@ -18,7 +18,7 @@ You must create a [FedEx merchant account][1] and register for FedEx Web Service
 
 >[!NOTE]
 >
->Make sure to copy or write down the authentication key. You will need it to set up FedEx in your Commerce shipping settings.
+>Make sure to copy or write down the authentication key. You need it to set up FedEx in your Commerce shipping settings.
 
 ## Step 2: Enable FedEx for Your Store
 
@@ -56,13 +56,13 @@ You must create a [FedEx merchant account][1] and register for FedEx Web Service
 
 1. Select the type of **Packaging** typically used to ship products from your store.
 
-1. Set **Dropoff** to the pick-up method that will be used for delivery.
+1. Set **Dropoff** to the pick-up method used for delivery.
 
    - `Regular Pickup` - If you have a high volume of shipments, it can be cost effective to make arrangements with FedEx for regular pickups.
 
-   - `Request Courier` - You must call and request a FedEx courier to pick-up shipments.
+   - `Request Courier` - You must call and request a FedEx courier to pick up shipments.
 
-   - `Drop Box` - You must drop off shipments at your nearby FedEx drop box.
+   - `Drop Box` - You must drop off shipments at your nearby FedEx drop off box.
 
    - `Business Service Center` - You must drop off shipments at your local FedEx business service center.
 
@@ -106,10 +106,10 @@ You must create a [FedEx merchant account][1] and register for FedEx Web Service
 
 1. Set **Allowed Methods** to each method of shipment that you want to offer.
 
-   When choosing methods, take into consideration your FedEx account, the frequency and size of your shipments, and if you allow international shipments. You can offer as many or as few methods as you want, such as:
+   When choosing methods, consider your FedEx account, the frequency and size of your shipments, and if you allow international shipments. You can offer as many or as few methods as you want, such as:
 
    - Europe First Priority
-   - Delivery day options: 1 Day Freight, 2 Day Freight, 2 Day, 2 Day AM, 3 Day Freight
+   - Delivery day options: 1 Day Freight, 2 Day Freight, 2-Day, 2-Day AM, 3 Day Freight
    - Domestic options–Express Saver, Ground, First, Overnight, Home Delivery, Standard Overnight
    - International options–International Economy, Intl Economy Freight, International First, International Ground, International, Priority Intl
    - Priority options–Freight, Priority Overnight

@@ -4,11 +4,11 @@ description: <Add description here>
 ---
 # Configure shipping labels
 
-The following settings must be made at the product level, as well as in the configuration of each carrier that is used to print labels. To print labels, all carriers require that you open an account. Then, complete the configuration in your store for each carrier that you plan to use.
+The following settings must be made at the product level, and in the configuration of each carrier that is used to print labels. To print labels, all carriers require that you open an account. Then, complete the configuration in your store for each carrier that you plan to use.
 
 ## Step 1: Verify the country of manufacture
 
-The country of manufacture is required for all products that are shipped internationally by USPS and FedEx, If you have many products that need to be updated, you can either [import](https://docs.magento.com/user-guide/system/data-import.html) the updates, or use the Inventory grid to update multiple records.
+The country of manufacture is required for all products that are shipped internationally by USPS and FedEx. If you have many products that need to be updated, you can either [import](https://docs.magento.com/user-guide/system/data-import.html) the updates, or use the Inventory grid to update multiple records.
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
@@ -47,7 +47,7 @@ The country of manufacture is required for all products that are shipped interna
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Origin** section, and verify that the following fields are complete:
 
    - **Street Address** – The street address of the place from which shipments are sent. For example, the location of your company or warehouse. This field is required for shipping labels.
-   - **Street Address Line 2** – Any additional address information, such as the floor, entrance and so on. We strongly recommend that you use this field.
+   - **Street Address Line 2** – Any additional address information, such as the floor or entrance. Using this field is recommended.
 
    ![Origin](../configuration-reference/sales/assets/shipping-settings-origin.png)<!-- zoom -->
 
@@ -79,7 +79,7 @@ The country of manufacture is required for all products that are shipped interna
 
 1. If you have multiple stores and the contact information differs from the default, set **Store View** for each and verify that the information is complete.
 
-   If the information is missing, an error will appear when you try to print the labels.
+   If the information is missing, an error appears when you try to print the labels.
 
    ![Store Information](../configuration-reference/general/assets/general-store-information.png)<!-- zoom -->
 

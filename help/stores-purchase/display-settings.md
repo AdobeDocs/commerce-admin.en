@@ -22,8 +22,6 @@ When configuration of calculation for taxes, rates, and classes is finished, tax
 
 It is a best practice to display prices with the associated taxes (either including taxes, or both the including taxes and excluding taxes) so that customers know how these calculations are applied before placing an order.
 
-If you choose to display both prices (with and without tax), the storefront will look similar to the following:
-
 ### Step 1: Configure Catalog prices display settings
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
@@ -48,7 +46,7 @@ If you choose to display both prices (with and without tax), the storefront will
    - `Including Tax`
    - `Including and Excluding Tax`
 
-If you choose to display both prices (with and without tax), the storefront will look similar to the following:
+If you choose to display both prices (with and without tax), the storefront looks similar to the following:
 
    ![Example of price display including taxes on the storefront](./assets/catalog-prices-tax.png)<!-- zoom -->
 

@@ -37,7 +37,7 @@ An order that was paid by Cash on Delivery ([COD](cash-on-delivery.md)) or by [c
 
 |Column|Description|
 |--- |--- |
-|Select|Select the checkbox to select the Credit Memo item(s) to be subject to an action, or use the selection control in the column header. Options: Select All / Deselect All|
+|Select|Select the checkbox to select the credit memo items to be subject to an action, or use the selection control in the column header. Options: Select All / Deselect All|
 |Credit Memo|A unique numeric identifier that is assigned when a request for a Credit Memo is submitted.|
 |Created|The date and time the buyer first submitted the request for a Credit Memo.|
 |Order#|Order ID of the order whose products are being returned.|
@@ -57,7 +57,7 @@ An order that was paid by Cash on Delivery ([COD](cash-on-delivery.md)) or by [c
 |Shipping Information|The method to be used to ship the order.|
 |Subtotal|The order subtotal, without shipping and handling, and tax.|
 |Shipping & Handling|The amount charged for shipping and handling.|
-|Adjustment Refund|The amount that is added to the total amount refunded as an additional refund.|
+|Adjustment Refund|The amount that is added to the total amount refunded as an extra refund.|
 |Adjustment Fee|The amount that is subtracted from the total amount refunded.|
 |Grand Total|The order total.|
 

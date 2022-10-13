@@ -48,7 +48,7 @@ See [Store Email Addresses](https://docs.magento.com/user-guide/configuration/ge
    >
    >Depending on your location, it may be illegal for gift cards to expire. Check your local laws before setting a lifetime for your gift cards.
 
-1. If you want the customer to have the option to enter a message to accompany the gift card, set **Allow Gift Message** to `Yes` and enter the number of characters available for the message for **Gift Message Maximum Length**.
+1. To give customers the option to enter a message to accompany the gift card, set **Allow Gift Message** to `Yes` and enter the number of characters available for the message for **Gift Message Maximum Length**.
 
 1. Set **Generate Gift Card Account when Orders Item is** to one of the following:
 
@@ -119,7 +119,7 @@ See [Store Email Addresses](https://docs.magento.com/user-guide/configuration/ge
 
     - To set an **Expiration Date** for the gift card, select the date from the calendar ![Calendar icon](../assets/icon-calendar.png).
 
-      If left blank, the gift card account will not expire.
+      If left blank, the gift card account does not expire.
 
     ![Gift Card Information](./assets/marketing-gift-card-accounts-new-information.png)<!-- zoom -->
 
@@ -176,7 +176,7 @@ See [Store Email Addresses](https://docs.magento.com/user-guide/configuration/ge
 |--- |--- |
 |ID|A unique numeric identifier that is assigned to gift card account.|
 |Code|The code that must be entered to apply a gift card.|
-|Website|Indicates the website(s) where the gift card account is available.|
+|Website|Indicates the websites where the gift card account is available.|
 |Created|Creation date.|
 |End|Gift card expiration date, if scheduled.|
 |Active|Determines if the gift card is active.|

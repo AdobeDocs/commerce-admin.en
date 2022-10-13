@@ -23,7 +23,7 @@ The customer completes the following steps on the storefront to submit an RMA:
 
 1. In the footer, clicks **Orders and Returns**.
 
-1. To identify the order, enters the order information:
+1. Enters the order information:
 
    - **Order ID**
    - **Billing Last Name**
@@ -64,6 +64,6 @@ The customer completes the following steps on the storefront to submit an RMA:
 
    >[!NOTE]
    >
-   >If the order contains several items and the customer wants to return another item, for example, two out of four, they can click **Add Item To Return**, select the item, and then set all mentioned options.
+   >If the order contains several items and the customer wants to return another item, they can click **Add Item To Return**, select the item, and then set all mentioned options.
 
 1. Clicks **Submit**.

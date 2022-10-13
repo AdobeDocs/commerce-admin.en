@@ -50,7 +50,7 @@ The first step is to complete the default settings for table rates. You can comp
    - Price v. Destination
    - Number of Items v. Destination
 
-1. For orders that include virtual products, set **Include Virtual Products in Price Calculation** to `Yes` if you want to be able to include the virtual product(s) in the calculation.
+1. For orders that include virtual products, set **Include Virtual Products in Price Calculation** to `Yes` if you want to be able to include the virtual products in the calculation.
 
    >[!NOTE]
    >
@@ -58,7 +58,7 @@ The first step is to complete the default settings for table rates. You can comp
 
 1. Configure the handling fee options according to your requirements.
 
-   The handling fee is optional and appears as an additional charge that is added to the shipping cost. If you want to include a handling fee, do the following:
+   The handling fee is optional and appears as an extra charge that is added to the shipping cost. If you want to include a handling fee, do the following:
 
    - Set **Calculate Handling Fee**:
 
@@ -108,7 +108,7 @@ The first step is to complete the default settings for table rates. You can comp
 
    - Use an asterisk (*) as a wildcard to represent all possible values in any category.
    - The Country column must contain a [valid three-character code][1] for each row.
-   - Sort the data by Region/State so the specific locations are at the top of the list, and the wildcard locations at the bottom. This will process the rules with the absolute values first, and the wildcard values later.
+   - Sort the data by Region/State so the specific locations are at the top of the list, and the wildcard locations at the bottom. This processes the rules with the absolute values first, and the wildcard values later.
 
    ![Weight vs. Destination (Australia)](./assets/table-rates-weight-destination-csv.png)<!-- zoom -->
 
@@ -118,7 +118,7 @@ The first step is to complete the default settings for table rates. You can comp
 
 1. Return to the **Table Rates** section of your store configuration.
 
-1. In the upper-left corner, set **Store View** to the website where this method will be used.
+1. In the upper-left corner, set **Store View** to the website where this method is used.
 
 1. For **Import**, click **Choose File** and select your completed `tablerates.csv` file to import the rates.
 
@@ -128,9 +128,9 @@ The first step is to complete the default settings for table rates. You can comp
 
 ## Step 4: Verify the rates
 
-To make sure that the table rate data is correct, go through the payment process with several different addresses to make sure the shipping and handling rates are calculated correctly.
+To make sure that the table rate data is correct, go through the payment process with several different addresses to make sure that the shipping and handling rates are calculated correctly.
 
-### Example 1: Price v. destination
+### Example 1: Price and destination
 
 This example uses the Price v. Destination condition to create a set of three different shipping rates based on the amount of the order subtotal for the continental United States, Alaska, and Hawaii. The asterisk (*) is a wildcard that represents all values.
 
@@ -148,7 +148,7 @@ This example uses the Price v. Destination condition to create a set of three di
 
 {style="table-layout:auto"}
 
-### Example 2: Weight v. destination
+### Example 2: Weight and destination
 
 This example uses the Weight v. Destination condition to create different shipping rates based on the weight of the order.
 

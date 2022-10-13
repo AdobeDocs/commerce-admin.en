@@ -4,7 +4,7 @@ description: <Add description here>
 ---
 # Scheduled order operations
 
-Use [Cron](https://docs.magento.com/user-guide/system/cron.html) jobs to schedule the following order management tasks:
+Use [Cron](https://docs.magento.com/user-guide/system/cron.html) jobs to schedule the following order processing tasks:
 
 ![Orders grid](./assets/orders-grid.png)<!-- zoom -->
 
@@ -35,7 +35,7 @@ The Grid Settings configuration schedules updates to the following order managem
 - [Shipments](shipments.md)
 - [Credit Memos](credit-memos.md)
 
-The benefits of scheduling these tasks is to avoid the locks that occur when data is saved, and to reduce processing time. When enabled, any updates take place only during the scheduled cron job. For best results, Cron should be configured to run once every minute.
+By scheduling these tasks, you can avoid the locks that occur when data is saved and reduce processing time. When enabled, any updates take place only during the scheduled cron job. For best results, Cron should be configured to run once every minute.
 
 To enable the updates and reindexing:
 

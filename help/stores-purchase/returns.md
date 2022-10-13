@@ -14,7 +14,7 @@ RMAs can be issued for simple, grouped, configurable, and bundle product types. 
 
 |Column|Description|
 |--- |--- |
-|Select|Select the checkbox to select the return(s) to be subject to an action, or use the selection control in the column header. Options: Select All / Deselect All / Select Visible / Unselect Visible|
+|Select|Select the checkbox to select the returns to be subject to an action, or use the selection control in the column header. Options: Select All / Deselect All / Select Visible / Unselect Visible|
 |RMA|A unique numeric identifier that is assigned to each return|
 |Requested|Date and time the return was placed|
 |Order|A unique number of the original order|
@@ -37,7 +37,7 @@ RMAs can be issued for simple, grouped, configurable, and bundle product types. 
 
 ## RMA status
 
-During its lifecycle, a returned merchandise authorization (RMA) can have many assigned statuses (such as Pending, Authorized, etc.). The RMA status indicates the progress of an RMA request raised by the user or the merchant.
+During its lifecycle, a returned merchandise authorization (RMA) can have many assigned statuses (such as Pending or Authorized). The RMA status indicates the progress of an RMA request raised by the user or the merchant.
 
 |Status|Description|
 |--- |--- |

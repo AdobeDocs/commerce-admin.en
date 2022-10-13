@@ -15,7 +15,7 @@ PayPal is a global leader in online payments and a fast and secure way for your 
 
 To offer PayPal as a payment method in your store, you must have a PayPal [business account][1] and/or a [PayPal Payflow account][2]. The account requirements are specified in the description of each PayPal solution. Your PayPal merchant account is also used to manage any [fraud filters](#paypal-fraud-management-filters) that are applied to purchases made from your store.
 
-Customers who use PayPal Express Checkout or Express Checkout for Payflow Pro must have a PayPal buyer account. PayPal Payments Standard (in some countries, called Website Payments Standard) can be used directly or through a buyer account, provided that the merchant enables PayPal Account Optional. By default, this parameter is enabled so that customers can choose to enter their credit card information or create a buyer account with PayPal. When disabled, customers must first create a PayPal buyer account before making a purchase.
+Customers who use PayPal Express Checkout or Express Checkout for Payflow Pro must have a PayPal buyer account. PayPal Payments Standard (Website Payments Standard in some countries) can be used directly or through a buyer account when that the merchant enables _PayPal Account Optional_. By default, this parameter is enabled so that customers can choose to enter their credit card information or create a buyer account with PayPal. When disabled, customers must first create a PayPal buyer account before making a purchase.
 
 Website Payments Pro, Website Payments Pro Payflow Edition, Payflow Pro Gateway, and Payflow Link require customers to enter credit card information during checkout.
 
@@ -51,11 +51,11 @@ With PayPal and Adobe Commerce and Magento Open Source, you can accept payments 
 
 >[!NOTE]
 >
->You cannot have more than one PayPal method enabled in your store at a time, with the exception of PayPal Express Checkout. PayPal Express Checkout can be used in combination with other PayPal payment methods, except for PayPal Payments Standard. If you change payment solutions, the previously method is disabled.
+>You cannot have more than one PayPal method enabled in your store at a time, except for PayPal Express Checkout. PayPal Express Checkout can be used with other PayPal payment methods, except for PayPal Payments Standard. If you change payment solutions, the previous method is disabled.
 
 ### PayPal Express Checkout
 
-[Paypal Express Checkout](paypal-express-checkout.md)
+[PayPal Express Checkout](paypal-express-checkout.md)
 
 ### PayPal All-in-one payment solutions
 
@@ -80,7 +80,7 @@ There are two types of payment gateways---direct and hosted.
 
 The payment gateway provides security and protection for all parties involved in a transaction.
 
-PayPal offers a choice of two payment gateway solutions for your business. You can let PayPal host your checkout on its secure payment site, or you can take control of the entire payment experience with a completely customizable solution.
+PayPal offers a choice of two payment gateway solutions for your business. You can let PayPal host your checkout on its secure payment site, or you can take control of the entire payment experience with a customizable solution.
 
 - [PayPal Payflow Pro](paypal-payflow-pro.md)
 - [PayPal Payflow Link](paypal-payflow-link.md)
@@ -147,7 +147,7 @@ PayPal Express Checkout and PayPal Website Payments Standard are available in th
 - Israel
 - Jamaica
 - Latvia
-- Leichtenstein
+- Liechtenstein
 - Lithuania
 - Luxembourg
 - Malaysia

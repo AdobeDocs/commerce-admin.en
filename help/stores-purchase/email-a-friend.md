@@ -24,13 +24,13 @@ The Email link makes it easy for your customers to share links to products with 
 
     - Set **Enabled** to `Yes`.
 
-    - Set **Select Email Template** to the template you want to use as the basis of the messages.
+    - Set **Select Email Template** to the template that you want to use as the basis of the messages.
 
     - If you want to require that only registered customers can send email to friends, set **Allow for Guests** to `No`.
 
-    - In the **Max Recipients** field, enter the maximum number of friends who can be on the distribution list for a single message.
+    - For **Max Recipients**, enter the maximum number of friends who can be on the distribution list for a single message.
 
-    - In the **Max Products Sent in 1 Hour** field, enter the maximum number of products that can be shared by a single user with friends over a one-hour time period.
+    - For **Max Products Sent in 1 Hour**, enter the maximum number of products that can be shared by a single user with friends over a one-hour time period.
 
     - Set **Limit Sending By** to one of the following methods to identify the sender of emails:
 

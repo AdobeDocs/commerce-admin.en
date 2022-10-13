@@ -6,19 +6,19 @@ description: <Add description here>
 
 {{ee-feature}}
 
-Gift cards are redeemed in the shopping cart similar to the way a coupon is applied to an order. During checkout, the shopper enters the gift card code to apply an amount from the gift card to the purchase. Gift card holders who have customer accounts can check the status and remaining balance from their account dashboard. Single, as well as multiple, gift cards can be used to pay for all or part of a order.
+Gift cards are redeemed in the shopping cart similar to the way that a coupon is applied to an order. During checkout, the shopper enters the gift card code to apply an amount from the gift card to the purchase. Gift card holders who have customer accounts can check the status and remaining balance from their account dashboard. Single, and multiple, gift cards can be used to pay for all or part of an order.
 
-The gift card code applied to an order can be viewed by opening the order in the _Admin_, which makes it possible for you to retrieve the code to place it on a physical gift card, if necessary. If a gift card order is canceled or refunded, you must manually cancel the associated gift card account. You can either delete the account entirely or deactivate it.
+The applied gift card code applied can be viewed by opening the order in the _Admin_, which makes it possible for you to retrieve the code to place it on a physical gift card, if necessary. If a gift card order is canceled or refunded, you must manually cancel the associated gift card account. You can either delete the account entirely or deactivate it.
 
 ![Gift Card Detail in Cart](./assets/storefront-gift-card-order-customer-account.png)<!-- zoom -->
 
 For example, a customer shopping in the demo Luma store can purchase either a virtual or physical gift card.
 
-**Virtual gift card** - A Luma virtual gift card is emailed with an optional message to the recipient. It can be redeemed on any of the Luma family of websites and will never expire.
+**Virtual gift card** - A Luma virtual gift card is emailed with an optional message to the recipient. It can be redeemed on any of the Luma family of websites and never expires.
 
-**Physical gift card** - A Luma gift card is packaged in a custom art mailer and sent at no charge to the recipient. It can be produced in advance, labeled with unique codes, and redeemed in store, by phone, or on any of the Luma family of websites. It will never expire.
+**Physical gift card** - A Luma gift card is packaged in a custom art mailer and sent at no charge to the recipient. It can be produced in advance, labeled with unique codes, and redeemed in store, by phone, or on any of the Luma family of websites. It never expires.
 
-**Combined gift card** - A combined gift card has the characteristics of both a virtual and physical gift card. A Luma combined gift card is shipped and emailed to the recipient. The email and shipping address are required during the purchase of the gift card. It will never expire.
+**Combined gift card** - A combined gift card has the characteristics of both a virtual and physical gift card. A Luma combined gift card is shipped and emailed to the recipient. The email and shipping address are required during the purchase of the gift card. It never expires.
 
 ## Gift card lifecycle
 
@@ -44,4 +44,4 @@ For example, a customer shopping in the demo Luma store can purchase either a vi
 
 1. **Recipient applies gift card to purchase**.
 
-   The recipient purchases an item in your store and applies the gift card code during checkout. Each time a gift card is applied during checkout, the amount appears in the order totals block and is subtracted from the grand total. The full balance of each gift card is subtracted from the shopping cart total. If multiple gift cards are used to pay for a purchase, the amounts are applied in ascending order, starting with the card with the smallest remaining balance, until the customer runs out of cards or until the grand total is zero. When the grand total reaches zero, the last gift card account applied to the cart receives a partial deduction. Any cards that have not been applied to the cart do not receive a balance deduction. The amounts are deducted from the gift card accounts only after the order is placed.
+   The recipient purchases an item in your store and applies the gift card code during checkout. Each time a gift card is applied during checkout, the amount appears in the order totals block and is subtracted from the grand total. The full balance of each gift card is subtracted from the shopping cart total. If multiple gift cards are used for a purchase, they are applied in ascending order, starting with the card with the smallest remaining balance, until all are applied or the grand total is zero. When the grand total reaches zero, the last gift card account applied to the cart receives a partial deduction. Any cards that have not been applied to the cart do not receive a balance deduction. The amounts are deducted from the gift card accounts only after the order is placed.

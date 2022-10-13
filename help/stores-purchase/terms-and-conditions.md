@@ -4,7 +4,7 @@ description: <Add description here>
 ---
 # Terms and conditions for checkout
 
-When manual _Terms and Conditions_ is enabled, customers are required to agree to the terms and conditions of the sale before the purchase is finalized. The Terms and Conditions of the sale typically includes disclosure information that might be required by law for B2C or B2B sites, and outlines the rights of the buyer and seller. The Terms and Conditions message appears after the payment information, just before the _Place Order_ button.
+When manual _Terms and Conditions_ functionality is enabled, customers are required to agree to the terms and conditions of the sale before the purchase is finalized. The Terms and Conditions of the sale typically includes disclosure information that might be required by law for B2C or B2B sites, and outlines the rights of the buyer and seller. The Terms and Conditions message appears after the payment information, just before the _Place Order_ button.
 
 ![Terms and Conditions at checkout](./assets/storefront-checkout-step2-terms-conditions.png)<!-- zoom -->
 
@@ -58,6 +58,6 @@ When manual _Terms and Conditions_ is enabled, customers are required to agree t
 
 1. (Optional) Enter the **Content Height (css)** in pixels to determine the height of the text box where the terms and conditions statement appears during checkout.
 
-   For example, to make the text box one inch high on a 96 dpi display, enter `96`. A scroll bar appears if the content extends beyond the height of the box.
+   For example, to make the text box 1 inch high on a 96-dpi display, enter `96`. A scroll bar appears if the content extends beyond the height of the box.
 
 1. Click **Save Condition**.

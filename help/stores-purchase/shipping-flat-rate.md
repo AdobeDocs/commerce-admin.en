@@ -32,13 +32,13 @@ _Flat rate_ is a fixed, predefined charge that can be applied per item, or per s
 
    - `None` - Disables the payment type. The Flat Rate option is listed in the cart, but with a rate of zero—which is the same as free shipping.
    - `Per Order` - Charges a single flat rate for the entire order.
-   - `Per Item` - Charges a single flat rate for each item. The rate is multiplied by the number of items in the cart, regardless of whether there are multiple quantities of the same,or of different items.
+   - `Per Item` - Charges a single flat rate for each item. The rate is multiplied by the number of items in the cart, regardless of whether there are multiple quantities of the same, or of different items.
 
 1. Enter the **Price** that you want to charge for flat rate shipping.
 
 1. Configure the handling fee options according to your requirements.
 
-   The handling fee is optional and appears as an additional charge that is added to the shipping cost. If you want to include a handling fee, do the following:
+   The handling fee is optional and appears as an extra charge that is added to the shipping cost. If you want to include a handling fee, do the following:
 
    - For **Calculate Handling Fee**, select the method you want to use to calculate handling fees:
 

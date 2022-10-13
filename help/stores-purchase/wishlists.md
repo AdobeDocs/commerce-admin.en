@@ -4,7 +4,7 @@ description: <Add description here>
 ---
 # Wish lists
 
-A wish list is a list of products that a registered customer can share with friends, or save to transfer to the cart at a later date. When wish lists are enabled, the Add to Wishlist link appears on the category and product pages of each product in the store. Depending on the theme, it might be a text link or a graphic image.
+A wish list is a list of products that a registered customer can share with friends, or save to transfer to the cart later. When wish lists are enabled, the Add to Wishlist link appears on the category and product pages of each product in the store. Depending on the theme, it might be a text link or a graphic image.
 
 ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce supports the use of multiple wish lists per customer account.
 
@@ -16,7 +16,7 @@ Wish lists can be updated from the dashboard of the [customer account](https://d
 
 ![Example storefront - My Wish List](./assets/customer-account-wishlist-add-item.png)<!-- zoom -->
 
-When a product with multiple options is added to a wish list, any options that have been selected by the customer are included in the wish list item description. For example, if the customer adds the same pair of shoes in three different colors, each pair appears as a separate wish list item. On the other hand, if the customer adds the same product to the wish list multiple times, the product appears only once, but with an updated quantity that reflects the number of times the product was added.
+When a product with multiple options is added to a wish list, any options that have been selected by the customer are included in the wish list item description. For example, if the customer adds the same pair of shoes in three different colors, each pair appears as a separate wish list item. However, if the customer adds the same product to the wish list multiple times, the product appears only once, but with an updated quantity that reflects the number of times the product was added.
 
 ## Wish list assistance
 

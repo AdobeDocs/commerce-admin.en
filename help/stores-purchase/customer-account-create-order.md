@@ -8,7 +8,7 @@ For registered customers who need assistance, you can create an entire order dir
 
 ![Create an order for a customer](./assets/create-new-order.png)<!-- zoom -->
 
-## Step 1: Create a new order
+## Step 1: Create an order
 
 1. On the _Admin_ sidebar, click **Customers**.
 
@@ -20,7 +20,7 @@ For registered customers who need assistance, you can create an entire order dir
 
    ![Workspace header](./assets/order-create-buttons.png)<!-- zoom -->
 
-   You can also create a new order in the [Order workspace](orders.md#orders-workspace) by clicking **Create New Order**.
+   You can also create an order in the [Order workspace](orders.md#orders-workspace) by clicking **Create New Order**.
 
 ## Step 2: Add products
 
@@ -28,7 +28,7 @@ If your store has multiple views, choose the store view where the order is to be
 
 ### Add products from the Customer's Activities sidebar
 
-You can transfer items to the cart from a customer's wish list, as well as recently viewed, compared, or ordered items.
+You can transfer items to the cart from a customer's wish list, and recently viewed, compared, or ordered items.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) one of the following sections:
 
@@ -86,7 +86,7 @@ You can transfer items to the cart from a customer's wish list, as well as recen
 
 >[!NOTE]
 >
->See the [Payment Services Guide](https://experienceleague.corp.adobe.com/docs/commerce-merchant-services/payment-services/create-order.html) for more information about payment methods to support this functionality when the Payment Services extension is installed and configured.
+>See the [Payment Services Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/create-order.html) for more information about payment methods to support this functionality when the Payment Services extension is installed and configured.
 
 ## Step 3: Submit the order
 

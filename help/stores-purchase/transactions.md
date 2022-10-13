@@ -31,7 +31,7 @@ On the _Admin_ sidebar, go to **Sales** > _Operations_ > **Transactions**.
 
 1. On the _Admin_ sidebar, go to **Sales** > **Transactions**.
 
-1. Click the entry you want to view.
+1. Click the entry that you want to view.
 
 On the transaction details page, you can see the transaction detail and child transactions grid.
 

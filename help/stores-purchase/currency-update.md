@@ -14,7 +14,7 @@ Before importing currency rates, complete the [currency rate setup](currency-con
 
 1. On the _Admin_ sidebar, go to **Stores** > _Currency_ > **Currency Rates**.
 
-1. Click the rate you want to change and enter the new value for each currency supported.
+1. Click the rate that you want to change and enter the new value for each currency supported.
 
 1. When complete, click **Save Currency Rates**.
 
@@ -44,4 +44,4 @@ Before importing currency rates, complete the [currency rate setup](currency-con
 
 1. To verify that the rates are imported on schedule, check the _Currency Rates_ list.
 
-1. Wait for the duration of the frequency setting established for the schedule and check the rates again.
+1. Wait for the time period of the frequency setting established for the schedule and check the rates again.

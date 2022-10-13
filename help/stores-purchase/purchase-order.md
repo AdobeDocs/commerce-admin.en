@@ -19,7 +19,7 @@ Before accepting payment by purchase order, always establish the credit worthine
    ![Purchase Order](../configuration-reference/sales/assets/payment-methods-purchase-order.png)
    )<!-- zoom -->
 
-   For a detailed description of each of these configuration settings, see [Purchase Order](https://docs.magento.com/user-guide/configuration/sales/payment-methods.html#purchase-order)in the _Configuration Reference Guide_.
+   For a detailed description of each of these configuration settings, see [Purchase Order](https://docs.magento.com/user-guide/configuration/sales/payment-methods.html#purchase-order) in the _Configuration Reference Guide_.
 
    >[!NOTE]
    >

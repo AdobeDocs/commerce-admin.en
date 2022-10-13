@@ -4,7 +4,7 @@ description: <Add description here>
 ---
 # Currency
 
-Adobe Commerce and Magento Open Source give you the ability to accept currencies from more than two hundred countries around the world. If the store supports multiple currencies, a Currency Chooser appears in the header after currency rates are [updated](currency-update.md).
+Adobe Commerce and Magento Open Source give you the ability to accept currencies from more than 200 countries around the world. If the store supports multiple currencies, a Currency Chooser appears in the header after currency rates are [updated](currency-update.md).
 
 >[!NOTE]
 >

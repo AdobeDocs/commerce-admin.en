@@ -4,7 +4,7 @@ description: <Add description here>
 ---
 # Store URLs
 
-Each website in a Adobe Commerce or Magento Open Source installation has a base URL that is assigned to the storefront, and another URL that is assigned to the Admin. Adobe uses variables to define internal links in relation to the base URL, which makes it possible to move an entire store from one location to another without updating the links. Standard base URLs begin with `http`, and secure base URLs begin with `https`.
+Each website in an Adobe Commerce or Magento Open Source installation has a base URL that is assigned to the storefront, and another URL that is assigned to the Admin. Adobe uses variables to define internal links in relation to the base URL, which makes it possible to move an entire store from one location to another without updating the links. Standard base URLs begin with `http`, and secure base URLs begin with `https`.
 
 - **Base URL** — `http://www.yourdomain.com/magento/`
 - **Secure Base URL** — `https://www.yourdomain.com/magento/`
@@ -24,7 +24,7 @@ If a security certificate was not available for the domain at the time of the in
 >
 >Adobe strongly recommends transmitting all pages of a production site, including content and product pages, using a secure protocol.
 
-Adobe Commerce and Magento Open Source can be configured to deliver all pages over `HTTPS` by default. If your store has been running up until now with standard protocol, you can improve security by enabling [HTTP Strict Transport Security][2] (HSTS) and upgrading any unsecure page requests that are received by the store. HSTS is an opt-in protocol that prevents browsers from rendering standard `HTTP` pages that are transmitted with unsecure protocol for the specified domain. Because search engines might have already indexed each page of your store with standard `HTTP` URLs, you can configure Commerce to upgrade any unsecure page requests to `HTTPS` automatically , so you don't lose any traffic. When Commerce is configured to use secure URLs for both the store and Admin, two additional fields appear that allow you to enable `HSTS`.
+Adobe Commerce and Magento Open Source can be configured to deliver all pages over `HTTPS` by default. If your store has been running up with standard protocol, you can improve security by enabling [HTTP Strict Transport Security][2] (HSTS) and upgrading any unsecure page requests. HSTS is an opt-in protocol that prevents browsers from rendering standard `HTTP` pages that are transmitted with unsecure protocol for the specified domain. Because search engines might have already indexed each page of your store with standard `HTTP` URLs, you can configure Commerce to upgrade any unsecure page requests to `HTTPS` automatically , so you don't lose any traffic. When Commerce is configured to use secure URLs for both the store and Admin, two additional fields appear that allow you to enable `HSTS`.
 
 ## Configure the base URL
 
@@ -99,7 +99,7 @@ If your domain has a valid security certificate, you can configure the URLs of b
 
 >[!NOTE]
 >
->When _Add Store Code to URLs_ option is set to `Yes`, you must include store codes in your browser URLs to ensure that URL rewrites are mapped correctly and all pages are opened successfully, without _"404 Page Not Found"_ errors.
+>When the _Add Store Code to URLs_ option is set to `Yes`, you must include store codes in your browser URLs. This ensures that URL rewrites are mapped correctly and all pages are opened successfully, without _"404 Page Not Found"_ errors.
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -129,13 +129,13 @@ If after following the configuration instructions, some pages continue to be ser
 
 ## Use a custom Admin URL
 
-As a [security best practice](https://www.adobe.com/content/dam/cc/en/security/pdfs/Adobe-Magento-Commerce-Best-Practices-Guide.pdf), Adobe recommends that you use a unique, custom Admin URL instead of the default _admin_ or a common term such as _backend_. Although it will not directly protect your site from a determined bad actor, it can reduce exposure to scripts that try to gain unauthorized access.
+As a [security best practice](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adobe-commerce-best-practices-guide.pdf), Adobe recommends that you use a unique Admin URL instead of the default _admin_ or a common term such as _backend_. Although it does not directly protect your site from a determined bad actor, it can reduce exposure to scripts that try to gain unauthorized access.
 
 >[!NOTE]
 >
 >Check with your hosting provider before implementing a custom Admin URL. Some hosting providers require a standard URL to meet firewall protection rules.
 
-In a typical installation, the Admin URL and path immediately follows the base URL. The Admin path is one directory below the root.
+In a typical installation, the Admin URL and path immediately follow the base URL. The Admin path is one directory below the root.
 
 - **Default Base URL**: `http://yourdomain.com/magento/`
 - **Default Admin Path**: `admin`
@@ -219,7 +219,7 @@ Although it is possible to change the Admin URL and path to another location, an
 
    >[!NOTE]
    >
-   >Note that the changes made using the Method 1 will have the priority over the changes made in the `app/etc/env.php` file.
+   >The changes made using the Method 1 have the priority over the changes made in the `app/etc/env.php` file.
 
 ### Method 3: Change the Admin path using the Commerce CLI
 

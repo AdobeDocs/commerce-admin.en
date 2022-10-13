@@ -124,7 +124,7 @@ These recommended settings can be used for most tax configurations for stores wi
 |Tax Calculation|On item|
 |Tax shipping?|Yes|
 |Apply Discount|Before tax, discount on prices, including tax.|
-|Comment|For B2B merchants to provide simpler VAT supply chain considerations. Tax calculation on row is also valid; however, check with your taxing jurisdiction. Setup assumes a merchant is in the supply chain and that goods sold are used by other vendors for VAT rebates and so on. This makes it easy to discern tax by item for faster rebate generation. <br/><br/>**_Note:_** Some jurisdictions require different rounding strategies not currently supported by Commerce, and that not all jurisdictions allow item or row level tax.|
+|Comment|For B2B merchants to provide simpler VAT supply chain considerations. Tax calculation on row is also valid; however, check with your taxing jurisdiction. Setup assumes that a merchant is in the supply chain and that goods sold are used by other vendors for VAT rebates and so on. This makes it easy to discern tax by item for faster rebate generation. <br/><br/>**_Note:_** Some jurisdictions require different rounding strategies not currently supported by Commerce, and that not all jurisdictions allow item or row level tax.|
 
 {style="table-layout:auto"}
 
@@ -214,7 +214,7 @@ The following example shows how to set up GST tax rates for Canada and PST tax
 
 ### Step 2: Set up Canadian Goods & Services Tax (GST)
 
-To print the GST number on invoices and other sales documents, include it in the name of the applicable tax rates. The GST will appear as part of the GST amount on any order summary.
+To print the GST number on invoices and other sales documents, include it in the name of the applicable tax rates. The GST appears as part of the GST amount on any order summary.
 
 #### Manage Tax Zones & Rates
 
@@ -294,7 +294,7 @@ The following example depicts a store based in France that sells 100k+ Euros in 
 
 - Tax calculations are managed at the website level.
 - Currency conversion and tax display options are controlled individually at the store view level (Select the Use Website checkbox to override the default).
-- By setting the default tax country you can dynamically show the correct tax for the jurisdiction.
+- By setting the default tax country, you can dynamically show the correct tax for the jurisdiction.
 - Fixed product tax is included for relevant goods as a product attribute.
 - It might be necessary to edit the catalog to ensure that it shows up in the correct category/website/store view.
 

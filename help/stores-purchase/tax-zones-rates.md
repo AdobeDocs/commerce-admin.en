@@ -4,9 +4,9 @@ description: <Add description here>
 ---
 # Tax zones and rates
 
-Tax rates generally apply to transactions that take place within a specific geographical area. The Tax Zones and Rates tool enables you to specify the tax rate for each geographical area from which you collect and remit taxes. Because each tax zone and rate has a unique identifier, you can have multiple tax rates for a given geographic area (such as places that do not tax food or medicine, but do tax other items).
+Tax rates generally apply to transactions that take place within a specific geographical area. Use the _Tax Zones and Rates_ tool to specify the tax rate for each geographical area from which you collect and remit taxes. Because each tax zone and rate has a unique identifier, you can have multiple tax rates for a given geographic area (such as places that do not tax food or medicine, but do tax other items).
 
-Store tax is calculated based on the store's address. The actual customer tax for an order is calculated after the customer completes the order information. Commerce then calculates the tax based upon the tax configuration of the store.
+Store tax is calculated based on the store's address. The actual customer tax for an order is calculated after the customer completes the order information. Commerce then calculates the tax according to the tax configuration of the store.
 
 ![Tax Zones and Rates](./assets/tax-zones-rates.png)<!-- zoom -->
 

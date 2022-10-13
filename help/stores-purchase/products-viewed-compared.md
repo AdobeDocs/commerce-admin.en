@@ -28,10 +28,10 @@ The Recently Viewed and Recently Compared blocks usually appear in the right sid
 
 1. For **Lifetime of products in Recently Viewed Widget**, enter any time range in seconds, greater than zero.
 
-   This setting determines how long the viewed products will be shown in the recently viewed list.
+   This setting determines how long the viewed products are shown in the recently viewed list.
 
 1. For **Lifetime of products in Recently Compared Widget**, enter any time range in seconds, greater than zero.
 
-   This setting determines how long the compared products will be shown in the recently compared list.
+   This setting determines how long the compared products are shown in the recently compared list.
 
 1. When complete, click **Save Config**.

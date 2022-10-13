@@ -30,7 +30,7 @@ An [invoice](invoices.md) is a record of the receipt of payment for an order. Mu
 
 ### Shipments
 
-A [shipment](shipments.md) is a record of the products in an order that have been shipped. As with invoices, multiple shipments can be associated with a single order, until all of the products in the order are shipped.
+A [shipment](shipments.md) is a record of the products in an order that have been shipped. As with invoices, multiple shipments can be associated with a single order, until all products in the order are shipped.
 
 ### Credit Memos
 
@@ -58,4 +58,4 @@ On the Braintree Virtual Terminal page, an Admin user can accept the payment for
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only)
 
-(Archive option must be enabled) [Archiving orders](order-archive.md) and other sales documents on a regular basis improves performance and keeps your workspace free of unnecessary information.
+(Archive option must be enabled) [Archiving orders](order-archive.md) and other sales documents regularly improves performance and keeps your workspace free of unnecessary information.

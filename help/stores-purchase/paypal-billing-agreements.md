@@ -8,7 +8,7 @@ To simplify the checkout process, customers can enter into a billing agreement w
 
 ## Billing agreement workflow
 
-1. **Customer signs up for a billing agreement**. After a billing agreement is in place, additional billing agreements can be added only from the customer account. There is no limit to the number of billing agreements a customer can create. Customers can use any of the following methods to sign up for billing agreements:
+1. **Customer signs up for a billing agreement**. After a billing agreement is in place, additional billing agreements can be added only from the customer account. There is no limit to the number of billing agreements that a customer can create. Customers can use any of the following methods to sign up for billing agreements:
 
    - **Sign up in customer account** - Customers can sign up for a billing agreement from their customer accounts.
    - **Sign up at checkout** - Customers who pay for a purchase with PayPal Express Checkout can  mark a checkbox to create a billing agreement. Although the billing agreement is not used for the current order, it becomes available as a payment method option the next time the customer places an order.   

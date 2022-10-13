@@ -6,17 +6,17 @@ description: <Add description here>
 
 {{ee-feature}}
 
-Your customers could have a large number of saved addresses and information in their address book, especially regular, returning customers or companies entering multiple orders and shipment locations. Displaying a large amount of addresses can slow checkout loading and processes considerably, and result in a negative shopping experience. To help increase the responsiveness of checkout, we recommend activating and configuring address search for your site.
+Your customers could have many saved addresses and information in their address book, especially regular, returning customers or companies entering multiple orders and shipment locations. Displaying many addresses can slow checkout loading and processes considerably, and result in a negative shopping experience. To help increase the responsiveness of checkout, we recommend activating and configuring address search for your site.
 
 >[!NOTE]
 >
 >Address search is not enabled by default. You must configure this feature to include the functionality on your site.
 
-When this feature is enabled and the customer's number of saved addresses meets or exceeds the configured limit, only one address is displayed (the default address, if the customer has one) for the _Shipping_ and _Review & Payments_ steps. The customer can change the selected address by clicking **Change Address** and then searching for the correct address by city, state, street, or zip. This feature also supports address selection for gift registry checkout.
+When this feature is enabled and the customer's number of saved addresses meets or exceeds the configured limit, the _Shipping_ and _Review & Payments_ steps display only one address (the default). The customer can change the selected address by clicking **Change Address** and then searching for the correct address by city, state, street, or zip. This feature also supports address selection for gift registry checkout.
 
 ![Checkout with saved shipping addresses displayed](./assets/storefront-checkout-address-search.png)<!-- zoom -->
 
-If the customer does not have a default shipping address, the _Shipping_ page displays _No address selected_, and the customer must click **Change Address** to select a saved address or click **New Address** to add and select an address before proceeding with the checkout. If the customer does not have a default billing address, the _Review & Payments_ page displays the address selected for shipping along with the _Change Address_ option.
+If the customer does not have a default shipping address, the _Shipping_ page displays _No address selected_. In this case, the customer must click **Change Address** to select a saved address or click **New Address** to add and select an address before proceeding with the checkout. If the customer does not have a default billing address, the _Review & Payments_ page displays the address selected for shipping along with the _Change Address_ option.
 
 ![Checkout with no address selected message](./assets/storefront-checkout-address-search-no-default.png)<!-- zoom -->
 

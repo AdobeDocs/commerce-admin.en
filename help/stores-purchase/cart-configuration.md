@@ -20,7 +20,7 @@ The cart configuration determines how the shopping cart functions for your store
 
 [**Cart thumbnails**](#cart-thumbnails)  - Configure the cart thumbnail options to determine the thumbnails displayed in the cart for grouped or configurable products.
 
-[**Gift options**](#gift-options) - Configure gift options to determine if customers can add a gift message or greeting card, and if gift wrapping options that are available.
+[**Gift options**](#gift-options) - Configure gift options to determine if customers can add a gift message or greeting card, and if gift-wrapping options that are available.
 
 >[!NOTE]
 >
@@ -109,7 +109,7 @@ The shopping cart page can be configured to appear whenever an item is added to 
 
 With the installation and enablement of B2B for Adobe Commerce, you can add support for the _Quotes_ feature. This capability allows authorized buyers to initiate the price negotiation process by submitting a request from the shopping cart. The _Quotes_ grid lists each quote received, and maintains a history of the communication between buyer and seller. For more information about the B2B features, see [Negotiated quotes](../b2b/quotes.md) in the _B2B for Adobe Commerce User Guide_.
 
-You can determine how long a price is valid by setting the cart quote lifetime in the configuration. For example, if a shopper leaves a cart unattended after several days, the quotes price for some items might no longer be the same. By default, the quote lifetime is set to thirty days.
+You can determine how long a price is valid by setting the cart quote lifetime in the configuration. For example, if a shopper leaves a cart unattended after several days, the quotes price for some items might no longer be the same. By default, the quote lifetime is set to 30 days.
 
 **_To configure the quote lifetime:_**
 
@@ -153,8 +153,8 @@ The configuration allows you to specify a minimum amount, after discounts are ap
 
    - Set **Include Discount Amount** to one of the following:
 
-      - `Yes` - Requires the subtotal to meet the minimum amount with any discounts included. For example, with a $50 minimum and the cart contains a $60 top with a 25% discount applied, the resulting subtotal used for the requirement is $45 and the cart would not meet the minimum.
-      - `No` - Requires the subtotal to meet the minimum amount without any discounts.
+      - `Yes` - Requires that the subtotal meet the minimum amount with any discounts included. Using an example of a $50 minimum, if the cart contains a $60 top with a 25% discount applied, the resulting subtotal is $45 and the cart would not meet the minimum.
+      - `No` - Requires that the subtotal meet the minimum amount without any discounts.
 
    - Set **Include Tax to Amount** to one of the following:
 
@@ -171,11 +171,11 @@ The configuration allows you to specify a minimum amount, after discounts are ap
 
 1. If needed, configure minimum order amount setting for multi-address orders:
 
-   - To require that each address in a multi-address order meet the minimum order amount, set **Validate Each Address Separately in Multi-address Checkout** to `Yes`.
+   - To require that each address in a multi-address order meets the minimum order amount, set **Validate Each Address Separately in Multi-address Checkout** to `Yes`.
 
    - Optionally, customize minimum order amount message settings:
 
-      - **Multi-address Description Message** - Enter the text you want to use to customize the message that appears at the top of the cart for multi-address orders that do not meet the minimum.
+      - **Multi-address Description Message** - Enter the text that you want to use to customize the message that appears at the top of the cart for multi-address orders that do not meet the minimum.
 
       - **Multi-address Error to Show in Shopping Cart** - Enter the text you want to use to customize the shopping cart error message for multi-address orders that do not meet the minimum, enter the text in the  box.
 
@@ -211,7 +211,7 @@ You can set the minimum quantity allowed for an order. The minimum quantity can 
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only)
 
-The thumbnail images displayed in the cart give customers a quick overview of the items they are about to purchase. However, for products with multiple options, the image might not match the variation of the product that is in the cart. If the customer purchases an item in a specific color, ideally, the thumbnail in the cart should match.
+The thumbnail images displayed in the cart give customers a quick overview of the items that they are about to purchase. However, for products with multiple options, the image might not match the variation of the product that is in the cart. If the customer purchases an item in a specific color, ideally, the thumbnail in the cart should match.
 
 The thumbnail image for both grouped and configurable products can be set to display the image from either the "parent" product or from the product variation.
 
@@ -241,7 +241,7 @@ The thumbnail image for both grouped and configurable products can be set to dis
 
 ## Gift options
 
-The selection of available gift options appears in the cart before the checkout process begins. The gift options configuration determines if customers can add a gift message or greeting card, and if gift wrapping options are available. Each item in the order can have a separate message and gift wrapping. When applied to the entire order, customers can also add a gift receipt and greeting card.
+The selection of available gift options appears in the cart before the checkout process begins. The gift options configuration determines if customers can add a gift message or greeting card, and if gift-wrapping options are available. Each item in the order can have a separate message and gift wrapping. When applied to the entire order, customers can also add a gift receipt and greeting card.
 
 ![Example storefront - Gift options in shopping cart](./assets/storefront-cart-gift-options-for-products-or-order.png)<!-- zoom -->
 
@@ -262,12 +262,12 @@ The Gift Options configuration applies to the entire website, but can be overrid
    - For **Allow Gift Messages on Order Level**, select `Yes` to enable a single gift message for the whole order.
    - For **Allow Gift Messages for Order Items**, select `Yes` to enable adding separate gift messages for individual items in the customer shopping cart.
 
-1. ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Set the gift wrapping options according to your preference:
+1. ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Set the gift-wrapping options according to your preference:
 
    - For **Allow Gift Wrapping on Order Level**, select `Yes` to enable a single gift wrapping for the entire order.
    - For **Allow Gift Wrapping for Order Items**, select `Yes` to enable adding gift wrapping individually to each item in the customer shopping cart.
 
-   You can also define different [gift wrapping designs](#gift-wrap) so that customers can choose the wrapping.
+   You can also define different [gift-wrapping designs](#gift-wrap) so that customers can choose the wrapping.
 
 1. ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) To provide customers with an option to include a gift receipt, set **Allow Gift Receipt** to `Yes`.
 
@@ -287,7 +287,7 @@ The gift wrap image should be a swatch that shows the repeating pattern, and can
 
 ![Gift options in cart](./assets/storefront-cart-gift-options-gift-wrap.png)<!-- zoom -->
 
-#### Add a new gift wrap design
+#### Add a gift wrap design
 
 1. On the _Admin_ sidebar, go to **Stores** > _Other Settings_ > **Gift Wrapping**.
 
@@ -301,7 +301,7 @@ The gift wrap image should be a swatch that shows the repeating pattern, and can
 
    If needed, you can change the **Scope** and configure a different name for each store view.
 
-1. Select the **Websites** where the gift wrap design will be available.
+1. Select the **Websites** where the gift wrap design is available.
 
 1. Set **Status** to `Enabled`.
 
@@ -337,7 +337,7 @@ With the _Gift Wrapping_ grid open, use one of these methods to delete wrap desi
 
 **_Method 1: Delete a single gift wrap design_**
 
-1. Open the gift wrapping design in edit mode.
+1. Open the gift-wrapping design in edit mode.
 
 1. At the top of the workspace, click **Delete**.
 

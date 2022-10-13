@@ -12,9 +12,9 @@ Before you begin, plan your store catalog hierarchy in advance because it is ref
 
 ## Add stores
 
-A single installation of Adobe Commerce or Magento Open Source can have multiple stores that share the same Admin. Stores that are under the same website have the same IP address and domain, use the same security certificate, and share a single checkout process.
+A single installation of Adobe Commerce or Magento Open Source can have multiple stores that share an Admin. Stores that are under the same website have the same IP address and domain, use the same security certificate, and share a single checkout process.
 
-The important thing to understand is that the stores use the same code and share the same Admin. Each store can have a separate catalog, or the stores can share the same catalog. Each store can have a separate [root category](../catalog/category-root.md), which makes it possible to have a different main menu for each store. Stores can also have different branding, presentation, and content. Take some time to plan your store hierarchy with future growth in mind before you begin, because it is used throughout the configuration.
+The important thing to understand is that the stores use the same code and share an Admin. Each store can have a separate catalog, or the stores can share a catalog. Each store can have a separate [root category](../catalog/category-root.md), which makes it possible to have a different main menu for each store. Stores can also have different branding, presentation, and content. Take some time to plan your store hierarchy with future growth in mind before you begin, because it is used throughout the configuration.
 
 ![Scope - multiple stores](./assets/scope-multistore.svg)<!-- {:width="550px"} -->
 
@@ -22,20 +22,20 @@ Here are some examples of how URLs can be configured for multiple stores:
 
 | URL | Description |
 | --- | ----------- |
-| `yourdomain.com/store1`<br>`yourdomain.com/store2` | Each store has a different path, but shares the same domain. |
+| `yourdomain.com/store1`<br>`yourdomain.com/store2` | Each store has a different path, but shares a domain. |
 | `store1.yourdomain.com`<br>`store2.yourdomain.com` | Each store has a different subdomain of the primary domain. |
 
 Multi-store installations of Adobe Commerce must be configured from the Admin and also from the command line of the server. The Adobe Commerce [Configuration Guide](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) provides detailed instructions for configuring the server environment.
 
 ### Step 1: Choose the store domain
 
-The first step is to choose how you want to position the store. Will the stores share the same domain, each have a subdomain, or have distinctly different domains? For each store, do one of the following:
+The first step is to choose how you want to position the store. Should the stores share a domain, each have a subdomain, or have distinctly different domains? For each store, do one of the following:
 
 - To place the store one level below the primary domain, you do not have to do anything.
 - Set up a subdomain of your primary domain.
 - Set up a different primary domain.
 
-### Step 2: Create the new store
+### Step 2: Create the store
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **All Stores**.
 
@@ -71,7 +71,7 @@ The first step is to choose how you want to position the store. Will the stores 
 
 1. Click **Save Store View**.
 
-   If you were to open your store in edit mode, you would see that it now has a default view.
+   If you open your store in edit mode, you can see that it now has a default view.
 
    ![New store with default view](./assets/new-store-default-view.png)<!-- zoom -->
 
@@ -101,7 +101,7 @@ The first step is to choose how you want to position the store. Will the stores 
 
 To configure your server to support multiple websites, see [Multiple websites or stores](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) in the _Configuration Guide_.
 
-For help configuring your web server, see the following resources:
+For help with configuring your web server, see the following resources:
 
 - [Set up multiple websites with NGNX](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html)
 - [Set up multiple websites with Apache](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html)
@@ -116,7 +116,7 @@ Multi-site installations of Adobe Commerce or Magento Open Source must be config
 
 ![Scope - websites](./assets/scope-multisite.svg)<!-- {:width="550px"} -->
 
-### Step 1: Create a new website
+### Step 1: Create a website
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **All Stores**.
 
@@ -128,7 +128,7 @@ Multi-site installations of Adobe Commerce or Magento Open Source must be config
 
    - **Name** — Enter the domain of the new website. For example, `domain.com`.
 
-   - **Code** — Enter a code that will be used on the server to point to the domain.
+   - **Code** — Enter a code that is used on the server to point to the domain.
 
       The code must begin with a lowercase (a-z) letter, and can include any combination of letters (a-z), numbers (0-9), and the underscore (_) symbol.
 
@@ -148,7 +148,7 @@ Follow the instructions to configure the [store URLs](store-urls.md).
 
 To configure your server to support multiple websites, see [Multiple websites or stores](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) in the _Configuration Guide_.
 
-For help configuring your web server, see the following tutorials:
+For help with configuring your web server, see the following tutorials:
 
 - [Set up multiple websites with NGNX](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html)
 - [Set up multiple websites with Apache](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html)

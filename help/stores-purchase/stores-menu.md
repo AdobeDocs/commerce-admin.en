@@ -4,7 +4,7 @@ description: <Add description here>
 ---
 # Stores menu
 
-The _Stores_ menu manages settings that are used less frequently, but referenced throughout your Adobe Commerce or Magento Open Source installation, including setting up the store hierarchy, configuration, sales and order settings, tax and currency, product attributes, product review ratings, and customer groups.
+The _Stores_ menu provides access to settings that are used less frequently, but referenced throughout your Adobe Commerce or Magento Open Source installation. This includes setting up the store hierarchy, configuration, sales and order settings, tax and currency, product attributes, product review ratings, and customer groups.
 
 ![Admin - Stores menu](./assets/stores-menu.png)<!-- zoom -->
 
@@ -16,7 +16,7 @@ On the _Admin_ sidebar, click **Stores**.
 
 ### Settings
 
-Manage the hierarchy of [websites, stores, and store views](stores.md#store-and-site-structure) in your Adobe Commerce or Magento Open Source installation, and all [configuration settings](https://docs.magento.com/user-guide/configuration-overview.html). In addition, you can set up the [Terms and Conditions](terms-and-conditions.md) of a sale, and manage [order status settings](order-status.md#custom-order-status).
+Manage the hierarchy of [websites, stores, and store views](stores.md#store-and-site-structure) in your Adobe Commerce or Magento Open Source installation, and all [configuration settings](https://docs.magento.com/user-guide/stores/configuration-overview.html). In addition, you can set up the [Terms and Conditions](terms-and-conditions.md) of a sale, and manage [order status settings](order-status.md#custom-order-status).
 
 ### Inventory
 
@@ -32,7 +32,7 @@ Manage the rates for the [currencies](currency.md) that are accepted as payment 
 
 ### Attributes
 
-Manage [attributes](https://docs.magento.com/user-guide/stores/attributes.html) that are used for customer or product information, returns, and product ratings. You can create new attributes, edit existing attributes, and manage attribute sets.
+Manage [attributes](https://docs.magento.com/user-guide/stores/attributes.html) that are used for customer or product information, returns, and product ratings. You can create attributes, edit existing attributes, and manage attribute sets.
 
 ### Other Settings
 

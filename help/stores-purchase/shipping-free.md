@@ -4,7 +4,7 @@ description: <Add description here>
 ---
 # Free shipping
 
-_Free shipping_ is one of the most effective promotions you can offer. It can be based on a minimum purchase, or set up as a [cart price rule](../merchandising-promotions/price-rules-cart.md) that is applied when a set of conditions is met. If both apply to the same order, the configuration setting takes precedence over the cart rule.
+_Free shipping_ is one of the most effective promotions that you can offer. It can be based on a minimum purchase, or set up as a [cart price rule](../merchandising-promotions/price-rules-cart.md) that is applied when a set of conditions is met. If both apply to the same order, the configuration setting takes precedence over the cart rule.
 
 >[!NOTE]
 >

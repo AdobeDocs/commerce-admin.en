@@ -8,7 +8,7 @@ Store views are typically used to make the store available in different locales.
 
 ![Scope - multiple store views](./assets/scope-multiview.svg)<!-- {:width="550px"} -->
 
-## Add a new store view
+## Add a store view
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **All Stores**.
 
@@ -40,8 +40,8 @@ If your Adobe Commerce or Magento Open Source installation has a multisite or mu
 
 | Field | Original value | Updated value |
 | ----- | -------------- | ------------- |
-| Name  | Default Store View | English |
-| Code  | default | english |
+| Name  | `Default Store View` | `English` |
+| Code  | `default` | `english` |
 
 {style="table-layout:auto"}
 

@@ -25,6 +25,6 @@ After configuring and enabling settlement reports in the PayPal merchant account
    |Report column | Description |
    | ------------ | ----------- |
    | PayPal Reference ID Type | One of the following reference codes:<br/>- Order IDT<br/>- Transaction ID<br/>- Subscription ID |
-   | Preapproved Payment ID | **Custom** - The text entered by the merchant on the transaction in PayPal.<br/>**Transaction Debit or Credit** - The direction of money movement of gross amount.<br/>**Fee Debit or Credit** - The direction of money movement for fee. |
+   | Preapproved Payment ID | **Custom** - The text entered by the merchant on the transaction at PayPal.<br/>**Transaction Debit or Credit** - The direction of money movement of gross amount.<br/>**Fee Debit or Credit** - The direction of money movement for fee. |
 
    {style="table-layout:auto"}

@@ -24,13 +24,13 @@ An order that has been paid, but is awaiting shipment has the `Processing` statu
 
       - Set **Carrier** to "Custom Value", enter a **Title** for the custom carrier, and enter the tracking **Number**.
 
-      - To view tracking information see: **To track the shipment** item below.
+      - [View tracking information](#track-the-shipment).
 
 1. To make a partial shipment, scroll down to the Items to Ship section, and enter the **Qty to Ship** for each item.
 
 1. To notify customers by email of the shipment, do the following:
 
-   - Enter any comments you would like to include in the **Shipment Comments** box.
+   - Enter any comments that you would like to include in the **Shipment Comments** box.
 
    - To include the comments in the notification email that is sent to the customer, select the **Append Comments** checkbox.
 
@@ -52,7 +52,7 @@ An order that has been paid, but is awaiting shipment has the `Processing` statu
 
 1. Find the shipment in the list, and click to open the record.
 
-1. If you want to add a comment to the order, scroll down to the Comments History section, and enter the comment in the box.
+1. If you want to add a comment to the order, scroll down to the _Comments History_ section, and enter the comment in the box.
 
    - To send the comment to the customer by email, select the **Notify Customer by Email** checkbox.
 

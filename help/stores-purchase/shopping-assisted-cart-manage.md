@@ -45,7 +45,7 @@ To begin an assisted shopping session, the customer must be logged into their ac
 
    To find the customer record in a hurry, use the [Filters](../getting-started/admin-grid-controls.md) control.
 
-   In the customer profile under _Personal Information_, the _Last Logged In_ date and time shows that the customer is currently online.
+   In the customer profile under _Personal Information_, the _Last Logged In_ date and time shows that the customer is online.
 
    ![Customer profile of an online customer](./assets/customer-account-manage-cart.png)<!-- zoom -->
 
@@ -133,7 +133,7 @@ There are three types of products that need to be configured before adding to th
 
 ## Transfer an item
 
-You can transfer items to the cart from a customer's wish list, as well as recently viewed, compared, or ordered items. The number of items in each section appears in parentheses after the section header.
+You can transfer items to the cart from a customer's wish list, and recently viewed, compared, or ordered items. The number of items in each section appears in parentheses after the section header.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) one of the following sections:
 

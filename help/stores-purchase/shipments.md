@@ -45,7 +45,7 @@ Additional columns:
 
 The following instructions walk you through the process to create a shipment in Adobe Commerce or Magento Open Source. If you have Inventory Management enabled, you may want to review [Create Multi-Source Shipments](../inventory-management/shipments-create.md).
 
-If you have Inventory Management enabled, select a source (or location) and an amount of quantity to send per line item. 
+If you have Inventory Management enabled, select a source (or location) and a quantity to send per line item. 
 
 1. On the _Admin_ sidebar, go to **Sales** > **Orders**.
 
@@ -216,6 +216,6 @@ The status of the shipment changes to `Canceled`. If the carrier does not suppor
 
 |Field|Description|
 |-----|-----------|
-|Package Label|**PNG** - Download the shipment package label. Size: A6 (105 x 148 mm; 4.1 x 5.6 in.)|
+|Package Label|**PNG** - Download the shipment package label. Size: A6 (105 x 148mm; 4.1 x 5.6 in.)|
 
 {style="table-layout:auto"}

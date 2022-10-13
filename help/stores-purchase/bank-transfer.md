@@ -32,7 +32,7 @@ Adobe Commerce and Magento Open Source allow you to accept payment that is trans
 
    - `Specific Countries` - After you choose this option, the _Payment from Specific Countries_ list appears. To select multiple countries, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
 
-1. Enter the **Instructions** your customers must follow to set up a bank transfer.
+1. Enter the **Instructions** that your customers must follow to set up a bank transfer.
 
    Depending on the country where your bank is located and the requirements of the bank, you might need to include the following information:
 

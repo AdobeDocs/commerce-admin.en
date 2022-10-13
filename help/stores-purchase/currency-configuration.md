@@ -4,9 +4,9 @@ description: <Add description here>
 ---
 # Currency configuration
 
-Before setting up individual currency rates, you must first set the scope of the [base currency](https://docs.magento.com/user-guide/configuration/general/currency-setup.md). It is set to global by default, which applies the base currency setting to the entire [store hierarchy](../getting-started/websites-stores-views.md). If you have a multisite Adobe Commerce or Magento Open Source installation, you can manage multiple base currencies by setting the scope to the website level.
+Before setting up individual currency rates, you must first set the scope of the [base currency](https://docs.magento.com/user-guide/configuration/general/currency-setup.html). It is set to global by default, which applies the base currency setting to the entire [store hierarchy](../getting-started/websites-stores-views.md). If you have a multisite Adobe Commerce or Magento Open Source installation, you can manage multiple base currencies by setting the scope to the website level.
 
-You also specify the currencies that you accept and which currency you want to use for the display of [prices](../catalog/catalog-price-scope.md) in your store. In the following illustration, the scope of the base currency is set at the website level, so each website can have a different base currency.
+You also specify the currencies that you accept and which currency you want to use for the display of [prices](../catalog/catalog-price-scope.md) in your store. In the following diagram, the scope of the base currency is set at the website level, so each website can have a different base currency.
 
 ![Currency scope diagram](./assets/scope-currency-config.svg)<!-- {: "width=600px"} -->
 
@@ -30,7 +30,7 @@ You also specify the currencies that you accept and which currency you want to u
 
    ![General configuration - currency options](../configuration-reference/general/assets/currency-setup-currency-options.png)<!-- zoom -->
 
-   For a detailed description of each of these configuration settings, see [Currency Options](https://docs.magento.com/user-guide/configuration/general/currency-setup.md) in the _Configuration Reference Guide_.
+   For a detailed description of each of these configuration settings, see [Currency Options](https://docs.magento.com/user-guide/configuration/general/currency-setup.html) in the _Configuration Reference Guide_.
 
 1. When prompted to refresh the cache, click **Close** ( ![Close box](../assets/icon-close-x.png) in the upper-right corner of the system message.
 
@@ -88,7 +88,7 @@ You also specify the currencies that you accept and which currency you want to u
 
    - **Service** — Set to the rate provider. The default value is `Fixer.io`.
 
-   - **Start Time** — Set to the hour, minute, and second that the rates will be updated according to the schedule.
+   - **Start Time** — Set to the hour, minute, and second that the rates are updated according to the schedule.
 
    - **Frequency** — To determine how often the rates are updated, set to one of the following:
 
@@ -124,7 +124,7 @@ Manage Currency Symbols gives you the ability to customize the symbol associated
 
 1. Each currency that is currently enabled for your store appears in the Currency list.
 
-1. Enter a custom symbol for each currency you want to use, or select the **Use Standard** checkbox for each currency.
+1. Enter a custom symbol for each currency that you want to use, or select the **Use Standard** checkbox for each currency.
 
 1. To override the default symbol, clear the **Use Standard** checkbox and enter the symbol that you want to use.
 

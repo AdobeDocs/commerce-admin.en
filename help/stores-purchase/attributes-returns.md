@@ -18,7 +18,7 @@ The Returns Attributes are used to store information that is needed during the p
 
    ![New Return - attribute properties](./assets/attribute-returns-new-properties.png)<!-- zoom -->
 
-1. To identify the attribute during data entry set the **Default Label**.
+1. To identify the attribute during data entry, set the **Default Label**.
 
 1. Enter an **Attribute Code** to identify the attribute within the system.
 
@@ -31,7 +31,7 @@ The Returns Attributes are used to store information that is needed during the p
     - File
     - Image File
 
-1. To make the field required, set **Values Required** to `Yes`.
+1. To make the field a required item, set **Values Required** to `Yes`.
 
 1. To assign an initial value to the field, enter a **Default Value**.
 
@@ -68,7 +68,7 @@ The Returns Attributes are used to store information that is needed during the p
 1. If the **Input Type** for the attribute is `Dropdown`, manage the options in the **Manage Options (Values of Your Attribute)** section.
 
     - To add an option, click **Add Option** and enter the label for Admin and each store view.
-    - To make an option selected by default, choose **Is Default**.
+    - To make an option the selected default, choose **Is Default**.
     - To remove an option, click **Delete**.
 
 1. To save changes, click **Save Attribute**.

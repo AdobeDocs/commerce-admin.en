@@ -190,9 +190,9 @@ Admin [permissions](https://docs.magento.com/user-guide/system/permissions.html)
 
 ## Cross-border price consistency
 
-Cross-border trade (also referred to as price consistency) supports European Union (EU) and other merchants who want to maintain consistent prices for customers whose tax rates are different than the store tax rate.
+Cross-border trade (also referred to as price consistency) supports European Union (EU) and other merchants who want to maintain consistent prices for customers whose tax rates are different from the store tax rate.
 
-Merchants operating across regions and geographies can show their customers a single price by including the tax in the price of the product. Pricing is clean and uncluttered regardless of tax structures and rates that vary from country to country.
+Merchants operating across regions and geographies can display a single price by including the tax in the price of the product. Pricing is clean and uncluttered regardless of tax structures and rates that vary from country to country.
 
 >[!NOTE]
 >

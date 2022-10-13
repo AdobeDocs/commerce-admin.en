@@ -6,7 +6,7 @@ description: <Add description here>
 
 {{ee-feature}}
 
-Archiving orders on a regular basis improves performance and keeps your workspace free of unnecessary information, so you can focus on current business. Invoices, shipments, and credit memos can be archived automatically or manually, and can be viewed at any time.
+Archiving orders regularly improves performance and keeps your workspace free of unnecessary information, so you can focus on current business. Invoices, shipments, and credit memos can be archived automatically or manually, and can be viewed at any time.
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Your store can be configured to archive orders, invoices, shipments, and credit 
 
    >[!NOTE]
    >
-   >If you later decide to turn archiving off, all archived orders will be restored to the previous state.
+   >If you later decide to turn archiving off, all archived orders are restored to the previous state.
 
 1. Set **Archive Orders Purchased** to the number of days to wait before completed orders are archived.
 
@@ -86,13 +86,13 @@ Select each document to be the target of the action. Then, choose one of the fol
 
 ## Restore archived documents
 
-1. Choose the type of document you want to restore.
+1. Choose the type of document that you want to restore.
 
 1. Select documents using one of the following options:
 
    - To select all visible documents, in the upper-left corner, click **Select Visible**.
 
-   - Manually select the checkbox of each document you want to restore.
+   - Manually select the checkbox of each document that you want to restore.
 
 1. In the upper-right, set **Action** to `Move to Orders Management`.
 
@@ -100,7 +100,7 @@ Select each document to be the target of the action. Then, choose one of the fol
 
 ## Export archived documents
 
-1. Choose the type of document you want to export.
+1. Choose the type of document that you want to export.
 
 1. In the upper-right menu, set **Export to:** to one of the following values:
 
@@ -129,7 +129,7 @@ Your store can be configured to archive orders, invoices, shipments, and credit 
 
       >[!NOTE]
       >
-      >If you later decide to turn archiving off, all archived orders will be restored to the previous state.
+      >If you later decide to turn archiving off, all archived orders are restored to the previous state.
 
    - Set **Archive Orders Purchased** to the number of days to keep an order in the grid before it is archived. By default, this waiting period is set to 30 days.
 
@@ -177,13 +177,13 @@ Select each document to be the target of the action and choose one of the follow
 
 ## Restore archived documents
 
-1. Choose the type of document you want to restore.
+1. Choose the type of document that you want to restore.
 
 1. Select documents using one of the following options:
 
    - To select all visible documents, in the upper-left corner, click **Select Visible**.
 
-   - Manually select the checkbox of each document you want to restore.
+   - Manually select the checkbox of each document that you want to restore.
 
 1. In the upper-right, set **Action** to `Move to Orders Management`.
 
@@ -191,7 +191,7 @@ Select each document to be the target of the action and choose one of the follow
 
 ## Export archived documents
 
-1. Choose the type of document you want to export.
+1. Choose the type of document that you want to export.
 
 1. In the upper-right menu, set **Export to:** to one of the following values:
 

@@ -4,17 +4,17 @@ description: <Add description here>
 ---
 # Tax classes
 
-Tax classes can be assigned to customers, products, and shipping. Commerce analyzes the shopping cart of each customer and calculates the appropriate tax according to the class of the customer, the class of the products in the cart, and the region (as determined by the customer's shipping address, billing address or shipping origin). New tax classes can be created when a [tax rule](tax-rules.md) is defined.
+Tax classes can be assigned to customers, products, and shipping. Commerce analyzes the shopping cart of each customer and calculates the appropriate tax according to the class of the customer, the class of the products in the cart, and the region. The region is determined by the customer's shipping address, billing address, or shipping origin. New tax classes can be created when a [tax rule](tax-rules.md) is defined.
 
 - Customer — You can create as many customer tax classes as you need, and assign them to [customer groups](https://docs.magento.com/user-guide/customers/customer-groups.html). For example, in some jurisdictions, wholesale transactions are not taxed, but retail transactions are. You can associate members of the Wholesale Customer group with the Wholesale tax class.
 
 - Product— Product classes are used in calculations to determine the correct tax rate is applied in the shopping cart. When you create product, it is assigned to a specific tax class. For example, food might not be taxed, or be taxed at a different rate.
 
-- Shipping— If your store charges an additional tax on shipping, you should designate a specific product tax class for shipping. Then in the configuration, specify it as the tax class that is used for shipping.
+- Shipping— If your store charges an extra tax on shipping, you should designate a specific product tax class for shipping. Then in the configuration, specify it as the tax class that is used for shipping.
 
 ## Configure tax classes
 
-The tax class that is used for shipping, and the default tax classes for [products and customers](tax-class.md#add-a-new-product-tax-class) are set in the Sales configuration.
+The tax class that is used for shipping, and the default tax classes for [products and customers](#add-a-product-tax-class) are set in the Sales configuration.
 
 ![Configuration - tax classes](../configuration-reference/sales/assets/tax-tax-classes.png)<!-- zoom -->
 
@@ -53,7 +53,7 @@ Tax classes for customers and products can be easily added, and then assigned to
 
    ![Wholesale Tax Class](./assets/tax-class-customer-add-new-wholesale.png)<!-- zoom -->
 
-## Add a new product tax class
+## Add a product tax class
 
 1. Under _Product Tax Class_, click **Add New Tax Class**.
 

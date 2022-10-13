@@ -30,7 +30,7 @@ breadcrumb-title: Stores and Purchase Experience
     - [Currency configuration](currency-configuration.md)
     - [Update currency rates](currency-update.md)
 - Point of purchase {#point-of-purchase}
-  - [Instant purchase](checkout-instant-purchase.md)
+  - [Instant Purchase](checkout-instant-purchase.md)
   - Shopping cart {#cart}
     - [Overview](cart.md)
     - [Cart configuration](cart-configuration.md)

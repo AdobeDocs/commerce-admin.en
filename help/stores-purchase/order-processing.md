@@ -8,9 +8,9 @@ When a customer places an order, a sales order is created as a temporary record 
 
 **Step 1: Place Order** - The checkout process begins when the shopper clicks **Go to Checkout** on the shopping cart page or [reorders](reorders-allow.md) directly from their customer account.
 
-**Step 2: Order Pending** - The initial sales order status is `Pending`. In this state, the payment has not been processed and the order can still be edited or canceled. This will occur when the payment method is configured for authorization mode.
+**Step 2: Order Pending** - The initial sales order status is `Pending`. In this state, the payment has not been processed and the order can still be edited or canceled. This occurs when the payment method is configured for authorization mode.
 
-**Step 3: Receive Payment** - The order status changes to `Processing` when payment is received or authorized. Depending on the payment method, you might receive notification when the transaction is authorized or processed. This will occur automatically when the payment method is configured for capture or intent sale mode.
+**Step 3: Receive Payment** - The order status changes to `Processing` when payment is received or authorized. Depending on the payment method, you might receive notification when the transaction is authorized or processed. This occurs automatically when the payment method is configured for capture or intent sale mode.
 
 **Step 4: Invoice Order** - An order is typically invoiced after payment is received. The payment method determines which invoicing options are needed for the order. After the invoice is generated and submitted, a copy is sent to the customer. If the payment method is configured with the `capture` or `intent sale` payment action, an invoice is generated automatically when payment is authorized and captured.
 
@@ -18,7 +18,7 @@ When a customer places an order, a sales order is created as a temporary record 
 >
 >Invoices are not created automatically for orders placed by using `Gift Card`, `Store Credit`, `Reward Points`, or other offline payment methods.
 
-**Step 5: Book a Single Shipment** - The order status changes to to `Complete` when the shipment detail is complete, the shipment is booked, and either the packing slip and shipping label are printed or the 'Notify Ready for Pickup' button is clicked (if order was set for In-store delivery method.)  The customer receives notification and the package is shipped. If tracking numbers are used, the shipment can be tracked from the customer's account.
+**Step 5: Book a Single Shipment** - The order status changes to `Complete` when the shipment detail is complete, the shipment is booked, and either the packing slip and shipping label are printed or the _Notify Ready for Pickup_ button is clicked (in-store delivery method). The customer receives notification and the package is shipped. If tracking numbers are used, the shipment can be tracked from the customer's account.
 
 >[!NOTE]
 >
@@ -103,7 +103,7 @@ Review the following sections in the sales order, using the field descriptions f
 |**Invoice**|Creates an invoice from the sales order by converting the order to an invoice.|
 |**Ship**|Creates a shipment record for the order.|
 |**Notify Order is Ready for Pickup**|Appears only when an order is placed as an in-store delivery. Notifies the customer that order is ready for pickup.|
-|**Reorder**|Creates a new sales order based on the current order.|
+|**Reorder**|Creates a sales order based on the current order.|
 |**Edit**|Opens a pending order in edit mode. The Edit button isn't visible for orders with a status of "Processing", or orders that are based on negotiated quotes.|
 
 {style="table-layout:auto"}
@@ -157,7 +157,7 @@ Only sales orders that are not invoiced, have a status of `Processing`, and a [p
 
 |Field|Description|
 |--- |--- |
-|Billing Address|The name of the customer or buyer who placed the order, followed by the billing address, telephone number and [VAT](vat.md), if applicable. The telephone number is linked to autodial on a mobile device.|
+|Billing Address|The name of the customer or buyer who placed the order, followed by the billing address, telephone number, and [VAT](vat.md), if applicable. The telephone number is linked to autodial on a mobile device.|
 |Shipping Address|The name of the person to whose attention the order should be shipped, followed by the shipping address and telephone number. The telephone number is linked to autodial on a mobile device.|
 
 {style="table-layout:auto"}
@@ -210,7 +210,7 @@ In the **Order Total** section, do the following:
 
 |Field|Description|
 |--- |--- |
-|Status|Indicate the current status of the sales order.|
+|Status|Displays the status of the sales order.|
 |Comment|A text box that is used to enter a comment to the customer that accompanies the order. <br/>**Notify Customer by Email** - Select the checkbox if you want to send the comment to the customer as a separate email. <br/>**Visible on Storefront** - Select the checkbox if you want the comment to be visible from the customer's account. <br/>**Submit Comment** - Submits the comment and sends by email, if applicable.|
 
 {style="table-layout:auto"}
@@ -226,7 +226,7 @@ In the **Order Total** section, do the following:
 |Total Refunded|The total amount refunded from the order, if applicable.|
 |Total Due|The total amount that is due.|
 |Store Credit|![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) The amount of available store credit that is applied to the order, if applicable.|
-|Catalog Total Price|![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce) The total price of the items in the quote without tax, according to the prices in the shared catalog or master catalog that is used as the basis of the quote. If the storefront display currency differs from the base currency, the value appears in both currencies, with the storefront display in square brackets.|
+|Catalog Total Price|![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce) The total price of the items in the quote without tax, according to pricing in the shared catalog or standard catalog that is used as the basis of the quote. If the storefront display currency differs from the base currency, the value appears in both currencies, with the storefront display in square brackets.|
 |Negotiated Discount|![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce) The discount that is the result of a quote  negotiated between buyer and seller. If the storefront display currency differs from the base currency, the value appears in both currencies, with the storefront display in square brackets.|
 |Subtotal|![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce) The Catalog Total Price less the Negotiated Discount.|
 

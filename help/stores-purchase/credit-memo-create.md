@@ -84,7 +84,7 @@ Determine the type of refund that you want to issue---for a [credit purchase](#i
 
       This field initially shows the total shipping amount from the order that is available for refund. It is equal to the full shipping amount from the order, less any shipping amount that has already been refunded. Like the quantity, the amount can be reduced, but not increased.
 
-   - For **Adjustment Refund**, enter a value to be added to the total amount refunded as an additional refund that does not apply to any particular part of the order (shipping, items, or tax). It also can be used for partial refund with virtual money, such as a gift card, when an administrator wants to refund a non-virtual payment method first.
+   - For **Adjustment Refund**, enter a value to be added to the total amount refunded as an extra refund that does not apply to any particular part of the order (shipping, items, or tax). It can also be used for partial refund with virtual money, such as a gift card, when an administrator wants to refund a non-virtual payment method first.
 
       The amount entered cannot raise the total refund higher than the paid amount.
 
@@ -146,7 +146,7 @@ Determine the type of refund that you want to issue---for a [credit purchase](#i
 
       This field initially displays the total shipping amount from the order that is available for refund. It is equal to the full shipping amount from the order, less any shipping amount that has already been refunded. Like the quantity, the amount can be reduced, but not increased.
 
-   - For **Adjustment Refund**, enter a value to be added to the total amount refunded as an additional refund that does not apply to any particular part of the order (shipping, items, or tax). It also can be used for partial refund with virtual money, such as a gift card, when an administrator wants to refund a non-virtual payment method first.
+   - For **Adjustment Refund**, enter a value to be added to the total amount refunded as an extra refund that does not apply to any particular part of the order (shipping, items, or tax). It can also be used for partial refund with virtual money, such as a gift card, when an administrator wants to refund a non-virtual payment method first.
 
       The amount entered cannot raise the total refund higher than the paid amount.
 
@@ -160,7 +160,7 @@ Determine the type of refund that you want to issue---for a [credit purchase](#i
 
    - To send an email notification to the customer, select the **Email Copy of Credit Memo** checkbox.
 
-   - To include the comments you have entered in the email, select the **Append Comments** checkbox.
+   - To include the comments that you have entered in the email, select the **Append Comments** checkbox.
 
       The status of a credit memo notification appears in the completed credit memo next to the credit memo number.
 
@@ -197,7 +197,7 @@ Determine the type of refund that you want to issue---for a [credit purchase](#i
 
 |Field|Description|
 |--- |--- |
-|Billing Address|The name of the customer or buyer who placed the order, followed by the billing address, telephone number and [VAT](vat.md), if applicable. The telephone number is linked to autodial on a mobile device.|
+|Billing Address|The name of the customer or buyer who placed the order, followed by the billing address, telephone number, and [VAT](vat.md), if applicable. The telephone number is linked to autodial on a mobile device.|
 |Shipping Address|The name of the person to whose attention the order should be shipped, followed by the shipping address and telephone number. The telephone number is linked to autodial on a mobile device.|
 
 {style="table-layout:auto"}
@@ -242,7 +242,7 @@ Determine the type of refund that you want to issue---for a [credit purchase](#i
 |Field|Description|
 |--- |--- |
 |Refund Shipping|The shipping amount to be refunded.|
-|Adjustment Refund|An amount that is added to the total amount refunded as an additional refund that does not apply to any particular part of the order, such as shipping, items, or tax. The amount entered cannot raise the total refund higher than the amount paid.|
+|Adjustment Refund|An amount that is added to the total amount refunded as an extra refund that does not apply to any particular part of the order, such as shipping, items, or tax. The amount entered cannot raise the total refund higher than the amount paid.|
 |Adjustment Fee|An amount that is subtracted from the total amount refunded, such as a restocking fee, or an amount that is related to gift wrapping or gift options.|
 |Grand Total|The total amount to be refunded|
 |Append Comments|Checkbox that determines if comments are included in the credit memo.|

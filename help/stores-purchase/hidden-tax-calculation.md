@@ -18,7 +18,7 @@ When there is a discount that has tax embedded in it, Commerce computes a _hidde
 
 1. Full price of item, with tax included: $100
 1. VAT at: 20%
-1. Discount of 10% applied on item price excluding taxes:
+1. Discount of 10% applied on item price-excluding taxes:
 
 ### Invalid Expected Result
 
@@ -35,7 +35,7 @@ When there is a discount that has tax embedded in it, Commerce computes a _hidde
 
 ### Valid Calculations
 
-1. Full price of item, without taxes is: $100 / 1.2 = **$83.33**
+1. Full price of the item without taxes is: $100 / 1.2 = **$83.33**
 
 1. VAT amount on the full item price is: $100 - $83.33 = $16.67
 
@@ -49,7 +49,7 @@ When there is a discount that has tax embedded in it, Commerce computes a _hidde
    >
    >This is the customer's perception of how discounts are applied.
 
-1. Discounted price of item, without taxes is: $91.67 / 1.2 = $76.39
+1. Discounted price of the item without taxes is: $91.67 / 1.2 = $76.39
 
 1. VAT amount on the discounted price is: $91.67 - $76.39 = **$15.28 (valid)**
 

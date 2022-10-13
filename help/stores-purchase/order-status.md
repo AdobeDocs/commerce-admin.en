@@ -14,25 +14,25 @@ All orders have an order status that is associated with a stage in the order pro
 
 ## Order status workflow
 
-![Order status workflow](./assets/order-workflow.png){:width="600px"}
+![Order status workflow](./assets/order-workflow.png)
 
 ## Predefined status
 
 |Order Status|Status Code||
 |--- |--- |--- |
-|Processing|processing|When the state of new orders is set to 'Processing', the _Automatically Invoice All Items_ option becomes available in the configuration. Invoices are not created automatically for orders placed by using Gift Card, Store Credit, Reward Points, or other offline payment methods.|
-|Suspected Fraud|fraud|Sometimes orders paid via PayPal or another payment gateway are marked as Suspected Fraud. This means the order does not have invoice issued and the confirmation email is also not sent.|
-|Pending Payment|pending_payment|This is the status used if order is created and PayPal or similar payment method is used. This means that the customer was directed to the payment gateway website, but no return information has been received yet. This status will change when customer pays.|
-|Payment Review|payment_review|This status appears when PayPal payment review is turned on.|
-|Pending|pending|This status means no invoice and shipments have been submitted.|
-|On Hold|holded|This status can only be assigned manually. You can put any order on hold.|
-|Open|STATE_OPEN|This status means that an order or credit memo is still open and may need further action.|
-|Complete|complete|This status means that the order is created, paid,  and shipped to customer.|
-|Closed|closed|This status indicates that an order was assigned a credit memo and the customer has received a refund.|
-|Canceled|canceled|This status is assigned manually in the Admin or, for some payment gateways, when the customer does not pay within the specified time.|
-|PayPal Canceled Reversal|paypay_canceled_reversal|This status means that PayPal canceled the reversal.|
-|Pending PayPal|pending_paypal|This status means that the order was received by PayPal, but payment has not yet been processed.|
-|PayPal Reversed|paypal_reversed|This status means that PayPal reversed the transaction.|
+|Processing|`processing`|When the state of new orders is set to 'Processing', the _Automatically Invoice All Items_ option becomes available in the configuration. Invoices are not created automatically for orders placed by using Gift Card, Store Credit, Reward Points, or other offline payment methods.|
+|Suspected Fraud|`fraud`|Sometimes orders paid via PayPal or another payment gateway are marked as Suspected Fraud. This means that the order does not have invoice issued and the confirmation email is also not sent.|
+|Pending Payment|`pending_payment`|This is the status used if order is created and PayPal or similar payment method is used. This means that the customer was directed to the payment gateway website, but no return information has been received yet. This status changes when customer pays.|
+|Payment Review|`payment_review`|This status appears when PayPal payment review is turned on.|
+|Pending|`pending`|This status indicates that no invoice and shipments have been submitted.|
+|On Hold|`holded`|This status can only be assigned manually. You can put any order on hold.|
+|Open|`STATE_OPEN`|This status means that an order or credit memo is still open and may need further action.|
+|Complete|`complete`|This status means that the order is created, paid,  and shipped to customer.|
+|Closed|`closed`|This status indicates that an order was assigned a credit memo and the customer has received a refund.|
+|Canceled|`canceled`|This status is assigned manually in the Admin or, for some payment gateways, when the customer does not pay within the specified time.|
+|PayPal Canceled Reversal|`paypay_canceled_reversal`|This status means that PayPal canceled the reversal.|
+|Pending PayPal|`pending_paypal`|This status means that the order was received by PayPal, but payment has not yet been processed.|
+|PayPal Reversed|`paypal_reversed`|This status means that PayPal reversed the transaction.|
 
 {style="table-layout:auto"}
 
@@ -102,7 +102,7 @@ In addition to the preset order status settings, you can create your own custom 
 
 >[!NOTE]
 >
->A status setting cannot be unassigned from a state if the status is currently in use.
+>A status setting cannot be unassigned from a state if the status is in use.
 
 1. In the _Order Status_ grid, find the order status record to be unassigned.
 
@@ -110,28 +110,9 @@ In addition to the preset order status settings, you can create your own custom 
 
    A message appears at the top of the workspace that the order status has been unassigned. Although the order status label still appears in the list, it is no longer assigned to a state. Order status settings cannot be deleted.
 
-## Order status and state
-
-|Order Status|Order State||
-|--- |--- |--- |
-|Processing|processing|When the state of new orders is set to "Processing", the _Automatically Invoice All Items_ option becomes available in the configuration.|
-|Suspected Fraud|fraud|Sometimes orders paid via PayPal or any other payment gateway are marked as Suspected Fraud. This means the order does not have invoice issued and the confirmation email is also not sent.|
-|Pending Payment|pending_payment|This is the status used if order is created and PayPal or similar payment method is used. This means that the customer was directed to the payment gateway website, but no return information has been received yet. This status will change when customer pays.|
-|Payment Review|payment_review|This status appear when PayPal payment review is turned on.|
-|Pending|pending|This status means no invoice and shipments have been submitted.|
-|On Hold|holded|This status can only be assigned manually. You can put any order on hold.|
-|Complete|complete|This status means that order is created, paid, and shipped to customer.|
-|Closed|closed|This status indicates that an order have had a credit memo assigned to it and the customer has received a refund.|
-|Canceled|canceled|This status is assigned manually by you or, on some payment gateways, when customer does not pay within the specified time.|
-|PayPal Canceled Reversal|payment_canceled_reversal|This status means that Paypal canceled the reversal.|
-|PayPal Reversed|paypal_reversed|Reversal status means that PayPal reversed the transaction.|
-|Pending PayPal|pending_paypal|This status means that order has been received by PayPal, but payment has not yet been processed.|
-
-{style="table-layout:auto"}
-
 ## Notification
 
-Customers can track the status of their orders by [RSS feed](../merchandising-promotions/social-rss.md) if the Order RSS feed is enabled in the configuration.  When enabled, a link to the RSS feed appears on each order.
+Customers can track the status of their orders by [RSS feed](../merchandising-promotions/social-rss.md) if the Order RSS feed is enabled in the configuration. When enabled, a link to the RSS feed appears on each order.
 
 ### Enable order status notification
 
@@ -165,7 +146,7 @@ Customers can track the status of their orders by [RSS feed](../merchandising-pr
     - Custom Email 1
     - Custom Email 2
 
-1. Choose the templates you want to use for each customer type:
+1. Choose the templates that you want to use for each customer type:
 
     - **New Order Confirmation Template** - Choose a template to use for customers with a registered store account.
     - **New Order Confirmation Template for Guest** - Choose a template to use for guest customers without a registered store account.

@@ -11,7 +11,7 @@ description: <Add description here>
 >[!IMPORTANT]
 >
 >**PSD2 Requirements:** <br/>
->As of September 14, 2019, European banks might decline payments that do not meet [PSD2](../getting-started/compliance-payment-services-directive.md) requirements. To comply with PSD2, PayPal Payments Pro must be integrated with Cardinal Commerce. To learn more, see [3-D Secure for Payflow](https://developer.paypal.com/docs/classic/payflow/3d-secure-overview/).
+>As of September 14, 2019, European banks might decline payments that do not meet [PSD2](../getting-started/compliance-payment-services-directive.md) requirements. To comply with PSD2, PayPal Payments Pro must be integrated with a third-party plugin.
 
 >[!NOTE]
 >
@@ -46,13 +46,13 @@ At the customer's request, the store administrator can also create an order from
    
    >[!NOTE]
    >
-   >If required, an order can be partially invoiced for a specified quantity of products. For each partial invoice submitted, a separate Capture transaction with a unique ID becomes available, and a separate invoice is generated.
+   >If necessary, an order can be partially invoiced for a specified quantity of products. For each partial invoice submitted, a separate Capture transaction with a unique ID becomes available, and a separate invoice is generated.
    
    Authorization-only payment transactions are closed only after the full order amount is captured.
    
    An order can be voided online at any time until the order amount is fully invoiced.
 
-1. **Returns** - If for any reason the customer returns the purchased products and claims a refund, as with order amount capturing and invoice creation, you can create an online refund either from the Admin or from your PayPal merchant account.
+1. **Returns** - If the customer returns the purchased products and claims a refund, as with order amount capturing and invoice creation, you can create an online refund either from the Admin or from your PayPal merchant account.
 
 ## Configure your PayPal account
 
@@ -98,7 +98,7 @@ Before you set up PayPal Payments Pro in Commerce, you must configure your merch
    >
    >If you have multiple Commerce websites, you must create a separate PayPal Payments Pro account for each.
 
-1. Set up an additional user (recommended by PayPal):
+1. Set up another user (recommended by PayPal):
 
    - In the second row of the main menu, click **Manage Users**.
 
@@ -153,7 +153,7 @@ Before you set up PayPal Payments Pro in Commerce, you must configure your merch
 
    >[!IMPORTANT]
    >
-   >Email addresses are case sensitive. To receive payment, the email address must match the email address specified in your PayPal merchant account.
+   >Email addresses are case-sensitive. To receive payment, the email address must match the email address specified in your PayPal merchant account.
 
    If you do not have a PayPal account, click **Start accepting payments via PayPal**.
 
@@ -161,13 +161,13 @@ Before you set up PayPal Payments Pro in Commerce, you must configure your merch
 
    - **Partner** - Your PayPal Partner ID.
    - **Vendor** - Your PayPal user login name.
-   - **User** - The ID of an additional user who is set up on your PayPal account.
+   - **User** - The ID of another user who is set up on your PayPal account.
 
 1. Enter the **Password** that is associated with your PayPal account.
 
-1. If you want to run test transactions, set **Test Mode** to `Yes`.
+1. To run test transactions, set **Test Mode** to `Yes`.
 
-   When testing the configuration in a sandbox, use only [credit card numbers][2] that are recommended by PayPal. When you are ready to go live, return to the configuration and set Test Mode to `No`.
+   When testing the configuration in a sandbox, use only [credit card numbers][2] that are recommended by PayPal. When you are ready to go to production, return to the configuration and set Test Mode to `No`.
 
 1. If your system uses a proxy server to establish the connection to the PayPal system, set **Use Proxy** to `Yes` and do the following:
 
@@ -189,8 +189,8 @@ Starting with the 2.4.3 release, PayPal Pay Later is supported in deployments th
 
 Set **Enable PayPal PayLater Experience** to one of the following:
 
-- `Yes` - To setup Advertise PayPal PayLater
-- `No` - To setup Advertise PayPal Credit
+- `Yes` - To set up Advertise PayPal PayLater
+- `No` - To set up Advertise PayPal Credit
 
 #### Advertise PayPal Credit
 
@@ -329,7 +329,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
    >[!NOTE]
    >
-   >American Express requires an additional agreement.
+   >American Express requires an extra agreement.
 
 ### Step 5: Complete the advanced settings
 
@@ -350,7 +350,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 1. To enable host authenticity verification, set **Enable SSL Verification** to `Yes`.
 
-1. To require that customers enter a CVV code, set **Require CVV Entry** to `Yes`.
+1. To require customers to enter a CVV code, set **Require CVV Entry** to `Yes`.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **CVV and AVS Settings** section.
 
@@ -414,7 +414,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 #### Frontend Experience Settings
 
-The Frontend Experience Settings give you the opportunity to choose which PayPal logos appear on your site, and to customize the appearance of your PayPal merchant pages.
+Use the _Frontend Experience Settings_ to choose which PayPal logos appear on your site, and to customize the appearance of your PayPal merchant pages.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Frontend Experience Settings** section.
 
@@ -442,7 +442,7 @@ The Frontend Experience Settings give you the opportunity to choose which PayPal
 
       >[!NOTE]
       >
-      >PayPal recommends that the image be located on a secure (https) server. Otherwise, a browser may warn that _the page contains both secure and nonsecure items_.
+      >PayPal recommends that the image resides on a secure (https) server. Otherwise, a browser may warn that _the page contains both secure and nonsecure items_.
 
    - To set the color for your pages, enter the six-character hexadecimal code, without the `#` symbol, for each of the following:
 
@@ -458,7 +458,7 @@ The Frontend Experience Settings give you the opportunity to choose which PayPal
 
 1. Enter a **Title** to identify this payment method during checkout.
 
-   It is recommended to set the title to _PayPal_ for each store view.
+   Setting the title to _PayPal_ for each store view is recommended.
 
 1. If you offer multiple payment methods, enter a number for **Sort Order** to determine the sequence in which PayPal Express Checkout appears when listed with the other payment methods.
 

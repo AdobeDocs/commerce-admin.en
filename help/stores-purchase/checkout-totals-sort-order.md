@@ -4,7 +4,7 @@ description: <Add description here>
 ---
 # Sort order for checkout totals
 
-During Order Review, the total appears at the bottom of the order, with any adjustments for discounts, shipping charges, store credit, and tax. The order of each item determines the sequence of the calculations, and is set in the configuration by a number that is assigned to each item. For example, the Subtotal is the first item in the section, and is assigned a value of 10. The Grand Total appears last, and is assigned a value of 100. All of the other items in the totals section are assigned a value between those values.
+During Order Review, the total appears at the bottom of the order, with any adjustments for discounts, shipping charges, store credit, and tax. The order of each item determines the sequence of the calculations, and is set in the configuration by a number that is assigned to each item. For example, the Subtotal is the first item in the section, and is assigned a value of 10. The Grand Total appears last, and is assigned a value of 100. All other items in the totals section are assigned a value between those values.
 
 ![Order Summary displays the checkout total](./assets/storefront-checkout-totals.png)<!-- zoom -->
 
@@ -26,7 +26,7 @@ During Order Review, the total appears at the bottom of the order, with any adju
 
 1. Change the number assigned to each item to determine its order in the _Totals_ section.
 
-   The lower the value, the earlier its placement in the list. In the default configuration, the Subtotal (`10`) will be the first and Grand total (`100`) will be the last.
+   The lower the value, the earlier its placement in the list. In the default configuration, the Subtotal (`10`) is the first and Grand total (`100`) is the last.
 
    If necessary, clear the **Use system value** checkbox to complete these changes.
 

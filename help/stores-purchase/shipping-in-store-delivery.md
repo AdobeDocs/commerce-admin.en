@@ -13,7 +13,7 @@ With the in-store delivery method, the customer can select a source to be used a
 - Make sure you have a non-default stock and source. For more information about how to configure a source as a pickup location, see [Adding a New Source](../inventory-management/sources-add.md).
 - Make sure you have configured a Distance Priority Algorithm. For more information, see [Configuring Distance Priority Algorithm](../inventory-management/distance-priority-algorithm.md).
 - Make sure you have [downloaded and imported](../inventory-management/cli.md#import-geocodes) all necessary geocodes for Offline Calculation.
-- Make sure you have configured a [Default Tax Destination Calculation](https://docs.magento.com/user-guide/configuration/sales/tax.html#default-tax-destination-calculation) settings.
+- Make sure you have configured [Default Tax Destination Calculation](https://docs.magento.com/user-guide/configuration/sales/tax.html#default-tax-destination-calculation) settings.
 
 >[!IMPORTANT]
 >

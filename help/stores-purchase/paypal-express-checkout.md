@@ -11,11 +11,11 @@ PayPal Express Checkout helps boost sales by giving your customers the ability t
 >**PSD2 Requirements:** <br/>
 >As of September 14, 2019, European banks might decline payments that do not meet [PSD2](../getting-started/compliance-payment-services-directive.md) requirements. No action is needed for PayPal Express Checkout to comply with PSD2 because all requirements are handled by PayPal.
 
-Customers with current PayPal accounts can make a purchase in a single step by clicking the _Check out with PayPal_ button. Express Checkout can be used as a standalone, or in combination with one of the PayPal all-in-one solutions. If you already accept credit cards online, you can offer Express Checkout as an additional option to attract new customers who prefer to pay with PayPal.
+Customers with current PayPal accounts can make a purchase in a single step by clicking the _Check out with PayPal_ button. Express Checkout can be used as a standalone, or with one of the PayPal all-in-one solutions. If you already accept credit cards online, you can offer Express Checkout as an extra option to attract new customers who prefer to pay with PayPal.
 
 >[!NOTE]
 >
->PayPal has deprecated support for the sale of digital goods through PayPal Express Checkout and recommends that you use either [PayPal Payments Standard](paypal-payments-standard.md) or any other PayPal payment gateway to process any order that includes [virtual products](../catalog/product-create-virtual.md).
+>PayPal has deprecated support for the sale of digital goods through PayPal Express Checkout and recommends that you use either [PayPal Payments Standard](paypal-payments-standard.md) or another PayPal payment gateway to process any order that includes [virtual products](../catalog/product-create-virtual.md).
 
 ## Requirements
 
@@ -24,7 +24,7 @@ Customers with current PayPal accounts can make a purchase in a single step by c
 
 ## Express checkout workflow
 
-Unlike other payment methods, PayPal Express Checkout allows the customer to check out at the beginning of the usual checkout workflow from the product page, the mini shopping cart, and the shopping cart.
+Unlike other payment methods, PayPal Express Checkout allows the customer to check out at the beginning of the usual checkout workflow from the product page, the mini cart, and the shopping cart.
 
 1. **Customer places order** - The customer clicks/taps the _Check out with PayPal_ button.
 1. **Customer is redirected to PayPal site** - The customer is redirected to the PayPal site to complete the transaction.
@@ -61,11 +61,11 @@ Before you set up PayPal Express Checkout in Adobe Commerce and Magento Open Sou
 
 1. Click **Save Changes**.
 
-1. Set up an additional user (recommended by PayPal):
+1. Set up another user (recommended by PayPal):
 
    - Go to [manager.paypal.com][3] and log in to your account.
 
-   - Follow the instructions to set up an additional user.
+   - Follow the instructions to set up another user.
 
    - Click **Update**.
 
@@ -132,7 +132,7 @@ You can have two PayPal solutions active at the same time: Express Checkout, plu
 
    >[!IMPORTANT]
    >
-   >Email addresses are case sensitive. To receive payment, the email address you enter must match the email address specified in your PayPal merchant account.
+   >Email addresses are case-sensitive. To receive payment, the email address you enter must match the email address specified in your PayPal merchant account.
 
    If you do not have a PayPal account, click **Start accepting payments via PayPal**.
 
@@ -149,7 +149,7 @@ You can have two PayPal solutions active at the same time: Express Checkout, plu
 
 1. If you are using credentials from your sandbox account, set **Sandbox Mode** to `Yes`.
 
-   When testing the configuration in a sandbox, use only [credit card numbers][4] that are recommended by PayPal. When you are ready to go live, return to the configuration and set Sandbox Mode to `No` and connect to your production PayPal account.
+   When testing the configuration in a sandbox, use only [credit card numbers][4] that are recommended by PayPal. When you are ready to go to production, return to the configuration and set Sandbox Mode to `No` and connect to your production PayPal account.
 
 1. If your system uses a proxy server to establish the connection between Commerce and the PayPal payment system, set **API Uses Proxy** to `Yes` and complete the following:
 
@@ -164,8 +164,8 @@ Starting with the 2.4.3 release, PayPal Pay Later is supported in deployments th
 
 Set **Enable PayPal PayLater Experience** to one of the following:
 
-- `Yes` - To setup Advertise PayPal PayLater
-- `No` - To setup Advertise PayPal Credit
+- `Yes` - To set up Advertise PayPal PayLater
+- `No` - To set up Advertise PayPal Credit
 
 #### Advertise PayPal Credit
 
@@ -297,7 +297,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
    - `Authorization` - Approves the purchase and puts a hold on the funds. The amount is not withdrawn until it is _captured_ by the merchant.
    - `Sale` - The amount of the purchase is authorized and immediately withdrawn from the customer's account.
-   - `Order` - The amount of the order is neither captured nor authorized in the customer balance, bank account, or credit card at PayPal. The Order payment action represents an agreement between the PayPal payment system and the merchant, which enables the merchant to capture one or more amounts up to the ordered total from the customer buyer account, over a period of up to 29 days. After the funds are ordered, the merchant can capture them at any time during the following 29-day period. Capturing of the order amount can be done only from the Commerce Admin by creating one or more invoices.
+   - `Order` - The amount of the order is not captured or authorized in the customer balance, bank account, or credit card at PayPal. The Order payment action represents an agreement between the PayPal payment system and the merchant. It enables the merchant to capture one or more amounts up to the ordered total from the customer buyer account, over a period of up to 29 days. After the funds are ordered, the merchant can capture them at any time during the following 29-day period. Capturing of the order amount can be done only from the Commerce Admin by creating one or more invoices.
 
 1. To display the _Check out with PayPal_ button on the product page, set **Display on Product Details Page** to `Yes`.
 
@@ -334,14 +334,14 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 1. To display a full summary of the customer order by line item from the PayPal site, set **Transfer Cart Line Items** to `Yes`.
 
-1. To include up to 10 shipping options in the summary, set **Transfer Shipping Options** to `Yes`. (This option appears only if line items are set to transfer.)
+1. To include up to ten shipping options in the summary, set **Transfer Shipping Options** to `Yes`. (This option appears only if line items are set to transfer.)
 
 1. To determine the type of image used for the PayPal acceptance button, set **Shortcut Buttons Flavor** to one of the following:
 
    - `Dynamic` - (Recommended) Displays an image that can be dynamically changed from the PayPal server.
    - `Static` - Displays a specific image that cannot be dynamically changed.
 
-1. To allow customers without PayPal accounts to make a purchases with this method, set **Enable PayPal Guest Checkout** to `Yes`.
+1. To allow customers without PayPal accounts to make a purchase with this method, set **Enable PayPal Guest Checkout** to `Yes`.
 
 1. Set **Require Customer's Billing Address** to one of the following:
 
@@ -351,9 +351,9 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
    >[!NOTE]
    >
-   >This feature must first be enabled for the merchant account through PayPal technical support.
+   >This feature must be enabled for the merchant account through PayPal technical support.
 
-1. To specify whether the customer can sign a [billing agreement](paypal-billing-agreements.md) with your store in the PayPal payment system when there are no active billing agreements available in the customer account, set **Billing Agreement Signup** to one of the following:
+1. (Optional) Set the **Billing Agreement Signup** to allow customers to sign a [billing agreement](paypal-billing-agreements.md) with your store in the PayPal payment system when there are no active billing agreements available in the customer account:
 
    - `Auto` - The customer can either sign a billing agreement during the Express Checkout flow or use another method of payment.
    - `Ask Customer` - The customer can decide whether to sign a billing agreement during the Express Checkout flow.
@@ -454,7 +454,7 @@ A [billing agreement](paypal-billing-agreements.md) is a sales agreement between
 
 #### Frontend Experience Settings
 
-The Frontend Experience Settings give you the opportunity to choose which PayPal logos appear on your site, and to customize the appearance of your PayPal merchant pages.
+Use the Frontend Experience Settings to choose which PayPal logos appear on your site, and to customize the appearance of your PayPal merchant pages.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Frontend Experience Settings** section.
 
@@ -482,7 +482,7 @@ The Frontend Experience Settings give you the opportunity to choose which PayPal
 
       >[!NOTE]
       >
-      >PayPal recommends that the image be located on a secure (https) server. Otherwise, a browser may warn that _the page contains both secure and nonsecure items_.
+      >PayPal recommends that the image resides on a secure (https) server. Otherwise, a browser may warn that _the page contains both secure and nonsecure items_.
 
    - To set the color for your pages, enter the six-character hexadecimal code, without the `#` symbol, for each of the following:
 
@@ -555,7 +555,7 @@ Features settings allow you to disable certain features related to this PayPal s
 
 1. Set the **Disable Funding Options** to determine which other PayPal funding options are displayed on the _Checkout_ page.
 
-   Selected options will never be displayed on the _Checkout_ page. Unselected options will be displayed only if PayPal supports the store currency and the buyer location. Options include:
+   Selected options are not displayed on the _Checkout_ page. Unselected options are displayed only if PayPal supports the store currency and the buyer location. Options include:
 
    - PayPal Credit
    - PayPal Guest Checkout Credit Card Icons

@@ -14,7 +14,7 @@ On the _Admin_ sidebar, go to **Sales** > _Operations_ > **Invoices** to open th
 
 |Column|Description|
 |--- |--- |
-|Select|Select the checkbox to choose the quote(s) to be subject to an action, or use the selection control in the column header. Options: Select All/Deselect All|
+|Select|Select the checkbox to choose the quotes to be subject to an action, or use the selection control in the column header. Options: Select All/Deselect All|
 |Invoice|A unique numeric identifier that is assigned when an invoice is submitted from the Admin. When viewing the invoice detail, this number appears at the top of the page, instead of the quote name.|
 |Invoice Date|The date and time the administrator first submitted the invoice.|
 |Order#|A unique numeric identifier that is assigned when an order is placed by a buyer. When viewing the invoice details, this number appears as a link in the Order & Account Information block.|
@@ -23,12 +23,12 @@ On the _Admin_ sidebar, go to **Sales** > _Operations_ > **Invoices** to open th
 |Status|Indicates the current state of an invoice. This can be changed only by action on the part of either the buyer or seller.|
 |Grand Total (Base)|The total price of products to be purchased. The total amount appears in the base currency of the website and in the currency of the storefront.|
 |Grand Total (purchase)|The grand total of products purchased in the order. The total amount appears in the base currency of the website and in the currency of the storefront.|
-|Purchased From|The website/store from which the invoice was created and also in which store view it was created.|
+|Purchased From|The website/store/store view from which the invoice was created.|
 |Billing Address|The billing address of the customer who placed the order.|
 |Shipping Address|The address where the order is to be shipped.|
-|Customer Name|The first and last name of the customer who will receive the invoice.|
-|Email|The email address of the person who will receive the invoice.|
-|Customer Group|The customer group to which the person who will receive the invoice is assigned.|
+|Customer Name|The first and last name of the customer receiving the invoice.|
+|Email|The email address of the customer receiving the invoice.|
+|Customer Group|The customer group assigned to customer receiving the invoice.|
 |Payment Method|The method of payment to be used for the payment.|
 |Shipping Information|The method to be used to ship the order.|
 |Subtotal|The order subtotal, without shipping and handling, and tax.|
@@ -41,7 +41,7 @@ On the _Admin_ sidebar, go to **Sales** > _Operations_ > **Invoices** to open th
 
 Creating an invoice for an order moves it to a state in which it cannot be canceled or changed. A new invoice page looks similar to a completed order, with some additional fields. Every activity that is related to an order is noted in the Comments section of the invoice.
 
-Normally, orders are invoiced and captured when the shipping process starts. If the method of payment is a purchase order, or if the [payment action](https://docs.magento.com/user-guide/configuration/sales/payment-methods.html#payment-actions) is set to `Authorize and Capture`, the order will be invoiced and payment is captured during checkout. You can generate an invoice with a packing slip, and also print shipping labels from your carrier account. A single order can be divided into partial shipments, which are invoiced separately, if necessary.
+Normally, orders are invoiced and captured when the shipping process starts. If the method of payment is a purchase order, or if the [payment action](https://docs.magento.com/user-guide/configuration/sales/payment-methods.html#payment-actions) is set to `Authorize and Capture`, the order is invoiced and payment is captured during checkout. You can generate an invoice with a packing slip, and also print shipping labels from your carrier account. A single order can be divided into partial shipments, which are invoiced separately, if necessary.
 
 When the state of new orders is set to `Processing`, the option to _Automatically Invoice All Items_ becomes available in the configuration. Some credit card payment methods complete the invoicing step as part of the process when the [payment action](https://docs.magento.com/user-guide/configuration/sales/payment-methods.html#payment-actions) is set to `Authorize and Capture`. In such a case, the Invoice button does not appear, and the order is ready to ship.
 
@@ -51,7 +51,7 @@ When the state of new orders is set to `Processing`, the option to _Automaticall
 
 You must generate an invoice for an order before you can print it. To view or print the PDF, first download and install a PDF reader such as [Adobe Acrobat Reader][1].
 
-To invoice an order:
+**_To invoice an order:_**
 
 1. On the _Admin_ sidebar, click **Sales**.
 
@@ -65,7 +65,7 @@ To invoice an order:
 
    >[!NOTE]
    >
-   >The Invoice option does not appear when the [payment action](https://docs.magento.com/user-guide/configuration/sales/payment-methods.html#payment-actions) for your specific [payment method](https://docs.magento.com/user-guide/configuration/sales/payment-methods.html) is set to `Authorize and Capture`, which auto-generates an invoice, or when and order is placed in which the payment action for your payment method is set to `Authorize` and the order is invoiced.
+   >The Invoice option does not appear when the [payment action](https://docs.magento.com/user-guide/configuration/sales/payment-methods.html#payment-actions) for your specific [payment method](https://docs.magento.com/user-guide/configuration/sales/payment-methods.html) is set to `Authorize and Capture`, which auto-generates an invoice. This is also the case if the order is placed and the payment action for your payment method is set to `Authorize` and the order is invoiced.
 
    The new invoice page looks similar to a completed order page, with additional fields that can be edited.
 
@@ -75,7 +75,7 @@ To invoice an order:
 
    - In the _Shipping Information_ section, click the **Create Shipment** checkbox to select it.
 
-      The shipment record is created at the same time the invoice is generated.
+      The shipment record is created at the same time that the invoice is generated.
 
       ![Create Shipment](./assets/invoice-create-shipment-fedex.png)<!-- zoom -->
 

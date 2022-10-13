@@ -37,7 +37,7 @@ The possible display fields vary depending on the calculation method and whether
 |Setting|Calculation and Display|
 |--- |--- |
 |Excluding Tax|Using this setting, the base item price is used as it is entered and the tax calculation methods are applied.|
-|IncludingTax|Using this setting, the base item price excluding tax is calculated first. This value is used as the base price, and the tax calculation methods are applied.|
+|IncludingTax|Using this setting, the base item price that excludes tax is calculated first. This value is used as the base price, and the tax calculation methods are applied.|
 
 {style="table-layout:auto"}
 
@@ -60,7 +60,7 @@ To display two different tax amounts as separate line items, such as GST and PST
 
 ## Warning messages
 
-Some combinations of tax-related options might be confusing to customers and trigger a warning. These conditions might occur when the tax calculation method is set to `Row` or `Total`, and the customer is presented with prices that both exclude and include tax, or a tax on an item basis in the cart. Because the tax calculation is rounded, the amount that appears in the cart might differ from the amount that a customer expects to pay.
+Some combinations of tax-related options might be confusing to customers and trigger a warning. These conditions might occur when the tax calculation method is set to `Row` or `Total`, and the customer is presented with prices that both exclude and include tax. It can also occur when there is tax on a per-item basis in the cart. Because the tax calculation is rounded, the amount that appears in the cart might differ from the amount that a customer expects to pay.
 
 If your tax calculation is based on a problematic configuration, the following warnings appear:
 

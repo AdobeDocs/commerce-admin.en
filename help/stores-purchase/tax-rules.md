@@ -4,7 +4,7 @@ description: <Add description here>
 ---
 # Tax rules
 
-Tax rules incorporate a combination of product class, customer class and tax rate. Each customer is assigned to a customer class, and each product is assigned a product class. Commerce analyzes the shopping cart of each customer and calculates the appropriate tax according to the customer and product classes, and the region (based on the customer's shipping address, billing address or shipping origin).
+Tax rules incorporate a combination of product class, customer class, and tax rate. Each customer is assigned to a customer class, and each product is assigned a product class. Commerce analyzes the shopping cart of each customer and calculates the appropriate tax according to the customer and product classes, and the region. The region is based on the customer's shipping address, billing address, or shipping origin.
 
 >[!NOTE]
 >
@@ -64,17 +64,17 @@ Tax rules incorporate a combination of product class, customer class and tax rat
 
    - To edit a customer tax class, click the _Edit_ ![Pencil icon](../assets/icon-edit-pencil.png) icon, update the form as needed, and click **Save**.
 
-   - To create a new tax class, click **Add New Tax Class**, complete the form as needed, and click **Save**.
+   - To create a tax class, click **Add New Tax Class**, complete the form as needed, and click **Save**.
 
 1. Choose the **Product Tax Class** to which the rule applies.
 
    - To edit a product tax class, click the _Edit_ ![Pencil icon](../assets/icon-edit-pencil.png) icon, update the form as needed, and click **Save**.
 
-   - To create a new tax class, click **Add New Tax Class**, complete the form as needed, and click **Save**.
+   - To create a tax class, click **Add New Tax Class**, complete the form as needed, and click **Save**.
 
 1. When more than one tax applies, enter a number to indicate the priority of this tax for **Priority**.
 
-   If two tax rules with the same priority apply, the taxes are added together. If two taxes with different priority settings apply, the taxes are compounded.
+   If two tax rules with the same priority apply, the taxes are added. If two taxes with different priority settings apply, the taxes are compounded.
 
 1. If you want taxes to be based on the order subtotal, select the **Calculate off Subtotal Only** checkbox.
 

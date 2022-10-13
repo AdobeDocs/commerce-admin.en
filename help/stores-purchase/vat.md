@@ -4,9 +4,9 @@ description: <Add description here>
 ---
 # Value added tax (VAT)
 
-Some countries charge a value-added tax, or VAT, on goods and services. There can be different VAT rates depending on the stage in the manufacture or distribution process, materials, or services that you sell to your customers. In some cases, you might need to apply more than one VAT rate to correctly calculate the tax that is due.
+Some countries charge a value-added tax, or VAT, on goods and services. There can be different VAT rates depending on the stage in the manufacture or distribution process, materials, or services that you sell to your customers. You might need to apply more than one VAT rate to correctly calculate the tax that is due.
 
-Commerce can be configured to charge a value-added tax based on either the merchant or customer address, provided that both are located in the same country. VAT calculations are usually based on the shipment destination, rather than its point of origin. For most scenarios, a configuration setting that calculates VAT based on the customer shipping address is sufficient.
+Commerce can be configured to charge a value-added tax based on either the merchant or customer address, if both are in the same country. VAT calculations are typically based on the shipment destination, rather than its point of origin. For most scenarios, a configuration setting that calculates VAT based on the customer shipping address is sufficient.
 
 ## Example scenarios
 
@@ -38,7 +38,7 @@ The process of creating a tax rule begins by adding a tax rate.
 
 1. Ensure that there is a customer tax class that is appropriate to use with the VAT.
 
-   For this example, ensure that there is a customer tax class named "Retail Customer". If this tax class does not already exist, click **Add New Tax Rate**.
+   For this example, ensure that there is a customer tax class named "Retail Customer". If this tax class does not exist, click **Add New Tax Rate**.
 
    ![Set up customer tax classes](./assets/vat-zones.png)<!-- zoom -->
 
@@ -46,7 +46,7 @@ The process of creating a tax rule begins by adding a tax rate.
 
    All tax rates are displayed in the _Tax Rate_ field in the _Tax Rule Information_ when you create tax rules.
 
-1. To set the zip code range (from / to) select the **Zip/Post is Range** checkbox.
+1. To set the zip code range (from / to), select the **Zip/Post is Range** checkbox.
 
 1. Choose the **Country** where the tax rate applies.
 
@@ -178,20 +178,20 @@ _VAT ID Validation_ automatically calculates the required tax for B2B transact
 >
 >VAT-related tax rules do not influence other tax rules, and do not prevent the application of other tax rules. Only one tax rule can be applied at a given time.
 
-- VAT is charged if the merchant and customer are located in the same EU country.
-- VAT is not charged if the merchant and customer are located in different EU countries, and both parties are EU-registered business entities.
+- VAT is charged if the merchant and customer are in the same EU country.
+- VAT is not charged if the merchant and customer are in different EU countries, and both parties are EU-registered business entities.
 
 The store administrator creates more than one default customer group that can be automatically assigned to the customer during account creation, address creation or update, and checkout. The result is that different tax rules are used for intra-country (domestic) and intra-EU sales.
 
 >[!IMPORTANT]
 >
->If you sell virtual or downloadable products, which by their nature do not require shipping, the VAT rate of a customer's location country should be used for both intra-union and domestic sales. You must create additional individual tax rules for product tax classes that correspond to the virtual products.
+>If you sell virtual or downloadable products, which do not require shipping, the VAT rate of a customer's location country should be used for both intra-union and domestic sales. Create additional individual tax rules for product tax classes that correspond to the virtual products.
 
 ### Customer registration workflow
 
 If VAT ID Validation is enabled, after registration each customer is proposed to enter the VAT ID number. However only those who are registered VAT customers are expected to fill this field.
 
-After a customer specifies the VAT number and other address fields, and chooses to save, the system saves the address and sends the VAT ID validation request to the European Commission server. According to the results of the validation, one of the default groups is assigned to a customer. This group can be changed if a customer or an administrator changes the VAT ID of the default address or changes the whole default address. The group can be temporarily changed (group change will be emulated) in some cases during one-page checkout.
+After a customer specifies the VAT number and other address fields, and chooses to save, the system saves the address and sends the VAT ID validation request to the European Commission server. According to the results of the validation, one of the default groups is assigned to a customer. This group can be changed if a customer or an administrator changes the VAT ID of the default address or changes the whole default address. Sometimes, the group can be temporarily changed (group change is emulated) during one-page checkout.
 
 If enabled, you can override VAT ID Validation for individual customers by selecting the checkbox on the Customer Information page.
 
@@ -201,7 +201,7 @@ If a customer's VAT validation is performed during checkout, the VAT request ide
 
 The system behavior concerned with the VAT ID validation and the customer group change during the checkout depends on how the Validate on Each Transaction and the Disable Automatic Group Change settings are configured. This section describes the implementation of the VAT ID Validation functionality for the checkout on the frontend.
 
-In case a customer uses Google Express Checkout, PayPal Express Checkout or another external checkout method, when the checkout is performed completely on the side of the external payment gateway, the Validate on Each Transaction setting cannot be applied. Thus the customer group cannot change during checkout.
+If customer uses Google Express Checkout, PayPal Express Checkout, or another external checkout method, the checkout is performed completely on the side of the external payment gateway. For this scenario, the _Validate on Each Transaction_ setting cannot be applied and the customer group cannot change during checkout.
 
 ![VAT Validation Checkout Workflow](./assets/vat-id-validation2.png)<!-- {:width="550px"} -->
 
@@ -209,7 +209,7 @@ In case a customer uses Google Express Checkout, PayPal Express Checkout or anot
 
 To configure VAT ID validation, you must first set up the customer groups that are needed, and create the related tax classes, rates, and rules. Then, enable VAT ID validation for the store, and complete the configuration.
 
-The following examples show how tax classes and rates are used for VAT ID Validation. Take a look at the examples, and then follow the instructions to set up the tax classes and rules that are needed for your store.
+The following examples show how tax classes and rates are used for VAT ID Validation. Review the examples, and then follow the instructions to set up the tax classes and rules that are needed for your store.
 
 #### Example: Minimal tax rules required for VAT ID validation
 
@@ -254,11 +254,11 @@ VAT ID Validation automatically assigns one of the four default customer groups 
 - Invalid VAT ID
 - Validation error
 
-You can create new customer groups for VAT ID Validation or use existing groups, if they comply with your business logic. When configuring VAT ID Validation, you must assign each of the created customer groups as a default for customers with appropriate VAT ID validation results.
+You can create customer groups for VAT ID Validation or use existing groups, if they comply with your business logic. When configuring VAT ID Validation, you must assign each of the created customer groups as a default for customers with appropriate VAT ID validation results.
 
 #### Step 2: Create VAT-related classes, rates, and rules
 
-Each tax rule is defined be three entities:
+Each tax rule is defined by three entities:
 
 - Customer Tax Classes
 - Product Tax Classes
@@ -279,7 +279,7 @@ Create the [tax rules](tax-rules.md) that you need to use VAT ID Validation eff
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Create New Account Options** section.
 
-   In the following example, the general customer settings that are not related to VAT Validation are dimmed.
+   In the following example, the general customer settings that are not related to VAT Validation are dim.
 
    ![Create New Account Options](../configuration-reference/customers/assets/customer-configuration-create-new-account-options-vat.png)<!-- zoom -->
 

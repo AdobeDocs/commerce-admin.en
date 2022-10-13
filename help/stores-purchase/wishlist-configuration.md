@@ -20,9 +20,9 @@ The wish list configuration enables wish lists and determines the email template
 
     - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Set the **Enable Multiple Wish Lists** field to `Yes`. This allows customers to create and maintain multiple wish lists.
 
-    - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) sTo limit the number of wish lists customers can have associated with their account, enter a **Number of Multiple Wish Lists** value.
+    - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) sTo limit the number of wish lists customers can have associated with their account, enter value for **Number of Multiple Wish Lists**.
 
-    - Set the **Show in Sidebar** field to `Yes`. This displays the wish list(s) in the sidebar.
+    - Set the **Show in Sidebar** field to `Yes`. This displays the wish lists in the sidebar.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Share Options** section. Then, do the following:
 
@@ -34,7 +34,7 @@ The wish list configuration enables wish lists and determines the email template
 
     - To limit the total number of emails a customer can send, enter a **Max Emails Allowed to be Sent** value. The default is 10 and the maximum allowed is 10,000.
 
-    - To limit the size of the message, enter a **Email Text Length Limit** value. The default is 255.
+    - To limit the size of the message, enter value for **Email Text Length Limit**. The default is 255.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **My Wish List Link** section and set **Display Wish List Summary** to one of the following:
 
@@ -63,7 +63,7 @@ Any public wish list can be found using the Wish List Search [widget](../content
 
    - Set **Type** to `Wish List Search`.
 
-   - Set **Design Theme** to the theme of the store where the wish list will be added.
+   - Set **Design Theme** to the theme of the store where the wish list is added.
 
    - Click Continue.
 

@@ -4,7 +4,7 @@ description: <Add description here>
 ---
 # Shipping and delivery
 
-Studies show that stores offering customers a choice of several delivery methods have higher conversion rates than those that use a single method. You can set up a variety of delivery methods and shipping carriers. The [shipping settings](shipping-settings.md) establish the point of origin for all shipments made from your store or warehouse and your preference for managing orders shipped to multiple addresses. You can easily create [shipping labels](shipping-labels.md) for new and existing orders from the Admin of your store. Labels can be produced when a shipment is created, or later. Shipping labels are stored in PDF format and downloaded to your computer.
+Studies show that stores offering customers a choice of several delivery methods have higher conversion rates than those that use a single method. You can set up various delivery methods and shipping carriers. The [shipping settings](shipping-settings.md) establish the point of origin for all shipments made from your store or warehouse and your preference for managing orders shipped to multiple addresses. You can easily create [shipping labels](shipping-labels.md) for new and existing orders from the Admin of your store. Labels can be produced when a shipment is created, or later. Shipping labels are stored in PDF format and downloaded to your computer.
 
 >[!NOTE]
 >
@@ -12,7 +12,7 @@ Studies show that stores offering customers a choice of several delivery methods
 
 ## Basic delivery methods
 
-Adobe Commerce and Magento Open Source support a wide range of delivery methods, as well as shipping carriers. There are some basic delivery methods that do not require an account with a third-party provider:
+Adobe Commerce and Magento Open Source support a wide range of delivery methods, and shipping carriers. There are some basic delivery methods that do not require an account with a third-party provider:
 
 * [Free Shipping](shipping-free.md)
 

@@ -1,8 +1,8 @@
 ---
-title: Instant purchase
+title: Instant Purchase
 description: <Add description here>
 ---
-# Instant purchase
+# Instant Purchase
 
 Instant Purchase allows customers to speed through the checkout process using information that is saved in their account. When enabled, the _Instant Purchase_ button appears below the _Add to Cart_ button on the product page for customers who meet the requirements.
 
@@ -24,7 +24,7 @@ Instant Purchase allows customers to speed through the checkout process using in
    - [Braintree with PayPal Enabled](braintree.md)
    - [PayPal Payflow Pro](paypal-payflow-pro.md)
 
-## Instant purchase on the storefront
+## Instant Purchase on the storefront
 
 1. On the storefront, the customer goes to the product page of the item to be purchased.
 
@@ -34,9 +34,9 @@ Instant Purchase allows customers to speed through the checkout process using in
 
 1. Reviews the **Instant Purchase Confirmation** information and clicks **OK** to complete the transaction.
 
-   A confirmation message and order number appears at the top of the product page.
+   A confirmation message and order number appear at the top of the product page.
 
-## Configure instant purchase
+## Configure Instant Purchase
 
 ### Step 1: Open the configuration page
 
@@ -66,7 +66,7 @@ The following example shows how to configure the Braintree vault.
 
    ![Basic Braintree Settings](./assets/braintree-basic-settings.png)<!-- zoom -->
 
-### Step 3: Enable instant purchase
+### Step 3: Enable Instant Purchase
 
 1. In the left panel under the _Sales_ section, choose **Sales**.
 

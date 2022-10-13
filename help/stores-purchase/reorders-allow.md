@@ -30,7 +30,7 @@ When enabled, reorders can be made directly from the customer account or from th
 
 1. Set **Allow Reorder** to `Yes`. 
 
-   This setting allows reorders from the customer account on the storefront or orders list in the Admin.
+   This setting enables reorder functionality from the customer account on the storefront or orders list in the Admin.
 
 1. Click **Save Config**.
 
@@ -50,7 +50,7 @@ The _Reorder_ button is always displayed in the list with Orders (even if all pr
 
 **Case 1.** All products from the order are **available** for reorder
 
-User will be redirected to the cart, and all products are added to the cart
+User is redirected to the cart, and all products are added to the cart
 
 ![Shopping cart](./assets/shopping-cart-page.png)<!-- zoom -->
 
@@ -60,7 +60,7 @@ User will be redirected to the cart, and all products are added to the cart
 >
 >It is possible to reorder `Not Visible Individually` products.
 
-The _Reorder_ button will not appear on the _My Orders_ and _View Order_ pages.
+The _Reorder_ button does not appear on the _My Orders_ and _View Order_ pages.
 
 ![My Orders page 1](./assets/my-orders-view-page1.png)<!-- zoom -->
 
@@ -68,7 +68,7 @@ The _Reorder_ button will not appear on the _My Orders_ and _View Order_ pages.
 
 **Case 1.** All products from the order are available for reorder
 
-User will be redirected to the cart, and all products are added to the cart
+User is redirected to the cart, and all products are added to the cart
 
 **Case 2.** Some/all products from the order are **not available** for reorder
 
@@ -76,7 +76,7 @@ User will be redirected to the cart, and all products are added to the cart
 >
 >It is possible to reorder `Not Visible Individually` products.
 
-The _Reorder_ button will not appear on the _My Orders_ and _View Order_ pages.
+The _Reorder_ button does not appear on the _My Orders_ and _View Order_ pages.
 
 ![Order details page](./assets/order-view-page.png)<!-- zoom -->
 

@@ -33,7 +33,7 @@ Go to [Braintree Payments][1] and sign up for an account.
       - `Sandbox`
       - `Production`
 
-     When testing the configuration in a sandbox, use only [credit card numbers][2] that are recommended by Braintree. When you are ready to go live with Braintree, set **Environment** to `Production`.
+     When testing the configuration in a sandbox, use only [credit card numbers][2] that are recommended by Braintree. When you are ready to go to production with Braintree, set **Environment** to `Production`.
 
    - Set **Payment Action** to one of the following:
 
@@ -67,11 +67,11 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 1. To use Braintree fraud protection for all transactions, set **Advanced Fraud Protection** to `Yes`.
 
-   Ensure the Advanced Fraud Protection is enabled in the Settings/Protection section of your account.
+   Ensure that the Advanced Fraud Protection is enabled in the Settings/Protection section of your account.
 
 1. Set the `Bypass Fraud Protection Threshold` so that the `Advanced Fraud Protection` checks are bypassed when the threshold is met or exceeded.
 
-1. Leaving this field blank will disable this option.
+1. Leaving this field blank disables this option.
 
 1. If you want the system to save a log file of interactions between your store and Braintree, set **Debug** to `Yes`.
 
@@ -87,7 +87,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 
    ![Advanced Settings](./assets/braintree-advanced.png)<!-- zoom -->
 
-## Step 4: Complete the country specific settings
+## Step 4: Complete the country-specific settings
 
 1. Set **Payment from Applicable Countries** to one of the following:
 
@@ -126,11 +126,11 @@ Go to [Braintree Payments][1] and sign up for an account.
    - `All Allowed Countries` - Customers from all [countries](../getting-started/store-details.md#country-options) specified in your store configuration can use this payment method.
    - `Specific Countries` - After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key (PC) or the Command key (Mac) and select each country in the list where customers can make purchases from your store.
 
-1. To require that customers provide a billing address, set **Require Customer's Billing Address** to `Yes`.
+1. To require customers to provide a billing address, set **Require Customer's Billing Address** to `Yes`.
 
    >[!NOTE]
    >
-   >This feature must first be enabled for your account by PayPal Technical Support.
+   >This feature must be enabled for your account by PayPal Technical Support.
 
 1. To save a log file of interactions between your store and PayPal through Braintree, set **Debug** to `Yes`.
 
@@ -159,7 +159,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 ## **Step 7:** Dynamic descriptors
 
-The following descriptors are used to identify purchases on customer credit card statements. You can reduce the number of chargebacks by clearly identifying the company that is associated with each purchase. If Dynamic Descriptors are not enabled for your account, contact [Braintree support](mailto:support@getbraintree.com?subject=Support for Dynamic Descriptors).
+The following descriptors are used to identify purchases on customer credit card statements. You can reduce the number of charge backs by clearly identifying the company that is associated with each purchase. If dynamic descriptors are not enabled for your account, contact Braintree support.
 
 1. Enter the Dynamic Descriptor for the **Name**, **Phone**, and **URL** according to these guidelines:
 
@@ -167,7 +167,7 @@ The following descriptors are used to identify purchases on customer credit card
       
       `company*myproduct`
       
-      The first part of the descriptor identifies the company or DBA, and the second part identifies the product. The length of the Company  and Product parts of the descriptor can be allocated in the following ways, for a combined length of up to twenty-two characters.
+      The first part of the descriptor identifies the company or DBA, and the second part identifies the product. The length of the Company  and Product parts of the descriptor can be allocated in the following ways, for a combined length of up to 22 characters.
       
       **Characters in Name descriptor**
       
@@ -177,7 +177,7 @@ The following descriptors are used to identify purchases on customer credit card
       
       _Option 3_: Company must be 12 characters, Product may be up to nine characters
 
-   - **Phone** - The Phone descriptor must be 10 to 14 characters in length, and can include only numbers, dashes, parentheses, and periods. For example:
+   - **Phone** - The Phone descriptor must be 10 – 14 characters in length, and can include only numbers, dashes, parentheses, and periods. For example:
 
       `9999999999`
       
@@ -185,7 +185,7 @@ The following descriptors are used to identify purchases on customer credit card
       
       `999.999.9999`
 
-   - **URL** - The URL descriptor represents your domain name, and can be up to thirteen characters long. For example:
+   - **URL** - The URL descriptor represents your domain name, and can be up to 13 characters long. For example:
 
       `company.com`
 
@@ -195,7 +195,7 @@ The following descriptors are used to identify purchases on customer credit card
 
 Before upgrading to Commerce 2.4, we recommended that merchants replace the core Commerce Braintree integration with the official Braintree extension from [Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree). Beginning with Adobe Commerce and Magento Open Source 2.4.0, the Braintree extension is included in the release.
 
-If you are migrating to Commerce 2.4.x from a pre-2.4.0 version that has the Marketplace Braintree extension installed, you must uninstall the Marketplace Braintree extension (`paypal/module-braintree` or `gene/module-braintree`) and update any code customizations to use the `PayPal_Braintree` namespace instead of `Magento_Braintree`. Configuration settings from the core Commerce Braintree Payments bundled extension and the extension distributed on Commerce Marketplace will persist and payments placed with those previous versions of the extension can still be captured, voided, or refunded as normal.
+If you are migrating to Commerce 2.4.x from a pre-2.4.0 version that has the Marketplace Braintree extension installed, you must uninstall that extension (`paypal/module-braintree` or `gene/module-braintree`) and update any code customizations to use the `PayPal_Braintree` namespace instead of `Magento_Braintree`. Configuration settings from the core Commerce Braintree Payments bundled extension and the extension distributed on Commerce Marketplace persist and payments placed with those previous versions can still be captured, voided, or refunded as normal.
 
 [1]: https://www.braintreepayments.com/
 [2]: https://developers.braintreepayments.com/reference/general/testing/php

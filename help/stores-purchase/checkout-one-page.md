@@ -18,7 +18,7 @@ One-page checkout is enabled by default. If you are implementing a custom integr
 
    ![Configuration - checkout options](../configuration-reference/sales/assets/checkout-checkout-options.png)<!-- zoom -->
 
-   For a detailed description of each of these configuration settings, see [Checkout Options](https://docs.magento.com/user-guide/configuration/checkout.html#checkout-options) in the _Configuration Reference Guide_.
+   For a detailed description of each of these configuration settings, see [Checkout Options](https://docs.magento.com/user-guide/configuration/sales/checkout.html#checkout-options) in the _Configuration Reference Guide_.
 
 1. If the setting is for a specific store view, [choose the store view](https://docs.magento.com/user-guide/configuration/scope-change.html) where the configuration applies.
 

@@ -8,6 +8,6 @@ The cart is positioned at the end of the path to purchase, at the intersection o
 
 ![The shopping cart page displays tools the shopper can use to manage the products for their order ](./assets/storefront-cart-full.png)<!-- zoom -->
 
-- Configure the [shopping cart options](cart-configuration.md) to determine which tools are available to shoppers, as well as modify the display.
+- Configure the [shopping cart options](cart-configuration.md) to determine which tools are available to shoppers, and modify the display.
 - Configure the [cart persistence](cart-persistent.md) behavior to help shoppers retain the contents of their cart.
 - Add the [Order by SKU](order-by-sku.md) widget as a convenience for all shoppers, or only for those in specific customer groups, to enter the SKU and quantity information directly into a page.

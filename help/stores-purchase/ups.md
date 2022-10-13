@@ -51,7 +51,7 @@ To offer this shipping method to your customers, you must first open an account 
 
       >[!IMPORTANT]
       >
-      >UPS is discontinuing support of HTTP, which is used in the current default (system value). You must clear the **Use system value** checkbox and modify the URL to use HTTPS. Example: https://www.ups.com/using/services/rave/qcostcgi.cgi
+      >UPS is discontinuing support of HTTP, which is used in the current default (system value). Clear the **Use system value** checkbox and modify the URL to use HTTPS. Example: https://www.ups.com/using/services/rave/qcostcgi.cgi
 
 1. For **Title**, enter the name of this shipping option as you want it to appear during checkout.
 
@@ -109,7 +109,7 @@ To offer this shipping method to your customers, you must first open an account 
 
 ## Step 4: Set up handling fees
 
-The handling fee is optional and appears as an additional charge that is added to the UPS shipping cost. If you want to include a handling fee, do the following:
+The handling fee is optional and appears as an extra charge that is added to the UPS shipping cost. If you want to include a handling fee, do the following:
 
 1. Set **Calculate Handling Fee** to one of the following methods:
 

@@ -8,13 +8,13 @@ Adobe Commerce and Magento Open Source provide a comprehensive set of features t
 
 ## Store structure
 
-A single instance of Adobe Commerce or Magento Open Source can support multiple sites, stores, or store views that use different attributes and content. A typical scenario is to set up stores with different options in different domains. For example, you might want one set of categories and products on one domain and another set of categories and products on a different domain in a another language. Merchants can configure the websites, stores, and store views in the Admin.
+A single instance of Adobe Commerce or Magento Open Source can support multiple sites, stores, or store views that use different attributes and content. A typical scenario is to set up stores with different options in different domains. For example, you might want one set of categories and products on one domain and another set of categories and products on a different domain in another language. Merchants can configure the websites, stores, and store views in the Admin.
 
-When the [hierarchy](stores.md) is defined, you can apply configuration settings according to [scope](../getting-started/websites-stores-views.md#scope-settings) so that each site, store and store view presents the product catalog and storefront experience you want.
+When the [hierarchy](stores.md) is defined, you can apply configuration settings according to [scope](../getting-started/websites-stores-views.md#scope-settings) so that each site, store, and store view provides the product catalog and storefront experience you want.
 
 ## Point of purchase
 
-Adobe Commerce and Magento Open Source reduce ordering errors by automatically verifying the SKU and availability of all items before an order is submitted. You can configure the [cart](cart.md) and [checkout options](checkout-process.md) to provide an optimal purchase experience, from the transaction through the delivery. Customers who are logged into their accounts can complete checkout quickly, because much of the information is already in their accounts. The _Checkout_ page leads the customer through each step of the process for completing the order transaction. If you activate [instant purchase](checkout-instant-purchase.md), customers can speed through the checkout process using information that is saved in their account.
+Adobe Commerce and Magento Open Source reduce ordering errors by automatically verifying the SKU and availability of all items before an order is submitted. You can configure the [cart](cart.md) and [checkout options](checkout-process.md) to provide an optimal purchase experience, from the transaction through the delivery. Customers who are logged into their accounts can complete checkout quickly, because much of the information is already in their accounts. The _Checkout_ page leads the customer through each step of the process for completing the order transaction. If you activate [Instant Purchase](checkout-instant-purchase.md), customers can speed through the checkout process using information that is saved in their account.
 
 >[!TIP]
 >
@@ -22,7 +22,7 @@ Adobe Commerce and Magento Open Source reduce ordering errors by automatically v
 
 ## Shopping assistance
 
-Customers sometimes need assistance to complete a purchase. Some customers like to shop online, but would rather the order by phone. You can offer immediate assistance to both guests and customers who have registered for an account with your store.
+Customers sometimes need assistance to complete a purchase. Some customers like to shop online, but prefer to order by phone. You can offer immediate assistance to both guests and customers who have registered for an account with your store.
 
 - [Manage the shopping cart](shopping-assisted-cart-manage.md)
 - [Create orders](customer-account-create-order.md) for registered customers
@@ -38,7 +38,7 @@ Watch this video to learn about seller-assisted shopping:
 
 In the Admin, merchants can access information at each stage of the order workflow and process orders:
 
-- The [Orders](orders.md) page provides merchants with an easy-to-access list of all current orders, and includes tools to edit and process existing orders, and create new orders on behalf of customers. 
+- The [Orders](orders.md) page provides merchants with an easy-to-access list of all current orders, and includes tools to edit and process existing orders, and create orders on behalf of customers. 
 
 - The [Invoices](invoices.md) page lists An invoice is based on a temporary sales order and provides a permanent record of the order.
 
@@ -48,8 +48,8 @@ In the Admin, merchants can access information at each stage of the order workfl
 
 - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) The [Returns](returns.md) page lists the current returned merchandise requests (RMAs) and is used to enter new return requests.
 
-- The [Transactions](transactions.md) page lists all psayment activity that has taken place between your store and a payment system, and provides access to more detailed information.
+- The [Transactions](transactions.md) page lists all payment activity that has taken place between your store and a payment system, and provides access to more detailed information.
 
 ## Shipping and delivery
 
-Studies show that stores offering customers a choice of several [delivery methods](delivery.md) have higher conversion rates than those that use a single method. The Admin provides a variety of tools that merchants can use to set up multiple delivery methods and [shipping carriers](carriers.md), and to print [shipping labels](shipping-labels.md).
+Studies show that stores offering customers a choice of several [delivery methods](delivery.md) have higher conversion rates than those that use a single method. The Admin provides various tools that merchants can use to set up multiple delivery methods and [shipping carriers](carriers.md), and to print [shipping labels](shipping-labels.md).

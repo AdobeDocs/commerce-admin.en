@@ -84,7 +84,7 @@ This setup method assumes you have an existing PayPal account.
 
    >[!IMPORTANT]
    >
-   >Email addresses are case sensitive. To receive payment, the email address you enter must match the email address specified in your PayPal merchant account.
+   >Email addresses are case-sensitive. To receive payment, the email address you enter must match the email address specified in your PayPal merchant account.
 
    If you do not have a PayPal account, click **Start accepting payments via PayPal**.
 
@@ -101,7 +101,7 @@ This setup method assumes you have an existing PayPal account.
 
 1. If you are using credentials from your sandbox account, set **Sandbox Mode** to `Yes`.
 
-   When testing the configuration in a sandbox, use only [credit card numbers][2] that are recommended by PayPal. When you are ready to go live, return to the configuration and set Sandbox Mode to `No` and connect to your production PayPal account.
+   When testing the configuration in a sandbox, use only [credit card numbers][2] that are recommended by PayPal. When you are ready to go to production, return to the configuration and set Sandbox Mode to `No` and connect to your production PayPal account.
 
 1. If your system uses a proxy server to establish the connection between Adobe Commerce or Magento Open Source and the PayPal payment system, set **API Uses Proxy** to `Yes` and complete the following:
 
@@ -114,8 +114,8 @@ Starting with the 2.4.3 release, PayPal Pay Later is supported in deployments th
 
 Set **Enable PayPal PayLater Experience** to one of the following:
 
-- `Yes` - To setup Advertise PayPal PayLater
-- `No` - To setup Advertise PayPal Credit
+- `Yes` - To set up Advertise PayPal PayLater
+- `No` - To set up Advertise PayPal Credit
 
 #### Advertise PayPal Credit
 
@@ -273,14 +273,14 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 1. To display a summary of each line item in the order on your PayPal payments page, set **Transfer Cart Line Items** to `Yes`.
 
-   To include up to 10 shipping options in the summary, set **Transfer Shipping Options** to `Yes`. (This option appears only if line items are set to transfer.)
+   To include up to ten shipping options in the summary, set **Transfer Shipping Options** to `Yes`. (This option appears only if line items are set to transfer.)
 
 1. To determine the type of image that is used for the PayPal acceptance button, set **Shortcut Buttons Flavor** to one of the following:
 
    - `Dynamic` - (Recommended) Displays an image that can be dynamically changed from the PayPal server.
    - `Static` - Displays a specific image that cannot be dynamically changed.
 
-1. To allow customers who do not have a PayPal account to make a purchases with this method, set **Enable PayPal Guest Checkout** to `Yes`.
+1. To allow customers who do not have a PayPal account to make a purchase with this method, set **Enable PayPal Guest Checkout** to `Yes`.
 
 1. Set **Require Customer's Billing Address** to one of the following:
 
@@ -288,7 +288,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
    - `No` - Does not require the customer billing address for any purchases.
    - `For Virtual Quotes Only` - Requires the customer billing address for virtual quotes only.
 
-1. To determine if the customer can enter into a [billing agreement](paypal-billing-agreements.md) with your store in the PayPal payment system when there are no active billing agreements available in the customer account, set **Billing Agreement Signup** to one of the following:
+1. To allow a customer to enter into a [PayPal billing agreement](paypal-billing-agreements.md) with your store when there are no active billing agreements available in the customer account, set **Billing Agreement Signup** to one of the following:
 
    - `Auto` - The customer can either enter into a billing agreement during the Express Checkout flow or use another method of payment.
    - `Ask Customer` - The customer can decide whether to enter into a billing agreement during the Express Checkout workflow.
@@ -389,7 +389,7 @@ A [billing agreement](paypal-billing-agreements.md) is a sales agreement between
 
 #### Frontend Experience Settings
 
-The Frontend Experience Settings give you the opportunity to choose which PayPal logos appear on your site, and to customize the appearance of your PayPal merchant pages.
+Use the _Frontend Experience Settings_ to choose which PayPal logos appear on your site, and to customize the appearance of your PayPal merchant pages.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Frontend Experience Settings** section.
 
@@ -417,7 +417,7 @@ The Frontend Experience Settings give you the opportunity to choose which PayPal
 
       >[!NOTE]
       >
-      >PayPal recommends that the image be located on a secure (https) server. Otherwise, a browser may warn that _the page contains both secure and nonsecure items_.
+      >PayPal recommends that the image resides on a secure (https) server. Otherwise, a browser may warn that _the page contains both secure and nonsecure items_.
 
    - To set the color for your pages, enter the six-character hexadecimal code, without the `#` symbol, for each of the following:
 

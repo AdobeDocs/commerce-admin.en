@@ -4,7 +4,7 @@ description: <Add description here>
 ---
 # Update an order
 
-When helping a customer who has placed an order, you need to determine the status of the order. The available options for a `Pending` order are different than the options for a `Processing` order. For more information, see [Process an order](order-processing.md).
+When helping a customer who has placed an order, you need to determine the status of the order. The available options for a `Pending` order are different from the options for a `Processing` order. For more information, see [Process an order](order-processing.md).
 
 ## Pending orders
 

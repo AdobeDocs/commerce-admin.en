@@ -92,7 +92,7 @@ If your store has multiple views in different languages, the same products are a
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
 
-1. In the upper-left corner set **Store View** to the view for the translation and click **OK** when prompted to confirm.
+1. At the upper-left corner, set **Store View** to the view for the translation and click **OK** when prompted to confirm.
 
 1. In the tree, find the category to be translated and open it in edit mode.
 

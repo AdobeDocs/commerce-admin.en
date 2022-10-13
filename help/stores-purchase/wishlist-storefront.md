@@ -4,7 +4,7 @@ description: <Add description here>
 ---
 # Wish list storefront experience
 
-A wish list is a convenient way for customers to keep track of products that they like, but are not ready to buy. Items from a wish list can be shared with others or added to the shopping cart. If the customer has multiple wish lists, the name of the current wish list appears at the top of the page. Customers can manage their wish lists from their account dashboard. Store administrators can also help customers manage their wish lists from the Admin.
+A wish list is a convenient way for customers to recall products that they like, but are not ready to buy. Items from a wish list can be shared with others or added to the shopping cart. If the customer has multiple wish lists, the name of the current wish list appears at the top of the page. Customers can manage their wish lists from their account dashboard. Store administrators can also help customers manage their wish lists from the Admin.
 
 ![Example storefront - My Wish List](./assets/storefront-my-wishlist.png)<!-- zoom -->
 

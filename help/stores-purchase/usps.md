@@ -30,11 +30,11 @@ You can also open a [USPS Web Tools][1] account. After you complete the registra
 
    >[!IMPORTANT]
    >
-   >Effective June 24th, 2021, USPS Web Tools will remove support for all unsecure HTTP endpoints. After this change, all Web Tools API requests to an unsecure HTTP endpoint will fail. Make sure your **Gateway URL** uses the secure **HTTPS** endpoint.
+   >Effective June 24, 2021, USPS Web Tools will remove support for all unsecure HTTP endpoints. After this change, all Web Tools API requests that to an unsecure HTTP endpoint will fail. Make sure that your **Gateway URL** uses the secure **HTTPS** endpoint.
 
    The field is preset by default, and normally does not need to be changed.
 
-1. Enter a **Title** for this shipping method that will appear during checkout.
+1. Enter a **Title** for this shipping method that appears during checkout.
 
 1. Enter the **User ID** and **Password** for your USPS account.
 
@@ -50,7 +50,7 @@ You can also open a [USPS Web Tools][1] account. After you complete the registra
    - `Divide to Equal Weight` - (One Request) The shipment of multiple packages can be submitted as one request if the packages are divided by equal weight.
    - `Use Origin Weight` - (Multiple Requests) Multiple packages must be submitted as separate requests if using origin weight as the basis of calculating the shipping cost.
 
-1. Set **Container** to the type of packaging usually used to ship products ordered for your store.
+1. Set **Container** to the type of packaging normally used to ship products ordered for your store.
 
 1. Set the **Size** of the typical package shipped from your store.
 
@@ -65,7 +65,7 @@ You can also open a [USPS Web Tools][1] account. After you complete the registra
 
 ## Step 4: Set up handling fees
 
-The handling fee is optional, and appears as an additional charge that is added to the DHL shipping cost. If you want to include a handling fee, do the following:
+The handling fee is optional, and appears as an extra charge that is added to the DHL shipping cost. If you want to include a handling fee, do the following:
 
 1. Set **Calculate Handling Fee** to one of the following methods:
 
