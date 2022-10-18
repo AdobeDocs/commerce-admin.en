@@ -1,6 +1,6 @@
 ---
 title: United States Postal Service (USPS)
-description: <Add description here>
+description: Learn how to set up USPS as a shipping carrier for your store.
 ---
 # United States Postal Service (USPS)
 

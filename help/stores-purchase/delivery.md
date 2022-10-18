@@ -1,6 +1,6 @@
 ---
 title: Shipping and delivery
-description: <Add description here>
+description: Learn about support for various delivery methods and shipping carriers that you can offer to your customers.
 ---
 # Shipping and delivery
 
@@ -8,7 +8,7 @@ Studies show that stores offering customers a choice of several delivery methods
 
 >[!NOTE]
 >
->Due to the shutdown of Temando, support for Magento Shipping is removed in 2.4.0. For detailed status information and recommendations for new shipping implementations in Commerce, see our [product information](https://business.adobe.com/products/magento/shipping.html){:target="_blank"} page.
+>Due to the shutdown of Temando, support for [!DNL Magento Shipping] is removed in 2.4.0. For detailed status information and recommendations for new shipping implementations in Commerce, see our [product information](https://business.adobe.com/products/magento/shipping.html){:target="_blank"} page.
 
 ## Basic delivery methods
 

@@ -1,6 +1,6 @@
 ---
 title: Cash on delivery (COD)
-description: <Add description here>
+description: Learn how to set up cash on delivery as an offline method of payment on your store.
 ---
 # Cash on delivery (COD)
 
@@ -8,15 +8,13 @@ Adobe Commerce and Magento Open Source allow you to accept _cash on delivery_ (C
 
 The shipping carrier receives payment from the customer at the time of delivery, which is then transferred to you. You can make an adjustment for any fee charged by the carrier service in your shipping and handling charges.
 
-![Cash on Delivery Payment](../configuration-reference/sales/assets/payment-methods-cash-on-delivery-payment.png)<!-- zoom -->
-
-## Set up cash on delivery payments
+**_To set up cash on delivery payments:_**
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
 1. In the left panel, expand **Sales** and choose **Payment Methods**.
 
-1. Under _Other Payment Methods_, Expand ![Expansion selector](../assets/icon-display-expand.png) the **Cash On Delivery Payment** section.
+1. Under _Other Payment Methods_, expand ![Expansion selector](../assets/icon-display-expand.png) the **Cash On Delivery Payment** section.
 
    ![Cash on Delivery Payment](../configuration-reference/sales/assets/payment-methods-cash-on-delivery-payment.png)<!-- zoom -->
 

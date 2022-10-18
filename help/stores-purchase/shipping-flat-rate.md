@@ -1,10 +1,10 @@
 ---
 title: Flat rate shipping
-description: <Add description here>
+description: Learn how to set up a flat-rate shipping option for your store.
 ---
 # Flat rate shipping
 
-_Flat rate_ is a fixed, predefined charge that can be applied per item, or per shipment. Flat rate is a simple shipping solution, especially when used with the flat-rate packaging that is available from some carriers. When enabled, Flat Rate appears as an option during checkout. Because no specific carrier is specified, you can use a carrier of your choice.
+_Flat rate_ is a fixed, predefined charge that can be applied per item, or per shipment. Flat rate is a simple shipping solution, especially when used with the flat-rate packaging that is available from some carriers. When enabled, _Flat Rate_ appears as an option during checkout. Because no specific carrier is specified, you can use a carrier of your choice.
 
 ## Set up flat rate shipping
 

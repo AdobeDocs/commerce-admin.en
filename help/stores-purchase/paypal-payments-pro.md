@@ -1,6 +1,6 @@
 ---
 title: PayPal Payments Pro
-description: <Add description here>
+description: Learn how to set up PayPal Payments Pro as an online payment solution on your store.
 ---
 # PayPal Payments Pro
 

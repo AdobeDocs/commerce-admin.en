@@ -1,6 +1,6 @@
 ---
 title: Store localization
-description: <Add description here>
+description: Learn how to localize a store or store view.
 ---
 # Store localization
 

@@ -1,6 +1,6 @@
 ---
 title: Price display settings
-description: <Add description here>
+description: Learn about the display of taxes in the catalog, shopping cart, orders, invoices, and credit memos to support the customer experience.
 ---
 # Price display settings
 

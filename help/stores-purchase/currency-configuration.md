@@ -1,6 +1,6 @@
 ---
 title: Currency configuration
-description: <Add description here>
+description: Learn about setting the scope of the base currency and how to specify the currencies that you accept and the currency you want to use for price display.
 ---
 # Currency configuration
 
@@ -10,7 +10,7 @@ You also specify the currencies that you accept and which currency you want to u
 
 ![Currency scope diagram](./assets/scope-currency-config.svg)<!-- {: "width=600px"} -->
 
-## Step 1: Choose the Accepted Currencies
+## Step 1: Choose the accepted currencies
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -46,7 +46,7 @@ You also specify the currencies that you accept and which currency you want to u
 
    ![Catalog configuration - price options](../configuration-reference/catalog/assets/catalog-price.png)<!-- zoom -->
 
-## Step 2: Configure the Import Connection
+## Step 2: Configure the import connection
 
 1. Scroll to the top of the page.
 
@@ -76,9 +76,9 @@ You also specify the currencies that you accept and which currency you want to u
 
       ![General configuration - currency setup - Currency Converter API options](../configuration-reference/general/assets/currency-setup-converter.png)<!-- zoom -->
 
-## Step 3: Configure the Scheduled Import Settings
+## Step 3: Configure the scheduled import settings
 
-1. Continuing with Currency Setup, Expand ![Expansion selector](../assets/icon-display-expand.png) the **Scheduled Import Settings** section.
+1. Continuing with Currency Setup, expand ![Expansion selector](../assets/icon-display-expand.png) the **Scheduled Import Settings** section.
 
    ![General configuration - currency scheduled import settings](../configuration-reference/general/assets/currency-setup-scheduled-import-settings.png)<!-- zoom -->
 

@@ -1,6 +1,6 @@
 ---
 title: PayPal Payments Advanced
-description: <Add description here>
+description: Learn how to set up PayPal Payments Advanced as an online payment solution on your store.
 ---
 # PayPal Payments Advanced
 

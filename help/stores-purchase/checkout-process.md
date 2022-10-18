@@ -1,6 +1,6 @@
 ---
 title: Checkout
-description: <Add description here>
+description: Learn how the checkout process gathers the information necessary to complete the transaction and the _Checkout_ page leads the customer through each step of the process. 
 ---
 # Checkout
 

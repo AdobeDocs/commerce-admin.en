@@ -1,6 +1,6 @@
 ---
 title: Update an order
-description: <Add description here>
+description: Learn how to update a customer's order in the Admin.
 ---
 # Update an order
 

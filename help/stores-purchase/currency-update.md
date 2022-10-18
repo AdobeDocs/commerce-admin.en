@@ -1,6 +1,6 @@
 ---
 title: Update currency rates
-description: <Add description here>
+description: Learn how to set currency rates manually or import them into your store.
 ---
 # Update currency rates
 

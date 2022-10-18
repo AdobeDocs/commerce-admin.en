@@ -1,6 +1,6 @@
 ---
 title: Orders
-description: <Add description here>
+description: Learn about the Orders workspace and the search capabilities used to locate orders in the Admin.
 ---
 # Orders
 

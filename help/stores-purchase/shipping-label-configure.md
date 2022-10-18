@@ -1,6 +1,6 @@
 ---
 title: Configure shipping labels
-description: <Add description here>
+description: Learn how to configure store for generating shipping labels.
 ---
 # Configure shipping labels
 

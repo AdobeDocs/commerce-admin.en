@@ -1,6 +1,6 @@
 ---
 title: DHL
-description: <Add description here>
+description: Learn how to set up DHL as a shipping carrier for your store.
 ---
 # DHL
 

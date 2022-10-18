@@ -1,18 +1,18 @@
 ---
 title: Bank transfers
-description: <Add description here>
+description: Learn how to set up bank transfers as an offline method of payment on your store.
 ---
 # Bank transfers
 
 Adobe Commerce and Magento Open Source allow you to accept payment that is transferred from a customer bank account and deposited into your merchant bank account.
 
-## Configure bank transfer payments
+**_To configure bank transfer payments:_**
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
 1. In the left panel, expand **Sales** and choose **Payment Methods**.
 
-1. Under _Other Payment Methods_, Expand ![Expansion selector](../assets/icon-display-expand.png) the **Bank Transfer Payment** section.
+1. Under _Other Payment Methods_, expand ![Expansion selector](../assets/icon-display-expand.png) the **Bank Transfer Payment** section.
 
    ![Bank Transfer Payment](../configuration-reference/sales/assets/payment-methods-bank-transfer-payment.png)<!-- zoom -->
 

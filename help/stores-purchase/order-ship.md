@@ -1,6 +1,6 @@
 ---
 title: Ship an order
-description: <Add description here>
+description: Learn how to complete the shipping information for a processing order, and view shipment and tracking information.
 ---
 # Ship an order
 

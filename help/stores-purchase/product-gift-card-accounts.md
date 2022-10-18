@@ -1,6 +1,6 @@
 ---
 title: Gift card accounts
-description: <Add description here>
+description: Learn about gift card accounts and how to configure the default settings for code pool management. 
 ---
 # Gift card accounts
 

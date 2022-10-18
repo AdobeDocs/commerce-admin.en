@@ -1,6 +1,6 @@
 ---
 title: Cart configuration
-description: <Add description here>
+description: Learn about the shopping cart features that you can configure to support the purchase experience on your store.
 ---
 # Cart configuration
 
@@ -53,8 +53,8 @@ The link can be configured to display the number of different products (or SKUs)
 
 1. Set **Display Mini Cart** to one of the following:
 
-   Yes|Displays the mini cart on store pages. The appearance of the sidebar depends upon the theme.
-   No|Disables the display of the mini cart on store pages.
+   - `Yes` - Displays the mini cart on store pages. The appearance of the sidebar depends upon the theme.
+   - `No` - Disables the display of the mini cart on store pages.
 
 1. If the display is enabled, update the other options to configure the display:
 
@@ -73,8 +73,8 @@ The link can be configured to display the number of different products (or SKUs)
 
 1. Set **Display Cart Summary** to one of the following settings:
 
-   Display item quantities|This setting displays the total number of products in the cart, adding the quantities for each product.|
-   Display number of items in cart|This setting displays the number of product items in the cart, regardless of quantity.|
+   - `Display item quantities` - This setting displays the total number of products in the cart, adding the quantities for each product.
+   - `Display number of items in cart` - This setting displays the number of product items in the cart, regardless of quantity.
 
    ![Configuration options for My Cart Link](../configuration-reference/sales/assets/checkout-my-cart-link.png)<!-- zoom -->
 
@@ -255,7 +255,7 @@ The Gift Options configuration applies to the entire website, but can be overrid
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) **Gift Options** on the page.
 
-    ![Sales configuration - Gift Options settings](../configuration-reference/sales/assets/sales-gift-options.png)<!-- zoom -->
+   ![Sales configuration - Gift Options settings](../configuration-reference/sales/assets/sales-gift-options.png)<!-- zoom -->
 
 1. Set the gift message options according to your preference:
 

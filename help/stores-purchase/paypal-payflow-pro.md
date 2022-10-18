@@ -1,6 +1,6 @@
 ---
 title: PayPal Payflow Pro
-description: <Add description here>
+description: Learn how to set up PayPal Payflow Pro as an online payment solution on your store.
 ---
 # PayPal Payflow Pro
 

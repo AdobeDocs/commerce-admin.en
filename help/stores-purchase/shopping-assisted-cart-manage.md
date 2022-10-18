@@ -1,6 +1,6 @@
 ---
 title: Manage a shopping cart
-description: <Add description here>
+description: Learn how to assist a customer with their shopping cart directly from the Admin.
 ---
 # Manage a shopping cart
 

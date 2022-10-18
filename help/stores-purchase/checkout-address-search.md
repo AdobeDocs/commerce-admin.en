@@ -1,6 +1,6 @@
 ---
 title: Address search at checkout
-description: <Add description here>
+description: Learn how to provide support for address search at checkout on your store.
 ---
 # Address search at checkout
 

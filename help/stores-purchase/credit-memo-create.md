@@ -1,6 +1,6 @@
 ---
 title: Issue a credit memo
-description: <Add description here>
+description: Learn how to generate and print a credit memo for an invoiced order.
 ---
 # Issue a credit memo
 
@@ -174,7 +174,7 @@ Determine the type of refund that you want to issue---for a [credit purchase](#i
 
 |Field|Description|
 |--- |--- |
-|Order Number|The order number appears in the Order & Account Information, followed by a note that indicates if the confirmation email was sent.|
+|Order Number|The order number appears in the _Order & Account Information_, followed by a note that indicates if the confirmation email was sent.|
 |Order Date|The date and time the order was placed.|
 |Order Status|Indicates the order status as `Complete`.|
 |Purchased From|Indicates the website, store, and store view where the order was placed.|
@@ -186,10 +186,10 @@ Determine the type of refund that you want to issue---for a [credit purchase](#i
 
 |Field|Description|
 |--- |--- |
-|Customer Name|The name of the customer or buyer who placed the order. The Customer Name is linked to the customer profile.|
+|Customer Name|The name of the customer or buyer who placed the order. The customer name is linked to the customer profile.|
 |Email|The email address of the customer or buyer. The email address is linked to open a new email message.|
 |Customer Group|The name of the customer group or shared catalog to which the customer is assigned.|
-|Company Name|![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce) The name of the company that employs the buyer, and on whose behalf the order is placed. The company name is linked to the company profile.|
+|Company Name|![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce) The name of the company associated with the buyer, and on whose behalf the order is placed. The company name is linked to the company profile.|
 
 {style="table-layout:auto"}
 

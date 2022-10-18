@@ -1,6 +1,6 @@
 ---
 title: PayPal Payflow Link
-description: <Add description here>
+description: Learn how to set up PayPal Payflow Link as an online payment solution on your store.
 ---
 # PayPal Payflow Link
 

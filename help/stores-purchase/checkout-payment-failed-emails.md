@@ -1,6 +1,6 @@
 ---
 title: Payment failure notification
-description: <Add description here>
+description: Learn how to configure email communications for a payment method that fails to complete a transaction.
 ---
 # Payment failure notification
 

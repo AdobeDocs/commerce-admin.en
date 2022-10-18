@@ -1,6 +1,6 @@
 ---
 title: Purchase orders
-description: <Add description here>
+description: Learn how to set up purchase orders as an offline method of payment on your store.
 ---
 # Purchase orders
 
@@ -8,13 +8,13 @@ A _purchase order_ (PO) allows commercial customers to pay for authorized purcha
 
 Before accepting payment by purchase order, always establish the credit worthiness of the commercial customer.
 
-## Configure payment by purchase order
+**_To configure payment by purchase order:_**
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
 1. In the left panel, expand **Sales** and choose **Payment Methods**.
 
-1. Under _Other Payment Methods_, Expand ![Expansion selector](../assets/icon-display-expand.png) the **Purchase Order** section.
+1. Under _Other Payment Methods_, expand ![Expansion selector](../assets/icon-display-expand.png) the **Purchase Order** section.
 
    ![Purchase Order](../configuration-reference/sales/assets/payment-methods-purchase-order.png)
    )<!-- zoom -->

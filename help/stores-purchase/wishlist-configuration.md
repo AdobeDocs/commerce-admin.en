@@ -1,6 +1,6 @@
 ---
 title: Configure wish lists
-description: <Add description here>
+description: Learn how to configure wish list functionality for your store.
 ---
 # Configure wish lists
 

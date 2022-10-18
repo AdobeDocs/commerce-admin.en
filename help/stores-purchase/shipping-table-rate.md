@@ -1,6 +1,6 @@
 ---
 title: Table rate shipping
-description: <Add description here>
+description: Learn how to set up a table-rate shipping option for your store.
 ---
 # Table rate shipping
 

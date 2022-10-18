@@ -1,6 +1,6 @@
 ---
 title: Create an order
-description: <Add description here>
+description: Learn how to create an order for a customer in the Commerce Admin.
 ---
 # Create an order
 

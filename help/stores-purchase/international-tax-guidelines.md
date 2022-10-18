@@ -345,7 +345,7 @@ Create the following tax rules:
 
    - In the upper-left corner, set **Default Config** to the French store.
 
-   - On the General page, Expand ![Expansion selector](../assets/icon-display-expand.png) the **Countries Options** section, and set the default country to "France."
+   - On the General page, expand ![Expansion selector](../assets/icon-display-expand.png) the **Countries Options** section, and set the default country to "France."
 
    - Complete the locale options as needed.
 

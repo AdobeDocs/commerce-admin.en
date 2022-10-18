@@ -1,6 +1,6 @@
 ---
 title: Returns
-description: <Add description here>
+description: Learn about the returns workflow and issuing a returned merchandise authorization.
 ---
 # Returns
 

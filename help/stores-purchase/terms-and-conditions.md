@@ -1,6 +1,6 @@
 ---
 title: Terms and conditions for checkout
-description: <Add description here>
+description: Learn about the terms and conditions functionality that can be configured for your store.
 ---
 # Terms and conditions for checkout
 

@@ -1,6 +1,6 @@
 ---
 title: Scheduled order operations
-description: <Add description here>
+description: Learn about the scheduled order operations and orders cron settings that support this functionality.
 ---
 # Scheduled order operations
 
@@ -10,7 +10,7 @@ Use [Cron](https://docs.magento.com/user-guide/system/cron.html) jobs to schedul
 
 ## Set pending payment order lifetime
 
-The lifetime of orders with pending payments is determined by the Orders Cron Settings configuration. The default value is set to 480 minutes, which is eight hours.
+The lifetime of orders with pending payments is determined by the _Orders Cron Settings_ configuration. The default value is set to 480 minutes, which is eight hours.
 
 1. On the _Admin_ sidebar, click **Stores**.
 
@@ -22,7 +22,7 @@ The lifetime of orders with pending payments is determined by the Orders Cron Se
 
    ![Orders Cron Settings](../configuration-reference/sales/assets/sales-orders-cron-settings.png)<!-- zoom -->
 
-1. In the **Pending Payment Order Lifetime (minutes)** field, enter the number of minutes before a pending payment expires.
+1. For **Pending Payment Order Lifetime (minutes)**, enter the number of minutes before a pending payment expires.
 
 1. Click **Save Config**.
 

@@ -1,6 +1,6 @@
 ---
 title: Compare products
-description: <Add description here>
+description: Learn how the storefront can provide tools for customers to compare products for more informed purchasing decisions.
 ---
 # Compare products
 

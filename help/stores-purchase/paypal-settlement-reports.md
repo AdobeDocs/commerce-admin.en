@@ -1,6 +1,6 @@
 ---
 title: PayPal Settlement report
-description: <Add description here>
+description: Learn about the PayPal Settlement report as a tool to manage PayPal transactions.
 ---
 # PayPal Settlement report
 

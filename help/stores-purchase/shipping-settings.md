@@ -1,6 +1,6 @@
 ---
 title: Shipping settings
-description: <Add description here>
+description: Learn how to configure the shipping settings that define the point of origin and shipping policy for your store.
 ---
 # Shipping settings
 

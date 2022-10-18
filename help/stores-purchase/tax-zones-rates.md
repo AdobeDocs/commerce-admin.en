@@ -1,6 +1,6 @@
 ---
 title: Tax zones and rates
-description: <Add description here>
+description: Learn how to define tax rates for each geographical area where you collect and remit taxes.
 ---
 # Tax zones and rates
 

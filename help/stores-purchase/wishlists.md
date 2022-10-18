@@ -1,6 +1,6 @@
 ---
 title: Wish lists
-description: <Add description here>
+description: Learn about wish lists and how they can add to the shopping experience and promote more sales.
 ---
 # Wish lists
 

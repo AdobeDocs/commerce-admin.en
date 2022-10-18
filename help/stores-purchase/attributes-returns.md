@@ -1,12 +1,12 @@
 ---
 title: Returns attribute
-description: <Add description here>
+description: Learn about the returns attributes and how to create the attributes needed for processing returns on your store.
 ---
 # Returns attribute
 
 {{ee-feature}}
 
-The Returns Attributes are used to store information that is needed during the product return process. The default attributes include the condition of the returned product, the reason for the return, and a field that indicates how the return was resolved. The process to create a returns attribute is similar to creating a [customer attribute](https://docs.magento.com/user-guide/stores/attributes-customer.html).
+The returns attributes are used to store information that is needed during the product return process. The default attributes include the condition of the returned product, the reason for the return, and a field that indicates how the return was resolved. The process to create a returns attribute is similar to creating a [customer attribute](https://docs.magento.com/user-guide/stores/attributes-customer.html).
 
 ![Admin - Returns attributes](./assets/attribute-returns.png)<!-- zoom -->
 

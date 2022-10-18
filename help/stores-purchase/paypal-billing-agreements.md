@@ -1,6 +1,6 @@
 ---
 title: PayPal billing agreements
-description: <Add description here>
+description: Learn how you can support PayPal billing agreements and a payment method within your store.
 ---
 # PayPal billing agreements
 

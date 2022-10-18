@@ -1,6 +1,6 @@
 ---
 title: PayPal payment solutions
-description: <Add description here>
+description: Learn about the PayPal payment solution integrations that are available for your store.
 ---
 # PayPal payment solutions
 

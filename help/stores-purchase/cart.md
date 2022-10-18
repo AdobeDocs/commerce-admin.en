@@ -1,6 +1,6 @@
 ---
 title: Shopping cart
-description: <Add description here>
+description: Learn about the shopping cart as an important part of the purchase experience on your store.
 ---
 # Shopping cart
 

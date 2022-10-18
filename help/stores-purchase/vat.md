@@ -309,7 +309,7 @@ Create the [tax rules](tax-rules.md) that you need to use VAT ID Validation eff
 
 #### Step 5: Verify the list of EU member countries
 
-1. Continuing in the _General_ configuration page, Expand ![Expansion selector](../assets/icon-display-expand.png) the **Countries Options** section.
+1. Continuing in the _General_ configuration page, expand ![Expansion selector](../assets/icon-display-expand.png) the **Countries Options** section.
 
 1. In the **European Union Countries** list, verify that each member country of the EU is selected.
 

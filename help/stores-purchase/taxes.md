@@ -1,6 +1,6 @@
 ---
 title: Taxes
-description: <Add description here>
+description: Learn how to configure your store to calculate taxes according to the requirements of your locale.
 ---
 # Taxes
 

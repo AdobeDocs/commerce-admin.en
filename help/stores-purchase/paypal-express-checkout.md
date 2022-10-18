@@ -1,6 +1,6 @@
 ---
 title: PayPal Express Checkout
-description: <Add description here>
+description: Learn how to set up PayPal Express Checkout as an online payment solution on your store.
 ---
 # PayPal Express Checkout
 
@@ -124,7 +124,7 @@ You can have two PayPal solutions active at the same time: Express Checkout, plu
 
 ### Step 3: Complete the required PayPal settings
 
-1. If needed, Expand ![Expansion selector](../assets/icon-display-expand.png) the **Express Checkout** section.
+1. If needed, expand ![Expansion selector](../assets/icon-display-expand.png) the **Express Checkout** section.
 
    ![PayPal Express Checkout required Settings](./assets/paypal-express-settings.png)<!-- zoom -->
 
@@ -498,7 +498,7 @@ The _Smart Payment Buttons_ feature allows you to customize the PayPal button, w
 - The text that appears on the PayPal button
 - The layout, when multiple buttons are displayed (horizontal or vertical)
 
-To customize buttons, Expand ![Expansion selector](../assets/icon-display-expand.png) each of the following sections and adjust the settings:
+To customize buttons, expand ![Expansion selector](../assets/icon-display-expand.png) each of the following sections and adjust the settings:
 
 - **Checkout Page**
 - **Product Pages**

@@ -1,6 +1,6 @@
 ---
 title: Returns storefront experience
-description: <Add description here>
+description: Learn how your customers can manage their product returns from their account on the storefront.
 ---
 # Returns storefront experience
 

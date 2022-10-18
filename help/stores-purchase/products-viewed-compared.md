@@ -1,12 +1,12 @@
 ---
 title: Recently viewed or compared products
-description: <Add description here>
+description: Learn how to configure the storefront content blocks for recently viewed and compared products.
 ---
 # Recently viewed or compared products
 
-The Recently Viewed and Recently Compared blocks usually appear in the right sidebar of a catalog page. The number of products listed in each can be configured for each website, store, or store view.
+The _Recently Viewed and Recently Compared_ blocks usually appear in the right sidebar of a catalog page. The number of products listed in each can be configured for each website, store, or store view.
 
-## Configure recently viewed and compared products
+**_To configure recently viewed and compared products:_**
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 

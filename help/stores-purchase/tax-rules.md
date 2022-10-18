@@ -1,6 +1,6 @@
 ---
 title: Tax rules
-description: <Add description here>
+description: Learn how to define the tax rules using product class, customer class, and tax rate.
 ---
 # Tax rules
 
@@ -8,9 +8,9 @@ Tax rules incorporate a combination of product class, customer class, and tax ra
 
 >[!NOTE]
 >
->When numerous taxes must be defined, you can simplify the process by importing them.
+>When numerous tax rates must be defined, you can simplify the process by importing them.
 
-![Tax Rules](./assets/tax-rules.png)<!-- zoom -->
+![Tax rules](./assets/tax-rules.png)<!-- zoom -->
 
 ## Step 1: Complete the tax rule information
 

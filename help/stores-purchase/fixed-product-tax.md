@@ -1,10 +1,10 @@
 ---
-title: Fixed Product Tax (FPT)
-description: <Add description here>
+title: Fixed product tax (FPT)
+description: Learn how you can set up a fixed product tax that must be added to certain types of products. 
 ---
-# Fixed Product Tax (FPT)
+# Fixed product tax (FPT)
 
-Some tax jurisdictions have a fixed tax that must be added to certain types of products. You can set up a _fixed product tax_ (FPT) as needed for your store's tax calculations. In some countries, FPT can be used to set up a Waste Electrical and Electronic Equipment Directive (WEEE) tax, also known as _ecological tax_ or _eco tax_, that is collected on certain types of electronics to offset the cost of recycling. This tax is a fixed amount, rather than a percentage of the product price.
+Some tax jurisdictions have a fixed tax that must be added to certain types of products. You can set up a _fixed product tax_ (FPT) as needed for your store's tax calculations. In some countries, FPT can be used to set up a Waste Electrical and Electronic Equipment (WEEE) tax, also known as _ecological tax_ or _eco tax_, that is collected on certain types of electronics to offset the cost of recycling. This tax is a fixed amount, rather than a percentage of the product price.
 
 Fixed product taxes apply at the item level, based on the product. In some jurisdictions, this tax is subject to an extra % tax calculation. Your tax jurisdiction might also have rules about how the product price appears to customers, either with or without tax. Be sure that you understand the rules and set your FPT display options accordingly.
 

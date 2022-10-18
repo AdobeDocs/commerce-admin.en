@@ -1,6 +1,6 @@
 ---
 title: FedEx
-description: <Add description here>
+description: Learn how to set up FedEx as a shipping carrier for your store.
 ---
 # FedEx
 

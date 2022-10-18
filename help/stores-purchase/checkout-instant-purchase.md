@@ -1,6 +1,6 @@
 ---
 title: Instant Purchase
-description: <Add description here>
+description: Learn about Instant Purchase how it can provide a speedy checkout for registered customer accounts.
 ---
 # Instant Purchase
 

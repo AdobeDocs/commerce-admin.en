@@ -1,6 +1,6 @@
 ---
 title: Shipments
-description: <Add description here>
+description: Learn how to create shipment records for invoices and to cancel shipments.
 ---
 # Shipments
 

@@ -1,6 +1,6 @@
 ---
 title: Shipping carrier setup
-description: <Add description here>
+description: Learn about the support for commercial shipping accounts that is available for your store.
 ---
 # Shipping carrier setup
 
@@ -9,7 +9,6 @@ If you have a commercial account with a supported carrier, you can offer your cu
 >[!NOTE]
 >
 >See [Commerce Marketplace](../getting-started/commerce-marketplace.md) for additional shipping services for your Commerce installation.
-
 
 Before you can offer your customers a selection of shipping carriers, you must complete the following steps:
 

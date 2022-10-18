@@ -1,6 +1,6 @@
 ---
 title: Order workflow and processing
-description: <Add description here>
+description: Learn about order workflow, the status that applies at each step, and how to move orders through this process. 
 ---
 # Order workflow and processing
 

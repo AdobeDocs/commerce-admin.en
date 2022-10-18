@@ -1,6 +1,6 @@
 ---
 title: Store URLs
-description: <Add description here>
+description: Learn about store URLs and how to configure the base URL and store codes.
 ---
 # Store URLs
 

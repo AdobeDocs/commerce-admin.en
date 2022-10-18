@@ -1,6 +1,6 @@
 ---
 title: Wish list storefront experience
-description: <Add description here>
+description: Learn about the wish list management tools available to your customers on the storefront.
 ---
 # Wish list storefront experience
 

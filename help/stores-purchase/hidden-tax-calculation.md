@@ -1,6 +1,6 @@
 ---
 title: Hidden tax calculation
-description: <Add description here>
+description: Learn how to configure a hidden tax calculation when there is a discount that has tax embedded in it.
 ---
 # Hidden tax calculation
 

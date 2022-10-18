@@ -1,6 +1,6 @@
 ---
 title: Cart persistence
-description: <Add description here>
+description: Learn how a persistent shopping cart tracks unpurchased cart items and saves the information for the customer's next visit.
 ---
 # Cart persistence
 

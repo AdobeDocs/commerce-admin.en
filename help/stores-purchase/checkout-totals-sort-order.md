@@ -1,6 +1,6 @@
 ---
 title: Sort order for checkout totals
-description: <Add description here>
+description: Learn about the displayed checkout total and how to configure the checkout totals sort order on the order summary.
 ---
 # Sort order for checkout totals
 

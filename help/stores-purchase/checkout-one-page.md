@@ -1,6 +1,6 @@
 ---
 title: One-page checkout
-description: <Add description here>
+description: Learn about one-page checkout how it can provide a streamlined checkout process for your store.
 ---
 # One-page checkout
 

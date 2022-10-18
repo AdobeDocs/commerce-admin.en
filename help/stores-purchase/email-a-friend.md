@@ -1,6 +1,6 @@
 ---
 title: Email a friend
-description: <Add description here>
+description: Learn how to provide an email link that makes it easy for your customers to share links to products with their friends.
 ---
 # Email a friend
 

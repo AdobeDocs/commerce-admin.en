@@ -1,6 +1,6 @@
 ---
 title: Free shipping
-description: <Add description here>
+description: Learn how to set up a free shipping option for your store.
 ---
 # Free shipping
 
@@ -62,7 +62,7 @@ _Free shipping_ is one of the most effective promotions that you can offer. It c
 
 Make sure to complete any configuration that is required for each carrier that you plan to use for free shipping. For example, if your [UPS configuration](ups.md) is otherwise complete, update the following settings to enable and configure free shipping.
 
-1. In the _Delivery Methods_ configuration, Expand ![Expansion selector](../assets/icon-display-expand.png) the **UPS** section.
+1. In the _Delivery Methods_ configuration, expand ![Expansion selector](../assets/icon-display-expand.png) the **UPS** section.
 
 1. Set **Free Method** to `UPS Ground` or another type you want to designate for free shipping.
 

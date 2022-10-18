@@ -1,18 +1,18 @@
 ---
 title: Checks and money orders
-description: <Add description here>
+description: Learn how to set up check and money order as an offline method of payment on your store.
 ---
 # Checks and money orders
 
 Adobe Commerce and Magento Open Source allow you to accept payments by check or money order. The _Check / Money Order_ payment method is enabled for your store by default. You can accept checks and money orders only from specific countries, and you can fine tune the configuration with minimum and maximum order total limits.
 
-## Configure payment by check or money order
+**_To configure payment by check or money order:_**
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
 1. In the left panel, expand **Sales** and choose **Payment Methods**.
 
-1. Under _Other Payment Methods_, Expand ![Expansion selector](../assets/icon-display-expand.png) the **Check / Money Order** section.
+1. Under _Other Payment Methods_, expand ![Expansion selector](../assets/icon-display-expand.png) the **Check / Money Order** section.
 
    ![Check / Money Order](../configuration-reference/sales/assets/payment-methods-check-money-order.png)<!-- zoom -->
 

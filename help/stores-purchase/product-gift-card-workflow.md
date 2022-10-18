@@ -1,6 +1,6 @@
 ---
 title: Gift card purchase and redemption
-description: <Add description here>
+description: Learn about the gift card purchase-to-redemption lifecycle when you include gift cards in your store catalog.
 ---
 # Gift card purchase and redemption
 

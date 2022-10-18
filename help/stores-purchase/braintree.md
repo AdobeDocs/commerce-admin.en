@@ -1,6 +1,6 @@
 ---
 title: Braintree
-description: <Add description here>
+description: Learn how to set up Braintree as an online payment solution on your store.
 ---
 # Braintree
 

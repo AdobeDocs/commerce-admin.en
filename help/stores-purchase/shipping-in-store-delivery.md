@@ -1,6 +1,6 @@
 ---
 title: In-store delivery
-description: <Add description here>
+description: Learn how to set up an in-store delivery option for your store.
 ---
 # In-store delivery
 

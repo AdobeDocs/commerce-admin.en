@@ -1,6 +1,6 @@
 ---
 title: United Parcel Service (UPS)
-description: <Add description here>
+description: Learn how to set up UPS as a shipping carrier for your store.
 ---
 # United Parcel Service (UPS)
 

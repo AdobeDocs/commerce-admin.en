@@ -1,6 +1,6 @@
 ---
 title: Invoices
-description: <Add description here>
+description: Learn how to create and print invoices to support order processing and customer service operations.
 ---
 # Invoices
 

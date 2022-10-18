@@ -1,6 +1,6 @@
 ---
 title: Shipping labels
-description: <Add description here>
+description: Learn about shipping label workflow for regular shipments and products with return merchandise authorization.
 ---
 # Shipping labels
 

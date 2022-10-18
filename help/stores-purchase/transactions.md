@@ -1,6 +1,6 @@
 ---
 title: Transactions
-description: <Add description here>
+description: Learn about the Transactions page and how to use it to track activity between your store and a payment system.
 ---
 # Transactions
 

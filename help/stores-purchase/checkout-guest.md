@@ -1,6 +1,6 @@
 ---
 title: Guest checkout
-description: <Add description here>
+description: Learn how to provide support for guest checkout on your store.
 ---
 # Guest checkout
 

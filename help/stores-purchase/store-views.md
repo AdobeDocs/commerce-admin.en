@@ -1,6 +1,6 @@
 ---
 title: Store views
-description: <Add description here>
+description: Learn how to add and edit a store view.
 ---
 # Store views
 

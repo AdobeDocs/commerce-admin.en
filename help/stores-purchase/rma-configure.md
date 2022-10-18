@@ -1,6 +1,6 @@
 ---
 title: Configure returns
-description: <Add description here>
+description: Learn how to enable returns for your store and configure the supported shipping methods.
 ---
 # Configure returns
 

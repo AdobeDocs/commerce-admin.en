@@ -1,6 +1,6 @@
 ---
 title: Allow reorders
-description: <Add description here>
+description: Learn how to provide reorder capabilities for your customers.
 ---
 # Allow reorders
 

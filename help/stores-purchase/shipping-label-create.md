@@ -1,6 +1,6 @@
 ---
 title: Create shipping labels and packages
-description: <Add description here>
+description: Learn how to package items in an order and create shipping labels.
 ---
 # Create shipping labels
 

@@ -1,6 +1,6 @@
 ---
 title: Zero subtotal checkout
-description: <Add description here>
+description: Learn how to set up a zero subtotal as an offline method of payment on your store.
 ---
 # Zero subtotal checkout
 
@@ -16,13 +16,13 @@ _Zero subtotal checkout_ can be used for orders with a subtotal of zero that are
 
 To save time, zero subtotal orders can be set to automatically invoice.
 
-## Configure zero subtotal checkout
+**_To configure zero subtotal checkout:_**
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
 1. In the left panel, expand **Sales** and choose **Payment Methods**.
 
-1. Under _Other Payment Methods_, Expand ![Expansion selector](../assets/icon-display-expand.png) the **Zero Subtotal Checkout** section.
+1. Under _Other Payment Methods_, expand ![Expansion selector](../assets/icon-display-expand.png) the **Zero Subtotal Checkout** section.
 
    ![Zero Subtotal Checkout](../configuration-reference/sales/assets/payment-methods-zero-subtotal-checkout.png)<!-- zoom -->
 

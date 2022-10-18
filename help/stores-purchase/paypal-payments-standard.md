@@ -1,6 +1,6 @@
 ---
 title: PayPal Payments Standard
-description: <Add description here>
+description: Learn how to set up PayPal Payments Standard as an online payment solution on your store.
 ---
 # PayPal Payments Standard
 

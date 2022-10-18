@@ -1,6 +1,6 @@
 ---
 title: Archive orders
-description: <Add description here>
+description: Learn how to configure the order archive to improve performance and streamline Commerce for your organization.
 ---
 # Archive orders
 

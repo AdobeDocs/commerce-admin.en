@@ -1,10 +1,10 @@
 ---
 title: Order status
-description: <Add description here>
+description: Learn about the predefined order statuses and how to define custom order statuses to align with your operational needs.
 ---
 # Order status
 
-All orders have an order status that is associated with a stage in the order processing [workflow](order-processing.md). The status of each order is shown in the Status column of the _Orders_ grid. Your store has a set of predefined order status and order state settings. The order state describes the position of an order in the workflow.
+All orders have an order status that is associated with a stage in the order processing [workflow](order-processing.md). The status of each order is shown in the _Status_ column of the _Orders_ grid. Your store has a set of predefined order status and order state settings. The order state describes the position of an order in the workflow.
 
 ![Order Status](./assets/stores-order-status-column.png)<!-- zoom -->
 

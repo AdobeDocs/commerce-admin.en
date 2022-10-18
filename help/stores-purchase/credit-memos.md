@@ -1,6 +1,6 @@
 ---
 title: Credit memo overview
-description: <Add description here>
+description: Learn about credit memos and how they are used to issue a partial or full refund.
 ---
 # Credit memo overview
 

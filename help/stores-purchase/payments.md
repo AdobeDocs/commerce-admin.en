@@ -1,6 +1,6 @@
 ---
 title: Payments overview
-description: <Add description here>
+description: Learn about the payment methods and services that are supported natively in Adobe COmmerce and Magento Open Source.
 ---
 # Payments overview
 

@@ -1,6 +1,6 @@
 ---
 title: Store and site structure
-description: <Add description here>
+description: Learn about the website, store, and store view hierarchy.
 ---
 # Store and site structure
 

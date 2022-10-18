@@ -1,6 +1,6 @@
 ---
 title: Introduction to stores and purchase experience
-description: <Add description here>
+description: Learn about the features used to to construct and manage your online stores and the purchasing experience for your customers.
 ---
 # Introduction to stores and purchase experience
 

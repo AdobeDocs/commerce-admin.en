@@ -1,6 +1,6 @@
 ---
 title: Tax configuration settings
-description: <Add description here>
+description: Learn how to configure basic tax settings, including tax classes, calculation, and the default tax destination.
 ---
 # Tax configuration settings
 
