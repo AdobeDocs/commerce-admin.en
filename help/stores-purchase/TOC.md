@@ -1,6 +1,6 @@
 ---
 user-guide-title: Stores and Purchase Experience Guide
-user-guide-description: add description here
+user-guide-description: Comprehensive information for customer service agents and sales managers working in Adobe Commerce and Magento Open Source.
 breadcrumb-title: Stores and Purchase Experience
 ---
 
@@ -41,7 +41,7 @@ breadcrumb-title: Stores and Purchase Experience
     - [Create an order](customer-account-create-order.md)
     - [Update a customer order](order-update.md)
   - Checkout {#checkout}
-    - [Checkout overview](checkout-process.md)
+    - [Overview](checkout-process.md)
     - [One-page checkout](checkout-one-page.md)
     - [Guest checkout](checkout-guest.md)
     - [Terms and conditions](terms-and-conditions.md)

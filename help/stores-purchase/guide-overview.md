@@ -1,30 +1,33 @@
 ---
 title: Stores and Purchase Experience Guide
-description: Add description here.
+description: Comprehensive information about store definition and sales processing features for customer service agents and sales managers working in the Adobe Commerce and Magento Open Source Admin.
 exl-id: 01c075a5-d9ac-4edb-82de-35a52748b800
 ---
 # Adobe Commerce Stores and Purchase Experience Guide
 
-This guide is intended _add description of audience and guide purpose_. It assumes a basic understanding of the core [!DNL Commerce] configuration, and functionality.
+This guide is intended customer service agents and sales managers working in Adobe Commerce and Magento Open Source. It provides detailed information about order management and purchasing features, including how the shopping cart can be configured to assist customers and promote sales. It assumes a basic understanding of the core [!DNL Commerce] configuration, and functionality.
 
 This guide covers:
 
 | Subject | Description |
 | ------- | ----------- |
 | [Introduction](introduction.md) | Overview of sales and purchasing functions with a Commerce instance.|
-<!--
-| [Marketing menu](marketing-menu.md) | Use the [!UICONTROL Marketing] menu to access multiple features for managing promotions, communications, SEO, and user-generated content. |
-| [Visual Merchandiser](visual-merchandiser.md) | Explore this set of advanced tools that allows you to position products and apply conditions that determine which products appear in the category listing. |
-| [Gift registries](gift-registries.md) | Give your customers the ability to create gift registries for special occasions, and to invite their friends and family to purchase their gifts from the gift registry. |
-| [Reward and loyalty programs](rewards-loyalty.md) | Implement programs that drive customer engagement and promote customer loyalty. |
-| [Private sales and events](events-private-sales.md) | Create limited-time sales, limit sales to specific members, or create a stand-alone private sale page. |
-| [Catalog price rules](price-rules-catalog.md) | Offer products to buyers at a discounted price based on a set of defined conditions. |
-| [Cart price rules](price-rules-cart.md) | Apply discounts to items in the shopping cart based on a set of conditions or when the customer enters a valid coupon code. |
-| [Product relationships](product-relationships.md) | Promote products in your catalog on other pages by defining the nature of the relationship between the products. |
-| [Newsletters and subscriptions](newsletters.md) | Publish and distribute newsletters to subscriber customers to increase traffic to your store. |
-| [Email reminders](email-reminder-rules.md) | Automatically send reminders to customers them to take advantage of a promotion and make a purchase. |
-| [Search engine optimization](seo-overview.md) | Implement Commerce features to fine-tune the content and presentation of your site and improve the way the pages are indexed by search engines. |
-| [Google site tools](google-tools.md) | Configure integrations with Google tools to help optimize your content, analyze your traffic, and connect your catalog to shopping aggregators and marketplaces. | -->
+| [Stores menu](stores-menu.md) | Use the [!UICONTROL Stores] menu to access tools for setting up the store hierarchy, configuration, inventory, taxes, and attributes. |
+| [Store and site structure](stores.md) | You could have multiple websites with a different domain, and within each website, you can have multiple stores, and within each store, separate store views. |
+| [Store views](store-views.md) | Use store views to make the store available in different locales or with a different branding. |
+| [Store localization](store-localize.md) |  |
+| [Store URLs](store-urls.md) | For each web site, customize the base URL that is assigned to the storefront and the URL that is assigned to the Commerce Admin. |
+| [Taxes](taxes.md) | Configure your store to calculate taxes according to the requirements of your locale, including a value-added tax that is calculated with validation. |
+| [Currency](currency.md) | Review the currency symbols that appear in product prices and sales documents and customize them for each store or view. |
+| [Instant Purchase](checkout-instant-purchase.md) | Enable Instant Purchase on your store so that customers can speed through the checkout process using information that is saved in their account. |
+| [Shopping cart](cart.md)| Review the shopping cart capabilities and how you can configure them to support the customer purchase experience. |
+| [Checkout](checkout-process.md) | Review the checkout process and how you can configure your store to gather the information necessary to complete a transaction. |
+| [Gift card accounts](product-gift-card-workflow.md) | Use gift card accounts to manage how purchased gift card products are applied toward the purchase of products in your store. |
+| [Wish lists](wishlists.md) | Provide the capability for customers to create a list of products that they can share with friends, or save to transfer to the cart later.  |
+| [Payment methods](payments.md) | Explore all the natively supported payment methods and services that you can offer for easier checkout and customer convenience. |
+| [Sales menu](sales-menu.md) | Use the [!UICONTROL Sales] menu to access tools for working with orders according to where they are in the workflow. |
+| [Order management](orders.md) | Track order progress and status through the workflow, where an order becomes an invoice and an invoice becomes a shipment. |
+| [Shipping and delivery](delivery.md) | Set up multiple delivery methods and shipping carriers for an optimal customer experience. |
 
 ## Available documentation
 

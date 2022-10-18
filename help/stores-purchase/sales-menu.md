@@ -1,6 +1,6 @@
 ---
 title: Sales menu
-description: The Commerce Admin includes the [!UICONTROL Sales] menu, which provides access tools for working with orders according to where they are in the workflow.
+description: The Commerce Admin includes the [!UICONTROL Sales] menu, which provides access to tools for working with orders according to where they are in the workflow.
 ---
 # Sales menu
 
