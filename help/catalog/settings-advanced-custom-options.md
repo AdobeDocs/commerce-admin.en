@@ -16,7 +16,7 @@ If a cart price rule is triggered by the purchase, the initial calculation appli
 
 >[!NOTE]
 >
->Catalog Price Rule discount will not be applied to the Fixed price customizable options
+>A catalog price rule discount is not applied to the fixed price customizable options.
 
 ## Create customizable options
 
