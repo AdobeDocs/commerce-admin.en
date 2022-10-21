@@ -14,19 +14,19 @@ The point of origin is used to calculate the charge for shipments made from your
 
 ![Origin](../configuration-reference/sales/assets/shipping-settings-origin.png)<!-- zoom -->
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Sales** and choose **Shipping Settings**.
+1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Shipping Settings]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Origin** section and complete the following:
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Origin]** section and complete the following:
 
-   - Country
-   - Region / State
-   - ZIP / Postal Code
-   - City
-   - Street Address (and line 2, if needed)
+   - [!UICONTROL Country]
+   - [!UICONTROL Region / State]
+   - [!UICONTROL ZIP / Postal Code]
+   - [!UICONTROL City]
+   - [!UICONTROL Street Address] (and line 2, if needed)
 
-1. Click **Save Config**.
+1. Click **[!UICONTROL Save Config]**.
 
 ## Shipping policy
 
@@ -34,17 +34,17 @@ A shipping policy should explain your company's business rules and guidelines fo
 
 ![Shipping Policy During Checkout](./assets/storefront-checkout-shipping-policy.png)<!-- zoom -->
 
-To display your shipping policy during checkout, complete the Shipping Policy Parameters in the configuration. The text appears when customers click **See our shipping policy** during checkout.
+To display your shipping policy during checkout, complete the Shipping Policy Parameters in the configuration. The text appears when customers click _See our shipping policy_ during checkout.
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Sales** and choose **Shipping Settings**.
+1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Shipping Settings]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Shipping Policy Parameters** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Shipping Policy Parameters]** section.
 
-1. Set **Apply Custom Shipping Policy** to `Yes`.
+1. Set **[!UICONTROL Apply Custom Shipping Policy]** to `Yes`.
 
-1. Either paste or enter your **Shipping Policy** into the text box.
+1. Either paste or enter your **[!UICONTROL Shipping Policy]** into the text box.
 
    >[!NOTE]
    >
@@ -52,25 +52,25 @@ To display your shipping policy during checkout, complete the Shipping Policy Pa
 
    ![Shipping Policy Parameters](../configuration-reference/sales/assets/shipping-settings-shipping-policy-parameters.png)<!-- zoom -->
 
-1. Click **Save Config**.
+1. Click **[!UICONTROL Save Config]**.
 
 ## Multiple addresses
 
 The multiple address shipping options enable customers to ship an order to multiple addresses during checkout, and determine the maximum number of addresses to which an order can be shipped.
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Sales** and choose **Multishipping Settings**.
+1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Multishipping Settings]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Options** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Options]** section.
 
    ![Multiaddress Shipping Options](../configuration-reference/sales/assets/multishipping-settings-options.png)<!-- zoom -->
 
-1. Set **Allow Shipping to Multiple Addresses** to `Yes`.
+1. Set **[!UICONTROL Allow Shipping to Multiple Addresses]** to `Yes`.
 
-1. Enter the **Maximum Qty Allowed for Shipping to Multiple Addresses**.
+1. Enter the **[!UICONTROL Maximum Qty Allowed for Shipping to Multiple Addresses]**.
 
-1. Click **Save Config**.
+1. Click **[!UICONTROL Save Config]**.
 
 >[!NOTE]
 >

@@ -12,27 +12,27 @@ When enabled, reorders can be made directly from the customer account or from th
 
 - The _Allow Reorder_ configuration option must be enabled.
 
-- If order is in Hold or in Payment Review status, the reorder option is disabled.
+- If order is in `Hold` or in `Payment Review` status, the reorder option is disabled.
 
-- If any of the items in the order is unavailable, out of stock, or disabled, the reorder option is disabled on the _Storefront_.
+- If any of the items in the order is unavailable, out of stock, or disabled, the reorder option is disabled on the storefront.
 
 - An _Admin_ can reorder even if any of the items are out of stock or disabled.
 
 ## Configure to allow customer reorders
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Sales** and choose **Sales** underneath.
+1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Sales]** underneath.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Reorder** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Reorder]** section.
 
    ![Reorder options](../configuration-reference/sales/assets/sales-reorder.png)<!-- zoom -->
 
-1. Set **Allow Reorder** to `Yes`. 
+1. Set **[!UICONTROL Allow Reorder]** to `Yes`. 
 
    This setting enables reorder functionality from the customer account on the storefront or orders list in the Admin.
 
-1. Click **Save Config**.
+1. Click **[!UICONTROL Save Config]**.
 
 ## Reorder from the storefront
 
@@ -82,24 +82,24 @@ The _Reorder_ button does not appear on the _My Orders_ and _View Order_ pages.
 
 ### Cart is not empty
 
-If the cart is not empty and the user clicks **Reorder** (from the _My Orders_  or _Order View_ page), the existing products remain in the cart with the added reorder products.
+If the cart is not empty and the user clicks **[!UICONTROL Reorder]** (from the _My Orders_  or _Order View_ page), the existing products remain in the cart with the added reorder products.
 
 ![Reorder items](./assets/shopping-cart-view1.png)<!-- zoom -->
 
 ## Reorder from the Admin
 
-1. On the _Admin_ sidebar, go to **Sales** > **Orders**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
-1. Locate the order and open in **View** mode.
+1. Locate the order and open in **[!UICONTROL View]** mode.
 
-1. Click **Reorder** which is displayed in the top button bar.
+1. Click **[!UICONTROL Reorder]** which is displayed in the top button bar.
 
    ![Order details in the Admin](./assets/order-view-admin.png)<!-- zoom -->
 
-   After you click **Reorder**, the _Create New Order_ page opens with reorder products.
+   After you click **[!UICONTROL Reorder]**, the _Create New Order_ page opens with reorder products.
 
    ![Create reorder](./assets/create-reorder-page.png)<!-- zoom -->
 
 1. Fill in all required fields as needed.
 
-1. To submit the order, click **Submit Order**.
+1. To submit the order, click **[!UICONTROL Submit Order]**.

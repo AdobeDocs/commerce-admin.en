@@ -39,46 +39,46 @@ The link can be configured to display the number of different products (or SKUs)
 
 ### Configure the mini cart
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Sales** and choose **Checkout**.
+1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Checkout]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the _Mini Cart_ section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the _[!UICONTROL Mini Cart]_ section.
 
    ![Configuring the mini cart](../configuration-reference/sales/assets/checkout-mini-cart.png)<!-- zoom -->
 
 1. If the setting is for a specific store view, [choose the store view](https://docs.magento.com/user-guide/configuration/scope-change.html) where the configuration applies.
 
-   When prompted, click **OK** to continue.
+   When prompted, click **[!UICONTROL OK]** to continue.
 
-1. Set **Display Mini Cart** to one of the following:
+1. Set **[!UICONTROL Display Mini Cart]** to one of the following:
 
    - `Yes` - Displays the mini cart on store pages. The appearance of the sidebar depends upon the theme.
    - `No` - Disables the display of the mini cart on store pages.
 
 1. If the display is enabled, update the other options to configure the display:
 
-   - For **Number of Items to Display Scrollbar**, enter the number of items that can appear in the sidebar before the scrollbar is triggered.
-   - For **Maximum Display Recently Added Item(s)**, enter the maximum number of recently added items that you want to appear in the mini cart.
+   - For **[!UICONTROL Number of Items to Display Scrollbar]**, enter the number of items that can appear in the sidebar before the scrollbar is triggered.
+   - For **[!UICONTROL Maximum Display Recently Added Item(s)]**, enter the maximum number of recently added items that you want to appear in the mini cart.
 
-1. Click **Save Config**.
+1. Click **[!UICONTROL Save Config]**.
 
 ### Configure the cart link
 
-1. On the _Admin_ sidebar, got to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, got to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Sales** and choose **Checkout**.
+1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Checkout]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **My Cart Link** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL My Cart Link]** section.
 
-1. Set **Display Cart Summary** to one of the following settings:
+1. Set **[!UICONTROL Display Cart Summary]** to one of the following settings:
 
    - `Display item quantities` - This setting displays the total number of products in the cart, adding the quantities for each product.
    - `Display number of items in cart` - This setting displays the number of product items in the cart, regardless of quantity.
 
    ![Configuration options for My Cart Link](../configuration-reference/sales/assets/checkout-my-cart-link.png)<!-- zoom -->
 
-1. Click **Save Config**.
+1. Click **[!UICONTROL Save Config]**.
 
 ## Redirect to cart
 
@@ -86,24 +86,24 @@ The shopping cart page can be configured to appear whenever an item is added to 
 
 **_To configure when the cart appears:_**
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Sales** and choose **Checkout**.
+1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Checkout]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Shopping Cart** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Shopping Cart]** section.
 
    ![The shopping cart configuration settings expanded on the page](../configuration-reference/sales/assets/checkout-shopping-cart.png)<!-- zoom -->
 
 1. If the setting is for a specific store view, [choose the store view](https://docs.magento.com/user-guide/configuration/scope-change.html) where the configuration applies.
 
-   When prompted, click **OK** to continue.
+   When prompted, click **[!UICONTROL OK]** to continue.
 
-1. Set **After Adding a Product Redirect to Shopping Cart** to one of the following:
+1. Set **[!UICONTROL After Adding a Product Redirect to Shopping Cart]** to one of the following:
 
    - `Yes` - Displays the shopping cart page immediately after a product is added to the cart.
    - `No` - Disables redirect to the shopping cart after a product addition to the cart.
 
-1. Click **Save Config**.
+1. Click **[!UICONTROL Save Config]**.
 
 ## Quote lifetime
 
@@ -113,21 +113,21 @@ You can determine how long a price is valid by setting the cart quote lifetime i
 
 **_To configure the quote lifetime:_**
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Sales** and choose **Checkout**.
+1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Checkout]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Shopping Cart** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Shopping Cart]** section.
 
    ![The shopping cart configuration settings expanded on the page](../configuration-reference/sales/assets/checkout-shopping-cart.png)<!-- zoom -->
 
 1. If the setting is for a specific store view, [choose the store view](https://docs.magento.com/user-guide/configuration/scope-change.html) where the configuration applies.
 
-   When prompted, click **OK** to continue.
+   When prompted, click **[!UICONTROL OK]** to continue.
 
-1. For **Quote Lifetime (days)**, enter the number of days that a quoted price remains valid.
+1. For **[!UICONTROL Quote Lifetime (days)]**, enter the number of days that a quoted price remains valid.
 
-1. Click **Save Config**.
+1. Click **[!UICONTROL Save Config]**.
 
 ## Minimum order amount
 
@@ -137,73 +137,73 @@ The configuration allows you to specify a minimum amount, after discounts are ap
 
 **_To configure a minimum order amount:_**
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Sales** and choose **Sales** underneath.
+1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Sales]** underneath.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Minimum Order Amount** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Minimum Order Amount]** section.
 
    ![The minimum order configuration options expanded on the page](../configuration-reference/sales/assets/sales-minimum-order-amount.png)<!-- zoom -->
 
-1. To require a minimum order amount, set **Enable** to `Yes`.
+1. To require a minimum order amount, set **[!UICONTROL Enable]** to `Yes`.
 
 1. If the minimum order is enabled, set the following options to configure the requirement:
 
-   - Enter the **Minimum Amount** that is required for the subtotal, after discounts are applied.
+   - Enter the **[!UICONTROL Minimum Amount]** that is required for the subtotal, after discounts are applied.
 
-   - Set **Include Discount Amount** to one of the following:
+   - Set **[!UICONTROL Include Discount Amount]** to one of the following:
 
       - `Yes` - Requires that the subtotal meet the minimum amount with any discounts included. Using an example of a $50 minimum, if the cart contains a $60 top with a 25% discount applied, the resulting subtotal is $45 and the cart would not meet the minimum.
       - `No` - Requires that the subtotal meet the minimum amount without any discounts.
 
-   - Set **Include Tax to Amount** to one of the following:
+   - Set **[!UICONTROL Include Tax to Amount]** to one of the following:
 
       - `Yes` - Requires the subtotal to meet the minimum amount with tax included.
       - `No` - Requires the subtotal to meet the minimum amount without tax.
 
 1. Optionally, customize minimum order amount message settings:
 
-   - For **Description Message**, enter the text you want to use to customize the message that appears at the top of the cart when the subtotal does not meet the minimum amount.
+   - For **[!UICONTROL Description Message]**, enter the text you want to use to customize the message that appears at the top of the cart when the subtotal does not meet the minimum amount.
 
-   - For **Error to Show in Shopping Cart**, enter the text you want to use to customize the shopping cart error message.
+   - For **[!UICONTROL Error to Show in Shopping Cart]**, enter the text you want to use to customize the shopping cart error message.
 
    Leave the message description fields empty to use the default messages.
 
 1. If needed, configure minimum order amount setting for multi-address orders:
 
-   - To require that each address in a multi-address order meets the minimum order amount, set **Validate Each Address Separately in Multi-address Checkout** to `Yes`.
+   - To require that each address in a multi-address order meets the minimum order amount, set **[!UICONTROL Validate Each Address Separately in Multi-address Checkout]** to `Yes`.
 
    - Optionally, customize minimum order amount message settings:
 
-      - **Multi-address Description Message** - Enter the text that you want to use to customize the message that appears at the top of the cart for multi-address orders that do not meet the minimum.
+      - **[!UICONTROL Multi-address Description Message]** - Enter the text that you want to use to customize the message that appears at the top of the cart for multi-address orders that do not meet the minimum.
 
-      - **Multi-address Error to Show in Shopping Cart** - Enter the text you want to use to customize the shopping cart error message for multi-address orders that do not meet the minimum, enter the text in the  box.
+      - **[!UICONTROL Multi-address Error to Show in Shopping Cart]** - Enter the text you want to use to customize the shopping cart error message for multi-address orders that do not meet the minimum, enter the text in the  box.
 
       Leave the message description fields empty to use the default messages.
 
-1. Click **Save Config**.
+1. Click **[!UICONTROL Save Config]**.
 
 ## Minimum order quantity
 
 You can set the minimum quantity allowed for an order. The minimum quantity can also be configured according to each customer group.
 
-1. Go to **Stores** > _Settings_ > **Configuration**.
+1. Go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Catalog** and choose **Inventory**.
+1. In the left panel, expand **[!UICONTROL Catalog]** and choose **[!UICONTROL Inventory]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Product Stock Options** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Product Stock Options]** section.
 
    ![Product Stock Options](../configuration-reference/catalog/assets/catalog-inventory-product-stock-options.png)<!-- zoom -->
 
-1. For **Minimum Qty Allowed in Shopping Cart**, set the minimum quantity of the product for an order.
+1. For **[!UICONTROL Minimum Qty Allowed in Shopping Cart]**, set the minimum quantity of the product for an order.
 
-   If needed, clear the **Use system value** checkbox to modify these settings.
+   If needed, clear the **[!UICONTROL Use system value]** checkbox to modify these settings.
 
-   - Change the **Customer Group** setting to a specific group and enter the **Minimum Qty** for that group. To add another group and quantity limit, click **Add Minimum Qty**.
+   - Change the **[!UICONTROL Customer Group]** setting to a specific group and enter the **[!UICONTROL Minimum Qty]** for that group. To add another group and quantity limit, click **[!UICONTROL Add Minimum Qty]**.
 
-   - To set the same minimum quantity limit for all customers, keep the `ALL GROUPS` selection and enter the **Minimum Qty**.
+   - To set the same minimum quantity limit for all customers, keep the `ALL GROUPS` selection and enter the **[!UICONTROL Minimum Qty]**.
 
-1. Click **Save Config**.
+1. Click **[!UICONTROL Save Config]**.
 
    ![Minimum quantity requirement in shopping cart](./assets/minimum-qty-allowed-in-shopping-cart.png)<!-- zoom -->
 
@@ -219,25 +219,25 @@ The thumbnail image for both grouped and configurable products can be set to dis
 
 **_To configure cart thumbnails:_**
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Sales** and choose **Checkout**.
+1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Checkout]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Shopping Cart** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Shopping Cart]** section.
 
    ![The shopping cart configuration settings expanded on the page](../configuration-reference/sales/assets/checkout-shopping-cart.png)<!-- zoom -->
 
-1. Set **Grouped Product Image** to determine the thumbnail that is used in the cart for [grouped products](../catalog/product-create-grouped.md):
+1. Set **[!UICONTROL Grouped Product Image]** to determine the thumbnail that is used in the cart for [grouped products](../catalog/product-create-grouped.md):
 
    - `Product Thumbnail Itself` - Uses the thumbnail assigned to the product variation that is added to the cart.
    - `Parent Product Thumbnail` - Uses the thumbnail assigned to the parent product.
 
-1. Set **Configurable Product Image** to determine the thumbnail that is used in the cart for [configurable products](../catalog/product-create-configurable.md):
+1. Set **[!UICONTROL Configurable Product Image]** to determine the thumbnail that is used in the cart for [configurable products](../catalog/product-create-configurable.md):
 
    - `Product Thumbnail Itself` - Uses the thumbnail assigned to the product variation that is added to the cart.
    - `Parent Product Thumbnail` - Uses the thumbnail assigned to the parent product.
 
-1. Click **Save Config**.
+1. Click **[!UICONTROL Save Config]**.
 
 ## Gift options
 
@@ -249,33 +249,33 @@ The Gift Options configuration applies to the entire website, but can be overrid
 
 ### Enable gift options
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Sales** and choose **Sales** underneath.
+1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Sales]** underneath.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) **Gift Options** on the page.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) **[!UICONTROL Gift Options]** on the page.
 
    ![Sales configuration - Gift Options settings](../configuration-reference/sales/assets/sales-gift-options.png)<!-- zoom -->
 
 1. Set the gift message options according to your preference:
 
-   - For **Allow Gift Messages on Order Level**, select `Yes` to enable a single gift message for the whole order.
-   - For **Allow Gift Messages for Order Items**, select `Yes` to enable adding separate gift messages for individual items in the customer shopping cart.
+   - For **[!UICONTROL Allow Gift Messages on Order Level]**, select `Yes` to enable a single gift message for the whole order.
+   - For **[!UICONTROL Allow Gift Messages for Order Items]**, select `Yes` to enable adding separate gift messages for individual items in the customer shopping cart.
 
 1. ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Set the gift-wrapping options according to your preference:
 
-   - For **Allow Gift Wrapping on Order Level**, select `Yes` to enable a single gift wrapping for the entire order.
-   - For **Allow Gift Wrapping for Order Items**, select `Yes` to enable adding gift wrapping individually to each item in the customer shopping cart.
+   - For **[!UICONTROL Allow Gift Wrapping on Order Level]**, select `Yes` to enable a single gift wrapping for the entire order.
+   - For **[!UICONTROL Allow Gift Wrapping for Order Items]**, select `Yes` to enable adding gift wrapping individually to each item in the customer shopping cart.
 
    You can also define different [gift-wrapping designs](#gift-wrap) so that customers can choose the wrapping.
 
-1. ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) To provide customers with an option to include a gift receipt, set **Allow Gift Receipt** to `Yes`.
+1. ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) To provide customers with an option to include a gift receipt, set **[!UICONTROL Allow Gift Receipt]** to `Yes`.
 
-1. ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) To provide customers with an option to include a printed card, set **Allow Printed Card** to `Yes`.
+1. ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) To provide customers with an option to include a printed card, set **[!UICONTROL Allow Printed Card]** to `Yes`.
 
-1. ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Enter the **Default Price for Printed Card**.
+1. ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Enter the **[!UICONTROL Default Price for Printed Card]**.
 
-1. Click **Save Config**.
+1. Click **[!UICONTROL Save Config]**.
 
 ### Gift wrap
 
@@ -289,47 +289,47 @@ The gift wrap image should be a swatch that shows the repeating pattern, and can
 
 #### Add a gift wrap design
 
-1. On the _Admin_ sidebar, go to **Stores** > _Other Settings_ > **Gift Wrapping**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_ > **[!UICONTROL Gift Wrapping]**.
 
    ![Gift Wrapping grid](./assets/gift-wrapping.png)<!-- zoom -->
 
-1. In the upper-right corner, click **Add Gift Wrapping**.
+1. In the upper-right corner, click **[!UICONTROL Add Gift Wrapping]**.
 
    ![New Gift Wrapping](./assets/gift-wrapping-new.png)<!-- zoom -->
 
-1. Enter the name for the **Gift Wrapping Design** to appear during checkout.
+1. Enter the name for the **[!UICONTROL Gift Wrapping Design]** to appear during checkout.
 
-   If needed, you can change the **Scope** and configure a different name for each store view.
+   If needed, you can change the **[!UICONTROL Scope]** and configure a different name for each store view.
 
-1. Select the **Websites** where the gift wrap design is available.
+1. Select the **[!UICONTROL Websites]** where the gift wrap design is available.
 
-1. Set **Status** to `Enabled`.
+1. Set **[!UICONTROL Status]** to `Enabled`.
 
    If you have seasonal wrapping option, you can set this to `Disabled` when you do not want the option to be available.
 
-1. Enter the **Price** of the gift wrap design.
+1. Enter the **[!UICONTROL Price]** of the gift wrap design.
 
    This setting can be overridden by the gift wrap price set at the product level.
 
-1. To upload a thumbnail **Image** of the gift wrapping, click **Choose File** and select the file to upload from your directory.
+1. To upload a thumbnail **[!UICONTROL Image]** of the gift wrapping, click **[!UICONTROL Choose File]** and select the file to upload from your directory.
 
    A thumbnail of the image appears in the Gift Wrapping Information after the record is saved.
 
-1. Click **Save**.
+1. Click **[!UICONTROL Save]**.
 
 #### Edit a gift wrap design
 
-1. On the _Admin_ sidebar, go to **Stores** > _Other Settings_ > **Gift Wrapping**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_ > **[!UICONTROL Gift Wrapping]**.
 
 1. Find the gift wrap record in the list.
 
-1. In the _Action_ column, click **Edit**.
+1. In the _Action_ column, click **[!UICONTROL Edit]**.
 
    ![Edit gift wrapping information](./assets/gift-wrapping-edit.png)<!-- zoom -->
 
 1. Make the necessary changes.
 
-1. Click **Save**.
+1. Click **[!UICONTROL Save]**.
 
 #### Delete gift wrap designs
 
@@ -339,17 +339,17 @@ With the _Gift Wrapping_ grid open, use one of these methods to delete wrap desi
 
 1. Open the gift-wrapping design in edit mode.
 
-1. At the top of the workspace, click **Delete**.
+1. At the top of the workspace, click **[!UICONTROL Delete]**.
 
-1. When prompted, click **OK** to confirm.
+1. When prompted, click **[!UICONTROL OK]** to confirm.
 
 **_Method 2: Delete multiple gift wrap designs_**
 
 1. In the _Gift Wrapping_ grid, select the checkbox of each gift wrap design that you want to delete.
 
-1. Set the **Actions** control to `Delete`.
+1. Set the **[!UICONTROL Actions]** control to `Delete`.
 
-1. Click **Submit**.
+1. Click **[!UICONTROL Submit]**.
 
 ### Gift options tax
 
@@ -359,30 +359,30 @@ Gift wrapping and printed gift card prices can be configured to include or exclu
 
 **_To configure gift options taxes:_**
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Sales** and choose **Tax**.
+1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Tax]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Tax Classes** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Tax Classes]** section.
 
    ![Tax class configuration](../configuration-reference/sales/assets/tax-tax-classes.png)<!-- zoom -->
 
-1. Set **Tax Class for Gift Options** to the applicable tax class.
+1. Set **[!UICONTROL Tax Class for Gift Options]** to the applicable tax class.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Orders, Invoices, Credit Memos Display Settings** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Orders, Invoices, Credit Memos Display Settings]** section.
 
    ![Orders, invoices, credit memos display settings](../configuration-reference/sales/assets/tax-orders-invoices-credit-memos-display-settings.png)<!-- zoom -->
 
-1. Set **Display Gift Wrapping Prices** to one of the following:
+1. Set **[!UICONTROL Display Gift Wrapping Prices]** to one of the following:
 
    - `Excluding Tax`
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. Set **Display Printed Card Prices** to one of the following:
+1. Set **[!UICONTROL Display Printed Card Prices]** to one of the following:
 
    - `Excluding Tax`
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. Click **Save Config**.
+1. Click **[!UICONTROL Save Config]**.

@@ -24,11 +24,11 @@ Customers can [manage their wish lists](wishlist-storefront.md) by logging in to
 
 **_To update wish list items from the Admin:_**
 
-1. On the _Admin_ sidebar, go to **Customers** > **All Customers**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
-1. Find the customer in the list and click **Edit** in the *Action* column.
+1. Find the customer in the list and click **[!UICONTROL Edit]** in the *[!UICONTROL Action]* column.
 
-1. In the left panel, choose **Wish List** and find the item to be edited in the list.
+1. In the left panel, choose **[!UICONTROL Wish List]** and find the item to be edited in the list.
 
    Any options selected for the product appear below the product name.
 
@@ -36,10 +36,10 @@ Customers can [manage their wish lists](wishlist-storefront.md) by logging in to
 
 1. To edit the product options, do the following:
 
-   - In the **Action** column, click **Configure**.
+   - In the **[!UICONTROL Action]** column, click **[!UICONTROL Configure]**.
 
-   - On the product page, update the options and **Quantity** as needed.
+   - On the product page, update the options and **[!UICONTROL Quantity]** as needed.
 
-   - Click **OK**.
+   - Click **[!UICONTROL OK]**.
 
-1. When complete, click **Save Customer** or **Save and Continue Edit**.
+1. When complete, click **[!UICONTROL Save Customer]** or **[!UICONTROL Save and Continue Edit]**.

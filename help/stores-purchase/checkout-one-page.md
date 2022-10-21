@@ -10,11 +10,11 @@ One-page checkout is enabled by default. If you are implementing a custom integr
 
 **_To disable one-page checkout:_**
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. On the left panel, expand **Sales** and choose **Checkout**.
+1. On the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Checkout]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Checkout Options** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Checkout Options]** section.
 
    ![Configuration - checkout options](../configuration-reference/sales/assets/checkout-checkout-options.png)<!-- zoom -->
 
@@ -22,10 +22,10 @@ One-page checkout is enabled by default. If you are implementing a custom integr
 
 1. If the setting is for a specific store view, [choose the store view](https://docs.magento.com/user-guide/configuration/scope-change.html) where the configuration applies.
 
-   When prompted, click **OK** to continue.
+   When prompted, click **[!UICONTROL OK]** to continue.
 
-1. Set **Enable Onepage Checkout** to `No`.
+1. Set **[!UICONTROL Enable Onepage Checkout]** to `No`.
 
-   If necessary, clear the **Use system value** checkbox to change this setting.
+   If necessary, clear the **[!UICONTROL Use system value]** checkbox to change this setting.
 
-1. Click **Save Config**.
+1. Click **[!UICONTROL Save Config]**.

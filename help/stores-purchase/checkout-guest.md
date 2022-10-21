@@ -10,11 +10,11 @@ Your store can be configured to require shoppers to open an account before makin
 
 **_To disable guest checkout:_**
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. On the left panel, expand **Sales** and choose **Checkout**.
+1. On the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Checkout]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Checkout Options** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Checkout Options]** section.
 
    ![Checkout options expanded on the configuration page](../configuration-reference/sales/assets/checkout-checkout-options.png)<!-- zoom -->
 
@@ -22,10 +22,10 @@ Your store can be configured to require shoppers to open an account before makin
 
 1. If the setting is for a specific store view, [choose the store view](https://docs.magento.com/user-guide/configuration/scope-change.html) where the configuration applies.
 
-   When prompted, click **OK** to continue.
+   When prompted, click **[!UICONTROL OK]** to continue.
 
-1. Set **Allow Guest Checkout** to `No`.
+1. Set **[!UICONTROL Allow Guest Checkout]** to `No`.
 
-   If necessary, clear the **Use system value** checkbox to enable changes to this setting.
+   If necessary, clear the **[!UICONTROL Use system value]** checkbox to enable changes to this setting.
 
-1. Click **Save Config**.
+1. Click **[!UICONTROL Save Config]**.

@@ -14,25 +14,25 @@ Make sure that you have updated the needed [email template](https://docs.magento
 
 ## Step 2: Configure the payment failed emails
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. On the left panel, expand **Sales** and choose **Checkout**.
+1. On the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Checkout]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Payment Failed Emails** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Payment Failed Emails]** section.
 
 1. Set the options for payment failed emails:
 
-   - Set **Payment Failed Email Sender** to the store contact that appears as the sender of the message.
-   - Set **Payment Failed Email Receiver** to the store contact that is to receive notification of failed email transmissions.
-   - Set **Payment Failed Template** to the template that is used for the email that is sent when the payment method fails during checkout.
+   - Set **[!UICONTROL Payment Failed Email Sender]** to the store contact that appears as the sender of the message.
+   - Set **[!UICONTROL Payment Failed Email Receiver]** to the store contact that is to receive notification of failed email transmissions.
+   - Set **[!UICONTROL Payment Failed Template]** to the template that is used for the email that is sent when the payment method fails during checkout.
 
-1. For **Send Payment Failed Email Copy To**, enter the email address of anyone who is to receive a copy of the payment failed notification.
+1. For **[!UICONTROL Send Payment Failed Email Copy To]**, enter the email address of anyone who is to receive a copy of the payment failed notification.
 
    If sending a copy to multiple recipients, separate each address with a comma.
 
-1. Set **Payment Failed Copy Method** to one of the following:
+1. Set **[!UICONTROL Payment Failed Copy Method]** to one of the following:
 
    - `Bcc` - Sends a _blind courtesy copy_ by including the recipient in the header of the same email that is sent to the customer. The BCC recipient is not visible to the customer.
    - `Separate Email` - Sends the copy as a separate email.
 
-1. Click **Save Config**.
+1. Click **[!UICONTROL Save Config]**.

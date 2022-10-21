@@ -28,11 +28,11 @@ Instant Purchase allows customers to speed through the checkout process using in
 
 1. On the storefront, the customer goes to the product page of the item to be purchased.
 
-1. Selects the required options and clicks **Instant Purchase**.
+1. Selects the required options and clicks **[!UICONTROL Instant Purchase]**.
 
    ![Confirmation dialog to confirm the instant purchase](./assets/storefront-checkout-instant-purchase-confirmation.png)<!-- zoom -->
 
-1. Reviews the **Instant Purchase Confirmation** information and clicks **OK** to complete the transaction.
+1. Reviews the **[!UICONTROL Instant Purchase Confirmation]** information and clicks **[!UICONTROL OK]** to complete the transaction.
 
    A confirmation message and order number appear at the top of the product page.
 
@@ -40,45 +40,45 @@ Instant Purchase allows customers to speed through the checkout process using in
 
 ### Step 1: Open the configuration page
 
-1. On the _Admin_ sidebar, go to **Stores** >  _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
 ### Step 2: Configure the payment method vault
 
 The following example shows how to configure the Braintree vault.
 
-1. In left panel, expand the **Sales** section and choose **Payment Methods**.
+1. In left panel, expand the **[!UICONTROL Sales]** section and choose **[!UICONTROL Payment Methods]**.
 
-1. Under _Recommended Solutions_, click **Configure** in the _Braintree_ section.
+1. Under _[!UICONTROL Recommended Solutions]_, click **[!UICONTROL Configure]** in the _Braintree_ section.
 
    ![Configure the Braintree payment service](../configuration-reference/sales/assets/payment-methods-braintree.png)<!-- zoom -->
 
-1. In the _Basic Braintree Settings_ section, enter the following information from your Braintree seller account:
+1. In the _[!UICONTROL Basic Braintree Settings]_ section, enter the following information from your Braintree seller account:
 
-   - **Merchant ID**
-   - **Public Key**
-   - **Private Key**
+   - **[!UICONTROL Merchant ID]**
+   - **[!UICONTROL Public Key]**
+   - **[!UICONTROL Public Key]**
 
-1. Set **Enable this Solution** to `Yes`.
+1. Set **[!UICONTROL Enable this Solution]** to `Yes`.
 
-1. If applicable set **Enable PayPal through Braintree** to `Yes`.
+1. If applicable set **[!UICONTROL Enable PayPal through Braintree]** to `Yes`.
 
-1. Set **Vault Enabled** to `Yes`.
+1. Set **[!UICONTROL Vault Enabled]** to `Yes`.
 
    ![Basic Braintree Settings](./assets/braintree-basic-settings.png)<!-- zoom -->
 
 ### Step 3: Enable Instant Purchase
 
-1. In the left panel under the _Sales_ section, choose **Sales**.
+1. In the left panel under the _[!UICONTROL Sales]_ section, choose **[!UICONTROL Sales]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Instant Purchase** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Instant Purchase]** section.
 
 1. If this change is for a specific store view, [choose the store view](https://docs.magento.com/user-guide/configuration/scope-change.html) where the configuration applies.
 
-   When prompted, click **OK** to continue.
+   When prompted, click **[!UICONTROL OK]** to continue.
 
-1. Set **Enabled** to `Yes`.
+1. Set **[!UICONTROL Enabled]** to `Yes`.
 
-1. Enter the **Button Text** that you want to appear on the button.
+1. Enter the **[!UICONTROL Button Text]** that you want to appear on the button.
 
    The button text can be changed for each store view, or language. By default, the button text is `Instant Purchase`.
 
@@ -86,6 +86,6 @@ The following example shows how to configure the Braintree vault.
 
    For a detailed description of each of these configuration settings, see [Instant Purchase](https://docs.magento.com/user-guide/configuration/sales/sales.html#instant-purchase) in the _Configuration Reference Guide_.
 
-1. Click **Save Config**.
+1. Click **[!UICONTROL Save Config]**.
 
-1. When prompted to update the cache, click **Cache Management** in the system message and follow the instructions to flush the cache.
+1. When prompted to update the cache, click **[!UICONTROL Cache Management]** in the system message and follow the instructions to flush the cache.

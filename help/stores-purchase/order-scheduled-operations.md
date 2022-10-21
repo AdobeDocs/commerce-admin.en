@@ -12,19 +12,17 @@ Use [Cron](https://docs.magento.com/user-guide/system/cron.html) jobs to schedul
 
 The lifetime of orders with pending payments is determined by the _Orders Cron Settings_ configuration. The default value is set to 480 minutes, which is eight hours.
 
-1. On the _Admin_ sidebar, click **Stores**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the _Settings_ section, choose **Configuration**.
+1. In the left panel, expand the **[!UICONTROL Sales]** section and choose **[!UICONTROL Sales]** underneath.
 
-1. On the left panel in the _Sales_ section, choose **Sales**.
-
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Orders Cron Settings** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Orders Cron Settings]** section.
 
    ![Orders Cron Settings](../configuration-reference/sales/assets/sales-orders-cron-settings.png)<!-- zoom -->
 
-1. For **Pending Payment Order Lifetime (minutes)**, enter the number of minutes before a pending payment expires.
+1. For **[!UICONTROL Pending Payment Order Lifetime (minutes)]**, enter the number of minutes before a pending payment expires.
 
-1. Click **Save Config**.
+1. Click **[!UICONTROL Save Config]**.
 
 ## Enable scheduled grid updates and reindexing
 
@@ -37,18 +35,16 @@ The Grid Settings configuration schedules updates to the following order managem
 
 By scheduling these tasks, you can avoid the locks that occur when data is saved and reduce processing time. When enabled, any updates take place only during the scheduled cron job. For best results, Cron should be configured to run once every minute.
 
-To enable the updates and reindexing:
+**_To enable the updates and reindexing:_**
 
-1. On the _Admin_ sidebar, click **Stores**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the _Settings_ section, choose **Configuration**.
+1.  In the left panel, expand the **[!UICONTROL Advanced]** section and choose **[!UICONTROL Developer]**.
 
-1. On the left panel in the _Advanced_ section, choose **Developer**.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Grid Settings]** section.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Grid Settings** section.
-
-1. Set **Asynchronous Indexing** to `Enable`.
+1. Set **[!UICONTROL Asynchronous Indexing]** to `Enable`.
 
    ![Grid Settings](../configuration-reference/advanced/assets/developer-grid-settings.png)<!-- zoom -->
 
-1. Click **Save Config**.
+1. Click **[!UICONTROL Save Config]**.

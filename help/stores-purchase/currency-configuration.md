@@ -12,19 +12,19 @@ You also specify the currencies that you accept and which currency you want to u
 
 ## Step 1: Choose the accepted currencies
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the upper-left corner, set **Scope** to the store view where the configuration applies.
+1. In the upper-left corner, set **[!UICONTROL Scope]** to the store view where the configuration applies.
 
-1. In the left panel under _General_, choose **Currency Setup**.
+1. In the left panel under _General_, choose **[!UICONTROL Currency Setup]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Currency Options** section and set the following options:
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Currency Options]** section and set the following options:
 
-   - **Base Currency** — Set to the primary currency that you use for online transactions.
+   - **[!UICONTROL Base Currency]** — Set to the primary currency that you use for online transactions.
 
-   - **Default Display Currency** — Set to the currency that you use to display pricing in the store view.
+   - **[!UICONTROL Default Display Currency]** — Set to the currency that you use to display pricing in the store view.
 
-   - **Allowed Currencies** — Select all currencies that you accept as payment in the store view. Make sure to also select your primary currency.
+   - **[!UICONTROL Allowed Currencies]** — Select all currencies that you accept as payment in the store view. Make sure to also select your primary currency.
 
       For multiple currencies, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
 
@@ -32,17 +32,17 @@ You also specify the currencies that you accept and which currency you want to u
 
    For a detailed description of each of these configuration settings, see [Currency Options](https://docs.magento.com/user-guide/configuration/general/currency-setup.html) in the _Configuration Reference Guide_.
 
-1. When prompted to refresh the cache, click **Close** ( ![Close box](../assets/icon-close-x.png) in the upper-right corner of the system message.
+1. When prompted to refresh the cache, click _Close_ ( ![Close box](../assets/icon-close-x.png) in the upper-right corner of the system message.
 
    You can [refresh the cache](https://docs.magento.com/user-guide/system/cache-management.html) later.
 
 1. Define the scope of the base currency:
 
-   - In the left panel, expand **Catalog** and choose **Catalog** underneath.
+   - In the left panel, expand **[!UICONTROL Catalog]** and choose **[!UICONTROL Catalog]** underneath.
 
-   - Scroll down and expand ![Expansion selector](../assets/icon-display-expand.png) the **Price** section. (This section only appears if the scope is set as **Store View:** _Default config_.)
+   - Scroll down and expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Price]** section. (This section only appears if the scope is set as **[!UICONTROL Store View:]** _Default config_.)
 
-   - Set **Catalog Price Scope** to either `Global` or `Website`.
+   - Set **[!UICONTROL Catalog Price Scope]** to either `Global` or `Website`.
 
    ![Catalog configuration - price options](../configuration-reference/catalog/assets/catalog-price.png)<!-- zoom -->
 
@@ -50,63 +50,63 @@ You also specify the currencies that you accept and which currency you want to u
 
 1. Scroll to the top of the page.
 
-1. In the left panel, expand **General** and choose **Currency Setup**.
+1. In the left panel, expand **[!UICONTROL General]** and choose **[!UICONTROL Currency Setup]**.
 
 1. Configure your currency service connection:
 
-   There are two service options: _fixer.io_ and _Currency Converter API_
+   There are two service options: _[!UICONTROL fixer.io]_ and _[!UICONTROL Currency Converter API]_
 
    - To connect to the [fixer.io service](https://fixer.io/):
 
-      - Expand ![Expansion selector](../assets/icon-display-expand.png) the **Fixer.io** section.
+      - Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Fixer.io]** section.
 
-      - Enter your fixer.io **API key**.
+      - Enter your fixer.io **[!UICONTROL API key]**.
 
-      - For **Connection Timeout in Seconds**, enter the number of seconds of inactivity to allow before the connection times out.
+      - For **[!UICONTROL Connection Timeout in Seconds]**, enter the number of seconds of inactivity to allow before the connection times out.
 
       ![General configuration - currency setup - Fixer.io options](./assets/config-general-currency-setup-fixerio.png)<!-- zoom -->
 
    - To connect to the [Currency Convertor API service](https://free.currencyconverterapi.com/):
 
-      - Expand ![Expansion selector](../assets/icon-display-expand.png) the **Currency Convertor API** section.
+      - Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Currency Convertor API]** section.
 
-      - Enter your Currency Convertor **API key**.
+      - Enter your Currency Convertor **[!UICONTROL API key]**.
 
-      - For **Connection Timeout in Seconds**, enter the number of seconds of inactivity to allow before the connection times out.
+      - For **[!UICONTROL Connection Timeout in Seconds]**, enter the number of seconds of inactivity to allow before the connection times out.
 
       ![General configuration - currency setup - Currency Converter API options](../configuration-reference/general/assets/currency-setup-converter.png)<!-- zoom -->
 
 ## Step 3: Configure the scheduled import settings
 
-1. Continuing with Currency Setup, expand ![Expansion selector](../assets/icon-display-expand.png) the **Scheduled Import Settings** section.
+1. Continuing with Currency Setup, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Scheduled Import Settings]** section.
 
    ![General configuration - currency scheduled import settings](../configuration-reference/general/assets/currency-setup-scheduled-import-settings.png)<!-- zoom -->
 
-1. To automatically update currency rates, set **Enabled** to `Yes`.
+1. To automatically update currency rates, set **[!UICONTROL Enabled]** to `Yes`.
 
 1. Set the update options:
 
-   - **Service** — Set to the rate provider. The default value is `Fixer.io`.
+   - **[!UICONTROL Service]** — Set to the rate provider. The default value is `Fixer.io`.
 
-   - **Start Time** — Set to the hour, minute, and second that the rates are updated according to the schedule.
+   - **[!UICONTROL Start Time]** — Set to the hour, minute, and second that the rates are updated according to the schedule.
 
-   - **Frequency** — To determine how often the rates are updated, set to one of the following:
+   - **[!UICONTROL Frequency]** — To determine how often the rates are updated, set to one of the following:
 
       - `Daily`
       - `Weekly`
       - `Monthly`
 
-   - **Error Email Recipient** — Enter the email address of the person who is to receive email notification if an error occurs during the import process.
+   - **[!UICONTROL Error Email Recipient]** — Enter the email address of the person who is to receive email notification if an error occurs during the import process.
 
       To enter multiple email addresses, separate each with a comma.
 
-   - **Error Email Sender** — Set to the [store contact](https://docs.magento.com/user-guide/stores/store-email-addresses.html) that appears as the sender of the error notification.
+   - **[!UICONTROL Error Email Sender]** — Set to the [store contact](https://docs.magento.com/user-guide/stores/store-email-addresses.html) that appears as the sender of the error notification.
 
-   - **Error Email Template** — Set to the email template used for the error notification.
+   - **[!UICONTROL Error Email Template]** — Set to the email template used for the error notification.
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.
 
-1. When prompted to update the cache, click the **Cache Management** link and refresh the invalid cache.
+1. When prompted to update the cache, click the **[!UICONTROL Cache Management]** link and refresh the invalid cache.
 
    ![System message - refresh the invalid cache](./assets/msg-cache-management.png)<!-- zoom -->
 
@@ -120,20 +120,22 @@ Manage Currency Symbols gives you the ability to customize the symbol associated
 
 ![Currency symbols](./assets/stores-currency-symbols.png)<!-- zoom -->
 
-1. On the _Admin_ sidebar, go to **Stores** > _Currency_ > **Currency Symbols**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Currency]_ > **[!UICONTROL Currency Symbols]**.
 
-1. Each currency that is currently enabled for your store appears in the Currency list.
+   Each currency that is currently enabled for your store appears in the _[!UICONTROL Currency]_ list.
 
-1. Enter a custom symbol for each currency that you want to use, or select the **Use Standard** checkbox for each currency.
+1. Make the changes that you need to the list:
 
-1. To override the default symbol, clear the **Use Standard** checkbox and enter the symbol that you want to use.
+   - Enter a custom symbol for each currency that you want to use, or select the **[!UICONTROL Use Standard]** checkbox for each currency.
+
+   - To override the default symbol, clear the _[!UICONTROL Use Standard]_ checkbox and enter the symbol that you want to use.
 
    >[!NOTE]
    >
    >It is not possible to change the alignment of the currency symbol from left to right.
 
-1. When complete, click **Save Currency Symbols**.
+1. When complete, click **[!UICONTROL Save Currency Symbols]**.
 
-1. When prompted to update the cache, click the **Cache Management** link and refresh any invalid cache.
+1. When prompted to update the cache, click the **[!UICONTROL Cache Management]** link and refresh any invalid cache.
 
    ![System message - refresh the invalid cache](./assets/msg-cache-management.png)<!-- zoom -->

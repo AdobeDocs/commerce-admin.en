@@ -18,41 +18,41 @@ With the in-store delivery method, the customer can select a source to be used a
 >[!IMPORTANT]
 >
 >**In the storefront, search results are filtered by country to show relevant results:** <br>
->- If the customer has a shipping address, the country is taken from the shipping address.
+> - If the customer has a shipping address, the country is taken from the shipping address.
 > - If the customer does not have a shipping address, the country is taken from the [Default Tax Destination Calculation](https://docs.magento.com/user-guide/configuration/sales/tax.html#default-tax-destination-calculation) settings. These settings are set per store view, so you need to configure the Store View country to make it work properly.
 
 ## Set up in-store delivery
 
 First, check that In-store Delivery is enabled.
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Sales** and choose **Delivery Methods**.
+1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Delivery Methods]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **In-Store Delivery** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL In-Store Delivery]** section.
 
    ![In-store Delivery](./assets/in-store-shipping.png)<!-- zoom -->
 
-1. Set **Enabled** to `Yes`.
+1. Set **[!UICONTROL Enabled]** to `Yes`.
 
    >[!NOTE]
    >
-   >If needed, clear the **Use system value** checkbox to change the default for any field.
+   >If needed, clear the **[!UICONTROL Use system value]** checkbox to change the default for any field.
 
-1. Enter the **Method Name** that describes the method of calculation that is used to produce a shipping estimate.
+1. Enter the **[!UICONTROL Method Name]** that describes the method of calculation that is used to produce a shipping estimate.
 
    The method name appears next to the calculated estimated rate in the shopping cart.
 
-1. Enter the **Title** that you want to appear for In-Store Delivery section during checkout.
+1. Enter the **[!UICONTROL Title]** that you want to appear for _In-Store Delivery_ section during checkout.
 
    The default title is `In-Store Pickup Delivery`.
 
-1. Enter the **Price** to charge customers for the in-store pickup service.
+1. Enter the **[!UICONTROL Price]** to charge customers for the in-store pickup service.
 
-1. Enter the **Search Radius** in kilometers for store pickup location search on storefront checkout.
+1. Enter the **[!UICONTROL Search Radius]** in kilometers for store pickup location search on storefront checkout.
 
-1. For **Displayed Error Message**, enter the message that appears if In-Store Delivery becomes unavailable.
+1. For **[!UICONTROL Displayed Error Message]**, enter the message that appears if in-store delivery becomes unavailable.
 
    The default message is `In-Store Delivery is not available. To use this delivery method, please contact us.`
 
-1. Click **Save Config**.
+1. Click **[!UICONTROL Save Config]**.

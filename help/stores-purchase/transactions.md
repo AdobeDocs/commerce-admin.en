@@ -8,30 +8,26 @@ The _Transactions_ page lists all payment activity that has taken place between 
 
 ## View transactions
 
-On the _Admin_ sidebar, go to **Sales** > _Operations_ > **Transactions**.
+On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > _[!UICONTROL Operations]_ > **[!UICONTROL Transactions]**.
 
 ![Transactions grid](./assets/transactions.png)<!-- zoom -->
 
-### Column descriptions
-
 |Column|Description|
 |--- |--- |
-|ID|A unique numeric identifier that is assigned to each transaction.|
-|Order ID|A unique identifier that is assigned when a customer places an order.|
-|Transaction ID|A unique numeric identifier that is assigned when a transaction happens after a customer places an order.|
-|Parent Transaction ID|The ID number of the parent transaction.|
-|Payment Method| The payment method associated with a transaction.|
-|Transaction Type|Type of transaction, which can be Order, Authorization, Capture, Void, or Refund.|
-|Closed|Whether a transaction is closed or not.|
-|Created|Time and date the transaction was created.|
+|[!UICONTROL ID]|A unique numeric identifier that is assigned to each transaction.|
+|[!UICONTROL Order ID]|A unique identifier that is assigned when a customer places an order.|
+|[!UICONTROL Transaction ID]|A unique numeric identifier that is assigned when a transaction happens after a customer places an order.|
+|[!UICONTROL Parent Transaction ID]|The ID number of the parent transaction.|
+|[!UICONTROL Payment Method]| The payment method associated with a transaction.|
+|[!UICONTROL Transaction Type]|Type of transaction, which can be Order, Authorization, Capture, Void, or Refund.|
+|[!UICONTROL Closed]|Whether a transaction is closed or not.|
+|[!UICONTROL Created]|Time and date the transaction was created.|
 
 {style="table-layout:auto"}
 
 ## View transaction details
 
-1. On the _Admin_ sidebar, go to **Sales** > **Transactions**.
-
-1. Click the entry that you want to view.
+Click the entry that you want to view.
 
 On the transaction details page, you can see the transaction detail and child transactions grid.
 
@@ -41,11 +37,11 @@ This section includes information regarding the transaction, and provides a link
 
 |Column|Description|
 |--- |--- |
-|Transaction ID|The transaction ID number.|
-|Parent Transaction ID|A corresponding ID number of the parent transaction, if applicable.|
-|Transaction Type|Type of transaction, which can be Order, Authorization, Capture, Void, or Refund.|
-|Is Closed|Whether a transaction is closed or not. |
-|Created At|Time and date the transaction was created.|
+|[!UICONTROL Transaction ID]|The transaction ID number.|
+|[!UICONTROL Parent Transaction ID]|A corresponding ID number of the parent transaction, if applicable.|
+|[!UICONTROL Transaction Type]|Type of transaction, which can be Order, Authorization, Capture, Void, or Refund.|
+|[!UICONTROL Is Closed]|Whether a transaction is closed or not. |
+|[!UICONTROL Created At]|Time and date the transaction was created.|
 
 {style="table-layout:auto"}
 
@@ -53,7 +49,7 @@ This section includes information regarding the transaction, and provides a link
 
 Child transactions are displayed in the grid after creating invoices for [orders](orders.md). This allows you to track transaction history, following a transaction hierarchy.
 
-### Transaction Details
+### [!UICONTROL Transaction Details]
 
 This section includes the additional information for a given transaction. Information is displayed in the form of keys and values. The available keys are:
 
@@ -82,4 +78,4 @@ This section includes the additional information for a given transaction. Inform
 
 >[!NOTE]
 >
->If the transaction details are not available or are outdated, click **Fetch** in the button bar to update them.
+>If the transaction details are not available or are outdated, click **[!UICONTROL Fetch]** in the button bar to update them.

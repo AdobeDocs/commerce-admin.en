@@ -10,11 +10,11 @@ Before accepting payment by purchase order, always establish the credit worthine
 
 **_To configure payment by purchase order:_**
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Sales** and choose **Payment Methods**.
+1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Payment Methods]**.
 
-1. Under _Other Payment Methods_, expand ![Expansion selector](../assets/icon-display-expand.png) the **Purchase Order** section.
+1. Under _[!UICONTROL Other Payment Methods]_, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Purchase Order]** section.
 
    ![Purchase Order](../configuration-reference/sales/assets/payment-methods-purchase-order.png)
    )<!-- zoom -->
@@ -23,27 +23,27 @@ Before accepting payment by purchase order, always establish the credit worthine
 
    >[!NOTE]
    >
-   >If necessary, first clear the **Use system value** checkbox to change these settings.
+   >If necessary, first clear the **[!UICONTROL Use system value]** checkbox to change these settings.
 
-1. To activate this payment method, set **Enabled** to `Yes`.
+1. To activate this payment method, set **[!UICONTROL Enabled]** to `Yes`.
 
-1. Enter a **Title** to identify this payment method during checkout.
+1. Enter a **[!UICONTROL Title]** to identify this payment method during checkout.
 
-1. Set **New Order Status** to `Pending` until payment is authorized.
+1. Set **[!UICONTROL New Order Status]** to `Pending` until payment is authorized.
 
-1. Set **Payment from Applicable Countries** to one of the following:
+1. Set **[!UICONTROL Payment from Applicable Countries]** to one of the following:
 
    - `All Allowed Countries` - Customers from all [countries](../getting-started/store-details.md#country-options) specified in your store configuration can use this payment method.
-   - `Specific Countries` - After you choose this option, the _Payment from Specific Countries_ list appears. To select multiple countries, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
+   - `Specific Countries` - After you choose this option, the _[!UICONTROL Payment from Specific Countries]_ list appears. To select multiple countries, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
 
-1. Set **Minimum Order Total** and **Maximum Order Total** to the amounts required to qualify for this payment method.
+1. Set **[!UICONTROL Minimum Order Total]** and **[!UICONTROL Maximum Order Total]** to the amounts required to qualify for this payment method.
 
    >[!NOTE]
    >
    >An order qualifies if the total falls between, or exactly matches, the minimum or maximum total values.
 
-1. Enter a **Sort Order** number to determine the position of this item in the list of payment methods that is displayed during checkout.
+1. Enter a **[!UICONTROL Sort Order]** number to determine the position of this item in the list of payment methods that is displayed during checkout.
 
    This is relative to the other payment methods. (`0` = first, `1` = second, `2` = third, and so on.)
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.

@@ -34,57 +34,57 @@ In certain business-to-business transactions, VAT is not assessed. Commerce can 
 
 The process of creating a tax rule begins by adding a tax rate.
 
-1. On the _Admin_ sidebar, go to **Stores** > _Taxes_ > **Tax Zones and Rates**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_ > **[!UICONTROL Tax Zones and Rates]**.
 
 1. Ensure that there is a customer tax class that is appropriate to use with the VAT.
 
-   For this example, ensure that there is a customer tax class named "Retail Customer". If this tax class does not exist, click **Add New Tax Rate**.
+   For this example, ensure that there is a customer tax class named "Retail Customer". If this tax class does not exist, click **[!UICONTROL Add New Tax Rate]**.
 
    ![Set up customer tax classes](./assets/vat-zones.png)<!-- zoom -->
 
-1. Enter the **Tax Identifier** for the new tax class.
+1. Enter the **[!UICONTROL Tax Identifier]** for the new tax class.
 
    All tax rates are displayed in the _Tax Rate_ field in the _Tax Rule Information_ when you create tax rules.
 
-1. To set the zip code range (from / to), select the **Zip/Post is Range** checkbox.
+1. To set the zip code range (from / to), select the **[!UICONTROL Zip/Post is Range]** checkbox.
 
-1. Choose the **Country** where the tax rate applies.
+1. Choose the **[!UICONTROL Country]** where the tax rate applies.
 
-1. Enter the **Rate Percent** that would be used for the tax rate calculation at purchase.
+1. Enter the **[!UICONTROL Rate Percent]** that would be used for the tax rate calculation at purchase.
 
-1. When complete, click **Save Rate**.
+1. When complete, click **[!UICONTROL Save Rate]**.
 
 Based on the submitted tax rate, you can create subsequent tax rules. In the absence of tax rates, the creation of tax rules becomes impossible.
 
 ### Step 2: Set up product tax classes
 
-1. On the _Admin_ sidebar, go to **Stores** >  _Taxes_ > **Tax Rules**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** >  _[!UICONTROL Taxes]_ > **[!UICONTROL Tax Rules]**.
 
-1. Click **Add New Tax Rule**.
+1. Click **[!UICONTROL Add New Tax Rule]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Additional Settings** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Additional Settings]** section.
 
-1. Under _Product Tax Class_, click **Add New Tax Class**.
+1. Under _Product Tax Class_, click **[!UICONTROL Add New Tax Class]**.
 
-1. Enter the **Name** of the new tax class and click the checkmark to add the new class to the list of available product tax classes and create three new classes:
+1. Enter the **[!UICONTROL Name]** of the new tax class and click the checkmark to add the new class to the list of available product tax classes and create three new classes:
 
    - `VAT Standard`
    - `VAT Reduced`
    - `VAT Zero`
 
-1. Click **Save Class** for each new class that you add.
+1. Click **[!UICONTROL Save Class]** for each new class that you add.
 
-1. Click **Save Rule**.
+1. Click **[!UICONTROL Save Rule]**.
 
    ![Set up product tax classes](./assets/vat-add-new-class.png)<!-- zoom -->
 
 ### Step 3: Set up tax zones and rates
 
-1. On the _Admin_ sidebar, go to **Stores** >  _Taxes_ > **Tax Zones and Rates**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** >  _[!UICONTROL Taxes]_ > **[!UICONTROL Tax Zones and Rates]**.
 
    For this example you can remove the U.S. tax rates, or leave them as they are.
 
-1. Click **Add New Tax Rate** and add new rates as follows:
+1. Click **[!UICONTROL Add New Tax Rate]** and add new rates as follows:
 
    **VAT Standard**
 
@@ -98,7 +98,7 @@ Based on the submitted tax rate, you can create subsequent tax rules. In the abs
    - Country and State: `United Kingdom`
    - Rate Percent: `5.00`
 
-1. Click **Save Rate** for each rate.
+1. Click **[!UICONTROL Save Rate]** for each rate.
 
    ![Set up tax zones and rates](./assets/vat-setup-zones.png)<!-- zoom -->
 
@@ -106,7 +106,7 @@ Based on the submitted tax rate, you can create subsequent tax rules. In the abs
 
 A tax rule is a combination of a customer tax class, a product tax class, and a tax rate.
 
-1. On the _Admin_ sidebar, go to **Stores** > _Taxes_ > **Tax Rules**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_ > **[!UICONTROL Tax Rules]**.
 
 1. Add new tax rules as follows:
 
@@ -124,19 +124,19 @@ A tax rule is a combination of a customer tax class, a product tax class, and a 
    - Product Tax Class: `VAT Reduced`
    - Tax Rate: `VAT Reduced Rate`
 
-1. Click **Save Rule** for each rate.
+1. Click **[!UICONTROL Save Rule]** for each rate.
 
    ![Set up tax rules](./assets/vat-tax-rules.png)<!-- zoom -->
 
 ### Step 5: Apply tax classes to products
 
-1. On the _Admin_ sidebar, go to **Catalog** > **Manage Products**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Manage Products]**.
 
 1. Open a product from your catalog in edit mode.
 
-1. On the _General_ page, find the **Tax Class** option and select the **VAT Class** that applies to the product.
+1. On the _General_ page, find the **[!UICONTROL Tax Class]** option and select the **[!UICONTROL VAT Class]** that applies to the product.
 
-1. When complete, click **Save**.
+1. When complete, click **[!UICONTROL Save]**.
 
    ![Apply tax classes to products](./assets/vat-apply-classes.png)<!-- zoom -->
 
@@ -271,51 +271,51 @@ Create the [tax rules](tax-rules.md) that you need to use VAT ID Validation eff
 
 #### Step 3: Enable and configure VAT ID validation
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. If necessary, set the **Store View** for the configuration.
+1. If necessary, set the **[!UICONTROL Store View]** for the configuration.
 
-1. In the left panel, expand **Customers** and choose **Customer Configuration**.
+1. In the left panel, expand **[!UICONTROL Customers]** and choose **[!UICONTROL Customer Configuration]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Create New Account Options** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Create New Account Options]** section.
 
    In the following example, the general customer settings that are not related to VAT Validation are dim.
 
    ![Create New Account Options](../configuration-reference/customers/assets/customer-configuration-create-new-account-options-vat.png)<!-- zoom -->
 
-1. Set **Enable Automatic Assignment to Customer Group** to `Yes` and complete the following fields as needed.
+1. Set **[!UICONTROL Enable Automatic Assignment to Customer Group]** to `Yes` and complete the following fields as needed.
 
-   - **Default Group**
-   - **Default Value for Disable Automatic Group Changes Based on VAT ID**
-   - **Show VAT Number on Storefront**
+   - **[!UICONTROL Default Group]**
+   - **[!UICONTROL Default Value for Disable Automatic Group Changes Based on VAT ID]**
+   - **[!UICONTROL Show VAT Number on Storefront]**
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.
 
 #### Step 4: Set your VAT ID and location country
 
-1. In the left panel, expand **General** and choose **General** underneath.
+1. In the left panel, expand **[!UICONTROL General]** and choose **[!UICONTROL General]** underneath.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Store Information** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Store Information]** section.
 
    ![Store Information](../configuration-reference/general/assets/general-store-information.png)<!-- zoom -->
 
-1. Select your **Country**.
+1. Select your **[!UICONTROL Country]**.
 
-1. Enter your **VAT Number** and click **Validate VAT Number**.
+1. Enter your **[!UICONTROL VAT Number]** and click **[!UICONTROL Validate VAT Number]**.
 
    The result appears immediately.
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.
 
 #### Step 5: Verify the list of EU member countries
 
-1. Continuing in the _General_ configuration page, expand ![Expansion selector](../assets/icon-display-expand.png) the **Countries Options** section.
+1. Continuing in the _General_ configuration page, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Countries Options]** section.
 
-1. In the **European Union Countries** list, verify that each member country of the EU is selected.
+1. In the **[!UICONTROL European Union Countries]** list, verify that each member country of the EU is selected.
 
    To change the default setting, clear the **Use system values** checkbox. Hold down the Ctrl key (PC) or the Command key (Mac) and click each country that you want to add or remove.
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.
 
    ![Countries Options](../configuration-reference/general/assets/general-country-options.png)<!-- zoom -->
 

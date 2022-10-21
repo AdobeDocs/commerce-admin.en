@@ -1,10 +1,10 @@
 ---
-title: Credit memo overview
+title: Credit memos
 description: Learn about credit memos and how they are used to issue a partial or full refund.
 ---
-# Credit memo overview
+# Credit memos
 
-A _credit memo_ is a document that shows the amount that is due the customer for a full or partial refund. The amount can be applied toward a purchase or refunded to the customer. You can print a credit memo for a single order, or for multiple orders as a batch. Before a credit memo can be printed, it must first be generated for the order. The Credit Memos view (Sales > Credit Memos) lists the credit memos that have been issued to customers.
+A _credit memo_ is a document that shows the amount that is due the customer for a full or partial refund. The amount can be applied toward a purchase or refunded to the customer. You can print a credit memo for a single order, or for multiple orders as a batch. Before a credit memo can be printed, it must first be generated for the order. The _Credit Memos_ page lists the credit memos that have been issued to customers.
 
 ![Credit Memos](./assets/credit-memos.png)<!-- zoom -->
 
@@ -27,7 +27,7 @@ An order that was paid by Cash on Delivery ([COD](cash-on-delivery.md)) or by [c
 
 ## Refund workflow
 
-1. **Payment action config** - If the [Payment Action](credit-memo-create.md#payment-action-setting) configuration is set to `Authorize`, you must generate an invoice before creating a credit memo---proceed to step 2. If set to `Authorize and Capture`, an invoice has already been generated---proceed to step 3.
+1. **Payment action** - If the [Payment Action](credit-memo-create.md#payment-action-setting) configuration is set to `Authorize`, you must generate an invoice before creating a credit memo---proceed to step 2. If set to `Authorize and Capture`, an invoice has already been generated---proceed to step 3.
 
 1. **Generate invoice** - [Create an invoice](invoices.md#create-an-invoice) for the order, so that you can send a refund to the customer via credit memo.
 
@@ -37,28 +37,28 @@ An order that was paid by Cash on Delivery ([COD](cash-on-delivery.md)) or by [c
 
 |Column|Description|
 |--- |--- |
-|Select|Select the checkbox to select the credit memo items to be subject to an action, or use the selection control in the column header. Options: Select All / Deselect All|
-|Credit Memo|A unique numeric identifier that is assigned when a request for a Credit Memo is submitted.|
-|Created|The date and time the buyer first submitted the request for a Credit Memo.|
-|Order#|Order ID of the order whose products are being returned.|
-|Order Date|The date and time the buyer placed an order.|
-|Bill-to Name|The name of the person who is responsible to pay for the order.|
-|Status|Indicates the current state of a Credit Memo request.|
-|Refunded|The total amount refunded from the order.|
-|Actions|**View** - Opens the request for a Credit Memo and maintains a record of the negotiation between buyer and seller.|
-|Order Status|Indicates the order status.|
-|Purchased From|Indicates the website, store, and store view where the order was placed.|
-|Billing Address|The billing address of the customer who placed the order.|
-|Shipping Address|The address where the order is to be shipped.|
-|Customer Name|The first and last name of the customer who placed the order.|
-|Email|The email address of the person who placed the order.|
-|Customer Group|The customer group to which the customer is assigned.|
-|Payment Method|The method of payment to be used for the payment.|
-|Shipping Information|The method to be used to ship the order.|
-|Subtotal|The order subtotal, without shipping and handling, and tax.|
-|Shipping & Handling|The amount charged for shipping and handling.|
-|Adjustment Refund|The amount that is added to the total amount refunded as an extra refund.|
-|Adjustment Fee|The amount that is subtracted from the total amount refunded.|
-|Grand Total|The order total.|
+|[!UICONTROL Select]|Select the checkbox to select the credit memo items to be subject to an action, or use the selection control in the column header. Options: `Select All` / `Deselect All`|
+|[!UICONTROL Credit Memo]|A unique numeric identifier that is assigned when a request for a credit memo is submitted.|
+|[!UICONTROL Created]|The date and time the buyer first submitted the request for a credit memo.|
+|[!UICONTROL Order#]|Order ID of the order whose products are being returned.|
+|[!UICONTROL Order Date]|The date and time the buyer placed an order.|
+|[!UICONTROL Bill-to Name]|The name of the person who is responsible to pay for the order.|
+|[!UICONTROL Status]|Indicates the current state of a credit memo request.|
+|[!UICONTROL Refunded]|The total amount refunded from the order.|
+|[!UICONTROL Actions]|**[!UICONTROL View]** - Opens the request for a credit memo and maintains a record of the negotiation between buyer and seller.|
+|[!UICONTROL Order Status]|Indicates the order status.|
+|[!UICONTROL Purchased From]|Indicates the website, store, and store view where the order was placed.|
+|[!UICONTROL Billing Address]|The billing address of the customer who placed the order.|
+|[!UICONTROL Shipping Address]|The address where the order is to be shipped.|
+|[!UICONTROL Customer Name]|The first and last name of the customer who placed the order.|
+|[!UICONTROL Email]|The email address of the person who placed the order.|
+|[!UICONTROL Customer Group]|The customer group to which the customer is assigned.|
+|[!UICONTROL Payment Method]|The method of payment to be used for the payment.|
+|[!UICONTROL Shipping Information]|The method to be used to ship the order.|
+|[!UICONTROL Subtotal]|The order subtotal, without shipping and handling, and tax.|
+|[!UICONTROL Shipping & Handling]|The amount charged for shipping and handling.|
+|[!UICONTROL Adjustment Refund]|The amount that is added to the total amount refunded as an extra refund.|
+|[!UICONTROL Adjustment Fee]|The amount that is subtracted from the total amount refunded.|
+|[!UICONTROL Grand Total]|The order total.|
 
 {style="table-layout:auto"}

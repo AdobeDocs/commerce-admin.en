@@ -14,41 +14,41 @@ Follow the standard instructions to install the language pack extension. For det
 
 ## Step 2: Create a store view for the language
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **All Stores**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL All Stores]**.
 
-1. Click **Create Store View**.
+1. Click **[!UICONTROL Create Store View]**.
 
 1. Set the options for the new store view:
 
-   - **Store** — Choose the store that is the parent of the view.
+   - **[!UICONTROL Store]** — Choose the store that is the parent of the view.
 
-   - **Name** — Enter a name for the store view. For example: Portuguese.
+   - **[!UICONTROL Name]** — Enter a name for the store view. For example: Portuguese.
 
       In the header of the store, the name appears in the _language chooser_.
 
-   - **Code** — Enter a **Code** in lowercase characters to identify the view. For example: `portuguese`.
+   - **[!UICONTROL Code]** — Enter a code in lowercase characters to identify the view. For example: `portuguese`.
 
-   - **Status** — To activate the view, set to `Enabled`.
+   - **[!UICONTROL Status]** — To activate the view, set to `Enabled`.
 
-   - **Sort Order** — (Optional) Enter a number to determine the sequence in which this view is listed with other views.
+   - **[!UICONTROL Sort Order]** — (Optional) Enter a number to determine the sequence in which this view is listed with other views.
 
-1. When complete, click **Save Store View**.
+1. When complete, click **[!UICONTROL Save Store View]**.
 
 ## Step 3: Change the locale of the store view
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the upper-left corner, set **Store View** to the specific view where the configuration is to apply.
+1. In the upper-left corner, set **[!UICONTROL Store View]** to the specific view where the configuration is to apply.
 
-1. When prompted to confirm scope switching, click **OK**.
+1. When prompted to confirm scope switching, click **[!UICONTROL OK]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Locale Options** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Locale Options]** section.
 
-1. Clear the **Use Website** checkbox after the Locale field and set **Locale** to the language that you want to assign to the view.
+1. Clear the **[!UICONTROL Use Website]** checkbox and set **[!UICONTROL Locale]** to the language that you want to assign to the view.
 
    If there are several variations of the language available, make sure to choose the one for the specific region or dialect.
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.
 
    After you change the language of the locale, the remaining content that you have created, including product names and descriptions, categories, [CMS](../content-design/page-translate.md) pages, and blocks must be translated separately for each store view.
 
@@ -58,83 +58,83 @@ If your store has multiple views in different languages, the same products are a
 
 ### Step 1: Translate product fields
 
-1. On the _Admin_ sidebar, go to  **Catalog** > **Products**.
+1. On the _Admin_ sidebar, go to  **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
 1. In the grid, find the product to be translated and open it in edit mode.
 
-1. In the upper-left corner, set **Store View** to the view for the translation and click **OK** when prompted to confirm.
+1. In the upper-left corner, set **[!UICONTROL Store View]** to the view for the translation and click **[!UICONTROL OK]** when prompted to confirm.
 
 1. For each field to be edited, do the following:
 
-   - Deselect the **Use Default Value** checkbox to the right of the field.
+   - Deselect the **[!UICONTROL Use Default Value]** checkbox to the right of the field.
 
    - Either paste or type the translated text into the field.
 
    Make sure to translate all text fields, including [image](../catalog/catalog-images-video.md) labels and Alt text, [Search Engine Optimization](../catalog/product-search-engine-optimization.md) fields and any [Custom Options](../catalog/settings-advanced-custom-options.md) information.
 
-1. When complete, click **Save**.
+1. When complete, click **[!UICONTROL Save]**.
 
 ### Step 2: Translate field labels
 
-1. On the _Admin_ sidebar, go to **Stores** > _Attributes_ > **Product**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_ > **[!UICONTROL Product]**.
 
 1. In the list, find the attribute to be translated and open in edit mode.
 
-1. In the left panel, choose **Manage Labels**.
+1. In the left panel, choose **[!UICONTROL Manage Labels]**.
 
-1. In the _Manage Titles_ section, enter a translated label for each store view.
+1. In the _[!UICONTROL Manage Titles]_ section, enter a translated label for each store view.
 
    ![Enter Translated Labels](./assets/product-attribute-labels-translate.png)<!-- zoom -->
 
-1. When complete, click **Save Attribute**.
+1. When complete, click **[!UICONTROL Save Attribute]**.
 
 ### Step 3: Translate all categories
 
-1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **Categories**.
 
-1. At the upper-left corner, set **Store View** to the view for the translation and click **OK** when prompted to confirm.
+1. At the upper-left corner, set **[!UICONTROL Store View]** to the view for the translation and click **[!UICONTROL OK]** when prompted to confirm.
 
 1. In the tree, find the category to be translated and open it in edit mode.
 
-1. For _Basic Information_, translate **Category Name**.
+1. For _Basic Information_, translate **[!UICONTROL Category Name]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the _Content_ section and translate **Description**.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the _[!UICONTROL Content]_ section and translate **[!UICONTROL Description]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Search Engine Optimization Settings** section and translate the following fields:
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Search Engine Optimization Settings]** section and translate the following fields:
 
-   - **Meta Title**
-   - **Meta Keywords**
-   - **Meta Description**
+   - **[!UICONTROL Meta Title]**
+   - **[!UICONTROL Meta Keywords]**
+   - **[!UICONTROL Meta Description]**
 
-1. Under the _Search Engine Optimization Settings_ section, do the following to translate the **URL Key**:
+1. Under the _[!UICONTROL Search Engine Optimization Settings]_ section, do the following to translate the **[!UICONTROL URL Key]**:
 
-   - Clear the **Use Default Value** checkbox to the right of the field.
+   - Clear the **[!UICONTROL Use Default Value]** checkbox to the right of the field.
 
    - Enter the translated text.
 
-   - Make sure that the **Create Permanent Redirect for old URL** checkbox is selected.
+   - Make sure that the **[!UICONTROL Create Permanent Redirect for old URL]** checkbox is selected.
 
    ![Translate the URL key](./assets/category-translate-url-key.png)
 
-1. When complete, click **Save Category**.
+1. When complete, click **[!UICONTROL Save Category]**.
 
 1. Repeat the process for all categories used in the store.
 
 ### Step 4: Translate product attributes and attributes options
 
-1. On the _Admin_ sidebar, go to **Stores** > _Attributes_ > **Product**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_ > **[!UICONTROL Product]**.
 
 1. Select the attribute to be translated.
 
-1. Choose **Manage Label** on the left and set the **Managed Titles** options to define the attribute title translations.
+1. Choose **[!UICONTROL Manage Label]** on the left and set the **[!UICONTROL Managed Titles]** options to define the attribute title translations.
 
    ![Manage Titles](./assets/manage-label-tab.png)<!-- zoom -->
 
-1. Choose **Properties** on the left and enter the translated attribute options in the **Manage Options** section.
+1. Choose **[!UICONTROL Properties]** on the left and enter the translated attribute options in the **[!UICONTROL Manage Options]** section.
 
    ![Manage Options](./assets/manage-option-tab.png)<!-- zoom -->
 
-1. When complete, click **Save Attribute**.
+1. When complete, click **[!UICONTROL Save Attribute]**.
 
 
 [1]: https://marketplace.magento.com/extensions/content-customizations/translations-localization.html

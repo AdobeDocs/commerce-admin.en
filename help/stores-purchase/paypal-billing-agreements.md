@@ -18,27 +18,27 @@ To simplify the checkout process, customers can enter into a billing agreement w
 
 ## Manage billing agreements
 
-The _Billing Agreements_ page lists all billing agreements between your store and its customers. Merchants can filter the records by the customer or billing agreement information including billing agreement reference ID, status, and creation date. Each record includes general information about the billing agreement, and all sales orders that have used it as a payment method. You can view, cancel, or delete customer billing agreements. A canceled billing agreement can be deleted only by the store administrator.
+The _[!UICONTROL Billing Agreements]_ page lists all billing agreements between your store and its customers. Merchants can filter the records by the customer or billing agreement information including billing agreement reference ID, status, and creation date. Each record includes general information about the billing agreement, and all sales orders that have used it as a payment method. You can view, cancel, or delete customer billing agreements. A canceled billing agreement can be deleted only by the store administrator.
 
 ![Billing agreements](./assets/billing-agreements.png)<!-- zoom -->
 
 ### View a billing agreement
 
-1. On the _Admin_ sidebar, go to  **Sales** > _Operations_ > **Billing Agreements**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > _[!UICONTROL Operations]_ > **[!UICONTROL Billing Agreements]**.
 
 1. Find the billing agreement in the list and click to open it.
 
-Each billing agreement page consists of two tabs: _General Information_ and _Related Orders_.
+Each billing agreement page consists of two tabs: _[!UICONTROL General Information]_ and _[!UICONTROL Related Orders]_.
 
 #### General Information
 
 This tab includes the general information about the billing agreement:
 
-- Reference ID: A unique numeric identifier that is assigned to current billing agreement.
-- Customer: Customer's account assigned to current billing agreement.
-- Status: Payment agreement status.
-- Created At: Creation date.
-- Updated At: Update date.
+- [!UICONTROL Reference ID]: A unique numeric identifier that is assigned to current billing agreement.
+- [!UICONTROL Customer]: Customer's account assigned to current billing agreement.
+- [!UICONTROL Status]: Payment agreement status.
+- [!UICONTROL Created At]: Creation date.
+- [!UICONTROL Updated At]: Update date.
 
 ![Billing Agreement View](./assets/billing-agreement-view.png)<!-- zoom -->
 
@@ -50,35 +50,35 @@ This tab displays the list of the orders placed using the current billing agreem
 
 ### Cancel a billing agreement
 
-1. On the _Admin_ sidebar, go to  **Sales** > _Operations_ > **Billing Agreements**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > _[!UICONTROL Operations]_ > **[!UICONTROL Billing Agreements]**.
 
 1. Find the billing agreement in the list and click to open it.
 
-1. In the top-right corner, click **Cancel**.
+1. In the top-right corner, click **[!UICONTROL Cancel]**.
 
-1. To confirm the action, click **OK**.
+1. To confirm the action, click **[!UICONTROL OK]**.
 
 ### Delete a billing agreement
 
-1. On the _Admin_ sidebar, go to  **Sales** > _Operations_ > **Billing Agreements**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > _[!UICONTROL Operations]_ > **[!UICONTROL Billing Agreements]**.
 
 1. Find the billing agreement in the list and click to open it.
 
-1. In the top-right corner, click **Delete**.
+1. In the top-right corner, click **[!UICONTROL Delete]**.
 
-1. To confirm the action, click **OK**.
+1. To confirm the action, click **[!UICONTROL OK]**.
 
 ### Column descriptions
 
 |Column|Description|
 |--- |--- |
-|ID|A unique numeric identifier that is assigned to each billing agreement|
-|Email|A customer's contact email|
-|First Name|A customer's first name|
-|Last Name|A customer's last name|
-|Reference ID|A unique, numeric reference identifier that is assigned to each billing agreement|
-|Status|Payment agreement status. Options: `Active` or `Canceled`|
-|Created|Creation date|
-|Updated|Update date|
+|[!UICONTROL ID]|A unique numeric identifier that is assigned to each billing agreement|
+|[!UICONTROL Email]|A customer's contact email|
+|[!UICONTROL First Name]|A customer's first name|
+|[!UICONTROL Last Name]|A customer's last name|
+|[!UICONTROL Reference ID]|A unique, numeric reference identifier that is assigned to each billing agreement|
+|[!UICONTROL Status]|Payment agreement status. Options: `Active` or `Canceled`|
+|[!UICONTROL Created]|Creation date|
+|[!UICONTROL Updated]|Update date|
 
 {style="table-layout:auto"}

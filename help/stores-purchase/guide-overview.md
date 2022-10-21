@@ -29,6 +29,8 @@ This guide covers:
 | [Order management](orders.md) | Track order progress and status through the workflow, where an order becomes an invoice and an invoice becomes a shipment. |
 | [Shipping and delivery](delivery.md) | Set up multiple delivery methods and shipping carriers for an optimal customer experience. |
 
+{style="table-layout:auto"}
+
 ## Available documentation
 
 {{docs-links}}

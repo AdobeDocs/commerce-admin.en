@@ -1,6 +1,6 @@
 ---
 title: Tax guidelines by country
-description: <Add description here>
+description: Review recommended tax settings according to country.
 ---
 # Tax guidelines by country
 
@@ -8,7 +8,7 @@ description: <Add description here>
 
 These recommended settings can be used for most tax configurations for stores within the United States.
 
-|Tax option|Recommended setting|
+|Tax option|Recommendation|
 |--- |--- |
 |Load catalog prices|Excluding tax|
 |FPT|No, because FPT is not taxed.|
@@ -24,75 +24,75 @@ These recommended settings can be used for most tax configurations for stores wi
 
 | Tax class | Recommended setting |
 |--- |--- |
-| Tax Class for Shipping | None |
+| Tax class for shipping | None |
 
 {style="table-layout:auto"}
 
 ### Calculation settings
 
-| Calculation | Recommended setting |
+| Option | Recommended setting |
 |--- |--- |
-| Tax Calculation Method Based On | Total |
-| Tax Calculation Based On | Shipping Origin |
-| Catalog Prices | Excluding Tax |
-| Shipping Prices | Excluding Tax |
-| Apply Customer Tax | After Discount |
-| Apply Discount on Prices | Excluding Tax |
+| [!UICONTROL Tax Calculation Method Based On] | `Total` |
+| [!UICONTROL Tax Calculation Based On] | `Shipping Origin` |
+| [!UICONTROL Catalog Prices] | `Excluding Tax` |
+| [!UICONTROL Shipping Prices] | `Excluding Tax` |
+| [!UICONTROL Apply Customer Tax] | `After Discount` |
+| [!UICONTROL Apply Discount on Prices] | `Excluding Tax` |
 
 {style="table-layout:auto"}
 
 ### Default tax destination calculation
 
-| Setting | Recommended setting |
+| Option | Recommended setting |
 |--- |--- |
-| Default Country | United States |
-| Default State | State where business is located. |
-| Default Post Code | The postal code that is used in your tax zones. |
+| [!UICONTROL Default Country] | `United States` |
+| [!UICONTROL Default State] | State where business is located. |
+| [!UICONTROL Default Post Code ]| The postal code that is used in your tax zones. |
 
 {style="table-layout:auto"}
 
 ### Price display settings
 
-| Setting | Recommended setting |
+| Option | Recommended setting |
 |--- |--- |
-| Display Product Prices in Catalog | Excluding Tax |
-| Display Shipping Prices | Excluding Tax |
+| [!UICONTROL Display Product Prices in Catalog] | `Excluding Tax` |
+| [!UICONTROL Display Shipping Prices] | `Excluding Tax` |
 
 {style="table-layout:auto"}
 
 ### Shopping cart display settings
 
-| Setting | Recommended setting |
+| Option | Recommended setting |
 |--- |--- |
-| Display Prices | Excluding Tax |
-| Display Subtotal | Excluding Tax |
-| Display Shipping Amount | Excluding Tax |
-| Display Gift Wrapping Prices | Excluding Tax |
-| Display Printed Card Prices | Excluding Tax |
-| Include Tax in Grand Total | Yes |
-| Display Full Tax Summary | Yes |
-| Display Zero Tax Subtotal | Yes |
+| [!UICONTROL Display Prices] | `Excluding Tax` |
+| [!UICONTROL Display Subtotal] | `Excluding Tax` |
+| [!UICONTROL Display Shipping Amount] | `Excluding Tax` |
+| [!UICONTROL Display Gift Wrapping Prices] | `Excluding Tax` |
+| [!UICONTROL Display Printed Card Prices] | `Excluding Tax` |
+| [!UICONTROL Include Tax in Grand Total] | `Yes` |
+| [!UICONTROL Display Full Tax Summary] | `Yes` |
+| [!UICONTROL Display Zero Tax Subtotal] | `Yes` |
 
 {style="table-layout:auto"}
 
 ### Orders, invoices, credit memos, and display settings
 
-| Setting | Recommended setting |
+| Option | Recommended setting |
 |--- |--- |
-| Display Prices | Excluding Tax |
-| Display Subtotal | Excluding Tax |
-| Display Shipping Amount | Excluding Tax |
-| Include Tax in Grand Total | Yes |
-| Display Full Tax Summary | Yes |
-| Display Zero Tax Subtotal | Yes |
+| [!UICONTROL Display Prices] | `Excluding Tax` |
+| [!UICONTROL Display Subtotal] | `Excluding Tax` |
+| [!UICONTROL Display Shipping Amount] | `Excluding Tax` |
+| [!UICONTROL Include Tax in Grand Total] | `Yes` |
+| [!UICONTROL Display Full Tax Summary] | `Yes` |
+| [!UICONTROL Display Zero Tax Subtotal] | `Yes` |
 
 {style="table-layout:auto"}
 
 ### Fixed product taxes (FPT)
 
-| Setting | Recommended setting |
+| Option | Recommended setting |
 |--- |--- |
-| Enable FPT | No, except in California. |
+| [!UICONTROL Enable FPT] | `No`, except in California. |
 
 {style="table-layout:auto"}
 
@@ -102,11 +102,11 @@ These recommended settings can be used for most tax configurations for stores wi
 
 ### UK B2C tax configuration
 
-|Tax Option|recommended setting|
+|Tax option|Recommendation|
 |--- |--- |
 |Load catalog prices|Excluding tax|
 |FPT|Yes, including FPT and description|
-|Tax based on|Shipping address|
+|Tax based on|[!UICONTROL Shipping Address]|
 |Tax Calculation|On total|
 |Tax shipping?|Yes|
 |Apply Discount|Before tax, discount on prices, including tax.|
@@ -116,11 +116,11 @@ These recommended settings can be used for most tax configurations for stores wi
 
 ### U.K. B2B tax configuration
 
-|Tax Option|recommended setting|
+|Tax option|Recommendation|
 |--- |--- |
 |Load catalog prices|Excluding tax|
 |FPT|Yes, including FPT and description|
-|Tax based on|Shipping address|
+|Tax based on|[!UICONTROL Shipping Address]|
 |Tax Calculation|On item|
 |Tax shipping?|Yes|
 |Apply Discount|Before tax, discount on prices, including tax.|
@@ -134,7 +134,7 @@ These recommended settings can be used for most tax configurations for stores wi
 >
 >Merchants located in a GST/PST province (Montreal) should create one tax rule and show a combined tax amount. Be sure to consult a qualified tax authority if you have any questions. For information about the tax requirements of specific provinces, see the following: [Revenu Québec][1], [Government of Saskatchewan][2], and [Manitoba Information for Vendors][3]
 
-|Tax Option|recommended setting|
+|Tax option|Recommendation|
 |--- |--- |
 |Load catalog prices|Excluding tax|
 |FPT|Yes, including FPT, description, and apply tax to FPT.|
@@ -152,63 +152,65 @@ The following example shows how to set up GST tax rates for Canada and PST tax
 
 ### Step 1: Complete tax calculation settings
 
-1. On the _Admin_ menu, go to **System** > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Sales** and select **Tax**.
+1. For a multisite configuration, set **[!UICONTROL Store View]** to the website and store that is the target of the configuration.
+
+1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Tax]**.
 
 1. Click to expand each section on the page and complete the following settings:
 
 #### Tax Calculation Settings
 
-|Field|Recommended Setting|
+|Field|Recommended setting|
 |--- |--- |
-|Tax Calculation Method Based On|Total|
-|Tax Calculation Based On|Shipping Address|
-|Catalog Prices|Excluding Tax|
-|Shipping Prices|Excluding Tax|
-|Apply Customer Tax|After Discount|
-|Apply Discount on Prices|Excluding Tax|
-|Apply Tax On|Custom Price (if available)|
+|[!UICONTROL Tax Calculation Method Based On]|`Total`|
+|[!UICONTROL Tax Calculation Based On]|`Shipping Address`|
+|[!UICONTROL Catalog Prices]|`Excluding Tax`|
+|[!UICONTROL Shipping Prices]|`Excluding Tax`|
+|[!UICONTROL Apply Customer Tax]|`After Discount`|
+|[!UICONTROL Apply Discount on Prices]|`Excluding Tax`|
+|[!UICONTROL Apply Tax On]|`Custom Price` (if available)|
 
 {style="table-layout:auto"}
 
 #### Tax Classes
 
-|Field|Recommended Setting|
+|Field|Recommended setting|
 |--- |--- |
-|Tax Class for Shipping|Shipping (shipping is taxed)|
+|[!UICONTROL Tax Class for Shipping]|`Shipping` (shipping is taxed)|
 
 {style="table-layout:auto"}
 
 #### Default Tax Destination Calculation
 
-|Field|Recommended Setting|
+|Field|Recommended setting|
 |--- |--- |
-|Default Country|Canada|
-|Default State|(as appropriate)|
-|Default Postal Code|* (asterisk)|
+|[!UICONTROL Default Country]|`Canada`|
+|[!UICONTROL Default State]|(as appropriate)|
+|[!UICONTROL Default Postal Code]|`*` (asterisk)|
 
 {style="table-layout:auto"}
 
 #### Shopping Cart Display Settings
 
-|Field|Recommended Setting|
+|Field|Recommended setting|
 |--- |--- |
-|Include Tax in Grand Total|Yes|
-|Display Full Tax Summary|Yes|
-|Display Zero in Tax Subtotal|Yes|
+|[!UICONTROL Include Tax in Grand Total]|`Yes`|
+|[!UICONTROL Display Full Tax Summary]|`Yes`|
+|[!UICONTROL Display Zero in Tax Subtotal]|`Yes`|
 
 {style="table-layout:auto"}
 
 #### Fixed Product Taxes
 
-|Field|Recommended Setting|
+|Field|Recommended setting|
 |--- |--- |
-|Enable FPT|Yes|
-|All FPT Display Settings|Including FPT and FPT description|
-|Apply Discounts to FPT|No|
-|Apply Tax to FPT|Yes|
-|Include FPT in Subtotal|No|
+|[!UICONTROL Enable FPT]|`Yes`|
+|All FPT display settings|`Including FPT and FPT description`|
+|[!UICONTROL Apply Discounts to FPT]|`No`|
+|[!UICONTROL Apply Tax to FPT]|`Yes`|
+|[!UICONTROL Include FPT in Subtotal]|`No`|
 
 {style="table-layout:auto"}
 
@@ -218,14 +220,14 @@ To print the GST number on invoices and other sales documents, include it in the
 
 #### Manage Tax Zones & Rates
 
-|Field|Recommended Setting|
+|Field|Recommended setting|
 |--- |--- |
-|Tax Identifier|Canada-GST|
-|Country|Canada|
-|State|* (asterisk)|
-|Zip/Post is Range|No|
-|Zip/Post Code|* (asterisk)|
-|Rate Percent|5.0000|
+|[!UICONTROL Tax Identifier]|`Canada-GST`|
+|[!UICONTROL Country]|`Canada`|
+|[!UICONTROL State]|`*` (asterisk)|
+|[!UICONTROL Zip/Post is Range]|`No`|
+|[!UICONTROL Zip/Post Code]|`*` (asterisk)|
+|[!UICONTROL Rate Percent]|`5.0000`|
 
 {style="table-layout:auto"}
 
@@ -235,14 +237,14 @@ Set up another tax rate for the applicable province.
 
 #### Tax Rate Information
 
-|Field|Recommended Setting|
+|Field|Recommended setting|
 |--- |--- |
-|Tax Identifier|Canada-SK-PST|
-|Country|Canada|
-|State|Saskatchewan|
-|Zip/Post is Range|No|
-|Zip/Post Code|* (asterisk)|
-|Rate Percent|5.0000|
+|[!UICONTROL Tax Identifier]|`Canada-SK-PST`|
+|[!UICONTROL Country]|`Canada`|
+|[!UICONTROL State]|`Saskatchewan`|
+|[!UICONTROL Zip/Post is Range]|`No`|
+|[!UICONTROL Zip/Post Code]|`*` (asterisk)|
+|[!UICONTROL Rate Percent]|`5.0000`|
 
 {style="table-layout:auto"}
 
@@ -252,15 +254,15 @@ To avoid compounding the tax and to correctly display the calculated tax as sepa
 
 #### Tax Rule Information
 
-|Field|Recommended Setting|
+|Field|Recommended setting|
 |--- |--- |
-|Name|Retail-Canada-GST|
-|Customer Tax Class|Retail Customer|
-|Product Tax Class|Taxable GoodsShipping|
-|Tax Rate|Canada-GST|
-|Priority|0|
-|Calculate off subtotal only|Select this checkbox.|
-|Sort Order|0|
+|Name|`Retail-Canada-GST`|
+|[!UICONTROL Customer Tax Class]|`Retail Customer`|
+|[!UICONTROL Product Tax Class]|`Taxable GoodsShipping`|
+|[!UICONTROL Tax Rate]|`Canada-GST`|
+|[!UICONTROL Priority]|`0`|
+|[!UICONTROL Calculate off subtotal only]|Select this checkbox.|
+|[!UICONTROL Sort Order]|`0`|
 
 {style="table-layout:auto"}
 
@@ -270,21 +272,21 @@ For this tax rule, make sure to set the priority to 0 and select the **Calculate
 
 #### Tax Rule Information
 
-|Field|Recommended Setting|
+|Field|Recommended setting|
 |--- |--- |
-|Name|Retail-Canada-PST|
-|Customer Tax Class|Retail Customer|
-|Product Tax Class|Taxable GoodsShipping|
-|Tax Rate|Canada-SK-PT|
-|Priority|1|
-|Calculate off subtotal only|Select this checkbox.|
-|Sort Order|0|
+|[!UICONTROL Name]|`Retail-Canada-PST`|
+|[!UICONTROL Customer Tax Class]|`Retail Customer`|
+|[!UICONTROL Product Tax Class]|`Taxable GoodsShipping`|
+|[!UICONTROL Tax Rate]|`Canada-SK-PT`|
+|[!UICONTROL Priority]|`1`|
+|[!UICONTROL Calculate off subtotal only]|Select this checkbox.|
+|[!UICONTROL Sort Order]|`0`|
 
 {style="table-layout:auto"}
 
 ### Step 6: Save and test the results
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.
 
 1. Return to your storefront and create a sample order to test the results.
 
@@ -336,67 +338,66 @@ Create the following tax rules:
 
 ### Step 4: Set up a store view for Germany
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **All Stores**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL All Stores]**.
 
-1. Under the default website, create a store view for **Germany**.
-1. Then, do the following:
+1. Under the default website, create a store view for **[!UICONTROL Germany]**.
 
-   - On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. Next, do the following:
 
-   - In the upper-left corner, set **Default Config** to the French store.
+   - On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-   - On the General page, expand ![Expansion selector](../assets/icon-display-expand.png) the **Countries Options** section, and set the default country to "France."
+   - In the upper-left corner, set **[!UICONTROL Default Config]** to the French store.
+
+   - On the General page, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Countries Options]** section, and set the default country to `France`.
 
    - Complete the locale options as needed.
 
-1. In the upper-left corner, choose the German **Store View**.
+1. In the upper-left corner, choose the German **[!UICONTROL Store View]**.
 
-1. On the _General_ page, expand ![Expansion selector](../assets/icon-display-expand.png) **Countries Options** and set the default country to `Germany`.
+1. On the _General_ page, expand ![Expansion selector](../assets/icon-display-expand.png) **[!UICONTROL Countries Options]** and set the default country to `Germany`.
 
 1. Complete the locale options as needed.
 
 ### Step 5: Configure tax settings for France
 
-Complete the following General tax settings:
+Complete the following general tax settings:
 
-|Field|Recommended Setting|
+|Field|Recommended setting|
 |--- |--- |
-|Tax Classes||
-|Tax Class for Shipping|Shipping (shipping is taxed)|
-|Calculation Settings||
-|Tax Calculation Method Based On|Total|
-|Tax Calculation Based On|Shipping Address|
-|Catalog Prices|Including Tax|
-|Shipping Prices|Including Tax|
-|Apply Customer Tax|After Discount|
-|Apply Discount on Prices|Including Tax|
-|Apply Tax On|Custom Price (if available)|
-|Default Tax Destination Calculation||
-|Default Country|France|
-|Default State||
-|Default Postal Code|* (asterisk)|
-|Shopping Cart Display Settings||
-|Include Tax in Grand Total|Yes|
-|Fixed Product taxes||
-|Enable FPT|Yes|
-|All FPT Display Settings|Including FPT and FPT description|
-|Apply Discounts to FPT|No|
-|Apply Tax to FPT|Yes|
-|Include FPT in Subtotal|Yes|
+|[[!UICONTROL Tax Classes]](https://docs.magento.com/user-guide/configuration/sales/tax.html#tax-classes)||
+|[!UICONTROL Tax Class for Shipping]|`Shipping` (shipping is taxed)|
+|[[!UICONTROL Calculation Settings]](https://docs.magento.com/user-guide/configuration/sales/tax.html#calculation-settings)||
+|[!UICONTROL Tax Calculation Method Based On]|`Total`|
+|[!UICONTROL Tax Calculation Based On]|`Shipping Address`|
+|[!UICONTROL Catalog Prices]|`Including Tax`|
+|[!UICONTROL Shipping Prices]|`Including Tax`|
+|[!UICONTROL Apply Customer Tax]|`After Discount`|
+|[!UICONTROL Apply Discount on Prices]|`Including Tax`|
+|[!UICONTROL Apply Tax On]|`Custom Price if available`|
+|[[!UICONTROL Default Tax Destination Calculation]](https://docs.magento.com/user-guide/configuration/sales/tax.html#default-tax-destination-calculation)||
+|[!UICONTROL Default Country]|`France`|
+|[!UICONTROL Default State]||
+|[!UICONTROL Default Postal Code]|`*` (asterisk)|
+|[[!UICONTROL Fixed Product taxes]](https://docs.magento.com/user-guide/configuration/sales/tax.html#fixed-product-taxes)||
+|[!UICONTROL Enable FPT]|`Yes`|
+|[!UICONTROL All FPT Display Settings]|`Including FPT and FPT description`|
+|[!UICONTROL Apply Discounts to FPT]|`No`|
+|[!UICONTROL Apply Tax to FPT]|`Yes`|
+|[!UICONTROL Include FPT in Subtotal]|`Yes`|
 
 {style="table-layout:auto"}
 
 ### Step 6: Configure tax settings for Germany
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the upper-right corner, set **Store View** to the view to the German store. When prompted to confirm, click **OK**.
+1. In the upper-right corner, set **[!UICONTROL Store View]** to the view to the German store and click **[!UICONTROL OK]** to confirm.
 
-1. In the left panel, expand **Sales** and choose **Tax**.
+1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Tax]**.
 
-1. In the **Default Tax Destination Calculation** section, do the following:
+1. In the **[!UICONTROL Default Tax Destination Calculation]** section, do the following:
 
-   - Clear the **Use Website** checkbox after each field,
+   - Clear the **[!UICONTROL Use Website]** checkbox after each field,
 
    - Update the following values to match your site's Shipping Settings [point of origin](shipping-settings.md#point-of-origin).
 
@@ -408,7 +409,7 @@ Complete the following General tax settings:
 
       ![Default Tax Destination Calculation](./assets/destination-calc-french.png)<!-- zoom -->
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.
 
 [1]: https://www.revenuquebec.ca/en/businesses/
 [2]: https://www.saskatchewan.ca/finance

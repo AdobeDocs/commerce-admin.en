@@ -24,33 +24,33 @@ The data that is used to calculate tables rates is prepared in a spreadsheet and
 
 The first step is to complete the default settings for table rates. You can complete this step without changing the scope of the configuration.
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the _Sales_ section of the left panel, choose **Delivery Methods**.
+1. In the _[!UICONTROL Sales]_ section of the left panel, choose **[!UICONTROL Delivery Methods]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Table Rates** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Table Rates]** section.
 
    >[!NOTE]
    >
-   >If necessary, first clear the **Use system value** checkbox to change the following settings as described.
+   >If necessary, first clear the **[!UICONTROL Use system value]** checkbox to change the following settings as described.
 
    ![Table Rates](../configuration-reference/sales/assets/delivery-methods-table-rates.png)<!-- zoom -->
 
-1. Set **Enabled** to `Yes`.
+1. Set **[!UICONTROL Enabled]** to `Yes`.
 
-1. Enter the **Title** that you want to appear for table rates section during checkout.
+1. Enter the **[!UICONTROL Title]** that you want to appear for table rates section during checkout.
 
    The default title is `Best Way`.
 
-1. Enter the **Method Name** that you want to appear as a label next to the calculated rate in the shopping cart.
+1. Enter the **[!UICONTROL Method Name]** that you want to appear as a label next to the calculated rate in the shopping cart.
 
-1. Set **Condition** to one of the following calculation methods:
+1. Set **[!UICONTROL Condition]** to one of the following calculation methods:
 
-   - Weight v. Destination
-   - Price v. Destination
-   - Number of Items v. Destination
+   - `Weight v. Destination`
+   - `Price v. Destination`
+   - `Number of Items v. Destination`
 
-1. For orders that include virtual products, set **Include Virtual Products in Price Calculation** to `Yes` if you want to be able to include the virtual products in the calculation.
+1. For orders that include virtual products, set **[!UICONTROL Include Virtual Products in Price Calculation]** to `Yes` if you want to be able to include the virtual products in the calculation.
 
    >[!NOTE]
    >
@@ -60,43 +60,43 @@ The first step is to complete the default settings for table rates. You can comp
 
    The handling fee is optional and appears as an extra charge that is added to the shipping cost. If you want to include a handling fee, do the following:
 
-   - Set **Calculate Handling Fee**:
+   - Set **[!UICONTROL Calculate Handling Fee]**:
 
       - `Fixed`
       - `Percent`
 
-   - Enter the **Handling Fee** rate according to the method used to calculate the fee.
+   - Enter the **[!UICONTROL Handling Fee]** rate according to the method used to calculate the fee.
 
       For example, if the charge is based on a fixed fee, enter the amount as a decimal, such as `4.90`. However, if the handling fee is based on a percentage of the order, enter the amount as a percentage. For example, if you are charging six percent of the order, enter the value as `.06`.
 
-1. If needed, change the **Displayed Error Message**.
+1. If needed, change the **[!UICONTROL Displayed Error Message]**.
 
    This text box is preset with a default message, but you can enter a different message that you want to appear if this delivery method becomes unavailable.
 
-1. Set **Ship to Applicable Countries**:
+1. Set **[!UICONTROL Ship to Applicable Countries]**:
 
    - `All Allowed Countries` - Customers from all [countries](../getting-started/store-details.md#country-options) specified in your store configuration can use this delivery method.
-   - `Specific Countries` - When you choose this option, the _Ship to Specific Countries_ list appears. Select each country in the list where this delivery method can be used.
+   - `Specific Countries` - When you choose this option, the _[!UICONTROL Ship to Specific Countries]_ list appears. Select each country in the list where this delivery method can be used.
 
-1. Set **Show Method if Not Applicable** to `Yes` if you want to show Table Rates all the time
+1. Set **[!UICONTROL Show Method if Not Applicable]** to `Yes` if you want to show Table Rates all the time
 
-1. For **Sort Order**, enter a number to determine the sequence in which Table Rate Shipping appears when listed with other delivery methods during checkout.
+1. For **[!UICONTROL Sort Order]**, enter a number to determine the sequence in which Table Rate Shipping appears when listed with other delivery methods during checkout.
 
    `0` = first, `1` = second, `2` = third, and so on.
 
-1. Click **Save Config**.
+1. Click **[!UICONTROL Save Config]**.
 
 ## Step 2: Prepare the table rate data
 
-1. In the upper-left corner, set **Store View** to `Main Website`, or to any other website where the configuration applies.
+1. In the upper-left corner, set **[!UICONTROL Store View]** to `Main Website`, or to any other website where the configuration applies.
 
    >[!NOTE]
    >
-   >If necessary, first deselect the **Use system value** checkbox to change the following settings as described.
+   >If necessary, first deselect the **[!UICONTROL Use system value]** checkbox to change the following settings as described.
 
-1. Change the **Condition** as needed.
+1. Change the **[!UICONTROL Condition]** as needed.
 
-1. Click **Export CSV**.
+1. Click **[!UICONTROL Export CSV]**.
 
 1. Save the `tablerates.csv` file to your computer.
 
@@ -116,15 +116,15 @@ The first step is to complete the default settings for table rates. You can comp
 
 ## Step 3: Import the table rate data
 
-1. Return to the **Table Rates** section of your store configuration.
+1. Return to the **[!UICONTROL Table Rates]** section of your store configuration.
 
-1. In the upper-left corner, set **Store View** to the website where this method is used.
+1. In the upper-left corner, set **[!UICONTROL Store View]** to the website where this method is used.
 
-1. For **Import**, click **Choose File** and select your completed `tablerates.csv` file to import the rates.
+1. For **[!UICONTROL Import]**, click **[!UICONTROL Choose File]** and select your completed `tablerates.csv` file to import the rates.
 
    ![Import Table Rates](./assets/shipping-table-rates-import.png)<!-- zoom -->
 
-1. Click **Save Config**.
+1. Click **[!UICONTROL Save Config]**.
 
 ## Step 4: Verify the rates
 
@@ -173,17 +173,17 @@ This example uses the Weight v. Destination condition to create different shippi
 
    | Setting | Value |
    |----------|-------|
-   | Condition | Price v. Destination |
-   | Method Name | Free Shipping |
-   | Ship to Applicable Countries | Specific Countries |
-   | Ship to Specific Countries | Select only United States |
-   | Show method if not applicable | No |
+   | [!UICONTROL Condition] | `Price v. Destination` |
+   | [!UICONTROL Method Name] | `Free Shipping` |
+   | [!UICONTROL Ship to Applicable Countries] | `Specific Countries` |
+   | [!UICONTROL Ship to Specific Countries] | `Select only United States` |
+   | [!UICONTROL Show method if not applicable] | `No` |
 
    {style="table-layout:auto"}
 
-1. In the upper-left corner, set **Store View** to `Main Website`, or to any other website where the configuration applies.
+1. In the upper-left corner, set **[!UICONTROL Store View]** to `Main Website`, or to any other website where the configuration applies.
 
-1. For **Import**, click **Choose File** and select your completed `tablerates.csv` file to import the rates.
+1. For **[!UICONTROL Import]**, click **[!UICONTROL Choose File]** and select your completed `tablerates.csv` file to import the rates.
 
 
 [1]: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3

@@ -30,22 +30,22 @@ Enabling address search also affects the checkout for negotiated quotes where cu
 
 ## Enable address search
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Sales** and choose **Checkout**.
+1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Checkout]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Checkout Options** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Checkout Options]** section.
 
    ![Configuration - Checkout Options](../configuration-reference/sales/assets/checkout-checkout-options.png)<!-- zoom -->
    
    For a detailed description of each of these configuration settings, see [Checkout Options](https://docs.magento.com/user-guide/configuration/sales/checkout.html#checkout-options) in the _Configuration Reference Guide_.
 
-1. Set **Enable Address Search** to `Yes`.
+1. Set **[!UICONTROL Enable Address Search]** to `Yes`.
 
-1. Set the **Number of Customer Addresses Limit** option to specify the threshold for including the address search feature.
+1. Set the **[!UICONTROL Number of Customer Addresses Limit]** option to specify the threshold for including the address search feature.
 
-   If necessary, clear the **Use system value** checkbox to make this change.
+   If necessary, clear the **[!UICONTROL Use system value]** checkbox to make this change.
 
    When the customer's number of saved addresses meets or exceeds this limit, the page displays either the default address (if the customer has one) or _No address selected_ with the _Change Address_ option. The default limit is `10`.
 
-1. Click **Save Config**.
+1. Click **[!UICONTROL Save Config]**.

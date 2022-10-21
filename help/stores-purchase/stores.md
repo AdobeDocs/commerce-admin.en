@@ -37,39 +37,39 @@ The first step is to choose how you want to position the store. Should the store
 
 ### Step 2: Create the store
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **All Stores**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL All Stores]**.
 
-1. Click **Create Store** and set the options for the new store:
+1. Click **[!UICONTROL Create Store]** and set the options for the new store:
 
-   - **Web Site** — Choose a website that is to be the parent of the new store. If the installation has only one web site, accept the default (`Main Website`).
+   - **[!UICONTROL Web Site]** — Choose a website that is to be the parent of the new store. If the installation has only one web site, accept the default (`Main Website`).
 
-   - **Name** — Enter a name for the new store. The name is for internal reference only.
+   - **[!UICONTROL Name]** — Enter a name for the new store. The name is for internal reference only.
 
-   - **Code** — Enter a code in lowercase characters to identify the store. For example: `mainstore`.
+   - **[!UICONTROL Code]** — Enter a code in lowercase characters to identify the store. For example: `mainstore`.
 
-   - **Root Category** — Set to the [root category](../catalog/category-root.md) that defines the category structure for the main menu of the new store. If you have already created a specific root category for the store, select it. Otherwise, select `Default Category`. You can come back later and update the setting.
+   - **[!UICONTROL Root Category]** — Set to the [root category](../catalog/category-root.md) that defines the category structure for the main menu of the new store. If you have already created a specific root category for the store, select it. Otherwise, select `Default Category`. You can come back later and update the setting.
 
    ![Create Store - store options](./assets/stores-all-store-information.png)<!-- zoom -->
 
-1. Click **Save Store**.
+1. Click **[!UICONTROL Save Store]**.
 
    ![New store](./assets/create-store-saved.png)<!-- zoom -->
 
 ### Step 3: Create a default store view
 
-1. Click **Create Store View** and set the store view options:
+1. Click **[!UICONTROL Create Store View]** and set the store view options:
 
-   - **Store** — Set to the new store you created.
+   - **[!UICONTROL Store]** — Set to the new store you created.
 
-   - **Name** — Enter a name for the view. For example, `English`.
+   - **[!UICONTROL Name]** — Enter a name for the view. For example, `English`.
 
-   - **Code** — Enter a code for the view in lowercase characters.
+   - **[!UICONTROL Code]** — Enter a code for the view in lowercase characters.
 
-   - **Status** — Set to `Enabled`.
+   - **[!UICONTROL Status]** — Set to `Enabled`.
 
-   - **Sort Order** — Enter a number to determine the store's position when listed with other stores.
+   - **[!UICONTROL Sort Order]** — Enter a number to determine the store's position when listed with other stores.
 
-1. Click **Save Store View**.
+1. Click **[!UICONTROL Save Store View]**.
 
    If you open your store in edit mode, you can see that it now has a default view.
 
@@ -77,25 +77,25 @@ The first step is to choose how you want to position the store. Should the store
 
 ### Step 4: Configure the store URL
 
-1. On the _Admin_ sidebar, click **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, click **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. Under _General_ in the left panel on the left, choose **Web**.
+1. Under _[!UICONTROL General]_ in the left panel on the left, choose **[!UICONTROL Web]**.
 
-1. In the upper-left corner, set **Store View** to the view that you created for the new store.
+1. In the upper-left corner, set **[!UICONTROL Store View]** to the view that you created for the new store.
 
-1. When prompted to confirm [scope](../getting-started/websites-stores-views.md#scope-settings) switching, click **OK**.
+1. When prompted to confirm [scope](../getting-started/websites-stores-views.md#scope-settings) switching, click **[!UICONTROL OK]**.
 
    ![Choose the store view](./assets/create-store-config-view.png)<!-- zoom -->
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Base URLs** section and enter the base URL for the store.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Base URLs]** section and enter the base URL for the store.
 
-   If needed, clear the **Use system value** checkbox to change the setting.
+   If needed, clear the **[!UICONTROL Use system value]** checkbox to change the setting.
 
    ![General configuration - web base URLs](./assets/config-general-web-base-urls-clear-checkbox.png)
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Secure Base URLs** section and repeat the previous step as needed to configure the store's [secure URL](store-urls.md).
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Secure Base URLs]** section and repeat the previous step as needed to configure the store [secure URL](store-urls.md).
 
-1. Click **Save Config**.
+1. Click **[!UICONTROL Save Config]**.
 
 ### Step 5: Configure the server
 
@@ -118,25 +118,25 @@ Multi-site installations of Adobe Commerce or Magento Open Source must be config
 
 ### Step 1: Create a website
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **All Stores**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL All Stores]**.
 
-1. In the upper-right corner, click **Create Website**.
+1. In the upper-right corner, click **[!UICONTROL Create Website]**.
 
-1. Set the **Web Site Information** options:
+1. Set the **[!UICONTROL Web Site Information]** options:
 
    ![Create website - options](./assets/create-website-info.png)<!-- zoom -->
 
-   - **Name** — Enter the domain of the new website. For example, `domain.com`.
+   - **[!UICONTROL Name]** — Enter the domain of the new website. For example, `domain.com`.
 
-   - **Code** — Enter a code that is used on the server to point to the domain.
+   - **[!UICONTROL Code]** — Enter a code that is used on the server to point to the domain.
 
       The code must begin with a lowercase (a-z) letter, and can include any combination of letters (a-z), numbers (0-9), and the underscore (_) symbol.
 
-   - **Sort Order** — (Optional) Enter a number to determine the sequence in which this site is listed with other sites. Enter a zero to make this site appear at the top of the list.
+   - **[!UICONTROL Sort Order]** — (Optional) Enter a number to determine the sequence in which this site is listed with other sites. Enter a zero to make this site appear at the top of the list.
 
-   - **Default Store** — If you have multiple stores, set to the store to use as the default for this website.
+   - **[!UICONTROL Default Store]** — If you have multiple stores, set to the store to use as the default for this website.
 
-1. Click **Save Web Site**.
+1. Click **[!UICONTROL Save Web Site]**.
 
 1. Set up each [store](#add-stores) and [store view](store-views.md) that is needed for the new website.
 

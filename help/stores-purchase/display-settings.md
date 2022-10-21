@@ -22,15 +22,15 @@ When configuration of calculation for taxes, rates, and classes is finished, tax
 
 It is a best practice to display prices with the associated taxes (either including taxes, or both the including taxes and excluding taxes) so that customers know how these calculations are applied before placing an order.
 
-### Step 1: Configure Catalog prices display settings
+### Step 1: Configure catalog prices display settings
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Sales** and choose **Tax**.
+1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Tax]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Price Display Settings** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Price Display Settings]** section.
 
-1. For **Display Product Prices in Catalog**, choose one of the following:
+1. For **[!UICONTROL Display Product Prices in Catalog]**, choose one of the following:
 
    - `Excluding Tax`
    - `Including Tax`
@@ -40,7 +40,7 @@ It is a best practice to display prices with the associated taxes (either includ
    >
    >If you set this option to `Including Tax`, the tax appears only if there is a tax rule that matches the tax origin or if there is a customer address that matches the tax rule. Events that can trigger a match include customer account creation, login, or the use of the Tax and Shipping estimation tool in the shopping cart.
 
-1. For **Display Shipping Prices**, choose one of the following:
+1. For **[!UICONTROL Display Shipping Prices]**, choose one of the following:
 
    - `Excluding Tax`
    - `Including Tax`
@@ -52,35 +52,35 @@ If you choose to display both prices (with and without tax), the storefront look
 
 ### Step 2: Configure shopping cart display settings
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Shopping Cart Display Settings** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Shopping Cart Display Settings]** section.
 
    ![Shopping Cart Display Settings](../configuration-reference/sales/assets/tax-shopping-cart-display-settings.png)<!-- zoom -->
 
-1. For **Display Prices**, choose one of the following:
+1. For **[!UICONTROL Display Prices]**, choose one of the following:
 
    - `Excluding Tax`
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. For **Display Subtotal**, choose one of the following:
+1. For **[!UICONTROL Display Subtotal]**, choose one of the following:
 
    - `Excluding Tax`
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. For **Display Shipping Amount**, choose one of the following:
+1. For **[!UICONTROL Display Shipping Amount]**, choose one of the following:
 
    - `Excluding Tax`
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) For **Display Gift Wrapping Prices**, choose one of the following:
+1. ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) For **[!UICONTROL Display Gift Wrapping Prices]**, choose one of the following:
 
    - `Excluding Tax`
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) For **Display Printed Card Prices**, choose one of the following:
+1. ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) For **[!UICONTROL Display Printed Card Prices]**, choose one of the following:
 
    - `Excluding Tax`
    - `Including Tax`
@@ -88,41 +88,41 @@ If you choose to display both prices (with and without tax), the storefront look
 
 1. For each of these remaining options, toggle to `Yes` or `No` according to your preference:
 
-   - **Include Tax in Order Total**
-   - **Display Full Tax Summary**
-   - **Display Zero Tax Subtotal**
+   - **[!UICONTROL Include Tax in Order Total]**
+   - **[!UICONTROL Display Full Tax Summary]**
+   - **[!UICONTROL Display Zero Tax Subtotal]**
 
 ### Step 3: Configure order, invoice, and credit memo display settings
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Orders, Invoices, Credit Memos Display Settings** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Orders, Invoices, Credit Memos Display Settings]** section.
 
    ![Orders, Invoices, Credit Memos Display Settings](../configuration-reference/sales/assets/tax-orders-invoices-credit-memos-display-settings.png)<!-- zoom -->
 
-1. For **Display Prices**, choose one of the following:
+1. For **[!UICONTROL Display Prices]**, choose one of the following:
 
    - `Excluding Tax`
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. For **Display Subtotal**, choose one of the following:
+1. For **[!UICONTROL Display Subtotal]**, choose one of the following:
 
    - `Excluding Tax`
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. For **Display Shipping Amount**, choose one of the following:
+1. For **[!UICONTROL Display Shipping Amount]**, choose one of the following:
 
    - `Excluding Tax`
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) For **Display Gift Wrapping Prices**, choose one of the following:
+1. ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) For **[!UICONTROL Display Gift Wrapping Prices]**, choose one of the following:
 
    - `Excluding Tax`
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) For **Display Printed Card Prices**, choose one of the following:
+1. ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) For **[!UICONTROL Display Printed Card Prices]**, choose one of the following:
 
    - `Excluding Tax`
    - `Including Tax`
@@ -130,8 +130,8 @@ If you choose to display both prices (with and without tax), the storefront look
 
 1. For each of these remaining options, toggle to `Yes` or `No` according to your preference:
 
-   - **Include Tax in Order Total**
-   - **Display Full Tax Summary**
-   - **Display Zero Tax Subtotal**
+   - **[!UICONTROL Include Tax in Order Total]**
+   - **[!UICONTROL Display Full Tax Summary]**
+   - **[!UICONTROL Display Zero Tax Subtotal]**
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.

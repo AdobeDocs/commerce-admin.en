@@ -48,55 +48,53 @@ In addition to the preset order status settings, you can create your own custom 
 
 ### Create a custom order status
 
-1. On the _Admin_ sidebar, click **Stores**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Order Status]**.
 
-1. In the _Settings_ section, choose **Order Status**.
-
-1. In the upper-right corner, click **Create New Status**.
+1. In the upper-right corner, click **[!UICONTROL Create New Status]**.
 
    ![Create New Order Status](./assets/order-status-new.png)<!-- zoom -->
 
-1. Update the _Order Status Information_ section:
+1. Update the _[!UICONTROL Order Status Information]_ section:
 
-   - Enter a **Status Code** for internal reference. The first character must be a letter (a-z), and the rest can be any combination of letters and numbers (0-9). Use the underscore character instead of a space.
+   - Enter a **[!UICONTROL Status Code]** for internal reference. The first character must be a letter (a-z), and the rest can be any combination of letters and numbers (0-9). Use the underscore character instead of a space.
 
-   - Enter a **Status Label** to identify the status setting in both the Admin and storefront.
+   - Enter a **[!UICONTROL Status Label]** to identify the status setting in both the Admin and storefront.
 
-1. In the _Store View Specific Labels_ section, enter any labels that are needed for different store views.
+1. In the _[!UICONTROL Store View Specific Labels]_ section, enter any labels that are needed for different store views.
 
-1. Click **Save Status**.
+1. Click **[!UICONTROL Save Status]**.
 
 ### Assign an order status to a state
 
-1. On the _Order Status_ page, click **Assign Status to State**.
+1. On the _Order Status_ page, click **[!UICONTROL Assign Status to State]**.
 
    ![Assign Status](./assets/store-status-assign-status.png)<!-- zoom -->
 
-1. Update the **Assignment Information** section, do the following:
+1. Update the **[!UICONTROL Assignment Information]** section, do the following:
 
-   - Choose the **Order Status** that you want to assign. They are listed by status label.
+   - Choose the **[!UICONTROL Order Status]** that you want to assign. They are listed by status label.
 
-   - Set **Order State** to the place in the workflow where the order status belongs.
+   - Set **[!UICONTROL Order State]** to the place in the workflow where the order status belongs.
 
-   - To make this status the default for the order state, select the **Use Order Status as Default** checkbox.
+   - To make this status the default for the order state, select the **[!UICONTROL Use Order Status as Default]** checkbox.
 
       >[!NOTE]
       >
-      >Only the default order statuses are used in the order workflow. Non-default statuses can only be set in the **Order Comments** section in the Admin.
+      >Only the default order statuses are used in the order workflow. Non-default statuses can only be set in the **[!UICONTROL Order Comments]** section in the Admin.
 
-   - To make this status visible from the storefront, select the **Visible On Storefront** checkbox.
+   - To make this status visible from the storefront, select the **[!UICONTROL Visible On Storefront]** checkbox.
 
    ![Assign Status to State](./assets/order-status-assign-state.png)<!-- zoom -->
 
-1. Click **Save Status Assignment**.
+1. Click **[!UICONTROL Save Status Assignment]**.
 
 ### Edit an existing order status
 
-1. In the _Order Status_ grid, open the status record in edit mode.
+1. In the _[!UICONTROL Order Status]_ grid, open the status record in edit mode.
 
 1. Update the status settings as needed.
 
-1. Click **Save Status**.
+1. Click **[!UICONTROL Save Status]**.
 
 ### Remove an order status from an assigned state
 
@@ -104,9 +102,9 @@ In addition to the preset order status settings, you can create your own custom 
 >
 >A status setting cannot be unassigned from a state if the status is in use.
 
-1. In the _Order Status_ grid, find the order status record to be unassigned.
+1. In the _[!UICONTROL Order Status]_ grid, find the order status record to be unassigned.
 
-1. In the _Action_ column on the far right of the row, click the **Unassign** link.
+1. In the _[!UICONTROL Action]_ column on the far right of the row, click the **[!UICONTROL Unassign]** link.
 
    A message appears at the top of the workspace that the order status has been unassigned. Although the order status label still appears in the list, it is no longer assigned to a state. Order status settings cannot be deleted.
 
@@ -116,48 +114,48 @@ Customers can track the status of their orders by [RSS feed](../merchandising-pr
 
 ### Enable order status notification
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Catalog** and choose **RSS Feeds** underneath.
+1. In the left panel, expand **[!UICONTROL Catalog]** and choose **[!UICONTROL RSS Feeds]** underneath.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Order** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Order]** section.
 
-1. Set **Customer Order Status Notification** to `Enable`.
+1. Set **[!UICONTROL Customer Order Status Notification]** to `Enable`.
 
    ![Customer Order Status Notification](../configuration-reference/catalog/assets/rss-feeds-order.png)<!-- zoom -->
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.
 
 ### Configure new order email notifications
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Sales** and choose **Sales Emails** underneath.
+1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Sales Emails]** underneath.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Order** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Order]** section.
 
    ![Configuration - Order options](../configuration-reference/sales/assets/sales-emails-order.png)<!-- zoom -->
 
-1. Set **New Order Confirmation Email Sender** to one of the following:
+1. Set **[!UICONTROL New Order Confirmation Email Sender]** to one of the following:
 
-    - General Contact
-    - Sales Representative
-    - Customer Support
-    - Custom Email 1
-    - Custom Email 2
+    - `General Contact`
+    - `Sales Representative`
+    - `Customer Support`
+    - `Custom Email 1`
+    - `Custom Email 2`
 
 1. Choose the templates that you want to use for each customer type:
 
-    - **New Order Confirmation Template** - Choose a template to use for customers with a registered store account.
-    - **New Order Confirmation Template for Guest** - Choose a template to use for guest customers without a registered store account.
+    - **[!UICONTROL New Order Confirmation Template]** - Choose a template to use for customers with a registered store account.
+    - **[!UICONTROL New Order Confirmation Template for Guest]** - Choose a template to use for guest customers without a registered store account.
 
-1. To notify another person (such as a business manager) about the new order, enter the email address to **Send Order Email Copy To**.
+1. To notify another person (such as a business manager) about the new order, enter the email address to **[!UICONTROL Send Order Email Copy To]**.
 
    You can add multiple email addresses if more than one recipient is required.
 
-1. Set the **Send Order Email Copy Method** to one of the following:
+1. Set the **[!UICONTROL Send Order Email Copy Method]** to one of the following:
 
    - `Bcc` - Only one email about the new order is sent to both customer and the additional recipient, but the customer does not see that the email they received was also sent to the additional recipient.
    - `Separate Email` - Two separate emails are sent---one to the recipient and one to the customer.
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.

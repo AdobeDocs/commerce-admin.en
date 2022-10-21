@@ -20,13 +20,13 @@ Use the following tables for reference when configuring tax calculation settings
 
 ### Tax calculation methods
 
-Tax calculation method options include Unit Price, Row Total, and Total. The following table explains how rounding (to two digits) is handled for different settings.
+Tax calculation method options include [!UICONTROL Unit Price], [!UICONTROL Row Total], and [!UICONTROL Total]. The following table explains how rounding (to two digits) is handled for different settings.
 
 |Setting|Calculation and Display|
 |--- |--- |
-|Unit Price|Commerce calculates the tax for each item and displays prices tax-inclusive. To calculate the tax total, it rounds the tax for each item, and then adds them together.|
-|Row Total|Commerce calculates the tax for each line. To calculate the tax total, it rounds the tax for each line item and then adds them together.|
-|Total|Commerce calculates the tax for each item and adds those tax values to calculate the total unrounded tax amount for the order. It then applies the specified rounding mode to the total tax to determine the total tax for the order.|
+|[!UICONTROL Unit Price]|Commerce calculates the tax for each item and displays prices tax-inclusive. To calculate the tax total, it rounds the tax for each item, and then adds them together.|
+|[!UICONTROL Row Total]|Commerce calculates the tax for each line. To calculate the tax total, it rounds the tax for each line item and then adds them together.|
+|[!UICONTROL Total]|Commerce calculates the tax for each item and adds those tax values to calculate the total unrounded tax amount for the order. It then applies the specified rounding mode to the total tax to determine the total tax for the order.|
 
 {style="table-layout:auto"}
 
@@ -36,8 +36,8 @@ The possible display fields vary depending on the calculation method and whether
 
 |Setting|Calculation and Display|
 |--- |--- |
-|Excluding Tax|Using this setting, the base item price is used as it is entered and the tax calculation methods are applied.|
-|IncludingTax|Using this setting, the base item price that excludes tax is calculated first. This value is used as the base price, and the tax calculation methods are applied.|
+|[!UICONTROL Excluding Tax]|Using this setting, the base item price is used as it is entered and the tax calculation methods are applied.|
+|[!UICONTROL IncludingTax]|Using this setting, the base item price that excludes tax is calculated first. This value is used as the base price, and the tax calculation methods are applied.|
 
 {style="table-layout:auto"}
 
@@ -49,8 +49,8 @@ The possible display fields vary depending on the calculation method and whether
 
 |Setting|Display|Calculation|
 |--- |--- |--- |
-|Excluding Tax|Appears without tax.|Normal calculation. Shipping is added to cart total, typically displayed as a separate item.|
-|Including Tax|Can be tax inclusive, or tax can be displayed separately.|Shipping is treated as another item in cart with taxes, using the same calculations.|
+|[!UICONTROL Excluding Tax]|Appears without tax.|Normal calculation. Shipping is added to cart total, typically displayed as a separate item.|
+|[!UICONTROL Including Tax]|Can be tax inclusive, or tax can be displayed separately.|Shipping is treated as another item in cart with taxes, using the same calculations.|
 
 {style="table-layout:auto"}
 

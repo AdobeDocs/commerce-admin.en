@@ -56,7 +56,7 @@ breadcrumb-title: Stores and Purchase Experience
   - Wish lists {#wish-lists}
     - [Overview](wishlists.md)
     - [Configure wish lists](wishlist-configuration.md)
-    - [Wish list storefront experiences](wishlist-storefront.md)
+    - [Wish list storefront experience](wishlist-storefront.md)
   - [Compare products](product-compare.md)
   - [Recently viewed or compared](products-viewed-compared.md)
   - [Allow reorders](reorders-allow.md)

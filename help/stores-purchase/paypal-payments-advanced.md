@@ -55,13 +55,13 @@ Before you set up PayPal Payments Advanced in Commerce, you must configure your 
 
 1. Log in to your [PayPal business account][2].
 
-1. Go to **Service Settings** > **Hosted Checkout Pages** > **Set Up Menu** and complete the following settings:
+1. Go to **[!UICONTROL Service Settings]** > **[!UICONTROL Hosted Checkout Pages]** > **[!UICONTROL Set Up Menu]** and complete the following settings:
 
-   - **AVS**: `No`
-   - **CSC**: `No`
-   - **Enable Secure Token**: `Yes`
+   - **[!UICONTROL AVS]**: `No`
+   - **[!UICONTROL CSC]**: `No`
+   - **[!UICONTROL Enable Secure Token]**: `Yes`
 
-1. **Save** the settings.
+1. **[!UICONTROL Save]** the settings.
 
    >[!NOTE]
    >
@@ -69,11 +69,11 @@ Before you set up PayPal Payments Advanced in Commerce, you must configure your 
 
 1. When prompted to create a layout, do the following:
 
-   - At the top of the page, click **Customize**.
+   - At the top of the page, click **[!UICONTROL Customize]**.
 
-   - Choose **Layout C**.
+   - Choose **[!UICONTROL Layout C]**.
 
-   - Click **Save and Publish**.
+   - Click **[!UICONTROL Save and Publish]**.
 
 1. Set up another user (recommended by PayPal):
 
@@ -81,7 +81,7 @@ Before you set up PayPal Payments Advanced in Commerce, you must configure your 
 
    - Follow the instructions to set up another user.
 
-   - **Save** the changes.
+   - **[!UICONTROL Save]** the changes.
 
 ## Set up PayPal Payments Advanced in Commerce
 
@@ -91,93 +91,93 @@ Before you set up PayPal Payments Advanced in Commerce, you must configure your 
 
 >[!TIP]
 >
->Click **Save Config** at any time to save your progress.
+>Click **[!UICONTROL Save Config]** at any time to save your progress.
 
 ### Step 1: Begin the configuration
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Sales** and choose **Payment Methods**.
+1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Payment Methods]**.
 
-1. If your Commerce installation has multiple websites, stores, or views, set **Store View** to the store view where you want to apply this configuration.
+1. If your Commerce installation has multiple websites, stores, or views, set **[!UICONTROL Store View]** to the store view where you want to apply this configuration.
 
-1. In the **Merchant Location** section, select the **Merchant Country** where your business is located.
+1. In the _[!UICONTROL Merchant Location]_ section, select the **[!UICONTROL Merchant Country]** where your business is located.
 
    This setting determines the selection of PayPal Solutions that appear in the configuration.
 
    ![Merchant country](../configuration-reference/sales/assets/payment-methods-merchant-location.png)<!-- zoom -->
 
-1. Expand **PayPal All-in-One Payment Solution** and click **Configure** for  **Payments Advanced**.
+1. Expand **[!UICONTROL PayPal All-in-One Payment Solution]** and click **[!UICONTROL Configure]** for **[!UICONTROL Payments Advanced]**.
 
    ![PayPal Payments Advanced](./assets/paypal-payments-advanced.png)<!-- zoom -->
 
 ### Step 2: Complete the required settings
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Required PayPal Settings** section, if needed.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Required PayPal Settings]** section, if needed.
 
    ![Advanced Required Settings - PayPal Payments Advanced](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-required.png)<!-- zoom -->
 
-1. (Optional) Enter the **Email Associated with your PayPal Merchant Account**.
+1. (Optional) Enter the **[!UICONTROL Email Associated with your PayPal Merchant Account]**.
 
    >[!IMPORTANT]
    >
    >Email addresses are case-sensitive. To receive payment, the email address must match the email address specified in your PayPal merchant account.
 
-   If you do not have a PayPal account, click **Start accepting payments via PayPal**.
+   If you do not have a PayPal account, click **[!UICONTROL Start accepting payments via PayPal]**.
 
 1. Enter one of the following credentials that you use to log in to your PayPal merchant account:
 
-   - **Partner** - Your PayPal Partner ID.
-   - **Vendor** - Your PayPal user login name.
-   - **User** - The ID of another user who is set up on your PayPal account.
+   - **[!UICONTROL Partner]** - Your PayPal Partner ID.
+   - **[!UICONTROL Vendor]** - Your PayPal user login name.
+   - **[!UICONTROL User]** - The ID of another user who is set up on your PayPal account.
 
-1. Enter the **Password** that is associated with your PayPal account.
+1. Enter the **[!UICONTROL Password]** that is associated with your PayPal account.
 
-1. To run test transactions, set **Test Mode** to `Yes`.
+1. To run test transactions, set **[!UICONTROL Test Mode]** to `Yes`.
 
    When testing the configuration in a sandbox, use only [credit card numbers][3] that are recommended by PayPal. When you are ready to go to production, return to the configuration and set Test Mode to `No`.
 
-1. If your system uses a proxy server to establish the connection to the PayPal system, set **Use Proxy** to `Yes` and do the following:
+1. If your system uses a proxy server to establish the connection to the PayPal system, set **[!UICONTROL Use Proxy]** to `Yes` and do the following:
 
-   - Enter the IP address of the **Proxy Host**.
+   - Enter the IP address of the **[!UICONTROL Proxy Host]**.
 
-   - Enter the port number of the **Proxy Port**.
+   - Enter the port number of the **[!UICONTROL Proxy Port]**.
 
       A proxy is used when the server firewall prevents direct access to the PayPal server. In this case, a third-party server is used to relay traffic.
 
-1. Set **Enable This Solution** to `Yes`.
+1. Set **[!UICONTROL Enable this Solution]** to `Yes`.
 
-1. If you want to offer [PayPal Credit](paypal.md#paypal-credit-and-pay-later) to your customers, set **Enable PayPal Credit** to `Yes`.
+1. If you want to offer [PayPal Credit](paypal.md#paypal-credit-and-pay-later) to your customers, set **[!UICONTROL Enable PayPal Credit]** to `Yes`.
 
 ### Step 3: Set up Advertise PayPal Credit / Advertise PayPal Pay Later (optional)
 
 Starting with the 2.4.3 release, PayPal Pay Later is supported in deployments that include PayPal. This feature allows shoppers to pay for an order in bi-weekly installments instead of paying the full amount at time of purchase. The PayPal Credit experience is deprecated.
 
-Set **Enable PayPal PayLater Experience** to one of the following:
+Set **[!UICONTROL Enable PayPal PayLater Experience]** to one of the following:
 
 - `Yes` - To set up Advertise PayPal PayLater
 - `No` - To set up Advertise PayPal Credit
 
 #### Advertise PayPal Credit
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Advertise PayPal Credit** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Advertise PayPal Credit]** section.
 
    ![Advertise PayPal Credit](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png)<!-- zoom -->
 
-1. Click **Get Publisher ID from PayPal** and follow the instructions to get your account information.
+1. Click **[!UICONTROL Get Publisher ID from PayPal]** and follow the instructions to get your account information.
 
-1. Enter your **Publisher ID**.
+1. Enter your **[!UICONTROL Publisher ID]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Home Page** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Home Page]** section.
 
-1. To place a banner on the page, set **Display** to `Yes`.
+1. To place a banner on the page, set **[!UICONTROL Display]** to `Yes`.
 
-1. Set **Position** to one of the following:
+1. Set **[!UICONTROL Position]** to one of the following:
 
    - `Header (center)`
    - `Sidebar (right)`
 
-1. Set **Size** to one of the following:
+1. Set **[!UICONTROL Size]** to one of the following:
 
    - `190 x 100`
    - `234 x 60`
@@ -190,51 +190,51 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the remaining sections and repeat the previous steps:
 
-   - **Catalog Category Page**
-   - **Catalog Product Page**
-   - **Checkout Cart Page**
+   - **[!UICONTROL Catalog Category Page]**
+   - **[!UICONTROL Catalog Product Page]**
+   - **[!UICONTROL Checkout Cart Page]**
 
 #### Advertise PayPal Pay Later
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Advertise PayPal PayLater** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Advertise PayPal PayLater]** section.
 
-1. Set **Enable PayPal PayLater** to `Yes`.
+1. Set **[!UICONTROL Enable PayPal PayLater]** to `Yes`.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Home Page** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Home Page]** section.
 
-1. To place a banner on the page, set **Display** to `Yes`.
+1. To place a banner on the page, set **[!UICONTROL Display]** to `Yes`.
 
-1. Set **Position** to one of the following:
+1. Set **[!UICONTROL Position]** to one of the following:
 
    - `Header (center)`
    - `Sidebar`
 
-1. Set **Style Layout** to one of the following:
+1. Set **[!UICONTROL Style Layout]** to one of the following:
 
    - `Text`
    - `Flex`
 
-1. For Style Layout **Text** only, set **Logo Type** to one of the following:
+1. For [!UICONTROL Style Layout] **[!UICONTROL Text]** only, set **[!UICONTROL Logo Type]** to one of the following:
 
    - `Primary`
    - `Alternative`
    - `Inline`
    - `None`
 
-1. For Style Layout **Text** only, set **Logo Position** to one of the following:
+1. For [!UICONTROL Style Layout] **[!UICONTROL Text]** only, set **[!UICONTROL Logo Position]** to one of the following:
 
    - `Left`
    - `Right`
    - `Top`
 
-1. For Style Layout **Text** only, set **Text Color** to one of the following:
+1. For [!UICONTROL Style Layout] **[!UICONTROL Text]** only, set **[!UICONTROL Text Color]** to one of the following:
 
    - `Black`
    - `White`
    - `Monochrome`
    - `Grayscale`
 
-1. For Style Layout **Text** only, set **Text Size** to one of the following:
+1. For [!UICONTROL Style Layout] **[!UICONTROL Text]** only, set **[!UICONTROL Text Size]** to one of the following:
 
    - `10px`
    - `11px`
@@ -244,14 +244,14 @@ Set **Enable PayPal PayLater Experience** to one of the following:
    - `15px`
    - `16px`
 
-1. For Style Layout **Flex** only, set **Ratio** to one of the following:
+1. For [!UICONTROL Style Layout] **[!UICONTROL Flex]** only, set **[!UICONTROL Ratio]** to one of the following:
 
    - `1x1`
    - `1x4`
    - `8x1`
    - `20x1`
 
-1. For Style Layout **Flex** only, set **Color** to one of the following:
+1. For [!UICONTROL Style Layout] **[!UICONTROL Flex]** only, set **[!UICONTROL Color]** to one of the following:
 
    - `Blue`
    - `Black`
@@ -265,42 +265,42 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the remaining sections and repeat the previous steps:
 
-   - **Catalog Product Page**
-   - **Checkout Cart Page**
-   - **Checkout Payment Step**
-   - **Catalog Category Page**
+   - **[!UICONTROL Catalog Product Page]**
+   - **[!UICONTROL Checkout Cart Page]**
+   - **[!UICONTROL Checkout Payment Step]**
+   - **[!UICONTROL Catalog Category Page]**
 
 ### Step 4: Complete the basic settings
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Basic Settings - PayPal Payments Advanced** section, if needed.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Basic Settings - PayPal Payments Advanced]** section, if needed.
 
    ![PayPal Payments Advanced Basic Settings](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-basic-settings.png)<!-- zoom -->
 
-1. Enter a **Title** to identify PayPal Payments Advanced during checkout.
+1. Enter a **[!UICONTROL Title]** to identify PayPal Payments Advanced during checkout.
 
    It is recommended that you use the title _Debit or Credit Card_.
 
-1. If you offer multiple payment methods, enter a number for **Sort Order** to determine the sequence in which PayPal Payments Advanced appears when listed with other payment methods during checkout.
+1. If you offer multiple payment methods, enter a number for **[!UICONTROL Sort Order]** to determine the sequence in which PayPal Payments Advanced appears when listed with other payment methods during checkout.
 
    This is relative to the other payment methods. (`0` = first, `1` = second, `2` = third, and so on.)
 
-1. Set **Payment Action** to one of the following:
+1. Set **[!UICONTROL Payment Action]** to one of the following:
 
-   - `Authorization` |Approves the purchase, but puts a hold on the funds. The amount is not withdrawn until it is "captured" by the merchant. |
-   |`Sale` |The amount of the purchase is authorized and immediately withdrawn from the customer's account.|
+   - `Authorization` - Approves the purchase, but puts a hold on the funds. The amount is not withdrawn until it is _captured_ by the merchant.
+   - `Sale` - The amount of the purchase is authorized and immediately withdrawn from the customer's account.
 
 ### Step 5: Complete the advanced settings
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Advanced Settings** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Advanced Settings]** section.
 
    ![Advanced Settings - PayPal Payments Advanced](./assets/paypal-payments-advanced2.png)<!-- zoom -->
 
-1. Set **Payment Applicable From** to one of the following:
+1. Set **[!UICONTROL Payment Applicable From]** to one of the following:
 
    - `All Allowed Countries` - Customers from all [countries](../getting-started/store-details.md#country-options) specified in your store configuration can use this payment method.
-   - `Specific Countries` - After choosing this option, the _Payment from Specific Countries_ list appears. Hold down the Ctrl key (PC) or the Command key (Mac) and select each country in the list where customers can make purchases from your store.
+   - `Specific Countries` - After choosing this option, the _[!UICONTROL Payment from Specific Countries]_ list appears. Hold down the Ctrl key (PC) or the Command key (Mac) and select each country in the list where customers can make purchases from your store.
 
-1. To write communications with the payment system into the log file, set **Debug Mode** to `Yes`.
+1. To write communications with the payment system into the log file, set **[!UICONTROL Debug Mode]** to `Yes`.
 
    The log file for PayPal Payments Advanced is `payments_payflow_advanced.log`.
 
@@ -308,15 +308,15 @@ Set **Enable PayPal PayLater Experience** to one of the following:
    >
    >In accordance with PCI Data Security Standards, credit card information is not recorded in the log file.
 
-1. To enable host authenticity verification, set **Enable SSL verification** to `Yes`.
+1. To enable host authenticity verification, set **[!UICONTROL Enable SSL Verification]** to `Yes`.
 
-1. To allow the customer to correct their entry of the three-digit CVV security code from the back of a credit card, set **CVV Entry is Editable** to `Yes`.
+1. To allow the customer to correct their entry of the three-digit CVV security code from the back of a credit card, set **[!UICONTROL CVV Entry is Editable]** to `Yes`.
 
-1. To require customers to enter a CVV code, set **Require CVV Entry** to `Yes`.
+1. To require customers to enter a CVV code, set **[!UICONTROL Require CVV Entry]** to `Yes`.
 
-1. To send a confirmation of the payment to the customer, set **Send Email Confirmation** to `Yes`.
+1. To send a confirmation of the payment to the customer, set **[!UICONTROL Send Email Confirmation]** to `Yes`.
 
-1. To determine the method that is used to exchange information with the PayPal server during a transaction, set the **URL method for Cancel URL and Return URL** to one of the following:
+1. To determine the method that is used to exchange information with the PayPal server during a transaction, set the **[!UICONTROL URL method for Cancel URL and Return URL]** to one of the following:
 
    - `GET` - (Default) Retrieves information that is the result of a process.
    - `POST` - Provides a block of data, such as data entered into a form, to a data handling process.
@@ -330,32 +330,32 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 #### Settlement Report Settings
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Settlement Report Settings** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Settlement Report Settings]** section.
 
    ![PayPal Settlement Report Settings](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png)<!-- zoom -->
 
-1. For **SFTP Credentials**, do the following:
+1. For **[!UICONTROL SFTP Credentials]**, do the following:
 
    - If you have signed up for PayPal's Secure FTP Server, enter the following SFTP login credentials:
 
       - Login
       - Password
 
-   - To run test reports before going live, set **Sandbox Mode** to `Yes`.
+   - To run test reports before going live, set **[!UICONTROL Sandbox Mode]** to `Yes`.
 
-   - Enter the **Custom Endpoint Hostname or IP Address**.
+   - Enter the **[!UICONTROL Custom Endpoint Hostname or IP Address]**.
 
       By default, the value is `reports.paypal.com`.
 
-   - Enter the **Custom Path** where reports are saved.
+   - Enter the **[!UICONTROL Custom Path]** where reports are saved.
 
       By default, the value is `/ppreports/outgoing`.
 
-1. To generate reports according to a schedule, complete the **Scheduled Fetching** settings:
+1. To generate reports according to a schedule, complete the **[!UICONTROL Scheduled Fetching]** settings:
 
-   - Set **Enable Automatic Fetching** to `Yes`.
+   - Set **[!UICONTROL Enable Automatic Fetching]** to `Yes`.
 
-   - Set **Schedule** to one of the following:
+   - Set **[!UICONTROL Schedule]** to one of the following:
 
       - `Daily`
       - `Every 3 Days`
@@ -367,17 +367,17 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
       PayPal retains each report for 45 days.
 
-   - Set **Time of Day** to the hour, minute, and second when you want the reports to be generated.
+   - Set **[!UICONTROL Time of Day]** to the hour, minute, and second when you want the reports to be generated.
 
 #### Frontend Experience Settings
 
-Use the _Frontend Experience Settings_ to choose which PayPal logos appear on your site and to customize the appearance of your PayPal merchant pages.
+Use the _[!UICONTROL Frontend Experience Settings]_ to choose which PayPal logos appear on your site and to customize the appearance of your PayPal merchant pages.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Frontend Experience Settings** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Frontend Experience Settings]** section.
 
    ![PayPal Frontend Experience Settings](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings.png)<!-- zoom -->
 
-1. Select the **PayPal Product Logo** that you want to appear in the PayPal block in your store.
+1. Select the **[!UICONTROL PayPal Product Logo]** that you want to appear in the PayPal block in your store.
 
    The PayPal logos are available in four styles and two sizes:
 
@@ -389,13 +389,13 @@ Use the _Frontend Experience Settings_ to choose which PayPal logos appear on yo
 
 1. To customize the appearance of your PayPal merchant pages:
 
-   - Enter the name of the **Page Style** that you want to apply to your PayPal merchant pages:
+   - Enter the name of the **[!UICONTROL Page Style]** that you want to apply to your PayPal merchant pages:
 
       - `paypal` - Uses the PayPal page style.
       - `primary` - Uses the page style that you identified as the _primary_ style in your account profile.
       - `your_custom_value` - Uses a custom payment page style, which is specified in your account profile.
 
-   - For **Header Image URL**, enter the URL of the image that you want to appear in the upper-left corner of the payment page. The maximum file size is 750 pixels wide by 90 pixels high.
+   - For **[!UICONTROL Header Image URL]**, enter the URL of the image that you want to appear in the upper-left corner of the payment page. The maximum file size is 750 pixels wide by 90 pixels high.
 
    >[!NOTE]
    >
@@ -403,57 +403,57 @@ Use the _Frontend Experience Settings_ to choose which PayPal logos appear on yo
 
    - To set the color for your pages, enter the six-character hexadecimal code, without the `#` symbol, for each of the following:
 
-      - **Header Background Color** - Background color for the checkout page header.
-      - **Header Border Color** - Color for two-pixel border around the header.
-      - **Page Background Color** - Background color for the checkout page and around the header and payment form.
+      - **[!UICONTROL Header Background Color]** - Background color for the checkout page header.
+      - **[!UICONTROL Header Border Color]** - Color for two-pixel border around the header.
+      - **[!UICONTROL Page Background Color]** - Background color for the checkout page and around the header and payment form.
 
 ### Step 6: Complete basic settings for PayPal Express Checkout
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Basic Settings - PayPal Express Checkout** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Basic Settings - PayPal Express Checkout]** section.
 
    ![PayPal Express Checkout Basic Settings](../configuration-reference/sales/assets/payment-methods-paypal-advanced-express-checkout-basic-settings.png)<!-- zoom -->
 
-1. Enter a **Title** to identify this payment method during checkout.
+1. Enter a **[!UICONTROL Title]** to identify this payment method during checkout.
 
    Setting the title to _PayPal_ for each store view is recommended.
 
-1. If you offer multiple payment methods, enter a number for **Sort Order** to determine the sequence in which PayPal Express Checkout appears when listed with the other payment methods.
+1. If you offer multiple payment methods, enter a number for **[!UICONTROL Sort Order]** to determine the sequence in which PayPal Express Checkout appears when listed with the other payment methods.
 
    This is relative to the other payment methods. (`0` = first, `1` = second, `2` = third, and so on.)
 
-1. Set **Payment Action** to one of the following:
+1. Set **[!UICONTROL Payment Action]** to one of the following:
 
    - `Authorization` - Approves the purchase and puts a hold on the funds. The amount is not withdrawn until it is _captured_ by the merchant.
    - `Sale` - The amount of the purchase is authorized and immediately withdrawn from the customer's account.
 
-1. To display the _Check out with PayPal_ button on the product page, set **Display on Product Details Page** to `Yes`.
+1. To display the _Check out with PayPal_ button on the product page, set **[!UICONTROL Display on Product Details Page]** to `Yes`.
 
 ### Step 7: Complete Advanced Settings - PayPal Express Checkout
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Advanced Settings** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Advanced Settings]** section.
 
    ![PayPal Express Checkout Advanced Settings](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-express-checkout-advanced.png)<!-- zoom -->
 
-1. To make PayPal Express Checkout available from both the shopping cart and mini cart, set **Display on Shopping Cart** to `Yes`.
+1. To make PayPal Express Checkout available from both the shopping cart and mini cart, set **[!UICONTROL Display on Shopping Cart]** to `Yes`.
 
-1. Set **Payment Applicable From** to one of the following:
+1. Set **[!UICONTROL Payment Applicable From]** to one of the following:
 
    - `All Allowed Countries` - Customers from all [countries](../getting-started/store-details.md#country-options) specified in your store configuration can use this payment method.
    - `Specific Countries` |After choosing this option, the _Payment from Specific Countries list_ appears. Hold down the Ctrl key (PC) or the Command key (Mac) and click each country in the list where customers can make purchases from your store.
 
-1. To write communications with the payment system into the log file, set **Debug Mode** to `Yes`.
+1. To write communications with the payment system into the log file, set **[!UICONTROL Debug Mode]** to `Yes`.
 
    >[!NOTE]
    >
    >In accordance with [PCI Data Security Standards](../getting-started/compliance-pci.md), credit card information is not recorded in the log file.
 
-1. To enable host authenticity verification, set **Enable SSL Verification** to `Yes`.
+1. To enable host authenticity verification, set **[!UICONTROL Enable SSL Verification]** to `Yes`.
 
-1. To display a full summary of the customer's order by line item from the PayPal site, set **Transfer Cart Line Items** to `Yes`.
+1. To display a full summary of the customer's order by line item from the PayPal site, set **[!UICONTROL Transfer Cart Line Items]** to `Yes`.
 
-1. To allow the customer to complete the transaction from the PayPal site without returning to your store for Order Review, set **Skip Order Review Step** to `Yes`.
+1. To allow the customer to complete the transaction from the PayPal site without returning to your store for Order Review, set **[!UICONTROL Skip Order Review Step]** to `Yes`.
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.
 
 [1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
 [2]: https://manager.paypal.com/

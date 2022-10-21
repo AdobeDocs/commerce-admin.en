@@ -6,7 +6,7 @@ description: Learn how to create and print invoices to support order processing 
 
 An invoice is a record of the record of payment for an order. Multiple invoices can be [created](#create-an-invoice) for a single order, and each can include as many or as few of the purchased products that you specify. You can also create [print-ready PDF invoices](#print-invoices) as sales documents for your customers.
 
-On the _Admin_ sidebar, go to **Sales** > _Operations_ > **Invoices** to open the _Invoices_ grid and access your created invoices.
+On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > _Operations_ > **Invoices** to open the _Invoices_ grid and access your created invoices.
 
 ![Invoices grid](./assets/invoices.png)<!-- zoom -->
 
@@ -14,26 +14,26 @@ On the _Admin_ sidebar, go to **Sales** > _Operations_ > **Invoices** to open th
 
 |Column|Description|
 |--- |--- |
-|Select|Select the checkbox to choose the quotes to be subject to an action, or use the selection control in the column header. Options: Select All/Deselect All|
-|Invoice|A unique numeric identifier that is assigned when an invoice is submitted from the Admin. When viewing the invoice detail, this number appears at the top of the page, instead of the quote name.|
-|Invoice Date|The date and time the administrator first submitted the invoice.|
-|Order#|A unique numeric identifier that is assigned when an order is placed by a buyer. When viewing the invoice details, this number appears as a link in the Order & Account Information block.|
-|Order Date|The date and time the customer first successfully placed an order.|
-|Bill-to Name|The name of the person who is responsible to pay for the order.|
-|Status|Indicates the current state of an invoice. This can be changed only by action on the part of either the buyer or seller.|
-|Grand Total (Base)|The total price of products to be purchased. The total amount appears in the base currency of the website and in the currency of the storefront.|
-|Grand Total (purchase)|The grand total of products purchased in the order. The total amount appears in the base currency of the website and in the currency of the storefront.|
-|Purchased From|The website/store/store view from which the invoice was created.|
-|Billing Address|The billing address of the customer who placed the order.|
-|Shipping Address|The address where the order is to be shipped.|
-|Customer Name|The first and last name of the customer receiving the invoice.|
-|Email|The email address of the customer receiving the invoice.|
-|Customer Group|The customer group assigned to customer receiving the invoice.|
-|Payment Method|The method of payment to be used for the payment.|
-|Shipping Information|The method to be used to ship the order.|
-|Subtotal|The order subtotal, without shipping and handling, and tax.|
-|Shipping and Handling|The amount charged for shipping and handling.|
-|Action|View: opens the invoice in edit mode.|
+|[!UICONTROL Select]|Select the checkbox to choose the quotes to be subject to an action, or use the selection control in the column header. Options: `Select All` / `Deselect All`|
+|[!UICONTROL Invoice]|A unique numeric identifier that is assigned when an invoice is submitted from the Admin. When viewing the invoice detail, this number appears at the top of the page, instead of the quote name.|
+|[!UICONTROL Invoice Date]|The date and time the administrator first submitted the invoice.|
+|[!UICONTROL Order#]|A unique numeric identifier that is assigned when an order is placed by a buyer. When viewing the invoice details, this number appears as a link in the Order & Account Information block.|
+|[!UICONTROL Order Date]|The date and time the customer first successfully placed an order.|
+|[!UICONTROL Bill-to Name]|The name of the person who is responsible to pay for the order.|
+|[!UICONTROL Status]|Indicates the current state of an invoice. This can be changed only by action on the part of either the buyer or seller.|
+|[!UICONTROL Grand Total (Base)]|The total price of products to be purchased. The total amount appears in the base currency of the website and in the currency of the storefront.|
+|[!UICONTROL Grand Total (purchase)]|The grand total of products purchased in the order. The total amount appears in the base currency of the website and in the currency of the storefront.|
+|[!UICONTROL Purchased From]|The website/store/store view from which the invoice was created.|
+|[!UICONTROL Billing Address]|The billing address of the customer who placed the order.|
+|[!UICONTROL Shipping Address]|The address where the order is to be shipped.|
+|[!UICONTROL Customer Name]|The first and last name of the customer receiving the invoice.|
+|[!UICONTROL Email]|The email address of the customer receiving the invoice.|
+|[!UICONTROL Customer Group]|The customer group assigned to customer receiving the invoice.|
+|[!UICONTROL Payment Method]|The method of payment to be used for the payment.|
+|[!UICONTROL Shipping Information]|The method to be used to ship the order.|
+|[!UICONTROL Subtotal]|The order subtotal, without shipping and handling, and tax.|
+|[!UICONTROL Shipping and Handling]|The amount charged for shipping and handling.|
+|[!UICONTROL Action]|**[!UICONTROL View]** - opens the invoice in edit mode.|
 
 {style="table-layout:auto"}
 
@@ -53,15 +53,13 @@ You must generate an invoice for an order before you can print it. To view or pr
 
 **_To invoice an order:_**
 
-1. On the _Admin_ sidebar, click **Sales**.
-
-1. In the _Operations_ section, choose **Orders**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > _[!UICONTROL Operations]_ > **[!UICONTROL Orders]**.
 
 1. Find the sales order with the status of `Processing` in the grid. Then, do the following:
 
-1. In the _Action_ column, click **View**.
+1. In the _Action_ column, click **[!UICONTROL View]**.
 
-1. In the header of the sales order, choose the **Invoice** option.
+1. In the header of the sales order, choose the **[!UICONTROL Invoice]** option.
 
    >[!NOTE]
    >
@@ -73,7 +71,7 @@ You must generate an invoice for an order before you can print it. To view or pr
 
 1. If the items are ready to ship, generate a packing slip for the shipment at the same time that you create the invoice:
 
-   - In the _Shipping Information_ section, click the **Create Shipment** checkbox to select it.
+   - In the _Shipping Information_ section, click the **[!UICONTROL Create Shipment]** checkbox to select it.
 
       The shipment record is created at the same time that the invoice is generated.
 
@@ -81,25 +79,25 @@ You must generate an invoice for an order before you can print it. To view or pr
 
    - Include a tracking number:
 
-      - Click **Add Tracking Number**.
-      - Enter the tracking information: Carrier, Title, Number
+      - Click **[!UICONTROL Add Tracking Number]**.
+      - Enter the tracking information: _[!UICONTROL Carrier]_, _[!UICONTROL Title]_, and _[!UICONTROL Number]_
 
    - Optionally, generate a partial invoice:
 
-      - In the _Items to Invoice_ section, update the **Qty to Invoice** column to include only specific items on the invoice.
-      - Then, click **Update Qty's**.
+      - In the _Items to Invoice_ section, update the **[!UICONTROL Qty to Invoice]** column to include only specific items on the invoice.
+      - Then, click **[!UICONTROL Update Qty's]**.
 
         ![Items to Invoice](./assets/invoice-items-to-invoice.png)<!-- zoom -->
 
-1. If an online payment method was used for the order, set **Amount** to the appropriate option.
+1. If an online payment method was used for the order, set **[!UICONTROL Amount]** to the appropriate option.
 
 1. To notify customers by email when the invoice is generated, do the following:
 
-   - Click the **Email Copy of Invoice** checkbox to select it.
+   - Click the **[!UICONTROL Email Copy of Invoice]** checkbox to select it.
 
-   - Enter any **Invoice Comments**. To include the comments in the notification email, mark the **Append Comments** checkbox.
+   - Enter any **[!UICONTROL Invoice Comments]**. To include the comments in the notification email, mark the **[!UICONTROL Append Comments]** checkbox.
 
-1. When complete, click **Submit Invoice** at the bottom of the page. The status of the order changes from `Pending` to `Complete`.
+1. When complete, click **[!UICONTROL Submit Invoice]** at the bottom of the page. The status of the order changes from `Pending` to `Complete`.
 
    **_Online payment method:_**
 
@@ -109,7 +107,7 @@ You must generate an invoice for an order before you can print it. To view or pr
 
     ![Submit Invoice - offline payment method)](./assets/invoice-submit-invoice.png)<!-- zoom -->
 
-  **_ Completed invoice:_**
+  **_Completed invoice:_**
 
     ![Completed Invoice](./assets/invoice-full.png)<!-- zoom -->
 
@@ -123,21 +121,21 @@ Invoices can be printed individually or as a batch. However, before an invoice c
 
 ### Print a single invoice
 
-1. On the _Admin_ sidebar, go to **Sales** > _Operations_ > **Invoices**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > _[!UICONTROL Operations]_ > **[!UICONTROL Invoices]**.
 
-1. In the _Invoices_ grid, locate the invoice and click **View** in the _Action_ column.
+1. In the _[!UICONTROL Invoices]_ grid, locate the invoice and click **[!UICONTROL View]** in the _Action_ column.
 
-1. At the top of the invoice, click **Print** to generate a PDF of the invoice.
+1. At the top of the invoice, click **[!UICONTROL Print]** to generate a PDF of the invoice.
 
 1. Save the generated PDF to a file or print it.
 
 ### Print multiple invoices
 
-1. On the _Admin_ sidebar, go to **Sales** > _Operations_ > **Invoices**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > _[!UICONTROL Operations]_ > **[!UICONTROL Invoices]**.
 
-1. In the _Invoices_ grid, select the checkbox for each invoice to be printed.
+1. In the _[!UICONTROL Invoices]_ grid, select the checkbox for each invoice to be printed.
 
-1. Set the **Actions** control to `PDF Invoices`.
+1. Set the **[!UICONTROL Actions]** control to `PDF Invoices`.
 
    ![Print multiple invoices](./assets/invoices-print-batch.png)<!-- zoom -->
 

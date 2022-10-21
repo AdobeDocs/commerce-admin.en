@@ -21,49 +21,49 @@ As a best practice, make sure to include a description of your RMA requirements 
 
 The customer completes the following steps on the storefront to submit an RMA:
 
-1. In the footer, clicks **Orders and Returns**.
+1. In the footer, clicks **[!UICONTROL Orders and Returns]**.
 
 1. Enters the order information:
 
-   - **Order ID**
-   - **Billing Last Name**
-   - **Email**
+   - Order ID
+   - Billing Last Name
+   - Email
 
-1. Clicks **Continue**.
+1. Clicks **[!UICONTROL Continue]**.
 
    ![Orders and Returns](./assets/storefront-orders-and-returns.png)<!-- zoom -->
 
-1. Below the order date, clicks **Return**.
+1. Below the order date, clicks **[!UICONTROL Return]**.
 
    ![Order detail](./assets/storefront-orders-and-returns-order-information.png)<!-- zoom -->
 
-1. Chooses the **Item** to return and enters the **Quantity to Return**.
+1. Chooses the item to return and enters the **[!UICONTROL Quantity to Return]**.
 
-1. Sets **Resolution** to one of the following:
+1. Sets **[!UICONTROL Resolution]** to one of the following:
 
    - Exchange
    - [Refund](https://docs.magento.com/user-guide/customers/refunds-customer-account.html)
    - [Store Credit](https://docs.magento.com/user-guide/customers/store-credit.html)
 
-1. Sets **Item Condition** to one of the following:
+1. Sets **[!UICONTROL Item Condition]** to one of the following:
 
-   - Unopened
-   - Opened
-   - Damaged
+   - `Unopened`
+   - `Opened`
+   - `Damaged`
 
-1. Sets **Reason to Return** to one of the following:
+1. Sets **[!UICONTROL Reason to Return]** to one of the following:
 
-   - Wrong Color
-   - Wrong Size
-   - Out of Service
-   - Other
+   - `Wrong Color`
+   - `Wrong Size`
+   - `Out of Service`
+   - `Other`
 
    ![Create New Return](./assets/storefront-orders-and-returns-create-new-return.png)<!-- zoom -->
 
-1. If needed, sets **Contact Email Address** and **Comments**.
+1. If needed, sets **[!UICONTROL Contact Email Address]** and **[!UICONTROL Comments]**.
 
    >[!NOTE]
    >
-   >If the order contains several items and the customer wants to return another item, they can click **Add Item To Return**, select the item, and then set all mentioned options.
+   >If the order contains several items and the customer wants to return another item, they can click **[!UICONTROL Add Item To Return]**, select the item, and then set all mentioned options.
 
-1. Clicks **Submit**.
+1. Clicks **[!UICONTROL Submit]**.

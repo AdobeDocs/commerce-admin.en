@@ -10,27 +10,27 @@ Store views are typically used to make the store available in different locales.
 
 ## Add a store view
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **All Stores**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL All Stores]**.
 
    ![All Stores](./assets/stores-all.png)<!-- zoom -->
 
-1. Click **Create Store View**.
+1. Click **[!UICONTROL Create Store View]**.
 
    ![Create store view](./assets/create-store-view.png)<!-- zoom -->
 
-1. Set **Store** to the parent store of this view.
+1. Set **[!UICONTROL Store]** to the parent store of this view.
 
-1. Enter a **Name** for this store view.
+1. Enter a **[!UICONTROL Name]** for this store view.
 
    The name appears in the language chooser in the store header. For example: `Spanish`.
 
-1. Enter a **Code** in lowercase characters to identify the view. For example: `spanish`.
+1. Enter a **[!UICONTROL Code]** in lowercase characters to identify the view. For example: `spanish`.
 
-1. To activate the view, set **Status** to `Enabled`.
+1. To activate the view, set **[!UICONTROL Status]** to `Enabled`.
 
-1. (Optional) Enter a **Sort Order** number to determine the sequence in which this view is listed with other views.
+1. (Optional) Enter a **[!UICONTROL Sort Order]** number to determine the sequence in which this view is listed with other views.
 
-1. Click **Save Store View**.
+1. Click **[!UICONTROL Save Store View]**.
 
 ## Edit a store view
 
@@ -40,27 +40,27 @@ If your Adobe Commerce or Magento Open Source installation has a multisite or mu
 
 | Field | Original value | Updated value |
 | ----- | -------------- | ------------- |
-| Name  | `Default Store View` | `English` |
-| Code  | `default` | `english` |
+| [!UICONTROL Name]  | `Default Store View` | `English` |
+| [!UICONTROL Code]  | `default` | `english` |
 
 {style="table-layout:auto"}
 
-1. On the _Admin_ sidebar, go to **Stores** >  _Settings_ > **All Stores**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** >  _[!UICONTROL Settings]_ > **[!UICONTROL All Stores]**.
 
-1. In the _Store View_ column of the grid, click the name of the view that you want to edit.
+1. In the _[!UICONTROL Store View]_ column of the grid, click the name of the view that you want to edit.
 
-   When editing the default view, the _Store_ and _Status_ fields are not available.
+   When editing the default view, the _[!UICONTROL Store]_ and _[!UICONTROL Status]_ fields are not available.
 
    ![Store view - edit default view](./assets/edit-store-view-info.png)<!-- zoom -->
 
 1. Update the following fields as needed:
 
-    - **Store** (non-default views only)
-    - **Name**
-    - **Code** (only if not used in `index.php`)
-    - **Status** (non-default views only)
-    - **Sort Order**
+    - **[!UICONTROL Store]** (non-default views only)
+    - **[!UICONTROL Name]**
+    - **[!UICONTROL Code]** (only if not used in `index.php`)
+    - **[!UICONTROL Status]** (non-default views only)
+    - **[!UICONTROL Sort Order]**
 
-1. Click **Save Store View**.
+1. Click **[!UICONTROL Save Store View]**.
 
    ![Stores](./assets/all-grid.png)<!-- zoom -->

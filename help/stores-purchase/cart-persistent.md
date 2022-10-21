@@ -73,10 +73,10 @@ Customers can select the _Remember Me_ checkbox on the login page to save the co
 
 | Settings | Effect |
 |----------|--------|
-| **Enable Remember Me** is set to `No`.<br/><br/>**Clear Persistence on Log Out** has any value.<br/><br/>The **Remember Me** checkbox is not available on the login and registration page. | The persistent cookie is not used. |
-| **Enable Remember Me** is set to `Yes`.<br/><br/>**Clear Persistence on Log Out** has any value.<br/><br/>**Remember Me** is not selected. | The session cookie is applied as usual; the persistent cookie is not used. |
-| **Enable Remember Me** is set to `Yes`.<br/><br/>**Clear Persistence on Log Out** is set to `Yes`.<br/><br/>**Remember Me** is set to `Yes`. | When a customer logs in, both cookies are applied. When a customer logs out, both cookies are deleted. If a customer does not log in but the session cookie expires, the persistent cookie is still used. Apart from logging out, the persistent cookie is deleted when its lifetime runs out or when the customer clicks the `Not Jane Smith` link. |
-| **Enable Remember Me** is set to `Yes`.<br/><br/>**Clear Persistence on Log Out** is set to `No`.<br/><br/>**Remember Me** is set to `Yes` | When a customer logs in, both cookies are applied. When a customer logs out, the session cookie is deleted, the persistent session continues. The persistent cookie is deleted when its lifetime runs out or when the customer clicks the `Not Jane Smith` link.|
+| **[!UICONTROL Enable Remember Me]** is set to `No`.<br/><br/>**[!UICONTROL Clear Persistence on Log Out]** has any value.<br/><br/>The **Remember Me** checkbox is not available on the login and registration page. | The persistent cookie is not used. |
+| **[!UICONTROL Enable Remember Me]** is set to `Yes`.<br/><br/>**[!UICONTROL Clear Persistence on Log Out]** has any value.<br/><br/>**Remember Me** is not selected. | The session cookie is applied as usual; the persistent cookie is not used. |
+| **[!UICONTROL Enable Remember Me]** is set to `Yes`.<br/><br/>**[!UICONTROL Clear Persistence on Log Out]** is set to `Yes`.<br/><br/>**Remember Me** is set to `Yes`. | When a customer logs in, both cookies are applied. When a customer logs out, both cookies are deleted. If a customer does not log in but the session cookie expires, the persistent cookie is still used. Apart from logging out, the persistent cookie is deleted when its lifetime runs out or when the customer clicks the `Not Jane Smith` link. |
+| **[!UICONTROL Enable Remember Me]** is set to `Yes`.<br/><br/>**[!UICONTROL Clear Persistence on Log Out]** is set to `No`.<br/><br/>**Remember Me** is set to `Yes` | When a customer logs in, both cookies are applied. When a customer logs out, the session cookie is deleted, the persistent session continues. The persistent cookie is deleted when its lifetime runs out or when the customer clicks the `Not Jane Smith` link.|
 
 {style="table-layout:auto"}
 
@@ -90,11 +90,11 @@ For more information about how the customer workflow is determined by these sett
 >
 >If the session cookie expires while the customer is logged in, the persistent cookie remains active.
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Customers** and choose **Persistent Shopping Cart**.
+1. In the left panel, expand **[!UICONTROL Customers]** and choose **[!UICONTROL Persistent Shopping Cart]**.
 
-1. To enable the persistent shopping cart and display additional options, set **Enable Persistence** to `Yes`.
+1. To enable the persistent shopping cart and display additional options, set **[!UICONTROL Enable Persistence]** to `Yes`.
 
    ![Enabling and configuring the cart persistence](./assets/persistent-cart-options.png)<!-- zoom -->
 
@@ -102,60 +102,60 @@ For more information about how the customer workflow is determined by these sett
 
    >[!NOTE]
    >
-   >You might need to clear the **Use system value** checkbox to modify these settings.
+   >You might need to clear the **[!UICONTROL Use system value]** checkbox to modify these settings.
 
-1. For **Persistence Lifetime (seconds)**, enter the length of time, in seconds, that you want the persistent cookie to last.
+1. For **[!UICONTROL Persistence Lifetime (seconds)]**, enter the length of time, in seconds, that you want the persistent cookie to last.
 
    The default value of 31,536,000 seconds is equal to one year, and is the maximum time allowed.
 
-1. Set **Enable "Remember Me"** to one of the following:
+1. Set **[!UICONTROL Enable "Remember Me"]** to one of the following:
 
-   `Yes` - Displays the _Remember Me_ checkbox on the Login page of your store, so that customers can choose to save their shopping cart information.
+   - `Yes` - Displays the _Remember Me_ checkbox on the Login page of your store, so that customers can choose to save their shopping cart information.
 
-   `No` - Persistence can still be enabled, but customers are not given the option to choose if they want to save their information.
+   - `No` - Persistence can still be enabled, but customers are not given the option to choose if they want to save their information.
 
-1. To preselect the _Remember Me_ checkbox for the customer, set **Remember Me Default Value** to `Yes`.
+1. To preselect the _Remember Me_ checkbox for the customer, set **[!UICONTROL Remember Me Default Value]** to `Yes`.
 
    The customer can clear this option if they choose.
 
-1. Set **Clear Persistence on Log Out** to one of the following:
+1. Set **[!UICONTROL Clear Persistence on Log Out]** to one of the following:
 
-   `Yes` - The shopping cart is cleared when a registered customer logs out.
+   - `Yes` - The shopping cart is cleared when a registered customer logs out.
 
-   `No` - The shopping cart is saved when a registered customer logs out.|
+   - `No` - The shopping cart is saved when a registered customer logs out.|
 
    >[!NOTE]
    >
    >If the session cookie expires while the customer is still logged in, the persistent cookie remains in use.
 
-1. Set **Persist Shopping Cart** to one of the following:
+1. Set **[!UICONTROL Persist Shopping Cart]** to one of the following:
 
-   `Yes` - If the session cookie expires, the persistent cookie is preserved. If a guest shopper later logs in or creates an account, the shopping cart is restored.
+   - `Yes` - If the session cookie expires, the persistent cookie is preserved. If a guest shopper later logs in or creates an account, the shopping cart is restored.
 
-   `No` - The shopping cart is not preserved for guests after the session cookie expires.
+   - `No` - The shopping cart is not preserved for guests after the session cookie expires.
 
-1. ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Set **Persist Wish List** to determine if the state of customer wish lists is retained when the session ends:
+1. ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Set **[!UICONTROL Persist Wish List]** to determine if the state of customer wish lists is retained when the session ends:
 
-   `Yes` - The wish list contents are saved when the session ends.
+   - `Yes` - The wish list contents are saved when the session ends.
 
-   `No` - The wish list is not saved when the session ends.|
+   - `No` - The wish list is not saved when the session ends.|
 
-1. ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Set **Persist Recently Ordered Items** to determine if the state of recently ordered items is retained when the session ends:
+1. ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Set **[!UICONTROL Persist Recently Ordered Items]** to determine if the state of recently ordered items is retained when the session ends:
 
-   `Yes` - The state of Recently Ordered Items is saved when the session ends.
+   - `Yes` - The state of Recently Ordered Items is saved when the session ends.
 
-   `No` - The state of Recently Ordered Items is not saved when the session ends.
+   - `No` - The state of Recently Ordered Items is not saved when the session ends.
 
-1. Set **Persist Currently Compared Products** to `Yes` or `No`.
+1. Set **[!UICONTROL Persist Currently Compared Products]** to `Yes` or `No`.
 
-1. Set **Persist Comparison History** to `Yes` or `No`.
+1. Set **[!UICONTROL Persist Comparison History]** to `Yes` or `No`.
 
-1. Set **Persist Recently Viewed Products** to `Yes` or `No`.
+1. Set **[!UICONTROL Persist Recently Viewed Products]** to `Yes` or `No`.
 
-1. ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Set **Persist Customer Group Membership and Segmentation** to determine if the state of the customer's group membership and segmentation criteria are retained when the session ends:
+1. ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Set **[!UICONTROL Persist Customer Group Membership and Segmentation]** to determine if the state of the customer's group membership and segmentation criteria are retained when the session ends:
 
-   `Yes` - The state of the customer's group membership and segmentation data is saved when the session ends.
+   - `Yes` - The state of the customer's group membership and segmentation data is saved when the session ends.
 
-   `No` - The state of the customer's group membership and segmentation data are not saved when the session ends.
+   - `No` - The state of the customer's group membership and segmentation data are not saved when the session ends.
 
-1. Click **Save Config**.
+1. Click **[!UICONTROL Save Config]**.

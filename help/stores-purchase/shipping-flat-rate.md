@@ -8,9 +8,9 @@ _Flat rate_ is a fixed, predefined charge that can be applied per item, or per s
 
 ## Set up flat rate shipping
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Sales** and choose **Delivery Methods**.
+1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Delivery Methods]**.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Flat Rate** section.
 
@@ -18,11 +18,11 @@ _Flat rate_ is a fixed, predefined charge that can be applied per item, or per s
 
    For a detailed description of each of these configuration settings, see [Flat Rate](https://docs.magento.com/user-guide/configuration/sales/delivery-methods.html#flat-rate) in the _Configuration Reference Guide_.
 
-1. Set **Enabled** to `Yes`.
+1. Set **[!UICONTROL Enabled]** to `Yes`.
 
    Flat Rate appears as an option in the Estimate Shipping and Tax section of the shopping cart, and also in the Shipping section during checkout.
 
-1. Enter a descriptive **Title** for the Flat Rate method.
+1. Enter a descriptive **[!UICONTROL Title]** for the Flat Rate method.
 
 1. Enter a **Method Name** to appear next to the calculated rate in the shopping cart.
 
@@ -63,8 +63,8 @@ _Flat rate_ is a fixed, predefined charge that can be applied per item, or per s
    - `Yes` – Always shows the Flat Rate method, even when not applicable.
    - `No` – Shows the Flat Rate method only when applicable.
 
-1. For **Sort Order**, enter a number to determine the sequence in which Flat Rate Shipping appears when listed with other delivery methods during checkout.
+1. For **[!UICONTROL Sort Order]**, enter a number to determine the sequence in which Flat Rate Shipping appears when listed with other delivery methods during checkout.
 
    `0` = first, `1` = second, `2` = third, and so on.
 
-1. Click **Save Config**.
+1. Click **[!UICONTROL Save Config]**.

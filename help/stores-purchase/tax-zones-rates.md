@@ -12,58 +12,58 @@ Store tax is calculated based on the store's address. The actual customer tax fo
 
 ## Define a new tax rate
 
-1. On the _Admin_ sidebar, go to **Stores** > _Taxes_ > **Tax Zones and Rates**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_ > **[!UICONTROL Tax Zones and Rates]**.
 
-1. In the upper-right corner, click **Add New Tax Rate**.
+1. In the upper-right corner, click **[!UICONTROL Add New Tax Rate]**.
 
-1. Enter a **Tax Identifier**.
+1. Enter a **[!UICONTROL Tax Identifier]**.
 
-1. To apply the tax rate to a single ZIP or postal code, enter the code for **Zip/Post Code**.
+1. To apply the tax rate to a single ZIP or postal code, enter the code for **[!UICONTROL Zip/Post Code]**.
 
    The asterisk wildcard (`*`) can be used to match up to ten characters in the code. For example, `90*` represents all ZIP codes from 90000 through 90999.
 
 1. To apply the tax rate to a range of ZIP or postal codes, do the following:
 
-   - Select the **Zip/Post is Range** checkbox and define the range by entering the first and last ZIP or postal code for **Range From** and **Range To**.
+   - Select the **[!UICONTROL Zip/Post is Range]** checkbox and define the range by entering the first and last ZIP or postal code for **[!UICONTROL Range From]** and **[!UICONTROL Range To]**.
 
       ![ZIP/Post is Range](./assets/tax-rate-new-zip-post-range.png)<!-- zoom -->
 
-   - Choose the **State** where the tax rate applies.
+   - Choose the **[!UICONTROL State]** where the tax rate applies.
 
-   - Choose the **Country** where the tax rate applies.
+   - Choose the **[!UICONTROL Country]** where the tax rate applies.
 
-   - Enter the **Rate Percent** that is used for the tax rate calculation.
+   - Enter the **[!UICONTROL Rate Percent]** that is used for the tax rate calculation.
 
-1. If you have multiple stores, you can set Tax Titles for each store view.
+1. If you have multiple stores, you can set **[!UICONTROL Tax Titles]** for each store view.
 
    >[!NOTE]
    >
    >Leave this field empty if you want to use the tax identifier.
 
-1. When complete, click **Save Rate**.
+1. When complete, click **[!UICONTROL Save Rate]**.
 
    ![New Tax Rate](./assets/tax-rate-new.png)<!-- zoom -->
 
 ## Edit an existing tax rate
 
-1. On the _Admin_ sidebar, go to **Stores** > _Taxes_ > **Tax Zones and Rates**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_ > **[!UICONTROL Tax Zones and Rates]**.
 
-1. Find the tax rate in the _Tax Zones and Rates_ grid, and open the record in edit mode.
+1. Find the tax rate in the _[!UICONTROL Tax Zones and Rates]_ grid, and open the record in edit mode.
 
    If there are many rates in the list, use the [filter controls](../getting-started/admin-grid-controls.md) to find the rate you need.
 
-1. Make the necessary changes to the **Tax Rate Information**.
+1. Make the necessary changes to the **[!UICONTROL Tax Rate Information]**.
 
-1. Update the **Tax Titles** as needed.
+1. Update the **[!UICONTROL Tax Titles]** as needed.
 
-1. When complete, click **Save Rate**.
+1. When complete, click **[!UICONTROL Save Rate]**.
 
 ## Delete tax rate
 
-1. On the _Admin_ sidebar, go to **Stores** > _Taxes_ > **Tax Zones and Rates**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_ > **[!UICONTROL Tax Zones and Rates]**.
 
 1. Find the tax rate to be deleted and open it in edit mode.
 
-1. In the menu bar, click **Delete Rate**.
+1. In the menu bar, click **[!UICONTROL Delete Rate]**.
 
-1. To confirm the action, click **OK**.
+1. To confirm the action, click **[!UICONTROL OK]**.
