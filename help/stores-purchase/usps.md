@@ -38,7 +38,7 @@ You can also open a [USPS Web Tools][1] account. After you complete the registra
 
 1. Enter the **[!UICONTROL User ID]** and **[!UICONTROL Password]** for your USPS account.
 
-1. Set **[!UICONTROL Mode** to one of the following:
+1. Set **[!UICONTROL Mode]** to one of the following:
 
    - `Development` - Runs USPS in a test environment. After running USPS in a development environment, make sure to return later and set Mode to `Live`.
    - `Live` - Runs USPS in a live production environment.

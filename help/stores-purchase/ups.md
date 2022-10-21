@@ -28,7 +28,7 @@ To offer this shipping method to your customers, you must first open an account 
 
    - Enter your UPS credentials: **[!UICONTROL User ID]**, **[!UICONTROL Access License Number]** (the 16-digit UPS account `Access Key`), and **[!UICONTROL Password]**
 
-   - Set **[!UICONTROL Mode** to `Live` to send data to the UPS shipping system over a secure connection. (Development mode does not send data over a secure connection.)
+   - Set **[!UICONTROL Mode]** to `Live` to send data to the UPS shipping system over a secure connection. (Development mode does not send data over a secure connection.)
 
    - Verify the **[!UICONTROL Gateway XML URL]** that is required to send requests by XML file.
 
