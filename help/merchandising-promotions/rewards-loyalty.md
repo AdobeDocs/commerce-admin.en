@@ -82,7 +82,7 @@ In this step, the number of reward points that can be earned for various custome
 
    >[!NOTE]
    >
-   >To be able to earn Reward Points for the _first_ order by the customer, please make sure that this customer is registered _before_ the transaction is captured by the Payment Method. Most payment methods may be configured to capture transactions _automatically_, when order is placed, _before_ the customer account registration is finished.
+   >To earn reward points for their _first_ order, the customer must be registered _before_ the transaction is captured by the payment method. Most payment methods could be configured to capture transactions _automatically_ when the order is placed, but _before_ the customer account registration is finished.
 
 1. For **[!UICONTROL Registration]**, enter the number of points earned for opening a customer account.
 
