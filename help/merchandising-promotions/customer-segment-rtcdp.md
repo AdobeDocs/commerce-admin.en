@@ -36,29 +36,31 @@ After you install the Real-Time CDP extension, you need to log into your Commerc
 
 On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_ > **[!UICONTROL Email Reminder Rules]**.
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Services]_ > **[!UICONTROL Commerce Services Connector]** and [sign in](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/saas.html?lang=en#organizationid) to your Adobe account and select your organization ID.
+1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Services]_ > **[!UICONTROL Commerce Services Connector]**, [sign in](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/saas.html?lang=en#organizationid) to your Adobe account, and select your organization ID.
 1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Services]_ > **[!UICONTROL Experience Platform Connector]** and in the **[!UICONTROL Datastream ID]** field paste the ID of the datastream ID that you created when you [activated](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) Adobe Commerce as a destination in Experience Platform.
-1. On the _Admin_ sidebar, go to **[!UICONTROL Store]** > _[!UICONTROL Configuration]_, select **[!UICONTROL Services]**, then **[!UICONTROL Experience Platform Audiences]** and enter the configuration credentials found in the [developer console](https://developer.adobe.com/console/home).
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**. Expand **[!UICONTROL Services]** and select **[!UICONTROL Experience Platform Audiences]**. Then, enter the configuration credentials found in the [developer console](https://developer.adobe.com/console/home).
 
     ![Real-Time CDP Admin Configuration](./assets/rtcdp-admin-config.png)
 
-1. Select **Save Config**.
+1. Click **Save Config**.
 
 ## Create a cart price rule
 
 You can create a cart price rule in Commerce using the Experience Platform Audiences you imported from Experience Platform.
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_ > **[!UICONTROL Cart Price Rules]** and select the **[!UICONTROL Add New Rule]** button. For this exercise, let's add a 50% discount rule.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_ > **[!UICONTROL Cart Price Rules]** and click **[!UICONTROL Add New Rule]**. 
 
-1. Expand **[!UICONTROL Rule Information]** and fill in the fields as per your requirements.
+   The following steps use the example of a 50% discount rule.
+
+1. Expand **[!UICONTROL Rule Information]** and fill in the fields according to your requirements.
 
    ![New Rule with Experience Platform Audience](./assets/rtcdp-new-rule.png)
 
-1. Expand **[!UICONTROL Conditions]** and select the "+" icon and select **[!UICONTROL Experience Platform Audience]** from the dropdown menu.
+1. Expand **[!UICONTROL Conditions]**, click the "+" icon, and select **[!UICONTROL Experience Platform Audience]** from the list.
 
    ![Select Experience Platform Audience Condition](./assets/rtcdp-conditions.png)
 
-1. Select the "..." icon and select the **[!UICONTROL Open Chooser]** button. Locate the specific Experience Platform Audience that you want to use.
+1. Select the "..." icon, click **[!UICONTROL Open Chooser]**, and locate the specific Experience Platform Audience that you want to use.
 
    ![Select Experience Platform Audience Identifier](./assets/rtcdp-conditions-chooser.png)
 
@@ -66,7 +68,7 @@ You can create a cart price rule in Commerce using the Experience Platform Audie
 
    ![New Action with Experience Platform Audience](./assets/rtcdp-actions.png)
 
-1. Select **[!UICONTROL Save]** to save the new cart price rule.
+1. Click **[!UICONTROL Save]** to save the new cart price rule.
 
 1. Clean the cache.
 
