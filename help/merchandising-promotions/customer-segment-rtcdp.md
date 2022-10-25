@@ -7,19 +7,15 @@ hidefromtoc: yes
 
 >[!IMPORTANT]
 >
->The Real-Time CDP extension is in beta and only available to a select number of customers.
+>The Experience Platform Audiences extension is in beta and only available to a select number of customers.
 
-The Real-Time CDP extension for Adobe Commerce lets you import Experience Platform Audiences into Adobe Commerce to dynamically personalize cart price rules. The Audiences built within Real-Time CDP are based on data from various enterprise systems, such as Enterprise Resource Planning (ERP), Customer Relationship Management (CRM), point of sale, and marketing systems.
-
->[!NOTE]
->
->Audiences in Experience Platform are referred to as segments in Adobe Commerce.
+The Experience Platform Audiences extension for Adobe Commerce lets you import Experience Platform Audiences into Adobe Commerce to dynamically personalize cart price rules. The Audiences built within Experience Platform are based on data from various enterprise systems, such as Enterprise Resource Planning (ERP), Customer Relationship Management (CRM), point of sale, and marketing systems.
 
 Using Experience Platform Audiences in Adobe Commerce requires that you:
 
 - [Activate](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) Adobe Commerce as a destination in Experience Platform
-- [Install](#install-the-extension) the Real-Time CDP extension in Adobe Commerce
-- [Configure](#configure-the-extension) the Real-Time CDP extension in the Admin to import Experience Platform Audiences into Commerce
+- [Install](#install-the-extension) the Experience Platform Audiences extension in Adobe Commerce
+- [Configure](#configure-the-extension) the Experience Platform Audiences extension in the Admin to import Experience Platform Audiences into Commerce
 - [Create](#create-a-cart-price-rule) a cart price rule based on the imported Experience Platform Audiences
 
 ## Install the extension
@@ -32,7 +28,7 @@ To install the Experience Platform Audiences extension in Adobe Commerce, run th
 
 ## Configure the extension
 
-After you install the Real-Time CDP extension, you need to log into your Commerce Admin and complete the following:
+After you install the Experience Platform Audiences extension, you need to log into your Commerce Admin and complete the following:
 
 On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_ > **[!UICONTROL Email Reminder Rules]**.
 
@@ -40,7 +36,7 @@ On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL Communic
 1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Services]_ > **[!UICONTROL Experience Platform Connector]** and in the **[!UICONTROL Datastream ID]** field paste the ID of the datastream ID that you created when you [activated](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) Adobe Commerce as a destination in Experience Platform.
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**. Expand **[!UICONTROL Services]** and select **[!UICONTROL Experience Platform Audiences]**. Then, enter the configuration credentials found in the [developer console](https://developer.adobe.com/console/home).
 
-    ![Real-Time CDP Admin Configuration](./assets/rtcdp-admin-config.png)
+    ![Experience Platform Audiences Admin Configuration](./assets/rtcdp-admin-config.png)
 
 1. Click **Save Config**.
 
@@ -69,8 +65,6 @@ You can create a cart price rule in Commerce using the Experience Platform Audie
    ![New Action with Experience Platform Audience](./assets/rtcdp-actions.png)
 
 1. Click **[!UICONTROL Save]** to save the new cart price rule.
-
-1. Clean the cache.
 
 ## Headless support
 
