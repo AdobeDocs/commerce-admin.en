@@ -213,7 +213,7 @@ The process of creating a company from the Admin is essentially the same as from
 |Field|Description|
 |--- |--- |
 |[!UICONTROL Company Legal Name]|The full legal name of the company.|
-|[!UICONTROL VAT / TAX ID]|The [value-added tax](https://docs.magento.com/user-guide/tax/vat.html) number that is assigned to the company by some jurisdictions for tax reporting purposes. To configure the customer VAT/TAX ID to appear in the storefront, see [Create New Account Options](https://docs.magento.com/user-guide/configuration/customers/customer-configuration.html). <br/> **_Note:_** Company Admin and other company users do not have their own separate VAT/TAX ID numbers in their customer accounts.|
+|[!UICONTROL VAT / TAX ID]|The [value-added tax](https://docs.magento.com/user-guide/tax/vat.html) number that is assigned to the company by some jurisdictions for tax reporting purposes. To configure the customer VAT/TAX ID to appear in the storefront, see [Create New Account Options](https://docs.magento.com/user-guide/configuration/customers/customer-configuration.html). <br/> **_Note:_** The company administrator and other company users do not have their own separate VAT/TAX ID numbers in their customer accounts.|
 |[!UICONTROL Reseller ID]|The resale number that is assigned to the company for tax reporting purposes.|
 |[!UICONTROL Comment]|(Admin Only) These notes about the company account are for reference and visible only from the Admin.|
 
