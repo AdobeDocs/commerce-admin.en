@@ -66,6 +66,8 @@ You can create a cart price rule in Commerce using the Experience Platform Audie
 
 1. Click **[!UICONTROL Save]** to save the new cart price rule.
 
+1. Clean the [cache](https://docs.magento.com/user-guide/system/cache-management.html).
+
 ## Headless support
 
 You can use Experience Platform Audiences in a headless Adobe Commerce instance.
