@@ -14,6 +14,10 @@ If a cart price rule is triggered by the purchase, the initial calculation appli
 
 ![Cart with Customizable Option and Price Rule](./assets/storefront-customizable-option-cart-price-rule.png)<!-- zoom -->
 
+>[!NOTE]
+>
+>A catalog price rule discount is not applied to the fixed price customizable options.
+
 ## Create customizable options
 
 1. Open the product in edit mode.
