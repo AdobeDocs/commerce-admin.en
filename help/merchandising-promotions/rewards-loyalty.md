@@ -80,6 +80,10 @@ In this step, the number of reward points that can be earned for various custome
 
 1. To display a message in the shopping cart that includes the rewards points earned for the purchase and the customer's current reward point balance, set **[!UICONTROL Purchase]** to `Yes`.
 
+   >[!NOTE]
+   >
+   >To earn reward points for their _first_ order, the customer must be registered _before_ the transaction is captured by the payment method. Most payment methods could be configured to capture transactions _automatically_ when the order is placed, but _before_ the customer account registration is finished.
+
 1. For **[!UICONTROL Registration]**, enter the number of points earned for opening a customer account.
 
 1. For **[!UICONTROL Newsletter Signup]**, enter the number of points earned by registered customers who subscribe to a newsletter.
