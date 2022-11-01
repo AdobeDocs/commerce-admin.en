@@ -5,7 +5,7 @@ exl-id: 4f93ab4c-6bdf-495e-9183-3a18898b377f
 ---
 # Purchase Orders for Companies
 
-Purchase orders (POs) are a common way for companies to track and control spending. [Purchase Order](https://docs.magento.com/user-guide/payment/purchase-order.html) is one of the standard offline payment methods supported in Adobe Commerce and Magento Open Source. When B2B of Adobe Commerce is installed and [Enable Purchase Orders](account-company-manage.md#advanced-settings) is activated for a company account, all orders are automatically created as Purchase Orders (PO). Company users with the required [permissions](account-company-roles-permissions.md) can create, edit, and delete POs that they create and POs created by subordinate users.
+Purchase orders (POs) are a common way for companies to track and control spending. [Purchase order](../stores-purchase/purchase-order.md) is one of the standard offline payment methods supported in Adobe Commerce and Magento Open Source. When B2B of Adobe Commerce is installed and [_Enable Purchase Orders_](account-company-manage.md#advanced-settings) is activated for a company account, all orders are automatically created as Purchase Orders (PO). Company users with the required [permissions](account-company-roles-permissions.md) can create, edit, and delete POs that they create and POs created by subordinate users.
 
 ## Purchase order flow
 
@@ -67,7 +67,7 @@ For more information about the supported purchase order functions available for 
 
 ## Offline vs online payment methods
 
-Workflows can vary depending on the payment method. To learn more about Adobe Commerce payment methods, see [Payment Methods](https://docs.magento.com/user-guide/payment/payments.html) in the core _Adobe Commerce User Guide_.
+Workflows can vary depending on the payment method. To learn more about Adobe Commerce payment methods, see [Payment Methods](../stores-purchase/payments.md) in the _Sales and Purchase Experience Guide_.
 
 >[!IMPORTANT]
 >

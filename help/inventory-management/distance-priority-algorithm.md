@@ -19,7 +19,7 @@ You have two options for calculating the distance and time to find the closest s
 
 >[!NOTE]
 >
->For multi-store website with several countries, configure [Default Tax Destination](https://docs.magento.com/user-guide/tax/tax-destination-default.html){target="_blank"} for each country.
+>For multi-store website with several countries, configure the [default tax destination](../stores-purchase/tax-class.md#default-tax-destination){target="_blank"} for each country.
 
 ## Use Google Maps
 

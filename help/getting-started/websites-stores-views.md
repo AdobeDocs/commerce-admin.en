@@ -13,15 +13,15 @@ Every Adobe Commerce and Magento Open Source installation has a [hierarchy](http
 
 ## Websites
 
-Installations begin with a single [website](https://docs.magento.com/user-guide/stores/stores-all-create-website.html), which is called _Main Website_ by default. You can also set up multiple websites for a single installation, each with its own IP address and domain.
+Installations begin with a single [website](../stores-purchase/stores.md#add-websites), which is called _Main Website_ by default. You can also set up multiple websites for a single installation, each with its own IP address and domain.
 
 ## Stores
 
-A single website can have multiple [stores](https://docs.magento.com/user-guide/stores/stores-all-create-store.html), each with its own main menu. The stores share the product catalog, but can have a different selection of products and design. All stores under the same website share the Admin and checkout.
+A single website can have multiple [stores](../stores-purchase/stores.md#add-stores), each with its own main menu. The stores share the product catalog, but can have a different selection of products and design. All stores under the same website share the Admin and checkout.
 
-## Store Views
+## Store views
 
-Each store that is available to customers is presented according to a specific _[view](https://docs.magento.com/user-guide/stores/stores-all-create-view.html)_. Initially, a store has a single default view. Additional store views can be added to support different languages, or for other purposes. Customers can use the language chooser in the header to change the store view.
+Each store that is available to customers is presented according to a specific _[view](../stores-purchase/store-views.md)_. Initially, a store has a single default view. Additional store views can be added to support different languages, or for other purposes. Customers can use the language chooser in the header to change the store view.
 
 When working with websites, stores, and store views, keep the following in mind:
 
@@ -36,9 +36,9 @@ When working with websites, stores, and store views, keep the following in mind:
 
 If your Adobe Commerce or Magento Open Source installation has a hierarchy of websites, stores, or views, you can set the context, or "scope" of a configuration setting. The context of many database entities can also be assigned a specific scope to determine how it is used in the store hierarchy. To learn more, see [Product Scope](../catalog/introduction.md#product-scope) and [Price Scope](../catalog/catalog-price-scope.md).
 
-Some configuration settings such as postal code, have a global scope because the same value is used throughout the system. The [website](https://docs.magento.com/user-guide/stores/stores-all-create-website.html) scope applies to any stores below that level in the hierarchy, including all stores and their views. Any item with the scope of [store view](https://docs.magento.com/user-guide/stores/stores-all-create-view.html) can be set differently for each store view, which is typically used to support multiple languages. To override the default values of configuration settings, see [Changing Scope](https://docs.magento.com/user-guide/configuration/scope-change.html).
+Some configuration settings such as postal code, have a global scope because the same value is used throughout the system. The [website](../stores-purchase/stores.md#add-websites) scope applies to any stores below that level in the hierarchy, including all stores and their views. Any item with the scope of [store view](../stores-purchase/store-views.md) can be set differently for each store view, which is typically used to support multiple languages. To override the default values of configuration settings, see [Changing Scope](https://docs.magento.com/user-guide/configuration/scope-change.html).
 
-Unless the store is running in [Single Store Mode](https://docs.magento.com/user-guide/stores/store-mode-single.html), the scope of each configuration setting appears in small text below the field label. If your installation includes multiple websites, stores, or views, choose the [Store View](https://docs.magento.com/user-guide/stores/stores-all-create-view.html) where the settings apply before making any changes.
+Unless the store is running in [single store mode](#single-store-mode), the scope of each configuration setting appears in small text below the field label. If your installation includes multiple websites, stores, or views, choose the [Store View](../stores-purchase/store-views.md) where the settings apply before making any changes.
 
 ![Hierarchy of websites, stores, and store views](./assets/scope-multisite.svg)<!-- zoom -->
 
@@ -51,9 +51,9 @@ Unless the store is running in [Single Store Mode](https://docs.magento.com/user
 
 {style="table-layout:auto"}
 
-## Single Store Mode
+## Single store mode
 
-If your Adobe Commerce or Magento Open Source installation has only a single store and store view, you can simplify the display by turning off all store view options and scope indicators. Single Store Mode is overridden if you [add more store views](https://docs.magento.com/user-guide/stores/stores-all-create-view.html) later.
+If your Adobe Commerce or Magento Open Source installation has only a single store and store view, you can simplify the display by turning off all store view options and scope indicators. Single Store Mode is overridden if you [add more store views](../stores-purchase/store-views.md) later.
 
 ![Scope - single view](./assets/scope-single-view.svg)<!-- {:width="550px"} -->
 

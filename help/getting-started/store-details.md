@@ -35,11 +35,11 @@ The _[!UICONTROL Store Information]_ section provides the basic information that
 
     - If applicable, enter the **[!UICONTROL VAT Number]** of your store.
 
-      To verify the number, click the **[!UICONTROL Validate VAT Number]** button. To learn more, see [VAT ID Validation](https://docs.magento.com/user-guide/tax/vat-validation.html).
+      To verify the number, click the **[!UICONTROL Validate VAT Number]** button. To learn more, see [VAT ID validation](../stores-purchase/vat.md#vat-id-validation).
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-For more information about the Store information configuration options, see the [Configuration Reference Guide](https://docs.magento.com/user-guide/configuration/general/general.html#store-information).
+For more information about the Store information configuration options, see the [_Configuration Reference Guide_](https://docs.magento.com/user-guide/configuration/general/general.html#store-information).
 
 ## Locale Options
 
@@ -140,7 +140,7 @@ The Country Options identify the country where your business is located and the 
 
 ### Set the country options for specific delivery method
 
-You can also configure shipping to specific countries for each available [delivery method](https://docs.magento.com/user-guide/shipping/delivery.html) (UPS, FedEx, and so on).
+You can also configure shipping to specific countries for each available [delivery method](../stores-purchase/delivery.md) (UPS, FedEx, and so on).
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -166,7 +166,7 @@ For help with troubleshooting country configuration issues, see the following [!
 
 ## Merchant Location
 
-The Merchant Location setting is used to configure [payment methods](https://docs.magento.com/user-guide/payment/payments.html). If there is no value for this setting, the [Default Country](#country-options) setting is used.
+The Merchant Location setting is used to configure [payment methods](../stores-purchase/payments.md). If there is no value for this setting, the [Default Country](#country-options) setting is used.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -182,13 +182,13 @@ For more information about the Payment Methods configuration options, see the [C
 
 ## Currency
 
-Currency Setup - Defines the base [currency](https://docs.magento.com/user-guide/stores/currency-configuration.html) and any additional currencies that are accepted as payment. Also establishes the import connection and schedule that is used to update currency rates automatically.
+Currency Setup - Defines the base [currency](../stores-purchase/currency-configuration.md) and any additional currencies that are accepted as payment. Also establishes the import connection and schedule that is used to update currency rates automatically.
 
-Currency Symbols - Defines the [currency symbols](https://docs.magento.com/user-guide/stores/currency-symbols.html) that appear in product prices and sales documents such as orders and invoices. [!DNL Commerce] supports currencies from over 200 countries around the world.
+Currency Symbols - Defines the [currency symbols](../stores-purchase/currency-configuration.md#step-5-customize-currency-symbols-optional) that appear in product prices and sales documents such as orders and invoices. [!DNL Commerce] supports currencies from over 200 countries around the world.
 
-Updating Currency Rates - Currency rates can be [updated](https://docs.magento.com/user-guide/stores/currency-update.html) manually or imported into your store as needed, or according to a predefined schedule.
+Updating Currency Rates - Currency rates can be [updated](../stores-purchase/currency-update.md) manually or imported into your store as needed, or according to a predefined schedule.
 
-Currency Chooser - If multiple currencies are available, the [currency chooser](https://docs.magento.com/user-guide/stores/currency.html) is available in the header of the store.
+Currency Chooser - If multiple currencies are available, the [currency chooser](../stores-purchase/currency.md) is available in the header of the store.
 
 ## Store Email Addresses
 

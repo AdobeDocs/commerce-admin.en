@@ -47,13 +47,13 @@ The [Coupons report](../merchandising-promotions/price-rules-cart-coupon.md#coup
 
 ![PayPal Settlement Report](./assets/reports-sales-paypal-settlement.png)<!-- zoom -->
 
-The [PayPal Settlement Report](https://docs.magento.com/user-guide/payment/paypal-settlement-reports.html) can be filtered by date, merchant account, transaction ID, invoice ID, or PayPal reference ID. The report includes the type of event, such as a debit card transaction, the start and finish dates, gross amount, and related fees. The report can be automatically updated with the most current data from PayPal.
+The [PayPal Settlement Report](../stores-purchase/paypal-settlement-reports.md) can be filtered by date, merchant account, transaction ID, invoice ID, or PayPal reference ID. The report includes the type of event, such as a debit card transaction, the start and finish dates, gross amount, and related fees. The report can be automatically updated with the most current data from PayPal.
 
 ## Braintree Settlement
 
 ![Braintree Settlement Report](./assets/braintree-settlement.png)<!-- zoom -->
 
-The [Braintree](https://docs.magento.com/user-guide/payment/braintree.html) Settlement Report can be filtered according to creation date, amount, status, transaction type, payment type, transaction ID, order ID, PayPal payment ID, type, merchant account ID, or settlement batch ID. The report contains the transaction ID, order ID, PayPal payment ID, type, creation date, amount, settlement code, status, settlement response text, reimbursement IDs, merchant account ID, settlement batch ID, and currency.
+The [Braintree](../stores-purchase/braintree.md) Settlement Report can be filtered according to creation date, amount, status, transaction type, payment type, transaction ID, order ID, PayPal payment ID, type, merchant account ID, or settlement batch ID. The report contains the transaction ID, order ID, PayPal payment ID, type, creation date, amount, settlement code, status, settlement response text, reimbursement IDs, merchant account ID, settlement batch ID, and currency.
 
 ## Manage your sales reports
 

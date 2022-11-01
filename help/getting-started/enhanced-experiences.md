@@ -19,7 +19,7 @@ Adobe Commerce and Magento Open Source are packed with features that make it eas
 
 - Search Engine Optimization - [!DNL Commerce] offers powerful, native capabilities to streamline [Search Engine Optimization (SEO)](../merchandising-promotions/seo-overview.md) practices for content and site exposure that are integrated with the Admin, and tied directly into the user experience.
 
-- Custom URLs - Specify [custom URLs](https://docs.magento.com/user-guide/stores/store-urls.html) to make them short, clean, and easy to remember. You can also autogenerate search-friendly URLs to streamline your purchase path.
+- Custom URLs - Specify [custom URLs](../stores-purchase/store-urls.md) to make them short, clean, and easy to remember. You can also autogenerate search-friendly URLs to streamline your purchase path.
 
 - Meta Data - Improve your search engine rankings by choosing specific criteria that help search engines to find and index your products more easily. You can enter [meta data](../merchandising-promotions/meta-data.md) for product, category, and content pages.
 
@@ -39,7 +39,7 @@ Adobe Commerce and Magento Open Source make it easy to create a customized, enga
 
 - Multiple Devices - The powerful [!DNL Commerce] features make it easy to [create storefronts](../content-design/themes.md) optimized for iPhone, Android&trade;, and Mobile Opera browsers to help you engage consumers with mobile commerce now, and into the future.
 
-- Shopping Tools - Your store includes a set of [shopping tools](https://docs.magento.com/user-guide/ marketing/shopping-tools.html) that create opportunities for your customers to interact with your store, connect on social media, and share with friends.
+- Shopping Tools - Your store includes a set of [shopping tools](../stores-purchase/email-a-friend.md) that create opportunities for your customers to interact with your store, connect on social media, and share with friends.
 
 - Sophisticated Search - [Filter product](../catalog/search.md) by price, manufacturer, or any other criteria to reduce the time to purchase.
 
@@ -71,7 +71,7 @@ Adobe Commerce and Magento Open Source provide a range of tools to help you tail
 
 - Full-Page Caching - Enhance performance by [caching primary pages](https://docs.magento.com/user-guide/system/cache-full-page.html). Caching pages improves server response times, reduces load, and increases sustainable traffic. You can use tags to define which components to cache, so that only relevant pages are cached as updates take place. It can also identify and differentiate visitors from shoppers.
 
-- Sales Order Archive - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) [Archiving orders](https://docs.magento.com/user-guide/sales/order-archive.html) frees resources and improves performance when sales reps are assisting customers with orders.
+- Sales Order Archive - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) [Archiving orders](../stores-purchase/order-archive.md) frees resources and improves performance when sales reps are assisting customers with orders.
 
 - Index Management - Automatic [reindexing](https://docs.magento.com/user-guide/system/index-management.html) takes place whenever prices change, shopping carts are updated, or new categories created. Reindexing is a background process that does not interfere with store operations.
 
@@ -81,7 +81,7 @@ Adobe Commerce and Magento Open Source provide a range of tools to help you tail
 
 - Dashboard Snapshots - Knowing what is of interest on your site is crucial to maximize your marketing budget. Use this [information on your dashboard](admin-dashboard.md) to determine what you should cross- and up-sell to loyal customers, or which products to put on sale.
 
-- Taxes - Manage your [taxes](https://docs.magento.com/user-guide/tax/taxes.html) with native tools, or add third-party extensions from [[!DNL Commerce Marketplace]](https://marketplace.magento.com/){:target="_blank"}.
+- Taxes - Manage your [taxes](../stores-purchase/taxes.md) with native tools, or add third-party extensions from [[!DNL Commerce Marketplace]](https://marketplace.magento.com/){:target="_blank"}.
 
 -  Automated Business Rules - Set up [automated business rules](../merchandising-promotions/price-rules-cart.md) that define product relationships and use price rules that trigger discounts based on various conditions.
 
@@ -91,25 +91,25 @@ Adobe Commerce and Magento Open Source provide a range of tools to help you tail
 
 Make it easy for customers to complete their purchases. Adobe Commerce and Magento Open Source are designed to help you streamline your checkout process experience while boosting conversion rates.
 
-Instant Purchase - Simplify ordering and boost conversion rates by allowing your customers to [speed through checkout](https://docs.magento.com/user-guide/sales/checkout-instant-purchase.html) by using stored payment and shipping information.
+Instant Purchase - Simplify ordering and boost conversion rates by allowing your customers to [speed through checkout](../stores-purchase/checkout-instant-purchase.md) by using stored payment and shipping information.
 
-Shopping Assistance - [Assisted shopping](https://docs.magento.com/user-guide/sales/shopping-assistance.html) makes it easy for customer service reps to create orders for customers. In Adobe Commerce, customer service reps working in the Admin have access to shopping cart contents, and can move items from a wish list to a shopping cart, apply coupon codes, and more.
+Shopping Assistance - [Assisted shopping](../stores-purchase/shopping-assisted-cart-manage.md) makes it easy for customer service reps to create orders for customers. In Adobe Commerce, customer service reps working in the Admin have access to shopping cart contents, and can move items from a wish list to a shopping cart, apply coupon codes, and more.
 
 Security - Whether an order is fulfilled online or over the phone, [!DNL Commerce] provides [sophisticated security](https://docs.magento.com/user-guide/stores/security.html), including [CAPTCHA](https://docs.magento.com/user-guide/stores/security-captcha.html) and SSL encryption, with best-in-breed encryption and hashing algorithms to protect the security of the system.
 
-Order Processing - [!DNL Commerce] supports a complete [order processing](https://docs.magento.com/user-guide/sales/order-processing.html) workflow. It is easy to customize order statuses and track communications between sales reps and customers.
+Order Processing - [!DNL Commerce] supports a complete [order processing](../stores-purchase/order-processing.md) workflow. It is easy to customize order statuses and track communications between sales reps and customers.
 
-Multiple Payment Options  - [!DNL Commerce] supports the [payment methods](https://docs.magento.com/user-guide/payment/payments.html) and currencies needed for global commerce. You can choose the ones you want to offer, and your customers can choose the ones they prefer at checkout.
+Multiple Payment Options  - [!DNL Commerce] supports the [payment methods](../stores-purchase/payments.md) and currencies needed for global commerce. You can choose the ones you want to offer, and your customers can choose the ones they prefer at checkout.
 
-PayPal Merchant Solutions - It is easy to integrate a [PayPal Payments](https://docs.magento.com/user-guide/payment/paypal.html) account to provide your customers faster, more secure checkout options.
+PayPal Merchant Solutions - It is easy to integrate a [PayPal Payments](../stores-purchase/paypal.md) account to provide your customers faster, more secure checkout options.
 
-Shipping Labels - Merchants have complete control over package characteristics such as weight and size. [Shipping labels](https://docs.magento.com/user-guide/shipping/shipping-labels.html), rate, and bar code information originate directly from the carrier. You can easily generate labels for a single order or for multiple orders.
+Shipping Labels - Merchants have complete control over package characteristics such as weight and size. [Shipping labels](../stores-purchase/shipping-labels.md), rate, and bar code information originate directly from the carrier. You can easily generate labels for a single order or for multiple orders.
 
 ## Retain Customers
 
 Adobe Commerce and Magento Open Source make it easy for you to get repeat business and build brand loyalty. It gives you total control and flexibility over creating and revising goodies like rewards programs, custom coupons, and automated emails to keep your customers coming back again and again.
 
-Merchandise Return - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Customers can submit requests for [Return Merchandise Authorization](https://docs.magento.com/user-guide/sales/returns.html) from your store. You can create shipment orders in a carrier system, and print shipping labels with RMA numbers.
+Merchandise Return - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Customers can submit requests for [Return Merchandise Authorization](../stores-purchase/returns.md) from your store. You can create shipment orders in a carrier system, and print shipping labels with RMA numbers.
 
 Store Credit - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Keep customers loyal and happy by issuing refunds as [store credit](https://docs.magento.com/user-guide/customers/store-credit-using.html) or virtual gift cards to ensure that the money they spend stays in your store.
 
@@ -127,7 +127,7 @@ Give customers a direct connection to your brand by allowing them to create cust
 
 Customer Accounts - Opening an account provides [customers](https://docs.magento.com/user-guide/customers/customer-account.html) with a personalized shopping experience that they can share with their friends. Customers can save their shopping preferences, and manage their own store billing and shipping information.
 
-Advocacy Tools - Customers who share [wish lists](https://docs.magento.com/user-guide/marketing/wishlists.html) and send [gift cards](../catalog/product-gift-card-create.md) make a powerful endorsement of your brand. Wish lists become powerful advocacy tools when shared by email or RSS feed, and gift cards bring motivated new shoppers to your store. (Gift cards are an Adobe Commerce only feature.)
+Advocacy Tools - Customers who share [wish lists](../stores-purchase/wishlists.md) and send [gift cards](../catalog/product-gift-card-create.md) make a powerful endorsement of your brand. Wish lists become powerful advocacy tools when shared by email or RSS feed, and gift cards bring motivated new shoppers to your store. (Gift cards are an Adobe Commerce only feature.)
 
 Reviews and Ratings - [Product reviews](../merchandising-promotions/product-reviews.md) give your customers a way to engage with your brand while fostering a sense of community. You can curate your reviews with tools to help you edit and approve comments for inappropriate content before they go live.
 

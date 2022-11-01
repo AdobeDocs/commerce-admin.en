@@ -36,7 +36,7 @@ Adobe Commerce has predefined templates for each of these email messages that ca
 
    - Choose the **[!UICONTROL Email Template]** that notifies gift registry owners when their registries are created.
 
-   - Choose the [store contact](https://docs.magento.com/user-guide/stores/store-email-addresses.html) that appears as the **[!UICONTROL Email Sender]** of the message.
+   - Choose the [store contact](../getting-started/store-details.md#store-email-addresses) that appears as the **[!UICONTROL Email Sender]** of the message.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Gift Registry Sharing]** section and do the following:
 
