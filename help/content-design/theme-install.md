@@ -5,7 +5,7 @@ exl-id: 28728064-cf3e-44ef-a251-61a23499d096
 ---
 # Install a New Theme
 
-When you first install [!DNL Commerce] the design elements of the store are based on the default _[!DNL Magento Blank]_ theme. The _Luma_ theme is also available if you installed the sample data. You can modify a theme, add themes created by others, or create your own. [[!DNL Commerce Marketplace]](https://docs.magento.com/user-guide/magento/magento-marketplace.html) contains a growing selection of themes that you can install to change the appearance of your store. To learn how to create or modify a theme, see the [Frontend Developer Guide][1].
+When you first install [!DNL Commerce] the design elements of the store are based on the default _[!DNL Magento Blank]_ theme. The _Luma_ theme is also available if you installed the sample data. You can modify a theme, add themes created by others, or create your own. [[!DNL Commerce Marketplace]](../getting-started/commerce-marketplace.md) contains a growing selection of themes that you can install to change the appearance of your store. To learn how to create or modify a theme, see the [_Frontend Development Guide_][1].
 
 ![[!DNL Commerce Marketplace]](./assets/marketplace-themes.png)<!-- zoom -->
 

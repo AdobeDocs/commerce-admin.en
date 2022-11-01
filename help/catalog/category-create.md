@@ -6,7 +6,7 @@ description: You can create as many additional subcategories as needed, accordin
 
 The category structure of your catalog is like an upside-down tree, with the root at the top. Each section of the tree can be expanded and collapsed. Any disabled or hidden categories are grayed out. The categories at the first level (below the [root](category-root.md)) typically appear as options in the [main menu](navigation-top.md). You can create as many additional subcategories as needed, according to the maximum menu depth that is set in the configuration. Categories can be dragged and dropped to other locations in the tree. The category ID number appears in parentheses after the category name at the top of the page.
 
-For a website with multiple [stores](https://docs.magento.com/user-guide/stores/stores-all-create-store.html), you can create a different root category for each store that defines the set of categories that is used for the [top navigation](navigation-top.md).
+For a website with multiple [stores](../stores-purchase/stores.md#add-stores), you can create a different root category for each store that defines the set of categories that is used for the [top navigation](navigation-top.md).
 
 ![Category tree](./assets/category-selected.png)<!-- zoom -->
 

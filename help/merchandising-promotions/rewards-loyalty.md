@@ -26,7 +26,7 @@ Points can be redeemed by Admin users and customers (if enabled) during checkout
 
 ## Refund to reward points
 
-Orders placed with reward points can be refunded to the reward points balance up to the amount redeemed in the order. On the [_New Credit Memo_ page](https://docs.magento.com/user-guide/sales/credit-memo-create.html), the number of points to be applied to the customer's balance can be entered. By default, the field contains the full number of points that were used in the order.
+Orders placed with reward points can be refunded to the reward points balance up to the amount redeemed in the order. On the [_New Credit Memo_ page](../stores-purchase/credit-memo-create.md), the number of points to be applied to the customer's balance can be entered. By default, the field contains the full number of points that were used in the order.
 
 ## Enable reward point operations for your store
 

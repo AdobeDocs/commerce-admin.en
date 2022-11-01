@@ -5,7 +5,7 @@ exl-id: 62ff2a36-053d-4ba0-9969-0f05701afbff
 ---
 # Manage Company Credit
 
-If [Payment on Account](https://docs.magento.com/user-guide/payment/payment-on-account.html) is enabled in the configuration, companies can make purchases on their account up to the credit limit that is granted to the company. When enabled, customers can check the status of their company credit from their account dashboard.
+If [Payment on Account](../getting-started/../b2b/enable-basic-features.md#configure-payment-on-account) is enabled in the configuration, companies can make purchases on their account up to the credit limit that is granted to the company. When enabled, customers can check the status of their company credit from their account dashboard.
 
 ![Company Credit](./assets/company-add-credit-admin.png)<!-- zoom -->
 
@@ -83,7 +83,7 @@ A reimbursed balance is an offline payment that is made by a company toward the 
 
 1. Click **Reimburse**.
 
-   The company’s outstanding balance and available credit is recalculated, and the Company Credit history is updated to reflect the reimbursement.
+   The company's outstanding balance and available credit is recalculated, and the Company Credit history is updated to reflect the reimbursement.
 
    ![Company Credit activity](./assets/company-credit-reimbursements-grid.png)<!-- zoom -->
 

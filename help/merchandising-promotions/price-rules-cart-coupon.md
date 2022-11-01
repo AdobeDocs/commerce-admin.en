@@ -160,7 +160,7 @@ To delete coupon codes, select one or more codes from the list. Select `Delete` 
 
 ## Coupons report
 
-The _Coupons_ report aggregates data from each coupon that is used during a specific date range. Because coupons are applied from the shopping cart, the report includes data from all redeemed coupons, regardless of [order status](https://docs.magento.com/user-guide/sales/order-status.html). As a result, the report might include both projected and actual totals. The report can be filtered for a specific store view, time period, order status, and cart price rule.
+The _Coupons_ report aggregates data from each coupon that is used during a specific date range. Because coupons are applied from the shopping cart, the report includes data from all redeemed coupons, regardless of [order status](../stores-purchase/order-status.md). As a result, the report might include both projected and actual totals. The report can be filtered for a specific store view, time period, order status, and cart price rule.
 
 In the following example, the coupon code "H20" was used by two customers. One of the orders is invoiced, but the other is still _pending_. The projected Sales Subtotal, Sales Discount, and Sales Total columns show the aggregated amounts from both orders, but only the actual invoiced order appears in the Subtotal, Discount, and Total columns. Each row in the report represents a single coupon promotion.
 
@@ -172,7 +172,7 @@ In the following example, the coupon code "H20" was used by two customers. One o
 
 1. If you have multiple store views, set **[!DNL Store View]** in the upper-left corner to establish the scope of the report.
 
-1. To refresh the sales [statistics](https://docs.magento.com/user-guide/reports/statistics.html) for the day, click the _Last Updated_ message at the top of the workspace.
+1. To refresh the sales [statistics](../getting-started/sales-reports.md#refresh-statistics) for the day, click the _Last Updated_ message at the top of the workspace.
    
    Next, click to select the **[!UICONTROL Coupons]** checkbox and click **[!UICONTROL Refresh]**.
 
@@ -197,7 +197,7 @@ In the following example, the coupon code "H20" was used by two customers. One o
 
    - To define the date range of the report, enter the **From** and **To** dates in M/D/YY format.
 
-   - To print a report for a specific [order status](https://docs.magento.com/user-guide/sales/order-status.html), set **[!UICONTROL Order Status]** to `Specified` and choose the order status from the list.
+   - To print a report for a specific [order status](../stores-purchase/order-status.md), set **[!UICONTROL Order Status]** to `Specified` and choose the order status from the list.
 
    - To omit rows without data from the report, set **[!UICONTROL Empty Rows]** to `No`.
 

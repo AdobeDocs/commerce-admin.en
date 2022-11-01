@@ -40,7 +40,7 @@ Email reminder rules can be sent at regular intervals by the minute, hour, or da
 
    - To avoid repeated attempts to send failed email, enter the maximum number of attempts in the **[!UICONTROL Email Send Failure Threshold]** field.
 
-   - Set **[!UICONTROL Reminder Email Sender]** to the [store contact](https://docs.magento.com/user-guide/stores/store-email-addresses.html) that appears as the sender of the reminder email.
+   - Set **[!UICONTROL Reminder Email Sender]** to the [store contact](../getting-started/store-details.md#store-email-addresses) that appears as the sender of the reminder email.
 
    For a detailed list of these options, see [Automated Email Reminder Rules](https://docs.magento.com/user-guide/configuration/customers/promotions.html#automated-email-reminder-rules) in the _Configuration Reference_.
 

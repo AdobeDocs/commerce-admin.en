@@ -5,7 +5,7 @@ exl-id: d2995139-0fc3-4379-a4ec-b0d38ed566bb
 ---
 # Create Multi-Source Shipments
 
-With [!DNL Inventory Management], send one or more shipments as you have inventory. To generate additional shipments as needed, repeat these instructions using recommended or manually entered quantities and sources. These instructions detail how multi-source merchants send shipments. Single-source merchants send shipments without these additional steps (see [Creating a Shipment](https://docs.magento.com/user-guide/sales/shipments-create.html){target="_blank"} in the core user guide).
+With [!DNL Inventory Management], send one or more shipments as you have inventory. To generate additional shipments as needed, repeat these instructions using recommended or manually entered quantities and sources. These instructions detail how multi-source merchants send shipments. Single-source merchants send shipments without these additional steps (see [Create a shipment](../stores-purchase/shipments.md#create-a-shipment){target="_blank"} in the core user guide).
 
 When creating shipments, use the Source Selection Algorithm for calculated recommendations. Follow and use these recommendations or set the amounts per source, generating custom shipments. You control your outgoing inventory for each order, setting the amounts to deduct, sending one or more shipments, and delivering in stock and backorders as inventory is available. For each line item in the order, enter an amount to deduct from the source quantity.
 

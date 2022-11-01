@@ -72,7 +72,7 @@ For a message of critical importance, do one of the following:
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png)the **[!UICONTROL Notifications]** section and do the following:
 
-   - If your store Admin runs over a [secure URL](https://docs.magento.com/user-guide/stores/store-urls.html), set **[!UICONTROL Use HTTPS to Get Feed]** to  `Yes`.
+   - If your store Admin runs over a [secure URL](../stores-purchase/store-urls.md), set **[!UICONTROL Use HTTPS to Get Feed]** to  `Yes`.
 
    - Set **[!UICONTROL Update Frequency]** to determine how often your inbox is updated.
 
