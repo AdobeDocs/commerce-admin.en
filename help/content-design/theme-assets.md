@@ -5,7 +5,7 @@ exl-id: 326c648e-eace-45a0-b53d-bbc8702fee05
 ---
 # Theme Assets
 
-The term _static files_ refers to the collection of assets, such as CSS, fonts, images, and JavaScript, that is used by a theme. The location of static files is specified in the [Base URL](https://docs.magento.com/user-guide/stores/store-urls.html) configuration. You can add a digital signature to the URL of each static file to make it possible for browsers to detect when a newer version is available. The newer version of the file is used if the signature differs from what is stored in the browser cache.
+The term _static files_ refers to the collection of assets, such as CSS, fonts, images, and JavaScript, that is used by a theme. The location of static files is specified in the [Base URL](../stores-purchase/store-urls.md) configuration. You can add a digital signature to the URL of each static file to make it possible for browsers to detect when a newer version is available. The newer version of the file is used if the signature differs from what is stored in the browser cache.
 
 For a standard installation, the assets associated with a theme are organized in the `web` folder at the following location below the [!DNL Commerce] root.
 

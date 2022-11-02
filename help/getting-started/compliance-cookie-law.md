@@ -89,7 +89,7 @@ Stores the Order ID that guest shoppers use to retrieve their order status. Gues
 
 #### `login_redirect`
 
-Preserves the destination page that was loading before the customer was directed to log in. A login redirect is used with the mini cart for logged-in customers if the [Display Mini Cart](https://docs.magento.com/user-guide/sales/mini-cart.html) configuration option is set to `Yes`.
+Preserves the destination page that was loading before the customer was directed to log in. A login redirect is used with the mini cart for logged-in customers if the [Display Mini Cart](../stores-purchase/cart-configuration.md#mini-cart) configuration option is set to `Yes`.
 
 - Is Secure? No
 - HTTP Only: No
@@ -184,7 +184,7 @@ Used by [Google Tag Manager](../merchandising-promotions/google-tag-manager.md).
 
 #### `stf`
 
-Records the time messages are sent by the SendFriend ([Email a Friend](https://docs.magento.com/user-guide/marketing/email-a-friend.html)) module.
+Records the time messages are sent by the SendFriend ([Email a Friend](../stores-purchase/email-a-friend.md)) module.
 
 - Is Secure? Yes
 - HTTP Only: Yes
@@ -253,7 +253,7 @@ Stores the key (ID) of persistent cart to make it possible to restore the cart f
 
 - Is Secure? Yes
 - HTTP Only: Yes
-- Expiration Policy: Based on [Persistent Shopping Cart](https://docs.magento.com/user-guide/sales/cart-persistent-configuration.html) - Persistence Lifetime (seconds) configuration
+- Expiration Policy: Based on [Persistent Shopping Cart](../stores-purchase/cart-persistent.md) - Persistence Lifetime (seconds) configuration
 - Module: `Magento_Persistent`
 
 #### `private_content_version`
@@ -266,7 +266,7 @@ For, HTTP Only=Yes (based on request), it means that the cookie is secure if set
 
 - Is Secure? Yes (based on request), No
 - HTTP Only: No
-- Expiration Policy: Based on [Persistent Shopping Cart](https://docs.magento.com/user-guide/sales/cart-persistent-configuration.html) - Persistence Lifetime (seconds) configuration
+- Expiration Policy: Based on [Persistent Shopping Cart](../stores-purchase/cart-persistent.md) - Persistence Lifetime (seconds) configuration
    - PHP: 1 year / 315360000s (10yr)
    - JS: 1 day
    - JS local storage: Per local storage rules (forever)

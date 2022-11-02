@@ -113,7 +113,7 @@ In the storefront, a customer can create a wish list from their account dashboar
 
    ![Share Your Wish List](./assets/account-dashboard-wishlist-sharing.png)<!-- zoom -->
 
-   The message is sent from your primary [store contact](https://docs.magento.com/user-guide/stores/store-email-addresses.html) and includes a thumbnail image of each product, with links to your store.
+   The message is sent from your primary [store contact](../getting-started/store-details.md#store-email-addresses) and includes a thumbnail image of each product, with links to your store.
 
    ![Shared Wish List Email](./assets/account-dashboard-wishlist-sharing-email.png)<!-- zoom -->
 

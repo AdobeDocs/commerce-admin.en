@@ -9,7 +9,7 @@ Use business intelligence tools to gain the insight used to make sound business 
 
 ## [!DNL Business Intelligence] account
 
-When you activate a [!DNL Business Intelligence] account through Adobe, you get access to five dashboards with approximately 70 reports. These reports are designed to provide insights around your data and answer questions like “How are my orders growing month-over-month?", "Who are my most loyal customers?", and "Is my coupon strategy working?” For detailed information about this tool set, see the [Magento Business Intelligence User Guide][1].
+When you activate a [!DNL Business Intelligence] account through Adobe, you get access to five dashboards with approximately 70 reports. These reports are designed to provide insights around your data and answer questions like "How are my orders growing month-over-month?", "Who are my most loyal customers?", and "Is my coupon strategy working?" For detailed information about this tool set, see the [Magento Business Intelligence User Guide][1].
 
 ## [!DNL Advanced Reporting]
 
@@ -31,7 +31,7 @@ For technical information, see the [[!DNL Advanced Reporting]][2]{:target="_blan
 
 * [!DNL Commerce] must have been installed or upgraded successfully without error.
 
-* In the [!DNL Commerce] configuration for [store URLs](https://docs.magento.com/user-guide/stores/store-urls.html), the **[!UICONTROL Base URL (Secure)]** setting for the store view must point to the secure URL. For example: `https://yourdomain.com`.
+* In the [!DNL Commerce] configuration for [store URLs](../stores-purchase/store-urls.md), the **[!UICONTROL Base URL (Secure)]** setting for the store view must point to the secure URL. For example: `https://yourdomain.com`.
 
 * In the [!DNL Commerce] configuration for store URLs, **[!UICONTROL Use Secure URLs on Storefront]** and **[!UICONTROL Use Secure URLs in Admin]** must be set to `Yes`.
 
@@ -39,12 +39,12 @@ For technical information, see the [[!DNL Advanced Reporting]][2]{:target="_blan
 
 >[!NOTE]
 >
->[!DNL Advanced Reporting] can be used only with [!DNL Commerce] installations that have continually used a single [base currency](https://docs.magento.com/user-guide/stores/currency-configuration.html).
+>[!DNL Advanced Reporting] can be used only with [!DNL Commerce] installations that have continually used a single [base currency](../stores-purchase/currency-configuration.md).
 
 
 ### Step 1: Enable [!DNL Advanced Reporting]
 
-In the [!DNL Commerce] configuration, [[!DNL Advanced Reporting]](https://docs.magento.com/user-guide/configuration/general/advanced-reporting.html) is enabled by default, and starts automatically if cron is [configured](https://docs.magento.com/user-guide/configuration/advanced/system.html) and running. An attempt to establish the subscription is initiated at the beginning of each hour over the next 24-hours until successful. The subscription status is “pending” until the subscription is successfully established.
+In the [!DNL Commerce] configuration, [[!DNL Advanced Reporting]](https://docs.magento.com/user-guide/configuration/general/advanced-reporting.html) is enabled by default, and starts automatically if cron is [configured](https://docs.magento.com/user-guide/configuration/advanced/system.html) and running. An attempt to establish the subscription is initiated at the beginning of each hour over the next 24-hours until successful. The subscription status is "pending" until the subscription is successfully established.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -88,7 +88,7 @@ In the upper-right corner of the Advanced Reporting dashboard, click **[!UICONTR
 
 ### Troubleshooting
 
-If you get a 404 “Page Not Found” message, verify that your store meets the requirements for Advanced Reporting. Then, follow the instructions to verify that the integration is installed.
+If you get a 404 "Page Not Found" message, verify that your store meets the requirements for Advanced Reporting. Then, follow the instructions to verify that the integration is installed.
 
 #### Verify that the integration is active
 
@@ -114,7 +114,7 @@ If you get a 404 “Page Not Found” message, verify that your store meets the 
 
 #### Verify single base currency
 
-[!DNL Advanced Reporting] can be used only with [!DNL Commerce] installations that have used only a single [base currency](https://docs.magento.com/user-guide/stores/currency-configuration.html) since the time of installation. The result is that in the history, all orders use the same base currency. [!DNL Advanced Reporting] does not work if you have, at any time, changed your base currency and have orders in your history that were processed with different base currencies.
+[!DNL Advanced Reporting] can be used only with [!DNL Commerce] installations that have used only a single [base currency](../stores-purchase/currency-configuration.md) since the time of installation. The result is that in the history, all orders use the same base currency. [!DNL Advanced Reporting] does not work if you have, at any time, changed your base currency and have orders in your history that were processed with different base currencies.
 
 To determine if your store has multiple base currencies, you can query your [!DNL Commerce] database from the command line using the following MySQL example. You might be required to change the table names to match your data structure:
 

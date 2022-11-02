@@ -27,7 +27,7 @@ PayPal and Gene Commerce together developed the official Braintree extension for
 
 This extension is installed by default, but requires a [Braintree account](https://signups.braintreepayments.com/) and configuration in the Admin to be enabled for your store. To determine the fees that apply when using Braintree to process your transactions, check the [Braintree pricing](https://www.braintreepayments.com/braintree-pricing).
 
-For information about Braintree configuration in the Admin, see the [Braintree](https://docs.magento.com/user-guide/payment/braintree.html) topic in the _Sales Guide_.
+For information about Braintree configuration in the Admin, see the [Braintree](../stores-purchase/braintree.md) topic in the _Sales and Purchase Experience Guide_.
 
 ### Google reCAPTCHA
 

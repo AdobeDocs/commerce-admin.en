@@ -100,7 +100,7 @@ You also specify the currencies that you accept and which currency you want to u
 
       To enter multiple email addresses, separate each with a comma.
 
-   - **[!UICONTROL Error Email Sender]** — Set to the [store contact](https://docs.magento.com/user-guide/stores/store-email-addresses.html) that appears as the sender of the error notification.
+   - **[!UICONTROL Error Email Sender]** — Set to the [store contact](../getting-started/store-details.md#store-email-addresses) that appears as the sender of the error notification.
 
    - **[!UICONTROL Error Email Template]** — Set to the email template used for the error notification.
 
