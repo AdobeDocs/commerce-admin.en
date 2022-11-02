@@ -4,7 +4,7 @@ description: Learn how to add attributes to products in your catalog.
 ---
 # Add attributes to a product
 
-Although attributes are managed primarily from the [Stores](https://docs.magento.com/user-guide/stores/stores-menu.html) menu, you can also add new attributes _on the fly_ while working on a product. You can choose from the list of existing attributes or create an attribute. The new attribute is added to the [attribute set](../catalog/attribute-sets.md) upon which the product is based.
+Although attributes are managed primarily from the [Stores](../stores-purchase/stores-menu.md) menu, you can also add new attributes _on the fly_ while working on a product. You can choose from the list of existing attributes or create an attribute. The new attribute is added to the [attribute set](../catalog/attribute-sets.md) upon which the product is based.
 
 ![New product with default attribute set](./assets/product-attribute-add.png)<!-- zoom -->
 

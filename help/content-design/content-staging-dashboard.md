@@ -7,7 +7,7 @@ exl-id: 67c18c1c-94c3-4d89-ae1e-868a465431e3
 
 {{ee-feature}}
 
-The [!UICONTROL Content Staging] Dashboard provides an overview of all active and upcoming campaigns. The format of the dashboard can be changed from a grid to a timeline. You can also use filters to find campaigns, customize the column layout, and save different views of the grid. For more information about the workspace controls, see [Admin Workspace](https://docs.magento.com/user-guide/stores/admin-workspace.html).
+The [!UICONTROL Content Staging] Dashboard provides an overview of all active and upcoming campaigns. The format of the dashboard can be changed from a grid to a timeline. You can also use filters to find campaigns, customize the column layout, and save different views of the grid. For more information about the workspace controls, see [Admin workspace](../getting-started/admin-workspace.md).
 
 ![Staging dashboard in grid view](./assets/content-staging-grid-view.png)<!-- zoom -->
 

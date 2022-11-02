@@ -51,7 +51,7 @@ This extension release is fully compatible and supported with Adobe Commerce 2.4
 
 ![Fixed issue](../assets/fix.svg) <!--- MC-42153--> The POST `V1/order/:orderId/invoice` request now supports the creation of partial invoices when the **[!UICONTROL Payment on Account]** payment method is enabled. Previously, Adobe Commerce threw this error: `An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity`. [GitHub-32428](https://github.com/magento/magento2/issues/32428)
 
-![Fixed issue](../assets/fix.svg) <!--- MC-41975--> PayPal PayFlow Pro now works as expected with B2B negotiable quote when the customer’s cart contains other products. Adobe Commerce now successfully processes the order and sends an email to the customer as expected. Previously, Adobe Commerce threw a fatal error and sent a confirmation email to the customer that contained zero values.
+![Fixed issue](../assets/fix.svg) <!--- MC-41975--> PayPal PayFlow Pro now works as expected with B2B negotiable quote when the customer's cart contains other products. Adobe Commerce now successfully processes the order and sends an email to the customer as expected. Previously, Adobe Commerce threw a fatal error and sent a confirmation email to the customer that contained zero values.
 
 ![Fixed issue](../assets/fix.svg) <!--- MC-41819--> Pagination is now correctly displayed on catalog search result page after excluding some products in shared catalog.
 
@@ -105,7 +105,7 @@ This extension release is fully compatible with Adobe Commerce 2.4.3.
 
 ![Fixed issue](../assets/fix.svg) <!--- MC-41260--> Clicking the **[!UICONTROL Return]** button for an order that was created by a company user now redirects an administrative user to the Create Return page as expected. Previously, the administrator was redirected to the Order History page.
 
-![Fixed issue](../assets/fix.svg) <!--- MC-40798--> Adobe Commerce no longer fails with an out-of-memory error when executing the `app/code/Magento/PurchaseOrder/Setup/Patch/Data/InitPermissions.php::apply` method during `bin/Adobe Commerce setup:upgrade`. Previously, Adobe Commerce did not use batch size for collection when initializing permissions, but instead loaded a collection of all company roles.
+![Fixed issue](../assets/fix.svg) <!--- MC-40798--> Adobe Commerce no longer fails with an out-of-memory error when executing the `app/code/Magento/PurchaseOrder/Setup/Patch/Data/InitPermissions.php::apply` method during `bin/magento setup:upgrade`. Previously, Adobe Commerce did not use batch size for collection when initializing permissions, but instead loaded a collection of all company roles.
 
 ![Fixed issue](../assets/fix.svg) <!--- MC-40551--> Company users can now edit and update customer custom attribute values. Previously, these attributes did not bind properly with the create and edit user form. A company user could enter different attribute values, but Adobe Commerce did not save these values correctly.
 
@@ -133,7 +133,7 @@ This extension release is fully compatible with Adobe Commerce 2.4.3.
 
 ![Fixed issue](../assets/fix.svg) <!--- MC-41283--> The Quick Order autocomplete feature now works with partial SKUs.
 
-![Fixed issue](../assets/fix.svg) <!--- MC-41299--> Adobe Commerce now displays products that have been configured as **Not visible individually** on the Quick Order page’s auto-suggest list and search results.
+![Fixed issue](../assets/fix.svg) <!--- MC-41299--> Adobe Commerce now displays products that have been configured as **Not visible individually** on the Quick Order page's auto-suggest list and search results.
 
 ![Fixed issue](../assets/fix.svg) <!--- MC-42402--> Shoppers can now use the Quick Order form to add multiple products by SKUs that include upper-case characters. Previously, only the first product was added.
 
@@ -157,7 +157,7 @@ This extension release is fully compatible with Adobe Commerce 2.4.3.
 
 ![Fixed issue](../assets/fix.svg) <!--- MC-40426--> Merchants can now use the POST `rest/all/V1/requisition_lists` endpoint to create a requisition list for a customer. Previously, Adobe Commerce threw this 400 error when you tried to create a requisition list: `Could not save Requisition List`.
 
-![Fixed issue](../assets/fix.svg) <!--- MC-41123--> The **[!UICONTROL Add to Requisition List]** button now appears for a shopping cart’s in-stock products when the cart also contains out-of-stock products. Previously, if a cart contained two products, one of which was out-of-stock, the _[!UICONTROL Add to Requisition List]_ button did not appear for either products.
+![Fixed issue](../assets/fix.svg) <!--- MC-41123--> The **[!UICONTROL Add to Requisition List]** button now appears for a shopping cart's in-stock products when the cart also contains out-of-stock products. Previously, if a cart contained two products, one of which was out-of-stock, the _[!UICONTROL Add to Requisition List]_ button did not appear for either products.
 
 ![Fixed issue](../assets/fix.svg) <!--- MC-40877--> You can now use the REST API to add a product to a requisition list.
 
@@ -181,7 +181,7 @@ This extension release is fully compatible with Adobe Commerce 2.4.3.
 
 ![Fixed issue](../assets/fix.svg) <!--- MC-39802--> Filters are now filtered by the current category and displayed correctly on all pages when shared catalogs are enabled. Previously, filters were wrongly calculated for the current page only and were not filtered by the current category.
 
-![Fixed issue](../assets/fix.svg) <!--- MC-39522--> The GraphQL `products` query no longer returns  a product’s price range and category for products that are not assigned to a shared catalog when shared catalog is enabled. Previously, the query returned the product’s aggregations, even though the product itself was not returned in the `items` array.
+![Fixed issue](../assets/fix.svg) <!--- MC-39522--> The GraphQL `products` query no longer returns  a product's price range and category for products that are not assigned to a shared catalog when shared catalog is enabled. Previously, the query returned the product's aggregations, even though the product itself was not returned in the `items` array.
 
 ## B2B v1.3.1
 
@@ -223,15 +223,15 @@ This extension release is fully compatible and supported with Adobe Commerce 2.4
 
 ![Fixed issue](../assets/fix.svg) The performance of the `sharedCatalogUpdateCategoryPermissions` consumer has been improved. After creating a shared catalog, the catalog permission indexer now uses only the customer group ID from the shared catalog, not all customer groups. <!--- MC-36770-->
 
-![Fixed issue](../assets/fix.svg) Custom customer address attribute fields that are associated with a shopper’s non-default address are now saved as expected in the storefront checkout workflow. <!--- MC-36630-->
+![Fixed issue](../assets/fix.svg) Custom customer address attribute fields that are associated with a shopper's non-default address are now saved as expected in the storefront checkout workflow. <!--- MC-36630-->
 
-![Fixed issue](../assets/fix.svg) Orders for products that belong to a store’s default shared catalog can now be placed for shoppers through the Admin REST API (`rest/V1/carts/{<CART_ID>/items`) as expected. Adobe Commerce now checks if the product was assigned to a public catalog before shared catalog permissions validation in `\Magento\SharedCatalog\Plugin\Quote\Api\ValidateAddProductToCartPlugin::beforeSave`. Previously, Adobe Commerce did not add the product to the shopper’s cart and threw this error: `No such shared catalog entity`. <!--- MC-36535-->
+![Fixed issue](../assets/fix.svg) Orders for products that belong to a store's default shared catalog can now be placed for shoppers through the Admin REST API (`rest/V1/carts/{<CART_ID>/items`) as expected. Adobe Commerce now checks if the product was assigned to a public catalog before shared catalog permissions validation in `\Magento\SharedCatalog\Plugin\Quote\Api\ValidateAddProductToCartPlugin::beforeSave`. Previously, Adobe Commerce did not add the product to the shopper's cart and threw this error: `No such shared catalog entity`. <!--- MC-36535-->
 
-![Fixed issue](../assets/fix.svg) Adobe Commerce now sends new company user registration emails from the Adobe Commerce store's address. Previously, this email was sent from the company administrator’s address. <!--- MC-36480-->
+![Fixed issue](../assets/fix.svg) Adobe Commerce now sends new company user registration emails from the Adobe Commerce store's address. Previously, this email was sent from the company administrator's address. <!--- MC-36480-->
 
 ![Fixed issue](../assets/fix.svg) Adobe Commerce now checks custom attributes for duplication of reserved company attribute names before permitting a merchant to save a new attribute. <!--- MC-36282-->
 
-![Fixed issue](../assets/fix.svg) The `credit_history` query now returns the specified company’s credit history for both the originally allocated amount and the purchased amount. Previously, this query returned an error.
+![Fixed issue](../assets/fix.svg) The `credit_history` query now returns the specified company's credit history for both the originally allocated amount and the purchased amount. Previously, this query returned an error.
 
 ![Fixed issue](../assets/fix.svg) The **[!UICONTROL Company]** and  **[!UICONTROL Job Title]** fields on the Edit Account Information page are no longer editable.
 
@@ -263,7 +263,7 @@ This release includes improvements to order approvals, shipping methods, shoppin
 
 ![New](../assets/new.svg) B2B merchants can create orders from the Admin on behalf of customers using Payment on Account as the payment method. <!--- BUNDLE-166 178-->
 
-![New](../assets/new.svg) Merchants can now directly view all quotes associated with a user from the customer’s detail page. <!--- BUNDLE-139 -->
+![New](../assets/new.svg) Merchants can now directly view all quotes associated with a user from the customer's detail page. <!--- BUNDLE-139 -->
 
 ![New](../assets/new.svg) Merchants can now filter the Customers Now Online grid by Company. <!--- BUNDLE-137 -->
 
@@ -309,7 +309,7 @@ This release includes improvements to order approvals, shipping methods, shoppin
 
 ![Fixed issue](../assets/fix.svg) Merchants can now create company users from the _[!UICONTROL Company Users]_ section in My Account and Company Structure pages when **[!UICONTROL Access Restriction]** is enabled and **[!UICONTROL Restriction Mode]** is set to `Sales: Login Only`. Previously, Adobe Commerce threw this error when a merchant tried to create a user: `Can not register new customer due to restrictions are enabled`. <!--- MC-33608-->
 
-![Fixed issue](../assets/fix.svg) Adobe Commerce no longer resets a customer’s customer group to the default when a customer saves their account information. <!--- MC-33554-->
+![Fixed issue](../assets/fix.svg) Adobe Commerce no longer resets a customer's customer group to the default when a customer saves their account information. <!--- MC-33554-->
 
 ![Fixed issue](../assets/fix.svg) Adobe Commerce no longer throws a fatal error when an administrator assigns a customer who has an active shopping cart to a customer group. <!--- MC-33313-->
 
@@ -363,7 +363,7 @@ This extension release is fully compatible and supported with Adobe Commerce 2.4
 
 ![Fixed issue](../assets/fix.svg) A fix is added to allow store administrators to add products to an order that are not in the shared catalog. Previously, an error message would appear when adding an item not in the catalog.
 
-![Fixed issue](../assets/fix.svg) Previously, after running the command `php bin/Adobe Commerce indexer:set-dimensions-mode catalog_product_price website` and then trying to create a shared catalog, an error would occur. This issue has been fixed.
+![Fixed issue](../assets/fix.svg) Previously, after running the command `php bin/magento indexer:set-dimensions-mode catalog_product_price website` and then trying to create a shared catalog, an error would occur. This issue has been fixed.
 
 ![Fixed issue](../assets/fix.svg) When adding a company and assigning the company administrator to a non-default website, the wrong site ID was sent, causing an error. This issue has been fixed.
 

@@ -10,7 +10,7 @@ Aside from the absence of the _[!UICONTROL Weight]_ field, the process of creati
 
 >[!NOTE]
 >
->PayPal has deprecated support for the sale of digital goods through PayPal Express Checkout. They recommend that you use either [PayPal Payments Standard](https://docs.magento.com/user-guide/payment/paypal-payments-standard.html) or any other PayPal payment gateway to process any order that includes virtual products.
+>PayPal has deprecated support for the sale of digital goods through PayPal Express Checkout. They recommend that you use either [PayPal Payments Standard](../stores-purchase/paypal-payments-standard.md) or any other PayPal payment gateway to process any order that includes virtual products.
 
 ![Virtual Product](./assets/product-virtual-membership.png)<!-- zoom -->
 

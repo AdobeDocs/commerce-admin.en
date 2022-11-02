@@ -48,7 +48,7 @@ For a category to appear in the top navigation of a store, complete the followin
 
 1. When complete, click **[!UICONTROL Save]**.
 
-For a multistore installation, a different main menu can be assigned as the [root category](category-root.md) for each [store](https://docs.magento.com/user-guide/stores/stores-all-create-store.html).
+For a multistore installation, a different main menu can be assigned as the [root category](category-root.md) for each [store](../stores-purchase/stores.md#add-stores).
 
 ### Step 2: Set the depth of the top navigation
 

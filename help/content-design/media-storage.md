@@ -5,7 +5,7 @@ exl-id: 5cf1bb20-d747-4a12-8558-e167c229efe8
 ---
 # Media Storage
 
-Media storage helps you organize and gain access to media files that are stored on the server. The path to the location of the files is determined by the [Base URL](https://docs.magento.com/user-guide/stores/store-urls.html) configuration. Files in media storage can be accessed from the editor while working on pages and static blocks. Usually, Media Storage is located in the file system on the same server as the [!DNL Commerce] program files.
+Media storage helps you organize and gain access to media files that are stored on the server. The path to the location of the files is determined by the [base URL](../stores-purchase/store-urls.md) configuration. Files in media storage can be accessed from the editor while working on pages and static blocks. Usually, Media Storage is located in the file system on the same server as the [!DNL Commerce] program files.
 
 Alternatively, media files can be managed in a [database](media-storage-database.md), or located on a separate server or [content delivery network](media-storage-content-delivery-network.md). The advantage of using alternate storage is that it minimizes the effort required to synchronize media when multiple instances of the system that are deployed on different servers that need access to the same images, CSS files, and other media files.
 

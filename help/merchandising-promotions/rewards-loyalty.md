@@ -26,7 +26,7 @@ Points can be redeemed by Admin users and customers (if enabled) during checkout
 
 ## Refund to reward points
 
-Orders placed with reward points can be refunded to the reward points balance up to the amount redeemed in the order. On the [_New Credit Memo_ page](https://docs.magento.com/user-guide/sales/credit-memo-create.html), the number of points to be applied to the customer's balance can be entered. By default, the field contains the full number of points that were used in the order.
+Orders placed with reward points can be refunded to the reward points balance up to the amount redeemed in the order. On the [_New Credit Memo_ page](../stores-purchase/credit-memo-create.md), the number of points to be applied to the customer's balance can be entered. By default, the field contains the full number of points that were used in the order.
 
 ## Enable reward point operations for your store
 
@@ -79,6 +79,10 @@ In this step, the number of reward points that can be earned for various custome
    ![Customers configuration - actions for acquiring reward points by customer](../configuration-reference/customers/assets/reward-points-actions-for-acquiring.png)<!-- zoom -->
 
 1. To display a message in the shopping cart that includes the rewards points earned for the purchase and the customer's current reward point balance, set **[!UICONTROL Purchase]** to `Yes`.
+
+   >[!NOTE]
+   >
+   >To earn reward points for their _first_ order, the customer must be registered _before_ the transaction is captured by the payment method. Most payment methods could be configured to capture transactions _automatically_ when the order is placed, but _before_ the customer account registration is finished.
 
 1. For **[!UICONTROL Registration]**, enter the number of points earned for opening a customer account.
 

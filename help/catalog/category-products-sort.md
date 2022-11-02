@@ -8,7 +8,7 @@ description: Learn how to define the positioning of products in a category manua
 
 The position of products in a category can be specified manually by dragging and dropping products into position or by applying a predefined sort order. By default, products can be sorted by stock level, age, color, name, SKU, and price. Automatic sort overrides the current sort order and resets any drag-and-drop positions that were set manually. The sort order of colors and the minimum stock level that can be required for products to be included in the list are set in the [Visual Merchandiser](https://docs.magento.com/user-guide/configuration/catalog/visual-merchandiser.html) configuration.
 
-You can set up the category options separately for each [store](https://docs.magento.com/user-guide/stores/stores-all-create-store.html) to determine the selection of products, their relative position in the list, and the attributes that are available for category rules. However, only one sort order can be assigned to the [store view](https://docs.magento.com/user-guide/stores/stores-all-create-view.html) level of any store.
+You can set up the category options separately for each [store](../stores-purchase/stores.md#add-stores) to determine the selection of products, their relative position in the list, and the attributes that are available for category rules. However, only one sort order can be assigned to the [store view](../stores-purchase/store-views.md) level of any store.
 
 ## Step 1: Set the scope of the configuration
 

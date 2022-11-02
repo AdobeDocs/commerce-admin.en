@@ -7,7 +7,7 @@ exl-id: cc4ca518-d98c-48f3-9051-6fb3c6fae9fe
 
 [!DNL Inventory Management] includes additional features and options for managing inventory quantities through the shipment process. As you review and fulfill shipments, cancel orders, and issue credit memos, product salable and on-hand quantities automatically update.
 
-This information includes specifics for [!DNL Inventory Management]. For additional information, see the [Orders](https://docs.magento.com/user-guide/sales/order-management.html){target="_blank"} section of the core user guide.
+This information includes specifics for [!DNL Inventory Management]. For additional information, see the [Orders](../stores-purchase/orders.md){target="_blank"} topic in the _Sales and Purchase Experience Guide_.
 
 ## Orders
 
@@ -23,7 +23,7 @@ For multi-address orders, a series of single orders is generated---one for each 
 
 ### Refunds
 
-When entering a [credit memo](https://docs.magento.com/user-guide/sales/credit-memo-create.html){target="_blank"} to issue a refund, you can return the product quantity to the deducted source. The order information includes the inventory source that shipped the product. It is recommended that you award the returned product quantity through a credit memo when you receive the returned product.
+When entering a [credit memo](../stores-purchase/credit-memo-create.md){target="_blank"} to issue a refund, you can return the product quantity to the deducted source. The order information includes the inventory source that shipped the product. It is recommended that you award the returned product quantity through a credit memo when you receive the returned product.
 
 ![Items to Refund with Return to Stock Selected](assets/credit-memo-items-to-refund.png)
 

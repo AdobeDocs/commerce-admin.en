@@ -4,15 +4,15 @@ description: Review an example of using a cart price rule to offer free shipping
 ---
 # Cart price rule example - free shipping promotion
 
-Free shipping can be offered as a promotion, either with, or without a [coupon](price-rules-cart-coupon.md). A free shipping coupon, or voucher, can also be applied to customer pick-up orders, so the order can be invoiced and shipped to complete the [workflow](https://docs.magento.com/user-guide/sales/order-workflow.html).
+Free shipping can be offered as a promotion, either with, or without a [coupon](price-rules-cart-coupon.md). A free shipping coupon, or voucher, can also be applied to customer pick-up orders, so the order can be invoiced and shipped to complete the [workflow](../stores-purchase/order-processing.md#order-workflow-and-processing).
 
 Some shipping carrier configurations give you the ability to offer free shipping based on a minimum order. To expand upon this basic capability, you can use shopping cart price rules to create complex conditions based on multiple product attributes, cart contents, and customer groups.
 
 ## Step 1. Enable free shipping
 
-1. Enable [free shipping](https://docs.magento.com/user-guide/shipping/shipping-free.html) in your store configuration.
+1. Enable [free shipping](../stores-purchase/shipping-free.md) in your store configuration.
 
-1. Complete the free shipping settings for any [carrier service](https://docs.magento.com/user-guide/shipping/carriers.html) that you want to use for free shipping.
+1. Complete the free shipping settings for any [carrier service](../stores-purchase/carriers.md) that you want to use for free shipping.
 
 ## Step 2. Create a cart price rule
 

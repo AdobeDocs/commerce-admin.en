@@ -15,7 +15,7 @@ For the Default (General) public shared catalog, you must assign products to dis
 >
 >When the shared catalog feature is enabled in the configuration, each category permission for the catalog is set to `Deny` for all customer groups automatically. Also, when a new category is created, it has the `Deny` category permissions by default to prevent showing that category on the storefront site before assignment to the shared catalog.
 
-The Shared Catalogs page provides access to the tools used for managing your shared catalogs. The page is similar to the standard [Admin workspace](https://docs.magento.com/user-guide/stores/admin-workspace.html), with filters and action controls. The grid lists all shared catalogs, including the default public shared catalog, and any custom catalogs that you have set up.
+The Shared Catalogs page provides access to the tools used for managing your shared catalogs. The page is similar to the standard [Admin workspace](../getting-started/admin-workspace.md), with filters and action controls. The grid lists all shared catalogs, including the default public shared catalog, and any custom catalogs that you have set up.
 
 ![Shared Catalogs](./assets/shared-catalogs-grid.png)<!-- zoom -->
 
@@ -25,7 +25,7 @@ On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Shared Ca
 
 ## Actions controls
 
-The [Actions controls](https://docs.magento.com/user-guide/stores/admin-actions-control.html) in the upper-left corner can be used with the mass actions control to delete selected shared catalogs that are no longer needed. In the grid, the Actions column contains the full selection of tools to manage your shared catalogs.
+The [Actions controls](../getting-started/admin-actions-control.md) in the upper-left corner can be used with the mass actions control to delete selected shared catalogs that are no longer needed. In the grid, the Actions column contains the full selection of tools to manage your shared catalogs.
 
 ![Shared Catalog Actions](./assets/shared-catalog-grid-action-column-controls.png)<!-- zoom -->
 

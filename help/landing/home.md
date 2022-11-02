@@ -85,8 +85,8 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 <tr>
     <td valign="top">
        <img alt="Sales and Purchase Experience" src="./assets/icon-shopping-cart.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://docs.magento.com/user-guide/sales.html"> <strong>Sales and Purchase Experience</strong></a>
-    <div><em>The cart is positioned at the end of the path to purchase, at the intersection of Buy and Abandon. Set up the point of purchase and the supporting functions that turn shopping cart items into completed orders.</em></div>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/guide-overview.html"> <strong>Sales and Purchase Experience</strong></a>
+    <div><em>The cart is positioned at the end of the path to purchase, at the intersection of buy and abandon. Set up the point of purchase and the supporting functions that turn shopping cart items into completed orders.</em></div>
   </td>
 </tr>
 <tr>
@@ -113,6 +113,7 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 
 | Description | Type | Date |
 | ----------- | ---- | ---- |
+| **New guide** - Content now published in the Experience League: [Sales and Purchase Experience Guide](../stores-purchase/guide-overview.md) | Move | 10/25/2022 |
 | **New guide** - Content now published in the Experience League: [Merchandising and Promotions Guide](../merchandising-promotions/guide-overview.md) | Move | 9/27/2022 |
 | **New page section** - Added information about [removal of the Inventory Management modules](../inventory-management/install-update.md#remove-inventory-management) to improve performance for Commerce instances that do not use these features. | Update | 9/21/2022 |
 | **New guide** - Content now published in the Experience League: [Catalog Management Guide](../catalog/guide-overview.md) | Move | 9/1/2022 |
