@@ -1,6 +1,6 @@
 ---
 title: Import configurable products
-description: Placeholder
+description: Review an example of importing product data for a configurable product.
 ---
 # Import configurable products
 
@@ -10,23 +10,23 @@ In the following example, you add a set of product variations for a new size in 
 
 ![Example storefront - size and color attributes](./assets/storefront-hoodie-new-size.png)<!-- zoom -->
 
-## Step 1: Verify Attribute Settings and Values
+## Step 1: Verify attribute settings and values
 
 1. Before you begin, make sure that the attributes that are used for product variations have the required property settings.
 
-   - [**Scope**](https://docs.magento.com/user-guide/configuration/scope.html) - `Global`
-   - [**Catalog Input Type for Store Owner**](https://docs.magento.com/user-guide/stores/attributes-product.html) - The input type of any attribute that is used for a product variation must be one of the following:
+   - [**[!UICONTROL Scope]**](https://docs.magento.com/user-guide/configuration/scope.html) - `Global`
+   - [**[!UICONTROL Catalog Input Type for Store Owner]**](https://docs.magento.com/user-guide/stores/attributes-product.html) - The input type of any attribute that is used for a product variation must be one of the following:
 
       - `Dropdown`
       - `Visual Swatch`
       - `Text Swatch`
       - `Multi-Select`
 
-   - **Values Required** - `Yes`
+   - **[!UICONTROL Values Required]** - `Yes`
 
-1. If you are adding a new size or color, or making any other change to an existing attribute, make sure to update the attribute with the new value.
+1. If you are adding a size or color, or making any other change to an existing attribute, make sure to update the attribute with the new value.
 
-1. On the _Admin_ sidebar, go to **Stores** > _Attributes_ > **Product**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_ > **[!UICONTROL Product]**.
 
 1. Find the attribute in the list and open in edit mode.
 
@@ -36,33 +36,33 @@ In the following example, you add a set of product variations for a new size in 
 
    ![Product attribute - add new value](./assets/data-transfer-configurable-product-add-new-attribute-value.png)<!-- zoom -->
 
-1. When complete, click **Save Attribute**.
+1. When complete, click **[!UICONTROL Save Attribute]**.
 
-1. If you are adding a new attribute, follow the instructions to [create the attribute](../catalog/attribute-product-create.md) before you begin.
+1. If you are adding an attribute, follow the instructions to [create the attribute](../catalog/attribute-product-create.md) before you begin.
 
-## Step 2: Export the Configurable Product
+## Step 2: Export the configurable product
 
-1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
 1. Find the configurable product to export:
 
-   - Click **Filters**.
-   - Set **Type** to `Configurable Product` and click **Apply Filters**.
-   - Choose the configurable product that you want to use for your test export and take note of the **SKU**.
+   - Click **[!UICONTROL Filters]**.
+   - Set **[!UICONTROL Type]** to `Configurable Product` and click **[!UICONTROL Apply Filters]**.
+   - Choose the configurable product that you want to use for your test export and take note of the **[!UICONTROL SKU]**.
 
-1. On the _Admin_ sidebar, go to **System** > _Data Transfer_ > **Export**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_ > **[!UICONTROL Export]**.
 
-1. Under **Export Settings**, do the following:
+1. Under _[!UICONTROL Export Setting]s_, do the following:
 
-   - Set **Entity Type** to `Products`.
+   - Set **[!UICONTROL Entity Type]** to `Products`.
 
-   - Set **Export File Format** to `CSV`.
+   - Set **[!UICONTROL Export File Format]** to `CSV`.
 
    ![Data export settings](./assets/data-transfer-export-settings.png)<!-- zoom -->
 
-1. Under **Entity Attributes**, scroll down to **SKU** and do the following:
+1. Under _[!UICONTROL Entity Attributes]_, scroll down to **[!UICONTROL SKU]** and do the following:
 
-   - Enter the **SKU** of the configurable product that you have chosen to export and click **Continue**.
+   - Enter the SKU of the configurable product that you have chosen to export and click **[!UICONTROL Continue]**.
 
       ![Data export SKU](./assets/data-transfer-export-sku.png)<!-- zoom -->
 
@@ -77,13 +77,13 @@ In the following example, you add a set of product variations for a new size in 
       - `configurable_variations` - Defines the one-to-many relationship between the configurable product record and each variation.
       - `configurable_variation_labels` - Defines the label that identifies each variation.
 
-      In this example, the data can be found in columns CG and CH. Depending on the number of variations, the string of data in the `configurable_variations` column can be quite long. The data is used an an index to the associated product variations, and has the following structure:
+      In this example, the data can be found in columns CG and CH. Depending on the number of variations, the string of data in the `configurable_variations` column can be long. The data is used as an index to the associated product variations, and has the following structure:
 
       ```text
-     sku=\{\{SKU_VALUE}},attribute1=\{\{VALUE}},attribute2=\{\{VALUE}}| sku=\{\{SKU_VALUE}},attribute1=\{\{VALUE}},attribute2=\{\{VALUE}}
+      sku={{SKU_VALUE}},attribute1={{VALUE}},attribute2={{VALUE}}| sku={{SKU_VALUE}},attribute1={{VALUE}},attribute2={{VALUE}}
       ```
 
-      Each sku is separated by a pipe symbol (&#124;), and attributes are separated by a comma. The value of each attribute is represented by the attribute code, rather than the attribute label. This is how the actual data appears:
+      Each SKU is separated by a pipe symbol (&#124;), and attributes are separated by a comma. The value of each attribute is represented by the attribute code, rather than the attribute label. This is how the actual data appears:
 
       ```text
       sku=MH01-XS-Black,size=XS,color=Black|sku=MH01-XS-Gray,size=XS,color=Gray|sku=MH01-XS-Orange,size=XS,color=Orange</pre>
@@ -93,9 +93,9 @@ In the following example, you add a set of product variations for a new size in 
 
    To learn more, see [Complex Data](data-attributes-product.md#complex-product-data-attributes).
 
-## Step 3: Edit the Data
+## Step 3: Edit the data
 
-In the following example, the set of XL sizes is copied and pasted into the worksheet to create a new set of product variations for a new size in each color.
+In the following example, the set of XL sizes is copied and pasted into the worksheet to create a set of product variations for a new size in each color.
 
 1. Copy the set of product variations that you want to use as a template for the new products.
 
@@ -132,38 +132,38 @@ In the following example, the set of XL sizes is copied and pasted into the work
 
    ![CSV data to import](./assets/data-transfer-csv-configurable-product-data-ready-to-import.png)<!-- zoom -->
 
-1. **Save** the CSV file.
+1. **[!UICONTROL Save]** the CSV file.
 
    The data is ready to import into the catalog.
 
    >[!NOTE]
    >
-   >The size of an import file cannot be larger than 2 megabytes.
+   >The size of an import file cannot be larger than 2 MB.
 
-## Step 4: Import the Updated Data
+## Step 4: Import the updated data
 
-1. On the _Admin_ sidebar, go to **System** > _Data Transfer_ > **Import**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_ > **[!UICONTROL Import]**.
 
-1. Under _Import Settings_, set **Entity Type** to `Products`.
+1. Under _[!UICONTROL Import Settings]_, set **[!UICONTROL Entity Type]** to `Products`.
 
    ![Data import settings](./assets/data-transfer-configurable-product-import-settings.png)<!-- zoom -->
 
-1. Under _Import Behavior_, set **Import Behavior** to `Add/Update`.
+1. Under _[!UICONTROL Import Behavior]_, set **[!UICONTROL Import Behavior]** to `Add/Update`.
 
    ![Data import behavior](./assets/data-transfer-configurable-product-import-behavior.png)<!-- zoom -->
 
-1. Under _File to Import_, click **Choose File** and navigate to the CSV file that you prepared for import and choose the file.
+1. Under _[!UICONTROL File to Import]_, click **[!UICONTROL Choose File]** and navigate to the CSV file that you prepared for import and choose the file.
 
    ![Data import file](./assets/data-transfer-configurable-product-file-to-import.png)<!-- zoom -->
 
-1. In the upper-right corner, click **Check Data**.
+1. In the upper-right corner, click **[!UICONTROL Check Data]**.
 
-1. If the file is valid, click **Import**.
+1. If the file is valid, click **[!UICONTROL Import]**.
 
    Otherwise, correct any problems found in the data and try again.
 
    ![System message - file is valid](./assets/data-transfer-configurable-product-import-validation-results.png)<!-- zoom -->
 
-1. When the import is complete, click **Cache Management** in the message at the top of the page and refresh all invalid caches.
+1. When the import is complete, click **[!UICONTROL Cache Management]** in the message at the top of the page and refresh all invalid caches.
 
    The new product variations are now available in the catalog from the Admin and in the storefront. In this example, the hoodie is now available in size XXL for all colors.

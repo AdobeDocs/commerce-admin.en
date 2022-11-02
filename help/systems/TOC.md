@@ -1,15 +1,15 @@
 ---
-user-guide-title: Systems and Admin Integrations Guide
+user-guide-title: Admin Systems Guide
 user-guide-description: add description here
-breadcrumb-title: Systems and Integrations
-hide: yes
+breadcrumb-title: Admin Systems Guide
+hide: no
 ---
 
-# Systems and Admin Integrations Guide {#systems}
+# Admin Systems Guide {#systems}
 
-- [Systems and Admin integrations overview](guide-overview.md)
-- [Introduction](introduction.md)
-- [System menu](system-menu.md)
+- [Admin Systems Guide](guide-overview.md)
+- [Introduction to Admin systems](introduction.md)
+- [[!UICONTROL System] menu](system-menu.md)
 - Admin user accounts {#user-accounts}
   - [Admin permissions](permissions.md)
   - [Manage user accounts](permissions-users-all.md)

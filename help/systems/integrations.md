@@ -1,6 +1,6 @@
 ---
 title: Third-party integrations
-description: Placeholder
+description: Learn how to configure OAuth credentials and redirect URL for third-party integrations.
 ---
 # Third-party integrations
 
@@ -10,29 +10,29 @@ Establishes the location of [OAuth](https://developer.adobe.com/commerce/webapi/
 
 ## Onboarding workflow
 
-1. **Authorize the integration** - Go to the **System** > _Extensions_ > **Integrations** screen, find the relevant integration, and authorize.
-1. **Verify and establish login** - When prompted, accept the access requested. If redirected to a third-party, log in to the system, or create a new account. After a successful login, you return to the integration page.
+1. **Authorize the integration** - Go to the **[!UICONTROL System]** > _[!UICONTROL Extensions]_ > **[!UICONTROL Integrations]** page, find the relevant integration, and authorize.
+1. **Verify and establish login** - When prompted, accept the access requested. If redirected to a third-party, log in to the system, or create an account. After a successful login, you return to the integration page.
 1. **Receive confirmation of authorized integration** - The system sends notification that the integration has been authorized successfully. After setting up an integration and receiving the credentials, it is no longer necessary to make calls to access or request tokens.
 
-## Add a new integration
+## Add an integration
 
-1. On the _Admin_ sidebar, go to **System** > _Extensions_ > **Integrations**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Extensions]_ > **[!UICONTROL Integrations]**.
 
-1. Enter the following Integration Info:
+1. Enter the following integration information:
 
-   - Enter the **Name** of the integration and the contact **Email** address.
+   - Enter the **[!UICONTROL Name]** of the integration and the contact **[!UICONTROL Email]** address.
 
-   - Enter the **Callback URL** where OAuth credentials can be sent when using OAuth for token exchange. We strongly recommend using `https://`.
+   - Enter the **[!UICONTROL Callback URL]** where OAuth credentials can be sent when using OAuth for token exchange. We strongly recommend using `https://`.
 
-   - Enter the **Identity Link URL** to redirect the users to a third-party account with these Adobe Commerce or Magento Open Source integration credentials.
+   - Enter the **[!UICONTROL Identity Link URL]** to redirect the users to a third-party account with these Adobe Commerce or Magento Open Source integration credentials.
 
-   - When prompted, enter **Your Password** to confirm your identity.
+   - When prompted, enter your password to confirm your identity.
 
    ![New integration](./assets/integration-new.png)<!-- zoom -->
 
-1. In the left panel, choose **API** and do the following:
+1. In the left panel, choose **[!UICONTROL API]** and do the following:
 
-   - Set **Resource Access** to one of the following:
+   - Set **[!UICONTROL Resource Access]** to one of the following:
 
       - `All`
       - `Custom`
@@ -41,60 +41,60 @@ Establishes the location of [OAuth](https://developer.adobe.com/commerce/webapi/
 
       ![Integrations - available API](./assets/integrations-available-api.png)<!-- zoom -->
 
-1. When complete, click **Save**.
+1. When complete, click **[!UICONTROL Save]**.
 
 ## Activate an integration
 
-By default, a saved integration appears on the grid with an _Inactive_ status. To activate it, complete the following steps:
+By default, a saved integration appears on the grid with an `Inactive` status. To activate it, complete the following steps:
 
-1. On the _Admin_ sidebar, go to **System** > _Extensions_ > **Integrations**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Extensions]_ > **[!UICONTROL Integrations]**.
 
-1. Find the newly created integration and click the **Activate** link.
+1. Find the newly created integration and click the **[!UICONTROL Activate]** link.
 
-1. In the upper-right corner, click **Allow**.
+1. In the upper-right corner, click **[!UICONTROL Allow]**.
 
    This displays the Integration Tokens for Extensions. Copy this information to a secure, encrypted location for use with your integration.
 
    ![Integration Tokens for Extensions](./assets/integration-tokens-for-extensions.png)<!-- zoom -->
 
-1. In the upper-right corner, click **Done**.
+1. In the upper-right corner, click **[!UICONTROL Done]**.
 
 ## Reauthorize an integration
 
-To generate a new Integration Access Token and Access Token Secret, re-authorized the integration from the Admin Panel.
+To generate a new Integration Access Token and Access Token Secret, reauthorized the integration from the Admin Panel.
 
-1. On the _Admin_ sidebar, go to **System** > _Extensions_ > **Integrations**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Extensions]_ > **[!UICONTROL Integrations]**.
 
-1. Find the integration with the **Active** status.
+1. Find the integration with the **[!UICONTROL Active]** status.
 
-1. In _Activate_ column, click the **Reauthorize**.
+1. In _[!UICONTROL Activate]_ column, click the **[!UICONTROL Reauthorize]**.
 
-1. Click **Reauthorize** to approve access to the API resources.
+1. Click **[!UICONTROL Reauthorize]** to approve access to the API resources.
 
-1. Save the new integration tokens for extensions and click **Done**.
+1. Save the new integration tokens for extensions and click **[!UICONTROL Done]**.
 
 ## Change the API guest access security setting
 
 By default, the system does not permit anonymous guest access to CMS, catalog, and other store resources. If you need to change the setting, do the following:
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Services** and choose **Magento Web API**.
+1. In the left panel, expand **[!UICONTROL Services]** and choose **[!UICONTROL Magento Web API]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Web API Security Setting** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Web API Security Setting]** section.
 
    ![Services configuration - web API security settings](./assets/web-api-security.png)<!-- zoom -->
 
-1. Set **Allow Anonymous Guest Access** to `Yes`.
+1. Set **[!UICONTROL Allow Anonymous Guest Access]** to `Yes`.
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.
 
 See [Restricting access to anonymous web APIs](https://developer.adobe.com/commerce/webapi/rest/use-rest/anonymous-api-security/){:target="_blank"} in the developer documentation.
 
 ## Delete an integration
 
-1. On the _Admin_ sidebar, go to **System** > _Extensions_ > **Integrations**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Extensions]_ > **[!UICONTROL Integrations]**.
 
-1. Find the existing integration and click the icon ( ![trashcan icon](../assets/icon-delete-trashcan-solid.png) ) in the **Delete** column.
+1. Find the existing integration and click the icon ( ![trashcan icon](../assets/icon-delete-trashcan-solid.png) ) in the **[!UICONTROL Delete]** column.
 
-1. To confirm your action, click **OK**.
+1. To confirm your action, click **[!UICONTROL OK]**.

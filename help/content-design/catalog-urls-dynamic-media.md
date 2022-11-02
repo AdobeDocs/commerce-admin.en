@@ -8,9 +8,9 @@ A dynamic media URL is a relative reference to an image or other media asset. Wh
 
 As with all [markup tags](../systems/markup-tags.md), the directive is enclosed in double curly braces. The format of a dynamic media URL looks like the following:
 
-\{% raw %}\{\{media url="path/to/image.jpg"}}{% endraw %}`
+`\{\{media url="path/to/image.jpg"}}`
 
-Dynamic URL directives are processed from saved HTML content when the page is rendered on the storefront. Each time the page is rendered, the content is scanned for `{% raw %}\{\{media url="..."}}{% endraw %}` and each directive is replaced with the corresponding media URL.
+Dynamic URL directives are processed from saved HTML content when the page is rendered on the storefront. Each time the page is rendered, the content is scanned for `\{\{media url="..."}}` and each directive is replaced with the corresponding media URL.
 
 {{$include /help/_includes/directives-caution.md}}
 
@@ -30,6 +30,6 @@ By default, images inserted into the catalog from the WYSIWYG editor have relati
 
    - `Yes` - Uses static URLs for media content that is inserted with the WYSIWYG editor. Static URLs are absolute and break if the [base URL](../stores-purchase/store-urls.md) of the store changes.
 
-   - `No` - (Default) Uses dynamic URLs for media content that is inserted with the WYSIWYG editor, based on the `{% raw %}\{\{media url="..."}}{% endraw %}` directive. Dynamic URLs are relative and do not break if the base URL of the store changes.
+   - `No` - (Default) Uses dynamic URLs for media content that is inserted with the WYSIWYG editor, based on the `\{\{media url="..."}}` directive. Dynamic URLs are relative and do not break if the base URL of the store changes.
 
 1. When complete, click **[!UICONTROL Save Config]**.

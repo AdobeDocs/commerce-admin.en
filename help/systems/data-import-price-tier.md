@@ -1,6 +1,6 @@
 ---
 title: Import tier prices
-description: Placeholder
+description: Learn how to export tier pricing data and import updated data.
 ---
 # Import tier prices
 
@@ -16,11 +16,11 @@ The following example exports tier pricing data for a single product. Then, you 
 
 ### Tier pricing
 
-1. On _Admin_ sidebar, go to  **System** > _Data Transfer_ > **Export**.
+1. On _Admin_ sidebar, go to  **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_ > **[!UICONTROL Export]**.
 
-1. Under _Export Settings_, set **Entity Type** to `Advanced Pricing`.
+1. Under _[!UICONTROL Export Settings]_, set **[!UICONTROL Entity Type]** to `Advanced Pricing`.
 
-1. In the **Entity Attributes** grid, scroll down to the SKU attributes and do the following:
+1. In the **[!UICONTROL Entity Attributes]** grid, scroll down to the SKU attributes and do the following:
 
     - For tier prices that are based on a discount percentage, enter the SKU of each product to be exported, separated by a comma.
 
@@ -28,7 +28,7 @@ The following example exports tier pricing data for a single product. Then, you 
 
     - For tier prices that are based on a fixed amount, enter the SKU of each product.
 
-    - Scroll down and click **Continue**.
+    - Scroll down and click **[!UICONTROL Continue]**.
 
 1. Locate the export file at the downloads location for your web browser and open the file.
 
@@ -53,24 +53,24 @@ You use the exported data as a template for importing tier price data.
 
    Any products without tier price updates can be deleted from the CSV file. There is no need to reimport products that have not changed.
 
-1. **Save** the updated CSV file.
+1. **[!UICONTROL Save]** the updated CSV file.
 
 >[!NOTE]
 >
->The size of an import file cannot be larger than two megabytes.
+>The size of an import file cannot be larger than 2 MB.
 
 ## Step 3: Import the updated data
 
-1. On _Admin_ sidebar, go to **System** > _Data Transfer_ > **Import**.
+1. On _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_ > **[!UICONTROL Import]**.
 
-1. Under _Import Settings_, set **Entity Type** to `Advanced Pricing`.
+1. Under _Import Settings_, set **[!UICONTROL Entity Type]** to `Advanced Pricing`.
 
-1. Set **Import Behavior** to `Add/Update`.
+1. Set **[!UICONTROL Import Behavior]** to `Add/Update`.
 
-1. Under **File to Import**, click **Choose File** and select the file that you prepared to import from your directory.
+1. Under **[!UICONTROL File to Import]**, click **[!UICONTROL Choose File]** and select the file that you prepared to import from your directory.
 
-1. In the upper-right corner, click **Check Data**.
+1. In the upper-right corner, click **[!UICONTROL Check Data]**.
 
-1. If the file is valid, click **Import**.
+1. If the file is valid, click **[!UICONTROL Import]**.
 
    Otherwise, correct each problem with the data that is listed in the message, and try to import the file again.

@@ -1,22 +1,22 @@
 ---
 title: Data transfer
-description: Placeholder
+description: Learn about support for data transfer, including data validation.
 ---
-# Data transfer
+# Data transfers
 
-The Import and Export tools give you the ability to manage multiple records in a single operation. You can not only import new items, but also update, replace, and delete existing sets of products. For example, you can add new products to your inventory, update product data and advanced price data, and replace a set of existing products with new products. If you have a large catalog of products, it is much easier to export the data, edit the data in a spreadsheet, and import it back into your store.
+The import and export tools give you the ability to manage multiple records in a single operation. You can not only import new items, but also update, replace, and delete existing sets of products. For example, you can add new products to your inventory, update product data and advanced price data, and replace a set of existing products with new products. If you have a large catalog of products, it is much easier to export the data, edit the data in a spreadsheet, and import it back into your store.
 
-In addition to the Import and Export tools, Adobe Commerce and Magento Open Source have processes like [catalog sync](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/catalog-sync.html) that export product data from the Commerce server to SaaS services so features like [Product Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html) can accurately return recommendations with correct names, pricing, and availability.
+In addition to the import and export tools, Adobe Commerce and Magento Open Source have processes like [catalog sync](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/data-services/catalog-sync.html) that export product data from the Commerce server to SaaS services. For features like [Product Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html), this synch makes it possible to accurately return recommendations with correct names, pricing, and availability.
 
 ## Data validation
 
-All data must pass validation before it can be imported into the store, to ensure that the values are consistent with the system database. Validation begins when you click **Check Data**. During the process, all entities in the import file are verified for the following:
+All data must pass validation before it can be imported into the store, to ensure that the values are consistent with the system database. Validation begins when you click **[!UICONTROL Check Data]**. During the process, all entities in the import file are verified for the following:
 
 - **Attributes** - Column header names are verified to ensure that they match the corresponding attributes in the system database. The value of each attribute is checked to ensure that it meets the requirements of the data type (decimal, integer, varchar, text, and datetime).
 - **Complex Data** - Values that originate from a defined set, such as a drop-down or multiple select input type, are verified to ensure that the values exist in the defined set.
 - **Service Data** - The values in service data columns are verified to ensure that the properties or complex data values are consistent with what is already defined in the system database.
-- **Required Values** - For new entities, the presence of required attribute values in the file is checked. For existing entities, there is no need to re-check the existence of required attribute values.
-- **Separators** - Although the separators aren't visible when viewed in a spreadsheet, data values in a CSV file are separated by comma, and text values are enclosed in double-quotes. During the validation process, the separators are verified, and each set of quotes that enclose character strings is verified to be formatted correctly.
+- **Required Values** - For new entities, the presence of required attribute values in the file is checked. For existing entities, there is no need to recheck the existence of required attribute values.
+- **Separators** - Although the separators aren't visible when viewed in a spreadsheet, data values in a CSV file are separated by comma, and text values are enclosed in double-quotes. During the validation process, formatting for the separators and each set of quotes that enclose character strings are verified.
 
 The results of the validation appear in the Validation Results section, and include the following information:
 

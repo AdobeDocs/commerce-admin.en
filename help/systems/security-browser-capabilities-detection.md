@@ -1,6 +1,6 @@
 ---
 title: Browser capabilities detection
-description: Placeholder
+description: Learn how to configure browser capabilities detection and display a notice if the customer's browser settings need to be changed.
 ---
 # Browser capabilities detection
 
@@ -13,19 +13,18 @@ For technical information, refer to [Supported browsers](https://experienceleagu
 
 ## Configure browser capabilities detection
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the panel on the left under _General_, choose **Web**.
+1. In the panel on the left under _[!UICONTROL General]_, choose **[!UICONTROL Web]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Browser Capabilities Detection** section and do the following:
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Browser Capabilities Detection]** section and do the following:
 
-   - To display instructions that explain how to configure the browser to allow cookies, set **Redirect to CMS-page if Cookies are Disabled** to `Yes`.
+   - To display instructions that explain how to configure the browser to allow cookies, set **[!UICONTROL Redirect to CMS-page if Cookies are Disabled]** to `Yes`.
 
-   - To display a banner above the header when JavaScript is disabled in the user's browser, set **Show Notice if JavaScript is Disabled** to `Yes`.
+   - To display a banner above the header when JavaScript is disabled in the user's browser, set **[!UICONTROL Show Notice if JavaScript is Disabled]** to `Yes`.
 
-   - To display a banner above the header when Local Storage is disabled in the user's browser, set **Show Notice if Local Storage is Disabled** to `Yes`.
+   - To display a banner above the header when Local Storage is disabled in the user's browser, set **[!UICONTROL Show Notice if Local Storage is Disabled]** to `Yes`.
 
     ![General configuration - web browser capabilities detection](../configuration-reference/general/assets/web-browser-capabilities-detection.png)<!-- zoom -->
-    _Browser Capabilities Detection_
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.

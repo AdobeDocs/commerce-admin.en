@@ -1,6 +1,6 @@
 ---
 title: Configure email communications
-description: Placeholder
+description: Learn how to configure email communications, including the routing of returned email or replies to a specific email address.
 ---
 # Configure email communications
 
@@ -8,42 +8,42 @@ The _Mail Sending Settings_ give you the ability to route returned email or repl
 
 >[!IMPORTANT]
 >
->**Security Notice!** All merchants should immediately set their mail sending configuration to protect against a recently identified potential remote code execution exploit. Until this issue is resolved, we highly recommend that you avoid using Sendmail for email communications. In the Mail Sending Settings, make sure that Set Return Path is set to `No`.
+>**Security Notice** All merchants should immediately set their mail sending configuration to protect against a recently identified potential remote code execution exploit. Until this issue is resolved, we highly recommend that you avoid using Sendmail for email communications. In the Mail Sending Settings, make sure that Set Return Path is set to `No`.
 
 ![Advanced configuration - mail sending settings](../configuration-reference/advanced/assets/system-mail-sending-settings.png)<!-- zoom -->
 
-[_Mail Sending Settings_](https://docs.magento.com/user-guide/configuration/advanced/system.html)
+For a detailed list of the configuration settings, see [_Mail Sending Settings_](https://docs.magento.com/user-guide/configuration/advanced/system.html) in the _Configuration Reference_.
 
 ## Configure email communications
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **Advanced** and choose **System**.
+1. In the left panel, expand **[!UICONTROL Advanced]** and choose **[!UICONTROL System]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Mail Sending Settings** section and do the following:
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Mail Sending Settings]** section and do the following:
 
-   - If necessary, set **Disable Email Communications** to `No`.
+   - If necessary, set **[!UICONTROL Disable Email Communications]** to `No`.
 
    - If running on a Windows server, verify the following settings:
 
-      Host - localhost
+      [!UICONTROL Host] - `localhost`
 
-      Port (25) - 25
+      [!UICONTROL Port (25)] - `25`
 
-   - Set **Set Return Path**:
+   - For **[!UICONTROL Set Return Path]**, choose one of the following options:
 
-      -  `No` - (Recommended security measure) Routes returned email to the default store email address.
+      - `No` - (Recommended security measure) Routes returned email to the default store email address.
       - `Yes` - Routes returned email to the default store email address.
-      - `Specified` - Routes returned email to the email address specified in the **Return Path Email** field.
+      - `Specified` - Routes returned email to the email address specified in **[!UICONTROL Return Path Email]**.
 
-1. In the left panel, expand **Sales** and choose **Sales Emails**. Then, do the following:
+1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Sales Emails]**.
 
-   - Expand ![Expansion selector](../assets/icon-display-expand.png) the **General Settings** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL General Settings]** section.
 
-   - Set **Asynchronous sending** to `Enable`.
+1. Set **[!UICONTROL Asynchronous sending]** to `Enable`.
 
    ![Sales configuration - email general settings](../configuration-reference/sales/assets/sales-emails-general-settings.png)<!-- zoom -->
 
-   [_General Settings_](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html)
+   For a detailed list of the configuration settings, see [_General Settings_](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html) in the _Configuration Reference_.
 
-1. When complete, click **Save Config**.
+1. When complete, click **[!UICONTROL Save Config]**.

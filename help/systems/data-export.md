@@ -1,10 +1,10 @@
 ---
 title: Export
-description: Placeholder
+description: Learn about data export filters and attributes, and how to export data from your store.
 ---
 # Export
 
-The best way to become familiar with the structure of your database is to export the data and open it in a spreadsheet. Once you become familiar with the process, you'll find that it is an efficient way to manage large amounts of information.
+The best way to become familiar with the structure of your database is to export the data and open it in a spreadsheet. After you become familiar with the process, you can use it as an efficient way to manage large amounts of information.
 
 Special characters—such as the equal sign, greater and less than symbols, single and double quotes, backslash, pipe, and ampersand symbols—can cause problems during data transfer. To ensure that such special characters are correctly interpreted, they can be marked as an _escape sequence_. For example, if the data includes a string of text such as `code="str"`, `code="str2"`, enclosing the text in double quotes ensures that the original double quotes are understood to be part of the data: `"code="str""`. When the system encounters a double set of double quotes, it understands that the outer set of double quotes is enclosing the actual data.
 
@@ -41,9 +41,9 @@ The checkbox in the first column is used to exclude attributes from the export f
 
 ## Export data
 
-1. On the _Admin_ sidebar, go to **System** > _Data Transfer_ > **Export**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_ > **[!UICONTROL Export]**.
 
-1. In the _Export Settings_ section, set **Entity Type** to one of the following:
+1. In the _Export Settings_ section, set **[!UICONTROL Entity Type]** to one of the following:
 
     - `Advanced Pricing`
     - `Products`
@@ -52,9 +52,9 @@ The checkbox in the first column is used to exclude attributes from the export f
     - `Customer Addresses`
     - `Stock Sources`
 
-1. Accept the default **Export File Format** of CSV.
+1. Accept the default **[!UICONTROL Export File Format]** of CSV.
 
-1. If you want to enclose any special characters that might be found in the data as an _escape sequence_, select the **Fields Enclosure** checkbox.
+1. If you want to enclose any special characters that might be found in the data as an _escape sequence_, select the **[!UICONTROL Fields Enclosure]** checkbox.
 
    ![Data export settings](./assets/data-export-settings.png)<!-- zoom -->
 
@@ -70,19 +70,19 @@ The checkbox in the first column is used to exclude attributes from the export f
 
       ![Data export - product based on SKU](./assets/data-export-entity-attributes-sku.png)<!-- zoom -->
 
-    - To omit an attribute from the export, select the **Exclude** checkbox at the beginning of the row. For example, to export only the sku and image columns, select the checkbox of every other attribute. The column appears in the export file, but without any values.
+    - To omit an attribute from the export, select the **[!UICONTROL Exclude]** checkbox at the beginning of the row. For example, to export only the `sku` and `image` columns, select the checkbox of every other attribute. The column appears in the export file, but without any values.
 
       ![Data export - exclude attributes](./assets/data-export-filter-exclude.png)<!-- zoom -->
 
-1. Scroll down and click **Continue** in the lower-right corner of the page.
+1. Scroll down and click **[!UICONTROL Continue]** in the lower-right corner of the page.
 
-   Upon completion of the task, the file is processed through a message queue (make sure your cron job is running). The exported file is saved in the `var/export/ folder`. For more information about the message queue, see [Manage message queues](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) in the _Configuration Guide_.
+   Upon completion of the task, the file is processed through a message queue (make sure that your cron job is running). The exported file is saved in the `var/export/ folder`. For more information about the message queue, see [Manage message queues](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) in the _Configuration Guide_.
 
    You can save or open the exported CSV file as a spreadsheet, then edit the data and import it back into your store.
 
    >[!NOTE]
    >
-   >By default, all exported files are located in the `<Magento-root-directory>/var/export` folder. If the Remote storage module is enabled, all exported files are located in the `<remote-storage-root-directory>/import_export/export` folder.
+   >By default, all exported files are in the `<Magento-root-directory>/var/export` folder. If the Remote storage module is enabled, all exported files are in the `<remote-storage-root-directory>/import_export/export` folder.
 
 ## Troubleshooting resources
 
