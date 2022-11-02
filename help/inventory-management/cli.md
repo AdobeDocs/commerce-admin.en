@@ -124,13 +124,13 @@ bin/magento inventory:reservation:create-compensations 172:"bike 123":+2.000000:
 You can detect inconsistences and immediately create compensations by using a pipe to run both the `list-inconsistencies` and `create-compensations`. Use the `-r` command option to generate and submit the raw data to `create-compensations`.
 
 ```bash
-bin/magento inventory:reservation:list-inconsistencies -r | bin/Adobe Commerce inventory:reservation:create-compensations
+bin/magento inventory:reservation:list-inconsistencies -r | bin/magento inventory:reservation:create-compensations
 ```
 
 Example response:
 
 ```bash
-bin/magento inventory:reservation:list-inconsistencies -r | bin/Adobe Commerce inventory:reservation:create-compensations
+bin/magento inventory:reservation:list-inconsistencies -r | bin/magento inventory:reservation:create-compensations
 ```
 
 ```terminal

@@ -5,13 +5,13 @@ exl-id: 01c075a5-d9ac-4edb-82de-35a52748b800
 ---
 # Adobe Commerce Stores and Purchase Experience Guide
 
-This guide is intended customer service agents and sales managers working in Adobe Commerce and Magento Open Source. It provides detailed information about order management and purchasing features, including how the shopping cart can be configured to assist customers and promote sales. It assumes a basic understanding of the core [!DNL Commerce] configuration, and functionality.
+This guide is intended for customer service agents and sales managers working in Adobe Commerce and Magento Open Source. It provides detailed information about order management and purchasing features, including how the shopping cart can be configured to assist customers and promote sales. It assumes a basic understanding of the core [!DNL Commerce] configuration, and functionality.
 
 This guide covers:
 
 | Subject | Description |
 | ------- | ----------- |
-| [Introduction](introduction.md) | Overview of sales and purchasing functions with a Commerce instance.|
+| [Introduction](introduction.md) | Overview of sales and purchasing functions within a Commerce instance.|
 | [Stores menu](stores-menu.md) | Use the [!UICONTROL Stores] menu to access tools for setting up the store hierarchy, configuration, inventory, taxes, and attributes. |
 | [Store and site structure](stores.md) | You could have multiple websites with a different domain, and within each website, you can have multiple stores, and within each store, separate store views. |
 | [Store views](store-views.md) | Use store views to make the store available in different locales or with a different branding. |

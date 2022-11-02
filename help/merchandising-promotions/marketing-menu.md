@@ -18,7 +18,7 @@ On the _Admin_ sidebar, click **[!UICONTROL Marketing]**.
 
 Create [catalog](price-rules-catalog.md) and [cart](price-rules-cart.md) price rules that trigger discounts based on various conditions. Set up [promotions](introduction.md#promotions) that spring into action when the required conditions are met.
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Create [related product rules](product-related-rules.md) and manage [gift card accounts](https://docs.magento.com/user-guide/catalog/product-gift-card-accounts.html).
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Create [related product rules](product-related-rules.md) and manage [gift card accounts](../stores-purchase/product-gift-card-accounts.md).
 
 ### [!UICONTROL Private Sales]
 

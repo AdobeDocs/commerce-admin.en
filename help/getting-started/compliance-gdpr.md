@@ -11,7 +11,7 @@ exl-id: 88a732f3-f376-4ff5-890c-0535de8eae51
 
 The General Data Protection Regulation (GDPR) is legislation that regulates data protection and privacy for all individuals in the European Union and the European Economic Area. The legislation also applies to the export of personal data outside the EU. The GDPR was adopted in April 2016, and became enforceable on 25 May 2018. Businesses that are not based in the EU, but engage in global commerce are required to comply with the regulation. The GDPA defines personal data as follows:
 
-**Personal Data**: Any information relating to an identified or identifiable natural person (‘data subject’); an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural, or social identity of that natural person.
+**Personal Data**: Any information relating to an identified or identifiable natural person ('data subject'); an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural, or social identity of that natural person.
 
 All organizations that process personal data must disclose the following:
 
@@ -23,7 +23,7 @@ All organizations that process personal data must disclose the following:
 
 ## GDPR and CCPA
 
-If your business is required to comply with both the GDPR and the [California Consumer Privacy Act (CCPA)](https://docs.magento.com/user-guide/stores/compliance-ccpa.html), you can use some of the work from your GDPR compliance program for the CCPA. Although the regulations have some similarities, a few differences include:
+If your business is required to comply with both the GDPR and the [California Consumer Privacy Act (CCPA)](../getting-started/compliance-ccpa.md), you can use some of the work from your GDPR compliance program for the CCPA. Although the regulations have some similarities, a few differences include:
 
 - The definition of personal information differs for each regulation.
 - The GDPR requires consumers to opt in before their personal data may be used for certain purposes; CCPA provides consumers with the right to opt out.
@@ -34,9 +34,9 @@ Businesses that comply with GDPR might have additional obligations under the CCP
 
 ## Best Practices
 
-- Examine the current [privacy policies](https://docs.magento.com/user-guide/stores/privacy-policy.html) for all of your stores to ensure that they align with any applicable legal requirements (including, but not limited to GDPR and CCPA).
+- Examine the current [privacy policies](../getting-started/privacy-policy.md) for all of your stores to ensure that they align with any applicable legal requirements (including, but not limited to GDPR and CCPA).
 
-- Update your [Google settings](https://docs.magento.com/user-guide/stores/compliance-privacy-google.html) and ensure that they align with your legal obligations regarding the use of personal data.
+- Update your [Google settings](../merchandising-promotions/google-tools.md#google-privacy-settings) and ensure that they align with your legal obligations regarding the use of personal data.
 
 - Maintain transparency and keep thorough documentation.
 
@@ -45,5 +45,5 @@ Businesses that comply with GDPR might have additional obligations under the CCP
 - For data flow diagrams and database entity mapping, see the [Personal Information Reference][2]{: target="_blank"}.
 
 [1]: https://business.adobe.com/privacy/general-data-protection-regulation.html
-[2]: https://devdocs.magento.com/compliance/privacy/pi-data-reference-m2.html
+[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html
 [3]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf

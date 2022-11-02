@@ -53,7 +53,7 @@ The Customer Service page is another node in the page hierarchy. The two headers
 
 ## Configure default pages
 
-The _Default Pages_ configuration determines the landing page that is associated with the [base URL](https://docs.magento.com/user-guide/stores/store-urls.html) and the corresponding home page. It also determines which page appears when a _Page Not Found_ error occurs, and if a [breadcrumb trail](../catalog/navigation-breadcrumb-trail.md) appears at the top of each page.
+The _Default Pages_ configuration determines the landing page that is associated with the [base URL](../stores-purchase/store-urls.md) and the corresponding home page. It also determines which page appears when a _Page Not Found_ error occurs, and if a [breadcrumb trail](../catalog/navigation-breadcrumb-trail.md) appears at the top of each page.
 
 1. On the _Admin_ sidebar, go to  **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 

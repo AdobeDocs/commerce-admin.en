@@ -186,7 +186,7 @@ The following columns are available by changing the [column layout](../getting-s
 |[!UICONTROL Street Address]|The street address where the company is registered to conduct business.|
 |[!UICONTROL ZIP]|The ZIP or postal code where the company  is registered to conduct business.|
 |[!UICONTROL Reseller ID]|The resale number that is assigned to the company for tax reporting purposes.|
-|[!UICONTROL VAT/TAX ID]|The [value-added tax](https://docs.magento.com/user-guide/tax/vat.html) number that is assigned to the company by some jurisdictions for tax reporting purposes. To configure the customer VAT/TAX ID to appear in the storefront, see [Create New Account Options](https://docs.magento.com/user-guide/configuration/customers/customer-configuration.html).|
+|[!UICONTROL VAT/TAX ID]|The [value-added tax](../stores-purchase/vat.md) number that is assigned to the company by some jurisdictions for tax reporting purposes. To configure the customer VAT/TAX ID to appear in the storefront, see [Create New Account Options](https://docs.magento.com/user-guide/configuration/customers/customer-configuration.html).|
 |[!UICONTROL Credit Limit]|The credit limit that is extended to the company account.|
 |[!UICONTROL Credit Currency]|The currency that is accepted by the store for purchases on company credit.|
 |[!UICONTROL Status]|Indicates the current [status](account-company-approve.md) of the company account. Options: <br/>**[!UICONTROL Active]** - The company account is approved by the store administrator. The company administrator and associated members can log in the account from the storefront and make purchases. <br/>**[!UICONTROL Pending Approval]** - A request to open a company account has been submitted, but is not yet approved by the store administrator. <br/>**[!UICONTROL Rejected]** - A request to open a company account was submitted, but not approved by the store administrator. The initial login credentials that were used to submit the request are blocked. <br/>**[!UICONTROL Blocked]** - Company members can log in and access the catalog, but cannot make purchases. The store administrator might block a company account that is not in good standing. The block on the account can be removed by the store administrator at any time.|
@@ -225,7 +225,7 @@ The following columns are available by changing the [column layout](../getting-s
 |Field|Description|
 |--- |--- |
 |[!UICONTROL Company Legal Name]|The full legal name of the company.|
-|[!UICONTROL VAT / TAX ID]|The tax or [value-added tax](https://docs.magento.com/user-guide/tax/vat.html) number that is assigned to the company for tax reporting purposes.|
+|[!UICONTROL VAT / TAX ID]|The tax or [value-added tax](../stores-purchase/vat.md) number that is assigned to the company for tax reporting purposes.|
 |[!UICONTROL Reseller ID]|The resale number that is assigned to the company for tax reporting purposes.|
 |[!UICONTROL Comment]|These notes about the company account are for reference and visible only from the Admin.|
 |**[!UICONTROL Legal Address]**||

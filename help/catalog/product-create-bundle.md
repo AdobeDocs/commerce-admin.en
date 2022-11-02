@@ -17,7 +17,7 @@ The options appear when the customer clicks either **[!UICONTROL Customize]** or
 >
 >Minimum Advertised Price (MAP) is not available for Bundle products that use dynamic pricing.
 
-If [Instant Purchase](https://docs.magento.com/user-guide/sales/checkout-instant-purchase.html) is available, the _Instant Purchase_ button appears below the _Add to Cart_ button for each item in the bundle.
+If [Instant Purchase](../stores-purchase/checkout-instant-purchase.md) is available, the _Instant Purchase_ button appears below the _Add to Cart_ button for each item in the bundle.
 
 ![Customize Bundle](./assets/product-bundle-customize.png)<!-- zoom -->
 

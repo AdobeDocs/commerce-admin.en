@@ -4,7 +4,7 @@ description: For a product, the [!UICONTROL Product in Websites] settings identi
 ---
 # Product settings - [!UICONTROL Product in Websites]
 
-The _[!UICONTROL Product in Websites]_ section identifies each website where the product is available, according to the [store hierarchy](https://docs.magento.com/user-guide/stores/stores-all-stores.html).
+The _[!UICONTROL Product in Websites]_ section identifies each website where the product is available, according to the [store hierarchy](../stores-purchase/stores.md).
 
 ![Product website scope diagram](./assets/scope-product-website.svg)
 

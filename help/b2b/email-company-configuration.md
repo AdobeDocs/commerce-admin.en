@@ -20,7 +20,7 @@ The [sales representative](account-company-manage.md) that is assigned as the pr
    >
    >Clear the **[!UICONTROL Use system value]** checkbox to make the field editable.
 
-   - Set **[!UICONTROL Company Registration Email Recipient]** to the [store contact](https://docs.magento.com/user-guide/stores/store-email-addresses.html) who is to be notified when a new company registration request is received.
+   - Set **[!UICONTROL Company Registration Email Recipient]** to the [store contact](../getting-started/store-details.md#store-email-addresses) who is to be notified when a new company registration request is received.
 
    - In the **[!UICONTROL Send Company Registration Email Copy To]** field, enter the email address of each person who is to receive a copy of the registration notification. Separate multiple email addresses with a comma.
 
@@ -49,7 +49,7 @@ The [sales representative](account-company-manage.md) that is assigned as the pr
 
 1. Complete the **[!UICONTROL Company Status Change]** section:
 
-   - Set **[!UICONTROL Company Status Change for Email Recipient]** to the [store contact](https://docs.magento.com/user-guide/stores/store-email-addresses.html) who is to be notified when the status of a company changes.
+   - Set **[!UICONTROL Company Status Change for Email Recipient]** to the [store contact](../getting-started/store-details.md#store-email-addresses) who is to be notified when the status of a company changes.
 
    - In the **[!UICONTROL Send Company Status Change Email Copy To]** field, enter the email address of each person who is to receive a copy of the status change notification. Separate multiple email addresses with a comma.
 
@@ -72,7 +72,7 @@ The [sales representative](account-company-manage.md) that is assigned as the pr
 
 1. Complete the **[!UICONTROL Company Credit Emails]** section:
 
-   - Set **[!UICONTROL Company Credit Change Email Sender]** to the [store contact](https://docs.magento.com/user-guide/stores/store-email-addresses.html) who is to be notified when a change is made to the credit limit that is assigned to a company. By default, the notification is sent to _Sales Representative_.
+   - Set **[!UICONTROL Company Credit Change Email Sender]** to the [store contact](../getting-started/store-details.md#store-email-addresses) who is to be notified when a change is made to the credit limit that is assigned to a company. By default, the notification is sent to _Sales Representative_.
 
    - In the **[!UICONTROL Send Company Credit Change Email Copy To]** field, enter the email address of each person who is to receive a copy of the credit change notification. Separate multiple email addresses with a comma.
 

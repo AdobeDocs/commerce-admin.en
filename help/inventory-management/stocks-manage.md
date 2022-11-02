@@ -29,7 +29,7 @@ All stores start with a Default Stock. It must remain `Enabled` for the followin
 
 For multi-source merchants, create and configure stocks to best fit your stores and order fulfillment. When you assign new stock to a sales channel, any pre-existing stock in that sales channel becomes unassigned.
 
-For a multi-store installation, the Default Stock is initially assigned to the [Main Website](https://docs.magento.com/user-guide/stores/stores-all-create-website.html){target="_blank"} and default store. Correct stock and quantities are displayed for enabled and disabled products in the **[!UICONTROL Products]** grid view.
+For a multi-store installation, the Default Stock is initially assigned to the [Main Website](../stores-purchase/stores.md#add-websites){target="_blank"} and default store. Correct stock and quantities are displayed for enabled and disabled products in the **[!UICONTROL Products]** grid view.
 
 ![Manage Stock](assets/inventory-stock.png)
 

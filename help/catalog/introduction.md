@@ -28,7 +28,7 @@ For installations with multiple websites, stores, and views, the [scope](../gett
 
 ![multi-site store diagram](./assets/scope-multisite.svg)<!-- {:width="550px"} -->
 
-If you have only a single store with the default view, you can run your store in [Single Store Mode](https://docs.magento.com/user-guide/stores/store-mode-single.html) to hide the scope settings. However, if your store has multiple views, a scope indicator appears below the name of each field.
+If you have only a single store with the default view, you can run your store in [single store mode](../getting-started/websites-stores-views.md#single-store-mode) to hide the scope settings. However, if your store has multiple views, a scope indicator appears below the name of each field.
 
 - To edit product information for a specific view, use the _Store View_ control in the upper-left corner to choose the view. Additional controls become available for any field that can be edited at the store view level.
 

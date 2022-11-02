@@ -81,7 +81,7 @@ Inventory Management 1.2.4 (module version: `magento/inventory-metapackage = 1.2
 
 ![Fixed issue](../assets/fix.svg) Saleable product quantity and in-stock product quantity are now synced correctly. Previously, inventory reservation compensation was not recreated for canceled orders. <!--- MC-42485-->
 
-![Fixed issue](../assets/fix.svg) The performance of the validator is optimized to prevent adding new source to a bundled product’s child product with shipment type `Ship Together`. <!--- MC-43039-->
+![Fixed issue](../assets/fix.svg) The performance of the validator is optimized to prevent adding new source to a bundled product's child product with shipment type `Ship Together`. <!--- MC-43039-->
 
 ## 1.2.3
 
@@ -125,7 +125,7 @@ Inventory Management 1.2.4 (module version: `magento/inventory-metapackage = 1.2
 
 ![Fixed issue](../assets/fix.svg) Numerous fixes to resolve issues with source assignment, scalable environment feature support, and compatibility with PHP 7.4, MySQL 8, and PHPUNIT 9.
 
-![New](../assets/new.svg) **In-store delivery method.** Added an option for users to select a source to be used as a pickup location during checkout. See [In-store Delivery](https://docs.magento.com/user-guide/shipping/shipping-in-store-delivery.html){target="_blank"}.
+![New](../assets/new.svg) **In-store delivery method.** Added an option for users to select a source to be used as a pickup location during checkout. See [In-store Delivery](../stores-purchase/shipping-in-store-delivery.md) in the _Sales and Purchase Experience Guide_.
 
 ![New](../assets/new.svg) **Bundle product support for multi-source mode.** Inventory supports all product types with multiple sources.
 

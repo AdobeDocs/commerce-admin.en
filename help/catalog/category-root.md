@@ -4,7 +4,7 @@ description: Learn about the category hierarchy and the root category, which act
 ---
 # Root category and hierarchy
 
-The products in the main menu are determined by the root category that is assigned to the [store](https://docs.magento.com/user-guide/stores/stores-all-create-store.html). The root category is basically a container for the main menu in the category tree. You can create a root category with an entirely new set of products or copy products from an existing root category. The root category can be assigned to the current store or to any other store in the same website.
+The products in the main menu are determined by the root category that is assigned to the [store](../stores-purchase/stores.md#add-stores). The root category is basically a container for the main menu in the category tree. You can create a root category with an entirely new set of products or copy products from an existing root category. The root category can be assigned to the current store or to any other store in the same website.
 
 ![Catalog hierarchy diagram](./assets/catalog-hierarchy-scope.svg)<!-- {: "width=550px""} -->
 
@@ -48,7 +48,7 @@ The following example shows how to create a root category and assign it to a dif
 
 1. Make sure that the store has a **[!UICONTROL Default Store View]** assigned.
 
-   The store must have at least one [store view](https://docs.magento.com/user-guide/stores/stores-all-create-view.html).
+   The store must have at least one [store view](../stores-purchase/store-views.md).
 
 1. When complete, click **[!UICONTROL Save Store]**.
 
