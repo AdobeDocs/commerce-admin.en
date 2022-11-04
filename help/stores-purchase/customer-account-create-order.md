@@ -56,6 +56,10 @@ You can transfer items to the cart from a customer's wish list, and recently vie
 
    ![Select Products](./assets/create-order-from-catalog.png)<!-- zoom -->
 
+   >[!NOTE]
+   >
+   >The product selection grid always shows regular base prices for products, without discounts and any cart or group price rules applied. The final product price is calculated only when the product is added to an order/cart.
+
 1. Configure available product options:
 
    - Click **[!UICONTROL Configure]**.
