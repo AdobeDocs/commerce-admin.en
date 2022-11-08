@@ -1,6 +1,7 @@
 ---
 title: Product settings - [!UICONTROL Configurations]
 description: For a product, the [!UICONTROL Configurations] settings define variations for use with the Configurable product type.
+exl-id: 75c594e1-ef75-464b-a1f0-0eb63b9d165f
 ---
 # Product settings - [!UICONTROL Configurations]
 

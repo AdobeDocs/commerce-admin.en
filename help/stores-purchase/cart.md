@@ -1,6 +1,7 @@
 ---
 title: Shopping cart
 description: Learn about the shopping cart as an important part of the purchase experience on your store.
+exl-id: f1ccbe5b-fe9d-4ad2-9125-b2d2367bbec3
 ---
 # Shopping cart
 

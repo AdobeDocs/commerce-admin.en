@@ -1,6 +1,7 @@
 ---
 title: Reward points storefront experience
 description: Learn how customers can access a history of their reward point balance in their storefront account.
+exl-id: 6aa2d406-95c1-408c-a971-5c2a4132a0c8
 ---
 # Reward points storefront experience
 

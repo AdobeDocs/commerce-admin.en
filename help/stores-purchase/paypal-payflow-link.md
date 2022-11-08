@@ -1,6 +1,7 @@
 ---
 title: PayPal Payflow Link
 description: Learn how to set up PayPal Payflow Link as an online payment solution on your store.
+exl-id: dba4057e-1fea-4a23-8594-cc85f619d664
 ---
 # PayPal Payflow Link
 

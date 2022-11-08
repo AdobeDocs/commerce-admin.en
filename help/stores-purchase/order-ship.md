@@ -1,6 +1,7 @@
 ---
 title: Ship an order
 description: Learn how to complete the shipping information for a processing order, and view shipment and tracking information.
+exl-id: 60b0e66a-8ee6-4091-94ce-179cc2fdf57a
 ---
 # Ship an order
 

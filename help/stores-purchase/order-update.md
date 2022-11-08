@@ -1,6 +1,7 @@
 ---
 title: Update an order
 description: Learn how to update a customer's order in the Admin.
+exl-id: 15c73d27-f4bd-47d6-8d36-902074f9c3e6
 ---
 # Update an order
 

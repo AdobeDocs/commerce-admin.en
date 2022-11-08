@@ -1,6 +1,7 @@
 ---
 title: Products list
 description: Learn about the _[!UICONTROL Products]_ page in the Admin, where you can create products and edit existing ones.
+exl-id: 47e14f72-017f-456a-8904-6d32ef47e6f1
 ---
 # Products list
 

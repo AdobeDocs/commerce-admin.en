@@ -1,6 +1,7 @@
 ---
 title: Shipping carrier setup
 description: Learn about the support for commercial shipping accounts that is available for your store.
+exl-id: b6098068-12f3-4223-b216-98055a802b19
 ---
 # Shipping carrier setup
 

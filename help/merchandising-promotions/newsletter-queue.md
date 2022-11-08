@@ -1,6 +1,7 @@
 ---
 title: Newsletter queues
 description: Learn how to manage newsletter queues for sending multiple newsletter batches.
+exl-id: bf85b3ff-3093-49a1-8a9a-d3ea71fe3f09
 ---
 # Newsletter queues
 

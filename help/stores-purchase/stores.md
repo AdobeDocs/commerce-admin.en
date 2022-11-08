@@ -1,6 +1,7 @@
 ---
 title: Store and site structure
 description: Learn about the website, store, and store view hierarchy.
+exl-id: d745cbd0-151b-4f82-bb6c-fb6b9565a014
 ---
 # Store and site structure
 

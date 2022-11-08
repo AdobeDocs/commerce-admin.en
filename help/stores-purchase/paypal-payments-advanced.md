@@ -1,6 +1,7 @@
 ---
 title: PayPal Payments Advanced
 description: Learn how to set up PayPal Payments Advanced as an online payment solution on your store.
+exl-id: 018dd999-2f17-4650-8f61-624809ae76c6
 ---
 # PayPal Payments Advanced
 

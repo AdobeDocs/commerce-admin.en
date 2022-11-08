@@ -1,6 +1,7 @@
 ---
-title: "[!UICONTROL Catalog] menu"
+title: '[!UICONTROL Catalog] menu'
 description: Use the [!UICONTROL Catalog] menu to access to product creation, category, and inventory management tools.
+exl-id: cfb163d6-eccc-4ab9-bd19-37c611abbc78
 ---
 # [!UICONTROL Catalog] menu
 

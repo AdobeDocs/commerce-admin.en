@@ -1,6 +1,7 @@
 ---
 title: Configure returns
 description: Learn how to enable returns for your store and configure the supported shipping methods.
+exl-id: a1b508fc-7e42-4d37-bf7e-dea17a40d39b
 ---
 # Configure returns
 

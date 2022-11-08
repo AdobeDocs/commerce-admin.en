@@ -1,6 +1,7 @@
 ---
 title: Issue a credit memo
 description: Learn how to generate and print a credit memo for an invoiced order.
+exl-id: 84ec72ba-7f72-4fa1-a9bf-91c17f43a3a7
 ---
 # Issue a credit memo
 

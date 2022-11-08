@@ -1,6 +1,7 @@
 ---
 title: PayPal Payments Standard
 description: Learn how to set up PayPal Payments Standard as an online payment solution on your store.
+exl-id: b4024dac-34d7-4f1a-ad9d-0fc406194609
 ---
 # PayPal Payments Standard
 

@@ -1,6 +1,7 @@
 ---
 title: Create a product
 description: Learn about the types of products that you can create for your catalog.
+exl-id: ff90bf8a-a64d-403f-bd09-5c8167a36f0b
 ---
 # Create a product
 

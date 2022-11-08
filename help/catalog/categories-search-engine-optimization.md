@@ -1,6 +1,7 @@
 ---
 title: Categories - Search Engine Optimization settings
 description: Learn about using the [!UICONTROL Search Engine Optimization] settings to define the URL key and metadata fields that are used by search engines to index the category.
+exl-id: 6c8af01d-d2aa-4c13-af76-663c47cbe38c
 ---
 # Categories - Search Engine Optimization settings
 

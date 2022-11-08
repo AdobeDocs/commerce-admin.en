@@ -1,6 +1,7 @@
 ---
 title: Payment failure notification
 description: Learn how to configure email communications for a payment method that fails to complete a transaction.
+exl-id: c64a4463-64d5-4dad-a8ad-13bfb141b65f
 ---
 # Payment failure notification
 

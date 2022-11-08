@@ -1,6 +1,7 @@
 ---
 title: Create a catalog price rule
 description: Learn how to create a catalog price rule that applies a discount to specific products whenever a set of conditions is met.
+exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 ---
 # Create a catalog price rule
 

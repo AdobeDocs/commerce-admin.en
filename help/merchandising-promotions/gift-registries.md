@@ -1,6 +1,7 @@
 ---
 title: Gift registries
 description: Learn how gift registries can promote sales when customers can invite their friends and family to purchase their selected products as gifts.
+exl-id: 2e5e3d52-e93e-444c-88a1-1eaa7f178b99
 ---
 # Gift registries
 

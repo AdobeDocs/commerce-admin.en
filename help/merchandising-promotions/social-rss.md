@@ -1,6 +1,7 @@
 ---
 title: Social media and RSS feeds
 description: Learn how to add social media and other RSS feed integration to build brand and product awareness.
+exl-id: e4a48870-f53e-4848-8faa-8f2aedaf53b7
 ---
 # Social media and RSS feeds
 
@@ -186,4 +187,3 @@ The software that is required to read an RSS feed is called a feed reader, and a
 1. See result on the storefront with `/rss` at the end of the page URL.
 
    ![RSS Feeds on the Storefront](./assets/rss-feed-on-the-storefront.png)<!-- zoom -->
-

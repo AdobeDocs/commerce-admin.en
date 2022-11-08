@@ -1,6 +1,7 @@
 ---
 title: Taxes
 description: Learn how to configure your store to calculate taxes according to the requirements of your locale.
+exl-id: bf807132-416f-497a-82c4-b00dba4d3092
 ---
 # Taxes
 

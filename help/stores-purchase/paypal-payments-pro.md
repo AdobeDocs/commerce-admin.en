@@ -1,6 +1,7 @@
 ---
 title: PayPal Payments Pro
 description: Learn how to set up PayPal Payments Pro as an online payment solution on your store.
+exl-id: 9cc5c3a6-d471-4198-85a2-c4cf9dfd378b
 ---
 # PayPal Payments Pro
 

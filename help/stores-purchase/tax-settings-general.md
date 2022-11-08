@@ -1,6 +1,7 @@
 ---
 title: Tax configuration settings
 description: Learn how to configure basic tax settings, including tax classes, calculation, and the default tax destination.
+exl-id: e32747f9-20d0-4717-9cee-aa1bcffebb65
 ---
 # Tax configuration settings
 

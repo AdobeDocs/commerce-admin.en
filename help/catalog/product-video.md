@@ -1,6 +1,7 @@
 ---
 title: Add product videos
 description: Learn how to configure product videos for your store, which requires an API from a Google account, add a video link for a product.
+exl-id: 0cfcee67-a2e2-41cb-ac70-304452f5db6d
 ---
 # Add product videos
 

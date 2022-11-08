@@ -1,6 +1,7 @@
 ---
 title: Reward exchange rates
 description: Learn how to set up the reward exchange rates that determine the number of reward points that are earned.
+exl-id: 4850d853-fb86-4f64-bfee-47915ea028e2
 ---
 # Reward exchange rates
 

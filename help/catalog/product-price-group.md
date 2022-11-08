@@ -1,6 +1,7 @@
 ---
 title: Group Price
 description: Learn how to use group pricing to set prices for discounted items based on customer groups in your store.
+exl-id: bc5be23f-64eb-47c3-beda-01168abfbf96
 ---
 # Group Price
 

@@ -1,6 +1,7 @@
 ---
 title: Shipping labels
 description: Learn about shipping label workflow for regular shipments and products with return merchandise authorization.
+exl-id: 5da03cf9-5e92-4bb8-ba53-67c6469665ed
 ---
 # Shipping labels
 

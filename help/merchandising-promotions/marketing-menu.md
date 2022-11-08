@@ -1,6 +1,7 @@
 ---
-title: "[!UICONTROL Marketing] menu"
+title: '[!UICONTROL Marketing] menu'
 description: The Commerce Admin includes the [!UICONTROL Marketing] menu, which provides access tools for managing promotions, communications, SEO, and user-generated content.
+exl-id: fc0e554b-1bff-45da-bd6f-73e9b1a4fdef
 ---
 # [!UICONTROL Marketing] menu
 

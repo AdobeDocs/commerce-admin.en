@@ -1,6 +1,7 @@
 ---
 title: Introduction to catalog management
 description: Learn how catalog and product scope function within catalog management.
+exl-id: 3c58fc1c-d7a3-4f51-8a78-6bf2fd0dbeee
 ---
 # Introduction to catalog management
 

@@ -1,6 +1,7 @@
 ---
 title: Scheduled changes for categories
 description: Learn how to schedule category changes to support marketing campaigns and store promotions.
+exl-id: 9e25082f-4e76-4148-b76e-dca0b14971eb
 ---
 # Scheduled changes for categories
 

@@ -1,6 +1,7 @@
 ---
 title: Product settings - [!UICONTROL Gift Options]
 description: For a product, the [!UICONTROL Gift Options] settings determine if a gift message can be included or if gift-wrapping options are available during checkout.
+exl-id: 21597e38-60f5-45e5-8d99-955d088c5c48
 ---
 # Product settings - [!UICONTROL Gift Options]
 

@@ -1,6 +1,7 @@
 ---
 title: Gift registry storefront experience
 description: Learn how customers can manage the current registries and add new ones in their storefront account.
+exl-id: f83585c8-4e74-4644-8d2d-e41c248be29f
 ---
 # Gift registry storefront experience
 

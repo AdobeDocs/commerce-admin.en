@@ -1,6 +1,7 @@
 ---
 title: Site maps
 description: Learn how to configure a site map to index all pages and images of your Commerce sites.
+exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 ---
 # Site maps
 

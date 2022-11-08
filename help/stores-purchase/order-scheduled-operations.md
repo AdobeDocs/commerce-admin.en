@@ -1,6 +1,7 @@
 ---
 title: Scheduled order operations
 description: Learn about the scheduled order operations and orders cron settings that support this functionality.
+exl-id: 330fe75a-d901-4696-946e-fa7af9ea3d40
 ---
 # Scheduled order operations
 

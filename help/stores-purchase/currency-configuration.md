@@ -1,6 +1,7 @@
 ---
 title: Currency configuration
 description: Learn about setting the scope of the base currency and how to specify the currencies that you accept and the currency you want to use for price display.
+exl-id: ba78095f-36eb-4e38-a6e8-72d85e0cf980
 ---
 # Currency configuration
 

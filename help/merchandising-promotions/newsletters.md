@@ -1,6 +1,7 @@
 ---
 title: Newsletters and subscriptions
 description: Learn about newsletters and how to enable this feature as a low-cost promotional tool.
+exl-id: ad4488c2-1b8b-4326-8486-743c75c5b9a6
 ---
 # Newsletters and subscriptions
 

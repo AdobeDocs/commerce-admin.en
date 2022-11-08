@@ -1,6 +1,7 @@
 ---
 title: Virtual product
 description: Learn how to create a virtual product that represents a non-tangible item,  such as a membership, service, warranty, or subscription.
+exl-id: 8788ba04-e911-429e-9e48-ce589f0c9fa1
 ---
 # Virtual product
 

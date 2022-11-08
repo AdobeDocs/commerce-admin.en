@@ -1,6 +1,7 @@
 ---
 title: Value added tax (VAT)
-description: <Add description here>
+description: '&lt;Add description here&gt;'
+exl-id: 20dbcb86-e558-47f2-968d-b5c9ec5f665b
 ---
 # Value added tax (VAT)
 

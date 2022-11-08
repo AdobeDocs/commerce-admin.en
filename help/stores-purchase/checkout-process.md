@@ -1,6 +1,7 @@
 ---
 title: Checkout
-description: Learn how the checkout process gathers the information necessary to complete the transaction and the _Checkout_ page leads the customer through each step of the process. 
+description: Learn how the checkout process gathers the information necessary to complete the transaction and the _Checkout_ page leads the customer through each step of the process.
+exl-id: f503643b-a0bb-4763-9831-d592afb2c323
 ---
 # Checkout
 

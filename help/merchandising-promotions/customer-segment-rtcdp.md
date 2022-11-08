@@ -2,6 +2,7 @@
 title: Integrate Experience Platform Audiences in Commerce
 description: Learn how to integrate Experience Platform Audiences in Commerce to inform cart price rules.
 hidefromtoc: yes
+exl-id: eeca22b1-4f6d-4ce8-9928-4a0e56c78939
 ---
 # Integrate Experience Platform Audiences in Commerce
 

@@ -1,6 +1,7 @@
 ---
 title: Google site tools
 description: Learn about the Google tools integrations that you can use to optimize your content, analyze your traffic, and connect your catalog to shopping aggregators and marketplaces.
+exl-id: 09c48f1e-792b-4553-82fc-cd1a119b15d0
 ---
 # Google site tools
 
@@ -119,4 +120,3 @@ Update your [privacy policy](../getting-started/privacy-policy.md ) to state tha
 [2]: https://support.google.com/analytics/answer/3379636
 [3]: https://developers.google.com/analytics/devguides/collection/analyticsjs/field-reference
 [4]: https://support.google.com/analytics/answer/2763052
-

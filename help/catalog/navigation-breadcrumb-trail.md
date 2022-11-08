@@ -1,6 +1,7 @@
 ---
 title: Breadcrumb trails
 description: Learn about the different breadcrumb trail patterns and how to configure them to appear on content and catalog pages.
+exl-id: 2f60d48e-960f-437c-8f8f-a3d06cc0840a
 ---
 # Breadcrumb trails
 

@@ -1,6 +1,7 @@
 ---
 title: Categories - Display settings
 description: Learn about using the [!UICONTROL Display] settings to define which content elements appear on a category page and the order in which products appear.
+exl-id: bb3a1b00-ba56-4113-8208-860963612333
 ---
 # Categories - Display settings
 

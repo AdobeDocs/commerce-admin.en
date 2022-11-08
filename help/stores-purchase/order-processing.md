@@ -1,6 +1,7 @@
 ---
 title: Order workflow and processing
-description: Learn about order workflow, the status that applies at each step, and how to move orders through this process. 
+description: Learn about order workflow, the status that applies at each step, and how to move orders through this process.
+exl-id: 5bc152c8-2adf-4faf-af84-ca65d260c22a
 ---
 # Order workflow and processing
 

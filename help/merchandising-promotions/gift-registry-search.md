@@ -1,7 +1,7 @@
 ---
-
 title: Add gift registry search
 description: Learn how to place a gift registry search box most anywhere in your store.
+exl-id: 8c5558d6-3641-4769-987e-8b217603d9fc
 ---
 # Add gift registry search
 

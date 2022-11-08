@@ -1,6 +1,7 @@
 ---
 title: PayPal billing agreements
 description: Learn how you can support PayPal billing agreements and a payment method within your store.
+exl-id: b0800b41-816a-4c48-a54d-41ddc1d586ce
 ---
 # PayPal billing agreements
 

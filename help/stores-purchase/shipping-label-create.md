@@ -1,6 +1,7 @@
 ---
 title: Create shipping labels and packages
 description: Learn how to package items in an order and create shipping labels.
+exl-id: ed9be72a-0dcd-4dbf-82ba-b1d75a1e76fd
 ---
 # Create shipping labels
 

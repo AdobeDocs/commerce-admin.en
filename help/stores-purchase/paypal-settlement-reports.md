@@ -1,6 +1,7 @@
 ---
 title: PayPal Settlement report
 description: Learn about the PayPal Settlement report as a tool to manage PayPal transactions.
+exl-id: cd087e15-e6ad-4472-9038-8c64fde316f9
 ---
 # PayPal Settlement report
 

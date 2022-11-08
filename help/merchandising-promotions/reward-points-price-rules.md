@@ -1,6 +1,7 @@
 ---
 title: Reward points in price rules
 description: Learn how reward points can be awarded to customers according to a cart price rule.
+exl-id: 6e23b56d-64e4-435d-9f4c-ee3f400b0250
 ---
 # Reward points in price rules
 
