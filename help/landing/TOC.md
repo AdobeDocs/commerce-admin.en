@@ -14,7 +14,7 @@ title: Adobe Commerce Merchant Documentation
 - [Content and Design](https://experienceleague.adobe.com/docs/commerce-admin/content-design/guide-overview.html)
 - [[!DNL Page Builder]](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/guide-overview.html)
 - [Customer Management](https://docs.magento.com/user-guide/customers.html)
-- [Sales and Purchase Experience](https://docs.magento.com/user-guide/sales.html)
+- [Stores and Purchase Experience](https://docs.magento.com/user-guide/sales.html)
 - [System Administration](https://docs.magento.com/user-guide/system/system.html)
 - [Configuration Reference Guide](https://docs.magento.com/user-guide/stores/configuration.html)
 - [Services for Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html)

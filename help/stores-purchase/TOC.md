@@ -1,12 +1,12 @@
 ---
-user-guide-title: Sales and Purchase Experience Guide
-user-guide-description: Comprehensive information for customer service agents and sales managers working in Adobe Commerce and Magento Open Source.
-breadcrumb-title: Sales and Purchase Experience
+user-guide-title: Stores and Purchase Experience Guide
+user-guide-description: Comprehensive information for site administrators, customer service agents, and sales managers working in Adobe Commerce and Magento Open Source.
+breadcrumb-title: Stores and Purchase Experience
 ---
 
-# Sales and Purchase Experience Guide {#stores-sales}
+# Stores and Purchase Experience Guide {#stores-sales}
 
-- [Sales and Purchase Experience Guide](guide-overview.md)
+- [Stores and Purchase Experience Guide](guide-overview.md)
 - [Introduction](introduction.md)
 - Site and store management {#site-store}
   - [Stores menu](stores-menu.md)

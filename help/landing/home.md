@@ -84,8 +84,8 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 </tr>
 <tr>
     <td valign="top">
-       <img alt="Sales and Purchase Experience" src="./assets/icon-shopping-cart.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/guide-overview.html"> <strong>Sales and Purchase Experience</strong></a>
+       <img alt="Stores and Purchase Experience" src="./assets/icon-shopping-cart.svg" width="40" height="40"/></td>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/guide-overview.html"> <strong>Stores and Purchase Experience</strong></a>
     <div><em>The cart is positioned at the end of the path to purchase, at the intersection of buy and abandon. Set up the point of purchase and the supporting functions that turn shopping cart items into completed orders.</em></div>
   </td>
 </tr>
