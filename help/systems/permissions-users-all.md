@@ -108,6 +108,28 @@ For users or roles that are temporary, you can also set an expiration date for t
 
 1. To confirm the action, click **[!UICONTROL OK]**.
 
+## Forgotten password and reset emails
+
+The Admin email template configuration determines the emails that are sent when users forget and reset their passwords. This configuration specifies the store contact that appears as the sender of the message and how long the password recovery link remains valid.
+
+**_To configure the Admin email templates:_**
+
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Setting]_ > **[!UICONTROL Configuration]**.
+
+1. In the left side panel, expand **[!UICONTROL Advanced]** and choose **[!UICONTROL Admin]**.
+
+1. Expand ![expansion toggler](../assets/icon-display-expand.png) the **[!UICONTROL Admin User Emails]** section.
+
+   ![Advanced configuration - Admin email template settings](../configuration-reference/advanced/assets/admin-admin-user-emails.png)<!-- zoom -->
+
+1. Set **[!UICONTROL Forgot Password Email Template]** to the template that is sent when an Admin user forgets their passwords.
+
+1. Set **[!UICONTROL Forgot and Reset Email Sender]** to the store contact that appears as the sender of the message.
+
+1. Set **[!UICONTROL User Notification Template]** to the email template that is used as the default for admin notifications.
+
+1. When complete, click **[!UICONTROL Save Config]**.
+
 ## Locked users
 
 For the security of your business, user accounts are locked by default after six failed attempts to [log in](../getting-started/admin-signin.md) to the Admin. Any user account that is currently locked appears in the Locked Users grid. An account can be unlocked by any other user with full Administrator permissions.
