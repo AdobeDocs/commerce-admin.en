@@ -9,7 +9,7 @@ If quotes are enabled in the general [B2B features](enable-basic-features.md), y
 
 >[!NOTE]
 >
->Quote configuration options and the ability to use quote negotiation functions are controlled using the [role resources](https://docs.magento.com/user-guide/system/permissions-role-resources.html). These role resources must be selected for the Admin [user role](https://docs.magento.com/user-guide/system/permissions-user-roles.html) that is assigned to the Admin user account. To grant access to quote functions in the Admin, go to **System** > _Permissions_ > **User Roles**, select the role, and navigate to Sales > Operations > Quotes in the _Role Resources_ tree.
+>Quote configuration options and the ability to use quote negotiation functions are controlled using the [role resources](https://docs.magento.com/user-guide/system/permissions-role-resources.html). These role resources must be selected for the Admin [user role](https://docs.magento.com/user-guide/system/permissions-user-roles.html) that is assigned to the Admin user account. To grant access to quote functions in the Admin, go to **[!UICONTROL System]** > _[!UICONTROL Permissions]_ > **[!UICONTROL User Roles]**, select the role, and navigate to Sales > Operations > Quotes in the _Role Resources_ tree.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
