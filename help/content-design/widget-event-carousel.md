@@ -1,6 +1,7 @@
 ---
 title: Catalog Events Carousel Widget
 description: Learn how to use the Catalog Events Carousel widget to display a slider of upcoming events on a page.
+exl-id: 4e88b253-f320-4c94-9996-94d7005effc6
 ---
 # Catalog Events Carousel Widget
 

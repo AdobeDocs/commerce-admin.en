@@ -1,6 +1,7 @@
 ---
 title: Create a cart price rule
 description: Learn how to create a cart price rule based on cart or product attributes.
+exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 ---
 # Create a cart price rule
 

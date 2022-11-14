@@ -1,6 +1,7 @@
 ---
 title: Manage product images and videos
 description: Learn about managing image and video assets for your product listings.
+exl-id: 3cb4ab8a-8966-400f-be94-a517634d1334
 ---
 # Manage product images and videos
 

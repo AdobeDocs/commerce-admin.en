@@ -1,6 +1,7 @@
 ---
 title: Introduction to stores and purchase experience
 description: Learn about the features used to to construct and manage your online stores and the purchasing experience for your customers.
+exl-id: 7ced9cbc-49b4-48f7-aae2-fcb48fdb888f
 ---
 # Introduction to stores and purchase experience
 

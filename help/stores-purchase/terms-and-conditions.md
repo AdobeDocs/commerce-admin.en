@@ -1,6 +1,7 @@
 ---
 title: Terms and conditions for checkout
 description: Learn about the terms and conditions functionality that can be configured for your store.
+exl-id: 59ba6385-3cc6-43e8-b984-5c26516bba88
 ---
 # Terms and conditions for checkout
 

@@ -1,6 +1,7 @@
 ---
 title: Tax classes
 description: Learn how to configure the tax classes that are used for tax rules.
+exl-id: dd867eba-3f1e-45a8-9332-9e668a2092e1
 ---
 # Tax classes
 

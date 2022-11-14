@@ -1,6 +1,7 @@
 ---
 title: Add and remove category products
 description: Learn how to add and remove products from a category.
+exl-id: 3b71028e-8679-425a-9ac7-77bf692d0194
 ---
 # Add and remove category products
 

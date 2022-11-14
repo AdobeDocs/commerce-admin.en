@@ -1,6 +1,7 @@
 ---
 title: Visual Merchandiser overview
 description: Learn about the Visual Merchandiser tools that allow you to position products and determine which products appear in the category listing.
+exl-id: 00fe8b7f-0c33-4f06-a3cd-1f0bd18079f1
 ---
 # Visual Merchandiser
 

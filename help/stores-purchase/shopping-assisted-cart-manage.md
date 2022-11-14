@@ -1,6 +1,7 @@
 ---
 title: Manage a shopping cart
 description: Learn how to assist a customer with their shopping cart directly from the Admin.
+exl-id: beb41dfa-ef87-4065-96fd-0649a5c4c21c
 ---
 # Manage a shopping cart
 

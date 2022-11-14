@@ -1,6 +1,7 @@
 ---
-title: "[!UICONTROL Sales] menu"
+title: '[!UICONTROL Sales] menu'
 description: The Commerce Admin includes the [!UICONTROL Sales] menu, which provides access to tools for working with orders according to where they are in the workflow.
+exl-id: 105106a4-85f7-4143-8411-69ff67ff9331
 ---
 # [!UICONTROL Sales] menu
 

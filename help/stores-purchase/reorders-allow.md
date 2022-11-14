@@ -1,6 +1,7 @@
 ---
 title: Allow reorders
 description: Learn how to provide reorder capabilities for your customers.
+exl-id: 9fe4c4fb-8596-4fd0-a93b-927ebdfc0c94
 ---
 # Allow reorders
 

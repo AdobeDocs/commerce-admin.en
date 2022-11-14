@@ -1,6 +1,7 @@
 ---
 title: Shipping settings
 description: Learn how to configure the shipping settings that define the point of origin and shipping policy for your store.
+exl-id: 767b3039-39c7-4692-a0a8-a8fde27622cc
 ---
 # Shipping settings
 

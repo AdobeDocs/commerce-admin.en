@@ -1,6 +1,7 @@
 ---
 title: Create an order
 description: Learn how to create an order for a customer in the Commerce Admin.
+exl-id: 8a766a5b-55d6-4d78-859e-38937e0183d3
 ---
 # Create an order
 
@@ -55,6 +56,10 @@ You can transfer items to the cart from a customer's wish list, and recently vie
 1. In the grid, select the checkbox of each product to be added to the cart and enter the **[!UICONTROL Qty]** to be purchased.
 
    ![Select Products](./assets/create-order-from-catalog.png)<!-- zoom -->
+
+   >[!NOTE]
+   >
+   >The product selection grid always shows regular base prices for products, without discounts and any cart or group price rules applied. The final product price is calculated only when the product is added to an order/cart.
 
 1. Configure available product options:
 

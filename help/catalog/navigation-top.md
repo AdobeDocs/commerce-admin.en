@@ -1,6 +1,7 @@
 ---
 title: Top navigation
-description: Learn how to define the main menu of a store, which functions like a directory to the different departments. 
+description: Learn how to define the main menu of a store, which functions like a directory to the different departments.
+exl-id: 8b71fe73-2716-4820-9e57-4cb1e6888132
 ---
 # Top navigation
 

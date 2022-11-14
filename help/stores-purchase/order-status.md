@@ -1,6 +1,7 @@
 ---
 title: Order status
 description: Learn about the predefined order statuses and how to define custom order statuses to align with your operational needs.
+exl-id: d1153558-a721-4643-a70c-7fc20072983c
 ---
 # Order status
 

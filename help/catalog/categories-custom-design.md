@@ -1,6 +1,7 @@
 ---
 title: Categories - Design settings
 description: Learn about using the [!UICONTROL Design] settings to define the look and feel of a category, all associated product pages, and page layout.
+exl-id: 6dc216ac-1c52-4196-9c93-e5cad19901b5
 ---
 # Categories - Design settings
 

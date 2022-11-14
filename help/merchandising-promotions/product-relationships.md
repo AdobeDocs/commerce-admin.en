@@ -1,6 +1,7 @@
 ---
 title: Product relationships
 description: Learn about the product relationship types that you can use to promote products to targeted buyers.
+exl-id: 180352dc-65bf-4264-8287-9bf30f368ca1
 ---
 # Product relationships
 

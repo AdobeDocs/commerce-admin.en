@@ -1,6 +1,7 @@
 ---
 title: Configure events
 description: Learn how to complete the basic configuration to enable events and set up the event block in the storefront sidebar.
+exl-id: 620b2d60-ce6f-4f31-93bb-18d3dd9cdce6
 ---
 # Configure events
 

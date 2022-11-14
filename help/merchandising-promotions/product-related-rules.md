@@ -1,6 +1,7 @@
 ---
 title: Related product rules
 description: Learn about related product rules and how they are used to dynamically present related products, up-sells, and cross-sells to your customers.
+exl-id: ff566e13-cbe8-42f1-be3a-684e364b86dd
 ---
 # Related product rules
 

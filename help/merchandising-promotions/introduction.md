@@ -1,6 +1,7 @@
 ---
 title: Introduction to Commerce merchandising and promotions
 description: Learn Commerce tools for creating targeted promotions and opportunities for customer engagement.
+exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
 ---
 # Introduction to Commerce merchandising and promotions
 

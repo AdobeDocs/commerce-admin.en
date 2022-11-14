@@ -1,6 +1,7 @@
 ---
 title: PayPal Express Checkout
 description: Learn how to set up PayPal Express Checkout as an online payment solution on your store.
+exl-id: 0cd90306-cf47-4a5f-8994-6ae96904ae2f
 ---
 # PayPal Express Checkout
 

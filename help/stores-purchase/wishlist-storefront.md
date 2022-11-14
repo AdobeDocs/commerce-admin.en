@@ -1,6 +1,7 @@
 ---
 title: Wish list storefront experience
 description: Learn about the wish list management tools available to your customers on the storefront.
+exl-id: df8cf89a-c897-4a9a-9e84-3bae946683a4
 ---
 # Wish list storefront experience
 

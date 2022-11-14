@@ -1,6 +1,7 @@
 ---
 title: Flat catalogs
 description: Learn  about creating a flat catalog, where each row contains all the necessary data about a product or category.
+exl-id: f67bd2e0-3902-41eb-b26f-c772a7692cef
 ---
 # Flat catalogs
 

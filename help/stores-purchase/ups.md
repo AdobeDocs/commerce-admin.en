@@ -1,6 +1,7 @@
 ---
 title: United Parcel Service (UPS)
 description: Learn how to set up UPS as a shipping carrier for your store.
+exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 ---
 # United Parcel Service (UPS)
 

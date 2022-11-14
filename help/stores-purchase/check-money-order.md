@@ -1,6 +1,7 @@
 ---
 title: Checks and money orders
 description: Learn how to set up check and money order as an offline method of payment on your store.
+exl-id: e004f0c3-f659-4b08-a41a-88bfc05acaab
 ---
 # Checks and money orders
 

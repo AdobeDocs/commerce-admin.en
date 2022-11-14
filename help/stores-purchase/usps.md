@@ -1,6 +1,7 @@
 ---
 title: United States Postal Service (USPS)
 description: Learn how to set up USPS as a shipping carrier for your store.
+exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 ---
 # United States Postal Service (USPS)
 

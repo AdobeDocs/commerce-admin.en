@@ -1,6 +1,7 @@
 ---
 title: Email reminders
 description: Learn about email reminders that can be automatically sent to customers when a specific set of conditions is met.
+exl-id: 3293caca-9dd3-4d64-a80c-58c92a9208e5
 ---
 # Email reminders
 

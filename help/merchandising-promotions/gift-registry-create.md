@@ -1,6 +1,7 @@
 ---
 title: Gift registry setup
 description: Learn how to set up gift registry types for your store customers.
+exl-id: d618c769-10be-4881-a799-42484d35c57b
 ---
 # Gift registry setup
 

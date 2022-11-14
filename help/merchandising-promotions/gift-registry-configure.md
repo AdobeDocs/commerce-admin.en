@@ -1,6 +1,7 @@
 ---
 title: Configure gift registries
 description: Lean how to enable gift registries and configure the related email notifications.
+exl-id: 48193621-731d-4640-8ea8-5b201915cdf1
 ---
 # Configure gift registries
 

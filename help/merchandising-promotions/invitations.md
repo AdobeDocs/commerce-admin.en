@@ -1,6 +1,7 @@
 ---
 title: Event invitations
 description: Learn how customers can send and view invitations to events and private sales from the dashboard of their customer accounts.
+exl-id: 6a9123a0-bdb4-4cd6-99cd-658f728aa90c
 ---
 # Event invitations
 

@@ -1,6 +1,7 @@
 ---
 title: Tax guidelines by country
 description: Review recommended tax settings according to country.
+exl-id: 027da0a2-0ff4-40a7-9b9c-eefad888bb7a
 ---
 # Tax guidelines by country
 

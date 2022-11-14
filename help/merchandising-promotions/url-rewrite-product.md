@@ -1,6 +1,7 @@
 ---
 title: Product URL rewrites
 description: Learn how to use product URL rewrites to redirect links to the URL of another product in your Commerce store.
+exl-id: 42b28ff7-e148-44f2-b6b4-63a38458e752
 ---
 # Product URL rewrites
 

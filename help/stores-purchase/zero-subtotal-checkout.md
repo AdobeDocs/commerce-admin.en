@@ -1,6 +1,7 @@
 ---
 title: Zero subtotal checkout
 description: Learn how to set up a zero subtotal as an offline method of payment on your store.
+exl-id: c14ce289-8292-41d9-a448-f493c784f35c
 ---
 # Zero subtotal checkout
 

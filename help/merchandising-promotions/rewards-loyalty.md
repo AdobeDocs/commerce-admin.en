@@ -1,6 +1,7 @@
 ---
 title: Reward and loyalty programs
 description: Learn about the reward points system that you can use to drive customer engagement and promote customer loyalty.
+exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 ---
 # Reward and loyalty programs
 

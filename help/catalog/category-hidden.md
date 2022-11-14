@@ -1,6 +1,7 @@
 ---
 title: Hidden categories
 description: Learn how to use hidden categories for internal purposes or to link to a category that is not included in the navigation menu.
+exl-id: 43aa74b3-b4cd-488d-aa58-fa2c468fe3a2
 ---
 # Hidden categories
 

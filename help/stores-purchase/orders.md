@@ -1,6 +1,7 @@
 ---
 title: Orders
 description: Learn about the Orders workspace and the search capabilities used to locate orders in the Admin.
+exl-id: 6ec8b8c7-97c4-446e-9420-e36e72e90237
 ---
 # Orders
 

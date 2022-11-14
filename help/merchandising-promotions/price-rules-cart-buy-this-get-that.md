@@ -1,6 +1,7 @@
 ---
 title: Cart price rule example - buy this get that
 description: Review an example of using a cart price rule to offer a buy-this-get-that promotion.
+exl-id: 49e4f9d1-bc60-4861-baca-a23fe148d1c4
 ---
 # Cart price rule example - buy this get that
 

@@ -1,6 +1,7 @@
 ---
 title: Create a product
 description: Learn about the types of products that you can create for your catalog.
+exl-id: ff90bf8a-a64d-403f-bd09-5c8167a36f0b
 ---
 # Create a product
 
@@ -46,7 +47,7 @@ The most frequently used product settings and attributes are located at the top 
 |[[!UICONTROL Product in Websites]](settings-basic-websites.md)| Identifies each website where the product is available, according to the store hierarchy.|
 |[[!UICONTROL Design]](settings-advanced-design.md)|Used to apply a different theme to the product page, change the column layout, determine where product options appear, and enter custom XML code.|
 |[[!UICONTROL Gift options]](product-gift-options.md)|Used to enable or disable a gift message option during checkout at the product level.|
-|[[!UICONTROL Product In Shared Catalogs]](../b2b/catalog-shared.md) | ![B2B for Adobe Commerce](../assets/b2b.svg) (Available with [B2B for Adobe Commerce](./b2b/../introduction.md) only) Enables the ability to maintain shared catalogs with custom pricing for different companies, with access to two types of shared catalogs using different pricing structures.|
+|[[!UICONTROL Product In Shared Catalogs]](../b2b/catalog-shared.md) | ![B2B for Adobe Commerce](../assets/b2b.svg) (Available with [B2B for Adobe Commerce](../b2b/introduction.md) only) Enables the ability to maintain shared catalogs with custom pricing for different companies, with access to two types of shared catalogs using different pricing structures.|
 
 {style="table-layout:auto"}
 

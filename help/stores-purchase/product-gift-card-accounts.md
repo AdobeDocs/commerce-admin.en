@@ -1,6 +1,7 @@
 ---
 title: Gift card accounts
-description: Learn about gift card accounts and how to configure the default settings for code pool management. 
+description: Learn about gift card accounts and how to configure the default settings for code pool management.
+exl-id: f8caff04-38fd-4195-ab11-77dae900976d
 ---
 # Gift card accounts
 

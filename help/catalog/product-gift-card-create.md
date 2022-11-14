@@ -1,6 +1,7 @@
 ---
 title: Gift card product
-description: Learn how to create a gift card product that produces a unique code to be redeemed by a recipient customer during checkout. 
+description: Learn how to create a gift card product that produces a unique code to be redeemed by a recipient customer during checkout.
+exl-id: bc4b60fe-10b3-4d17-85ce-35c2720c90a2
 ---
 # Gift card product
 

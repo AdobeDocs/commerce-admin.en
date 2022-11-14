@@ -1,6 +1,7 @@
 ---
-title: "[!DNL Google Tag Manager]"
+title: '[!DNL Google Tag Manager]'
 description: Learn how to use [!DNL Google Tag Manager] to manage the many tags (snippets of code) that are related to your marketing campaign events in your Adobe Commerce sites.
+exl-id: 9c24239b-9efd-42ee-9b99-5a194f3c4347
 ---
 # [!DNL Google Tag Manager]
 

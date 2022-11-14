@@ -1,6 +1,7 @@
 ---
 title: Product listings
-description: Learn how to modify the product listing configuration, which determines how many products appear per page, and which attribute is used to sort the list. 
+description: Learn how to modify the product listing configuration, which determines how many products appear per page, and which attribute is used to sort the list.
+exl-id: 3779d9db-4adb-473b-b9c9-ad066f50b549
 ---
 # Product listings
 

@@ -1,6 +1,7 @@
 ---
 title: Special Price
 description: Learn how to offer special pricing for a designated time period.
+exl-id: 4a1e2045-f0a8-4bae-a5a3-8ce8b258b217
 ---
 # Special Price
 

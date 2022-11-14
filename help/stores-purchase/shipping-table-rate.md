@@ -1,6 +1,7 @@
 ---
 title: Table rate shipping
 description: Learn how to set up a table-rate shipping option for your store.
+exl-id: f73adc9a-4c6c-477d-9553-3a3f28647bdd
 ---
 # Table rate shipping
 

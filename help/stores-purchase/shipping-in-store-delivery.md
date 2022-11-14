@@ -1,6 +1,7 @@
 ---
 title: In-store delivery
 description: Learn how to set up an in-store delivery option for your store.
+exl-id: bd64b110-5c39-41c6-8a0c-38561b2a5bf4
 ---
 # In-store delivery
 

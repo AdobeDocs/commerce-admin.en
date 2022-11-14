@@ -1,6 +1,7 @@
 ---
 title: Configure shipping labels
 description: Learn how to configure store for generating shipping labels.
+exl-id: 0693d74b-8b36-4a36-8739-c9fe5a934ff0
 ---
 # Configure shipping labels
 

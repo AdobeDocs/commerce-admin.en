@@ -1,6 +1,7 @@
 ---
 title: Newsletter templates
 description: Learn how to create newsletter templates to align with your communications strategy.
+exl-id: 2a14ef7c-218a-4984-9062-87cd6000cefc
 ---
 # Newsletter templates
 

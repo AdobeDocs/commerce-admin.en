@@ -1,6 +1,7 @@
 ---
 title: Configure wish lists
 description: Learn how to configure wish list functionality for your store.
+exl-id: 479455f1-282f-4277-b132-45c5867fb21c
 ---
 # Configure wish lists
 

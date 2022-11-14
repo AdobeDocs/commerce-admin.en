@@ -1,6 +1,7 @@
 ---
 title: FedEx
 description: Learn how to set up FedEx as a shipping carrier for your store.
+exl-id: 75bb3ed1-3ae9-418a-be90-888046b28a7b
 ---
 # FedEx
 

@@ -1,6 +1,7 @@
 ---
 title: Wish lists
 description: Learn about wish lists and how they can add to the shopping experience and promote more sales.
+exl-id: 42c73566-0e32-4639-9fa2-d504fa161ebc
 ---
 # Wish lists
 
