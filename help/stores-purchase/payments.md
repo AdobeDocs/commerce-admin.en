@@ -75,6 +75,6 @@ Fraud protection services and filters examine submitted orders before the transa
 
 ## Troubleshooting resources
 
-For help with troubleshooting payment issues, see the [Support Knowledgebase](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=en)
+For help with troubleshooting payment issues, see the [Support Knowledgebase](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=en).
 
 [1]: https://marketplace.magento.com/catalogsearch/result?q=fraud%20protection
