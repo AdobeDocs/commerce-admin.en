@@ -14,6 +14,7 @@ The Experience Platform Audiences extension for Adobe Commerce lets you import E
 
 Using Experience Platform Audiences in Adobe Commerce requires that you:
 
+- [Intall Adobe Commerce Cloud version 2.4.4 or higher](https://business.adobe.com/products/magento/magento-commerce.html)
 - [Activate](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) Adobe Commerce as a destination in Experience Platform
 - [Install](#install-the-extension) the Experience Platform Audiences extension in Adobe Commerce
 - [Configure](#configure-the-extension) the Experience Platform Audiences extension in the Admin to import Experience Platform Audiences into Commerce
