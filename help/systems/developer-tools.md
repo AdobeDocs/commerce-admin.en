@@ -1,6 +1,6 @@
 ---
 title: Developer tools
-description: Learn about the advanced developer tools that are available to support developers working on customization projects.s
+description: Learn about the advanced developer tools that are available to support developers working on customization projects.
 exl-id: 34529aa9-201f-4817-b53b-a15b6a78a923
 ---
 # Developer tools
@@ -14,6 +14,14 @@ Use the advanced developer tools to determine the compilation mode during fronte
 - [Developer Client Restrictions](#client-restrictions)
 - [Template Path Hints](#template-path-hints)
 - [Translate Inline](#translate-inline)
+
+## Operation modes
+
+Your Adobe Commerce or Magento Open Source instance can be deployed to run in either _production_ or _developer mode_. The tools and configuration settings that are designed specifically for developers can be accessed only while the store is running in _developer mode_.
+
+The operation mode can be changed only from the command line of the server by a user with appropriate permissions. See [Set the operation mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) in the _Configuration Guide_ for more information.
+
+Most topics in the merchant documentation apply to a Commerce instance that is running in production mode. However, the following configuration settings and topics can be used only when the installation is running in developer mode (each topic is marked  with _Developer Mode Only_ where applicable).
 
 ## Frontend development workflow
 
