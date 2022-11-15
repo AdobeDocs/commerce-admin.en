@@ -45,11 +45,12 @@ Instant Purchase allows customers to speed through the checkout process using in
 
 ### Step 2: Configure the payment method vault
 
-You can use Instant Purchase with Braintree or Payment Services for Adobe Commerce and Magento Open Source.
+You can use Instant Purchase with Braintree or Payment Services for Adobe Commerce and Magento Open Source. Vaulting must be enabled before a shopper can utilize Instant Purchase.
 
-See [Braintree](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/braintree.html) to learn how to configure Braintree, including enabling vaulting, in preparation for enabling Instant Purchase.
+Learn how to configure the payment method and enable vaulting for Braintree or Payment Services:
 
-See [Payment Services documentation](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html) to learn how to [configure Payment Services](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/settings.html#configure-general-settings), including [enabling vaulting](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/settings.html#card-vaulting), in preparation for enabling Instant Purchase.
+* [Braintree](braintree.md)
+* [Payment Services documentation](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html)
 
 ### Step 3: Enable Instant Purchase
 
