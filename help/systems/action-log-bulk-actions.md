@@ -1,6 +1,7 @@
 ---
 title: Bulk actions
 description: Learn how to configure and view the bulk actions log.
+exl-id: 3907d9ef-3592-4dbb-805f-97b79bafd8ab
 ---
 # Bulk actions
 

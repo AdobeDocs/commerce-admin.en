@@ -1,6 +1,7 @@
 ---
 title: Index management
 description: Learn about index management, including the actions that trigger reindexing and best practices.
+exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 ---
 # Index management
 

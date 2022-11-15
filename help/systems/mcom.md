@@ -1,6 +1,7 @@
 ---
 title: Order Management System for Adobe Commerce
 description: Learn how to manage your stock aggregates and the Order Management integration, available with the Order Management System (OMS) Connector.
+exl-id: b23e641b-70be-4d4f-a14f-1ed3cbaaf064
 ---
 # Order Management System for Adobe Commerce
 

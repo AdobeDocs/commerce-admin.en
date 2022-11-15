@@ -1,6 +1,7 @@
 ---
 title: Configure Admin security
 description: Learn how to configure security for your store Admin.
+exl-id: 931fd8ad-96b7-42e5-9c3e-4bb9ca85b1ba
 ---
 # Configure Admin security
 

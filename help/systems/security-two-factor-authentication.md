@@ -1,6 +1,7 @@
 ---
 title: Two-factor authentication (2FA)
 description: Learn about two-factor authentication support to ensure security of your store and data.
+exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 ---
 # Two-factor authentication (2FA)
 

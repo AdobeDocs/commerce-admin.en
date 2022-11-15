@@ -1,6 +1,7 @@
 ---
 title: Encryption key
 description: Learn how to auto generate or add your own encryption key, which should be changed regularly to improve security.
+exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 ---
 # Encryption key
 

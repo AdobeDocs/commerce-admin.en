@@ -1,6 +1,7 @@
 ---
 title: Introduction to Admin systems
 description: Learn about the systems tools and functions that the administrator of the store can use to effectively manage the sites, data, integrations, and Admin users.
+exl-id: 52792a89-8f6f-4230-9a04-e193b3943410
 ---
 # Introduction to Admin systems
 

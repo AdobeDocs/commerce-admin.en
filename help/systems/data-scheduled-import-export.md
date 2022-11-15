@@ -1,6 +1,7 @@
 ---
 title: Scheduled import and export
 description: Learn how to manage scheduled data import and export operations.
+exl-id: 74ba40f1-a540-4425-9500-2c730c1145e7
 ---
 # Scheduled import and export
 
