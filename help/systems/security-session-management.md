@@ -1,6 +1,7 @@
 ---
 title: Session management
 description: Learn how to configure session management to secure the Admin and storefront.
+exl-id: ad954218-aa3e-44e6-b23f-008de7fc7543
 ---
 # Session management
 

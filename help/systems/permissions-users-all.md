@@ -1,6 +1,7 @@
 ---
 title: Manage Admin user accounts
 description: Learn how to create Admin user accounts and assign roles to grant permissions to Admin functions.
+exl-id: 65cca7a8-3d44-4c8c-a758-c0de03d53e11
 ---
 # Manage Admin user accounts
 
@@ -149,4 +150,3 @@ Additional password security measures can be implemented in the [Advanced Admin]
 1. In the upper-left corner, set **[!UICONTROL Actions]** to `Unlock`.
 
 1. Click **[!UICONTROL Submit]** to unlock the account.
-

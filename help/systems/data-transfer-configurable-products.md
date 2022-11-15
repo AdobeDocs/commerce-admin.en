@@ -1,6 +1,7 @@
 ---
 title: Import configurable products
 description: Review an example of importing product data for a configurable product.
+exl-id: bb8b2a6d-867e-4ab2-bdfd-98a01d79c457
 ---
 # Import configurable products
 

@@ -1,6 +1,7 @@
 ---
 title: CAPTCHA
 description: Learn how to configure CAPTCHA for Admin access and various storefront actions initiated by registered customers.
+exl-id: b2867ad5-7d48-4e9f-b84e-3cf0a14ec16f
 ---
 # CAPTCHA
 
