@@ -1,6 +1,7 @@
 ---
 title: Security
 description: Learn about the tools available to secure your store and data, and guidelines for a security action plan if your detect a compromise.
+exl-id: 10eef4ac-de83-4083-9ba3-e42c8eb33781
 ---
 # Security
 

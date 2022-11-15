@@ -1,6 +1,7 @@
 ---
 title: Manage two-factor authentication
 description: Learn how to manage two-factor authentication and reset the authenticators for Admin users.
+exl-id: 68256214-2d50-4c42-846f-306ffc305f25
 ---
 # Manage two-factor authentication
 

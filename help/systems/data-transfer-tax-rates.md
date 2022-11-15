@@ -1,6 +1,7 @@
 ---
 title: Update tax rate data
 description: Learn how to use export and import operations to update tax rates for your store.
+exl-id: a3ef718d-b296-41d7-a1b8-ae8274da71b6
 ---
 # Update tax rate data
 

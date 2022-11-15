@@ -1,6 +1,7 @@
 ---
 title: Google reCAPTCHA
 description: Learn how to configure Google reCAPTCHA for Admin access and various storefront actions initiated by registered customers.
+exl-id: c3b53702-0882-4ac4-9cf5-39fefc90005e
 ---
 # Google reCAPTCHA
 
