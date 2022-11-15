@@ -1,6 +1,7 @@
 ---
 title: Browser capabilities detection
 description: Learn how to configure browser capabilities detection and display a notice if the customer's browser settings need to be changed.
+exl-id: 16caab8b-3ba5-43a1-a6f0-7c1e921be132
 ---
 # Browser capabilities detection
 

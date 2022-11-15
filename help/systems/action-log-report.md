@@ -1,6 +1,7 @@
 ---
 title: Action Logs report
-description: Learn how to view, filter, and export the Actions Log report, which provides a detailed record of all log-enabled Admin actions. 
+description: Learn how to view, filter, and export the Actions Log report, which provides a detailed record of all log-enabled Admin actions.
+exl-id: f2be5852-9185-4f14-b0bb-44d779b40819
 ---
 # Action Logs report
 

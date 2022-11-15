@@ -1,6 +1,7 @@
 ---
 title: Support tools
 description: Learn about the provided support tools that you can use to identify issues in your system.
+exl-id: f67616e6-7879-4fd3-947a-16856f8447ba
 ---
 # Support tools
 

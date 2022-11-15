@@ -1,6 +1,7 @@
 ---
 title: Cache management
 description: Learn how to use the cache management tools, which provide an easy way to improve the performance of your site.
+exl-id: c87f85ca-81b9-4cbf-9817-3d779397eefd
 ---
 # Cache management
 

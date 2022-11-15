@@ -1,6 +1,7 @@
 ---
 title: Product image import
 description: Learn how to import product images using the path and file name of each image.
+exl-id: 991550e6-9ce2-4472-becb-3492bd4c9582
 ---
 # Product image import
 

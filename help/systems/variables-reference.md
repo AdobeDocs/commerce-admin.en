@@ -1,6 +1,7 @@
 ---
 title: Variables reference
 description: Review examples of frequently used email templates and their associated variables.
+exl-id: b5e49a56-4b7c-431d-bd44-e8591106fa4e
 ---
 # Variables reference
 

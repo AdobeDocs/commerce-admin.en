@@ -1,6 +1,7 @@
 ---
 title: Add custom variables
 description: Learn how to create custom variables and insert them into pages, blocks, and email templates.
+exl-id: 8233518a-abcf-4889-b75b-4aa503c7cebb
 ---
 # Add custom variables
 

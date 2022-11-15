@@ -1,6 +1,7 @@
 ---
 title: Product data attributes reference
 description: Use this reference of product data attributes when you work with product data imports and exports.
+exl-id: 9ffa4d1f-cbf8-4a08-bb79-33f21e698a74
 ---
 # Product data attributes reference
 
