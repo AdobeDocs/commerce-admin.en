@@ -21,7 +21,7 @@ Your Adobe Commerce or Magento Open Source instance can be deployed to run in ei
 
 The operation mode can be changed only from the command line of the server by a user with appropriate permissions. See [Set the operation mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) in the _Configuration Guide_ for more information.
 
-Most topics in the merchant documentation apply to a Commerce instance that is running in production mode. However, the following configuration settings and topics can be used only when the installation is running in developer mode (each topic is marked  with _Developer Mode Only_ where applicable).
+Most topics in the merchant documentation apply to a Commerce instance that is running in production mode. However, the following configuration settings and tools can be used only when the installation is running in developer mode.
 
 ## Frontend development workflow
 
