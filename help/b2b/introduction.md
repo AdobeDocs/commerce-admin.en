@@ -19,6 +19,14 @@ For more information, see [Company Accounts](account-companies.md).
 >
 >When enabled, your store can give companies the option to _Pay on Account_, which means to make purchases on a company credit line. As the merchant, you can allocate credit for a company account and manage credit settings for a company, and credit reimbursement.
 
+## Services for Adobe Commerce
+
+Services for Adobe Commerce are hosted services that provide extended capabilities to Adobe Commerce and Magento Open Source. Services that support B2B workflows are:
+
+* [Catalog Service](https://experienceleague.adobe.com/docs/commerce-merchant-services/catalog-service/guide-overview.html)
+* [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html)
+* [Product Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html)
+
 ## Shared catalogs
 
 Shared catalogs are the pricing levels that allow setting custom prices per product for different companies on one or multiple websites. By using shared catalogs, you can sell products by applying different pricing levels for different customer groups.
