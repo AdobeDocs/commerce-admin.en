@@ -113,6 +113,7 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 
 | Description | Type | Date |
 | ----------- | ---- | ---- |
+| **New guide** - Content now published in the Experience League: [Admin Systems Guide](../systems/guide-overview.md) | Move | 11/14/2022 |
 | **New guide** - Content now published in the Experience League: [Sales and Purchase Experience Guide](../stores-purchase/guide-overview.md) | Move | 10/25/2022 |
 | **New guide** - Content now published in the Experience League: [Merchandising and Promotions Guide](../merchandising-promotions/guide-overview.md) | Move | 9/27/2022 |
 | **New page section** - Added information about [removal of the Inventory Management modules](../inventory-management/install-update.md#remove-inventory-management) to improve performance for Commerce instances that do not use these features. | Update | 9/21/2022 |
@@ -124,6 +125,5 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 | **2.4.5 release** - Updated information in the [Google API configuration reference](https://docs.magento.com/user-guide/configuration/sales/google-api.html), and the [Google Analytics](../merchandising-promotions/google-universal-analytics.md) and [Google AdWords](../merchandising-promotions/google-adwords.md) topics for new GTag support for Google services integration and move from Google Universal Analytics to Analytics 4. | Update | 8/9/2022 |
 | **2.4.5 release** - Updated [Google reCAPTCHA](https://docs.magento.com/user-guide/stores/security-google-recaptcha.html) and [Google reCAPTCHA Storefront](https://docs.magento.com/user-guide/configuration/security/google-recaptcha-storefront.html) topics to reflect additional support for configuration of reCAPTCHA validation on the storefront. | Update | 8/9/2022 |
 | **2.4.5 release** - Updated the Page Builder [Layout - Columns](../page-builder/column.md) topic for new _columns_ container. | Update | 8/9/2022 |
-| **New guide** - Content now published in the Experience League: [Content and Design Guide](../content-design/guide-overview.md) | Move | 7/15/2022 |
 
 {style="table-layout:auto"}
