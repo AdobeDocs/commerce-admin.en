@@ -26,6 +26,7 @@ Services for Adobe Commerce are hosted services that provide extended capabiliti
 * [Catalog Service](https://experienceleague.adobe.com/docs/commerce-merchant-services/catalog-service/guide-overview.html)
 * [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html)
 * [Product Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html)
+
 ## Shared catalogs
 
 Shared catalogs are the pricing levels that allow setting custom prices per product for different companies on one or multiple websites. By using shared catalogs, you can sell products by applying different pricing levels for different customer groups.
