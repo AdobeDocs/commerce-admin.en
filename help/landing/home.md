@@ -91,8 +91,8 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 </tr>
 <tr>
     <td valign="top">
-       <img alt="System Administration" src="./assets/icon-globe-grid.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://docs.magento.com/user-guide/system/system.html"> <strong>System Administration</strong></a>
+       <img alt="Admin Systems" src="./assets/icon-globe-grid.svg" width="40" height="40"/></td>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/systems/guide-overview.html"> <strong>Admin Systems</strong></a>
     <div><em>The Admin provides multiple tools for managing your system and optimizing its performance. This includes Admin user account administration, with the associated roles and permissions.</em></div>
   </td>
 </tr>
