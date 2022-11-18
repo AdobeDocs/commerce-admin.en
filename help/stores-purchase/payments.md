@@ -42,6 +42,7 @@ Adobe Commerce and Magento Open Source support numerous payment solutions that o
 
 ### Recommended solutions
 
+- [Payment Services](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html)
 - [PayPal Express Checkout](paypal-express-checkout.md)
 - [Braintree](braintree.md)
 
@@ -74,11 +75,6 @@ Fraud protection services and filters examine submitted orders before the transa
 
 ## Troubleshooting resources
 
-For help with troubleshooting payment issues, see the following Commerce Support articles:
-
-- [Orders in payment system but not in Commerce](https://support.magento.com/hc/en-us/articles/360052430272)
-- [Payment methods not displayed on checkout with multiple addresses](https://support.magento.com/hc/en-us/articles/360029360451)
-- [Double authorization on PayPal PayFlow Pro](https://support.magento.com/hc/en-us/articles/360051109051)
-- [PayPal troubleshooting](https://support.magento.com/hc/en-us/articles/115003846053)
+For help with troubleshooting payment issues, see the [Support Knowledgebase](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=en).
 
 [1]: https://marketplace.magento.com/catalogsearch/result?q=fraud%20protection
