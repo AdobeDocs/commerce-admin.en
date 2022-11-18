@@ -55,6 +55,7 @@ breadcrumb-title: Content and Design
     - [Media Storage Overview](media-storage.md)
     - [Use a Media Database](media-storage-database.md)
     - [Use a Content Delivery Network](media-storage-content-delivery-network.md)
+    - [Dynamic media URLs](catalog-urls-dynamic-media.md)
   - Adobe Stock {#adobe-stock}
     - [Adobe Stock Integration](adobe-stock.md)
     - [Use Adobe Stock Images](adobe-stock-manage.md)
