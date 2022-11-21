@@ -7,7 +7,7 @@ description: Placeholder
 >[!IMPORTANT]
 >
 >**PSD2 Requirements:** <br/>
-As of September 14, 2019, European banks might decline payments that do not meet [PSD2](https://docs.magento.com/user-guide/stores/compliance-payment-services-directive.html) requirements. No action is needed for PayPal Express Checkout to comply with PSD2 because all requirements are handled by PayPal.
+>As of September 14, 2019, European banks might decline payments that do not meet [PSD2](https://docs.magento.com/user-guide/stores/compliance-payment-services-directive.html) requirements. No action is needed for PayPal Express Checkout to comply with PSD2 because all requirements are handled by PayPal.
 
 {{config}}
 
@@ -77,7 +77,7 @@ As of September 14, 2019, European banks might decline payments that do not meet
 |Shortcut Buttons Flavor|Store View|Determines the type of image used for the PayPal acceptance button. Options: <br/>**Dynamic** - (Recommended) Displays an image that can be dynamically changed from the PayPal server. <br/>**Static** - Displays a static image that cannot be changed dynamically.|
 |Enable PayPal Guest Checkout|Website|Allows customers who do not have PayPal accounts to make purchases with PayPal Express Checkout. Options: `Yes` / `No`|
 |Require Customer's Billing Address|Website|Determines if the customer billing address is required. Options: Yes, No, For Virtual Quotes Only|
-|Billing Agreement Signup|Website|Determines if customers are able to enter into a [billing agreement](../../stores-purchase/paypal-billing-agreements.html) with your store. Options: <br/>**Auto** - Customer can sign up for a billing agreement during Express Checkout. <br/>**Ask Customer** - Customer are asked if they want to sign up for a billing agreement. <br/>**Never** - Customers are not offered the option to  sign up for a billing agreement.|
+|Billing Agreement Signup|Website|Determines if customers are able to enter into a [billing agreement](../../stores-purchase/paypal-billing-agreements.md) with your store. Options: <br/>**Auto** - Customer can sign up for a billing agreement during Express Checkout. <br/>**Ask Customer** - Customer are asked if they want to sign up for a billing agreement. <br/>**Never** - Customers are not offered the option to  sign up for a billing agreement.|
 |Skip Order Review Step|Website|Determines if customers can complete the transaction from the PayPal site, or are required to return to your store and complete the Order Review step before submitting the order. Options: `Yes` / `No`|
 
 ### Billing Agreement Settings

@@ -31,12 +31,12 @@ The following payment solutions are recommended as an easy way for merchants who
 >[!NOTE]
 >
 >Some payment integrations and bundled extensions have been removed in 2.4.x releases and moved to Commerce Marketplace. You can find the latest official payment integration extensions in [Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target="_blank"}.
-><br>
->- **Amazon Pay** and **Klarna**: Adobe Commerce and Magento Open Source releases 2.4.0 through 2.4.3 included these vendor-developed extensions. Starting with the 2.4.4 release, these extensions are no longer bundled with the core release and must be installed and updated from the Commerce Marketplace. The Marketplace also provides access to current documentation provided by the extension developer.
-><br>
-   If you have either of these bundled extension enabled and configured, you must update your composer.json file as part of the 2.4.4 upgrade process and to manage extension updates going forward. See [Upgrade modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) in the _Upgrade Guide_ for more information.
-><br>
->- **Worldpay**, **Eway**, **CyberSource**, and **Authorize.Net**: For details about making a secure transition from these payment integrations, see our [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}.
+><br/>
+>**Amazon Pay** and **Klarna**: Adobe Commerce and Magento Open Source releases 2.4.0 through 2.4.3 included these vendor-developed extensions. Starting with the 2.4.4 release, these extensions are no longer bundled with the core release and must be installed and updated from the Commerce Marketplace. The Marketplace also provides access to current documentation provided by the extension developer.
+><br/>
+>   If you have either of these bundled extension enabled and configured, you must update your `composer.json` file as part of the 2.4.4 upgrade process and to manage extension updates going forward. See [Upgrade modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) in the _Upgrade Guide_ for more information.
+><br/><br/>
+>**Worldpay**, **Eway**, **CyberSource**, and **Authorize.Net**: For details about making a secure transition from these payment integrations, see our [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}.
 
 ## Other PayPal methods
 
@@ -120,7 +120,7 @@ The following payment methods are built into Commerce and do not use a third-par
 
 ![Cash On Delivery Payment](./assets/payment-methods-cash-on-delivery-payment.png)<!-- zoom -->
 
-<!-- Cash On Delivery Payment_](../../stores-purchase/cash-on-delivery.html) -->
+<!-- [Cash On Delivery Payment](../../stores-purchase/cash-on-delivery.html) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -135,9 +135,9 @@ The following payment methods are built into Commerce and do not use a third-par
 
 ### Zero Subtotal Checkout
 
-![Zero Subtotal Checkout(./assets/payment-methods-zero-subtotal-checkout.png)<!-- zoom -->
+![Zero Subtotal Checkout](./assets/payment-methods-zero-subtotal-checkout.png)<!-- zoom -->
 
-<!-- Zero Subtotal Checkout_](../../stores-purchase/zero-subtotal-checkout.html) -->
+<!-- [Zero Subtotal Checkout](../../stores-purchase/zero-subtotal-checkout.html) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -154,16 +154,16 @@ Payment actions are configured per payment method. The payment action determines
 
 See the Basic settings section of each individual payment method topic for a comprehensive list of individual configuration options.
 
-|Payment Action |Description
-|--- |---
-|Authorization |Approves the purchase, but puts hold on the funds. The amount is not withdrawn until is captured by the merchant.
-|Authorize |Authorizes the buyer's account for the order total but does not capture the payment. Capture payment by creating an invoice. Authorized orders can be voided or canceled.
-|Authorize and Capture |Authorizes the buyer's account for the order total and captures the payment. An invoice is automatically created. You can refund captured funds via credit memo. You cannot cancel an order once payment has been captured.
-|Charge on shipment |Amazon receives a capture request and charges the customer when an invoice is created in Commerce.
-|Charge on order |Amazon creates the invoice and charges the customer when the order is placed.
-|Not Capture |When the invoice is submitted, the system does not capture the payment. It is assumed that you capture the payment through Commerce later. There is a Capture button in the completed invoice. Before capturing, you can cancel the invoice. After capturing, you can create a credit memo and void the invoice.
-|Order |Represents an agreement with PayPal that allows the merchant to capture one or more amounts up to the order total from the customer's buyer account, within a defined time period (up to 29 days).
-|Sale |Amount of the purchase is authorized and immediately withdrawn from the customer's account.
+|Payment Action |Description|
+|--- |---|
+|Authorization |Approves the purchase, but puts hold on the funds. The amount is not withdrawn until is captured by the merchant.|
+|Authorize |Authorizes the buyer's account for the order total but does not capture the payment. Capture payment by creating an invoice. Authorized orders can be voided or canceled.|
+|Authorize and Capture |Authorizes the buyer's account for the order total and captures the payment. An invoice is automatically created. You can refund captured funds via credit memo. You cannot cancel an order once payment has been captured.|
+|Charge on shipment |Amazon receives a capture request and charges the customer when an invoice is created in Commerce.|
+|Charge on order |Amazon creates the invoice and charges the customer when the order is placed.|
+|Not Capture |When the invoice is submitted, the system does not capture the payment. It is assumed that you capture the payment through Commerce later. There is a Capture button in the completed invoice. Before capturing, you can cancel the invoice. After capturing, you can create a credit memo and void the invoice.|
+|Order |Represents an agreement with PayPal that allows the merchant to capture one or more amounts up to the order total from the customer's buyer account, within a defined time period (up to 29 days).|
+|Sale |Amount of the purchase is authorized and immediately withdrawn from the customer's account.|
 
 >[!NOTE]
 >

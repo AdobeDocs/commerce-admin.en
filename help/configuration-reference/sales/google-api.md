@@ -12,7 +12,7 @@ description: Placeholder
 
 <!--Google Analytics](https://docs.magento.com/user-guide/marketing/google-universal-analytics.html) -->
 
-| Field | [Scope](../getting-started/websites-stores-views.md#scope-settings) | Description |
+| Field | [Scope](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 | ----- | ------------------------------------------ | ----------- |
 | Enable | Store View | Enables Google Analytics for your store. Options: `Yes` / `No` |
 | Account Type | Store View | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce only) Determines the configuration options according to your Google Analytics account type. Options: Universal Analytics (default) / Google Tag Manager |
@@ -28,7 +28,7 @@ description: Placeholder
 
 When **Account Type** is set to `Google Tag Manager`, there are additional fields displayed.
 
-| Field | [Scope](../getting-started/websites-stores-views.md#scope-settings) | Description |
+| Field | [Scope](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 | ----- | ------------------------------------------ | ----------- |
 | Container ID | Store View | The unique ID for the Google Tag Manager container. This value typically starts with `GTM-`. This ID is in your Google Tab Manager account. If Google Tag manager is already installed and configured for your store, the Container ID appears automatically in this field. |
 | List property for the catalog page | Store View | Identifies the Tag Manager property associated with the catalog page. Default value: Catalog Page |
@@ -44,7 +44,7 @@ When **Account Type** is set to `Google Tag Manager`, there are additional field
 
 <!-- Google AdWords](https://docs.magento.com/user-guide/marketing/google-adwords.html) -->
 
-| Field | [Scope](../getting-started/websites-stores-views.md#scope-settings) | Description |
+| Field | [Scope](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 | ----- | ------------------------------------------ | ----------- |
 | Enable | Store View | Enables Google AdWords for the store. Options: `Yes` / `No` |
 | Conversion ID | Store View | The ID from your Google AdWords account. |
@@ -66,7 +66,7 @@ When **Account Type** is set to `Google Tag Manager`, there are additional field
 
 <!--Google Analytics4](https://docs.magento.com/user-guide/marketing/google-universal-analytics.html) -->
 
-| Field | [Scope](../getting-started/websites-stores-views.md#scope-settings) | Description |
+| Field | [Scope](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 | ----- | ------------------------------------------ | ----------- |
 | Enable | Store View | Enables Google Analytics 4 for your store. Options: `Yes` / `No` |
 | Account Type | Store View | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce only) Determines the configuration options according to your Google Analytics account type. Options: `Google Analytics4` (default) / `Google Tag Manager` |
@@ -82,7 +82,7 @@ When **Account Type** is set to `Google Tag Manager`, there are additional field
 
 When **Account Type** is set to `Google Tag Manager`, there are additional fields displayed.
 
-| Field | [Scope](../getting-started/websites-stores-views.md#scope-settings) | Description |
+| Field | [Scope](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 | ----- | ------------------------------------------ | ----------- |
 | Container Id | Store View | The unique ID for the Google Tag Manager container. This value typically starts with `GTM-`. This ID is in your Google Tab Manager account. If Google Tag manager is already installed and configured for your store, the Container ID appears automatically in this field. |
 | List property for the catalog page | Store View | Identifies the Tag Manager property associated with the catalog page. Default value: Catalog Page |
@@ -98,7 +98,7 @@ When **Account Type** is set to `Google Tag Manager`, there are additional field
 
 <!-- -- Google AdWords](https://docs.magento.com/user-guide/marketing/google-adwords.html) -->
 
-| Field | [Scope](../getting-started/websites-stores-views.md#scope-settings) | Description |
+| Field | [Scope](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 | ----- | ------------------------------------------ | ----------- |
 | Enable | Store View | Enables Google AdWords for the store. Options: `Yes` / `No` |
 | Conversion ID | Store View | The ID from your Google AdWords account. |

@@ -72,7 +72,7 @@ For more information about changing these settings, see [Change the startup page
 
 ## Admin Base URL
 
-![Admin Base URL](./advanced/assets/admin-admin-base-url.png)<!-- zoom -->
+![Admin Base URL](./assets/admin-admin-base-url.png)<!-- zoom -->
 
 <!-- Admin Base URL](https://docs.magento.com/user-guide/stores/store-urls.html)-->
 

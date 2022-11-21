@@ -7,7 +7,7 @@ description: Placeholder
 >[!IMPORTANT]
 >
 >**PSD2 Requirements:** <br/>
-As of September 14, 2019, European banks might decline payments that do not meet [PSD2](https://docs.magento.com/user-guide/stores/compliance-payment-services-directive.html) requirements. To comply with PSD2, PayPal Payflow Pro must be integrated with Cardinal Commerce. To learn more, see [3-D Secure for Payflow](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/).
+>As of September 14, 2019, European banks might decline payments that do not meet [PSD2](https://docs.magento.com/user-guide/stores/compliance-payment-services-directive.html) requirements. To comply with PSD2, PayPal Payflow Pro must be integrated with Cardinal Commerce. To learn more, see [3-D Secure for Payflow](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/).
 
 {{config}}
 

@@ -6,10 +6,12 @@ description: Placeholder
 
 >[!IMPORTANT]
 >
->**Commerce 2.4 Migration:**<br />
-For versions of Adobe Commerce and Magento Open Source earlier than 2.4.0, it was recommended that merchants install and configure the official Braintree payment integration extension from the [Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree) to replace the core integration. As of 2.4.0, the extension is now included in the core release.<br/><br/>
-When migrating to Commerce 2.4, merchants need to uninstall the extension distributed on the Marketplace (`paypal/module-braintree` or `gene/module-braintree`) and update any code customizations to use the `PayPal_Braintree` namespace instead of `Magento_Braintree`. Configuration settings from the Braintree Payments bundled extension for Commerce and the extension distributed on the Commerce Marketplace are persisted and payments placed with those versions of the extension are captured, voided, or refunded as normal.<br /><br />
-If you are upgrading to Commerce 2.4.0 and were not using the recommended Commerce Marketplace extension in your previous 2.3.x version, the multi address feature does not work with the 2.4.0 version of Braintree. When a shopper selects _deliver to multiple addresses_ , the Braintree payment method does not appear. The Commerce Marketplace Extension previously recommended for 2.3.x has this multiple address issue.
+>**Commerce 2.4 Migration:**<br/>
+>For versions of Adobe Commerce and Magento Open Source earlier than 2.4.0, it was recommended that merchants install and configure the official Braintree payment integration extension from the [Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree) to replace the core integration. As of 2.4.0, the extension is now included in the core release.
+><br/><br/>
+>When migrating to Commerce 2.4, merchants need to uninstall the extension distributed on the Marketplace (`paypal/module-braintree` or `gene/module-braintree`) and update any code customizations to use the `PayPal_Braintree` namespace instead of `Magento_Braintree`. Configuration settings from the Braintree Payments bundled extension for Commerce and the extension distributed on the Commerce Marketplace are persisted and payments placed with those versions of the extension are captured, voided, or refunded as normal.
+><br/><br/>
+>If you are upgrading to Commerce 2.4.0 and were not using the recommended Commerce Marketplace extension in your previous 2.3.x version, the multi address feature does not work with the 2.4.0 version of Braintree. When a shopper selects _deliver to multiple addresses_ , the Braintree payment method does not appear. The Commerce Marketplace Extension previously recommended for 2.3.x has this multiple address issue.
 
 {{config}}
 

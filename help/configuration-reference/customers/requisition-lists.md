@@ -14,7 +14,7 @@ description: Placeholder
 
 >[!NOTE]
 >
->Access to these configuration options for B2B features are controlled by the [role resources](../systems/permissions-user-roles.md#role-resources). These role resources must be set for the user role assigned to the Admin user.
+>Access to these configuration options for B2B features are controlled by the [role resources](../../systems/permissions-user-roles.md#role-resources). These role resources must be set for the user role assigned to the Admin user.
 
 ## General
 

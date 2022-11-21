@@ -90,7 +90,7 @@ description: Placeholder
 |--- |--- |--- |
 |Merge CSS Files|Store View|Merges multiple CSS files into a single file to improve page load time. Options: `Yes` / `No`|
 |Minify CSS Files|Store View|Removes unnecessary characters, spaces, and indentation to reduce the size of the code. Options: `Yes` / `No`|
-|Use CSS critical path|Global|The _CSS critical path_ delivers minified critical CSS inline in <head> and defers all non-critical styles that are loaded asynchronously. Options: `Yes` / `No`|
+|Use CSS critical path|Global|The _CSS critical path_ delivers minified critical CSS inline in `<head>` and defers all non-critical styles that are loaded asynchronously. Options: `Yes` / `No`|
 
 ## Image Processing Settings
 

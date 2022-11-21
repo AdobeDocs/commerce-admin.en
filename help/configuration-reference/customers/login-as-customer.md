@@ -12,7 +12,7 @@ description: Placeholder
 
 <!-- Login As Customer - General Options](https://docs.magento.com/user-guide/customers/login-as-customer.html#enable-the-feature) -->
 
-| Option | [Scope](../getting-started/websites-stores-views.md#scope-settings) | Description |
+| Option | [Scope](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |-- | -- | -- |
 | Enable Login as Customer | Global | Determines if Login as Customer is enabled in the global scope. Options: `Yes` / `No` |
 | Disable Page Cache for Admin User | Global | Determines if page cache for the admin user is disabled in the global scope. Options: `Yes` / `No` |

@@ -54,4 +54,4 @@ description: Placeholder
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|WebApi Challenge Domain|Global|The domain that is used to issue and process WebAuthn challenges for custom WebAPI implementations.
+|WebApi Challenge Domain|Global|The domain that is used to issue and process WebAuthn challenges for custom WebAPI implementations.|

@@ -154,7 +154,7 @@ description: Placeholder
 
 <!-- Address Templates](https://docs.magento.com/user-guide/customers/address-templates.html) -->
 
-|Template|[Scope](../getting-started/websites-stores-views.md#scope-settings)|Description|
+|Template|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |Text|Store View|The template is used for all addresses that are printed.|
 |Text One Line|Store View|This template defines the order of address entities in the customer's shopping cart address book list. Progress during checkout.|
@@ -169,7 +169,7 @@ description: Placeholder
 
 <!--Customer Segments](https://docs.magento.com/user-guide/marketing/customer-segments.html) -->
 
-|Template|[Scope](../getting-started/websites-stores-views.md#scope-settings)|Description|
+|Template|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |Enable Customer Segment Functionality|Global|Determines if customer segments can be used to create targeted promotions. Options: `Yes` / `No`|
 

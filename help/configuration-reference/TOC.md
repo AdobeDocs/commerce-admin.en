@@ -67,7 +67,7 @@ hide: no
     - [PayPal Payments Standard](./sales/paypal-payments-standard.md)
     - [PayPal Payflow Pro](./sales/paypal-payflow-pro.md)
     - [PayPal Payflow Link](./sales/paypal-payflow-link.md)
-- [Sales Channels](./sales-channels/global-settings.md)
+- [Sales Channels](./sales-channels.md)
 - Services {#services}
   - [Web API](./services/magento-web-api.md)
   - [Commerce Services](./services/saas.md)

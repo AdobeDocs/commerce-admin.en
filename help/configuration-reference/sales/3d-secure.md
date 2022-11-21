@@ -12,7 +12,7 @@ description: Placeholder
 
 >[!NOTE]
 >
->The [Braintree](../../stores-purchase/braintree.html) payment gateway also supports 3-D Secure verification.
+>The [Braintree](../../stores-purchase/braintree.md) payment gateway also supports 3-D Secure verification.
 
 ## CardinalCommerce
 

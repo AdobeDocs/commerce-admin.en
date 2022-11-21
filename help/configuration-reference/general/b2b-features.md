@@ -50,6 +50,6 @@ When companies are enabled, additional fields are available.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|[Enable Purchase Orders](../../stores-purchase/purchase-order.html)|Website|When enabled, allows companies to create purchase orders. Options: `Yes` / `No`|
+|[Enable Purchase Orders](../../stores-purchase/purchase-order.md)|Website|When enabled, allows companies to create purchase orders. Options: `Yes` / `No`|
 
 ![B2B Features - Order Approval Configuration](./assets/b2b-features-order-approval.png)<!-- zoom -->
