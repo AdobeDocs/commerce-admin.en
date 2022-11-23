@@ -329,8 +329,6 @@ If you have a different image for each variation, you can set the configuration 
 
 ## Configure the Stock Status
 
-For proper stock functioning it is recommended to install and enable Inventory modules.
-
 ### Overview
 
 The main principles of Stock Status relationships are following: 
@@ -348,6 +346,10 @@ The _Stock Status_ of the configurable product is partially controlled by the St
 - If configurable product Stock Status is **_manually_** set to `Out of Stock` by an Admin user, file import, or API call, then it will always remain as `Out of Stock` on both **_Admin_** and **_Storefront_**, until it will be **_manually_** changed to `In stock` by an Admin user, file import, or API call. It cannot be controlled by the stock status of its child products.   
 
 - If configurable product Stock Status is **_manually_** set to `In Stock` by an Admin user, file import, or API call, then its stock status will be **_automatically_** controlled by the stock status of its child products on both **_Admin_** and **_Storefront_**.
+
+>[!NOTE]
+>
+>Stocks and sources are parts of the [Inventory Management](../inventory-management/sources-stocks.md) tool.
 
 #### With at least one custom source/stock:
 
