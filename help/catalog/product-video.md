@@ -65,6 +65,10 @@ To add a product video, you must first obtain an API Key from your Google accoun
 
 1. To upload a **[!UICONTROL Preview Image]**, browse to the image and select the file.
 
+   >[!NOTE]
+   >
+   >Preview images are provided by YouTube and Vimeo video service providers directly. It cannot be cropped, or edited on Adobe Commerce Admin Panel side.
+
 1. If you prefer to use the video meta data, click **[!UICONTROL Get Video Information]**.
 
 1. To determine how the video is used in the store, select the checkbox of each **[!UICONTROL Role]** that applies:
