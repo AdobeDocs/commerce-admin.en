@@ -329,27 +329,33 @@ If you have a different image for each variation, you can set the configuration 
 
 ## Configure the Stock Status
 
-The _Stock Status_ of the configurable product is partially controlled by the Stock Status of its child products, and part of a **_multi-criteria_** stock status calculation.
+For proper stock functioning it is recommended to install and enable Inventory modules.
 
-**_With default source/stock only:_**
+### Overview
+
+The main principles of Stock Status relationships are following: 
+
+- When you change the **[!UICONTROL Stock Status]** of the configurable product as `Out of Stock` and click **[!UICONTROL Save]**, it is **_not controlled_** by the stock statuses of its child products. It is always displayed as `Out of Stock` in the Admin and on the Storefront.
+
+- When you set the **[!UICONTROL Stock Status]** of the configurable product as `In Stock` and click **[!UICONTROL Save]**, it is **_only partially controlled_** by the stock statuses of its child products, which are reflected in the Admin and on the Storefront.
+
+### Detailed description
+
+The _Stock Status_ of the configurable product is partially controlled by the Stock Status of its child products, and part of the following **_multi-criteria_** stock status calculation.
+
+#### With default source/stock only:
 
 - If configurable product Stock Status is **_manually_** set to `Out of Stock` by an Admin user, file import, or API call, then it will always remain as `Out of Stock` on both **_Admin_** and **_Storefront_**, until it will be **_manually_** changed to `In stock` by an Admin user, file import, or API call. It cannot be controlled by the stock status of its child products.   
 
 - If configurable product Stock Status is **_manually_** set to `In Stock` by an Admin user, file import, or API call, then its stock status will be **_automatically_** controlled by the stock status of its child products on both **_Admin_** and **_Storefront_**.
 
-**_With at least one custom source/stock:_**
+#### With at least one custom source/stock:
 
 - If configurable product Stock Status value is **_manually_** set to `Out of Stock` by an Admin user, file import, or API call, then it will always remain as `Out of Stock` on both **_Admin_** and **_Storefront_**, until it will be changed **_manually_** to `In Stock` by an Admin user, file import, or API call. It **_cannot_** be controlled by the stock status of its child products.
 
 - If configurable product Stock Status value is **_manually_** set to `In Stock` by an Admin user, file import, or API call, then its stock status will be **_automatically_** controlled by the stock status of its child products on **_Storefront_** only.
 
 - If configurable product Stock Status value is **_manually_** set to `In Stock` by an Admin user, file import, or API call, then it will always remain as `In Stock` on **_Admin_**, until it will be changed **_manually_** to `Out of Stock` by an Admin user, file import, or API call. It **_cannot_** be controlled by the stock status of its child products.
-
-With these Stock Status relationships in mind, note the following:
-
-- When you change the **[!UICONTROL Stock Status]** of the configurable product as `Out of Stock` and click **[!UICONTROL Save]**, it is **_not controlled_** by the stock statuses of its child products. It is always displayed as `Out of Stock` in the Admin and on the Storefront.
-
-- When you set the **[!UICONTROL Stock Status]** of the configurable product as `In Stock` and click **[!UICONTROL Save]**, it is **_only partially controlled_** by the stock statuses of its child products, which are reflected in the Admin and on the Storefront.
 
 ## Things to remember
 
