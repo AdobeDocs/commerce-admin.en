@@ -9,7 +9,7 @@ When enabled in the configuration, [!DNL Page Builder] is the default content cr
 
 >[!NOTE]
 >
->When installed, Page Builder will override Stores > Configuration > Catalog > Catalog > Product Fields Autogeneration > Mask for Meta Description default configuration. The value will be changed from {{name}} {{description}} to {{name}}.
+>When installed, Page Builder will override Stores > Configuration > Catalog > Catalog > Product Fields Auto-generation > Mask for Meta Description default configuration. The value will be changed from `{{name}} {{description}}` to `{{name}}`.
 > 
 For more information about the Content Management Advanced Tools configuration options, see the [Configuration Reference Guide](https://docs.magento.com/user-guide/configuration/general/content-management.html).
 
