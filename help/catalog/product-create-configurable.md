@@ -329,6 +329,8 @@ If you have a different image for each variation, you can set the configuration 
 
 ## Configure the Stock Status
 
+Configurable product stock status is different from the stock status of the simple product, where it is a direct representation of the product availability. For a configurable product, the stock status is a part of a **_multi-criteria_** stock status calculation.
+
 ### Overview
 
 The main principles of Stock Status relationships are following: 
