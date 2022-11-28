@@ -1,8 +1,8 @@
 ---
-title: Security > Google reCAPTCHA Admin Panel
-description: Placeholder
+title: "[!UICONTROL Security] > [!UICONTROL Google reCAPTCHA Admin Panel]"
+description: Review the configurations settings on the [!UICONTROL Security] > [!UICONTROL Google reCAPTCHA Admin Panel] page of the Commerce Admin.
 ---
-# Security > Google reCAPTCHA Admin Panel
+# [!UICONTROL Security] > [!UICONTROL Google reCAPTCHA Admin Panel]
 
 >[!IMPORTANT]
 >
@@ -10,55 +10,63 @@ description: Placeholder
 
 {{config}}
 
-<!-- reCAPTCHA v2 ("I am not a robot")](https://docs.magento.com/user-guide/stores/security-google-recaptcha.html) -->
+<!-- [reCAPTCHA v2 ("I am not a robot")](https://docs.magento.com/user-guide/stores/security-google-recaptcha.html) -->
 
-## reCAPTCHA v2 ("I am not a robot")
+## [!UICONTROL reCAPTCHA v2 ("I am not a robot")]
 
 ![reCAPTCHA v2 ("I am not a robot")](./assets/recaptcha-admin-v2-not-robot.png)<!-- zoom -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--|--|--|
-|Google API Website Key|Global|The website key that is created when you register your Google reCAPTCHA account.|
-|Google API Secret Key|Global|The secret key that is associated with your Google reCAPTCHA account.|
-|Size|Global|The size of the Google reCAPTCHA box that appears during login. Options: Normal (default) / Compact|
-|Theme|Global|Determines the style of the Google reCAPTCHA box. Options: Light Theme (default) / Dark Theme|
-|Language Code|Global|A [two-character code](https://developers.google.com/recaptcha/docs/language) that specifies the language that is used for Google reCAPTCHA text and messaging.|
+|[!UICONTROL Google API Website Key]|Global|The website key that is created when you register your Google reCAPTCHA account.|
+|[!UICONTROL Google API Secret Key]|Global|The secret key that is associated with your Google reCAPTCHA account.|
+|[!UICONTROL Size]|Global|The size of the Google reCAPTCHA box that appears during login. Options: `Normal` (default) / `Compact`|
+|[!UICONTROL Theme]|Global|Determines the style of the Google reCAPTCHA box. Options: `Light Theme` (default) / `Dark Theme`|
+|[!UICONTROL Language Code]|Global|A [two-character code](https://developers.google.com/recaptcha/docs/language) that specifies the language that is used for Google reCAPTCHA text and messaging.|
 
-## reCAPTCHA v2 Invisible
+{:style="table-layout:auto"}
+
+## [!UICONTROL reCAPTCHA v2 Invisible]
 
 ![reCAPTCHA v2 Invisible](./assets/recaptcha-admin-v2-invisible.png)<!-- zoom -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--|--|--|
-|Google API Website Key|Global|The website key that is created when you register your Google reCAPTCHA account.|
-|Google API Secret Key|Global|The secret key that is associated with your Google reCAPTCHA account.|
-|Invisible Badge Position|Global|The position of the invisible reCAPTCHA badge on each page. Options: Inline / Bottom Right / Bottom Left|
-|Theme|Global|Determines the style of the Google reCAPTCHA box. Options: Light Theme (default) / Dark Theme|
-|Language Code|Global|A [two-character code](https://developers.google.com/recaptcha/docs/language) that specifies the language that is used for Google reCAPTCHA text and messaging.|
+|[!UICONTROL Google API Website Key]|Global|The website key that is created when you register your Google reCAPTCHA account.|
+|[!UICONTROL Google API Secret Key]|Global|The secret key that is associated with your Google reCAPTCHA account.|
+|[!UICONTROL Invisible Badge Position]|Global|The position of the invisible reCAPTCHA badge on each page. Options: `Inline` / `Bottom Right` / `Bottom Left`|
+|[!UICONTROL Theme]|Global|Determines the style of the Google reCAPTCHA box. Options: `Light Theme` (default) / `Dark Theme`|
+|[!UICONTROL Language Code]|Global|A [two-character code](https://developers.google.com/recaptcha/docs/language) that specifies the language that is used for Google reCAPTCHA text and messaging.|
 
-## reCAPTCHA v3 Invisible
+{:style="table-layout:auto"}
+
+## [!UICONTROL reCAPTCHA v3 Invisible]
 
 ![reCAPTCHA v3 Invisible](./assets/recaptcha-admin-v3-invisible.png)<!-- zoom -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--|--|--|
-|Google API Website Key|Global|The website key that is created when you register your Google reCAPTCHA account.|
-|Google API Secret Key|Global| The secret key that is associated with your Google reCAPTCHA account.|
-|Minimum Score Threshold|Global| The minimum score that identifies a user interaction as a potential risk, where 1.0 is a typical user interaction, and 0.0 is likely a bot. Default: 0.5|
-|Invisible Badge Position|Global|The position of the invisible reCAPTCHA badge on each page. Options: Inline / Bottom Right / Bottom Left|
-|Theme|Global|Determines the style of the Google reCAPTCHA box. Options: Light Theme (default) / Dark Theme|
-|Language Code|Global|A [two-character code](https://developers.google.com/recaptcha/docs/language) that specifies the language that is used for Google reCAPTCHA text and messaging.|
+|[!UICONTROL Google API Website Key]|Global|The website key that is created when you register your Google reCAPTCHA account.|
+|[!UICONTROL Google API Secret Key]|Global| The secret key that is associated with your Google reCAPTCHA account.|
+|[!UICONTROL Minimum Score Threshold]|Global| The minimum score that identifies a user interaction as a potential risk, where 1.0 is a typical user interaction, and 0.0 is likely a bot. Default: `0.5`|
+|[!UICONTROL Invisible Badge Position]|Global|The position of the invisible reCAPTCHA badge on each page. Options: `Inline` / `Bottom Right` / `Bottom Left`|
+|[!UICONTROL Theme]|Global|Determines the style of the Google reCAPTCHA box. Options: `Light Theme` (default) / `Dark Theme`|
+|[!UICONTROL Language Code]|Global|A [two-character code](https://developers.google.com/recaptcha/docs/language) that specifies the language that is used for Google reCAPTCHA text and messaging.|
 
-## reCAPTCHA Failure Messages
+{:style="table-layout:auto"}
+
+## [!UICONTROL reCAPTCHA Failure Messages]
 
 ![Failure messages](./assets/recaptcha-admin-failure-messages.png)<!-- zoom -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--|--|--|
-|reCAPTCHA Validation Failure Message|Global|The message that is displayed in the Admin if verification fails. Default text: `reCAPTCHA verification failed.`|
-|reCAPTCHA Technical Failure Message|Global|The message that is displayed in the Admin if reCAPTCHA fails to return a verification result. Default text: `Something went wrong with reCAPTCHA. Please contact the store owner.`|
+|[!UICONTROL reCAPTCHA Validation Failure Message]|Global|The message that is displayed in the Admin if verification fails. Default text: `reCAPTCHA verification failed.`|
+|[!UICONTROL reCAPTCHA Technical Failure Message]|Global|The message that is displayed in the Admin if reCAPTCHA fails to return a verification result. Default text: `Something went wrong with reCAPTCHA. Please contact the store owner.`|
 
-## Admin Panel
+{:style="table-layout:auto"}
+
+## [!UICONTROL Admin Panel]
 
 ![Admin Panel](./assets/recaptcha-admin-panel.png)<!-- zoom -->
 
@@ -72,5 +80,7 @@ description: Placeholder
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--|--|--|
-|Enable for Login|Global|Determines the type of reCAPTCHA that is enabled for the [Admin login](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html). Options:<br/>No - (default) Does not validate the Admin login.<br />reCAPTCHA v2 ("I am not a robot") - Requires the user to select the _I'm not a robot_ checkbox.<br />Invisible reCAPTCHA v2 - Validates user behavior in the background without requiring interactions based on score.<br/>Invisible reCAPTCHA v3 -  (Recommended) Validates user behavior in the background based on interaction score.|
-|Enable for Forgot Password|Global|Determines the type of reCAPTCHA that is enabled to request an [Admin password reset](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#reset-your-password). Options:<br/>No - (default) Does not validate the password reset request.<br />reCAPTCHA v2 ("I am not a robot") - Requires the user to select the _I'm not a robot_ checkbox.<br />Invisible reCAPTCHA v2 - Validates user behavior in the background without requiring interactions based on score.<br/>Invisible reCaptcha v3 -  (Recommended) Validates user behavior in the background based on interaction score.|
+|[!UICONTROL Enable for Login]|Global|Determines the type of reCAPTCHA that is enabled for the [Admin login](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html). Options:<br/>**`No`** - (default) Does not validate the Admin login.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Requires the user to select the _I'm not a robot_ checkbox.<br />**`Invisible reCAPTCHA v2`** - Validates user behavior in the background without requiring interactions based on score.<br/>**`Invisible reCAPTCHA v3`** -  (Recommended) Validates user behavior in the background based on interaction score.|
+|[!UICONTROL Enable for Forgot Password]|Global|Determines the type of reCAPTCHA that is enabled to request an [Admin password reset](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#reset-your-password). Options:<br/>**`No`** - (default) Does not validate the password reset request.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Requires the user to select the _I'm not a robot_ checkbox.<br />**`Invisible reCAPTCHA v2`** - Validates user behavior in the background without requiring interactions based on score.<br/>**`Invisible reCaptcha v3`** -  (Recommended) Validates user behavior in the background based on interaction score.|
+
+{:style="table-layout:auto"}

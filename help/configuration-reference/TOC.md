@@ -1,6 +1,6 @@
 ---
 user-guide-title: Configuration Reference Guide
-user-guide-description: add description here
+user-guide-description: This guide provides reference information for all store configuration settings that are accessed off of the _Admin_ sidebar at **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 breadcrumb-title: Configuration Reference
 hide: no
 ---

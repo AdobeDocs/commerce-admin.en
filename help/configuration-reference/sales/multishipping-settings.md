@@ -1,12 +1,12 @@
 ---
-title: Sales > Multishipping Settings
-description: Placeholder
+title: "[!UICONTROL Sales] > [!UICONTROL Multishipping Settings]"
+description: Review the configurations settings on the [!UICONTROL Sales] > [!UICONTROL Multishipping Settings] page of the Commerce Admin.
 ---
-# Sales > Multishipping Settings
+# [!UICONTROL Sales] > [!UICONTROL Multishipping Settings]
 
 {{config}}
 
-## Options
+## [!UICONTROL Options]
 
 ![Options](./assets/multishipping-settings-options.png)<!-- zoom -->
 
@@ -14,8 +14,10 @@ description: Placeholder
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|Allow Shipping to Multiple Addresses|Website|Determines if you allow single orders to be shipping to multiple addresses. Options: `Yes` / `No`|
-|Maximum Qty Allowed for Shipping to Multiple Addresses|Website|Sets a limit for the number of units  of a product that can be shipping to multiple addresses.|
+|[!UICONTROL Allow Shipping to Multiple Addresses]|Website|Determines if you allow single orders to be shipping to multiple addresses. Options: `Yes` / `No`|
+|[!UICONTROL Maximum Qty Allowed for Shipping to Multiple Addresses]|Website|Sets a limit for the number of units  of a product that can be shipping to multiple addresses.|
+
+{:style="table-layout:auto"}
 
 >[!NOTE]
 >

@@ -1,23 +1,25 @@
 ---
-title: General > Reports
-description: Placeholder
+title: "[!UICONTROL General] > [!UICONTROL Reports]"
+description: Review the configurations settings on the [!UICONTROL General] > [!UICONTROL Reports] page of the Commerce Admin.
 ---
-# General > Reports
+# [!UICONTROL General] > [!UICONTROL Reports]
 
 {{config}}
 
-## Dashboard
+## [!UICONTROL Dashboard]
 
 ![Dashboard](./assets/reports-dashboard.png)<!-- zoom -->
 
-<!-- Dashboard](https://docs.magento.com/user-guide/stores/admin-dashboard.html) -->
+<!-- [Dashboard](https://docs.magento.com/user-guide/stores/admin-dashboard.html) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|Year-to-Date Starts|Global|Specifies the month and day upon which the year-to-date calculations are based.|
-|Current Month Starts|Global|Specifies the day of the month that is used in calculations to mark the beginning of the current month.|
+|[!UICONTROL Year-to-Date Starts]|Global|Specifies the month and day upon which the year-to-date calculations are based.|
+|[!UICONTROL Current Month Starts]|Global|Specifies the day of the month that is used in calculations to mark the beginning of the current month.|
 
-## General Options
+{:style="table-layout:auto"}
+
+## [!UICONTROL General Options]
 
 ![General Options](./assets/reports-general-options.png)<!-- zoom -->
 
@@ -27,10 +29,12 @@ description: Placeholder
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|Enable Reports|Global|Enables or disables report events.|
-|Enable "Product View" Report|Global|Enables or disables the collection of statistics of viewed product pages.|
-|Enable "Send Product Link To Friend" Report|Global|Enables or disables the collection of statistics of product links sent to friends.|
-|Enable "Add Product To Compare List" Report|Global|Enables or disables the collection of statistics of products added to Compare List.|
-|Enable "Product Added To Cart" Report|Global|Enables or disables the collection of statistics of products added to Cart.|
-|Enable "Product Added To Wishlist" Report|Global|Enables or disables the collection of statistics of products added to Wishlist.|
-|Enable "Share WishList" Report|Global|Enables or disables the collection of statistics of shared WishLists.|
+|[!UICONTROL Enable Reports]|Global|Enables or disables report events.|
+|[!UICONTROL Enable "Product View" Report]|Global|Enables or disables the collection of statistics of viewed product pages.|
+|[!UICONTROL Enable "Send Product Link To Friend" Report]|Global|Enables or disables the collection of statistics of product links sent to friends.|
+|[!UICONTROL Enable "Add Product To Compare List" Report]|Global|Enables or disables the collection of statistics of products added to Compare List.|
+|[!UICONTROL Enable "Product Added To Cart" Report]|Global|Enables or disables the collection of statistics of products added to cart.|
+|[!UICONTROL Enable "Product Added To Wishlist" Report]|Global|Enables or disables the collection of statistics of products added to wish list.|
+|[!UICONTROL Enable "Share WishList" Report]|Global|Enables or disables the collection of statistics of shared wish lists.|
+
+{:style="table-layout:auto"}
