@@ -9,44 +9,51 @@ hide: yes
 
 - [Guide overview](guide-overview.md)
 - [Introduction to the [!DNL Customers] module](customers-introduction.md)
-- Customers module in the Admin {#customers-admin}
-  - [Sources and stocks](sources-stocks.md)
-  - [Source selection and reservations](selection-reservations.md)
-  - [Order and reservation status](order-status.md)
-  - [Product types](product-types.md)
-- Get started {#get-started}
-  - [Commerce upgrades](migrate.md)
-  - [Install and update](install-update.md)
-  - [Merchant sourcing](merchant-sourcing.md)
-  - [Expand and restructure inventory](expand-restructure.md)
-- Configuration {#configuration}
-  - [Configuration overview](configuration.md)
-  - [Enable [!DNL Inventory Management]](enable.md)
-  - [Configure global options](global-options.md)
-  - [Configure product options](product-options.md)
-  - [Configure backorders](backorders.md)
-  - [Configure source priority](source-priority-algorithm.md)
-  - [Configure distance priority](distance-priority-algorithm.md)
-  - Product alerts {#product-alerts}
-    - [Set up product alerts](alert-setup.md)
-    - [Stock message scenarios](stock-messages.md)
-- Manage sources {#sources}
-  - [Overview](sources-manage.md)
-  - [Add sources](sources-add.md)
-  - [Disable sources](sources-disable.md)
-- Manage stocks {#stocks}
-  - [Overview](stocks-manage.md)
-  - [Add stocks](stocks-add.md)
-  - [Prioritize sources for stocks](stocks-prioritize-sources.md)
-  - [Delete stocks](stocks-delete.md)
-- Manage inventory quantities {#quantities}
-  - [Overview](quantities-manage.md)
-  - [Assign sources per product](sources-assign-per-product.md)
-  - [Assign quantities per product](quantities-assign-per-product.md)
-  - [Bulk assignment and unassignment](bulk-assignment.md)
-  - [Transfer inventory to source](inventory-transfer.md)
-  - [Import and export inventory](inventory-import-export.md)
-- Manage orders and shipments {#orders}
-  - [Overview](shipments.md)
-  - [Create shipments](shipments-create.md)
-- [CLI reference](cli.md)
+- Customers module in the Admin {#customers-menu}
+  - [All Customers](all-customers.md)
+  - [Now online](now-online.md)
+  - [Segments](introduction-segments.md)
+  - [Groups](customer-groups.md)
+- Customer Accounts {#customer-accounts}
+  - [Account scope](account-scope.md)
+  - Configure Account options {#configure-account-options}
+    - [Login landing page](login-landing-page.md)
+    - [New Account options](account-options-new.md)
+    - [Name and Address options](name-address-options.md)
+    - [Password options](password-options.md)
+    - [Customer Session Lifetime](customer-online-options.md)
+    - [Customer Sign In](customer-sign-in.md)
+    - [Resetting Passwords](password-reset.md)
+  - [Creating an Individual Account](account-create.md)
+  - Manage Customer Accounts {#manage-customer-accounts}
+    - [Managing a Customer account](manage-account.md)
+    - [Updating a Customer Profile](update-account.md)
+    - [Providing Shopper Assistance](login-as-customer.md)
+  - Store Credit {#provide-store-credit}
+    - [Store Credit workflow](store-credit.md)
+    - [Configuring Store Credit](credit-configure.md)
+    - [Applying Store Credit](store-credit-using.md)
+    - [Store Credit in the customer account dashboard](account-dashboard-store-credit.md)
+    - [Refunds in the Customer Account Dashboard](refunds-customer-account.md)
+  - Customer Account Dashboard {#customer-account-dashboard}
+    - [Managing the Customer Account Dashboard](account-dashboard.md)
+    - [My Account](account-dashboard-my-account.md)
+    - [Order by SKU](account-dashboard-order-by-sku.md)
+    - [My Orders](account-dashboard-my-orders.md)
+    - [Reorders](account-dashboard-reorders.md)
+    - [My Downloadable Products](account-dashboard-my-downloadable-products.md)
+    - [My Wish List](account-dashboard-my-wish-list.md)
+    - [Address Book](account-dashboard-address-book.md)
+    - [Account Information](account-dashboard-account-information.md)
+    - [Stored Payment Methods](account-dashboard-stored-payment-methods.md)
+    - [Billing Agreements](account-dashboard-billing-agreements.md)
+    - [Gift Card](account-dashboard-gift-cards.md)
+    - [My Product Reviews](account-dashboard-my-product-reviews.md)
+    - [My Returns](account-dashboard-my-returns.md)
+- Company Accounts {#company-accounts}
+  - [B2B Company Accounts](../b2b/account-companies.md)
+- Customer Segments {#customer-segments}
+  - [Customer Segment Attributes](customer-segment-attributes.md)
+  - [Creating and Deleting Customer Segments](customer-segment-create.md)
+  - [Customer Segments in Price Rules](customer-segment-price-rule.md)
+  - [Customer Segment Report](customer-segment-reports.md)
