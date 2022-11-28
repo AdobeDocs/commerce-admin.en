@@ -303,7 +303,7 @@ Local storage for Banner functionality.
 
 ## Google Analytics Cookies
 
-The following cookies are used when [Google Analytics](../merchandising-promotions/google-universal-analytics.md) or Google Universal Analytics is fully enabled for your installation. To disable these cookies for privacy regulation compliance, see [Google Privacy Settings](../merchandising-promotions/google-tools.md#google-privacy-settings). To learn more, see [Google Analytics Cookie Usage on Websites][1].
+The following cookies are used when [Google Analytics](../merchandising-promotions/google-analytics.md) or Google Universal Analytics is fully enabled for your installation. To disable these cookies for privacy regulation compliance, see [Google Privacy Settings](../merchandising-promotions/google-tools.md#google-privacy-settings). To learn more, see [Google Analytics Cookie Usage on Websites][1].
 
 ### Google Universal Analytics Cookies  - Non-Exempt
 
