@@ -10,15 +10,13 @@ exl-id: ad10713a-f3ae-47dc-8c48-ab464a52b362
 
 This guide is intended for administrators of Adobe Commerce and Magento Open Source. It provides detailed information about enabling this module, including configuration and management of its features. It assumes a basic understanding of the core [!DNL Commerce] configuration, and functionality.
 
-[!DNL Customers] has a main area for administrators:
+[!DNL Customers] has a main area for administrators to access the configuration UI and [!DNL Customers] management.
 
-- The Admin: Use this area to access the configuration UI and management.
+This guide covers All [!DNL Customers] configuration-specific tasks that are done in the Admin.
 
-This guide covers:
-
-- All Customers configuration-specific tasks that are done in the Admin.
-
-It does not cover the core capabilities of Adobe Commerce and Magento Open Source.
+>[!WARNING]
+>
+> It does not cover the core capabilities of Adobe Commerce and Magento Open Source.
 
 ## Additional documentation
 
