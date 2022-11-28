@@ -1,6 +1,5 @@
 ---
-user-guide-title: Customer Management Guide
-user-guide-description: add description here
+user-guide-title: Customers management Guide
 breadcrumb-title: customer management
 hide: yes
 ---
@@ -10,7 +9,7 @@ hide: yes
 - [Guide overview](guide-overview.md)
 - [Introduction to the [!DNL Customers] module](customers-introduction.md)
 - Customers module in the Admin {#customers-menu}
-  - [All Customers](all-customers.md)
+  - [All Customers](customers-all.md)
   - [Now online](now-online.md)
   - [Segments](introduction-segments.md)
   - [Groups](customer-groups.md)
@@ -52,8 +51,8 @@ hide: yes
     - [My Returns](account-dashboard-my-returns.md)
 - Company Accounts {#company-accounts}
   - [B2B Company Accounts](../b2b/account-companies.md)
-- Customer Segments {#customer-segments}
-  - [Customer Segment Attributes](customer-segment-attributes.md)
+- Customer Segments {#segments}
+  - [Customer Segment Attributes](customer-segments.md)
   - [Creating and Deleting Customer Segments](customer-segment-create.md)
   - [Customer Segments in Price Rules](customer-segment-price-rule.md)
   - [Customer Segment Report](customer-segment-reports.md)

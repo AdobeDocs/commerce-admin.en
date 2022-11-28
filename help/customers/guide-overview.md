@@ -1,7 +1,7 @@
 ---
-title: Customers Guide overview
+title: Customers management Guide Overview
 description: Comprehensive information about [!DNL Customers] for Adobe Commerce and Magento Open Source administrators, including migration and configuration.
-seo-title: Adobe Commerce Customers Guide
+seo-title: Adobe Commerce Customers Management Guide
 seo-description: Describes how to use the [!DNL Customers] module in Adobe Commerce or Magento Open Source.
 exl-id: ad10713a-f3ae-47dc-8c48-ab464a52b362
 ---

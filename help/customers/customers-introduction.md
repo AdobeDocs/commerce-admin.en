@@ -1,38 +1,26 @@
 ---
-title: Introduction to Customers module
-description: Learn how to use [!DNL Customers] module features to manage customers in your store.
+title: Introduction to the Customers management module
+description: Learn how to use [!DNL Customers] management module features to manage customers in your store.
 ---
 
-# Customers menu
+# [!DNL Customers] menu
 
-The Customers menu provides access to customer account management tools, and gives you the ability to see who is currently online in your store.
+The [!DNL Customers] menu provides access to customer account management tools, and gives you the ability to see who is currently online in your store.
 
 ![Customers menu](assets/admin-menu-customers.png)
 
 ## Display the Customers menu
 
-On the _Admin_ sidebar, click **Customers**.
+On the _Admin_ sidebar, click [!UICONTROL Customers] to display the menu options:
 
-## Menu options
+| Field | Description |
+|---|---|
+| [!UICONTROL All Customers] | Lists all [customers](../customers/customers-all.md) who have registered for an account with your store or were added by the administrator. |
+| [!UICONTROL Now Online] | Lists all customers and visitors who are currently [online](../customers/now-online.md) in your store. |
+| [!UICONTROL Segments] | Dynamically display content and promotions to specific customers [based on properties](../customers/customers-segments) such as customer address, order history, shopping cart contents, and more. |
+| [!UICONTROL Customer Groups] | The [customer groups](../customers/customer-groups.md) determine which discounts are available to shoppers and the tax class for the purchase. |
+| [!UICONTROL Companies] | Lists all active [company accounts](../b2b/account-companies.md){target=_blank} and pending requests, regardless of status setting, and provides the tools needed to create and [manage](../b2b/account-company-manage.md){target=_blank} company accounts. |
 
-### All Customers
-
-Lists [all customers]({% link customers/customers-all.md %}) who have registered for an account with your store or were added by the administrator.
-
-### Now Online
-
-Lists all customers and visitors who are currently [online]({% link customers/now-online.md %}) in your store.
-
-### Customer Groups
-
-The [customer group]({% link customers/customer-groups.md %}) determines which discounts are available to shoppers and the tax class for the purchase.
-
-{:.ee-only}
-### Segments
-
-Dynamically display content and promotions to specific customers [based on properties]({% link marketing/customer-segments.md %}) such as customer address, order history, shopping cart contents, and more.
-
-{:.b2b-only}
-### Companies
-
-Lists all active [company accounts]({% link customers/account-companies.md %}) and pending requests, regardless of status setting, and provides the tools needed to create and [manage]({% link customers/account-company-manage.md %}) company accounts.
+>[!NOTE]
+>
+> Check [B2B for Adobe Commerce](../b2b/introduction.md) for more information on [!UICONTROL Companies].
