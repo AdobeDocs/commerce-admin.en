@@ -70,11 +70,11 @@ See the [[!DNL Product Recommendations] User Guide](https://experienceleague.ado
 
 ### Catalog Service
 
-The [!DNL Catalog Service] enables you to deliver customers an optimized product experience while boosting performance, improving scalability, and increasing conversions. See the [Catalog Service User Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/catalog-service/guide-overview.html) for more information.
+The [!DNL Catalog Service] enables you to deliver customers an optimized product experience while boosting performance, improving scalability, and increasing conversions. See the [[!DNL Catalog Service] User Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/catalog-service/guide-overview.html) for more information.
 
 ### Payment Services
 
-[!DNL Payment services] for Adobe Commerce and Magento Open Source is a fully integrated payment solution that simplifies the process of managing payments and provides your customers with the opportunity to pay their way. Securely reconcile all payment and transaction data within the Adobe Commerce Admin – allowing you to manage orders and payments in one place while delivering a seamless checkout. See the [Payment Services User Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html) for more information.
+[!DNL Payment services] for Adobe Commerce and Magento Open Source is a fully integrated payment solution that simplifies the process of managing payments and provides your customers with the opportunity to pay their way. Securely reconcile all payment and transaction data within the Adobe Commerce Admin – allowing you to manage orders and payments in one place while delivering a seamless checkout. See the [[!DNL Payment Services] User Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html) for more information.
 
 ### Quick Checkout
 
@@ -87,7 +87,7 @@ Store Fulfillment for Adobe Commerce and Magento Open Source enables a superior 
 
 ### Amazon Sales Channel
 
-The Amazon Sales Channel for Adobe Commerce and Magento Open Source enables you to integrate your Amazon Seller Central listing database with your [!DNL Commerce] product catalog and manage your Amazon listings and sales in the [!DNL Commerce] Admin. See the [Amazon Sales Guide User Guide](https://experienceleague.adobe.com/docs/commerce-channels/amazon/guide-overview.html) for more information.
+The Amazon Sales Channel for Adobe Commerce and Magento Open Source enables you to integrate your Amazon Seller Central listing database with your [!DNL Commerce] product catalog and manage your Amazon listings and sales in the [!DNL Commerce] Admin. See the [[!DNL Amazon Sales] Guide User Guide](https://experienceleague.adobe.com/docs/commerce-channels/amazon/guide-overview.html) for more information.
 
 ### Channel Manager
 
