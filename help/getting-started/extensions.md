@@ -83,7 +83,7 @@ See the [[!DNL Quick Checkout] User Guide](https://experienceleague.adobe.com/do
 
 ### Store Fulfillment 
 
-Store Fulfillment for Adobe Commerce and Magento Open Source enables a superior buy online, pick up in store (BOPIS) customer experience and maximizes employee productivity by providing a comprehensive fulfillment workflow enabled through a mobile device. See the [[!DNL Store Fulfillment] User Guide]](https://experienceleague.adobe.com/docs/commerce-merchant-services/store-fulfillment/guide-overview.html) for more information.  
+Store Fulfillment for Adobe Commerce and Magento Open Source enables a superior buy online, pick up in store (BOPIS) customer experience and maximizes employee productivity by providing a comprehensive fulfillment workflow enabled through a mobile device. See the [[!DNL Store Fulfillment] User Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/store-fulfillment/guide-overview.html) for more information.  
 
 ### Amazon Sales Channel
 
@@ -91,4 +91,4 @@ The Amazon Sales Channel for Adobe Commerce and Magento Open Source enables you 
 
 ### Channel Manager
 
-Channel Manager enables you to increase sales, reach new customers, streamline operations, and save time by integrating an Adobe Commerce or Magento Open Source product catalog with the Walmart Marketplace. After installing and configuring the extension, your staff can manage Walmart Marketplace listings, inventory, orders, returns and refunds seamlessly from the [!DNL Commerce Admin]. See the [[!DNL Channel Manager] User Guide]](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/guide-overview.html) for more information.
+Channel Manager enables you to increase sales, reach new customers, streamline operations, and save time by integrating an Adobe Commerce or Magento Open Source product catalog with the Walmart Marketplace. After installing and configuring the extension, your staff can manage Walmart Marketplace listings, inventory, orders, returns and refunds seamlessly from the [!DNL Commerce Admin]. See the [[!DNL Channel Manager] User Guide](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/guide-overview.html) for more information.
