@@ -39,11 +39,11 @@ The online status of customers is updated only upon customer login, registration
 
 |Column|Description|
 | --- | --- |
-| ID | The customer ID of a registered customer.      |
-| First Name | The first name of a registered customer.                                                 |
-| Last Name | The last name of a registered customer.                                                  |
-| Email | The email address of a registered customer.                                              |
-| Last Activity | The date and time of the customer's last activity in your store.                         |
-| Type | Options: Customer / Visitor                                                              |
-| Last URL | The last URL the customer visited.                                                       |
-| Company | The name of the company to which the user belongs.                                       |
+| ID | The customer ID of a registered customer. |
+| First Name | The first name of a registered customer. |
+| Last Name | The last name of a registered customer. |
+| Email | The email address of a registered customer. |
+| Last Activity | The date and time of the customer's last activity in your store. |
+| Type | Options: Customer / Visitor |
+| Last URL | The last URL the customer visited. |
+| Company | The name of the company to which the user belongs. |
