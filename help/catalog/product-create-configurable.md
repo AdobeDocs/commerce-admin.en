@@ -341,7 +341,7 @@ The main principles of Stock Status relationships are following:
 
 ### Detailed description
 
-The _Stock Status_ of the configurable product is partially controlled by the Stock Status of its child products, and part of the following **_multi-criteria_** stock status calculation.
+The _Stock Status_ of the configurable product is partially controlled by the Stock Status of its child products, and according to the following **_multi-criteria_** stock status calculations:
 
 #### With default source/stock only:
 
