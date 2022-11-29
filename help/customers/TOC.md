@@ -14,7 +14,7 @@ hide: yes
   - [Segments](customer-segments.md)
   - [Groups](customer-groups.md)
 - Customer Accounts {#customer-accounts}
-  - [Account scope](account-scope.md)
+  - [Account scope](customer-account-scope.md)
   - Configure Account options {#configure-account-options}
     - [Login landing page](login-landing-page.md)
     - [New Account options](account-options-new.md)
