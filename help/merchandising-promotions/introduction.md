@@ -78,7 +78,7 @@ Your store configuration is integrated with the following Google tools to help o
 >
 >Starting with the 2.4.5 release, the Google services integration is updated to support use of the GTag APIs. GTag is a unified mechanism for integration with Google functionality for web pages and supports the newest capabilities and opportunities for tracking and managing content through Google Services. For more information, see the [Google Analytics developer documentation](https://developers.google.com/analytics/devguides/collection/gtagjs).
 
-- [Google Analytics](google-universal-analytics.md) - Use Google Universal Analytics to define additional custom dimensions and metrics for tracking, with support for offline and mobile app interactions, and access to ongoing updates.
+- [Google Analytics](google-analytics.md) - Use Google Universal Analytics to define additional custom dimensions and metrics for tracking, with support for offline and mobile app interactions, and access to ongoing updates.
 
 - [Google Content Experiments](google-content-experiments.md) - Set up an A/B test of products, categories, or content pages using Google Analytics Content
 
