@@ -357,7 +357,7 @@ The _Stock Status_ of the configurable product is partially controlled by the St
 
 - If the configurable product Stock Status value is **_manually_** set to `Out of Stock` by an Admin user, file import, or API call, it remains as `Out of Stock` on both the **_Admin_** and **_Storefront_** until it is **_manually_** changed  to `In Stock` by an Admin user, file import, or API call. It **_cannot_** be controlled by the stock status of its child products.
 
-- If configurable product Stock Status value is **_manually_** set to `In Stock` by an Admin user, file import, or API call, then its stock status will be **_automatically_** controlled by the stock status of its child products on **_Storefront_** only.
+- If the configurable product Stock Status value is **_manually_** set to `In Stock` by an Admin user, file import, or API call, its stock status is **_automatically_** controlled by the stock status of its child products on the **_Storefront_** only.
 
 - If configurable product Stock Status value is **_manually_** set to `In Stock` by an Admin user, file import, or API call, then it will always remain as `In Stock` on **_Admin_**, until it will be changed **_manually_** to `Out of Stock` by an Admin user, file import, or API call. It **_cannot_** be controlled by the stock status of its child products.
 
