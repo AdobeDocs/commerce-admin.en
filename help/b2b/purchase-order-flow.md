@@ -18,7 +18,7 @@ The purchase order workflow for a company can vary in a few ways:
 - If no approval rules are set, purchase orders can be placed and the order completed directly.
    >[!NOTE]
    >
-   >Default message that _Purchase order has been submitted for approval_ is always displayed to company users, even when no approval rules are set. Company user will receive an email that _the order has been Created and Approved automatically_ when no approval process is required.
+   >By default, a `Purchase order has been submitted for approval` message is always displayed to company users, even when no approval rules are set. When no approval process is required, Company users automatically receive an email informing them that the order has been created and approved.
 - If approval rules are defined by the company administrator, users go through the approval process.
 - Offline payment details are entered when creating the purchase order.
 - Online payment details are entered after the purchase order is approved.
