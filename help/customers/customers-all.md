@@ -1,6 +1,6 @@
 ---
 title: All Customers
-description: Learn how to use [!DNL Customers] management module features to manage customers in your store.
+description: The Customers grid lists all customers who have registered for an account with your store or were added by the administrator.
 ---
 
 # All Customers
