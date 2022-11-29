@@ -17,7 +17,7 @@ description: Customer groups determine which discounts are available and the tax
 
 1. Enter criteria for searching groups, including a range of IDs, group, or tax class.
 
-   ![Filtering Options](assets/groups-filters.png)
+   ![Filtering Options](assets/groups-filters.png)<!-- zoom -->
 
 1. When complete, click [!UICONTROL **Apply Filters**].
 
@@ -37,7 +37,7 @@ description: Customer groups determine which discounts are available and the tax
    >
    > No websites are excluded by default. To select multiple values, hold down the _Ctrl key_ (PC) or the _Command key_ (Mac) and click each option.
 
-   ![Group Information](assets/group-information.png)
+   ![Group Information](assets/group-information.png)<!-- zoom -->
 
 1. When complete, click [!UICONTROL **Save Customer Group**].
 
@@ -63,7 +63,7 @@ description: Customer groups determine which discounts are available and the tax
 
 1. When prompted to confirm, click **OK**.
 
-   ![Assign a Customer Group](assets/group-assign.png)
+   ![Assign a Customer Group](assets/group-assign.png)<!-- zoom -->
 
 ## Associate a group of customers with specific discounts
 
@@ -73,7 +73,7 @@ description: Customer groups determine which discounts are available and the tax
 
 1. Select the customer groups the rule will apply to.
 
-   ![Customer Group to Specific Discounts](assets/group-discount.png)
+   ![Customer Group to Specific Discounts](assets/group-discount.png)<!-- zoom -->
 
 1. Click [!UICONTROL **Save**].
 

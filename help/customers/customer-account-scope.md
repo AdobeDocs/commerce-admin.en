@@ -7,23 +7,22 @@ description: The scope of customer accounts can be limited to the website where 
 
 The header of every page in your store extends an invitation for shoppers to _Log in or register_ for an account with your store. Customers who open an account enjoy a range of benefits, including:
 
-- **Create customer account** — Visitors can create a new customer account so that they can use the storefront as a registered customer.
-- {:.b2b-only}**Create Individual or Company Account** Depending on the configuration, a visitor to your store can choose to create either an individual or company account.
-- **Faster checkout** — Registered customers move through checkout faster because much of the information is already in their accounts.
-- **Self service** — Registered customers can update their information, check the status of orders, and even reorder from their accounts.
+* [!UICONTROL **Create customer account**] - Visitors can create a new customer account so that they can use the storefront as a registered customer.
+* [!UICONTROL **Create Individual or Company Account**] Depending on the configuration, a visitor to your store can choose to create either an individual or company account. For more information see [B2B for Adobe Commerce](../b2b/introduction.md).
+* [!UICONTROL **Faster checkout**] — Registered customers move through checkout faster because much of the information is already in their accounts.
+* [!UICONTROL **Self service**] — Registered customers can update their information, check the status of orders, and even reorder from their accounts.
 
-Customers can access their account by clicking the **My Account** link in the header of the store. From their account, customers can view and modify information, including past and current addresses, billing and shipping preferences, newsletter subscriptions, wish list, and more.
+Customers can access their account by clicking the [!UICONTROL **My Account**] link in the header of the store. From their account, customers can view and modify information, including past and current addresses, billing and shipping preferences, newsletter subscriptions, wishlist, and more.
 
-![]({% link customers/assets/account-dashboard-my-account.png %}){: .zoom}
-_My Account_
+![My Account](/assets/account-dashboard-my-account.png)<!-- zoom -->
 
 {:.b2b-only}
 ## Account types
 
 With B2B features enabled, there are two basic types of accounts that can be created:
 
-- Individual — An [individual]({% link customers/account-create.md %}) customer account is similar to a standard Adobe Commerce customer account.
-- Company — A [company]({% link customers/account-companies.md %}) account can be set up as a structure with teams of multiple users.
+* Individual — An [individual]({% link customers/account-create.md %}) customer account is similar to a standard Adobe Commerce customer account.
+* Company — A [company]({% link customers/account-companies.md %}) account can be set up as a structure with teams of multiple users.
 
 |Field|Description|
 |--- |--- |
