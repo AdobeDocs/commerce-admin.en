@@ -30,7 +30,7 @@ The scope of customer accounts can be limited to the website where the account w
 
    ![Account Sharing Options](assets/customer-configuration-account-sharing-options.png)<!-- zoom -->
 
-2. Set [!UICONTROL **Share Customer Accounts**] to one of the following:
+1. Set [!UICONTROL **Share Customer Accounts**] to one of the following:
 
    |Column|Description|
    | --- | --- |
@@ -41,7 +41,7 @@ The scope of customer accounts can be limited to the website where the account w
    >
    > If necessary, clear the [!UICONTROL **User system value**] checkbox to make the change.
 
-3. When complete, click [!UICONTROL **Save Config**].
+1. When complete, click [!UICONTROL **Save Config**].
 
    >[!NOTE]
    >

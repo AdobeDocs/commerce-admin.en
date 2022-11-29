@@ -1,23 +1,27 @@
 ---
 title: Login Landing Page
+description: The customer account settings determine the information that is collected during customer registration, and the experience that customers have during the process.
 ---
+
+# Login Landing Page
 
 You can configure your store to redirect customers to their account dashboard after they log in or let them continue shopping.
 
 ## Set the login landing page
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to [!UICONTROL **Stores**] > _Settings_ > [!UICONTROL **Configuration**].
 
-1. In the left panel, expand **Customers** and choose **Customer Configuration**.
+1. In the left panel, expand [!UICONTROL **Customers**] and choose [!UICONTROL **Customer Configuration**].
 
-1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Login Options** section.
+1. Expand the [!UICONTROL **Login Options**] section.
 
-   ![Customer Configuration - Login Options]({% link configuration/customers/assets/customer-configuration-login-options.png %}){: .zoom}
-   _Login Options_
+   ![Login Options](assets/customer-configuration-login-options.png)<!-- zoom -->
 
-1. Set **Redirect Customer to Account Dashboard after Logging in** to one of the following:
+1. Set [!UICONTROL **Redirect Customer to Account Dashboard after Logging in**] to one of the following:
 
+   |Column|Description|
+   | --- | --- |
    | Yes | The account dashboard appears when customers log in to their accounts. |
    | No | Customers can continue shopping after logging in to their accounts. |
 
-1. When complete, click <span class="btn">Save Config</span>.
+1. When complete, click [!UICONTROL **Save Config**].
