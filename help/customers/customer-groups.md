@@ -95,4 +95,4 @@ description: Customer groups determine which discounts are available and the tax
 
 Watch this video to learn about creating customer groups:
 
-<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/343660/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
+[!VIDEO](https://video.tv.adobe.com/v/343660/?quality=12)
