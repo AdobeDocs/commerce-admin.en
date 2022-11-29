@@ -3,9 +3,9 @@ title: All Customers
 description: The Customers grid lists all customers who have registered for an account with your store or were added by the administrator.
 ---
 
-# All Customers
+# All [!DNL Customers]
 
-The Customers grid lists all customers who have registered for an account with your store or were added by the administrator. Use the standard [grid controls](../getting-started/admin-grid-controls.md) to filter the list and adjust the column layout. To learn more, see [Managing Customer Accounts](../customers/manage-account.md).
+The [!DNL Customers] grid lists all [!DNL Customers] who have registered for an account with your store or were added by the administrator. Use the standard [grid controls](../getting-started/admin-grid-controls.md) to filter the list and adjust the column layout. To learn more, see [Managing Customer Accounts](../customers/manage-account.md).
 
 ![Customers menu](assets/customer-accounts-all-grid.png)
 

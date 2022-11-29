@@ -1,13 +1,13 @@
 ---
 title: Customer Segments
-description: Customer segments allow you to dynamically display content and promotions to specific customers
+description: Customer segments allow you to dynamically display content and promotions to specific customers.
 ---
 
-# Customer Segments
+# [!DNL Customers Segments] 
 
-Customer segments allow you to dynamically display content and promotions to specific customers, based on properties such as customer address, order history, shopping cart contents, and so on. You can optimize marketing initiatives based on targeted segments with shopping cart price rules. You can also generate reports and export the list of targeted customers. Because customer segment information is constantly refreshed, customers can become associated and disassociated from a segment as they shop in your store.
+[!DNL Customers Segments] allow you to dynamically display content and promotions to specific customers, based on properties such as customer address, order history, shopping cart contents, and so on. You can optimize marketing initiatives based on targeted segments with shopping cart price rules. You can also generate reports and export the list of targeted customers. Because customer segment information is constantly refreshed, customers can become associated and disassociated from a segment as they shop in your store.
 
-To better understand the difference between [customer groups](../customers/customer-groups.md) and customer segments, note where they are used:
+To better understand the difference between [customer groups](../customers/customer-groups.md) and [!DNL Customers Segments], note where they are used:
 
 ||Customer segment|Customer group|
 |--- |--- |--- |
@@ -25,9 +25,9 @@ To better understand the difference between [customer groups](../customers/custo
 - **Customer Segmentation** — Learn how to increase profits and overall customer satisfaction. Get the [eBook](https://magento.com/resources/identifying-your-most-profitable-customers-introduction-customer-segmentation)]{:target="_blank"} now!
 - **Segmentation Tactics** — Improve the targeting of your messages and promotions to create meaningful conversations with your customers. Get the [eBook](https://magento.com/resources/3-segmentation-tactics-ignite-conversion){:target="_blank"} now!
 
-## Customer Segment Attributes
+## [!DNL Customers Segment] Attributes
 
-Customer segments are defined in a manner similar to shopping cart and catalog price rules. For an attribute to be used in a customer segment condition, the [Use in Customer Segment](https://docs.magento.com/user-guide/stores/attributes-customer.html) property must be set to `Yes`. Customer segment conditions can incorporate the following types of attributes:
+[!DNL Customers Segments] are defined in a manner similar to shopping cart and catalog price rules. For an attribute to be used in a customer segment condition, the [Use in Customer Segment](https://docs.magento.com/user-guide/stores/attributes-customer.html) property must be set to `Yes`. Customer segment conditions can incorporate the following types of attributes:
 
 | Attribute | Description |
 |---|---|
