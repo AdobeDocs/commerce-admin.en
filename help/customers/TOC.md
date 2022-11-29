@@ -11,7 +11,7 @@ hide: yes
 - Customers module in the Admin {#customers-menu}
   - [All Customers](customers-all.md)
   - [Now online](now-online.md)
-  - [Segments](introduction-segments.md)
+  - [Segments](customer-segments.md)
   - [Groups](customer-groups.md)
 - Customer Accounts {#customer-accounts}
   - [Account scope](account-scope.md)
@@ -52,7 +52,6 @@ hide: yes
 - Company Accounts {#company-accounts}
   - [B2B Company Accounts](../b2b/account-companies.md)
 - Customer Segments {#segments}
-  - [Customer Segment Attributes](customer-segments.md)
   - [Creating and Deleting Customer Segments](customer-segment-create.md)
   - [Customer Segments in Price Rules](customer-segment-price-rule.md)
   - [Customer Segment Report](customer-segment-reports.md)
