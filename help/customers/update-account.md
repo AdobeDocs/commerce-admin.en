@@ -95,7 +95,7 @@ The [Reward Points](../merchandising-promotions/rewards-loyalty.md) section show
 | **Login as Customer** | Allows the ability for the merchant to login as the customer. |
 | **Delete Customer** | Deletes the customer account.  |
 | **Reset** | Resets any unsaved changes in the customer form to their previous values.  |
-| **Create Order** | [Creates a new order](../customers/customer-account-create-order.md)) that is associated with the customer account.  |
+| **Create Order** | [Creates a new order](../customers/customer-account-create-order.md) that is associated with the customer account.  |
 | **Reset Password** | Resets the password of the customer.  |
 | **Force Sign-In** | Clears the tokens associated with the customer's password and provides the administrator access to the account. |
 | **Manage Shopping Cart** | Provides access to the shopping cart of a customer. |
