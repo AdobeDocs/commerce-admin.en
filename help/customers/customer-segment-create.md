@@ -13,7 +13,7 @@ Creating a customer segment is similar to building a [cart price rule](../mercha
 
 The following example shows how to create a customer segment that targets female customers in Los Angeles.
 
-## Step 1: Enable customer segments
+## Step 1: Enable Customer Segments
 
 1. On the _Admin_ sidebar, go to [!UICONTROL **Stores**]  > _Settings_ > [!UICONTROL **Configuration**].
 
@@ -27,7 +27,7 @@ The following example shows how to create a customer segment that targets female
 
 1. When complete, click [!UICONTROL **Save Config**].
 
-## Step 2: Add a customer segment
+## Step 2: Add a Customer Segment
 
 1. On the _Admin_ sidebar, go to [!UICONTROL **Customers**] > [!UICONTROL **Segments**].
 
@@ -55,7 +55,7 @@ The following example shows how to create a customer segment that targets female
 
 1. Click [!UICONTROL **Save and Continue Edit**].
 
-   Additional options become available in the left panel.
+1. Additional options become available in the left panel.
 
 ### Segment properties
 
@@ -69,12 +69,11 @@ The following example shows how to create a customer segment that targets female
 
 ## Step 3: Define the conditions
 
-1. In the left pane, click **Conditions**.
+1. In the left pane, click [!UICONTROL **Conditions**].
 
    The default condition begins, "If ALL of these conditions are TRUE:".
 
-   ![Customer segment conditions]({% link marketing/assets/customer-segment-conditions.png %}){: .zoom}
-   _Conditions_
+   ![Conditions](assets/customer-segment-conditions.png)
 
 1. Create a condition to target female customers:
 
@@ -87,7 +86,7 @@ The following example shows how to create a customer segment that targets female
    ![Customer segment condition]({% link marketing/assets/customer-segment-condition-line1.png %}){: .zoom}
    _Condition line 1_
 
-1. Create another condition that targets residents of Los Angeles:
+3. Create another condition that targets residents of Los Angeles:
 
    - On the next line, click the Add (![Plus sign]({% link assets/icon-add-green-circle.png %})) icon and select `Customer Address`.
 
@@ -108,7 +107,7 @@ The following example shows how to create a customer segment that targets female
    ![Conditions for females in Los Angeles, California]({% link marketing/assets/customer-segment-conditions-la-ladies.png %}){: .zoom}
    _Condition for females in Los Angeles_
 
-1. Click <span class="btn">Save and Continue Edit</span>.
+4. Click <span class="btn">Save and Continue Edit</span>.
 
 ## Step 4: Review the list of matched customers
 
