@@ -1,10 +1,13 @@
 ---
-ee_only: true
 title: Customer Segments in Price Rules
-group: customers
+description: Customers Segments can be associated with a cart price rule.
 ---
 
-A customer segment can be targeted by associating it with a [cart price rule]({% link marketing/price-rules-cart.md %}).
+{ee-feature}
+
+# Customer Segments in Price Rules
+
+A customer segment can be targeted by associating it with a [cart price rule](../merchandising-promotions/price-rules-cart.md).
 
 ![Cart price rule - targeted customer segment]({% link marketing/assets/price-rule-cart-condition-segments.png %}){: .zoom}
 _Targeted Customer Segment_
