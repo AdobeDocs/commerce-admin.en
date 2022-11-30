@@ -25,86 +25,86 @@ Use the Customers grid to find any customer account. You can use the standard [w
 
 ### Subscribe to newsletter
 
-In multi-store and multi-site setups with a global [customer account scope]({% link customers/account-scope.md %}), a customer account can be subscribed to newsletters multiple sites/stores. If you apply the _Subscribe_ action to a customer account, it activates the newsletter subscription for the default site/store view only.
+In multi-store and multi-site setups with a global [customer account scope](../customers/customer-account-scope.md), a customer account can be subscribed to newsletters multiple sites or stores. If you apply the _Subscribe_ action to a customer account, it activates the newsletter subscription for the default site/store view only.
 
-- Set the **Actions** control to `Subscribe to newsletter`.
+* Set the [!UICONTROL **Actions**] control to `Subscribe to newsletter`.
 
-See [Managing Subscribers]({% link marketing/newsletter-subscribers.md %}) for more information about managing newsletter subscriptions for a customer.
+See [Managing Subscribers](../marketing/newsletter-subscribers.md) for more information about managing newsletter subscriptions for a customer.
 
 ### Unsubscribe from newsletter
 
-{:.bs-callout-warning}
-In multi-store and multi-site setups with a global [customer account scope]({% link customers/account-scope.md %}), a customer account can be subscribed to newsletters for multiple sites/stores. If you apply the _Unsubscribe_ action to a customer account, all active subscriptions will be unsubscribed.
+In multi-store and multi-site setups with a global [customer account scope](../customers/account-scope.md), a customer account can be subscribed to newsletters for multiple sites/stores. If you apply the _Unsubscribe_ action to a customer account, all active subscriptions will be unsubscribed.
 
-1. Set the **Actions** control to `Unsubscribe to newsletter`.
+1. Set the [!UICONTROL **Actions**] control to `Unsubscribe to newsletter`.
 
 1. When prompted to confirm, click **OK**.
 
-See [Managing Subscribers]({% link marketing/newsletter-subscribers.md %}) for more information about managing newsletter subscriptions for a customer.
+See [Managing Subscribers](../merchandising-promotions/newsletter-subscribers.md) for more information about managing newsletter subscriptions for a customer.
 
 ### Assign a customer group
 
-1. Set the **Actions** control to `Assign a customer group`.
+1. Set the [!UICONTROL **Actions**] control to `Assign a customer group`.
 
 1. Choose the customer group to which all selected customer records are to be assigned.
 
-1. When prompted to confirm, click **OK**.
+1. When prompted to confirm, click [!UICONTROL **OK**].
 
 ### Edit a customer account
 
-**Method 1:** Quick Edit
+Method 1: **Quick Edit**
 
 1. In the first column, select the checkbox of the customer account to be edited.
 
-1. Set the **Actions** column to `Edit`.
+1. Set the [!UICONTROL **Actions**] column to `Edit`.
 
-   The value of each value that can be updated appears in a text box. Only some values of the selected customer record can be edited from the grid.
+   >[!INFO]
+   >
+   > The value of each value that can be updated appears in a text box. Only some values of the selected customer record can be edited from the grid.
 
-   ![]({% link customers/assets/customers-grid-quick-edit.png %}){: .zoom}
-   _Quick Edit_
+   ![Quick Edit](assets/customers-grid-quick-edit.png)
 
 1. Update any of the following values, as needed:
 
-   - Email
-   - Web Site
-   - Tax/VAT Number
-   - Gender
+   * [!UICONTROL Email]
+   * [!UICONTROL Web Site]
+   * [!UICONTROL Tax/VAT Number]
+   * [!UICONTROL Gender]
 
-1. Click **Save**.
+1. Click [!UICONTROL **Save**].
 
-**Method 2:** Full Edit
+Method 2: **Full Edit**
 
 1. In the grid, find the customer record to be edited.
 
-1. In the _Actions_ column on the far right, click **Edit**.
+1. In the _Actions_ column on the far right, click [!UICONTROL **Edit**].
 
 1. Make the necessary changes to the company information.
 
-   To learn more, see [Updating Customer Accounts]({% link customers/customer-account-update.md %}).
+   >[!INFO]
+   >
+   > To learn more, see [Updating Customer Accounts](../customers/customer-account-update.md).
 
-1. When complete, click **Save Customer**.
+1. When complete, click [!UICONTROL **Save Customer**].
 
 ### Delete customer accounts
 
 Deleted customer accounts cannot be restored. Information about customer activity and transactions is retained in the system.
 
-1. Set the **Actions** control to `Delete`.
+1. Set the [!UICONTROL **Actions**] control to `Delete`.
 
-1. When prompted to confirm, click **OK**.
+1. When prompted to confirm, click [!UICONTROL **OK**].
 
 ## Export customers accounts
 
 1. On the _Admin_ sidebar, go to [!UICONTROL **Customers**] > [!UICONTROL **All Customers**].
 
-1. In the Table Header Menu, click **Export** and select the desired format:
+1. In the Table Header Menu, click [!UICONTROL **Export**] and select the desired format:
 
-- CSV
+   * CSV
+   * Excel XML
 
-- Excel XML
+1. Click [!UICONTROL **OK**]. The file will go to your default downloads folder.
 
-1. Click **OK**. The file will go to your default downloads folder.
-
-{:.bs-callout-info}
 The above instruction will export all customer accounts. If you want to export a limited set, select the checkboxes for the accounts you want to export, or use filters on the control panel to select a range of customer accounts.
 
 ## Actions/controls
@@ -116,8 +116,6 @@ The above instruction will export all customer accounts. If you want to export a
 |Unsubscribe from Newsletter|Unsubscribes selected customers from newsletter.|
 |Assign a Customer Group|Assigns selected customers to a customer group.|
 |Edit|Allows some values of a single selected customer record to be edited from the grid. By default, the following values are available for a quick edit: Email, Group, Phone, ZIP, Web Site, Tax VAT Number, and Gender.|
-|<span class="b2b-only">Set Active**|Removes a block on selected customer accounts, and changes the status to `Active`. The customers can log in and make purchases from their accounts.|
-|<span class="b2b-only">Set Inactive**|Blocks the selected customer accounts, and changes the status to `Inactive`. The blocked customers will not be able to log in or make purchases from their accounts. The customer account of a company administrator cannot be set to `Inactive`. Another user in the company must first be assigned as company administrator.|
 
 ## Columns
 
@@ -136,14 +134,14 @@ The above instruction will export all customer accounts. If you want to export a
 |Web Site|The web site in the store hierarchy to which the customer account is associated.|
 |Confirmed Email|Indicates if a confirmation email is required to be sent.|
 |Account Created In|Indicates the store view from which the customer account was created.|
-|Date of Birth|The date of birth of the customer. <br><br>**_Important:_** In keeping with current security and privacy best practices, be sure you are aware of any potential legal and security risks associated with the storage of customers' full date of birth (month, day, year) along with other personal identifiers (e.g., full name) before collecting or processing such data. We recommend limiting the storage of customers' full birth dates and instead suggest using customer year of birth as an alternative.|
-|Tax / VAT Number|If applicable, the tax number or [value-added tax]({% link tax/vat.md %}) number that is assigned to the customer. <br/><br/>**_Note:_** This field is not the same as the VAT Number.|
+|Date of Birth|The date of birth of the customer. In keeping with current security and privacy best practices, be sure you are aware of any potential legal and security risks associated with the storage of customers' full date of birth (month, day, year) along with other personal identifiers (e.g., full name) before collecting or processing such data. We recommend limiting the storage of customers' full birth dates and instead suggest using customer year of birth as an alternative.|
+|Tax / VAT Number|If applicable, the tax number or [value-added tax](../stores-purchase/vat.md) number that is assigned to the customer. <br/><br/> This field is not the same as the VAT Number.|
 |Gender|The gender of the customer.|
 |Action|Edit - Opens the company account in edit mode.|
 
 ### Additional Columns
 
-These columns are available by changing the [column layout]({% link stores/admin-grid-controls.md %}) of the grid.
+These columns are available by changing the [column layout](../getting-started/admin-grid-controls.md) of the grid.
 
 |Column|Description|
 |--- |--- |
@@ -155,8 +153,8 @@ These columns are available by changing the [column layout]({% link stores/admin
 |Billing Lastname|The last name in the billing address of the customer.|
 |Billing Address|The address where billing information is to be sent.|
 |Shipping Address|The address where orders are to be shipped.|
-|VAT Number|The value-added tax number that is associated with the customer address. For [digital goods]({% link tax/eu-place-of-supply.md %}) sold in the EU, the VAT is based on the billing address of the customer. <br/><br/>**_Note:_** This field is not the same as the Tax/VAT Number.|
-|Account Lock|Indicates the status of the account. As a security measure, customer accounts can be [locked]({% link customers/password-options.md %}) after too many login attempts. Values: Locked / Unlocked|
+|VAT Number|The value-added tax number that is associated with the customer address. For [digital goods](../stores-purchase/taxes.md) sold in the EU, the VAT is based on the billing address of the customer. <br/><br/> This field is not the same as the Tax/VAT Number.|
+|Account Lock|Indicates the status of the account. As a security measure, customer accounts can be [locked](../customers/password-options.md) after too many login attempts. Values: Locked / Unlocked|
 |Status|The current user status. Options: Active / Inactive|
 |Customer Type|Customer types, options: Individual user / Company admin / Company user|
 |Sales Representative|The sales representative who is assigned as the point of contact for a company account and receives all automated email messages related to the company.|
