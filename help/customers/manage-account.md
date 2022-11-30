@@ -5,7 +5,7 @@ description: Use the Customers grid to find any customer account.
 
 # Managing Customer Accounts
 
-Use the Customers grid to find any customer account. You can use the standard [workplace controls]({% link stores/admin-workspace.md %}) to filter the list, change the [column layout]({% link stores/admin-grid-controls.md %}), save views, and export data. The [Actions control]({% link stores/admin-actions-control.md %}) above the grid can be used to apply an operation to multiple customer records.
+Use the Customers grid to find any customer account. You can use the standard [workplace controls](../getting-started/admin-workspace.md) to filter the list, change the [column layout](../getting-started/admin-grid-controls.md), save views, and export data. The [Actions control](../getting-started/admin-actions-control.md) above the grid can be used to apply an operation to multiple customer records.
 
 ![All Customers](assets/customers-all-customers.png)
 
@@ -25,7 +25,6 @@ Use the Customers grid to find any customer account. You can use the standard [w
 
 ### Subscribe to newsletter
 
-{:.bs-callout-info}
 In multi-store and multi-site setups with a global [customer account scope]({% link customers/account-scope.md %}), a customer account can be subscribed to newsletters multiple sites/stores. If you apply the _Subscribe_ action to a customer account, it activates the newsletter subscription for the default site/store view only.
 
 - Set the **Actions** control to `Subscribe to newsletter`.
