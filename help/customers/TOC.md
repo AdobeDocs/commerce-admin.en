@@ -40,7 +40,7 @@ hide: yes
     - [Address Book](account-dashboard-address-book.md)
     - [Account Information](account-dashboard-account-information.md)
 - Company Accounts {#company-accounts}
-  - [B2B Company Accounts](../b2b/account-companies.md)
+  - [B2B Company Accounts](customers-introduction.md#display-the-customers-menu)
 - Customer Segments {#segments}
   - [Creating and Deleting Customer Segments](customer-segment-create.md)
   - [Customer Segments in Price Rules](customer-segment-price-rule.md)

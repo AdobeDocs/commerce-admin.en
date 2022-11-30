@@ -1,5 +1,6 @@
 ---
 title: Resetting Passwords
+description: Customers usually reset their passwords from the storefront but a store administrator can initiate either a password reset or a forced sign-in from the Admin.
 ---
 
 # Resetting Passwords
