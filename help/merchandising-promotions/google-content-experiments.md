@@ -15,7 +15,7 @@ The following example shows how to set up an A/B test of products, categories, o
 
 1. Log in to the Admin of your Commerce installation.
 
-1. Follow the instructions to enable [Google Analytics](google-universal-analytics.md) with Content Experiments in the Commerce configuration.
+1. Follow the instructions to enable [Google Analytics](google-analytics.md) with Content Experiments in the Commerce configuration.
 
    ![Sales configuration - Google Analytics](./assets/google-analytics-experiments.png)<!-- zoom -->
 

@@ -5,11 +5,50 @@ exl-id: d4df2ef2-d67f-46bf-8569-cbee9dde77e4
 ---
 # [!DNL Google Analytics]
 
-[!DNL Google Analytics] gives you the ability to define additional custom dimensions and metrics for tracking, with support for offline and mobile app interactions, and access to ongoing updates. [!DNL Google Analytics] 4 is Google's next-generation measurement solution, and is replacing Universal Analytics. On July 1, 2023, standard Universal Analytics properties will stop processing new hits.
+[!DNL Google Analytics] gives you the ability to define additional custom dimensions and metrics for tracking, with support for offline and mobile app interactions, and access to ongoing updates. [!DNL Google Analytics] 4 is Google's next-generation measurement solution, and is replacing [!DNL Universal Analytics]. On July 1, 2023, standard Universal Analytics properties will stop processing new hits.
 
 >[!NOTE]
 >
 >If your business is subject to privacy regulations such as the [General Data Protection Regulation](../getting-started/compliance-gdpr.md) and/or the [California Consumer Privacy Act](../getting-started/compliance-ccpa.md), see [Google Privacy Settings](google-tools.md#google-privacy-settings).
+
+>[!IMPORTANT]
+>
+>If you enable the [Cookie Restriction Mode](../getting-started/compliance-cookie-law.md), [!DNL Google Analytics] does not collect data about visitors unless they have accepted cookies.
+
+## [!DNL Google Analytics] 4
+
+{{gtag-api-note}}
+
+### Step 1: Set up [!UICONTROL Google Analytics] 4
+
+If you do not already have a [!DNL Google Analytics] 4 setup for your site, follow one of these methods:
+
+- [Set up Analytics data collection for the first time](https://support.google.com/analytics/answer/9304153)
+- [Add Google Analytics 4 to a site with [!DNL Universal Analytics]](https://support.google.com/analytics/answer/9744165)
+
+### Step 2: Complete the Commerce configuration
+
+1. Log in to the Admin for your Commerce store.
+
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+
+1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Google API]**.
+
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Google GTag]** section.
+
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Google Analytics4]** subsection and do the following:
+
+   - Set **[!UICONTROL Enable]** to `Yes`.
+
+   - Leave the **[!UICONTROL Account type]** as `Google Analytics4`.
+
+   - Enter your **[!UICONTROL Measurement ID]**. To learn more, see [Google Analytics Help](https://support.google.com/analytics/answer/9539598).
+
+   - If you want to conduct A/B testing and other performance tests on your content, set **Content Experiments** to `Yes`.
+
+   ![Sales configuration - Google API for Google Analytics 4](../configuration-reference/sales/assets/google-api-gtag-google-analytics4.png)<!-- zoom -->
+
+1. When complete, click **[!UICONTROL Save Config]**.
 
 ## Google Universal Analytics
 
@@ -38,45 +77,6 @@ Visit the Google website, and sign up for a [Google Universal Analytics][1] acco
    - If you want to conduct A/B testing and other performance tests on your content, set **[!UICONTROL Content Experiments]** to `Yes`.
 
    ![Sales configuration - Google API - Google Analytics](../configuration-reference/sales/assets/google-api-analytics-ee.png)<!-- zoom -->
-
-1. When complete, click **[!UICONTROL Save Config]**.
-
->[!IMPORTANT]
->
->If you enable the [Cookie Restriction Mode](../getting-started/compliance-cookie-law.md), [!DNL Google Analytics] does not collect data about visitors unless they have accepted cookies.
-
-## [!DNL Google Analytics] 4
-
-{{gtag-api-note}}
-
-### Step 1: Set up [!UICONTROL Google Analytics] 4
-
-If you do not already have a [!DNL Google Analytics] 4 setup for your site, follow one of these methods:
-
-- [Set up Analytics data collection for the first time](https://support.google.com/analytics/answer/9304153)
-- [Add Google Analytics 4 to a site with Universal Analytics](https://support.google.com/analytics/answer/9744165)
-
-### Step 2: Complete the Commerce configuration
-
-1. Log in to the Admin for your Commerce store.
-
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
-
-1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Google API]**.
-
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Google GTag]** section.
-
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Google Analytics4]** subsection and do the following:
-
-   - Set **[!UICONTROL Enable]** to `Yes`.
-
-   - Leave the **[!UICONTROL Account type]** as `Google Analytics4`.
-
-   - Enter your **[!UICONTROL Measurement ID]**. To learn more, see [Google Analytics Help](https://support.google.com/analytics/answer/9539598).
-
-   - If you want to conduct A/B testing and other performance tests on your content, set **Content Experiments** to `Yes`.
-
-   ![Sales configuration - Google API for Google Analytics 4](../configuration-reference/sales/assets/google-api-gtag-google-analytics4.png)<!-- zoom -->
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
