@@ -77,7 +77,7 @@ hide: yes
     - [Automatic redirects](url-redirect-product-automatic.md)
 - Google site tools {#google-tools}
   - [Overview](google-tools.md)
-  - [Google Analytics](google-universal-analytics.md)
+  - [Google Analytics](google-analytics.md)
   - [Google Tag Manager](google-tag-manager.md)
   - [Google Adwords](google-adwords.md)
   - [Google Content Experiments](google-content-experiments.md)
