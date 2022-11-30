@@ -37,6 +37,8 @@ The scope of customer accounts can be limited to the website where the account w
    | Global | Shares customer account information with every website and store in the installation. |
    | Per Website | Limits customer account information to the website where the account was created. |
 
+   {style="table-layout:auto"}
+
    >[!INFO]
    >
    > If necessary, clear the [!UICONTROL **User system value**] checkbox to make the change.

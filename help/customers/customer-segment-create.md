@@ -49,6 +49,8 @@ The following example shows how to create a customer segment that targets female
    | Registered Customers | Includes only shoppers who are logged in to an account. |
    | Visitors | Includes only shoppers who are not logged in to an account. |
 
+   {style="table-layout:auto"}
+
 1. If you are creating a segment based on customer attributes stored in a customer account, it is a best practice to apply the segment to registered customers only.
 
    ![Segment properties](assets/customer-segment-saved.png)
@@ -66,6 +68,8 @@ The following example shows how to create a customer segment that targets female
 |Assigned to Website| The single website where the segment can be used.|
 |Status| Activates and deactivates the segment. Any associated price rules and banners are deactivated when the segment is disabled. Options include: Active / Inactive.|
 |Apply to| Defines the customer types to which the segment is applied. The selection influences the set of conditions available for creating the segment. The setting cannot be changed after the segment is saved.  |
+
+{style="table-layout:auto"}
 
 ## Step 3: Define the conditions (Example)
 
@@ -105,7 +109,7 @@ The following example shows how to create a customer segment that targets female
 
    ![Conditions for females in Los Angeles, California](assets/customer-segment-conditions-la-ladies.png)
 
-11. Click [!UICONTROL **Save and Continue Edit**].
+1. Click [!UICONTROL **Save and Continue Edit**].
 
 ## Step 4: Review the list of matched customers
 
@@ -138,6 +142,8 @@ The following example shows how to create a customer segment that targets female
 |**Save and Continue Edit**|Saves changes and keeps the customer segment open.|
 |**Save **|Saves changes and closes the customer segment.|
 
+{style="table-layout:auto"}
+
 ## Matched Customers Grid
 
 |Column|Description|
@@ -152,6 +158,8 @@ The following example shows how to create a customer segment that targets female
 |State / Province|The state or province where the customer is located.|
 |Customer Since|The date and time the customer account was created.|
 
+{style="table-layout:auto"}
+
 ## Customer Segments Grid
 
 |Column|Description|
@@ -160,6 +168,8 @@ The following example shows how to create a customer segment that targets female
 |Segment|The name of customer segment.|
 |Status|Indicates whether the customer segment is __Active__ or __Inactive__.|
 |Website|Indicates the website to which the customer segment belongs.|
+
+{style="table-layout:auto"}
 
 ## Customer segments demo
 

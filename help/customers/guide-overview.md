@@ -24,3 +24,5 @@ This guide covers All [!DNL Customers] configuration-specific tasks that are don
 |------ | ----------- |
 | [Adobe Commerce 2.4 Merchant Documentation](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) | Merchant-focused documentation for both Adobe Commerce and Magento Open Source |
 | [Adobe Commerce 2.4 Developer Guide](https://devdocs.magento.com/) | Developer-focused documentation used to build and customize Adobe Commerce or Magento Open Source |
+
+{style="table-layout:auto"}

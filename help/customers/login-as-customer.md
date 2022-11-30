@@ -80,9 +80,9 @@ Enabling Login as Customer requires that you enable the feature in your commerce
    >
    > The administrator can now log in as a user without their permission from the storefront.
 
-{ee-feature}
-
 ## Login as Customer logging
+
+{ee-feature}
 
 Adobe Commerce provides a logging for the _Login as Customer_ actions. It lists all sessions where a Admin user accesses the feature. To access the logged actions, go to the [Admin Actions Report](../systems/action-log-report.md).
 

@@ -12,6 +12,8 @@ Customers usually reset their passwords from the storefront by clicking the "For
 |Reset Password | A password reset email is sent directly to the customer's email account. At no time does the store administrator gain access to the customer's password.|
 |Force Sign In | Revokes the OAuth access tokens that are associated with the customer account. This can be used only with customer accounts that have been assigned OAuth tokens, as part of a Web API [integration](../systems/integrations.md). To learn more, see [OAuth-based authentication](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) in our Developer documentation. <br/><br/>Standard customer accounts created from the storefront or from the Admin do not have OAuth tokens.|
 
+{style="table-layout:auto"}
+
 ## Reset a password from the storefront
 
 1. On the Login page, click [!UICONTROL **Forgot Your Password?**].

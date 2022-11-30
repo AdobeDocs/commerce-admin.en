@@ -57,15 +57,15 @@ The [Shopping cart](../stores-purchase/cart.md) tab displays products that are c
 
 A [Wish List](https://docs.magento.com/user-guide/marketing/wishlists.html) displays a list of products that a customer can transfer to the cart at a later date.
 
-{ee-feature}
-
 ### Store Credit
+
+{ee-feature}
 
 The [Store credit](../customers/store-credit.md) tab displays an amount that is restored to a customer account, the admin can manage this value.
 
-{ee-feature}
-
 ### Gift Registry
+
+{ee-feature}
 
 The [Gift Registry](../customers/account-dashboard-gift-registry.md) section lists the customer's current gift registries and the associated event.
 
@@ -81,9 +81,9 @@ The [Billing Agreements](../stores-purchase/paypal-billing-agreements.md) tab li
 
 The [Product Reviews](../catalog/settings-advanced-product-reviews.md) tab displays all the reviews submitted by this customer.
 
-{ee-feature}
-
 ### Reward Points
+
+{ee-feature}
 
 The [Reward Points](../merchandising-promotions/rewards-loyalty.md) section shows the current balance of reward points earned by the customer. An Admin user can manage this value.
 
@@ -101,3 +101,5 @@ The [Reward Points](../merchandising-promotions/rewards-loyalty.md) section show
 | **Manage Shopping Cart** | Provides access to the shopping cart of a customer. |
 | **Save and Continue Edit**  | Saves changes and keeps the customer account open. |
 | **Save Customer** | Saves changes and closes the customer account. |
+
+{style="table-layout:auto"}

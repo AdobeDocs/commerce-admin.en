@@ -34,6 +34,8 @@ The [!DNL Customers] grid lists all [!DNL Customers] who have registered for an 
 | Columns | Determines the selection of [columns](../getting-started/admin-grid-controls.md) and their accounts in the grid. The column layout can be changed and saved as a _view_. By default, only some of the columns are included in the grid. |
 | Export | Exports the selected records as a CSV or Excel XML file. |
 
+{style="table-layout:auto"}
+
 ## Columns
 
 |Column|Description|
@@ -56,6 +58,8 @@ The [!DNL Customers] grid lists all [!DNL Customers] who have registered for an 
 | Gender | The gender of the customer. |
 | Action | Edit - Opens the company account in edit mode. |
 
+{style="table-layout:auto"}
+
 ### Additional Columns
 
 These columns are available by changing the [column layout](../getting-started/admin-grid-controls.md) of the grid.
@@ -72,3 +76,5 @@ These columns are available by changing the [column layout](../getting-started/a
 | Shipping Address | The address where orders are to be shipped. |
 | VAT Number | The value-added tax number that is associated with the customer address. For [digital goods](../stores-purchase/taxes.md) sold in the EU, the VAT is based on the billing address of the customer. <br/><br/>This field is not the same as the Tax/VAT Number. |
 | Account Lock | Indicates the status of the account. As a security measure, customer accounts can be [locked](../customers/password-options.md) after too many login attempts. Values: Locked / Unlocked |
+
+{style="table-layout:auto"}

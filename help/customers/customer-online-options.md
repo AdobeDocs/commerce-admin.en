@@ -12,6 +12,8 @@ The lifetime of a customer shopping session is determined by several factors, in
 | Session | Information that is stored on the server, such as the contents of the shopping cart. If the server session expires before the cookie expires, customers might lose the cart contents and reduce security risk. |
 | Session Cookie | Information that is stored in the browser as a number or string of characters. If the session cookie expires before the server session, the customer is logged out. The session cookie is deleted when the customer closes the browser window. By default, the cookie lifetime is set to 3600 seconds, or one hour. If there is no keyboard activity during that time, the current session ends, and customers must log back into their accounts to continue shopping. |
 
+{style="table-layout:auto"}
+
 If [Persistent Cart](../stores-purchase/cart-persistent.md) is enabled, the cart contents are saved for the next time customers sign into their accounts. When using a persistent cart, it is recommended that you set the lifetime of the server session and the session cookie to a long period of time.
 
 On the server, the length of the session is controlled by the `php.ini` file and several variables. At this time, Adobe Commerce does not have an Admin configuration setting that controls the length of the server session.

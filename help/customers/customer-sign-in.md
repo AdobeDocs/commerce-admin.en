@@ -44,6 +44,8 @@ You can configure the store to redirect customers to their account dashboard aft
    | Yes | The account dashboard appears when customers log in to their accounts. |
    | No | Customers can continue shopping after logging in to their accounts. |
 
+   {style="table-layout:auto"}
+
 1. When complete, click [!UICONTROL **Save Config**].
 
 ## Sign in with Amazon

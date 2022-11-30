@@ -170,6 +170,8 @@ Additional buttons become available when the profile is saved for the first time
 |[!UICONTROL **Save and Continue Edit**]|Saves changes and keeps the customer profile open.|
 |[!UICONTROL **Save Customer**]|Saves changes and closes the customer profile.|
 
+{style="table-layout:auto"}
+
 ## Fields
 
 ### Account Information

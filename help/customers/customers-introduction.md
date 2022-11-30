@@ -21,6 +21,8 @@ On the _Admin_ sidebar, click [!UICONTROL Customers] to display the menu options
 | [!UICONTROL Customer Groups] | The [customer groups](../customers/customer-groups.md) determine which discounts are available to shoppers and the tax class for the purchase. |
 | [!UICONTROL Companies] | Lists all active [company accounts](../b2b/account-companies.md){target=_blank} and pending requests, regardless of status setting, and provides the tools needed to create and [manage](../b2b/account-company-manage.md){target=_blank} company accounts. |
 
+{style="table-layout:auto"}
+
 >[!NOTE]
 >
 > Check [B2B for Adobe Commerce](../b2b/introduction.md) for more information on [!UICONTROL Companies].

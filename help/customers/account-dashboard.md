@@ -46,3 +46,5 @@ The following table contains information about all sections available in the Cus
 | ![B2B for Adobe Commerce](../assets/b2b.svg)[Company Users](../customers/account-company-users.md) | (Companies Only) Used by the company administrator to create user accounts for company buyers.  |
 | ![B2B for Adobe Commerce](../assets/b2b.svg)[Roles and Permissions](../customers/account-company-roles-permissions.md) | (Companies Only) Used by the company administrator to define roles for company users with various levels of permission. |
 | ![B2B for Adobe Commerce](../assets/b2b.svg)[Approval Rules](../customers/account-dashboard-approval-rules.md) | (Companies Only) Used to define approval rules for purchase orders. |
+
+{style="table-layout:auto"}

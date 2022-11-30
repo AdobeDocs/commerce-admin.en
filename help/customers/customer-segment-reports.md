@@ -20,6 +20,8 @@ The Customer Segment Report provides information about the number of customers i
 |Website|Website to which the segment is assigned|
 |Customers|Number of customers assigned to a segment|
 
+{style="table-layout:auto"}
+
 You can drill down to a list of customers in the segment, and export the data.
 
 ![Drill Down to Customer Data](assets/customer-segment-drilldown.png)
@@ -33,16 +35,18 @@ To ensure you have the most recent data, the segment data must be refreshed. If 
 
 1. Click [!UICONTROL **Export**].
 
-|Column|Description|
-|--- |--- |
-|ID|A unique numeric identifier that is assigned to each user|
-|Name|Customer name|
-|Email|The email address of a registered customer|
-|Group|The customer group to which the customer is assigned|
-|Phone|The phone number of the customer|
-|ZIP|The ZIP or postal code where the customer is located|
-|Country|The country where the customer is located|
-|State/Province|The state or province where the customer is located|
-|Customer Since|The date and time the customer account was created|
+   |Column|Description|
+   |--- |--- |
+   |ID|A unique numeric identifier that is assigned to each user|
+   |Name|Customer name|
+   |Email|The email address of a registered customer|
+   |Group|The customer group to which the customer is assigned|
+   |Phone|The phone number of the customer|
+   |ZIP|The ZIP or postal code where the customer is located|
+   |Country|The country where the customer is located|
+   |State/Province|The state or province where the customer is located|
+   |Customer Since|The date and time the customer account was created|
+
+   {style="table-layout:auto"}
 
 1. The generated file is automatically saved to your local machine.

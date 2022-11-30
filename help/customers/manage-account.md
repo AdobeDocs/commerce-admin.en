@@ -117,6 +117,8 @@ The above instruction will export all customer accounts. If you want to export a
 |Assign a Customer Group|Assigns selected customers to a customer group.|
 |Edit|Allows some values of a single selected customer record to be edited from the grid. By default, the following values are available for a quick edit: Email, Group, Phone, ZIP, Web Site, Tax VAT Number, and Gender.|
 
+{style="table-layout:auto"}
+
 ## Columns
 
 |Column|Description|
@@ -139,6 +141,8 @@ The above instruction will export all customer accounts. If you want to export a
 |Gender|The gender of the customer.|
 |Action|Edit - Opens the company account in edit mode.|
 
+{style="table-layout:auto"}
+
 ### Additional Columns
 
 These columns are available by changing the [column layout](../getting-started/admin-grid-controls.md) of the grid.
@@ -158,3 +162,5 @@ These columns are available by changing the [column layout](../getting-started/a
 |Status|The current user status. Options: Active / Inactive|
 |Customer Type|Customer types, options: Individual user / Company admin / Company user|
 |Sales Representative|The sales representative who is assigned as the point of contact for a company account and receives all automated email messages related to the company.|
+
+{style="table-layout:auto"}

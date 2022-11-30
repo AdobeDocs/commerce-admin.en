@@ -49,3 +49,5 @@ The online status of [!DNL Customers] is updated only upon customer login, regis
 | Type | Options: Customer / Visitor |
 | Last URL | The last URL the customer visited. |
 | Company | The name of the company to which the user belongs. |
+
+{style="table-layout:auto"}
