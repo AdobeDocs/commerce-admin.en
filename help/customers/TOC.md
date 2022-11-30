@@ -32,15 +32,13 @@ hide: yes
     - [Store Credit workflow](store-credit.md)
     - [Configuring Store Credit](credit-configure.md)
     - [Applying Store Credit](store-credit-using.md)
-    - [Store Credit in the customer account dashboard](account-dashboard-store-credit.md)
+    - [Store Credit in the Customer Account Dashboard](account-dashboard-store-credit.md)
     - [Refunds in the Customer Account Dashboard](refunds-customer-account.md)
   - Customer Account Dashboard {#customer-account-dashboard}
     - [Managing the Customer Account Dashboard](account-dashboard.md)
     - [My Account](account-dashboard-my-account.md)
     - [Address Book](account-dashboard-address-book.md)
     - [Account Information](account-dashboard-account-information.md)
-- Company Accounts {#company-accounts}
-  - [B2B Company Accounts](customers-introduction.md#display-the-customers-menu)
 - Customer Segments {#segments}
   - [Creating and Deleting Customer Segments](customer-segment-create.md)
   - [Customer Segments in Price Rules](customer-segment-price-rule.md)
