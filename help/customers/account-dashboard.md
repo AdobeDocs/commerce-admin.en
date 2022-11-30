@@ -7,8 +7,9 @@ description: Customers can manage and monitor their own information and activiti
 
 Customers can manage and monitor their own information and activities from their account dashboard. Customers can reorder, track orders, manage shipping addresses and payment methods, product reviews, newsletter subscriptions, and more.
 
-{:.bs-callout-tip}
-With the installation and enablement of B2B for Adobe Commerce, the buying experience can be personalized with company-specific features. The full range of B2B account dashboard options (purchase orders, requisition lists, and negotiated quotes) can be enabled for customers who are associated with a company. For more information about the B2B features, see the [B2B for Adobe Commerce User Guide](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>[!NOTE]
+>
+> With the installation and enablement of B2B for Adobe Commerce, the buying experience can be personalized with company-specific features. The full range of B2B account dashboard options (purchase orders, requisition lists, and negotiated quotes) can be enabled for customers who are associated with a company. For more information about the B2B features, see the [B2B for Adobe Commerce User Guide](../b2b/introduction.md).
 
 ![]({% link customers/assets/customer-account-dashboard.png %}){: .zoom}
 _Account Dashboard_

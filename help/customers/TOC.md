@@ -32,11 +32,11 @@ hide: yes
     - [Store Credit workflow](store-credit.md)
     - [Configuring Store Credit](credit-configure.md)
     - [Applying Store Credit](store-credit-using.md)
-    - [Store Credit in the customer account dashboard](account-dashboard-store-credit.md)
-    - [Refunds in the Customer Account Dashboard](refunds-customer-account.md)
   - Customer Account Dashboard {#customer-account-dashboard}
     - [Managing the Customer Account Dashboard](account-dashboard.md)
     - [My Account](account-dashboard-my-account.md)
+    - [Store Credit in the customer account dashboard](account-dashboard-store-credit.md)
+    - [Refunds in the Customer Account Dashboard](refunds-customer-account.md)
     - [Order by SKU](account-dashboard-order-by-sku.md)
     - [My Orders](account-dashboard-my-orders.md)
     - [Reorders](account-dashboard-reorders.md)
