@@ -9,8 +9,7 @@ description: Customer Segment Report provides information about the number of cu
 
 The Customer Segment Report provides information about the number of customers in each segment.
 
-![]({% link reports/assets/customer-segments-reports.png %}){: .zoom}
-_Customer Segment Report_
+![Customer Segment Report](assets/customer-segments-reports.png)
 
 |Column|Description|
 |--- |--- |
@@ -23,16 +22,16 @@ _Customer Segment Report_
 
 You can drill down to a list of customers in the segment, and export the data.
 
-![]({% link reports/assets/customer-segment-drilldown.png %}){: .zoom}
-_Drill Down to Customer Data_
+![Drill Down to Customer Data](assets/customer-segment-drilldown.png)
 
-To ensure you have the most recent data, the segment data must be refreshed. If the segment data is not available or is outdated, click **Refresh Segment Data** in the button bar to update.
+To ensure you have the most recent data, the segment data must be refreshed. If the segment data is not available or is outdated, click [!UICONTROL **Refresh Segment Data**] in the button bar to update.
 
-1. For **Export to**, choose an export format:
-    - **CSV** - A comma-separated value file containing plain text data
-    - **Excel XML** - An XML-based, spreadsheet data format
-2. Click <span class="btn">Export</span>.
-   The generated file is automatically saved to your local machine.
+1. For [!UICONTROL **Export to**], choose an export format:
+    
+    * CSV - A comma-separated value file containing plain text data.
+    * Excel XML - An XML-based, spreadsheet data format.
+
+1. Click [!UICONTROL **Export**].
 
 |Column|Description|
 |--- |--- |
@@ -45,3 +44,5 @@ To ensure you have the most recent data, the segment data must be refreshed. If 
 |Country|The country where the customer is located|
 |State/Province|The state or province where the customer is located|
 |Customer Since|The date and time the customer account was created|
+
+1. The generated file is automatically saved to your local machine.
