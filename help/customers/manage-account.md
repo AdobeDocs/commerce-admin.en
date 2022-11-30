@@ -1,53 +1,27 @@
 ---
 title: Managing Customer Accounts
+description: Use the Customers grid to find any customer account.
 ---
+
+# Managing Customer Accounts
 
 Use the Customers grid to find any customer account. You can use the standard [workplace controls]({% link stores/admin-workspace.md %}) to filter the list, change the [column layout]({% link stores/admin-grid-controls.md %}), save views, and export data. The [Actions control]({% link stores/admin-actions-control.md %}) above the grid can be used to apply an operation to multiple customer records.
 
-![]({% link customers/assets/customers-all-customers.png %}){: .zoom}
-_All Customers_
+![All Customers](assets/customers-all-customers.png)
 
 ## Customer account actions
 
-1. On the _Admin_ sidebar, go to **Customers** > **All Customers**.
+1. On the _Admin_ sidebar, go to [!UICONTROL **Customers**] > [!UICONTROL **All Customers**].
 
 1. In the first column of the grid, select the checkbox of each record that you want to update.
 
 1. Follow the instructions for the action that you want to apply.
 
-   The following actions can be applied to either single or multiple records.
+   >[!INFO]
+   >
+   > The following actions can be applied to either single or multiple records.
 
-1. When complete, click <span class="btn">Save</span>.
-
-{:.b2b-only}
-### Set active/inactive
-
-Customers with inactive accounts cannot log in or make purchases from their accounts. There are two methods to set a customer account as active or inactive:
-
-**Method 1:** From the customers grid
-
-1. On the _Admin_ sidebar, go to **Customers** > **All Customers**.
-
-1. Set the **Actions** control to one of the following:
-
-   - `Active`
-   - `Inactive`
-
-1. When prompted to confirm, click <span class="btn">OK</span>.
-
-**Method 2:** From the account edit page
-
-1. On the _Admin_ sidebar, go to **Customers** > **All Customers**.
-
-1. In the grid, find the customer record to be edited.
-
-1. In the _Actions_ column on the far right, click **Edit**.
-
-1. Select the **Account Information** tab.
-
-1. Set **Customer Active** to `Yes` or `No`.
-
-1. Click <span class="btn">Save Customer</span>.
+1. When complete, click [!UICONTROL **Save Config**].
 
 ### Subscribe to newsletter
 
@@ -65,7 +39,7 @@ In multi-store and multi-site setups with a global [customer account scope]({% l
 
 1. Set the **Actions** control to `Unsubscribe to newsletter`.
 
-1. When prompted to confirm, click <span class="btn">OK</span>.
+1. When prompted to confirm, click **OK**.
 
 See [Managing Subscribers]({% link marketing/newsletter-subscribers.md %}) for more information about managing newsletter subscriptions for a customer.
 
@@ -75,7 +49,7 @@ See [Managing Subscribers]({% link marketing/newsletter-subscribers.md %}) for m
 
 1. Choose the customer group to which all selected customer records are to be assigned.
 
-1. When prompted to confirm, click <span class="btn">OK</span>.
+1. When prompted to confirm, click **OK**.
 
 ### Edit a customer account
 
@@ -109,7 +83,7 @@ See [Managing Subscribers]({% link marketing/newsletter-subscribers.md %}) for m
 
    To learn more, see [Updating Customer Accounts]({% link customers/customer-account-update.md %}).
 
-1. When complete, click <span class="btn">Save Customer</span>.
+1. When complete, click **Save Customer**.
 
 ### Delete customer accounts
 
@@ -117,11 +91,11 @@ Deleted customer accounts cannot be restored. Information about customer activit
 
 1. Set the **Actions** control to `Delete`.
 
-1. When prompted to confirm, click <span class="btn">OK</span>.
+1. When prompted to confirm, click **OK**.
 
 ## Export customers accounts
 
-1. On the _Admin_ sidebar, go to **Customers** > **All Customers**.
+1. On the _Admin_ sidebar, go to [!UICONTROL **Customers**] > [!UICONTROL **All Customers**].
 
 1. In the Table Header Menu, click **Export** and select the desired format:
 
@@ -129,14 +103,13 @@ Deleted customer accounts cannot be restored. Information about customer activit
 
 - Excel XML
 
-1. Click <span class="btn">OK</span>. The file will go to your default downloads folder.
+1. Click **OK**. The file will go to your default downloads folder.
 
 {:.bs-callout-info}
 The above instruction will export all customer accounts. If you want to export a limited set, select the checkboxes for the accounts you want to export, or use filters on the control panel to select a range of customer accounts.
 
 ## Actions/controls
 
-{: .fields-table }
 |Option|Description|
 |--- |--- |
 |Delete|Deletes selected customer accounts. If the customer account belongs to a company administrator for a B2B store, another company user must be assigned as administrator before the customer account can be deleted.|
@@ -144,12 +117,11 @@ The above instruction will export all customer accounts. If you want to export a
 |Unsubscribe from Newsletter|Unsubscribes selected customers from newsletter.|
 |Assign a Customer Group|Assigns selected customers to a customer group.|
 |Edit|Allows some values of a single selected customer record to be edited from the grid. By default, the following values are available for a quick edit: Email, Group, Phone, ZIP, Web Site, Tax VAT Number, and Gender.|
-|<span class="b2b-only">Set Active</span>|Removes a block on selected customer accounts, and changes the status to `Active`. The customers can log in and make purchases from their accounts.|
-|<span class="b2b-only">Set Inactive</span>|Blocks the selected customer accounts, and changes the status to `Inactive`. The blocked customers will not be able to log in or make purchases from their accounts. The customer account of a company administrator cannot be set to `Inactive`. Another user in the company must first be assigned as company administrator.|
+|<span class="b2b-only">Set Active**|Removes a block on selected customer accounts, and changes the status to `Active`. The customers can log in and make purchases from their accounts.|
+|<span class="b2b-only">Set Inactive**|Blocks the selected customer accounts, and changes the status to `Inactive`. The blocked customers will not be able to log in or make purchases from their accounts. The customer account of a company administrator cannot be set to `Inactive`. Another user in the company must first be assigned as company administrator.|
 
 ## Columns
 
-{: .fields-table }
 |Column|Description|
 |--- |--- |
 |Select|Manages the checkbox selections for the customer records for applying an action. You can also use the selection control in the column header to select/deselect all.|
@@ -165,7 +137,7 @@ The above instruction will export all customer accounts. If you want to export a
 |Web Site|The web site in the store hierarchy to which the customer account is associated.|
 |Confirmed Email|Indicates if a confirmation email is required to be sent.|
 |Account Created In|Indicates the store view from which the customer account was created.|
-|Date of Birth|The date of birth of the customer. <br><br>**_Important:_** In keeping with current security and privacy best practices, be sure you are aware of any potential legal and security risks associated with the storage of customers’ full date of birth (month, day, year) along with other personal identifiers (e.g., full name) before collecting or processing such data. We recommend limiting the storage of customers’ full birth dates and instead suggest using customer year of birth as an alternative.|
+|Date of Birth|The date of birth of the customer. <br><br>**_Important:_** In keeping with current security and privacy best practices, be sure you are aware of any potential legal and security risks associated with the storage of customers' full date of birth (month, day, year) along with other personal identifiers (e.g., full name) before collecting or processing such data. We recommend limiting the storage of customers' full birth dates and instead suggest using customer year of birth as an alternative.|
 |Tax / VAT Number|If applicable, the tax number or [value-added tax]({% link tax/vat.md %}) number that is assigned to the customer. <br/><br/>**_Note:_** This field is not the same as the VAT Number.|
 |Gender|The gender of the customer.|
 |Action|Edit - Opens the company account in edit mode.|
@@ -174,7 +146,8 @@ The above instruction will export all customer accounts. If you want to export a
 
 These columns are available by changing the [column layout]({% link stores/admin-grid-controls.md %}) of the grid.
 
-{: .fields-table }
+|Column|Description|
+|--- |--- |
 |Company|The company name of the customer.|
 |Street Address|The street address of the customer.|
 |City|The city where the customer is located.|
@@ -188,12 +161,3 @@ These columns are available by changing the [column layout]({% link stores/admin
 |Status|The current user status. Options: Active / Inactive|
 |Customer Type|Customer types, options: Individual user / Company admin / Company user|
 |Sales Representative|The sales representative who is assigned as the point of contact for a company account and receives all automated email messages related to the company.|
-
-<!--
-  This is a style declaration so that long field names are not wrapped by table auto styling for column widths.
--->
-<style>
-.fields-table td:first-of-type {
-  width: 200px;
-}
-</style>
