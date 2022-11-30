@@ -3,9 +3,9 @@ title: Applying Store Credit
 description: Store administrators can apply store credit to a purchase.
 ---
 
-{ee-feature}
-
 # Applying Store Credit
+
+{{ee-feature}}
 
 Store administrators can view the credit balance and history from the customer account, and also apply store credit to a purchase.
 
@@ -41,7 +41,7 @@ Store administrators can view the credit balance and history from the customer a
 
 1. Enter a [!UICONTROL **Comment**] about the change.
 
-2. When updates are complete, click [!UICONTROL **Save and Continue Edit**] or [!UICONTROL **Save Customer**].
+1. When updates are complete, click [!UICONTROL **Save and Continue Edit**] or [!UICONTROL **Save Customer**].
 
 The updated balance should be displayed in [!UICONTROL **Balance History**].
 

@@ -3,9 +3,9 @@ title: Store Credit
 description: Store credit is an amount that is restored to a customer account. Customers can use their store credit to pay for purchases, and administrators can use store credit for cash refunds.
 ---
 
-{ee-feature}
-
 # Store Credit
+
+{{ee-feature}}
 
 Store credit is an amount that is restored to a customer account. Customers can use their store credit to pay for purchases, and administrators can use store credit for cash refunds. Gift card balances can be credited to the customer's account, instead of using the gift card code for future purchases.
 

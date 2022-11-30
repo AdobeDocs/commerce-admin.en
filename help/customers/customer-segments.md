@@ -26,7 +26,7 @@ Check [Creating and Deleting Customer Segments](../customers/customer-segment-cr
 
 ## eBooks
 
-- **Customer Segmentation** — Learn how to increase profits and overall customer satisfaction. Get the [eBook](https://magento.com/resources/identifying-your-most-profitable-customers-introduction-customer-segmentation)]{:target="_blank"} now!
+- **Customer Segmentation** — Learn how to increase profits and overall customer satisfaction. Get the [eBook](https://magento.com/resources/identifying-your-most-profitable-customers-introduction-customer-segmentation){:target="_blank"} now!
 - **Segmentation Tactics** — Improve the targeting of your messages and promotions to create meaningful conversations with your customers. Get the [eBook](https://magento.com/resources/3-segmentation-tactics-ignite-conversion){:target="_blank"} now!
 
 ## [!DNL Customers Segment] Attributes
