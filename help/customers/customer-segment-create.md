@@ -67,7 +67,7 @@ The following example shows how to create a customer segment that targets female
 |Status| Activates and deactivates the segment. Any associated price rules and banners are deactivated when the segment is disabled. Options include: Active / Inactive.|
 |Apply to| Defines the customer types to which the segment is applied. The selection influences the set of conditions available for creating the segment. The setting cannot be changed after the segment is saved.  |
 
-## Step 3: Define the conditions
+## Step 3: Define the conditions (Example)
 
 1. In the left pane, click [!UICONTROL **Conditions**].
 
@@ -77,70 +77,66 @@ The following example shows how to create a customer segment that targets female
 
 1. Create a condition to target female customers:
 
-   - Click the Add (![Plus sign]({% link assets/icon-add-green-circle.png %})) icon to display the list of conditions and select `Gender`.
+   * Click the [!UICONTROL **Add**] icon to display the list of conditions and select `Gender`.
 
-   - Leave the default **is** condition control option.
+   * Leave the default **is** condition control option.
 
-   - Click **...** and select `female`.
+   * Click **...** and select `female`.
 
-   ![Customer segment condition]({% link marketing/assets/customer-segment-condition-line1.png %}){: .zoom}
-   _Condition line 1_
+   ![Condition line 1](assets/customer-segment-condition-line1.png)
 
-3. Create another condition that targets residents of Los Angeles:
+1. Create another condition that targets residents of Los Angeles:
 
-   - On the next line, click the Add (![Plus sign]({% link assets/icon-add-green-circle.png %})) icon and select `Customer Address`.
+   * On the next line, click the [!UICONTROL **Add**] icon and select `Customer Address`.
 
-      This creates a parent condition where you can define one or more address fields to match.
+1. This creates a parent condition where you can define one or more address fields to match.
 
-   - Click the Add (![Plus sign]({% link assets/icon-add-green-circle.png %})) icon to display the list of address fields and select `City`.
+   * Click the [!UICONTROL **Add**] icon to display the list of address fields and select `City`.
 
-   - Click **is** to display the condition control options and select `contains`.
+   * Click **is** to display the condition control options and select `contains`.
 
-   - Click **...** and enter `Los Angeles`.
+   * Click **...** and enter `Los Angeles`.
 
-   - On the next line, click the Add (![Plus sign]({% link assets/icon-add-green-circle.png %})) icon and select `State/Province`.
+   * On the next line, click the [!UICONTROL **Add**] icon and select `State/Province`.
 
-   - Leave the default **is** condition control option.
+   * Leave the default **is** condition control option.
 
-   - Click **...** and select `United States > California`.
+   * Click **...** and select `United States > California`.
 
-   ![Conditions for females in Los Angeles, California]({% link marketing/assets/customer-segment-conditions-la-ladies.png %}){: .zoom}
-   _Condition for females in Los Angeles_
+   ![Conditions for females in Los Angeles, California](assets/customer-segment-conditions-la-ladies.png)
 
-4. Click <span class="btn">Save and Continue Edit</span>.
+11. Click [!UICONTROL **Save and Continue Edit**].
 
 ## Step 4: Review the list of matched customers
 
-1. In the left pane, click **Matched Customers** to display all customers who match the condition.
+1. In the left pane, click [!UICONTROL **Matched Customers**] to display all customers who match the condition.
 
-   ![Matched customers]({% link marketing/assets/customer-segment-matched-customers.png %}){: .zoom}
-   _Matched Customers_
+   ![Matched customers](assets/customer-segment-matched-customers.png)
 
-1. If the list of customers meets your goal, click <span class="btn">Save</span> to complete the customer segment.
+1. If the list of customers meets your goal, click [!UICONTROL **Save**] to complete the customer segment.
 
-The customer segment can now be used for targeting promotions, content, and mailings.
+1. The customer segment can now be used for targeting promotions, content, and mailings.
 
 ## Delete a customer segment
 
-1. On the _Admin_ sidebar, go to **Customers** > **Segments**.
+1. On the _Admin_ sidebar, go to [!UICONTROL **Customers**] > [!UICONTROL **Segments**].
 
 1. Find the segment to be deleted and select it.
 
-1. In the menu bar click **Delete** button.
+1. In the menu bar click [!UICONTROL **Delete**] button.
 
-1. To confirm the action, click <span class="btn">OK</span>.
+1. To confirm the action, click [!UICONTROL **OK**].
 
 ## Button bar
 
-{: .buttons-table }
 |Button|Description|
 |--- |--- |
-|<span class="btn">Back</span>|Returns to the Customer Segments page without saving changes.|
-|<span class="btn">Delete</span>|Deletes the current customer segment. Customers or completed orders associated with the customer in the segment are not removed.|
-|<span class="btn">Reset</span>|Resets any unsaved changes in the customer segment form to their previous values.|
-|<span class="btn">Refresh Segment Data</span>|Refreshes the segment data to the most recently saved values. Relevant if any segment data is unavailable or out of date.|
-|<span class="btn">Save and Continue Edit</span>|Saves changes and keeps the customer segment open.|
-|<span class="btn">Save </span>|Saves changes and closes the customer segment.|
+|**Back**|Returns to the Customer Segments page without saving changes.|
+|**Delete**|Deletes the current customer segment. Customers or completed orders associated with the customer in the segment are not removed.|
+|**Reset**|Resets any unsaved changes in the customer segment form to their previous values.|
+|**Refresh Segment Data**|Refreshes the segment data to the most recently saved values. Relevant if any segment data is unavailable or out of date.|
+|**Save and Continue Edit**|Saves changes and keeps the customer segment open.|
+|**Save **|Saves changes and closes the customer segment.|
 
 ## Matched Customers Grid
 
@@ -169,4 +165,4 @@ The customer segment can now be used for targeting promotions, content, and mail
 
 Watch this video to learn about creating customer segments:
 
-<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/343659/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
+[!VIDEO](https://video.tv.adobe.com/v/343659/?quality=12)
