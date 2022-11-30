@@ -95,4 +95,4 @@ description: Customer groups determine which discounts are available and the tax
 
 Watch this video to learn about creating customer groups:
 
-[!VIDEO](https://video.tv.adobe.com/v/343660/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343660/?quality=12)

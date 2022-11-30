@@ -3,9 +3,9 @@ title: Configuring Store Credit
 description: Store credit can be configured to control automatic refunds as well as available credit for customers.
 ---
 
-{ee-feature}
-
 # Configure Store Credit
+
+{{ee-feature}}
 
 The store credit configuration controls automatic refunds, the display of available credit in customer accounts, and the email template that is used for notifications sent to customers.
 

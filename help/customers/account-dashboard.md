@@ -20,7 +20,7 @@ Customers can manage and monitor their own information and activities from their
 The following table contains information about all sections available in the Customer Account Dashboard sidebar.
 
 | Section   | Description  |
-|-----------|---------- ---|
+|-----------|--------------|
 | [My Account](../customers/account-dashboard-my-account.md)| Displays summary information for your account, including contact information, default addresses from your address book, and recent orders. |
 | [My Orders](../customers/account-dashboard-my-orders.md)| Displays a list of all customer orders, with a link to each. If enabled in the configuration, any order can be reordered by simply clicking the Reorder link. |
 | [My Downloadable Products](../customers/account-dashboard-my-downloadable-products.md) | Lists all downloadable products the customer has purchased, with a link to each.  |
@@ -46,5 +46,3 @@ The following table contains information about all sections available in the Cus
 | ![B2B for Adobe Commerce](../assets/b2b.svg)[Company Users](../customers/account-company-users.md) | (Companies Only) Used by the company administrator to create user accounts for company buyers.  |
 | ![B2B for Adobe Commerce](../assets/b2b.svg)[Roles and Permissions](../customers/account-company-roles-permissions.md) | (Companies Only) Used by the company administrator to define roles for company users with various levels of permission. |
 | ![B2B for Adobe Commerce](../assets/b2b.svg)[Approval Rules](../customers/account-dashboard-approval-rules.md) | (Companies Only) Used to define approval rules for purchase orders. |
-
-{style="table-layout:auto"}

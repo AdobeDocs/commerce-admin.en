@@ -3,9 +3,9 @@ title: Store Credit in the Customer Account Dashboard
 description: The Store Credit section of the customer account dashboard lists amounts from returns and refunds that can be applied to future purchases.
 ---
 
-{ee-feature}
-
 # Store Credit in the Customer Account Dashboard
+
+{{ee-feature}}
 
 The Store Credit section of the customer account dashboard lists amounts from returns and refunds that can be applied to future purchases. Customers can also redeem the value from a gift card.
 

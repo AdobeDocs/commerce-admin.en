@@ -3,9 +3,9 @@ title: Creating and Deleting Customer Segments
 description: Customers can view the refund information associated with the order in their Customer Account Dashboard.
 ---
 
-{ee-feature}
-
 # Creating and Deleting Customer Segments
+
+{{ee-feature}}
 
 Creating a customer segment is similar to building a [cart price rule](../merchandising-promotions/price-rules-cart.md), except that the options include [customer segment-specific attributes](../customers/customer-segments.md).
 
@@ -175,4 +175,4 @@ The following example shows how to create a customer segment that targets female
 
 Watch this video to learn about creating customer segments:
 
-[!VIDEO](https://video.tv.adobe.com/v/343659/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343659/?quality=12)
