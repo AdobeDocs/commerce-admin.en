@@ -20,6 +20,8 @@ To better understand the difference between [customer groups](../customers/custo
 |Category permissions||✔️|
 |Invitations||✔️|
 
+Check [Creating and Deleting Customer Segments](../customers/customer-segment-create.md) for more information on [!UICONTROL Customer Segments].
+
 ## eBooks
 
 - **Customer Segmentation** — Learn how to increase profits and overall customer satisfaction. Get the [eBook](https://magento.com/resources/identifying-your-most-profitable-customers-introduction-customer-segmentation)]{:target="_blank"} now!

@@ -1,5 +1,6 @@
 ---
-title: Store Credit and Refunds in the Account Dashboard
+title: Refunds in the Customer Account Dashboard
+description: Customers can view the refund information associated with the order in their Customer Account Dashboard.
 ---
 
 {ee-feature}

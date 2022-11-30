@@ -1,58 +1,59 @@
 ---
-ee_only: true
 title: Creating and Deleting Customer Segments
-group: customers
+description: Customers can view the refund information associated with the order in their Customer Account Dashboard.
 ---
 
-Creating a customer segment is similar to building a [cart price rule]({% link marketing/price-rules-cart.md %}), except that the options include customer segment-specific [attributes]({% link marketing/customer-segment-attributes.md %}).
+{ee-feature}
 
-![Customer segments list]({% link marketing/assets/customer-segments.png %}){: .zoom}
-_Customer Segments list_
+# Creating and Deleting Customer Segments
+
+Creating a customer segment is similar to building a [cart price rule](../merchandising-promotions/price-rules-cart.md), except that the options include [customer segment-specific attributes](../customers/customer-segments.md).
+
+![Customer segments list](assets/customer-segments.png)
 
 The following example shows how to create a customer segment that targets female customers in Los Angeles.
 
 ## Step 1: Enable customer segments
 
-1. On the _Admin_ sidebar, go to **Stores**  > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to [!UICONTROL **Stores**]  > _Settings_ > [!UICONTROL **Configuration**].
 
-1. In the left panel, expand **Customers** and choose **Customer Configuration**.
+1. In the left panel, expand [!UICONTROL **Customers**] and choose [!UICONTROL **Customer Configuration**].
 
-1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Customer Segments** section.
+1. Expand the [!UICONTROL **Customer Segments**] section.
 
-1. Verify that **Enable Customer Segment Functionality** is set to `Yes`.
+1. Verify that [!UICONTROL **Enable Customer Segment Functionality**] is set to `Yes`.
 
-   ![Customers configuration - customer segments]({% link configuration/customers/assets/customer-configuration-customer-segments.png %}){: .zoom}
-   [_Customer Segments enabled_]({% link configuration/customers/customer-configuration.md %})
+   ![Customers configuration - customer segments](assets/customer-configuration-customer-segments.png)
 
-1. When complete, click <span class="btn">Save Config</span>.
+1. When complete, click [!UICONTROL **Save Config**].
 
 ## Step 2: Add a customer segment
 
-1. On the _Admin_ sidebar, go to **Customers** > **Segments**.
+1. On the _Admin_ sidebar, go to [!UICONTROL **Customers**] > [!UICONTROL **Segments**].
 
-1. In the upper-right corner, click <span class="btn">Add Segment</span>.
+1. In the upper-right corner, click [!UICONTROL **Add Segment**].
 
-1. Enter a **Segment Name** to identify the customer segment when working in the Admin.
+1. Enter a [!UICONTROL **Segment Name**] to identify the customer segment when working in the Admin.
 
-1. Enter a brief **Description** that explains the purpose of the segment.
+1. Enter a brief [!UICONTROL **Description**] that explains the purpose of the segment.
 
-1. Set **Assigned to Website** to the website where the customer segment can be used.
+1. Set [!UICONTROL **Assigned to Website**] to the website where the customer segment can be used.
 
-1. Set the **Status** to _Active_ or _Inactive_.
+1. Set the [!UICONTROL **Status**] to _Active_ or _Inactive_.
 
-1. To identify the customer types that you want to use for applying the segment, set **Apply to** to one of the following:
+1. To identify the customer types that you want to use for applying the segment, set [!UICONTROL **Apply to**] to one of the following:
 
-   Visitors and Registered Customers |Includes all shoppers, regardless of whether they are logged in to an account.
-   Registered Customers |Includes only shoppers who are logged in to an account.
-   Visitors |Includes only shoppers who are not logged in to an account.
+   |Field|Description|
+   | --- | --- |
+   | Visitors and Registered Customers | Includes all shoppers, regardless of whether they are logged in to an account. |
+   | Registered Customers | Includes only shoppers who are logged in to an account. |
+   | Visitors | Includes only shoppers who are not logged in to an account. |
 
-   {:.bs-callout-info}
-   If you are creating a segment based on customer attributes stored in a customer account, it is a best practice to apply the segment to registered customers only.
+1. If you are creating a segment based on customer attributes stored in a customer account, it is a best practice to apply the segment to registered customers only.
 
-   ![Segment - general properties]({% link marketing/assets/customer-segment-saved.png %}){: .zoom}
-   _Segment properties_
+   ![Segment properties](assets/customer-segment-saved.png)
 
-1. Click <span class="btn">Save and Continue Edit</span>.
+1. Click [!UICONTROL **Save and Continue Edit**].
 
    Additional options become available in the left panel.
 
@@ -70,7 +71,7 @@ The following example shows how to create a customer segment that targets female
 
 1. In the left pane, click **Conditions**.
 
-   The default condition begins, “If ALL of these conditions are TRUE:”.
+   The default condition begins, "If ALL of these conditions are TRUE:".
 
    ![Customer segment conditions]({% link marketing/assets/customer-segment-conditions.png %}){: .zoom}
    _Conditions_
