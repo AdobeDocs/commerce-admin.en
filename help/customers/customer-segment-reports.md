@@ -1,12 +1,15 @@
 ---
-ee_only: true
 title: Customer Segment Report
-group: customers
+description: Customer Segment Report provides information about the number of customers in each segment.
 ---
+
+{ee-feature}
+
+# Customer Segment Reports
 
 The Customer Segment Report provides information about the number of customers in each segment.
 
-![]({% link reports/assets/customer-segments.png %}){: .zoom}
+![]({% link reports/assets/customer-segments-reports.png %}){: .zoom}
 _Customer Segment Report_
 
 |Column|Description|
@@ -28,7 +31,7 @@ To ensure you have the most recent data, the segment data must be refreshed. If 
 1. For **Export to**, choose an export format:
     - **CSV** - A comma-separated value file containing plain text data
     - **Excel XML** - An XML-based, spreadsheet data format
-1. Click <span class="btn">Export</span>.
+2. Click <span class="btn">Export</span>.
    The generated file is automatically saved to your local machine.
 
 |Column|Description|

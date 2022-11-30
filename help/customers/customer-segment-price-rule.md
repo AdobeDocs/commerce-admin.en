@@ -9,45 +9,41 @@ description: Customers Segments can be associated with a cart price rule.
 
 A customer segment can be targeted by associating it with a [cart price rule](../merchandising-promotions/price-rules-cart.md).
 
-![Cart price rule - targeted customer segment]({% link marketing/assets/price-rule-cart-condition-segments.png %}){: .zoom}
-_Targeted Customer Segment_
+![Cart price rule - targeted customer segment](assets/price-rule-cart-condition-segments.png)
 
 ## Target a Segment with a Cart Price Rule
 
-1. On the _Admin_ sidebar, go to **Marketing** > _Promotions_ > **Cart Price Rules**.
+1. On the _Admin_ sidebar, go to [!UICONTROL **Marketing**] > _Promotions_ > [!UICONTROL **Cart Price Rules**].
 
 1. Open a new or existing rule:
 
-   - To use a new rule, click <span class="btn">Add New Rule</span> in the upper-right corner.
-   - To use an existing rule, click the rule in the list to open it in edit mode.
+   * To use a new rule, click [!UICONTROL **Add New Rule**] in the upper-right corner.
+   * To use an existing rule, click the rule in the list to open it in edit mode.
 
-1. Scroll down and expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Conditions** section.
+1. Scroll down and expand the [!UICONTROL **Conditions**] section.
 
-1. Add the condition:
+1. Add the condition.
 
-   - Click **Add** (![Add icon]({% link assets/icon-add-green-circle.png %}) ) to display the list of conditions. Then, choose **Customer Segment**.
+1. Click the [!UICONTROL **Add**] to display the list of conditions. Then, choose [!UICONTROL **Customer Segment**].
 
-      ![Cart price rule - add customer segment condition]({% link marketing/assets/condition-customer-segment.png %}){: .zoom}
-      _Customer Segment_
+      ![Cart price rule - add customer segment condition](assets/condition-customer-segment.png)
 
-   - By default, the condition is set to find a matching condition. If needed, click the **matches** link and change the operator to one of the following:
+1. By default, the condition is set to find a matching condition. If needed, click the [!UICONTROL **matches**] link and change the operator to one of the following:
 
-      - `does not match`
-      - `is one of`
-      - `is not one of`
+      * `does not match`
+      * `is one of`
+      * `is not one of`
 
-        ![Condition operator]({% link marketing/assets/price-rule-condition-customer-segment-operator.png %}){: .zoom}
-        _Condition Operators_
+        ![Condition operator](assets/price-rule-condition-customer-segment-operator.png)
 
-   - To target a specific segment, click the More ( **…** ) link to display additional options. Then, click the **Chooser** ( ![Chooser icon]({% link marketing/assets/icon-chooser.png %}) ) to display the list of customer segments.
+1. To target a specific segment, click the More **…** link to display additional options. Then, click the [!UICONTROL **Chooser**] to display the list of customer segments.
 
-      ![Cart price rule - condition chooser]({% link marketing/assets/condition-chooser.png %}){: .zoom}
-      _Chooser_
+   ![Cart price rule - condition chooser](assets/condition-chooser.png)
 
-   - In the list, select the checkbox of each segment that you want to target with the condition.
+1. In the list, select the checkbox of each segment that you want to target with the condition.
 
-1. Click **Select** ( ![Select icon]({% link assets/icon-checkmark-green-circle.png %}) ) to place the selected customer segments into the condition.
+1. Click [!UICONTROL **Select**] to place the selected customer segments into the condition.
 
 1. Complete the rest of the price rule as needed.
 
-1. When complete, click <span class="btn">Save</span>.
+1. When complete, click [!UICONTROL **Save**].
