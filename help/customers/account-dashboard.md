@@ -22,7 +22,7 @@ The following table contains information about all sections available in the Cus
 | Section   | Description  |
 |-----------|--------------|
 | [My Account](../customers/account-dashboard-my-account.md) | Displays summary information for your account, including contact information, default addresses from your address book, and recent orders. |
-| [My Orders](.https://docs.magento.com/user-guide/customers/account-dashboard-my-orders.html) | Displays a list of all customer orders, with a link to each. If enabled in the configuration, any order can be reordered by simply clicking the Reorder link. |
+| [My Orders](https://docs.magento.com/user-guide/customers/account-dashboard-my-orders.html) | Displays a list of all customer orders, with a link to each. If enabled in the configuration, any order can be reordered by simply clicking the Reorder link. |
 | [My Downloadable Products](https://docs.magento.com/user-guide/customers/account-dashboard-my-downloadable-products.html) | Lists all downloadable products the customer has purchased, with a link to each.  |
 | [My Wish List](https://docs.magento.com/user-guide/customers/account-dashboard-my-wish-list.html)  | Manage your wish lists, and place orders from wish list items. |
 | [Address Book](../customers/account-dashboard-address-book.md)  | The customer address book includes the default billing and shipping address, as well as additional address entries. |
@@ -33,7 +33,7 @@ The following table contains information about all sections available in the Cus
 | ![Adobe Commerce](../assets/adobe-logo.svg)[Order by SKU](https://docs.magento.com/user-guide/customers/account-dashboard-order-by-sku.html) | Gives you the ability to add individual items to the cart by SKU or to import a list of products to be ordered from a CSV file. |
 | ![Adobe Commerce](../assets/adobe-logo.svg)[Store Credit](../customers/account-dashboard-store-credit.md) | Displays the current amount of store credit from returns, refunds, and redeemed gift card that can be applied to purchases. |
 |[Stored Payment Methods](https://docs.magento.com/user-guide/customers/account-dashboard-stored-payment-methods.html) | Lists any payment methods with secure vaults that are used by the customer to store credit card information. |
-| ![Adobe Commerce](../assets/adobe-logo.svg)[Gift Card](catalog/product-gift-card-create.md) | Allows customers to check the current balance on available gift cards and to redeem gift cards for store credit. |
+| ![Adobe Commerce](../assets/adobe-logo.svg)[Gift Card](../catalog/product-gift-card-create.md) | Allows customers to check the current balance on available gift cards and to redeem gift cards for store credit. |
 | ![Adobe Commerce](../assets/adobe-logo.svg)[Reward Points](../merchandising-promotions/rewards-loyalty.md) | Lists all reward points the customer has earned that can be applied toward purchases. |
 | ![Adobe Commerce](../assets/adobe-logo.svg)[Gift Registry](../merchandising-promotions/gift-registries.md) | Used to list and maintains gift registries, and  add new ones. |
 | ![Adobe Commerce](../assets/adobe-logo.svg)[My Invitations](../merchandising-promotions/invitations.md) | Lists all invitations the customer has created and sent for scheduled events. |
