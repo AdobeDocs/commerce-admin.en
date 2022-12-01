@@ -1,6 +1,6 @@
 ---
 title: Storefront order management
-description: Learn how customers can view and mange their order history on the Commerce storefront.
+description: Learn how customers can view and manage their order history on the Commerce storefront.
 ---
 # Storefront order management
 
@@ -34,7 +34,7 @@ A customer finds the order in the list and clicks **[!UICONTROL View Order]**. 
 
 The **[!UICONTROL Recent Orders]** block is displayed in the sidebar and on the **[!UICONTROL My Account]** page for customers who are logged in after placing an order. It displays five products from the last purchase.
 
-The customer can re-add products to the cart by selecting the products and clicking **[!UICONTROL Add to Cart]**. They can also view the last order by clicking **[!UICONTROL View all]**, which redirects to the _[!UICONTROL My Account]_ page and the **[!UICONTROL Recent Orders]** block.
+The customer can readd products to the cart by selecting the products and clicking **[!UICONTROL Add to Cart]**. They can also view the last order by clicking **[!UICONTROL View all]**, which redirects to the _[!UICONTROL My Account]_ page and the **[!UICONTROL Recent Orders]** block.
 
 ### Print order
 
