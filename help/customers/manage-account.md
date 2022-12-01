@@ -29,7 +29,7 @@ In multi-store and multi-site setups with a global [customer account scope](../c
 
 * Set the [!UICONTROL **Actions**] control to `Subscribe to newsletter`.
 
-See [Managing Subscribers](../marketing/newsletter-subscribers.md) for more information about managing newsletter subscriptions for a customer.
+See [Managing Subscribers](../merchandising-promotions/newsletter-subscribers.md) for more information about managing newsletter subscriptions for a customer.
 
 ### Unsubscribe from newsletter
 

@@ -5,7 +5,7 @@ description: The Customer Sign In allows for easy access to the customers accoun
 
 # Customer Sign In
 
-Customers have easy access to their accounts from every page in your store. Depending on the [configuration](../customers/(account-options-new.md), customers can be redirected to their account dashboard, or continue shopping after they log in to their accounts.
+Customers have easy access to their accounts from every page in your store. Depending on the [configuration](../customers/account-options-new.md), customers can be redirected to their account dashboard, or continue shopping after they log in to their accounts.
 
 If [CAPTCHA](../systems/security-captcha.md) is enabled in the configuration, the person must correctly complete a test that verifies them to be human, before gaining access to their accounts.
 
