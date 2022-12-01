@@ -91,8 +91,8 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 </tr>
 <tr>
     <td valign="top">
-       <img alt="System Administration" src="./assets/icon-globe-grid.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://docs.magento.com/user-guide/system/system.html"> <strong>System Administration</strong></a>
+       <img alt="Admin Systems" src="./assets/icon-globe-grid.svg" width="40" height="40"/></td>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/systems/guide-overview.html"> <strong>Admin Systems</strong></a>
     <div><em>The Admin provides multiple tools for managing your system and optimizing its performance. This includes Admin user account administration, with the associated roles and permissions.</em></div>
   </td>
 </tr>
@@ -113,6 +113,7 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 
 | Description | Type | Date |
 | ----------- | ---- | ---- |
+| **New guide** - Content now published in the Experience League: [Admin Systems Guide](../systems/guide-overview.md) | Move | 11/14/2022 |
 | **New guide** - Content now published in the Experience League: [Sales and Purchase Experience Guide](../stores-purchase/guide-overview.md) | Move | 10/25/2022 |
 | **New guide** - Content now published in the Experience League: [Merchandising and Promotions Guide](../merchandising-promotions/guide-overview.md) | Move | 9/27/2022 |
 | **New page section** - Added information about [removal of the Inventory Management modules](../inventory-management/install-update.md#remove-inventory-management) to improve performance for Commerce instances that do not use these features. | Update | 9/21/2022 |
@@ -121,9 +122,8 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 | **2.4.5 release** - Updated information in [Access Your Commerce Account](../getting-started/commerce-account-create.md) to reflect the Adobe ID requirement to access their Commerce account (accounts.magento.com). | Update | 8/11/2022 |
 | **2.4.5 release** - Added release notes for the [B2B v1.3.4](../b2b/release-notes.md#b2b-v134), [Inventory Management v1.2.5](../inventory-management/release-notes.md#v125), and [Page Builder](../page-builder/release-notes.md#172-for-commerce-245) modules. | New | 8/9/2022 |
 | **2.4.5 release** - Added new topics for Adobe Identity Management System integration in the Commerce Admin: [Adobe Identity Management Service (IMS) Integration Overview](../getting-started/adobe-ims-integration-overview.md) and [Configure the Commerce Admin Integration with Adobe IMS](../getting-started/adobe-ims-config.md). | New | 8/9/2022 |
-| **2.4.5 release** - Updated information in the [Google API configuration reference](https://docs.magento.com/user-guide/configuration/sales/google-api.html), and the [Google Analytics](../merchandising-promotions/google-universal-analytics.md) and [Google AdWords](../merchandising-promotions/google-adwords.md) topics for new GTag support for Google services integration and move from Google Universal Analytics to Analytics 4. | Update | 8/9/2022 |
+| **2.4.5 release** - Updated information in the [Google API configuration reference](https://docs.magento.com/user-guide/configuration/sales/google-api.html), and the [Google Analytics](../merchandising-promotions/google-analytics.md) and [Google AdWords](../merchandising-promotions/google-adwords.md) topics for new GTag support for Google services integration and move from Google Universal Analytics to Analytics 4. | Update | 8/9/2022 |
 | **2.4.5 release** - Updated [Google reCAPTCHA](https://docs.magento.com/user-guide/stores/security-google-recaptcha.html) and [Google reCAPTCHA Storefront](https://docs.magento.com/user-guide/configuration/security/google-recaptcha-storefront.html) topics to reflect additional support for configuration of reCAPTCHA validation on the storefront. | Update | 8/9/2022 |
 | **2.4.5 release** - Updated the Page Builder [Layout - Columns](../page-builder/column.md) topic for new _columns_ container. | Update | 8/9/2022 |
-| **New guide** - Content now published in the Experience League: [Content and Design Guide](../content-design/guide-overview.md) | Move | 7/15/2022 |
 
 {style="table-layout:auto"}

@@ -1,6 +1,7 @@
 ---
 title: Import configurable products
 description: Review an example of importing product data for a configurable product.
+exl-id: bb8b2a6d-867e-4ab2-bdfd-98a01d79c457
 ---
 # Import configurable products
 
@@ -14,8 +15,8 @@ In the following example, you add a set of product variations for a new size in 
 
 1. Before you begin, make sure that the attributes that are used for product variations have the required property settings.
 
-   - [**[!UICONTROL Scope]**](https://docs.magento.com/user-guide/configuration/scope.html) - `Global`
-   - [**[!UICONTROL Catalog Input Type for Store Owner]**](https://docs.magento.com/user-guide/stores/attributes-product.html) - The input type of any attribute that is used for a product variation must be one of the following:
+   - [**[!UICONTROL Scope]**](../getting-started/websites-stores-views.md#scope-settings) - `Global`
+   - [**[!UICONTROL Catalog Input Type for Store Owner]**](data-attributes-product.md) - The input type of any attribute that is used for a product variation must be one of the following:
 
       - `Dropdown`
       - `Visual Swatch`

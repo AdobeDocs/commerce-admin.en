@@ -1,6 +1,7 @@
 ---
 title: Customize email templates
 description: Learn how to customize email templates for each website, store, or store view.
+exl-id: d328b84d-fab7-4956-9071-2d8848f7c21e
 ---
 # Customize email templates
 

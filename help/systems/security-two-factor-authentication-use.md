@@ -1,6 +1,7 @@
 ---
 title: Two-factor authentication setup for user accounts
 description: Learn how to set up two-factor authentication during initial Admin sign in and authenticate your identity using a supported device app.
+exl-id: 1ea7f09e-4753-40fa-b9d4-376ba5d8f58f
 ---
 # Two-factor authentication setup for user accounts
 

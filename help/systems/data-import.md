@@ -1,6 +1,7 @@
 ---
 title: Import
 description: Learn about data import guidelines and how to use the data import operations.
+exl-id: caae8811-445e-49d4-aa90-226a355732bc
 ---
 # Import
 

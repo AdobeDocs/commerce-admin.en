@@ -7,7 +7,7 @@ exl-id: 09c48f1e-792b-4553-82fc-cd1a119b15d0
 
 Your store configuration is integrated with the following Google tools to help optimize your content, analyze your traffic, and connect your catalog to shopping aggregators and marketplaces.
 
-- [Google Analytics](google-universal-analytics.md) - Use _Google Universal Analytics_ to define additional custom dimensions and metrics for tracking, with support for offline and mobile app interactions, and access to ongoing updates.
+- [Google Analytics](google-analytics.md) - Use _Google Universal Analytics_ to define additional custom dimensions and metrics for tracking, with support for offline and mobile app interactions, and access to ongoing updates.
 
 - [Google Content Experiments](google-content-experiments.md) - Set up an A/B test for products, categories, or content pages using Google Analytics Content Experiments.
 

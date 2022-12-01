@@ -1,6 +1,7 @@
 ---
 title: Action log archive
 description: Learn how to configure and view the Admin action log archive.
+exl-id: a839f1c6-b5e2-4881-bfaa-267e47585441
 ---
 # Action log archive
 

@@ -1,6 +1,7 @@
 ---
 title: Markup tags
 description: Learn about markup tags that contain snippets of code to reference an object in your store.
+exl-id: 0d6f5a9b-983d-473e-b641-0dceba40974f
 ---
 # Markup tags
 
@@ -119,4 +120,3 @@ Paste the completed anchor tag into the code of any CMS page, block, banner, or 
 ### Complete link with markup
 
    \<a href="\{\{store url='apparel/shoes'}}">Shoe Sale\</a>
-
