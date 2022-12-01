@@ -9,7 +9,9 @@ When enabled in the configuration, [!DNL Page Builder] is the default content cr
 
 >[!NOTE]
 >
-> When installed, Page Builder overrides the default configuration for [!UICONTROL Stores > Configuration > Catalog > Catalog > Product Fields Auto-generation >  Mask for Meta Description]. The value is changed from `{{name}} {{description}}` to `{{name}}`.
+>When installed, [!DNL Page Builder] overrides the default setting for the [!UICONTROL Mask for Meta Description] configuration field. The value is changed from `{{name}} {{description}}` to `{{name}}`.
+><br><br>
+>You can access this setting when you go to [!UICONTROL Stores] > _[!UICONTROL Settings]_ > [!UICONTROL Configuration], expand [!UICONTROL Catalog], and choose [!UICONTROL Catalog] underneath. The [!UICONTROL Mask for Meta Description] field is in the [!UICONTROL Product Fields Auto-generation] section.
 
 For more information about the Content Management Advanced Tools configuration options, see the [Configuration Reference Guide](https://docs.magento.com/user-guide/configuration/general/content-management.html).
 
