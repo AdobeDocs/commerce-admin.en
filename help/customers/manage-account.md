@@ -33,11 +33,11 @@ See [Managing Subscribers](../marketing/newsletter-subscribers.md) for more info
 
 ### Unsubscribe from newsletter
 
-In multi-store and multi-site setups with a global [customer account scope](../customers/account-scope.md), a customer account can be subscribed to newsletters for multiple sites/stores. If you apply the _Unsubscribe_ action to a customer account, all active subscriptions will be unsubscribed.
+In multi-store and multi-site setups with a global [customer account scope](https://docs.magento.com/user-guide/customers/account-scope.html), a customer account can be subscribed to newsletters for multiple sites/stores. If you apply the _Unsubscribe_ action to a customer account, all active subscriptions will be unsubscribed.
 
 1. Set the [!UICONTROL **Actions**] control to `Unsubscribe to newsletter`.
 
-1. When prompted to confirm, click **OK**.
+2. When prompted to confirm, click **OK**.
 
 See [Managing Subscribers](../merchandising-promotions/newsletter-subscribers.md) for more information about managing newsletter subscriptions for a customer.
 
@@ -82,7 +82,7 @@ Method 2: **Full Edit**
 
    >[!INFO]
    >
-   > To learn more, see [Updating Customer Accounts](../customers/customer-account-update.md).
+   > To learn more, see [Updating Customer Accounts](../customers/update-account.md).
 
 1. When complete, click [!UICONTROL **Save Customer**].
 

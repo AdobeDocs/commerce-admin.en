@@ -36,21 +36,21 @@ Method 1: **From the customer account dashboard**
 
    >[!INFO]
    >
-   > The Store Credit page also provides a link for the customer to redeem a [gift card](../customers/account-dashboard-gift-cards.md).
+   > The Store Credit page also provides a link for the customer to redeem a [gift card](https://docs.magento.com/user-guide/customers/account-dashboard-gift-cards.html).
 
 Method 2: **From the _Review & Payments_ page**
 
 1. The customer adds a product to the cart.
 
-1. Proceeds to checkout.
+2. Proceeds to checkout.
 
-1. Passes the [!UICONTROL **Shipping**] step.
+3. Passes the [!UICONTROL **Shipping**] step.
 
-1. If store credit is available, the customer clicks [!UICONTROL **Use Store Credit**].
+4. If store credit is available, the customer clicks [!UICONTROL **Use Store Credit**].
 
    ![Store Credit from Review & Payments page](assets/customer-account-order-refund-from-checkout.png)
 
-1. If the customer changes their mind about using the store credit, clicks [!UICONTROL **Remove**] in the _Order Summary_ section.
+5. If the customer changes their mind about using the store credit, clicks [!UICONTROL **Remove**] in the _Order Summary_ section.
 
 ## Payment actions in the Admin
 
