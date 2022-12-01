@@ -15,7 +15,7 @@ For a category, use the _[!UICONTROL Products in Category]_ section to review th
 
 >[!NOTE]
 >
->On the category pages `Out of stock` products are always displayed **_after_** `In Stock` products on the product listing with all sorting types.
+>On the category pages, `Out of stock` products are always displayed **_after_** `In Stock` products on the product listing with all sorting types.
 
 >[!NOTE]
 >
