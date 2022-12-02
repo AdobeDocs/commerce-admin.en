@@ -1,6 +1,7 @@
 ---
-title: "[!UICONTROL Sales] > [!UICONTROL Payment Methods]"
-description: Review the configurations settings on the [!UICONTROL Sales] > [!UICONTROL Payment Methods] page of the Commerce Admin.
+title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods]'
+description: Review the configurations settings on the [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] page of the Commerce Admin.
+exl-id: 6545b980-c8ef-460a-a884-d5315f5ad513
 ---
 # [!UICONTROL Sales] > [!UICONTROL Payment Methods]
 

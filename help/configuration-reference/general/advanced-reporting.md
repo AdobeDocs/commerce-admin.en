@@ -1,6 +1,7 @@
 ---
-title: "[!UICONTROL General] > [!UICONTROL Advanced Reporting]"
-description: Review the configurations settings on the [!UICONTROL General] > [!UICONTROL Advanced Reporting] page of the Commerce Admin.
+title: '[!UICONTROL General] &gt; [!UICONTROL Advanced Reporting]'
+description: Review the configurations settings on the [!UICONTROL General] &gt; [!UICONTROL Advanced Reporting] page of the Commerce Admin.
+exl-id: 3f6311c8-3849-4608-8f2c-64359bd3edbc
 ---
 # [!UICONTROL General] > [!UICONTROL Advanced Reporting]
 

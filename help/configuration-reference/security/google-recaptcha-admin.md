@@ -1,6 +1,7 @@
 ---
-title: "[!UICONTROL Security] > [!UICONTROL Google reCAPTCHA Admin Panel]"
-description: Review the configurations settings on the [!UICONTROL Security] > [!UICONTROL Google reCAPTCHA Admin Panel] page of the Commerce Admin.
+title: '[!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Admin Panel]'
+description: Review the configurations settings on the [!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Admin Panel] page of the Commerce Admin.
+exl-id: e4e6771a-487a-43ee-8b98-6acee4599aaf
 ---
 # [!UICONTROL Security] > [!UICONTROL Google reCAPTCHA Admin Panel]
 

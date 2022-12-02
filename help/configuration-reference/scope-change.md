@@ -1,6 +1,7 @@
 ---
 title: Configuration scope
 description: Learn about setting the scope for configurations settings in the Commerce Admin.
+exl-id: b7b87ac5-dc7d-472f-af24-52b4d12e46c5
 ---
 # Configuration scope
 

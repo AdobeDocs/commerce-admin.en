@@ -1,6 +1,7 @@
 ---
-title: "[!UICONTROL Advanced] > [!UICONTROL Admin]"
-description: Review the configurations settings on the [!UICONTROL Advanced] > [!UICONTROL Admin] page of the Commerce Admin.
+title: '[!UICONTROL Advanced] &gt; [!UICONTROL Admin]'
+description: Review the configurations settings on the [!UICONTROL Advanced] &gt; [!UICONTROL Admin] page of the Commerce Admin.
+exl-id: 546b8d01-9611-4415-ab2b-29be560316f5
 ---
 # Advanced > Admin
 

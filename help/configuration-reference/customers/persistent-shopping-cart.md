@@ -1,6 +1,7 @@
 ---
-title: "[!UICONTROL Customers] > [!UICONTROL Persistent Shopping Cart]"
-description: Review the configurations settings on the [!UICONTROL Customers] > [!UICONTROL Persistent Shopping Cart] page of the Commerce Admin.
+title: '[!UICONTROL Customers] &gt; [!UICONTROL Persistent Shopping Cart]'
+description: Review the configurations settings on the [!UICONTROL Customers] &gt; [!UICONTROL Persistent Shopping Cart] page of the Commerce Admin.
+exl-id: d6c5ae46-32ed-4fcd-bcd6-ee3a07d7db5f
 ---
 # [!UICONTROL Customers] > [!UICONTROL Persistent Shopping Cart]
 
