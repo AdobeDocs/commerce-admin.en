@@ -1,6 +1,7 @@
 ---
-title: "[!UICONTROL Customers] > [!UICONTROL Newsletter]"
-description: Review the configurations settings on the [!UICONTROL Customers] > [!UICONTROL Newsletter] page of the Commerce Admin.
+title: '[!UICONTROL Customers] &gt; [!UICONTROL Newsletter]'
+description: Review the configurations settings on the [!UICONTROL Customers] &gt; [!UICONTROL Newsletter] page of the Commerce Admin.
+exl-id: a97003ca-985e-47fa-9ff3-677e05ef3729
 ---
 # [!UICONTROL Customers] > [!UICONTROL Newsletter]
 

@@ -1,6 +1,7 @@
 ---
-title: "[!UICONTROL Catalog] > [!UICONTROL Inventory]"
-description: Review the configurations settings on the [!UICONTROL Catalog] > [!UICONTROL Inventory] page of the Commerce Admin.
+title: '[!UICONTROL Catalog] &gt; [!UICONTROL Inventory]'
+description: Review the configurations settings on the [!UICONTROL Catalog] &gt; [!UICONTROL Inventory] page of the Commerce Admin.
+exl-id: 80113a31-3585-4ee1-95af-31efc09389eb
 ---
 # [!UICONTROL Catalog] > [!UICONTROL Inventory]
 

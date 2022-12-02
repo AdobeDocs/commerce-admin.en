@@ -1,6 +1,7 @@
 ---
-title: "[!UICONTROL Sales] > [!UICONTROL 3D Secure]"
-description: Review the configurations settings on the [!UICONTROL Sales] > [!UICONTROL 3D Secure] page of the Commerce Admin.
+title: '[!UICONTROL Sales] &gt; [!UICONTROL 3D Secure]'
+description: Review the configurations settings on the [!UICONTROL Sales] &gt; [!UICONTROL 3D Secure] page of the Commerce Admin.
+exl-id: 38eb3ee6-8b80-4ba3-afce-8ab82baa76a9
 ---
 # [!UICONTROL Sales] > [!UICONTROL 3D Secure]
 

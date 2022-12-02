@@ -1,6 +1,7 @@
 ---
-title: "[!UICONTROL General] > [!UICONTROL Contacts]"
-description: Review the configurations settings on the [!UICONTROL General] > [!UICONTROL Contacts] page of the Commerce Admin.
+title: '[!UICONTROL General] &gt; [!UICONTROL Contacts]'
+description: Review the configurations settings on the [!UICONTROL General] &gt; [!UICONTROL Contacts] page of the Commerce Admin.
+exl-id: 1acd6683-772d-431f-8b74-230163ded1be
 ---
 # [!UICONTROL General] > [!UICONTROL Contacts]
 

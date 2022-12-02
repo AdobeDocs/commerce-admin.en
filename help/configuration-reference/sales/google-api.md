@@ -1,6 +1,7 @@
 ---
-title: "[!UICONTROL Sales] > [!UICONTROL Google API]"
-description: Review the configurations settings on the [!UICONTROL Sales] > [!UICONTROL Google API] page of the Commerce Admin.
+title: '[!UICONTROL Sales] &gt; [!UICONTROL Google API]'
+description: Review the configurations settings on the [!UICONTROL Sales] &gt; [!UICONTROL Google API] page of the Commerce Admin.
+exl-id: 5031ad3d-1c9a-4bc6-9bfa-683414dca979
 ---
 # [!UICONTROL Sales] > [!UICONTROL Google API]
 

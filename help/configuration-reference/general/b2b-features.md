@@ -1,6 +1,7 @@
 ---
-title: "[!UICONTROL General] > [!UICONTROL B2B Features]"
-description: Review the configurations settings on the [!UICONTROL General] > [!UICONTROL B2B Features] page of the Commerce Admin.
+title: '[!UICONTROL General] &gt; [!UICONTROL B2B Features]'
+description: Review the configurations settings on the [!UICONTROL General] &gt; [!UICONTROL B2B Features] page of the Commerce Admin.
+exl-id: fc07a067-b92a-49c7-8512-2dfcc1c6ba0c
 ---
 # [!UICONTROL General] > [!UICONTROL B2B Features]
 

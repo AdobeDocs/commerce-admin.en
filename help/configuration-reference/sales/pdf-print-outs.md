@@ -1,6 +1,7 @@
 ---
-title: "[!UICONTROL Sales] > [!UICONTROL PDF Print-outs]"
-description: Review the configurations settings on the [!UICONTROL Sales] > [!UICONTROL PDF Print-outs] page of the Commerce Admin.
+title: '[!UICONTROL Sales] &gt; [!UICONTROL PDF Print-outs]'
+description: Review the configurations settings on the [!UICONTROL Sales] &gt; [!UICONTROL PDF Print-outs] page of the Commerce Admin.
+exl-id: aa30ee9a-4201-4054-82f0-2f42d7b4ba4f
 ---
 # [!UICONTROL Sales] > [!UICONTROL PDF Print-outs]
 

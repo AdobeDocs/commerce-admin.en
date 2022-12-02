@@ -1,6 +1,7 @@
 ---
-title: "[!UICONTROL Sales] > [!UICONTROL Gift Cards]"
-description: Review the configurations settings on the [!UICONTROL Sales] > [!UICONTROL Gift Cards] page of the Commerce Admin.
+title: '[!UICONTROL Sales] &gt; [!UICONTROL Gift Cards]'
+description: Review the configurations settings on the [!UICONTROL Sales] &gt; [!UICONTROL Gift Cards] page of the Commerce Admin.
+exl-id: 95bfdbde-633e-44d0-9d43-00dde671ab6d
 ---
 # [!UICONTROL Sales] > [!UICONTROL Gift Cards]
 
