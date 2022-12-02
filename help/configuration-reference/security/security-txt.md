@@ -1,6 +1,7 @@
 ---
-title: "[!UICONTROL Security] > [!UICONTROL Security.txt]"
-description: Review the configurations settings on the [!UICONTROL Security] > [!UICONTROL Security.txt] page of the Commerce Admin.
+title: '[!UICONTROL Security] &gt; [!UICONTROL Security.txt]'
+description: Review the configurations settings on the [!UICONTROL Security] &gt; [!UICONTROL Security.txt] page of the Commerce Admin.
+exl-id: 26385864-cfd8-456b-91b2-bf5d019c09e1
 ---
 # [!UICONTROL Security] > [!UICONTROL Security.txt]
 

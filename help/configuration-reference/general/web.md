@@ -1,6 +1,7 @@
 ---
-title: "[!UICONTROL General] > [!UICONTROL Web]"
-description: Review the configurations settings on the [!UICONTROL General] > [!UICONTROL Web] page of the Commerce Admin.
+title: '[!UICONTROL General] &gt; [!UICONTROL Web]'
+description: Review the configurations settings on the [!UICONTROL General] &gt; [!UICONTROL Web] page of the Commerce Admin.
+exl-id: 1809b03a-a55c-41b4-947b-f66f4bd290a1
 ---
 # [!UICONTROL General] > [!UICONTROL Web]
 

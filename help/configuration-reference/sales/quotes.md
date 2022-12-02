@@ -1,6 +1,7 @@
 ---
-title: "[!UICONTROL Sales] > [!UICONTROL Quotes]"
-description: Review the configurations settings on the [!UICONTROL Sales] > [!UICONTROL Quotes] page of the Commerce Admin.
+title: '[!UICONTROL Sales] &gt; [!UICONTROL Quotes]'
+description: Review the configurations settings on the [!UICONTROL Sales] &gt; [!UICONTROL Quotes] page of the Commerce Admin.
+exl-id: 9382552d-1be5-47f2-b0e3-931e5c6298d4
 ---
 # [!UICONTROL Sales] > [!UICONTROL Quotes]
 

@@ -1,6 +1,7 @@
 ---
-title: "[!UICONTROL Sales] > [!UICONTROL Payment Methods] >  [!UICONTROL PayPal Payflow Pro]"
-description: Review the configurations settings in the [!UICONTROL PayPal Payflow Pro] section on the [!UICONTROL Sales] > [!UICONTROL Payment Methods] page of the Commerce Admin.
+title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt;  [!UICONTROL PayPal Payflow Pro]'
+description: Review the configurations settings in the [!UICONTROL PayPal Payflow Pro] section on the [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] page of the Commerce Admin.
+exl-id: 2aae038b-15c0-452a-98bc-4d97efbb60f6
 ---
 # [!UICONTROL Sales] > [!UICONTROL Payment Methods] >  [!UICONTROL PayPal Payflow Pro]
  

@@ -1,6 +1,7 @@
 ---
-title: "[!UICONTROL Sales] > [!UICONTROL Payment Methods] > [!UICONTROL PayPal Express Checkout]"
-description: Review the configurations settings in the [!UICONTROL PayPal Express Checkout] section on the [!UICONTROL Sales] > [!UICONTROL Payment Methods] page of the Commerce Admin.
+title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL PayPal Express Checkout]'
+description: Review the configurations settings in the [!UICONTROL PayPal Express Checkout] section on the [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] page of the Commerce Admin.
+exl-id: aae5b1d9-f47e-447a-b40c-924f8d2ee824
 ---
 # [!UICONTROL Sales] > [!UICONTROL Payment Methods] > [!UICONTROL PayPal Express Checkout]
 

@@ -1,6 +1,7 @@
 ---
-title: "[!UICONTROL Sales] > [!UICONTROL Delivery Methods]"
-description: Review the configurations settings on the [!UICONTROL Sales] > [!UICONTROL Delivery Methods] page of the Commerce Admin.
+title: '[!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods]'
+description: Review the configurations settings on the [!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods] page of the Commerce Admin.
+exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 ---
 # [!UICONTROL Sales] > [!UICONTROL Delivery Methods]
 

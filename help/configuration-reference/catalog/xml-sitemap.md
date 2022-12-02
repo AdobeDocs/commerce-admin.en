@@ -1,6 +1,7 @@
 ---
-title: "[!UICONTROL Catalog] > [!UICONTROL XML Sitemap]"
-description: Review the configurations settings on the [!UICONTROL Catalog] > [!UICONTROL XML Sitemap] page of the Commerce Admin.
+title: '[!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap]'
+description: Review the configurations settings on the [!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap] page of the Commerce Admin.
+exl-id: 319c34e9-bd5f-46f8-810f-bc4d5228f9c9
 ---
 # [!UICONTROL Catalog] > [!UICONTROL XML Sitemap]
 

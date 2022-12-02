@@ -1,6 +1,7 @@
 ---
-title: "[!UICONTROL Customers]  > [!UICONTROL Customer Configuration]"
-description: Review the configurations settings on the [!UICONTROL Customers] > [!UICONTROL Customer Configuration] page of the Commerce Admin.
+title: '[!UICONTROL Customers]  &gt; [!UICONTROL Customer Configuration]'
+description: Review the configurations settings on the [!UICONTROL Customers] &gt; [!UICONTROL Customer Configuration] page of the Commerce Admin.
+exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 ---
 # [!UICONTROL Customers]  > [!UICONTROL Customer Configuration]
 

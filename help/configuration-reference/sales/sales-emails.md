@@ -1,6 +1,7 @@
 ---
-title: "[!UICONTROL Sales] > [!UICONTROL Sales Emails]"
-description: Review the configurations settings on the [!UICONTROL Sales] > [!UICONTROL Quotes] page of the Commerce Admin.
+title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales Emails]'
+description: Review the configurations settings on the [!UICONTROL Sales] &gt; [!UICONTROL Quotes] page of the Commerce Admin.
+exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 ---
 # [!UICONTROL Sales] > [!UICONTROL Sales Emails]
 
