@@ -18,6 +18,10 @@ As a best practice, make sure to include a description of your RMA requirements 
 >
 >If you want to collect additional information related to returns, you can add your own custom [returns attributes](attributes-returns.md).
 
+All customer RMA information is displayed on the **[!UICONTROL My Returns]** page in the customer account dashboard.
+
+![My Returns](./assets/my-returns-page.png)<!-- zoom -->
+
 ## Request an RMA
 
 The customer completes the following steps on the storefront to submit an RMA:
