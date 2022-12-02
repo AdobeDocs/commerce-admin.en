@@ -89,7 +89,7 @@ You can use one of the three prepared gift registries, or create your own custom
 |--- |--- |
 |[!UICONTROL Code]|A unique name to identify the gift registry type internally. The first character of the code must be a lowercase letter. The rest of the code can be any combination of lowercase letters (a-z), numbers (0-9), and the underscore character (`_`).|
 |[!UICONTROL Label]|The name of the gift registry type that appears in the store.|
-|Sort Order|Determines the sequence in which this gift registry type appears when listed with other types.|
+|[!UICONTROL Sort Order]|Determines the sequence in which this gift registry type appears when listed with other types.|
 |[!UICONTROL Is Listed]|Determines if the gift registry type is available to customers in the store. Options: `Yes` / `No`.|
 
 {style="table-layout:auto"}

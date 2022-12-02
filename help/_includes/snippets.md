@@ -52,6 +52,10 @@ description: Reused visual elements to note feature or pages applying to a speci
 >
 >Price rules are automatically processed with other system rules. Processing frequency depends on the [cron configuration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html). When you create a new price rule, allow enough time for it to get into the system and then test the rule to make sure that it works correctly.
 
+## Configuration settings {#config}
+
+To access the store configurations settings, choose **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]** from the _Admin_ sidebar.
+
 ## Available documentation {#docs-links}
 
 | Documentation resource | Description |

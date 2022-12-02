@@ -59,7 +59,7 @@ The settings in the HTML Head section correspond to the `<head>` tag of an HTML
 |[!UICONTROL Default Meta Description]|Store View|The description provides a summary of your site for search engine listings and should not be more than 160 characters in length.|
 |[!UICONTROL Default Meta Keywords]|Store View|A series of keywords that describe your store, each separated by a comma.|
 |[!UICONTROL Scripts and Style Sheets]|Store View|Contains scripts that must be included in the HTML before the closing `<head>` tag. For example, any third-party JavaScript that must be placed before the `<body>` tag can be entered here.|
-|[!UICONTROL Display Demo Store Notice]|Store View|Controls the display of the demo store notice at the top of the page. Options include: Yes / No|
+|[!UICONTROL Display Demo Store Notice]|Store View|Controls the display of the demo store notice at the top of the page. Options: `Yes` / `No`|
 
 {style="table-layout:auto"}
 
