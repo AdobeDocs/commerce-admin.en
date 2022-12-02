@@ -154,6 +154,30 @@ If you choose not to use the Inventory Management functionality, you can remove 
         "magento/module-inventory-source-deduction-api": "*",
         "magento/module-inventory-source-selection": "*",
         "magento/module-inventory-source-selection-api": "*"
+        "magento/module-inventory-visual-merchandiser": "*",
+        "magento/module-inventory-swatches-frontend-ui": "*",
+        "magento/module-inventory-quote-graph-ql": "*",
+        "magento/module-inventory-in-store-pickup": "*",
+        "magento/module-inventory-in-store-pickup-sales": "*",
+        "magento/module-inventory-in-store-pickup-admin-ui": "*",
+        "magento/module-inventory-in-store-pickup-sales-admin-ui": "*",
+        "magento/module-inventory-in-store-pickup-api": "*",
+        "magento/module-inventory-in-store-pickup-sales-api": "*",
+        "magento/module-inventory-in-store-pickup-frontend": "*",
+        "magento/module-inventory-in-store-pickup-shipping": "*",
+        "magento/module-inventory-in-store-pickup-graph-ql": "*",
+        "magento/module-inventory-in-store-pickup-shipping-admin-ui": "*",
+        "magento/module-inventory-in-store-pickup-multishipping": "*",
+        "magento/module-inventory-in-store-pickup-shipping-api": "*",
+        "magento/module-inventory-in-store-pickup-quote": "*",
+        "magento/module-inventory-in-store-pickup-webapi-extension": "*",
+        "magento/module-inventory-in-store-pickup-quote-graph-ql": "*",
+        "magento/module-inventory-configurable-product-frontend-ui": "*",
+        "magento/module-inventory-catalog-search-configurable-product": "*",
+        "magento/module-inventory-catalog-search-bundle-product": "*",
+        "magento/module-inventory-catalog-frontend-ui": "*",
+        "magento/module-inventory-bundle-import-export": "*",
+        "magento/module-inventory-bundle-product-indexer": "*"
     }
 ```
 
