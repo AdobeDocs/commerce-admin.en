@@ -16,13 +16,10 @@ Customers can access their account by clicking the **[!UICONTROL My Account]** l
 
 ![My Account](assets/account-dashboard-my-account.png)<!-- zoom -->
 
-## Customer Account Scope
-
+## Set the scope of customer accounts
 The scope of customer accounts can be limited to the website where the account was created, or shared with all websites and stores in the store hierarchy.
 
-## Set the scope of customer accounts
-
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > [!UICONTROL _Settings_] > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > [!UICONTROL _[!UICONTROL Settings]_] > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Customers]** and choose **[!UICONTROL Customer Configuration]**.
 

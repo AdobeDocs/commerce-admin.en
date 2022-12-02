@@ -15,7 +15,7 @@ The following example shows how to create a customer segment that targets female
 
 ## Step 1: Enable Customer Segments
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > _Settings_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Customers]** and choose **[!UICONTROL Customer Configuration]**.
 

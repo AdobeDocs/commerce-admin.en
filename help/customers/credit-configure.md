@@ -1,5 +1,5 @@
 ---
-title: Configuring Store Credit
+title: Configure Store Credit
 description: Store credit can be configured to control automatic refunds as well as available credit for customers.
 ---
 
@@ -9,9 +9,9 @@ description: Store credit can be configured to control automatic refunds as well
 
 The store credit configuration controls automatic refunds, the display of available credit in customer accounts, and the email template that is used for notifications sent to customers.
 
-## Managing Store Credit
+_**To configure store credit:**_
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _Settings_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Customers]** and choose **[!UICONTROL Customer Configuration]**.
 

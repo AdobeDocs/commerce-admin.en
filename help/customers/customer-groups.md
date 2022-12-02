@@ -3,13 +3,13 @@ title: Customer Groups
 description: Customer groups determine which discounts are available and the tax class that is associated with the group.
 ---
 
-# [!DNL Customers Groups]
+# Customer groups
 
-[!DNL Customers Groups] determine which discounts are available and the tax class that is associated with the group. The default customer groups are General, Not Logged In, and Wholesale.
+Customer groups determine which discounts are available and the tax class that is associated with the group. The default customer groups are General, Not Logged In, and Wholesale.
 
 ![Customer Groups](assets/customer-groups.png))<!-- zoom -->
 
-## Filter [!DNL Customers Group]
+## Filter the [!UICONTROL Customer Groups] list
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]**.
 
@@ -21,7 +21,7 @@ description: Customer groups determine which discounts are available and the tax
 
 1. When complete, click **[!UICONTROL Apply Filters]**.
 
-## Create a [!DNL Customers Group]
+## Create a customer group
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]**.
 
@@ -41,7 +41,7 @@ description: Customer groups determine which discounts are available and the tax
 
 1. When complete, click **[!UICONTROL Save Customer Group]**.
 
-## Edit a [!DNL Customers Group]
+## Edit a customer group
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]**.
 
@@ -81,7 +81,7 @@ description: Customer groups determine which discounts are available and the tax
 >
 > You can also use Advance pricing to apply product discounts to customer groups. See [Advanced pricing](../catalog/product-price-group.md).
 
-## Delete a [!DNL Customers Group]
+## Delete a customer group
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]**.
 

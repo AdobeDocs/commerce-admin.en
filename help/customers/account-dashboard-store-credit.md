@@ -47,4 +47,4 @@ Method 2: **From the _Review & Payments_ page**
 
 1. If store credit is available, the customer clicks **Use Store Credit**.
 
-1. If the customer changes their mind about using the store credit, clicks **Remove** in the _Order Summary_ section.
+1. If the customer changes their mind about using the store credit, clicks **[!UICONTROL Remove]** in the _[!UICONTROL Order Summary]_ section.

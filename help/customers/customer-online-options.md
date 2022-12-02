@@ -20,7 +20,7 @@ On the server, the length of the session is controlled by the `php.ini` file and
 
 ## Configure the cookie lifetime
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _Settings_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to [!UICONTROL **Stores**] > _[!UICONTROL Settings]_ > [!UICONTROL **Configuration**].
 
 1. If you have multiple stores, set the **[!UICONTROL Store View]** chooser in the upper-right corner to the store where the configuration applies.
 
@@ -38,7 +38,7 @@ On the server, the length of the session is controlled by the `php.ini` file and
 
 To make login easier, the **[!UICONTROL Remember Me]** function allows user account holders to avoid entering their credentials every time they enter the storefront. For security reasons, the persistence feature is disabled by default.
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _Settings_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Customers]** and choose **[!UICONTROL Persistent Shopping Cart]**.
 

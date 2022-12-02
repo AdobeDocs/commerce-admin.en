@@ -23,7 +23,7 @@ The online status of [!DNL Customers] is updated only upon customer login, regis
 
 ## Configure the time interval
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _Settings_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Customers]** and choose **[!UICONTROL Customer Configuration]**.
 

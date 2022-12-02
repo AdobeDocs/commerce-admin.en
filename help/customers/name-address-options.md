@@ -15,7 +15,7 @@ The steps for configuring the name and address options are different for Adobe C
 
 ### Step 1: Set the scope of the configuration
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _Settings_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Customers]** and choose **[!UICONTROL Customer Configuration]**.
 
@@ -72,7 +72,7 @@ The steps for configuring the name and address options are different for Adobe C
 
 ### Step 1: Set the scope of the configuration
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _Settings_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Customers]** and choose **[!UICONTROL Customer Configuration]**.
 

@@ -25,7 +25,7 @@ Enabling Login as Customer requires that you enable the feature in your commerce
 
 ### Enable the feature
 
-1. On the _Admin_ sidebar go to  **[!UICONTROL Stores]** > _Settings_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar go to  **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Customers]** and choose  **[!UICONTROL Login as Customer]**.
 
