@@ -41,13 +41,13 @@ The online status of [!DNL Customers] is updated only upon customer login, regis
 
 |Column|Description|
 | --- | --- |
-| ID | The customer ID of a registered customer. |
-| First Name | The first name of a registered customer. |
-| Last Name | The last name of a registered customer. |
-| Email | The email address of a registered customer. |
-| Last Activity | The date and time of the customer's last activity in your store. |
-| Type | Options: Customer / Visitor |
-| Last URL | The last URL the customer visited. |
-| Company | The name of the company to which the user belongs. |
+| **[!UICONTROL ID]** | The customer ID of a registered customer. |
+| **[!UICONTROL First Name]** | The first name of a registered customer. |
+| **[!UICONTROL Last Name]** | The last name of a registered customer. |
+| **[!UICONTROL Email]** | The email address of a registered customer. |
+| **[!UICONTROL Last Activity]** | The date and time of the customer's last activity in your store. |
+| **[!UICONTROL Type]** | Options: Customer / Visitor |
+| **[!UICONTROL Last URL]** | The last URL the customer visited. |
+| **[!UICONTROL Company]** | The name of the company to which the user belongs. |
 
 {style="table-layout:auto"}

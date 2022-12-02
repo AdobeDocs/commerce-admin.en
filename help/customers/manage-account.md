@@ -37,7 +37,7 @@ In multi-store and multi-site setups with a global [customer account scope](http
 
 1. Set the **[!UICONTROL Actions]** control to `Unsubscribe to newsletter`.
 
-2. When prompted to confirm, click **OK**.
+1. When prompted to confirm, click **OK**.
 
 See [Managing Subscribers](../merchandising-promotions/newsletter-subscribers.md) for more information about managing newsletter subscriptions for a customer.
 
@@ -65,10 +65,10 @@ Method 1: **Quick Edit**
 
 1. Update any of the following values, as needed:
 
-   * [!UICONTROL Email]
-   * [!UICONTROL Web Site]
-   * [!UICONTROL Tax/VAT Number]
-   * [!UICONTROL Gender]
+   * **[!UICONTROL Email]**
+   * **[!UICONTROL Web Site]**
+   * **[!UICONTROL Tax/VAT Number]**
+   * **[!UICONTROL Gender]**
 
 1. Click **[!UICONTROL Save]**.
 
@@ -111,11 +111,11 @@ The above instruction will export all customer accounts. If you want to export a
 
 |Option|Description|
 |--- |--- |
-|Delete|Deletes selected customer accounts. If the customer account belongs to a company administrator for a B2B store, another company user must be assigned as administrator before the customer account can be deleted.|
-|Subscribe to Newsletter|Subscribes selected customers to newsletter.|
-|Unsubscribe from Newsletter|Unsubscribes selected customers from newsletter.|
-|Assign a Customer Group|Assigns selected customers to a customer group.|
-|Edit|Allows some values of a single selected customer record to be edited from the grid. By default, the following values are available for a quick edit: Email, Group, Phone, ZIP, Web Site, Tax VAT Number, and Gender.|
+|**[!UICONTROL Delete]**|Deletes selected customer accounts. If the customer account belongs to a company administrator for a B2B store, another company user must be assigned as administrator before the customer account can be deleted.|
+|**[!UICONTROL Subscribe to Newsletter]**|Subscribes selected customers to newsletter.|
+|**[!UICONTROL Unsubscribe from Newsletter]**|Unsubscribes selected customers from newsletter.|
+|**[!UICONTROL Assign a Customer Group]**|Assigns selected customers to a customer group.|
+|**[!UICONTROL Edit]**|Allows some values of a single selected customer record to be edited from the grid. By default, the following values are available for a quick edit: Email, Group, Phone, ZIP, Web Site, Tax VAT Number, and Gender.|
 
 {style="table-layout:auto"}
 
@@ -123,23 +123,23 @@ The above instruction will export all customer accounts. If you want to export a
 
 |Column|Description|
 |--- |--- |
-|Select|Manages the checkbox selections for the customer records for applying an action. You can also use the selection control in the column header to select/deselect all.|
-|ID|A unique numeric identifier that is assigned when the customer account is created.|
-|Name|The first and last name of the customer.|
-|Email|The email address of the customer.|
-|Group|The customer group to which the customer is assigned.|
-|Phone|The phone number of the customer.|
-|ZIP|The ZIP or postal code of the customer.|
-|Country|The country where the customer is located.|
-|State/Province|The state or province where the customer is located.|
-|Customer Since|The date and time the customer account was created.|
-|Web Site|The web site in the store hierarchy to which the customer account is associated.|
-|Confirmed Email|Indicates if a confirmation email is required to be sent.|
-|Account Created In|Indicates the store view from which the customer account was created.|
-|Date of Birth|The date of birth of the customer. In keeping with current security and privacy best practices, be sure you are aware of any potential legal and security risks associated with the storage of customers' full date of birth (month, day, year) along with other personal identifiers (e.g., full name) before collecting or processing such data. We recommend limiting the storage of customers' full birth dates and instead suggest using customer year of birth as an alternative.|
-|Tax / VAT Number|If applicable, the tax number or [value-added tax](../stores-purchase/vat.md) number that is assigned to the customer. <br/><br/> This field is not the same as the VAT Number.|
-|Gender|The gender of the customer.|
-|Action|Edit - Opens the company account in edit mode.|
+|**[!UICONTROL Select]**|Manages the checkbox selections for the customer records for applying an action. You can also use the selection control in the column header to select/deselect all.|
+|**[!UICONTROL ID]**|A unique numeric identifier that is assigned when the customer account is created.|
+|**[!UICONTROL Name]**|The first and last name of the customer.|
+|**[!UICONTROL Email]**|The email address of the customer.|
+|**[!UICONTROL Group]**|The customer group to which the customer is assigned.|
+|**[!UICONTROL Phone]**|The phone number of the customer.|
+|**[!UICONTROL ZIP]**|The ZIP or postal code of the customer.|
+|**[!UICONTROL Country]**|The country where the customer is located.|
+|**[!UICONTROL State/Province]**|The state or province where the customer is located.|
+|**[!UICONTROL Customer Since]**|The date and time the customer account was created.|
+|**[!UICONTROL Web Site]**|The web site in the store hierarchy to which the customer account is associated.|
+|**[!UICONTROL Confirmed Email]**|Indicates if a confirmation email is required to be sent.|
+|**[!UICONTROL Account Created In]**|Indicates the store view from which the customer account was created.|
+|**[!UICONTROL Date of Birth]**|The date of birth of the customer. In keeping with current security and privacy best practices, be sure you are aware of any potential legal and security risks associated with the storage of customers' full date of birth (month, day, year) along with other personal identifiers (e.g., full name) before collecting or processing such data. We recommend limiting the storage of customers' full birth dates and instead suggest using customer year of birth as an alternative.|
+|**[!UICONTROL Tax / VAT Number]**|If applicable, the tax number or [value-added tax](../stores-purchase/vat.md) number that is assigned to the customer. <br/><br/> This field is not the same as the VAT Number.|
+|**[!UICONTROL Gender]**|The gender of the customer.|
+|**[!UICONTROL Action]**|Edit - Opens the company account in edit mode.|
 
 {style="table-layout:auto"}
 
@@ -149,18 +149,18 @@ These columns are available by changing the [column layout](../getting-started/a
 
 |Column|Description|
 |--- |--- |
-|Company|The company name of the customer.|
-|Street Address|The street address of the customer.|
-|City|The city where the customer is located.|
-|Fax|The fax number of the customer, if applicable.|
-|Billing Firstname|The first name in the billing address of the customer.|
-|Billing Lastname|The last name in the billing address of the customer.|
-|Billing Address|The address where billing information is to be sent.|
-|Shipping Address|The address where orders are to be shipped.|
-|VAT Number|The value-added tax number that is associated with the customer address. For [digital goods](../stores-purchase/taxes.md) sold in the EU, the VAT is based on the billing address of the customer. <br/><br/> This field is not the same as the Tax/VAT Number.|
-|Account Lock|Indicates the status of the account. As a security measure, customer accounts can be [locked](../customers/password-options.md) after too many login attempts. Values: Locked / Unlocked|
-|Status|The current user status. Options: Active / Inactive|
-|Customer Type|Customer types, options: Individual user / Company admin / Company user|
-|Sales Representative|The sales representative who is assigned as the point of contact for a company account and receives all automated email messages related to the company.|
+|**[!UICONTROL Company]**|The company name of the customer.|
+|**[!UICONTROL Street Address]**|The street address of the customer.|
+|**[!UICONTROL City]**|The city where the customer is located.|
+|**[!UICONTROL Fax]**|The fax number of the customer, if applicable.|
+|**[!UICONTROL Billing Firstname]**|The first name in the billing address of the customer.|
+|**[!UICONTROL Billing Lastname]**|The last name in the billing address of the customer.|
+|**[!UICONTROL Billing Address]**|The address where billing information is to be sent.|
+|**[!UICONTROL Shipping Address]**|The address where orders are to be shipped.|
+|**[!UICONTROL VAT Number]**|The value-added tax number that is associated with the customer address. For [digital goods](../stores-purchase/taxes.md) sold in the EU, the VAT is based on the billing address of the customer. <br/><br/> This field is not the same as the Tax/VAT Number.|
+|**[!UICONTROL Account Lock]**|Indicates the status of the account. As a security measure, customer accounts can be [locked](../customers/password-options.md) after too many login attempts. Values: **[!UICONTROL Locked]** / **[!UICONTROL Unlocked]**|
+|**[!UICONTROL Status]**|The current user status. Options: **[!UICONTROL Active]** / **[!UICONTROL Inactive]**|
+|**[!UICONTROL Customer Type]**|Customer types, options: **[!UICONTROL Individual user]** / **[!UICONTROL Company admin]** / **[!UICONTROL Company user]**|
+|**[!UICONTROL Sales Representative]**|The sales representative who is assigned as the point of contact for a company account and receives all automated email messages related to the company.|
 
 {style="table-layout:auto"}

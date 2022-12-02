@@ -91,15 +91,15 @@ The [Reward Points](../merchandising-promotions/rewards-loyalty.md) section show
 
 | Button   | Description  |
 |----------|--------------|
-| **Back** | Returns to the Customers page without saving changes. |
-| **Login as Customer** | Allows the ability for the merchant to login as the customer. |
-| **Delete Customer** | Deletes the customer account.  |
-| **Reset** | Resets any unsaved changes in the customer form to their previous values.  |
-| **Create Order** | [Creates a new order](../stores-purchase/customer-account-create-order.md) that is associated with the customer account.  |
-| **Reset Password** | Resets the password of the customer.  |
-| **Force Sign-In** | Clears the tokens associated with the customer's password and provides the administrator access to the account. |
-| **Manage Shopping Cart** | Provides access to the shopping cart of a customer. |
-| **Save and Continue Edit**  | Saves changes and keeps the customer account open. |
-| **Save Customer** | Saves changes and closes the customer account. |
+| **[!UICONTROL Back]** | Returns to the Customers page without saving changes. |
+| **[!UICONTROL Login as Customer]** | Allows the ability for the merchant to login as the customer. |
+| **[!UICONTROL Delete Customer]** | Deletes the customer account.  |
+| **[!UICONTROL Reset]** | Resets any unsaved changes in the customer form to their previous values.  |
+| **[!UICONTROL Create Order]** | [Creates a new order](../stores-purchase/customer-account-create-order.md) that is associated with the customer account.  |
+| **[!UICONTROL Reset Password]** | Resets the password of the customer.  |
+| **[!UICONTROL Force Sign-In]** | Clears the tokens associated with the customer's password and provides the administrator access to the account. |
+| **[!UICONTROL Manage Shopping Cart]** | Provides access to the shopping cart of a customer. |
+| **[!UICONTROL Save and Continue Edit]**  | Saves changes and keeps the customer account open. |
+| **[!UICONTROL Save Customer]** | Saves changes and closes the customer account. |
 
 {style="table-layout:auto"}

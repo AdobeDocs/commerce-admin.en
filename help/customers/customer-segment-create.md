@@ -63,11 +63,11 @@ The following example shows how to create a customer segment that targets female
 
 |Field|Description|
 |--- |---|
-|Segment Name| A name that identifies the segment for internal reference.|
-|Description| A brief description that explains the purpose of the segment for internal reference.|
-|Assigned to Website| The single website where the segment can be used.|
-|Status| Activates and deactivates the segment. Any associated price rules and banners are deactivated when the segment is disabled. Options include: Active / Inactive.|
-|Apply to| Defines the customer types to which the segment is applied. The selection influences the set of conditions available for creating the segment. The setting cannot be changed after the segment is saved.  |
+|**[!UICONTROL Segment Name]**| A name that identifies the segment for internal reference.|
+|**[!UICONTROL Description]**| A brief description that explains the purpose of the segment for internal reference.|
+|**[!UICONTROL Assigned to Website]**| The single website where the segment can be used.|
+|**[!UICONTROL Status]**| Activates and deactivates the segment. Any associated price rules and banners are deactivated when the segment is disabled. Options include: Active / Inactive.|
+|**[!UICONTROL Apply to]**| Defines the customer types to which the segment is applied. The selection influences the set of conditions available for creating the segment. The setting cannot be changed after the segment is saved.  |
 
 {style="table-layout:auto"}
 
@@ -135,12 +135,12 @@ The following example shows how to create a customer segment that targets female
 
 |Button|Description|
 |--- |--- |
-|**Back**|Returns to the Customer Segments page without saving changes.|
-|**Delete**|Deletes the current customer segment. Customers or completed orders associated with the customer in the segment are not removed.|
-|**Reset**|Resets any unsaved changes in the customer segment form to their previous values.|
-|**Refresh Segment Data**|Refreshes the segment data to the most recently saved values. Relevant if any segment data is unavailable or out of date.|
-|**Save and Continue Edit**|Saves changes and keeps the customer segment open.|
-|**Save **|Saves changes and closes the customer segment.|
+|**[!UICONTROL Back]**|Returns to the Customer Segments page without saving changes.|
+|**[!UICONTROL Delete]**|Deletes the current customer segment. Customers or completed orders associated with the customer in the segment are not removed.|
+|**[!UICONTROL Reset]**|Resets any unsaved changes in the customer segment form to their previous values.|
+|**[!UICONTROL Refresh Segment Data]**|Refreshes the segment data to the most recently saved values. Relevant if any segment data is unavailable or out of date.|
+|**[!UICONTROL Save and Continue Edit]**|Saves changes and keeps the customer segment open.|
+|**[!UICONTROL Save]**|Saves changes and closes the customer segment.|
 
 {style="table-layout:auto"}
 
@@ -148,15 +148,15 @@ The following example shows how to create a customer segment that targets female
 
 |Column|Description|
 |--- |--- |
-|ID|The customer ID of a registered customer.|
-|Name|The name of of a registered customer.|
-|Email|The email address of a registered customer.|
-|Group|The customer group to which the customer is assigned.|
-|Phone|The phone number of the customer.|
-|ZIP|The ZIP or postal code of the customer.|
-|Country|The country where the customer is located.|
-|State / Province|The state or province where the customer is located.|
-|Customer Since|The date and time the customer account was created.|
+|**[!UICONTROL ID]**|The customer ID of a registered customer.|
+|**[!UICONTROL Name]**|The name of of a registered customer.|
+|**[!UICONTROL Email]**|The email address of a registered customer.|
+|**[!UICONTROL Group]**|The customer group to which the customer is assigned.|
+|**[!UICONTROL Phone]**|The phone number of the customer.|
+|**[!UICONTROL ZIP]**|The ZIP or postal code of the customer.|
+|**[!UICONTROL Country]**|The country where the customer is located.|
+|**[!UICONTROL State / Province]**|The state or province where the customer is located.|
+|**[!UICONTROL Customer Since]**|The date and time the customer account was created.|
 
 {style="table-layout:auto"}
 
@@ -164,10 +164,10 @@ The following example shows how to create a customer segment that targets female
 
 |Column|Description|
 |--- |--- |
-|ID|The unique ID of customer segment.|
-|Segment|The name of customer segment.|
-|Status|Indicates whether the customer segment is __Active__ or __Inactive__.|
-|Website|Indicates the website to which the customer segment belongs.|
+|**[!UICONTROL ID]**|The unique ID of customer segment.|
+|**[!UICONTROL Segment]**|The name of customer segment.|
+|**[!UICONTROL Status]**|Indicates whether the customer segment is __**[!UICONTROL Active]**__ or __**[!UICONTROL Inactive]**__.|
+|**[!UICONTROL Website]**|Indicates the website to which the customer segment belongs.|
 
 {style="table-layout:auto"}
 
