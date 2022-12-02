@@ -3,7 +3,7 @@ title: Customer Segment Report
 description: Customer Segment Report provides information about the number of customers in each segment.
 ---
 
-# Customer Segment Reports
+# Customer Segment Report
 
 {{ee-feature}}
 

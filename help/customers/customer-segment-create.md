@@ -1,9 +1,9 @@
 ---
-title: Creating and Deleting Customer Segments
+title: Create and Delete Customer Segments
 description: Customers can view the refund information associated with the order in their Customer Account Dashboard.
 ---
 
-# Creating and Deleting Customer Segments
+# Create and Delete Customer Segments
 
 {{ee-feature}}
 

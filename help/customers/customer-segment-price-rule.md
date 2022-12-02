@@ -11,7 +11,7 @@ A customer segment can be targeted by associating it with a [cart price rule](..
 
 ![Cart price rule - targeted customer segment](assets/price-rule-cart-condition-segments.png)
 
-## Target a Segment with a Cart Price Rule
+_**To target a segment with a cart price rule:**_
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _Promotions_ > **[!UICONTROL Cart Price Rules]**.
 
