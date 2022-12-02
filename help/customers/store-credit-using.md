@@ -1,9 +1,9 @@
 ---
-title: Applying Store Credit
+title: Apply Store Credit
 description: Store administrators can apply store credit to a purchase.
 ---
 
-# Applying Store Credit
+# Apply Store Credit
 
 {{ee-feature}}
 

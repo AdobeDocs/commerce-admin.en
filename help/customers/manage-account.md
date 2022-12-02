@@ -1,9 +1,9 @@
 ---
-title: Managing Customer Accounts
+title: Manage Customer Accounts
 description: Use the Customers grid to find any customer account.
 ---
 
-# Managing Customer Accounts
+# Manage Customer Accounts
 
 Use the Customers grid to find any customer account. You can use the standard [workplace controls](../getting-started/admin-workspace.md) to filter the list, change the [column layout](../getting-started/admin-grid-controls.md), save views, and export data. The [Actions control](../getting-started/admin-actions-control.md) above the grid can be used to apply an operation to multiple customer records.
 
@@ -143,7 +143,7 @@ The above instruction will export all customer accounts. If you want to export a
 
 {style="table-layout:auto"}
 
-### Additional Columns
+### Additional columns
 
 These columns are available by changing the [column layout](../getting-started/admin-grid-controls.md) of the grid.
 

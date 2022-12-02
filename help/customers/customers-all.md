@@ -13,7 +13,7 @@ The [!UICONTROL Customers] grid lists all customers who have registered for an a
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
-1. Find the customer record and click **[!UICONTROL Edit]** in the _Action_ column.
+1. Find the customer record and click [!UICONTROL **Edit**] in the _[!UICONTROL Action]_ column.
 
 1. In the left panel, choose the information you need to edit and make the necessary changes.
 
@@ -23,7 +23,7 @@ The [!UICONTROL Customers] grid lists all customers who have registered for an a
 
 1. When complete, click **[!UICONTROL Save Customer]**.
 
-## Workspace Controls
+## Workspace controls
 
 |Control|Description|
 | --- | --- |

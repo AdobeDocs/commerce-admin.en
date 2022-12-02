@@ -1,15 +1,15 @@
 ---
-title: Updating a Customer Profile
+title: Update a Customer Profile
 description: Information about customer activity, such as when the customer last signed in or out of their account.
 ---
 
-# Updating a Customer Profile
+# Update a Customer Profile
 
 The left panel of the Customer Information page includes information about customer activity, such as when the customer last signed in or out of their account, addresses, order statistics, recent orders, shopping cart contents, product reviews, newsletter subscriptions, and so on.
 
 ![Customer Profile](assets/cust-profile.png)
 
-## Update a customer profile
+_**To update a customer profile:**_
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 

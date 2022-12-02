@@ -1,9 +1,9 @@
 ---
-title: Providing Shopper Assistance
+title: Provide Shopper Assistance
 description: Login as a Customer to see what the customers see and take actions on their behalf.
 ---
 
-# Providing Shopper Assistance
+# Provide Shopper Assistance
 
 There are times when customers need help with their order. To see what they see, store administrators can use _Login as Customer_, which allows them to see what the customer sees and take actions on their behalf.
 
