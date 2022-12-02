@@ -15,11 +15,11 @@ The steps for configuring the name and address options are different for Adobe C
 
 ### Step 1: Set the scope of the configuration
 
-1. On the _Admin_ sidebar, go to [!UICONTROL **Stores**] > _Settings_ > [!UICONTROL **Configuration**].
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _Settings_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand [!UICONTROL **Customers**] and choose [!UICONTROL **Customer Configuration**].
+1. In the left panel, expand **[!UICONTROL Customers]** and choose **[!UICONTROL Customer Configuration]**.
 
-1. Expand the [!UICONTROL **Name and Address Options**] section.
+1. Expand the **[!UICONTROL Name and Address Options]** section.
 
    >[!INFO]
    >
@@ -46,25 +46,25 @@ The steps for configuring the name and address options are different for Adobe C
 
    ![Name and Address Options](assets/customer-configuration-name-address-options-ee.png)
 
-1. For [!UICONTROL **Prefix Dropdown Options**], enter each prefix that you want to appear in the list, separated by a semicolon.
+1. For **[!UICONTROL Prefix Dropdown Options]**, enter each prefix that you want to appear in the list, separated by a semicolon.
 
    >[!IMPORTANT]
    >
    > Place a semicolon before the first value to display a blank value at the top of the list.
 
-1. For [!UICONTROL **Suffix Dropdown Options**], enter each suffix that you want to appear in the list, separated by a semicolon.
+1. For **[!UICONTROL Suffix Dropdown Options]**, enter each suffix that you want to appear in the list, separated by a semicolon.
 
 1. To include the following fields in customer forms, set the value of each to `Optional` or `Required`, as needed.
 
-   - [!UICONTROL **Show Telephone**]
-   - [!UICONTROL **Show Company**]
-   - [!UICONTROL **Show Fax**]
+   - **[!UICONTROL Show Telephone]**
+   - **[!UICONTROL Show Company]**
+   - **[!UICONTROL Show Fax]**
 
 ### Step 3: Save and refresh
 
-1. When complete, click [!UICONTROL **Save Config**].
+1. When complete, click **[!UICONTROL Save Config]**.
 
-1. In the message at the top of the page, click [!UICONTROL **Cache Management**] and [refresh](../systems/cache-management.md) each invalid cache.
+1. In the message at the top of the page, click **[!UICONTROL Cache Management]** and [refresh](../systems/cache-management.md) each invalid cache.
 
 ## Configure name and address options for Magento Open Source
 
@@ -72,11 +72,11 @@ The steps for configuring the name and address options are different for Adobe C
 
 ### Step 1: Set the scope of the configuration
 
-1. On the _Admin_ sidebar, go to [!UICONTROL **Stores**] > _Settings_ > [!UICONTROL **Configuration**].
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _Settings_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand [!UICONTROL **Customers**] and choose [!UICONTROL **Customer Configuration**].
+1. In the left panel, expand **[!UICONTROL Customers]** and choose **[!UICONTROL Customer Configuration]**.
 
-1. Expand the [!UICONTROL **Name and Address Options**] section.
+1. Expand the **[!UICONTROL Name and Address Options]** section.
 
    >[!IMPORTANT]
    >
@@ -117,9 +117,9 @@ The steps for configuring the name and address options are different for Adobe C
    >
    > For **Prefix Dropdown Options**, enter each prefix that you want to appear in the list, separated by a semicolon. You can place a semicolon before the first value to display a blank value at the top of the list.
 
-1. To include an optional field for the customer's middle name or initial, set [!UICONTROL **Show Middle Name (initial)**] to `Yes`.
+1. To include an optional field for the customer's middle name or initial, set **[!UICONTROL Show Middle Name (initial)]** to `Yes`.
 
-1. To include a suffix (such as Jr. or Sr.) after the customer name, set [!UICONTROL **Show Suffix**] to one of the following:
+1. To include a suffix (such as Jr. or Sr.) after the customer name, set **[!UICONTROL Show Suffix]** to one of the following:
 
    - Optional
    - Required
@@ -128,7 +128,7 @@ The steps for configuring the name and address options are different for Adobe C
    >
    > For **Suffix Dropdown Options**, enter each suffix that you want to appear in the list, separated by a semicolon. You can place a semicolon before the first value to display a blank value at the top of the list.
 
-1. To include the date of birth, set [!UICONTROL **Show Date of Birth**] to one of the following:
+1. To include the date of birth, set **[!UICONTROL Show Date of Birth]** to one of the following:
 
    - Optional
    - Required
@@ -141,12 +141,12 @@ The steps for configuring the name and address options are different for Adobe C
 
    ![Date of Birth in customer sign up form](assets/storefront-customer-account-date-of-birth.png)
 
-1. To allow customers to enter their tax or [VAT](../stores-purchase/vat.md) number, set [!UICONTROL **Show Tax/VAT Number**] to one of the following:
+1. To allow customers to enter their tax or [VAT](../stores-purchase/vat.md) number, set **[!UICONTROL Show Tax/VAT Number]** to one of the following:
 
    - Optional
    - Required
 
-1. To include a field for gender in the customer form, set [!UICONTROL **Show Gender**] to one of the following:
+1. To include a field for gender in the customer form, set **[!UICONTROL Show Gender]** to one of the following:
 
    - Optional
    - Required
@@ -155,12 +155,12 @@ The steps for configuring the name and address options are different for Adobe C
 
 1. To include the following fields in customer forms, set the value of each to `Optional` or `Required`, as needed.
 
-   - [!UICONTROL **Show Telephone**]
-   - [!UICONTROL **Show Company**]
-   - [!UICONTROL **Show Fax**]
+   - **[!UICONTROL Show Telephone]**
+   - **[!UICONTROL Show Company]**
+   - **[!UICONTROL Show Fax]**
 
 ### Step 3: Save and refresh
 
-1. When complete, click [!UICONTROL **Save Config**].
+1. When complete, click **[!UICONTROL Save Config]**.
 
-1. In the message at the top of the page, click [!UICONTROL **Cache Management**] and [refresh](../systems/cache-management.md) each invalid cache.
+1. In the message at the top of the page, click **[!UICONTROL Cache Management]** and [refresh](../systems/cache-management.md) each invalid cache.

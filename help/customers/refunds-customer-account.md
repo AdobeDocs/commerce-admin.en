@@ -15,10 +15,10 @@ If a refund has been issued for an order, customers can view the refund informat
 
 1. Locates their order using one of the following methods:
 
-   * Finding the order in the list of **Recent Orders** and clicking [!UICONTROL **View**].
-   * In the left panel, choosing [!UICONTROL **My Orders**]. Then, finding the order in the list and clicking [!UICONTROL **View**].
+   * Finding the order in the list of **Recent Orders** and clicking **[!UICONTROL View]**.
+   * In the left panel, choosing **[!UICONTROL My Orders]**. Then, finding the order in the list and clicking **[!UICONTROL View]**.
 
-1. Clicks the [!UICONTROL **Refunds**] tab to view the details of the refund.
+1. Clicks the **[!UICONTROL Refunds]** tab to view the details of the refund.
 
    ![Refund detail on the storefront](assets/customer-account-order-refunds.png)
 
@@ -28,7 +28,7 @@ Method 1: **From the customer account dashboard**
 
 1. From the storefront, the customer logs in to account.
 
-1. If the refund was applied to store credit, chooses [!UICONTROL **Store Credit**] in the left panel.
+1. If the refund was applied to store credit, chooses **[!UICONTROL Store Credit]** in the left panel.
 
 1. The amount refunded to their store credit appears in the list with the date and time of the action.
 
@@ -44,13 +44,13 @@ Method 2: **From the _Review & Payments_ page**
 
 2. Proceeds to checkout.
 
-3. Passes the [!UICONTROL **Shipping**] step.
+3. Passes the **[!UICONTROL Shipping]** step.
 
-4. If store credit is available, the customer clicks [!UICONTROL **Use Store Credit**].
+4. If store credit is available, the customer clicks **[!UICONTROL Use Store Credit]**.
 
    ![Store Credit from Review & Payments page](assets/customer-account-order-refund-from-checkout.png)
 
-5. If the customer changes their mind about using the store credit, clicks [!UICONTROL **Remove**] in the _Order Summary_ section.
+5. If the customer changes their mind about using the store credit, clicks **[!UICONTROL Remove]** in the _Order Summary_ section.
 
 ## Payment actions in the Admin
 

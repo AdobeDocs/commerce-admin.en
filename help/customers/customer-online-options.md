@@ -20,32 +20,32 @@ On the server, the length of the session is controlled by the `php.ini` file and
 
 ## Configure the cookie lifetime
 
-1. On the _Admin_ sidebar, go to [!UICONTROL **Stores**] > _Settings_ > [!UICONTROL **Configuration**].
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _Settings_ > **[!UICONTROL Configuration]**.
 
-1. If you have multiple stores, set the [!UICONTROL **Store View**] chooser in the upper-right corner to the store where the configuration applies.
+1. If you have multiple stores, set the **[!UICONTROL Store View]** chooser in the upper-right corner to the store where the configuration applies.
 
-1. In the left panel under [!UICONTROL **General**], choose [!UICONTROL **Web**].
+1. In the left panel under **[!UICONTROL General]**, choose **[!UICONTROL Web]**.
 
-1. Expand the [!UICONTROL **Default Cookie Settings**] section.
+1. Expand the **[!UICONTROL Default Cookie Settings]** section.
 
    ![Default Cookie Settings](assets/web-default-cookie-settings.png)
 
-1. To change the default, clear the [!UICONTROL **Use system value**] checkbox and enter the new value in seconds.
+1. To change the default, clear the **[!UICONTROL Use system value]** checkbox and enter the new value in seconds.
 
-1. When complete, click [!UICONTROL **Save Config**].
+1. When complete, click **[!UICONTROL Save Config]**.
 
 ## Configure Remember Me functionality
 
-To make login easier, the [!UICONTROL **Remember Me**] function allows user account holders to avoid entering their credentials every time they enter the storefront. For security reasons, the persistence feature is disabled by default.
+To make login easier, the **[!UICONTROL Remember Me]** function allows user account holders to avoid entering their credentials every time they enter the storefront. For security reasons, the persistence feature is disabled by default.
 
-1. On the _Admin_ sidebar, go to [!UICONTROL **Stores**] > _Settings_ > [!UICONTROL **Configuration**].
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _Settings_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand [!UICONTROL **Customers**] and choose [!UICONTROL **Persistent Shopping Cart**].
+1. In the left panel, expand **[!UICONTROL Customers]** and choose **[!UICONTROL Persistent Shopping Cart]**.
 
-1. Expand the [!UICONTROL **General Options**] section.
+1. Expand the **[!UICONTROL General Options]** section.
 
-1. For [!UICONTROL **Enable Persistence**], set to `Yes`. (Clear the [!UICONTROL **Use system value**] checkbox to allow changing the default setting.)
+1. For **[!UICONTROL Enable Persistence]**, set to `Yes`. (Clear the **[!UICONTROL Use system value]** checkbox to allow changing the default setting.)
 
-1. For [!UICONTROL **Enable "Remember Me"**], set to `Yes` or `No` according to your requirements.
+1. For **[!UICONTROL Enable "Remember Me"]**, set to `Yes` or `No` according to your requirements.
 
-1. When complete, click [!UICONTROL **Save Config**].
+1. When complete, click **[!UICONTROL Save Config]**.

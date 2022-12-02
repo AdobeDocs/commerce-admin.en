@@ -17,9 +17,9 @@ Customers usually reset their passwords from the storefront by clicking the "For
 
 ## Reset a password from the storefront
 
-1. On the Login page, click [!UICONTROL **Forgot Your Password?**].
+1. On the Login page, click **[!UICONTROL Forgot Your Password?]**.
 
-1. When prompted, enter the [!UICONTROL **Email Address**] that is associated with your account and click [!UICONTROL **Reset My Password**].
+1. When prompted, enter the **[!UICONTROL Email Address]** that is associated with your account and click **[!UICONTROL Reset My Password]**.
 
    ![Forgot Your Password](assets/forgot-password.png)
 
@@ -27,9 +27,9 @@ Customers usually reset their passwords from the storefront by clicking the "For
    >
    > If the email address you entered matches the one that is associated with the account, you will receive a Password Reset Confirmation email with a link to reset your password.
 
-1. When the email arrives, click the _reset password_ link and enter your [!UICONTROL **New Password**] when prompted.
+1. When the email arrives, click the _reset password_ link and enter your **[!UICONTROL New Password]** when prompted.
 
-1. Enter it again to confirm and click [!UICONTROL **Reset Password**].
+1. Enter it again to confirm and click **[!UICONTROL Reset Password]**.
    
    >[!IMPORTANT]
    >
@@ -37,11 +37,11 @@ Customers usually reset their passwords from the storefront by clicking the "For
 
 ## Reset a password from the Admin
 
-1. On the _Admin_ sidebar, go to [!UICONTROL **Customers**] > [!UICONTROL **All Customers**].
+1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
-1. Find the customer account in the grid and click [!UICONTROL **Edit**] in the _Action_ column.
+1. Find the customer account in the grid and click **[!UICONTROL Edit]** in the _Action_ column.
 
-1. In the set of options across the top of the page, click [!UICONTROL **Reset Password**].
+1. In the set of options across the top of the page, click **[!UICONTROL Reset Password]**.
 
    The number of password reset requests that are allowed within an hour is set in the [configuration](https://docs.magento.com/user-guide/configuration/customers/customer-configuration.html) topic.
 
@@ -51,10 +51,10 @@ Customers usually reset their passwords from the storefront by clicking the "For
 >
 > Do not proceed unless you are a developer familiar with API Authentication.
 
-1. On the _Admin_ sidebar, go to [!UICONTROL **Customers**] > [!UICONTROL **All Customers**].
+1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
-1. Find the customer account in the grid and click [!UICONTROL **Edit**] in the _Action_ column.
+1. Find the customer account in the grid and click **[!UICONTROL Edit]** in the _Action_ column.
 
-1. In the set of options across the top of the page, click [!UICONTROL **Force Sign In**].
+1. In the set of options across the top of the page, click **[!UICONTROL Force Sign In]**.
 
 1. When prompted to confirm, click **OK**.

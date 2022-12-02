@@ -5,9 +5,9 @@ description: The My Account section of the customer dashboard gives customers an
 
 # My Account
 
-The [!UICONTROL **My Account**] section of the customer dashboard gives customers an overview of their information and activity related to your store.
+The **[!UICONTROL My Account]** section of the customer dashboard gives customers an overview of their information and activity related to your store.
 
-The [!UICONTROL **My Account**] page consist of following sections:
+The **[!UICONTROL My Account]** page consist of following sections:
 
 * [Account Information](../customers/account-dashboard-account-information.md)
 * [Address Book](../customers/account-dashboard-address-book.md)

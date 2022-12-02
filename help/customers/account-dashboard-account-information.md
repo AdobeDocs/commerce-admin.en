@@ -11,35 +11,35 @@ The basic account information includes your name and email address, and password
 
 ## Update your account information
 
-In the sidebar of your account, choose [!UICONTROL **Account Information**] and do any of the following:
+In the sidebar of your account, choose **[!UICONTROL Account Information]** and do any of the following:
 
 ### Update your name
 
-1. Update your [!UICONTROL **First Name**] and [!UICONTROL **Last Name**] as needed.
+1. Update your **[!UICONTROL First Name]** and **[!UICONTROL Last Name]** as needed.
 
    >[!INFO]
    >
    > Additional fields appear as part of the name if the [Customer Configuration](https://docs.magento.com/user-guide/configuration/customers/customer-configuration.html) includes a prefix, middle initial, and suffix.
 
-1. Click [!UICONTROL **Save**].
+1. Click **[!UICONTROL Save]**.
 
 ### Change your email address
 
-1. Select the [!UICONTROL **Change Email**] checkbox.
+1. Select the **[!UICONTROL Change Email]** checkbox.
 
-1. Enter your new [!UICONTROL **Email**] address.
+1. Enter your new **[!UICONTROL Email]** address.
 
-1. Enter your [!UICONTROL **Current Password**].
+1. Enter your **[!UICONTROL Current Password]**.
 
-1. Click [!UICONTROL **Save**].
+1. Click **[!UICONTROL Save]**.
 
     ![Change Email Address](assets/account-dashboard-account-information-change-email-address.png)
 
 ### Change your password
 
-1. Select the [!UICONTROL **Change Password**] checkbox.
+1. Select the **[!UICONTROL Change Password]** checkbox.
 
-1. Enter your [!UICONTROL **New Password**].
+1. Enter your **[!UICONTROL New Password]**.
 
    >[!IMPORTANT]
    >

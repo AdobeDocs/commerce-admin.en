@@ -5,7 +5,7 @@ description: The Now Online option on the Customers menu lists all customers and
 
 # Now Online
 
-The [!UICONTROL **Now Online**] option on the [!DNL Customers] menu lists all [!DNL Customers] and visitors who are currently online in your store. The interval of time that [!DNL Customers] are shown as currently online is set in the configuration, and determines how long the [!DNL Customer's] activity is visible from the Admin. By default, the interval is fifteen minutes. The session ends if the keyboard is not used during this time and [!DNL Customers] must sign into their accounts again to continue shopping. It is important to note that the contents of the carts are saved for later access.
+The **[!UICONTROL Now Online]** option on the [!DNL Customers] menu lists all [!DNL Customers] and visitors who are currently online in your store. The interval of time that [!DNL Customers] are shown as currently online is set in the configuration, and determines how long the [!DNL Customer's] activity is visible from the Admin. By default, the interval is fifteen minutes. The session ends if the keyboard is not used during this time and [!DNL Customers] must sign into their accounts again to continue shopping. It is important to note that the contents of the carts are saved for later access.
 
 ![Online Customers](assets/customers-now-online.png)
 
@@ -17,17 +17,17 @@ The online status of [!DNL Customers] is updated only upon customer login, regis
 
 ## See all customers currently online
 
-1. On the _Admin_ sidebar, go to [!UICONTROL **Customers**] > [!UICONTROL **Online Now**].
+1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Online Now]**.
 
 1. To help an online customer complete a purchase, see [Shopping Assistance](../stores-purchase/introduction.md#shopping-assistance).
 
 ## Configure the time interval
 
-1. On the _Admin_ sidebar, go to [!UICONTROL **Stores**] > _Settings_ > [!UICONTROL **Configuration**].
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _Settings_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand [!UICONTROL **Customers**] and choose [!UICONTROL **Customer Configuration**].
+1. In the left panel, expand **[!UICONTROL Customers]** and choose **[!UICONTROL Customer Configuration]**.
 
-1. Expand the [!UICONTROL **Online Customers Options**] section and do the following:
+1. Expand the **[!UICONTROL Online Customers Options]** section and do the following:
 
       ![Online Customer options](assets/customer-configuration-online-customers-options.png)
 
@@ -35,7 +35,7 @@ The online status of [!DNL Customers] is updated only upon customer login, regis
 
       - For **Customer Data Lifetime**, enter the number of minutes before any unsaved data entered by the customer expires.
 
-1. When complete, click [!UICONTROL **Save Config**].
+1. When complete, click **[!UICONTROL Save Config]**.
 
 ## Column Descriptions
 

@@ -15,29 +15,29 @@ When customers forget their passwords, a reset link is sent to the email address
 
 ## Sign in to a customer account
 
-1. In the header of the store, click [!UICONTROL **Sign in**].
+1. In the header of the store, click **[!UICONTROL Sign in]**.
 
    ![Customer Login](assets/login.png)
 
-1. Enter your [!UICONTROL **Email**] address and [!UICONTROL **Password**].
+1. Enter your **[!UICONTROL Email]** address and **[!UICONTROL Password]**.
 
-1. Click [!UICONTROL **Sign in**].
+1. Click **[!UICONTROL Sign in]**.
 
    >[!IMPORTANT]
    >
-   > If you cannot remember your password, click [!UICONTROL **Forgot Your Password?**] and follow the [instructions](../customers/password-reset.md) to reset your password.
+   > If you cannot remember your password, click **[!UICONTROL Forgot Your Password?]** and follow the [instructions](../customers/password-reset.md) to reset your password.
 
 ## Set the redirect to the Account Dashboard after customer login
 
 You can configure the store to redirect customers to their account dashboard after they log in or let them continue shopping.
 
-1. On the _Admin_ sidebar, go to [!UICONTROL **Stores**] > _Settings_ > [!UICONTROL **Configuration**].
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _Settings_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand [!UICONTROL **Customers**] and choose [!UICONTROL **Customer Configuration**].
+1. In the left panel, expand **[!UICONTROL Customers]** and choose **[!UICONTROL Customer Configuration]**.
 
-1. Expand the [!UICONTROL **Login Options**] section.
+1. Expand the **[!UICONTROL Login Options]** section.
 
-1. Set [!UICONTROL **Redirect Customer to Account Dashboard after Logging in**] to one of the following:
+1. Set **[!UICONTROL Redirect Customer to Account Dashboard after Logging in]** to one of the following:
 
    |Column|Description|
    | --- | --- |
@@ -46,17 +46,17 @@ You can configure the store to redirect customers to their account dashboard aft
 
    {style="table-layout:auto"}
 
-1. When complete, click [!UICONTROL **Save Config**].
+1. When complete, click **[!UICONTROL Save Config]**.
 
 ## Sign in with Amazon
 
-1. In the header of the store, click [!UICONTROL **Sign in**].
+1. In the header of the store, click **[!UICONTROL Sign in]**.
 
-1. Click [!UICONTROL **Login with Amazon**].
+1. Click **[!UICONTROL Login with Amazon]**.
 
    ![Login with Amazon](assets/amazon-pay.png)
 
-1. When prompted to sign in, enter the [!UICONTROL **email address**] and [!UICONTROL **password**] for your Amazon buyer account.
+1. When prompted to sign in, enter the **[!UICONTROL email address]** and **[!UICONTROL password]** for your Amazon buyer account.
 
    ![Enter Your Amazon Credentials](assets/amazon-popup1.png)
 
@@ -70,8 +70,8 @@ You can configure the store to redirect customers to their account dashboard aft
 
 ## Sign out of a customer account
 
-1. In the upper-right corner next to  _Welcome, Customer Name!_, click  the [!UICONTROL **v**] menu selector.
+1. In the upper-right corner next to  _Welcome, Customer Name!_, click  the **[!UICONTROL v]** menu selector.
 
-1. Choose [!UICONTROL **Sign Out**].
+1. Choose **[!UICONTROL Sign Out]**.
 
 After the sign-out, the customer is redirected to the homepage, within five seconds.

@@ -15,33 +15,33 @@ The following example shows how to create a customer segment that targets female
 
 ## Step 1: Enable Customer Segments
 
-1. On the _Admin_ sidebar, go to [!UICONTROL **Stores**]  > _Settings_ > [!UICONTROL **Configuration**].
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > _Settings_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand [!UICONTROL **Customers**] and choose [!UICONTROL **Customer Configuration**].
+1. In the left panel, expand **[!UICONTROL Customers]** and choose **[!UICONTROL Customer Configuration]**.
 
-1. Expand the [!UICONTROL **Customer Segments**] section.
+1. Expand the **[!UICONTROL Customer Segments]** section.
 
-1. Verify that [!UICONTROL **Enable Customer Segment Functionality**] is set to `Yes`.
+1. Verify that **[!UICONTROL Enable Customer Segment Functionality]** is set to `Yes`.
 
    ![Customers configuration - customer segments](assets/customer-configuration-customer-segments.png)
 
-1. When complete, click [!UICONTROL **Save Config**].
+1. When complete, click **[!UICONTROL Save Config]**.
 
 ## Step 2: Add a Customer Segment
 
-1. On the _Admin_ sidebar, go to [!UICONTROL **Customers**] > [!UICONTROL **Segments**].
+1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Segments]**.
 
-1. In the upper-right corner, click [!UICONTROL **Add Segment**].
+1. In the upper-right corner, click **[!UICONTROL Add Segment]**.
 
-1. Enter a [!UICONTROL **Segment Name**] to identify the customer segment when working in the Admin.
+1. Enter a **[!UICONTROL Segment Name]** to identify the customer segment when working in the Admin.
 
-1. Enter a brief [!UICONTROL **Description**] that explains the purpose of the segment.
+1. Enter a brief **[!UICONTROL Description]** that explains the purpose of the segment.
 
-1. Set [!UICONTROL **Assigned to Website**] to the website where the customer segment can be used.
+1. Set **[!UICONTROL Assigned to Website]** to the website where the customer segment can be used.
 
-1. Set the [!UICONTROL **Status**] to _Active_ or _Inactive_.
+1. Set the **[!UICONTROL Status]** to _Active_ or _Inactive_.
 
-1. To identify the customer types that you want to use for applying the segment, set [!UICONTROL **Apply to**] to one of the following:
+1. To identify the customer types that you want to use for applying the segment, set **[!UICONTROL Apply to]** to one of the following:
 
    |Field|Description|
    | --- | --- |
@@ -55,7 +55,7 @@ The following example shows how to create a customer segment that targets female
 
    ![Segment properties](assets/customer-segment-saved.png)
 
-1. Click [!UICONTROL **Save and Continue Edit**].
+1. Click **[!UICONTROL Save and Continue Edit]**.
 
 1. Additional options become available in the left panel.
 
@@ -73,7 +73,7 @@ The following example shows how to create a customer segment that targets female
 
 ## Step 3: Define the conditions (Example)
 
-1. In the left pane, click [!UICONTROL **Conditions**].
+1. In the left pane, click **[!UICONTROL Conditions]**.
 
    The default condition begins, "If ALL of these conditions are TRUE:".
 
@@ -81,7 +81,7 @@ The following example shows how to create a customer segment that targets female
 
 1. Create a condition to target female customers:
 
-   * Click the [!UICONTROL **Add**] icon to display the list of conditions and select `Gender`.
+   * Click the **[!UICONTROL Add]** icon to display the list of conditions and select `Gender`.
 
    * Leave the default **is** condition control option.
 
@@ -91,17 +91,17 @@ The following example shows how to create a customer segment that targets female
 
 1. Create another condition that targets residents of Los Angeles:
 
-   * On the next line, click the [!UICONTROL **Add**] icon and select `Customer Address`.
+   * On the next line, click the **[!UICONTROL Add]** icon and select `Customer Address`.
 
 1. This creates a parent condition where you can define one or more address fields to match.
 
-   * Click the [!UICONTROL **Add**] icon to display the list of address fields and select `City`.
+   * Click the **[!UICONTROL Add]** icon to display the list of address fields and select `City`.
 
    * Click **is** to display the condition control options and select `contains`.
 
    * Click **...** and enter `Los Angeles`.
 
-   * On the next line, click the [!UICONTROL **Add**] icon and select `State/Province`.
+   * On the next line, click the **[!UICONTROL Add]** icon and select `State/Province`.
 
    * Leave the default **is** condition control option.
 
@@ -109,27 +109,27 @@ The following example shows how to create a customer segment that targets female
 
    ![Conditions for females in Los Angeles, California](assets/customer-segment-conditions-la-ladies.png)
 
-1. Click [!UICONTROL **Save and Continue Edit**].
+1. Click **[!UICONTROL Save and Continue Edit]**.
 
 ## Step 4: Review the list of matched customers
 
-1. In the left pane, click [!UICONTROL **Matched Customers**] to display all customers who match the condition.
+1. In the left pane, click **[!UICONTROL Matched Customers]** to display all customers who match the condition.
 
    ![Matched customers](assets/customer-segment-matched-customers.png)
 
-1. If the list of customers meets your goal, click [!UICONTROL **Save**] to complete the customer segment.
+1. If the list of customers meets your goal, click **[!UICONTROL Save]** to complete the customer segment.
 
 1. The customer segment can now be used for targeting promotions, content, and mailings.
 
 ## Delete a customer segment
 
-1. On the _Admin_ sidebar, go to [!UICONTROL **Customers**] > [!UICONTROL **Segments**].
+1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Segments]**.
 
 1. Find the segment to be deleted and select it.
 
-1. In the menu bar click [!UICONTROL **Delete**] button.
+1. In the menu bar click **[!UICONTROL Delete]** button.
 
-1. To confirm the action, click [!UICONTROL **OK**].
+1. To confirm the action, click **[!UICONTROL OK]**.
 
 ## Button bar
 

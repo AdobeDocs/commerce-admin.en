@@ -11,9 +11,9 @@ The [!DNL Customers] grid lists all [!DNL Customers] who have registered for an 
 
 ## View customer information
 
-1. On the _Admin_ sidebar, go to [!UICONTROL **Customers**] > [!UICONTROL **All Customers**].
+1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
-1. Find the customer record and click [!UICONTROL **Edit**] in the _Action_ column.
+1. Find the customer record and click **[!UICONTROL Edit]** in the _Action_ column.
 
 1. In the left panel, choose the information you need to edit and make the necessary changes.
 
@@ -21,7 +21,7 @@ The [!DNL Customers] grid lists all [!DNL Customers] who have registered for an 
    >
    > To learn more, see [Updating Customer Accounts](../customers/update-account.md).
 
-1. When complete, click [!UICONTROL **Save Customer**].
+1. When complete, click **[!UICONTROL Save Customer]**.
 
 ## Workspace Controls
 

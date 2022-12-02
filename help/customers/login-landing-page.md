@@ -9,15 +9,15 @@ You can configure your store to redirect customers to their account dashboard af
 
 ## Set the login landing page
 
-1. On the _Admin_ sidebar, go to [!UICONTROL **Stores**] > _Settings_ > [!UICONTROL **Configuration**].
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _Settings_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand [!UICONTROL **Customers**] and choose [!UICONTROL **Customer Configuration**].
+1. In the left panel, expand **[!UICONTROL Customers]** and choose **[!UICONTROL Customer Configuration]**.
 
-1. Expand the [!UICONTROL **Login Options**] section.
+1. Expand the **[!UICONTROL Login Options]** section.
 
    ![Login Options](assets/customer-configuration-login-options.png)<!-- zoom -->
 
-1. Set [!UICONTROL **Redirect Customer to Account Dashboard after Logging in**] to one of the following:
+1. Set **[!UICONTROL Redirect Customer to Account Dashboard after Logging in]** to one of the following:
 
    |Column|Description|
    | --- | --- |
@@ -26,4 +26,4 @@ You can configure your store to redirect customers to their account dashboard af
 
    {style="table-layout:auto"}
 
-1. When complete, click [!UICONTROL **Save Config**].
+1. When complete, click **[!UICONTROL Save Config]**.

@@ -25,56 +25,56 @@ Enabling Login as Customer requires that you enable the feature in your commerce
 
 ### Enable the feature
 
-1. On the _Admin_ sidebar go to  [!UICONTROL **Stores**] > _Settings_ > [!UICONTROL **Configuration**].
+1. On the _Admin_ sidebar go to  **[!UICONTROL Stores]** > _Settings_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand [!UICONTROL **Customers**] and choose  [!UICONTROL **Login as Customer**].
+1. In the left panel, expand **[!UICONTROL Customers]** and choose  **[!UICONTROL Login as Customer]**.
 
    ![Configuration options - Login as Customer](assets/login-as-customer-view.png)
 
-1. Set [!UICONTROL **Enable Login as Customer**] to `Yes`.
+1. Set **[!UICONTROL Enable Login as Customer]** to `Yes`.
 
-1. _(Optional)_ Set [!UICONTROL **Disable Page Cache for Admin User**] to `No` to enable the page cache when the Admin user logs in as a customer.
+1. _(Optional)_ Set **[!UICONTROL Disable Page Cache for Admin User]** to `No` to enable the page cache when the Admin user logs in as a customer.
 
    >[!WARNING]
    >
    > Disabling the page cache (`Yes` - default) ensures that the user logging in as Customer will get fresh, uncached data.
 
-1. _(Optional)_ Set [!UICONTROL **Store View to Log in**] to `Manual Selection` if you have a multi-site and/or multi-store setup and want the Admin user to select the store view when logging in as a customer.
+1. _(Optional)_ Set **[!UICONTROL Store View to Log in]** to `Manual Selection` if you have a multi-site and/or multi-store setup and want the Admin user to select the store view when logging in as a customer.
 
-1. When complete, click [!UICONTROL **Save Config**].
+1. When complete, click **[!UICONTROL Save Config]**.
 
 ### Enable access for Admin users
 
-1. On the _Admin_ sidebar, go to [!UICONTROL **System**] > _Permissions_ > [!UICONTROL **User Roles**].
+1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _Permissions_ > **[!UICONTROL User Roles]**.
 
 1. Click a role in the list to edit it.
 
-1. In the [!UICONTROL _Role Information_] left panel, click [!UICONTROL **Role Resources**].
+1. In the [!UICONTROL _Role Information_] left panel, click **[!UICONTROL Role Resources]**.
 
-1. Change [!UICONTROL **Role Resources**] on the page to `Custom`.
+1. Change **[!UICONTROL Role Resources]** on the page to `Custom`.
 
    >[!INFO]
    >
    > With this option selected, the resource hierarchy is displayed in the page.
 
-1. Scroll to the  [!UICONTROL **Customers**]  parent item and the [!UICONTROL **Login as Customer**] item underneath. Then, select the resources that you want to enable for the role:
+1. Scroll to the  **[!UICONTROL Customers]**  parent item and the **[!UICONTROL Login as Customer]** item underneath. Then, select the resources that you want to enable for the role:
 
-   * [!UICONTROL **Allow Login as Customer**] - This allows the Admin user to use the _Login as Customer_ feature.
-   * [!UICONTROL **View Login as Customer Log**] - Allows the Admin user to see the _Login as Customer_ Log.
+   * **[!UICONTROL Allow Login as Customer]** - This allows the Admin user to use the _Login as Customer_ feature.
+   * **[!UICONTROL View Login as Customer Log]** - Allows the Admin user to see the _Login as Customer_ Log.
 
    ![Role Resources - Login as Customer](assets/customers-login-as-customer-role-resources.png)
 
-1. Click [!UICONTROL **Save Role**].
+1. Click **[!UICONTROL Save Role]**.
 
 ## Login as a customer from the admin panel
 
-1. On the _Admin_ sidebar, go to [!UICONTROL **Customers**] > [!UICONTROL _All Customers_].
+1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > [!UICONTROL _All Customers_].
 
 1. Open a user in edit mode.
 
-1. In the [!UICONTROL **Customer Information**] panel, choose the [!UICONTROL **Account Information**] section.
+1. In the **[!UICONTROL Customer Information]** panel, choose the **[!UICONTROL Account Information]** section.
 
-1. Set the [!UICONTROL **Allow remote shopping assistance**] to `Yes`.
+1. Set the **[!UICONTROL Allow remote shopping assistance]** to `Yes`.
 
    >[!INFO]
    >
@@ -86,7 +86,7 @@ Enabling Login as Customer requires that you enable the feature in your commerce
 
 Adobe Commerce provides a logging for the _Login as Customer_ actions. It lists all sessions where a Admin user accesses the feature. To access the logged actions, go to the [Admin Actions Report](../systems/action-log-report.md).
 
-You can filter the report setting [!UICONTROL **Action Group**] to `Login As Customer` at the top of the page and clicking [!UICONTROL **Search**].
+You can filter the report setting **[!UICONTROL Action Group]** to `Login As Customer` at the top of the page and clicking **[!UICONTROL Search]**.
 
 ![Filter the Actions Report](assets/customers-login-as-customer-log-filter.png)
 
@@ -94,11 +94,11 @@ You can filter the report setting [!UICONTROL **Action Group**] to `Login As Cus
 
 To allow the ability for the merchant to log in as the customer from the Admin, a customer must enable the feature:
 
-1. Go to the [!UICONTROL **Account Information**] page.
+1. Go to the **[!UICONTROL Account Information]** page.
 
-1. Select the [!UICONTROL **Allow remote shopping assistance**] checkbox.
+1. Select the **[!UICONTROL Allow remote shopping assistance]** checkbox.
 
-1. Click the [!UICONTROL **Save**] button.
+1. Click the **[!UICONTROL Save]** button.
 
 ![Account Information Page](assets/permission.png)
 
@@ -114,7 +114,7 @@ To allow the ability for the merchant to log in as the customer from the Admin, 
 
 Login as Customer allows you to see the site just as the customer does, and allows you to troubleshoot and take other actions for the customer. If you have an assigned user role with the required permissions:
 
-1. You can click [!UICONTROL **Login as Customer**] on the pages listed in the previous section.
+1. You can click **[!UICONTROL Login as Customer]** on the pages listed in the previous section.
 1. The Login as Customer actions are available in the Actions Report.
 
 >[!WARNING]

@@ -11,19 +11,19 @@ The left panel of the Customer Information page includes information about custo
 
 ## Update a customer profile
 
-1. On the _Admin_ sidebar, go to [!UICONTROL **Customers**] > [!UICONTROL **All Customers**].
+1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
-1. Find the customer in the grid and click [!UICONTROL **Edit**] in the _Action_ column.
+1. Find the customer in the grid and click **[!UICONTROL Edit]** in the _Action_ column.
 
 1. In the left panel, choose the type of information you need to edit.
 
 1. Make any necessary changes to the field values using the field descriptions for reference.
 
-1. When complete, click [!UICONTROL **Save Customer**] or [!UICONTROL **Save and Continue Edit**].
+1. When complete, click **[!UICONTROL Save Customer]** or **[!UICONTROL Save and Continue Edit]**.
 
 >[!INFO]
 >
-> If you want to undo all the edits made, click [!UICONTROL **Reset**] in the top button bar to return all changes to the last saved version
+> If you want to undo all the edits made, click **[!UICONTROL Reset]** in the top button bar to return all changes to the last saved version
 
 ## Customer information
 

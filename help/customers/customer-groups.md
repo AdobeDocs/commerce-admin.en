@@ -11,27 +11,27 @@ description: Customer groups determine which discounts are available and the tax
 
 ## Filter [!DNL Customers Group]
 
-1. On the _Admin_ sidebar, go to [!UICONTROL **Customers**] > [!UICONTROL **Customer Groups**].
+1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]**.
 
-1. Click [!UICONTROL **Filters**].
+1. Click **[!UICONTROL Filters]**.
 
 1. Enter criteria for searching groups, including a range of IDs, group, or tax class.
 
    ![Filtering Options](assets/groups-filters.png)<!-- zoom -->
 
-1. When complete, click [!UICONTROL **Apply Filters**].
+1. When complete, click **[!UICONTROL Apply Filters]**.
 
 ## Create a [!DNL Customers Group]
 
-1. On the _Admin_ sidebar, go to [!UICONTROL **Customers**] > [!UICONTROL **Customer Groups**].
+1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]**.
 
-1. Click [!UICONTROL **Add New Customer Group**].
+1. Click **[!UICONTROL Add New Customer Group]**.
 
-1. Enter a unique [!DNL **Group Name**] less than 32 characters to identify the group.
+1. Enter a unique [!DNL **Group Name]** less than 32 characters to identify the group.
 
-1. Select the [!UICONTROL **Tax Class**] that applies to the group.
+1. Select the **[!UICONTROL Tax Class]** that applies to the group.
 
-1. Select the [!UICONTROL **Excluded Website(s)**] that you want to [exclude from the group](https://developer.adobe.com/commerce/php/development/components/indexing/optimization/).
+1. Select the **[!UICONTROL Excluded Website(s)]** that you want to [exclude from the group](https://developer.adobe.com/commerce/php/development/components/indexing/optimization/).
 
    >[!NOTE]
    >
@@ -39,21 +39,21 @@ description: Customer groups determine which discounts are available and the tax
 
    ![Group Information](assets/group-information.png)<!-- zoom -->
 
-1. When complete, click [!UICONTROL **Save Customer Group**].
+1. When complete, click **[!UICONTROL Save Customer Group]**.
 
 ## Edit a [!DNL Customers Group]
 
-1. On the _Admin_ sidebar, go to [!UICONTROL **Customers**] > [!UICONTROL **Customer Groups**].
+1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]**.
 
 1. Open the record in edit mode.
 
 1. Make the necessary changes.
 
-1. When complete, click [!UICONTROL **Save Customer Group**].
+1. When complete, click **[!UICONTROL Save Customer Group]**.
 
 ## Assign a customer to a different group
 
-1. On the _Admin_ sidebar, go to [!UICONTROL **Customers**] > [!UICONTROL **All Customers**].
+1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
 1. Find the customer in the list and select the checkbox in the first column.
 
@@ -67,7 +67,7 @@ description: Customer groups determine which discounts are available and the tax
 
 ## Associate a group of customers with specific discounts
 
-1. On the _Admin_ sidebar, go to [!UICONTROL **Marketing**] > _Promotions_ > [!UICONTROL **Cart Price Rules**].
+1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _Promotions_ > **[!UICONTROL Cart Price Rules]**.
 
 1. Select the cart price rule with the discount to apply, or [create a new price rule](../merchandising-promotions/price-rules-catalog.md).
 
@@ -75,7 +75,7 @@ description: Customer groups determine which discounts are available and the tax
 
    ![Customer Group to Specific Discounts](assets/group-discount.png)<!-- zoom -->
 
-1. Click [!UICONTROL **Save**].
+1. Click **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
@@ -83,11 +83,11 @@ description: Customer groups determine which discounts are available and the tax
 
 ## Delete a [!DNL Customers Group]
 
-1. On the _Admin_ sidebar, go to [!UICONTROL **Customers**] > [!UICONTROL **Customer Groups**].
+1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]**.
 
 1. Open the record in edit mode.
 
-1. In the button bar, click [!UICONTROL **Delete Customer Group**].
+1. In the button bar, click **[!UICONTROL Delete Customer Group]**.
 
 1. When prompted to confirm, click **OK**.
 

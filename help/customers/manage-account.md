@@ -11,7 +11,7 @@ Use the Customers grid to find any customer account. You can use the standard [w
 
 ## Customer account actions
 
-1. On the _Admin_ sidebar, go to [!UICONTROL **Customers**] > [!UICONTROL **All Customers**].
+1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
 1. In the first column of the grid, select the checkbox of each record that you want to update.
 
@@ -21,13 +21,13 @@ Use the Customers grid to find any customer account. You can use the standard [w
    >
    > The following actions can be applied to either single or multiple records.
 
-1. When complete, click [!UICONTROL **Save Config**].
+1. When complete, click **[!UICONTROL Save Config]**.
 
 ### Subscribe to newsletter
 
 In multi-store and multi-site setups with a global [customer account scope](../customers/customer-account-scope.md), a customer account can be subscribed to newsletters multiple sites or stores. If you apply the _Subscribe_ action to a customer account, it activates the newsletter subscription for the default site/store view only.
 
-* Set the [!UICONTROL **Actions**] control to `Subscribe to newsletter`.
+* Set the **[!UICONTROL Actions]** control to `Subscribe to newsletter`.
 
 See [Managing Subscribers](../merchandising-promotions/newsletter-subscribers.md) for more information about managing newsletter subscriptions for a customer.
 
@@ -35,7 +35,7 @@ See [Managing Subscribers](../merchandising-promotions/newsletter-subscribers.md
 
 In multi-store and multi-site setups with a global [customer account scope](https://docs.magento.com/user-guide/customers/account-scope.html), a customer account can be subscribed to newsletters for multiple sites/stores. If you apply the _Unsubscribe_ action to a customer account, all active subscriptions will be unsubscribed.
 
-1. Set the [!UICONTROL **Actions**] control to `Unsubscribe to newsletter`.
+1. Set the **[!UICONTROL Actions]** control to `Unsubscribe to newsletter`.
 
 2. When prompted to confirm, click **OK**.
 
@@ -43,11 +43,11 @@ See [Managing Subscribers](../merchandising-promotions/newsletter-subscribers.md
 
 ### Assign a customer group
 
-1. Set the [!UICONTROL **Actions**] control to `Assign a customer group`.
+1. Set the **[!UICONTROL Actions]** control to `Assign a customer group`.
 
 1. Choose the customer group to which all selected customer records are to be assigned.
 
-1. When prompted to confirm, click [!UICONTROL **OK**].
+1. When prompted to confirm, click **[!UICONTROL OK]**.
 
 ### Edit a customer account
 
@@ -55,7 +55,7 @@ Method 1: **Quick Edit**
 
 1. In the first column, select the checkbox of the customer account to be edited.
 
-1. Set the [!UICONTROL **Actions**] column to `Edit`.
+1. Set the **[!UICONTROL Actions]** column to `Edit`.
 
    >[!INFO]
    >
@@ -70,13 +70,13 @@ Method 1: **Quick Edit**
    * [!UICONTROL Tax/VAT Number]
    * [!UICONTROL Gender]
 
-1. Click [!UICONTROL **Save**].
+1. Click **[!UICONTROL Save]**.
 
 Method 2: **Full Edit**
 
 1. In the grid, find the customer record to be edited.
 
-1. In the _Actions_ column on the far right, click [!UICONTROL **Edit**].
+1. In the _Actions_ column on the far right, click **[!UICONTROL Edit]**.
 
 1. Make the necessary changes to the company information.
 
@@ -84,26 +84,26 @@ Method 2: **Full Edit**
    >
    > To learn more, see [Updating Customer Accounts](../customers/update-account.md).
 
-1. When complete, click [!UICONTROL **Save Customer**].
+1. When complete, click **[!UICONTROL Save Customer]**.
 
 ### Delete customer accounts
 
 Deleted customer accounts cannot be restored. Information about customer activity and transactions is retained in the system.
 
-1. Set the [!UICONTROL **Actions**] control to `Delete`.
+1. Set the **[!UICONTROL Actions]** control to `Delete`.
 
-1. When prompted to confirm, click [!UICONTROL **OK**].
+1. When prompted to confirm, click **[!UICONTROL OK]**.
 
 ## Export customers accounts
 
-1. On the _Admin_ sidebar, go to [!UICONTROL **Customers**] > [!UICONTROL **All Customers**].
+1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
-1. In the Table Header Menu, click [!UICONTROL **Export**] and select the desired format:
+1. In the Table Header Menu, click **[!UICONTROL Export]** and select the desired format:
 
    * CSV
    * Excel XML
 
-1. Click [!UICONTROL **OK**]. The file will go to your default downloads folder.
+1. Click **[!UICONTROL OK]**. The file will go to your default downloads folder.
 
 The above instruction will export all customer accounts. If you want to export a limited set, select the checkboxes for the accounts you want to export, or use filters on the control panel to select a range of customer accounts.
 

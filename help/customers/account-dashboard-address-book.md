@@ -11,9 +11,9 @@ Customers who keep their address books current can speed through the checkout pr
 
 ## Add a new address
 
-1. In the sidebar of their customer account, the customer chooses [!UICONTROL **Address Book**].
+1. In the sidebar of their customer account, the customer chooses **[!UICONTROL Address Book]**.
 
-1. On the Address Book page under _Additional Address Entries_, clicks [!UICONTROL **Add New Address**].
+1. On the Address Book page under _Additional Address Entries_, clicks **[!UICONTROL Add New Address]**.
 
     ![Add New Address](assets/add-new-address.png)
 
@@ -30,7 +30,7 @@ Customers who keep their address books current can speed through the checkout pr
       * Use as my default billing address
       * Use as my default shipping address
 
-1. When complete, clicks [!UICONTROL **Save Address**].
+1. When complete, clicks **[!UICONTROL Save Address]**.
 
    >[!INFO]
    >
@@ -40,41 +40,41 @@ Customers who keep their address books current can speed through the checkout pr
 
 ## Edit an address
 
-1. In the sidebar of the their account, the customer selects [!UICONTROL **Address Book**].
+1. In the sidebar of the their account, the customer selects **[!UICONTROL Address Book]**.
 
 1. Finds the address entry to be edited.
 
-1. Clicks [!UICONTROL **Edit**].
+1. Clicks **[!UICONTROL Edit]**.
 
 1. Makes any needed changes.
 
    >[!INFO]
    >
-   > The customer can set this address as the default [!UICONTROL **Shipping or Billing**] address by selecting the _Use as my default billing address_ checkboxes.
+   > The customer can set this address as the default **[!UICONTROL Shipping or Billing]** address by selecting the _Use as my default billing address_ checkboxes.
 
-1. When changes are complete, clicks [!UICONTROL **Save Address**].
+1. When changes are complete, clicks **[!UICONTROL Save Address]**.
 
 ## Change the default address
 
-1. In the sidebar of the their account, the customer selects [!UICONTROL **Address Book**].
+1. In the sidebar of the their account, the customer selects **[!UICONTROL Address Book]**.
 
 1. Chooses one of the edit methods:
 
-   * Clicks [!UICONTROL **Change Billing/Shipping Address**] in the _Default Addresses_ section.
+   * Clicks **[!UICONTROL Change Billing/Shipping Address]** in the _Default Addresses_ section.
 
    * Clicks **Edit** in the _Additional Address Entries_ grid.
 
-1. Makes the necessary changes, and clicks [!UICONTROL **Save Address**].
+1. Makes the necessary changes, and clicks **[!UICONTROL Save Address]**.
 
 ## Delete an address
 
-1. In the sidebar of their account, the customer selects [!UICONTROL **Address Book**].
+1. In the sidebar of their account, the customer selects **[!UICONTROL Address Book]**.
 
 1. Finds the address entry to be deleted.
 
-1. Clicks [!UICONTROL **Delete**] in the _Additional Address Entries_ grid.
+1. Clicks **[!UICONTROL Delete]** in the _Additional Address Entries_ grid.
 
-1. To confirm the action, clicks [!UICONTROL **OK**].
+1. To confirm the action, clicks **[!UICONTROL OK]**.
 
    >[!IMPORTANT]
    >
