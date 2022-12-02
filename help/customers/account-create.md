@@ -1,9 +1,9 @@
 ---
-title: Creating an Individual Customer Account
+title: Create an Individual Customer Account
 description: Visitors can easily create an individual customer account to manage their purchases.
 ---
 
-# Creating an Individual Customer Account
+# Create an Individual Customer Account
 
 Visitors to your store can open an account to manage their purchases and activities. Customers usually create their own accounts from your store. However, you can also create customer accounts directly from the Admin, which is useful for helping customers over the phone.
 

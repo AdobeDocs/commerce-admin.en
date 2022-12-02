@@ -13,15 +13,15 @@ Assigning a customer group to a company is essentially the same as assigning a s
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-2. Find the company in the grid and click **[!UICONTROL Edit]** in the _[!UICONTROL Action]_ column.
+1. Find the company in the grid and click **[!UICONTROL Edit]** in the _[!UICONTROL Action]_ column.
 
    ![Edit Company](./assets/companies-grid-edit.png)<!-- zoom -->
 
-3. On the company page, scroll down and expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Advanced Settings]** section.
+1. On the company page, scroll down and expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Advanced Settings]** section.
 
    ![Customer Groups / Shared Catalogs](./assets/company-customer-group-shared-catalog.png)<!-- zoom -->
 
-4. Set the appropriate **[!UICONTROL Customer Group]**.
+1. Set the appropriate **[!UICONTROL Customer Group]**.
 
    >[!NOTE]
    >
@@ -33,6 +33,6 @@ Assigning a customer group to a company is essentially the same as assigning a s
    >
    >If the customer group assignment is changed from a shared catalog to a regular customer group, company members lose access to the shared catalog and the primary catalog becomes available to them from the storefront.
 
-5. When prompted to confirm, click **[!UICONTROL Proceed]**.
+1. When prompted to confirm, click **[!UICONTROL Proceed]**.
 
-6. Click **[!UICONTROL Save]**.
+1. Click **[!UICONTROL Save]**.
