@@ -5,7 +5,7 @@ exl-id: 0b3c3635-a1cf-4ee6-a8bc-e7cbcb4e2e63
 ---
 # Company Accounts
 
-When you incorporate B2B company accounts in your store, you can simplify the corporate shopping experience by enabling companies to create multiple sub-accounts with flexible permissions based on user roles in their organization. Depending on the company, a store administrator can adjust promotions and prices to suit their needs, and create highly customized offers that cater to the shoppers’ demands and increase orders. Adding a company account association to a standard [individual](https://docs.magento.com/user-guide/customers/account-create.html) allows the customer to use the specific purchasing workflows defined for the company.
+When you incorporate B2B company accounts in your store, you can simplify the corporate shopping experience by enabling companies to create multiple sub-accounts with flexible permissions based on user roles in their organization. Depending on the company, a store administrator can adjust promotions and prices to suit their needs, and create highly customized offers that cater to the shoppers' demands and increase orders. Adding a company account association to a standard [individual](https://docs.magento.com/user-guide/customers/account-create.html) allows the customer to use the specific purchasing workflows defined for the company.
 
 Advantages of a company account:
 
@@ -27,17 +27,43 @@ In the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Compani
 
 ![Companies Grid](./assets/companies-grid.png)<!-- zoom -->
 
-The Companies grid lists all companies regardless of status. The displayed example shows accounts for two companies: the “ABC Company” and the “XYZ Company”.
+The Companies grid lists all companies regardless of status. The displayed example shows accounts for two companies: the "ABC Company" and the "XYZ Company".
 
 ## Company administrator
 
-The following example shows the _Customers_ grid with the initial company administrator account for the “XYZ Company”.
+The following example shows the _Customers_ grid with the initial company administrator account for the "XYZ Company".
 
 ![Customers grid with company administrator account](./assets/company-admin-user-account.png)<!-- zoom -->
 
 It is possible that the person who serves as company administrator has multiple roles within the company. If a separate email address is entered for the company administrator, the initial company structure includes the company administrator plus an individual user account in the name of the company administrator. In such a case, the company administrator can sign in to the account as the company or as an individual user.
 
 After creating the account, the company administrator defines the company structure of [teams](account-company-structure.md), sets up the [company users](account-company-users.md), and establishes [roles and permissions](account-company-roles-permissions.md) for each.
+
+### Set company administrator password before first sign in
+
+1. Look for a Welcome email to arrive from the store.
+
+   ![Example Welcome Email](../customers/assets/company-admin-welcome-email.png)
+
+1. Follow the instructions and click [!UICONTROL **link**] to set your password.
+
+1. Enter a [!UICONTROL **New Password**] for your account and again to confirm.
+
+   The password must include at least three of the following character types:
+
+   - Lowercase characters (abc...)
+   - Uppercase characters (ABC...)
+   - Numbers (1234567890)
+   - Special characters (!@#$...)
+
+1. Click [!UICONTROL **Set a New Password**].
+
+   ![Customer Login - company admin](../customers/assets/company-admin-account-login.png)
+
+1. When the Customer Login page appears, enter your [!UICONTROL **Email**] and [!UICONTROL **Password**].
+1. Click [!UICONTROL **Sign In**] to access your account dashboard.
+
+   ![Account Dashboard - company](../customers/assets/account-dashboard-company.png)
 
 ## Company structure
 
