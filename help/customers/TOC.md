@@ -1,7 +1,6 @@
 ---
 user-guide-title: Customer Management Guide
 breadcrumb-title: customer management
-hide: yes
 ---
 
 # Customer Management Guide {#customers}
