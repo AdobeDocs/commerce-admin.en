@@ -113,7 +113,7 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 
 | Description | Type | Date |
 | ----------- | ---- | ---- |
-| **New guide** - Content now published in the Experience League: [Customer Management Guide](../customers/guide-overview.md) | Move | 12/1/2022 |
+| **New guide** - Content now published in the Experience League: [Customer Management Guide](../customers/guide-overview.md) | Move | 12/5/2022 |
 | **New guide** - Content now published in the Experience League: [Configuration Reference Guide](../configuration-reference/guide-overview.md) | Move | 12/1/2022 |
 | **New guide** - Content now published in the Experience League: [Admin Systems Guide](../systems/guide-overview.md) | Move | 11/14/2022 |
 | **New guide** - Content now published in the Experience League: [Sales and Purchase Experience Guide](../stores-purchase/guide-overview.md) | Move | 10/25/2022 |
