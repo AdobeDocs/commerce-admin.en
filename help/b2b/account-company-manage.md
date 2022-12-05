@@ -36,6 +36,35 @@ The following actions can be applied to either single or multiple records.
 
 1. When prompted to confirm, click **[!UICONTROL OK]**.
 
+### Set active/inactive
+
+Customers with inactive accounts cannot log in or make purchases from their accounts. There are two methods to set a customer account as active or inactive:
+
+Method 1: **From the customers grid**
+
+1. On the _Admin_ sidebar, go to [!UICONTROL **Customers**] > [!UICONTROL **All Customers**].
+
+1. Set the [!UICONTROL **Actions**] control to one of the following:
+
+   - `Active`
+   - `Inactive`
+
+1. When prompted to confirm, click **[!UICONTROL OK]**.
+
+Method 2: **From the account edit page**
+
+1. On the _Admin_ sidebar, go to [!UICONTROL **Customers**] > [!UICONTROL **All Customers**].
+
+1. In the grid, find the customer record to be edited.
+
+1. In the _Actions_ column on the far right, click [!UICONTROL **Edit**].
+
+1. Select the [!UICONTROL **Account Information**] tab.
+
+1. Set [!UICONTROL **Customer Active**] to `Yes` or `No`.
+
+1. Click [!UICONTROL **Save Customer**].
+
 ### Block company accounts
 
 Users who are associated with a blocked company account cannot access the account, or place orders from the store. A company with an account that is not in good standing might be blocked temporarily until the matter is resolved.

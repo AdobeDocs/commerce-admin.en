@@ -1,6 +1,7 @@
 ---
-title: "[!UICONTROL Customers] > [!UICONTROL Reward Points]"
-description: Review the configurations settings on the [!UICONTROL Customers] > [!UICONTROL Reward Points] page of the Commerce Admin.
+title: '[!UICONTROL Customers] &gt; [!UICONTROL Reward Points]'
+description: Review the configurations settings on the [!UICONTROL Customers] &gt; [!UICONTROL Reward Points] page of the Commerce Admin.
+exl-id: 0b7f8806-74c5-4467-87da-0faae50f164b
 ---
 # [!UICONTROL Customers] > [!UICONTROL Reward Points]
 

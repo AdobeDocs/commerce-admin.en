@@ -23,7 +23,7 @@ When the native Product Reviews function is enabled, customers can write reviews
 
 - **Be the first to review this product** for products with no existing reviews.
 
-The Reviews tab lists all current reviews and the form that was used to submit a review.
+The [!UICONTROL Reviews] tab lists all current reviews and the form that was used to submit a review.
 
 Your configuration determines whether customers must open an account with your store before writing product reviews or if they can submit reviews as guests. Requiring reviewers to open an account prevents anonymous submissions and improves the quality of reviews.
 
@@ -32,6 +32,18 @@ Your configuration determines whether customers must open an account with your s
 The number of stars indicates the product's satisfaction rating. Visitors can click the link to read the reviews and write their own. As an incentive, customers can receive reward points for submitting a review. When a review is submitted, it is sent to the Admin for moderation. When approved, the review is published in your store.
 
 ![Example storefront - Reviews tab](./assets/storefront-reviews-tab.png)<!-- zoom -->
+
+### [!UICONTROL My Product Reviews]
+
+The _[!UICONTROL My Product Reviews]_ section of the customer account dashboard lists all the reviews submitted by the customer and approved for publication. Each review summary includes the date that the review was submitted, links to the product page, and review details.
+
+![My Product Reviews](./assets/account-dashboard-my-product-reviews.png)<!-- zoom -->
+
+1. In the sidebar of their account, the customer chooses **[!UICONTROL My Product Reviews]**.
+
+1. To view the full review, clicks **[!UICONTROL See Details]**.
+
+   ![Review Details](./assets/account-dashboard-my-product-reviews-details.png)<!-- zoom -->
 
 ## Enable product review features
 

@@ -1,6 +1,7 @@
 ---
-title: "[!UICONTROL General] > [!UICONTROL Store Email Addresses]"
-description: Review the configurations settings on the [!UICONTROL General] > [!UICONTROL Store Email Addresses] page of the Commerce Admin.
+title: '[!UICONTROL General] &gt; [!UICONTROL Store Email Addresses]'
+description: Review the configurations settings on the [!UICONTROL General] &gt; [!UICONTROL Store Email Addresses] page of the Commerce Admin.
+exl-id: 7c9e519c-dfc9-4de4-a0a4-1770b7c58145
 ---
 # [!UICONTROL General] > [!UICONTROL Store Email Addresses]
 

@@ -1,6 +1,7 @@
 ---
-title: "[!UICONTROL Security] > [!UICONTROL 2FA]"
-description: Review the configurations settings on the [!UICONTROL Security] > [!UICONTROL 2FA] page of the Commerce Admin.
+title: '[!UICONTROL Security] &gt; [!UICONTROL 2FA]'
+description: Review the configurations settings on the [!UICONTROL Security] &gt; [!UICONTROL 2FA] page of the Commerce Admin.
+exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 ---
 # [!UICONTROL Security] > [!UICONTROL 2FA]
 

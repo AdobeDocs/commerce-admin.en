@@ -1,6 +1,7 @@
 ---
-title: "[!UICONTROL Security] > [!UICONTROL Google reCAPTCHA Storefront]"
-description: Review the configurations settings on the [!UICONTROL Security] > [!UICONTROL Google reCAPTCHA Storefront] page of the Commerce Admin.
+title: '[!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Storefront]'
+description: Review the configurations settings on the [!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Storefront] page of the Commerce Admin.
+exl-id: 6c03ee68-7421-4c74-bdc1-0855f088b7f9
 ---
 # [!UICONTROL Security] > [!UICONTROL Google reCAPTCHA Storefront]
 
