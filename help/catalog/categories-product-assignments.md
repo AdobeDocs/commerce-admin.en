@@ -15,6 +15,10 @@ For a category, use the _[!UICONTROL Products in Category]_ section to review th
 
 >[!NOTE]
 >
+>On the category pages, `Out of stock` products are always displayed **_after_** `In Stock` products on the product listing with all sorting types.
+
+>[!NOTE]
+>
 >The _Stock_ column displays salable product quantity for _**selected category scope**_ only. When multiple stocks are managed for products, you should switch between the corresponding scopes to display other _Stock_ column values in the _Category Products_ grid.
 
 ## Apply a category rule

@@ -83,3 +83,52 @@ This tab displays the list of the orders placed using the current billing agreem
 |[!UICONTROL Updated]|Update date|
 
 {style="table-layout:auto"}
+
+## Storefront experience
+
+Customers who enter into a billing agreement with a payment provider can make purchases now and pay for them later, according to the agreement. The 
+
+![Billing agreements list in the customer's dashboard](./assets/billing-agreements-dashboard.png)<!-- zoom -->
+
+|Column|Description|
+|--- |--- |
+|[!UICONTROL Reference ID]|A unique, numeric reference identifier that is assigned to each billing agreement|
+|[!UICONTROL Status]|Payment agreement status. Options: `Active` or `Canceled`|
+|[!UICONTROL Created At]|Creation date|
+|[!UICONTROL Updated At]|Update date|
+|[!UICONTROL Payment Method]|A payment provider of a billing agreement|
+|[!UICONTROL View]|Button used for viewing billing agreements|
+
+{style="table-layout:auto"}
+
+### Create a billing agreement
+
+1. From their account dashboard, the customer selects **[!UICONTROL Billing Agreements]**.
+
+1. Under **[!UICONTROL New Billing Agreement]**, selects a payment provider.
+
+1. Click **[!UICONTROL Create]**.
+
+This redirects the customer to the payment system website.
+
+![New billing agreement in the customer account dashboard](./assets/create-billing-agreement-dashboard.png)<!-- zoom -->
+
+### View a billing agreement
+
+1. From their account dashboard, the customer selects **[!UICONTROL Billing Agreements]**.
+
+1. Selects the billing agreement and clicks **[!UICONTROL View]**.
+
+![View billing agreement in customer's dashboard](./assets/view-billing-agreement.png)<!-- zoom -->
+
+### Cancel a billing agreement
+
+1. From their account dashboard, the customer selects **[!UICONTROL Billing Agreements]**.
+
+1. Selects the billing agreement and clicks **[!UICONTROL View]**.
+
+1. In the top-right corner, clicks **[!UICONTROL Cancel]** and then **[!UICONTROL OK]** to confirm.
+
+>[!NOTE]
+>
+>If an Admin user (merchant) cancels the billing agreement, it cannot be cancelled on the storefront. The _Canceled_ status is displayed for this agreement.
