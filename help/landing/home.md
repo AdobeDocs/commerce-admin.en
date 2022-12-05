@@ -78,7 +78,7 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 <tr>
     <td valign="top">
        <img alt="Customer Management" src="./assets/icon-demographic.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://docs.magento.com/user-guide/customers.html"> <strong>Customer Management</strong></a>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/customers/guide-overview.html"> <strong>Customer Management</strong></a>
     <div><em>As you continue to maintain and expand your store, manage customer accounts and customer groups in the Admin.</em></div>
   </td>
 </tr>
@@ -99,7 +99,7 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 <tr>
     <td valign="top">
        <img alt="Configuration Reference" src="./assets/icon-settings.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://docs.magento.com/user-guide/stores/configuration.html"> <strong>Configuration Reference</strong></a>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/config/guide-overview.html"> <strong>Configuration Reference</strong></a>
     <div><em>A quick and handy reference that provides field descriptions for every configuration setting in the Admin.</em></div>
   </td>
 </tr>
@@ -113,6 +113,8 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 
 | Description | Type | Date |
 | ----------- | ---- | ---- |
+| **New guide** - Content now published in the Experience League: [Customer Management Guide](../customers/guide-overview.md) | Move | 12/5/2022 |
+| **New guide** - Content now published in the Experience League: [Configuration Reference Guide](../configuration-reference/guide-overview.md) | Move | 12/1/2022 |
 | **New guide** - Content now published in the Experience League: [Admin Systems Guide](../systems/guide-overview.md) | Move | 11/14/2022 |
 | **New guide** - Content now published in the Experience League: [Sales and Purchase Experience Guide](../stores-purchase/guide-overview.md) | Move | 10/25/2022 |
 | **New guide** - Content now published in the Experience League: [Merchandising and Promotions Guide](../merchandising-promotions/guide-overview.md) | Move | 9/27/2022 |
