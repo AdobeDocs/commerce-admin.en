@@ -1,8 +1,8 @@
 ---
 title: Customer Account Dashboard
 description: Customers can manage and monitor their own information and activities from their Customer Account Dashboard.
+exl-id: 74d5b9ec-0630-4843-a88c-f881cb6cd957
 ---
-
 # Customer Account Dashboard
 
 Customers can manage and monitor their own information and activities from their account dashboard. Customers can reorder, track orders, manage shipping addresses and payment methods, product reviews, newsletter subscriptions, and more.

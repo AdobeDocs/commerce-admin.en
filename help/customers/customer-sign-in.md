@@ -1,8 +1,8 @@
 ---
 title: Customer Sign In
 description: The Customer Sign In allows for easy access to the customers accounts.
+exl-id: eadcc15a-a052-4213-a818-d5b248d974d2
 ---
-
 # Customer Sign In
 
 Customers have easy access to their accounts from every page in your store. Depending on the [configuration](../customers/account-options-new.md), customers can be redirected to their account dashboard, or continue shopping after they log in to their accounts.

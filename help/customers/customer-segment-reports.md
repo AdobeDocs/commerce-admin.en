@@ -1,8 +1,8 @@
 ---
 title: Customer Segment Report
 description: Customer Segment Report provides information about the number of customers in each segment.
+exl-id: a767ee80-7b6e-4acd-9772-2f8adcf3233e
 ---
-
 # Customer Segment Report
 
 {{ee-feature}}

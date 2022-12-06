@@ -1,8 +1,8 @@
 ---
 title: Address Book
 description: The address book contains the customer's default billing and shipping addresses, and any additional addresses that they use frequently.
+exl-id: b1cbc3b0-c245-4b8a-886f-b2cfc104db16
 ---
-
 # Address Book
 
 Customers who keep their address books current can speed through the checkout process. The address book contains the customer's default billing and shipping addresses, and any additional addresses that they use frequently. Additional address entries are easy to access and maintain from the grid. Each customer address book can manage over 3,000 address book entries without impacting performance.

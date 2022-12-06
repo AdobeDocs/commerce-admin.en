@@ -1,8 +1,8 @@
 ---
 title: Customer Account Scope
 description: The scope of customer accounts can be limited to the website where the account was created, or shared with all websites and stores in the store hierarchy.
+exl-id: c401bee2-763e-4fad-88cd-5d5a43c46186
 ---
-
 # Customer Account Scope
 
 The header of every page in your store extends an invitation for shoppers to _Log in or register_ for an account with your store. Customers who open an account enjoy a range of benefits, including:

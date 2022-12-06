@@ -1,8 +1,8 @@
 ---
 title: Password Options
 description: The customer password options determine the level of security.
+exl-id: 84dec8e8-3363-4133-bbcc-9e58467749c4
 ---
-
 # Password Options
 
 The customer password options determine the level of security that is used for password reset requests, the email templates that are used for customer notification, and the lifetime of the password recovery link. You can allow customers to change their own passwords or require that only store administrators can do so.

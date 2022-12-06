@@ -1,8 +1,8 @@
 ---
 title: Update a Customer Profile
 description: Information about customer activity, such as when the customer last signed in or out of their account.
+exl-id: 8e805095-76b2-4237-98dc-aa32f15f2637
 ---
-
 # Update a Customer Profile
 
 The left panel of the Customer Information page includes information about customer activity, such as when the customer last signed in or out of their account, addresses, order statistics, recent orders, shopping cart contents, product reviews, newsletter subscriptions, and so on.

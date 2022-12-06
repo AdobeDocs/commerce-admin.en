@@ -1,8 +1,8 @@
 ---
 title: Now Online
 description: The Now Online option on the Customers menu lists all customers and visitors who are currently online in your store.
+exl-id: 69af669d-f9aa-471b-9d62-5657f3fb2103
 ---
-
 # Now Online
 
 The **[!UICONTROL Now Online]** option on the [!DNL Customers] menu lists all [!DNL Customers] and visitors who are currently online in your store. The interval of time that [!DNL Customers] are shown as currently online is set in the configuration, and determines how long the [!DNL Customer's] activity is visible from the Admin. By default, the interval is fifteen minutes. The session ends if the keyboard is not used during this time and [!DNL Customers] must sign into their accounts again to continue shopping. It is important to note that the contents of the carts are saved for later access.

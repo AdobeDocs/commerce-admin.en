@@ -1,8 +1,8 @@
 ---
 title: All Customers
 description: The Customers grid lists all customers who have registered for an account with your store or were added by the administrator.
+exl-id: a7d9b098-4892-492c-b937-61cc33b836d8
 ---
-
 # [!UICONTROL All Customers]
 
 The [!UICONTROL Customers] grid lists all customers who have registered for an account with your store or were added by the administrator. Use the standard [grid controls](../getting-started/admin-grid-controls.md) to filter the list and adjust the column layout. To learn more, see [Managing Customer Accounts](../customers/manage-account.md).
