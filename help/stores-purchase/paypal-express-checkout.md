@@ -168,6 +168,10 @@ Set **[!UICONTROL Enable PayPal PayLater Experience]** to one of the following:
 - `Yes` - To set up Advertise PayPal PayLater
 - `No` - To set up Advertise PayPal Credit
 
+>[!NOTE]
+>
+>**[!UICONTROL Enable PayPal PayLater Experience]** setting does not disable [!UICONTROL PayPal PayLater] feature and does not remove **_[!UICONTROL PayPal PayLater]_** buttons from the Storefront. To disable both **_[!UICONTROL PayPal PayLater]_** and **_[!UICONTROL PayPal Credit]_** buttons on the Storefront you must select **[!UICONTROL PayPal Credit]** value in the **[!UICONTROL Advanced Settings > Frontend Experience Settings > Features > Disable Funding Options]** setting.
+
 #### Advertise PayPal Credit
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Advertise PayPal Credit]** section.
