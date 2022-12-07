@@ -1,8 +1,8 @@
 ---
 title: Introduction to Commerce Customer Management
 description: Learn how to use [!DNL Customers] management module features to manage customers in your store.
+exl-id: 1af76dd0-3f22-4ed1-b05c-75025b813e60
 ---
-
 # Introduction to Commerce Customer Management
 
 The [!UICONTROL Customers] menu provides access to customer account management tools, and gives you the ability to see who is currently online in your store.

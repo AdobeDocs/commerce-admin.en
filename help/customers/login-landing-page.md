@@ -1,8 +1,8 @@
 ---
 title: Login Landing Page
 description: The customer account settings determine the information that is collected during customer registration, and the experience that customers have during the process.
+exl-id: e8871d19-8238-40f8-8c5d-1e3136dd9fd2
 ---
-
 # Login Landing Page
 
 You can configure your store to redirect customers to their account dashboard after they log in or let them continue shopping.

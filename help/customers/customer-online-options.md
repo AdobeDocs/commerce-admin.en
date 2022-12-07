@@ -1,8 +1,8 @@
 ---
 title: Customer Session Lifetime
 description: The Customer Session Lifetime determines the lifetime of a customer shopping session.
+exl-id: 7180631a-3233-40f3-92bf-b329fc260cf9
 ---
-
 # Customer Session Lifetime
 
 The lifetime of a customer shopping session is determined by several factors, including the length of the server session, the use of a [persistent cart](../stores-purchase/cart-persistent.md), and the lifetime of information that is stored in the browser. Although these are related to the same customer experience, they are actually separate processes with different expiration events and lifetimes.

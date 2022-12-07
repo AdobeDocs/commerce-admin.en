@@ -1,8 +1,8 @@
 ---
 title: Customer Groups
 description: Customer groups determine which discounts are available and the tax class that is associated with the group.
+exl-id: 6b785c4a-a5dc-480c-8182-2a940784218d
 ---
-
 # Customer groups
 
 Customer groups determine which discounts are available and the tax class that is associated with the group. The default customer groups are General, Not Logged In, and Wholesale.
