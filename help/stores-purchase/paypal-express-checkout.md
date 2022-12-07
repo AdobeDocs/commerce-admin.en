@@ -563,6 +563,7 @@ Features settings allow you to disable certain features related to this PayPal s
    Selected options are not displayed on the _Checkout_ page. Unselected options are displayed only if PayPal supports the store currency and the buyer location. Options include:
 
    - PayPal Credit
+   - Venmo
    - PayPal Guest Checkout Credit Card Icons
    - Elektronisches Lastschriftverfahren - German ELV
 
