@@ -13,7 +13,11 @@ For the Default (General) public shared catalog, you must assign products to dis
 
 >[!NOTE]
 >
->When the shared catalog feature is enabled in the configuration, each category permission for the catalog is set to `Deny` for all customer groups automatically. Also, when a new category is created, it has the `Deny` category permissions by default to prevent showing that category on the storefront site before assignment to the shared catalog.
+>When the shared catalog feature is enabled in the configuration, each [category permission](../catalog/category-permissions.md) for the catalog is set to `Deny` for all customer groups automatically. Also, when a new category is created, it has the `Deny` category permissions by default to prevent showing that category on the storefront site before assignment to the shared catalog.
+
+>[!IMPORTANT]
+>
+>All existing _[!UICONTROL All Stores > Configuration > Catalog > Catalog > Category Permissions]_ group permission settings are ignored by **_all_** categories in the catalog when the **_[!UICONTROL Shared Catalog]_** feature is enabled. [!UICONTROL Shared Catalog] fully controls all category permissions in the catalog when it is enabled.
 
 The Shared Catalogs page provides access to the tools used for managing your shared catalogs. The page is similar to the standard [Admin workspace](../getting-started/admin-workspace.md), with filters and action controls. The grid lists all shared catalogs, including the default public shared catalog, and any custom catalogs that you have set up.
 
