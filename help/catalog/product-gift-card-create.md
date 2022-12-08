@@ -142,6 +142,8 @@ Complete the information in the following sections as needed:
 
 - Gift cards can be set to `Redeemable` or `Non-Redeemable`.
 
+- Taxes are **_not applied_** to Gift Cards during the Gift card purchase. Taxes are applied to products only when purchased Gift card is used to buy these products. 
+
 - The lifetime of a gift card can be unlimited or set to a specified number of days.
 
 - The value of a gift card can be set to a fixed amount or set to an open amount with a minimum and maximum value.
