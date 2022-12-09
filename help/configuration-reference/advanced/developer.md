@@ -113,7 +113,7 @@ exl-id: 2ef4ba6a-b5a5-419d-8d61-e535e3366370
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|[!UICONTROL Image Adapter]|Global|Specifies the adapter that is used to render images. After changing the adapter setting, flush the catalog images cache. Options: `PHP GD2` / `ImageMagick` <br/><br/>**_Note:_** The ICO file type is supported only by ImageMagik adapter.|
+|[!UICONTROL Image Adapter]|Global|Specifies the adapter that is used to render images. After changing the adapter setting, flush the catalog images cache. Options: `PHP GD2` / `ImageMagick` <br/><br/>**_Note:_** The ICO file type is supported only by the ImageMagik adapter.|
 
 {:style="table-layout:auto"}
 
