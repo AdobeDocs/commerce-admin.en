@@ -23,7 +23,7 @@ When enabled, a new _[!UICONTROL Category Permissions]_ section appears on the C
 
 >[!IMPORTANT]
 >
->All existing _[!UICONTROL All Stores > Configuration > Catalog > Catalog > Category Permissions]_ group permission settings are ignored by **_all_** categories in the catalog when the [B2B Shared Catalog](../b2b/enable-basic-features.md) feature is enabled. [!UICONTROL B2B Shared Catalog] fully controls all category permissions in the catalog when it is enabled.
+>All existing [group permission settings](../configuration-reference/catalog/catalog.md#category-permissions) are ignored by **_all_** categories in the catalog when the **_[!UICONTROL Shared Catalog]_** feature is enabled. [!UICONTROL Shared Catalog] fully controls all category permissions in the catalog when it is enabled.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
