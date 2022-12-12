@@ -27,6 +27,10 @@ breadcrumb-title: customer management
     - [Managing a Customer account](manage-account.md)
     - [Updating a Customer Profile](update-account.md)
     - [Providing Shopper Assistance](login-as-customer.md)
+  - Customer Attributes {#attributes}
+    - [Attribute Properties](attribute-properties.md)
+    - [Address Attributes](address-attributes.md)
+    - [Address Templates](address-templates.md)
   - Store Credit {#store-credit}
     - [Store Credit workflow](store-credit.md)
     - [Configuring Store Credit](credit-configure.md)
