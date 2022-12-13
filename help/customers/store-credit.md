@@ -1,8 +1,8 @@
 ---
 title: Store Credit
 description: Store credit is an amount that is restored to a customer account. Customers can use their store credit to pay for purchases, and administrators can use store credit for cash refunds.
+exl-id: 1fe627dd-5c49-4ff8-85e0-3c987285726d
 ---
-
 # Store Credit
 
 {{ee-feature}}

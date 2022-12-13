@@ -1,8 +1,8 @@
 ---
 title: Reset Passwords
 description: Customers usually reset their passwords from the storefront but a store administrator can initiate either a password reset or a forced sign-in from the Admin.
+exl-id: bca1ef3e-2bc6-4146-ac86-d6c58c8995e4
 ---
-
 # Reset Passwords
 
 Customers usually reset their passwords from the storefront by clicking the "Forgot Your Password?" link. However, the store administrator can initiate either a password reset or a forced sign-in from the Admin.

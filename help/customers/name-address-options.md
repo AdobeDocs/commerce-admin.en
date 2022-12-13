@@ -1,8 +1,8 @@
 ---
 title: Name and Address Options
 description: The Name and Address Options determine which fields are included in the name and address forms.
+exl-id: 28949cfc-2c96-4d0a-a35b-b37b3aa2d1e9
 ---
-
 # Name and Address Options
 
 The _Name and Address Options_ determine which fields are included in the name and address forms when customers create an [account](../customers/account-create.md) with your store.

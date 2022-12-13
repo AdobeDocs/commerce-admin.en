@@ -1,8 +1,8 @@
 ---
 title: My Account
 description: The My Account section of the customer dashboard gives customers an overview of their information and activity related to your store.
+exl-id: 01413b6b-ce32-4284-ae29-0fadf6ed22ca
 ---
-
 # My Account
 
 The **[!UICONTROL My Account]** section of the customer dashboard gives customers an overview of their information and activity related to your store.

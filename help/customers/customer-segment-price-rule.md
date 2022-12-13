@@ -1,8 +1,8 @@
 ---
 title: Customer Segments in Price Rules
 description: Customers Segments can be associated with a cart price rule.
+exl-id: eaa04e7a-c0f9-4f09-8e65-75965ccbdc69
 ---
-
 # Customer Segments in Price Rules
 
 {{ee-feature}}

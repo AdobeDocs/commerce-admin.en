@@ -1,8 +1,8 @@
 ---
 title: Manage Customer Accounts
 description: Use the Customers grid to find any customer account.
+exl-id: 5f817ca8-9d1f-4498-b3bd-989713f0b6ad
 ---
-
 # Manage Customer Accounts
 
 Use the Customers grid to find any customer account. You can use the standard [workplace controls](../getting-started/admin-workspace.md) to filter the list, change the [column layout](../getting-started/admin-grid-controls.md), save views, and export data. The [Actions control](../getting-started/admin-actions-control.md) above the grid can be used to apply an operation to multiple customer records.

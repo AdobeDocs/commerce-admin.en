@@ -1,8 +1,8 @@
 ---
 title: New Account Options
 description: New Account Options include basic account options combined with advanced options.
+exl-id: aa19f0e2-ffbe-433d-8bd5-c14700b67b37
 ---
-
 # New Account Options
 
 In the Create New Account Options section of the configuration, the basic account options are combined with more advanced options that relate to VAT ID Validation and custom integrations. The following instructions cover only the most frequently used options. To learn about automatic customer group assignments, see [VAT Validation](../stores-purchase/vat.md).
