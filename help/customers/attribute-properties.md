@@ -6,7 +6,7 @@ description: Learn how to configure customer attribute properties.
 
 {{ee-feature}}
 
-Customer attributes provide the information that is required to support the order, fulfillment, and customer management processes. Because your business is unique, you might need fields in addition to those provided by the system. You can add custom attributes to the Account Information, Address Book, and Billing Information sections of the customer's account. Customer [address attributes](attributes-customer-address.md) can also be used in the _Billing Information_ section during checkout, or when guests register for an account.
+Customer attributes provide the information that is required to support the order, fulfillment, and customer management processes. Because your business is unique, you might need fields in addition to those provided by the system. You can add custom attributes to the Account Information, Address Book, and Billing Information sections of the customer's account. Customer [address attributes](address-attributes.md) can also be used in the _Billing Information_ section during checkout, or when guests register for an account.
 
 ![Customer Attributes](./assets/attributes-customer.png)<!-- zoom -->
 
