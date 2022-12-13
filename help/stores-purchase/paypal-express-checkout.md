@@ -168,6 +168,10 @@ Set **[!UICONTROL Enable PayPal PayLater Experience]** to one of the following:
 - `Yes` - To set up Advertise PayPal PayLater
 - `No` - To set up Advertise PayPal Credit
 
+>[!NOTE]
+>
+>The **[!UICONTROL Enable PayPal PayLater Experience]** setting does not disable the [!DNL PayPal PayLater] feature and does not remove **_[!UICONTROL PayPal PayLater]_** buttons from the storefront. To disable both **_[!UICONTROL PayPal PayLater]_** and **_[!UICONTROL PayPal Credit]_** buttons on the storefront, you must select the `PayPal Credit` value for the **[!UICONTROL Disable Funding Options]** setting (located in [!UICONTROL Advanced Settings] under [!UICONTROL Frontend Experience Settings]).
+
 #### Advertise PayPal Credit
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Advertise PayPal Credit]** section.
@@ -559,6 +563,7 @@ Features settings allow you to disable certain features related to this PayPal s
    Selected options are not displayed on the _Checkout_ page. Unselected options are displayed only if PayPal supports the store currency and the buyer location. Options include:
 
    - PayPal Credit
+   - Venmo
    - PayPal Guest Checkout Credit Card Icons
    - Elektronisches Lastschriftverfahren - German ELV
 
