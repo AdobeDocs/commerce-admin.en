@@ -94,6 +94,10 @@ In this step, the conditions are described that must be met for an order to qual
 
    - In the condition statement, click **[!UICONTROL total quantity]** and select `total quantity` or `total amount`.
 
+   >[!IMPORTANT]
+   >
+   >Taxes are not included into the `total amount` [!UICONTROL Products Subselection] cart price rule condition. Because [!UICONTROL Total amount] is a row total. [!UICONTROL Subtotal (Incl. Tax)] condition must be used to include taxes.
+
    - In the condition statement, click **[!UICONTROL is]** and select `greater than`.
 
 1. When the next part of the condition appears, hover over the line so you can see where each link with variable values is located.
