@@ -71,7 +71,7 @@ If your Adobe Commerce or Magento Open Source installation has only a single sto
 
     - Click the **[!UICONTROL Cache Management]** link in the system message at the top of the page.
 
-      ![System message - cache management]({% link stores/assets/msg-cache-management.png %})<!-- {: .zoom} -->
+      ![System message - cache management](../catalog/assets/msg-cache-management.png)<!-- {: .zoom} -->
 
     - Select the **[!UICONTROL Page Cache]** checkbox.
 
