@@ -9,7 +9,7 @@ When enabled in the configuration, the company administrator adds users to the c
 
 >[!NOTE]
 >
->If an individual already has a personal account with your store, and later goes to work for a company, do not assign the person’s individual account to the company. Instead, create a company user account for the person with a company email address.
+>If an individual already has a personal account with your store, and later goes to work for a company, do not assign the person's individual account to the company. Instead, create a company user account for the person with a company email address.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
@@ -31,7 +31,7 @@ When enabled in the configuration, the company administrator adds users to the c
 
 1. When complete, click **[!UICONTROL Save Customer]**.
 
-   The following columns are updated in the [Customers](https://docs.magento.com/user-guide/customers/customers-all.html) grid:
+   The following columns are updated in the [Customers](../customers/customers-all.md) grid:
 
    - The _[!UICONTROL Group]_ column changes to the name of the customer group (or shared catalog) that is assigned to the company.
    - The _[!UICONTROL Company]_ column displays the name of the company to which the customer profile is now associated.

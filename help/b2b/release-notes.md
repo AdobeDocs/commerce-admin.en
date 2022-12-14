@@ -10,7 +10,7 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 ![New](../assets/new.svg) New features
 ![Fixed issue](../assets/fix.svg) Fixes and improvements
 
-See [Compatibility](https://devdocs.magento.com/release/availability.html#compatibility){target="_blank"} for information about supported and compatible extension releases.
+See [Product availability](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html){target="_blank"} for information about supported and compatible extension releases.
 
 ## B2B v1.3.4
 

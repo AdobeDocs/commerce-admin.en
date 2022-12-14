@@ -5,7 +5,7 @@ exl-id: aed203ef-f39b-4f7e-b32f-ded53eca09a8
 ---
 # Enable Basic B2B Features
 
-By default, all B2B features are initially disabled. However, they are always available from the Admin, regardless of whether they are enabled or disabled for the storefront. For a complete list of B2B configuration settings, see [B2B Configuration Reference](https://docs.magento.com/user-guide/configuration/general/b2b-features.html).
+By default, all B2B features are initially disabled. However, they are always available from the Admin, regardless of whether they are enabled or disabled for the storefront. For a complete list of B2B configuration settings, see [B2B Features configuration reference](../configuration-reference/general/b2b-features.md).
 
 >[!IMPORTANT]
 >
@@ -20,8 +20,6 @@ By default, all B2B features are initially disabled. However, they are always av
 1. In the left panel under _[!UICONTROL General]_, choose **[!UICONTROL B2B Features]** and enable the basic features:
 
    ![B2B configuration - general](./assets/b2b-features.png)<!-- zoom -->
-
-   See [B2B Features](https://docs.magento.com/user-guide/configuration/general/b2b-features.html) in the _Configuration Reference_ for a full list of general B2B feature options and their functions.
 
    - To allow customers to manage their own company accounts, set **[!UICONTROL Enable Company]** to `Yes`.
 
@@ -57,7 +55,7 @@ By default, all B2B features are initially disabled. However, they are always av
 
       For the specific option, select the **[!UICONTROL Payment Methods]** that you want to make available to your customers by holding down the Ctrl key (PC) or the Command key (Mac) as you click each option.
 
-   The list of [payment methods](https://docs.magento.com/user-guide/configuration/sales/payment-methods.html) shows which are currently enabled or disabled in your store. In addition to the standard payment methods, the list also includes the following:
+   The list of [payment methods](../configuration-reference/sales/payment-methods.md) shows which are currently enabled or disabled in your store. In addition to the standard payment methods, the list also includes the following:
 
    - No Payment Information is Required
    - [Payment on Account](#configure-payment-on-account)
@@ -75,7 +73,7 @@ By default, all B2B features are initially disabled. However, they are always av
 
      For the specific option, select the **[!UICONTROL Shipping Methods]** that you want to make available to your customers by holding down the Ctrl key (PC) or the Command key (Mac) as you click each option.
 
-     The list of shipping methods shows which are currently [enabled or disabled](https://docs.magento.com/user-guide/configuration/sales/delivery-methods.html).
+     The list of shipping methods shows which are currently [enabled or disabled](../configuration-reference/sales/delivery-methods.md).
 
    ![B2B configuration - default shipping methods](./assets/b2b-features-shipping-methods.png)<!-- zoom -->
 
@@ -200,7 +198,7 @@ The ability to track order processing and purchase orders gives company administ
 
 1. When complete, Click **[!UICONTROL Save]**.
 
-After activation, the **[!UICONTROL Approval Rules]** section is displayed on the storefront [Account Dashboard](https://docs.magento.com/user-guide/customers/account-dashboard.html) for a company administrator.s
+After activation, the **[!UICONTROL Approval Rules]** section is displayed on the storefront [Account Dashboard](../customers/account-dashboard.md) for a company administrator.s
 
 >[!NOTE]
 >
