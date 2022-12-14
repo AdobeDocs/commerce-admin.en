@@ -62,7 +62,7 @@ The placeholders that represent the value of another field are enclosed in doubl
 
 ![Product Fields Auto-Generation](./assets/catalog-product-fields-auto-generation.png)<!-- zoom -->
 
-For more information about these settings, see [Product Fields Auto-Generation](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#product-fields-auto-generation) in the _Configuration Reference_.
+For more information about these settings, see [Product Fields Auto-Generation](../configuration-reference/catalog/catalog.md#product-fields-auto-generation) in the _Configuration Reference_.
 
 ### Edit the placeholder value
 

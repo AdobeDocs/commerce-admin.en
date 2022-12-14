@@ -7,7 +7,7 @@ exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
 
 Tier pricing lets you offer a quantity discount from a product listing or product page in the storefront. The discount can be applied to a specific store view or customer group or shared catalog.
 
-If you have many products to update, it is most efficient to import the tier price changes, rather than enter them individually. For more information, see [Importing Tier Prices](https://docs.magento.com/user-guide/system/data-import-price-tier.html).
+If you have many products to update, it is most efficient to import the tier price changes, rather than enter them individually. For more information, see [Import tier prices](../systems/data-import-price-tier.md).
 
 ![Tier price on a storefront product page](./assets/product-price-tier-storefront.png)<!-- zoom -->
 

@@ -19,11 +19,11 @@ Product listings can be set to appear by default as either a list or grid. You c
 
    ![Storefront configuration options](./assets/catalog-storefront.png)<!-- zoom -->
 
-   For more information about these options, see [Storefront](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#storefront) in the _Configuration Reference_.
+   For more information about these options, see [Storefront](../configuration/catalog/catalog.md#storefront) in the _Configuration Reference_.
 
    >[!NOTE]
    >
-   >To correctly display products and their prices according to _product sorting by price_, make sure that the settings for the price display in the [Sales Tax configuration](https://docs.magento.com/user-guide/configuration/sales/tax.html) have the same value (`Excluding Tax` **or** `Including Tax`). For the _[!UICONTROL Calculation Settings]_, check the **[!UICONTROL Catalog Prices]** value. And for _[!UICONTROL Price Display Settings]_, check the **[!UICONTROL Display Product Prices in Catalog]** value. If these have different values, price filters in the layered navigation may not properly filter and sort products by price.
+   >To correctly display products and their prices according to _product sorting by price_, make sure that the settings for the price display in the [Sales Tax configuration](../configuration-reference/sales/tax.md) have the same value (`Excluding Tax` **or** `Including Tax`). For the _[!UICONTROL Calculation Settings]_, check the **[!UICONTROL Catalog Prices]** value. And for _[!UICONTROL Price Display Settings]_, check the **[!UICONTROL Display Product Prices in Catalog]** value. If these have different values, price filters in the layered navigation may not properly filter and sort products by price.
 
 1. Set the default **[!UICONTROL List Mode]** to one of the following:
 

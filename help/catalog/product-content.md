@@ -27,7 +27,7 @@ When you expand the _[!UICONTROL Content]_ section for an existing product where
 
 ![Description preview](../page-builder/assets/pb-product-category-content-preview.png)<!-- zoom -->
 
-This content preview is enabled for the product and category forms by default. If performance suffers due to loading the preview, you can disable the preview in the [Content Management configuration](https://docs.magento.com/user-guide/configuration/general/content-management.html#advanced-content-tools) settings.
+This content preview is enabled for the product and category forms by default. If performance suffers due to loading the preview, you can disable the preview in the [Content Management configuration](../configuration-reference/general/content-management.md#advanced-content-tools) settings.
 
 ## Add the product description in the editor
 

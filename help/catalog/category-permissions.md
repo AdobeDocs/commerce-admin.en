@@ -33,7 +33,7 @@ When enabled, a new _[!UICONTROL Category Permissions]_ section appears on the C
 
    ![Category Permissions](./assets/catalog-category-permissions.png)<!-- zoom -->
 
-   For more information about these options, see [Category Permissions](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#category-permissions) in the _Configuration Reference_.
+   For more information about these options, see [Category Permissions](../configuration-reference/catalog/catalog.md#category-permissions) in the _Configuration Reference_.
 
 1. Set **[!UICONTROL Enable]** to `Yes`.
 

@@ -9,7 +9,7 @@ Choosing a product type is one of the first things that you must do to create a 
 
 >[!NOTE]
 >
->For a deeper understanding, refer to catalog [navigation](navigation.md), how to set up [categories](categories.md) and [attributes](product-attributes.md), and the catalog [URL options](catalog-urls.md) that are available. After you understand these concepts, the most efficient way to add many products to the catalog is to [import](https://docs.magento.com/user-guide/system/data-import.html) them from a CSV file.
+>For a deeper understanding, refer to catalog [navigation](navigation.md), how to set up [categories](categories.md) and [attributes](product-attributes.md), and the catalog [URL options](catalog-urls.md) that are available. After you understand these concepts, the most efficient way to add many products to the catalog is to [import](../systems/data-import.md) them from a CSV file.
 
 ![Product page on the storefront](./assets/storefront-product-page.png)<!-- zoom -->
 
