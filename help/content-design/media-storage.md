@@ -9,7 +9,7 @@ Media storage helps you organize and gain access to media files that are stored 
 
 Alternatively, media files can be managed in a [database](media-storage-database.md), or located on a separate server or [content delivery network](media-storage-content-delivery-network.md). The advantage of using alternate storage is that it minimizes the effort required to synchronize media when multiple instances of the system that are deployed on different servers that need access to the same images, CSS files, and other media files.
 
-The editor can be configured to use either static or [dynamic media URLs](https://docs.magento.com/user-guide/catalog/catalog-urls-dynamic-media.html) for catalog content in category or product descriptions.
+The editor can be configured to use either static or [dynamic media URLs](../catalog/catalog-urls.md#configure-catalog-media-url-format)) for catalog content in category or product descriptions.
 
 ![[!DNL Commerce] Media Storage](./assets/media-storage.png)<!-- zoom -->
 

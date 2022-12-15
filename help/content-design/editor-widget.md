@@ -49,6 +49,6 @@ By default, links inherit their style from the style sheet of the theme.
 
 1. Click **[!UICONTROL Insert Widget]** to place the link on the page.
 
-   If you are working with HTML code, a [markup tag](https://docs.magento.com/user-guide/marketing/markup-tags-links.html) for the link appears at the top of the page, enclosed in double curly braces. If needed, use _Cut and Paste_ to position the markup tag in the code where you want the link to appear.
+   If you are working with HTML code, a [markup tag](../systems/markup-tags.md) for the link appears at the top of the page, enclosed in double curly braces. If needed, use _Cut and Paste_ to position the markup tag in the code where you want the link to appear.
 
 1. When your content edits are complete, click **[!UICONTROL Save]**.

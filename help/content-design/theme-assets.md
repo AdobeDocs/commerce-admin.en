@@ -42,7 +42,7 @@ As part of an effort to optimize your site and reduce page load time, you can re
 
 >[!NOTE]
 >
->CSS files can be merged from the _Admin_ panel only when working in [Developer Mode](https://docs.magento.com/user-guide/magento/installation-modes.html).
+>CSS files can be merged from the _Admin_ panel only when working in [developer mode](../systems/developer-tools.md#operation-modes).
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -52,7 +52,7 @@ As part of an effort to optimize your site and reduce page load time, you can re
 
    ![CSS Settings](./assets/developer-css-settings.png)<!-- zoom -->
    
-   For detailed descriptions of these configuration options, see [CSS Settings](https://docs.magento.com/user-guide/configuration/advanced/developer.html#css-settings) in the _Configuration Reference_.
+   For detailed descriptions of these configuration options, see [CSS Settings](../configuration-reference/advanced/developer.md#css-settings) in the _Configuration Reference_.
 
 1. Set **[!UICONTROL Merge CSS Files]** to `Yes`.
 
@@ -64,7 +64,7 @@ Multiple JavaScript files can be merged into a single, condensed file to reduce 
 
 >[!NOTE]
 >
->JavaScript files can be merged from the _Admin_ panel only when working in [Developer Mode](https://docs.magento.com/user-guide/magento/installation-modes.html).
+>JavaScript files can be merged from the _Admin_ panel only when working in [Developer Mode](../systems/developer-tools.md#operation-modes).
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -74,7 +74,7 @@ Multiple JavaScript files can be merged into a single, condensed file to reduce 
 
    ![JavaScript Settings](./assets/developer-javascript-settings.png)<!-- zoom -->
 
-   For detailed descriptions of these configuration options, see [JavaScript Settings](https://docs.magento.com/user-guide/configuration/advanced/developer.html#javascript-settings) in the _Configuration Reference_.
+   For detailed descriptions of these configuration options, see [JavaScript Settings](../configuration-reference/advanced/developer.md#javascript-settings) in the _Configuration Reference_.
 
 1. Set **[!UICONTROL Merge JavaScript Files]** to `Yes`.
 

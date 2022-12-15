@@ -9,7 +9,7 @@ A theme is a collection of files that determines the visual presentation of your
 
 A responsive theme adjusts the page layout to fit the view port of the device. The sample _Luma_ theme has a flexible, responsive layout that can be viewed from the desktop, tablet, or mobile device.
 
-[!DNL Commerce] themes include layout files, template files, translation files, and skins. A skin is a collection of supporting CSS, images, and JavaScript files that together, create the visual presentation and interactions that your customers experience when they visit your store. Themes and skins can be modified and customized by a developer or designer who understands [!DNL Commerce] theme design and has access to your server. To learn more, see the [Frontend Developer Guide][2].
+[!DNL Commerce] themes include layout files, template files, translation files, and skins. A skin is a collection of supporting CSS, images, and JavaScript files that together, create the visual presentation and interactions that your customers experience when they visit your store. Themes and skins can be modified and customized by a developer or designer who understands [!DNL Commerce] theme design and has access to your server. To learn more, see the [_Frontend Developer Guide_][1].
 
 ![Luma theme](./assets/design-responsive.png)<!-- zoom -->
 
@@ -69,4 +69,4 @@ The _[!DNL Magento Blank]_ responsive theme renders the display of your storefro
 
 1. When complete, click **[!UICONTROL Save Configuration]**.
 
-[2]: https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/themes/theme-overview.html
+[1]: https://developer.adobe.com/commerce/frontend-core/guide/themes/

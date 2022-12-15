@@ -54,7 +54,7 @@ The following steps show how to use a layout update to place a block on a page. 
 
 1. In the message at the top of the workspace, click **[!UICONTROL Cache Management]** and refresh each invalid cache.
 
-[1]: https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/layouts/layout-overview.html
-[2]: https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/layouts/xml-instructions.html
-[3]: https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/layouts/xml-manage.html#ref_cms_block
-[4]: https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/layouts/layout-overview.html
+[1]: https://developer.adobe.com/commerce/frontend-core/guide/layouts/
+[2]: https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-instructions/
+[3]: https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-manage/
+[4]: https://developer.adobe.com/commerce/frontend-core/guide/layouts/

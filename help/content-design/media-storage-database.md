@@ -36,8 +36,6 @@ By default, all images, compiled CSS files, and compiled JavaScript files of the
 
     ![Advanced configuration - storage configuration for media](./assets/database-storage-deprecated.png)<!-- zoom -->
 
-    [_Storage Configuration for Media (Database)_](https://docs.magento.com/user-guide/configuration/advanced/system.html)
-
     - Set **[!UICONTROL Media Storage]** to `Database`.
 
     - Set **[!UICONTROL Select Media Database]** to the database you want to use.

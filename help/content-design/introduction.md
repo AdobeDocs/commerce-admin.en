@@ -31,4 +31,4 @@ Themes can be activated for a period of time, according to a [schedule](schedule
 
 Your content defines the [pages](pages.md) and elements that customers see when they access your store. You can define basic elements for your pages, such as text and images, as well as more advanced elements that provide interactive and dynamic content to enhance the shopping experience.
 
-[1]: https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/bk-frontend-dev-guide.html
+[1]: https://developer.adobe.com/commerce/frontend-core/guide/
