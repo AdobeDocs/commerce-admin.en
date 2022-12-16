@@ -35,6 +35,6 @@ In the Create New Account Options section of the configuration, the basic accoun
 
    - Set **[!UICONTROL Welcome Email]** to the template that is used for the Welcome message that is sent after the account is confirmed.
 
-  For detailed information about each of the options available in this configuration option set, see the _Create New Account Options_ [configuration reference](https://docs.magento.com/user-guide/configuration/customers/customer-configuration.html).
+  For detailed information about each of the options available in this configuration option set, see the _Create New Account Options_ [configuration reference](../configuration-reference/customers/customer-configuration.md).
 
 1. When complete, click **[!UICONTROL Save Config]**.

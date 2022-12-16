@@ -11,7 +11,7 @@ The **[!UICONTROL My Account]** page consist of following sections:
 
 * [**[!UICONTROL Account Information]**](../customers/account-dashboard-account-information.md)
 * [**[!UICONTROL Address Book]**](../customers/account-dashboard-address-book.md)
-* [**[!UICONTROL My Recent Reviews]**](https://docs.magento.com/user-guide/customers/account-dashboard-my-product-reviews.html)
-* [**[!UICONTROL Recent Orders]**](https://docs.magento.com/user-guide/customers/account-dashboard-my-orders.html)
+* [**[!UICONTROL My Recent Reviews]**](../merchandising-promotions/product-reviews.md#product-reviews-on-the-storefront)
+* [**[!UICONTROL Recent Orders]**](../stores-purchase/orders-storefront.md#view-recently-ordered-products)
 
 ![My Account](assets/account-dashboard-my-account.png)

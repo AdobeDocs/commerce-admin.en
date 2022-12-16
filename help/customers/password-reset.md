@@ -43,7 +43,7 @@ Customers usually reset their passwords from the storefront by clicking the "For
 
 1. In the set of options across the top of the page, click **[!UICONTROL Reset Password]**.
 
-   The number of password reset requests that are allowed within an hour is set in the [configuration](https://docs.magento.com/user-guide/configuration/customers/customer-configuration.html) topic.
+   The number of password reset requests that are allowed within an hour is set in the [configuration](../configuration-reference/customers/customer-configuration.md) topic.
 
 ## Revoke a customer's OAuth tokens
 

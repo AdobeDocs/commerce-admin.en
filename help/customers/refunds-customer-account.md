@@ -36,7 +36,7 @@ Method 1: **From the customer account dashboard**
 
    >[!INFO]
    >
-   > The Store Credit page also provides a link for the customer to redeem a [gift card](https://docs.magento.com/user-guide/customers/account-dashboard-gift-cards.html).
+   > The Store Credit page also provides a link for the customer to redeem a [gift card](../stores-purchase/product-gift-card-workflow.md#check-status-and-balance-of-the-gift-card).
 
 Method 2: **From the _Review & Payments_ page**
 
@@ -54,7 +54,7 @@ Method 2: **From the _Review & Payments_ page**
 
 ## Payment actions in the Admin
 
-You can configure payment actions for your specific [Payment Method](https://docs.magento.com/user-guide/configuration/sales/payment-methods.html). Each payment method has a different set of payment actions.
+You can configure payment actions for your specific [Payment Method](../configuration-reference/sales/payment-methods.md). Each payment method has a different set of payment actions.
 
 |Payment action |Description|
 |--- |---|

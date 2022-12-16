@@ -23,7 +23,7 @@ exl-id: 330eabeb-edab-4a9f-968e-37d0b95cdedb
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|[!UICONTROL Allow Company Registration from the Storefront]|Website|Determines if visitors to your store have the choice to [register](https://docs.magento.com/user-guide/customers/customer-sign-in.html) for a company account or an individual account. Options: `Yes` / `No`|
+|[!UICONTROL Allow Company Registration from the Storefront]|Website|Determines if visitors to your store have the choice to [register](../../customers/customer-sign-in.md) for a company account or an individual account. Options: `Yes` / `No`|
 
 {:style="table-layout:auto"}
 

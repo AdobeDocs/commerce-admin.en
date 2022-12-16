@@ -19,7 +19,7 @@ In the sidebar of your account, choose **[!UICONTROL Account Information]** and 
 
    >[!INFO]
    >
-   > Additional fields appear as part of the name if the [Customer Configuration](https://docs.magento.com/user-guide/configuration/customers/customer-configuration.html) includes a prefix, middle initial, and suffix.
+   > Additional fields appear as part of the name if the [Customer Configuration](../configuration-reference/customers/customer-configuration.md) includes a prefix, middle initial, and suffix.
 
 1. Click **[!UICONTROL Save]**.
 
@@ -47,4 +47,4 @@ In the sidebar of your account, choose **[!UICONTROL Account Information]** and 
 
 1. When you are ready, enter it again to confirm.
 
-    ![Change Password](assets/account-dashboard-account-information-change-password.png)
+   ![Change Password](assets/account-dashboard-account-information-change-password.png)
