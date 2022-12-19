@@ -37,11 +37,11 @@ If you have a large amount of data to process, you can turn off the display of t
 
    ![Advanced configuration - Enable charts](./assets/admin-dashboard-config.png)<!-- zoom -->
 
-For more information about the Admin configuration options, see the [Configuration Reference Guide](https://docs.magento.com/user-guide/configuration/advanced/admin.html).
+For more information about the Admin configuration options, see the [Configuration Reference Guide](../configuration-reference/advanced/admin.md).
 
 ### Change the startup page
 
-The dashboard is the default [startup page](https://docs.magento.com/user-guide/configuration/advanced/admin.html) for the Admin, although you can configure a different startup page.
+The dashboard is the default [startup page](../configuration-reference/advanced/admin.md) for the Admin, although you can configure a different startup page.
 
 1. If you do not already have the Admin configuration options open, choose **[!UICONTROL Admin]** under _[!UICONTROL Advanced]_ in the left panel.
 
@@ -63,7 +63,7 @@ The dashboard is the default [startup page](https://docs.magento.com/user-guide/
 
    ![Admin Dashboard - date settings](./assets/reports-dashboard.png)<!-- zoom -->
 
-For more information about the Reports configuration options, see the [Configuration Reference Guide](https://docs.magento.com/user-guide/configuration/general/reports.html).
+For more information about the [!UICONTROL Reports] configuration options, see the [_Configuration Reference Guide_](../configuration-reference/general/reports.md).
 
 ### Configure the data source
 

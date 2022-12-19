@@ -323,6 +323,6 @@ Returns the total number of line items ordered during the specified time period.
 
 [1]: https://newrelic.com/
 [3]: https://docs.newrelic.com/docs/agents/php-agent/getting-started/new-relic-php
-[4]: https://devdocs.magento.com/cloud/project/new-relic.html
-[5]: https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-cron.html
+[4]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic.html
+[5]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html
 [6]: https://docs.newrelic.com/docs/insights/new-relic-insights/using-new-relic-query-language/nrql-reference

@@ -39,7 +39,7 @@ The _[!UICONTROL Store Information]_ section provides the basic information that
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-For more information about the Store information configuration options, see the [_Configuration Reference Guide_](https://docs.magento.com/user-guide/configuration/general/general.html#store-information).
+For more information about the Store information configuration options, see the [_Configuration Reference Guide_](../configuration-reference/general/general.md#store-information).
 
 ## Locale Options
 
@@ -76,7 +76,7 @@ The locale setting determines the time zone and language used for each store, an
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-For more information about the Locale configuration options, see the [Configuration Reference Guide](https://docs.magento.com/user-guide/configuration/general/general.html#locale-options).
+For more information about the Locale configuration options, see the [Configuration Reference Guide](../configuration-reference/general/general.md#locale-options).
 
 ## State Options
 
@@ -102,7 +102,7 @@ Because standard address formats vary from one country to another, you can also 
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-For more information about the State configuration options, see the [Configuration Reference Guide](https://docs.magento.com/user-guide/configuration/general/general.html#state-options).
+For more information about the State configuration options, see the [Configuration Reference Guide](../configuration-reference/general/general.md#state-options).
 
 ## Country Options
 
@@ -178,7 +178,7 @@ The Merchant Location setting is used to configure [payment methods](../stores-p
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-For more information about the Payment Methods configuration options, see the [Configuration Reference Guide](https://docs.magento.com/user-guide/configuration/sales/payment-methods.html).
+For more information about the Payment Methods configuration options, see the [Configuration Reference Guide](../configuration-reference/sales/payment-methods.md).
 
 ## Currency
 
@@ -242,7 +242,7 @@ If you use custom email addresses, make sure to update the configuration of any 
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-For more information about the Sales Emails configuration options, see the [Configuration Reference Guide](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html).
+For more information about the Sales Emails configuration options, see the [_Configuration Reference Guide_](../configuration-reference/sales/sales-emails.md).
 
 ## Contact Us form
 
@@ -312,4 +312,4 @@ The Luma sample data includes a _Contact Us Info_ block that can be customized f
 
 By default, shoppers access the contact form using the _Contact link_ in the footer of the storefront pages. For more information about customizing the contact page, refer to the [Frontend Developer Guide][theme-guide]{:target="_blank"}.
 
-[theme-guide]: https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/bk-frontend-dev-guide.html
+[theme-guide]: https://developer.adobe.com/commerce/frontend-core/guide/themes/
