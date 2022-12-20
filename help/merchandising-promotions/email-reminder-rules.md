@@ -43,13 +43,13 @@ Email reminder rules can be sent at regular intervals by the minute, hour, or da
 
    - Set **[!UICONTROL Reminder Email Sender]** to the [store contact](../getting-started/store-details.md#store-email-addresses) that appears as the sender of the reminder email.
 
-   For a detailed list of these options, see [Automated Email Reminder Rules](https://docs.magento.com/user-guide/configuration/customers/promotions.html#automated-email-reminder-rules) in the _Configuration Reference_.
+   For a detailed list of these options, see [Automated Email Reminder Rules](../configuration-reference/customers/promotions.md#automated-email-reminder-rules) in the _Configuration Reference_.
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
 ## Email reminder templates
 
-The default email reminder template can be customized, and additional templates created for different promotions. Email reminders have a selection of specific variables that can be incorporated into the message. The information in these variables is determined by the email reminder rule that you set up, and by the cart price rule that is associated with the coupon. The Insert Variable button can be used to insert the markup tag with the variable into the template. To learn more, see [Email](https://docs.magento.com/user-guide/marketing/email-templates.html).
+The default email reminder template can be customized, and additional templates created for different promotions. Email reminders have a selection of specific variables that can be incorporated into the message. The information in these variables is determined by the email reminder rule that you set up, and by the cart price rule that is associated with the coupon. The Insert Variable button can be used to insert the markup tag with the variable into the template. To learn more, see [Email](../systems/email-templates.md).
 
 ![Email reminder preview](./assets/email-reminder-preview-promotion-template.png)<!-- zoom -->
 
@@ -63,7 +63,7 @@ The default email reminder template can be customized, and additional templates 
 
 1. Click **[!UICONTROL Load Template]**.
 
-Follow the standard [instructions](https://docs.magento.com/user-guide/marketing/email-template-custom.html) to customize the template.
+Follow the standard [instructions](../systems/email-template-custom.md) to customize the template.
 
 ### Email reminder variables
 
