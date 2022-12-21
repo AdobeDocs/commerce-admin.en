@@ -96,7 +96,7 @@ In this step, the conditions are described that must be met for an order to qual
 
    >[!IMPORTANT]
    >
-   >Taxes are not included into the `total amount` [!UICONTROL Products Subselection] cart price rule condition. Because [!UICONTROL Total amount] is a row total. [!UICONTROL Subtotal (Incl. Tax)] condition must be used to include taxes.
+   >[!UICONTROL Total amount] is a row total, so taxes are not included into the `total amount` for the [!UICONTROL Products Subselection] cart price rule condition. Use the [!UICONTROL Subtotal (Incl. Tax)] condition to include taxes.
 
    - In the condition statement, click **[!UICONTROL is]** and select `greater than`.
 
