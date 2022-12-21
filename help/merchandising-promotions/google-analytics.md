@@ -124,6 +124,10 @@ The following instructions show how to configure [!DNL Google Tag Manager] with 
     |`promotionClick`|Custom Event||
     |`removeFromCart`|Custom Event||
 
+>[!NOTE]
+>
+>[!UICONTROL Checkout] event is firing for the Magento internal payment methods only. [!UICONTROL Checkout] event is not firing for the `PayPal checkout` and other external payment methods.
+
 1. Create the following Universal Analytics tags with the same basic configuration.
 
    - Universal Analytics Tags
