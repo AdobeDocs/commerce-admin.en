@@ -29,6 +29,8 @@ breadcrumb-title: Stores and Purchase Experience
     - [Overview](currency.md)
     - [Currency configuration](currency-configuration.md)
     - [Update currency rates](currency-update.md)
+  - [Sales emails](sales-email.md)
+  - [Sales documents](sales-documents.md)
 - Point of purchase {#point-of-purchase}
   - [Instant Purchase](checkout-instant-purchase.md)
   - Shopping cart {#cart}

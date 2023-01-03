@@ -87,7 +87,7 @@ The customer can readd products to the cart by selecting the products and clicki
 
 1. Uses the Print dialog to complete the printing.
 
-Reorders are available to customers when the [_Allow Reorder_]({% link sales/reorders-allow.md %}) configuration option is enabled.
+Reorders are available to customers when the [_Allow Reorder_](reorders-allow.md) configuration option is enabled.
 
 A customer can initiate the reorder functionality for a specific order from two pages:
 
