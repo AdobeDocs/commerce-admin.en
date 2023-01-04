@@ -124,6 +124,10 @@ The following instructions show how to configure [!DNL Google Tag Manager] with 
     |`promotionClick`|Custom Event||
     |`removeFromCart`|Custom Event||
 
+>[!NOTE]
+>
+>The [!UICONTROL Checkout] event is triggered for the built-in Commerce basic payment methods only (such as `Check / Money Order` and `Cash On Delivery Payment`). This event is not executed for `PayPal checkout` and other external payment methods, which use redirection to the checkout from external resources.
+
 1. Create the following Universal Analytics tags with the same basic configuration.
 
    - Universal Analytics Tags

@@ -1,6 +1,7 @@
 ---
 title: Customer attribute properties
 description: Learn how to configure customer attribute properties.
+exl-id: d464f846-6a1f-43bd-876a-6834605ef794
 ---
 # Customer attribute properties
 
