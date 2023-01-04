@@ -16,7 +16,7 @@ This integration supports Commerce merchants with Admin users who have an Adobe 
 
 The administrator who configures this integration needs the following credentials during module enablement:
 
-* Organization ID (obtained from [Adobe Admin Console](https://adminconsole.adobe.com/)), which must be at least 24 characters in length. The authenticated user must belong to this IMS organization.
+* Organization ID (obtained from [Adobe Admin Console](https://adminconsole.adobe.com/)), which must be at least 24 characters in length. The authenticated user must belong to this IMS organization. [How to find your Organisation ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html)
 * 2FA should be enforced on the Organization level in Adobe Admin Console to enable the module. Please check [the documentation](https://helpx.adobe.com/enterprise/using/authentication-settings.html#two-step-verification)
 * Client ID
 * Client secret
