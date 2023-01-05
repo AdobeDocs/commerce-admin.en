@@ -88,18 +88,6 @@ PayPal offers a choice of two payment gateway solutions for your business. You c
 
 ![Set up PayPal payment gateways](./assets/paypal-payment-gateway.png)<!-- zoom -->
 
-## PayPal fraud management filters
-
-PayPal fraud management filters make it easier to detect and respond to fraudulent transactions, and can be configured to flag, hold for review, or deny riskier payments. Actions related to Commerce [order status](order-status.md) values changed according to the fraud filter settings:
-
-| Action | Result|
-| --- | --- |
-| [!UICONTROL Review] | The suspected order receives the status _Payment Review_ when the order is placed. You can review the order and approve, or cancel the payment in the Admin, or on the PayPal side. When you click **[!UICONTROL Accept Payment]** or **[!UICONTROL Deny Payment]**, no new transactions for the order are created. <br/><br/>If you change the status of the transaction on the PayPal site, you must click **[!UICONTROL Get Payment Update]** in the Order page of the Admin to apply the changes. If you click **[!UICONTROL Accept Payment]** or **[!UICONTROL Deny Payment]**, the changes made at the PayPal site are applied. |
-| [!UICONTROL Deny] | The suspected order cannot be placed by the customer, because the corresponding transaction is rejected by PayPal. <br/><br/>To deny the payment from the Admin, click **[!UICONTROL Deny Payment]** in the upper-right corner of the page. The order status changes to `Canceled`, the transaction is reverted, and funds are released on the customer account. The corresponding information is added in the _[!UICONTROL Comments History]_ section of the order view. |
-| [!UICONTROL Flag] | The suspected order gets the status `Processing` when it is placed. The corresponding transaction is marked with a flag in the list of the merchant account transactions. |
-
-{style="table-layout:auto"}
-
 ## PayPal solutions by country
 
 |Country|PayPal payment solution|
