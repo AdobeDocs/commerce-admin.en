@@ -9,7 +9,7 @@ Use business intelligence tools to gain the insight used to make sound business 
 
 ## [!DNL Business Intelligence] account
 
-When you activate a [!DNL Business Intelligence] account through Adobe, you get access to five dashboards with approximately 70 reports. These reports are designed to provide insights around your data and answer questions like "How are my orders growing month-over-month?", "Who are my most loyal customers?", and "Is my coupon strategy working?" For detailed information about this tool set, see the [Magento Business Intelligence User Guide][1].
+When you activate a [!DNL Business Intelligence] account through Adobe, you get access to five dashboards with approximately 70 reports. These reports are designed to provide insights around your data and answer questions like "How are my orders growing month-over-month?", "Who are my most loyal customers?", and "Is my coupon strategy working?" For detailed information about this tool set, see the [MBI User Guide][1].
 
 ## [!DNL Advanced Reporting]
 
@@ -44,7 +44,7 @@ For technical information, see the [[!DNL Advanced Reporting]][2]{:target="_blan
 
 ### Step 1: Enable [!DNL Advanced Reporting]
 
-In the [!DNL Commerce] configuration, [[!DNL Advanced Reporting]](https://docs.magento.com/user-guide/configuration/general/advanced-reporting.html) is enabled by default, and starts automatically if cron is [configured](https://docs.magento.com/user-guide/configuration/advanced/system.html) and running. An attempt to establish the subscription is initiated at the beginning of each hour over the next 24-hours until successful. The subscription status is "pending" until the subscription is successfully established.
+In the [!DNL Commerce] configuration, [[!DNL Advanced Reporting]](../configuration-reference/general/advanced-reporting.md) is enabled by default, and starts automatically if cron is [configured](../configuration-reference/advanced/system.md) and running. An attempt to establish the subscription is initiated at the beginning of each hour over the next 24-hours until successful. The subscription status is "pending" until the subscription is successfully established.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -60,7 +60,7 @@ In the [!DNL Commerce] configuration, [[!DNL Advanced Reporting]](https://docs.m
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-1. When prompted, click the [[!UICONTROL Cache Management]](https://docs.magento.com/user-guide/system/cache-management.html) in the message at the top of the page and refresh any invalid caches.
+1. When prompted, click the [[!UICONTROL Cache Management]](../systems/cache-management.md) in the message at the top of the page and refresh any invalid caches.
 
 1. Wait overnight, or until after the time of your next scheduled update. Then, check the status of your subscription. If the status is still _pending_, make sure that your installation meets all requirements.
 
@@ -170,6 +170,6 @@ If you notice that the `Data last updated...` caption displays yesterday's date 
 {style="table-layout:auto"}
 
 
-[1]: https://docs.magento.com/mbi/
-[2]: https://devdocs.magento.com/guides/v2.4/advanced-reporting/overview.html
-[3]: https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-cron.html
+[1]: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html
+[2]: https://developer.adobe.com/commerce/php/development/advanced-reporting/
+[3]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html

@@ -11,9 +11,9 @@ After configuring the CDN, you must complete the configuration from the Admin. T
 
 ## CDN workflow
 
-1. **Browser requests media** - A page from the store opens in the customer’s browser, and the browser requests the media that is specified in the HTML.
+1. **Browser requests media** - A page from the store opens in the customer's browser, and the browser requests the media that is specified in the HTML.
 1. **Request sent to CDN; images found and served** - The request is sent first to the CDN. If the CDN has the images in storage, it serves the media files to the customer's browser.
-1. **Media not found, request sent to [!DNL Commerce] web server** - If the CDN does not have the media files, the request is sent to the [!DNL Commerce] web server. If the media files are found in the file system, the web server sends them to the customer’s browser.
+1. **Media not found, request sent to [!DNL Commerce] web server** - If the CDN does not have the media files, the request is sent to the [!DNL Commerce] web server. If the media files are found in the file system, the web server sends them to the customer's browser.
 
 >[!IMPORTANT]
 >
@@ -30,8 +30,6 @@ After configuring the CDN, you must complete the configuration from the Admin. T
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Base URLs]** section and do the following:
 
     ![General configuration - web base URLs](./assets/web-base-urls.png)<!-- zoom -->
-
-    [_Base URLs_](https://docs.magento.com/user-guide/configuration/general/web.html)
 
     - Update the **[!UICONTROL Base URL for Static View Files]** with the URL of the location on the CDN where static view files are stored.
 
@@ -51,5 +49,5 @@ After configuring the CDN, you must complete the configuration from the Admin. T
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-[1]: https://magento.com/products/magento-commerce
-[2]: https://devdocs.magento.com/cloud/cdn/cloud-fastly.html
+[1]: https://business.adobe.com/products/magento/magento-commerce.html
+[2]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html

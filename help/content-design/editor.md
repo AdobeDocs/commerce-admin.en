@@ -22,11 +22,11 @@ The following topics provide detailed information about using the editor:
 
 ## Configure the Editor
 
-The WYSIWYG editor is enabled by default, and can be used to edit content on CMS pages and blocks, and in products and categories. From the configuration you can activate or deactivate the editor, and elect to use static, rather than [dynamic](https://docs.magento.com/user-guide/catalog/catalog-urls-dynamic-media.html), URLs for media content in product and category descriptions.
-
+The WYSIWYG editor is enabled by default, and can be used to edit content on CMS pages and blocks, and in products and categories. From the configuration you can activate or deactivate the editor, and elect to use static, rather than [dynamic](../catalog/catalog-urls.md#dynamic-url), URLs for media content in product and category descriptions.
+ d
 ![WYSIWYG Options](./assets/content-management-wysiwyg-options.png)<!-- zoom -->
 
-For detailed description of all WYSIWYG options, see [Content Management](https://docs.magento.com/user-guide/configuration/general/content-management.html) in the _Configuration Reference_.
+For detailed description of all WYSIWYG options, see [Content Management](../configuration-reference/general/content-management.md) in the _Configuration Reference_.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -38,6 +38,6 @@ For detailed description of all WYSIWYG options, see [Content Management](https:
 
    The editor is enabled by default.
 
-1. Set **[!UICONTROL Static URLs for Media Content in WYSIWYG]** to your preference for all [media content](https://docs.magento.com/user-guide/catalog/catalog-urls-dynamic-media.html) that is entered with the WYSIWYG editor.
+1. Set **[!UICONTROL Static URLs for Media Content in WYSIWYG]** to your preference for all [media content](../catalog/catalog-urls.md#static-url) that is entered with the WYSIWYG editor.
 
 1. When complete, click **[!UICONTROL Save Config]**.

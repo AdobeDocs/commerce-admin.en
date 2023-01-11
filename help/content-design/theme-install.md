@@ -21,6 +21,6 @@ To add a theme to your [!DNL Commerce] store, follow the instructions available 
 
 To apply the theme to your store, see [Themes](themes.md).
 
-[1]: https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/bk-frontend-dev-guide.html
-[2]: https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html
-[3]: https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/themes/theme-overview.html
+[1]: https://developer.adobe.com/commerce/frontend-core/guide/
+[2]: https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html
+[3]: https://developer.adobe.com/commerce/frontend-core/guide/themes/

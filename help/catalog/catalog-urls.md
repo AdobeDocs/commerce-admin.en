@@ -83,7 +83,7 @@ To prevent search engines from indexing multiple URLs that lead to the same cont
 
    ![Search Engine Optimization](./assets/catalog-search-engine-optimization.png)<!-- zoom -->
    
-   For more information about these options, see [Search Engine Optimization](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#search-engine-optimization) in the _Configuration  Reference_.
+   For more information about these options, see [Search Engine Optimization](../configuration-reference/catalog/catalog.md#search-engine-optimization) in the _Configuration  Reference_.
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
@@ -91,7 +91,7 @@ To prevent search engines from indexing multiple URLs that lead to the same cont
 
    ![Refresh Cache](./assets/msg-cache-management.png)<!-- zoom -->
    
-   For more information about these options, see [Refresh Cache](https://docs.magento.com/user-guide/system/cache-management.html).
+   For more information about these options, see [Refresh caches](../systems/cache-management.md#refresh-specific-caches).
 
 ## Configure catalog media URL format
 

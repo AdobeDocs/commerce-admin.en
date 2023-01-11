@@ -20,9 +20,4 @@ This guide covers All customers configuration-specific tasks that are done in th
 
 ## Additional documentation
 
-| Guide | Description |
-|------ | ----------- |
-| [Adobe Commerce 2.4 Merchant Documentation](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) | Merchant-focused documentation for both Adobe Commerce and Magento Open Source |
-| [Adobe Commerce 2.4 Developer Guide](https://devdocs.magento.com/) | Developer-focused documentation used to build and customize Adobe Commerce or Magento Open Source |
-
 {{docs-links}}

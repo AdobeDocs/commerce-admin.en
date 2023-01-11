@@ -57,7 +57,7 @@ For a multistore installation, a different main menu can be assigned as the [roo
 
 1. In the left panel, expand **[!UICONTROL Catalog]** and choose **[!UICONTROL Catalog]** underneath.
 
-      For information about these configuration options, see [Category Top Navigation](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#layered-navigation)
+      For information about these configuration options, see [Category Top Navigation](../configuration-reference/catalog/catalog.md#layered-navigation)
 
 1. Expand the **[!UICONTROL Category Top Navigation]** section.
    

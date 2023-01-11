@@ -59,6 +59,6 @@ Any day or period of time during a campaign can be previewed and shared with oth
 
       >[!NOTE]
       >
-      >An Admin user account is required to see a shared preview. If you have permissions to [create an Admin user account](https://docs.magento.com/user-guide/system/permissions-users-all.html), you must create the account for a new user before the sharing.
+      >An Admin user account is required to see a shared preview. If you have permissions to [create an Admin user account](../systems/permissions-users-all.md#create-a-user), you must create the account for a new user before the sharing.
 
 1. To return to the campaign calendar, click **[!UICONTROL Calendar]** in the header of the Preview page.

@@ -93,7 +93,7 @@ If there are multiple price rules running in the same campaign, the Priority set
 
    >[!NOTE]
    >
-   >An Admin user account is required to see a shared preview. If you have access to [create an Admin user account](https://docs.magento.com/user-guide/system/permissions-users-all.html), you must create the account for a new user before sharing.
+   >An Admin user account is required to see a shared preview. If your [role has access](../systems/permissions-user-roles.md) to create an Admin user account, you must create the account for a new user before sharing.
 
    **Change the Scope of the Preview**
 

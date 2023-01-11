@@ -11,17 +11,17 @@ With TFA enabled, your account is more secure. An unauthorized user cannot log i
 
 >[!NOTE]
 >
->The two-factor authentication that protects the _Admin_ of your store has a separate setup. To learn more, see [Two-Factor Authentication](https://docs.magento.com/user-guide/stores/security-two-factor-authentication.html).  
+>The two-factor authentication that protects the _Admin_ of your store has a separate setup. To learn more, see [Two-Factor Authentication](../systems/security-two-factor-authentication.md).  
 
 ## Before you begin
 
 To use TFA, you must have a TFA application installed on your personal device (such as your smartphone, tablet, computer). There are many available, but some popular and free options include:
 
-- Google Authenticator (iOS, Android™, BlackBerry®)
+- Google Authenticator (iOS, Android&trade;, BlackBerry&reg;)
 
-- Authy (iOS, Android™)
+- Authy (iOS, Android&trade;)
 
-- Microsoft® Authenticator (iOS, Android™, Windows Phone)
+- Microsoft&reg; Authenticator (iOS, Android&trade;, Windows Phone)
 
 ## Enable two-factor authentication
 

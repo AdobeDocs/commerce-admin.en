@@ -5,7 +5,7 @@ exl-id: 0b3c3635-a1cf-4ee6-a8bc-e7cbcb4e2e63
 ---
 # Company Accounts
 
-When you incorporate B2B company accounts in your store, you can simplify the corporate shopping experience by enabling companies to create multiple sub-accounts with flexible permissions based on user roles in their organization. Depending on the company, a store administrator can adjust promotions and prices to suit their needs, and create highly customized offers that cater to the shoppers' demands and increase orders. Adding a company account association to a standard [individual](https://docs.magento.com/user-guide/customers/account-create.html) allows the customer to use the specific purchasing workflows defined for the company.
+When you incorporate B2B company accounts in your store, you can simplify the corporate shopping experience by enabling companies to create multiple sub-accounts with flexible permissions based on user roles in their organization. Depending on the company, a store administrator can adjust promotions and prices to suit their needs, and create highly customized offers that cater to the shoppers' demands and increase orders. Adding a company account association to a standard [individual](../customers/account-create.md) allows the customer to use the specific purchasing workflows defined for the company.
 
 Advantages of a company account:
 

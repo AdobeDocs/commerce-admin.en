@@ -36,7 +36,7 @@ The downloadable configuration settings determine the default values and deliver
 
    ![Downloadable Product Options](./assets/catalog-downloadable-product-options.png)<!-- zoom -->
 
-   For more information about these configuration options, see [_Downloadable Product Options_](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#downloadable-product-options) in the _Configuration Reference_.
+   For more information about these configuration options, see [_Downloadable Product Options_](../configuration-reference/catalog/catalog.md#downloadable-product-options) in the _Configuration Reference_.
 
 1. To determine the status of the order process when the download becomes available, set **[!UICONTROL Order Item Status to Enable Downloads]** to one of the following:
 
@@ -196,7 +196,7 @@ WHen enabled, the _[!UICONTROL Downloadable Information]_ section has two parts.
 
    >[!NOTE]
    >
-   >You cannot use links to external resources as downloadable products. Valid link domains are predefined programmatically in the `env.php` file (see [env.php reference](https://devdocs.magento.com/guides/v2.4/config-guide/prod/config-reference-envphp.html#downloadable_domains) in the developer documentation).
+   >You cannot use links to external resources as downloadable products. Valid link domains are predefined programmatically in the `env.php` file (see [env.php reference](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html) in the _Configuration Guide_).
 
    - Set **[!UICONTROL Shareable]** to one of the following:
 
@@ -204,7 +204,7 @@ WHen enabled, the _[!UICONTROL Downloadable Information]_ section has two parts.
 
       - `Yes` - Sends the link by email, which customers can share with others.
 
-      - `Use Config` - Uses the method that is specified in the [Downloadable Product Options](https://docs.magento.com/user-guide/configuration/catalog/catalog.html) configuration.
+      - `Use Config` - Uses the method that is specified in the [Downloadable Product Options](../configuration-reference/catalog/catalog.md) configuration.
 
    - Do one of the following:
 

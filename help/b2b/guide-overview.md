@@ -34,14 +34,11 @@ This guide covers:
 
 ## Additional documentation
 
-| Guide | Description |
-|------ | ----------- |
-| [Adobe Commerce 2.4 Merchant Documentation](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) | Merchant-focused documentation for both Adobe Commerce and Magento Open Source |
-| [Adobe Commerce 2.4 Developer Documentation](https://devdocs.magento.com/) | Developer-focused documentation used to build and customize Adobe Commerce or Magento Open Source |
+{{docs-links}}
 
 ## Developer information
 
-For information about changes included in module releases, see the [Release Notes](release-notes.md). The [B2B Guide](https://devdocs.magento.com/guides/v2.4/b2b/bk-b2b.html){target="_blank"} in the developer documentation provides details about module architecture, APIs, and algorithm customization.
+For information about changes included in module releases, see the [Release Notes](release-notes.md). The [B2B Integrations](https://developer.adobe.com/commerce/webapi/rest/b2b/) documentation in the _Adobe Commerce REST API  Reference Guide_  provides details about module architecture, APIs, and algorithm customization.
 
 ## Troubleshooting and support
 

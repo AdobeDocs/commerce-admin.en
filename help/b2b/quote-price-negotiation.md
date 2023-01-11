@@ -16,7 +16,7 @@ During the negotiation process, the seller can do the following:
 - Add comments
 - Send the updated quote to the buyer, or save as a draft
 
-While the quote is open for review, its status in the buyer’s account is set to `Pending`. The buyer can change and resubmit the quote even if it was declined or is expired.
+While the quote is open for review, its status in the buyer's account is set to `Pending`. The buyer can change and resubmit the quote even if it was declined or is expired.
 
 ## Step 1: View the request
 
@@ -88,7 +88,7 @@ In the _[!UICONTROL Items Quoted]_ section, make the following changes, if neede
 
 1. Under the _Add your comment_ box, click **[!UICONTROL Attach file]**.
 
-   By default, [attached files](https://docs.magento.com/user-guide/configuration/sales/quotes.html) can be up to 2 MB in any of the following file formats: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG or JPEG, PNG.
+   By default, [attached files](../configuration-reference/sales/quotes.md) can be up to 2 MB in any of the following file formats: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG or JPEG, PNG.
 
 1. Choose the file from your directory.
 
@@ -120,7 +120,7 @@ In the _[!UICONTROL Items Quoted]_ section, make the following changes, if neede
 
 ## Step 4: Follow up on a quote
 
-When you send a quote, the system notifies both the buyer and the sales rep who manages the company account. The email includes a link to the quote in the buyer’s account and the expiration date of the quote. At any point in the negotiation, the buyer can do any of the following:
+When you send a quote, the system notifies both the buyer and the sales rep who manages the company account. The email includes a link to the quote in the buyer's account and the expiration date of the quote. At any point in the negotiation, the buyer can do any of the following:
 
 - Accept the negotiated quote and complete the purchase.
 - Send a reply with a counter offer and continue the negotiation.
@@ -138,7 +138,7 @@ To monitor its position in the workflow, check your email and the status of the 
 |[!UICONTROL Print]|Sends the quote to a printer or saves it as a PDF file.|
 |[!UICONTROL Save as Draft]|Save any changes made to the quote, but do not send it back to the buyer.|
 |[!UICONTROL Decline]|Declines the request to negotiate prices, either on the initial inquiry, or during ongoing negotiations. When a quote is declined, the seller should add a comment to explain the decision. When a quote is declined, all negotiated prices are reset to the original values. This button is disabled while the seller is waiting for a reply from the buyer.|
-|[!UICONTROL Send]|Sends the updated quote as a reply to the buyer’s inquiry. This button is disabled if the seller is waiting for a reply from the buyer.|
+|[!UICONTROL Send]|Sends the updated quote as a reply to the buyer's inquiry. This button is disabled if the seller is waiting for a reply from the buyer.|
 
 {style="table-layout:auto"}
 
@@ -151,10 +151,10 @@ Quote information and functions in the Admin are organized into the following se
 | Field        | Description |
 |--------------|---------------|
 |[!UICONTROL Name]|The name assigned to a quote request by the [buyer](account-company-roles-permissions.md).|
-|[!UICONTROL Status]|Indicates the current state of the quote. The status of a quote can be changed only by action on the part of either the buyer or seller. See also the [Status settings](quotes.md) from the Admin and the [buyer’s account](account-dashboard-my-quotes.md).|
+|[!UICONTROL Status]|Indicates the current state of the quote. The status of a quote can be changed only by action on the part of either the buyer or seller. See also the [Status settings](quotes.md) from the Admin and the [buyer's account](account-dashboard-my-quotes.md).|
 |[!UICONTROL Created]|The date and time the buyer first submitted the request for a quote.|
 |[!UICONTROL Created By]|The first and last name of the company buyer who submitted the request for a quote.|
-|[!UICONTROL Expiration Date]|Indicates the last day that the current quote is valid. The default expiration date is set in the configuration as 30 days after a buyer submits a request for a quote. <br/><br/>The seller can override the default expiration date by entering a different date (MMM DD YYYY ) or choosing the date from the calendar. The quote never expires if the field is left blank. <br/><br/>For open quotes, the seller receives an [email notification](https://docs.magento.com/user-guide/marketing/email-template-list.html) 48 hours before the quote is scheduled to expire. Buyers are notified 24 hours before the expiration date. <br/><br/>The status of the quote changes to _Expired_ and the buyer cannot make further changes to the quote. The proposed prices in the quote revert to the original values from the catalog. <br/><br/>If a quote is open for review by the seller when the quote is set to expire, the expiration date is reset according to the range that is set in the configuration. <br/><br/>The Expiration Date is the only field in the _Quote & Account_ section that can be edited during the review process.|
+|[!UICONTROL Expiration Date]|Indicates the last day that the current quote is valid. The default expiration date is set in the configuration as 30 days after a buyer submits a request for a quote. <br/><br/>The seller can override the default expiration date by entering a different date (MMM DD YYYY ) or choosing the date from the calendar. The quote never expires if the field is left blank. <br/><br/>For open quotes, the seller receives an [email notification](../systems/email-templates.md) 48 hours before the quote is scheduled to expire. Buyers are notified 24 hours before the expiration date. <br/><br/>The status of the quote changes to _Expired_ and the buyer cannot make further changes to the quote. The proposed prices in the quote revert to the original values from the catalog. <br/><br/>If a quote is open for review by the seller when the quote is set to expire, the expiration date is reset according to the range that is set in the configuration. <br/><br/>The Expiration Date is the only field in the _Quote & Account_ section that can be edited during the review process.|
 |[!UICONTROL Company]|The legal name of the [company](account-companies.md) that the buyer represents.|
 |[!UICONTROL Company Admin Email]|The email address of the [company administrator](account-company-admin.md).|
 |[!UICONTROL Sales Rep]|The [sales representative](account-company-manage.md) who works for the seller, and is the primary contact assigned to the company account.|
@@ -179,8 +179,8 @@ Quote information and functions in the Admin are organized into the following se
 |[!UICONTROL Name & SKU]|The linked product name and stock-keeping unit (SKU).|
 |[!UICONTROL Stock]|The number of products under this SKU that are currently available for sale.|
 |[!UICONTROL Cost]|The amount the seller paid to purchase the product.|
-|[!UICONTROL Catalog Price]|The price of the product in the buyer’s catalog, based on the customer group or shared catalog that is assigned to the buyer’s company.|
-|[!UICONTROL Cart Price]|The original price of the item in the cart, less any discounts applied from the cart. The cart price might differ from the catalog price if there are discounts or cart rules that apply to the buyer’s customer group.|
+|[!UICONTROL Catalog Price]|The price of the product in the buyer's catalog, based on the customer group or shared catalog that is assigned to the buyer's company.|
+|[!UICONTROL Cart Price]|The original price of the item in the cart, less any discounts applied from the cart. The cart price might differ from the catalog price if there are discounts or cart rules that apply to the buyer's customer group.|
 |[!UICONTROL Proposed Price]|The price proposed by the buyer during the negotiation of a quote. The Cart Price and Proposed Price are the same until price negotiation begins.|
 |[!UICONTROL Qty]|The number of units in this SKU that is the basis for  the quoted price. Only a positive number greater than zero can be entered. If you want to change the quantity to zero, delete the line item from the quote.|
 |[!UICONTROL Subtotal]|The proposed price multiplied by the quantity of items ordered.|
@@ -196,7 +196,7 @@ Quote information and functions in the Admin are organized into the following se
 
 | Field        | Description |
 |--------------|---------------|
-|[!UICONTROL Shipping Address]|Displays the shipping address that is specified in the buyer’s account. The shipping address is blank if the buyer did not specify an address before submitting the request.|
+|[!UICONTROL Shipping Address]|Displays the shipping address that is specified in the buyer's account. The shipping address is blank if the buyer did not specify an address before submitting the request.|
 |[!UICONTROL Shipping Method & Price]|The Get Shipping Methods and Rates link appears if the buyer includes a _Ship To_ address in the quote.|
 
 {style="table-layout:auto"}
@@ -215,11 +215,11 @@ Quote information and functions in the Admin are organized into the following se
 | Field        | Description |
 |--------------|---------------|
 |[!UICONTROL Total Cost]|The total cost to the seller of the items included in the quote.|
-|[!UICONTROL Catalog Total Price  (Incl./Excl. Tax)]|The total price of the items in the quote without tax, according to the prices in the shared catalog or primary catalog that is used as the basis of the quote. Expand the section to display the values that are used in the calculation, depending on the [Display Subtotal](https://docs.magento.com/user-guide/configuration/sales/tax.html) setting in the configuration. Options: <br/>**[!UICONTROL Subtotal (Excl. Tax)]** - The Catalog Total Price without estimated tax. <br/>**[!UICONTROL Subtotal (Incl. Tax)]** - The Catalog Total Price without estimated tax. <br/>**[!UICONTROL Estimated Tax]** - The amount of tax that is estimated to apply to the Catalog Total Price.|
+|[!UICONTROL Catalog Total Price  (Incl./Excl. Tax)]|The total price of the items in the quote without tax, according to the prices in the shared catalog or primary catalog that is used as the basis of the quote. Expand the section to display the values that are used in the calculation, depending on the [Display Subtotal](../configuration-reference/sales/tax.md) setting in the configuration. Options: <br/>**[!UICONTROL Subtotal (Excl. Tax)]** - The Catalog Total Price without estimated tax. <br/>**[!UICONTROL Subtotal (Incl. Tax)]** - The Catalog Total Price without estimated tax. <br/>**[!UICONTROL Estimated Tax]** - The amount of tax that is estimated to apply to the Catalog Total Price.|
 |Negotiated Price|The discount that is offered to the buyer can be based on any of the following: <br/>**[!UICONTROL Percentage Discount]** - The discount as a percentage. <br/>**[!UICONTROL Amount Discount]** - The discount as a fixed amount. <br/>**[!UICONTROL Proposed Price]** - The price proposed by the seller.|
-|[!UICONTROL Quote Subtotal (Incl./Excl. Tax)]|The total proposed price of each line item in the quote, either with or without tax, depending on the [tax calculation](https://docs.magento.com/user-guide/configuration/sales/tax.html) settings in the configuration.|
+|[!UICONTROL Quote Subtotal (Incl./Excl. Tax)]|The total proposed price of each line item in the quote, either with or without tax, depending on the [tax calculation](../configuration-reference/sales/tax.md) settings in the configuration.|
 |[!UICONTROL Shipping & Handling]|The  amount entered by the seller in the Proposed Shipping Price field in the Shipping Information section of the quote. If that field is empty, the amount is based on the selected shipping method.|
-|[!UICONTROL Estimated Tax]|The amount of tax that is estimated to be due, as specified in the configuration [display settings](https://docs.magento.com/user-guide/configuration/sales/tax.html).|
+|[!UICONTROL Estimated Tax]|The amount of tax that is estimated to be due, as specified in the configuration [display settings](../configuration-reference/sales/tax.md).|
 |[!UICONTROL Quote Grand Total (Incl. Tax)]|The final total at the bottom of the quote that includes the negotiated price, estimated tax, and proposed shipping and handling.|
 
 {style="table-layout:auto"}

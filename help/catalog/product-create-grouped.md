@@ -171,7 +171,7 @@ If you have a different image for each product in the group, you can set the con
 
    ![Shopping Cart](./assets/cart-grouped-product.png)<!-- zoom -->
 
-   For information about these configuration options, see [Shopping Cart](https://docs.magento.com/user-guide/configuration/sales/checkout.html#shopping-cart) in the _Configuration Reference_.
+   For information about these configuration options, see [Shopping Cart](../configuration-reference/sales/checkout.md#shopping-cart) in the _Configuration Reference_.
 
 1. Set **[!UICONTROL Grouped Product Image]** to `Product Thumbnail Itself`.
 

@@ -21,9 +21,9 @@ Step 4: Buyer accepts quote - The buyer accepts the proposed price and continues
 
 ## B2B role resources for store quotes
 
-Configuration options for quotes are controlled using the [Role Resources](https://docs.magento.com/user-guide/system/permissions-role-resources.html). These role resources must be set for the Admin [User Role](https://docs.magento.com/user-guide/system/permissions-user-roles.html) that is assigned to the store administrator.
+Configuration options for quotes are controlled using the [role resources](../systems/permissions-user-roles.md#role-resources). These role resources must be set for the Admin user role that is assigned to the store administrator.
 
-To grant access to quote functions in the Admin, go to **[!UICONTROL System]** > _[!UICONTROL Permissions]_ > **[!UICONTROL User Roles]**, select the role, and navigate to Sales > Operations > Quotes in the _Role Resources_ tree.
+To grant access to quote functions in the Admin, go to **[!UICONTROL System]** > _[!UICONTROL Permissions]_ > **[!UICONTROL User Roles]**, select the role, and navigate to [!UICONTROL Sales] > [!UICONTROL Operations] > [!UICONTROL Quotes] in the _Role Resources_ tree.
 
 ## Apply an action
 

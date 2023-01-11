@@ -39,7 +39,7 @@ The process of editing a product for a store view is like adding a layer of prod
 
 You can only edit or assign products for the site you have permissions for, not for all sites where the product is assigned.
 
-Although the _Spanish_ store view is selected in the following example, the product information still appears in the original language of the default store view. To translate the product information, you must switch to the _Spanish_ store view and translate the text fields — such as product title, description, and the meta data. For more information, see [Translating Products](https://docs.magento.com/user-guide/catalog/product-translate.html).
+Although the _Spanish_ store view is selected in the following example, the product information still appears in the original language of the default store view. To translate the product information, you must switch to the _Spanish_ store view and translate the text fields — such as product title, description, and the meta data. For more information, see [Localize products](../stores-purchase/store-localize.md#localize-products).
 
 ## Edit a product for a different view
 

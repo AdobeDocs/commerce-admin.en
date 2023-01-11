@@ -9,7 +9,7 @@ A single catalog price rule can be applied to multiple SKUs, which makes it poss
 
 ## Step 1. Verify storefront properties of the product attribute
 
-Before you begin, make sure that the [Storefront Properties](https://docs.magento.com/user-guide/stores/attributes-product.html) of the `sku` attribute are set to `Use in Promo Rules`.
+Before you begin, make sure that the [Storefront Properties](../catalog/attribute-product-create.md#step-4-describe-the-storefront-properties) of the `sku` attribute are set to `Use in Promo Rules`.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_ > **[!UICONTROL Product]**.
 
