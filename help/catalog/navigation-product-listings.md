@@ -19,7 +19,7 @@ Product listings can be set to appear by default as either a list or grid. You c
 
    ![Storefront configuration options](./assets/catalog-storefront.png)<!-- zoom -->
 
-   For more information about these options, see [Storefront](../configuration/catalog/catalog.md#storefront) in the _Configuration Reference_.
+   For more information about these options, see [Storefront](../configuration-reference/catalog/catalog.md#storefront) in the _Configuration Reference_.
 
    >[!NOTE]
    >
