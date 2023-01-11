@@ -1,6 +1,7 @@
 ---
 title: Sales emails
 description: Learn how to configure sales emails to support communications to customers about their orders.
+exl-id: b205dc61-08cc-4783-810c-686ccf2ba300
 ---
 # Sales emails
 

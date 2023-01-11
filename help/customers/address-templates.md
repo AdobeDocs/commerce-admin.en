@@ -1,6 +1,7 @@
 ---
 title: Customer address templates
 description: Learn how you can customize the customer address templates.
+exl-id: 9fd32c0a-ff9a-47f9-84e2-f5d6bf307d8c
 ---
 # Customer address templates
 
