@@ -47,7 +47,7 @@ You can create multiple access keys for different purposes and enable or disable
 
 >[!IMPORTANT]
 >
->Starting with Adobe Commerce and Magento Open Source 2.4.0, the Web Setup Wizard is removed, and you must use the command line to [install](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli.html){:target="_blank"} or [upgrade](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html){:target="_blank"} your instance. This requirement also includes [modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html){:target="_blank"} and [extensions](https://devdocs.magento.com/extensions/install/){:target="_blank"}.
+>Starting with Adobe Commerce and Magento Open Source 2.4.0, the Web Setup Wizard is removed, and you must use the command line to [install](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html){:target="_blank"} or [upgrade](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html){:target="_blank"} your instance. This requirement also includes [modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html){:target="_blank"} and [extensions](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html){:target="_blank"}.
 
 
 The installation process for [!DNL Marketplace] purchases is different for _on-premise_ installations of Commerce than for installations hosted on [the Adobe Cloud Architecture][4].

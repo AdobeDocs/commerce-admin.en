@@ -29,7 +29,7 @@ The following instructions walk you through each step to create a basic page. So
 
 ### Step 2: Complete the content
 
-Depending on your [Advanced Content Tools configuration](https://docs.magento.com/user-guide/configuration/general/content-management.html), add the page content.
+Depending on your [Advanced Content Tools configuration](../configuration-reference/general/content-management.md), add the page content.
 
 #### Use the Page Builder content tools
 
@@ -53,7 +53,7 @@ Depending on your [Advanced Content Tools configuration](https://docs.magento.co
 
 1. Complete the content and format the text as needed.
 
-   You can add [images](media-storage.md), [variables](https://docs.magento.com/user-guide/marketing/variables.html), and [widgets](widgets.md) as needed. For more information, see [Using the Editor](editor.md).
+   You can add [images](media-storage.md), [variables](../systems/variables-predefined.md), and [widgets](widgets.md) as needed. For more information, see [Using the Editor](editor.md).
 
 ### Step 3: Complete the SEO information
 
@@ -230,4 +230,4 @@ There are two ways to remove a created page. You can remove it from _[!UICONTROL
 
 1. To confirm the action, click **[!UICONTROL OK]**.
 
-[1]: https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/layouts/xml-instructions.html
+[1]: https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-instructions/

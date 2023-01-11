@@ -11,7 +11,7 @@ When enabled, Commerce creates a file called `sitemap.xml` that is saved to you
 
 While your site is in development, you might include instructions in the `robots.txt` file for web crawlers to avoid indexing the site. Then before the launch, you can change the instructions to allow the site to be indexed.
 
-For technical information, see [Add sitemap and robots.txt][1]{:target="_blank"} in the developer documentation.
+For technical information, see [Add sitemap and robots.txt][1] in the _Commerce on Cloud Infrastructure Guide_.
 
 ![Sitemap grid](./assets/marketing-sitemap-grid-generated.png)<!-- zoom -->
 
@@ -136,11 +136,11 @@ Your site map should be updated as frequently as the content on your site change
 
    ![XML sitemap - Categories options](../configuration-reference/catalog/assets/xml-sitemap-categories-options.png)<!-- zoom -->
 
-   For a detailed list of these options, see [Categories Options](https://docs.magento.com/user-guide/configuration/catalog/xml-sitemap.html#categories-options) in the _Configuration Reference_.
+   For a detailed list of these options, see [Categories Options](../configuration-reference/catalog/xml-sitemap.md#categories-options) in the _Configuration Reference_.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Products Options]** section and complete the **[!UICONTROL Frequency]** and **[!UICONTROL Priority]** settings as needed.
 
-   For a detailed list of these options, see [Products Options](https://docs.magento.com/user-guide/configuration/catalog/xml-sitemap.html#products-options) in the _Configuration Reference_.
+   For a detailed list of these options, see [Products Options](../configuration-reference/catalog/xml-sitemap.md#products-options) in the _Configuration Reference_.
 
 1. To determine the extent that images are included in the sitemap, set **[!UICONTROL Add Images into Sitemap]** to one of the following:
 
@@ -154,13 +154,13 @@ Your site map should be updated as frequently as the content on your site change
 
    ![Catalog configuration - XML sitemap CMS pages](../configuration-reference/catalog/assets/xml-sitemap-cms-pages-options.png)<!-- zoom -->
 
-   For a detailed list of these options, see [CMS Pages Options](https://docs.magento.com/user-guide/configuration/catalog/xml-sitemap.html#cms-pages-options) in the _Configuration Reference_.
+   For a detailed list of these options, see [CMS Pages Options](../configuration-reference/catalog/xml-sitemap.md#cms-pages-options) in the _Configuration Reference_.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Store Url Options]** section and complete the **[!UICONTROL Frequency]** and **[!UICONTROL Priority]** settings as needed.
 
    ![Catalog configuration - XML sitemap store url](./assets/xml-sitemap.png)<!-- zoom -->
 
-   For a detailed list of these options, see [Store Url Options](https://docs.magento.com/user-guide/configuration/catalog/xml-sitemap.html#store-url-options) in the _Configuration Reference_.
+   For a detailed list of these options, see [Store Url Options](../configuration-reference/catalog/xml-sitemap.md#store-url-options) in the _Configuration Reference_.
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
@@ -172,7 +172,7 @@ Your site map should be updated as frequently as the content on your site change
 
    ![Catalog configuration - XML sitemap generation settings](../configuration-reference/catalog/assets/xml-sitemap-generation-settings.png)<!-- zoom -->
 
-   For a detailed list of these options, see [Generation Settings](https://docs.magento.com/user-guide/configuration/catalog/xml-sitemap.html#generation-settings) in the _Configuration Reference_.
+   For a detailed list of these options, see [Generation Settings](../configuration-reference/catalog/xml-sitemap.md#generation-settings) in the _Configuration Reference_.
 
 1. To generate a sitemap, set **[!UICONTROL Enabled]** to `Yes` and do the following:
 
@@ -196,7 +196,7 @@ Your site map should be updated as frequently as the content on your site change
 
    ![Catalog configuration - XML sitemap file limits](../configuration-reference/catalog/assets/xml-sitemap-sitemap-file-limits.png)<!-- zoom -->
 
-   For a detailed list of these options, see [Sitemap File Limits](https://docs.magento.com/user-guide/configuration/catalog/xml-sitemap.html#sitemap-file-limits) in the _Configuration Reference_.
+   For a detailed list of these options, see [Sitemap File Limits](../configuration-reference/catalog/xml-sitemap.md#sitemap-file-limits) in the _Configuration Reference_.
 
 1. For **[!UICONTROL Maximum No of URLs per File]**, enter the maximum number of URLs that can be included in the sitemap.
 
@@ -216,6 +216,6 @@ Your site map should be updated as frequently as the content on your site change
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-[1]: https://devdocs.magento.com/cloud/trouble/robots-sitemap.html
+[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html
 [2]: https://support.google.com/webmasters/answer/183669?hl=en
 [3]: https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed

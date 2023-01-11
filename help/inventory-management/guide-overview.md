@@ -24,14 +24,11 @@ It does not cover the core capabilities of Adobe Commerce and Magento Open Sourc
 
 ## Additional documentation
 
-| Guide | Description |
-|------ | ----------- |
-| [Adobe Commerce 2.4 Merchant Documentation](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) | Merchant-focused documentation for both Adobe Commerce and Magento Open Source |
-| [Adobe Commerce 2.4 Developer Guide](https://devdocs.magento.com/) | Developer-focused documentation used to build and customize Adobe Commerce or Magento Open Source |
+{{docs-links}}
 
 ## Developer information
 
-[!DNL Inventory Management] is installed with Magento Open Source and Adobe Commerce, with all features enabled by default. For information about changes included in module releases, see the [Release Notes](release-notes.md). The [[!DNL Inventory Management] Guide](https://devdocs.magento.com/guides/v2.4/inventory/index.html){target="_blank"} in the developer documentation provides details about module architecture, APIs, and algorithm customization.
+[!DNL Inventory Management] is installed with Magento Open Source and Adobe Commerce, with all features enabled by default. For information about changes included in module releases, see the [Release Notes](release-notes.md). See [[!DNL Inventory Management]](https://developer.adobe.com/commerce/webapi/rest/inventory/){target="_blank"} in the developer documentation for details about module architecture, APIs, and algorithm customization.
 
 ## Troubleshooting and support
 

@@ -41,7 +41,7 @@ The in-stock alert creates a link called _Notify me when this product is in stoc
 
     - Set **[!UICONTROL Stock Alert Email Template]** to the template that you want to use for product stock alerts.
 
-    - Set **[!UICONTROL Alert Email Sender]** to the [store contact](../getting-started/store-details.md#store-email-addresses){target="_blank"} that you want to appear as the sender of the email alert. Learn more about [store email addresses](https://docs.magento.com/user-guide/configuration/general/store-email-addresses.html){target="_blank"} in the core user guide.
+    - Set **[!UICONTROL Alert Email Sender]** to the [store contact](../getting-started/store-details.md#store-email-addresses){target="_blank"} that you want to appear as the sender of the email alert. Learn more about [store email addresses](../configuration-reference/general/store-email-addresses.md){target="_blank"} in the core user guide.
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
@@ -49,7 +49,7 @@ The in-stock alert creates a link called _Notify me when this product is in stoc
 
 Next, configure, add, or modify the email template for your price alert. You may want to edit your price alert configurations after creating additional templates.
 
-For more detailed information about using email messaging, see [Message Templates](https://docs.magento.com/user-guide/marketing/email-template-message.html){target="_blank"} in the core user guide.
+For more detailed information about using email messaging, see [Message Templates](../systems/email-template-custom.md#message-templates) in the _Admin Systems Guide_.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_ > **[!UICONTROL Email Templates]**.
 

@@ -31,7 +31,7 @@ For example, a 3000 x 2100 pixel JPG at 100% could be a 5mb+ image file. Resizin
 
    ![Image Upload Configuration](./assets/system-image-upload-configuration.png)<!-- zoom -->
    
-   For more information about these configuration settings, see [_Image Upload Configuration_](https://docs.magento.com/user-guide/configuration/advanced/system.html#image-upload-configuration) in the _Configuration Reference_.
+   For more information about these configuration settings, see [_Image Upload Configuration_](../configuration-reference/advanced/system.md#image-upload-configuration) in the _Configuration Reference_.
 
 1. To enable, make sure **[!UICONTROL Enable Frontend Resize]** is set to `Yes`.
 
@@ -74,7 +74,7 @@ To upload placeholder images:
 
 1. Expand ![Expansion icon](../assets/icon-display-expand.png) the **[!UICONTROL Product Image Placeholders]** section.
 
-   For more information about these configuration settings, see [_Product Image Placeholders_](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#product-image-placeholders) in the _Configuration Reference_.
+   For more information about these configuration settings, see [_Product Image Placeholders_](../configuration-reference/catalog/catalog.md#product-image-placeholders) in the _Configuration Reference_.
 
    ![Product Image Placeholders](./assets/catalog-product-image-placeholders.png)<!-- zoom -->
 

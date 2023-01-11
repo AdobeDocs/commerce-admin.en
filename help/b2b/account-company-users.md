@@ -47,7 +47,7 @@ The company administrator first sets up the [company structure](account-company-
 
    The new users appear in the Company Users list, along with the Company Administrator.
 
-To save time during their first order, the company administrator can remind each company user to add the default company billing and shipping address to their [address book](https://docs.magento.com/user-guide/customers/account-dashboard-address-book.html).
+To save time during their first order, the company administrator can remind each company user to add the default company billing and shipping address to their [address book](../customers/account-dashboard-address-book.md).
 
 ![List of Company Users](./assets/company-users-list-storefront.png)<!-- zoom -->
 
@@ -77,7 +77,7 @@ To save time during their first order, the company administrator can remind each
 
 1. When prompted to confirm, clicks **[!UICONTROL Delete]**.
 
-In the Admin, the company user remains listed in the [Customers](https://docs.magento.com/user-guide/customers/customers-all.html) grid, but with an `Inactive` status.
+In the Admin, the company user remains listed in the [Customers](../customers/customers-all.md) grid, but with an `Inactive` status.
 
 ## Field descriptions
 

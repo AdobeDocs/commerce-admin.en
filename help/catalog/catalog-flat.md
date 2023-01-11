@@ -55,7 +55,7 @@ There are two methods that you can use to verify the results.
 
    - Use the navigation to browse to the product under its assigned category.
 
-      If necessary, refresh the page to see the results. The change appears within the minute or according to your [Cron](https://docs.magento.com/user-guide/system/cron.html) schedule.
+      If necessary, refresh the page to see the results. The change appears within the minute or according to your [Cron](../systems/cron.md) schedule.
 
    ![Storefront with Flat Catalog](./assets/storefront-flat-catalog-enabled.png)<!-- zoom -->
 

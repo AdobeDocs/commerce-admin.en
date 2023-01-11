@@ -31,11 +31,11 @@ Commerce Admin users must create an account with an Adobe ID to log in.
 * Enable the `AdminAdobeIms` module
 * Configure Adobe Commerce users in the Adobe Admin Console.
 
-A successful integration requires that all Adobe Commerce users have Admin user accounts with the same name and primary email address. If a matching Admin user account does not exist, a user with the required permissions (usually assigned the Administrator role) must manually [create the Admin user account](https://docs.magento.com/user-guide/system/permissions-users-all.html) with the same name and email.
+A successful integration requires that all Adobe Commerce users have Admin user accounts with the same name and primary email address. If a matching Admin user account does not exist, a user with the required permissions (usually assigned the Administrator role) must manually [create the Admin user account](../systems/permissions-users-all.md#create-a-user) with the same name and email.
 
 ## Configure the integration
 
-After the followings steps are completed by an administrator or developer with system access, the [!UICONTROL Sign into Adobe Commerce with Adobe IMS] button is displayed in the Commerce Admin login page for all Admin users.
+After the followings steps are completed by an administrator or developer with system access, the _[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_ button is displayed in the Commerce Admin login page for all Admin users.
 
 ### Step 1: Get Adobe Org ID
 

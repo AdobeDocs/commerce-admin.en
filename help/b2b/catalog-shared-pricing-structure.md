@@ -121,7 +121,7 @@ The selection of products in the grid cannot be changed from the _Custom Prices_
 
 [Tier pricing](../catalog/product-price-tier.md) lets you offer a quantity discount for products in the shared catalog. The _Tier Price_ column of the grid contains a link to the _Advanced Pricing_ options that apply specifically to the shared catalog. If the product already includes tier pricing, the number of existing tiers appears in parentheses after the link.
 
-The following instructions show how to apply tier pricing to a single product. To apply tier pricing to multiple products, refer to [Importing Tier Prices](https://docs.magento.com/user-guide/system/data-import-price-tier.html).
+The following instructions show how to apply tier pricing to a single product. To apply tier pricing to multiple products, refer to [Import Tier Prices](../systems/data-import-price-tier.md).
 
 1. For the product in the grid, go to the _Tier Price_ column and click **[!UICONTROL Configure]**.
 

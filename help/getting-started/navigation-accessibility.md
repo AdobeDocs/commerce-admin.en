@@ -47,4 +47,4 @@ For more information about accessibility, see [Accessibility Guidelines][2]{:tar
 {style="table-layout:auto"}
 
 [1]: https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts
-[2]: https://devdocs.magento.com/guides/v2.4/pattern-library/general/accessibilityguideline/accessibilityGuideline.html
+[2]: https://developer.adobe.com/commerce/admin-developer/pattern-library/general/accessibility-guidelines/

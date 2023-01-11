@@ -180,15 +180,15 @@ Additional buttons become available when the profile is saved for the first time
 |--- |--- |
 |**[!UICONTROL Associate to Website]**|Identifies the website associated with the customer account.|
 |**[!UICONTROL Group]**|Identifies the [customer group](../customers/customer-groups.md) where the customer is a member. If applicable, select the checkbox to disable automatic group change based on VAT.|
-|**[!UICONTROL Name Prefix]**|If used, the prefix  that is associated with the customer's name (such as Mr., Ms, or Dr.). The prefix values are determined by the [configuration](https://docs.magento.com/user-guide/configuration/customers/customer-configuration.html). Depending on the configuration, the input control might be a text field or a list of options.|
+|**[!UICONTROL Name Prefix]**|If used, the prefix  that is associated with the customer's name (such as Mr., Ms, or Dr.). The prefix values are determined by the [configuration](../configuration-reference/customers/customer-configuration.md). Depending on the configuration, the input control might be a text field or a list of options.|
 |**[!UICONTROL First Name]**|The customer's first name.|
-|**[!UICONTROL Middle Name / Initial]**|The middle name or initial of the customer. This field is included only if specified in the [configuration](https://docs.magento.com/user-guide/configuration/customers/customer-configuration.html) topic.|
+|**[!UICONTROL Middle Name / Initial]**|The middle name or initial of the customer. This field is included only if specified in the [configuration](../configuration-reference/customers/customer-configuration.md) topic.|
 |**[!UICONTROL Last Name]**|The customer's last name.|
-|**[!UICONTROL Name Suffix]**|If used, the suffix that is associated with the customer's name (such as  Jr., Sr., or III). The suffix values are determined by the [configuration](https://docs.magento.com/user-guide/configuration/customers/customer-configuration.html). Depending on the configuration, the input control might be a text field or a drop-down list of options.|
+|**[!UICONTROL Name Suffix]**|If used, the suffix that is associated with the customer's name (such as  Jr., Sr., or III). The suffix values are determined by the [configuration](../configuration-reference/customers/customer-configuration.md). Depending on the configuration, the input control might be a text field or a drop-down list of options.|
 |**[!UICONTROL Email]**|The customer's email address.|
-|**[!UICONTROL Date of Birth]**|The customer's date of birth. The date of birth is included if specified in the [configuration](https://docs.magento.com/user-guide/configuration/customers/customer-configuration.html) topic. <br><br>In keeping with current security and privacy best practices, be sure you are aware of any potential legal and security risks associated with the storage of customers' full date of birth (month, day, year) along with other personal identifiers (e.g., full name) before collecting or processing such data. We recommend limiting the storage of customers' full birth dates and instead suggest using customer year of birth as an alternative.|
+|**[!UICONTROL Date of Birth]**|The customer's date of birth. The date of birth is included if specified in the [configuration](../configuration-reference/customers/customer-configuration.md) topic. <br><br>In keeping with current security and privacy best practices, be sure you are aware of any potential legal and security risks associated with the storage of customers' full date of birth (month, day, year) along with other personal identifiers (e.g., full name) before collecting or processing such data. We recommend limiting the storage of customers' full birth dates and instead suggest using customer year of birth as an alternative.|
 |**[!UICONTROL Tax / VAT Number]**|The customer's Tax or Value Added Tax number, if applicable.|
-|**[!UICONTROL Gender]**|Identifies the customer's gender. The gender is included if specified in the [configuration](https://docs.magento.com/user-guide/configuration/customers/customer-configuration.html). Options: **[!UICONTROL Male]** / **[!UICONTROL Female]** / **[!UICONTROL Not Specified]**|
+|**[!UICONTROL Gender]**|Identifies the customer's gender. The gender is included if specified in the [configuration](../configuration-reference/customers/customer-configuration.md). Options: **[!UICONTROL Male]** / **[!UICONTROL Female]** / **[!UICONTROL Not Specified]**|
 |**[!UICONTROL Send Welcome Email From]**|If you have multiple store views, identifies the store view from which the Welcome message is sent. If store views are used for different languages, this determines the language of the Welcome email.|
 
 ### Addresses
@@ -198,7 +198,7 @@ Additional buttons become available when the profile is saved for the first time
 |**[!UICONTROL New Addresses]**|Identifies the type of new address. Options: **[!UICONTROL Default Billing Address]** / **[!UICONTROL Default Shipping Address]**|
 |**[!UICONTROL Add New Addresses]**|Displays another New Address section to identify the type of the address to be entered.|
 |**[!UICONTROL Company]**|The company name, if applicable for this address.|
-|**[!UICONTROL Street Address]**|The street address of the customer. A second line of the street address is available if specified in the [configuration](https://docs.magento.com/user-guide/configuration/customers/customer-configuration.html) topic.|
+|**[!UICONTROL Street Address]**|The street address of the customer. A second line of the street address is available if specified in the [configuration](../configuration-reference/customers/customer-configuration.md) topic.|
 |**[!UICONTROL City]**|The city where the customer address is located.|
 |**[!UICONTROL Country]**|The country where the customer address is located.|
 |**[!UICONTROL State/Province]**|The state or province where the customer address is located.|

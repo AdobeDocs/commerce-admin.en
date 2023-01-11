@@ -51,7 +51,7 @@ The following instructions show how to set up basic layered navigation with filt
 
 >[!NOTE]
 >
->The [Position field](https://docs.magento.com/user-guide/stores/attributes-product.html) is dimmed by default. You must save the attribute before you can modify this setting.
+>The [!UICONTROL Position] field is dimmed by default. You must save the attribute before you can modify this setting.
 
 ## Step 2: Make the category an anchor
 
@@ -130,7 +130,7 @@ Iterative splitting provides the best distribution of products among price range
 
 >[!IMPORTANT]
 >
->To correctly display products and their prices according to _price filters_ in the layered navigation, make sure that the settings for the price display in the [Sales Tax configuration](https://docs.magento.com/user-guide/configuration/sales/tax.html) have the same value (`Excluding Tax` **or** `Including Tax`). For the _[!UICONTROL Calculation Settings]_, check the **[!UICONTROL Catalog Prices]** value. And for _[!UICONTROL Price Display Settings]_, check the **[!UICONTROL Display Product Prices in Catalog]** value. If these have different values, price filters in the layered navigation may not properly filter and sort products by price.
+>To correctly display products and their prices according to _price filters_ in the layered navigation, make sure that the settings for the price display in the [Sales Tax configuration](../configuration-reference/sales/tax.md) have the same value (`Excluding Tax` **or** `Including Tax`). For the _[!UICONTROL Calculation Settings]_, check the **[!UICONTROL Catalog Prices]** value. And for _[!UICONTROL Price Display Settings]_, check the **[!UICONTROL Display Product Prices in Catalog]** value. If these have different values, price filters in the layered navigation may not properly filter and sort products by price.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -142,7 +142,7 @@ Iterative splitting provides the best distribution of products among price range
 
    ![Layered Navigation](./assets/layered-navigation.png)<!-- zoom -->
 
-   For information about these configuration options, see [Layered Navigation](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#layered-navigation)
+   For information about these configuration options, see [Layered Navigation](../configuration-reference/catalog/catalog.md#layered-navigation)
 
 1. Set **[!UICONTROL Price Navigation Steps Calculation]** for one of the methods in the following sections.
 

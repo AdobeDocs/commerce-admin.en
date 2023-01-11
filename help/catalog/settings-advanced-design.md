@@ -11,7 +11,7 @@ The _[!UICONTROL Design]_ settings allow a different theme to be applied to the 
 
 >[!NOTE]
 >
->When the same product is assigned to several categories with different design settings for each category, it is recommended to set **[!UICONTROL Use Categories Path for Product URLs]** = `Yes` in the [Search Engine Optimization configuration options](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#search-engine-optimization). To access this setting, go to  **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**, expand **[!UICONTROL Catalog]** and choose **[!UICONTROL Catalog]** underneath in the left panel, and then expand the **[!UICONTROL Search Engine Optimization]** section on the page.
+>When the same product is assigned to several categories with different design settings for each category, it is recommended to set **[!UICONTROL Use Categories Path for Product URLs]** = `Yes` in the [Search Engine Optimization configuration options](../configuration-reference/catalog/catalog.md#search-engine-optimization). To access this setting, go to  **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**, expand **[!UICONTROL Catalog]** and choose **[!UICONTROL Catalog]** underneath in the left panel, and then expand the **[!UICONTROL Search Engine Optimization]** section on the page.
 
 |Field|[Scope](../getting-started/websites-stores-views.md#scope-settings)|Description|
 |---|---|----|

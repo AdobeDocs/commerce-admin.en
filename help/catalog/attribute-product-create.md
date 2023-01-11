@@ -26,7 +26,7 @@ You can create attributes while working on a product or from the _[!UICONTROL Pr
    |`Text Field`|A single-line input field for text.|
    |`Text Area`|A multiple-line input field for entering paragraphs of text, such as a product description. You can use the WYSIWYG Editor to format the text with HTML tags, or enter the tags directly into the text.|
    |`Text Editor`|A fully functioning text editor at the attribute location.|
-   |Date|Displays a date value in the [preferred format](https://docs.magento.com/user-guide/stores/attribute-date-time-options.html) and [time zone](../getting-started/store-details.md#locale-options). Date values can be selected from a list or a calendar ( ![Calendar icon](../assets/icon-calendar.png) ). <br/><br/>**_Note:_** Depending on your system configuration, _Admin_ users can enter dates directly into a field or select a date from the calendar or list. For information about specifying date and time values, see [Date and Time Custom Options](https://docs.magento.com/user-guide/stores/attribute-date-time-options.html).|
+   |Date|Displays a date value in the [preferred format](attributes-input-types.md#date-and-time-options) and [time zone](../getting-started/store-details.md#locale-options). Date values can be selected from a list or a calendar ( ![Calendar icon](../assets/icon-calendar.png) ). <br/><br/>**_Note:_** Depending on your system configuration, _Admin_ users can enter dates directly into a field or select a date from the calendar or list. For information about specifying date and time values, see [Date and time options](attributes-input-types.md#date-and-time-options).|
    |`Yes/No`|Displays a drop-down list with pre-defined options of `Yes` and `No`.|
    |`Dropdown`|Displays a drop-down list of values that accepts only a single selection. The Dropdown input type is a key component of [configurable products](product-create-configurable.md).|
    |`Multiple Select`|Displays a drop-down list of values that accepts multiple selections.|
@@ -158,9 +158,9 @@ Any attribute that is used as a drop-down list of options for a [configurable pr
 
 When an attribute is deleted, it is removed from any related products and attribute sets. System attributes are part of the core functionality of your store and cannot be deleted.
 
-Before deleting an attribute, make sure that it is not currently used by any product in your catalog. An easy way to determine if an attribute is in use is to use the [Export](https://docs.magento.com/user-guide/system/data-export.html) tool to check the list of product Entity Attributes. If the attribute is not included in the list, then it is not used by any products in the catalog.
+Before deleting an attribute, make sure that it is not currently used by any product in your catalog. An easy way to determine if an attribute is in use is to use the [Export](../systems/data-export.md) tool to check the list of product Entity Attributes. If the attribute is not included in the list, then it is not used by any products in the catalog.
 
-To delete an attribute:
+**_To delete an attribute:_**
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_ > **[!UICONTROL Product]**.
 

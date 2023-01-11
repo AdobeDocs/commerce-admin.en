@@ -11,10 +11,10 @@ You can create custom blocks of content without writing any code, and assign the
 
 ![Blocks on the sample storefront home page](./assets/storefront-blocks-home-page.png)<!-- zoom -->
 
-[1]: https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/layouts/layout-overview.html
-
 ## Static and dynamic blocks demo
 
 Watch this video to learn about static and [dynamic blocks](dynamic-blocks.md):
 
 >[!VIDEO](https://video.tv.adobe.com/v/343783?quality=12)
+
+[1]: https://developer.adobe.com/commerce/frontend-core/guide/layouts/

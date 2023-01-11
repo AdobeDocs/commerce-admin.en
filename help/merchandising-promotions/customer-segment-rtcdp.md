@@ -68,7 +68,7 @@ You can create a cart price rule in Commerce using the Experience Platform Audie
 
 1. Click **[!UICONTROL Save]** to save the new cart price rule.
 
-1. Clean the [cache](https://docs.magento.com/user-guide/system/cache-management.html).
+1. Clean the [cache](../systems/cache-management.md).
 
 ## Headless support
 

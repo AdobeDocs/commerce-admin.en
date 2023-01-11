@@ -5,25 +5,25 @@ exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 ---
 # Cookie Law Compliance
 
-Cookies are small files that are saved to the computer of each visitor to your site, and used as temporary holding places for information. Information that is saved in cookies is used to personalize the shopping experience, link visitors to their shopping carts, measure traffic patterns, and improve the effectiveness of promotions. To keep pace with legislation in many countries regarding the use of cookies, Adobe Commerce and Magento Open Source offer merchants a choice of methods to obtain customer consent. For a list of the default cookies in Adobe Commerce and Magento Open Source, the [Cookie Reference](#defaultcookies).
+Cookies are small files that are saved to the computer of each visitor to your site, and used as temporary holding places for information. Information that is saved in cookies is used to personalize the shopping experience, link visitors to their shopping carts, measure traffic patterns, and improve the effectiveness of promotions. To keep pace with legislation in many countries regarding the use of cookies, Adobe Commerce and Magento Open Source offer merchants a choice of methods to obtain customer consent. For a list of the default cookies in Adobe Commerce and Magento Open Source, the [Cookie Reference](#default-cookies).
 
 >[!NOTE]
 >
->If you modify the default [Google privacy settings](https://docs.magento.com/user-guide/stores/compliance-privacy-google.html) to comply with the [General Data Protection Regulation](https://docs.magento.com/user-guide/stores/compliance-gdpr.html), it is not necessary to obtain user consent for the use of Google Analytics cookies.
+>If you modify the default [Google privacy settings](../merchandising-promotions/google-tools.md#google-privacy-settings) to comply with the [General Data Protection Regulation](compliance-gdpr.md), it is not necessary to obtain user consent for the use of Google Analytics cookies.
 
-## Method 1: Implied Consent
+## Method 1: Implied consent
 
 Implied consent means that visitors to your store have a clear understanding that cookies are a necessary part of operations, and by using your site, have indirectly granted permission to use them. The key to gaining implied consent is to provide enough information for a visitor to make an informed decision. Many stores display a message at the top of all standard pages that provides a brief overview of how cookies are used, with a link to the store's privacy policy. The privacy policy should describe the type of information that your store collects, and how it is used.
 
-## Method 2: Expressed Consent
+## Method 2: Expressed consent
 
-Operating your store in [cookie restriction mode](#cookierestrict) requires visitors to express their consent before any cookies can be saved to their computers. Unless consent is granted, many features of your store are unavailable. For example, if Google Analytics is available for your store, it can be invoked only after the visitor has granted permission to use cookies.
+Operating your store in _cookie restriction mode_ requires visitors to express their consent before any cookies can be saved to their computers. Unless consent is granted, many features of your store are unavailable. For example, if Google Analytics is available for your store, it can be invoked only after the visitor has granted permission to use cookies.
 
-## Cookie Restriction Mode {#cookierestrict}
+## Cookie restriction mode
 
-When Cookie Restriction Mode is enabled, visitors to your store are notified that cookies are required for full-featured operations. Depending on your theme, the message might appear above the header, below the footer, or somewhere else on the page. The message links to your privacy policy for more information, and encourages visitors to click the Allow button to grant consent. After consent is granted, the message disappears.
+When cookie restriction mode is enabled, visitors to your store are notified that cookies are required for full-featured operations. Depending on your theme, the message might appear above the header, below the footer, or somewhere else on the page. The message links to your privacy policy for more information, and encourages visitors to click the Allow button to grant consent. After consent is granted, the message disappears.
 
-Your [privacy policy](https://docs.magento.com/user-guide/stores/privacy-policy.html) should include the name of your store and contact information, and explain the purpose of each cookie that is used by your store. To learn more, see: [Cookie Reference](#defaultcookies).
+Your [privacy policy](privacy-policy.md)) should include the name of your store and contact information, and explain the purpose of each cookie that is used by your store. To learn more, see [Cookie Reference](#default-cookies).
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Your [privacy policy](https://docs.magento.com/user-guide/stores/privacy-policy.
 
 ![Example storefront - cookie restriction notice](./assets/storefront-cookie-restriction-message.png)<!-- zoom -->
 
-### Step 1: Enable Cookie Restriction Mode
+### Step 1: Enable cookie restriction mode
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -57,19 +57,19 @@ Your [privacy policy](https://docs.magento.com/user-guide/stores/privacy-policy.
 
 1. When prompted to update the cache, click the **[!UICONTROL Cache Management]** link in the system message. Then, refresh each invalid cache.
 
-### Step 2: Update Your Privacy Policy
+### Step 2: Update your privacy policy
 
-Update your [privacy policy](https://docs.magento.com/user-guide/stores/privacy-policy.html) so that it reflects the information that your company collects and how it is used.
+Update your [privacy policy](privacy-policy.md) so that it reflects the information that your company collects and how it is used.
 
-## Default Cookies {#defaultcookies}
+## Default cookies
 
 The default cookies in Adobe Commerce and Magento Open Source are classified as Exempt / Non-Exempt to help merchants meet the requirements of privacy regulations such as the [GDPR](compliance-gdpr.md). Merchants should use this information as a guide, and consult with legal advisors to update their Privacy and Cookie Policies as part of a comprehensive privacy regulation compliance strategy.
 
-The following cookies are used by [!DNL Commerce] "out of the box" for on-premise and cloud installations. These cookies may be required by functionality that is explicitly requested by the customer. To learn about the lifetime of session cookies, see [Session Lifetime](https://docs.magento.com/user-guide/customers/customer-online-options.html).
+The following cookies are used by [!DNL Commerce] "out of the box" for on-premise and cloud installations. These cookies may be required by functionality that is explicitly requested by the customer. To learn about the lifetime of session cookies, see [Session Lifetime](../customers/customer-online-options.md).
 
 Some of these cookies may provide configuration options, including enable/disable, as needed.
 
-### Requested Functionality Cookies (Exempt)
+### Requested functionality cookies (exempt)
 
  
 #### `add_to_cart` 
@@ -80,7 +80,7 @@ Used by Google Tag Manager. Captures the product SKU, name, price and quantity r
 
 #### `guest-view`
 
-Stores the Order ID that guest shoppers use to retrieve their order status. Guest orders view. Used in "Orders and Returns" widgets.
+Stores the Order ID that guest shoppers use to retrieve their order status. Guest orders view. Used in _[!DNL Orders and Returns]_ widgets.
 
 - Is Secure? No
 - HTTP Only: Yes
@@ -115,7 +115,7 @@ There is not an option to disable this cookie.
 
 #### `mage-translation-storage` (local storage)
 
-Stores translated content when requested by the shopper. Used when [Translation Strategy](https://docs.magento.com/user-guide/configuration/advanced/developer.html) is configured as "Dictionary (Translation on Storefront side)".
+Stores translated content when requested by the shopper. Used when [Translation Strategy](../configuration-reference/advanced/developer.md) is configured as "Dictionary (Translation on Storefront side)".
 
 - Is Secure? No
 - HTTP Only: No
@@ -124,7 +124,7 @@ Stores translated content when requested by the shopper. Used when [Translation 
 
 #### `mage-translation-file-version` (local storage)
 
-Tracks the version of translations in local storage. Used when [Translation Strategy](https://docs.magento.com/user-guide/configuration/advanced/developer.html) is configured as `Dictionary (Translation on Storefront side)`.
+Tracks the version of translations in local storage. Used when [Translation Strategy](../configuration-reference/advanced/developer.md) is configured as `Dictionary (Translation on Storefront side)`.
 
 - Is Secure? No
 - HTTP Only: No
@@ -301,11 +301,11 @@ Local storage for Banner functionality.
 - Expiration Policy: Per local storage rules
 - Module: `Magento_Banner`
 
-## Google Analytics Cookies
+## Google Analytics cookies
 
 The following cookies are used when [Google Analytics](../merchandising-promotions/google-analytics.md) or Google Universal Analytics is fully enabled for your installation. To disable these cookies for privacy regulation compliance, see [Google Privacy Settings](../merchandising-promotions/google-tools.md#google-privacy-settings). To learn more, see [Google Analytics Cookie Usage on Websites][1].
 
-### Google Universal Analytics Cookies  - Non-Exempt
+### Google Universal Analytics cookies  - non-exempt
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only)
 
@@ -318,7 +318,7 @@ JavaScript Libraries: `gtag.js` and `analytics.js`
 - `AMP_TOKEN`: Contains a token that can be used to retrieve a Client ID from AMP Client ID service. Other possible values include opt-out, inflight request or an error retrieving a Client ID from  AMP Client ID service.
 - `_gac_<property-id>`: Contains campaign-related information for the user. Google AdWords conversion tags read this cookie if Google Analytics is linked to your [AdWords][2] account.
 
-### Google Analytics Cookies - Non-Exempt
+### Google Analytics cookies - non-exempt
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only)
 
@@ -336,7 +336,7 @@ JavaScript Library: `ga.js`
 
 The following cookies are used by Product Recommendations for Adobe Commerce customers. These cookies are installed with the [DataServices module](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html).
 
-- `mg_dnt`: Allows you to [restrict Adobe Commerce data collection](https://devdocs.magento.com/recommendations/setting-cookie.html) if you have custom code to manage cookie consent on your site.
+- `mg_dnt`: Allows you to [restrict Adobe Commerce data collection](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/developer/setting-cookie.html) if you have custom code to manage cookie consent on your site.
 - `user_allowed_save_cookie`: Used for [cookie restriction mode](#cookierestrict).
 - `authentication_flag`: Indicates if a shopper has signed in or signed out. This cookie is updated at the same time as the `dataservices_customer_id` cookie.
 - `dataservices_customer_id`: Indicates if a shopper has signed in or signed out. This cookie does not contain the customer ID.

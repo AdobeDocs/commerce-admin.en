@@ -21,7 +21,7 @@ On the page, content blocks float to fill the available space, according to the 
 
    ![Default layouts](./assets/web-default-layouts.png)<!-- zoom -->
 
-   [Default Layouts](https://docs.magento.com/user-guide/configuration/general/web.html#default-layouts)
+   [Default Layouts](../configuration-reference/general/web.md#default-layouts)
 
 1. Choose the **[!UICONTROL Default Product Layout]** that you want to use for product pages.
 
@@ -108,6 +108,4 @@ The _3 Column_ layout has a center column that is wide enough for the main text 
 
 ![Diagram - empty layout](./assets/layout-blank-th.png)
 
-The _Empty_ layout can be used to define custom page layouts. To learn more, see the [Designer’s Guide][1].
-
-[1]: https://info2.magento.com/rs/magentosoftware/images/magentodesignguide.pdf
+The _Empty_ layout can be used to define custom page layouts.

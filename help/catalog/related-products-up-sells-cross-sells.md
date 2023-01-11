@@ -78,7 +78,7 @@ Cross-sell items are similar to impulse purchases positioned next to the cash re
 
 >[!NOTE]
 >
->To show or hide cross-sell items per store view, see the [Checkout > Shopping Cart](https://docs.magento.com/user-guide/configuration/sales/checkout.html) option called _[!UICONTROL Show Cross-sell Items]_ in the Shopping Cart. You may want to hide cross-sells during specific sales or for A/B testing in a store view.
+>To show or hide cross-sell items per store view, see the [Checkout > Shopping Cart](../configuration-reference/sales/checkout.md) option called _[!UICONTROL Show Cross-sell Items]_ in the Shopping Cart. You may want to hide cross-sells during specific sales or for A/B testing in a store view.
 
 ![Cross-sells in shopping cart](./assets/storefront-cart-cross-sells.png)<!-- zoom -->
 

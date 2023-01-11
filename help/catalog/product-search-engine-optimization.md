@@ -7,7 +7,7 @@ exl-id: 78888094-759c-4e45-afcd-65858ee76159
 
 The _[!UICONTROL Search Engine Optimization]_ section specifies the [URL Key](catalog-urls.md) and [meta data](../merchandising-promotions/meta-data.md) fields that are used by search engines to index the product. Although some search engines ignore meta keywords, other search engines continue to use them. The current [SEO best practice](../merchandising-promotions/seo-overview.md) is to incorporate high-value keywords in both the meta title and meta description.
 
-The default value for each meta data field can be auto-generated based on values specified in the configuration. Each field contains a placeholder that is replaced by an actual value. For more information, see [Default Field Values](https://docs.magento.com/user-guide/configuration/catalog/catalog.html).
+The default value for each meta data field can be auto-generated based on values specified in the configuration. Each field contains a placeholder that is replaced by an actual value. For more information, see [Default field values](../configuration-reference/catalog/catalog.md).
 
 ![Search Engine Optimization](./assets/product-search-engine-optimization.png)<!-- zoom -->
 

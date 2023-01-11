@@ -5,7 +5,7 @@ exl-id: 649809c2-7217-4274-b365-c682bfff24ba
 ---
 # Prelaunch Checklist
 
-After you complete the design, development, and testing of your store, check the following configuration settings to make sure that everything is correct before the store _goes live_. For a comprehensive description of every configuration setting, see the [Configuration Reference](https://docs.magento.com/user-guide/stores/configuration.html).
+After you complete the design, development, and testing of your store, check the following configuration settings to make sure that everything is correct before the store _goes live_. For a comprehensive description of every configuration setting, see the [_Configuration Reference_](../configuration-reference/guide-overview.md).
 
 ## General settings
 
@@ -15,8 +15,8 @@ After you complete the design, development, and testing of your store, check the
 
 ## Marketing settings
 
-- [Email Templates](https://docs.magento.com/user-guide/marketing/email-templates.html) - Update the default email templates to reflect your brand. Make sure to update the configuration if you create templates.
-- [Sales Communications](https://docs.magento.com/user-guide/marketing/sales-communications.html) - Make sure that your invoices and packing slips include the correct business information and reflect your brand.
+- [Email Templates](../systems/email-templates.md) - Update the default email templates to reflect your brand. Make sure to update the configuration if you create templates.
+- [Sales Communications](../stores-purchase/introduction.md#order-management-and-operations) - Make sure that your invoices and packing slips include the correct business information and reflect your brand.
 - [Google Tools](../merchandising-promotions/google-tools.md) - [!DNL Commerce] provides integration with Google API to allow your business to use Google Analytics and Google AdWords.
 
 ## Sales settings
@@ -30,4 +30,4 @@ After you complete the design, development, and testing of your store, check the
 
 ## System settings
 
-[Cron (Scheduled Tasks)](https://docs.magento.com/user-guide/system/cron.html) - Cron jobs are used to process email, catalog price rules, newsletters, customer alerts, Google sitemaps, update currency rates, and so on. Make sure that Cron jobs are set to run at the appropriate time interval, in minutes.
+[Cron (Scheduled Tasks)](../systems/cron.md) - Cron jobs are used to process email, catalog price rules, newsletters, customer alerts, Google sitemaps, update currency rates, and so on. Make sure that Cron jobs are set to run at the appropriate time interval, in minutes.
