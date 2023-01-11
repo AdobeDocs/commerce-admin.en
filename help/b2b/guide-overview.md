@@ -38,7 +38,7 @@ This guide covers:
 
 ## Developer information
 
-For information about changes included in module releases, see the [Release Notes](release-notes.md). The [B2B Integrations](https://developer.adobe.com/commerce/webapi/rest/b2b/){target="_blank"} in the developer documentation provides details about module architecture, APIs, and algorithm customization.
+For information about changes included in module releases, see the [Release Notes](release-notes.md). The [B2B Integrations](https://developer.adobe.com/commerce/webapi/rest/b2b/) documentation in the _Adobe Commerce REST API  Reference Guide_  provides details about module architecture, APIs, and algorithm customization.
 
 ## Troubleshooting and support
 
