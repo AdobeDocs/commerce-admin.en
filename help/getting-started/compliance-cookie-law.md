@@ -80,7 +80,7 @@ Used by Google Tag Manager. Captures the product SKU, name, price and quantity r
 
 #### `guest-view`
 
-Stores the Order ID that guest shoppers use to retrieve their order status. Guest orders view. Used in _Orders and Returns_ widgets.
+Stores the Order ID that guest shoppers use to retrieve their order status. Guest orders view. Used in _[!DNL Orders and Returns_ widgets.
 
 - Is Secure? No
 - HTTP Only: Yes
