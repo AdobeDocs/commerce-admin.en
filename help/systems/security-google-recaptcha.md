@@ -11,7 +11,7 @@ Google reCAPTCHA is configured separately for the Admin and storefront.
 
 - For the Admin, Google reCAPTCHA can be used on the [Sign In](../getting-started/admin-signin.md) page and when a user requests a password reset. If the standard Commerce [CAPTCHA](security-captcha.md) is also enabled, Google reCAPTCHA can be used at the same time without any problem.
 
-- For the storefront, Google reCAPTCHA can be used to sign in to a [customer account](https://docs.magento.com/user-guide/customers/customer-sign-in.html), send a message from the [Contact Us](../getting-started/store-details.md#contact-us-form) page, and in numerous other storefront locations.
+- For the storefront, Google reCAPTCHA can be used to sign in to a [customer account](../customers/customer-sign-in.md), send a message from the [Contact Us](../getting-started/store-details.md#contact-us-form) page, and in numerous other storefront locations.
 
    ![Google reCAPTCHA - customer login](./assets/customer-account-login-recaptcha.png)<!-- zoom -->
 

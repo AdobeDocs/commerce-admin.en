@@ -60,7 +60,7 @@ For a detailed list of the configuration settings, see [_Transactional Emails_](
 
 ## Step 2. Choose the header and footer templates
 
-If you have custom header and footer templates for your store, or for different stores, you can specify which templates are used for each, according to the [scope](https://docs.magento.com/user-guide/configuration/scope.html) of the configuration. Otherwise, the default templates are used. To learn more, see [Customizing Email Templates](email-template-custom.md).
+If you have custom header and footer templates for your store, or for different stores, you can specify which templates are used for each, according to the [scope](../getting-started/websites-stores-views.md#scope-settings) of the configuration. Otherwise, the default templates are used. To learn more, see [Customizing Email Templates](email-template-custom.md).
 
 1. Choose the **[!UICONTROL Header Template]** to be used for all transactional email messages.
 
@@ -85,7 +85,7 @@ The list of email templates is organized alphabetically by module.
 
 |Template|Configuration path|
 |--- |--- |
-| `Payment Failed` | **Page:** [!UICONTROL Sales] > [[!UICONTROL Checkout]](https://docs.magento.com/user-guide/configuration/sales/checkout.html)<br/>**Section:** [!UICONTROL Payment Failed Emails]<br/>**Field:** [!UICONTROL Payment Failed Template]|
+| `Payment Failed` | **Page:** [!UICONTROL Sales] > [[!UICONTROL Checkout]](../configuration-reference/sales/checkout.md)<br/>**Section:** [!UICONTROL Payment Failed Emails]<br/>**Field:** [!UICONTROL Payment Failed Template]|
 
 {style="table-layout:auto"}
 
@@ -95,20 +95,20 @@ The list of email templates is organized alphabetically by module.
 
 |Template|Configuration path|
 |--- |--- |
-| `Assign Company Admin` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](https://docs.magento.com/user-guide/configuration/customers/company-configuration.html)<br/>**Section:** [!UICONTROL Customer-Related Emails]<br/>**Field:** [!UICONTROL Default 'Assign Company Admin' Email]|
-| `Assign Company to Customer` | **Page:** [!UICONTROL Customers] > [Company Configuration](https://docs.magento.com/user-guide/configuration/customers/company-configuration.html)<br/>**Section:** [!UICONTROL Customer-Related Emails] <br/>**Field:** [!UICONTROL Default 'Assign Company to Customer' Email]|
-| `Company Admin Changed to Member` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](https://docs.magento.com/user-guide/configuration/customers/company-configuration.html)<br/>**Section:** [!UICONTROL Customer-Related Emails]<br/>**Field:** [!UICONTROL Default 'Company Admin Changed To Member' Email]|
-| `Company Admin Set Inactive` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](https://docs.magento.com/user-guide/configuration/customers/company-configuration.html)<br/>**Section:** [!UICONTROL Customer-Related Emails]<br/>**Field:** [!UICONTROL Default 'Customer Status Inactive' Email]|
+| `Assign Company Admin` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Section:** [!UICONTROL Customer-Related Emails]<br/>**Field:** [!UICONTROL Default 'Assign Company Admin' Email]|
+| `Assign Company to Customer` | **Page:** [!UICONTROL Customers] > [Company Configuration](../configuration-reference/customers/company-configuration.md)<br/>**Section:** [!UICONTROL Customer-Related Emails] <br/>**Field:** [!UICONTROL Default 'Assign Company to Customer' Email]|
+| `Company Admin Changed to Member` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Section:** [!UICONTROL Customer-Related Emails]<br/>**Field:** [!UICONTROL Default 'Company Admin Changed To Member' Email]|
+| `Company Admin Set Inactive` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Section:** [!UICONTROL Customer-Related Emails]<br/>**Field:** [!UICONTROL Default 'Customer Status Inactive' Email]|
 | `Company Invite` | n/a |
-| `Company Registration Request` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](https://docs.magento.com/user-guide/configuration/customers/company-configuration.html)<br/>**Section:** [!UICONTROL Email Options - Company Registration]<br/>**Field:** [!UICONTROL Default Company Registration Email]|
-| `Company Status Active1` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](https://docs.magento.com/user-guide/configuration/customers/company-configuration.html)<br/>**Section:** [!UICONTROL Company Status Change]<br/>**Field:** [!UICONTROL Default 'Company Status Change To Active 1" Email]|
-| `Company Status Active2` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](https://docs.magento.com/user-guide/configuration/customers/company-configuration.html)<br/>**Section:** [!UICONTROL Company Status Change]<br/>**Field:** [!UICONTROL Default 'Company Status Change To Active 2" Email]|
-| `Company Status Blocked` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](https://docs.magento.com/user-guide/configuration/customers/company-configuration.html)<br/>**Section:** [!UICONTROL Company Status Change]<br/>**Field:** [!UICONTROL Default 'Company Status Change To Blocked" Email]|
-| `Company Status Pending Approval` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](https://docs.magento.com/user-guide/configuration/customers/company-configuration.html)<br/>**Section:** [!UICONTROL Company Status Change]<br/>**Field:** [!UICONTROL Default 'Company Status Change To Pending Approval" Email]|
-| `Company Status Rejected` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](https://docs.magento.com/user-guide/configuration/customers/company-configuration.html)<br/>**Section:** [!UICONTROL Company Status Change]<br/>**Field:** [!UICONTROL Default 'Company Status Change To Rejected" Email]|
-| `Customer Status Active` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](https://docs.magento.com/user-guide/configuration/customers/company-configuration.html)<br/>**Section:** [!UICONTROL Customer-Related Emails]<br/>**Field:** [!UICONTROL Default 'Customer Status Active' Email]|
-| `Customer Status Inactive` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](https://docs.magento.com/user-guide/configuration/customers/company-configuration.html)<br/>**Section:** [!UICONTROL Customer-Related Emails]<br/>**Field:** [!UICONTROL Default 'Company Admin Inactive' Email]|
-| `Sales Representative Assigned to Company` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](https://docs.magento.com/user-guide/configuration/customers/company-configuration.html)<br/>**Section:** [!UICONTROL Customer-Related Emails]<br/>**Field:** [!UICONTROL Default 'Sales Rep Assigned' Email]|
+| `Company Registration Request` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Section:** [!UICONTROL Email Options - Company Registration]<br/>**Field:** [!UICONTROL Default Company Registration Email]|
+| `Company Status Active1` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Section:** [!UICONTROL Company Status Change]<br/>**Field:** [!UICONTROL Default 'Company Status Change To Active 1" Email]|
+| `Company Status Active2` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Section:** [!UICONTROL Company Status Change]<br/>**Field:** [!UICONTROL Default 'Company Status Change To Active 2" Email]|
+| `Company Status Blocked` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Section:** [!UICONTROL Company Status Change]<br/>**Field:** [!UICONTROL Default 'Company Status Change To Blocked" Email]|
+| `Company Status Pending Approval` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Section:** [!UICONTROL Company Status Change]<br/>**Field:** [!UICONTROL Default 'Company Status Change To Pending Approval" Email]|
+| `Company Status Rejected` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Section:** [!UICONTROL Company Status Change]<br/>**Field:** [!UICONTROL Default 'Company Status Change To Rejected" Email]|
+| `Customer Status Active` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Section:** [!UICONTROL Customer-Related Emails]<br/>**Field:** [!UICONTROL Default 'Customer Status Active' Email]|
+| `Customer Status Inactive` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Section:** [!UICONTROL Customer-Related Emails]<br/>**Field:** [!UICONTROL Default 'Company Admin Inactive' Email]|
+| `Sales Representative Assigned to Company` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Section:** [!UICONTROL Customer-Related Emails]<br/>**Field:** [!UICONTROL Default 'Sales Rep Assigned' Email]|
 
 {style="table-layout:auto"}
 
@@ -118,11 +118,11 @@ The list of email templates is organized alphabetically by module.
 
 |Template|Configuration path|
 |--- |--- |
-| `Credit Limit Allocated` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](https://docs.magento.com/user-guide/configuration/customers/company-configuration.html)<br/>**Section:** [!UICONTROL Company Credit]<br/>**Field:** [!UICONTROL Allocated Email Template]|
-| `Credit Limit Updated` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](https://docs.magento.com/user-guide/configuration/customers/company-configuration.html)<br/>**Section:** [!UICONTROL Company Credit]<br/>**Field:** [!UICONTROL Updated Email Template]|
-| `Credit Reimbursed` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](https://docs.magento.com/user-guide/configuration/customers/company-configuration.html)<br/>**Section:** [!UICONTROL Company Credit]<br/>**Field:** [!UICONTROL Reimbursed Email Template]|
-| `Order Refunded to Company Credit` |**Page:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](https://docs.magento.com/user-guide/configuration/customers/company-configuration.html)<br/>**Section:** [!UICONTROL Company Credit]<br/>**Field:** [!UICONTROL Refunded Email Template]|
-| `Order Reverted to Company Credit` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](https://docs.magento.com/user-guide/configuration/customers/company-configuration.html)<br/>**Section:** [!UICONTROL Company Credit]<br/>**Field:** [!UICONTROL Reverted Email Template]|
+| `Credit Limit Allocated` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Section:** [!UICONTROL Company Credit]<br/>**Field:** [!UICONTROL Allocated Email Template]|
+| `Credit Limit Updated` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Section:** [!UICONTROL Company Credit]<br/>**Field:** [!UICONTROL Updated Email Template]|
+| `Credit Reimbursed` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Section:** [!UICONTROL Company Credit]<br/>**Field:** [!UICONTROL Reimbursed Email Template]|
+| `Order Refunded to Company Credit` |**Page:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Section:** [!UICONTROL Company Credit]<br/>**Field:** [!UICONTROL Refunded Email Template]|
+| `Order Reverted to Company Credit` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Section:** [!UICONTROL Company Credit]<br/>**Field:** [!UICONTROL Reverted Email Template]|
 
 {style="table-layout:auto"}
 
@@ -130,7 +130,7 @@ The list of email templates is organized alphabetically by module.
 
 |Template|Configuration path|
 |--- |--- |
-| `Contact Form` | **Page:** [!UICONTROL General] > [[!UICONTROL Contacts]](https://docs.magento.com/user-guide/configuration/general/contacts.html)<br/>**Section:** [!UICONTROL Email Options]<br/>**Field:** [!UICONTROL Email Template] |
+| `Contact Form` | **Page:** [!UICONTROL General] > [[!UICONTROL Contacts]](../configuration-reference/general/contacts.md)<br/>**Section:** [!UICONTROL Email Options]<br/>**Field:** [!UICONTROL Email Template] |
 
 {style="table-layout:auto"}
 
@@ -138,16 +138,16 @@ The list of email templates is organized alphabetically by module.
 
 |Template|Configuration path|
 |--- |--- |
-| `Change Email` |  **Page:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](https://docs.magento.com/user-guide/configuration/customers/customer-configuration.html)<br/>**Section:** [!UICONTROL Account Information Options ]<br/>**Field:** [!UICONTROL Change Email Template]|
-| Change Email and Password | **Page:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](https://docs.magento.com/user-guide/configuration/customers/customer-configuration.html)<br/>**Section:** [!UICONTROL Account Information Options ]<br/>**Field:** [!UICONTROL Change Email and Password Template]|
-| `Forgot Password` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](https://docs.magento.com/user-guide/configuration/customers/customer-configuration.html)<br/>**Section:** [!UICONTROL Password Options]<br/>**Field:** Forgot Email Template|
-| `New Account` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](https://docs.magento.com/user-guide/configuration/customers/customer-configuration.html)<br/>**Section:** [!UICONTROL Create New Account Options]<br/>**Field:** Default Welcome Email|
-| `New Account (Magento/luma)` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](https://docs.magento.com/user-guide/configuration/customers/customer-configuration.html)<br/>**Section:** [!UICONTROL Create New Account Options]<br/>**Field:** Default Welcome Email |
-| `New Account Confirmation Key` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](https://docs.magento.com/user-guide/configuration/customers/customer-configuration.html)<br/>**Section:** [!UICONTROL Create New Account Options]<br/>**Field:** Confirmation Link Email |
-| `New Account Confirmed` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](https://docs.magento.com/user-guide/configuration/customers/customer-configuration.html)<br/>**Section:** [!UICONTROL Create New Account Options]<br/>**Field:** Welcome Email |
-| `New Account Without Password` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](https://docs.magento.com/user-guide/configuration/customers/customer-configuration.html)<br/>**Section:** [!UICONTROL Create New Account Options]<br/>**Field:** Default Welcome Email Without Password |
-| `Remind Password` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](https://docs.magento.com/user-guide/configuration/customers/customer-configuration.html)<br/>**Section:** [!UICONTROL Password Options]<br/>**Field:** Remind Email Template |
-| `Reset Password` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](https://docs.magento.com/user-guide/configuration/customers/customer-configuration.html)<br/>**Section:** [!UICONTROL Password Options] <br/>**Field:** Reset Password Template |
+| `Change Email` |  **Page:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Section:** [!UICONTROL Account Information Options ]<br/>**Field:** [!UICONTROL Change Email Template]|
+| Change Email and Password | **Page:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Section:** [!UICONTROL Account Information Options ]<br/>**Field:** [!UICONTROL Change Email and Password Template]|
+| `Forgot Password` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Section:** [!UICONTROL Password Options]<br/>**Field:** Forgot Email Template|
+| `New Account` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Section:** [!UICONTROL Create New Account Options]<br/>**Field:** Default Welcome Email|
+| `New Account (Magento/luma)` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Section:** [!UICONTROL Create New Account Options]<br/>**Field:** Default Welcome Email |
+| `New Account Confirmation Key` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Section:** [!UICONTROL Create New Account Options]<br/>**Field:** Confirmation Link Email |
+| `New Account Confirmed` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Section:** [!UICONTROL Create New Account Options]<br/>**Field:** Welcome Email |
+| `New Account Without Password` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Section:** [!UICONTROL Create New Account Options]<br/>**Field:** Default Welcome Email Without Password |
+| `Remind Password` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Section:** [!UICONTROL Password Options]<br/>**Field:** Remind Email Template |
+| `Reset Password` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Section:** [!UICONTROL Password Options] <br/>**Field:** Reset Password Template |
 
 {style="table-layout:auto"}
 
@@ -157,7 +157,7 @@ The list of email templates is organized alphabetically by module.
 
 |Template|Configuration path|
 |--- |--- |
-| `Store Credit Update` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](https://docs.magento.com/user-guide/configuration/customers/customer-configuration.html)<br/>**Section:** [!UICONTROL Store Credit Options]<br/>**Field:** [!UICONTROL Store Credit Update Email Template] |
+| `Store Credit Update` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Section:** [!UICONTROL Store Credit Options]<br/>**Field:** [!UICONTROL Store Credit Update Email Template] |
 
 {style="table-layout:auto"}
 
@@ -165,7 +165,7 @@ The list of email templates is organized alphabetically by module.
 
 |Template|Configuration path|
 |--- |--- |
-| `Currency Update Warnings` | **Page:** [!UICONTROL General] > [[!UICONTROL Currency Setup]](https://docs.magento.com/user-guide/configuration/general/currency-setup.html)<br/>**Section:** [!UICONTROL Scheduled Import Settings]<br/>**Field:** [!UICONTROL Error Email Template] |
+| `Currency Update Warnings` | **Page:** [!UICONTROL General] > [[!UICONTROL Currency Setup]](../configuration-reference/general/currency-setup.md)<br/>**Section:** [!UICONTROL Scheduled Import Settings]<br/>**Field:** [!UICONTROL Error Email Template] |
 
 {style="table-layout:auto"}
 
@@ -201,9 +201,9 @@ The list of email templates is organized alphabetically by module.
 
 |Template|Configuration path|
 |--- |--- |
-| `New Registry` | **Page:** [!UICONTROL  Customers] > [[!UICONTROL  Gift Registry]](https://docs.magento.com/user-guide/configuration/customers/gift-registry.html) <br/>**Section:** [!UICONTROL Owner Notification]<br/>**Field:** [!UICONTROL Email Template] |
-| `Registry Sharing` | **Page:** [!UICONTROL  Customers] > [[!UICONTROL  Gift Registry]](https://docs.magento.com/user-guide/configuration/customers/gift-registry.html) <br/>**Section:** [!UICONTROL Gift Registry Sharing]<br/>**Field:** [!UICONTROL Email Template] |
-| `Registry Update` | **Page:** [!UICONTROL  Customers] > [[!UICONTROL  Gift Registry]](https://docs.magento.com/user-guide/configuration/customers/gift-registry.html) <br/>**Section:** [!UICONTROL Gift Registry Update]<br/>**Field:** [!UICONTROL Email Template] |
+| `New Registry` | **Page:** [!UICONTROL  Customers] > [[!UICONTROL  Gift Registry]](../configuration-reference/customers/gift-registry.md) <br/>**Section:** [!UICONTROL Owner Notification]<br/>**Field:** [!UICONTROL Email Template] |
+| `Registry Sharing` | **Page:** [!UICONTROL  Customers] > [[!UICONTROL  Gift Registry]](../configuration-reference/customers/gift-registry.md) <br/>**Section:** [!UICONTROL Gift Registry Sharing]<br/>**Field:** [!UICONTROL Email Template] |
+| `Registry Update` | **Page:** [!UICONTROL  Customers] > [[!UICONTROL  Gift Registry]](../configuration-reference/customers/gift-registry.md) <br/>**Section:** [!UICONTROL Gift Registry Update]<br/>**Field:** [!UICONTROL Email Template] |
 
 {style="table-layout:auto"}
 
@@ -211,8 +211,8 @@ The list of email templates is organized alphabetically by module.
 
 |Template|Configuration path|
 |--- |--- |
-| `Order is Ready for Pickup` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html) <br/>**Section:** [!UICONTROL Order Ready For Pickup in Store]<br/>**Field:** [!UICONTROL Order Ready For Pickup Email Template] |
-| `Order is Ready for Pickup For Guest` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html) <br/>**Section:** [!UICONTROL Order Ready For Pickup in Store]<br/>**Field:** [!UICONTROL Order Ready For Pickup Email Template for Guest]|
+| `Order is Ready for Pickup` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Section:** [!UICONTROL Order Ready For Pickup in Store]<br/>**Field:** [!UICONTROL Order Ready For Pickup Email Template] |
+| `Order is Ready for Pickup For Guest` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Section:** [!UICONTROL Order Ready For Pickup in Store]<br/>**Field:** [!UICONTROL Order Ready For Pickup Email Template for Guest]|
 
 {style="table-layout:auto"}
 
@@ -220,7 +220,7 @@ The list of email templates is organized alphabetically by module.
 
 |Template|Configuration path|
 |--- |--- |
-| `Customer Invitation` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Invitation]](https://docs.magento.com/user-guide/configuration/customers/invitations.html)<br/>**Section:** [!UICONTROL Email]<br/>**Field:** [!UICONTROL Customer Invitation Email Template] |
+| `Customer Invitation` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Invitation]](../configuration-reference/customers/invitations.md)<br/>**Section:** [!UICONTROL Email]<br/>**Field:** [!UICONTROL Customer Invitation Email Template] |
 
 {style="table-layout:auto"}
 
@@ -230,12 +230,12 @@ The list of email templates is organized alphabetically by module.
 
 |Template|Configuration path|
 |--- |--- |
-| `Declined Quote` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html) <br/>**Section:** [!UICONTROL Quote]<br/>**Field:** [!UICONTROL Declined Quote Template (to Buyer)] |
-| `Expiration Date Reset` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html) <br/>**Section:** [!UICONTROL Quote]<br/>**Field:** [!UICONTROL Expiration Date Reset]| **Page:** [!UICONTROL Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html) <br/>**Section:** [!UICONTROL Quote]<br/>**Field:** [!UICONTROL Order Ready For Pickup Email Template] |
-| `Expiration Warning` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html) <br/>**Section:** [!UICONTROL Quote]<br/>**Field:** [!UICONTROL Quote Expiration (in 48 hrs)] |
-| `Expiration Warning1` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html) <br/>**Section:** [!UICONTROL Quote]<br/>**Field:** [!UICONTROL Quote Expiration (in 24 hrs)] |
-| `New Quote` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html) <br/>**Section:** [!UICONTROL Quote]<br/>**Field:** [!UICONTROL New Quote Template (to Seller)] |
-| `Updated Quote` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html) <br/>**Section:** [!UICONTROL Quote]<br/>**Field:** [!UICONTROL Updated Quote Template (to Seller)] |
+| `Declined Quote` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Section:** [!UICONTROL Quote]<br/>**Field:** [!UICONTROL Declined Quote Template (to Buyer)] |
+| `Expiration Date Reset` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Section:** [!UICONTROL Quote]<br/>**Field:** [!UICONTROL Expiration Date Reset]| **Page:** [!UICONTROL Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Section:** [!UICONTROL Quote]<br/>**Field:** [!UICONTROL Order Ready For Pickup Email Template] |
+| `Expiration Warning` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Section:** [!UICONTROL Quote]<br/>**Field:** [!UICONTROL Quote Expiration (in 48 hrs)] |
+| `Expiration Warning1` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Section:** [!UICONTROL Quote]<br/>**Field:** [!UICONTROL Quote Expiration (in 24 hrs)] |
+| `New Quote` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Section:** [!UICONTROL Quote]<br/>**Field:** [!UICONTROL New Quote Template (to Seller)] |
+| `Updated Quote` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Section:** [!UICONTROL Quote]<br/>**Field:** [!UICONTROL Updated Quote Template (to Seller)] |
 
 {style="table-layout:auto"}
 
@@ -243,9 +243,9 @@ The list of email templates is organized alphabetically by module.
 
 |Template|Configuration path|
 |--- |--- |
-| `Subscription Confirmation` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Newsletter]](https://docs.magento.com/user-guide/configuration/customers/newsletter.html)<br/>**Section:** [!UICONTROL  Subscription Options]<br/>**Field:** [!UICONTROL Confirmation Email Template] |
-| `Subscription Success` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Newsletter]](https://docs.magento.com/user-guide/configuration/customers/newsletter.html)<br/>**Section:** [!UICONTROL  Subscription Options]<br/>**Field:** [!UICONTROL Success Email Template] |
-| `Unsubscription Success` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Newsletter]](https://docs.magento.com/user-guide/configuration/customers/newsletter.html)<br/>**Section:** [!UICONTROL  Subscription Options]<br/>**Field:** [!UICONTROL Unsubscription Email Template] |
+| `Subscription Confirmation` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Newsletter]](../configuration-reference/customers/newsletter.md)<br/>**Section:** [!UICONTROL  Subscription Options]<br/>**Field:** [!UICONTROL Confirmation Email Template] |
+| `Subscription Success` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Newsletter]](../configuration-reference/customers/newsletter.md)<br/>**Section:** [!UICONTROL  Subscription Options]<br/>**Field:** [!UICONTROL Success Email Template] |
+| `Unsubscription Success` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Newsletter]](../configuration-reference/customers/newsletter.md)<br/>**Section:** [!UICONTROL  Subscription Options]<br/>**Field:** [!UICONTROL Unsubscription Email Template] |
 
 {style="table-layout:auto"}
 
@@ -253,9 +253,9 @@ The list of email templates is organized alphabetically by module.
 
 |Template|Configuration path|
 |--- |--- |
-| `Cron Error Warning` | **Page:** [!UICONTROL Catalog] > [[!UICONTROL Catalog]](https://docs.magento.com/user-guide/configuration/catalog/catalog.html)<br/>**Section:** [!UICONTROL Product Alerts Run Settings]<br/>**Field:** [!UICONTROL Error Email Template] |
-| `Price Alert` | **Page:** [!UICONTROL Catalog] > [[!UICONTROL Catalog]](https://docs.magento.com/user-guide/configuration/catalog/catalog.html)<br/>**Section:** [!UICONTROL Product Alerts]<br/>**Field:** [!UICONTROL Price Alert Email Template] |
-| `Stock Alert` | **Page:** [!UICONTROL Catalog] > [[!UICONTROL Catalog]](https://docs.magento.com/user-guide/configuration/catalog/catalog.html)<br/>**Section:** [!UICONTROL Product Alerts]<br/>**Field:** [!UICONTROL Stock Alert Email Template] |
+| `Cron Error Warning` | **Page:** [!UICONTROL Catalog] > [[!UICONTROL Catalog]](../configuration-reference/catalog/catalog.md)<br/>**Section:** [!UICONTROL Product Alerts Run Settings]<br/>**Field:** [!UICONTROL Error Email Template] |
+| `Price Alert` | **Page:** [!UICONTROL Catalog] > [[!UICONTROL Catalog]](../configuration-reference/catalog/catalog.md)<br/>**Section:** [!UICONTROL Product Alerts]<br/>**Field:** [!UICONTROL Price Alert Email Template] |
+| `Stock Alert` | **Page:** [!UICONTROL Catalog] > [[!UICONTROL Catalog]](../configuration-reference/catalog/catalog.md)<br/>**Section:** [!UICONTROL Product Alerts]<br/>**Field:** [!UICONTROL Stock Alert Email Template] |
 
 {style="table-layout:auto"}
 
@@ -263,15 +263,15 @@ The list of email templates is organized alphabetically by module.
 
 |Template|Configuration path|
 |--- |--- |
-|`Approved Purchase Order`|**Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html) <br/>**Section:** [!UICONTROL Purchase Order Approval]<br/>**Field:** [!UICONTROL Approved Purchase Order] |
-|`Approved, requires payment`|**Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html) <br/>**Section:** [!UICONTROL Purchase Order Approval]<br/>**Field:** [!UICONTROL Approved, requires payment details (to Buyer)] |
-|`Comment added to Purchase Order`|**Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html) <br/>**Section:** [!UICONTROL Purchase Order Approval]<br/>**Field:** [!UICONTROL Comment added to Purchase Order] |
-|`Created and Auto-approved Purchase Order`|**Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html) <br/>**Section:** [!UICONTROL Purchase Order Approval]<br/>**Field:** [!UICONTROL Created and Automatically approved Purchase Order (to Buyer)] |
-|`Created and automatically approved, requires payment details`|**Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html) <br/>**Section:** [!UICONTROL Purchase Order Approval]<br/>**Field:** [!UICONTROL Created and automatically approved, requires payment details (to Buyer)] |
-|`Created and requires Approval Purchase Order`|**Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html) <br/>**Section:** [!UICONTROL Purchase Order Approval]<br/>**Field:** [!UICONTROL Created and requires Approval Purchase Order (to Buyer)] |
-|`Error creating Order from Purchase Order`|**Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html) <br/>**Section:** [!UICONTROL Purchase Order Approval]<br/>**Field:** [!UICONTROL Error creating Order from Purchase Order (to Buyer)] |
-|`Purchase Order requires Approval`|**Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html) <br/>**Section:** [!UICONTROL Purchase Order Approval]<br/>**Field:** [!UICONTROL Purchase Order requires Approval (to Approver)] |
-|`Rejected Purchase Order`|**Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html) <br/>**Section:** [!UICONTROL Purchase Order Approval]<br/>**Field:** [!UICONTROL Rejected Purchase Order (to Buyer)] |
+|`Approved Purchase Order`|**Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Section:** [!UICONTROL Purchase Order Approval]<br/>**Field:** [!UICONTROL Approved Purchase Order] |
+|`Approved, requires payment`|**Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Section:** [!UICONTROL Purchase Order Approval]<br/>**Field:** [!UICONTROL Approved, requires payment details (to Buyer)] |
+|`Comment added to Purchase Order`|**Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Section:** [!UICONTROL Purchase Order Approval]<br/>**Field:** [!UICONTROL Comment added to Purchase Order] |
+|`Created and Auto-approved Purchase Order`|**Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Section:** [!UICONTROL Purchase Order Approval]<br/>**Field:** [!UICONTROL Created and Automatically approved Purchase Order (to Buyer)] |
+|`Created and automatically approved, requires payment details`|**Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Section:** [!UICONTROL Purchase Order Approval]<br/>**Field:** [!UICONTROL Created and automatically approved, requires payment details (to Buyer)] |
+|`Created and requires Approval Purchase Order`|**Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Section:** [!UICONTROL Purchase Order Approval]<br/>**Field:** [!UICONTROL Created and requires Approval Purchase Order (to Buyer)] |
+|`Error creating Order from Purchase Order`|**Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Section:** [!UICONTROL Purchase Order Approval]<br/>**Field:** [!UICONTROL Error creating Order from Purchase Order (to Buyer)] |
+|`Purchase Order requires Approval`|**Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Section:** [!UICONTROL Purchase Order Approval]<br/>**Field:** [!UICONTROL Purchase Order requires Approval (to Approver)] |
+|`Rejected Purchase Order`|**Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Section:** [!UICONTROL Purchase Order Approval]<br/>**Field:** [!UICONTROL Rejected Purchase Order (to Buyer)] |
 
 {style="table-layout:auto"}
 
@@ -281,7 +281,7 @@ The list of email templates is organized alphabetically by module.
 
 |Template|Configuration path|
 |--- |--- |
-| `Promotion Notification/Reminder` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Promotions]](https://docs.magento.com/user-guide/configuration/customers/promotions.html)<br/>**Section:** [!UICONTROL Automated Email Reminder Rules]<br/>**Field:** [!UICONTROL Reminder Email Sender]|
+| `Promotion Notification/Reminder` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Promotions]](../configuration-reference/customers/promotions.md)<br/>**Section:** [!UICONTROL Automated Email Reminder Rules]<br/>**Field:** [!UICONTROL Reminder Email Sender]|
 
 {style="table-layout:auto"}
 
@@ -291,8 +291,8 @@ The list of email templates is organized alphabetically by module.
 
 |Template|Configuration path|
 |--- |--- |
-| `Balance Update` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Reward Points]](https://docs.magento.com/user-guide/configuration/customers/reward-points.html)<br/>**Section:** [!UICONTROL Email Notification Settings]<br/>**Field:** [!UICONTROL Balance Update Email] |
-| `Points Expiry Warning` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Reward Points]](https://docs.magento.com/user-guide/configuration/customers/reward-points.html)<br/>**Section:** [!UICONTROL Email Notification Settings]<br/>**Field:** [!UICONTROL Reward Points Expiry Warning Email] |
+| `Balance Update` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Reward Points]](../configuration-reference/customers/reward-points.md)<br/>**Section:** [!UICONTROL Email Notification Settings]<br/>**Field:** [!UICONTROL Balance Update Email] |
+| `Points Expiry Warning` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Reward Points]](../configuration-reference/customers/reward-points.md)<br/>**Section:** [!UICONTROL Email Notification Settings]<br/>**Field:** [!UICONTROL Reward Points Expiry Warning Email] |
 
 {style="table-layout:auto"}
 
@@ -302,13 +302,13 @@ The list of email templates is organized alphabetically by module.
 
 |Template|Configuration path|
 |--- |--- |
-| `New RMA` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html) <br/>**Section:** [!UICONTROL  RMA]<br/>**Field:** [!UICONTROL RMA Email Template] |
-| `New RMA for Guest` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html) <br/>**Section:** [!UICONTROL  RMA]<br/>**Field:** [!UICONTROL RMA Email Template for Guest] |
-| `RMA Admin Comments` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html) <br/>**Section:** [!UICONTROL  RMA Admin Comments]<br/>**Field:** [!UICONTROL RMA Comment Email Template] |
-| `RMA Admin Comments for Guest` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html) <br/>**Section:** [!UICONTROL  RMA Admin Comments]<br/>**Field:** [!UICONTROL RMA Comment Email Template for Guest] |
-| `RMA Authorization` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html) <br/>**Section:** [!UICONTROL  RMA Authorization]<br/>**Field:** [!UICONTROL RMA Authorization Email Template] |
-| `RMA Authorization for Guest` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html) <br/>**Section:** [!UICONTROL  RMA Authorization]<br/>**Field:** [!UICONTROL RMA Authorization Email Template for Guest] |
-| `RMA Customer Comments` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html) <br/>**Section:** [!UICONTROL RMA Customer Comments]<br/>**Field:** [!DNL RMA Comment Email Template] |
+| `New RMA` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Section:** [!UICONTROL  RMA]<br/>**Field:** [!UICONTROL RMA Email Template] |
+| `New RMA for Guest` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Section:** [!UICONTROL  RMA]<br/>**Field:** [!UICONTROL RMA Email Template for Guest] |
+| `RMA Admin Comments` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Section:** [!UICONTROL  RMA Admin Comments]<br/>**Field:** [!UICONTROL RMA Comment Email Template] |
+| `RMA Admin Comments for Guest` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Section:** [!UICONTROL  RMA Admin Comments]<br/>**Field:** [!UICONTROL RMA Comment Email Template for Guest] |
+| `RMA Authorization` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Section:** [!UICONTROL  RMA Authorization]<br/>**Field:** [!UICONTROL RMA Authorization Email Template] |
+| `RMA Authorization for Guest` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Section:** [!UICONTROL  RMA Authorization]<br/>**Field:** [!UICONTROL RMA Authorization Email Template for Guest] |
+| `RMA Customer Comments` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Section:** [!UICONTROL RMA Customer Comments]<br/>**Field:** [!DNL RMA Comment Email Template] |
 
 {style="table-layout:auto"}
 
@@ -316,38 +316,38 @@ The list of email templates is organized alphabetically by module.
 
 |Template|Configuration path|
 |--- |--- |
-| `Credit Memo Update` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html)<br/>**Section:** [!UICONTROL Credit Memo Contents]<br/>**Field:** [!UICONTROL Credit Memo Comment Email Template] |
-| `Credit Memo Update (Magento/luma)` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html)<br/>**Section:** [!UICONTROL Credit Memo Comments]<br/>**Field:** [!UICONTROL Credit Memo Comment Email Template] |
-| `Credit Memo Update for Guest` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html)<br/>**Section:** [!UICONTROL Credit Memo Comments]<br/>**Field:** [!UICONTROL Credit Memo Comment Email Template for Guest] |
-| `Credit Memo Update for Guest (Magento/luma)` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html)<br/>**Section:** [!UICONTROL Credit Memo Comments]<br/>**Field:** [!UICONTROL Credit Memo Comment Email Template for Guest] |
-| `Invoice Update` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html)<br/>**Section:** [!UICONTROL Invoice Comments]<br/>**Field:** [!UICONTROL Invoice Comment Email Template] |
-| `Invoice Update (Magento/luma)` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html)<br/>**Section:** [!UICONTROL Invoice Comments]<br/>**Field:** [!UICONTROL Invoice Comment Email Template] |
-| `Invoice Update for Guest` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html)<br/>**Section:** [!UICONTROL Invoice Comments]<br/>**Field:** [!UICONTROL Invoice Comment Email Template for Guest] |
-| `Invoice Update for Guest (Magento/luma)` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html)<br/>**Section:** [!UICONTROL Invoice Comments]<br/>**Field:** [!UICONTROL Invoice Comment Email Template for Guest] |
-| `New Credit Memo` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html)<br/>**Section:** [!UICONTROL Credit Memo]<br/>**Field:** [!UICONTROL Credit Memo Email Template] |
-| `New Credit Memo (Magento/luma)` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html)<br/>**Section:** [!UICONTROL Credit Memo]<br/>**Field:** [!UICONTROL Credit Memo Email Template] |
-| `New Credit Memo for Guest` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html)<br/>**Section:** [!UICONTROL Credit Memo]<br/>**Field:** [!UICONTROL Credit Memo Email Template for Guest] |
-| `New Credit Memo for Guest (Magento/luma)` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html)<br/>**Section:** [!UICONTROL Credit Memo]<br/>**Field:** [!UICONTROL Credit Memo Email Template for Guest] |
-| `New Invoice` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html)<br/>**Section:** [!UICONTROL Invoice]<br/>**Field:** [!UICONTROL Invoice Email Template] |
-| `New Invoice (Magento/luma)` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html)<br/>**Section:** [!UICONTROL Invoice]<br/>**Field:** [!UICONTROL Invoice Email Template] |
-| `New Invoice for Guest` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html)<br/>**Section:** [!UICONTROL Invoice]<br/>**Field:** [!UICONTROL Invoice Email Template for Guest] |
-| `New Invoice for Guest (Magento/luma)` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html)<br/>**Section:** [!UICONTROL Invoice]<br/>**Field:** [!UICONTROL Invoice Email Template for Guest] |
-| `New Order` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html)<br/>**Section:** [!UICONTROL Order]<br/>**Field:** [!UICONTROL New Order Confirmation Template] |
-| `New Order (Magento/luma)` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html)<br/>**Section:** [!UICONTROL Order]<br/>**Field:** [!UICONTROL New Order Confirmation Template] |
-| `New Order for Guest` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html)<br/>**Section:** [!UICONTROL Order]<br/>**Field:** [!UICONTROL New Order Confirmation Template for Guest] |
-| `New Order for Guest (Magento/luma)` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html)<br/>**Section:** [!UICONTROL Order]<br/>**Field:** [!UICONTROL New Order Confirmation Template for Guest] |
-| `New Shipment` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html)<br/>**Section:** [!UICONTROL Shipment]<br/>**Field:** [!UICONTROL Shipment Email Template] |
-| `New Shipment (Magento/luma)` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html)<br/>**Section:** [!UICONTROL Shipment]<br/>**Field:** [!UICONTROL Shipment Email Template] |
-| `New Shipment for Guest` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html)<br/>**Section:** [!UICONTROL Shipment]<br/>**Field:** [!UICONTROL Shipment Email Template for Guest] |
-| `New Shipment for Guest (Magento/luma)` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html)<br/>**Section:** [!UICONTROL Shipment]<br/>**Field:** [!UICONTROL Shipment Email Template for Guest] |
-| `Order Update` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html)<br/>**Section:** [!UICONTROL Order Comments]<br/>**Field:** [!UICONTROL Order Comment Email Template] |
-| `Order Update (Magento/luma)` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html)<br/>**Section:** [!UICONTROL Order Comments]<br/>**Field:** [!UICONTROL Order Comment Email Template] |
-| `Order Update for Guest` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html)<br/>**Section:** [!UICONTROL Order Comments]<br/>**Field:** [!UICONTROL Order Comment Email Template for Guest] |
-| `Order Update for Guest (Magento/luma)` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html)<br/>**Section:** [!UICONTROL Order Comments]<br/>**Field:** [!UICONTROL Order Comment Email Template for Guest] |
-| `Shipment Update` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html)<br/>**Section:** [!UICONTROL Shipment Comments]<br/>**Field:** [!UICONTROL Shipment Comment Email Template] |
-| `Shipment Update (Magento/luma)` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html)<br/>**Section:** [!UICONTROL Shipment Comments]<br/>**Field:** [!UICONTROL Shipment Comment Email Template] |
-| `Shipment Update for Guest` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html)<br/>**Section:** [!UICONTROL Shipment Comments]<br/>**Field:** [!UICONTROL Shipment Comment Email Template for Guest] |
-| `Shipment Update for Guest (Magento/luma)` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html)<br/>**Section:** [!UICONTROL Shipment Comments]<br/>**Field:** [!UICONTROL Shipment Comment Email Template for Guest] |
+| `Credit Memo Update` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Section:** [!UICONTROL Credit Memo Contents]<br/>**Field:** [!UICONTROL Credit Memo Comment Email Template] |
+| `Credit Memo Update (Magento/luma)` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Section:** [!UICONTROL Credit Memo Comments]<br/>**Field:** [!UICONTROL Credit Memo Comment Email Template] |
+| `Credit Memo Update for Guest` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Section:** [!UICONTROL Credit Memo Comments]<br/>**Field:** [!UICONTROL Credit Memo Comment Email Template for Guest] |
+| `Credit Memo Update for Guest (Magento/luma)` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Section:** [!UICONTROL Credit Memo Comments]<br/>**Field:** [!UICONTROL Credit Memo Comment Email Template for Guest] |
+| `Invoice Update` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/../configuration-reference/sales/sales-emails.md)<br/>**Section:** [!UICONTROL Invoice Comments]<br/>**Field:** [!UICONTROL Invoice Comment Email Template] |
+| `Invoice Update (Magento/luma)` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Section:** [!UICONTROL Invoice Comments]<br/>**Field:** [!UICONTROL Invoice Comment Email Template] |
+| `Invoice Update for Guest` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Section:** [!UICONTROL Invoice Comments]<br/>**Field:** [!UICONTROL Invoice Comment Email Template for Guest] |
+| `Invoice Update for Guest (Magento/luma)` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Section:** [!UICONTROL Invoice Comments]<br/>**Field:** [!UICONTROL Invoice Comment Email Template for Guest] |
+| `New Credit Memo` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Section:** [!UICONTROL Credit Memo]<br/>**Field:** [!UICONTROL Credit Memo Email Template] |
+| `New Credit Memo (Magento/luma)` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]]../configuration-reference/sales/sales-emails.md)<br/>**Section:** [!UICONTROL Credit Memo]<br/>**Field:** [!UICONTROL Credit Memo Email Template] |
+| `New Credit Memo for Guest` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Section:** [!UICONTROL Credit Memo]<br/>**Field:** [!UICONTROL Credit Memo Email Template for Guest] |
+| `New Credit Memo for Guest (Magento/luma)` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Section:** [!UICONTROL Credit Memo]<br/>**Field:** [!UICONTROL Credit Memo Email Template for Guest] |
+| `New Invoice` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Section:** [!UICONTROL Invoice]<br/>**Field:** [!UICONTROL Invoice Email Template] |
+| `New Invoice (Magento/luma)` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Section:** [!UICONTROL Invoice]<br/>**Field:** [!UICONTROL Invoice Email Template] |
+| `New Invoice for Guest` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Section:** [!UICONTROL Invoice]<br/>**Field:** [!UICONTROL Invoice Email Template for Guest] |
+| `New Invoice for Guest (Magento/luma)` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Section:** [!UICONTROL Invoice]<br/>**Field:** [!UICONTROL Invoice Email Template for Guest] |
+| `New Order` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Section:** [!UICONTROL Order]<br/>**Field:** [!UICONTROL New Order Confirmation Template] |
+| `New Order (Magento/luma)` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Section:** [!UICONTROL Order]<br/>**Field:** [!UICONTROL New Order Confirmation Template] |
+| `New Order for Guest` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Section:** [!UICONTROL Order]<br/>**Field:** [!UICONTROL New Order Confirmation Template for Guest] |
+| `New Order for Guest (Magento/luma)` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Section:** [!UICONTROL Order]<br/>**Field:** [!UICONTROL New Order Confirmation Template for Guest] |
+| `New Shipment` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Section:** [!UICONTROL Shipment]<br/>**Field:** [!UICONTROL Shipment Email Template] |
+| `New Shipment (Magento/luma)` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Section:** [!UICONTROL Shipment]<br/>**Field:** [!UICONTROL Shipment Email Template] |
+| `New Shipment for Guest` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Section:** [!UICONTROL Shipment]<br/>**Field:** [!UICONTROL Shipment Email Template for Guest] |
+| `New Shipment for Guest (Magento/luma)` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Section:** [!UICONTROL Shipment]<br/>**Field:** [!UICONTROL Shipment Email Template for Guest] |
+| `Order Update` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Section:** [!UICONTROL Order Comments]<br/>**Field:** [!UICONTROL Order Comment Email Template] |
+| `Order Update (Magento/luma)` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Section:** [!UICONTROL Order Comments]<br/>**Field:** [!UICONTROL Order Comment Email Template] |
+| `Order Update for Guest` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Section:** [!UICONTROL Order Comments]<br/>**Field:** [!UICONTROL Order Comment Email Template for Guest] |
+| `Order Update for Guest (Magento/luma)` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Section:** [!UICONTROL Order Comments]<br/>**Field:** [!UICONTROL Order Comment Email Template for Guest] |
+| `Shipment Update` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Section:** [!UICONTROL Shipment Comments]<br/>**Field:** [!UICONTROL Shipment Comment Email Template] |
+| `Shipment Update (Magento/luma)` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Section:** [!UICONTROL Shipment Comments]<br/>**Field:** [!UICONTROL Shipment Comment Email Template] |
+| `Shipment Update for Guest` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Section:** [!UICONTROL Shipment Comments]<br/>**Field:** [!UICONTROL Shipment Comment Email Template for Guest] |
+| `Shipment Update for Guest (Magento/luma)` | **Page:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Section:** [!UICONTROL Shipment Comments]<br/>**Field:** [!UICONTROL Shipment Comment Email Template for Guest] |
 
 {style="table-layout:auto"}
 
@@ -357,9 +357,9 @@ The list of email templates is organized alphabetically by module.
 
 |Template|Configuration path|
 |--- |--- |
-| `Export Failed` | **Page:** [!UICONTROL Advanced] > [[!UICONTROL System]](https://docs.magento.com/user-guide/configuration/advanced/system.html)<br/>**Section:** [!UICONTROL Scheduled Import/Export File History Cleaning]<br/>**Field:** [!UICONTROL Export Failed Template] |
-| `File History Clean Failed` | **Page:** [!UICONTROL Advanced] > [[!UICONTROL System]](https://docs.magento.com/user-guide/configuration/advanced/system.html)<br/>**Section:** [!UICONTROL Scheduled Import/Export File History Cleaning]<br/>**Field:** [!UICONTROL Error Email Template] |
-| `Import Failed` | **Page:** [!UICONTROL Advanced] > [[!UICONTROL System]](https://docs.magento.com/user-guide/configuration/advanced/system.html)<br/>**Section:** [!UICONTROL Scheduled Import/Export File History Cleaning]<br/>**Field:** [!UICONTROL Import Failed Template] |
+| `Export Failed` | **Page:** [!UICONTROL Advanced] > [[!UICONTROL System]](../configuration-reference/advanced/system.md)<br/>**Section:** [!UICONTROL Scheduled Import/Export File History Cleaning]<br/>**Field:** [!UICONTROL Export Failed Template] |
+| `File History Clean Failed` | **Page:** [!UICONTROL Advanced] > [[!UICONTROL System]](../configuration-reference/advanced/system.md)<br/>**Section:** [!UICONTROL Scheduled Import/Export File History Cleaning]<br/>**Field:** [!UICONTROL Error Email Template] |
+| `Import Failed` | **Page:** [!UICONTROL Advanced] > [[!UICONTROL System]](../configuration-reference/advanced/system.md)<br/>**Section:** [!UICONTROL Scheduled Import/Export File History Cleaning]<br/>**Field:** [!UICONTROL Import Failed Template] |
 
 {style="table-layout:auto"}
 
@@ -367,7 +367,7 @@ The list of email templates is organized alphabetically by module.
 
 |Template|Configuration path|
 |--- |--- |
-| `Send Product Link to Friend` | **Page:** [!UICONTROL Catalog] > [[!UICONTROL Email to a Friend]](https://docs.magento.com/user-guide/configuration/catalog/email-to-a-friend.html)<br/>**Section:** [!UICONTROL Email Templates]<br/>**Field:** [!UICONTROL Select Email Template] |
+| `Send Product Link to Friend` | **Page:** [!UICONTROL Catalog] > [[!UICONTROL Email to a Friend]](../configuration-reference/catalog/email-to-a-friend.md)<br/>**Section:** [!UICONTROL Email Templates]<br/>**Field:** [!UICONTROL Select Email Template] |
 
 {style="table-layout:auto"}
 
@@ -375,7 +375,7 @@ The list of email templates is organized alphabetically by module.
 
 |Template|Configuration path|
 |--- |--- |
-| `Sitemap Generation Settings` | **Page:** [!UICONTROL Catalog] > [[!UICONTROL XML Sitemap]](https://docs.magento.com/user-guide/configuration/catalog/xml-sitemap.html)<br/>**Section:** [!UICONTROL Generation Settings]<br/>**Field:** [!UICONTROL Error Email Template] |
+| `Sitemap Generation Settings` | **Page:** [!UICONTROL Catalog] > [[!UICONTROL XML Sitemap]](../configuration-reference/catalog/xml-sitemap.md)<br/>**Section:** [!UICONTROL Generation Settings]<br/>**Field:** [!UICONTROL Error Email Template] |
 
 {style="table-layout:auto"}
 
@@ -392,9 +392,9 @@ The list of email templates is organized alphabetically by module.
 
 |Template|Configuration path|
 |--- |--- |
-| `Forgot Admin Password` | **Page:** [!UICONTROL Advanced] > [[!UICONTROL Admin]](https://docs.magento.com/user-guide/configuration/advanced/admin.html)<br/>**Section:** [!UICONTROL Admin User Emails]<br/>**Field:** Forgot Password Email Template |
-| `User Notification` | **Page:** [!UICONTROL Advanced] > [[!UICONTROL Admin]](https://docs.magento.com/user-guide/configuration/advanced/admin.html)<br/>**Section:** [!UICONTROL Admin User Emails]<br/>**Field:** User Notification Template |
-| `New User Notification` | **Page:** [!UICONTROL Advanced] > [[!UICONTROL Admin]](https://docs.magento.com/user-guide/configuration/advanced/admin.html)<br/>**Section:** [!UICONTROL Admin User Emails]<br/>**Field:** [!UICONTROL New User Notification Template] |
+| `Forgot Admin Password` | **Page:** [!UICONTROL Advanced] > [[!UICONTROL Admin]](../configuration-reference/advanced/admin.md)<br/>**Section:** [!UICONTROL Admin User Emails]<br/>**Field:** Forgot Password Email Template |
+| `User Notification` | **Page:** [!UICONTROL Advanced] > [[!UICONTROL Admin]](../configuration-reference/advanced/admin.md)<br/>**Section:** [!UICONTROL Admin User Emails]<br/>**Field:** User Notification Template |
+| `New User Notification` | **Page:** [!UICONTROL Advanced] > [[!UICONTROL Admin]](../configuration-reference/advanced**/admin.md)<br/>**Section:** [!UICONTROL Admin User Emails]<br/>**Field:** [!UICONTROL New User Notification Template] |
 
 {style="table-layout:auto"}
 
@@ -402,6 +402,6 @@ The list of email templates is organized alphabetically by module.
 
 |Template|Configuration path|
 |--- |--- |
-| `Magento Wish List Sharing` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Wish List]](https://docs.magento.com/user-guide/configuration/customers/wishlist.html)<br/>**Section:** [!UICONTROL Share Options]<br/>**Field:** [!UICONTROL Email Template] |
+| `Magento Wish List Sharing` | **Page:** [!UICONTROL Customers] > [[!UICONTROL Wish List]](../configuration-reference/customers/wishlist.md)<br/>**Section:** [!UICONTROL Share Options]<br/>**Field:** [!UICONTROL Email Template] |
 
 {style="table-layout:auto"}

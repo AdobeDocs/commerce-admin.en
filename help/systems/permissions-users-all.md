@@ -135,7 +135,7 @@ The Admin email template configuration determines the emails that are sent when 
 
 For the security of your business, user accounts are locked by default after six failed attempts to [log in](../getting-started/admin-signin.md) to the Admin. Any user account that is currently locked appears in the Locked Users grid. An account can be unlocked by any other user with full Administrator permissions.
 
-Additional password security measures can be implemented in the [Advanced Admin](https://docs.magento.com/user-guide/configuration/advanced/admin.html) configuration. See [Admin Security](security-admin.md).
+Additional password security measures can be implemented in the [Advanced Admin](../configuration-reference/advanced/admin.md) configuration. See [Admin Security](security-admin.md).
 
 ![Login screen alert - account is temporarily disabled](./assets/admin-login-locked-out-message.png)<!-- zoom -->
 

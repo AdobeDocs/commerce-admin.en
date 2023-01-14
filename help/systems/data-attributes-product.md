@@ -156,12 +156,12 @@ Advanced Price Import/Export allows you to quickly update pricing information fo
 |--- |--- |
 |`sku`|(Required) The Stock-Keeping Unit is a unique, alphanumeric identifier that is used to track inventory. A SKU can be up to 64 characters in length. For example: `sku123`<br/>**_Note:_** A SKU longer than 64 characters causes import to fail.|
 |`tier_price_website`|The [website code](../stores-purchase/stores.md#add-websites) identifies each website where tier pricing is available. For example: `-  website1 -  All Websites [USD]`|
-|`tier_price_customer`|Identifies the [customers' groups](https://docs.magento.com/user-guide/customers/customer-groups.html) where tier pricing is available. For example: `-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer`|
-|`tier_price_customer_group`|Identifies the [customer groups](https://docs.magento.com/user-guide/customers/customer-groups.html) where tier pricing is available. For example: `-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer`|
+|`tier_price_customer`|Identifies the [customers' groups](../customers/customer-groups.md) where tier pricing is available. For example: `-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer`|
+|`tier_price_customer_group`|Identifies the customer groups where tier pricing is available. For example: `-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer`|
 |`tier_price_qty`|The quantity of the product that must be ordered to receive the tier price discount.|
 |`tier_price`|The discounted tier price of the product. For [bundle products](../catalog/product-create-bundle.md), tier price is calculated as a percentage.|
 |`group_price_website`|The [website code](../stores-purchase/stores.md#add-websites) of each website where group pricing is available. If specifying multiple websites, separate each with a comma and without a space. For example: `-  website1 -  All Websites [USD]`|
-|`group_price_customer_group`|Identifies the [customers' groups](https://docs.magento.com/user-guide/customers/customer-groups.html) where group pricing is available. For example: `-  NOT LOGGED IN -  General -  Wholesale -  Retailer`|
+|`group_price_customer_group`|Identifies the customers' groups where group pricing is available. For example: `-  NOT LOGGED IN -  General -  Wholesale -  Retailer`|
 |`group_price`|The discounted group price of the product. For [bundle products](../catalog/product-create-bundle.md), group price is calculated as a percentage.|
 
 {style="table-layout:auto"}
