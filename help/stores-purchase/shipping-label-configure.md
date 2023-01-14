@@ -20,7 +20,7 @@ The following settings must be made at the product level, and in the configurati
 
 ## Step 1: Verify the country of manufacture
 
-The country of manufacture is required for all products that are shipped internationally by USPS and FedEx. If you have many products that need to be updated, you can either [import](https://docs.magento.com/user-guide/system/data-import.html) the updates, or use the Inventory grid to update multiple records.
+The country of manufacture is required for all products that are shipped internationally by USPS and FedEx. If you have many products that need to be updated, you can either [import](../systems/data-import.md) the updates, or use the Inventory grid to update multiple records.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 

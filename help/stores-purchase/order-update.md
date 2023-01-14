@@ -36,7 +36,7 @@ An order enters a `Processing` state when:
 * The payment for an order is received/captured and the invoice is generated. This happens when the payment action is set to `Authorize and Capture`.
 * An order transaction is authorized, but payment is not yet captured. This happens when the payment action is set to `Authorize`.
 
-The [payment action configuration](https://docs.magento.com/user-guide/configuration/sales/payment-methods.html#payment-actions) determines which order actions are available after an order is created.
+The [payment action configuration](../configuration-reference/sales/payment-methods.md#payment-actions) determines which order actions are available after an order is created.
 
 You cannot change the substance of a `Processing` order, but you can edit the billing and shipping address.
 
@@ -64,7 +64,7 @@ When an order is still in a `Processing` status and the payment integration is s
 
 When an order is placed using a payment method with the payment action set to `Authorize and Capture` you can refund the funds via credit memo,  but cannot cancel it because it is invoiced and payment is captured.
 
-Your payment method determines your available payment actions. See [Payment actions](https://docs.magento.com/user-guide/configuration/sales/payment-methods.html#payment-actions) for more information.
+Your payment method determines your available payment actions. See [Payment actions](../configuration-reference/sales/payment-methods.md#payment-actions) for more information.
 
 **_To void an order:_**
 

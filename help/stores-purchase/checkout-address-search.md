@@ -39,7 +39,7 @@ Enabling address search also affects the checkout for negotiated quotes where cu
 
    ![Configuration - Checkout Options](../configuration-reference/sales/assets/checkout-checkout-options.png)<!-- zoom -->
    
-   For a detailed description of each of these configuration settings, see [Checkout Options](https://docs.magento.com/user-guide/configuration/sales/checkout.html#checkout-options) in the _Configuration Reference Guide_.
+   For a detailed description of each of these configuration settings, see [Checkout Options](../configuration-reference/sales/checkout.md#checkout-options) in the _Configuration Reference Guide_.
 
 1. Set **[!UICONTROL Enable Address Search]** to `Yes`.
 

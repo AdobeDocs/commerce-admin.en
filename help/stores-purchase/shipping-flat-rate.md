@@ -17,7 +17,7 @@ _Flat rate_ is a fixed, predefined charge that can be applied per item, or per s
 
    ![Flat Rate](../configuration-reference/sales/assets/delivery-methods-flat-rate.png)<!-- zoom -->
 
-   For a detailed description of each of these configuration settings, see [Flat Rate](https://docs.magento.com/user-guide/configuration/sales/delivery-methods.html#flat-rate) in the _Configuration Reference Guide_.
+   For a detailed description of each of these configuration settings, see [Flat Rate](../configuration-reference/sales/delivery-methods.md#flat-rate) in the _Configuration Reference Guide_.
 
 1. Set **[!UICONTROL Enabled]** to `Yes`.
 

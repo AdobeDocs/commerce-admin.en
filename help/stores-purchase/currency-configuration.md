@@ -5,7 +5,7 @@ exl-id: ba78095f-36eb-4e38-a6e8-72d85e0cf980
 ---
 # Currency configuration
 
-Before setting up individual currency rates, you must first set the scope of the [base currency](https://docs.magento.com/user-guide/configuration/general/currency-setup.html). It is set to global by default, which applies the base currency setting to the entire [store hierarchy](../getting-started/websites-stores-views.md). If you have a multisite Adobe Commerce or Magento Open Source installation, you can manage multiple base currencies by setting the scope to the website level.
+Before setting up individual currency rates, you must first set the scope of the [base currency](../configuration-reference/general/currency-setup.md). It is set to global by default, which applies the base currency setting to the entire [store hierarchy](../getting-started/websites-stores-views.md). If you have a multisite Adobe Commerce or Magento Open Source installation, you can manage multiple base currencies by setting the scope to the website level.
 
 You also specify the currencies that you accept and which currency you want to use for the display of [prices](../catalog/catalog-price-scope.md) in your store. In the following diagram, the scope of the base currency is set at the website level, so each website can have a different base currency.
 
@@ -31,11 +31,11 @@ You also specify the currencies that you accept and which currency you want to u
 
    ![General configuration - currency options](../configuration-reference/general/assets/currency-setup-currency-options.png)<!-- zoom -->
 
-   For a detailed description of each of these configuration settings, see [Currency Options](https://docs.magento.com/user-guide/configuration/general/currency-setup.html) in the _Configuration Reference Guide_.
+   For a detailed description of each of these configuration settings, see [Currency Options](../configuration-reference/configuration/general/currency-setup.md) in the _Configuration Reference Guide_.
 
 1. When prompted to refresh the cache, click _Close_ ( ![Close box](../assets/icon-close-x.png) in the upper-right corner of the system message.
 
-   You can [refresh the cache](https://docs.magento.com/user-guide/system/cache-management.html) later.
+   You can [refresh the cache](../systems/cache-management.md) later.
 
 1. Define the scope of the base currency:
 

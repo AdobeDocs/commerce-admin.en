@@ -16,7 +16,7 @@ The [payment method](payments.md) for the order determines, to an extent, the me
 You can refund orders in three ways:
 
 - Account credit---Orders paid using a credit account can be refunded as an account credit:
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) [Store Credit](https://docs.magento.com/user-guide/customers/store-credit.html)
+   - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) [Store Credit](../customers/store-credit-using.md)
    - ![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce) [Payment on Account](../b2b/enable-basic-features.md#configure-payment-on-account) (offline method)
    - ![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce) [Company Credit](../b2b/credit-company.md)
 - [Online refund](payments.md#online-payment-methods)---Orders paid by credit card through a payment gateway, such as PayPal or Braintree, are refunded online via the payment processor.

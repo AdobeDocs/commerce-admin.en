@@ -11,13 +11,13 @@ Instant Purchase allows customers to speed through the checkout process using in
 
 ## Customer requirements
 
-- Customer is [signed in](https://docs.magento.com/user-guide/customers/customer-sign-in.html) to their account.
+- Customer is [signed in](../customers/customer-sign-in.md) to their account.
 
-- Customer account has a [default billing and shipping address](https://docs.magento.com/user-guide/customers/account-dashboard-address-book.html).
+- Customer account has a [default billing and shipping address](../customers/account-dashboard-address-book.md).
 
 - At least one [shipping method](delivery.md) is available for the country that is specified in the default shipping address.
 
-- Customer account has a [stored payment](https://docs.magento.com/user-guide/customers/account-dashboard-stored-payment-methods.html) method with vault enabled.
+- Customer account has a [stored payment](../stores-purchase/stored-payment-methods.md) method with vault enabled.
 
    The following payment methods can be used to provide secure access to saved credit card information:
 
@@ -58,7 +58,7 @@ Learn how to configure the payment method and enable vaulting for Braintree or P
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Instant Purchase]** section.
 
-1. If this change is for a specific store view, [choose the store view](https://docs.magento.com/user-guide/configuration/scope-change.html) where the configuration applies.
+1. If this change is for a specific store view, [choose the store view](../configuration-reference/scope-change.md#set-the-scope) where the configuration applies.
 
    When prompted, click **[!UICONTROL OK]** to continue.
 
@@ -70,7 +70,7 @@ Learn how to configure the payment method and enable vaulting for Braintree or P
 
    ![Configuration - instant purchase options](../configuration-reference/sales/assets/sales-instant-purchase.png)<!-- zoom -->
 
-   For a detailed description of each of these configuration settings, see [Instant Purchase](https://docs.magento.com/user-guide/configuration/sales/sales.html#instant-purchase) in the _Configuration Reference Guide_.
+   For a detailed description of each of these configuration settings, see [Instant Purchase](../configuration-refeerence/sales/sales.md#instant-purchase) in the _Configuration Reference Guide_.
 
 1. Click **[!UICONTROL Save Config]**.
 

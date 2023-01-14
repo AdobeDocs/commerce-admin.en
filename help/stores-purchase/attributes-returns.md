@@ -7,7 +7,7 @@ exl-id: 639c1e94-1211-4a4e-8599-e54ed99b2355
 
 {{ee-feature}}
 
-The returns attributes are used to store information that is needed during the product return process. The default attributes include the condition of the returned product, the reason for the return, and a field that indicates how the return was resolved. The process to create a returns attribute is similar to creating a [customer attribute](https://docs.magento.com/user-guide/stores/attributes-customer.html).
+The returns attributes are used to store information that is needed during the product return process. The default attributes include the condition of the returned product, the reason for the return, and a field that indicates how the return was resolved. The process to create a returns attribute is similar to creating a [customer attribute](../customers/attribute-properties.md).
 
 ![Admin - Returns attributes](./assets/attribute-returns.png)<!-- zoom -->
 

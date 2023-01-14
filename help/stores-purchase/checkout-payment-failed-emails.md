@@ -11,7 +11,7 @@ A notification is sent to the store contact or a designated Admin user if the pa
 
 ## Step 1: Update the email template
 
-Make sure that you have updated the needed [email template](https://docs.magento.com/user-guide/marketing/email-template-message.html) to reflect your brand. For a complete list of templates, see [Email Template List](https://docs.magento.com/user-guide/marketing/email-template-list.html).
+Make sure that you have updated the needed email template to reflect your brand. For a complete list of templates, see [Email Template List](../systems/email-templates.md#email-template-list).
 
 ## Step 2: Configure the payment failed emails
 

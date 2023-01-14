@@ -59,7 +59,7 @@ How gift cards work on the storefront:
 
 - Accounts for gift codes are created to track the balance of a specific voucher. A store administrator can manually adjust the balance.
 
-The receiving customer can use the _[!UICONTROL Gift Card]_ section of their account dashboard to check the balance of their [gift card account](product-gift-card-accounts.md) and redeem gift cards for [store credit](https://docs.magento.com/user-guide/customers/store-credit-using.html).
+The receiving customer can use the _[!UICONTROL Gift Card]_ section of their account dashboard to check the balance of their [gift card account](product-gift-card-accounts.md) and redeem gift cards for [store credit](../customers/store-credit-using.md).
 
 ![Gift Card](./assets/account-dashboard-gift-card.png)<!-- zoom -->
 

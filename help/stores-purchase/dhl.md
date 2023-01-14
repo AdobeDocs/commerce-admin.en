@@ -80,7 +80,7 @@ DHL offers integrated international services and tailored, customer-focused solu
 
    To select multiple methods, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
 
-   To display the correct list of delivery methods, you must first specify the [Country of Origin](https://docs.magento.com/user-guide/configuration/sales/shipping-settings.html).
+   To display the correct list of delivery methods, you must first specify the [Country of Origin](../configuration-reference/sales/shipping-settings.md).
 
 1. For **[!UICONTROL Ready Time]**, enter the number of hours after an order is submitted that a package is ready to ship.
 

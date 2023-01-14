@@ -145,7 +145,7 @@ A tax rule is a combination of a customer tax class, a product tax class, and a 
 
 ### Store information
 
-Commerce uses the following [Store Information configuration settings](https://docs.magento.com/user-guide/configuration/general/general.html#store-information) to calculate VAT based on merchant information.
+Commerce uses the following [Store Information configuration settings](../configuration-refereence/general/general.md#store-information) to calculate VAT based on merchant information.
 
 **[!UICONTROL VAT Number]** - The value-added tax number that is assigned to the merchant.
 
@@ -153,7 +153,7 @@ Commerce uses the following [Store Information configuration settings](https://d
 
 ### Customer information
 
-Commerce uses the following fields to calculate VAT based on [customer information](https://docs.magento.com/user-guide/customers/customer-account-update.html#customer-information).
+Commerce uses the following fields to calculate VAT based on [customer information](../customers/account-dashboard-account-information.md)).
 
 #### Account information
 
@@ -165,7 +165,7 @@ Commerce uses the following fields to calculate VAT based on [customer informati
 
 ### Customer account
 
-Commerce uses the following [customer configuration settings](https://docs.magento.com/user-guide/customers/account-options-new.html) to calculate VAT.
+Commerce uses the following [customer configuration settings](../customers/account-options-new.md) to calculate VAT.
 
 **[!UICONTROL Show VAT Number on Storefront]** - Determines if the customer VAT Number field is included in the Address Book that is available in the customer account.
 
@@ -268,7 +268,7 @@ Each tax rule is defined by three entities:
 Create the [tax rules](tax-rules.md) that you need to use VAT ID Validation effectively.
 
 - Tax rules include tax rates and [tax classes](tax-class.md).
-- Tax classes are assigned to [customer groups](https://docs.magento.com/user-guide/customers/customer-groups.html).
+- Tax classes are assigned to [customer groups](../customers/customer-groups.md).
 
 #### Step 3: Enable and configure VAT ID validation
 

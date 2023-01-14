@@ -19,7 +19,7 @@ The shipping carrier receives payment from the customer at the time of delivery,
 
    ![Cash on Delivery Payment](../configuration-reference/sales/assets/payment-methods-cash-on-delivery-payment.png)<!-- zoom -->
 
-   For a detailed description of each of these configuration settings, see [Cash On Delivery Payment](https://docs.magento.com/user-guide/configuration/sales/payment-methods.html#cash-on-delivery-payment) in the _Configuration Reference Guide_.
+   For a detailed description of each of these configuration settings, see [Cash On Delivery Payment](../configuration-reference/sales/payment-methods.md#cash-on-delivery-payment) in the _Configuration Reference Guide_.
 
    >[!NOTE]
    >
