@@ -394,7 +394,7 @@ The list of email templates is organized alphabetically by module.
 |--- |--- |
 | `Forgot Admin Password` | **Page:** [!UICONTROL Advanced] > [[!UICONTROL Admin]](../configuration-reference/advanced/admin.md)<br/>**Section:** [!UICONTROL Admin User Emails]<br/>**Field:** Forgot Password Email Template |
 | `User Notification` | **Page:** [!UICONTROL Advanced] > [[!UICONTROL Admin]](../configuration-reference/advanced/admin.md)<br/>**Section:** [!UICONTROL Admin User Emails]<br/>**Field:** User Notification Template |
-| `New User Notification` | **Page:** [!UICONTROL Advanced] > [[!UICONTROL Admin]](../configuration-reference/advanced**/admin.md)<br/>**Section:** [!UICONTROL Admin User Emails]<br/>**Field:** [!UICONTROL New User Notification Template] |
+| `New User Notification` | **Page:** [!UICONTROL Advanced] > [[!UICONTROL Admin]](../configuration-reference/advanced/admin.md)<br/>**Section:** [!UICONTROL Admin User Emails]<br/>**Field:** [!UICONTROL New User Notification Template] |
 
 {style="table-layout:auto"}
 

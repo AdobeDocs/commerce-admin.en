@@ -145,7 +145,7 @@ A tax rule is a combination of a customer tax class, a product tax class, and a 
 
 ### Store information
 
-Commerce uses the following [Store Information configuration settings](../configuration-refereence/general/general.md#store-information) to calculate VAT based on merchant information.
+Commerce uses the following [Store Information configuration settings](../configuration-reference/general/general.md#store-information) to calculate VAT based on merchant information.
 
 **[!UICONTROL VAT Number]** - The value-added tax number that is assigned to the merchant.
 

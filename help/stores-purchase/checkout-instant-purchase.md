@@ -70,7 +70,7 @@ Learn how to configure the payment method and enable vaulting for Braintree or P
 
    ![Configuration - instant purchase options](../configuration-reference/sales/assets/sales-instant-purchase.png)<!-- zoom -->
 
-   For a detailed description of each of these configuration settings, see [Instant Purchase](../configuration-refeerence/sales/sales.md#instant-purchase) in the _Configuration Reference Guide_.
+   For a detailed description of each of these configuration settings, see [Instant Purchase](../configuration-reference/sales/sales.md#instant-purchase) in the _Configuration Reference Guide_.
 
 1. Click **[!UICONTROL Save Config]**.
 

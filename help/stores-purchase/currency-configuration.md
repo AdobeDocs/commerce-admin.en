@@ -31,7 +31,7 @@ You also specify the currencies that you accept and which currency you want to u
 
    ![General configuration - currency options](../configuration-reference/general/assets/currency-setup-currency-options.png)<!-- zoom -->
 
-   For a detailed description of each of these configuration settings, see [Currency Options](../configuration-reference/configuration/general/currency-setup.md) in the _Configuration Reference Guide_.
+   For a detailed description of each of these configuration settings, see [Currency Options](../configuration-reference/general/currency-setup.md) in the _Configuration Reference Guide_.
 
 1. When prompted to refresh the cache, click _Close_ ( ![Close box](../assets/icon-close-x.png) in the upper-right corner of the system message.
 
