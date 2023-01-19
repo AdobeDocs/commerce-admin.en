@@ -32,7 +32,7 @@ The [!DNL Commerce] mode can be changed only from the command line of the server
 
 ## 2.3.x documentation
 
-The [[!DNL Commerce] 2.3 User Guide][8]{:target="_blank"} remains available on the docs.magento.com domain until it reaches end of life/end of support.
+The [[!DNL Commerce] 2.3 User Guide][8] remains available on the `docs.magento.com` domain until it reaches end of life/end of support.
 
 
 [1]: https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-5.html
