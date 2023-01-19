@@ -39,7 +39,7 @@ The following payment solutions are recommended as an easy way for merchants who
 ><br/>
 >   If you have either of these bundled extension enabled and configured, you must update your `composer.json` file as part of the 2.4.4 upgrade process and to manage extension updates going forward. See [Upgrade modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) in the _Upgrade Guide_ for more information.
 ><br/><br/>
->**Worldpay**, **Eway**, **CyberSource**, and **Authorize.Net**: For details about making a secure transition from these payment integrations, see our [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}.
+>**Worldpay**, **Eway**, **CyberSource**, and **Authorize.Net**: For details about making a secure transition from these payment integrations, see the [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}.
 
 ## Other PayPal methods
 
@@ -70,7 +70,7 @@ The following payment methods are built into Commerce and do not use a third-par
 |--- |--- |--- |
 |[!UICONTROL Enabled]|Website|Determines if customers can pay by check or money order. Options: `Yes` / `No`|
 |[!UICONTROL Title]|Store View|The name for this payment method that appears to customers during checkout.|
-|[!UICONTROL New Order Status]|Website|Determines the initial [order status](https://docs.magento.com/user-guide/sales/order-status.html) assigned to orders paid by a check or money order. Default value: `Pending`|
+|[!UICONTROL New Order Status]|Website|Determines the initial [order status](../../stores-purchase/order-status.md) assigned to orders paid by a check or money order. Default value: `Pending`|
 |[!UICONTROL Payment from Applicable Countries]|Website|Determines the countries from which you accept payment by check or money order. Options: `All Allowed Countries` / `Specific Countries`|
 |[!UICONTROL Payment from Specific Countries]|Website|Identifies the specific countries from which you accept payment by check or money order.|
 |[!UICONTROL Make Check Payable to]|Store View|The name of the entity to whom checks and money orders should be made payable.|
@@ -123,7 +123,7 @@ The following payment methods are built into Commerce and do not use a third-par
 
 >[!NOTE]
 >
->Payment on Account is not supported for orders with [multiple shipping addresses](https://docs.magento.com/user-guide/shipping/shipping-multiaddress.html) and does not appear among the payment options.
+>Payment on Account is not supported for orders with [multiple shipping addresses](../../stores-purchase/shipping-settings.md#multiple-addresses) and does not appear among the payment options.
 
 ### [!UICONTROL Cash On Delivery Payment]
 
@@ -194,7 +194,7 @@ See the Basic settings section of each individual payment method topic for a com
 |--- |--- |--- |
 |[!UICONTROL Enabled]|Website|Determines if customers can pay by purchase order (PO). Options: `Yes` / `No`|
 |[!UICONTROL Title]|Store View|The name of this payment method that appears to customers during checkout.|
-|[!UICONTROL New Order Status]|Website|Determines the initial [order status](https://docs.magento.com/user-guide/sales/order-status.html) assigned to orders paid by PO. Default value: Pending|
+|[!UICONTROL New Order Status]|Website|Determines the initial [order status](../../stores-purchase/order-status.md) assigned to orders paid by PO. Default value: Pending|
 |[!UICONTROL Payment from Applicable Countries]|Website|Determines the countries from which you accept payment by PO. Options: `All Allowed Countries` / `Specific Countries` |
 |[!UICONTROL Payment from Specific Countries]|Website|Identifies the specific countries from which you accept payment by PO.|
 |[!UICONTROL Minimum Order Total]|Website|The smallest order amount that can be paid by PO.|

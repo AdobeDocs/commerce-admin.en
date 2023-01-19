@@ -17,7 +17,7 @@ exl-id: eb929a6c-adb2-45ac-b6ec-6239938355bf
 
 ![Tax Classes](./assets/tax-tax-classes.png)<!-- zoom -->
 
-<!-- [Tax Classes](https://docs.magento.com/user-guide/tax/tax-class.html) -->
+For more information about changing these settings, see [Tax classes](../../stores-purchase/tax-class.md) in the _Stores and Purchase Experience Guide_.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -31,8 +31,6 @@ exl-id: eb929a6c-adb2-45ac-b6ec-6239938355bf
 ## [!UICONTROL Calculation Settings]
 
 ![Calculation Settings](./assets/tax-calculation-settings.png)<!-- zoom -->
-
-<!-- [Calculation Settings](https://docs.magento.com/user-guide/tax/quick-reference.html) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -51,8 +49,6 @@ exl-id: eb929a6c-adb2-45ac-b6ec-6239938355bf
 
 ![Default Tax Destination Calculation](./assets/tax-default-tax-destination-calculation.png)<!-- zoom -->
 
-<!-- [Default Tax Destination Calculation](https://docs.magento.com/user-guide/tax/tax-destination-default.html) -->
-
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |[!UICONTROL Default Country]|Store View|Determines the country upon which tax calculations are based. |
@@ -65,7 +61,7 @@ exl-id: eb929a6c-adb2-45ac-b6ec-6239938355bf
 
 ![Price Display Settings](./assets/tax-price-display-settings.png)<!-- zoom -->
 
-<!-- [Price Display Settings](https://docs.magento.com/user-guide/tax/display-settings.html) -->
+For more information about changing these settings, see [Configure price display settings](../../stores-purchase/display-settings.md#configure-price-display-settings) in the _Stores and Purchase Experience Guide_.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -78,7 +74,7 @@ exl-id: eb929a6c-adb2-45ac-b6ec-6239938355bf
 
 ![Shopping Cart Display Settings](./assets/tax-shopping-cart-display-settings.png)<!-- zoom -->
 
-<!-- [Shopping Cart Display Settings](https://docs.magento.com/user-guide/tax/display-settings.html) -->
+For more information about changing these settings, see [Configure shopping cart display settings](../../stores-purchase/display-settings.md#step-2-configure-shopping-cart-display-settings) in the _Stores and Purchase Experience Guide_.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -95,7 +91,7 @@ exl-id: eb929a6c-adb2-45ac-b6ec-6239938355bf
 
 ![Orders, Invoices, Credit Memos Display Settings](./assets/tax-orders-invoices-credit-memos-display-settings.png)<!-- zoom -->
 
-<!--[Orders, Invoices, Credit Memos Display Settings](https://docs.magento.com/user-guide/tax/display-settings.html) -->
+For more information about changing these settings, see [Configure order, invoice, and credit memo display settings](../../stores-purchase/display-settings.md#step-3-configure-order-invoice-and-credit-memo-display-settings) in the _Stores and Purchase Experience Guide_.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -114,7 +110,7 @@ exl-id: eb929a6c-adb2-45ac-b6ec-6239938355bf
 
 ![Fixed Product Tax](./assets/tax-fixed-product-taxes.png)<!-- zoom -->
 
-<!-- [Fixed Product Tax](https://docs.magento.com/user-guide/tax/fixed-product-tax.html) -->
+For more information about changing these settings, see [Fixed product tax (FPT)](../../stores-purchase/fixed-product-tax.md) in the _Stores and Purchase Experience Guide_.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |

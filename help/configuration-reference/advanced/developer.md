@@ -9,13 +9,13 @@ exl-id: 2ef4ba6a-b5a5-419d-8d61-e535e3366370
 
 >[!NOTE]
 >
->These configuration settings are available in [developer mode](https://docs.magento.com/user-guide/magento/installation-modes.html) only.
+>These configuration settings are available in [developer mode](../../systems/developer-tools.md#operation-modes) only.
 
 ## [!UICONTROL Frontend Development Workflow]
 
 ![Frontend Development Workflow](./assets/developer-frontend-development-workflow.png)<!-- zoom -->
 
-<!-- [Frontend Development Workflow](https://docs.magento.com/user-guide/system/frontend-development-workflow.html) -->
+For more information about changing these settings, see [Frontend development workflow](../../systems/developer-tools.md#frontend-development-workflow) in the _Admin Systems Guide_.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -27,11 +27,11 @@ exl-id: 2ef4ba6a-b5a5-419d-8d61-e535e3366370
 
 ![Developer Client Restrictions](./assets/developer-developer-client-restrictions.png)<!-- zoom -->
 
-<!-- [Developer Client Restrictions](https://docs.magento.com/user-guide/system/developer-client-restrictions.html) -->
+For more information about changing this setting, see [Client restrictions](../../systems/developer-tools.md#client-restrictions) in the _Admin Systems Guide_.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|[!UICONTROL Allow IPs (comma separated)]|Store View|Creates an allowlist of IP addresses that  can use developer tools on a live site, without interfering with customers in the store. Any changes to the site when using a developer tool such  as Inline Translation, are visible only from the IP addresses on the allowlist.|
+|[!UICONTROL Allow IPs (comma separated)]|Store View|Creates an allowlist of IP addresses that  can use developer tools on a live site, without interfering with customers in the store. Any changes to the site when using a developer tool such  as _Inline Translation_, are visible only from the IP addresses on the allowlist.|
 
 {:style="table-layout:auto"}
 
@@ -39,7 +39,7 @@ exl-id: 2ef4ba6a-b5a5-419d-8d61-e535e3366370
 
 ![Template Settings](./assets/developer-template-settings.png)<!-- zoom -->
 
-<!-- [Template Settings](https://docs.magento.com/user-guide/system/file-optimization.html) -->
+For more information about changing these settings, see [Optimizing resource files](../../systems/developer-tools.md#optimizing-resource-files) in the _Admin Systems Guide_.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -52,7 +52,7 @@ exl-id: 2ef4ba6a-b5a5-419d-8d61-e535e3366370
 
 ![Debug](./assets/developer-debug.png)<!-- zoom -->
 
-<!-- [Debug](https://docs.magento.com/user-guide/system/template-path-hints.html) -->
+For more information about changing these settings, see [Template path hints](../../systems/developer-tools.md#template-path-hints) in the _Admin Systems Guide_.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -66,7 +66,7 @@ exl-id: 2ef4ba6a-b5a5-419d-8d61-e535e3366370
 
 ![Translate Inline](./assets/developer-translate-inline.png)<!-- zoom -->
 
-<!-- [Translate Inline](https://docs.magento.com/user-guide/system/translate-inline.html) -->
+For more information about changing these settings, see [Translate inline](../../systems/developer-tools.md#translate-inline) in the _Admin Systems Guide_.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -79,7 +79,7 @@ exl-id: 2ef4ba6a-b5a5-419d-8d61-e535e3366370
 
 ![JavaScript Settings](./assets/developer-javascript-settings.png)<!-- zoom -->
 
-<!-- [JavaScript Settings](https://docs.magento.com/user-guide/system/file-optimization.html) -->
+For more information about changing these settings, see [Optimizing resource files](../../systems/developer-tools.md#optimizing-resource-files) in the _Admin Systems Guide_.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -97,7 +97,7 @@ exl-id: 2ef4ba6a-b5a5-419d-8d61-e535e3366370
 
 ![CSS Settings](./assets/developer-css-settings.png)<!-- zoom -->
 
-<!-- [CSS Settings](https://docs.magento.com/user-guide/system/file-optimization.html) -->
+For more information about changing these settings, see [Optimizing resource files](../../systems/developer-tools.md#optimizing-resource-files) in the _Admin Systems Guide_.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -140,8 +140,6 @@ exl-id: 2ef4ba6a-b5a5-419d-8d61-e535e3366370
 ## [!UICONTROL Grid Settings]
 
 ![Grid Settings](./assets/developer-grid-settings.png)<!-- zoom -->
-
-<!-- [Grid Settings](https://docs.magento.com/user-guide/sales/order-grid-layout.html) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |

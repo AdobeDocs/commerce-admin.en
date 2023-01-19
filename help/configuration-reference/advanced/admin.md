@@ -25,7 +25,7 @@ For more information about changing these settings, see [Forgotten password and 
 
 ![Startup Page](./assets/admin-startup-page.png)<!-- zoom -->
 
-For more information about changing these settings, see [Change the startup page](../../getting-started/admin-dashboard.md#change-the-startup-page).
+For more information about changing these settings, see [Change the startup page](../../getting-started/admin-dashboard.md#change-the-startup-page) in the _Getting Started Guide_.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -38,40 +38,40 @@ For more information about changing these settings, see [Change the startup page
 |Area| | Option|
 |--- |--- |---|
 |[`Dashboard`](../../getting-started/admin-dashboard.md)| |
-|[`Sales`](https://docs.magento.com/user-guide/sales.html)|[`Operations`](https://docs.magento.com/user-guide/sales/order-management.html)|[`Quotes`](https://docs.magento.com/user-guide/sales/quotes.html) ![B2B for Adobe Commerce](../../assets/b2b.svg) <br/>[`Orders`](https://docs.magento.com/user-guide/sales/orders.html)<br/>[`Invoices`](https://docs.magento.com/user-guide/sales/invoices.html)<br/>[`Shipments`](https://docs.magento.com/user-guide/sales/shipments.html)<br/>[`Credit Memos`](https://docs.magento.com/user-guide/sales/credit-memos.html)<br/>[`Billing Agreements`](https://docs.magento.com/user-guide/sales/billing-agreements.html)<br/>[`Returns`](https://docs.magento.com/user-guide/sales/returns.html) ![Adobe Commerce](../../assets/adobe-logo.svg) </span><br/>[`Transactions`](https://docs.magento.com/user-guide/sales/transactions.html)<br/>`Braintree Virtual Terminal`|
-|[`Catalog`](https://docs.magento.com/user-guide/catalog/catalog-menu.html)|[`Inventory`](https://docs.magento.com/user-guide/catalog/products.html)|`Products`<br/>`Categories`<br/>`Shared Catalog` ![B2B for Adobe Commerce](../../assets/b2b.svg) |
-|[`Customers`](https://docs.magento.com/user-guide/customers.html) | [`All Customers`](https://docs.magento.com/user-guide/customers/customers-all.html)<br/>[`Now Online`](https://docs.magento.com/user-guide/customers/now-online.html)<br/>[`Customer Groups`](https://docs.magento.com/user-guide/customers/customer-groups.html)<br/>[`Segments`](https://docs.magento.com/user-guide/marketing/customer-segments.html) ![Adobe Commerce](../../assets/adobe-logo.svg) <br/>[`Companies`](https://docs.magento.com/user-guide/customers/account-companies.html)![B2B for Adobe Commerce](../../assets/b2b.svg) ||
-|[`Marketing`](https://docs.magento.com/user-guide/marketing.html)|[`Promotions`](https://docs.magento.com/user-guide/marketing/promotions.html)|[`Catalog Price Rule`](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html) <br/>[`Cart Price Rules`](https://docs.magento.com/user-guide/marketing/price-rules-cart.html) <br/>[`Related Products Rules`](https://docs.magento.com/user-guide/marketing/product-related-rules.html) ![Adobe Commerce](../../assets/adobe-logo.svg) <br/>[`Gift Card Accounts`](https://docs.magento.com/user-guide/catalog/product-gift-card-accounts.html) ![Adobe Commerce](../../assets/adobe-logo.svg) |
-||[`Private Sales`](https://docs.magento.com/user-guide/marketing/events-private-sales.html) ![Adobe Commerce](../../assets/adobe-logo.svg) |[`Events`](https://docs.magento.com/user-guide/marketing/event-components.html) <br/>[`Invitations`](https://docs.magento.com/user-guide/marketing/invitations.html)|
-||[`Communications`](https://docs.magento.com/user-guide/marketing/communications.html)|[`Email Templates`](https://docs.magento.com/user-guide/marketing/email-templates.html) <br/>[`Newsletter Template`](https://docs.magento.com/user-guide/marketing/newsletter-template.html) <br/>[`Newsletter Queue`](https://docs.magento.com/user-guide/marketing/newsletter-queue.html) <br/>[`Newsletter Subscribers`](https://docs.magento.com/user-guide/marketing/newsletter-subscribers.html) <br/>[`Email Reminders`](https://docs.magento.com/user-guide/marketing/email-reminder-rules.html) ![Adobe Commerce](../../assets/adobe-logo.svg)|
-||[`SEO & Search`](https://docs.magento.com/user-guide/marketing/seo-search.html)|[`Search Terms`](https://docs.magento.com/user-guide/marketing/search-terms.html) <br/>[`Search Synonyms`](https://docs.magento.com/user-guide/marketing/search-synonyms.html) ![Adobe Commerce](../../assets/adobe-logo.svg)<br/>[`URL Rewrites`](https://docs.magento.com/user-guide/marketing/url-rewrite.html) <br/>[`Site Map`](https://docs.magento.com/user-guide/marketing/sitemap-xml.html)|
-||[`User Content`](https://docs.magento.com/user-guide/catalog/settings-advanced-product-reviews.html) | [`All Reviews`](https://docs.magento.com/user-guide/catalog/settings-advanced-product-reviews.html) <br/>[`Pending Reviews`](https://docs.magento.com/user-guide/marketing/magento-product-reviews-moderate.html) <br/> |
-|[`Content`](https://docs.magento.com/user-guide/content.html) | [`Elements`](https://docs.magento.com/user-guide/cms/content-elements.html) | [`Pages`](https://docs.magento.com/user-guide/cms/pages.html)<br/>[`Hierarchy`](https://docs.magento.com/user-guide/cms/page-hierarchy.html) ![Adobe Commerce](../../assets/adobe-logo.svg)<br/>[`Blocks`](https://docs.magento.com/user-guide/cms/blocks.html)<br/>[`Dynamic Blocks`](https://docs.magento.com/user-guide/cms/dynamic-blocks.html) ![Adobe Commerce](../../assets/adobe-logo.svg)<br/>[`Widgets`](https://docs.magento.com/user-guide/cms/widgets.html)<br/>[`Media Gallery`](https://docs.magento.com/user-guide/cms/media-storage.html)|
-||[`Design`](https://docs.magento.com/user-guide/design/design-theme.html) | [`Configuration`](https://docs.magento.com/user-guide/design/configuration.html)<br/>[`Themes`](https://docs.magento.com/user-guide/design/themes.html)<br/>[`Schedule`](https://docs.magento.com/user-guide/design/schedule.html)|
-||`Content Staging` ![Adobe Commerce](../../assets/adobe-logo.svg)<br />|[Dashboard](https://docs.magento.com/user-guide/cms/content-staging.html)|
-|[Reports](https://docs.magento.com/user-guide/reports.html) | [`Marketing`](https://docs.magento.com/user-guide/reports/marketing-reports.html)|`Products in Cart`<br />`Search Terms`<br />`Abandoned Carts`<br />`Newsletter Problem Reports`|
-||[`Reviews`](https://docs.magento.com/user-guide/reports/review-reports.html)|`By Customer`<br/> `By Products`<br/>|
-||[`Sales`](https://docs.magento.com/user-guide/reports/sales-reports.html)|`Orders`<br/>`Tax`<br/>`Invoiced`<br/>`Shipping`<br/>`Refunds`<br/>`Coupons`<br/>`PayPal Settlement`<br/>`Braintree Settlement`|
+|`Sales`|[`Operations` | [`Quotes`](../../b2b/quotes.md) ![B2B for Adobe Commerce](../../assets/b2b.svg) <br/>[`Orders`](../../stores-purchase/orders.md)<br/>[`Invoices`](../../stores-purchase/invoices.md)<br/>[`Shipments`](../../stores-purchase/shipments.md)<br/>[`Credit Memos`](../../stores-purchase/credit-memos.md)<br/>[`Billing Agreements`](../../stores-purchase/paypal-billing-agreements.md)<br/>[`Returns`](../../stores-purchase/returns.md) ![Adobe Commerce](../../assets/adobe-logo.svg) </span><br/>[`Transactions`](../../stores-purchase/transactions.md)<br/>`Braintree Virtual Terminal`|
+|`Catalog`|[`Inventory`](../../inventory-management/introduction.md)|[`Products`](../../catalog/products-list.md)<br/>[`Categories`](../../catalog/categories.md)<br/>[`Shared Catalog`](../../b2b/catalog-shared-create.md) ![B2B for Adobe Commerce](../../assets/b2b.svg) |
+|`Customers` | [`All Customers`](../../customers/customers-all.md)<br/>[`Now Online`](../../customers/now-online.md)<br/>[`Customer Groups`](../../customers/customer-groups.md)<br/>[`Segments`](../../customers/customer-segments.md) ![Adobe Commerce](../../assets/adobe-logo.svg) <br/>[`Companies`](../../b2b/account-companies.md)![B2B for Adobe Commerce](../../assets/b2b.svg) ||
+|`Marketing`|`Promotions`|[`Catalog Price Rule`](../../merchandising-promotions/price-rules-catalog.md) <br/>[`Cart Price Rules`](../../merchandising-promotions/price-rules-cart.md)) <br/>[`Related Products Rules`](../../merchandising-promotions/product-related-rules.md) ![Adobe Commerce](../../assets/adobe-logo.svg) <br/>[`Gift Card Accounts`](../../stores-purchase/product-gift-card-accounts.md) ![Adobe Commerce](../../assets/adobe-logo.svg) |
+||[`Private Sales`](../../merchandising-promotions/events-private-sales.md) ![Adobe Commerce](../../assets/adobe-logo.svg) |[`Events`](../../merchandising-promotions/event-configure.md) <br/>[`Invitations`](../../merchandising-promotions/invitations.md)|
+||`Communications`|[`Email Templates`](../../systems/email-templates.md) <br/>[`Newsletter Template`](../../merchandising-promotions/newsletter-template.md) <br/>[`Newsletter Queue`](../../merchandising-promotions/newsletter-queue.md) <br/>[`Newsletter Subscribers`](../../merchandising-promotions/newsletter-subscribers.md) <br/>[`Email Reminders`](../../merchandising-promotions/email-reminder-rules.md) ![Adobe Commerce](../../assets/adobe-logo.svg)|
+||`SEO & Search`|[`Search Terms`](../../catalog/search-terms.md) <br/>[`Search Synonyms`](../../catalog/search-terms.md#search-synonyms) ![Adobe Commerce](../../assets/adobe-logo.svg)<br/>[`URL Rewrites`](../../merchandising-promotions/url-rewrite.md) <br/>[`Site Map`](../../merchandising-promotions/sitemap-xml.md)|
+||[`User Content`](../../catalog/settings-advanced-product-reviews.md) | [`All Reviews`](../../catalog/settings-advanced-product-reviews.md) <br/>[`Pending Reviews`](../../merchandising-promotions/product-reviews-moderate.md) <br/> |
+|`Content` | `Elements` | [`Pages`](../../content-design/pages.md)<br/>[`Hierarchy`](../../../page-hierarchy.md) ![Adobe Commerce](../../assets/adobe-logo.svg)<br/>[`Blocks`](../../../../content-design/assets/blocks-workspace.png)<br/>[`Dynamic Blocks`](../../content-design/dynamic-blocks.md) ![Adobe Commerce](../../assets/adobe-logo.svg)<br/>[`Widgets`](../../../../content-design/widgets.md)<br/>[`Media Gallery`](../../content-design/media-storage.md)|
+||`Design`| [`Configuration`](../../content-design/configuration.md)<br/>[`Themes`](../../../themes.md)<br/>[`Schedule`](../../content-design/schedule.md)|
+||`Content Staging` ![Adobe Commerce](../../assets/adobe-logo.svg)<br />|[Dashboard](../../content-design/content-staging.md)|
+|`Reports` | [`Marketing`](../../getting-started/marketing-reports.md)|`Products in Cart`<br />`Search Terms`<br />`Abandoned Carts`<br />`Newsletter Problem Reports`|
+||[`Reviews`](../../getting-started/review-reports.md)|`By Customer`<br/> `By Products`<br/>|
+||[`Sales`](../../getting-started/sales-reports.md)|`Orders`<br/>`Tax`<br/>`Invoiced`<br/>`Shipping`<br/>`Refunds`<br/>`Coupons`<br/>`PayPal Settlement`<br/>`Braintree Settlement`|
 ||`System Insights`|[`Site-Wide Analysis Tool`](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html) ![Adobe Commerce](../../assets/adobe-logo.svg)|
-||[`Customers`](https://docs.magento.com/user-guide/reports/customer-reports.html)| `Order Total`<br/>`Order Count`<br/>`New`<br/>`Wish Lists`<br/>`Segments`<br/>|
-||[`Products`](https://docs.magento.com/user-guide/reports/product-reports.html)|`Views`<br/>`Bestsellers`<br/>`Low Stock`<br/>`Ordered`<br/>`Downloads`|
-||[`Private Sales`](https://docs.magento.com/user-guide/marketing/events-private-sales.html) ![Adobe Commerce](../../assets/adobe-logo.svg)|`Invitations`<br/>`Invited Customers`<br/>`Conversions`|
-||[`Statistics`](https://docs.magento.com/user-guide/reports/statistics.html)|`Refresh Statistics`|
-||[`Business Intelligence`](https://docs.magento.com/user-guide/reports/business-intelligence.html)|`Advanced Reporting`<br/>`BI Essentials`<br/>|
+||[`Customers`](../../getting-started/customer-reports.md)| `Order Total`<br/>`Order Count`<br/>`New`<br/>`Wish Lists`<br/>`Segments`<br/>|
+||[`Products`](../../getting-started/product-reports.md)|`Views`<br/>`Bestsellers`<br/>`Low Stock`<br/>`Ordered`<br/>`Downloads`|
+||[`Private Sales`](../../getting-started/private-sales-reports.md) ![Adobe Commerce](../../assets/adobe-logo.svg)|`Invitations`<br/>`Invited Customers`<br/>`Conversions`|
+||`Statistics`|[`Refresh Statistics`](../../getting-started/sales-reports.md#refresh-statistics)|
+||[`Business Intelligence`](../../getting-started/business-intelligence.md)|`Advanced Reporting`<br/>`BI Essentials`<br/>|
 ||`Customer Engagement`|`Dashboard`<br/>`Importer Status`<br/>`Automation Enrollment`<br/>`Campaign Sends`<br/>`SMS Sends`<br/>`Cron Tasks`<br/>`Log Viewer`<br/>`Abandoned Carts`|
-|[`Stores`](https://docs.magento.com/user-guide/stores/stores.html) | [`Settings`](https://docs.magento.com/user-guide/stores/stores-menu.html) | [`All Stores`](https://docs.magento.com/user-guide/stores/stores-all-stores.html)<br/>[`Configuration`](https://docs.magento.com/user-guide/stores/configuration-overview.html)<br/>[`Terms and Conditions`](https://docs.magento.com/user-guide/sales/terms-and-conditions.html)<br/>[`Order Status`](https://docs.magento.com/user-guide/sales/order-status.html)|
-||[`Inventory`](../catalog/inventory.md)|[`Sources`](https://docs.magento.com/user-guide/catalog/sources.html)<br/>`Stocks`|
-||[`Taxes`](https://docs.magento.com/user-guide/tax/taxes.html)|[`Tax Rules`](https://docs.magento.com/user-guide/tax/tax-rules.html)<br/>[`Tax Zones and Rates`](https://docs.magento.com/user-guide/tax/tax-zones-rates.html)|
-||[`Currency`](https://docs.magento.com/user-guide/stores/currency.html)|[`Currency Rates`](https://docs.magento.com/user-guide/stores/currency-configuration.html)<br/>[`Currency Symbols`](https://docs.magento.com/user-guide/stores/currency-symbols.html)|
-||[`Attributes`](https://docs.magento.com/user-guide/stores/attributes.html)|[`Customer`](https://docs.magento.com/user-guide/stores/attributes-customer.html)<br/>[`Customer Address`](https://docs.magento.com/user-guide/stores/attributes-customer-address.html)<br/>[`Product`](https://docs.magento.com/user-guide/stores/attributes-product.html)<br/>[`Attribute Set`](https://docs.magento.com/user-guide/stores/attribute-sets.html)<br/>[`Returns`](https://docs.magento.com/user-guide/stores/attributes-returns.html)<br/>[`Ratings`](https://docs.magento.com/user-guide/stores/attributes-rating.html)|
-||`Other Settings`|[`Reward Exchange Rates`](https://docs.magento.com/user-guide/marketing/reward-exchange-rates.html)<br/>[`Gift Wrapping`](https://docs.magento.com/user-guide/sales/gift-wrap.html)<br/>[`Gift Registry`](https://docs.magento.com/user-guide/customers/account-dashboard-gift-registry.html)|
-|[`System`](https://docs.magento.com/user-guide/system/system.html) | [`Data Transfer`](https://docs.magento.com/user-guide/system/data-transfer.html) | [`Import`](https://docs.magento.com/user-guide/system/data-import.html)<br/>[`Export`](https://docs.magento.com/user-guide/system/data-export.html)<br/>[`Import/Export Tax Rates`](https://docs.magento.com/user-guide/system/data-transfer-tax-rates.html)<br/>[`Import History`](https://docs.magento.com/user-guide/system/data-import-history.html)<br/>[`Scheduled Import/Export`](https://docs.magento.com/user-guide/system/data-scheduled-import-export.html)|
-||`Extensions`|[`Integrations`](https://docs.magento.com/user-guide/system/integrations.html)|
-||[`Tools`](https://docs.magento.com/user-guide/system/tools.html) | [`Cache Management`](https://docs.magento.com/user-guide/system/cache-management.html)<br/>[`Index Management`](https://docs.magento.com/user-guide/system/index-management.html)|
-||[`Support`](https://docs.magento.com/user-guide/system/support.html)|[`Data Collector`](https://docs.magento.com/user-guide/system/support-data-collector.html)<br/>[`System Report`](https://docs.magento.com/user-guide/system/support-system-report.html)|
-||[`Permissions`](https://docs.magento.com/user-guide/system/permissions.html) | [`All Users`](https://docs.magento.com/user-guide/system/permissions-users-all.html)<br/>[`Locked Users`](https://docs.magento.com/user-guide/system/permissions-locked-users.html)<br/>[`User Roles`](https://docs.magento.com/user-guide/system/permissions-user-roles.html)|
-||[`Action Log`](https://docs.magento.com/user-guide/system/action-log.html) ![Adobe Commerce](../../assets/adobe-logo.svg)|[`Report`](https://docs.magento.com/user-guide/system/action-log.html)<br/>[`Archive`](https://docs.magento.com/user-guide/system/action-log-archive.html)<br/>[`Bulk Actions`](https://docs.magento.com/user-guide/system/action-log-bulk-actions.html)|
-||`Other Settings`|[`Notifications`](https://docs.magento.com/user-guide/stores/admin-message-inbox.html)<br/>[`Custom Variables`](https://docs.magento.com/user-guide/marketing/variables-custom.html)<br/>[`Manage Encryption Key`](https://docs.magento.com/user-guide/system/encryption-key.html)|
+|`Stores` | `Settings` | [`All Stores`](../../stores-purchase/stores.md)<br/>[`Configuration`](../../configuration-reference/guide-overview.md)<br/>[`Terms and Conditions`](../../stores-purchase/terms-and-conditions.md)<br/>[`Order Status`](../../stores-purchase/order-status.md)|
+||[`Inventory`](../../inventory-management/introduction.md)|[`Sources`](../../inventory-management/sources-stocks.md#sources)<br/>[`Stocks`](../../inventory-management/sources-stocks.md#stocks)|
+||[`Taxes`](../../stores-purchase/taxes.md)|[`Tax Rules`](../../stores-purchase/tax-rules.md)<br/>[`Tax Zones and Rates`](../../stores-purchase/tax-zones-rates.md)|
+||[`Currency`](../../stores-purchase/currency.md)|[`Currency Rates`](../../stores-purchase/currency-configuration.md)<br/>[`Currency Symbols`](../../stores-purchase/currency-configuration.md#step-5-customize-currency-symbols-optional)|
+||`Attributes`|[`Customer`](../../systems/data-attributes-customer.md)<br/>[`Customer Address`](../../systems/data-attributes-customer.md#customer-addresses)<br/>[`Product`](../../../data-attributes-product.md)<br/>[`Attribute Set`](../../catalog/attribute-sets.md)<br/>[`Returns`](../../../../stores-purchase/attributes-returns.md)<br/>[`Ratings`](../../merchandising-promotions/product-reviews.md#create-custom-ratings)|
+||`Other Settings`|[`Reward Exchange Rates`](../../merchandising-promotions/reward-exchange-rates.md)<br/>[`Gift Wrapping`](../../stores-purchase/cart-configuration.md#gift-wrap)<br/>[`Gift Registry`](../../merchandising-promotions/gift-registry-create.md)|
+|`System` | [`Data Transfer`](../../systems/data-transfer.md) | [`Import`](../../systems/data-import.md)<br/>[`Export`](../../systems/data-export.md)<br/>[`Import/Export Tax Rates`](../../systems/data-transfer-tax-rates.md)<br/>[`Import History`](../../systems/data-import.md#import-history)<br/>[`Scheduled Import/Export`](../../systems/data-scheduled-import-export.md)|
+||`Extensions`|[`Integrations`](../../systems/integrations.md)|
+||`Tools` | [`Cache Management`](../../systems/cache-management.md)<br/>[`Index Management`](../../systems/index-management.md)|
+||`Support`|[`Data Collector`](../../systems/support.md#data-collector)<br/>[`System Report`](../../systems/support.md#system-reports)|
+||`Permissions` | [`All Users`](../../systems/permissions-users-all.md)<br/>[`Locked Users`](../../systems/permissions-users-all.md#locked-users)<br/>[`User Roles`](../../systems/permissions-user-roles.md)|
+||`Action Log` ![Adobe Commerce](../../assets/adobe-logo.svg)|[`Report`](../../systems/action-log.md)<br/>[`Archive`](../../systems/action-log-archive.md)<br/>[`Bulk Actions`](../../systems/action-log-bulk-actions.md)|
+||`Other Settings`|[`Notifications`](../../systems/notifications.md)<br/>[`Custom Variables`](../../systems/variables-custom.md)<br/>[`Manage Encryption Key`](../../systems/encryption-key.md)|
 |`Find Partners & Extensions`|||
 
 {style="table-layout:auto"}
@@ -80,7 +80,7 @@ For more information about changing these settings, see [Change the startup page
 
 ![Admin Base URL](./assets/admin-admin-base-url.png)<!-- zoom -->
 
-<!-- Admin Base URL](https://docs.magento.com/user-guide/stores/store-urls.html)-->
+For more information about setting these options, see [Configure the base URL](../../stores-purchase/store-urls.md#configure-the-base-url) in the _Stores and Purchase Experience Guide_.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -95,7 +95,7 @@ For more information about changing these settings, see [Change the startup page
 
 ![Security](./assets/admin-security.png)<!-- zoom -->
 
-<!-- Security](https://docs.magento.com/user-guide/stores/security-admin.html)-->
+For more information about setting these options, see [Configure Admin security](../../systems/security-admin.md) in the _Admin Systems Guide_.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -118,7 +118,7 @@ For more information about changing these settings, see [Change the startup page
 
 ![Dashboard](./assets/admin-dashboard.png)<!-- zoom -->
 
-<!-- Dashboard](https://docs.magento.com/user-guide/stores/admin-dashboard.html)-->
+For more information about setting these options, see [Admin dashboard](../../getting-started/admin-dashboard.md) in the _Getting Started Guide_.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -130,7 +130,7 @@ For more information about changing these settings, see [Change the startup page
 
 ![CAPTCHA](./assets/admin-captcha.png)<!-- zoom -->
 
-<!-- CAPTCHA](https://docs.magento.com/user-guide/stores/security-captcha.html)-->
+For more information about setting these options, see [CAPTCHA](../../systems/security-captcha.md) in the _Admin Systems Guide_.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -152,7 +152,7 @@ For more information about changing these settings, see [Change the startup page
 
 ![Admin Actions Logging](./assets/admin-actions-logging.png)<!-- zoom -->
 
-<!-- Admin Actions Logging](https://docs.magento.com/user-guide/system/action-log-archive.html)-->
+For more information about setting these options, see [Action log archive](../../systems/action-log-archive.md) in the _Admin Systems Guide_.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -164,8 +164,10 @@ For more information about changing these settings, see [Change the startup page
 
 ![Admin Usage](./assets/admin-usage.png)<!-- zoom -->
 
+For more information about setting these options, see [Usage data collection](../../getting-started/admin.md#usage-data-collection) in the _Getting Started Guide_.
+
 | Field | Scope | Description|
 | --- | --- | --- |
-| [!UICONTROL Enable Admin Usage Tracking] | Global | Grants permission for Adobe to collect [usage data](https://docs.magento.com/user-guide/stores/admin.html) to improve the experience of using the _Admin_, and related products and services. Allowing data collection also enables _In-Product Guidance_ which is designed to bring interactive content such as help, tool tips, walk-through guides, onboarding information, feature announcements, and more to the _Admin_. Individual administrators are not identified in usage data. Options:<br />**`Yes`** - Allows data collection and enables _In-Product Guidance_.<br />**`No`** - Does not allow data collection nor enable _In-Product Guidance_.|
+| [!UICONTROL Enable Admin Usage Tracking] | Global | Grants permission for Adobe to collect Admin usage data to improve the experience of using the _Admin_, and related products and services. Allowing data collection also enables _In-Product Guidance_ which is designed to bring interactive content such as help, tool tips, walk-through guides, onboarding information, feature announcements, and more to the _Admin_. Individual administrators are not identified in usage data. Options:<br />**`Yes`** - Allows data collection and enables _In-Product Guidance_.<br />**`No`** - Does not allow data collection nor enable _In-Product Guidance_.|
 
 {style="table-layout:auto"}

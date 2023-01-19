@@ -7,11 +7,11 @@ exl-id: d7d46946-f8c9-4714-96c3-2173e28f7bfa
 
 {{config}}
 
+For more information about changing these settings, see [Shipping settings](../../stores-purchase/shipping-settings.md) in the _Stores and Purchase Experience Guide_.
+
 ## [!UICONTROL Origin]
 
 ![Origin](./assets/shipping-settings-origin.png)<!-- zoom -->
-
-<!-- [Origin](https://docs.magento.com/user-guide/shipping/shipping-settings.html) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -27,8 +27,6 @@ exl-id: d7d46946-f8c9-4714-96c3-2173e28f7bfa
 ## [!UICONTROL Shipping Policy Parameters]
 
 ![Shipping Policy Parameters](./assets/shipping-settings-shipping-policy-parameters.png)<!-- zoom -->
-
-<!-- [Shipping Policy Parameters](https://docs.magento.com/user-guide/shipping/shipping-policy-parameters.html) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |

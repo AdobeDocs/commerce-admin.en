@@ -7,11 +7,11 @@ exl-id: e4e6771a-487a-43ee-8b98-6acee4599aaf
 
 >[!IMPORTANT]
 >
->Before Google reCAPTCHA can be configured, you must ensure that your `PHP.ini` file includes the following setting: `allow_url_fopen = 1`. This may require developer assistance. See [Required PHP Settings](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html){:target="_blank"}.
+>Before Google reCAPTCHA can be configured, you must ensure that your `PHP.ini` file includes the following setting: `allow_url_fopen = 1`. This may require developer assistance. See [Required PHP Settings](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html) in the _Installation Guide_.
 
 {{config}}
 
-<!-- [reCAPTCHA v2 ("I am not a robot")](https://docs.magento.com/user-guide/stores/security-google-recaptcha.html) -->
+For more information about changing these settings, see [Google reCAPTCHA](../../systems/security-google-recaptcha.md) in the _Admin Systems Guide_.
 
 ## [!UICONTROL reCAPTCHA v2 ("I am not a robot")]
 

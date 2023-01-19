@@ -42,7 +42,7 @@ exl-id: 255b7bd8-1d32-4393-9eba-43dc7754c752
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |[!UICONTROL Title]|store view|Add the text to be displayed as the title for this payment option in the Payment Method view during checkout. Default value: `Pay with PayPal`|
-|[!UICONTROL Payment Action]|Website|The [payment action](https://docs.magento.com/user-guide/configuration/sales/payment-methods.html#payment-actions){target="_blank"} for the specified payment method. Options: `Authorize` / `Authorize and Capture`|
+|[!UICONTROL Payment Action]|Website|The [payment action](../../configuration-reference/sales/payment-methods.md#payment-actions){target="_blank"} for the specified payment method. Options: `Authorize` / `Authorize and Capture`|
 |[!UICONTROL Display Pay Later Message]|Website|Enable or disable the _Pay Later_ messaging in the shopping cart, product page, mini-cart, and during the checkout flow. Options: `Yes` / `No`|
 |[!UICONTROL Show buttons on product detail page]| Store View | Enable or disable [!DNL PayPal Smart Buttons] on the product detail page. Options: `Yes` / ` No`|
 |[!UICONTROL Show buttons in minicart preview]| Store View | Enable or disable [!DNL PayPal Smart Buttons] in the minicart preview. Options: `Yes` / ` No`|
