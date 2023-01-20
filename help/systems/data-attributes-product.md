@@ -68,7 +68,7 @@ The installation used to export this data has the sample data installed, and has
 |`min_cart_qty`|Specifies the minimum quantity of the item that can be purchased in a single order.|
 |`use_config_min_sale_qty`|Determines if the default configuration setting for minimum quantity is used, and corresponds to the state of the Use Config Settings checkbox. Values:<br/>`1` — (Yes)<br/>`0` (or blank) — (No)|
 |`max_cart_qty`|Specifies the maximum quantity of the product that can be purchased in a single order.|
-|`use_config_max_sale_qty`|Determines if the default configuration setting for maximum quantity is used, and corresponds to the state of the Use Config Settings checkbox. Values:<br/>`1` — (Yes)<br/>**0** (or blank) — (No)|
+|`use_config_max_sale_qty`|Determines if the default configuration setting for maximum quantity is used, and corresponds to the state of the Use Config Settings checkbox. Values:<br/>`1` — (Yes)<br/>`0` (or blank) — (No)|
 |`is_in_stock`|Indicates if the product is in stock.|
 |`notify_on_stock_below`|Specifies the stock level that triggers an _out of stock_ notification.|
 |`use_config_notify_stock_qty`|Determines if the default configuration setting is used to trigger stock level notification, and corresponds to the state of the Use Config Settings checkbox. Values:<br/>`1` — (Yes)<br/>`0` (or blank) — (No)|
