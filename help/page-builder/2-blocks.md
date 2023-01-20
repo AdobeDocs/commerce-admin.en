@@ -13,7 +13,7 @@ The following exercise illustrates the difference between [simple blocks](../con
 
 ![Dynamic block in the storefront](./assets/pb-tutorial2-dynamic-block-storefront.png)<!-- zoom -->
 
-This exercise assumes that you have completed [Part 1: Simple Page](1-simple-page.md), including the prerequisites and downloaded sample files. Follow the parts of this walkthrough exercise in order.
+This exercise assumes that you have completed [Part 1: Simple Page](1-simple-page.md), including the prerequisites and [downloaded sample files](./assets/simple-page-assets.zip). Follow the parts of this walkthrough exercise in order.
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ In this walkthrough exercise, you create a simple block with content from [!DNL 
 
    ![Configured Google Map for your store](./assets/pb-tutorial2-google-map.png)<!-- zoom -->
 
-   A placeholder map appears if [!DNL Google Maps] isn’t yet configured for your store.
+   A placeholder map appears if [!DNL Google Maps] isn't yet configured for your store.
 
    ![[!DNL Google Maps] placeholder](./assets/pb-tutorial2-media-map-not-configured.png)<!-- zoom -->
 
@@ -81,7 +81,7 @@ If [!DNL Google Maps] is already configured for your store, you can skip this st
 
    ![Advanced Content Tools](./assets/content-management-advanced-content-tools.png)<!-- zoom -->
 
-   For more information about the Content Management Advanced Tools configuration options, see the [Configuration Reference Guide](https://docs.magento.com/user-guide/configuration/general/content-management.html).
+   For more information about the [!UICONTROL Content Management Advanced Tools] configuration options, see the [_Configuration Reference Guide_](../configuration-reference/general/content-management.md).
 
 1. For **[!UICONTROL Google Maps API Key]**, paste the key you copied.
 
@@ -161,7 +161,7 @@ A dynamic block includes logic that determines where, when, and to whom it appea
 
    - For **[!UICONTROL Customer Segment]**, select the checkbox of each segment that you want to apply to the dynamic block and click **Done** to save the list of segments.
 
-      For the following example, there are two [customer segments](https://docs.magento.com/user-guide/marketing/customer-segments.html) that identify registered customers by gender. This dynamic block appears only to registered female customers who are logged in to their accounts while they shop in your store.
+      For the following example, there are two [customer segments](../customers/customer-segments.md) that identify registered customers by gender. This dynamic block appears only to registered female customers who are logged in to their accounts while they shop in your store.
 
       ![Choosing the customer segments](./assets/pb-dynamic-block-customer-segment.png)<!-- zoom -->
 
@@ -402,4 +402,3 @@ You have completed the third part of the Block exercise. Make sure to keep your 
 When you are ready, proceed to [Part 3: Catalog Content](3-catalog-content.md)
 
 [1]: https://developers.google.com/maps/documentation/javascript/get-api-key
-[2]: https://docs.magento.com/m2/downloads/simple-page-assets.zip

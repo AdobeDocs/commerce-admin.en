@@ -5,7 +5,7 @@ exl-id: 3f14af35-9c04-4f4b-b3dd-d3406d56a9c0
 ---
 # Elements - Text
 
-Use the _Text_ content type to add a text container with a WYSIWYG (“What You See Is What You Get”) editor in the [[!DNL Page Builder] stage](workspace.md#stage). In addition, you can add links, images, [variables](https://docs.magento.com/user-guide/marketing/variables.html), and widgets to the text from the editor toolbar.
+Use the _Text_ content type to add a text container with a WYSIWYG ("What You See Is What You Get") editor in the [[!DNL Page Builder] stage](workspace.md#stage). In addition, you can add links, images, [variables](../systems/variables-predefined.md), and widgets to the text from the editor toolbar.
 
 ![Formatted text on a banner](./assets/pb-storefont-banner-with-button.png)<!-- zoom -->
 
@@ -49,7 +49,7 @@ You can access the text editor directly from the stage or from a settings page. 
 
 The Insert Link button in the editor makes it easy to add a hyperlink to an image in the gallery. However, it can also be used to create an inline link in text, if you have the URL in advance. Unlike the Widget button, the Insert/Edit link button is not integrated with pages, products, or categories in the store.
 
-To create a link for a telephone number or email, see [Adding Custom Variables](https://docs.magento.com/user-guide/marketing/variables-custom.html).
+To create a link for a telephone number or email, see [Adding Custom Variables](../systems/variables-custom.md).
 
 1. In the storefront, navigate to the page that is to be the target destination for the link and copy the link information.
 

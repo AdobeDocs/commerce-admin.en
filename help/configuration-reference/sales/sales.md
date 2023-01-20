@@ -184,13 +184,13 @@ exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
 
 ![Orders, Invoices, Shipments, Credit Memos Archiving](./assets/sales-orders-invoices-shipments-credit-memos-archiving.png)<!-- zoom -->
 
-<!-- [Orders, Invoices, Shipments, Credit Memos Archiving](https://docs.magento.com/user-guide/sales/order-archive.html) -->
+For more information about changing these settings, see [Configure the order archive](../../stores-purchase/order-archive.md#configure-the-order-archive) in the _Stores and Purchase Experience Guide_.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |[!UICONTROL Enable Archiving]|Global|Determines if archiving is enabled. Options: `Yes` / `No`|
 |[!UICONTROL Archive Orders Purchased]|Global|Determines the number of days that pass before a completed order is archived. Default value: `30`|
-|[!UICONTROL Order  Statuses to be Archived]|Global|Determines the [status](https://docs.magento.com/user-guide/sales/order-status.html) of orders to be archived. By default, orders with a status of either Complete or Closed are archived. Options: `Pending` / `Processing` / `Suspected Fraud` / `Complete` / `Closed` / `Canceled` / `On Hold`|
+|[!UICONTROL Order  Statuses to be Archived]|Global|Determines the [status](../../stores-purchase/order-status.md) of orders to be archived. By default, orders with a status of either Complete or Closed are archived. Options: `Pending` / `Processing` / `Suspected Fraud` / `Complete` / `Closed` / `Canceled` / `On Hold`|
 
 {:style="table-layout:auto"}
 
@@ -200,12 +200,12 @@ exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
 
 ![RMA Settings](./assets/sales-rma-settings.png)<!-- zoom -->
 
-<!-- [RMA Settings](https://docs.magento.com/user-guide/sales/rma-configure.html) -->
+For more information about changing these settings, see [Configure returns](../../stores-purchase/rma-configure.md) in the _Stores and Purchase Experience Guide_.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |[!UICONTROL Enable RMA on Storefront]|Website|Determines if customers can create and view RMA requests from the storefront. RMA can be applied to both new and existing orders. By default, RMA is not enabled for the storefront. Options: `Yes` / `No`|
 |[!UICONTROL Enable RMA on Product Level]|Website|Determines the default value for the Enable RMA field in product information.|
-|[!UICONTROL Use Store Address]|Website|Determines the contact name and address that is used for shipments of returned merchandise. Options: <br/>**`Yes`** - Uses the [Point of Origin](https://docs.magento.com/user-guide/shipping/point-of-origin.html) address from Shipping Settings. <br/>**`No`** - Opens the address form so you can enter an alternate address.|
+|[!UICONTROL Use Store Address]|Website|Determines the contact name and address that is used for shipments of returned merchandise. Options: <br/>**`Yes`** - Uses the [Point of Origin](../../stores-purchase/shipping-settings.md#point-of-origin) address from Shipping Settings. <br/>**`No`** - Opens the address form so you can enter an alternate address.|
 
 {:style="table-layout:auto"}

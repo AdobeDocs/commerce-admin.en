@@ -13,7 +13,7 @@ To manage the use of cart persistence for your site or within specific store vie
 
 >[!NOTE]
 >
->When using a persistent cart, we recommend that you set the lifetime of the server session and the session cookie to a long time period. See [Session Lifetime](https://docs.magento.com/user-guide/customers/customer-online-options.html) for more information.
+>When using a persistent cart, we recommend that you set the lifetime of the server session and the session cookie to a long time period. See [Session Lifetime](../customers/customer-online-options.md) for more information.
 
 To use the persistent shopping cart, the customer's browser must be set to allow cookies. There are two types of cookies used for shopping cart operations:
 
@@ -99,7 +99,7 @@ For more information about how the customer workflow is determined by these sett
 
    ![Enabling and configuring the cart persistence](./assets/persistent-cart-options.png)<!-- zoom -->
 
-   For more information about each of these configuration settings, see the [Configuration Reference](https://docs.magento.com/user-guide/configuration/customers/persistent-shopping-cart.html)
+   For more information about each of these configuration settings, see the [_Configuration Reference_](../configuration-reference/customers/persistent-shopping-cart.md)
 
    >[!NOTE]
    >

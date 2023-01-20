@@ -22,4 +22,4 @@ exl-id: 4cacac8c-33af-4275-b1dd-9802d38ec3c8
 
 >[!NOTE]
 >
->![B2B for Adobe Commerce](../../assets/b2b.svg) (Available with B2B for Adobe Commerce only) For orders with multiple shipping addresses, the [Payment on Account](https://docs.magento.com/user-guide/payment/payment-on-account.html) payment method, even if enabled, is not available during the checkout.
+>![B2B for Adobe Commerce](../../assets/b2b.svg) (Available with B2B for Adobe Commerce only) For orders with multiple shipping addresses, the [Payment on Account](../../b2b/enable-basic-features.md#configure-payment-on-account) payment method, even if enabled, is not available during the checkout.

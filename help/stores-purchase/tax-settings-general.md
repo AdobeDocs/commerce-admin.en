@@ -7,7 +7,7 @@ exl-id: e32747f9-20d0-4717-9cee-aa1bcffebb65
 
 The following instructions take you through the basic tax configuration for your Commerce instance. Before setting up your taxes, make sure that you are familiar with the tax requirements of your [locale](store-localize.md#step-3-change-the-locale-of-the-store-view). Then, complete the tax configuration according to your requirements.
 
-Admin [permissions](https://docs.magento.com/user-guide/system/permissions.html) can be set to restrict [access](https://docs.magento.com/user-guide/system/permissions-role-resources.html) to tax resources, based on the business _need to know_. To create an Admin role with access to tax settings, choose both the Sales/Tax and System/Tax resources. If setting up a website for a region that differs from your default shipping point of origin, you must also allow access to the System/Shipping resources for the role. The shipping settings determine the store tax rate that is used for catalog prices.
+Admin [permissions](../systems/permissions.md) can be set to restrict [access](../systems/permissions-user-roles.md) to tax resources, based on the business _need to know_. To create an Admin role with access to tax settings, choose both the Sales/Tax and System/Tax resources. If setting up a website for a region that differs from your default shipping point of origin, you must also allow access to the System/Shipping resources for the role. The shipping settings determine the store tax rate that is used for catalog prices.
 
 ## Configure the general tax settings
 

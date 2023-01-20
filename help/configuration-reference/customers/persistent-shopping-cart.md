@@ -9,7 +9,7 @@ exl-id: d6c5ae46-32ed-4fcd-bcd6-ee3a07d7db5f
 
 >[!NOTE]
 >
->A [Persistent Shopping Cart](https://docs.magento.com/user-guide/sales/cart-persistent.html) allows retention of unpurchased items that are left in the cart and saves them for a period configured in _Persistence Lifetime_. Cookies should be allowed in the customer browser to use persistent shopping cart.
+>A [Persistent Shopping Cart](../../stores-purchase/cart-persistent.md) allows retention of unpurchased items that are left in the cart and saves them for a period configured in _Persistence Lifetime_. Cookies should be allowed in the customer browser to use persistent shopping cart.
 
 ## [!UICONTROL General Options]
 

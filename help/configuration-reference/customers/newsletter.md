@@ -9,7 +9,7 @@ exl-id: a97003ca-985e-47fa-9ff3-677e05ef3729
 
 >[!NOTE]
 >
->The newsletter is a part of marketing instruments that allow sending to customers news, discounts, and other marketing emails. Registered customers can manage their subscription from their [account](https://docs.magento.com/user-guide/customers/account-dashboard-newsletter-subscriptions.html).
+>The newsletter is a part of marketing instruments that allow sending to customers news, discounts, and other marketing emails. Registered customers can manage their subscription from their [account dashboard](../../customers/account-dashboard-my-account.md).
 
 ## [!UICONTROL General Options]
 

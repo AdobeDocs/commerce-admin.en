@@ -60,7 +60,7 @@ The following instructions show how to set up a fixed product tax for your store
 
    ![Fixed Product Taxes](../configuration-reference/sales/assets/tax-fixed-product-taxes.png)<!-- zoom -->
 
-   For a detailed description of each of these configuration settings, see [Fixed Product Taxes](https://docs.magento.com/user-guide/configuration/sales/tax.html#fixed-product-taxes) in the _Configuration Reference Guide_.
+   For a detailed description of each of these configuration settings, see [Fixed Product Taxes](../configuration-reference/sales/tax.md#fixed-product-taxes) in the _Configuration Reference Guide_.
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
@@ -92,7 +92,7 @@ The following instructions show how to set up a fixed product tax for your store
 
 1. When complete, click **[!UICONTROL Save Attribute]**.
 
-1. When prompted, refresh the [cache](https://docs.magento.com/user-guide/system/cache-management.html).
+1. When prompted, refresh the [cache](../systems/cache-management.md).
 
 ### Step 3: Add the FPT attribute to an attribute set
 

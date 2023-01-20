@@ -173,9 +173,9 @@ This version of [!DNL Page Builder] is just a version-number update for Adobe Co
 
    >[!IMPORTANT]
    >
-   >If you have created additional database entities for storing [!DNL Page Builder] content, you _must_ add those entities to your `etc/di.xml`. If you do not, the [!DNL Page Builder] content stored in your entity is not updated, causing potential data-loss and display issues. For example, if you have created a blog entity that stores [!DNL Page Builder] content, you must add your blog entity to your `etc/di.xml` file as an `UpgradableEntitiesPool` type so that the upgrade library can update the [!DNL Page Builder] content types used in your blog. For more information and instructions on using the upgrade library, see [Upgrade content types](https://devdocs.magento.com/page-builder/docs/administration/upgrade-content-types.html).
+   >If you have created additional database entities for storing [!DNL Page Builder] content, you _must_ add those entities to your `etc/di.xml`. If you do not, the [!DNL Page Builder] content stored in your entity is not updated, causing potential data-loss and display issues. For example, if you have created a blog entity that stores [!DNL Page Builder] content, you must add your blog entity to your `etc/di.xml` file as an `UpgradableEntitiesPool` type so that the upgrade library can update the [!DNL Page Builder] content types used in your blog. For more information and instructions on using the upgrade library, see [Upgrade content types](https://developer.adobe.com/commerce/frontend-core/page-builder/upgrade-content-types/) in the _Page Builder Developer Guide_.
 
-![New](../assets/new.svg) **Documentation for adding new Appearances** - Everything developers should know about [adding appearances](https://devdocs.magento.com/page-builder/docs/content-types/extend/add-appearances.html) for existing or custom content types.
+![New](../assets/new.svg) **Documentation for adding new appearances** - Developer information now published about [adding appearances](https://developer.adobe.com/commerce/frontend-core/page-builder/content-types/extend/add-appearances/) for existing or custom content types.
 
 ![Fixed issue](../assets/fix.svg) **Various fixes**
 

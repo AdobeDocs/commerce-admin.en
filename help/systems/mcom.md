@@ -83,7 +83,7 @@ See the [Message performance section](https://omsdocs.magento.com/integration/co
 
    ![Click the History section to see a full error trace](./assets/message-log-trace.png)<!-- zoom -->
 
-Information about fatal errors is in the `apache/nginx` error log (the [same place logs are located](https://devdocs.magento.com/cloud/project/log-locations.html#application-logs) for the Connector-less Adobe Commerce installation).
+Information about fatal errors is in the `apache/nginx` error log (the [same place logs are located](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html#application-logs) for the Connector-less Adobe Commerce installation).
 
 If you are working in Developer mode, all errors are visible on your screen.
 

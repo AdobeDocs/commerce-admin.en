@@ -29,7 +29,7 @@ When you expand the _[!UICONTROL Content]_ section and there is existing content
 
 >[!NOTE]
 >
->For the product and category forms, this content preview is enabled by default, but can be disabled. If performance suffers due to loading the preview, you can disable the preview in the [Content Management configuration](https://docs.magento.com/user-guide/configuration/general/content-management.html#advanced-content-tools) settings.
+>For the product and category forms, this content preview is enabled by default, but can be disabled. If performance suffers due to loading the preview, you can disable the preview in the [Content Management configuration](../configuration-reference/general/content-management.md#advanced-content-tools) settings.
 
 ## Stage
 

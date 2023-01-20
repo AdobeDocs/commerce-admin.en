@@ -365,9 +365,9 @@ Complete the following general tax settings:
 
 |Field|Recommended setting|
 |--- |--- |
-|[[!UICONTROL Tax Classes]](https://docs.magento.com/user-guide/configuration/sales/tax.html#tax-classes)||
+|[[!UICONTROL Tax Classes]](../configuration-reference/sales/tax.md#tax-classes)||
 |[!UICONTROL Tax Class for Shipping]|`Shipping` (shipping is taxed)|
-|[[!UICONTROL Calculation Settings]](https://docs.magento.com/user-guide/configuration/sales/tax.html#calculation-settings)||
+|[[!UICONTROL Calculation Settings]](../configuration-reference/sales/tax.md#calculation-settings)||
 |[!UICONTROL Tax Calculation Method Based On]|`Total`|
 |[!UICONTROL Tax Calculation Based On]|`Shipping Address`|
 |[!UICONTROL Catalog Prices]|`Including Tax`|
@@ -375,11 +375,11 @@ Complete the following general tax settings:
 |[!UICONTROL Apply Customer Tax]|`After Discount`|
 |[!UICONTROL Apply Discount on Prices]|`Including Tax`|
 |[!UICONTROL Apply Tax On]|`Custom Price if available`|
-|[[!UICONTROL Default Tax Destination Calculation]](https://docs.magento.com/user-guide/configuration/sales/tax.html#default-tax-destination-calculation)||
+|[[!UICONTROL Default Tax Destination Calculation]](../configuration-reference/sales/tax.md#default-tax-destination-calculation)||
 |[!UICONTROL Default Country]|`France`|
 |[!UICONTROL Default State]||
 |[!UICONTROL Default Postal Code]|`*` (asterisk)|
-|[[!UICONTROL Fixed Product taxes]](https://docs.magento.com/user-guide/configuration/sales/tax.html#fixed-product-taxes)||
+|[[!UICONTROL Fixed Product taxes]](../configuration-reference/sales/tax.md#fixed-product-taxes)||
 |[!UICONTROL Enable FPT]|`Yes`|
 |[!UICONTROL All FPT Display Settings]|`Including FPT and FPT description`|
 |[!UICONTROL Apply Discounts to FPT]|`No`|

@@ -25,8 +25,6 @@ The `security.txt` file contains contact information and security-related links 
 
    ![Contact Information configuration](../configuration-reference/security/assets/txt-contact-info.png)<!-- zoom -->
 
-   [_Contact Information_](https://docs.magento.com/user-guide/configuration/security/security-txt.html)
-
 1. Under _[!UICONTROL Other Information]_, enter the following:
 
    - The URL of your public **[!UICONTROL Encryption]** key. For example: `https://example.com/pgp-key.txt`

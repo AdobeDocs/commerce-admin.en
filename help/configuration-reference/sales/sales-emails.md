@@ -224,9 +224,9 @@ exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|[!UICONTROL Enabled]|Store View|Activates [email notification](https://docs.magento.com/user-guide/marketing/email-templates.html) for each RMA generated. Options: `Yes` / `No`|
-|[!UICONTROL RMA Email Sender]|Store View|Identifies the [store contact](https://docs.magento.com/user-guide/stores/store-email-addresses.html) that appears as the sender of the message. Default value: `Sales Representative`|
-|[!UICONTROL RMA Email Template]|Store View|Determines the [email template](https://docs.magento.com/user-guide/marketing/email-templates.html) that is used for the notification sent when an RMA is generated for a customer. Default template: `New RMA`|
+|[!UICONTROL Enabled]|Store View|Activates email notification for each RMA generated. Options: `Yes` / `No`|
+|[!UICONTROL RMA Email Sender]|Store View|Identifies the [store contact](../../getting-started/store-details.md#store-email-addresses) that appears as the sender of the message. Default value: `Sales Representative`|
+|[!UICONTROL RMA Email Template]|Store View|Determines the [email template](../../systems/email-templates.md) that is used for the notification sent when an RMA is generated for a customer. Default template: `New RMA`|
 |[!UICONTROL RMA Email Template for Guest]|Store View|Determines the template that is sent when an RMA is generated for a guest. Default template: `New RMA for Guest`|
 |[!UICONTROL Send RMA Email Copy To]|Store View|Provides the email address of anyone who should receive a copy of an RMA email. Separate multiple addresses with a comma.|
 |[!UICONTROL Send RMA  Email Copy Method]|Store View|Indicates the email method used to send the copy. Options include: <br/>**`Bcc`** - Sends a blind courtesy copy by including the recipient in the header of the same email  that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**`Separate Email`** - Sends the copy as a separate email.|
@@ -244,8 +244,8 @@ exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |[!UICONTROL Enabled]|Store View|When enabled, sends an email notification for each RMA authorization. Options: `Yes` / `No`|
-|[!UICONTROL RMA Authorization Email Sender]|Store View|Identifies the [store contact](https://docs.magento.com/user-guide/stores/store-email-addresses.html) that appears as the message sender. Default value: `Sales Representative`|
-|[!UICONTROL RMA Authorization Email Template]|Store View|Determines the [email template](https://docs.magento.com/user-guide/marketing/email-templates.html) that is used when an RMA authorization notification is sent. Default template: `RMA Authorization`|
+|[!UICONTROL RMA Authorization Email Sender]|Store View|Identifies the [store contact](../../getting-started/store-details.md#store-email-addresses) that appears as the message sender. Default value: `Sales Representative`|
+|[!UICONTROL RMA Authorization Email Template]|Store View|Determines the [email template](../../systems/email-templates.md) that is used when an RMA authorization notification is sent. Default template: `RMA Authorization`|
 |[!UICONTROL RMA Authorization Email Template for Guest]|Store View|Determines the template that is used when an RMA authorization notification is sent to a guest. Default template: `RMA Authorization for Guest`|
 |[!UICONTROL Send RMA Authorization Email Copy To]|Store View|Provides the email address of anyone to receive a copy of an RMA authorization email. Separate multiple addresses with a comma.|
 |[!UICONTROL Send RMA Authorization Email Copy Method]|Store View|Indicates the email method used to send the copy. Options include: <br/>**`Bcc`** - Sends a blind courtesy copy by including the recipient in the header of the same email  that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**`Separate Email`** - Sends the copy as a separate email.|
@@ -261,8 +261,8 @@ exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |[!UICONTROL Enabled]|Store View|When enabled, sends an email notification for each RMA Admin comment. Options: `Yes` / `No`|
-|[!UICONTROL RMA Comment Email Sender]|Store View|Identifies the [store contact](https://docs.magento.com/user-guide/stores/store-email-addresses.html) that appears as the message sender. Default value: `Sales Representative`|
-|[!UICONTROL RMA Comment Email Template]|Store View|Determines the [email template](https://docs.magento.com/user-guide/marketing/email-templates.html) that is used when an Admin adds a comment to an RMA for a customer. Default template: `RMA Admin Comments`|
+|[!UICONTROL RMA Comment Email Sender]|Store View|Identifies the [store contact](../../getting-started/store-details.md#store-email-addresses) that appears as the message sender. Default value: `Sales Representative`|
+|[!UICONTROL RMA Comment Email Template]|Store View|Determines the [email template](../../systems/email-templates.md) that is used when an Admin adds a comment to an RMA for a customer. Default template: `RMA Admin Comments`|
 |[!UICONTROL RMA Comment Email Template for Guest]|Store View|Determines the template that is used when an Admin adds a comment to an RMA for a guest. Default template: `RMA Admin Comments for Guest`|
 |[!UICONTROL Send RMA Comment Email Copy To]|Store View|Provides the email address of anyone to receive a copy of the notification. Separate multiple addresses with a comma.|
 |[!UICONTROL Send RMA Comments Email Copy Method]|Store View|Indicates the email method used to send the copy. Options include: <br/>**`Bcc`** - Sends a blind courtesy copy by including the recipient in the header of the same email  that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**`Separate Email`** - Sends the copy as a separate email.|
@@ -279,10 +279,10 @@ exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|[!UICONTROL Enabled]|Store View|When enabled, sends an [email notification](https://docs.magento.com/user-guide/marketing/email-templates.html) for each RMA customer comment. Options: `Yes` / `No`|
-|[!UICONTROL RMA Comment Email Sender]|Store View|Identifies the [store contact](https://docs.magento.com/user-guide/stores/store-email-addresses.html) that appears as the message sender. Default value: `Customer Support`|
+|[!UICONTROL Enabled]|Store View|When enabled, sends an email notification for each RMA customer comment. Options: `Yes` / `No`|
+|[!UICONTROL RMA Comment Email Sender]|Store View|Identifies the [store contact](../../getting-started/store-details.md#store-email-addresses) that appears as the message sender. Default value: `Customer Support`|
 |[!UICONTROL RMA Comment Email Recipient]|Store View|Identifies the store contact that is the recipient of the customer comment email. Default value: `Sales Representative`|
-|[!UICONTROL RMA Comment Email Template]|Store View|Determines the [email template](https://docs.magento.com/user-guide/sales/rma-configure.html) that is used when a customer adds a comment to an RMA. Default template: `RMA Admin Comments`|
+|[!UICONTROL RMA Comment Email Template]|Store View|Determines the [email template](../../systems/email-templates.md) that is used when a customer adds a comment to an RMA. Default template: `RMA Admin Comments`|
 |[!UICONTROL Send RMA Comment Email Copy To]|Store View|Provides the email address of anyone to receive a copy of the notification. Separate multiple addresses with a comma.|
 |[!UICONTROL Send RMA Comments Email Copy Method]|Store View|Indicates the email method used to send the copy. Options include: <br/>**`Bcc`** - Sends a blind courtesy copy by including the recipient in the header of the same email  that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**`Separate Email`** - Sends the copy as a separate email.|
 

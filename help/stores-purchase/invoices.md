@@ -42,9 +42,9 @@ On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > _Operations_ > **Invoices
 
 Creating an invoice for an order moves it to a state in which it cannot be canceled or changed. A new invoice page looks similar to a completed order, with some additional fields. Every activity that is related to an order is noted in the Comments section of the invoice.
 
-Normally, orders are invoiced and captured when the shipping process starts. If the method of payment is a purchase order, or if the [payment action](https://docs.magento.com/user-guide/configuration/sales/payment-methods.html#payment-actions) is set to `Authorize and Capture`, the order is invoiced and payment is captured during checkout. You can generate an invoice with a packing slip, and also print shipping labels from your carrier account. A single order can be divided into partial shipments, which are invoiced separately, if necessary.
+Normally, orders are invoiced and captured when the shipping process starts. If the method of payment is a purchase order, or if the [payment action](../configuration-reference/sales/payment-methods.md#payment-actions) is set to `Authorize and Capture`, the order is invoiced and payment is captured during checkout. You can generate an invoice with a packing slip, and also print shipping labels from your carrier account. A single order can be divided into partial shipments, which are invoiced separately, if necessary.
 
-When the state of new orders is set to `Processing`, the option to _Automatically Invoice All Items_ becomes available in the configuration. Some credit card payment methods complete the invoicing step as part of the process when the [payment action](https://docs.magento.com/user-guide/configuration/sales/payment-methods.html#payment-actions) is set to `Authorize and Capture`. In such a case, the Invoice button does not appear, and the order is ready to ship.
+When the state of new orders is set to `Processing`, the option to _Automatically Invoice All Items_ becomes available in the configuration. Some credit card payment methods complete the invoicing step as part of the process when the [payment action](../configuration-reference/sales/payment-methods.md#payment-actions) is set to `Authorize and Capture`. In such a case, the Invoice button does not appear, and the order is ready to ship.
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ You must generate an invoice for an order before you can print it. To view or pr
 
    >[!NOTE]
    >
-   >The Invoice option does not appear when the [payment action](https://docs.magento.com/user-guide/configuration/sales/payment-methods.html#payment-actions) for your specific [payment method](https://docs.magento.com/user-guide/configuration/sales/payment-methods.html) is set to `Authorize and Capture`, which auto-generates an invoice. This is also the case if the order is placed and the payment action for your payment method is set to `Authorize` and the order is invoiced.
+   >The Invoice option does not appear when the [payment action](../configuration-reference/sales/payment-methods.md#payment-actions) for your specific [payment method](../configuration-reference/sales/payment-methods.md) is set to `Authorize and Capture`, which auto-generates an invoice. This is also the case if the order is placed and the payment action for your payment method is set to `Authorize` and the order is invoiced.
 
    The new invoice page looks similar to a completed order page, with additional fields that can be edited.
 
@@ -114,7 +114,7 @@ You must generate an invoice for an order before you can print it. To view or pr
 
 ## Print invoices
 
-Invoices can be printed individually or as a batch. However, before an invoice can be printed, it must first be generated for the order. You can upload a high-resolution logo for a print-ready PDF invoice, and include the [Order ID](https://docs.magento.com/user-guide/marketing/sales-documents-ref-id.html) in the header. To customize the invoice template with your logo and address, see [PDF Logo Requirements](https://docs.magento.com/user-guide/marketing/sales-document-pdf-logo.html).
+Invoices can be printed individually or as a batch. However, before an invoice can be printed, it must first be generated for the order. You can upload a high-resolution logo for a print-ready PDF invoice, and include the [Order ID](../stores-purchase/sales-documents.md#add-reference-ids) in the header. To customize the invoice template with your logo and address, see [PDF Logo Requirements](../stores-purchase/sales-documents.md#image-formats).
 
 >[!NOTE]
 >

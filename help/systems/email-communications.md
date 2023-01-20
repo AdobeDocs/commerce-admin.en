@@ -13,7 +13,7 @@ The _Mail Sending Settings_ give you the ability to route returned email or repl
 
 ![Advanced configuration - mail sending settings](../configuration-reference/advanced/assets/system-mail-sending-settings.png)<!-- zoom -->
 
-For a detailed list of the configuration settings, see [_Mail Sending Settings_](https://docs.magento.com/user-guide/configuration/advanced/system.html) in the _Configuration Reference_.
+For a detailed list of the configuration settings, see [_Mail Sending Settings_](../configuration-reference/advanced/system.md) in the _Configuration Reference_.
 
 ## Configure email communications
 
@@ -45,6 +45,6 @@ For a detailed list of the configuration settings, see [_Mail Sending Settings_]
 
    ![Sales configuration - email general settings](../configuration-reference/sales/assets/sales-emails-general-settings.png)<!-- zoom -->
 
-   For a detailed list of the configuration settings, see [_General Settings_](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html) in the _Configuration Reference_.
+   For a detailed list of the configuration settings, see [_General Settings_](../configuration-reference/sales/sales-emails.md) in the _Configuration Reference_.
 
 1. When complete, click **[!UICONTROL Save Config]**.

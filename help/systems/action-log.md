@@ -17,7 +17,7 @@ View the [Action Logs Report](action-log-report.md) to review logged admin actio
 
 ![Advanced configuration - admin actions logging](../configuration-reference/advanced/assets/admin-actions-logging.png)<!-- zoom -->
 
-For a detailed list of the configuration settings, see [Admin Actions Log Archiving](https://docs.magento.com/user-guide/configuration/advanced/system.html) in the _Configuration Reference_.
+For a detailed list of the configuration settings, see [Admin Actions Log Archiving](../configuration-reference/advanced/system.md) in the _Configuration Reference_.
 
 ## Configure Admin actions for logging
 

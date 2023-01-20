@@ -33,7 +33,7 @@ The Gift Card configuration establishes the default settings for all gift cards 
 
    - Set **[!UICONTROL Gift Card Template]** to the template you want to use for the gift card.
 
-See [Store Email Addresses](https://docs.magento.com/user-guide/configuration/general/store-email-addresses.html) for specific configuration fields and options.
+See [Store Email Addresses](../configuration-reference/general/store-email-addresses.md) for specific configuration fields and options.
 
 ### Step 2: Complete the general settings
 

@@ -56,9 +56,9 @@ See [Locale Options](../../getting-started/store-details.md#locale-options) for 
 
 {{ee-feature}}
 
-See [Website Restrictions](https://docs.magento.com/user-guide/marketing/event-restrict-access.html) for specific configuration fields and options.
-
 ![General > Website Restrictions](./assets/general-website-restrictions.png)<!-- zoom -->
+
+For more information about changing these settings, see [Access restrictions](../../merchandising-promotions/event-configure.md#access-restrictions) in the _Merchandising and Promotions Guide_.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -73,9 +73,9 @@ See [Website Restrictions](https://docs.magento.com/user-guide/marketing/event-r
 
 ## [!UICONTROL Store Information]
 
-See [Store Information](https://docs.magento.com/user-guide/stores/store-information.html) for specific configuration fields and options.
-
 ![General > Store Information](./assets/general-store-information.png)<!-- zoom -->
+
+For more information about changing these settings, see [Store Information](../../getting-started/store-details.md) in the _Getting Started Guide_.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -94,9 +94,9 @@ See [Store Information](https://docs.magento.com/user-guide/stores/store-informa
 
 ## [!UICONTROL Single-Store Mode]
 
-See [Single-Store Mode](https://docs.magento.com/user-guide/stores/store-mode-single.html) for specific configuration fields and options.
-
 ![General > Single-Store Mode](./assets/general-single-store-mode.png)<!-- zoom -->
+
+For more information about changing these settings, see [Single-store mode](../../getting-started/websites-stores-views.md#single-store-mode) in the _Getting Started Guide_.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |

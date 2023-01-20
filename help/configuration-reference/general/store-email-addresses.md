@@ -7,7 +7,7 @@ exl-id: 7c9e519c-dfc9-4de4-a0a4-1770b7c58145
 
 {{config}}
 
-See [Store Email Addresses](https://docs.magento.com/user-guide/stores/store-email-addresses.html) for detailed information about these configuration fields and options.
+See [Store email addresses](../../getting-started/store-details.md#store-email-addresses) for detailed information about these configuration fields and options.
 
 ## [!UICONTROL General Contact]
 

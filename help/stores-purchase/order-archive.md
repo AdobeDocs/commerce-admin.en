@@ -11,7 +11,7 @@ Archiving orders regularly improves performance and keeps your workspace free of
 
 >[!NOTE]
 >
->The _[!UICONTROL Archive]_ option appears in the [!UICONTROL Sales] menu only when archiving is [enabled](https://docs.magento.com/user-guide/configuration/sales/sales.html).
+>The _[!UICONTROL Archive]_ option appears in the [!UICONTROL Sales] menu only when archiving is [enabled](../configuration-reference/sales/sales.md).
 
 ![Orders, Invoices, Shipments, Credit Memos Archiving](./assets/order-move-to-archive.png)<!-- zoom -->
 

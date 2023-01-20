@@ -47,8 +47,8 @@ The customer completes the following steps on the storefront to submit an RMA:
 1. Sets **[!UICONTROL Resolution]** to one of the following:
 
    - Exchange
-   - [Refund](https://docs.magento.com/user-guide/customers/refunds-customer-account.html)
-   - [Store Credit](https://docs.magento.com/user-guide/customers/store-credit.html)
+   - [Refund](../customers/refunds-customer-account.md)
+   - [Store Credit](../customers/store-credit-using.md)
 
 1. Sets **[!UICONTROL Item Condition]** to one of the following:
 

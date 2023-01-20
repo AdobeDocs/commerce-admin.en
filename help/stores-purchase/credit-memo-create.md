@@ -26,7 +26,7 @@ See [Create an invoice](invoices.md#create-an-invoice) for more information.
 
 ## Payment action setting
 
-The refund workflow for orders paid by credit card is determined by the [Payment Action setting](https://docs.magento.com/user-guide/configuration/sales/payment-methods.html#payment-actions) in the configuration for each available payment method. Refunds cannot be issued until the transaction is settled.
+The refund workflow for orders paid by credit card is determined by the [Payment Action setting](../configuration-reference/sales/payment-methods.md#payment-actions) in the configuration for each available payment method. Refunds cannot be issued until the transaction is settled.
 
 ![Payment Action setting](./assets/braintree-authorize-capture.png)<!-- zoom -->
 
@@ -248,7 +248,7 @@ Determine the type of refund that you want to issue---for a [credit purchase](#i
 |[!UICONTROL Grand Total]|The total amount to be refunded|
 |[!UICONTROL Append Comments]|Checkbox that determines if comments are included in the credit memo.|
 |[!UICONTROL Email Copy of Credit Memo]|Checkbox that determines if a copy of the credit memo is emailed.|
-|[!UICONTROL Refund to Store Credit]|![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Checkbox that determines if the total is to be refunded to [store credit](https://docs.magento.com/user-guide/customers/store-credit-using.html).|
+|[!UICONTROL Refund to Store Credit]|![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Checkbox that determines if the total is to be refunded to [store credit](../customers/store-credit-using.md).|
 |[!UICONTROL Subtotal]|![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce) The total of all line items to be refunded.|
 
 {style="table-layout:auto"}

@@ -14,7 +14,7 @@ If you have trouble signing in with 2FA, consider the following:
 - Clearing web cache and cookies for the Adobe Commerce or Magento Open Source installation can also help. Authenticators, like Google, use generated cookies to save access and duration. Clear the cookies for your specific browser and store domain.
 - Blocking cookies prevents some authenticators, such as [!DNL Google Authenticator], from completing the verification process. Add a rule to your browser that allows cookies for your Adobe Commerce installation.
 
-To reset authenticators from the command line and more advanced troubleshooting information, see [Two-Factor Authentication](https://devdocs.magento.com/guides/v2.4/security/two-factor-authentication.html) in the developer documentation.
+To reset authenticators from the command line and more advanced troubleshooting information, see [Two-Factor Authentication](https://developer.adobe.com/commerce/testing/functional-testing-framework/two-factor-authentication/) in the developer documentation.
 
 **_To reset authenticators for a user account:_**
 

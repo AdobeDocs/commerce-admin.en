@@ -44,5 +44,5 @@ For information about changes included in module releases, see the [Release Note
 
 If you need information or have questions that are not covered in this guide, use the following resources:
 
-- [[!DNL Commerce] Help Center](https://support.magento.com/hc/en-us)
-- [Support tickets](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket){target="_blank"}---Submit a ticket to receive additional help.
+- [Adobe Commerce Support Knowledge Base](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html)
+- [Support tickets](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket)---Submit a ticket to receive additional help.
