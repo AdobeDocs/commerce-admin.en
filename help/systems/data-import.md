@@ -118,6 +118,8 @@ When importing product data, new product data is added to existing product data 
 
    In a CSV file, a comma is the default separator. To use a different character, make sure that the data in the CSV file matches the character that you specify.
 
+1. Accept the default value `_EMPTY_VALUE__` for **[!UICONTROL Empty attribute value constant]**. 
+
 1. If you want to enclose any special characters that might be found in the data as an _escape sequence_, select the **[!UICONTROL Fields Enclosure]** checkbox.
 
    ![Data import behavior](./assets/data-import-import-behavior.png)<!-- zoom -->
