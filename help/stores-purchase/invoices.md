@@ -102,15 +102,15 @@ You must generate an invoice for an order before you can print it. To view or pr
 
    **_Online payment method:_**
 
-    ![Submit Invoice - online payment method](./assets/invoice-submit-invoice-capture-online.png)<!-- zoom -->
+   ![Submit Invoice - online payment method](./assets/invoice-submit-invoice-capture-online.png)<!-- zoom -->
 
    **_Offline payment method:_**
 
-    ![Submit Invoice - offline payment method)](./assets/invoice-submit-invoice.png)<!-- zoom -->
+   ![Submit Invoice - offline payment method)](./assets/invoice-submit-invoice.png)<!-- zoom -->
 
   **_Completed invoice:_**
 
-    ![Completed Invoice](./assets/invoice-full.png)<!-- zoom -->
+   ![Completed Invoice](./assets/invoice-full.png)<!-- zoom -->
 
 ## Print invoices
 

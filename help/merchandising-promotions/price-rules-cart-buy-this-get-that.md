@@ -44,14 +44,11 @@ If left blank, the rule is triggered for every cart.
 
 1. To apply the rule only to specific items in the cart, complete the condition to describe the cart items and/or product attributes that are required for the promotion.
 
-    The following example uses the SKU to apply the rule to all associated variations of a configurable product.
+   The following example uses the SKU to apply the rule to all associated variations of a configurable product.
 
-    ![Cart price rule - condition for cart items](./assets/buy-3-get-1-actions-condition.png)<!-- zoom -->
+   ![Cart price rule - condition for cart items](./assets/buy-3-get-1-actions-condition.png)<!-- zoom -->
 
-1. To include **[!UICONTROL Free Shipping]**, choose one of the following options:
-
-   - `For matching items only`
-   - `For shipment with matching items`
+1. To include **[!UICONTROL Free Shipping]**, choose `For matching items only`.
 
 1. Click **[!UICONTROL Save and Continue Edit]** and complete the rest of the rule as needed.
 
