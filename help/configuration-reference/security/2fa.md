@@ -11,7 +11,7 @@ exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 
 {{config}}
 
-<!-- [General](https://docs.magento.com/user-guide/stores/security-two-factor-authentication.html) -->
+For more information about changing these settings, see [Two-factor authentication (2FA)](../../systems/security-two-factor-authentication.md) in the _Admin Systems Guide_.
 
 ## [!UICONTROL General]
 
@@ -19,7 +19,7 @@ exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|[!UICONTROL Providers to use]|Global|Indicates the two-factor authentication methods that you require. If you select more than one provider, each user is required to configure each 2FA method the next time they log in. To learn more, go to [Two-Factor Authentication](https://docs.magento.com/user-guide/stores/security-two-factor-authentication.html).|
+|[!UICONTROL Providers to use]|Global|Indicates the two-factor authentication methods that you require. If you select more than one provider, each user is required to configure each 2FA method the next time they log in.|
 |[!UICONTROL Configuration Email URL for Web API]|Global |For custom implementations, the URL for an alternate email configuration link that is sent to _Admin_ users at first login. In the email template, use the placeholder `:tfat` to indicate where the token is injected.|
 
 {:style="table-layout:auto"}

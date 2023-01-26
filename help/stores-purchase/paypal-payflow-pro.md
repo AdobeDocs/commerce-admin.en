@@ -472,7 +472,7 @@ Use the Frontend Experience Settings to choose which PayPal logos appear on your
 
 ### Step 8: Add Google reCAPTCHA
 
-To better protect PayPal PayFlow Pro checkout, enable Google reCAPTCHA. It includes options to run reCAPTCHA using a clickable interface or an invisible check to validate the customer. We recommend the invisible option to increase sales conversion and protect your store. For details, see [Google reCAPTCHA](https://docs.magento.com/user-guide/stores/security-google-recaptcha.html).
+To better protect PayPal PayFlow Pro checkout, enable Google reCAPTCHA. It includes options to run reCAPTCHA using a clickable interface or an invisible check to validate the customer. We recommend the invisible option to increase sales conversion and protect your store. For details, see [Google reCAPTCHA](../systems/security-google-recaptcha.md).
 
 [1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
 [2]: https://manager.paypal.com/

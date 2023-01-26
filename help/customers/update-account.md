@@ -51,11 +51,11 @@ The [Returns](../stores-purchase/returns.md) tab lists the current returned cust
 
 ### Shopping cart
 
-The [Shopping cart](../stores-purchase/cart.md) tab displays products that are currently in the cart, but for some reason, the purchase was not completed.
+The [shopping cart](../stores-purchase/cart.md) tab displays products that are currently in the cart, but for some reason, the purchase was not completed.
 
 ### Wish List
 
-A [Wish List](https://docs.magento.com/user-guide/marketing/wishlists.html) displays a list of products that a customer can transfer to the cart at a later date.
+A [wish wist](../stores-purchase/wishlists.md) displays a list of products that a customer can transfer to the cart at a later date.
 
 ### Store Credit
 

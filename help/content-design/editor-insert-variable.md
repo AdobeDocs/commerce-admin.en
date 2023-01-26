@@ -5,7 +5,7 @@ exl-id: 49b05df0-f425-4706-a402-f1c3f868cb49
 ---
 # Insert a Variable in the Editor
 
-Your store includes many predefined [variables](https://docs.magento.com/user-guide/marketing/variables-predefined.html) that can be incorporated into page content and other communications. In addition, you can include your own [custom variables](https://docs.magento.com/user-guide/marketing/variables-custom.html) that are specific to your needs.
+Your store includes many predefined [variables](../systems/variables-predefined.md) that can be incorporated into page content and other communications. In addition, you can include your own [custom variables](../systems/variables-custom.md) that are specific to your needs.
 
 1. Open a page, block, or dynamic block in edit mode.
 

@@ -84,7 +84,7 @@ You have two spreadsheets open, side by side. One contains the Commerce export f
 
    The imported rates appear in the list.
 
-1. Use the [page controls](https://docs.magento.com/user-guide/catalog/navigation-pagination.html) to view the new tax rates.
+1. Use the page controls to view the new tax rates.
 
    ![Data import tax rates](./assets/data-imported-tax-zones-rates.png)<!-- zoom -->
 

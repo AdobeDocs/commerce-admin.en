@@ -7,20 +7,20 @@ exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 
 The _Companies_ page lists all current company accounts, regardless of status. Any pending requests for approval appear at the top of the list. The standard [workplace controls](../getting-started/admin-workspace.md) can be used to filter the list, change the [column layout](../getting-started/admin-grid-controls.md), save views, and export data.
 
-The Actions control above the grid can be used to apply an action to multiple company records. For example, rather than approving each individual company request, you can select multiple requests and activate the accounts in a single action. The actions that are available depend on the [permissions](https://docs.magento.com/user-guide/system/permissions.html) for the role that is assigned to your Admin user account.
+The Actions control above the grid can be used to apply an action to multiple company records. For example, rather than approving each individual company request, you can select multiple requests and activate the accounts in a single action. The actions that are available depend on the [permissions](../systems/permissions.md) for the role that is assigned to your Admin user account.
 
 ![Companies Grid](./assets/companies-grid.png)<!-- zoom -->
 
 ## Company role resources
 
-The [Role Resources](https://docs.magento.com/user-guide/system/permissions-role-resources.html) settings determine the ability to:
+The [Role Resources](../systems/permissions-user-roles.md#role-resources) settings determine the ability to:
 
 - Add a company
 - Delete a company
 - Apply a balance reimbursement
 - View companies
 
-These role resources must be set for the [User Role](https://docs.magento.com/user-guide/system/permissions-user-roles.html) that is assigned for the Admin user account.
+These role resources must be set for the [User Role](../systems/permissions-user-roles.md) that is assigned for the Admin user account.
 
 ## Apply an action
 
@@ -132,7 +132,7 @@ Method 2: **Full edit**
 
 ## Assign a sales representative
 
-The sales representative is an [Admin user](https://docs.magento.com/user-guide/system/permissions.html) who is assigned as the point of contact for a company account and receives all automated [email messages](../b2b/enable-basic-features.md#configure-company-email-options) related to the company. Only one sales representative can be assigned per company account, but a single sales representative can manage multiple company accounts. The default admin account is assigned as the sales representative, unless a different admin user is assigned.
+The sales representative is an [Admin user](../systems/permissions.md) who is assigned as the point of contact for a company account and receives all automated [email messages](../b2b/enable-basic-features.md#configure-company-email-options) related to the company. Only one sales representative can be assigned per company account, but a single sales representative can manage multiple company accounts. The default admin account is assigned as the sales representative, unless a different admin user is assigned.
 
 The name and email address of the assigned sales representative is visible to company members from the company account and quotes page.
 
@@ -196,7 +196,7 @@ The following sections provide a reference for the available actions, options, a
 |[!UICONTROL Country]|The country where the company is registered to conduct business.|
 |[!UICONTROL State Province]|The state or province where the company is registered to conduct business.|
 |[!UICONTROL City]|The city where the company is registered to conduct business.|
-|[!UICONTROL Group/Shared Catalog]|The column name depends on whether Shared Catalog is enabled in the configuration. Options: <br/>**[!UICONTROL Customer Group]** - If Shared Catalog is not enabled in the configuration, specifies the name of the [customer group](https://docs.magento.com/user-guide/customers/customer-groups.html) to which the company belongs. <br/>**[!UICONTROL Shared Catalog]** - If Shared Catalog is enabled in the configuration, specifies the name of the shared catalog that is assigned to the customer.|
+|[!UICONTROL Group/Shared Catalog]|The column name depends on whether Shared Catalog is enabled in the configuration. Options: <br/>**[!UICONTROL Customer Group]** - If Shared Catalog is not enabled in the configuration, specifies the name of the [customer group](../customers/customer-groups.md) to which the company belongs. <br/>**[!UICONTROL Shared Catalog]** - If Shared Catalog is enabled in the configuration, specifies the name of the shared catalog that is assigned to the customer.|
 |[!UICONTROL Outstanding Balance]|The outstanding balance on the company account. the column is blank if the company does not have a credit history, and its credit limit is zero.|
 |[!UICONTROL Company Admin]|The first and last name of the company administrator.|
 |[!UICONTROL Job Title]|The job title of the company administrator.|
@@ -215,7 +215,7 @@ The following columns are available by changing the [column layout](../getting-s
 |[!UICONTROL Street Address]|The street address where the company is registered to conduct business.|
 |[!UICONTROL ZIP]|The ZIP or postal code where the company  is registered to conduct business.|
 |[!UICONTROL Reseller ID]|The resale number that is assigned to the company for tax reporting purposes.|
-|[!UICONTROL VAT/TAX ID]|The [value-added tax](../stores-purchase/vat.md) number that is assigned to the company by some jurisdictions for tax reporting purposes. To configure the customer VAT/TAX ID to appear in the storefront, see [Create New Account Options](https://docs.magento.com/user-guide/configuration/customers/customer-configuration.html).|
+|[!UICONTROL VAT/TAX ID]|The [value-added tax](../stores-purchase/vat.md) number that is assigned to the company by some jurisdictions for tax reporting purposes. To configure the customer VAT/TAX ID to appear in the storefront, see [Create New Account Options](../configuration-reference/customers/customer-configuration.md).|
 |[!UICONTROL Credit Limit]|The credit limit that is extended to the company account.|
 |[!UICONTROL Credit Currency]|The currency that is accepted by the store for purchases on company credit.|
 |[!UICONTROL Status]|Indicates the current [status](account-company-approve.md) of the company account. Options: <br/>**[!UICONTROL Active]** - The company account is approved by the store administrator. The company administrator and associated members can log in the account from the storefront and make purchases. <br/>**[!UICONTROL Pending Approval]** - A request to open a company account has been submitted, but is not yet approved by the store administrator. <br/>**[!UICONTROL Rejected]** - A request to open a company account was submitted, but not approved by the store administrator. The initial login credentials that were used to submit the request are blocked. <br/>**[!UICONTROL Blocked]** - Company members can log in and access the catalog, but cannot make purchases. The store administrator might block a company account that is not in good standing. The block on the account can be removed by the store administrator at any time.|
@@ -229,7 +229,7 @@ The following columns are available by changing the [column layout](../getting-s
 | Button     | Description   |
 | ---------- | ------------- |
 | [!UICONTROL Back] | Returns to the Companies page without saving changes. |
-| [!UICONTROL Login as Customer] | Allows an Admin user to [log in to the storefront as the customer](https://docs.magento.com/user-guide/customers/login-as-customer.html) and help with their orders. |
+| [!UICONTROL Login as Customer] | Allows an Admin user to [log in to the storefront as the customer](../customers/login-as-customer.md) and help with their orders. |
 | [!DNL Delete Company] | Deletes the company account. The status of user accounts that are associated with the company is set to `Inactive` and the Company ID is removed from the profiles of user accounts. Information about company activity and transactions is retained in the system. |
 | [!DNL Reset] | Restores the original values to any fields with unsaved changes. |
 | [!DNL Reimburse Balance] | Allows the administrator to reimburse the balance from store credit, referenced by PO number. |
@@ -297,7 +297,7 @@ The following columns are available by changing the [column layout](../getting-s
 
 |Field|Description|
 |--- |--- |
-|[!UICONTROL Customer Group]|Indicates the [customer group](https://docs.magento.com/user-guide/customers/customer-groups.html) or [shared catalog](catalog-shared.md) that is assigned to the company.|
+|[!UICONTROL Customer Group]|Indicates the [customer group](../customers/customer-groups.md) or [shared catalog](catalog-shared.md) that is assigned to the company.|
 |[!UICONTROL Allow Quotes]|Determines if company members can prepare and submit negotiable quotes on behalf of the company.|
 |[!UICONTROL Enable Purchase Orders]|Determines if Purchase Orders are permitted for the company. For purchase orders to function for company member accounts, the company administrator must also enable this feature on the storefront. | 
 |[!UICONTROL Applicable Payment Methods]|Indicates the payment methods that are available for company purchases. Options: `B2B Payment Methods` / `All Enabled Payment Methods` / `Specific Payment Methods`|

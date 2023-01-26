@@ -5,11 +5,11 @@ exl-id: 80fc1b73-c869-4f1c-b1a1-d61823b91d83
 ---
 # Site, Store, and View Scope
 
-Every Adobe Commerce and Magento Open Source installation has a [hierarchy](https://docs.magento.com/user-guide/stores/stores-all-stores.html) of websites, stores, and store views. The term _scope_ determines where in the hierarchy a database entity — such as a product, attribute, or category — content element, or configuration setting applies. Websites, stores, and store views have one-to-many parent/child relationships. A single installation can have multiple websites, and each website can have multiple stores and store views.
+Every Adobe Commerce and Magento Open Source installation has a [hierarchy](../stores-purchase/stores.md) of websites, stores, and store views. The term _scope_ determines where in the hierarchy a database entity — such as a product, attribute, or category — content element, or configuration setting applies. Websites, stores, and store views have one-to-many parent/child relationships. A single installation can have multiple websites, and each website can have multiple stores and store views.
 
 >[!NOTE]
 >
->To learn more, see [Multiple websites or stores ](https://devdocs.magento.com/guides/v2.4/config-guide/multi-site/ms_over.html) in the [!DNL Commerce] developer documentation.
+>To learn more, see [Multiple websites or stores ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) in the [!DNL Commerce] developer documentation.
 
 ## Websites
 
@@ -36,7 +36,7 @@ When working with websites, stores, and store views, keep the following in mind:
 
 If your Adobe Commerce or Magento Open Source installation has a hierarchy of websites, stores, or views, you can set the context, or "scope" of a configuration setting. The context of many database entities can also be assigned a specific scope to determine how it is used in the store hierarchy. To learn more, see [Product Scope](../catalog/introduction.md#product-scope) and [Price Scope](../catalog/catalog-price-scope.md).
 
-Some configuration settings such as postal code, have a global scope because the same value is used throughout the system. The [website](../stores-purchase/stores.md#add-websites) scope applies to any stores below that level in the hierarchy, including all stores and their views. Any item with the scope of [store view](../stores-purchase/store-views.md) can be set differently for each store view, which is typically used to support multiple languages. To override the default values of configuration settings, see [Changing Scope](https://docs.magento.com/user-guide/configuration/scope-change.html).
+Some configuration settings such as postal code, have a global scope because the same value is used throughout the system. The [website](../stores-purchase/stores.md#add-websites) scope applies to any stores below that level in the hierarchy, including all stores and their views. Any item with the scope of [store view](../stores-purchase/store-views.md) can be set differently for each store view, which is typically used to support multiple languages. To override the default values of configuration settings, see [Set the scope](../configuration-reference/scope-change.md#set-the-scope).
 
 Unless the store is running in [single store mode](#single-store-mode), the scope of each configuration setting appears in small text below the field label. If your installation includes multiple websites, stores, or views, choose the [Store View](../stores-purchase/store-views.md) where the settings apply before making any changes.
 

@@ -13,7 +13,7 @@ When enabled in the configuration, [!DNL Page Builder] is the default content cr
 ><br><br>
 >You can access this setting when you go to [!UICONTROL Stores] > _[!UICONTROL Settings]_ > [!UICONTROL Configuration], expand [!UICONTROL Catalog], and choose [!UICONTROL Catalog] underneath. The [!UICONTROL Mask for Meta Description] field is in the [!UICONTROL Product Fields Auto-generation] section.
 
-For more information about the Content Management Advanced Tools configuration options, see the [Configuration Reference Guide](https://docs.magento.com/user-guide/configuration/general/content-management.html).
+For more information about the Content Management Advanced Tools configuration options, see the [_Configuration Reference Guide_](../configuration-reference/general/content-management.md).
 
 ## Configure [!DNL Page Builder]
 
@@ -57,7 +57,7 @@ For more information about the Content Management Advanced Tools configuration o
 
    ![Default Layouts](./assets/web-default-layouts.png)<!-- zoom -->
 
-   For more information about the Web configuration options, see the [Configuration Reference Guide](https://docs.magento.com/user-guide/configuration/general/web.html#default-layouts).
+   For more information about the Web configuration options, see the [_Configuration Reference Guide_](../configuration-reference/general/web.md#default-layouts).
 
    - Choose the **[!UICONTROL Default Product Layout]** that you want to use for product pages.
 
@@ -85,7 +85,7 @@ For more information about the Content Management Advanced Tools configuration o
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-1. When prompted, [refresh](https://docs.magento.com/user-guide/system/cache-management.html) any invalid cache.
+1. When prompted, [refresh](../systems/cache-management.md) any invalid cache.
 
 [1]: https://developers.google.com/maps/documentation/javascript/get-api-key
 [2]: https://mapstyle.withgoogle.com/

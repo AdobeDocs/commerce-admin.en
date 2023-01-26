@@ -65,7 +65,7 @@ Depending on whether you already have a [!DNL Google Maps] key, use one of the f
 
    ![Advanced Content Tools](./assets/content-management-advanced-content-tools.png)<!-- zoom -->
 
-   For more information about the Content Management Advanced Tools configuration options, see the [Configuration Reference Guide](https://docs.magento.com/user-guide/configuration/general/content-management.html).
+   For more information about the Content Management Advanced Tools configuration options, see the [Configuration Reference Guide](../configuration-reference/general/content-management.md).
 
 1. For **[!UICONTROL Google Maps API Key]**, paste the key you copied in step 1.
 

@@ -11,7 +11,7 @@ You can easily manage your subscribers using a simple list of active subscriptio
 
 In single-site setups with multiple store views, a customer account subscription can be associated with a specific store view.
 
-In multi-store and multi-site setups with a global [customer account scope](https://docs.magento.com/user-guide/customers/account-scope.html), a customer account can be subscribed to newsletters for multiple sites/stores. In this case, you may want to edit the customer account to manage a group of subscriptions or cancel a subscription for a specific site/store to honor a request.
+In multi-store and multi-site setups with a global [customer account scope](../customers/customer-account-scope.md), a customer account can be subscribed to newsletters for multiple sites/stores. In this case, you may want to edit the customer account to manage a group of subscriptions or cancel a subscription for a specific site/store to honor a request.
 
 If you want to use a third-party service to send newsletters, you can export your subscription list as a CSV or XML file.
 

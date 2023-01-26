@@ -69,10 +69,10 @@ Before making a configuration setting that applies only to a specific website, s
 |Catalog|The term _catalog_ refers to the product database as a whole, and is available throughout the installation.|
 |Product Prices|Product prices can be configured for application at either a global or website level.|
 |Product Configurations|Attributes that are used as [configurable product](../catalog/product-create-configurable.md) options must have a global scope.|
-|Customers|Customer accounts can be configured for application at a global or website level. Each website can have a separate set of [customer accounts](https://docs.magento.com/user-guide/customers/account-scope.html) or share customer accounts with other websites in the installation.|
+|Customers|Customer accounts can be configured for application at a global or website level. Each website can have a separate set of [customer accounts](../customers/customer-account-scope.md) or share customer accounts with other websites in the installation.|
 |**[!UICONTROL Website]**||
 |Domain|Additional [websites](../stores-purchase/introduction.md#store-structure) can be set up as subdomains of the primary domain, or  have separate IP addresses and dedicated domains.|
-|Customers|Customer accounts can be configured for application at a global or website level. Each website can have a separate set of [customer accounts](https://docs.magento.com/user-guide/customers/account-scope.html) or share customer accounts with other websites in the installation.|
+|Customers|Customer accounts can be configured for application at a global or website level. Each website can have a separate set of [customer accounts](../customers/customer-account-scope.md) or share customer accounts with other websites in the installation.|
 |Currency|Each website can be assigned a different [base currency](../stores-purchase/currency-configuration.md). The base currency is used to process all transactions, although a different display currency might appear to the customer, according to the locale of the store view.|
 |Products|Individual products are assigned to the hierarchy at the website level. The Products grid lists all products in the catalog, and the websites where they are available. The [Product in Websites](../catalog/settings-basic-websites.md) setting identifies each website where the product is available.|
 |Product Prices|[Product prices](../catalog/catalog-price-scope.md) can be configured for application at either a global or website level.|

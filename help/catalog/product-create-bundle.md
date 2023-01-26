@@ -183,7 +183,7 @@ The _[!UICONTROL Bundle Items]_ section is used to add items to a Bundle product
 
    ![Change the Order of Bundle Items](./assets/product-bundle-items-move.png)<!-- zoom -->
 
-   The order of items can also be changed in the data of an exported bundle product and then reimported into the catalog. For more information, see [Importing Bundle Products](https://docs.magento.com/user-guide/system/data-transfer-bundle-products.html).
+   The order of items can also be changed in the data of an exported bundle product and then reimported into the catalog. For more information, see [Importing Bundle Products](../systems/data-transfer-bundle-products.md).
 
 1. To change the order of sections in a bundle product, click the _Move_ ( ![Move icon](../assets/icon-move.png) ) icon in the header of the section and drag the section to the new position.
 

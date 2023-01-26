@@ -7,7 +7,7 @@ exl-id: 09c66a5d-57d4-4e78-a8d8-e3047c1bd35a
 
 {{ee-feature}}
 
-The position of products in a category can be specified manually by dragging and dropping products into position or by applying a predefined sort order. By default, products can be sorted by stock level, age, color, name, SKU, and price. Automatic sort overrides the current sort order and resets any drag-and-drop positions that were set manually. The sort order of colors and the minimum stock level that can be required for products to be included in the list are set in the [Visual Merchandiser](https://docs.magento.com/user-guide/configuration/catalog/visual-merchandiser.html) configuration.
+The position of products in a category can be specified manually by dragging and dropping products into position or by applying a predefined sort order. By default, products can be sorted by stock level, age, color, name, SKU, and price. Automatic sort overrides the current sort order and resets any drag-and-drop positions that were set manually. The sort order of colors and the minimum stock level that can be required for products to be included in the list are set in the [Visual Merchandiser](../configuration-reference/catalog/visual-merchandiser.md) configuration.
 
 >[!NOTE]
 >

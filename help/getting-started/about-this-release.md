@@ -13,7 +13,7 @@ It is a best practice to keep your [!DNL Commerce] installation up to date, so y
 
 ## Installation
 
-To download and install the latest 2.4.x release on your own infrastructure, see the [Installation][3]{:target="_blank"} and [Configuration][4]{:target="_blank"} information in the developer documentation. To deploy the latest 2.4.x release on the Adobe cloud infrastructure, see the [Cloud for Adobe Commerce guide](https://devdocs.magento.com/cloud/bk-cloud.html){:target="_blank"}.
+To download and install the latest 2.4.x release on your own infrastructure, see the [Installation][3]{:target="_blank"} and [Configuration][4]{:target="_blank"} information in the developer documentation. To deploy the latest 2.4.x release on the Adobe cloud infrastructure, see the [_Commerce on Cloud Infrastructure Guide_](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html){:target="_blank"}.
 
 The _Installation Guide_ provides information on installing Adobe Commerce. Reviewing the following information is recommended:
 
@@ -25,21 +25,21 @@ The _Installation Guide_ provides information on installing Adobe Commerce. Revi
 
 Your [!DNL Commerce] installation can be deployed to run in either production or developer mode. Some tools and configuration settings are designed specifically for developers, and can be accessed only while the store is running in developer mode.
 
-Most topics in this guide apply to a [!DNL Commerce] installation that is running in production mode. See the [Developer](https://docs.magento.com/user-guide/configuration/advanced/developer.html) section of the [Advanced](https://docs.magento.com/user-guide/configuration/advanced.html) configuration settings page for more information.
+Most topics in this guide apply to a [!DNL Commerce] installation that is running in production mode. See the [Developer](../configuration-reference/advanced/developer.md) page of the _Configuration Reference Guide_.
 
-The [!DNL Commerce] mode can be changed only from the command line of the server by a user with appropriate permissions. See [Set the Mode](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html) in the developer documentation for more information.
+The [!DNL Commerce] mode can be changed only from the command line of the server by a user with appropriate permissions. See [Set the operation mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) in the _Configuration Guide_.
 
 
 ## 2.3.x documentation
 
-The [[!DNL Commerce] 2.3 User Guide][8]{:target="_blank"} remains available on the docs.magento.com domain until it reaches end of life/end of support.
+The [[!DNL Commerce] 2.3 User Guide][8] remains available on the `docs.magento.com` domain until it reaches end of life/end of support.
 
 
-[1]: https://devdocs.magento.com/guides/v2.4/release-notes/commerce-2-4-5.html
-[2]: https://devdocs.magento.com/guides/v2.4/release-notes/open-source-2-4-5.html
-[3]: https://devdocs.magento.com/guides/v2.4/install-gde/install-flow-diagram.html
-[4]: https://devdocs.magento.com/guides/v2.4/config-guide/bk-config-guide.html
-[5]: https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements.html
-[6]: https://devdocs.magento.com/guides/v2.4/install-gde/prereq/prereq-overview.html
-[7]: https://devdocs.magento.com/guides/v2.4/install-gde/continue-to-verify_cli.html
+[1]: https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-5.html
+[2]: https://experienceleague.adobe.com/docs/commerce-operations/release/notes/magento-open-source/2-4-5.html
+[3]: https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/overview.html
+[4]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/overview.html
+[5]: https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html
+[6]: https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/overview.html
+[7]: https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/verify.html
 [8]: https://docs.magento.com/user-guide/v2.3/

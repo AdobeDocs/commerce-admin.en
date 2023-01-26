@@ -16,7 +16,7 @@ To offer a discount that is targeted to first-time customers, you can:
 
 >[!NOTE]
 >
->Ensure that the Customer Segments feature is enabled. Refer to [Creating a Customer Segment](https://docs.magento.com/user-guide/marketing/customer-segment-create.html).
+>Ensure that the Customer Segments feature is enabled. Refer to [Create a customer segment](../customers/customer-segment-create.md).
 
 ## Step 1. Create a customer segment
 

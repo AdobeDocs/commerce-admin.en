@@ -15,7 +15,7 @@ A gift registry can be created for any type of event, such as a wedding, birthda
 
 When you create a registry, it becomes an option in the list of gift registry types in the customer's account.
 
-You can use one of the three prepared gift registries, or create your own custom registry. Each gift registry type includes several attributes, which are the data entry fields that a customer completes to create a gift registry. The attributes provide additional information about the event, time and location, or any other information that is needed. Depending on the input type, some attributes have multiple options. For example, the `Wedding` gift registry type has the attribute `Role`, with the `Bride`, `Groom`, and `Partner` options. To learn more about attributes and input types, see [Attributes](https://docs.magento.com/user-guide/stores/attributes.html).
+You can use one of the three prepared gift registries, or create your own custom registry. Each gift registry type includes several attributes, which are the data entry fields that a customer completes to create a gift registry. The attributes provide additional information about the event, time and location, or any other information that is needed. Depending on the input type, some attributes have multiple options. For example, the `Wedding` gift registry type has the attribute `Role`, with the `Bride`, `Groom`, and `Partner` options. To learn more about attributes and input types, see [Attributes](../customers/attribute-properties.md).
 
 ![Gift registry types](./assets/gift-registry-types.png)<!-- zoom -->
 
@@ -25,7 +25,7 @@ You can use one of the three prepared gift registries, or create your own custom
 
     The birthday, wedding, and baby registries are ready for customers to use from their accounts.
 
-1. Make sure to complete the [email template](https://docs.magento.com/user-guide/marketing/email-template-configuration.html) configuration, so they reflect your brand.
+1. Make sure to complete the [email template configuration](../systems/email-templates.md#configure-email-templates), so they reflect your brand.
 
 ## Create a custom gift registry
 

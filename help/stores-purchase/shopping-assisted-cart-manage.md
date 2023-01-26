@@ -7,7 +7,7 @@ exl-id: beb41dfa-ef87-4065-96fd-0649a5c4c21c
 
 {{ee-feature}}
 
-To begin an assisted shopping session, the customer must be logged into their account from the storefront to make the information available. If the customer does not have an account, you can [create one](https://docs.magento.com/user-guide/customers/account-create.html).
+To begin an assisted shopping session, the customer must be logged into their account from the storefront to make the information available. If the customer does not have an account, you can [create one](../customers/account-create.md).
 
 ![Shopping Cart in in the customer account](./assets/customer-account-manage-cart-items.png)<!-- zoom -->
 
@@ -122,7 +122,7 @@ There are three types of products that need to be configured before adding to th
 
 ### Add products by uploading a CSV file
 
-1. Prepare a [csv file](https://docs.magento.com/user-guide/system/data-csv.html) with the items to be added to the cart.
+1. Prepare a [csv file](../systems/data-csv.md) with the items to be added to the cart.
 
    The file must contain only two columns, with `sku` and `qty` in the header.
 

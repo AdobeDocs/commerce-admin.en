@@ -16,7 +16,7 @@ This integration supports Commerce merchants with Admin users who have an Adobe 
 
 The administrator who configures this integration needs the following credentials during module enablement:
 
-* Organization ID (obtained from [Adobe Admin Console](https://adminconsole.adobe.com/)), which must be at least 24 characters in length. The authenticated user must belong to this IMS organization.
+* Organization ID (obtained from [Adobe Admin Console](https://adminconsole.adobe.com/)), which must be at least 24 characters in length. The authenticated user must belong to this IMS organization. For information about finding your organization ID, see [Organizations in Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
 * 2FA should be enforced on the Organization level in Adobe Admin Console to enable the module. Please check [the documentation](https://helpx.adobe.com/enterprise/using/authentication-settings.html#two-step-verification)
 * Client ID
 * Client secret
@@ -31,11 +31,11 @@ Commerce Admin users must create an account with an Adobe ID to log in.
 * Enable the `AdminAdobeIms` module
 * Configure Adobe Commerce users in the Adobe Admin Console.
 
-A successful integration requires that all Adobe Commerce users have Admin user accounts with the same name and primary email address. If a matching Admin user account does not exist, a user with the required permissions (usually assigned the Administrator role) must manually [create the Admin user account](https://docs.magento.com/user-guide/system/permissions-users-all.html) with the same name and email.
+A successful integration requires that all Adobe Commerce users have Admin user accounts with the same name and primary email address. If a matching Admin user account does not exist, a user with the required permissions (usually assigned the Administrator role) must manually [create the Admin user account](../systems/permissions-users-all.md#create-a-user) with the same name and email.
 
 ## Configure the integration
 
-After the followings steps are completed by an administrator or developer with system access, the [!UICONTROL Sign into Adobe Commerce with Adobe IMS] button is displayed in the Commerce Admin login page for all Admin users.
+After the followings steps are completed by an administrator or developer with system access, the _[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_ button is displayed in the Commerce Admin login page for all Admin users.
 
 ### Step 1: Get Adobe Org ID
 

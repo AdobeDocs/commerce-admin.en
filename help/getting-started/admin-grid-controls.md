@@ -5,7 +5,7 @@ exl-id: a4a9531d-eb2f-41d6-bb36-dc6d8811ee95
 ---
 # Admin Grid Controls
 
-Admin pages that manage data display a collection of records in a grid. The controls at the top of each column can be used to sort the data. The current sort order is indicated by an ascending or descending arrow in the column header. You can specify which columns appear in the grid, and drag them into different positions. You can also save different column arrangements as views that can be used later. The **[!UICONTROL Action]** column lists operations that can be applied to an individual record. In addition, date from the current view of most grids can be exported to a [CSV](https://docs.magento.com/user-guide/system/data-csv.html) or XML file.
+Admin pages that manage data display a collection of records in a grid. The controls at the top of each column can be used to sort the data. The current sort order is indicated by an ascending or descending arrow in the column header. You can specify which columns appear in the grid, and drag them into different positions. You can also save different column arrangements as views that can be used later. The **[!UICONTROL Action]** column lists operations that can be applied to an individual record. In addition, date from the current view of most grids can be exported to a [CSV](../systems/data-csv.md) or XML file.
 
 ![Orders page - grid display](./assets/admin-workspace-grid.png)<!-- zoom -->
 
@@ -41,7 +41,7 @@ Admin pages that manage data display a collection of records in a grid. The cont
 
    >[!NOTE]
    >
-   >Product data cannot be exported from the grid. To learn more, see [Export](https://docs.magento.com/user-guide/system/data-export.html).
+   >Product data cannot be exported from the grid. To learn more, see [Export](../systems/data-export.md).
 
 1. On the _Export_ (![Menu selector](../assets/icon-export.png)) menu in the upper-right corner, choose one of the following file formats:
 

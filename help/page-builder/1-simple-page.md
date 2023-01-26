@@ -15,7 +15,7 @@ Follow this three-part exercise to become familiar with the [!DNL Page Builder] 
 
 ## Before you begin
 
-Before starting this exercise, it is recommended that you increase the [Admin Session Lifetime](https://docs.magento.com/user-guide/stores/security-admin.html) to prevent the session from timing out while you work.
+Before starting this exercise, it is recommended that you increase the [Admin Session Lifetime](../systems/security-admin.md) to prevent the session from timing out while you work.
 
 Verify the required Content Management configuration settings:
 
@@ -25,7 +25,7 @@ Verify the required Content Management configuration settings:
 
 ### Download the walkthrough image assets
 
-1. Download the [`simple-page-assets`][1] file and save the file to your local system.
+1. Download the [`simple-page-assets`](./assets/simple-page-assets.zip) file and save the file to your local system.
 
 1. Navigate to the downloaded file and extract the zipped files.
 
@@ -204,7 +204,7 @@ In this part of the Simple Page exercise, you create a page that has a full-blee
 
    - Set **Link** to `Category`, and then click **[!UICONTROL Select]** to show the category tree.
 
-   - Choose `What’s New` as the linked category.
+   - Choose `What's New` as the linked category.
 
       ![Banner content - link to category](./assets/pb-tutorial1-banner-settings-link-category-tree.png)<!-- zoom -->
 
@@ -247,7 +247,7 @@ In this part of the Simple Page exercise, you create a page that has a full-blee
 
    ![Choosing the Save & Close option](./assets/pb-tutorial1-save-and-close.png)<!-- zoom -->
 
-1. If prompted, click the [Cache Management](https://docs.magento.com/user-guide/system/cache-management.html) link in the message at the top of the page and refresh any invalid cache.
+1. If prompted, click the [Cache Management](../systems/cache-management.md) link in the message at the top of the page and refresh any invalid cache.
 
 **Congratulations!** You have completed the first part of the Simple Page exercise. Keep the work that you created, so you can refer to it later.
 
@@ -336,7 +336,7 @@ In this step, you learn how to upload an image to the banner.
 
    - Scroll down and set **Link** to `Category`.
 
-   - In the category tree, drill down and choose the `Men’s Hoodies & Sweatshirt` category.
+   - In the category tree, drill down and choose the `Men's Hoodies & Sweatshirt` category.
 
    - In the upper-right corner, **[!UICONTROL Save]** the settings and return to the [!DNL Page Builder] workspace.
 
@@ -350,7 +350,7 @@ In this step, you learn how to upload an image to the banner.
 
    ![Choosing the Save & Close option](./assets/pb-tutorial1-save-and-close.png)<!-- zoom -->
 
-1. When prompted, click the [Cache Management](https://docs.magento.com/user-guide/system/cache-management.html) link in the message at the top of the page and refresh any invalid cache.
+1. When prompted, click the [Cache Management](../systems/cache-management.md) link in the message at the top of the page and refresh any invalid cache.
 
 **Congratulations!** You have completed the second part of the Simple Page tutorial. Keep the work that you created, so you can refer to it later.
 
@@ -470,7 +470,7 @@ The second column of the row should contain content from a customer review, incl
 
    `Awesome Tank!`
 
-   `I’m a long distance runner and it keeps me pretty comfortable, although these companies always act like their shirts are magical and really it’s just pretty basic stuff. Still it’s a great shirt, and I would recommend it.`
+   `I'm a long distance runner and it keeps me pretty comfortable, although these companies always act like their shirts are magical and really it's just pretty basic stuff. Still it's a great shirt, and I would recommend it.`
 
    `Antonia Racer Tank – Reviewed by Allyson`
 
@@ -580,10 +580,8 @@ With all three rows complete, the final step is to rearrange the rows to match t
 
    ![Choosing the [!UICONTROL Save & Close] option](./assets/pb-tutorial1-save-and-close.png)<!-- zoom -->
 
-1. If prompted, click the [Cache Management](https://docs.magento.com/user-guide/system/cache-management.html) link in the message at the top of the page and refresh any invalid cache.
+1. If prompted, click the [Cache Management](../systems/cache-management.md) link in the message at the top of the page and refresh any invalid cache.
 
 **Congratulations!** You have completed the third part of the Simple Page exercise. Keep the work that you created, so you can refer to it later.
 
 When you are ready, proceed to [Part 2: Blocks](2-blocks.md).
-
-[1]: https://docs.magento.com/m2/downloads/simple-page-assets.zip

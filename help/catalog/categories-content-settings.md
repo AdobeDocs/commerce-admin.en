@@ -25,7 +25,7 @@ When you expand the _Content_ section for an existing category where there is co
 
 ![Description preview](../page-builder/assets/pb-product-category-content-preview.png)<!-- zoom -->
 
-This content preview is enabled for the product and category forms by default. If performance suffers due to loading the preview, you can disable the preview in the [Content Management configuration](https://docs.magento.com/user-guide/configuration/general/content-management.html#advanced-content-tools) settings.
+This content preview is enabled for the product and category forms by default. If performance suffers due to loading the preview, you can disable the preview in the [Content Management configuration](../configuration-reference/general/content-management.md#advanced-content-tools) settings.
 
 ## Add the category description in the editor
 

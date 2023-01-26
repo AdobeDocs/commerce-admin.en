@@ -26,7 +26,7 @@ The Admin [actions](action-log.md) archive lists the CSV log files that are stor
 
    ![Advanced configuration - admin actions log archiving](../configuration-reference/advanced/assets/system-admin-actions-log-archiving.png)<!-- zoom -->
 
-   For a detailed list of the configuration settings, see [Admin Actions Log Archiving](https://docs.magento.com/user-guide/configuration/advanced/system.html) in the _Configuration Reference_.
+   For a detailed list of the configuration settings, see [Admin Actions Log Archiving](../configuration-reference/advanced/system.md) in the _Configuration Reference_.
 
 1. When complete, click **[!UICONTROL Save Config]**.
 

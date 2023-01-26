@@ -19,7 +19,7 @@ The Email link makes it easy for your customers to share links to products with 
 
     ![Catalog configuration - email templates](../configuration-reference/catalog/assets/email-to-a-friend-email-templates.png)<!-- zoom -->
 
-    For a detailed description of each of these configuration settings, see [Email Templates](https://docs.magento.com/user-guide/configuration/catalog/email-to-a-friend.html) in the _Configuration Reference Guide_.
+    For a detailed description of each of these configuration settings, see [Email Templates](../configuration-reference/catalog/email-to-a-friend.md) in the _Configuration Reference Guide_.
 
     To change the default setting of any field, clear the **[!UICONTROL Use system value]** checkbox to make the field editable.
 

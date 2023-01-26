@@ -17,8 +17,8 @@ exl-id: 95bfdbde-633e-44d0-9d43-00dde671ab6d
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|[!UICONTROL Gift Card Notification Email Sender]|Store View|Identifies the [store contact](https://docs.magento.com/user-guide/stores/store-email-addresses.html) that appears as the sender of the gift card notification email. Default value: `General Contact`|
-|[!UICONTROL Gift Card Notification Email Template]|Store View|Determines the [template](https://docs.magento.com/user-guide/marketing/email-templates.html) that is used for the gift card notification email.|
+|[!UICONTROL Gift Card Notification Email Sender]|Store View|Identifies the [store contact](../../getting-started/store-details.md#store-email-addresses) that appears as the sender of the gift card notification email. Default value: `General Contact`|
+|[!UICONTROL Gift Card Notification Email Template]|Store View|Determines the [template](../../systems/email-templates.md) that is used for the gift card notification email.|
 
 {:style="table-layout:auto"}
 
@@ -46,8 +46,8 @@ exl-id: 95bfdbde-633e-44d0-9d43-00dde671ab6d
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|[!UICONTROL Gift Card Email Sender]|Store View|Identifies the [store contact](https://docs.magento.com/user-guide/stores/store-email-addresses.html) that appears as the sender of the gift card email. Default value: `General Contact`|
-|[!UICONTROL Gift Card Template]|Store View|Determines the [template](https://docs.magento.com/user-guide/marketing/email-templates.html) that is used for the gift card email.|
+|[!UICONTROL Gift Card Email Sender]|Store View|Identifies the [store contact](../../getting-started/store-details.md#store-email-addresses) that appears as the sender of the gift card email. Default value: `General Contact`|
+|[!UICONTROL Gift Card Template]|Store View|Determines the [template](../../systems/email-templates.md) that is used for the gift card email.|
 
 {:style="table-layout:auto"}
 

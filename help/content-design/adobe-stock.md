@@ -25,7 +25,7 @@ Licensing Adobe Stock images requires:
 
 ## Integrate [!DNL Commerce] and Adobe Stock
 
-Configuring the Adobe Stock integration for [!DNL Commerce] is a two-step process: [create an adobe.developer integration][create-integration] to generate an API Key, and then [configure the Adobe Stock integration in your [!DNL Commerce] Admin][configure].
+Configuring the Adobe Stock integration for Adobe Commerce is a two-step process: [create an adobe.developer integration](#create-an-adobe-developer-integration) to generate an API Key, and then [configure the Adobe Stock integration in your [!DNL Commerce] Admin](#configure-the-adobe-stock-integration).
 
 ### Create an Adobe Developer integration
 
@@ -90,4 +90,3 @@ To set the system configuration in your [!DNL Commerce] Admin, use the _API Key_
 [media-storage]: media-storage.md
 [dev-console]: https://developer.adobe.com/console/home
 [create-integration]: #create-an-adobeio-integration
-[configure]: #configure-the-adobe-stock-integration

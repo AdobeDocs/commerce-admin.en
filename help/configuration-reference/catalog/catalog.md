@@ -156,7 +156,7 @@ exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 
 >[!NOTE]
 >
->The standard search configuration described in this section differs for [Live Search](https://docs.magento.com/user-guide/live-search/overview.html).
+>The standard search configuration described in this section differs for [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html).
 
 <!-- [Layered Navigation - Automatic (equalize price ranges)](https://docs.magento.com/user-guide/catalog/navigation-layered-configuration.html) -->
 
@@ -169,7 +169,7 @@ exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |[!UICONTROL Display Product Count]|Store View|Determines if the product count appears after each attribute, price range, and category. Options: `Yes` / `No`|
-|[!UICONTROL Price Navigation Step Calculation]|Store View|Determines the method used to determine the [price navigation step](https://docs.magento.com/user-guide/catalog/navigation-layered-price.html). Options: <br/>`Automatic (equalize price ranges)` - Bases the calculation on the price range of products in the group. <br/>`Automatic (equalize product counts)` - Bases the calculation on the number of products in the group. Establishes a threshold for the minimum number of products in the group, to prevent them from being divided into smaller groups. <br/>`Manual` - Uses the division limit that you enter for price intervals.|
+|[!UICONTROL Price Navigation Step Calculation]|Store View|Determines the method used to determine the [price navigation step](../../catalog/navigation-layered.md#configure-price-navigation)). Options: <br/>`Automatic (equalize price ranges)` - Bases the calculation on the price range of products in the group. <br/>`Automatic (equalize product counts)` - Bases the calculation on the number of products in the group. Establishes a threshold for the minimum number of products in the group, to prevent them from being divided into smaller groups. <br/>`Manual` - Uses the division limit that you enter for price intervals.|
 |[!UICONTROL Default Price Navigation Step]|Store View|Determines the number of products that are included in each step.|
 |[!UICONTROL Maximum Number of Price Intervals]|Store View|Establishes a limit for the number of price intervals that appear in layered navigation.|
 
@@ -227,7 +227,7 @@ exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 
 ## [!UICONTROL Catalog Search]
 
-There are two variations of the Catalog Search configuration: The settings that are available when [[!DNL Live Search]](https://docs.magento.com/user-guide/live-search/overview.html) is installed, and those that are available for native Adobe Commerce. Follow the instructions for your installation.
+There are two variations of the Catalog Search configuration: The settings that are available when [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) is installed, and those that are available for native Adobe Commerce. Follow the instructions for your installation.
 
 ### Adobe Commerce with [!DNL Live Search]
 

@@ -13,7 +13,7 @@ A wish list is a list of products that a registered customer can share with frie
 
 Shared wish lists are sent from a store email address, but the body of the message contains a personalized note from the customer. You can customize the email template that is used when wish lists are shared and choose the store contact that appears as the sender.
 
-Wish lists can be updated from the dashboard of the [customer account](https://docs.magento.com/user-guide/customers/account-dashboard.html). Items can be added or transferred between the wish list and cart by the customer or by the store administrator.
+Wish lists can be updated from the dashboard of the [customer account](../customers/account-dashboard.md). Items can be added or transferred between the wish list and cart by the customer or by the store administrator.
 
 ![Example storefront - My Wish List](./assets/customer-account-wishlist-add-item.png)<!-- zoom -->
 

@@ -36,14 +36,11 @@ It does not cover the core capabilities of Adobe Commerce and Magento Open Sourc
 
 ## Additional documentation
 
-| Guide | Description |
-|------ | ----------- |
-| [Adobe Commerce 2.4 Merchant Documentation](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) | Merchant-focused documentation for both Adobe Commerce and Magento Open Source |
-| [Adobe Commerce 2.4 Developer Guide](https://devdocs.magento.com/) | Developer-focused documentation used to build and customize Adobe Commerce or Magento Open Source |
+{{docs-links}}
 
-## Developer information
+## [!DNL Page Builder] developer information
 
-[!DNL Page Builder] is installed with Adobe Commerce 2.4.x and Magento Open Source 2.4.3 and above, with all features enabled by default. For information about changes included in module releases, see the [[!DNL Page Builder] Release Notes](release-notes.md). The [[!DNL Page Builder] Developer Guide](https://devdocs.magento.com/page-builder/docs/index.html) provides details about module architecture and customization.
+[!DNL Page Builder] is installed with Adobe Commerce 2.4.x and Magento Open Source 2.4.3 and above, with all features enabled by default. For information about changes included in module releases, see the [[!DNL Page Builder] Release Notes](release-notes.md). The [[!DNL Page Builder] Developer Guide](https://developer.adobe.com/commerce/frontend-core/page-builder/) provides details about module architecture and customization.
 
 ## Troubleshooting resources
 

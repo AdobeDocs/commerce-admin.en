@@ -7,7 +7,7 @@ exl-id: 0c842ad9-2e46-48aa-9a12-2f74a54c352e
 
 {{ee-feature}}
 
-Create rich, interactive content that is driven by logic from [price rules](../merchandising-promotions/introduction.md#price-rules) and [customer segments](https://docs.magento.com/user-guide/marketing/customer-segments.html). Existing [dynamic blocks](../page-builder/dynamic-block.md) can be added directly to the [!DNL Page Builder] [stage](../page-builder/workspace.md). For a detailed, step-by-step example for using dynamic blocks, see [Tutorial 2: Blocks](../page-builder/2-blocks.md).
+Create rich, interactive content that is driven by logic from [price rules](../merchandising-promotions/introduction.md#price-rules) and [customer segments](../customers/customer-segments.md). Existing [dynamic blocks](../page-builder/dynamic-block.md) can be added directly to the [!DNL Page Builder] [stage](../page-builder/workspace.md). For a detailed, step-by-step example for using dynamic blocks, see [Tutorial 2: Blocks](../page-builder/2-blocks.md).
 
 >[!NOTE]
 >

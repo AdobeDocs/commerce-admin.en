@@ -19,9 +19,9 @@ During order review, the total appears at the bottom of the order, with any adju
 
    ![Checkout totals options numbered to determine the sort order](../configuration-reference/sales/assets/sales-checkout-totals-sort-order.png)<!-- zoom -->
 
-   For a detailed description of each of these configuration settings, see [Checkout Totals Sort Order](https://docs.magento.com/user-guide/configuration/sales/sales.html#checkout-totals-sort-order) in the _Configuration Reference Guide_.
+   For a detailed description of each of these configuration settings, see [Checkout Totals Sort Order](../configuration-reference/sales/sales.md#checkout-totals-sort-order) in the _Configuration Reference Guide_.
 
-1. If the setting is for a specific store view, [choose the store view](https://docs.magento.com/user-guide/configuration/scope-change.html) where the configuration applies.
+1. If the setting is for a specific store view, [choose the store view](../configuration-reference/scope-change.md#set-the-scope) where the configuration applies.
 
    When prompted, click **[!UICONTROL OK]** to continue.
 

@@ -15,7 +15,7 @@ The goal for the checkout process is to gather the information necessary to comp
 
 The first step of the checkout process is for the customer to complete the shipping address information, and to choose the shipping method. If the customer has an account, the shipping address is entered automatically, but can be changed if needed.
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) The format of the street address for the recipient and sender is determined by the properties of the [customer address attribute](https://docs.magento.com/user-guide/stores/attributes-customer-address.html). The input validation setting determines the valid characters that can be used in a shipping address.
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) The format of the street address for the recipient and sender is determined by the properties of the [customer address attribute](../customers/address-attributes.md). The input validation setting determines the valid characters that can be used in a shipping address.
 
 The progress bar at the top of the page follows each step of the checkout process, and the Order Summary shows that the information entered so far.
 
@@ -114,7 +114,7 @@ The checkout options control various attributes for the checkout page, including
 
 ![Configuration - checkout options](../configuration-reference/sales/assets/checkout-checkout-options.png)<!-- zoom -->
 
-For a detailed description of each of these configuration settings, see [Checkout Options](https://docs.magento.com/user-guide/configuration/sales/checkout.html#checkout-options) in the _Configuration Reference Guide_.
+For a detailed description of each of these configuration settings, see [Checkout Options](../configuration-reference/sales/checkout.md#checkout-options) in the _Configuration Reference Guide_.
 
 ### Change the checkout options
 
@@ -125,7 +125,7 @@ For a detailed description of each of these configuration settings, see [Checkou
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Checkout Options]** section.
 
-1. If the settings are for a specific store view, [choose the store view](https://docs.magento.com/user-guide/configuration/scope-change.html) where the configuration applies.
+1. If the settings are for a specific store view, [choose the store view](../configuration-reference/scope-change.md#set-the-scope) where the configuration applies.
 
    When prompted, click **[!UICONTROL OK]** to continue.
 

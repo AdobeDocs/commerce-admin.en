@@ -53,7 +53,7 @@ Tax rules incorporate a combination of product class, customer class, and tax ra
 
    - Click **[!UICONTROL Import Tax Rates]**.
 
-1. To export tax rates, click **[!UICONTROL Export Tax Rates]** (see [Import/Export Tax Rates](https://docs.magento.com/user-guide/system/data-transfer-tax-rates.html)).
+1. To export tax rates, click **[!UICONTROL Export Tax Rates]** (see [Import/Export Tax Rates](../systems/data-transfer-tax-rates.md)).
 
 ![Import / Export Tax Rates](./assets/tax-rule-new-import-export.png)<!-- zoom -->
 

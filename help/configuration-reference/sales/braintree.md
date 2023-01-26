@@ -154,7 +154,7 @@ When the _[!UICONTROL Advanced Fraud Protection]_ option is enabled, [!UICONTROL
 |[!UICONTROL Payment from Specific Countries]|Website|If applicable, identifies the specific countries from which you accept payments processed by Braintree.|
 |[!UICONTROL Require Customer's Billing Address]|Website|Determines if the customer's billing address is required to submit an order. Options: `Yes` / `No`|
 |[!UICONTROL Debug]|Website|Determines if communications between the PayPal through Braintree system and your store are recorded in a log file. Options: `Yes` / `No`|
-|[!UICONTROL Display on Shopping Cart]|Website|Determines if the PayPal button appears in the [mini cart](https://docs.magento.com/user-guide/sales/mini-cart.html) and on the [shopping cart](https://docs.magento.com/user-guide/sales/cart.html) page. Options: `Yes` / `No`|
+|[!UICONTROL Display on Shopping Cart]|Website|Determines if the PayPal button appears in the [mini cart](../../stores-purchase/cart-configuration.md#mini-cart) and on the [shopping cart](../../stores-purchase/cart.md) page. Options: `Yes` / `No`|
 
 {:style="table-layout:auto"}
 

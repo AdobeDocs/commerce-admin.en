@@ -64,7 +64,7 @@ For more information about changing these configuration settings, see [Cron (sch
 
 ![Advanced configuration - Mail Sending Settings](./assets/system-mail-sending-settings.png)<!-- zoom -->
 
-<!-- [Mail Sending Settings](https://docs.magento.com/user-guide/system/email-communications.html) -->
+For more information about changing these settings, see [Configure email communications](../../systems/email-communications.md) in the _Admin Systems Guide_.
 
 >[!IMPORTANT]
 >
@@ -84,7 +84,7 @@ For more information about changing these configuration settings, see [Cron (sch
 
 ![Advanced configuration - Currency](./assets/system-currency.png)<!-- zoom -->
 
-<!-- [Currency](https://docs.magento.com/user-guide/stores/currency.html) -->
+For more information about changing this setting, see [Currency configuration](../../stores-purchase/currency-configuration.md) in the _Stores and Purchase Experience Guide_.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -96,7 +96,7 @@ For more information about changing these configuration settings, see [Cron (sch
 
 ![Advanced configuration - Security](./assets/system-security.png)<!-- zoom -->
 
-<!-- [Security](https://docs.magento.com/user-guide/stores/security-session-management.html) -->
+For more information about changing these settings, see [Session management](../../systems/security-session-management.md) in the _Admin Systems Guide_.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -109,7 +109,7 @@ For more information about changing these configuration settings, see [Cron (sch
 
 ![Advanced configuration - Notifications](./assets/system-notifications.png)<!-- zoom -->
 
-<!-- [Notifications](https://docs.magento.com/user-guide/stores/admin-message-inbox.html) -->
+For more information about changing these settings, see [System notifications](../../systems/notifications.md) in the _Admin Systems Guide_.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -123,7 +123,7 @@ For more information about changing these configuration settings, see [Cron (sch
 
 ![Advanced configuration - Scheduled Backup Settings](./assets/system-scheduled-backup-settings.png)<!-- zoom -->
 
-<!-- [Scheduled Backup Settings](https://docs.magento.com/user-guide/system/backups.html) -->
+For more information about changing these settings, see [System backups](../../systems/backups.md) in the _Admin Systems Guide_.
 
 {{$include /help/_includes/backups-note.md}}
 
@@ -143,7 +143,7 @@ For more information about changing these configuration settings, see [Cron (sch
 
 ![Advanced configuration - Admin Actions Log Archiving](./assets/system-admin-actions-log-archiving.png)<!-- zoom -->
 
-<!-- [Admin Actions Log Archiving](https://docs.magento.com/user-guide/system/action-log-archive.html) -->
+For more information about changing these settings, see [Action log archive](../../systems/action-log-archive.md) in the _Admin Systems Guide_.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -156,11 +156,9 @@ For more information about changing these configuration settings, see [Cron (sch
 
 ![Advanced configuration - Full Page Cache](./assets/system-full-page-cache.png)<!-- zoom -->
 
-<!-- [Full Page Cache](https://docs.magento.com/user-guide/system/cache-full-page.html) -->
+For more information about changing these settings, see [Full-page caching](../../systems/cache-management.md#full-page-caching) in the _Admin Systems Guide_.
 
 ![Advanced configuration - Varnish Configuration](./assets/system-full-page-cache-varnish.png)<!-- zoom -->
-
-<!-- [Varnish Configuration](https://docs.magento.com/user-guide/system/cache-full-page.html) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -182,7 +180,7 @@ For more information about changing these configuration settings, see [Cron (sch
 
 ![Advanced configuration - Storage Configuration for Media - File System](./assets/system-storage-config-media.png)<!-- zoom -->
 
-<!-- [Storage Configuration for Media - File System](https://docs.magento.com/user-guide/cms/media-storage.html) -->
+For more information about changing these settings, see [Use a Media Database](../../content-design/media-storage-database.md) in the _Content and Design Guide_.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -192,8 +190,6 @@ For more information about changing these configuration settings, see [Cron (sch
 {:style="table-layout:auto"}
 
 ![Advanced configuration - Storage Configuration for Media - Database](./assets/database-storage-deprecated.png)<!-- zoom -->
-
-<!-- [Storage Configuration for Media - Database](https://docs.magento.com/user-guide/cms/media-storage.html) -->
 
 >[!IMPORTANT]
 >
@@ -214,7 +210,7 @@ For more information about changing these configuration settings, see [Cron (sch
 
 ![Advanced configuration - Bulk Actions](./assets/system-bulk-actions.png)<!-- zoom -->
 
-<!-- [Bulk Actions](https://docs.magento.com/user-guide/system/action-log-bulk-actions.html) -->
+For more information about changing these settings, see [Bulk actions](../../systems/action-log-bulk-actions.md) in the _Admin Systems Guide_.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -228,7 +224,7 @@ For more information about changing these configuration settings, see [Cron (sch
 
 ![Advanced configuration - Scheduled Import/Export File History Cleaning](./assets/system-schedule-history-cleaning.png)<!-- zoom -->
 
-<!-- [Scheduled Import/Export File History Cleaning](https://docs.magento.com/user-guide/system/data-scheduled-import-export.html) -->
+For more information about changing these settings, see [Scheduled import and export](../../systems/data-scheduled-import-export.md) in the _Admin Systems Guide_.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -284,11 +280,13 @@ For more information about changing these configuration settings, see [Cron (sch
 
 ![Advanced configuration - Adobe Stock integration](./assets/system-adobe-stock-integration.png)<!-- zoom -->
 
+For more information about configuring these settings, see [Adobe Stock Integration](../../content-design/adobe-stock.md) in the _Content and Design Guide_.
+
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |[!UICONTROL Enabled Adobe Stock]|Global|Enables or disables the Adobe Stock Integration.|
-|[!UICONTROL API Key (Client ID)]|Global|An API key is required to connect your store to the Adobe Stock service. For more information about generating this key and configuring this integration, see [Adobe Stock Integration](https://docs.magento.com/user-guide/cms/adobe-stock.html).|
-|[!UICONTROL Client Secret]|Global|The Client Secret for your Adobe Stock integration is required. For more information about retrieving this secret and configuring this integration, see [Adobe Stock Integration](https://docs.magento.com/user-guide/cms/adobe-stock.html).|
+|[!UICONTROL API Key (Client ID)]|Global|An API key is required to connect your store to the Adobe Stock service.|
+|[!UICONTROL Client Secret]|Global|The Client Secret for your Adobe Stock integration is required.|
 |[!UICONTROL Test Connection]||Runs a test to verify that the API key is valid for use with the Adobe Stock service.|
 
 {:style="table-layout:auto"}

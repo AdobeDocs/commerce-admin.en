@@ -82,4 +82,4 @@ For a message of critical importance, do one of the following:
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-For more information about the System configuration options, see the [Configuration Reference Guide](https://docs.magento.com/user-guide/configuration/advanced/system.html).
+For more information about the System configuration options, see the [Configuration Reference Guide](../configuration-reference/advanced/system.md).

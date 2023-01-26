@@ -7,7 +7,7 @@ exl-id: dd867eba-3f1e-45a8-9332-9e668a2092e1
 
 Tax classes can be assigned to customers, products, and shipping. Commerce analyzes the shopping cart of each customer and calculates the appropriate tax according to the class of the customer, the class of the products in the cart, and the region. The region is determined by the customer's shipping address, billing address, or shipping origin. New tax classes can be created when a [tax rule](tax-rules.md) is defined.
 
-- **Customer** — You can create as many customer tax classes as you need, and assign them to [customer groups](https://docs.magento.com/user-guide/customers/customer-groups.html). For example, in some jurisdictions, wholesale transactions are not taxed, but retail transactions are. You can associate members of the Wholesale Customer group with the Wholesale tax class.
+- **Customer** — You can create as many customer tax classes as you need, and assign them to [customer groups](../customers/customer-groups.md). For example, in some jurisdictions, wholesale transactions are not taxed, but retail transactions are. You can associate members of the Wholesale Customer group with the Wholesale tax class.
 
 - **Product** — Product classes are used in calculations to determine the correct tax rate is applied in the shopping cart. When you create product, it is assigned to a specific tax class. For example, food might not be taxed, or be taxed at a different rate.
 

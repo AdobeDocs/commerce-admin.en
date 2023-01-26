@@ -7,7 +7,7 @@ exl-id: f67bd2e0-3902-41eb-b26f-c772a7692cef
 
 >[!IMPORTANT]
 >
->Use of a flat catalog is no longer recommended as a best practice. Continued use of this feature is known to cause performance degradation and other indexing issues. A detailed description and solution is available in the [Help Center](https://support.magento.com/hc/en-us/articles/360034631192){:target="_blank"}.<br/><br/>Affected versions include: <br/>- Adobe Commerce on cloud infrastructure, 2.3.x and above<br/>- Adobe Commerce (On-Premise), 2.3.x and above<br/>- Magento Open Source, 2.3.x and above <br/><br/>On any release version, some extensions only work with flat tables, thus creating a risk if you disable flat tables. If you know that you have some extensions that use Flat Catalog indexers, you need to be aware of this risk when setting those values to `No`.
+>Use of a flat catalog is no longer recommended as a best practice. Continued use of this feature is known to cause performance degradation and other indexing issues. A detailed description and solution is available in the [Help Center](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html).<br/><br/>Affected versions include: <br/>- Adobe Commerce on cloud infrastructure, 2.3.x and above<br/>- Adobe Commerce (On-Premise), 2.3.x and above<br/>- Magento Open Source, 2.3.x and above <br/><br/>On any release version, some extensions only work with flat tables, thus creating a risk if you disable flat tables. If you know that you have some extensions that use Flat Catalog indexers, you need to be aware of this risk when setting those values to `No`.
 
 Commerce typically stores catalog data in multiple tables, based on the Entity-Attribute-Value (EAV) model. Because product attributes are stored in many tables, SQL queries are sometimes long and complex.
 
@@ -55,7 +55,7 @@ There are two methods that you can use to verify the results.
 
    - Use the navigation to browse to the product under its assigned category.
 
-      If necessary, refresh the page to see the results. The change appears within the minute or according to your [Cron](https://docs.magento.com/user-guide/system/cron.html) schedule.
+      If necessary, refresh the page to see the results. The change appears within the minute or according to your [Cron](../systems/cron.md) schedule.
 
    ![Storefront with Flat Catalog](./assets/storefront-flat-catalog-enabled.png)<!-- zoom -->
 

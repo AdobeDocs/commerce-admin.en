@@ -59,7 +59,7 @@ exl-id: 0b7f8806-74c5-4467-87da-0faae50f164b
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|[!UICONTROL Email Sender]|Store View|Determines the [store contact](https://docs.magento.com/user-guide/stores/store-email-addresses.html) that appears as the sender of the balance update and expiration notification emails.|
+|[!UICONTROL Email Sender]|Store View|Determines the store contact that appears as the sender of the balance update and expiration notification emails.|
 |[!UICONTROL Subscribe Customers by Default]|Global|Determines the default subscription status of customers for both balance update and expiration notifications emails.|
 |[!UICONTROL Balance Update Email]|Store View|Determines the template used for the notification that is sent to customers whenever their point balance is updated. Default template: `Reward Points Balance Update`|
 |[!UICONTROL Reward Points Expiry Warning Email]|Store View|Determines the template of the email that customers receive when the expiration warning limit has been reached for a batch of points. Default template: `Reward Points Expiry Warning`|

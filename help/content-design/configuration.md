@@ -43,13 +43,13 @@ The Design Configuration makes it easy to edit design-related rules and configur
 
 1. Under _[!UICONTROL Other Settings]_, expand each section and follow the instructions in the linked topics to edit the settings as needed.
 
-   - [[!UICONTROL Pagination]](https://docs.magento.com/user-guide/catalog/navigation-pagination.html)
+   - [[!UICONTROL Pagination]](../catalog/navigation-product-listings.md#pagination-controls)
    - [[!UICONTROL HTML Head]](page-setup.md#html-head)
    - [[!UICONTROL Header]](page-setup.md#header)
    - [[!UICONTROL Footer]](page-setup.md#footer)
    - [[!UICONTROL Search Engine Robots]](../merchandising-promotions/seo-overview.md#search-engine-robots)
    - [[!UICONTROL Product Image Watermarks]](../catalog/product-image.md#watermarks)
-   - [[!UICONTROL Transactional Emails]](https://docs.magento.com/user-guide/marketing/email-template-configuration.html)
+   - [[!UICONTROL Transactional Emails]](../systems/email-templates.md#configure-email-templates)
 
    ![Other settings to affect design](./assets/configuration-other-settings.png)<!-- zoom -->
 

@@ -93,7 +93,7 @@ Review the following sections in the sales order, using the field descriptions f
 
 >[!NOTE]
 >
->An Admin user must have **[!UICONTROL Sales / Archive]** [permissions](https://docs.magento.com/user-guide/system/permissions-user-roles.html) for their role scope to see the _Invoices_, _Credit Memos_, and _Shipments_ order tabs.
+>An Admin user must have **[!UICONTROL Sales / Archive]** [permissions](../systems/permissions-user-roles.md) for their role scope to see the _Invoices_, _Credit Memos_, and _Shipments_ order tabs.
 
 ### Button bar
 
@@ -125,7 +125,7 @@ To restore a canceled order, click the **[!UICONTROL Reorder]** button and a new
 
 ### Void an order
 
-Only sales orders that are not invoiced, have a status of `Processing`, and a [payment integration setting of `Authorize`](https://docs.magento.com/user-guide/configuration/sales/payment-methods.html#payment-actions), can be [voided](order-update.md#void-a-processing-order). After you void an order, you can cancel it.
+Only sales orders that are not invoiced, have a status of `Processing`, and a [payment integration setting of `Authorize`](../configuration-reference/sales/payment-methods.md#payment-actions), can be [voided](order-update.md#void-a-processing-order). After you void an order, you can cancel it.
 
 ### [!UICONTROL Order and Account Information]
 

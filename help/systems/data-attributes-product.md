@@ -66,17 +66,17 @@ The installation used to export this data has the sample data installed, and has
 |`allow_backorders`|Determines if your store allows backorders, and how they are managed.|
 |`use_config_backorders`|Determines if the default configuration setting for backorders is used, and corresponds to the state of the Use Config Settings checkbox. Values:<br/>`1` — (Yes) The value of the qty attribute is a decimal value.<br/>`0` (or blank) — (No) The value of the qty attribute is a whole number (integer).|
 |`min_cart_qty`|Specifies the minimum quantity of the item that can be purchased in a single order.|
-|`use_config_min_sale_qty`|Determines if the default configuration setting for minimum quantity is used, and corresponds to the state of the Use Config Settings checkbox. Values:<br/>`1` — (Yes) The value of the qty attribute is a decimal value.<br/>`0` (or blank) — (No) The value of the qty attribute is a whole number (integer).|
+|`use_config_min_sale_qty`|Determines if the default configuration setting for minimum quantity is used, and corresponds to the state of the Use Config Settings checkbox. Values:<br/>`1` — (Yes)<br/>`0` (or blank) — (No)|
 |`max_cart_qty`|Specifies the maximum quantity of the product that can be purchased in a single order.|
-|`use_config_max_sale_qty`|Determines if the default configuration setting for maximum quantity is used, and corresponds to the state of the Use Config Settings checkbox. Values:<br/>`1` — (Yes) The value of the qty attribute is a decimal value.<br/>**0** (or blank) — (No) The value of the qty attribute is a whole number (integer).|
+|`use_config_max_sale_qty`|Determines if the default configuration setting for maximum quantity is used, and corresponds to the state of the Use Config Settings checkbox. Values:<br/>`1` — (Yes)<br/>`0` (or blank) — (No)|
 |`is_in_stock`|Indicates if the product is in stock.|
 |`notify_on_stock_below`|Specifies the stock level that triggers an _out of stock_ notification.|
-|`use_config_notify_stock_qty`|Determines if the default configuration setting is used to trigger stock level notification, and corresponds to the state of the Use Config Settings checkbox. Values:<br/>`1` — (Yes) The value of the qty attribute is a decimal value.<br/>`0` (or blank) — (No) The value of the qty attribute is a whole number (integer).|
+|`use_config_notify_stock_qty`|Determines if the default configuration setting is used to trigger stock level notification, and corresponds to the state of the Use Config Settings checkbox. Values:<br/>`1` — (Yes)<br/>`0` (or blank) — (No)|
 |`manage_stock`|Determines if inventory control is used to manage the product. Values:<br/>`1` — (Yes) Activates full inventory control to manage stock levels of the product.<br/>`0` (or blank) — (No) The system does not track the number of items that are currently in stock.|
-|`use_config_manage_stock`|Determines if the default configuration setting for managing stock is used, and corresponds to the state of the Use Config Settings checkbox. Values:<br/>`1` — (Yes) The value of the qty attribute is a decimal value.<br/>`0` (or blank)—(No) The value of the qty attribute is a whole number (integer).|
-|`use_config_qty_increments`|Determines if the default configuration setting for quantity increments is used, and corresponds to the state of the Use Config Settings checkbox. Values:<br/>`1` — (Yes) The value of the qty attribute is a decimal value.<br/>`0` (or blank) — (No) The value of the qty attribute is a whole number (integer).|
-|`qty_increments`|Determines if the product is sold in quantity increments. Options: `Yes` / `No`|
-|`use_config_enable_qty_inc`|Determines if the default configuration setting to enable quantity increments is used, and corresponds to the state of the Use Config Settings checkbox. Values:<br/>`1` — (Yes) The value of the qty attribute is a decimal value.<br/>`0` (or blank) — (No) The value of the qty attribute is a whole number (integer).|
+|`use_config_manage_stock`|Determines if the default configuration setting for managing stock is used, and corresponds to the state of the Use Config Settings checkbox. Values:<br/>`1` — (Yes)<br/>`0` (or blank) — (No)|
+|`use_config_qty_increments`|Determines if the default configuration setting for quantity increments is used, and corresponds to the state of the Use Config Settings checkbox. Values:<br/>`1` — (Yes)<br/>`0` (or blank) — (No)|
+|`qty_increments`|Establishes the number of products that make up a quantity increment.|
+|`use_config_enable_qty_inc`|Determines if the default configuration setting to enable quantity increments is used, and corresponds to the state of the Use Config Settings checkbox. Values:<br/>`1` — (Yes)<br/>`0` (or blank) — (No)|
 |`enable_qty_increments`|Determines if quantity increments are enabled for the product.|
 |`is_decimal_divided`|Determines if parts of the product can be shipped separately. Options: `Yes` / `No`|
 |`website_id`|For installations with multiple websites, identifies a specific website where the product is available. If blank, the product is available in all websites.|
@@ -156,12 +156,12 @@ Advanced Price Import/Export allows you to quickly update pricing information fo
 |--- |--- |
 |`sku`|(Required) The Stock-Keeping Unit is a unique, alphanumeric identifier that is used to track inventory. A SKU can be up to 64 characters in length. For example: `sku123`<br/>**_Note:_** A SKU longer than 64 characters causes import to fail.|
 |`tier_price_website`|The [website code](../stores-purchase/stores.md#add-websites) identifies each website where tier pricing is available. For example: `-  website1 -  All Websites [USD]`|
-|`tier_price_customer`|Identifies the [customers' groups](https://docs.magento.com/user-guide/customers/customer-groups.html) where tier pricing is available. For example: `-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer`|
-|`tier_price_customer_group`|Identifies the [customer groups](https://docs.magento.com/user-guide/customers/customer-groups.html) where tier pricing is available. For example: `-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer`|
+|`tier_price_customer`|Identifies the [customers' groups](../customers/customer-groups.md) where tier pricing is available. For example: `-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer`|
+|`tier_price_customer_group`|Identifies the customer groups where tier pricing is available. For example: `-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer`|
 |`tier_price_qty`|The quantity of the product that must be ordered to receive the tier price discount.|
 |`tier_price`|The discounted tier price of the product. For [bundle products](../catalog/product-create-bundle.md), tier price is calculated as a percentage.|
 |`group_price_website`|The [website code](../stores-purchase/stores.md#add-websites) of each website where group pricing is available. If specifying multiple websites, separate each with a comma and without a space. For example: `-  website1 -  All Websites [USD]`|
-|`group_price_customer_group`|Identifies the [customers' groups](https://docs.magento.com/user-guide/customers/customer-groups.html) where group pricing is available. For example: `-  NOT LOGGED IN -  General -  Wholesale -  Retailer`|
+|`group_price_customer_group`|Identifies the customers' groups where group pricing is available. For example: `-  NOT LOGGED IN -  General -  Wholesale -  Retailer`|
 |`group_price`|The discounted group price of the product. For [bundle products](../catalog/product-create-bundle.md), group price is calculated as a percentage.|
 
 {style="table-layout:auto"}

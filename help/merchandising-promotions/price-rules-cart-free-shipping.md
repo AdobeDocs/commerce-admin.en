@@ -38,7 +38,7 @@ Follow the steps below to set up the type of free shipping promotion that you wa
 
    - Set **[!UICONTROL Apply]** to `Percent of product price discount`.
    - Set **[!UICONTROL Apply to Shipping Amount]** to `Yes`.
-   - Set **[!UICONTROL Free Shipping]** to `For shipment with matching items`.
+   - Set **[!UICONTROL Free Shipping]** to `For matching items only`.
 
    ![Cart price rule - free shipping actions](./assets/free-shipping-actions.png)<!-- zoom -->
 
@@ -60,9 +60,7 @@ Follow the steps below to set up the type of free shipping promotion that you wa
 
    - Set **[!UICONTROL Apply]** to `Percent of product price discount`.
    - Set **[!UICONTROL Apply to Shipping Amount]** to `Yes`.
-   - Set **[!UICONTROL Free Shipping]** to `For shipment with matching items`.
-
-   ![Cart price rule - free shipping actions](./assets/free-shipping-actions-example2.png)<!-- zoom -->
+   - Set **[!UICONTROL Free Shipping]** to `For matching items only`.
 
 ## Step 3. Complete the labels
 

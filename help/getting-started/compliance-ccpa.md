@@ -32,22 +32,22 @@ Consult with your legal counsel to determine whether and how you should comply w
 
 The CCPA applies to the following businesses--regardless of where the business is registered--that do business in California and collect, share, or sell California consumers' personal data:
 
-(1) A sole proprietorship, partnership, limited liability company, corporation, association, or other legal entity that is organized or operated for the profit or financial benefit of its shareholders or other owners, that collects consumers’ personal information, or on the behalf of which such information is collected and that alone, or jointly with others, determines the purposes and means of the processing of consumers’ personal information, that does business in the State of California, and that satisfies one or more of the following thresholds:
+(1) A sole proprietorship, partnership, limited liability company, corporation, association, or other legal entity that is organized or operated for the profit or financial benefit of its shareholders or other owners, that collects consumers' personal information, or on the behalf of which such information is collected and that alone, or jointly with others, determines the purposes and means of the processing of consumers' personal information, that does business in the State of California, and that satisfies one or more of the following thresholds:
 
 - A gross annual revenue more than $25 million;
 - Or that buy, receive, or sell the personal information of 50,000 or more consumers, households, or devices;
 - Or that derive 50% or more of their annual revenue from the sale of consumer personal information.
 - Businesses that handle the personal information of more than 4 million consumers have additional obligations under the CCPA.
 
-(2) Any entity that controls or is controlled by a business, as defined in paragraph (1), and that shares common branding with the business. “Control” or “controlled” means ownership of, or the power to vote, more than 50 percent of the outstanding shares of any class of voting security of a business; control in any manner over the election of a majority of the directors, or of individuals exercising similar functions; or the power to exercise a controlling influence over the management of a company. “Common branding” means a shared name, servicemark, or trademark.
+(2) Any entity that controls or is controlled by a business, as defined in paragraph (1), and that shares common branding with the business. "Control" or "controlled" means ownership of, or the power to vote, more than 50 percent of the outstanding shares of any class of voting security of a business; control in any manner over the election of a majority of the directors, or of individuals exercising similar functions; or the power to exercise a controlling influence over the management of a company. "Common branding" means a shared name, servicemark, or trademark.
 
 ## CCPA Compliance Guide
 
-This section provides a high-level outline of the steps required for merchants to comply with privacy regulations such as the [California Consumer Privacy Act](https://docs.magento.com/user-guide/stores/compliance-ccpa.html) (CCPA).
+This section provides a high-level outline of the steps required for merchants to comply with privacy regulations such as the California Consumer Privacy Act (CCPA).
 
 ### GDPR and CCPA
 
-If your business is required to comply with both the [General Data Protection Regulation](https://docs.magento.com/user-guide/stores/compliance-gdpr.html) (GDPR) and the CCPA, you can use some of the work from your GDPR compliance program for the CCPA. Although the regulations have some similarities, a few differences include:
+If your business is required to comply with both the [General Data Protection Regulation](compliance-gdpr.md) (GDPR) and the CCPA, you can use some of the work from your GDPR compliance program for the CCPA. Although the regulations have some similarities, a few differences include:
 
 - The definition of personal information differs for each regulation.
 - The GDPR requires consumers to opt in before their personal data may be used for certain purposes; CCPA provides consumers with the right to opt out.
@@ -89,13 +89,13 @@ Take inventory of your digital properties, including all integrations and who ha
 
    - **Private**: Customer Information, Order Information, Reward Points, Gift Registry, Address Book, Store Credit, Payment Methods, Billing Agreements, Newsletter Subscriptions, Invitations.
 
-      If your [!DNL Commerce] installation has been customized, additional personal information might be collected. Personal information might also reside in [cookies](https://docs.magento.com/user-guide/stores/cookie-reference.html), tags, and other technologies that collect information.
+      If your [!DNL Commerce] installation has been customized, additional personal information might be collected. Personal information might also reside in [cookies](./compliance-cookie-law.md), tags, and other technologies that collect information.
 
 1. Identify the parties with whom you share data. The list should include service providers and third parties such as advertising networks, internet service providers, data analytics providers, government entities, operating systems and platforms, social networks, and consumer data resellers who do not directly collect personal information from your consumers.
 
    - **Service Providers**:  Entities who have access to your consumer data for a business purpose, and provide services on your behalf. For example, Adobe is service provider, as are some developers of customizations, extensions, and services.
 
-      Check the default settings of Google Universal Analytics, Google Tag Manager &mdash; and any other data services you use &mdash; and make any changes necessary to comply with the regulation. To learn more, see [Google Privacy Settings](https://docs.magento.com/user-guide/stores/compliance-privacy-google.html).
+      Check the default settings of Google Universal Analytics, Google Tag Manager &mdash; and any other data services you use &mdash; and make any changes necessary to comply with the regulation. To learn more, see [Google Privacy Settings](../merchandising-promotions/google-tools.md#google-privacy-settings).
 
    - **Other Third Parties**: Entities with whom you share or sell consumer data. For example, you might share consumer data with an advertising network in exchange for advertising.
 
@@ -112,8 +112,7 @@ Take inventory of your digital properties, including all integrations and who ha
    - [Personal Information Reference (2.x)][1]
    - [Personal Information Reference (1.x)][2]
 
-    ![](https://devdocs.magento.com/compliance/privacy/frontend-data-entry-points.svg)<!-- zoom -->
-    _Storefront Data Entry Points_
+   ![diagram](./assets/privacy-frontend-diagram.svg)<!-- zoom -->
 
 #### Step 4: Establish procedures and mechanisms to respond to customer requests
 
@@ -193,7 +192,7 @@ Review your current privacy policy and consider what, if any, additional disclos
 
    - **Minors < 13**: Parental authorization is required for minors under the age of 13 to opt in to the sale of their personal information.
 
-   - **Minors 13 to < 16**: Minors at least 13 and less than 16 years of age can opt in to the sale of their personal information, provided the business establishes a reasonable process to document the action. The process must be  described in the company's [privacy policy](https://docs.magento.com/user-guide/stores/privacy-policy.html). When a business receives requests from minors in this age range, it must inform them of their right to opt out later, and explain how to do it.
+   - **Minors 13 to < 16**: Minors at least 13 and less than 16 years of age can opt in to the sale of their personal information, provided the business establishes a reasonable process to document the action. The process must be  described in the company's [privacy policy](privacy-policy.md). When a business receives requests from minors in this age range, it must inform them of their right to opt out later, and explain how to do it.
 
    >[!IMPORTANT]
    >
@@ -205,8 +204,8 @@ Review your current privacy policy and consider what, if any, additional disclos
 
 For 24 months after each individual rights request is received, maintain a record of the request and your company's response.
 
-[1]: https://devdocs.magento.com/compliance/privacy/pi-data-reference-m2.html
-[2]: https://devdocs.magento.com/compliance/privacy/pi-data-reference-m1.html
+[1]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html
+[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html
 [3]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf
 [4]: https://www.adobe.com/commerce/magento.html
 [5]: https://oag.ca.gov/privacy/ccpa

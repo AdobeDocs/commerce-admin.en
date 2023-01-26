@@ -9,7 +9,7 @@ Using a requisition list saves time when purchasing frequently ordered products 
 
 >[!NOTE]
 >
->To enable requisition lists for your store, see [Enable Basic B2B Features](enable-basic-features.md). It can allow up to 999 requisition lists to be maintained for each customer account, depending on the [configuration](https://docs.magento.com/user-guide/configuration/customers/requisition-lists.html).
+>To enable requisition lists for your store, see [Enable Basic B2B Features](enable-basic-features.md). It can allow up to 999 requisition lists to be maintained for each customer account, depending on the [configuration](configure-requisition-lists.md).
 
 Requisition list functionality is similar to wish lists, with the following differences:
 
