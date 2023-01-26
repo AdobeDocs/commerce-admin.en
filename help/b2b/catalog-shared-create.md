@@ -46,7 +46,7 @@ There are two ways to create a shared catalog. You can create a shared catalog o
 
 1. In the upper-right corner, click **[!UICONTROL Add Shared Catalog]** and do the following:
 
-   - Enter a **[!UICONTROL Name*]* for the shared catalog.
+   - Enter a **[!UICONTROL Name]** for the shared catalog.
 
       The name you assign is used throughout the Admin and customer dashboard, if applicable, to refer to the shared catalog. It also becomes the name of the corresponding customer group.
 
@@ -94,6 +94,8 @@ If a public shared catalog is duplicated, the type of the duplicate catalog chan
 ## Step 2: Complete the setup
 
 After creating a new shared catalog, it must be configured with the appropriate product selection, [company assignments](catalog-shared-assign-companies.md), and [category permissions](../catalog/category-permissions.md). To continue, see [Set Pricing and Structure](catalog-shared-pricing-structure.md).
+
+**[B2B release 1.3.0](release-notes.md#b2b-v130) and later** -- When you create a shared catalog, permissions are automatically set to _[!UICONTROL Allow for the Display Product Prices]_ and _[!UICONTROL Add to Cart]_ features in categories when the customer group is assigned this access in catalog permission settings. Previously, these settings were automatically set to `Deny` even when catalog permissions were set to `Allow`.
 
 ## Shared catalog demo
 
