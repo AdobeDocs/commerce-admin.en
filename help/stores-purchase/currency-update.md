@@ -25,7 +25,11 @@ Before importing currency rates, complete the [currency rate setup](currency-con
 
 1. Set **[!UICONTROL Import Service]** to the currency rate provider.
 
-   The default provider is fixer.io.
+   The default provider is `fixer.io (legacy)`.
+
+   >[!IMPORTANT]
+   >
+   >Starting with the 2.4.6 release, the [[!DNL Fixer.io]](https://fixer.io/) service is deprecated and replaced with the [[!DNL Fixer API] (APILayer)](https://apilayer.com/marketplace/fixer-api) service. It is highly recommended that you use an APILayer account instead of a deprecated [!DNL Fixer.io] account.
 
 1. Click **[!UICONTROL Import]**.
 
