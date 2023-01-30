@@ -5,7 +5,7 @@ exl-id: b254a6ac-cb0b-46c1-9ef7-ffc97360a98e
 ---
 # Customers Segments
 
-Customers segments allow you to dynamically display content and promotions to specific customers, based on properties such as customer address, order history, shopping cart contents, and so on. You can optimize marketing initiatives based on targeted segments with shopping cart price rules. You can also generate reports and export the list of targeted customers. Because customer segment information is constantly refreshed, customers can become associated and disassociated from a segment as they shop in your store.
+Customers segments allow you to dynamically display content and promotions to specific customers, based on properties such as customer address, order history, shopping cart contents. You can optimize marketing initiatives based on targeted segments with shopping cart price rules. You can also generate reports and export the list of targeted customers. Because customer segment information is constantly refreshed, customers can become associated and disassociated from a segment as they shop in your store.
 
 To better understand the difference between [customer groups](../customers/customer-groups.md) and customer segments, note where they are used:
 
