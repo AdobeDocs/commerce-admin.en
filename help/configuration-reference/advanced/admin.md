@@ -126,6 +126,21 @@ For more information about setting these options, see [Admin dashboard](../../ge
 
 {style="table-layout:auto"}
 
+## [!UICONTROL Admin Grids]
+
+![Admin Grids](./assets/admin-admin-grids.png)<!-- zoom -->
+
+For more information about setting these options, see [Limit product display](../../catalog/products-list.md#limit-product-display) in the _Catalog Management Guide_.
+
+>[!NOTE]
+>
+>To improve performance for large catalogs, it is recommended that you limit the number of products displayed in the grid.
+
+|Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
+|--- |--- |--- |
+|[!UICONTROL Limit Number of Products in Grid]|Global|Determines if the number of products displayed the grid is limited to the _[!UICONTROL Records Limit]_ value. Options: `Yes` / `No`|
+|[!UICONTROL Records Limit]|Global|Sets the number limit of products in the product grid. The default minimum value is `20000`.|
+
 ## [!UICONTROL CAPTCHA]
 
 ![CAPTCHA](./assets/admin-captcha.png)<!-- zoom -->
@@ -137,7 +152,7 @@ For more information about setting these options, see [CAPTCHA](../../systems/se
 |[!UICONTROL Enable CAPTCHA in Admin]|Global|Enables CAPTCHA for the Admin login. Options: `Yes` / `No`|
 |[!UICONTROL Font]|Global|Determines the font that is used to display the CAPTCHA. To add your own font, put the font file in the same directory as your Commerce instance, and add the declaration to the config.xml file at `app/code/Magento/Captcha/etc` Default font:` LinLibertine`|
 |[!UICONTROL Forms]|Global|Determines the forms where CAPTCHA is used. Options: `Admin Login` / `Admin Forgot Password`|
-|[!UICONTROL Displaying Mode]|Global|Determines when the CAPTCHA appears. Options: <br/>**`Always`** - CAPTCHA is always required to log in. <br/>**`After number of attempts to login`** - Displays the Number of Unsuccessful Attempts to Login field. Enter the number of login attempts allowed. A value of 0 (zero) is similar to setting Displaying Mode to Always. This option does not cover the Forgot Password and Create User forms. If CAPTCHA is enabled and set to appear, it is always included on the form.<br />**Note**: To track the number of unsuccessful login attempts, each attempt to log in under one email address and from one IP-address is counted. The maximum number of login attempts allowed from the same IP-address is 1,000. This limitation applies only when CAPTCHA is enabled.|
+|[!UICONTROL Displaying Mode]|Global|Determines when the CAPTCHA appears. Options: <br/>**`Always`** - CAPTCHA is always required to log in. <br/>**`After number of attempts to login`** - Displays the [!UICONTROL Number of Unsuccessful Attempts to Login] field. Enter the number of login attempts allowed. A value of 0 (zero) is similar to setting Displaying Mode to Always. This option does not cover the Forgot Password and Create User forms. If CAPTCHA is enabled and set to appear, it is always included on the form.<br />**Note**: To track the number of unsuccessful login attempts, each attempt to log in under one email address and from one IP-address is counted. The maximum number of login attempts allowed from the same IP-address is 1,000. This limitation applies only when CAPTCHA is enabled.|
 |[!UICONTROL Number of Unsuccessful Attempts to Login]|Global|Determines the number of times a person can try to login before the account is locked. To track the number of unsuccessful login attempts, the system tracks the attempts from one email address from a single IP-address. The maximum number of attempts allowed from the same IP address is 1,000. This limitation applies only if CAPTCHA is enabled.|
 |[!UICONTROL CAPTCHA Timeout (minutes)]|Global|Determines the lifetime of the current CAPTCHA. When the CAPTCHA expires, the user must reload the page.|
 |[!UICONTROL Number of Symbols]|Global|Determines the number of symbols that are used in the CAPTCHA. The maximum allowed value is `8`. You can also specify a range, for example, `5-8`.|
