@@ -48,7 +48,7 @@ The custom pricing of products in any shared catalog can be easily updated from 
 
 >[!NOTE]
 >
->**[B2B release 1.3.0](release-notes.md#b2b-v130) and later** -- When you create a shared catalog, each [category permission](../catalog/category-permissions.md) for the catalog is set to _[!UICONTROL Allow for the Display Product Prices]_ and _[!UICONTROL Add to Cart]_ when the customer group is assigned this access in catalog permission settings. Previously, these settings were automatically set to `Deny` even when catalog permissions were set to `Allow`.
+>**[B2B release 1.3.0](release-notes.md#b2b-v130) and later** -- When you create a shared catalog, each [category permission](../catalog/category-permissions.md) for the catalog is set to _[!UICONTROL Allow for the Display Product Prices]_ and _[!UICONTROL Add to Cart]_ for customer groups that are assigned this access in the catalog permission settings. Previously, these settings were automatically set to `Deny` even when catalog permissions were set to `Allow`.
 
 >[!IMPORTANT]
 >
