@@ -12,7 +12,11 @@ exl-id: eeca22b1-4f6d-4ce8-9928-4a0e56c78939
 
 The Experience Platform Audiences extension for Adobe Commerce lets you import Experience Platform Audiences into Adobe Commerce to dynamically personalize cart price rules. The Audiences built within Experience Platform are based on data from various enterprise systems, such as Enterprise Resource Planning (ERP), Customer Relationship Management (CRM), point of sale, and marketing systems.
 
-Using Experience Platform Audiences in Adobe Commerce requires that you:
+You can use Experience Platform Audiences in a Luma storefront or headless storefront. The main difference is that in a Luma storefront, Audience information (segment membership) is stored in a cookie on the Commerce side while in a headless storefront, it is passed in the GraphQL API header as a parameter named: `aep-segments-membership`.
+
+## Storefront implementation
+
+The following tasks apply to both Luma and headless storefront implementations. To use Experience Platform Audiences in Adobe Commerce, you must:
 
 - [Install Adobe Commerce on cloud infrastructure, version 2.4.4 or higher](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html)
 - [Activate](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) Adobe Commerce as a destination in Experience Platform
@@ -20,7 +24,7 @@ Using Experience Platform Audiences in Adobe Commerce requires that you:
 - [Configure](#configure-the-extension) the Experience Platform Audiences extension in the Admin to import Experience Platform Audiences into Commerce
 - [Create](#create-a-cart-price-rule) a cart price rule based on the imported Experience Platform Audiences
 
-## Install the extension
+### Install the extension
 
 To install the Experience Platform Audiences extension in Adobe Commerce, run the following command:
 
@@ -28,11 +32,9 @@ To install the Experience Platform Audiences extension in Adobe Commerce, run th
    composer require adobe/experience-platform-audiences
    ```
 
-## Configure the extension
+### Configure the extension
 
 After you install the Experience Platform Audiences extension, you need to log into your Commerce Admin and complete the following:
-
-On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_ > **[!UICONTROL Email Reminder Rules]**.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Services]_ > **[!UICONTROL Commerce Services Connector]**, [sign in](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html?lang=en#organizationid) to your Adobe account, and select your organization ID.
 1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Services]_ > **[!UICONTROL Experience Platform Connector]** and in the **[!UICONTROL Datastream ID]** field paste the ID of the datastream ID that you created when you [activated](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) Adobe Commerce as a destination in Experience Platform.
@@ -42,7 +44,7 @@ On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL Communic
 
 1. Click **Save Config**.
 
-## Create a cart price rule
+### Create a cart price rule
 
 You can create a cart price rule in Commerce using the Experience Platform Audiences you imported from Experience Platform.
 
@@ -68,35 +70,22 @@ You can create a cart price rule in Commerce using the Experience Platform Audie
 
 1. Click **[!UICONTROL Save]** to save the new cart price rule.
 
-1. Clean the [cache](https://docs.magento.com/user-guide/system/cache-management.html).
+1. Clean the [cache](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cache-management.html).
+
+You have now configured a cart price rule based on an Experience Platform Audience. When a customer browses your site, Commerce determines if they belong to a specific Audience. If they do, any cart price rules that are based on that Audience get applied to that customer at checkout. If they do not belong to any Audiences, then no cart price rules get applied.
 
 ## Headless support
 
-You can use Experience Platform Audiences in a headless Adobe Commerce instance.
+You can use Experience Platform Audiences in a headless Adobe Commerce instance, such as AEM, PWA, and so on. A headless storefront communicates to the Experience Platform via the [Commerce Integration Framework (CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). The framework provides a server-side API that is implemented using GraphQL. Audience information, like which segment a shopper belongs to, is passed to Commerce via a GraphQL header parameter named: `aep-segments-membership`.
 
->[!IMPORTANT]
->
->Documentation not yet available.
+The overall architecture is as follows:
 
-<!--### Prerequisits
+![Sending Data from Headless Storefront to Backend](./assets/AEM_Magento_Architecture.png)
 
-- GraphQL endpoint
-- Others?
-- Configure Admin as above (it's the same for headless)
+After you [install](#install-the-extension) and [configure](#configure-the-extension) the extension, the AEP Web SDK contains the Audience information in the form of segment membership. You pass those segments to the Commerce server-side within the GraphQL header. For example:
 
-Do we have a list of GraphQL Queries/Mutations? Or an example of a call to the endpoint?
-What headers are needed?
+```bash
+curl 'http://magento.config/graphql' -H 'Authorization: Bearer abc123' -H 'aep-segments-membership: urlencoded_list_of_segments' -H 'Content-Type: application/json' --data-binary '{"query":"query {\ncustomer {\nfirstname\nlastname\nemail\n}\n}"}'
+```
 
-You need the AEP Web SDK (alloy.js). This returns segment membership. It's cookie based.
-
-And then the change here is that when AEP segment memberships is passed in the header, you're sending the the discount values back.
-
-how to get frontend to implement integration between aep segments and what you belong to, then pass that in header to commerce.-->
-
-## AEM support
-
-You can use Experience Platform Audiences in an AEM-Commerce storefront.
-
->[!IMPORTANT]
->
->Documentation not yet available.
+The segment information now appears in the Admin when you specify a condition for a [cart price rule](#create-a-cart-price-rule).
