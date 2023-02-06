@@ -80,7 +80,7 @@ You can use Experience Platform Audiences in a headless Adobe Commerce instance,
 
 The overall architecture is as follows:
 
-![Sending Data from Headless Storefront to Backend](./assets/AEM_Magento_Architecture.png)
+![Sending Data from Headless Storefront to Backend](./assets/aem-commerce-architecture.png)
 
 After you [install](#install-the-extension) and [configure](#configure-the-extension) the extension, the AEP Web SDK contains the Audience information in the form of segment membership. You pass those segments to the Commerce server-side within the GraphQL header. For example:
 
