@@ -12,7 +12,7 @@ exl-id: eeca22b1-4f6d-4ce8-9928-4a0e56c78939
 
 The Experience Platform Audiences extension for Adobe Commerce lets you import Experience Platform Audiences into Adobe Commerce to dynamically personalize cart price rules. The Audiences built within Experience Platform are based on data from various enterprise systems, such as Enterprise Resource Planning (ERP), Customer Relationship Management (CRM), point of sale, and marketing systems.
 
-You can use Experience Platform Audiences in a Luma storefront or headless storefront. The main difference is that in a Luma storefront, Audience information (segment membership) is stored in a cookie on the Commerce side while in a headless storefront, it is passed in the GraphQL API header as a parameter named: `aep-segments-membership`.
+You can use Experience Platform Audiences in a Luma storefront or headless storefront. In a Luma storefront, audience information (segment membership) is stored in a cookie on the Commerce side. In a headless storefront, it is passed in the GraphQL API header as a parameter named: `aep-segments-membership`.
 
 ## Storefront implementation
 
