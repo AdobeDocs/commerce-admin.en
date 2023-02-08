@@ -40,7 +40,7 @@ Complete the following steps to add a rule, describe the conditions, and define 
       |Option|Description|
       |------|-----------|
       |`Uses per Coupon` |Determines how many times that the coupon code can be used. If there is no limit, leave the field blank. |
-     |`Uses per Customer` |Determines how many times that the cart price rule can be used by the same registered customer who belongs to any of the selected customer groups. The setting does not apply to guest shoppers who are members of the NOT LOGGED IN customer group, or to customers who shop without logging in to their accounts. If there is no limit, leave the field blank. |
+      |`Uses per Customer` |Determines how many times that the cart price rule can be used by the same registered customer who belongs to any of the selected customer groups. The setting does not apply to guest shoppers who are members of the NOT LOGGED IN customer group, or to customers who shop without logging in to their accounts. If there is no limit, leave the field blank. |
 
       {style="table-layout:auto"}
 
