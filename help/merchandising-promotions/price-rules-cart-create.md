@@ -70,6 +70,10 @@ Complete the following steps to add a rule, describe the conditions, and define 
 
 In this step, the conditions are described that must be met for an order to qualify for the promotion. The rule goes into action whenever the set of conditions is met.
 
+>[!NOTE]
+>
+>Cart price rule is applied to **_each_** product in the shopping cart whenever the `Conditions` tab set of conditions is met. Additional conditions in the `Actions` tab must be added to limit the number of products affected by the cart price rule.
+
 1. In the left panel, select **[!UICONTROL Conditions]**.
 
    ![Cart price rule - conditions](./assets/conditions.png)<!-- zoom -->
@@ -226,7 +230,7 @@ The shopping cart price rule actions describe how prices are updated when the co
       >
       >To discard subsequent rules, a pricing rule must use the defined priorities that are set in the Priority field of each rule, and multiple rules should not have the same priority defined . See **[!UICONTROL Priority]** in the _Add a New Rule_ step.
 
-1. Define as many additional conditions as needed for the action.
+1. Define as many **_additional_** conditions as needed for the action, to define which **_exact_** products in the shopping cart will be affected by the cart price rule.
 
    To determine if free shipping is applied to orders that meet the conditions, set **[!UICONTROL Free Shipping]** to one of the following:
 
