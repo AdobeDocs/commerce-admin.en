@@ -27,7 +27,10 @@ When enabled, RMA requests can be submitted by customers from the storefront. An
 
 1. Set **[!UICONTROL Enable RMA on Product Level]** to `Yes`.
 
-   This determines the default value for the _Enable RMA_ attribute for individual products.
+   This determines the behavior for the _Enable RMA_ attribute for individual products on the Storefront:
+
+   - `Enable RMA on Product Level` = `Yes` – Customers on the Storefront can return all individual products with both _Enable RMA = Yes_ and _Enable RMA = No_ product attribute values.
+   - `Enable RMA on Product Level` = `No` – Customers on the Storefront can return products with _Enable RMA = Yes_ product attribute value only.
 
 1. Set **[!UICONTROL Use Store Address]** to one of the following values:
 
