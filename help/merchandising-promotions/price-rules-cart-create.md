@@ -230,7 +230,7 @@ The shopping cart price rule actions describe how prices are updated when the co
       >
       >To discard subsequent rules, a pricing rule must use the defined priorities that are set in the Priority field of each rule, and multiple rules should not have the same priority defined . See **[!UICONTROL Priority]** in the _Add a New Rule_ step.
 
-1. Define as many **_additional_** conditions as needed for the action, to define which **_exact_** products in the shopping cart will be affected by the cart price rule.
+1. Define as many **_additional_** conditions as needed for the action, to define which **_exact_** products in the shopping cart are affected by the cart price rule.
 
    To determine if free shipping is applied to orders that meet the conditions, set **[!UICONTROL Free Shipping]** to one of the following:
 
