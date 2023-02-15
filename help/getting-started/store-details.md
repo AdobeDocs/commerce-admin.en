@@ -92,7 +92,7 @@ Because standard address formats vary from one country to another, you can also 
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL State Options]** section and do the following:
 
-   - In the **[!UICONTROL State is required for]** list, select each country where Region/State is a required entry.
+   - Use the **[!UICONTROL State is required for]** list to select each country where Region/State is a required entry.
 
    - Set **[!UICONTROL Allow to Choose State if it is Optional for Country]** to one of the following:
 
@@ -128,7 +128,7 @@ The Country Options identify the country where your business is located and the 
 
    By default, all countries in the list are selected. To select multiple countries, hold down the Ctrl key (PC) or the Command key (Mac) and click each item.
 
-1. In the **[!UICONTROL Zip/Postal Code is Optional for]** list, select each country where you conduct business that does not require a ZIP or postal code to be included as part of the street address.
+1. Use the **[!UICONTROL Zip/Postal Code is Optional for]** list to select each country where you conduct business that does not require a ZIP or postal code to be included as part of the street address.
 
 1. In the **[!UICONTROL European Union Countries]** list, select each country in the EU where you conduct business.
 
@@ -158,11 +158,10 @@ You can also configure shipping to specific countries for each available [delive
 
 ### Troubleshooting resources
 
-For help with troubleshooting country configuration issues, see the following [!DNL Commerce] Support articles:
+For help with troubleshooting country configuration issues, see the following [!DNL Commerce] Support knowledge base articles:
 
-- [How to add a country](https://support.magento.com/hc/en-us/articles/360057988152)
-- [Provided countryId does not exist](https://support.magento.com/hc/en-us/articles/360056291111)
-- [Country payment issue](https://support.magento.com/hc/en-us/articles/360043955991)
+- [How to add a country](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
+- [Provided countryId does not exist](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-15/mdva-33393-magento-patch-provided-countryid-does-not-exist.html)
 
 ## Merchant Location
 

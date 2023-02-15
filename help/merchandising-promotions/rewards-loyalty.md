@@ -63,7 +63,7 @@ The Reward Points configuration determines how reward points are presented in th
 
 1. If you want to refund available reward points automatically, set **[!UICONTROL Refund Reward Points Automatically]** to `Yes`.
 
-1. If you want to automatically deduct reward points from the amount of a refund, set **[!UICONTROL Deduct Reward Points from Refund Amount Automatically]** to `Yes`.
+1. If you want to deduct reward points automatically, set **[!UICONTROL Deduct Reward Points from Refund Amount Automatically]** to `Yes`.
 
 1. Set **[!UICONTROL Landing Page]** to the content page that explains your reward points program.
 
@@ -170,7 +170,7 @@ All actions related to reward points are displayed in the customer's _[!UICONTRO
 
 ## Troubleshooting resources
 
-For help with troubleshooting reward points issues, see the following Commerce Support articles:
+For help with troubleshooting reward points issues, see the following Commerce Support knowledge base articles:
 
-- [Loyalty points on partial orders](https://support.magento.com/hc/en-us/articles/360051330832)
-- [404 error - removing rewards points on multi-shipping checkout](https://support.magento.com/hc/en-us/articles/360046920131)
+- [Loyalty points on partial orders](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-8/mdva-31295-magento-patch-loyalty-points-on-partial-orders.html)
+- [404 error - removing rewards points on multi-shipping checkout](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html)
