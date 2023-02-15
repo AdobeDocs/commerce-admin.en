@@ -144,7 +144,7 @@ The invoices are saved in a single PDF file that can be sent to a printer or sav
 
 ## Troubleshooting resources
 
-For help with troubleshooting invoice issues, see the following Commerce Support knowledge base articles:
+For help with troubleshooting invoice issues, see the following Commerce Support Knowledge Base articles:
 
 - [Can't invoice bundle products virtual and simple](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-9/mdva-30889-magento-patch-can-t-invoice-bundle-products-virtual-and-simple.html)
 - [Invoice without store credit info](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-8/mdva-31150-magento-patch-invoice-without-store-credit-info.html)

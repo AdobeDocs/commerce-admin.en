@@ -158,7 +158,7 @@ You can also configure shipping to specific countries for each available [delive
 
 ### Troubleshooting resources
 
-For help with troubleshooting country configuration issues, see the following [!DNL Commerce] Support knowledge base articles:
+For help with troubleshooting country configuration issues, see the following [!DNL Commerce] Support Knowledge Base articles:
 
 - [How to add a country](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
 - [Provided countryId does not exist](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-15/mdva-33393-magento-patch-provided-countryid-does-not-exist.html)

@@ -178,7 +178,7 @@ The Search box in the upper left of the Orders grid can be used to find specific
 
 ## Troubleshooting resources
 
-For help with troubleshooting order issues, see the following Commerce Support knowledge base articles:
+For help with troubleshooting order issues, see the following Commerce Support Knowledge Base articles:
 
 - [Orders display error](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html)
 - [PayPal duplicate orders 10415 error](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-6/mdva-31006-magento-patch-paypal-duplicate-orders-10415-error.html)
