@@ -87,7 +87,7 @@ The checkbox in the first column is used to exclude attributes from the export f
 
 ## Troubleshooting resources
 
-For help with troubleshooting data export issues, see the following Commerce Support knowledge base articles:
+For help with troubleshooting data export issues, see the following Commerce Support Knowledge Base articles:
 
 - [Exported products .csv file does not appear](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html)
 - [Product export file does not show in Admin](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-9/mdva-31168-magento-patch-product-export-file-does-not-show-in-admin.html)

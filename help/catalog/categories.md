@@ -25,7 +25,7 @@ Before you add products to your catalog, you need to establish the basic categor
 
 ## Troubleshooting resources
 
-For help with troubleshooting category issues, see the following Commerce Support knowledge base articles:
+For help with troubleshooting category issues, see the following Commerce Support Knowledge Base articles:
 
 - [Changes to categories are not being saved](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html)
 - [Main Menu (Categories) not displayed on subpages with Fastly enabled](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html)
