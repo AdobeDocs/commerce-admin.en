@@ -36,7 +36,7 @@ When a new scheduled update is created for any of the following objects, a corre
 
    >[!NOTE]
    >
-   >Campaign Start Date and End Date must be defined by using the **_default_** Admin time zone, which is converted from the local time zone of each website. For example, if you have multiple websites in different time zones, but you want to start campaign based on a US time zone, you must schedule separate update for each local time zone, and set **[!UICONTROL Start Date]** and **[!UICONTROL End Date]** in converted from each local website time zone to default Admin time zone.
+   >Campaign Start Date and End Date must be defined by using the **_default_** Admin time zone, which is converted from the local time zone of each website. Consider an example where you have multiple websites in different time zones, but you want to start a campaign based on a US time zone. In this case, you must schedule separate update for each local time zone, and set **[!UICONTROL Start Date]** and **[!UICONTROL End Date]** in converted from each local website time zone to default Admin time zone.
 
 1. **Add a second campaign**
 
@@ -68,8 +68,8 @@ Watch this video to learn about content staging:
 
 ## Troubleshooting resources
 
-For help with troubleshooting content staging issues, see the following [!DNL Commerce] Support articles:
+For help with troubleshooting content staging issues, see the following [!DNL Commerce] Support Knowledge Base articles:
 
-- [Error 404 on all pages due to content staging issue](https://support.magento.com/hc/en-us/articles/360000262174)
-- [Scheduled Content Staging updates not displayed with stale Fastly cache](https://support.magento.com/hc/en-us/articles/360000548734)
-- [Can I schedule Content Staging updates for prices in a shared catalog?](https://support.magento.com/hc/en-us/articles/360001896153)
+- [Error 404 on all pages due to content staging issue](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html)
+- [Scheduled Content Staging updates not displayed with stale Fastly cache](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html)
+- [Can I schedule Content Staging updates for prices in a shared catalog?](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html)

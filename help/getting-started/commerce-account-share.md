@@ -72,7 +72,7 @@ The following instructions are written from the perspective of a shared user who
 
    ![Support](./assets/shared-support.png)<!-- zoom -->
 
-   You can use the [Adobe Commerce Help Center](https://support.magento.com/hc/en-us) from the shared account to search for articles and troubleshooting information, find patches for known issues, and create support tickets.
+   You can use the [Adobe Commerce Help Center](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html) from the shared account to search for articles and troubleshooting information, find patches for known issues, and create support tickets.
 
    >[!NOTE]
    >
