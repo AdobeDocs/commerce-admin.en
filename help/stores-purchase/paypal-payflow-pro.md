@@ -22,7 +22,7 @@ PayPal Payflow Pro gateway, formerly known as _Verisign_, is available for custo
 
 ## Customer workflow
 
-1. **Customer goes to checkout** - During checkout, the customer chooses to pay with PayPal PayFlow Pro, and enters the credit card information. Customers are not required to have personal PayPal accounts. However, depending on the merchant country, customers can also use their personal PayPal account to pay for the order.
+1. **Customer goes to checkout** - During checkout, the customer chooses to pay with PayPal Payflow Pro, and enters the credit card information. Customers are not required to have personal PayPal accounts. However, depending on the merchant country, customers can also use their personal PayPal account to pay for the order.
 1. **Customer submits order** - The customer submits the order, and the order information is sent to PayPal for processing. The customer does not leave the checkout page of your site.
 1. **PayPal completes the transaction** - Payments are accepted at the time the order is placed. Depending on the payment action specified n the configuration, either a sales order or a sales order and an invoice is created.
 
@@ -441,7 +441,7 @@ Use the Frontend Experience Settings to choose which PayPal logos appear on your
    - `Authorization` - Approves the purchase and puts a hold on the funds. The amount is not withdrawn until it is _captured_ by the merchant.
    - `Sale` - The amount of the purchase is authorized and immediately withdrawn from the customer's account.
 
-1. To display the _Check out with PayPal_ button on the product page, set **[!UICONTROL Display on Product Details Page]** to `Yes`.
+1. To display the _[!UICONTROL Check out with PayPal]_ button on the product page, set **[!UICONTROL Display on Product Details Page]** to `Yes`.
 
 ### Step 7: Complete the advanced settings for PayPal Express Checkout
 
@@ -472,7 +472,7 @@ Use the Frontend Experience Settings to choose which PayPal logos appear on your
 
 ### Step 8: Add Google reCAPTCHA
 
-To better protect PayPal PayFlow Pro checkout, enable Google reCAPTCHA. It includes options to run reCAPTCHA using a clickable interface or an invisible check to validate the customer. We recommend the invisible option to increase sales conversion and protect your store. For details, see [Google reCAPTCHA](../systems/security-google-recaptcha.md).
+To better protect PayPal Payflow Pro checkout, enable Google reCAPTCHA. It includes options to run reCAPTCHA using a clickable interface or an invisible check to validate the customer. We recommend the invisible option to increase sales conversion and protect your store. For details, see [Google reCAPTCHA](../systems/security-google-recaptcha.md).
 
 [1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
 [2]: https://manager.paypal.com/

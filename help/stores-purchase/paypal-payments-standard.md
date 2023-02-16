@@ -249,7 +249,7 @@ Set **[!UICONTROL Enable PayPal PayLater Experience]** to one of the following:
    - `Authorization` - Approves the purchase and puts a hold on the funds. The amount is not withdrawn until it is captured by the merchant.
    - `Sale` - The amount of the purchase is authorized and immediately withdrawn from the customer's account.
 
-1. To display the _Check out with PayPal_ button on the product page, set **[!UICONTROL Display on Product Details Page]** to `Yes`.
+1. To display the _[!UICONTROL Check out with PayPal]_ button on the product page, set **[!UICONTROL Display on Product Details Page]** to `Yes`.
 
 ### Step 6: Complete the advanced Settings
 
