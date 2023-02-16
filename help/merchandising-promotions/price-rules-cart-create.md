@@ -72,7 +72,7 @@ In this step, the conditions are described that must be met for an order to qual
 
 >[!NOTE]
 >
->Cart price rule is applied to **_each_** product in the shopping cart whenever the `Conditions` tab set of conditions is met. Additional conditions in the `Actions` tab must be added to limit the number of products affected by the cart price rule.
+>The cart price rule is applied to **_each_** product in the shopping cart whenever the set of conditions in the _[!UICONTROL Conditions]_ tab is met. Add conditions in the _[!UICONTROL Actions]_ tab to limit the number of products affected by the cart price rule.
 
 1. In the left panel, select **[!UICONTROL Conditions]**.
 
