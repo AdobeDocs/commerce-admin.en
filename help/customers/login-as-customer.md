@@ -1,15 +1,15 @@
 ---
 title: Provide Shopper Assistance
-description: Login as a Customer to see what the customers see and take actions on their behalf.
+description: Login as a Customer to see what the customers see and make updates on their behalf.
 exl-id: 6842ae7a-6440-45f1-af18-e6427088d29d
 ---
 # Provide Shopper Assistance
 
-There are times when customers need help with their order. To see what they see, store administrators can use _Login as Customer_, which allows them to see what the customer sees and take actions on their behalf.
+At times, customers need help with their order. Store administrators can use _Login as Customer_, which allows them to see what the customer sees and make updates to assist them.
 
 Any actions taken while logged in as the customer are applied to the actual customer's account.
 
-When it is enabled for an _Admin_ user, the Login as Customer button will appear in multiple pages:
+When it is enabled for an _Admin_ user, the _[!UICONTROL Login as Customer]_ button appears in multiple pages:
 
 * [Customer Edit page](../customers/update-account.md)
 * [Order View page](../stores-purchase/order-processing.md)
@@ -25,7 +25,7 @@ Enabling Login as Customer requires that you enable the feature in your commerce
 
 ### Enable the feature
 
-1. On the _Admin_ sidebar go to  **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the Admin sidebar, go to  **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Customers]** and choose  **[!UICONTROL Login as Customer]**.
 
@@ -37,7 +37,7 @@ Enabling Login as Customer requires that you enable the feature in your commerce
 
    >[!WARNING]
    >
-   > Disabling the page cache (`Yes` - default) ensures that the user logging in as Customer will get fresh, uncached data.
+   > Disabling the page cache (`Yes` - default) ensures that the user logging in as Customer gets fresh, uncached data.
 
 1. _(Optional)_ Set **[!UICONTROL Store View to Log in]** to `Manual Selection` if you have a multi-site and/or multi-store setup and want the Admin user to select the store view when logging in as a customer.
 
@@ -82,9 +82,9 @@ Enabling Login as Customer requires that you enable the feature in your commerce
 
 ## Login as Customer logging
 
-{ee-feature}
+{{ee-feature}}
 
-Adobe Commerce provides a logging for the _Login as Customer_ actions. It lists all sessions where a Admin user accesses the feature. To access the logged actions, go to the [Admin Actions Report](../systems/action-log-report.md).
+Adobe Commerce provides a logging for the _Login as Customer_ actions. It lists all sessions where an Admin user accesses the feature. To access the logged actions, go to the [Admin Actions Report](../systems/action-log-report.md).
 
 You can filter the report setting **[!UICONTROL Action Group]** to `Login As Customer` at the top of the page and clicking **[!UICONTROL Search]**.
 
@@ -92,7 +92,7 @@ You can filter the report setting **[!UICONTROL Action Group]** to `Login As Cus
 
 ## Customer account permission for remote shopping assistance
 
-To allow the ability for the merchant to log in as the customer from the Admin, a customer must enable the feature:
+To enable account access for store support staff from the Admin, a customer must enable the feature for their account:
 
 1. Go to the **[!UICONTROL Account Information]** page.
 
@@ -104,13 +104,13 @@ To allow the ability for the merchant to log in as the customer from the Admin, 
 
 >[!WARNING]
 >
-> Without this permission, an Admin user cannot login as this customer to provide assistance.
+> Without this permission, an Admin user cannot log in as this customer.
 
 ## Using Login as Customer
 
 >[!INFO]
 >
-> To use Login as Customer, ensure your Admin is configured as described earlier.
+> To use _Login as Customer_, make sure that your Admin is configured as described earlier.
 
 Login as Customer allows you to see the site just as the customer does, and allows you to troubleshoot and take other actions for the customer. If you have an assigned user role with the required permissions:
 

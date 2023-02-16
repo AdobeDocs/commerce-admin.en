@@ -27,7 +27,7 @@ The [!UICONTROL Customers] grid lists all customers who have registered for an a
 
 |Control|Description|
 | --- | --- |
-| **[!UICONTROL Add New Customer]** | Creates a new customer account. |
+| **[!UICONTROL Add New Customer]** | Creates a customer account. |
 | **[!UICONTROL Search]** | Initiates a search for customers based on the current filters. |
 | **[!UICONTROL Filters]** | Defines a set of search parameters used to filter the records that appear in the [grid](../getting-started/admin-grid-controls.md). |
 | **[!UICONTROL Default View]** | Determines the default column [layout](../getting-started/admin-grid-controls.md) of the grid. |
@@ -51,9 +51,9 @@ The [!UICONTROL Customers] grid lists all customers who have registered for an a
 | **[!UICONTROL State/Province]** | The state or province where the customer is located. |
 | **[!UICONTROL Customer Since]** | The date and time the customer account was created. |
 | **[!UICONTROL Web Site]**|The web site in the store hierarchy to which the customer account is associated. |
-| **[!UICONTROL Confirmed Email]** | Indicates if a confirmation email is required to be sent. |
+| **[!UICONTROL Confirmed Email]** | Indicates if a confirmation email is required. |
 | **[!UICONTROL Account Created In]** | Indicates the store view from which the customer account was created. |
-| **[!UICONTROL Date of Birth]** | The date of birth of the customer. <br><br>**_Important:_** In keeping with current security and privacy best practices, be sure you are aware of any potential legal and security risks associated with the storage of customers' full date of birth (month, day, year) along with other personal identifiers (e.g., full name) before collecting or processing such data. We recommend limiting the storage of customers' full birth dates and instead suggest using customer year of birth as an alternative. |
+| **[!UICONTROL Date of Birth]** | The date of birth of the customer. <br><br>**_Important:_** In keeping with current security and privacy best practices, be aware of any potential legal and security risks associated with the storage of customers' full date of birth (month, day, year) with other personal identifiers. It is recommended that you limit the storage of customers' full birth dates and suggest using customer year of birth as an alternative. |
 | **[!UICONTROL Tax / VAT Number]** | If applicable, the tax number or [value-added tax](../stores-purchase/vat.md) number that is assigned to the customer. <br/><br/>This field is not the same as the VAT Number. |
 | **[!UICONTROL Gender]** | The gender of the customer. |
 | **[!UICONTROL Action]** | Edit - Opens the company account in edit mode. |
