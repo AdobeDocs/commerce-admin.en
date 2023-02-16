@@ -29,7 +29,7 @@ When enabled, RMA requests can be submitted by customers from the storefront. An
 
    This determines the behavior for the _Enable RMA_ attribute for individual products on the storefront:
 
-   - When [!UICONTROL Enable RMA on Product Level] is set to `Yes`, customers on the storefront can return all individual products. This includes both _[!UICONTROL Enable RMA]_ = `Yes` and _[!UICONTROL Enable RMA_ = `No` product attribute values.
+   - When [!UICONTROL Enable RMA on Product Level] is set to `Yes`, customers on the storefront can return all individual products. This includes both _[!UICONTROL Enable RMA]_ = `Yes` and _[!UICONTROL Enable RMA]_ = `No` product attribute values.
    - When [!UICONTROL Enable RMA on Product Level] is set to `No`, customers on the storefront can return only the products with a _[!UICONTROL Enable RMA]_ = `Yes` product attribute value.
 
 1. Set **[!UICONTROL Use Store Address]** to one of the following values:
