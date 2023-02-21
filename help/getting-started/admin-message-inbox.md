@@ -1,6 +1,6 @@
 ---
 title: Admin Message Inbox
-description: Learn about the Admin message inbox, which provides important and useful messages from Adobe and from your [!DNL Commerce] system.
+description: Learn about the Admin message inbox, which provides important and useful messages from Adobe and from the [!DNL Commerce] system.
 exl-id: c53bb0e4-9f18-4d40-8cc4-8c3b485f8d68
 ---
 # Admin Message Inbox
