@@ -67,7 +67,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 1. Enter the **[!UICONTROL Merchant Account ID]** from your Braintree account. If you don't specify which merchant account to be used, Braintree will process the transaction using your default merchant account.
 
-1. **[!UICONTROLSkip Fraud Checks on Admin Orders]** - Prevents the transaction from being sent for evaluation as part of Advanced Fraud Tools checks, on orders placed through the admin only when it set to `Yes`.
+1. **[!UICONTROL Skip Fraud Checks on Admin Orders]** - Prevents the transaction from being sent for evaluation as part of Advanced Fraud Tools checks, on orders placed through the admin only when it set to `Yes`.
 
 1. Set the `Bypass Fraud Protection Threshold` so that the `Advanced Fraud Protection` checks are bypassed when the threshold is met or exceeded.
 
@@ -326,7 +326,9 @@ The following descriptors are used to identify purchases on customer credit card
 
       `company.com`
 
-1. When your Braintree configuration is complete, click **[!UICONTROL Save Config]**.
+    ![Dynamic Descriptors](./assets/braintree-dynamic-descriptors.png)<!-- zoom -->
+
+2. When your Braintree configuration is complete, click **[!UICONTROL Save Config]**.
 
 ## 2.4 upgrade notes 
 
