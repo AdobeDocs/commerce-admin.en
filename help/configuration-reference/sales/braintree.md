@@ -25,12 +25,13 @@ exl-id: cf08bc4d-8d88-45e7-af71-f1ff90023766
 |[!UICONTROL Title]|Store View|Default value: Credit Card (Braintree)|
 |[!UICONTROL Environment]|Store View|Options: `Sandbox` / `Production`|
 |[!UICONTROL Payment Action]|Store View|Determines the action taken by Braintree when a payment is processed. Options: <br/>**`Authorize`** - Funds on the customer's credit card are authorized, but not transferred from the account. An order is created in your store Admin. You can later capture the sale and create an invoice. <br/>**`Intent Sale`** (previously `Authorize and Capture` in earlier releases) - Funds on the customer's credit card are authorized and captured by Braintree, and an order and invoice are created in your store Admin.|
-|[!UICONTROL Merchant ID]|Website|This is the unique identifier for your entire gateway account, including the multiple merchant accounts that may be in your gateway. As known as the _public ID_ or _production ID_, your merchant ID is different for your production and sandbox gateways.|
-|[!UICONTROL Public Key]|Store View|This is your user-specific, public identifier that restricts access to encrypted data. Each user associated with your Braintree gateway has their own public key.|
-|[!UICONTROL Private Key]|Store View|This is your user-specific, private identifier that restricts access to encrypted data. Each user associated with your Braintree gateway has their own private key.|
-|[!UICONTROL Enable this Solution]|Website|Determines if Braintree is available to your customers as a payment method. Options: `Yes` / `No`|
-|[!UICONTROL Enable PayPal through Braintree]|Website|Determines if PayPal is included as a payment method through Braintree. Options: `Yes` / `No`|
-|[!UICONTROL Enable PayPal Credit through Braintree]|Website|Determines if PayPal Credit is included as a payment method through Braintree. Options: `Yes` / `No`|
+|[!UICONTROL Sandbox Merchant ID]|Store View|This is the unique identifier for your entire sandbox gateway account, As known as the _public ID_ or _production ID_, your merchant ID is different for your production and sandbox gateways. This field will appear when `Environment` field is set to `Sandbox`.|
+|[!UICONTROL Sandbox Public Key]|Store View|This is your user-specific, public identifier that restricts access to encrypted data. Each user associated with your Sandbox Braintree gateway has their own sandbox public key. This field will appear when `Environment` field is set to `Sandbox`.|
+|[!UICONTROL Sandbox Private Key]|Store View|This is your user-specific, private identifier that restricts access to encrypted data. Each user associated with your Sandbox Braintree gateway has their own sandbox private key. This field will appear when `Environment` field is set to `Sandbox`.|
+|[!UICONTROL Merchant ID]|Store View|This is the unique identifier for your entire gateway account, including the multiple merchant accounts that may be in your gateway. As known as the _public ID_ or _production ID_, your merchant ID is different for your production and sandbox gateways. This field will appear when `Environment` field is set to `Production`.|
+|[!UICONTROL Public Key]|Store View|This is your user-specific, public identifier that restricts access to encrypted data. Each user associated with your Braintree gateway has their own public key. This field will appear when `Environment` field is set to `Production`.|
+|[!UICONTROL Private Key]|Store View|This is your user-specific, private identifier that restricts access to encrypted data. Each user associated with your Braintree gateway has their own private key. This field will appear when `Environment` field is set to `Production`.|
+|[!UICONTROL Enable Card Payments]|Website|Determines if Braintree Credit Card payment method is available to your customers as a payment method. Options: `Yes` / `No`|
 |[!UICONTROL Enable Vault for Card Payments]|Website|When enabled, provides secure storage for customer payment information, so customers don't have to reenter their credit card information for each purchase. Options: `Yes` / `No`|
 |[!UICONTROL Enable Vault CVV Re-verification]|Website|When enabled, validation is done for the CVV rules setup in your Braintree Account. Options: `Yes` / `No`|
 
@@ -43,28 +44,25 @@ exl-id: cf08bc4d-8d88-45e7-af71-f1ff90023766
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |[!UICONTROL Vault Title]|Website|A descriptive title for your reference that identifies the vault where your customer card information is stored.|
-|[!UICONTROL Merchant Account ID]|Website|The Merchant ID that is to be associated with Braintree transactions from this website. If left blank, the default merchant account from your Braintree account is used.|
-|[!UICONTROL Advanced Fraud Protection]|Website|Determines if Braintree's Advanced Fraud Protection is applied to transactions. Options: `Yes` / `No` |
+|[!UICONTROL Merchant Account ID]|Website|The Merchant Account ID that is to be associated with Braintree transactions from this website. If left blank, the default merchant account from your Braintree account is used.|
+|[!UICONTROL Skip Fraud Checks on Admin Orders]|Website|Prevents the transaction from being sent for evaluation as part of Advanced Fraud Tools checks, on orders placed through the admin only when it set to `Yes`.<br/>Options: `Yes` / `No`|
+|[!UICONTROL Bypass Fraud Protection Threshold]|Website|`Advnaced Fraud Protection` checks will be bypassed when the threshold value is met or exceeded. Leaving this field blank disables this option.|
 |[!UICONTROL Debug]|Website|Determines if communications between the Braintree system and your store are recorded in a log file. Options: `Yes` / `No`|
 |[!UICONTROL CVV Verification]|Website|Determines if customers are required to provide the three-digit security code from the back of a credit card. Options: `Yes` / `No`|
+|[!UICONTROL Send Card Line Items]|Website|To send the cart line items for all the payment methods. Options: `Yes` / `No`|
 |[!UICONTROL Credit Card Types]|Website|Specifies each credit card that you accept as payment through  Braintree. Press and hold `Ctrl` (or `Command` on Mac) to select a combination of cards. Options: `American Express` / `Visa` / `MasterCard` / `Discover` / `JCB` / `Diners` / `Maestro International`|
 |[!UICONTROL Sort Order]|Website|Determines the order that Braintree is listed with other payment methods during checkout.|
 
-{:style="table-layout:auto"}
+## [!UICONTROL Braintree Webhooks Settings]
 
-### [!UICONTROL Kount Settings]
-
-When the _[!UICONTROL Advanced Fraud Protection]_ option is enabled, [!UICONTROL Kount Settings] appear.
-
-![Kount Configuration](./assets/payment-methods-braintree-kount-config.png)<!-- zoom -->
+![Braintree Webhooks Settings](./assets/payment-methods-braintree-webhooks-config.png)<!-- zoom -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|[!UICONTROL Bypass Fraud Protection Threshold]|Website|Advanced fraud protection checks are bypassed if this threshold is met or exceeded. Leaving this field blank disables this option.|
-|[!UICONTROL ENS URL]|Website|This is your unique URL that you need to add into your website in the [Kount AWC control panel](https://developer.paypal.com/braintree/articles/guides/fraud-tools/advanced/overview). This URL must be publicly accessible for the ENS to function correctly. You must add this ENS URL to the 'OPT-IN' website.|
-|[!UICONTROL Merchant ID]|Website|Kount ID must be entered here to integrate with the fraud protection platform. If necessary, contact Braintree to set up your [Kount](https://kount.com/) account. |
-|[!UICONTROL Skip Fraud Checks on Admin Orders]|Website|If enabled, orders placed through the Admin are prevented from being sent to Kount for evaluation. Options: `Yes` / `No`|
-|[!UICONTROL ENS Allowed IPs]|Website|The IPs that have access to the ENS endpoint must be entered here.|
+|[!UICONTROL Enable Webhook]|Website|To enable the webhook functionality for Fraud Protection, ACH payments and Local Payment methods. Options: `Yes` / `No`|
+|[!UICONTROL Fraud Protection URL]|Website|You will need to add this URL into your Braintree Account as Webhook Destination URL. **This URL must be secure and publicly accessible.**|
+|[!UICONTROL Fraud Protection Approve Order Status]|Website|When Fraud Protection gets approved by Braintree, selected order status will be assigned to the Magento Order. This status will be used to update the status of the order in which ACH payment method is used and when it gets `SETTLED` in braintree.|
+|[!UICONTROL Fraud Protection Reject Order Status]|Website|When Fraud Protection gets rejected by Braintree, selected order status will be assigned to the Magento Order. This status will be used to update the status of the order in which ACH payment method is used and when `SETTLEMENT` gets `DECLINED` in braintree.|
 
 {:style="table-layout:auto"}
 
@@ -86,7 +84,8 @@ When the _[!UICONTROL Advanced Fraud Protection]_ option is enabled, [!UICONTROL
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|[!UICONTROL Enabled ACH Direct Debit]|Website|Determines if PayPal is included as a payment method through Braintree. Options: `Yes` / `No`|
+|[!UICONTROL Enabled ACH Direct Debit]|Website|Determines if ACH Direct Debit is included as a payment method through Braintree. Options: `Yes` / `No`|
+|[!UICONTROL Sort Order]|Website|Determines the order that ACH Direct Debit is listed with other payment methods during checkout.|
 
 {:style="table-layout:auto"}
 
@@ -99,6 +98,7 @@ When the _[!UICONTROL Advanced Fraud Protection]_ option is enabled, [!UICONTROL
 |[!UICONTROL Enabled ApplePay through Braintree]|Website|Determines if ApplePay is included as a payment method through Braintree. Options: `Yes` / `No` <br/><br/> The Domain must be [verified in Braintree Account first](https://developer.paypal.com/braintree/docs/guides/apple-pay/configuration/javascript/v3).|
 |[!UICONTROL Payment Action]|Website|Determines the action taken by Braintree when a payment is processed. Options: <br/>**`Authorize`** - Funds on the customer's card are authorized, but not transferred from the customer's account. An order is created in your store Admin. You can later capture the sale and create an invoice. <br/>**`Intent Sale`** - Funds on the customer's card are authorized and captured by Braintree, and an order and invoice are created in your store Admin. **_Note:_** This was `Authorize and Capture` in 2.3.x and earlier releases.|
 |[!UICONTROL Merchant Name]|Store View|Label that is displayed to customers in the ApplePay popup.|
+|[!UICONTROL Sort Order]|Website|Determines the order that Apple Pay is listed with other payment methods during checkout.|
 
 {:style="table-layout:auto"}
 
@@ -109,8 +109,9 @@ When the _[!UICONTROL Advanced Fraud Protection]_ option is enabled, [!UICONTROL
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |[!UICONTROL Enabled Local Payment Methods]|Website|Determines if Local Payment Method is included as a payment method through Braintree. Options: `Yes` / `No`|
-|[!UICONTROL Title]|Website|Label that appears on the checkout Payment Method section. Default value: Local|
+|[!UICONTROL Title]|Website|Label that appears on the checkout Payment Method section. Default value: Local Payments|
 |[!UICONTROL Allowed Payment Method]|Website|Select the local Payment method that needs to be enabled. Options: `Bancontact` / `EPS` / `giropay` / `iDeal` / `Klarna Pay Now` / `SOFORT` / `MyBank` / `P24` / `SEPA/ELV Direct Debit`|
+|[!UICONTROL Sort Order]|Website|Determines the order that Local Payment Method is listed with other payment methods during checkout.|
 
 {:style="table-layout:auto"}
 
@@ -125,6 +126,7 @@ When the _[!UICONTROL Advanced Fraud Protection]_ option is enabled, [!UICONTROL
 |[!UICONTROL Button Color]|Website|Determines the color of the [!DNL Google Pay] button. Options: `White` / `Black`|
 |[!UICONTROL Merchant ID]|Store View|ID provided by Google must be entered here.|
 |[!UICONTROL Accepted Cards]|Website|Select the type of cards that a customer can use to place order using [!DNL Google Pay].|
+|[!UICONTROL Sort Order]|Website|Determines the order that Google Pay is listed with other payment methods during checkout.|
 
 {:style="table-layout:auto"}
 
@@ -136,6 +138,7 @@ When the _[!UICONTROL Advanced Fraud Protection]_ option is enabled, [!UICONTROL
 |--- |--- |--- |
 |[!UICONTROL Enabled Venmo through Braintree]|Website|Determines if [!DNL Venmo] is included as a payment method through Braintree. Options: `Yes` / `No`|
 |[!UICONTROL Payment Action]|Website|Determines the action taken by Braintree when a payment is processed. Options: <br/>**`Authorize`** - Funds on the customer's card are authorized, but not transferred from the customer's account. An order is created in your store Admin. You can later capture the sale and create an invoice. <br/>**`Intent Sale`** - Funds on the customer's card are authorized and captured by Braintree, and an order and invoice are created in your store Admin. **_Note:_** This was  _Authorize and Capture_ in 2.3.x and earlier releases.|
+|[!UICONTROL Sort Order]|Website|Determines the order that Venmo is listed with other payment methods during checkout.|
 
 {:style="table-layout:auto"}
 
@@ -145,59 +148,69 @@ When the _[!UICONTROL Advanced Fraud Protection]_ option is enabled, [!UICONTROL
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|[!UICONTROL Title]|Store View|The label that identifies PayPal through Braintree to customers during checkout. Default value: `PayPal (Braintree)`|
+|[!UICONTROL Enable PayPal through Braintree]|Website|Determines if PayPal is included as a payment method through Braintree. Options: `Yes` / `No`|
+|[!UICONTROL Enable PayPal Credit through Braintree] |Website|Determines if PayPal Credit is included as a payment method through Braintree. Options: `Yes` / `No`. This field gets visible when `Enable PayPal through Braintree` is set to `Yes`|
+|[!UICONTROL Enable PayPal Pay Later through Braintree] |Website|Determines if PayPal Pay Later is included as a payment method through Braintree. Options: `Yes` / `No`. This field gets visible when `Enable PayPal through Braintree` is set to `Yes`|
+|[!UICONTROL Title]|Store View|The label that identifies PayPal through Braintree to customers during checkout. Default value: `PayPal`|
 |[!UICONTROL Vault Enabled]|Website|When enabled, provides secure storage for customer payment information, so customers don't have to re enter their PayPal information for each purchase. Options: `Yes` / `No`|
 |[!UICONTROL Sort Order]|Website|A number that determines the order in which PayPal through Braintree is listed with other payment methods during checkout.|
 |[!UICONTROL Override Merchant Name]|Store View|An alternate name that can be used to identify the merchant for each store view.|
-|[!UICONTROL Payment Action]|Website|Determines the action taken by PayPal through Braintree when a payment is processed. Options: <br/>**`Authorize`** - Funds on the customer's card are authorized, but not transferred from the customer's account. An order is created in your store Admin. You can later capture the sale and create an invoice. <br/>**`Authorize and Capture`** - Funds on the customer's card are authorized and captured by PayPal through Braintree, and an order and invoice are created in your store Admin.|
+|[!UICONTROL Payment Action]|Website| Determines the action taken by PayPal through Braintree when a payment is processed. Options: <br/>**`Authorize`** - Funds on the customer's card are authorized, but not transferred from the customer's account. An order is created in your store Admin. You can later capture the sale and create an invoice. <br/>**`Authorize and Capture`** - Funds on the customer's card are authorized and captured by PayPal through Braintree, and an order and invoice are created in your store Admin.|
 |[!UICONTROL Payment from Applicable Countries]|Website|Determines if you accept payments processed by PayPal through Braintree from all countries, or only specific countries. Options: `All Allowed Countries` / `Specific Countries`|
 |[!UICONTROL Payment from Specific Countries]|Website|If applicable, identifies the specific countries from which you accept payments processed by Braintree.|
-|[!UICONTROL Require Customer's Billing Address]|Website|Determines if the customer's billing address is required to submit an order. Options: `Yes` / `No`|
+|[!UICONTROL Require Customer's Billing Address]| Website|Determines if the customer's billing address is required to submit an order. Options: `Yes` / `No`|
 |[!UICONTROL Debug]|Website|Determines if communications between the PayPal through Braintree system and your store are recorded in a log file. Options: `Yes` / `No`|
 |[!UICONTROL Display on Shopping Cart]|Website|Determines if the PayPal button appears in the [mini cart](../../stores-purchase/cart-configuration.md#mini-cart) and on the [shopping cart](../../stores-purchase/cart.md) page. Options: `Yes` / `No`|
 
 {:style="table-layout:auto"}
 
-### [!UICONTROL Mini-Cart and Cart Page]
+### [!UICONTROL Styling]
 
-![Mini cart and cart page](./assets/payment-methods-braintree-paypal-minicart-config.png)<!-- zoom -->
+![PayPal Styling](./assets/payment-methods-braintree-paypal-styling.png)<!-- zoom -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|[!UICONTROL Disable Funding Option]|Website|Disable certain funding options available on the PayPal Smart Button from displaying in this section.|
-|[!UICONTROL Customise Button]|Website|If enabled, an option to customize the shape and color of the PayPal button is available. Options: `Yes` / `No`|
-|[!UICONTROL Shape]|Website|Determines the shape of the PayPal button. Options: `Pill` / `Rectangle`|
-|[!UICONTROL Size]|Website|Determines the size of the PayPal button. Options: `Medium` / `Large` / `Responsive`|
-|[!UICONTROL Color]|Website|Determines the color of the PayPal button. Options: `Blue` / `Black` / `Gold` / `Silver`|
+|[!UICONTROL Location]|Website|Where PayPal buttons and messages will be rendered, field does have the following options: `Mini-Cart and Cart Page` / `Checkout Page` / `Product Page`|
 
 {:style="table-layout:auto"}
 
-### [!UICONTROL Checkout Page]
-
-![Checkout Page](./assets/payment-methods-braintree-paypal-checkout-config.png)<!-- zoom -->
+#### [!UICONTROL Mini-Cart and Cart Page]
+This section will render based on what location has been selected for the above **Location** field.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|[!UICONTROL Disable Funding Option]|Website|Disable certain funding options available on the PayPal Smart Button from displaying in this section.|
-|[!UICONTROL Customise Button]|Website|If enabled, an option to customize the shape and color of the PayPal button is available. Options: `Yes` / `No`|
+|[!UICONTROL PayPal Button Type]|Website|There are 3 button types. Options: `PayPal Button` / `PayPal Pay Later Button` / `PayPal Credit Button`|
+
+##### [!UICONTROL PayPal Button]
+This section will render based on what button type has been selected for the above **PayPal Button Type** field.
+
+|Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
+|--- |--- |--- |
+|[!UICONTROL Show PayPal Button]|Website|To show PayPal button at front-end on selected location. Options: `Yes` / `No`|
+|[!UICONTROL Button Label]|Website|Determines the label for the PayPal button. Options: `Paypal` / `Checkout` / `Buynow` / `Pay`|
+|[!UICONTROL Color]|Website|Determines the color of the PayPal button. Options: `Blue` / `Black` / `Gold` / `Silver`|
 |[!UICONTROL Shape]|Website|Determines the shape of the PayPal button. Options: `Pill` / `Rectangle`|
 |[!UICONTROL Size]|Website|Determines the size of the PayPal button. Options: `Medium` / `Large` / `Responsive`|
-|[!UICONTROL Color]|Website|Determines the color of the PayPal button. Options: `Blue` / `Black` / `Gold` / `Silver`|
 
 {:style="table-layout:auto"}
 
-### [!UICONTROL Product Page]
-
-![Product Page](./assets/payment-methods-braintree-paypal-product-page-config.png)<!-- zoom -->
+##### [!UICONTROL Pay Later Messaging]
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|[!UICONTROL Enable PayPal Buy Now button on the product page]|Website|If enabled, the PayPal button is available on the Product detail page. Options: `Yes` / `No`|
-|[!UICONTROL Disable Funding Option]|Website|Disable certain funding options available on the PayPal Smart Button from displaying in this section.|
-|[!UICONTROL Customise Button]|Website|If enabled, an option to customize the shape and color of the PayPal button is available. Options: `Yes` / `No`|
-|[!UICONTROL Shape]|Website|Determines the shape of the PayPal button. Options: `Pill` / `Rectangle`|
-|[!UICONTROL Size]|Website|Determines the size of the PayPal button. Options: `Medium` / `Large` / `Responsive`|
-|[!UICONTROL Color]|Website|Determines the color of the PayPal button. Options: `Blue` / `Black` / `Gold` / `Silver`|
+|[!UICONTROL Show Pay Later Messaging]|Website|To show Pay Later Messaging at front-end on selected location. Options: `Yes` / `No`. Displays Pay Later messaging for available offers. Restrictions apply. [Click here to learn more](https://developer.paypal.com/docs/checkout/pay-later/us/).|
+|[!UICONTROL Message Layout]|Website|Determines the pay later message layout. Options: `Text` / `Flex`|
+|[!UICONTROL Logo]|Website|Determines the color of the PayPal button. Options: `Inline` / `Primary` / `Alternative` / `None`|
+|[!UICONTROL Logo Position]|Website|Determines the shape of the PayPal button. Options: `Left` / `Right` / `Top`|
+|[!UICONTROL Text Color]|Website|Determines the size of the PayPal button. Options: `Black` / `White` / `Monochrome` / `Grayscale`|
+
+After these fields, you can find the preview of the PayPal buttons and pay later messages along with following buttons which are responsible to apply the settings or reset it to the recommended values.
+
+|Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
+|--- |--- |--- |
+|[!UICONTROL Apply]|Website|This button is responsible to store selected styling field of buttons and pay later messaging for the current location and current button type.|
+|[!UICONTROL Apply to All Buttons]|Website|This button is responsible to store selected styling field of buttons and pay later messaging values for all the Buttons types and locations.|
+|[!UICONTROL Reset to Recommended Defaults]|Website|This button is responsible to set recommended default values to all the buttons and pay later messaging for all the Buttons types and locations.|
 
 {:style="table-layout:auto"}
 
@@ -208,6 +221,7 @@ When the _[!UICONTROL Advanced Fraud Protection]_ option is enabled, [!UICONTROL
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |[!UICONTROL 3D Secure Verification]|Website|Determines if a transaction must pass an extra verification process when the customer is enrolled in a program such as "Verified by VISA". Options: `Yes` / `No`|
+|[!UICONTROL Always request 3DS]|Website|Challenge the 3D Secure request always for all the transactions. Options: `Yes` / `No`|
 |[!UICONTROL Threshold Amount]|Website|Determines the maximum order amount that is authorized for processing on a single order. Braintree declines authorization if the order amount exceeds the Threshold Amount.|
 |[!UICONTROL Verify for Applicable Countries]|Website|Determines the countries where payment must be verified. Options: `All Allowed Countries` / `Specific Countries`|
 |[!UICONTROL Verify for Specific Countries]|Website|If applicable, identifies the specific countries from which payment by Braintree must be verified.|
