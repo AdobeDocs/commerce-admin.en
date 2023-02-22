@@ -51,7 +51,7 @@ This extension release is fully compatible and supported with Adobe Commerce 2.4
 
 ![Fixed issue](../assets/fix.svg) <!--- MC-42153--> The POST `V1/order/:orderId/invoice` request now supports the creation of partial invoices when the **[!UICONTROL Payment on Account]** payment method is enabled. Previously, Adobe Commerce threw this error: `An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity`. [GitHub-32428](https://github.com/magento/magento2/issues/32428)
 
-![Fixed issue](../assets/fix.svg) <!--- MC-41975--> PayPal PayFlow Pro now works as expected with B2B negotiable quote when the customer's cart contains other products. Adobe Commerce now successfully processes the order and sends an email to the customer as expected. Previously, Adobe Commerce threw a fatal error and sent a confirmation email to the customer that contained zero values.
+![Fixed issue](../assets/fix.svg) <!--- MC-41975--> PayPal Payflow Pro now works as expected with B2B negotiable quote when the customer's cart contains other products. Adobe Commerce now successfully processes the order and sends an email to the customer as expected. Previously, Adobe Commerce threw a fatal error and sent a confirmation email to the customer that contained zero values.
 
 ![Fixed issue](../assets/fix.svg) <!--- MC-41819--> Pagination is now correctly displayed on catalog search result page after excluding some products in shared catalog.
 
