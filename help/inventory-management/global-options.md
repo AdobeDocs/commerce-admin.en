@@ -19,7 +19,7 @@ Configure the default configuration options for product and stock for your websi
 
     - To adjust the quantity on hand when an order is placed, set **[!UICONTROL Decrease Stock When Order is Placed]** to `Yes`.
 
-    - To return items to stock if an order is canceled, **[!UICONTROL Set Items’ Status to be in Stock When Order in Cancelled]** to `Yes`.
+    - To return items to stock if an order is canceled, **[!UICONTROL Set Items' Status to be in Stock When Order in Cancelled]** to `Yes`.
 
     - To continue to display products in the catalog that are no longer in stock, set **[!UICONTROL Display Out of Stock Products]** to `Yes`.
 
@@ -27,9 +27,9 @@ Configure the default configuration options for product and stock for your websi
 
     - To set the start for displaying the last remaining inventory amount on the product page, enter an amount for **[!UICONTROL Only X left Threshold]**.
 
-      The message begins to appear when the quantity in stock reaches the threshold. For example, if set to `3`, the message “Only 3 left” appears when the quantity in stock reaches three. The message adjusts to reflect the quantity in stock, until the quantity reaches zero.
+      The message begins to appear when the quantity in stock reaches the threshold. For example, if set to `3`, the message "Only 3 left" appears when the quantity in stock reaches three. The message adjusts to reflect the quantity in stock, until the quantity reaches zero.
 
-    - To display an “In Stock” or “Out of Stock” message on the product page, set **[!UICONTROL Display Products Availability In Stock on Storefront]** to `Yes`.
+    - To display an "In Stock" or "Out of Stock" message on the product page, set **[!UICONTROL Display Products Availability In Stock on Storefront]** to `Yes`.
 
     - To check inventory when loading a product in the cart, set **[!UICONTROL Enable Inventory Check On Cart Load]** to `Yes`. With this option disabled, the inventory check is skipped. Disabling this option speeds up checkout, especially if there are many items in shopping cart. However, if you skip pre-validation, customers could see "out of stock" errors later in the checkout process.
 
@@ -79,7 +79,7 @@ Configure the default configuration options for product and stock for your websi
 
       >[!NOTE]
       >
-      >To configure and support _asynchronous queue managers_, you must issue a command using the command line. This step may require developer assistance. See [Start message queue consumers](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-queue.html){target="_blank"} in the developer documentation.
+      >To configure and support _asynchronous queue managers_, you must issue a command using the command line. This step may require developer assistance. See [Start message queue consumers](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) in the _Configuration Guide_.
 
     - If enabled, set the **[!UICONTROL Asynchronous batch size]**. The default batch size is 100. When bulk processes reach this amount, the system triggers it.
 

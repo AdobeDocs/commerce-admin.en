@@ -48,7 +48,7 @@ The link can be configured to display the number of different products (or SKUs)
 
    ![Configuring the mini cart](../configuration-reference/sales/assets/checkout-mini-cart.png)<!-- zoom -->
 
-1. If the setting is for a specific store view, [choose the store view](https://docs.magento.com/user-guide/configuration/scope-change.html) where the configuration applies.
+1. If the setting is for a specific store view, [choose the store view](../configuration-reference/scope-change.md#set-the-scope) where the configuration applies.
 
    When prompted, click **[!UICONTROL OK]** to continue.
 
@@ -95,7 +95,7 @@ The shopping cart page can be configured to appear whenever an item is added to 
 
    ![The shopping cart configuration settings expanded on the page](../configuration-reference/sales/assets/checkout-shopping-cart.png)<!-- zoom -->
 
-1. If the setting is for a specific store view, [choose the store view](https://docs.magento.com/user-guide/configuration/scope-change.html) where the configuration applies.
+1. If the setting is for a specific store view, [choose the store view](../configuration-reference/scope-change.md#set-the-scope) where the configuration applies.
 
    When prompted, click **[!UICONTROL OK]** to continue.
 
@@ -122,7 +122,7 @@ You can determine how long a price is valid by setting the cart quote lifetime i
 
    ![The shopping cart configuration settings expanded on the page](../configuration-reference/sales/assets/checkout-shopping-cart.png)<!-- zoom -->
 
-1. If the setting is for a specific store view, [choose the store view](https://docs.magento.com/user-guide/configuration/scope-change.html) where the configuration applies.
+1. If the setting is for a specific store view, [choose the store view](../configuration-reference/scope-change.md#set-the-scope) where the configuration applies.
 
    When prompted, click **[!UICONTROL OK]** to continue.
 

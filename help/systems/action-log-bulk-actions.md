@@ -23,7 +23,7 @@ The bulk actions log records the details of asynchronous mass operations that ru
 
    ![Advanced configuration - bulk actions](../configuration-reference/advanced/assets/system-bulk-actions.png)<!-- zoom -->
 
-   For a detailed list of the configuration settings, see [_Bulk Actions_](https://docs.magento.com/user-guide/configuration/advanced/system.html) in the _Configuration Reference_.
+   For a detailed list of the configuration settings, see [_Bulk Actions_](../configuration-reference/advanced/system.md) in the _Configuration Reference_.
 
 1. When complete, click **[!UICONTROL Save Config]**.
 

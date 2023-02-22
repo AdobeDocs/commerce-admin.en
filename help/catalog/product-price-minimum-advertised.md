@@ -69,7 +69,7 @@ When MAP is enabled, the product-level MAP settings become available. You can ap
 
    ![MAP configuration](./assets/sales-minimum-advertised-price.png)<!-- zoom -->
    
-   For more information about these configuration options, see [_Minimum Advertised Price_](https://docs.magento.com/user-guide/configuration/sales/sales.html#minimum-advertised-price) in the _Configuration Reference_.
+   For more information about these configuration options, see [_Minimum Advertised Price_](../configuration-reference/sales/sales.md#minimum-advertised-price) in the _Configuration Reference_.
 
 ### Step 2: Configure the MAP settings
 
@@ -115,7 +115,7 @@ Use one of the following methods to configure the MAP settings:
 
    >[!NOTE]
    >
-   >The [!UICONTROL Manufacturer's Suggested Retail Price] and [!UICONTROL Display Actual Price] fields appear only when [Minimum Advertised Price](https://docs.magento.com/user-guide/configuration/sales/sales.html) is enabled in the configuration.
+   >The [!UICONTROL Manufacturer's Suggested Retail Price] and [!UICONTROL Display Actual Price] fields appear only when [Minimum Advertised Price](../configuration-reference/sales/sales.md#minimum-advertised-price) is enabled in the configuration.
 
 ### Step 3: Save the configuration
 

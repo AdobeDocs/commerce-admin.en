@@ -97,7 +97,7 @@ To link to a node, use the [Widget](widgets.md) tool to create a CMS Hierarchy N
 
    - To organize the pages in the hierarchy as a book, set **[!UICONTROL Enable Chapter/Section]** to `Yes`.
 
-      If you don’t want to include the node as part of the book, leave the default `No`.
+      If you don't want to include the node as part of the book, leave the default `No`.
 
    - To assign the node to a specific part of the book, set **[!UICONTROL Chapter/Section]** to one of the following:
 
@@ -131,7 +131,7 @@ If you want the node to appear in the menu, do the following:
 1. To specify the location of the menu in relation to the content, set the **[!UICONTROL Menu Layout]**:
 
    - `Content` - The menu layout is located in the content.
-   - `Use Default` - Uses the menu style that is specified in the [configuration](https://docs.magento.com/user-guide/configuration/general/content-management.html).
+   - `Use Default` - Uses the menu style that is specified in the [configuration](../configuration-reference/general/content-management.md).
    - `Left Column` - The menu appears to the left of the content.
    - `Right Column` - The menu appears to the right of the content.
 

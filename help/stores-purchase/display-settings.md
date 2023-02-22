@@ -15,7 +15,7 @@ If the product price includes tax, the tax appears only if there is a tax rule t
 
 ![Price Display Settings](../configuration-reference/sales/assets/tax-price-display-settings.png)<!-- zoom -->
 
-For a detailed description of each of these configuration settings, see [Price Display Settings](https://docs.magento.com/user-guide/configuration/sales/tax.html#price-display-settings) in the _Configuration Reference Guide_.
+For a detailed description of each of these configuration settings, see [Price Display Settings](../configuration-reference/sales/tax.md#price-display-settings) in the _Configuration Reference Guide_.
 
 ## Configure price display settings
 

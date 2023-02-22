@@ -72,7 +72,7 @@ The person who sets up a company account from the storefront is assigned a role 
 
    ![](./assets/company-admin-welcome-email.png)<!-- zoom -->
 
-   When the password is set, the company administrator can [sign in](https://docs.magento.com/user-guide/customers/customer-sign-in.html) to the account.
+   When the password is set, the company administrator can [sign in](../customers/customer-sign-in.md) to the account.
 
 ## Method 2: Merchant creates the account from the Admin
 
@@ -164,8 +164,8 @@ The process of creating a company from the Admin is essentially the same as from
 
       | Option | Description |
       | ------ | ----------- |
-      |`B2B Payment Methods`|(Default) Enables all [payment methods set as default](https://docs.magento.com/user-guide/configuration/general/b2b-features.html#default-b2b-payment-methods) for B2B orders.|
-      |`All Enabled Payment Methods`|Makes all [enabled payment methods](https://docs.magento.com/user-guide/configuration/sales/payment-methods.html) available for customer accounts associated with the company account.|
+      |`B2B Payment Methods`|(Default) Enables all [payment methods set as default](../configuration-reference/general/b2b-features.md#default-b2b-payment-methods) for B2B orders.|
+      |`All Enabled Payment Methods`|Makes all [enabled payment methods](../configuration-reference/sales/payment-methods.md) available for customer accounts associated with the company account.|
       |`Selected Payment Methods`|Allows you to select the payment methods that are available for customer accounts associated with the company account. To select multiple payment methods, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.|
 
       {style="table-layout:auto"}
@@ -174,8 +174,8 @@ The process of creating a company from the Admin is essentially the same as from
 
       | Option | Description |
       | ------ | ----------- |
-      |`B2B Shipping Methods`|(Default) Enables all [shipping methods set as default](https://docs.magento.com/user-guide/configuration/general/b2b-features.html#default-b2b-shipping-methods) for B2B orders.|
-      |`All Enabled Shipping Methods`|Makes all [enabled shipping methods](https://docs.magento.com/user-guide/configuration/sales/delivery-methods.html) available for customer accounts associated with the company account.|
+      |`B2B Shipping Methods`|(Default) Enables all [shipping methods set as default](../configuration-reference/general/b2b-features.md#default-b2b-shipping-methods) for B2B orders.|
+      |`All Enabled Shipping Methods`|Makes all [enabled shipping methods](../configuration-reference/sales/delivery-methods.md) available for customer accounts associated with the company account.|
       |`Selected Shipping Methods`|Allows you to select the shipping methods that are available for customer accounts that are associated with the company account. To select multiple shipping methods, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.|
 
       {style="table-layout:auto"}
@@ -184,7 +184,7 @@ The process of creating a company from the Admin is essentially the same as from
 
    When the request to create a company account is approved by the merchant, an email notification is sent to the email address of the company administrator.
 
-   When the password is set, the company administrator can [sign in](https://docs.magento.com/user-guide/customers/customer-sign-in.html) to the account.
+   When the password is set, the company administrator can [sign in](../customers/customer-sign-in.md) to the account.
 
 ## Button bar
 
@@ -213,7 +213,7 @@ The process of creating a company from the Admin is essentially the same as from
 |Field|Description|
 |--- |--- |
 |[!UICONTROL Company Legal Name]|The full legal name of the company.|
-|[!UICONTROL VAT / TAX ID]|The [value-added tax](../stores-purchase/vat.md) number that is assigned to the company by some jurisdictions for tax reporting purposes. To configure the customer VAT/TAX ID to appear in the storefront, see [Create New Account Options](https://docs.magento.com/user-guide/configuration/customers/customer-configuration.html). <br/> **_Note:_** The company administrator and other company users do not have their own separate VAT/TAX ID numbers in their customer accounts.|
+|[!UICONTROL VAT / TAX ID]|The [value-added tax](../stores-purchase/vat.md) number that is assigned to the company by some jurisdictions for tax reporting purposes. To configure the customer VAT/TAX ID to appear in the storefront, see [Create New Account Options](../configuration-reference/customers/customer-configuration.md). <br/> **_Note:_** The company administrator and other company users do not have their own separate VAT/TAX ID numbers in their customer accounts.|
 |[!UICONTROL Reseller ID]|The resale number that is assigned to the company for tax reporting purposes.|
 |[!UICONTROL Comment]|(Admin Only) These notes about the company account are for reference and visible only from the Admin.|
 
@@ -264,7 +264,7 @@ The process of creating a company from the Admin is essentially the same as from
 
 |Field|Description|
 |--- |--- |
-|[!UICONTROL Customer Group]|(Admin Only) Indicates the [customer group](https://docs.magento.com/user-guide/customers/customer-groups.html) or [shared catalog](catalog-shared.md) that is assigned to the company.|
+|[!UICONTROL Customer Group]|(Admin Only) Indicates the [customer group](../customers/customer-groups.md) or [shared catalog](catalog-shared.md) that is assigned to the company.|
 |[!UICONTROL Allow Quotes]|(Admin Only) Determines if company members can prepare and submit negotiable quotes on behalf of the company.|
 |[!UICONTROL Enable Purchase Orders]|(Admin Only) Determines if company members can submit orders as [purchase orders](account-dashboard-my-purchase-orders.md) on behalf of the company.|
 |Applicable Payment Methods|(Admin Only) Indicates the payment methods that are available for company purchases. Options: `B2B Payment Methods` / `All Enabled Payment Methods` / `Selected Payment Methods`|

@@ -7,19 +7,19 @@ exl-id: ad576533-5914-49d1-8e73-3f59c55543a5
 
 The primary Admin account was initially set up during the installation, and might contain initial placeholder information or sample data information. The designated owner of this account can personalize the user name and password and update the first name, last name, and email address at any time. This account, a _super user_ with all permissions by default, typically creates the Admin user accounts needed for the business.
 
-- See [Adding Users](https://docs.magento.com/user-guide/system/permissions-users-all.html) for information on adding or editing users.
+- See [Create a user](../systems/permissions-users-all.md#create-a-user) for information on adding or editing users.
 
-- See [Permissions](https://docs.magento.com/user-guide/system/permissions.html) and [User Roles](https://docs.magento.com/user-guide/system/permissions-user-roles.html) for information about Admin and user roles.
+- See [Permissions](../systems/permissions.md) and [User Roles](../systems/permissions-user-roles.md) for information about Admin and user roles.
 
 {{ims-admin-note}}
 
 ## Admin Sign In
 
-The [!DNL Commerce] _Admin_ is protected by multiple layers of security measures to prevent unauthorized access to your store, order, and customer data. The first time you sign in to the _Admin_, you are required to enter your username and password and to set up [two-factor authentication](https://docs.magento.com/user-guide/stores/security-two-factor-authentication.html) (2FA).
+The [!DNL Commerce] _Admin_ is protected by multiple layers of security measures to prevent unauthorized access to your store, order, and customer data. The first time you sign in to the _Admin_, you are required to enter your username and password and to set up [two-factor authentication](../systems/security-two-factor-authentication.md) (2FA).
 
-Depending on the configuration of your store, there may be a [CAPTCHA](https://docs.magento.com/user-guide/stores/security-google-recaptcha.html) challenge to resolve, such as entering a series of keyboard characters, solving a puzzle, or clicking a series of images with a common theme. These tests are designed to identify you as a human, rather than an automated bot.
+Depending on the configuration of your store, there may be a [CAPTCHA](../systems/security-google-recaptcha.md) challenge to resolve, such as entering a series of keyboard characters, solving a puzzle, or clicking a series of images with a common theme. These tests are designed to identify you as a human, rather than an automated bot.
 
-For additional security, you can determine which parts of the _Admin_ each user has [permission](https://docs.magento.com/user-guide/system/permissions.html) to access, and also limit the number of [login attempts](https://docs.magento.com/user-guide/configuration/advanced/admin.html). By default, after six attempts the account is locked, and the user must wait a few minutes before trying again. [Locked accounts](https://docs.magento.com/user-guide/system/permissions-locked-users.html) can also be reset from the _Admin_.
+For additional security, you can determine which parts of the _Admin_ each user has [permission](../systems/permissions.md) to access, and also limit the number of [login attempts](../configuration-reference/advanced/admin.md). By default, after six attempts the account is locked, and the user must wait a few minutes before trying again. [Locked accounts](../systems/permissions-users-all.md#locked-users) can also be reset from the _Admin_.
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ For additional security, you can determine which parts of the _Admin_ each user 
 
 ### Step 1: Set up two-factor authentication
 
-Before you can sign in to the _Admin_ of your store, you must have a two-factor authentication solution set up and ready to use. To learn more about the authentication process used by each solution, see [Using Two-Factor Authentication](https://docs.magento.com/user-guide/stores/security-two-factor-authentication-use.html). By default, [!DNL Commerce] supports [Google Authenticator][1].
+Before you can sign in to the _Admin_ of your store, you must have a two-factor authentication solution set up and ready to use. To learn more about the authentication process used by each solution, see [Using Two-Factor Authentication](../systems/security-two-factor-authentication-use.md). By default, [!DNL Commerce] supports [Google Authenticator][1].
 
 Ask your [!DNL Commerce] system administrator which 2FA solutions are supported for the store. Then, complete the setup of your preferred 2FA solution according to the provider's instructions.
 
@@ -41,7 +41,7 @@ Ask your [!DNL Commerce] system administrator which 2FA solutions are supported 
 
    >[!NOTE]
    >
-   >Although this documentation uses `admin` as the base URL in most examples, it is recommended that you choose a unique and hard-to-guess [custom URL](https://docs.magento.com/user-guide/stores/store-urls-custom-admin.html) for the _Admin_ of your store.
+   >Although this documentation uses `admin` as the base URL in most examples, it is recommended that you choose a unique and hard-to-guess [custom URL](../stores-purchase/store-urls.md) for the _Admin_ of your store.
 
    You can add a bookmark for the page or save a shortcut on your desktop for easy access.
 
@@ -49,7 +49,7 @@ Ask your [!DNL Commerce] system administrator which 2FA solutions are supported 
 
 1. (Optional) If a CAPTCHA is enabled for your store, follow the onscreen instructions to resolve the challenge.
 
-   To learn more, see [CAPTCHA](https://docs.magento.com/user-guide/stores/security-captcha.html) and [reCAPTCHA](https://docs.magento.com/user-guide/stores/security-google-recaptcha.html).
+   To learn more, see [CAPTCHA](../systems/security-captcha.md) and [reCAPTCHA](../systems/security-google-recaptcha.md).
 
 1. Click **[!UICONTROL Sign in]**.
 
@@ -93,7 +93,7 @@ Reuse of the last four passwords assigned to the account is not allowed.
 
    >[!NOTE]
    >
-   >An _Admin_ password must be seven or more characters long and include both letters and numbers. See [Configuring _Admin_ Security](https://docs.magento.com/user-guide/stores/security-admin.html) for information about password options.
+   >An _Admin_ password must be seven or more characters long and include both letters and numbers. See [Configuring _Admin_ Security](../systems/security-admin.md) for information about password options.
 
 ## Sign out of the Admin
 

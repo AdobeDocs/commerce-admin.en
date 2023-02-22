@@ -5,7 +5,7 @@ exl-id: 64e1b431-f599-444c-9d39-207bb95f0400
 ---
 # Store localization
 
-Most of the text that appears to be hard-coded on pages throughout your store can be instantly changed to a different language by changing the locale of the view. Changing the locale does not actually translate the text word-for-word, but simply references a different translation table that provides the interface text that is used throughout the store. The text that can be changed includes navigational titles, labels, buttons, and links such as _My Cart_ and _My Account_. You can also use the [Inline Translation](https://docs.magento.com/user-guide/configuration/advanced/developer.html) tool to touch up text in the interface.
+Most of the text that appears to be hard-coded on pages throughout your store can be instantly changed to a different language by changing the locale of the view. Changing the locale does not actually translate the text word-for-word, but simply references a different translation table that provides the interface text that is used throughout the store. The text that can be changed includes navigational titles, labels, buttons, and links such as _My Cart_ and _My Account_. You can also use the [Inline Translation](../configuration-reference/advanced/developer.md) tool to touch up text in the interface.
 
 Language packs can be found under [Translations & Localization][1]{:target="_blank"} on Commerce Marketplace. New extensions are continually added to Marketplace, so check back often.
 

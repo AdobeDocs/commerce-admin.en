@@ -72,11 +72,11 @@ The following instructions are written from the perspective of a shared user who
 
    ![Support](./assets/shared-support.png)<!-- zoom -->
 
-   You can use the [Adobe Commerce Help Center](https://support.magento.com/hc/en-us) from the shared account to search for articles and troubleshooting information, find patches for known issues, and create support tickets.
+   You can use the [Adobe Commerce Help Center](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html) from the shared account to search for articles and troubleshooting information, find patches for known issues, and create support tickets.
 
    >[!NOTE]
    >
-   >After receiving shared access, the user must log in to their [[!DNL Commerce] account](https://account.magento.com/customer/account/login), navigate to _Shared Access_, and click the **[!UICONTROL Support]** tab. This action is required the first time only, in order to ensure that the [[!DNL Commerce] Help Center](https://support.magento.com/hc/en-us) is configured properly through the `SSO` call.
+   >After receiving shared access, the user must log in to their [[!DNL Commerce] account](https://account.magento.com/customer/account/login), navigate to _Shared Access_, and click the **[!UICONTROL Support]** tab. This action is required the first time only, in order to ensure that the [Adobe Commerce Support Knowledge Base](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html) is configured properly through the `SSO` call.
 
 1. To return to your own account, click **Back** in your browser controls and set **[!UICONTROL Switch Accounts]** to `My Account`.
 

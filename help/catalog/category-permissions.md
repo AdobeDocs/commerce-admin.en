@@ -21,6 +21,10 @@ When enabled, a new _[!UICONTROL Category Permissions]_ section appears on the C
 
 ## Step 1: Configure category permissions
 
+>[!IMPORTANT]
+>
+>All existing [group permission settings](../configuration-reference/catalog/catalog.md#category-permissions) are ignored by **_all_** categories in the catalog when the **_[!UICONTROL Shared Catalog]_** feature is enabled. [!UICONTROL Shared Catalog] fully controls all category permissions in the catalog when it is enabled.
+
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Catalog]** and choose **[!UICONTROL Catalog]** underneath.
@@ -29,7 +33,7 @@ When enabled, a new _[!UICONTROL Category Permissions]_ section appears on the C
 
    ![Category Permissions](./assets/catalog-category-permissions.png)<!-- zoom -->
 
-   For more information about these options, see [Category Permissions](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#category-permissions) in the _Configuration Reference_.
+   For more information about these options, see [Category Permissions](../configuration-reference/catalog/catalog.md#category-permissions) in the _Configuration Reference_.
 
 1. Set **[!UICONTROL Enable]** to `Yes`.
 

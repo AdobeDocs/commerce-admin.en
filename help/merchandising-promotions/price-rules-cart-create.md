@@ -40,7 +40,7 @@ Complete the following steps to add a rule, describe the conditions, and define 
       |Option|Description|
       |------|-----------|
       |`Uses per Coupon` |Determines how many times that the coupon code can be used. If there is no limit, leave the field blank. |
-      |`Uses per Customer` |Determines how many times that the coupon code can be used by the same registered customer who belongs to any of the selected customer groups. The setting does not apply to guest shoppers who are members of the NOT LOGGED IN customer group, or to customers who shop without logging in to their accounts. If there is no limit, leave the field blank. |
+      |`Uses per Customer` |Determines how many times that the cart price rule can be used by the same registered customer who belongs to any of the selected customer groups. The setting does not apply to guest shoppers who are members of the NOT LOGGED IN customer group, or to customers who shop without logging in to their accounts. If there is no limit, leave the field blank. |
 
       {style="table-layout:auto"}
 
@@ -70,6 +70,10 @@ Complete the following steps to add a rule, describe the conditions, and define 
 
 In this step, the conditions are described that must be met for an order to qualify for the promotion. The rule goes into action whenever the set of conditions is met.
 
+>[!NOTE]
+>
+>The cart price rule is applied to **_each_** product in the shopping cart whenever the set of conditions in the _[!UICONTROL Conditions]_ tab is met. Add conditions in the _[!UICONTROL Actions]_ tab to limit the number of products affected by the cart price rule.
+
 1. In the left panel, select **[!UICONTROL Conditions]**.
 
    ![Cart price rule - conditions](./assets/conditions.png)<!-- zoom -->
@@ -93,6 +97,10 @@ In this step, the conditions are described that must be met for an order to qual
       ![Cart price rule condition - products subselection](./assets/price-rule-cart-condition-products-subselection.png)<!-- zoom -->
 
    - In the condition statement, click **[!UICONTROL total quantity]** and select `total quantity` or `total amount`.
+
+   >[!IMPORTANT]
+   >
+   >[!UICONTROL Total amount] is a row total, so taxes are not included into the `total amount` for the [!UICONTROL Products Subselection] cart price rule condition. Use the [!UICONTROL Subtotal (Incl. Tax)] condition to include taxes.
 
    - In the condition statement, click **[!UICONTROL is]** and select `greater than`.
 
@@ -222,7 +230,7 @@ The shopping cart price rule actions describe how prices are updated when the co
       >
       >To discard subsequent rules, a pricing rule must use the defined priorities that are set in the Priority field of each rule, and multiple rules should not have the same priority defined . See **[!UICONTROL Priority]** in the _Add a New Rule_ step.
 
-1. Define as many additional conditions as needed for the action.
+1. To define the **_exact_** products in the shopping cart that are affected by the cart price rule, add the **_additional_** conditions that are needed for the action.
 
    To determine if free shipping is applied to orders that meet the conditions, set **[!UICONTROL Free Shipping]** to one of the following:
 
@@ -298,7 +306,8 @@ Watch this video to learn about creating cart price rules:
 |[!UICONTROL Websites]|(Required) Identifies the websites where the rule can be used.|
 |[!UICONTROL Customer Groups]|(Required) Identifies the customer groups to which the rule applies.|
 |[!UICONTROL Coupon]|(Required) Indicates if a coupon is associated with the rule. Options: <br/>**[!UICONTROL No Coupon]** - No coupon is associated with the rule. <br/>**[!UICONTROL Specific Coupon]** - A specific coupon is associated with the rule. <br/>**[!UICONTROL Coupon Code]** - When prompted, enter the Coupon Code that the customer must enter to take advantage of the promotion. <br/>**[!UICONTROL Use Auto Generation]** - Select the checkbox to automatically generate multiple coupon codes that can be used with the promotion. <br/>**[!UICONTROL Auto]** - Displays the _[!UICONTROL Manage Coupon Codes]_ section to define the format of the  coupon codes to be generated.|
-|[!UICONTROL Uses per Customer]|Determines how many times that the coupon code can be used by the same registered customer who belongs to any selected customer group. Does not apply to guest shoppers who are members of the NOT LOGGED IN customer group, or to customers who shop without logging in to their accounts. For no limit, leave blank.|
+|[!UICONTROL Uses per Coupon]|Determines how many times that the coupon code can be used. If there is no limit, leave the field blank.|
+|[!UICONTROL Uses per Customer]|Determines how many times that the cart price rule can be used by the same registered customer who belongs to any selected customer group. Does not apply to guest shoppers who are members of the NOT LOGGED IN customer group, or to customers who shop without logging in to their accounts. For no limit, leave blank.|
 |[!UICONTROL Priority]|A number that indicates the priority of this rule in relation to others. The highest priority is number `1`.|
 |[!UICONTROL Public in RSS Feed]|Determines if the promotion is included in your store's public RSS feed. Options:  `Yes` / `No`|
 |[!UICONTROL From]|![Magento Open Source](../assets/open-source.svg) (Magento Open Source only) The first date the coupon can be used.|

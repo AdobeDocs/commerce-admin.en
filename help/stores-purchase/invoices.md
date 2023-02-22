@@ -42,15 +42,15 @@ On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > _Operations_ > **Invoices
 
 Creating an invoice for an order moves it to a state in which it cannot be canceled or changed. A new invoice page looks similar to a completed order, with some additional fields. Every activity that is related to an order is noted in the Comments section of the invoice.
 
-Normally, orders are invoiced and captured when the shipping process starts. If the method of payment is a purchase order, or if the [payment action](https://docs.magento.com/user-guide/configuration/sales/payment-methods.html#payment-actions) is set to `Authorize and Capture`, the order is invoiced and payment is captured during checkout. You can generate an invoice with a packing slip, and also print shipping labels from your carrier account. A single order can be divided into partial shipments, which are invoiced separately, if necessary.
+Normally, orders are invoiced and captured when the shipping process starts. If the method of payment is a purchase order, or if the [payment action](../configuration-reference/sales/payment-methods.md#payment-actions) is set to `Authorize and Capture`, the order is invoiced and payment is captured during checkout. You can generate an invoice with a packing slip, and also print shipping labels from your carrier account. A single order can be divided into partial shipments, which are invoiced separately, if necessary.
 
-When the state of new orders is set to `Processing`, the option to _Automatically Invoice All Items_ becomes available in the configuration. Some credit card payment methods complete the invoicing step as part of the process when the [payment action](https://docs.magento.com/user-guide/configuration/sales/payment-methods.html#payment-actions) is set to `Authorize and Capture`. In such a case, the Invoice button does not appear, and the order is ready to ship.
+When the state of new orders is set to `Processing`, the option to _Automatically Invoice All Items_ becomes available in the configuration. Some credit card payment methods complete the invoicing step as part of the process when the [payment action](../configuration-reference/sales/payment-methods.md#payment-actions) is set to `Authorize and Capture`. In such a case, the Invoice button does not appear, and the order is ready to ship.
 
 >[!NOTE]
 >
 >Invoices are not created automatically for orders placed by using `Gift Card`, `Store Credit`, `Reward Points`, or other offline payment methods.
 
-You must generate an invoice for an order before you can print it. To view or print the PDF, first download and install a PDF reader such as [Adobe Acrobat Reader][1].
+An invoice for the order must be generated before it can be printed. To view or print the PDF, first download and install a PDF reader such as [Adobe Acrobat Reader][1].
 
 **_To invoice an order:_**
 
@@ -64,7 +64,7 @@ You must generate an invoice for an order before you can print it. To view or pr
 
    >[!NOTE]
    >
-   >The Invoice option does not appear when the [payment action](https://docs.magento.com/user-guide/configuration/sales/payment-methods.html#payment-actions) for your specific [payment method](https://docs.magento.com/user-guide/configuration/sales/payment-methods.html) is set to `Authorize and Capture`, which auto-generates an invoice. This is also the case if the order is placed and the payment action for your payment method is set to `Authorize` and the order is invoiced.
+   >The Invoice option does not appear when the [payment action](../configuration-reference/sales/payment-methods.md#payment-actions) for your specific [payment method](../configuration-reference/sales/payment-methods.md) is set to `Authorize and Capture`, which auto-generates an invoice. This is also the case if the order is placed and the payment action for your payment method is set to `Authorize` and the order is invoiced.
 
    The new invoice page looks similar to a completed order page, with additional fields that can be edited.
 
@@ -102,19 +102,19 @@ You must generate an invoice for an order before you can print it. To view or pr
 
    **_Online payment method:_**
 
-    ![Submit Invoice - online payment method](./assets/invoice-submit-invoice-capture-online.png)<!-- zoom -->
+   ![Submit Invoice - online payment method](./assets/invoice-submit-invoice-capture-online.png)<!-- zoom -->
 
    **_Offline payment method:_**
 
-    ![Submit Invoice - offline payment method)](./assets/invoice-submit-invoice.png)<!-- zoom -->
+   ![Submit Invoice - offline payment method)](./assets/invoice-submit-invoice.png)<!-- zoom -->
 
   **_Completed invoice:_**
 
-    ![Completed Invoice](./assets/invoice-full.png)<!-- zoom -->
+   ![Completed Invoice](./assets/invoice-full.png)<!-- zoom -->
 
 ## Print invoices
 
-Invoices can be printed individually or as a batch. However, before an invoice can be printed, it must first be generated for the order. You can upload a high-resolution logo for a print-ready PDF invoice, and include the [Order ID](https://docs.magento.com/user-guide/marketing/sales-documents-ref-id.html) in the header. To customize the invoice template with your logo and address, see [PDF Logo Requirements](https://docs.magento.com/user-guide/marketing/sales-document-pdf-logo.html).
+Invoices can be printed individually or as a batch. However, before an invoice can be printed, it must first be generated for the order. You can upload a high-resolution logo for a print-ready PDF invoice, and include the [Order ID](../stores-purchase/sales-documents.md#add-reference-ids) in the header. To customize the invoice template with your logo and address, see [PDF Logo Requirements](../stores-purchase/sales-documents.md#image-formats).
 
 >[!NOTE]
 >
@@ -144,12 +144,12 @@ The invoices are saved in a single PDF file that can be sent to a printer or sav
 
 ## Troubleshooting resources
 
-For help with troubleshooting invoice issues, see the following Commerce Support articles:
+For help with troubleshooting invoice issues, see the following Commerce Support Knowledge Base articles:
 
-- [Can't invoice bundle products virtual and simple](https://support.magento.com/hc/en-us/articles/360052403931)
-- [Invoice without store credit info](https://support.magento.com/hc/en-us/articles/360051658412)
-- [Tax appears on invoice with 100% discount](https://support.magento.com/hc/en-us/articles/360060913271)
-- [Order invoices don't send automatically](https://support.magento.com/hc/en-us/articles/360053969732)
+- [Can't invoice bundle products virtual and simple](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-9/mdva-30889-magento-patch-can-t-invoice-bundle-products-virtual-and-simple.html)
+- [Invoice without store credit info](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-8/mdva-31150-magento-patch-invoice-without-store-credit-info.html)
+- [Tax appears on invoice with 100% discount](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-22/mdva-35773-tax-appears-on-invoice-with-100-discount.html)
+- [Order invoices don't send automatically](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-13/mdva-32545-magento-patch-order-invoices-don-t-send-automatically.html)
 
 
 [1]: https://www.adobe.com/acrobat/pdf-reader.html "Get Adobe Reader"

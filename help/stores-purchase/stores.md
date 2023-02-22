@@ -107,7 +107,7 @@ For help with configuring your web server, see the following resources:
 - [Set up multiple websites with NGNX](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html)
 - [Set up multiple websites with Apache](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html)
 
-For Adobe Commerce on cloud infrastructure, see [Set up multiple websites or stores](https://devdocs.magento.com/cloud/project/project-multi-sites.html).
+For Adobe Commerce on cloud infrastructure, see [Set up multiple websites or stores](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html).
 
 ## Add websites
 
@@ -154,4 +154,4 @@ For help with configuring your web server, see the following tutorials:
 - [Set up multiple websites with NGNX](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html)
 - [Set up multiple websites with Apache](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html)
 
-For Adobe Commerce on cloud infrastructure, see [Set up multiple websites or stores](https://devdocs.magento.com/cloud/project/project-multi-sites.html).
+For Adobe Commerce on cloud infrastructure, see [Set up multiple websites or stores](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html).

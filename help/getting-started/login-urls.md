@@ -30,8 +30,8 @@ Your [[!DNL Commerce] account](commerce-account-create.md) provides access to in
 
 ## Customer account
 
-While you are learning your way around the store, make sure to set up a test [customer account](https://docs.magento.com/user-guide/customers/customer-account.html), so you can experience the store and checkout process from the customer’s perspective.
+While you are learning your way around the store, make sure to set up a test [customer account](../customers/account-dashboard.md), so you can experience the store and checkout process from the customer's perspective.
 
 ## Sample data
 
-Adobe provides a sample data set that includes a sample store with more than 250 products (about 200 of them are configurable products), categories, promotional price rules, CMS pages, banners, and so on. Sample data uses the _Luma_ theme on the storefront. [Installing this sample data](https://devdocs.magento.com/guides/v2.4/install-gde/install/sample-data-after-magento.html) is optional, but can be helpful for testing and developing customizations for your eCommerce business.
+Adobe provides a sample data set that includes a sample store with more than 250 products (about 200 of them are configurable products), categories, promotional price rules, CMS pages, banners, and so on. Sample data uses the _Luma_ theme on the storefront. [Installing this sample data](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html) is optional, but can be helpful for testing and developing customizations for your eCommerce business.

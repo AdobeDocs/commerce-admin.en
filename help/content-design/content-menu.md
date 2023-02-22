@@ -20,7 +20,7 @@ On the _Admin_ sidebar, choose **[!UICONTROL Content]**.
 - Create [pages](pages.md) with text, images, blocks, variables, and widgets, that can be incorporated into the navigation of your store and can be linked to other pages.
 - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Organize your pages into a [hierarchy](page-hierarchy.md) with navigation.
 - Create [blocks](blocks.md) of content without writing any code. Blocks can contain text, images, and even video, and can be assigned to any part of the page layout.
-- ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Create [dynamic blocks](dynamic-blocks.md) to incorporate rich, interactive content that is driven by logic from [price rules](../merchandising-promotions/introduction.md#promotions) and [customer segments](https://docs.magento.com/user-guide/marketing/customer-segments.html).
+- ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Create [dynamic blocks](dynamic-blocks.md) to incorporate rich, interactive content that is driven by logic from [price rules](../merchandising-promotions/introduction.md#promotions) and [customer segments](../customers/customer-segments.md).
 - Create [widgets](widgets.md) that display dynamic data and add blocks, links, and interactive elements most anywhere in your store.
 - Create [templates](../page-builder/templates.md) from your Page Builder content and save time and effort when adding new content (or replacing older content).
 

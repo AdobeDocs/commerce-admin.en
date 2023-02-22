@@ -29,6 +29,8 @@ breadcrumb-title: Stores and Purchase Experience
     - [Overview](currency.md)
     - [Currency configuration](currency-configuration.md)
     - [Update currency rates](currency-update.md)
+  - [Sales emails](sales-email.md)
+  - [Sales documents](sales-documents.md)
 - Point of purchase {#point-of-purchase}
   - [Instant Purchase](checkout-instant-purchase.md)
   - Shopping cart {#cart}
@@ -73,6 +75,7 @@ breadcrumb-title: Stores and Purchase Experience
     - [PayPal billing agreements](paypal-billing-agreements.md)
     - [PayPal Settlement reports](paypal-settlement-reports.md)
   - [Braintree](braintree.md)
+  - [Stored payment methods](stored-payment-methods.md)
   - Offline payment methods {#offline}
     - [Checks and money orders](check-money-order.md)
     - [Cash on delivery](cash-on-delivery.md)
@@ -88,6 +91,7 @@ breadcrumb-title: Stores and Purchase Experience
     - [Order status](order-status.md)
     - [Scheduled order operations](order-scheduled-operations.md)
     - [Archive orders](order-archive.md)
+    - [Storefront order management](orders-storefront.md)
   - [Invoices](invoices.md)
   - [Shipments](shipments.md)
   - Credit memos {#credit-memos}

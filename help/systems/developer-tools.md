@@ -30,7 +30,7 @@ See [Client-side LESS compilation vs. server-side](https://developer.adobe.com/
 
 >[!NOTE]
 >
->The frontend development workflow configuration is available in [Developer mode](https://docs.magento.com/user-guide/magento/installation-modes.html) only.
+>The frontend development workflow configuration is available in [Developer mode](../systems/developer-tools.md#operation-modes) only.
 
 ![Advanced configuration - frontend development workflow](../configuration-reference/advanced/assets/developer-frontend-development-workflow.png)
 
@@ -55,11 +55,11 @@ See [Static content signing](https://experienceleague.adobe.com/docs/commerce-op
 
 >[!NOTE]
 >
->The Static File Settings configuration is available only when working in [developer mode](https://docs.magento.com/user-guide/magento/installation-modes.html).
+>The Static File Settings configuration is available only when working in [developer mode](../systems/developer-tools.md#operation-modes).
 
 ![Advanced configuration - static files settings](../configuration-reference/advanced/assets/developer-static-files-settings.png)<!--{: width="700px"}-->
 
-For a detailed list of the configuration settings, see [_Static File Settings_](https://docs.magento.com/user-guide/configuration/advanced/developer.html) in the _Configuration Reference_.
+For a detailed list of the configuration settings, see [_Static File Settings_](../configuration-reference/advanced/developer.md) in the _Configuration Reference_.
 
 **_To enable signed static files:_**
 
@@ -87,7 +87,7 @@ See [Performance best practices](https://experienceleague.adobe.com/docs/commerc
 
 >[!NOTE]
 >
->CSS and JavaScript files can be optimized in [Developer Mode](https://docs.magento.com/user-guide/magento/installation-modes.html) only.
+>CSS and JavaScript files can be optimized in [Developer Mode](../systems/developer-tools.md#operation-modes) only.
 
 | File type       | Supported operations |
 | --------------- | -------------------- |
@@ -110,7 +110,7 @@ See [Performance best practices](https://experienceleague.adobe.com/docs/commerc
 
    ![Advanced configuration - CSS settings](../configuration-reference/advanced/assets/developer-css-settings.png)<!-- zoom -->
    
-   [_CSS Settings_](https://docs.magento.com/user-guide/configuration/advanced/developer.html)
+   [_CSS Settings_](../configuration-reference/advanced/developer.md)
 
 1. To optimize JavaScript files, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL JavaScript Settings]** section and do the following:
 
@@ -131,10 +131,9 @@ Before using a tool such as [template path hints](#template-path-hints), make su
 
 >[!NOTE]
 >
->Developer Client Restrictions can be set in [Developer Mode](https://docs.magento.com/user-guide/magento/installation-modes.html) only.
+>Developer Client Restrictions can be set in [Developer Mode](../systems/developer-tools.md#operation-modes) only.
 
-For technical information, see [Custom VCL for allowing requests](https://devdocs.magento.com/cloud/cdn/fastly-vcl-allowlist.html
-){:target="_blank"} in the _Cloud for Adobe Commerce Guide_.
+For technical information, see [Custom VCL for allowing requests](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html) in the _Commerce on Cloud Infrastructure Guide_.
 
 **_To add your IP address to the allowlist:_**
 
@@ -160,7 +159,7 @@ Template path hints are a diagnostic tool that adds notation with the path to ea
 
 >[!NOTE]
 >
->Template Path Hints can be edited in [developer mode](https://docs.magento.com/user-guide/magento/installation-modes.html) only.
+>Template Path Hints can be edited in [developer mode](../systems/developer-tools.md#operation-modes) only.
 
 See [Locate templates, layouts, and styles](https://developer.adobe.com/commerce/frontend-core/guide/themes/debug/){:target="_blank"} in the Commerce developer documentation.
 
@@ -200,13 +199,13 @@ Before using template path hints, add your IP address to the [allowlist](#clien
 
 ## Translate inline
 
-You can use the Translate Inline tool in [developer mode](https://docs.magento.com/user-guide/magento/installation-modes.html) to touch up text in the interface to reflect your voice and brand. When the Translate Inline mode is activated, any text on the page that can be edited is outlined in red. It is easy to edit field labels, messages, and other text that appears throughout the storefront and Admin. For example, many themes use terminology such as _My Account_, _My Wishlist_, and _My Dashboard_, to help customers find their way around. However, you might prefer to simply use the words _Account_, _Wishlist_, and _Dashboard_.
+You can use the Translate Inline tool in [developer mode](../systems/developer-tools.md#operation-modes) to touch up text in the interface to reflect your voice and brand. When the Translate Inline mode is activated, any text on the page that can be edited is outlined in red. It is easy to edit field labels, messages, and other text that appears throughout the storefront and Admin. For example, many themes use terminology such as _My Account_, _My Wishlist_, and _My Dashboard_, to help customers find their way around. However, you might prefer to simply use the words _Account_, _Wishlist_, and _Dashboard_.
 
 >[!NOTE]
 >
->The Translate Inline tool is available only when working in [developer mode](https://docs.magento.com/user-guide/magento/installation-modes.html).
+>The Translate Inline tool is available only when working in [developer mode](../systems/developer-tools.md#operation-modes).
 
-See [Translations overview](https://developer.adobe.com/commerce/frontend-core/guide/translations/){:target="_blank"} in the Commerce developer documentation.
+See [Translations overview](https://developer.adobe.com/commerce/frontend-core/guide/translations/) in the Commerce developer documentation.
 
 ![Example storefront - translatable text](./assets/storefront-translate-inline.png)<!-- zoom -->
 

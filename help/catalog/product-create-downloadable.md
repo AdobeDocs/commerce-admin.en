@@ -11,7 +11,18 @@ Because the download is not available until after the purchase, you can provide 
 
 ![Downloadable product](./assets/storefront-product-downloadable.png)<!-- zoom -->
 
-Downloadable products can be configured to require that the customer logs in to an account to receive the link or can be sent by email and shared with others. The status of the order before the download becomes available, default values, and other delivery options are set in the configuration.
+Downloadable products can be configured to require that the customer logs in to an account to receive the link or can be sent by email and shared with others. The status of the order before the download becomes available, default values, and other delivery options are set in the configuration. As you plan your downloadable catalog additions, take note of the following:
+
+- Downloadable products can be uploaded to the server or linked to from another server on the internet.
+
+- You can determine the number of times a customer can download a product.
+
+- Customers who purchase a downloadable product can be required to log in before going through checkout.
+
+- The delivery of a downloadable product can be made when the order is in either a `Pending` or `Invoiced` status.
+
+- Because downloadable products are not shipped, the _Shipping_ step of the checkout is skipped when the cart contains only the downloadable product.
+
 
 ## Configure the download options
 
@@ -25,7 +36,7 @@ The downloadable configuration settings determine the default values and deliver
 
    ![Downloadable Product Options](./assets/catalog-downloadable-product-options.png)<!-- zoom -->
 
-   For more information about these configuration options, see [_Downloadable Product Options_](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#downloadable-product-options) in the _Configuration Reference_.
+   For more information about these configuration options, see [_Downloadable Product Options_](../configuration-reference/catalog/catalog.md#downloadable-product-options) in the _Configuration Reference_.
 
 1. To determine the status of the order process when the download becomes available, set **[!UICONTROL Order Item Status to Enable Downloads]** to one of the following:
 
@@ -185,7 +196,7 @@ WHen enabled, the _[!UICONTROL Downloadable Information]_ section has two parts.
 
    >[!NOTE]
    >
-   >You cannot use links to external resources as downloadable products. Valid link domains are predefined programmatically in the `env.php` file (see [env.php reference](https://devdocs.magento.com/guides/v2.4/config-guide/prod/config-reference-envphp.html#downloadable_domains) in the developer documentation).
+   >You cannot use links to external resources as downloadable products. Valid link domains are predefined programmatically in the `env.php` file (see [env.php reference](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html) in the _Configuration Guide_).
 
    - Set **[!UICONTROL Shareable]** to one of the following:
 
@@ -193,7 +204,7 @@ WHen enabled, the _[!UICONTROL Downloadable Information]_ section has two parts.
 
       - `Yes` - Sends the link by email, which customers can share with others.
 
-      - `Use Config` - Uses the method that is specified in the [Downloadable Product Options](https://docs.magento.com/user-guide/configuration/catalog/catalog.html) configuration.
+      - `Use Config` - Uses the method that is specified in the [Downloadable Product Options](../configuration-reference/catalog/catalog.md) configuration.
 
    - Do one of the following:
 
@@ -258,14 +269,28 @@ On the _[!UICONTROL Save]_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.p
 
 ![Save & Close](./assets/product-edit-save-close.png)<!-- zoom -->
 
-### Things to remember
+## Storefront experience
 
-- Downloadable products can be uploaded to the server or linked to from another server on the internet.
+In the customer account dashboard, the _[!UICONTROL My Downloadable Products]_ page links to each order of downloadable products. The downloads become available from the customer's account when the order is complete.
 
-- You can determine the number of times a customer can download a product.
+![My Downloadable Products](./assets/customer-account-my-downloadable-products.png)<!-- zoom -->
 
-- Customers who purchase a downloadable product can be required to log in before going through checkout.
+The following table describes the _My Downloadable Products_ values:
 
-- The delivery of a downloadable product can be made when the order is in either a `Pending` or `Invoiced` status.
+|Column|Description|
+|--- |--- |
+|[!UICONTROL Order#]|The [order](../stores-purchase/orders.md) in which the downloadable product was purchased. Provides a link to the order detail.|
+|[!UICONTROL Date]| Order creation date.|
+|[!UICONTROL Title]|The name of the downloadable product purchased with the order. Provides a link to the downloadable product.|
+|[!UICONTROL Status]|Order processing status.|
+|[!UICONTROL Remaining Downloads]|Number of available downloads of the downloaded product.|
 
-- Because downloadable products are not shipped, the _Shipping_ step of the checkout is skipped when the cart  contains only the downloadable product.
+_**To download a product file from the account dashboard**_
+
+1. In their account dashboard, the customer chooses **[!UICONTROL My Downloadable Products]**.
+
+1. Finds the order in the list and clicks the link after the title.
+
+1. In the lower-right corner of the download window, clicks the _download_ icon.
+
+1. Locates the file in their downloads location and saves the file to the desired location.

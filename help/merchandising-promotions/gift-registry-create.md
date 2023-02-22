@@ -15,7 +15,7 @@ A gift registry can be created for any type of event, such as a wedding, birthda
 
 When you create a registry, it becomes an option in the list of gift registry types in the customer's account.
 
-You can use one of the three prepared gift registries, or create your own custom registry. Each gift registry type includes several attributes, which are the data entry fields that a customer completes to create a gift registry. The attributes provide additional information about the event, time and location, or any other information that is needed. Depending on the input type, some attributes have multiple options. For example, the `Wedding` gift registry type has the attribute `Role`, with the `Bride`, `Groom`, and `Partner` options. To learn more about attributes and input types, see [Attributes](https://docs.magento.com/user-guide/stores/attributes.html).
+You can use one of the three prepared gift registries, or create your own custom registry. Each gift registry type includes several attributes, which are the data entry fields that a customer completes to create a gift registry. The attributes provide additional information about the event, time and location, or any other information that is needed. Depending on the input type, some attributes have multiple options. For example, the `Wedding` gift registry type has the attribute `Role`, with the `Bride`, `Groom`, and `Partner` options. To learn more about attributes and input types, see [Attributes](../customers/attribute-properties.md).
 
 ![Gift registry types](./assets/gift-registry-types.png)<!-- zoom -->
 
@@ -25,7 +25,7 @@ You can use one of the three prepared gift registries, or create your own custom
 
     The birthday, wedding, and baby registries are ready for customers to use from their accounts.
 
-1. Make sure to complete the [email template](https://docs.magento.com/user-guide/marketing/email-template-configuration.html) configuration, so they reflect your brand.
+1. Make sure to complete the [email template configuration](../systems/email-templates.md#configure-email-templates), so they reflect your brand.
 
 ## Create a custom gift registry
 
@@ -89,7 +89,7 @@ You can use one of the three prepared gift registries, or create your own custom
 |--- |--- |
 |[!UICONTROL Code]|A unique name to identify the gift registry type internally. The first character of the code must be a lowercase letter. The rest of the code can be any combination of lowercase letters (a-z), numbers (0-9), and the underscore character (`_`).|
 |[!UICONTROL Label]|The name of the gift registry type that appears in the store.|
-|Sort Order|Determines the sequence in which this gift registry type appears when listed with other types.|
+|[!UICONTROL Sort Order]|Determines the sequence in which this gift registry type appears when listed with other types.|
 |[!UICONTROL Is Listed]|Determines if the gift registry type is available to customers in the store. Options: `Yes` / `No`.|
 
 {style="table-layout:auto"}

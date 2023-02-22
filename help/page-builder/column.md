@@ -57,7 +57,7 @@ In the following two-column example, the numbers in parentheses (6/12) in the to
 
 1. In the upper-left corner of the column group, click the _Grid_ tool (![Grid control](./assets/pb-icon-grid-control.png)) and adjust the grid size as needed.
 
-   Positioning content on the grid helps to align content consistently and renders the page correctly on both desktop and mobile devices. For more information, see the [Advanced Content Tools](https://docs.magento.com/user-guide/configuration/general/content-management.html) section of the [!DNL Page Builder] configuration.
+   Positioning content on the grid helps to align content consistently and renders the page correctly on both desktop and mobile devices. For more information, see the [Advanced Content Tools](../configuration-reference/general/content-management.md) section of the [!DNL Page Builder] configuration.
 
    ![Grid divisions on two columns](./assets/pb-layout-column-two-grid.png)<!-- zoom -->
 

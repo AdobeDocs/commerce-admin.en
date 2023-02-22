@@ -18,6 +18,10 @@ As a best practice, make sure to include a description of your RMA requirements 
 >
 >If you want to collect additional information related to returns, you can add your own custom [returns attributes](attributes-returns.md).
 
+All customer RMA information is displayed on the **[!UICONTROL My Returns]** page in the customer account dashboard.
+
+![My Returns](./assets/my-returns-page.png)<!-- zoom -->
+
 ## Request an RMA
 
 The customer completes the following steps on the storefront to submit an RMA:
@@ -43,8 +47,8 @@ The customer completes the following steps on the storefront to submit an RMA:
 1. Sets **[!UICONTROL Resolution]** to one of the following:
 
    - Exchange
-   - [Refund](https://docs.magento.com/user-guide/customers/refunds-customer-account.html)
-   - [Store Credit](https://docs.magento.com/user-guide/customers/store-credit.html)
+   - [Refund](../customers/refunds-customer-account.md)
+   - [Store Credit](../customers/store-credit-using.md)
 
 1. Sets **[!UICONTROL Item Condition]** to one of the following:
 

@@ -19,7 +19,7 @@ Private sales and other catalog events are a great way to use your existing cust
 
 - **Catalog event carousel** - When the [Catalog Event widget](../content-design/widget-event-carousel.md) is enabled in the configuration, it can be placed on store pages as a listing of open and upcoming events, sorted by end date. If two or more events have the same end date, the events are sorted based on the order specified in the configuration.
 
-- **[!UICONTROL Websites]** - Category permissions are based primarily on [customer groups](https://docs.magento.com/user-guide/customers/customer-groups.html).
+- **[!UICONTROL Websites]** - Category permissions are based primarily on [customer groups](../customers/customer-groups.md).
 
 - **Category permissions** - [Category permissions](../catalog/category-permissions.md) gives you full control over the specific activities that can take place in a given category.
 

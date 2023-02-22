@@ -59,13 +59,13 @@ See [Set up Site Search][7] in Google Help for the basics you need to get starte
 
 ## Step 2. Configure your [!DNL Google Tag Manager] account
 
-The following instructions show how to configure a new container with the basic settings. A sample [Composer][4] configuration (.json) file is used to simplify the process, importing to generate a tag in a new container. For this example, we recommend that you create a container, rather than modify an existing container.
+The following instructions show how to configure a new container with the basic settings. A sample [Composer][4] configuration (.json) file is used to simplify the process, importing to generate a tag in a new container. For this example, creating a container, rather than modify an existing container, is recommended.
 
 >[!NOTE]
 >
 >For additional information, see Google's [Container export and import][5]. These instructions walk-through importing a sample JSON to a new container.
 
-1. Download the linked file [GTM_M2_Config_json.txt][6] and open the file in an editor, and save as `GTM_M2_Config.json`.
+1. Download the linked file [GTM_M2_Config_json.txt](./assets/GTM_M2_Config_json.txt), open the file in an editor, and save it as `GTM_M2_Config.json`.
 
    The json file is uploaded directly to [!DNL Google Tag Manager].
 
@@ -241,10 +241,8 @@ The next step in the process is to preview the tag. Each time the tag is preview
 
 [1]: https://support.google.com/analytics/answer/1008015
 [2]: https://support.google.com/tagmanager/answer/6102821
-[3]: https://support.google.com/analytics/answer/1012264
 [4]: https://developer.adobe.com/commerce/php/development/composer/
 [5]: https://support.google.com/tagmanager/answer/6106997
-[6]: https://docs.magento.com/m2/downloads/GTM_M2_Config_json.txt
 [7]: https://support.google.com/analytics/answer/1012264
 [8]: https://support.google.com/tagmanager/answer/6105160
 [9]: https://support.google.com/tagmanager/answer/7679109

@@ -39,7 +39,7 @@ The process of creating a related product rule is similar to setting up a price 
 
    - For **[!UICONTROL Result Limit]**, enter the number of records to appear in the results list. The maximum number is 20.
 
-   - If the rule applies to a specific [customer segment](https://docs.magento.com/user-guide/marketing/customer-segments.html), set **[!UICONTROL Customer Segments]** to `Specified` and choose the customer segment from the list.
+   - If the rule applies to a specific [customer segment](../customers/customer-segments.md), set **[!UICONTROL Customer Segments]** to `Specified` and choose the customer segment from the list.
 
 1. In the left panel, choose **[!UICONTROL Products to Match]** and build the conditions as you would for a [catalog price rule](price-rules-catalog.md).
 

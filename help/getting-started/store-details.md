@@ -39,7 +39,7 @@ The _[!UICONTROL Store Information]_ section provides the basic information that
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-For more information about the Store information configuration options, see the [_Configuration Reference Guide_](https://docs.magento.com/user-guide/configuration/general/general.html#store-information).
+For more information about the Store information configuration options, see the [_Configuration Reference Guide_](../configuration-reference/general/general.md#store-information).
 
 ## Locale Options
 
@@ -76,7 +76,7 @@ The locale setting determines the time zone and language used for each store, an
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-For more information about the Locale configuration options, see the [Configuration Reference Guide](https://docs.magento.com/user-guide/configuration/general/general.html#locale-options).
+For more information about the Locale configuration options, see the [Configuration Reference Guide](../configuration-reference/general/general.md#locale-options).
 
 ## State Options
 
@@ -92,7 +92,7 @@ Because standard address formats vary from one country to another, you can also 
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL State Options]** section and do the following:
 
-   - In the **[!UICONTROL State is required for]** list, select each country where Region/State is a required entry.
+   - Use the **[!UICONTROL State is required for]** list to select each country where Region/State is a required entry.
 
    - Set **[!UICONTROL Allow to Choose State if it is Optional for Country]** to one of the following:
 
@@ -102,7 +102,7 @@ Because standard address formats vary from one country to another, you can also 
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-For more information about the State configuration options, see the [Configuration Reference Guide](https://docs.magento.com/user-guide/configuration/general/general.html#state-options).
+For more information about the State configuration options, see the [Configuration Reference Guide](../configuration-reference/general/general.md#state-options).
 
 ## Country Options
 
@@ -128,7 +128,7 @@ The Country Options identify the country where your business is located and the 
 
    By default, all countries in the list are selected. To select multiple countries, hold down the Ctrl key (PC) or the Command key (Mac) and click each item.
 
-1. In the **[!UICONTROL Zip/Postal Code is Optional for]** list, select each country where you conduct business that does not require a ZIP or postal code to be included as part of the street address.
+1. Use the **[!UICONTROL Zip/Postal Code is Optional for]** list to select each country where you conduct business that does not require a ZIP or postal code to be included as part of the street address.
 
 1. In the **[!UICONTROL European Union Countries]** list, select each country in the EU where you conduct business.
 
@@ -158,11 +158,10 @@ You can also configure shipping to specific countries for each available [delive
 
 ### Troubleshooting resources
 
-For help with troubleshooting country configuration issues, see the following [!DNL Commerce] Support articles:
+For help with troubleshooting country configuration issues, see the following [!DNL Commerce] Support Knowledge Base articles:
 
-- [How to add a country](https://support.magento.com/hc/en-us/articles/360057988152)
-- [Provided countryId does not exist](https://support.magento.com/hc/en-us/articles/360056291111)
-- [Country payment issue](https://support.magento.com/hc/en-us/articles/360043955991)
+- [How to add a country](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
+- [Provided countryId does not exist](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-15/mdva-33393-magento-patch-provided-countryid-does-not-exist.html)
 
 ## Merchant Location
 
@@ -178,7 +177,7 @@ The Merchant Location setting is used to configure [payment methods](../stores-p
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-For more information about the Payment Methods configuration options, see the [Configuration Reference Guide](https://docs.magento.com/user-guide/configuration/sales/payment-methods.html).
+For more information about the Payment Methods configuration options, see the [Configuration Reference Guide](../configuration-reference/sales/payment-methods.md).
 
 ## Currency
 
@@ -242,7 +241,7 @@ If you use custom email addresses, make sure to update the configuration of any 
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-For more information about the Sales Emails configuration options, see the [Configuration Reference Guide](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html).
+For more information about the Sales Emails configuration options, see the [_Configuration Reference Guide_](../configuration-reference/sales/sales-emails.md).
 
 ## Contact Us form
 
@@ -312,4 +311,4 @@ The Luma sample data includes a _Contact Us Info_ block that can be customized f
 
 By default, shoppers access the contact form using the _Contact link_ in the footer of the storefront pages. For more information about customizing the contact page, refer to the [Frontend Developer Guide][theme-guide]{:target="_blank"}.
 
-[theme-guide]: https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/bk-frontend-dev-guide.html
+[theme-guide]: https://developer.adobe.com/commerce/frontend-core/guide/themes/

@@ -11,7 +11,7 @@ These features and extensions were developed as part of the [Inventory project](
 
 [!DNL Inventory Management] installs in 2.3.x and 2.4.x releases of Adobe Commerce and Magento Open Source, with all features enabled by default. No additional steps are required for enabling these inventory features. Upgrades from v2.1.x or 2.2.x may require additional steps. See [Upgrade Inventory Management](#upgrade-inventory-management).
 
-Installation according to [Install Using Composer](https://devdocs.magento.com/guides/v2.4/install-gde/composer.html){target="_blank"} is recommended. Install with a metapackage to receive all [!DNL Inventory Management] modules.
+Installation according to [Quick start on-premises installation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html){target="_blank"} is recommended. Install with a metapackage to receive all [!DNL Inventory Management] modules.
 
 The following line in the `composer.json` metapackage installs [!DNL Inventory Management]:
 
@@ -86,7 +86,7 @@ You may want to disable [!DNL Inventory Management] modules to:
 *  Speed up the upgrade process for merchants migrating from 2.0.x, 2.1.x, 2.2.x, or 2.3.x to 2.4.x.
 *  Use custom or third-party inventory and order management system modules.
 
-See the [Enable or disable modules](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-enable.html){target="_blank"} topic for information about how to disable the applicable modules.
+See the [Enable or disable modules](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html) page in the _Installation Guide_ for information about how to disable the applicable modules.
 
 When complete, the system provides a list of modules and values in `<Magento_installation_directory>/app/etc/config.php`, beginning with:
 
@@ -154,6 +154,30 @@ If you choose not to use the Inventory Management functionality, you can remove 
         "magento/module-inventory-source-deduction-api": "*",
         "magento/module-inventory-source-selection": "*",
         "magento/module-inventory-source-selection-api": "*"
+        "magento/module-inventory-visual-merchandiser": "*",
+        "magento/module-inventory-swatches-frontend-ui": "*",
+        "magento/module-inventory-quote-graph-ql": "*",
+        "magento/module-inventory-in-store-pickup": "*",
+        "magento/module-inventory-in-store-pickup-sales": "*",
+        "magento/module-inventory-in-store-pickup-admin-ui": "*",
+        "magento/module-inventory-in-store-pickup-sales-admin-ui": "*",
+        "magento/module-inventory-in-store-pickup-api": "*",
+        "magento/module-inventory-in-store-pickup-sales-api": "*",
+        "magento/module-inventory-in-store-pickup-frontend": "*",
+        "magento/module-inventory-in-store-pickup-shipping": "*",
+        "magento/module-inventory-in-store-pickup-graph-ql": "*",
+        "magento/module-inventory-in-store-pickup-shipping-admin-ui": "*",
+        "magento/module-inventory-in-store-pickup-multishipping": "*",
+        "magento/module-inventory-in-store-pickup-shipping-api": "*",
+        "magento/module-inventory-in-store-pickup-quote": "*",
+        "magento/module-inventory-in-store-pickup-webapi-extension": "*",
+        "magento/module-inventory-in-store-pickup-quote-graph-ql": "*",
+        "magento/module-inventory-configurable-product-frontend-ui": "*",
+        "magento/module-inventory-catalog-search-configurable-product": "*",
+        "magento/module-inventory-catalog-search-bundle-product": "*",
+        "magento/module-inventory-catalog-frontend-ui": "*",
+        "magento/module-inventory-bundle-import-export": "*",
+        "magento/module-inventory-bundle-product-indexer": "*"
     }
 ```
 
@@ -201,4 +225,4 @@ For the latest, update your metapackage version:
 See the following guides for more information about Commerce upgrades:
 
 *  [Software Update Guide](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html){target="_blank"}
-*  [Enable or disable modules](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-enable.html){target="_blank"}
+*  [Enable or disable modules](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html){target="_blank"}

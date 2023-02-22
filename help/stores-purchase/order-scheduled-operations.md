@@ -5,7 +5,7 @@ exl-id: 330fe75a-d901-4696-946e-fa7af9ea3d40
 ---
 # Scheduled order operations
 
-Use [Cron](https://docs.magento.com/user-guide/system/cron.html) jobs to schedule the following order processing tasks:
+Use [Cron](../systems/cron.md) jobs to schedule the following order processing tasks:
 
 ![Orders grid](./assets/orders-grid.png)<!-- zoom -->
 
@@ -27,7 +27,7 @@ The lifetime of orders with pending payments is determined by the _Orders Cron S
 
 ## Enable scheduled grid updates and reindexing
 
-The Grid Settings configuration schedules updates to the following order management grids, and reindexes the data as scheduled by [Cron](https://docs.magento.com/user-guide/system/cron.html):
+The Grid Settings configuration schedules updates to the following order management grids, and reindexes the data as scheduled by [Cron](../systems/cron.md):
 
 - [Orders](orders.md#orders-workspace)
 - [Invoices](invoices.md)

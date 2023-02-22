@@ -21,7 +21,7 @@ The Quick Order feature reduces the order process to several clicks for customer
 
 1. Click **[!UICONTROL Save Config]**.
 
-1. When prompted, click [Cache Management](https://docs.magento.com/user-guide/system/cache-management.html) and refresh any invalid caches.
+1. When prompted, click [Cache Management](../systems/cache-management.md) and refresh any invalid caches.
 
 ## Step 2: Specify products for Quick Order
 

@@ -31,7 +31,7 @@ If editing the Default Source, you can edit all configurations except name and c
 
     - For **[!UICONTROL Latitude]** and **[!UICONTROL Longitude]**, enter the Global Positioning System (GPS) coordinates of the facility location.
 
-      To find the GPS coordinates with [Google Maps][1], enter the address in the search box. Right-click the marker on the map and choose **[!UICONTROL What’s here?]**. The GPS coordinates appear in the details box below the street address.
+      To find the GPS coordinates with [Google Maps][1], enter the address in the search box. Right-click the marker on the map and choose **[!UICONTROL What's here?]**. The GPS coordinates appear in the details box below the street address.
 
       ![General source options](assets/inventory-source-general.png)
 
@@ -73,7 +73,7 @@ If editing the Default Source, you can edit all configurations except name and c
 
       ![Pickup Location](assets/inventory-pickup-location.png)
 
-    For more information about how to configure email notifications when using a source as a pickup location, see [Sales Emails](https://docs.magento.com/user-guide/configuration/sales/sales-emails.html){target="_blank"} in the core user guide.
+    For more information about how to configure email notifications when using a source as a pickup location, see [Sales Emails](../configuration-reference/sales/sales-emails.md) in the _Configuration Reference Guide_.
 
 1. To save your work, do one of the following:
 

@@ -94,4 +94,4 @@ There are two ways to remove created block. You can remove it from _Blocks_ grid
    ![Slider extensions](./assets/marketplace-sliders.png)<!-- zoom -->
 
 [1]: https://marketplace.magento.com/extensions.html?q=lightbox
-[2]: https://devdocs.magento.com/extensions/install/
+[2]: https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html/

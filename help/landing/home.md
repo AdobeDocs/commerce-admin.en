@@ -3,7 +3,7 @@ title: Adobe Commerce merchant documentation
 description: Browse Adobe Commerce product documentation
 seo-title: Services for Adobe Commerce
 seo-description: Documentation and resources for Adobe Commerce and Magento Open Source users working in the Admin.
-breadcrumb-title: Documentation
+breadcrumb-title: Merchant Documentation
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
 ---
 # <!-- use banner as heading -->![Merchant documentation](./assets/banner-user-home.png) {#documentation}
@@ -43,7 +43,7 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
   <td valign="top">
     <img alt="Catalog Management" src="./assets/icon-shop.svg" width="40" height="40"/></td>
    <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/catalog/guide-overview.html"><strong>Catalog Management</strong></a>
-    <div><em>One of the most important areas in creating and managing your store is the product catalog and categories. The Admin provides many tools for the initial setup for your store and product catalog.</em>
+    <div><em>One of the most important areas in creating and managing your store is the product catalog and categories. The Admin provides many tools for the initial setup of your store and product catalog.</em>
     <br></div>
   </td>
     </tr>
@@ -78,7 +78,7 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 <tr>
     <td valign="top">
        <img alt="Customer Management" src="./assets/icon-demographic.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://docs.magento.com/user-guide/customers.html"> <strong>Customer Management</strong></a>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/customers/guide-overview.html"> <strong>Customer Management</strong></a>
     <div><em>As you continue to maintain and expand your store, manage customer accounts and customer groups in the Admin.</em></div>
   </td>
 </tr>
@@ -99,7 +99,7 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 <tr>
     <td valign="top">
        <img alt="Configuration Reference" src="./assets/icon-settings.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://docs.magento.com/user-guide/stores/configuration.html"> <strong>Configuration Reference</strong></a>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/config/guide-overview.html"> <strong>Configuration Reference</strong></a>
     <div><em>A quick and handy reference that provides field descriptions for every configuration setting in the Admin.</em></div>
   </td>
 </tr>
@@ -113,6 +113,8 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 
 | Description | Type | Date |
 | ----------- | ---- | ---- |
+| **New guide** - Content now published in the Experience League: [Customer Management Guide](../customers/guide-overview.md) | Move | 12/5/2022 |
+| **New guide** - Content now published in the Experience League: [Configuration Reference Guide](../configuration-reference/guide-overview.md) | Move | 12/1/2022 |
 | **New guide** - Content now published in the Experience League: [Admin Systems Guide](../systems/guide-overview.md) | Move | 11/14/2022 |
 | **New guide** - Content now published in the Experience League: [Sales and Purchase Experience Guide](../stores-purchase/guide-overview.md) | Move | 10/25/2022 |
 | **New guide** - Content now published in the Experience League: [Merchandising and Promotions Guide](../merchandising-promotions/guide-overview.md) | Move | 9/27/2022 |
@@ -122,8 +124,8 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 | **2.4.5 release** - Updated information in [Access Your Commerce Account](../getting-started/commerce-account-create.md) to reflect the Adobe ID requirement to access their Commerce account (accounts.magento.com). | Update | 8/11/2022 |
 | **2.4.5 release** - Added release notes for the [B2B v1.3.4](../b2b/release-notes.md#b2b-v134), [Inventory Management v1.2.5](../inventory-management/release-notes.md#v125), and [Page Builder](../page-builder/release-notes.md#172-for-commerce-245) modules. | New | 8/9/2022 |
 | **2.4.5 release** - Added new topics for Adobe Identity Management System integration in the Commerce Admin: [Adobe Identity Management Service (IMS) Integration Overview](../getting-started/adobe-ims-integration-overview.md) and [Configure the Commerce Admin Integration with Adobe IMS](../getting-started/adobe-ims-config.md). | New | 8/9/2022 |
-| **2.4.5 release** - Updated information in the [Google API configuration reference](https://docs.magento.com/user-guide/configuration/sales/google-api.html), and the [Google Analytics](../merchandising-promotions/google-universal-analytics.md) and [Google AdWords](../merchandising-promotions/google-adwords.md) topics for new GTag support for Google services integration and move from Google Universal Analytics to Analytics 4. | Update | 8/9/2022 |
-| **2.4.5 release** - Updated [Google reCAPTCHA](https://docs.magento.com/user-guide/stores/security-google-recaptcha.html) and [Google reCAPTCHA Storefront](https://docs.magento.com/user-guide/configuration/security/google-recaptcha-storefront.html) topics to reflect additional support for configuration of reCAPTCHA validation on the storefront. | Update | 8/9/2022 |
+| **2.4.5 release** - Updated information in the [Google API configuration reference](../configuration-reference/sales/google-api.md), and the [Google Analytics](../merchandising-promotions/google-analytics.md) and [Google AdWords](../merchandising-promotions/google-adwords.md) topics for new GTag support for Google services integration and move from Google Universal Analytics to Analytics 4. | Update | 8/9/2022 |
+| **2.4.5 release** - Updated [Google reCAPTCHA](../systems/security-google-recaptcha.md) and [Google reCAPTCHA Storefront](../configuration-reference/security/google-recaptcha-storefront.md) topics to reflect additional support for configuration of reCAPTCHA validation on the storefront. | Update | 8/9/2022 |
 | **2.4.5 release** - Updated the Page Builder [Layout - Columns](../page-builder/column.md) topic for new _columns_ container. | Update | 8/9/2022 |
 
 {style="table-layout:auto"}

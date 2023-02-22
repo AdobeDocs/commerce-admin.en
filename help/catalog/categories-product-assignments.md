@@ -5,13 +5,17 @@ exl-id: e7ab11c0-2d55-4824-a397-a1c858344d4f
 ---
 # Category product assignments
 
-For a category, use the _[!UICONTROL Products in Category]_ section to review the products that are currently assigned to the category. The search filters at the top of each column are used to add and remove products from the category. You can also use [category rules](https://docs.magento.com/user-guide/catalog/category-product-rules.html) ( ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce only) to dynamically change the product selection when a set of conditions is met. To learn more, see [Visual Merchandiser](../merchandising-promotions/visual-merchandiser.md)).
+For a category, use the _[!UICONTROL Products in Category]_ section to review the products that are currently assigned to the category. The search filters at the top of each column are used to add and remove products from the category. You can also use [category rules](../merchandising-promotions/category-product-rules.md) ( ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce only) to dynamically change the product selection when a set of conditions is met. To learn more, see [Visual Merchandiser](../merchandising-promotions/visual-merchandiser.md)).
 
 >[!TIP]
 >
 >During category rule setup, the products are _sorted_, _matched_, _assigned_, and _unassigned_ according to that rule **_only_** when this category is saved. For example, if you add a product to the catalog and want to assign it according to the rule, you **must resave each category** that is set to match products by rule to ensure that the new product is assigned. Also, if any product stock status is changed to `In Stock` or `Out of Stock` and products in the category are _sorted_ according to the **Automatic Sorting** rule, you must click **[!UICONTROL Save Category]**.
 
 ![Category Products](./assets/category-products-in-category.png)<!-- zoom -->
+
+>[!NOTE]
+>
+>On the category pages, `Out of stock` products are always displayed **_after_** `In Stock` products on the product listing with all sorting types.
 
 >[!NOTE]
 >

@@ -194,7 +194,7 @@ Although it is possible to change the Admin URL and path to another location, an
 
    >[!TIP]
    >
-   >For Adobe Commerce on cloud infrastructure, you can set up a custom admin path using the `ADMIN_URL` variable in the Cloud UI. See the [Admin variables topic](https://devdocs.magento.com/cloud/env/environment-vars_magento.html#admin-url) in the _Cloud Guide for Commerce_.
+   >For Adobe Commerce on cloud infrastructure, you can set up a custom admin path using the `ADMIN_URL` variable in the Cloud UI. See the [Admin variables topic](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html) in the _Commerce on Cloud Infrastructure Guide_.
 
    - **Default Admin Path**
       ```php?start_inline=1

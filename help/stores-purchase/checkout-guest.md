@@ -19,9 +19,9 @@ Your store can be configured to require shoppers to open an account before makin
 
    ![Checkout options expanded on the configuration page](../configuration-reference/sales/assets/checkout-checkout-options.png)<!-- zoom -->
 
-  For a detailed description of each of these configuration settings, see [Checkout Options](https://docs.magento.com/user-guide/configuration/sales/checkout.html#checkout-options) in the _Configuration Reference Guide_.
+  For a detailed description of each of these configuration settings, see [Checkout Options](../configuration-reference/sales/checkout.md#checkout-options) in the _Configuration Reference Guide_.
 
-1. If the setting is for a specific store view, [choose the store view](https://docs.magento.com/user-guide/configuration/scope-change.html) where the configuration applies.
+1. If the setting is for a specific store view, [choose the store view](../configuration-reference/scope-change.md#set-the-scope) where the configuration applies.
 
    When prompted, click **[!UICONTROL OK]** to continue.
 

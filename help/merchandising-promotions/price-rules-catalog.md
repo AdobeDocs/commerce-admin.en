@@ -44,9 +44,9 @@ For example, you can define and set the conditions for a price rule that when me
 
 ## Troubleshooting resources
 
-For help with troubleshooting catalog price rule issues, see the following Commerce Support articles:
+For help with troubleshooting catalog price rule issues, see the following Commerce Support Knowledge Base articles:
 
-- [404 Error on store front once catalog price rule schedules update is performed](https://support.magento.com/hc/en-us/articles/360025522891)
-- [Improved performance of product page with related products and target rules](https://support.magento.com/hc/en-us/articles/360052455691)
-- [Catalog price rules don't work](https://support.magento.com/hc/en-us/articles/360055855591)
-- [GraphQL price calculations](https://support.magento.com/hc/en-us/articles/360055782351)
+- [404 Error on store front once catalog price rule schedules update is performed](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/404-error-on-store-front-once-catalog-price-rule-schedules-update-is-performed.html)
+- [Improved performance of product page with related products and target rules](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-9/mdva-31791-magento-patch-improvement-for-product-page-with-related-products-and-target-rules.html)
+- [Catalog price rules don't work](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-14/mdva-24201-magento-patch-catalog-price-rules-don-t-work.html)
+- [GraphQL price calculations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-14/mdva-33975-magento-patch-graphql-price-calculations.html)

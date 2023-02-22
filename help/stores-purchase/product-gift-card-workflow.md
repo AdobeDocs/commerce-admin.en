@@ -46,3 +46,57 @@ For example, a customer shopping in the demo Luma store can purchase either a vi
 1. **Recipient applies gift card to purchase**.
 
    The recipient purchases an item in your store and applies the gift card code during checkout. Each time a gift card is applied during checkout, the amount appears in the order totals block and is subtracted from the grand total. The full balance of each gift card is subtracted from the shopping cart total. If multiple gift cards are used for a purchase, they are applied in ascending order, starting with the card with the smallest remaining balance, until all are applied or the grand total is zero. When the grand total reaches zero, the last gift card account applied to the cart receives a partial deduction. Any cards that have not been applied to the cart do not receive a balance deduction. The amounts are deducted from the gift card accounts only after the order is placed.
+
+## Storefront experience 
+
+How gift cards work on the storefront:
+
+- The gift card code can be applied in the cart or at checkout to cover the total amount of the order.
+
+- In the catalog, a gift card is presented as a separate type of product.
+
+- The gift card code is activated after the order is invoiced. If the order is not paid, the receiving customer cannot use the gift card.
+
+- Accounts for gift codes are created to track the balance of a specific voucher. A store administrator can manually adjust the balance.
+
+The receiving customer can use the _[!UICONTROL Gift Card]_ section of their account dashboard to check the balance of their [gift card account](product-gift-card-accounts.md) and redeem gift cards for [store credit](../customers/store-credit-using.md).
+
+![Gift Card](./assets/account-dashboard-gift-card.png)<!-- zoom -->
+
+### Check status and balance of the gift card
+
+1. From the storefront, the customer logs in and opens their customer account page.
+
+1. The customer opens the **[!UICONTROL Gift Card]** page and enters gift card code.
+
+1. The customer clicks **[!UICONTROL Check status and balance]**.
+
+![Gift Card Balance](./assets/gift-balance.png)<!-- zoom -->
+
+The balance of the gift card is displayed.
+
+### Gift card activation
+
+1. On the _[!UICONTROL Gift Card]_ page, the customer enters gift card code.
+
+1. The customer clicks **[!UICONTROL Redeem Gift Card]**.
+
+![Message about successful activation of the gift card](./assets/gift-redeemed-balance.png)<!-- zoom -->
+
+The gift card amount is activated and added to the total store credit balance.
+
+![Store Credit balance](./assets/store-credit.png)<!-- zoom -->
+
+All operations for the gift card balance are available on the _[!UICONTROL Store Credit]_ page.
+
+### Apply a gift card during checkout
+
+If the gift card is not redeemable, a customer can apply the gift card code during checkout.
+
+1. During the _Review & Payments_ step, the customer clicks **[!UICONTROL Apply Gift Card]**.
+
+1. Enters the gift card code, and then clicks **[!UICONTROL Apply]**.
+
+   The discount should be reflected in the _[!UICONTROL Order Summary]_.
+
+1. Clicks **[!UICONTROL Place Order]** to finalize the order.

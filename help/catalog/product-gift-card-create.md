@@ -7,7 +7,7 @@ exl-id: bc4b60fe-10b3-4d17-85ce-35c2720c90a2
 
 {{ee-feature}}
 
-Each gift card has a unique code, which can be redeemed by only one customer during checkout. A [code pool](https://docs.magento.com/user-guide/catalog/product-gift-card-account-configuration.html#step-3-establish-the-gift-card-code-pool) must be established before gift cards can be sold. See [Gift Card Workflow](https://docs.magento.com/user-guide/catalog/product-gift-card-workflow.html) for information about how gift cards are redeemed in the shopping cart.
+Each gift card has a unique code, which can be redeemed by only one customer during checkout. A [code pool](../stores-purchase/product-gift-card-accounts.md#step-3-establish-the-gift-card-code-pool) must be established before gift cards can be sold. See [Gift card workflow](../stores-purchase/product-gift-card-workflow.md) for information about how gift cards are redeemed in the shopping cart.
 
 ![Gift card product page](./assets/storefront-giftcard-product-page.png)<!-- zoom -->
 
@@ -17,7 +17,7 @@ There are three kinds of gift card products:
 
 - **Physical** - A physical gift card is shipped to recipient's address, which is required during the purchase of the gift card.
 
-- **Combined** - A [combined gift card](https://docs.magento.com/user-guide/catalog/product-gift-card-workflow.html) is shipped and emailed to the recipient. The recipient's email and shipping address is required during the purchase of the gift card.
+- **Combined** - A combined gift card is shipped and emailed to the recipient. The recipient's email and shipping address is required during the purchase of the gift card.
 
 ## Create a gift card product
 
@@ -85,7 +85,7 @@ There might be additional individual attributes that describe the product. The s
 
 ### Step 5: Complete the gift card information
 
-The _[!UICONTROL Gift Card Information]_ section of the product settings can be used to override the [gift card configuration](https://docs.magento.com/user-guide/configuration/sales/gift-cards.html) settings that determine how the card is managed.
+The _[!UICONTROL Gift Card Information]_ section of the product settings can be used to override the [gift card configuration](../configuration-reference/sales/gift-cards.md) settings that determine how the card is managed.
 
 1. Scroll down to the _[!UICONTROL Gift Card Information]_ section.
 
@@ -141,6 +141,8 @@ Complete the information in the following sections as needed:
 - A _code pool_ of unique numbers must be generated before a gift card can be offered for sale.
 
 - Gift cards can be set to `Redeemable` or `Non-Redeemable`.
+
+- Taxes are **_not applied_** to gift cards during the gift card purchase. Taxes are applied to products only when a purchased gift card is used to buy products. 
 
 - The lifetime of a gift card can be unlimited or set to a specified number of days.
 

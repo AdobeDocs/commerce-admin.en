@@ -10,7 +10,7 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 ![New](../assets/new.svg) New features
 ![Fixed issue](../assets/fix.svg) Fixes and improvements
 
-See [Compatibility](https://devdocs.magento.com/release/availability.html#compatibility){target="_blank"} for information about supported and compatible extension releases.
+See [Product availability](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html){target="_blank"} for information about supported and compatible extension releases.
 
 ## B2B v1.3.4
 
@@ -243,7 +243,7 @@ This extension release is fully compatible and supported with Adobe Commerce 2.4
 
 - Adobe Commerce sometimes displays a 404 error when a buyer creates a purchase order and then navigates to the checkout page. This error occurs when a buyer has previously created a different purchase order with an online payment method before navigating to the checkout page without completing the previous purchase. The buyer can still place the purchase order. **_Work around_**: None. <!--- B2B-1605-->
 
-- Discounts for a specific payment method persist during checkout for a purchase order even when the buyer changes their payment method during final checkout. As a result, customers may receive a discount that they are not entitled to. This occurs because a cart rule for the original payment method is still applied despite the change in payment method. **_Work around_**: None. See the [Adobe Commerce 2.4.2 B2B known issue: discount remains for online Purchase Orders after payment method is changed](https://support.magento.com/hc/en-us/articles/360054667312) Knowledge Base article. <!-- B2B-1012 -->
+- Discounts for a specific payment method persist during checkout for a purchase order even when the buyer changes their payment method during final checkout. As a result, customers may receive a discount that they are not entitled to. This occurs because a cart rule for the original payment method is still applied despite the change in payment method. **_Work around_**: None. See the [Adobe Commerce 2.4.2 B2B known issue: discount remains for online Purchase Orders after payment method is changed](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/magento-2.4.2-b2b-discount-remains-pay-method-change.html) _Knowledge Base_ article. <!-- B2B-1012 -->
 
 - The `deleteRequisitionListOutput` query returns details about the deleted requisition list instead of the remaining requisition lists. <!--- MC-39894-->
 

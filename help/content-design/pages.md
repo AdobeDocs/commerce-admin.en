@@ -39,7 +39,7 @@ The [Enable Cookies](../getting-started/compliance-cookie-law.md) page appears w
 
 ### Service Unavailable
 
-The [503 Service Unavailable](https://docs.magento.com/user-guide/configuration/general/general.html) page is named for the response code that is returned when the server is unavailable.
+The [503 Service Unavailable](../configuration-reference/general/general.md) page is named for the response code that is returned when the server is unavailable.
 
 ### About Us
 

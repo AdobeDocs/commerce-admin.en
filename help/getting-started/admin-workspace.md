@@ -53,6 +53,6 @@ The [dashboard](admin-workspace.md#the-dashboard) is the default startup page fo
 
    ![Advanced configuration - Admin startup page setting](./assets/admin-startup-page.png)<!-- zoom -->
    
-   For a detailed list of all Admin options, see [Admin](https://docs.magento.com/user-guide/configuration/advanced/admin.html) in the _Configuration Reference_.
+   For a detailed list of all Admin options, see [Admin](../configuration-reference/advanced/admin.md) in the _Configuration Reference_.
 
 1. When complete, click **[!UICONTROL Save Config]**.

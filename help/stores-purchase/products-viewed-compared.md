@@ -17,7 +17,7 @@ The _Recently Viewed and Recently Compared_ blocks usually appear in the right s
 
    ![Catalog configuration - recently viewed/compared products](../configuration-reference/catalog/assets/catalog-recently-viewed-and-compared-products.png)<!-- zoom -->
 
-   For a detailed description of each of these configuration settings, see [Recently Viewed/Compared Products](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#recently-viewedcompared-products) in the _Configuration Reference Guide_.
+   For a detailed description of each of these configuration settings, see [Recently Viewed/Compared Products](../configuration-reference/catalog/catalog.md#recently-viewedcompared-products) in the _Configuration Reference Guide_.
 
 1. Set **[!UICONTROL Synchronize widget products with backend storage]** to synchronize product widget information, such as product ID, with your current product storage availability in the database and reuse this information on different devices.
 

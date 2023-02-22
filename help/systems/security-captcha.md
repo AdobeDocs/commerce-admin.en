@@ -89,7 +89,7 @@ Customers can be required to enter a CAPTCHA each time they log in to their acco
       - `Contact Us`
       - `Change password`
       - `Share Wishlist Form`
-      - `Payflow Pro` (see [security patch](https://support.magento.com/hc/en-us/articles/360025515991))
+      - `Payflow Pro` (see [security patch](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html) _Knowledge Base_ article)
       - `Send to Friend Form` ![Magento Open Source](../assets/open-source.svg) (Magento Open Source only)
       - `Add Gift Card Code` ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only)
       - `Create company` ![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce only)

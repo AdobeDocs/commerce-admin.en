@@ -39,7 +39,7 @@ Before importing currency rates, complete the [currency rate setup](currency-con
 
 ## Import currency rates on schedule
 
-1. Make sure that [Cron](https://docs.magento.com/user-guide/system/cron.html) is enabled for your store.
+1. Make sure that [Cron](../systems/cron.md) is enabled for your store.
 
 1. Complete the [Currency Rate Setup](currency-configuration.md) to specify the currencies that you accept, and to establish the import connection and schedule.
 

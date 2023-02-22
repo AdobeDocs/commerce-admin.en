@@ -25,7 +25,7 @@ If you do not know the size of the logo or other images used in your theme, open
 
 >[!NOTE]
 >
->In addition to the logo in the header, your logo also appears on [email templates](https://docs.magento.com/user-guide/marketing/email-logo.html) and on [PDF invoices](https://docs.magento.com/user-guide/marketing/sales-document-pdf-logo.html) and other sales documents. The logos used for email templates and invoices have different size requirements, and must be uploaded separately. To learn more, see [Communications](https://docs.magento.com/user-guide/marketing/communications.html).
+>In addition to the logo in the header, your logo also appears on [email templates](../systems/email-templates.md#prepare-your-email-logo) and on [PDF invoices](../stores-purchase/sales-documents.md) and other sales documents. The logos used for email templates and invoices have different size requirements, and must be uploaded separately.
 
 Supported logo file formats:
 
@@ -67,7 +67,7 @@ A favicon is generally 16 x 16 pixels or 32 x 32 pixels in size. [!DNL Commerce]
 
 |File format|Description|
 |--- |--- |
-|ICO|This image file format is designed for small-size computer icon images. Mostly used in Microsoft® Windows OS, the ICO format can contain images of up to 256 x 256 pixels and 16 million colors (24 bit) with 8 bits of transparency.|
+|ICO|This image file format is designed for small-size computer icon images. Mostly used in Microsoft&reg; Windows OS, the ICO format can contain images of up to 256 x 256 pixels and 16 million colors (24 bit) with 8 bits of transparency.|
 |PNG|(Portable Network Graphics) This newer alternative to the GIF format supports up to 16 million colors (24 bit). The lossless compression format produces a high-quality bitmap image with crisp text, but a larger file size than some formats. The PNG format supports transparent layers, and is designed for online viewing and streaming.|
 |APNG|(Animated Portable Network Graphics) A file format similar to PNG that supports simple animation.|
 |GIF|(Graphics Interchange Format) A widely supported, and older bitmap format that is limited to 256 colors (8 bit). The GIF format supports simple animation and transparent layers.|
