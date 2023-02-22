@@ -37,6 +37,7 @@ breadcrumb-title: Content and Design
     - [Create a Dynamic Block](dynamic-blocks.md)
     - [Add a Rotating Dynamic Block](dynamic-blocks-rotate.md)
     - [Dynamic Blocks in Price Rules](dynamic-blocks-price-rules.md)
+    - [Dynamic Blocks in Real-Time CDP Audiences Driven Cart Price Rules](dynamic-blocks-price-rules-audiences.md)
   - Widgets {#widgets}
     - [Widget Overview](widgets.md)
     - [Create and Manage Widgets](widget-create.md)

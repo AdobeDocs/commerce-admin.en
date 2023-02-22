@@ -46,3 +46,7 @@ Cart price rules apply discounts to items in the shopping cart, based on a set o
 |[!UICONTROL End]|![Magento Open Source](../assets/open-source.svg) (Magento Open Source only) Use the dynamic calendar fields (_[!UICONTROL To:]_ and _[!UICONTROL From:]_) to filter the list based on the end date for the rule as defined when the rule was created.|
 
 {style="table-layout:auto"}
+
+## Use Real-Time CDP Audiences to inform cart price rules
+
+Learn how to [activate](customer-segment-rtcdp.md) Real-Time CDP Audiences into your Adobe Commerce instance to inform cart price rules.
