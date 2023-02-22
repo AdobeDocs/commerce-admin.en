@@ -5,13 +5,13 @@ exl-id: 5057e398-c458-42e9-8ec0-bf116a667a3c
 ---
 # Data transfers
 
-The import and export tools give you the ability to manage multiple records in a single operation. You can not only import new items, but also update, replace, and delete existing sets of products. For example, you can add new products to your inventory, update product data and advanced price data, and replace a set of existing products with new products. If you have a large catalog of products, it is much easier to export the data, edit the data in a spreadsheet, and import it back into your store.
+Use the import and export tools to manage multiple records in a single operation. You can import new items as well as update, replace, and delete existing product sets. For example, you can add new products to your inventory, update product data and advanced price data, and replace a set of existing products with new products. The import and export tools help manage large product catalogs more efficiently because you can you can export the data, edit it in a spreadsheet, and import it back into your store instead of performing multiple operations in the Admin.
 
-In addition to the import and export tools, Adobe Commerce and Magento Open Source have processes like [catalog sync](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/data-services/catalog-sync.html) that export product data from the Commerce server to SaaS services. For features like [Product Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html), this synch makes it possible to accurately return recommendations with correct names, pricing, and availability.
+In addition to the import and export tools, Adobe Commerce has processes like [catalog sync](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/data-services/catalog-sync.html) that export product data from the Commerce server to SaaS services. For features like [Product Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html), this synchronization makes it possible to accurately return recommendations with correct names, pricing, and availability.
 
 ## Data validation
 
-All data must pass validation before it can be imported into the store, to ensure that the values are consistent with the system database. Validation begins when you click **[!UICONTROL Check Data]**. During the process, all entities in the import file are verified for the following:
+All data must pass validation to ensure the quality, accuracy, and integrity of the values before importing them into the store. Validation begins when you click **[!UICONTROL Check Data]**. During the process, all entities in the import file are verified for the following:
 
 - **Attributes** - Column header names are verified to ensure that they match the corresponding attributes in the system database. The value of each attribute is checked to ensure that it meets the requirements of the data type (decimal, integer, varchar, text, and datetime).
 - **Complex Data** - Values that originate from a defined set, such as a drop-down or multiple select input type, are verified to ensure that the values exist in the defined set.
