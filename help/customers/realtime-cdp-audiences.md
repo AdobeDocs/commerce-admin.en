@@ -1,12 +1,10 @@
 ---
-title: Integrate Real-Time CDP Audiences in Adobe Commerce
+title: Real-Time CDP Audiences
 description: Learn how to integrate Real-Time CDP audiences in Adobe Commerce.
-hidefromtoc: yes
-exl-id: eeca22b1-4f6d-4ce8-9928-4a0e56c78939
 ---
 # Integrate Real-Time CDP Audiences in Adobe Commerce
 
-The Real-Time CDP audience extension for Adobe Commerce lets you activate Real-Time CDP audiences in Adobe Commerce to create unique offers in the cart such as "buy 2 get 1 free", display hero banners geared toward that customer, and modify product pricing through various offers. The audiences built within Real-Time CDP are based on data from various enterprise systems, such as Enterprise Resource Planning (ERP), Customer Relationship Management (CRM), point of sale, and marketing systems.
+The Real-Time CDP audience extension for Adobe Commerce lets you activate Real-Time CDP audiences in Adobe Commerce to create unique offers in the cart such as "buy 2 get 1 free", display hero banners geared toward that customer, and modify product pricing through various offers. The audiences built within Real-Time CDP are based on data from various enterprise systems, such as Enterprise Resource Planning (ERP), Customer Relationship Management (CRM), point of sale, and marketing systems. Because customer segment information is constantly refreshed, customers can become associated and disassociated from a segment as they shop in your store.
 
 You can use Real-Time CDP audiences in a Luma storefront or [headless](#headless-support) storefront. In a Luma storefront, audience information (segment membership) is stored in a cookie on the Commerce side. In a headless storefront, audience information is passed in the GraphQL API header as a parameter named: `aep-segments-membership`.
 
@@ -19,14 +17,12 @@ The following tasks apply to both Luma and headless storefront implementations. 
 - [Install](#install-the-extension) the Real-Time CDP audience extension in the Admin
 - [Configure](#configure-the-extension) the Real-Time CDP audience extension in the Admin to import Real-Time CDP audiences into Commerce
 
-After you install and configure the extension, you can [create](customer-segment-rtcdp-cart-price-rule.md#create-a-cart-price-rule-based-on-an-real-time-cdp-audience) a cart price rule based on the imported Real-Time CDP audiences or [create](content-design/dynamic-blocks-price-rules-audiences.md) dynamic blocks that show or hide content based the specific audience.
-
 ### Install the extension
 
-You can install the Real-Time CDP audience extension for Adobe Commerce from the [marketplace](https://marketplace.magento.com/magento-experience-platform-connector.html) or you can run the following command:
+You can install the Real-Time CDP audience extension for Adobe Commerce from the [marketplace](https://marketplace.magento.com/magento-experience-platform-audiences.html) or you can run the following command:
 
    ```bash
-   composer require adobe/experience-platform-audiences
+   composer require magento/experience-platform-audiences
    ```
 
 ### Configure the extension
@@ -41,28 +37,26 @@ After you install the Real-Time CDP audience extension, you need to log into you
 
 1. Click **Save Config**.
 
-## Audience Library Dashboard
+With Real-Time CDP Audiences activated to your Adobe Commerce instance, you can:
 
-You can view all Real-Time CDP Audiences that are activated to your Adobe Commerce instance in the Audience Library dashboard.
+- [Create](../merchandising-promotions/customer-segment-rtcdp-cart-price-rule.md) a cart price rule informed by a Real-Time CDP Audience
+- [Create](../content-design/dynamic-blocks-price-rules-audiences.md) a dynamic block informed by a Real-Time CDP Audience
 
-To see all activated Real-Time CDP Audiences, on the _Admin_ sidebar, go to **[!UICONTROL Customers]** > _[!UICONTROL Settings]_ > **[!UICONTROL Real-time CDP Audiences]**. The Audience Library dashboard appears:
+## Real-Time CDP Audiences Dashboard
 
-![Real-Time CDP Audience Library Dashboard](./assets/audience-library.png)
+You can view all Real-Time CDP Audiences that are activated to your Adobe Commerce instance in the Real-Time CDP Audiences Dashboard.
+
+To see all activated Real-Time CDP Audiences, on the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audiences]**. The Real-Time CDP Audiences dashboard appears:
+
+![Real-Time CDP Audiences Dashboard](./assets/audience-library.png)
 
 |Column|Description|
 |--- |--- |
 |[!UICONTROL Audience]|Name given to the audience in Real-Time CDP.|
-|[!UICONTROL Last Modified]|Indicates when the audience was modified in Real-Time CDP|
+|[!UICONTROL Last Modified]|Indicates when the audience was modified in Real-Time CDP.|
 |[!UICONTROL Origin]|Indicates from where the audience was imported.|
 
 {style="table-layout:auto"}
-
-## Next steps
-
-With Real-Time CDP Audiences activated to your Adobe Commerce instance, you can:
-
-- [Create]() a cart price rule informed by a Real-Time CDP Audience
-- [Create]() a dynamic block informed by a Real-Time CDP Audience
 
 ## Headless support
 

@@ -10,6 +10,10 @@ Any [dynamic block](dynamic-blocks.md) that you create can be associated with a 
 
 >[!IMPORTANT]
 >
+>Make sure you have [installed](customer-segment-rtcdp.md#install-the-extension) and [configured](customer-segment-rtcdp.md#configure-the-extension) the Real-Time CDP audience extension before you create a cart price rule.
+
+>[!IMPORTANT]
+>
 >After you create this association, the dynamic block is displayed **only** when the rule fires. If the promotion is targeted to segment A, the block is displayed to segment A. If the promotion is not active, the block is not displayed.
 
 ## Associate a dynamic block with a cart price rule
