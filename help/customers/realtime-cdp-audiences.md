@@ -42,11 +42,11 @@ With Real-Time CDP Audiences activated to your Adobe Commerce instance, you can:
 - [Create](../merchandising-promotions/customer-segment-rtcdp-cart-price-rule.md) a cart price rule informed by a Real-Time CDP Audience
 - [Create](../content-design/dynamic-blocks-price-rules-audiences.md) a dynamic block informed by a Real-Time CDP Audience
 
-## Real-Time CDP Audiences Dashboard
+## Real-Time CDP audiences dashboard
 
-You can view all Real-Time CDP Audiences that are activated to your Adobe Commerce instance in the Real-Time CDP Audiences Dashboard.
+You can view all Real-Time CDP Audiences that are available in your Adobe Commerce instance using the **Real-Time CDP Audiences** dashboard. With this dashboard, you can see which audiences are active and where they are deployed on your site. Any new or modified audiences you [configure or create](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html) in Experience Platform will appear in this dashboard.
 
-To see all activated Real-Time CDP Audiences, on the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audiences]**. The Real-Time CDP Audiences dashboard appears:
+To see all available Real-Time CDP Audiences in your Commerce instance, from the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audiences]**. The **Real-Time CDP Audiences** dashboard appears:
 
 ![Real-Time CDP Audiences Dashboard](./assets/audience-library.png)
 
