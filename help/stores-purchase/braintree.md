@@ -5,9 +5,11 @@ exl-id: 781b385f-926e-4047-b7da-6f7c090d75d8
 ---
 # Braintree
 
-Braintree offers a fully customizable checkout experience with fraud detection, PayPal integration, Apple Pay, Google Pay, ACH, Venmo and Local Payment Methods. Braintree reduces the PCI compliance burden for merchants because the transaction takes place on the Braintree system.
+Braintree offers a fully customizable checkout experience with fraud detection and PayPal integration. It supports [!DNL Apple Pay], [!DNL Google Pay], ACH, Venmo, and local payment methods. Braintree reduces the PCI compliance burden for merchants because the transaction takes place on the Braintree system.
 
-If you are upgrading to 2.4.x from an earlier version of Adobe Commerce and Magento Open Source with the Braintree extension from Commerce Marketplace installed, see the [2.4 upgrade notes](#24-upgrade-notes) at the end of this topic.
+>[!NOTE]
+>
+>If you are upgrading to 2.4.x from an earlier version of Adobe Commerce or Magento Open Source with the Braintree extension from Commerce Marketplace installed, see the [2.4 upgrade notes](#24-upgrade-notes) at the end of this page.
 
 ## Step 1: Get your Braintree credentials
 
@@ -21,57 +23,61 @@ Go to [Braintree Payments][1] and sign up for an account.
 
    - If your Commerce installation has multiple websites, stores or views, in the upper-left corner, choose the **[!UICONTROL Store View]** where the configuration applies.
 
-   - In the _Merchant Location_ section, verify that **[!UICONTROL Merchant Country]** is set to the location of your business.
+   - In the _[!UICONTROL Merchant Location]_ section, verify that **[!UICONTROL Merchant Country]** is set to the location of your business.
 
-1. Under Recommended Solutions, in the **[!UICONTROL Braintree Payments (by [GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) v4.5.0)]** section, click **[!UICONTROL Configure]** and do the following:
+1. Under _[!UICONTROL Recommended Solutions]_, in the _[!UICONTROL Braintree Payments (by [GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) v4.5.0)]_ section, click **[!UICONTROL Configure]**:
 
    ![Configure Braintree](./assets/braintree-payments.png)<!-- zoom -->
 
-   - Enter a **[!UICONTROL Title]** to identify Braintree as a payment option during checkout.
+1. Enter a **[!UICONTROL Title]** to identify Braintree as a payment option during checkout.
 
-   - Set the current operating **[!UICONTROL Environment]** for Braintree transactions to one of the following:
+1. Set the current operating **[!UICONTROL Environment]** for Braintree transactions to `Sandbox` or `Production`
 
-      - `Sandbox`
-      - `Production`
+   When testing the configuration in a sandbox, use only [credit card numbers][2] that are recommended by Braintree. When you are ready to go to production with Braintree, set **[!UICONTROL Environment]** to `Production`.
 
-     When testing the configuration in a sandbox, use only [credit card numbers][2] that are recommended by Braintree. When you are ready to go to production with Braintree, set **[!UICONTROL Environment]** to `Production`.
+      ![Basic Credentials Settings](./assets/braintree-settings1.png)<!-- zoom -->
 
-   - Set **[!UICONTROL Payment Action]** to one of the following:
+1. Set **[!UICONTROL Payment Action]** to one of the following:
 
      -  `Authorize Only` - Approves the purchase and puts a hold on the funds. The amount is not withdrawn from the customer's bank account until the sale is _captured_ by the merchant.|
      - `Intent Sale`  - The amount of the purchase is authorized and immediately withdrawn from the customer's account. **_Note:_** This was  _Authorize and Capture_ in 2.3.x and earlier releases.|
 
-   - Enter the **[!UICONTROL Sandbox Merchant ID / Merchant ID]** from your Braintree account.
+1. Enter the **[!UICONTROL Sandbox Merchant ID / Merchant ID]** from your Braintree account.
 
-   - Enter the following credentials from your Braintree account:
+1. Enter the following credentials from your Braintree account:
 
-      - **[!UICONTROL Sandbox Public Key / Public Key]**
-      - **[!UICONTROL Sandbox Private Key / Private Key]**
+   - **[!UICONTROL Sandbox Public Key / Public Key]**
+   - **[!UICONTROL Sandbox Private Key / Private Key]**
 
-   - We have added separate fields for both **(Sandbox and Production)** environments, so Above-mentioned fields will render based on which Environment has been selected.
+   >[!NOTE]
+   >
+   >There are separate fields for both **(Sandbox and Production)** environments, and the other fields render based on which environment is selected.
 
-   - Validate your credentials before saving the config by clicking on **Validate Credentials** button.
+1. Before saving the configuration, click **[!UICONTROL Validate Credentials]** to validate your credentials.
 
-     ![Basic Credentials Settings](./assets/braintree-settings1.png)<!-- zoom -->
+1. Set **[!UICONTROL Enable Card Payments]** to `Yes`.
 
-   - Set **[!UICONTROL Enable Card Payments]** to `Yes`.
+   ![Basic Settings](./assets/braintree-settings2.png)<!-- zoom -->
+
    - If you want the ability to store customer information securely, so customers don't have to reenter it each time they make a purchase, set **[!UICONTROL Enable Vault for Card Payments]** to `Yes`.
-
-     ![Basic Settings](./assets/braintree-settings2.png)<!-- zoom -->
 
 ## Step 3: Complete the advanced settings
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Advanced Braintree Settings]** section.
 
+   ![Advanced Settings](./assets/braintree-advanced.png)<!-- zoom -->
+
 1. For **[!UICONTROL Vault Title]**, enter a descriptive title for your reference that identifies the vault where your customer card information is stored.
 
-1. Enter the **[!UICONTROL Merchant Account ID]** from your Braintree account. If you don't specify which merchant account to be used, Braintree will process the transaction using your default merchant account.
+1. Enter the **[!UICONTROL Merchant Account ID]** from your Braintree account. 
 
-1. **[!UICONTROL Skip Fraud Checks on Admin Orders]** - Prevents the transaction from being sent for evaluation as part of Advanced Fraud Tools checks, on orders placed through the admin only when it set to `Yes`.
+   If you don't specify the merchant account to be used, Braintree processes the transaction using your default merchant account.
 
-1. Set the `Bypass Fraud Protection Threshold` so that the `Advanced Fraud Protection` checks are bypassed when the threshold is met or exceeded.
+1. If you want to prevent the transaction from being sent for evaluation as part of Advanced Fraud Tools checks, on orders placed through the Admin, set **[!UICONTROL Skip Fraud Checks on Admin Orders]** to `Yes`.
 
-1. Leaving this field blank disables this option.
+1. Set the **[!UICONTROL Bypass Fraud Protection Threshold]** so that the `Advanced Fraud Protection` checks are bypassed when the threshold is met or exceeded.
+
+   Leaving this field blank disables this option.
 
 1. If you want the system to save a log file of interactions between your store and Braintree, set **[!UICONTROL Debug]** to `Yes`.
 
@@ -87,17 +93,23 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 1. For **[!UICONTROL Sort Order]**, enter a number to determine the sequence in which Braintree appears when listed with other payment methods during checkout.
 
-   ![Advanced Settings](./assets/braintree-advanced.png)<!-- zoom -->
+## Step 4: Complete the Braintree webhooks settings
 
-## Step 4: Complete the Braintree Webhooks settings
+1. Set **[!UICONTROL Enable Webhook]** to `Yes` to enable the webhook functionality for fraud protection, ACH payments, and local payment methods.
 
-1. **[!UICONTROL Enable Webhook]** - It will enable the webhook functionality for Fraud Protection, ACH payments and Local Payment methods.
+1. Copy the URL in the **[!UICONTROL Fraud Protection URL]** field and add it to your Braintree account as the _[!UICONTROL Webhook Destination URL]_. 
 
-2. **[!UICONTROL Fraud Protection URL]** - You will need to add this URL into your Braintree Account as Webhook Destination URL. **This URL must be secure and publicly accessible.**
+   >[!IMPORTANT]
+   >
+   >This URL must be secure and publicly accessible.
 
-3. **[!UICONTROL Fraud Protection Approve Order Status]** - When Fraud Protection gets approved by Braintree, selected order status will be assigned to the Magento Order.
+1. Set the **[!UICONTROL Fraud Protection Approve Order Status]** field to determine when fraud protection is approved by Braintree.
 
-4. **[!UICONTROL Fraud Protection Reject Order Status]** - When Fraud Protection gets rejected by Braintree, selected order status will be assigned to the Magento Order.
+   The selected order status is assigned to the Commerce order.
+
+1. Set the **[!UICONTROL Fraud Protection Reject Order Status]** field to determine when fraud protection is rejected by Braintree.
+
+   The selected order status is assigned to the Commerce order.
 
    ![Braintree Webhooks Settings](./assets/braintree-webhooks.png)<!-- zoom -->
 
@@ -120,96 +132,110 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 ## Step 6: Complete the ACH through Braintree settings
 
+![ACH through Braintree](./assets/braintree-ach-payments.png)<!-- zoom -->
+
 1. To include ACH as a payment option with Braintree, set **[!UICONTROL Enable ACH Direct Debit]** to `Yes`.
 
-2. For **[!UICONTROL Sort Order]**, enter a number to determine the sequence in which Braintree's ACH payment option appears when listed with other payment options during the checkout.
+1. For **[!UICONTROL Sort Order]**, enter a number to determine the sequence in which the Braintree ACH payment option appears when listed with other payment options during the checkout.
 
-   ![ACH through Braintree](./assets/braintree-ach-payments.png)<!-- zoom -->
+## Step 7: Complete the [!UICONTROL Apple Pay] through Braintree settings
 
-## Step 7: Complete the Apple Pay through Braintree settings
+![ApplePay through Braintree settings](./assets/braintree-apple-pay.png)<!-- zoom -->
 
-1. To include Apple Pay as a payment option with Braintree, set **[!UICONTROL Enable ApplePay through Braintree]** to `Yes`. You need to [verify your domain name](https://developer.paypal.com/braintree/docs/guides/apple-pay/configuration/javascript/v3) in your Braintree account first.
+1. To include [!DNL Apple Pay] as a payment option with Braintree, set **[!UICONTROL Enable ApplePay through Braintree]** to `Yes`.
 
-2. Set **[!UICONTROL Payment Action]** to one of the following:
+   Make sure to [verify your domain name](https://developer.paypal.com/braintree/docs/guides/apple-pay/configuration/javascript/v3) in your Braintree account first.
 
-    -  `Authorize Only` - Approves the purchase and puts a hold on the funds. The amount is not withdrawn from the customer's bank account until the sale is _captured_ by the merchant.
-    - `Intent Sale`  - The amount of the purchase is authorized and immediately withdrawn from the customer's account.
+1. Set **[!UICONTROL Payment Action]** to one of the following:
 
-3. **[!UICONTROL Merchant Name]**, Label that is displayed to customers in the Apple Pay popup.
+   -  `Authorize Only` - Approves the purchase and puts a hold on the funds. The amount is not withdrawn from the customer's bank account until the sale is _captured_ by the merchant.
+   - `Intent Sale` - The amount of the purchase is authorized and immediately withdrawn from the customer's account.
 
-4. For **[!UICONTROL Sort Order]**, enter a number to determine the sequence in which Apple Pay payment option appears when listed with other payment options during the checkout.
+1. Enter text in the **[!UICONTROL Merchant Name]** field to specify the label that is displayed to customers in the Apple Pay dialog.
 
-   ![ApplePay through Braintree settings](./assets/braintree-apple-pay.png)<!-- zoom -->
+1. For **[!UICONTROL Sort Order]**, enter a number to determine the sequence in which [!DNL Apple Pay] payment option appears when listed with other payment options during the checkout.
 
-## Step 8: Complete the Local Payment Methods settings
+## Step 8: Complete the local payment methods settings
 
-1. To include Local Payment Methods as a payment option with Braintree, set **[!UICONTROL Enable Local Payment Methods]** to `Yes`.
+1. To include local payment methods as a payment option with Braintree, set **[!UICONTROL Enable Local Payment Methods]** to `Yes`.
 
-2. Set **[!UICONTROL Title]**, Label that appears on the checkout Payment Method section. Default value: Local Payments
+2. Enter text in the **[!UICONTROL Title]** filed to specify the label that appears on the checkout payment method section (default value: `Local Payments`).
 
-3. **[!UICONTROL Allowed Payment Methods]**, Select the local Payment method that needs to be enabled. Options: `Bancontact` / `EPS` / `giropay` / `iDeal` / `Klarna Pay Now` / `SOFORT` / `MyBank` / `P24` / `SEPA/ELV Direct Debit`
+3. For **[!UICONTROL Allowed Payment Methods]**, select the local payment method that needs to be enabled. 
 
-4. For **[!UICONTROL Sort Order]**, enter a number to determine the sequence in which Local Payment Method appears when listed with other payment options during the checkout.
+   Options: `Bancontact` / `EPS` / `giropay` / `iDeal` / `Klarna Pay Now` / `SOFORT` / `MyBank` / `P24` / `SEPA/ELV Direct Debit`
+
+4. For **[!UICONTROL Sort Order]**, enter a number to determine the sequence in which local payment method appears when listed with other payment options during the checkout.
 
    ![Local Payment Methods settings](./assets/braintree-lpm.png)<!-- zoom -->
 
-## Step 9: Complete the GooglePay through Braintree settings
+## Step 9: Complete the [!DNL Google Pay] through Braintree settings
 
-1. To include Google Pay as a payment option with Braintree, set **[!UICONTROL Enable GooglePay Through Braintree]** to `Yes`.
+![Google Pay through Braintree](./assets/braintree-google-pay.png)<!-- zoom -->
 
-2. Set **[!UICONTROL Payment Action]** to one of the following:
+1. To include [!DNL Google Pay] as a payment option with Braintree, set **[!UICONTROL Enable GooglePay Through Braintree]** to `Yes`.
+
+1. Set **[!UICONTROL Payment Action]** to one of the following:
 
     -  `Authorize Only` - Approves the purchase and puts a hold on the funds. The amount is not withdrawn from the customer's bank account until the sale is _captured_ by the merchant.
     - `Intent Sale`  - The amount of the purchase is authorized and immediately withdrawn from the customer's account.
 
-2. Set **[!UICONTROL Button Color]**, Determines the color of the [!DNL Google Pay] button. Options: `White` / `Black`
+1. Set **[!UICONTROL Button Color]** to determine the color of the [!DNL Google Pay] button: `White` or `Black`
 
-3. **[!UICONTROL Merchant ID]**, Your MerchantID, provided by Google must be entered here.
+1. For **[!UICONTROL Merchant ID]**, enter your MerchantID (provided by Google).
 
-4. **[!UICONTROL Accepted Cards]**, Select the type of cards that a customer can use to place order using [!DNL Google Pay]. Options: `Visa` / `MasterCard` / `AMEX` / `Discover` / `JCB`
+1. For **[!UICONTROL Accepted Cards]**, select the type of cards that a customer can use to place order using [!DNL Google Pay]. 
 
-5. For **[!UICONTROL Sort Order]**, enter a number to determine the sequence in which Google Pay appears when listed with other payment options during the checkout.
+   Options: `Visa` / `MasterCard` / `AMEX` / `Discover` / `JCB`
 
-   ![GooglePay through Braintree](./assets/braintree-google-pay.png)<!-- zoom -->
+1. For **[!UICONTROL Sort Order]**, enter a number to determine the sequence in which [!DNL Google Pay] appears when listed with other payment options during the checkout.
 
 ## Step 10: Complete the Venmo through Braintree settings
 
 1. To include Venmo as a payment option with Braintree, set **[!UICONTROL Enable Venmo through Braintree]** to `Yes`.
 
-2. Set **[!UICONTROL Payment Action]** to one of the following:
+   ![Venmo through Braintree](./assets/braintree-venmo.png)<!-- zoom -->
+
+1. Set **[!UICONTROL Payment Action]** to one of the following:
 
    -  `Authorize Only` - Approves the purchase and puts a hold on the funds. The amount is not withdrawn from the customer's bank account until the sale is _captured_ by the merchant.
    - `Intent Sale`  - The amount of the purchase is authorized and immediately withdrawn from the customer's account.
 
-5. For **[!UICONTROL Sort Order]**, enter a number to determine the sequence in which Google Pay appears when listed with other payment options during the checkout.
-
-   ![Venmo through Braintree](./assets/braintree-venmo.png)<!-- zoom -->
+1. For **[!UICONTROL Sort Order]**, enter a number to determine the sequence in which Venmo appears when listed with other payment options during the checkout.
 
 ## Step 11: Complete the PayPal through Braintree settings
 
-1. Identify your PayPal through Braintree configuration:
+   ![PayPal through Braintree Settings](./assets/braintree-paypal.png)<!-- zoom -->
 
-   - To include PayPal as a payment option with Braintree, set **[!UICONTROL Enable PayPal through Braintree]** to `Yes`.
+1. To include PayPal as a payment option with Braintree, set **[!UICONTROL Enable PayPal through Braintree]** to `Yes`.
 
-   - To include PayPal Credit as a payment option with Braintree, set **[!UICONTROL Enable PayPal Credit through Braintree]** to `Yes`.
-     - if **Enable PayPal through Braintree** field is set to `Yes` then only this field will appear.
-     - PayPal Credit is currently only available in the United States and United Kingdom. PayPal Credit will be disabled if the selected value for the Merchant Country field is not US or UK. This field only available if Merchant Country is US or UK.
-
-   - To include PayPal Pay Later as a payment option with Braintree, set **[!UICONTROL Enable PayPal Pay Later through Braintree]** to `Yes`.
-     - if **Enable PayPal through Braintree** field is set to `Yes` then only this field will appear.
-     - Display pay later messaging on your site for offers like Pay in 3, which lets customers pay with 3 interest-free monthly payments. We'll show messages on your site to promote this feature for you. You may not promote pay later offers with any other content, marketing, or materials.
+1. Specify your PayPal through Braintree payment method:
 
    >[!NOTE]
    >
-   >Either **PayPal Credit** or **PayPal Pay Later** can be enabled. Both the methods can't be enabled at the same.
+   >Either **[!DNL PayPal Credit]** or **[!DNL PayPal PayLater]** can be enabled. Both the methods cannot be enabled at the same.
 
-   - Enter a **[!UICONTROL Title]** to identify Braintree's payment by PayPal option during checkout.
+   - To include [!DNL PayPal Credit] as a payment option with Braintree, set **[!UICONTROL Enable PayPal Credit through Braintree]** to `Yes`.
+     
+      When **Enable PayPal through Braintree** is set to `Yes`, only this field appears.
 
-   - Set **[!UICONTROL Vault Title]** to `Yes` to enable use of a secure vault to store customers' credit card information.
+      >[!NOTE]
+      >
+      >PayPal Credit is only available in the United States and United Kingdom. PayPal Credit is disabled if the selected value for the _[!UICONTROL Merchant Country]_ field is not `US` or `UK`. 
 
-   - For **[!UICONTROL Sort Order]**, enter a number to determine the sequence in which Braintree's PayPal payment option appears when listed with other payment options during checkout.
+   - To include [!DNL PayPal PayLater] as a payment option with Braintree, set **[!UICONTROL Enable PayPal PayLater through Braintree]** to `Yes`.
 
-   - To display your [merchant name](../getting-started/store-details.md#store-information) differently than what is defined in your store configuration, enter the name as you want it to appear in the **[!UICONTROL Override Merchant Name]** field.
+     When **[!UICONTROL Enable PayPal PayLater through Braintree]** is set to `Yes`, only this field appears.
+
+     You can display PayLater messaging on your site for offers, such as _Pay in 3_, which lets customers pay with three interest-free monthly payments. The Braintree integration can display messages on your site to promote this feature. You cannot promote PayLater offers with any other content, marketing, or materials.
+
+1. Enter a **[!UICONTROL Title]** to identify the Braintree payment by PayPal option during checkout.
+
+1. Set **[!UICONTROL Vault Title]** to `Yes` to enable use of a secure vault to store customers' credit card information.
+
+1. For **[!UICONTROL Sort Order]**, enter a number to determine the sequence in which the Braintree PayPal payment option appears when listed with other payment options during checkout.
+
+1. To display your merchant name differently than what is defined in your [store configuration](../getting-started/store-details.md#store-information), enter the name in the **[!UICONTROL Override Merchant Name]** field as you want it to appear.
 
 1. Set **[!UICONTROL Payment Action]** to one of the following:
 
@@ -229,61 +255,63 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 1. To save a log file of interactions between your store and PayPal through Braintree, set **[!UICONTROL Debug]** to `Yes`.
 
-1. To display the PayPal button on both the mini shopping cart and shopping cart page, set **[!UICONTROL Display on Shopping Cart]** to `Yes`.
+1. To display the PayPal button on both the mini cart and shopping cart page, set **[!UICONTROL Display on Shopping Cart]** to `Yes`.
 
-   ![PayPal through Braintree Settings](./assets/braintree-paypal.png)<!-- zoom -->
+## Step 12: Set the styling settings
 
-### [!UICONTROL Styling]
+1. For **[!UICONTROL Location]**, choose where PayPal buttons and messages are rendered: `Mini-Cart and Cart Page`, `Checkout Page`, or `Product Page`
 
-1. **[!UICONTROL Location]**, where PayPal buttons and messages will be rendered, field does have the following options: `Mini-Cart and Cart Page` / `Checkout Page` / `Product Page`
+   ![PayPal Styling settings](./assets/braintree-paypal-styling.png)<!-- zoom -->
 
-#### [!UICONTROL Mini-Cart and Cart Page]
-This section will render based on what location has been selected for the above **Location** field.
+### [!UICONTROL Mini-Cart and Cart Page]
 
-1. **[!UICONTROL PayPal Button Type]**, There are 3 types of button types. Options: `PayPal Button` / `PayPal Pay Later Button` / `PayPal Credit Button`
+The option and settings in this section vary according to the setting in the _[!UICONTROL Location]_ field.
 
-##### [!UICONTROL PayPal Button]
-This section will render based on what button type has been selected for the above **PayPal Button Type** field.
+1. Set **[!UICONTROL PayPal Button Type]** to one of three types of buttons: `PayPal Button` / `PayPal Pay Later Button` / `PayPal Credit Button`
 
-1. To show PayPal button at front-end on selected location, set **[!UICONTROL Show PayPal Button]** to `Yes`.
+**[!UICONTROL PayPal Button]**
 
-2. **[!UICONTROL Button Label]**, Select the PayPal button label from the drop-down. Options: `Paypal` / `Checkout` / `Buynow` / `Pay`
+The options and settings in this section vary according to the button type selected in the _[!UICONTROL PayPal Button Type]_ field.
 
-3. **[!UICONTROL Color]**, Select the PayPal button color from the drop-down. Options: `Blue` / `Black` / `Gold` / `Silver`
+1. To show the PayPal button on the storefront at the selected location, set **[!UICONTROL Show PayPal Button]** to `Yes`.
 
-4. **[!UICONTROL Shape]**, Select the PayPal button shape from the drop-down. Options: `Pill` / `Rectangle`
+1. For **[!UICONTROL Button Label]**, select the PayPal button label: `Paypal`, `Checkout`, `Buynow`, or `Pay`
 
-5. **[!UICONTROL Size]**, Select the PayPal button shape from the drop-down. Options: `Medium` / `Large` / `Responsive`
+1. For **[!UICONTROL Color]**, select the PayPal button color: `Blue`, `Black`, `Gold`, or `Silver`
 
-##### [!UICONTROL Pay Later Messaging]
+1. For **[!UICONTROL Shape]**, select the PayPal button shape: `Pill` or `Rectangle`
 
-1. To show Pay Later Messaging at front-end on selected location, set **[!UICONTROL Show Pay Later Messaging]** to `Yes`. Displays Pay Later messaging for available offers. Restrictions apply. [Click here to learn more](https://developer.paypal.com/docs/checkout/pay-later/us/).
+1. For **[!UICONTROL Size]**, select the PayPal button size: `Medium`, `Large`, or `Responsive`
 
-2. **[!UICONTROL Message Layout]**, Select the pay later message layout from the drop-down. Options: `Text` / `Flex`
+**[!UICONTROL PayLater Messaging]**
 
-3. **[!UICONTROL Logo]**, Select the PayPal Logo type from the drop-down. Options: `Inline` / `Primary` / `Alternative` / `None`
+1. To show [!DNL PayLater] messaging on the storefront at the selected location, set **[!UICONTROL Show PayLater Messaging]** to `Yes`. 
 
-4. **[!UICONTROL Logo Position]**, Select the PayPal logo position from the drop-down. Options: `Left` / `Right` / `Top`
+   This includes the display of [!DNL PayLater] messaging for available offers ([restrictions apply](https://developer.paypal.com/docs/checkout/pay-later/us/)). 
 
-5. **[!UICONTROL Text Color]**, Select the pay later message text color from the drop-down. Options: `Black` / `White` / `Monochrome` / `Grayscale`
+1. For **[!UICONTROL Message Layout]**, select the [!DNL PayLater] message layout: `Text` or `Flex`
 
-    After these fields, you can find the preview of the PayPal buttons and pay later messages along with following buttons which are responsible to apply the settings or reset it to the recommended values.
+1. For **[!UICONTROL Logo]**, select the PayPal logo type: `Inline`, `Primary`, `Alternative`, or `None`
 
-1. **[!UICONTROL Apply]**, This button is responsible to store selected styling field of buttons and pay later messaging for the current location and current button type
+1. For **[!UICONTROL Logo Position]**, select the PayPal logo position: `Left`, `Right`, or `Top`
 
-2. **[!UICONTROL Apply to All Buttons]**, This button is responsible to store selected styling field of buttons and pay later messaging values for all the Buttons types and locations.
+1. For **[!UICONTROL Text Color]**, select the [!DNL PayLater] message text color: `Black`, `White`, `Monochrome`, or `Grayscale`
 
-3. **[!UICONTROL Reset to Recommended Defaults]**, This button is responsible to set recommended default values to all the buttons and pay later messaging for all the Buttons types and locations.
+When these options are set, you can see the preview of the PayPal buttons and PayLater messages. There are controls that you can use to apply the settings or reset the values:
 
-    ![PayPal Styling settings](./assets/braintree-paypal-styling.png)<!-- zoom -->
+- Click **[!UICONTROL Apply]** to store the selected styling settings for buttons and PayLater messaging and apply them to the current location and current button type.
 
-## Step 12: Complete the 3D verification settings
+- Click **[!UICONTROL Apply to All Buttons]** to store the selected styling settings for buttons and PayLater messaging values and apply them to all button types and locations.
 
-1. If you want to add a verification step for customers using credit cards that are enrolled in a verification program such as "Verified by VISA," set **[!UICONTROL 3D Secure Verification]** to `Yes`.
+- Click **[!UICONTROL Reset to Recommended Defaults]** to return styling settings to the recommended default values for buttons and PayLater messaging and apply them to all button types and locations.
+
+## Step 13: Complete the 3D verification settings
+
+1. If you want to add a verification step for customers using credit cards that are enrolled in a verification program (such as _Verified by VISA_), set **[!UICONTROL 3D Secure Verification]** to `Yes`.
 
    During the process, the transaction amount that is submitted for verification is checked against the amount that is sent for authorization.
 
-2. To challenge the 3D Secure request always for all the transactions set **[!UICONTROL Always request 3DS]** to `Yes`.
+2. To always challenge the 3D Secure request for all transactions, set **[!UICONTROL Always request 3DS]** to `Yes`.
 
 3. For **[!UICONTROL Threshold Amount]**, enter the minimum order amount that is required to trigger 3D verification.
 
@@ -294,27 +322,29 @@ This section will render based on what button type has been selected for the abo
 
    ![3D verification settings](./assets/braintree-3ds-settings.png)<!-- zoom -->
 
-## Step 13: Dynamic descriptors
+## Step 14: Set up the Braintree dynamic descriptors
 
 The following descriptors are used to identify purchases on customer credit card statements. You can reduce the number of charge backs by clearly identifying the company that is associated with each purchase. If dynamic descriptors are not enabled for your account, contact Braintree support.
 
+![Dynamic Descriptors](./assets/braintree-dynamic-descriptors.png)<!-- zoom -->
+
 1. Enter the dynamic descriptor for the **[!UICONTROL Name]**, **[!UICONTROL Phone]**, and **[!UICONTROL URL]** according to these guidelines:
 
-   -  **[!UICONTROL Name]** - There are two parts to the Name descriptor, which are separated by an asterisk (*). For example:
+   -  **[!UICONTROL Name]** - There are two parts to the name descriptor, which are separated by an asterisk (*). For example:
       
       `company*myproduct`
       
-      The first part of the descriptor identifies the company or DBA, and the second part identifies the product. The length of the Company  and Product parts of the descriptor can be allocated in the following ways, for a combined length of up to 22 characters.
+      The first part of the descriptor identifies the company or DBA, and the second part identifies the product. The length of the `company` and `product` parts of the descriptor can be allocated in the following ways, for a combined length of up to 22 characters.
       
-      **_Characters in Name descriptor_**
+      **_Characters in name descriptor_**
       
-      _Option 1:_ Company must be three characters, Product may be up to 18 characters
+      _Option 1:_ `Company` must be three characters, `Product` may be up to 18 characters
       
-      _Option 2:_ Company must be seven characters, Product may be up to 14 characters
+      _Option 2:_ `Company` must be seven characters, `Product` may be up to 14 characters
       
-      _Option 3_: Company must be 12 characters, Product may be up to nine characters
+      _Option 3_: `Company` must be 12 characters, `Product` may be up to nine characters
 
-   - **[!UICONTROL Phone]** - The Phone descriptor must be 10 – 14 characters in length, and can include only numbers, dashes, parentheses, and periods. For example:
+   - **[!UICONTROL Phone]** - The phone descriptor must be 10 – 14 characters in length, and can include only numbers, dashes, parentheses, and periods. For example:
 
       `9999999999`
       
@@ -326,13 +356,11 @@ The following descriptors are used to identify purchases on customer credit card
 
       `company.com`
 
-    ![Dynamic Descriptors](./assets/braintree-dynamic-descriptors.png)<!-- zoom -->
-
-2. When your Braintree configuration is complete, click **[!UICONTROL Save Config]**.
+1. When your Braintree configuration is complete, click **[!UICONTROL Save Config]**.
 
 ## 2.4 upgrade notes 
 
-Before upgrading to Commerce 2.4, we recommended that merchants replace the core Commerce Braintree integration with the official Braintree extension from [Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree). Beginning with Adobe Commerce and Magento Open Source 2.4.0, the Braintree extension is included in the release.
+Before upgrading to Commerce 2.4 from 2.3, it is recommended that merchants replace the core Commerce Braintree integration with the official Braintree extension from [Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree). Beginning with Adobe Commerce and Magento Open Source 2.4.0, the Braintree extension is included in the release.
 
 If you are migrating to Commerce 2.4.x from a pre-2.4.0 version that has the Marketplace Braintree extension installed, you must uninstall that extension (`paypal/module-braintree` or `gene/module-braintree`) and update any code customizations to use the `PayPal_Braintree` namespace instead of `Magento_Braintree`. Configuration settings from the core Commerce Braintree Payments bundled extension and the extension distributed on Commerce Marketplace persist and payments placed with those previous versions can still be captured, voided, or refunded as normal.
 
