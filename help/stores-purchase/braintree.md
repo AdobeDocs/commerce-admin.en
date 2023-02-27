@@ -65,7 +65,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Advanced Braintree Settings]** section.
 
-   ![Advanced Settings](./assets/braintree-advanced.png)<!-- zoom -->
+   ![Advanced Settings](../configuration-reference/sales/assets/payment-methods-braintree-advanced-config.png)<!-- zoom -->
 
 1. For **[!UICONTROL Vault Title]**, enter a descriptive title for your reference that identifies the vault where your customer card information is stored.
 
@@ -95,6 +95,8 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 ## Step 4: Complete the Braintree webhooks settings
 
+![Braintree Webhooks Settings](../configuration-reference/sales/assets/payment-methods-braintree-webhooks-config.png)<!-- zoom -->
+
 1. Set **[!UICONTROL Enable Webhook]** to `Yes` to enable the webhook functionality for fraud protection, ACH payments, and local payment methods.
 
 1. Copy the URL in the **[!UICONTROL Fraud Protection URL]** field and add it to your Braintree account as the _[!UICONTROL Webhook Destination URL]_. 
@@ -111,8 +113,6 @@ Go to [Braintree Payments][1] and sign up for an account.
 
    The selected order status is assigned to the Commerce order.
 
-   ![Braintree Webhooks Settings](./assets/braintree-webhooks.png)<!-- zoom -->
-
 ## Step 5: Complete the country-specific settings
 
 1. Set **[!UICONTROL Payment from Applicable Countries]** to one of the following:
@@ -120,7 +120,7 @@ Go to [Braintree Payments][1] and sign up for an account.
    - `All Allowed Countries` - Customers from all [countries](../getting-started/store-details.md#country-options) specified in your store configuration can use this payment method.
    - `Specific Countries` - After choosing this option, the _[!UICONTROL Payment from Specific Countries]_ list appears. Hold down the Ctrl key (PC) or the Command key (Mac) and select each country in the list where customers can make purchases from your store.
 
-   ![Country-Specific Settings](./assets/braintree-country-settings.png)<!-- zoom -->
+   ![Country-Specific Settings](../configuration-reference/sales/assets/payment-methods-braintree-country-specific-config.png)<!-- zoom -->
 
 1. To set up **[!UICONTROL Country Specific Credit Card Types]**:
 
@@ -132,7 +132,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 ## Step 6: Complete the ACH through Braintree settings
 
-![ACH through Braintree](./assets/braintree-ach-payments.png)<!-- zoom -->
+![ACH through Braintree](../configuration-reference/sales/assets/payment-methods-braintree-ach-config.png)<!-- zoom -->
 
 1. To include ACH as a payment option with Braintree, set **[!UICONTROL Enable ACH Direct Debit]** to `Yes`.
 
@@ -140,7 +140,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 ## Step 7: Complete the [!UICONTROL Apple Pay] through Braintree settings
 
-![ApplePay through Braintree settings](./assets/braintree-apple-pay.png)<!-- zoom -->
+![ApplePay through Braintree settings](../configuration-reference/sales/assets/payment-methods-braintree-applepay-config.png)<!-- zoom -->
 
 1. To include [!DNL Apple Pay] as a payment option with Braintree, set **[!UICONTROL Enable ApplePay through Braintree]** to `Yes`.
 
@@ -159,19 +159,19 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 1. To include local payment methods as a payment option with Braintree, set **[!UICONTROL Enable Local Payment Methods]** to `Yes`.
 
-2. Enter text in the **[!UICONTROL Title]** filed to specify the label that appears on the checkout payment method section (default value: `Local Payments`).
+1. For **[!UICONTROL Title]**, enter the text to use for the label that appears on the checkout payment method section (default value: `Local Payments`).
 
-3. For **[!UICONTROL Allowed Payment Methods]**, select the local payment method that needs to be enabled. 
+1. For **[!UICONTROL Allowed Payment Methods]**, select the local payment method that needs to be enabled.
 
    Options: `Bancontact` / `EPS` / `giropay` / `iDeal` / `Klarna Pay Now` / `SOFORT` / `MyBank` / `P24` / `SEPA/ELV Direct Debit`
 
-4. For **[!UICONTROL Sort Order]**, enter a number to determine the sequence in which local payment method appears when listed with other payment options during the checkout.
+   ![Local Payment Methods settings](../configuration-reference/sales/assets/payment-methods-braintree-local-payment-config.png)<!-- zoom -->
 
-   ![Local Payment Methods settings](./assets/braintree-lpm.png)<!-- zoom -->
+1. For **[!UICONTROL Sort Order]**, enter a number to determine the sequence in which local payment method appears when listed with other payment options during the checkout.
 
 ## Step 9: Complete the [!DNL Google Pay] through Braintree settings
 
-![Google Pay through Braintree](./assets/braintree-google-pay.png)<!-- zoom -->
+![Google Pay through Braintree](../configuration-reference/sales/assets/payment-methods-braintree-googlepay-config.png)<!-- zoom -->
 
 1. To include [!DNL Google Pay] as a payment option with Braintree, set **[!UICONTROL Enable GooglePay Through Braintree]** to `Yes`.
 
@@ -194,7 +194,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 1. To include Venmo as a payment option with Braintree, set **[!UICONTROL Enable Venmo through Braintree]** to `Yes`.
 
-   ![Venmo through Braintree](./assets/braintree-venmo.png)<!-- zoom -->
+   ![Venmo through Braintree](../configuration-reference/sales/assets/payment-methods-braintree-venmo-config.png)<!-- zoom -->
 
 1. Set **[!UICONTROL Payment Action]** to one of the following:
 
@@ -261,7 +261,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 1. For **[!UICONTROL Location]**, choose where PayPal buttons and messages are rendered: `Mini-Cart and Cart Page`, `Checkout Page`, or `Product Page`
 
-   ![PayPal Styling settings](./assets/braintree-paypal-styling.png)<!-- zoom -->
+   ![PayPal Styling settings](../configuration-reference/sales/assets/payment-methods-braintree-paypal-styling.png)<!-- zoom -->
 
 ### [!UICONTROL Mini-Cart and Cart Page]
 
@@ -320,13 +320,13 @@ When these options are set, you can see the preview of the PayPal buttons and Pa
    - `All Allowed Countries` - Customers from all [countries](../getting-started/store-details.md#country-options) specified in your store configuration can use this payment method.
    - `Specific Countries` - After choosing this option, the _[!UICONTROL Verify for Specific Countries]_ list appears. Hold down the Ctrl key (PC) or the Command key (Mac) and select each country in the list where customers can make purchases from your store.
 
-   ![3D verification settings](./assets/braintree-3ds-settings.png)<!-- zoom -->
+   ![3D verification settings](../configuration-reference/sales/assets/payment-methods-braintree-3d-secure-verify-config.png)<!-- zoom -->
 
 ## Step 14: Set up the Braintree dynamic descriptors
 
 The following descriptors are used to identify purchases on customer credit card statements. You can reduce the number of charge backs by clearly identifying the company that is associated with each purchase. If dynamic descriptors are not enabled for your account, contact Braintree support.
 
-![Dynamic Descriptors](./assets/braintree-dynamic-descriptors.png)<!-- zoom -->
+![Dynamic Descriptors](../configuration-reference/sales/assets/payment-methods-braintree-dynamic-config.png)<!-- zoom -->
 
 1. Enter the dynamic descriptor for the **[!UICONTROL Name]**, **[!UICONTROL Phone]**, and **[!UICONTROL URL]** according to these guidelines:
 
