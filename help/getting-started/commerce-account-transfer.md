@@ -73,7 +73,7 @@ This transfer type requires that you first create an associated Adobe ID and the
 
 1. Under your account name and avatar, click **[!UICONTROL Change Email]**.
 
-1. In tha dialog, enter the new owner's email address.
+1. In the dialog, enter the new owner's email address.
 
 1. Click **[!UICONTROL Change]**.
 
