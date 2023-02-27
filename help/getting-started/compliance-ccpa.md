@@ -7,9 +7,9 @@ exl-id: 165c8b78-683e-4015-b3c4-d3211750799e
 
 >[!NOTE]
 >
->This information is one in a series of topics to help Adobe Commerce and Magento Open Source merchants and developers understand the implications of the California Consumer Privacy Act. The information is based on the text of the statute. To confirm if CCPA applies to your business, consult with your attorney.
+>This information is one in a series of topics to help Adobe Commerce merchants and developers understand the implications of the California Consumer Privacy Act. The information is based on the text of the statute. To confirm if CCPA applies to your business, consult with your attorney.
 
-The [California Consumer Privacy Act][5]{: target="_blank"} (CCPA) expands the rights of consumers in California for determining how their personal information is collected, stored, and used, with an emphasis on protecting consumers from the unauthorized sale or exchange or their personal information. The CCPA was enacted in 2018 and went into effect January 1, 2020.
+The [California Consumer Privacy Act][5] (CCPA) expands the rights of consumers in California for determining how their personal information is collected, stored, and used. Its emphasis is the protection of consumers from the unauthorized sale or exchange or their personal information. The CCPA was enacted in 2018 and went into effect January 1, 2020.
 
 The CCPA grants the following new rights to consumers:
 
@@ -20,28 +20,23 @@ The CCPA grants the following new rights to consumers:
 
 For CCPA purposes, personal information in this context is defined as:
 
-  "Information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer or household." (Section 1798.140)
+>Information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer or household. (Section 1798.140)
 
 In this regard, it covers certain data elements that may not be considered personal data in the context of other laws or regulations. Merchants should keep this in mind when determining whether and how they should comply with the law.
 
-The CCPA also requires businesses to provide "reasonable security", and includes expanded data protection provisions for consumers, including the right to pursue legal action in the event of a data breach.
+The CCPA also requires businesses to provide _reasonable security_, and includes expanded data protection provisions for consumers, including the right to pursue legal action if there is a data breach.
 
-Consult with your legal counsel to determine whether and how you should comply with any CCPA requirements that may be applicable to you and your business, including the new notice, opt-out, and record-keeping requirements that businesses must implement in accordance with the law.
+Consult with your legal counsel to determine if and how you should comply with any CCPA requirements that may be applicable to you and your business. This includes the new notice, opt-out, and record-keeping requirements that businesses must implement in accordance with the law.
 
 ## Business requirements
 
-The CCPA applies to the following businesses--regardless of where the business is registered--that do business in California and collect, share, or sell California consumers' personal data:
+The CCPA applies to for-profit businesses that do business in California and meet any of the following:
 
-(1) A sole proprietorship, partnership, limited liability company, corporation, association, or other legal entity that is organized or operated for the profit or financial benefit of its shareholders or other owners, that collects consumers' personal information, or on the behalf of which such information is collected and that alone, or jointly with others, determines the purposes and means of the processing of consumers' personal information, that does business in the State of California, and that satisfies one or more of the following thresholds:
+- Have a gross annual revenue of over $25 million
+- Buy, receive, or sell the personal information of 100,000 or more California residents, households, or devices
+- Derive 50% or more of their annual revenue from selling California residents' personal information.
 
-- A gross annual revenue more than $25 million;
-- Or that buy, receive, or sell the personal information of 50,000 or more consumers, households, or devices;
-- Or that derive 50% or more of their annual revenue from the sale of consumer personal information.
-- Businesses that handle the personal information of more than 4 million consumers have additional obligations under the CCPA.
-
-(2) Any entity that controls or is controlled by a business, as defined in paragraph (1), and that shares common branding with the business. "Control" or "controlled" means ownership of, or the power to vote, more than 50 percent of the outstanding shares of any class of voting security of a business; control in any manner over the election of a majority of the directors, or of individuals exercising similar functions; or the power to exercise a controlling influence over the management of a company. "Common branding" means a shared name, servicemark, or trademark.
-
-## CCPA Compliance Guide
+## CCPA compliance guide
 
 This section provides a high-level outline of the steps required for merchants to comply with privacy regulations such as the California Consumer Privacy Act (CCPA).
 
@@ -75,7 +70,7 @@ Assemble a team that represents the following functional roles in your business,
 - Customer Service
 - Administrative Support
 
-From a business perspective, you must determine if your company extends these privacy-protection measures only to consumers in California, or make them available to all consumers, regardless of location.
+From a business perspective, you must determine if your company extends these privacy-protection measures only to consumers in California, or makes them available to all consumers, regardless of location.
 
 #### Step 2: Take inventory of your digital properties
 
@@ -83,15 +78,15 @@ From a business perspective, you must determine if your company extends these pr
 
 Take inventory of your digital properties, including all integrations and who has access to your consumer data.
 
-1. Determine what public and private personal information is collected through your websites and mobile applications. For example, a standard [!DNL Commerce] database stores the following types of public and private personal information:
+1. Determine what public and private personal information is collected through your websites and mobile applications. For example, a standard Commerce database stores the following types of public and private personal information:
 
-   - **Public**: Wish Lists, Product Reviews
+   - **Public**: Wish lists, product reviews
 
    - **Private**: Customer Information, Order Information, Reward Points, Gift Registry, Address Book, Store Credit, Payment Methods, Billing Agreements, Newsletter Subscriptions, Invitations.
 
       If your [!DNL Commerce] installation has been customized, additional personal information might be collected. Personal information might also reside in [cookies](./compliance-cookie-law.md), tags, and other technologies that collect information.
 
-1. Identify the parties with whom you share data. The list should include service providers and third parties such as advertising networks, internet service providers, data analytics providers, government entities, operating systems and platforms, social networks, and consumer data resellers who do not directly collect personal information from your consumers.
+1. Identify the parties with whom you share data. The list should include service providers and third parties. Third parties include advertising networks, internet service providers, data analytics providers, government entities, operating systems and platforms, social networks, and consumer data resellers who do not directly collect personal information from your consumers.
 
    - **Service Providers**:  Entities who have access to your consumer data for a business purpose, and provide services on your behalf. For example, Adobe is service provider, as are some developers of customizations, extensions, and services.
 
@@ -128,19 +123,19 @@ From a data management perspective, each request for personal information involv
 
 Merchants are responsible to do the following:
 
-1. Identify the parties involved in the Data Subject Access Request (DSAR), and verify the identity of any person who requests to know, opt out, or delete, regardless of whether the person has a password-protected customer account, or shops in your store as a guest.
+1. Identify the parties involved in the Data Subject Access Request (DSAR) and verify the identity of any person who requests to know, opt out, or delete. This applies a person who has a password-protected customer account, or one who shops in your store as a guest.
 
-1. Disclose and deliver information to a consumer in response to their rights request within 45 days of receiving a verifiable consumer request from the consumer, unless it is not possible. (The law contains certain other requirements for a business to maintain compliance for delays of up to an additional 45 days).
+1. Disclose and deliver information to a consumer in response to their rights request within 45 days of receiving a verifiable consumer request from the consumer, unless it is not possible. (The law contains certain other requirements for a business to maintain compliance for delays of up to an extra 45 days).
 
-    Merchants must respond to each DSAR within 45 days, beginning from the day the request is received. If necessary, merchants can take up to an additional 45 days to respond, for a maximum total of 90 days from the day the request is received, if the merchant notifies the customer to explain the reason for the delay.
+   Merchants must respond to each DSAR within 45 days, beginning from the day the request is received. If necessary, merchants can take up to 45 more days to respond, for a maximum total of 90 days from the day the request is received. This requires that the merchant notifies the customer to explain the reason for the delay.
 
 1. Develop a mechanism for presenting the required notifications in your store and collecting consumer response.
 
 1. Establish response procedures and document each of the following requests:
 
-   - **Requests to Know**: Visitors to your store must be informed of any arrangements that you have to sell or share their personal information with third parties, and be allowed to opt out. The details of your use of personal information, and the parties with whom you share or sell data can be maintained in your privacy policy.
+   - **Requests to Know** - Visitors to your store must be informed of any arrangements that you have to sell or share their personal information with third parties, and be allowed to opt out. The details of your use of personal information, and the parties with whom you share or sell data can be maintained in your privacy policy.
 
-   - **Requests to Opt Out**: The CCPA requires businesses to provide a _Do Not Sell My Info_ link at each point where personal data is collected, if it will be sold or transferred to third parties in exchange for valuable consideration. Additional user-enabled input controls, such as checkboxes and buttons, can be used in email communications, website preference settings, or in website forms at the point of data collection for individuals to submit a valid opt-out request.
+   - **Requests to Opt Out** - If personal data is sold or transferred to third parties in exchange for valuable consideration, the CCPA requires a _Do Not Sell My Info_ link at each point where it is collected. Additional user-enabled input controls, such as checkboxes and buttons, can be used in email communications, website preference settings, or in website forms at the point of data collection for individuals to submit a valid opt-out request.
 
    - **Requests to Delete**
 
@@ -186,7 +181,7 @@ Review and if necessary, update all service provider contracts to reflect CCPA r
 
 Review your current privacy policy and consider what, if any, additional disclosures are necessary.
 
-- **Use of Personal Information**: You must disclose what personal information is collected, and any financial incentives you receive in exchange from the sale of personal information. You must explain how the incentive is allowed under CCPA, and how the value of the personal information is calculated.
+- **Use of Personal Information**: You must disclose what personal information is collected, and any financial incentives you receive in exchange from the sale of personal information. It is also required that you explain how the incentive is allowed under CCPA, and how the value of the personal information is calculated.
 
 - **Age of Consent**: If you collect or use personal information about minors, you may be subject to the following requirements:
 
