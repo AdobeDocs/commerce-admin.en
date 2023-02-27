@@ -5,7 +5,9 @@ exl-id: e1c2b01f-500a-475e-b61e-20f3ccbc0e70
 ---
 # Private Sales Reports
 
-Available only in Adobe Commerce, the Private Sales reports provide information about events and private sales.
+{{ee-feature}}
+
+The Private Sales reports provide information about events and private sales.
 
 ## Invitations
 

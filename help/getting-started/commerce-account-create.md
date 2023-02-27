@@ -16,11 +16,11 @@ Your [!DNL Commerce] account has a separate login from your store Admin. You can
 
 ## Log in to your [!DNL Commerce] account
 
-An Adobe ID is required to access a Commerce account. If you already have a Commerce account but you do not have an Adobe ID, you can create one during the sign-in process. If you do not have a Commerce account, see [create an account](#create-a-commerce-account).
+An Adobe ID is required to access a Commerce account. If you already have a Commerce account but you do not have an Adobe ID, you can create one during the sign-in process. 
 
 >[!WARNING]
 >
->You must use the email address that is associated with your existing Commerce account MAGEID. Using a different email address creates a new MAGEID.
+>Use the email address that is associated with your existing Commerce account MAGEID. Using a different email address creates a MAGEID.
 
 1. Go to the [[!DNL Commerce] site](https://account.magento.com/customer/account/login/).
 
@@ -40,7 +40,7 @@ Anyone can create a free [!DNL Commerce] account. The email address that you use
 
 >[!NOTE]
 >
->You must use an Adobe ID to create and access a Commerce account. If you do not have an Adobe ID, you can create one during the account creation process. If you already have a Commerce account but you do not have an Adobe ID, see [log in to a Commerce account](#log-in-to-your-commerce-account).
+>Use an Adobe ID to create and access a Commerce account. If you do not have an Adobe ID, you can create one during the account creation process. If you already have a Commerce account but you do not have an Adobe ID, see [log in to a Commerce account](#log-in-to-your-dnl-commerce-account).
 
 1. Go to the [[!DNL Commerce] site](https://account.magento.com/customer/account/login/).
 

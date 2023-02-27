@@ -7,8 +7,8 @@ exl-id: c401bee2-763e-4fad-88cd-5d5a43c46186
 
 The header of every page in your store extends an invitation for shoppers to _Log in or register_ for an account with your store. Customers who open an account enjoy a range of benefits, including:
 
-* **[!UICONTROL Create customer account]** - Visitors can create a new customer account so that they can use the storefront as a registered customer.
-* **[!UICONTROL Create Individual or Company Account]** Depending on the configuration, a visitor to your store can choose to create either an individual or company account. For more information see [B2B for Adobe Commerce](../b2b/introduction.md).
+* **[!UICONTROL Create customer account]** - Visitors can create a customer account so that they can use the storefront as a registered customer.
+* **[!UICONTROL Create Individual or Company Account]** Depending on the configuration, a visitor to your store can choose to create either an individual or company account. For more information, see [B2B for Adobe Commerce](../b2b/introduction.md).
 * **[!UICONTROL Faster checkout]** — Registered customers move through checkout faster because much of the information is already in their accounts.
 * **[!UICONTROL Self service]** — Registered customers can update their information, check the status of orders, and even reorder from their accounts.
 

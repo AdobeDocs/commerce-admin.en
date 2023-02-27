@@ -18,7 +18,7 @@ If a refund has been issued for an order, customers can view the refund informat
    * Finding the order in the list of **Recent Orders** and clicking **[!UICONTROL View]**.
    * In the left panel, choosing **[!UICONTROL My Orders]**. Then, finding the order in the list and clicking **[!UICONTROL View]**.
 
-1. Clicks the **[!UICONTROL Refunds]** tab to view the details of the refund.
+1. The customer clicks the **[!UICONTROL Refunds]** tab to view the details of the refund.
 
    ![Refund detail on the storefront](assets/customer-account-order-refunds.png)
 
@@ -58,12 +58,12 @@ You can configure payment actions for your specific [Payment Method](../configur
 
 |Payment action |Description|
 |--- |---|
-| Capture Online | When the invoice is submitted, the system captures the payment from the third-party payment gateway. You have the ability to create a credit memo and void the invoice. |
-| Capture Offline | When the invoice is submitted, the system does not capture the payment. It is assumed that the payment is captured directly through the gateway, and you no longer have the option to capture this payment through Adobe Commerce. You have the ability to create a credit memo, but you do not have the option to void the invoice. (Even though the order used an online payment, the invoice is essentially an offline invoice.) |
-| Not Capture | When the invoice is submitted, the system does not capture the payment. It is assumed that you will capture the payment through Adobe Commerce at a later date. There is a [!UICONTROL _Capture_] button in the completed invoice. Before capturing, you are able to cancel the invoice. After capturing, you are able to create a credit memo and void the invoice. |
+| Capture Online | When the invoice is submitted, the system captures the payment from the third-party payment gateway. An Admin user can then create a credit memo and void the invoice. |
+| Capture Offline | When the invoice is submitted, the system does not capture the payment. It is assumed that the payment is captured directly through the gateway, and the payment cannot be captured through Adobe Commerce. An Admin user can then create a credit memo, but cannot void the invoice. (Even though the order used an online payment, the invoice is essentially an offline invoice.) |
+| Not Capture | When the invoice is submitted, the system does not capture the payment. It is assumed that the payment is captured through Adobe Commerce later. There is a [!UICONTROL _Capture_] button in the completed invoice. Before capturing, you are able to cancel the invoice. After capturing, you are able to create a credit memo and void the invoice. |
 
 {style="table-layout:auto"}
 
 >[!WARNING]
 >
-> Select the [!UICONTROL _Not Capture_] option unless you are certain that you are going to capture the payment through Adobe Commerce at a later date. You cannot create a credit memo until the payment has been captured using the [!UICONTROL _Capture_] button.
+> Select the [!UICONTROL _Not Capture_] option unless you are certain that you are going to capture the payment through Adobe Commerce later. You cannot create a credit memo until the payment has been captured using the [!UICONTROL _Capture_] button.

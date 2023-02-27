@@ -12,7 +12,7 @@ PayPal Express Checkout helps boost sales by giving your customers the ability t
 >**PSD2 Requirements:** <br/>
 >As of September 14, 2019, European banks might decline payments that do not meet [PSD2](../getting-started/compliance-payment-services-directive.md) requirements. No action is needed for PayPal Express Checkout to comply with PSD2 because all requirements are handled by PayPal.
 
-Customers with current PayPal accounts can make a purchase in a single step by clicking the _Check out with PayPal_ button. Express Checkout can be used as a standalone, or with one of the PayPal all-in-one solutions. If you already accept credit cards online, you can offer Express Checkout as an extra option to attract new customers who prefer to pay with PayPal.
+Customers with current PayPal accounts can make a purchase in a single step by clicking the _[!UICONTROL Check out with PayPal]_ button. Express Checkout can be used as a standalone, or with one of the PayPal all-in-one solutions. If you already accept credit cards online, you can offer Express Checkout as an extra option to attract new customers who prefer to pay with PayPal.
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Customers with current PayPal accounts can make a purchase in a single step by c
 
 Unlike other payment methods, PayPal Express Checkout allows the customer to check out at the beginning of the usual checkout workflow from the product page, the mini cart, and the shopping cart.
 
-1. **Customer places order** - The customer clicks/taps the _Check out with PayPal_ button.
+1. **Customer places order** - The customer clicks/taps the _[!UICONTROL Check out with PayPal]_ button.
 1. **Customer is redirected to PayPal site** - The customer is redirected to the PayPal site to complete the transaction.
 1. **Customer logs in to their PayPal account** - The customer must log in to their PayPal account to complete the transaction. The payment system uses the billing and shipping information from their PayPal account.
 1. **Customer returns to the checkout page** - The customer is redirected back to the checkout page in your store to review the order.
@@ -46,11 +46,11 @@ PayPal's _In-Context Checkout_ makes it easier than ever to pay online. Customer
 
 [_PayPal in-context checkout demo_][6]
 
-When you configure your store for PayPal Express Checkout, you can enable this option.
+When you configure your store for [!DNL PayPal Express Checkout], you can enable this option.
 
 ## Configure your PayPal account
 
-Before you set up PayPal Express Checkout in Adobe Commerce and Magento Open Source, you must configure your merchant account on the PayPal website.
+Before you set up PayPal Express Checkout in the Commerce Admin, you must configure your merchant account on the PayPal website.
 
 1. Log in to your PayPal Advanced account at [manager.paypal.com][3].
 
@@ -72,7 +72,7 @@ Before you set up PayPal Express Checkout in Adobe Commerce and Magento Open Sou
 
 ## Set up PayPal Express Checkout in Commerce
 
-You can have two PayPal solutions active at the same time: Express Checkout, plus an all-in-one solution. If you enable a different solution, the one used previously is automatically deactivated.
+You can have two PayPal solutions active at the same time: PayPal Express Checkout, plus an all-in-one solution. If you enable a different solution, the one used previously is automatically deactivated.
 
 >[!NOTE]
 >
@@ -170,7 +170,7 @@ Set **[!UICONTROL Enable PayPal PayLater Experience]** to one of the following:
 
 >[!NOTE]
 >
->The **[!UICONTROL Enable PayPal PayLater Experience]** setting does not disable the [!DNL PayPal PayLater] feature and does not remove **_[!UICONTROL PayPal PayLater]_** buttons from the storefront. To disable both **_[!UICONTROL PayPal PayLater]_** and **_[!UICONTROL PayPal Credit]_** buttons on the storefront, you must select the `PayPal Credit` value for the **[!UICONTROL Disable Funding Options]** setting (located in [!UICONTROL Advanced Settings] under [!UICONTROL Frontend Experience Settings]).
+>The **[!UICONTROL Enable PayPal PayLater Experience]** setting does not disable the [!DNL PayPal PayLater] feature and does not remove **_[!UICONTROL PayPal PayLater]_** buttons from the storefront. To disable both **_[!UICONTROL PayPal PayLater]_** and **_[!UICONTROL PayPal Credit]_** buttons on the storefront, you must select the `PayPal Credit` value for the **[!UICONTROL Disable Funding Options]** setting ([!UICONTROL Advanced Settings] under [!UICONTROL Frontend Experience Settings]).
 
 #### Advertise PayPal Credit
 
@@ -304,7 +304,7 @@ Set **[!UICONTROL Enable PayPal PayLater Experience]** to one of the following:
    - `Sale` - The amount of the purchase is authorized and immediately withdrawn from the customer's account.
    - `Order` - The amount of the order is not captured or authorized in the customer balance, bank account, or credit card at PayPal. The Order payment action represents an agreement between the PayPal payment system and the merchant. It enables the merchant to capture one or more amounts up to the ordered total from the customer buyer account, over a period of up to 29 days. After the funds are ordered, the merchant can capture them at any time during the following 29-day period. Capturing of the order amount can be done only from the Commerce Admin by creating one or more invoices.
 
-1. To display the _Check out with PayPal_ button on the product page, set **[!UICONTROL Display on Product Details Page]** to `Yes`.
+1. To display the _[!UICONTROL Check out with PayPal]_ button on the product page, set **[!UICONTROL Display on Product Details Page]** to `Yes`.
 
 1. If the payment action is set to `Order`, complete the following
 

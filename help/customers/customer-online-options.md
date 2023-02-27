@@ -5,7 +5,7 @@ exl-id: 7180631a-3233-40f3-92bf-b329fc260cf9
 ---
 # Customer Session Lifetime
 
-The lifetime of a customer shopping session is determined by several factors, including the length of the server session, the use of a [persistent cart](../stores-purchase/cart-persistent.md), and the lifetime of information that is stored in the browser. Although these are related to the same customer experience, they are actually separate processes with different expiration events and lifetimes.
+The lifetime of a customer shopping session is determined by several factors, including the length of the server session, the use of a [persistent cart](../stores-purchase/cart-persistent.md), and the lifetime of information that is stored in the browser. Although these are related to the same customer experience, they are separate processes with different expiration events and lifetimes.
 
 |Column|Description|
 | --- | --- |
@@ -14,9 +14,9 @@ The lifetime of a customer shopping session is determined by several factors, in
 
 {style="table-layout:auto"}
 
-If [Persistent Cart](../stores-purchase/cart-persistent.md) is enabled, the cart contents are saved for the next time customers sign into their accounts. When using a persistent cart, it is recommended that you set the lifetime of the server session and the session cookie to a long period of time.
+If [Persistent Cart](../stores-purchase/cart-persistent.md) is enabled, the cart contents are saved for the next time customers sign into their accounts. When using a persistent cart, it is recommended that you set the lifetime of the server session and the session cookie to a long time period.
 
-On the server, the length of the session is controlled by the `php.ini` file and several variables. At this time, Adobe Commerce does not have an Admin configuration setting that controls the length of the server session.
+On the server, the length of the session is controlled by the `php.ini` file and several variables. Currently, Adobe Commerce does not have an Admin configuration setting that controls the length of the server session.
 
 ## Configure the cookie lifetime
 
