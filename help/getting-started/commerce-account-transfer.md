@@ -99,7 +99,7 @@ The current owner completes these steps to associate their Adobe ID with another
 
 1. Under your account name and avatar, click **[!UICONTROL Change Email]**.
 
-1. In tha dialog, enter a valid temporary email address that is not used by an Adobe ID.
+1. In the dialog, enter a valid temporary email address that is not used by an Adobe ID.
 
    You must have access to the email address so that you can retrieve the email with the confirmation code. 
 
@@ -121,7 +121,7 @@ After the current owner completes the transfer to a temporary email address, com
 
 1. Under your account name and avatar, click **[!UICONTROL Change Email]**.
 
-1. In tha dialog, enter the current owner's original email address.
+1. In the dialog, enter the current owner's original email address.
 
 1. Click **[!UICONTROL Change]**.
 
@@ -143,7 +143,7 @@ After the new owner successfully transfers their Adobe account to the current (n
 
 1. Under the account name and avatar, click **[!UICONTROL Change Email]**.
 
-1. In tha dialog, enter the new owner's email address.
+1. In the dialog, enter the new owner's email address.
 
 1. Click **[!UICONTROL Change]**.
 
