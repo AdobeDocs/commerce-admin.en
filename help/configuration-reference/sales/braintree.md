@@ -39,7 +39,7 @@ exl-id: cf08bc4d-8d88-45e7-af71-f1ff90023766
 
 ## [!UICONTROL Advanced Braintree Settings]
 
-![Braintree Advanced Settings](./assets/payment-methods-braintree-advanced-config.png){width="400" zoomable="yes"}
+![Braintree Advanced Settings](./assets/payment-methods-braintree-advanced-config.png){width="550" zoomable="yes"}
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -144,7 +144,7 @@ exl-id: cf08bc4d-8d88-45e7-af71-f1ff90023766
 
 ## [!UICONTROL PayPal through Braintree]
 
-![PayPal through Braintree](./assets/payment-methods-braintree-paypal-config.png){width="400" zoomable="yes"}
+![PayPal through Braintree](./assets/payment-methods-braintree-paypal-config.png){width="550" zoomable="yes"}
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
