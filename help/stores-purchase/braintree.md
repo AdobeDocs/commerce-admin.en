@@ -65,7 +65,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Advanced Braintree Settings]** section.
 
-   ![Advanced Settings](../configuration-reference/sales/assets/payment-methods-braintree-advanced-config.png)<!-- zoom -->
+   ![Advanced Settings](../configuration-reference/sales/assets/payment-methods-braintree-advanced-config.png){width="400" zoomable="yes"}
 
 1. For **[!UICONTROL Vault Title]**, enter a descriptive title for your reference that identifies the vault where your customer card information is stored.
 
@@ -205,7 +205,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 ## Step 11: Complete the PayPal through Braintree settings
 
-   ![PayPal through Braintree Settings](./assets/braintree-paypal.png)<!-- zoom -->
+   ![PayPal through Braintree Settings](./assets/braintree-paypal.png){width="400" zoomable="yes"}
 
 1. To include PayPal as a payment option with Braintree, set **[!UICONTROL Enable PayPal through Braintree]** to `Yes`.
 
