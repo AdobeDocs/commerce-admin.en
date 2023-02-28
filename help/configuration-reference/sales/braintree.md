@@ -25,7 +25,7 @@ exl-id: cf08bc4d-8d88-45e7-af71-f1ff90023766
 |[!UICONTROL Title]|Store View|Default value: `Credit Card` (Braintree)|
 |[!UICONTROL Environment]|Store View|Options: `Sandbox` / `Production`|
 |[!UICONTROL Payment Action]|Store View|Determines the action taken by Braintree when a payment is processed. Options: <br/>**`Authorize`** - Funds on the customer's credit card are authorized, but not transferred from the account. An order is created in your store Admin. You can later capture the sale and create an invoice. <br/>**`Intent Sale`** (previously `Authorize and Capture` in earlier releases) - Funds on the customer's credit card are authorized and captured by Braintree, and an order and invoice are created in your store Admin.|
-|[!UICONTROL Sandbox Merchant ID]|Store View|This is the unique identifier for your entire sandbox gateway account, As known as the _public ID_ or _production ID_, your merchant ID is different for your production and sandbox gateways. This field appears when the _[!UICONTROL Environment]_ field is set to `Sandbox`.|
+|[!UICONTROL Sandbox Merchant ID]|Store View|This is the unique identifier for your entire sandbox gateway account. Also known as the _public ID_ or _production ID_, your merchant ID is different for your production and sandbox gateways. This field appears when the _[!UICONTROL Environment]_ field is set to `Sandbox`.|
 |[!UICONTROL Sandbox Public Key]|Store View|This is your user-specific, public identifier that restricts access to encrypted data. Each user associated with your Sandbox Braintree gateway has their own sandbox public key. This field appears when the _[!UICONTROL Environment]_ field is set to `Sandbox`.|
 |[!UICONTROL Sandbox Private Key]|Store View|This is your user-specific, private identifier that restricts access to encrypted data. Each user associated with your Sandbox Braintree gateway has their own private key for the sandbox. This field appears when the _[!UICONTROL Environment]_ field is set to `Sandbox`.|
 |[!UICONTROL Merchant ID]|Store View|This is the unique identifier for your entire gateway account, including the multiple merchant accounts that may be in your gateway. Also known as the _public ID_ or _production ID_, your merchant ID is different for your production and sandbox gateways. This field appears when the _[!UICONTROL Environment]_ field is set to `Production`.|
@@ -49,7 +49,7 @@ exl-id: cf08bc4d-8d88-45e7-af71-f1ff90023766
 |[!UICONTROL Bypass Fraud Protection Threshold]|Website|`Advanced Fraud Protection` checks are bypassed when the threshold value is met or exceeded. Leaving this field blank disables this option.|
 |[!UICONTROL Debug]|Website|Determines if communications between the Braintree system and your store are recorded in a log file. Options: `Yes` / `No`|
 |[!UICONTROL CVV Verification]|Website|Determines if customers are required to provide the three-digit security code from the back of a credit card. Options: `Yes` / `No`|
-|[!UICONTROL Send Card Line Items]|Website|To send the cart line items for all the payment methods. Options: `Yes` / `No`|
+|[!UICONTROL Send Card Line Items]|Website|Send the cart line items for all the payment methods. Options: `Yes` / `No`|
 |[!UICONTROL Credit Card Types]|Website|Specifies each credit card that you accept as payment through  Braintree. Press and hold `Ctrl` (or `Command` on Mac) to select a combination of cards. Options: `American Express` / `Visa` / `MasterCard` / `Discover` / `JCB` / `Diners` / `Maestro International`|
 |[!UICONTROL Sort Order]|Website|Determines the order that Braintree is listed with other payment methods during checkout.|
 
@@ -189,7 +189,7 @@ The options and settings in this section vary according to the button type selec
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |[!UICONTROL Show PayPal Button]|Website|Determines the location of the PayPal button on the selected location. Options: `Yes` / `No`|
-|[!UICONTROL Button Label]|Website|Determines the label for the PayPal button. Options: `Paypal` / `Checkout` / `Buynow` / `Pay`|
+|[!UICONTROL Button Label]|Website|Determines the label for the PayPal button. Options: `Paypal` / `Checkout` / `Buy Now` / `Pay`|
 |[!UICONTROL Color]|Website|Determines the color of the PayPal button. Options: `Blue` / `Black` / `Gold` / `Silver`|
 |[!UICONTROL Shape]|Website|Determines the shape of the PayPal button. Options: `Pill` / `Rectangle`|
 |[!UICONTROL Size]|Website|Determines the size of the PayPal button. Options: `Medium` / `Large` / `Responsive`|
