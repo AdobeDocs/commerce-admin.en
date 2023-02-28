@@ -33,7 +33,7 @@ See [Managing Subscribers](../merchandising-promotions/newsletter-subscribers.md
 
 ### Unsubscribe from newsletter
 
-In multi-store and multi-site setups with a global [customer account scope](customer-account-scope.md), a customer account can be subscribed to newsletters for multiple sites/stores. If you apply the _Unsubscribe_ action to a customer account, all active subscriptions will be unsubscribed.
+In multi-store and multi-site setups with a global [customer account scope](customer-account-scope.md), a customer account can be subscribed to newsletters for multiple sites/stores. If you apply the _Unsubscribe_ action to a customer account, all active subscriptions are unsubscribed.
 
 1. Set the **[!UICONTROL Actions]** control to `Unsubscribe to newsletter`.
 
@@ -103,9 +103,11 @@ Deleted customer accounts cannot be restored. Information about customer activit
    * CSV
    * Excel XML
 
-1. Click **[!UICONTROL OK]**. The file will go to your default downloads folder.
+1. Click **[!UICONTROL OK]**.
 
-The above instruction will export all customer accounts. If you want to export a limited set, select the checkboxes for the accounts you want to export, or use filters on the control panel to select a range of customer accounts.
+   The file goes to your default downloads folder.
+
+The above instruction exports all customer accounts. If you want to export a limited set, select the checkboxes for the accounts you want to export, or use filters on the control panel to select a range of customer accounts.
 
 ## Actions/controls
 
@@ -134,9 +136,9 @@ The above instruction will export all customer accounts. If you want to export a
 |**[!UICONTROL State/Province]**|The state or province where the customer is located.|
 |**[!UICONTROL Customer Since]**|The date and time the customer account was created.|
 |**[!UICONTROL Web Site]**|The web site in the store hierarchy to which the customer account is associated.|
-|**[!UICONTROL Confirmed Email]**|Indicates if a confirmation email is required to be sent.|
+|**[!UICONTROL Confirmed Email]**|Indicates if a confirmation email is required.|
 |**[!UICONTROL Account Created In]**|Indicates the store view from which the customer account was created.|
-|**[!UICONTROL Date of Birth]**|The date of birth of the customer. In keeping with current security and privacy best practices, be sure you are aware of any potential legal and security risks associated with the storage of customers' full date of birth (month, day, year) along with other personal identifiers (e.g., full name) before collecting or processing such data. We recommend limiting the storage of customers' full birth dates and instead suggest using customer year of birth as an alternative.|
+|**[!UICONTROL Date of Birth]**|The date of birth of the customer. In keeping with current security and privacy best practices, be aware of any potential legal and security risks associated with the storage of customers' full date of birth (month, day, year) with other personal identifiers. It is recommended that you limit the storage of customers' full birth dates and suggest using customer year of birth as an alternative.|
 |**[!UICONTROL Tax / VAT Number]**|If applicable, the tax number or [value-added tax](../stores-purchase/vat.md) number that is assigned to the customer. <br/><br/> This field is not the same as the VAT Number.|
 |**[!UICONTROL Gender]**|The gender of the customer.|
 |**[!UICONTROL Action]**|Edit - Opens the company account in edit mode.|

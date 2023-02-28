@@ -5,7 +5,7 @@ exl-id: dba4057e-1fea-4a23-8594-cc85f619d664
 ---
 # PayPal Payflow Link
 
-PayPal PayFlow Link is available for merchants in the United States and Canada only. Customers are not required to have a personal PayPal account, and enter their credit card information in a form that is hosted by PayPal. The information is never stored on your Adobe Commerce or Magento Open Source server. PayFlow Link cannot be used for orders that are created from the Admin.
+PayPal Payflow Link is available for merchants in the United States and Canada only. Customers are not required to have a personal PayPal account, and enter their credit card information in a form that is hosted by PayPal. The information is never stored on your Adobe Commerce or Magento Open Source server. Payflow Link cannot be used for orders that are created from the Admin.
 
 Credit memos are supported for both online and offline refunds. However, multiple online refunds are not supported.
 
@@ -22,7 +22,7 @@ Credit memos are supported for both online and offline refunds. However, multipl
 
 ## Customer workflow
 
-1. **Customer goes to checkout** - During checkout, the customer chooses to pay with PayPal PayFlow link and enters the credit card information. The customer is not required to have a personal PayPal account.
+1. **Customer goes to checkout** - During checkout, the customer chooses to pay with PayPal Payflow link and enters the credit card information. The customer is not required to have a personal PayPal account.
 1. **Customer chooses Pay Now** - The customer taps the Pay Now button to submit the order.
 1. **Customer enters credit card information** - The customer enters the credit card information on a form that is hosted by PayPal. If the customer clicks the _Cancel Payment_ link, the customer returns to the Payment Information stage of checkout and the order status changes to _Canceled_.
 1. **Customer submits the order** - The credit card information is submitted directly to PayPal and is not retained anywhere on the Commerce site.
@@ -412,7 +412,7 @@ Use the _[!UICONTROL Frontend Experience Settings]_ to choose which PayPal logos
    - `Authorization` - Approves the purchase and puts a hold on the funds. The amount is not withdrawn until it is _captured_ by the merchant.
    - `Sale` - The amount of the purchase is authorized and immediately withdrawn from the customer's account.
 
-1. To display the _Check out with PayPal_ button on the product page, set **[!UICONTROL Display on Product Details Page]** to `Yes`.
+1. To display the _[!UICONTROL Check out with PayPal]_ button on the product page, set **[!UICONTROL Display on Product Details Page]** to `Yes`.
 
 ### Step 7: Complete the advanced settings for PayPal Express Checkout
 

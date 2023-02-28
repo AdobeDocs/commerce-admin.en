@@ -9,13 +9,13 @@ Customers who keep their address books current can speed through the checkout pr
 
 ![Address Book](assets/customer-account-dashboard-address-book.png)
 
-## Add a new address
+## Add an address
 
 1. In the sidebar of their customer account, the customer chooses **[!UICONTROL Address Book]**.
 
 1. On the Address Book page under _Additional Address Entries_, clicks **[!UICONTROL Add New Address]**.
 
-    ![Add New Address](assets/add-new-address.png)
+   ![Add New Address](assets/add-new-address.png)
 
 1. Defines the new address item.
 
@@ -40,7 +40,7 @@ Customers who keep their address books current can speed through the checkout pr
 
 ## Edit an address
 
-1. In the sidebar of the their account, the customer selects **[!UICONTROL Address Book]**.
+1. In the sidebar of their account, the customer selects **[!UICONTROL Address Book]**.
 
 1. Finds the address entry to be edited.
 
@@ -56,13 +56,13 @@ Customers who keep their address books current can speed through the checkout pr
 
 ## Change the default address
 
-1. In the sidebar of the their account, the customer selects **[!UICONTROL Address Book]**.
+1. In the sidebar of their account, the customer selects **[!UICONTROL Address Book]**.
 
 1. Chooses one of the edit methods:
 
-   * Clicks **[!UICONTROL Change Billing/Shipping Address]** in the _Default Addresses_ section.
+   * Clicks **[!UICONTROL Change Billing/Shipping Address]** in the _[!UICONTROL Default Addresses]_ section.
 
-   * Clicks **Edit** in the _Additional Address Entries_ grid.
+   * Clicks **[!UICONTROL Edit]** in the _[!UICONTROL Additional Address Entries]_ grid.
 
 1. Makes the necessary changes, and clicks **[!UICONTROL Save Address]**.
 
@@ -72,7 +72,7 @@ Customers who keep their address books current can speed through the checkout pr
 
 1. Finds the address entry to be deleted.
 
-1. Clicks **[!UICONTROL Delete]** in the _Additional Address Entries_ grid.
+1. Clicks **[!UICONTROL Delete]** in the _[!UICONTROL Additional Address Entries]_ grid.
 
 1. To confirm the action, clicks **[!UICONTROL OK]**.
 

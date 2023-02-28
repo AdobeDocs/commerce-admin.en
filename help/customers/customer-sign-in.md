@@ -1,6 +1,6 @@
 ---
 title: Customer Sign In
-description: The Customer Sign In allows for easy access to the customers accounts.
+description: The Customer Sign In allows for easy access to the customers' accounts.
 exl-id: eadcc15a-a052-4213-a818-d5b248d974d2
 ---
 # Customer Sign In
@@ -9,7 +9,12 @@ Customers have easy access to their accounts from every page in your store. Depe
 
 If [CAPTCHA](../systems/security-captcha.md) is enabled in the configuration, the person must correctly complete a test that verifies them to be human, before gaining access to their accounts.
 
-When customers forget their passwords, a reset link is sent to the email address that is associated with the account. The number of times a customer can try to enter a password, the number of minutes between attempts, the number of total attempts before the account is locked, and the length of the lockout is set in the [Password Options](../customers/password-options.md) configuration.
+When customers forget their passwords, a reset link is sent to the email address that is associated with the account. The [Password Options](../customers/password-options.md) configuration controls the customer experience for login attempts:
+
+- The number of times a customer can attempt to enter a password
+- The number of minutes between attempts
+- The number of total attempts before the account is locked
+- The length of the lockout
 
 ![Sign In](assets/storefront-sign-in-create-account.png)
 
@@ -70,7 +75,7 @@ You can configure the store to redirect customers to their account dashboard aft
 
 ## Sign out of a customer account
 
-1. In the upper-right corner next to  _Welcome, Customer Name!_, click  the **[!UICONTROL v]** menu selector.
+1. In the upper-right corner next to  _[!UICONTROL Welcome, Customer Name!]_, click  the **[!UICONTROL v]** menu selector.
 
 1. Choose **[!UICONTROL Sign Out]**.
 
