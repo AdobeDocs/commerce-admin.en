@@ -9,7 +9,7 @@ You can create a cart price rule in Adobe Commerce using the Real-Time CDP audie
 
 >[!IMPORTANT]
 >
->Make sure you have [installed](customer-segment-rtcdp.md#install-the-extension) and [configured](customer-segment-rtcdp.md#configure-the-extension) the Real-Time CDP audience extension before you create a cart price rule.
+>Make sure you have [installed](../customers/realtime-cdp-audiences.md#install-the-extension) and [configured](../customers/realtime-cdp-audiences.md#configure-the-extension) the Real-Time CDP audience extension before you create a cart price rule.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_ > **[!UICONTROL Cart Price Rules]** and click **[!UICONTROL Add New Rule]**. 
 

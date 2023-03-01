@@ -8,6 +8,9 @@ The Real-Time CDP audience extension for Adobe Commerce lets you activate Real-T
 
 You can use Real-Time CDP audiences in a Luma storefront or [headless](#headless-support) storefront. In a Luma storefront, audience information (segment membership) is stored in a cookie on the Commerce side. In a headless storefront, audience information is passed in the GraphQL API header as a parameter named: `aep-segments-membership`.
 
+ADD RELEASE NOTES LIKE INFO HERE...MAYBE MORE LIKE WHAT'S NEW???
+
+
 ## Storefront implementation
 
 The following tasks apply to both Luma and headless storefront implementations. To use Real-Time CDP audiences in Adobe Commerce, you must:
@@ -46,7 +49,7 @@ With Real-Time CDP Audiences activated to your Adobe Commerce instance, you can:
 
 You can view all Real-Time CDP Audiences that are available in your Adobe Commerce instance using the **Real-Time CDP Audiences** dashboard. With this dashboard, you can see which audiences are active and where they are deployed on your site. Any new or modified audiences you [configure or create](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html) in Experience Platform will appear in this dashboard.
 
-To see all available Real-Time CDP Audiences in your Commerce instance, from the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audiences]**. The **Real-Time CDP Audiences** dashboard appears:
+To access the **Real-Time CDP Audiences** dashboard, go to the _Admin_ sidebar, then go to **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audiences]**. The **Real-Time CDP Audiences** dashboard appears:
 
 ![Real-Time CDP Audiences Dashboard](./assets/audience-library.png)
 
@@ -66,7 +69,11 @@ The overall architecture is as follows:
 
 ![Sending Data from Headless Storefront to Backend](./assets/aem-commerce-architecture.png)
 
-After you [install](#install-the-extension) and [configure](#configure-the-extension) the extension, the AEP Web SDK contains the Audience information in the form of segment membership. You pass those segments to the Commerce server-side within the GraphQL header. For example:
+After you [install](#install-the-extension) and [configure](#configure-the-extension) the extension, the AEP Web SDK contains the Audience information in the form of segment membership.
+
+To capture those segment memberships from the SDK, see this [code snippet](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html#example-response-for-custom-personalization-with-attributes).
+
+Once retrieved, you can then pass those segments to Commerce within the GraphQL header. For example:
 
 ```bash
 curl 'http://magento.config/graphql' -H 'Authorization: Bearer abc123' -H 'aep-segments-membership: urlencoded_list_of_segments' -H 'Content-Type: application/json' --data-binary '{"query":"query {\ncustomer {\nfirstname\nlastname\nemail\n}\n}"}'
