@@ -197,6 +197,7 @@ Although it is possible to change the Admin URL and path to another location, an
    >For Adobe Commerce on cloud infrastructure, you can set up a custom admin path using the `ADMIN_URL` variable in the Cloud UI. See the [Admin variables topic](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html) in the _Commerce on Cloud Infrastructure Guide_.
 
    - **Default Admin Path**
+
       ```php?start_inline=1
       'backend' => [
        'frontName' => 'admin'
@@ -204,6 +205,7 @@ Although it is possible to change the Admin URL and path to another location, an
       ```
 
    - **New Admin Path**
+
       ```php?start_inline=1
       'backend' => [
           'frontName' => 'backend'
@@ -214,6 +216,7 @@ Although it is possible to change the Admin URL and path to another location, an
 
    - On the _Admin_ sidebar, go to **System** > _Tools_ > **Cache Management**. Then, click **Flush Magento Cache**.
    - On the server, execute the following:
+
       ```terminal
       php bin/magento cache:flush
       ```
@@ -252,6 +255,7 @@ In case you have set an invalid Admin URL or an Admin Path and lost access to th
 
    - On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Tools]_ > **[!UICONTROL Cache Management]**. Then, click **[!UICONTROL Flush Magento Cache]**.
    - On the server, execute the following:
+
       ```terminal
       php bin/magento cache:flush
       ```
