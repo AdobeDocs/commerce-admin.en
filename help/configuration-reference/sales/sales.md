@@ -178,6 +178,18 @@ exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
 
 {:style="table-layout:auto"}
 
+## [!UICONTROL Rate Limiting]
+
+![Rate Limiting](assets/sales-rate-limiting.png)<!-- zoom -->
+
+| Field                                                  |[Scope](../../getting-started/websites-stores-views.md#scope-settings)| Description                                                                                                                                                                        |
+|--------------------------------------------------------|--- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Enable rate limiting for placing orders]   |Store View| Enable rate limiting for placing orders for the store view. Options: `Yes` / `No`. By default: `No`                                                                                |
+| [!UICONTROL Requests limit per authenticated customer] |Store View| The number of purchase requests that an authenticated customer can make during the period. The default limit is `10`.                                                              |
+| [!UICONTROL Requests limit per guest]                  |Store View| The number of purchased requests that an unauthenticated customer can make during the period. The default is `50`.                                                                 |
+| [!UICONTROL Counter resets in a ...]                   |Store View| The period during which an authenticated/unauthenticated customer can make a certain number of purchase requests. The default is `Minute`. Available values: `Minute`,`Hour`,`Day` |
+{:style="table-layout:auto"}
+
 ## [!UICONTROL Orders, Invoices, Shipments, Credit Memos Archiving]
 
 {{ee-feature}}
