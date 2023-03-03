@@ -103,7 +103,7 @@ Reuse of the last four passwords assigned to the account is not allowed.
 
 ![Sign out](./assets/admin-sign-out.png)<!-- zoom -->
 
-The Sign In page displays a message that you are logged out. Sign out of the _Admin_ whenever you leave your computer unattended.
+The _[!UICONTROL Sign In]_ page displays a message that you are logged out. Sign out of the _Admin_ whenever you leave your computer unattended.
 
 ## Edit Account Information
 

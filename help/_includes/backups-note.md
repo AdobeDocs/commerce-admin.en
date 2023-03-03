@@ -10,4 +10,4 @@ description: Reused note about backups
 
 >[!NOTE]
 >
->**Deprecation notice:** Backup features are deprecated as of v2.3.0. We recommend that all merchants investigate additional backup technologies and binary backup tools (such as [[!DNL Percona XtraBackup]](https://www.percona.com/software/mysql-database/percona-xtrabackup).
+>**Deprecation notice:** Backup features are deprecated as of v2.3.0. It is recommended that all merchants investigate additional backup technologies and binary backup tools (such as [[!DNL Percona XtraBackup]](https://www.percona.com/software/mysql-database/percona-xtrabackup)).

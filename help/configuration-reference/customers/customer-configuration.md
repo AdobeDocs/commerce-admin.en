@@ -110,7 +110,7 @@ exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 |[!UICONTROL Show Middle Name (initial)]|Website|Determines if the middle initial is included as part of the customer name. If used, the middle initial is an optional field. Options: `Yes` / `No`|
 |[!UICONTROL Show Suffix]|Website|Determines if the customer name includes a suffix at the end, such as Jr., Sr., and III. Options: `No` / `Optional` / `Required`|
 |[!UICONTROL Suffix Dropdown Options]|Website|Defines the list of suffix options. Separate values with a semicolon. Place a semicolon before the first value to display an empty value at the top of the list.|
-|[!UICONTROL Show Date of Birth]|Website|Determines if the customer date of birth is included in the name and address form. Options: `No` / `Optional` / `Required`  <br><br>**_Important:_** In keeping with current security and privacy best practices, be sure that you are aware of any potential legal and security risks associated with the storage of customers' full date of birth (month, day, year) along with other personal identifiers. We recommend limiting the storage of customers' full birth dates and instead suggest using customer year of birth as an alternative.|
+|[!UICONTROL Show Date of Birth]|Website|Determines if the customer date of birth is included in the name and address form. Options: `No` / `Optional` / `Required`  <br><br>**_Important:_** In keeping with current security and privacy best practices, be aware of any potential legal and security risks associated with the storage of customers' full date of birth (month, day, year) with other personal identifiers. It is recommended that you limit the storage of customers' full birth dates and suggest using customer year of birth as an alternative.|
 |[!UICONTROL Show Tax/VAT Number]|Website|Determines if the Tax or [VAT number](../../stores-purchase/vat.md) is included in the name and address form. Options: `No` / `Optional` / `Required`|
 |[!UICONTROL Show Gender]|Website|Determines if gender is included in the name and address form. Options: `No` / `Optional` / `Required`|
 |[!UICONTROL Show Telephone]|Website|Determines if the customer's telephone number is included in the name and address form. Options: `No` / `Optional` / `Required`|
@@ -193,7 +193,6 @@ exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 |Template|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |[!UICONTROL Enable Customer Segment Functionality]|Global|Determines if customer segments can be used to create targeted promotions. Options: `Yes` / `No`|
-|[!UICONTROL Enable Customer Segment Functionality]|Global| Determines if customer segments can be used to create targeted promotions. Options: `Yes` / `No`|
 |[!UICONTROL Real-time Check if Customer is Matched by Segment]|Global| Determines if customer segments are validated in real time. Options: <br/>**[!UICONTROL Yes]** - Customer segments are validated in real time (default value). <br/>**[!UICONTROL No]** - Customer segments are validated by a single combined condition SQL query. This improves performance of segments validation if there are many customers segments in the system. However, the validation does not work with a split database or when there are no registered customers. |
 
 {:style="table-layout:auto"}

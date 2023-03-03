@@ -16,7 +16,7 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 
 - **Magento Open Source** is a self-hosted eCommerce platform with essential commerce features available free of charge. It offers you a stable and customizable solution for your growing small business or as a tool to prototype new ideas and business models for larger merchants.
 
-- **Adobe Commerce** is an enterprise-level eCommerce platform that provides a richer set of out-of-the-box features, with an unlimited ability to customize and seamlessly integrate with third-party providers. Robust and scalable, Adobe Commerce offers you a stable, secure, and customizable solution for your growing business. Adobe Commerce includes one of our cloud infrastructure options and 24/7 customer support. It is designed to allow you to sell multiple brands, geographies, currencies for both B2C and B2B buyers from a single platform. For a list of the advanced capabilities included with Adobe Commerce, see Commerce features in our developer documentation.
+- **Adobe Commerce** is an enterprise-level eCommerce platform that provides a richer set of out-of-the-box features, with an unlimited ability to customize and seamlessly integrate with third-party providers. Robust and scalable, Adobe Commerce offers you a stable, secure, and customizable solution for your growing business. Adobe Commerce includes a [cloud infrastructure](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) option and 24/7 customer support. It is designed to allow you to sell multiple brands, geographies, currencies for both B2C and B2B buyers from a single platform. For a list of the advanced capabilities included with Adobe Commerce, see [Commerce features](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=en) in the _Release Information_.
 
 ## Merchant guides
 
@@ -113,6 +113,12 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 
 | Description | Type | Date |
 | ----------- | ---- | ---- |
+| **2.4.6 release** - Updated the [Products list](../catalog/products-list.md) and [Admin configuration reference](../configuration-reference/advanced/admin.md) topics to include information about product display limitations that can be used to improve performance for large catalogs. | Update | 03/14/23 |
+| **2.4.6 release** - Updated the [Create and delete customer segments](../customers/customer-segment-create.md) and [Customer Configuration reference](../configuration-reference/customers/customer-configuration.md) topics to include information about real-time validation for segments. | Update | 03/14/23 |
+| **2.4.6 release** - Updated the [Braintree](../stores-purchase/braintree.md) and [Braintree configuration reference](../configuration-reference/sales/braintree.md) topics to reflect updated and new payment options supported by the bundled Braintree integration. | Update | 03/14/23 |
+| **2.4.6 release** - Updated the [Currency configuration](../stores-purchase/currency-configuration.md) and [Currency Setup configuration](../configuration-reference/general/currency-setup.md) topics to include the new [!DNL Fixer API] (APILayer) option. | Update | 03/14/23 |
+| **2.4.6 release** - Updated the [Configure email communications](../systems/email-communications.md) and [System configuration reference](../configuration-reference/advanced/system.md#uicontrol-mail-sending-settings) topics to include the new SMTP option for email communications. | Update | 03/14/23 |
+| **New topic** - Added the [Transfer a Commerce account](../getting-started/commerce-account-transfer.md) topic to the _Getting Started Guide_. | New | 02/27/23 |
 | **New guide** - Content now published in the Experience League: [Customer Management Guide](../customers/guide-overview.md) | Move | 12/5/2022 |
 | **New guide** - Content now published in the Experience League: [Configuration Reference Guide](../configuration-reference/guide-overview.md) | Move | 12/1/2022 |
 | **New guide** - Content now published in the Experience League: [Admin Systems Guide](../systems/guide-overview.md) | Move | 11/14/2022 |
@@ -120,12 +126,5 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 | **New guide** - Content now published in the Experience League: [Merchandising and Promotions Guide](../merchandising-promotions/guide-overview.md) | Move | 9/27/2022 |
 | **New page section** - Added information about [removal of the Inventory Management modules](../inventory-management/install-update.md#remove-inventory-management) to improve performance for Commerce instances that do not use these features. | Update | 9/21/2022 |
 | **New guide** - Content now published in the Experience League: [Catalog Management Guide](../catalog/guide-overview.md) | Move | 9/1/2022 |
-| **2.4.5 release** - Updated information in [Secure Your Commerce Account](../getting-started/commerce-account-secure.md) for authentication workflow and two-factor authentication introduced with Adobe Identity Management System requirement for Commerce accounts. | Update | 8/11/2022 |
-| **2.4.5 release** - Updated information in [Access Your Commerce Account](../getting-started/commerce-account-create.md) to reflect the Adobe ID requirement to access their Commerce account (accounts.magento.com). | Update | 8/11/2022 |
-| **2.4.5 release** - Added release notes for the [B2B v1.3.4](../b2b/release-notes.md#b2b-v134), [Inventory Management v1.2.5](../inventory-management/release-notes.md#v125), and [Page Builder](../page-builder/release-notes.md#172-for-commerce-245) modules. | New | 8/9/2022 |
-| **2.4.5 release** - Added new topics for Adobe Identity Management System integration in the Commerce Admin: [Adobe Identity Management Service (IMS) Integration Overview](../getting-started/adobe-ims-integration-overview.md) and [Configure the Commerce Admin Integration with Adobe IMS](../getting-started/adobe-ims-config.md). | New | 8/9/2022 |
-| **2.4.5 release** - Updated information in the [Google API configuration reference](../configuration-reference/sales/google-api.md), and the [Google Analytics](../merchandising-promotions/google-analytics.md) and [Google AdWords](../merchandising-promotions/google-adwords.md) topics for new GTag support for Google services integration and move from Google Universal Analytics to Analytics 4. | Update | 8/9/2022 |
-| **2.4.5 release** - Updated [Google reCAPTCHA](../systems/security-google-recaptcha.md) and [Google reCAPTCHA Storefront](../configuration-reference/security/google-recaptcha-storefront.md) topics to reflect additional support for configuration of reCAPTCHA validation on the storefront. | Update | 8/9/2022 |
-| **2.4.5 release** - Updated the Page Builder [Layout - Columns](../page-builder/column.md) topic for new _columns_ container. | Update | 8/9/2022 |
 
 {style="table-layout:auto"}

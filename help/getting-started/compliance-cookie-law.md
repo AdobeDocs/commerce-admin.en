@@ -262,32 +262,32 @@ Appends a random, unique number and time to pages with customer content to preve
 
 It is set in multiple places: in PHP, in JavaScript as a cookie, and in JavaScript to local storage.
 
-For, HTTP Only=Yes (based on request), it means that the cookie is secure if set during HTTPS request and unsecure if set during HTTP request.
+For HTTP Only=`Yes` (based on request), it means that the cookie is secure if set during HTTPS request and unsecure if set during HTTP request.
 
-- Is Secure? Yes (based on request), No
-- HTTP Only: No
+- Is Secure? `Yes` (based on request), `No`
+- HTTP Only: `No`
 - Expiration Policy: Based on [Persistent Shopping Cart](../stores-purchase/cart-persistent.md) - Persistence Lifetime (seconds) configuration
-   - PHP: 1 year / 315360000s (10yr)
-   - JS: 1 day
+   - PHP: `1` year / `315360000s` (ten years)
+   - JS: `1` day
    - JS local storage: Per local storage rules (forever)
 - Module: `Magento_PageCache`, `Magento_Customer`
 
 #### `section_data_ids`
 
-Stores customer-specific information related to shopper-initiated actions, such as display wish list, checkout information, and so on.
+Stores customer-specific information related to shopper-initiated actions, such as wish list display and checkout information.
 
-- Is Secure? No
-- HTTP Only: No
-- Expiration Policy: Session
+- Is Secure? `No`
+- HTTP Only: `No`
+- Expiration Policy: `Session`
 - Module: `Magento_Customer`
 
 #### `store`
 
 Tracks the specific store view / locale selected by the shopper.
 
-- Is Secure? No
-- HTTP Only: Yes
-- Expiration Policy: 1 year
+- Is Secure? `No`
+- HTTP Only: `Yes`
+- Expiration Policy: `1` year
 - Module: `Magento_Store`
 
 #### `mage-banners-cache-storage` - local storage
@@ -296,8 +296,8 @@ Tracks the specific store view / locale selected by the shopper.
 
 Local storage for Banner functionality.
 
-- Is Secure? No
-- HTTP Only: No
+- Is Secure? `No`
+- HTTP Only: `No`
 - Expiration Policy: Per local storage rules
 - Module: `Magento_Banner`
 
@@ -315,7 +315,7 @@ JavaScript Libraries: `gtag.js` and `analytics.js`
 - `_gid`: Distinguishes visitors to your site.
 - `gat`: Used to throttle request rate.
 - `dc_gtm_<property-id>`: Throttles request rate when Google Analytics is deployed with [Google Tag Manager](../merchandising-promotions/google-tag-manager.md).
-- `AMP_TOKEN`: Contains a token that can be used to retrieve a Client ID from AMP Client ID service. Other possible values include opt-out, inflight request or an error retrieving a Client ID from  AMP Client ID service.
+- `AMP_TOKEN`: Contains a token that can be used to retrieve a Client ID from AMP Client ID service. Other possible values include opt-out, inflight request, or an error retrieving a Client ID from  AMP Client ID service.
 - `_gac_<property-id>`: Contains campaign-related information for the user. Google AdWords conversion tags read this cookie if Google Analytics is linked to your [AdWords][2] account.
 
 ### Google Analytics cookies - non-exempt

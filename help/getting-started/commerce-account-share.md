@@ -1,9 +1,9 @@
 ---
-title: Share Your [!DNL Commerce] Account
+title: Share a [!DNL Commerce] Account
 description: Learn how to grant limited access to your [!DNL Commerce] account for other [!DNL Commerce] account holders.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 ---
-# Share Your [!DNL Commerce] Account
+# Share a [!DNL Commerce] Account
 
 Your [!DNL Commerce] account contains information that you can make available to trusted employees and service providers who help manage your site. As the primary account holder, you have authority to grant limited access to other [!DNL Commerce] account holders. Shared access can be revoked, but cannot be transferred from one user to another.
 
@@ -19,7 +19,7 @@ The [!DNL Commerce] Support team does not have access to the account and cannot 
 
 1. Before you begin, get the following information from the [!DNL Commerce] account of the **new user**:
 
-   - The `Account ID` that is displayed at the upper-left corner of the _Magento_ tab, just above the **Log Out** link.
+   - The `Account ID` that is displayed at the upper-left corner of the _[!UICONTROL Magento]_ tab, just above the **Log Out** link.
    - The `Email` address that is associated with the account.
 
 1. Log in to your [[!DNL Commerce] account](commerce-account-create.md).
@@ -37,9 +37,9 @@ The [!DNL Commerce] Support team does not have access to the account and cannot 
 
    ![New user information](./assets/shared-new-user.png)<!-- zoom -->
 
-1. Under _Shared Information_, do the following:
+1. Under _[!UICONTROL Shared Information]_, do the following:
 
-   - To identify the shared account, enter a **[!UICONTROL Share Name]**. The Share Name is for internal reference, and is visible only to you and the person with whom you share your account.
+   - To identify the shared account, enter a **[!UICONTROL Share Name]**. This name is for internal reference, and is visible only to you and the person with whom you share your account.
    - If you want to share your personal contact information with the new user, enter **[!UICONTROL Your Email]** and **[!UICONTROL Your Phone]**.
 
 1. Under _[!UICONTROL Grant Account Permissions]_, select the checkbox of each [!DNL Commerce] product and service that you want to share.
@@ -58,7 +58,7 @@ The following instructions are written from the perspective of a shared user who
 
 1. When you receive an invitation to a shared account, follow the instructions in the email to log in to your own [!DNL Commerce] account.
 
-   The left panel of your account has a new _Shared with me_ tab. The _Switch Accounts_ control in the upper-right corner has options for `My Account` and the name of the shared account.
+   The left panel of your account has a new _[!UICONTROL Shared with me]_ tab. The _[!UICONTROL Switch Accounts]_ control in the upper-right corner has options for `My Account` and the name of the shared account.
 
    ![Shared with me](./assets/shared-with-me.png)<!-- zoom -->
 
@@ -72,7 +72,7 @@ The following instructions are written from the perspective of a shared user who
 
    ![Support](./assets/shared-support.png)<!-- zoom -->
 
-   You can use the [Adobe Commerce Help Center](https://support.magento.com/hc/en-us) from the shared account to search for articles and troubleshooting information, find patches for known issues, and create support tickets.
+   You can use the [Adobe Commerce Help Center](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html) from the shared account to search for articles and troubleshooting information, find patches for known issues, and create support tickets.
 
    >[!NOTE]
    >
@@ -82,7 +82,7 @@ The following instructions are written from the perspective of a shared user who
 
 ## Revoke shared access
 
-1. Sign in to your [!DNL Commerce] account.
+1. Sign in to your Commerce account.
 
 1. In the left panel, click **[!UICONTROL Shared Access]**.
 

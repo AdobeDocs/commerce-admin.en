@@ -34,8 +34,8 @@ It does not cover the core capabilities of Adobe Commerce and Magento Open Sourc
 
 If you need information or have questions that are not covered in this guide, use the following resources:
 
-- [Large number reservation inconsistencies](https://support.magento.com/hc/en-us/articles/360051515272)
-- [Inventory inconsistency issues](https://support.magento.com/hc/en-us/articles/360055276532)
-- [Swatches not strike-through inventory reaches "0"](https://support.magento.com/hc/en-us/articles/360057039552)
-- [Stock status incorrect after Inventory install](https://support.magento.com/hc/en-us/articles/360032440152)
-- [Support tickets](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket){target="_blank"}---Submit a ticket to receive additional help.
+- [Large number reservation inconsistencies](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-8/mdva-30112-magento-patch-large-number-reservation-inconsistencies.html)
+- [Inventory inconsistency issues](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-14/mdva-33281-magento-patch-inventory-inconsistency-issues.html)
+- [Swatches not strike-through inventory reaches "0"](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-17/mdva-34850-swatches-not-strike-through-inventory-reaches-0.html)
+- [Stock status incorrect after Inventory install](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.html)
+- [Support tickets](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket)---Submit a ticket to receive additional help.
