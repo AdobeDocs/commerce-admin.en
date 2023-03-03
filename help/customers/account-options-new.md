@@ -31,7 +31,11 @@ In the _[!UICONTROL Create New Account Options]_ section of the configuration, t
 
    - Set **[!UICONTROL Email Sender]** to the store contact that appears as the sender of the Welcome email.
 
-   - To require customers to confirm their request to open an account with your store, set **[!UICONTROL Require Emails Confirmation]** to `Yes`. Then, set **[!UICONTROL Confirmation Link Email]** to the template that is used for the confirmation email. Starting from version 2.4.7 customers must reenter email and password to log in to their account after email confirmation, regardless of the browser is being used.
+   - To require customers to confirm their request to open an account with your store, set **[!UICONTROL Require Emails Confirmation]** to `Yes`. Then, set **[!UICONTROL Confirmation Link Email]** to the template that is used for the confirmation email.
+   
+      >[!NOTE]
+      >
+      >Starting from version 2.4.7, customers must reenter their email and password to log in to their account after email confirmation, regardless of the browser.
 
    - Set **[!UICONTROL Welcome Email]** to the template that is used for the Welcome message that is sent after the account is confirmed.
 
