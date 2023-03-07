@@ -13,6 +13,38 @@ You can browse through the list page by page, or search for specific products. U
 
 ![Products grid](./assets/products-grid.png)<!-- zoom -->
 
+## Limit product display
+
+To improve performance for large catalogs, it is recommended that you limit the number of products displayed in the grid. You can limit displayed product grids for:
+
+- Products page
+- Add Related/Up-Sell/Cross-Sell Products
+- Add Products to Bundle Product
+- Add Products to Group Product
+- Create Order (Admin)
+
+This configuration setting for the product display limitation is disabled by default. By enabling it, you can limit the number of products in the grid to a specific value. If it is enabled and the number of matching products for the grid display is greater than the record limit, a limited collection of records is returned. When the limit is reached, the total records found, number of selected records, and pagination elements do not appear in the grid header.
+
+>[!NOTE]
+>
+>If you do not want your product grid to be limited, use filters more precisely to produce a collection that has fewer items than the number specified in the _[!UICONTROL Records Limit]_ field.
+
+**_To configure the product display limitation:_**
+
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+
+1. Expand **[!UICONTROL Advanced]** and choose **[!UICONTROL Admin]**.
+
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Admin Grids]** section and do the following:
+
+   - Set **[!UICONTROL Limit Number of Products in Grid]** to `Yes`.
+
+   - (Optional) Enter a value in the **[!UICONTROL Records Limit]** field to limit the number of products in the grid to a specific value. The default minimum value is `20000`.
+
+   ![Admin Grids configuration settings](../configuration-reference/advanced/assets/admin-admin-grids.png)<!-- zoom -->
+
+1. When complete, click **[!UICONTROL Save Config]**.
+
 ## Page controls
 
 |Control|Description|

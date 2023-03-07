@@ -23,7 +23,11 @@ exl-id: a84be30f-f2eb-4c86-942c-2d49e5cf23af
 
 {:style="table-layout:auto"}
 
-## [!UICONTROL Fixer.io]
+## [!UICONTROL Fixer.io (legacy)]
+
+>[!IMPORTANT]
+>
+>Starting with the 2.4.6 release, the [[!DNL Fixer.io]](https://fixer.io/) service is deprecated and replaced with the [[!DNL Fixer API] (APILayer)](https://apilayer.com/marketplace/fixer-api) service. It is highly recommended that you use an APILayer account instead of a deprecated [!DNL Fixer.io] account.
 
 ![Currency Setup > Fixer.io](./assets/currency-setup-fixer.png)<!-- zoom -->
 
@@ -31,6 +35,17 @@ exl-id: a84be30f-f2eb-4c86-942c-2d49e5cf23af
 |--- |--- |--- |
 |[!UICONTROL API key]|Global|The key used to access the conversion service through your [!DNL fixer.io] account. For more information, see [[!DNL fixer.io]](https://fixer.io/).|
 |[!UICONTROL Connection Timeout in Seconds]|Global|Determines the number of seconds of inactivity before a Fixer.io session times out. Default value: `100`|
+
+{:style="table-layout:auto"}
+
+## [!UICONTROL Fixer Api (APILayer)]
+
+![Currency Setup > Fixer Api (APILayer)](./assets/currency-setup-fixer-api.png)<!-- zoom -->
+
+|Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
+|--- |--- |--- |
+|[!UICONTROL API key]|Global|The key used to access the conversion service through your [!DNL APILayer] account. For more information, see [[!DNL APILayer]](https://apilayer.com/).|
+|[!UICONTROL Connection Timeout in Seconds]|Global|Determines the number of seconds of inactivity before an [!DNL APILayer] session times out. Default value is `100`.|
 
 {:style="table-layout:auto"}
 

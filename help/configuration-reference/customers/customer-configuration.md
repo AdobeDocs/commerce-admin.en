@@ -193,6 +193,7 @@ exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 |Template|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |[!UICONTROL Enable Customer Segment Functionality]|Global|Determines if customer segments can be used to create targeted promotions. Options: `Yes` / `No`|
+|[!UICONTROL Real-time Check if Customer is Matched by Segment]|Global| Determines if customer segments are validated in real time. Options: <br/>**[!UICONTROL Yes]** - Customer segments are validated in real time (default value). <br/>**[!UICONTROL No]** - Customer segments are validated by a single combined condition SQL query. This improves performance of segments validation if there are many customers segments in the system. However, the validation does not work with a split database or when there are no registered customers. |
 
 {:style="table-layout:auto"}
 

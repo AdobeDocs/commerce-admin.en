@@ -7,8 +7,6 @@ exl-id: b4f22bce-39e2-4269-99a4-eb2d647df939
 
 There are two variations of the Catalog Search configuration. The first method describes the available settings when [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) is installed. The second method describes the configuration settings for native Adobe Commerce with [Elasticsearch][1]{:target="_blank"}.
 
-For information about each of the catalog search configuration options, see [_Elasticsearch Suggestion and Recommendation Settings_](../configuration-reference/catalog/catalog.md#catalog-search) in the _Configuration Reference_.
-
 ## Method 1: Adobe Commerce with Live Search
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
@@ -32,6 +30,12 @@ For information about each of the catalog search configuration options, see [_El
    Restricting the number of lines improves the performance of searches and reduces the size of the returned list. The default value is `8` lines.
 
 ## Method 2: Commerce with Elasticsearch
+
+>[!IMPORTANT]
+>
+>Due to the Elasticsearch 7 end-of-support announcement for August 2023, it is recommended that all Adobe Commerce customers migrate to the OpenSearch 2.x search engine. For information about migrating your search engine during product upgrade, see [Migrating to OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) in the _Upgrade Guide_.
+
+For information about each of the catalog search configuration options, see [_Elasticsearch Suggestion and Recommendation Settings_](../configuration-reference/catalog/catalog.md#catalog-search) in the _Configuration Reference_.
 
 ### Step 1: Configure general search options
 
