@@ -13,14 +13,6 @@ Any [dynamic block](dynamic-blocks.md) that you create can be associated with a 
 >
 >After you create this association, the dynamic block is displayed **only** when the rule fires. If the promotion is targeted to segment A, the block is displayed to segment A. If the promotion is not active, the block is not displayed.
 
-## Associate Real-Time CDP Audiences with dynamic blocks
-
-If you want to associate Real-Time CDP Audiences in dynamic blocks, make sure you have [installed](../customers/customer-segment-rtcdp.md#install-the-extension) and [configured](../customers/customer-segment-rtcdp.md#configure-the-extension) the Real-Time CDP Audience extension before you proceeding.
-
->[!IMPORTANT]
->
->Real-Time CDP Audiences are not available for catalog price rules.
-
 ## Associate a dynamic block with a price rule
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_ and choose one of the following:
@@ -34,7 +26,7 @@ If you want to associate Real-Time CDP Audiences in dynamic blocks, make sure yo
 
 1. In the first column, set the filter to `Any` and click **[!UICONTROL Reset Filter]**.
 
-   The grid now lists all available dynamic blocks.
+   The grid now lists all available dynamic blocks, including 
 
 1. Select the checkbox of each dynamic block that you want to associate with the rule.
 

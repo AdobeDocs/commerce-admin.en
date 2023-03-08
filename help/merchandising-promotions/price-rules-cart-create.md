@@ -5,7 +5,7 @@ exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 ---
 # Create a cart price rule
 
-Complete the following steps to add a rule, describe the conditions, and define the actions. Also complete the labels and test the rule. Price rule conditions can be based on cart or [product attributes](../catalog/product-attributes.md) or [Real-Time CDP Audiences](../customers/realtime-cdp-audiences.md), but not on [customizable options](../catalog/settings-advanced-custom-options.md).
+Complete the following steps to add a rule, describe the conditions, and define the actions. Also complete the labels and test the rule. Price rule conditions can be based on cart or [product attributes](../catalog/product-attributes.md) or [Real-Time CDP Audiences](../customers/audience-activation.md), but not on [customizable options](../catalog/settings-advanced-custom-options.md).
 
 ## Step 1: Add a rule
 
@@ -70,7 +70,7 @@ Complete the following steps to add a rule, describe the conditions, and define 
 
 In this step, the conditions are described that must be met for an order to qualify for the promotion. The rule goes into action whenever the set of conditions is met.
 
-If you are using the Real-Time CDP Audiences for Adobe Commerce, skip to [this section](#use-real-time-cdp-audiences).
+If you are using audiences from Real-Time CDP, skip to [this section](#use-real-time-cdp-audiences-to-set-a-condition).
 
 >[!NOTE]
 >
@@ -185,9 +185,9 @@ If you are using the Real-Time CDP Audiences for Adobe Commerce, skip to [this s
 >
 >When using the `is not one of` condition with a _SKU_ product attribute and configurable product, both the parent and child product SKUs must be selected. To avoid listing all child SKUs in the rule, you can use the `does not contain` condition with common SKU parts of a configurable product and its child products.
 
-### Set a condition using Real-Time CDP Audiences
+### Use Real-Time CDP audiences to set a condition
 
-You can set a condition for a cart price rule by selecting a [Real-Time CDP Audience](../customers/realtime-cdp-audiences.md).
+You can set a condition for a cart price rule by selecting an [audience](../customers/audience-activation.md).
 
 1. Expand **[!UICONTROL Conditions]**, click the "+" icon, and select **[!UICONTROL Real-Time CDP Audience]** from the list.
 
@@ -195,9 +195,9 @@ You can set a condition for a cart price rule by selecting a [Real-Time CDP Audi
 
 1. Select the "..." icon, click **[!UICONTROL Open Chooser]**, and locate the specific Real-Time CDP audience that you want to use.
 
-   ![Select Real-Time CDP Audience Identifier](./assets/rtcdp-conditions-chooser.png)
+   ![Select Real-Time CDP Audience](./assets/rtcdp-conditions-chooser.png)
 
-You can now move on to the next steps to define the actions.
+See the next step to define the action to occur when the condition is met.
 
 ## Step 3: Define the actions
 
