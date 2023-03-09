@@ -5,7 +5,7 @@ exl-id: aa19f0e2-ffbe-433d-8bd5-c14700b67b37
 ---
 # New Account Options
 
-In the Create New Account Options section of the configuration, the basic account options are combined with more advanced options that relate to VAT ID Validation and custom integrations. The following instructions cover only the most frequently used options. To learn about automatic customer group assignments, see [VAT Validation](../stores-purchase/vat.md).
+In the _[!UICONTROL Create New Account Options]_ section of the configuration, the basic account options are combined with more advanced options that relate to VAT ID Validation and custom integrations. The following instructions cover only the most frequently used options. To learn about automatic customer group assignments, see [VAT Validation](../stores-purchase/vat.md).
 
 ![Create New Account Options](assets/customer-configuration-create-new-account-options.png)<!-- zoom -->
 
@@ -31,7 +31,7 @@ In the Create New Account Options section of the configuration, the basic accoun
 
    - Set **[!UICONTROL Email Sender]** to the store contact that appears as the sender of the Welcome email.
 
-   - To require that customers confirm their request to open an account with your store, set **[!UICONTROL Require Emails Confirmation]** to `Yes`. Then, set **[!UICONTROL Confirmation Link Email]** to the template that is used for the confirmation email.
+   - To require customers to confirm their request to open an account with your store, set **[!UICONTROL Require Emails Confirmation]** to `Yes`. Then, set **[!UICONTROL Confirmation Link Email]** to the template that is used for the confirmation email.
 
    - Set **[!UICONTROL Welcome Email]** to the template that is used for the Welcome message that is sent after the account is confirmed.
 

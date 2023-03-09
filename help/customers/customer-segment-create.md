@@ -127,7 +127,7 @@ The following example shows how to create a customer segment that targets female
 
 1. Find the segment to be deleted and select it.
 
-1. In the menu bar click **[!UICONTROL Delete]** button.
+1. In the menu bar, click **[!UICONTROL Delete]** button.
 
 1. To confirm the action, click **[!UICONTROL OK]**.
 
@@ -149,7 +149,7 @@ The following example shows how to create a customer segment that targets female
 |Column|Description|
 |--- |--- |
 |**[!UICONTROL ID]**|The customer ID of a registered customer.|
-|**[!UICONTROL Name]**|The name of of a registered customer.|
+|**[!UICONTROL Name]**|The name of a registered customer.|
 |**[!UICONTROL Email]**|The email address of a registered customer.|
 |**[!UICONTROL Group]**|The customer group to which the customer is assigned.|
 |**[!UICONTROL Phone]**|The phone number of the customer.|

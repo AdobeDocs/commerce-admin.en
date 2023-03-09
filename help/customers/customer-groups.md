@@ -27,7 +27,7 @@ Customer groups determine which discounts are available and the tax class that i
 
 1. Click **[!UICONTROL Add New Customer Group]**.
 
-1. Enter a unique [!DNL **Group Name]** less than 32 characters to identify the group.
+1. For [!DNL **Group Name]**, enter a unique name fewer than 32 characters to identify the group.
 
 1. Select the **[!UICONTROL Tax Class]** that applies to the group.
 
@@ -69,9 +69,9 @@ Customer groups determine which discounts are available and the tax class that i
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _Promotions_ > **[!UICONTROL Cart Price Rules]**.
 
-1. Select the cart price rule with the discount to apply, or [create a new price rule](../merchandising-promotions/price-rules-catalog.md).
+1. Select the cart price rule with the discount to apply, or [create a price rule](../merchandising-promotions/price-rules-catalog.md).
 
-1. Select the customer groups the rule will apply to.
+1. Select the customer groups that the rule applies to.
 
    ![Customer Group to Specific Discounts](assets/group-discount.png)<!-- zoom -->
 

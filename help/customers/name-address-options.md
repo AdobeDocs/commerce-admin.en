@@ -107,9 +107,9 @@ The steps for configuring the name and address options are different for Adobe C
 
    >[!WARNING]
    >
-   > By default, the street address is 3 lines.
+   > By default, the street address is three lines.
 
-1. To include a prefix (such as Mr. or Mrs.) as part of the name, set **Show Prefix** to `Yes`.
+1. To include a prefix (such as Mr. or Ms.) as part of the name, set **Show Prefix** to `Yes`.
 
    ![Prefix in customer sign up form](assets/storefront-customer-account-prefix.png)
 
@@ -135,7 +135,7 @@ The steps for configuring the name and address options are different for Adobe C
 
    >[!INFO]
    >
-   > In keeping with current security and privacy best practices, be sure you are aware of any potential legal and security risks associated with the storage of customers' full date of birth (month, day, year) along with other personal identifiers (e.g., full name) before collecting or processing such data. We recommend limiting the storage of customers' full birth dates and instead suggest using customer year of birth as an alternative.
+   >In keeping with current security and privacy best practices, be aware of any potential legal and security risks associated with the storage of customers' full date of birth (month, day, year) with other personal identifiers. It is recommended that you limit the storage of customers' full birth dates and suggest using customer year of birth as an alternative.
 
    Customers can use the Calendar icon after the field to choose the birth date from a pop-up calendar.
 

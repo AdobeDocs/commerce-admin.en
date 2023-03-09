@@ -29,7 +29,7 @@ The Invoice Report can be filtered by time interval, date, and status. The repor
 
 ![Shipping Report](./assets/shipping.png)<!-- zoom -->
 
-The Shipping Report can be filtered by time interval, date, and status. The report includes the number of orders for carrier or shipping method used, with amounts for total sales  and total shipping.
+The Shipping Report can be filtered by time interval, date, and status. The report includes the number of orders for the carrier or shipping method used, including amounts for total sales and total shipping.
 
 ## Refunds
 

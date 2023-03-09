@@ -5,7 +5,7 @@ exl-id: 91630717-9da7-4d2f-a0d8-adb794a30ee1
 ---
 # Storefront Branding
 
-One of the first things you want to do is to [change the logo](#upload-your-logo) in the header and [upload a favicon](#add-a-favicon) for the browser. You should also [add your welcome message](#change-the-welcome-message) and [update the copyright notice](#change-the-copyright-notice) in the footer. These tasks are a few simple design elements that you can take care of right away. While your store is in development, you can [turn on the store demo notice](#set-the-store-demo-notice), and then remove it when you are ready to launch.
+One of the first things you want to do is to [change the logo](#upload-your-logo) in the header and [upload a favicon](#add-a-favicon) for the browser. Next, you should [add your welcome message](#change-the-welcome-message) and [update the copyright notice](#change-the-copyright-notice) in the footer. These tasks are a few simple design elements that you can take care of right away. While your store is in development, you can [turn on the store demo notice](#set-the-store-demo-notice), and then remove it when you are ready to launch.
 
 ![Storefront branding elements](./assets/storefront-home-page-branding.png)<!-- zoom -->
 
@@ -33,7 +33,7 @@ Supported logo file formats:
 |--- |--- |
 |PNG|(Portable Network Graphics) This newer alternative to the GIF format supports up to 16 million colors (24 bit). The lossless compression format produces a high-quality bitmap image with crisp text, but a larger file size than some formats. The PNG format supports transparent layers, and is designed for online viewing and streaming.|
 |GIF|(Graphics Interchange Format) A widely supported, and older bitmap format that is limited to 256 colors (8 bit). The GIF format supports simple animation and transparent layers.|
-|JPG (JPEG)|(Joint Photographics Expert Group) A compressed bitmap format that is used by most digital cameras. The lossy compression causes some data loss, which is sometimes noticeable as blurry spots in text.|
+|JPG (JPEG)|(Joint Photographic Expert Group) A compressed bitmap format that is used by most digital cameras. The lossy compression causes some data loss, which is sometimes noticeable as blurry spots in text.|
 
 {style="table-layout:auto"}
 
@@ -71,7 +71,7 @@ A favicon is generally 16 x 16 pixels or 32 x 32 pixels in size. [!DNL Commerce]
 |PNG|(Portable Network Graphics) This newer alternative to the GIF format supports up to 16 million colors (24 bit). The lossless compression format produces a high-quality bitmap image with crisp text, but a larger file size than some formats. The PNG format supports transparent layers, and is designed for online viewing and streaming.|
 |APNG|(Animated Portable Network Graphics) A file format similar to PNG that supports simple animation.|
 |GIF|(Graphics Interchange Format) A widely supported, and older bitmap format that is limited to 256 colors (8 bit). The GIF format supports simple animation and transparent layers.|
-|JPG (JPEG)|(Joint Photographics Expert Group) A compressed bitmap format that is used by most digital cameras. The lossy compression causes some data loss, which is sometimes noticeable as blurry spots in text.|
+|JPG (JPEG)|(Joint Photographic Expert Group) A compressed bitmap format that is used by most digital cameras. The lossy compression causes some data loss, which is sometimes noticeable as blurry spots in text.|
 
 {style="table-layout:auto"}
 
