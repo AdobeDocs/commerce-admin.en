@@ -26,7 +26,7 @@ Any [dynamic block](dynamic-blocks.md) that you create can be associated with a 
 
 1. In the first column, set the filter to `Any` and click **[!UICONTROL Reset Filter]**.
 
-   The grid now lists all available dynamic blocks, including 
+   The grid now lists all available dynamic blocks.
 
 1. Select the checkbox of each dynamic block that you want to associate with the rule.
 

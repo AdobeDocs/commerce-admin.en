@@ -47,6 +47,6 @@ Cart price rules apply discounts to items in the shopping cart, based on a set o
 
 {style="table-layout:auto"}
 
-## Use Real-Time CDP Audiences to inform cart price rules
+## Use Real-Time CDP audiences to inform cart price rules
 
-Learn how to [activate](customer-segment-rtcdp.md) Real-Time CDP Audiences into your Adobe Commerce instance to inform cart price rules.
+Learn how to [activate](../customers/audience-activation.md) Real-Time CDP audiences into your Adobe Commerce instance to inform cart price rules.
