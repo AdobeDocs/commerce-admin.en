@@ -15,6 +15,50 @@ These release notes describe releases of [!DNL Inventory Management] and include
 
 [Release schedule](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"} for supported and compatible releases.
 
+
+## v1.2.6
+
+[!DNL Inventory Management] 1.2.6 (module version: `magento/inventory-metapackage = 1.2.6`) is supported with version 2.4.6 and compatible with version 2.4.0 of Magento Open Source, Adobe Commerce, and Adobe Commerce on cloud infrastructure.
+
+-  ![Fixed issue](../assets/fix.svg) The storefront now displays composite products (configurable, bundle, and grouped) as in-stock when child products that had been sold out are returned to stock. Previously, the storefront indicated that the composite product was out of stock under these conditions. <!-- ACP2E-1106-->
+
+-  ![Fixed issue](../assets/fix.svg) Configurable product options are now displayed as expected as out of stock on the storefront if the option was created with quantity set to 0 and **[!UICONTROL Display out-of-stock products]** is enabled. <!-- ACP2E-1148-->
+
+-  ![Fixed issue](../assets/fix.svg) Category page caches are no longer invalidated when stock quantity changes if the product still in stock. Adobe Commerce now loads pages from the cache instead of re-generating them when product quantity (and nothing else) on the storefront category page changes. <!-- ACP2E-118-->
+
+-  ![Fixed issue](../assets/fix.svg) The category list product count is now correct when using Inventory in single-source mode with the **[!UICONTROL Display Out-Of-Stock Products]** setting enabled. Adobe Commerce now checks whether a product is salable when counting. <!-- ACP2E-1033-->
+
+-  ![Fixed issue](../assets/fix.svg) Cart Price rules for In-Store Delivery now work as expected when Inventory is enabled. Previously, cart price rule-generated discounts were not applied under these conditions. <!-- ACP2E-1015-->
+
+-  ![Fixed issue](../assets/fix.svg) Updating product inventory in scheduled mode no longer clears all caches. Previously, the Inventory indexer cleared all configuration caches. <!-- ACP2E-1003-->
+
+-  ![Fixed issue](../assets/fix.svg) The value for the **[!UICONTROL Allow Multiple Boxes for Shipping]** attribute for a product in Advanced Inventory is now saved as expected. <!-- ACP2E-992-->
+
+-  ![Fixed issue](../assets/fix.svg) Adobe Commerce now issues accurate reservation compensation after a partial refund credit memo for an order that was placed with in-store pick up. Previously, an incorrect reservation saved to the `inventory_reservation` table when an admin user created a credit memo without selecting the **[!UICONTROL Return to Stock]** checkbox. <!-- ACP2E-979-->
+
+-  ![Fixed issue](../assets/fix.svg) Adobe Commerce no longer displays configurable products as out of stock on the storefront when one of its variations has been manually returned to stock in deployments implementing multi-source inventory. <!-- ACP2E-952-->
+
+-  ![Fixed issue](../assets/fix.svg) Column position on the product grid (**[!UICONTROL Catalog]** > **[!UICONTROL Products]**) no longer reverts back to its previous position after the page reloads in deployments with multiple inventory sources configured. <!-- ACP2E-925-->
+
+-  ![Fixed issue](../assets/fix.svg) Stock quantity is now correct after a credit memo is issued for a virtual product when the **[!UICONTROL Back to stock]** checkbox is not selected. <!-- ACP2E-908-->
+
+-  ![Fixed issue](../assets/fix.svg) You can now save categories with automatic product sorting and scope that is assigned to non-default stock. Previously, Adobe Commerce did not save the category and displayed this error: `Something went wrong while saving the category`. <!-- ACP2E-859-->
+
+-  ![Fixed issue](../assets/fix.svg) Configurable product stock status is now updated as expected when the product is created with all out-of-stock configurable variations. <!-- ACP2E-813-->
+
+-  ![Fixed issue](../assets/fix.svg) The reservation inconsistency analyzer tool now works correctly with partially shipped orders that contain configurable, bundle, and grouped products. Composite product types are now analyzed. Previously, cancellations and refunds were saved only for parent products, not for sub-product order items of configurable and ship-together bundle products. <!-- ACP2E-924-->
+
+-  ![Fixed issue](../assets/fix.svg) Adobe Commerce no longer displays an error when an admin user tries to assign 200 or more inventory sources to a stock or product. <!-- ACP2E-1180-->
+
+-  ![Fixed issue](../assets/fix.svg) Adobe Commerce now supports the creation of a credit memo for an order from which a product has been deleted. Previously, merchants could not create a credit memo when products had been deleted from the order after an invoice had been created. The application displayed this error: `Following products with requested skus were not found: s00001`. t. <!-- ACP2E-1138-->
+
+-  ![Fixed issue](../assets/fix.svg) Stores are now filtered based on both single and multiple store IDs. The `event` product attribute code has been added to the list of reserved attribute codes. Previously, the Low Stock Report threw an exception when the Inventory module was installed. <!-- ACP2E-1017-->
+
+-  ![Fixed issue](../assets/fix.svg) Layered navigation filters now work as expected, and out-of-stock products are now appended to the storefront category product list. The new `is_out_of_stock` sorting attribute uses the Elasticsearch dynamic field mapper for the storefront product collection. <!-- ACP2E-748-->
+
+-  ![Fixed issue](../assets/fix.svg) Composite product (bundle, grouped, and configurable) stock status is updated as expected when child product stock status is changed by a REST `POST /rest/V1/inventory/source-items` call. <!-- ACP2E-1209-->
+
+
 ## v1.2.5
 
 [!DNL Inventory Management] 1.2.5 (module version: `magento/inventory-metapackage = 1.2.5`) is supported with version 2.4.5 and compatible with version 2.4.0 of Magento Open Source, Adobe Commerce, and Adobe Commerce on cloud infrastructure.

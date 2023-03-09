@@ -12,6 +12,31 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 
 See [Product availability](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html){target="_blank"} for information about supported and compatible extension releases.
 
+## B2B v1.3.5
+
+This extension release is fully compatible and supported with Adobe Commerce 2.4.6.
+
+-  ![Fixed issue](../assets/fix.svg) <!--- ACP2E-689--> Adobe Commerce now displays correct details during payment when the Purchase Orders option is enabled and a virtual quote that was created with the PayPal payment option has been selected. Previously, totals were displayed as zero under these conditions.
+
+-  ![Fixed issue](../assets/fix.svg) <!--- ACP2E-609--> The list of customer groups for the **Allow Browsing Category** setting no longer contains customer groups that are related to shared catalogs.
+
+-  ![Fixed issue](../assets/fix.svg) <!--- ACP2E-1244--> The Tax/VAT Number customer attribute now works as expected with company admin accounts on both the Admin and storefront. Custom Tax/VAT attributes are no longer required to create a company account. Previously, when a merchant created a company account with a custom Tax/VAT attribute, Adobe Commerce threw a validation error on both the storefront and Admin.
+
+-  ![Fixed issue](../assets/fix.svg) <!--- ACP2E-1236--> Disabling the shared catalog feature on a specific scope now works correctly. Previously, Adobe Commerce set an invalid scope when a merchant saved shared catalog configuration.
+
+-  ![Fixed issue](../assets/fix.svg) <!--- ACP2E-1203--> Admin users can now save customer custom attribute values for company users. Previously, customer custom attributes for company users could not be saved.
+
+-  ![Fixed issue](../assets/fix.svg) <!--- ACP2E-1221--> We have resolved performance issues with the validation of company permissions provided through GraphQL when many company permissions have already been assigned.
+
+-  ![Fixed issue](../assets/fix.svg) <!--- ACP2E-1242--> Adobe Commerce no longer throws an error on the cart page when Quick Order is used to add a product in a quantity that exceeds available inventory.
+
+-  ![Fixed issue](../assets/fix.svg) <!--- ACP2E-1090--> The performance of `SELECT` company permissions operations has improved.
+
+-  ![Fixed issue](../assets/fix.svg) <!--- ACP2E-2456--> Category queries now return product prices according to store configuration settings when there are no category permissions explicitly set on the category being queried.
+
+-  ![Fixed issue](../assets/fix.svg) <!--- ACP2E-6829--> The **[!UICONTROL Place Order]** button now works as expected when completing a purchase with an approved quote request. Issues with the negotiable quote `negotiableQuoteCheckoutSessionPlugin` plugin have been resolved.
+
+
 ## B2B v1.3.4
 
 This extension release is fully compatible and supported with Adobe Commerce 2.4.5.
