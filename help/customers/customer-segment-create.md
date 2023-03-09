@@ -23,7 +23,11 @@ The following example shows how to create a customer segment that targets female
 
 1. Verify that **[!UICONTROL Enable Customer Segment Functionality]** is set to `Yes`.
 
-   ![Customers configuration - customer segments](assets/customer-configuration-customer-segments.png)
+   ![Customers configuration - customer segments](../configuration-reference/customers/assets/customer-configuration-customer-segments.png)
+
+1. (Optional) To disable real-time validation for customer segments, set **[!UICONTROL Real-time Check if Customer is Matched by Segment]** to `No`.
+
+   When you disable real-time validation, customer segments are validated by a single combined condition SQL query. This improves performance of segments validation if there are many customer segments in the system. However, the validation does not work with a split database or when there are no registered customers. 
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
@@ -166,7 +170,7 @@ The following example shows how to create a customer segment that targets female
 |--- |--- |
 |**[!UICONTROL ID]**|The unique ID of customer segment.|
 |**[!UICONTROL Segment]**|The name of customer segment.|
-|**[!UICONTROL Status]**|Indicates whether the customer segment is __**[!UICONTROL Active]**__ or __**[!UICONTROL Inactive]**__.|
+|**[!UICONTROL Status]**|Indicates whether the customer segment is _**[!UICONTROL Active]**_ or _**[!UICONTROL Inactive]**_.|
 |**[!UICONTROL Website]**|Indicates the website to which the customer segment belongs.|
 
 {style="table-layout:auto"}
