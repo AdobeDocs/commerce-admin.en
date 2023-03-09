@@ -45,11 +45,11 @@ Create rich, interactive content that is driven by logic from [price rules](../m
    >- If the customer does not belong to any segments and the dynamic block is created for all segments, the contents of dynamic block is still displayed.
    >- If all customer segments assigned to a Dynamic Block are deleted, its contents are then visible to everyone.
 
-## Use Real-Time CDP audiences in dynamic blocks
+### Use Real-Time CDP audiences in dynamic blocks
 
 If you [installed](../customers/audience-activation.md#install-the-extension) and [configured](../customers/audience-activation.md#configure-the-extension) the Audience Activation extension, you see a section called **[!UICONTROL Audiences]**.
 
- ![Choose a Real-Time CDP Audience](../assets/d)
+![Choose a Real-Time CDP Audience](./assets/dynamic-block-rtcdp.png)
 
 In the **[!UICONTROL Real-Time CDP Audience]** list, select the checkbox of each audience that you want to see the dynamic block and click **[!UICONTROL Done]** to save the setting.
 
@@ -68,6 +68,10 @@ Use the [!DNL Page Builder] [workspace](../page-builder/workspace.md) to complet
    - **[!UICONTROL Add Cart Price Rules]** (see [Cart Price Rules](../merchandising-promotions/price-rules-cart.md))
 
    - **[!UICONTROL Add Catalog Price Rules]** (see [Catalog Price Rules](../merchandising-promotions/price-rules-catalog.md))
+
+   >[!NOTE]
+   >
+   >Catalog price rules are not supported for Real-Time CDP audiences.
 
 1. In the list of available rules, select the checkbox of each rule that you want to use and click **[!UICONTROL Add Selected]**.
 

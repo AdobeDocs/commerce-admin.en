@@ -30,7 +30,12 @@ You can install the Audience Activation extension from the [marketplace](https:/
 After you install the Audience Activation extension, you need to log into your Commerce Admin and complete the following:
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Services]_ > **[!UICONTROL Commerce Services Connector]**, [sign in](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html#organizationid) to your Adobe account, and select your organization ID.
-1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Services]_ > **[!UICONTROL Real-Time CDP Audiences]** and in the **[!UICONTROL Datastream ID]** field paste the ID of the datastream ID that you created when you [activated](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) Adobe Commerce as a destination in Experience Platform.
+1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Services]_ > **[!UICONTROL Real-Time CDP Audiences]** and in the **[!UICONTROL Datastream ID]** field paste the ID of the datastream ID that you created when you [activated](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html#parameters) Adobe Commerce as a destination in Experience Platform. This datastream contains the audiences you want to include in Commerce.
+
+    >[!NOTE]
+    >
+    >You can have multiple datastreams, each containing different audiences. [Learn more](#using-multiple-datastreams) about using multiple datastreams in Commerce.
+
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**. Expand **[!UICONTROL Services]** and select **[!UICONTROL Real-Time CDP Audiences]**. Then, enter the configuration credentials found in the [developer console](https://developer.adobe.com/console/home).
 
     ![Real-Time CDP Audience Admin Configuration](./assets/rtcdp-admin-config.png)
@@ -44,7 +49,7 @@ With audiences activated to your Adobe Commerce instance, you can:
 
 ## Real-Time CDP audiences dashboard
 
-You can view all audiences that are available in your Adobe Commerce instance using the **Real-Time CDP Audiences** dashboard. With this dashboard, you can see which audiences are active and where they are deployed on your site. Any new or modified audiences you [configure or create](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html) in Experience Platform appears in this dashboard.
+You can view all active audiences that are available in your Adobe Commerce instance and where they are deployed using the **Real-Time CDP Audiences** dashboard. Any new or modified audiences you [configure or create](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html) in Experience Platform appears in this dashboard.
 
 To access the **Real-Time CDP Audiences** dashboard, go to the _Admin_ sidebar, then go to **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]**. The **Real-Time CDP Audiences** dashboard appears:
 
@@ -52,11 +57,17 @@ To access the **Real-Time CDP Audiences** dashboard, go to the _Admin_ sidebar, 
 
 |Column|Description|
 |--- |--- |
-|[!UICONTROL Audience]|Name given to the audience in Real-Time CDP.|
-|[!UICONTROL Last Modified]|Indicates when the audience was modified in Real-Time CDP.|
-|[!UICONTROL Origin]|Indicates from where the audience was imported.|
+|`Audience`|Name given to the audience in Real-Time CDP.|
+|`Last Modified`|Indicates when the audience was modified in Real-Time CDP.|
+|`Origin`|Indicates where the audience came from, such as `Experience Platform`.|
 
 {style="table-layout:auto"}
+
+## Using multiple datastreams
+
+When you activate Commerce as a destination in Experience Platform, you specify a datastream. That datastream contains your audiences. Some merchants, however, want to group their audiences based on which Commerce website they apply to. In this case, you can create multiple datastreams, each containing a separate set of audiences. Then, you would [create a new destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) within the Commerce destination for each separate datastream.
+
+On the Commerce side, you can then select the datasteam and assign it to the website.
 
 ## Headless support
 

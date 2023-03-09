@@ -5,7 +5,7 @@ exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 ---
 # Create a cart price rule
 
-Complete the following steps to add a rule, describe the conditions, and define the actions. Also complete the labels and test the rule. Price rule conditions can be based on cart or [product attributes](../catalog/product-attributes.md) or [Real-Time CDP Audiences](../customers/audience-activation.md), but not on [customizable options](../catalog/settings-advanced-custom-options.md).
+Complete the following steps to add a rule, describe the conditions, and define the actions. Also complete the labels and test the rule. Price rule conditions can be based on cart or [product attributes](../catalog/product-attributes.md) or [Real-Time CDP Audiences](#use-real-time-cdp-audiences-to-set-a-condition), but not on [customizable options](../catalog/settings-advanced-custom-options.md).
 
 ## Step 1: Add a rule
 
@@ -187,17 +187,30 @@ If you are using audiences from Real-Time CDP, skip to [this section](#use-real-
 
 ### Use Real-Time CDP audiences to set a condition
 
-You can set a condition for a cart price rule by selecting an [audience](../customers/audience-activation.md).
+You can set a condition for a cart price rule based on a Real-Time CDP [audience](../customers/audience-activation.md).
 
 1. Expand **[!UICONTROL Conditions]**, click the "+" icon, and select **[!UICONTROL Real-Time CDP Audience]** from the list.
 
    ![Select Real-Time CDP Audience Condition](./assets/rtcdp-conditions.png)
 
-1. Select the "..." icon, click **[!UICONTROL Open Chooser]**, and locate the specific Real-Time CDP audience that you want to use.
+1. Select the "..." icon, click **[!UICONTROL Open Chooser]**, and view all available Real-Time CDP audiences.
 
-   ![Select Real-Time CDP Audience](./assets/rtcdp-conditions-chooser.png)
+   ![View Real-Time CDP Audiences](./assets/rtcdp-conditions-chooser.png)
 
-See the next step to define the action to occur when the condition is met.
+1. Select the Real-Time CDP audience you want to use for the cart price rule.
+
+   |Option|Description|
+   |------|-----------|
+   |`ID`|An internal identifier of the audience used within the Admin|
+   |`Real-Time CDP Audience ID`|Unique identifier of the audience when it was created in Experience Platform|
+   |`Name` |Name of the audience, such as `Orders over $50`|
+   |`Description`|Description of the audience, such as `People who placed an order over $50 in the last month.`.|
+   |`Source`|Indicates where the audience came from, such as `Experience Platform`.|
+   |`Website`|Indicates which website you have linked to the datastream that contains the audiences. You create this link when you connect your Commerce instance to the Experience Platform through the [Experience Platform connector](https://experienceleague.adobe.com/docs/commerce-merchant-services/experience-platform-connector/fundamentals/connect-data.html).|
+
+   {style="table-layout:auto"}
+
+In the next step, you define the action to occur when the condition is met.
 
 ## Step 3: Define the actions
 
