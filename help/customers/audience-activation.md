@@ -1,6 +1,6 @@
 ---
 title: Audience Activation
-description: Learn how to activate audiences in Adobe Commerce.
+description: Learn how to activate Real-Time CDP audiences in Adobe Commerce.
 ---
 # Audience Activation
 
