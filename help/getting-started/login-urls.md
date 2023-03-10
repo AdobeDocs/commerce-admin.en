@@ -9,7 +9,7 @@ Before you proceed with setup and configuration, make sure that you have the inf
 
 ## Storefront URL
 
-The address for your [storefront](storefront.md) is usually the domain that is assigned to your IP address. Some stores are installed at the root, or topmost directory. Others are installed in a directory below the root. Your store might reside within a subdomain that is associated with your primary domain. Your store URL might look like one of the following:
+The address for your [storefront](storefront.md) is usually the domain that is assigned to your IP address. Some stores are installed at the root, or topmost directory. Others are installed in a directory below the root. The store might reside within a subdomain that is associated with a primary domain. The URL for your store might look like one of the following:
 
 - `http://mydomain.com`
 - `http://www.mydomain.com/mystore`

@@ -17,7 +17,7 @@ The customer password options determine the level of security that is used for p
 
    ![Password Options](assets/customer-configuration-password-options.png)
 
-1. Set the **[!UICONTROL Password Reset Protection Type]** to the method you want to use for checking password reset requests:
+1. Set the **[!UICONTROL Password Reset Protection Type]** to the method that you want to use for checking password reset requests:
 
    |Column|Description|
    | --- | --- |
@@ -57,10 +57,10 @@ The customer password options determine the level of security that is used for p
       - Numeric
       - Special Characters
 
-   - For **[!UICONTROL Maximum Login Failures to Lockout Account]**, enter the number of failed login attempts until the Customer account is locked. For unlimited attempts, enter zero (`0`).
+   - For **[!UICONTROL Maximum Login Failures to Lockout Account]**, enter the number of failed login attempts until the customer account is locked. For unlimited attempts, enter zero (`0`).
 
    - For **[!UICONTROL Minimum Password Length]**, enter the minimum number of characters that can be used in a password. The number must be greater than zero.
 
-   - For **[!UICONTROL Lockout Time (minutes)]**, enter the number of minutes an Customer account is locked after too many failed attempts to log in.
+   - For **[!UICONTROL Lockout Time (minutes)]**, enter the number of minutes a customer account is locked after too many failed attempts to log in.
 
 1. When complete, click **[!UICONTROL Save Config]**.

@@ -9,10 +9,11 @@ breadcrumb-title: Getting Started
 - [Guide Overview](guide-overview.md)
 - [Release Information](about-this-release.md)
 - [Login Credentials and URLs](login-urls.md)
-- [!DNL Commerce] Accounts {#commerce-account}
+- Commerce Accounts {#commerce-account}
   - [Create and Access Your Account](commerce-account-create.md)
-  - [Secure Your [!DNL Commerce] Account](commerce-account-secure.md)
+  - [Secure Your Commerce Account](commerce-account-secure.md)
   - [Share Your Account](commerce-account-share.md)
+  - [Transfer a Commerce Account](commerce-account-transfer.md)
 - The Admin {#admin}
   - [What is the Admin?](admin.md)
   - [Your Admin Account](admin-signin.md)

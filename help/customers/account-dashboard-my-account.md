@@ -7,7 +7,7 @@ exl-id: 01413b6b-ce32-4284-ae29-0fadf6ed22ca
 
 The **[!UICONTROL My Account]** section of the customer dashboard gives customers an overview of their information and activity related to your store.
 
-The **[!UICONTROL My Account]** page consist of following sections:
+The **[!UICONTROL My Account]** page consists of following sections:
 
 * [**[!UICONTROL Account Information]**](../customers/account-dashboard-account-information.md)
 * [**[!UICONTROL Address Book]**](../customers/account-dashboard-address-book.md)

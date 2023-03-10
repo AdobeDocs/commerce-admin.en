@@ -44,11 +44,11 @@ PayPal Credit is disabled by default for the other PayPal payment solutions, but
 
 >[!IMPORTANT]
 >
->Before you configure PayPal Credit or PayPay Pay Later for your store, make sure it is enabled in your PayPal merchant account.
+>Before you configure PayPal Credit or PayPal PayLater for your store, make sure it is enabled in your PayPal merchant account.
 
 ## Integrated PayPal solutions
 
-With PayPal and Adobe Commerce and Magento Open Source, you can accept payments from all major debit and credit cards. PayPal offers additional convenience without extra effort, because even your customers who don't have a PayPal account can pay for their purchases with PayPal.
+With PayPal and Adobe Commerce, you can accept payments from all major debit and credit cards. PayPal offers additional convenience without extra effort, because even your customers who don't have a PayPal account can pay for their purchases with PayPal.
 
 >[!NOTE]
 >
