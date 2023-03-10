@@ -47,7 +47,7 @@ Create rich, interactive content that is driven by logic from [price rules](../m
 
 ### Use Real-Time CDP audiences in dynamic blocks
 
-If you [installed](../customers/audience-activation.md#install-the-extension) and [configured](../customers/audience-activation.md#configure-the-extension) the Audience Activation extension, you see a section called **[!UICONTROL Audiences]**.
+If you [installed](../customers/audience-activation.md#install-the-extension) and [configured](../customers/audience-activation.md#configure-the-extension) the [!DNL Audience Activation] extension, you see a section called **[!UICONTROL Audiences]**.
 
 ![Choose a Real-Time CDP Audience](./assets/dynamic-block-rtcdp.png)
 

@@ -2,9 +2,9 @@
 title: Audience Activation
 description: Learn how to activate Real-Time CDP audiences in Adobe Commerce.
 ---
-# Audience Activation
+# [!DNL Audience Activation]
 
-The Audience Activation extension lets you activate Real-Time CDP audiences in Adobe Commerce to create unique offers in the cart such as "buy 2 get 1 free", display hero banners geared toward that customer, and modify product pricing through various offers. The audiences built within Real-Time CDP are based on data from various enterprise systems, such as Enterprise Resource Planning (ERP), Customer Relationship Management (CRM), point of sale, and marketing systems. Because customer segment information is constantly refreshed, customers can become associated and disassociated from a segment as they shop in your store.
+The [!DNL Audience Activation] extension lets you activate Real-Time CDP audiences in Adobe Commerce to create unique offers in the cart such as "buy 2 get 1 free", display hero banners geared toward that customer, and modify product pricing through various offers. The audiences built within Real-Time CDP are based on data from various enterprise systems, such as Enterprise Resource Planning (ERP), Customer Relationship Management (CRM), point of sale, and marketing systems. Because customer segment information is constantly refreshed, customers can become associated and disassociated from a segment as they shop in your store.
 
 You can activate audiences in a Luma storefront or [headless](#headless-support) storefront. In a Luma storefront, audience information (segment membership) is stored in a cookie on the Commerce side. In a headless storefront, audience information is passed in the GraphQL API header as a parameter named: `aep-segments-membership`.
 
@@ -14,12 +14,12 @@ The following tasks apply to both Luma and headless storefront implementations. 
 
 - [Install Adobe Commerce on cloud infrastructure, version 2.4.4 or higher](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html)
 - [Activate](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) Adobe Commerce as a destination in Experience Platform
-- [Install](#install-the-extension) the Audience Activation extension in the Admin
-- [Configure](#configure-the-extension) the Audience Activation extension in the Admin
+- [Install](#install-the-extension) the [!DNL Audience Activation] extension in the Admin
+- [Configure](#configure-the-extension) the [!DNL Audience Activation] extension in the Admin
 
 ### Install the extension
 
-You can install the Audience Activation extension from the [marketplace](https://marketplace.magento.com/magento-audiences.html) or you can run the following command:
+You can install the [!DNL Audience Activation] extension from the [marketplace](https://marketplace.magento.com/magento-audiences.html) or you can run the following command:
 
    ```bash
    composer require magento/audiences
@@ -27,15 +27,15 @@ You can install the Audience Activation extension from the [marketplace](https:/
 
 ### Configure the extension
 
-After you install the Audience Activation extension, you need to log into your Commerce Admin and complete the following:
+After you install the [!DNL Audience Activation] extension, you need to log into your Commerce Admin and complete the following:
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Services]_ > **[!UICONTROL Commerce Services Connector]**.
 
- 1. [Sign in](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html#organizationid) to your Adobe account and select your organization ID.
+1. [Sign in](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html#organizationid) to your Adobe account and select your organization ID.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Services]_ > **[!UICONTROL Experience Platform Connector]**.
 
- 1. In the **[!UICONTROL Datastream ID]** field, paste the ID of the datastream ID that you created when you [activated](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html#parameters) Adobe Commerce as a destination in Experience Platform.
+1. In the **[!UICONTROL Datastream ID]** field, paste the ID of the datastream ID that you created when you [activated](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html#parameters) Adobe Commerce as a destination in Experience Platform.
 
    This datastream contains the audiences that you want to include in Commerce.
 
@@ -55,8 +55,8 @@ After you install the Audience Activation extension, you need to log into your C
 
 With audiences activated to your Adobe Commerce instance, you can:
 
-- [Create](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) a cart price rule informed by audiences
-- [Create](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) a dynamic block informed by audiences
+- [Create a cart price rule](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) informed by audiences
+- [Create a dynamic block](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) informed by audiences
 
 ## Real-Time CDP audiences dashboard
 
