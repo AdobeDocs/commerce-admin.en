@@ -193,7 +193,7 @@ You can set a condition for a cart price rule based on a Real-Time CDP [audience
 
    ![Select Real-Time CDP Audience Condition](./assets/rtcdp-conditions.png)<!-- {:width="550px"} -->
 
-1. Select the "..." icon, click **[!UICONTROL Open Chooser]**, and view all available Real-Time CDP audiences.
+1. Select the _More_ (**...**) icon, click **[!UICONTROL Open Chooser]**, and view all available Real-Time CDP audiences.
 
    ![View Real-Time CDP Audiences](./assets/rtcdp-conditions-chooser.png)
 
