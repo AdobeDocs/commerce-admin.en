@@ -1,9 +1,9 @@
 ---
-title: '[!DNL Business Intelligence] Tools'
+title: '[!DNL Business Intelligence] tools'
 description: Learn how Adobe Commerce and Magento Open Source merchants can use business intelligence tools to gain the insight used to make sound business decisions.
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 ---
-# [!DNL Business Intelligence] Tools
+# [!DNL Business Intelligence] tools
 
 Use business intelligence tools to gain the insight used to make sound business decisions.
 
@@ -21,7 +21,7 @@ For technical information, see the [[!DNL Advanced Reporting]][2]{:target="_blan
 >
 >[!DNL Business Intelligence] accounts use built-in reporting, rather than the [!DNL Advanced Reporting] feature.
 
-![Advanced Reporting dashboard](./assets/reporting-advanced.png)<!-- zoom -->
+![Advanced Reporting dashboard](./assets/reporting-advanced.png){width="700"}
 
 ### Requirements
 
@@ -35,7 +35,7 @@ For technical information, see the [[!DNL Advanced Reporting]][2]{:target="_blan
 
 * In the [!DNL Commerce] configuration for store URLs, **[!UICONTROL Use Secure URLs on Storefront]** and **[!UICONTROL Use Secure URLs in Admin]** must be set to `Yes`.
 
-* Make sure that [[!DNL Commerce] crontab][3]{:target="_blank"} is created and cron jobs are running on the installed server.
+* [[!DNL Commerce] crontab][3] is created and cron jobs are running on the installed server.
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ In the [!DNL Commerce] configuration, [[!DNL Advanced Reporting]](../configurati
 
    * Under **[!UICONTROL Industry Data]**, choose the **[!UICONTROL Industry]** that best describes your business.
 
-   ![Advanced Reporting configuration](./assets/advanced-reporting-config.png)<!-- zoom -->
+   ![Advanced Reporting configuration](./assets/advanced-reporting-config.png){width="400"}
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
@@ -64,33 +64,33 @@ In the [!DNL Commerce] configuration, [[!DNL Advanced Reporting]](../configurati
 
 1. Wait overnight, or until after the time of your next scheduled update. Then, check the status of your subscription. If the status is still _pending_, make sure that your installation meets all requirements.
 
-### Step 2: Access Advanced Reporting
+### Step 2: Access [!DNL Advanced Reporting]
 
 1. Do one of the following:
 
    * On the _Admin_ sidebar, choose **[!UICONTROL Dashboard]**. Then, click **[!UICONTROL Go to Advanced Reporting]**.
    * On the _Admin_ sidebar, go to **[!UICONTROL Reports]** > _[!UICONTROL Business Intelligence]_ > **[!UICONTROL Advanced Reporting]**.
 
-   The Advanced Reporting dashboard provides a quick summary of your orders, customers, and products. Make sure to scroll down to see the full dashboard.
+   The [!DNL Advanced Reporting] dashboard provides a quick summary of your orders, customers, and products. Make sure to scroll down to see the full dashboard.
 
 1. To get a better view of the data, set the **[!UICONTROL Filters]** in the upper-right corner to the time period and store view that you want to include in the report. Then, do the following:
 
    * Hover over any data point for more information.
    * To see all dashboard reports, click each tab.
 
-   ![Data Point](./assets/reporting-advanced-data-point.png)<!-- zoom -->
+   ![Data Point](./assets/reporting-advanced-data-point.png){width="600" zoomable="yes"}
 
-### Access your data resources:
+## Access [!DNL Advanced Reporting] data resources
 
 In the upper-right corner of the Advanced Reporting dashboard, click **[!UICONTROL Additional Resources]**.
 
-![Advanced Reporting data resources](./assets/advanced-reporting-your-data-resources.png)<!-- zoom -->
+![Advanced Reporting data resources](./assets/advanced-reporting-your-data-resources.png){width="600" zoomable="yes"}
 
-### Troubleshooting
+## Troubleshooting
 
-If you get a 404 "Page Not Found" message, verify that your store meets the requirements for Advanced Reporting. Then, follow the instructions to verify that the integration is installed.
+If you get a 404 "Page Not Found" message, verify that your store meets the requirements for [!DNL Advanced Reporting]. Then, follow the instructions to verify that the integration is installed.
 
-#### Verify that the integration is active
+### Verify that the integration is active
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Extensions]_ > **[!UICONTROL Integration]**.
 
@@ -98,21 +98,21 @@ If you get a 404 "Page Not Found" message, verify that your store meets the requ
 
 1. To reestablish the user, click **[!UICONTROL Reauthorize]** and do the following:
 
-   ![Reauthorize](./assets/advanced-reporting-integration-reauthorize.png)<!-- zoom -->
+   ![Reauthorize](./assets/advanced-reporting-integration-reauthorize.png){width="600"}
 
    * When prompted, click **[!UICONTROL Reauthorize]** to approve access to the API resources.
 
-      ![Reauthorize Access to API Resources](./assets/advanced-reporting-integration-api.png)<!-- zoom -->
+      ![Reauthorize Access to API Resources](./assets/advanced-reporting-integration-api.png){width="600"}
 
    * Verify that the list of Integration Tokens for Extensions is complete. Then, click **Done**.
 
-      ![Integration Tokens](./assets/advanced-reporting-integration-tokens-for-extensions.png)<!-- zoom -->
+      ![Integration Tokens](./assets/advanced-reporting-integration-tokens-for-extensions.png){width="600"}
 
 1. Look for the message that indicates the integration `Magento Analytics user` is reauthorized.
 
 1. Wait overnight, or until after the time of your next scheduled update.
 
-#### Verify single base currency
+### Verify single base currency
 
 [!DNL Advanced Reporting] can be used only with [!DNL Commerce] installations that have used only a single [base currency](../stores-purchase/currency-configuration.md) since the time of installation. The result is that in the history, all orders use the same base currency. [!DNL Advanced Reporting] does not work if you have, at any time, changed your base currency and have orders in your history that were processed with different base currencies.
 
@@ -122,11 +122,11 @@ To determine if your store has multiple base currencies, you can query your [!DN
 select distinct base_currency_code from sales_order;
 ```
 
-#### Data discrepancy
+### Data discrepancy
 
 If you notice that the `Data last updated...` caption displays yesterday's date and not today's, there might be a delay of up to a day in the Advanced Reporting updates. This delay is due to a larger than expected queue size.
 
-#### Dashboard Reports
+## Dashboard reports
 
 **[!UICONTROL Orders]**
 

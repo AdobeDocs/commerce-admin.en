@@ -130,3 +130,7 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 | **2.4.5 release** - Updated the Page Builder [Layout - Columns](../page-builder/column.md) topic for new _columns_ container. | Update | 8/9/2022 |
 
 {style="table-layout:auto"}
+
+## 2.3.x documentation
+
+The [Adobe Commerce 2.3 User Guide][https://docs.magento.com/user-guide/v2.3/] remains available on the `docs.magento.com` domain for Adobe Commerce 2.3 customers who are on an extended support contract.

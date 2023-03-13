@@ -1,9 +1,9 @@
 ---
-title: Cookie Law Compliance
+title: Cookie law compliance
 description: To keep pace with legislation in many countries regarding the use of cookies, Adobe Commerce and Magento Open Source offer merchants a choice of methods to obtain customer consent.
 exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 ---
-# Cookie Law Compliance
+# Cookie law compliance
 
 Cookies are small files that are saved to the computer of each visitor to your site, and used as temporary holding places for information. Information that is saved in cookies is used to personalize the shopping experience, link visitors to their shopping carts, measure traffic patterns, and improve the effectiveness of promotions. To keep pace with legislation in many countries regarding the use of cookies, Adobe Commerce and Magento Open Source offer merchants a choice of methods to obtain customer consent. For a list of the default cookies in Adobe Commerce and Magento Open Source, the [Cookie Reference](#default-cookies).
 
@@ -29,7 +29,7 @@ Your [privacy policy](privacy-policy.md)) should include the name of your store 
 >
 >If you change the URL key of the privacy policy, you must also create a custom URL rewrite to redirect traffic to the new URL key. Otherwise, the link in the Cookie Restriction Mode message returns `404 Page Not Found`.
 
-![Example storefront - cookie restriction notice](./assets/storefront-cookie-restriction-message.png)<!-- zoom -->
+![Example storefront - cookie restriction notice](./assets/storefront-cookie-restriction-message.png){width="600"}
 
 ### Step 1: Enable cookie restriction mode
 
@@ -39,7 +39,7 @@ Your [privacy policy](privacy-policy.md)) should include the name of your store 
 
 1. Expand the **[!UICONTROL Default Cookie Settings]** section and do the following:
 
-    ![Web configuration - default cookie settings](./assets/web-default-cookie-settings.png)<!-- zoom -->
+    ![Web configuration - default cookie settings](./assets/web-default-cookie-settings.png){width="400"}
  
     - Enter the **[!UICONTROL Cookie Lifetime]** in seconds.
 
@@ -207,8 +207,8 @@ A security measure that appends a random string to all form submissions to prote
 - Is Secure? No
 - HTTP Only: No
 - Expiration Policy:
-   - PHP: Based on PHP setting session.cookie_lifetime
-   - JS: Session
+    - PHP: Based on PHP setting session.cookie_lifetime
+    - JS: Session
 - Module: Page Cache
 
 #### `mage-cache-sessid`
@@ -267,9 +267,9 @@ For HTTP Only=`Yes` (based on request), it means that the cookie is secure if se
 - Is Secure? `Yes` (based on request), `No`
 - HTTP Only: `No`
 - Expiration Policy: Based on [Persistent Shopping Cart](../stores-purchase/cart-persistent.md) - Persistence Lifetime (seconds) configuration
-   - PHP: `1` year / `315360000s` (ten years)
-   - JS: `1` day
-   - JS local storage: Per local storage rules (forever)
+    - PHP: `1` year / `315360000s` (ten years)
+    - JS: `1` day
+    - JS local storage: Per local storage rules (forever)
 - Module: `Magento_PageCache`, `Magento_Customer`
 
 #### `section_data_ids`
@@ -337,7 +337,7 @@ JavaScript Library: `ga.js`
 The following cookies are used by Product Recommendations for Adobe Commerce customers. These cookies are installed with the [DataServices module](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html).
 
 - `mg_dnt`: Allows you to [restrict Adobe Commerce data collection](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/developer/setting-cookie.html) if you have custom code to manage cookie consent on your site.
-- `user_allowed_save_cookie`: Used for [cookie restriction mode](#cookierestrict).
+- `user_allowed_save_cookie`: Used for [cookie restriction mode](#cookie-restriction-mode).
 - `authentication_flag`: Indicates if a shopper has signed in or signed out. This cookie is updated at the same time as the `dataservices_customer_id` cookie.
 - `dataservices_customer_id`: Indicates if a shopper has signed in or signed out. This cookie does not contain the customer ID.
 - `dataservices_cart_id`: Identifies a shopper's cart actions.

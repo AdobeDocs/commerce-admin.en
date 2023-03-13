@@ -1,19 +1,15 @@
 ---
-title: Admin Message Inbox
+title: Admin message inbox
 description: Learn about the Admin message inbox, which provides important and useful messages from Adobe and from the [!DNL Commerce] system.
 exl-id: c53bb0e4-9f18-4d40-8cc4-8c3b485f8d68
 ---
-# Admin Message Inbox
+# Admin message inbox
 
 Your store receives messages from Adobe regularly. The messages are rated by importance and might refer to system updates, patches, new releases, scheduled maintenance, or upcoming events. The bell icon in the header indicates the number of unread messages in your inbox.
 
-![Admin - incoming messages](./assets/admin-inbox-summary.png)<!-- zoom -->
+![Admin - incoming messages](./assets/admin-inbox-summary.png){width="700"}
 
-Any message of critical importance appears in a pop-up window when you log into your store. The notice continues to appear after each login until the message is either marked as read or removed.
-
-![Incoming message - Critical](./assets/admin-message-incoming.png)<!-- zoom -->
-
-The _[!UICONTROL Notifications]_ page lists all messages ranked by severity, with the most recent at the top. The Action commands can be used to mark individual messages as read, view more detailed information, or to remove the message from the inbox.
+The _[!UICONTROL Notifications]_ page lists all messages ranked by date. The _[!UICONTROL Action]_ commands can be used to mark individual messages as read, view more detailed information, or to remove the message from the inbox.
 
 The configuration determines how often the inbox is updated, and how the messages are delivered. If your store Admin has a secure URL, notifications must be delivered over HTTPS.
 
@@ -48,7 +44,7 @@ For a message of critical importance, do one of the following:
 
    - To keep the message in your inbox, click **[!UICONTROL Mark As Read]**.
 
-      ![Admin - all notifications ](./assets/admin-notifications-mark-as-read.png)<!-- zoom -->
+      ![Admin - Mark selected notifications as read](./assets/admin-notifications-mark-as-read.png){zoomable="yes"}
 
    - To delete the message, click **[!UICONTROL Remove]**.
 
@@ -70,16 +66,16 @@ For a message of critical importance, do one of the following:
 
 1. In the left panel, expand **[!UICONTROL Advanced]** and choose **[!UICONTROL System]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png)the **[!UICONTROL Notifications]** section and do the following:
+1. Expand ![Expansion selector](../assets/icon-display-expand.png)the **[!UICONTROL Notifications]** section.
+   
+   ![Notifications configuration](./assets/system-notifications.png){width="400"}
 
-   - If your store Admin runs over a [secure URL](../stores-purchase/store-urls.md), set **[!UICONTROL Use HTTPS to Get Feed]** to  `Yes`.
+1. If your store Admin runs over a [secure URL](../stores-purchase/store-urls.md), set **[!UICONTROL Use HTTPS to Get Feed]** to  `Yes`.
 
-   - Set **[!UICONTROL Update Frequency]** to determine how often your inbox is updated.
+1. Set **[!UICONTROL Update Frequency]** to determine how often your inbox is updated.
 
-      The interval can be from one to 24 hours.
-
-   ![Notifications configuration](./assets/system-notifications.png)<!-- zoom -->
+   The interval can be from one to 24 hours.
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-For more information about the System configuration options, see the [Configuration Reference Guide](../configuration-reference/advanced/system.md).
+For more information about the [!UICONTROL System] configuration options, see the [Configuration Reference Guide](../configuration-reference/advanced/system.md).

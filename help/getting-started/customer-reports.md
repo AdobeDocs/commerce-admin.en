@@ -1,19 +1,19 @@
 ---
-title: Customer Reports
+title: Customer reports
 description: Customer reports available in Adobe Commerce and Magento Open Source provide insight into customer activity during a specified time period or date range.
 exl-id: 7bee414b-b605-4aed-9749-78bb8056a6a4
 ---
-# Customer Reports
+# Customer reports
 
 Customer reports provide insight into customer activity during a specified time period or date range.
 
-## Order Total
+## [!UICONTROL Order Total Report]
 
 On the _Admin_ sidebar, go to **[!UICONTROL Reports]** > _[!UICONTROL Customers]_ > **[!UICONTROL Order Total]**.
 
-![Order Total Report](./assets/customers-new-accounts.png)<!-- zoom -->
+![Order Total Report](./assets/customers-order-total.png){width="600"}
 
-The Order Total Report shows customer orders for a specified time interval or date range. The report includes the number of orders per customer, average order amount, and total amount.
+The [!UICONTROL Order Total Report] shows customer orders for a specified time interval or date range. The report includes the number of orders per customer, average order amount, and total amount.
 
 ### Workspace controls
 
@@ -39,11 +39,11 @@ The Order Total Report shows customer orders for a specified time interval or da
 
 {style="table-layout:auto"}
 
-## Order Count
+## [!UICONTROL Order Count Report]
 
 On the _Admin_ sidebar, go to **[!UICONTROL Reports]** > _[!UICONTROL Customers]_ > **[!UICONTROL Order Count]**.
 
-![Order Count Report](./assets/customer-order-count.png)<!-- zoom -->
+![Order Count Report](./assets/customer-order-count.png){width="600"}
 
 The Order Count Report shows the number of orders per customer for a specified time interval or date range. The report includes the number of orders per customer, average order amount, and total amount.
 
@@ -71,13 +71,13 @@ The Order Count Report shows the number of orders per customer for a specified t
 
 {style="table-layout:auto"}
 
-## New Accounts
+## [!UICONTROL New Accounts Report]
 
 On the _Admin_ sidebar, go to **[!UICONTROL Reports]** > _[!UICONTROL Customers]_ > **[!UICONTROL New]**.
 
-![New Accounts Report](./assets/customers-new-accounts.png)<!-- zoom -->
+![New Accounts Report](./assets/customers-new-accounts.png){width="600"}
 
-The New Accounts Report shows the number of new customer accounts opened during a specified time interval or date range.
+The [!UICONTROL New Accounts Report] shows the number of new customer accounts opened during a specified time interval or date range.
 
 ### Workspace controls
 
@@ -100,15 +100,15 @@ The New Accounts Report shows the number of new customer accounts opened during 
 
 {style="table-layout:auto"}
 
-## Wish Lists
+## [!UICONTROL Customer Wish List Report]
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only)
 
 On the _Admin_ sidebar, go to **[!UICONTROL Reports]** > _[!UICONTROL Customers]_ > **[!UICONTROL Wish Lists]**.
 
-![Wish List Report](./assets/customer-wish-list.png)<!-- zoom -->
+![Wish List Report](./assets/customer-wish-list.png){width="600"}
 
-The Customer Wish List Report provides information about customer Wish Lists.
+The [!UICONTROL Customer Wish List Report] provides information about customer wish lists.
 
 ### Workspace controls
 
@@ -140,15 +140,15 @@ The Customer Wish List Report provides information about customer Wish Lists.
 
 {style="table-layout:auto"}
 
-## Segments
+## [!UICONTROL Customer Segment Report]
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only)
 
 On the _Admin_ sidebar, go to **[!UICONTROL Reports]** > _[!UICONTROL Customers]_ > **[!UICONTROL Segments]**.
 
-![Segments Report](./assets/customers-segments.png)<!-- zoom -->
+![Segments Report](./assets/customers-segments.png){width="600"}
 
-The Customer Segment Report provides information about the number of customers in each segment.
+The [!UICONTROL Customer Segment Report] provides information about the number of customers in each segment.
 
 ### Workspace controls
 

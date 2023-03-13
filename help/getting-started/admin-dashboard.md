@@ -1,19 +1,19 @@
 ---
-title: Admin Dashboard
+title: Admin dashboard
 description: Learn about the Admin dashboard, which is usually the first page that appears when you log in.
 exl-id: 56957c0a-1618-444b-a37a-ecf0d7b27eae
 ---
-# Admin Dashboard
+# Admin dashboard
 
 The dashboard is usually the first page that appears when you log in to the _Admin_ and can provide a real-time overview of sales and customer activity. Dashboard data provides a snapshot of lifetime sales, average order amount, recent orders, and search terms. The chart shows completed orders and amounts for the selected date range, and can be generated from either dynamic, real-time data, or historical aggregated data. The tabs at the bottom provide quick reports of your best-selling products, most viewed products, new customers, and customers who have purchased the most.
 
 If you have a significant amount of data to process, the chart can be turned off to improve performance. The dashboard in the following example is configured to use real-time data and shows completed orders by the hour for the last 24 hours. The chart is updated for each completed order.
 
-![Dashboard](./assets/dashboard-full.png)<!-- zoom -->
+![Dashboard](./assets/dashboard-full.png){zoomable="yes"}
 
 [Advanced Reporting](business-intelligence.md#advanced-reporting) displays a personalized dashboard based on your product, order, and customer data.
 
-![Advanced Reporting](./assets/dashboard-advanced-reporting.png)<!-- zoom -->
+![Advanced Reporting](./assets/dashboard-advanced-reporting.png){zoomable="yes"}
 
 ## Configure the dashboard
 
@@ -31,11 +31,11 @@ If you have a large amount of data to process, you can turn off the display of t
 
 1. If necessary, expand the **[!UICONTROL Dashboard]** section.
 
+   ![Advanced configuration - Enable charts](./assets/admin-dashboard-config.png){width="400"}
+
 1. To change the default value, clear the **[!UICONTROL Use system value]** checkbox.
 
 1. Set **Enable Charts** to `Yes`.
-
-   ![Advanced configuration - Enable charts](./assets/admin-dashboard-config.png)<!-- zoom -->
 
 For more information about the Admin configuration options, see the [Configuration Reference Guide](../configuration-reference/advanced/admin.md).
 
@@ -47,21 +47,23 @@ The dashboard is the default [startup page](../configuration-reference/advanced/
 
 1. Click to expand the **Startup Page** section.
 
-1. Clear the **[!UICONTROL Use system value]** checkbox and choose the **Startup Page** that you want to appear when you log in to the Admin.
+   ![Admin dashboard - startup page setting](./assets/admin-startup-page.png){width="400"}
 
-   ![Admin dashboard - startup page setting](./assets/admin-startup-page.png)<!-- zoom -->
+1. Clear the **[!UICONTROL Use system value]** checkbox and choose the **Startup Page** that you want to appear when you log in to the Admin.
 
 ### Choose the starting dates
 
 1. In the left side panel under **[!UICONTROL General]**, choose **Reports**.
 
-1. In the **[!UICONTROL Dashboard]** section, clear the **[!UICONTROL Use system value]** checkboxes for the date settings and do the following:
+1. On the page, expand the **[!UICONTROL Dashboard]** section.
+
+   ![Admin Dashboard - date settings](./assets/reports-dashboard.png){width="400"}
+
+1. Clear the **[!UICONTROL Use system value]** checkboxes for the date settings and do the following:
 
    - Set **Year-To-Date Starts** to the **Month** and **Day**.
 
    - Set **Current Month Starts** to the **Day**.
-
-   ![Admin Dashboard - date settings](./assets/reports-dashboard.png)<!-- zoom -->
 
 For more information about the [!UICONTROL Reports] configuration options, see the [_Configuration Reference Guide_](../configuration-reference/general/reports.md).
 
@@ -71,12 +73,14 @@ The dashboard chart can be generated in real time or by using historical, aggreg
 
 1. In the left side panel, click to expand **Sales** and choose **Sales**.
 
-1. In the **[!UICONTROL Dashboard]** section, clear the **[!UICONTROL Use system value]** checkbox and set **[!UICONTROL Use Aggregated Data]** to one of the following:
+1. On the page, expand the **[!UICONTROL Dashboard]** section.   
+
+   ![Admin dashboard - data source setting](./assets/config-sales-dashboard.png){width="400"}
+
+1. Clear the **[!UICONTROL Use system value]** checkbox and set **[!UICONTROL Use Aggregated Data]** to one of the following:
 
    - For historical, aggregated data, choose `Yes`.
    - For real-time data, choose `No`.
-
-   ![Admin dashboard - data source setting](./assets/config-sales-dashboard.png)<!-- zoom -->
 
 ## Chart sections
 

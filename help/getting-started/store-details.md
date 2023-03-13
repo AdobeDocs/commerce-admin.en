@@ -1,19 +1,19 @@
 ---
-title: Store Details
+title: Store details
 description: Learn how to update the basic information for your store.
 exl-id: f4910ff7-4fcc-482f-be1d-cad8564cdd86
 ---
-# Store Details
+# Store details
 
-The basic information for your store includes the store name and address, telephone number and email address, that appear on email messages, invoices, and other communications sent to your customers.
+The basic information for your store includes the store name and address, telephone number, and email address that appear on email messages, invoices, and other communications sent to your customers.
 
-![General configuration - store details](./assets/config-general-store-details.png)<!-- zoom -->
+![General configuration - store details](./assets/config-general-store-details.png){width="900" zoomable="yes"}
 
 ## [!UICONTROL Store Information]
 
 The _[!UICONTROL Store Information]_ section provides the basic information that appears on sales documents and in other communications.
 
-![General configuration - store information](./assets/general-store-information.png)<!-- zoom -->
+![General configuration - store information](./assets/general-store-information.png){width="700"}
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -25,7 +25,7 @@ The _[!UICONTROL Store Information]_ section provides the basic information that
 
     - Enter the **[!UICONTROL Store Phone Number]**, formatted as you want it to appear.
 
-    - For **[!UICONTROL Store Hours of Operation]**, enter the hours your store is open for business. For example: Mon - Fri, 9-5, Sat 9-noon PST.
+    - For **[!UICONTROL Store Hours of Operation]**, enter the hours your store is open for business. For example: `Mon - Fri, 9-5, Sat 9-noon PST`.
 
     - Select the **[!UICONTROL Country]** where your business is located.
 
@@ -39,9 +39,9 @@ The _[!UICONTROL Store Information]_ section provides the basic information that
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-For more information about the Store information configuration options, see the [_Configuration Reference Guide_](../configuration-reference/general/general.md#store-information).
+For more information about the store information configuration options, see the [_Configuration Reference Guide_](../configuration-reference/general/general.md#store-information).
 
-## Locale Options
+## [!UICONTROL Locale Options]
 
 The locale determines the many of the settings that are used throughout the store. Some of them are:
 
@@ -54,7 +54,7 @@ The locale determines the many of the settings that are used throughout the stor
 
 The locale setting determines the time zone and language used for each store, and identifies the days of the work week in the area.
 
-![General configuration - locale options](./assets/general-locale-options.png)<!-- zoom -->
+![General configuration - locale options](./assets/general-locale-options.png){width="700"}
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -76,15 +76,15 @@ The locale setting determines the time zone and language used for each store, an
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-For more information about the Locale configuration options, see the [Configuration Reference Guide](../configuration-reference/general/general.md#locale-options).
+For more information about the locale configuration options, see the [Configuration Reference Guide](../configuration-reference/general/general.md#locale-options).
 
-## State Options
+## [!UICONTROL State Options]
 
 In many countries, the state, province, or region is a required part of a postal address. The information is used for shipping and billing information, to calculate tax rates, and so on. For countries where the state is not required, the field can be omitted entirely from the address, or included as an optional field.
 
 Because standard address formats vary from one country to another, you can also edit the template that is used to format the address for invoices, packing slips, and shipping labels.
 
-![General configuration - state options](./assets/general-state-options.png)<!-- zoom -->
+![General configuration - state options](./assets/general-state-options.png){width="700"}
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -102,13 +102,13 @@ Because standard address formats vary from one country to another, you can also 
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-For more information about the State configuration options, see the [Configuration Reference Guide](../configuration-reference/general/general.md#state-options).
+For more information about the state configuration options, see the [Configuration Reference Guide](../configuration-reference/general/general.md#state-options).
 
-## Country Options
+## [!UICONTROL Country Options]
 
-The Country Options identify the country where your business is located and the countries from which you accept payment.
+The country options identify the country where your business is located and the countries from which you accept payment.
 
-![General configuration - country settings](./assets/general-country-options.png)<!-- zoom -->
+![General configuration - country settings](./assets/general-country-options.png){width="700"}
 
 ### Set the country options for your store
 
@@ -152,9 +152,9 @@ You can also configure shipping to specific countries for each available [delive
 
 1. In the **[!UICONTROL Top Destinations]** list, select the primary countries that you target for shipping.
 
-1. When complete, click **[!UICONTROL Save Config]**.
+   ![Example of setting the country options for DHL delivery method](./assets/country-options-for-specific-delivery-method.png){width="700"}
 
-![Example of setting the country options for DHL delivery method](./assets/country-options-for-specific-delivery-method.png)<!-- zoom -->
+1. When complete, click **[!UICONTROL Save Config]**.
 
 ### Troubleshooting resources
 
@@ -163,9 +163,9 @@ For help with troubleshooting country configuration issues, see the following [!
 - [How to add a country](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
 - [Provided countryId does not exist](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-15/mdva-33393-magento-patch-provided-countryid-does-not-exist.html)
 
-## Merchant Location
+## [!UICONTROL Merchant Location]
 
-The Merchant Location setting is used to configure [payment methods](../stores-purchase/payments.md). If there is no value for this setting, the [Default Country](#country-options) setting is used.
+The Merchant Location setting is used to configure [payment methods](../stores-purchase/payments.md). If there is no value for this setting, the [Default Country](#uicontrol-country-options) setting is used.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -173,7 +173,7 @@ The Merchant Location setting is used to configure [payment methods](../stores-p
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Merchant Location** section and choose your **[!UICONTROL Merchant Country]**.
 
-   ![Merchant Location setting](./assets/payment-methods-merchant-location.png)<!-- zoom -->
+   ![Merchant Location setting](./assets/payment-methods-merchant-location.png){width="400"}
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
@@ -189,7 +189,7 @@ Updating Currency Rates - Currency rates can be [updated](../stores-purchase/cur
 
 Currency Chooser - If multiple currencies are available, the [currency chooser](../stores-purchase/currency.md) is available in the header of the store.
 
-## Store Email Addresses
+## [!UICONTROL Store Email Addresses]
 
 You can have up to five different email addresses to represent distinct functions or departments for each store or view. In addition to the following predefined email identities, there are a few custom identities that you can set up according to your needs.
 
@@ -211,7 +211,7 @@ Before you can configure email addresses for the store, each must be set up as a
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL General Contact]** section and do the following:
 
-   ![General configuration - store email addresses](./assets/store-email-addresses-general-contact.png)<!-- zoom -->
+   ![General configuration - store email addresses](./assets/store-email-addresses-general-contact.png){width="400"}
 
    - For **[!UICONTROL Sender Name]**, enter the name of the person that is associated with the General Contact identity to appear as the sender of any email messages.
 
@@ -237,7 +237,7 @@ If you use custom email addresses, make sure to update the configuration of any 
 
 1. Starting with **[!UICONTROL Order]**, expand the section for each message and make sure that the correct sender is selected.
 
-    ![Sales configuration - sales emails](./assets/sales-emails-order.png)<!-- zoom -->
+    ![Sales configuration - sales emails](./assets/sales-emails-order.png){width="400"}
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
@@ -249,17 +249,17 @@ The _Contact Us_ link in the footer of the store is an easy way for customers to
 
 It is important to understand that the default Contact Us form is rendered directly from code rather than from a CMS page.
 
-![Default Contact Us page](./assets/page-contact-us-default.png)<!-- zoom -->
+![Default Contact Us page](./assets/page-contact-us-default.png){width="700"}
 
 The store footer includes a link to the Contact Us page that is available throughout the store.
 
-![Contact Us link in footer](./assets/storefront-footer-contact-us.png)<!-- zoom -->
+![Contact Us link in footer](./assets/storefront-footer-contact-us.png){width="700"}
 
 The Luma sample data includes additional information on the Contact Us page that demonstrates how you might customize the page for your store.
 
-![Contact Us page](./assets/storefront-contact-us.png)<!-- zoom -->
+![Contact Us page](./assets/storefront-contact-us.png){width="700"}
 
-### Configure the Contact Us form
+### Configure the contact form
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -267,11 +267,11 @@ The Luma sample data includes additional information on the Contact Us page that
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Contact Us]** section and set **[!UICONTROL Enable Contact Us]** to `Yes`.
 
-   ![General configuration - contact us](./assets/contacts-contact-us.png)<!-- zoom -->
+   ![General configuration - contact us](./assets/contacts-contact-us.png){width="400"}
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Email Options]** section and set the email contact options:
 
-   ![General configuration - email options](./assets/contacts-email-options.png)<!-- zoom -->
+   ![General configuration - email options](./assets/contacts-email-options.png){width="400"}
 
    - For **[!UICONTROL Send Emails to]**, enter the email address where messages from the Contact Us form are sent.
 
@@ -283,6 +283,8 @@ The Luma sample data includes additional information on the Contact Us page that
 
 ### Customize the content
 
+You can customize the content in the _Contact Us_ form to fit the needs of your store and customer service policies.
+
 ### Method 1: Using sample data
 
 The Luma sample data includes a _Contact Us Info_ block that can be customized for your store. The `contact-us-info` [block](../content-design/blocks.md) can be easily modified to add your own content to the Contact Us page.
@@ -291,17 +293,23 @@ The Luma sample data includes a _Contact Us Info_ block that can be customized f
 
 1. Find the **[!UICONTROL Contact Us Info]** block in the list and open in **[!UICONTROL Edit]** mode.
 
-   ![Contact Us Info block](./assets/content-block-contact-us-info.png)<!-- zoom -->
+   ![Contact Us Info block](./assets/content-block-contact-us-info.png){width="700"}
 
-1. Scroll down to the **[!UICONTROL Content]** field and make any necessary changes.
+1. At the bottom of the block page, click **[!UICONTROL Edit with Page Builder]**.
 
-   - Use the editor [toolbar](../content-design/editor.md) to format the text, and add [images](../content-design/editor-insert-image.md) and [links](../content-design/editor-insert-link.md).
+   ![Content block - contact us example](./assets/content-block-contact-us-content.png){width="700"}
 
-   -  To work directly with the HTML, click **[!UICONTROL Show / Hide Editor]**.
+   >[!NOTE]
+   >
+   >If you have [[!DNL Page Builder] disabled](../page-builder/setup.md#disable-dnl-page-builder), you can use the editor [toolbar](../content-design/editor.md) to format the text, and add [images](../content-design/editor-insert-image.md) and [links](../content-design/editor-insert-link.md).
 
-   ![Content block - contact us example](./assets/content-block-contact-us-content.png)<!-- zoom -->
+1. Hover over the HTML container to display the toolbox and choose the _Settings_ ( ![Settings icon](../page-builder/assets/pb-icon-settings.png) ) icon.
 
-1. When complete, click **[!UICONTROL Save Block]**.
+1. Edit the HTML code according to provide the contact information for your store and click **[!UICONTROL Save]**.
+
+   ![Content block - edit HTML code](./assets/content-block-contact-us-html.png){width="700"}
+
+1. Exit the [!DNL Page Builder] stage and click **[!UICONTROL Save Block]**.
 
 ### Method 2: Without sample data
 
@@ -309,6 +317,6 @@ The Luma sample data includes a _Contact Us Info_ block that can be customized f
 >
 >Starting with the 2.4.0 release, the contact form can no longer call inside a CMS block or CMS page. All customization of the contact form should be done using layout xml or custom theme templates.
 
-By default, shoppers access the contact form using the _Contact link_ in the footer of the storefront pages. For more information about customizing the contact page, refer to the [Frontend Developer Guide][theme-guide]{:target="_blank"}.
+By default, shoppers access the contact form using the _Contact link_ in the footer of the storefront pages. For more information about customizing the contact page, refer to the [Frontend Developer Guide][theme-guide].
 
 [theme-guide]: https://developer.adobe.com/commerce/frontend-core/guide/themes/

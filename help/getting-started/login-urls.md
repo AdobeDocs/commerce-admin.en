@@ -1,11 +1,11 @@
 ---
-title: Login Credentials and URLs
+title: Login credentials and URLs
 description: Learn about the Commerce URLs and account credentials used to gain access to your Admin and to your storefront.
 exl-id: fa16b7e9-e05f-4eb8-bc32-596946c57e1c
 ---
-# Login Credentials and URLs
+# Login credentials and URLs
 
-Before you proceed with setup and configuration, make sure that you have the information that is required to access the Admin of your store and your [!DNL Commerce] account.
+Before you proceed with setup and configuration, make sure that you have the information that is required to access the Admin of your store and your Commerce account.
 
 ## Storefront URL
 
@@ -26,7 +26,7 @@ The address for your store [Admin](admin.md) is set up during the installation. 
 
 ## [!DNL Commerce] account
 
-Your [[!DNL Commerce] account](commerce-account-create.md) provides access to information about your products and services, account settings, billing history, and support resources. To access your account, go to the main Commerce site and click **[!UICONTROL My Account]** in the upper-right corner.
+Your [Commerce account](commerce-account-create.md) provides access to information about your products and services, account settings, billing history, and support resources. To access your account, go to the main Commerce site and click **[!UICONTROL My Account]** in the upper-right corner.
 
 ## Customer account
 

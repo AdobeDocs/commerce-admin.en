@@ -1,19 +1,19 @@
 ---
-title: '[!UICONTROL Reports] Menu'
+title: '[!UICONTROL Reports] menu'
 description: Adobe Commerce and Magento Open Source provide a wide selection of reports to keep you informed on your marketing efforts, sales products, and customer activity.
 exl-id: f6356590-ba89-4c97-a9fc-efbd0dacf31a
 ---
-# [!UICONTROL Reports] Menu
+# [!UICONTROL Reports] menu
 
-Adobe Commerce and Magento Open Source provide a wide selection of reports to keep you informed on your marketing efforts, sales products, and customer activity. The Reports menu provides easy access to current information about your sales, products, customers, and promotions.
+Adobe Commerce provides a wide selection of reports to keep you informed on your marketing efforts, sales products, and customer activity. The Reports menu provides easy access to current information about your sales, products, customers, and promotions.
 
-![Reports Menu](./assets/overview.png)<!-- zoom -->
+![Reports Menu](./assets/overview.png){width="600"}
 
 ## Display the [!UICONTROL Reports] menu
 
 On the _Admin_ sidebar, choose **[!UICONTROL Reports]**.
 
-## Menu Options
+## Menu options
 
 ### [!UICONTROL Marketing]
 

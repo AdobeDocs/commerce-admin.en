@@ -1,14 +1,14 @@
 ---
-title:  Create and Access Your [!DNL Commerce] Account
+title:  Create and access your [!DNL Commerce] account
 description: Learn about [!DNL Commerce] accounts, which manage the products and services that you have purchased.
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 ---
 
-# Access Your [!DNL Commerce] Account
+# Access your [!DNL Commerce] account
 
 Your [!DNL Commerce] account has a separate login from your store Admin. You can access this account from either the [!DNL Commerce] website or from your store Admin. From the dashboard of your [!DNL Commerce] account, you can find information that is related to the products and services that you have purchased, as well as your contact and billing information. Some information is visible to license owners only.
 
-![Your [!DNL Commerce] account](./assets/home-acct.png)<!-- zoom -->
+![Your [!DNL Commerce] account](./assets/home-acct.png){width="400"}
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ An Adobe ID is required to access a Commerce account. If you already have a Comm
 
 1. Click **[!UICONTROL Sign in with Adobe ID]**.
 
-   ![Sign in with Adobe log in screen](./assets/sign-in-with-adobe.png)<!-- zoom -->
+   ![Sign in with Adobe log in screen](./assets/sign-in-with-adobe.png){width="700"}
 
 1. Enter your email address and click **[!UICONTROL Continue]**.
 
@@ -46,21 +46,19 @@ Anyone can create a free [!DNL Commerce] account. The email address that you use
 
 1. Click **[!UICONTROL Sign in with Adobe ID]**.
 
-   ![Sign in with Adobe log in screen](./assets/sign-in-with-adobe.png)<!-- zoom -->
-
 1. Click **[!UICONTROL Create an account]**.
 
-   ![Create an account link](./assets/account-create-link.png)<!-- zoom -->
+   ![Create an account link](./assets/account-create-link.png){width="700"}
 
 1. Complete the sign-up form.
 
-   ![Account information](./assets/account-create.png)<!-- zoom -->
+   ![Account information](./assets/account-create.png){width="700"}
 
 1. Click **[!UICONTROL Create account]**.
 
 1. Enter the verification code sent to your email address.
 
-   ![Enter verification code](./assets/verification-code.png)
+   ![Enter verification code](./assets/verification-code.png){width="700"}
 
 ## Reset your password
 
@@ -68,15 +66,13 @@ Anyone can create a free [!DNL Commerce] account. The email address that you use
 
 1. Click **[!UICONTROL Sign in with Adobe ID]**.
 
-   ![Sign in with Adobe log in screen](./assets/sign-in-with-adobe.png)<!-- zoom -->
-
 1. Click **[!UICONTROL Get help signing in]**.
 
-   ![Get help signing in](./assets/sign-in-get-help.png)<!-- zoom -->
+   ![Get help signing in](./assets/sign-in-get-help.png){width="700"}
 
 1. Click **[!UICONTROL Reset your password]**.
 
-   ![Change your password](./assets/change-password.png)<!-- zoom -->
+   ![Change your password](./assets/change-password.png){width="700"}
 
 1. Enter your email address.
 
