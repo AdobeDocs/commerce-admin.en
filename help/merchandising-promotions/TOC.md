@@ -45,7 +45,6 @@ hide: yes
     - [Create a cart price rule](price-rules-cart-create.md)
     - [Coupon codes](price-rules-cart-coupon.md)
     - [Scheduled changes for cart price rules](price-rule-cart-scheduled-changes.md)
-    - [Integrate Experience Platform Audiences in Commerce](customer-segment-rtcdp.md)
     - [Example: free shipping promotion](price-rules-cart-free-shipping.md)
     - [Example: buy this get that free](price-rules-cart-buy-this-get-that.md)
     - [Example: discount with minimum purchase](price-rule-discount-minimum-purchase.md)
