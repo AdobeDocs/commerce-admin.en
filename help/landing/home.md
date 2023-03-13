@@ -20,7 +20,7 @@ For a list of the advanced capabilities included with Adobe Commerce, see [Comme
 
 ## Magento Open Source code base
 
-Magento Open Source is the code base that Adobe officially contributes to and ensures compatibility for transition to Adobe Commerce. This is part of Adobe’s initiative to empower individual developers and foster small businesses who aspire to grow fast. 
+Magento Open Source is the code base that Adobe officially contributes to and ensures compatibility for transition to Adobe Commerce. This is part of Adobe's initiative to empower individual developers and foster small businesses who aspire to grow fast. 
 
 ## Merchant guides
 
@@ -124,6 +124,7 @@ Magento Open Source is the code base that Adobe officially contributes to and en
 | **2.4.6 release** - Updated the [Configure email communications](../systems/email-communications.md) and [System configuration reference](../configuration-reference/advanced/system.md#uicontrol-mail-sending-settings) topics to include the new SMTP option for email communications. | Update | 03/14/23 |
 | **2.4.6 release** - Updated the [Inventory Management Release Notes](../inventory-management/release-notes.md) with a descriptive list of fixes included in the latest bundled extension version (v1.2.6). | Update | 03/14/23 |
 | **2.4.6 release** - Updated the [B2B Release Notes](../b2b/release-notes.md) with a descriptive list of fixes included in the latest extension version (v1.3.5). | Update | 03/14/23 |
+| **New topic** - Added the [Audience activation](../getting-started/commerce-account-transfer.md) topic to the _Merchandising and Promotions Guide_, which provides detailed information about activating Real-Time CDP audiences in Adobe Commerce. | New | 03/13/23 |
 | **New topic** - Added the [Transfer a Commerce account](../getting-started/commerce-account-transfer.md) topic to the _Getting Started Guide_. | New | 02/27/23 |
 | **New guide** - Content now published in the Experience League: [Customer Management Guide](../customers/guide-overview.md) | Move | 12/5/2022 |
 | **New guide** - Content now published in the Experience League: [Configuration Reference Guide](../configuration-reference/guide-overview.md) | Move | 12/1/2022 |
