@@ -55,9 +55,13 @@ You also specify the currencies that you accept and which currency you want to u
 
 1. Configure your currency service connection:
 
-   There are two service options: _[!UICONTROL fixer.io]_ and _[!UICONTROL Currency Converter API]_
+   There are three service options: _[!UICONTROL Fixer.io (legacy)]_, _[!UICONTROL Fixer Api (APILayer)]_, and _[!UICONTROL Currency Converter API]_
 
-   - To connect to the [fixer.io service](https://fixer.io/):
+   >[!IMPORTANT]
+   >
+   >Starting with the 2.4.6 release, the [[!DNL Fixer.io]](https://fixer.io/) service is deprecated and replaced with the [[!DNL Fixer API] (APILayer)](https://apilayer.com/marketplace/fixer-api) service. It is highly recommended that you use an APILayer account instead of a deprecated [!DNL Fixer.io] account.
+
+   - _To connect to the [fixer.io service](https://fixer.io/):_
 
       - Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Fixer.io]** section.
 
@@ -67,7 +71,17 @@ You also specify the currencies that you accept and which currency you want to u
 
       ![General configuration - currency setup - Fixer.io options](./assets/config-general-currency-setup-fixerio.png)<!-- zoom -->
 
-   - To connect to the [Currency Convertor API service](https://free.currencyconverterapi.com/):
+   - _To connect to the [[!DNL Fixer Api (APILayer)] service](https://apilayer.com/):_
+
+      - Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Fixer Api (APILayer)]** section.
+
+      - Enter your [!DNL APILayer] **[!UICONTROL API key]**.
+
+      - For **[!UICONTROL Connection Timeout in Seconds]**, enter the number of seconds of inactivity to allow before the connection times out.
+
+     ![General configuration - currency setup - Fixer API (APILayer) options](./assets/config-general-currency-setup-fixer-api.png)<!-- zoom -->
+
+   - _To connect to the [[!DNL Currency Convertor API] service](https://free.currencyconverterapi.com/):_
 
       - Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Currency Convertor API]** section.
 
@@ -87,7 +101,7 @@ You also specify the currencies that you accept and which currency you want to u
 
 1. Set the update options:
 
-   - **[!UICONTROL Service]** — Set to the rate provider. The default value is `Fixer.io`.
+   - **[!UICONTROL Service]** — Set to the rate provider. The default value is `Fixer.io (legacy)`.
 
    - **[!UICONTROL Start Time]** — Set to the hour, minute, and second that the rates are updated according to the schedule.
 
