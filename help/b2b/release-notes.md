@@ -12,36 +12,59 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 
 See [Product availability](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html){target="_blank"} for information about supported and compatible extension releases.
 
+## B2B v1.3.5
+
+This extension release is fully compatible and supported with Adobe Commerce 2.4.6.
+
+![Fixed issue](../assets/fix.svg) <!--- ACP2E-689--> Adobe Commerce now displays correct details during payment when the Purchase Orders option is enabled and a virtual quote that was created with the PayPal payment option has been selected. Previously, totals were displayed as zero under these conditions.
+
+![Fixed issue](../assets/fix.svg) <!--- ACP2E-609--> The list of customer groups for the **Allow Browsing Category** setting no longer contains customer groups that are related to shared catalogs.
+
+![Fixed issue](../assets/fix.svg) <!--- ACP2E-1244--> The Tax/VAT Number customer attribute now works as expected with company admin accounts on both the Admin and storefront. Custom Tax/VAT attributes are no longer required to create a company account. Previously, when a merchant created a company account with a custom Tax/VAT attribute, Adobe Commerce threw a validation error on both the storefront and Admin.
+
+![Fixed issue](../assets/fix.svg) <!--- ACP2E-1236--> Disabling the shared catalog feature on a specific scope now works correctly. Previously, Adobe Commerce set an invalid scope when a merchant saved shared catalog configuration.
+
+![Fixed issue](../assets/fix.svg) <!--- ACP2E-1203--> Admin users can now save customer custom attribute values for company users. Previously, customer custom attributes for company users could not be saved.
+
+![Fixed issue](../assets/fix.svg) <!--- ACP2E-1221--> Performance issues are resolved with the validation of company permissions provided through GraphQL when many company permissions are already assigned.
+
+![Fixed issue](../assets/fix.svg) <!--- ACP2E-1242--> Adobe Commerce no longer throws an error on the cart page when Quick Order is used to add a product in a quantity that exceeds available inventory.
+
+![Fixed issue](../assets/fix.svg) <!--- ACP2E-1090--> The performance of `SELECT` company permissions operations has improved.
+
+![Fixed issue](../assets/fix.svg) <!--- ACP2E-2456--> Category queries now return product prices according to store configuration settings when there are no category permissions explicitly set on the category being queried.
+
+![Fixed issue](../assets/fix.svg) <!--- ACP2E-6829--> The **[!UICONTROL Place Order]** button now works as expected when completing a purchase with an approved quote request. Issues with the negotiable quote `negotiableQuoteCheckoutSessionPlugin` plugin have been resolved.
+
 ## B2B v1.3.4
 
 This extension release is fully compatible and supported with Adobe Commerce 2.4.5.
 
--  ![Fixed issue](../assets/fix.svg) <!--- ACP2E-453-->Adobe Commerce no longer sends email notifications each time an existing Company is updated by an API call. Emails are now sent only when a company is created.
+![Fixed issue](../assets/fix.svg) <!--- ACP2E-453-->Adobe Commerce no longer sends email notifications each time an existing Company is updated by an API call. Emails are now sent only when a company is created.
 
--  ![Fixed issue](../assets/fix.svg) <!--- ACP2E-406-->Adobe Commerce now correctly calculates a negotiable quote grand total when the **[!UICONTROL Enable Cross Border Trade]** tax calculation setting is enabled.
+![Fixed issue](../assets/fix.svg) <!--- ACP2E-406-->Adobe Commerce now correctly calculates a grand total of a negotiable quote when the **[!UICONTROL Enable Cross Border Trade]** tax calculation setting is enabled.
 
--  ![Fixed issue](../assets/fix.svg) <!--- ACP2E-322-->Configurable products are now moved to the last position in the product listing after stock is updated when the **[!UICONTROL Move out of stock to the bottom]** setting is enabled. A new custom database query is implemented to ensure that the Elasticsearch index sort order now honors the Admin-enabled sort order. Previously, configurable products and their child products were not moved to the bottom of the list when this setting was enabled.
+![Fixed issue](../assets/fix.svg) <!--- ACP2E-322-->Configurable products are now moved to the last position in the product listing after stock is updated when the **[!UICONTROL Move out of stock to the bottom]** setting is enabled. A new custom database query is implemented to ensure that the Elasticsearch index sort order now honors the Admin-enabled sort order. Previously, configurable products and their child products were not moved to the bottom of the list when this setting was enabled.
 
--  ![Fixed issue](../assets/fix.svg) <!--- ACP2E-308-->Purchase Order email now honors the email sending setting of each website in a multi-site deployment. A check for the **[!UICONTROL Disable Email Communications]** setting is added to the custom logic for email queues. Previously, Adobe Commerce did not honor the email sending setting for the secondary website.
+![Fixed issue](../assets/fix.svg) <!--- ACP2E-308-->Purchase Order email now honors the email sending setting of each website in a multi-site deployment. A check for the **[!UICONTROL Disable Email Communications]** setting is added to the custom logic for email queues. Previously, Adobe Commerce did not honor the email sending setting for the secondary website.
 
--  ![Fixed issue](../assets/fix.svg) <!--- ACP2E-302-->The title of the SKU field of the Quick Order page is changed for clarity.
+![Fixed issue](../assets/fix.svg) <!--- ACP2E-302-->The title of the SKU field of the Quick Order page is changed for clarity.
 
--  ![Fixed issue](../assets/fix.svg) <!--- ACP2E-543-->Adobe Commerce now displays a more informative error message when a shopper enters an invalid SKU in the **Enter SKU or Product Name** field.
+![Fixed issue](../assets/fix.svg) <!--- ACP2E-543-->Adobe Commerce now displays a more informative error message when a shopper enters an invalid SKU in the **Enter SKU or Product Name** field.
 
--  ![Fixed issue](../assets/fix.svg) <!--- ACP2E-1753-->The **[!UICONTROL Account Created in]** field for a company administrator now retains its value as expected after you save the company.
+![Fixed issue](../assets/fix.svg) <!--- ACP2E-1753-->The **[!UICONTROL Account Created in]** field for a company administrator now retains its value as expected after you save the company.
 
--  ![Fixed issue](../assets/fix.svg) <!--- ACP2E-722 -->The `customer` query no longer returns empty results when it retrieves requisition lists that are filtered by `uid`.
+![Fixed issue](../assets/fix.svg) <!--- ACP2E-722 -->The `customer` query no longer returns empty results when it retrieves requisition lists that are filtered by `uid`.
 
--  ![Fixed issue](../assets/fix.svg) <!--- ACP2E-210 -->Added a plugin before the `collectQuoteTotals` call to ensure that store credits are applied only once.
+![Fixed issue](../assets/fix.svg) <!--- ACP2E-210 -->Added a plugin before the `collectQuoteTotals` call to ensure that store credits are applied only once.
 
--  ![Fixed issue](../assets/fix.svg) <!--- ACP2E-665 -->Customers are now redirected to the login page when their account is deleted by an administrator from the Admin. Previously, Adobe Commerce threw an error.  The plugin (`SessionPlugin`) code block is now inside the `try…catch` block. Previously, this code was not wrapped inside the generic exception handling block.
+![Fixed issue](../assets/fix.svg) <!--- ACP2E-665 -->Customers are now redirected to the login page when their account is deleted by an administrator from the Admin. Previously, Adobe Commerce threw an error. The plugin (`SessionPlugin`) code block is now inside the `try…catch` block. Previously, this code was not wrapped inside the generic exception-handling block.
 
--  ![Fixed issue](../assets/fix.svg) <!--- ACP2E-661 --> On the Quick Order page in mobile mode, pressing **Enter** after entering a valid product name or SKU now takes the shopper to the next field as expected.
+![Fixed issue](../assets/fix.svg) <!--- ACP2E-661 --> On the Quick Order page in mobile mode, pressing **Enter** after entering a valid product name or SKU now takes the shopper to the next field as expected.
 
--  ![Fixed issue](../assets/fix.svg) <!--- ACP2E-607 -->Company name is now visible as expected in the billing and shipping address sections of the checkout workflow.
+![Fixed issue](../assets/fix.svg) <!--- ACP2E-607 -->Company name is now visible as expected in the billing and shipping address sections of the checkout workflow.
 
--  ![Fixed issue](../assets/fix.svg) <!--- ACP2E-375 -->Store credit is now unavailable when the **[!UICONTROL Zero Subtotal Checkout]** payment method is disabled. Previously, the Store Credit checkbox was not functional during order placement from the Admin. The application did not place the order with the store credit and displayed this error: `The requested Payment Method is not available`.
-
+![Fixed issue](../assets/fix.svg) <!--- ACP2E-375 -->Store credit is now unavailable when the **[!UICONTROL Zero Subtotal Checkout]** payment method is disabled. Previously, the Store Credit checkbox was not functional during order placement from the Admin. The application did not place the order with the store credit and displayed this error: `The requested Payment Method is not available`.
 
 ## B2B v1.3.3
 
@@ -217,7 +240,7 @@ This extension release is fully compatible and supported with Adobe Commerce 2.4
 
 ![Fixed issue](../assets/fix.svg) Ordering products by SKU using Quick Order no longer results in duplicate product quantities in the CSV file. <!--- MC-37427-->
 
-![Fixed issue](../assets/fix.svg) The **[!UICONTROL Add to Cart]** button is no longer blocked when the Enter Multiple SKUs section of the Quick Order page contains an empty value. Instead, Adobe Commerce now displays a message prompting you to enter valid SKUs. <!--- MC-37387-->
+![Fixed issue](../assets/fix.svg) The **[!UICONTROL Add to Cart]** button is no longer blocked when the _[!UICONTROL Enter Multiple SKUs]_ section of the Quick Order page contains an empty value. Instead, Adobe Commerce now displays a message prompting you to enter valid SKUs. <!--- MC-37387-->
 
 ![Fixed issue](../assets/fix.svg) Adobe Commerce now displays this message on the product page when you submit a product review from a requisition list: `You submitted your review for moderation`. The review also appears on the Pending Reviews page (Admin **[!UICONTROL Marketing]** > **[!UICONTROL Pending Reviews]**). Previously, although Adobe Commerce added the review to the list of pending reviews, it threw a 404 error on the product page. <!--- MC-37119-->
 
@@ -329,9 +352,9 @@ This release includes improvements to order approvals, shipping methods, shoppin
 
 This extension release is fully compatible and supported with Adobe Commerce 2.4.0.
 
-![New](../assets/new.svg) Storefront Order Search, with added thanks for contribution by [Marek Mularczyk](https://github.com/mmularski) from [Divante](https://www.divante.com/) and community members.
+![New](../assets/new.svg) Storefront Order Search, with added thanks for contribution by Marek Mularczyk from [Divante](https://www.divante.com/) and community members.
 
-![New](../assets/new.svg) Purchase Orders have been enhanced and rewritten. They are now included by default in Adobe Commerce.
+![New](../assets/new.svg) Purchase Orders are enhanced and rewritten. They are now included by default in Adobe Commerce.
 
 ![New](../assets/new.svg) Purchase Order Approval Rules have been implemented. These rules allow users to control the Purchase Order workflow by creating purchasing rules for orders.
 

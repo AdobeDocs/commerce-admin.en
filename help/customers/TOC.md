@@ -11,6 +11,7 @@ breadcrumb-title: customer management
   - [All Customers](customers-all.md)
   - [Now online](now-online.md)
   - [Segments](customer-segments.md)
+  - [Audience Activation](audience-activation.md)
   - [Groups](customer-groups.md)
 - Customer Accounts {#customer-accounts}
   - [Account scope](customer-account-scope.md)
