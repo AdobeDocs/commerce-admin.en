@@ -108,8 +108,9 @@ The first step is to complete the default settings for table rates. You can comp
 1. Complete the table with appropriate values for the shipping calculation condition.
 
    - Use an asterisk (*) as a wildcard to represent all possible values in any category.
-   - The Country column must contain a [valid three-character code][1] for each row.
-   - Sort the data by Region/State so the specific locations are at the top of the list, and the wildcard locations at the bottom. This processes the rules with the absolute values first, and the wildcard values later.
+   - The _[!UICONTROL Country]_ column must contain a [valid three-character code][1] for each row.
+   - Sort the data by _[!UICONTROLRegion/State]_ so the specific locations are at the top of the list, and the wildcard locations at the bottom. This processes the rules with the absolute values first, and the wildcard values later.
+   - Values in the _[!UICONTROLWeight (and above)]_ column can have a maximum of four decimal places (such as `2.5075`). Using more decimal places in the data causes the import to fail. 
 
    ![Weight vs. Destination (Australia)](./assets/table-rates-weight-destination-csv.png)<!-- zoom -->
 
