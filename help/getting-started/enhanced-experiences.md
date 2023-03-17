@@ -11,7 +11,7 @@ In addition to the standard elements that enable customers to make purchases in 
 >
 >![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/)<br>
 >
->Use this downloadable, easy-to-use guide to identify the features offered by Adobe Commerce that can turn website visitors into buying customers.
+>Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers.
 
 ## Attract new customers 
 
