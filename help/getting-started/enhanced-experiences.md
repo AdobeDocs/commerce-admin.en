@@ -9,7 +9,7 @@ In addition to the standard elements that enable customers to make purchases in 
 
 >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) [**Merchant Site Assessment**](https://acrobat.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A98cc2c67-7962-482f-93e6-58457be61656&viewer%21megaVerb=group-discover)<br>
+>![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/)<br>
 >
 >Use this downloadable, easy-to-use guide to identify the features offered by Adobe Commerce that can turn website visitors into buying customers.
 
