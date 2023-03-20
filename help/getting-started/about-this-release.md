@@ -7,9 +7,9 @@ exl-id: 7313c81c-0205-4690-a873-fdd4a29032c9
 
 It is a best practice to keep your Commerce installation up to date, so you can benefit from the latest fixes, improvements, and advancements. Release notes provide a detailed description of the changes in each product release, with links to additional technical information, installation instructions, and support resources. To learn more about the current release, see:
 
-![Adobe Commerce](../assets/adobe-logo.svg) [Adobe Commerce 2.4.5 Release Notes][1]
+![Adobe Commerce](../assets/adobe-logo.svg) [Adobe Commerce 2.4.6 release notes][1]
 
-![Magento Open Source](../assets/open-source.svg) [Magento Open Source 2.4.5 Release Notes][2]
+![Magento Open Source](../assets/open-source.svg) [Magento Open Source 2.4.6 release notes][2]
 
 ## Installation
 
@@ -30,8 +30,8 @@ Most topics in this guide apply to a Commerce installation that is running in pr
 The Commerce mode can be changed only from the command line of the server by a user with appropriate permissions. See [Set the operation mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) in the _Configuration Guide_.
 
 
-[1]: https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-5.html
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/release/notes/magento-open-source/2-4-5.html
+[1]: https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html
+[2]: https://experienceleague.adobe.com/docs/commerce-operations/release/notes/magento-open-source/2-4-6.html
 [3]: https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/overview.html
 [4]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/overview.html
 [5]: https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html
