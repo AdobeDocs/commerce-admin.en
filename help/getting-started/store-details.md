@@ -13,13 +13,15 @@ The basic information for your store includes the store name and address, teleph
 
 The _[!UICONTROL Store Information]_ section provides the basic information that appears on sales documents and in other communications.
 
-![General configuration - store information](./assets/general-store-information.png){width="700"}
-
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
 1. Under **[!UICONTROL General]** in the left panel, choose **[!UICONTROL General]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Store Information]** section and do the following:
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Store Information]** section.
+
+   ![General configuration - store information](./assets/general-store-information.png){width="700"}
+   
+1. Set the options according to your store details:
 
     - Enter the **[!UICONTROL Store Name]** that you want to use in all communications.
 
@@ -54,13 +56,13 @@ The locale determines the many of the settings that are used throughout the stor
 
 The locale setting determines the time zone and language used for each store, and identifies the days of the work week in the area.
 
-![General configuration - locale options](./assets/general-locale-options.png){width="700"}
-
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
 1. In the left panel under **[!UICONTROL General]**, choose **[!UICONTROL General]**.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Locale Options]** section.
+
+   ![General configuration - locale options](./assets/general-locale-options.png){width="700"}
 
 1. Select your **[!UICONTROL Timezone]** from the list.
 
@@ -84,21 +86,21 @@ In many countries, the state, province, or region is a required part of a postal
 
 Because standard address formats vary from one country to another, you can also edit the template that is used to format the address for invoices, packing slips, and shipping labels.
 
-![General configuration - state options](./assets/general-state-options.png){width="700"}
-
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
 1. Under **[!UICONTROL General]** in the left panel, choose **[!UICONTROL General]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL State Options]** section and do the following:
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL State Options]** section.
 
-   - Use the **[!UICONTROL State is required for]** list to select each country where Region/State is a required entry.
+   ![General configuration - state options](./assets/general-state-options.png){width="700"}
+   
+1. Use the **[!UICONTROL State is required for]** list to select each country where Region/State is a required entry.
 
-   - Set **[!UICONTROL Allow to Choose State if it is Optional for Country]** to one of the following:
+1. Set **[!UICONTROL Allow to Choose State if it is Optional for Country]** to one of the following:
 
-      `Yes` - In countries where the state field is not required, includes the State field as an optional entry.
+   `Yes` - In countries where the state field is not required, includes the State field as an optional entry.
 
-      `No` - In countries where the state field is not required, omits the State field.
+   `No` - In countries where the state field is not required, omits the State field.
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
@@ -107,8 +109,6 @@ For more information about the state configuration options, see the [Configurati
 ## [!UICONTROL Country Options]
 
 The country options identify the country where your business is located and the countries from which you accept payment.
-
-![General configuration - country settings](./assets/general-country-options.png){width="700"}
 
 ### Set the country options for your store
 
@@ -121,6 +121,8 @@ The country options identify the country where your business is located and the 
    >[!NOTE]
    >
    >If needed, clear the **[!UICONTROL Use system value]** checkbox for each setting you want to change.
+
+   ![General configuration - country settings](./assets/general-country-options.png){width="700"}
 
 1. Choose the **[!UICONTROL Default Country]** where your business is located.
 
@@ -173,7 +175,7 @@ The Merchant Location setting is used to configure [payment methods](../stores-p
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Merchant Location** section and choose your **[!UICONTROL Merchant Country]**.
 
-   ![Merchant Location setting](./assets/payment-methods-merchant-location.png){width="400"}
+   ![Merchant Location setting](./assets/payment-methods-merchant-location.png){width="600"}
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
@@ -211,7 +213,7 @@ Before you can configure email addresses for the store, each must be set up as a
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL General Contact]** section and do the following:
 
-   ![General configuration - store email addresses](./assets/store-email-addresses-general-contact.png){width="400"}
+   ![General configuration - store email addresses](./assets/store-email-addresses-general-contact.png){width="600"}
 
    - For **[!UICONTROL Sender Name]**, enter the name of the person that is associated with the General Contact identity to appear as the sender of any email messages.
 
@@ -237,7 +239,7 @@ If you use custom email addresses, make sure to update the configuration of any 
 
 1. Starting with **[!UICONTROL Order]**, expand the section for each message and make sure that the correct sender is selected.
 
-    ![Sales configuration - sales emails](./assets/sales-emails-order.png){width="400"}
+    ![Sales configuration - sales emails](./assets/sales-emails-order.png){width="600"}
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
@@ -267,11 +269,11 @@ The Luma sample data includes additional information on the Contact Us page that
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Contact Us]** section and set **[!UICONTROL Enable Contact Us]** to `Yes`.
 
-   ![General configuration - contact us](./assets/contacts-contact-us.png){width="400"}
+   ![General configuration - contact us](./assets/contacts-contact-us.png){width="600"}
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Email Options]** section and set the email contact options:
 
-   ![General configuration - email options](./assets/contacts-email-options.png){width="400"}
+   ![General configuration - email options](./assets/contacts-email-options.png){width="600"}
 
    - For **[!UICONTROL Send Emails to]**, enter the email address where messages from the Contact Us form are sent.
 

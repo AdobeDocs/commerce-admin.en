@@ -7,7 +7,7 @@ exl-id: c53bb0e4-9f18-4d40-8cc4-8c3b485f8d68
 
 Your store receives messages from Adobe regularly. The messages are rated by importance and might refer to system updates, patches, new releases, scheduled maintenance, or upcoming events. The bell icon in the header indicates the number of unread messages in your inbox.
 
-![Admin - incoming messages](./assets/admin-inbox-summary.png){width="700"}
+![Admin - incoming messages](./assets/admin-inbox-summary.png){width="700" zoomable="yes"}
 
 The _[!UICONTROL Notifications]_ page lists all messages ranked by date. The _[!UICONTROL Action]_ commands can be used to mark individual messages as read, view more detailed information, or to remove the message from the inbox.
 
@@ -44,7 +44,7 @@ For a message of critical importance, do one of the following:
 
    - To keep the message in your inbox, click **[!UICONTROL Mark As Read]**.
 
-      ![Admin - Mark selected notifications as read](./assets/admin-notifications-mark-as-read.png){zoomable="yes"}
+      ![Admin - Mark selected notifications as read](./assets/admin-notifications-mark-as-read.png){width="700" zoomable="yes"}
 
    - To delete the message, click **[!UICONTROL Remove]**.
 
@@ -68,9 +68,9 @@ For a message of critical importance, do one of the following:
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png)the **[!UICONTROL Notifications]** section.
    
-   ![Notifications configuration](./assets/system-notifications.png){width="400"}
+   ![Notifications configuration](./assets/system-notifications.png){width="600"}
 
-1. If your store Admin runs over a [secure URL](../stores-purchase/store-urls.md), set **[!UICONTROL Use HTTPS to Get Feed]** to  `Yes`.
+1. If your store Admin runs over a [secure URL](../stores-purchase/store-urls.md), set **[!UICONTROL Use HTTPS to Get Feed]** to `Yes`.
 
 1. Set **[!UICONTROL Update Frequency]** to determine how often your inbox is updated.
 
@@ -78,4 +78,4 @@ For a message of critical importance, do one of the following:
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-For more information about the [!UICONTROL System] configuration options, see the [Configuration Reference Guide](../configuration-reference/advanced/system.md).
+For more information about the [!UICONTROL System] configuration options, see the [_Configuration Reference Guide_](../configuration-reference/advanced/system.md).

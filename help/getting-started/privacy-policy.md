@@ -35,7 +35,7 @@ Any representation of information that permits the identity of an individual to 
 
    To learn more about using page content tools, see [Complete the content](../content-design/page-add.md#step-2-complete-the-content) in the _Content and Design Guide_.
 
-   ![Privacy Policy page - edit content](./assets/page-privacy-content-edit.png){width="600"}
+   ![Privacy Policy page - edit content](./assets/page-privacy-content-edit.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >

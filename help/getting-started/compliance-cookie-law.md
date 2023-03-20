@@ -39,7 +39,7 @@ Your [privacy policy](privacy-policy.md)) should include the name of your store 
 
 1. Expand the **[!UICONTROL Default Cookie Settings]** section and do the following:
 
-    ![Web configuration - default cookie settings](./assets/web-default-cookie-settings.png){width="400"}
+    ![Web configuration - default cookie settings](./assets/web-default-cookie-settings.png){width="600"}
  
     - Enter the **[!UICONTROL Cookie Lifetime]** in seconds.
 
@@ -74,9 +74,7 @@ Some of these cookies may provide configuration options, including enable/disabl
  
 #### `add_to_cart` 
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only)
-
-Used by Google Tag Manager. Captures the product SKU, name, price and quantity removed from the cart, and makes the information available for future integration by third-party scripts.
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Used by Google Tag Manager. Captures the product SKU, name, price and quantity removed from the cart, and makes the information available for future integration by third-party scripts.
 
 #### `guest-view`
 
@@ -98,9 +96,7 @@ Preserves the destination page that was loading before the customer was directed
 
 #### `mage-banners-cache-storage`
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only)
-
-Stores banner content locally to improve performance.
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Stores banner content locally to improve performance.
 
 #### `mage-messages`
 
@@ -178,9 +174,7 @@ Stores product IDs of recently previously viewed products for easy navigation.
 
 #### `remove_from_cart`
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only)
-
-Used by [Google Tag Manager](../merchandising-promotions/google-tag-manager.md). Captures the product SKU, name, price, and quantity added to the cart, and makes the information available for future integration by third-party scripts.
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Used by [Google Tag Manager](../merchandising-promotions/google-tag-manager.md). Captures the product SKU, name, price, and quantity added to the cart, and makes the information available for future integration by third-party scripts.
 
 #### `stf`
 
@@ -292,9 +286,7 @@ Tracks the specific store view / locale selected by the shopper.
 
 #### `mage-banners-cache-storage` - local storage
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only)
-
-Local storage for Banner functionality.
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Local storage for Banner functionality.
 
 - Is Secure? `No`
 - HTTP Only: `No`
@@ -307,9 +299,7 @@ The following cookies are used when [Google Analytics](../merchandising-promotio
 
 ### Google Universal Analytics cookies  - non-exempt
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only)
-
-JavaScript Libraries: `gtag.js` and `analytics.js`
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) JavaScript Libraries: `gtag.js` and `analytics.js`
 
 - `_ga`: Distinguishes visitors to your site.
 - `_gid`: Distinguishes visitors to your site.
@@ -320,9 +310,7 @@ JavaScript Libraries: `gtag.js` and `analytics.js`
 
 ### Google Analytics cookies - non-exempt
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only)
-
-JavaScript Library: `ga.js`
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) JavaScript Library: `ga.js`
 
 - `__utma`: Distinguishes shoppers and sessions. This cookie is created when the JavaScript library executes and there is no existing `__utma` cookie. The cookie is updated every time data is sent to Google Analytics.
 - `__utmt`: Used to throttle request rate.
@@ -332,9 +320,7 @@ JavaScript Library: `ga.js`
 
 ## Product Recommendations cookies
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only)
-
-The following cookies are used by Product Recommendations for Adobe Commerce customers. These cookies are installed with the [DataServices module](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html).
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) The following cookies are used by Product Recommendations for Adobe Commerce customers. These cookies are installed with the [DataServices module](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html).
 
 - `mg_dnt`: Allows you to [restrict Adobe Commerce data collection](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/developer/setting-cookie.html) if you have custom code to manage cookie consent on your site.
 - `user_allowed_save_cookie`: Used for [cookie restriction mode](#cookie-restriction-mode).

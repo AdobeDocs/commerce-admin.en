@@ -8,7 +8,7 @@ exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 
 Your [!DNL Commerce] account has a separate login from your store Admin. You can access this account from either the [!DNL Commerce] website or from your store Admin. From the dashboard of your [!DNL Commerce] account, you can find information that is related to the products and services that you have purchased, as well as your contact and billing information. Some information is visible to license owners only.
 
-![Your [!DNL Commerce] account](./assets/home-acct.png){width="400"}
+![Your [!DNL Commerce] account](./assets/home-acct.png){width="700"}
 
 >[!NOTE]
 >

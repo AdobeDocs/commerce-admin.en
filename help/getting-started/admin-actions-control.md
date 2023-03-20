@@ -19,7 +19,7 @@ The checkbox in the first column of the list identifies each record that is a ta
 
 1. Select the checkbox of each record that is a target for the action, or use the column selector to choose a bulk selection.
 
-  ![Select or deselect all or all on page](./assets/action-change-selection.png){width="350"}
+  ![Select or deselect all or all on page](./assets/action-change-selection.png){width="500"}
 
 ## Step 2: Apply an action to selected records
 
@@ -31,13 +31,13 @@ The checkbox in the first column of the list identifies each record that is a ta
 
    - Set the **[!UICONTROL Actions]** control to `Update Attributes`.
 
-     ![Select the Update Attributes action](./assets/action-select.png){width="400"}
+     ![Select the Update Attributes action](./assets/action-select.png){width="450"}
 
    - Click **[!UICONTROL Submit]**.
 
       The Update Attributes page lists all the available attributes, organized by group in the panel on the left.
 
-      ![Update Attributes page](./assets/action-update-attributes.png){zoomable="yes"}
+      ![Update Attributes page](./assets/action-update-attributes.png){width="700" zoomable="yes"}
 
    - Select the **[!UICONTROL Change]** checkbox next to each attribute and make the necessary changes.
 

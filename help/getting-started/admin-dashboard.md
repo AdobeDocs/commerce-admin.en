@@ -31,7 +31,7 @@ If you have a large amount of data to process, you can turn off the display of t
 
 1. If necessary, expand the **[!UICONTROL Dashboard]** section.
 
-   ![Advanced configuration - Enable charts](./assets/admin-dashboard-config.png){width="400"}
+   ![Advanced configuration - Enable charts](./assets/admin-dashboard-config.png){width="600"}
 
 1. To change the default value, clear the **[!UICONTROL Use system value]** checkbox.
 
@@ -47,7 +47,7 @@ The dashboard is the default [startup page](../configuration-reference/advanced/
 
 1. Click to expand the **Startup Page** section.
 
-   ![Admin dashboard - startup page setting](./assets/admin-startup-page.png){width="400"}
+   ![Admin dashboard - startup page setting](./assets/admin-startup-page.png){width="600"}
 
 1. Clear the **[!UICONTROL Use system value]** checkbox and choose the **Startup Page** that you want to appear when you log in to the Admin.
 
@@ -57,13 +57,13 @@ The dashboard is the default [startup page](../configuration-reference/advanced/
 
 1. On the page, expand the **[!UICONTROL Dashboard]** section.
 
-   ![Admin Dashboard - date settings](./assets/reports-dashboard.png){width="400"}
-
 1. Clear the **[!UICONTROL Use system value]** checkboxes for the date settings and do the following:
 
    - Set **Year-To-Date Starts** to the **Month** and **Day**.
 
    - Set **Current Month Starts** to the **Day**.
+
+   ![Admin Dashboard - date settings](./assets/reports-dashboard.png){width="600"}
 
 For more information about the [!UICONTROL Reports] configuration options, see the [_Configuration Reference Guide_](../configuration-reference/general/reports.md).
 
@@ -71,11 +71,11 @@ For more information about the [!UICONTROL Reports] configuration options, see t
 
 The dashboard chart can be generated in real time or by using historical, aggregated data. If performance is an issue, you can speed up things by using aggregated data.
 
-1. In the left side panel, click to expand **Sales** and choose **Sales**.
+1. In the left side panel, click to expand **Sales** and choose **Sales** underneath.
 
 1. On the page, expand the **[!UICONTROL Dashboard]** section.   
 
-   ![Admin dashboard - data source setting](./assets/config-sales-dashboard.png){width="400"}
+   ![Admin dashboard - data source setting](./assets/config-sales-dashboard.png){width="600"}
 
 1. Clear the **[!UICONTROL Use system value]** checkbox and set **[!UICONTROL Use Aggregated Data]** to one of the following:
 

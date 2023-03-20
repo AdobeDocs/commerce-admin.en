@@ -101,7 +101,7 @@ Reuse of the last four passwords assigned to the account is not allowed.
 
 1. Click **[!UICONTROL Sign Out]**.
 
-   ![Sign out](./assets/admin-sign-out.png){zoomable="yes"}
+   ![Sign out](./assets/admin-sign-out.png){width="700" zoomable="yes"}
 
 The _[!UICONTROL Sign In]_ page displays a message that you are logged out. Sign out of the _Admin_ whenever you leave your computer unattended.
 
@@ -111,7 +111,7 @@ The _[!UICONTROL Sign In]_ page displays a message that you are logged out. Sign
 
 1. Click **[!UICONTROL Account Setting]**.
 
-   ![Account Information](./assets/admin-account-information.png){zoomable="yes"}
+   ![Account Information](./assets/admin-account-information.png){width="700" zoomable="yes"}
 
 1. Make necessary changes to your account information.
 
@@ -133,7 +133,7 @@ The Admin provides access to manage the orders, customers, products, shipping, a
 
 1. For **Admin Account Sharing**, select `Yes`.
 
-   ![Allow Admin account sharing](./assets/multiple-admin-login.png){zoomable="yes"}
+   ![Allow Admin account sharing](./assets/multiple-admin-login.png){width="700" zoomable="yes"}
 
 1. Click **[!UICONTROL Save Config]**.
 

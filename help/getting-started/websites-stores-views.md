@@ -71,7 +71,7 @@ If your Commerce installation has only a single store and store view, you can si
 
     - Click the **[!UICONTROL Cache Management]** link in the system message at the top of the page.
 
-      ![System message - cache management](../catalog/assets/msg-cache-management.png){width="400"}
+      ![System message - cache management](../catalog/assets/msg-cache-management.png){width="600"}
 
     - Select the **[!UICONTROL Page Cache]** checkbox.
 

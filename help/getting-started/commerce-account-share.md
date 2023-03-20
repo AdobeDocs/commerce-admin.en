@@ -13,7 +13,7 @@ The [!DNL Commerce] Support team does not have access to the account and cannot 
 >
 >All actions taken by users with shared access are the sole responsibility of the primary account holder. Adobe is not responsible for any actions taken by users who have shared access to your account.
 
-![Shared access settings](./assets/shared-access.png){zoomable="yes"}
+![Shared access settings](./assets/shared-access.png){width="600" zoomable="yes"}
 
 ## Set up a shared account
 
@@ -28,14 +28,14 @@ The [!DNL Commerce] Support team does not have access to the account and cannot 
 
 1. Click **[!UICONTROL Add New User]**.
 
-   ![Add a new user](./assets/shared-access-add.png){zoomable="yes"}
+   ![Add a new user](./assets/shared-access-add.png){width="600" zoomable="yes"}
 
 1. Under [!UICONTROL _New User Information]_, do the following:
 
    - Enter the **[!UICONTROL Account ID]** from the new user's [!DNL Commerce] account.
    - Enter the **[!UICONTROL Email]** address that is associated with the new user's [!DNL Commerce] account.
 
-   ![New user information](./assets/shared-new-user.png){width="400"}
+   ![New user information](./assets/shared-new-user.png){width="600"}
 
 1. Under _[!UICONTROL Shared Information]_, do the following:
 
@@ -44,13 +44,13 @@ The [!DNL Commerce] Support team does not have access to the account and cannot 
 
 1. Under _[!UICONTROL Grant Account Permissions]_, select the checkbox of each [!DNL Commerce] product and service that you want to share.
 
-   ![Grant the account permissions](./assets/shared-permissions.png){width="400"}
+   ![Grant the account permissions](./assets/shared-permissions.png){width="600"}
 
 1. When complete, click **[!UICONTROL Create Shared Access]**.
 
    The new user information appears in the _[!UICONTROL Manage Permissions]_ section of the Shared Access page, and an email invitation with instructions to access the shared account is sent to the new user.
 
-   ![Manage permissions for shared access](./assets/shared-manage-permissions.png){zoomable="yes"}
+   ![Manage permissions for shared access](./assets/shared-manage-permissions.png){width="600" zoomable="yes"}
 
 ## Access a shared account
 
@@ -60,17 +60,17 @@ The following instructions are written from the perspective of a shared user who
 
    The left panel of your account has a new _[!UICONTROL Shared with me]_ tab. The _[!UICONTROL Switch Accounts]_ control in the upper-right corner has options for `My Account` and the name of the shared account.
 
-   ![Shared with me](./assets/shared-with-me.png){zoomable="yes"}
+   ![Shared with me](./assets/shared-with-me.png){width="600" zoomable="yes"}
 
 1. To gain access to the shared account, set **[!UICONTROL Switch Accounts]** to the name of the shared account.
 
-   ![Switch to the shared account](./assets/shared-switch.png){zoomable="yes"}
+   ![Switch to the shared account](./assets/shared-switch.png){width="600" zoomable="yes"}
 
    The shared account displays a welcome message and contact information. The left panel includes only the items that you have permission to use.
 
 1. To connect the shared account to the Help Center, click **[!UICONTROL Support]** in the left panel of the shared account.
 
-   ![Support](./assets/shared-support.png){zoomable="yes"}
+   ![Support](./assets/shared-support.png){width="600" zoomable="yes"}
 
    You can use the [Adobe Commerce Help Center](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html) from the shared account to search for articles and troubleshooting information, find patches for known issues, and create support tickets.
 

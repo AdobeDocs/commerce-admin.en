@@ -28,13 +28,13 @@ breadcrumb-title: Getting Started
     + [Grid controls](admin-grid-controls.md)
     + [Actions control](admin-actions-control.md)
 + The storefront {#storefront}
-  + [What is the Storefront?](storefront.md)
+  + [What is the storefront?](storefront.md)
   + [Enhanced store experiences](enhanced-experiences.md)
 + Basic setup and configuration {#setup}
-  + [Site, Store, and View Scope](websites-stores-views.md)
-  + [Store Details](store-details.md)
-  + [Storefront Branding](storefront-branding.md)
-  + [Prelaunch Checklist](prelaunch-checklist.md)
+  + [Site, store, and view scope](websites-stores-views.md)
+  + [Store details](store-details.md)
+  + [Storefront branding](storefront-branding.md)
+  + [Prelaunch checklist](prelaunch-checklist.md)
 + Site compliance {#compliance}
   + Privacy {#privacy}
     + [Store privacy policy](privacy-policy.md)

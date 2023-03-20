@@ -9,7 +9,7 @@ Your store _Admin_ is the password-protected back office where you, as the merch
 
 For additional security, the _Admin_ login is protected by [two-factor authentication](../systems/security-two-factor-authentication.md), and can be configured to require a [CAPTCHA](../systems/security-captcha.md). To learn more, go to [Configuring Admin Security](../systems/security-admin.md).
 
-![Admin sidebar and dashboard](./assets/admin-dashboard.png){width="700"}
+![Admin sidebar and dashboard](./assets/admin-dashboard.png){width="700" zoomable="yes"}
 
 Your initial [sign-in](admin-signin.md) credentials were set up during Adobe Commerce or Magento Open Source installation. If you forget your password, a temporary password can be sent to the email address that is associated with the account. To increase security, configure your store to require a case-sensitive user name and strong password.
 

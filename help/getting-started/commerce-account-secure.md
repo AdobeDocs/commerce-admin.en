@@ -29,7 +29,7 @@ To use TFA, you must have a TFA application installed on your personal device (s
 
 1. In the left navigation pane, select **[!UICONTROL Account Settings]**, and then select **[!UICONTROL Two-factor Authentication]**.
 
-   ![Enable TFA](./assets/2fa-enable.png){zoomable="yes"}
+   ![Enable TFA](./assets/2fa-enable.png){width="600" zoomable="yes"}
 
 1. Select **[!UICONTROL Enable]** to begin the two-factor authentication setup process.
 
@@ -95,7 +95,7 @@ To use TFA, you must have a TFA application installed on your personal device (s
 
 1. Enter the **[!UICONTROL Verification Code]** displayed in your two-factor authentication application when prompted.
 
-   ![Enter verification code](./assets/commerce-account-2fa-login-verification-code.png){width="400"}
+   ![Enter verification code](./assets/commerce-account-2fa-login-verification-code.png){width="600"}
 
 1. Select **[!UICONTROL Submit]** to complete the login process.
 
@@ -109,7 +109,7 @@ To use TFA, you must have a TFA application installed on your personal device (s
 
 1. Enter an unused **[!UICONTROL Recovery Code]** when prompted.
 
-   ![Enter recovery code](./assets/2fa-recovery-code.png){width="400"}
+   ![Enter recovery code](./assets/2fa-recovery-code.png){width="600"}
 
 1. Select **[!UICONTROL Submit]** to complete the login process.
 
@@ -123,7 +123,7 @@ To use TFA, you must have a TFA application installed on your personal device (s
 
 1. To get a temporary recovery code through email, select the **[!UICONTROL recovery email]** link.
 
-   ![Use recovery email](./assets/2fa-recovery-email.png){width="400"}
+   ![Use recovery email](./assets/2fa-recovery-email.png){width="600"}
 
 1. Open your recovery email account to get the temporary code, and then enter the code in the designated fields.
 
@@ -141,7 +141,7 @@ After using a temporary recovery code to access your account, [generate new reco
 
 1. In the left navigation pane, select **[!UICONTROL Account Settings]**, and then select **[!UICONTROL Two-factor Authentication]**.
 
-   ![2FA settings](./assets/commerce-account-2fa-manage.png){zoomable="yes"}
+   ![2FA settings](./assets/commerce-account-2fa-manage.png){width="600" zoomable="yes"}
 
 1. To view your pre-generated recovery codes, select **View Recovery Codes**.
 

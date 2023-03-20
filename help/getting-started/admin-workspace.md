@@ -29,7 +29,7 @@ The Admin workspace provides access to all the tools, data, and content used to 
 
 To find any record in the database, use the magnifying glass icon in the header of the _Admin_. The results can include customers, products, orders, or any related attribute. For example, if you enter a customer name, the results might include the customer record and any orders that are associated with the name.
 
-![Admin search tool](./assets/admin-search.png){zoomable="yes"}
+![Admin search tool](./assets/admin-search.png){width="700" zoomable="yes"}
 
 1. In the header, click the _Search_ (![magnifying glass](../assets/icon-magnify-search.png)) icon to open the search box.
 
@@ -50,7 +50,7 @@ The [dashboard](admin-workspace.md#the-dashboard) is the default startup page fo
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Startup Page]** section.
 
-   ![Advanced configuration - Admin startup page setting](./assets/admin-startup-page.png){width="400"}
+   ![Advanced configuration - Admin startup page setting](./assets/admin-startup-page.png){width="600"}
 
 1. Set **[!UICONTROL Startup Page]** to the page that you want to appear first after you log in to the Admin.
    
