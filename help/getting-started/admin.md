@@ -21,7 +21,7 @@ In addition to the default Admin user account, your business can create as many 
 
 The first time you log in to the _Admin_, you are asked to grant Adobe permission to collect usage data for all Admin users. By allowing Admin usage data collection, you help Adobe improve the experience of using the Adobe Commerce Admin, and related products and services.
 
-![Allow admin usage data collection](./assets/admin-usage-data.png){width="400"}
+![Allow admin usage data collection](./assets/admin-usage-data.png){width="600"}
 
 Individual users are not identified in usage data. Yours data collection setting can be changed at any time from the [Admin Usage](../configuration-reference/advanced/admin.md#admin-usage) configuration.
 

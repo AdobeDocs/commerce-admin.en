@@ -9,11 +9,11 @@ Customer reports provide insight into customer activity during a specified time 
 
 ## [!UICONTROL Order Total Report]
 
+The [!UICONTROL Order Total Report] shows customer orders for a specified time interval or date range. The report includes the number of orders per customer, average order amount, and total amount.
+
 On the _Admin_ sidebar, go to **[!UICONTROL Reports]** > _[!UICONTROL Customers]_ > **[!UICONTROL Order Total]**.
 
 ![Order Total Report](./assets/customers-order-total.png){width="600"}
-
-The [!UICONTROL Order Total Report] shows customer orders for a specified time interval or date range. The report includes the number of orders per customer, average order amount, and total amount.
 
 ### Workspace controls
 
@@ -41,11 +41,11 @@ The [!UICONTROL Order Total Report] shows customer orders for a specified time i
 
 ## [!UICONTROL Order Count Report]
 
+The [!UICONTROL Order Count Report] shows the number of orders per customer for a specified time interval or date range. The report includes the number of orders per customer, average order amount, and total amount.
+
 On the _Admin_ sidebar, go to **[!UICONTROL Reports]** > _[!UICONTROL Customers]_ > **[!UICONTROL Order Count]**.
 
 ![Order Count Report](./assets/customer-order-count.png){width="600"}
-
-The Order Count Report shows the number of orders per customer for a specified time interval or date range. The report includes the number of orders per customer, average order amount, and total amount.
 
 ### Workspace controls
 
@@ -73,11 +73,11 @@ The Order Count Report shows the number of orders per customer for a specified t
 
 ## [!UICONTROL New Accounts Report]
 
+The [!UICONTROL New Accounts Report] shows the number of new customer accounts opened during a specified time interval or date range.
+
 On the _Admin_ sidebar, go to **[!UICONTROL Reports]** > _[!UICONTROL Customers]_ > **[!UICONTROL New]**.
 
 ![New Accounts Report](./assets/customers-new-accounts.png){width="600"}
-
-The [!UICONTROL New Accounts Report] shows the number of new customer accounts opened during a specified time interval or date range.
 
 ### Workspace controls
 
@@ -104,11 +104,11 @@ The [!UICONTROL New Accounts Report] shows the number of new customer accounts o
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only)
 
+The [!UICONTROL Customer Wish List Report] provides information about customer wish lists.
+
 On the _Admin_ sidebar, go to **[!UICONTROL Reports]** > _[!UICONTROL Customers]_ > **[!UICONTROL Wish Lists]**.
 
 ![Wish List Report](./assets/customer-wish-list.png){width="600"}
-
-The [!UICONTROL Customer Wish List Report] provides information about customer wish lists.
 
 ### Workspace controls
 
@@ -144,11 +144,11 @@ The [!UICONTROL Customer Wish List Report] provides information about customer w
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only)
 
+The [!UICONTROL Customer Segment Report] provides information about the number of customers in each segment.
+
 On the _Admin_ sidebar, go to **[!UICONTROL Reports]** > _[!UICONTROL Customers]_ > **[!UICONTROL Segments]**.
 
 ![Segments Report](./assets/customers-segments.png){width="600"}
-
-The [!UICONTROL Customer Segment Report] provides information about the number of customers in each segment.
 
 ### Workspace controls
 

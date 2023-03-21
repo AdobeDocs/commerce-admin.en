@@ -23,7 +23,7 @@ Any representation of information that permits the identity of an individual to 
 
 ## Edit your privacy policy
 
->[!NOTE]
+>[!TIP]
 >
 >The Luma sample data includes a sample privacy policy that you can modify for your use.
 
@@ -31,14 +31,14 @@ Any representation of information that permits the identity of an individual to 
 
 1. In the grid, find **[!UICONTROL Privacy Policy]**. Then, in the _[!UICONTROL Action]_ column, click **[!UICONTROL Select]** and choose **[!UICONTROL Edit]**.
 
+   >[!NOTE]
+   >
+   >If you change the URL key of the privacy policy page, you must also create a [custom URL rewrite](../merchandising-promotions/url-rewrite-custom.md) to redirect traffic to the new URL key. Otherwise, the link in the footer returns `404 Page Not Found`.
+
 1. Expand the **[!UICONTROL Content]** section and make the necessary changes to the content.
 
    To learn more about using page content tools, see [Complete the content](../content-design/page-add.md#step-2-complete-the-content) in the _Content and Design Guide_.
 
    ![Privacy Policy page - edit content](./assets/page-privacy-content-edit.png){width="600" zoomable="yes"}
-
-   >[!NOTE]
-   >
-   >If you change the URL key of the privacy policy page, you must also create a [custom URL rewrite](../merchandising-promotions/url-rewrite-custom.md) to redirect traffic to the new URL key. Otherwise, the link in the footer returns `404 Page Not Found`.
 
 1. When complete, click **[!UICONTROL Save Page]**.
