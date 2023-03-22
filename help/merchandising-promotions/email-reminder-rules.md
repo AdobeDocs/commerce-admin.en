@@ -13,7 +13,7 @@ Email reminders can be triggered after a specific number of days have passed sin
 
 >[!NOTE]
 >
->If any customer has more than one matched abandoned cart and/or wishlist, then email reminder will be triggered only once for this customer. To trigger the same email reminder again _[!UICONTROL Repeat Schedule]_ setting field must be used.
+>If any customer has more than one matched abandoned cart and/or wishlist, then email reminder is triggered only once for this customer. To trigger the same email reminder again, _[!UICONTROL Repeat Schedule]_ setting field must be used.
 
 ![Email reminders](./assets/email-reminders.png)<!-- zoom -->
 
