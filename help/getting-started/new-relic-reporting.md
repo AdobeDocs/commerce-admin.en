@@ -7,26 +7,26 @@ exl-id: 65d08bda-da01-4dcf-9d92-189d4d303c76
 
 [New Relic][1] is a software analytics service that helps you analyze and improve application interactions. Accounts for Adobe Commerce on cloud infrastructure include the software for the [!DNL New Relic APM] service. For more information, see [New Relic services][4]{:target="_blank"} in the developer documentation.
 
-## Step 1: Sign Up for a New Relic account
+## Step 1: Sign Up for a [!DNL New Relic] account
 
-1. Go to the [New Relic][1] website and sign up for an account.
+1. Go to the [[!DNL New Relic]][1] website and sign up for an account.
 
    You can also sign up for a free trial account.
 
 1. Follow the instructions on the site. When prompted, choose the product that you want to install first.
 
-1. While you are in your account, locate the following credentials that are required to complete the configuration:
+1. While you are in your account, locate the following credentials that are required to complete the Commerce configuration:
 
     | Option | Description |
     | ------ | ----------- |
-    | Account ID | From your New Relic account dashboard, the Account ID is the number in the URL after: `/accounts` |
-    | Application ID | From your New Relic account dashboard, click **[!UICONTROL New Relic APM]**. In the menu, choose **[!UICONTROL Applications]**. Then, choose your application. The Application ID is the number in the URL after: `/applications/` |
-    | New Relic API Key | From your New Relic account dashboard, click **[!UICONTROL Account Settings]**. In the menu on the left under Integrations, choose **[!UICONTROL Data Sharing]**. You can create, regenerate, or delete your API key from this page. |
-    | Insights API Key | From your New Relic account dashboard, click **[!UICONTROL Insights]**. In the menu on the left under Administration, choose **[!UICONTROL API Keys]**. Your Insights API Keys appear on this page. If necessary, click the plus sign (**+**) next to Insert Keys to generate a key. |
+    | Account ID | From your [!DNL New Relic] account dashboard, the Account ID is the number in the URL after: `/accounts` |
+    | Application ID | From your [!DNL New Relic] account dashboard, click **[!UICONTROL New Relic APM]**. In the menu, choose **[!UICONTROL Applications]**. Then, choose your application. The Application ID is the number in the URL after: `/applications/` |
+    | New Relic API Key | From your [!DNL New Relic] account dashboard, click **[!UICONTROL Account Settings]**. In the menu on the left under Integrations, choose **[!UICONTROL Data Sharing]**. You can create, regenerate, or delete your API key from this page. |
+    | Insights API Key | From your [!DNL New Relic] account dashboard, click **[!UICONTROL Insights]**. In the menu on the left under Administration, choose **[!UICONTROL API Keys]**. Your Insights API Keys appear on this page. If necessary, click the plus sign (**+**) next to Insert Keys to generate a key. |
 
     {style="table-layout:auto"}
 
-## Step 2: Install the New Relic agent on your server
+## Step 2: Install the [!DNL New Relic] agent on your server
 
 To use [!DNL New Relic APM Pro] to gather and transmit data, the PHP agent must be installed on your server.
 
@@ -44,7 +44,7 @@ To use [!DNL New Relic APM Pro] to gather and transmit data, the PHP agent must
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel where **[!UICONTROL General]** is expanded, choose **[!UICONTROL New Relic Reporting]** and do the following:
+1. In the left navigation panel where **[!UICONTROL General]** is expanded, choose **[!UICONTROL New Relic Reporting]** and do the following:
 
    ![New Relic Reporting configuration](./assets/new-relic-reporting-general.png){width="600"}
 
@@ -72,7 +72,7 @@ To use [!DNL New Relic APM Pro] to gather and transmit data, the PHP agent must
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-## Step 4: Enable Cron for New Relic reporting
+## Step 4: Enable Cron for [!DNL New Relic] reporting
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Cron]** section.
 
@@ -82,7 +82,7 @@ To use [!DNL New Relic APM Pro] to gather and transmit data, the PHP agent must
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-## New Relic queries
+## [!DNL New Relic] queries
 
 [!DNL New Relic Insights] data is based on statements that are written in [!DNL New Relic Query Language] (NRQL), and any custom parameters that you might include. Data can be returned from adhoc queries, or by queries saved to your dashboard. To learn more, see the [NRQL Reference][6] in the [!DNL New Relic] documentation.
 

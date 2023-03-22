@@ -48,7 +48,7 @@ In the [!DNL Commerce] configuration, [[!DNL Advanced Reporting]](../configurati
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel where **[!UICONTROL General]** is expanded, choose **[!UICONTROL Advanced Reporting]** and do the following:
+1. In the left navigation panel where **[!UICONTROL General]** is expanded, choose **[!UICONTROL Advanced Reporting]** and do the following:
 
    * Verify that **[!UICONTROL Advanced Reporting Service]** is set to `Enable` (the default setting).
 

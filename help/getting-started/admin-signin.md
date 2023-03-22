@@ -127,7 +127,7 @@ The Admin provides access to manage the orders, customers, products, shipping, a
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **[!UICONTROL Advanced]** and choose **[!UICONTROL Admin]**.
+1. In the left navigation panel, expand **[!UICONTROL Advanced]** and choose **[!UICONTROL Admin]**.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Security]** section.
 
@@ -141,7 +141,7 @@ The Admin provides access to manage the orders, customers, products, shipping, a
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **[!UICONTROL Advanced]** and choose **[!UICONTROL Admin]**.
+1. In the left navigation panel, expand **[!UICONTROL Advanced]** and choose **[!UICONTROL Admin]**.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Security]** section.
 

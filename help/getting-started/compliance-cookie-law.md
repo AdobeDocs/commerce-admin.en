@@ -35,7 +35,7 @@ Your [privacy policy](privacy-policy.md)) should include the name of your store 
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel under **[!UICONTROL General]**, choose **[!UICONTROL Web]**.
+1. In the left navigation panel under **[!UICONTROL General]**, choose **[!UICONTROL Web]**.
 
 1. Expand the **[!UICONTROL Default Cookie Settings]** section and do the following:
 

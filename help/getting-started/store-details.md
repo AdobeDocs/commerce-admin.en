@@ -15,7 +15,7 @@ The _[!UICONTROL Store Information]_ section provides the basic information that
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. Under **[!UICONTROL General]** in the left panel, choose **[!UICONTROL General]**.
+1. Under **[!UICONTROL General]** in the left navigation panel, choose **[!UICONTROL General]**.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Store Information]** section.
 
@@ -58,7 +58,7 @@ The locale setting determines the time zone and language used for each store, an
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel under **[!UICONTROL General]**, choose **[!UICONTROL General]**.
+1. In the left navigation panel under **[!UICONTROL General]**, choose **[!UICONTROL General]**.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Locale Options]** section.
 
@@ -88,7 +88,7 @@ Because standard address formats vary from one country to another, you can also 
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. Under **[!UICONTROL General]** in the left panel, choose **[!UICONTROL General]**.
+1. Under **[!UICONTROL General]** in the left navigation panel, choose **[!UICONTROL General]**.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL State Options]** section.
 
@@ -114,7 +114,7 @@ The country options identify the country where your business is located and the 
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel under **[!UICONTROL General]**, choose **[!UICONTROL General]**.
+1. In the left navigation panel under **[!UICONTROL General]**, choose **[!UICONTROL General]**.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Country Options]** section.
 
@@ -146,7 +146,7 @@ You can also configure shipping to specific countries for each available [delive
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Delivery Methods]**.
+1. In the left navigation panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Delivery Methods]**.
 
 1. Select the shipping carrier to which you want to apply specific countries.
 
@@ -171,7 +171,7 @@ The Merchant Location setting is used to configure [payment methods](../stores-p
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Payment Methods]**.
+1. In the left navigation panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Payment Methods]**.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Merchant Location** section and choose your **[!UICONTROL Merchant Country]**.
 
@@ -209,7 +209,7 @@ Before you can configure email addresses for the store, each must be set up as a
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. Under **[!UICONTROL General]** in the left panel, choose **[!UICONTROL Store Email Addresses]**.
+1. Under **[!UICONTROL General]** in the left navigation panel, choose **[!UICONTROL Store Email Addresses]**.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL General Contact]** section and do the following:
 
@@ -227,7 +227,7 @@ Before you can configure email addresses for the store, each must be set up as a
 
 If you use custom email addresses, make sure to update the configuration of any related email messages, so the correct identity appears as the sender.
 
-1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Sales Emails]**.
+1. In the left navigation panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Sales Emails]**.
 
    The page has a separate section for each of the following:
 
@@ -265,7 +265,7 @@ The Luma sample data includes additional information on the Contact Us page that
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel under **[!UICONTROL General]**, choose **[!UICONTROL Contacts]**.
+1. In the left navigation panel under **[!UICONTROL General]**, choose **[!UICONTROL Contacts]**.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Contact Us]** section and set **[!UICONTROL Enable Contact Us]** to `Yes`.
 

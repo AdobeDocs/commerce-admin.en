@@ -27,7 +27,7 @@ If you have a significant amount of data to process, the chart can be turned off
 
 If you have a large amount of data to process, you can turn off the display of the chart to improve performance. When not enabled, the message "No Data Found" appears in place of the chart, although the summary totals below are still generated.
 
-1. In the left side panel under **[!UICONTROL Advanced]**, choose **[!UICONTROL Admin]**.
+1. In the left navigation panel under **[!UICONTROL Advanced]**, choose **[!UICONTROL Admin]**.
 
 1. If necessary, expand the **[!UICONTROL Dashboard]** section.
 
@@ -43,7 +43,7 @@ For more information about the Admin configuration options, see the [Configurati
 
 The dashboard is the default [startup page](../configuration-reference/advanced/admin.md) for the Admin, although you can configure a different startup page.
 
-1. If you do not already have the Admin configuration options open, choose **[!UICONTROL Admin]** under _[!UICONTROL Advanced]_ in the left panel.
+1. If you do not already have the Admin configuration options open, choose **[!UICONTROL Admin]** under _[!UICONTROL Advanced]_ in the left navigation panel.
 
 1. Click to expand the **Startup Page** section.
 
@@ -53,7 +53,7 @@ The dashboard is the default [startup page](../configuration-reference/advanced/
 
 ### Choose the starting dates
 
-1. In the left side panel under **[!UICONTROL General]**, choose **Reports**.
+1. In the left navigation panel under **[!UICONTROL General]**, choose **Reports**.
 
 1. On the page, expand the **[!UICONTROL Dashboard]** section.
 
@@ -71,7 +71,7 @@ For more information about the [!UICONTROL Reports] configuration options, see t
 
 The dashboard chart can be generated in real time or by using historical, aggregated data. If performance is an issue, you can speed up things by using aggregated data.
 
-1. In the left side panel, click to expand **Sales** and choose **Sales** underneath.
+1. In the left navigation panel, click to expand **Sales** and choose **Sales** underneath.
 
 1. On the page, expand the **[!UICONTROL Dashboard]** section.   
 

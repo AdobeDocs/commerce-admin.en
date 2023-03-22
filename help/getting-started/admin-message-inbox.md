@@ -64,7 +64,7 @@ For a message of critical importance, do one of the following:
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **[!UICONTROL Advanced]** and choose **[!UICONTROL System]**.
+1. In the left navigation panel, expand **[!UICONTROL Advanced]** and choose **[!UICONTROL System]**.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png)the **[!UICONTROL Notifications]** section.
    

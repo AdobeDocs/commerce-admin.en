@@ -24,7 +24,7 @@ The [!DNL Commerce] Support team does not have access to the account and cannot 
 
 1. Log in to your [[!DNL Commerce] account](commerce-account-create.md).
 
-1. In the left panel, click **[!UICONTROL Shared Access]**.
+1. In the left navigation panel, click **[!UICONTROL Shared Access]**.
 
 1. Click **[!UICONTROL Add New User]**.
 
@@ -58,7 +58,7 @@ The following instructions are written from the perspective of a shared user who
 
 1. When you receive an invitation to a shared account, follow the instructions in the email to log in to your own [!DNL Commerce] account.
 
-   The left panel of your account has a new _[!UICONTROL Shared with me]_ tab. The _[!UICONTROL Switch Accounts]_ control in the upper-right corner has options for `My Account` and the name of the shared account.
+   The left navigation panel of your account has a new _[!UICONTROL Shared with me]_ tab. The _[!UICONTROL Switch Accounts]_ control in the upper-right corner has options for `My Account` and the name of the shared account.
 
    ![Shared with me](./assets/shared-with-me.png){width="600" zoomable="yes"}
 
@@ -66,9 +66,9 @@ The following instructions are written from the perspective of a shared user who
 
    ![Switch to the shared account](./assets/shared-switch.png){width="600" zoomable="yes"}
 
-   The shared account displays a welcome message and contact information. The left panel includes only the items that you have permission to use.
+   The shared account displays a welcome message and contact information. The left navigation panel includes only the items that you have permission to use.
 
-1. To connect the shared account to the Help Center, click **[!UICONTROL Support]** in the left panel of the shared account.
+1. To connect the shared account to the Help Center, click **[!UICONTROL Support]** in the left navigation panel of the shared account.
 
    ![Support](./assets/shared-support.png){width="600" zoomable="yes"}
 
@@ -84,7 +84,7 @@ The following instructions are written from the perspective of a shared user who
 
 1. Sign in to your Commerce account.
 
-1. In the left panel, click **[!UICONTROL Shared Access]**.
+1. In the left navigation panel, click **[!UICONTROL Shared Access]**.
 
 1. Find the account to be revoked under _[!UICONTROL Managing Users & Permissions]_ and click **[!UICONTROL Delete]**.
 

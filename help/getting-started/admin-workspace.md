@@ -46,7 +46,7 @@ The [dashboard](admin-workspace.md#the-dashboard) is the default startup page fo
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left side panel under **[!UICONTROL Advanced]**, choose **[!UICONTROL Admin]**.
+1. In the left navigation panel under **[!UICONTROL Advanced]**, choose **[!UICONTROL Admin]**.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Startup Page]** section.
 
