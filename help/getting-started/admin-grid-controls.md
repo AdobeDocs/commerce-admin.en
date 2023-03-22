@@ -1,13 +1,13 @@
 ---
-title: Admin Grid Controls
+title: Admin grid controls
 description: Learn how to work in Admin pages that manage data display a collection of records in a grid.
 exl-id: a4a9531d-eb2f-41d6-bb36-dc6d8811ee95
 ---
-# Admin Grid Controls
+# Admin grid controls
 
 Admin pages that manage data display a collection of records in a grid. The controls at the top of each column can be used to sort the data. The current sort order is indicated by an ascending or descending arrow in the column header. You can specify which columns appear in the grid, and drag them into different positions. You can also save different column arrangements as views that can be used later. The **[!UICONTROL Action]** column lists operations that can be applied to an individual record. In addition, date from the current view of most grids can be exported to a [CSV](../systems/data-csv.md) or XML file.
 
-![Orders page - grid display](./assets/admin-workspace-grid.png)<!-- zoom -->
+![Orders page - grid display](./assets/admin-workspace-grid.png){width="700" zoomable="yes"}
 
 ## Sort the list
 
@@ -15,15 +15,15 @@ Admin pages that manage data display a collection of records in a grid. The cont
 
    The arrow indicates the current order as either ascending or descending.
 
-1. Use the pagination controls to view additional pages in the collection.
+1. Use the pagination controls to view additional pages in the collection.    
+
+   ![Grid display - page controls](./assets/pagination-controls.png){width="300"}
 
 ## Paginate the list
 
 1. Set the **[!UICONTROL Pagination]** control to the number of records that you want to view per page.
 
 1. Click **[!UICONTROL Next]** and **[!UICONTROL Previous]** to page through the list, or enter a specific **[!UICONTROL Page Number]**.
-
-    ![Grid display - page controls](./assets/pagination-controls.png )<!-- zoom -->
 
 ## Filter the list
 
@@ -33,7 +33,7 @@ Admin pages that manage data display a collection of records in a grid. The cont
 
 1. Click **[!UICONTROL Apply Filters]**.
 
-    ![Orders list - filter controls](./assets/admin-workspace-filters.png)<!-- zoom -->
+    ![Orders list - filter controls](./assets/admin-workspace-filters.png){width="700" zoomable="yes"}
 
 ## Export data
 
@@ -48,7 +48,7 @@ Admin pages that manage data display a collection of records in a grid. The cont
    - `CSV`
    - `Excel XML`
 
-   ![Orders list - export options](./assets/customers-grid-export.png)<!-- zoom -->
+   ![Orders list - export options](./assets/customers-grid-export.png){width="700" zoomable="yes"}
 
 1. Click **[!UICONTROL Export]**.
 
@@ -58,7 +58,7 @@ Admin pages that manage data display a collection of records in a grid. The cont
 
 The selection of columns and their order in the grid can be changed according to your preference, and saved as a _view_. You can control which attributes show in the grid under the individual attribute configuration. Having many attributes displayed in the product grid may affect admin load time and performance.
 
-![Order Grid Columns](./assets/admin-grid-columns.png)<!-- zoom -->
+![Order Grid Columns](./assets/admin-grid-columns.png){width="700" zoomable="yes"}
 
 ### Change the selection of columns
 

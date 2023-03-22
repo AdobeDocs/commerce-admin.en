@@ -1,9 +1,9 @@
 ---
-title: Prelaunch Checklist
+title: Prelaunch checklist
 description: Use this list to check the required configuration settings to make sure that everything is correct before your store goes to production.
 exl-id: 649809c2-7217-4274-b365-c682bfff24ba
 ---
-# Prelaunch Checklist
+# Prelaunch checklist
 
 After you complete the design, development, and testing of your store, check the following configuration settings to make sure that everything is correct before the store _goes live_. For a comprehensive description of every configuration setting, see the [_Configuration Reference_](../configuration-reference/guide-overview.md).
 
