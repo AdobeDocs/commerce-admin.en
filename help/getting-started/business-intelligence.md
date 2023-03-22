@@ -60,7 +60,7 @@ In the [!DNL Commerce] configuration, [[!DNL Advanced Reporting]](../configurati
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-1. When prompted, click the [[!UICONTROL Cache Management]](../systems/cache-management.md) in the message at the top of the page and refresh any invalid caches.
+1. When prompted, click **[[!UICONTROL Cache Management]](../systems/cache-management.md)** in the message at the top of the page and refresh any invalid caches.
 
 1. Wait overnight, or until after the time of your next scheduled update. Then, check the status of your subscription. If the status is still _pending_, make sure that your installation meets all requirements.
 
@@ -110,7 +110,7 @@ If you get a 404 "Page Not Found" message, verify that your store meets the requ
 
 1. Look for the message that indicates the integration `Magento Analytics user` is reauthorized.
 
-1. Wait overnight, or until after the time of your next scheduled update.
+1. Wait overnight or until after the time of your next scheduled update.
 
 ### Verify single base currency
 
