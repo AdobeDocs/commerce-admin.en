@@ -46,9 +46,9 @@ Before setting up an email reminder rule, you must first set up a cart price rul
       - Wish List
       - Shopping Cart
 
->[!NOTE]
->
->If any customer has more than one matched abandoned cart and/or wishlist, then email reminder is triggered only once for this customer. To trigger the same email reminder again, _[!UICONTROL Repeat Schedule]_ setting field must be used.
+   >[!NOTE]
+   >
+   >If a customer has more than one matched abandoned cart, wish list, or combination of both, the email reminder is triggered only once for that customer. To trigger the same email reminder again, use the _[!UICONTROL Repeat Schedule]_ to set the number of days between emails.
 
    Complete the condition to describe the scenario that triggers the email reminder.
 
