@@ -58,7 +58,7 @@ Complete the following steps to add a rule, describe the conditions, and define 
 
    >[!NOTE]
    >
-   >Same priority cart price rule discounts are not combined. They are applied to matching products separately, one-by-one.
+   >Cart price rules that have the same priority do not result in a combined discount. Each rule is applied to matching products separately, one-by-one.
 
 1. To apply the rule to published [RSS feeds](social-rss.md#rss-feeds), set **Public In RSS Feed** to `Yes`.
 
