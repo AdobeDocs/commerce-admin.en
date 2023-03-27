@@ -1,34 +1,35 @@
 ---
-title: The Admin Tools and Workspace
+title: The Admin tools and workspace
 description: Learn about the Admin workspace, which provides access to all the tools, data, and content used to run your store.
 exl-id: 61cc53ab-e1c5-4349-b306-a15eb7c5ab57
 ---
-# The Admin Tools and Workspace
+# The Admin tools and workspace
 
 The Admin workspace provides access to all the tools, data, and content used to run your store. The default startup page can be set in the configuration. Many Admin pages have a grid that lists the data for the section, with a set of tools to search, sort, filter, select, and apply actions. By default, the [Dashboard](admin-dashboard.md) is the startup page for the Admin. However, you can choose any other page to appear as the startup page when you log in. You can click the logo in the Admin sidebar to return to the Admin startup page.
 
-![Admin - workspace](./assets/admin-workspace.png)<!-- zoom -->
+![Admin - workspace](./assets/admin-workspace.png){zoomable="yes"}
 
 ## Workspace controls
 
 |Control|Description|
 |--- |--- |
-|[!UICONTROL Search]|The Search box can be used to find any value in the database, including product, customer, and order records.|
+|[!UICONTROL Global Search]|The search icon at the top right can be used to find any value in the database, including product, customer, and order records.|
+|[!UICONTROL Grid Search]|The search box above the grid can be used to quickly filter the grid display based on key words found in the records.|
 |[!UICONTROL Sort]|The header of each column can be used to sort the list in ascending or descending order.|
 |[!UICONTROL Filters]|Defines a set of search parameters that determines the records that appear in the grid. In addition, the filters in the header of some columns can be used to limit the list to specific values. Some filters have additional options that can be selected from a list box.|
 |[!UICONTROL Default View]|Determines the default column layout of the grid.|
 |[!UICONTROL Columns]|Determines the selection of [columns](admin-grid-controls.md) and their order in the grid. The column layout can be changed and saved as a _view_. By default, only some of the columns are included in the grid.|
 |[!UICONTROL Paginate]|The pagination controls are used to view the additional pages of results.|
 |[!UICONTROL Actions]|The Actions control applies an operation to all selected records.|
-|[!UICONTROL Select]|The Select control is used to select multiple records that are to be the target of action. Options: Select All / Deselect All|
+|[!UICONTROL Select]|The Select control is used to select multiple records that are to be the target of action. Options: `Select All` / `Deselect All`|
 
 {style="table-layout:auto"}
 
-## Workspace Search
+## Workspace search
 
 To find any record in the database, use the magnifying glass icon in the header of the _Admin_. The results can include customers, products, orders, or any related attribute. For example, if you enter a customer name, the results might include the customer record and any orders that are associated with the name.
 
-![Admin search tool](./assets/admin-search.png)<!-- zoom -->
+![Admin search tool](./assets/admin-search.png){width="700" zoomable="yes"}
 
 1. In the header, click the _Search_ (![magnifying glass](../assets/icon-magnify-search.png)) icon to open the search box.
 
@@ -45,13 +46,13 @@ The [dashboard](admin-workspace.md#the-dashboard) is the default startup page fo
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left side panel under **[!UICONTROL Advanced]**, choose **[!UICONTROL Admin]**.
+1. In the left navigation panel under **[!UICONTROL Advanced]**, choose **[!UICONTROL Admin]**.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Startup Page]** section.
 
-1. Set **[!UICONTROL Startup Page]** to the page that you want to appear first after you log in to the Admin.
+   ![Advanced configuration - Admin startup page setting](./assets/admin-startup-page.png){width="600"}
 
-   ![Advanced configuration - Admin startup page setting](./assets/admin-startup-page.png)<!-- zoom -->
+1. Set **[!UICONTROL Startup Page]** to the page that you want to appear first after you log in to the Admin.
    
    For a detailed list of all Admin options, see [Admin](../configuration-reference/advanced/admin.md) in the _Configuration Reference_.
 

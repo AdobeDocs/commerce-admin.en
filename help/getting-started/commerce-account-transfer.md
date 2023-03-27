@@ -1,9 +1,9 @@
 ---
-title:  Transfer a Commerce Account
+title:  Transfer a Commerce account
 description: Learn how to transfer your Commerce account to another owner or email address.
 ---
 
-# Transfer a Commerce Account
+# Transfer a Commerce account
 
 As business responsibilities change, you might need to transfer the ownership of your existing Commerce account to a new owner or to another email address. This transfer requires a change to the primary user email associated with the account. 
 
