@@ -56,6 +56,10 @@ Complete the following steps to add a rule, describe the conditions, and define 
    >
    >The Priority setting is important when two cart rules/coupon codes are valid for the same product at the same time. The rule with the highest Priority setting (`1` being the highest) controls the cart action. See _Discard Subsequent Price Rules_ in the _Define the Actions_ step.
 
+   >[!NOTE]
+   >
+   >Cart price rules that have the same priority do not result in a combined discount. Each rule is applied to matching products separately, one-by-one.
+
 1. To apply the rule to published [RSS feeds](social-rss.md#rss-feeds), set **Public In RSS Feed** to `Yes`.
 
 1. Click **[!UICONTROL Save and Continue Edit]**.
