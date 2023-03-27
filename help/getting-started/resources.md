@@ -1,9 +1,9 @@
 ---
-title: The [!DNL Commerce] Ecosystem
+title: The Adobe Commerce ecosystem
 description: Adobe provides a wealth of business and technical resources, self-help tools, and services to help merchants succeed.
 exl-id: 05fb3769-6f99-45c0-81d6-3ccdd50dc047
 ---
-# The [!DNL Commerce] Ecosystem
+# The Adobe Commerce ecosystem
 
 Adobe provides a wealth of business and technical resources, self-help tools, and services to help you succeed.
 
