@@ -135,3 +135,7 @@ Magento Open Source is the code base that Adobe officially contributes to and en
 | **New guide** - Content now published in the Experience League: [Catalog Management Guide](../catalog/guide-overview.md) | Move | 9/1/2022 |
 
 {style="table-layout:auto"}
+
+## 2.3.x documentation
+
+The [Adobe Commerce 2.3 User Guide][https://docs.magento.com/user-guide/v2.3/] remains available on the `docs.magento.com` domain for Adobe Commerce 2.3 customers who are on an extended support contract.

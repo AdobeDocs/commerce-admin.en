@@ -1,58 +1,57 @@
 ---
-title: What is the Storefront?
+title: What is the storefront?
 description: Learn about the pages and functional elements that your store can provide to support the shopping experience for your customers.
 exl-id: 1c64888f-2bc0-4e2e-b7da-0e7182ea67e0
 ---
-# What is the Storefront?
+# What is the storefront?
 
 Within your Adobe Commerce or Magento Open Source implementation, the storefront is the external, public-facing part of your store. It provides the content and functional components that your customers use to shop and purchase.
 
 The path customers take to a sale is sometimes called the _path to purchase_, and your storefront includes the components for customers to complete this path. The following sections provide an overview of the basic page types that provide strategic value---the places customers usually visit while shopping in your store. As you review them, consider different store features that can be used at each stage of the customer journey.
 
-## Home Page
+## Home page
 
-Did you know that most people spend only a few seconds on a page before they decide to stay or go somewhere else? That's not long to make an impression. Studies show that people also love photographs, especially of other people. Whatever design you choose, everything on your home page should move visitors along toward the next step in the sales process. The idea is to guide their attention in a cohesive flow from one point of interest to the next.
+Did you know that most people spend only a few seconds on a page before they decide to stay or go somewhere else? It is not long to make an impression. Studies show that people also love photographs, especially of other people. Whatever design you choose, everything on your home page should move visitors along toward the next step in the sales process. The idea is to guide their attention in a cohesive flow from one point of interest to the next.
 
-![Example storefront home page](./assets/storefront-homepage-full.png)<!-- zoom -->
+![Example storefront home page](./assets/storefront-homepage-full.png){width="700"}
 
-## Catalog Page
+## Catalog page
 
 Catalog page listings typically have small product images and brief descriptions, and can be formatted as a list or as a grid. You can add blocks, videos, and keyword-rich descriptions, and also create special designs for a promotion or season. You might create a special category to feature a lifestyle or brand that is a curated collection of products from different categories.
 
 The initial product description usually gives shoppers enough information to merit a closer look. People who know what they want can add the product to their carts and go. Customers who shop while logged in to their accounts enjoy a personalized shopping experience.
 
-![Collection page on the storefront](./assets/storefront-collection-page.png)<!-- zoom -->
+![Collection page on the storefront](./assets/storefront-collection-page.png){width="700"}
 
-## Search Results
+## Search results
 
-Did you know that people who use search are nearly twice as likely to make a purchase as those who rely on navigation alone? You might consider these shoppers to be _pre-qualified_.
+Did you know that people who use search are nearly twice as likely to make a purchase as people who rely on navigation alone? You might consider these shoppers to be _pre-qualified_.
 
-### Live Search
+### [!DNL Live Search]
 
-With [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) for Adobe Commerce, your store delivers a fast, super-relevant, and intuitive search experience, and is available for Adobe Commerce at no additional charge.
+With [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) for Adobe Commerce, your store delivers a fast, super-relevant, and intuitive search experience, and is available for Adobe Commerce at no additional charge.
 
-![Live Search example - search as you type](./assets/storefront-search-as-you-type.png)<!-- zoom -->
+![Live Search example - search as you type](./assets/storefront-search-as-you-type.png){width="700"}
 
 ### Standard catalog search
 
 With [standard catalog search](../catalog/search.md), your store includes a Search box in the upper-right corner, and a link to Advanced Search in the footer. All search terms that shoppers submit are saved, so you can see exactly what they're looking for. You can offer suggestions, and enter synonyms and common misspellings. Then, display a specific page when a search term is entered.
 
-![Example of standard catalog search results](./assets/storefront-search-results-page-full.png)<!-- zoom -->
+![Example of standard catalog search results](./assets/storefront-search-results-page-full.png){width="700"}
 
-
-## Product Page
+## Product page
 
 The product page has a lot going on! The first thing that catches your eye on the product page is the main image with a high-resolution zoom and thumbnail gallery. In addition to the price and availability, there is a tabbed section with more information and a list of related products.
 
-![Example storefront product page](./assets/storefront-product-page-full-m.png)<!-- zoom -->
+![Example storefront product page](./assets/storefront-product-page-full-m.png){width="700"}
 
-## Shopping Cart
+## Shopping cart
 
-The cart is where order total can be determined, along with discount coupons and estimated shipping and tax, and a great place to display your trust badges and seals. This is  also an ideal opportunity to offer one last item. As a cross-sell, you can select certain items to be offered as an impulse purchase whenever a specific item appears in the cart.
+The cart is where order total can be determined, along with discount coupons and estimated shipping and tax, and a great place to display your trust badges and seals. It is also an ideal opportunity to offer one last item. As a cross-sell, you can select certain items to be offered as an impulse purchase whenever a specific item appears in the cart.
 
-![Example storefront shopping cart page](./assets/storefront-cart-full.png)<!-- zoom -->
+![Example storefront shopping cart page](./assets/storefront-cart-full.png){width="700"}
 
-## Checkout Page
+## Checkout page
 
 Checkout process consists of two steps:
 
@@ -60,7 +59,7 @@ Checkout process consists of two steps:
 
    The first step of the checkout process is for the customer to complete the shipping address information, and to choose the shipping method. If the customer has an account, the shipping address is entered automatically, but can be changed if needed.
 
-   ![Example storefront checkout page](./assets/storefront-checkout-shipping-full.png)<!-- zoom -->
+   ![Example storefront checkout page](./assets/storefront-checkout-shipping-full.png){width="700"}
 
 1. Review and Payment Information
 
@@ -70,9 +69,9 @@ Checkout process consists of two steps:
    >
    >Although [!DNL Commerce] allows configuring multiple coupon codes, a customer may apply only one coupon code to the cart. (See the [Coupon codes](../merchandising-promotions/price-rules-cart-coupon.md#coupon-codes) for more information.)
 
-   ![Example storefront checkout page](./assets/storefront-checkout-payment-full.png)<!-- zoom -->
+   ![Example storefront checkout page](./assets/storefront-checkout-payment-full.png){width="700"}
 
-The progress bar at the top of the page follows each step of the checkout process, and the Order Summary shows the information that was entered up to this point.
+The progress bar at the top of the page follows each step of the checkout process, and the _Order Summary_ shows the information that was entered up to this point.
 
 >[!NOTE]
 >

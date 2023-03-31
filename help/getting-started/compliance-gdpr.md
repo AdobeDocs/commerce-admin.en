@@ -1,9 +1,9 @@
 ---
-title: GDPR Compliance
+title: GDPR compliance
 description: Learn about General Data Protection Regulation (GDPR), which is legislation that regulates data protection and privacy for all individuals in the European Union and the European Economic Area.
 exl-id: 88a732f3-f376-4ff5-890c-0535de8eae51
 ---
-# GDPR Compliance
+# GDPR compliance
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ If your business is required to comply with both the GDPR and the [California Co
 
 Businesses that comply with GDPR might have additional obligations under the CCPA. To learn more, see the [CCPA Fact Sheet][3]{:target="_blank"}.
 
-## Best Practices
+## Best practices
 
 - Examine the current [privacy policies](../getting-started/privacy-policy.md) for all of your stores to ensure that they align with any applicable legal requirements (including, but not limited to GDPR and CCPA).
 

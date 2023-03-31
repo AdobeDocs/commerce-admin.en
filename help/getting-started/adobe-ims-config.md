@@ -17,7 +17,7 @@ This integration supports Commerce merchants with Admin users who have an Adobe 
 The administrator who configures this integration needs the following credentials during module enablement:
 
 * Organization ID (obtained from [Adobe Admin Console](https://adminconsole.adobe.com/)), which must be at least 24 characters in length. The authenticated user must belong to this IMS organization. For information about finding your organization ID, see [Organizations in Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
-* 2FA should be enforced on the Organization level in Adobe Admin Console to enable the module. Please check [the documentation](https://helpx.adobe.com/enterprise/using/authentication-settings.html#two-step-verification)
+* 2FA should be enforced on the Organization level in Adobe Admin Console to enable the module. Check [the documentation](https://helpx.adobe.com/enterprise/using/authentication-settings.html#two-step-verification)
 * Client ID
 * Client secret
 * Client ID and client secret are available after retrieving API keys in the [Adobe Developer Console](https://developer.adobe.com/).
@@ -77,8 +77,10 @@ After successfully enabling this feature, you can transition other Adobe Commerc
 
 After successfully enabling this feature, you can transition other Adobe Commerce user accounts to Adobe IMS accounts. Adobe Commerce users must belong to at least one Adobe organization to log in using an Adobe ID.
 
-1. In the Admin Console, navigate to **[!UICONTROL Users]**  > **[!UICONTROL Users]**.
+1. In the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html), navigate to **[!UICONTROL Users]**  > **[!UICONTROL Users]**.
+
 1. Click **[!UICONTROL Add User]**.
+
 1. Enter the email address of the user.
 
    If applicable, the recommended ID Type is populated automatically. You can change this setting to one of the product IDs in the list, which is based on your organization's purchase plan.

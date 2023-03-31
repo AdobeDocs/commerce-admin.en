@@ -11,6 +11,10 @@ The purpose of an email reminder is to encourage people who have visited your st
 
 Email reminders can be triggered after a specific number of days have passed since a cart was abandoned or for any other condition you want to define. Common conditions include total cart value, quantity, items in cart, and so on.
 
+>[!NOTE]
+>
+>If a customer has more than one matched abandoned cart, wish list, or combination of both, the email reminder is triggered only once for that customer. To trigger the same email reminder again, use the _[!UICONTROL Repeat Schedule]_ field to set the number of days between emails.
+
 ![Email reminders](./assets/email-reminders.png)<!-- zoom -->
 
 ## Configure email reminders
