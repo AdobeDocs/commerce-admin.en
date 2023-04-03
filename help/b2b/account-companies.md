@@ -43,7 +43,7 @@ After creating the account, the company administrator defines the company struct
 
 1. Look for a Welcome email to arrive from the store.
 
-   The Welcome email provides the account email address, a link to set the account password, and initial information about available capabilities. The email address targets and content of the email are determined by the options specified in the [Email Options - Company Registration](company-configuration.md) configuration.
+   The Welcome email provides the account email address, a link to set the account password, and initial information about available capabilities. The email address targets and content of the email are determined by the options specified in the [Email Options - Company Registration](../configuration-reference/company-configuration.md) configuration.
 
 1. Follow the instructions and click [!UICONTROL **link**] to set your password.
 
