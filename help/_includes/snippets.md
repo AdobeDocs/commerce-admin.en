@@ -62,6 +62,7 @@ To access the store configurations settings, choose **[!UICONTROL Stores]** > _[
 |----------------------- | ----------- |
 | [Adobe Commerce 2.4 Merchant Documentation](../landing/home.md) | Merchant-focused documentation for both Adobe Commerce and Magento Open Source |
 | [Services for Adobe Commerce Documentation](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | Documentation to support a collection of services that help merchants integrate key components of their business with their store. |
+| [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Step-by-step procedures for deploying Adobe Commerce on a managed, automated hosting Cloud platform. |
 | [Adobe Commerce 2.4 Operational Guides](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Systems documentation about the concepts, processes, tools, and best practices to develop, deploy, and maintain projects deployed on Adobe Commerce and Magento Open Source platforms.|
 | [Adobe Commerce 2.4 Developer Documentation](https://developer.adobe.com/commerce/) | Developer-focused documentation used to build and customize Adobe Commerce or Magento Open Source |
 
