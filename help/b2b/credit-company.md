@@ -1,13 +1,13 @@
 ---
-title: Manage Company Credit
+title: Manage company credit
 description: Learn about company credit lines, setting parameters, and processing payments on account.
 exl-id: 62ff2a36-053d-4ba0-9969-0f05701afbff
 ---
-# Manage Company Credit
+# Manage company credit
 
 If [Payment on Account](../getting-started/../b2b/enable-basic-features.md#configure-payment-on-account) is enabled in the configuration, companies can make purchases on their account up to the credit limit that is granted to the company. When enabled, customers can check the status of their company credit from their account dashboard.
 
-![Company Credit](./assets/company-add-credit-admin.png)<!-- zoom -->
+![Company Credit](./assets/company-create-credit-admin.png){width="700" zoomable="yes"}
 
 You can set the following credit-related parameters for each company profile:
 
@@ -18,11 +18,11 @@ You can set the following credit-related parameters for each company profile:
 
 If the company has an outstanding balance, a notice to the store administrator appears at the top of the sales order when it is viewed from the Admin. To learn more, see [Creating a Company Account](account-company-create.md).
 
-## Company Credit activity
+## Company credit activity
 
-The Company Credit section of the company profile displays a summary of the customer credit activity, with a grid of the company credit history.
+The [!UICONTROL Company Credit] section of the company profile displays a summary of the customer credit activity, with a grid of the company credit history.
 
-![Company Credit activity](./assets/company-credit-reimbursements-grid.png)<!-- zoom -->
+![Company Credit activity](./assets/company-credit-reimbursements-grid.png){width="700" zoomable="yes"}
 
 |Column|Description|
 |--- |--- |
@@ -59,8 +59,6 @@ When the customer makes the payment for their outstanding credit to the merchant
 
 A reimbursed balance is an offline payment that is made by a company toward the balance of their account. The store administrator enters the amount manually in the company profile, using the _Reimburse Balance_ button. When the amount is submitted, the system recalculates the outstanding balance and available company credit, and records the action in the company credit history. The reimbursed amount is entered in the credit currency, as specified in the configuration.
 
-![Reimburse Balance](./assets/company-reimburse-balance.png)<!-- zoom -->
-
 ### Apply a payment to a company account
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
@@ -69,7 +67,9 @@ A reimbursed balance is an offline payment that is made by a company toward the 
 
 1. At the top of the page, click **Reimburse Balance**.
 
-1. Add the payment information:
+1. In the dialog, add the payment information:
+
+   ![Reimburse Balance](./assets/company-reimburse-balance.png){width="500"}
 
    - Enter the **Amount** of the payment.
 
@@ -84,8 +84,6 @@ A reimbursed balance is an offline payment that is made by a company toward the 
 1. Click **Reimburse**.
 
    The company's outstanding balance and available credit is recalculated, and the Company Credit history is updated to reflect the reimbursement.
-
-   ![Company Credit activity](./assets/company-credit-reimbursements-grid.png)<!-- zoom -->
 
 ### Edit a reimbursement
 
@@ -107,10 +105,10 @@ For the company administrator, the account dashboard displays the _Company Credi
 
 If the merchant cancels an order that was charged to company credit, the amount of the order is returned to the company balance and the _Credit Allocation History_ includes a record of the action.
 
-![Company Credit](./assets/company-credit.png)<!-- zoom -->
+![Company Credit](./assets/company-credit.png){width="700" zoomable="yes"}
 
 ## Company credit demo
 
-Watch this video to learn about managing company credit:
+Learn about managing company credit by watching this demo video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/344445?quality=12)

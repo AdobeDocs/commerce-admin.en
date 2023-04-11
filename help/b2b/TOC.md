@@ -6,44 +6,45 @@ breadcrumb-title: "[!DNL B2B for Adobe Commerce]"
 
 # [!DNL B2B for Adobe Commerce] Guide {#b2b}
 
-- [[!DNL B2B for Adobe Commerce] Guide](guide-overview.md)
-- [Introduction](introduction.md)
-- [Release Notes](release-notes.md)
-- [Installation](install.md)
-- [Enable Basic B2B Features](enable-basic-features.md)
-- Company Accounts {#companies}
-  - [Company Account Overview](account-companies.md)
-  - [Create a Company Account](account-company-create.md)
-  - [Company Account Approvals](account-company-approve.md)
-  - [Assign a Company Administrator](account-company-admin.md)
-  - [Manage Company Accounts](account-company-manage.md)
-  - [Assigning a Customer Group to a Company](account-company-customer-group.md)
-  - [Add Customers to a Company](customer-assign-company.md)
-  - [Manage Company Credit](credit-company.md)
-  - Company Users and Structure {#users}
-    - [Company User Accounts](account-company-users.md)
-    - [Company Roles and Permissions](account-company-roles-permissions.md)
-    - [Define Company Structure](account-company-structure.md)
-- Shared Catalogs {#shared-catalogs}
-  - [Using Shared Catalogs](catalog-shared.md)
-  - Define Shared Catalogs {#define}
-    - [Create a Shared Catalog](catalog-shared-create.md)
-    - [Add Products to a Shared Catalog](catalog-shared-product-add.md)
-    - [Set Catalog Pricing and Structure](catalog-shared-pricing-structure.md)
-    - [Assign Companies to a Catalog](catalog-shared-assign-companies.md)
-  - [Manage Shared Catalogs](catalog-shared-manage.md)
-- [Quick Orders](quick-order.md)
-- Purchase Orders {#purchase-orders}
-  - [Purchase Orders for Companies](purchase-order-flow.md)
-  - [Approval Rules](account-dashboard-approval-rules.md)
-  - [Purchase Order Management](account-dashboard-my-purchase-orders.md)
-- Quotes {#quotes}
-  - [Quotes Overview](quotes.md)
-  - [Configure Quotes](configure-quotes.md)
-  - [Request for Quote](quote-request.md)
-  - [Negotiate a Quote](quote-price-negotiation.md)
-  - [My Quotes](account-dashboard-my-quotes.md)
-- Requisition Lists {#requisition-lists}
-  - [Requisition Lists Overview](requisition-lists.md)
-  - [Configure Requisition List Maximum](configure-requisition-lists.md)
-  - [My Requisition Lists](account-dashboard-requisition-lists-manage.md)
++ [[!DNL B2B for Adobe Commerce] Guide](guide-overview.md)
++ [Introduction to B2B features](introduction.md)
++ [Release notes](release-notes.md)
++ [Installation](install.md)
++ [Enable basic B2B features](enable-basic-features.md)
++ Company accounts {#companies}
+  + [Overview](account-companies.md)
+  + [Configure company email options](email-company-configuration.md)
+  + [Create a company account](account-company-create.md)
+  + [Company account approvals](account-company-approve.md)
+  + [Assign a company administrator](account-company-admin.md)
+  + [Manage company accounts](account-company-manage.md)
+  + [Assigning a customer group to a company](account-company-customer-group.md)
+  + [Add customers to a company](customer-assign-company.md)
+  + [Manage company credit](credit-company.md)
+  + Company users and structure {#users}
+    + [Company user accounts](account-company-users.md)
+    + [Company roles and permissions](account-company-roles-permissions.md)
+    + [Define company structure](account-company-structure.md)
++ Shared catalogs {#shared-catalogs}
+  + [Overview](catalog-shared.md)
+  + Define shared catalogs {#define}
+    + [Create a shared catalog](catalog-shared-create.md)
+    + [Add products to a shared catalog](catalog-shared-product-add.md)
+    + [Set catalog pricing and structure](catalog-shared-pricing-structure.md)
+    + [Assign companies to a catalog](catalog-shared-assign-companies.md)
+  + [Manage shared catalogs](catalog-shared-manage.md)
++ [Quick orders](quick-order.md)
++ Purchase orders {#purchase-orders}
+  + [Purchase orders for Companies](purchase-order-flow.md)
+  + [Approval rules](account-dashboard-approval-rules.md)
+  + [[!UICONTROL My Purchase Orders]](account-dashboard-my-purchase-orders.md)
++ Quotes {#quotes}
+  + [Overview](quotes.md)
+  + [Configure quotes](configure-quotes.md)
+  + [Request for quote](quote-request.md)
+  + [Negotiate a quote](quote-price-negotiation.md)
+  + [[!UICONTROL My Quotes]](account-dashboard-my-quotes.md)
++ Requisition lists {#requisition-lists}
+  + [Overview](requisition-lists.md)
+  + [Configure the list maximum](configure-requisition-lists.md)
+  + [[!UICONTROL My Requisition Lists]](account-dashboard-requisition-lists-manage.md)
