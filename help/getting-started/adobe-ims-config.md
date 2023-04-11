@@ -62,7 +62,7 @@ You must have an Adobe account to generate a new project and register it in IMS.
 
 The `AdminAdobeIms` module is responsible for the Adobe Commerce/Adobe IMS integration. After setting up the new project and copying your organization ID, client ID, and client secret, you can enable the `AdminAdobeIms` module.
 
-Enter `bin/magento admin:adobe-ims enable`. You are prompted to enter the following parameters. Use the values that were generated during project creation.
+Enter `bin/magento admin:adobe-ims:enable`. You are prompted to enter the following parameters. Use the values that were generated during project creation.
 
 * Organization ID
 * Client ID
