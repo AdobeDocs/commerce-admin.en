@@ -33,27 +33,27 @@ Customers can specify products for quick orders using either of the following me
 
 1. Selects the product by SKU or product name:
 
-   - To place a quick order by SKU, does the following:
+   To place a **quick order by SKU**, the customer does the following:
 
-      - Enters the **[!UICONTROL SKU]**.
+   - Enters the **[!UICONTROL SKU]**.
 
-      - Clicks **[!UICONTROL Add to List]**.
+   - Clicks **[!UICONTROL Add to List]**.
 
-         The SKU appears in the input line, with the product detail below.
+      The SKU appears in the input line, with the product detail below.
 
-         ![Quick Order Detail](./assets/quick-order-product-detail.png){width="600" zoomable="yes"}
+      ![Quick Order Detail](./assets/quick-order-product-detail.png){width="600" zoomable="yes"}
 
-   - To place a quick order by the product name, does the following:
+   To place a **quick order by the product name**, the customer does the following:
 
-      - Enters the first few characters of the **[!UICONTROL Product Name]**.
+   - Enters the first few characters of the **[!UICONTROL Product Name]**.
 
-         >[!NOTE]
-         >
-         >Do not use the _Enter_ key to choose the name of the product.
+      >[!NOTE]
+      >
+      >Do not use the _Enter_ key to choose the name of the product.
 
-      - When the list of possible matches appears, the customer clicks the product that they want to order.
+   - When the list of possible matches appears, the customer clicks the product that they want to order.
 
-          ![Click to Choose Product Name](./assets/quick-order-product-name.png){width="700" zoomable="yes"}
+      ![Click to Choose Product Name](./assets/quick-order-product-name.png){width="700" zoomable="yes"}
 
 1. Enters the **[!UICONTROL Qty]**.
 

@@ -9,7 +9,7 @@ The primary reason to maintain a requisition list is to make it easy to reorder 
 
 ![My Requisition Lists](./assets/account-dashboard-my-requisition-lists.png){width="700" zoomable="yes"}
 
-## View a requisition list
+## Open a requisition list
 
 1. From their account dashboard, the customer chooses **[!UICONTROL My Requisition Lists]**.
 

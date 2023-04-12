@@ -16,7 +16,7 @@ You can set the following credit-related parameters for each company profile:
 - Allow to Exceed Credit Limit
 - Reason for Change
 
-If the company has an outstanding balance, a notice to the store administrator appears at the top of the sales order when it is viewed from the Admin. To learn more, see [Creating a Company Account](account-company-create.md).
+If the company has an outstanding balance, a notice to the store administrator appears at the top of the sales order when it is viewed from the Admin. To learn more, see [Create a company account](account-company-create.md).
 
 ## Company credit activity
 

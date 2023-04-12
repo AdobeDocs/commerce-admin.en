@@ -19,15 +19,15 @@ Assigning a customer group to a company is essentially the same as assigning a s
 
 1. On the company page, scroll down and expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Advanced Settings]** section.
 
-   ![Change customer group or shared catalog](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
-
 1. Set the appropriate **[!UICONTROL Customer Group]**.
 
    >[!NOTE]
    >
-   >The Customer Group list includes all existing shared catalogs, even if Shared Catalogs is disabled in the configuration.
+   >The [!UICONTROL Customer Group] list includes all existing shared catalogs, even if Shared Catalogs is disabled in the configuration.
 
    Changing the customer group assigned to the company updates the profiles of all company members.
+
+   ![Change customer group or shared catalog](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
 
    >[!NOTE]
    >

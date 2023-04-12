@@ -32,7 +32,7 @@ If you have a multisite installation, make sure to configure the price scope bef
 
 1. Set **Catalog Price Scope** to `Website`.
 
-   ![Catalog Price Scope](../configuration-reference/catalog/assets/catalog-price.png){width="600"}
+   ![Catalog Price Scope](../configuration-reference/catalog/assets/catalog-price.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Save Config]**.
 
@@ -105,7 +105,7 @@ To see a demonstration of shared catalog management, watch this video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/344446?quality=12&learn=on)
 
-## Shared Catalog page reference
+## Shared catalog page reference
 
 ### Button bar
 

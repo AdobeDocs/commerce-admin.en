@@ -35,7 +35,7 @@ breadcrumb-title: "[!DNL B2B for Adobe Commerce]"
   + [Manage shared catalogs](catalog-shared-manage.md)
 + [Quick orders](quick-order.md)
 + Purchase orders {#purchase-orders}
-  + [Purchase orders for Companies](purchase-order-flow.md)
+  + [Purchase orders for companies](purchase-order-flow.md)
   + [Approval rules](account-dashboard-approval-rules.md)
   + [[!UICONTROL My Purchase Orders]](account-dashboard-my-purchase-orders.md)
 + Quotes {#quotes}

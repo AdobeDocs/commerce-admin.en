@@ -5,7 +5,7 @@ exl-id: 137f0a99-8f24-4838-b54b-b0ef2c39a32a
 ---
 # [!UICONTROL My Quotes]
 
-If quotes are enabled, the _[!UICONTROL My Quotes]_ section of the account dashboard lists all quotes submitted by the customer. Depending on their permissions, only buyers who make purchases on behalf of a company can submit requests to negotiate the price of a purchase.
+If quotes are enabled, the _[!UICONTROL My Quotes]_ section of the customer account dashboard lists all quotes submitted by the customer. Depending on their permissions, only buyers who make purchases on behalf of a company can submit requests to negotiate the price of a purchase.
 
 ![My Quotes](./assets/account-dashboard-my-quotes.png){width="700" zoomable="yes"}
 

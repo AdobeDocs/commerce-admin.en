@@ -118,7 +118,7 @@ This example specifies five items, but two distinct SKUs.
 
 To modify an existing approval rule, a customer can complete the following steps:
 
-1. In the sidebar of their account, selects **[!UICONTROL Approval Rules]**.
+1. In the sidebar of their account, the customer selects **[!UICONTROL Approval Rules]**.
 
 1. Finds the approval rule entry to be edited.
 

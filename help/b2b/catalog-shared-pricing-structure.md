@@ -113,7 +113,7 @@ The selection of products in the grid cannot be changed from the _Custom Prices_
 
 1. When prompted, enter the discount and click **[!UICONTROL Apply]**.
 
-   ![Set Discount](./assets/shared-catalog-set-custom-prices-discount.png){width="450"}
+   ![Set Discount](./assets/shared-catalog-set-custom-prices-discount.png){width="400"}
 
    The discount is applied to all selected products, and the _Custom Price_ column reflects the type of discount and amount applied.
 
@@ -147,7 +147,7 @@ The following instructions show how to apply tier pricing to a single product. T
 
    In the grid, the number of tiers is shown in parentheses in the _[!UICONTROL Tier Price]_ column.
 
-   ![Multiple Tiers](./assets/shared-catalog-tier-price-configure-parentheses.png){width="500" zoomable="yes"}
+   ![Multiple Tiers](./assets/shared-catalog-tier-price-configure-parentheses.png){width="600" zoomable="yes"}
 
 ## Save the structure and pricing
 

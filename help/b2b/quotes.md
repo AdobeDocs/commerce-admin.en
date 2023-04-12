@@ -53,7 +53,7 @@ Only quote requests with an `Open` status can be declined.
 
 1. When prompted, enter the reason the quote was declined and click **[!UICONTROL Confirm]**.
 
-   ![Decline Quote?](./assets/quote-decline-confirm.png){width="450"}
+   ![Decline Quote?](./assets/quote-decline-confirm.png){width="400"}
 
 ## Column descriptions
 

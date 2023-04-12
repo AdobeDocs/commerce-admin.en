@@ -19,11 +19,11 @@ It is possible that the person who serves as company administrator has multiple 
 
 ![Company Structure with Administrator and User Account](./assets/company-structure-tree-admin-user.png){width="600" zoomable="yes"}
 
-For merchants, the full company structure is reflected in the _Companies_ and _Customers_ grids within the Admin. The Companies grid lists all companies regardless of status. The following example shows accounts for two companies: the _ABC Company_ and the _XYZ Company_.
+For merchants, the full company structure is reflected in the _Companies_ and _Customers_ grids within the Admin. The Companies grid lists all companies regardless of status. The following example shows accounts for two companies: the _ACME_ company and the _Vendelay_ company.
 
 ![Companies Grid](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-The following example shows the [!UICONTROL Customers] grid with the initial company administrator account for the _XYZ Company_.
+The following example shows the [!UICONTROL Customers] grid with the initial company administrator accounts for these companies.
 
 ![Customers grid with company administrator account](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
