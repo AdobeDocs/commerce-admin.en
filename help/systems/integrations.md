@@ -23,13 +23,13 @@ Establishes the location of [OAuth](https://developer.adobe.com/commerce/webapi/
 
    - Enter the **[!UICONTROL Name]** of the integration and the contact **[!UICONTROL Email]** address.
 
-   - Enter the **[!UICONTROL Callback URL]** where OAuth credentials can be sent when using OAuth for token exchange. We strongly recommend using `https://`.
+   - Enter the **[!UICONTROL Callback URL]** where OAuth credentials can be sent when using OAuth for token exchange. Using `https://` is strongly recommended.
 
    - Enter the **[!UICONTROL Identity Link URL]** to redirect the users to a third-party account with these Adobe Commerce or Magento Open Source integration credentials.
 
    >[!NOTE]
    >
-   >`Integration not secure` warning label is displayed near each integration name on the [!UICONTROL Integrations] grid as a reminder, until HTTPS URLs are saved into [!UICONTROL Callback URL] and [!UICONTROL Identity Link URL] fields.
+   > The `Integration not secure` warning label is displayed near each integration name on the [!UICONTROL Integrations] grid as a reminder, until HTTPS URLs are saved into [!UICONTROL Callback URL] and [!UICONTROL Identity Link URL] fields.
 
    - When prompted, enter your password to confirm your identity.
 
@@ -58,7 +58,7 @@ By default, a saved integration appears on the grid with an `Inactive` status. T
 
 1. In the upper-right corner, click **[!UICONTROL Allow]**.
 
-   This displays the Integration Tokens for Extensions. Copy this information to a secure, encrypted location for use with your integration.
+   This action displays the Integration Tokens for Extensions. Copy this information to a secure, encrypted location for use with your integration.
 
    ![Integration Tokens for Extensions](./assets/integration-tokens-for-extensions.png)<!-- zoom -->
 
@@ -66,7 +66,7 @@ By default, a saved integration appears on the grid with an `Inactive` status. T
 
 ## Reauthorize an integration
 
-To generate a new Integration Access Token and Access Token Secret, reauthorized the integration from the Admin Panel.
+To generate a new Integration Access Token and Access Token Secret, reauthorized the integration from the Admin:
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Extensions]_ > **[!UICONTROL Integrations]**.
 
@@ -80,7 +80,7 @@ To generate a new Integration Access Token and Access Token Secret, reauthorized
 
 ## Change the API guest access security setting
 
-By default, the system does not permit anonymous guest access to CMS, catalog, and other store resources. If you need to change the setting, do the following:
+By default, the system does not permit anonymous guest access to CMS, catalog, and other store resources. If you must change the setting, do the following:
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
