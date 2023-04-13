@@ -29,7 +29,7 @@ Establishes the location of [OAuth](https://developer.adobe.com/commerce/webapi/
 
    >[!NOTE]
    >
-   >`Integration not secure` warning label will be displayed near each integration name on the [!UICONTROL Integrations] grid as a reminder, until HTTPS URLs will be saved into [!UICONTROL Callback URL] and [!UICONTROL Identity Link URL] fields.
+   >`Integration not secure` warning label is displayed near each integration name on the [!UICONTROL Integrations] grid as a reminder, until HTTPS URLs is saved into [!UICONTROL Callback URL] and [!UICONTROL Identity Link URL] fields.
 
    - When prompted, enter your password to confirm your identity.
 
