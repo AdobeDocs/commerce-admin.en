@@ -1,35 +1,33 @@
 ---
-title: Manage Your Shared Catalogs
+title: Manage your shared catalogs
 description: Learn about the information and tools available from the Shared Catalogs page.
 exl-id: a01ac292-240d-42e7-b4c9-2982f293c521
 ---
-# Manage Your Shared Catalogs
+# Manage your shared catalogs
 
-The Shared Catalogs page provides access to the tools needed for managing your shared catalogs. The page is similar to the standard Admin workspace, with filters and action controls. The grid lists all shared catalogs, including the default public shared catalog, and any custom catalogs that you have set up.
+The _[!UICONTROL Shared Catalogs]_ page provides access to the tools needed for managing your shared catalogs. The page is similar to the standard Admin workspace, with filters and action controls. The grid lists all shared catalogs, including the default public shared catalog, and any custom catalogs that you have set up.
 
 ## Update the product selection
 
-The selection of products in any shared catalog can be easily updated from the Action column of the Shared Catalogs grid. The changes you make are visible to members of any associated company accounts. The process is essentially the same as choosing products for a new [catalog structure](catalog-shared-pricing-structure.md), except that the scope of the configuration cannot be changed.
-
-![Shared catalog grid](./assets/shared-catalog-grid-set-pricing-structure.png)<!-- zoom -->
+The selection of products in any shared catalog can be easily updated from the _[!UICONTROL Action]_ column of the shared catalogs grid. The changes you make are visible to members of any associated company accounts. The process is essentially the same as choosing products for a new [catalog structure](catalog-shared-pricing-structure.md), except that the scope of the configuration cannot be changed.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
 
 1. For the shared catalog in the grid, go to the **[!UICONTROL Action]** column and select **[!UICONTROL Set Pricing and Structure]**.
 
-1. Follow the instructions in [Step 2: Choose Products](catalog-shared-pricing-structure.md).
+   ![Shared catalog grid and action menu](./assets/shared-catalog-set-pricing-structure.png){width="700" zoomable="yes"}
+
+1. Follow the instructions in [Step 2: Choose products](catalog-shared-pricing-structure.md#step-2-choose-the-products).
 
    You can skip the first item, because the scope of a shared catalog cannot be changed after it is saved for the first time.
 
-If you are working with a specific product, the _Products In Shared Catalog section list each shared catalog where the product is available. To learn more, see [Adding Products to a Shared Catalog](catalog-shared-product-add.md).
+If you are working with a specific product, the _[!UICONTROL Products In Shared Catalog]_ section list each shared catalog where the product is available. To learn more, see [Add products to a shared catalog](catalog-shared-product-add.md).
 
-![Product in Shared Catalogs](./assets/shared-catalog-assigned.png)<!-- zoom -->
+![Product in Shared Catalogs](./assets/shared-catalog-assigned.png){width="600" zoomable="yes"}
 
 ## Update custom pricing
 
 The custom pricing of products in any shared catalog can be easily updated from the Action column of the Shared Catalogs grid. The changes you make are visible to in the storefront to members of the associated company or customer group. The process is essentially the same as setting custom pricing for a new [shared catalog](catalog-shared-pricing-structure.md), except that the scope of the configuration cannot be changed.
-
-![General Settings](./assets/shared-catalog-grid-set-pricing-structure.png)<!-- zoom -->
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
 
@@ -40,7 +38,7 @@ The custom pricing of products in any shared catalog can be easily updated from 
    - In the progress indicator at the top of the page, click **[!UICONTROL Pricing]**.
    - In the upper-right corner, click **[!UICONTROL Next]**.
 
-1. Follow the instructions in [Step 2: Set Custom Prices](catalog-shared-pricing-structure.md).
+1. Follow the instructions in [Step 3: Set custom prices](catalog-shared-pricing-structure.md#step-3-set-custom-prices).
 
 ## Update category permissions
 
@@ -48,7 +46,7 @@ The custom pricing of products in any shared catalog can be easily updated from 
 
 >[!NOTE]
 >
->**[B2B release 1.3.0](release-notes.md#b2b-v130) and later** -- When you create a shared catalog, each [category permission](../catalog/category-permissions.md) for the catalog is set to _[!UICONTROL Allow for the Display Product Prices]_ and _[!UICONTROL Add to Cart]_ for customer groups that are assigned this access in the catalog permission settings. Previously, these settings were automatically set to `Deny` even when catalog permissions were set to `Allow`.
+>**[B2B release 1.3.0](release-notes.md#b2b-v130) and later** -- When you create a shared catalog, each [category permission](../catalog/category-permissions.md) for the catalog is set to `Allow` for the _[!UICONTROL Display Product Prices]_ and _[!UICONTROL Add to Cart]_ for customer groups that are assigned this access in the catalog permission settings. Previously, these settings were automatically set to `Deny` even when catalog permissions were set to `Allow`.
 
 >[!IMPORTANT]
 >
@@ -64,11 +62,11 @@ The custom pricing of products in any shared catalog can be easily updated from 
 
 1. Click **[!UICONTROL New Permission]** and do the following:
 
-   ![New Permission](./assets/category-permissions-new.png)<!-- zoom -->
+   ![New Permission](./assets/category-permissions-new.png){width="600" zoomable="yes"}
 
    - Choose the **[!UICONTROL Customer Group]** that corresponds to the shared catalog and change the permission settings as needed.
 
-      ![Category Permissions Rule](./assets/shared-catalog-category-permissions.png)<!-- zoom -->
+      ![Category Permissions Rule](./assets/shared-catalog-category-permissions.png){width="600" zoomable="yes"}
 
    - To create a permissions rule for another customer group, click **[!UICONTROL New Permissions]** and repeat the process.
 
@@ -80,13 +78,13 @@ The custom pricing of products in any shared catalog can be easily updated from 
 
 The detail information of any shared catalog can be easily updated from the Action column of the Shared Catalogs grid. The changes you make are reflected in any associated company accounts.
 
-![General Settings](./assets/shared-catalog-grid-general-settings.png)<!-- zoom -->
+![General Settings](./assets/shared-catalog-grid-general-settings.png){width="700" zoomable="yes"}
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
 
 1. For the shared catalog that you want to update, go to the **[!UICONTROL Action]** column and select **[!UICONTROL General Settings]**.
 
-   ![Catalog Details](./assets/shared-catalog-update-details.png)<!-- zoom -->
+   ![Catalog Details](./assets/shared-catalog-update-details.png){width="600" zoomable="yes"}
 
 1. Update the catalog detail information as needed.
 
@@ -95,7 +93,7 @@ The detail information of any shared catalog can be easily updated from the Acti
 
 1. When complete, Click **[!UICONTROL Save]**.
 
-## Shared Catalog page reference
+## Shared catalog page reference
 
 ### Button bar
 

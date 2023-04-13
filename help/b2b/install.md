@@ -1,13 +1,13 @@
 ---
-title: Install the [!DNL B2B for Adobe Commerce] Extension
+title: Install the [!DNL B2B for Adobe Commerce] extension
 description: Learn how to install the [!DNL B2B for Adobe Commerce] metapackage.
 exl-id: a6947212-1708-40ae-9e81-874467eba5e1
 ---
-# Install the [!DNL B2B for Adobe Commerce] Extension
+# Install the [!DNL B2B for Adobe Commerce] extension
 
 >[!IMPORTANT]
 >
->The B2B for Adobe Commerce extension is only available for Adobe Commerce v2.2.0 or later. You must install it after installing Adobe Commerce.
+>The B2B for Adobe Commerce extension is only available for Adobe Commerce v2.2.0 or later. It is installed after installing Adobe Commerce.
 
 >[!NOTE]
 >
@@ -21,7 +21,7 @@ exl-id: a6947212-1708-40ae-9e81-874467eba5e1
 
    >[!NOTE]
    >
-   >You must specify a [Compatible B2B extension version](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html#compatibility) in the command, which can be found in the left column of the compatibility table.
+   >The [Compatible B2B extension version](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html#compatibility) must be specified in the command, which can be found in the left column of the [compatibility table](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html#compatibility).
 
    If you get an error when trying to install the B2B extension for a local instance of Adobe Commerce for example:
 
@@ -46,7 +46,7 @@ exl-id: a6947212-1708-40ae-9e81-874467eba5e1
 
 1. When prompted, enter your [authentication keys](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
 
-   Your *public key* is your username; your *private key* is your password. If you have stored your public and private keys in `auth.json`, you aren't asked to enter them here.
+   Your _public key_ is your username; your _private key_ is your password. If you have stored your public and private keys in `auth.json`, you aren't asked to enter them here.
 
 1. Run the following commands after Composer finishes updating modules:
 
@@ -72,7 +72,7 @@ exl-id: a6947212-1708-40ae-9e81-874467eba5e1
 
 >[!IMPORTANT]
 >
->After completing the installation, you must follow the [post-installation steps](#configure-b2b).
+>After completing the installation, you must follow the [post-installation steps](#specify-parameters-for-message-consumers).
 
 ## Message consumers
 
@@ -89,6 +89,8 @@ The [!DNL B2B for Adobe Commerce] extension uses MySQL for message queue managem
 | `quoteItemCleaner` | Deletes invalid or inactive price quotes when a product is deleted from the catalog or removed from the cart. Required when the [**[!UICONTROL Quotes]**](quotes.md) option is enabled in the Admin system configuration settings. |
 | `inventoryQtyCounter` | Asynchronously corrects the stock index after an order is placed or a product is removed. Required when the [**[!UICONTROL Use deferred stock update]**](../configuration-reference/catalog/inventory.md#product-stock-options) option is enabled for Inventory Management in the Admin configuration settings. See [Performance Best Practices](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/configuration.html#deferred-stock-update). |
 | `async.operations.all` | Creates messages for each individual task of a [bulk operation](https://developer.adobe.com/commerce/php/development/components/message-queues/bulk-operations/), such as importing or exporting items, changing prices on a mass scale, and assigning products to a warehouse. Required when the [**Admin bulk operations**](../configuration-reference/catalog/inventory.md#admin-bulk-operations) option for [!DNL Inventory Management] is set to **Run asynchronously** in the Admin system configuration settings. |
+
+{style="table-layout:auto"}
 
 ### Start message consumers
 
@@ -122,7 +124,7 @@ The [!DNL B2B for Adobe Commerce] extension uses MySQL for message queue managem
 
 >[!TIP]
 >
->Append `&` to the command to run it in the background, return to a prompt, and continue running commands. For example: `bin/magento queue:consumers:start sharedCatalogUpdatePrice &`.
+>To run it in the background, append `&` to the command, return to a prompt, and continue running commands. For example: `bin/magento queue:consumers:start sharedCatalogUpdatePrice &`.
 
 Refer to [Manage message queues](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) in the _Configuration Guide_ for more information.
 
@@ -139,9 +141,9 @@ You can also add these two message consumers to the cron job (optional) by addin
 
 Depending on your system configuration, to prevent possible issues, specify the following parameters when starting the services:
 
--  `--max-messages`: manages the consumer's lifetime and allows you to specify the maximum number of messages processed by the consumer. The best practice for a PHP application is to restart long-running processes to prevent possible memory leaks.
+- `--max-messages`: manages the consumer's lifetime and allows you to specify the maximum number of messages processed by the consumer. The best practice for a PHP application is to restart long-running processes to prevent possible memory leaks.
 
--  `--batch-size`: allows you to limit the system resources consumed by the consumers (CPU, memory). Using smaller batches reduces resource usage and, thus, leads to slower processing.
+- `--batch-size`: allows you to limit the system resources consumed by the consumers (CPU, memory). Using smaller batches reduces resource usage and, thus, leads to slower processing.
 
 ## Enable B2B features in the Admin
 
