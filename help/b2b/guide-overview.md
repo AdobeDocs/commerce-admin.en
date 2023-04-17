@@ -1,5 +1,5 @@
 ---
-title: '[!DNL B2B for Adobe Commerce] Guide Overview'
+title: '[!DNL B2B for Adobe Commerce] Guide'
 description: Comprehensive information for [!DNL B2B for Adobe Commerce] administrators, including installation and configuration.
 breadcrumb-title: Guide Overview
 seo-title: '[!DNL B2B for Adobe Commerce] Guide'

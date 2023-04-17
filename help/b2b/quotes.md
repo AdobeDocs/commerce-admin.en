@@ -1,9 +1,9 @@
 ---
-title: Negotiated Quotes
+title: Negotiated quotes
 description: Learn about quote workflows and how you can provide this service to your company accounts.
 exl-id: c278818b-fa5a-4e7a-8ca2-c4b757da4f05
 ---
-# Negotiated Quotes
+# Negotiated quotes
 
 If quotes are [enabled in the configuration](configure-quotes.md), an authorized buyer from a company can initiate the price negotiation process by submitting a [request to negotiate](quote-price-negotiation.md) the price from the shopping cart. The _Quotes_ grid lists each quote received and maintains a history of the communication between buyer and seller. The standard [workplace controls](../getting-started/admin-workspace.md) can be used to filter the list, change the column layout, save views, and export data.
 
@@ -11,13 +11,13 @@ If quotes are [enabled in the configuration](configure-quotes.md), an authorized
 
 All quotes are initiated by the buyer from the shopping cart and follow the same basic workflow:
 
-Step 1: Buyer requests quote - The buyer [requests a quote](quote-request.md) from the shopping cart. The request appears in the _My Quotes_ list in the account dashboard of the buyer and email notification is sent to the sales representative who is assigned to the company account. In the Admin, the request appears in the _Quotes_ grid, with a status of `New`. A request for a quote can be modified by the buyer until it is opened by the seller.
+**Step 1: Buyer requests quote** - The buyer [requests a quote](quote-request.md) from the shopping cart. The request appears in the _My Quotes_ list in the account dashboard of the buyer and email notification is sent to the sales representative who is assigned to the company account. In the Admin, the request appears in the _Quotes_ grid, with a status of `New`. A request for a quote can be modified by the buyer until it is opened by the seller.
 
-Step 2: Seller views request and sends response - The seller views the request for a quote. The status of the quote changes to `Pending`, and the buyer cannot make any changes. The [seller responds](quote-price-negotiation.md) by offering discounted pricing for the products in the quote, enters a comment, and sends the quote back to the buyer. The buyer and sales representative are notified by email that the seller has responded.
+**Step 2: Seller views request and sends response** - The seller views the request for a quote. The status of the quote changes to `Pending`, and the buyer cannot make any changes. The [seller responds](quote-price-negotiation.md) by offering discounted pricing for the products in the quote, enters a comment, and sends the quote back to the buyer. The buyer and sales representative are notified by email that the seller has responded.
 
-Step 3: Buyer receives response from seller - The buyer clicks the link in the email to open the quote, or opens the quote from the _My Quotes_ page of the account dashboard. The buyer and seller can continue the negotiation process until an agreement is reached, or the buyer declines the quote to end the negotiation.
+**Step 3: Buyer receives response from seller** - The buyer clicks the link in the email to open the quote, or opens the quote from the _My Quotes_ page of the account dashboard. The buyer and seller can continue the negotiation process until an agreement is reached, or the buyer declines the quote to end the negotiation.
 
-Step 4: Buyer accepts quote - The buyer accepts the proposed price and continues to checkout. Additional discounts cannot be added to the negotiated quote.
+**Step 4: Buyer accepts quote** - The buyer accepts the proposed price and continues to checkout. Additional discounts cannot be added to the negotiated quote.
 
 ## B2B role resources for store quotes
 
@@ -27,11 +27,11 @@ To grant access to quote functions in the Admin, go to **[!UICONTROL System]** >
 
 ## Apply an action
 
-![Quotes](./assets/quotes-grid.png)<!-- zoom -->
+![Quotes](./assets/quotes-grid.png){width="700" zoomable="yes"}
 
 The following actions can be applied to either single or multiple records.
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > _[!UICONTROL Operations]_ > **[!UICONTROL Quotes]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > **[!UICONTROL Quotes]**.
 
 1. In the first column of the grid, select the checkbox for each record that you want to update.
 
@@ -53,7 +53,7 @@ Only quote requests with an `Open` status can be declined.
 
 1. When prompted, enter the reason the quote was declined and click **[!UICONTROL Confirm]**.
 
-   ![Decline Quote?](./assets/quote-decline-confirm.png)<!-- zoom -->
+   ![Decline Quote?](./assets/quote-decline-confirm.png){width="400"}
 
 ## Column descriptions
 
@@ -86,8 +86,8 @@ Only quote requests with an `Open` status can be declined.
 
 {style="table-layout:auto"}
 
-## Example Quote
+## Example quote
 
 The following figure shows an example quote with some settings configured.
 
-![Example quote](./assets/quote-full.png)
+![Example quote](./assets/quote-full.png){width="700" zoomable="yes"}

@@ -1,9 +1,9 @@
 ---
-title: Add Products to a Shared Catalog
+title: Add products to a shared catalog
 description: Learn about adding products to a shared catalog, either individually or in groups by category.
 exl-id: c88b46b4-cea8-4f65-b7e4-6681bab64d41
 ---
-# Add Products to a Shared Catalog
+# Add products to a shared catalog
 
 Products can be added to a shared catalog either individually or in groups of multiple products by category.
 
@@ -13,7 +13,7 @@ The following requirements must be met for a complex product (such as bundle, gr
 - For [configurable](../catalog/product-create-configurable.md) and [grouped](../catalog/product-create-grouped.md) products, only the enabled associated products are visible.
 - For a [bundle](../catalog/product-create-bundle.md) product, all options must be included in the shared catalog.
 
-   ![Select Products for Catalog](./assets/shared-catalog-select-products-step-1.png)<!-- zoom -->
+   ![Select Products for Catalog](./assets/shared-catalog-select-products-step-1.png){width="600" zoomable="yes"}
 
 ## Method 1: Add a single product
 
@@ -21,15 +21,15 @@ The following requirements must be met for a complex product (such as bundle, gr
 
 1. For the product in the grid that you want to add, go to the _[!UICONTROL Action]_ column and click **[!UICONTROL Edit]**.
 
-1. Scroll down, expand ![Expansion selector](../assets/icon-display-expand.png) the _Product in Shared Catalogs_ section, and do the following:
+1. Scroll down, expand ![Expansion selector](../assets/icon-display-expand.png) the _[!UICONTROL Product in Shared Catalogs]_ section, and do the following:
 
    - Select the checkbox of each shared catalog where the product should appear. To choose all catalogs, click **[!UICONTROL Select all]**.
 
-      ![Product in Shared Catalogs](./assets/shared-catalog-assign-from-product.png)<!-- zoom -->
+      ![Product in Shared Catalogs](./assets/shared-catalog-assign-from-product.png){width="600" zoomable="yes"}
 
-      The name of each selected catalog appears in the _Shared Catalogs_ field.
+      The name of each selected catalog appears in the _[!UICONTROL Shared Catalogs]_ field.
 
-      ![Shared catalogs assigned](./assets/shared-catalog-assigned.png)<!-- zoom -->
+      ![Shared catalogs assigned](./assets/shared-catalog-assigned.png){width="600" zoomable="yes"}
 
    - Click **[!UICONTROL Done]** to save the settings.
 
