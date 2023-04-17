@@ -90,7 +90,7 @@ For security reasons, online stores do not typically want to collect store credi
 >
 >Using gift cards, store credit, or reward points with online payment methods for purchase orders is not supported. Enabling these features with online payments may cause some unexpected behavior. It is recommended that you disable gift cards, store credit, and reward points when online payments are enabled for purchase orders.
 
-## Offline payments
+### Offline payments
 
 As offline payment methods, such as a money order, are handled outside the website, they are safer. Purchase orders with offline payments can be processed automatically, after any approval process.
 
