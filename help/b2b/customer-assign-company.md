@@ -1,9 +1,9 @@
 ---
-title: Add Customers to a Company
+title: Add customers to a company account
 description: Learn about adding an existing customer to a company account.
 exl-id: ee2f9c27-37d6-4997-8285-1c4c84f8d04c
 ---
-# Add Customers to a Company
+# Add customers to a company account
 
 When enabled in the configuration, the company administrator adds users to the company. However, the company assignment of a customer profile can also be made or changed from the Admin.
 
@@ -21,7 +21,7 @@ When enabled in the configuration, the company administrator adds users to the c
 
    The system generates a list of all possible matches.
 
-   ![Associate to Company](./assets/company-assign-customer-account.png)<!-- zoom -->
+   ![Associate to Company](./assets/company-assign-customer-account.png){width="600"}
 
 1. In the list, select the company where you want to assign the customer and click **[!UICONTROL Done]**.
 

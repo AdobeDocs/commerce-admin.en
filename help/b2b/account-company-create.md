@@ -1,9 +1,9 @@
 ---
-title: Create a Company Account
-description: Learn about company account creation in the Admin and on the storefront.
+title: Create a company account
+description: Learn about company account creation in the Adobe Commerce Admin and on the storefront.
 exl-id: 8c06395b-102b-4a41-8eb3-e6a344feac70
 ---
-# Create a Company Account
+# Create a company account
 
 Company accounts can be set up from the storefront by the customer, or from the Admin. All requests to create a company account must be approved by the store administrator before the account becomes active.
 
@@ -17,26 +17,26 @@ The person who sets up a company account from the storefront is assigned a role 
 
 1. In the upper-right corner of the storefront header, the customer clicks **[!UICONTROL Create an Account]** and chooses **[!UICONTROL Create New Company Account]**.
 
-   ![Create New Company Account](./assets/company-account-create-storefront-options.png)<!-- zoom -->
+   ![Create New Company Account](./assets/company-account-create-storefront-options.png){width="700" zoomable="yes"}
 
    >[!NOTE]
    >
    >If a visitor is logged in to a registered user account, they can create a company account by navigating to _[!UICONTROL Customer Profile]_ > **[!UICONTROL Company Structure]** > **[!UICONTROL Create a Company Account]**. Upon creation of the company account, the customer's account is assigned as the primary contact. Otherwise, the system creates a customer, who receives an email to set a password.
 
-1. In the _[!UICONTROL Company Information]_ section, does the following:
+1. In the _[!UICONTROL Company Information]_ section, the customer does the following:
 
    - Completes the required fields:
 
       - **[!UICONTROL Company Name]**
       - **[!UICONTROL Company Email]**
 
-   - If the information is available, completes the remaining fields, as applicable:
+   - Completes the remaining fields, as applicable:
 
       - **[!UICONTROL Company Legal Name]**
       - **[!UICONTROL VAT/TAX ID]**
       - **[!UICONTROL Re-seller ID]**
 
-   ![Company Information](./assets/company-information-storefront.png)<!-- zoom -->
+   ![Company Information](./assets/company-information-storefront.png){width="700" zoomable="yes"}
 
 1. Completes the required fields in the _[!UICONTROL Legal Address]_ section.
 
@@ -47,7 +47,7 @@ The person who sets up a company account from the storefront is assigned a role 
    - **[!UICONTROL ZIP/Postal Code]**
    - **[!UICONTROL Phone Number]**
 
-   ![Legal Address](./assets/company-legal-address-storefront.png)<!-- zoom -->
+   ![Legal Address](./assets/company-legal-address-storefront.png){width="700" zoomable="yes"}
 
 1. In the _[!UICONTROL Company Administrator]_ section, does the following:
 
@@ -64,13 +64,13 @@ The person who sets up a company account from the storefront is assigned a role 
 
    ![Company Administrator](./assets/company-administrator-account-storefront.png)
 
-1. If reCAPTCHA is enabled for this storefront function, completes the validation.
+1. Completes the validation if reCAPTCHA is enabled for this storefront function.
 
-1. When complete, clicks **[!UICONTROL Submit]**.
+1. When the information is complete, clicks **[!UICONTROL Submit]**.
 
    When the request to create a company account is approved by the merchant, email notification is sent to the company administrator.
 
-   ![](./assets/company-admin-welcome-email.png)<!-- zoom -->
+   ![Example Welcome Email](./assets/company-admin-welcome-email.png){width="500"}
 
    When the password is set, the company administrator can [sign in](../customers/customer-sign-in.md) to the account.
 
@@ -78,7 +78,7 @@ The person who sets up a company account from the storefront is assigned a role 
 
 The process of creating a company from the Admin is essentially the same as from the storefront, but with additional fields.
 
-![New Company](./assets/company-create-admin.png)<!-- zoom -->
+![New Company](./assets/company-create-admin.png){width="700" zoomable="yes"}
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
@@ -105,7 +105,7 @@ The process of creating a company from the Admin is essentially the same as from
 
       The comments are visible only from the Admin.
 
-   ![Account Information](./assets/company-create-account-information-admin.png)<!-- zoom -->
+   ![Account Information](./assets/company-create-account-information-admin.png){width="700" zoomable="yes"}
 
 1. In the _[!UICONTROL Legal Address]_ section, complete these required fields:
 
@@ -135,7 +135,7 @@ The process of creating a company from the Admin is essentially the same as from
       - **[!UICONTROL Gender]**
       - **[!UICONTROL Send Welcome Email From]**
 
-    ![Company Admin](./assets/company-create-company-admin.png)<!-- zoom -->
+    ![Company Admin](./assets/company-create-company-admin.png){width="700" zoomable="yes"}
 
 1. In the _[!UICONTROL Company Credit]_ section, which displays a summary of the customer's credit activity, complete as many of the fields in the lower part of the section as applicable:
 
@@ -144,7 +144,7 @@ The process of creating a company from the Admin is essentially the same as from
    - **[!UICONTROL Allow to Exceed Credit Limit]**
    - **[!UICONTROL Reason for Change]**
 
-   ![Company Credit](./assets/company-create-credit-admin.png)<!-- zoom -->
+   ![Company Credit](./assets/company-create-credit-admin.png){width="700" zoomable="yes"}
 
 1. In the _[!UICONTROL Advanced Settings]_ section, do the following:
 
@@ -154,11 +154,11 @@ The process of creating a company from the Admin is essentially the same as from
 
    - You can change the **[!UICONTROL Customer Group]** assignment for the company and its employees to a group that has access to a different shared catalog or to a standard customer group. You are prompted to confirm before the group is changed.
 
-      ![Changing the customer group](./assets/company-advanced-settings-customer-group-admin.png)<!-- zoom -->
+      ![Changing the customer group](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
 
    - If you want to allow company employees to generate quotes from their account, set **[!UICONTROL Allow Quotes]** to `Yes`.
 
-   - If you want to allow company employees to use purchase orders from their account, set **[!UICONTROL Enable Purchase Orders]** to `Yes`.
+   - If you want to allow company employees to create and use purchase orders from their account, set **[!UICONTROL Enable Purchase Orders]** to `Yes`.
 
    - To change the **[!UICONTROL Applicable Payment Methods]** that are available to the company, clear the **[!UICONTROL Use config settings]** checkbox and choose one of the following:
 
@@ -236,7 +236,7 @@ The process of creating a company from the Admin is essentially the same as from
 
 |Field|Description|
 |--- |--- |
-|[!UICONTROL Website]|Determines the website the company administrator belongs to.|
+|[!UICONTROL Website]|Determines the website that the company administrator belongs to.|
 |[!UICONTROL Job Title]|The title of the company administrator who manages the company account.|
 |[!UICONTROL Email]|The email address of the company administrator can be the same as the company email address. If a different email address is entered, a separate individual account is created for the company administrator, in addition to the company account.|
 |[!UICONTROL Prefix]|If applicable, the prefix that is associated with the name of the company administrator (such as `Mr.`, `Ms.`, `Mrs.`, or `Dr.`). Depending on the configuration, the input field might be a text field or list.|

@@ -1,9 +1,9 @@
 ---
-title: Purchase Orders for Companies
+title: Purchase orders for companies
 description: Learn about purchase order workflows that allow companies to track and control spending.
 exl-id: 4f93ab4c-6bdf-495e-9183-3a18898b377f
 ---
-# Purchase Orders for Companies
+# Purchase orders for companies
 
 Purchase orders (POs) are a common way for companies to track and control spending. [Purchase order](../stores-purchase/purchase-order.md) is one of the standard offline payment methods supported in Adobe Commerce and Magento Open Source. When B2B of Adobe Commerce is installed and [_Enable Purchase Orders_](account-company-manage.md#advanced-settings) is activated for a company account, all orders are automatically created as Purchase Orders (PO). Company users with the required [permissions](account-company-roles-permissions.md) can create, edit, and delete POs that they create and POs created by subordinate users.
 
@@ -11,7 +11,7 @@ Purchase orders (POs) are a common way for companies to track and control spendi
 
 Depending on their role, and the order, company users could be subjected to several approval rules. And depending on whether using online or offline payment methods, the flow is slightly different. Company administrators can create orders automatically, bypassing the approval rules. Because storing online payment details during the approval process is a security risk, these details are added after approval and then the purchase order is converted to a real order.
 
-![Purchase order flow](./assets/purchase-order-flow.png)<!-- zoom -->
+![Purchase order flow](./assets/purchase-order-flow.png){width="600" zoomable="yes"}
 
 The purchase order workflow for a company can vary in a few ways:
 
@@ -58,7 +58,7 @@ The purchase order workflow can also be different depending on who is doing the 
 
 All these factors can have an influence on the exact checkout process.
 
-## My Purchase Orders
+## [!UICONTROL My Purchase Orders]
 
 When purchase orders are enabled for a company, the **[!UICONTROL My Purchase Orders]** item is displayed in left panel for customers logged in to a company user account. There are three tabs that provide different purchase order lists and functions:
 
@@ -66,7 +66,7 @@ When purchase orders are enabled for a company, the **[!UICONTROL My Purchase Or
 - **[!UICONTROL Company Purchase Orders]**: POs made by subordinate users within the company (depends on company structure and roles).
 - **[!UICONTROL Requires My Approval]**: (Visible for designated approvers) POs that are waiting for the customer's approval. The counter shows how many orders are awaiting approval.
 
-![My Purchase Orders](./assets/account-dashboard-my-purchase-orders.png)<!-- zoom -->
+![My Purchase Orders](./assets/account-dashboard-my-purchase-orders.png){width="700" zoomable="yes"}
 
 For more information about the supported purchase order functions available for company users on the storefront, see [My Purchase Orders](account-dashboard-my-purchase-orders.md).
 

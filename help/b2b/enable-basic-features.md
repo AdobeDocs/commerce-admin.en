@@ -1,9 +1,9 @@
 ---
-title: Enable Basic B2B Features
-description: Learn about enabling the primary B2B features for your store.
+title: Enable basic B2B features
+description: Learn about enabling the primary B2B features for your Adobe Commerce store, including company accounts, default payment and shipping methods, purchase orders, and order approvals.
 exl-id: aed203ef-f39b-4f7e-b32f-ded53eca09a8
 ---
-# Enable Basic B2B Features
+# Enable basic B2B features
 
 By default, all B2B features are initially disabled. However, they are always available from the Admin, regardless of whether they are enabled or disabled for the storefront. For a complete list of B2B configuration settings, see [B2B Features configuration reference](../configuration-reference/general/b2b-features.md).
 
@@ -19,7 +19,7 @@ By default, all B2B features are initially disabled. However, they are always av
 
 1. In the left panel under _[!UICONTROL General]_, choose **[!UICONTROL B2B Features]** and enable the basic features:
 
-   ![B2B configuration - general](./assets/b2b-features.png)<!-- zoom -->
+   ![B2B configuration - general](./assets/b2b-features.png){width="600"}
 
    - To allow customers to manage their own company accounts, set **[!UICONTROL Enable Company]** to `Yes`.
 
@@ -35,9 +35,9 @@ By default, all B2B features are initially disabled. However, they are always av
 
    Enabling shared catalogs also enables category permissions for all stores.
 
-   ![B2B configuration - enable companies with shared catalogs](./assets/b2b-features-company-enabled.png)<!-- zoom -->
+   ![B2B configuration - enable companies with shared catalogs](./assets/b2b-features-company-enabled.png){width="600"}
 
-   When the Shared Catalog feature is enabled, the **Enable Shared Catalog direct products price assigning** option is available. When this option is set to `Yes`, only products that are assigned to a shared catalog are stored in the price index. This is recommended if you have a large number of shared catalogs to manage custom pricing for different companies.
+   When the Shared Catalog feature is enabled, the **Enable Shared Catalog direct products price assigning** option is available. When this option is set to `Yes`, only products that are assigned to a shared catalog are stored in the price index. This configuration is a best practice if you have many shared catalogs to manage custom pricing for different companies.
 
 1. To give company buyers the ability to negotiate prices, set **[!UICONTROL Enable B2B Quote]** to `Yes`.
 
@@ -62,7 +62,7 @@ By default, all B2B features are initially disabled. However, they are always av
    - Stored Accounts
    - Stored Cards
 
-   ![B2B configuration - default payment method settings](./assets/b2b-features-default-payment-methods.png)<!-- zoom -->
+   ![B2B configuration - default payment method settings](./assets/b2b-features-default-payment-methods.png){width="600"}
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Default B2B Shipping Methods]** section.
 
@@ -75,11 +75,11 @@ By default, all B2B features are initially disabled. However, they are always av
 
      The list of shipping methods shows which are currently [enabled or disabled](../configuration-reference/sales/delivery-methods.md).
 
-   ![B2B configuration - default shipping methods](./assets/b2b-features-shipping-methods.png)<!-- zoom -->
+   ![B2B configuration - default shipping methods](./assets/b2b-features-shipping-methods.png){width="600"}
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-## Configure Company Email Options
+## Configure company email options
 
 The [sales representative](account-company-manage.md#assign-a-sales-representative) that is assigned as the primary contact for a company is configured by default as the sender of many automated email messages sent to the company.
 
@@ -106,7 +106,7 @@ The [sales representative](account-company-manage.md#assign-a-sales-representati
 
    - If you have prepared an email template that is to be used instead of the default, set **[!UICONTROL Default Company Registration Email]** to the name of the template. By default, the `Company Registration Request` template is used.
 
-      ![Customers configuration - company registration](./assets/company-email-options-company-registration.png)<!-- zoom -->
+      ![Customers configuration - company registration](./assets/company-email-options-company-registration.png){width="600"}
 
 1. Complete the **[!UICONTROL Customer-Related Emails]** section:
 
@@ -120,11 +120,9 @@ The [sales representative](account-company-manage.md#assign-a-sales-representati
    - **[!UICONTROL Default 'Customer Status Active' Email]**
    - **[!UICONTROL Default 'Customer Status Inactive' Email]**
 
-   ![Customers configuration - customer related emails](./assets/company-email-options-customer-related-emails.png)<!-- zoom -->
+   ![Customers configuration - customer related emails](./assets/company-email-options-customer-related-emails.png){width="600"}
 
 1. Complete the **[!UICONTROL Company Status Change]** section:
-
-   - Set **[!UICONTROL Company Status Change for Email Recipient]** to the [store contact](../getting-started/store-details.md#store-email-addresses) who is to be notified when the status of a company changes.
 
    - For **[!UICONTROL Send Company Status Change Email Copy To]**, enter the email address of each person who is to receive a copy of the status change notification. Separate multiple email addresses with a comma.
 
@@ -133,17 +131,17 @@ The [sales representative](account-company-manage.md#assign-a-sales-representati
       - `Bcc` - Sends a _blind courtesy copy_ by including the recipient in the header of the same email that is sent to the customer. The BCC recipient is not visible to the customer.
       - `Separate Email` - Sends the copy as a separate email.
 
-   - If you have prepared an email template that is to be used instead of the default when company status changes from `Pending Approval` to `Active`, set **[!UICONTROL Default 'Company Status Change to Active 1' Email]** to the name of the template. By default, the `Company Status Active 1` template is used.
+   - If you have prepared an email template that is to be used when company status changes from `Pending Approval` to `Active`, set **[!UICONTROL Default 'Company Status Change to Active 1' Email]** to the name of the template. By default, the `Company Status Active 1` template is used.
 
-   - If you have prepared an email template that is to be used instead of the default when company status changes from `Rejected` or `Blocked` to `Active`, set **[!UICONTROL Default 'Company Status Change to Active 2' Email]** to the name of the template. By default, the `Company Status Active 2` template is used.
+   - If you have prepared an email template that is to be used when company status changes from `Rejected` or `Blocked` to `Active`, set **[!UICONTROL Default 'Company Status Change to Active 2' Email]** to the name of the template. By default, the `Company Status Active 2` template is used.
 
-   - If you have prepared an email template that is to be used instead of the default when company status changes to `Rejected`, set **[!UICONTROL Default 'Company Status Change to Rejected' Email]** to the name of the template. By default, the `Company Status Rejected` template is used.
+   - If you have prepared an email template that is to be used when company status changes to `Rejected`, set **[!UICONTROL Default 'Company Status Change to Rejected' Email]** to the name of the template. By default, the `Company Status Rejected` template is used.
 
-   - If you have prepared an email template that is to be used instead of the default when company status changes to `Blocked`, set **[!UICONTROL Default 'Company Status Change to Blocked' Email]** to the name of the template. By default, the `Company Status Blocked` template is used.
+   - If you have prepared an email template that is to be used when company status changes to `Blocked`, set **[!UICONTROL Default 'Company Status Change to Blocked' Email]** to the name of the template. By default, the `Company Status Blocked` template is used.
 
-   - If you have prepared an email template that is to be used instead of the default when company status changes to `Pending Approval`, set **[!UICONTROL Default 'Company Status Change to Pending Approval' Email]** to the name of the template. By default, the `Company Status Pending Approval` template is used.
+   - If you have prepared an email template that is to be used when company status changes to `Pending Approval`, set **[!UICONTROL Default 'Company Status Change to Pending Approval' Email]** to the name of the template. By default, the `Company Status Pending Approval` template is used.
 
-   ![Customers configuration - company status change](./assets/company-email-options-company-status-change.png)<!-- zoom -->
+   ![Customers configuration - company status change](./assets/company-email-options-company-status-change.png){width="600"}
 
 1. Complete the **[!UICONTROL Company Credit Emails]** section:
 
@@ -164,7 +162,7 @@ The [sales representative](account-company-manage.md#assign-a-sales-representati
       - **[!UICONTROL Refunded Email Template]**
       - **[!UICONTROL Reverted Email Template]**
 
-    ![Customers configuration - company credit emails](./assets/company-email-options-company-credit.png)<!-- zoom -->
+    ![Customers configuration - company credit emails](./assets/company-email-options-company-credit.png){width="600"}
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
@@ -178,9 +176,9 @@ The ability to track order processing and purchase orders gives company administ
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Order Approval Configuration]** section.
 
-   ![Order Approval Configuration](./assets/b2b-features-order-approval.png)<!-- zoom -->
+   ![Order Approval Configuration](./assets/b2b-features-order-approval.png){width="600"}
 
-1. To allow companies to create purchase orders, set **[!UICONTROL Enable Purchase Orders]** to `Yes`.
+1. To allow companies to create their own purchase orders, set **[!UICONTROL Enable Purchase Orders]** to `Yes`.
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
@@ -198,7 +196,7 @@ The ability to track order processing and purchase orders gives company administ
 
 1. When complete, Click **[!UICONTROL Save]**.
 
-After activation, the **[!UICONTROL Approval Rules]** section is displayed on the storefront [Account Dashboard](../customers/account-dashboard.md) for a company administrator.s
+After activation, the **[!UICONTROL Approval Rules]** section is displayed on the storefront [Account Dashboard](../customers/account-dashboard.md) for a company administrator.
 
 >[!NOTE]
 >
@@ -216,11 +214,11 @@ To enable Payment on Account for your store:
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, choose **[!UICONTROL Payment Methods]**.
+1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Payment Methods]**.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Payment on Account]** section.
 
-   ![Payment on Account](./assets/payment-methods-payment-on-account.png)<!-- zoom -->
+   ![Payment on Account](./assets/payment-methods-payment-on-account.png){width="600"}
 
    >[!NOTE]
    >

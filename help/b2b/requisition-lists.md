@@ -1,9 +1,9 @@
 ---
-title: Requisition Lists
+title: Requisition lists
 description: Learn about requisition lists and how they are used to easily add frequently ordered products to the shopping cart.
 exl-id: a21909de-18e7-4aa6-b30d-5d4fb02060ec
 ---
-# Requisition Lists
+# Requisition lists
 
 Using a requisition list saves time when purchasing frequently ordered products because items are added to the shopping cart directly from the list. Customers can maintain multiple lists that focus on products from different vendors, buyers, teams, campaigns, or anything else that streamlines their workflow. It is available for both logged-in users and guests.
 
@@ -14,9 +14,9 @@ Using a requisition list saves time when purchasing frequently ordered products 
 Requisition list functionality is similar to wish lists, with the following differences:
 
 - A requisition list is not cleared after sending items to the shopping cart. It can be used multiple times.
-- The user interface for requisition lists uses a compact view in order to display many items.
+- The user interface for requisition lists uses a compact view to display many items.
 
-![Requisition Lists displayed on the storefront](./assets/account-dashboard-my-requisition-lists.png)<!-- zoom -->
+![Requisition Lists displayed on the storefront](./assets/account-dashboard-my-requisition-lists.png){width="600" zoomable="yes"}
 
 ## Create a requisition list from the account dashboard
 
@@ -28,7 +28,7 @@ A logged in customer that is associated with a company account can create a requ
 
 1. Enters the **[!UICONTROL Requisition List Name]** and **[!UICONTROL Description]**.
 
-   ![Create Requisition List](./assets/requisition-list-create.png)<!-- zoom -->
+   ![Create Requisition List](./assets/requisition-list-create.png){width="300"}
 
 1. When complete, clicks **[!UICONTROL Save]**.
 
@@ -36,7 +36,7 @@ A logged in customer that is associated with a company account can create a requ
 
 A logged in customer that is associated with a company account can create a requisition list from a product page. This method provides an easy shortcut to create the list and add the product.
 
-1. From the product detail page, clicks **[!UICONTROL Add to Requisition List]**.
+1. From the product detail page, the customer clicks **[!UICONTROL Add to Requisition List]**.
 
 1. Clicks **[!UICONTROL Create New Requisition List]**.
 
@@ -62,7 +62,7 @@ Customers can add products to a requisition list from:
    - Chooses an existing requisition list.
    - Creates a requisition list.
 
-   ![Add to Requisition List](./assets/requisition-list-product-detail.png)<!-- zoom -->
+   ![Add to Requisition List](./assets/requisition-list-product-detail.png){width="700" zoomable="yes"}
 
 ### From a catalog page
 
@@ -75,18 +75,18 @@ Customers can add products to a requisition list from:
    - Chooses an existing requisition list.
    - Creates a requisition list.
 
-   ![Add to Requisition List](./assets/requisition-list-add-product.png)<!-- zoom -->
+   ![Add to Requisition List](./assets/requisition-list-add-product.png){width="700" zoomable="yes"}
 
 ### From an existing order
 
 1. In the sidebar of their account dashboard, the customer chooses **[!UICONTROL My Orders]**.
 
-1. At the top of the order, clicks **Add to Requisition List** and does one of the following:
+1. At the top of the order, clicks **[!UICONTROL Add to Requisition List]** and does one of the following:
 
    - Chooses an existing requisition list.
    - Creates a requisition list.
 
-   ![Add to Requisition List](./assets/requisition-list-add-from-order.png)<!-- zoom -->
+   ![Add to Requisition List](./assets/requisition-list-add-from-order.png){width="700" zoomable="yes"}
 
 ### From the cart
 
@@ -95,13 +95,13 @@ Customers can add products to a requisition list from:
    - Chooses an existing requisition list.
    - Creates a requisition list.
 
-   ![Add from Cart](./assets/requisition-list-add-from-cart.png)<!-- zoom -->
+   ![Add from Cart](./assets/requisition-list-add-from-cart.png){width="700" zoomable="yes"}
 
 ## View the updated requisition list
 
 When logged into their account, a customer can use either of the following methods to view any of their requisition lists.
 
-![My Requisition Lists](./assets/requisition-lists-menu-select-storefront.png)<!-- zoom -->
+![My Requisition Lists](./assets/requisition-lists-menu-select-storefront.png){width="700" zoomable="yes"}
 
 ### From the account dashboard
 
