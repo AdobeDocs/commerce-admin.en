@@ -31,7 +31,7 @@ To grant access to quote functions in the Admin, go to **[!UICONTROL System]** >
 
 The following actions can be applied to either single or multiple records.
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > _[!UICONTROL Operations]_ > **[!UICONTROL Quotes]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > **[!UICONTROL Quotes]**.
 
 1. In the first column of the grid, select the checkbox for each record that you want to update.
 
@@ -86,8 +86,8 @@ Only quote requests with an `Open` status can be declined.
 
 {style="table-layout:auto"}
 
-## Example Quote
+## Example quote
 
 The following figure shows an example quote with some settings configured.
 
-![Example quote](./assets/quote-full.png)
+![Example quote](./assets/quote-full.png){width="700" zoomable="yes"}
