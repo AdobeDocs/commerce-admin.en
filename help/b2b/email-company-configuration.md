@@ -1,6 +1,7 @@
 ---
 title: Configure company email
 description: Learn about the email options and templates used to send communications for company accounts.
+exl-id: fd61c0c6-0887-4ff2-8002-906ff615bad9
 ---
 # Configure company email options
 
