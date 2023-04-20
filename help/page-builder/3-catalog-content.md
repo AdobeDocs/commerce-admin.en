@@ -11,10 +11,6 @@ This exercise demonstrates how easy it is to add a product list to a page, custo
 
 This exercise assumes that you have completed [Part 1: Simple Page](1-simple-page.md) and [Part 2: Blocks](2-blocks.md), including the prerequisites and downloaded sample files. Follow the three parts of this exercise in order.
 
->[!NOTE]
->
->These exercises are updated to reflect recent changes to the [!DNL Page Builder] workspace in the 2.4.1 release. If you are using an earlier Adobe Commerce release, use the [!DNL Page Builder] walkthrough exercises included in the [[!DNL Commerce] 2.3 User Guide](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html).
-
 ## Part 1: Add a product list
 
 [!DNL Page Builder] makes it easy to add a product list to the stage. In this example, the product list is added directly to a page.

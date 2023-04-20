@@ -245,8 +245,6 @@ In this part of the Simple Page exercise, you create a page that has a full-blee
 
 1. In the upper-right corner, click the **[!UICONTROL Save]** arrow and choose **[!UICONTROL Save & Close]**.
 
-   ![Choosing the Save & Close option](./assets/pb-tutorial1-save-and-close.png)<!-- zoom -->
-
 1. If prompted, click the [Cache Management](../systems/cache-management.md) link in the message at the top of the page and refresh any invalid cache.
 
 **Congratulations!** You have completed the first part of the Simple Page exercise. Keep the work that you created, so you can refer to it later.
@@ -347,8 +345,6 @@ In this step, you learn how to upload an image to the banner.
    Clicking this icon returns you to the _[!UICONTROL Content]_ section for the page with the preview displayed.
 
 1. In the upper-right corner, click the **[!UICONTROL Save]** arrow and choose **[!UICONTROL Save & Close]**.
-
-   ![Choosing the Save & Close option](./assets/pb-tutorial1-save-and-close.png)<!-- zoom -->
 
 1. When prompted, click the [Cache Management](../systems/cache-management.md) link in the message at the top of the page and refresh any invalid cache.
 
@@ -577,8 +573,6 @@ With all three rows complete, the final step is to rearrange the rows to match t
    Clicking this icon returns you to the _[!UICONTROL Content]_ section for the page with the preview displayed.
 
 1. In the upper-right corner, click the **[!UICONTROL Save]** arrow and choose **[!UICONTROL Save & Close]**.
-
-   ![Choosing the [!UICONTROL Save & Close] option](./assets/pb-tutorial1-save-and-close.png)<!-- zoom -->
 
 1. If prompted, click the [Cache Management](../systems/cache-management.md) link in the message at the top of the page and refresh any invalid cache.
 

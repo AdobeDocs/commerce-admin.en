@@ -81,8 +81,6 @@ For more information about the Content Management Advanced Tools configuration o
 
 1. When prompted to confirm, click **[!UICONTROL Turn Off]**.
 
-   ![Turn off [!DNL Page Builder] - confirm](./assets/disable-page-builder-popup.png)<!-- zoom -->
-
 1. When complete, click **[!UICONTROL Save Config]**.
 
 1. When prompted, [refresh](../systems/cache-management.md) any invalid cache.
