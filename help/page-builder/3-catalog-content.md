@@ -85,7 +85,7 @@ This exercise assumes that you have completed [Part 1: Simple Page](1-simple-pag
 
 >[!NOTE]
 >
->An Admin user must have [!UICONTROL Content] permissions for their [role scope](../systems/permissions-user-roles.md) to see [!UICONTROL Edit with Pagebuilder] buttons and be able to use Page Builder.
+>An Admin user must have [!UICONTROL Content] permissions for their [role scope](../systems/permissions-user-roles.md) to see [!UICONTROL Edit with Page Builder] buttons and be able to use Page Builder.
 
 In this part of the exercise, you learn how easy it is to customize a product page by placing a video below the set of tabs on the product page. The process to update [category page](../catalog/categories-content-settings.md) content is basically the same.
 

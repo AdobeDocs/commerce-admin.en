@@ -15,7 +15,7 @@ When enabled in the configuration, [!DNL Page Builder] is the default content cr
 
 >[!NOTE]
 >
->An Admin user must have [!UICONTROL Content] permissions for their [role scope](../systems/permissions-user-roles.md) to see [!UICONTROL Edit with Pagebuilder] buttons and be able to use Page Builder.
+>An Admin user must have [!UICONTROL Content] permissions for their [role scope](../systems/permissions-user-roles.md) to see [!UICONTROL Edit with Page Builder] buttons and be able to use Page Builder.
 
 For more information about the Content Management Advanced Tools configuration options, see the [_Configuration Reference Guide_](../configuration-reference/general/content-management.md).
 
