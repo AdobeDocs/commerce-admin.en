@@ -7,9 +7,9 @@ exl-id: ed1b41aa-9c36-49f8-80f2-ad0eb151b7a5
 
 The primary reason to maintain a requisition list is to make it easy to reorder products. Authorized customers can easily reorder items from a requisition list by adding them to the shopping cart, and move or copy items from one list to another.
 
-![My Requisition Lists](./assets/account-dashboard-my-requisition-lists.png)<!-- zoom -->
+![My Requisition Lists](./assets/account-dashboard-my-requisition-lists.png){width="700" zoomable="yes"}
 
-## View a requisition list
+## Open a requisition list
 
 1. From their account dashboard, the customer chooses **[!UICONTROL My Requisition Lists]**.
 
@@ -32,7 +32,7 @@ The primary reason to maintain a requisition list is to make it easy to reorder 
 
 1. Clicks **[!UICONTROL Add to Cart]**.
 
-   ![Requisition List Detail](./assets/requisition-list-view.png)<!-- zoom -->
+   ![Requisition List Detail](./assets/requisition-list-view.png){width="700" zoomable="yes"}
 
 ### Copy items to a different list
 
@@ -66,7 +66,7 @@ Adobe Commerce generates and downloads a CSV list with `sku` and `qty` values.
 
 1. Verifies the output device, and clicks **[!UICONTROL Print]**.
 
-   ![Print Requisition List](./assets/requisition-list-print.png)<!-- zoom -->
+   ![Print Requisition List](./assets/requisition-list-print.png){width="500" zoomable="yes"}
 
 ### Edit product options
 
@@ -78,7 +78,7 @@ To edit product options in the list, the customer does the following:
 
 1. Clicks **[!UICONTROL Update Requisition List]**.
 
-   ![Update Requisition List](./assets/requisition-list-update.png)<!-- zoom -->
+   ![Update Requisition List](./assets/requisition-list-update.png){width="700" zoomable="yes"}
 
 A product in the requisition list can be edited when:
 
@@ -106,7 +106,8 @@ A product in the requisition list can be edited when:
 
 1. Clicks **[!UICONTROL Save]**.
 
-   ![Rename Requisition List](./assets/requisition-list-rename.png)<!-- zoom -->
+   ![Rename Requisition List](./assets/requisition-list-rename.png){width="300"}
+
 
 ### Remove a requisition list
 

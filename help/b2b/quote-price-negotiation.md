@@ -1,9 +1,9 @@
 ---
-title: Negotiate a Quote
+title: Negotiate a quote
 description: Learn about quote negotiation workflows and how to work with buyers for purchasing.
 exl-id: 93efbc9d-da4d-4ff8-95c1-13848b68bc38
 ---
-# Negotiate a Quote
+# Negotiate a quote
 
 If [B2B Quotes are enabled](configure-quotes.md) in the configuration, an authorized buyer from a company initiates the price negotiation process by [requesting a quote](quote-request.md) from the shopping cart. Requests for quotes received are listed in the [Quotes](quotes.md) grid. All negotiation between the buyer and seller takes place by email, and is initiated and tracked from the detail view of the quote.
 
@@ -26,23 +26,23 @@ While the quote is open for review, its status in the buyer's account is set to 
 
 1. In the _Actions_ column, click **[!UICONTROL View]**.
 
-   ![New Quote](./assets/quote-grid-new.png)<!-- zoom -->
+   ![New Quote](./assets/quote-grid-new.png){width="700" zoomable="yes"}
 
 ## Step 2: Modify the quote
 
 1. Under _[!UICONTROL Quote & Account Information]_, click the _Calendar_ (![Calendar icon](../assets/icon-calendar.png)) icon.
 
-   ![Quote and account information](./assets/quote-details-account-information.png)<!-- zoom -->
+   ![Quote and account information](./assets/quote-details-account-information.png){width="600" zoomable="yes"}
 
 1. Choose an **[!UICONTROL Expiration Date]** for the quote.
 
-   If the buyer changes the quantity of any items in the quote, a notice appears at the top of the quote, indicating that list of items has changed, and the negotiated price must be updated.
-
-   ![Quote Change Notice](./assets/quote-change-notice.png)<!-- zoom -->
-
 1. Scroll down to the _[!UICONTROL Quote Totals]_ section and update the **[!UICONTROL Negotiated Price]** as needed.
 
-   ![Update Negotiated Price](./assets/quote-change-update-negotiated-price.png)<!-- zoom -->
+   ![Update Negotiated Price](./assets/quote-change-update-negotiated-price.png){width="600" zoomable="yes"}
+
+If the buyer changes the quantity of any items in the quote, a notice appears at the top of the quote, indicating that list of items has changed, and the negotiated price must be updated.
+
+![Quote Change Notice](./assets/quote-change-notice.png){width="600" zoomable="yes"}
 
 ### Add new products to the quote
 
@@ -50,7 +50,7 @@ While the quote is open for review, its status in the buyer's account is set to 
 
 1. Enter the **[!UICONTROL SKU]** and **[!UICONTROL Qty]** to be added.
 
-   ![Add to Quote by SKU](./assets/quote-details-add-by-sku.png)<!-- zoom -->
+   ![Add to Quote by SKU](./assets/quote-details-add-by-sku.png){width="600" zoomable="yes"}
 
 ### Apply a line item discount
 
@@ -68,21 +68,17 @@ In the _[!UICONTROL Items Quoted]_ section, make the following changes, if neede
 
 - To apply the changes and update the quote to the shared catalog and price rules, click **[!UICONTROL Update Prices]** and then click **[!UICONTROL Proceed]** to confirm the update.
 
-   ![Items Quoted](./assets/quote-detail-items-quoted.png)<!-- zoom -->
+   ![Items Quoted](./assets/quote-detail-items-quoted.png){width="600" zoomable="yes"}
 
 ### Update shipping information
 
 1. If the buyer includes a _Ship To_ address in the quote, click **[!UICONTROL Get shipping methods and rates]**.
-
-   ![Shipping Information](./assets/quote-shipping-information.png)<!-- zoom -->
 
 1. Choose a shipping method from the available options.
 
 1. Enter a **[!UICONTROL Proposed Shipping Price]**.
 
    The _[!UICONTROL Quote Totals]_ are updated to reflect the proposed shipping price.
-
-   ![Shipping method and price_](./assets/quote-shipping-information-method-price.png)<!-- zoom -->
 
 ### Attach a supporting document
 
@@ -110,7 +106,7 @@ In the _[!UICONTROL Items Quoted]_ section, make the following changes, if neede
 
    - Enter the amount as a percentage or flat price.
 
-      ![Negotiation Comments](./assets/quote-detail-negotiation-comments.png)<!-- zoom -->
+      ![Negotiation Comments](./assets/quote-detail-negotiation-comments.png){width="600" zoomable="yes"}
 
 1. Send or save the quote:
 
@@ -124,11 +120,9 @@ When you send a quote, the system notifies both the buyer and the sales rep who 
 
 - Accept the negotiated quote and complete the purchase.
 - Send a reply with a counter offer and continue the negotiation.
-- Ends the negotiation.
+- End the negotiation.
 
 To monitor its position in the workflow, check your email and the status of the quote in the grid. You can continue the negotiation process as long as needed.
-
-![Negotiation Comments and Quote Totals](./assets/quote-negotiation-reply.png)<!-- zoom -->
 
 ## Button bar
 

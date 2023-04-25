@@ -1,9 +1,9 @@
 ---
-title: Manage Company User Accounts
+title: Manage company user accounts
 description: Learn about company user accounts and how they function within the associated company account.
 exl-id: 36b55f61-e579-4eb8-8f67-0156221d378e
 ---
-# Manage Company User Accounts
+# Manage company user accounts
 
 Company users are assigned by the company administrator, and are visible from the Admin in the _[!UICONTROL Customers]_ grid by the customer type, _[!UICONTROL Company User]_. These individuals are typically buyers with varying levels of permission to access store services and resources.
 
@@ -23,15 +23,15 @@ The company administrator first sets up the [company structure](account-company-
 
 1. In the left panel, chooses **[!UICONTROL Company Users]**.
 
-   ![Company Users](./assets/company-users-list-storefront.png)<!-- zoom -->
+   ![Company Users](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
 
 1. Clicks **[!UICONTROL Add New User]** and does the following:
 
    - Enters the **[!UICONTROL Job Title]** of the new user.
 
-   - If the roles and permissions are defined, chooses the appropriate **[!UICONTROL User Role]**. Otherwise, they can return later to assign the role.
+   - Chooses the appropriate **[!UICONTROL User Role]** if the roles and permissions are defined. Otherwise, they can return later to assign the role.
 
-      ![Add new user](./assets/company-structure-users-add.png)<!-- zoom -->
+      ![Add new user](./assets/company-structure-users-add.png){width="700" zoomable="yes"}
 
    - Completes the remaining fields as needed for the user:
 
@@ -48,8 +48,6 @@ The company administrator first sets up the [company structure](account-company-
    The new users appear in the Company Users list, along with the Company Administrator.
 
 To save time during their first order, the company administrator can remind each company user to add the default company billing and shipping address to their [address book](../customers/account-dashboard-address-book.md).
-
-![List of Company Users](./assets/company-users-list-storefront.png)<!-- zoom -->
 
 ## Edit company users
 
@@ -73,7 +71,7 @@ To save time during their first order, the company administrator can remind each
 
 1. Clicks **[!UICONTROL Delete Selected]**.
 
-   ![Delete User](./assets/company-structure-delete-user.png)<!-- zoom -->
+   ![Delete User](./assets/company-structure-delete-user.png){width="600" zoomable="yes"}
 
 1. When prompted to confirm, clicks **[!UICONTROL Delete]**.
 
@@ -89,6 +87,6 @@ In the Admin, the company user remains listed in the [Customers](../customers/cu
 | [!UICONTROL Last Name]    | The last name of the company user.   |
 | [!UICONTROL Email]        | The email address of the company user.  |
 | [!UICONTROL Phone Number] | The phone number of the company user.  |
-| [!UICONTROL Status]       | The status of the company user account. Options: Active / Inactive  |
+| [!UICONTROL Status]       | The status of the company user account. Options: `Active` / `Inactive`  |
 
 {style="table-layout:auto"}

@@ -1,25 +1,25 @@
 ---
-title: My Purchase Orders
+title: "[!UICONTROL My Purchase Orders]"
 description: Learn about purchase orders and how companies can use them to manage their purchasing.
 exl-id: b7348bc8-b874-4642-a372-530883d9d94c
 ---
-# My Purchase Orders
+# [!UICONTROL My Purchase Orders]
 
-When Purchase Orders are [enabled for a company](purchase-order-flow.md), any order for a customer signed into a company user account is automatically created as a purchase order (PO). Company users with the required permissions can create, edit, and delete POs that they create, along with the POs created by subordinate users.
+When purchase orders are [enabled for a company](purchase-order-flow.md), any order for a customer signed into a company user account is automatically created as a purchase order (PO). Company users with the required permissions can create, edit, and delete POs that they create, along with the POs created by subordinate users.
 
-![My Purchase Orders](./assets/account-dashboard-my-purchase-orders.png)<!-- zoom -->
+![My Purchase Orders](./assets/account-dashboard-my-purchase-orders.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
 >Purchase Orders create a _snapshot_ of item prices, discounts, and shipping prices at the time the order was created. If the price of an item changes after the PO is created, the original price is used.
 
-## Purchase order management
+## Manage purchase orders
 
 From the _View Purchase Order_ page, the customer can manage the PO, depending on their [role permissions](account-company-roles-permissions.md).
 
 - To see the PO, click **[!UICONTROL View]**.
-- To see any comments about the PO, click the **Comments** tab.
-- To see a complete order history, click the **History Log** tab.
+- To see any comments about the PO, click the **[!UICONTROL Comments]** tab.
+- To see a complete order history, click the **[!UICONTROL History Log]** tab.
 
 >[!IMPORTANT]
 >
@@ -31,17 +31,17 @@ If the customer has an existing purchase order and would like to add new items, 
 
 1. On the _My Purchase Order_ page, the customer locates the purchase order and clicks the **[!UICONTROL View]** link.
 
-1. Clicks the **Add Items to Shopping Cart** link.
+1. The customer clicks **[!UICONTROL Add Items to Shopping Cart]**.
 
    The Shopping Cart page opens with all the items listed.
 
 1. Makes any additions or changes.
    
-1. (Optional) Uses the **Custom Reference Number** to add an internal Invoice/PO number to the order.
+1. (Optional) Uses the **[!UICONTROL Custom Reference Number]** to add an internal Invoice/PO number to the order.
 
-1. Follows the normal checkout workflow and clicks **Place Purchase Order**.
+1. Follows the normal checkout workflow and clicks **[!UICONTROL Place Purchase Order]**.
 
-If they have items in their shopping cart when they click the **Add Items to Shopping Cart** link, the system displays a dialog. This dialog allows them to choose between merging the cart items with the new items or replacing the items in the shopping cart with the items in the PO.
+If they have items in their shopping cart when they click _[!UICONTROL Add Items to Shopping Cart]_, the system displays a dialog. This dialog allows them to choose between merging the cart items with the new items or replacing the items in the shopping cart with the items in the PO.
 
 The original purchase order can be closed if it is no longer needed.
 

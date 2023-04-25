@@ -1,9 +1,9 @@
 ---
-title: Assign a Customer Group to a Company
-description: Learn about assigning a customer group to a company account.
+title: Assign a customer group to a company
+description: Learn about assigning a customer group to a company account in your Adobe Commerce store.
 exl-id: fba3c17e-95df-4e9e-84b8-67409c6da72d
 ---
-# Assign a Customer Group to a Company
+# Assign a customer group to a company
 
 Assigning a customer group to a company is essentially the same as assigning a shared catalog. If Shared Catalog is not [enabled in the configuration](enable-basic-features.md), a Customer Group — rather than a Shared Catalog — is assigned to a company.
 
@@ -15,19 +15,19 @@ Assigning a customer group to a company is essentially the same as assigning a s
 
 1. Find the company in the grid and click **[!UICONTROL Edit]** in the _[!UICONTROL Action]_ column.
 
-   ![Edit Company](./assets/companies-grid-edit.png)<!-- zoom -->
+   ![Edit Company](./assets/companies-grid-edit.png){width="700" zoomable="yes"}
 
 1. On the company page, scroll down and expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Advanced Settings]** section.
-
-   ![Customer Groups / Shared Catalogs](./assets/company-customer-group-shared-catalog.png)<!-- zoom -->
 
 1. Set the appropriate **[!UICONTROL Customer Group]**.
 
    >[!NOTE]
    >
-   >The Customer Group list includes all existing shared catalogs, even if Shared Catalogs is disabled in the configuration.
+   >The [!UICONTROL Customer Group] list includes all existing shared catalogs, even if Shared Catalogs is disabled in the configuration.
 
    Changing the customer group assigned to the company updates the profiles of all company members.
+
+   ![Change customer group or shared catalog](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
 
    >[!NOTE]
    >
