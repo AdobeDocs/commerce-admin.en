@@ -25,15 +25,15 @@ When the extension is enabled, Commerce Admin users have single sign on access t
 
 >[!IMPORTANT]
 >
->This integration is available only for Commerce projects that use the  [Adobe Identity Management Service (IMS)](../getting-started/adobe-ims-config.md) for authentication.
+>This integration is available only for Commerce projects that use the [Adobe Identity Management Service (IMS)](../getting-started/adobe-ims-config.md) for authentication.
 
 ## Accessing Unified Shell capabilities from the Commerce Admin
 
-When the Commerce Admin is integrated with Unified Shell, the Commerce Admin is hosted within the Unified Shell application framework, and the Commerce application  header is replaced by the Unified Shell application header.
+When the Commerce Admin is integrated with Unified Shell, the Commerce Admin is hosted within the Unified Shell application framework, and the Commerce application header is replaced by the Unified Shell application header.
 
 ![Experience Cloud dashboard](./assets/uex-commerce-admin.png){width="700" zoomable="yes"}
 
-Commerce Admin users can access additional capabilities from Unified Shell  header.
+Commerce Admin users can access additional capabilities from Unified Shell header.
 
 | Option                                                     | Action                                                                                                                                                                                                                                                           |
 |------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -47,7 +47,7 @@ Commerce Admin users can access additional capabilities from Unified Shell  head
 
 >[!NOTE]
 >
->For details about the header controls and how to use them, see the [Experience Cloud Central Interface Components Guide](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#support).
+>Find technical information and more detailed instructions for using the Unified Shell application header in the [Experience Cloud Central Interface Components Guide](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#support).
 
 ## Authentication flow
 
