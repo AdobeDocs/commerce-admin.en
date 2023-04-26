@@ -27,7 +27,7 @@ When the extension is enabled, Commerce Admin users have single sign on access t
 >
 >This integration is available only for Commerce projects that use the  [Adobe Identity Management Service (IMS)](../getting-started/adobe-ims-config.md) for authentication.
 
-## Using the Unified Shell application controls
+## Accessing Unified Shell capabilities from the Commerce Admin
 
 When the Commerce Admin is integrated with Unified Shell, the Commerce Admin is hosted within the Unified Shell application framework, and the Commerce application  header is replaced by the Unified Shell application header.
 
@@ -35,13 +35,13 @@ When the Commerce Admin is integrated with Unified Shell, the Commerce Admin is 
 
 Commerce Admin users can access additional capabilities from Unified Shell  header.
 
-| Option                                                     | Action                                                                                                                                                                                                                    |
-|------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Option                                                     | Action                                                                                                                                                                                                                                                           |
+|------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ![Application Switcher](./assets/menu-icon.png)            | Navigate seamlessly between Adobe Commerce and other Experience Cloud applications using the Application selector. The applications and services available for selection depend on the applications and permissions provisioned for you within the organization. |
-| ![Search icon](./assets/search-icon.png)                   | Globally search the current application context. For example, from the Commerce Admin you can search for any value in the Commerce database including product, customer, and order records.                              |
-| ![Help Center](./assets/help-icon.png)                     | Find product documentation, tutorials, and support articles in Adobe Experience League, and report issues or submit feedback from the integrated Help Center.                                                     |
-| ![Notifications](./assets/notifications-icon.png)          | View alerts and actionable updates, including product announcements, maintenance notices, and other important information                                                                                                 |
-| ![User profile and account](./assets/preferences-icon.png) | View the account configuration for your Adobe profile  and set account preferences for notifications, subscriptions, and product data usage and collection.                                                                                             |
+| ![Search icon](./assets/search-icon.png)                   | Globally search the current application context. For example, from the Commerce Admin you can search for any value in the Commerce database including product, customer, and order records.                                                                      |
+| ![Help Center](./assets/help-icon.png)                     | Find product documentation, tutorials, and support articles in Adobe Experience League, and report issues or submit feedback from the integrated Help Center.                                                                                                    |
+| ![Notifications](./assets/notifications-icon.png)          | View alerts and actionable updates, including product announcements, maintenance notices, and other important information                                                                                                                                        |
+| ![User profile and account](./assets/preferences-icon.png) | View the account configuration for your Adobe profile  and set account preferences for notifications, subscriptions, and product data usage and collection.                                                                                                      |
 
 {style="table-layout:auto"}
 
@@ -49,7 +49,7 @@ Commerce Admin users can access additional capabilities from Unified Shell  head
 >
 >For details about the header controls and how to use them, see the [Experience Cloud Central Interface Components Guide](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#support).
 
-## Authentication Flow
+## Authentication flow
 
 When the Commerce Admin is integrated with Unified Shell, the Commerce Admin URL is redirected to a proxy URL. All Commerce Admin requests are then routed through the Unified Shell application.
 
@@ -57,36 +57,12 @@ If a Commerce Admin user opens the Commerce Admin URL configured for the project
 
 ![Experience Cloud login](./assets/uex-experience-cloud-login.png){width="700" zoomable="yes"}
 
-To authenticate, Commerce Admins must use their Adobe ID to sign in to the Experience Cloud organization associated with the Commerce environment.
+To authenticate, Commerce Admins must sign in with the Adobe business profile for the organization associated with the Commerce instance. See [Manage Adobe profiles](https://helpx.adobe.com/enterprise/using/manage-adobe-profiles.html).
+
 
 >[!TIP]
 >
 >If your Adobe ID is associated with more than one organization, you might have to switch organizations to access the Commerce application. See [Sign in to Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#signin).
-
-
-### Organization and Account provisioning and permissions
-
-Organization and account provisioning required for the Unified Shell integration is performed by system administrators or developers with access to the root directory of the Commerce application and the Adobe Admin Console.
-
-- Organization administrators create the organization and provision the user accounts, access permissions, and product entitlements.
-
-  When a new user is added to an organization, they receive an invitation with information about their access rights, the organization they have been added to, and a link to sign in. See [Organizations in Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en).
-
-- Commerce application administrators link the Commerce instance to an Adobe organization when they [configure the Adobe IMS integration](../getting-started/adobe-ims-config.md).
-
-- Administrators with access to the organization from the Adobe Admin console can add and manage user accounts.  See [Configure Adobe Commerce users in the Admin Console](../getting-started/adobe-ims-config.md#step-4-configure-adobe-commerce-users-in-the-adobe-admin-console).
-
-
-After organization and account provisioning is complete, Commerce Admin users can log in through Experience Cloud.
-
-- Commerce Admin users must sign into the Unified Shell application using the Adobe business profile for the organization associated with the Commerce instance.  See [Manage Adobe profiles](https://helpx.adobe.com/enterprise/using/manage-adobe-profiles.html).
-
-- Role and resource permissions for Commerce Admin user accounts are still managed from the Commerce application. Commerce Admin users with the required access can add or update permissions from the Commerce Admin [System menu](../systems/permissions.md).
-
-
->[!TIP]
->
->To troubleshoot authentication or permissions issues, contact the technical administrator for your Commerce project or submit an Adobe Support ticket.
 
 
 ## Requirements
@@ -96,6 +72,25 @@ Your Commerce project must meet the following requirements to enable the Commerc
 - Adobe Commerce 2.4.5 or later
 - Commerce instance configured to use [Adobe IMS for authentication services](../getting-started/adobe-ims-config.md)
 
+### Adobe organization and user account provisioning
+
+Organization and account provisioning required for the Unified Shell integration is performed by system administrators or developers with access to the root directory of the Commerce application and the Adobe Admin Console.
+
+- Organization administrators create the organization and provision the user accounts, access permissions, and product entitlements from the [Adobe Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html).
+
+  When a new user is added to an organization, they receive an invitation with information about their access rights, the organization they have been added to, and a link to sign in. See [Organizations in Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en).
+
+- Commerce application technical administrators link the Commerce instance to an Adobe organization when they [configure the Adobe IMS integration](../getting-started/adobe-ims-config.md).
+
+- Administrators with access to the organization from the Adobe Admin console can add and manage user accounts.  See [Configure Adobe Commerce users in the Admin Console](../getting-started/adobe-ims-config.md#step-4-configure-adobe-commerce-users-in-the-adobe-admin-console).
+
+
+After organization and account provisioning is complete, Commerce Admin users have the permissions required to access the Commerce Admin when the Unified Shell integration is enabled.
+
+
+>[!IMPORTANT]
+>
+>Role and resource permissions for Commerce Admin user accounts are still managed from the Commerce application. Commerce Admin users with the required access can add or update permissions from the Commerce Admin [System menu](../systems/permissions.md).
 
 ## Onboarding steps
 
