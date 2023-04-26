@@ -29,12 +29,12 @@ When the extension is enabled, Commerce Admin users have single sign on access t
 
 ## Using the Unified Shell application controls
 
-When the Commerce Admin is integrated with Adobe Unified Shell, the Commerce Admin is hosted within the Unified Experience application framework which adds the Unified Shell application header.
+When the Commerce Admin is integrated with Adobe Unified Shell, the Commerce Admin is hosted within the Unified Shell application framework which adds the Unified Shell application header.
 
 ![Experience Cloud dashboard](./assets/uex-commerce-admin.png){width="700" zoomable="yes"}
 
 
-Commerce Admin users can access additional capabilities using the options available in the application header.
+Commerce Admin users can access additional capabilities using the options available in the header.
 
 | Option                                                     | Action                                                                                                                                                                                                                    |
 |------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -52,7 +52,7 @@ Commerce Admin users can access additional capabilities using the options availa
 
 ## Authentication Flow
 
-When the Commerce Admin is integrated with Unified Shell, the Commerce Admin URL is redirected to to a proxy URL. All Commerce Admin requests are then routed through the Unified Shell application.
+When the Commerce Admin is integrated with Unified Shell, the Commerce Admin URL is redirected to a proxy URL. All Commerce Admin requests are then routed through the Unified Shell application.
 
 If a Commerce Admin user opens the Commerce Admin URL configured for the project, they are are redirected to Experience Cloud to sign in.
 

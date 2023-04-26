@@ -21,9 +21,9 @@ breadcrumb-title: Getting Started
     + [IMS integration overview](adobe-ims-integration-overview.md)
     + [Configure the Admin integration with IMS](adobe-ims-config.md)
   + Commerce Admin Unified Shell Integration {#unifiedshell}
-    + [Unified Shell Integration Overview](admin-unified-shell-overview.md)
-    + [Configure the Integration](admin-unified-shell-configuration.md)
-    + [Manage the Unified Shell](admin-unified-shell-manage.md)
+    + [Unified Shell Integration Overview](admin-unified-shell-integration-overview.md)
+    + [Configure the Integration](admin-unified-shell-integration-configure.md)
+    + [Manage the Unified Shell](admin-unified-shell-integration-manage.md)
   + Admin tools and workspace {#tools}
     + [Workspace](admin-workspace.md)
     + [The Admin sidebar](admin-menu.md)
