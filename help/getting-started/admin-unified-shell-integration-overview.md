@@ -19,7 +19,7 @@ When the extension is enabled, Commerce Admin users have single sign on access t
   - Report issues or share ideas using the Feedback form
   - Switch seamlessly between Adobe Commerce and other Experience Cloud applications
 
-- **Commerce application administrators** can deliver this enhanced experience by configuring the Commerce Admin for Unified Shell extension which enables the integration. The extension is available with Commerce 2.4.5 and later.
+- **Commerce application administrators** can deliver this enhanced experience by configuring the Commerce Admin for Unified Shell extension to enable the integration. The extension is available with Commerce 2.4.5 and later.
 
 - **Commerce extension developers** can integrate with the Unified Shell application to deliver custom content, for example adding custom URLs to the integrated Help Center.
 
@@ -29,20 +29,19 @@ When the extension is enabled, Commerce Admin users have single sign on access t
 
 ## Using the Unified Shell application controls
 
-When the Commerce Admin is integrated with Adobe Unified Shell, the Commerce Admin is hosted within the Unified Shell application framework which adds the Unified Shell application header.
+When the Commerce Admin is integrated with Unified Shell, the Commerce Admin is hosted within the Unified Shell application framework, and the Commerce application  header is replaced by the Unified Shell application header.
 
 ![Experience Cloud dashboard](./assets/uex-commerce-admin.png){width="700" zoomable="yes"}
 
-
-Commerce Admin users can access additional capabilities using the options available in the header.
+Commerce Admin users can access additional capabilities from Unified Shell  header.
 
 | Option                                                     | Action                                                                                                                                                                                                                    |
 |------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![Application Switcher](./assets/menu-icon.png)            | Navigate seamlessly between Adobe Commerce and other Experience Cloud applications using the Application selector. The available applications and services are those provisioned for you within the current organization. |
-| ![Search icon](./assets/search-icon.png)                   | Global search of the current application context. For example, from the Commerce Admin you can search for any value in the Commerce database including product, customer, and order records.                              |
-| ![Help Center](./assets/help-icon.png)                     | Open the Experience Cloud Help Center to find product documentation, tutorials,and support articles in Adobe Experience League, and report issues or submit feedback.                                                     |
+| ![Application Switcher](./assets/menu-icon.png)            | Navigate seamlessly between Adobe Commerce and other Experience Cloud applications using the Application selector. The applications and services available for selection depend on the applications and permissions provisioned for you within the organization. |
+| ![Search icon](./assets/search-icon.png)                   | Globally search the current application context. For example, from the Commerce Admin you can search for any value in the Commerce database including product, customer, and order records.                              |
+| ![Help Center](./assets/help-icon.png)                     | Find product documentation, tutorials, and support articles in Adobe Experience League, and report issues or submit feedback from the integrated Help Center.                                                     |
 | ![Notifications](./assets/notifications-icon.png)          | View alerts and actionable updates, including product announcements, maintenance notices, and other important information                                                                                                 |
-| ![User profile and account](./assets/preferences-icon.png) | View your user profile and set account preferences for notifications, subscriptions, and product data usage and collection                                                                                                |
+| ![User profile and account](./assets/preferences-icon.png) | View the account configuration for your Adobe profile  and set account preferences for notifications, subscriptions, and product data usage and collection.                                                                                             |
 
 {style="table-layout:auto"}
 
