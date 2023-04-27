@@ -8,7 +8,7 @@ Streamline cross-application workflows between Adobe Commerce and other Experien
 
 ![Experience Cloud dashboard](./assets/uex-home-dashboard.png){width="700" zoomable="yes"}
 
-When the extension is enabled, Commerce Admin users have single sign on access through Experience Cloud and a common interface to manage Experience Cloud applications and access Experience Cloud Platform services.
+When the extension is enabled, Commerce Admin users have single sign on access through Experience Cloud and a common interface to access all your Experience Cloud applications and central components.
 
 - **Commerce Admin users** continue using the same workflows to manage Commerce sites but can now complete additional tasks:
 
@@ -19,7 +19,7 @@ When the extension is enabled, Commerce Admin users have single sign on access t
   - Report issues or share ideas using the Feedback form
   - Switch seamlessly between Adobe Commerce and other Experience Cloud applications
 
-- **Commerce application administrators** can deliver this enhanced experience by configuring the Commerce Admin for Unified Shell extension to enable the integration. The extension is available with Commerce 2.4.5 and later.
+- **Commerce application administrators** can deliver this enhanced experience by enabling the `magento/unified-shell-module` and configuring the Adobe I/O events service in the Commerce Admin.
 
 - **Commerce extension developers** can integrate with the Unified Shell application to deliver custom content, for example adding custom URLs to the integrated Help Center.
 
@@ -74,7 +74,7 @@ Your Commerce project must meet the following requirements to enable the Commerc
 
 ### Adobe organization and user account provisioning
 
-Organization and account provisioning required for the Unified Shell integration is performed by system administrators or developers with access to the root directory of the Commerce application and the Adobe Admin Console.
+Organization and account provisioning required for the Unified Shell integration is performed by system administrators or developers [SSH access to the Commerce application server](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html).
 
 - Organization administrators create the organization and provision the user accounts, access permissions, and product entitlements from the [Adobe Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html).
 
