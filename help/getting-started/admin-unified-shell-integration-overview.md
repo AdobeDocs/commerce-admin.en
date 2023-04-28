@@ -1,14 +1,14 @@
 ---
-title: Adobe Unified Shell Integration for Commerce Admin
-description: Streamline cross-application workflows between Adobe Commerce and other Experience Cloud applications and improve user experience by integrating the Commerce Admin with Adobe Unified Shell
+title: Adobe Experience Cloud Integration for Commerce Admin
+description: Streamline cross-application workflows between Commerce and other Experience Cloud applications and improve user experience by enabling Experience Cloud common interface components for Commerce Admin users.
 ---
-# Adobe Unified Shell for the Commerce Admin
+# Adobe Experience Cloud Integration for Commerce Admin
 
-Streamline cross-application workflows between Adobe Commerce and other Experience Cloud applications and improve the user experience by integrating the Commerce Admin with Adobe Unified Shell.
+Streamline cross-application workflows between Adobe Commerce and other Experience Cloud applications and improve the user experience by integrating the Commerce Admin with Experience Cloud.
 
 ![Experience Cloud dashboard](./assets/uex-home-dashboard.png){width="700" zoomable="yes"}
 
-When the extension is enabled, Commerce Admin users have single sign on access through Experience Cloud and a common interface to access all your Experience Cloud applications and central components.
+When the extension is enabled, Commerce Admin users have single sign-on access through Experience Cloud and a common interface to manage available Experience Cloud applications.
 
 - **Commerce Admin users** continue using the same workflows to manage Commerce sites but can now complete additional tasks:
 
@@ -19,41 +19,41 @@ When the extension is enabled, Commerce Admin users have single sign on access t
   - Report issues or share ideas using the Feedback form
   - Switch seamlessly between Adobe Commerce and other Experience Cloud applications
 
-- **Commerce application administrators** can deliver this enhanced experience by enabling the `magento/unified-shell-module` and configuring the Adobe I/O events service in the Commerce Admin.
+- **Commerce application administrators** can deliver this enhanced experience by enabling the `magento/unified-shell-module` and configuring the Adobe Eventing service from the Commerce Admin.
 
-- **Commerce extension developers** can integrate with the Unified Shell application to deliver custom content, for example adding custom URLs to the integrated Help Center.
+- **Commerce extension developers** can integrate with the Experience Cloud to deliver custom content, for example adding custom URLs to the integrated Help Center.
 
 >[!IMPORTANT]
 >
->This integration is available only for Commerce projects that use the [Adobe Identity Management Service (IMS)](../getting-started/adobe-ims-config.md) for authentication.
+>The Experience Cloud integration with the Commerce Admin is available only for Commerce sites deployed on Adobe cloud infrastructure that use the [Adobe Identity Management Service (IMS)](../getting-started/adobe-ims-config.md) for authentication.
 
-## Accessing Unified Shell capabilities from the Commerce Admin
+## Accessing Experience Cloud resources from the Commerce Admin
 
-When the Commerce Admin is integrated with Unified Shell, the Commerce Admin is hosted within the Unified Shell application framework, and the Commerce application header is replaced by the Unified Shell application header.
+When the integration with Experience Cloud is enabled, Commerce Admin users sign in through Experience Cloud. Then, they can use the additional options available in the Experience Cloud header.
 
 ![Experience Cloud dashboard](./assets/uex-commerce-admin.png){width="700" zoomable="yes"}
 
-Commerce Admin users can access additional capabilities from Unified Shell header.
+Admin users can use the options in the header to manage Commerce and other Experience Cloud applications provisioned for their account, their Adobe account, and quickly access resources from the integrated Help Center.
 
-| Option                                                     | Action                                                                                                                                                                                                                                                           |
-|------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![Application Switcher](./assets/menu-icon.png)            | Navigate seamlessly between Adobe Commerce and other Experience Cloud applications using the Application selector. The applications and services available for selection depend on the applications and permissions provisioned for you within the organization. |
-| ![Search icon](./assets/search-icon.png)                   | Globally search the current application context. For example, from the Commerce Admin you can search for any value in the Commerce database including product, customer, and order records.                                                                      |
-| ![Help Center](./assets/help-icon.png)                     | Find product documentation, tutorials, and support articles in Adobe Experience League, and report issues or submit feedback from the integrated Help Center.                                                                                                    |
-| ![Notifications](./assets/notifications-icon.png)          | View alerts and actionable updates, including product announcements, maintenance notices, and other important information                                                                                                                                        |
-| ![User profile and account](./assets/preferences-icon.png) | View the account configuration for your Adobe profile  and set account preferences for notifications, subscriptions, and product data usage and collection.                                                                                                      |
+| Option                                                     | Action                                                                                                                                                                                                                                                                                                                                                                       |
+|------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![Organization Switcher](./assets/menu-icon.png)           | If your Adobe business profile is associated with multiple organizations, selecting the organization name displays the available organizations. To switch organizations, select the organization name. When you switch organizations, the Experience Cloud applications available to you depend on the permissions configured for your profile in the selected organization. |
+| ![Search icon](./assets/search-icon.png)                   | Globally search the current application context. For example, from the Commerce Admin you can search for any value in the Commerce database including product, customer, and order records.                                                                                                                                                                                  |
+| ![Help Center](./assets/help-icon.png)                     | Find product documentation, tutorials, and support articles in Adobe Experience League, and report issues or submit feedback from the integrated Help Center.                                                                                                                                                                                                                |
+| ![Notifications](./assets/notifications-icon.png)          | View alerts and actionable updates, including product announcements, maintenance notices, and other important information                                                                                                                                                                                                                                                    |
+| ![User profile and account](./assets/preferences-icon.png) | View the account configuration for your Adobe profile  and set account preferences for notifications, subscriptions, and product data usage and collection.                                                                                                                                                                                                                  |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->Find technical information and more detailed instructions for using the Unified Shell application header in the [Experience Cloud Central Interface Components Guide](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#support).
+>Find technical information and more detailed instructions for using the Experience Cloud header in the [Experience Cloud Central Interface Components Guide](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#support).
 
 ## Authentication flow
 
-When the Commerce Admin is integrated with Unified Shell, the Commerce Admin URL is redirected to a proxy URL. All Commerce Admin requests are then routed through the Unified Shell application.
+When the Commerce Admin is integrated with Experience Cloud, the Commerce Admin URL is redirected to a proxy URL. All Commerce Admin requests are then routed through Experience Cloud.
 
-If a Commerce Admin user opens the Commerce Admin URL configured for the project, they are are redirected to Experience Cloud to sign in.
+If the user has not authenticated through Experience Cloud, they are redirected to Experience Cloud to sign in.
 
 ![Experience Cloud login](./assets/uex-experience-cloud-login.png){width="700" zoomable="yes"}
 
@@ -67,14 +67,14 @@ To authenticate, Commerce Admins must sign in with the Adobe business profile fo
 
 ## Requirements
 
-Your Commerce project must meet the following requirements to enable the Commerce Admin on Unified Shell extension and configure the integration.
+Your Commerce project must meet the following requirements to enable the Commerce Admin extension and configure the integration.
 
 - Adobe Commerce 2.4.5 or later
 - Commerce instance configured to use [Adobe IMS for authentication services](../getting-started/adobe-ims-config.md)
 
 ### Adobe organization and user account provisioning
 
-Organization and account provisioning required for the Unified Shell integration is performed by system administrators or developers [SSH access to the Commerce application server](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html).
+Organization and account provisioning required to access the Commerce Admin using the Experience Cloud s performed by system administrators or developers [SSH access to the Commerce application server](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html).
 
 - Organization administrators create the organization and provision the user accounts, access permissions, and product entitlements from the [Adobe Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html).
 
@@ -82,10 +82,10 @@ Organization and account provisioning required for the Unified Shell integration
 
 - Commerce application technical administrators link the Commerce instance to an Adobe organization when they [configure the Adobe IMS integration](../getting-started/adobe-ims-config.md).
 
-- Administrators with access to the organization from the Adobe Admin console can add and manage user accounts.  See [Configure Adobe Commerce users in the Admin Console](../getting-started/adobe-ims-config.md#step-4-configure-adobe-commerce-users-in-the-adobe-admin-console).
+- Administrators with access to the organization from the Adobe Admin Console can add and manage user accounts. See [Configure Adobe Commerce users in the Admin Console](../getting-started/adobe-ims-config.md#step-4-configure-adobe-commerce-users-in-the-adobe-admin-console).
 
 
-After organization and account provisioning is complete, Commerce Admin users have the permissions required to access the Commerce Admin when the Unified Shell integration is enabled.
+After organization and account provisioning is complete, Commerce Admin users have the permissions required to sign in to Experience Cloud to view and manage their Commerce instances.
 
 
 >[!IMPORTANT]
@@ -96,7 +96,7 @@ After organization and account provisioning is complete, Commerce Admin users ha
 
 1. Prepare the Commerce application environment.
 
-1. Enable the Commerce Admin for Unified Shell integration using the Magento CLI.
+1. Enable the Experience Cloud integration for the Commerce Admin using the Commerce command line tool.
 
 1. Test the integration.
 
