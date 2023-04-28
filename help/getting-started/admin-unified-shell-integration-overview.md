@@ -14,7 +14,7 @@ When the extension is enabled, Commerce Admin users have single sign-on access t
 
   - Search for product documentation, tutorials, and community posts
   - Access both Commerce-specific and global product announcements and notifications
-  - Globally search within the context of the active application
+  - Globally search business objects using a global search (available for applications that have enabled search and Adobe Business Platform users)
   - Manage account preferences (alerts, notifications, and subscriptions)
   - Report issues or share ideas using the Feedback form
   - Switch seamlessly between Adobe Commerce and other Experience Cloud applications
