@@ -14,9 +14,9 @@ The indexers can be set to either update on save or on schedule. All indexes can
 >[!NOTE]
 > Adobe Commerce merchants using Live Search, Catalog Service, or Product Recommendations have the option to use a [SaaS-based price indexer](https://experienceleague.adobe.com/docs/commerce-merchant-services/price-index/index.html).
 
-When a reindex is needed, a notification appears at the top of the page. The index and message clears based on the reindex mode and potential actions that you take. See [Indexing overview](https://developer.adobe.com/commerce/php/development/components/indexing/){:target="_blank"} in the developer documentation.
+When a reindex is needed, a notification appears at the top of the page. The index and message clears based on the reindex mode and potential actions that you take. For more detailed information about indexing , see the [How the application implements indexing](https://developer.adobe.com/commerce/php/development/components/indexing/#how-the-application-implements-indexing){:target="_blank"} in the _PHP Developer Guide.
 
-![Index management - actions](./assets/index-management.png)<!-- zoom -->
+![Index management - actions](./assets/index-management.png){width="700" zoomable="yes"}
 
 - Index Management has a slightly different presentation for flat product catalogs.
 - To avoid problems when multiple Admin users update objects that trigger automatic reindexing, it is recommended that you set all indexers to run on schedule as [cron jobs](cron.md). Otherwise, every time an object is saved, any objects with interdependencies might cause a deadlock. Symptoms of a deadlock include high CPU usage and MySQL errors. As a best practice, it is recommended that you use scheduled indexing.
@@ -69,7 +69,7 @@ Reindexing and caching have different purposes in Commerce. Indexes track databa
 
 ## Reindex using the command line
 
-Commerce provides additional reindex options using the command line. These options may require developer support to complete. For complete details and command options, see [Reindex](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex){:target="blank"} in the _Configuration Guide_. The _PHP Developer Guide_ also includes an [Indexing section](https://developer.adobe.com/commerce/php/development/components/indexing/){:target="_blank"}.
+Commerce provides additional reindex options using the command line. For complete details and command options, see [Reindex](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex){:target="blank"} in the _Configuration Guide_.
 
 ## Index trigger events
 

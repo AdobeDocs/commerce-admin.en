@@ -13,6 +13,10 @@ When enabled in the configuration, [!DNL Page Builder] is the default content cr
 ><br><br>
 >You can access this setting when you go to [!UICONTROL Stores] > _[!UICONTROL Settings]_ > [!UICONTROL Configuration], expand [!UICONTROL Catalog], and choose [!UICONTROL Catalog] underneath. The [!UICONTROL Mask for Meta Description] field is in the [!UICONTROL Product Fields Auto-generation] section.
 
+>[!NOTE]
+>
+>An Admin user must have [!UICONTROL Content] permissions for their [role scope](../systems/permissions-user-roles.md) to see [!UICONTROL Edit with Page Builder] buttons and be able to use Page Builder.
+
 For more information about the Content Management Advanced Tools configuration options, see the [_Configuration Reference Guide_](../configuration-reference/general/content-management.md).
 
 ## Configure [!DNL Page Builder]
