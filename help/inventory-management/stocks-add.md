@@ -41,9 +41,9 @@ After adding sources, you must prioritize the order for the sources from top (fi
 
     - Select checkboxes for all sources that you want to assign to the stock.
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >If you assign the same source to multiple stocks, it may result in overselling of the products, assigned to that source.
+   >If you assign the same source to multiple stocks, it could result in overselling of the products assigned to that source.
 
     - Click **[!UICONTROL Done]**.
 
