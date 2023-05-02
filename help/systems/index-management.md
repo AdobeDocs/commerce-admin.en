@@ -14,7 +14,7 @@ The indexers can be set to either update on save or on schedule. All indexes can
 >[!NOTE]
 > Adobe Commerce merchants using Live Search, Catalog Service, or Product Recommendations have the option to use a [SaaS-based price indexer](https://experienceleague.adobe.com/docs/commerce-merchant-services/price-index/index.html).
 
-When a reindex is needed, a notification appears at the top of the page. The index and message clears based on the reindex mode and potential actions that you take. For more detailed information about indexing , see the [[How the application implements indexing](https://developer.adobe.com/commerce/php/development/components/indexing/#how-the-application-implements-indexing){:target="_blank"} in the _PHP Developer Guide_.
+When a reindex is needed, a notification appears at the top of the page. The index and message clears based on the reindex mode and potential actions that you take. For more detailed information about indexing , see the [How the application implements indexing](https://developer.adobe.com/commerce/php/development/components/indexing/#how-the-application-implements-indexing){:target="_blank"} in the _PHP Developer Guide.
 
 ![Index management - actions](./assets/index-management.png){width="700" zoomable="yes"}
 
