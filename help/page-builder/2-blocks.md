@@ -127,8 +127,6 @@ If [!DNL Google Maps] is already configured for your store, you can skip this st
 
 1. In the upper-right corner, click the **[!UICONTROL Save]** arrow and choose **[!UICONTROL Save & Close]**.
 
-   ![Choosing the Save & Close option](./assets/pb-tutorial1-save-and-close.png)<!-- zoom -->
-
 **Congratulations!** You have completed the first part of the Block exercise. Make sure to keep your work for reference.
 
 ## Part 2: Create a dynamic block
