@@ -29,7 +29,7 @@ With Adobe Commerce or Magento Open Source 2.4, merchants can use the new _enhan
 
 1. When prompted, click the **[!UICONTROL Cache Management]** link in the system message and refresh the invalid cache.
 
-   The [[!UICONTROL Content] menu][content-menu] now displays the new _[!UICONTROL Media Gallery]_ option.
+   The [[!UICONTROL Content] menu](/help/content-design/content-menu.md) now displays the new _[!UICONTROL Media Gallery]_ option.
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ With Adobe Commerce or Magento Open Source 2.4, merchants can use the new _enhan
 
 ## Access the new [!DNL Media Gallery]
 
-The new [!DNL Media Gallery] is accessible from the Content menu or when you [add or edit a page][add-page]. You can also access it when you [create or edit a category][create-category], or when you [insert images using the Content Editor][editor-insert-image].
+The new [!DNL Media Gallery] is accessible from the Content menu or when you [add or edit a page](/help/content-design/page-add.md). You can also access it when you [create or edit a category](/help/catalog/category-create.md), or when you [insert images using the Content Editor](/help/content-design/editor-insert-image.md).
 
 To access the new [!UICONTROL Media Gallery] through the [!UICONTROL Content] menu:
 
@@ -57,7 +57,7 @@ To access the new Media Gallery when you are adding or editing a page:
 
       ![Drag image to stage](./assets/pb-media-image-drag.png)<!-- zoom -->
 
-   - If you have the [WYSIWYG editor enabled][editor-config], click **[!UICONTROL Show/Hide Editor]** and then click **[!UICONTROL Insert Image]**.
+   - If you have the [WYSIWYG editor enabled](/help/content-design/editor.md), click **[!UICONTROL Show/Hide Editor]** and then click **[!UICONTROL Insert Image]**.
 
 ## Media Gallery demo
 
@@ -66,8 +66,4 @@ Watch this video to learn about the Media Gallery:
 >[!VIDEO](https://video.tv.adobe.com/v/343785?quality=12)
 
 [adobe-stock]: https://stock.adobe.com
-[content-menu]: content-menu.md
-[add-page]: page-add.md
-[create-category]: ../catalog/category-create.md
-[editor-insert-image]: editor-insert-image.md
-[editor-config]: editor.md#configure-the-editor
+
