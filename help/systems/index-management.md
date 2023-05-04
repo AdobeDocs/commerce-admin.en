@@ -12,7 +12,7 @@ Reindexing data speeds up processing, and reduces the time the customer has to w
 The indexers can be set to either update on save or on schedule. All indexes can use either option, except Customer Grid which only supports on save. When indexing on save, Commerce starts a reindex on save actions. The Index Management page completes the update and flushes the cache, with the reindex message appearing within a minute or two. When reindexing on a schedule, a reindex runs according to a schedule as a cron job. A system message appears if a [cron job](cron.md) is not available to update any indexers that become invalid. Your store remains accessible during reindex processes.
 
 >[!NOTE]
-> Adobe Commerce merchants using Live Search, Catalog Service, or Product Recommendations have the option to use a [SaaS-based price indexer](https://experienceleague.adobe.com/docs/commerce-merchant-services/price-index/index.html).
+> Adobe Commerce merchants using Live Search, Catalog Service, or Product Recommendations have the option to use a [SaaS-based price indexer](https://experienceleague.adobe.com/docs/commerce-merchant-services/price-indexer/index.html).
 
 When a reindex is needed, a notification appears at the top of the page. The index and message clears based on the reindex mode and potential actions that you take. For more detailed information about indexing , see the [How the application implements indexing](https://developer.adobe.com/commerce/php/development/components/indexing/#how-the-application-implements-indexing){:target="_blank"} in the _PHP Developer Guide.
 
