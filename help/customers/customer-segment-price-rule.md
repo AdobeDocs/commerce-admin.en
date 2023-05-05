@@ -9,7 +9,7 @@ exl-id: eaa04e7a-c0f9-4f09-8e65-75965ccbdc69
 
 A customer segment can be used for targeted promotions by associating it with a [cart price rule](../merchandising-promotions/price-rules-cart.md).
 
-![Cart price rule - targeted customer segment](assets/price-rule-cart-condition-segments.png){width="600" zoomable="yes"}
+![Cart price rule - targeted customer segment](assets/price-rule-cart-condition-segments.png){width="700" zoomable="yes"}
 
 _**To associate a segment with a cart price rule:**_
 

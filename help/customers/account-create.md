@@ -21,7 +21,7 @@ A store customer creates an account on the storefront.
 
 1. Under **[!UICONTROL Personal Information]**, enters their **[!UICONTROL First Name]** and **[!UICONTROL Last Name]**.
 
-   ![Personal Information](assets/storefront-create-account-personal-information.png){width="700" zoomable="yes"}
+   ![Personal Information](assets/storefront-create-account-personal-information.png){width="600" zoomable="yes"}
 
 1. If they want to add their name and email address to the list of newsletter subscribers, the customer selects the **[!UICONTROL Sign Up for Newsletter]** checkbox.
 

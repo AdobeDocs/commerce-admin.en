@@ -115,7 +115,7 @@ Configure the name and address options that are presented to customers on the st
 
 1. To include a prefix (such as Mr. or Ms.) as part of the name, set **Show Prefix** to `Yes`.
 
-   ![Prefix in customer sign up form](assets/storefront-customer-account-prefix.png)
+   ![Prefix in customer sign up form](assets/storefront-customer-account-prefix.png){width="600" zoomable="yes"}
 
    >[!INFO]
    >
@@ -143,7 +143,7 @@ Configure the name and address options that are presented to customers on the st
 
    Customers can use the Calendar icon after the field to choose the birth date from a pop-up calendar.
 
-   ![Date of Birth in customer sign up form](assets/storefront-customer-account-date-of-birth.png)
+   ![Date of Birth in customer sign up form](assets/storefront-customer-account-date-of-birth.png){width="600" zoomable="yes"}
 
 1. To allow customers to enter their tax or [VAT](../stores-purchase/vat.md) number, set **[!UICONTROL Show Tax/VAT Number]** to one of the following:
 
@@ -155,7 +155,7 @@ Configure the name and address options that are presented to customers on the st
    - `Optional`
    - `Required`
 
-   ![Gender Options in customer sign up form](assets/storefront-customer-account-gender.png)
+   ![Gender Options in customer sign up form](assets/storefront-customer-account-gender.png){width="600" zoomable="yes"}
 
 1. To include the following fields in customer forms, set the value of each to `Optional` or `Required`, as needed.
 

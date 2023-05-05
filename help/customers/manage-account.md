@@ -123,9 +123,9 @@ These columns are available by changing the [column layout](../getting-started/a
 |**[!UICONTROL Billing Address]**|The address where billing information is to be sent.|
 |**[!UICONTROL Shipping Address]**|The address where orders are to be shipped.|
 |**[!UICONTROL VAT Number]**|The value-added tax number that is associated with the customer address. For [digital goods](../stores-purchase/taxes.md) sold in the EU, the VAT is based on the billing address of the customer. <br/><br/> This field is not the same as the Tax/VAT Number.|
-|**[!UICONTROL Account Lock]**|Indicates the status of the account. As a security measure, customer accounts can be [locked](../customers/password-options.md) after too many login attempts. Values: **[!UICONTROL Locked]** / **[!UICONTROL Unlocked]**|
-|**[!UICONTROL Status]**|The current user status. Options: **[!UICONTROL Active]** / **[!UICONTROL Inactive]**|
-|**[!UICONTROL Customer Type]**|Customer types, options: **[!UICONTROL Individual user]** / **[!UICONTROL Company admin]** / **[!UICONTROL Company user]**|
+|**[!UICONTROL Account Lock]**|Indicates the status of the account. As a security measure, customer accounts can be [locked](../customers/password-options.md) after too many login attempts. Values: `Locked` / `Unlocked` |
+|**[!UICONTROL Status]**|The current user status. Options: `Active` / `Inactive`|
+|**[!UICONTROL Customer Type]**|Customer classification. Options: `Individual user` / `Company admin` / `Company user` |
 |**[!UICONTROL Sales Representative]**|The sales representative who is assigned as the point of contact for a company account and receives all automated email messages related to the company.|
 
 {style="table-layout:auto"}

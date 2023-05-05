@@ -38,7 +38,7 @@ Customers who keep their address books current can speed through the checkout pr
    >
    >The new address is listed under [!UICONTROL Additional Address Entries].
 
-   ![Additional Address Entries](assets/customer-account-dashboard-address-saved.png)
+   ![Additional Address Entries](assets/customer-account-dashboard-address-saved.png){width="700" zoomable="yes"}
 
 ## Edit an address
 
