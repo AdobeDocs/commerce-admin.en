@@ -18,7 +18,7 @@ This guide covers customer configuration and management tasks that are done in t
 | Customer management tools| Learn how to use the [[!UICONTROL Customers] grid](customers-all.md) and [[!UICONTROL Now Online] feature](now-online.md) in the Commerce Admin that you can use to manage your store customers. |
 | Customer accounts| Learn how to provide an optimal experience for registered customers on the storefront, from [logins](login-landing-page.md) to [password rests](password-reset.md), and [provide shopper assistance](login-as-customer.md). |
 | [[!DNL Audience Activation]](audience-activation.md) | Learn about the new [!DNL Audience Activation] extension that lets you activate Real-Time CDP audiences in Adobe Commerce to create unique offers in the cart. |
-| [Customer groups](customer-groups.md) | Learn how to use customer groups to determine which discounts are available to customers assigned to a group and the tax class that is associated with the group.
+| [Customer groups](customer-groups.md) | Learn how to use customer groups to determine which discounts are available to customers assigned to a group and the tax class that is associated with the group. |
 | [Customer segments](customer-segments.md) | Define customer segments thatbyou can use to dynamically display content and promotions to specific customers, based on various properties. |
 
 >[!TIP]
