@@ -17,14 +17,14 @@ This guide covers:
 | Subject | Description |
 | ------- | ----------- |
 | [Introduction](customers-introduction.md) | Overview of using the customer management features in the Commerce Admin.|
-| [Catalog menu](catalog-menu.md) | Use the [!UICONTROL Catalog] menu to access multiple features for managing catalogs, categories, and products for your store. |
-| [Catalog and product URLs](catalog-urls.md) | Review the basic URL types and how you can design your URLs to maximize search engine optimization. |
-
+| Customer management tools| Learn about the many tools and features in the Commerce Admin that you can use to manage your store customers. |
+| Customer accounts| Learn how to provide an optimal experience for registered customers on the storefront, from logins to password rests. |
+| Customer segments | Define customer segments thatbyou can use to dynamically display content and promotions to specific customers, based on various properties. |
+| [!DNL Audience Activation] | Learn about the new [!DNL Audience Activation] extension that lets you activate Real-Time CDP audiences in Adobe Commerce to create unique offers in the cart. |
 
 >[!TIP]
 >
 >B2B for Adobe Commerce gives you the ability to maintain company accounts that are tied to individual storefront customer accounts. For more information about the company accounts feature, see the [B2B for Adobe Commerce User Guide](../b2b/account-companies.md).
-
 
 ## Additional documentation
 
