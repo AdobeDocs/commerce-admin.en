@@ -1,11 +1,11 @@
 ---
-title: Audience Activation
-description: Learn how to activate Real-Time CDP audiences in Adobe Commerce.
+title: "[!DNL Audience Activation]"
+description: Learn how to activate Real-Time CDP audiences in Adobe Commerce to drive personalization in your store.
 exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 ---
 # [!DNL Audience Activation]
 
-The [!DNL Audience Activation] extension lets you activate Real-Time CDP audiences in Adobe Commerce to create unique offers in the cart such as _buy 2 get 1 free_, display hero banners geared toward that customer, and modify product pricing through various offers. The audiences built within Real-Time CDP are based on data from various enterprise systems, such as Enterprise Resource Planning (ERP), Customer Relationship Management (CRM), point of sale, and marketing systems. Because customer segment information is constantly refreshed, customers can become associated and disassociated from a segment as they shop in your store.
+The [!DNL Audience Activation] extension lets you activate Real-Time CDP audiences in Adobe Commerce to create unique offers in the cart. These offers and incentives include common ecommerce merchandising techniques, such as _buy 2 get 1 free_, hero banners geared toward that customer, and modified product pricing through various offers. The audiences built within Real-Time CDP are based on data from various enterprise systems, such as Enterprise Resource Planning (ERP), Customer Relationship Management (CRM), point of sale, and marketing systems. Because customer segment information is constantly refreshed, customers can become associated and disassociated from a segment as they shop in your store.
 
 You can activate audiences in a Luma storefront or [headless](#headless-support) storefront. In a Luma storefront, audience information (segment membership) is stored in a cookie on the Commerce side. In a headless storefront, audience information is passed in the GraphQL API header as a parameter named: `aep-segments-membership`.
 
@@ -79,13 +79,13 @@ To access the **Real-Time CDP Audiences** dashboard, go to the _Admin_ sidebar, 
 >
 >In a headless Adobe Commerce instance, you can only use Real-Time CDP audiences for cart price rules. Dynamic blocks are not supported currently.
 
-You can activate audiences in a headless Adobe Commerce instance, such as AEM, PWA, and so on. A headless storefront communicates to the Experience Platform through the [Commerce Integration Framework (CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). The framework provides a server-side API that is implemented using GraphQL. Audience information, like which segment a shopper belongs to, is passed to Commerce through a GraphQL header parameter named: `aep-segments-membership`.
+You can activate audiences in a headless Adobe Commerce instance, such as AEM and PWA. A headless storefront communicates to the Experience Platform through the [Commerce Integration Framework (CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). The framework provides a server-side API that is implemented using GraphQL. Audience information, like which segment a shopper belongs to, is passed to Commerce through a GraphQL header parameter named: `aep-segments-membership`.
 
 The overall architecture is as follows:
 
 ![Sending Data from Headless Storefront to Backend](./assets/aem-commerce-architecture.png)
 
-After you [install](#install-the-extension) and [configure](#configure-the-extension) the extension, the AEP Web SDK contains the audience information in the form of segment membership.
+After you [install](#install-the-extension) and [configure](#configure-the-extension) the extension, the Experience Platform Web SDK contains the audience information in the form of segment membership.
 
 To capture those segment memberships from the SDK, see this [code snippet](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html#example-response-for-custom-personalization-with-attributes).
 

@@ -1,9 +1,9 @@
 ---
-title: Password Options
-description: The customer password options determine the level of security.
+title: Customer password options
+description: The customer password options determine the level of security for various customer-facing functions of your store.
 exl-id: 84dec8e8-3363-4133-bbcc-9e58467749c4
 ---
-# Password Options
+# Customer password options
 
 The customer password options determine the level of security that is used for password reset requests, the email templates that are used for customer notification, and the lifetime of the password recovery link. You can allow customers to change their own passwords or require that only store administrators can do so.
 
@@ -15,18 +15,14 @@ The customer password options determine the level of security that is used for p
 
 1. Expand the **[!UICONTROL Password Options]** section.
 
-   ![Password Options](assets/customer-configuration-password-options.png)
+   ![Password Options](../configuration-reference/customers/assets/customer-configuration-password-options.png){width="600" zoomable="yes"}
 
 1. Set the **[!UICONTROL Password Reset Protection Type]** to the method that you want to use for checking password reset requests:
 
-   |Column|Description|
-   | --- | --- |
-   | By IP and Email | Check for previous attempts to reset password for specific email or from specific IP. |
-   | By IP | Check for previous attempts to reset password from specific IP. |
-   | By Email | Check for previous attempts to reset password for specific email. |
-   | None | Protection disabled (no limits for resetting password). |
-
-   {style="table-layout:auto"}
+   - `By IP and Email` - Check for previous attempts to reset password for specific email or from specific IP.
+   - `By IP` - Check for previous attempts to reset password from specific IP.
+   - `By Email` - Check for previous attempts to reset password for specific email.
+   - `None` - Protection disabled (no limits for resetting password).
 
    The **[!UICONTROL Max Number of Password Reset Requests]** and **[!UICONTROL Min Time Between Password Reset Requests]** are calculated based on this configuration.
 
@@ -45,17 +41,19 @@ The customer password options determine the level of security that is used for p
    - Set **[!UICONTROL Reset Password Template]** to the template that is used when customers change their passwords.
 
    - Set **[!UICONTROL Password Template Email Sender]** to the [store contact](../getting-started/store-details.md) that appears as the sender of password-related notifications.
+
 1. Complete the following password reset security options:
 
    - For **[!UICONTROL Recovery Link Expiration Period (hours)]**, enter the number of hours before the password recovery link expires.
+
    - If you want the fields in the customer login and forgot password forms to be filled automatically from previous entries, set **[!UICONTROL Enable Autocomplete on login/forgot password forms]** to `Yes`.
 
    - For **[!UICONTROL Number of Required Character Classes]**, enter the number of different character types that must be included in a password based on the following character classes:
 
-      - Lowercase
-      - Uppercase
-      - Numeric
-      - Special Characters
+      - `Lowercase`
+      - `Uppercase`
+      - `Numeric`
+      - `Special Characters`
 
    - For **[!UICONTROL Maximum Login Failures to Lockout Account]**, enter the number of failed login attempts until the customer account is locked. For unlimited attempts, enter zero (`0`).
 
