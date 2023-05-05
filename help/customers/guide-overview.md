@@ -8,9 +8,7 @@ exl-id: ad10713a-f3ae-47dc-8c48-ab464a52b362
 
 # Adobe Commerce Customer Management Guide
 
-This guide is intended for administrators of Adobe Commerce and Magento Open Source. It provides detailed information about enabling this module, including configuration and management of its features. It assumes a basic understanding of the core [!DNL Commerce] configuration, and functionality.
-
-This guide covers customer configuration and management tasks that are done in the Admin, and the default customer account workflows in the storefront.
+This guide is intended for customer service staff working in Adobe Commerce and Magento Open Source. It provides detailed information about customer management features in the Commerce Admin and the customer account experience in the storefront. It assumes a basic understanding of the core Commerce configuration and functionality.
 
 | Subject | Description |
 | ------- | ----------- |
