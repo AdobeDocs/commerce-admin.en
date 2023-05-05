@@ -36,7 +36,9 @@ After you install the [!DNL Audience Activation] extension, you must log into yo
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Services]_ > **[!UICONTROL Experience Platform Connector]**.
 
-1. In the **[!UICONTROL Datastream ID]** field, paste the ID of the datastream that you created when you [activated](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html#parameters) Adobe Commerce as a destination in Real-Time CDP. This datastream sends data from your Commerce website to Real-Time CDP to determine if a shopper belongs to an audience. If you have not yet created a datastream, [create](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#create) one in Experience Platform, [add](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) it to the Commerce destination in Real-Time CDP, and to the [Experience Platform Connector](https://experienceleague.adobe.com/docs/commerce-merchant-services/experience-platform-connector/fundamentals/connect-data.html#data-collection) in the Admin.
+1. In the **[!UICONTROL Datastream ID]** field, paste the ID of the datastream that you created when you [activated](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html#parameters) Adobe Commerce as a destination in Real-Time CDP. 
+
+    This datastream sends data from your Commerce website to Real-Time CDP to determine if a shopper belongs to an audience. If you have not yet created a datastream, [create](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#create) one in Experience Platform, [add](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) it to the Commerce destination in Real-Time CDP, and to the [Experience Platform Connector](https://experienceleague.adobe.com/docs/commerce-merchant-services/experience-platform-connector/fundamentals/connect-data.html#data-collection) in the Admin.
 
     >[!NOTE]
     >
@@ -48,7 +50,7 @@ After you install the [!DNL Audience Activation] extension, you must log into yo
 
 1. Enter the configuration credentials found in the [developer console](https://developer.adobe.com/console/home).
 
-    ![Real-Time CDP Audience Admin Configuration](./assets/rtcdp-admin-config.png)
+    ![Real-Time CDP Audience Admin Configuration](./assets/rtcdp-admin-config.png){width="700" zoomable="yes"}
 
 1. Click **Save Config**.
 
@@ -83,7 +85,7 @@ You can activate audiences in a headless Adobe Commerce instance, such as AEM an
 
 The overall architecture is as follows:
 
-![Sending Data from Headless Storefront to Backend](./assets/aem-commerce-architecture.png)
+![Sending Data from Headless Storefront to Backend](./assets/aem-commerce-architecture.png){width="600" zoomable="yes"}
 
 After you [install](#install-the-extension) and [configure](#configure-the-extension) the extension, the Experience Platform Web SDK contains the audience information in the form of segment membership.
 

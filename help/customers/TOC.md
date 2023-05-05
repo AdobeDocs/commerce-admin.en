@@ -10,9 +10,6 @@ breadcrumb-title: customer management
 + Customer management tools {#customers-menu}
   + [Customers list](customers-all.md)
   + [Now online](now-online.md)
-  + [Segments](customer-segments.md)
-  + [Audience Activation](audience-activation.md)
-  + [Groups](customer-groups.md)
 + Customer accounts {#customer-accounts}
   + [Account scope](customer-account-scope.md)
   + Account options {#configure}
@@ -43,7 +40,10 @@ breadcrumb-title: customer management
     + [[!UICONTROL My Account]](account-dashboard-my-account.md)
     + [[!UICONTROL Address Book]](account-dashboard-address-book.md)
     + [[!UICONTROL Account Information]](account-dashboard-account-information.md)
++ [Audience Activation](audience-activation.md)
++ [Customer groups](customer-groups.md)
 + Customer segments {#segments}
+  + [Overview](customer-segments.md)
   + [Create and delete customer segments](customer-segment-create.md)
   + [Customer segments in price rules](customer-segment-price-rule.md)
   + [Customer segment report](customer-segment-reports.md)
