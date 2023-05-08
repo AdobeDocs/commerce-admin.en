@@ -1,19 +1,28 @@
 ---
-title: Create and Delete Customer Segments
+title: Create and delete customer segments
 description: Customers can view the refund information associated with the order in their Customer Account Dashboard.
 exl-id: 8a13271d-d0b5-4fc6-a701-3edfae04bfca
 ---
-# Create and Delete Customer Segments
+# Create and delete customer segments
 
 {{ee-feature}}
 
 Creating a customer segment is similar to building a [cart price rule](../merchandising-promotions/price-rules-cart.md), except that the options include [customer segment-specific attributes](../customers/customer-segments.md).
 
-![Customer segments list](assets/customer-segments.png)
+![Customer segments list](assets/customer-segments.png){width="700" zoomable="yes"}
 
-The following example shows how to create a customer segment that targets female customers in Los Angeles.
+_**[!UICONTROL Customer Segments] grid**_
 
-## Step 1: Enable Customer Segments
+|Column|Description|
+|--- |--- |
+|**[!UICONTROL ID]**|The unique ID of customer segment.|
+|**[!UICONTROL Segment]**|The name of customer segment.|
+|**[!UICONTROL Status]**|Indicates whether the customer segment is _[!UICONTROL Active]_ or _[!UICONTROL Inactive]_.|
+|**[!UICONTROL Website]**|Indicates the website to which the customer segment belongs.|
+
+{style="table-layout:auto"}
+
+## Prerequisite: Enable customer segments
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -23,21 +32,25 @@ The following example shows how to create a customer segment that targets female
 
 1. Verify that **[!UICONTROL Enable Customer Segment Functionality]** is set to `Yes`.
 
-   ![Customers configuration - customer segments](../configuration-reference/customers/assets/customer-configuration-customer-segments.png)
+   ![Customers configuration - customer segments](../configuration-reference/customers/assets/customer-configuration-customer-segments.png){width="600" zoomable="yes"}
 
 1. (Optional) To disable real-time validation for customer segments, set **[!UICONTROL Real-time Check if Customer is Matched by Segment]** to `No`.
 
-   When you disable real-time validation, customer segments are validated by a single combined condition SQL query. This improves performance of segments validation if there are many customer segments in the system. However, the validation does not work with a split database or when there are no registered customers. 
+   When you disable real-time validation, customer segments are validated by a single combined condition SQL query. Disabling this function improves performance of segments validation if there are many customer segments in the system. However, the validation does not work with a split database or when there are no registered customers. 
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-## Step 2: Add a Customer Segment
+## Create a segment
+
+The following steps use an example for creating a customer segment that targets female customers in Los Angeles.
+
+### Step 1: Add a customer segment
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Segments]**.
 
 1. In the upper-right corner, click **[!UICONTROL Add Segment]**.
 
-1. Enter a **[!UICONTROL Segment Name]** to identify the customer segment when working in the Admin.
+1. Enter a **[!UICONTROL Segment Name]** that identifies the customer segment when working in the Admin.
 
 1. Enter a brief **[!UICONTROL Description]** that explains the purpose of the segment.
 
@@ -47,108 +60,83 @@ The following example shows how to create a customer segment that targets female
 
 1. To identify the customer types that you want to use for applying the segment, set **[!UICONTROL Apply to]** to one of the following:
 
-   |Field|Description|
-   | --- | --- |
-   | Visitors and Registered Customers | Includes all shoppers, regardless of whether they are logged in to an account. |
-   | Registered Customers | Includes only shoppers who are logged in to an account. |
-   | Visitors | Includes only shoppers who are not logged in to an account. |
+   - `Visitors and Registered Customers` - Includes all shoppers, regardless of whether they are logged in to an account.
+   - `Registered Customers` - Includes only shoppers who are logged in to an account.
+   - `Visitors` - Includes only shoppers who are not logged in to an account.
 
-   {style="table-layout:auto"}
-
-1. If you are creating a segment based on customer attributes stored in a customer account, it is a best practice to apply the segment to registered customers only.
-
-   ![Segment properties](assets/customer-segment-saved.png)
+   >[!TIP]
+   >
+   >If you are creating a segment based on customer attributes stored in a customer account, it is a best practice to apply the segment to registered customers only.
 
 1. Click **[!UICONTROL Save and Continue Edit]**.
 
-1. Additional options become available in the left panel.
+   After saving the segment _[!UICONTROL General Properties]_, additional options become available in the left panel.
 
-### Segment properties
+   ![Segment properties](assets/customer-segment-saved.png){width="600" zoomable="yes"}
+
+**_[!UICONTROL General Properties]_**
 
 |Field|Description|
 |--- |---|
 |**[!UICONTROL Segment Name]**| A name that identifies the segment for internal reference.|
 |**[!UICONTROL Description]**| A brief description that explains the purpose of the segment for internal reference.|
 |**[!UICONTROL Assigned to Website]**| The single website where the segment can be used.|
-|**[!UICONTROL Status]**| Activates and deactivates the segment. Any associated price rules and banners are deactivated when the segment is disabled. Options include: Active / Inactive.|
+|**[!UICONTROL Status]**| Activates and deactivates the segment. Any associated price rules and banners are deactivated when the segment is disabled. Options: `Active` / `Inactive`|
 |**[!UICONTROL Apply to]**| Defines the customer types to which the segment is applied. The selection influences the set of conditions available for creating the segment. The setting cannot be changed after the segment is saved.  |
 
 {style="table-layout:auto"}
 
-## Step 3: Define the conditions (Example)
+### Step 2: Define the conditions
 
 1. In the left pane, click **[!UICONTROL Conditions]**.
 
-   The default condition begins, "If ALL of these conditions are TRUE:".
+   The default condition begins with _[!UICONTROL If ALL of these conditions are TRUE:]_ on the page.
 
-   ![Conditions](assets/customer-segment-conditions.png)
+   ![Conditions](assets/customer-segment-conditions.png){width="600" zoomable="yes"}
 
-1. Create a condition to target female customers:
+1. Create a condition that targets female customers:
 
-   * Click the **[!UICONTROL Add]** icon to display the list of conditions and select `Gender`.
+   - Click the **[!UICONTROL Add]** icon to display the list of conditions and select `Gender`.
 
-   * Leave the default **is** condition control option.
+   - Leave the default **is** condition control option.
 
-   * Click **...** and select `female`.
+   - Click **...** and select `female`.
 
-   ![Condition line 1](assets/customer-segment-condition-line1.png)
+   ![Condition line 1](assets/customer-segment-condition-line1.png){width="600" zoomable="yes"}
 
 1. Create another condition that targets residents of Los Angeles:
 
-   * On the next line, click the **[!UICONTROL Add]** icon and select `Customer Address`.
+   - On the next line, click the **[!UICONTROL Add]** icon and select `Customer Address`.
 
-1. This creates a parent condition where you can define one or more address fields to match.
+      This action creates a parent condition where you can define one or more address fields to match.
 
-   * Click the **[!UICONTROL Add]** icon to display the list of address fields and select `City`.
+   - Click the **[!UICONTROL Add]** icon to display the list of address fields and select `City`.
 
-   * Click **is** to display the condition control options and select `contains`.
+   - Click **is** to display the condition control options and select `contains`.
 
-   * Click **...** and enter `Los Angeles`.
+   - Click **...** and enter `Los Angeles`.
 
-   * On the next line, click the **[!UICONTROL Add]** icon and select `State/Province`.
+   - On the next line, click the **[!UICONTROL Add]** icon and select `State/Province`.
 
-   * Leave the default **is** condition control option.
+   - Leave the default **is** condition control option.
 
-   * Click **...** and select `United States > California`.
+   - Click **...** and select `United States > California`.
 
-   ![Conditions for females in Los Angeles, California](assets/customer-segment-conditions-la-ladies.png)
+   ![Conditions for females in Los Angeles, California](assets/customer-segment-conditions-la-ladies.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Save and Continue Edit]**.
 
-## Step 4: Review the list of matched customers
+### Step 3: Review the list of matched customers
 
 1. In the left pane, click **[!UICONTROL Matched Customers]** to display all customers who match the condition.
 
-   ![Matched customers](assets/customer-segment-matched-customers.png)
+   ![Matched customers](assets/customer-segment-matched-customers.png){width="600" zoomable="yes"}
 
 1. If the list of customers meets your goal, click **[!UICONTROL Save]** to complete the customer segment.
 
 1. The customer segment can now be used for targeting promotions, content, and mailings.
 
-## Delete a customer segment
-
-1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Segments]**.
-
-1. Find the segment to be deleted and select it.
-
-1. In the menu bar, click **[!UICONTROL Delete]** button.
-
-1. To confirm the action, click **[!UICONTROL OK]**.
-
-## Button bar
-
-|Button|Description|
-|--- |--- |
-|**[!UICONTROL Back]**|Returns to the Customer Segments page without saving changes.|
-|**[!UICONTROL Delete]**|Deletes the current customer segment. Customers or completed orders associated with the customer in the segment are not removed.|
-|**[!UICONTROL Reset]**|Resets any unsaved changes in the customer segment form to their previous values.|
-|**[!UICONTROL Refresh Segment Data]**|Refreshes the segment data to the most recently saved values. Relevant if any segment data is unavailable or out of date.|
-|**[!UICONTROL Save and Continue Edit]**|Saves changes and keeps the customer segment open.|
-|**[!UICONTROL Save]**|Saves changes and closes the customer segment.|
-
-{style="table-layout:auto"}
-
-## Matched Customers Grid
+_**[!UICONTROL Matched Customers] grid**_
 
 |Column|Description|
 |--- |--- |
@@ -164,19 +152,31 @@ The following example shows how to create a customer segment that targets female
 
 {style="table-layout:auto"}
 
-## Customer Segments Grid
+## Remove a customer segment
 
-|Column|Description|
+1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Segments]**.
+
+1. Find the segment to be deleted and select it.
+
+1. In the menu bar, click **[!UICONTROL Delete]** button.
+
+1. To confirm the action, click **[!UICONTROL OK]**.
+
+## Button bar
+
+|Button|Description|
 |--- |--- |
-|**[!UICONTROL ID]**|The unique ID of customer segment.|
-|**[!UICONTROL Segment]**|The name of customer segment.|
-|**[!UICONTROL Status]**|Indicates whether the customer segment is _**[!UICONTROL Active]**_ or _**[!UICONTROL Inactive]**_.|
-|**[!UICONTROL Website]**|Indicates the website to which the customer segment belongs.|
+|**[!UICONTROL Back]**|Returns to the _[!UICONTROL Customer Segments]_ page without saving changes.|
+|**[!UICONTROL Delete]**|Deletes the current customer segment. Customers or completed orders associated with the customer in the segment are not removed.|
+|**[!UICONTROL Reset]**|Resets any unsaved changes in the customer segment form to their previous values.|
+|**[!UICONTROL Refresh Segment Data]**|Refreshes the segment data to the most recently saved values. Relevant if any segment data is unavailable or out of date.|
+|**[!UICONTROL Save and Continue Edit]**|Saves changes and keeps the customer segment open.|
+|**[!UICONTROL Save]**|Saves changes and closes the customer segment.|
 
 {style="table-layout:auto"}
 
 ## Customer segments demo
 
-Watch this video to learn about creating customer segments:
+Watch this video for a demonstration of creating customer segments:
 
 >[!VIDEO](https://video.tv.adobe.com/v/343659/?quality=12)

@@ -62,13 +62,13 @@ After creating the account, the company administrator defines the company struct
 
 1. Clicks [!UICONTROL **Set a New Password**].
 
-   ![Customer Login - company admin](../customers/assets/company-admin-account-login.png){width="700" zoomable="yes"}
+   ![Customer Login - company admin](./assets/company-admin-account-login.png){width="700" zoomable="yes"}
 
 1. When the [!UICONTROL Customer Login] page appears, the customer enters their [!UICONTROL **Email**] and [!UICONTROL **Password**].
 
 1. Clicks [!UICONTROL **Sign In**] to access their account dashboard.
 
-   ![Account Dashboard - company](../customers/assets/account-dashboard-company.png){width="700" zoomable="yes"}
+   ![Account Dashboard - company](./assets/account-dashboard-company.png){width="700" zoomable="yes"}
 
 ## Company structure
 
