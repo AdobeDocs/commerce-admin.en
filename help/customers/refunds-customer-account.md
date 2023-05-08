@@ -42,7 +42,7 @@ Method 2: **From the _Review & Payments_ page**
 
 1. The customer adds a product to the cart.
 
-2. Proceeds to the checkout page.
+2. Proceeds to the _Checkout_ page.
 
 3. Passes the **[!UICONTROL Shipping]** step.
 
