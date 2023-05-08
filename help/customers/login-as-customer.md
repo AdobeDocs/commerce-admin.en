@@ -84,7 +84,7 @@ Enabling _Login as Customer_ requires that you enable the feature in your Commer
 
 To enable account access for store support staff from the Admin, a customer must enable the feature for their account:
 
-1. Goes to the **[!UICONTROL Account Information]** page.
+1. The customer goes to the **[!UICONTROL Account Information]** page.
 
 1. Selects the **[!UICONTROL Allow remote shopping assistance]** checkbox.
 
