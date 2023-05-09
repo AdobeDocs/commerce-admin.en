@@ -1,15 +1,15 @@
 ---
-title: Introduction to Commerce Customer Management
-description: Learn how to use [!DNL Customers] management module features to manage customers in your store.
+title: Introduction to customer management
+description: Learn how to use the Commerce customer management features to enhance the customer experience for your store.
 exl-id: 1af76dd0-3f22-4ed1-b05c-75025b813e60
 ---
-# Introduction to Commerce Customer Management
+# Introduction to customer management
 
-The [!UICONTROL Customers] menu provides access to customer account management tools, and gives you the ability to see who is online in your store.
+The _[!UICONTROL Customers]_ menu provides access to customer account management tools and gives you the ability to see who is online in your store.
 
-![Customers menu](assets/admin-menu-customers.png)
+![Customers menu](assets/admin-menu-customers.png){width="300" zoomable="yes"}
 
-## Display the Customers menu
+## Display the [!UICONTROL Customers] menu
 
 On the _Admin_ sidebar, click [!UICONTROL Customers] to display the menu options:
 
@@ -17,12 +17,8 @@ On the _Admin_ sidebar, click [!UICONTROL Customers] to display the menu options
 |---|---|
 | [!UICONTROL All Customers] | Lists all [customers](../customers/customers-all.md) who have registered for an account with your store or were added by the administrator. |
 | [!UICONTROL Now Online] | Lists all customers and visitors who are currently [online](../customers/now-online.md) in your store. |
-| [!UICONTROL Segments] | Dynamically display content and promotions to specific customers [based on properties](../customers/customer-segments.md) such as customer address, order history, shopping cart contents, and more. |
+| [!UICONTROL Segments] | Lists the [customer segments](../customers/customer-segments.md) that are used to dynamically display content and promotions to specific customers based on various properties. |
 | [!UICONTROL Customer Groups] | The [customer groups](../customers/customer-groups.md) determine which discounts are available to shoppers and the tax class for the purchase. |
-| [!UICONTROL Companies] | Lists all active [company accounts](../b2b/account-companies.md){target=_blank} and pending requests, regardless of status setting, and provides the tools needed to create and [manage](../b2b/account-company-manage.md){target=_blank} company accounts. |
+| [!UICONTROL Companies] | (Requires B2B for Adobe Commerce) Lists all active [company accounts](../b2b/account-companies.md) and pending requests, regardless of status setting, and provides the tools used to create and [manage](../b2b/account-company-manage.md) company accounts. |
 
 {style="table-layout:auto"}
-
->[!NOTE]
->
-> Check [B2B for Adobe Commerce](../b2b/introduction.md) for more information on [!UICONTROL Companies].
