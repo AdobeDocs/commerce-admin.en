@@ -1,12 +1,13 @@
 ---
 user-guide-title: Customer Management Guide
-breadcrumb-title: customer management
+breadcrumb-title: Customer Management
+feature: Customers
 ---
 
 # Customer Management Guide {#customers}
 
 + [Customer Management Guide](guide-overview.md)
-+ [Introduction to Commerce Customer Accounts](customers-introduction.md)
++ [Introduction to customer management](customers-introduction.md)
 + Customer management tools {#customers-menu}
   + [Customers list](customers-all.md)
   + [Now online](now-online.md)

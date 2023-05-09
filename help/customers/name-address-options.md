@@ -36,7 +36,7 @@ You can configure the name and address options that are presented to customers o
    >
    >The _[!UICONTROL Name and Address Options]_ section doesn't appear when the scope is set to `Default Store View`.
 
-   ![Configuration Scope](assets/customer-configuration-scope-ee.png)
+   ![Configuration Scope](assets/customer-configuration-scope-ee.png){width="700" zoomable="yes"}
 
 ### Step 2: Configure the name and address options
 
