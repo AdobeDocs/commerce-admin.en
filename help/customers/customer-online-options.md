@@ -28,7 +28,7 @@ On the server, the length of the session is controlled by the `php.ini` file and
 
 1. Expand the **[!UICONTROL Default Cookie Settings]** section.
 
-   ![Default Cookie Settings](../configuration-reference/general/assets/web-default-cookie-settings.png)
+   ![Default Cookie Settings](../configuration-reference/general/assets/web-default-cookie-settings.png){width="600" zoomable="yes"}
 
 1. To change the default, clear the **[!UICONTROL Use system value]** checkbox and enter the new value in seconds.
 

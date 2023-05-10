@@ -85,7 +85,7 @@ You can activate audiences in a headless Adobe Commerce instance, such as AEM an
 
 The overall architecture is as follows:
 
-![Sending Data from Headless Storefront to Backend](./assets/aem-commerce-architecture.png){width="600" zoomable="yes"}
+![Sending Data from Headless Storefront to Backend](./assets/aem-commerce-architecture.png){width="700" zoomable="yes"}
 
 After you [install](#install-the-extension) and [configure](#configure-the-extension) the extension, the Experience Platform Web SDK contains the audience information in the form of segment membership.
 
