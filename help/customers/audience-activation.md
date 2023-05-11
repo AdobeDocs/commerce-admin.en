@@ -9,6 +9,35 @@ The [!DNL Audience Activation] extension lets you activate Real-Time CDP audienc
 
 You can activate audiences in a Luma storefront or [headless](#headless-support) storefront. In a Luma storefront, audience information (segment membership) is stored in a cookie on the Commerce side. In a headless storefront, audience information is passed in the GraphQL API header as a parameter named: `aep-segments-membership`.
 
+## Release notes
+
+This section contains information about updates to the Audience Activation extension and includes:
+
+- ![New](../assets/new.svg) - New features
+- ![Fix](../assets/fix.svg) - Fixes and improvements
+- ![Bug](../assets/bug.svg) - Known issues
+
+See [Upcoming Releases](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) to learn about release schedules and support.
+
+See the developer documentation to [learn about product compatibility](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html).
+
+### 1.0.1
+
+_May 11, 2023_
+
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.3 and newer
+
+- ![Fix](../assets/fix.svg) - Fixed an issue where a dynamic block or cart price rule was not applied to the storefront.
+- ![Fix](../assets/fix.svg) - Fixed an issue where an unconfigured installation of the Audience Activation extension caused an error when a merchant tried to create or update a dynamic block.
+
+### 1.0.0
+
+_March 31, 2023_
+
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.3 and newer
+
+- ![New](../assets/new.svg) - General availability release
+
 ## Implementation
 
 The following tasks apply to both Luma and headless storefront implementations. To activate audiences in Adobe Commerce, you must:
