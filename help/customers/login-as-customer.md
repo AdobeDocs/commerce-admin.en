@@ -29,7 +29,7 @@ Enabling _Login as Customer_ requires that you enable the feature in your Commer
 
 1. In the left panel, expand **[!UICONTROL Customers]** and choose  **[!UICONTROL Login as Customer]**.
 
-   ![Configuration options - Login as Customer](../configuration-reference/customers/assets/login-as-customer.png)
+   ![Configuration options - Login as Customer](../configuration-reference/customers/assets/login-as-customer.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Enable Login as Customer]** to `Yes`.
 
