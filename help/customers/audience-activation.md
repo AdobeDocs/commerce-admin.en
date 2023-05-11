@@ -23,7 +23,7 @@ See the developer documentation to [learn about product compatibility](https://e
 
 ### 1.0.1
 
-_May 7, 2023_
+_May 11, 2023_
 
 [!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.3 and newer
 
