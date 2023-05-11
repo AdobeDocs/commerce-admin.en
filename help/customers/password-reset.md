@@ -1,14 +1,13 @@
 ---
-title: Reset Passwords
+title: Reset customer passwords
 description: Customers usually reset their passwords from the storefront but a store administrator can initiate either a password reset or a forced sign-in from the Admin.
 exl-id: bca1ef3e-2bc6-4146-ac86-d6c58c8995e4
 ---
-# Reset Passwords
+# Reset customer passwords
 
 Customers usually reset their passwords from the storefront by clicking _[!UICONTROL Forgot Your Password?]_. However, the store administrator can initiate either a password reset or a forced sign-in from the Admin.
 
-
-|Column|Description|
+|Function|Description|
 | --- | --- |
 |Reset Password | A password reset email is sent directly to the customer's email account. The store administrator cannot gain access to the customer's password.|
 |Force Sign In | Revokes the OAuth access tokens that are associated with the customer account. This can be used only with customer accounts that have been assigned OAuth tokens, as part of a Web API [integration](../systems/integrations.md). To learn more, see [OAuth-based authentication](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) in the developer documentation. <br/><br/>Standard customer accounts created from the storefront or from the Admin do not have OAuth tokens.|
@@ -17,11 +16,11 @@ Customers usually reset their passwords from the storefront by clicking _[!UICON
 
 ## Reset a password from the storefront
 
-1. On the Login page, the customer clicks **[!UICONTROL Forgot Your Password?]**.
+1. On the login page, the customer clicks **[!UICONTROL Forgot Your Password?]**.
 
 1. When prompted, enters the **[!UICONTROL Email Address]** that is associated with their account and clicks **[!UICONTROL Reset My Password]**.
 
-   ![Forgot Your Password](assets/forgot-password.png)
+   ![Forgot Your Password](assets/forgot-password.png){width="600" zoomable="yes"}
 
    >[!INFO]
    >
@@ -49,7 +48,7 @@ Customers usually reset their passwords from the storefront by clicking _[!UICON
 
 >[!IMPORTANT]
 >
-> Do not proceed unless you are a developer familiar with API Authentication.
+>Do not proceed unless you have a full understanding of API Authentication.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 

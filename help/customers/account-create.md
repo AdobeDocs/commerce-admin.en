@@ -1,9 +1,9 @@
 ---
-title: Create an Individual Customer Account
+title: Create an individual customer account
 description: Visitors can easily create an individual customer account to manage their purchases.
 exl-id: 8d08c0e1-f3ba-4423-98a7-ffa8ba5a1b8b
 ---
-# Create an Individual Customer Account
+# Create an individual customer account
 
 Visitors to your store can open an account to manage their purchases and activities. Customers usually create their own accounts from your store. However, you can also create customer accounts directly from the Admin, which is useful for helping customers over the phone.
 
@@ -11,17 +11,17 @@ The following instructions represent the default customer account configuration.
 
 As a store administrator, you can also set the [new account options](../customers/account-options-new.md) to send a confirmation email to new registered customers, which helps to ensure that registered accounts are valid.
 
-![Create an Account](assets/storefront-create-an-account-link.png)
-
-## Create account from storefront
+## Create account from the storefront
 
 A store customer creates an account on the storefront.
 
 1. From the storefront, clicks **[!UICONTROL Create an Account]** in the upper-right corner of the header.
 
+   ![Create an Account](assets/storefront-create-an-account-link.png){width="700" zoomable="yes"}
+
 1. Under **[!UICONTROL Personal Information]**, enters their **[!UICONTROL First Name]** and **[!UICONTROL Last Name]**.
 
-    ![Personal Information](assets/storefront-create-account-personal-information.png)
+   ![Personal Information](assets/storefront-create-account-personal-information.png){width="600" zoomable="yes"}
 
 1. If they want to add their name and email address to the list of newsletter subscribers, the customer selects the **[!UICONTROL Sign Up for Newsletter]** checkbox.
 
@@ -37,18 +37,18 @@ A store customer creates an account on the storefront.
    >
    > This email address becomes part of their sign-in credentials, and cannot be associated with any other customer account.
 
-   ![Sign-in Information](assets/storefront-create-account-signin-information.png)
+   ![Sign-in Information](assets/storefront-create-account-signin-information.png){width="600" zoomable="yes"}
 
 1. Enters a **[!UICONTROL Password]** that includes three of the following types of information:
 
    - Lowercase characters
    - Uppercase characters
    - Numbers
-   - Special Characters
+   - Special characters
 
    After they press **[!UICONTROL Enter]**, the strength of the password is evaluated and appears below the field. If the password is considered to be _Weak_, try another until it evaluated as _Strong_.
 
-   ![A strong password is recommended](assets/storefront-customer-account-create-password-strong.png)
+   ![A strong password is recommended](assets/storefront-customer-account-create-password-strong.png){width="600" zoomable="yes"}
 
 1. Then, the customer enters it again to **[!UICONTROL Confirm Password]**.
 
@@ -68,11 +68,11 @@ As a merchant, you can create a customer account from the Admin.
 
 ### Step 1: Complete the account information
 
-![Customer Information](assets/new-information.png)
+![Customer Information](assets/new-information.png){width="700" zoomable="yes"}
 
 1. In the **[!UICONTROL Account Information]** section, do the following:
 
-   - For a multisite installation, set **[!UICONTROL Associate to Website]** to the website where the customer account applies.
+   - For a multisite installation, set **[!UICONTROL Associate to Website]** to the web site where the customer account applies.
    - If applicable, assign the customer to a different **[!UICONTROL Customer Group]**.
    - If you are using [VAT ID Validation](../stores-purchase/vat.md) and want to **[!UICONTROL Disable Automatic Group Change Based on VAT ID]**, select the checkbox.
 
@@ -93,21 +93,21 @@ As a merchant, you can create a customer account from the Admin.
 
    >[!WARNING]
    >
-   >In keeping with current security and privacy best practices, be aware of any potential legal and security risks associated with the storage of customers' full date of birth (month, day, year) with other personal identifiers. It is recommended that you limit the storage of customers' full birth dates and suggest using customer year of birth as an alternative.
+   >In keeping with current security and privacy best practices, be aware of any potential legal and security risks associated with the storage of customers' full date of birth (month, day, year) with other personal identifiers. It is recommended that you limit the storage of customers' full birth dates and suggested that you use customer year of birth as an alternative.
 
-1. Set **[!UICONTROL Send Welcome Email From]** to the store view from which the Welcome email is to be sent.
+1. Set **[!UICONTROL Send Welcome Email From]** to the store view from which the _Welcome_ email is to be sent.
 
    >[!INFO]
    >
    > If the store has views for different [languages](../stores-purchase/store-localize.md), this setting determines the language of the Welcome email.
 
-1. Click **[!UICONTROL Save and Continue Edit]**.
+1. Click **[!UICONTROL Save and Continue Edit]** at the top of the page.
 
    >[!INFO]
    >
-   > After the customer account is saved, the full set of options appears in the left panel and in the menu at the top of the page. The _Customer View_ tab displays a summary of the account.
+   >After the customer account is saved, the full set of options appears in the left panel and in the menu at the top of the page. The _[!UICONTROL Customer View]_ tab displays a summary of the account.
 
-   ![Customer View](assets/customer-account-create-saved.png)
+   ![Customer View](assets/customer-account-create-saved.png){width="600" zoomable="yes"}
 
 ### Step 2: Complete the address information
 
@@ -118,7 +118,7 @@ As a merchant, you can create a customer account from the Admin.
    - **[!UICONTROL Default Billing Address]**
    - **[!UICONTROL Default Shipping Address]**
 
-    ![Add an Address](assets/information-addresses.png)
+   ![Add customer address information](assets/information-addresses.png){width="600" zoomable="yes"}
 
 1. Scroll down and complete the required address fields in the second column.
 
@@ -132,15 +132,13 @@ As a merchant, you can create a customer account from the Admin.
 
 1. If applicable, enter the **[!UICONTROL VAT Number]** associated with the customer.
 
-1. If this is the only address that is needed for the account, click **[!UICONTROL Save]**. Otherwise, click **[!UICONTROL Save and Continue Edit]** and repeat the previous steps to add additional addresses.
+1. If this address is the only one that is needed for the account, click **[!UICONTROL Save]**.
 
-1. The new address displays in the Addresses view with the selected Default Billing and Default Shipping addresses above the full list.
+   Otherwise, click **[!UICONTROL Save and Continue Edit]** and repeat the previous steps to add additional addresses.
 
-    ![Addresses view](assets/address-list.png)
+   The new address is displayed in the [!UICONTROL Addresses] page with the selected _[!UICONTROL Default Billing]_ and _[!UICONTROL Default Shipping]_ addresses above the full list.
 
-1. The new customer account now appears in the Customers grid.
-
-    ![Customers grid](assets/customers-grid-new-account.png)
+   ![Addresses view](assets/address-list.png){width="600" zoomable="yes"}
 
 ### Step 3: Reset the password
 
@@ -148,33 +146,33 @@ Customer accounts created from the Admin do not initially have passwords assigne
 
 1. Find the new customer account in the grid.
 
-1. Click **Edit** in the _Action_ column.
+1. Click **[!UICONTROL Edit]** in the _[!UICONTROL Action]_ column.
 
-1. In the menu bar at the top of the page, click **Reset Password**.
+1. In the menu bar at the top of the page, click **[!UICONTROL Reset Password]**.
 
 1. Notification is sent to the account owner, with instructions for setting the password.
 
 ## Button bar
 
-Additional buttons become available when the profile is saved for the first time. To learn more, see [Updating a Customer Profile](../customers/update-account.md).
+Additional buttons become available when the profile is saved for the first time. To learn more, see [Update a customer profile](../customers/update-account.md).
 
 |Button|Description|
 |--- |--- |
-|**[!UICONTROL Back]**|Returns to the Customers page without saving changes.|
+|**[!UICONTROL Back]**|Returns to the _[!UICONTROL Customers]_ page without saving changes.|
 |**[!UICONTROL Delete Customer]**|Deletes the current customer. Completed orders associated with the customer are not removed.|
 |**[!UICONTROL Reset]**|Resets any unsaved changes in the customer form to their previous values.|
 |**[!UICONTROL Create Order]**|Creates an order for the customer.|
 |**[!UICONTROL Reset Password]**|Sends a [reset password](../customers/password-reset.md) link to the customer by email.|
-|**[!UICONTROL Force Sign-in]**|Revokes the OAuth access tokens that are associated with the customer account. This can be used only with customer accounts that have been assigned OAuth tokens as part of a Web API [integration](../systems/integrations.md). To learn more, see [OAuth-based authentication](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) in the developer documentation.|
+|**[!UICONTROL Force Sign-in]**|Revokes the OAuth access tokens that are associated with the customer account. This function can be used only with customer accounts that have been assigned OAuth tokens as part of a web API [integration](../systems/integrations.md). To learn more, see [OAuth-based authentication](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) in the developer documentation.|
 |**[!UICONTROL Manage Shopping Cart]**|Allows the administrator to manage the shopping cart for the customer.|
 |**[!UICONTROL Save and Continue Edit]**|Saves changes and keeps the customer profile open.|
 |**[!UICONTROL Save Customer]**|Saves changes and closes the customer profile.|
 
 {style="table-layout:auto"}
 
-## Fields
+## Field descriptions
 
-### Account Information
+### [!UICONTROL Account Information]
 
 |Field|Description|
 |--- |--- |
@@ -188,14 +186,14 @@ Additional buttons become available when the profile is saved for the first time
 |**[!UICONTROL Email]**|The customer's email address.|
 |**[!UICONTROL Date of Birth]**|The customer's date of birth. The date of birth is included if specified in the [configuration](../configuration-reference/customers/customer-configuration.md) topic. <br><br>In keeping with current security and privacy best practices, be aware of any potential legal and security risks associated with the storage of customers' full date of birth (month, day, year) with other personal identifiers. It is recommended that you limit the storage of customers' full birth dates and suggest using customer year of birth as an alternative.|
 |**[!UICONTROL Tax / VAT Number]**|The customer's Tax or Value Added Tax number, if applicable.|
-|**[!UICONTROL Gender]**|Identifies the customer's gender. The gender is included if specified in the [configuration](../configuration-reference/customers/customer-configuration.md). Options: **[!UICONTROL Male]** / **[!UICONTROL Female]** / **[!UICONTROL Not Specified]**|
-|**[!UICONTROL Send Welcome Email From]**|If you have multiple store views, this identifies the store view from which the Welcome message is sent. If store views are used for different languages, this determines the language of the Welcome email.|
+|**[!UICONTROL Gender]**|Identifies the customer's gender. The gender is included if specified in the [configuration](../configuration-reference/customers/customer-configuration.md). Options: `Male` / `Female` / `Not Specified`|
+|**[!UICONTROL Send Welcome Email From]**|If you have multiple store views, this setting identifies the store view from which the Welcome message is sent. If store views are used for different languages, this setting determines the language of the Welcome email.|
 
-### Addresses
+### [!UICONTROL Addresses]
 
 |Field|Description|
 |--- |--- |
-|**[!UICONTROL New Addresses]**|Identifies the type of new address. Options: **[!UICONTROL Default Billing Address]** / **[!UICONTROL Default Shipping Address]**|
+|**[!UICONTROL New Addresses]**|Identifies the type of new address. Options: `Default Billing Address` / `Default Shipping Address`|
 |**[!UICONTROL Add New Addresses]**|Displays another New Address section to identify the type of the address to be entered.|
 |**[!UICONTROL Company]**|The company name, if applicable for this address.|
 |**[!UICONTROL Street Address]**|The street address of the customer. A second line of the street address is available if specified in the [configuration](../configuration-reference/customers/customer-configuration.md) topic.|
