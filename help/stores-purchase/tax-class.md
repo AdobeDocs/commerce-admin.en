@@ -54,7 +54,7 @@ Tax classes for customers and products can be easily added, and then assigned to
 
 1. To add the new class to the list of available customer tax classes, click the checkmark.
 
-![New tax classes](./assets/tax-classes-updated.png){width="600" zoomable="yes"}
+   ![New tax classes](./assets/tax-classes-updated.png){width="600" zoomable="yes"}
 
 ## Add a product tax class
 

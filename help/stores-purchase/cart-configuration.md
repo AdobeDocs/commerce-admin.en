@@ -296,8 +296,6 @@ The gift wrap image should be a swatch that shows the repeating pattern, and can
 
 1. In the upper-right corner, click **[!UICONTROL Add Gift Wrapping]**.
 
-   ![New Gift Wrapping](./assets/gift-wrapping-new.png){width="600" zoomable="yes"}
-
 1. Enter the name for the **[!UICONTROL Gift Wrapping Design]** to appear during checkout.
 
    If needed, you can change the **[!UICONTROL Scope]** and configure a different name for each store view.
@@ -312,9 +310,11 @@ The gift wrap image should be a swatch that shows the repeating pattern, and can
 
    This setting can be overridden by the gift wrap price set at the product level.
 
+   ![New Gift Wrapping](./assets/gift-wrapping-new.png){width="600" zoomable="yes"}
+
 1. To upload a thumbnail **[!UICONTROL Image]** of the gift wrapping, click **[!UICONTROL Choose File]** and select the file to upload from your directory.
 
-   A thumbnail of the image appears in the Gift Wrapping Information after the record is saved.
+   A thumbnail of the image appears in the _[!UICONTROL Gift Wrapping Information]_ after the record is saved.
 
 1. Click **[!UICONTROL Save]**.
 
