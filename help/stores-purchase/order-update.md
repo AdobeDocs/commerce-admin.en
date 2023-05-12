@@ -13,7 +13,7 @@ After a customer places an order, but before the payment is received, the order 
 
 ![Pending Order Options](./assets/order-button-bar-pending.png){width="600" zoomable="yes"}
 
-If you modify the substantial parts of an order, the original order is canceled and a new order is generated. You can, however, change the billing or shipping address without generating a new order.
+If you modify substantial parts of an order, the original order is canceled and a new order is generated. You can, however, change the billing or shipping address without generating a new order.
 
 |Button|Description|
 |--- |--- |

@@ -23,7 +23,7 @@ All orders have an order status that is associated with a stage in the order pro
 |--- |--- |--- |
 |Processing|`processing`|When the state of new orders is set to 'Processing', the _Automatically Invoice All Items_ option becomes available in the configuration. Invoices are not created automatically for orders placed by using Gift Card, Store Credit, Reward Points, or other offline payment methods.|
 |Suspected Fraud|`fraud`|Sometimes orders paid via PayPal or another payment gateway are marked as _Suspected Fraud_. This status means that the order does not have invoice issued and the confirmation email is also not sent.|
-|Pending Payment|`pending_payment`|This status is used if order is created and PayPal or similar payment method is used. It means that the customer was directed to the payment gateway website, but no return information has been received yet. This status changes when customer pays.|
+|Pending Payment|`pending_payment`|This status is used if the order is created and PayPal or similar payment method is used. It means that the customer was directed to the payment gateway website, but no return information has been received yet. This status changes when customer pays.|
 |Payment Review|`payment_review`|This status appears when PayPal payment review is turned on.|
 |Pending|`pending`|This status indicates that no invoice and shipments have been submitted.|
 |On Hold|`holded`|This status can only be assigned manually. You can put any order on hold.|
