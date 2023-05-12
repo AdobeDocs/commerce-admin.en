@@ -7,7 +7,7 @@ exl-id: 46cf9994-6490-4cb4-85b7-9a7cab7783e0
 
 The Email link makes it easy for your customers to share links to products with their friends. In the demo Luma store, the Email link appears as an envelope icon. The message template can be customized for your voice and brand. To prevent spamming, you can limit the number of recipients for each email, and the number of products that can be shared over a one-hour period.
 
-![Example storefront - email a friend](./assets/storefront-email-a-friend.png)<!-- zoom -->
+![Example storefront - email a friend](./assets/storefront-email-a-friend.png){width="700" zoomable="yes"}
 
 ## Configure email-a-friend
 
@@ -17,7 +17,7 @@ The Email link makes it easy for your customers to share links to products with 
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Email Templates]** section and set the options:
 
-    ![Catalog configuration - email templates](../configuration-reference/catalog/assets/email-to-a-friend-email-templates.png)<!-- zoom -->
+    ![Catalog configuration - email templates](../configuration-reference/catalog/assets/email-to-a-friend-email-templates.png){width="600" zoomable="yes"}
 
     For a detailed description of each of these configuration settings, see [Email Templates](../configuration-reference/catalog/email-to-a-friend.md) in the _Configuration Reference Guide_.
 
@@ -64,4 +64,4 @@ When this feature is configured, store customers follow these steps to share pro
 
 1. When ready to send the message, clicks **[!UICONTROL Send Email]**.
 
-    ![Example storefront - email to a friend](./assets/storefront-email-a-friend-form.png)<!-- zoom -->
+    ![Example storefront - email to a friend](./assets/storefront-email-a-friend-form.png){width="700" zoomable="yes"}

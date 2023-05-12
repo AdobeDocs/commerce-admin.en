@@ -7,7 +7,7 @@ exl-id: 105106a4-85f7-4143-8411-69ff67ff9331
 
 The Sales menu lists transactions according to where they are in the order workflow. You might think of each of option as a different stage in the lifetime of an order.
 
-![Sales menu](./assets/admin-menu-sales.png)<!-- zoom -->
+![Sales menu](./assets/admin-menu-sales.png){width="450" zoomable="yes"}
 
 ## Display the [!UICONTROL Sales] menu
 

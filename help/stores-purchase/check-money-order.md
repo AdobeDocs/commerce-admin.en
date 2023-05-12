@@ -5,7 +5,7 @@ exl-id: e004f0c3-f659-4b08-a41a-88bfc05acaab
 ---
 # Checks and money orders
 
-Adobe Commerce and Magento Open Source allow you to accept payments by check or money order. The _Check / Money Order_ payment method is enabled for your store by default. You can accept checks and money orders only from specific countries, and you can fine tune the configuration with minimum and maximum order total limits.
+Adobe Commerce and Magento Open Source allow you to accept payments by check or money order. The _Check / Money Order_ payment method is enabled for your store by default. You can accept checks and money orders only from specific countries, and you can fine-tune the configuration with minimum and maximum order total limits.
 
 **_To configure payment by check or money order:_**
 
@@ -15,7 +15,7 @@ Adobe Commerce and Magento Open Source allow you to accept payments by check or 
 
 1. Under _[!UICONTROL Other Payment Methods]_, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Check / Money Order]** section.
 
-   ![Check / Money Order](../configuration-reference/sales/assets/payment-methods-check-money-order.png)<!-- zoom -->
+   ![Check / Money Order](../configuration-reference/sales/assets/payment-methods-check-money-order.png){width="600" zoomable="yes"}
 
    For a detailed description of each of these configuration settings, see [Check / Money Order](../configuration-reference/sales/payment-methods.md#check--money-order) in the _Configuration Reference Guide_.
 
@@ -25,7 +25,7 @@ Adobe Commerce and Magento Open Source allow you to accept payments by check or 
 
 1. To accept payment by check or money order, set **[!UICONTROL Enabled]** to `Yes`.
 
-1. Enter a **[!UICONTROL Title]** to identify the Check / Money Order payment method during checkout.
+1. For **[!UICONTROL Title]**, enter a title that identifies the check / money order payment method during checkout.
 
 1. If orders typically wait for approval, accept the default **[!UICONTROL New Order Status]** as `Pending"` until it is approved.
 
@@ -46,8 +46,8 @@ Adobe Commerce and Magento Open Source allow you to accept payments by check or 
    >
    >An order qualifies if the total falls between, or exactly matches, the minimum or maximum total values.
 
-1. Enter a **[!UICONTROL Sort Order]** number to determine the position of this item in the list of payment methods that is displayed during checkout.
+1. For **[!UICONTROL Sort Order]**, enter a number that determines the position of this item in the list of payment methods that is displayed during checkout.
 
-   This is relative to the other payment methods. (`0` = first, `1` = second, `2` = third, and so on.)
+   This number is relative to the other payment methods. (`0` = first, `1` = second, `2` = third, and so on.)
 
 1. When complete, click **[!UICONTROL Save Config]**.

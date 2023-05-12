@@ -1,11 +1,11 @@
 ---
 title: Fixed product tax (FPT)
-description: Learn how you can set up a fixed product tax that must be added to certain types of products.
+description: Learn how you can set up a fixed product tax (FPT) that must be added to certain types of products.
 exl-id: f1b475cb-a6fe-4b51-a0c3-7d0a202bd332
 ---
 # Fixed product tax (FPT)
 
-Some tax jurisdictions have a fixed tax that must be added to certain types of products. You can set up a _fixed product tax_ (FPT) as needed for your store's tax calculations. In some countries, FPT can be used to set up a Waste Electrical and Electronic Equipment (WEEE) tax, also known as _ecological tax_ or _eco tax_, that is collected on certain types of electronics to offset the cost of recycling. This tax is a fixed amount, rather than a percentage of the product price.
+Some tax jurisdictions have a fixed tax that must be added to certain types of products. You can set up a _fixed product tax_ (FPT) as needed for your store's tax calculations. In some countries, FPT can be used to set up a Waste Electrical and Electronic Equipment (WEEE) tax. This tax is also known as _ecological tax_ or _eco tax_, and is collected on certain types of electronics to offset the cost of recycling. It is a fixed amount, rather than a percentage of the product price.
 
 Fixed product taxes apply at the item level, based on the product. In some jurisdictions, this tax is subject to an extra % tax calculation. Your tax jurisdiction might also have rules about how the product price appears to customers, either with or without tax. Be sure that you understand the rules and set your FPT display options accordingly.
 
@@ -58,7 +58,7 @@ The following instructions show how to set up a fixed product tax for your store
 
 1. Set **[!UICONTROL Include FPT in Subtotal]** as needed.
 
-   ![Fixed Product Taxes](../configuration-reference/sales/assets/tax-fixed-product-taxes.png)<!-- zoom -->
+   ![Fixed Product Taxes](../configuration-reference/sales/assets/tax-fixed-product-taxes.png){width="600" zoomable="yes"}
 
    For a detailed description of each of these configuration settings, see [Fixed Product Taxes](../configuration-reference/sales/tax.md#fixed-product-taxes) in the _Configuration Reference Guide_.
 
@@ -70,11 +70,11 @@ The following instructions show how to set up a fixed product tax for your store
 
 1. In the upper-right corner, click **[!UICONTROL Add New Attribute]** and do the following:
 
-   - Enter a **[!UICONTROL Default Label]** to identify the attribute.
+   - For **[!UICONTROL Default Label]**, enter a label that identifies the attribute.
 
    - Set **[!UICONTROL Catalog Input for Store Owner]** to `Fixed Product Tax`.
 
-   ![Attribute Properties](./assets/tax-fpt-attribute-properties.png)<!-- zoom -->
+   ![Attribute Properties](./assets/tax-fpt-attribute-properties.png){width="600" zoomable="yes"}
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Advanced Attribute Properties]** section and set the property options:
 
@@ -84,11 +84,11 @@ The following instructions show how to set up a fixed product tax for your store
 
    - **[!UICONTROL Use in Filter Options]** - If you want to be able to [filter](../getting-started/admin-workspace.md) products in the grid based on the value of the FPT field, set to `Yes`.
 
-   ![Advanced Attribute Properties](./assets/tax-fpt-advanced-attribute-properties.png)<!-- zoom -->
+   ![Advanced Attribute Properties](./assets/tax-fpt-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
 1. (Optional) In the left panel, choose **[!UICONTROL Manage Labels]** and enter a label to use instead of the default label for each store view.
 
-   ![Manage Labels](./assets/attribute-new-manage-labels.png)<!-- zoom -->
+   ![Manage Labels](./assets/attribute-new-manage-labels.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Attribute]**.
 
@@ -100,17 +100,17 @@ The following instructions show how to set up a fixed product tax for your store
 
 1. In the list, click the attribute set to open the record in edit mode.
 
-   ![Attribute sets list](./assets/attribute-sets-list.png)<!-- zoom -->
+   ![Attribute sets list](./assets/attribute-sets-list.png){width="600" zoomable="yes"}
 
 1. Drag the FPT attribute from the list of **[!UICONTROL Unassigned Attributes]** on the right to the **[!UICONTROL Groups]** list in the center column.
 
    Each group folder corresponds to a section of product information. You can place the attribute wherever you want it to appear when the product is open in edit mode.
 
-   ![Edit Attribute Set](./assets/tax-fpt-attribute-set-drag.png)<!-- zoom -->
+   ![Edit Attribute Set](./assets/tax-fpt-attribute-set-drag.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save]**.
 
-1. Repeat this step for each attribute set that needs to include fixed product tax.
+1. Repeat this step for each attribute set that should include fixed product tax.
 
 ### Step 4: Apply FPT to specific products
 
@@ -122,7 +122,7 @@ The following instructions show how to set up a fixed product tax for your store
 
 1. Specify the applicable tax for the product:
 
-   ![Fixed Product Tax for Belgium](./assets/tax-product-fpt-belgium.png)<!-- zoom -->
+   ![Fixed Product Tax for Canada](./assets/tax-product-fpt-canada.png){width="600" zoomable="yes"}
 
    - If your Commerce instance has multiple websites, choose the appropriate **[!UICONTROL Website]** and base currency. In this example, the field is set by default to `All Websites [USD]`.
 
