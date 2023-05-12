@@ -11,7 +11,7 @@ The _Transactions_ page lists all payment activity that has taken place between 
 
 On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > _[!UICONTROL Operations]_ > **[!UICONTROL Transactions]**.
 
-![Transactions grid](./assets/transactions.png)<!-- zoom -->
+![Transactions grid](./assets/transactions.png){width="600" zoomable="yes"}
 
 |Column|Description|
 |--- |--- |
@@ -48,7 +48,7 @@ This section includes information regarding the transaction, and provides a link
 
 ### Child transactions
 
-Child transactions are displayed in the grid after creating invoices for [orders](orders.md). This allows you to track transaction history, following a transaction hierarchy.
+Child transactions are displayed in the grid after creating invoices for [orders](orders.md). This format allows you to track transaction history, following a transaction hierarchy.
 
 ### [!UICONTROL Transaction Details]
 

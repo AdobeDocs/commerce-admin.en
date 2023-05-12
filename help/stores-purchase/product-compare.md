@@ -7,7 +7,7 @@ exl-id: 7c4de9d3-394a-48e1-ba01-7964b40b95ae
 
 Compare Products generates a detailed, side-by-side comparison of two or more products. Depending on the theme, the Add to Compare link might be represented by an icon or text. The _Compare Products_ block usually appears in either the left or right sidebar of a catalog page.
 
-![Example storefront - comparison list](./assets/storefront-comparison-list.png)<!-- zoom -->
+![Example storefront - comparison list](./assets/storefront-comparison-list.png){width="700" zoomable="yes"}
 
 Unlike the [Recently Viewed / Compared Products ](products-viewed-compared.md) block, the Admin does not include additional configuration settings for Compare Products.
 
@@ -37,7 +37,7 @@ There are a few ways to use comparison list on the storefront.
 
 1. In the displayed top message notification, click the _comparison list_ link.
 
-   ![Compare Products Notification](./assets/notification-comparison-list.png)<!-- zoom -->
+   ![Compare Products Notification](./assets/notification-comparison-list.png){width="700" zoomable="yes"}
 
 This action redirects the customer to the comparison list where they can access additional actions.
 
@@ -47,7 +47,7 @@ This action redirects the customer to the comparison list where they can access 
 
 1. In the header near the search field, clicks the _Compare Products_ link.
 
-   ![Compare Products Header](./assets/compare-products-header.png)<!-- zoom -->
+   ![Compare Products Header](./assets/compare-products-header.png){width="700" zoomable="yes"}
 
 ### From the My Account dashboard
 
@@ -57,7 +57,7 @@ This action redirects the customer to the comparison list where they can access 
 
 1. In the _Compare Products_ block, clicks **[!UICONTROL Compare]**.
 
-   ![Compare Products block in customer account dashboard](./assets/my-account-compare-block.png)<!-- zoom -->
+   ![Compare Products block in customer account dashboard](./assets/my-account-compare-block.png){width="700" zoomable="yes"}
 
 ## Additional comparison list actions
 

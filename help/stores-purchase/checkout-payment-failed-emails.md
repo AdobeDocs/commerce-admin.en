@@ -7,8 +7,6 @@ exl-id: c64a4463-64d5-4dad-a8ad-13bfb141b65f
 
 A notification is sent to the store contact or a designated Admin user if the payment method selected during checkout fails to complete the transaction.
 
-![Payment Failed Emails](../configuration-reference/sales/assets/checkout-payment-failed-emails.png)<!-- zoom -->
-
 ## Step 1: Update the email template
 
 Make sure that you have updated the needed email template to reflect your brand. For a complete list of templates, see [Email Template List](../systems/email-templates.md#email-template-list).
@@ -20,6 +18,8 @@ Make sure that you have updated the needed email template to reflect your brand.
 1. On the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Checkout]**.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Payment Failed Emails]** section.
+
+   ![Payment Failed Emails](../configuration-reference/sales/assets/checkout-payment-failed-emails.png){width="600" zoomable="yes"}
 
 1. Set the options for payment failed emails:
 

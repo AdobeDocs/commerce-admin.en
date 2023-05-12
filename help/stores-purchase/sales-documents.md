@@ -9,9 +9,9 @@ To support the order workflow and provide documentation to your customers about 
 
 ## Configure invoices and packing slips
 
-Unlike the logo images used in storefront pages, the logo for PDF invoices and other sales documents can be a high-resolution, 300-dpi image. Be careful to preserve the aspect ratio when you resize the logo. Resize the logo to fit the height, and don't worry about any unused space to the right.
+Unlike the logo images used in storefront pages, the logo for PDF invoices and other sales documents can be a high-resolution, 300-dpi image. Be careful to preserve the aspect ratio when you resize the logo. Resize the logo so that it fits the height, and don't worry about any unused space to the right.
 
-![Sample logo](./assets/logo-pdf.png)
+![Sample logo](./assets/logo-pdf.png){width="200"}
 
 One way to resize your logo to fit the required size is to create a new, blank image with the correct dimensions. Then, paste your logo image and resize it to fit the height. With most image-editing programs, you can either scale it by a percentage to preserve the aspect ratio, or hold down the Shift key and manually resize the image.
 
@@ -23,7 +23,7 @@ One way to resize your logo to fit the required size is to create a new, blank i
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Invoice and Packing Slip Design]** section and do the following:
 
-   ![Sales configuration - sales invoice and packing slip design](../configuration-reference/sales/assets/sales-invoice-packing-slip-design.png)<!-- zoom -->
+   ![Sales configuration - sales invoice and packing slip design](../configuration-reference/sales/assets/sales-invoice-packing-slip-design.png){width="600" zoomable="yes"}
 
    - To upload the **[!UICONTROL Logo for PDF Print-outs]**, click **[!UICONTROL Choose File]**, find the logo that you have prepared, and click **[!UICONTROL Open]**.
 
@@ -62,7 +62,7 @@ One way to resize your logo to fit the required size is to create a new, blank i
 
 The Order ID and customer IP address can be included in the header of sales documents that accompany an order. By default, both the order ID and customer IP address appear in the header of invoices, shipment packing slips, and credit memos.
 
-![Sales configuration - PDF print-outs](./assets/config-sales-pdf-print-outs.png)<!-- zoom -->
+![Sales configuration - PDF print-outs](./assets/config-sales-pdf-print-outs.png){width="600" zoomable="yes"}
 
 **_To change the order ID setting:_**
 
@@ -71,8 +71,6 @@ The Order ID and customer IP address can be included in the header of sales docu
 1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL PDF Print-outs]**.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Invoice** section.
-
-   ![Sales configuration - PDF print-outs invoice](../configuration-reference/sales/assets/pdf-print-invoice.png)<!-- zoom -->
 
 1. Set **[!UICONTROL Display Order ID in Header]** according to your preference.
 
@@ -88,7 +86,7 @@ The Order ID and customer IP address can be included in the header of sales docu
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL General]** section.
 
-   ![Sales configuration - general sales settings](../configuration-reference/sales/assets/sales-general.png)<!-- zoom -->
+   ![Sales configuration - general sales settings](../configuration-reference/sales/assets/sales-general.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Hide Customer IP]** to your preference.
 

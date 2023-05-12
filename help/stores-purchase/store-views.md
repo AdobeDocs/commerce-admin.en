@@ -7,17 +7,17 @@ exl-id: aa1f7f1c-a6d0-4ec2-83fe-15fb9646634a
 
 Store views are typically used to make the store available in different locales. Shoppers can use the language chooser in the header of the store to change the store view.
 
-![Scope - multiple store views](./assets/scope-multiview.svg)<!-- {:width="550px"} -->
+![Scope - multiple store views](./assets/scope-multiview.svg){width="550"}
 
 ## Add a store view
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL All Stores]**.
 
-   ![All Stores](./assets/stores-all.png)<!-- zoom -->
+   ![All Stores](./assets/stores-all.png){width="700" zoomable="yes"}
 
 1. Click **[!UICONTROL Create Store View]**.
 
-   ![Create store view](./assets/create-store-view.png)<!-- zoom -->
+   ![Create store view](./assets/create-store-view.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Store]** to the parent store of this view.
 
@@ -25,7 +25,9 @@ Store views are typically used to make the store available in different locales.
 
    The name appears in the language chooser in the store header. For example: `Spanish`.
 
-1. Enter a **[!UICONTROL Code]** in lowercase characters to identify the view. For example: `spanish`.
+1. For **[!UICONTROL Code]**, enter the code that identifies the view (in lowercase characters).
+
+   For example: `spanish`.
 
 1. To activate the view, set **[!UICONTROL Status]** to `Enabled`.
 
@@ -52,7 +54,7 @@ If your Adobe Commerce or Magento Open Source installation has a multisite or mu
 
    When editing the default view, the _[!UICONTROL Store]_ and _[!UICONTROL Status]_ fields are not available.
 
-   ![Store view - edit default view](./assets/edit-store-view-info.png)<!-- zoom -->
+   ![Store view - edit default view](./assets/edit-store-view-info.png){width="600" zoomable="yes"}
 
 1. Update the following fields as needed:
 
@@ -63,5 +65,3 @@ If your Adobe Commerce or Magento Open Source installation has a multisite or mu
     - **[!UICONTROL Sort Order]**
 
 1. Click **[!UICONTROL Save Store View]**.
-
-   ![Stores](./assets/all-grid.png)<!-- zoom -->

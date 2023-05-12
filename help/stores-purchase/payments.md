@@ -5,7 +5,7 @@ exl-id: 474bf6df-96e2-4db3-ad3c-1804b5de33b0
 ---
 # Payments overview
 
-Adobe Commerce and Magento Open Source support various payment methods and services that you can offer for easier checkout and customer convenience. This includes several offline payment methods, including payment by check or money order, and cash on delivery (COD). There are also native integrations for numerous online payment solutions and gateways, including Braintree as a bundled vendor-developed extension.
+Adobe Commerce and Magento Open Source support various payment methods and services that you can offer for easier checkout and customer convenience. This list includes several offline payment methods, including payment by check or money order, and cash on delivery (COD). There are also native integrations for numerous online payment solutions and gateways, including Braintree as a bundled vendor-developed extension.
 
 >[!TIP]
 >

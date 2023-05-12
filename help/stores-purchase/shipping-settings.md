@@ -7,13 +7,11 @@ exl-id: 767b3039-39c7-4692-a0a8-a8fde27622cc
 
 The shipping configuration establishes the point of origin for all shipments, your shipping policy, and the handling of shipments to multiple addresses.
 
-![Shipping Settings](./assets/shipping-settings.png)<!-- zoom -->
-
 ## Point of origin
 
 The point of origin is used to calculate the charge for shipments made from your store or warehouse, and also determines the tax rate for products sold. When calculating [EU taxes](international-tax-guidelines.md#eu-tax-configuration), make sure that the [Default Tax Destination Calculation](../configuration-reference/sales/tax.md) for each store view corresponds to the Shipping Settings point of origin.
 
-![Origin](../configuration-reference/sales/assets/shipping-settings-origin.png)<!-- zoom -->
+![Origin](../configuration-reference/sales/assets/shipping-settings-origin.png){width="600" zoomable="yes"}
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -33,7 +31,7 @@ The point of origin is used to calculate the charge for shipments made from your
 
 A shipping policy should explain your company's business rules and guidelines for shipments. For example, if you have price rules that trigger free shipping, you can explain the terms in your shipping policy.
 
-![Shipping Policy During Checkout](./assets/storefront-checkout-shipping-policy.png)<!-- zoom -->
+![Shipping Policy During Checkout](./assets/storefront-checkout-shipping-policy.png){width="700" zoomable="yes"}
 
 To display your shipping policy during checkout, complete the Shipping Policy Parameters in the configuration. The text appears when customers click _See our shipping policy_ during checkout.
 
@@ -51,7 +49,7 @@ To display your shipping policy during checkout, complete the Shipping Policy Pa
    >
    >If you use a word processor to compose the text, make sure to save the document as a .txt file to remove any control characters from the text. Then, copy and paste the text into the Shipping Policy text box.
 
-   ![Shipping Policy Parameters](../configuration-reference/sales/assets/shipping-settings-shipping-policy-parameters.png)<!-- zoom -->
+   ![Shipping Policy Parameters](../configuration-reference/sales/assets/shipping-settings-shipping-policy-parameters.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Save Config]**.
 
@@ -65,7 +63,7 @@ The multiple address shipping options enable customers to ship an order to multi
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Options]** section.
 
-   ![Multiaddress Shipping Options](../configuration-reference/sales/assets/multishipping-settings-options.png)<!-- zoom -->
+   ![Multiaddress Shipping Options](../configuration-reference/sales/assets/multishipping-settings-options.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Allow Shipping to Multiple Addresses]** to `Yes`.
 
