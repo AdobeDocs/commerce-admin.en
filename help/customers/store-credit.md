@@ -1,9 +1,9 @@
 ---
-title: Store Credit
-description: Store credit is an amount that is restored to a customer account. Customers can use their store credit to pay for purchases, and administrators can use store credit for cash refunds.
+title: Store credit
+description: Store credit is an amount that is restored to a customer account, and can be used to pay for purchases or for cash refunds.
 exl-id: 1fe627dd-5c49-4ff8-85e0-3c987285726d
 ---
-# Store Credit
+# Store credit
 
 {{ee-feature}}
 
@@ -13,7 +13,7 @@ After an order is paid and invoiced, the order, or a portion of it, can be refun
 
 >[!NOTE]
 >
-> The [_Zero Subtotal Checkout_](../stores-purchase/zero-subtotal-checkout.md) payment method must be enabled in the case that store credit covers the order total.
+>The [_Zero Subtotal Checkout_](../stores-purchase/zero-subtotal-checkout.md) payment method must be enabled in the case that store credit covers the order total.
 
 ## Store credit workflow
 
