@@ -113,7 +113,7 @@ PayPal fraud management filters make it easier to detect and respond to fraudule
 |Japan|[!DNL PayPal Website Payments Plus]<br/>[!DNL PayPal Website Payments Standard]<br/>[[!DNL PayPal Express Checkout]](paypal-express-checkout.md)|
 |New Zealand|[[!DNL PayPal Payflow Pro]](paypal-payflow-pro.md)<br/>[!DNL PayPal Website Payments Standard]<br/>[[!DNL PayPal Express Checkout]](paypal-express-checkout.md)|
 |Spain|[!DNL PayPal Pasarela Integral]<br/>[!DNL PayPal Website Payments Standard]<br/>[[!DNL PayPal Express Checkout]](paypal-express-checkout.md)|
-|United Kingdom|[!DNL PayPal Payments Pro Hosted Solution ](includes Express Checkout)<br/>[[!DNL PayPal Payments Standard]](paypal-payments-standard.md)<br/>[[!DNL PayPal Express Checkout]](paypal-express-checkout.md)|
+|United Kingdom|[!DNL PayPal Payments Pro Hosted Solution] (includes Express Checkout)<br/>[[!DNL PayPal Payments Standard]](paypal-payments-standard.md)<br/>[[!DNL PayPal Express Checkout]](paypal-express-checkout.md)|
 |United States|[[!DNL PayPal Payments Advanced]](paypal-payments-advanced.md) (includes Express Checkout)<br/>[[!DNL PayPal Payments Pro]](paypal-payments-pro.md) (includes Express Checkout)<br/>[[!DNL PayPal Payments Standard+]](paypal-payments-standard.md)<br/>[[!DNL PayPal Payflow Pro]](paypal-payflow-pro.md) (includes Express Checkout)<br/>[[!DNL PayPal Payflow Link]](paypal-payflow-link.md) (includes Express Checkout)<br/>[[!DNL PayPal Express Checkout]](paypal-express-checkout.md)|
 
 {style="table-layout:auto"}

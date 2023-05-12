@@ -86,7 +86,7 @@ A merchant can create a return request on behalf of the customer from the Admin.
 
     - `Unopened`
     - `Opened`
-    - `Damaged
+    - `Damaged`
 
 1. Set **[!UICONTROL Resolution]** to one of the following:
 
