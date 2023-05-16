@@ -7,24 +7,24 @@ exl-id: bd64b110-5c39-41c6-8a0c-38561b2a5bf4
 
 With the in-store delivery method, the customer can select a source to be used as a pickup location during the checkout.
 
-![In-store Delivery Method at Checkout](./assets/luma-in-store-example.png)<!-- zoom -->
+![In-store Delivery Method at Checkout](./assets/luma-in-store-example.png){width="700" zoomable="yes"}
 
 ## Before setup
 
-- Make sure you have a non-default stock and source. For more information about how to configure a source as a pickup location, see [Adding a New Source](../inventory-management/sources-add.md).
-- Make sure you have configured a Distance Priority Algorithm. For more information, see [Configuring Distance Priority Algorithm](../inventory-management/distance-priority-algorithm.md).
-- Make sure you have [downloaded and imported](../inventory-management/cli.md#import-geocodes) all necessary geocodes for Offline Calculation.
+- Make sure you have a non-default stock and source. For more information about how to configure a source as a pickup location, see [Add a source](../inventory-management/sources-add.md).
+- Make sure you have configured a Distance Priority Algorithm. For more information, see [Configure the Distance Priority Algorithm](../inventory-management/distance-priority-algorithm.md).
+- Make sure you have [downloaded and imported](../inventory-management/cli.md#import-geocodes) all necessary geocodes for offline calculation.
 - Make sure you have configured [Default Tax Destination Calculation](../configuration-reference/sales/tax.md#default-tax-destination-calculation) settings.
 
 >[!IMPORTANT]
 >
->**In the storefront, search results are filtered by country to show relevant results:** <br>
-> - If the customer has a shipping address, the country is taken from the shipping address.
-> - If the customer does not have a shipping address, the country is taken from the [Default Tax Destination Calculation](../configuration-reference/sales/tax.md#default-tax-destination-calculation) settings. These settings are set per store view, so you need to configure the Store View country to make it work properly.
+>**In the storefront, search results are filtered by country to show relevant results:** <br><br>
+>If the customer has a shipping address, the country is taken from the shipping address.<br><br>
+>If the customer does not have a shipping address, the country is taken from the [Default Tax Destination Calculation](../configuration-reference/sales/tax.md#default-tax-destination-calculation) settings. These settings are set per store view, so you must configure the Store View country to make it work properly.
 
 ## Set up in-store delivery
 
-First, check that In-store Delivery is enabled.
+First, check that in-store delivery is enabled.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -32,7 +32,7 @@ First, check that In-store Delivery is enabled.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL In-Store Delivery]** section.
 
-   ![In-store Delivery](./assets/in-store-shipping.png)<!-- zoom -->
+   ![In-store Delivery](../configuration-reference/sales/assets/delivery-methods-in-store-delivery.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Enabled]** to `Yes`.
 
@@ -48,7 +48,7 @@ First, check that In-store Delivery is enabled.
 
    The default title is `In-Store Pickup Delivery`.
 
-1. Enter the **[!UICONTROL Price]** to charge customers for the in-store pickup service.
+1. To charge customers for the in-store pickup service, enter the fee in the **[!UICONTROL Price]** field.
 
 1. Enter the **[!UICONTROL Search Radius]** in kilometers for store pickup location search on storefront checkout.
 

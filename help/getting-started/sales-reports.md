@@ -100,8 +100,6 @@ For more information about using the [!UICONTROL Coupons Report] to gather data 
 
 ## [!UICONTROL PayPal Settlement Reports]
 
-![PayPal Settlement Report](./assets/reports-sales-paypal-settlement.png){width="600"}
-
 The [PayPal Settlement Reports] page includes the type of event, such as a debit card transaction, the start and finish dates, gross amount, and related fees. The report can be automatically updated with the most current data from PayPal. There are filtering options for date range, merchant account, transaction ID, invoice ID, or PayPal reference ID.
 
 On the _Admin_ sidebar, go to **[!UICONTROL Reports]** > _[!UICONTROL Sales]_ > **[!UICONTROL PayPal Settlement]**.

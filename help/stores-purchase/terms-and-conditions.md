@@ -7,7 +7,7 @@ exl-id: 59ba6385-3cc6-43e8-b984-5c26516bba88
 
 When manual _Terms and Conditions_ functionality is enabled, customers are required to agree to the terms and conditions of the sale before the purchase is finalized. The Terms and Conditions of the sale typically includes disclosure information that might be required by law for B2C or B2B sites, and outlines the rights of the buyer and seller. The Terms and Conditions message appears after the payment information, just before the _Place Order_ button.
 
-![Terms and Conditions at checkout](./assets/storefront-checkout-step2-terms-conditions.png)<!-- zoom -->
+![Terms and Conditions at checkout](./assets/storefront-checkout-step2-terms-conditions.png){width="700" zoomable="yes"}
 
 ## Step 1: Enable terms and conditions for checkout
 
@@ -17,7 +17,7 @@ When manual _Terms and Conditions_ functionality is enabled, customers are requi
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Checkout Options]** section.
 
-   ![Checkout Options](./assets/checkout-terms-options.png)<!-- zoom -->
+   ![Checkout Options](../configuration-reference/sales/assets/checkout-checkout-options.png){width="600" zoomable="yes"}
 
 1. Verify that **[!UICONTROL Enable Onepage Checkout]** is set to `Yes`.
 
@@ -29,13 +29,13 @@ When manual _Terms and Conditions_ functionality is enabled, customers are requi
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Terms and Conditions]**.
 
-   ![Terms and Conditions grid](./assets/terms-conditions.png)<!-- zoom -->
+   ![Terms and Conditions grid](./assets/terms-conditions.png){width="600" zoomable="yes"}
 
 1. In the upper-right corner, click **[!UICONTROL Add New Condition]**.
 
-   ![New Condition](./assets/terms-conditions-new.png)<!-- zoom -->
-
 1. Enter the **[!UICONTROL Condition Name]** for internal reference.
+
+   ![New Condition](./assets/terms-conditions-new.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Status]** to `Enabled`.
 
