@@ -35,7 +35,7 @@ As you learn new words that people use to search in your store, you can add them
 
 >[!NOTE]
 >
->The number of results updates every time when somebody search using this search query. It will not be updated if any of the products will be changed or removed.
+>The number of results is updated every time a shopper executes a search using this search query. It is not updated if any of the products are changed or removed.
 
 ### Add a search term
 
