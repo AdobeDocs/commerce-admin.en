@@ -19,25 +19,25 @@ Get started with the Commerce Admin Integration with Experience Cloud by configu
 
 ## Configuration Overview
 
-To set up the Experience Cloud integration for a Commerce instance, complete the following steps.
+To set up the Experience Cloud integration for a Commerce instance, complete the following 
 
 1. Check the Commerce application environment.
 
-1. Enable the Commerce Admin Unified Experience extension
+1. Enable the Commerce Admin Unified Experience extension.
 
-1. Connect to the Adobe I/O Events
+1. Connect to the Adobe I/O Events.
 
 1. Test the integration.
 
 ## Check the Commerce application and environment
 
 - Verify that IMS is enabled on the Commerce instance
-- Verify that Commerce Admin accounts for the Cloud instance can successfully authenticate when IMS is enabled
+- Verify that Commerce Admin administrators for the Commerce instance can successfully authenticate when IMS is enabled
 - Verify that the required extensions are available in the cloud project environment
 
-1. On your local workstation, change to the project directory for your Commerce on cloud project.
+1. On your local workstation, change to the project directory for your Commerce project.
 
-1. Check out the environment branch for the instance you plan to configure.
+1. Check out the environment branch for the instance you want integrate with Experience Cloud.
 
 1. Verify that Adobe IMS is enabled.
 
@@ -118,7 +118,7 @@ Enable the Commerce Admin Unified Experience extension, and then log in through 
 
 1. After you log in, the Commerce Admin opens within the Experience Cloud interface.
 
-   ![Experience Cloud ](./assetsadmin-uex-commerceadmin-view.png){width="700" zoomable="yes"}
+   ![Experience Cloud ](./assets/admin-uex-commerceadmin-view.png){width="700" zoomable="yes"}
 
 ## Set Up Adobe I/O Events
 
@@ -163,7 +163,7 @@ Complete the following steps to configure the Adobe I/O events service for the E
 
 1. From the Adobe Developer Console, [add the Commerce event provider to the App Builder project workspace, and then subscribe to all events from the Commerce Admin Unified Experience extension](https://developer.adobe.com/commerce/events/get-started/configure-commerce/#subscribe-and-register-events).
 
-  ![Experience Cloud ](./assets/uex-event-registration-selection){width="700" zoomable="yes"}
+  ![Experience Cloud ](./assets/uex-event-registration-selection.png){width="700" zoomable="yes"}
 
 
 ## Add Commerce Admin users to the Admin Console
