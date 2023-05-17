@@ -101,9 +101,9 @@ Enable the Commerce Admin Unified Experience extension, and then log in through 
 
 1. Clear the cache.
 
-    ```bash
-    web@mymagento.0:~$ bin/magento cache:clean
-    Admin Unified Experience integration is enabled
+   ```bash
+   web@mymagento.0:~$ bin/magento cache:clean
+   Admin Unified Experience integration is enabled
    ```
 
 1. Verify that you can log in to the Commerce Admin through Experience Cloud.
@@ -142,7 +142,7 @@ Complete the following steps to configure the Adobe I/O events service for the E
 
 1. From the Adobe Developer Console, [create an App Builder project](https://developer.adobe.com/commerce/events/get-started/project-setup/) to consume event data from the Experience Cloud integration.
 
-   - When you add and save the Adobe I/O Management API, the credentials to connect to the Commerce instance are downloaded to your local environment in a configuration file (`config.zip).
+   - When you add and save the Adobe I/O Management API, the credentials to connect to the Commerce instance are downloaded to your local environment in a configuration file (`config.zip`).
 
    - After you add the Adobe I/O Events for Commerce API, download the workspace configuration file from the Workspace overview page by selecting **[!UICONTROL Download all]**.
 

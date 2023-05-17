@@ -44,7 +44,7 @@ The Commerce Projects workspace displays the available Commerce development, sta
 
 - **Storefront access**—Open the storefront by selecting **[!UICONTROL Open storefront]** from the options menu.
 
-- **Quick access to select projects**—Select **[!UICONTROL Add to Favorites]** from the options menu to add a project to the [!UIControl Favorites] tab.
+- **Quick access to select projects**—Select **[!UICONTROL Add to Favorites]** from the options menu to add a project to the [!UICONTROL Favorites] tab.
 
 ## Access Experience Cloud resources from the Commerce Admin
 
