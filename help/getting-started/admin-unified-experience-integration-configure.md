@@ -140,7 +140,7 @@ To enable the Adobe I/O Events service, complete the following set up and config
 
 >[!NOTE]
 >
->The following procedures provide high-level instructions for setting up the Adobe I/O Events service with notes and links to more detailed documentation. Learn more about Adobe Developer App Builder and Adobe I/O events by completing the [Introduction to App Builder tutorial](https://experienceleague-review.corp.adobe.com/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder.html#adobe-developer-app-builder).
+>The following procedures provide high-level instructions for setting up the Adobe I/O Events service with notes and links to more detailed documentation. Learn more about Adobe Developer App Builder and Adobe I/O events by completing the [Introduction to App Builder tutorial](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder.html#adobe-developer-app-builder).
 
 ### Create an App Builder project
 
