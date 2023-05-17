@@ -96,6 +96,6 @@ You need the following components to use the Experience Cloud integration on a C
 
 - [Adobe I/O Events service](https://developer.adobe.com/commerce/events/get-started/)—Required to send event data to coordinate workflows between Adobe services and the Commerce instance.
 
-  The Adobe I/O Events integration with Commerce is enabled by the Commerce Event extension (`magento/commerce-eventing`) which is available after installing the Commerce Admin Unified Experience extension. You must also generate the credentials to connect Commerce with the Adobe I/O Events service and add those credentials to the Commerce Store configuration.
+  The Adobe I/O Events integration with Commerce is enabled by the Commerce Event extension (`magento/commerce-eventing`) which is installed along with the Commerce Admin Unified Experience extension. To enable the Adobe I/O Events service, you create an App Builder project to manage the event data and configure the Adobe I/O Events service in the Commerce Admin.
 
 For detailed configuration instructions, see [Configure the Commerce Admin integration with Experience Cloud](admin-unified-experience-integration-configure.md).
