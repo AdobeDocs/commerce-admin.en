@@ -10,7 +10,7 @@ Streamline cross-application workflows between Adobe Commerce and other Experien
 
 ![Experience Cloud ](./assets/admin-uex-home-page.png){width="700" zoomable="yes"}
 
-The Commerce Admin Unified Experience extension (`magento/unified-shell-module`) enables the Experience Cloud integration. When the extension is enabled, Commerce Admin users have single sign-on access through Experience Cloud and a common interface to manage available Experience Cloud applications.
+The Commerce Admin Unified Experience extension (`magento/unified-shell-module`) enables the Experience Cloud integration that provides Commerce administrators single sign-on access to the Commerce Admin through Experience Cloud.
 
 - **Commerce Admin users** can use the same workflows to manage Commerce sites and complete additional tasks:
 
@@ -28,11 +28,11 @@ The Commerce Admin Unified Experience extension (`magento/unified-shell-module`)
 
 ## View available Commerce projects
 
-The Commerce Admin Unified Experience extension provides a Commerce Projects workspace to view available cloud environments and access both the storefront and Admin for each environment from Experience Cloud.
+The Experience Cloud integration adds a Commerce Projects workspace to view available cloud environments from Experience Cloud.
 
 ![Experience Cloud dashboard](./assets/admin-uex-commerce-projects-home.png){width="700" zoomable="yes"}
 
-The Commerce Projects workspace displays the available Commerce development, staging, and production environments and provides project details and access links:
+The workspace displays the available Commerce development and production environments with project details and access links:
 
 - **Snapshot of Commerce storefront home page**—Snapshot of the storefront home page. If a project has multiple websites, the snapshot shows the home page for the default site.
 
@@ -48,11 +48,11 @@ The Commerce Projects workspace displays the available Commerce development, sta
 
 ## Access Experience Cloud resources from the Commerce Admin
 
-When you open the Commerce Admin from the Commerce Projects workspace, the Commerce Admin displays with a header tha includes additional options available with the Experience Cloud integration.
+When you access the Commerce Admin from Commerce Projects, the Commerce Admin view includes a header with additional options available with the Experience Cloud integration.
 
 ![Experience Cloud dashboard](./assets/admin-uex-commerceadmin-view.png){width="700" zoomable="yes"}
 
-Admin users can use these options to manage Commerce and other Experience Cloud applications provisioned for their account and quickly access resources from the integrated Help Center.
+Administrators can use these options to manage Commerce and other Experience Cloud applications provisioned for their account and quickly access resources from the integrated Help Center.
 
 | Option                                                     | Action                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -96,6 +96,6 @@ You need the following components to use the Experience Cloud integration on a C
 
 - [Adobe I/O Events service](https://developer.adobe.com/commerce/events/get-started/)—Required to send event data to coordinate workflows between Adobe services and the Commerce instance.
 
-  The Adobe I/O Events integration with Commerce is enabled by the Commerce Event extension (`magento/commerce-eventing`) which is installed along with the Commerce Admin Unified Experience extension. To enable the Adobe I/O Events service, you create an App Builder project to manage the event data and configure the Adobe I/O Events service in the Commerce Admin.
+  The Adobe I/O Events integration with Commerce is enabled by the Commerce Event extension (`magento/commerce-eventing`) which is installed along with the Commerce Admin Unified Experience extension.
 
 For detailed configuration instructions, see [Configure the Commerce Admin integration with Experience Cloud](admin-unified-experience-integration-configure.md).
