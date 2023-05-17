@@ -19,7 +19,7 @@ The first step of the checkout process is for the customer to complete the shipp
 
 The progress bar at the top of the page follows each step of the checkout process, and the Order Summary shows that the information entered so far.
 
-![Shipping page during the checkout process](./assets/storefront-checkout-step1-shipping.png)<!-- zoom -->
+![Shipping page during the checkout process](./assets/storefront-checkout-step1-shipping.png){width="600" zoomable="yes"}
 
 #### Ship to a different address
 
@@ -35,21 +35,21 @@ The progress bar at the top of the page follows each step of the checkout proces
 
    By default, the customer's first and last name initially appear in the form.
 
-   ![Shipping Address form includes name and address information](./assets/storefront-checkout-step1-shipping-add-new-address.png)<!-- zoom -->
+   ![Shipping Address form includes name and address information](./assets/storefront-checkout-step1-shipping-add-new-address.png){width="600" zoomable="yes"}
 
-1. To save the new address in the address book, selects the checkbox at the bottom of the form.
+1. To save the new address in the address book, the customer selects the checkbox at the bottom of the form.
 
 1. Clicks **[!UICONTROL Save Address]**.
 
    The new address is now selected as the shipping address.
 
-   ![The saved address is automatically selected in the Shipping page](./assets/storefront-checkout-step1-shipping-new-address-selected.png)<!-- zoom -->
+   ![The saved address is automatically selected in the Shipping page](./assets/storefront-checkout-step1-shipping-new-address-selected.png){width="600" zoomable="yes"}
 
 #### Choose the shipping method
 
 1. In the list of [shipping](delivery.md) methods, the customer chooses the option that they want to use.
 
-   ![Shipping page displays shipping method options](./assets/storefront-checkout-step1-shipping-methods.png)<!-- zoom -->
+   ![Shipping page displays shipping method options](./assets/storefront-checkout-step1-shipping-methods.png){width="600" zoomable="yes"}
 
 1. Clicks **[!UICONTROL Next]** to continue.
 
@@ -61,14 +61,13 @@ During the second step of the checkout process, the customer chooses the [paymen
 >
 >Although Commerce allows configuring multiple coupon codes, a customer may apply only one coupon code to the cart. (See the [Coupon Codes](../merchandising-promotions/price-rules-cart-coupon.md) for more information.)
 
-![Review and payment page during checkout](./assets/storefront-checkout-step2-payment-review.png)<!-- zoom -->
+![Review and payment page during checkout](./assets/storefront-checkout-step2-payment-review.png){width="700" zoomable="yes"}
 
 ### Review and Payments - Purchase Order
 
 ![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce only)
 
-When a customer is associated with a company that has enabled purchase orders, all orders are processed as purchase orders.
-Available payment methods are determined by the company account.
+When a customer is associated with a company that has enabled [purchase orders](../b2b/purchase-order-flow.md), all orders are processed as purchase orders. Available payment methods are determined by the company account settings.
 
 1. The customer selects a payment method.
 
@@ -80,13 +79,13 @@ Available payment methods are determined by the company account.
 
 If the company has set up [approval rules](../b2b/account-dashboard-approval-rules.md), the purchase order goes through the approval process. Otherwise, it is processed immediately.
 
-![Purchase order review and payment](./assets/checkout-storefront-step2-b2b.png)<!-- zoom -->
+![Purchase order review and payment](./assets/checkout-storefront-step2-b2b.png){width="700" zoomable="yes"}
 
 ### Number of items displayed in the order summary
 
 Admin users can change the maximum number of items displayed in the order summary at checkout to streamline the display with fewer products. By default, this value is set to 10.
 
-   ![Number of items displayed in Order Summary](./assets/order-summary.png)<!-- zoom -->
+   ![Number of items displayed in Order Summary](./assets/order-summary.png){width="700" zoomable="yes"}
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -106,13 +105,13 @@ The order confirmation appears after the order is placed. For registered custome
 
 The order confirmation page is also called the _Success_ page, and is used by analytics programs to track conversions.
 
-![Order Confirmation page displays a success message and order number](./assets/storefront-checkout-confirmation-customer.png)<!-- zoom -->
+![Order Confirmation page displays a success message and order number](./assets/storefront-checkout-confirmation-customer.png){width="700" zoomable="yes"}
 
 ## Checkout options
 
 The checkout options control various attributes for the checkout page, including the layout. There are options that you can configure to place constraints on checkout, including allowing guest checkout and enforcing a terms and conditions agreement. There are also options for controlling the display of information during the checkout process.
 
-![Configuration - checkout options](../configuration-reference/sales/assets/checkout-checkout-options.png)<!-- zoom -->
+![Configuration - checkout options](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
 
 For a detailed description of each of these configuration settings, see [Checkout Options](../configuration-reference/sales/checkout.md#checkout-options) in the _Configuration Reference Guide_.
 
@@ -142,7 +141,7 @@ For a detailed description of each of these configuration settings, see [Checkou
 |[!UICONTROL Enable Terms and Conditions]|Store View|Determines if customers are required to agree to the [Terms and Conditions](terms-and-conditions.md) of the sale before making a purchase. Options: `Yes` / `No`|
 |[!UICONTROL Display Billing Address On]|Store View|Determines the location of the Billing Address during checkout. Options: `Payment Method` / `Payment Page`|
 |[!UICONTROL Maximum Number of Items to Display in Order Summary]|Store View|Determines the maximum number of items that can  appear in the Order Summary during checkout. The default is `10`.|
-|[!UICONTROL Enable Address Search]|Website|![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Determines if customers can use [address search](checkout-address-search.md) functionality for _Shipping_, and the _Review & Payments_ steps. When this is enabled, use the Number of Customer Addresses Limit to set the number of saved addresses required to activate this functionality during checkout. Options: `Yes` / `No`|
+|[!UICONTROL Enable Address Search]|Website|![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Determines if customers can use [address search](checkout-address-search.md) functionality for _Shipping_, and the _Review & Payments_ steps. When this function is enabled, use the _[!UICONTROL Number of Customer Addresses Limit]_ to set the number of saved addresses required to activate this functionality during checkout. Options: `Yes` / `No`|
 |[!UICONTROL Number of Customer Addresses Limit]|Website|![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) When address search is **[!UICONTROL Enabled]**, determines the number of saved addresses required to activate this functionality during checkout. When the customer's number of saved addresses meets or exceeds this number, only the default address is rendered on the _Shipping_ and _Review & Payments_ steps. The customer can use a search function to change the selected address. The default is 10.|
 
 {style="table-layout:auto"}

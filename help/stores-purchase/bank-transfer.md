@@ -15,7 +15,7 @@ Adobe Commerce and Magento Open Source allow you to accept payment that is trans
 
 1. Under _Other Payment Methods_, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Bank Transfer Payment]** section.
 
-   ![Bank Transfer Payment](../configuration-reference/sales/assets/payment-methods-bank-transfer-payment.png)<!-- zoom -->
+   ![Bank Transfer Payment](../configuration-reference/sales/assets/payment-methods-bank-transfer-payment.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -23,7 +23,7 @@ Adobe Commerce and Magento Open Source allow you to accept payment that is trans
 
 1. To activate bank transfers, set **[!UICONTROL Enabled]** to `Yes`.
 
-1. Enter a **[!UICONTROL Title]** to identify the Bank Transfer Payment method during checkout.
+1. For **[!UICONTROL Title]**, enter a title that identifies the bank transfer payment method during checkout.
 
 1. Set **[!UICONTROL New Order Status]** to `Pending` until payment is authorized.
 
@@ -35,7 +35,7 @@ Adobe Commerce and Magento Open Source allow you to accept payment that is trans
 
 1. Enter the **[!UICONTROL Instructions]** that your customers must follow to set up a bank transfer.
 
-   Depending on the country where your bank is located and the requirements of the bank, you might need to include the following information:
+   Depending on the country where your bank is located and the requirements of the bank, you can include the following information:
 
    - Bank account name
    - Bank account number
@@ -49,8 +49,8 @@ Adobe Commerce and Magento Open Source allow you to accept payment that is trans
    >
    >An order qualifies if the total falls between, or exactly matches, the minimum or maximum total values.
 
-1. Enter a **[!UICONTROL Sort Order]** number to determine the position of this item in the list of payment methods that is displayed during checkout.
+1. For **[!UICONTROL Sort Order]**, enter a number that determines the position of this item in the list of payment methods that is displayed during checkout.
 
-   This is relative to the other payment methods. (`0` = first, `1` = second, `2` = third, and so on.)
+   This number is relative to the other payment methods. (`0` = first, `1` = second, `2` = third, and so on.)
 
 1. When complete, click **[!UICONTROL Save Config]**.

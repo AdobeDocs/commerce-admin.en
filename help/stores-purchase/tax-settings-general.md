@@ -25,7 +25,7 @@ Admin [permissions](../systems/permissions.md) can be set to restrict [access](.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Tax Classes]** section.
 
-   ![Tax Classes](../configuration-reference/sales/assets/tax-tax-classes.png)<!-- zoom -->
+   ![Tax Classes](../configuration-reference/sales/assets/tax-tax-classes.png){width="600" zoomable="yes"}
 
    - **Tax Class for Shipping** — Set to the appropriate class. The default classes are: `None` and `Taxable Goods`
    - **Tax Class for Gift Options** — ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Set to the appropriate class. The default classes are: `None` and `Taxable Goods`
@@ -38,7 +38,7 @@ Admin [permissions](../systems/permissions.md) can be set to restrict [access](.
 
 1. Expand the **[!UICONTROL Calculation Settings]** section.
 
-   ![Calculation Settings](../configuration-reference/sales/assets/tax-calculation-settings.png)<!-- zoom -->
+   ![Calculation Settings](../configuration-reference/sales/assets/tax-calculation-settings.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Tax Calculation Method Based On]** to one of the following:
 
@@ -75,7 +75,7 @@ Admin [permissions](../systems/permissions.md) can be set to restrict [access](.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Default Tax Destination Calculation]** section.
 
-   ![Default Tax Destination Calculation](../configuration-reference/sales/assets/tax-default-tax-destination-calculation.png)<!-- zoom -->
+   ![Default Tax Destination Calculation](../configuration-reference/sales/assets/tax-default-tax-destination-calculation.png){width="600" zoomable="yes"}
 
 1. Specify the **[!UICONTROL Default Country]** for tax calculations.
 
@@ -93,7 +93,7 @@ Admin [permissions](../systems/permissions.md) can be set to restrict [access](.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Price Display Settings]** section.
 
-   ![Price Display Settings](../configuration-reference/sales/assets/tax-price-display-settings.png)<!-- zoom -->
+   ![Price Display Settings](../configuration-reference/sales/assets/tax-price-display-settings.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Display Product Prices in Catalog]** to one of the following:
 
@@ -109,7 +109,7 @@ Admin [permissions](../systems/permissions.md) can be set to restrict [access](.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Shopping Cart Display Settings]** section.
 
-   ![Shopping Cart Display Settings](../configuration-reference/sales/assets/tax-shopping-cart-display-settings.png)<!-- zoom -->
+   ![Shopping Cart Display Settings](../configuration-reference/sales/assets/tax-shopping-cart-display-settings.png){width="600" zoomable="yes"}
 
 1. For each of the following settings, choose how you want taxes and prices to appear in the cart, according to the requirements of your store and locale:
 
@@ -135,7 +135,7 @@ Admin [permissions](../systems/permissions.md) can be set to restrict [access](.
 
 1. Expand ![Expansion](../assets/icon-display-expand.png) the **[!UICONTROL Orders, Invoices, Credit Memos Display Settings]** section.
 
-   ![Orders, Invoices, Credit Memos Display Settings](../configuration-reference/sales/assets/tax-orders-invoices-credit-memos-display-settings.png)<!-- zoom -->
+   ![Orders, Invoices, Credit Memos Display Settings](../configuration-reference/sales/assets/tax-orders-invoices-credit-memos-display-settings.png){width="600" zoomable="yes"}
 
 1. Specify how prices and taxes appear in orders, invoices, and credit memos:
 
@@ -161,7 +161,7 @@ Admin [permissions](../systems/permissions.md) can be set to restrict [access](.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Fixed Product Taxes]** section.
 
-   ![Fixed Product Taxes](./assets/fixed-product-taxes.png)<!-- zoom -->
+   ![Fixed Product Taxes](../configuration-reference/sales/assets/tax-fixed-product-taxes.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Enable FPT]** to either to `Yes` or `No`, according to your requirements.
 
@@ -193,7 +193,7 @@ Admin [permissions](../systems/permissions.md) can be set to restrict [access](.
 
 Cross-border trade (also referred to as price consistency) supports European Union (EU) and other merchants who want to maintain consistent prices for customers whose tax rates are different from the store tax rate.
 
-Merchants operating across regions and geographies can display a single price by including the tax in the price of the product. Pricing is clean and uncluttered regardless of tax structures and rates that vary from country to country.
+Merchants operating across regions and geographies can display a single price by including the tax in the price of the product. Pricing is clean and uncluttered regardless of tax structures and rates that vary from country to country. These settings require that a tax calculation extension is installed from the [Marketplace](../getting-started/commerce-marketplace.md), such as _Vertex Cloud_.
 
 >[!NOTE]
 >
@@ -214,6 +214,6 @@ Merchants operating across regions and geographies can display a single price by
 
 1. To enable cross-border price consistency, set **[!UICONTROL Enable Cross Border Trade]** to `Yes`.
 
-   ![Enable Cross Border Trade Settings](./assets/cross-border-calculations-settings.png)<!-- zoom -->
+   ![Enable Cross Border Trade Settings](./assets/cross-border-calculations-settings.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Config]**.

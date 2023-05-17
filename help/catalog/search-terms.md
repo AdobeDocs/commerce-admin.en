@@ -33,6 +33,10 @@ As you learn new words that people use to search in your store, you can add them
 
 {style="table-layout:auto"}
 
+>[!NOTE]
+>
+>The number of results is updated every time a shopper executes a search using this search query. It is not updated if any of the products are changed or removed.
+
 ### Add a search term
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_ > **[!UICONTROL Search Terms]**.
