@@ -13,6 +13,10 @@ When enabled in the configuration, [!DNL Page Builder] is the default content cr
 ><br><br>
 >You can access this setting when you go to [!UICONTROL Stores] > _[!UICONTROL Settings]_ > [!UICONTROL Configuration], expand [!UICONTROL Catalog], and choose [!UICONTROL Catalog] underneath. The [!UICONTROL Mask for Meta Description] field is in the [!UICONTROL Product Fields Auto-generation] section.
 
+>[!NOTE]
+>
+>An Admin user must have [!UICONTROL Content] permissions for their [role scope](../systems/permissions-user-roles.md) to see [!UICONTROL Edit with Page Builder] buttons and be able to use Page Builder.
+
 For more information about the Content Management Advanced Tools configuration options, see the [_Configuration Reference Guide_](../configuration-reference/general/content-management.md).
 
 ## Configure [!DNL Page Builder]
@@ -80,8 +84,6 @@ For more information about the Content Management Advanced Tools configuration o
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** and set **[!UICONTROL Enable Page Builder]** to `No`.
 
 1. When prompted to confirm, click **[!UICONTROL Turn Off]**.
-
-   ![Turn off [!DNL Page Builder] - confirm](./assets/disable-page-builder-popup.png)<!-- zoom -->
 
 1. When complete, click **[!UICONTROL Save Config]**.
 

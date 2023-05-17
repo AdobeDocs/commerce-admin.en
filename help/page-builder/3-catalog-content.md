@@ -11,10 +11,6 @@ This exercise demonstrates how easy it is to add a product list to a page, custo
 
 This exercise assumes that you have completed [Part 1: Simple Page](1-simple-page.md) and [Part 2: Blocks](2-blocks.md), including the prerequisites and downloaded sample files. Follow the three parts of this exercise in order.
 
->[!NOTE]
->
->These exercises are updated to reflect recent changes to the [!DNL Page Builder] workspace in the 2.4.1 release. If you are using an earlier Adobe Commerce release, use the [!DNL Page Builder] walkthrough exercises included in the [[!DNL Commerce] 2.3 User Guide](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html).
-
 ## Part 1: Add a product list
 
 [!DNL Page Builder] makes it easy to add a product list to the stage. In this example, the product list is added directly to a page.
@@ -82,6 +78,10 @@ This exercise assumes that you have completed [Part 1: Simple Page](1-simple-pag
 1. In the upper-right corner, click the **[!UICONTROL Save]** arrow and choose **[!UICONTROL Save & Close]**.
 
 ## Part 2: Customize the product page
+
+>[!NOTE]
+>
+>An Admin user must have [!UICONTROL Content] permissions for their [role scope](../systems/permissions-user-roles.md) to see [!UICONTROL Edit with Page Builder] buttons and be able to use Page Builder.
 
 In this part of the exercise, you learn how easy it is to customize a product page by placing a video below the set of tabs on the product page. The process to update [category page](../catalog/categories-content-settings.md) content is basically the same.
 
