@@ -62,7 +62,7 @@ Before configuring the Experience Cloud integration, verify that your project an
 
    - Ensure that the Admin user is redirected to log in using their Adobe ID.
 
-     ![Experience Cloud ](./assets/admin-adobeid-login.png){width="700" zoomable="yes"}
+     ![Experience Cloud](./assets/admin-adobeid-login.png){width="700" zoomable="yes"}
 
 1. Verify that the Commerce Admin Unified Experience extension is available on your instance.
 
@@ -80,7 +80,7 @@ Before configuring the Experience Cloud integration, verify that your project an
 
     If the extension is not installed, use Composer to install it. Then, commit the changes and redeploy the cloud environment.
 
-    ```
+    ```bash
     composer require magento/module-unified-experience
     composer update
     ```
@@ -98,14 +98,14 @@ Enable the Commerce Admin Unified Experience extension, and then log in through 
 1. Enable the `magento/module-unified-experience` extension using the Adobe Commerce CLI:
 
    ```bash
-   web@mymagento.0:~$ bin/magento config:set admin/unified_experience/enabled 1
+   bin/magento config:set admin/unified_experience/enabled 1
    Admin Unified Experience integration is enabled
    ```
 
 1. Clear the cache.
 
    ```bash
-   web@mymagento.0:~$ bin/magento cache:clean
+   bin/magento cache:clean
    Admin Unified Experience integration is enabled
    ```
 
@@ -113,7 +113,7 @@ Enable the Commerce Admin Unified Experience extension, and then log in through 
 
    - In an incognito browser window, navigate to the store Admin URL to sign in through Experience League.
 
-     ![Experience Cloud ](./assets/admin-uex-login.png){width="700" zoomable="yes"}
+     ![Experience Cloud](./assets/admin-uex-login.png){width="700" zoomable="yes"}
 
 1. Enter your Adobe ID to log in.
 
@@ -121,13 +121,13 @@ Enable the Commerce Admin Unified Experience extension, and then log in through 
 
 1. After you log in, the Commerce Admin opens within the Experience Cloud interface.
 
-   ![Experience Cloud ](./assets/admin-uex-commerceadmin-view.png){width="700" zoomable="yes"}
+   ![Commerce Admin view with Experience Cloud integration](./assets/admin-uex-commerceadmin-view.png){width="700" zoomable="yes"}
 
 ## Set up Adobe I/O Events for Commerce
 
 After you can log in successfully through Experience Cloud, set up the Adobe I/O Events service.
 
-The Commerce Admin Unified Experience extension uses the Adobe I/O Events service to send custom event data from the Commerce instance to Experience Cloud. The event data is used to coordinate workflows for the Experience Cloud integration including redirecting Commerce Admin requests through Experience Cloud and managing access to available Commerce projects.
+The Commerce Admin Unified Experience extension uses the Adobe I/O Events service to send custom event data from the Commerce instance to Experience Cloud. The event data is used to coordinate workflows for the Experience Cloud integration, including redirecting Commerce Admin requests through Experience Cloud and managing access to available Commerce projects.
 
 To enable the Adobe I/O Events service, complete the following set up and configuration tasks.
 
@@ -179,7 +179,7 @@ Configure the Adobe I/O events service and Commerce event provider on the Commer
 
 1. From the Adobe Developer Console, [add the Commerce event provider and subscribe to events](https://developer.adobe.com/commerce/events/get-started/configure-commerce/#subscribe-and-register-events) from the Commerce Admin Unified Experience extension.
 
-   ![Experience Cloud ](./assets/uex-event-registration-selection.png){width="700" zoomable="yes"}
+   ![Experience Cloud](./assets/uex-event-registration-selection.png){width="700" zoomable="yes"}
 
 ## Test the integration
 
@@ -198,10 +198,6 @@ Verify that a Commerce Administrator can view and manage Commerce instances and 
    ![Experience Cloud dashboard](./assets/admin-uex-commerceadmin-view.png){width="700" zoomable="yes"}
 
    Try out the [options available in the header](admin-unified-experience-integration-overview.md#access-experience-cloud-resources-from-the-commerce-admin) to open the Help Center, switch to another Experience Cloud application or back to [!UICONTROL Experience Cloud Home].
-
-
-
-
 
 
 
