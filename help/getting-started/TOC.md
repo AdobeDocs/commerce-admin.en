@@ -23,7 +23,7 @@ breadcrumb-title: Getting Started
   + Adobe Experience Cloud Integration {#unifiedexperience}
     + [Overview](admin-unified-experience-integration-overview.md)
     + [Configure the integration](admin-unified-experience-integration-configure.md)
-    + [Commerce projects from Experience Cloud](admin-unified-experience-integration-manage.md)
+    + [Manage the Experience Cloud integration](admin-unified-experience-integration-manage.md)
   + Admin tools and workspace {#tools}
     + [Workspace](admin-workspace.md)
     + [The Admin sidebar](admin-menu.md)
