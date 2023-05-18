@@ -10,7 +10,7 @@ Streamline cross-application workflows between Adobe Commerce and other Experien
 
 ![Experience Cloud ](./assets/admin-uex-home-page.png){width="700" zoomable="yes"}
 
-The Commerce Admin Unified Experience extension (`magento/unified-shell-module`) enables the Experience Cloud integration that provides Commerce administrators single sign-on access to the Commerce Admin through Experience Cloud.
+The Commerce Admin Unified Experience extension (`magento/unified-shell-module`) enables the integration between Experience Cloud and the Commerce instance. When the integration is enabled, Commerce administrators can sign in to the Admin through Experience Cloud.
 
 - **Commerce Admin users** can use the same workflows to manage Commerce sites and complete additional tasks:
 
@@ -48,7 +48,7 @@ The workspace displays the available Commerce development and production environ
 
 ## Access Experience Cloud resources from the Commerce Admin
 
-When you access the Commerce Admin from Commerce Projects, the Commerce Admin view includes a header with additional options available with the Experience Cloud integration.
+When you open the Admin from the Commerce Projects workspace, the header includes additional options available with the Experience Cloud integration.
 
 ![Experience Cloud dashboard](./assets/admin-uex-commerceadmin-view.png){width="700" zoomable="yes"}
 

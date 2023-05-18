@@ -111,7 +111,7 @@ Enable the Commerce Admin Unified Experience extension, and then log in through 
 
 1. Verify that you can log in to the Commerce Admin through Experience Cloud.
 
-   - In an incognito browser window, navigate to the store Admin URL to sign in through Experience League.
+   - In an incognito browser window, navigate to the store Admin URL to sign in through Experience Cloud.
 
      ![Experience Cloud](./assets/admin-uex-login.png){width="700" zoomable="yes"}
 
@@ -144,9 +144,9 @@ To enable the Adobe I/O Events service, complete the following set up and config
 
 ### Create an App Builder project
 
-Create an Adobe Developer App Builder project to consume the custom Commerce event data provided by the Commerce Admin Unified Experience extension and make it available to Adobe services and other third-party applications.
+Create an Adobe Developer App Builder project to receive the custom Commerce event data sent from the Commerce instance and make it available to Adobe services and other third-party applications.
 
-1. From the Adobe Developer Console, [create an App Builder project](https://developer.adobe.com/commerce/events/get-started/project-setup/) to consume event data from the Experience Cloud integration.
+1. From the Adobe Developer Console, [create an App Builder project](https://developer.adobe.com/commerce/events/get-started/project-setup/) to receive event data from the Commerce instance.
 
    - When you add and save the Adobe I/O Management API, the credentials to connect to the Commerce instance are downloaded to your local environment in a configuration file (`config.zip`).
 
@@ -154,7 +154,7 @@ Create an Adobe Developer App Builder project to consume the custom Commerce eve
 
 ### Enable the Commerce Events extension
 
-Enable the Commerce Events extension (`magento/commerce-eventing`)  on the cloud environment. This extension manages the process to send custom event data from the Commerce application to the Adobe I/O Events service. The Commerce Events extension is installed automatically as a dependency of the Commerce Admin Unified Experience extension.
+Enable the Commerce Events extension (`magento/commerce-eventing`)  on the cloud environment. This extension is required to send custom event data from the Commerce application to the Adobe I/O Events service. The Commerce Events extension is installed automatically as a dependency of the Commerce Admin Unified Experience extension.
 
 1. From your local Commerce project development environment, add the following configuration to the `.magento.env.yaml` file.
 
@@ -183,11 +183,11 @@ Configure the Adobe I/O events service and Commerce event provider on the Commer
 
 ## Test the integration
 
-Verify that a Commerce Administrator can view and manage Commerce instances and access other Experience Cloud applications and services using the common interface.
+Verify that a Commerce Administrator can open the Admin from the Commerce Projects workspace, open the Help Center, and switch between Experience Cloud applications using the options in the header.
 
 1. [Sign in to Experience Cloud](https://experiencecloud.adobe.com/login?referrer_uri=https://experiencecloud.adobe.com/library) using the Adobe ID and the Company or School account associated with the Commerce instance.
 
-  ![Experience Cloud ](./assets/admin-uex-home-page.png){width="700" zoomable="yes"}
+  ![Access Commerce projects from Experience Cloud home page](./assets/admin-uex-home-page.png){width="700" zoomable="yes"}
 
 1. View available Commerce Projects by selecting [!UICONTROL Commerce].
 
