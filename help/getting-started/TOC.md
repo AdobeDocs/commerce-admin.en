@@ -21,9 +21,9 @@ breadcrumb-title: Getting Started
     + [IMS integration overview](adobe-ims-integration-overview.md)
     + [Configure the Admin integration with IMS](adobe-ims-config.md)
   + Adobe Experience Cloud Integration {#unifiedexperience}
-    + [Experience Cloud integration overview](admin-unified-experience-integration-overview.md)
+    + [Overview](admin-unified-experience-integration-overview.md)
     + [Configure the integration](admin-unified-experience-integration-configure.md)
-    + [Use Commerce Admin with Experience Cloud](admin-unified-experience-integration-manage.md)
+    + [Commerce projects from Experience Cloud](admin-unified-experience-integration-manage.md)
   + Admin tools and workspace {#tools}
     + [Workspace](admin-workspace.md)
     + [The Admin sidebar](admin-menu.md)

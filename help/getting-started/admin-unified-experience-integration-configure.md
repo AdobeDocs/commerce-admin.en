@@ -62,7 +62,7 @@ Before configuring the Experience Cloud integration, verify that your project an
 
    - Ensure that the Admin user is redirected to log in using their Adobe ID.
 
-     ![Experience Cloud](./assets/admin-adobeid-login.png){width="700" zoomable="yes"}
+     ![Adobe Commerce Sign In using Adobe ID](./assets/admin-adobeid-login.png){width="700" zoomable="yes"}
 
 1. Verify that the Commerce Admin Unified Experience extension is available on your instance.
 
@@ -85,7 +85,7 @@ Before configuring the Experience Cloud integration, verify that your project an
     composer update
     ```
 
-## Enable the Commerce Admin Unified Experience extension
+## Enable Commerce Admin Unified Experience
 
 Enable the Commerce Admin Unified Experience extension, and then log in through Experience Cloud.
 
@@ -113,7 +113,7 @@ Enable the Commerce Admin Unified Experience extension, and then log in through 
 
    - In an incognito browser window, navigate to the store Admin URL to sign in through Experience Cloud.
 
-     ![Experience Cloud](./assets/admin-uex-login.png){width="700" zoomable="yes"}
+     ![Experience Cloud Sign in page](./assets/admin-uex-login.png){width="700" zoomable="yes"}
 
 1. Enter your Adobe ID to log in.
 
@@ -121,7 +121,7 @@ Enable the Commerce Admin Unified Experience extension, and then log in through 
 
 1. After you log in, the Commerce Admin opens within the Experience Cloud interface.
 
-   ![Commerce Admin view with Experience Cloud integration](./assets/admin-uex-commerceadmin-view.png){width="700" zoomable="yes"}
+   ![Commerce Admin view with Experience Cloud integration enabled](./assets/admin-uex-commerceadmin-view.png){width="700" zoomable="yes"}
 
 ## Set up Adobe I/O Events for Commerce
 
@@ -152,7 +152,7 @@ Create an Adobe Developer App Builder project to receive the custom Commerce eve
 
    - After you add the Adobe I/O Events for Commerce API, download the workspace configuration file from the Workspace overview page by selecting **[!UICONTROL Download all]**.
 
-### Enable the Commerce Events extension
+### Enable Commerce Events
 
 Enable the Commerce Events extension (`magento/commerce-eventing`)  on the cloud environment. This extension is required to send custom event data from the Commerce application to the Adobe I/O Events service. The Commerce Events extension is installed automatically as a dependency of the Commerce Admin Unified Experience extension.
 
@@ -171,7 +171,7 @@ Enable the Commerce Events extension (`magento/commerce-eventing`)  on the cloud
 
 1.  Add, commit, and deploy the updated `.magento.env.yaml file` to the cloud environment.
 
-### Configure the Adobe I/O events service and event provider
+### Configure Adobe I/O events service
 
 Configure the Adobe I/O events service and Commerce event provider on the Commerce instance. Then, update the App Builder project to add the event provider and subscribe to the events used to monitor and manage the Experience Cloud integration.
 
@@ -181,33 +181,20 @@ Configure the Adobe I/O events service and Commerce event provider on the Commer
 
    ![Experience Cloud](./assets/uex-event-registration-selection.png){width="700" zoomable="yes"}
 
-## Test the integration
+### Test the integration
 
 Verify that a Commerce Administrator can open the Admin from the Commerce Projects workspace, open the Help Center, and switch between Experience Cloud applications using the options in the header.
 
 1. [Sign in to Experience Cloud](https://experiencecloud.adobe.com/login?referrer_uri=https://experiencecloud.adobe.com/library) using the Adobe ID and the Company or School account associated with the Commerce instance.
 
-  ![Access Commerce projects from Experience Cloud home page](./assets/admin-uex-home-page.png){width="700" zoomable="yes"}
+   ![Access Commerce projects from Experience Cloud home page](./assets/admin-uex-home-page.png){width="700" zoomable="yes"}
 
 1. View available Commerce Projects by selecting [!UICONTROL Commerce].
 
-   ![Experience Cloud dashboard](./assets/admin-uex-commerce-projects-home.png){width="700" zoomable="yes"}
+   ![Commerce Projects workspace for Experience Cloud](./assets/admin-uex-commerce-projects-home.png){width="700" zoomable="yes"}
 
 1. Open the Commerce Admin for an instance by selecting **[!UICONTROL Open]**.
 
-   ![Experience Cloud dashboard](./assets/admin-uex-commerceadmin-view.png){width="700" zoomable="yes"}
+   ![Commerce Admin view with Experience Cloud integration enabled](./assets/admin-uex-commerceadmin-view.png){width="700" zoomable="yes"}
 
    Try out the [options available in the header](admin-unified-experience-integration-overview.md#access-experience-cloud-resources-from-the-commerce-admin) to open the Help Center, switch to another Experience Cloud application or back to [!UICONTROL Experience Cloud Home].
-
-
-
-
-
-1. View available Commerce Projects
-
-1. Open the Commerce Admin.
-
-1. Verify access to Experience Cloud services
-
-1. Verify that you can complete tasks in the Commerce Admin as expected.
-
