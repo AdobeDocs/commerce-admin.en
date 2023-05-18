@@ -66,24 +66,24 @@ Before configuring the Experience Cloud integration, verify that your project an
 
 1. Verify that the Commerce Admin Unified Experience extension is available on your instance.
 
-   - From the cloud project directory on your local workstation, use composer to find the extension.
+   From the cloud project directory on your local workstation, use composer to find the extension.
 
-     ```bash
-     composer show *unified-experience**
-     ```
+   ```bash
+   composer show *unified-experience**
+   ```
 
-    If the extension is installed, Composer returns the information about the extension.
+   If the extension is installed, Composer returns the information about the extension.
 
-    ```
-    magento/module-unified-experience <version> Commerce module responsible for integration with Adobe Experience Cloud
-    ```
+   ```
+   magento/module-unified-experience <version> Commerce module responsible for integration with Adobe Experience Cloud
+   ```
 
-    If the extension is not installed, use Composer to install it. Then, commit the changes and redeploy the cloud environment.
+   If the extension is not installed, use Composer to install it. Then, commit the changes and redeploy the cloud environment.
 
-    ```bash
-    composer require magento/module-unified-experience
-    composer update
-    ```
+   ```
+   composer require magento/module-unified-experience
+   composer update
+   ```
 
 ## Enable Commerce Admin Unified Experience
 
