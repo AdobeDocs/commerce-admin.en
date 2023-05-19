@@ -10,9 +10,9 @@ Get started with the Commerce Admin Integration with Experience Cloud by configu
 
 - Adobe Commerce 2.4.5 or later
 - Adobe IMS integration enabled on the cloud environment
-- Account provisioning and permissions—Administrators must have access to the following resources to configure the integration for Commerce Admin:
+- Account provisioning and permissions—Administrators must have access to the following resources to configure the Experience Cloud integration:
   - [Adobe Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html)—Add and manage Adobe user and developer accounts for the organization
-  - [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/getting-started/)—Developer or system administrator access to generate connection credentials and information for the Adobe I/O Events service
+  - [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/getting-started/)—Developer or system administrator access to create App Builder projects and generate the connection credentials and project configuration to use the Adobe I/O Events service
   - [Commerce on cloud infrastructure project](https://experienceleague.adobe.com/docs/commerce-cloud-service/start/onboarding.html?lang=en#get-started-with-the-project-web-interface)—Install required modules and configure the Commerce application server using the Adobe Commerce CLI
   - [Commerce Admin](https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html)—Update store configuration and manage Commerce user accounts
 
