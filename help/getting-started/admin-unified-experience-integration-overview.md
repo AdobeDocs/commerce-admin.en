@@ -36,9 +36,11 @@ The workspace displays the available Commerce development and production environ
 
 - **Snapshot of Commerce storefront home page**—Snapshot of the storefront home page. If a project has multiple websites, the snapshot shows the home page for the default site.
 
-- **[Environment name and type](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html?lang=en)**— Displays the cloud project environment name and indicates whether it is Development, Staging, or Production environment. The environment name corresponds to the [Git branch name](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html) that has the source code for the project.
+- **[Project name](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html)**—Identifies the cloud project environment for the instance. The Project name defaults to the [Git branch name](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html) in the cloud project. You can change or update the project name by updating the configuration for the Experience Cloud integration.
 
 - **[Storefront URL](../stores-purchase/store-urls.md)**—Shows the base URL for the default website.
+
+- **[Environment type](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html)**—Commerce instances deployed to a development environment are identified with a [!UICONTROL Development] label. Instances that do not have a label are deployed to a Production environment.
 
 - **Commerce Admin access**—Open the Admin by clicking **[!UICONTROL Open]**.
 
