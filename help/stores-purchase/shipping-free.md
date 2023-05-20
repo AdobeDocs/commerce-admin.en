@@ -25,20 +25,20 @@ _Free shipping_ is one of the most effective promotions that you can offer. It c
 
 1. Set **[!UICONTROL Enabled]** to `Yes`.
 
-1. Enter a **[!UICONTROL Title]** to identify the Free Shipping method during checkout and a **[!UICONTROL Method Name]** to describe it.
+1. For **[!UICONTROL Title]**, enter a title that identifies the Free Shipping method during checkout and a **[!UICONTROL Method Name]** to describe it.
 
-1. Enter the **[!UICONTROL Minimum Order Amount]** to qualify for free shipping.
+1. For **[!UICONTROL Minimum Order Amount]**, enter the minimum total value that qualifies for free shipping.
 
-   >[!NOTE]
+   >[!TIP]
    >
-   >To use Free Shipping with [Table Rates](shipping-table-rate.md), make the Minimum Order Amount so high that it is never met. This prevents Free Shipping from going into effect, unless it is triggered by a price rule.
+   >To use free shipping with [table rates](shipping-table-rate.md), make the _[!UICONTROL Minimum Order Amount]_ so high that it is never met. Using this high value prevents free shipping from going into effect, unless it is triggered by a price rule.
 
 1. Set **[!UICONTROL Include Tax to Amount]**:
 
    - `Yes` – Includes tax when calculating the Minimum Order amount (Subtotal + Tax - Discount).
    - `No` – Does not include tax when calculating the Minimum Order amount (Subtotal - Discount).
 
-   ![Free Shipping](../configuration-reference/sales/assets/delivery-methods-free-shipping.png)<!-- zoom -->
+   ![Free Shipping](../configuration-reference/sales/assets/delivery-methods-free-shipping.png){width="600" zoomable="yes"}
 
 1. For **[!UICONTROL Displayed Error Message]**, enter the message to appear if free shipping becomes unavailable.
 
@@ -46,14 +46,14 @@ _Free shipping_ is one of the most effective promotions that you can offer. It c
 
    - `All Allowed Countries` – Customers from all [countries](../getting-started/store-details.md#country-options) specified in your store configuration can use free shipping.
 
-   - `Specific Countries` – After choosing this option, the Ship to Specific Countries list appears. Select each country in the list where free shipping can be used.
+   - `Specific Countries` – After choosing this value, the _[!UICONTROL Ship to Specific Countries]_ list appears. Select each country in the list where free shipping can be used.
 
 1. Set **[!UICONTROL Show Method if Not Applicable]**:
 
    - `Yes` – Always shows the Free Shipping method, even when not applicable.
    - `No` – Shows the Free Shipping method only when applicable.
 
-1. Enter a **[!UICONTROL Sort Order]** number to determine the position of free shipping in the list of delivery methods during checkout.
+1. For **[!UICONTROL Sort Order]**, enter the number that determines the position of free shipping in the list of delivery methods during checkout.
 
    `0` = first, `1` = second, `2` = third, and so on.
 

@@ -57,7 +57,7 @@ The possible display fields vary depending on the calculation method and whether
 
 ### Tax amounts as line items
 
-To display two different tax amounts as separate line items, such as GST and PST for Canadian stores, you must set different priorities for the related tax rules. However, in previous tax calculations, taxes with different priorities would automatically be compounded. To correctly display separate tax amounts without an incorrect compounding of the tax amounts, you can set different priorities, and also select the Calculate off subtotal only checkbox. This produces correctly calculated tax amounts that appear as separate line items.
+To display two different tax amounts as separate line items, such as GST and PST for Canadian stores, you must set different priorities for the related tax rules. However, in previous tax calculations, taxes with different priorities would automatically be compounded. To correctly display separate tax amounts without an incorrect compounding of the tax amounts, you can set different priorities, and also select the _Calculate off subtotal only_ checkbox. This setting produces correctly calculated tax amounts that appear as separate line items.
 
 ## Warning messages
 
