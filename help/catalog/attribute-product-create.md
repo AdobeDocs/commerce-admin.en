@@ -51,7 +51,7 @@ You can create attributes while working on a product or from the _[!UICONTROL Pr
 
    - Select **[!UICONTROL Is Default]** to use the option as the default value.
 
-   ![Product attribute - manage options](./assets/product-attribute-add-values-flavors.png){width="600" zoomable="yes"}
+   ![Product attribute - manage options](./assets/product-attribute-add-values-colors.png){width="600" zoomable="yes"}
 
 ## Step 2: Describe the advanced properties (if needed)
 
