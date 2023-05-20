@@ -5,9 +5,9 @@ exl-id: 818c012a-ad46-458f-83e5-5873bc996758
 ---
 # Categories overview
 
-Before you add products to your catalog, you need to establish the basic category structure of your catalog. Products can be assigned to zero or more categories. Usually, categories are created in advance, before products are added to the catalog. However, you can also add categories _on the fly_ while creating a product. The category structure of the catalog is reflected by the main menu — or [top navigation](navigation-top.md) — of the store.
+Before you add products to your catalog, you should establish the basic category structure of your catalog. Products can be assigned to zero or more categories. Usually, categories are created in advance, before products are added to the catalog. However, you can also add categories _on the fly_ while creating a product. The category structure of the catalog is reflected by the main menu — or [top navigation](navigation-top.md) — of the store.
 
-![Category tree](./assets/category-selected.png)<!-- zoom -->
+![Category tree](./assets/category-selected.png){width="700" zoomable="yes"}
 
 |Control|Description|
 |--- |--- |

@@ -9,4 +9,4 @@ After using [Google Content Experiments](../merchandising-promotions/google-cont
 
 This section appears only if **[!UICONTROL Google Content Experiments]** is enabled in the [Google Analytics](../merchandising-promotions/google-analytics.md) Google API configuration.
 
-![Product View Optimization](./assets/product-view-optimization.png)<!-- zoom -->
+![Product View Optimization](./assets/product-view-optimization.png){width="600" zoomable="yes"}

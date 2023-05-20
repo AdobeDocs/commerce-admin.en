@@ -15,19 +15,19 @@ One of the most important areas in creating and managing your store is product c
 
 ## Catalog scope
 
-Access to catalog data is determined by several factors, including the [scope](../getting-started/websites-stores-views.md#scope-settings) setting, the catalog configuration, and the [root category](category-root.md) that is assigned to the store. The catalog includes products that are enabled and available for sale, and those that are currently not offered for sale.
+Access to catalog data is determined by several factors, including the [scope](../getting-started/websites-stores-views.md#scope-settings) setting, the catalog configuration, and the [root category](category-root.md) that is assigned to the store. The catalog includes products that are enabled and available for sale, and products that are currently not offered for sale.
 
 In sales, the term _catalog_ usually refers to a curated selection of products that is available for sale. For example, a store might have a "Spring Catalog" and a "Fall Catalog".
 
 Like the table of contents of a printed catalog, the main menu of your store — or _top navigation_ — organizes products by category to make it easy for customers to find what they want. The main menu is based on a _root category_, which is a container for the menu that is assigned to the store. Because the specific menu options are defined at the store view level, each view can have a different main menu based on the same root category. Within each menu, you can offer a curated selection of products that is suitable for the store.
 
-![Catalog hierarchy diagram](./assets/catalog-hierarchy-scope.svg)<!-- {: "width=550px"} -->
+![Catalog hierarchy diagram](./assets/catalog-hierarchy-scope.svg){width="550"}
 
 ## Product scope
 
 For installations with multiple websites, stores, and views, the [scope](../getting-started/websites-stores-views.md#scope-settings) setting determines where products are available for sale, and the product information that is available for each store view. Initially, all products that you create are published to the default website, store, and store view.
 
-![multi-site store diagram](./assets/scope-multisite.svg)<!-- {:width="550px"} -->
+![multi-site store diagram](./assets/scope-multisite.svg){width="550"}
 
 If you have only a single store with the default view, you can run your store in [single store mode](../getting-started/websites-stores-views.md#single-store-mode) to hide the scope settings. However, if your store has multiple views, a scope indicator appears below the name of each field.
 
@@ -49,15 +49,13 @@ Although the _Spanish_ store view is selected in the following example, the prod
 
 1. In the upper-left corner, set **[!UICONTROL Store View]** to the specific view to be edited.
 
-1. click **[!UICONTROL OK]** to confirm the scope change.
-
-   ![Store view](./assets/product-store-view-spanish-racer-tank.png)<!-- zoom -->
+1. To confirm the scope change, click **[!UICONTROL OK]**.
 
 1. Update the field with the new value for the store view.
 
    A checkbox appears below any field that can be edited for the store view. To override the default value, deselect the **Use Default Value** checkbox.
 
-   ![Translating product name for Spanish store view](./assets/product-translate-field-spanish.png)<!-- zoom -->
+   ![Translating product name for Spanish store view](./assets/product-translate-field-french.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save]**.
 
@@ -67,8 +65,8 @@ Although the _Spanish_ store view is selected in the following example, the prod
 
    - In the upper-right corner, click the _Admin_ menu arrow and choose **[!UICONTROL Customer View]**.
 
-      ![Customer view](./assets/product-admin-menu-customer-view.png)<!-- zoom -->
+      ![Customer view](./assets/product-admin-menu-customer-view.png){width="600" zoomable="yes"}
 
    - In the upper-right corner of the store, set the **[!UICONTROL Language Chooser]** to the store view of the product that you edited and find the product that you edited for the view.
 
-      ![Language Chooser](./assets/storefront-language-chooser.png)<!-- zoom -->
+      ![Language Chooser](./assets/storefront-language-chooser.png){width="700" zoomable="yes"}

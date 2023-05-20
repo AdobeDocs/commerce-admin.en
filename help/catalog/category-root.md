@@ -7,7 +7,7 @@ exl-id: b419cb45-4fe5-42c4-be20-667c7e1e4354
 
 The products in the main menu are determined by the root category that is assigned to the [store](../stores-purchase/stores.md#add-stores). The root category is basically a container for the main menu in the category tree. You can create a root category with an entirely new set of products or copy products from an existing root category. The root category can be assigned to the current store or to any other store in the same website.
 
-![Catalog hierarchy diagram](./assets/catalog-hierarchy-scope.svg)<!-- {: "width=550px""} -->
+![Catalog hierarchy diagram](./assets/catalog-hierarchy-scope.svg){width="550"}
 
 From the Admin, the category structure is like an upside-down tree, with the root on top. The root has a name, but no URL key, and does not appear in the [top navigation](navigation-top.md) of the store. All other categories in the menu are nested below the root. Because the root category is the highest level of the catalog, your store can have only one root category active at a time. You can, however, create additional root categories for alternate catalog structures and different stores.
 
@@ -19,9 +19,9 @@ The following example shows how to create a root category and assign it to a dif
 
 1. On the left, click **[!UICONTROL Add Root Category]**.
 
-   ![New root category](./assets/category-root-ee.png)<!-- zoom -->
+   ![New root category](./assets/category-root-ee.png){width="600" zoomable="yes"}
 
-1. Assign a **[!UICONTROL Category Name]**.
+1. Enter a **[!UICONTROL Category Name]**.
 
    The name you choose is initially assigned to all store views.
 
@@ -37,7 +37,7 @@ The following example shows how to create a root category and assign it to a dif
 
 1. On the left, select the new root category that you created in the previous step.
 
-1. Click **[!UICONTROL Add Subcategory]** and follow the instructions to create the [category structure](category-create.md) for the main menu.
+1. To create the [category structure](category-create.md) for the main menu, click **[!UICONTROL Add Subcategory]** and follow the instructions.
 
 ## Step 3: Assign the root category to the store
 
@@ -59,4 +59,4 @@ The following example shows how to create a root category and assign it to a dif
 
       Any products that were copied to the new catalog appear in the grid.
 
-   - Visit the storefront to verify that the new catalog and main menu are working correctly.
+   - To verify that the new catalog and main menu are working correctly, visit the storefront.
