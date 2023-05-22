@@ -40,7 +40,7 @@ The workspace displays the available Commerce development and production environ
 
 - **[Storefront URL](../stores-purchase/store-urls.md)**—Shows the base URL for the default website.
 
-- **[Environment type](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html)**—Commerce instances deployed to a development environment are identified with a [!UICONTROL Development] label. Instances that do not have a label are deployed to a Production environment.
+- **[Environment type](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html)**—Commerce instances deployed to a development or staging environment are identified with a [!UICONTROL Development] or [!UICONTROL Staging] label. Instances that do not have a label are deployed to a Production environment.
 
 - **Commerce Admin access**—Open the Admin by clicking **[!UICONTROL Open]**.
 

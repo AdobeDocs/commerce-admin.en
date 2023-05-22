@@ -154,7 +154,7 @@ Create an Adobe Developer App Builder project to receive the custom Commerce eve
 
 ### Enable Commerce Events
 
-Enable the Commerce Events extension (`magento/commerce-eventing`)  on the cloud environment. This extension is required to send custom event data from the Commerce application to the Adobe I/O Events service. The Commerce Events extension is installed automatically as a dependency of the Commerce Admin Unified Experience extension.
+Enable the Commerce Events extension (`magento/commerce-eventing`) on the cloud environment. This extension is required to send custom event data from the Commerce application to the Adobe I/O Events service. The Commerce Events extension is installed automatically as a dependency of the Commerce Admin Unified Experience extension.
 
 1. From your local Commerce project development environment, add the following configuration to the `.magento.env.yaml` file.
 
