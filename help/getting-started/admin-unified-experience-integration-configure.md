@@ -173,7 +173,7 @@ Enable the Commerce Events extension (`magento/commerce-eventing`)  on the cloud
 
 ### Configure the Adobe I/O Events integration
 
-On the Commerce instance, configure the Adobe I/O events service and Commerce event provider to enable the integration. Then, update the App Builder project to add the event provider and subscribe to the events used to monitor and manage the Experience Cloud integration.
+On the Commerce instance, configure the Adobe I/O events service and Commerce event provider to enable the integration. Then, update the App Builder project to add the event provider and subscribe to the event used to monitor and manage the Experience Cloud integration.
 
 1. From the Commerce Admin, [configure Adobe Commerce to use the Adobe I/O Events service](https://developer.adobe.com/commerce/events/get-started/configure-commerce/).
 
