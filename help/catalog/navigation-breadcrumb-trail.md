@@ -7,9 +7,9 @@ exl-id: 2f60d48e-960f-437c-8f8f-a3d06cc0840a
 
 A _breadcrumb trail_ is a set of links that shows where you are in relation to other pages in the store. You can click any link in the breadcrumb trail to return to the previous page.
 
-The breadcrumb trail can be configured to appear on content pages and on catalog pages. The format and position of the breadcrumb trail varies by theme, but it is usually located just below the header. By default, the breadcrumb trail appears on CMS pages.
+The breadcrumb trail can be configured to appear on content pages and on catalog pages. The format and position of the breadcrumb trail varies by theme, but it is typically located just below the header. By default, the breadcrumb trail appears on CMS pages.
 
-![Breadcrumb trail displayed in the storefront](./assets/storefront-breadcrumb-trail.png)<!-- zoom -->
+![Breadcrumb trail displayed in the storefront](./assets/storefront-breadcrumb-trail.png){width="700" zoomable="yes"}
 
 ## General types of bread crumbs
 
@@ -25,7 +25,7 @@ The advantage of this type is that users can easily see which category level the
 
 ### History-based breadcrumbs
 
-History- (or path-) based navigation is similar to the back button in a browser. This allows users to quickly return to the previous pages they have visited without changes.
+History- (or path-) based navigation is similar to the back button in a browser. This type of navigation allows users to quickly return to the previous pages they have visited without changes.
 
 The advantage of this type is that it is most helpful when customers want to return to a previous page after selecting multiple filters on a category page.
 
@@ -41,17 +41,17 @@ Example: `Home > Suits > All Suits > Refined by > Slim Fit`
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel under _[!UICONTROL General]_, choose **[!UICONTROL Web]** and do the following:
+1. In the left panel under _[!UICONTROL General]_, choose **[!UICONTROL Web]**.
 
-   - Expand the _[!UICONTROL Default Pages]_ section.
+   ![Show Breadcrumbs for CMS Pages](../configuration-reference/general/assets/web-default-pages.png){width="600" zoomable="yes"}
 
-   - Deselect the **[!UICONTROL Use system value]** checkbox.
+1. Expand the _[!UICONTROL Default Pages]_ section.
 
-   - Set **[!UICONTROL Show Breadcrumbs for CMS Pages]** to `No` or `Yes`.
+1. Deselect the **[!UICONTROL Use system value]** checkbox.
+
+1. Set **[!UICONTROL Show Breadcrumbs for CMS Pages]** to `No` or `Yes`.
 
 1. When complete, click **[!UICONTROL Save Config]**.
-
-   ![Show Breadcrumbs for CMS Pages](./assets/web-default-pages.png)<!-- zoom -->
 
 >[!NOTE]
 >

@@ -19,7 +19,7 @@ You can also learn what your customers are looking for by examining the search t
 
 As you learn new words that people use to search in your store, you can add them to your search terms list to direct people to the most closely matching products in your catalog.
 
-![Search Terms grid](./assets/search-terms.png)<!-- zoom -->
+![Search Terms grid](./assets/search-terms.png){width="700" zoomable="yes"}
 
 |Column|Description|
 |--- |--- |
@@ -41,17 +41,17 @@ As you learn new words that people use to search in your store, you can add them
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_ > **[!UICONTROL Search Terms]**.
 
-1. Click **[!UICONTROL Add New Search Term]** and do the following:
+1. Click **[!UICONTROL Add New Search Term]**.
 
-   ![Search terms general information](./assets/search-terms-information.png)<!-- zoom -->
+   ![Search terms general information](./assets/search-terms-information.png){width="600" zoomable="yes"}
 
-   - Under _[!UICONTROL General Information]_ in the **[!UICONTROL Search Query]** box, enter the word or phrase that you want to add as a new search term.
+1. Under _[!UICONTROL General Information]_ in the **[!UICONTROL Search Query]** box, enter the word or phrase that you want to add as a new search term.
 
-   - If your store is available in multiple languages, choose the applicable **[!UICONTROL Store]** view.
+1. If your store is available in multiple languages, choose the applicable **[!UICONTROL Store]** view.
 
-   - To redirect the search results to another page in your store, or to another website, enter the full URL of the target page in the **[!UICONTROL Redirect URL]** field.
+1. To redirect the search results to another page in your store, or to another website, enter the full URL of the target page in the **[!UICONTROL Redirect URL]** field.
 
-   - If you want this term to be available for use as a suggestion whenever a search returns no results, set **[!UICONTROL Display in Suggested Terms]** to `Yes`.
+1. If you want this term to be available for use as a suggestion whenever a search returns no results, set **[!UICONTROL Display in Suggested Terms]** to `Yes`.
 
 1. When complete, click **[!UICONTROL Save Search]**.
 
@@ -91,9 +91,9 @@ The _Search Terms_ link in the footer of your store displays the search terms us
 
 By default, Popular Search Terms is enabled as a search engine optimization tool, but has no direct connection to the catalog search process. Because the Search Terms page is indexed by search engines, any terms on the page can help improve your search engine ranking and the visibility of your store. The URL of the Popular Search Terms page is: `mystore.com/search/term/popular/`
 
-![Example storefront - popular search terms](./assets/store-front-search-terms-yoga-pants.png)<!-- zoom -->
+![Example storefront - popular search terms](./assets/store-front-search-terms-yoga-pants.png){width="600" zoomable="yes"}
 
-To configure popular search terms:
+**_To configure popular search terms:_**
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -101,9 +101,9 @@ To configure popular search terms:
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Search Engine Optimization]** section.
 
-   ![Catalog configuration - search engine optimization](./assets/catalog-search-engine-optimization.png)<!-- zoom -->
+   ![Catalog configuration - search engine optimization](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
 
-   For more information about these options, see [Search Engine Optimization](../configuration-reference/catalog/catalog.md#search-engine-optimization) in the _Configuration Reference_.
+   For a detailed list of these options, see [Search Engine Optimization](../configuration-reference/catalog/catalog.md#search-engine-optimization) in the _Configuration Reference_.
 
 1. Set **[!UICONTROL Popular Search Terms]** as needed.
 
@@ -128,34 +128,32 @@ Adobe Commerce supports two different synonym management solutions:
 >
 >The standard Search Synonyms feature out-of-the-box supports `name` and `sku` product attributes **_only_**.
 
-![Example storefront - search results with synonyms](./assets/storefront-search-results-synonyms.png)<!-- zoom -->
+![Example storefront - search results with synonyms](./assets/storefront-search-results-synonyms.png){width="700" zoomable="yes"}
 
 ### Create a synonym group
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_ > **[!UICONTROL Search Synonyms]**.
 
-   The _[!UICONTROL Search Synonyms]_ grid appears. If this is the first time you have used search synonyms, the grid is empty.
+   The _[!UICONTROL Search Synonyms]_ grid appears. If it is the first time you have used search synonyms, the grid is empty.
 
-   ![Search synonyms grid](./assets/search-synonyms-grid-empty.png)<!-- zoom -->
+   ![Search synonyms grid](./assets/search-synonyms-grid-empty.png){width="700" zoomable="yes"}
 
-1. Click **[!UICONTROL New Synonym Group]** and do the following:
+1. Click **[!UICONTROL New Synonym Group]**.
 
-   ![New search synonyms group](./assets/search-synonym-group-new.png)<!-- zoom -->
+   ![New search synonyms group](./assets/search-synonym-group-new.png){width="700" zoomable="yes"}
 
-   - Set **[!UICONTROL Scope]** to the store views where the synonyms apply.
+1. Set **[!UICONTROL Scope]** to the store views where the synonyms apply.
 
-   - Enter each synonym in the group, separated by comma. Choose words that people might use as search criteria. For example:
+1. Enter each synonym in the group, separated by comma. Choose words that people might use as search criteria. For example:
 
-      - `sweatshirt, sweat shirt, hoodie, fleece`
-      - `cell phone, mobile phone, smart phone`
-      - `couch, sofa, davenport`
-      - `wrought iron, rot iron, rod iron`
+   - `sweatshirt, sweat shirt, hoodie, fleece`
+   - `cell phone, mobile phone, smart phone`
+   - `couch, sofa, davenport`
+   - `wrought iron, rot iron, rod iron`
 
-   - To merge these synonyms into a group with others that have the same scope, select the **[!UICONTROL Merge existing synonyms]** checkbox.
+1. To merge these synonyms into a group with others that have the same scope, select the **[!UICONTROL Merge existing synonyms]** checkbox.
 
 1. When complete, click **[!UICONTROL Save Synonym Group]**.
-
-   ![Search synonyms group grid - saved group](./assets/search-synonym-group-grid.png)<!-- zoom -->
 
 ### Edit a synonym group
 
@@ -195,7 +193,7 @@ The Search Terms report shows the number of results for each term, and the numbe
 
 1. Use the controls to filter the report as needed.
 
-   ![Search terms report](./assets/search-terms-report.png)<!-- zoom -->
+   ![Search terms report](./assets/search-terms-report.png){width="700" zoomable="yes"}
 
 ## Export the report
 

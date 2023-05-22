@@ -7,7 +7,7 @@ exl-id: 8606ddc7-ca81-4503-94e5-a8276506c0a1
 
 The _[!UICONTROL Design]_ settings allow a different theme to be applied to the product page, change the column layout, determine where product options appear, and enter custom XML code.
 
-![Design](./assets/product-design-ee.png)<!-- zoom -->
+![Design](./assets/product-design-ee.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
