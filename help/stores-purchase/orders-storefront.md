@@ -13,7 +13,7 @@ Customers have access to all of their orders from their account. Orders can be v
 
 Your initial _[!UICONTROL My Orders]_ results also contain matching orders from subordinate users from all websites within the commerce instance. A customer that is associated with a company account can filter the orders list to quickly find records within the results. To show the filter options, the customer clicks **[!UICONTROL Filter]**, and clicks **[!UICONTROL Close]** to hide the filters.
 
-![My Orders](./assets/account-dashboard-my-orders-b2b.png)<!-- zoom -->
+![My Orders](./assets/account-dashboard-my-orders-b2b.png){width="700" zoomable="yes"}
 
 | Filter | Description |
 | ------ | ----------- |
@@ -29,7 +29,7 @@ Your initial _[!UICONTROL My Orders]_ results also contain matching orders from 
 
 A customer finds the order in the list and clicks **[!UICONTROL View Order]**. From the open order, they can do any of the following:
 
-![View Order](./assets/customer-account-order-items-ordered.png)<!-- zoom -->
+![View Order](./assets/customer-account-order-items-ordered.png){width="700" zoomable="yes"}
 
 ### View recently ordered products
 
@@ -51,7 +51,7 @@ The customer can readd products to the cart by selecting the products and clicki
 
    - **[!UICONTROL Print Invoice]**
 
-   ![Invoices](./assets/customer-account-order-invoices.png)<!-- zoom -->
+   ![Invoices](./assets/customer-account-order-invoices.png){width="700" zoomable="yes"}
 
 1. Uses the Print dialog to complete the printing.
 
@@ -63,7 +63,7 @@ The customer can readd products to the cart by selecting the products and clicki
 
    - **[!UICONTROL Print Shipment]**
 
-   ![Print All Shipments](./assets/customer-account-order-shipments.png)<!-- zoom -->
+   ![Print All Shipments](./assets/customer-account-order-shipments.png){width="700" zoomable="yes"}
 
 1. Uses the Print dialog to complete the printing.
 
@@ -83,7 +83,7 @@ The customer can readd products to the cart by selecting the products and clicki
 
    - **Print Refund**
 
-   ![Refunds](./assets/customer-account-order-refunds.png)<!-- zoom -->
+   ![Refunds](./assets/customer-account-order-refunds.png){width="700" zoomable="yes"}
 
 1. Uses the Print dialog to complete the printing.
 
@@ -98,7 +98,7 @@ A customer can initiate the reorder functionality for a specific order from two 
 
 The _[!UICONTROL Reorder]_ link is displayed in the list with orders near the _[!UICONTROL View]_ link.
 
-![Reorder link on the My Order page](./assets/account-dashboard-reorder.png)<!-- zoom -->
+![Reorder link on the My Order page](./assets/account-dashboard-reorder.png){width="700" zoomable="yes"}
 
 **Case 1.** All products from the order are available for reorder
 
@@ -112,7 +112,7 @@ The customer is redirected to the shopping cart, and all products are added to t
 
 The _[!UICONTROL Reorder]_ link does not appear on the _[!UICONTROL My Orders]_ and _[!UICONTROL View Order]_ pages.
 
-![My Order page](./assets/account-dashboard-reorder-grid.png)<!-- zoom -->
+![My Order page](./assets/account-dashboard-reorder-grid.png){width="700" zoomable="yes"}
 
 >[!TIP]
 >

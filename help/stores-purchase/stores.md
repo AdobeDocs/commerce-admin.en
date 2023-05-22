@@ -9,7 +9,7 @@ When Adobe Commerce or Magento Open Source is installed, a hierarchy that includ
 
 Before you begin, plan your store catalog hierarchy in advance because it is referred to throughout the configuration. Each store can have a separate [root category](../catalog/category-root.md), which makes it possible to have an entirely different set of main menu options for each store.
 
-![Scope diagram](./assets/scope-multisite.svg)<!-- {:width="550px"} -->
+![Scope diagram](./assets/scope-multisite.svg){width="550"}
 
 ## Add stores
 
@@ -17,7 +17,7 @@ A single installation of Adobe Commerce or Magento Open Source can have multiple
 
 The important thing to understand is that the stores use the same code and share an Admin. Each store can have a separate catalog, or the stores can share a catalog. Each store can have a separate [root category](../catalog/category-root.md), which makes it possible to have a different main menu for each store. Stores can also have different branding, presentation, and content. Take some time to plan your store hierarchy with future growth in mind before you begin, because it is used throughout the configuration.
 
-![Scope - multiple stores](./assets/scope-multistore.svg)<!-- {:width="550px"} -->
+![Scope - multiple stores](./assets/scope-multistore.svg){width="550"}
 
 Here are some examples of how URLs can be configured for multiple stores:
 
@@ -50,11 +50,9 @@ The first step is to choose how you want to position the store. Should the store
 
    - **[!UICONTROL Root Category]** — Set to the [root category](../catalog/category-root.md) that defines the category structure for the main menu of the new store. If you have already created a specific root category for the store, select it. Otherwise, select `Default Category`. You can come back later and update the setting.
 
-   ![Create Store - store options](./assets/stores-all-store-information.png)<!-- zoom -->
+   ![Create Store - store options](./assets/stores-all-store-information.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Save Store]**.
-
-   ![New store](./assets/create-store-saved.png)<!-- zoom -->
 
 ### Step 3: Create a default store view
 
@@ -74,7 +72,7 @@ The first step is to choose how you want to position the store. Should the store
 
    If you open your store in edit mode, you can see that it now has a default view.
 
-   ![New store with default view](./assets/new-store-default-view.png)<!-- zoom -->
+   ![New store with default view](./assets/new-store-default-view.png){width="600" zoomable="yes"}
 
 ### Step 4: Configure the store URL
 
@@ -86,15 +84,15 @@ The first step is to choose how you want to position the store. Should the store
 
 1. When prompted to confirm [scope](../getting-started/websites-stores-views.md#scope-settings) switching, click **[!UICONTROL OK]**.
 
-   ![Choose the store view](./assets/create-store-config-view.png)<!-- zoom -->
+   ![Choose the store view](./assets/create-store-config-view.png){width="600" zoomable="yes"}
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Base URLs]** section and enter the base URL for the store.
 
    If needed, clear the **[!UICONTROL Use system value]** checkbox to change the setting.
 
-   ![General configuration - web base URLs](./assets/config-general-web-base-urls-clear-checkbox.png)
+   ![General configuration - web base URLs](./assets/config-general-web-base-urls-clear-checkbox.png){width="600" zoomable="yes"}
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Secure Base URLs]** section and repeat the previous step as needed to configure the store [secure URL](store-urls.md).
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Secure Base URLs]** section and repeat the previous step if you want to configure the store [secure URL](store-urls.md).
 
 1. Click **[!UICONTROL Save Config]**.
 
@@ -115,7 +113,7 @@ Multiple websites can be set up from a single Adobe Commerce or Magento Open Sou
 
 Multi-site installations of Adobe Commerce or Magento Open Source must be configured from the Admin and also from the command line of the server. The Commerce [Configuration Guide](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) provides detailed instructions for configuring the server environment.
 
-![Scope - websites](./assets/scope-multisite.svg)<!-- {:width="550px"} -->
+![Scope - websites](./assets/scope-multisite.svg){width="550"}
 
 ### Step 1: Create a website
 
@@ -125,7 +123,7 @@ Multi-site installations of Adobe Commerce or Magento Open Source must be config
 
 1. Set the **[!UICONTROL Web Site Information]** options:
 
-   ![Create website - options](./assets/create-website-info.png)<!-- zoom -->
+   ![Create website - options](./assets/create-website-info.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Name]** — Enter the domain of the new website. For example, `domain.com`.
 
@@ -133,17 +131,17 @@ Multi-site installations of Adobe Commerce or Magento Open Source must be config
 
       The code must begin with a lowercase (a-z) letter, and can include any combination of letters (a-z), numbers (0-9), and the underscore (_) symbol.
 
-   - **[!UICONTROL Sort Order]** — (Optional) Enter a number to determine the sequence in which this site is listed with other sites. Enter a zero to make this site appear at the top of the list.
-
-   - **[!UICONTROL Default Store]** — If you have multiple stores, set to the store to use as the default for this website.
+   - **[!UICONTROL Sort Order]** — _(Optional)_ Enter a number to determine the sequence in which this site is listed with other sites. To make this site appear at the top of the list, enter a zero (`0`).
 
 1. Click **[!UICONTROL Save Web Site]**.
 
 1. Set up each [store](#add-stores) and [store view](store-views.md) that is needed for the new website.
 
+   You can then open the website in edit mode to set the default store.
+
 ### Step 2: Configure the store URL
 
-Follow the instructions to configure the [store URLs](store-urls.md).
+To configure the [store URLs](store-urls.md), follow the instructions.
 
 ### Step 3: Configure the server
 

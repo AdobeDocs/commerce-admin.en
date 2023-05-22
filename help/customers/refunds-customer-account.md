@@ -1,9 +1,9 @@
 ---
-title: Refunds in the Customer Account Dashboard
-description: Customers can view the refund information associated with the order in their Customer Account Dashboard.
+title: Refunds in the customer account dashboard
+description: Store customers can view the refund information associated with the order in their account dashboard.
 exl-id: 8fd6d4e7-74ba-4f39-9a19-7c77ee63b913
 ---
-# Refunds in the Customer Account Dashboard
+# Refunds in the customer account dashboard
 
 {{ee-feature}}
 
@@ -20,7 +20,7 @@ If a refund has been issued for an order, customers can view the refund informat
 
 1. The customer clicks the **[!UICONTROL Refunds]** tab to view the details of the refund.
 
-   ![Refund detail on the storefront](assets/customer-account-order-refunds.png)
+   ![Refund detail on the storefront](assets/customer-account-order-refunds.png){width="700" zoomable="yes"}
 
 ## View store credit balance and history on the storefront
 
@@ -32,23 +32,23 @@ Method 1: **From the customer account dashboard**
 
 1. The amount refunded to their store credit appears in the list with the date and time of the action.
 
-   ![Amount refunded to store credit](assets/customer-account-store-credit.png)
+   ![Amount refunded to store credit](assets/customer-account-store-credit.png){width="700" zoomable="yes"}
 
    >[!INFO]
    >
-   > The Store Credit page also provides a link for the customer to redeem a [gift card](../stores-purchase/product-gift-card-workflow.md#check-status-and-balance-of-the-gift-card).
+   >The Store Credit page also provides a link for the customer to redeem a [gift card](../stores-purchase/product-gift-card-workflow.md#check-status-and-balance-of-the-gift-card).
 
 Method 2: **From the _Review & Payments_ page**
 
 1. The customer adds a product to the cart.
 
-2. Proceeds to checkout.
+2. Proceeds to the _Checkout_ page.
 
 3. Passes the **[!UICONTROL Shipping]** step.
 
 4. If store credit is available, the customer clicks **[!UICONTROL Use Store Credit]**.
 
-   ![Store Credit from Review & Payments page](assets/customer-account-order-refund-from-checkout.png)
+   ![Store Credit from Review & Payments page](assets/customer-account-order-refund-from-checkout.png){width="700" zoomable="yes"}
 
 5. If the customer changes their mind about using the store credit, clicks **[!UICONTROL Remove]** in the _Order Summary_ section.
 
@@ -58,12 +58,12 @@ You can configure payment actions for your specific [Payment Method](../configur
 
 |Payment action |Description|
 |--- |---|
-| Capture Online | When the invoice is submitted, the system captures the payment from the third-party payment gateway. An Admin user can then create a credit memo and void the invoice. |
-| Capture Offline | When the invoice is submitted, the system does not capture the payment. It is assumed that the payment is captured directly through the gateway, and the payment cannot be captured through Adobe Commerce. An Admin user can then create a credit memo, but cannot void the invoice. (Even though the order used an online payment, the invoice is essentially an offline invoice.) |
-| Not Capture | When the invoice is submitted, the system does not capture the payment. It is assumed that the payment is captured through Adobe Commerce later. There is a [!UICONTROL _Capture_] button in the completed invoice. Before capturing, you are able to cancel the invoice. After capturing, you are able to create a credit memo and void the invoice. |
+| [!UICONTROL Capture Online] | When the invoice is submitted, the system captures the payment from the third-party payment gateway. An Admin user can then create a credit memo and void the invoice. |
+| [!UICONTROL Capture Offline] | When the invoice is submitted, the system does not capture the payment. It is assumed that the payment is captured directly through the gateway, and the payment cannot be captured through Adobe Commerce. An Admin user can then create a credit memo, but cannot void the invoice. (Even though the order used an online payment, the invoice is essentially an offline invoice.) |
+| [!UICONTROL Not Capture] | When the invoice is submitted, the system does not capture the payment. It is assumed that the payment is captured through Adobe Commerce later. There is a [!UICONTROL _Capture_] button in the completed invoice. Before capturing, you are able to cancel the invoice. After capturing, you are able to create a credit memo and void the invoice. |
 
 {style="table-layout:auto"}
 
 >[!WARNING]
 >
-> Select the [!UICONTROL _Not Capture_] option unless you are certain that you are going to capture the payment through Adobe Commerce later. You cannot create a credit memo until the payment has been captured using the [!UICONTROL _Capture_] button.
+>Select the [!UICONTROL _Not Capture_] option unless you are certain that you are going to capture the payment through Adobe Commerce later. You cannot create a credit memo until the payment has been captured using the [!UICONTROL _Capture_] button.

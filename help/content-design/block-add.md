@@ -46,8 +46,6 @@ Custom blocks of content can be created, and then added to any page, group of pa
 
 1. When complete, click the **[!UICONTROL Save]** arrow and choose **[!UICONTROL Save & Close]**.
 
-   ![The Save menu displays a Save and Close option](./assets/cms-new-block-save-and-close.png)<!-- zoom -->
-
    The new block appears at the bottom of the list in the Blocks grid.
 
 1. Use the [Widget](widget-static-block.md) tool to place the completed block on a specific page in your store.
@@ -94,4 +92,3 @@ There are two ways to remove created block. You can remove it from _Blocks_ grid
    ![Slider extensions](./assets/marketplace-sliders.png)<!-- zoom -->
 
 [1]: https://marketplace.magento.com/extensions.html?q=lightbox
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html/

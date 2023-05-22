@@ -52,13 +52,13 @@ To offer this shipping method to your customers, you must first open an account 
 
       >[!IMPORTANT]
       >
-      >UPS is discontinuing support of HTTP, which is used in the current default (system value). Clear the **[!UICONTROL Use system value]** checkbox and modify the URL to use HTTPS. Example: https://www.ups.com/using/services/rave/qcostcgi.cgi
+      >UPS is discontinuing support of HTTP, which is used in the current default (system value). Clear the **[!UICONTROL Use system value]** checkbox and modify the URL to use HTTPS. Example: `https://www.ups.com/using/services/rave/qcostcgi.cgi`
 
 1. For **[!UICONTROL Title]**, enter the name of this shipping option as you want it to appear during checkout.
 
    By default, this field is set to `United Parcel Service`.
 
-   ![Enable UPS](../configuration-reference/sales/assets/delivery-methods-ups1.png)<!-- zoom -->
+   ![Enable UPS](../configuration-reference/sales/assets/delivery-methods-ups1.png){width="600" zoomable="yes"}
 
 ## Step 3: Complete the container description
 
@@ -106,7 +106,7 @@ To offer this shipping method to your customers, you must first open an account 
 
 1. Enter the **[!UICONTROL Minimum Package Weight]** allowed by the carrier.
 
-   ![Container Description](./assets/ups2.png)<!-- zoom -->
+   ![Container Description](./assets/ups2.png){width="600" zoomable="yes"}
 
 ## Step 4: Set up handling fees
 
@@ -126,7 +126,7 @@ The handling fee is optional and appears as an extra charge that is added to the
 
    To enter a percentage, use the decimal format. For example, enter `0.25` for 25%.
 
-   ![Handling Fee](./assets/ups3.png)<!-- zoom -->
+   ![Handling Fee](./assets/ups3.png){width="600" zoomable="yes"}
 
 ## Step 5: Specify allowed methods and applicable countries
 
@@ -144,7 +144,7 @@ The handling fee is optional and appears as an extra charge that is added to the
 
    This text box is preset with a default message, but you can enter a different message that you want to appear if UPS becomes unavailable.
 
-   ![Allowed Methods](./assets/ups4.png)<!-- zoom -->
+   ![Allowed Methods](./assets/ups4.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Ship to Applicable Countries]** to one of the following:
 
@@ -153,10 +153,10 @@ The handling fee is optional and appears as an extra charge that is added to the
 
 1. Set **[!UICONTROL Show Method if Not Applicable]** to one of the following:
 
-   - `Yes` - Lists all available UPS shipping methods during checkout, including those that do not apply to the shipment.
+   - `Yes` - Lists all available UPS shipping methods during checkout, including methods that do not apply to the shipment.
    - `No` - Lists only the UPS shipping methods that are applicable to the shipment.
 
-   ![Applicable Countries](./assets/ups5.png)<!-- zoom -->
+   ![Applicable Countries](./assets/ups5.png){width="600" zoomable="yes"}
 
 1. To create a log file with the details of UPS shipments made from your store, set **[!UICONTROL Debug]** to `Yes`.
 
@@ -176,7 +176,7 @@ The handling fee is optional and appears as an extra charge that is added to the
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) **[!UICONTROL Origin]** on the page and configure the shipping origin address.
 
-   ![Sales configuration - shipping origin address options](./assets/shipping-origin-magento.png)<!-- zoom -->
+   ![Sales configuration - shipping origin address options](./assets/shipping-origin.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Save Config]**.
 

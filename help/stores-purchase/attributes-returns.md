@@ -9,7 +9,7 @@ exl-id: 639c1e94-1211-4a4e-8599-e54ed99b2355
 
 The returns attributes are used to store information that is needed during the product return process. The default attributes include the condition of the returned product, the reason for the return, and a field that indicates how the return was resolved. The process to create a returns attribute is similar to creating a [customer attribute](../customers/attribute-properties.md).
 
-![Admin - Returns attributes](./assets/attribute-returns.png)<!-- zoom -->
+![Admin - Returns attributes](./assets/attribute-returns.png){width="700" zoomable="yes"}
 
 ## Create a returns attribute
 
@@ -17,13 +17,13 @@ The returns attributes are used to store information that is needed during the p
 
 1. In the upper-right corner, click **[!UICONTROL Add New Attribute]**.
 
-   ![New Return - attribute properties](./assets/attribute-returns-new-properties.png)<!-- zoom -->
+   ![New Return - attribute properties](./assets/attribute-returns-new-properties.png){width="600" zoomable="yes"}
 
 ### Define the properties
 
 1. To identify the attribute during data entry, set the **[!UICONTROL Default Label]**.
 
-1. Enter an **[!UICONTROL Attribute Code]** to identify the attribute within the system.
+1. For **[!UICONTROL Attribute Code]**, enter a code that identifies the attribute within the system.
 
 1. To determine the type of input control that is used for data entry, set **[!UICONTROL Input Type]** to one of the following:
 
@@ -66,7 +66,7 @@ The returns attributes are used to store information that is needed during the p
 
 1. In the **[!UICONTROL Manage Titles (Size, Color, etc.)]** section, enter the label for each store view.
 
-   ![Manage labels](./assets/return-attributes.png)<!-- zoom -->
+   ![Manage labels](./assets/return-attributes.png){width="600" zoomable="yes"}
 
 1. If the **[!UICONTROL Input Type]** for the attribute is `Dropdown`, manage the options in the **[!UICONTROL Manage Options (Values of Your Attribute)]** section.
 

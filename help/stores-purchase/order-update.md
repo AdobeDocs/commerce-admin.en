@@ -5,15 +5,15 @@ exl-id: 15c73d27-f4bd-47d6-8d36-902074f9c3e6
 ---
 # Update an order
 
-When helping a customer who has placed an order, you need to determine the status of the order. The available options for a `Pending` order are different from the options for a `Processing` order. For more information, see [Process an order](order-processing.md).
+When helping a customer who has placed an order, you must determine the status of the order. The available options for a `Pending` order are different from the options for a `Processing` order. For more information, see [Process an order](order-processing.md).
 
 ## Pending orders
 
 After a customer places an order, but before the payment is received, the order is in `Pending` status. You can edit the order, place it on hold, or cancel it entirely. The button bar of a pending order lists the available actions for an order.
 
-![Pending Order Options](./assets/order-button-bar-pending.png)<!-- zoom -->
+![Pending Order Options](./assets/order-button-bar-pending.png){width="600" zoomable="yes"}
 
-If you modify the substance of an order, the original order is canceled and a new order is generated. You can, however, change the billing or shipping address without generating a new order.
+If you modify substantial parts of an order, the original order is canceled and a new order is generated. You can, however, change the billing or shipping address without generating a new order.
 
 |Button|Description|
 |--- |--- |
@@ -33,14 +33,14 @@ If you modify the substance of an order, the original order is canceled and a ne
 
 An order enters a `Processing` state when:
 
-* The payment for an order is received/captured and the invoice is generated. This happens when the payment action is set to `Authorize and Capture`.
-* An order transaction is authorized, but payment is not yet captured. This happens when the payment action is set to `Authorize`.
+* The payment for an order is received/captured and the invoice is generated--when the payment action is set to `Authorize and Capture`.
+* An order transaction is authorized, but payment is not yet captured--when the payment action is set to `Authorize`.
 
 The [payment action configuration](../configuration-reference/sales/payment-methods.md#payment-actions) determines which order actions are available after an order is created.
 
-You cannot change the substance of a `Processing` order, but you can edit the billing and shipping address.
+You cannot substantially change a `Processing` order, but you can edit the billing and shipping address.
 
-![Processing Order Options](./assets/order-button-bar-processing.png)<!-- zoom -->
+![Processing Order Options](./assets/order-button-bar-processing.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -86,11 +86,11 @@ You can issue any needed refunds using a [credit memo](credit-memo-create.md) af
 
 1. Click **[!UICONTROL Edit]**.
 
+    ![Edit Order](./assets/order-edit.png){width="600" zoomable="yes"}
+
 1. At the prompt, click **[!UICONTROL OK]** to continue editing.
 
 1. Update the order as needed.
-
-    ![Edit Order](./assets/order-edit.png)<!-- zoom -->
 
 1. Apply your changes:
    * To save changes made to the billing or shipping address, click **[!UICONTROL Save]**.
@@ -106,8 +106,6 @@ If the customer's preferred method of payment is not available or if the item is
 
 1. Click **[!UICONTROL Hold]** to place the order on hold.
 
-    ![Hold Order](./assets/order-hold.png)<!-- zoom -->
-
 To remove the hold on an order, edit the order again and click **[!UICONTROL Unhold]**.
 
 ## Cancel a pending order
@@ -119,7 +117,5 @@ Canceling an order changes its status from `Pending` to `Canceled`.
 1. In the _[!UICONTROL Action]_ column, click **[!UICONTROL View]**.
 
 1. Click **[!UICONTROL Cancel]** to cancel the order.
-
-   ![Cancel Order](./assets/order-cancel.png)<!-- zoom -->
 
 The status of the order is now `Canceled`.
