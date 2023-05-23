@@ -34,10 +34,6 @@ Enable the integration by completing the following tasks:
 
 Before configuring the Experience Cloud integration, verify that your project and Commerce application meet the requirements.
 
-- IMS is enabled on the Commerce instance
-- Commerce Admin administrators for the Commerce instance can successfully authenticate using their Adobe ID
-- Required extensions are available in the cloud project environment
-
 1. On your local workstation, change to the project directory for your Commerce project.
 
 1. Check out the environment branch for the instance you want integrate with Experience Cloud.
@@ -106,14 +102,13 @@ Enable the Commerce Admin Unified Experience extension, and then log in through 
 
    ```bash
    bin/magento cache:clean
-   Admin Unified Experience integration is enabled
    ```
 
 1. Verify that you can log in to the Commerce Admin through Experience Cloud.
 
    In an incognito browser window, navigate to the store Admin URL to sign in through Experience Cloud.
 
-     ![Experience Cloud Sign in page](./assets/admin-uex-login.png){width="" zoomable="yes"}
+   ![Experience Cloud Sign in page](./assets/admin-uex-login.png){width="600" zoomable="yes"}
 
 1. Enter your Adobe ID to log in.
 
@@ -135,7 +130,7 @@ To enable the Adobe I/O Events service, complete the following set up and config
 
 - Enable the Commerce Events extension (`magento/commerce-eventing`)  on the cloud environment.
 
-- Configure the Adobe I/O events service and Commerce event provider to send data from the Commerce instance to the App Builder project
+- Configure the Commerce Events integration to send data from the Commerce instance to the Adobe I/O Events service.
 
 
 >[!NOTE]
@@ -171,15 +166,40 @@ Enable the Commerce Events extension (`magento/commerce-eventing`) on the cloud 
 
 1.  Add, commit, and deploy the updated `.magento.env.yaml file` to the cloud environment.
 
-### Configure the Adobe I/O Events integration
+### Configure the Commerce Events integration
 
-On the Commerce instance, configure the Adobe I/O events service and Commerce event provider to enable the integration. Then, update the App Builder project to add the event provider and subscribe to the event used to monitor and manage the Experience Cloud integration.
+Complete the following tasks to configure the Commerce Events integration using the detailed instructions in the 
+in the [Adobe I/O Events for Commerce](https://developer.adobe.com/commerce/events/get-started/project-setup/) developer documentation.
 
-1. From the Commerce Admin, [configure Adobe Commerce to use the Adobe I/O Events service](https://developer.adobe.com/commerce/events/get-started/configure-commerce/).
+1. [Create an App Builder project](https://developer.adobe.com/commerce/events/get-started/project-setup/) to receive event data from the Commerce instance.
 
-1. From the Adobe Developer Console, [add the Commerce event provider and subscribe to events](https://developer.adobe.com/commerce/events/get-started/configure-commerce/#subscribe-and-register-events) from the Commerce Admin Unified Experience extension.
+   You need credentials and configuration data from the project to configure the integration in the Commerce Admin.
 
-   ![Experience Cloud](./assets/uex-event-registration-selection.png){width="600" zoomable="yes"}
+1. Configure Adobe Commerce to use Adobe I/O Events.
+
+   - Connect the Commerce instance to the service by [updating the Store Configuration settings for Adobe I/O Events](https://developer.adobe.com/commerce/events/get-started/configure-commerce/#begin-configuring-events-on-commerce).
+
+   - [Configure an event provider to send events to the Events service](https://developer.adobe.com/commerce/events/get-started/configure-commerce/#create-an-event-provider-and-complete-the-commerce-configuration).
+
+1. [Update the App Builder project to receive event data from the Commerce instance](https://developer.adobe.com/commerce/events/get-started/configure-commerce/#subscribe-and-register-events).
+
+   You do not need to register or subscribe to events from the Commerce instance. The event registration is pushed to the App Builder project when the Event provider is added.
+
+   After connecting the Event Provider to the App Builder project, subscribe to the `observer.uex_commerce_instance_update` event and save the update.
+
+1. To establish the connection, send an event through the event provider to the consumer.
+
+   - From the command line in the local cloud project directory, use SSH to connect to the Commerce application server.
+
+     ```bash
+     magento-cloud ssh
+     ```
+
+   - Send event data by checking the status of the Admin Unified Experience extension using the Adobe Commerce CLI.
+
+     ```bash
+     bin/magento bin/magento admin:uex:status
+     ```
 
 ### Test the integration
 

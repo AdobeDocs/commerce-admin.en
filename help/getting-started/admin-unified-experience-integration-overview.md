@@ -94,7 +94,7 @@ The following components are required to enable the Experience Cloud integration
 
 - Commerce Admin Unified Experience extension (`magento/admin-unified-experience`)
 
-  The extension is available by default with Commerce 2.4.7 and later. For version 2.4.5 and 2.4.6, the module can be installed using Composer. Or, you can upgrade to Commerce 2.4.7.
+  If the module is not available on the Commerce instance, it can be installed using Composer.
 
 - [Adobe I/O Events service](https://developer.adobe.com/commerce/events/get-started/)  Required to send event data to coordinate workflows between Adobe services and the Commerce instance.
 
