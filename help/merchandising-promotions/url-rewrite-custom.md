@@ -68,7 +68,7 @@ Redirect from:
 
    - For your reference, enter a brief description of the rewrite.
 
-    ![URL rewrite information](./assets/url-rewrite-custom-add.png)<!-- zoom -->
+    ![URL rewrite information](./assets/url-rewrite-custom.png)<!-- zoom -->
 
 1. Before saving the redirect, review the following:
 
@@ -78,8 +78,6 @@ Redirect from:
 1. When complete, click **[!UICONTROL Save]**.
 
     The new rewrite appears in the grid at the top of the list.
-
-    ![Custom URL rewrite - saved](./assets/url-rewrite-cms-page-saved.png)<!-- zoom -->
 
 ## Step 3. Test the result
 
