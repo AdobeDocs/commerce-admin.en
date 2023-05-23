@@ -65,7 +65,7 @@ Before configuring the Experience Cloud integration, verify that your project an
    From the cloud project directory on your local workstation, use composer to find the extension.
 
    ```bash
-   composer show *unified-experience**
+   composer show *unified-experience*
    ```
 
    If the extension is installed, Composer returns the information about the extension.
