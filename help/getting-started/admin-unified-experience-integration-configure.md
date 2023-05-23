@@ -132,7 +132,11 @@ To enable the Adobe I/O Events service, complete the following set up and config
 
 ### Enable Commerce Events
 
-Enable the Commerce Events extension (`magento/commerce-eventing`) on the cloud environment. This extension extension is loaded automatically as a dependency of the Commerce Admin Unified Experience extension.
+Enable the Commerce Events extension (`magento/commerce-eventing`) on the cloud environment. This extension must be enabled to send custom event data from the Commerce application to the Adobe I/O Events service.
+
+>[!NOTE]
+>
+>The Commerce Events extension is loaded automatically as a dependency of the Admin Unified Experience extension. It is also available with Commerce 2.4.6 and later.
 
 1. From your local Commerce project development environment, add the following configuration to the `.magento.env.yaml` file.
 
@@ -200,3 +204,4 @@ Verify that a Commerce Administrator can open the Admin from the Commerce Projec
    ![Commerce Admin view with Experience Cloud integration enabled](./assets/admin-uex-commerceadmin-view.png){width="600" zoomable="yes"}
 
    Try out the [options available in the header](admin-unified-experience-integration-overview.md#access-experience-cloud-resources-from-the-commerce-admin) to open the Help Center, switch to another Experience Cloud application, or go back to [!UICONTROL Experience Cloud Home].
+
