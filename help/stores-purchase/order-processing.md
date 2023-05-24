@@ -9,9 +9,9 @@ When a customer places an order, a sales order is created as a temporary record 
 
 **Step 1: Place Order** - The checkout process begins when the shopper clicks **[!UICONTROL Go to Checkout]** on the shopping cart page or [reorders](reorders-allow.md) directly from their customer account.
 
-**Step 2: Order Pending** - The initial sales order status is `Pending`. In this state, the payment has not been processed and the order can still be edited or canceled. This occurs when the payment method is configured for authorization mode.
+**Step 2: Order Pending** - The initial sales order status is `Pending`. In this state, the payment has not been processed and the order can still be edited or canceled. This state occurs when the payment method is configured for authorization mode.
 
-**Step 3: Receive Payment** - The order status changes to `Processing` when payment is received or authorized. Depending on the payment method, you might receive notification when the transaction is authorized or processed. This occurs automatically when the payment method is configured for capture or intent sale mode.
+**Step 3: Receive Payment** - The order status changes to `Processing` when payment is received or authorized. Depending on the payment method, you might receive notification when the transaction is authorized or processed. This state occurs automatically when the payment method is configured for capture or intent sale mode.
 
 **Step 4: Invoice Order** - An order is typically invoiced after payment is received. The payment method determines which invoicing options are needed for the order. After the invoice is generated and submitted, a copy is sent to the customer. If the payment method is configured with the `capture` or `intent sale` payment action, an invoice is generated automatically when payment is authorized and captured.
 
@@ -19,7 +19,7 @@ When a customer places an order, a sales order is created as a temporary record 
 >
 >Invoices are not created automatically for orders placed by using `Gift Card`, `Store Credit`, `Reward Points`, or other offline payment methods.
 
-**Step 5: Book a Single Shipment** - The order status changes to `Complete` when the shipment detail is complete, the shipment is booked, and either the packing slip and shipping label are printed or the _Notify Ready for Pickup_ button is clicked (in-store delivery method). The customer receives notification and the package is shipped. If tracking numbers are used, the shipment can be tracked from the customer's account.
+**Step 5: Book a Single Shipment** - The order status changes to `Complete` when the shipment detail is complete, the shipment is booked, and shipping is set. The shipping requirement is met with a printed packing slip and shipping label or the _Notify Ready for Pickup_ is selected (in-store delivery method). The customer receives notification and the package is shipped. If tracking numbers are used, the shipment can be tracked from the customer's account.
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ When a customer places an order, a sales order is created as a temporary record 
 
    - A `Pending` order can be modified, put on hold, canceled, or invoiced and shipped.
 
-   - A `Processing` order can no longer edit the substance of or cancel the order, but the billing and shipping address can be edited.
+   - A `Processing` order can no longer be substantially edited or canceled, but the billing and shipping address can be edited.
 
    - A `Completed` order can be reordered.
 
@@ -45,17 +45,13 @@ The customer's email may be edited at any point in the order workflow by editing
 
 The left panel for an open order provides access to different types of information that is related to the order.
 
-![View Order](./assets/order-view.png)<!-- zoom -->
-
-Example of an order with an in-store delivery method.
-
-![View Order In-store Delivery](./assets/order-view-in-store-delivery.png)<!-- zoom -->
+![View Order](./assets/order-view.png){width="700" zoomable="yes"}
 
 ## Process an order
 
 When a customer places an order, a sales order is created as a temporary record of the transaction. The sales order has a status of `Pending` until payment is received. While in `Pending` status, orders can be edited or canceled up until the time that payment is received and an invoice is generated. An easy way to think of it is that orders become invoices, and invoices become shipments. The Orders grid lists all orders, regardless of where they are in the workflow. To learn how to help customers with an order, see [Update an order](order-update.md).
 
-![Orders](./assets/orders-grid.png)<!-- zoom -->
+![Orders](./assets/orders-grid.png){width="700" zoomable="yes"}
 
 To open a `Pending` order, click **[!UICONTROL Edit]** in the upper-right corner.
 
@@ -63,19 +59,7 @@ To open a `Pending` order, click **[!UICONTROL Edit]** in the upper-right corner
 >
 >Orders can be edited only while in `Pending` status. The Edit button is not visible for orders in a different status or for orders that are based on a [negotiated quote](../b2b/quotes.md).
 
-![Edit Sales Order](./assets/order-pending.png)<!-- zoom -->
-
-Review the following sections in the sales order, using the field descriptions for reference.
-
-### Process an order
-
-To open a `Pending` order, click **[!UICONTROL Edit]** in the upper-right corner.
-
->[!NOTE]
->
->Orders can be edited only while in `Pending` status. The Edit button is not visible for orders in a different status or for orders that are based on a [negotiated quote](../b2b/quotes.md).
-
-![Edit Sales Order](./assets/order-pending.png)<!-- zoom -->
+![Edit Sales Order](./assets/order-pending.png){width="600" zoomable="yes"}
 
 Review the following sections in the sales order, using the field descriptions for reference.
 
@@ -129,7 +113,7 @@ Only sales orders that are not invoiced, have a status of `Processing`, and a [p
 
 ### [!UICONTROL Order and Account Information]
 
-![Order and Account Information](./assets/order-account-information.png)<!-- zoom -->
+![Order and Account Information](./assets/order-account-information.png){width="600" zoomable="yes"}
 
 #### Order information
 
@@ -156,7 +140,7 @@ Only sales orders that are not invoiced, have a status of `Processing`, and a [p
 
 ### [!UICONTROL Address Information]
 
-![Address Information](./assets/order-address-information.png)<!-- zoom -->
+![Address Information](./assets/order-address-information.png){width="600" zoomable="yes"}
 
 |Field|Description|
 |--- |--- |
@@ -167,7 +151,7 @@ Only sales orders that are not invoiced, have a status of `Processing`, and a [p
 
 ### [!UICONTROL Payment & Shipping Method]
 
-![Payment & Shipping Method](./assets/order-payment-and-shipping-method-braintree.png)<!-- zoom -->
+![Payment & Shipping Method](./assets/order-payment-and-shipping-method-braintree.png){width="600" zoomable="yes"}
 
 |Field|Description|
 |--- |--- |
@@ -178,7 +162,7 @@ Only sales orders that are not invoiced, have a status of `Processing`, and a [p
 
 ### Review items ordered
 
-![Items Ordered](./assets/order-items-ordered-tristan.png)<!-- zoom -->
+![Items Ordered](./assets/order-items-ordered-tee.png){width="600" zoomable="yes"}
 
 In the **[!UICONTROL Order Total]** section, do the following:
 
@@ -188,7 +172,7 @@ In the **[!UICONTROL Order Total]** section, do the following:
 
 1. If you want the comment to be visible in the customer account, select the **[!UICONTROL Visible on Storefront]** checkbox.
 
-   ![Order Total](./assets/order-total.png)<!-- zoom -->
+   ![Order Total](./assets/order-total.png){width="600" zoomable="yes"}
 
 1. If you are ready to invoice the order, click **[!UICONTROL Invoice]** and follow the instructions to [create an invoice](invoices.md#create-an-invoice).
 
@@ -237,6 +221,6 @@ In the **[!UICONTROL Order Total]** section, do the following:
 
 ## Order processing demo
 
-Watch this video to learn about order processing and status:
+Watch this video and learn more about order processing and status:
 
 >[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12)

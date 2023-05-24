@@ -13,15 +13,15 @@ Aside from the absence of the _[!UICONTROL Weight]_ field, the process of creati
 >
 >PayPal has deprecated support for the sale of digital goods through PayPal Express Checkout. They recommend that you use either [PayPal Payments Standard](../stores-purchase/paypal-payments-standard.md) or any other PayPal payment gateway to process any order that includes virtual products.
 
-![Virtual Product](./assets/product-virtual-membership.png)<!-- zoom -->
+![Virtual Product](./assets/product-virtual-membership.png){width="700" zoomable="yes"}
 
 ## Step 1: Choose the product type
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. On the _[!UICONTROL Add Product]_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png)<!-- {: width="25px"} --> ) menu at the upper-right corner, choose **[!UICONTROL Virtual Product]**.
+1. On the _[!UICONTROL Add Product]_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png){width="25"} ) menu at the upper-right corner, choose **[!UICONTROL Virtual Product]**.
 
-   ![Add Virtual Product](./assets/product-add-virtual.png)<!-- zoom -->
+   ![Add Virtual Product](./assets/product-add-virtual.png){width="700" zoomable="yes"}
 
 ## Step 2: Choose the attribute set
 
@@ -33,7 +33,7 @@ To choose the [attribute set](attribute-sets.md) that is used as a template for 
 
 The form is updated to reflect the change.
 
-![Choose Attribute Set](./assets/product-create-choose-attribute-set.png)<!-- zoom -->
+![Choose Attribute Set](./assets/product-create-choose-attribute-set.png){width="600" zoomable="yes"}
 
 ## Step 3: Complete the required settings
 
@@ -45,13 +45,13 @@ The form is updated to reflect the change.
 
 1. Because the product is not yet ready to publish, set **[!UICONTROL Enable Product]** to `No`.
 
-1. click **[!UICONTROL Save]** and continue.
+1. Click **[!UICONTROL Save]** and continue.
 
    When the product is saved, the [Store View](introduction.md#product-scope) chooser appears in the upper-left corner.
 
 1. Choose the **[!UICONTROL Store View]** where the product is to be available.
 
-   ![Choose Store View](./assets/product-create-store-view-choose.png)<!-- zoom -->
+   ![Choose Store View](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
 
 ## Step 4: Complete the basic settings
 
@@ -60,7 +60,7 @@ The form is updated to reflect the change.
    - `None`
    - `Taxable Goods`
 
-1. Enter the **[!UICONTROL Quantity]** of the product that is currently in stock and do the following:
+1. Enter the **[!UICONTROL Quantity]** of the product that is in stock and do the following:
 
    - Accept the default **[!UICONTROL Stock Status]** setting of `In Stock`.
 
@@ -76,7 +76,7 @@ The form is updated to reflect the change.
 
    **Choose an existing category**:
 
-   - Start typing in the box to find a match.
+   - Start typing in the box until you find a match.
 
    - Select the checkbox of the category that is to be assigned.
 
@@ -84,7 +84,7 @@ The form is updated to reflect the change.
 
    - Click **[!UICONTROL New Category]**.
 
-   - Enter the **[!UICONTROL Category Name]** and choose the **[!UICONTROL Parent Category]** to determine its position in the menu structure.
+   - Enter the **[!UICONTROL Category Name]** and choose the **[!UICONTROL Parent Category]**, which determines its position in the menu structure.
 
    - Click **[!UICONTROL Create Category]**.
 
@@ -125,13 +125,11 @@ Complete the information in the following sections as needed:
 
       The store opens in a new browser tab.
 
-      ![Customer View](./assets/product-admin-customer-view.png)<!-- zoom -->
+      ![Customer View](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
 
    - **Method 2:** Save and close
 
-      On the _[!UICONTROL Save]_ (![Menu arrow](../assets/icon-menu-down-arrow-red.png)<!-- {: width="25px"} --> ) menu, choose **[!UICONTROL Save & Close]**.
-
-      ![Save & Close](./assets/product-edit-save-close.png)<!-- zoom -->
+      On the _[!UICONTROL Save]_ (![Menu arrow](../assets/icon-menu-down-arrow-red.png){width="25"} ) menu, choose **[!UICONTROL Save & Close]**.
 
 ## Things to remember
 

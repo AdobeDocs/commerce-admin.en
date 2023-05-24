@@ -17,7 +17,7 @@ One-page checkout is enabled by default. If you are implementing a custom integr
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Checkout Options]** section.
 
-   ![Configuration - checkout options](../configuration-reference/sales/assets/checkout-checkout-options.png)<!-- zoom -->
+   ![Configuration - checkout options](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
 
    For a detailed description of each of these configuration settings, see [Checkout Options](../configuration-reference/sales/checkout.md#checkout-options) in the _Configuration Reference Guide_.
 

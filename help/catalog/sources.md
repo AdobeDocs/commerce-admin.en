@@ -17,9 +17,9 @@ The _[!UICONTROL Sources]_ section of the product settings lists the sources fro
 
 1. Select **[!UICONTROL Source Item Status]** and enter the **[!UICONTROL Qty]** and **[!UICONTROL Notify Qty]** values as needed.
 
-1. click **[!UICONTROL Save]** to save the changes.
+1. Click **[!UICONTROL Save]** to save the changes.
 
-![Sources View](./assets/catalog-sources-list.png)<!-- zoom -->
+![Sources View](./assets/catalog-sources-list.png){width="600" zoomable="yes"}
 
 ## Field reference
 

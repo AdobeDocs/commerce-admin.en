@@ -7,7 +7,7 @@ exl-id: dc2faf86-0182-4661-9543-bc6e00e06dbf
 
 A _credit memo_ is a document that shows the amount that is due the customer for a full or partial refund. The amount can be applied toward a purchase or refunded to the customer. You can print a credit memo for a single order, or for multiple orders as a batch. Before a credit memo can be printed, it must first be generated for the order. The _Credit Memos_ page lists the credit memos that have been issued to customers.
 
-![Credit Memos](./assets/credit-memos.png)<!-- zoom -->
+![Credit Memos](./assets/credit-memos.png){width="700" zoomable="yes"}
 
 ## Refund method
 
@@ -16,9 +16,9 @@ The [payment method](payments.md) for the order determines, to an extent, the me
 You can refund orders in three ways:
 
 - Account credit---Orders paid using a credit account can be refunded as an account credit:
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) [Store Credit](../customers/store-credit-using.md)
-   - ![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce) [Payment on Account](../b2b/enable-basic-features.md#configure-payment-on-account) (offline method)
-   - ![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce) [Company Credit](../b2b/credit-company.md)
+    - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) [Store Credit](../customers/store-credit-using.md)
+    - ![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce) [Payment on Account](../b2b/enable-basic-features.md#configure-payment-on-account) (offline method)
+    - ![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce) [Company Credit](../b2b/credit-company.md)
 - [Online refund](payments.md#online-payment-methods)---Orders paid by credit card through a payment gateway, such as PayPal or Braintree, are refunded online via the payment processor.
 - [Offline refund](payments.md#offline-payment-methods)---Orders that are paid by Cash on Delivery ([COD](cash-on-delivery.md)) or by [check or money order](check-money-order.md) are refunded offline.
 
@@ -38,7 +38,7 @@ An order that was paid by Cash on Delivery ([COD](cash-on-delivery.md)) or by [c
 
 |Column|Description|
 |--- |--- |
-|[!UICONTROL Select]|Select the checkbox to select the credit memo items to be subject to an action, or use the selection control in the column header. Options: `Select All` / `Deselect All`|
+|[!UICONTROL Select]|Select the checkboxes for the credit memo items to be subject to an action, or use the selection control in the column header. Options: `Select All` / `Deselect All`|
 |[!UICONTROL Credit Memo]|A unique numeric identifier that is assigned when a request for a credit memo is submitted.|
 |[!UICONTROL Created]|The date and time the buyer first submitted the request for a credit memo.|
 |[!UICONTROL Order#]|Order ID of the order whose products are being returned.|

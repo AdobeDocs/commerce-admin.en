@@ -9,19 +9,19 @@ An invoice is a record of the record of payment for an order. Multiple invoices 
 
 On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > _Operations_ > **Invoices** to open the _Invoices_ grid and access your created invoices.
 
-![Invoices grid](./assets/invoices.png)<!-- zoom -->
+![Invoices grid](./assets/invoices.png){width="700" zoomable="yes"}
 
 ## Column descriptions
 
 |Column|Description|
 |--- |--- |
-|[!UICONTROL Select]|Select the checkbox to choose the quotes to be subject to an action, or use the selection control in the column header. Options: `Select All` / `Deselect All`|
+|[!UICONTROL Select]|Select the checkboxes for the quotes to be subject to an action, or use the selection control in the column header. Options: `Select All` / `Deselect All`|
 |[!UICONTROL Invoice]|A unique numeric identifier that is assigned when an invoice is submitted from the Admin. When viewing the invoice detail, this number appears at the top of the page, instead of the quote name.|
 |[!UICONTROL Invoice Date]|The date and time the administrator first submitted the invoice.|
 |[!UICONTROL Order#]|A unique numeric identifier that is assigned when an order is placed by a buyer. When viewing the invoice details, this number appears as a link in the Order & Account Information block.|
 |[!UICONTROL Order Date]|The date and time the customer first successfully placed an order.|
 |[!UICONTROL Bill-to Name]|The name of the person who is responsible to pay for the order.|
-|[!UICONTROL Status]|Indicates the current state of an invoice. This can be changed only by action on the part of either the buyer or seller.|
+|[!UICONTROL Status]|Indicates the current state of an invoice. The status can be changed only by action on the part of either the buyer or seller.|
 |[!UICONTROL Grand Total (Base)]|The total price of products to be purchased. The total amount appears in the base currency of the website and in the currency of the storefront.|
 |[!UICONTROL Grand Total (purchase)]|The grand total of products purchased in the order. The total amount appears in the base currency of the website and in the currency of the storefront.|
 |[!UICONTROL Purchased From]|The website/store/store view from which the invoice was created.|
@@ -64,11 +64,11 @@ An invoice for the order must be generated before it can be printed. To view or 
 
    >[!NOTE]
    >
-   >The Invoice option does not appear when the [payment action](../configuration-reference/sales/payment-methods.md#payment-actions) for your specific [payment method](../configuration-reference/sales/payment-methods.md) is set to `Authorize and Capture`, which auto-generates an invoice. This is also the case if the order is placed and the payment action for your payment method is set to `Authorize` and the order is invoiced.
+   >The _[!UICONTROL Invoice]_ option does not appear when the [payment action](../configuration-reference/sales/payment-methods.md#payment-actions) for your specific [payment method](../configuration-reference/sales/payment-methods.md) is set to `Authorize and Capture`, which auto-generates an invoice. This is also the case if the order is placed and the payment action for your payment method is set to `Authorize` and the order is invoiced.
+
+   ![Invoice Sales Order](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
    The new invoice page looks similar to a completed order page, with additional fields that can be edited.
-
-   ![Invoice Sales Order](./assets/invoice-sales-order.png)<!-- zoom -->
 
 1. If the items are ready to ship, generate a packing slip for the shipment at the same time that you create the invoice:
 
@@ -76,41 +76,41 @@ An invoice for the order must be generated before it can be printed. To view or 
 
       The shipment record is created at the same time that the invoice is generated.
 
-      ![Create Shipment](./assets/invoice-create-shipment-fedex.png)<!-- zoom -->
-
    - Include a tracking number:
 
       - Click **[!UICONTROL Add Tracking Number]**.
       - Enter the tracking information: _[!UICONTROL Carrier]_, _[!UICONTROL Title]_, and _[!UICONTROL Number]_
+
+      ![Create a Fedex shipment](./assets/invoice-create-shipment-fedex.png){width="600" zoomable="yes"}
 
    - Optionally, generate a partial invoice:
 
       - In the _Items to Invoice_ section, update the **[!UICONTROL Qty to Invoice]** column to include only specific items on the invoice.
       - Then, click **[!UICONTROL Update Qty's]**.
 
-        ![Items to Invoice](./assets/invoice-items-to-invoice.png)<!-- zoom -->
+        ![Items to Invoice](./assets/invoice-items-to-invoice.png){width="600" zoomable="yes"}
 
 1. If an online payment method was used for the order, set **[!UICONTROL Amount]** to the appropriate option.
 
 1. To notify customers by email when the invoice is generated, do the following:
 
-   - Click the **[!UICONTROL Email Copy of Invoice]** checkbox to select it.
+   - Select the **[!UICONTROL Email Copy of Invoice]** checkbox.
 
    - Enter any **[!UICONTROL Invoice Comments]**. To include the comments in the notification email, mark the **[!UICONTROL Append Comments]** checkbox.
 
-1. When complete, click **[!UICONTROL Submit Invoice]** at the bottom of the page. The status of the order changes from `Pending` to `Complete`.
+1. When complete, click **[!UICONTROL Submit Invoice]** at the bottom of the page.
 
    **_Online payment method:_**
 
-   ![Submit Invoice - online payment method](./assets/invoice-submit-invoice-capture-online.png)<!-- zoom -->
+   ![Submit Invoice - online payment method](./assets/invoice-submit-invoice-capture-online.png){width="600" zoomable="yes"}
 
    **_Offline payment method:_**
 
-   ![Submit Invoice - offline payment method)](./assets/invoice-submit-invoice.png)<!-- zoom -->
+   ![Submit Invoice - offline payment method)](./assets/invoice-submit-invoice.png){width="600" zoomable="yes"}
 
-  **_Completed invoice:_**
+   The status of the order changes from `Pending` to `Complete`.
 
-   ![Completed Invoice](./assets/invoice-full.png)<!-- zoom -->
+   ![Completed invoice summary](./assets/invoice-complete.png){width="600" zoomable="yes"}
 
 ## Print invoices
 
@@ -138,13 +138,13 @@ Invoices can be printed individually or as a batch. However, before an invoice c
 
 1. Set the **[!UICONTROL Actions]** control to `PDF Invoices`.
 
-   ![Print multiple invoices](./assets/invoices-print-batch.png)<!-- zoom -->
+   ![Print multiple invoices](./assets/invoices-print-batch.png){width="600" zoomable="yes"}
 
 The invoices are saved in a single PDF file that can be sent to a printer or saved.
 
 ## Troubleshooting resources
 
-For help with troubleshooting invoice issues, see the following Commerce Support Knowledge Base articles:
+For help with troubleshooting invoice issues, see the following _Commerce Support Knowledge Base_ articles:
 
 - [Can't invoice bundle products virtual and simple](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-9/mdva-30889-magento-patch-can-t-invoice-bundle-products-virtual-and-simple.html)
 - [Invoice without store credit info](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-8/mdva-31150-magento-patch-invoice-without-store-credit-info.html)

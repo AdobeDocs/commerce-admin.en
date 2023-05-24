@@ -18,7 +18,7 @@ There are many ways to use hidden categories. You might want to create additiona
 
 1. In the **[!UICONTROL Display Settings]** section, set **[!UICONTROL Anchor]** to `No`.
 
-   ![Hidden category](./assets/hidden-categories.png)<!-- zoom -->
+   ![Hidden category](./assets/hidden-categories.png){width="600" zoomable="yes"}
 
    The hidden category is active, but does not appear in the top menu, or in layered navigation.
 

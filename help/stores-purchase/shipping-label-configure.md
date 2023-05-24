@@ -12,7 +12,7 @@ The following settings must be made at the product level, and in the configurati
 |[!UICONTROL Carrier]|Requirements|
 |-------|--------|
 |[USPS](usps.md)|Requires a USPS account. As of February 23, 2018, USPS requires all shipping labels to include postage.|
-[UPS](ups.md)|Requires a UPS account. Shipping labels are available only for shipments that originate in the U.S. Specific credentials are required for stores outside the US.|
+[UPS](ups.md)|Requires a UPS account. Shipping labels are available only for shipments that originate in the U.S.-Specific credentials are required for stores outside the US.|
 |[FedEx](fedex.md)|Requires a FedEx account. For stores outside of the U.S., shipping labels are supported for international shipments only. FedEx does not allow domestic shipments that originate outside of the U.S|
 [DHL](dhl.md)|Requires a DHL account. Shipping labels are supported only for shipments that originate in the U.S.|
 
@@ -20,7 +20,7 @@ The following settings must be made at the product level, and in the configurati
 
 ## Step 1: Verify the country of manufacture
 
-The country of manufacture is required for all products that are shipped internationally by USPS and FedEx. If you have many products that need to be updated, you can either [import](../systems/data-import.md) the updates, or use the Inventory grid to update multiple records.
+The country of manufacture is required for all products that are shipped internationally by USPS and FedEx. If you have many products that should be updated, you can either [import](../systems/data-import.md) the updates, or use the Inventory grid to update multiple records.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
@@ -30,11 +30,9 @@ The country of manufacture is required for all products that are shipped interna
 
 1. In the grid, find the product to be updated, and open in edit mode.
 
-1. In the _Advanced Settings_ section in the left panel, choose **Autosettings**.
-
 1. Update the **Country of Manufacture** as needed.
 
-   ![Country of Manufacture](./assets/product-country-of-manufacture.png)<!-- zoom -->
+   ![Country of Manufacture](./assets/product-country-of-manufacture.png){width="700" zoomable="yes"}
 
 1. Click **[!UICONTROL Save]**.
 
@@ -46,7 +44,9 @@ The country of manufacture is required for all products that are shipped interna
 
 1. Set the **[!UICONTROL Actions]** control to `Update Attributes` and click **[!UICONTROL Submit]**.
 
-1. In the _Update Attributes_ form, find the **Country of Manufacture** field and select the **Change** checkbox. Then, choose the country.
+1. In the _Update Attributes_ form, find the **Country of Manufacture** field and select the **Change** checkbox. 
+
+1. Choose the country.
 
 1. Click **[!UICONTROL Save]**.
 
@@ -61,7 +61,7 @@ The country of manufacture is required for all products that are shipped interna
    - **Street Address** – The street address of the place from which shipments are sent. For example, the location of your company or warehouse. This field is required for shipping labels.
    - **Street Address Line 2** – Any additional address information, such as the floor or entrance. Using this field is recommended.
 
-   ![Origin](../configuration-reference/sales/assets/shipping-settings-origin.png)<!-- zoom -->
+   ![Origin](../configuration-reference/sales/assets/shipping-settings-origin.png){width="600" zoomable="yes"}
 
 1. In the _Sales_ section in the left panel, choose **[!UICONTROL Delivery Methods]**.
 
@@ -93,6 +93,6 @@ The country of manufacture is required for all products that are shipped interna
 
    If the information is missing, an error appears when you try to print the labels.
 
-   ![Store Information](../configuration-reference/general/assets/general-store-information.png)<!-- zoom -->
+   ![Store Information](../configuration-reference/general/assets/general-store-information.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Save Config]**.
