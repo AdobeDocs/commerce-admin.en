@@ -21,6 +21,24 @@ See [Upcoming Releases](https://experienceleague.adobe.com/docs/commerce-operati
 
 See the developer documentation to [learn about product compatibility](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html).
 
+## Supported service updates
+
+These release notes describe feature changes and fixes related to extensions used by Audience Activation.
+
++++Supported service updates
+
+_May 30, 2023_
+
+- ![New](../assets/new.svg) - Updated the [Real-Time CDP Audiences dashboard](#real-time-cdp-audiences-dashboard) to include the ability to sort, search, and filter the active audiences within your Adobe Commerce instance.
+
++++
+
+### 1.1.0
+
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} 
+
+- ![New](../assets/new.svg) - Added support for [dynamic blocks](#headless-support) in a headless storefront.
+
 ### 1.0.1
 
 _May 11, 2023_
@@ -90,7 +108,7 @@ With audiences activated to your Adobe Commerce instance, you can:
 
 ## Real-Time CDP audiences dashboard
 
-You can view all active audiences that are available to personalize within your Adobe Commerce instance using the **Real-Time CDP Audiences** dashboard. Any audiences you [activated](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html) in the Adobe Commerce destination in Real-Time CDP appears in this dashboard.
+You can view all active audiences that are available to personalize within your Adobe Commerce instance using the **Real-Time CDP Audiences** dashboard. Any audiences you [activated](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html) in the Adobe Commerce destination in Real-Time CDP appear in this dashboard.
 
 To access the **Real-Time CDP Audiences** dashboard, go to the _Admin_ sidebar, then go to **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]**. The **Real-Time CDP Audiences** dashboard appears:
 
@@ -98,17 +116,16 @@ To access the **Real-Time CDP Audiences** dashboard, go to the _Admin_ sidebar, 
 
 |Column|Description|
 |--- |--- |
+|`Search Filter`|Section that lets you specify the search criteria. You can search by `Audience` or `Last Modified`. If you do not select any criteria or you select all criteria, all audiences are searched.|
+|`Search`|Lets you search for active audiences in your Commerce instance. |
 |`Audience`|Name given to the audience in Real-Time CDP.|
 |`Last Modified`|Indicates when the audience was modified in Real-Time CDP.|
 |`Origin`|Indicates where the audience came from, such as `Experience Platform`.|
+|`Sync now`|Retrieves new or updated audiences from Real-Time CDP.|
 
 {style="table-layout:auto"}
 
 ## Headless support
-
->[!NOTE]
->
->In a headless Adobe Commerce instance, you can only use Real-Time CDP audiences for cart price rules. Dynamic blocks are not supported currently.
 
 You can activate audiences in a headless Adobe Commerce instance, such as AEM and PWA. A headless storefront communicates to the Experience Platform through the [Commerce Integration Framework (CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). The framework provides a server-side API that is implemented using GraphQL. Audience information, like which segment a shopper belongs to, is passed to Commerce through a GraphQL header parameter named: `aep-segments-membership`.
 
@@ -125,3 +142,158 @@ After it is retrieved, you can pass those segments to Commerce within the GraphQ
 ```bash
 curl 'http://magento.config/graphql' -H 'Authorization: Bearer abc123' -H 'aep-segments-membership: urlencoded_list_of_segments' -H 'Content-Type: application/json' --data-binary '{"query":"query {\ncustomer {\nfirstname\nlastname\nemail\n}\n}"}'
 ```
+
+### Dynamic blocks
+
+You can use dynamic blocks in a headless storefront. The `dynamicBlocks` GraphQL endpoint contains an input attribute called `audience_id`. When you call the `dynamicBlocks` endpoint, it returns a list of dynamic blocks along with any audience IDs associated with that dynamic block.
+
+#### Example usage
+
+The following query returns all dynamic blocks where the `audience_id` equals `cd29a789-9be8-40ad-a1ef-640c33b3742e`.
+
+**Request:**
+
+```graphql
+{
+  dynamicBlocks(input:
+  {
+    type: SPECIFIED
+    audience_id: {
+      eq: "cd29a789-9be8-40ad-a1ef-640c33b3742e"
+    }
+  })
+  {
+    items {
+      uid
+      audience_id
+      content {
+        html
+      }
+    }
+    page_info {
+      current_page
+      page_size
+      total_pages
+    }
+    total_count
+  }
+}
+```
+
+**Response:**
+
+```json
+{
+  "data": {
+    "dynamicBlocks": {
+      "items": [
+        {
+          "uid": "MQ==",
+          "audience_id": [
+            "cd29a789-9be8-40ad-a1ef-640c33b3742e"
+          ],
+          "content": {
+            "html": "<h2><strong>SAVE 20%</strong></h2>\r\n<p>(some restrictions apply)</p>\r\n<p>&nbsp;</p>"
+          }
+        },
+        {
+          "uid": "Mg==",
+          "audience_id": [
+            "cd29a789-9be8-40ad-a1ef-640c33b3742e",
+            "92c3e14d-c72b-40d0-96b7-b96801dcc135"
+          ],
+          "content": {
+            "html": "<p><img src=\"{{media url=&quot;wysiwyg/save20.png&quot;}}\" alt=\"save 20% red\"></p>"
+          }
+        }
+      ],
+      "page_info": {
+        "current_page": 1,
+        "page_size": 20,
+        "total_pages": 1
+      },
+      "total_count": 2
+    }
+  }
+}
+```
+
+#### Example usage
+
+The following query returns all dynamic blocks associated with multiple audience IDs.
+
+**Request:**
+
+```graphql
+{
+  dynamicBlocks(input:
+  {
+    type: SPECIFIED
+    audience_id: {
+      in: [
+        "cd29a789-9be8-40ad-a1ef-640c33b3742e"
+        "92c3e14d-c72b-40d0-96b7-b96801dcc135"
+      ]
+    }
+  })
+  {
+    items {
+      uid
+      audience_id
+      content {
+        html
+      }
+    }
+    page_info {
+      current_page
+      page_size
+      total_pages
+    }
+    total_count
+  }
+}
+```
+
+**Response:**
+
+```json
+{
+  "data": {
+    "dynamicBlocks": {
+      "items": [
+        {
+          "uid": "MQ==",
+          "audience_id": [
+            "cd29a789-9be8-40ad-a1ef-640c33b3742e"
+          ],
+          "content": {
+            "html": "<h2><strong>SAVE 20%</strong></h2>\r\n<p>(some restrictions apply)</p>\r\n<p>&nbsp;</p>"
+          }
+        },
+        {
+          "uid": "Mg==",
+          "audience_id": [
+            "cd29a789-9be8-40ad-a1ef-640c33b3742e",
+            "92c3e14d-c72b-40d0-96b7-b96801dcc135"
+          ],
+          "content": {
+            "html": "<p><img src=\"{{media url=&quot;wysiwyg/save20.png&quot;}}\" alt=\"save 20% red\"></p>"
+          }
+        }
+      ],
+      "page_info": {
+        "current_page": 1,
+        "page_size": 20,
+        "total_pages": 1
+      },
+      "total_count": 2
+    }
+  }
+}
+```
+
+Learn more about the dynamicBlocks GraphQL endpoint in the [developer documentation](https://developer.adobe.com/commerce/webapi/graphql/schema/store/queries/dynamic-blocks/).
+
+>[!NOTE]
+>
+>An AEM storefront does not support dynamic blocks.
