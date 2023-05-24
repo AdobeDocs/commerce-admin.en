@@ -7,19 +7,17 @@ exl-id: fd0e5d5b-a917-4e55-8ec2-7ebb040d3d06
 
 You can create attributes while working on a product or from the _[!UICONTROL Product Attributes]_ page. The following steps show how to create attributes from the _[!UICONTROL Stores]_ menu.
 
-![New Attribute Properties](./assets/attribute-properties.png)<!-- zoom -->
-
-## Step 1: Describe the basic properties
+## Step 1: Describe the basic attribute properties
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_ > **[!UICONTROL Product]**.
 
 1. Click **[!UICONTROL Add New Attribute]**.
 
-   ![Add product attribute](./assets/product-attribute-add-attribute-properties-flavor.png)<!-- zoom -->
+   ![New Attribute Properties](./assets/attribute-properties.png){width="600" zoomable="yes"}
 
-1. Under _[!UICONTROL Attribute Properties]_, enter a **[!UICONTROL Default Label]** to identify the attribute.
+1. For **[!UICONTROL Default Label]**, enter a label that identifies the attribute.
 
-1. To determine the type of input control that is used for data entry, set **[!UICONTROL Input Type]** to one of the following:
+1. To determine the type of input control that is used for data entry, set **[!UICONTROL Catalog Input Type for Store Owner]** to one of the following:
 
    |Property|Description|
    |--- |--- |
@@ -53,19 +51,21 @@ You can create attributes while working on a product or from the _[!UICONTROL Pr
 
    - Select **[!UICONTROL Is Default]** to use the option as the default value.
 
-   ![Product attribute - manage options](./assets/product-attribute-add-values-flavors.png)<!-- zoom -->
+   ![Product attribute - manage options](./assets/product-attribute-add-values-colors.png){width="600" zoomable="yes"}
 
 ## Step 2: Describe the advanced properties (if needed)
 
 1. Enter a unique **[!UICONTROL Attribute Code]** in lowercase characters and without spaces.
 
-   ![Product attribute - advanced properties](./assets/product-attribute-advanced-attribute-properties.png)<!-- zoom -->
+   ![Product attribute - advanced properties](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
+
+   The available options depend on the _[!UICONTROL Catalog Input Type for Store Owner]_ setting.
 
 1. Set **[!UICONTROL Scope]** to indicate where in your [store hierarchy](../getting-started/websites-stores-views.md) that the attribute can be used.
 
 1. If you want to prevent any duplicate value entry, set **[!UICONTROL Unique Value]** to `Yes`.
 
-1. To run a validity test of any data entered into a text field, set **[!UICONTROL Input Validation for Store Owner]** to the type of data that the field should contain.
+1. For input types that are entered values, run a validity test of any data entered into a text field by setting **[!UICONTROL Input Validation for Store Owner]** to the type of data that the field should contain.
 
    This field is not available for input types with values that are selected. The test can validate any of the following:
 
@@ -76,7 +76,7 @@ You can create attributes while working on a product or from the _[!UICONTROL Pr
    - `Letters`
    - `Letters (a-z, A-Z) or Numbers (0-9)`
 
-   ![Input validation](./assets/product-attribute-input-validation.png)<!-- zoom -->
+   ![Input validation](./assets/product-attribute-input-validation.png){width="400"}
 
 1. To add this attribute to the [Products list](products-list.md), set the following options to `Yes`.
 
@@ -85,17 +85,21 @@ You can create attributes while working on a product or from the _[!UICONTROL Pr
 
 ## Step 3: Enter the field label
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Manage titles]** section.
+1. In the left side navigation, choose **[!UICONTROL Manage Labels]**.
 
 1. Enter a **[!UICONTROL Title]** to be used as a label for the field.
 
    If your store is available in different languages, you can enter a translated title for each view.
 
-   ![Product attribute - manage titles](./assets/product-attribute-add-manage-titles.png)<!-- zoom -->
+   ![Product attribute - manage titles](./assets/product-attribute-add-manage-titles.png){width="600" zoomable="yes"}
 
 ## Step 4: Describe the storefront properties
 
-1. In the left side panel, choose **[!UICONTROL Storefront Properties]**.
+1. In the left side navigation, choose **[!UICONTROL Storefront Properties]**.
+
+   ![Product attributes - storefront properties](./assets/product-attribute-add-storefront-properties.png){width="600" zoomable="yes"}
+
+   The available options depend on the _[!UICONTROL Catalog Input Type for Store Owner]_ setting.
 
 1. If the attribute is to be available for search, set **[!UICONTROL Use in Search]** to `Yes`.
 
@@ -128,8 +132,6 @@ You can create attributes while working on a product or from the _[!UICONTROL Pr
    - To use attribute as a sort parameter for product listings, set **[!UICONTROL Used for Sorting in Product Listing]** to `Yes`.
 
 1. When complete, click **[!UICONTROL Save Attribute]**.
-
-   ![Product attributes - storefront properties](./assets/product-attribute-add-storefront-properties.png)<!-- zoom -->
 
 ## Step 5: Assign the created attribute to the attribute set
 
@@ -168,6 +170,6 @@ Before deleting an attribute, make sure that it is not currently used by any pro
 
 1. Click **[!UICONTROL Delete Attribute]**.
 
-   ![Delete attribute](./assets/attribute-delete.png)<!-- zoom -->
+   ![Delete attribute](./assets/attribute-delete.png){width="600" zoomable="yes"}
 
 1. When prompted to confirm, click **[!UICONTROL OK]**.

@@ -7,7 +7,7 @@ exl-id: 3779d9db-4adb-473b-b9c9-ad066f50b549
 
 Product listings can be set to appear by default as either a list or grid. You can also determine how many products appear per page, and which attribute is used to sort the list. The product list includes a set of controls that can be used to sort the products, change the format of the list, sort by attribute, and advance from one page to the next.
 
-![Products displayed as a grid](./assets/storefront-catalog-page.png)<!-- zoom -->
+![Products displayed as a grid](./assets/storefront-catalog-page.png){width="700" zoomable="yes"}
 
 ## Configure product listings
 
@@ -17,9 +17,9 @@ Product listings can be set to appear by default as either a list or grid. You c
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Storefront]** section.
 
-   ![Storefront configuration options](./assets/catalog-storefront.png)<!-- zoom -->
+   ![Storefront configuration options](../configuration-reference/catalog/assets/catalog-storefront.png){width="600" zoomable="yes"}
 
-   For more information about these options, see [Storefront](../configuration-reference/catalog/catalog.md#storefront) in the _Configuration Reference_.
+   For a detailed list of these options, see [Storefront](../configuration-reference/catalog/catalog.md#storefront) in the _Configuration Reference_.
 
    >[!NOTE]
    >
@@ -77,7 +77,7 @@ Product listings can be set to appear by default as either a list or grid. You c
 
 The Pagination settings appear at the top and bottom of the list, and control the format of the pagination links for product listings. You can set the number of links that appear in the control, and configure the Next and Previous links. For the pagination links to appear, there must be more products in the list than are allowed per page in the product list configuration.
 
-![Pagination controls](./assets/storefront-pagination-controls.png)<!-- zoom -->
+![Pagination controls](./assets/storefront-pagination-controls.png){width="700" zoomable="yes"}
 
 ### Storefront pagination controls
 
@@ -98,7 +98,7 @@ The Pagination settings appear at the top and bottom of the list, and control th
 
 1. Under **[!UICONTROL Other Settings]**, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Pagination]** section.
 
-   ![Pagination](./assets/config-design-pagination.png)<!-- zoom -->
+   ![Pagination](./assets/config-design-pagination.png){width="600" zoomable="yes"}
    
    For more information about these settings, see [Design Configuration](../content-design/configuration.md).
 
@@ -106,7 +106,7 @@ The Pagination settings appear at the top and bottom of the list, and control th
 
 1. For **[!UICONTROL Pagination Frame Skip]**, enter the number of links that you want to skip ahead before displaying the next set of links in the pagination control.
 
-   For example, if the pagination frame has five links, and you want to jump to the next five links, how many links do you want to skip ahead? If you set this to four, then the last link from the previous set will be the first link in the next set.
+   For example, if the pagination frame has five links, and you want to jump to the next five links, how many links do you want to skip ahead? If you set the value to four (`4`), the last link from the previous set is the first link in the next set.
 
 1. For **[!UICONTROL Anchor Text for Previous]**, enter the text that you want to appear for the Previous link.
 

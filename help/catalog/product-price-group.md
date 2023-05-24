@@ -1,17 +1,17 @@
 ---
-title: Group Price
+title: Group pricing
 description: Learn how to use group pricing to set prices for discounted items based on customer groups in your store.
 exl-id: bc5be23f-64eb-47c3-beda-01168abfbf96
 ---
-# Group Price
+# Group pricing
 
-You can use the configuration settings in the Admin to set prices for discounted items based on customer groups in your store. This is called _group pricing_.
+You can use the product configuration settings in the Admin to set prices for discounted items based on customer groups in your store. This strategic pricing model is called _group pricing_.
 
-The discounted price of any product can be offered to members of a specific customer group when the shopper is  logged in to their account. The customer group price is displayed on the product page along with the regular price so that a shopper can easily compare prices and act accordingly. After they add the product to the cart, the regular price is replaced by the group price based on their customer group.
+The discounted price of any product can be offered to members of a specific customer group when the shopper is logged in to their account. The customer group price is displayed on the product page along with the regular price so that a shopper can easily compare prices and act accordingly. After they add the product to the cart, the regular price is replaced by the group price based on their customer group.
 
 Pricing for customer groups is a component of [tiered pricing](product-price-tier.md) and is set in a similar manner. The only difference is that customer group prices have a quantity of 1.
 
-![Customer Group Discount](./assets/storefront-price-group.png)<!-- zoom -->
+![Customer Group Discount](./assets/storefront-price-group.png){width="600" zoomable="yes"}
 
 ## Benefits of using group pricing
 
@@ -31,7 +31,9 @@ Pricing for customer groups is a component of [tiered pricing](product-price-tie
 
 1. In the _[!UICONTROL Customer Group Price]_ section, click **[!UICONTROL Add]**.
 
-   ![Advanced Pricing](./assets/product-price-group.png)<!-- zoom -->
+   If your store includes [B2B for Adobe Commerce](../b2b/introduction.md) and has [shared catalogs](../b2b/catalog-shared.md) enabled, this section is labeled _[!UICONTROL Catalog and Tier Price]_.
+
+   ![Advanced Pricing](./assets/product-price-group.png){width="600" zoomable="yes"}
 
 1. Configure the group price:
 
@@ -47,13 +49,11 @@ Pricing for customer groups is a component of [tiered pricing](product-price-tie
 
       - `Discount` - Enter the discounted price as a percentage of the product price.
 
-      ![10% Discount Customer Group Price](./assets/product-price-group-discount.png)<!-- zoom -->
+      ![Customer Group Pricing](./assets/product-price-group-discount.png){width="600" zoomable="yes"}
 
 1. To add another group price, click **[!UICONTROL Add]** and repeat the previous step.
 
 1. When complete, click **[!UICONTROL Done]** and then **[!UICONTROL Save]**.
-
-   ![Group Price in Shopping Cart](./assets/storefront-cart-price-group-discount.png)<!-- zoom -->
 
 >[!NOTE]
 >

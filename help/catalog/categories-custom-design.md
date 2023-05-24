@@ -7,7 +7,7 @@ exl-id: 6dc216ac-1c52-4196-9c93-e5cad19901b5
 
 The _[!UICONTROL Design]_ section gives you control over the look and feel of a category, all associated product pages, and page layout. You can customize a category page and its associated products for a promotion, or to differentiate the category. For example, you might develop a distinctive design for a brand or special line of products, or apply an update for a specific time period.
 
-![Design settings for a category](./assets/category-design.png)<!-- zoom -->
+![Design settings for a category](./assets/category-design.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ The _[!UICONTROL Design]_ section gives you control over the look and feel of a 
 
 {style="table-layout:auto"}
 
-## Scheduled Design Update
+## [!UICONTROL Scheduled Design Update]
 
 {{ce-feature}}
 
@@ -33,4 +33,4 @@ The _[!UICONTROL Scheduled Design Update]_ section determines the range of dates
 |--- |--- |
 |[!UICONTROL Schedule Update From/To]|Determines the range of dates when a custom layout is applied to the category.|
 
-![Scheduled Design Update](./assets/category-scheduled-design-update.png)<!-- zoom -->
+![Scheduled Design Update](./assets/category-scheduled-design-update.png){width="600" zoomable="yes"}
