@@ -112,7 +112,7 @@ You can view all active audiences that are available to personalize within your 
 
 To access the **Real-Time CDP Audiences** dashboard, go to the _Admin_ sidebar, then go to **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]**. The **Real-Time CDP Audiences** dashboard appears:
 
-![Real-Time CDP Audiences Dashboard](./assets/audience-libary.png){width="700" zoomable="yes"}
+![Real-Time CDP Audiences Dashboard](./assets/audience-library.png){width="700" zoomable="yes"}
 
 |Column|Description|
 |--- |--- |
