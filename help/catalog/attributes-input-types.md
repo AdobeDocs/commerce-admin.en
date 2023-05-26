@@ -32,15 +32,19 @@ When viewed from the Admin, attributes are the fields that you complete when you
 
 You can customize the format of date and time fields, and select the input control that is used for data entry. Dates values can be selected from a drop-down list, or pop-up calendar.
 
-![Example - storefront popup calendar](./assets/storefront-popup-calendar.png)<!-- zoom -->
+![Example - storefront popup calendar](./assets/storefront-popup-calendar.png){width="700" zoomable="yes"}
 
-To format date/time fields:
+**_To format date/time fields:_**
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
 1. In the panel on the left, expand **[!UICONTROL Catalog]** and click the **[!UICONTROL Catalog]** subitem.
 
 1. Expand the **[!UICONTROL Date & Time Custom Options]** section.
+
+   ![Catalog configuration - date and time options](../configuration-reference/catalog/assets/catalog-date-time-custom-options.png){width="600" zoomable="yes"}
+
+   For a detailed listing of these options, see [_Date & Time Custom Options_](../configuration-reference/catalog/catalog.md) in the _Configuration Reference_.
 
 1. To use a popup calendar as the input control for date fields, set **[!UICONTROL Use JavaScript Calendar]** to `Yes`.
 
@@ -59,8 +63,4 @@ To format date/time fields:
 
    If blank, the field defaults to the current year.
 
-   ![Catalog configuration - date and time options](./assets/catalog-date-time-custom-options.png)<!-- zoom -->
-
 1. When complete, click **[!UICONTROL Save Config]**.
-
-For more information about these options, see [_Date & Time Custom Options_](../configuration-reference/catalog/catalog.md) in the _Configuration Reference_.

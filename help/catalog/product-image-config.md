@@ -9,7 +9,7 @@ If you plan to upload large images for viewing on the _[!UICONTROL Product Detai
 
 ## Product image resizing
 
-When uploading product images, you may add larger images with varying sizes to provide detailed, high-quality zooms on the _[!UICONTROL Product Details]_ page. To ensure that all images have a similar size and look, we provide an image resizing option to ensure that all images match a specific pixel size. This option automatically resizes all product images using the configuration settings, which can help with performance of zoom, faster loading of images and keep a uniform look to your product images.
+When uploading product images, you may add larger images with varying sizes to provide detailed, high-quality zooms on the _[!UICONTROL Product Details]_ page. To ensure that all images have a similar size and look, there is an image resizing option to ensure that all images match a specific pixel size. This option automatically resizes all product images using the configuration settings, which can help with performance of zoom, faster loading of images and keep a uniform look to your product images.
 
 >[!NOTE]
 >
@@ -17,7 +17,7 @@ When uploading product images, you may add larger images with varying sizes to p
 
 Setting a maximum pixel width and height resizes the image to the physical dimensions by pixel. Commerce resizes the image according to the higher amount of either width or height while keeping the proportions. Reducing the quality amount for JPG images reduces the file size.
 
-For example, a 3000 x 2100 pixel JPG at 100% could be a 5mb+ image file. Resizing this image would reduce the width to 1920 pixels, keeping proportions, and quality to 80% to provide much smaller file size with high quality.
+For example, a 3000 x 2100 pixel JPG at 100% could be a 5 mb or larger image file. Resizing this image would reduce the width to 1920 pixels, keeping proportions, and quality to 80% to provide much smaller file size with high quality.
 
 ### Enable image resizing
 
@@ -27,17 +27,17 @@ For example, a 3000 x 2100 pixel JPG at 100% could be a 5mb+ image file. Resizin
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the _Images Upload Configuration_ section.
 
-   To change default settings, you may need to deselect the **[!UICONTROL Use system value]** checkbox.
+   To change default settings, deselect the **[!UICONTROL Use system value]** checkbox if needed.
 
-   ![Image Upload Configuration](./assets/system-image-upload-configuration.png)<!-- zoom -->
+   ![Image Upload Configuration](../configuration-reference/advanced/assets/system-image-upload-configuration.png){width="600" zoomable="yes"}
    
-   For more information about these configuration settings, see [_Image Upload Configuration_](../configuration-reference/advanced/system.md#image-upload-configuration) in the _Configuration Reference_.
+   For a detailed list of these configuration settings, see [_Image Upload Configuration_](../configuration-reference/advanced/system.md#image-upload-configuration) in the _Configuration Reference_.
 
 1. To enable, make sure **[!UICONTROL Enable Frontend Resize]** is set to `Yes`.
 
 1. Enter a **[!UICONTROL Quality]** setting between `1` and `100`%.
 
-   We recommend a setting between 80-90% for a reduced file size and high quality.
+   A setting between 80-90% is recommended for a reduced file size and high quality.
 
 1. Set the **[!UICONTROL Maximum Width]** in pixels for the image.
 
@@ -53,7 +53,7 @@ For example, a 3000 x 2100 pixel JPG at 100% could be a 5mb+ image file. Resizin
 
 |Field|[Scope](../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|[!UICONTROL Quality]|Global|Determines the JPG quality for the resized image. Lower quality reduces the file size. We recommend 80-90% to help reduce file size with high quality. Default: 80|
+|[!UICONTROL Quality]|Global|Determines the JPG quality for the resized image. Lower quality reduces the file size. 80-90% is recommended to help reduce file size with high quality. Default: 80|
 |[!UICONTROL Enable Frontend Resize]|Global|Allows Commerce to resize large, oversized images you may upload for the _[!UICONTROL Product Details]_ page. Commerce resizes the image files using JavaScript when uploading the file. When the image is resized, it keeps the exact proportions, to meet and not exceed the largest size for Maximum Width or Maximum Height. Default: `Yes`|
 |[!UICONTROL Maximum Width]|Global|Determines the maximum pixel width for the image. When the image is resized, it does not exceed this width. Default: `1920`|
 |[!UICONTROL Maximum Height]|Global|Determines the maximum pixel height for the image. When the image is resized, it does not exceed this height. Default: `1200`|
@@ -64,9 +64,9 @@ For example, a 3000 x 2100 pixel JPG at 100% could be a 5mb+ image file. Resizin
 
 Adobe Commerce and Magento Open Source use temporary images as placeholders until the permanent product images become available. A different placeholder can be uploaded for each role. The initial placeholder image is a sample logo, which you can replace with the image of your choice.
 
-![Image Placeholder](./assets/storefront-image-placeholder.png)<!-- zoom -->
+![Image Placeholder](./assets/storefront-image-placeholder.png){width="600" zoomable="yes"}
 
-To upload placeholder images:
+**_To upload placeholder images:_**
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -74,9 +74,9 @@ To upload placeholder images:
 
 1. Expand ![Expansion icon](../assets/icon-display-expand.png) the **[!UICONTROL Product Image Placeholders]** section.
 
-   For more information about these configuration settings, see [_Product Image Placeholders_](../configuration-reference/catalog/catalog.md#product-image-placeholders) in the _Configuration Reference_.
+   ![Product Image Placeholders](../configuration-reference/catalog/assets/catalog-product-image-placeholders.png){width="600" zoomable="yes"}
 
-   ![Product Image Placeholders](./assets/catalog-product-image-placeholders.png)<!-- zoom -->
+   For a detailed list of these configuration settings, see [_Product Image Placeholders_](../configuration-reference/catalog/catalog.md#product-image-placeholders) in the _Configuration Reference_.
 
 1. For each image role, click **[!UICONTROL Choose File]**, find the image on your computer, and upload the file.
 
