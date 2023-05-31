@@ -76,29 +76,12 @@ For more information about changing these settings, see [Change the startup page
 
 {style="table-layout:auto"}
 
-## [!UICONTROL Unified Experience]
-
-![Store Configuration for Unified Experience](./assets/admin-uex-configuration.png)
-
-Unified Experience settings enable integration with Experience Cloud to streamline cross-application workflows between Commerce and other Experience Cloud solutions. See [Adobe Experience Cloud Integration for Adobe Commerce](../../getting-started/admin-unified-experience-integration-overview.md).
-
-This option is available in Adobe Commerce deployments that have the Commerce Admin Unified Experience extension loaded.
-
-| Field        | [Scope](../../getting-started/websites-stores-views.md#scope-settings) | Description                                                                                                                                                                                                                                                                                                                                                                    |
-|--------------|------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Enable       | Global                                                                 | Determines if the Commerce instance uses the Experience Cloud integration. Before enabling this feature, review the [requirements and configuration instructions](../../getting-started/admin-unified-experience-integration-overview.md). Options: Yes/No.                                                                                                                    |
-| Project Name | Global                                                                 | Identifies the instance in the Experience Cloud Commerce Projects workspace when the Unified Experience is enabled. The name can contain only alphanumeric characters and spaces. Defaults to the [cloud environment name](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-architecture.html?lang=en#pro-environment-architecture). |
-
-{style="table-layout:auto"}
 
 # [!UICONTROL Unified Experience]
 
 ![Store Configuration for Unified Experience](./assets/admin-uex-configuration.png)
 
-[!Unified Experience] enables the [integration with Experience Cloud](../../getting-started/admin-unified-experience-integration-overview.md) to streamline cross-application workflows between Commerce and other Experience Cloud solutions.
-
-The [!UICONTROL Unified Experience] option is available in Adobe Commerce deployments that have the Commerce Admin Unified Experience extension installed.
- This extension enables integration with Experience Cloud to streamline cross-application workflows between Commerce and other Experience Cloud solutions. See [Adobe Experience Cloud Integration for Adobe Commerce](../../getting-started/admin-unified-experience-integration-overview.md).
+The [!UICONTROL Unified Experience] option is available in Adobe Commerce deployments that have the Commerce Admin Unified Experience extension loaded. This extension enables integration with Experience Cloud to streamline cross-application workflows between Commerce and other Experience Cloud solutions. See [Adobe Experience Cloud Integration for Adobe Commerce](../../getting-started/admin-unified-experience-integration-overview.md).
 
 | Field        | [Scope](../../getting-started/websites-stores-views.md#scope-settings) | Description                                                                                                                                                                                                                                                                                                                                                                    |
 |--------------|------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
