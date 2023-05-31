@@ -85,6 +85,10 @@ Before configuring the Experience Cloud integration, verify that your project an
 
 Enable the Commerce Admin Unified Experience extension, and then log in through Experience Cloud.
 
+>[!NOTE]
+>
+>These instructions show how a Commerce Cloud project administrator can enable the extension using the Adobe Commerce ClI. Commerce Admin users can also enable the extension by updating the [Commerce store configuration settings](admin-unified-experience-integration-manage.md#from-the-commerce-admin).
+
 1. From the root directory of your Cloud project environment on your local workstation, use the [magento-cloud CLI tool](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html) to log in to the Commerce application server.
 
    ```bash

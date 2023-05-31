@@ -14,6 +14,8 @@ Before disabling or enabling the extension, notify Commerce Admin users about ch
 | Testing completed<br><br>Administrator access restored                                           | Enable the integration                                 | <ul><li>Log in through Experience Cloud or navigate to default Admin URL to be redirected to Experience Cloud.</li><li>All requests to Admin are routed through Experience Cloud.</li></ul>                                                                                                                                                                                                                                                                             |
 | Adobe Identity Management Service (IMS) integration is disabled                                  | Experience Cloud integration is disabled automatically | <ul><li>Navigate to the default Admin URL for the Commerce project to [log in Adobe Commerce account](admin-signin.md#admin-sign-in) credentials.</li><li>Administrators might be required to reconfigure Two-Factor Authorization to log in to the Admin.</li><li>All requests to Commerce Admin are routed through the Commerce application and Commerce authentication services.</li><li>Admin requests are routed through the Adobe Commerce application.</li></ul> |
 
+{style="table-layout:auto"}
+
 ## From the Commerce Admin
 
 1. From the Commerce Admin, open the Store Configuration menu by selecting **[!UICONTROL Stores]** from the left navigation menu, and the select **[!UICONTROL Configuration]**.
