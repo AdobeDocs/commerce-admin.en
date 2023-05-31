@@ -1,8 +1,8 @@
 ---
-title: Configure the Commerce Admin Integration with Experience Cloud
+title: Configure the Experience Cloud Integration with Commerce Admin
 description: Learn about the requirements and process to configure a Commerce on cloud infrastructure environment to deploy the Commerce Admin in the Adobe Unified Shell interface to provide Admin users with an improved user experience.
 ---
-# Configure the Commerce Admin Integration with Experience Cloud
+# Configure the Experience Cloud Integration with the Commerce Admin
 
 Get started with the Commerce Admin Integration with Experience Cloud by configuring the Commerce application to use the Commerce Admin Unified Experience and Commerce Events extensions.
 

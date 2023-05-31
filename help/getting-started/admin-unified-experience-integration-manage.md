@@ -1,27 +1,67 @@
 ---
-title: Manage the Unified Shell Integration
-description: Learn how to disable the Commerce Admin on Unified Shell and troubleshoot issues
+title: Manage the Experience Cloud Integration
+description: Learn how to manage the Experience Cloud integration and troubleshoot issues
 ---
-# Manage the Unified Shell Integration
+# Manage the Experience Cloud Integration
 
-After the Unified Shell Integration has been enabled, Admin users can log into the Commerce Admin using their Adobe ID. They will be directed.
+After initial enablement, change the status of the the Experience Cloud integration by enabling or disabling the Commerce Admin Unified Experience extension.
 
-- Disable the integration.
+Before disabling or enabling the extension, notify Commerce Admin users about changes to the authentication and Admin workflows to prevent business disruptions. The following table outlines different scenarios for enabling or disabling the Experience Cloud integration and the impact on the Admin workflows.
 
-- Add Admin users to an org via the Adobe Console
+| Scenario                                                                                         | Action                                                 | Changes to authentication workflow                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|--------------------------------------------------------------------------------------------------|--------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Troubleshoot Commerce application issues<br><br>Administrators cannot log into Commerce instance | Disable the integration                                | <ul><li>Admin users that are logged in get application or `404 page not found` errors when they refresh, or when their session expires.</li><li>Navigate to the default Admin URL and log in using Adobe ID account credentials.</li><li>Requests to Commerce Admin are routed through the Commerce application.</li></ul>                                                                                                                                              |
+| Testing completed<br><br>Administrator access restored                                           | Enable the integration                                 | <ul><li>Log in through Experience Cloud or navigate to default Admin URL to be redirected to Experience Cloud.</li><li>All requests to Admin are routed through Experience Cloud.</li></ul>                                                                                                                                                                                                                                                                             |
+| Adobe Identity Management Service (IMS) integration is disabled                                  | Experience Cloud integration is disabled automatically | <ul><li>Navigate to the default Admin URL for the Commerce project to [log in Adobe Commerce account](admin-signin.md#admin-sign-in) credentials.</li><li>Administrators might be required to reconfigure Two-Factor Authorization to log in to the Admin.</li><li>All requests to Commerce Admin are routed through the Commerce application and Commerce authentication services.</li><li>Admin requests are routed through the Adobe Commerce application.</li></ul> |
 
-- Customize Unified Shell content --  (Maybe this should be a separate topic?)
+## From the Commerce Admin
 
-- Possibly add section about Analytics legal notice form that you might see per ticket in backlog.
+1. From the Commerce Admin, open the Store Configuration menu by selecting **[!UICONTROL Stores]** from the left navigation menu, and the select **[!UICONTROL Configuration]**.
 
-## Disable the integration
+1. From the Configuration menu, select **[!UICONTROL Advanced > Admin]**, and then expand the [!UICONTROL Unified Experience option]**.
 
-## Customize Help Center content
+   ![Admin Store Configuration for Experience Cloud integration](./assets/admin-uex-manage-settings.png){width="600" zoomable="yes"}
 
-Commerce extension developers can customize the Unified Shell Help Center with contextual resource links by adding Unified Shell configuration code to their extension. See [Commerce PHP Extensions](https://developer.adobe.com/commerce/php/) in the PHP Develper documentation.
+1. Enable or disable the integration by selecting the [!UICONTROL Enable] value.
 
+1. Change the project name that displays in the Commerce Projects workspace by adding or updating the [!UICONTROL Project Name] value.
 
-## Troubleshooting
+1. Save the configuration.
 
-- Cannot access the instance (insert screen capture of error)
-- Next issue
+1. Clear the cache.
+
+## Using the Adobe Commerce CLI
+
+Commerce system administrators with Admin access to the Commerce cloud project can use Adobe Commerce CLI commands to manage the Experience Cloud integration.
+
+1. From your local development environment, log in to the cloud project.
+
+   ```bash
+   magento-cloud login
+   ```
+
+1. From the root directory of your Cloud project environment, connect to the Commerce application server.
+
+   ```bash
+   ssh magento-cloud
+   ```
+
+1. Check the status of the Admin Unified Experience extension:
+
+   ```bash
+   bin/magento admin:uex:status
+   ```
+
+1. Change the status of the extension to disable the integration
+
+   - **Enable**—`bin/magento config:set admin/unified_experience/enabled 1`
+
+   - **Disable**—`bin/magento config:set admin/unified_experience/enabled 0`
+
+## Manage Admin users
+
+When the Experience Cloud integration is enabled, all Commerce Admin users must have an Admin account on the Commerce instance and an Adobe user account to access Adobe products and services. Both accounts must be associated with the same email address.
+
+- **Commerce Admin account**—[Manage Commerce Admin users](../systems/permissions-users-all.md) from the Commerce Admin. The Admin account must be associated with an Adobe ID, for example `<username>@adobe.com`.
+
+- **Adobe user account**–An administrator for the Adobe organization associated with the Commerce instance must create a corresponding account for each Commerce administrator from the Adobe Admin Console. The account must have the same Adobe ID as the Commerce Admin account. See [Configure Adobe Commerce users in the Adobe Admin Console](adobe-ims-config.md#step-4-configure-adobe-commerce-users-in-the-adobe-admin-console).
