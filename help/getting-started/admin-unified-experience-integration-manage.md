@@ -16,7 +16,7 @@ Before disabling or enabling the extension, notify Commerce Admin users about ch
 
 {style="table-layout:auto"}
 
-## From the Commerce Admin
+## Manage the integration from the Admin
 
 1. From the Commerce Admin, open the Store Configuration menu by selecting **[!UICONTROL Stores]** from the left navigation menu, and then select **[!UICONTROL Configuration]**.
 
@@ -32,7 +32,7 @@ Before disabling or enabling the extension, notify Commerce Admin users about ch
 
 1. Clear the cache.
 
-## Using the Adobe Commerce CLI
+## Manage the integration using the Adobe Commerce CLI
 
 Commerce system administrators with Admin access to the Commerce cloud project can use Adobe Commerce CLI commands to manage the Experience Cloud integration.
 
