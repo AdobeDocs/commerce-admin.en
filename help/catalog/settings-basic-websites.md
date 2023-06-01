@@ -7,15 +7,15 @@ exl-id: dd4751db-5d68-426c-bfb0-43fc82df05f5
 
 The _[!UICONTROL Product in Websites]_ section identifies each website where the product is available, according to the [store hierarchy](../stores-purchase/stores.md).
 
-![Product website scope diagram](./assets/scope-product-website.svg)
+![Product website scope diagram](./assets/scope-product-website.svg){width="550"}
 
-To copy a product to a different website:
+**_To copy a product to a different website:_**
 
 1. Open the product in edit mode.
 
 1. Scroll down and expand ![Expansion selector](../assets/icon-display-expand.png) the _[!UICONTROL Product in Websites]_ section.
 
-   ![Product in Websites](./assets/catalog-product-in-websites-multisite-main-french.png)<!-- zoom -->
+   ![Product in Websites](./assets/catalog-product-in-websites-multisite-main-french.png){width="600" zoomable="yes"}
 
 1. Select the checkbox of the website where you want to place the copied product.
 
@@ -23,9 +23,7 @@ To copy a product to a different website:
 
 1. Choose the **[!UICONTROL Store View]** where you want to make a copy of the existing product.
 
-   ![Product in Websites](./assets/product-in-websites-multisite-copy-data.png)<!-- zoom -->
-
-1. click **[!UICONTROL Save]** and do the following:
+1. Click **[!UICONTROL Save]** and do the following:
 
    - When you return to the product record, set the **[!UICONTROL Store View]** chooser to the store view to which the product was copied. When prompted to confirm scope switching, click **[!UICONTROL OK]**.
 

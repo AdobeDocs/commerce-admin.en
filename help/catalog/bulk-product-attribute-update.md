@@ -15,10 +15,10 @@ Use the _[!UICONTROL Update Attributes]_ tool to change one or more attributes i
 
 1. Click the **[!UICONTROL Actions]** menu at the top and choose **[!UICONTROL Update Attributes]**.
 
-   ![Select products to be updated](./assets/bulk-product-updating-action.png)<!-- zoom -->
+   ![Select products to be updated](./assets/bulk-product-updating-action.png){width="600" zoomable="yes"}
 
 1. Update the attribute, advanced inventory, or website data for the selected products, according to your needs.
 
-1. When finished, click **[!UICONTROL Save]**.
+   ![Bulk updating for attributes](./assets/bulk-product-attribute-update.png){width="600" zoomable="yes"}
 
-   ![Bulk updating for attributes](./assets/bulk-product-attribute-update.png)<!-- zoom -->
+1. When finished, click **[!UICONTROL Save]**.

@@ -7,7 +7,7 @@ exl-id: 9fe4c4fb-8596-4fd0-a93b-927ebdfc0c94
 
 When enabled, reorders can be made directly from the customer account or from the original order in the _Admin_. Reorders are enabled by default.
 
-![Customer reorder link in the Admin](./assets/customer-reorder.png)<!-- zoom -->
+![Customer reorder link in the Admin](./assets/customer-reorder.png){width="700" zoomable="yes"}
 
 ## Criteria for reorder to be enabled for an order
 
@@ -27,7 +27,7 @@ When enabled, reorders can be made directly from the customer account or from th
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Reorder]** section.
 
-   ![Reorder options](../configuration-reference/sales/assets/sales-reorder.png)<!-- zoom -->
+   ![Reorder options](../configuration-reference/sales/assets/sales-reorder.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Allow Reorder]** to `Yes`. 
 
@@ -47,13 +47,13 @@ A customer can initiate the reorder functionality for a specific order from two 
 
 The _Reorder_ button is always displayed in the list with Orders (even if all products from the order are not available for reorder).
 
-![Example storefront - My Orders page](./assets/my-order-page-view.png)<!-- zoom -->
+![Example storefront - My Orders page](./assets/my-order-page-view.png){width="700" zoomable="yes"}
 
 **Case 1.** All products from the order are **available** for reorder
 
 User is redirected to the cart, and all products are added to the cart
 
-![Shopping cart](./assets/shopping-cart-page.png)<!-- zoom -->
+![Shopping cart](./assets/shopping-cart-page.png){width="700" zoomable="yes"}
 
 **Case 2.** Some/all products from the order are **not available** for reorder
 
@@ -63,7 +63,7 @@ User is redirected to the cart, and all products are added to the cart
 
 The _Reorder_ button does not appear on the _My Orders_ and _View Order_ pages.
 
-![My Orders page 1](./assets/my-orders-view-page1.png)<!-- zoom -->
+![My Orders page 1](./assets/my-orders-view-page1.png){width="700" zoomable="yes"}
 
 ### Order view page
 
@@ -79,13 +79,13 @@ User is redirected to the cart, and all products are added to the cart
 
 The _Reorder_ button does not appear on the _My Orders_ and _View Order_ pages.
 
-![Order details page](./assets/order-view-page.png)<!-- zoom -->
+![Order details page](./assets/order-view-page.png){width="700" zoomable="yes"}
 
 ### Cart is not empty
 
 If the cart is not empty and the user clicks **[!UICONTROL Reorder]** (from the _My Orders_  or _Order View_ page), the existing products remain in the cart with the added reorder products.
 
-![Reorder items](./assets/shopping-cart-view1.png)<!-- zoom -->
+![Reorder items](./assets/shopping-cart-view1.png){width="700" zoomable="yes"}
 
 ## Reorder from the Admin
 
@@ -95,12 +95,12 @@ If the cart is not empty and the user clicks **[!UICONTROL Reorder]** (from the 
 
 1. Click **[!UICONTROL Reorder]** which is displayed in the top button bar.
 
-   ![Order details in the Admin](./assets/order-view-admin.png)<!-- zoom -->
+   ![Order details in the Admin](./assets/order-view-admin.png){width="600" zoomable="yes"}
 
    After you click **[!UICONTROL Reorder]**, the _Create New Order_ page opens with reorder products.
 
-   ![Create reorder](./assets/create-reorder-page.png)<!-- zoom -->
+   ![Create reorder](./assets/create-reorder-page.png){width="600" zoomable="yes"}
 
-1. Fill in all required fields as needed.
+1. Complete all required fields as needed.
 
 1. To submit the order, click **[!UICONTROL Submit Order]**.

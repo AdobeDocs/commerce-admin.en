@@ -1,15 +1,15 @@
 ---
-title: Tier Price
+title: Tier pricing
 description: Learn how to use tier pricing to offer a quantity discount from a product listing or product page.
 exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
 ---
-# Tier Price
+# Tier pricing
 
 Tier pricing lets you offer a quantity discount from a product listing or product page in the storefront. The discount can be applied to a specific store view or customer group or shared catalog.
 
 If you have many products to update, it is most efficient to import the tier price changes, rather than enter them individually. For more information, see [Import tier prices](../systems/data-import-price-tier.md).
 
-![Tier price on a storefront product page](./assets/product-price-tier-storefront.png)<!-- zoom -->
+![Tier price on a storefront product page](./assets/product-price-tier-storefront.png){width="700" zoomable="yes"}
 
 The product page calculates the quantity discount and displays a message such as:
 
@@ -35,13 +35,13 @@ The prices in the storefront take precedence from the highest to the lowest quan
 
 1. For **[!UICONTROL Qty]**, enter the quantity that must be ordered to receive the discount.
 
-   - **Method 1: Enter Price as Fixed Amount**
+   - **Method 1:** Enter price as a fixed amount
 
       Set **[!UICONTROL Price]** to `Fixed` and enter the adjusted price for one unit at that tier.
 
-      ![Tier Price as a Fixed Amount](./assets/product-price-tier-fixed.png)<!-- zoom -->
+      ![Tier Price as a Fixed Amount](./assets/product-price-tier-fixed.png){width="600" zoomable="yes"}
 
-   - **Method 2: Enter Price as Percentage**
+   - **Method 2:** Enter price as a percentage
 
       Set **[!UICONTROL Price]** to `Discount` and enter the discounted price as a percentage off the base price of the product.
 
@@ -49,9 +49,9 @@ The prices in the storefront take precedence from the highest to the lowest quan
 
       >[!NOTE]
       >
-      >To get the discounted price, the defined percentage is calculated against the value defined in the _[!UICONTROL Price]_ field, not the _[!UICONTROL Special Price]** field.
+      >To get the discounted price, the defined percentage is calculated against the value defined in the _[!UICONTROL Price]_ field, not the _[!UICONTROL Special Price]_ field.
 
-   ![Tier Price as a Percentage](./assets/product-price-tier-discount.png)<!-- zoom -->
+      ![Tier Price as a Percentage](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
 
 ## Complete the price configuration
 

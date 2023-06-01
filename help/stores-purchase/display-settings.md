@@ -1,6 +1,6 @@
 ---
 title: Price display settings
-description: Learn about the display of taxes in the catalog, shopping cart, orders, invoices, and credit memos to support the customer experience.
+description: Learn about the display of taxes in the catalog, shopping cart, orders, invoices, and credit memos that support the customer purchase experience.
 exl-id: 6f97c474-ef6e-4ca6-899d-812c58b993ca
 ---
 # Price display settings
@@ -13,7 +13,7 @@ If the product price includes tax, the tax appears only if there is a tax rule t
 >
 >Showing prices that include and exclude tax can be confusing to the customer. To avoid triggering a warning message, see the [guidelines](international-tax-guidelines.md) for your country and [recommended settings](taxes.md#warning-messages) to avoid warning messages.
 
-![Price Display Settings](../configuration-reference/sales/assets/tax-price-display-settings.png)<!-- zoom -->
+![Price Display Settings](../configuration-reference/sales/assets/tax-price-display-settings.png){width="600" zoomable="yes"}
 
 For a detailed description of each of these configuration settings, see [Price Display Settings](../configuration-reference/sales/tax.md#price-display-settings) in the _Configuration Reference Guide_.
 
@@ -49,13 +49,13 @@ It is a best practice to display prices with the associated taxes (either includ
 
 If you choose to display both prices (with and without tax), the storefront looks similar to the following:
 
-   ![Example of price display including taxes on the storefront](./assets/catalog-prices-tax.png)<!-- zoom -->
+   ![Example of price display including taxes on the storefront](./assets/catalog-prices-tax.png){width="700" zoomable="yes"}
 
 ### Step 2: Configure shopping cart display settings
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Shopping Cart Display Settings]** section.
 
-   ![Shopping Cart Display Settings](../configuration-reference/sales/assets/tax-shopping-cart-display-settings.png)<!-- zoom -->
+   ![Shopping Cart Display Settings](../configuration-reference/sales/assets/tax-shopping-cart-display-settings.png){width="600" zoomable="yes"}
 
 1. For **[!UICONTROL Display Prices]**, choose one of the following:
 
@@ -97,7 +97,7 @@ If you choose to display both prices (with and without tax), the storefront look
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Orders, Invoices, Credit Memos Display Settings]** section.
 
-   ![Orders, Invoices, Credit Memos Display Settings](../configuration-reference/sales/assets/tax-orders-invoices-credit-memos-display-settings.png)<!-- zoom -->
+   ![Orders, Invoices, Credit Memos Display Settings](../configuration-reference/sales/assets/tax-orders-invoices-credit-memos-display-settings.png){width="600" zoomable="yes"}
 
 1. For **[!UICONTROL Display Prices]**, choose one of the following:
 

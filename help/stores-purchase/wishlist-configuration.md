@@ -1,6 +1,6 @@
 ---
 title: Configure wish lists
-description: Learn how to configure wish list functionality for your store.
+description: Learn how to configure wish list functionality for your store customers.
 exl-id: 479455f1-282f-4277-b132-45c5867fb21c
 ---
 # Configure wish lists
@@ -15,19 +15,19 @@ The wish list configuration enables wish lists and determines the email template
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL General Options]** section and do the following:
 
-    ![Customers configuration - wish list general settings](../configuration-reference/customers/assets/wishlist-general-options.png)<!-- zoom -->
+    ![Customers configuration - wish list general settings](../configuration-reference/customers/assets/wishlist-general-options.png){width="600" zoomable="yes"}
 
-    - Set the **[!UICONTROL Enabled]** field to `Yes`. This activates the wish list module for the store.
+    - Toggle **[!UICONTROL Enabled]** to `Yes`, which activates the wish list module for the store.
 
-    - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Set the **[!UICONTROL Enable Multiple Wish Lists]** field to `Yes`. This allows customers to create and maintain multiple wish lists.
+    - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Toggle **[!UICONTROL Enable Multiple Wish Lists]** to `Yes`, which allows customers to create and maintain multiple wish lists.
 
-    - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) sTo limit the number of wish lists customers can have associated with their account, enter value for **[!UICONTROL Number of Multiple Wish Lists]**.
+    - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) To limit the number of wish lists customers can have associated with their account, enter value for **[!UICONTROL Number of Multiple Wish Lists]**.
 
-    - Set the **[!UICONTROL Show in Sidebar]** field to `Yes`. This displays the wish lists in the sidebar.
+    - Toggle **[!UICONTROL Show in Sidebar]** to `Yes`, which displays the wish lists in the sidebar.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Share Options]** section and do the following:
 
-    ![Customers configuration - wish list share options](../configuration-reference/customers/assets/wishlist-share-options.png)<!-- zoom -->
+    ![Customers configuration - wish list share options](../configuration-reference/customers/assets/wishlist-share-options.png){width="600" zoomable="yes"}
 
     - Set the **[!UICONTROL Email Sender]** to the store contact that should appear as the sender of the message. Options: General Contact, Sales Representative, Customer Support, Custom Email.
 
@@ -42,7 +42,7 @@ The wish list configuration enables wish lists and determines the email template
     - `Display number of items in wish list`
     - `Display item quantities`
 
-    ![Customers configuration - wish list display](../configuration-reference/customers/assets/wishlist-my-wishlist-link.png)<!-- zoom -->
+    ![Customers configuration - wish list display](../configuration-reference/customers/assets/wishlist-my-wishlist-link.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
@@ -50,9 +50,9 @@ The wish list configuration enables wish lists and determines the email template
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only)
 
-Any public wish list can be found using the Wish List Search [widget](../content-design/widgets.md). The widget enables a customer to search by the name or email address of the wish list owner. Store customers can find wish lists that belong to other customers, view them and order products from them, or add the products to their own wish lists. If an item is purchased from a public wish list by another customer, it is not removed from the original wish list. The Wish List Search widget can be added to any page of your store to make it easy for customers to find the wish lists of friends and family members.
+Any public wish list can be found using the Wish List Search [widget](../content-design/widgets.md). The widget enables a customer to search by the name or email address of the wish list owner. Store customers can find wish lists that belong to other customers, view them and order products from them, or add the products to their own wish lists. If an item is purchased from a public wish list by another customer, it is not removed from the original wish list. The _Wish List Search_ widget can be added to any page of your store to make it easy for customers to find the wish lists of friends and family members.
 
-![Example storefront - wish list search](./assets/storefront-wishlist-search.png)<!-- zoom -->
+![Example storefront - wish list search](./assets/storefront-wishlist-search.png){width="700" zoomable="yes"}
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Elements]_ > **[!UICONTROL Widgets]**.
 
@@ -64,7 +64,7 @@ Any public wish list can be found using the Wish List Search [widget](../content
 
    - Set **[!UICONTROL Design Theme]** to the theme of the store where the wish list is added.
 
-   - Click Continue.
+   - Click **[!UICONTROL Continue]**.
 
 1. Complete the _[!UICONTROL Storefront Properties]_:
 
@@ -102,7 +102,7 @@ Any public wish list can be found using the Wish List Search [widget](../content
 
 1. In the **[!UICONTROL Container]** list, choose the area of the page layout where it is to be placed.
 
-   ![Wish list search widget - layout](./assets/widget-wishlist-search-layout-update.png)<!-- zoom -->
+   ![Wish list search widget - layout](./assets/widget-wishlist-search-storefront.png){width="700" zoomable="yes"}
 
 1. In the left panel, choose **[!UICONTROL Widget Options]**.
 

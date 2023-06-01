@@ -7,7 +7,7 @@ exl-id: 8258b117-56d2-4d5f-9413-80d51fd5eae6
 
 The product workspace is basically the same for all product types, although the selection of fields changes depending on the attribute set that is used. The product attributes are at the top of the form, followed by expandable sections of product information. When a new product is saved for the first time, the _[!UICONTROL Store View]_ chooser appears at the upper left of the form.
 
-![Product workspace](./assets/product-workspace-ee.png)<!-- zoom -->
+![Product workspace](./assets/product-workspace-ee.png){width="700" zoomable="yes"}
 
 ## Enable Product setting
 
@@ -24,7 +24,7 @@ The online status of the product is indicated by the switch at the top of the fo
 
 The name of the [attribute set](attribute-sets.md) appears in the upper-left corner and determines the fields that appear in the product record. To choose a different attribute set, click the down arrow next to the default attribute set name.
 
-![Attribute set](./assets/product-attribute-set.png)<!-- zoom -->
+![Attribute set](./assets/product-attribute-set.png){width="600" zoomable="yes"}
 
 ## Expand/collapse
 
@@ -34,7 +34,7 @@ To expand or collapse a section, click either the expand ![Expansion selector](.
 
 The _[!UICONTROL Save]_ menu includes several options that let you save and continue, save and create a product, save and duplicate the product, or save and close.
 
-![Save menu](./assets/product-save-menu.png)<!-- zoom -->
+![Save menu](./assets/product-save-menu.png){width="600" zoomable="yes"}
 
 |Command|Description|
 |--- |--- |
@@ -60,9 +60,9 @@ To save time when creating products, the default value of several product fields
 
 The placeholders that represent the value of another field are enclosed in double-curly braces. Any attribute code that is included in the product [attribute set](attribute-sets.md) can be used as a placeholder.
 
-![Product Fields Auto-Generation](./assets/catalog-product-fields-auto-generation.png)<!-- zoom -->
+![Product Fields Auto-Generation](../configuration-reference/catalog/assets/catalog-product-fields-auto-generation.png){width="600" zoomable="yes"}
 
-For more information about these settings, see [Product Fields Auto-Generation](../configuration-reference/catalog/catalog.md#product-fields-auto-generation) in the _Configuration Reference_.
+For a detailed list of these settings, see [Product Fields Auto-Generation](../configuration-reference/catalog/catalog.md#product-fields-auto-generation) in the _Configuration Reference_.
 
 ### Edit the placeholder value
 

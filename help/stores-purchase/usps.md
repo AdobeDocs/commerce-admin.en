@@ -62,7 +62,7 @@ You can also open a [USPS Web Tools][1] account. After you complete the registra
 
 1. Enter the **[!UICONTROL Maximum Package Weight]** according to carrier requirements.
 
-   ![USPS Packaging Settings](../configuration-reference/sales/assets/delivery-methods-usps-packaging.png)<!-- zoom -->
+   ![USPS Packaging Settings](../configuration-reference/sales/assets/delivery-methods-usps-packaging.png){width="600" zoomable="yes"}
 
 ## Step 4: Set up handling fees
 
@@ -82,7 +82,7 @@ The handling fee is optional, and appears as an extra charge that is added to th
 
    To enter a percentage, use the decimal format. For example, enter `0.25` for 25%.
 
-   ![USPS Handling Fee](../configuration-reference/sales/assets/delivery-methods-usps-handling-fee.png)<!-- zoom -->
+   ![USPS Handling Fee](../configuration-reference/sales/assets/delivery-methods-usps-handling-fee.png){width="600" zoomable="yes"}
 
 ## Step 5: Specify allowed methods and applicable countries
 
@@ -100,16 +100,18 @@ The handling fee is optional, and appears as an extra charge that is added to th
 
    This text box is preset with a default message, but you can enter a different message that you want to appear if USPS becomes unavailable.
 
-   ![USPS Allowed Methods](../configuration-reference/sales/assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
+   ![USPS Allowed Methods](../configuration-reference/sales/assets/delivery-methods-usps-allowed-methods.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Ship to Applicable Countries]** to one of the following:
 
    - `All Allowed Countries` - Customers from all [countries](../getting-started/store-details.md#country-options) specified in your store configuration can use this delivery method.
    - `Specific Countries` - When you choose this option, the _Ship to Specific Countries_ list appears. Select each country in the list where this delivery method can be used.
 
+   ![USPS Applicable Countries](../configuration-reference/sales/assets/delivery-methods-usps-countries.png){width="600" zoomable="yes"}
+
 1. Set **[!UICONTROL Show Method if Not Applicable]** to one of the following:
 
-   - `Yes` - Lists all available USPS shipping methods during checkout, including those that don't apply to the shipment.
+   - `Yes` - Lists all available USPS shipping methods during checkout, including methods that don't apply to the shipment.
    - `No` - Lists only the USPS shipping methods that are applicable to the shipment.
 
 1. To create a log file with the details of USPS shipments made from your store, set **[!UICONTROL Debug]** to `Yes`.
@@ -120,7 +122,6 @@ The handling fee is optional, and appears as an extra charge that is added to th
 
 1. Click **[!UICONTROL Save Config]**.
 
-![USPS Applicable Countries](../configuration-reference/sales/assets/delivery-methods-usps-countries.png)<!-- zoom -->
 
 [1]: https://secure.shippingapis.com/registration/
 [2]: https://www.usps.com/business/web-tools-apis/technical-documentation.htm

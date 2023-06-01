@@ -1,17 +1,17 @@
 ---
-title: Minimum Advertised Price
-description: Learn how to use the Minimum Advertised Price (MAP) feature to remain in compliance with the manufacturer's requirements with special pricing.
+title: Minimum advertised price
+description: Learn how to use the minimum advertised price (MAP) feature to remain in compliance with the manufacturer's requirements with special pricing.
 exl-id: ccd44cfe-3967-4d82-b5b2-3f92701d152e
 ---
-# Minimum Advertised Price
+# Minimum advertised price
 
 Merchants are sometimes prohibited from displaying a price that is lower than the manufacturer's suggested retail price (MSRP). Minimum Advertised Price (MAP) gives you the ability to remain in compliance with the manufacturer's requirements while offering your customers a better price. Because requirements differ from one manufacturer to another, you can configure your store to prevent the display of your actual price on pages where it is not allowed.
 
-The MAP feature adds a dedicated "Click for Price" button instead of the regular product price. Therefore, if the price in your store is below the minimum set price for that product, the price is either not displayed, or the list/market price is displayed with a strikethrough to emphasize that your price is lower. If the buyer clicks the "Click for Price" button, only then does the actual price at which you are selling the product become visible.
+The MAP feature adds a dedicated _Click for Price_ link instead of the regular product price. If the price in your store is below the minimum set price for that product, there are two ways that the pricing information can be handled on the storefront. The first way is that the price is not displayed. If the buyer clicks the _Click for Price_ button, only then does the actual price at which you are selling the product become visible. The second way is that the list/market price is displayed with a strikethrough to emphasize that your price is lower. 
 
 Also, the MAP feature allows you to suggest some improvements. For example, when a customer adds such a product to their cart, they are not redirected to the cart, and instead there are offers displayed that allow the buyer to:
 
-- Remove an item from the cart (this can be done if the buyer just wants to clarify the price and has not yet made a purchase decision)
+- Remove an item from the cart (can be done if the buyer just wants to clarify the price and has not yet made a purchase decision)
 
 - Leave it in their shopping cart and keep shopping
 
@@ -47,13 +47,13 @@ Some products have prices that depend on a selected option, such as custom optio
 
 The Minimum Advertised Price (MAP) feature is not enabled by default. If you want to add this capability to your store, you must enable it and configure the MAP settings for your products. The MAP settings can be applied to all products in your catalog or configured for specific products. When MAP is enabled globally, all product prices in the storefront are hidden from view. There are various configuration options that you can use to remain in compliance with the terms of your agreement with the manufacturer, while still offering your customers a better price.
 
-![Actual Price Appears "On Gesture"](./assets/storefront-msrp-on-gesture.png)<!-- zoom -->
+![Actual Price Appears "On Gesture"](./assets/storefront-msrp-on-gesture.png){width="700" zoomable="yes"}
 
 On the global level, you can enable or disable MAP, apply it to all products, define how the actual price is displayed. You can also edit the text of the related messages and information tips that appear in the store.
 
 When MAP is enabled, the product-level MAP settings become available. You can apply MAP to an individual product by entering the MSRP and choosing how you want the actual price to appear in the store. Product-level MAP settings override the global MAP settings.
 
-![Click for Price](./assets/storefront-price-map.png)<!-- zoom -->
+![Click for Price](./assets/storefront-price-map.png){width="700" zoomable="yes"}
 
 ### Step 1: Enable MAP for the store view
 
@@ -67,9 +67,9 @@ When MAP is enabled, the product-level MAP settings become available. You can ap
 
 1. If necessary, set **Enable MAP** to `Yes`.
 
-   ![MAP configuration](./assets/sales-minimum-advertised-price.png)<!-- zoom -->
+   ![MAP configuration](./assets/sales-minimum-advertised-price.png){width="600" zoomable="yes"}
    
-   For more information about these configuration options, see [_Minimum Advertised Price_](../configuration-reference/sales/sales.md#minimum-advertised-price) in the _Configuration Reference_.
+   For a detailed list of these configuration options, see [_Minimum Advertised Price_](../configuration-reference/sales/sales.md#minimum-advertised-price) in the _Configuration Reference_.
 
 ### Step 2: Configure the MAP settings
 
@@ -100,23 +100,21 @@ Use one of the following methods to configure the MAP settings:
 
 1. In the left panel, expand **[!UICONTROL Advanced Settings]** and choose **[!UICONTROL Advanced Pricing]**.
 
-   ![Manufacturer's Suggested Retail Price](./assets/product-price-msrp.png)<!-- zoom -->
+   >[!NOTE]
+   >
+   >The [!UICONTROL Manufacturer's Suggested Retail Price] and [!UICONTROL Display Actual Price] fields appear only when [Minimum Advertised Price](../configuration-reference/sales/sales.md#minimum-advertised-price) is enabled in the configuration.
 
 1. Enter the **[!UICONTROL Manufacturer's Suggested Retail Price]** (MSRP).
 
    In this example, the product price is $54.00, and the MSRP is 59.95.
 
+   ![Manufacturer's Suggested Retail Price](./assets/product-price-msrp.png){width="600" zoomable="yes"}
+
 1. Set **[!UICONTROL Display Actual Price]** to one of the following:
 
-   - `Use config` - (Default) Applies the MAP configuration setting. |
+   - `Use config` - (Default) Applies the display settings as [configured](../configuration-reference/sales/sales.md#minimum-advertised-price) for the store. |
    - `On Gesture` - Displays the actual product price in a popup when the customer clicks the _Click for price_ or _What's this?_ link.
    - `In Cart` - Displays the actual product price in the shopping cart.
    - `Before Order Confirmation` - Displays the actual product price at the end of the checkout process, just before the order is confirmed.
 
-   >[!NOTE]
-   >
-   >The [!UICONTROL Manufacturer's Suggested Retail Price] and [!UICONTROL Display Actual Price] fields appear only when [Minimum Advertised Price](../configuration-reference/sales/sales.md#minimum-advertised-price) is enabled in the configuration.
-
-### Step 3: Save the configuration
-
-When complete, click **[!UICONTROL Done]** and then **[!UICONTROL Save]**.
+1. When complete, click **[!UICONTROL Done]** and then **[!UICONTROL Save]**.

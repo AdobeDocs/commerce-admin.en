@@ -7,9 +7,9 @@ exl-id: 75c594e1-ef75-464b-a1f0-0eb63b9d165f
 
 The _[!UICONTROL Configurations]_ section lists any existing variations of the product and can be used to generate variations for use with the Configurable product type. For more information, see [Configurable Product](product-create-configurable.md).
 
-![Configurations Section](./assets/product-configurable-create-configurations.png)<!-- zoom -->
+![Configurations Section](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
-![Product Configurations](./assets/product-configurations-hoodie.png)<!-- zoom -->
+![Product Configurations](./assets/product-configurations-hoodie.png){width="600" zoomable="yes"}
 
 ## Field reference
 

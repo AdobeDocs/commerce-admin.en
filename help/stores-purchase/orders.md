@@ -13,13 +13,13 @@ Usually, orders are created when customers complete the checkout process from th
 
 The Orders workspace lists all current orders, and gives you the ability to edit existing orders and [create](customer-account-create-order.md) orders. Each row in the grid represents a customer order, and each column represents an attribute, or data field. Use the standard [controls](../getting-started/admin-grid-controls.md) to sort and filter the list, find orders, and apply [actions](../getting-started/admin-actions-control.md) to selected orders. Use the tabs above the pagination controls to filter the list, change the default view, change and rearrange columns, and export data.
 
-![Orders grid](./assets/orders-grid.png)<!-- zoom -->
+![Orders grid](./assets/orders-grid.png){width="700" zoomable="yes"}
 
 ### Grid layout
 
 The selection of columns and their order in the grid can be changed according to your preference. The new layout can be saved as a grid _view_. By default, only nine of 20 available columns are included in the grid.
 
-![Order Grid Columns](./assets/order-grid-columns.png)<!-- zoom -->
+![Order Grid Columns](./assets/order-grid-columns.png){width="600" zoomable="yes"}
 
 #### Change the column selection
 
@@ -50,7 +50,7 @@ In the upper-right corner, click the _Columns_ ( ![Column settings](../assets/i
 
 1. Enter a **[!UICONTROL name]** for the view.
 
-1. Click the arrow ( ![Arrow icon](../assets/icon-arrow-save.png) ) to save all changes.
+1. To save all changes, click the arrow ( ![Arrow icon](../assets/icon-arrow-save.png) ).
 
     The name of the view now appears as the current view.
 
@@ -80,7 +80,7 @@ Click the **[!UICONTROL View]** ( ![Eye icon](../assets/icon-view-eye.png) ) con
 
 To apply an action to specific orders, select the checkbox in the first column of each order. To select or deselect all orders, use the control at the top of the column.
 
-![Order Actions](./assets/orders-action.png)<!-- zoom -->
+![Order Actions](./assets/orders-action.png){width="600" zoomable="yes"}
 
 |Control|Description|
 |--- |--- |
@@ -95,7 +95,7 @@ To apply an action to specific orders, select the checkbox in the first column o
 
 |Column|Description|
 |--- |--- |
-|[!UICONTROL Select]|Select the checkbox to select the quotes to be subject to an action, or use the selection control in the column header. Options: Select All / Deselect All|
+|[!UICONTROL Select]|Select the checkboxes for the quotes to be subject to an action, or use the selection control in the column header. Options: Select All / Deselect All|
 |[!UICONTROL ID]|A unique, sequential number that is assigned when a new order is saved for the first time.|
 |[!UICONTROL Purchase Point]|Identifies the store view where the order was placed.|
 |[!UICONTROL Purchase Date]|The date and time when the order was placed. It is always displayed according to the default time zone.|
@@ -132,23 +132,23 @@ Additional columns available:
 
 The Search box in the upper left of the Orders grid can be used to find specific orders by keyword, or by filtering the order records in the grid.
 
-![Search Results](./assets/order-search.png)<!-- zoom -->
+![Search Results](./assets/order-search.png){width="600" zoomable="yes"}
 
 ### Search for a match
 
 1. Enter a search term into the page search box.
 
-1. Click _Search_ ( ![Magnifying glass icon](../assets/icon-magnify-search.png) ) to display the results.
+1. To display the results, click _Search_ ( ![Magnifying glass icon](../assets/icon-magnify-search.png) ).
 
 ### Filter the search
 
-1. Click the _Filters_ ( ![Funnel icon](../assets/icon-filter-search.png) ) tab to display the selection of search filters.
+1. To display the selection of search filters, click the _Filters_ ( ![Funnel icon](../assets/icon-filter-search.png) ) tab.
 
-1. Complete as many of the filters as needed to describe the orders that you want to find.
+   ![Order Filters](./assets/order-search-filter.png){width="600" zoomable="yes"}
+
+1. Complete as many of the filters as you want to describe the orders that you want to find.
 
 1. Click **[!UICONTROL Apply Filters]** to display the results.
-
-   ![Order Filters](./assets/order-search-filter.png)<!-- zoom -->
 
 ### Search filters
 
