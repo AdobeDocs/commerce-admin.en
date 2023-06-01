@@ -35,7 +35,7 @@ _May 30, 2023_
 
 ### 1.1.0
 
-[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} 
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
 
 - ![New](../assets/new.svg) - Added support for [dynamic blocks](#headless-support) in a headless storefront.
 
@@ -43,7 +43,7 @@ _May 30, 2023_
 
 _May 11, 2023_
 
-[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.3 and newer
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
 
 - ![Fix](../assets/fix.svg) - Fixed an issue where a dynamic block or cart price rule was not applied to the storefront.
 - ![Fix](../assets/fix.svg) - Fixed an issue where an unconfigured installation of the Audience Activation extension caused an error when a merchant tried to create or update a dynamic block.
@@ -52,7 +52,7 @@ _May 11, 2023_
 
 _March 31, 2023_
 
-[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.3 and newer
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
 
 - ![New](../assets/new.svg) - General availability release
 
