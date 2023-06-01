@@ -71,8 +71,6 @@ Redirect from: `old-page`
 
     The new rewrite appears in the grid at the top of the list.
 
-    ![URL rewrite for CMS page - saved](./assets/url-rewrite-cms-page-saved.png)<!-- zoom -->
-
 ## Step 3. Test the result
 
 1. Go to the home page of your store.
