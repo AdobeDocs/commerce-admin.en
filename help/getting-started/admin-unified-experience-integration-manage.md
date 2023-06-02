@@ -68,12 +68,12 @@ Commerce system administrators with Admin access to the Commerce cloud project c
 
 ## Manage Admin users
 
-When the Experience Cloud integration is enabled, all Commerce Admin users must have both an Admin account on the Commerce instance and an Adobe user account with access to Adobe products and services. Both accounts must be associated with the same email address.
+All Commerce Admin users must have both an Admin account on the Commerce instance and an Adobe user account with access to Adobe products and services. Both accounts must be associated with the same email address.
 
-- **Commerce Admin account**—[Manage Commerce Admin users](../systems/permissions-users-all.md) from the Admin for the Commerce instance. User accounts for administrators must have the Admin user role and be associated with an Adobe ID, for example `<username>@adobe.com`.
+- **Commerce Admin account**—[Manage Commerce Admin users](../systems/permissions-users-all.md) from the Admin for the Commerce instance. User accounts for Commerce administrators must be assigned the Admin role. The email address on the Commerce account must be the same email address used to create their Adobe ID.
 
-  System administrators on the Commerce project can use [SSH to connect to the remote environment](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html#connect-to-a-remote-environment), and use the Commerce CLI `admin:user:create` and `admin:user:unlock` commands to add or unlock Admin user accounts.
+System administrators on the Commerce project can use [SSH to connect to the remote environment](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html#connect-to-a-remote-environment), and use the Commerce CLI `admin:user:create` and `admin:user:unlock` commands to add or unlock Admin user accounts.
 
-- **Adobe user account**–An administrator for the Adobe organization associated with the Commerce instance must create a corresponding user account for each Commerce administrator from the Adobe Admin Console. The account must have the same Adobe ID as the Commerce Admin account. See [Configure Adobe Commerce users in the Adobe Admin Console](adobe-ims-config.md#step-4-configure-adobe-commerce-users-in-the-adobe-admin-console).
+- **Adobe user account**–An administrator for the Adobe organization associated with the Commerce instance must log in to the Adobe Admin Console and add the Adobe ID for each Commerce administrator  to the organization and assign product entitlements and permissions. The Adobe ID must use the same email address used for the Commerce Admin account. See [Configure Adobe Commerce users in the Adobe Admin Console](adobe-ims-config.md#step-4-configure-adobe-commerce-users-in-the-adobe-admin-console).
 
   Administrators that manage the configuration for the Experience Cloud integration from the Adobe Developer Console must have an Adobe user account with System Administrator or Developer access.
