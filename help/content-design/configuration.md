@@ -7,7 +7,7 @@ exl-id: 43fec57f-d76d-45a9-812b-ba1947cea46d
 
 The Design Configuration makes it easy to edit design-related rules and configuration settings by displaying the settings on a single page.
 
-![Design Configuration page](./assets/configuration.png)[width="700" zoomable="yes"]
+![Design Configuration page](./assets/configuration.png){width="700" zoomable="yes"}
 
 ## Change the design configuration
 
@@ -23,7 +23,7 @@ The Design Configuration makes it easy to edit design-related rules and configur
 
 1. If the theme is to be used for only a specific device, set the **[!UICONTROL User Agent Rules]**.
 
-   ![User-Agent Rules](./assets/configuration-user-agent-rules.png)<!-- zoom -->
+   ![User-Agent Rules](./assets/configuration-user-agent-rules.png){width="400" zoomable="yes"}
 
    For each device type where you want to specify a theme:
 
