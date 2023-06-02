@@ -145,7 +145,7 @@ curl 'http://magento.config/graphql' -H 'Authorization: Bearer abc123' -H 'aep-s
 
 ### Dynamic blocks
 
-You can use dynamic blocks in a headless storefront. The `dynamicBlocks` GraphQL endpoint contains an input attribute called `audience_id`. When you call the `dynamicBlocks` endpoint, it returns a list of dynamic blocks along with any audience IDs associated with that dynamic block.
+You can use dynamic blocks in a headless storefront. GraphQL `dynamicBlocks` queries can contain the `audience_id`  input attribute. if you specify one or more `audience_id` values  in a `dynamicBlocks` query, it returns a list of dynamic blocks assigned to those audiences.
 
 #### Example usage
 
@@ -292,7 +292,7 @@ The following query returns all dynamic blocks associated with multiple audience
 }
 ```
 
-Learn more about the dynamicBlocks GraphQL endpoint in the [developer documentation](https://developer.adobe.com/commerce/webapi/graphql/schema/store/queries/dynamic-blocks/).
+Learn more about the dynamicBlocks GraphQL query in the [developer documentation](https://developer.adobe.com/commerce/webapi/graphql/schema/store/queries/dynamic-blocks/).
 
 >[!NOTE]
 >
