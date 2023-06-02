@@ -72,7 +72,7 @@ All Commerce Admin users must have both an Admin account on the Commerce instanc
 
 - **Commerce Admin account**—[Manage Commerce Admin users](../systems/permissions-users-all.md) from the Admin for the Commerce instance. User accounts for Commerce administrators must be assigned the Admin role.
 
-System administrators on the Commerce project can use [SSH to connect to the remote environment](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html#connect-to-a-remote-environment), and use the Commerce CLI `admin:user:create` and `admin:user:unlock` commands to add or unlock Admin user accounts.
+  System administrators on the Commerce project can use [SSH to connect to the remote environment](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html#connect-to-a-remote-environment), and use the Commerce CLI `admin:user:create` and `admin:user:unlock` commands to add or unlock Admin user accounts.
 
 - **Adobe user account**–An administrator for the Adobe organization associated with the Commerce instance must log in to the Adobe Admin Console and add the Adobe ID for each Commerce administrator to the organization. Then, they must assign product entitlements and permissions to access the Commerce application. See [Configure Adobe Commerce users in the Adobe Admin Console](adobe-ims-config.md#step-4-configure-adobe-commerce-users-in-the-adobe-admin-console).
 
