@@ -108,7 +108,7 @@ With audiences activated to your Adobe Commerce instance, you can:
 
 ## Real-Time CDP audiences dashboard
 
-You can view all active audiences that are available to personalize within your Adobe Commerce instance using the **Real-Time CDP Audiences** dashboard. Any audiences you [activated](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html) in the Adobe Commerce destination in Real-Time CDP appear in this dashboard.
+You can view all active audiences that are available to personalize within your Adobe Commerce instance using the **Real-Time CDP Audiences** dashboard. Any audiences you [activated](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) in the Adobe Commerce destination in Real-Time CDP appear in this dashboard.
 
 To access the **Real-Time CDP Audiences** dashboard, go to the _Admin_ sidebar, then go to **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]**. The **Real-Time CDP Audiences** dashboard appears:
 
@@ -145,78 +145,7 @@ curl 'http://magento.config/graphql' -H 'Authorization: Bearer abc123' -H 'aep-s
 
 ### Dynamic blocks
 
-You can use dynamic blocks in a headless storefront. GraphQL `dynamicBlocks` queries can contain the `audience_id`  input attribute. if you specify one or more `audience_id` values  in a `dynamicBlocks` query, it returns a list of dynamic blocks assigned to those audiences.
-
-#### Example usage
-
-The following query returns all dynamic blocks where the `audience_id` equals `cd29a789-9be8-40ad-a1ef-640c33b3742e`.
-
-**Request:**
-
-```graphql
-{
-  dynamicBlocks(input:
-  {
-    type: SPECIFIED
-    audience_id: {
-      eq: "cd29a789-9be8-40ad-a1ef-640c33b3742e"
-    }
-  })
-  {
-    items {
-      uid
-      audience_id
-      content {
-        html
-      }
-    }
-    page_info {
-      current_page
-      page_size
-      total_pages
-    }
-    total_count
-  }
-}
-```
-
-**Response:**
-
-```json
-{
-  "data": {
-    "dynamicBlocks": {
-      "items": [
-        {
-          "uid": "MQ==",
-          "audience_id": [
-            "cd29a789-9be8-40ad-a1ef-640c33b3742e"
-          ],
-          "content": {
-            "html": "<h2><strong>SAVE 20%</strong></h2>\r\n<p>(some restrictions apply)</p>\r\n<p>&nbsp;</p>"
-          }
-        },
-        {
-          "uid": "Mg==",
-          "audience_id": [
-            "cd29a789-9be8-40ad-a1ef-640c33b3742e",
-            "92c3e14d-c72b-40d0-96b7-b96801dcc135"
-          ],
-          "content": {
-            "html": "<p><img src=\"{{media url=&quot;wysiwyg/save20.png&quot;}}\" alt=\"save 20% red\"></p>"
-          }
-        }
-      ],
-      "page_info": {
-        "current_page": 1,
-        "page_size": 20,
-        "total_pages": 1
-      },
-      "total_count": 2
-    }
-  }
-}
-```
+You can use dynamic blocks in a headless storefront. GraphQL `dynamicBlocks` queries can contain the `audience_id` input attribute. If you specify one or more `audience_id` values in a `dynamicBlocks` query, it returns a list of dynamic blocks assigned to those audiences.
 
 #### Example usage
 
@@ -292,7 +221,7 @@ The following query returns all dynamic blocks associated with multiple audience
 }
 ```
 
-Learn more about the dynamicBlocks GraphQL query in the [developer documentation](https://developer.adobe.com/commerce/webapi/graphql/schema/store/queries/dynamic-blocks/).
+Learn more about the `dynamicBlocks` GraphQL query in the [developer documentation](https://developer.adobe.com/commerce/webapi/graphql/schema/store/queries/dynamic-blocks/).
 
 >[!NOTE]
 >
