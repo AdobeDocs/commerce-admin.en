@@ -49,7 +49,7 @@ As part of an effort to optimize your site and reduce page load time, you can re
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL CSS Settings]** section.
 
    ![CSS Settings](./assets/developer-css-settings.png){width="400" zoomable="yes"}
-   
+
    For detailed descriptions of these configuration options, see [CSS Settings](../configuration-reference/advanced/developer.md#css-settings) in the _Configuration Reference_.
 
 1. Set **[!UICONTROL Merge CSS Files]** to `Yes`.

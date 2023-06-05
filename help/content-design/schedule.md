@@ -7,7 +7,7 @@ exl-id: 0a214fd5-77a6-4ad4-9740-5138d40ad0a1
 
 Schedule your theme design changes in advance so that they go into effect according to your business cycles and events. You can use scheduled design changes for seasonal changes, promotions, or just to add variation.
 
-![Scheduled design changes](./assets/design-schedule.png)<!-- zoom -->
+![Scheduled design changes](./assets/design-schedule.png){width="700" zoomable="yes"}
 
 ## Schedule a design change
 
@@ -44,5 +44,3 @@ Schedule your theme design changes in advance so that they go into effect accord
 1. In the button bar at the top of the page, click **[!UICONTROL Delete]**.
 
 1. To confirm the action, click **[!UICONTROL OK]**.
-
-   ![Delete Scheduled Design Change](./assets/delete-store-design-change.png)<!-- zoom -->

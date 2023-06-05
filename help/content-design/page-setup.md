@@ -7,9 +7,9 @@ exl-id: a4310940-0d4f-4948-a271-382f03905bfd
 
 The main sections of the page are controlled, in part, by a set of standard HTML tags. Some of these tags can be used determine the selection of fonts, color, size, background colors, and images that are used in each section of the page. Other settings control page elements such as the logo in the header, and the copyright notice in the footer. These sections correspond to the underlying structure of the HTML page, and many of the basic properties can be set from the Admin.
 
-- [HTML Head](#html-head)
-- [Header](#header)
-- [Footer](#footer)
+-  [HTML Head](#html-head)
+-  [Header](#header)
+-  [Footer](#footer)
 
 ![HTML page sections](./assets/storefront-home-html-inspect.png)<!-- zoom -->
 
@@ -25,22 +25,22 @@ The settings in the HTML Head section correspond to the `<head>` tag of an HTML
 
 1. Under _Other Settings_, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL HTML Head]** section.
 
-   ![HTML Head configuration settings](./assets/configuration-html-head.png)<!-- zoom -->
+   ![HTML Head configuration settings](./assets/configuration-html-head.png){width="500" zoomable="yes"}
 
 1. Update the [favicon](../getting-started/storefront-branding.md#add-a-favicon) if needed.
 
 1. Update the page title settings according to your needs:
 
-   - **[!UICONTROL Default Page Title]**
-   - **[!UICONTROL Page Title Prefix]**
-   - **[!UICONTROL Page Title Suffix]**
+   -  **[!UICONTROL Default Page Title]**
+   -  **[!UICONTROL Page Title Prefix]**
+   -  **[!UICONTROL Page Title Suffix]**
 
    You can use a suffix and/or prefix with the default title to create a two-or three part title. You can add a vertical bar or colon as a separator between the prefix or suffix and the default title.
 
 1. Add or modify meta data to support Search Engine Optimization (SEO) and help steer customers to your store from search results:
 
-   - **[!UICONTROL Default Meta Description]**
-   - **[!UICONTROL Default Meta Keywords]**
+   -  **[!UICONTROL Default Meta Description]**
+   -  **[!UICONTROL Default Meta Keywords]**
 
 1. Enter any **[!UICONTROL Scripts and Style Sheets]** as needed.
 
@@ -67,7 +67,7 @@ The settings in the HTML Head section correspond to the `<head>` tag of an HTML
 
 The Header configuration identifies the path to your store logo and specifies the logo alt text and welcome message.
 
-![Header configuration settings](./assets/configuration-header.png)<!-- zoom -->
+![Header configuration settings](./assets/configuration-header.png){width="400" zoomable="yes"}
 
 ### Configure the header
 
@@ -79,8 +79,8 @@ The Header configuration identifies the path to your store logo and specifies th
 
 1. Make any changes needed for the store view:
 
-   - [Logo](../getting-started/storefront-branding.md#upload-your-logo) settings
-   - [Welcome message](../getting-started/storefront-branding.md#change-the-welcome-message) settings
+   -  [Logo](../getting-started/storefront-branding.md#upload-your-logo) settings
+   -  [Welcome message](../getting-started/storefront-branding.md#change-the-welcome-message) settings
 
 1. When complete, click **[!UICONTROL Save Configuration]**.
 
@@ -101,7 +101,7 @@ The Header configuration identifies the path to your store logo and specifies th
 
 The Footer configuration section is where you can update the [copyright notice](../getting-started/storefront-branding.md#change-the-copyright-notice) that appears at the bottom of the page, and enter miscellaneous scripts that must be positioned before the closing `<body>` tag.
 
-![Footer configuration settings](./assets/configuration-footer.png)<!-- zoom -->
+![Footer configuration settings](./assets/configuration-footer.png){width="400" zoomable="yes"}
 
 ### Configure the footer
 
