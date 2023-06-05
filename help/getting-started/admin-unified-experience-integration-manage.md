@@ -6,9 +6,7 @@ description: Learn how to manage the Experience Cloud integration and troublesho
 
 After initial enablement, change the status of the the Experience Cloud integration by enabling or disabling the Commerce Admin Unified Experience extension.
 
-Before disabling or enabling the extension, notify Commerce Admin users about changes to the authentication and Admin workflows to prevent business disruptions.
-
-The following table outlines different scenarios for enabling or disabling the Experience Cloud integration and the impact on authentication and Admin workflows.
+Before disabling or enabling the extension, notify Commerce Admin users about changes to the authentication and Admin workflows to prevent business disruptions. The following table outlines different scenarios for enabling or disabling the Experience Cloud integration and the impact on authentication and Admin workflows.
 
 | Scenario                                                                                         | Action                                                 | Changes to authentication workflow                                                                                                                                                                                                                                                                                                                                                                  |
 |--------------------------------------------------------------------------------------------------|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
