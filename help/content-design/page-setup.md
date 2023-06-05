@@ -11,7 +11,7 @@ The main sections of the page are controlled, in part, by a set of standard HTML
 -  [Header](#header)
 -  [Footer](#footer)
 
-![HTML page sections](./assets/storefront-home-html-inspect.png)<!-- zoom -->
+![HTML page sections](./assets/storefront-home-html-inspect.png){width="700" zoomable="yes"}
 
 ## HTML Head
 

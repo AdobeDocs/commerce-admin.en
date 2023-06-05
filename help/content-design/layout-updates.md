@@ -75,7 +75,7 @@ The following steps show how to use a layout update to place a block on a page. 
 
 1. To display all available layout updates that are associated with the page, click **Custom Layout Update** arrow.
 
-   ![Custom Layout Update list](./assets/page-design-custom-layout-update.png)<!-- zoom -->
+   ![Custom Layout Update list](./assets/page-design-custom-layout-update.png){width="400" zoomable="yes"}
 
 1. Select the layout update that you want to apply to the page.
 

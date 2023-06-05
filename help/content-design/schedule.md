@@ -15,7 +15,7 @@ Schedule your theme design changes in advance so that they go into effect accord
 
 1. Click **[!UICONTROL Add Design Change]**.
 
-   ![New Store Design Change settings](./assets/design-schedule-change-new.png)<!-- zoom -->
+   ![New Store Design Change settings](./assets/design-schedule-change-new.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Store]** to the store view where you want to apply the changes.
 
