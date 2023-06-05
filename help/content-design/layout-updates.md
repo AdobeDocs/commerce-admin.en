@@ -13,7 +13,7 @@ The [Widget](widgets.md) tool is an easy way to add an existing [content block](
 
 In the following diagram, the names that refer to containers are black and the block types, or block class paths, are blue.
 
-![Standard block layout diagram](./assets/page-layout-default.png)<!-- zoom -->
+![Standard block layout diagram](./assets/page-layout-default.png){width="500" zoomable="yes"}
 
 |Block type|Description|
 |--- |--- |
@@ -63,7 +63,7 @@ The following steps show how to use a layout update to place a block on a page. 
    |CMS Page Identifier|The URL key of the page with any forward slash (`/`) replaced by an underscore (`_`).|
    |Layout Update Name|The option that appears in the _Custom Layout Update_ list.|
 
-   {style="table-layout:auto"}   
+   {style="table-layout:auto"}
 
 ### Step 3: Reference the layout update from the page
 

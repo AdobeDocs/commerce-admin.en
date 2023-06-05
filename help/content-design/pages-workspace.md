@@ -7,13 +7,14 @@ exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 
 The page workspace includes tools to help you quickly find the pages you need, and commands to perform routine maintenance on individual or multiple pages. You can also quickly update page properties from the grid.
 
-![Pages grid](./assets/pages-grid.png)<!-- zoom -->
+![Pages grid](./assets/pages-grid.png){width="700" zoomable="yes"}
 
 ## Quickly update page properties
 
+1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Elements]_ > **[!UICONTROL Pages]**.
 1. Click any row in the grid.
 
-   ![Page properties are editable in the Pages grid](./assets/page-grid-properties-update.png)<!-- zoom -->
+   ![Page properties are editable in the Pages grid](./assets/page-grid-properties-update.png){width="600" zoomable="yes"}
 
    To select multiple records, select the checkbox of each row that you want to update.
 
@@ -73,8 +74,6 @@ The page workspace includes tools to help you quickly find the pages you need, a
 
 The Search box in the upper left of the _[!UICONTROL Pages]_ grid can be used to find specific pages by keyword. For a more advanced search, you can [filter](../getting-started/admin-grid-controls.md) the search by multiple parameters.
 
-![The term Home is entered in the search box to filter the Pages list](./assets/pages-search-home.png)<!-- zoom -->
-
 ### Search by keyword
 
 1. Enter a search term into the page search box.
@@ -93,7 +92,7 @@ The Search box in the upper left of the _[!UICONTROL Pages]_ grid can be used to
 
 1. Click **[!UICONTROL Apply Filters]** to display the results.
 
-![The selected Filters tab displays the search filter options at the top of the page](./assets/pages-search-filter.png)<!-- zoom -->
+![The selected Filters tab displays the search filter options at the top of the page](./assets/pages-search-filter.png){width="600" zoomable="yes"}
 
 ### Search filters
 
@@ -131,7 +130,7 @@ The Search box in the upper left of the _[!UICONTROL Pages]_ grid can be used to
 
 Pages can be edited, disabled, enabled, and deleted. To apply an action to an individual page, select the checkbox in the first column. To select or deselect all pages, use the selection control at the top of the column.
 
-![Page Actions](./assets/pages-select.png)<!-- zoom -->
+![Page Actions](./assets/pages-select.png){width="600" zoomable="yes"}
 
 ### Single Action
 
@@ -141,7 +140,7 @@ Use the _[!UICONTROL Action]_ column on the far right to apply any of the follow
 - [!UICONTROL Delete] - deletes the page (requires confirmation)
 - [!UICONTROL View] - opens a page directly on the storefront
 
-![Single page actions](./assets/page-grid-actions.png)<!-- zoom -->
+![Single page actions](./assets/page-grid-actions.png){width="600" zoomable="yes"}
 
 ### Mass Actions
 
@@ -152,13 +151,9 @@ Use the _[!UICONTROL Action]_ selector at the top-left corner to apply any of th
 - [!UICONTROL Enable] - enables the pages on the storefront
 - [!UICONTROL Edit] - opens columns on the grid in edit mode (**[!UICONTROL Title]**, **[!UICONTROL URL Key]**, **[!UICONTROL Layout]**, and **[!UICONTROL Status]**)
 
-![Multi page actions](./assets/page-grid-mass-actions.png)<!-- zoom -->
-
 ## Page Grid Layout
 
 The selection of columns and their order in the grid can be changed according to your preference. To keep the new column arrangement, you can save it as a view.
-
-![A column in the Pages grid moved to a new location](./assets/page-view-column-move.png)<!-- zoom -->
 
 ### Change the selection of columns
 
@@ -178,8 +173,6 @@ In the upper-right corner, click the _Columns_ (![Column icon](../assets/icon-co
 
 1. Click the _View_ (![Eye icon](../assets/icon-view-eye.png)) control and then click **[!UICONTROL Save View As]**.
 
-   ![The view controls displayed above the Pages grid](./assets/page-grid-default-view-save.png)<!-- zoom -->
-
 1. Enter a name for the view.
 
 1. To save the view, click the _Arrow_ (![Arrow icon](../assets/icon-arrow-save.png)).
@@ -194,23 +187,12 @@ Click the _View_ (![Eye icon](../assets/icon-view-eye.png)) control and do one o
 
 - Change the name of a view by clicking the Edit (![Pencil icon](../assets/icon-edit-pencil.png)) icon and updating the name.
 
-![The saved view appears in the view controls with an edit icon](./assets/pages-default-grid-control.png)<!-- zoom -->
+![The saved view appears in the view controls with an edit icon](./assets/pages-default-grid-control.png){width="600" zoomable="yes"}
 
 ## Scheduled Changes
 
 {{ee-feature}}
 
 Page changes can be applied on schedule, and grouped with other content changes. You can create a campaign based on scheduled changes to a page, or apply the changes to an existing campaign. For more information, see [Content Staging](content-staging.md).
-
->[!NOTE]
->
->All scheduled updates are applied consecutively, which means that any entity can have only one scheduled update at one point of time. Any scheduled update is applied to all store views within its time frame. As a result, an entity cannot have different scheduled updates for different store views at the same time. All entity attribute values within all store views, which are not affected by the current scheduled update, are taken from the default values, and not from the previous scheduled update.
-
-
-![The Home page displays scheduled changes at the top](./assets/page-scheduled-change.png)<!-- zoom -->
-
->[!NOTE]
->
->Campaign Start Date and End Date must be defined by using the **_default_** Admin time zone, which is converted from the local time zone of each website. For example, if you have multiple websites in different time zones, but you want to start campaign based on a US time zone, you need to schedule separate update for each local time zone, and set **[!UICONTROL Start Date]** and **[!UICONTROL End Date]** in converted from each local website time zone to default Admin time zone.
 
 Also, you can schedule and preview changes for product updates. For more information, see [Scheduling an Update](content-staging-scheduled-update.md).
