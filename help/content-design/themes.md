@@ -11,7 +11,7 @@ A responsive theme adjusts the page layout to fit the view port of the device. 
 
 [!DNL Commerce] themes include layout files, template files, translation files, and skins. A skin is a collection of supporting CSS, images, and JavaScript files that together, create the visual presentation and interactions that your customers experience when they visit your store. Themes and skins can be modified and customized by a developer or designer who understands [!DNL Commerce] theme design and has access to your server. To learn more, see the [_Frontend Developer Guide_][1].
 
-![Luma theme](./assets/design-responsive.png)<!-- zoom -->
+![Luma theme](./assets/design-responsive.png){width="600" zoomable="yes"}
 
 ## The Default theme
 

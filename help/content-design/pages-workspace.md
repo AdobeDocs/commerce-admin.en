@@ -92,8 +92,6 @@ The Search box in the upper left of the _[!UICONTROL Pages]_ grid can be used to
 
 1. Click **[!UICONTROL Apply Filters]** to display the results.
 
-![The selected Filters tab displays the search filter options at the top of the page](./assets/pages-search-filter.png){width="600" zoomable="yes"}
-
 ### Search filters
 
 |Filter|Description|
@@ -130,7 +128,7 @@ The Search box in the upper left of the _[!UICONTROL Pages]_ grid can be used to
 
 Pages can be edited, disabled, enabled, and deleted. To apply an action to an individual page, select the checkbox in the first column. To select or deselect all pages, use the selection control at the top of the column.
 
-![Page Actions](./assets/pages-select.png){width="600" zoomable="yes"}
+![Page Actions](./assets/pages-select.png){width="400" zoomable="yes"}
 
 ### Single Action
 

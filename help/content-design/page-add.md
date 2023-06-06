@@ -19,7 +19,7 @@ The following instructions walk you through each step to create a basic page. So
 
 1. Click **[!UICONTROL Add New Page]**.
 
-   ![New Page](./assets/pages-new-page.png){width="700" zoomable="yes"}
+   ![New Page](./assets/pages-new-page.png){width="600" zoomable="yes"}
 
 1. If you do not want to publish the page immediately, set **[!UICONTROL Enable Page]** to `No`.
 
@@ -59,7 +59,7 @@ Depending on your [Advanced Content Tools configuration](../configuration-refere
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) **[!UICONTROL Search Engine Optimization]**.
 
-   ![Search Engine Optimization](./assets/page-search-engine-optimization.png){width="700" zoomable="yes"}
+   ![Search Engine Optimization](./assets/page-search-engine-optimization.png){width="600" zoomable="yes"}
 
 1. Either accept the default or enter another **[!UICONTROL URL Key]** that consists of all lowercase characters, with hyphens instead of spaces.
 
@@ -155,7 +155,7 @@ Depending on your [Advanced Content Tools configuration](../configuration-refere
 
 Any content page can be used as a template, and saved as a duplicate. You might use this time-saving technique to create a consistent design for content pages throughout your site. The duplicate page retains the Page Title of the original, but the URL Key and Status fields must be updated.
 
-![Save & Duplicate](./assets/page-duplicate-save-menu.png){width="700" zoomable="yes"}
+![Save & Duplicate](./assets/page-duplicate-save-menu.png){width="600" zoomable="yes"}
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Elements]_ > **[!UICONTROL Pages]**.
 
@@ -179,7 +179,7 @@ Any content page can be used as a template, and saved as a duplicate. You might 
 
    - Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Search Engine Optimization]** section and enter the unique **[!UICONTROL URL Key]** that you want to use for the duplicate page.
 
-      ![Temporary URL key](./assets/page-search-engine-optimization-url-key-duplicate.png)<!-- zoom -->
+      ![Temporary URL key](./assets/page-search-engine-optimization-url-key-duplicate.png){width="600" zoomable="yes"}
 
    - Update the remaining page content, as needed.
 

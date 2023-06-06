@@ -9,7 +9,7 @@ The layout of each page in your store consists of distinct sections, or containe
 
 On the page, content blocks float to fill the available space, according to the section of the [page layout](layout-updates.md) where they are assigned to appear. Notice that if you change the layout from a three-column to a two-column layout, the content of the main area expands to fill the available space. Also notice that any blocks that are associated with the unused side bar seem to disappear. However, if you restore the three-column layout, the blocks reappear. This fluid approach, or _liquid layout_, makes it possible to change the page layout without having to rework the content. If you are used to working with individual HTML pages, this modular, _building block_ approach requires a different way of thinking.
 
-![Standard two-column with left bar page layout](./assets/storefront-2-column-ee.png)<!-- zoom -->
+![Standard two-column with left bar page layout](./assets/storefront-2-column-ee.png){width="600" zoomable="yes"}
 
 ## Configure default layouts
 
@@ -19,9 +19,7 @@ On the page, content blocks float to fill the available space, according to the 
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Default Layouts]** section.
 
-   ![Default layouts](./assets/web-default-layouts.png)<!-- zoom -->
-
-   [Default Layouts](../configuration-reference/general/web.md#default-layouts)
+   ![Default layouts](./assets/web-default-layouts.png){width="600" zoomable="yes"}
 
 1. Choose the **[!UICONTROL Default Product Layout]** that you want to use for product pages.
 
