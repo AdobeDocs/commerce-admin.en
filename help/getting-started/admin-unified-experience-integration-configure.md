@@ -1,8 +1,8 @@
 ---
-title: Configure the Commerce Admin Integration with Experience Cloud
+title: Configure the Experience Cloud Integration with Commerce Admin
 description: Learn about the requirements and process to configure a Commerce on cloud infrastructure environment to deploy the Commerce Admin in the Adobe Unified Shell interface to provide Admin users with an improved user experience.
 ---
-# Configure the Commerce Admin Integration with Experience Cloud
+# Configure the Experience Cloud Integration with the Commerce Admin
 
 Get started with the Commerce Admin Integration with Experience Cloud by configuring the Commerce application to use the Commerce Admin Unified Experience and Commerce Events extensions.
 
@@ -84,6 +84,10 @@ Before configuring the Experience Cloud integration, verify that your project an
 ## Enable Commerce Admin Unified Experience
 
 Enable the Commerce Admin Unified Experience extension, and then log in through Experience Cloud.
+
+>[!NOTE]
+>
+>These instructions show how a Commerce Cloud project administrator can enable the extension using the Adobe Commerce CLI. Commerce Admin users can also enable the extension by updating the [Commerce store configuration settings](admin-unified-experience-integration-manage.md#from-the-commerce-admin).
 
 1. From the root directory of your Cloud project environment on your local workstation, use the [magento-cloud CLI tool](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html) to log in to the Commerce application server.
 
