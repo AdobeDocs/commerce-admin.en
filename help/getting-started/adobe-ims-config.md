@@ -9,7 +9,8 @@ exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 
 This integration supports Commerce merchants with Admin users who have an Adobe ID and who want to streamline login to Adobe Commerce and Adobe Business products. It is optional and is enabled on a per-instance basis. Only Admin user workflows are affected when enabled. 
 
-[!IMPORTANT]
+>[!IMPORTANT]
+>
 
 Admin users should save their Commerce Admin credentials (username and password) and 2FA credentials before enabling this integration. These credentials are needed if the IMS integration is disabled.
 
