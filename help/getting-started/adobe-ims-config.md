@@ -9,6 +9,10 @@ exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 
 This integration supports Commerce merchants with Admin users who have an Adobe ID and who want to streamline login to Adobe Commerce and Adobe Business products. It is optional and is enabled on a per-instance basis. Only Admin user workflows are affected when enabled. 
 
+>[!IMPORTANT]
+>
+>Admin users should save their Commerce Admin credentials (username and password) and 2FA credentials before enabling this integration. These credentials are needed if the IMS integration is disabled.
+
 ## Prerequisites
 
 * Adobe Commerce 2.4.5 or later
@@ -17,7 +21,7 @@ This integration supports Commerce merchants with Admin users who have an Adobe 
 The administrator who configures this integration needs the following credentials during module enablement:
 
 * Organization ID (obtained from [Adobe Admin Console](https://adminconsole.adobe.com/)), which must be at least 24 characters in length. The authenticated user must belong to this IMS organization. For information about finding your organization ID, see [Organizations in Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
-* 2FA should be enforced on the Organization level in Adobe Admin Console to enable the module. Check [the documentation](https://helpx.adobe.com/enterprise/using/authentication-settings.html#two-step-verification)
+* 2FA should be enforced on the Organization level in Adobe Admin Console to enable the module. Check [Authentication setings](https://helpx.adobe.com/enterprise/using/authentication-settings.html#two-step-verification).
 * Client ID
 * Client secret
 * Client ID and client secret are available after retrieving API keys in the [Adobe Developer Console](https://developer.adobe.com/).
