@@ -32,6 +32,16 @@ After the Adobe IMS integration is enabled, admin users must use [Adobe IMS OAut
 
 See [Token-based authentication](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-token/) for an overview of how web APIs use Commerce access tokens, including IMS access tokens.
 
+## Commerce session management and Adobe IMS access tokens
+
+Access tokens hold both user credentials and login session information. Once a user has been authenticated and a session has begun, these two variables are added to the user's session:
+
+`token_last_check_time`. Identifies the current time and is used by the `\Magento\AdminAdobeIms\Plugin\BackendAuthSessionPlugin` plugin.
+
+`adobe_access_token` — Identifies the `ACCESS_TOKEN` value received during authorization.
+
+The `\Magento\AdminAdobeIms\Plugin\BackendAuthSessionPlugin` plugin checks if the `token_last_check_time` was updated 10 min ago. If the `token_last_check_time` was checked ten minutes ago, then the authentication workflow makes an API call to IMS to validate the access token, and the session continues. If the access token is valid, then the `token_last_check_time` value is updated to the current time. If the token is not valid, the session is terminated.
+
 ## Important files
 
 `adminAdobeIms` - Provides an implementation of the Admin login based on the `AdobeImsApi` module.
@@ -46,6 +56,6 @@ See [Token-based authentication](https://developer.adobe.com/commerce/webapi/get
 
 ## Enable the integration
 
-This feature is installed with Adobe Commerce 2.4.5 and higher, but must be configured for use. It extends the `AdobeIms` module to support the module that enables authentication logic (`AdminAdobeIms`).
+The Adobe IMS metapackage is installed with Adobe Commerce 2.4.5 and higher, but must be configured for use. It extends the `AdobeIms` module to support the module that enables authentication logic (`AdminAdobeIms`).
 
 For more information about enabling the integration, see [Configure the Commerce Admin Integration with Adobe IMS](./adobe-ims-config.md).
