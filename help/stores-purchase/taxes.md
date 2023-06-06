@@ -103,5 +103,5 @@ Additional resources:
 - [European Commission Taxation and Customs Union ][1]
 - [EU 1015 Place of Supply Changes][2]
 
-[1]: https://taxation-customs.ec.europa.eu/taxation/vat/how_vat_works/vat_on_services/index_en.html
+[1]: https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm
 [2]: https://www2.deloitte.com/global/en/services/tax.html
