@@ -19,9 +19,13 @@ When this integration is enabled, Commerce Admin users experience changes to the
 
 ## How Admin integration with IMS affects Commerce passwords
 
-Commerce deployments that have been integrated with Adobe IMS require an Adobe ID account under an Adobe org that is configured during the Commerce Admin integration with IMS. Commerce passwords and user names for admin users are no longer used for authentication. As a result, admin users are no longer prompted by Commerce for a password after this integration has been enabled.
+Commerce deployments that have been integrated with Adobe IMS require an Adobe ID account with access to the Adobe IMS organization that is configured for the Commerce application during the IMS enablement process.  When the IMS integration is enabled, admin users authenticate through the Adobe sign in page using their Adobe credentials. The Commerce passwords and user names for admin users are no longer used for authentication as long as the Adobe IMS integration is enabled.
+
+If the IMS integration is disabled, admin users must authenticate through Adobe Commerce again using their Commerce user name and password. Admin users should save their Commerce Admin credentials (username and password) and 2FA credentials before enabling this integration.
 
 Certain backend components that are involved in user authentication still require a non-null password. To meet this requirement, Commerce creates random passwords for newly created admin users in the `admin_user` table.
+
+User accounts and role permissions for the Commerce application are still managed from the Commerce Admin.
 
 
 ## Web API token generation with IMS credentials
