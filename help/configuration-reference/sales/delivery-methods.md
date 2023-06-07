@@ -176,8 +176,6 @@ exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 
 ### [!UICONTROL USPS]
 
-{{ups-api}}
-
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |Enabled for Checkout|Website|Determines if USPS is available to customers as a shipping method during checkout. Options: `Yes` / `No`|
