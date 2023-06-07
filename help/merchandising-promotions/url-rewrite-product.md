@@ -87,8 +87,6 @@ Redirect from: `overnight-duffle.html`
 
     The new product rewrite now appears at the top of the URL Rewrites grid.
 
-    ![Product URL rewrite - saved](./assets/url-rewrite-product-saved.png)<!-- zoom -->
-
 ## Step 3. Test the result
 
 1. Go to the home page of your store.

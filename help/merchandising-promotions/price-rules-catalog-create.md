@@ -191,8 +191,6 @@ Most of the available conditions are based on existing attribute values. To appl
 
    - ![Magento Open Source](../assets/open-source.svg) (Magento Open Source only) Click **[!UICONTROL Save and Apply]**.
 
-      ![Catalog price rules - pricing structures](./assets/price-rule-catalog-saved.png)<!-- zoom -->
-
    - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Click **[!UICONTROL Save]**.
 
       The Rule Information page displays an updated timeline in the Scheduled Changes for the rule.
