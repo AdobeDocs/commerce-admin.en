@@ -9,6 +9,22 @@ With the in-store delivery method, the customer can select a source to be used a
 
 ![In-store Delivery Method at Checkout](./assets/luma-in-store-example.png){width="700" zoomable="yes"}
 
+During the checkout on the Storefront:
+- Customer clicks [!UICONTROL Pick In Store] button or selects [!UICONTROL In-Store Pickup Delivery] shipping method.
+- [!UICONTROL Pick In Store] checkout tab is opened.
+
+In the case when customer has an address, or previously filled the shipping address form before switching to the [!UICONTROL Pick In Store] tab:
+- The closest source to the customer address within the configured radius will be automatically preselected as a pick-up store.
+- When customer clicks [!UICONTROL Select Other] button, [!UICONTROL Select Store] search form is opened. Only stores within the configured distance (radius) to the selected store are displayed in the list. All stores are sorted by the distance to the selected store.
+- When customer enters postcode or city name in the search field, only stores within the configured distance (radius) to the searched location are displayed in the list. All stores are sorted by the distance to the searched location.
+- When customer clears postcode or city name from the search field, all pick up stores assigned to the products in shopping cart will be shown to the customer in ascending order of the source codes without any distance (radius) limitation.
+
+In the case when customer has no address or did not previously fill the shipping address form before switching to the [!UICONTROL Pick In Store] tab:
+- _We could not preselect pickup location based on available information, please select it manually._ message is displayed to the customer.
+- When customer clicks [!UICONTROL Select Store] button, [!UICONTROL Select Store] search form is opened.
+- All pick up stores assigned to the products in shopping cart will be shown to the customer in ascending order of the source codes without any distance (radius) limitation.
+- When customer enters postcode or city name in the search field, only stores within the configured distance (radius) to the searched location are displayed in the list. All stores are sorted by the distance to the searched location.
+
 ## Before setup
 
 - Make sure you have a non-default stock and source. For more information about how to configure a source as a pickup location, see [Add a source](../inventory-management/sources-add.md).
@@ -18,9 +34,9 @@ With the in-store delivery method, the customer can select a source to be used a
 
 >[!IMPORTANT]
 >
->**In the storefront, search results are filtered by country to show relevant results:** <br><br>
->If the customer has a shipping address, the country is taken from the shipping address.<br><br>
->If the customer does not have a shipping address, the country is taken from the [Default Tax Destination Calculation](../configuration-reference/sales/tax.md#default-tax-destination-calculation) settings. These settings are set per store view, so you must configure the Store View country to make it work properly.
+>**In the storefront, search results are filtered by distance (radius) to show relevant results:**<br><br>
+>If the customer has a shipping address, the location to calculate the distance (radius) is taken from the shipping address.<br><br>
+>If the customer does not have a shipping address, the location to calculate the distance is taken from the [Default Tax Destination Calculation](../configuration-reference/sales/tax.md#default-tax-destination-calculation) settings. These settings are set per store view. So, you must configure the Default Tax Destination Calculation settings to make store search work properly.
 
 ## Set up in-store delivery
 
