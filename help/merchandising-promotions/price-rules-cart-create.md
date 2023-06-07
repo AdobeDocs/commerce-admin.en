@@ -80,6 +80,10 @@ If you are using audiences from Real-Time CDP, skip to [this section](#use-real-
 >
 >The cart price rule is applied to **_each_** product in the shopping cart whenever the set of conditions in the _[!UICONTROL Conditions]_ tab is met. Add conditions in the _[!UICONTROL Actions]_ tab to limit the number of products affected by the cart price rule.
 
+>[!NOTE]
+>
+>If at least 1 conditional product attribute has empty value, then cart price rule is not applied to this product.
+
 1. In the left panel, select **[!UICONTROL Conditions]**.
 
    ![Cart price rule - conditions](./assets/conditions.png)<!-- zoom -->
