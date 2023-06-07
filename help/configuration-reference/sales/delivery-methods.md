@@ -136,7 +136,7 @@ exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 |[!UICONTROL Destination Type]|Website|Sets the default shipment destination type. Options: `Business` / `Residential`|
 |[!UICONTROL Maximum Package Weight]|Website|Sets the maximum weight that a package can be as specified by UPS. If the products ordered exceeds the maximum package weight, this shipping option is not available. According to [UPS.com](https://www.ups.com/us/en/global.page), packages cannot exceed 150 lbs (70 kg) Check with your shipping carrier to verify the maximum  weight.|
 |[!UICONTROL Pickup Method]|Website|Sets the UPS pickup method. Options: `Regular Daily Pickup` / `On Call Air` / `One Time Pickup` / `Letter Center` / `Customer Counter`|
-|[!UICONTROL Minimum Package Weight]|Website|Sets the minimum weight that a package can be as specified by UPS. If the products ordered weigh less than the minimum package weight, this shipping option is not available. Check with your shipping carrier to verify the minimum  weight.|
+|[!UICONTROL Minimum Package Weight]|Website|Sets the minimum weight that a package can be as specified by UPS. If the products ordered weigh less than the minimum package weight, this shipping option is not available. To verify the minimum weight, check with your shipping carrier.|
 |[!UICONTROL Calculate Handling Fee]|Website|Sets the handling fee calculation method for table rate shipping. Options: <br>**`Fixed`** - Handling fee is a fixed rate. <br>**`Percent`** - Handling fee is applied as a percentage of the order amount.|
 |[!UICONTROL Handling Applied]|Website|Specifies whether handling fee is applied to each order or to each package within an order.|
 |[!UICONTROL Handling Fee]|Website|Sets the handling that is included with the shipping rate price. Handling fee can be set as a fixed amount or a percentage. <br/><br/>**_Note:_** If typing a percentage amount, use the decimal format `0.25` for 25%.|
@@ -167,12 +167,14 @@ exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 |_[!UICONTROL UPS Applicable countries and other Settings]_|||
 |[!UICONTROL Ship to Applicable Countries]|Website|Specifies which country customers are allowed to use this shipping method. Options: <br/>**`All Allowed Countries`** - Customers from all [countries](../../getting-started/store-details.md#country-options) specified in your store configuration can use this shipping method. <br/>**`Specific Countries`** - After choosing this option, the [!UICONTROL Ship to Specific Countries] list appears. Select each country in the list where this shipping method can be used.|
 |[!UICONTROL Show Method if Not Applicable]|Website|Determines if UPS always appears as a shipping option during checkout. Options: <br/>**`Yes`** - UPS always appears as a shipping option during checkout, even if not applicable to the order. <br/>**`No`** - UPS appears as a shipping option during checkout only if applicable to the order. (For example, if the order weight exceeds the maximum weight amount.)|
-|[!UICONTROL Debug]|Website|Specifies if data transmissions between your store and UPS are logged in the system for debugging. Unless there is an issue that needs to be tracked and logged, this should be set to `No`.|
+|[!UICONTROL Debug]|Website|Specifies if data transmissions between your store and UPS are logged in the system for debugging. Unless there is an issue that must be tracked and logged, this option should be set to `No`.|
 |[!UICONTROL Sort Order]|Website|A number that determines the order that UPS appears when listed with other delivery methods during checkout. Enter `0` for the top of the list.|
 
 {:style="table-layout:auto"}
 
 ### [!UICONTROL USPS]
+
+{{ups-api}}
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -237,8 +239,8 @@ exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 |--- |--- |--- |
 |_[!UICONTROL USPS Applicable Countries]_|||
 |[!UICONTROL Ship to Applicable Countries]|Website|Specifies the countries where orders can be shipped. Options: <br/>**`All Allowed Countries`** - Customers from all [countries](../../getting-started/store-details.md#country-options) specified in your store configuration can use this shipping method. <br/>**`Specific Countries`** - After choosing this option, the [!UICONTROL Ship to Specific Countries] list appears. Select each country in the list where this shipping method can be used.|
-|[!UICONTROL Show Method if Not Applicable]|Website|Controls the display of USPS shipping during checkout. Options: <br/>**`Yes`** - USPS always appears as a shipping option during checkout, even if not applicable to the order. <br/>**`No`** - USPS appears as a shipping option during checkout only if applicable to the order. (i.e., Order weight exceeds the maximum weight amount).|
-|[!UICONTROL Debug]|Website|Determines if a log of data transmissions between your store and USPS is maintained by the system for debugging. Unless there is an issue that needs to be tracked and logged, this should be set to "No".|
+|[!UICONTROL Show Method if Not Applicable]|Website|Controls the display of USPS shipping during checkout. Options: <br/>**`Yes`** - USPS always appears as a shipping option during checkout, even if not applicable to the order. <br/>**`No`** - USPS appears as a shipping option during checkout only if applicable to the order (that is, the order weight exceeds the maximum weight amount).|
+|[!UICONTROL Debug]|Website|Determines if a log of data transmissions between your store and USPS is maintained by the system for debugging. Unless there is an issue that must be tracked and logged, this option should be set to `No`.|
 |[!UICONTROL Sort Order]|Website|A number that determines the order that USPS appears when listed with other delivery methods during checkout. Enter `0` for the top of the list.|
 
 {:style="table-layout:auto"}
@@ -298,7 +300,7 @@ exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 |--- |--- |--- |
 |_[!UICONTROL FedEx delivery methods]_|||
 |[!UICONTROL Residential Delivery]|Website|Set to one of the following, depending on whether you sell Business-to-Consumer (B2C) or Business-to-Business (B2B): <br/>**`Yes`** - For B2C deliveries <br/>**`No`** - For B2B deliveries|
-|[!UICONTROL Allowed Methods]|Website|From the list, select the methods of shipment that you support. This depends on your FedEx account, the frequency and size of your shipments, and whether you allow international shipments. As the merchant, you might decide to offer ground shipping only.|
+|[!UICONTROL Allowed Methods]|Website|From the list, select the methods of shipment that you support. The methods depend on your FedEx account, the frequency and size of your shipments, and whether you allow international shipments. As the merchant, you might decide to offer ground shipping only.|
 |[!UICONTROL Hub ID]|Website|An ID provided by FedEx that is used with the [!DNL Smart Post] method.|
 |[!UICONTROL Free Method]|Website|From the list, select the shipping method you prefer to use for offers of free shipping. <br/><br/>**_Note:_** This shipping method is similar to the regular Free Shipping method, however it is listed within the FedEx shipping options and is identified as FedEx shipping.|
 |[!UICONTROL Free Shipping Amount Threshold]|Website|Determines if a minimum order amount is required for free shipping. Options: <br/>**`Enable`** - Enables free FedEx shipping for orders that meet the minimum amount. <br/>**`Disable`** - Disables free FedEx shipping with minimum order.|
@@ -316,7 +318,7 @@ exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 |_[!UICONTROL FedEx Applicable Countries]_|||
 |[!UICONTROL Ship to Applicable Countries]|Website|Indicates the countries where your customers can ship by FedEx. Options: <br/>**`All Allowed Countries`** - Customers from all [countries](../../getting-started/store-details.md#country-options) specified in your store configuration  can use this shipping method. <br/>**`Specific Countries`** - After choosing this option, the [!UICONTROL Ship to Specific Countries] list appears. Select each country in the list where this shipping method can be used.|
 |[!UICONTROL Ship to Specific Countries]|Website|Indicates the specific countries where your customers can ship by FedEx.|
-|[!UICONTROL Debug]|Website|Determines if a log of data transmissions between your store and FedEx is maintained by the system for debugging. Unless there is an issue that needs to be tracked and logged, this should be set to `No`.|
+|[!UICONTROL Debug]|Website|Determines if a log of data transmissions between your store and FedEx is maintained by the system for debugging. Unless there is an issue that must be tracked and logged, this option should be set to `No`.|
 |[!UICONTROL Show Method if Not Applicable]|Website|Determines when FedEx appears as a shipping method during checkout. Options: <br/>**`Yes`** - The FedEx shipping option is displayed in the delivery methods list, regardless of whether the order qualifies to use it. <br/>**`No`** - The FedEx shipping option is not displayed in the delivery methods list if it is not applicable to the order (for example, if the order weight exceeds the maximum weight amount).|
 |[!UICONTROL Sort Order]|Website|A number that determines the order that FedEx appears when listed with other delivery methods during checkout. Enter `0` for the top of the list.|
 
@@ -381,8 +383,8 @@ exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 |_[!UICONTROL DHL applicable countries]_|||
 |[!UICONTROL Ship to Applicable Countries]|Website|Specifies which country customers are allowed to use this shipping method. Options: <br/>**All Allowed Countries** - All allowed countries are applicable to use the free shipping method. The Allowed Countries are specified in the [!UICONTROL General] configuration page. <br/>**Specific Countries** - Limits this shipping option to the countries specified in the Ship to Specific Countries list.|
 |[!UICONTROL Ship to Specific Countries]|Website|Specifies the countries where DHL shipments can be sent. This selected countries list is used if `Specific Countries` is selected in the [!UICONTROL Ship to Applicable Countries] option.|
-|[!UICONTROL Show Method if Not Applicable]|Website|Determines when DHL appears as a shipping method during checkout. Options: <br/>**`Yes`** - DHL always appears as a shipping option during checkout, even if not applicable to the order. <br/>**`No`** - DHL appears as a shipping option during checkout only if applicable to the order. (i.e., Order weight exceeds the maximum weight amount.)|
+|[!UICONTROL Show Method if Not Applicable]|Website|Determines when DHL appears as a shipping method during checkout. Options: <br/>**`Yes`** - DHL always appears as a shipping option during checkout, even if not applicable to the order. <br/>**`No`** - DHL appears as a shipping option during checkout only if applicable to the order (that is, order weight exceeds the maximum weight amount).|
 |[!UICONTROL Debug]|Website|Creates a log file with error information.|
-|[!UICONTROL Sort Order]|Website|A number that determines the order in which DHL appears when listed with other delivery methods during checkout. Enter `0` to place it at the top of the list.|
+|[!UICONTROL Sort Order]|Website|A number that determines the order in which DHL appears when listed with other delivery methods during checkout. To place it at the top of the list, enter `0`.|
 
 {:style="table-layout:auto"}

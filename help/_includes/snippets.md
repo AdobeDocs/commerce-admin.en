@@ -38,7 +38,7 @@ description: Reused visual elements to note feature or pages applying to a speci
 
 >[!NOTE]
 >
->When automatic redirects are enabled and you save a category, all product and category rewrites are generated in real time and stored in rewrite tables by default. This could result in significant performance issues for categories with many assigned products. The solution is to change this default and skip the generation of category/products URL rewrites of products for category save. In this case, product rewrites are generated only for the canonical product URL. See [Automatic product redirects](/help/merchandising-promotions/url-redirect-product-automatic.md) for more information.
+>When automatic redirects are enabled and you save a category, all product and category rewrites are generated in real time and stored in rewrite tables by default. This process could result in significant performance issues for categories with many assigned products. The solution is to change this default and skip the generation of category/products URL rewrites of products for category save. In this case, product rewrites are generated only for the canonical product URL. See [Automatic product redirects](/help/merchandising-promotions/url-redirect-product-automatic.md) for more information.
 
 ## URL rewrite parameters note {#url-rewrite-params}
 
@@ -50,11 +50,19 @@ description: Reused visual elements to note feature or pages applying to a speci
 
 >[!NOTE]
 >
->Price rules are automatically processed with other system rules. Processing frequency depends on the [cron configuration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html). When you create a new price rule, allow enough time for it to get into the system and then test the rule to make sure that it works correctly.
+>Price rules are automatically processed with other system rules. Processing frequency depends on the [cron configuration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html). When you create a price rule, allow enough time for it to get into the system and then test the rule to make sure that it works correctly.
 
 ## Configuration settings {#config}
 
 To access the store configurations settings, choose **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]** from the _Admin_ sidebar.
+
+## UPS API deprecation {#ups-api}
+
+>[!IMPORTANT]
+>
+>The United Parcel Service (UPS) APIs used by the native Adobe Commerce integration are temporarily deprecated because it does not currently support the OAuth 2.0 security model. An update to the UPS integration is expected later this year. To learn more about this change, refer to [_Developer Portal Access Key Migration Guide_](https://developer.ups.com/oauth-developer-guide). <br/><br/>
+>This API deprecation does not impact merchants already using generated API keys and UPS will continue to support authentication through these keys until June 3, 2024. Merchants without generated keys cannot use this native integration, but can use a published UPS delivery extension [available on the Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=UPS&categories=Extensions~Shipping%20%26%20Fulfillment).
+
 
 ## Available documentation {#docs-links}
 
