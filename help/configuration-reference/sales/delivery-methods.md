@@ -97,6 +97,8 @@ exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 
 ### [!UICONTROL UPS]
 
+{{ups-api}}
+
 ![UPS XML Account Settings](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
 <!-- [UPS XML Account Settings](https://docs.magento.com/user-guide/shipping/ups.html) -->
