@@ -1,22 +1,22 @@
 ---
-title: "[!DNL AR QuickView] requirements"
-description: "Verify that your system meets the requirements necessary to use the [!DNL AR Quick View] for Adobe Commerce extension."
+title: "[!DNL AR Viewer] requirements"
+description: "Verify that your system meets the requirements necessary to use the [!DNL AR Viewer] for Adobe Commerce module."
 ---
-# [!DNL AR Quick View] requirements
+# [!DNL AR Viewer] requirements
 
-The [!DNL AR Quick View] is compatible with both [!DNL Magento Open Source] and Adobe Commerce. See [Lifecycle Policy](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html){target=_blank} for more information about supported versions.
+The [!DNL AR Viewer] is compatible with both [!DNL Magento Open Source] and Adobe Commerce. See [Lifecycle Policy](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html){target=_blank} for more information about supported versions.
 
-Refer to the [onboarding](../ar-quick-view/onboarding.md) topic for more information.
+Refer to the [onboarding](../catalog/ar-viewer-onboarding.md) topic for more information.
 
 ## Compatibility limitations
 
-In order to use [!DNL AR Quick View], you must have the following available for your instance:
+In order to use [!DNL AR Viewer], you must have the following available for your instance:
 
 * PHP 8.1.0
 * Adobe Commerce version 2.4.x
 * Magento Open Source (CE) version 2.4.x
 
-[!DNL AR Quick View] existing compatibility issues:
+[!DNL AR Viewer] existing compatibility issues:
 
 | **Issue** | **Constraints** |
 |----------------|-----------------|

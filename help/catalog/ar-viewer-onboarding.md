@@ -1,6 +1,6 @@
 ---
-title: "Setup the [!DNL AR Quick View] for Adobe Commerce"
-description: "Learn how to onboard, setup and use the [!DNL AR Quick View] extension."
+title: "Setup the [!DNL AR Viewer] for Adobe Commerce"
+description: "Learn how to onboard, setup and use the [!DNL AR Viewer] module."
 ---
 
 # Install
