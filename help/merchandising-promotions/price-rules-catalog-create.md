@@ -55,7 +55,7 @@ Most of the available conditions are based on existing attribute values. To appl
 
 >[!NOTE]
 >
->If at least 1 conditional product attribute has empty value, then catalog price rule is not applied to this product.
+>If at least one conditional product attribute has empty value, then catalog price rule is not applied to this product.
 
 >[!NOTE]
 >
