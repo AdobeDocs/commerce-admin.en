@@ -57,6 +57,10 @@ breadcrumb-title: Catalog Management
     + [Image asset configuration](product-image-config.md)
     + [Manage product images](product-image.md)
     + [Add product videos](product-video.md)
+    + Add product 3D models {#product-ar-view}
+        + [AR viewer](ar-viewer-overview.md)
+        + [AR viewer requirements](ar-viewer-requirements.md)
+        + [AR viewer setup](ar-viewer-onboarding.md)
   + Manage pricing {#pricing}
     + [Price scope](catalog-price-scope.md)
     + [Advanced pricing](pricing-advanced.md)
