@@ -6,7 +6,7 @@ description: "Verify that your system meets the requirements necessary to use th
 
 The [!DNL AR Quick View] is compatible with both [!DNL Magento Open Source] and Adobe Commerce. See [Lifecycle Policy](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html){target=_blank} for more information about supported versions.
 
-Refer to the [onboarding](../ar-quick-view/onboard.md) topic for more information.
+Refer to the [onboarding](../ar-quick-view/onboarding.md) topic for more information.
 
 ## Compatibility limitations
 
@@ -23,3 +23,5 @@ In order to use [!DNL AR Quick View], you must have the following available for 
 | `.USDZ` only| This feature only supports `.USDZ` schemas. |
 | `qr-code` | `endroid/qr-code` version 4.5. |
 | `Catalog module` | `magento/module-catalog` version 104.0.0. |
+
+{style="table-layout:auto"}

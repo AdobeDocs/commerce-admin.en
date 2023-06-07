@@ -1,12 +1,11 @@
 ---
-title: "Onboard the [!DNL AR Quick View] for Adobe Commerce"
+title: "Setup the [!DNL AR Quick View] for Adobe Commerce"
 description: "Learn how to onboard, setup and use the [!DNL AR Quick View] extension."
 ---
 
 # Install
 
 Normal composer procedure installation https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html
-
 
 ## Add a USDZ schema
 

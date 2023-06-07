@@ -9,4 +9,4 @@ breadcrumb-title: Merchant Services Guide
 - [Introduction to [!DNL AR Quick View]](overview.md)
 - Setup the [!DNL AR Quick View] {#getting-started}
   - [Requirements](requirements.md)
-  - [Onboarding the [!DNL AR Quick View]](onboard.md)
+  - [Onboarding the [!DNL AR Quick View]](onboarding.md)
