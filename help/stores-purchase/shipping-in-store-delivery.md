@@ -9,9 +9,10 @@ With the in-store delivery method, the customer can select a source to be used a
 
 ![In-store Delivery Method at Checkout](./assets/luma-in-store-example.png){width="700" zoomable="yes"}
 
-During the checkout on the storefront:
-- The customer clicks [!UICONTROL Pick In Store] button or selects [!UICONTROL In-Store Pickup Delivery] shipping method.
-- [!UICONTROL Pick In Store] checkout tab is opened.
+During checkout on the storefront:
+
+1. The customer clicks **[!UICONTROL Pick In Store]** or selects the _[!UICONTROL In-Store Pickup Delivery]_ shipping method.
+1. The _[!UICONTROL Pick In Store]_ checkout tab opens.
 
 In the case when the customer has an address, or previously filled the shipping address form before switching to the [!UICONTROL Pick In Store] tab:
 - The closest source to the customer address within the configured radius is automatically preselected as a pick-up store.
