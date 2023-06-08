@@ -82,7 +82,7 @@ If you are using audiences from Real-Time CDP, skip to [this section](#use-real-
 
 >[!NOTE]
 >
->If at least one conditional product attribute has empty value, then cart price rule is not applied to this product.
+>If at least one conditional product attribute has an empty value, the cart price rule is not applied to the product.
 
 1. In the left panel, select **[!UICONTROL Conditions]**.
 
