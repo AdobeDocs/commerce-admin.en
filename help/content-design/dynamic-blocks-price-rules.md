@@ -30,7 +30,7 @@ Any [dynamic block](dynamic-blocks.md) that you create can be associated with a 
 
 1. Select the checkbox of each dynamic block that you want to associate with the rule.
 
-   ![Adding selected dynamic blocks](./assets/price-rule-cart-related-dynamic-blocks-any.png)<!-- zoom -->
+   ![Adding selected dynamic blocks](./assets/price-rule-cart-related-dynamic-blocks-any.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save]**.
 
@@ -49,8 +49,6 @@ Any [dynamic block](dynamic-blocks.md) that you create can be associated with a 
    - To associate a shopping cart promotion, click **[!UICONTROL Add Cart Price Rules]**.
 
    - To associate a product-related promotion, click **[!UICONTROL Add Catalog Price Rules]**.
-
-      ![Related promotions for a dynamic block](./assets/pb-dynamic-block-related-promotions.png)<!-- zoom -->
 
 1. In the grid, select the checkbox of each rule that you want to associate with the dynamic block.
 
