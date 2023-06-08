@@ -73,7 +73,7 @@ Enter `bin/magento admin:adobe-ims:enable`. You are prompted to enter the follow
 * Client secret
 * 2FA enabled
 
-Adobe Commerce displays a message to report that enablement succeeded or failed.
+Adobe Commerce displays a message that indicates whether enablement succeeded or failed.
 
 After successfully enabling this feature, you can transition other Adobe Commerce user accounts to Adobe IMS accounts. Adobe Commerce users must belong to the configured Adobe organization to log in using an Adobe ID.
 
