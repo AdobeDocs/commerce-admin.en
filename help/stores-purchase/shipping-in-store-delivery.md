@@ -23,7 +23,7 @@ When the customer has an address, or previously filled the shipping address form
 
 In the case when the customer has no address or did not previously fill the shipping address form before switching to the [!UICONTROL Pick In Store] tab:
 - The page displays the _We could not preselect pickup location based on available information_ message.
-- When the customer clicks [!UICONTROL Select Store] button, [!UICONTROL Select Store] search form is opened.
+- When the customer clicks **[!UICONTROL Select Store]**, the _[!UICONTROL Select Store]_ search form opens.
 - All pick-up stores assigned to the products in shopping cart are shown to the customer in ascending order of the source codes without any distance (radius) limitation.
 - When the customer enters postcode or city name in the search field, only stores within the configured distance (radius) to the searched location are displayed in the list. All stores in the list are sorted by the distance to the searched location.
 
