@@ -35,8 +35,8 @@ In the case when the customer has no address or did not previously fill the ship
 >[!IMPORTANT]
 >
 >**In the storefront, search results are filtered by distance (radius) to show relevant results:**<br><br>
->If the customer has a shipping address, the location to calculate the distance (radius) is taken from the shipping address.<br><br>
->If the customer does not have a shipping address, the location to calculate the distance is taken from the [Default Tax Destination Calculation](../configuration-reference/sales/tax.md#default-tax-destination-calculation) settings. These settings are set per store view. So, you must configure the Default Tax Destination Calculation settings to make store search work properly.
+>If the customer has a shipping address, the base location to calculate the distance (radius) is taken from the shipping address.<br><br>
+>If the customer does not have a shipping address, the base location to calculate the distance is taken from the [Default Tax Destination Calculation](../configuration-reference/sales/tax.md#default-tax-destination-calculation) settings. These settings are set per store view. So, you must configure the Default Tax Destination Calculation settings to make store search work properly.
 
 ## Set up in-store delivery
 
