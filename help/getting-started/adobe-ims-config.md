@@ -50,7 +50,7 @@ Membership in at least one IMS organization is required to enable this feature. 
 You must have an Adobe account to generate a new project and register it in IMS.
 
 1. Log in to [Adobe Developer Console](https://developer.adobe.com/).
-1. Go to the **[!UICONTROL Projects]** tab (adobe.io/projects) and click **[!UICONTROL Create a new project]**.
+2. Go to the **[!UICONTROL Projects]** tab (adobe.io/projects) and click **[!UICONTROL Create a new project]**.
 1. Click **[!UICONTROL Add API]** on the newly created Project page.
 1. Select **[!UICONTROL Adobe Services]** > **[!UICONTROL Adobe Commerce with Adobe ID]**.
 1. Select **[!UICONTROL Oauth 2.0 Web]**.
