@@ -34,6 +34,7 @@ Choosing a product type is one of the first things that you must do to create a 
 The most frequently used product settings and attributes are displayed at the top of the page, followed by custom attributes. Any other product settings are in expandable sections at the bottom of the page.
 
 ![Product Settings](./assets/product-settings.png){width="600" zoomable="yes"}
+
 |Setting|Description|
 |--- |--- |
 |[[!UICONTROL Sources]](../inventory-management/sources-assign-per-product.md)| (When [[!DNL Inventory Management]](../inventory-management/introduction.md) is enabled) Lists the sources from which the product can be distributed.|
