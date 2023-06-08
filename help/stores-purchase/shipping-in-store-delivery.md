@@ -14,7 +14,8 @@ During checkout on the storefront:
 1. The customer clicks **[!UICONTROL Pick In Store]** or selects the _[!UICONTROL In-Store Pickup Delivery]_ shipping method.
 1. The _[!UICONTROL Pick In Store]_ checkout tab opens.
 
-In the case when the customer has an address, or previously filled the shipping address form before switching to the [!UICONTROL Pick In Store] tab:
+When the customer has an address, or previously filled the shipping address form before switching to the _[!UICONTROL Pick In Store]_ tab:
+
 - The closest source to the customer address within the configured radius is automatically preselected as a pick-up store.
 - When the customer clicks [!UICONTROL Select Other] button, [!UICONTROL Select Store] search form is opened. Only stores within the configured distance (radius) to the preselected store are displayed in the list. All stores in the list are sorted by the distance to the preselected store.
 - When the customer enters postcode or city name in the search field, only stores within the configured distance (radius) to the searched location are displayed in the list. All stores in the list are sorted by the distance to the searched location.
