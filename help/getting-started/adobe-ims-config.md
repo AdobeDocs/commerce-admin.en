@@ -49,13 +49,13 @@ Membership in at least one IMS organization is required to enable this feature. 
 
 You must have an Adobe account to generate a new project and register it in IMS.
 
-1.  Log in to [Adobe Developer Console](https://developer.adobe.com/).
-1.  Go to the **[!UICONTROL Projects]** tab (adobe.io/projects) and click **[!UICONTROL Create a new project]**.
-1.  Click **[!UICONTROL Add API]** on the newly created Project page.
-1.  Select **[!UICONTROL Adobe Services]** > **[!UICONTROL Adobe Commerce with Adobe ID]**.
-1.  Select **[!UICONTROL Oauth 2.0 Web]**.
-1.  Specify the **[!UICONTROL Redirect URI]**: `https://<hostname>/<backend_frontname>/adobe_ims/oauth/callback/`
-1.Specify the **[!UICONTROL Redirect URI pattern]**: `https://<hostname>/<backend_frontname>/adobe_ims/oauth/callback/.*`
+1. Log in to [Adobe Developer Console](https://developer.adobe.com/).
+1. Go to the **[!UICONTROL Projects]** tab (adobe.io/projects) and click **[!UICONTROL Create a new project]**.
+1. Click **[!UICONTROL Add API]** on the newly created Project page.
+1. Select **[!UICONTROL Adobe Services]** > **[!UICONTROL Adobe Commerce with Adobe ID]**.
+1. Select **[!UICONTROL Oauth 2.0 Web]**.
+1. Specify the **[!UICONTROL Redirect URI]**: `https://<hostname>/<backend_frontname>/adobe_ims/oauth/callback/`
+1. Specify the **[!UICONTROL Redirect URI pattern]**: `https://<hostname>/<backend_frontname>/adobe_ims/oauth/callback/.*`
 
    Escape any dots in the hostname by preceding the dots with `\\`. Adding a wildcard to the end of the URL supports the Adobe Commerce Admin secret key.
 
@@ -81,11 +81,11 @@ After successfully enabling this feature, you can transition other Adobe Commerc
 
 After successfully enabling this feature, you can transition other Adobe Commerce user accounts to Adobe IMS accounts. Adobe Commerce users must belong to at least one Adobe organization to log in using an Adobe ID.
 
-1.  In the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html), navigate to **[!UICONTROL Users]**  > **[!UICONTROL Users]**.
+1. In the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html), navigate to **[!UICONTROL Users]**  > **[!UICONTROL Users]**.
 
-1.  Click **[!UICONTROL Add User]**.
+1. Click **[!UICONTROL Add User]**.
 
-1.  Enter the email address of the user.
+1. Enter the email address of the user.
 
    If applicable, the recommended ID Type is populated automatically. You can change this setting to one of the product IDs in the list, which is based on your organization's purchase plan.
    
