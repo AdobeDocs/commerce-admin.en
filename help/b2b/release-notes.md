@@ -25,11 +25,11 @@ This release includes new capabilities and enhancements for B2B negotiable quote
 
 ![New](../assets/new.svg) Added support for Adobe Commerce 2.4.7-beta1
 
-![New](../assets/new.svg) **Seller initiated quotes**. Sellers can now initiate a quote for a buyer directly from the Quote and Customer grids in the Admin. This capability streamlines the quote process and reduces complexity for customers. If a customer has not initiated an order, a seller can quickly create a quote on behalf of the customer and start the negotiation process. Previously, quotes could only be created from the storefront by the buyer, or by a seller logged in as the customer.
+![New](../assets/new.svg) **Seller initiated quotes**—Sellers can now initiate a quote for a buyer directly from the Quote and Customer grids in the Admin. This capability streamlines the quote process and reduces complexity for customers. If a customer has not initiated an order, a seller can quickly create a quote on behalf of the customer and start the negotiation process. Previously, quotes could only be created from the storefront by the buyer, or by a seller logged in as the customer.
 
-![New](../assets/new.svg) **Line item discounts and negotiation**.<!--B2B-2440--> Within a quote, B2B Buyers and Sellers can now negotiate at the line item level, applying discounts and exchanging notes until an agreement is reached. Note creation and updates are included in the line item and quote history to track communication. Previously, buyers and sellers could only exchange notes and apply discounts at the quote level.
+![New](../assets/new.svg) **Line item discounts and negotiation**—<!--B2B-2440--> Within a quote, B2B buyers and sellers can now negotiate at the line item level, applying discounts and exchanging notes until an agreement is reached. Note creation and updates are included in the line item and quote history to track communication. Previously, buyers and sellers could only exchange notes and apply discounts at the quote level.
 
-![New](../assets/new.svg) **Improved Quote Detail view**. Sellers and buyers can now add items to a quote by SKU or from the product catalog, add or edit notes, apply line items discounts, and access product configuration directly from the quote detail page.
+![New](../assets/new.svg) **Improved Quote Detail view**—Sellers and buyers can now add items to a quote by SKU or from the product catalog, add or edit notes, apply line items discounts, and access product configuration directly from the quote detail page.
 
 ![Fixed issue](../assets/fix.svg) Adobe Commerce now displays correct details during payment when the Purchase Orders option is enabled and a virtual quote that was created with the PayPal payment option has been selected. Previously, totals were displayed as zero under these conditions.
 
