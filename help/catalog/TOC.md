@@ -57,7 +57,7 @@ breadcrumb-title: Catalog Management
     + [Image asset configuration](product-image-config.md)
     + [Manage product images](product-image.md)
     + [Add product videos](product-video.md)
-    + Add product 3D models {#product-ar-view}
+    + Manage product 3D models {#product-ar-view}
         + [AR Viewer](ar-viewer-overview.md)
         + [AR Viewer requirements](ar-viewer-requirements.md)
         + [AR Viewer setup](ar-viewer-onboarding.md)

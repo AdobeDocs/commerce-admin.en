@@ -8,13 +8,13 @@ The [!DNL AR Viewer] is compatible with both [!DNL Magento Open Source] and Adob
 
 Refer to the [onboarding](../catalog/ar-viewer-onboarding.md) topic for more information.
 
-## Compatibility limitations
-
 In order to use [!DNL AR Viewer], you must have the following available for your instance:
 
 * PHP 8.1.0
 * Adobe Commerce version 2.4.x
 * Magento Open Source (CE) version 2.4.x
+
+## Compatibility limitations
 
 [!DNL AR Viewer] existing compatibility issues:
 
