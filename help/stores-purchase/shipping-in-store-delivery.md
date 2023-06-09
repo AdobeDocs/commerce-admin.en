@@ -21,7 +21,8 @@ When the customer has an address, or previously filled the shipping address form
 - When the customer enters a postal code or city name in the search field, only stores within the configured distance (radius) to the searched location are displayed in the list. All stores in the list are sorted by the distance to the searched location.
 - When the customer clears the postal code or city name from the search field, all pick-up stores that are assigned to the products in shopping cart are shown to the customer. All stores in the list are sorted in ascending order of the source codes without any distance (radius) limitation.
 
-In the case when the customer has no address or did not previously fill the shipping address form before switching to the [!UICONTROL Pick In Store] tab:
+If the customer has no address or did not previously fill the shipping address form before switching to the _[!UICONTROL Pick In Store]_ tab:
+
 - The page displays the _We could not preselect pickup location based on available information_ message.
 - When the customer clicks **[!UICONTROL Select Store]**, the _[!UICONTROL Select Store]_ search form opens.
 - All pick-up stores assigned to the products in shopping cart are displayed in ascending order of the source codes without any distance (radius) limitation.
