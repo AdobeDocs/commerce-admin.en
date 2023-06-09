@@ -7,9 +7,11 @@ exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 
 United Parcel Service (UPS) offers domestic and international shipping services by land and air to more than 220 countries.
 
+{{ups-api}}
+
 >[!NOTE]
 >
->UPS can use [dimensional weight](carriers.md#dimensional-weight) to determine some shipping rates. However, Adobe Commerce and Magento Open Source support only weight-based shipping cost calculation.
+>UPS can use [dimensional weight](carriers.md#dimensional-weight) to determine some shipping rates. However, Adobe Commerce supports only weight-based shipping cost calculation.
 
 ## Step 1: Open a UPS Shipping Account
 
