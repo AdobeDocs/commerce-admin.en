@@ -13,13 +13,17 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 
 >[!NOTE]
 >
->See [Product availability](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) for information about the release status of B2B Commerce extension versions relative to Adobe Commerce.
+>See [Product availability](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) for detailed information about the release status of B2B Commerce extension versions relative to Adobe Commerce.
 
 ## B2B v1.4.0
 
 *June 13, 2023*
 
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce 2.4.0 and newer versions
+
 This release includes new capabilities and enhancements for B2B negotiable quotes and multiple bug fixes.
+
+![New](../assets/new.svg) Added support for Adobe Commerce 2.4.7-beta1
 
 ![New](../assets/new.svg) **Seller initiated quotes**. Sellers can now initiate a quote for a buyer directly from the Quote and Customer grids in the Admin. This capability streamlines the quote process and reduces complexity for customers. If a customer has not initiated an order, a seller can quickly create a quote on behalf of the customer and start the negotiation process. Previously, quotes could only be created from the storefront by the buyer, or by a seller logged in as the customer.
 
@@ -45,6 +49,10 @@ This release includes new capabilities and enhancements for B2B negotiable quote
 
 *March 14, 2023*
 
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce 2.4.0 and newer versions
+
+![New](../assets/new.svg) Added support for Adobe Commerce 2.4.6.
+
 ![Fixed issue](../assets/fix.svg) <!--- ACP2E-689--> Adobe Commerce now displays correct details during payment when the Purchase Orders option is enabled and a virtual quote that was created with the PayPal payment option has been selected. Previously, totals were displayed as zero under these conditions.
 
 ![Fixed issue](../assets/fix.svg) <!--- ACP2E-609--> The list of customer groups for the **Allow Browsing Category** setting no longer contains customer groups that are related to shared catalogs.
@@ -68,6 +76,10 @@ This release includes new capabilities and enhancements for B2B negotiable quote
 ## B2B v1.3.4
 
 *August 9, 2022*
+
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce 2.4.0 and newer versions
+
+![New](../assets/new.svg) Added support for Adobe Commerce 2.4.5.
 
 ![Fixed issue](../assets/fix.svg) <!--- ACP2E-453-->Adobe Commerce no longer sends email notifications each time an existing Company is updated by an API call. Emails are now sent only when a company is created.
 
@@ -98,6 +110,10 @@ This release includes new capabilities and enhancements for B2B negotiable quote
 ## B2B v1.3.3
 
 *August 9, 2022*
+
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce 2.4.0 and newer versions
+
+![New](../assets/new.svg) Added support for Adobe Commerce 2.4.4.
 
 ![Fixed issue](../assets/fix.svg) <!--- MC-41985--> The time required to upgrade from Adobe Commerce 2.3.x to Adobe Commerce 2.4.x in deployments with more than 100,000 company roles has been substantially reduced.
 
@@ -147,10 +163,9 @@ This release includes new capabilities and enhancements for B2B negotiable quote
 
 *August 29, 2022*
 
-[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Fully compatible and supported on Adobe Commerce v2.4.5
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce 2.4.0 and newer versions
 
-
-This extension release is fully compatible with Adobe Commerce 2.4.3
+![New](../assets/new.svg) Added support for Adobe Commerce 2.4.3.
 
 ![Fixed issue](../assets/fix.svg) <!--- MC-39862--> Adobe Commerce now successfully sends update emails about expired negotiable quotes. Previously, when a negotiable quote expired, Adobe Commerce did not send update emails.
 
@@ -244,6 +259,10 @@ This extension release is fully compatible with Adobe Commerce 2.4.3
 
 *February 9, 2021*
 
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce 2.4.0 and newer versions
+
+![New](../assets/new.svg) Added support for Adobe Commerce 2.4.2.
+
 ![New](../assets/new.svg) Online payment methods are now supported for purchase orders.
 
 ![Fixed issue](../assets/fix.svg) Adding a configurable product to the shopping cart directly from a requisition list when this product was used in a prior order no longer returns a system error.
@@ -308,7 +327,11 @@ This extension release is fully compatible with Adobe Commerce 2.4.3
 
 *October 15, 2020*
 
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce 2.4.0 and newer versions
+
 This release includes improvements to order approvals, shipping methods, shopping cart, and logging of Admin actions.
+
+![New](../assets/new.svg) Added support for Adobe Commerce 2.4.1.
 
 ![New](../assets/new.svg) B2B order approvals have been enhanced to improve usability and to allow for bulk actions on purchase orders.
 
@@ -385,6 +408,10 @@ This release includes improvements to order approvals, shipping methods, shoppin
 ## B2B v1.2.0
 
 *July 28, 2020*
+
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce 2.4.0 and newer versions
+
+![New](../assets/new.svg) Added support for Adobe Commerce 2.4.0.
 
 ![New](../assets/new.svg) Storefront Order Search, with added thanks for contribution by Marek Mularczyk from [Divante](https://www.divante.com/) and community members.
 
