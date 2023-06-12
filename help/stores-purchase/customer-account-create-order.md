@@ -5,9 +5,9 @@ exl-id: 8a766a5b-55d6-4d78-859e-38937e0183d3
 ---
 # Create an order
 
-For registered customers who need assistance, you can create an entire order directly from the Admin. The Create New Order form includes all the information that is needed to complete the normal checkout process, with activity summaries from the customer's account dashboard.
+For registered customers who need assistance, you can create an entire order directly from the Admin. The _[!UICONTROL Create New Order]_ form includes all the information that is needed for the normal checkout process, with activity summaries from the customer's account dashboard.
 
-![Create an order for a customer](./assets/create-new-order.png)<!-- zoom -->
+![Create an order for a customer](./assets/create-new-order.png){width="700" zoomable="yes"}
 
 ## Step 1: Create an order
 
@@ -19,7 +19,7 @@ For registered customers who need assistance, you can create an entire order dir
 
 1. In the workspace header, click **[!UICONTROL Create Order]**.
 
-   ![Workspace header](./assets/order-create-buttons.png)<!-- zoom -->
+   ![Workspace header](./assets/order-create-buttons.png){width="700" zoomable="yes"}
 
    You can also create an order in the [Order workspace](orders.md#orders-workspace) by clicking **[!UICONTROL Create New Order]**.
 
@@ -27,9 +27,9 @@ For registered customers who need assistance, you can create an entire order dir
 
 If your store has multiple views, choose the store view where the order is to be placed.
 
-### Add products from the Customer's Activities sidebar
+### Add products from the [!UICONTROL Customer's Activities] sidebar
 
-You can transfer items to the cart from a customer's wish list, and recently viewed, compared, or ordered items.
+You can transfer items to the cart from a customer's wish list, or any recently viewed, compared, or ordered items.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) one of the following sections:
 
@@ -45,17 +45,17 @@ You can transfer items to the cart from a customer's wish list, and recently vie
 
    The item appears in the order form.
 
-   ![Add to Cart](./assets/create-order-add-wishlist.png)<!-- zoom -->
+   ![Add to Cart](./assets/create-order-add-wishlist.png){width="600" zoomable="yes"}
 
 ### Add products from the catalog
 
 1. Click **[!UICONTROL Add Products]**.
 
-   ![Add Products](./assets/account-add-wishlist-product.png)<!-- zoom -->
+   ![Add Products](./assets/account-add-wishlist-product.png){width="600" zoomable="yes"}
 
 1. In the grid, select the checkbox of each product to be added to the cart and enter the **[!UICONTROL Qty]** to be purchased.
 
-   ![Select Products](./assets/create-order-from-catalog.png)<!-- zoom -->
+   ![Select Products](./assets/create-order-from-catalog.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -79,7 +79,7 @@ You can transfer items to the cart from a customer's wish list, and recently vie
 
    - To update the cart totals, click **[!UICONTROL Update Items and Quantities]**.
 
-   ![Custom Price](./assets/create-order-custom-price.png)<!-- zoom -->
+   ![Custom Price](./assets/create-order-custom-price.png){width="600" zoomable="yes"}
 
 1. Complete the following sections as needed for the order:
 
@@ -98,5 +98,3 @@ You can transfer items to the cart from a customer's wish list, and recently vie
 Click **[!UICONTROL Submit Order]**.
 
 A confirmation is sent to the customer and the customer can view the order details from their account.
-
-![Order Created](./assets/create-order-submitted.png)<!-- zoom -->

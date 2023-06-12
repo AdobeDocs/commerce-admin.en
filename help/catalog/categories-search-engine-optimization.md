@@ -7,7 +7,7 @@ exl-id: 6c8af01d-d2aa-4c13-af76-663c47cbe38c
 
 The _[!UICONTROL Search Engine Optimization]_ section specifies the [URL Key](catalog-urls.md) and [meta data](../merchandising-promotions/meta-data.md) fields that are used by search engines to index the category. Although some search engines ignore meta keywords, others continue to use them. The current SEO best practice is to incorporate high-value keywords in both the meta title and meta description.
 
-![Search Engine Optimization](./assets/categories-search-engine-optimization.png)<!-- zoom -->
+![Search Engine Optimization](./assets/categories-search-engine-optimization.png){width="600" zoomable="yes"}
 
 |Field|[Scope](../getting-started/websites-stores-views.md#scope-settings)| Description |
 |--- |--- |----------------------------------------------------|

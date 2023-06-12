@@ -7,7 +7,7 @@ exl-id: 9dde0360-aa99-4fc4-92ff-976d9874ffec
 
 A _returned merchandise authorization_ (RMA) can be granted to customers who request to return an item for replacement or refund. Typically, the customer contacts the merchant to request a refund. If approved, a unique RMA number is assigned to identify the returned product. In the configuration, you can either enable RMA for all products or allow RMA for only certain products. The _[!UICONTROL Returns]_ grid lists the current returned merchandise requests (RMAs) and is used to enter new return requests.
 
-![Returns grid](./assets/return.png)<!-- zoom -->
+![Returns grid](./assets/return.png){width="600" zoomable="yes"}
 
 RMAs can be issued for simple, grouped, configurable, and bundle product types. However, RMAs are not available for virtual products, downloadable products, and gift cards.
 
@@ -15,7 +15,7 @@ RMAs can be issued for simple, grouped, configurable, and bundle product types. 
 
 |Column|Description|
 |--- |--- |
-|[!UICONTROL Select]|Select the checkbox to select the returns to be subject to an action, or use the selection control in the column header. Options: `Select All` / `Deselect All` / `Select Visible` / `Unselect Visible`|
+|[!UICONTROL Select]|Select the checkboxes for the returns to be subject to an action, or use the selection control in the column header. Options: `Select All` / `Deselect All` / `Select Visible` / `Unselect Visible`|
 |[!UICONTROL RMA]|A unique numeric identifier that is assigned to each return|
 |[!UICONTROL Requested]|Date and time the return was placed|
 |[!UICONTROL Order]|A unique number of the original order|
@@ -28,13 +28,13 @@ RMAs can be issued for simple, grouped, configurable, and bundle product types. 
 
 ## RMA and return workflow
 
-1. **Receive request** - Both registered customers and guests can request an RMA. You can also [submit an RMA request](#create-a-return-request) from the Admin.
+1. **Receive request** - If [enabled](rma-configure.md#enable-rmas-for-your-store) for the storefront, both registered customers and guests can request an RMA. You can also [submit an RMA request in the Admin](#create-a-return-request-in-the-admin).
 
 2. **RMA issued** - After considering the request, you can authorize it partially, completely, or cancel the request. If you authorize the return and agree to pay for the return shipment, you can create a shipment order from the Admin with a supported carrier.
 
-3. **Merchandise received and return processed** -  The following flow chart describes the operational order to complete the return process:
+3. **Merchandise received and product return processed** -  The following flow chart describes the operational order to complete the return process:
 
-   ![Product Return Workflow](./assets/workflow-customer-returns.png) <!-- {:width="500px"} -->
+   ![Product Return Workflow](./assets/workflow-customer-returns.png){width="500"}
 
 ## RMA status
 
@@ -42,7 +42,7 @@ During its lifecycle, a returned merchandise authorization (RMA) can have many a
 
 |Status|Description|
 |--- |--- |
-|[!UICONTROL Pending]|This is the initial status assigned to an RMA request when it is raised by a user on the storefront or by the merchant in the Admin.|
+|[!UICONTROL Pending]|The initial status assigned to an RMA request when it is raised by a user on the storefront or by the merchant in the Admin.|
 |[!UICONTROL Authorized]|This status is assigned to the RMA when all requested items are authorized by the merchant in the Admin for the returns.|
 |[!UICONTROL Partially Authorized]|This status is assigned to the RMA if any of the requested items have been denied and other products are authorized.|
 |[!UICONTROL Denied]|This status is assigned to the RMA if all the requested items are rejected by the merchant in the Admin for the returns.|
@@ -55,7 +55,7 @@ During its lifecycle, a returned merchandise authorization (RMA) can have many a
 
 {style="table-layout:auto"}
 
-## Create a return request
+## Create a return request in the Admin
 
 A merchant can create a return request on behalf of the customer from the Admin. Customers can [create a return request](rma-customer-experience.md) on the storefront for an Adobe Commerce store.
 
@@ -63,7 +63,7 @@ A merchant can create a return request on behalf of the customer from the Admin.
 
 1. Click **[!UICONTROL New Return Request]**.
 
-1. Click an order with a `Complete` status to create a return request.
+1. To create a return request, click an order with a `Complete` status.
 
 1. Under the _[!UICONTROL Return Information]_ section, select the **[!UICONTROL Return Items]** tab.
 
@@ -80,7 +80,7 @@ A merchant can create a return request on behalf of the customer from the Admin.
     - `Out of Service`
     - `Other`
 
-    If the reason for the return is different from those listed, you can enter your own if you select the `Other` option.
+    If the reason for the return is different from the listed choices, you can enter your own if you select the `Other` option.
 
 1. Set **[!UICONTROL Item Condition]** to one of the following:
 
@@ -96,6 +96,6 @@ A merchant can create a return request on behalf of the customer from the Admin.
 
 1. To create a return, click **[!UICONTROL Submit Returns]**.
 
-   ![RMA Items Requested](./assets/return-item-request.png)<!-- zoom -->
+   ![RMA Items Requested](./assets/return-item-request.png){width="600" zoomable="yes"}
 
    The newly submitted RMA request appears on the **[!UICONTROL Returns]** page with a `Pending` status.

@@ -43,8 +43,6 @@ Each event is associated with a category from your catalog, and only one event c
 
 Events can be edited from either the Events page or from the category that is associated with the event. When a category has an associated event, an Edit Event button appears in the upper-right corner.
 
-![Event information](./assets/catalog-event-updating.png)<!-- zoom -->
-
 ### Method 1: Edit an event from the Events page
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_ > **[!UICONTROL Events]**.

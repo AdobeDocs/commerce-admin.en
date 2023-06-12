@@ -77,8 +77,6 @@ You can use one of the three prepared gift registries, or create your own custom
 
    Each new option added appears in a new section at the top. Repeat this process for the new attribute.
 
-    ![Attribute with Multiple Options](./assets/gift-registry-new-attribute-event-location.png)<!-- zoom -->
-
 1. When complete, click **[!UICONTROL Save]**.
 
 ## Field descriptions

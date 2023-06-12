@@ -43,8 +43,6 @@ To manage the load on the server, newsletters with many subscribers are sent in 
 
     The newsletter appears in the queue waiting to be processed.
 
-    ![Newsletter queue](./assets/newsletter-queue-saved.png)<!-- zoom -->
-
 ## Check for problems
 
 On the _Admin_ menu, go to **[!UICONTROL Reports]** > _[!UICONTROL Marketing]_ > **[!UICONTROL Newsletter Problem Reports]**.

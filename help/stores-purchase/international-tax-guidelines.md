@@ -125,7 +125,7 @@ These recommended settings can be used for most tax configurations for stores wi
 |Tax Calculation|On item|
 |Tax shipping?|Yes|
 |Apply Discount|Before tax, discount on prices, including tax.|
-|Comment|For B2B merchants to provide simpler VAT supply chain considerations. Tax calculation on row is also valid; however, check with your taxing jurisdiction. Setup assumes that a merchant is in the supply chain and that goods sold are used by other vendors for VAT rebates and so on. This makes it easy to discern tax by item for faster rebate generation. <br/><br/>**_Note:_** Some jurisdictions require different rounding strategies not currently supported by Commerce, and that not all jurisdictions allow item or row level tax.|
+|Comment|For B2B merchants to provide simpler VAT supply chain considerations. Tax calculation on row is also valid; however, check with your taxing jurisdiction. Setup assumes that a merchant is in the supply chain and that goods sold are used by other vendors for VAT rebates and so on. This definition makes it easy to discern tax by item for faster rebate generation. <br/><br/>**_Note:_** Some jurisdictions require different rounding strategies not currently supported by Commerce, and that not all jurisdictions allow item or row level tax.|
 
 {style="table-layout:auto"}
 
@@ -133,7 +133,7 @@ These recommended settings can be used for most tax configurations for stores wi
 
 >[!IMPORTANT]
 >
->Merchants located in a GST/PST province (Montreal) should create one tax rule and show a combined tax amount. Be sure to consult a qualified tax authority if you have any questions. For information about the tax requirements of specific provinces, see the following: [Revenu Québec][1], [Government of Saskatchewan][2], and [Manitoba Information for Vendors][3]
+>Merchants that are in a GST/PST province (Montreal) should create one tax rule and show a combined tax amount. Be sure to consult a qualified tax authority if you have any questions. For information about the tax requirements of specific provinces, see the following: [Revenu Québec][1], [Government of Saskatchewan][2], and [Manitoba Information for Vendors][3]
 
 |Tax option|Recommendation|
 |--- |--- |
@@ -146,10 +146,10 @@ These recommended settings can be used for most tax configurations for stores wi
 
 {style="table-layout:auto"}
 
-The following example shows how to set up GST tax rates for Canada and PST tax rates for Saskatchewan, with tax rules that calculate and display the two tax rates. Because this is an example configuration, be sure to verify the correct tax rates and rules for your tax jurisdictions. When setting up taxes, set the store scope to apply the configuration to all applicable stores and websites.
+The following example shows how to set up GST tax rates for Canada and PST tax rates for Saskatchewan, with tax rules that calculate and display the two tax rates. This information outlines an example configuration; be sure to verify the correct tax rates and rules for your tax jurisdictions. When setting up taxes, set the store scope to apply the configuration to all applicable stores and websites.
 
 - Fixed product tax is included for relevant goods as a product attribute.
-- In Quebec, PST is referred to as TVQ. If you need to set up a rate for Quebec, make sure to use TVQ as the identifier.
+- In Quebec, PST is referred to as TVQ. If you want to set up a rate for Quebec, make sure to use TVQ as the identifier.
 
 ### Step 1: Complete tax calculation settings
 
@@ -251,7 +251,7 @@ Set up another tax rate for the applicable province.
 
 ### Step 4: Create a GST tax rule
 
-To avoid compounding the tax and to correctly display the calculated tax as separate line items for GST and PST, you must set different priorities for each rule and select the **Calculate off subtotal only** checkbox. Each tax appears as a separate line item, but the tax amounts are not compounded.
+To avoid compounding the tax and to correctly display the calculated tax as separate line items for GST and PST, set different priorities for each rule and select the **Calculate off subtotal only** checkbox. Each tax appears as a separate line item, but the tax amounts are not compounded.
 
 #### Tax Rule Information
 
@@ -400,7 +400,7 @@ Complete the following general tax settings:
 
    - Clear the **[!UICONTROL Use Website]** checkbox after each field,
 
-   - Update the following values to match your site's Shipping Settings [point of origin](shipping-settings.md#point-of-origin).
+   - To match your site's Shipping Settings [point of origin](shipping-settings.md#point-of-origin), update the following values:
 
       - Default Country
       - Default State
@@ -408,7 +408,7 @@ Complete the following general tax settings:
 
       This setting ensures that tax is calculated correctly when product prices include tax.
 
-      ![Default Tax Destination Calculation](./assets/destination-calc-french.png)<!-- zoom -->
+      ![Default Tax Destination Calculation](./assets/destination-calc-french.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Config]**.
 

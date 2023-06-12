@@ -10,7 +10,7 @@ For multisource merchants using [[!DNL Inventory Management]](../inventory-manag
 
 1. Browse or search sources and select the checkbox next to the sources that you want to add for the product.
 
-   ![Assign sources to the product](../catalog/assets/inventory-product-assign-sources.png)<!-- zoom -->
+   ![Assign sources to the product](../catalog/assets/inventory-product-assign-sources.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Done]** to add the sources.
 
@@ -26,4 +26,4 @@ For multisource merchants using [[!DNL Inventory Management]](../inventory-manag
 
    - _Default Notify Quantity_ - Select the **[!UICONTROL Notify Quantity Use Default]** checkbox. Commerce checks and uses the setting in [!UICONTROL Advanced Inventory] or global store configuration. 
 
-   ![Update Product Quantities per Source](../catalog/assets/inventory-product-quantity.png)<!-- zoom -->
+   ![Update Product Quantities per Source](../catalog/assets/inventory-product-quantity.png){width="600" zoomable="yes"}

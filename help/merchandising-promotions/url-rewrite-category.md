@@ -73,8 +73,6 @@ Redirect from: `gear/bags.html`
 
    The new category rewrite appears at the top of the URL Rewrites grid.
 
-   ![Category URL rewrite - saved](./assets/url-rewrite-category-saved.png)<!-- zoom -->
-
 ## Step 3. Test the result
 
 1. Go to the home page of your store.
