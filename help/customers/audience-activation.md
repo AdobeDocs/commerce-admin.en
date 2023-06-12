@@ -97,7 +97,7 @@ After you install the [!DNL Audience Activation] extension, you must log into yo
 
 1. Enter the configuration credentials found in the [developer console](https://developer.adobe.com/console/home).
 
-    ![Experience Platform Connector Admin Configuration](./assets/epc-admin-config.png){width="700" zoomable="yes"}
+    ![Real-Time CDP Audience Admin Configuration](./assets/rtcdp-admin-config.png){width="700" zoomable="yes"}
 
 1. Click **Save Config**.
 
