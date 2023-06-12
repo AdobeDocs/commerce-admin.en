@@ -1,8 +1,14 @@
 ---
 title: Manage the Experience Cloud Integration
 description: Learn how to manage the Experience Cloud integration and troubleshoot issues
+hide: yes
+hidefromtoc: yes
 ---
 # Manage the Experience Cloud Integration
+
+> ![NOTE]
+>
+> This feature is currently in development and is not yet available to Adobe customers.
 
 After initial enablement, change the status of the the Experience Cloud integration by enabling or disabling the Commerce Admin Unified Experience extension.
 
