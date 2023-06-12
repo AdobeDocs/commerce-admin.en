@@ -93,7 +93,7 @@ After you install the [!DNL Audience Activation] extension, you must log into yo
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. Expand **[!UICONTROL Services]** and select **[!UICONTROL Experience Platform Connector]**. 
+1. Expand **[!UICONTROL Services]** and select **[!UICONTROL Audience Activation]**. 
 
 1. Enter the configuration credentials found in the [developer console](https://developer.adobe.com/console/home).
 
