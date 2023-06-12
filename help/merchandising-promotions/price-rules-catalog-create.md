@@ -55,6 +55,10 @@ Most of the available conditions are based on existing attribute values. To appl
 
 >[!NOTE]
 >
+>If at least one conditional product attribute has an empty value, the catalog price rule is not applied to the product.
+
+>[!NOTE]
+>
 >To apply a `Category` product attribute condition to any [bundle](../catalog/product-create-bundle.md) or [grouped](../catalog/product-create-grouped.md) product, all child products must be assigned to the same category for the rule to apply correctly. If not, you can use a [Cart Price Rule](price-rules-cart-create.md) promotion instead.
 
 1. Scroll down and expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Conditions]** section.

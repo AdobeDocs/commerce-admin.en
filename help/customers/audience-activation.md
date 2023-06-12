@@ -127,11 +127,11 @@ To access the **Real-Time CDP Audiences** dashboard, go to the _Admin_ sidebar, 
 
 ## Headless support
 
-You can activate audiences in a headless Adobe Commerce instance, such as AEM and PWA to display cart price rules or dynamic blocks based on the audiences.
+You can activate audiences in a headless Adobe Commerce instance, such as AEM and PWA, to display cart price rules or dynamic blocks based on the audiences.
 
 ### Cart price rules
 
-For cart price rules, a headless storefront communicates to the Experience Platform through the [Commerce Integration Framework (CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). The framework provides a server-side API that is implemented using GraphQL. Audience information, like which segment a shopper belongs to, is passed to Commerce through a GraphQL header parameter named: `aep-segments-membership`.
+For cart price rules, a headless storefront communicates to the Experience Platform through the [Commerce Integration Framework (CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). The framework provides a server-side API that is implemented using GraphQL. Audience information, such as a shopper's segment, passes to Commerce through a GraphQL header parameter named: `aep-segments-membership`.
 
 The overall architecture is as follows:
 
