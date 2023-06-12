@@ -1,8 +1,14 @@
 ---
 title: Configure the Experience Cloud Integration with Commerce Admin
 description: Learn about the requirements and process to configure a Commerce on cloud infrastructure environment to deploy the Commerce Admin in the Adobe Unified Shell interface to provide Admin users with an improved user experience.
+hide: yes
+hidefromtoc: yes
 ---
 # Configure the Experience Cloud Integration with the Commerce Admin
+
+> ![NOTE]
+>
+> This feature is currently in development and is not yet available to Adobe customers.
 
 Get started with the Commerce Admin Integration with Experience Cloud by configuring the Commerce application to use the Commerce Admin Unified Experience and Commerce Events extensions.
 
@@ -155,7 +161,7 @@ Enable the Commerce Events extension (`magento/commerce-eventing`) on the cloud 
            consumers: []
      ```
 
-1.  Add, commit, and deploy the updated `.magento.env.yaml file` to the cloud environment.
+1. Add, commit, and deploy the updated `.magento.env.yaml file` to the cloud environment.
 
 ### Configure the Commerce Events integration
 

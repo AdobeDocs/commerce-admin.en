@@ -76,7 +76,7 @@ For more information about changing these settings, see [Change the startup page
 
 {style="table-layout:auto"}
 
-
+<!-- Feature still in development 
 ## [!UICONTROL Unified Experience]
 
 ![Store Configuration for Unified Experience](./assets/admin-uex-configuration.png)
@@ -89,6 +89,8 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 | Project Name | Global                                                                 | Identifies the instance in the Experience Cloud Commerce Projects workspace when the Unified Experience is enabled. The name can contain only alphanumeric characters and spaces. Defaults to the [cloud environment name](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-architecture.html?lang=en#pro-environment-architecture). |
 
 {style="table-layout:auto"}
+
+-->
 
 ## [!UICONTROL Admin Base URL]
 

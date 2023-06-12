@@ -1,10 +1,16 @@
 ---
 title: Adobe Experience Cloud Integration for Commerce Admin
 description: Streamline cross-application workflows between Commerce and other Experience Cloud applications and improve user experience by enabling Experience Cloud common interface components for Commerce Admin users.
+hide: yes
+hidefromtoc: yes
 ---
 # Adobe Experience Cloud Integration for Commerce Admin
 
 {{ee-feature}}
+
+> ![NOTE]
+>
+> This feature is currently in development and is not yet available to Adobe customers.
 
 Streamline cross-application workflows between Adobe Commerce and other Experience Cloud applications and improve the user experience by integrating the Commerce Admin with Experience Cloud.
 
