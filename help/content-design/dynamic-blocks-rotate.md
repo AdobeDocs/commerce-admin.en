@@ -94,7 +94,7 @@ To [create the dynamic blocks](dynamic-blocks.md) that you want to place in the 
    - `One at the time, Series` - Displays the specified dynamic blocks in the sequence that they were added. When the page is refreshed, the next dynamic block in the sequence appears.
    - `One at the time, Shuffle` - Displays one dynamic block at a time in a shuffled order. This option is similar to the `One at a time, Random` option, except that the same dynamic block is not repeated.
 
-   ![Rotator widget options](./assets/widget-dynamic-block-rotator-widget-options.png){width="600" zoomable="yes"}
+      ![Rotator widget options](./assets/widget-dynamic-block-rotator-widget-options.png){width="600" zoomable="yes"}
 
 1. In the **[!UICONTROL Specify Dynamic Blocks]** grid, select the checkbox of each dynamic block that you want to include in the rotator.
 

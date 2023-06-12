@@ -54,6 +54,6 @@ Any [dynamic block](dynamic-blocks.md) that you create can be associated with a 
 
 1. Click **[!UICONTROL Add Selected]**.
 
-   ![Adding selected price rules to a dynamic block](./assets/pb-dynamic-block-add-related-cart-price-rules.png)<!-- zoom -->
+   ![Adding selected price rules to a dynamic block](./assets/pb-dynamic-block-add-related-cart-price-rules.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save]**.
