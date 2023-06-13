@@ -33,7 +33,7 @@ Quotes can be initiated by the buyer or the seller.
 
 - **Buyer requests quote** - The buyer [requests a quote](quote-request.md) from the shopping cart. The request appears in the _My Quotes_ list in the account dashboard of the buyer and email notification is sent to the sales representative who is assigned to the company account. In the Admin, the request appears in the _Quotes_ grid, with a status of `New`. A request for a quote can be modified by the buyer until it is opened by the seller.
 
-- **Sales representative** — A Sales Representative [creates a quote](quote-seller-initiated.md) on behalf of a specific company buyer from the Admin. The new quote is in `Draft` status. The quote is visible only to the seller. The Sales Representative must update the quote to add products and add other information like discounts and notes to the buyer. After adding the terms, the Sales Representation submits the quote to the buyer to initiate the negotiation process. The quote status changes to `Submitted` and cannot be modified by the seller until the buyer sends it back.
+- **Sales representative** — A Sales Representative [creates a quote](sales-rep-initiates-quote.md) on behalf of a specific company buyer from the Admin. The new quote is in `Draft` status. The quote is visible only to the seller. The Sales Representative must update the quote to add products and add other information like discounts and notes to the buyer. After adding the terms, the Sales Representation submits the quote to the buyer to initiate the negotiation process. The quote status changes to `Submitted` and cannot be modified by the seller until the buyer sends it back.
 
 
 **Step 2: Quote review and negotiation**
