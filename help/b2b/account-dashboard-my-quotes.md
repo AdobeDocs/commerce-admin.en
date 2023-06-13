@@ -3,6 +3,7 @@ title: '[!UICONTROL My Quotes]'
 description: Learn about the customer experience for quotes, which is available in their account dashboard.
 exl-id: 137f0a99-8f24-4838-b54b-b0ef2c39a32a
 ---
+
 # [!UICONTROL My Quotes]
 
 If quotes are enabled, the _[!UICONTROL My Quotes]_ section of the customer account dashboard lists all quotes submitted by the customer. Depending on their permissions, only buyers who make purchases on behalf of a company can submit requests to negotiate the price of a purchase.
