@@ -20,10 +20,7 @@ breadcrumb-title: Getting Started
   + Adobe Identity Management Service (IMS) Integration {#ims}
     + [IMS integration overview](adobe-ims-integration-overview.md)
     + [Configure the Admin integration with IMS](adobe-ims-config.md)
-  + Adobe Experience Cloud Integration {#unifiedexperience}
-    + [Overview](admin-unified-experience-integration-overview.md)
-    + [Configure the integration](admin-unified-experience-integration-configure.md)
-    + [Manage the Experience Cloud integration](admin-unified-experience-integration-manage.md)
+    + [Disable the Admin integration with IMS](adobe-ims-disable.md)
   + Admin tools and workspace {#tools}
     + [Workspace](admin-workspace.md)
     + [The Admin sidebar](admin-menu.md)

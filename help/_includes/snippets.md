@@ -22,6 +22,12 @@ description: Reused visual elements to note feature or pages applying to a speci
 <tr><td><img alt="Magento Open Source feature" src="../assets/open-source.svg" width="20" height="20" /> Alternative method required for Magento Open Source (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">Learn more</a>)</td></tr>
 </table>
 
+## Beta updates {#beta-updates}
+
+>[!NOTE]
+>
+>[!BADGE 2.4.7-beta1]{type=Informative url="https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-7.html" tooltip="Available in 2.4.7-beta1 only"} There are updates included in the 2.4.7-beta1 release that provide enhancements to the described functionality. If you are using this release version, review the [release notes](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-7.html) for detailed information about the changes.
+
 ## IMS admin authentication note {#ims-admin-note}
 
 >[!NOTE]
