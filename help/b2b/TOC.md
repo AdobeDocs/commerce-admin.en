@@ -42,7 +42,7 @@ breadcrumb-title: "[!DNL B2B for Adobe Commerce]"
   + [Overview](quotes.md)
   + [Configure quotes](configure-quotes.md)
   + [Request for quote](quote-request.md)
-  + [Initiate quote for a buyer](quote-seller-initiatied.md)
+  + [Initiate quote for a buyer](quote-seller-initiated.md)
   + [Negotiate a quote](quote-price-negotiation.md)
   + [[!UICONTROL My Quotes]](account-dashboard-my-quotes.md)
 + Requisition lists {#requisition-lists}
