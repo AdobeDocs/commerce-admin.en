@@ -19,7 +19,7 @@ A Sales Representative can create a quote from the Quotes or Customer Grid.
 
 >[!NOTE]
 >
->For a video demo of a seller creating a quote for a buyer, see [Sales Representative initiates the quote](https://experienceleague-review.corp.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html) in _Commerce Videos and Tutorials_.
+>For a video demo of a seller creating a quote for a buyer, see [Sales Representative initiates the quote](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html) in _Commerce Videos and Tutorials_.
 
 ### Create a quote from the Quote grid
 
