@@ -3,7 +3,6 @@ title: Negotiate a quote
 description: Learn about quote negotiation workflows and how to work with buyers for purchasing.
 exl-id: 93efbc9d-da4d-4ff8-95c1-13848b68bc38
 ---
-
 # Negotiate a quote
 
 If [B2B Quotes are enabled](configure-quotes.md) in the configuration, price negotiation can be initiated by an authorized buyer from a company or a sales representative.
