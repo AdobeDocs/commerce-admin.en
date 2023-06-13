@@ -1,12 +1,12 @@
 ---
 title: "[!DNL AR Viewer] requirements"
-description: "Verify that your system meets the requirements necessary to use the [!DNL AR Viewer] for Adobe Commerce module."
+description: "Verify that your system meets the requirements necessary to use the [!DNL AR Viewer] for Adobe Commerce extension."
 ---
 # [!DNL AR Viewer] requirements
 
 The [!DNL AR Viewer] is compatible with both [!DNL Magento Open Source] and Adobe Commerce. See [Lifecycle Policy](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html){target=_blank} for more information about supported versions.
 
-Refer to [Install the [!DNL AR Viewer] module](../catalog/ar-viewer-onboarding.md) for more information.
+Refer to [Install the [!DNL AR Viewer] extension](../catalog/ar-viewer-onboarding.md) for more information.
 
 In order to use [!DNL AR Viewer], you must have the following available for your instance:
 
@@ -20,7 +20,7 @@ In order to use [!DNL AR Viewer], you must have the following available for your
 
 | **Issue** | **Constraints** |
 |----------------|-----------------|
-| `.USDZ` only| This feature only supports `.USDZ` schemas. |
+| `.USDZ` only| This feature only supports `.USDZ` files. |
 | `qr-code` | `endroid/qr-code` version 4.5. |
 | `Catalog module` | `magento/module-catalog` version 104.0.0. |
 

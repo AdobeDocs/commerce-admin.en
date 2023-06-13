@@ -1,21 +1,21 @@
 ---
 title: "Manage product 3D models with the [!DNL AR Viewer] for Adobe Commerce"
-description: "Learn about managing 3D model assets using the [!DNL AR Viewer] module for your product listings."
+description: "Learn about managing 3D model assets using the [!DNL AR Viewer] extension for your product listings."
 ---
 
 # Manage product 3D models with the [!DNL AR Viewer] for Adobe Commerce
 
-For each product, you can upload a `.USDZ` schema that allows for AR and 3D models to be used in your product listing.
+For each product, you can upload a `.USDZ` file that allows for AR and 3D models to be used in your product listing.
 
-The [!DNL AR Viewer] only supports `.USDZ` schemas. See [[!DNL AR Viewer] requirements](../catalog/ar-viewer-requirements.md) for more information.
+The [!DNL AR Viewer] only supports `.USDZ` files. See [[!DNL AR Viewer] requirements](../catalog/ar-viewer-requirements.md) for more information.
 
-## Install the [!DNL AR Viewer] module
+## Install the [!DNL AR Viewer] extension
 
 [!DNL AR Viewer] is installed as an extension from [Adobe Commerce Marketplace](https://marketplace.magento.com/){target=_blank}.
 
 See the [_Installation Guide_](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) for more information about the extension installation process.
 
-After the [!DNL AR Viewer] module is installed and configured, _Admin_ users can set up, customize, and manage product listings to include 3D models.
+After the [!DNL AR Viewer] extension is installed and configured, _Admin_ users can set up, customize, and manage product listings to include 3D models.
 
 ## Add a 3D model
 
@@ -31,7 +31,7 @@ After the [!DNL AR Viewer] module is installed and configured, _Admin_ users can
 
    ![Menu Pop-up](assets/ar-viewer-product-options.png){width="700" zoomable="yes"}
 
-1. Add the 3D model (`.USDZ` schema) of the product.
+1. Add the 3D model (`.USDZ` file) of the product.
 
 1. Click **[!UICONTROL Save]**.
 
