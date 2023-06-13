@@ -117,6 +117,13 @@ Magento Open Source is the code base that Adobe officially contributes to and en
 
 | Description | Type | Date |
 | ----------- | ---- | ---- |
+| **1.4.0 B2B release** - The B2B for Adobe Commerce release notes describe changes and additions for the [1.4.0 release](../b2b/release-notes.md#b2b-v140). | Update | 06/13/23 |
+| **1.4.0 B2B release** - The [Initiate quote for a buyer](../b2b/sales-rep-initiates-quote.md) topic is now included in the _B2B for Adobe Commerce Guide_. It describes how a seller can create a quote for a specific buyer to start the negotiation process. | New | 06/13/23 |
+| **1.4.0 B2B release** - The [Negotiate a quote](../b2b/quote-price-negotiation.md), [Negotiable Quotes](../b2b/quotes.md), and [Enable B2B features](../b2b/enable-basic-features.md) topics are updated to reflect changes for seller-initiated quotes and default features. | Update | 06/13/23 |
+| **2.2.0 Adobe IMS integration release** - The [Disable the Commerce Admin Integration with Adobe ID](../getting-started/adobe-ims-disable.md) topic is now included in the _Getting Started Guide_. It describes an optional procedure for disabling the Adobe Commerce Admin integration with Adobe IMS. | New | 06/13/23 |
+| **2.2.0 Adobe IMS integration release** - Changes in the [Adobe Identity Management Service (IMS) integration overview](../getting-started/adobe-ims-integration-overview.md) and [Configure the Commerce Admin Integration with Adobe ID](../getting-started/adobe-ims-config.md) topics to reflect updated functionality. | Update | 06/13/23 |
+| **[!DNL Audience Activation]** - New and updated and improved information is included in the [[!DNL Audience Activation]](../customers/audience-activation.md) topic to reflect the [!DNL Experience Platform Connector] configuration UI and how to use headless Commerce instance with cart price rules and dynamic blocks. | Update | 06/13/23 |
+| **UPS API deprecation** - Updated the [United Parcel Service (UPS)](../stores-purchase/ups.md) topic and the [Delivery Methods](../configuration-reference/sales/delivery-methods.md#ups) configuration reference page to reflect temporary deprecation of the UPS APIs for genretaing new API keys. | Update | 06/08/23 |
 | **2.4.6 release** - Updated the [Products list](../catalog/products-list.md) and [Admin configuration reference](../configuration-reference/advanced/admin.md) topics to include information about product display limitations that can be used to improve performance for large catalogs. | Update | 03/14/23 |
 | **2.4.6 release** - Updated the [Create and delete customer segments](../customers/customer-segment-create.md) and [Customer Configuration reference](../configuration-reference/customers/customer-configuration.md) topics to include information about real-time validation for segments. | Update | 03/14/23 |
 | **2.4.6 release** - Updated the [Braintree](../stores-purchase/braintree.md) and [Braintree configuration reference](../configuration-reference/sales/braintree.md) topics to reflect updated and new payment options supported by the bundled Braintree integration. | Update | 03/14/23 |
@@ -126,16 +133,9 @@ Magento Open Source is the code base that Adobe officially contributes to and en
 | **2.4.6 release** - Updated the [B2B Release Notes](../b2b/release-notes.md) with a descriptive list of fixes included in the latest extension version (v1.3.5). | Update | 03/14/23 |
 | **New topic** - Added the [Audience activation](../getting-started/commerce-account-transfer.md) topic to the _Customer Management Guide_, which provides detailed information about activating Real-Time CDP audiences in Adobe Commerce. | New | 03/13/23 |
 | **New topic** - Added the [Transfer a Commerce account](../getting-started/commerce-account-transfer.md) topic to the _Getting Started Guide_. | New | 02/27/23 |
-| **New guide** - Content now published in the Experience League: [Customer Management Guide](../customers/guide-overview.md) | Move | 12/5/2022 |
-| **New guide** - Content now published in the Experience League: [Configuration Reference Guide](../configuration-reference/guide-overview.md) | Move | 12/1/2022 |
-| **New guide** - Content now published in the Experience League: [Admin Systems Guide](../systems/guide-overview.md) | Move | 11/14/2022 |
-| **New guide** - Content now published in the Experience League: [Sales and Purchase Experience Guide](../stores-purchase/guide-overview.md) | Move | 10/25/2022 |
-| **New guide** - Content now published in the Experience League: [Merchandising and Promotions Guide](../merchandising-promotions/guide-overview.md) | Move | 9/27/2022 |
-| **New page section** - Added information about [removal of the Inventory Management modules](../inventory-management/install-update.md#remove-inventory-management) to improve performance for Commerce instances that do not use these features. | Update | 9/21/2022 |
-| **New guide** - Content now published in the Experience League: [Catalog Management Guide](../catalog/guide-overview.md) | Move | 9/1/2022 |
 
 {style="table-layout:auto"}
 
 ## 2.3.x documentation
 
-The [Adobe Commerce 2.3 User Guide][https://docs.magento.com/user-guide/v2.3/] remains available on the `docs.magento.com` domain for Adobe Commerce 2.3 customers who are on an extended support contract.
+The [Adobe Commerce 2.3 User Guide](https://docs.magento.com/user-guide/v2.3/) remains available on the `docs.magento.com` domain for Adobe Commerce 2.3 customers who are on an extended support contract.
