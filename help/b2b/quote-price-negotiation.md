@@ -9,7 +9,7 @@ If [B2B Quotes are enabled](configure-quotes.md) in the configuration, price neg
 
 Buyers initiate the price negotiation process by [requesting a quote](quote-request.md) from the shopping cart. Sales Representatives can initiate negotiation by [creating a draft quote for a buyer](sales-rep-initiates-quote.md), updating the quote with the initial order items and pricing, and sending it to the buyer.
 
-Once the price negotiation begins, quotes are listed in the [Quotes](quotes.md) grid. All negotiation between the buyer and seller takes place by email, and is initiated and tracked from the detail view of the quote.
+When the price negotiation begins, quotes are listed in the [Quotes](quotes.md) grid. All negotiation between the buyer and seller takes place by email, and is initiated and tracked from the detail view of the quote.
 
 During the negotiation process, the seller can do the following from the Admin:
 
