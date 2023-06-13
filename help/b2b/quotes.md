@@ -83,7 +83,7 @@ View the negotiation timeline, communication, and other quote activity from the 
 
 1. History is also tracked at the line item level.
 
-   ![View Line Item History](./assets/quote-view-line-item-history.png){width="400"
+   ![View Line Item History](./assets/quote-view-line-item-history.png){width="400"}
 
 ### Decline a request for a quote
 
