@@ -11,6 +11,8 @@ The following instructions represent the default customer account configuration.
 
 As a store administrator, you can also set the [new account options](../customers/account-options-new.md) to send a confirmation email to new registered customers, which helps to ensure that registered accounts are valid.
 
+{{beta-updates}}
+
 ## Create account from the storefront
 
 A store customer creates an account on the storefront.
