@@ -20,7 +20,7 @@ During the negotiation process, the seller can do the following from the Admin:
 - Add comments
 - Send the updated quote to the buyer, or save as a draft
 
-Buyers manage the quote negotiation process from the storefront using [[!UICONTROL My Quotes]](account-dashboard-myquotes.md). While the quote is open for review, its status in the buyer's account is set to `Pending`. The buyer can change and resubmit the quote even if it was declined or is expired.
+Buyers manage the quote negotiation process from the storefront using [[!UICONTROL My Quotes]](account-dashboard-my-quotes.md). While the quote is open for review, its status in the buyer's account is set to `Pending`. The buyer can change and resubmit the quote even if it was declined or is expired.
 
 ## Step 1: View the request
 
