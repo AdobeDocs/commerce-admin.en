@@ -5,8 +5,6 @@ description: Learn how a seller can create a quote for a specific buyer to start
 
 # Initiate a Quote for a Buyer
 
-{{beta-updates}}
-
 If quotes are enabled in the [Sales features configuration](configure-quotes.md), a sales representative can initiate the negotiation process with a company buyer by creating a draft quote.
 
 - Draft quotes are visible only to the seller.
@@ -33,15 +31,15 @@ A Sales Representative can create a quote from the Quotes or Customer Grid.
 
    - From the Quotes grid, select **[!UICONTROL Create New Quote]**.
 
-    ![Seller initiating a buyer quote from the Admin](./assets/quote-draft-from-admin.png){width="700" zoomable="yes"}
+     ![Seller initiating a buyer quote from the Admin](./assets/quote-draft-from-admin.png){width="700" zoomable="yes"}
 
    - On the [!UICONTROL Create New Quote] page, select the customer (Company buyer) to create the quote.
 
    - Select the store where the company buyer can submit an order after the negotiation process completes.
 
-   A new quote displays in `Draft` status.
+     A new quote displays in `Draft` status.
 
-   ![New draft quote created by seller](./assets/quote-draft-from-admin.png){width="700" zoomable="yes"}
+    ![New draft quote created by seller](./assets/quote-draft-from-admin.png){width="700" zoomable="yes"}
 
 1. Prepare the quote to submit to the buyer.
 
@@ -75,7 +73,7 @@ A Sales Representative can create a quote from the Quotes or Customer Grid.
 
 1. Select the customer ID for a Company buyer.
 
-  ![Confirmation draft quote submitted to buyer](./assets/quote-view-customer-quotes.png){width="700" zoomable="yes"}
+   ![Confirmation draft quote submitted to buyer](./assets/quote-view-customer-quotes.png){width="700" zoomable="yes"}
 
 1. Select **[!UICONTROL Edit]** to view the customer information.
 
@@ -84,6 +82,8 @@ A Sales Representative can create a quote from the Quotes or Customer Grid.
 1. View the customers existing quotes by selecting **[!UICONTROL Quotes]**.
 
    ![Confirmation draft quote submitted to buyer](./assets/quote-list-from-customer-information.png){width="700" zoomable="yes"}
+
+1. Open a quote by selecting **[!UICONTROL View]**.
 
 
 
