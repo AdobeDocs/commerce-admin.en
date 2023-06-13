@@ -70,7 +70,7 @@ Apply line item changes in the _[!UICONTROL Items Quoted]_ section if needed.
 
 - In the **[!UICONTROL Action]** menu, select an action to update the item:
   - **Discount item** to apply a discount as a percentage, fixed amount, or preferred pricing.
-  - **Leave a note to buyer** to add a specific note to the specified line item.
+  - **Leave a note to buyer** to provide the buyer with additional information about an item
   - **Remove** to remove an item from the quote.
 
 ### Apply changes and update
