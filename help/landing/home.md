@@ -14,13 +14,13 @@ The information in the merchant documentation is designed to accommodate busines
 
 ## Adobe Commerce {#product-editions}
 
-Adobe Commerce is an agile B2B and B2C commerce platform which enables merchants and brands to accelerate revenue through customer-centric digital commerce experiences across online and physical spaces. It is the leading choice for mid-size and enterprise organizations as it offers the most flexible deployment models from on-prem to managed cloud with guaranteed SLAs. Adobe Commerce enables API-first integrations and fully customizable extensions, and the richest set of enterprise-grade commerce experience capabilities from marketing to merchandizing and fulfillment. Adobe Commerce is built on an open-source code base to deliver flexibility and extensibility like no other commerce platform.
+Adobe Commerce is an agile B2B and B2C commerce platform which enables merchants and brands to accelerate revenue through customer-centric digital commerce experiences across online and physical spaces. It is the leading choice for mid-size and enterprise organizations as it offers the most flexible deployment models from on-prem to managed cloud with guaranteed SLAs. Adobe Commerce enables API-first integrations and fully customizable extensions, and the richest set of enterprise-grade commerce experience capabilities from marketing to merchandising and fulfillment. Adobe Commerce is built on an open-source code base to deliver flexibility and extensibility like no other commerce platform.
 
 For a list of the advanced capabilities included with Adobe Commerce, see [Commerce features](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=en) in the _Release Information_.
 
 ## Magento Open Source code base
 
-Magento Open Source is the code base that Adobe officially contributes to and ensures compatibility for transition to Adobe Commerce. This is part of Adobe's initiative to empower individual developers and foster small businesses who aspire to grow fast. 
+Magento Open Source is the code base that Adobe officially contributes to and ensures compatibility for transition to Adobe Commerce. This code base is part of Adobe's initiative to empower individual developers and foster small businesses who aspire to grow fast. 
 
 ## Merchant guides
 
@@ -31,7 +31,7 @@ Magento Open Source is the code base that Adobe officially contributes to and en
    <td valign="top">
    <a href="https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html"><strong>Getting Started</strong></a>
     <div>
-    <em>The "why, where, and how" questions that most merchants have when first learning to use Adobe Commerce or Magento Open Source, as well as resources and reference information. This is a springboard to more advanced topics.</em>
+    <em>The "why, where, and how" questions that most merchants have when first learning to use Adobe Commerce or Magento Open Source, as well as resources and reference information. This guide is a springboard to more advanced topics.</em>
     <br> </div>
   </td>
   </tr>
@@ -62,7 +62,7 @@ Magento Open Source is the code base that Adobe officially contributes to and en
     <td valign="top">
        <img alt="Merchandising and Promotions" src="./assets/icon-labels.svg" width="40" height="40"/></td>
    <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/marketing/guide-overview.html"> <strong>Merchandising and Promotions</strong></a>
-    <div><em>Create targeted promotions and opportunities for customer engagement that turn shoppers into buyers. Manage customer relationships by supporting post-purchase activities and offering special discounts to returning customers. Learn best practices and techniques to support your SEO initiatives.</em></div>
+    <div><em>Create targeted promotions and opportunities for customer engagement that turn shoppers into buyers. Manage customer relationships by supporting post-purchase activities and offering special discounts to returning customers. Learn best practices and techniques that support your SEO initiatives.</em></div>
   </td>
 </tr>
 <tr>
@@ -97,7 +97,7 @@ Magento Open Source is the code base that Adobe officially contributes to and en
     <td valign="top">
        <img alt="Admin Systems" src="./assets/icon-globe-grid.svg" width="40" height="40"/></td>
    <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/systems/guide-overview.html"> <strong>Admin Systems</strong></a>
-    <div><em>The Admin provides multiple tools for managing your system and optimizing its performance. This includes Admin user account administration, with the associated roles and permissions.</em></div>
+    <div><em>The Admin provides multiple tools for managing your system and optimizing its performance. This guide includes information about Admin user account administration, with the associated roles and permissions.</em></div>
   </td>
 </tr>
 <tr>
@@ -123,7 +123,7 @@ Magento Open Source is the code base that Adobe officially contributes to and en
 | **2.2.0 Adobe IMS integration release** - The [Disable the Commerce Admin Integration with Adobe ID](../getting-started/adobe-ims-disable.md) topic is now included in the _Getting Started Guide_. It describes an optional procedure for disabling the Adobe Commerce Admin integration with Adobe IMS. | New | 06/13/23 |
 | **2.2.0 Adobe IMS integration release** - Changes in the [Adobe Identity Management Service (IMS) integration overview](../getting-started/adobe-ims-integration-overview.md) and [Configure the Commerce Admin Integration with Adobe ID](../getting-started/adobe-ims-config.md) topics to reflect updated functionality. | Update | 06/13/23 |
 | **[!DNL Audience Activation]** - New and updated and improved information is included in the [[!DNL Audience Activation]](../customers/audience-activation.md) topic to reflect the [!DNL Experience Platform Connector] configuration UI and how to use headless Commerce instance with cart price rules and dynamic blocks. | Update | 06/13/23 |
-| **UPS API deprecation** - Updated the [United Parcel Service (UPS)](../stores-purchase/ups.md) topic and the [Delivery Methods](../configuration-reference/sales/delivery-methods.md#ups) configuration reference page to reflect temporary deprecation of the UPS APIs for genretaing new API keys. | Update | 06/08/23 |
+| **UPS API deprecation** - Updated the [United Parcel Service (UPS)](../stores-purchase/ups.md) topic and the [Delivery Methods](../configuration-reference/sales/delivery-methods.md#ups) configuration reference page to reflect temporary deprecation of the UPS APIs for generating new API keys. | Update | 06/08/23 |
 | **2.4.6 release** - Updated the [Products list](../catalog/products-list.md) and [Admin configuration reference](../configuration-reference/advanced/admin.md) topics to include information about product display limitations that can be used to improve performance for large catalogs. | Update | 03/14/23 |
 | **2.4.6 release** - Updated the [Create and delete customer segments](../customers/customer-segment-create.md) and [Customer Configuration reference](../configuration-reference/customers/customer-configuration.md) topics to include information about real-time validation for segments. | Update | 03/14/23 |
 | **2.4.6 release** - Updated the [Braintree](../stores-purchase/braintree.md) and [Braintree configuration reference](../configuration-reference/sales/braintree.md) topics to reflect updated and new payment options supported by the bundled Braintree integration. | Update | 03/14/23 |
