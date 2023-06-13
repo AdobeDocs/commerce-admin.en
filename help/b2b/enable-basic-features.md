@@ -1,15 +1,33 @@
 ---
-title: Enable basic B2B features
-description: Learn about enabling the primary B2B features for your Adobe Commerce store, including company accounts, default payment and shipping methods, purchase orders, and order approvals.
+title: Enable B2B features
+description: Learn about enabling B2B features for your Adobe Commerce store, including company accounts, default payment and shipping methods, purchase orders, and order approvals.
 exl-id: aed203ef-f39b-4f7e-b32f-ded53eca09a8
 ---
-# Enable basic B2B features
+# Enable B2B features
 
-By default, all B2B features are initially disabled. However, they are always available from the Admin, regardless of whether they are enabled or disabled for the storefront. For a complete list of B2B configuration settings, see [B2B Features configuration reference](../configuration-reference/general/b2b-features.md).
+By default, all B2B features are initially disabled. A store admin can enable or disable the B2B features as needed for Commerce stores. For a complete list of B2B configuration settings, see [B2B Features configuration reference](../configuration-reference/general/b2b-features.md).
 
->[!IMPORTANT]
->
->When support for customer companies is enabled, shared catalogs, negotiable quotes, and default B2B payment methods become available. The Quick Order and Requisition Lists features can be enabled/disabled independently.
+When you enable support for customer companies, additional B2B features are enabled automatically:
+
+- [!DNL Shared Catalog]
+
+  Supports custom pricing configuration for different companies and also enables category permissions for all stores.
+
+- [!DNL Enable Shared Catalog direct products price assigning]
+
+   Improves site performance by storing only products that are assigned to a shared catalog in the price index. Enabling this feature is a best practice for Merchants that have many shared catalogs to manage custom pricing for different companies.
+
+- [!DNL B2B Quotes]
+
+  Gives sellers and company buyers the ability to negotiate prices.
+
+- [!DNL B2B default payment and shipping methods]
+
+  Determines the selection of payment and shipping options available to B2B buyers on the storefront.
+
+Configuration settings for these features are visible only when [!DNL Enable Company] is set to `Yes`.
+
+B2B [!DNL Quick Order] and [!DNL Requisition List] features can be enabled and disabled independently.
 
 ## Configure B2B features
 
@@ -17,29 +35,19 @@ By default, all B2B features are initially disabled. However, they are always av
 
    If you have a multi-site installation, set the **[!UICONTROL Store View]** control in the upper-left corner to the website where the configuration applies.
 
-1. In the left panel under _[!UICONTROL General]_, choose **[!UICONTROL B2B Features]** and enable the basic features:
+1. In the left panel under _[!UICONTROL General]_, choose **[!UICONTROL B2B Features]**:
 
    ![B2B configuration - general](./assets/b2b-features.png){width="600"}
 
-   - To allow customers to manage their own company accounts, set **[!UICONTROL Enable Company]** to `Yes`.
+   - Allow customers to manage their own company accounts and enable support for additional B2B features by setting **[!UICONTROL Enable Company]**  to `Yes`.
 
-      This setting displays additional fields to enable Shared Catalogs and B2B Quotes, and a new section for configuring Default B2B Payment Methods.
+     When you enable company support, the Shared Catalog, B2B Quote, B2B Payment Methods, and B2B Shipping Methods are enabled automatically.
 
    - To allow customers and guests to quickly place orders based on SKU or product name, set **[!UICONTROL Enable Quick Order]** to `Yes`.
 
    - To allow customers to create and manage requisition lists from their account dashboard, set **[!UICONTROL Enable Requisition List]** to `Yes`.
 
       You can also [configure the maximum number of lists](configure-requisition-lists.md) a customer can have for their account.
-
-1. To make custom pricing available for different companies, set **[!UICONTROL Enable Shared Catalog]** to `Yes`.
-
-   Enabling shared catalogs also enables category permissions for all stores.
-
-   ![B2B configuration - enable companies with shared catalogs](./assets/b2b-features-company-enabled.png){width="600"}
-
-   When the Shared Catalog feature is enabled, the **Enable Shared Catalog direct products price assigning** option is available. When this option is set to `Yes`, only products that are assigned to a shared catalog are stored in the price index. This configuration is a best practice if you have many shared catalogs to manage custom pricing for different companies.
-
-1. To give company buyers the ability to negotiate prices, set **[!UICONTROL Enable B2B Quote]** to `Yes`.
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
@@ -55,7 +63,7 @@ By default, all B2B features are initially disabled. However, they are always av
 
       For the specific option, select the **[!UICONTROL Payment Methods]** that you want to make available to your customers by holding down the Ctrl key (PC) or the Command key (Mac) as you click each option.
 
-   The list of [payment methods](../configuration-reference/sales/payment-methods.md) shows which are currently enabled or disabled in your store. In addition to the standard payment methods, the list also includes the following:
+   The list of [payment methods](../configuration-reference/sales/payment-methods.md) shows which options are currently enabled or disabled in your store. In addition to the standard payment methods, the list also includes the following:
 
    - No Payment Information is Required
    - [Payment on Account](#configure-payment-on-account)
