@@ -14,6 +14,7 @@ Quotes can be initiated by an authorized buyer from a company or a sales represe
 - Sales representatives can create a draft quote on behalf of a specific company buyer. Then, they update the draft quote by adding products, discounts, and other information to complete the initial offer before submitting the quote to the customer to initiate the negotiation process.
 
 During the negotiation process, the quote can only be updated by the person reviewing and proposing terms for futher negotiation.
+
 ## Prerequisites
 
 Negotiable quotes are available only if Adobe Commerce has the following configuration settings:
