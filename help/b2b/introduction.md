@@ -47,7 +47,7 @@ Use the Quotes feature to initiate price negotiation between a company buyer and
 
 * A seller can initiate a quote for a buyer from Admin.
 
-Buyers and sellers use the quote to manage the negotiation process–adding items, updating quantities, requesting and applying discounts, and so on—until they reach agreement. The _Quotes_ grid in the Admin lists each quote received, and maintains a history of the communication between buyer and seller.
+Buyers and sellers use the quote to manage the negotiation process–such as adding items, updating quantities, requesting and applying discounts—until they reach an agreement. The _Quotes_ grid in the Admin lists each quote received, and maintains a history of the communication between buyer and seller.
 
 Support for Negotiable Quotes is available only for Commerce stores configured to support Company accounts.
 
