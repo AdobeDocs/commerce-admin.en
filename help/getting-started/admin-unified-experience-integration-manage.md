@@ -6,7 +6,7 @@ hidefromtoc: yes
 ---
 # Manage the Experience Cloud Integration
 
-> ![NOTE]
+> [!NOTE]
 >
 > This feature is currently in development and is not yet available to Adobe customers.
 
