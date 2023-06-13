@@ -5,13 +5,17 @@ exl-id: 93efbc9d-da4d-4ff8-95c1-13848b68bc38
 ---
 # Negotiate a quote
 
-If [B2B Quotes are enabled](configure-quotes.md) in the configuration, an authorized buyer from a company initiates the price negotiation process by [requesting a quote](quote-request.md) from the shopping cart. Requests for quotes received are listed in the [Quotes](quotes.md) grid. All negotiation between the buyer and seller takes place by email, and is initiated and tracked from the detail view of the quote.
+If [B2B Quotes are enabled](configure-quotes.md) in the configuration, price negotiation can be initiated by an authorized buyer from a company or a sales representative. 
+
+Buyers seller initiate the price negotiation process by [requesting a quote](quote-request.md) from the shopping cart. Sales Representatives can [create a quote on behalf of a buyer](sales-rep-initiates-quote.md) and send it to the buyer for review.
+
+After a quote request or quote is created, it is listed in the [Quotes](quotes.md) grid. All negotiation between the buyer and seller takes place by email, and is initiated and tracked from the detail view of the quote.
 
 During the negotiation process, the seller can do the following:
 
 - Add or remove products
 - Change the quantity
-- Apply a discount to the total price
+- Apply discount to line items, or to the total price
 - Add or change the shipping method
 - Add comments
 - Send the updated quote to the buyer, or save as a draft

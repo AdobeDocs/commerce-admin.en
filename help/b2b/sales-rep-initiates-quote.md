@@ -85,6 +85,8 @@ A Sales Representative can create a quote from the Quotes or Customer Grid.
 
 1. Open a quote by selecting **[!UICONTROL View]**.
 
+For details on managing the quote negotiation process, see [Negotiate a quote](quote-price-negotiation.md)
+
 
 
 
