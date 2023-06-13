@@ -10,7 +10,7 @@ breadcrumb-title: "[!DNL B2B for Adobe Commerce]"
 + [Introduction to B2B features](introduction.md)
 + [Release notes](release-notes.md)
 + [Installation](install.md)
-+ [Enable basic B2B features](enable-basic-features.md)
++ [Enable B2B features](enable-basic-features.md)
 + Company accounts {#companies}
   + [Overview](account-companies.md)
   + [Configure company email options](email-company-configuration.md)
@@ -42,6 +42,7 @@ breadcrumb-title: "[!DNL B2B for Adobe Commerce]"
   + [Overview](quotes.md)
   + [Configure quotes](configure-quotes.md)
   + [Request for quote](quote-request.md)
+  + [Initiate quote for a buyer](quote-seller-initiatied.md)
   + [Negotiate a quote](quote-price-negotiation.md)
   + [[!UICONTROL My Quotes]](account-dashboard-my-quotes.md)
 + Requisition lists {#requisition-lists}
