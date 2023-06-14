@@ -8,7 +8,7 @@ hidefromtoc: yes
 
 {{ee-feature}}
 
-> [!NOTE]
+>[!NOTE]
 >
 > This feature is currently in development and is not yet available to Adobe customers.
 

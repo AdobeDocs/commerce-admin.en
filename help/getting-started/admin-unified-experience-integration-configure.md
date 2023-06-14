@@ -6,7 +6,7 @@ hidefromtoc: yes
 ---
 # Configure the Experience Cloud Integration with the Commerce Admin
 
-> ![NOTE]
+>![NOTE]
 >
 > This feature is currently in development and is not yet available to Adobe customers.
 
