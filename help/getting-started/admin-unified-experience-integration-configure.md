@@ -8,7 +8,7 @@ hidefromtoc: yes
 
 >![NOTE]
 >
-> This feature is currently in development and is not yet available to Adobe customers.
+> This feature is in development and is not yet available to Adobe customers.
 
 Get started with the Commerce Admin Integration with Experience Cloud by configuring the Commerce application to use the Commerce Admin Unified Experience and Commerce Events extensions.
 
@@ -16,15 +16,13 @@ Get started with the Commerce Admin Integration with Experience Cloud by configu
 
 - Adobe Commerce 2.4.5 or later
 - Adobe IMS integration enabled on the cloud environment
-- Account provisioning and permissions—Administrators must have access to the following resources to configure the Experience Cloud integration:
+- Account provisioning and permissions—Administrators must have an [Adobe business profile](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html#:~:text=Adobe%20profiles%20help%20you%20manage,under%20the%20same%20email%20address) with access to the following resources to configure the Experience Cloud integration:
   - [Adobe Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html)—Add and manage Adobe user and developer accounts for the organization
   - [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/getting-started/)—Developer or system administrator access to create App Builder projects and generate the connection credentials and project configuration to use the Adobe I/O Events service
   - [Commerce on cloud infrastructure project](https://experienceleague.adobe.com/docs/commerce-cloud-service/start/onboarding.html?lang=en#get-started-with-the-project-web-interface)—Install required modules and configure the Commerce application server using the Adobe Commerce CLI
   - [Commerce Admin](https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html)—Update store configuration and manage Commerce user accounts
 
 ## Configuration overview
-
-The configuration process for the Experience Cloud integration requires access to the command line of the Commerce application server, access to the Adobe Developer and Adobe Admin Consoles, and experience [configuring and updating Commerce on cloud infrastructure projects](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html?lang=en).
 
 Enable the integration by completing the following tasks:
 
@@ -42,7 +40,7 @@ Before configuring the Experience Cloud integration, verify that your project an
 
 1. On your local workstation, change to the project directory for your Commerce project.
 
-1. Check out the environment branch for the instance you want integrate with Experience Cloud.
+1. Check out the environment branch for the instance to integrate with Experience Cloud.
 
 1. Verify that Adobe IMS is enabled.
 
@@ -136,7 +134,7 @@ The Admin Unified Experience extension uses the Adobe I/O Events service to send
 
 To enable the Adobe I/O Events service, complete the following set up and configuration tasks.
 
-- Enable the Commerce Events extension (`magento/commerce-eventing`)  on the cloud environment.
+- Enable the Commerce Events extension (`magento/commerce-eventing`) on the cloud environment.
 
 - Configure the Commerce Events integration to send data from the Commerce instance to the Adobe I/O Events service.
 
