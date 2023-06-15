@@ -64,13 +64,13 @@ Before configuring the Experience Cloud integration, verify that your project an
 
      ![Adobe Commerce Sign In using Adobe ID](./assets/admin-adobeid-login.png){width="600" zoomable="yes"}
 
-1. From the cloud project directory on your local workstation, use Composter to verify that the Commerce Admin Unified Experience extension is installed.
+1. From the cloud project directory on your local workstation, verify that the Commerce Admin Unified Experience extension is installed.
 
    ```bash
    composer show *unified-experience*
    ```
 
-   If the extension is installed, Composer returns the information about the extension.
+   If the extension is installed, Composer returns the extension name and description.
 
    ```
    magento/module-unified-experience <version> Commerce module responsible for integration with Adobe Experience Cloud
