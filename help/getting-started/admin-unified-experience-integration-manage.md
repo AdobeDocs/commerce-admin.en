@@ -24,13 +24,13 @@ Before disabling or enabling the extension, notify Commerce Admin users about ch
 
 >[!NOTE]
 >
->If the IMS integration is disabled and an administrator is missing the 2FA authorization code configured for their Commerce Admin user account, a System Administrator with access to the Commerce project can [reset the 2FA configuration](https://experienceleague.adobe.com/docs/commerce-operations/reference/commerce-on-premises.html?lang=en#security%3Atfa%3Areset) on the account.
+>If the IMS integration is disabled and an administrator is missing the 2FA authorization code configured for their Commerce Admin user account, a System Administrator with access to the Commerce project can [reset the 2FA configuration](https://experienceleague.adobe.com/docs/commerce-operations/reference/commerce-on-premises.html#security%3Atfa%3Areset) on the account.
 
 ## Manage the integration from the Admin
 
 1. From the Commerce Admin, open the Store Configuration menu by selecting **[!UICONTROL Stores]** from the left navigation menu, and then select **[!UICONTROL Configuration]**.
 
-1. From the Configuration menu, select **[!UICONTROL Advanced > Admin]**, and then expand the [!UICONTROL Unified Experience option]**.
+1. From the Configuration menu, select **[!UICONTROL Advanced > Admin]**, and then expand the **[!UICONTROL Unified Experience option]**.
 
    ![Admin Store Configuration for Experience Cloud integration](./assets/admin-uex-manage-settings.png){width="600" zoomable="yes"}
 

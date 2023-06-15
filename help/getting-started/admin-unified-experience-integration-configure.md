@@ -19,7 +19,7 @@ Get started with the Commerce Admin Integration with Experience Cloud by configu
 - Account provisioning and permissions—Administrators must have an [Adobe business profile](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html#:~:text=Adobe%20profiles%20help%20you%20manage,under%20the%20same%20email%20address) with access to the following resources to configure the Experience Cloud integration:
   - [Adobe Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html)—Add and manage Adobe user and developer accounts for the organization
   - [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/getting-started/)—Developer or system administrator access to create App Builder projects and generate the connection credentials and project configuration to use the Adobe I/O Events service
-  - [Commerce on cloud infrastructure project](https://experienceleague.adobe.com/docs/commerce-cloud-service/start/onboarding.html?lang=en#get-started-with-the-project-web-interface)—Install required modules and configure the Commerce application server using the Adobe Commerce CLI
+  - [Commerce on cloud infrastructure project](https://experienceleague.adobe.com/docs/commerce-cloud-service/start/onboarding.html#get-started-with-the-project-web-interface)—Install required modules and configure the Commerce application server using the Adobe Commerce CLI
   - [Commerce Admin](https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html)—Update store configuration and manage Commerce user accounts
 
 ## Configuration overview
@@ -52,11 +52,11 @@ Before configuring the Experience Cloud integration, verify that your project an
      bin/magento admin:adobe-ims:status
      ```
 
-    If the module is not enabled, [enable it using the Organization and credentials for the IMS integration project](../getting-started/adobe-ims-config.md#step-3-enable-the-adminadobeims-module). If you don't have the credentials, submit an Adobe Support ticket.
+    If the module is not enabled, [enable it using the Organization and credentials for the IMS integration project](../getting-started/adobe-ims-config.md#step-3-enable-the-adminadobeims-module). If you don't have the credentials, [submit an Adobe Support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
 
 1. Verify that the Admin user can log into the Commerce Admin using their Adobe ID.
 
-   - Go the Commerce Admin URL.
+   - Go to the Commerce Admin URL.
 
    - If you are logged in, log out.
 
@@ -183,7 +183,7 @@ Complete the following tasks to configure the Commerce Events integration by fol
 
 1. To establish the connection, send an event through the event provider to the consumer.
 
-   - From the command line in the local cloud project directory, [use SSH to connect to the Commerce application server](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=en#connect-to-a-remote-environment).
+   - From the command line in the local cloud project directory, [use SSH to connect to the Commerce application server](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html#connect-to-a-remote-environment).
 
      ```bash
      magento-cloud ssh
