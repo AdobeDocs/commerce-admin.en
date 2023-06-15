@@ -5,22 +5,22 @@ exl-id: 93efbc9d-da4d-4ff8-95c1-13848b68bc38
 ---
 # Negotiate a quote
 
-If [B2B Quotes are enabled](configure-quotes.md) in the configuration, price negotiation can be initiated by an authorized buyer from a company or a sales representative. 
+If [B2B Quotes are enabled](configure-quotes.md) in the configuration, price negotiation can be initiated by an authorized buyer from a company or a sales representative.
 
-Buyers seller initiate the price negotiation process by [requesting a quote](quote-request.md) from the shopping cart. Sales Representatives can [create a quote on behalf of a buyer](sales-rep-initiates-quote.md) and send it to the buyer for review.
+Buyers initiate the price negotiation process by [requesting a quote](quote-request.md) from the shopping cart. Sales Representatives can initiate negotiation by [creating a draft quote for a buyer](sales-rep-initiates-quote.md), updating the quote with the initial order items and pricing, and sending it to the buyer.
 
-After a quote request or quote is created, it is listed in the [Quotes](quotes.md) grid. All negotiation between the buyer and seller takes place by email, and is initiated and tracked from the detail view of the quote.
+When the price negotiation begins, quotes are listed in the [Quotes](quotes.md) grid. All negotiation between the buyer and seller takes place by email, and is initiated and tracked from the detail view of the quote.
 
-During the negotiation process, the seller can do the following:
+During the negotiation process, the seller can do the following from the Admin:
 
 - Add or remove products
 - Change the quantity
-- Apply discount to line items, or to the total price
+- Apply a discount to line items, or the total price
 - Add or change the shipping method
 - Add comments
 - Send the updated quote to the buyer, or save as a draft
 
-While the quote is open for review, its status in the buyer's account is set to `Pending`. The buyer can change and resubmit the quote even if it was declined or is expired.
+Buyers manage the quote negotiation process from the storefront using [[!UICONTROL My Quotes]](account-dashboard-my-quotes.md). While the quote is open for review, its status in the buyer's account is set to `Pending`. The buyer can change and resubmit the quote even if it was declined or is expired.
 
 ## Step 1: View the request
 
@@ -44,9 +44,9 @@ While the quote is open for review, its status in the buyer's account is set to 
 
    ![Update Negotiated Price](./assets/quote-change-update-negotiated-price.png){width="600" zoomable="yes"}
 
-If the buyer changes the quantity of any items in the quote, a notice appears at the top of the quote, indicating that list of items has changed, and the negotiated price must be updated.
+   If the buyer changes the quantity of any items in the quote, a notice appears at the top of the quote, indicating that list of items has changed, and the negotiated price must be updated.
 
-![Quote Change Notice](./assets/quote-change-notice.png){width="600" zoomable="yes"}
+   ![Quote Change Notice](./assets/quote-change-notice.png){width="600" zoomable="yes"}
 
 ### Add new products to the quote
 
@@ -58,20 +58,19 @@ If the buyer changes the quantity of any items in the quote, a notice appears at
 
 ### Apply line item updates
 
-In the _[!UICONTROL Items Quoted]_ section, make the following changes, if needed:
+Apply line item changes in the _[!UICONTROL Items Quoted]_ section if needed.
+
+![Apply line item updates](./assets/quote-apply-line-item-operations.png){width="600" zoomable="yes"}
 
 - Change the **[!UICONTROL Quantity]** that must be purchased at the Proposed Price.
 
-- Select **[!UICONTROL Configure]** and change the product options. 
+- Select **[!UICONTROL Configure]** and change the product options.
 
-  The [!UICONTROL Configure] option is available only on a line iem for a configurable product
+  The [!UICONTROL Configure] option is available only on a line item for a configurable product
 
 - In the **[!UICONTROL Action]** menu, select an action to update the item:
-
-  ![Apply line item updates](./assets/quote-apply-line-item-operations.png){width="600" zoomable="yes"}
-
   - **Discount item** to apply a discount as a percentage, fixed amount, or preferred pricing.
-  - **Leave a note to buyer** to add a specific note to the specified line item.
+  - **Leave a note to buyer** to provide the buyer with additional information about an item
   - **Remove** to remove an item from the quote.
 
 ### Apply changes and update
@@ -194,7 +193,7 @@ Quote information and functions in the Admin are organized into the following se
 | [!UICONTROL Subtotal]                   | The proposed price multiplied by the quantity of items ordered.                                                                                                                                                           |
 | [!UICONTROL Estimated Tax]              | The amount of tax that is estimated for this line item, according to the configuration. Depending on the Tax Calculation Settings, the estimated tax can be based on any of the following: Unit Price / Row Total / Total |
 | [!UICONTROL Subtotal (Incl./Excl. Tax)] | Depending on the configuration, this column can display the subtotal with or without estimated taxes.                                                                                                                     |
-| [!UICONTROL Action]                     | Selection menu of operations that can be applied to a line item including [!UICONTROL Discount item], [!UICONTROL Leave a note to Buyer], or [!UICONTROL Remove an item from the quote].                                  |
+| [!UICONTROL Action]                     | Selection menu of operations that can be applied to a line item:<ul><li>**[!UICONTROL Discount item]**</li><li>**[!UICONTROL Leave a note to Buyer]**</li><li>**[!UICONTROL Remove an item from the quote]**</li></ul>.                                  |
 | [!UICONTROL Configure]                  | Allows you to change the product options for a configurable product.                                                                                                                                                      |
 | [!UICONTROL Update Prices]              | Updates the quote with the latest changes from the shared catalog and price rules.                                                                                                                                        |
 | [!UICONTROL Recalculate Quote]          | Recalculates all quote prices, cart price rules, and tax to reflect changes to the quote.                                                                                                                                 |
