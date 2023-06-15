@@ -64,9 +64,7 @@ Before configuring the Experience Cloud integration, verify that your project an
 
      ![Adobe Commerce Sign In using Adobe ID](./assets/admin-adobeid-login.png){width="600" zoomable="yes"}
 
-1. Verify that the Commerce Admin Unified Experience extension is available on your instance.
-
-   From the cloud project directory on your local workstation, use composer to find the extension.
+1. From the cloud project directory on your local workstation, use Composter to verify that the Commerce Admin Unified Experience extension is installed.
 
    ```bash
    composer show *unified-experience*
