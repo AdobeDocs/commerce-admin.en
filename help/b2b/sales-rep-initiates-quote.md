@@ -1,8 +1,8 @@
 ---
 title: Initiate quote for a buyer
 description: Learn how a seller can create a quote for a specific buyer to start the negotiation process. The seller can submit quotes only for customers associated with a company account on the selected website.
+exl-id: 85b2b70f-755b-4832-97c4-6bccdfe33d8b
 ---
-
 # Initiate a Quote for a Buyer
 
 If quotes are enabled in the [Sales features configuration](configure-quotes.md), a sales representative can initiate the negotiation process with a company buyer by creating a draft quote.
@@ -86,7 +86,3 @@ A Sales Representative can create a quote from the Quotes or Customer Grid.
 1. Open a quote by selecting **[!UICONTROL View]**.
 
 For details on managing the quote negotiation process, see [Negotiate a quote](quote-price-negotiation.md)
-
-
-
-
