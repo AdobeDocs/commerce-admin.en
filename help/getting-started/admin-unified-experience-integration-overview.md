@@ -1,40 +1,22 @@
 ---
 title: Adobe Experience Cloud Integration for Commerce Admin
-description: Streamline cross-application workflows between Commerce and other Experience Cloud applications and improve user experience by enabling Experience Cloud common interface components for Commerce Admin users.
+description: Learn about the Admin Unified Experience extension which integrates Commerce with Experience Cloud so that customers can access Commerce projects from the Experience Cloud home page.
 hide: yes
 hidefromtoc: yes
 ---
-# Adobe Experience Cloud Integration for Commerce Admin
+# Adobe Experience Cloud Integration for Commerce
 
 {{ee-feature}}
 
 >[!NOTE]
 >
-> This feature is currently in development and is not yet available to Adobe customers.
+> This feature is for Beta users only and is not yet accessible to all customers. Contact your Adobe Commerce Beta program manager for assistance and questions.
 
-Streamline cross-application workflows between Adobe Commerce and other Experience Cloud applications and improve the user experience by integrating the Commerce Admin with Experience Cloud.
+Integrate Adobe Commerce projects with Experience Cloud by enabling the Admin Unified Experience extension. When the integration is active, administrators can access Commerce projects from Adobe Experience Cloud.
 
 ![Access Commerce from the Experience Cloud home page](./assets/admin-uex-home-page.png){width="700" zoomable="yes"}
 
-The Admin Unified Experience extension (`magento/unified-shell-module`) enables the integration which provides single sign-on access to the Commerce Admin from Experience Cloud.
-
-- **Commerce Admin users** can use the same workflows to manage Commerce sites and complete additional tasks:
-
-  - Search for product documentation, tutorials, and community posts in Adobe Experience League
-  - Access both Commerce-specific and global product announcements and notifications
-  - Globally search business objects using a global search (available for applications that have enabled search and Adobe Business Platform users)
-  - Manage account preferences (alerts, notifications, and subscriptions)
-  - Report issues or share ideas using the Feedback form
-  - Switch seamlessly between Adobe Commerce and other Experience Cloud applications
-  - Use the Commerce Projects workspace to view available projects and access both the storefront and Admin for each instance
-
-- **Commerce application administrators** can deliver this enhanced experience by enabling the `magento/unified-shell-module` and configuring the Adobe I/O Events service.
-
-- **Commerce extension developers** can integrate with Experience Cloud to deliver custom content, for example adding custom URLs to the integrated Help Center.
-
-## View available Commerce projects
-
-The Experience Cloud integration adds a Commerce Projects workspace to view available cloud environments from Experience Cloud.
+From the Experience Cloud home page, select **[!UICONTROL Commerce]** to open the [!DNL Commerce Projects] workspace.
 
 ![Commerce Projects workspace on Experience Cloud](./assets/admin-uex-commerce-projects-home.png){width="700" zoomable="yes"}
 
@@ -54,37 +36,12 @@ The workspace displays the available Commerce development and production environ
 
 - **Quick access to select projects**—Select **[!UICONTROL Add to Favorites]** from the options menu to add a project to the [!UICONTROL Favorites] tab.
 
-## Access Experience Cloud resources from the Commerce Admin
-
-When you open the Admin from the Commerce Projects workspace, the header includes additional options available with the Experience Cloud integration.
-
-![Commerce Admin view when integrated with Experience Cloud](./assets/admin-uex-commerceadmin-view.png){width="700" zoomable="yes"}
-
-Administrators can use these options to manage Commerce and other Experience Cloud applications provisioned for their account and quickly access resources from the integrated Help Center.
-
-| Option                                                     | Action                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-|------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![Organization Switcher](./assets/menu-icon.png)           | If your Adobe business profile is associated with multiple organizations, selecting the organization name displays the available organizations. When logged into an organization, the applications available depend on profile account provisioning. If an Admin user switches to an organization where they do not have permission for the Commerce application, the Commerce Admin session closes and the Experience Cloud home page is displayed. |
-| ![Search icon](./assets/search-icon.png)                   | Globally search the current application context. For example, from the Commerce Admin you can search for any value in the Commerce database including product, customer, and order records.                                                                                                                                                                                                                                                          |
-| ![Help Center](./assets/help-icon.png)                     | Find product documentation, tutorials, and support articles in Adobe Experience League, and report issues or submit feedback from the integrated Help Center.                                                                                                                                                                                                                                                                                        |
-| ![Notifications](./assets/notifications-icon.png)          | View alerts and actionable updates, including product announcements, maintenance notices, and other important information                                                                                                                                                                                                                                                                                                                            |
-| ![User profile and account](./assets/preferences-icon.png) | View the account configuration for your Adobe profile  and set account preferences for notifications, subscriptions, and product data usage and collection.                                                                                                                                                                                                                                                                                          |
-
-{style="table-layout:auto"}
-
->[!NOTE]
->
->For more about the options available with the Experience Cloud integration, see the [Experience Cloud Central Interface Components Guide](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#support).
-
 ## Authentication flow
 
-When the Experience Cloud integration is enabled, the Admin URL for the Commerce application is redirected to a proxy URL. All Commerce Admin requests are then routed through Experience Cloud.
-
-If the user has not authenticated through Experience Cloud, they are redirected to Experience Cloud to sign in.
-
+When the Experience Cloud integration is enabled, Commerce administrators can log in through the Experience Cloud sign in page.
 ![Experience Cloud Signin page](./assets/admin-uex-experience-cloud-login.png){width="700" zoomable="yes"}
 
-To authenticate, administrators must sign into Experience Cloud with the Adobe business profile for the organization associated with the Commerce instance. See [Manage Adobe profiles](https://helpx.adobe.com/enterprise/using/manage-adobe-profiles.html).
+Administrators must sign in to Experience Cloud with the Adobe business profile for the organization associated with the Commerce instance. See [Manage Adobe profiles](https://helpx.adobe.com/enterprise/using/manage-adobe-profiles.html).
 
 >[!NOTE]
 >
@@ -106,7 +63,7 @@ The following components are required to enable the Experience Cloud integration
 
   If the module is not available on the Commerce instance, it can be [installed using Composer](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html).
 
-- [Adobe I/O Events service](https://developer.adobe.com/commerce/events/get-started/)  Required to send event data to coordinate workflows between Adobe services and the Commerce instance.
+- [Adobe I/O Events service](https://developer.adobe.com/commerce/events/get-started/)—Required to send event data to manage administrator access to Commerce projects from Experience Cloud.
 
   The Adobe I/O Events integration with Commerce is enabled by the Commerce Event extension (`magento/commerce-eventing`) which is installed along with the Commerce Admin Unified Experience extension.
 

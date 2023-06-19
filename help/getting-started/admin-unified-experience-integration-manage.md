@@ -8,23 +8,17 @@ hidefromtoc: yes
 
 >[!NOTE]
 >
-> This feature is currently in development and is not yet available to Adobe customers.
+>This feature is for Beta users only and is not yet accessible to all customers. Contact your Adobe Commerce Beta program manager for assistance and questions.
 
-After initial enablement, change the status of the the Experience Cloud integration by enabling or disabling the Commerce Admin Unified Experience extension.
+After initial enablement, manage the status of the the Experience Cloud integration by enabling or disabling the Commerce Admin Unified Experience extension.
 
-Before disabling or enabling the extension, notify Commerce Admin users about changes to the authentication and Admin workflows to prevent business disruptions. The following table outlines different scenarios for enabling or disabling the Experience Cloud integration and the impact on authentication and Admin workflows.
+- If the Commerce Admin Unified Experience extension is enabled and administrator accounts are [provisioned correctly](#manage-admin-user-accounts), Commerce administrators can view and access available Commerce projects from Adobe Experience Cloud. Administrators can still access individual projects using the Admin URL for the Commerce project environment.
 
-| Scenario                                                                                         | Action                                                 | Changes to authentication workflow                                                                                                                                                                                                                                                                                                                                                                  |
-|--------------------------------------------------------------------------------------------------|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Troubleshoot Commerce application issues<br><br>Administrators cannot log into Commerce instance | Disable the integration                                | <ul><li>Admin users that are logged in get application or `404 page not found` errors when they refresh, or when their session expires.</li><li>Navigate to the default Admin URL to be redirected sign in using Adobe ID account credentials.</li><li>Requests to Commerce Admin are routed through the Commerce application.</li></ul>                                                            |
-| Testing completed<br><br>Administrator access restored                                           | Enable the integration                                 | <ul><li>Log in through Experience Cloud or navigate to default Admin URL to be redirected to Experience Cloud.</li><li>All requests to Admin are routed through Experience Cloud.</li></ul>                                                                                                                                                                                                         |
-| Adobe Identity Management Service (IMS) integration is disabled                                  | Experience Cloud integration is disabled automatically | <ul><li>Admin users that are logged in get application or `404 page not found` errors when they refresh, or when their session expires.</li><li>Navigate to the default Admin URL for the Commerce project to be redirected to [log in with Adobe Commerce account credentials](admin-signin.md#admin-sign-in).</li><li>Admin requests are routed through the Adobe Commerce application.</li></ul> |
-
-{style="table-layout:auto"}
+- If the Commerce Admin Unified Experience extension is disabled, access through Experience Cloud is disabled. Administrators must log in to individual projects using the Admin URL for the Commerce project environment.
 
 >[!NOTE]
 >
->If the IMS integration is disabled and an administrator is missing the 2FA authorization code configured for their Commerce Admin user account, a System Administrator with access to the Commerce project can [reset the 2FA configuration](https://experienceleague.adobe.com/docs/commerce-operations/reference/commerce-on-premises.html#security%3Atfa%3Areset) on the account.
+>If the Adobe Identity Management Service (IMS) integration is disabled, the Experience Cloud integration is disabled automatically.
 
 ## Manage the integration from the Admin
 
@@ -70,7 +64,7 @@ Commerce system administrators with Admin access to the Commerce cloud project c
 
    - **Disable**—`bin/magento config:set admin/unified_experience/enabled 0`
 
-## Manage Admin users
+## Manage Admin user accounts
 
 All Commerce Admin users must have both an Admin account on the Commerce instance and an Adobe user account (Adobe ID) to access Adobe products and services. Both accounts must be associated with the same email address.
 
