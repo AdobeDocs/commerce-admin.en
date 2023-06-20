@@ -16,11 +16,13 @@ Integrate Adobe Commerce projects with Experience Cloud by enabling the Admin Un
 
 ![Access Commerce from the Experience Cloud home page](./assets/admin-uex-home-page.png){width="700" zoomable="yes"}
 
-From the Experience Cloud home page, select **[!UICONTROL Commerce]** to open the [!DNL Commerce Projects] workspace.
+## View available Commerce projects
+
+Administrators can view Commerce projects that they have permission to access by selecting **[!UICONTROL Commerce]** from the Experience Cloud home page.
 
 ![Commerce Projects workspace on Experience Cloud](./assets/admin-uex-commerce-projects-home.png){width="700" zoomable="yes"}
 
-The workspace displays the available Commerce development and production environments with project details and access links:
+Administrators can open the Admin and the Storefront for each project from the [!DNL Commerce Projects] workspace and view additional information.
 
 - **Snapshot of Commerce storefront home page**—Snapshot of the storefront home page. If a project has multiple websites, the snapshot shows the home page for the default site.
 
@@ -38,10 +40,21 @@ The workspace displays the available Commerce development and production environ
 
 ## Authentication flow
 
-When the Experience Cloud integration is enabled, Commerce administrators can log in through the Experience Cloud sign in page.
-![Experience Cloud Signin page](./assets/admin-uex-experience-cloud-login.png){width="700" zoomable="yes"}
+When the Experience Cloud integration is enabled, administrators use the following workflow to authenticate and access Commerce projecs.
 
-Administrators must sign in to Experience Cloud with the Adobe business profile for the organization associated with the Commerce instance. See [Manage Adobe profiles](https://helpx.adobe.com/enterprise/using/manage-adobe-profiles.html).
+1. Log in through the Experience Cloud sign in page.
+
+  ![Experience Cloud Signin page](./assets/admin-uex-experience-cloud-login.png){width="700" zoomable="yes"}
+
+  Administrators must sign in to Experience Cloud with the Adobe business profile for the organization associated with the Commerce instance. See [Manage Adobe profiles](https://helpx.adobe.com/enterprise/using/manage-adobe-profiles.html).
+
+1. On the Experience Cloud home page, open the [!UICONTROL Commerce Projects workspace] by selecting [!UICONTROL Open]**.
+
+1. Access the Admin for a project by selecting **[!UICONTROL Open]**.
+
+1. On the Adobe Commerce Sign In page, select **[!UICONTROL Sign in with Adobe ID]** to complete authentication and open the Admin.
+
+  ![Adobe Commerce Sign In page](./assets/admin-uex-experience-cloud-login.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -49,25 +62,21 @@ Administrators must sign in to Experience Cloud with the Adobe business profile 
 
 ## Requirements
 
-Your Commerce project must meet the following requirements to enable the Commerce Admin extension and configure the integration.
-
 - Adobe Commerce 2.4.5 or later
 - Adobe Commerce on cloud infrastructure
-- Adobe Commerce must be configured to use [Adobe IMS authentication](../getting-started/adobe-ims-config.md)
+- Adobe Commerce extensions
+
+  - Commerce Admin Unified Experience extension (`magento/admin-unified-experience`)
+
+    If the module is not available on the Commerce instance, it can be installed using Composer.
+
+  - [Adobe I/O Events service](https://developer.adobe.com/commerce/events/get-started/)—Required to send event data to manage administrator access to Commerce projects from Experience Cloud.
+
+    The Adobe I/O Events integration with Commerce is enabled by the Commerce Event extension (`magento/commerce-eventing`) which is available with Adobe Commerce 2.4.4 and later versions.
 
 ## Enable the integration
 
-The following components are required to enable the Experience Cloud integration on a Commerce instance:
-
-- Commerce Admin Unified Experience extension (`magento/admin-unified-experience`)
-
-  If the module is not available on the Commerce instance, it can be [installed using Composer](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html).
-
-- [Adobe I/O Events service](https://developer.adobe.com/commerce/events/get-started/)—Required to send event data to manage administrator access to Commerce projects from Experience Cloud.
-
-  The Adobe I/O Events integration with Commerce is enabled by the Commerce Event extension (`magento/commerce-eventing`) which is installed along with the Commerce Admin Unified Experience extension.
-
-For detailed configuration instructions, see [Configure the Commerce Admin integration with Experience Cloud](admin-unified-experience-integration-configure.md).
+Enable the integration by following the instructions to [Configure the Experience Cloud Integration with the Commerce Admin](admin-unified-experience-integration-configure.md).
 
 >[!TIP]
 >
