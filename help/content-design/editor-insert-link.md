@@ -5,17 +5,17 @@ exl-id: c9930a4f-a082-4bd8-b0c4-9d86b59a2365
 ---
 # Insert a Link in the Editor
 
-An easy way to insert a link is to use the _Link_ button in the [editor](editor.md) toolbar. It doesn’t require any knowledge of HTML and the result is the same.
+An easy way to insert a link is to use the _Link_ button in the [editor](editor.md) toolbar. It doesn't require any knowledge of HTML and the result is the same.
 
 1. Select the text where you want to create the link.
 
 1. Click _Insert/edit link_ icon in the editor toolbar.
 
-   ![Editor toolbar - Insert Link](./assets/editor-toolbar-link-button.png)<!-- zoom -->
+   ![Editor toolbar - Insert Link](./assets/editor-toolbar-link-button.png){width="700" zoomable="yes"}
 
    This action opens the _[!UICONTROL Insert link]_ dialog.
 
-   ![Editor - Insert link dialog](./assets/editor-dialog-insert-link.png)<!-- zoom -->
+   ![Editor - Insert link dialog](./assets/editor-dialog-insert-link.png){width="500" zoomable="yes"}
 
 1. For **[!UICONTROL Url]**, enter one of the following:
 

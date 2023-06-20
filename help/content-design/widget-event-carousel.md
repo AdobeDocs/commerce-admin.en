@@ -15,7 +15,7 @@ The Catalog Events Carousel widget displays a slider of upcoming events with a c
 
 Before you begin, follow the [instructions](../merchandising-promotions/event-configure.md) to configure the _Catalog Event_ widget so that it is enabled for the storefront.
 
-![Catalog event configuration](./assets/config-catalog-catalog-events-1.png){width="400" zoomable="yes"}
+![Catalog event configuration](./assets/config-catalog-catalog-events-1.png){width="500" zoomable="yes"}
 
 ## Step 2: Create the widget
 
@@ -31,7 +31,7 @@ Before you begin, follow the [instructions](../merchandising-promotions/event-co
 
 1. Click **[!UICONTROL Continue]**.
 
-   ![Widget settings for an event carousel](./assets/widget-event-carousel-settings.png){width="400" zoomable="yes"}
+   ![Widget settings for an event carousel](./assets/widget-event-carousel-settings.png){width="500" zoomable="yes"}
 
 1. In the _[!UICONTROL Storefront Properties]_ section, do the following:
 
@@ -45,7 +45,7 @@ Before you begin, follow the [instructions](../merchandising-promotions/event-co
 
    - (Optional) For **[!UICONTROL Sort Order]**, enter a number to determine the order this item appears with others in the same part of the page. (`0` = first, `1` = second, `3` = third, and so on.)
 
-   ![Widget storefront properties](./assets/widget-event-carousel-storefront-properties.png){width="600" zoomable="yes"}
+      ![Widget storefront properties](./assets/widget-event-carousel-storefront-properties.png){width="600" zoomable="yes"}
 
 ## Step 3: Choose the location
 
@@ -89,7 +89,7 @@ Before you begin, follow the [instructions](../merchandising-promotions/event-co
 
    The custom width for the example on the following page is set to 250 pixels.
 
-   ![Custom width widget options](./assets/widget-options-custom-width.png){width="600" zoomable="yes"}
+   ![Custom width widget options](./assets/widget-options-custom-width.png){width="400" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save]**.
 

@@ -43,7 +43,7 @@ The process of creating a widget is nearly the same for each [widget type](widge
 
    - (Optional) For **[!UICONTROL Sort Order]**, enter a number to determine the order this item appears with others in the same part of the page. (`0` = first, `1` = second, `3` = third, and so on.)
 
-   ![Storefront properties](./assets/widget-storefront-properties.png){width="600" zoomable="yes"}
+      ![Storefront properties](./assets/widget-storefront-properties.png){width="600" zoomable="yes"}
 
 1. In the _[!UICONTROL Layout Updates]_ section, click **[!UICONTROL Add Layout Update]**.
 

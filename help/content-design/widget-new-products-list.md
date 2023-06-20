@@ -7,7 +7,7 @@ exl-id: bdff3655-cd14-4a19-a51f-4cabeb274d2a
 
 The list of new products is an example of dynamic content, and consists of live data that is pulled from your product catalog. By default, the _New Products_ list includes the first eight of the most recently added products. However, it can also be configured to include only products within a specified date range.
 
-![New products list on the storefront home page](./assets/storefront-home-page-new-products.png){width="600" zoomable="yes"}
+![New products list on the storefront home page](./assets/storefront-home-page-new-products.png){width="700" zoomable="yes"}
 
 ## Step 1: Set each product as new
 

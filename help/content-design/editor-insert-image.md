@@ -7,7 +7,7 @@ exl-id: 591830c9-6dba-4738-a6e7-cf5f93b3c319
 
 From the editor, you can insert an image that has been uploaded to the [media storage](media-storage.md), link to an image that resides on another server, or use the Adobe Stock integration to search for and use Adobe Stock assets.
 
-![Media Storage](./assets/media-storage.png)<!-- zoom -->
+![Media Storage](./assets/media-storage.png){width="650" zoomable="yes"}
 
 1. Open a page, block, or dynamic block in edit mode.
 
@@ -17,13 +17,13 @@ From the editor, you can insert an image that has been uploaded to the [media st
 
 1. On the editor toolbar, click the _Insert Image_ icon.
 
-   ![Insert Image icon](./assets/editor-toolbar-image-button.png)<!-- zoom -->
+   ![Insert Image icon](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
 
    This action opens the _[!UICONTROL Insert/edit image]_ dialog.
 
 1. For **Source**, click the _Search_ icon and use the method that matches the location of the image asset that you want to use:
 
-   ![Selecting the search icon](./assets/editor-dialog-insert-image.png)<!-- zoom -->
+   ![Selecting the search icon](./assets/editor-dialog-insert-image.png){width="500" zoomable="yes"}
 
    - **Upload a new image**: Use this method to upload a new image file.
 
@@ -40,8 +40,6 @@ From the editor, you can insert an image that has been uploaded to the [media st
       - Use the tree to navigate to the image.
 
       - Click the thumbnail and click **[!UICONTROL Add Selected]**.
-
-         ![Adding a selected image](../page-builder/assets/pb-media-image-gallery-add-selected.png)<!-- zoom -->
 
    - **Search and select an Adobe Stock image**: Use this method to find an image from Adobe Stock.
 
