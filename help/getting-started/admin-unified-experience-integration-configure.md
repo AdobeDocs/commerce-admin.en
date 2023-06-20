@@ -1,5 +1,5 @@
 ---
-title: Configure the Experience Cloud Integration with Commerce Admin
+title: Configure the Experience Cloud Integration for Commerce Admin
 description: Learn about the requirements and process to configure a Commerce on cloud infrastructure environment to deploy the Commerce Admin in the Adobe Unified Shell interface to provide Admin users with an improved user experience.
 hide: yes
 hidefromtoc: yes
@@ -12,10 +12,10 @@ hidefromtoc: yes
 
 Get started with the Commerce Admin Integration with Experience Cloud by configuring the Commerce application to use the Commerce Admin Unified Experience and Commerce Events extensions.
 
+
 ## Prerequisites
 
-- Adobe Commerce 2.4.5 or later
-- [Adobe IMS integration](adobe-ims-config.md) enabled on the cloud environment
+- Adobe Commerce must be configured to use [Adobe IMS authentication](../getting-started/adobe-ims-config.md)
 - Account provisioning and permissions—Administrators must have an [Adobe business profile](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html#:~:text=Adobe%20profiles%20help%20you%20manage,under%20the%20same%20email%20address) with access to the following resources to configure the Experience Cloud integration:
   - [Adobe Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html)—Add and manage Adobe user and developer accounts for the organization
   - [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/getting-started/)—Developer or system administrator access to create App Builder projects and generate the connection credentials and project configuration to use the Adobe I/O Events service
@@ -204,4 +204,3 @@ Verify that a Commerce Administrator can log in to Experience Cloud to view avai
    Workflows in the Commerce Admin should follow the same process. If you experience workflow changes or errors after enabling the Experience Cloud integration, contact your Commerce system administrator or [submit an Adobe Support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
 
 After you configure the Experience Cloud integration for Commerce Admin, verify that Commerce administrator accounts are provisioned correctly to access Commerce projects through Experience Cloud. See [Manage Admin users](/help/getting-started/admin-unified-experience-integration-manage.md#manage-admin-user-accounts).
-
