@@ -6,9 +6,9 @@ hidefromtoc: yes
 ---
 # Configure the Experience Cloud Integration with the Commerce Admin
 
->![NOTE]
+>[!NOTE]
 >
-> This feature is in development and is not yet available to Adobe customers.
+>This feature is in development and is not yet available to Adobe customers.
 
 Get started with the Commerce Admin Integration with Experience Cloud by configuring the Commerce application to use the Commerce Admin Unified Experience and Commerce Events extensions.
 
