@@ -128,7 +128,7 @@ Enable the Commerce Events extension (`magento/commerce-eventing`) on the cloud 
 
 >[!NOTE]
 >
->The Commerce Events extension is loaded automatically as a dependency of the Admin Unified Experience extension. It is available with Commerce 2.4.6 and later.
+>The Commerce Events extension is available with Commerce 2.4.6 and later.
 
 1. From your local Commerce project development environment, add the following configuration to the `.magento.env.yaml` file.
 
@@ -151,7 +151,7 @@ Enable the Commerce Events extension (`magento/commerce-eventing`) on the cloud 
 
 ### Configure the Commerce Events integration
 
-Complete the following tasks to configure the Commerce Events integration by following the detailed instructions in the [Adobe I/O Events for Commerce](https://developer.adobe.com/commerce/events/get-started/project-setup/) developer documentation.
+Complete the following tasks to configure the Commerce Events integration. For detailed instructions, see [Adobe I/O Events for Commerce](https://developer.adobe.com/commerce/events/get-started/project-setup/) developer documentation.
 
 1. [Create an App Builder project](https://developer.adobe.com/commerce/events/get-started/project-setup/) to receive event data from the Commerce instance.
 
