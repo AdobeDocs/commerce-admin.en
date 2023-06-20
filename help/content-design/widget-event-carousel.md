@@ -9,13 +9,13 @@ exl-id: 4e88b253-f320-4c94-9996-94d7005effc6
 
 The Catalog Events Carousel widget displays a slider of upcoming events with a countdown ticker for each event. You can choose the pages and area of the page layout where you want the carousel to appear, and control the width and number of events that appear at one time. The result you get depends on your theme, where it is positioned to appear on the page, and the options that you choose.
 
-![Event carousel in the left sidebar](./assets/storefront-event-carousel-sidebar-gear.png)<!-- zoom -->
+![Event carousel in the left sidebar](./assets/storefront-event-carousel-sidebar-gear.png){width="700" zoomable="yes"}
 
 ## Step 1: Enable the catalog carousel widget
 
 Before you begin, follow the [instructions](../merchandising-promotions/event-configure.md) to configure the _Catalog Event_ widget so that it is enabled for the storefront.
 
-![Catalog event configuration](./assets/config-catalog-catalog-events-1.png)<!-- zoom -->
+![Catalog event configuration](./assets/config-catalog-catalog-events-1.png){width="400" zoomable="yes"}
 
 ## Step 2: Create the widget
 
@@ -31,7 +31,7 @@ Before you begin, follow the [instructions](../merchandising-promotions/event-co
 
 1. Click **[!UICONTROL Continue]**.
 
-   ![Widget settings for an event carousel](./assets/widget-event-carousel-settings.png)<!-- zoom -->
+   ![Widget settings for an event carousel](./assets/widget-event-carousel-settings.png){width="400" zoomable="yes"}
 
 1. In the _[!UICONTROL Storefront Properties]_ section, do the following:
 
@@ -45,7 +45,7 @@ Before you begin, follow the [instructions](../merchandising-promotions/event-co
 
    - (Optional) For **[!UICONTROL Sort Order]**, enter a number to determine the order this item appears with others in the same part of the page. (`0` = first, `1` = second, `3` = third, and so on.)
 
-   ![Widget storefront properties](./assets/widget-event-carousel-storefront-properties.png)<!-- zoom -->
+   ![Widget storefront properties](./assets/widget-event-carousel-storefront-properties.png){width="600" zoomable="yes"}
 
 ## Step 3: Choose the location
 
@@ -67,7 +67,7 @@ Before you begin, follow the [instructions](../merchandising-promotions/event-co
 
 1. If you want the events carousel to appear in another location in the storefront, click **[!UICONTROL Add Layout Update]** and repeat these steps for that location.
 
-   ![Layout updates](./assets/widget-event-carousel-layout-updates-catalog-category-sidebar.png)<!-- zoom -->
+   ![Layout updates](./assets/widget-event-carousel-layout-updates-catalog-category-sidebar.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Save and Continue Edit]**.
 
@@ -89,7 +89,7 @@ Before you begin, follow the [instructions](../merchandising-promotions/event-co
 
    The custom width for the example on the following page is set to 250 pixels.
 
-   ![Custom width widget options](./assets/widget-options-custom-width.png)<!-- zoom -->
+   ![Custom width widget options](./assets/widget-options-custom-width.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save]**.
 
