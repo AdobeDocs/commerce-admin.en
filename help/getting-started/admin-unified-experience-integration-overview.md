@@ -44,9 +44,9 @@ When the Experience Cloud integration is enabled, administrators use the followi
 
 1. Log in through the Experience Cloud sign in page.
 
-  ![Experience Cloud Signin page](./assets/admin-uex-experience-cloud-login.png){width="700" zoomable="yes"}
+   ![Experience Cloud Signin page](./assets/admin-uex-experience-cloud-login.png){width="600" zoomable="yes"}
 
-  Administrators must sign in to Experience Cloud with the Adobe business profile for the organization associated with the Commerce instance. See [Manage Adobe profiles](https://helpx.adobe.com/enterprise/using/manage-adobe-profiles.html).
+   Administrators must sign in to Experience Cloud with the Adobe business profile for the organization associated with the Commerce instance. See [Manage Adobe profiles](https://helpx.adobe.com/enterprise/using/manage-adobe-profiles.html).
 
 1. On the Experience Cloud home page, open the [!UICONTROL Commerce Projects workspace] by selecting [!UICONTROL Open]**.
 
@@ -54,7 +54,7 @@ When the Experience Cloud integration is enabled, administrators use the followi
 
 1. On the Adobe Commerce Sign In page, select **[!UICONTROL Sign in with Adobe ID]** to complete authentication and open the Admin.
 
-  ![Adobe Commerce Sign In page](./assets/admin-uex-experience-cloud-login.png){width="700" zoomable="yes"}
+   ![Adobe Commerce Sign In page](./assets/admin-uex-experience-cloud-login.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
