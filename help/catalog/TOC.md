@@ -60,7 +60,7 @@ breadcrumb-title: Catalog Management
     + Manage product 3D models {#product-ar-view}
         + [AR Viewer overview](ar-viewer-overview.md)
         + [AR Viewer requirements](ar-viewer-requirements.md)
-        + [AR Viewer setup](ar-viewer-onboarding.md)
+        + [AR Viewer setup](ar-viewer-setup.md)
   + Manage pricing {#pricing}
     + [Price scope](catalog-price-scope.md)
     + [Advanced pricing](pricing-advanced.md)

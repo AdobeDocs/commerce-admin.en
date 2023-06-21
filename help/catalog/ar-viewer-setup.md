@@ -1,5 +1,5 @@
 ---
-title: "Manage product 3D models with the [!DNL AR Viewer] for Adobe Commerce"
+title: "[!DNL AR Viewer] for Adobe Commerce setup"
 description: "Learn about managing 3D model assets using the [!DNL AR Viewer] extension for your product listings."
 ---
 
@@ -9,13 +9,13 @@ For each product, you can upload a `.USDZ` file that allows for AR and 3D models
 
 The [!DNL AR Viewer] only supports `.USDZ` files. See [[!DNL AR Viewer] requirements](../catalog/ar-viewer-requirements.md) for more information.
 
-## Install the [!DNL AR Viewer] extension
+## Install the extension
 
 [!DNL AR Viewer] is installed as an extension from [Adobe Commerce Marketplace](https://marketplace.magento.com/){target=_blank}.
 
 See the [_Installation Guide_](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) for more information about the extension installation process.
 
-After the [!DNL AR Viewer] extension is installed and configured, _Admin_ users can set up, customize, and manage product listings to include 3D models.
+After the [!DNL AR Viewer] extension is installed and configured, Admin users can set up, customize, and manage product listings to include 3D models.
 
 ## Add a 3D model
 
@@ -25,7 +25,7 @@ After the [!DNL AR Viewer] extension is installed and configured, _Admin_ users 
 
    >[!NOTE]
    >
-   >New product 3D models are _always_ uploaded and visible in _all_ store views, even if the `All Store Views` scope is not used for upload. <br/><br/>To hide any product 3D models from a specific store view, you must switch to that Store View , select the **[!UICONTROL Hide from Product Page]** checkbox for the 3D model, and click **[!UICONTROL Save]**.
+   >New product 3D models are _always_ uploaded and visible in _all_ store views, even if the `All Store Views` scope is not used for upload. <br/><br/>To hide any product 3D models from a specific store view, you must switch to that Store View, select the **[!UICONTROL Hide from Product Page]** checkbox for the 3D model, and click **[!UICONTROL Save]**.
 
 1. Scroll down and expand the _[!UICONTROL Product 3D Model]_ section.
 
