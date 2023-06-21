@@ -1,8 +1,8 @@
 ---
 title: Configure the Experience Cloud Integration for Commerce Admin
 description: Learn about the requirements and process to configure a Commerce on cloud infrastructure environment to deploy the Commerce Admin in the Adobe Unified Shell interface to provide Admin users with an improved user experience.
-hide: yes
-hidefromtoc: yes
+hide: no
+hidefromtoc: no
 ---
 # Configure the Experience Cloud Integration with the Commerce Admin
 
