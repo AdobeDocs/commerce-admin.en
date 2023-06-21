@@ -9,6 +9,10 @@ exl-id: 0b7f8806-74c5-4467-87da-0faae50f164b
 
 {{config}}
 
+>[!NOTE]
+>
+>[Reward Exchange Rates](../merchandising-promotions/reward-exchange-rates.md) must be configured to be able to redeem reward points during the checkout.
+
 ## [!UICONTROL Reward Points]
 
 ![Reward Points](./assets/reward-points-reward-points.png)<!-- zoom -->
