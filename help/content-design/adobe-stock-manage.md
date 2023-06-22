@@ -27,7 +27,7 @@ To search Adobe Stock assets and add a stock image to a page:
 
    - If you have [Page Builder enabled](../page-builder/setup.md), expand the **[!UICONTROL Media]** panel and drag an **Image** placeholder to the target container. Then click **[!UICONTROL Select from Gallery]**.
 
-      ![Dragging an image to the Page Builder stage](./assets/pb-media-image-drag.png)<!-- zoom -->
+      ![Dragging an image to the Page Builder stage](./assets/pb-media-image-drag.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Search Adobe Stock]**.
 

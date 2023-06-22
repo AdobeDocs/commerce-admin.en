@@ -19,7 +19,7 @@ The following example shows how to schedule a temporary price change for a produ
 
 1. In the _[!UICONTROL Scheduled Changes]_ box at the top of the page, click **[!UICONTROL Schedule New Update]**.
 
-   ![Schedule new update](./assets/content-staging-product-schedule-new-update.png)<!-- zoom -->
+   ![Schedule new update](./assets/content-staging-product-schedule-new-update.png){width="600" zoomable="yes"}
 
 1. With the **[!UICONTROL Save as a New Update]** option selected, Set the basic parameters for the update:
 
@@ -34,7 +34,7 @@ The following example shows how to schedule a temporary price change for a produ
       
       For a price rule campaign that was created without an end date, an end date cannot later be added. In such a case, it is necessary to create a campaign and set the start date to the date you want the old campaign to end and the new one to start. On the start date, the old campaign ends and the new campaign begins as defined.
 
-      ![Scheduling a product update](./assets/content-staging-campaign-schedule-update.png)<!-- zoom -->
+      ![Scheduling a product update](./assets/content-staging-campaign-schedule-update.png){width="600" zoomable="yes"}
 
       >[!NOTE]
       >
@@ -48,7 +48,7 @@ The following example shows how to schedule a temporary price change for a produ
 
    The scheduled change appears at the top of the product page, with the start and end dates of the campaign.
 
-   ![Scheduled change](./assets/content-staging-scheduled-changes.png)<!-- zoom -->
+   ![Scheduled change](./assets/content-staging-scheduled-changes.png){width="600" zoomable="yes"}
 
 ## Edit the scheduled change
 
@@ -63,7 +63,5 @@ The following example shows how to schedule a temporary price change for a produ
 In the _Scheduled Changes_ box at the top of the page, click **[!UICONTROL Preview]**.
 
 The preview opens a new browser tab, and shows how the product will appear during the scheduled campaign.
-
-![Preview scheduled changes](./assets/content-staging-product-scheduled-update-preview-rope.png)<!-- zoom -->
 
 For more information about using the preview content tools to change the date and scope of the preview, see [Previewing a Campaign](content-staging-preview.md). You can also share a link to the store preview with your colleagues.

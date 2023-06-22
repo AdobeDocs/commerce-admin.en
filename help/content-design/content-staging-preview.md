@@ -9,8 +9,6 @@ exl-id: f05589ae-9fc8-4e51-a504-ab90772b3c3d
 
 Any day or period of time during a campaign can be previewed and shared with others.
 
-![Preview page controls](./assets/content-staging-preview.png)<!-- zoom -->
-
 1. Use one of these methods to open a preview window:
 
    - _From the Content Staging Dashboard_
@@ -25,17 +23,15 @@ Any day or period of time during a campaign can be previewed and shared with oth
 
    The preview opens in a new browser tab and shows how the product will appear during the scheduled campaign.
 
-   ![Preview scheduled changes](./assets/content-staging-product-scheduled-update-preview.png)<!-- zoom -->
+   ![Preview of category image during campaign](./assets/content-staging-category-image-preview.png){width="600" zoomable="yes"}
 
 1. In the upper-left corner of the preview window, click **[!UICONTROL Calendar]**.
 
    The calendar detail shows other campaigns that are scheduled for the same day. Each record in the list is a separate campaign.
 
-   ![Campaigns scheduled for a specific date](./assets/content-staging-product-preview-calendar.png)<!-- zoom -->
-
 1. Preview a specific day or time:
 
-   - Click the **[!UICONTROL Date & Time]** calendar (![Calendar icon](../assets/icon-calendar.png)).
+   - Click the **[!UICONTROL Date & Time]** calendar (![Calendar icon](../assets/icon-calendar.png){width="10" zoomable="no"}).
 
    - Choose a different date and/or time.
 
