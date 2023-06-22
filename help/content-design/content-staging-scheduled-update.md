@@ -48,7 +48,7 @@ The following example shows how to schedule a temporary price change for a produ
 
    The scheduled change appears at the top of the product page, with the start and end dates of the campaign.
 
-   ![Scheduled change](./assets/content-staging-scheduled-changes.png){width="600" zoomable="yes"}
+   ![Scheduled change](./assets/content-staging-scheduled-update-preview-rope.png){width="600" zoomable="yes"}
 
 ## Edit the scheduled change
 

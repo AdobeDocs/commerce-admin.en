@@ -63,7 +63,7 @@ Open the page or block to be edited. Then, use one of the following methods to i
 
 1. After _[!UICONTROL Source]_, click the _Search_ icon (![Search icon](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}).
 
-   ![Selecting the search icon](./assets/editor-dialog-insert-image.png){width="500" zoomable="yes"}
+   ![Selecting the search icon](./assets/editor-dialog-insert-image.png){width="250" zoomable="yes"}
 
 1. In the directory tree on the left, navigate to the folder where the image is stored.
 

@@ -33,7 +33,7 @@ The _CMS Static Block_ [widget](widgets.md) gives you the ability to place an ex
 
    - (Optional) For **[!UICONTROL Sort Order]**, enter a number to determine the order this item appears with others in the same part of the page. (`0` = first, `1` = second, `3` = third, and so on.)
 
-   ![Storefront properties](./assets/widget-storefront-properties.png){width="600" zoomable="yes"}
+      ![Storefront properties](./assets/widget-storefront-properties.png){width="600" zoomable="yes"}
 
 ## Step 2: Complete the widget layout updates
 
@@ -49,7 +49,7 @@ The _CMS Static Block_ [widget](widgets.md) gives you the ability to place an ex
 
    - Accept the default setting for **[!UICONTROL Template]**, which is set to `CMS Static Block Default Template`.
 
-   ![Layout updates](./assets/widget-layout-update-home-page.png){width="600" zoomable="yes"}
+      ![Layout updates](./assets/widget-layout-update-home-page.png){width="600" zoomable="yes"}
 
 ### Layout updates options
 

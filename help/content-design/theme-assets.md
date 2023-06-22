@@ -19,7 +19,7 @@ For a standard installation, the assets associated with a theme are organized in
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Static Files Settings]** section.
 
-   ![Static Files Settings](./assets/developer-static-files-settings.png){width="400" zoomable="yes"}
+   ![Static Files Settings](./assets/developer-static-files-settings.png){width="500" zoomable="yes"}
 
 1. Set **[!UICONTROL Sign Static Files]** to `Yes`.
 
@@ -48,7 +48,7 @@ As part of an effort to optimize your site and reduce page load time, you can re
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL CSS Settings]** section.
 
-   ![CSS Settings](./assets/developer-css-settings.png){width="400" zoomable="yes"}
+   ![CSS Settings](./assets/developer-css-settings.png){width="500" zoomable="yes"}
 
    For detailed descriptions of these configuration options, see [CSS Settings](../configuration-reference/advanced/developer.md#css-settings) in the _Configuration Reference_.
 

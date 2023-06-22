@@ -15,7 +15,7 @@ An easy way to insert a link is to use the _Link_ button in the [editor](editor.
 
    This action opens the _[!UICONTROL Insert link]_ dialog.
 
-   ![Editor - Insert link dialog](./assets/editor-dialog-insert-link.png){width="500" zoomable="yes"}
+   ![Editor - Insert link dialog](./assets/editor-dialog-insert-link.png){width="250" zoomable="yes"}
 
 1. For **[!UICONTROL Url]**, enter one of the following:
 

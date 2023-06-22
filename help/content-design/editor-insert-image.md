@@ -23,7 +23,7 @@ From the editor, you can insert an image that has been uploaded to the [media st
 
 1. For **Source**, click the _Search_ icon and use the method that matches the location of the image asset that you want to use:
 
-   ![Selecting the search icon](./assets/editor-dialog-insert-image.png){width="500" zoomable="yes"}
+   ![Selecting the search icon](./assets/editor-dialog-insert-image.png){width="250" zoomable="yes"}
 
    - **Upload a new image**: Use this method to upload a new image file.
 

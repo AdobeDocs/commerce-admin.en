@@ -45,5 +45,3 @@ The following example adds a promotional image to the category page for the dura
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) **[!UICONTROL Categories]** to view the list of assigned categories.
 
 1. Return to the dashboard, click the campaign again, and then click **[!UICONTROL Preview]** to review the pages for the category when the campaign is active.
-
-   ![Preview of category image during campaign](./assets/content-staging-category-image-preview.png){width="600" zoomable="yes"}

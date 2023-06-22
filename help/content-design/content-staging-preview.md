@@ -23,8 +23,6 @@ Any day or period of time during a campaign can be previewed and shared with oth
 
    The preview opens in a new browser tab and shows how the product will appear during the scheduled campaign.
 
-   ![Preview of category image during campaign](./assets/content-staging-category-image-preview.png){width="600" zoomable="yes"}
-
 1. In the upper-left corner of the preview window, click **[!UICONTROL Calendar]**.
 
    The calendar detail shows other campaigns that are scheduled for the same day. Each record in the list is a separate campaign.

@@ -75,7 +75,7 @@ To link to a node, use the [Widget](widgets.md) tool to create a CMS Hierarchy N
 
 1. If necessary, drag the pages into position to reflect the order that they are to appear in the menu.
 
-   ![Dragging pages into position](./assets/page-hierarchy-drag-to-position.png)<!-- zoom -->
+   ![Dragging pages into position](./assets/page-hierarchy-drag-to-position.png){width="500" zoomable="yes"}
 
 1. Click the node at the top of the hierarchy.
 
@@ -118,7 +118,7 @@ If you want the node to appear in the menu, do the following:
 
    This setting determines if a navigational menu is generated for the page hierarchy.
 
-   ![Page navigation menu options](./assets/page-hierarchy-page-navigation-menu-options.png){width="400" zoomable="yes"}
+   ![Page navigation menu options](./assets/page-hierarchy-page-navigation-menu-options.png){width="300" zoomable="yes"}
 
 1. To specify the location of the menu in relation to the content, set the **[!UICONTROL Menu Layout]**:
 
@@ -147,6 +147,6 @@ If you want the node to appear in the menu, do the following:
 
 1. If you also want the node to be visible in the navigation menu, scroll to _Main Navigation Menu Options_ and set **[!UICONTROL Show in Navigation menu]** to `Yes`.
 
-   ![Main navigation menu options](./assets/page-hierarchy-main-navigation-menu-options.png){width="400" zoomable="yes"}
+   ![Main navigation menu options](./assets/page-hierarchy-main-navigation-menu-options.png){width="250" zoomable="yes"}
 
 1. Click **[!UICONTROL Save]**.

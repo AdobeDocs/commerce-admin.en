@@ -86,7 +86,7 @@ The Search box in the upper left of the _[!UICONTROL Pages]_ grid can be used to
 
 1. If necessary, click **[!UICONTROL Clear All]** to clear the previous search criteria.
 
-1. To display the selection of search filters, click the **[!UICONTROL Filters]** ![Funnel icon](../assets/icon-filter-search.png) tab.
+1. To display the selection of search filters, click the **[!UICONTROL Filters]** !([Funnel icon](../assets/icon-filter-search.png)) tab.
 
 1. Complete as many of the filters as necessary to describe the pages that you want to find.
 
@@ -185,7 +185,7 @@ Click the _View_ (![Eye icon](../assets/icon-view-eye.png)) control and do one o
 
 - Change the name of a view by clicking the Edit (![Pencil icon](../assets/icon-edit-pencil.png)) icon and updating the name.
 
-![The saved view appears in the view controls with an edit icon](./assets/pages-default-grid-control.png){width="600" zoomable="yes"}
+   ![The saved view appears in the view controls with an edit icon](./assets/pages-default-grid-control.png){width="600" zoomable="yes"}
 
 ## Scheduled Changes
 

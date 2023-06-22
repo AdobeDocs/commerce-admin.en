@@ -76,7 +76,7 @@ The code that determines the content of the New Products list and its placement 
    - `New Product List Template`
    - `New Products Grid Template`
 
-   ![Layout updates](./assets/widget-layout-update-new-products-list.png){width="600" zoomable="yes"}
+      ![Layout updates](./assets/widget-layout-update-new-products-list.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Save and Continue Edit]**.
 
@@ -103,7 +103,7 @@ The code that determines the content of the New Products list and its placement 
 
    By default, the cache is set to 86,400 seconds (24 hours).
 
-   ![Widget Options](./assets/widget-options-new-product-list.png){width="600" zoomable="yes"}
+      ![Widget Options](./assets/widget-options-new-product-list.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save]**.
 

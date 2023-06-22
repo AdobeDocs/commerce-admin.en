@@ -7,7 +7,7 @@ exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 
 To get access to countless media assets for use in your store, integrate [Adobe Stock][adobe-stock] with [!UICONTROL Commerce].
 
-![Adobe Stock Search Results](./assets/adobe-stock-search-grid.png){width="600" zoomable="yes"}
+![Adobe Stock Search Results](./assets/adobe-stock-search-grid.png){width="700" zoomable="yes"}
 
 The Adobe Stock service provides businesses with access to millions of high-quality, curated, royalty-free photos, vectors, illustrations, videos, templates, and 3D assets for all their creative projects. [!DNL Commerce] users are able to quickly find, preview, and license Adobe Stock assets. Users can also save them to the [media storage][media-storage], all without leaving the Admin workspace.
 
