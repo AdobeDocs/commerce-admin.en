@@ -51,7 +51,7 @@ To search Adobe Stock assets and add a stock image from the WYSIWYG Editor:
 
 1. Click **[!UICONTROL Search Adobe Stock]**.
 
-   ![Adobe Stock search results](./assets/adobe-stock-search-grid.png)<!-- zoom -->
+   ![Adobe Stock Search Results](./assets/adobe-stock-search-grid.png){width="600" zoomable="yes"}
 
 ## Filter and search for Adobe Stock assets
 
@@ -65,7 +65,7 @@ By default, the search results shown are from an Adobe Stock curated gallery of 
 
 1. Enter your keyword search into the **[!UICONTROL Search by keyword]** input field in the top-left and click the magnifying glass or press **Enter**.
 
-   ![Adobe Stock Search Results for the "mango" keyword](./assets/adobe-stock-search-keyword.png)<!-- zoom -->
+   ![Adobe Stock Search Results for the "mango" keyword](./assets/adobe-stock-search-keyword.png){width="600" zoomable="yes"}
 
 ### Filter Adobe Stock assets
 
@@ -86,7 +86,7 @@ By default, the search results shown are from an Adobe Stock curated gallery of 
 
    {style="table-layout:auto"}
 
-   ![Adobe Stock search filters](./assets/adobe-stock-filters.png)<!-- zoom -->
+   ![Adobe Stock search filters](./assets/adobe-stock-filters.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Apply Filters]**.
 
@@ -107,7 +107,7 @@ Each image has details available for viewing. Additional image-specific actions,
    - Related images, such as images from the same _series_ or _model_
    - Action buttons, such as [[!UICONTROL Save Preview]][save-preview] and [[!UICONTROL Save (and optionally license) Image]][save-licensed]
 
-   ![Adobe Stock image details](./assets/adobe-stock-image-details.png)<!-- zoom -->
+      ![Adobe Stock image details](./assets/adobe-stock-image-details.png){width="600" zoomable="yes"}
 
 ## Log in to your Adobe account
 
@@ -121,7 +121,7 @@ To gain complete access to an image and eliminate the Adobe Stock watermark, you
 
    After completing the sign-in process, the [licensed state][licensed-state] of images is displayed in search results as a label.
 
-   ![Adobe sign in](./assets/adobe-stock-account-login.png)<!-- zoom -->
+   ![Adobe sign in](./assets/adobe-stock-account-login.png){width="600" zoomable="yes"}
 
 ### View the licensed state of search results
 
@@ -129,7 +129,7 @@ To gain complete access to an image and eliminate the Adobe Stock watermark, you
 
 All licensed images associated to your Adobe account have a label displayed on them, making it clear which images you have licensed.
 
-![Adobe Stock search results with licensed images](./assets/adobe-stock-licensed-images.png)<!-- zoom -->
+![Adobe Stock search results with licensed images](./assets/adobe-stock-licensed-images.png){width="600" zoomable="yes"}
 
 ### Save images to the media storage
 
@@ -149,7 +149,7 @@ An image preview is a watermarked version of an Adobe Stock asset. Image preview
 
    This action displays a prompt for you to specify a file name that is used to save the image to the [media storage][media-storage]. A default file name is provided, but you can customize the name to your preferences.
 
-    ![Save Adobe Stock preview image](./assets/adobe-stock-save-preview.png)<!-- zoom -->
+    ![Save Adobe Stock preview image](./assets/adobe-stock-save-preview.png){width="500" zoomable="yes"}
 
 1. Click **[!UICONTROL Confirm]**.
 
@@ -174,8 +174,6 @@ Adobe Stock assets that you want to use for your production [!DNL Commerce] stor
       >You must have available [Adobe Stock credits][stock-credits] in your account to license the image.
 
    This action displays a prompt for you to specify a file name that is used to save the image to the [media storage][media-storage]. A default file name is provided, but you can customize the name to your preferences.
-
-   ![Save Adobe Stock licensed image](./assets/adobe-stock-save-licensed.png)<!-- zoom -->
 
 1. Click **[!UICONTROL Confirm]**.
 
