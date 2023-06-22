@@ -54,7 +54,7 @@ When the Experience Cloud integration is enabled, administrators use the followi
 
 1. On the Adobe Commerce Sign In page, select **[!UICONTROL Sign in with Adobe ID]** to complete authentication and open the Admin.
 
-   ![Adobe Commerce Sign In page](./assets/admin-uex-experience-cloud-login.png){width="600" zoomable="yes"}
+   ![Adobe Commerce Sign In page](./assets/admin-adobeid-login.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -66,7 +66,7 @@ When the Experience Cloud integration is enabled, administrators use the followi
 - Adobe Commerce on cloud infrastructure
 - Adobe Commerce extensions
 
-  - Commerce Admin Unified Experience extension (`magento/admin-unified-experience`)
+  - Commerce Admin Unified Experience extension (`magento/module-unified-experience`)
 
     If the module is not available on the Commerce instance, it can be installed using Composer.
 

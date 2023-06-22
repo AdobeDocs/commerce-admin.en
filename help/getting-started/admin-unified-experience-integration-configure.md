@@ -189,7 +189,7 @@ Verify that a Commerce Administrator can log in to Experience Cloud to view avai
 
 1. Open the Commerce Admin for an instance by selecting **[!UICONTROL Open]**.
 
-   ![Commerce Admin view with Experience Cloud integration enabled](./assets/admin-uex-commerceadmin-view.png){width="600" zoomable="yes"}
+   ![Commerce Admin view with Experience Cloud integration enabled](./assets/admin-dashboard.png){width="600" zoomable="yes"}
 
 1. Verify that you can perform Admin tasks as expected.
 
