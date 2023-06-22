@@ -10,7 +10,7 @@ hidefromtoc: no
 >
 >This feature is for Beta users only and is not yet accessible to all customers. Contact your Adobe Commerce Beta program manager for assistance and questions.
 
-Get started with the Commerce Admin Integration with Experience Cloud by configuring the Commerce application to use the Commerce Admin Unified Experience and Commerce Events extensions.
+Get started with the Experience Cloud integration with Commerce Admin by configuring the Commerce application to use the Commerce Admin Unified Experience and Commerce Events extensions.
 
 
 ## Prerequisites
@@ -187,7 +187,7 @@ Verify that a Commerce Administrator can log in to Experience Cloud to view avai
 
    ![Commerce Projects workspace for Experience Cloud](./assets/admin-uex-commerce-projects-home.png){width="600" zoomable="yes"}
 
-1. Open the Commerce Admin for an instance by selecting **[!UICONTROL Open]**.
+1. Open the Admin for an instance by selecting **[!UICONTROL Open]**.
 
    ![Commerce Admin view with Experience Cloud integration enabled](./assets/admin-dashboard.png){width="600" zoomable="yes"}
 
@@ -195,4 +195,4 @@ Verify that a Commerce Administrator can log in to Experience Cloud to view avai
 
    Workflows in the Commerce Admin should follow the same process. If you experience workflow changes or errors after enabling the Experience Cloud integration, contact your Commerce system administrator or [submit an Adobe Support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
 
-After you configure the Experience Cloud integration for Commerce Admin, verify that Commerce administrator accounts are provisioned correctly to access Commerce projects through Experience Cloud. See [Manage Admin users](/help/getting-started/admin-unified-experience-integration-manage.md#manage-admin-user-accounts).
+After you configure the Experience Cloud integration, verify that administrator accounts are provisioned correctly to access Commerce projects through Experience Cloud. See [Manage Admin users](/help/getting-started/admin-unified-experience-integration-manage.md#manage-admin-user-accounts).
