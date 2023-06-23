@@ -179,6 +179,6 @@ PayPal Express Checkout and PayPal Website Payments Standard are available in th
 - Vietnam
 
 
-[1]: https://manager.paypal.com/0
+[1]: https://manager.paypal.com/
 [2]: https://developer.paypal.com/docs/payflow/payflow-gateway/
 [3]: https://www.paypal.com/us/business/buy-now-pay-later

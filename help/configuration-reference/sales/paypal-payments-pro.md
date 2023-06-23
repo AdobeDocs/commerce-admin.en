@@ -72,7 +72,7 @@ exl-id: 08363002-e1e6-4d5e-9303-44f5ee53ee0a
 |[!UICONTROL Require CVV Entry]|Website|Determines if customers are required to enter the CVV code from the back of their credit card. Options: `Yes` / `No`|
 |**[!UICONTROL CVV and AVS Settings]**|||
 |_[!UICONTROL Reject Transaction if:]_|||
-|[!UICONTROL AVS Street Does Not Match]|Website|Determines the action taken if the [Address Verification Service](https://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/using_address_verification_service_(avs).htm) determines that the street address does not match the information in the system. Options: `Yes` / `No`|
+|[!UICONTROL AVS Street Does Not Match]|Website|Determines the action taken if the Address Verification Service determines that the street address does not match the information in the system. Options: `Yes` / `No`|
 |[!UICONTROL AVS Zip Does Not Match]|Website|Determines the action taken if  the Address Verification Service determines that the ZIP code does not match the information in the system. Options: `Yes` / `No`|
 |[!UICONTROL International AVS Indicator Does Not Match]|Website|Determines the action taken if the Address Verification Service determines that the international indicator does not match the information in the system. Options: `Yes` / `No`|
 |[!UICONTROL Card Security Code Does Not Match]|Website|Determines the action taken if the CVV security code entered by the customer does not match the information in the system. Options: `Yes` / `No`|

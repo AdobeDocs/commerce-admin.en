@@ -25,7 +25,7 @@ If the customer does not have a default shipping address, the _Shipping_ page di
 
 ![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce only)
 
-Enabling address search also affects the checkout for negotiated quotes where customer's number of saved addresses meets or exceeds the configured limit. When the quote is complete and the customer proceeds to the checkout, only the selected shipping address is displayed. The page also displays a message that the shipping address is locked and can only be changed in the quote.
+Enabling address search also affects the checkout for orders that are created from quotes where customer's number of saved addresses meets or exceeds the configured limit. When the quote is complete and the customer proceeds to the checkout, only the selected shipping address is displayed. The page also displays a message that the shipping address is locked and can only be changed in the quote.
 
 ![Shipping address locked for a quote](./assets/quote-checkout-shipping-address-locked.png){width="600" zoomable="yes"}
 
@@ -38,7 +38,7 @@ Enabling address search also affects the checkout for negotiated quotes where cu
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Checkout Options]** section.
 
    ![Configuration - Checkout Options](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
-   
+
    For a detailed description of each of these configuration settings, see [Checkout Options](../configuration-reference/sales/checkout.md#checkout-options) in the _Configuration Reference Guide_.
 
 1. Set **[!UICONTROL Enable Address Search]** to `Yes`.
