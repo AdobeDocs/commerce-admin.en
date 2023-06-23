@@ -30,11 +30,11 @@ By default, all images, compiled CSS files, and compiled JavaScript files of the
 
 1. In the left panel, expand **[!UICONTROL Advanced]** and choose **[!UICONTROL System]**.
 
-1. In the upper-left corner, set **[!UICONTROL Store Viewl]** to `Default Config` to apply the configuration at the global level.
+1. In the upper-left corner, set **[!UICONTROL Store View]** to `Default Config` to apply the configuration at the global level.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Storage Configuration for Media]** section and do the following:
 
-    ![Advanced configuration - storage configuration for media](./assets/database-storage-deprecated.png)<!-- zoom -->
+    ![Advanced configuration - storage configuration for media](./assets/database-storage-deprecated.png){width="600" zoomable="yes"}
 
     - Set **[!UICONTROL Media Storage]** to `Database`.
 
