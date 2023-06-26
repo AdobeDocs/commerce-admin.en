@@ -5,7 +5,7 @@ exl-id: 4e149836-f13c-4240-8700-882f2fc1619a
 ---
 # Content Menu
 
-![The [!UICONTROL Content] menu displayed in the Admin](./assets/admin-menu-content-ee.png)<!-- zoom -->
+![The [!UICONTROL Content] menu displayed in the Admin](./assets/admin-menu-content.png){width="400" zoomable="yes"}
 
 >[!NOTE]
 >

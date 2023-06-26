@@ -58,7 +58,7 @@ When a new scheduled update is created for any of the following objects, a corre
 
 The [!UICONTROL Content Staging] [dashboard](content-staging-dashboard.md) provides visibility into all planned site changes and updates. Any day, range of dates, or time period of a campaign can be previewed, and shared with others.
 
-![Staging dashboard](./assets/content-staging-dashboard-grid.png)<!-- zoom -->
+![Staging dashboard](./assets/content-staging-dashboard-grid.png){width="600" zoomable="yes"}
 
 ## Content staging demo
 
