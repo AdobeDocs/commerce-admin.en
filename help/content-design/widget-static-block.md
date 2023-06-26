@@ -7,7 +7,7 @@ exl-id: 174deef2-33c4-4f1a-8ca8-4969be209bc7
 
 The _CMS Static Block_ [widget](widgets.md) gives you the ability to place an existing [content block](blocks.md) nearly anywhere in your store.
 
-![Widgets list](./assets/widgets.png)<!-- zoom -->
+![Widgets](./assets/widgets.png){width="700" zoomable="yes"}
 
 ## Step 1: Choose the widget type
 
@@ -19,7 +19,7 @@ The _CMS Static Block_ [widget](widgets.md) gives you the ability to place an ex
 
 1. Verify that **[!UICONTROL Design Theme]** is set to the current theme and click **[!UICONTROL Continue]**.
 
-   ![Widget settings](./assets/widget-settings.png)<!-- zoom -->
+   ![Widget settings](./assets/widget-settings.png){width="600" zoomable="yes"}
 
 1. In the _[!UICONTROL Storefront Properties]_ section, do the following:
 
@@ -33,7 +33,7 @@ The _CMS Static Block_ [widget](widgets.md) gives you the ability to place an ex
 
    - (Optional) For **[!UICONTROL Sort Order]**, enter a number to determine the order this item appears with others in the same part of the page. (`0` = first, `1` = second, `3` = third, and so on.)
 
-   ![Widget storefront properties](./assets/widget-storefront-properties.png)<!-- zoom -->
+      ![Storefront properties](./assets/widget-storefront-properties.png){width="600" zoomable="yes"}
 
 ## Step 2: Complete the widget layout updates
 
@@ -49,7 +49,7 @@ The _CMS Static Block_ [widget](widgets.md) gives you the ability to place an ex
 
    - Accept the default setting for **[!UICONTROL Template]**, which is set to `CMS Static Block Default Template`.
 
-   ![Widget layout updates](./assets/widget-layout-update-home-page.png)<!-- zoom -->
+      ![Layout updates](./assets/widget-layout-update-home-page.png){width="600" zoomable="yes"}
 
 ### Layout updates options
 

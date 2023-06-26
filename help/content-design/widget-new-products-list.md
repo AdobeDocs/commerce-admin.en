@@ -7,7 +7,7 @@ exl-id: bdff3655-cd14-4a19-a51f-4cabeb274d2a
 
 The list of new products is an example of dynamic content, and consists of live data that is pulled from your product catalog. By default, the _New Products_ list includes the first eight of the most recently added products. However, it can also be configured to include only products within a specified date range.
 
-![New products list on the storefront home page](./assets/storefront-home-page-new-products.png)<!-- zoom -->
+![New products list on the storefront home page](./assets/storefront-home-page-new-products.png){width="700" zoomable="yes"}
 
 ## Step 1: Set each product as new
 
@@ -25,7 +25,7 @@ Setting a product as new adds the product to the _New products_ list. You can ch
 
 1. For **[!UICONTROL Set Product as New]**, toggle the option to set the product as a new product or not.
 
-   ![Setting the product as new](./assets/product-set-as-new.png)<!-- zoom -->
+   ![Setting the product as new](./assets/product-set-as-new.png){width="400" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save]**.
 
@@ -47,7 +47,7 @@ The code that determines the content of the New Products list and its placement 
 
 1. Click **[!UICONTROL Continue]**.
 
-   ![New product list widget settings](./assets/widget-settings-new-products-list.png)<!-- zoom -->
+   ![New product list widget settings](./assets/widget-settings.png){width="600" zoomable="yes"}
 
 1. In the _[!UICONTROL Storefront Properties]_ section, do the following:
 
@@ -59,7 +59,7 @@ The code that determines the content of the New Products list and its placement 
 
    - (Optional) For **[!UICONTROL Sort Order]**, enter a number to determine the order this item appears with others in the same part of the page. (`0` = first, `1` = second, `3` = third, and so on.)
 
-   ![Widget storefront properties](./assets/widget-storefront-properties-new-products-list.png)<!-- zoom -->
+   ![Layout updates](./assets/widget-layout-update-home-page.png){width="600" zoomable="yes"}
 
 ## Step 3: Choose the location
 
@@ -76,7 +76,7 @@ The code that determines the content of the New Products list and its placement 
    - `New Product List Template`
    - `New Products Grid Template`
 
-   ![Layout updates](./assets/widget-layout-update-new-products-list.png)<!-- zoom -->
+      ![Layout updates](./assets/widget-layout-update-new-products-list.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Save and Continue Edit]**.
 
@@ -103,7 +103,7 @@ The code that determines the content of the New Products list and its placement 
 
    By default, the cache is set to 86,400 seconds (24 hours).
 
-   ![Widget Options](./assets/widget-options-new-product-list.png)<!-- zoom -->
+      ![Widget Options](./assets/widget-options-new-product-list.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save]**.
 
