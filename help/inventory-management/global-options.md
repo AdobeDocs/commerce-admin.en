@@ -15,7 +15,7 @@ Configure the default configuration options for product and stock for your websi
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Stock Options]** section and set the options:
 
-   ![Stock Options](assets/config-catalog-inventory-stock-options.png)
+   ![Stock Options](assets/config-catalog-inventory-stock-options.png){width="600" zoomable="yes"}
 
     - To adjust the quantity on hand when an order is placed, set **[!UICONTROL Decrease Stock When Order is Placed]** to `Yes`.
 
@@ -39,7 +39,7 @@ Configure the default configuration options for product and stock for your websi
 
     - To activate [inventory control](enable.md) for your catalog, set **[!UICONTROL Manage Stock]** to `Yes`.
 
-      ![Product Stock Options](assets/config-catalog-inventory-product-stock-options.png)
+      ![Product Stock Options](assets/config-catalog-inventory-product-stock-options.png){width="600" zoomable="yes"}
 
     - Set **[!UICONTROL Backorders]** to one of the following:
 
@@ -71,7 +71,7 @@ Configure the default configuration options for product and stock for your websi
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Admin bulk operations]** section and set the options:
 
-   ![Admin Bulk Operations](assets/config-catalog-inventory-admin-bulk-operations.png)
+   ![Admin Bulk Operations](assets/config-catalog-inventory-admin-bulk-operations.png){width="600" zoomable="yes"}
 
     - Set **[!UICONTROL Run asynchronously]** to run bulk operations asynchronously for mass product actions
 

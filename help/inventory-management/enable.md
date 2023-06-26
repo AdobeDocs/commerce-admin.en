@@ -37,7 +37,7 @@ With [!DNL Inventory Management] enabled, see the following to configure all set
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) _Product Stock Options_ and configure:
 
-   ![Product Stock Options](assets/config-catalog-inventory-product-stock-options.png)
+   ![Product Stock Options](assets/config-catalog-inventory-product-stock-options.png){width="600" zoomable="yes"}
 
    - To manage inventory and use all [!DNL Commerce] features, set **[!UICONTROL Manage Stock]** to `Yes` (default).
 
