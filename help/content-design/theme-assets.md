@@ -11,8 +11,6 @@ For a standard installation, the assets associated with a theme are organized in
 
    `[commerce_root]/app/design/frontend/Magento/[theme_name]/web`
 
-![Theme assets](./assets/theme-assets-directory-structure.png)<!-- zoom -->
-
 ## Add a digital signature to static file URLs
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
@@ -21,7 +19,7 @@ For a standard installation, the assets associated with a theme are organized in
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Static Files Settings]** section.
 
-   ![Static Files Settings](./assets/developer-static-files-settings.png)<!-- zoom -->
+   ![Static Files Settings](./assets/developer-static-files-settings.png){width="500" zoomable="yes"}
 
 1. Set **[!UICONTROL Sign Static Files]** to `Yes`.
 
@@ -50,8 +48,8 @@ As part of an effort to optimize your site and reduce page load time, you can re
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL CSS Settings]** section.
 
-   ![CSS Settings](./assets/developer-css-settings.png)<!-- zoom -->
-   
+   ![CSS Settings](./assets/developer-css-settings.png){width="500" zoomable="yes"}
+
    For detailed descriptions of these configuration options, see [CSS Settings](../configuration-reference/advanced/developer.md#css-settings) in the _Configuration Reference_.
 
 1. Set **[!UICONTROL Merge CSS Files]** to `Yes`.
@@ -72,7 +70,7 @@ Multiple JavaScript files can be merged into a single, condensed file to reduce 
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL JavaScript Settings]** section.
 
-   ![JavaScript Settings](./assets/developer-javascript-settings.png)<!-- zoom -->
+   ![JavaScript Settings](./assets/developer-javascript-settings.png){width="600" zoomable="yes"}
 
    For detailed descriptions of these configuration options, see [JavaScript Settings](../configuration-reference/advanced/developer.md#javascript-settings) in the _Configuration Reference_.
 

@@ -7,7 +7,7 @@ exl-id: a7a503ea-3631-4be2-81e4-aed2ae9419dc
 
 The process of adding a content page to your store is essentially the same for any type of page that you might want to create. You can include text, images, blocks of content, variables, and widgets. Most content pages are designed for reading by search engines first, and by people second. Keep the needs of each of these two different audiences in mind when choosing the page title, and URL, and when composing the meta data, and content. When your page is complete, it can be added to your store navigation, linked to other pages, linked from the footer of your store, or used as a new [home page](page-home-new.md).
 
-![Pages Grid](./assets/pages-grid.png)<!-- zoom -->
+![Pages grid](./assets/pages-grid.png){width="700" zoomable="yes"}
 
 ## Add a page
 
@@ -19,7 +19,7 @@ The following instructions walk you through each step to create a basic page. So
 
 1. Click **[!UICONTROL Add New Page]**.
 
-   ![New Page](./assets/pages-new-page.png)<!-- zoom -->
+   ![New Page](./assets/pages-new-page.png){width="600" zoomable="yes"}
 
 1. If you do not want to publish the page immediately, set **[!UICONTROL Enable Page]** to `No`.
 
@@ -35,7 +35,7 @@ Depending on your [Advanced Content Tools configuration](../configuration-refere
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) **[!UICONTROL Content]**.
 
-   ![Content with Page Builder](../page-builder/assets/pb-page-content.png)<!-- zoom -->
+   ![Content with Page Builder](../page-builder/assets/pb-page-content.png){width="600" zoomable="yes"}
 
 1. In the **[!UICONTROL Content Heading]** box, enter the heading that you want to appear at the top of the page.
 
@@ -47,7 +47,7 @@ Depending on your [Advanced Content Tools configuration](../configuration-refere
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) **[!UICONTROL Content]**.
 
-   ![Content](./assets/page-content-editor.png)<!-- zoom -->
+   ![Content](./assets/page-content-editor.png){width="600" zoomable="yes"}
 
 1. In the **[!UICONTROL Content Heading]** box, enter the heading that you want to appear at the top of the page.
 
@@ -59,7 +59,7 @@ Depending on your [Advanced Content Tools configuration](../configuration-refere
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) **[!UICONTROL Search Engine Optimization]**.
 
-   ![Search Engine Optimization](./assets/page-search-engine-optimization.png)<!-- zoom -->
+   ![Search Engine Optimization](./assets/page-search-engine-optimization.png){width="600" zoomable="yes"}
 
 1. Either accept the default or enter another **[!UICONTROL URL Key]** that consists of all lowercase characters, with hyphens instead of spaces.
 
@@ -83,7 +83,7 @@ Depending on your [Advanced Content Tools configuration](../configuration-refere
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) **[!UICONTROL Page in Websites]**.
 
-   ![Pages in Websites](./assets/page-in-websites.png)<!-- zoom -->
+   ![Pages in Websites](./assets/page-in-websites.png){width="600" zoomable="yes"}
 
 1. In the **[!UICONTROL Store View]** list, select each view where the page is to be available.
 
@@ -95,7 +95,7 @@ Depending on your [Advanced Content Tools configuration](../configuration-refere
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) **[!UICONTROL Hierarchy]**.
 
-   ![Hierarchy](./assets/page-hierarchy.png)<!-- zoom -->
+   ![Hierarchy](./assets/page-hierarchy.png){width="600" zoomable="yes"}
 
 1. If this page is a child of another page, select the checkbox of the **[!UICONTROL Parent page]**.
 
@@ -103,7 +103,7 @@ Depending on your [Advanced Content Tools configuration](../configuration-refere
 
 1. To change the layout of the page, expand ![Expansion selector](../assets/icon-display-expand.png) **[!UICONTROL Design]**.
 
-   ![Design](./assets/page-design.png)<!-- zoom -->
+   ![Design](./assets/page-design.png){width="600" zoomable="yes"}
 
 1. To change the column layout of the page, set **[!UICONTROL Layout]** to one of the following:
 
@@ -127,7 +127,7 @@ Depending on your [Advanced Content Tools configuration](../configuration-refere
 
 1. ![Magento Open Source](../assets/open-source.svg) (Magento Open Source only) To schedule a design change, expand ![Expansion selector](../assets/icon-display-expand.png) **[!UICONTROL Custom Design Update]** and do the following:
 
-   ![Custom Design Update](./assets/page-custom-design-update.png)<!-- zoom -->
+   ![Custom Design Update](./assets/page-custom-design-update.png){width="600" zoomable="yes"}
 
    - Use the calendar (![Calendar icon](../assets/icon-calendar.png)) to choose the **[!UICONTROL From]** and **[!UICONTROL To]** dates for the change to take effect.
 
@@ -155,7 +155,7 @@ Depending on your [Advanced Content Tools configuration](../configuration-refere
 
 Any content page can be used as a template, and saved as a duplicate. You might use this time-saving technique to create a consistent design for content pages throughout your site. The duplicate page retains the Page Title of the original, but the URL Key and Status fields must be updated.
 
-![Save & Duplicate](./assets/page-duplicate-save-menu.png)<!-- zoom -->
+![Save & Duplicate](./assets/page-duplicate-save-menu.png){width="600" zoomable="yes"}
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Elements]_ > **[!UICONTROL Pages]**.
 
@@ -171,8 +171,6 @@ Any content page can be used as a template, and saved as a duplicate. You might 
    - A unique, but temporary URL Key is assigned.
    - The Status of the page is `Disabled`.
 
-   ![Duplicating a page in the grid](./assets/pages-grid-duplicated-page.png)<!-- zoom -->
-
 1. Open the duplicate page in _Edit_ mode and do the following:
 
    - If you want to publish the page immediately, set **[!UICONTROL Enable Page]** to `Yes`.
@@ -181,15 +179,13 @@ Any content page can be used as a template, and saved as a duplicate. You might 
 
    - Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Search Engine Optimization]** section and enter the unique **[!UICONTROL URL Key]** that you want to use for the duplicate page.
 
-      ![Temporary URL key](./assets/page-search-engine-optimization-url-key-duplicate.png)<!-- zoom -->
+      ![Temporary URL key](./assets/page-search-engine-optimization-url-key-duplicate.png){width="600" zoomable="yes"}
 
    - Update the remaining page content, as needed.
 
 1. Click the **[!UICONTROL Save]** arrow and choose **[!UICONTROL Save & Close]**.
 
    The duplicate page in the grid reflects your changes.
-
-   ![Duplicate page with an updated URL key](./assets/pages-grid-duplicate-updated-url-key.png)<!-- zoom -->
 
 ## Save menu
 

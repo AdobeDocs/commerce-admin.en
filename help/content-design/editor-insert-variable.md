@@ -13,12 +13,12 @@ Your store includes many predefined [variables](../systems/variables-predefined.
 
 1. Position the cursor where you want the variable to appear and click the _Insert Variable_ icon.
 
-   ![Editor toolbar - Insert Variable](./assets/editor-toolbar-variable-button.png)<!-- zoom -->
+   ![Editor toolbar - Insert Variable](./assets/editor-toolbar-variable-button.png){width="700" zoomable="yes"}
 
    If you do not have [!UICONTROL Page Builder] enabled and prefer to work with the HTML code, click **[!UICONTROL Show / Hide Editor]**. Position the insertion point in the text where you want the variable to appear. Then, click **[!UICONTROL Insert Variable]**.
 
 1. In the list of available variables, choose the one you want and click **[!UICONTROL Insert Variable]**.
 
-   ![Insert Variable page](./assets/content-insert-variable.png)<!-- zoom -->
+   ![Insert Variable page](./assets/content-insert-variable.png){width="600" zoomable="yes"}
 
 1. When your content edits are complete, click **[!UICONTROL Save]**.

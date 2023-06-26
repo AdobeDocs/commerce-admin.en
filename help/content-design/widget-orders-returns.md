@@ -7,7 +7,7 @@ exl-id: 1c3948e6-a0de-4ee4-8abf-10ab845a94a7
 
 The _Orders and Returns_ widget gives guests the ability to check the status of their orders, print invoices, and track shipments. When the widget is added to the storefront, it is visible only for guests and for customers who are not logged in to their accounts. Guests can find orders by providing the Order ID, Billing Last Name, and either the Email Address or ZIP Code.
 
-![Orders and Returns widget in the sidebar on the storefront](./assets/storefront-widget-orders-returns-sidebar.png)<!-- zoom -->
+![Orders and Returns widget in the sidebar on the storefront](./assets/storefront-widget-orders-returns-sidebar.png){width="600" zoomable="yes"}
 
 ## Use the Orders and Returns widget
 
@@ -22,7 +22,7 @@ The _Orders and Returns_ widget gives guests the ability to check the status of 
 
 1. Click **[!UICONTROL Search]** to retrieve the order.
 
-   ![Order information displayed in the storefront](./assets/storefront-widget-orders-returns-view.png)<!-- zoom -->
+   ![Order information displayed in the storefront](./assets/storefront-widget-orders-returns-view.png){width="700" zoomable="yes"}
 
 ## Set up the Orders and Returns widget
 
