@@ -79,7 +79,7 @@ In addition to the preset order status settings, you can create your own custom 
 
       >[!NOTE]
       >
-      >**_[!UICONTROL Order State]_** dropdown contains the list of default assigned order statuses. For example, "Pending" default order status is displayed instead of "New" order state value in this dropdown.
+      >**_[!UICONTROL Order State]_** list includes the default assigned order statuses. For example, the `Pending` default order status is displayed instead of the `New` order state value.
 
    - To make this status the default for the order state, select the **[!UICONTROL Use Order Status as Default]** checkbox.
 
@@ -115,7 +115,7 @@ In addition to the preset order status settings, you can create your own custom 
 
 >[!NOTE]
 >
->If default order status is unassigned from the order state, then _**another**_ order status is set as a default one for this order state _**automatically**_.
+>If the default order status is unassigned from the order state, _**another**_ order status is _**set  automatically**_ as a default for this order state.
 
 ## Notification
 
