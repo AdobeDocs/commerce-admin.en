@@ -27,6 +27,7 @@ When entering a [credit memo](../stores-purchase/credit-memo-create.md){target="
 
 ![Items to Refund with Return to Stock Selected](assets/credit-memo-items-to-refund.png)
 {width="350" zoomable="yes"}
+
 ### Cancel unshipped orders
 
 If an order has not been shipped and is canceled (in full or partial), [!DNL Inventory Management] automatically returns the product stock to the salable quantity. Until invoice and shipping, purchased products are reserved against the salable quantity, not deducted from the actual quantity. At the point of invoicing and shipping the order, the system converts the reservation to an inventory deduction.
