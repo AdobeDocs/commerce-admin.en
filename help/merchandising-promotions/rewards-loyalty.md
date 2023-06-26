@@ -21,7 +21,7 @@ Reward point balances can be managed by Admin users per customer. If enabled in 
 
 >[!NOTE]
 >
->[Reward Exchange Rates](reward-exchange-rates.md) must be configured to be able to redeem reward points during the checkout.
+>[Reward Exchange Rates](reward-exchange-rates.md) configuration is required for redemption of reward points by customers and admins during checkout.
 
 Points can be redeemed by Admin users and customers (if enabled) during checkout. In the Payment Method section, a Use my Reward Points checkbox appears above the enabled payment methods. The available points and monetary exchange rate is included. If the available balance is greater than the grand total of the order, no additional payment method is required. The number of reward points that are applied to the order appears with the order totals, subtracted from the grand total, similar to a store credit or gift cards. If reward points are used along with store credit or a gift card, the reward points are deducted first. The store credit or gift card is then deducted if the order total is greater than the redeemable number of reward points.
 

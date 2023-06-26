@@ -11,7 +11,7 @@ Reward points can be awarded to customers according to a [cart price rule](price
 
 >[!NOTE]
 >
->[Reward Exchange Rates](reward-exchange-rates.md) must be configured to be able to redeem reward points during the checkout.
+>[Reward Exchange Rates](reward-exchange-rates.md) configuration is required for redemption of reward points by customers and admins during checkout.
 
 ## Add reward points to a price rule
 
