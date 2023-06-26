@@ -19,14 +19,14 @@ For multi-address orders, a series of single orders is generated---one for each 
 
 [!DNL Commerce] manages inventory for these multi-address orders exactly like single orders. It allows for Source Selection Algorithm recommendations or overrides during shipment, partial shipments, canceling orders, and refunding with stock updates.
 
-![Multi-address at checkout](assets/inventory-multi-ship.png)s
+![Multi-address at checkout](assets/inventory-multi-ship.png){width="350" zoomable="yes"}
 
 ### Refunds
 
 When entering a [credit memo](../stores-purchase/credit-memo-create.md){target="_blank"} to issue a refund, you can return the product quantity to the deducted source. The order information includes the inventory source that shipped the product. It is recommended that you award the returned product quantity through a credit memo when you receive the returned product.
 
 ![Items to Refund with Return to Stock Selected](assets/credit-memo-items-to-refund.png)
-
+{width="350" zoomable="yes"}
 ### Cancel unshipped orders
 
 If an order has not been shipped and is canceled (in full or partial), [!DNL Inventory Management] automatically returns the product stock to the salable quantity. Until invoice and shipping, purchased products are reserved against the salable quantity, not deducted from the actual quantity. At the point of invoicing and shipping the order, the system converts the reservation to an inventory deduction.
