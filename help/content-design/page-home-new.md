@@ -15,7 +15,7 @@ You can maintain a selection of different home pages, and activate the page that
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Default Pages]** section and set **[!UICONTROL CMS Home Page]** to the new page.
 
-   ![Web default pages configuration](./assets/web-default-pages.png)<!-- zoom -->
+   ![Web default pages configuration](./assets/web-default-pages.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Save Config]**.
 
