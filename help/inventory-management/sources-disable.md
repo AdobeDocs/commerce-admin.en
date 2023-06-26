@@ -31,7 +31,7 @@ Setting a source to `disabled` is helpful for the following situations:
 
 1. Click the _Actions_ menu at the upper-left corner and choose **[!UICONTROL Disable]**.
 
-   ![[!DNL Inventory Management] sources - Actions menu](assets/inventory-source-disable.png)
+   ![[!DNL Inventory Management] sources - Actions menu](assets/inventory-source-disable.png){width="600" zoomable="yes"}
 
 1. In the confirmation dialog, click **[!UICONTROL OK]**.
 

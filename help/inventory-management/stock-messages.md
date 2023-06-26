@@ -7,7 +7,7 @@ exl-id: 63114305-e695-445b-91cd-9e0fb2729ec4
 
 You can use a combination of configuration settings to control stock availability messages on product pages and in listings of products on catalog pages.
 
-![Grouped Product with “Out of Stock” Message](assets/storefront-out-of-stock-message.png)
+![Grouped Product with "Out of Stock" Message](assets/storefront-out-of-stock-message.png){width="600" zoomable="yes"}
 
 ## Product page stock messages
 
@@ -61,11 +61,11 @@ When stock is not managed for a product, this combination of configuration and p
 
 The following display options are possible for the category and search results lists, depending on the product availability and configuration settings.
 
-![Out-of-Stock Message on Category Page](assets/storefront-out-of-stock-catalog-page.png)
+![Out-of-Stock Message on Category Page](assets/storefront-out-of-stock-catalog-page.png){width="600" zoomable="yes"}
 
-### Example 1: Show product with “Out of stock" message
+### Example 1: Show product with "Out of stock" message
 
-This combination of configuration settings includes out of stock products in the category and search results lists, and displays an “out of stock” message.
+This combination of configuration settings includes out of stock products in the category and search results lists, and displays an "out of stock" message.
 
 |Stock Options|Setting|Message|
 |--|--|--|
@@ -74,7 +74,7 @@ This combination of configuration settings includes out of stock products in the
 | [!UICONTROL Display Out of Stock Products] | `Yes` |  |
 | [!UICONTROL Display product availability in stock in the frontend] | `No` | None |
 
-### Example 2: Show product without “Out of stock" message
+### Example 2: Show product without "Out of stock" message
 
 This combination of configuration settings includes out of stock products in the category and search results lists, but does not display a message.
 

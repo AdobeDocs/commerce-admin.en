@@ -17,7 +17,7 @@ Start with a _Default Source_ that you can update but not disable. This source i
 
 The following diagram helps illustrate the Sources for a Bicycle Shop merchant selling a mountain bike, which available to stocks and accessible by the SSA for shipments.
 
-![Example sources diagram](assets/diagram-sources.png)
+![Example sources diagram](assets/diagram-sources.png){width="600" zoomable="yes"}
 
 All stores begin with a Default Source that must remain enabled:
 
@@ -40,7 +40,7 @@ The _[!UICONTROL Manage Sources]_ page lists all available inventory locations a
 
 1. Update the information and save the changes.
 
-   ![Manage Sources](assets/inventory-sources.png)
+   ![Manage Sources](assets/inventory-sources.png){width="600" zoomable="yes"}
 
 ## Button bar
 
