@@ -19,11 +19,11 @@ This feature requires the [Adobe Stock Integration][adobe-stock-integration] mod
 
 1. Follow the steps on [Using Adobe Stock Images][using-adobe-stock] to log in and save preview images to the [media storage][media-storage].
 
-    ![Saved preview image](./assets/adobe-stock-gallery-unlicensed.png)<!-- zoom -->
+    ![Saved preview image](./assets/adobe-stock-gallery-unlicensed.png){width="600" zoomable="yes"}
 
-1. Click the three dots below the image (![Asset menu icon](./assets/media-gallery-asset-menu-icon.png)), and then click **[!UICONTROL License]**.
+1. Click the three dots below the image (![Asset menu icon](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}), and then click **[!UICONTROL License]**.
 
-    ![Adobe Stock image actions](./assets/adobe-stock-gallery-image-actions.png)<!-- zoom -->
+    ![Adobe Stock image actions](./assets/adobe-stock-gallery-image-actions.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -31,7 +31,7 @@ This feature requires the [Adobe Stock Integration][adobe-stock-integration] mod
 
 1. In the licensing confirmation dialog, click **[!UICONTROL Confirm]** to license the image.
 
-    ![License Confirmation](./assets/adobe-stock-gallery-license-confirm.png)<!-- zoom -->
+    ![License Confirmation](./assets/adobe-stock-gallery-license-confirm.png){width="350" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -55,7 +55,7 @@ This feature requires the [Adobe Stock Integration][adobe-stock-integration] mod
 
     This action displays a prompt for you to specify a file name that is used to save the image to the [media storage][media-storage]. A default file name is provided, but you can customize the name to your preferences.
 
-    ![Save Adobe Stock licensed image](./assets/adobe-stock-save-licensed.png)<!-- zoom -->
+    ![Save Adobe Stock licensed image](./assets/adobe-stock-save-licensed.png){width="550" zoomable="yes"}
 
 1. Click **[!UICONTROL Confirm]**.
 

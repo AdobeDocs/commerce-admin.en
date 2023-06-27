@@ -11,7 +11,7 @@ You can use widgets to create landing pages for marketing campaigns, and to disp
 
 {{$include /help/_includes/directives-caution.md}}
 
-![New Product List widget](./assets/storefront-home-page-new-products.png)<!-- zoom -->
+![New Product List widget](./assets/storefront-home-page-new-products.png){width="700" zoomable="yes"}
 
 ## Widget Types
 
