@@ -93,7 +93,7 @@ After you install the [!DNL Audience Activation] extension, you must log into yo
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. Expand **[!UICONTROL Services]** and select **[!UICONTROL Real-Time CDP Audiences]**. 
+1. Expand **[!UICONTROL Services]** and select **[!UICONTROL Audience Activation]**. 
 
 1. Enter the configuration credentials found in the [developer console](https://developer.adobe.com/console/home).
 
@@ -127,7 +127,11 @@ To access the **Real-Time CDP Audiences** dashboard, go to the _Admin_ sidebar, 
 
 ## Headless support
 
-You can activate audiences in a headless Adobe Commerce instance, such as AEM and PWA. A headless storefront communicates to the Experience Platform through the [Commerce Integration Framework (CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). The framework provides a server-side API that is implemented using GraphQL. Audience information, like which segment a shopper belongs to, is passed to Commerce through a GraphQL header parameter named: `aep-segments-membership`.
+You can activate audiences in a headless Adobe Commerce instance, such as AEM and PWA, to display cart price rules or dynamic blocks based on the audiences.
+
+### Cart price rules
+
+For cart price rules, a headless storefront communicates to the Experience Platform through the [Commerce Integration Framework (CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). The framework provides a server-side API that is implemented using GraphQL. Audience information, such as a shopper's segment, passes to Commerce through a GraphQL header parameter named: `aep-segments-membership`.
 
 The overall architecture is as follows:
 
@@ -145,7 +149,7 @@ curl 'http://magento.config/graphql' -H 'Authorization: Bearer abc123' -H 'aep-s
 
 ### Dynamic blocks
 
-You can use dynamic blocks in a headless storefront. GraphQL `dynamicBlocks` queries can contain the `audience_id` input attribute. If you specify one or more `audience_id` values in a `dynamicBlocks` query, it returns a list of dynamic blocks assigned to those audiences.
+For dynamic blocks, GraphQL `dynamicBlocks` queries can contain the `audience_id` input attribute. If you specify one or more `audience_id` values in a `dynamicBlocks` query, it returns a list of dynamic blocks assigned to those audiences.
 
 #### Example usage
 

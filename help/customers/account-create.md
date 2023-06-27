@@ -15,6 +15,8 @@ As a store administrator, you can also set the [new account options](../customer
   >
   >Starting from version 2.4.7, customers must reenter their email and password to log in to their account after email confirmation, regardless of the browser.
 
+{{beta-updates}}
+
 ## Create account from the storefront
 
 A store customer creates an account on the storefront.

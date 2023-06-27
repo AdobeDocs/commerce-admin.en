@@ -17,7 +17,7 @@ Use folders to organize images in the new [Media Gallery](media-gallery.md). As 
 
 1. Enter the new folder name and click **[!UICONTROL Confirm]**.
 
-    ![New Folder Name](./assets/media-gallery-folder-name.png)<!-- zoom -->
+    ![New Folder Name](./assets/media-gallery-folder-name.png){width="600" zoomable="yes"}
 
 ## Delete a folder
 
@@ -29,10 +29,8 @@ Use folders to organize images in the new [Media Gallery](media-gallery.md). As 
 
 1. Select the folder to be deleted.
 
-    ![Select Folder](./assets/media-gallery-selected-folder.png)<!-- zoom -->
+    ![Select Folder](./assets/media-gallery-selected-folder.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Delete Folder]**.
 
 1. To confirm the folder deletion, click **[!UICONTROL OK]**.
-
-    ![Delete Confirmation](./assets/media-gallery-delete-folder-confirm.png)<!-- zoom -->

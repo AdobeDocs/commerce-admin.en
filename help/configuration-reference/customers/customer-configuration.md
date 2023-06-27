@@ -34,6 +34,8 @@ exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 
 ## [!UICONTROL Create New Account Options]
 
+{{beta-updates}}
+
 ![Create New Account Options](./assets/customer-configuration-create-new-account-options.png)<!-- zoom -->
 
 ![Create New Account Options (VAT Fields)](./assets/customer-configuration-create-new-account-options-vat.png)<!-- zoom -->

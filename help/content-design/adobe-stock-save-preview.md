@@ -23,7 +23,7 @@ This feature requires the [Adobe Stock Integration][adobe-stock-integration] mod
 
    This action displays a prompt for you to specify a file name that is used to save the image to the [media storage][media-storage]. A default file name is provided, but you can customize the name to your preferences.
 
-   ![Save Adobe Stock preview image](./assets/adobe-stock-save-preview.png)<!-- zoom -->
+   ![Save Adobe Stock preview image](./assets/adobe-stock-save-preview.png){width="500" zoomable="yes"}
 
 1. Click **[!UICONTROL Confirm]**.
 

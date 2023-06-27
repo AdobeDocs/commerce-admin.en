@@ -7,6 +7,8 @@ exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
 
 {{config}}
 
+{{beta-updates}}
+
 ## [!UICONTROL General]
 
 ![General](./assets/sales-general.png)<!-- zoom -->
