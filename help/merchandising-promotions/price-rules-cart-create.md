@@ -275,7 +275,7 @@ The shopping cart price rule actions describe how prices are updated when the co
    |------|-----------|
    |`No` |Free shipping is not available. |
    |`For matching items only` |Free shipping is available only for items that match the conditions of the rule. |
-   |`For shipment with matching items` |Free shipping is available for any shipment that includes matching items. [Free Shipping](../stores-purchase/shipping-free.md) delivery method must be enabled to use this option. |
+   |`For shipment with matching items` |Free shipping is available for any shipment that includes matching items. The [Free Shipping](../stores-purchase/shipping-free.md) delivery method must be enabled to use this option. |
 
    {style="table-layout:auto"}
 
