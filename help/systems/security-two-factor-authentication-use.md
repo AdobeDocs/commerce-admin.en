@@ -27,13 +27,13 @@ For complete instructions, see [Admin Sign In](../getting-started/admin-signin.m
 
 1. When complete, click **[!UICONTROL Confirm]**.
 
-   ![Google Authenticator QR code](./assets/storefront-2fa-google-qrcode.png){width="400"}
+   ![Google Authenticator QR code](./assets/storefront-2fa-google-qrcode.png){width="300"}
 
 ### Step 2: Sign in with [!DNL Google Authenticator]
 
 1. Enter your account credentials and sign in to the Commerce _Admin_.
 
-   ![Google Authenticator - signin](./assets/storefront-2fa-google-code.png){width="400"}
+   ![Google Authenticator - signin](./assets/storefront-2fa-google-code.png){width="300"}
 
 1. Open [!DNL Google Authenticator] on your mobile device.
 
@@ -53,7 +53,7 @@ For complete instructions, see [Admin Sign In](../getting-started/admin-signin.m
 
 1. When the [!DNL Duo] Setup page appears, click **[!UICONTROL Start setup]** and do the following:
 
-   ![Example storefront - Duo setup](./assets/storefront-2fa-duo-user1.png){width="400"}
+   ![Example storefront - Duo setup](./assets/storefront-2fa-duo-user1.png){width="300"}
 
 1. Select your device.
 
@@ -71,7 +71,7 @@ For complete instructions, see [Admin Sign In](../getting-started/admin-signin.m
    - `Automatically send this device a Duo Push` — Sends a message to your device to accept or deny for access.
    - `Automatically call this device` — Calls and provides a passcode to enter for access.
 
-   ![Duo verification actions](./assets/storefront-2fa-duo-user7.png){width="400"}
+   ![Duo verification actions](./assets/storefront-2fa-duo-user7.png){width="300"}
 
 ### Step 2: Sign in with [!DNL Duo Security]
 
@@ -79,7 +79,7 @@ The following example shows the options for `Ask me to choose an authenticator m
 
 1. When prompted, enter your _Admin_ credentials to sign in.
 
-   ![Duo - signin](./assets/storefront-2fa-duo-auth.png){width="400"}
+   ![Duo - signin](./assets/storefront-2fa-duo-auth.png){width="300"}
 
 1. Choose the method that you want to use to authenticate:
 
@@ -97,7 +97,7 @@ The following example shows the options for `Ask me to choose an authenticator m
 
 1. Enter your account credentials and sign in to the _Admin_.
 
-   ![[!DNL Authy] registration](./assets/storefront-2fa-authy-auth.png){width="400"}
+   ![[!DNL Authy] registration](./assets/storefront-2fa-authy-auth.png){width="300"}
 
 1. When prompted to register yourself with Authy, do the following:
 
@@ -113,13 +113,13 @@ The following example shows the options for `Ask me to choose an authenticator m
 
 1. When complete, click **[!UICONTROL Confirm]**.
 
-   ![[!DNL Authy] verification code](./assets/storefront-2fa-authy-verify.png){width="400"}
+   ![[!DNL Authy] verification code](./assets/storefront-2fa-authy-verify.png){width="300"}
 
 ### Step 2: Sign in with [!DNL Authy]
 
 1. Enter your account credentials and sign in to the _Admin_.
 
-   ![[!DNL Authy] - signin](./assets/storefront-2fa-authy-access.png){width="400"}
+   ![[!DNL Authy] - signin](./assets/storefront-2fa-authy-access.png){width="300"}
 
 1. Choose one of the following methods to authenticate:
 
@@ -141,7 +141,7 @@ Follow the instructions from the solution provider to configure your U2F device.
 
 1. Enter your account credentials and sign in to the _Admin_.
 
-   ![U2F key access](./assets/storefront-2fa-u2f.png){width="400"}
+   ![U2F key access](./assets/storefront-2fa-u2f.png){width="300"}
 
 1. Press the button on the key.
 

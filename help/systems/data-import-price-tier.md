@@ -13,7 +13,7 @@ Rather than entering [tier prices](../catalog/product-price-tier.md) manually fo
 
 The following example exports tier pricing data for a single product. Then, you can use the exported data as a template for bulk imports of tier price data. To learn more about exporting advanced pricing data, see [Advanced pricing data](data-attributes-product.md#advanced-pricing-attributes).
 
-![Product tiered pricing](./assets/price-tier-customer-group-discount.png){width="500"}
+![Product tiered pricing](./assets/price-tier-customer-group-discount.png){width="600" zoomable="yes"}
 
 1. On _Admin_ sidebar, go to  **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_ > **[!UICONTROL Export]**.
 
@@ -23,7 +23,7 @@ The following example exports tier pricing data for a single product. Then, you 
 
     - For tier prices that are based on a discount percentage, enter the SKU of each product to be exported, separated by a comma.
 
-      ![Data export - product SKUs](./assets/price-tier-export-sku.png){width="500"}
+      ![Data export - product SKUs](./assets/price-tier-export-sku.png){width="600" zoomable="yes"}
 
     - For tier prices that are based on a fixed amount, enter the SKU of each product.
 
@@ -31,7 +31,7 @@ The following example exports tier pricing data for a single product. Then, you 
 
 1. Locate the export file at the downloads location for your web browser and open the file.
 
-   ![Example - exported customer group discount tier price data](./assets/price-tier-customer-group-discount-export.png){width="500"}
+   ![Example - exported customer group discount tier price data](./assets/price-tier-customer-group-discount-export.png){width="600" zoomable="yes"}
 
 **_Exported tier price data_**
 
