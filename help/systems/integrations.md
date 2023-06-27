@@ -1,13 +1,13 @@
 ---
-title: Third-party integrations
+title: Integrations
 description: Learn how to configure OAuth credentials and redirect URL for third-party integrations.
 exl-id: b7632994-b07b-4cdb-b62c-79bc7a3a01c8
 ---
-# Third-party integrations
+# Integrations
 
-Establishes the location of [OAuth](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/){:target="_blank"} credentials and redirect URL for third-party integrations, and identifies the available API resources that are needed for the integration.
+Defining an integration in the Commerce Admin establishes the location of OAuth credentials and redirect URL for third-party integrations, and identifies the available API resources that are needed for the integration. For more detailed information about the integration registration process, see [OAuth-based authentication](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) in the Commerce developer documentation.
 
-![Integrations](./assets/integrations.png)<!-- zoom -->
+![Integrations](./assets/integrations.png){width="700" zoomable="yes"}
 
 ## Onboarding workflow
 
@@ -18,6 +18,8 @@ Establishes the location of [OAuth](https://developer.adobe.com/commerce/webapi/
 ## Add an integration
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Extensions]_ > **[!UICONTROL Integrations]**.
+
+   ![New integration](./assets/integration-new.png){width="600" zoomable="yes"}
 
 1. Enter the following integration information:
 
@@ -33,8 +35,6 @@ Establishes the location of [OAuth](https://developer.adobe.com/commerce/webapi/
 
    - When prompted, enter your password to confirm your identity.
 
-   ![New integration](./assets/integration-new.png)<!-- zoom -->
-
 1. In the left panel, choose **[!UICONTROL API]** and do the following:
 
    - Set **[!UICONTROL Resource Access]** to one of the following:
@@ -44,7 +44,7 @@ Establishes the location of [OAuth](https://developer.adobe.com/commerce/webapi/
 
    - For custom access, select the checkbox of each resource that is needed.
 
-      ![Integrations - available API](./assets/integrations-available-api.png)<!-- zoom -->
+      ![Integrations - available API](./assets/integrations-available-api.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save]**.
 
@@ -60,7 +60,7 @@ By default, a saved integration appears on the grid with an `Inactive` status. T
 
    This action displays the Integration Tokens for Extensions. Copy this information to a secure, encrypted location for use with your integration.
 
-   ![Integration Tokens for Extensions](./assets/integration-tokens-for-extensions.png)<!-- zoom -->
+   ![Integration Tokens for Extensions](./assets/integration-tokens-for-extensions.png){width="600" zoomable="yes"}
 
 1. In the upper-right corner, click **[!UICONTROL Done]**.
 
@@ -88,13 +88,13 @@ By default, the system does not permit anonymous guest access to CMS, catalog, a
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Web API Security Setting]** section.
 
-   ![Services configuration - web API security settings](./assets/web-api-security.png)<!-- zoom -->
+   ![Services configuration - web API security settings](../configuration-reference/services/assets/web-api-security.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Allow Anonymous Guest Access]** to `Yes`.
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-See [Restricting access to anonymous web APIs](https://developer.adobe.com/commerce/webapi/rest/use-rest/anonymous-api-security/){:target="_blank"} in the developer documentation.
+For additional information, see [Restricting access to anonymous web APIs](https://developer.adobe.com/commerce/webapi/rest/use-rest/anonymous-api-security/) in the Commerce developer documentation.
 
 ## Delete an integration
 

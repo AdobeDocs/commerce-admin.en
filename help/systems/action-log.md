@@ -15,7 +15,7 @@ By default, all admin actions are enabled and logged. To configure Admin actions
 
 View the [Action Logs Report](action-log-report.md) to review logged admin actions and details.
 
-![Advanced configuration - admin actions logging](../configuration-reference/advanced/assets/admin-actions-logging.png)<!-- zoom -->
+![Advanced configuration - admin actions logging](../configuration-reference/advanced/assets/admin-actions-logging.png){width="600" zoomable="yes"}
 
 For a detailed list of the configuration settings, see [Admin Actions Log Archiving](../configuration-reference/advanced/system.md) in the _Configuration Reference_.
 

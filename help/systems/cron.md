@@ -33,7 +33,7 @@ Make sure that the [base URLs](../stores-purchase/store-urls.md) for the store a
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Cron]** section.
 
-   ![Advanced configuration - cron tasks](../configuration-reference/advanced/assets/system-cron.png)<!-- zoom -->
+   ![Advanced configuration - cron tasks](../configuration-reference/advanced/assets/system-cron.png){width="600" zoomable="yes"}
 
 1. Complete the following settings for the **[!UICONTROL Index]** and **[!UICONTROL Default]** groups.
 
@@ -47,6 +47,6 @@ Make sure that the [base URLs](../stores-purchase/store-urls.md) for the store a
    - **[!UICONTROL Failure History Lifetime]** - Defines the length of time (in minutes) that the history of cron jobs with an `Error` status remains in the database.
    - **[!UICONTROL Use Separate Process]** - Defines whether all cron jobs from the group are run in a separate system process. Options: `Yes` / `No`
 
-   ![Advanced configuration - cron group index](../configuration-reference/advanced/assets/system-cron-group-index.png)<!-- zoom -->
+   ![Advanced configuration - cron group index](../configuration-reference/advanced/assets/system-cron-group-index.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Config]**.

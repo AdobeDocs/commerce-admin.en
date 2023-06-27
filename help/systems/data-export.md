@@ -1,9 +1,9 @@
 ---
-title: Export
+title: Export data
 description: Learn about data export filters and attributes, and how to export data from your store.
 exl-id: 80e7a2fc-beaa-416e-a00f-a3cad5055975
 ---
-# Export
+# Export data
 
 The best way to become familiar with the structure of your database is to export the data and open it in a spreadsheet. After you become familiar with the process, you can use it as an efficient way to manage large amounts of information.
 
@@ -15,7 +15,7 @@ Data export is an asynchronous operation, which executes in the background so th
 
 Export filters are used to specify the data that you want to in the export file, based on attribute value. In addition, you can specify which attribute data you want to include or exclude from the export.
 
-![Data export criteria](./assets/data-export-entity-attributes-exclude.png)<!-- zoom -->
+![Data export criteria](./assets/data-export-entity-attributes-exclude.png){width="600" zoomable="yes"}
 
 ### Export filters
 
@@ -53,27 +53,23 @@ The checkbox in the first column is used to exclude attributes from the export f
     - `Customer Addresses`
     - `Stock Sources`
 
+   ![Data export settings](./assets/data-export-settings.png){width="600" zoomable="yes"}
+
 1. Accept the default **[!UICONTROL Export File Format]** of CSV.
 
 1. If you want to enclose any special characters that might be found in the data as an _escape sequence_, select the **[!UICONTROL Fields Enclosure]** checkbox.
-
-   ![Data export settings](./assets/data-export-settings.png)<!-- zoom -->
 
 1. If needed, change the display of the entity attributes.
 
    By default, the Entity Attributes section lists all the available attributes in alphabetical order. You can use the standard [list controls](../getting-started/admin-grid-controls.md) to search for specific attributes and to sort the list. The Search and Reset Filter controls control the display of the list, but have no effect on the selection of attributes to be included in the export file.
 
-   ![Data export filtered entity attributes](./assets/data-export-filter-entity-attributes.png)<!-- zoom -->
+   ![Data export filtered entity attributes](./assets/data-export-filter-entity-attributes.png){width="600" zoomable="yes"}
 
 1. To filter the exported data based on attribute value, do the following:
 
-    - To export only records with specific attribute values, enter the required value in the **Filter** column. The following example exports only a specific SKU.
-
-      ![Data export - product based on SKU](./assets/data-export-entity-attributes-sku.png)<!-- zoom -->
+    - To export only records with specific attribute values, enter the required value in the **[!UICONTROL Filter]** column. The following example exports only a specific SKU.
 
     - To omit an attribute from the export, select the **[!UICONTROL Exclude]** checkbox at the beginning of the row. For example, to export only the `sku` and `image` columns, select the checkbox of every other attribute. The column appears in the export file, but without any values.
-
-      ![Data export - exclude attributes](./assets/data-export-filter-exclude.png)<!-- zoom -->
 
 1. Scroll down and click **[!UICONTROL Continue]** in the lower-right corner of the page.
 

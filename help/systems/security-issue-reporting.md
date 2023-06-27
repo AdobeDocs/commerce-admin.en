@@ -15,7 +15,7 @@ The `security.txt` file contains contact information and security-related links 
 
 1. In the _[!UICONTROL General]_ section, set **[!UICONTROL Enable]** to `Yes`.
 
-   ![General security configuration](../configuration-reference/security/assets/txt-general.png)<!-- zoom -->
+   ![General security configuration](../configuration-reference/security/assets/txt-general.png){width="600" zoomable="yes"}
 
 1. Under _[!UICONTROL Contact Information]_, enter the following:
 
@@ -23,7 +23,7 @@ The `security.txt` file contains contact information and security-related links 
 
    - The URL of your store's **[!UICONTROL Contact Page]**. This page could either be a list of store security contacts or your _Contact Us_ page.
 
-   ![Contact Information configuration](../configuration-reference/security/assets/txt-contact-info.png)<!-- zoom -->
+   ![Contact Information configuration](../configuration-reference/security/assets/txt-contact-info.png){width="600" zoomable="yes"}
 
 1. Under _[!UICONTROL Other Information]_, enter the following:
 
@@ -41,6 +41,6 @@ The `security.txt` file contains contact information and security-related links 
 
    The digital signature must be set up from the CLI (command-line interface) of the server. To learn more, see [Security.txt](https://github.com/magento/security-package/blob/1.0-develop/Securitytxt/README.md) on GitHub.
 
-   ![Other Information](../configuration-reference/security/assets/txt-other-info.png)<!-- zoom -->
+   ![Other Information](../configuration-reference/security/assets/txt-other-info.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Config]**.
