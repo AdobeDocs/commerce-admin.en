@@ -1,6 +1,6 @@
 ---
 title: The Admin sidebar
-description: Placeholder
+description: The Commerce Admin uses a left sidebar to access the main menu. Merchants can access all the Admin tools that they need for configuraing and managing their store. 
 exl-id: 2619645e-22fc-4365-80c5-14e2ce7ea8df
 ---
 # The Admin sidebar
