@@ -6,7 +6,7 @@ description: "Verify that your system meets the requirements necessary to use th
 
 The [!DNL AR Viewer] is compatible with both [!DNL Magento Open Source] and Adobe Commerce. See [Lifecycle Policy](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html){target=_blank} for more information about supported versions.
 
-Refer to [Install the [!DNL AR Viewer] extension](../catalog/ar-viewer-setup.md) for more information.
+See [Install the [!DNL AR Viewer] extension](../catalog/ar-viewer-setup.md) for more information.
 
 In order to use [!DNL AR Viewer], you must have the following available for your instance:
 
