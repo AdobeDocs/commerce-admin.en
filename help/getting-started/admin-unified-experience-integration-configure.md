@@ -143,7 +143,7 @@ Enable the Commerce Events extension (`magento/commerce-eventing`) to send custo
 
 ### Configure the Commerce Events integration
 
-Complete the following tasks to configure the Commerce Events integration. For detailed instructions, see [Adobe I/O Events for Commerce](https://developer.adobe.com/commerce/events/get-started/project-setup/) developer documentation.
+Configure the Commerce Events integration by completing the following tasks. For detailed instructions, see [Adobe I/O Events for Commerce](https://developer.adobe.com/commerce/events/get-started/project-setup/) developer documentation.
 
 1. [Create an App Builder project](https://developer.adobe.com/commerce/events/get-started/project-setup/) to receive event data from the Commerce instance.
 

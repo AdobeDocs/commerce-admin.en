@@ -40,7 +40,7 @@ Administrators can open the Admin and the Storefront for each project from the [
 
 ## Authentication flow
 
-When the Experience Cloud integration is enabled, administrators use the following workflow to authenticate and access Commerce projecs.
+When the Experience Cloud integration is enabled, administrators use the following workflow to authenticate and access Commerce projects.
 
 1. Log in through the Experience Cloud sign in page.
 
