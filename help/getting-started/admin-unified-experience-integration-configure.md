@@ -91,7 +91,7 @@ Enable the Commerce Admin Unified Experience extension, and then log in through 
 >
 >These instructions show how a Commerce Cloud project administrator can enable the extension using the Adobe Commerce CLI. Commerce Admin users can also enable the extension by updating the [Commerce store configuration settings](admin-unified-experience-integration-manage.md#from-the-commerce-admin).
 
-1. From the root directory of your Cloud project environment on your local workstation, use the [magento-cloud CLI tool](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html) to log in to the Commerce application server.
+1. From the root directory of your Cloud project environment on your local workstation, use the [magento-cloud CLI tool](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli-overview.html) to log in to the Commerce application server.
 
    ```bash
    magento-cloud ssh
@@ -179,7 +179,7 @@ Configure the Commerce Events integration by completing the following tasks. For
 
 Verify that a Commerce Administrator can log in to Experience Cloud to view available Commerce projects and access the Admin and Storefront for each project.
 
-1. [Sign in to Experience Cloud](https://experiencecloud.adobe.com/login?referrer_uri=https://experiencecloud.adobe.com/library) using the Adobe ID and organization associated with the Commerce instance.
+1. [Sign in to Experience Cloud](https://experiencecloud.adobe.com/library) using the Adobe ID and organization associated with the Commerce instance.
 
    ![Access Commerce projects from the Experience Cloud home page](./assets/admin-uex-home-page.png){width="600" zoomable="yes"}
 
