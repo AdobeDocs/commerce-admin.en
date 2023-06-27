@@ -21,7 +21,7 @@ By default, links inherit their style from the style sheet of the theme.
 
 1. Position the cursor where you want the widget to appear and click the _Insert Widget_ icon.
 
-   ![Editor toolbar - Insert Widget](./assets/editor-toolbar-widget-button.png)<!-- zoom -->
+   ![Editor toolbar - Insert Widget](./assets/editor-toolbar-widget-button.png){width="700" zoomable="yes"}
 
    If you do not have Page Builder enabled and prefer to work with the code, click **[!UICONTROL Show / Hide Editor]**. Position the insertion point in the text where you want the widget to appear. Then, click **[!UICONTROL Insert Widget]**.
 

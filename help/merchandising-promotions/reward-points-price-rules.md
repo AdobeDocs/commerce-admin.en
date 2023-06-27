@@ -9,6 +9,10 @@ exl-id: 6e23b56d-64e4-435d-9f4c-ee3f400b0250
 
 Reward points can be awarded to customers according to a [cart price rule](price-rules-cart.md). The award of points can be the only action of the price rule, or can be used with a discount.
 
+>[!NOTE]
+>
+>[Reward Exchange Rates](reward-exchange-rates.md) configuration is required for redemption of reward points by customers and Admin users during checkout.
+
 ## Add reward points to a price rule
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_ > **[!UICONTROL Cart Price Rules]**.
