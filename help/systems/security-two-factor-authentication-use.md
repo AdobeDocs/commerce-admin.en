@@ -27,13 +27,13 @@ For complete instructions, see [Admin Sign In](../getting-started/admin-signin.m
 
 1. When complete, click **[!UICONTROL Confirm]**.
 
-   ![Google Authenticator QR code](./assets/storefront-2fa-google-qrcode.png)<!-- zoom -->
+   ![Google Authenticator QR code](./assets/storefront-2fa-google-qrcode.png){width="300"}
 
 ### Step 2: Sign in with [!DNL Google Authenticator]
 
 1. Enter your account credentials and sign in to the Commerce _Admin_.
 
-   ![Google Authenticator - signin](./assets/storefront-2fa-google-code.png)<!-- zoom -->
+   ![Google Authenticator - signin](./assets/storefront-2fa-google-code.png){width="300"}
 
 1. Open [!DNL Google Authenticator] on your mobile device.
 
@@ -53,35 +53,25 @@ For complete instructions, see [Admin Sign In](../getting-started/admin-signin.m
 
 1. When the [!DNL Duo] Setup page appears, click **[!UICONTROL Start setup]** and do the following:
 
-   ![Example storefront - Duo setup](./assets/storefront-2fa-duo-user1.png)<!-- zoom -->
+   ![Example storefront - Duo setup](./assets/storefront-2fa-duo-user1.png){width="300"}
 
 1. Select your device.
-
-   ![Duo authentication - select device ](./assets/storefront-2fa-duo-user2.png)<!-- zoom -->
 
 1. When prompted, enter your phone number and click **[!UICONTROL Continue]**.
 
    This example requests your phone number, because we are using a mobile device.
 
-   ![Duo authentication - enter phone number](./assets/storefront-2fa-duo-user3.png)<!-- zoom -->
-
 1. When prompted to install [!DNL Duo Mobile] for your phone type, click **[!UICONTROL I have Duo Mobile]**.
-
-   ![Duo authentication - verify app installation](./assets/storefront-2fa-duo-user5.png)<!-- zoom -->
 
 1. Open [!DNL Duo Mobile] and scan the QR code to sync the authenticator with Adobe Commerce. A checkmark appears when the activation is complete.
 
-   ![Duo authentication - verification code](./assets/storefront-2fa-duo-user6.png)<!-- zoom -->
-
 1. To configure your settings for the device, choose the action that you want to take place when you sign in.
 
-   `Ask me to choose an authenticator method` — Allows the user to select when logging in and authenticating in the _Admin_.
+   - `Ask me to choose an authenticator method` — Allows the user to select when logging in and authenticating in the _Admin_.
+   - `Automatically send this device a Duo Push` — Sends a message to your device to accept or deny for access.
+   - `Automatically call this device` — Calls and provides a passcode to enter for access.
 
-   `Automatically send this device a Duo Push` — Sends a message to your device to accept or deny for access.
-
-   `Automatically call this device` — Calls and provides a passcode to enter for access.
-
-   ![Duo verification actions](./assets/storefront-2fa-duo-user7.png)<!-- zoom -->
+   ![Duo verification actions](./assets/storefront-2fa-duo-user7.png){width="300"}
 
 ### Step 2: Sign in with [!DNL Duo Security]
 
@@ -89,15 +79,13 @@ The following example shows the options for `Ask me to choose an authenticator m
 
 1. When prompted, enter your _Admin_ credentials to sign in.
 
-   ![Duo - signin](./assets/storefront-2fa-duo-auth.png)<!-- zoom -->
+   ![Duo - signin](./assets/storefront-2fa-duo-auth.png){width="300"}
 
 1. Choose the method that you want to use to authenticate:
 
-   `Send Me a Push` — Click to receive a push notice to [!DNL Duo Mobile]. Accept to authenticate.
-
-   `Call Me` — Click this option, receive a call with a code, and enter the pass code.
-
-   `Enter a Passcode` — Click this option to receive and enter a pass code.
+   - `Send Me a Push` — Click to receive a push notice to [!DNL Duo Mobile]. Accept to authenticate.
+   - `Call Me` — Click this option, receive a call with a code, and enter the pass code.
+   - `Enter a Passcode` — Click this option to receive and enter a pass code.
 
 1. Complete the push or code to fully sign in to the _Admin_.
 
@@ -109,7 +97,7 @@ The following example shows the options for `Ask me to choose an authenticator m
 
 1. Enter your account credentials and sign in to the _Admin_.
 
-   ![[!DNL Authy] registration](./assets/storefront-2fa-authy-auth.png)<!-- zoom -->
+   ![[!DNL Authy] registration](./assets/storefront-2fa-authy-auth.png){width="300"}
 
 1. When prompted to register yourself with Authy, do the following:
 
@@ -125,27 +113,25 @@ The following example shows the options for `Ask me to choose an authenticator m
 
 1. When complete, click **[!UICONTROL Confirm]**.
 
-   ![[!DNL Authy] verification code](./assets/storefront-2fa-authy-verify.png)<!-- zoom -->
+   ![[!DNL Authy] verification code](./assets/storefront-2fa-authy-verify.png){width="300"}
 
 ### Step 2: Sign in with [!DNL Authy]
 
 1. Enter your account credentials and sign in to the _Admin_.
 
-   ![[!DNL Authy] - signin](./assets/storefront-2fa-authy-access.png)<!-- zoom -->
+   ![[!DNL Authy] - signin](./assets/storefront-2fa-authy-access.png){width="300"}
 
 1. Choose one of the following methods to authenticate:
 
-   `Use one touch` — Sends an alert to your [!DNL Authy] app. In the app, accept the access.
-
-   `Use authy token` — Prompts to enter a code from your [!DNL Authy] app.
+   - `Use one touch` — Sends an alert to your [!DNL Authy] app. In the app, accept the access.
+   - `Use authy token` — Prompts to enter a code from your [!DNL Authy] app.
 
 1. If you have trouble signing in, choose the method you want to use to receive the code. Then, enter the code that you receive to access the _Admin_.
 
    The app includes these additional emergency methods.
 
-   `Send me a code via SMS` — A text SMS message is sent to the configured mobile device.
-
-   `Send me a code via phone call` — The user receives a phone call with a code.
+   - `Send me a code via SMS` — A text SMS message is sent to the configured mobile device.
+   - `Send me a code via phone call` — The user receives a phone call with a code.
 
    Your account is verified and opens.
 
@@ -155,7 +141,7 @@ Follow the instructions from the solution provider to configure your U2F device.
 
 1. Enter your account credentials and sign in to the _Admin_.
 
-   ![U2F key access](./assets/storefront-2fa-u2f.png)<!-- zoom -->
+   ![U2F key access](./assets/storefront-2fa-u2f.png){width="300"}
 
 1. Press the button on the key.
 

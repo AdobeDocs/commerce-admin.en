@@ -24,7 +24,7 @@ The Admin [actions](action-log.md) archive lists the CSV log files that are stor
    - **[!UICONTROL Log Entry Lifetime, Days]** — Enter the number of days that you want to keep the log entries in the database before they are removed.
    - **[!UICONTROL Log Archiving Frequency]** — Set to `Daily`, `Weekly`, or `Monthly`.
 
-   ![Advanced configuration - admin actions log archiving](../configuration-reference/advanced/assets/system-admin-actions-log-archiving.png)<!-- zoom -->
+   ![Advanced configuration - admin actions log archiving](../configuration-reference/advanced/assets/system-admin-actions-log-archiving.png){width="600" zoomable="yes"}
 
    For a detailed list of the configuration settings, see [Admin Actions Log Archiving](../configuration-reference/advanced/system.md) in the _Configuration Reference_.
 
@@ -34,4 +34,4 @@ The Admin [actions](action-log.md) archive lists the CSV log files that are stor
 
 On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Actions Logs]_ > **[!UICONTROL Archive]**.
 
-![Action log archive](./assets/action-log-archive.png)<!-- zoom -->
+![Action log archive](./assets/action-log-archive.png){width="600" zoomable="yes"}

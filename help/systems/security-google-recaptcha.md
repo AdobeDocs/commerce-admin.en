@@ -13,7 +13,7 @@ Google reCAPTCHA is configured separately for the Admin and storefront.
 
 - For the storefront, Google reCAPTCHA can be used to sign in to a [customer account](../customers/customer-sign-in.md), send a message from the [Contact Us](../getting-started/store-details.md#contact-us-form) page, and in numerous other storefront locations.
 
-   ![Google reCAPTCHA - customer login](./assets/customer-account-login-recaptcha.png)<!-- zoom -->
+   ![Google reCAPTCHA - customer login](./assets/customer-account-login-recaptcha.png){width="700" zoomable="yes"}
 
 Google reCAPTCHA can be implemented in several ways:
 
@@ -54,11 +54,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
 1. (Optional) Select the **[!UICONTROL Send alerts to owners]** checkbox to send notification if Google detects issues or suspicious traffic.
 
-   ![Google reCAPTCHA - site registration](./assets/recaptcha-register-new-site.png)<!-- zoom -->
-
 1. Click **[!UICONTROL Submit]** to complete registration and receive keys.
-
-   ![Google reCAPTCHA Keys](./assets/recaptcha-keys.png)<!-- zoom -->
 
    >[!IMPORTANT]
    >
@@ -90,7 +86,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
    - For **[!UICONTROL Language Code]**, enter the two-character code to specify the [language that is used for Google reCAPTCHA text and messaging](https://developers.google.com/recaptcha/docs/language).
 
-   ![reCAPTCHA v2 - "I am not a robot"](../configuration-reference/security/assets/recaptcha-admin-v2-not-robot.png)<!-- zoom -->
+   ![reCAPTCHA v2 - "I am not a robot"](../configuration-reference/security/assets/recaptcha-admin-v2-not-robot.png){width="600" zoomable="yes"}
 
 1. To use _[!DNL reCAPTCHA v2 Invisible]_, expand the **[!UICONTROL reCAPTCHA v2 Invisible]** section and do the following:
 
@@ -104,7 +100,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
    - For **[!UICONTROL Language Code]**, enter a two-character code that specifies the [language that is used for Google reCAPTCHA text and messaging](https://developers.google.com/recaptcha/docs/language).
 
-   ![reCAPTCHA v2 Invisible](../configuration-reference/security/assets/recaptcha-admin-v2-invisible.png)<!-- zoom -->
+   ![reCAPTCHA v2 Invisible](../configuration-reference/security/assets/recaptcha-admin-v2-invisible.png){width="600" zoomable="yes"}
 
 1. To use _[!DNL reCAPTCHA v3 Invisible]_, expand the **[!UICONTROL reCAPTCHA v3 Invisible]** section and do the following:
 
@@ -120,11 +116,11 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
    - For **[!UICONTROL Language Code]**, enter a two-character code that specifies the [language that is used for Google reCAPTCHA text and messaging](https://developers.google.com/recaptcha/docs/language).
 
-   ![reCAPTCHA v3 Invisible](../configuration-reference/security/assets/recaptcha-admin-v3-invisible.png)<!-- zoom -->
+   ![reCAPTCHA v3 Invisible](../configuration-reference/security/assets/recaptcha-admin-v3-invisible.png){width="600" zoomable="yes"}
 
 1. Expand **[!UICONTROL reCAPTCHA Validation Failure Messages]** and enter the messages that appear in the Admin if validation fails or is unable cannot be completed.
 
-   ![reCAPTCHA Failure messages](../configuration-reference/security/assets/recaptcha-admin-failure-messages.png)<!-- zoom -->
+   ![reCAPTCHA Failure messages](../configuration-reference/security/assets/recaptcha-admin-failure-messages.png){width="600" zoomable="yes"}
 
 1. Expand the **[!UICONTROL Admin Panel]** section and configure the following as needed:
 
@@ -132,7 +128,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
    - Set **[!UICONTROL Enable for Forgot Password]** to the reCAPTCHA type that you want to use for password reset requests.
 
-   ![reCAPTCHA admin options](../configuration-reference/security/assets/recaptcha-admin-panel.png)<!-- zoom -->
+   ![reCAPTCHA admin options](../configuration-reference/security/assets/recaptcha-admin-panel.png){width="600" zoomable="yes"}
 
 ## Step 3: Configure Google reCAPTCHA for the storefront
 
@@ -168,7 +164,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
    - [!UICONTROL Enable for Coupon Codes]
    - [!UICONTROL Enable for PayPal PayflowPro payment form]
 
-   ![Storefront options configuration](../configuration-reference/security/assets/recaptcha-storefront.png)<!-- zoom -->
+   ![Storefront options configuration](../configuration-reference/security/assets/recaptcha-storefront.png){width="600" zoomable="yes"}
 
 ## Step 4: Save the configuration
 

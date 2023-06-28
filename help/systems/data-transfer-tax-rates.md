@@ -33,7 +33,7 @@ If you conduct business in several states and ship a large quantity of product, 
    - Range To
    - A column for each store view
 
-   ![Exported data - tax rates](./assets/data-exported-tax-rates.png)<!-- zoom -->
+   ![Exported data - tax rates](./assets/data-exported-tax-rates.png){width="500" zoomable="yes"}
 
 1. Open the new tax rate data in a second instance of the spreadsheet, so you can see them side by side.
 
@@ -74,7 +74,7 @@ You have two spreadsheets open, side by side. One contains the Commerce export f
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_ > **[!UICONTROL Import/Export Tax Rates]**.
 
-1. Click **[!UICONTROL Browse]** and choose the CSV tax rate file that you prepared to import.
+1. Click **[!UICONTROL Choose File]** and choose the CSV tax rate file that you prepared to import.
 
 1. Click **[!UICONTROL Import Tax Rates]**.
 
@@ -86,6 +86,6 @@ You have two spreadsheets open, side by side. One contains the Commerce export f
 
 1. Use the page controls to view the new tax rates.
 
-   ![Data import tax rates](./assets/data-imported-tax-zones-rates.png)<!-- zoom -->
+   ![Data import tax rates](../stores-purchase/assets/tax-zones-rates.png){width="600" zoomable="yes"}
 
 1. Run some test transactions in your store with customers from different ZIP codes to make sure that the new tax rates work correctly.

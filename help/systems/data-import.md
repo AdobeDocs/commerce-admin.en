@@ -1,9 +1,9 @@
 ---
-title: Import
+title: Import data
 description: Learn about data import guidelines and how to use the data import operations.
 exl-id: caae8811-445e-49d4-aa90-226a355732bc
 ---
-# Import
+# Import data
 
 Data for all product types can be imported into the store. In addition, you can import products, advanced pricing data, customer data, customer address data, and product images. Import supports the following operations:
 
@@ -57,7 +57,7 @@ Special characters (such as the equal sign, greater and less than symbols, singl
 
 When importing product data, new product data is added to existing product data entries in the database. All fields except SKU can be updated through import. All existing product data is replaced with the imported new data. Exercise caution when replacing data. All existing product data is cleared and all references in the system is lost.
 
-![Data import](./assets/import-options.png)<!-- zoom -->
+![Data import](./assets/import-options.png){width="600" zoomable="yes"}
 
 ### Step 1: Prepare the data
 
@@ -77,17 +77,15 @@ When importing product data, new product data is added to existing product data 
 
 1. Locate the export file at the downloads location for your web browser and open the file.
 
-   ![Open download sample file](./assets/data-import-download-sample-file.png)<!-- zoom -->
-
    The sample file includes column headings with placeholder data for the product types.
 
-   ![Import data sample file](./assets/data-export-sample-data.png)<!-- zoom -->
+   ![Import data sample file](./assets/data-export-sample-data.png){width="600" zoomable="yes"}
 
 1. Examine the structure of the sample file and use it to prepare your CSV import file, making sure that the column headings are spelled correctly.
 
 1. Verify that the size of your import file does not exceed the limit shown in the message.
 
-   ![Data import size notification](./assets/data-import-size-notification.png)<!-- zoom -->
+   ![Data import size notification](./assets/data-import-size-notification.png){width="600"}
 
 1. If the import data includes paths to product images, make sure that the image files have been uploaded to the appropriate location.
 
@@ -96,6 +94,8 @@ When importing product data, new product data is added to existing product data 
    If the images reside on an external server, make sure that you have the full URL to the directory that contains the images.
 
 ### Step 2: Choose the import behavior
+
+![Data import behavior](./assets/data-import-import-behavior.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Import Behavior]** to one of the following:
 
@@ -122,9 +122,9 @@ When importing product data, new product data is added to existing product data 
 
 1. If you want to enclose any special characters that might be found in the data as an _escape sequence_, select the **[!UICONTROL Fields Enclosure]** checkbox.
 
-   ![Data import behavior](./assets/data-import-import-behavior.png)<!-- zoom -->
-
 ### Step 3: Identify the import file
+
+![Data import file](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Choose File]** to select the file to import.
 
@@ -138,9 +138,7 @@ When importing product data, new product data is added to existing product data 
    >
    >Starting with the Adobe Commerce and Magento Open Source `2.3.2` release, the path specified in _[!UICONTROL Images File Directory]_ concatenates for import to the images base directory: `<Magento-root-folder>/var/import/images`. For example, place the `product_images` files in the `<Magento-root-directory>/var/import/images/product_images` folder. The import images base directory can be configured in the `\Magento\ImportExport\etc\config.xml` file. If the Remote storage module is enabled, import files to the `<remote-storage-root-directory>/var/import/images/product_images` folder.
 
-   To learn more about importing product images, see [Importing Product Images](data-import-product-images.md).
-
-   ![Data import file](./assets/data-import-file-to-import.png)<!-- zoom -->
+   To learn more about importing product images, see [Import product images](data-import-product-images.md).
 
 ### Step 4: Check the import data
 
@@ -150,7 +148,7 @@ When importing product data, new product data is added to existing product data 
 
    If the import data is valid, the following message appears:
 
-   ![Success message - file is valid](./assets/data-import-validation-message.png)<!-- zoom -->
+   ![Success message - file is valid](./assets/data-import-validation-message.png){width="600"}
 
 1. If the file is valid, click **[!UICONTROL Import]**.
 
@@ -160,7 +158,7 @@ When importing product data, new product data is added to existing product data 
 
    If an error message appears in the Validation Results, correct the problem in the data and import the file again.
 
-   ![Error message - URL key already exists](./assets/data-import-validation-error-url-key-exists.png)<!-- zoom -->
+   ![Error message - URL key already exists](./assets/data-import-validation-error-url-key-exists.png){width="600"}
 
    A message appears when the import is complete.
 
@@ -172,7 +170,7 @@ Commerce maintains a record of data that has been imported into your store, incl
 
 On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_ > **[!UICONTROL Import History]**.
 
-![Data import history](./assets/data-import-history.png)<!-- zoom -->
+![Data import history](./assets/data-import-history.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
