@@ -2,10 +2,11 @@
 title: '[!DNL New Relic] reporting'
 description: Learn about the [!DNL New Relic] reporting available for accounts for Adobe Commerce on cloud infrastructure, which includes the software for the New Relic APM service.
 exl-id: 65d08bda-da01-4dcf-9d92-189d4d303c76
+feature: Reporting, Site Management
 ---
 # [!DNL New Relic] reporting
 
-[New Relic][1] is a software analytics service that helps you analyze and improve application interactions. Accounts for Adobe Commerce on cloud infrastructure include the software for the [!DNL New Relic APM] service. For more information, see [New Relic services][4]{:target="_blank"} in the developer documentation.
+[New Relic][1] is a software analytics service that helps you analyze and improve application interactions. Accounts for Adobe Commerce on cloud infrastructure include the software for the [!DNL New Relic APM] service. For more information, see [New Relic services][4] in the _Commerce on Cloud Infrastructure Guide_.
 
 ## Step 1: Sign Up for a [!DNL New Relic] account
 

@@ -2,6 +2,7 @@
 title: GDPR compliance
 description: Learn about General Data Protection Regulation (GDPR), which is legislation that regulates data protection and privacy for all individuals in the European Union and the European Economic Area.
 exl-id: 88a732f3-f376-4ff5-890c-0535de8eae51
+feature: Compliance
 ---
 # GDPR compliance
 

@@ -2,6 +2,7 @@
 title:  Create and access your [!DNL Commerce] account
 description: Learn about [!DNL Commerce] accounts, which manage the products and services that you have purchased.
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
+feature: User Accounts
 ---
 
 # Access your [!DNL Commerce] account

@@ -2,6 +2,7 @@
 title: Share a [!DNL Commerce] account
 description: Learn how to grant limited access to your [!DNL Commerce] account for other [!DNL Commerce] account holders.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
+feature: User Accounts
 ---
 # Share a [!DNL Commerce] account
 

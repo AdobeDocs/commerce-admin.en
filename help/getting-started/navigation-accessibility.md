@@ -2,6 +2,7 @@
 title: Accessibility
 description: Review the common keyboard controls for accessible site navigation for your customers.
 exl-id: 7e3becf2-6c47-4993-8581-e253607ab381
+feature: Compliance
 ---
 # Accessibility
 

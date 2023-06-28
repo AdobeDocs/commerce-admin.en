@@ -2,6 +2,7 @@
 title: Adobe Identity Management Service (IMS) integration overview
 description: Introduces the optional integration of Adobe Commerce Admin login with Adobe IMS
 exl-id: 106d731c-a541-4a19-a38c-221e80740508
+feature: Identity Management
 ---
 # Adobe Identity Management Service (IMS) integration overview
 

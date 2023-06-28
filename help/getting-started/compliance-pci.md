@@ -2,6 +2,7 @@
 title: PCI compliance guidelines
 description: Review this information about the Payment Card Industry (PCI) requirements for businesses that accept payment by credit card over the Internet.
 exl-id: b9fff131-bea3-4d7a-bbf7-e98b284387d3
+feature: Compliance
 ---
 # PCI compliance guidelines
 
