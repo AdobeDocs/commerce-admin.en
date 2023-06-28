@@ -13,7 +13,27 @@ Adobe Commerce and Magento Open Source give you the ability to back up different
 
 {{$include /help/_includes/backups-note.md}}
 
-![System tools - backups](./assets/tools-backups.png)<!-- zoom -->
+## Enable and schedule backups
+
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+
+1. In the left panel, expand **[!UICONTROL Advanced]** and choose **[!UICONTROL System]**.
+
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Backup Settings]**.
+
+1. Set **[!UICONTROL Enabled Schedule Backup]** to `Yes`.
+
+1. To schedule automatic beckups, set the scheduling options:
+
+   - Set **[!UICONTROL Enabled Schedule Backup]** to `Yes`.
+   - Set **[!UICONTROL Scheduled Backup Type]** to the type of backup to run at the scheduled interval.
+   - Set **[!UICONTROL Start Time]** to the time of day to run the backup operation.
+   - Set **[!UICONTROL Frequency]** to `Daily`, `Weekly`, or `Monthly`.
+   - Set **[!UICONTROL Maintenance Mode]** to `Yes`.
+
+   ![Advanced configuration - backups](../configuration-reference/advanced/assets/system-scheduled-backup-settings.png){width="600" zoomable="yes"}
+
+1. When complete, click **[!UICONTROL Save Config]**.
 
 ## Create a backup
 
@@ -27,6 +47,8 @@ Adobe Commerce and Magento Open Source give you the ability to back up different
 
    - **[!UICONTROL Database Backup]** - Creates a backup of the database.
 
+   ![System tools - backups](./assets/tools-backups.png){width="600" zoomable="yes"}
+
 1. To put the store into maintenance mode during the backup, select the checkbox.
 
    When the backup is complete, maintenance mode is turned off automatically.
@@ -35,18 +57,4 @@ Adobe Commerce and Magento Open Source give you the ability to back up different
 
 1. When prompted, confirm the action.
 
-## Schedule backups
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
-
-1. In the left panel, expand **[!UICONTROL Advanced]** and choose **[!UICONTROL System]**.
-
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Backup Settings]** section and do the following:
-
-   - Set **[!UICONTROL Enabled Schedule Backup]** to `Yes`.
-   - Set **[!UICONTROL Scheduled Backup Type]** to the type of backup to run at the scheduled interval.
-   - Set **[!UICONTROL Start Time]** to the time of day to run the backup operation.
-   - Set **[!UICONTROL Frequency]** to `Daily`, `Weekly`, or `Monthly`.
-   - Set **[!UICONTROL Maintenance Mode]** to `Yes`.
-
-1. When complete, click **[!UICONTROL Save Config]**.

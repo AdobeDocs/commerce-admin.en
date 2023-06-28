@@ -9,7 +9,7 @@ exl-id: 3907d9ef-3592-4dbb-805f-97b79bafd8ab
 
 The bulk actions log records the details of asynchronous mass operations that run in the background, such as import/export or assigning [custom prices](../b2b/catalog-shared-manage.md#update-custom-pricing) to multiple products in a [shared catalog](../b2b/catalog-shared.md).
 
-![Bulk actions log](./assets/bulk-actions-log.png)<!-- zoom -->
+![Bulk actions log](./assets/bulk-actions-log.png){width="600" zoomable="yes"}
 
 ## Configure bulk actions
 
@@ -21,7 +21,7 @@ The bulk actions log records the details of asynchronous mass operations that ru
 
    **[!UICONTROL Days Saved in Log]** — Enter the number of days that bulk actions are saved in a log.
 
-   ![Advanced configuration - bulk actions](../configuration-reference/advanced/assets/system-bulk-actions.png)<!-- zoom -->
+   ![Advanced configuration - bulk actions](../configuration-reference/advanced/assets/system-bulk-actions.png){width="600" zoomable="yes"}
 
    For a detailed list of the configuration settings, see [_Bulk Actions_](../configuration-reference/advanced/system.md) in the _Configuration Reference_.
 

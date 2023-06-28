@@ -7,7 +7,7 @@ exl-id: 3f3bfc07-0ac8-4a50-9442-4b2e1e5fba04
 
 The [!UICONTROL System] menu includes tools to import and export data, manage system caches and indexes, manage permissions, backups, system notifications, and custom variables.
 
-![System menu](./assets/system-menu.png)<!-- zoom -->
+![System menu](./assets/system-menu.png){width="600" zoomable="yes"}
 
 **_To display the [!UICONTROL System] menu:_**
 
