@@ -22,10 +22,10 @@ exl-id: 6a7dd27e-248f-4c40-b2db-0d70529422a1
 
 It is important to understand the following terms as you work with [!DNL Inventory Management]:
 
-**Sources** represent physical locations that store and ship available products. These locations can include warehouses, brick-and-mortar stores, distribution centers, and drop shippers. (Any location can be designated as a source for virtual products.)
+[!UICONTROL **Sources**] represent physical locations that store and ship available products. These locations can include warehouses, brick-and-mortar stores, distribution centers, and drop shippers. (Any location can be designated as a source for virtual products.)
 
-**Stocks** map a sales channel (currently limited to websites) to source locations and on-hand inventory. A stock can map to multiple sales channels, but a sales channel can be assigned to only one stock.
+[!UICONTROL **Stocks**] map a sales channel (currently limited to websites) to source locations and on-hand inventory. A stock can map to multiple sales channels, but a sales channel can be assigned to only one stock.
 
-**Aggregate Salable Quantity** is the total virtual inventory that can be sold through a sales channel. The amount is calculated across all sources assigned to a stock.
+[!UICONTROL **Aggregate Salable Quantity**] is the total virtual inventory that can be sold through a sales channel. The amount is calculated across all sources assigned to a stock.
 
-**Reservations** track deductions from the salable quantity as customers add products to carts and complete checkout. When an order ships, the reservation clears and deducts the shipped amounts from specific source inventory quantities.
+[!UICONTROL **Reservations**] track deductions from the salable quantity as customers add products to carts and complete checkout. When an order ships, the reservation clears and deducts the shipped amounts from specific source inventory quantities.

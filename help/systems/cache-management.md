@@ -5,21 +5,22 @@ exl-id: c87f85ca-81b9-4cbf-9817-3d779397eefd
 ---
 # Cache management
 
-The Adobe Commerce and Magento Open Source cache management system provides an easy way to improve the performance of your site. Whenever a cache requires a refresh, a notice appears at the top of the workspace to guide you through the process. Follow the link to Cache Management, and refresh the invalid caches.
+The Adobe Commerce and Magento Open Source cache management system provides an easy way to improve the performance of your site. Whenever a cache requires a refresh, a notice appears at the top of the workspace to guide you through the process. Follow the link to Cache Management and refresh the invalid caches.
 
-![Save product attribute - update cache message](./assets/product-attribute-save-msg-update-cache.png)<!-- zoom -->
+![Save product attribute - update cache message](./assets/product-attribute-save-msg-update-cache.png){width="500"}
 
-The Cache Management page shows the status of each primary cache and its associated tag. The large buttons in the upper-right corner can be used to flush the cache, or the all-inclusive Cache Storage. At the bottom of the page, there are additional buttons to flush the catalog product images cache and JavaScript/CSS cache.
+The _[!UICONTROL Cache Management]_ page shows the status of each primary cache and its associated tag. The large buttons in the upper-right corner can be used to flush the cache, or the all-inclusive Cache Storage. At the bottom of the page, there are additional buttons to flush the catalog product images cache and JavaScript/CSS cache.
 
 After clearing a cache, always refresh your browser to make sure that you can see the most recent files. Clearing the Commerce cache does not clear your web browser cache. You may need to clear the browser cache to see updated content.
 
-Access to specific cache maintenance actions can be assigned to users by [role](permissions-user-roles.md#role-resources), including options to view, toggle, and flush caches. Adobe recommends enabling flush actions only for administrator level users. Providing access to all Cache Management features can impact your storefront's performance.
-
-![Role resources - cache management](./assets/permissions-role-resources-cache-management.png)<!-- zoom -->
-
 For additional technical information, see [Cache overview](https://developer.adobe.com/commerce/frontend-core/guide/caching/){:target="_blank"} in the _Commerce Frontend Development Guide_.
 
-![Cache management](./assets/cache-management-invalid.png)<!-- zoom -->
+Access the _[!UICONTROL Cache Management]_ page by doing one of the following:
+
+- Click the **[!UICONTROL Cache Management]** link in the message above the workspace.
+- On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Tools]_ > **[!UICONTROL Cache Management]**.
+
+![Cache management](./assets/cache-management-invalid.png){width="700" zoomable="yes"}
 
 ## Best Practices for caching
 
@@ -31,12 +32,11 @@ Reindexing and caching have different purposes in Commerce. [Indexes](index-mana
 - When flushing caches, consider the type of cache and scheduling the flushing during non-peak times. For example, pick a time when few customers may access the site such as late night or early morning. Clearing some cache types during peak times cause result in a high load on the Admin and may result in a down site until completed.
 - When [reindexing](index-management.md), you do not need to also perform a flush cache.
 
-Access the _[!UICONTROL Cache Management]_ page by doing one of the following:
-
-- Click the **[!UICONTROL Cache Management]** link in the message above the workspace.
-- On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Tools]_ > **[!UICONTROL Cache Management]**.
-
 ## Cache management role resources
+
+Access to specific cache maintenance actions can be assigned to users by role, including options to view, toggle, and flush caches. Adobe recommends enabling flush actions only for administrator level users. Providing access to all Cache Management features can impact your storefront's performance.
+
+![Role resources - cache management](./assets/permissions-role-resources-cache-management.png){width="600" zoomable="yes"}
 
 For information about assigning resources to grant access for Admin user accounts, see [Role resources](permissions-user-roles.md#role-resources). The following resources control access to the cache management tools:
 
@@ -161,7 +161,7 @@ For technical information, see [Configure and Use Varnish](https://experiencelea
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Full Page Cache]** section.
 
-   ![Advanced configuration - full page cache](../configuration-reference/advanced/assets/system-full-page-cache.png)<!-- zoom -->
+   ![Advanced configuration - full page cache](../configuration-reference/advanced/assets/system-full-page-cache.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Caching Application]** to one of the following:
 
@@ -182,6 +182,6 @@ For technical information, see [Configure and Use Varnish](https://experiencelea
 
    - To export the configuration as a `varnish.vcl` file, click the button for the version of Varnish that you use.
 
-   ![Advance configuration - full page cache varnish](../configuration-reference/advanced/assets/system-full-page-cache-varnish.png)<!-- zoom -->
+   ![Advance configuration - full page cache varnish](../configuration-reference/advanced/assets/system-full-page-cache-varnish.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Config]**.

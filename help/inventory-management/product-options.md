@@ -31,7 +31,7 @@ Configure the quantities and additional settings per [added source](sources-add.
       `Select to use Default` - [!DNL Commerce] checks the product Advanced Inventory options for configuration settings.
       `Clear to Modify` - Enter a value for the Notify Quantity, overriding Advanced Inventory and Store configuration settings.
 
-   ![Sources Section for a product](assets/inventory-product-quantity-edit.png)
+   ![Sources Section for a product](assets/inventory-product-quantity-edit.png){width="350" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Done]**, then **[!UICONTROL Save]**.
 
@@ -61,7 +61,7 @@ Configure the quantities and additional settings per [added source](sources-add.
    >
    >[!UICONTROL Manage Stock] settings in child products override a configurable product.
 
-   ![Advanced Inventory for a Product](assets/product-inventory-manage-stock-yes.png)
+   ![Advanced Inventory for a Product](assets/inventory-backorders-product-settings.png){width="600" zoomable="yes"}
 
 1. Enter an amount for the **[!UICONTROL Out-of-Stock Threshold]**:
 

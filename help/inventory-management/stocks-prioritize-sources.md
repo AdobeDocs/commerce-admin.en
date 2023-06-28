@@ -11,7 +11,7 @@ The source priority on stocks does not influence assigned sources when editing p
 
 In this example, the UK Stock has sources assigned out of order for a store and two warehouses in London and a warehouse in Berlin.
 
-![Source order before prioritization](assets/inventory-priority-before.png)
+![Source order before prioritization](assets/inventory-priority-before.png){width="350" zoomable="yes"}
 
 The merchant prefers to have shipments prioritized from the larger Berlin warehouse, then the London warehouse, the London overflow location, and finally the storefront in London. To change the order, entries are dragged and dropped into the desired order.
 
@@ -27,4 +27,4 @@ The merchant prefers to have shipments prioritized from the larger Berlin wareho
 
 1. Click **[!UICONTROL Save & Continue]** to save the changes.
 
-![Source order after prioritization](assets/inventory-stock-priority-after.png)
+![Source order after prioritization](assets/inventory-stock-priority-after.png){width="350" zoomable="yes"}

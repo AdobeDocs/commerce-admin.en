@@ -13,7 +13,7 @@ The support tools are designed to identify known issues in your system. They can
 
 The data collector gathers the information about your system that is needed by our Support team to troubleshoot issues with your Adobe Commerce installation. The backup that is created takes several minutes to complete, and includes both a code and database dump. The data can be exported to a CSV or Excel XML file.
 
-![System - Data Collector](./assets/data-collector-show-log.png)<!-- zoom -->
+![System - Data Collector](./assets/data-collector.png){width="600" zoomable="yes"}
 
 ### Run the data collector
 
@@ -29,7 +29,7 @@ The data collector gathers the information about your system that is needed by o
 
    - Click **[!UICONTROL Back]** to return to the grid.
 
-   ![data collector log](./assets/data-collector-log.png)<!-- zoom -->
+   ![data collector log](./assets/data-collector-log.png){width="600" zoomable="yes"}
 
 ### Export backup data
 
@@ -37,7 +37,7 @@ The data collector gathers the information about your system that is needed by o
 
 1. Use the **[!UICONTROL Export]** menu to choose the format of the export data.
 
-   ![Export Format](./assets/data-collector-export.png)<!-- zoom -->
+   ![Export Format](./assets/data-collector-export.png){width="600" zoomable="yes"}
 
 1. Access the file from the web browser download location and **[!UICONTROL Save]** it.
 
@@ -73,35 +73,32 @@ From the System Reports grid, you can view and download existing reports, delete
 
 On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Support]_ > **[!UICONTROL System Report]**.
 
-![Admin - system reports](./assets/reports.png)<!-- zoom -->
+![Admin - system reports](./assets/reports.png){width="600" zoomable="yes"}
 
-### Create a report
+### Generate a report
 
 1. Click **[!UICONTROL New Report]**.
 
 1. In the **[!UICONTROL Groups]** list, select each set of information that you want to include in the report. By default, all groups are selected.
 
-   ![System report - select groups](./assets/report-create.png)<!-- zoom -->
+   ![System report - select groups](./assets/report-create.png){width="600" zoomable="yes"}
 
 1. In the upper-right corner, click **[!UICONTROL Create]**.
 
    It might take a few minutes for the report to generate, depending on the number of report types selected. When the report is ready, it appears at the top of the grid with the date and time generated.
 
-### View module info
+### View module information
 
-You can find useful information about installed modules, including the [Connector](https://omsdocs.magento.com/integration/connector/), in the Admin.
+You can find useful information about installed modules.
 
-To view report info for each installed module:
+**_To view report info for each installed module:_**
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Support]_ > **[!UICONTROL System Report]**.
 1. Click **[!UICONTROL New Report]**.
-1. Select **[!UICONTROL Modules]** from the Groups list and click **[!UICONTROL Create]**.
+1. Select `Modules` from the **[!UICONTROL Groups]** list.
+1. Click **[!UICONTROL Create]**.
 1. After the report generates, click **[!UICONTROL Select]** and then **[!UICONTROL View]** to see all module versions.
 1. Click **[!UICONTROL Download]** to download the report.
-
-   ![System report of installed modules](./assets/report-new.png)<!-- zoom -->
-
-See what changes were released in each version of the Connector in the [changelog](https://magento-mcom.github.io/mcom-connector-sr/CHANGELOG.html) in [**[!DNL MCOM]**](mcom.md) > **[!UICONTROL Change log]**.
 
 ### Manage system reports
 
@@ -115,11 +112,9 @@ In the **[!UICONTROL Action]** column of the grid, select one of the following:
 
 1. For the report you need, select **[!UICONTROL View]** in the _[!UICONTROL Actions]_ column.
 
-   ![System report - view details](./assets/report-grid-view.png)<!-- zoom -->
-
 1. In the left panel, expand ![Expansion selector](../assets/icon-display-expand.png) each section of the report to view the detail.
 
-   ![General system report information](./assets/report-information.png)<!-- zoom -->
+   ![General system report information](./assets/report-information.png){width="600" zoomable="yes"}
 
 ### Available system reports
 

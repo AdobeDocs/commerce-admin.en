@@ -28,7 +28,7 @@ Use the following configuration settings to limit the maximum session size for A
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Security]** section to access the session settings.
 
-   ![Session settings](../configuration-reference/advanced/assets/system-security.png)<!-- zoom -->
+   ![Session settings](../configuration-reference/advanced/assets/system-security.png){width="600" zoomable="yes"}
 
 1. Enter new session sizes in bytes.
 
@@ -40,9 +40,7 @@ Use the following configuration settings to limit the maximum session size for A
 
 ### Admin sessions
 
-If you exceed the maximum session size, an error displays and the system logs the session size constraint to the `var/log` directory.
-
-![Admin session size error](./assets/admin-session-error.png)
+If you exceed the maximum session size, an error message is displayed and the system logs the session size constraint to the `var/log` directory.
 
 If you lose access to the Admin after setting the session size too low, use the CLI to reset the configuration:
 
@@ -58,9 +56,9 @@ If you exceed the maximum session size, no error displays but the system logs th
 
 Adobe Commerce and Magento Open Source allow you to validate session variables as a protective measure against possible session fixation attacks or attempts to poison or hijack user sessions. The Session Validation Settings determine how session variables are validated during each store visit and if the session ID is included in the URL of the store.
 
-For technical information, see [Use Redis for session storage](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html){:target="_blank"} in the _Configuration Guide_.
+For technical information, see [Use Redis for session storage](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html) in the _Configuration Guide_.
 
-![General configuration - Web session validation](../configuration-reference/general/assets/web-session-validation-settings.png)
+![General configuration - Web session validation](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 
 The validation checks that visitors are who they say they are by comparing the value in the validation variables against the session data that is stored in `$_SESSION` data for the user. Validation fails if the information is not transmitted as expected, and the corresponding variable is empty. Depending on the session validation settings, if a session variable fails the validation process, the client session immediately terminates.
 
@@ -102,7 +100,7 @@ As a security measure, the _Admin_ is initially set to time out after 900 second
 
 1. For **[!UICONTROL Admin Session Lifetime (seconds)]**, enter the number of seconds that a session remains active before it times out.
 
-   ![Advanced configuration - Admin security settings](../configuration-reference/advanced/assets/admin-security.png)<!-- zoom -->
+   ![Advanced configuration - Admin security settings](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Config]**.## Admin session lifetime
 
@@ -120,6 +118,6 @@ As a security measure, the _Admin_ is initially set to time out after 900 second
 
 1. For **[!UICONTROL Admin Session Lifetime (seconds)]**, enter the number of seconds that a session remains active before it times out.
 
-   ![Advanced configuration - Admin security settings](../configuration-reference/advanced/assets/admin-security.png)<!-- zoom -->
+   ![Advanced configuration - Admin security settings](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Config]**.

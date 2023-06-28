@@ -30,9 +30,9 @@ To reset authenticators from the command line and more advanced troubleshooting 
 
 1. In the left panel, click **[!UICONTROL 2FA]**.
 
-1. In the _Configuration reset_ section, click **[!UICONTROL Reset]** and **[!UICONTROL OK]** to confirm.
+1. In the _[!UICONTROL Configuration reset]_ section, click **[!UICONTROL Reset]** and **[!UICONTROL OK]** to confirm.
 
-   ![User account - enable 2FA](./assets/admin-2fa-config-reset-providers.png)<!-- zoom -->
+   ![User account - enable 2FA](./assets/admin-2fa-config-reset-providers.png){width="600" zoomable="yes"}
 
    If the user wants to restore the required 2FA methods to their account, they must reconfigure each from the _Sign On_ page.
 

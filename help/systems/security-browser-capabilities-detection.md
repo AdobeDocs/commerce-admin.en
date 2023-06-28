@@ -26,6 +26,6 @@ For technical information, refer to [Supported browsers](https://experienceleagu
 
    - To display a banner above the header when Local Storage is disabled in the user's browser, set **[!UICONTROL Show Notice if Local Storage is Disabled]** to `Yes`.
 
-    ![General configuration - web browser capabilities detection](../configuration-reference/general/assets/web-browser-capabilities-detection.png)<!-- zoom -->
+    ![General configuration - web browser capabilities detection](../configuration-reference/general/assets/web-browser-capabilities-detection.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Config]**.
