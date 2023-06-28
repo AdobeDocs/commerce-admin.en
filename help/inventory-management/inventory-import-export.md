@@ -26,7 +26,7 @@ The export-import file includes the following information according to source:
 
 Use a CSV file to quickly update multiple products and assigned sources to update and correct any inaccuracies in inventory records rather than one at a time through the application interface. For a base file, export first and update as needed.
 
-![Example CSV file for import - export inventory data](assets/inventory-import-export-data.png)
+![Example CSV file for import - export inventory data](assets/inventory-import-export-data.png){width="600" zoomable="yes"}
 
 ## Export product data for all sources
 
@@ -42,7 +42,7 @@ Use a CSV file to quickly update multiple products and assigned sources to updat
 
 After updating inventory amounts and product data, import the file back into [!DNL Commerce].
 
-![Export stock sources for product data and sources](assets/inventory-export-stock-sources.png)
+![Export stock sources for product data and sources](assets/inventory-export-stock-sources.png){width="350" zoomable="yes"}
 
 ## Export product data for a specific source
 
@@ -76,4 +76,4 @@ After updating inventory amounts and product data, import the file back into [!D
 
 1. Click **[!UICONTROL Check Data]** and complete the import.
 
-![Import product data and sources](assets/inventory-import-sources.png)
+![Import product data and sources](assets/inventory-import-sources.png){width="600" zoomable="yes"}
