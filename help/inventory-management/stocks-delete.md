@@ -19,10 +19,10 @@ When you delete the stock, all assigned websites are assigned to the Default Sto
 
 1. From the **[!UICONTROL Actions]** menu, select **[!UICONTROL Delete]**.
 
-   ![Select Delete from the Actions menu](assets/inventory-stock-delete.png)
+   ![Select Delete from the Actions menu](assets/inventory-stock-delete.png){width="350" zoomable="yes"}
 
 1. In the confirmation dialog, click **[!UICONTROL OK]**.
 
    The stock is deleted and any assigned sales channels are unmapped.
 
-   ![Stock delete verification message](assets/inventory-stock-delete-confirm.png)
+   ![Stock delete verification message](assets/inventory-stock-delete-confirm.png){width="350" zoomable="yes"}

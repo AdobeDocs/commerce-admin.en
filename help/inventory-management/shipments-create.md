@@ -45,12 +45,12 @@ As you enter shipments, your on-hand inventory quantities deduct entered amounts
 
    - Click **[!UICONTROL Proceed to Shipment]**.
 
-      ![Select a Source and enter a Quantity](assets/shipment-magento-shipping-sources.png)
+      ![Select a Source and enter a Quantity](assets/shipment-adobe-shipping-sources.png){width="350" zoomable="yes"}
 
 1. Review the _[!UICONTROL New Shipment]_ page and enter any additional changes as needed.
 
    The _[!UICONTROL Inventory]_ section displays the source, products shipping, total ordered quantity, and quantity to ship.
 
-   ![Inventory details for the shipment, example partial shipment](assets/inventory-shipment-details.png)
+   ![Inventory details for the shipment, example partial shipment](assets/inventory-shipment-details.png){width="350" zoomable="yes"}
 
 1. Click **[!UICONTROL Submit Shipment]** to complete.

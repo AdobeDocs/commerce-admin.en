@@ -19,7 +19,7 @@ Single- and multi-source merchants can update sources, inventory quantities, and
 
 When adding sources and quantities to your products, you can view the amounts through the Product Grid. If you have a high number of sources, hover over the _[!UICONTROL Quantity per Source]_ to see the full, scrollable list of sources with current quantities.
 
-![Product quantities per source](assets/inventory-product-quantity.png)
+![Product quantities per source](assets/inventory-product-quantity.png){width="600" zoomable="yes"}
 
 You have the following options to assign inventory to products:
 
