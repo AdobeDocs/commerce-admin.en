@@ -11,13 +11,13 @@ A responsive theme adjusts the page layout to fit the view port of the device. 
 
 [!DNL Commerce] themes include layout files, template files, translation files, and skins. A skin is a collection of supporting CSS, images, and JavaScript files that together, create the visual presentation and interactions that your customers experience when they visit your store. Themes and skins can be modified and customized by a developer or designer who understands [!DNL Commerce] theme design and has access to your server. To learn more, see the [_Frontend Developer Guide_][1].
 
-![Luma theme](./assets/design-responsive.png)<!-- zoom -->
+![Luma theme](./assets/design-responsive.png){width="600" zoomable="yes"}
 
 ## The Default theme
 
 The _[!DNL Magento Blank]_ responsive theme renders the display of your storefront for different devices and incorporates best practices for desktop, table, and mobile devices. Some themes are designed for use only with specific devices. When [!DNL Commerce] detects a specific browser ID, or user agent, it uses the theme that is configured for the specific browser. The search string can also include Perl-Compatible Regular Expressions (PCRE).
 
-![Themes](./assets/themes.png)<!-- zoom -->
+![Themes](./assets/themes.png){width="700" zoomable="yes"}
 
 ### Filter the theme grid
 
@@ -37,7 +37,7 @@ The _[!DNL Magento Blank]_ responsive theme renders the display of your storefro
 
 1. To view a sample page, click the **[!UICONTROL Theme Preview Image]**.
 
-![Preview theme](./assets/theme-settings.png)<!-- zoom -->
+![Preview theme](./assets/theme-settings.png){width="600" zoomable="yes"}
 
 ## Apply a default theme
 
@@ -47,7 +47,7 @@ The _[!DNL Magento Blank]_ responsive theme renders the display of your storefro
 
 1. Under _[!UICONTROL Default Theme]_, set **[!UICONTROL Applied Theme]** to the one that you want to use for the current view.
 
-   ![Applied Theme](./assets/theme-default-apply.png)<!-- zoom -->
+   ![Applied Theme](./assets/theme-default-apply.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Configuration]**.
 
@@ -57,7 +57,7 @@ The _[!DNL Magento Blank]_ responsive theme renders the display of your storefro
 
 1. Under _[!UICONTROL Design Rule]_, click **[!UICONTROL Add New User Agent Rule]**.
 
-   ![Design Rule](./assets/theme-design-rule.png)<!-- zoom -->
+   ![Design Rule](./assets/theme-design-rule.png){width="600" zoomable="yes"}
 
 1. For **[!UICONTROL Search String]**, enter the browser ID for the specific device.
 

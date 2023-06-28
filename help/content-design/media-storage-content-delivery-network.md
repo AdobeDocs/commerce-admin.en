@@ -29,7 +29,7 @@ After configuring the CDN, you must complete the configuration from the Admin. T
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Base URLs]** section and do the following:
 
-    ![General configuration - web base URLs](./assets/web-base-urls.png)<!-- zoom -->
+    ![General configuration - web base URLs](./assets/web-base-urls.png){width="600" zoomable="yes"}
 
     - Update the **[!UICONTROL Base URL for Static View Files]** with the URL of the location on the CDN where static view files are stored.
 
@@ -39,7 +39,7 @@ After configuring the CDN, you must complete the configuration from the Admin. T
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Base URLs (Secure)]** section and do the following:
 
-    ![General configuration - web base URLs (secure)](./assets/web-base-urls-secure.png)<!-- zoom -->
+    ![General configuration - web base URLs (secure)](./assets/web-base-urls-secure.png){width="600" zoomable="yes"}
 
     - Update the **[!UICONTROL Secure Base URL for Static View Files]** with the URL of the location on the CDN where static view files are stored.
 

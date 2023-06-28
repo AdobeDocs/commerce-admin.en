@@ -80,6 +80,10 @@ If you are using audiences from Real-Time CDP, skip to [this section](#use-real-
 >
 >The cart price rule is applied to **_each_** product in the shopping cart whenever the set of conditions in the _[!UICONTROL Conditions]_ tab is met. Add conditions in the _[!UICONTROL Actions]_ tab to limit the number of products affected by the cart price rule.
 
+>[!NOTE]
+>
+>If at least one conditional product attribute has an empty value, the cart price rule is not applied to the product.
+
 1. In the left panel, select **[!UICONTROL Conditions]**.
 
    ![Cart price rule - conditions](./assets/conditions.png)<!-- zoom -->
@@ -271,7 +275,7 @@ The shopping cart price rule actions describe how prices are updated when the co
    |------|-----------|
    |`No` |Free shipping is not available. |
    |`For matching items only` |Free shipping is available only for items that match the conditions of the rule. |
-   |`For shipment with matching items` |Free shipping is available for any shipment that includes matching items. |
+   |`For shipment with matching items` |Free shipping is available for any shipment that includes matching items. The [Free Shipping](../stores-purchase/shipping-free.md) delivery method must be enabled to use this option. |
 
    {style="table-layout:auto"}
 
@@ -362,7 +366,7 @@ Specifies the conditions that must be met before the cart price rule goes into a
 |[!UICONTROL Discount Qty Step (Buy X)]|Sets the number of products represented by `X` in a `Buy X Get Y Free` promotion.|
 |[!UICONTROL Apply to Shipping Amount]|Determines if the discount is applied separately to the subtotal and shipping amounts. Otherwise, it is applied only to the subtotal. Options: `Yes` / `No`|
 |[!UICONTROL Discard Subsequent Rules]|Determines if lower priority rules (1 is the highest priority) can be applied to the product when this cart price rule is a match. Enable this option to prevent multiple discounts from being applied to the same product. Options: `Yes` / `No`|
-|[!UICONTROL Free Shipping]| Determines if free shipping is included in the promotion, and if so, for which items. Options: <br/>**[!UICONTROL No]** - Free shipping is not available when a coupon that is based on the rule is used. <br/>**[!UICONTROL For matching items only]** - Free shipping is available only for specific items in the cart that match the rule. <br/>**[!UICONTROL For shipment with matching items]** - Free shipping is available for the entire cart when a coupon that is based on the rule is used.|
+|[!UICONTROL Free Shipping]| Determines if free shipping is included in the promotion, and if so, for which items. The [Free Shipping](../stores-purchase/shipping-free.md) delivery method must be enabled to use this setting. Options: <br/>**[!UICONTROL No]** - Free shipping is not available for the current rule. <br/>**[!UICONTROL For matching items only]** - Free shipping is available only for specific items in the cart that match the rule. <br/>**[!UICONTROL For shipment with matching items]** - Free shipping is available for all items in the cart. |
 |[!UICONTROL Add Reward Points]|![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Specifies the number of [reward points](rewards-loyalty.md) that are earned by the customer whenever the price rule is applied.|
 
 {style="table-layout:auto"}

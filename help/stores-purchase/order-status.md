@@ -77,6 +77,10 @@ In addition to the preset order status settings, you can create your own custom 
 
    - Set **[!UICONTROL Order State]** to the place in the workflow where the order status belongs.
 
+      >[!NOTE]
+      >
+      >**_[!UICONTROL Order State]_** list includes the default assigned order statuses. For example, the `Pending` default order status is displayed instead of the `New` order state value.
+
    - To make this status the default for the order state, select the **[!UICONTROL Use Order Status as Default]** checkbox.
 
       >[!NOTE]
@@ -108,6 +112,10 @@ In addition to the preset order status settings, you can create your own custom 
 1. In the _[!UICONTROL Action]_ column on the far right of the row, click the **[!UICONTROL Unassign]** link.
 
    A message appears at the top of the workspace that the order status has been unassigned. Although the order status label still appears in the list, it is no longer assigned to a state. Order status settings cannot be deleted.
+
+>[!NOTE]
+>
+>If the default order status is unassigned from the order state, _**another**_ order status is _**set  automatically**_ as a default for this order state.
 
 ## Notification
 

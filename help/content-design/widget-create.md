@@ -7,7 +7,7 @@ exl-id: 680f2f41-ec51-4ac6-9e92-2817591af3e6
 
 Widgets are reusable components. You can easily create widgets, and modify existing ones to automatically update content across your store. You can also delete widgets that are no longer in use.
 
-![Widgets](./assets/widgets.png)<!-- zoom -->
+![Widgets](./assets/widgets.png){width="700" zoomable="yes"}
 
 ## Create a widget
 
@@ -25,7 +25,7 @@ The process of creating a widget is nearly the same for each [widget type](widge
 
    - Verify that **[!UICONTROL Design Theme]** is set to the current theme.
 
-   ![Widget settings](./assets/widget-settings.png)<!-- zoom -->
+      ![Widget settings](./assets/widget-settings.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Continue]**.
 
@@ -43,7 +43,7 @@ The process of creating a widget is nearly the same for each [widget type](widge
 
    - (Optional) For **[!UICONTROL Sort Order]**, enter a number to determine the order this item appears with others in the same part of the page. (`0` = first, `1` = second, `3` = third, and so on.)
 
-   ![Storefront properties](./assets/widget-storefront-properties.png)<!-- zoom -->
+      ![Storefront properties](./assets/widget-storefront-properties.png){width="600" zoomable="yes"}
 
 1. In the _[!UICONTROL Layout Updates]_ section, click **[!UICONTROL Add Layout Update]**.
 
@@ -51,7 +51,7 @@ The process of creating a widget is nearly the same for each [widget type](widge
 
 1. In the **[!UICONTROL Container]** list, choose the area of the page layout where it is to be placed.
 
-   ![Layout updates](./assets/widget-layout-update-home-page.png)<!-- zoom -->
+   ![Layout updates](./assets/widget-layout-update-home-page.png){width="600" zoomable="yes"}
 
 1. If the widget is a link, set **[!UICONTROL Template]** to one of the following:
 
@@ -77,8 +77,6 @@ The options for each widget type vary slightly, but the process is essentially t
    - Set **[!UICONTROL Condition]** to the category of products to be featured.
 
       The process is the same as setting a condition for a [price rule](../merchandising-promotions/price-rules-catalog.md).
-
-   ![Widget options](./assets/widget-options-new-product-list.png)<!-- zoom -->
 
 ### Step 4: Save and check the result
 

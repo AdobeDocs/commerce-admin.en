@@ -17,23 +17,23 @@ exl-id: fc07a067-b92a-49c7-8512-2dfcc1c6ba0c
 
 ![B2B Features](./assets/b2b-features.png)<!-- zoom -->
 
-|Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
-|--- |--- |--- |
-|[[!UICONTROL Enable Company]](../../b2b/account-companies.md)|Website|When enabled, allows customers to manage their company assignment from their account dashboard. Options: `Yes` / `No`|
-|[[!UICONTROL Enable Quick Order]](../../b2b/quick-order.md)|Website|When enabled, allows customers and guests to quickly place orders based on SKU or product name. Options: `Yes` / `No`|
-|[[!UICONTROL Enable Requisition List]](../../b2b/configure-requisition-lists.md)|Website|When enabled, allows customers to create and manage requisition lists from their account dashboard.|
+| Field                                                                            | [Scope](../../getting-started/websites-stores-views.md#scope-settings) | Description                                                                                                                                                                                  |
+|----------------------------------------------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [[!UICONTROL Enable Company]](../../b2b/account-companies.md)                    | Website                                                                | When enabled, allows customers to manage their company assignment from their account dashboard, and also enables the Shared Catalog and B2B Quote features by default. Options: `Yes` / `No` |
+| [[!UICONTROL Enable Quick Order]](../../b2b/quick-order.md)                      | Website                                                                | When enabled, allows customers and guests to quickly place orders based on SKU or product name. Options: `Yes` / `No`                                                                        |
+| [[!UICONTROL Enable Requisition List]](../../b2b/configure-requisition-lists.md) | Website                                                                | When enabled, allows customers to create and manage requisition lists from their account dashboard.                                                                                          |
 
 {:style="table-layout:auto"}
 
 ![B2B Features with companies and shared catalogs enabled](./assets/b2b-features-company-enabled.png)<!-- zoom -->
 
-When companies are enabled, additional fields are available.
+When the Company feature is enabled, additional fields are available for Shared Catalog and B2B Quote.
 
-|Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
-|--- |--- |--- |
-|[[!UICONTROL Enable Shared Catalog]](../../b2b/catalog-shared.md)|Website|When enabled, makes it possible to create curated catalogs with custom pricing that are available either globally, or limited to specific companies. Options: `Yes` / `No`|
-|[!UICONTROL Enable Shared Catalog direct products price assigning]|Website|When the _[!UICONTROL Enable Shared Catalog]_ field is set to `Yes`, this option is available. When enabled, only products that are assigned to a shared catalog are stored in the price index. Products that are not assigned to the shared catalog are not displayed on the storefront. Options: `Yes` / `No`|
-|[[!UICONTROL Enable B2B Quote]](../../b2b/configure-quotes.md)|Website|When enabled, allows company buyers to submit a request for a quote from the shopping cart. Options: `Yes` / `No`|
+| Field                                                              | [Scope](../../getting-started/websites-stores-views.md#scope-settings) | Description                                                                                                                                                                                                                                                                                                     |
+|--------------------------------------------------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [[!UICONTROL Enable Shared Catalog]](../../b2b/catalog-shared.md)  | Website                                                                | When enabled, makes it possible to create curated catalogs with custom pricing that are available either globally, or limited to specific companies. Options: `Yes` / `No`                                                                                                                                      |
+| [!UICONTROL Enable Shared Catalog direct products price assigning] | Website                                                                | When the _[!UICONTROL Enable Shared Catalog]_ field is set to `Yes`, this option is available. When enabled, only products that are assigned to a shared catalog are stored in the price index. Products that are not assigned to the shared catalog are not displayed on the storefront. Options: `Yes` / `No` |
+| [[!UICONTROL Enable B2B Quote]](../../b2b/configure-quotes.md)     | Website                                                                | When enabled, allows company buyers to submit a request for a quote from the shopping cart. Options: `Yes` / `No`                                                                                                                                                                                               |
 
 {:style="table-layout:auto"}
 
@@ -57,9 +57,9 @@ When companies are enabled, additional fields are available.
 
 ## [!UICONTROL Order Approval Configuration]
 
-|Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
-|--- |--- |--- |
-|[[!UICONTROL Enable Purchase Orders]](../../stores-purchase/purchase-order.md)|Website|When enabled, allows companies to create purchase orders. Options: `Yes` / `No`|
+| Field                                                                          | [Scope](../../getting-started/websites-stores-views.md#scope-settings) | Description                                                                     |
+|--------------------------------------------------------------------------------|------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+| [[!UICONTROL Enable Purchase Orders]](../../stores-purchase/purchase-order.md) | Website                                                                | When enabled, allows companies to create purchase orders. Options: `Yes` / `No` |
 
 ![B2B Features - Order Approval Configuration](./assets/b2b-features-order-approval.png)<!-- zoom -->
 

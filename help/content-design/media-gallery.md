@@ -7,7 +7,7 @@ exl-id: bf730e46-70f3-405c-88cf-62d0a3e8634f
 
 With Adobe Commerce or Magento Open Source 2.4, merchants can use the new _enhanced_ [!DNL Media Gallery] to organize and manage their media files on the server. This new [!DNL Media Gallery] contains the same functionalities as the existing media storage, but includes an improved user interface and a closer integration with [Adobe Stock][adobe-stock].
 
-![Images displayed in the Media Gallery grid](./assets/media-gallery-grid.png)<!-- zoom -->
+![Images displayed in the Media Gallery grid](./assets/media-gallery-grid.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -21,7 +21,7 @@ With Adobe Commerce or Magento Open Source 2.4, merchants can use the new _enhan
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) **[!UICONTROL Media Gallery]**.
 
-   ![Advanced configuration - [!DNL Media Gallery]](./assets/system-media-gallery.png)<!-- zoom -->
+   ![Advanced configuration - [!DNL Media Gallery]](./assets/system-media-gallery.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Enable Old Media Gallery]** to `No`.
 
@@ -55,7 +55,7 @@ To access the new Media Gallery when you are adding or editing a page:
 
    - If you have [Page Builder enabled](../page-builder/setup.md), expand the **[!UICONTROL Media]** panel and drag an **[!UICONTROL Image]** placeholder to the target container. Then click **[!UICONTROL Select from Gallery]**.
 
-      ![Drag image to stage](./assets/pb-media-image-drag.png)<!-- zoom -->
+      ![Drag image to stage](./assets/pb-media-image-drag.png){width="600" zoomable="yes"}
 
    - If you have the [WYSIWYG editor enabled](/help/content-design/editor.md), click **[!UICONTROL Show/Hide Editor]** and then click **[!UICONTROL Insert Image]**.
 
