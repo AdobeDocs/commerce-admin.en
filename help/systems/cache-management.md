@@ -9,6 +9,10 @@ The Adobe Commerce and Magento Open Source cache management system provides an e
 
 ![Save product attribute - update cache message](./assets/product-attribute-save-msg-update-cache.png){width="500"}
 
+>[!NOTE]
+>
+>Multiple pages cache can be invalidated **_automatically_**. For example, when the product is assigned to the category, or when the [!UICONTROL related product rule] is modified.
+
 The _[!UICONTROL Cache Management]_ page shows the status of each primary cache and its associated tag. The large buttons in the upper-right corner can be used to flush the cache, or the all-inclusive Cache Storage. At the bottom of the page, there are additional buttons to flush the catalog product images cache and JavaScript/CSS cache.
 
 After clearing a cache, always refresh your browser to make sure that you can see the most recent files. Clearing the Commerce cache does not clear your web browser cache. You may need to clear the browser cache to see updated content.
