@@ -111,9 +111,9 @@ The selection of products in the grid cannot be changed from the _Custom Prices_
 
    ![Actions Control - Set Discount](./assets/shared-catalog-set-custom-prices-discount-action.png){width="600" zoomable="yes"}
 
-1. When prompted, enter the discount and click **[!UICONTROL Apply]**.
+1. When prompted, enter the discount or price adjustment and click **[!UICONTROL Apply]**.
 
-   ![Set Discount](./assets/shared-catalog-set-custom-prices-discount.png){width="400"}
+   ![Set Discount](./assets/shared-catalog-set-custom-prices-discount.png){width="400"}<br/>
 
    ![Adjust Fixed Price](./assets/shared-catalog-set-custom-fixed-prices.png){width="400"}
 
