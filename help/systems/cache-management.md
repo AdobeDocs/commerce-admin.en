@@ -11,7 +11,7 @@ The Adobe Commerce and Magento Open Source cache management system provides an e
 
 >[!NOTE]
 >
->Multiple pages cache can be invalidated simultaneously and automatically **_without_** these entities editing. For example, when any product in the catalog is assigned to any category, or when any [!UICONTROL related product rule] is modified.
+>When catalog entities are changed, it can affect other pages and invalidate multiple caches simultaneously. When you review the cache management page, you could see invalid items that require refresh when they were _**not edited directly**_. For example, this occurs when you edit any product in the catalog and it is assigned to any category, or when you change any related product rule.
 
 The _[!UICONTROL Cache Management]_ page shows the status of each primary cache and its associated tag. The large buttons in the upper-right corner can be used to flush the cache, or the all-inclusive Cache Storage. At the bottom of the page, there are additional buttons to flush the catalog product images cache and JavaScript/CSS cache.
 
