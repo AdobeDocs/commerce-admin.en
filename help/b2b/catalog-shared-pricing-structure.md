@@ -106,8 +106,8 @@ The selection of products in the grid cannot be changed from the _Custom Prices_
 
 1. Set **[!UICONTROL Actions]** to one of the following:
 
-   - `Set Discount` - Applies a discount percent to all selected products. Catalog displays each affected product price as **_discounted_** price.
-   - `Adjust Fixed Price` - Applies a fixed price discount percent to all selected products. Catalog displays each affected product price as **_adjusted fixed_** price.
+   - `Set Discount` - Applies a discount percent to all selected products. Each affected product price is displayed as a **_discounted_** price.
+   - `Adjust Fixed Price` - Applies a fixed price discount percent to all selected products. Each affected product price is displayed as an **_adjusted fixed_** price.
 
    ![Actions Control - Set Discount](./assets/shared-catalog-set-custom-prices-discount-action.png){width="600" zoomable="yes"}
 
