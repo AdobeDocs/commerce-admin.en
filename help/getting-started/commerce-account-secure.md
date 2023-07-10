@@ -2,7 +2,7 @@
 title: Secure your [!DNL Commerce] account
 description: Learn how to use two-factor authentication to secure your [!DNL Commerce] account.
 exl-id: 4847b5cb-a93a-40d0-8c31-c30afa27c0ce
-feature: User Accounts
+feature: User Account
 ---
 # Secure your [!DNL Commerce] account
 
