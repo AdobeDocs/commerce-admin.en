@@ -66,4 +66,4 @@ recommendations: noDisplay
 + Resources {#resources}
   + [Ecosystem](resources.md)
   + [Extensions](extensions.md)
-  + [[!DNL Commerce Marketplace]](commerce-marketplace.md
+  + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
