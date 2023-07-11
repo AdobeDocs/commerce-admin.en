@@ -2,6 +2,7 @@
 title: Add an Item to a Campaign
 description: Review this campaign example used to add a promotional image to the category page for the duration of the campaign.
 exl-id: cd46b657-2586-46dd-beab-42f42d3476b6
+feature: Page Content, Staging
 ---
 # Add an Item to a Campaign
 

@@ -2,6 +2,7 @@
 title: Pages
 description: Learn details about the core content pages included with the [!DNL Commerce] demo store, and changing the Default Pages configuration.
 exl-id: 4be7d3d6-ce36-42bc-9224-4804c3211f16
+feature: Page Content, Configuration
 ---
 # Pages
 

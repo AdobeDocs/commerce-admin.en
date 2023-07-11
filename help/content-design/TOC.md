@@ -2,6 +2,7 @@
 user-guide-title: Content and Design Guide
 user-guide-description: Comprehensive information about content and design features for Adobe Commerce and Magento Open Source administrators and eCommerce marketers.
 breadcrumb-title: Content and Design
+feature: CMS, Page Content
 ---
 
 # Content and Design Guide {#content-design}
