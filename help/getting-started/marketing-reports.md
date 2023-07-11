@@ -2,6 +2,7 @@
 title: Marketing reports
 description: Marketing reports provide information about the status of shopping carts, the use of search terms, and newsletter transmissions.
 exl-id: 3ff6d4f7-ab8d-4e4e-b9e9-b12e3a08de62
+feature: Marketing Tools
 ---
 # Marketing reports
 

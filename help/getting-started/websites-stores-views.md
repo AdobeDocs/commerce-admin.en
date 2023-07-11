@@ -2,6 +2,7 @@
 title: Site, store, and view scope
 description: Learn about the hierarchy of websites, stores, and store views that you can use to deliver shopping experiences for your customers.
 exl-id: 80fc1b73-c869-4f1c-b1a1-d61823b91d83
+feature: System, Site Navigation
 ---
 # Site, store, and view scope
 

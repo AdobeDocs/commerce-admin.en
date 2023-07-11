@@ -2,6 +2,9 @@
 user-guide-title: Adobe Commerce Getting Started Guide
 user-guide-description: If you are new to Adobe Commerce or Magento Open Source, discover resources of the [!DNL Commerce] ecosystem, follow the customer journey to explore your store, and learn about key features.
 breadcrumb-title: Getting Started
+role: Admin, Leader, User
+feature: Admin Workspace
+recommendations: noDisplay
 ---
 
 # Adobe Commerce Getting Started Guide {#start}
