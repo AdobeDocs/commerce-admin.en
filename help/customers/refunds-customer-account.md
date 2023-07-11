@@ -2,6 +2,7 @@
 title: Refunds in the customer account dashboard
 description: Store customers can view the refund information associated with the order in their account dashboard.
 exl-id: 8fd6d4e7-74ba-4f39-9a19-7c77ee63b913
+feature: Customers, Storefront
 ---
 # Refunds in the customer account dashboard
 

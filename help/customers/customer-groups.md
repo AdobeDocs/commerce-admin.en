@@ -2,6 +2,7 @@
 title: Customer groups
 description: Use customer groups to determine which discounts are available to customers assigned to a group and the tax class that is associated with the group.
 exl-id: 6b785c4a-a5dc-480c-8182-2a940784218d
+feature: Customers, Configuration
 ---
 # Customer groups
 
