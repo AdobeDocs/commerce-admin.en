@@ -2,6 +2,7 @@
 title: Layout - Column
 description: Learn about the Column content type, used to divide a page into multiple columns in the [!DNL Page Builder] stage.
 exl-id: 9701e1b5-3584-4602-9512-051567274f21
+feature: Page Builder, Page Content
 ---
 # Layout - Column
 

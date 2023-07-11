@@ -2,6 +2,7 @@
 title: '[!DNL Page Builder] Setup'
 description: Learn about [!DNL Page Builder] feature configuration in the Admin for Adobe Commerce and Magento Open Source.
 exl-id: 48396045-0fef-4f4f-8138-e6d969560e42
+feature: Page Builder, Configuration
 ---
 # [!DNL Page Builder] Setup
 

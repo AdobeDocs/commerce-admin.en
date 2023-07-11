@@ -2,6 +2,7 @@
 title: Add Content - Dynamic Block
 description: Learn about the Dynamic Block content type, used to add a reusable dynamic block to the [!DNL Page Builder] stage.
 exl-id: 04c90f47-9e32-4d34-ac0d-a2f2cec95ffc
+feature: Page Builder, Page Content
 ---
 # Add Content - Dynamic Block
 

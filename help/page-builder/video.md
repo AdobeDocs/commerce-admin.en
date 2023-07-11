@@ -2,10 +2,11 @@
 title: Media - Video
 description: Learn about the Video content type, used to add a video that is hosted on YouTube or Vimeo to the [!DNL Page Builder] stage.
 exl-id: 9cd075e7-c10d-4c34-8932-c1ccb32bf198
+feature: Page Builder, Page Content
 ---
 # Media - Video
 
-Use the _Video_ content type to add a video that is hosted on [YouTube][1] or [Vimeo][2] to the [[!DNL Page Builder] stage](workspace.md#stage). It’s easy to embed video in a page or block or in product and category descriptions.
+Use the _Video_ content type to add a video that is hosted on [YouTube][1] or [Vimeo][2] to the [[!DNL Page Builder] stage](workspace.md#stage). It's easy to embed video in a page or block or in product and category descriptions.
 
 ![Video on the storefront home page](./assets/pb-storefront-video.png)<!-- zoom -->
 
