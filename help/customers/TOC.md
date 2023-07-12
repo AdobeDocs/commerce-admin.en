@@ -27,7 +27,7 @@ feature: Customers
     + [Update a customer profile](update-account.md)
     + [Provide shopper assistance](login-as-customer.md)
   + Customer attributes {#attributes}
-    + [Attribute aroperties](attribute-properties.md)
+    + [Attribute properties](attribute-properties.md)
     + [Address attributes](address-attributes.md)
     + [Address templates](address-templates.md)
   + Store credit {#store-credit}
