@@ -2,6 +2,7 @@
 title: Customer account dashboard
 description: Customers can manage and monitor their own information and activities from their Customer Account Dashboard.
 exl-id: 74d5b9ec-0630-4843-a88c-f881cb6cd957
+feature: Customers, Storefront
 ---
 # Customer account dashboard
 

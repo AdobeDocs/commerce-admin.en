@@ -8,7 +8,9 @@ type: Documentation
 audience: end-user
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/commerce-admin.en
-role: User
+role: Admin, User
+level: Beginner, Intermediate
+topic: Commerce, Administration
 index: yes
 ---
 

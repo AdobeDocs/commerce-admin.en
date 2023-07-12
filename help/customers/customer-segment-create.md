@@ -2,6 +2,7 @@
 title: Create and delete customer segments
 description: Customers can view the refund information associated with the order in their Customer Account Dashboard.
 exl-id: 8a13271d-d0b5-4fc6-a701-3edfae04bfca
+feature: Customers, Configuration
 ---
 # Create and delete customer segments
 

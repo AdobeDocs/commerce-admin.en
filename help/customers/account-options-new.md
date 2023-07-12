@@ -2,6 +2,7 @@
 title: New customer account options
 description: Learn about the configuration options for new customer accounts in your store.
 exl-id: aa19f0e2-ffbe-433d-8bd5-c14700b67b37
+feature: Customers, Configuration
 ---
 # New customer account options
 

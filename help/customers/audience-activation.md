@@ -2,6 +2,9 @@
 title: "[!DNL Audience Activation]"
 description: Learn how to activate Real-Time CDP audiences in Adobe Commerce to drive personalization in your store.
 exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
+feature: Customers, Configuration, Personalization
+topic: Commerce, Personalization
+level: Experienced
 ---
 # [!DNL Audience Activation]
 

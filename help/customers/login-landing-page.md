@@ -2,6 +2,7 @@
 title: Customer login landing page
 description: The customer account settings determine the information that is collected during customer registration, and the experience that customers have during the process.
 exl-id: e8871d19-8238-40f8-8c5d-1e3136dd9fd2
+feature: Customers, Configuration
 ---
 # Customer login landing page
 

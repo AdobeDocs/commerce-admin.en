@@ -2,6 +2,7 @@
 title: New Products List Widget
 description: Learn how to use the New Products widget to display a list of the most recently added products.
 exl-id: bdff3655-cd14-4a19-a51f-4cabeb274d2a
+feature: Page Content, Products
 ---
 # New Products List
 

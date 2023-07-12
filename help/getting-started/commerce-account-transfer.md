@@ -2,6 +2,7 @@
 title: Transfer a Commerce account
 description: Learn how to transfer your Commerce account to another owner or email address.
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
+feature: User Account
 ---
 # Transfer a Commerce account
 

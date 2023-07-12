@@ -3,6 +3,7 @@ title: Manage the Experience Cloud Integration
 description: Learn how to manage the Experience Cloud integration and troubleshoot issues
 hide: yes
 hidefromtoc: yes
+feature: Integration
 ---
 # Manage the Experience Cloud Integration
 

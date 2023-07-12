@@ -2,6 +2,7 @@
 title: Customer address attributes
 description: Learn about the customer address attributes and how to configure these attribute properties.
 exl-id: 637a0f81-4d8f-40cb-a1b6-537229b2ce5b
+feature: Customers, Configuration
 ---
 # Customer address attributes
 

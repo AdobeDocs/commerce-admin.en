@@ -2,6 +2,8 @@
 title: Use a Content Delivery Network
 description: Learn how to use a Content Delivery Network (CDN) to store media files.
 exl-id: cb612b79-f3e3-4f1b-8cf9-d47886486686
+feature: Page Content, Media, Configuration
+level: Experienced
 ---
 # Use a Content Delivery Network
 

@@ -2,6 +2,7 @@
 title: Save an Adobe Stock Image Preview
 description: Image previews are free and are a good way to experiment with different Adobe Stock images before you decide to purchase a license.s
 exl-id: 148d8445-fbbb-4f27-8de8-d8c1943d2afe
+feature: CMS, Media
 ---
 # Save an Adobe Stock Image Preview
 
