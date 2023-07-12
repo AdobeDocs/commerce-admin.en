@@ -2,6 +2,7 @@
 title: Provide shopper assistance
 description: When you use the Login as a Customer feature, you can see what the customers see and make updates on their behalf.
 exl-id: 6842ae7a-6440-45f1-af18-e6427088d29d
+feature: Customers, Customer Service
 ---
 # Provide shopper assistance
 

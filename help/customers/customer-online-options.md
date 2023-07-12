@@ -2,6 +2,7 @@
 title: Customer session lifetime
 description: The customer session lifetime determines the lifetime of a customer shopping session.
 exl-id: 7180631a-3233-40f3-92bf-b329fc260cf9
+feature: Customers, Configuration, Security
 ---
 # Customer session lifetime
 

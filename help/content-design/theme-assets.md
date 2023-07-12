@@ -2,6 +2,7 @@
 title: Theme Assets
 description: Learn how to manage your theme assets, such as CSS, fonts, images, and JavaScript files.
 exl-id: 326c648e-eace-45a0-b53d-bbc8702fee05
+feature: Page Content, Themes
 ---
 # Theme Assets
 

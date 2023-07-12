@@ -2,6 +2,7 @@
 title: Media - Image
 description: Learn about the Image content type, used to add a JPG, GIF, or PNG image to the [!DNL Page Builder] stage.
 exl-id: 1b8d906e-7570-4c1f-87a0-992400faf55c
+feature: Page Builder, Page Content
 ---
 # Media - Image
 

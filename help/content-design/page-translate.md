@@ -2,6 +2,8 @@
 title: Translate a Content Page
 description: Learn how to create a translated version of each page that is available from the specific store view.
 exl-id: e8743ea5-0c8e-4970-987d-c9ac7c1e2a66
+feature: Page Content
+topic: Commerce, Localization
 ---
 # Translate a Content Page
 

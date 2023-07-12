@@ -2,6 +2,7 @@
 title: Media - Map
 description: Learn about the Map content type, used to add a map from [!DNL Google Maps] Platform to the [!DNL Page Builder] stage.
 exl-id: 91fea8f8-d48a-43f1-ba2a-212c7130cee9
+feature: Page Builder, Page Content
 ---
 # Media - Map
 

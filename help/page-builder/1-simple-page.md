@@ -2,6 +2,7 @@
 title: '[!DNL Page Builder] Walkthrough Part 1: Simple Page'
 description: Use the sample files and follow the steps to create a simple page in the [!DNL Page Builder] interface.
 exl-id: 2c146241-675f-4d23-9513-1722d5dd3357
+feature: Page Builder, Page Content
 ---
 # Walkthrough Part 1: Simple Page
 

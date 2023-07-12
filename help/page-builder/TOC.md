@@ -2,6 +2,9 @@
 user-guide-title: "[!DNL Page Builder] User Guide"
 user-guide-description: Learn how to use [!DNL Page Builder] features to create content-rich pages with custom layouts that enhance your visual storytelling, and drive customer engagement and loyalty.
 breadcrumb-title: "[!DNL Page Builder]"
+topic: Commerce, Content Management
+feature: Page Builder
+role: User
 ---
 
 # [!DNL Page Builder] User Guide {#page-builder}

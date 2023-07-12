@@ -2,6 +2,7 @@
 title: Add Content - Product Recommendations
 description: Learn about the Product Recommendations content type, used to add a list of recommendations to the [!DNL Page Builder] stage.
 exl-id: ca90c10d-8d7a-42a2-bb13-2602aa9d6eef
+feature: Page Builder, Page Content, Recommendations
 ---
 # Add Content - Product Recommendations
 

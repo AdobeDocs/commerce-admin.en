@@ -2,6 +2,7 @@
 title: '[!DNL Page Builder] Walkthrough Part 2: Blocks'
 description: Learn the difference between simple blocks and dynamic blocks when using [!DNL Page Builder].
 exl-id: 864a3078-8cb3-4add-bdb7-14189aba535e
+feature: Page Builder, Page Content
 ---
 # Walkthrough Part 2: Blocks
 

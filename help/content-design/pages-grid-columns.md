@@ -1,6 +1,7 @@
 ---
 title: Pages Grid Layout
 description: Learn how to change the columns displayed in the Pages grid in the Admin.
+feature: Page Content, Admin Workspace
 ---
 # Pages Grid Layout
 

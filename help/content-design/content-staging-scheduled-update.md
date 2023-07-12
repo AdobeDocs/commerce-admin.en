@@ -2,6 +2,7 @@
 title: Schedule a Content Update
 description: Review this campaign example used to schedule a temporary price change for a product.
 exl-id: 36b7d7f6-4590-4192-a82b-e5f645b05f62
+feature: Page Content, Staging
 ---
 # Schedule a Content Update
 
