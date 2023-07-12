@@ -2,6 +2,7 @@
 title: Add a Source
 description: Learn how to create a source for a location, such as a warehouse, brick-and-mortar store, distribution center, or drop shipper.
 exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
+feature: Inventory, Products
 ---
 # Add a Source
 

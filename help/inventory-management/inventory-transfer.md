@@ -2,6 +2,7 @@
 title: Transfer Inventory to Source
 description: Learn how multi-source merchants can transfer product inventory from one source location to another.
 exl-id: 30438412-bc93-4e65-8b6a-5ddb50afa7ff
+feature: Inventory, Configuration
 ---
 # Transfer Inventory to Source
 

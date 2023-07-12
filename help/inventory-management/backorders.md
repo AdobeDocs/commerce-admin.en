@@ -2,6 +2,7 @@
 title: Configure backorders
 description: Learn how to configure backorders to support sale of out-of-stock products.
 exl-id: 2fe778df-781e-4cda-8b85-47cf973c9e94
+feature: Inventory, Orders
 ---
 # Configure backorders
 

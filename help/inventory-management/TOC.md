@@ -2,6 +2,8 @@
 user-guide-title: "[!DNL Inventory Management] User Guide"
 user-guide-description: Learn how to use [!DNL Inventory Management] features to maintain quantities for sales and handle shipments to complete [!DNL Commerce] orders.
 breadcrumb-title: "[!DNL Inventory Management]"
+role: Admin, Leader, User
+feature: Inventory
 ---
 
 # [!DNL Inventory Management] User Guide {#inventory}
