@@ -2,6 +2,7 @@
 title: Product workspace
 description: Learn about the settings and controls available in the product workspace.
 exl-id: 8258b117-56d2-4d5f-9413-80d51fd5eae6
+feature: Catalogs, Products, Admin Workspace
 ---
 # Product workspace
 
@@ -9,7 +10,7 @@ The product workspace is basically the same for all product types, although the 
 
 ![Product workspace](./assets/product-workspace-ee.png){width="700" zoomable="yes"}
 
-## Enable Product setting
+## [!UICONTROL Enable Product] setting
 
 The online status of the product is indicated by the switch at the top of the form. To change the online status, set the **[!UICONTROL Enable Product]** switch to `Yes` or `No`.
 
@@ -30,7 +31,7 @@ The name of the [attribute set](attribute-sets.md) appears in the upper-left cor
 
 To expand or collapse a section, click either the expand ![Expansion selector](../assets/icon-display-expand.png) or collapse ![Collapse selector](../assets/icon-display-collapse.png) icon.
 
-## Save menu
+## [!UICONTROL Save] menu
 
 The _[!UICONTROL Save]_ menu includes several options that let you save and continue, save and create a product, save and duplicate the product, or save and close.
 

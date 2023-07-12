@@ -2,6 +2,7 @@
 title: Product settings - [!UICONTROL Autosettings]
 description: For a product, the [!UICONTROL Autosettings] define the attributes that are dependencies for other operations.
 exl-id: e35bbf6a-d547-40f7-b8cb-2f6c8fdddc70
+feature: Catalogs, Products
 ---
 # Product settings - [!UICONTROL Autosettings]
 

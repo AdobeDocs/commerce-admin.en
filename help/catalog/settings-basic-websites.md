@@ -2,6 +2,7 @@
 title: Product settings - [!UICONTROL Product in Websites]
 description: For a product, the [!UICONTROL Product in Websites] settings identify each website where the product is available.
 exl-id: dd4751db-5d68-426c-bfb0-43fc82df05f5
+feature: Catalogs, Products
 ---
 # Product settings - [!UICONTROL Product in Websites]
 
