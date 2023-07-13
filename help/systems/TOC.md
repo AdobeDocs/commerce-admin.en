@@ -4,7 +4,7 @@ user-guide-description: This guide provides detailed information about Admin sec
 breadcrumb-title: Admin Systems Guide
 hide: no
 role: Admin, Leader
-feature: Systems
+feature: System
 ---
 
 # Admin Systems Guide {#systems}
