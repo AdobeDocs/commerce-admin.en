@@ -2,6 +2,7 @@
 title: Prioritize Sources for a Stock
 description: Learn how to arrange sources from top to bottom in priority, which is used when determining shipment and inventory deductions.
 exl-id: 16db3ee3-ce99-40dd-b1a3-fcb145b1298f
+feature: Inventory, Configuration
 ---
 # Prioritize Sources for a Stock
 

@@ -2,6 +2,7 @@
 title: Bulk updates for product attributes
 description: Use the [!UICONTROL Update Attributes] tool to apply attribute changes to  multiple products.
 exl-id: a2d303bf-35b4-4fc7-a481-cd9617155fb8
+feature: Catalogs, Products
 ---
 # Bulk updates for product attributes
 

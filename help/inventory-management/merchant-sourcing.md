@@ -2,6 +2,7 @@
 title: Merchant sourcing types
 description: Learn about the two sourcing types based on the number of locations, or sources, in your business.
 exl-id: ec928929-5826-4504-9fd0-84256b37cb39
+feature: Inventory, Products
 ---
 # Merchant sourcing types
 

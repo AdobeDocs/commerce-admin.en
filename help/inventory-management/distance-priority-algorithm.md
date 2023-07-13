@@ -2,6 +2,7 @@
 title: Configure the Distance Priority Algorithm
 description: Set the configuration for comparing the location of the shipping destination address with source locations to determine the closest source to fulfill shipments.
 exl-id: 4dec179a-25ac-48db-a84b-4974798272b0
+feature: Inventory, Configuration
 ---
 # Configure the Distance Priority Algorithm
 

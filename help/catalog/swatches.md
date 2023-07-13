@@ -2,6 +2,7 @@
 title: Product swatches
 description: Learn how to define swatches for your configurable product listings.
 exl-id: 6163cec4-5d84-4e2c-ba5c-3c22ac4e3f28
+feature: Catalogs, Products
 ---
 # Product swatches
 
