@@ -2,6 +2,7 @@
 title: Import downloadable products
 description: Review an example of importing product data for a downloadable product.
 exl-id: e0b45ef5-dff1-4ee4-aa7e-2407162669fd
+feature: Products, Data Import/Export
 ---
 # Import downloadable products
 

@@ -2,6 +2,7 @@
 title: Import bundle products
 description: Review an example of importing product data for a bundle product.
 exl-id: 52146979-9911-449b-9f14-54377e2ae9f4
+feature: Products, Data Import/Export
 ---
 # Import bundle products
 

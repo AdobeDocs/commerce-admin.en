@@ -2,6 +2,7 @@
 title: Cron (scheduled tasks)
 description: Learn how you can control the execution and scheduling of Commerce cron jobs from the Admin.
 exl-id: e0da08ab-212f-4977-9387-0b4b40560cfb
+feature: System, Configuration
 ---
 # Cron (scheduled tasks)
 
