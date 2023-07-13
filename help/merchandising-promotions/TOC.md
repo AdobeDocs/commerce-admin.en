@@ -2,6 +2,8 @@
 user-guide-title: Adobe Commerce Merchandising and Promotions Guide
 user-guide-description: Adobe Commerce and Magento Open Source include many tools that you can use to drive sales, create opportunities for customer engagement, and set up targeted promotions.
 breadcrumb-title: Merchandising and Promotions
+role: Admin, Leader, User
+feature: Merchandising, Promotions/Events
 ---
 
 # Adobe Commerce Merchandising and Promotions Guide {#marketing}

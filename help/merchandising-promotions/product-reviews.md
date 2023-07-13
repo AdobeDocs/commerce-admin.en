@@ -2,6 +2,7 @@
 title: Product reviews
 description: Learn how product reviews can enhance your store and bring more credibility to your products.
 exl-id: 82f96b24-626f-4b2d-be42-3d655d08dfda
+feature: Merchandising, Products
 ---
 # Product reviews
 

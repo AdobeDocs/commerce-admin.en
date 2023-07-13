@@ -2,6 +2,7 @@
 title: Cart price rule example - free shipping promotion
 description: Review an example of using a cart price rule to offer free shipping.
 exl-id: f7652254-ff01-44ff-a207-2d7cf2017517
+feature: Merchandising, Price Rules, Shopping Cart, Shipping/Delivery
 ---
 # Cart price rule example - free shipping promotion
 

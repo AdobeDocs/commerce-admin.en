@@ -2,6 +2,7 @@
 title: Add gift registry search
 description: Learn how to place a gift registry search box to help store vistors purchase products from customer registries.
 exl-id: 8c5558d6-3641-4769-987e-8b217603d9fc
+feature: Gift, Storefront, Search
 ---
 # Add gift registry search
 
