@@ -2,6 +2,7 @@
 title: Create a related product rule
 description: Learn how to create a related product rule that can be triggered to display related products, up-sells, and cross-sells.
 exl-id: fbc059ec-d3e6-46ca-810a-a979a0631dd8
+feature: Merchandising, Products, Storefront
 ---
 # Create a related product rule
 

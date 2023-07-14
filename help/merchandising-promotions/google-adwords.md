@@ -2,6 +2,7 @@
 title: Google AdWords
 description: Learn how to configure your Commerce store for Google AdWords conversion tracking to measure the ad clicks that lead to a sale or other valuable action.
 exl-id: 3dd3beba-edcf-4f9e-a527-7ed3609ef1ae
+feature: Marketing Tools, Integration
 ---
 # Google AdWords
 

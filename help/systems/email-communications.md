@@ -2,6 +2,7 @@
 title: Configure email communications
 description: Learn how to configure email communications, including the routing of returned email or replies to a specific email address.
 exl-id: 7e62e9c5-f214-4fd5-becc-99dcb093cd5c
+feature: Communications, Configuration
 ---
 # Configure email communications
 
