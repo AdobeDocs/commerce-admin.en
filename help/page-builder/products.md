@@ -2,6 +2,7 @@
 title: Add Content - Products
 description: Learn about the Products content type, used to add a list of products to the [!DNL Page Builder] stage.
 exl-id: 8ef38669-a6f6-493b-b963-b0fc4e3bbff4
+feature: Page Builder, Page Content, Products
 ---
 # Add Content - Products
 

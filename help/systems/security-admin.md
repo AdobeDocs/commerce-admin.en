@@ -25,7 +25,7 @@ In addition to the security settings in this section, [two-factor authentication
 
 For technical information, see [Security overview](https://developer.adobe.com/commerce/php/architecture/basics/security/){:target="_blank"} in the developer documentation.
 
-![Admin security](../configuration-reference/advanced/assets/admin-security.png)<!-- zoom -->
+![Admin security](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
 
 ## Configure Admin security
 

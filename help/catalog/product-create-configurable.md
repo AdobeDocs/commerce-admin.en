@@ -2,6 +2,7 @@
 title: Configurable product
 description: Learn how to create a configurable product that provides shoppers with variations for selection.
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
+feature: Catalogs, Products
 ---
 # Configurable product
 

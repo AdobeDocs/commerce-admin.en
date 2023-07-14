@@ -2,6 +2,7 @@
 title: "[!UICONTROL My Account] page"
 description: The [!UICONTROL My Account] page of the customer dashboard gives customers an overview of their information and activity related to your store.
 exl-id: 01413b6b-ce32-4284-ae29-0fadf6ed22ca
+feature: Customers, Storefront
 ---
 # [!UICONTROL My Account] page
 

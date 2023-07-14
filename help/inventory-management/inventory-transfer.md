@@ -2,6 +2,7 @@
 title: Transfer Inventory to Source
 description: Learn how multi-source merchants can transfer product inventory from one source location to another.
 exl-id: 30438412-bc93-4e65-8b6a-5ddb50afa7ff
+feature: Inventory, Configuration
 ---
 # Transfer Inventory to Source
 
@@ -41,8 +42,8 @@ You can also unassign the source when transferring inventory quantities.
 
 1. To remove the source from the products, select the optional checkbox **[!UICONTROL Unassign from origin source after transfer]**.
 
-    ![Select origin and destination for transfer](assets/inventory-bulk-transfer-summary.png)
+    ![Select origin and destination for transfer](assets/inventory-bulk-transfer-summary.png){width="600" zoomable="yes"}
 
-1. Click **[!UICONTROL Inventory Transfer]**.
+1. Click **[!UICONTROL Transfer Inventory]**.
 
    All product quantities are deducted from the origin source and added to the destination source. The Quantity and Salable Quantity automatically update.

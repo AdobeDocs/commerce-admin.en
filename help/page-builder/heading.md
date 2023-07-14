@@ -2,12 +2,13 @@
 title: Elements - Heading
 description: Learn about the Heading content type, used to add a text container with a heading level from H1 to H6 to the [!DNL Page Builder] stage.
 exl-id: dc51e7f6-a235-49dc-a978-1419a63fa33e
+feature: Page Builder, Page Content
 ---
 # Elements - Heading
 
 Heading levels establish a hierarchy that organizes content and helps search engines index each page. Use the _Heading_ content type in the [[!DNL Page Builder] stage](workspace.md#stage) to add a text container with a heading level from H1 to H6 to the stage. Headings are formatted according to the style sheet that is associated with the current theme.
 
-The [Content Heading](workspace.md) field in the _[!UICONTROL Content]_ section can be used to add an H1 heading to the top of the page. However, the field is a legacy from previous [!DNL Commerce] versions and is provided to support older content. This field does not take advantage of [!DNL Page Builder]’s advanced features. It is recommended that you leave the Content Heading field blank and use the [!DNL Page Builder] Heading content type to add headings of any level to the page.
+The [Content Heading](workspace.md) field in the _[!UICONTROL Content]_ section can be used to add an H1 heading to the top of the page. However, the field is a legacy from previous [!DNL Commerce] versions and is provided to support older content. This field does not take advantage of [!DNL Page Builder]'s advanced features. It is recommended that you leave the Content Heading field blank and use the [!DNL Page Builder] Heading content type to add headings of any level to the page.
 
 The following example shows how the Content Heading and the Heading content type appear when formatted by the Luma theme.
 

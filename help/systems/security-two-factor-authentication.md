@@ -13,7 +13,7 @@ The Commerce _Admin_ for your Adobe Commerce or Magento Open Source installation
 
 Two-factor authentication is widely used, and it is common to generate access codes for different websites on the same app. This ensures that only you are able to log in to your user account. If you lose your password or a bot guesses it, two-factor authentication adds a layer of protection. For example, you might use Google Authenticator to generate codes for the Admin of your store, your Commerce account, and Google account.
 
-![Security configuration iphone - 2FA](./assets/google-authenticator-iphone.png)<!-- zoom -->
+![Security configuration iphone - 2FA](./assets/google-authenticator-iphone.png){width="300"}
 
 Adobe Commerce supports 2FA methods from multiple providers. Some require the installation of an app that generates a one-time password (OTP) that users enter at sign-in to verify their identity. Universal second Factor (U2F) devices resemble a key fob and generate a unique key to verify identity. Other devices verify identity when they are inserted into a USB port. As the store administrator, you can require one or more of the available 2FA methods to verify user identity. Your 2FA configuration applies to all websites and stores that are associated with the Adobe Commerce installation.
 
@@ -44,7 +44,7 @@ You can watch this [video demo](https://video.tv.adobe.com/v/339104?quality=12&l
 
 1. Complete the settings for each required 2FA method.
 
-   ![Security configuration - 2FA](./assets/config-2fa-general.png)<!-- zoom -->
+   ![Security configuration - 2FA](../configuration-reference/security/assets/2fa-general.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
@@ -58,7 +58,7 @@ Complete the settings for each 2FA method that you require.
 
 To change how long the one-time password (OTP) is available during sign-in, clear the **[!UICONTROL Use system value]** checkbox. Then, enter the number of seconds that you want the **[!UICONTROL OTP Window]** to be valid.
 
-![Security configuration - Google](../configuration-reference/security/assets/2fa-google.png)<!-- zoom -->
+![Security configuration - Google](../configuration-reference/security/assets/2fa-google.png){width="600" zoomable="yes"}
 
 ### [!DNL Duo Security]
 
@@ -68,7 +68,7 @@ Enter the following credentials from your Duo Security account:
 - Secret key
 - API hostname
 
-![Security configuration - Duo](../configuration-reference/security/assets/2fa-duo-security.png)<!-- zoom -->
+![Security configuration - Duo](../configuration-reference/security/assets/2fa-duo-security.png){width="600" zoomable="yes"}
 
 ### [!DNL Authy]
 
@@ -76,10 +76,10 @@ Enter the following credentials from your Duo Security account:
 
 1. To change the default message that appears during authentication, clear the **[!UICONTROL Use system value]** checkbox. Then, enter the **[!UICONTROL OneTouch Message]** that you want to appear.
 
-   ![Security configuration - Authy](../configuration-reference/security/assets/2fa-authy.png)<!-- zoom -->
+   ![Security configuration - Authy](../configuration-reference/security/assets/2fa-authy.png){width="600" zoomable="yes"}
 
 ### U2F Devices ([!DNL Yubikey] and others)
 
 The store domain is used by default during the authentication process. To use a custom domain for authentication challenges, clear the **[!UICONTROL Use system value]** checkbox. Then, enter the **[!UICONTROL WebAPi Challenge Domain]**.
 
-![Security configuration - U2F Devices](../configuration-reference/security/assets/2fa-u2f-key.png)<!-- zoom -->
+![Security configuration - U2F Devices](../configuration-reference/security/assets/2fa-u2f-key.png){width="600" zoomable="yes"}

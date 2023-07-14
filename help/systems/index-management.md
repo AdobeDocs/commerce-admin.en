@@ -14,7 +14,7 @@ The indexers can be set to either update on save or on schedule. All indexes can
 >[!NOTE]
 > Adobe Commerce merchants using Live Search, Catalog Service, or Product Recommendations have the option to use a [SaaS-based price indexer](https://experienceleague.adobe.com/docs/commerce-merchant-services/price-indexer/index.html).
 
-When a reindex is needed, a notification appears at the top of the page. The index and message clears based on the reindex mode and potential actions that you take. For more detailed information about indexing , see the [How the application implements indexing](https://developer.adobe.com/commerce/php/development/components/indexing/#how-the-application-implements-indexing){:target="_blank"} in the _PHP Developer Guide.
+When a reindex is needed, a notification appears at the top of the page. The index and message clears based on the reindex mode and potential actions that you take. For more detailed information about indexing , see the [How the application implements indexing](https://developer.adobe.com/commerce/php/development/components/indexing/#how-the-application-implements-indexing) in the _PHP Developer Guide_.
 
 ![Index management - actions](./assets/index-management.png){width="700" zoomable="yes"}
 
@@ -83,7 +83,7 @@ Commerce provides additional reindex options using the command line. For complet
 | [!UICONTROL Catalog category/product index] | Add, edit, or delete products (single, mass, and import)<br/>Change product-to-category relations<br/>Add, edit, or delete categories<br/>Add or delete stores<br/>Delete store groups<br/>Delete websites |
 | [!UICONTROL Catalog search index] | Add, edit, or delete products (single, mass, and import)<br/>Add or delete stores<br/>Delete store groups<br/>Delete websites |
 | [!UICONTROL Stock status index] | Change inventory configuration settings. |
-| [!UICONTROL Category permissions index] | Add store<br/>Add store group<br/>Add,  delete, or update attribute (for searching and filtering) |
+| [!UICONTROL Category permissions index] | Add store<br/>Add store group<br/>Add, delete, or update attribute (for searching and filtering) |
 
 {style="table-layout:auto"}
 

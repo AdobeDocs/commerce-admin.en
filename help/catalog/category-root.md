@@ -2,6 +2,7 @@
 title: Root category and hierarchy
 description: Learn about the category hierarchy and the root category, which acts as a container for the main menu in the category tree.
 exl-id: b419cb45-4fe5-42c4-be20-667c7e1e4354
+feature: Catalogs, Categories, Site Navigation
 ---
 # Root category and hierarchy
 

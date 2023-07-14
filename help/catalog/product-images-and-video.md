@@ -2,6 +2,7 @@
 title: Product settings - [!UICONTROL Images and Videos]
 description: For a product, the [!UICONTROL Images and Videos] settings determine how each image or video is used for the product listing.
 exl-id: 13ebed16-a788-4d39-bc28-b86c2375cc6b
+feature: Catalogs, Products, Media
 ---
 # Product settings - [!UICONTROL Images and Videos]
 

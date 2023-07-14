@@ -2,6 +2,7 @@
 title: Orders and Returns Widget
 description: Learn how to use the Orders and Returns to give customers the ability to check the status of their orders, print invoices, and track shipments.
 exl-id: 1c3948e6-a0de-4ee4-8abf-10ab845a94a7
+feature: Page Content, Orders, Returns
 ---
 # Orders and Returns Widget
 

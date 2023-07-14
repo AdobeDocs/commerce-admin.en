@@ -2,6 +2,7 @@
 title: Import and Export Inventory
 description: Use the native import and export features with expanded [!DNL Inventory Management] options to update sources and quantities by SKU.
 exl-id: cb2d2e0d-aef8-4b18-b013-9a7b0ab448bd
+feature: Inventory, Data Import/Export
 ---
 # Import and Export Inventory
 
@@ -26,7 +27,7 @@ The export-import file includes the following information according to source:
 
 Use a CSV file to quickly update multiple products and assigned sources to update and correct any inaccuracies in inventory records rather than one at a time through the application interface. For a base file, export first and update as needed.
 
-![Example CSV file for import - export inventory data](assets/inventory-import-export-data.png)
+![Example CSV file for import - export inventory data](assets/inventory-import-export-data.png){width="600" zoomable="yes"}
 
 ## Export product data for all sources
 
@@ -42,7 +43,7 @@ Use a CSV file to quickly update multiple products and assigned sources to updat
 
 After updating inventory amounts and product data, import the file back into [!DNL Commerce].
 
-![Export stock sources for product data and sources](assets/inventory-export-stock-sources.png)
+![Export stock sources for product data and sources](assets/inventory-export-stock-sources.png){width="350" zoomable="yes"}
 
 ## Export product data for a specific source
 
@@ -76,4 +77,4 @@ After updating inventory amounts and product data, import the file back into [!D
 
 1. Click **[!UICONTROL Check Data]** and complete the import.
 
-![Import product data and sources](assets/inventory-import-sources.png)
+![Import product data and sources](assets/inventory-import-sources.png){width="600" zoomable="yes"}

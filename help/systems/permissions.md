@@ -13,4 +13,4 @@ When an Admin user's access is restricted to a specific website or store, those 
 
 - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) By default, the system automatically logs (records) all actions performed by a user when they apply changes to a store. Admin actions can be reviewed in the [Action Logs Report](action-log-report.md). Configure logging in [Admin Actions Logging](action-log.md) in your store's advanced admin settings.
 
-![Admin - all user accounts](./assets/users-all.png)<!-- zoom -->
+![Admin - all user accounts](./assets/users-all.png){width="700" zoomable="yes"}

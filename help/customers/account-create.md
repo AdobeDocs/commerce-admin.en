@@ -2,6 +2,7 @@
 title: Create an individual customer account
 description: Visitors can easily create an individual customer account to manage their purchases.
 exl-id: 8d08c0e1-f3ba-4423-98a7-ffa8ba5a1b8b
+feature: Customers, Storefront
 ---
 # Create an individual customer account
 

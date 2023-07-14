@@ -2,6 +2,7 @@
 title: Product attributes overview
 description: Learn about product attributes and how they are used to describe specific characteristics of a product.
 exl-id: e15770ee-fb71-43f0-8c26-e8029935799a
+feature: Catalogs, Products
 ---
 # Product attributes overview
 

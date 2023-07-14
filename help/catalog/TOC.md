@@ -2,6 +2,8 @@
 user-guide-title: Catalog Management Guide
 user-guide-description: Comprehensive information about catalog management features for Adobe Commerce and Magento Open Source administrators and eCommerce marketers.
 breadcrumb-title: Catalog Management
+role: Admin, Leader, User
+feature: Catalogs
 ---
 
 # Catalog Management Guide {#catalog}

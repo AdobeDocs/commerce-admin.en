@@ -2,6 +2,7 @@
 title: Products list
 description: Learn about the _[!UICONTROL Products]_ page in the Admin, where you can create products and edit existing ones.
 exl-id: 47e14f72-017f-456a-8904-6d32ef47e6f1
+feature: Catalogs, Products, Admin Workspace
 ---
 # Products list
 
@@ -50,7 +51,6 @@ This configuration setting for the product display limitation is disabled by def
 |Control|Description|
 |--- |--- |
 |[!UICONTROL Add Product]|Initiates the process to create a new simple product. To choose a specific product type, click the down arrow. Options: [[!UICONTROL Simple Product]](product-create-simple.md) / [[!UICONTROL Configurable Product]](product-create-configurable.md) / [[!UICONTROL Grouped Product]](product-create-grouped.md) / [[!UICONTROL Virtual Product]](product-create-virtual.md) / [[!UICONTROL Bundle Product]](product-create-bundle.md) / [[!UICONTROL Downloadable Product]](product-create-downloadable.md) / [[!UICONTROL Gift Card]](product-gift-card-create.md)|
-|[!UICONTROL Export Full Catalog]|([MCOM Connector](../systems/mcom.md) required) Manually request a [full catalog export](../systems/mcom.md#export-full-catalog) from Adobe Commerce. Outgoing messages are exported to a .csv file in batches.|
 |[!UICONTROL Actions]|Lists all actions that can be applied to selected products in the list. To apply an action to a product or group of products, select the checkbox in the first column of each product. Options: `Delete` / `Change Status` / `Update Attributes` / `Assign Inventory Source` / `Unassign Inventory Source` / `Transfer Inventory To Source`|
 |[!UICONTROL Filters]|Initiates a catalog search based on the current filters.|
 |[!UICONTROL Default View]|Indicates the current grid column layout. If there are saved grid column views, you can choose another.|

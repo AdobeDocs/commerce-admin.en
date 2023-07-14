@@ -2,6 +2,7 @@
 title: Extensions
 description: Review information about extensions for Adobe Commerce and Magento Open Source released by Adobe.
 exl-id: 86338edc-c32a-41c8-9594-6aec26f53ac6
+feature: Extensions
 ---
 # Extensions
 

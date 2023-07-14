@@ -2,6 +2,7 @@
 title: Create categories
 description: You can create as many additional subcategories as needed, according to the maximum menu depth that is set in the configuration.
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
+feature: Catalogs, Categories
 ---
 # Create categories
 

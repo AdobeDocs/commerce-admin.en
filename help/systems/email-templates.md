@@ -21,7 +21,7 @@ Logos can be saved as any of the following file types. Logos with transparent ba
 
 There are dimensions specified in the header template. However, to ensure that your logo renders well on high-resolution devices, the uploaded image should be three times this size. Typically, original logo artwork is created as a vector image, so it can be scaled up without losing resolution. The image can then be saved in one of the supported bitmap image formats.
 
-<!-- ![Logo 3X display size](./assets/email-logo-third-size.png)<!-- zoom -->
+<!-- ![Logo 3X display size](./assets/email-logo-third-size.png)-->
 
 To take advantage of the limited vertical space in the header, make sure to crop the image to eliminate any wasted space at the top or bottom. When editing the image, be careful to preserve the aspect ratio of the logo, so the height and width resize proportionally.
 
@@ -38,7 +38,7 @@ As a rule, you can make an image smaller than the original, but not larger witho
 
 The configuration determines the logo that appears in the default header template, and any custom [header](email-template-custom.md#header-template) and [footer](email-template-custom.md#footer-template) templates that you want to use for transactional email messages sent from your stores.
 
-![Transactional email design](./assets/design-configuration-transactional-emails.png)<!-- zoom -->
+![Transactional email design](./assets/design-configuration-transactional-emails.png){width="600" zoomable="yes"}
 
 For a detailed list of the configuration settings, see [_Transactional Emails_](../content-design/configuration.md) in the _Content and Design Guide_.
 

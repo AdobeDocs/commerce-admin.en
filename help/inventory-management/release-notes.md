@@ -2,6 +2,7 @@
 title: '[!DNL Inventory Management] Release Notes'
 description: Review the release notes for information about all [!DNL Inventory Management] releases.
 exl-id: 856b9503-7621-4beb-ac2f-3eb1a240cebc
+feature: Inventory, Release Notes
 ---
 # Release Notes
 
