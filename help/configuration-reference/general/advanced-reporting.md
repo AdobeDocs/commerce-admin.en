@@ -2,6 +2,7 @@
 title: '[!UICONTROL General] &gt; [!UICONTROL Advanced Reporting]'
 description: Review the configurations settings on the [!UICONTROL General] &gt; [!UICONTROL Advanced Reporting] page of the Commerce Admin.
 exl-id: 3f6311c8-3849-4608-8f2c-64359bd3edbc
+feature: Configuration, Commerce Intelligence
 ---
 # [!UICONTROL General] > [!UICONTROL Advanced Reporting]
 
@@ -9,7 +10,7 @@ exl-id: 3f6311c8-3849-4608-8f2c-64359bd3edbc
 
 ## [!UICONTROL Advanced Reporting]
 
-_[!DNL Advanced Reporting]_ is a cloud-based service that is powered by [MBI][1]{:target="_blank"}. For more information, see [Advanced Reporting][2]{:target="_blank"} in the _Getting Started Guide_.
+_[!DNL Advanced Reporting]_ is a cloud-based service that is powered by [Adobe Commerce Intelligence][1]{:target="_blank"}. For more information, see [Advanced Reporting][2]{:target="_blank"} in the _Getting Started Guide_.
 
 ![Advanced Reporting](./assets/advanced-reporting.png)<!-- zoom -->
 

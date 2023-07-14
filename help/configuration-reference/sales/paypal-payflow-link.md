@@ -2,6 +2,7 @@
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL PayPal Payflow Link]'
 description: Review the configurations settings in the [!UICONTROL PayPal Payflow Link] section on the [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] page of the Commerce Admin.
 exl-id: 5ea30b22-e251-4d93-be2c-d34138ef2f7d
+feature: Configuration, Payments
 ---
 # [!UICONTROL Sales] > [!UICONTROL Payment Methods] > [!UICONTROL PayPal Payflow Link]
 

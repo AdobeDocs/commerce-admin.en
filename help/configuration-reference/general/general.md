@@ -2,6 +2,7 @@
 title: '[!UICONTROL General] &gt; [!UICONTROL General]'
 description: Review the configurations settings on the [!UICONTROL General] &gt; [!UICONTROL General] page of the Commerce Admin.
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
+feature: Configuration, System
 ---
 # [!UICONTROL General] > [!UICONTROL General]
 
