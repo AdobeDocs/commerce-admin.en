@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Tax]'
-description: Review the configurations settings on the [!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings] page of the Commerce Admin.
+description: Review the configurations settings on the [!UICONTROL Sales] &gt; [!UICONTROL Tax] page of the Commerce Admin.
 exl-id: eb929a6c-adb2-45ac-b6ec-6239938355bf
 feature: Configuration, Taxes
 ---
