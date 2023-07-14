@@ -2,6 +2,7 @@
 title: Coupon codes
 description: Learn how to use coupons codes with cart price rules to apply a discount when a set of conditions is met.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
+feature: Merchandising, Price Rules, Shopping Cart
 ---
 # Coupon codes
 

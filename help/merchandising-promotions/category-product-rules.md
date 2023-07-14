@@ -2,6 +2,7 @@
 title: Category rules for merchandising
 description: Learn how to create rule to dynamically change the product selections according to a set of conditions.
 exl-id: 765b863a-bb83-418b-9fca-ef0a148b09eb
+feature: Categories, Merchandising
 ---
 # Category rules for merchandising
 

@@ -2,6 +2,7 @@
 title: Meta data
 description: Learn about how can enter keyword-rich meta data to improve the way search engines index your Commerce site.
 exl-id: 2acc1523-9da6-4e6f-8e4f-607603a61559
+feature: Merchandising, Search
 ---
 # Meta data
 

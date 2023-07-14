@@ -2,6 +2,7 @@
 title: Email templates
 description: Learn about email templates and how you can use them to support communications to your customers and reinforce your brand.
 exl-id: dfe28c77-607e-41e4-b872-3a07bcd67962
+feature: Communications, Configuration
 ---
 # Email templates
 

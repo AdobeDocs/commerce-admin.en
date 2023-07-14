@@ -2,6 +2,8 @@
 title: Admin permissions
 description: Learn about Admin user accounts and how roles are used to grant access to store management functions.
 exl-id: 54e4a322-4747-4472-b60b-cfe84c109f86
+role: Admin
+feature: Admin Workspace, Roles/Permissions, User Account, Security
 ---
 # Admin permissions
 

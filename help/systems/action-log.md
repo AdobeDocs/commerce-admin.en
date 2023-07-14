@@ -2,6 +2,7 @@
 title: Action logs
 description: Learn about action logs and how to configure logged actions to help you to track all the changes made to your store.
 exl-id: a482adfe-a63f-428b-b078-7542a1e2ecee
+feature: Logs, Configuration
 ---
 # Action logs
 
