@@ -2,6 +2,7 @@
 title: '[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]'
 description: Review the configurations settings on the [!UICONTROL Catalog] &gt; [!UICONTROL Catalog] page of the Commerce Admin.
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
+feature: Configuration, Catalogs
 ---
 # [!UICONTROL Catalog] > [!UICONTROL Catalog]
 

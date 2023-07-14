@@ -2,6 +2,7 @@
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Requisition Lists]'
 description: Review the configurations settings on the [!UICONTROL Customers] &gt; [!UICONTROL Requisition Lists] page of the Commerce Admin.
 exl-id: 3720d9de-a5cc-4c44-a42a-af7409021f52
+feature: Configuration, B2B
 ---
 # [!UICONTROL Customers] > [!UICONTROL Requisition Lists]
 

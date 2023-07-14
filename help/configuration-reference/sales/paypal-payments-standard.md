@@ -2,6 +2,7 @@
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL PayPal Payments Standard]'
 description: Review the configurations settings in the [!UICONTROL PayPal Payments Standard] section on the [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] page of the Commerce Admin.
 exl-id: 846d9b6f-92b9-4610-b894-625f67f4cff8
+feature: Configuration, Payments
 ---
 # [!UICONTROL Sales] > [!UICONTROL Payment Methods] > [!UICONTROL PayPal Payments Standard]
 
