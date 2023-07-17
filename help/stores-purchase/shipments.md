@@ -2,6 +2,7 @@
 title: Shipments
 description: Learn how to create shipment records for invoices and to cancel shipments.
 exl-id: 6df83549-ba38-43f7-aab1-dbf3f6b89d74
+feature: Shipping/Delivery, Invoices
 ---
 # Shipments
 

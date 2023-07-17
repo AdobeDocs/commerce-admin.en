@@ -2,6 +2,7 @@
 title: Cash on delivery (COD)
 description: Learn how to set up cash on delivery as an offline method of payment on your store.
 exl-id: dcf94734-a66e-4d32-b389-b47c979ceaa9
+feature: Payments
 ---
 # Cash on delivery (COD)
 

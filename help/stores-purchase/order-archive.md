@@ -2,6 +2,7 @@
 title: Archive orders
 description: Learn how to configure the order archive to improve performance and streamline Commerce for your organization.
 exl-id: 12025591-bfe2-4f44-9358-a38ea4493b5c
+feature: Orders, Configuration
 ---
 # Archive orders
 

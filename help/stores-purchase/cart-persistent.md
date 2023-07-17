@@ -2,6 +2,7 @@
 title: Cart persistence
 description: Learn how a persistent shopping cart tracks unpurchased cart items and saves the information for the customer's next visit.
 exl-id: 95c336b3-77ac-4cf6-8fb5-23f4ac4b67d6
+feature: Shopping Cart, Configuration
 ---
 # Cart persistence
 

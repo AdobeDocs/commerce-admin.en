@@ -2,10 +2,11 @@
 title: Configure shipping labels
 description: Learn how to configure store for generating shipping labels.
 exl-id: 0693d74b-8b36-4a36-8739-c9fe5a934ff0
+feature: Shipping/Delivery, Orders
 ---
 # Configure shipping labels
 
-The following settings must be made at the product level, and in the configuration of each carrier that is used to print labels. To print labels, all carriers require that you open an account. Then, complete the configuration in your store for each carrier that you plan to use.s
+The following settings must be made at the product level, and in the configuration of each carrier that is used to print labels. To print labels, all carriers require that you open an account. Then, complete the configuration in your store for each carrier that you plan to use.
 
 ## Carrier requirements
 

@@ -2,6 +2,7 @@
 title: Cart configuration
 description: Learn about the shopping cart features that you can configure to support the purchase experience on your store.
 exl-id: b98ec7ce-9354-4f03-b67e-dd1587f0c866
+feature: Shopping Cart, Configuration
 ---
 # Cart configuration
 

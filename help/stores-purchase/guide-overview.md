@@ -2,6 +2,7 @@
 title: Stores and Purchase Experience Guide
 description: Comprehensive information about store definition and sales processing features for customer service agents and sales managers working in the Adobe Commerce and Magento Open Source Admin.
 exl-id: 01c075a5-d9ac-4edb-82de-35a52748b800
+recommendations: noCatalog
 ---
 # Adobe Commerce Stores and Purchase Experience Guide
 
