@@ -2,6 +2,7 @@
 title: Shipping and delivery
 description: Learn about support for various delivery methods and shipping carriers that you can offer to your customers.
 exl-id: 79fce11c-d45d-4176-94ac-80261c65b7ad
+feature: Shipping/Delivery
 ---
 # Shipping and delivery
 

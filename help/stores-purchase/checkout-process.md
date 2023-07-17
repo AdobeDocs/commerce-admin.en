@@ -2,6 +2,7 @@
 title: Checkout process and options
 description: Learn how the Adobe Commerce and Magento Open Source checkout process gathers the information necessary to complete the transaction and the Checkout page leads the customer through each step of the process.
 exl-id: f503643b-a0bb-4763-9831-d592afb2c323
+feature: Checkout
 ---
 # Checkout process and options
 

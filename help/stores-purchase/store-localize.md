@@ -2,6 +2,7 @@
 title: Store localization
 description: Learn how to localize a store or store view.
 exl-id: 64e1b431-f599-444c-9d39-207bb95f0400
+topic: Commerce, Localization
 ---
 # Store localization
 

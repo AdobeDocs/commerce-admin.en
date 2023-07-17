@@ -2,6 +2,7 @@
 title: Braintree
 description: Learn how to set up Braintree as an online payment solution on your store.
 exl-id: 781b385f-926e-4047-b7da-6f7c090d75d8
+feature: Payments
 ---
 # Braintree
 
