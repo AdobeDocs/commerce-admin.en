@@ -4,6 +4,7 @@ user-guide-description: Comprehensive information for site administrators, custo
 breadcrumb-title: Stores and Purchase Experience
 role: Admin, User
 feature: Storefront
+recommendations: noDisplay
 ---
 
 # Stores and Purchase Experience Guide {#stores-sales}
