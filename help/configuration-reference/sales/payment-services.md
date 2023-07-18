@@ -55,7 +55,7 @@ To access the configuration settings for Payment Services, on the _Admin_ sideba
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |---|---|---|
 | [!UICONTROL Title] | store view | Add the text to be displayed as the title for this payment option in the Payment Method view during checkout. |
-| [!UICONTROL Payment Action] | website | The [payment action](https://docs.magento.com/user-guide/configuration/sales/payment-methods.html#payment-actions){target="_blank"} for the specified payment method. Options: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
+| [!UICONTROL Payment Action] | website | The [payment action](payment-methods.md#payment-actions){target="_blank"} for the specified payment method. Options: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
 | [!UICONTROL Show PayPal buttons on checkout page] | store view | Enable or disable [!DNL PayPal Smart Buttons] on the checkout page. Options: [!UICONTROL  Yes] / [!UICONTROL No] |
 | [!UICONTROL Show PayPal buttons on product detail page] | store view | Enable or disable [!DNL PayPal Smart Buttons] on the product detail page. Options: [!UICONTROL  Yes] / [!UICONTROL No] |
 | [!UICONTROL Show PayPal buttons in mini-cart preview] | store view | Enable or disable [!DNL PayPal Smart Buttons] in the mini-cart preview. Options: [!UICONTROL Yes] / [!UICONTROL No] |
