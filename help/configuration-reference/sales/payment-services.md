@@ -14,7 +14,7 @@ To access the configuration settings for Payment Services, on the _Admin_ sideba
 
 >[!NOTE]
 >
->To use the Legacy configuration instead of [Payment Services Settings](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/settings.html), see [Legacy configuration](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/configure-admin.html).
+>To use the Legacy configuration instead of [Settings](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/settings.html), see [Legacy configuration](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/configure-admin.html).
 
 ## [!UICONTROL General]
 
