@@ -46,7 +46,7 @@ To access the configuration settings for Payment Services, on the _Admin_ sideba
 | [!UICONTROL Show vaulted payment methods in Admin] | store view | Enable or disable ability for merchant to complete orders for customers in the Admin [using a vaulted payment method](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/payments-checkout/vaulting.html). Options: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Debug Mode] | website | Enable or disable Debug Mode. Options: [!UICONTROL Yes] / [!UICONTROL No] |
 
-{:style="table-layout:auto"} https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/payment-methods.html#payment-actions
+{:style="table-layout:auto"}
 
 ## [!UICONTROL Payment buttons]
 
