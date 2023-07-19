@@ -37,7 +37,7 @@ The customer password options determine the level of security that is used for p
 
    - Set **[!UICONTROL Forgot Email Template]** to the template that is used for the email sent to customers who have forgotten their passwords.
 
-   - Set **[!UICONTROL Remind Email Template]** to the template that is used when a password is reset by admin user.
+   - Set **[!UICONTROL Remind Email Template]** to the template that is used when a customer password is reset by an Admin user.
 
    - Set **[!UICONTROL Reset Password Template]** to the template that is used when customers change their passwords.
 
