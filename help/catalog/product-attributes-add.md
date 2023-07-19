@@ -117,7 +117,7 @@ Although attributes are managed primarily from the [Stores](../stores-purchase/s
 
    >[!NOTE]
    >
-   >The [!UICONTROL Position] field is dimmed by default, so you must save the attribute before you can modify this setting.
+   >The _[!UICONTROL Position]_ field is dimmed by default and you must save the attribute before you can modify this setting.
 
 1. To use the attribute in price rules, set **[!UICONTROL Use for Promo Rule Conditions]** to `Yes`.
 
