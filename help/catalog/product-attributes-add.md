@@ -111,7 +111,7 @@ Although attributes are managed primarily from the [Stores](../stores-purchase/s
    >
    >When the _[!UICONTROL Use in Search]_ setting is set to `No`, the _[!UICONTROL Use in Search Results Layered Navigation]_ setting is not displayed and the product attribute is not used in the search with any [!UICONTROL Use in Layered Navigation] setting value.
 
-1. To use in layered navigation on search results pages, set **[!UICONTROL Use in Search Results Layered Navigation]** to `Yes` and enter a number in the **[!UICONTROL Position]** field.
+1. To use the attribute in layered navigation on search results pages, set **[!UICONTROL Use in Search Results Layered Navigation]** to `Yes` and enter a number in the **[!UICONTROL Position]** field.
 
    The position number indicates the relative position of the attribute within the layered navigation block.
 
