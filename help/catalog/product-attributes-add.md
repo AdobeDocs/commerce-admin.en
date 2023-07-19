@@ -107,9 +107,9 @@ Although attributes are managed primarily from the [Stores](../stores-purchase/s
 
    - `Filterable (no results)` - Layered navigation includes filters for all available attribute values and their product counts, including the products with zero (0) product matches. If the attribute value is a swatch, the value appears as a filter, but is crossed out.
 
->[!NOTE]
->
->When [!UICONTROL Use in Search] setting is set to `No` then [!UICONTROL Use in Search Results Layered Navigation] setting is not displayed, and product attribute is not used in the search with any [!UICONTROL Use in Layered Navigation] setting value.
+   >[!NOTE]
+   >
+   >When the _[!UICONTROL Use in Search]_ setting is set to `No`, the _[!UICONTROL Use in Search Results Layered Navigation]_ setting is not displayed and the product attribute is not used in the search with any [!UICONTROL Use in Layered Navigation] setting value.
 
 1. To use in layered navigation on search results pages, set **[!UICONTROL Use in Search Results Layered Navigation]** to `Yes` and enter a number in the **[!UICONTROL Position]** field.
 
