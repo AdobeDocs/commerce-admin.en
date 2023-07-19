@@ -2,6 +2,7 @@
 title: Configure requisition list maximum
 description: Learn about requisition list configuration, which controls the maximum number that can be maintained for each customer account.
 exl-id: a36dda0e-c00f-4182-9046-717b9d811f71
+feature: B2B, Companies, Configuration
 ---
 # Configure requisition list maximum
 

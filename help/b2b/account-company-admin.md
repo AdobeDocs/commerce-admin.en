@@ -2,6 +2,7 @@
 title: Assign a company administrator
 description: Learn how to assign a company user account as the designated company administrator for the company account.
 exl-id: 26f3a449-6f3a-4078-816d-6248ac6d1e46
+feature: B2B, Companies, Roles/Permissions
 ---
 # Assign a company administrator
 

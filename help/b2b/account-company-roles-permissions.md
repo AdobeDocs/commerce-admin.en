@@ -2,6 +2,7 @@
 title: Company roles and permissions
 description: Learn about roles and permissions that a company administrator can apply to company users, allowing for various levels access to order information and resources.
 exl-id: 9fe20d6a-2c9c-4618-a395-805d64dcf0de
+feature: B2B, Companies, Roles/Permissions
 ---
 # Company Roles and Permissions
 

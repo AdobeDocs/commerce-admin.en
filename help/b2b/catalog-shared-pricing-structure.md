@@ -2,6 +2,7 @@
 title: Set shared catalog pricing and structure
 description: With B2B for Adobe COmmerce, learn about setting up the pricing and structure of a shared catalog.
 exl-id: 67caf56f-1b31-44bb-98dc-ea6ea7d8a4d5
+feature: B2B, Companies, Catalogs
 ---
 # Set shared catalog pricing and structure
 

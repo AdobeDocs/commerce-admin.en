@@ -2,6 +2,7 @@
 title: Manage your shared catalogs
 description: Learn about the information and tools available from the Shared Catalogs page.
 exl-id: a01ac292-240d-42e7-b4c9-2982f293c521
+feature: B2B, Companies, Catalogs
 ---
 # Manage your shared catalogs
 
