@@ -1,5 +1,5 @@
 ---
-title: '[!DNL B2B for Adobe Commerce] release notes'
+title: '[!DNL Admin Unified Experience for Adobe Commerce] release notes'
 description: Review the release notes for information about the latest release of the [!DNL Admin Unified Experience] extension for Commerce.
 ---
 # Admin Unified Experience release notes
