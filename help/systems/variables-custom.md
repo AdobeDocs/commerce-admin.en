@@ -2,6 +2,8 @@
 title: Add custom variables
 description: Learn how to create custom variables and insert them into pages, blocks, and product content.
 exl-id: 8233518a-abcf-4889-b75b-4aa503c7cebb
+role: Admin, User
+feature: System, Variables, Page Content, Communications
 ---
 # Add custom variables
 

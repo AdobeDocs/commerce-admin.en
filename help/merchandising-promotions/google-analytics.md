@@ -2,6 +2,7 @@
 title: '[!DNL Google Analytics]'
 description: Learn how you can use [!DNL Google Analytics] to gather useful metrics for your Commerce sites.
 exl-id: d4df2ef2-d67f-46bf-8569-cbee9dde77e4
+feature: Marketing Tools, Integration
 ---
 # [!DNL Google Analytics]
 

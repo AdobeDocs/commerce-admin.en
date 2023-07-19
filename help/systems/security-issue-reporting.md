@@ -2,6 +2,8 @@
 title: Security issue reporting
 description: Learn how to configure the contact information and security-related links that can be used by security researchers to report security concerns about your site.
 exl-id: 47b95505-51a3-4b7a-a4e3-dbc4b0045797
+role: Admin
+feature: Configuration, Security
 ---
 # Security issue reporting
 

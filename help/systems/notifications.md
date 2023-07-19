@@ -2,6 +2,7 @@
 title: System notifications
 description: Learn how to use the Notifications page to review messages regarding system operations.
 exl-id: 6577f9c7-41dd-4ceb-8d8b-4b84d8bcbd17
+feature: System, Admin Workspace
 ---
 # System notifications
 

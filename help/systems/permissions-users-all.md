@@ -2,6 +2,8 @@
 title: Manage Admin user accounts
 description: Learn how to create Admin user accounts and assign roles to grant permissions to Admin functions.
 exl-id: 65cca7a8-3d44-4c8c-a758-c0de03d53e11
+role: Admin
+feature: Admin Workspace, Roles/Permissions, User Account, Security
 ---
 # Manage Admin user accounts
 

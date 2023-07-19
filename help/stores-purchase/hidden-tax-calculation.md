@@ -2,6 +2,7 @@
 title: Hidden tax calculation
 description: Learn how to configure a hidden tax calculation when there is a discount that has tax embedded in it.
 exl-id: be2000b1-09d7-4a28-814a-f5da7591e387
+feature: Invoices, Taxes
 ---
 # Hidden tax calculation
 

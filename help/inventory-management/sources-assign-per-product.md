@@ -2,6 +2,7 @@
 title: Assign Sources per Product
 description: Learn how to assign an inventory source to a product.
 exl-id: 7e47be25-633e-4f5d-bb61-0d9e79b6dbad
+feature: Inventory, Products
 ---
 # Assign Sources per Product
 

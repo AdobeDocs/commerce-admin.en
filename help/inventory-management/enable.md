@@ -2,6 +2,7 @@
 title: Enable Inventory Management
 description: Learn how to enable [!DNL Inventory Management] at the global store or product level.
 exl-id: 89bd2f8b-b9e4-4b9a-b729-f7bd71f764c9
+feature: Inventory, Configuration
 ---
 # Enable Inventory Management
 

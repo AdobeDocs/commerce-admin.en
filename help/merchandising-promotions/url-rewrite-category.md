@@ -2,6 +2,7 @@
 title: Category URL rewrites
 description: Learn how to use category URL rewrites to redirect links to the URL of another category in your Commerce store.
 exl-id: fc18f472-4aa8-4203-ade9-7ca576689d61
+feature: Categories, Configuration
 ---
 # Category URL rewrites
 

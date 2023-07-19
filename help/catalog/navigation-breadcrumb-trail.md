@@ -2,10 +2,11 @@
 title: Breadcrumb trails
 description: Learn about the different breadcrumb trail patterns and how to configure them to appear on content and catalog pages.
 exl-id: 2f60d48e-960f-437c-8f8f-a3d06cc0840a
+feature: Catalogs, Categories, Site Navigation, Page Content
 ---
 # Breadcrumb trails
 
-A _breadcrumb trail_ is a set of links that shows where you are in relation to other pages in the store. You can click any link in the breadcrumb trail to return to the previous page.
+A _breadcrumb trail_ is a set of links that shows the customer where they are in relation to other pages in the store. They can click any link in the breadcrumb trail to return to the previous page.
 
 The breadcrumb trail can be configured to appear on content pages and on catalog pages. The format and position of the breadcrumb trail varies by theme, but it is typically located just below the header. By default, the breadcrumb trail appears on CMS pages.
 

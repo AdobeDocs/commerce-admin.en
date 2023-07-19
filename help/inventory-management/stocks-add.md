@@ -66,7 +66,7 @@ After adding sources, you must prioritize the order for the sources from top (fi
 |**[!UICONTROL General]**| |
 |[!UICONTROL Name]|Name for the stock. For example: `UK Stock`, `US Stock`|
 |**[!UICONTROL Sales Channels]**| |
-|[!UICONTROL Websites]|Defines the [scope](../getting-started/websites-stores-views.md#scope-settings){target="_blank"} of the stock by assigning the stock to specific websites as _sales channels_. Select one or more websites per stock. Each website can only be assigned to one stock.|
+|[!UICONTROL Websites]|Defines the [scope](../getting-started/websites-stores-views.md#scope-settings) of the stock by assigning the stock to specific websites as _sales channels_. Select one or more websites per stock. Each website can only be assigned to one stock.|
 |**[!UICONTROL Sources]**| |
 |[!UICONTROL Assign Sources]|Assigns inventory sources to this stock. Custom sources cannot be assigned to Default Stock.|
 |[!UICONTROL Assigned Sources]|List of assigned sources. Drag and drop the sources using ![Sort icon](assets/icon-sort.png) into a prioritized order for order fulfillment and shipping.<br/><br/>**[!UICONTROL Code]** - Unique code ID for the source.<br/>**[!UICONTROL Name]** - Name description for the source.<br/>**[!UICONTROL Unassign]** - Remove the assigned source from the stock using ![Trash icon](../assets/icon-delete-trashcan-solid.png).|

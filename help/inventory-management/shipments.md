@@ -2,6 +2,7 @@
 title: Manage Orders and Shipments
 description: Learn about the additional [!DNL Inventory Management] features and options for managing inventory quantities through the shipment process.
 exl-id: cc4ca518-d98c-48f3-9051-6fb3c6fae9fe
+feature: Inventory, Shipping/Delivery
 ---
 # Manage Orders and Shipments
 

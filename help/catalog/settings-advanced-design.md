@@ -2,6 +2,7 @@
 title: Product settings - [!UICONTROL Design]
 description: For a product, the [!UICONTROL Design] settings allow you to apply a different theme to a product page and change the layout.
 exl-id: 8606ddc7-ca81-4503-94e5-a8276506c0a1
+feature: Catalogs, Products, Page Content
 ---
 # Product settings - [!UICONTROL Design]
 

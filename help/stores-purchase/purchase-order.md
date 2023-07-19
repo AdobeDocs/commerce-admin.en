@@ -2,6 +2,7 @@
 title: Purchase orders
 description: Learn how to set up purchase orders as an offline method of payment on your store.
 exl-id: 493c1b59-2155-449f-a08a-eb1aa2af9b3e
+feature: Purchase Orders
 ---
 # Purchase orders
 

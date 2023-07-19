@@ -2,6 +2,7 @@
 title: Category permissions
 description: Learn how to use categories to control the display of product prices, and determine which customer groups can add products to the cart, and specify the landing page.
 exl-id: d80a0545-918e-4c08-9f37-4aa3cd7771f4
+feature: Catalogs, Categories, Customers, Configuration
 ---
 # Category permissions
 

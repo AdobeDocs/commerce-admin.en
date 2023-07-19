@@ -2,6 +2,7 @@
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Login As Customer]'
 description: Review the configurations settings on the [!UICONTROL Customers] &gt; [!UICONTROL Login As Customer] page of the Commerce Admin.
 exl-id: fe5925a2-f66f-44a1-aead-8b1abcbd9db2
+feature: Configuration, Customer Service
 ---
 # [!UICONTROL Customers] > [!UICONTROL Login As Customer]
 

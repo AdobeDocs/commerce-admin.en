@@ -2,6 +2,7 @@
 title: Export data
 description: Learn about data export filters and attributes, and how to export data from your store.
 exl-id: 80e7a2fc-beaa-416e-a00f-a3cad5055975
+feature: Products, Customers, Data Import/Export
 ---
 # Export data
 

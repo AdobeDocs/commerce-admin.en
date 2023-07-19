@@ -2,6 +2,7 @@
 title: Attribute input types
 description: Learn about the input types available for product attributes, which determine the type of data that can be entered and the format of the field or input control.
 exl-id: c35b3b9d-57b0-4c33-abdb-662ac6d0260e
+feature: Catalogs, Products
 ---
 # Attribute input types
 

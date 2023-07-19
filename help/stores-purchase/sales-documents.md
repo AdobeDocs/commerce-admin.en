@@ -2,6 +2,7 @@
 title: Sales documents
 description: Learn how to configure sales documents to support customer orders and fulfillment for your Commerce store.
 exl-id: 869d79ca-688a-4032-a95c-c66ebf7f2775
+feature: Invoices
 ---
 # Sales documents
 

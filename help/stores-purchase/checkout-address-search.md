@@ -2,6 +2,7 @@
 title: Address search at checkout
 description: Learn how to include address search at checkout on your store.
 exl-id: 8153c456-0848-4bb4-8deb-8219323344ed
+feature: Checkout
 ---
 # Address search at checkout
 

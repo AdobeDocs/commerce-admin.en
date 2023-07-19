@@ -17,7 +17,7 @@ The Store View chooser in the upper-left corner of many configuration pages filt
 
 {:style="table-layout:auto"}
 
-![Use System Value checkboxes selected](./assets/store-view-control.png)<!-- zoom -->
+![Use System Value checkboxes selected](./assets/store-view-control.png){width="700" zoomable="yes"}
 
 ## [!UICONTROL Use system value]
 
@@ -55,9 +55,9 @@ Before making a configuration setting that applies only to a specific website, s
 
    - Repeat this process for every field that needs to be updated on the page.
 
-1. When complete, click **[!UICONTROL Save Config]**.
+   ![Setting the Country options of the French store view](./assets/store-view-french.png){width="700" zoomable="yes"}
 
-   ![Setting the locale of the French store view](./assets/store-view-french.png)<!-- zoom -->
+1. When complete, click **[!UICONTROL Save Config]**.
 
 ## Scope quick reference
 

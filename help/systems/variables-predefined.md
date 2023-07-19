@@ -2,6 +2,8 @@
 title: Use predefined variables
 description: Learn about the predefined variables and how to add them in an email template.
 exl-id: 01e909c4-c932-4262-9f33-bd2740a6355f
+role: Admin, User
+feature: System, Variables, Page Content, Communications
 ---
 # Use predefined variables
 

@@ -2,6 +2,7 @@
 title: Configure smart attributes for Visual Merchandiser
 description: Learn how to configure the smart attributes used by the Visual Merchandiser.
 exl-id: 7bbbca40-d991-4393-b99c-5bef2e711071
+feature: Merchandising, Products, Configuration, Attributes
 ---
 # Configure smart attributes for Visual Merchandiser
 

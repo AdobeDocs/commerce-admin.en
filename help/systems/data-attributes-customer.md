@@ -2,6 +2,7 @@
 title: Customer data attributes reference
 description: Use this reference of customer data attributes when you work with customer data imports and exports.
 exl-id: d22ebfed-f439-4a3f-b39e-e957b65c8c21
+feature: Customers, Attributes
 ---
 # Customer data attributes reference
 

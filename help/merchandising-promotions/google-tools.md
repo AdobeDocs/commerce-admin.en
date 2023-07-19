@@ -2,6 +2,7 @@
 title: Google site tools
 description: Learn about the Google tools integrations that you can use to optimize your content, analyze your traffic, and connect your catalog to shopping aggregators and marketplaces.
 exl-id: 09c48f1e-792b-4553-82fc-cd1a119b15d0
+feature: Marketing Tools, Integration
 ---
 # Google site tools
 

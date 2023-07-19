@@ -2,6 +2,7 @@
 title: System backups
 description: Learn how to create and schedule system backups, including the file system, database, and media files.
 exl-id: 3a9655c1-c124-42be-a487-b31404dada90
+feature: System, Configuration
 ---
 # System backups
 

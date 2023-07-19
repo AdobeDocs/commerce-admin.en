@@ -2,6 +2,9 @@
 user-guide-title: Stores and Purchase Experience Guide
 user-guide-description: Comprehensive information for site administrators, customer service agents, and sales managers working in Adobe Commerce and Magento Open Source.
 breadcrumb-title: Stores and Purchase Experience
+role: Admin, User
+feature: Storefront
+recommendations: noDisplay
 ---
 
 # Stores and Purchase Experience Guide {#stores-sales}
