@@ -56,7 +56,7 @@ The following instructions show how to set up basic layered navigation with filt
 
 >[!NOTE]
 >
->When [!UICONTROL Use in Search] setting is set to `No` then [!UICONTROL Use in Search Results Layered Navigation] setting is not displayed, and product attribute is not used in the search with any [!UICONTROL Use in Layered Navigation] setting value.
+>When the _[!UICONTROL Use in Search]_ setting is set to `No`, the _[!UICONTROL Use in Search Results Layered Navigation]_ setting is not displayed and the product attribute is not used in the search with any [!UICONTROL Use in Layered Navigation] setting value.
 
 >[!NOTE]
 >
