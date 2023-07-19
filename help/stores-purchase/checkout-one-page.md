@@ -2,6 +2,7 @@
 title: One-page checkout
 description: Learn about one-page checkout how it can provide a streamlined checkout process for your store.
 exl-id: c91347b6-bb6f-44e7-b470-f237bf430d5f
+feature: Checkout
 ---
 # One-page checkout
 

@@ -2,6 +2,7 @@
 title: '[!UICONTROL Services] &gt; [!UICONTROL Magento Web API]'
 description: Review the configurations settings on the [!UICONTROL Services] &gt; [!UICONTROL Magento Web API] page of the Commerce Admin.
 exl-id: 9e9857e7-6f5c-4273-9e82-c861e627827a
+feature: Configuration, Integration
 ---
 # [!UICONTROL Services] > [!UICONTROL Magento Web API]
 

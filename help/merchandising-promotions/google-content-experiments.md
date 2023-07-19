@@ -2,6 +2,7 @@
 title: '[!DNL Google Content Experiments]'
 description: Learn how to use [!DNL Google Content Experiments] to set up an A/B test of Commerce products, categories, or content pages.
 exl-id: ae03bc5a-de84-4dad-932e-e79e509feebe
+feature: Marketing Tools, Integration
 ---
 # [!DNL Google Content Experiments]
 

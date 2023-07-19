@@ -2,6 +2,7 @@
 title: Compare products
 description: Learn how the storefront can provide tools for customers to compare products for more informed purchasing decisions.
 exl-id: 7c4de9d3-394a-48e1-ba01-7964b40b95ae
+feature: Products, Storefront
 ---
 # Compare products
 

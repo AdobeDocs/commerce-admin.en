@@ -2,6 +2,7 @@
 title: Product image import
 description: Learn how to import product images using the path and file name of each image.
 exl-id: 991550e6-9ce2-4472-becb-3492bd4c9582
+feature: Products, Data Import/Export, Media
 ---
 # Product image import
 
@@ -37,7 +38,7 @@ Before you try to import many images, review the steps in the import method that
 
    The CSV file must include only the `sku` column and the related image columns.
 
-   ![Example - CSV image data import](./assets/data-import-csv-image-files-default-local.png)<!-- zoom -->
+   ![Example - CSV image data import](./assets/data-import-csv-image-files-default-local.png){width="600" zoomable="yes"}
 
 1. Follow the instructions to [import](data-import.md) the data.
 
@@ -47,7 +48,7 @@ Before you try to import many images, review the steps in the import method that
    var/import/images
    ```
 
-   ![Data import images file directory](./assets/data-import-file-to-import.png)<!-- zoom -->
+   ![Data import images file directory](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
 
    >[!TIP]
    >
@@ -87,7 +88,7 @@ Before you try to import many images, review the steps in the import method that
 
    The CSV file must include only the `sku` column and the related image columns.
 
-   ![Example - CSV image data import](./assets/data-import-csv-image-files-default-local.png)<!-- zoom -->
+   ![Example - CSV image data import](./assets/data-import-csv-image-files-default-local.png){width="600" zoomable="yes"}
 
 1. Follow the instructions to [import](data-import.md) the data.
 
@@ -96,8 +97,6 @@ Before you try to import many images, review the steps in the import method that
    ```terminal
    var/import/images/product_images
    ```
-
-   ![Data import images file directory](./assets/data-import-file-to-import.png)<!-- zoom -->
 
    >[!TIP]
    >

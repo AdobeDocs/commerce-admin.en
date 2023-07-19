@@ -2,6 +2,8 @@
 title: '[!DNL Inventory Management] CLI reference'
 description: Learn about the commands provided by the [!DNL Inventory Management] module to manage inventory data and configuration settings.
 exl-id: d92dffce-94a1-443c-8c72-98fecbbd5320
+level: Experienced
+feature: Inventory, Configuration
 ---
 # [!DNL Inventory Management] CLI reference
 

@@ -2,6 +2,7 @@
 title: Scheduled import and export
 description: Learn how to manage scheduled data import and export operations.
 exl-id: 74ba40f1-a540-4425-9500-2c730c1145e7
+feature: Products, Customers, Data Import/Export
 ---
 # Scheduled import and export
 
@@ -13,7 +14,7 @@ Scheduled imports and exports can be run on a daily, weekly, or monthly basis. T
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_ > **[!UICONTROL Scheduled Imports/Exports]**.
 
-   ![Scheduled data import/export](./assets/data-scheduled-import-export.png)<!-- zoom -->
+   ![Scheduled data import/export](./assets/data-scheduled-import-export.png){width="700" zoomable="yes"}
 
 1. To create a new scheduled import or export job, click the appropriate button and follow the instructions for the type of scheduled job.
 
@@ -37,9 +38,7 @@ For the available import file format and types of import entities, the scheduled
 - The import file should be in .CSV format
 - You can import product and customer data
 
-The advantage of using Scheduled Import is that you can automatically import a data file multiple times after specifying the import parameters and schedule only once.
-
-![Scheduled data import](./assets/data-transfer-scheduled-import-add.png)<!-- zoom -->
+The advantage of using scheduled import is that you can automatically import a data file multiple times after specifying the import parameters and schedule only once.
 
 The details of each import operation are not written to a log, but when there is a failure you receive an _Import Failed_ email with a description of the error. The result of the last scheduled import job is shown in the Last Outcome column on the Scheduled Import/Export page.
 
@@ -51,7 +50,9 @@ After each scheduled import job, a reindex operation is performed automatically.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_ > **[!UICONTROL Scheduled Import/Export]**.
 
-1. In the upper-right corner, click **[!UICONTROL Add Scheduled Import]** and do the following:
+1. In the upper-right corner, click **[!UICONTROL Add Scheduled Import]**.
+
+1. Set the scheduling and import options:
 
    - **[!UICONTROL Name]** — Enter a name for the scheduled import.
 
@@ -84,13 +85,13 @@ After each scheduled import job, a reindex operation is performed automatically.
 
    - **[!UICONTROL On Error]** - Set to one of the following: `Stop Import` or `Continue Processing`
 
+   - **[!UICONTROL Status]** — To activate the scheduled import, set to `Enabled`.
+
    - **[!UICONTROL Field Separator]** — Enter the character that is used to separate fields in the import file. The default character is a comma.
 
    - **[!UICONTROL Multiple Value Separator]** — Enter the character that is used to separate multiple values within a field.
 
-   - **[!UICONTROL Status]** — To activate the scheduled import, set to `Enabled`.
-
-   ![Data import - scheduled import settings](./assets/data-transfer-scheduled-import-settings.png)<!-- zoom -->
+   ![Data import - scheduled import settings](./assets/data-transfer-scheduled-import-settings.png){width="600" zoomable="yes"}
 
 ### Step 2: Complete the import file information
 
@@ -99,7 +100,7 @@ After each scheduled import job, a reindex operation is performed automatically.
    - `Local Server` - Imports the data from the same server where Adobe Commerce is installed.
    - `Remote FTP` - Imports the data from a remote server.
 
-   ![Data import - scheduled import file information](./assets/data-transfer-scheduled-import-file-information.png)<!-- zoom -->
+   ![Data import - scheduled import file information](./assets/data-transfer-scheduled-import-file-information.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -118,6 +119,8 @@ After each scheduled import job, a reindex operation is performed automatically.
 
 ### Step 3: Configure the import failed emails
 
+![Data import - failed import fialed emails](./assets/data-transfer-scheduled-import-email-fail.png){width="600" zoomable="yes"}
+
 1. Set **[!UICONTROL Failed Email Receiver]** to the store contact who is to receive notification if an error occurs during the import.
 
 1. Set **[!UICONTROL Failed Email Sender]** to the store contact that appears as the sender of the notification.
@@ -132,8 +135,6 @@ After each scheduled import job, a reindex operation is performed automatically.
 
    - `Bcc` - Sends a blind courtesy copy of the failed import notification. The name and address of the recipient is included in the original email distribution, but hidden from view.
    - `Separate Email` - Sends a copy of the failed import notification as a separate email.
-
-   ![Data import - failed import email copy method](./assets/data-transfer-scheduled-import-email-fail.png)<!-- zoom -->
 
 1. When complete, click **[!UICONTROL Save]**.
 
@@ -194,8 +195,6 @@ Scheduled Export is similar to a manual [Export](data-export.md) in the availabl
 
 The advantage of using Scheduled Export is that you can export data multiple times automatically, after specifying the export parameters, and schedule only once.
 
-![Data transfer scheduled export](./assets/data-transfer-scheduled-export-add.png)<!-- zoom -->
-
 The details of each export are not written to a log, but if there is failure you receive an Export Failed email, which contains the error description. The result of the last export job appears in the Last Outcome column on the Scheduled Import/Export page.
 
 After each export, the export file is placed in the user-defined location, and a copy in the `var/log/import_export` directory on the server where Adobe Commerce or Magento Open Source is deployed. The timestamp and the marker of the exported entity (products or customers) and type of the operation (in this case, export) are added to the export file name.
@@ -233,7 +232,7 @@ After each export, the export file is placed in the user-defined location, and a
 
 1. Accept `CSV` as the default **[!UICONTROL File Format]**.
 
-   ![Scheduled export settings](./assets/data-transfer-scheduled-export-settings.png)<!-- zoom -->
+   ![Scheduled export settings](./assets/data-transfer-scheduled-export-settings.png){width="600" zoomable="yes"}
 
 ### Step 2: Complete the export file information
 
@@ -242,7 +241,7 @@ After each export, the export file is placed in the user-defined location, and a
    - `Local Server` - To save the export file on the same server where Commerce is installed.
    - `Remote FTP` — To save the export file on a remote server.
 
-   ![Scheduled export file information](./assets/data-transfer-scheduled-export-file-information.png)<!-- zoom -->
+   ![Scheduled export file information](./assets/data-transfer-scheduled-export-file-information.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -277,8 +276,6 @@ After each export, the export file is placed in the user-defined location, and a
 
    - `Bcc` - Sends a blind courtesy copy. The name and address of the recipient is included in the original email distribution, but is hidden from view.
    - `Separate Email` — Sends the copy as a separate email.
-
-   ![Scheduled export failed email](./assets/data-transfer-scheduled-export-email-fail.png)<!-- zoom -->
 
 ### Step 4: Choose the entity attributes
 

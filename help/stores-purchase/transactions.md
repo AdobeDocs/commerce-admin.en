@@ -2,6 +2,7 @@
 title: Transactions
 description: Learn about the Transactions page and how to use it to track activity between your store and a payment system.
 exl-id: 5970db88-146d-4caf-aab4-d9315357a4fe
+feature: Payments
 ---
 # Transactions
 

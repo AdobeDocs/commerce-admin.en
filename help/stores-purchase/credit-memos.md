@@ -2,6 +2,7 @@
 title: Credit memos
 description: Learn about credit memos and how they are used to issue a partial or full refund.
 exl-id: dc2faf86-0182-4661-9543-bc6e00e06dbf
+feature: Orders, Invoices, Returns
 ---
 # Credit memos
 

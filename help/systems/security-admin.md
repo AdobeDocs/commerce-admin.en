@@ -2,6 +2,8 @@
 title: Configure Admin security
 description: Learn how to configure security for your store Admin.
 exl-id: 931fd8ad-96b7-42e5-9c3e-4bb9ca85b1ba
+role: Admin
+feature: Admin Workspace, Configuration, Security
 ---
 # Configure Admin security
 
@@ -25,7 +27,7 @@ In addition to the security settings in this section, [two-factor authentication
 
 For technical information, see [Security overview](https://developer.adobe.com/commerce/php/architecture/basics/security/){:target="_blank"} in the developer documentation.
 
-![Admin security](../configuration-reference/advanced/assets/admin-security.png)<!-- zoom -->
+![Admin security](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
 
 ## Configure Admin security
 

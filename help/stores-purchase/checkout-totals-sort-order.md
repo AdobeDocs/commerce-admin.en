@@ -2,6 +2,7 @@
 title: Sort order for checkout totals
 description: Learn about the displayed checkout total and how to configure the checkout totals sort order on the order summary.
 exl-id: 2b1345e3-6ad3-472a-af3e-3f7b24577b13
+feature: Checkout, Configuration
 ---
 # Sort order for checkout totals
 

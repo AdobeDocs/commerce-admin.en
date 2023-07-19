@@ -1,8 +1,7 @@
 ---
 title: Adobe Experience Cloud Integration for Commerce Admin
 description: Learn about the Admin Unified Experience extension which integrates Commerce with Experience Cloud so that customers can access Commerce projects from the Experience Cloud home page.
-hide: no
-hidefromtoc: no
+feature: Integrationgit 
 ---
 # Adobe Experience Cloud Integration for Commerce
 
@@ -10,7 +9,7 @@ hidefromtoc: no
 
 >[!NOTE]
 >
-> This feature is for Beta users only and is not yet accessible to all customers. Contact your Adobe Commerce Beta program manager for assistance and questions.
+> This feature is for Beta users only and is not yet accessible to all customers. Join the Beta by sending an email to [commerceonunifiedshell-beta@adobe.com](mailto:commerceonunifiedshell-beta@adobe.com).
 
 Integrate Adobe Commerce projects with Experience Cloud by enabling the Admin Unified Experience extension. When the integration is active, administrators can access Commerce projects from Adobe Experience Cloud.
 

@@ -2,6 +2,7 @@
 title: Tax rules
 description: Learn how to define the tax rules using product class, customer class, and tax rate.
 exl-id: 38d65998-7769-49ce-9814-e65df9d77bba
+feature: Taxes
 ---
 # Tax rules
 

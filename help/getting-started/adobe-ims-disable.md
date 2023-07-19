@@ -2,6 +2,7 @@
 title: Disable the Commerce Admin Integration with Adobe ID
 description: Follow this optional procedure for disabling the Adobe Commerce Admin integration with Adobe IMS.
 exl-id: 954d8ade-60b6-4b1e-ac32-2bae4481bab1
+feature: Identity Management
 ---
 # Disable the Commerce Admin Integration with Adobe ID
 

@@ -2,6 +2,7 @@
 title: Add Content - Block
 description: Learn about the Block content type, used to add a reusable block to the [!DNL Page Builder] stage.
 exl-id: fcedb125-e0c8-4b59-bd26-7f3912e0db2a
+feature: Page Builder, Page Content
 ---
 # Add Content - Block
 

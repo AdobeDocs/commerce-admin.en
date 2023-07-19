@@ -2,6 +2,7 @@
 title: Product Types
 description: Learn how [!DNL Inventory Management] supports inventory and order management for all Adobe Commerce and Magento Open Source product types.
 exl-id: c800168a-e8b2-4d72-bd3d-68f46ece8a5e
+feature: Inventory, Products
 ---
 # Product Types
 
@@ -13,9 +14,9 @@ exl-id: c800168a-e8b2-4d72-bd3d-68f46ece8a5e
 
 |Product Type|Shipping and Source Selection Algorithm|
 |--|--|
-|[Simple](../catalog/product-create-simple.md){target="_blank"}|Supports SSA recommendations and overrides at shipping.|
-|[Configurable](../catalog/product-create-configurable.md){target="_blank"}|Supports SSA recommendations and overrides at shipping.|
-|[Virtual](../catalog/product-create-virtual.md){target="_blank"}|Always uses the SSA recommendation. The system runs the algorithm implicitly when it creates invoices, and always uses the suggested results.<br/>You cannot adjust these results.|
-|[Downloadable](../catalog/product-create-downloadable.md){target="_blank"}|Always uses the SSA recommendation. The system runs the algorithm implicitly when it creates invoices, and always uses the suggested results. <br/>You cannot adjust these results.|
-|[Bundle](../catalog/product-create-bundle.md){target="_blank"}|Supports SSA recommendations and overrides at shipping.|
-|[Grouped](../catalog/product-create-grouped.md){target="_blank"}|Supports SSA recommendations and overrides at shipping.|
+|[[!UICONTROL Simple]](../catalog/product-create-simple.md){target="_blank"}|Supports SSA recommendations and overrides at shipping.|
+|[[!UICONTROL Configurable]](../catalog/product-create-configurable.md){target="_blank"}|Supports SSA recommendations and overrides at shipping.|
+|[[!UICONTROL Virtual]](../catalog/product-create-virtual.md){target="_blank"}|Always uses the SSA recommendation. The system runs the algorithm implicitly when it creates invoices, and always uses the suggested results.<br/>You cannot adjust these results.|
+|[[!UICONTROL Downloadable]](../catalog/product-create-downloadable.md){target="_blank"}|Always uses the SSA recommendation. The system runs the algorithm implicitly when it creates invoices, and always uses the suggested results. <br/>You cannot adjust these results.|
+|[[!UICONTROL Bundle]](../catalog/product-create-bundle.md){target="_blank"}|Supports SSA recommendations and overrides at shipping.|
+|[[!UICONTROL Grouped]](../catalog/product-create-grouped.md){target="_blank"}|Supports SSA recommendations and overrides at shipping.|

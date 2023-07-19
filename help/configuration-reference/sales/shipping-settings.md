@@ -2,6 +2,7 @@
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings]'
 description: Review the configurations settings on the [!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings] page of the Commerce Admin.
 exl-id: d7d46946-f8c9-4714-96c3-2173e28f7bfa
+feature: Configuration, Shipping/Delivery
 ---
 # [!UICONTROL Sales] > [!UICONTROL Shipping Settings]
 

@@ -2,6 +2,7 @@
 title: Store privacy policy
 description: Your privacy policy should describe the type of information that your company collects, and how it is used.
 exl-id: d8eaa946-2a12-4a36-8f7e-025778ffa7dd
+feature: Compliance
 ---
 # Store privacy policy
 

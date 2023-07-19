@@ -2,6 +2,7 @@
 title: The Adobe Commerce ecosystem
 description: Adobe provides a wealth of business and technical resources, self-help tools, and services to help merchants succeed.
 exl-id: 05fb3769-6f99-45c0-81d6-3ccdd50dc047
+feature: Support
 ---
 # The Adobe Commerce ecosystem
 

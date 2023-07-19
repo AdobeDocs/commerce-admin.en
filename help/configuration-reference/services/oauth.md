@@ -2,6 +2,7 @@
 title: '[!UICONTROL Services] &gt; [!UICONTROL OAuth]'
 description: Review the configurations settings on the [!UICONTROL Services] &gt; [!UICONTROL OAuth] page of the Commerce Admin.
 exl-id: 984793e0-6ac9-443b-b234-e0cea717dada
+feature: Configuration, Security
 ---
 # [!UICONTROL Services] > [!UICONTROL OAuth]
 

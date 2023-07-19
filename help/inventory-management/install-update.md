@@ -2,6 +2,8 @@
 title: Install, Update, and Remove Inventory Management
 description: Learn how to manage the installed [!DNL Inventory Management] metapackage.
 exl-id: d088ff35-c0e1-41c8-89fb-78180eaefbf7
+level: Experienced
+feature: Inventory, Install
 ---
 # Install, Update, and Remove Inventory Management
 

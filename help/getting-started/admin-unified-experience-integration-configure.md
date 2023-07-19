@@ -3,12 +3,14 @@ title: Configure the Experience Cloud Integration for Commerce Admin
 description: Learn how to configure a Commerce project to enable administrator access through Experience Cloud.
 hide: no
 hidefromtoc: no
+feature: Integration
+role: Admin, Leader
 ---
 # Configure the Experience Cloud Integration with the Commerce Admin
 
 >[!NOTE]
 >
->This feature is for Beta users only and is not yet accessible to all customers. Contact your Adobe Commerce Beta program manager for assistance and questions.
+> This feature is for Beta users only and is not yet accessible to all customers. Join the Beta by sending an email to [commerceonunifiedshell-beta@adobe.com](mailto:commerceonunifiedshell-beta@adobe.com).
 
 Get started with the Experience Cloud integration with Commerce Admin by configuring the Commerce application to use the Commerce Admin Unified Experience and Commerce Events extensions.
 

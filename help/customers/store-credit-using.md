@@ -2,6 +2,7 @@
 title: Apply store credit
 description: Store administrators can apply store credit to a purchase.
 exl-id: 97b6b206-71db-435c-8736-a781437bb0b4
+feature: Customers, Storefront
 ---
 # Apply store credit
 

@@ -3,12 +3,13 @@ title: Manage the Experience Cloud Integration
 description: Learn how to manage the Experience Cloud integration and troubleshoot issues
 hide: no
 hidefromtoc: no
+feature: Integration
 ---
 # Manage the Experience Cloud Integration
 
 >[!NOTE]
 >
->This feature is for Beta users only and is not yet accessible to all customers. Contact your Adobe Commerce Beta program manager for assistance and questions.
+> This feature is for Beta users only and is not yet accessible to all customers. Join the Beta by sending an email to [commerceonunifiedshell-beta@adobe.com](mailto:commerceonunifiedshell-beta@adobe.com).
 
 After initial enablement, manage the status of the the Experience Cloud integration by enabling or disabling the Commerce Admin Unified Experience extension.
 

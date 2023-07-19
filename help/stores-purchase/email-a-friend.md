@@ -2,6 +2,7 @@
 title: Email a friend
 description: Learn how to provide an email link that makes it easy for your customers to share links to products with their friends.
 exl-id: 46cf9994-6490-4cb4-85b7-9a7cab7783e0
+feature: Storefront, Configuration
 ---
 # Email a friend
 

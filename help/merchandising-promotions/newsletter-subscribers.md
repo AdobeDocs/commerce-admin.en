@@ -2,6 +2,7 @@
 title: Manage newsletter subscribers
 description: Learn how to manage your newsletter subscribers using a simple list of active subscriptions.
 exl-id: c7e8e642-e3fd-4979-9ea3-2d96839730b2
+feature: Customers, Communications
 ---
 # Manage newsletter subscribers
 

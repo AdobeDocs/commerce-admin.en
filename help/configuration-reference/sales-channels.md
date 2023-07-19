@@ -2,6 +2,7 @@
 title: '[!UICONTROL Sales Channels] &gt; [!UICONTROL Global Settings]'
 description: Review the configurations settings on the [!UICONTROL Sales Channels] &gt; [!UICONTROL Global Settings] page of the Commerce Admin.
 exl-id: 28a5ef4b-265e-457a-9480-96763785b5fd
+feature: Configuration, Sales Channels
 ---
 # [!UICONTROL Sales Channels] > [!UICONTROL Global Settings]
 

@@ -2,6 +2,7 @@
 title: '[!UICONTROL Catalog] &gt; [!UICONTROL Visual Merchandiser]'
 description: Review the configurations settings on the [!UICONTROL Catalog] &gt; [!UICONTROL Visual Merchandiser] page of the Commerce Admin.
 exl-id: 264f0f21-7324-4e37-938e-9f0cdbb3dfe8
+feature: Configuration, Merchandising
 ---
 # [!UICONTROL Catalog] > [!UICONTROL Visual Merchandiser]
 

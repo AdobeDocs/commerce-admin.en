@@ -1,9 +1,10 @@
 ---
-title: Checkout
-description: Learn how the checkout process gathers the information necessary to complete the transaction and the _Checkout_ page leads the customer through each step of the process.
+title: Checkout process and options
+description: Learn how the Adobe Commerce and Magento Open Source checkout process gathers the information necessary to complete the transaction and the Checkout page leads the customer through each step of the process.
 exl-id: f503643b-a0bb-4763-9831-d592afb2c323
+feature: Checkout
 ---
-# Checkout
+# Checkout process and options
 
 When the checkout process begins, the transaction shifts to a secure, encrypted channel. A padlock symbol appears in the address bar of the browser, and the URL changes from `http` to `https`.
 

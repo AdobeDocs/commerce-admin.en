@@ -2,6 +2,7 @@
 title: '[!UICONTROL General] &gt; [!UICONTROL New Relic Reporting]'
 description: Review the configurations settings on the [!UICONTROL General] &gt; [!UICONTROL New Relic Reporting] page of the Commerce Admin.
 exl-id: d6bf4810-81a3-420d-abc9-9b87c1e92551
+feature: Configuration, System
 ---
 # [!UICONTROL General] > [!UICONTROL New Relic Reporting]
 

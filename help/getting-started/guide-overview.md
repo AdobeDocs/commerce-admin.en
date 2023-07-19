@@ -4,6 +4,7 @@ description: Comprehensive information for merchants that are new to Adobe Comme
 seo-title: Adobe Commerce Getting Started Guide
 seo-description: Describes basic tools and initial tasks for launching an Adobe Commerce or Magento Open Source store.
 exl-id: 1397872f-d5d0-46e4-9bb6-ab6b0c07255d
+recommendations: noCatalog
 ---
 # Adobe Commerce Getting Started Guide
 

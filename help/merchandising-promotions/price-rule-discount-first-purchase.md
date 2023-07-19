@@ -2,6 +2,7 @@
 title: Cart price rule example - discount with first purchase
 description: Review an example of using a cart price rule to offer a discount to first-time customers.
 exl-id: 46add769-6fa9-40e0-9f4f-af2215f36283
+feature: Merchandising, Price Rules, Shopping Cart
 ---
 # Cart price rule example - discount with first purchase
 

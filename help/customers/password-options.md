@@ -2,6 +2,7 @@
 title: Customer password options
 description: The customer password options determine the level of security for various customer-facing functions of your store.
 exl-id: 84dec8e8-3363-4133-bbcc-9e58467749c4
+feature: Customers, Configuration, Security
 ---
 # Customer password options
 

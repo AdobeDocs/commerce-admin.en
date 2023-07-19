@@ -2,6 +2,7 @@
 title: Source Algorithms and Reservations
 description: Learn about the Source Selection Algorithm and Reservations systems that run in the background to keep your salable quantities updated.
 exl-id: dcd63322-fb4c-4448-b6e7-0c54350905d7
+feature: Inventory, Shipping/Delivery
 ---
 # Source Algorithms and Reservations
 
@@ -51,7 +52,7 @@ To configure, assign and order sources to a custom stock. See [Prioritizing Sour
 
 The following example details the mapped sources in order, available quantity, and recommended source and amount to deduct and ship. The top source is a Drop Shipper in the United Kingdom with an available quantity of 240.
 
-![Example SSA recommendations for a mountain bike](assets/ssa-sources-example.png)
+![Example SSA recommendations for a mountain bike](assets/ssa-sources-example.png){width="600" zoomable="yes"}
 
 ### Distance Priority Algorithm
 
@@ -83,7 +84,7 @@ Reservations place holds on inventory quantities deducted from the salable quant
 
 The following diagram helps define the process of reservations during an order and through to shipment.
 
-![Reservations from order to delivery](assets/diagram-quantity.png)
+![Reservations from order to delivery](assets/diagram-quantity.png){width="600" zoomable="yes"}
 
 A customer submits an order. [!DNL Commerce] checks the current inventory salable quantity. If enough inventory is available at the stock level, a reservation enters placing a temporary hold for the product SKU (for that stock) and recalculates the salable quantity.
 
@@ -201,7 +202,7 @@ Here is how they work:
 
 - **Shipped Order** - When an order ships (all or partial), a compensation reservation enters to clear that amount. For example, shipping two backpacks enters a +2 reservation for that SKU and stock, clearing the hold. The product quantity is directly reduced by 2 for the shipment. The calculated salable quantity is also updated for the reduced stock amount, but is no longer affected by the reservation.
 
-![Reservation updates](assets/diagram-reservation.png)
+![Reservation updates](assets/diagram-reservation.png){width="600" zoomable="yes"}
 
 All reservations must be cleared by compensations when orders complete fulfillment, products cancel, credit memos are issued, and so on. If compensations do not clear out reservations, you could have quantities held in stasis (not available for sale and never shipping).
 

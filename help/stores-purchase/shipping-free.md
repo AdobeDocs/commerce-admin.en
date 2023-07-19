@@ -2,6 +2,7 @@
 title: Free shipping
 description: Learn how to set up a free shipping option for your store.
 exl-id: 3ce69583-0f7f-4c23-b3e3-7d2502bc1bca
+feature: Shipping/Delivery
 ---
 # Free shipping
 

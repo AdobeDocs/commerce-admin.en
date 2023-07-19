@@ -2,6 +2,8 @@
 title: Security scan
 description: Learn how to run an enhanced security scan and monitor each of your Adobe Commerce and Magento Open Source sites.
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
+role: Admin
+feature: Configuration, Security, Storefront
 ---
 # Security scan
 
@@ -16,7 +18,7 @@ The enhanced security scan allows you to monitor each of your Adobe Commerce and
 
 The Security scan tool is available for free from the dashboard of your [Commerce account](../getting-started/commerce-account-create.md). For technical information, see [Set up the Security Scan Tool](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) in the _Commerce on Cloud Infrastructure Guide_.
 
-![Security scan tool](./assets/magento-security-scan.png)<!-- zoom -->
+![Security scan tool](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
 ## Run a security scan
 
@@ -31,7 +33,7 @@ The Security scan tool is available for free from the dashboard of your [Commerc
 
    If you have multiple sites with different domains, you must configure a separate scan for each domain.
 
-   ![Monitored Sites](./assets/monitored-website.png)<!-- zoom -->
+   ![Monitored Sites](./assets/monitored-website.png){width="600" zoomable="yes"}
 
 1. To verify your ownership of the site domain by adding a confirmation code, do one of the following:
 
@@ -41,7 +43,7 @@ The Security scan tool is available for free from the dashboard of your [Commerc
    - Click **[!UICONTROL Generate Confirmation Code]**.
    - Click **Copy** to copy your confirmation code to the clipboard.
 
-      ![Generate Confirmation Code](./assets/scan-site1.png)<!-- zoom -->
+      ![Generate Confirmation Code](./assets/scan-site1.png){width="400" zoomable="yes"}
 
    - Log in to the Admin of your store as a user with full administrator privileges and do the following:
 
@@ -50,7 +52,7 @@ The Security scan tool is available for free from the dashboard of your [Commerc
       - Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL HTML Head]** section.
       - Scroll down to **[!UICONTROL Scripts and Style Sheets]** and click in the text box at the end of any existing code and paste the confirmation code into the text box.
 
-         ![Scripts and Style Sheets](./assets/scan-paste-code.png)<!-- zoom -->
+         ![Scripts and Style Sheets](./assets/scan-paste-code.png){width="600" zoomable="yes"}
 
       - When complete, click **[!UICONTROL Save Configuration]**.
 
@@ -62,14 +64,14 @@ The Security scan tool is available for free from the dashboard of your [Commerc
 
    - Click **[!UICONTROL Copy]** to copy the generated confirmation code META Tag to the clipboard.
 
-      ![Generate Confirmation Code](./assets/scan-site2.png)<!-- zoom -->
+      ![Generate Confirmation Code](./assets/scan-site2.png){width="400" zoomable="yes"}
 
    - Go to the PWA Studio storefront project directory and do the following:
 
       - Under the PWA Studio project directory, go to `packages > venia-concept > template.html`.
       - Add the copied confirmation code (the generated META Tag) to the HTML head and save the changes.
 
-         ![Copy Confirmation Code](./assets/code-pwa.png)<!-- zoom -->
+         ![Copy Confirmation Code](./assets/code-pwa.png){width="600" zoomable="yes"}
 
       - Go back to the PWA Studio CLI, and use yarn to install project dependencies and run the project build command.
 
@@ -103,18 +105,18 @@ The Security scan tool is available for free from the dashboard of your [Commerc
    - Choose the **[!UICONTROL Week Day]**, **[!UICONTROL Time]**, and **[!UICONTROL Time Zone]** that the scan is to take place each week.
    - By default, the scan is scheduled to begin each week at midnight Saturday, UTC, and continue through early Sunday.
 
-      ![Scan Weekly](./assets/scan-weekly.png)
+      ![Scan Weekly](./assets/scan-weekly.png){width="500" zoomable="yes"}
 
    **Scan Daily**:
 
    - Choose the **[!UICONTROL Time]**, and **[!UICONTROL Time Zone]** that the scan is to take place each day.
    - By default, the scan is scheduled to begin each day at midnight, UTC.
 
-      ![Scan Daily](./assets/scan-daily.png)
+      ![Scan Daily](./assets/scan-daily.png){width="500" zoomable="yes"}
 
 1. Enter the **[!UICONTROL Email Address]** where you want to receive notifications of completed scans and security updates.
 
-    ![Email Address](./assets/scan-notification-email.png)
+    ![Email Address](./assets/scan-notification-email.png){width="400" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Submit]**.
 

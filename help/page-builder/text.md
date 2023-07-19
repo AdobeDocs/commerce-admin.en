@@ -2,6 +2,7 @@
 title: Elements - Text
 description: Learn about the Text content type, used to add a text container in the [!DNL Page Builder] stage.
 exl-id: 3f14af35-9c04-4f4b-b3dd-d3406d56a9c0
+feature: Page Builder, Page Content
 ---
 # Elements - Text
 

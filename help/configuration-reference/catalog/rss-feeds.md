@@ -2,6 +2,7 @@
 title: '[!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds]'
 description: Review the configurations settings on the [!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds] page of the Commerce Admin.
 exl-id: 3d71b1b9-08aa-495c-a269-b6e336f7ba06
+feature: Configuration, Communications
 ---
 # [!UICONTROL Catalog] > [!UICONTROL RSS Feeds]
 

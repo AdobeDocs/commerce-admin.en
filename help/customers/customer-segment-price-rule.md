@@ -2,6 +2,7 @@
 title: Customer segments in price rules
 description: Learn about associating customer segments with a cart price rule so that you can define targeted promotions for your store.
 exl-id: eaa04e7a-c0f9-4f09-8e65-75965ccbdc69
+feature: Customers, Configuration, Price Rules
 ---
 # Customer segments in price rules
 

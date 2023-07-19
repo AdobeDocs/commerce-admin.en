@@ -2,6 +2,7 @@
 title: PayPal payment solutions
 description: Learn about the PayPal payment solution integrations that are available for your store.
 exl-id: d447b98e-d30c-4759-9ae0-94ccbeed9ba4
+feature: Payments
 ---
 # PayPal payment solutions
 

@@ -2,6 +2,7 @@
 title: Catalog search overview
 description: Learn about the Quick Search and Advanced Search tools that customers can use to locate products on the storefront.
 exl-id: a796fa48-212a-47c7-ab6e-98edd4d040f4
+feature: Catalogs, Search
 ---
 # Catalog search overview
 

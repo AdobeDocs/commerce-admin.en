@@ -2,6 +2,7 @@
 title: Customer name and address options
 description: The customer name and address options determine which fields are included in the name and address forms.
 exl-id: 28949cfc-2c96-4d0a-a35b-b37b3aa2d1e9
+feature: Customers, Configuration
 ---
 # Customer name and address options
 

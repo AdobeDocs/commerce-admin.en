@@ -2,6 +2,7 @@
 title: Product settings - [!UICONTROL Content]
 description: For a product, the [!UICONTROL Content] settings define the main product description that appears on the product page.
 exl-id: d38aa828-8656-4935-948f-3188654a91a0
+feature: Catalogs, Products
 ---
 # Product settings - [!UICONTROL Content]
 

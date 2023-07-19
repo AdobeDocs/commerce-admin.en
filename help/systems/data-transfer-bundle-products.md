@@ -2,12 +2,13 @@
 title: Import bundle products
 description: Review an example of importing product data for a bundle product.
 exl-id: 52146979-9911-449b-9f14-54377e2ae9f4
+feature: Products, Data Import/Export
 ---
 # Import bundle products
 
 A bundle product presents a selection of items and allows customers to choose the ones they want to purchase. All the items that make up a bundle exist in the catalog as either [Simple Products](../catalog/product-create-simple.md) or [Virtual Products](../catalog/product-create-virtual.md). Typically, bundle products are created and updated from the Admin. However, you can also import data to create a bundle product or you can export existing bundle products, edit the data, and import them back into the catalog. The Sprite Yoga Companion Kit is a bundle product in the sample data that is used in the following examples.
 
-![Bundle Product](../catalog/assets/product-bundle.png)<!-- zoom -->
+![Bundle Product](../catalog/assets/product-bundle.png){width="700" zoomable="yes"}
 
 ## Change the order of bundle items
 
@@ -17,7 +18,7 @@ There are two ways to change the order of items in a bundle product.
 
 When working with a [Bundle](../catalog/product-create-bundle.md) product from the Admin, you can drag and drop items and sections into position.
 
-![Bundle Items](../catalog/assets/product-bundle-items-move.png)<!-- zoom -->
+![Bundle Items](../catalog/assets/product-bundle-items-move.png){width="600" zoomable="yes"}
 
 ### Method 2: Edit the product data
 
@@ -60,7 +61,7 @@ In this step, the Sprite Yoga Companion Kit is exported as a ([CSV](data-csv.md)
 
    In the `bundle_values` data, each element is separated by comma, and each bundle item is separated from the next with a vertical bar. (The last item does not end with a vertical bar.) Your exported bundle data should look similar to the following example:
 
-   ![Bundle Values](./assets/product-bundle-values-export-data.png)<!-- zoom -->
+   ![Bundle Values](./assets/product-bundle-values-export-data.png){width="600" zoomable="yes"}
 
 1. To make it easier to edit, you can copy the `bundle_values` data, and paste it into a text editor, Then, add a line break after each item, so each item is on a separate line.
 
@@ -68,7 +69,7 @@ In this step, the Sprite Yoga Companion Kit is exported as a ([CSV](data-csv.md)
 
    In the following illustration, a `position=[number]` parameter is added to each yoga strap to change the order of the items in the store listing.
 
-   ![Position Parameter](./assets/product-bundle-values-position-parameter.png)<!-- zoom -->
+   ![Position Parameter](./assets/product-bundle-values-position-parameter.png){width="500" zoomable="yes"}
 
 1. After editing the data, **[!UICONTROL Save]** the CSV file.
 

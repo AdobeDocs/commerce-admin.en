@@ -2,6 +2,7 @@
 title: Configure store credit
 description: Store credit can be configured to control automatic refunds and available credit for customers.
 exl-id: 7920074b-6ad8-46fe-ac1f-3dcf686859b2
+feature: Customers, Configuration
 ---
 # Configure store credit
 

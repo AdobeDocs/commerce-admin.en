@@ -2,6 +2,7 @@
 title: Media - Slider
 description: Learn about the Slider content type, used to add a slideshow of images to the [!DNL Page Builder] stage.
 exl-id: 757dbdc3-b146-4ef8-a17d-59f8da62626f
+feature: Page Builder, Page Content
 ---
 # Media - Slider
 
@@ -160,7 +161,7 @@ The slide in the preceding example has a background image, a transparent mobile 
 |[!UICONTROL Background Image]|The image on this slide was saved from the product page, and uploaded to the gallery.|
 |[!UICONTROL Mobile Background Image]|The mobile background image is a transparent image that is 10 pixels square. Using a blank image for mobile effectively replaces the standard background image with an invisible image.|
 |[!UICONTROL Background Size]|`Auto`|
-|[!UICONTROL Message Text]|`Minerva LumaTech™ V-Tee` (Align center) with inserted image scaled at 40% (Align center)|
+|[!UICONTROL Message Text]|`Minerva LumaTech&trade; V-Tee` (Align center) with inserted image scaled at 40% (Align center)|
 |[!UICONTROL Link]|`Product`|
 |[!UICONTROL Show Button]|`Always`|
 |[!UICONTROL Button Text]|`Buy Now`|

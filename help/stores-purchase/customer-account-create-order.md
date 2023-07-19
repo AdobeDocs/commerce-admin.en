@@ -2,6 +2,7 @@
 title: Create an order
 description: Learn how to create an order for a customer in the Commerce Admin.
 exl-id: 8a766a5b-55d6-4d78-859e-38937e0183d3
+feature: Orders, Customer Service
 ---
 # Create an order
 

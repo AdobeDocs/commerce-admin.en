@@ -2,6 +2,7 @@
 title: DHL
 description: Learn how to set up DHL as a shipping carrier for your store.
 exl-id: 765e5f90-3e93-43cf-a5bc-6132e00b506c
+feature: Shipping/Delivery
 ---
 # DHL
 

@@ -2,6 +2,7 @@
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Checkout]'
 description: Review the configurations settings on the [!UICONTROL Sales] &gt; [!UICONTROL Checkout] page of the Commerce Admin.
 exl-id: a912beb0-37a9-407b-83bd-dc6cd0554dc4
+feature: Configuration, Checkout
 ---
 # [!UICONTROL Sales] > [!UICONTROL Checkout]
 

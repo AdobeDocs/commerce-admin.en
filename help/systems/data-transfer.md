@@ -2,6 +2,7 @@
 title: Data transfer
 description: Learn about support for data transfer, including data validation.
 exl-id: 5057e398-c458-42e9-8ec0-bf116a667a3c
+feature: System, Data Import/Export
 ---
 # Data transfers
 
@@ -27,7 +28,7 @@ The results of the validation appear in the Validation Results section, and incl
 
 If the data is valid, an _Import Success_ message appears.
 
-![System message - file is valid](./assets/data-import-validation-message.png)<!-- zoom -->
+![System message - file is valid](./assets/data-import-validation-message.png){width="500" zoomable="yes"}
 
 If validation fails, read the description of each error, and correct the problem in the CSV file. For example, if a row contains an invalid SKU, the import process stops, and that row, and all subsequent rows are not imported. After correctly the problem, import the data again. If many errors are encountered, it might take several attempts to pass validation.
 
