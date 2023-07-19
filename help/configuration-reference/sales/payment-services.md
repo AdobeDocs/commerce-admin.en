@@ -42,7 +42,7 @@ To access the configuration settings for Payment Services, on the _Admin_ sideba
 | [!UICONTROL Payment Action] | website | The [payment action](payment-methods.md#payment-actions) for the specified payment method. Options: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
 | [!UICONTROL 3DS Secure authentication] | website | Enable or disable [3DS Secure authentication](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/security.html#3ds). Options: [!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
 | [!UICONTROL Show on checkout page] | website | Enable or disable credit card fields to show on checkout page. Options: [!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Vault enabled] | store view | Enable or disable [credit card vaulting][vaulting.md](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/payments-checkout/vaulting.html). Options: [!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Vault enabled] | store view | Enable or disable [credit card vaulting](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/payments-checkout/vaulting.html). Options: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Show vaulted payment methods in Admin] | store view | Enable or disable ability for merchant to complete orders for customers in the Admin [using a vaulted payment method](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/payments-checkout/vaulting.html). Options: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Debug Mode] | website | Enable or disable Debug Mode. Options: [!UICONTROL Yes] / [!UICONTROL No] |
 
