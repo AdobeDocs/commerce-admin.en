@@ -8,9 +8,7 @@ role: Admin, Leader
 ---
 # Configure the Experience Cloud Integration with the Commerce Admin
 
->[!NOTE]
->
-> This feature is for Beta users only and is not yet accessible to all customers. Join the Beta by sending an email to [commerceonunifiedshell-beta@adobe.com](mailto:commerceonunifiedshell-beta@adobe.com).
+{{$include /help/_includes/admin-unified-experience-beta-note.md}}
 
 Get started with the Experience Cloud integration with Commerce Admin by configuring the Commerce application to use the Commerce Admin Unified Experience and Commerce Events extensions.
 

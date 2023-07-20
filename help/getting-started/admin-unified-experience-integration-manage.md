@@ -7,9 +7,7 @@ feature: Integration
 ---
 # Manage the Experience Cloud Integration
 
->[!NOTE]
->
-> This feature is for Beta users only and is not yet accessible to all customers. Join the Beta by sending an email to [commerceonunifiedshell-beta@adobe.com](mailto:commerceonunifiedshell-beta@adobe.com).
+{{$include /help/_includes/admin-unified-experience-beta-note.md}}
 
 After initial enablement, manage the status of the the Experience Cloud integration by enabling or disabling the Commerce Admin Unified Experience extension.
 

@@ -7,9 +7,7 @@ feature: Integration
 
 {{ee-feature}}
 
->[!NOTE]
->
-> This feature is for Beta users only and is not yet accessible to all customers. Join the Beta by sending an email to [commerceonunifiedshell-beta@adobe.com](mailto:commerceonunifiedshell-beta@adobe.com).
+{{$include /help/_includes/admin-unified-experience-beta-note.md}}
 
 Integrate Adobe Commerce projects with Experience Cloud by enabling the Admin Unified Experience extension. When the integration is active, administrators can access Commerce projects from Adobe Experience Cloud.
 
@@ -43,7 +41,7 @@ When the Experience Cloud integration is enabled, administrators use the followi
 
 1. Log in through the Experience Cloud sign in page.
 
-   ![Experience Cloud Signin page](./assets/admin-uex-experience-cloud-login.png){width="600" zoomable="yes"}
+   ![Experience Cloud Sign In page](./assets/admin-uex-experience-cloud-login.png){width="600" zoomable="yes"}
 
    Administrators must sign in to Experience Cloud with the Adobe business profile for the organization associated with the Commerce instance. See [Manage Adobe profiles](https://helpx.adobe.com/enterprise/using/manage-adobe-profiles.html).
 

@@ -12,7 +12,7 @@ These release notes for the Commerce Admin Unified Experience extension (`magent
 
 >[!NOTE]
 >
->See [Product availability](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) for detailed information about the release status of B2B Commerce extension versions relative to Adobe Commerce.
+>See [Product availability](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) for detailed information about the release status of the Admin Unified Experience extension relative to Adobe Commerce.
 
 ## 1.0 release (beta)
 
@@ -20,7 +20,7 @@ These release notes for the Commerce Admin Unified Experience extension (`magent
 
 [!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce 2.4.5 and newer versions
 
-![New](../assets/new.svg) Initial beta release of the Admin Unified Experience extension to enable integration with Adobe Experience Cloud. Join the Beta by sending an email to [commerceonunifiedshell-beta@adobe.com](mailto:commerceonunifiedshell-beta@adobe.com).
+![New](../assets/new.svg) Initial beta release of the Admin Unified Experience extension to enable integration with Adobe Experience Cloud.
 
 ![New](../assets/new.svg) When the Admin Unified Experience extension is installed and enabled on an Adobe Commerce project, administrators can [view and access Adobe Commerce instances from the Experience Cloud home page](admin-unified-experience-overview.md).
 
