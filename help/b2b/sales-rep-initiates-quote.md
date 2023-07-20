@@ -3,6 +3,7 @@ title: Initiate quote for a buyer
 description: Learn how a seller can create a quote for a specific buyer to start the negotiation process. The seller can submit quotes only for customers associated with a company account on the selected website.
 exl-id: 85b2b70f-755b-4832-97c4-6bccdfe33d8b
 feature: B2B, Quotes
+role: Admin, User
 ---
 # Initiate a Quote for a Buyer
 

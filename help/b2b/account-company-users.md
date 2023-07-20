@@ -3,6 +3,7 @@ title: Manage company user accounts
 description: Learn about company user accounts and how they function within the associated company account.
 exl-id: 36b55f61-e579-4eb8-8f67-0156221d378e
 feature: B2B, Companies, User Account, Storefront
+role: Admin, User
 ---
 # Manage company user accounts
 

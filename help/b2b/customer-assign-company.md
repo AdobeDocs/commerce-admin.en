@@ -3,6 +3,7 @@ title: Add customers to a company account
 description: Learn about adding an existing customer to a company account.
 exl-id: ee2f9c27-37d6-4997-8285-1c4c84f8d04c
 feature: B2B, Companies, Customers
+role: Admin, User
 ---
 # Add customers to a company account
 

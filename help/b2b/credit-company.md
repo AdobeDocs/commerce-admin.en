@@ -3,6 +3,7 @@ title: Manage company credit
 description: Learn about company credit lines, setting parameters, and processing payments on account.
 exl-id: 62ff2a36-053d-4ba0-9969-0f05701afbff
 feature: B2B, Companies, Payments
+role: Admin
 ---
 # Manage company credit
 

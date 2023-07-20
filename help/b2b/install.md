@@ -3,6 +3,7 @@ title: Install the [!DNL B2B for Adobe Commerce] extension
 description: Learn how to install the [!DNL B2B for Adobe Commerce] metapackage.
 exl-id: a6947212-1708-40ae-9e81-874467eba5e1
 feature: B2B, Install
+role: Admin, Developer
 ---
 # Install the [!DNL B2B for Adobe Commerce] extension
 

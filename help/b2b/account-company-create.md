@@ -3,6 +3,7 @@ title: Create a company account
 description: Learn about company account creation in the Adobe Commerce Admin and on the storefront.
 exl-id: 8c06395b-102b-4a41-8eb3-e6a344feac70
 feature: B2B, Companies, Configuration, Storefront
+role: Admin, User
 ---
 # Create a company account
 

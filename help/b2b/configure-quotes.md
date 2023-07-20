@@ -3,6 +3,7 @@ title: Configure quotes
 description: Learn about quote configuration, which controls the minimum required order amount for quote requests, the quote lifetime, and file attachments.
 exl-id: 865f6624-df9b-4f78-abfa-1f9a3d82bc0d
 feature: B2B, Companies, Configuration, Quotes
+role: Admin
 ---
 # Configure quotes
 
