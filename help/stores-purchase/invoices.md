@@ -2,6 +2,7 @@
 title: Invoices
 description: Learn how to create and print invoices to support order processing and customer service operations.
 exl-id: 6141b182-1467-4416-a07f-864333318428
+feature: Invoices, Admin Workspace
 ---
 # Invoices
 

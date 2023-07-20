@@ -2,6 +2,7 @@
 title: Search engine optimization
 description: Learn about search engine optimization (SEO) tools for Commerce sites and best practices for optimal SEO.
 exl-id: ba09159a-1b40-4592-8758-f7072dab4589
+feature: Merchandising, Products, Search
 ---
 # SEO overview
 

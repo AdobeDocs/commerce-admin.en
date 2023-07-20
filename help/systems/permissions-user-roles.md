@@ -2,6 +2,7 @@
 title: User roles
 description: Learn how to create user roles and the associated permissions to manage access to Admin functions.
 exl-id: a70f74d4-72b4-4639-a67d-9fc13df65924
+feature: Admin Workspace, Roles/Permissions, Security
 ---
 # User roles
 

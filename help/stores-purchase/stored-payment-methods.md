@@ -2,6 +2,7 @@
 title: Stored payment methods
 description: Learn how customers can use stored payment methods on your Commerce storefront.
 exl-id: 5e264f84-1891-4ee9-8ebe-55ac9c93ab8c
+feature: Payments
 ---
 # Stored payment methods
 

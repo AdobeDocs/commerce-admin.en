@@ -2,6 +2,7 @@
 title: Social media and RSS feeds
 description: Learn how to add social media and other RSS feed integration to build brand and product awareness.
 exl-id: e4a48870-f53e-4848-8faa-8f2aedaf53b7
+feature: Merchandising, Communications
 ---
 # Social media and RSS feeds
 

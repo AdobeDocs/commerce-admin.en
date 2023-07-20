@@ -2,6 +2,7 @@
 title: Scheduled changes for cart price rules
 description: Learn how to apply cart price rules on schedule as part of a campaign and grouped with other content changes.
 exl-id: 4c9caa04-1e11-440d-b3db-7cc5fc83a08f
+feature: Merchandising, Price Rules, Shopping Cart
 ---
 # Scheduled changes for cart price rules
 

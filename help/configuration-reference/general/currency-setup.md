@@ -2,6 +2,8 @@
 title: '[!UICONTROL General] &gt; [!UICONTROL Currency Setup]'
 description: Review the configurations settings on the [!UICONTROL General] &gt; [!UICONTROL Currency Setup] page of the Commerce Admin.
 exl-id: a84be30f-f2eb-4c86-942c-2d49e5cf23af
+role: Admin
+feature: Configuration, Data Import/Export
 ---
 # [!UICONTROL General] > [!UICONTROL Currency Setup]
 

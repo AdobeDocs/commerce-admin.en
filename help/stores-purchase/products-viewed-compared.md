@@ -2,6 +2,7 @@
 title: Recently viewed or compared products
 description: Learn how to configure the storefront content blocks for recently viewed and compared products.
 exl-id: a4580835-68c2-4eb0-825e-0939eeab921b
+feature: Products, Storefront
 ---
 # Recently viewed or compared products
 

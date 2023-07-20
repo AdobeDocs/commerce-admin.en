@@ -2,6 +2,7 @@
 title: Fixed product tax (FPT)
 description: Learn how you can set up a fixed product tax (FPT) that must be added to certain types of products.
 exl-id: f1b475cb-a6fe-4b51-a0c3-7d0a202bd332
+feature: Checkout, Invoices, Taxes, Products
 ---
 # Fixed product tax (FPT)
 

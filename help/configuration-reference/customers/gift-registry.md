@@ -2,6 +2,7 @@
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Gift Registry]'
 description: Review the configurations settings on the [!UICONTROL Customers] &gt; [!UICONTROL Gift Registry] page of the Commerce Admin.
 exl-id: c5153c4e-897a-41d2-bde1-8483855d1a37
+feature: Configuration, Gift
 ---
 # [!UICONTROL Customers] > [!UICONTROL Gift Registry]
 

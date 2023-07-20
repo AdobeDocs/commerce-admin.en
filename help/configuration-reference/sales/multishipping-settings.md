@@ -2,6 +2,7 @@
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Multishipping Settings]'
 description: Review the configurations settings on the [!UICONTROL Sales] &gt; [!UICONTROL Multishipping Settings] page of the Commerce Admin.
 exl-id: 4cacac8c-33af-4275-b1dd-9802d38ec3c8
+feature: Configuration, Shipping/Delivery
 ---
 # [!UICONTROL Sales] > [!UICONTROL Multishipping Settings]
 

@@ -2,6 +2,7 @@
 title: '[!UICONTROL Catalog] &gt; [!UICONTROL Email to a Friend]'
 description: Review the configurations settings on the [!UICONTROL Catalog] &gt; [!UICONTROL Email to a Friend] page of the Commerce Admin.
 exl-id: cd1e3a8d-14ce-47e9-a3bc-c1b1dcbe0d8c
+feature: Configuration, Communications
 ---
 # [!UICONTROL Catalog] > [!UICONTROL Email to a Friend]
 

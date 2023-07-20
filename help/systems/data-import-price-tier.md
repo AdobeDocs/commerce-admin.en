@@ -2,6 +2,7 @@
 title: Import tier prices
 description: Learn how to export tier pricing data and import updated data.
 exl-id: b19d0208-68b3-45ba-9896-318e12ff4131
+feature: Products, Data Import/Export
 ---
 # Import tier prices
 

@@ -2,6 +2,7 @@
 title: Returns attribute
 description: Learn about the returns attributes and how to create the attributes needed for processing returns on your store.
 exl-id: 639c1e94-1211-4a4e-8599-e54ed99b2355
+feature: Attributes, Returns
 ---
 # Returns attribute
 

@@ -2,6 +2,7 @@
 title: Introduction to [!DNL B2B for Adobe Commerce]
 description: Learn how to use integrated B2B features to meet your needs for customers that are companies.
 exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
+feature: B2B
 ---
 # Introduction to [!DNL B2B for Adobe Commerce]
 

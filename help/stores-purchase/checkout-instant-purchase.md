@@ -2,6 +2,7 @@
 title: Instant Purchase
 description: Learn about Instant Purchase and how it can provide a speedy checkout for registered customer accounts.
 exl-id: f299f364-d7e3-4567-8c7b-955129011a19
+feature: Checkout
 ---
 # Instant Purchase
 

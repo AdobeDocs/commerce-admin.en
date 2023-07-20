@@ -2,6 +2,7 @@
 title: Automatic redirects
 description: Learn how to configure automatic redirects to be generated whenever the URL key of a product or category changes in your Commerce store.
 exl-id: fbde09d3-a1a3-4bac-a850-4c74c99fe714
+feature: Categories, Products, Configuration
 ---
 # Automatic redirects
 

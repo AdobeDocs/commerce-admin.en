@@ -2,6 +2,8 @@
 title: '[!UICONTROL Advanced] &gt; [!UICONTROL System]'
 description: Review the configurations settings on the [!UICONTROL Advanced] &gt; [!UICONTROL System] page of the Commerce Admin.
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
+role: Admin, Developer
+feature: Configuration, System
 ---
 # [!UICONTROL Advanced] > [!UICONTROL System]
 

@@ -2,6 +2,7 @@
 title: Private sales and events
 description: Learn about using private sales and other catalog events to increase sales to your existing customer base and to generate buzz and new leads.
 exl-id: 0b890463-b1e5-4327-8d8a-372afd53312a
+feature: Marketing Tools, Promotions/Events
 ---
 # Private sales and events
 

@@ -2,6 +2,7 @@
 title: Cart price rules
 description: Learn about cart price rules that apply discounts to items in the shopping cart based on a set of conditions.
 exl-id: f3038f2a-9d34-4696-a39e-f87fbb1294a2
+feature: Merchandising, Price Rules, Shopping Cart
 ---
 # Cart price rules
 

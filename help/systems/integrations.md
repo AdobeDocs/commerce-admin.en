@@ -2,6 +2,8 @@
 title: Integrations
 description: Learn how to configure OAuth credentials and redirect URL for third-party integrations.
 exl-id: b7632994-b07b-4cdb-b62c-79bc7a3a01c8
+role: Admin, Developer
+feature: System, Integration, Configuration
 ---
 # Integrations
 
