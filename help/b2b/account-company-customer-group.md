@@ -2,6 +2,8 @@
 title: Assign a customer group to a company
 description: Learn about assigning a customer group to a company account in your Adobe Commerce store.
 exl-id: fba3c17e-95df-4e9e-84b8-67409c6da72d
+feature: B2B, Companies, Configuration, Customers
+role: Admin, User
 ---
 # Assign a customer group to a company
 

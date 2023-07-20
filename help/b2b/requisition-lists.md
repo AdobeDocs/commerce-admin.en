@@ -2,6 +2,7 @@
 title: Requisition lists
 description: Learn about requisition lists and how they are used to easily add frequently ordered products to the shopping cart.
 exl-id: a21909de-18e7-4aa6-b30d-5d4fb02060ec
+feature: B2B
 ---
 # Requisition lists
 
