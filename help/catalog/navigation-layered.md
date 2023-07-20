@@ -56,6 +56,10 @@ The following instructions show how to set up basic layered navigation with filt
 
 >[!NOTE]
 >
+>When the _[!UICONTROL Use in Search]_ setting is set to `No`, the _[!UICONTROL Use in Search Results Layered Navigation]_ setting is not displayed and the product attribute is not used in the search with any [!UICONTROL Use in Layered Navigation] setting value.
+
+>[!NOTE]
+>
 >The [!UICONTROL Position] field is dimmed by default, so you must save the attribute before you can modify this setting.
 
 ## Step 2: Make the category an anchor
