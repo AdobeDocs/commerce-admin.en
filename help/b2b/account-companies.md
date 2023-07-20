@@ -2,6 +2,7 @@
 title: Company accounts
 description: Learn how company accounts managed in your Adobe Commerce store allow for joining multiple buyers that belong to the same company into a single company account.
 exl-id: 0b3c3635-a1cf-4ee6-a8bc-e7cbcb4e2e63
+feature: B2B, Companies, Configuration
 ---
 # Company accounts
 

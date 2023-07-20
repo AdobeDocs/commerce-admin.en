@@ -2,6 +2,7 @@
 title: Quick orders
 description: Learn about quick order functionality and enabling it for your customers.
 exl-id: 7007e1b4-a64f-46fe-a235-3ca9f64e77e4
+feature: B2B, Orders
 ---
 # Quick orders
 

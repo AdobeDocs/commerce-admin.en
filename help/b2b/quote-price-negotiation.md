@@ -2,6 +2,7 @@
 title: Negotiate a quote
 description: Learn about quote negotiation workflows and how to work with buyers for purchasing.
 exl-id: 93efbc9d-da4d-4ff8-95c1-13848b68bc38
+feature: B2B, Quotes
 ---
 # Negotiate a quote
 
