@@ -47,7 +47,7 @@ Before you begin, make sure that the [Storefront Properties](../catalog/attribut
 
     - To complete the condition, click the more (**…**) link and click the _Chooser_ (![List icon](../assets/icon-list-chooser.png)) icon for the list of available products.
 
-      ![Catalog price rule condition - multiple SKUs](./assets/multiple-skus-condition2b.png)<{width="600" zoomable="yes"}
+      ![Catalog price rule condition - multiple SKUs](./assets/multiple-skus-condition2b.png){width="600" zoomable="yes"}
 
     - Browse, filter, or search to find the SKUs you want to add. In the list, select the checkbox of each product that is to be included.
     

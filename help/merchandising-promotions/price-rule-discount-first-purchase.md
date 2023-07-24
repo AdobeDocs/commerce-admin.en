@@ -129,7 +129,7 @@ The customer segment is created and displayed in the _[!UICONTROL Customer Segme
 
        This line of the rule applies to all customers who match customer segment ID 2.
 
-   ![Customer segment condition](./assets/customer-segment-matches.png){width="200"}
+   ![Customer segment condition](./assets/customer-segment-matches.png){width="400"}
 
 1. Scroll down and expand ![Expansion selector](../assets/icon-display-expand.png)the **[!UICONTROL Conditions]** section and define the actions for the rule.
 
