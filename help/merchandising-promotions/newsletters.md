@@ -36,7 +36,7 @@ After enabling the newsletter function, the _[!UICONTROL Subscription Options]_ 
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Subscription Options]** section and do the following:
 
-   ![Customers configuration - newsletter subscriptions](../configuration-reference/customers/assets/newsletter-subscription-options.png)<!-- zoom -->
+   ![Customers configuration - newsletter subscriptions](../configuration-reference/customers/assets/newsletter-subscription-options.png){width="600" zoomable="yes"}
 
    - Confirm the email template and sender of each of the following email messages that are sent to subscribers:
 

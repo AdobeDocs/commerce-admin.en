@@ -20,7 +20,7 @@ The process of creating a related product rule is similar to setting up a price 
 
 1. In the upper-right corner, click **[!UICONTROL Add Rule]**.
 
-   ![Related products rule - information](./assets/catalog-related-products-rule-information.png)<!-- zoom -->
+   ![Related products rule - information](./assets/catalog-related-products-rule-information.png){width="600" zoomable="yes"}
 
 1. Complete the **[!UICONTROL Rule Information]** as follows:
 
@@ -44,11 +44,11 @@ The process of creating a related product rule is similar to setting up a price 
 
 1. In the left panel, choose **[!UICONTROL Products to Match]** and build the conditions as you would for a [catalog price rule](price-rules-catalog.md).
 
-   ![Related products rule - products to match](./assets/catalog-related-products-match.png)<!-- zoom -->
+   ![Related products rule - products to match](./assets/catalog-related-products-match.png){width="400"}
 
 1. In the left panel, choose **[!UICONTROL Products to Display]** and build the results conditions as you would for a [catalog price rule](price-rules-catalog.md).
 
-   ![Related products rule - products to display](./assets/catalog-related-products-to-display.png)<!-- zoom -->
+   ![Related products rule - products to display](./assets/catalog-related-products-to-display.png){width="400"}
 
    Complete the condition to describe the products that you want to include in the displayed results.
 

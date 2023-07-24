@@ -14,7 +14,7 @@ Since several active rules can be triggered at the same time, you can set a prio
 
 To access the related product rules, go to **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_ > **[!UICONTROL Related Product Rules]**.
 
-![Related product rules list](./assets/related-products-rules.png)<!-- zoom -->
+![Related product rules list](./assets/related-products-rules.png){width="700" zoomable="yes"}
 
 ## Column descriptions
 
@@ -67,7 +67,7 @@ The behavior of product relationship rules and display of matched products are d
 
 1. Expand ![Expansion](../assets/icon-display-expand.png) the **[!UICONTROL Rules-Based Product Relations]** section.
 
-   ![Catalog configuration - rule-based product relations](../configuration-reference/catalog/assets/catalog-rule-based-product-relations.png)<!-- zoom -->
+   ![Catalog configuration - rule-based product relations](../configuration-reference/catalog/assets/catalog-rule-based-product-relations.png){width="600" zoomable="yes"}
 
 1. Enter the **[!UICONTROL Maximum Number of Products in the Related Products List]**.
 

@@ -39,7 +39,7 @@ To offer a discount that is targeted to first-time customers, you can:
 
        Additional options become available in the panel on the left.
 
-    ![Customer segment properties](./assets/customer-segment-first-time.png)<!-- zoom -->
+    ![Customer segment properties](./assets/customer-segment-first-time.png){width="600" zoomable="yes"}
 
 1. Define the **[!UICONTROL Conditions]**.
 
@@ -57,13 +57,11 @@ To offer a discount that is targeted to first-time customers, you can:
 
    - Click the green checkmark ( ![Green checkmark](../assets/icon-checkmark-green-circle.png) ) to save the condition setting.
 
-   - Click **[!UICONTROL Save]**.
+   ![Customer segment condition](./assets/customer-segment-first-time-condition.png){width="600" zoomable="yes"}
 
-   ![Customer segment condition](./assets/customer-segment-first-time-condition.png)<!-- zoom -->
+1. Click **[!UICONTROL Save]**.
 
-Your customer segment is created and displayed in the Customer Segment list.
-
-![Customer segments list](./assets/customer-segment-list-first-time.png)<!-- zoom -->
+The customer segment is created and displayed in the _[!UICONTROL Customer Segments]_ grid.
 
 >[!TIP]
 >
@@ -105,7 +103,7 @@ Your customer segment is created and displayed in the Customer Segment list.
 
       Additional options become available in the panel on the left.
 
-   ![Cart price rule information](./assets/rule-information-first-time.png)<!-- zoom -->
+   ![Cart price rule information](./assets/rule-information-first-time.png){width="600" zoomable="yes"}
 
 1. Define the **[!UICONTROL Conditions]**.
 
@@ -131,7 +129,7 @@ Your customer segment is created and displayed in the Customer Segment list.
 
        This line of the rule applies to all customers who match customer segment ID 2.
 
-   ![Customer segment condition](./assets/customer-segment-matches.png)<!-- zoom -->
+   ![Customer segment condition](./assets/customer-segment-matches.png){width="200"}
 
 1. Scroll down and expand ![Expansion selector](../assets/icon-display-expand.png)the **[!UICONTROL Conditions]** section and define the actions for the rule.
 
@@ -147,7 +145,7 @@ Your customer segment is created and displayed in the Customer Segment list.
 
    - When complete, click **[!UICONTROL Save]**.
 
-   ![Cart price rule actions](./assets/actions-first-time.png)<!-- zoom -->
+   ![Cart price rule actions](./assets/actions-first-time.png){width="600" zoomable="yes"}
 
 The new rule is normally available within the hour. Test the rule to ensure that it works as you defined it.
 

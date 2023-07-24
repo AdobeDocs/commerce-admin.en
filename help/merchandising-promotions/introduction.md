@@ -46,11 +46,11 @@ Conditions are statements that refine the list of products and situations for ap
 
 For [catalog price rules](price-rules-catalog.md), you build conditions based on [attribute sets](../catalog/attribute-sets.md) in your catalog, comparison functions, and selected attributes. You create the conditions like sentences by selecting a few statements. For example, you may create two price rules to apply discounts for children's clothing and men's/women's clothing based on the category.
 
-![Diagram - example catalog price rules](./assets/diagram-catalog-price-rules.png)<!-- zoom -->
+![Diagram - example catalog price rules](./assets/diagram-catalog-price-rules.png){width="500"}
 
 [Cart price rule](price-rules-cart.md) conditions can be based on any category that is a child of the store [root](../catalog/category-root.md). Price rules are set up in advance, and spring into action whenever the required conditions are met. These rules use attributes, including product attribute combinations like matching a SKU in the cart using product attributes. These rules can also use product selection quantity conditions, condition combinations for complicated rules, and cart attributes like subtotal.
 
-![Diagram - example cart price rules](./assets/diagram-cart-price-rules.png)<!-- zoom -->
+![Diagram - example cart price rules](./assets/diagram-cart-price-rules.png){width="500"}
 
 ## Communications and SEO
 

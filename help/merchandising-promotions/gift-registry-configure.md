@@ -24,7 +24,7 @@ Adobe Commerce has predefined templates for each of these email messages that ca
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL General Options]** section and do the following:
 
-   ![Customers configuration - gift registry general](../configuration-reference/customers/assets/gift-registry-general-options.png)<!-- zoom -->
+   ![Customers configuration - gift registry general](../configuration-reference/customers/assets/gift-registry-general-options.png){width="600" zoomable="yes"}
 
    - The Gift Registry is enabled by default. If necessary, set **[!UICONTROL Enable Gift Registry]** to `Yes`.
 
@@ -34,7 +34,7 @@ Adobe Commerce has predefined templates for each of these email messages that ca
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Owner Notification]** section and do the following:
 
-   ![Customers configuration - gift registry owner notification](../configuration-reference/customers/assets/gift-registry-owner-notification.png)<!-- zoom -->
+   ![Customers configuration - gift registry owner notification](../configuration-reference/customers/assets/gift-registry-owner-notification.png){width="600" zoomable="yes"}
 
    - Choose the **[!UICONTROL Email Template]** that notifies gift registry owners when their registries are created.
 
@@ -42,7 +42,7 @@ Adobe Commerce has predefined templates for each of these email messages that ca
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Gift Registry Sharing]** section and do the following:
 
-   ![Customers configuration - gift registry sharing](../configuration-reference/customers/assets/gift-registry-gift-registry-sharing.png)<!-- zoom -->
+   ![Customers configuration - gift registry sharing](../configuration-reference/customers/assets/gift-registry-gift-registry-sharing.png){width="600" zoomable="yes"}
 
    - Choose the **[!UICONTROL Email Template]** that notifies gift registry recipients when a registry is shared with them.
 
@@ -52,7 +52,7 @@ Adobe Commerce has predefined templates for each of these email messages that ca
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Gift Registry Update]** section and do the following:
 
-   ![Customers configuration - gift registry update](../configuration-reference/customers/assets/gift-registry-gift-registry-update.png)<!-- zoom -->
+   ![Customers configuration - gift registry update](../configuration-reference/customers/assets/gift-registry-gift-registry-update.png){width="600" zoomable="yes"}
 
    - Choose the **[!UICONTROL Email Template]** that notifies gift registry owners of changes to the registry.
 

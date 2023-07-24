@@ -7,7 +7,7 @@ exl-id: fc0e554b-1bff-45da-bd6f-73e9b1a4fdef
 
 The [!UICONTROL Marketing] menu provides access tools for managing promotions, communications, SEO, and user-generated content.
 
-![Commerce Admin - Marketing menu](./assets/admin-menu-marketing-ee.png)<!-- zoom -->
+![Commerce Admin - Marketing menu](./assets/admin-menu-marketing-ee.png){width="600" zoomable="yes"}
 
 ## Display the [!UICONTROL Marketing] menu
 
