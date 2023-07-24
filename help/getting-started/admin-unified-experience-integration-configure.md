@@ -139,7 +139,7 @@ Enable the Commerce Events extension (`magento/commerce-eventing`) to send custo
 
 >[!TIP]
 >
->For details on configuring and managing environment variables using the `.magento.env.yaml` file, see [Configure environment variables for deployment](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html)
+>For details on configuring and managing environment variables using the `.magento.env.yaml` file, see [Configure environment variables for deployment](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html).
 
 ### Configure the Commerce Events integration
 
@@ -183,7 +183,7 @@ Verify that a Commerce Administrator can log in to Experience Cloud to view avai
 
    ![Access Commerce projects from the Experience Cloud home page](./assets/admin-uex-home-page.png){width="600" zoomable="yes"}
 
-1. View available Commerce Projects by selecting [!UICONTROL Commerce].
+1. View available Commerce Projects by selecting **[!UICONTROL Commerce]**.
 
    ![Commerce Projects workspace for Experience Cloud](./assets/admin-uex-commerce-projects-home.png){width="600" zoomable="yes"}
 

@@ -15,7 +15,7 @@ After initial enablement, manage the status of the the Experience Cloud integrat
 
 - If the Commerce Admin Unified Experience extension is disabled, access through Experience Cloud is disabled. Administrators must log in to individual projects using the Admin URL for the Commerce project environment.
 
->[!NOTE]
+>[!WARNING]
 >
 >If the Adobe Identity Management Service (IMS) integration is disabled, the Experience Cloud integration is disabled automatically.
 
