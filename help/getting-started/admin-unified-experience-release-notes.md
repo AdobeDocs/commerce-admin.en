@@ -23,6 +23,3 @@ These release notes for the Commerce Admin Unified Experience extension (`magent
 ![New](../assets/new.svg) Initial beta release of the Admin Unified Experience extension to enable integration with Adobe Experience Cloud.
 
 ![New](../assets/new.svg) When the Admin Unified Experience extension is installed and enabled on an Adobe Commerce project, administrators can [view and access Adobe Commerce instances from the Experience Cloud home page](admin-unified-experience-integration-overview.md).
-
-
-
