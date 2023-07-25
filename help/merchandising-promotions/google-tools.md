@@ -22,8 +22,6 @@ Your store configuration is integrated with the following Google tools to help o
 
 If your business is required to comply with privacy regulations such as the [GDPR](../getting-started/compliance-gdpr.md) or [CCPA](../getting-started/compliance-ccpa.md), change the default settings of the Google tools to meet privacy requirements. Follow these steps to ensure that your use of customer data remains in compliance.
 
-![Google Analytics - data sharing settings](./assets/google-data-sharing-settings.png)<!-- zoom -->
-
 ### Step 1: Update Google settings
 
 1. [Sign in][1]{: target="_blank"} to your company's Google Analytics account.

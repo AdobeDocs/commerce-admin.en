@@ -8,15 +8,13 @@ feature: Customers, Communications
 
 You can create as many newsletter templates as you need for different purposes. You might send a weekly product update, a monthly newsletter, or annual holiday newsletter. Newsletter templates can be prepared with HTML markup, or as plain text. Unlike HTML, plain text newsletters contain no images, rich text, or formatted links. In the grid, the Template Type column indicates whether a template is HTML or text.
 
-![Newsletter templates](./assets/newsletter-templates.png)<!-- zoom -->
+![Newsletter templates - add to newsletter queue](./assets/newsletter-templates-grid.png){width="700" zoomable="yes"}
 
 ## Create a newsletter template
 
 1. On the Admin sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_ > **[!UICONTROL Newsletter Template]**.
 
 1. To add a template, click **[!UICONTROL Add New Template]**.
-
-      ![Newsletter template information](./assets/newsletter-template-information2.png)<!-- zoom -->
 
 1. Complete the template settings:
 
@@ -28,7 +26,7 @@ You can create as many newsletter templates as you need for different purposes. 
 
     - For **[!UICONTROL Sender Email]**, enter the email address of the newsletter sender.
 
-      ![Newsletter template information](./assets/newsletter-template-information1.png)<!-- zoom -->
+    ![Newsletter template information](./assets/newsletter-template-information2.png){width="600" zoomable="yes"}
 
     - For **[!UICONTROL Template Content]**, click **[!UICONTROL Show / Hide Editor]** to display the WYSIWYG editor and update the content as needed.
 

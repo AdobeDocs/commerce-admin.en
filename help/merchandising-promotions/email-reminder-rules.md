@@ -16,7 +16,7 @@ Email reminders can be triggered after a specific number of days have passed sin
 >
 >If a customer has more than one matched abandoned cart, wish list, or combination of both, the email reminder is triggered only once for that customer. To trigger the same email reminder again, use the _[!UICONTROL Repeat Schedule]_ field to set the number of days between emails.
 
-![Email reminders](./assets/email-reminders.png)<!-- zoom -->
+![Email reminders](./assets/email-reminders.png){width="700" zoomable="yes"}
 
 ## Configure email reminders
 
@@ -28,7 +28,7 @@ Email reminder rules can be sent at regular intervals by the minute, hour, or da
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Automated Email Reminder Rules]** section and do the following:
 
-   ![Customers configuration - automated email reminder rules](../configuration-reference/customers/assets/promotions-automated-email-reminder-rules.png)<!-- zoom -->
+   ![Customers configuration - automated email reminder rules](../configuration-reference/customers/assets/promotions-automated-email-reminder-rules.png){width="600" zoomable="yes"}
 
    - Set **[!UICONTROL Enable Reminder Emails]** to `Yes`.
 
@@ -56,7 +56,7 @@ Email reminder rules can be sent at regular intervals by the minute, hour, or da
 
 The default email reminder template can be customized, and additional templates created for different promotions. Email reminders have a selection of specific variables that can be incorporated into the message. The information in these variables is determined by the email reminder rule that you set up, and by the cart price rule that is associated with the coupon. The Insert Variable button can be used to insert the markup tag with the variable into the template. To learn more, see [Email](../systems/email-templates.md).
 
-![Email reminder preview](./assets/email-reminder-preview-promotion-template.png)<!-- zoom -->
+![Email reminder preview](./assets/email-reminder-preview-promotion-template.png){width="600" zoomable="yes"}
 
 ### Customize an email reminder template
 

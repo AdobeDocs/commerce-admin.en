@@ -18,7 +18,7 @@ Before you can create an event, you must complete the basic configuration to ena
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Catalog Events]** section and do the following:
 
-    ![Catalog configuration - catalog events](../configuration-reference/catalog/assets/catalog-events.png)<!-- zoom -->
+    ![Catalog configuration - catalog events](../configuration-reference/catalog/assets/catalog-events.png){width="600" zoomable="yes"}
 
     - Set **[!UICONTROL Enable Catalog Events Functionality]** to `Yes`.
 
@@ -35,7 +35,7 @@ Before you can create an event, you must complete the basic configuration to ena
 
 Access to a private sale, event, or site can be limited to registered customers who log in, or extended to non-registered customers who must register before gaining access.
 
-![General configuration - website restrictions](../configuration-reference/general/assets/general-website-restrictions.png)<!-- zoom -->
+![General configuration - website restrictions](../configuration-reference/general/assets/general-website-restrictions.png){width="600" zoomable="yes"}
 
 ### Set up exclusive access
 
@@ -74,7 +74,7 @@ Access to a private sale, event, or site can be limited to registered customers 
 
 Access to a private sale, event, or site can be limited to registered customers who log in, or extended to non-registered customers who must register before gaining access.
 
-![General configuration - website restrictions](../configuration-reference/general/assets/general-website-restrictions.png)<!-- zoom -->
+![General configuration - website restrictions](../configuration-reference/general/assets/general-website-restrictions.png){width="600" zoomable="yes"}
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 

@@ -22,7 +22,7 @@ Reward points can be awarded to customers according to a [cart price rule](price
 
 1. Scroll down, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Actions]** section, set the conditions, and enter the number of points in the **[!UICONTROL Add Reward Points]** field.
 
-   ![Cart price rule - reward points](./assets/reward-points-price-rule-actions.png)<!-- zoom -->
+   ![Cart price rule - reward points](./assets/reward-points-price-rule-actions.png){width="600" zoomable="yes"}
 
 1. Follow the standard instructions to complete the [cart price rule](price-rules-cart-create.md).
 

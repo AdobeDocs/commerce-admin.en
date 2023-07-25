@@ -10,7 +10,7 @@ feature: Categories, Merchandising, Products
 
 The _Visual Merchandiser_ is a set of advanced tools that allows you to position products and apply conditions that determine which products appear in the category listing. The result can be a dynamic selection of products that adjusts to changes in the catalog. You can work in _visual mode_, which shows each product as a tile on a grid, or to work from a list of products in the category. The same tools are available in each mode and you can use the buttons in the upper-right corner to toggle between each type of display.
 
-![Category products in tile view](./assets/category-products-visual-with-stock.png)<!-- zoom -->
+![Category products in tile view](./assets/category-products-visual-with-stock.png){width="600" zoomable="yes"}
 
 ## Access the Visual Merchandiser
 

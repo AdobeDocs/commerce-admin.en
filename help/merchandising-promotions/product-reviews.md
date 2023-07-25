@@ -28,23 +28,23 @@ The [!UICONTROL Reviews] tab lists all current reviews and the form that was use
 
 Your configuration determines whether customers must open an account with your store before writing product reviews or if they can submit reviews as guests. Requiring reviewers to open an account prevents anonymous submissions and improves the quality of reviews.
 
-![Example storefront - Add Your Review](./assets/storefront-review-this-product.png)<!-- zoom -->
+![Example storefront - Add Your Review](./assets/storefront-review-this-product.png){width="700" zoomable="yes"}
 
 The number of stars indicates the product's satisfaction rating. Visitors can click the link to read the reviews and write their own. As an incentive, customers can receive reward points for submitting a review. When a review is submitted, it is sent to the Admin for moderation. When approved, the review is published in your store.
 
-![Example storefront - Reviews tab](./assets/storefront-reviews-tab.png)<!-- zoom -->
+![Example storefront - Reviews tab](./assets/storefront-reviews-tab.png){width="700" zoomable="yes"}
 
 ### [!UICONTROL My Product Reviews]
 
 The _[!UICONTROL My Product Reviews]_ section of the customer account dashboard lists all the reviews submitted by the customer and approved for publication. Each review summary includes the date that the review was submitted, links to the product page, and review details.
 
-![My Product Reviews](./assets/account-dashboard-my-product-reviews.png)<!-- zoom -->
+![My Product Reviews](./assets/account-dashboard-my-product-reviews.png){width="700" zoomable="yes"}
 
 1. In the sidebar of their account, the customer chooses **[!UICONTROL My Product Reviews]**.
 
 1. To view the full review, clicks **[!UICONTROL See Details]**.
 
-   ![Review Details](./assets/account-dashboard-my-product-reviews-details.png)<!-- zoom -->
+   ![Review Details](./assets/account-dashboard-my-product-reviews-details.png){width="700" zoomable="yes"}
 
 ## Enable product review features
 
@@ -60,7 +60,7 @@ The Commerce Product Reviews function is enabled by default.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Product Reviews]** section.
 
-   ![Catalog configuration - Commerce product reviews](./assets/product-reviews-config.png)<!-- zoom -->
+   ![Catalog configuration - Commerce product reviews](../configuration-reference/catalog/assets/catalog-product-reviews.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Enabled]** to `Yes`.
 
@@ -76,19 +76,19 @@ The Commerce Product Reviews function is enabled by default.
 
 With the Commerce Product Reviews, customers can assign ratings when they submit a product review. The default ratings are quality, price, and value. In addition to these, you can add your own custom ratings. The five-star ratings that appear on catalog pages are averaged for each product.
 
-![Example storefront - custom ratings](./assets/attribute-custom-ratings-review.png)<!-- zoom -->
+![Example storefront - custom ratings](./assets/attribute-custom-ratings-review.png){width="700" zoomable="yes"}
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_ > **[!UICONTROL Rating]**.
 
 1. In the upper-right corner, click **[!UICONTROL Add New Rating]**.
 
-   ![Admin - Ratings](./assets/product-reviews-rating.png)<!-- zoom -->
+   ![Admin - Ratings](./assets/product-reviews-rating.png){width="700" zoomable="yes"}
 
 1. In the _[!UICONTROL Rating Title]_ section, enter the **[!UICONTROL Default Value]** for the new rating.
 
    If applicable, also enter the translation for each store view.
 
-   ![Rating title settings](./assets/product-rating-title.png)<!-- zoom -->
+   ![Rating title settings](./assets/product-rating-title.png){width="600" zoomable="yes"}
 
 1. In the _Rating Visibility_ section, set **[!UICONTROL Visibility In]** to the store view where the rating is to be used.
 
@@ -102,10 +102,10 @@ With the Commerce Product Reviews, customers can assign ratings when they submit
 
 1. If you want to show your rating on the storefront, select the **[!UICONTROL Is Active]** checkbox.
 
-   ![Rating visibility settings](./assets/product-rating-visibility.png)<!-- zoom -->
+   ![Rating visibility settings](./assets/product-rating-visibility.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Rating]**.
 
    The average rating for all reviews is displayed for each product on the catalog product grid page.
 
-   ![Catalog Page](./assets/catalog-rating-page.png)<!-- zoom -->
+   ![Catalog Page](./assets/catalog-rating-page.png){width="700" zoomable="yes"}

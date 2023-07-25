@@ -8,9 +8,9 @@ feature: Marketing Tools, Promotions/Events
 
 {{ee-feature}}
 
-Private sales and other catalog events are a great way to use your existing customer base to generate buzz and new leads, or to offload surplus inventory. You can create limited-time sales, limit sales to specific members, or create a stand-alone private sale page. You can also define invitations and event details. Increase brand loyalty and generate a buzz by giving your best customers the VIP treatment. Offer exclusive access to Member Only sales or private sales to increase brand loyalty. You can also use these sales to liquidate excess merchandise. Customer Groups are useful in setting up these types of Members Only and VIP sales.
+Private sales and other catalog events are a great way to use your existing customer base to generate buzz and new leads, or to offload surplus inventory. You can create limited-time sales, limit sales to specific members, or create a stand-alone private sale page. You can also define invitations and event details. Increase brand loyalty and generate a buzz by giving your best customers the VIP treatment. Offer exclusive access to member only sales or private sales to increase brand loyalty. You can also use these sales to liquidate excess merchandise. Customer groups are useful in setting up these types of members only and VIP sales.
 
-![Example storefront - event on home page](./assets/storefront-event-home-page.png)<!-- zoom -->
+![Example storefront - event on home page](./assets/storefront-event-home-page.png){width="700" zoomable="yes"}
 
 ## Event management components
 
@@ -34,10 +34,10 @@ Private sales and other catalog events are a great way to use your existing cust
 
 The ticker block displays a countdown ticker for open events, with the start and end date for upcoming events. If an event has closed, the ticker shows the starting and ending dates.
 
-![Example storefront - event carousel](./assets/storefront-event-ticker-carousel.png)<!-- zoom -->
+![Example storefront - event carousel](./assets/storefront-event-ticker-carousel.png){width="700" zoomable="yes"}
 
 If the category page ticker is enabled for an event, the ticker block appears at the top of the category listing. If the product page ticker is enabled, the ticker block also appears at the top of the product page of any product that is associated with the category.
 
 The event ticker can be enabled when you [creating events](event-create.md).
 
-![Example storefront - event sidebar](./assets/storefront-event-sidebar.png)<!-- zoom -->
+![Example storefront - event sidebar](./assets/storefront-event-sidebar.png){width="700" zoomable="yes"}
