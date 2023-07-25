@@ -6,4 +6,4 @@ description: Reused note about the Beta release for Experience Cloud integration
 
 >[!NOTE]
 >
->This feature is for Beta users only and is not yet accessible to all customers. Join the Beta by sending an email to [commerceonunifiedshell-beta@adobe.com](mailto:commerceonunifiedshell-beta@adobe.com). Include the Commerce account (MAGEID) for your Commerce project.
+>This feature is for Beta users only and is not yet accessible to all customers. Join the Beta by sending an email to [commerceonunifiedshell-beta@adobe.com](mailto:commerceonunifiedshell-beta@adobe.com). Include the Commerce account (MAGEID) for your Commerce project and the [Adobe organization ID](https://experienceleague-review.corp.adobe.com/docs/core-services/interface/administration/organizations.html) associated with your Adobe ID.
