@@ -2,6 +2,7 @@
 user-guide-title: Adobe Commerce Merchant Documentation
 user-guide-description: Documentation and resources for Adobe Commerce and Magento Open Source merchants working in the Admin.
 title: Adobe Commerce Merchant Documentation
+feature: Admin Workspace
 ---
 # Adobe Commerce merchant documentation {#user-guides}
 
