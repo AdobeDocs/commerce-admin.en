@@ -76,7 +76,7 @@ The following tasks apply to both Luma and headless storefront implementations. 
 
 ### Install the extension
 
-You can install the [!DNL Audience Activation] extension from the [marketplace](https://marketplace.magento.com/magento-audiences.html) or you can run the following command:
+You can install the [!DNL Audience Activation] extension from the [marketplace](https://commercemarketplace.adobe.com/magento-audiences.html) or you can run the following command:
 
    ```bash
    composer require magento/audiences
@@ -239,3 +239,35 @@ Learn more about the `dynamicBlocks` GraphQL query in the [developer documentati
 >[!NOTE]
 >
 >An AEM storefront does not support dynamic blocks.
+
+## Retrieve audiences using the Adobe Experience Platform Mobile SDK
+
+Your mobile Commerce site can integrate with the Adobe Experience Platform Mobile SDK. To learn how to install and configure the SDK for your mobile Commerce site, see the [Experience Platform connector](https://experienceleague.adobe.com/docs/commerce-merchant-services/experience-platform-connector/fundamentals/mobile-sdk-epc.html) documentation.
+
+After you finish the installation and configuration, you can use the mobile SDK to retrieve Real-Time CDP audiences. For example:
+
+```javascript
+Edge.sendEvent(experienceEvent: experienceEvent) { (handles: [EdgeEventHandle]) in
+    for handle in handles {
+        if handle.type == "activation:pull" {
+        let payloadItems = handle.payload ?? []
+            for payloadItem in payloadItems {
+                if let segments = payloadItem["segments"] as? any Sequence {
+                    var segmentsArr = [Any]()
+                    for segment in segments {
+                        let response = segment as AnyObject?
+                        segmentsArr.append(response?.object(forKey: "id")! ?? "")
+                    }
+                    print("Saving segments ->  \(segments)")
+                    storage.set(segmentsArr, forKey: "segments")
+                    print("End saving segments")
+                }
+         
+                // Show segments
+                let rSegments = storage.object(forKey: "segments") ?? nil;
+                print("Retrieving segments -> \(rSegments)")
+            }
+        }
+    }
+}
+```
