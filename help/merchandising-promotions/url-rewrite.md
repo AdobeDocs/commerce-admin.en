@@ -20,7 +20,7 @@ By default, [automatic URL redirects](url-redirect-product-automatic.md) are en
 
 {{url-rewrite-params}}
 
-![Search engine optimization - create permanent URL redirect](./assets/product-search-engine-optimization-create-permanent-redirect.png)<!-- zoom -->
+![Search engine optimization - create permanent URL redirect](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
 
 ## Canonical URLs
 
@@ -58,7 +58,7 @@ URL with Web Server Rewrite
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Search Engine Optimization]** section.
 
-   ![General configuration - web search engine optimization](../configuration-reference/general/assets/web-search-engine-optimization.png)<!-- zoom -->
+   ![General configuration - web search engine optimization](../configuration-reference/general/assets/web-search-engine-optimization.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Use Web Server Rewrites]** to your preference.
 
@@ -87,7 +87,7 @@ Additional Category URLs
     http://www.example.com/all-on-sale.html
     http://www.example.com/save-now/spring-sale
 
-![URL rewrites grid](./assets/url-rewrites.png)<!-- zoom -->
+![URL rewrites grid](./assets/url-rewrites.png){width="700" zoomable="yes"}
 
 Commerce offers these URL rewrite types:
 
