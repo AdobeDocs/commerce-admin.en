@@ -2,6 +2,8 @@
 title: Enable B2B features
 description: Learn about enabling B2B features for your Adobe Commerce store, including company accounts, default payment and shipping methods, purchase orders, and order approvals.
 exl-id: aed203ef-f39b-4f7e-b32f-ded53eca09a8
+feature: B2B, Configuration
+role: Admin
 ---
 # Enable B2B features
 

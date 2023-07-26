@@ -10,7 +10,7 @@ feature: Marketing Tools, Integration
 
 Conversion tracking shows the number of ad clicks that lead to a sale or other valuable action. The _Success_ page that appears to your customer after an order has been submitted is used to track conversions because it appears only after a sale. After completing the Google AdWords configuration for your store, there is no need to copy the conversion tracking script to the Success page, because Commerce already has the necessary information. To learn more, see [Google AdWords Help][2].
 
-![Adobe Ad in Google Search Results](./assets/google-adwords-adobe-ad.png)<!-- zoom -->
+![Adobe Ad in Google Search Results](./assets/google-adwords-adobe-ad.png){width="500"}
 
 ## Step 1. Create a Google AdWords campaign
 
@@ -72,7 +72,7 @@ Conversion tracking shows the number of ad clicks that lead to a sale or other v
 
    - Enter the **[!UICONTROL Conversion ID]** from your Google AdWords script.
 
-   ![Sales configuration - Google Ads API](../configuration-reference/sales/assets/google-api-google-adwords.png)<!-- zoom -->
+   ![Sales configuration - Google Ads API](../configuration-reference/sales/assets/google-api-google-adwords.png){width="600" zoomable="yes"}
 
 1. To format the Google Sites Stat notification, do the following:
 

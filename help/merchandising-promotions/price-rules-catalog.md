@@ -18,7 +18,7 @@ For example, you can define and set the conditions for a price rule that when me
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_ > **[!UICONTROL Catalog Price Rules]**.
 
-   ![Catalog price rules](./assets/price-rule-cart.png)<!-- zoom -->
+   ![Catalog price rules](./assets/price-rule-catalog.png){width="700" zoomable="yes"}
 
 1. Update properties for a rule:
 

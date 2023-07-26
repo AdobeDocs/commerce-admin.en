@@ -18,27 +18,31 @@ Coupon codes can be sent by email, or included in newsletters, catalogs, and adv
 
 The length and format of automatically generated coupon codes is controlled by the configuration. The characters can be set to all numbers, all letters, or a combination. You can insert a dash at set intervals to make it easy to read, and add a prefix and suffix to associate the code with a specific campaign or initiative.
 
-![Customers configuration - auto-generated specific coupon codes](../configuration-reference/customers/assets/promotions-auto-generated-specific-coupon-codes.png)<!-- zoom -->
-
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Customers]** and choose **[!UICONTROL Promotions]**.
 
-1. In the **[!UICONTROL Auto Generated Specific Coupon Codes]** section, do the following:
+   ![Customers configuration - auto-generated specific coupon codes](../configuration-reference/customers/assets/promotions-auto-generated-specific-coupon-codes.png){width="600" zoomable="yes"}
 
-   - Enter the **[!UICONTROL Code Length]**, including prefix, suffix, and separators.
+1. Expand the **[!UICONTROL Auto Generated Specific Coupon Codes]** section.
 
-   - Set the **[!UICONTROL Code Format]** to one of the following:
+   ![Customers configuration - auto-generated specific coupon codes](../configuration-reference/customers/assets/promotions-auto-generated-specific-coupon-codes.png){width="600" zoomable="yes"}
 
-      - `Alphanumeric`
-      - `Alphabetical`
-      - `Numeric`
+1. Enter the **[!UICONTROL Code Length]**, including prefix, suffix, and separators.
 
-   - To add a **[!UICONTROL Code Prefix]**, enter the value that you want to appear at the beginning of all coupon codes.
+1. Set the **[!UICONTROL Code Format]** to one of the following:
 
-   - To add a **[!UICONTROL Code Suffix]**, enter the value that you want to appear at the end of all coupon codes.
+   - `Alphanumeric`
+   - `Alphabetical`
+   - `Numeric`
 
-   - To insert a **[!UICONTROL Dash Every X Characters]**, enter the number of characters between each dash. Coupon codes with different dash patterns are considered to be different codes, even if the numbers are the same.
+1. For **[!UICONTROL Code Prefix]**, enter the value that you want to appear at the beginning of all coupon codes.
+
+1. For **[!UICONTROL Code Suffix]**, enter the value that you want to appear at the end of all coupon codes.
+
+1. For **[!UICONTROL Dash Every X Characters]**, enter the number of characters between each dash.
+
+   Coupon codes with different dash patterns are considered to be different codes, even if the numbers are the same.
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
@@ -65,7 +69,7 @@ The length and format of automatically generated coupon codes is controlled by t
 
    For unlimited use, leave these fields blank.
 
-   ![Cart price rule - coupon information](./assets/coupon-info.png)<!-- zoom -->
+   ![Cart price rule - coupon information](./assets/coupon-info.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -81,7 +85,7 @@ The length and format of automatically generated coupon codes is controlled by t
 
       - Click **[!UICONTROL Schedule New Update]** in the upper-right corner of the page.
 
-        ![Schedule Update](./assets/coupon-schedule-new-update.png)<!-- zoom -->
+        ![Schedule Update](./assets/coupon-schedule-new-update.png){width="600" zoomable="yes"}
 
       - Enter the **[!UICONTROL Update Name]** and **[!UICONTROL Description]**.
 
@@ -89,7 +93,7 @@ The length and format of automatically generated coupon codes is controlled by t
 
       - When complete, click **[!UICONTROL Save]**.
 
-        ![Cart price rule - scheduled change](./assets/coupon-scheduled-change.png)<!-- zoom -->
+        ![Cart price rule - scheduled change](./assets/coupon-scheduled-change.png){width="600" zoomable="yes"}
 
       **Option 2:** Assign to an existing update:
 
@@ -109,7 +113,7 @@ The generation of discount coupons is an asynchronous operation, which executes 
 
 1. To limit the number of times each customer can use the coupon, enter the number of **[!UICONTROL Uses per Customer]**.
 
-   ![Cart price rule - generate auto-numbered coupons](./assets/coupon-auto.png)<!-- zoom -->
+   ![Cart price rule - generate auto-numbered coupons](./assets/coupon-auto.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -117,7 +121,7 @@ The generation of discount coupons is an asynchronous operation, which executes 
 
 1. Scroll down and expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Manage Coupon Codes]** section and do the following:
 
-   ![Cart price rule - manage coupon codes](./assets/manage-coupon-codes.png)<!-- zoom -->
+   ![Cart price rule - manage coupon codes](./assets/manage-coupon-codes.png){width="600" zoomable="yes"}
 
    - For **[!UICONTROL Coupons Qty]**, enter the number of coupons that you want to generate.
 
@@ -139,18 +143,16 @@ The generation of discount coupons is an asynchronous operation, which executes 
 
    The system displays `Message is added to queue, wait to get your coupons soon`.
 
-   After the cron job completes, the list of generated codes displays.
+   After the cron job completes, the list of generated codes is displayed.
 
-   ![Cart price rule - generated coupon codes](./assets/coupons-generated.png)<!-- zoom -->
+   | Field       | Description |
+   |-------------|-------------|
+   | [!UICONTROL Coupon Code] | A unique code of coupon that was created and can be used for receiving special conditions. |
+   | [!UICONTROL Created]     | The date when the coupon code was created.|
+   | [!UICONTROL Used]        | Indicates if the coupon was used. |
+   | [!UICONTROL Times Used]  | Indicates how many times that the coupon code was used. |
 
-| Field       | Description |
-|-------------|-------------|
-| [!UICONTROL Coupon Code] | A unique code of coupon that was created and can be used for receiving special conditions. |
-| [!UICONTROL Created]     | The date when the coupon code was created.|
-| [!UICONTROL Used]        | Indicates if the coupon was used. |
-| [!UICONTROL Times Used]  | Indicates how many times that the coupon code was used. |
-
-{style="table-layout:auto"}
+   {style="table-layout:auto"}
 
 You can export coupon codes to a CSV or Excel XML file by selecting the file format and clicking **[!UICONTROL Export]**.
 
@@ -166,7 +168,7 @@ The _Coupons_ report aggregates data from each coupon that is used during a spec
 
 In the following example, the coupon code "H20" was used by two customers. One of the orders is invoiced, but the other is still _pending_. The projected Sales Subtotal, Sales Discount, and Sales Total columns show the aggregated amounts from both orders, but only the actual invoiced order appears in the Subtotal, Discount, and Total columns. Each row in the report represents a single coupon promotion.
 
-![Coupons report](./assets/reports-coupons.png)<!-- zoom -->
+![Coupons report](./assets/reports-coupons.png){width="600" zoomable="yes"}
 
 ### Run the report
 
@@ -178,18 +180,18 @@ In the following example, the coupon code "H20" was used by two customers. One o
    
    Next, click to select the **[!UICONTROL Coupons]** checkbox and click **[!UICONTROL Refresh]**.
 
-   ![Coupons report - refresh statistics](./assets/reports-coupons-refresh-statistics.png)<!-- zoom -->
+   ![Coupons report - refresh statistics](./assets/reports-coupons-refresh-statistics.png){width="600" zoomable="yes"}
 
 1. To filter the data, do the following:
 
-   ![Coupon report - filters](./assets/reports-coupons-filters.png)<!-- zoom -->
+   ![Coupon report - filters](./assets/reports-coupons-filters.png){width="600" zoomable="yes"}
 
    - Set **[!UICONTROL Date Used]** to one of the following:
 
       - `Order Created`
       - `Order Updated`
 
-        The Order Updated report is created in real time and does not require a refresh.
+      The _Order Updated_ report is created in real time and does not require a refresh.
 
    - To define the time period covered by the report, set **[!UICONTROL Period]** to one of the following:
 

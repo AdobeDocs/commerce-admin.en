@@ -2,6 +2,8 @@
 title: Request for quote
 description: Learn how customers associated with a company account can submit a request for a quote.
 exl-id: c52176a7-4076-4cea-8ddb-17e0d1a77fd9
+feature: B2B, Quotes
+role: Admin, User
 ---
 # Request for quote
 

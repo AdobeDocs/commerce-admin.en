@@ -2,6 +2,9 @@
 user-guide-title: "[!DNL B2B for Adobe Commerce] Guide"
 user-guide-description: Learn how to use the integrated B2B features available for Adobe Commerce, 
 breadcrumb-title: "[!DNL B2B for Adobe Commerce]"
+role: Admin, Leader, User
+feature: B2B
+recommendations: noDisplay
 ---
 
 # [!DNL B2B for Adobe Commerce] Guide {#b2b}

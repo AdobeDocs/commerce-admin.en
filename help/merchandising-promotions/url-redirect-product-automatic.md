@@ -20,11 +20,11 @@ Your store can be configured to automatically generate a permanent redirect when
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Search Engine Optimization]** section.
 
+   ![Catalog configuration - search engine optimization](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
+
 1. Set **[!UICONTROL Create Permanent Redirect for URLs if URL Key Changed]** to `Yes`.
 
 1. When complete, click **[!UICONTROL Save Config]**.
-
-    ![Catalog configuration - search engine optimization](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png)<!-- zoom -->
 
 ## Automatically redirect product URLs
 
@@ -34,7 +34,7 @@ Your store can be configured to automatically generate a permanent redirect when
 
 1. Expand ![Expansion selector ](../assets/icon-display-expand.png) the **[!UICONTROL Search Engine Optimization]** section.
 
-   ![Product search engine optimization - permanent redirect](./assets/product-search-engine-optimization-create-permanent-redirect.png)<!-- zoom -->
+   ![Product search engine optimization - permanent redirect](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
 
 1. For **[!UICONTROL URL Key]**, do the following:
 
@@ -82,10 +82,8 @@ Your store can be configured to automatically generate a permanent redirect when
 
 1. Set **[!UICONTROL Generate "category/product" URL Rewrites]** to `No`.
 
-   ![Catalog configuration - no automatic URL rewrites](./assets/seo-rewrite-no.png)<!-- zoom -->
-
 1. In the confirmation dialog, click **[!UICONTROL OK]** to confirm the change and the removal of existing URL rewrites.
 
-   ![Turn off category/product URL rewrites - confirm](./assets/seo-rewrite-off.png)<!-- width="350px" -->
+   ![Turn off category/product URL rewrites - confirm](./assets/seo-rewrite-off.png){width="350"}
 
 1. When complete, click **[!UICONTROL Save Config]**.

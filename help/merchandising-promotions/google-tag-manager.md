@@ -112,7 +112,7 @@ The following instructions show how to configure a new container with the basic 
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Google Analytics]** section and configure the following:
 
-    ![Sales configuration - Google Analytics](../configuration-reference/sales/assets/google-api-analytics-tag-manager.png)<!-- zoom -->
+    ![Sales configuration - Google Analytics](../configuration-reference/sales/assets/google-api-analytics-tag-manager.png){width="600" zoomable="yes"}
 
     - Set **[!UICONTROL Enable]** to `Yes`.
 
@@ -138,17 +138,15 @@ The following instructions show how to configure a new container with the basic 
 
    There are two GTM code snippets to be added to your Commerce site: the first one for the `<head>` tag and the second for the `<body>` tag.
 
-   ![Install Google Tag Manager](./assets/install-google-tag-manager.png)<!-- zoom -->
-
 1. In the Commerce Admin, go to **[!UICONTROL Content]** > _[!UICONTROL Design]_ > **[!UICONTROL Configuration]** and open the store view in edit mode.
 
 1. Under _[!UICONTROL Other Settings]_, expand **[!UICONTROL HTML Head]** and paste the code you copied from GTM for the `<head>` tag in the **[!UICONTROL Scripts and Style Sheets]** field.
 
-   ![Inserting code in the HTML Head](./assets/head-tag.png)<!-- zoom -->
+   ![Inserting code in the HTML Head](./assets/head-tag.png){width="600" zoomable="yes"}
 
 1. Expand **[!UICONTROL Footer]** and paste the GTM code for `<body>` in the **[!UICONTROL Miscellaneous HTML]** field.
 
-   ![Inserting code in the Footer](./assets/footer-tag-section.png)<!-- zoom -->
+   ![Inserting code in the Footer](./assets/footer-tag-section.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Configuration]**.
 
@@ -180,8 +178,6 @@ If you have a Google AdWords account, you can create a tag that tracks conversio
 
 1. In the **[!UICONTROL New Tag]** box, click **[!UICONTROL Add a new tag]**.
 
-   ![Google Tag Manager - new workspace](./assets/gtm-workspace-new.png)<!-- zoom -->
-
 1. Get the following information from your AdWords account:
 
     - Conversion ID
@@ -195,23 +191,15 @@ If you have a Google AdWords account, you can create a tag that tracks conversio
 
     - Under **[!UICONTROL Choose Product]**, select **[!UICONTROL Google AdWords]**.
 
-      ![Google Tag Manager - choose Google Adwords](./assets/gtm-create-adwords-tag1.png)<!-- zoom -->
-
     - Under _[!UICONTROL Choose a Tag Type]_, select **[!UICONTROL AdWords Conversion Tracking]** and click **[!UICONTROL Continue]**.
 
-      ![Google Tag Manager - Adwords conversion tracking](./assets/gtm-create-adwords-tag2.png)<!-- zoom -->
-
 1. Enter the **[!UICONTROL Conversion ID]** and **[!UICONTROL Conversion Label]** from your AdWords account and click **[!UICONTROL Continue]**.
-
-    ![Google Tag Manager - conversion ID and label](./assets/gtm-create-adwords-tag3.png)<!-- zoom -->
 
 ### Step 2. Create a rule
 
 Continuing from the [!DNL Google Tag Manager] dashboard, the next step is to create a rule that fires the tag on the conversion page.
 
 1. Under **[!UICONTROL Fire On]**, click **[!UICONTROL Some Pages]**.
-
-   ![Google Tag Manager - fire on](./assets/gtm-create-adwords-tag4.png)<!-- zoom -->
 
 1. In the _[!UICONTROL Choose Pages]_ section, complete the following settings:
 
@@ -225,15 +213,11 @@ Continuing from the [!DNL Google Tag Manager] dashboard, the next step is to cre
 
    - **[!UICONTROL Value]** - `checkout/success.*`
 
-   ![Google Tag Manager - conversion page location](./assets/gtm-create-adwords-tag6.png)<!-- zoom -->
-
 1. Select the green checkbox and click **[!UICONTROL Save]**.
 
    The trigger that you set up appears as a blue button in the Fire On section.
 
 1. When complete, click **[!UICONTROL Save Tag]**.
-
-   ![Google Tag Manager - trigger setup success](./assets/gtm-create-adwords-tag7.png)<!-- zoom -->
 
 ### Step 3. Preview and publish
 

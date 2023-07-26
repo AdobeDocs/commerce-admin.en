@@ -20,7 +20,7 @@ Each condition consists of an attribute, value, and logical operator. Only attri
 >
 >Make sure to configure each attribute that is used in the rule as a [_smart_ attribute](smart-attributes-configure.md).
 
-![Category Product Rule](../catalog/assets/category-product-rule-with-stock.png)<!-- zoom -->
+![Category Product Rule](../catalog/assets/category-product-rule-with-stock.png){width="600" zoomable="yes"}
 
 Category product rules can speed up the process of assigning specific products to categories, based on conditions that determine which products appear in the category. The "smart" attributes that can be used with category product rules are specified in the [Visual Merchandiser](visual-merchandiser.md) configuration.
 
@@ -62,7 +62,7 @@ Category product rules can speed up the process of assigning specific products t
 
 1. Enter the **[!UICONTROL Value]** that is to be matched.
 
-   ![Add Condition to Category Rule](../catalog/assets/category-rule-create.png)<!-- zoom -->
+   ![Add Condition to Category Rule](../catalog/assets/category-rule-create.png){width="500"}
 
 1. Repeat this process for each attribute that is needed to describe the conditions to be met.
 
@@ -80,7 +80,7 @@ Category product rules can speed up the process of assigning specific products t
 
 1. To apply a sort order automatically to the dynamically generated product list, set **[!UICONTROL Automatic Sorting]**.
 
-   ![Automatic Sorting](./assets/automatic-sorting-field.png)<!-- zoom -->
+   ![Automatic Sorting](./assets/automatic-sorting-field.png){width="600" zoomable="yes"}
 
    Sorting is based on current conditions:
 
