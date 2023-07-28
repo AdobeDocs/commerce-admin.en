@@ -50,4 +50,4 @@ The scope of customer accounts can be limited to the website where the account w
 
 >[!NOTE]
 >
->When `Global` is selected the customer information in **My Account** (addresses, account information like contact details) is shared.
+>When `Global` is selected the customer information in **My Account** (addresses and account information such as contact details) is shared.
