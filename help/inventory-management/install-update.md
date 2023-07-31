@@ -111,9 +111,9 @@ When complete, the system provides a list of modules and values in `<Magento_ins
 
 >[!IMPORTANT]
 >
->It is highly recommended using the default [!DNL Inventory Management] modules. [!DNL CatalogInventory] module, which used instead of removed [!DNL Inventory Management] modules, is deprecated. Removing of [!DNL Inventory Management] modules may cause unstable system work and different issues.
+>Using the default [!DNL Inventory Management] modules is highly recommended. The alternative [!DNL CatalogInventory] module, which is used for systems with removed [!DNL Inventory Management] modules, is now deprecated. Removing the [!DNL Inventory Management] modules can cause an unstable system and result in various issues.
 
-If you choose not to use the Inventory Management functionality anyway, you can remove (uninstall) these modules. To remove all the modules through the composer file, add the following to `composer.json`.
+If you choose not to use the [!DNL Inventory Management] functionality, you can remove (uninstall) these modules. To remove all the modules through the composer file, add the following to `composer.json`:
 
 ```
 "replace": {
