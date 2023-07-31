@@ -244,9 +244,13 @@ Learn more about the `dynamicBlocks` GraphQL query in the [developer documentati
 
 Your mobile Commerce site can integrate with the Adobe Experience Platform Mobile SDK. To learn how to install and configure the SDK for your mobile Commerce site, see the [Experience Platform connector](https://experienceleague.adobe.com/docs/commerce-merchant-services/experience-platform-connector/fundamentals/mobile-sdk-epc.html) documentation.
 
+>[!IMPORTANT]
+>
+>The Adobe Experience Platform Mobile SDK for Commerce supports Mac iOS 14+ only.
+
 After you finish the installation and configuration, you can use the mobile SDK to retrieve Real-Time CDP audiences. For example:
 
-```javascript
+```swift
 Edge.sendEvent(experienceEvent: experienceEvent) { (handles: [EdgeEventHandle]) in
     for handle in handles {
         if handle.type == "activation:pull" {
