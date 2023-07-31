@@ -48,6 +48,6 @@ The scope of customer accounts can be limited to the website where the account w
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
->[!NOTE]
->
->When `Global` is selected the customer information in **My Account** (addresses and account information such as contact details) is shared.
+   >[!NOTE]
+   >
+   >When `Global` is selected the customer information in **My Account** (addresses and account information such as contact details) is shared.
