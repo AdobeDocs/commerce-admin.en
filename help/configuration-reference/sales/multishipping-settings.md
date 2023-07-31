@@ -8,7 +8,7 @@ feature: Configuration, Shipping/Delivery
 
 {{config}}
 
-For detailed information about configuring these multishipping settings for your store, see [Multiple addresses](../stores-purchase/shipping-settings.md#multiple-addresses).
+For detailed information about configuring these multishipping settings for your store, see [Multiple addresses](../../stores-purchase/shipping-settings.md#multiple-addresses).
 
 ## [!UICONTROL Options]
 
