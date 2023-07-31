@@ -85,7 +85,7 @@ For more information about configurations, see [Configure Inventory Management](
 
 >[!IMPORTANT]
 >
->It is highly recommended using the default [!DNL Inventory Management] modules. [!DNL CatalogInventory] module, which is used instead of disabled [!DNL Inventory Management] modules, is deprecated. Disabling of [!DNL Inventory Management] modules may cause unstable system work and different issues.
+>Using the default [!DNL Inventory Management] modules is highly recommended. The alternative [!DNL CatalogInventory] module, which is used for systems with disabled [!DNL Inventory Management] modules, is now deprecated. Disabling the [!DNL Inventory Management] modules can cause an unstable system and result in various issues.
 
 You may want to disable [!DNL Inventory Management] modules to:
 
