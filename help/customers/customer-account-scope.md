@@ -47,3 +47,7 @@ The scope of customer accounts can be limited to the website where the account w
    > If necessary, clear the **[!UICONTROL User system value]** checkbox to make the change.
 
 1. When complete, click **[!UICONTROL Save Config]**.
+
+   >[!NOTE]
+   >
+   >When `Global` is selected the customer information in **My Account** (addresses and account information such as contact details) is shared.
