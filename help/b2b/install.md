@@ -96,7 +96,7 @@ Prevent possible processing issues or delays by using the following parameters w
 
 You specify these parameters on the command line when you start the message consumers.
 
-For details, see [Message consumers configuration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) in the _Adobe Commerce Configuration Guide_.
+For information about additional configuration options, see [Specific-configuration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html#specific-configuration).
 
 ### Start message consumers
 
