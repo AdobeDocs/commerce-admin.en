@@ -90,9 +90,9 @@ The B2B for Adobe Commerce extension uses MySQL for message queue management. Th
 
 Prevent possible processing issues or delays by using the following parameters when you start the message consumers for B2B capabilities.
 
-- `--max-messages`—Specifies the maximum number of messages each consumer must process before terminating (default = 10000). Although we do not recommend it, you can use 0 to prevent the consumer from terminating. The best practice for a PHP application is to restart long-running processes to prevent possible memory leaks.
+- `--max-messages <value>`— Specifies the maximum number of messages each consumer must process before terminating (default = 10000). Although we do not recommend it, you can use 0 to prevent the consumer from terminating. The best practice for a PHP application is to restart long-running processes to prevent possible memory leaks.
 
-- `--batch-size`— Allows you to limit the system resources consumed by the consumers (CPU, memory). Using smaller batches reduces resource usage and, thus, leads to slower processing.  If specified, messages in a queue are consumed in batches of <value> each. This option is applicable for the batch consumer only. If `--batch-size` is not defined, the batch consumer receives all available messages in a queue.
+- `--batch-size <value>`— Allows you to limit the system resources consumed by the consumers (CPU, memory). Using smaller batches reduces resource usage and, thus, leads to slower processing.  If specified, messages in a queue are consumed in batches of `<value>` each. This option is applicable for the batch consumer only. If `--batch-size` is not defined, the batch consumer receives all available messages in a queue.
 
 You specify these parameters on the command line when you start the message consumers.
 
