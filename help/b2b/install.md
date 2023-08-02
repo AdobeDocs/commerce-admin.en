@@ -66,7 +66,7 @@ After completing the installation, configure and start message consumers, includ
 
 ## Message consumers
 
-The [!DNL B2B for Adobe Commerce] extension uses MySQL for message queue management. The following table lists the message consumers that support B2B capabilities. After you install the extension, start the message consumers for the B2B capabilities required for your Commerce storefront.
+The B2B for Adobe Commerce extension uses MySQL for message queue management. The following table lists the message consumers that support B2B capabilities. After you install the extension, start the message consumers for the B2B capabilities required for your Commerce storefront.
 
 | Consumer                                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -83,21 +83,24 @@ The [!DNL B2B for Adobe Commerce] extension uses MySQL for message queue managem
 {style="table-layout:auto"}
 
 >![NOTE]
->For details, see [Manage Message Consumers](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/consumers.html).
+>
+>For a list of all Adobe Commerce message consumers, see [Message queue consumers](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/consumers.html) in the _Configuration Guide_.
 
 ### Configure message consumers
 
-Prevent possible processing issues or delays by using the following parameters when you start the message consumers for B2B capabilities
+Prevent possible processing issues or delays by using the following parameters when you start the message consumers for B2B capabilities.
 
 - `--max-messages`—Specifies the maximum number of messages each consumer must process before terminating (default = 10000). Although we do not recommend it, you can use 0 to prevent the consumer from terminating. The best practice for a PHP application is to restart long-running processes to prevent possible memory leaks.
 
-- `--batch-size`— allows you to limit the system resources consumed by the consumers (CPU, memory). Using smaller batches reduces resource usage and, thus, leads to slower processing.
+- `--batch-size`— Allows you to limit the system resources consumed by the consumers (CPU, memory). Using smaller batches reduces resource usage and, thus, leads to slower processing.  If specified, messages in a queue are consumed in batches of <value> each. This option is applicable for the batch consumer only. If `--batch-size` is not defined, the batch consumer receives all available messages in a queue.
 
-You can specify these parameters on the command line when you start the message consumers, or add them to the project environment configuration file (`[/appetc/env.php](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html#specific-configuration)`).
+You specify these parameters on the command line when you start the message consumers.
 
 For details, see [Message consumers configuration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) in the _Adobe Commerce Configuration Guide_.
 
 ### Start message consumers
+
+To enable asynchronous operations for B2B capabilities, you must start multiple message consumers.
 
 1. List the available message consumers:
 
@@ -105,7 +108,7 @@ For details, see [Message consumers configuration](https://experienceleague.adob
    bin/magento queue:consumers:list
    ```
 
-   The command returns all available message consumers and should include the [B2B message consumers](#message-consumers).
+   The command returns available message consumers including all [B2B message consumers](#message-consumers).
 
 1. Start each consumer separately:
 
