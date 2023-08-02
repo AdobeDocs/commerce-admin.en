@@ -22,7 +22,7 @@ Install the most recent version of the B2B extension that is supported on the de
 
 ## Installation steps
 
-  Save authentication keys for installation by defining them globally in your [COMPOSER_HOME](https://getcomposer.org/doc/03-cli.md#composer-home) directory. Or, save them to an `[auth.json](https://developer.adobe.com/commerce/contributor/guides/install/clone-repository/#authentication-file)` file in the Adobe Commerce application root directory.
+1. From the Adobe Commerce application root directory, enter the following command to update your composer.json file and install the B2B for Adobe Commerce extension:
 
    ```bash
    composer require magento/extension-b2b:<version>
