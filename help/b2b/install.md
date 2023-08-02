@@ -82,7 +82,7 @@ The B2B for Adobe Commerce extension uses MySQL for message queue management. Th
 
 {style="table-layout:auto"}
 
->![NOTE]
+>[!NOTE]
 >
 >For a list of all Adobe Commerce message consumers, see [Message queue consumers](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/consumers.html) in the _Configuration Guide_.
 
