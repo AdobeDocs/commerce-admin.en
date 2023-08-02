@@ -16,7 +16,7 @@ These release notes for the Commerce Admin Unified Experience extension (`magent
 
 ## 1.0 release (beta)
 
-*TBD*
+*August 8, 2023*
 
 [!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce 2.4.5 and newer versions
 
