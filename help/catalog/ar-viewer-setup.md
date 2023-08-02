@@ -7,7 +7,7 @@ description: "Learn about managing 3D model assets using the [!DNL AR Viewer] ex
 
 For each product, you can upload a `.USDZ` file that allows for AR and 3D models to be used in your product listing.
 
-The [!DNL AR Viewer] only supports `.USDZ` files. See [[!DNL AR Viewer] requirements](../catalog/ar-viewer-requirements.md) for more information.
+The [!DNL AR Viewer] only supports `.USDZ` files.
 
 ## Install the extension
 
