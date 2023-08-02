@@ -22,7 +22,7 @@ Install the most recent version of the B2B extension that is supported on the de
 
 ## Installation steps
 
-1. From the Adobe Commerce installation directory, update your `composer.json` file and install the [!DNL B2B for Adobe Commerce] extension:
+  Save authentication keys for installation by defining them globally in your [COMPOSER_HOME](https://getcomposer.org/doc/03-cli.md#composer-home) directory. Or, save them to an `[auth.json](https://developer.adobe.com/commerce/contributor/guides/install/clone-repository/#authentication-file)` file in the Adobe Commerce application root directory.
 
    ```bash
    composer require magento/extension-b2b:<version>
