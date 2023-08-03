@@ -10,6 +10,8 @@ exl-id: a6947212-1708-40ae-9e81-874467eba5e1
 
 These installation instructions apply to Adobe Commerce deployed on premises. Installation instructions for projects deployed on cloud infrastructure are available in the [Commerce Cloud Infrastructure Guide](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html).
 
+The B2B for Adobe Commerce extension is only available for Adobe Commerce v2.2.0 or later. It is installed after installing Adobe Commerce.
+
 Install the most recent version of the B2B extension that is supported on the deployed Adobe Commerce version.
 
 ## Requirements
@@ -18,7 +20,13 @@ Install the most recent version of the B2B extension that is supported on the de
 - [Supported version of the B2B extension](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html#compatibility)
 - Valid [authentication keys](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) to download Adobe Commerce extensions.
 
-  Save authentication keys for installation by defining them globally in your [COMPOSER_HOME](https://getcomposer.org/doc/03-cli.md#composer-home) directory. Or, save them to an `[auth.json](https://developer.adobe.com/commerce/contributor/guides/install/clone-repository/#authentication-file))` file in the Adobe Commerce application root directory.
+  Save authentication keys for installation by defining them globally in your [COMPOSER_HOME](https://getcomposer.org/doc/03-cli.md#composer-home) directory. Or, save them to an [auth.json](https://developer.adobe.com/commerce/contributor/guides/install/clone-repository/#authentication-file) file in the Adobe Commerce application root directory.
+
+
+Before installing or upgrading the B2B extension, check the release notes for the most current information about version compatibility, updates, or changes that can affect installation or upgrade requirements.
+
+- [B2B Release Notes](release-notes.md)
+- [Adobe Commerce Release Notes](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html?lang=en)
 
 ## Installation steps
 
@@ -142,4 +150,4 @@ You can also configure schedules for message consumers from the [Store Configura
 
 ## Enable B2B features in the Admin
 
-After installing the B2B for Adobe Commerce extension and starting message consumers (if you want to enable the Shared Catalog feature), you must also [enable B2B features in the Admin](enable-basic-features.md).
+After installing the B2B for Adobe Commerce extension and starting message consumers,  you must also [enable B2B features in the Admin](enable-basic-features.md).
