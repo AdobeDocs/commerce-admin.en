@@ -236,17 +236,13 @@ The following query returns all dynamic blocks associated with multiple audience
 
 Learn more about the `dynamicBlocks` GraphQL query in the [developer documentation](https://developer.adobe.com/commerce/webapi/graphql/schema/store/queries/dynamic-blocks/).
 
->[!NOTE]
->
->An AEM storefront does not support dynamic blocks.
-
 ## Retrieve audiences using the Adobe Experience Platform Mobile SDK
 
 Your mobile Commerce site can integrate with the Adobe Experience Platform Mobile SDK. To learn how to install and configure the SDK for your mobile Commerce site, see the [Experience Platform connector](https://experienceleague.adobe.com/docs/commerce-merchant-services/experience-platform-connector/fundamentals/mobile-sdk-epc.html) documentation.
 
 >[!IMPORTANT]
 >
->The Adobe Experience Platform Mobile SDK for Commerce supports Mac iOS 14+ only.
+>The Adobe Experience Platform Mobile SDK for iOS supports iOS 11 or later.
 
 After you finish the installation and configuration, you can use the mobile SDK to retrieve Real-Time CDP audiences. For example:
 
@@ -275,3 +271,5 @@ Edge.sendEvent(experienceEvent: experienceEvent) { (handles: [EdgeEventHandle]) 
     }
 }
 ```
+
+You can now use that audience data in your Commerce app to [create cart price rules](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) and [dynamic blocks](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) informed by audiences.
