@@ -22,7 +22,6 @@ Install the most recent version of the B2B extension that is supported on the de
 
   Save authentication keys for installation by defining them globally in your [COMPOSER_HOME](https://getcomposer.org/doc/03-cli.md#composer-home) directory. Or, save them to an [auth.json](https://developer.adobe.com/commerce/contributor/guides/install/clone-repository/#authentication-file) file in the Adobe Commerce application root directory.
 
-
 Before installing or upgrading the B2B extension, check the release notes for the most current information about version compatibility, updates, or changes that can affect installation or upgrade requirements.
 
 - [B2B Release Notes](release-notes.md)
@@ -70,7 +69,7 @@ Before installing or upgrading the B2B extension, check the release notes for th
    >
    >In Production mode, you might receive a message to `Please rerun Magento compile command`. Enter the commands to complete the installation. Adobe Commerce does not prompt you to run the compile command in Developer mode.
 
-After completing the installation, configure and start message consumers, including [specifying parameters for message consumers](#specify-parameters-for-message-consumers).
+After completing the installation, configure and start message consumers, including [specifying parameters for message consumers](#configure-message-consumers).
 
 ## Message consumers
 
@@ -96,13 +95,11 @@ The B2B for Adobe Commerce extension uses MySQL for message queue management. Th
 
 ### Configure message consumers
 
-Prevent possible processing issues or delays by using the following parameters when you start the message consumers for B2B capabilities.
+Prevent possible processing issues or delays by adding the following parameters when you [start the message consumers](#start-message-consumers) for B2B capabilities.
 
 - `--max-messages <value>`— Specifies the maximum number of messages each consumer must process before terminating (default = 10000). Although we do not recommend it, you can use 0 to prevent the consumer from terminating. The best practice for a PHP application is to restart long-running processes to prevent possible memory leaks.
 
 - `--batch-size <value>`— Allows you to limit the system resources consumed by the consumers (CPU, memory). Using smaller batches reduces resource usage and, thus, leads to slower processing.  If specified, messages in a queue are consumed in batches of `<value>` each. This option is applicable for the batch consumer only. If `--batch-size` is not defined, the batch consumer receives all available messages in a queue.
-
-You specify these parameters on the command line when you start the message consumers.
 
 For information about additional configuration options, see [Specific-configuration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html#specific-configuration).
 
@@ -139,7 +136,7 @@ For more information, see [Manage message queues](https://experienceleague.adobe
 
 ### Add message consumers to cron
 
-You have the option to add the `SharedCatalogUpdateCategoryPermissions` and `SharedCatalogUpdatePrice` message consumers to the cron configuration file (`[/app/code/Magento/MessageQueue/etc/crontab.xml](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html#process-management)`) to automate the run schedule.
+You have the option to automate the run schedule for the `SharedCatalogUpdateCategoryPermissions` and `SharedCatalogUpdatePrice` message consumers by adding the schedule to the cron configuration file [/app/code/Magento/MessageQueue/etc/crontab.xml](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html#process-management).
 
 ```terminal
 * * * * * ps ax | grep [s]haredCatalogUpdateCategoryPermissions >>/dev/null 2>&1 || nohup php /var/www/html/magento2/bin/magento queue:consumers:start sharedCatalogUpdateCategoryPermissions &
@@ -150,4 +147,4 @@ You can also configure schedules for message consumers from the [Store Configura
 
 ## Enable B2B features in the Admin
 
-After installing the B2B for Adobe Commerce extension and starting message consumers,  you must also [enable B2B features in the Admin](enable-basic-features.md).
+After installing the B2B for Adobe Commerce extension and starting message consumers, you must also [enable B2B features in the Admin](enable-basic-features.md).
