@@ -29,7 +29,7 @@ Before installing or upgrading the B2B extension, check the release notes for th
 
 ## Installation steps
 
-1. From the Adobe Commerce application root directory, enter the following command to update your composer.json file and install the B2B for Adobe Commerce extension:
+1. From the Adobe Commerce application root directory, update the `composer.json` to add the dependencies for the B2B extension:
 
    ```bash
    composer require magento/extension-b2b:<version>
