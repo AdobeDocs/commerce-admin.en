@@ -73,7 +73,8 @@ Successfully install or upgrade to B2B version 1.4.0 on Adobe Commerce 2.4.6 and
 
 1. From the Adobe Commerce installation directory, update `composer.json` with the required dependencies:
 
-   ```terminal composer require magento/module-re-captcha-company=1.0.3-beta1@beta magento/  security-package-b2b=1.0.4-beta1@beta
+   ```terminal
+   composer require magento/module-re-captcha-company=1.0.3-beta1@beta magento/  security-package-b2b=1.0.4-beta1@beta
    ```
 
    **Command Output:**
