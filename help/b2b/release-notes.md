@@ -68,7 +68,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ### Workaround
 
-Successfully install or upgrade to B2B version 1.4.0 on Adobe Commerce 2.4.6 and 2.4.6-p1 by adding manual dependencies for the B2B security package with a [stability tag](https://getcomposer.org/doc/04-schema.md#package-links).
+Successfully install or upgrade to B2B version 1.4.0 on Adobe Commerce 2.4.6-p1 by adding manual dependencies for the B2B security package with a [stability tag](https://getcomposer.org/doc/04-schema.md#package-links).
 
 
 1. From the Adobe Commerce installation directory, update `composer.json` with the required dependencies:
