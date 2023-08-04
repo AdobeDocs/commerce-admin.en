@@ -20,7 +20,7 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 
 *June 13, 2023*
 
-[!BADGE Compatibility]{type=Informative tooltip="Supported"} Supported on Adobe Commerce 2.4.6 and available 2.4.6 [security patch releases](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html).
+[!BADGE Compatibility]{type=Informative tooltip="Supported"} Supported on [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html).
 
 This release includes new capabilities and enhancements for B2B negotiable quotes and multiple bug fixes.
 
