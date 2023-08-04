@@ -350,7 +350,7 @@ The _Stock Status_ of the configurable product is partially controlled by the St
 
 >[!NOTE]
 >
->Stocks and sources are parts of the [Inventory Management](../inventory-management/sources-stocks.md) tool.
+>Stocks and sources are parts of the [Inventory Management](../inventory-management/sources-stocks.md) tool. It is highly recommended using custom sources and stocks only. Default source and stock is a part of [!UICONTROL CatalogInventory] module, which is deprecated.
 
 #### With at least one custom source/stock:
 
