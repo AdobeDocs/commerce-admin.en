@@ -16,9 +16,9 @@ When you install Magento Open Source 2.4.x or Adobe Commerce 2.4.x, the followin
 
 - A [Default Source](sources-manage.md) and [Default Stock](stocks-manage.md) add to the system. Do not disable or remove these defaults. [!DNL Commerce] assigns existing and newly imported products to these defaults.
 
->[!IMPORTANT]
->
->It is advised against using the Default Stock and the Default Source as they are a part of the [!DNL CatalogInventory] module, which is now deprecated. It is recommended to create and use a custom stock and a source instead. 
+   >[!IMPORTANT]
+   >
+   >Using the Default Stock and the Default Source is highly discouraged because they are a part of the `CatalogInventory` module, which is now deprecated. It is recommended that you create and use a custom stocks and sources instead.
 
   - Stocks provide an aggregated, virtual Salable Quantity with reservations to track shopping carts and orders, ensuring concurrent checkout.
 
