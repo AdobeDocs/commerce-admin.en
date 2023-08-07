@@ -48,13 +48,6 @@ This release includes new capabilities and enhancements for B2B negotiable quote
 
 ![New](../assets/new.svg) **Line item discounts and negotiation**—<!--B2B-2440--> Within a quote, B2B buyers and sellers can now negotiate at the line item level, applying discounts and exchanging notes until an agreement is reached. Note creation and updates are included in the line item and quote history to track communication. Previously, buyers and sellers could only exchange notes and apply discounts at the quote level.
 
-![New](../assets/new.svg) **Improved Quote Detail view**—Sellers and buyers can now complete the following actions:
-
-- add items to a quote by SKU or from the product catalog
-- add or edit notes
-- apply line items discounts
-- access product configuration directly from the quote detail page
-
 ![Fixed issue](../assets/fix.svg) Adobe Commerce now displays correct details during payment when the Purchase Orders option is enabled and a virtual quote that was created with the PayPal payment option has been selected. Previously, totals were displayed as zero under these conditions.
 
 ![Fixed issue](../assets/fix.svg) <!--ACP2E-1504--> Validation errors no longer occur when you try to save a company with a credit limit that exceeds 999. Previously, for company credit limits greater than 999, Adobe commerce inserted a comma separator, which caused a validation error that prevented updates from being saved.
