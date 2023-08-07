@@ -76,7 +76,7 @@ The following tasks apply to both Luma and headless storefront implementations. 
 
 ### Install the extension
 
-You can install the [!DNL Audience Activation] extension from the [marketplace](https://commercemarketplace.adobe.com/magento-audiences.html) or you can run the following command:
+Install the [!DNL Audience Activation] extension from the [marketplace](https://commercemarketplace.adobe.com/magento-audiences.html), or run the following command:
 
    ```bash
    composer require magento/audiences
@@ -244,7 +244,7 @@ Your mobile Commerce site can integrate with the Adobe Experience Platform Mobil
 >
 >The Adobe Experience Platform Mobile SDK for iOS supports iOS 11 or later.
 
-After you finish the installation and configuration, you can use the mobile SDK to retrieve Real-Time CDP audiences. For example:
+After you complete the configuration, use mobile SDK operations to retrieve the audience data. For example:
 
 ```swift
 Edge.sendEvent(experienceEvent: experienceEvent) { (handles: [EdgeEventHandle]) in
