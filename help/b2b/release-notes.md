@@ -20,7 +20,7 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 
 *August 7, 2023*
 
-[!BADGE Compatibility]{type=Informative tooltip="Supported Versions"} Supported on Adobe Commerce 2.4.6. Compatible with 2.4.7-beta1.
+[!BADGE Compatibility]{type=Informative tooltip="Supported Versions"} Supported on Adobe Commerce 2.4.6. Compatible with Adobe Commerce 2.4.7-beta1.
 
 The B2B v1.4.1 release includes quality improvements and bug fixes.
 
@@ -38,7 +38,7 @@ The B2B v1.4.1 release includes quality improvements and bug fixes.
 
 *June 13, 2023*
 
-[!BADGE Compatibility]{type=Informative tooltip="Supported"} Supported on Adobe Commerce 2.4.6 and available 2.4.6 [security patch releases](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html).
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Supported on Adobe Commerce 2.4.6 and available 2.4.6 [security patch releases](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Compatibile with Adobe Commerce 2.4.7-beta1
 
 This release includes new capabilities and enhancements for B2B negotiable quotes and multiple bug fixes.
 
@@ -78,13 +78,12 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ### Workaround
 
-Successfully install or upgrade to B2B version 1.4.0 on Adobe Commerce 2.4.6 and 2.4.6-p1 by adding manual dependencies for the B2B security package with a [stability tag](https://getcomposer.org/doc/04-schema.md#package-links).
-
+Successfully install or upgrade to B2B version 1.4.0 on Adobe Commerce 2.4.6-p1 by adding manual dependencies for the B2B security package with a [stability tag](https://getcomposer.org/doc/04-schema.md#package-links).
 
 1. From the Adobe Commerce installation directory, update `composer.json` with the required dependencies:
 
    ```terminal
-   composer require magento/module-re-captcha-company=1.0.3-beta1@beta magento/  security-package-b2b=1.0.4-beta1@beta
+   composer require magento/module-re-captcha-company=1.0.3-beta1@beta magento/security-package-b2b=1.0.4-beta1@beta
    ```
 
    **Command Output:**

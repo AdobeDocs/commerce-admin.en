@@ -8,11 +8,13 @@ exl-id: a6947212-1708-40ae-9e81-874467eba5e1
 
 # Install the [!DNL B2B for Adobe Commerce] extension
 
-These installation instructions apply to Adobe Commerce deployed on premises. Installation instructions for projects deployed on cloud infrastructure are available in the [Commerce Cloud Infrastructure Guide](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html).
-
 The B2B for Adobe Commerce extension is only available for Adobe Commerce v2.2.0 or later. It is installed after installing Adobe Commerce.
 
 Install the most recent version of the B2B extension that is supported on the deployed Adobe Commerce version.
+
+>[!NOTE]
+>
+>These installation instructions apply to Adobe Commerce deployed on premises. To install the B2B extension for Commerce projects deployed on cloud infrastructure, see the [Commerce Cloud Infrastructure Guide](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html).
 
 ## Requirements
 
