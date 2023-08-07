@@ -14,13 +14,31 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 
 >[!NOTE]
 >
->See [Product availability](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) for detailed information about the release status of B2B Commerce extension versions relative to Adobe Commerce.
+>See [Product availability](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) for information about versions of the B2B Commerce extension supported for available Adobe Commerce releases.
+
+## B2B v1.4.1
+
+*August 7, 2023*
+
+[!BADGE Compatibility]{type=Informative tooltip="Supported Versions"} Supported on Adobe Commerce 2.4.6. Compatible with Adobe Commerce 2.4.7-beta1.
+
+The B2B v1.4.1 release includes quality improvements and bug fixes.
+
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1825-->Purchase orders can no longer be placed by a user associated with the company after the company has been blocked. Previously, a user associated with the company could place purchase orders when the company was blocked.
+
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1943-->Product backordered status is now displayed correctly on the storefront. Previously, products that were available for shipment were incorrectly identified as backordered.
+
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1862-->If the company registration form includes a customer file type attribute, the file uploaded during the registration process is now included in the account information for the Company Administrator after the company is created. Previously, the attachment was missing.
+
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1793-->The swatch selector for a configurable product is now displayed as expected in the requisition list item configuration page. Previously, the swatch selector was displayed as a dropdown field in the requisition list item configuration page.
+
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1968-->When using the [Company GraphQL query](https://developer.adobe.com/commerce/webapi/graphql/schema/b2b/company/queries/company/#return-the-company-structure) to return company details, results are now returned successfully without error.
 
 ## B2B v1.4.0
 
 *June 13, 2023*
 
-[!BADGE Compatibility]{type=Informative tooltip="Supported"} Supported on [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html).
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Supported on Adobe Commerce 2.4.6 and available 2.4.6 [security patch releases](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Compatibile with Adobe Commerce 2.4.7-beta1
 
 This release includes new capabilities and enhancements for B2B negotiable quotes and multiple bug fixes.
 
@@ -29,7 +47,6 @@ This release includes new capabilities and enhancements for B2B negotiable quote
 ![New](../assets/new.svg) **Seller initiated quotes**—Sellers can now initiate a quote for a buyer directly from the Quote and Customer grids in the Admin. This capability streamlines the quote process and reduces complexity for customers. If a customer has not initiated an order, a seller can quickly create a quote on behalf of the customer and start the negotiation process. Previously, quotes could only be created from the storefront by the buyer, or by a seller logged in as the customer.
 
 ![New](../assets/new.svg) **Line item discounts and negotiation**—<!--B2B-2440--> Within a quote, B2B buyers and sellers can now negotiate at the line item level, applying discounts and exchanging notes until an agreement is reached. Note creation and updates are included in the line item and quote history to track communication. Previously, buyers and sellers could only exchange notes and apply discounts at the quote level.
-
 
 ![Fixed issue](../assets/fix.svg) Adobe Commerce now displays correct details during payment when the Purchase Orders option is enabled and a virtual quote that was created with the PayPal payment option has been selected. Previously, totals were displayed as zero under these conditions.
 
@@ -56,14 +73,12 @@ Your requirements could not be resolved to an installable set of packages.
     - Root composer.json requires magento/extension-b2b 1.4.0 -> satisfiable by magento/extension-b2b[1.4.0].
     - magento/extension-b2b 1.4.0 requires magento/security-package-b2b 1.0.4-beta1 -> found magento/security-package-b2b[1.0.4-beta1] but it does not match your minimum-stability.
 
-
 Installation failed, reverting ./composer.json and ./composer.lock to their original content.
 ```
 
 ### Workaround
 
 Successfully install or upgrade to B2B version 1.4.0 on Adobe Commerce 2.4.6-p1 by adding manual dependencies for the B2B security package with a [stability tag](https://getcomposer.org/doc/04-schema.md#package-links).
-
 
 1. From the Adobe Commerce installation directory, update `composer.json` with the required dependencies:
 
