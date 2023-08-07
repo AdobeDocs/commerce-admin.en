@@ -20,7 +20,7 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 
 *August 7, 2023*
 
-[!BADGE Compatibility]{type=Informative tooltip="Supported Versions"} Adobe Commerce 2.4.6
+[!BADGE Compatibility]{type=Informative tooltip="Supported Versions"} Supported on Adobe Commerce 2.4.6. Compatible with 2.4.7-beta1.
 
 The B2B v1.4.1 release includes quality improvements and bug fixes.
 
