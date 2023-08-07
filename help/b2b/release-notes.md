@@ -20,17 +20,16 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 
 *June 13, 2023*
 
-[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce 2.4.0 and newer versions
+[!BADGE Compatibility]{type=Informative tooltip="Supported"} Supported on [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html).
 
 This release includes new capabilities and enhancements for B2B negotiable quotes and multiple bug fixes.
 
-![New](../assets/new.svg) Added support for Adobe Commerce 2.4.7-beta1
+![New](../assets/new.svg) B2B v1.4.0 is compatible with Adobe Commerce 2.4.7-beta1.
 
 ![New](../assets/new.svg) **Seller initiated quotes**—Sellers can now initiate a quote for a buyer directly from the Quote and Customer grids in the Admin. This capability streamlines the quote process and reduces complexity for customers. If a customer has not initiated an order, a seller can quickly create a quote on behalf of the customer and start the negotiation process. Previously, quotes could only be created from the storefront by the buyer, or by a seller logged in as the customer.
 
 ![New](../assets/new.svg) **Line item discounts and negotiation**—<!--B2B-2440--> Within a quote, B2B buyers and sellers can now negotiate at the line item level, applying discounts and exchanging notes until an agreement is reached. Note creation and updates are included in the line item and quote history to track communication. Previously, buyers and sellers could only exchange notes and apply discounts at the quote level.
 
-![New](../assets/new.svg) **Improved Quote Detail view**—Sellers and buyers can now add items to a quote by SKU or from the product catalog, add or edit notes, apply line items discounts, and access product configuration directly from the quote detail page.
 
 ![Fixed issue](../assets/fix.svg) Adobe Commerce now displays correct details during payment when the Purchase Orders option is enabled and a virtual quote that was created with the PayPal payment option has been selected. Previously, totals were displayed as zero under these conditions.
 
@@ -38,13 +37,87 @@ This release includes new capabilities and enhancements for B2B negotiable quote
 
 ![Fixed issue](../assets/fix.svg) <!--ACP2E-1474-->  The selected shipping address now remains unchanged when you place an order with a negotiable quote. Previously, when you placed an order, the selected shipping address was changed to the default shipping address.
 
-![Fixed issue](../assets/fix.svg) <!--ACP2E-1429--> In the Store Configuration settings for B2B Features, the **[!UICONTROL Enable Shared Catalog direct products price assigning]** field is now disabled automatically and hidden on the storefront when the **[!UICONTROL Enable Company]** setting or **[!UICONTROL Enable Shared Catalog]** setting is set to **[!UICONTROL No]**.
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1429--> In the Store Configuration settings for B2B Features, the **[!UICONTROL Enable Shared Catalog direct products price assigning]** field is now disabled automatically. On the storefront, it is hidden when the **[!UICONTROL Enable Company]** setting or **[!UICONTROL Enable Shared Catalog]** setting is set to **[!UICONTROL No]**.
 
 ![Fixed issue](../assets/fix.svg) <!--ACP2E-1683--> When creating a company account from the storefront, Commerce now validates the email address before processing the company registration. If the email address is invalid, the operation fails and no account updates are processed. Previously, a customer account was created even if the request to create a company account failed because of an invalid email address.
 
 ![Fixed issue](../assets/fix.svg) <!--ACP2E-1664--> Product SKUs that include double quotation marks in the Shared Catalog and pricing structure no longer cause errors in the Admin.
 
 ![Fixed issue](../assets/fix.svg) <!--ACP2E-1498--> Updated the Varnish configuration for the Commerce application to prevent Guest users from seeing data from other customer groups.
+
+### Known issue
+
+If you install or upgrade B2B 1.4.0 on [Adobe Commerce version 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html), the following error occurs:
+
+```terminal
+Your requirements could not be resolved to an installable set of packages.
+
+  Problem 1
+    - Root composer.json requires magento/extension-b2b 1.4.0 -> satisfiable by magento/extension-b2b[1.4.0].
+    - magento/extension-b2b 1.4.0 requires magento/security-package-b2b 1.0.4-beta1 -> found magento/security-package-b2b[1.0.4-beta1] but it does not match your minimum-stability.
+
+
+Installation failed, reverting ./composer.json and ./composer.lock to their original content.
+```
+
+### Workaround
+
+Successfully install or upgrade to B2B version 1.4.0 on Adobe Commerce 2.4.6-p1 by adding manual dependencies for the B2B security package with a [stability tag](https://getcomposer.org/doc/04-schema.md#package-links).
+
+
+1. From the Adobe Commerce installation directory, update `composer.json` with the required dependencies:
+
+   ```terminal
+   composer require magento/module-re-captcha-company=1.0.3-beta1@beta magento/security-package-b2b=1.0.4-beta1@beta
+   ```
+
+   **Command Output:**
+
+   ```terminal
+   Running composer update magento/module-re-captcha-company magento/security-package-b2b
+   Loading composer repositories with package information
+   Updating dependencies
+   Lock file operations: 2 installs, 0 updates, 0 removals
+     - Locking magento/module-re-captcha-company (1.0.3-beta1)
+     - Locking magento/security-package-b2b (1.0.4-beta1)
+   Writing lock file
+   Installing dependencies from lock file (including require-dev)
+   Package operations: 2 installs, 0 updates, 0 removals
+     - Downloading magento/module-re-captcha-company (1.0.3-beta1)
+     - Installing magento/module-re-captcha-company (1.0.3-beta1): Extracting archive
+     - Installing magento/security-package-b2b (1.0.4-beta1)
+   1 package suggestions were added by new dependencies, use `composer suggest` to see details.
+   Package sebastian/phpcpd is abandoned, you should avoid using it. No replacement was suggested.
+   Generating autoload files
+   132 packages you are using are looking for funding.
+   Use the `composer fund` command to find out more!
+   No security vulnerability advisories found
+   ```
+
+1. Update `composer.json` to add B2B version 1.4.0.
+
+   ```terminal
+   composer require magento/extension-b2b=1.4.0
+   ```
+
+   **Command output**
+
+   ```terminal
+   ./composer.json has been updated
+   Running composer update magento/extension-b2b
+   Loading composer repositories with package information
+   Updating dependencies
+   ...
+   Generating autoload files
+   132 packages you are using are looking for funding.
+   Use the `composer fund` command to find out more!
+   No security vulnerability advisories found
+   ```
+
+1. Complete the installation or upgrade process.
+
+   - [Install B2B on cloud infrastructure](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html)
+   - [Install on premises](install.md)
 
 ## B2B v1.3.5
 
