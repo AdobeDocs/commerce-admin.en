@@ -1,57 +1,53 @@
 ---
 title: Install the [!DNL B2B for Adobe Commerce] extension
 description: Learn how to install the [!DNL B2B for Adobe Commerce] metapackage.
-exl-id: a6947212-1708-40ae-9e81-874467eba5e1
 feature: B2B, Install
 role: Admin, Developer
+exl-id: a6947212-1708-40ae-9e81-874467eba5e1
 ---
+
 # Install the [!DNL B2B for Adobe Commerce] extension
 
 The B2B for Adobe Commerce extension is only available for Adobe Commerce v2.2.0 or later. It is installed after installing Adobe Commerce.
+
+Install the most recent version of the B2B extension that is supported on the deployed Adobe Commerce version.
+
+>[!NOTE]
+>
+>These installation instructions apply to Adobe Commerce deployed on premises. To install the B2B extension for Commerce projects deployed on cloud infrastructure, see the [Commerce Cloud Infrastructure Guide](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html).
+
+## Requirements
+
+- Adobe Commerce version 2.3.x or later
+- [Supported version of the B2B extension](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html#compatibility)
+- Valid [authentication keys](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) to download Adobe Commerce extensions.
+
+  Save authentication keys for installation by defining them globally in your [COMPOSER_HOME](https://getcomposer.org/doc/03-cli.md#composer-home) directory. Or, save them to an [auth.json](https://developer.adobe.com/commerce/contributor/guides/install/clone-repository/#authentication-file) file in the Adobe Commerce application root directory.
 
 Before installing or upgrading the B2B extension, check the release notes for the most current information about version compatibility, updates, or changes that can affect installation or upgrade requirements.
 
 - [B2B Release Notes](release-notes.md)
 - [Adobe Commerce Release Notes](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html?lang=en)
 
->[!NOTE]
->
->For Adobe Commerce on cloud infrastructure projects, see [Enable the B2B module](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html) in the _Commerce on Cloud Infrastructure Guide_.
+## Installation steps
 
-1. Change to your Adobe Commerce installation directory and enter the following command to update your `composer.json` file and install the [!DNL B2B for Adobe Commerce] extension:
+1. From the Adobe Commerce application root directory, update the `composer.json` to add the dependencies for the B2B extension:
 
    ```bash
    composer require magento/extension-b2b:<version>
    ```
 
-   >[!NOTE]
-   >
-   >The [Compatible B2B extension version](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html#compatibility) must be specified in the command, which can be found in the left column of the [compatibility table](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html#compatibility).
-
-   If you get an error when trying to install the B2B extension for a local instance of Adobe Commerce for example:
+   If an error occurs, for example:
 
    ```terminal
    [InvalidArgumentException] Could not find a matching version of package magento/extension-b2b.
    ```
 
-   Check the package spelling, your version constraint, and that the package is available and matches your minimum-stability (stable).
+   Check the package spelling, your version constraint, and that the package is available and matches your minimum-stability (stable) requirement.
 
-   If not already defined globally in your [COMPOSER_HOME](https://getcomposer.org/doc/03-cli.md#composer-home), you must create an `auth.json` file in the root directory and add the following code, using the actual values of your `public_key` and `private_key` for `username` and `password`:
+1. If prompted, enter your [authentication keys](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
 
-   ```json
-   {
-      "http-basic": {
-         "repo.magento.com": {
-            "username": "<public_key>",
-            "password": "<private_key>"
-         }
-      }
-   }
-   ```
-
-1. When prompted, enter your [authentication keys](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
-
-   Your _public key_ is your username; your _private key_ is your password. If you have stored your public and private keys in `auth.json`, you aren't asked to enter them here.
+   Your _public key_ is your username; your _private key_ is your password. If you have stored your public and private keys in `auth.json`, you are not prompted to authenticate.
 
 1. Run the following commands after Composer finishes updating modules:
 
@@ -71,17 +67,15 @@ Before installing or upgrading the B2B extension, check the release notes for th
    bin/magento cache:clean
    ```
 
->[!NOTE]
->
->In Production mode, you may receive a message to `Please rerun Magento compile command`. Enter the commands. Adobe Commerce does not prompt you to run the compile command in Developer mode.
+   >[!NOTE]
+   >
+   >In Production mode, you might receive a message to `Please rerun Magento compile command`. Enter the commands to complete the installation. Adobe Commerce does not prompt you to run the compile command in Developer mode.
 
->[!IMPORTANT]
->
->After completing the installation, you must follow the [post-installation steps](#specify-parameters-for-message-consumers).
+After completing the installation, configure and start message consumers, including [specifying parameters for message consumers](#configure-message-consumers).
 
 ## Message consumers
 
-The [!DNL B2B for Adobe Commerce] extension uses MySQL for message queue management. Start the corresponding message consumers for the needed B2B features after installation.
+The B2B for Adobe Commerce extension uses MySQL for message queue management. The following table lists the message consumers that support B2B capabilities. After you install the extension, start the message consumers for the B2B capabilities required for your Commerce storefront.
 
 | Consumer                                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -97,7 +91,23 @@ The [!DNL B2B for Adobe Commerce] extension uses MySQL for message queue managem
 
 {style="table-layout:auto"}
 
+>[!NOTE]
+>
+>For a list of all Adobe Commerce message consumers, see [Message queue consumers](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/consumers.html) in the _Configuration Guide_.
+
+### Configure message consumers
+
+Prevent possible processing issues or delays by adding the following parameters when you [start the message consumers](#start-message-consumers) for B2B capabilities.
+
+- `--max-messages <value>`— Specifies the maximum number of messages each consumer must process before terminating (default = 10000). Although we do not recommend it, you can use 0 to prevent the consumer from terminating. The best practice for a PHP application is to restart long-running processes to prevent possible memory leaks.
+
+- `--batch-size <value>`— Allows you to limit the system resources consumed by the consumers (CPU, memory). Using smaller batches reduces resource usage and, thus, leads to slower processing.  If specified, messages in a queue are consumed in batches of `<value>` each. This option is applicable for the batch consumer only. If `--batch-size` is not defined, the batch consumer receives all available messages in a queue.
+
+For information about additional configuration options, see [Specific-configuration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html#specific-configuration).
+
 ### Start message consumers
+
+To enable asynchronous operations for B2B capabilities, you must start multiple message consumers.
 
 1. List the available message consumers:
 
@@ -105,51 +115,38 @@ The [!DNL B2B for Adobe Commerce] extension uses MySQL for message queue managem
    bin/magento queue:consumers:list
    ```
 
-   You should see the following consumers:
-
-   ```terminal
-   sharedCatalogUpdatePrice
-   sharedCatalogUpdateCategoryPermissions
-   quoteItemCleaner
-   inventoryQtyCounter
-   async.operations.all
-   ```
+   The command returns available message consumers including all [B2B message consumers](#message-consumers).
 
 1. Start each consumer separately:
 
    ```bash
-   bin/magento queue:consumers:start <consumer_name>
+   bin/magento queue:consumers:start [--max-messages=<value>] [--batch-size=<value>] <consumer_name>
+
    ```
 
    For example:
 
    ```bash
-   bin/magento queue:consumers:start sharedCatalogUpdatePrice
+   bin/magento queue:consumers:start quoteItemCleaner
    ```
 
 >[!TIP]
 >
 >To run it in the background, append `&` to the command, return to a prompt, and continue running commands. For example: `bin/magento queue:consumers:start sharedCatalogUpdatePrice &`.
 
-Refer to [Manage message queues](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) in the _Configuration Guide_ for more information.
+For more information, see [Manage message queues](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) in the _Configuration Guide_.
 
 ### Add message consumers to cron
 
-You can also add these two message consumers to the cron job (optional) by adding the following lines in your `crontab`:
+You have the option to automate the run schedule for the `SharedCatalogUpdateCategoryPermissions` and `SharedCatalogUpdatePrice` message consumers by adding the schedule to the cron configuration file [/app/code/Magento/MessageQueue/etc/crontab.xml](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html#process-management).
 
 ```terminal
 * * * * * ps ax | grep [s]haredCatalogUpdateCategoryPermissions >>/dev/null 2>&1 || nohup php /var/www/html/magento2/bin/magento queue:consumers:start sharedCatalogUpdateCategoryPermissions &
 * * * * * ps ax | grep [s]haredCatalogUpdatePrice >>/dev/null 2>&1 || nohup php /var/www/html/magento2/bin/magento queue:consumers:start sharedCatalogUpdatePrice &
 ```
 
-### Specify parameters for message consumers
-
-Depending on your system configuration, to prevent possible issues, specify the following parameters when starting the services:
-
-- `--max-messages`: manages the consumer's lifetime and allows you to specify the maximum number of messages processed by the consumer. The best practice for a PHP application is to restart long-running processes to prevent possible memory leaks.
-
-- `--batch-size`: allows you to limit the system resources consumed by the consumers (CPU, memory). Using smaller batches reduces resource usage and, thus, leads to slower processing.
+You can also configure schedules for message consumers from the [Store Configuration settings](../systems/cron.md) in the Admin.
 
 ## Enable B2B features in the Admin
 
-After installing the B2B for Adobe Commerce extension and starting message consumers (if you want to enable the Shared Catalog feature), you must also [enable B2B features in the Admin](enable-basic-features.md).
+After installing the B2B for Adobe Commerce extension and starting message consumers, you must also [enable B2B features in the Admin](enable-basic-features.md).
