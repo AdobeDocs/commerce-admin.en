@@ -125,12 +125,13 @@ To access the **Real-Time CDP Audiences** dashboard, go to the _Admin_ sidebar, 
 
 |Column|Description|
 |--- |--- |
-|`Search Filter`|Section that lets you specify the search criteria. You can search by `Audience` or `Last Modified`. If you do not select any criteria or you select all criteria, all audiences are searched.|
-|`Search`|Lets you search for active audiences in your Commerce instance. |
-|`Audience`|Name given to the audience in Real-Time CDP.|
-|`Last Modified`|Indicates when the audience was modified in Real-Time CDP.|
+|`Hide filters`|Lets you show or hide any filters that you can apply to the dashboard. Currently, the only filter you can apply is `Last updated`. This filter lets you select a date range for audiences based on when they were last updated.|
+|`Search`|Lets you search for active audiences in your Commerce instance.|
+|`Name`|Name given to the audience in Real-Time CDP.|
 |`Origin`|Indicates where the audience came from, such as `Experience Platform`.|
+|`Last updated`|Indicates when the audience was modified in Real-Time CDP.|
 |`Sync now`|Retrieves new or updated audiences from Real-Time CDP.|
+|`Customize table`| Lets you show or hide the `Origin` and `Last updated` columns.|
 
 {style="table-layout:auto"}
 
