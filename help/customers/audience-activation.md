@@ -76,7 +76,7 @@ The following tasks apply to both Luma and headless storefront implementations. 
 
 ### Install the extension
 
-You can install the [!DNL Audience Activation] extension from the [marketplace](https://marketplace.magento.com/magento-audiences.html) or you can run the following command:
+Install the [!DNL Audience Activation] extension from the [marketplace](https://commercemarketplace.adobe.com/magento-audiences.html), or run the following command:
 
    ```bash
    composer require magento/audiences
@@ -236,6 +236,40 @@ The following query returns all dynamic blocks associated with multiple audience
 
 Learn more about the `dynamicBlocks` GraphQL query in the [developer documentation](https://developer.adobe.com/commerce/webapi/graphql/schema/store/queries/dynamic-blocks/).
 
->[!NOTE]
+## Retrieve audiences using the Adobe Experience Platform Mobile SDK
+
+Before you can retrieve Real-Time CDP audiences using the Adobe Experience Platform Mobile SDK, you must [install and configure the SDK for your mobile Commerce site](https://experienceleague.adobe.com/docs/commerce-merchant-services/experience-platform-connector/fundamentals/mobile-sdk-epc.html).
+
+>[!IMPORTANT]
 >
->An AEM storefront does not support dynamic blocks.
+>The Adobe Experience Platform Mobile SDK for iOS supports iOS 11 or later.
+
+After you complete the configuration, use mobile SDK operations to retrieve the audience data. For example:
+
+```swift
+Edge.sendEvent(experienceEvent: experienceEvent) { (handles: [EdgeEventHandle]) in
+    for handle in handles {
+        if handle.type == "activation:pull" {
+        let payloadItems = handle.payload ?? []
+            for payloadItem in payloadItems {
+                if let segments = payloadItem["segments"] as? any Sequence {
+                    var segmentsArr = [Any]()
+                    for segment in segments {
+                        let response = segment as AnyObject?
+                        segmentsArr.append(response?.object(forKey: "id")! ?? "")
+                    }
+                    print("Saving segments ->  \(segments)")
+                    storage.set(segmentsArr, forKey: "segments")
+                    print("End saving segments")
+                }
+         
+                // Show segments
+                let rSegments = storage.object(forKey: "segments") ?? nil;
+                print("Retrieving segments -> \(rSegments)")
+            }
+        }
+    }
+}
+```
+
+After data is retrieved, you can use it to create audience-informed [cart price rules](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) and [dynamic blocks](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) in the Commerce app.
