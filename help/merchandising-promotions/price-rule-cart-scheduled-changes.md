@@ -10,7 +10,7 @@ feature: Merchandising, Price Rules, Shopping Cart
 
 Cart price rules can be applied on schedule as part of a campaign and grouped with other content changes. You can create a campaign based on scheduled changes to a price rule, or apply the changes to an existing campaign.
 
-![Cart price rules - scheduled changes](./assets/content-staging-price-rules-cart-scheduled-changes.png)<!-- zoom -->
+![Cart price rules - scheduled changes](./assets/content-staging-price-rules-cart-scheduled-changes.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >

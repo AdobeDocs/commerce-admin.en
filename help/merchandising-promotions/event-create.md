@@ -10,7 +10,7 @@ feature: Marketing Tools, Promotions/Events
 
 Each event is associated with a category from your catalog, and only one event can be associated with any given category at a time. To display a list of upcoming events in your store, you must also set up a [Catalog Events Carousel](../content-design/widget-event-carousel.md) widget.
 
-![Events list](./assets/category-events.png)<!-- zoom -->
+![Events list](./assets/category-events.png){width="700" zoomable="yes"}
 
 ## Create an event
 
@@ -22,11 +22,11 @@ Each event is associated with a category from your catalog, and only one event c
 
    Because each category can have only one event at a time, any categories that already have an event are disabled.
 
-   ![New event - category tree](./assets/catalog-events-category-tree.png)<!-- zoom -->
+   ![New event - category tree](./assets/catalog-events-category-tree.png){width="500" zoomable="yes"}
 
 1. Define the **[!UICONTROL Catalog Event Information]**:
 
-   ![Catalog event information](./assets/catalog-event-information.png)<!-- zoom -->
+   ![Catalog event information](./assets/catalog-event-information.png){width="700" zoomable="yes"}
 
    - For the **[!UICONTROL Start Date]** of the event, use the calendar (![Calendar icon](../assets/icon-calendar.png)) to choose the date. Use the **[!UICONTROL Hour]** and **[!UICONTROL Minute]** sliders to set the time that the event begins.
 

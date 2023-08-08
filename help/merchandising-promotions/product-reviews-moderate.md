@@ -42,7 +42,7 @@ To view all reviews for a specific product in the Admin, do the following:
 
    To change the store view where a review is available, choose the needed store view in the _[!UICONTROL Visibility]_ column.
 
-   ![Edit review page](./assets/edit-review-page.png)<!-- zoom -->
+   ![Edit review page](./assets/edit-review-page.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Review]**.
 

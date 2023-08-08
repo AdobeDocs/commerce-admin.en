@@ -18,7 +18,7 @@ The following example shows how to set up an A/B test of products, categories, o
 
 1. Follow the instructions to enable [Google Analytics](google-analytics.md) with Content Experiments in the Commerce configuration.
 
-   ![Sales configuration - Google Analytics](./assets/google-analytics-experiments.png)<!-- zoom -->
+   ![Sales configuration - Google API - Google Analytics](../configuration-reference/sales/assets/google-api-analytics-ee.png){width="600" zoomable="yes"}
 
 ## Step 2. Set up the variations (Commerce)
 
@@ -57,8 +57,6 @@ You can create up to ten variations of each entity that you want to test. For pr
 
    - When complete, click **[!UICONTROL Create View]** and then click the back arrow to return to the previous page.
 
-        ![Google Analytics - content experiments reporting](./assets/google-analytics-content-experiments-new-reporting-view.png)<!-- zoom -->
-
 1. In the left panel under _[!UICONTROL Reports]_, choose **[!UICONTROL Behavior]** > **[!UICONTROL Experiments]**.
 
 1. Click **[!UICONTROL Create experiment]** and do the following:
@@ -83,7 +81,7 @@ You can create up to ten variations of each entity that you want to test. For pr
    >
    >Do not paste the code snippet into any of the variations.
 
-   ![Product view optimization](../catalog/assets/product-view-optimization.png)<!-- zoom -->
+   ![Product view optimization](../catalog/assets/product-view-optimization.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save]**.
 

@@ -8,6 +8,8 @@ feature: Configuration, Shipping/Delivery
 
 {{config}}
 
+For detailed information about configuring these multishipping settings for your store, see [Multiple addresses](../../stores-purchase/shipping-settings.md#multiple-addresses).
+
 ## [!UICONTROL Options]
 
 ![Options](./assets/multishipping-settings-options.png)<!-- zoom -->
@@ -16,7 +18,7 @@ feature: Configuration, Shipping/Delivery
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|[!UICONTROL Allow Shipping to Multiple Addresses]|Website|Determines if you allow single orders to be shipping to multiple addresses. Options: `Yes` / `No`|
+|[!UICONTROL Allow Shipping to Multiple Addresses] |Website| Determines if you allow single orders to be shipping to multiple addresses (registered customers only). Options: `Yes` / `No`|
 |[!UICONTROL Maximum Qty Allowed for Shipping to Multiple Addresses]|Website|Sets a limit for the number of units  of a product that can be shipping to multiple addresses.|
 
 {:style="table-layout:auto"}

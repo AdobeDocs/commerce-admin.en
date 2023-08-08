@@ -10,13 +10,13 @@ feature: Gift, Storefront
 
 The [Gift Registry](gift-registries.md) section of the customer account lists the customer's current gift registries and the associated event. Customers can manage the current registries and add new ones.
 
-![Gift Registry](./assets/account-dashboard-gift-registry.png)<!-- zoom -->
+![Gift Registry](./assets/account-dashboard-gift-registry.png){width="700" zoomable="yes"}
 
 ## Gift registry information
 
 Customers can create and manage gift registries from their accounts. All information that is associated with each type of registry is available from the customer's account.
 
-![Example storefront - gift registry information](./assets/gift-registry-create-baby-storefront.png)<!-- zoom -->
+![Example storefront - gift registry information](./assets/gift-registry-create-baby-storefront.png){width="700" zoomable="yes"}
 
 |Section|Description|
 |--- |--- |
@@ -84,7 +84,7 @@ Customers can create and manage gift registries from their accounts. All informa
 
 1. From their account dashboard, the customer goes to **[!UICONTROL Gift Registry]**.
 
-   ![Managing gift registry items](./assets/account-dashboard-gift-registry-items-management.png)<!-- zoom -->
+   ![Managing gift registry items](./assets/account-dashboard-gift-registry-items-management.png){width="700" zoomable="yes"}
 
 1. Finds the registry event, selects the items that they want to manage, and clicks **[!DNL Manage Items]**.
 
