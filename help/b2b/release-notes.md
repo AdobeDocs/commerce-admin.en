@@ -20,7 +20,7 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 
 *August 7, 2023*
 
-[!BADGE Compatibility]{type=Informative tooltip="Supported Versions"} Supported on Adobe Commerce 2.4.6. Compatible with Adobe Commerce 2.4.7-beta1.
+[!BADGE Compatibility]{type=Informative tooltip="Supported Versions"} Supported on [Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Compatible with Adobe Commerce 2.4.7-beta1.
 
 The B2B v1.4.1 release includes quality improvements and bug fixes.
 
@@ -38,11 +38,11 @@ The B2B v1.4.1 release includes quality improvements and bug fixes.
 
 *June 13, 2023*
 
-[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Supported on Adobe Commerce 2.4.6 and available 2.4.6 [security patch releases](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Compatibile with Adobe Commerce 2.4.7-beta1
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Supported on [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Compatible with Adobe Commerce 2.4.7-beta1
 
 This release includes new capabilities and enhancements for B2B negotiable quotes and multiple bug fixes.
 
-![New](../assets/new.svg) B2B v1.4.0 is compatible with Adobe Commerce 2.4.7-beta1.
+![New](../assets/new.svg) Added compatibility with Adobe Commerce 2.4.7-beta1.
 
 ![New](../assets/new.svg) **Seller initiated quotes**—Sellers can now initiate a quote for a buyer directly from the Quote and Customer grids in the Admin. This capability streamlines the quote process and reduces complexity for customers. If a customer has not initiated an order, a seller can quickly create a quote on behalf of the customer and start the negotiation process. Previously, quotes could only be created from the storefront by the buyer, or by a seller logged in as the customer.
 
@@ -138,7 +138,15 @@ Successfully install or upgrade to B2B version 1.4.0 on Adobe Commerce 2.4.6-p1 
 
 *March 14, 2023*
 
-[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce 2.4.0 and newer versions
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce 2.4.0 - 2.4.6 and newer versions
+
+![New](../assets/new.svg) Released B2B version 1.3.5-p2 to support compatibility with Adobe Commerce 2.4.6-p2.
+
+![New](../assets/new.svg) Released B2B version 1.3.5-p1 to support compatibility with Adobe Commerce 2.4.6-p1.
+
+>![NOTE]
+>
+>When you upgrade Commerce from 2.4.6 to the [latest release](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html#2.4.6), the Commerce installation is updated automatically to the supported B2B patch release.
 
 ![New](../assets/new.svg) Added support for Adobe Commerce 2.4.6.
 
