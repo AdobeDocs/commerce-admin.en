@@ -11,7 +11,7 @@ The [!DNL AR Viewer] only supports `.USDZ` files.
 
 ## Install the extension
 
-[!DNL AR Viewer] is installed as an extension from [Adobe Commerce Marketplace](https://marketplace.magento.com/){target=_blank}.
+[!DNL AR Viewer] is installed as an extension from the [Adobe Commerce Marketplace](https://commercemarketplace.adobe.com/magento-module-arviewer.html){target=_blank}.
 
 See the [_Installation Guide_](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) for more information about the extension installation process.
 
@@ -52,3 +52,7 @@ When the product details are updated with the 3D model:
 1. A customer can see this QR code in the product page.
 
 1. When customers scan the QR code with their mobile devices, an AR experience is rendered on the mobile device.
+
+>[!NOTE]
+>
+> For a series of demo videos of a user adding a 3d model to a product, see the [AR Viewer for Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/catalog/augmented-reality.html) page in _Commerce Videos and Tutorials_.
