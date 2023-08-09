@@ -350,7 +350,7 @@ The _Stock Status_ of the configurable product is partially controlled by the St
 
 >[!NOTE]
 >
->Stocks and sources are parts of the [Inventory Management](../inventory-management/sources-stocks.md) tool.
+>Custom stocks and sources are part of the [Inventory Management](../inventory-management/sources-stocks.md) extension and it is highly recommended that you use this tool exclusively for managing stock and source. The default source and stock functions are part of the `CatalogInventory` module, which is now deprecated.
 
 #### With at least one custom source/stock:
 
