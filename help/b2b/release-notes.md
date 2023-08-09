@@ -146,7 +146,7 @@ Successfully install or upgrade to B2B version 1.4.0 on Adobe Commerce 2.4.6-p1 
 
 >![NOTE]
 >
->When you upgrade Commerce from 2.4.6 to the [latest release](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html#2.4.6), the Commerce installation is updated automatically to the supported B2B patch release.
+>When you upgrade Commerce from 2.4.6 to the [latest release](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html#2.4.6), the Commerce installation is updated automatically to the supported B2B 1.3.5 patch release. To get the most current B2B features, upgrade Commerce to the most recent 2.4.6 release. Then, upgrade the B2B extension from version 1.3.5 to version 1.4.0 or later.
 
 ![New](../assets/new.svg) Added support for Adobe Commerce 2.4.6.
 
