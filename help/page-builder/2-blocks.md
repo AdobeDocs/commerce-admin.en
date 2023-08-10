@@ -12,7 +12,7 @@ The following exercise illustrates the difference between [simple blocks](../con
 >
 >[!DNL Page Builder] has a new content type called _Banner_, which is featured in the first walkthrough exercise and is unrelated to the previous banner functionality. What was previously the Banner option in the [Content menu](../content-design/content-menu.md), is now _Dynamic Block_.
 
-![Dynamic block in the storefront](./assets/pb-tutorial2-dynamic-block-storefront.png)<!-- zoom -->
+![Dynamic block in the storefront](./assets/pb-tutorial2-dynamic-block-storefront.png){width="700" zoomable="yes"}
 
 This exercise assumes that you have completed [Part 1: Simple Page](1-simple-page.md), including the prerequisites and [downloaded sample files](./assets/simple-page-assets.zip). Follow the parts of this walkthrough exercise in order.
 
@@ -36,7 +36,7 @@ In this walkthrough exercise, you create a simple block with content from [!DNL 
 
 1. Choose the **[!UICONTROL Store View]** where the block is to be available.
 
-   ![Block Information](./assets/pb-tutorial2-block-new-google-map.png)<!-- zoom -->
+   ![Block Information](./assets/pb-tutorial2-block-new-google-map.png){width="600" zoomable="yes"}
 
 1. In the upper-right corner, click **[!UICONTROL Save]**.
 
@@ -44,17 +44,17 @@ In this walkthrough exercise, you create a simple block with content from [!DNL 
 
 1. Scroll down to the [!DNL Page Builder] content preview (currently empty) and click **[!UICONTROL Edit with Page Builder]**.
 
-1. In the [!DNL Page Builder] panel, expand **[!UICONTROL Media]** and drag a **Map** placeholder to the stage.
+1. In the [!DNL Page Builder] panel, expand **[!UICONTROL Media]** and drag a **[!UICONTROL Map]** placeholder to the stage.
 
-   ![Dragging a map to the stage](./assets/pb-media-map-drag.png)<!-- zoom -->
+   ![Dragging a map to the stage](./assets/pb-media-map-drag.png){width="600" zoomable="yes"}
 
    A map to your store location appears if [!DNL Google Maps] is configured for your store.
 
-   ![Configured Google Map for your store](./assets/pb-tutorial2-google-map.png)<!-- zoom -->
+   ![Configured Google Map for your store](./assets/pb-tutorial2-google-map.png){width="600" zoomable="yes"}
 
    A placeholder map appears if [!DNL Google Maps] isn't yet configured for your store.
 
-   ![[!DNL Google Maps] placeholder](./assets/pb-tutorial2-media-map-not-configured.png)<!-- zoom -->
+   ![[!DNL Google Maps] placeholder](./assets/pb-tutorial2-media-map-not-configured.png){width="600" zoomable="yes"}
 
 1. In the upper-right corner of the stage, click the _Close Full Screen_ (![Close full screen icon](./assets/pb-icon-reduce.png)) icon.
 
@@ -80,7 +80,7 @@ If [!DNL Google Maps] is already configured for your store, you can skip this st
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
 
-   ![Advanced Content Tools](./assets/content-management-advanced-content-tools.png)<!-- zoom -->
+   ![Advanced Content Tools](../configuration-reference/general/assets/content-management-advanced-content-tools.png){width="600" zoomable="yes"}
 
    For more information about the [!UICONTROL Content Management Advanced Tools] configuration options, see the [_Configuration Reference Guide_](../configuration-reference/general/content-management.md).
 
@@ -102,21 +102,21 @@ If [!DNL Google Maps] is already configured for your store, you can skip this st
 
 1. In the [!DNL Page Builder] panel under _[!UICONTROL Layout]_, drag a **[!UICONTROL Row]** placeholder to the top of the stage.
 
-   ![Adding the row to the top of the stage](./assets/pb-tutorial2-elements-row-drag-top.png)<!-- zoom -->
+   ![Adding the row to the top of the stage](./assets/pb-tutorial2-elements-row-drag-top.png){width="600" zoomable="yes"}
 
 1. In the [!DNL Page Builder] panel, expand **[!UICONTROL Add Content]** and drag a **[!UICONTROL Block]** placeholder to the new row.
 
-1. Hover over the empty block container to display the toolbox and choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon.
+1. Hover over the empty block container to display the toolbox and choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png){width="20"} ) icon.
 
-   ![Block toolbox](./assets/pb-add-content-block-toolbox.png)<!-- zoom -->
+   ![Block toolbox](./assets/pb-add-content-block-toolbox.png){width="600" zoomable="yes"}
 
 1. On the Edit Block page, click **[!UICONTROL Select Block]**.
 
-   ![Select Block](./assets/pb-add-content-block-settings-block-select.png)<!-- zoom -->
+   ![Select Block](./assets/pb-add-content-block-settings-block-select.png){width="600" zoomable="yes"}
 
 1. In the search box, enter `map` and press the Enter/Return key to find the block that you created.
 
-   ![Find Block in List](./assets/pb-add-content-block-settings-block-find.png)<!-- zoom -->
+   ![Find Block in List](./assets/pb-add-content-block-settings-block-find.png){width="600" zoomable="yes"}
 
 1. In the grid, click **[!UICONTROL Select]** to choose the [!DNL Google Maps] block.
 
@@ -134,17 +134,17 @@ If [!DNL Google Maps] is already configured for your store, you can skip this st
 
 A dynamic block includes logic that determines where, when, and to whom it appears. In this walkthrough exercise, you create a dynamic block for a promotion that is triggered when price rule conditions are met, and that appears only to a specific customer segment. The result of this example is similar to the banner that was created in the first exercise, but with logic that controls when it appears in the storefront.
 
-![Sample Luma tee promotion](./assets/pb-tutorial2-dynamic-block-row-page.png)<!-- zoom -->
+![Sample Luma tee promotion](./assets/pb-tutorial2-dynamic-block-row-page.png){width="600" zoomable="yes"}
 
 ### Step 1: Create a new dynamic block
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Elements]_ > **[!UICONTROL Dynamic Blocks]**.
 
-   ![Dynamic Blocks list](./assets/pb-tutorial2-block-dynamic-add.png)<!-- zoom -->
+   ![Dynamic Blocks list](./assets/pb-tutorial2-block-dynamic-add.png){width="700" zoomable="yes"}
 
 1. In the upper-right corner, click **[!UICONTROL Add Dynamic Block]**.
 
-   ![New Dynamic Block page](./assets/pb-tutorial2-block-dynamic-new.png)<!-- zoom -->
+   ![New Dynamic Block page](./assets/pb-tutorial2-block-dynamic-new.png){width="600" zoomable="yes"}
 
 1. Complete the basic settings for the new dynamic block:
 
@@ -156,13 +156,13 @@ A dynamic block includes logic that determines where, when, and to whom it appea
 
       The Dynamic Block Type determines where in the [page layout](../content-design/page-layout.md) that the block is placed. When setting up a dynamic block for your store, consider both the page layout and the [theme](../content-design/themes.md), so you can put the available space to good use. Some stores have an active content area that is limited to a fixed width, while others extend the full width of the screen.
 
-      ![Dynamic Block Type setting](./assets/pb-dynamic-block-type.png)<!-- zoom -->
+      ![Dynamic Block Type setting](./assets/pb-dynamic-block-type.png){width="600" zoomable="yes"}
 
    - For **[!UICONTROL Customer Segment]**, select the checkbox of each segment that you want to apply to the dynamic block and click **Done** to save the list of segments.
 
       For the following example, there are two [customer segments](../customers/customer-segments.md) that identify registered customers by gender. This dynamic block appears only to registered female customers who are logged in to their accounts while they shop in your store.
 
-      ![Choosing the customer segments](./assets/pb-dynamic-block-customer-segment.png)<!-- zoom -->
+      ![Choosing the customer segments](./assets/pb-dynamic-block-customer-segment.png){width="600" zoomable="yes"}
 
 ### Step 2: Complete the settings
 
@@ -170,7 +170,7 @@ Scroll down to the _[!UICONTROL Content]_ section, which displays an empty [!DNL
 
 **Task 1:** Add a background image
 
-1. Hover over the row container to display the toolbox and choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon.
+1. Hover over the row container to display the toolbox and choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png){width="20"} ) icon.
 
 1. Under _[!UICONTROL Appearance]_, choose **[!UICONTROL Full Bleed]**.
 
@@ -180,13 +180,13 @@ Scroll down to the _[!UICONTROL Content]_ section, which displays an empty [!DNL
 
 1. In the upper-right corner, click **[!UICONTROL Save]** to apply the settings and return to the [!DNL Page Builder] workspace.
 
-   ![Row with the image](./assets/pb-tutorial2-row-image.png)<!-- zoom -->
+   ![Row with the image](./assets/pb-tutorial2-row-image.png){width="600" zoomable="yes"}
 
 **Task 2:** Add columns
 
 In the [!DNL Page Builder] panel under _[!UICONTROL Layout]_, drag a **[!UICONTROL Column]** placeholder onto the row.
 
-![Dragging the column type into the row](./assets/pb-tutorial2-column-drag.png)<!-- zoom -->
+![Dragging the column type into the row](./assets/pb-tutorial2-column-drag.png){width="600" zoomable="yes"}
 
 The row is now divided into two columns of equal width.
 
@@ -194,7 +194,7 @@ The row is now divided into two columns of equal width.
 
 1. In the [!DNL Page Builder] panel, expand **[!UICONTROL Elements]** and drag a **Text** placeholder to the second column.
 
-   ![Dragging a text box to the second column](./assets/pb-tutorial2-column-text-drag.png)<!-- zoom -->
+   ![Dragging a text box to the second column](./assets/pb-tutorial2-column-text-drag.png){width="600" zoomable="yes"}
 
 1. Enter the following three lines of text into the editor:
 
@@ -204,11 +204,11 @@ The row is now divided into two columns of equal width.
 
    `Shop Tees >`
 
-   ![Entering text for the column](./assets/pb-tutorial2-column-text-editor.png)<!-- zoom -->
+   ![Entering text for the column](./assets/pb-tutorial2-column-text-editor.png){width="600" zoomable="yes"}
 
 1. Select all three lines of text and use the toolbar to set the **Line Height** to `40px`.
 
-   ![Setting the line height](./assets/pb-tutorial2-column-text-editor-line-height.png)<!-- zoom -->
+   ![Setting the line height](./assets/pb-tutorial2-column-text-editor-line-height.png){width="600" zoomable="yes"}
 
 1. Set the **[!UICONTROL Font Size]** for each line as follows:
 
@@ -220,7 +220,7 @@ The row is now divided into two columns of equal width.
 
    Because this block could be placed anywhere on the page, use the default paragraph style, rather than heading levels. Also, don't worry that the text does not yet wrap correctly in the column.  
 
-   ![Formatted text](./assets/pb-tutorial2-column-text-editor-text-formatted.png)<!-- zoom -->
+   ![Formatted text](./assets/pb-tutorial2-column-text-editor-text-formatted.png){width="600" zoomable="yes"}
 
 **Task 4:** Add a Link
 
@@ -240,7 +240,7 @@ In the first exercise, you learned how to use the [Button](buttons.md) content t
 
 1. With the `Shop Tees >` text in the third line still selected, choose **Insert/edit link** (![Insert/edit link button](./assets/pb-icon-add-link.png)) in the editor toolbar.
 
-   ![Inserting a link](./assets/pb-tutorial2-column-text-editor-link-insert.png)<!-- zoom -->
+   ![Inserting a link](./assets/pb-tutorial2-column-text-editor-link-insert.png){width="600" zoomable="yes"}
 
 1. For **[!UICONTROL URL]**, enter the relative link that you prepared.
 
@@ -254,7 +254,7 @@ In the first exercise, you learned how to use the [Button](buttons.md) content t
 
 1. To save the link and return to the [!DNL Page Builder] workspace, click **[!UICONTROL OK]**.
 
-   ![Link details](./assets/pb-tutorial2-column-text-editor-link-insert-detail.png)<!-- zoom -->
+   ![Link details](./assets/pb-tutorial2-column-text-editor-link-insert-detail.png){width="600" zoomable="yes"}
 
 1. In the upper-right corner of the stage, click the _Close Full Screen_ (![Close full screen icon](./assets/pb-icon-reduce.png)) icon.
 
@@ -268,15 +268,15 @@ In the first exercise, you learned how to use the [Button](buttons.md) content t
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Related Promotions]** section and click **[!UICONTROL Add Cart Price Rules]**.
 
-   ![Related promotions](./assets/pb-dynamic-blocks-related-promotions.png)<!-- zoom -->
+   ![Related promotions](./assets/pb-dynamic-blocks-related-promotions.png){width="600" zoomable="yes"}
 
 1. On the _Add Related Cart Price Rules_ page, select the checkbox for the _Buy 3 tee shirts and get the 4th free_ price rule and click **[!UICONTROL Add Selected]**.
 
-   ![Adding a related cart price rule](./assets/pb-dynamic-block-add-related-cart-price-rules.png)<!-- zoom -->
+   ![Adding a related cart price rule](./assets/pb-dynamic-block-add-related-cart-price-rules.png){width="600" zoomable="yes"}
 
    The price rule appears in the _Related Promotions_ section, under _Related Cart Price Rule_. You can associate multiple price rules with a dynamic block. However, this simple example uses just one.
 
-   ![Selected cart price rule](./assets/pb-dynamic-block-related-cart-price-rule-list.png)<!-- zoom -->
+   ![Selected cart price rule](./assets/pb-dynamic-block-related-cart-price-rule-list.png){width="600" zoomable="yes"}
 
 1. In the upper-right corner, click **[!UICONTROL Save]**.
 
@@ -288,7 +288,7 @@ In the first exercise, you learned how to use the [Button](buttons.md) content t
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Content]** section and click **[!UICONTROL Edit with Page Builder]**.
 
-1. Hover over the top row with the same image as the dynamic block to display the toolbox and the _Remove_ (![Remove icon](./assets/pb-icon-remove.png))<!-- width="20px" --> icon.
+1. Hover over the top row with the same image as the dynamic block to display the toolbox and the _Remove_ ( ![Remove icon](./assets/pb-icon-remove.png){width="20"} ) icon.
 
    To confirm removal of the row from the page, click  **[!UICONTROL OK]** .
 
@@ -296,27 +296,27 @@ In the first exercise, you learned how to use the [Button](buttons.md) content t
 
 1. In the [!DNL Page Builder] panel, expand **[!UICONTROL Add Content]** and drag a **[!UICONTROL Dynamic Block]** placeholder to the new row.
 
-   ![Dragging a dynamic block onto the row](./assets/pb-dynamic-block-drag.png)<!-- zoom -->
+   ![Dragging a dynamic block onto the row](./assets/pb-dynamic-block-drag.png){width="600" zoomable="yes"}
 
-1. Hover over the dynamic block container to display the toolbox and choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon.
+1. Hover over the dynamic block container to display the toolbox and choose the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png){width="20"} ) icon.
 
-   ![Dynamic block toolbox](./assets/pb-dynamic-block-settings.png)<!-- zoom -->
+   ![Dynamic block toolbox](./assets/pb-dynamic-block-settings.png){width="600" zoomable="yes"}
 
 1. On the _[!UICONTROL Edit Dynamic Block]_ page, click **[!UICONTROL Select Dynamic Block]**.
 
-   ![Select Dynamic Block](./assets/pb-dynamic-block-select.png)<!-- zoom -->
+   ![Select Dynamic Block](./assets/pb-dynamic-block-select.png){width="600" zoomable="yes"}
 
 1. Find the _[!DNL Tee Shirt Promo]_ dynamic block that you created and click **[!UICONTROL Select]**.
 
    A summary of the dynamic block information appears below.
 
-   ![Dynamic block information](./assets/pb-tutorial2-dynamic-block-edit.png)<!-- zoom -->
+   ![Dynamic block information](./assets/pb-tutorial2-dynamic-block-edit.png){width="600" zoomable="yes"}
 
 1. Accept the default **[!UICONTROL Template]**, `Dynamic Block Block Template`.
 
 1. When complete, click **[!UICONTROL Save]** to save the settings and return to the [!DNL Page Builder] workspace.
 
-   ![Dynamic Block in the page preview](./assets/pb-tutorial2-dynamic-block-on-page.png)<!-- zoom -->
+   ![Dynamic Block in the page preview](./assets/pb-tutorial2-dynamic-block-on-page.png){width="600" zoomable="yes"}
 
 1. In the upper-right corner of the stage, click the _Close Full Screen_ (![Close full screen icon](./assets/pb-icon-reduce.png)) icon.
 
@@ -330,7 +330,7 @@ You have completed the second part of the Block exercise. Make sure to keep your
 
 In this final part of the exercise, you edit a dynamic block while the page is live in your store. Then, log in to the store as a member of the customer segment to make the block appear.
 
-![Sample dynamic block in the storefront](./assets/pb-tutorial2-dynamic-block-storefront.png)<!-- zoom -->
+![Sample dynamic block in the storefront](./assets/pb-tutorial2-dynamic-block-storefront.png){width="600" zoomable="yes"}
 
 ### Step 1: Edit the dynamic block
 
@@ -346,11 +346,11 @@ In this final part of the exercise, you edit a dynamic block while the page is l
 
    - Hold down the mouse button and drag the border two divisions to the left.
 
-      ![Grid divisions](./assets/pb-tutorial2-dynamic-block-edit-column-width.png)<!-- zoom -->
+      ![Grid divisions](./assets/pb-tutorial2-dynamic-block-edit-column-width.png){width="600" zoomable="yes"}
 
       The first column is now four of 12 (4/12) grid divisions wide, and the second column is eight of 12 (8/12) divisions wide.
 
-      ![Two unequal columns](./assets/pb-tutorial2-dynamic-block-edit-column-width-changed.png)<!-- zoom -->
+      ![Two unequal columns](./assets/pb-tutorial2-dynamic-block-edit-column-width-changed.png){width="600" zoomable="yes"}
 
 1. Change the text color:
 
@@ -358,7 +358,7 @@ In this final part of the exercise, you edit a dynamic block while the page is l
 
    - On the editor toolbar, choose **[!UICONTROL Text Color]** and click the **[!UICONTROL White]** swatch.
 
-   ![Text color](./assets/pb-tutorial2-dynamic-block-edit-text-color.png)<!-- zoom -->
+   ![Text color](./assets/pb-tutorial2-dynamic-block-edit-text-color.png){width="600" zoomable="yes"}
 
 1. In the upper-right corner of the stage, click the _Close Full Screen_ (![Close full screen icon](./assets/pb-icon-reduce.png)) icon.
 
@@ -394,7 +394,7 @@ Because this dynamic block is visible only to members of a specific customer seg
 
    - Return to the sample page to see the dynamic block that you created with the Tee Shirt Promo.
 
-   ![Dynamic block displayed for a customer segment](./assets/pb-tutorial2-dynamic-block-storefront.png)<!-- zoom -->
+   ![Dynamic block displayed for a customer segment](./assets/pb-tutorial2-dynamic-block-storefront.png){width="700" zoomable="yes"}
 
 You have completed the third part of the Block exercise. Make sure to keep your work for reference.
 
