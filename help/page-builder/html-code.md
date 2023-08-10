@@ -10,16 +10,16 @@ Use the _HTML Code_ content type to add snippets of HTML, CSS, and JavaScript co
 
 ## HTML Code toolbox
 
-![HTML Code toolbox](./assets/pb-elements-html-code-toolbox.png)<!-- zoom -->
+![HTML Code toolbox](./assets/pb-elements-html-code-toolbox.png){width="500" zoomable="yes"}
 
 | Tool      | Icon       | Description       |
 | --------- | ---------- | ----------------- |
-| Move      | ![Move icon](./assets/pb-icon-move.png) | Moves the HTML Code container to another valid place on the page. |
-| Settings  | ![Settings icon](./assets/pb-icon-settings.png) | Opens the Edit HTML Code page, where you can change the properties of the container. |
-| Hide      | ![Hide icon](./assets/pb-icon-hide.png) | Hides the HTML Code container. |
-| Show      | ![Show icon](./assets/pb-icon-show.png) | Shows the hidden HTML Code container. |
-| Duplicate | ![Duplicate icon](./assets/pb-icon-duplicate.png) | Makes a copy of the HTML Code container. |
-| Remove    | ![Remove icon](./assets/pb-icon-remove.png)  | Deletes the HTML Code container and its content from the stage. |
+| Move      | ![Move icon](./assets/pb-icon-move.png){width="25"} | Moves the HTML Code container to another valid place on the page. |
+| Settings  | ![Settings icon](./assets/pb-icon-settings.png){width="25"} | Opens the Edit HTML Code page, where you can change the properties of the container. |
+| Hide      | ![Hide icon](./assets/pb-icon-hide.png){width="25"} | Hides the HTML Code container. |
+| Show      | ![Show icon](./assets/pb-icon-show.png){width="25"} | Shows the hidden HTML Code container. |
+| Duplicate | ![Duplicate icon](./assets/pb-icon-duplicate.png){width="25"} | Makes a copy of the HTML Code container. |
+| Remove    | ![Remove icon](./assets/pb-icon-remove.png){width="25"}  | Deletes the HTML Code container and its content from the stage. |
 
 ## Add HTML code
 
@@ -29,7 +29,7 @@ The following example demonstrates how to embed [Google Font][1] code and declar
 
 1. Visit the [Google Fonts][1] site and choose the font family that you want to use.
 
-   ![Google Fonts site](./assets/pb-elements-html-code-google-fonts.png)<!-- zoom -->
+   ![Google Fonts site](./assets/pb-elements-html-code-google-fonts.png){width="700" zoomable="yes"}
 
 1. Copy the generated code that is to be embedded in the `<head>` section of the page and paste it temporarily into a text editor.
 
@@ -60,15 +60,15 @@ The following example demonstrates how to embed [Google Font][1] code and declar
 
    Use the red guideline to position the divider either before or after another content container in the row, column, or tab set.
 
-   ![Dragging a HTML Code placeholder to the stage](./assets/pb-elements-html-code-drag.png)<!-- zoom -->
+   ![Dragging a HTML Code placeholder to the stage](./assets/pb-elements-html-code-drag.png){width="600" zoomable="yes"}
 
-1. Hover over the HTML container to display the toolbox and choose the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png) ), icon.
+1. Hover over the HTML container to display the toolbox and choose the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png){width="20"} ), icon.
 
 1. In the text box, paste the embed Google Fonts code and style declarations that you prepared.
 
    To make it easier to read, you can enter a few spaces to indent the code.
 
-   ![HTML code and styles](./assets/pb-elements-html-code-example.png)<!-- zoom -->
+   ![HTML code and styles](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
 
 1. Update the remaining settings as needed (see [Change HTML code settings](#html-settings) for details).
 
@@ -80,17 +80,17 @@ The following example demonstrates how to embed [Google Font][1] code and declar
 
 1. In the _[!UICONTROL Currently Active]_ section, set **[!UICONTROL Enable Page]** to `Yes`.
 
-   ![Enabling the page](./assets/pb-elements-html-code-enable-page.png)<!-- zoom -->
+   ![Enabling the page](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
 1. In the upper-right corner, click the **[!UICONTROL Save]** arrow and choose **[!UICONTROL Save & Close]**.
 
 1. Find the page in the grid and select **[!UICONTROL View]** in the _[!UICONTROL Actions]_ column.
 
-   ![Preview the page headings with the new font family](./assets/pb-elements-html-code-preview.png)<!-- zoom -->
+   ![Preview the page headings with the new font family](./assets/pb-elements-html-code-preview.png){width="700" zoomable="yes"}
 
 ## Change HTML code settings {#html-settings}
 
-1. Hover over the HTML container to display the toolbox and choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon.
+1. Hover over the HTML container to display the toolbox and choose the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png){width="20"} ) icon.
 
 1. In the text box, edit the code as needed.
 
@@ -117,7 +117,7 @@ The following example demonstrates how to embed [Google Font][1] code and declar
 
       In the following example, the options are set to use a center alignment for the rendered code block.
 
-      ![Divider with a center alignment](./assets/pb-elements-divider-settings-advanced-alignment-center.png)<!-- zoom -->
+      ![Divider with a center alignment](./assets/pb-elements-divider-settings-advanced-alignment-center.png){width="600" zoomable="yes"}
 
    - Set the **[!UICONTROL Border]** style applied to all four sides of the code container:
 

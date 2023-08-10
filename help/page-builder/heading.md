@@ -12,31 +12,31 @@ The [Content Heading](workspace.md) field in the _[!UICONTROL Content]_ section 
 
 The following example shows how the Content Heading and the Heading content type appear when formatted by the Luma theme.
 
-![Content Heading and heading Levels on the storefront](./assets/pb-storefront-heading-levels.png)<!-- zoom -->
+![Content Heading and heading Levels on the storefront](./assets/pb-storefront-heading-levels.png){width="700" zoomable="yes"}
 
-You can drag a heading from the _Elements_ section of the [!DNL Page Builder] panel to a row, column, or tab set on the stage. The heading level and alignment can be controlled from the editor toolbar on the stage, or by using the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png) ) control.
+You can drag a heading from the _Elements_ section of the [!DNL Page Builder] panel to a row, column, or tab set on the stage. The heading level and alignment can be controlled from the editor toolbar on the stage, or by using the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png){width="20"} ) control.
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
 ## Heading editor
 
-![Heading editor with toolbar](./assets/pb-elements-heading-toolbar.png)<!-- zoom -->
+![Heading editor with toolbar](./assets/pb-elements-heading-toolbar.png){width="500" zoomable="yes"}
 
 ## Heading container toolbox
 
 As with all content containers, the toolbox appears when you hover over the container.
 
-![Heading container toolbox](./assets/pb-elements-heading-toolbox.png)<!-- zoom -->
+![Heading container toolbox](./assets/pb-elements-heading-toolbox.png){width="500" zoomable="yes"}
 
 | Tool      | Icon              | Description            |
 | --------- | ----------------- | ---------------------- |
-| Move      | ![Move icon](./assets/pb-icon-move.png) | Moves the heading container to another valid place on the page. |
+| Move      | ![Move icon](./assets/pb-icon-move.png){width="25"} | Moves the heading container to another valid place on the page. |
 | (label)   | Heading  | Identifies the current container as a heading. |
-| Settings  | ![Settings icon](./assets/pb-icon-settings.png) | Opens the Edit Heading page, where you can change the properties of the container. |
-| Hide      | ![Hide icon](./assets/pb-icon-hide.png) | Hides the heading container. |
-| Show      | ![Show icon](./assets/pb-icon-show.png) | Shows the hidden heading container. |
-| Duplicate | ![Duplicate icon](./assets/pb-icon-duplicate.png) | Makes a copy of the heading container. |
-| Remove    | ![Remove icon](./assets/pb-icon-remove.png) | Deletes the heading container and its content from the stage. |
+| Settings  | ![Settings icon](./assets/pb-icon-settings.png){width="25"} | Opens the Edit Heading page, where you can change the properties of the container. |
+| Hide      | ![Hide icon](./assets/pb-icon-hide.png){width="25"} | Hides the heading container. |
+| Show      | ![Show icon](./assets/pb-icon-show.png){width="25"} | Shows the hidden heading container. |
+| Duplicate | ![Duplicate icon](./assets/pb-icon-duplicate.png){width="25"} | Makes a copy of the heading container. |
+| Remove    | ![Remove icon](./assets/pb-icon-remove.png){width="25"} | Deletes the heading container and its content from the stage. |
 
 {style="table-layout:auto"}
 
@@ -44,13 +44,13 @@ As with all content containers, the toolbox appears when you hover over the cont
 
 1. In the [!DNL Page Builder] panel, expand **[!UICONTROL Elements]** and drag a **[!UICONTROL Heading]** placeholder to a row, column, or tab set on the stage.
 
-   ![Dragging a heading to the stage](./assets/pb-elements-heading-drag.png)<!-- zoom -->
+   ![Dragging a heading to the stage](./assets/pb-elements-heading-drag.png){width="600" zoomable="yes"}
 
 1. In the editor, enter the heading text over the `Edit Heading Text` placeholder.
 
    By default, the heading text is assigned a level two (H2) heading type.
 
-   ![Placeholder in the heading editor](./assets/pb-elements-header-editor-placeholder.png)<!-- zoom -->
+   ![Placeholder in the heading editor](./assets/pb-elements-header-editor-placeholder.png){width="500" zoomable="yes"}
 
 1. In the toolbar, choose the appropriate heading type between H1 and H6.
 
@@ -58,9 +58,9 @@ As with all content containers, the toolbox appears when you hover over the cont
 
 ## Edit header settings
 
-1. Hover over the heading container to display the toolbox and choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon.
+1. Hover over the heading container to display the toolbox and choose the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png){width="20"} ) icon.
 
-   ![Heading toolbox](./assets/pb-elements-heading-toolbox.png)<!-- zoom -->
+   ![Heading toolbox](./assets/pb-elements-heading-toolbox.png){width="500" zoomable="yes"}
 
 1. Update the heading content (**[!UICONTROL Heading Type]** and **[!UICONTROL Heading Text]**) if needed.
 
@@ -127,22 +127,22 @@ As with all content containers, the toolbox appears when you hover over the cont
 
 For a formatted heading with specific settings, it is more efficient to duplicate the heading, rather than start over with a new placeholder.
 
-1. Hover over the heading container to display the toolbox and choose the _Duplicate_ (![Duplicate icon](./assets/pb-icon-duplicate.png)) icon.
+1. Hover over the heading container to display the toolbox and choose the _Duplicate_ ( ![Duplicate icon](./assets/pb-icon-duplicate.png){width="20"} ) icon.
 
    The duplicate appears just below the original.
 
-   ![Duplicating a heading container](./assets/pb-elements-heading-duplicate.png)<!-- zoom -->
+   ![Duplicating a heading container](./assets/pb-elements-heading-duplicate.png){width="500" zoomable="yes"}
 
-1. Hover over the new heading container to display the toolbox and choose the _Move_ (![Move icon](./assets/pb-icon-move.png)) icon.
+1. Hover over the new heading container to display the toolbox and choose the _Move_ ( ![Move icon](./assets/pb-icon-move.png){width="20"} ) icon.
 
-   ![Moving a heading](./assets/pb-elements-heading-move.png)<!-- zoom -->
+   ![Moving a heading](./assets/pb-elements-heading-move.png){width="500" zoomable="yes"}
 
 1. Select and drag the heading until the red guideline marks the new position.
 
    The top and bottom borders of each container appear as dashed lines while the heading is moved.
 
-   ![Moving the duplicated heading into position](./assets/pb-elements-heading-move-guideline.png)<!-- zoom -->
+   ![Moving the duplicated heading into position](./assets/pb-elements-heading-move-guideline.png){width="500" zoomable="yes"}
 
 1. If you want to change the heading level, click the heading text and choose the new level in the editor toolbar.
 
-   ![Choosing a new heading Level](./assets/pb-elements-heading-change-heading-level.png)<!-- zoom -->
+   ![Choosing a new heading Level](./assets/pb-elements-heading-change-heading-level.png){width="500" zoomable="yes"}
