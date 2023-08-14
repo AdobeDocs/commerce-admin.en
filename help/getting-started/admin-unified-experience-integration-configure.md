@@ -120,7 +120,7 @@ Enable the Commerce Events extension (`magento/commerce-eventing`) to send custo
 
 >[!NOTE]
 >
->The Commerce Events extension is available with Commerce 2.4.6 and later.
+>For Commerce 2.4.6 and later, the Commerce Events extension is installed by default. For Commerce projects with Commerce 2.4.5, first use Composer to [install the extension](https://developer.adobe.com/commerce/events/get-started/installation/#install-adobe-io-modules-on-commerce), then enable it.
 
 1. From your local Commerce project development environment, add the following configuration to the `.magento.env.yaml` file.
 
