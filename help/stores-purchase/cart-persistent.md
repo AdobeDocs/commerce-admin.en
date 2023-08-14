@@ -108,7 +108,7 @@ For more information about how the customer workflow is determined by these sett
 
 1. For **[!UICONTROL Persistence Lifetime (seconds)]**, enter the length of time, in seconds, that you want the persistent cookie to last.
 
-   The default value of 31,536,000 seconds is equal to one year, and is the maximum time allowed.
+   The default value of 31,536,000 seconds is equal to one year. The maximum time allowed is 100 years.
 
 1. Set **[!UICONTROL Enable "Remember Me"]** to one of the following:
 
@@ -124,7 +124,7 @@ For more information about how the customer workflow is determined by these sett
 
    - `Yes` - The shopping cart is cleared when a registered customer logs out.
 
-   - `No` - The shopping cart is saved when a registered customer logs out.|
+   - `No` - The shopping cart is saved when a registered customer logs out.
 
    >[!NOTE]
    >
@@ -140,7 +140,7 @@ For more information about how the customer workflow is determined by these sett
 
    - `Yes` - The wish list contents are saved when the session ends.
 
-   - `No` - The wish list is not saved when the session ends.|
+   - `No` - The wish list is not saved when the session ends.
 
 1. ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Set **[!UICONTROL Persist Recently Ordered Items]** to determine if the state of recently ordered items is retained when the session ends:
 
