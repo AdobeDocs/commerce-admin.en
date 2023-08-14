@@ -28,7 +28,7 @@ For more information about the Content Management Advanced Tools configuration o
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** and verify that **[!UICONTROL Enable Page Builder]** is set to `Yes`.
 
-   ![Advanced Content Tools](./assets/content-management-advanced-content-tools.png)<!-- zoom -->
+   ![Advanced Content Tools](../configuration-reference/general/assets/content-management-advanced-content-tools.png){width="600" zoomable="yes"}
 
 1. If you are ready to set up [!DNL Google Maps], do the following:
 
@@ -60,7 +60,7 @@ For more information about the Content Management Advanced Tools configuration o
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) **[!UICONTROL Default Layouts]** and do the following:
 
-   ![Default Layouts](./assets/web-default-layouts.png)<!-- zoom -->
+   ![Default Layouts](../configuration-reference/general/assets/web-default-layouts.png){width="600" zoomable="yes"}
 
    For more information about the Web configuration options, see the [_Configuration Reference Guide_](../configuration-reference/general/web.md#default-layouts).
 
