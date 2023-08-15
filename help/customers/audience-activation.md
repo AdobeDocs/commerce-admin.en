@@ -30,6 +30,10 @@ These release notes describe feature changes and fixes related to extensions use
 
 +++Supported service updates
 
+_August 15, 2023_
+
+- ![Fix](../assets/new.svg) - Updated the [Real-Time CDP Audiences dashboard](#real-time-cdp-audiences-dashboard) to simplify filtering.
+
 _June 27, 2023_
 
 - ![Fix](../assets/fix.svg) - Added support for PHP 8.2 in the `magento/module-data-services-graphql` package.
@@ -39,6 +43,14 @@ _May 30, 2023_
 - ![New](../assets/new.svg) - Updated the [Real-Time CDP Audiences dashboard](#real-time-cdp-audiences-dashboard) to include the ability to sort, search, and filter the active audiences within your Adobe Commerce instance.
 
 +++
+
+### 1.2.0
+
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
+
+_August 15, 2023_
+
+- ![Fix](../assets/fix.svg) - Updated the UI components version.
 
 ### 1.1.0
 
