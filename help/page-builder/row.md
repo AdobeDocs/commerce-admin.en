@@ -232,7 +232,7 @@ Use these options to control the speed of a scrolling background image or video 
 
    The row in the following example has a border radius of 15.
 
-   ![Row with Border Radius of 15](./assets/pb-settings-border-radius-15.png){width="300"}
+   ![Row with Border Radius of 15](./assets/pb-settings-border-radius-15.png){width="500"}
 
 - (Optional) Specify the names of **[!UICONTROL CSS classes]** from the current style sheet to apply to the row container.
 

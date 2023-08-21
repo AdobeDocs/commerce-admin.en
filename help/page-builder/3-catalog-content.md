@@ -1,10 +1,10 @@
 ---
-title: '[!DNL Page Builder] Walkthrough Part 3: Catalog Content'
-description: Learn how to add a product list to a page in [!DNL Page Builder].
+title: '[!DNL Page Builder] Walkthrough part 3: catalog content'
+description: Learn how to add a product list to a [!DNL Page Builder] page.
 exl-id: f2a0dc29-6d8f-4b97-a947-72659c01d0cb
 feature: Page Builder, Page Content
 ---
-# Walkthrough Part 3: Catalog Content
+# [!DNL Page Builder] Walkthrough part 3: catalog content
 
 This exercise demonstrates how easy it is to add a product list to a page, customize product pages, and create a custom attribute that adds the [!DNL Page Builder] workspace to a product attribute set.
 
@@ -72,7 +72,7 @@ This exercise assumes that you have completed [Part 1: Simple Page](1-simple-pag
 
    ![Products list in the stage](./assets/pb-add-content-products-list-stage.png){width="600" zoomable="yes"}
 
-1. In the upper-right corner of the stage, click the _Close Full Screen_ (![Close full screen icon](./assets/pb-icon-reduce.png)) icon.
+1. In the upper-right corner of the stage, click the _Close Full Screen_ ( ![Close full screen icon](./assets/pb-icon-reduce.png){width="20"} ) icon.
 
    Clicking this icon returns you to the _[!UICONTROL Content]_ section for the page with the preview displayed.
 
@@ -128,7 +128,7 @@ In this part of the exercise, you learn how easy it is to customize a product pa
 
    ![Video in the content stage](./assets/pb-tutorial3-product-video.png){width="600" zoomable="yes"}
 
-1. In the upper-right corner of the stage, click the _Close Full Screen_ (![Close full screen icon](./assets/pb-icon-reduce.png)) icon.
+1. In the upper-right corner of the stage, click the _Close Full Screen_ ( ![Close full screen icon](./assets/pb-icon-reduce.png){width="20"} ) icon.
 
    Clicking this icon returns you to the _[!UICONTROL Content]_ section for the page with the preview displayed.
 
@@ -260,7 +260,7 @@ In this step, you create two new custom attributes to show how the [!DNL Page Bu
 
    - Enter `Page Builder attribute placeholder text`.
 
-   - In the upper-right corner of the stage, click the _Close Full Screen_ (![Close full screen icon](./assets/pb-icon-reduce.png)) icon.
+   - In the upper-right corner of the stage, click the _Close Full Screen_ ( ![Close full screen icon](./assets/pb-icon-reduce.png){width="20"} ) icon.
 
       ![Custom attributes with placeholder text](./assets/pb-product-content-attributes.png){width="600" zoomable="yes"}
 
@@ -270,7 +270,7 @@ In this step, you create two new custom attributes to show how the [!DNL Page Bu
 
 1. If prompted, click the **[!UICONTROL Cache Management]** link in the message at the top of the page and refresh any invalid cache.
 
-### Step 5: Check it out
+### Step 5: View the result
 
 1. Navigate to your sample product page in the storefront.
 
@@ -282,7 +282,7 @@ In this step, you create two new custom attributes to show how the [!DNL Page Bu
 
    ![[!DNL Page Builder] and Text Editor attributes in the storefront](./assets/pb-storefront-product-attribute.png){width="600" zoomable="yes"}
 
-**Congratulations!** You have completed the [!DNL Page Builder] Catalog Content exercise. Keep the work that you created, so you can refer to it later.
+You have completed the [!DNL Page Builder] Catalog Content exercise. Keep the work that you created, so you can refer to it later.
 
 [1]: https://www.youtube.com/
 [2]: https://vimeo.com/

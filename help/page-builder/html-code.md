@@ -29,8 +29,6 @@ The following example demonstrates how to embed [Google Font][1] code and declar
 
 1. Visit the [Google Fonts][1] site and choose the font family that you want to use.
 
-   ![Google Fonts site](./assets/pb-elements-html-code-google-fonts.png){width="700" zoomable="yes"}
-
 1. Copy the generated code that is to be embedded in the `<head>` section of the page and paste it temporarily into a text editor.
 
    - Embed Font code

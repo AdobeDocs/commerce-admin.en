@@ -1,10 +1,10 @@
 ---
-title: '[!DNL Page Builder] Walkthrough Part 2: Blocks'
+title: '[!DNL Page Builder] Walkthrough part 2: blocks'
 description: Learn the difference between simple blocks and dynamic blocks when using [!DNL Page Builder].
 exl-id: 864a3078-8cb3-4add-bdb7-14189aba535e
 feature: Page Builder, Page Content
 ---
-# Walkthrough Part 2: Blocks
+# [!DNL Page Builder] Walkthrough part 2: blocks
 
 The following exercise illustrates the difference between [simple blocks](../content-design/blocks.md) and [dynamic blocks](dynamic-block.md), and how to use [!DNL Page Builder] to create each type of block.
 
@@ -396,7 +396,7 @@ Because this dynamic block is visible only to members of a specific customer seg
 
    ![Dynamic block displayed for a customer segment](./assets/pb-tutorial2-dynamic-block-storefront.png){width="700" zoomable="yes"}
 
-You have completed the third part of the Block exercise. Make sure to keep your work for reference.
+You have completed the Block exercise. Make sure to keep your work for reference.
 
 When you are ready, proceed to [Part 3: Catalog Content](3-catalog-content.md)
 

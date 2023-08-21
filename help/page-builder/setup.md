@@ -1,17 +1,17 @@
 ---
-title: '[!DNL Page Builder] Setup'
+title: '[!DNL Page Builder] setup'
 description: Learn about [!DNL Page Builder] feature configuration in the Admin for Adobe Commerce and Magento Open Source.
 exl-id: 48396045-0fef-4f4f-8138-e6d969560e42
 feature: Page Builder, Configuration
 ---
-# [!DNL Page Builder] Setup
+# [!DNL Page Builder] setup
 
 When enabled in the configuration, [!DNL Page Builder] is the default content creation tool for CMS Pages, Blocks, and Dynamic Blocks. In addition, the _[!UICONTROL Enable Advanced CMS]_ button offers [!DNL Page Builder] as an option for Categories and Products. You can also choose the default [page layout](../content-design/page-layout.md) that you want to use for products, categories, and CMS pages. [!DNL Page Builder] is not available for newsletter content, which uses the WYSIWYG [editor](../content-design/editor.md).
 
 >[!NOTE]
 >
 >When installed, [!DNL Page Builder] overrides the default setting for the [!UICONTROL Mask for Meta Description] configuration field. The value is changed from `{{name}} {{description}}` to `{{name}}`.
-><br><br>
+><br>
 >You can access this setting when you go to [!UICONTROL Stores] > _[!UICONTROL Settings]_ > [!UICONTROL Configuration], expand [!UICONTROL Catalog], and choose [!UICONTROL Catalog] underneath. The [!UICONTROL Mask for Meta Description] field is in the [!UICONTROL Product Fields Auto-generation] section.
 
 >[!NOTE]

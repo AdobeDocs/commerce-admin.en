@@ -228,7 +228,7 @@ You can any content type to a tab just as you can to a row. Use the following st
 
    The row in the following example has a border radius of 15.
 
-   ![Row with border radius of 15](./assets/pb-settings-border-radius-15.png){width="400"}
+   ![Row with border radius of 15](./assets/pb-settings-border-radius-15.png){width="500"}
 
 - (Optional) Specify the names of **[!UICONTROL CSS classes]** from the current style sheet to apply to the column container.
 

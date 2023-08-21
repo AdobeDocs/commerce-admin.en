@@ -16,11 +16,11 @@ Use the _Text_ content type to add a text container with a WYSIWYG ("What You Se
 
 You can access the text editor directly from the stage or from a settings page. Changes made directly to the stage are saved automatically. For more information, see [Using the Editor](../content-design/editor.md).
 
-![Text editor tool - TinyMCE](./assets/pb-elements-text-editor-tools.png){width="500"}
+![Text editor tool - TinyMCE](./assets/pb-elements-text-editor-tools.png){width="600"}
 
 ## Text container toolbox
 
-![Text container toolbox](./assets/pb-elements-text-toolbox.png){width="500"}
+![Text container toolbox](./assets/pb-elements-text-toolbox.png){width="600"}
 
 | Tool      | Icon                  | Description    |
 | --------- | --------------------- | -------------- |
@@ -44,7 +44,7 @@ You can access the text editor directly from the stage or from a settings page. 
 
    For more information, see [Using the Editor](../content-design/editor.md).
 
-   ![Text editor with content](./assets/pb-elements-text-editor.png){width="500"}
+   ![Text editor with content](./assets/pb-elements-text-editor.png){width="600"}
 
 ## Create a link
 

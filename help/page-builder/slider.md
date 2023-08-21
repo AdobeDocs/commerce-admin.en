@@ -99,7 +99,7 @@ You can save time by duplicating a slide that has already been configured with t
 
 1. When complete, click **[!UICONTROL Save]** to apply the settings and return to the [!DNL Page Builder] workspace.
 
-### Method 2: Add a New Blank Slide
+### Method 2: Add a new blank slide
 
 1. Hover over the slider container at the top to display the toolbox and choose the _Add_ ( ![Add icon](./assets/pb-icon-add.png){width="20"} ) icon.
 
@@ -244,7 +244,7 @@ If you click the color box to open the color picker again, the box below the sli
 
 A background type can be an image or a video. [!DNL Page Builder] defaults to `Image` and shows various image settings. If you select `Video`, [!DNL Page Builder] swaps the image settings with video settings. Both background type settings are described in the following sections.
 
-![Background type](./assets/pb-background-type.png){width="200"}
+![Background type](./assets/pb-background-type.png){width="400"}
 
 ### Image type settings
 
@@ -274,7 +274,7 @@ If you set the _[!UICONTROL Background Type]_ to `Image`, use the following sett
 
    {style="table-layout:auto"}
 
-   ![Background size](./assets/pb-layout-row-settings-background-size-cover.png){width="300"}
+   ![Background size](./assets/pb-layout-row-settings-background-size-cover.png){width="400"}
 
 - **[!UICONTROL Background Position]** - Choose how the background image is anchored in relation to the banner:
 
@@ -300,7 +300,7 @@ If you set the _Background Type_ to `Video`, use the following settings to defin
    - Vimeo videos: `https://vimeo.com/190156113`
    - Valid video files (`.mp4` is recommended): `https://myvideos.com/spiral.mp4`
 
-   ![Background video URL](./assets/pb-video-url.png){width="300"}
+   ![Background video URL](./assets/pb-video-url.png){width="500"}
 
 - **[!UICONTROL Overlay Color]** - Select a color to apply a transparent tint to the video.
 
@@ -517,7 +517,7 @@ If you want a title above the slider, simply add a [Text content type] above the
 
    For example, you can set the minimum height of a slider to stretch the full height of the page, giving you compelling options for full-page background images and videos.
 
-   ![Slider minimum height](./assets/pb-media-slider-settings-minimum-height.png){width="300"}
+   ![Slider minimum height](./assets/pb-media-slider-settings-minimum-height.png){width="400"}
 
 1. If you want the slider to begin when the page loads, set **[!UICONTROL Autoplay]** to `Yes` and set **[!UICONTROL Autoplay Speed]** to the number of milliseconds in the delay between slides.
 

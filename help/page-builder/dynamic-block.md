@@ -35,7 +35,7 @@ Use the Dynamic Block content type to add an existing [dynamic block](../content
 
 1. Hover over the empty dynamic block container to display the toolbox and choose the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png){width="20"} ) icon.
 
-   ![Dynamic Block toolbox](./assets/pb-dynamic-block-settings.png)<{width="500" zoomable="yes"}
+   ![Dynamic Block toolbox](./assets/pb-dynamic-block-settings.png){width="600" zoomable="yes"}
 
 1. On the _Edit Dynamic Block_ page, click **[!UICONTROL Select Dynamic Block]** and use the list to select the block.
 
@@ -153,6 +153,6 @@ Use the Dynamic Block content type to add an existing [dynamic block](../content
 
 ## Remove a dynamic block from the stage
 
-1. Hover over the dynamic block container to display the toolbox and choose the _Remove_ ( ![Remove icon](./assets/pb-icon-remove.png){width="200"} ) icon.
+1. Hover over the dynamic block container to display the toolbox and choose the _Remove_ ( ![Remove icon](./assets/pb-icon-remove.png){width="20"} ) icon.
 
 1. When prompted to confirm, click **[!UICONTROL OK]**.

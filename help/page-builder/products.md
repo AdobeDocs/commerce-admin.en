@@ -39,7 +39,7 @@ The following instructions show how to add a Products list to a block. You can t
 | Hide      | ![Hide icon](./assets/pb-icon-hide.png){width="25"}| Hides the current products container and its content.  |
 | Show      | ![Show icon](./assets/pb-icon-show.png){width="25"} | Shows the  hidden products container and its content.  |
 | Duplicate | ![Duplicate icon](./assets/pb-icon-duplicate.png){width="25"} | Makes a copy of the products container and its content.  |
-| Remove    | ![Remove icon](./assets/pb-icon-remove.png{width="25"}| Deletes the products container and its content from the stage. |
+| Remove    | ![Remove icon](./assets/pb-icon-remove.png){width="25"}| Deletes the products container and its content from the stage. |
 
 {style="table-layout:auto"}
 
@@ -157,7 +157,7 @@ Complete the _Settings_ according to the following sections:
 
    If you switch between these two modes, the other carousel settings are retained, except for the **[!UICONTROL Infinite Loop]** setting, which is always set to `Yes` in Continuous mode and the field is disabled.
 
-   ![Carousel Settings](./assets/pb-products-carousel-settings.png){width="500"}
+   ![Carousel Settings](./assets/pb-products-carousel-settings.png){width="600" zoomable="yes"}
 
 1. If needed, set the **[!UICONTROL Autoplay]** option to `Yes`.
 
@@ -241,6 +241,6 @@ In the upper-right corner, click **[!UICONTROL Save]** to apply the settings and
 
 If you configured a product carousel, it should look similar to the following example:
 
-![Product carousel on the stage](./assets/pb-products-admin-carousel.png){width="500"}
+![Product carousel on the stage](./assets/pb-products-admin-carousel.png){width="600"}
 
 You can now use a [widget](../content-design/widgets.md) to place this block wherever you want it to appear in the store. Or, you can use [Add Content - Block](block.md) to add the block to an existing page, tab, or block.

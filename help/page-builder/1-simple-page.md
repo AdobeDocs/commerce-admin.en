@@ -1,10 +1,10 @@
 ---
-title: '[!DNL Page Builder] Walkthrough Part 1: Simple Page'
+title: '[!DNL Page Builder] Walkthrough part 1: simple page'
 description: Use the sample files and follow the steps to create a simple page in the [!DNL Page Builder] interface.
 exl-id: 2c146241-675f-4d23-9513-1722d5dd3357
 feature: Page Builder, Page Content
 ---
-# Walkthrough Part 1: Simple Page
+# [!DNL Page Builder] Walkthrough part 1: simple page
 
 Follow this three-part exercise to become familiar with the [!DNL Page Builder] workspace by creating a simple page that illustrates how easy it is to create content-rich pages of your own design.
 
@@ -245,8 +245,6 @@ In this part of the Simple Page exercise, you create a page that has a full-blee
 
 1. If prompted, click the [Cache Management](../systems/cache-management.md) link in the message at the top of the page and refresh any invalid cache.
 
-**Congratulations!** You have completed the first part of the Simple Page exercise. Keep the work that you created, so you can refer to it later.
-
 ## Part 2: Contained row with two equal columns
 
 In this part of the exercise, you add a row to the page, and divide the row into two equal columns. Then, you add a linked image to each column. In the instructions, each new row is added before the first row to make the [!DNL Page Builder] panel line up with the stage. At the end of the exercise, you rearrange the rows so they match the Simple Page example.
@@ -346,8 +344,6 @@ In this step, you learn how to upload an image to the banner.
 1. In the upper-right corner, click the **[!UICONTROL Save]** arrow and choose **[!UICONTROL Save & Close]**.
 
 1. When prompted, click the [Cache Management](../systems/cache-management.md) link in the message at the top of the page and refresh any invalid cache.
-
-**Congratulations!** You have completed the second part of the Simple Page tutorial. Keep the work that you created, so you can refer to it later.
 
 ## Part 3: Full-width row with unequal columns
 
@@ -575,6 +571,6 @@ With all three rows complete, the final step is to rearrange the rows to match t
 
 1. If prompted, click the [Cache Management](../systems/cache-management.md) link in the message at the top of the page and refresh any invalid cache.
 
-**Congratulations!** You have completed the third part of the Simple Page exercise. Keep the work that you created, so you can refer to it later.
+You have completed the Simple Page exercise. Keep the work that you created, so you can refer to it later.
 
 When you are ready, proceed to [Part 2: Blocks](2-blocks.md).

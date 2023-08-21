@@ -49,7 +49,6 @@ When you open the [!DNL Page Builder] workspace from the preview, the stage is t
 A _viewport_ is the visible area of a web page that a user sees. In full-screen design mode, the viewport buttons are displayed above the [!DNL Page Builder] stage to show you the content as the site user sees it on the storefront.
 
 ![Viewport buttons](./assets/pb-workspace-viewport-buttons.png){width="500" zoomable="yes"}
-_Viewport buttons_
 
 [!DNL Page Builder] also defines breakpoints for viewports. Breakpoints define minimum and maximum widths within which certain styles are applied. The [!DNL Page Builder] viewports provide the following content breakpoints:
 
