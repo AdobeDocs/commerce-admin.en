@@ -2,7 +2,7 @@
 title: Add product videos
 description: Learn how to configure product videos for your store, which requires a YouTube data API key from a Google account, and add a video link for a product.
 exl-id: 0cfcee67-a2e2-41cb-ac70-304452f5db6d
-feature: Catalogs, Products, Media
+feature: Catalog Management, Products, Media
 ---
 # Add product videos
 

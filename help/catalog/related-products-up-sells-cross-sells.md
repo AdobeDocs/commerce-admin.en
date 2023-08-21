@@ -2,7 +2,7 @@
 title: Product settings - [!UICONTROL Related Products, Up-Sells, and Cross-Sells]
 description: For a product, the [!UICONTROL Related Products, Up-Sells, and Cross-Sells] settings define simple promotional blocks on the product page that highlight a selection of additional products.
 exl-id: 5bd65fad-4e55-40db-8702-10c366261565
-feature: Catalogs, Products, Page Content
+feature: Catalog Management, Products, Page Content
 ---
 # Product settings - [!UICONTROL Related Products, Up-Sells, and Cross-Sells]
 

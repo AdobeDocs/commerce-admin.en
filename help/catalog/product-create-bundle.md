@@ -2,7 +2,7 @@
 title: Bundle product
 description: Learn how to create a bundle product that allows shoppers to build a customized product in your store.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
-feature: Catalogs, Products
+feature: Catalog Management, Products
 ---
 # Bundle product
 

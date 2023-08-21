@@ -2,7 +2,7 @@
 title: Product settings - [!UICONTROL Search Engine Optimization]
 description: For a product, the [!UICONTROL Search Engine Optimization] settings set the URL Key and meta data that are used by search engines to index the product.
 exl-id: 78888094-759c-4e45-afcd-65858ee76159
-feature: Catalogs, Products, Search
+feature: Catalog Management, Products, Search
 ---
 # Product settings - [!UICONTROL Search Engine Optimization]
 

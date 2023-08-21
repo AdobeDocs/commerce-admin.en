@@ -2,7 +2,7 @@
 title: Categories overview
 description: Before you add products to your store, define the basic category structure of your catalog.
 exl-id: 818c012a-ad46-458f-83e5-5873bc996758
-feature: Catalogs, Categories
+feature: Catalog Management, Categories
 ---
 # Categories overview
 
