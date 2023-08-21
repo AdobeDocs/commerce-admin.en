@@ -2,7 +2,7 @@
 title: Add attributes to a product
 description: Learn how to add attributes to products in your catalog.
 exl-id: 1f92807a-2362-48a2-8d3a-4aef90a5671f
-feature: Catalogs, Products
+feature: Catalog Management, Products
 ---
 # Add attributes to a product
 

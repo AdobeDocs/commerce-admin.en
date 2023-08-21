@@ -2,7 +2,7 @@
 title: Product image configuration
 description: Learn how to set a maximum pixel size (width and height) and automatically resize product image files during upload.
 exl-id: d8fce5f8-eddf-4335-9a72-24036db077db
-feature: Catalogs, Products, Media
+feature: Catalog Management, Products, Media
 ---
 # Product image configuration 
 
