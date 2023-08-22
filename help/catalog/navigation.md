@@ -2,7 +2,7 @@
 title: Catalog navigation
 description: Learn about the concept of catalog navigation in a web store.
 exl-id: b22bde2d-031a-4fa1-9c34-29ae9eadad6c
-feature: Catalogs, Site Navigation
+feature: Catalog Management, Site Navigation
 ---
 # Catalog navigation
 

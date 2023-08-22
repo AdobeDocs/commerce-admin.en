@@ -3,7 +3,7 @@ user-guide-title: Catalog Management Guide
 user-guide-description: Comprehensive information about catalog management features for Adobe Commerce and Magento Open Source administrators and eCommerce marketers.
 breadcrumb-title: Catalog Management
 role: Admin, Leader, User
-feature: Catalogs
+feature: Catalog Management
 ---
 
 # Catalog Management Guide {#catalog}
@@ -59,6 +59,9 @@ feature: Catalogs
     + [Image asset configuration](product-image-config.md)
     + [Manage product images](product-image.md)
     + [Add product videos](product-video.md)
+    + Manage product 3D models {#product-3d-model}
+        + [AR Viewer overview](ar-viewer-overview.md)
+        + [AR Viewer setup](ar-viewer-setup.md)
   + Manage pricing {#pricing}
     + [Price scope](catalog-price-scope.md)
     + [Advanced pricing](pricing-advanced.md)

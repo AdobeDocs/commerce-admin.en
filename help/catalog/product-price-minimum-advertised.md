@@ -2,7 +2,7 @@
 title: Minimum advertised price
 description: Learn how to use the minimum advertised price (MAP) feature to remain in compliance with the manufacturer's requirements with special pricing.
 exl-id: ccd44cfe-3967-4d82-b5b2-3f92701d152e
-feature: Catalogs, Products
+feature: Catalog Management, Products
 ---
 # Minimum advertised price
 

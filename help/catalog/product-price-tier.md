@@ -2,7 +2,7 @@
 title: Tier pricing
 description: Learn how to use tier pricing to offer a quantity discount from a product listing or product page.
 exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
-feature: Catalogs, Products
+feature: Catalog Management, Products
 ---
 # Tier pricing
 
