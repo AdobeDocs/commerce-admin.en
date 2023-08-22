@@ -8,7 +8,7 @@ feature: Page Builder, Page Content
 
 Use the _Slider_ content type to add a slideshow of images to the [[!DNL Page Builder] stage](workspace.md#stage). You can upload new images or choose existing images from the gallery or product catalog. A slider can be set to play automatically or be controlled manually with navigation buttons. To associate the slider with a specific promotion, see [Dynamic Block](dynamic-block.md).
 
-![Media slider on the storefront](./assets/pb-media-slider-buy3-get1free-storefront.png)<!-- zoom -->
+![Media slider on the storefront](./assets/pb-media-slider-buy3-get1free-storefront.png){width="700" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -18,15 +18,15 @@ When you are working with the Slider content type, you add and edit individual s
 
 ## Individual slide toolbox
 
-![Individual slide toolbox](./assets/pb-media-slider-toolbox-slide-row.png)<!-- zoom -->
+![Individual slide toolbox](./assets/pb-media-slider-toolbox-slide-row.png){width="500" zoomable="yes"}
 
 |Tool|Icon|Description|
 |--- |--- |--- |
-|Move|![Move icon](./assets/pb-icon-move.png)<!-- width="25px" -->|Moves the slide to another position on the slider.|
+|Move|![Move icon](./assets/pb-icon-move.png){width="25"}|Moves the slide to another position on the slider.|
 |(label)|Slide #|Identifies the number of the current slide.|
-|Settings|![Settings icon](./assets/pb-icon-settings.png)<!-- width="25px" -->|Opens the _[!UICONTROL Edit Slide]_ page, where you can change the properties of the current slide.|
-|Duplicate|![Duplicate icon](./assets/pb-icon-duplicate.png)<!-- width="25px" -->|Makes a copy of the current slide.|
-|Remove|![Remove icon](./assets/pb-icon-remove.png)<!-- width="25px" -->|Deletes the current slide from the slider.|
+|Settings|![Settings icon](./assets/pb-icon-settings.png){width="25"}|Opens the _[!UICONTROL Edit Slide]_ page, where you can change the properties of the current slide.|
+|Duplicate|![Duplicate icon](./assets/pb-icon-duplicate.png){width="25"}|Makes a copy of the current slide.|
+|Remove|![Remove icon](./assets/pb-icon-remove.png){width="25"}|Deletes the current slide from the slider.|
 
 {style="table-layout:auto"}
 
@@ -34,13 +34,13 @@ When you are working with the Slider content type, you add and edit individual s
 
 |Tool|Icon|Description|
 |--- |--- |--- |
-|Move|![Move icon](./assets/pb-icon-move.png)<!-- width="25px" -->|Moves the slider to another position on the stage.|
+|Move|![Move icon](./assets/pb-icon-move.png){width="25"}|Moves the slider to another position on the stage.|
 |(label)|[!UICONTROL Slider]|Identifies the slider container.|
-|Settings|![Settings icon](./assets/pb-icon-settings.png)<!-- width="25px" -->|Opens the _[!UICONTROL Edit Slider]_ page, where you can change the properties of the video and container.|
-|Hide|![Hide icon](./assets/pb-icon-hide.png)<!-- width="25px" -->|Hides the current slider.|
-|Show|![Show icon](./assets/pb-icon-show.png)<!-- width="25px" -->|Shows the  hidden slider.|
-|Duplicate|![Duplicate icon](./assets/pb-icon-duplicate.png)<!-- width="25px" -->|Makes a copy of the slider.|
-|Remove|![Remove icon](./assets/pb-icon-remove.png)<!-- width="25px" -->|Deletes the slider from the stage.|
+|Settings|![Settings icon](./assets/pb-icon-settings.png){width="25"}|Opens the _[!UICONTROL Edit Slider]_ page, where you can change the properties of the video and container.|
+|Hide|![Hide icon](./assets/pb-icon-hide.png){width="25"}|Hides the current slider.|
+|Show|![Show icon](./assets/pb-icon-show.png){width="25"}|Shows the  hidden slider.|
+|Duplicate|![Duplicate icon](./assets/pb-icon-duplicate.png){width="25"}|Makes a copy of the slider.|
+|Remove|![Remove icon](./assets/pb-icon-remove.png){width="25"}|Deletes the slider from the stage.|
 
 {style="table-layout:auto"}
 
@@ -52,7 +52,7 @@ When you are working with the Slider content type, you add and edit individual s
 
    In the following example, the background color of the row is yellow (`#fffd16`).
 
-   ![Dragging the slider to the stage](./assets/pb-media-slider-drag-row.png)<!-- zoom -->
+   ![Dragging the slider to the stage](./assets/pb-media-slider-drag-row.png){width="600" zoomable="yes"}
 
    The slider container is displayed on the stage with a single, empty slide.
 
@@ -60,7 +60,7 @@ When you are working with the Slider content type, you add and edit individual s
 
    You can also include more complex banner content using the [Content](#content) settings.
 
-1. Click the navigation dot at the bottom of the slider to display the toolbox for the individual slide and choose the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png) ) icon.
+1. Click the navigation dot at the bottom of the slider to display the toolbox for the individual slide and choose the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png){width="20"} ) icon.
 
    Sliders have two toolboxes. Be sure that you are using the slide toolbox at the bottom.
 
@@ -84,11 +84,11 @@ To add slides, use one or a combination of the following methods:
 
 You can save time by duplicating a slide that has already been configured with the needed settings.
 
-1. Click the navigation dot below the slide to display the toolbox and choose the _Duplicate_ ( ![Duplicate icon](./assets/pb-icon-duplicate.png)) icon.
+1. Click the navigation dot below the slide to display the toolbox and choose the _Duplicate_ ( ![Duplicate icon](./assets/pb-icon-duplicate.png){width="20"} ) icon.
 
-   ![Duplicating a slide](./assets/pb-media-slider-duplicate-slide.png)<!-- zoom -->
+   ![Duplicating a slide](./assets/pb-media-slider-duplicate-slide.png){width="500" zoomable="yes"}
 
-1. Click the navigation dot for the new slide and to display the toolbox and choose the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png) ) icon.
+1. Click the navigation dot for the new slide and to display the toolbox and choose the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png){width="20"} ) icon.
 
 1. Modify the settings, as needed, according to following sections:
 
@@ -99,17 +99,17 @@ You can save time by duplicating a slide that has already been configured with t
 
 1. When complete, click **[!UICONTROL Save]** to apply the settings and return to the [!DNL Page Builder] workspace.
 
-### Method 2: Add a New Blank Slide
+### Method 2: Add a new blank slide
 
-1. Hover over the slider container at the top to display the toolbox and choose the _Add_ (![Add icon](./assets/pb-icon-add.png)) icon.
+1. Hover over the slider container at the top to display the toolbox and choose the _Add_ ( ![Add icon](./assets/pb-icon-add.png){width="20"} ) icon.
 
-   ![Adding a blank slide](./assets/pb-media-slider-toolbox-add.png)<!-- zoom -->
+   ![Adding a blank slide](./assets/pb-media-slider-toolbox-add.png){width="500" zoomable="yes"}
 
    A new blank slide with its own navigation dot and toolbox is added to the slider and displayed on the stage.
 
-   ![New slide with toolbox](./assets/pb-media-slider-slide2-toolbox.png)<!-- zoom -->
+   ![New slide with toolbox](./assets/pb-media-slider-slide2-toolbox.png){width="500" zoomable="yes"}
 
-1. Click the navigation dot for the new slide and to display the toolbox and choose the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png) ) icon.
+1. Click the navigation dot for the new slide and to display the toolbox and choose the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png){width="20"} ) icon.
 
 1. Modify the settings, as needed, according to following sections:
 
@@ -130,13 +130,13 @@ You can add any [widgets type](../content-design/widgets.md#widget-types) to you
 
 1. In the [!DNL Page Builder] panel, expand **[!UICONTROL Media]** and drag a **[!UICONTROL Slider]** placeholder to a row, column, or tab on the stage.
 
-1. Click in the slider container to display the [text editor](../content-design/editor.md) toolbar and click the _Insert Widget_ ![Insert widget icon](./assets/editor-btn-insert-widget.png) icon.
+1. Click in the slider container to display the [text editor](../content-design/editor.md) toolbar and click the _Insert Widget_ ( ![Insert widget icon](./assets/editor-btn-insert-widget.png){width="20"} ) icon.
 
 1. Select the **[!UICONTROL Widget Type]** you need.
 
 1. Specify the settings, which are different depending on the type of widget
 
-   ![Example of inserting widget on the slide](./assets/insert-widget-to-slide-page.png)<!-- zoom -->
+   ![Example of inserting widget on the slide](./assets/insert-widget-to-slide-page.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Insert Widget]** in the upper-right corner.
 
@@ -144,13 +144,13 @@ You can add any [widgets type](../content-design/widgets.md#widget-types) to you
 
 1. When complete, click **[!UICONTROL Save]** in the upper-right corner.
 
-   ![Example of inserted widget on the slide](./assets/inserting-widget-on-slide.png)<!-- zoom -->
+   ![Example of inserted widget on the slide](./assets/inserting-widget-on-slide.png){width="600" zoomable="yes"}
 
 ### View each slide
 
 To display each slide on the stage, click the next dot below the currently displayed slide.
 
-![Completed slider](./assets/pb-media-slider-slide2.png)<!-- zoom -->
+![Completed slider](./assets/pb-media-slider-slide2.png){width="500" zoomable="yes"}
 
 The slide in the preceding example has a background image, a transparent mobile image, and an inline image that was added from the text editor. This technique works well on mobile devices by turning off the background image, and displaying only the smaller inline image. The product slide in this example has the following additional settings:
 
@@ -177,7 +177,7 @@ The slide in the preceding example has a background image, a transparent mobile 
 
 1. Change the slider display on the stage and view the slide you want to change.
 
-1. On the individual slide toolbox, choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png) icon and complete the settings, as needed, according to following sections.
+1. On the individual slide toolbox, choose the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png){width="20"} ) icon and complete the settings, as needed, according to following sections.
 
 1. In the upper-right corner, click **[!UICONTROL Save]** to apply the settings and return to the [!DNL Page Builder] workspace.
 
@@ -194,13 +194,13 @@ The slide in the preceding example has a background image, a transparent mobile 
 
    {style="table-layout:auto"}
 
-   ![Slide positioning](./assets/pb-slide-appearance-collage-right.png)<!-- zoom -->
+   ![Slide positioning](./assets/pb-slide-appearance-collage-right.png){width="600" zoomable="yes"}
 
 1. Enter the **[!UICONTROL Slide Name]**.
 
    When you are working in edit mode, the slide name appears as a tooltip above the navigation dot. The slide name is not visible from the storefront.
 
-   ![Slide name in the navigation](./assets/pb-media-slider-name-buy3-get1free.png)<!-- zoom -->
+   ![Slide name in the navigation](./assets/pb-media-slider-name-buy3-get1free.png){width="500" zoomable="yes"}
 
 1. Enter the **[!UICONTROL Minimum Height]** for the slide.
 
@@ -220,7 +220,7 @@ There are many options for defining the background display of a slide. You can a
 
 Specify the background color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value. This setting determines the background color of the row. You can also adjust the opacity of the color.
 
-![No color (default)](./assets/pb-settings-background-color-no-color.png)<!-- zoom -->
+![No color (default)](./assets/pb-settings-background-color-no-color.png){width="200"}
 
 You can set the value in one of three ways:
 
@@ -230,11 +230,11 @@ You can set the value in one of three ways:
 
 If you want to choose a color, click the swatch to the left of the _No Color_ box.
 
-![Choosing a color swatch](./assets/pb-settings-background-color-picker-swatch.png)<!-- zoom -->
+![Choosing a color swatch](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
 
 If you click the color box to open the color picker again, the box below the slider shows the current red, green, blue, and alpha values (rgba). The last number indicates the current opacity percentage as a decimal. You can use the slider to adjust the opacity, or enter the desired decimal value.
 
-![Setting background color opacity](./assets/pb-settings-background-color.png)<!-- zoom -->
+![Setting background color opacity](./assets/pb-settings-background-color.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -244,13 +244,13 @@ If you click the color box to open the color picker again, the box below the sli
 
 A background type can be an image or a video. [!DNL Page Builder] defaults to `Image` and shows various image settings. If you select `Video`, [!DNL Page Builder] swaps the image settings with video settings. Both background type settings are described in the following sections.
 
-![Background type](./assets/pb-background-type.png)<!-- zoom -->
+![Background type](./assets/pb-background-type.png){width="400"}
 
 ### Image type settings
 
 If you set the _[!UICONTROL Background Type]_ to `Image`, use the following settings to define the background image display.
 
-![Banner with background image](./assets/pb-tutorial1-banner-background.png)<!-- zoom -->
+![Banner with background image](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
 
 - **[!UICONTROL Background Image]** - If needed, use the provided tools to choose a background image to apply to the banner:
 
@@ -258,7 +258,7 @@ If you set the _[!UICONTROL Background Type]_ to `Image`, use the following sett
    | ---- | ----------- |
    | [!UICONTROL Upload] | Uploads an image file from your local computer to the gallery and then applies it as the background image for the banner. |
    | [!UICONTROL Select from Gallery] | Prompts you to choose an existing image from the gallery as the background image for the banner. |
-   | ![Camera icon](./assets/pb-icon-camera.png)<!-- width="25px" --> | Allows you to either drag the image to the camera tile or browse to the image in your local file system. |
+   | ![Camera icon](./assets/pb-icon-camera.png){width="25"} | Allows you to either drag the image to the camera tile or browse to the image in your local file system. |
 
    {style="table-layout:auto"}
 
@@ -274,7 +274,7 @@ If you set the _[!UICONTROL Background Type]_ to `Image`, use the following sett
 
    {style="table-layout:auto"}
 
-   ![Background size](./assets/pb-layout-row-settings-background-size-cover.png)<!-- zoom -->
+   ![Background size](./assets/pb-layout-row-settings-background-size-cover.png){width="400"}
 
 - **[!UICONTROL Background Position]** - Choose how the background image is anchored in relation to the banner:
 
@@ -300,7 +300,7 @@ If you set the _Background Type_ to `Video`, use the following settings to defin
    - Vimeo videos: `https://vimeo.com/190156113`
    - Valid video files (`.mp4` is recommended): `https://myvideos.com/spiral.mp4`
 
-   ![Background video URL](./assets/pb-video-url.png)<!-- zoom -->
+   ![Background video URL](./assets/pb-video-url.png){width="500"}
 
 - **[!UICONTROL Overlay Color]** - Select a color to apply a transparent tint to the video.
 
@@ -324,11 +324,11 @@ You can modify the slide content directly on the stage or when you are changing 
 
 1. Use the editor toolbar to enter and format text, as well as insert elements, such as links, images, and widgets.
 
-   ![Stage with formatted text](./assets/pb-tutorial1-banner-stage-text-format-line2.png)<!-- zoom -->
+   ![Stage with formatted text](./assets/pb-tutorial1-banner-stage-text-format-line2.png){width="500" zoomable="yes"}
 
 ### Complex content in the settings
 
-1. Click the navigation dot at the bottom of the slider to display the toolbox for the individual slide and choose the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png) ) icon.
+1. Click the navigation dot at the bottom of the slider to display the toolbox for the individual slide and choose the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png){width="20"} ) icon.
 
 1. In the _[!UICONTROL Content]_ section, enter the **[!UICONTROL Message Text]** that you want to appear with the slide.
 
@@ -346,24 +346,22 @@ You can modify the slide content directly on the stage or when you are changing 
 
    - **[!UICONTROL URL]** - Links to either a relative or fully qualified URL.
 
-      ![Link to a URL](./assets/pb-media-image-settings-image-link-url-newtab.png)<!-- zoom -->
-
    - **[!UICONTROL Product]** - Identifies the destination page based on the product name or SKU. Search for the product by name based on either a partial or full name. Choose the product from the search results list.
 
-      ![Choosing a product to link](./assets/pb-media-image-settings-image-link-product-results.png)<!-- zoom -->
+      ![Choosing a product to link](./assets/pb-media-image-settings-image-link-product-results.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Category]** - Identifies the destination page as a specific category or subcategory in the category tree. Search for the category based on either a partial or full name. Choose the category from the expanded section of the displayed tree.
 
-      ![Choosing a category to link](./assets/pb-settings-link-category-womens-tees.png)<!-- zoom -->
+      ![Choosing a category to link](./assets/pb-settings-link-category-womens-tees.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Page]** - Identifies the destination page as a specific content page. Search for the page based on either a partial or full name. Choose the page from the search results list.
 
-      ![Choosing a page to link](./assets/pb-media-image-settings-image-link-page-results.png)<!-- zoom -->
+      ![Choosing a page to link](./assets/pb-media-image-settings-image-link-page-results.png){width="600" zoomable="yes"}
 
     <div class="bs-callout-info" markdown="1">
    Starting with the 2.4.1 release, [!DNL Page Builder] no longer supports linking the slide and links within the nested text due to issues with display on the storefront. If you are using a link in the _[!UICONTROL Message Text]_, you cannot configure the _[!UICONTROL Link]_ option. If you prefer to use a single link for the whole slide, you can remove all links from the text.
 
-   ![Link configuration is blocked](./assets/pb-nested-link-blocked.png)<!-- zoom -->
+   ![Link configuration is blocked](./assets/pb-nested-link-blocked.png){width="300"}
    </div>
 
    If you want to prevent the visitor from navigating away from your store, select the **[!UICONTROL Open in new tab]** checkbox. When the checkbox is cleared, the linked destination opens in the same browser tab, which could effectively navigate the visitor away from your store.
@@ -372,7 +370,7 @@ You can modify the slide content directly on the stage or when you are changing 
 
    The slide _Appearance_ position places a single link or button below the text. Complete the properties of the link or button that you want to add.
 
-   ![Slide appearance - collage right](./assets/pb-slide-appearance-collage-right.png)<!-- zoom -->
+   ![Slide appearance - collage right](./assets/pb-slide-appearance-collage-right.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -414,14 +412,14 @@ You can modify the slide content directly on the stage or when you are changing 
 
    You can use an overlay to apply a background color to the active content area that is defined by the Appearance setting. The slide background image remains visible for the full width of the slide.
 
-   ![Slide overlay settings](./assets/pb-media-slider-overlay-settings.png)<!-- zoom -->
+   ![Slide overlay settings](./assets/pb-media-slider-overlay-settings.png){width="600" zoomable="yes"}
 
    If you choose to show an overlay, set the **[!UICONTROL Overlay Color]**:
 
    - Click the _No Color_ swatch, and choose a swatch.
    - In the **[!UICONTROL Color]** field, either enter a valid color name, or hexadecimal value.
 
-   ![Slide overlay color](./assets/pb-tutorial1-banner-settings-overlay-color.png)<!-- zoom -->
+   ![Slide overlay color](./assets/pb-tutorial1-banner-settings-overlay-color.png){width="600" zoomable="yes"}
 
 
 ## [!UICONTROL Search Engine Optimization] {#seo}
@@ -468,7 +466,7 @@ Text for these settings is visible to search engines and improves the way the pa
 
 1. If you set a border style other than `None`, complete the border display options:
 
-   ![Border Color](./assets/pb-settings-border-color.png)<!-- zoom -->
+   ![Border Color](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
    | Option | Description |
    | ------ |------------ |
@@ -501,17 +499,17 @@ If you want a title above the slider, simply add a [Text content type] above the
 
    As you drag, a red guideline marks the insertion point above the slider.
 
-   ![Dragging a text placeholder above a slider](./assets/pb-media-slider-elements-text-drag.png)<!-- zoom -->
+   ![Dragging a text placeholder above a slider](./assets/pb-media-slider-elements-text-drag.png){width="600" zoomable="yes"}
 
 1. Use the editor to format the text as needed.
 
-   ![Editing the slider title text](./assets/pb-media-slider-elements-text-editor.png)<!-- zoom -->
+   ![Editing the slider title text](./assets/pb-media-slider-elements-text-editor.png){width="500" zoomable="yes"}
 
 ## Change slider settings
 
-1. Hover over the slider container to show the main toolbox and choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon.
+1. Hover over the slider container to show the main toolbox and choose the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png){width="20"} ) icon.
 
-   ![Slider toolbox](./assets/pb-media-slider-tee-shirts-main-toolbox.png)<!-- zoom -->
+   ![Slider toolbox](./assets/pb-media-slider-tee-shirts-main-toolbox.png){width="500" zoomable="yes"}
 
 1. Enter the **[!UICONTROL Minimum Height]** for the slide.
 
@@ -519,19 +517,19 @@ If you want a title above the slider, simply add a [Text content type] above the
 
    For example, you can set the minimum height of a slider to stretch the full height of the page, giving you compelling options for full-page background images and videos.
 
-   ![Slider minimum height](./assets/pb-media-slider-settings-minimum-height.png)<!-- zoom -->
+   ![Slider minimum height](./assets/pb-media-slider-settings-minimum-height.png){width="400"}
 
 1. If you want the slider to begin when the page loads, set **[!UICONTROL Autoplay]** to `Yes` and set **[!UICONTROL Autoplay Speed]** to the number of milliseconds in the delay between slides.
 
    By default, the speed is set to 4000 ms, which is four seconds. If you set autoplay to `No`, the first slide appears by default and the customer must click the slide navigation (dots or arrows) to display the next slide in sequence.
 
-   ![Slider autoplay settings](./assets/pb-media-slider-settings-autoplay.png)<!-- zoom -->
+   ![Slider autoplay settings](./assets/pb-media-slider-settings-autoplay.png){width="600" zoomable="yes"}
 
 1. To smooth the transition from one slide to the next, set **[!UICONTROL Fade]** to `Yes`.
 
    With fade, the slides seem to stay in place, but the content changes smoothy from one to the next. Without fade, you see the horizontal movement from one slide to the next.
 
-   ![Slider fade and infinite loop settings](./assets/pb-media-slider-settings-fade-infinite-loop.png)<!-- zoom -->
+   ![Slider fade and infinite loop settings](./assets/pb-media-slider-settings-fade-infinite-loop.png){width="600" zoomable="yes"}
 
 1. To make the slideshow repeat indefinitely while the page is open, set **[!UICONTROL Infinite Loop]** to `Yes`.
 
@@ -541,7 +539,7 @@ If you want a title above the slider, simply add a [Text content type] above the
 
    - To include a set of navigation dots below the slider, set **[!UICONTROL Show Dots]** to `Yes`.
 
-   ![Slider show arrows and dots](./assets/pb-media-slider-settings-show-arrows-dots.png)<!-- zoom -->
+   ![Slider show arrows and dots](./assets/pb-media-slider-settings-show-arrows-dots.png){width="600" zoomable="yes"}
 
 1. Complete the [Advanced](#slider-advanced) slider settings as needed.
 
@@ -610,8 +608,8 @@ If you want a title above the slider, simply add a [Text content type] above the
 
 1. Find the page in the _Pages_ grid and select **[!UICONTROL View]** in the _[!UICONTROL Action]_ column.
 
-   ![Slider preview - standard view](./assets/pb-media-slider-desktop-view.png)<!-- zoom -->
+   ![Slider preview - standard view](./assets/pb-media-slider-desktop-view.png){width="600" zoomable="yes"}
 
    When you preview the slider, resize the window so you can see how it appears on a mobile device.
 
-   ![Slider preview - mobile view](./assets/pb-media-slider-mobile-view.png)<!-- zoom -->
+   ![Slider preview - mobile view](./assets/pb-media-slider-mobile-view.png){width="400" zoomable="yes"}
