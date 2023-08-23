@@ -2,7 +2,7 @@
 title: '[!UICONTROL General] &gt; [!UICONTROL Reports]'
 description: Review the configurations settings on the [!UICONTROL General] &gt; [!UICONTROL Reports] page of the Commerce Admin.
 exl-id: 0ca75585-eb5d-4497-9f4e-22a788c3a2c2
-feature: Configuration, Admin Workspace
+feature: Configuration, Admin Workspace, Reporting
 ---
 # [!UICONTROL General] > [!UICONTROL Reports]
 
