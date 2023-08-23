@@ -2,7 +2,7 @@
 title: Product settings - [!UICONTROL Customizable Options]
 description: For a product, the [!UICONTROL Customizable Options] settings allow you to offer a selection of options with text, selection, and date input types.
 exl-id: 7d23c5c5-2b2a-4f2a-b843-9c27b851be5f
-feature: Catalogs, Products
+feature: Catalog Management, Products
 ---
 # Product settings - [!UICONTROL Customizable Options]
 

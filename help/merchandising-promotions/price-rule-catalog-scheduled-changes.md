@@ -2,7 +2,7 @@
 title: Scheduled changes for catalog price rules
 description: Learn how to apply catalog price rules on schedule as part of a campaign and grouped with other content changes.
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
-feature: Merchandising, Price Rules, Catalogs
+feature: Merchandising, Price Rules, Catalog Management
 ---
 # Scheduled changes for catalog price rules
 

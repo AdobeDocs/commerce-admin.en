@@ -2,7 +2,7 @@
 title: Search results
 description: Learn how to configure how your products match the search criteria entered in the Quick Search box or the Advanced Search form.
 exl-id: c721fb3b-ee31-4d2b-b4ea-9ae2c80aa800
-feature: Catalogs, Search
+feature: Catalog Management, Search
 ---
 # Search results
 

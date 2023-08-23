@@ -2,7 +2,7 @@
 title: Simple product
 description: Learn how to create a simple product that can be sold individually or as part of a grouped, configurable, or bundle product.
 exl-id: 3ac9b28d-3929-4fd6-97ca-145ea6d6897c
-feature: Catalogs, Products
+feature: Catalog Management, Products
 ---
 # Simple product
 

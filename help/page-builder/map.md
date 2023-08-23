@@ -20,7 +20,7 @@ To get the most from [!DNL Google Maps] Platform, you can customize the map, hig
 
 1. If you have a chain of physical stores, adding a Google Map on your site helps to increase your brand awareness and credibility in the form of highlighted items.
 
-![Example storefront - map with location](./assets/pb-media-maps-storefront.png)<!-- zoom -->
+![Example storefront - map with location](./assets/pb-media-maps-storefront.png){width="700" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -30,13 +30,13 @@ The map toolbox appears when you hover over the map container.
 
 |Tool|Icon|Description|
 |--- |--- |--- |
-|Move|![Move icon](./assets/pb-icon-move.png)<!-- width="25px" -->|Moves the map to another position on the stage.|
+|Move|![Move icon](./assets/pb-icon-move.png){width="25"}|Moves the map to another position on the stage.|
 |(label)|[!UICONTROL Map]|Identifies the current content container as a map. Hover over the map container to see the toolbox.|
-|Settings|![Settings icon](./assets/pb-icon-settings.png)<!-- width="25px" -->|Opens the Edit Map page, where you can change the properties of the map and container.|
-|Hide|![Hide icon](./assets/pb-icon-hide.png)<!-- width="25px" -->|Hides the current map.|
-|Show|![Show icon](./assets/pb-icon-show.png)<!-- width="25px" -->|Shows the  hidden map.|
-|Duplicate|![Duplicate icon](./assets/pb-icon-duplicate.png)<!-- width="25px" -->|Makes a copy of the map.|
-|Remove|![Remove icon](./assets/pb-icon-remove.png)<!-- width="25px" -->|Deletes the map from the stage.|
+|Settings|![Settings icon](./assets/pb-icon-settings.png){width="25"}|Opens the Edit Map page, where you can change the properties of the map and container.|
+|Hide|![Hide icon](./assets/pb-icon-hide.png){width="25"}|Hides the current map.|
+|Show|![Show icon](./assets/pb-icon-show.png){width="25"}|Shows the  hidden map.|
+|Duplicate|![Duplicate icon](./assets/pb-icon-duplicate.png){width="25"}|Makes a copy of the map.|
+|Remove|![Remove icon](./assets/pb-icon-remove.png){width="25"}|Deletes the map from the stage.|
 
 {style="table-layout:auto"}
 
@@ -64,7 +64,7 @@ Depending on whether you already have a [!DNL Google Maps] key, use one of the f
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
 
-   ![Advanced Content Tools](./assets/content-management-advanced-content-tools.png)<!-- zoom -->
+   ![Advanced Content Tools](../configuration-reference/general/assets/content-management-advanced-content-tools.png){width="600" zoomable="yes"}
 
    For more information about the Content Management Advanced Tools configuration options, see the [Configuration Reference Guide](../configuration-reference/general/content-management.md).
 
@@ -82,19 +82,19 @@ Depending on whether you already have a [!DNL Google Maps] key, use one of the f
 
 1. In the [!DNL Page Builder] panel, expand **[!UICONTROL Media]** and drag a **[!UICONTROL Map]** placeholder to the stage.
 
-   ![Dragging a map to the stage](./assets/pb-media-map-drag.png)<!-- zoom -->
+   ![Dragging a map to the stage](./assets/pb-media-map-drag.png){width="600" zoomable="yes"}
 
    If [!DNL Google Maps] Platform is configured for your store, a map appears for your store location.
 
-   ![[!DNL Google Maps]](./assets/pb-tutorial2-google-map.png)<!-- zoom -->
+   ![[!DNL Google Maps]](./assets/pb-tutorial2-google-map.png){width="600" zoomable="yes"}
 
    If [!DNL Google Maps] Platform is not yet configured for your store, a placeholder map appears instead.
 
-   ![[!DNL Google Maps] Placeholder](./assets/pb-tutorial2-media-map-not-configured.png)<!-- zoom -->
+   ![[!DNL Google Maps] Placeholder](./assets/pb-tutorial2-media-map-not-configured.png){width="600" zoomable="yes"}
 
 ## Add a custom map location
 
-1. Hover over the map container to display the toolbox and choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon.
+1. Hover over the map container to display the toolbox and choose the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png){width="20"} ) icon.
 
 1. In the upper-right corner of the _[!UICONTROL Edit Map]_ page, click **[!UICONTROL Add Location]**.
 
@@ -106,25 +106,19 @@ Depending on whether you already have a [!DNL Google Maps] key, use one of the f
 
    If necessary, go to [[!DNL Google Maps]][5] in a new browser window and use one of the following methods to get the coordinates:
 
-   ![Map Coordinates](./assets/pb-media-maps-settings-add-location-coordinates.png)<!-- zoom -->
+   ![Map Coordinates](./assets/pb-media-maps-settings-add-location-coordinates.png){width="600" zoomable="yes"}
 
    **Method 1:** Copy from URL
 
-   - In the upper-left corner, enter the address in the **[!UICONTROL Search]** box and click the _Search_ (![Search icon](../assets/icon-magnify-search.png)) icon.
+   - In the upper-left corner, enter the address in the **[!UICONTROL Search]** box and click the _Search_ ( ![Search icon](../assets/icon-magnify-search.png){width="20"} ) icon.
 
    - Copy the coordinates in the URL and paste them into a notepad.
-
-   ![[!DNL Google Maps] - copy coordinates from URL](./assets/pb-media-maps-settings-add-location-coordinates-url.png)<!-- zoom -->
 
    **Method 2:** Copy from "What's here?"
 
    - Right-click the red pin that marks the location on the map and choose **[!UICONTROL What's here?]** in the menu.
 
-      ![[!DNL Google Maps] - What's here?](./assets/pb-media-maps-settings-add-location-pin-menu.png)<!-- zoom -->
-
    - In the displayed label, copy the text, including the coordinates and paste the text into a notepad.
-
-      ![[!DNL Google Maps] - copying the coordinates](./assets/pb-media-maps-settings-add-location-label-coordinates.png)<!-- zoom -->
 
 1. Enter the numbers, without the comma, in each of the **[!UICONTROL Coordinates]** boxes.
 
@@ -148,7 +142,7 @@ Depending on whether you already have a [!DNL Google Maps] key, use one of the f
 
    The new location appears in the map and in the map location grid on the _[!UICONTROL Edit Map]_ page.
 
-   ![[!DNL Page Builder] - maps location grid](./assets/pb-media-maps-settings-add-location-grid.png)<!-- zoom -->
+   ![[!DNL Page Builder] - maps location grid](./assets/pb-media-maps-settings-add-location-grid.png){width="600" zoomable="yes"}
 
 ## Style the map {#styling}
 
@@ -164,19 +158,13 @@ Use the [!DNL Google Maps] Platform Styling Wizard to apply a one of six predefi
 
 1. Under the **[!UICONTROL Google Maps Style]** text box, click [Create Map Style][6].
 
-   ![Google Platform Maps Styling Wizard](./assets/pb-media-maps-google-platform-maps-styling-wizard.png)<!-- zoom -->
-
    This action opens the [[!DNL Google Maps] Platform Styling Wizard][6] in a separate tab, where you can define a style for your [!DNL Google Maps] Platform project.
 
 1. Click **[!UICONTROL Create a Style]** and follow the provided instructions.
 
-   ![Selecting a predefined [!DNL Google Maps] theme](./assets/pb-media-maps-google-platform-maps-styling-wizard-select-theme.png)<!-- zoom -->
-
    When complete, click **[!UICONTROL Finish]**.
 
 1. Export the completed style as JSON code or as a URL so that you can add it to the [!DNL Commerce] configuration.
-
-   ![Export Style](./assets/pb-media-maps-google-platform-maps-styling-wizard-export-style.png)<!-- zoom -->
 
    - **JSON**: Below the box with the generated JSON code, click **[!UICONTROL Copy JSON]**.
 
@@ -190,7 +178,7 @@ Use the [!DNL Google Maps] Platform Styling Wizard to apply a one of six predefi
 
 ### Change the map settings
 
-1. Hover over the map container to display the tool box and choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon.
+1. Hover over the map container to display the tool box and choose the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png){width="20"} ) icon.
 
 1. Change the basic settings as needed:
 
@@ -203,7 +191,7 @@ Use the [!DNL Google Maps] Platform Styling Wizard to apply a one of six predefi
 
 1. Modify the _[!UICONTROL Advanced]_ settings as needed:
 
-   -  To control the horizontal positioning of the map content that added to the container, choose an **[!UICONTROL Alignment]**:
+   - To control the horizontal positioning of the map content that added to the container, choose an **[!UICONTROL Alignment]**:
 
       | Option | Description |
       | ------ | ----------- |
@@ -233,7 +221,7 @@ Use the [!DNL Google Maps] Platform Styling Wizard to apply a one of six predefi
 
    - If you set a border style other than `None`, complete the border display options:
 
-      ![Border Color](./assets/pb-settings-border-color.png)<!-- zoom -->
+      ![Border Color](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
       | Option | Description |
       | ------ |------------ |
@@ -284,7 +272,7 @@ The grid size determines the size of the map related to a [column](column.md) on
 
    - For **[!UICONTROL Maximum Column Grid Size]**, enter a new value for the default maximum grid size.
 
-   ![Column grid size settings](./assets/pb-configure-advanced-content-tools-grid-size.png)<!-- zoom -->
+   ![Column grid size settings](./assets/pb-configure-advanced-content-tools-grid-size.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
