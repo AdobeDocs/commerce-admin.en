@@ -118,7 +118,7 @@ feature: Configuration, Payments
 
 >[!NOTE]
 >
->The bundled Braintree extension does not support all the local payment methods listed in the [Braintree developer documentation](https://developer.paypal.com/braintree/docs/guides/local-payment-methods/overview). Other local payment methids are under developement to be supported in future releases.
+>The bundled Braintree extension does not support all the local payment methods listed in the [Braintree developer documentation](https://developer.paypal.com/braintree/docs/guides/local-payment-methods/overview). Other local payment methods are under developement to be supported in future releases.
 
 ## [!UICONTROL GooglePay through Braintree]
 
