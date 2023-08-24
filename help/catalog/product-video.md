@@ -86,6 +86,11 @@ To add a product video, you must first obtain an API Key from your Google accoun
 
 1. When complete, click **[!UICONTROL Save]**.
 
+   >[!NOTE]
+   >
+   >If you have "Autostart base video" configuration option set to Yes, but the video does not begin to play automatically, it could be due to autoplay policies that are enforced by the browser and cannot be controlled by Adobe Commerce.
+   >Note that each supported browser has its own autoplay policies that changes over time and your video may not autoplay in the future. We recommend that you do not rely on autoplay for business critical functionality and test the video autoplay behavior in your store with each supported browser. 
+
 ## Maintain API access
 
 According to the Google developer [Terms and Conditions], YouTube may disable API access for accounts that have been inactive for more than 90 days. This occurrence could result in your videos not displaying. To keep your API access current, use a cron job to ping the API at regular intervals:
