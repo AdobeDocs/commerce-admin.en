@@ -170,7 +170,7 @@ Go to [Braintree Payments][1] and sign up for an account.
    
    >[!NOTE]
    >
-   >The bundled Braintree extension does not support all the local payment methods listed in the [Braintree developer documentation](https://developer.paypal.com/braintree/docs/guides/local-payment-methods/overview). Other local payment methods are under developement to be supported in future releases.
+   >The bundled Braintree extension does not support all the local payment methods listed in the [Braintree developer documentation](https://developer.paypal.com/braintree/docs/guides/local-payment-methods/overview). Other local payment methods are under development to be supported in future releases.
 
 1. For **[!UICONTROL Sort Order]**, enter a number to determine the sequence in which local payment method appears when listed with other payment options during the checkout.
 
