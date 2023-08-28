@@ -74,6 +74,11 @@ feature: Configuration, Inventory
 |--- |--- |--- |
 |[!UICONTROL Stock/Source reindex strategy]|Global|Determines the strategy used for stock/source reindexing. Options: `Synchronous` / `Asynchronous` (an asynchronous queue manager must be configured for async mode)|
 
+>[!NOTE]
+>
+> Due to the volatile nature of the inventory and its ordering related implications, the inventory indexer will also be triggered on product save, regardless of `Synchronous` / `Asynchronous` setting.
+
+
 {:style="table-layout:auto"}
 
 ## [!UICONTROL Distance Provider for Distance Based SSA]
