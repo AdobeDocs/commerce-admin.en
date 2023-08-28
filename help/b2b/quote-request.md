@@ -7,7 +7,7 @@ role: Admin, User
 ---
 # Request for quote
 
-If quotes are enabled in the [Sales features configuration](configure-quotes.md), an authorized buyer from a company can initiate the price negotiation process by requesting a quote from their shopping cart.
+If quotes are enabled in the [Sales features configuration](configure-quotes.md), an authorized buyer from a company can initiate the price negotiation process by requesting a quote from their shopping cart. If a buyer is not ready to submit a quote for negotiation, they can save it as a draft.
 
 >[!NOTE]
 >
