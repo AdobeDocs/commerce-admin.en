@@ -88,7 +88,7 @@ To add a product video, you must first obtain an API Key from your Google accoun
 
    >[!NOTE]
    >
-   >If the _[!UICONTROL Autostart base video]_ configuration option set to `Yes` but the video does not begin to play automatically, it could be due to the autoplay policies that are enforced by the browser and cannot be controlled by Adobe Commerce. Each supported browser has its own autoplay policies that can change over time and your video may not autoplay in the future. As a recommended best practice, you should not rely on autoplay for business critical functionality and should test the video autoplay behavior in your store with each supported browser. 
+   >If the _[!UICONTROL Autostart base video]_ configuration option is set to `Yes` but the video does not begin to play automatically, it could be due to the autoplay policies that are enforced by the browser and cannot be controlled by Adobe Commerce. Each supported browser has its own autoplay policies that can change over time and your video may not autoplay in the future. As a recommended best practice, you should not rely on autoplay for business critical functionality and should test the video autoplay behavior in your store with each supported browser. 
 
 ## Maintain API access
 
