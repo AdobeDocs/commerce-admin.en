@@ -20,7 +20,7 @@ You should have a [!DNL Google Analytics] and [!DNL Tag Manager] account to cont
 
 ## Step 1. Configure your [!DNL Google Analytics] account
 
-See [Set up Site Search][7] in Google Help for the basics you need to get started. Also see the Google guides for [Google Analytics][1] and [Google Tag Manager][2].
+See [Set up Site Search](https://support.google.com/analytics/answer/1012264) in Google Help for the basics you need to get started. Also see the Google guides for [Google Analytics](https://support.google.com/analytics/answer/1008015) and [Google Tag Manager](https://support.google.com/tagmanager/answer/6102821).
 
 1. Sign in to your [!DNL Google Analytics] account.
 
@@ -60,11 +60,11 @@ See [Set up Site Search][7] in Google Help for the basics you need to get starte
 
 ## Step 2. Configure your [!DNL Google Tag Manager] account
 
-The following instructions show how to configure a new container with the basic settings. A sample [Composer][4] configuration (.json) file is used to simplify the process, importing to generate a tag in a new container. For this example, creating a container, rather than modify an existing container, is recommended.
+The following instructions show how to configure a new container with the basic settings. A sample [Composer](https://developer.adobe.com/commerce/php/development/composer/) configuration (.json) file is used to simplify the process, importing to generate a tag in a new container. For this example, creating a container, rather than modify an existing container, is recommended.
 
 >[!NOTE]
 >
->For additional information, see Google's [Container export and import][5]. These instructions walk-through importing a sample JSON to a new container.
+>For additional information, see Google's [Container export and import](https://support.google.com/tagmanager/answer/6106997). These instructions provide a walk-through for importing a sample JSON in a new container.
 
 1. Download the linked file [GTM_M2_Config_json.txt](./assets/GTM_M2_Config_json.txt), open the file in an editor, and save it as `GTM_M2_Config.json`.
 
@@ -170,7 +170,7 @@ The following instructions show how to configure a new container with the basic 
 
 ## Create a tag to track conversions
 
-If you have a Google AdWords account, you can create a tag that tracks conversions. The following example shows how to use both [!DNL Google Tag Manager] and [!DNL Google Analytics] to create a tag that fires on your store's conversion _Success_"_ page.
+If you have a Google AdWords account, you can create a tag that tracks conversions. The following example shows how to use both [!DNL Google Tag Manager] and [!DNL Google Analytics] to create a tag that fires on your store's conversion _Success_ page.
 
 ### Step 1. Create a tag
 
@@ -183,7 +183,7 @@ If you have a Google AdWords account, you can create a tag that tracks conversio
     - Conversion ID
     - Conversion Label
 
-   If you need help, visit Google's [support site][8].
+   If you need help, visit Google's [support site](https://support.google.com/tagmanager/answer/6105160).
 
 1. From the [!DNL Google Tag Manager] dashboard, click **[!UICONTROL Google AdWords]** and do the following:
 
@@ -209,7 +209,7 @@ Continuing from the [!DNL Google Tag Manager] dashboard, the next step is to cre
 
    - **Operation** - `matches RegEx`
 
-      To learn more, see [Regex and CSS selector operators][9] in Tag Manager Help.
+      To learn more, see [Regex and CSS selector operators](https://support.google.com/tagmanager/answer/7679109) in the Google Tag Manager Help.
 
    - **[!UICONTROL Value]** - `checkout/success.*`
 
@@ -222,12 +222,3 @@ Continuing from the [!DNL Google Tag Manager] dashboard, the next step is to cre
 ### Step 3. Preview and publish
 
 The next step in the process is to preview the tag. Each time the tag is previewed, a snapshot of the version is saved. When you are satisfied with the results, go to the version that you want to use and click **[!UICONTROL Publish]**.
-
-
-[1]: https://support.google.com/analytics/answer/1008015
-[2]: https://support.google.com/tagmanager/answer/6102821
-[4]: https://developer.adobe.com/commerce/php/development/composer/
-[5]: https://support.google.com/tagmanager/answer/6106997
-[7]: https://support.google.com/analytics/answer/1012264
-[8]: https://support.google.com/tagmanager/answer/6105160
-[9]: https://support.google.com/tagmanager/answer/7679109
