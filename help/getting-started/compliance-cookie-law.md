@@ -326,9 +326,10 @@ The following cookies are used when [Google Analytics](../merchandising-promotio
 - `mg_dnt`: Allows you to [restrict Adobe Commerce data collection](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/developer/setting-cookie.html) if you have custom code to manage cookie consent on your site.
 - `user_allowed_save_cookie`: Used for [cookie restriction mode](#cookie-restriction-mode).
 - `authentication_flag`: Indicates if a shopper has signed in or signed out. This cookie is updated at the same time as the `dataservices_customer_id` cookie.
-- `dataservices_customer_id`: Indicates if a shopper has signed in or signed out. This cookie does not contain the customer ID.
-- `dataservices_cart_id`: Identifies a shopper's cart actions.
-- `dataservices_product_context`: Identifies a shopper's product interactions.
+- `dataservices_customer_id`: Indicates if a shopper has signed in or signed out. This cookie contains the customer's unique ID in the system.
+- `dataservices_customer_group`: Indicates a customer's group. This cookie is stored as [sha1](https://en.wikipedia.org/wiki/SHA-1) checksum of the customer's group ID.
+- `dataservices_cart_id`: Identifies a shopper's cart actions. This cookie contains the customer's unique cart ID in the system.
+- `dataservices_product_context`: Identifies a shopper's product interactions. This cookie contains the customer's unique quote ID in the system.
 
 [1]: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
 [2]: https://support.google.com/adwords/answer/7521212

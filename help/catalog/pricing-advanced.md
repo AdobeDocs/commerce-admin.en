@@ -2,7 +2,7 @@
 title: Advanced pricing
 description: Learn about the advanced pricing controls available in Adobe Commerce.
 exl-id: 0f353341-1b6b-4093-bba9-4a1b88323f8a
-feature: Catalogs, Products
+feature: Catalog Management, Products
 ---
 # Advanced pricing
 

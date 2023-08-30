@@ -2,7 +2,7 @@
 title: Layered navigation
 description: Learn how layered navigation makes it easy for shoppers to find products based on category, price range, or any other available attribute.
 exl-id: 5f17528a-3593-449c-a044-98736a4ae913
-feature: Catalogs, Categories, Site Navigation
+feature: Catalog Management, Categories, Site Navigation
 ---
 # Layered navigation
 

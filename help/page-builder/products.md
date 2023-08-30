@@ -20,11 +20,11 @@ The product carousel provides a powerful and engaging way to show off your produ
 
 - Set the **[!UICONTROL Carousel Mode]** to `Continuous` to highlight, center, and scroll one product at a time within the carousel. The other products are visible in the list, but transparent in order to highlight the centered product.
 
-   ![Product list in continuous carousel mode](./assets/pb-products-settings-carousel-continuous.png)<!-- zoom -->
+   ![Product list in continuous carousel mode](./assets/pb-products-settings-carousel-continuous.png){width="600"}
 
 - To show and scroll up to five products at a time within the carousel, keep the **[!UICONTROL Carousel Mode]** set to `Default`.
 
-   ![Product list in default carousel mode](./assets/pb-products-settings-carousel-default.png)<!-- zoom -->
+   ![Product list in default carousel mode](./assets/pb-products-settings-carousel-default.png){width="600"}
 
 The following instructions show how to add a Products list to a block. You can then use a [widget](../content-design/widgets.md) to place the block at a specific location on any page in your store.
 
@@ -34,12 +34,12 @@ The following instructions show how to add a Products list to a block. You can t
 
 | Tool      | Icon          | Description       |
 | --------- | ------------- | ----------------- |
-| Move      | ![Move icon](./assets/pb-icon-move.png) | Moves the products container and its content to another position on the stage.  |
-| Settings  | ![Settings icon](./assets/pb-icon-settings.png) | Opens the _Edit Products_ page, where you can choose the products list and change the properties of the container. |
-| Hide      | ![Hide icon](./assets/pb-icon-hide.png)| Hides the current products container and its content.  |
-| Show      | ![Show icon](./assets/pb-icon-show.png) | Shows the  hidden products container and its content.  |
-| Duplicate | ![Duplicate icon](./assets/pb-icon-duplicate.png) | Makes a copy of the products container and its content.  |
-| Remove    | ![Remove icon](./assets/pb-icon-remove.png)| Deletes the products container and its content from the stage. |
+| Move      | ![Move icon](./assets/pb-icon-move.png){width="25"} | Moves the products container and its content to another position on the stage.  |
+| Settings  | ![Settings icon](./assets/pb-icon-settings.png){width="25"} | Opens the _Edit Products_ page, where you can choose the products list and change the properties of the container. |
+| Hide      | ![Hide icon](./assets/pb-icon-hide.png){width="25"}| Hides the current products container and its content.  |
+| Show      | ![Show icon](./assets/pb-icon-show.png){width="25"} | Shows the  hidden products container and its content.  |
+| Duplicate | ![Duplicate icon](./assets/pb-icon-duplicate.png){width="25"} | Makes a copy of the products container and its content.  |
+| Remove    | ![Remove icon](./assets/pb-icon-remove.png){width="25"}| Deletes the products container and its content from the stage. |
 
 {style="table-layout:auto"}
 
@@ -57,15 +57,13 @@ The following instructions show how to add a Products list to a block. You can t
 
 1. In the [!DNL Page Builder] panel, expand **[!UICONTROL Add Content]** and drag a **[!UICONTROL Products]** placeholder to the stage.
 
-   ![Add Products content type](./assets/pb-add-content-products-drag.png)<!-- zoom -->
-   _Adding the Products content type_
+   ![Add Products content type](./assets/pb-add-content-products-drag.png){width="600" zoomable="yes"}
 
 ## Configure the products list container
 
-Hover over the empty _Products_ container to display the toolbox and click the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon.
+Hover over the empty _Products_ container to display the toolbox and click the _Settings_ (![Settings icon](./assets/pb-icon-settings.png){width="20"} ) icon.
 
-![Products Toolbox](./assets/pb-add-content-products-toolbox.png)<!-- zoom -->
-_Products toolbox_
+![Products Toolbox](./assets/pb-add-content-products-toolbox.png){width="500" zoomable="yes"}
 
 Complete the _Settings_ according to the following sections:
 
@@ -80,8 +78,7 @@ Complete the _Settings_ according to the following sections:
 
    {style="table-layout:auto"}
 
-   ![Product appearance](./assets/pb-products-appearances.png)<!-- zoom -->
-   _Setting the product appearance_
+   ![Product appearance](./assets/pb-products-appearances.png){width="300"}
 
    If you choose the product carousel, you must also configure the [Carousel Settings](#carousel-settings).
 
@@ -91,26 +88,23 @@ Complete the _Settings_ according to the following sections:
 
    - **[!UICONTROL Category]** - Choose this option to display products using a selected category.
 
-      ![Product selection by category](./assets/pb-products-settings_category.png)<!-- zoom -->
-      _Selecting products by category_
+      ![Product selection by category](./assets/pb-products-settings_category.png){width="500"}
 
       When selected, this option provides a **[!UICONTROL Category]** selector. Click the arrow and drill down to choose the category of products to display. For example, in the [!DNL Commerce] sample data, drilling in and selecting the _Women > Tops > Tees_ displays all products for that category.
 
-      ![Selecting a catalog category](./assets/pb-select-products-by-category.png)<!-- zoom -->
+      ![Selecting a catalog category](./assets/pb-select-products-by-category.png){width="500"}
 
    - **[!UICONTROL SKU]** - Choose this option to display products using one or more SKUs
 
       When selected, this option provides a **[!UICONTROL Product SKUs]** text box where you must enter a comma-separated list of SKUs to display.
 
-      ![Product selection by SKU](./assets/pb-products-settings_sku.png)<!-- zoom -->
-      _Selecting products by SKU_
+      ![Product selection by SKU](./assets/pb-products-settings_sku.png){width="500"}
 
    - **[!UICONTROL Condition]** - Choose this option to display products according to one or more conditions that you define.
 
       When selected, there are tools available to add conditions to your products selection. For example, you could select only products with a Gender set to Unisex.
 
-      ![Product selection by condition](./assets/pb-products-settings_condition.png)<!-- zoom -->
-      _Selecting products by condition_
+      ![Product selection by condition](./assets/pb-products-settings_condition.png){width="500"}
 
       >[!NOTE]
       >
@@ -136,7 +130,7 @@ Complete the _Settings_ according to the following sections:
 
    {style="table-layout:auto"}
 
-   ![Product sorting options](./assets/pb-products-sortby.png)<!-- zoom -->
+   ![Product sorting options](./assets/pb-products-sortby.png){width="300"}
 
 1. Enter the **[!UICONTROL Number of Products to Display]** in the carousel or grid.
 
@@ -163,7 +157,7 @@ Complete the _Settings_ according to the following sections:
 
    If you switch between these two modes, the other carousel settings are retained, except for the **[!UICONTROL Infinite Loop]** setting, which is always set to `Yes` in Continuous mode and the field is disabled.
 
-   ![Carousel Settings](./assets/pb-products-carousel-settings.png)<!-- zoom -->
+   ![Carousel Settings](./assets/pb-products-carousel-settings.png){width="600" zoomable="yes"}
 
 1. If needed, set the **[!UICONTROL Autoplay]** option to `Yes`.
 
@@ -247,6 +241,6 @@ In the upper-right corner, click **[!UICONTROL Save]** to apply the settings and
 
 If you configured a product carousel, it should look similar to the following example:
 
-![Product carousel on the stage](./assets/pb-products-admin-carousel.png)<!-- zoom -->
+![Product carousel on the stage](./assets/pb-products-admin-carousel.png){width="600"}
 
 You can now use a [widget](../content-design/widgets.md) to place this block wherever you want it to appear in the store. Or, you can use [Add Content - Block](block.md) to add the block to an existing page, tab, or block.

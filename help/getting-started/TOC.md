@@ -28,6 +28,7 @@ recommendations: noDisplay
     + [Overview](admin-unified-experience-integration-overview.md)
     + [Configure the integration](admin-unified-experience-integration-configure.md)
     + [Manage the Experience Cloud integration](admin-unified-experience-integration-manage.md)
+    + [Release Notes](admin-unified-experience-release-notes.md)
   + Admin tools and workspace {#tools}
     + [Workspace](admin-workspace.md)
     + [The Admin sidebar](admin-menu.md)

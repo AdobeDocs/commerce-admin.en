@@ -8,7 +8,7 @@ feature: Page Builder, Page Content
 
 When [[!DNL Page Builder] is enabled](setup.md), the _[!UICONTROL Content]_ section and content creation process are modified to take advantage of the advanced [!DNL Page Builder] tools for CMS [pages](../content-design/page-add.md), [product](../catalog/product-content.md) and [category](../catalog/categories-content-settings.md) pages, [blocks](../content-design/block-add.md), and [dynamic blocks](../content-design/dynamic-blocks.md). This section includes a _Content Heading_ field, a preview of the content, and easy access to the full-screen [!DNL Page Builder] workspace.
 
-![Content section with [!DNL Page Builder] preview](./assets/pb-content-preview.png)<!-- zoom -->
+![Content section with [!DNL Page Builder] preview](./assets/pb-content-preview.png){width="700" zoomable="yes"}
 
 ## Content Heading
 
@@ -20,13 +20,13 @@ Because search engines look for level one (H1) headings, adding a level one head
 
 For the best control over the positioning and format of headings of all levels, it is recommended that you leave the _[!UICONTROL Content Heading]_ field empty, and use the [!DNL Page Builder] [Heading](heading.md) content type.
 
-![Content Heading and other headings](./assets/pb-storefront-heading-levels.png)<!-- zoom -->
+![Content Heading and other headings](./assets/pb-storefront-heading-levels.png){width="700" zoomable="yes"}
 
 ## Preview
 
 When you expand the _[!UICONTROL Content]_ section and there is existing content created with [!DNL Page Builder], it displays a preview of the content as it would appear in a page. Click **[!UICONTROL Edit with Page Builder]** or inside the content preview area to open the [!DNL Page Builder] workspace, where you can make any needed updates.
 
-![Product description preview](./assets/pb-product-category-content-preview.png)<!-- zoom -->
+![Product description preview](./assets/pb-product-category-content-preview.png){width="500" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ When you open the [!DNL Page Builder] workspace from the preview, the stage is t
 >
 >Starting with the 2.4.1 release, content editing is now full-screen only for all areas controlled by [!DNL Page Builder]---CMS pages, product and category pages, blocks, and dynamic blocks. Full-screen editing puts the focus on your content and provides a view that better matches the user experience on the storefront.
 
-![Stage with page content](./assets/pb-workspace-simple-page.png)<!-- zoom -->
+![Stage with page content](./assets/pb-workspace-simple-page.png){width="600" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -48,8 +48,7 @@ When you open the [!DNL Page Builder] workspace from the preview, the stage is t
 
 A _viewport_ is the visible area of a web page that a user sees. In full-screen design mode, the viewport buttons are displayed above the [!DNL Page Builder] stage to show you the content as the site user sees it on the storefront.
 
-![Viewport buttons](./assets/pb-workspace-viewport-buttons.png)<!-- zoom -->
-_Viewport buttons_
+![Viewport buttons](./assets/pb-workspace-viewport-buttons.png){width="500" zoomable="yes"}
 
 [!DNL Page Builder] also defines breakpoints for viewports. Breakpoints define minimum and maximum widths within which certain styles are applied. The [!DNL Page Builder] viewports provide the following content breakpoints:
 
@@ -64,17 +63,17 @@ By default, [!DNL Page Builder] provides two viewport previews:
 
 - **Desktop** — Displays the content preview without a predefined width. Desktop-defined styles (using breakpoint minimum width of 1024 pixels) are still applied to the page. But the Desktop viewport width is defined by settings for container content types, like Rows. Selecting the Desktop viewport shows how your content is styled on the storefront when the browser page width is 1024 pixels and wider.
 
-   ![Desktop viewport preview with 1024 pixel minimum width](./assets/pb-workspace-viewport-desktop.png)<!-- zoom -->
+   ![Desktop viewport preview with 1024 pixel minimum width](./assets/pb-workspace-viewport-desktop.png){width="500" zoomable="yes"}
 
 - **Mobile** — Displays the content preview at a predefined width of 768 pixels. Unlike the Desktop viewport, the Mobile viewport does show your page content at a width of 768 pixels, along with the styles defined for the breakpoint widths of 768 pixels (maximum) and 640 pixels (minimum).
 
-   ![Mobile viewport preview with 768 pixel minimum width](./assets/pb-workspace-viewport-mobile.png)<!-- zoom -->
+   ![Mobile viewport preview with 768 pixel minimum width](./assets/pb-workspace-viewport-mobile.png){width="500" zoomable="yes"}
 
 ### Breakpoint settings
 
 The viewport buttons also provide the option to apply different breakpoint styles to content types based on the selected viewport. By default, [!DNL Page Builder] provides breakpoint settings for the _[!UICONTROL Minimum Height]_ fields of Rows, Columns, Tabs, Tab Items, Banners, Sliders, and Slides. When you select the Mobile viewport, then open the editor for one of those content types, you can enter field values specific to the Mobile viewport breakpoints. Content type fields that allow specific breakpoint settings display an icon to the right of the field, similar to the following example for a Row:
 
-![Icon indicator for breakpoint setting](./assets/pb-workspace-viewport-field-breakpoint.png)<!-- zoom -->
+![Icon indicator for breakpoint setting](./assets/pb-workspace-viewport-field-breakpoint.png){width="400"}
 
 ## Panel
 
@@ -86,7 +85,7 @@ The _[!UICONTROL Layout]_ section of the [!DNL Page Builder] panel is used to ad
 
 By default, the [!DNL Page Builder] stage is empty. As you drag layout content types from the panel to the stage, you can place them above, below, or inside other layout containers on the page. Rows can only be added directly to the stage.
 
-![[!DNL Page Builder] panel with layout content types and stage](./assets/pb-stage-toolbox.png)
+![[!DNL Page Builder] panel with layout content types and stage](./assets/pb-stage-toolbox.png){width="600" zoomable="yes"}
 
 | Layout content type | Description |
 | ------------------- |------------ |
@@ -100,7 +99,7 @@ By default, the [!DNL Page Builder] stage is empty. As you drag layout content t
 
 Use the _[!UICONTROL Elements]_ section of the [!DNL Page Builder] panel to add text, headings, buttons, dividers, and HTML code to any layout container on the [[!DNL Page Builder] stage](workspace.md#stage). When you drag a content type from the panel to either a row or column, or to a tab set on the stage, a container appears. Use the content type toolbox to access the settings that are specific to the type.
 
-![[!DNL Page Builder] panel with Element content types](./assets/pb-elements.png)<!-- zoom -->
+![[!DNL Page Builder] panel with Element content types](./assets/pb-elements.png){width="600" zoomable="yes"}
 
 | Element content type | Description |
 | -------------------- | ----------- |
@@ -116,7 +115,7 @@ Use the _[!UICONTROL Elements]_ section of the [!DNL Page Builder] panel to add 
 
 Use the _[!UICONTROL Media]_ section of the [!DNL Page Builder] panel to add images, video, banners, sliders, and [!DNL Google Maps] to any layout container on the [[!DNL Page Builder] stage](workspace.md#stage). When a media content type is dragged from the panel to the stage, a container appears with a toolbox of options that are specific to the content type.
 
-![[!DNL Page Builder] panel with media content types](./assets/pb-media-content-types.png)<!-- zoom -->
+![[!DNL Page Builder] panel with media content types](./assets/pb-media-content-types.png){width="600" zoomable="yes"}
 
 | Media content type  | Description                                |
 | ------------------- | ------------------------------------------ |
@@ -132,7 +131,7 @@ Use the _[!UICONTROL Media]_ section of the [!DNL Page Builder] panel to add ima
 
 Use the _[!UICONTROL Add Content]_ section of the [!DNL Page Builder] panel to add existing content to the [[!DNL Page Builder] stage](workspace.md#stage). When you drag a media content type from the panel to the stage, a container appears. Use the content type toolbox to access the _Settings_ that are specific to the type.
 
-![[!DNL Page Builder] panel with Add Content types](./assets/pb-add-content.png)<!-- zoom -->
+![[!DNL Page Builder] panel with Add Content types](./assets/pb-add-content.png){width="600" zoomable="yes"}
 
 | Content type                                                     | Description                                  |
 | ---------------------------------------------------------------- | -------------------------------------------- |
@@ -151,19 +150,19 @@ Each content container on the stage has a toolbox of options. The options vary b
 
 Hover over the container to display the toolbox and choose an option.
 
-![Row toolbox options](./assets/pb-tutorial1-row-toolbox.png)<!-- zoom -->
+![Row toolbox options](./assets/pb-tutorial1-row-toolbox.png){width="600" zoomable="yes"}
 
 ### Toolbox options
 
 | Option    | Icon                                     | Description  |
 | --------- | ---------------------------------------- | ------------ |
-| Move      | ![Move icon](./assets/pb-icon-move.png) | Moves the current content container to another position on the stage. |
-| Add       | ![Add icon](./assets/pb-icon-add.png) | Adds children elements such as a button, slide, or tab. |
+| Move      | ![Move icon](./assets/pb-icon-move.png){width="25"} | Moves the current content container to another position on the stage. |
+| Add       | ![Add icon](./assets/pb-icon-add.png){width="25"} | Adds children elements such as a button, slide, or tab. |
 | (label)   |           | Identifies the container content type.|
-| Settings  | ![Settings icon](./assets/pb-icon-settings.png) | Opens the content container properties in edit mode. |
-| Hide      | ![Hide icon](./assets/pb-icon-hide.png) | Hides the current content container.|
-| Show      | ![Show icon](./assets/pb-icon-show.png)| Shows the current content container.|
-| Duplicate | ![Duplicate icon](./assets/pb-icon-duplicate.png) | Makes a copy of the current content container. |
-| Remove    | ![Remove](./assets/pb-icon-remove.png) | Deletes the current content container from the stage. |
+| Settings  | ![Settings icon](./assets/pb-icon-settings.png){width="25"} | Opens the content container properties in edit mode. |
+| Hide      | ![Hide icon](./assets/pb-icon-hide.png){width="25"} | Hides the current content container.|
+| Show      | ![Show icon](./assets/pb-icon-show.png){width="25"}| Shows the current content container.|
+| Duplicate | ![Duplicate icon](./assets/pb-icon-duplicate.png){width="25"} | Makes a copy of the current content container. |
+| Remove    | ![Remove](./assets/pb-icon-remove.png){width="25"} | Deletes the current content container from the stage. |
 
 {style="table-layout:auto"}

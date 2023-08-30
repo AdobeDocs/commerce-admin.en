@@ -2,7 +2,7 @@
 title: Catalog price rule with multiple SKUs
 description: Learn how to apply a single catalog price rule to multiple SKUs.
 exl-id: 99023460-0501-45cd-8990-5f2b9ed7b4a2
-feature: Merchandising, Price Rules, Catalogs
+feature: Merchandising, Price Rules, Catalog Management
 ---
 # Catalog price rule with multiple SKUs
 

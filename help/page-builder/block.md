@@ -8,7 +8,7 @@ feature: Page Builder, Page Content
 
 Use the _Block_ content type to add an existing, active [block](../content-design/blocks.md) to the [[!DNL Page Builder] stage](workspace.md#stage). In the following example, the first column contains the block with a side menu for the page. The second column contains an image.
 
-![Block with a side menu](./assets/pb-add-content-block-example.png)<!-- zoom -->
+![Block with a side menu](./assets/pb-add-content-block-example.png){width="600" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -31,21 +31,21 @@ Use the _Block_ content type to add an existing, active [block](../content-desig
 
 1. In the [!DNL Page Builder] panel, expand **[!UICONTROL Add Content]** and drag a **[!UICONTROL Block]** placeholder to the stage.
 
-   ![Dragging a block onto the stage](./assets/pb-add-content-block-drag.png)<!-- zoom -->
+   ![Dragging a block onto the stage](./assets/pb-add-content-block-drag.png){width="600" zoomable="yes"}
 
-1. Hover over the empty block container to display the toolbox and choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon.
+1. Hover over the empty block container to display the toolbox and choose the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png){width="25"} ) icon.
 
 1. Click **[!UICONTROL Select Block]**.
 
-   ![Selecting a block](./assets/pb-add-content-block-select.png)<!-- zoom -->
+   ![Selecting a block](./assets/pb-add-content-block-select.png){width="200"}
 
 1. In the row of the block that you want to add, click **[!UICONTROL Select]** in the last column.
 
-   ![Selected block](./assets/pb-add-content-block-selected.png)<!-- zoom -->
+   ![Selected block](./assets/pb-add-content-block-selected.png){width="600" zoomable="yes"}
 
    The name of the selected block appears on the page.
 
-   ![Block name](./assets/pb-add-content-block-name.png)<!-- zoom -->
+   ![Block name](./assets/pb-add-content-block-name.png){width="200"}
 
 1. Complete the remaining settings as needed, using the field descriptions at the end of this page for reference.
 
@@ -108,9 +108,9 @@ Use the _Block_ content type to add an existing, active [block](../content-desig
 
 ## Edit block settings
 
-1. Hover over the block container and choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon in the toolbox.
+1. Hover over the block container and choose the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png){width="25"} ) icon in the toolbox.
 
-   ![Block Toolbox](./assets/pb-add-content-block-toolbox.png)<!-- zoom -->
+   ![Block Toolbox](./assets/pb-add-content-block-toolbox.png){width="600" zoomable="yes"}
 
 1. To choose a different block, click **[!UICONTROL Select Block]**.
 

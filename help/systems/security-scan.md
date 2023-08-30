@@ -3,7 +3,7 @@ title: Security scan
 description: Learn how to run an enhanced security scan and monitor each of your Adobe Commerce and Magento Open Source sites.
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
-feature: Configuration, Security, Storefront
+feature: Security, Site Management, Reporting
 ---
 # Security scan
 
