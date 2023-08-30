@@ -1,10 +1,10 @@
 ---
-title: Content Staging Dashboard
-description: Use the Content Staging Dashboard to access an overview of all active and upcoming campaigns.
+title: Content staging dashboard
+description: Use the content staging dashboard to access an overview of all active and upcoming campaigns.
 exl-id: 67c18c1c-94c3-4d89-ae1e-868a465431e3
 feature: Page Content, Staging
 ---
-# Content Staging Dashboard
+# Content staging dashboard
 
 {{ee-feature}}
 
@@ -26,11 +26,11 @@ The [!UICONTROL Content Staging] Dashboard provides an overview of all active an
 
    ![Four-week view](./assets/content-staging-timeline-4-week-view.png){width="600" zoomable="yes"}
 
-1. Click any item on the page to display general information about the campaign.
+1. To display general information about the campaign, click any item on the page.
 
    - To open the campaign, click **[!UICONTROL View/Edit]**.
 
-   - To see how the campaign will look to customers in the store on that day, click **[!UICONTROL Preview]**.
+   - To see how the campaign looks to customers in the store on that day, click **[!UICONTROL Preview]**.
 
    ![Campaign information](./assets/content-staging-campaign-info.png){width="600" zoomable="yes"}
 
@@ -50,7 +50,7 @@ The [!UICONTROL Content Staging] Dashboard provides an overview of all active an
 
 ## Edit a Campaign
 
-Existing campaign objects can be edited from the staging dashboard, with the exception of price rule campaigns that do not have end dates.
+Existing campaign objects can be edited from the staging dashboard, except for price rule campaigns that do not have end dates.
 
 >[!NOTE]
 >

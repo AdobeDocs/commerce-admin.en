@@ -1,9 +1,9 @@
 ---
-title: Switch the Home Page
+title: Set the home page
 description: Learn how to change the home page used as the default CMS page.
 exl-id: 0065da5a-ca55-45ef-b9a7-9b5548ef73d1
 ---
-# Switch the Home Page
+# Set the home page
 
 You can maintain a selection of different home pages, and activate the page that you want to use as the default home page.
 

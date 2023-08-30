@@ -1,16 +1,16 @@
 ---
-title: Content Staging
+title: Content staging
 description: Content Staging gives your business team the ability to easily create, preview, and schedule a wide range of content updates for your store directly from the Admin.
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
 ---
-# Content Staging
+# Content staging
 
 {{ee-feature}}
 
-Content staging gives your business team the ability to easily create, preview, and schedule a wide range of content updates for your store directly from the _Admin_. For example, rather than thinking in terms of a static page, consider a page to be a collection of different elements that can be turned _on_ or _off_ based on a schedule. You can use content staging to create a page that changes automatically throughout the year on schedule.
+Content staging gives your business team the ability to easily create, preview, and schedule a wide range of content updates for your store directly from the _Admin_. For example, rather than thinking in terms of a static page, consider a page to be a collection of different elements that can be turned _on_ or _off_ based on a schedule. You can use content staging to create a page that changes automatically throughout the year on a schedule.
 
-The term _campaign_ refers to the record of a scheduled change, or collection of changes, that might be viewed on a calendar or timeline, and managed from the Staging Dashboard. The terms _scheduled change_ and _scheduled update_ are interchangeable and refer to a single change.
+The term _campaign_ refers to the record of a scheduled change, or a collection of changes that are managed from the Staging Dashboard. The changes can be viewed on a calendar or timeline. The terms _scheduled change_ and _scheduled update_ are interchangeable and refer to a single change.
 
 When you schedule a content change for a specific time period, the content reverts to the previous version when the scheduled change expires. You can create multiple versions of the same baseline content to be used for future updates. You can also step back through the timeline to view previous versions of the content. To save a draft version, simply assign a date on the timeline that is so far into the future that it never goes into production.
 
@@ -37,7 +37,7 @@ When a new scheduled update is created for any of the following objects, a corre
 
    >[!NOTE]
    >
-   >Campaign Start Date and End Date must be defined by using the **_default_** Admin time zone, which is converted from the local time zone of each website. Consider an example where you have multiple websites in different time zones, but you want to start a campaign based on a US time zone. In this case, you must schedule separate update for each local time zone, and set **[!UICONTROL Start Date]** and **[!UICONTROL End Date]** in converted from each local website time zone to default Admin time zone.
+   >Campaign Start Date and End Date must be defined by using the **_default_** Admin time zone, which is converted from the local time zone of each website. Consider an example where you have multiple websites in different time zones, but you want to start a campaign based on a US time zone. In this case, you must schedule a separate update for each local time zone, and set **[!UICONTROL Start Date]** and **[!UICONTROL End Date]** in converted from each local website time zone to the default Admin time zone.
 
 1. **Add a second campaign**
 
@@ -45,7 +45,7 @@ When a new scheduled update is created for any of the following objects, a corre
 
    >[!NOTE]
    >
-   >All scheduled updates are applied consecutively, which means that any entity can have only one scheduled update at one point of time. Any scheduled update is applied to all store views within its time frame. As a result, an entity cannot have different scheduled updates for different store views at the same time. All entity attribute values within all store views, which are not affected by the current scheduled update, are taken from the default values, and not from the previous scheduled update.
+   >All scheduled updates are applied consecutively, which means that any entity can have only one scheduled update at one time. Any scheduled update is applied to all store views within its time frame. As a result, an entity cannot have a different scheduled update for different store views at the same time. All entity attribute values within all store views, which are not affected by the current scheduled update, are taken from the default values, and not from the previous scheduled update.
 
 1. **Restore the baseline content**
 
@@ -63,7 +63,7 @@ The [!UICONTROL Content Staging] [dashboard](content-staging-dashboard.md) provi
 
 ## Content staging demo
 
-Watch this video to learn about content staging:
+To learn about content staging, watch this video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12)
 

@@ -1,15 +1,15 @@
 ---
-title: Use a Content Delivery Network
+title: Use a content delivery network
 description: Learn how to use a Content Delivery Network (CDN) to store media files.
 exl-id: cb612b79-f3e3-4f1b-8cf9-d47886486686
 feature: Page Content, Media, Configuration
 level: Experienced
 ---
-# Use a Content Delivery Network
+# Use a content delivery network
 
-A Content Delivery Network (CDN) can be used to store media files. Although the version of [!DNL Commerce] that is installed _on premise_ does not include an integration with any specific CDN, you can use the CDN of your choice. [Adobe Commerce on cloud infrastructure][1]{:target="_blank"} is an exception to this, and includes the Fastly CDN. See [Fastly][2]{:target="_blank"} in the [!DNL Commerce] developer documentation.
+A content delivery network (CDN) can be used to store media files. Adobe Commerce on cloud infrastructure includes the Fastly CDN (see [Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html) in the _Commerce on Cloud Infrastructure Guide_). A Commerce instance that is installed _on premise_ does not include an integration with any specific CDN, you can use the CDN of your choice. 
 
-After configuring the CDN, you must complete the configuration from the Admin. The changes can be made at either the global or website level. When a CDN is used for media storage, all paths to media on store pages are changed to the CDN paths that are specified in the configuration.
+After configuring the CDN, you must complete the configuration from the Admin. The changes can be made at either the global or website level. When a CDN is used for media storage, all paths to media on Commerce store pages are changed to the CDN paths that are specified in the configuration.
 
 ## CDN workflow
 
@@ -50,6 +50,3 @@ After configuring the CDN, you must complete the configuration from the Admin. T
       Both these fields can be left blank, or can start with the placeholder: `{% raw %}{{unsecure_base_url}}{% endraw %}`
 
 1. When complete, click **[!UICONTROL Save Config]**.
-
-[1]: https://business.adobe.com/products/magento/magento-commerce.html
-[2]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html
