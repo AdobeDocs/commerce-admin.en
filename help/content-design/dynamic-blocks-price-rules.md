@@ -1,10 +1,10 @@
 ---
-title: Dynamic Blocks in Price Rules
+title: Dynamic blocks in price rules
 description: Associate a dynamic block with a promotional price rule.
 exl-id: e1564df2-1c06-4d11-a32d-6f5c0be974e3
 feature: Page Content, Price Rules
 ---
-# Dynamic Blocks in Price Rules
+# Dynamic blocks in price rules
 
 {{ee-feature}}
 

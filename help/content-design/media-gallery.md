@@ -60,9 +60,9 @@ To access the new Media Gallery when you are adding or editing a page:
 
    - If you have the [WYSIWYG editor enabled](/help/content-design/editor.md), click **[!UICONTROL Show/Hide Editor]** and then click **[!UICONTROL Insert Image]**.
 
-## Media Gallery demo
+## [!DNL Media Gallery] demo
 
-Watch this video to learn about the Media Gallery:
+To learn more about the [!DNL Media Gallery], watch this video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/343785?quality=12)
 

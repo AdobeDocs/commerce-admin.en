@@ -1,9 +1,9 @@
 ---
-title: Create and Manage Widgets
+title: Create and manage widgets
 description: Learn how to create and manage the widgets that automatically update content across your store.
 exl-id: 680f2f41-ec51-4ac6-9e92-2817591af3e6
 ---
-# Create and Manage Widgets
+# Create and manage widgets
 
 Widgets are reusable components. You can easily create widgets, and modify existing ones to automatically update content across your store. You can also delete widgets that are no longer in use.
 
@@ -23,7 +23,7 @@ The process of creating a widget is nearly the same for each [widget type](widge
 
    - Set **[!UICONTROL Type]** to the widget type that you want to create.
 
-   - Verify that **[!UICONTROL Design Theme]** is set to the current theme.
+   - Verify that the **[!UICONTROL Design Theme]** is set to the current theme.
 
       ![Widget settings](./assets/widget-settings.png){width="600" zoomable="yes"}
 
@@ -82,7 +82,7 @@ The options for each widget type vary slightly, but the process is essentially t
 
 1. When complete, click **[!UICONTROL Save]**.
 
-1. When prompted, follow the instructions at the top of the workspace to update the cache, as needed.
+1. When prompted, follow the instructions at the top of the workspace to update the cache as needed.
 
 1. Return to your storefront to verify that the widget is working correctly.
 
@@ -90,7 +90,7 @@ The options for each widget type vary slightly, but the process is essentially t
 
 ## Widget creation demo
 
-Watch this video to learn about creating widgets:
+To learn about creating widgets, watch this video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/343786?quality=12)
 
@@ -98,7 +98,7 @@ Watch this video to learn about creating widgets:
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Elements]_ > **[!UICONTROL Widgets]**.
 
-1. Locate the widget using filters above the grid and click the widget name.
+1. Locate the widget by using the filters above the grid and then click the widget name.
 
 1. Make needed changes.
 
@@ -110,7 +110,7 @@ Watch this video to learn about creating widgets:
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Elements]_ > **[!UICONTROL Widgets]**.
 
-1. Locate the widget using filters above the grid, select the checkbox of the widgets to be deleted.
+1. Locate the widgets by using the filters above the grid and then select the checkbox of the widgets to be deleted.
 
 1. In the upper-left corner of the list, set **[!UICONTROL Actions]** to `Delete`.
 

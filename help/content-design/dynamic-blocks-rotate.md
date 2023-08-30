@@ -1,9 +1,9 @@
 ---
-title: Add a Rotating Dynamic Block
+title: Add a rotating dynamic block
 description: Present a slide show of interactive content on the storefront by adding multiple dynamic blocks to a rotator.
 exl-id: 3d338014-cf26-4171-b48b-d37b3d7b0e81
 ---
-# Add a Rotating Dynamic Block
+# Add a rotating dynamic block
 
 {{ee-feature}}
 
@@ -71,7 +71,7 @@ To [create the dynamic blocks](dynamic-blocks.md) that you want to place in the 
 
 1. For the **[!UICONTROL Dynamic Blocks to Display]**, accept `Specified Dynamic Blocks`.
 
-   This setting determines the type of dynamic blocks are included in the rotator.
+   This setting determines the type of dynamic blocks that are included in the rotator.
 
    - `Specified Dynamic Blocks` - Includes only specific dynamic blocks.
    - `Cart Price Rule Related` - Includes only dynamic blocks that are associated with a cart price rule.

@@ -1,12 +1,12 @@
 ---
-title: Media Gallery Image Optimization
+title: Media Gallery image optimization
 description: Learn how to use image optimization for your [!DNL Commerce] media assets.
 exl-id: ba75e90a-406b-4b14-b049-0b78c4a27188
 feature: Page Content, Media
 ---
-# Media Gallery Image Optimization
+# Media Gallery image optimization
 
-The new [Media Gallery](media-gallery.md) provides an _Image Optimization_ feature, which improves performance and decreases media file sizes on the storefront. This optimization is enabled by default and can be modified in the store configuration settings.
+The new [Media Gallery](media-gallery.md) provides an _image optimization_ feature, which improves performance and decreases media file sizes on the storefront. This optimization is enabled by default and can be modified in the store configuration settings.
 
 ## Configure image optimization
 
@@ -21,7 +21,7 @@ The new [Media Gallery](media-gallery.md) provides an _Image Optimization_ featu
 
 ## Behavior
 
-When Media Gallery Image Optimization functionality is enabled, an optimized copy of an image is automatically inserted in the content from the [Media Gallery](media-gallery.md) instead of the original file.
+When Media Gallery image optimization functionality is enabled, an optimized copy of an image is automatically inserted in the content from the [Media Gallery](media-gallery.md) instead of the original file.
 
 When the _Maximum Width_ and _Maximum Height_ values are changed in the configuration, it updates all the existing optimized images that were previously inserted.
 

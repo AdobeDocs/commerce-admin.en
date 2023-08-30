@@ -1,11 +1,15 @@
 ---
-title: Insert an Image in the Editor
-description: The editor provides an easy way to insert an image from the media storage, link to an image that resides on another server, or use Adobe Stock assets.
+title: Insert an image in the editor
+description: The WYSIWYG editor provides an easy way to insert an image from the media storage, link to an image that resides on another server, or use Adobe Stock assets.
 exl-id: 591830c9-6dba-4738-a6e7-cf5f93b3c319
 ---
-# Insert an Image in the Editor
+# Insert an image in the editor
 
-From the editor, you can insert an image that has been uploaded to the [media storage](media-storage.md), link to an image that resides on another server, or use the Adobe Stock integration to search for and use Adobe Stock assets.
+From the editor, you can insert an image using three source types:
+
+- Add an image that has been uploaded to the [media storage](media-storage.md)
+- Link to an image that resides on another server
+- Use the Adobe Stock integration to search for and use Adobe Stock assets
 
 ![Media Storage](./assets/media-storage.png){width="650" zoomable="yes"}
 
@@ -51,7 +55,7 @@ From the editor, you can insert an image that has been uploaded to the [media st
 
       - Save the preview or licensed image to the gallery.
 
-         See [Using Adobe Stock Images](adobe-stock-manage.md) for more information about working with [Adobe Stock][adobe-stock] assets.
+         See [Using Adobe Stock Images](adobe-stock-manage.md) for more information about working with [Adobe Stock](https://stock.adobe.com) assets.
 
       - Select the asset thumbnail in the gallery and click **[!UICONTROL Add Selected]**.
 
@@ -62,5 +66,3 @@ From the editor, you can insert an image that has been uploaded to the [media st
    Keep the **[!UICONTROL Constrain proportions]** checkbox selected to automatically maintain the aspect ratio for the image.
 
 1. Click **[!UICONTROL Insert]** to complete the process.
-
-[adobe-stock]: https://stock.adobe.com
