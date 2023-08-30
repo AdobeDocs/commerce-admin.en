@@ -8,7 +8,7 @@ feature: Page Content, Media
 
 Media storage helps you organize and gain access to media files that are stored on the server. The path to the location of the files is determined by the [base URL](../stores-purchase/store-urls.md) configuration. Files in media storage can be accessed from the editor while working on pages and static blocks. Usually, media storage resides in the file system on the same server as the [!DNL Commerce] program files.
 
-Alternatively, media files can be managed in a [database](media-storage-database.md), or on a separate server or [content delivery network](media-storage-content-delivery-network.md). The advantage of using alternate storage is that it minimizes the effort required to synchronize media. Synchronization performance is especially affected when that are multiple instances of the system are deployed on different servers that need access to the same images, CSS files, and other media files.
+Alternatively, media files can be managed in a [database](media-storage-database.md), or on a separate server or [content delivery network](media-storage-content-delivery-network.md). The advantage of using alternate storage is that it minimizes the effort required to synchronize media. Synchronization performance is especially affected when multiple instances of the system are deployed on different servers that need access to the same images, CSS files, and other media files.
 
 The editor can be configured to use either static or [dynamic media URLs](../catalog/catalog-urls.md#configure-catalog-media-url-format) for catalog content in category or product descriptions.
 
