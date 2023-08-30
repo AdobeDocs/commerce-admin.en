@@ -2,6 +2,7 @@
 title: System notifications
 description: Learn how to use the Notifications page to review messages regarding system operations.
 exl-id: 6577f9c7-41dd-4ceb-8d8b-4b84d8bcbd17
+feature: System, Admin Workspace
 ---
 # System notifications
 
@@ -19,7 +20,7 @@ The _Notifications_ page lists all messages ranked by severity, with the most re
 
    - To keep the message in your inbox, click **[!UICONTROL Mark As Read]**.
 
-      ![Admin - notifications](./assets/admin-notifications-mark-as-read.png)<!-- zoom -->
+      ![Admin - notifications](./assets/admin-notifications-mark-as-read.png){width="700" zoomable="yes"}
 
    - To delete the message, click **[!UICONTROL Remove]**.
 

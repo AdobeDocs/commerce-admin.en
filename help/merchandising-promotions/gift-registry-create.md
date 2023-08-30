@@ -2,6 +2,7 @@
 title: Gift registry setup
 description: Learn how to set up gift registry types for your store customers.
 exl-id: d618c769-10be-4881-a799-42484d35c57b
+feature: Gift, Storefront
 ---
 # Gift registry setup
 
@@ -17,7 +18,7 @@ When you create a registry, it becomes an option in the list of gift registry ty
 
 You can use one of the three prepared gift registries, or create your own custom registry. Each gift registry type includes several attributes, which are the data entry fields that a customer completes to create a gift registry. The attributes provide additional information about the event, time and location, or any other information that is needed. Depending on the input type, some attributes have multiple options. For example, the `Wedding` gift registry type has the attribute `Role`, with the `Bride`, `Groom`, and `Partner` options. To learn more about attributes and input types, see [Attributes](../customers/attribute-properties.md).
 
-![Gift registry types](./assets/gift-registry-types.png)<!-- zoom -->
+![Gift registry types](./assets/gift-registry-types.png){width="700" zoomable="yes"}
 
 ## Use a prepared gift registry
 
@@ -47,13 +48,13 @@ You can use one of the three prepared gift registries, or create your own custom
 
    - To activate the gift registry, set **[!UICONTROL Is Listed]** to `Yes`.
 
-      ![Gift registry - general information](./assets/gift-registry-new-general-information.png)<!-- zoom -->
+      ![Gift registry - general information](./assets/gift-registry-new-general-information.png){width="600" zoomable="yes"}
 
 1. Examine each section of the Gift Registry to determine the type of information you want to include.
 
 1. In the left panel, choose **[!UICONTROL Attributes]** and click **[!UICONTROL Add Attribute]**.
 
-   ![Gift registry - new attribute](./assets/gift-registry-type-new-attribute.png)<!-- zoom -->
+   ![Gift registry - new attribute](./assets/gift-registry-type-new-attribute.png){width="600" zoomable="yes"}
 
 1. For each attribute, do the following:
 

@@ -2,6 +2,7 @@
 title: Flat rate shipping
 description: Learn how to set up a flat-rate shipping option for your store.
 exl-id: a6874509-a79b-42ab-aa93-d70d18fc33f6
+feature: Shipping/Delivery
 ---
 # Flat rate shipping
 

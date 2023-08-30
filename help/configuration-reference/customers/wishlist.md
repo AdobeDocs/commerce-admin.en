@@ -2,6 +2,7 @@
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Wish List]'
 description: Review the configurations settings on the [!UICONTROL Customers] &gt; [!UICONTROL Wish List] page of the Commerce Admin.
 exl-id: 33ff428c-03e3-4698-a01e-f007b4e1688e
+feature: Configuration, Customers, Storefront
 ---
 # [!UICONTROL Customers] > [!UICONTROL Wish List]
 

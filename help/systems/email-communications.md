@@ -2,6 +2,7 @@
 title: Configure email communications
 description: Learn how to configure email communications, including the routing of returned email or replies to a specific email address.
 exl-id: 7e62e9c5-f214-4fd5-becc-99dcb093cd5c
+feature: Communications, Configuration
 ---
 # Configure email communications
 
@@ -21,7 +22,7 @@ For a detailed list of the configuration settings, see [_[!UICONTROL Mail Sendin
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Mail Sending Settings]** section and do the following:
 
-   ![Advanced configuration - mail sending settings](../configuration-reference/advanced/assets/system-mail-sending-settings.png)<!-- zoom -->
+   ![Advanced configuration - mail sending settings](../configuration-reference/advanced/assets/system-mail-sending-settings.png){width="600" zoomable="yes"}
 
    - If necessary, set **[!UICONTROL Disable Email Communications]** to `No`.
 
@@ -46,7 +47,7 @@ For a detailed list of the configuration settings, see [_[!UICONTROL Mail Sendin
       - **[!UICONTROL Auth]** - Choose the authentication type for the SMTP server connection: `NONE` , `PLAIN`, or `LOGIN`
       - **[!UICONTROL SSL]** - Choose the verification type for the server security certificate: `SSL` or `TLS`
 
-      ![Advanced configuration - mail sending settings](../configuration-reference/advanced/assets/system-mail-sending-settings-smtp.png)<!-- zoom -->
+      ![Advanced configuration - mail sending settings](../configuration-reference/advanced/assets/system-mail-sending-settings-smtp.png){width="600" zoomable="yes"}
 
 1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Sales Emails]**.
 
@@ -54,7 +55,7 @@ For a detailed list of the configuration settings, see [_[!UICONTROL Mail Sendin
 
 1. Set **[!UICONTROL Asynchronous sending]** to `Enable`.
 
-   ![Sales configuration - email general settings](../configuration-reference/sales/assets/sales-emails-general-settings.png)<!-- zoom -->
+   ![Sales configuration - email general settings](../configuration-reference/sales/assets/sales-emails-general-settings.png){width="600" zoomable="yes"}
 
    For a detailed list of the configuration settings, see [_General Settings_](../configuration-reference/sales/sales-emails.md) in the _Configuration Reference_.
 

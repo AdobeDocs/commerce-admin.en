@@ -2,6 +2,7 @@
 title: Attribute sets
 description: Learn how to organize attributes into groups, which determine where they appear in the product record.
 exl-id: de0c5fa2-158c-44ff-b84d-e4904ed8aa7d
+feature: Catalog Management, Products
 ---
 # Attribute sets
 

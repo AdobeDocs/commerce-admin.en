@@ -2,6 +2,7 @@
 title: Customer password options
 description: The customer password options determine the level of security for various customer-facing functions of your store.
 exl-id: 84dec8e8-3363-4133-bbcc-9e58467749c4
+feature: Customers, Configuration, Security
 ---
 # Customer password options
 
@@ -36,7 +37,7 @@ The customer password options determine the level of security that is used for p
 
    - Set **[!UICONTROL Forgot Email Template]** to the template that is used for the email sent to customers who have forgotten their passwords.
 
-   - Set **[!UICONTROL Remind Email Template]** to the template that is used when a password hint is sent to customers.
+   - Set **[!UICONTROL Remind Email Template]** to the template that is used when a customer password is reset by an Admin user.
 
    - Set **[!UICONTROL Reset Password Template]** to the template that is used when customers change their passwords.
 

@@ -2,6 +2,7 @@
 title: Create email reminders
 description: Learn how to set up an email reminder rule that uses an existing cart price rule.
 exl-id: b04dc8a3-5daa-43f2-bf52-d85bfd2554b7
+feature: Merchandising, Communications
 ---
 # Create email reminders
 
@@ -17,7 +18,7 @@ Before setting up an email reminder rule, you must first set up a cart price rul
 
 1. Complete the _[!UICONTROL Rule Information]_, as follows:
 
-    ![Email reminder rule](./assets/email-reminder-new.png)<!-- zoom -->
+    ![Email reminder rule](./assets/email-reminder-new.png){width="700" zoomable="yes"}
 
    - Enter a **[!UICONTROL Rule Name]** to identify the rule internally.
 
@@ -25,7 +26,7 @@ Before setting up an email reminder rule, you must first set up a cart price rul
 
    - To choose the **[!UICONTROL Cart Price Rule]** promotion that this reminder is to advertise, click **[!UICONTROL Select Rule…]**, and select the rule.
 
-      ![Cart rule - select](./assets/email-reminder-select-rule.png)<!-- zoom -->
+      ![Cart rule - select](./assets/email-reminder-select-rule.png){width="600" zoomable="yes"}
 
    - If you want the rule to go into effect immediately, set **[!UICONTROL Status]** to `Active`.
 
@@ -39,7 +40,7 @@ Before setting up an email reminder rule, you must first set up a cart price rul
 
    At least one condition must be defined for the rule. The process is similar to building a [catalog price rule.](price-rules-catalog.md)
 
-   ![Email reminder conditions](./assets/email-reminder-conditions.png)<!-- zoom -->
+   ![Email reminder conditions](./assets/email-reminder-conditions.png){width="600" zoomable="yes"}
 
    Click _Add_ ( ![Add icon](../assets/icon-add-green-circle.png)) to display the list of options and then choose one of the following conditions:
 
@@ -52,11 +53,11 @@ Before setting up an email reminder rule, you must first set up a cart price rul
 
    Complete the condition to describe the scenario that triggers the email reminder.
 
-   ![email reminder conditions example](./assets/email-reminder-condition-example.png)<!-- zoom -->
+   ![email reminder conditions example](./assets/email-reminder-condition-example.png){width="600" zoomable="yes"}
 
 1. In the panel on the left, choose **[!UICONTROL Emails and Labels]**.
 
-   ![Email reminder rule - emails and labels templates ](./assets/email-reminder-rule-emails-labels-email-templates.png)<!-- zoom -->
+   ![Email reminder rule - emails and labels templates ](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
 
 1. In the **[!UICONTROL Email Templates]** section, choose the email template to be used for each website and store view in your [store hierarchy](../getting-started/websites-stores-views.md).
 
@@ -72,7 +73,7 @@ Before setting up an email reminder rule, you must first set up a cart price rul
 
    - Enter the **[!UICONTROL Rule Description for All Store Views]**.
 
-      ![Email reminders - titles and descriptions](./assets/email-reminders-emails-and-labels-default-titles-description.png)<!-- zoom -->
+      ![Email reminders - titles and descriptions](./assets/email-reminders-emails-and-labels-default-titles-description.png){width="500" zoomable="yes"}
 
    - In the _[!UICONTROL Titles and Descriptions Per Store View]_ section, enter the **[!UICONTROL Rule Title]** and **[!UICONTROL Description]** for the _Default Store View_. For multiple store views, enter the appropriate title and description for each.
 
@@ -80,7 +81,7 @@ Before setting up an email reminder rule, you must first set up a cart price rul
       >
       >The description can be incorporated into email templates by using the promotion_description variable.
 
-      ![Titles and descriptions - store view](./assets/email-reminder-rules-title-descriptions-per-store-view.png)<!-- zoom -->
+      ![Titles and descriptions - store view](./assets/email-reminder-rules-title-descriptions-per-store-view.png){width="500" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save]**.
 

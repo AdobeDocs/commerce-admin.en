@@ -1,8 +1,10 @@
 ---
 user-guide-title: Admin Systems Guide
-user-guide-description: add description here
+user-guide-description: This guide provides detailed information about Admin security, maintenance operations, and system-wide resources that support organizational functions within your Adobe Commerce store.
 breadcrumb-title: Admin Systems Guide
 hide: no
+role: Admin, Leader
+feature: System
 ---
 
 # Admin Systems Guide {#systems}
@@ -52,9 +54,7 @@ hide: no
   - [Cron (scheduled tasks)](cron.md)
   - [Developer tools](developer-tools.md)
   - [Support tools](support.md)
-- Integrations {#integrations}
-  - [Third-party integrations](integrations.md)
-  - [Order Management System](mcom.md)
+- [Integrations](integrations.md)
 - Security {#security}
   - [Overview](security.md)
   - [Encryption key](encryption-key.md)

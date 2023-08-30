@@ -2,6 +2,7 @@
 title: Media - Image
 description: Learn about the Image content type, used to add a JPG, GIF, or PNG image to the [!DNL Page Builder] stage.
 exl-id: 1b8d906e-7570-4c1f-87a0-992400faf55c
+feature: Page Builder, Page Content
 ---
 # Media - Image
 
@@ -17,17 +18,17 @@ Use the _Image_ content type to add a JPG, GIF, or PNG image to the [[!DNL Page 
 
 The image toolbox appears when you hover over the image container.
 
-![Image toolbox](./assets/pb-media-image-giftcard-column-toolbox.png)<!-- zoom -->
+![Image toolbox](./assets/pb-media-image-giftcard-column-toolbox.png){width="500" zoomable="yes"}
 
 |Tool|Icon|Description|
 |--- |--- |--- |
-|Move|![Move icon](./assets/pb-icon-move.png)<!-- width="25px" -->|Moves the image to another position on the stage.|
+|Move|![Move icon](./assets/pb-icon-move.png){width="25"}|Moves the image to another position on the stage.|
 |(label)|Image|Identifies the current content container as an image. Hover over the image container to see the toolbox.|
-|Settings|![Settings icon](./assets/pb-icon-settings.png)<!-- width="25px" -->|Opens the _Edit Image_ page, where you can change the properties of the image and container.|
-|Hide|![Hide icon](./assets/pb-icon-hide.png)<!-- width="25px" -->|Hides the current image.|
-|Show|![Show icon](./assets/pb-icon-show.png)<!-- width="25px" -->|Shows the hidden image.|
-|Duplicate|![Duplicate icon](./assets/pb-icon-duplicate.png)<!-- width="25px" -->|Makes a copy of the image.|
-|Remove|![Remove icon](./assets/pb-icon-remove.png)<!-- width="25px" -->|Deletes the image from the stage.|
+|Settings|![Settings icon](./assets/pb-icon-settings.png){width="25"}|Opens the _Edit Image_ page, where you can change the properties of the image and container.|
+|Hide|![Hide icon](./assets/pb-icon-hide.png){width="25"}|Hides the current image.|
+|Show|![Show icon](./assets/pb-icon-show.png){width="25"}|Shows the hidden image.|
+|Duplicate|![Duplicate icon](./assets/pb-icon-duplicate.png){width="25"}|Makes a copy of the image.|
+|Remove|![Remove icon](./assets/pb-icon-remove.png){width="25"}|Deletes the image from the stage.|
 |Upload New Image||Uploads an image from your local file system to the gallery.|
 |Select from Gallery||Chooses an existing image from the gallery.|
 
@@ -39,11 +40,11 @@ The image toolbox appears when you hover over the image container.
 
    You can add an image to a row, column, or tab. In the following example, the image is dragged to an empty column.
 
-   ![Dragging an image content type to the stage](./assets/pb-media-image-drag.png)<!-- zoom -->
+   ![Dragging an image content type to the stage](./assets/pb-media-image-drag.png){width="600" zoomable="yes"}
 
 1. Use one of the following methods to add the image asset:
 
-   ![Upload Image or Select from Gallery tools on the stage](./assets/pb-media-image-upload-select.png)<!-- zoom -->
+   ![Upload Image or Select from Gallery tools on the stage](./assets/pb-media-image-upload-select.png){width="500" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -55,7 +56,7 @@ The image toolbox appears when you hover over the image container.
 
       - Locate and choose the image to add it to the gallery and target container.
 
-      As an alternative, you can also drag an image file from your system and drop it on the _Camera_ (![Camera Icon](./assets/pb-icon-camera.png)<!-- width="25px" -->) icon.
+      As an alternative, you can also drag an image file from your system and drop it on the _Camera_ ( ![Camera Icon](./assets/pb-icon-camera.png){width="20"} ) icon.
 
    - _**Select an existing asset**_: Use this method to select an existing image asset from the media storage/gallery.
 
@@ -65,7 +66,7 @@ The image toolbox appears when you hover over the image container.
 
       - Click the thumbnail and click **[!UICONTROL Add Selected]**.
 
-         ![Adding a selected image](./assets/pb-media-image-gallery-add-selected.png)<!-- zoom -->
+         ![Adding a selected image](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
    - _**Search and select an Adobe Stock image**_: Use this method to find an image from Adobe Stock.
 
@@ -87,14 +88,14 @@ The image toolbox appears when you hover over the image container.
    >
    >The [Banner](banner.md) and [Slider](slider.md) content types also include _Upload Image_ and _Select from Gallery_ options for adding images.
 
-   ![Image in a column](./assets/pb-media-image-column1-giftcard.png)<!-- zoom -->
+   ![Image in a column](./assets/pb-media-image-column1-giftcard.png){width="500" zoomable="yes"}
 
 ## Change image settings
 
-1. Hover over the image container to display the tool box and choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon.
+1. Hover over the image container to display the tool box and choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png){width="20"} ) icon.
    The file name, dimensions, and file size appear below the current image.
 
-   ![Current image](./assets/pb-media-image-settings-image.png)<!-- zoom -->
+   ![Current image](./assets/pb-media-image-settings-image.png){width="600" zoomable="yes"}
 
 1. To change the current **[!UICONTROL Image]**, do one of the following:
 
@@ -112,7 +113,7 @@ The image toolbox appears when you hover over the image container.
 
       - Click the thumbnail and click **[!UICONTROL Add Selected]**.
 
-         ![Adding a selected image](./assets/pb-media-image-gallery-add-selected.png)<!-- zoom -->
+         ![Adding a selected image](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
    - **Search and select an Adobe Stock image**: Use this method to find an image from Adobe Stock.
 
@@ -130,7 +131,7 @@ The image toolbox appears when you hover over the image container.
 
 1. To add a **[!UICONTROL Mobile Image]**, use the same methods described in the previous step to select an image to be used for display on mobile devices.
 
-   ![Mobile image](./assets/pb-media-image-settings-mobile-image.png)<!-- zoom -->
+   ![Mobile image](./assets/pb-media-image-settings-mobile-image.png){width="600" zoomable="yes"}
 
 1. If needed, specify a **[!UICONTROL Link]** for the image.
 
@@ -138,27 +139,23 @@ The image toolbox appears when you hover over the image container.
 
    - **[!UICONTROL URL]** - Links to either a relative or fully qualified URL.
 
-      ![Link to a URL](./assets/pb-media-image-settings-image-link-url-newtab.png)<!-- zoom -->
-
    - **[!UICONTROL Product]** - Identifies the destination page based on the product name or SKU. Search for the product by name based on either a partial or full name. Choose the product from the search results list.
 
-      ![Choosing a product to link](./assets/pb-media-image-settings-image-link-product-results.png)<!-- zoom -->
+      ![Choosing a product to link](./assets/pb-media-image-settings-image-link-product-results.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Category]** - Identifies the destination page as a specific category or subcategory in the category tree. Search for the category based on either a partial or full name. Choose the category from the expanded section of the displayed tree.
 
-      ![Choosing a category to link](./assets/pb-media-image-settings-image-link-category-tree.png)<!-- zoom -->
+      ![Choosing a category to link](./assets/pb-media-image-settings-image-link-category-tree.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Page]** - Identifies the destination page as a specific content page. Search for the page based on either a partial or full name. Choose the page from the search results list.
 
-      ![Choosing a page to link](./assets/pb-media-image-settings-image-link-page-results.png)<!-- zoom -->
+      ![Choosing a page to link](./assets/pb-media-image-settings-image-link-page-results.png){width="600" zoomable="yes"}
 
    If you want to prevent the visitor from navigating away from your store, select the **[!UICONTROL Open in new tab]** checkbox. When the checkbox is cleared, the linked destination opens in the same browser tab, which could effectively navigate the visitor away from your store.
 
 1. To add an **[!UICONTROL Image Caption]**, enter the text that you want to appear below the image.
 
    The format of the caption is determined by the stylesheet that is associated with the current theme.
-
-   ![Image caption](./assets/pb-media-image-settings-caption.png)<!-- zoom -->
 
    The caption typically appears below the image, and provides information about the image for visitors and search engines. If your site is available in multiple languages, you might use the same image, but  translate the caption. In HTML, the `<figcaption>` tag is a subset of the `<figure>` tag. `<figcaption>This is the image caption</figcaption>`
 
@@ -171,17 +168,17 @@ The image toolbox appears when you hover over the image container.
 
 ## Move an image
 
-1. Hover over the image container to display the toolbox and choose the _Move_ (![Move icon](./assets/pb-icon-move.png)) icon.
+1. Hover over the image container to display the toolbox and choose the _Move_ (![Move icon](./assets/pb-icon-move.png){width="20"} ) icon.
 
-   ![Moving an image](./assets/pb-media-image-column1-move-giftcard.png)<!-- zoom -->
+   ![Moving an image](./assets/pb-media-image-column1-move-giftcard.png){width="500" zoomable="yes"}
 
 1. Select and drag the image to the new position, just below the red guideline.
 
-   ![Using the red guideline to position the image](./assets/pb-media-image-column2-move-giftcard-red-guideline.png)<!-- zoom -->
+   ![Using the red guideline to position the image](./assets/pb-media-image-column2-move-giftcard-red-guideline.png){width="500" zoomable="yes"}
 
 ## Remove an image
 
-1. Hover over the image container to display the toolbox and choose the _Remove_ (![Remove icon](./assets/pb-icon-remove.png)) icon.
+1. Hover over the image container to display the toolbox and choose the _Remove_ ( ![Remove icon](./assets/pb-icon-remove.png){width="20"} ) icon.
 
 1. When prompted to confirm, click **[!UICONTROL OK]**.
 
@@ -229,7 +226,7 @@ Text for these settings is visible to search engines and improves the way the pa
 
 - If you set a border style other than `None`, complete the border display options:
 
-   ![Border Color](./assets/pb-settings-border-color.png)<!-- zoom -->
+   ![Border Color](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
    | Option | Description |
    | ------ |------------ |

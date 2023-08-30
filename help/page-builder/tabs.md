@@ -2,12 +2,13 @@
 title: Layout - Tabs
 description: Learn about the Tabs content type, used to add a set of tabs in the [!DNL Page Builder] stage.
 exl-id: e83d248d-7cf3-4ccc-a03d-ede32c7e71ae
+feature: Page Builder, Page Content
 ---
 # Layout - Tabs
 
 Use the _Tabs_ content type to add a set of tabs in the [[!DNL Page Builder] stage](workspace.md#stage). When you drag the Tabs placeholder from the panel to the stage, a single default tab initially appears. You can add more tabs to create a full set. The width of the tab set is determined by the width of its parent container and padding settings.
 
-![Set of tabs](./assets/pb-layout-tab-example.png)<!-- zoom -->
+![Set of tabs](./assets/pb-layout-tab-example.png){width="500" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -17,31 +18,31 @@ When you are working with the _Tabs_ content type, you add and edit individual t
 
 ### Individual tab toolbox
 
-![Tab toolbox](./assets/pb-layout-tab1-toolbox.png)<!-- zoom -->
+![Tab toolbox](./assets/pb-layout-tab1-toolbox.png){width="500" zoomable="yes"}
 
 |Tool|Icon|Description|
 |--- |--- |--- |
-|Move|![Move icon](./assets/pb-icon-move.png)<!-- width="25px" -->|This control next to the tab label is used to move the individual tab to another position in the tab set.|
-|Settings|![Settings icon](./assets/pb-icon-settings.png)<!-- width="25px" -->|Opens the Edit Tabs page, where you can change the properties of the individual tab.|
-|Duplicate|![Duplicate icon](./assets/pb-icon-duplicate.png)<!-- width="25px" -->|Makes a copy of the tab.|
-|Remove|![Remove icon](./assets/pb-icon-remove.png)<!-- width="25px" -->|Deletes the tab from the tab set.|
+|Move|![Move icon](./assets/pb-icon-move.png){width="25"}|This control next to the tab label is used to move the individual tab to another position in the tab set.|
+|Settings|![Settings icon](./assets/pb-icon-settings.png){width="25"}|Opens the Edit Tabs page, where you can change the properties of the individual tab.|
+|Duplicate|![Duplicate icon](./assets/pb-icon-duplicate.png){width="25"}|Makes a copy of the tab.|
+|Remove|![Remove icon](./assets/pb-icon-remove.png){width="25"}|Deletes the tab from the tab set.|
 
 {style="table-layout:auto"}
 
 ### Tabs container toolbox
 
-![Tab container toolbox](./assets/pb-tabs-toolbox-settings.png)<!-- zoom -->
+![Tab container toolbox](./assets/pb-tabs-toolbox-settings.png){width="500" zoomable="yes"}
 
 |Tool|Icon|Description|
 |--- |--- |--- |
-|Move|![Move icon](./assets/pb-icon-move.png)<!-- width="25px" -->|Moves the set of tabs to another position on the grid in the parent container.|
-|Add|![Add icon](./assets/pb-icon-add.png)<!-- width="25px" -->|Adds a tab to the tab set.|
+|Move|![Move icon](./assets/pb-icon-move.png){width="25"}|Moves the set of tabs to another position on the grid in the parent container.|
+|Add|![Add icon](./assets/pb-icon-add.png){width="25"}|Adds a tab to the tab set.|
 |(label)|[!UICONTROL Tabs]|Identifies the current container as a tab set. Hover over the top border of the container to see the toolbox.|
-|Settings|![Settings icon](./assets/pb-icon-settings.png)<!-- width="25px" -->|Opens the Edit Tab page, where you can change the properties of the container.|
-|Hide|![Hide icon](./assets/pb-icon-hide.png)<!-- width="25px" -->|Hides the tab container.|
-|Show|![Show icon](./assets/pb-icon-show.png)<!-- width="25px" -->|Shows the hidden tab container.|
-|Duplicate|![Duplicate icon](./assets/pb-icon-duplicate.png)<!-- width="25px" -->|Makes a copy of the current tab.|
-|Remove|![Remove icon](./assets/pb-icon-remove.png)<!-- width="25px" -->|Deletes the current tab set from the stage.|
+|Settings|![Settings icon](./assets/pb-icon-settings.png){width="25"}|Opens the Edit Tab page, where you can change the properties of the container.|
+|Hide|![Hide icon](./assets/pb-icon-hide.png){width="25"}|Hides the tab container.|
+|Show|![Show icon](./assets/pb-icon-show.png){width="25"}|Shows the hidden tab container.|
+|Duplicate|![Duplicate icon](./assets/pb-icon-duplicate.png){width="25"}|Makes a copy of the current tab.|
+|Remove|![Remove icon](./assets/pb-icon-remove.png){width="25"}|Deletes the current tab set from the stage.|
 
 {style="table-layout:auto"}
 
@@ -49,13 +50,13 @@ When you are working with the _Tabs_ content type, you add and edit individual t
 
 1. In the [!DNL Page Builder] panel under _[!UICONTROL Layout]_, drag the **[!UICONTROL Tabs]** placeholder directly to the stage or to a row or column on the stage.
 
-   ![Dragging tabs to a row](./assets/pb-layout-tabs-drag-row.png)<!-- zoom -->
+   ![Dragging tabs to a row](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
 
-1. Click the **[!UICONTROL Tab 1]** label to display the individual tab toolbox and choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon.
+1. Click the **[!UICONTROL Tab 1]** label to display the individual tab toolbox and choose the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png){width="20"} ) icon.
 
 1. Enter the **[!UICONTROL Tab Name]** that you want to use as a label.
 
-   ![Entering the tab name](./assets/pb-layout-tab1-toolbox-settings-general-tab-name.png)<!-- zoom -->
+   ![Entering the tab name](./assets/pb-layout-tab1-toolbox-settings-general-tab-name.png){width="600" zoomable="yes"}
 
 1. If needed, enter the **[!UICONTROL Minimum Height]** for the tab.
 
@@ -74,21 +75,21 @@ When you are working with the _Tabs_ content type, you add and edit individual t
 
 The following steps start with an individual tab and create a set of three tabs within a tabs container. If you do not already have an individual tab, follow the previous instructions to add a single tab to the stage.
 
-1. Hover over the tabs container to display the toolbox and choose the _Add_ (![Add icon](./assets/pb-icon-add.png)) icon.
+1. Hover over the tabs container to display the toolbox and choose the _Add_ ( ![Add icon](./assets/pb-icon-add.png){width="20"} ) icon.
 
 1. Click in the **[!UICONTROL Tab 2]** label to display the cursor and enter you own label for the tab.
 
-1. Click the second tab again on the stage and choose the _Duplicate_ (![Duplicate icon](./assets/pb-icon-duplicate.png)) icon.
+1. Click the second tab again on the stage and choose the _Duplicate_ ( ![Duplicate icon](./assets/pb-icon-duplicate.png){width="20"} ) icon.
 
 1. Click in the YourName **[!UICONTROL Copy]** label to display the cursor and enter you own label for the third tab.
 
-![Matching set of tabs with toolbox](./assets/pb-layout-tabs3-toolbox-main.png)<!-- zoom -->
+![Matching set of tabs with toolbox](./assets/pb-layout-tabs3-toolbox-main.png){width="600" zoomable="yes"}
 
 ## Move a tab within the set
 
 1. Click the tab that you want to move.
 
-1. Select and drag the _Move_ (![Move icon](./assets/pb-icon-move.png)) icon, which appears just before the tab label text, to a new position within the tab set.
+1. Select and drag the _Move_ ( ![Move icon](./assets/pb-icon-move.png){width="20"} ) icon, which appears just before the tab label text, to a new position within the tab set.
 
 ## Add content to a tab
 
@@ -102,13 +103,13 @@ You can any content type to a tab just as you can to a row. Use the following st
 
    See [Elements - Text](text.md) for more information about working with the tex content type.
 
-   ![Editing text content added on the tab](./assets/pb-layout-tab-text.png)<!-- zoom -->
+   ![Editing text content added on the tab](./assets/pb-layout-tab-text.png){width="500" zoomable="yes"}
 
 1. In the upper-right corner, click **[!UICONTROL Save]**.
 
 ## Change individual tab settings
 
-1. Hover over an individual tab to display the toolbox and choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon.
+1. Hover over an individual tab to display the toolbox and choose the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png){width="20"} ) icon.
 
 1. If needed, change any of the basic settings for the tab:
 
@@ -126,7 +127,7 @@ You can any content type to a tab just as you can to a row. Use the following st
 
 - **[!UICONTROL Background Color]** - Specify the background color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value. This setting determines the background color of the row. You can also adjust the opacity of the color.
 
-   ![No color (default)](./assets/pb-settings-background-color-no-color.png)<!-- zoom -->
+   ![No color (default)](./assets/pb-settings-background-color-no-color.png){width="200"}
 
    You can enter a value in three ways:
 
@@ -138,11 +139,11 @@ You can any content type to a tab just as you can to a row. Use the following st
 
    If you want to choose a color, click the swatch to the left of the _No Color_ box.
 
-   ![Choosing a color swatch](./assets/pb-settings-background-color-picker-swatch.png)<!-- zoom -->
+   ![Choosing a color swatch](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
 
    If you click the color box to open the color picker again, the box below the slider shows the current red, green, blue, and alpha values (rgba). The last number indicates the current opacity percentage as a decimal. You can use the slider to adjust the opacity, or enter the desired decimal value.
 
-   ![Setting opacity](./assets/pb-settings-background-color.png)<!-- zoom -->
+   ![Setting opacity](./assets/pb-settings-background-color.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -154,7 +155,7 @@ You can any content type to a tab just as you can to a row. Use the following st
    |--- |--- |
    | [!UICONTROL Upload] | Uploads an image file from your local computer to the gallery and then applies it as the background image for the tab. |
    | [!UICONTROL Select from Gallery] | Prompts you to choose an existing image from the gallery as the background image for the tab. |
-   | ![Camera icon](./assets/pb-icon-camera.png)<!-- width="25px" --> |  Allows you to either drag the image to the camera tile or browse to the image in your local file system. |
+   | ![Camera icon](./assets/pb-icon-camera.png){width="25"} |  Allows you to either drag the image to the camera tile or browse to the image in your local file system. |
 
    {style="table-layout:auto"}
 
@@ -215,7 +216,7 @@ You can any content type to a tab just as you can to a row. Use the following st
 
 - If you set a border style other than `None`, complete the border display options:
 
-   ![Border Color](./assets/pb-settings-border-color.png)<!-- zoom -->
+   ![Border Color](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
    | Option | Description |
    | ------ |------------ |
@@ -227,7 +228,7 @@ You can any content type to a tab just as you can to a row. Use the following st
 
    The row in the following example has a border radius of 15.
 
-   ![Row with border radius of 15](./assets/pb-settings-border-radius-15.png)<!-- zoom -->
+   ![Row with border radius of 15](./assets/pb-settings-border-radius-15.png){width="500"}
 
 - (Optional) Specify the names of **[!UICONTROL CSS classes]** from the current style sheet to apply to the column container.
 
@@ -246,7 +247,7 @@ You can any content type to a tab just as you can to a row. Use the following st
 
 ## Change tab set settings
 
-1. Hover over the top border of the tab set container to display the toolbox and choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon.
+1. Hover over the top border of the tab set container to display the toolbox and choose the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png){width="20"} ) icon.
 
 1. If needed, change the **[!UICONTROL Default Active Tab]**.
 
@@ -256,7 +257,7 @@ You can any content type to a tab just as you can to a row. Use the following st
 
 1. To position the navigation tabs along the top of the tab set, choose the **[!UICONTROL Tab Navigation Alignment]** (`Left`, `Center`, or `Right`).
 
-   ![Right-aligned navigation tabs](./assets/pb-layout-tabs-navigation-alignment-right.png)<!-- zoom -->
+   ![Right-aligned navigation tabs](./assets/pb-layout-tabs-navigation-alignment-right.png){width="500" zoomable="yes"}
 
 1. Set the Advanced options for the tab set:
 

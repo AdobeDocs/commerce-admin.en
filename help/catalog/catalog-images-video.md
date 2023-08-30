@@ -2,6 +2,7 @@
 title: Catalog images and video
 description: Learn about using digital media to enhance your catalog product pages and provide visuals for your customers.
 exl-id: 963693d3-669b-42b3-9ac7-cdaed8bb614f
+feature: Catalog Management, Media
 ---
 # Catalog images and video
 

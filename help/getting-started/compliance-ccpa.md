@@ -2,6 +2,7 @@
 title: CCPA compliance
 description: Learn about the California Consumer Privacy Act (CCPA), which expands the rights of consumers in California for determining how their personal information is collected, stored, and used.
 exl-id: 165c8b78-683e-4015-b3c4-d3211750799e
+feature: Compliance
 ---
 # CCPA compliance
 

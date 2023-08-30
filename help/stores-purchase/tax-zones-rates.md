@@ -2,6 +2,7 @@
 title: Tax zones and rates
 description: Learn how to define tax rates for each geographical area where you collect and remit taxes.
 exl-id: d8eb0743-d277-438d-91ed-fc711a6ba3ae
+feature: Taxes
 ---
 # Tax zones and rates
 

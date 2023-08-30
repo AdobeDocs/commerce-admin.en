@@ -2,12 +2,13 @@
 title: Layout - Column
 description: Learn about the Column content type, used to divide a page into multiple columns in the [!DNL Page Builder] stage.
 exl-id: 9701e1b5-3584-4602-9512-051567274f21
+feature: Page Builder, Page Content
 ---
 # Layout - Column
 
 Use the _Column_ content type to divide a page into multiple columns in the [[!DNL Page Builder] stage](workspace.md#stage). When you add a column to a row or tab or directly to the stage, the column group is initially divided into two columns of equal width. You can add or remove columns, as needed. A column can be resized by dragging the border between two columns. The width of the next column is adjusted to fill the available space within the row, tab, or stage. A single column extends the full width of the stage or its container.
 
-![Adding a column](./assets/pb-layout-column-add-drag-placeholder.png)<!-- zoom -->
+![Adding a column](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -27,11 +28,11 @@ Each column has a toolbox of options that appears when you hover over the contai
 
 |Tool|Icon|Description|
 |--- |--- |--- |
-|Move|![Move icon](./assets/pb-icon-move.png)|Moves the column and its content to another position in relation to other columns.|
+|Move|![Move icon](./assets/pb-icon-move.png){width="25"}|Moves the column and its content to another position in relation to other columns.|
 |(label)|Column|Identifies the current container as a column. Hover over the column container to show the toolbox.|
-|Settings|![Settings icon](./assets/pb-icon-settings.png)|Opens the Edit Column page, where you can change the properties of the container.|
-|Duplicate|![Duplicate icon](./assets/pb-icon-duplicate.png)|Makes a copy of the current column.|
-|Remove|![Remove icon](./assets/pb-icon-remove.png)|Deletes the current column and its content.|
+|Settings|![Settings icon](./assets/pb-icon-settings.png){width="25"}|Opens the Edit Column page, where you can change the properties of the container.|
+|Duplicate|![Duplicate icon](./assets/pb-icon-duplicate.png){width="25"}|Makes a copy of the current column.|
+|Remove|![Remove icon](./assets/pb-icon-remove.png){width="25"}|Deletes the current column and its content.|
 
 {style="table-layout:auto"}
 
@@ -39,27 +40,27 @@ Each column has a toolbox of options that appears when you hover over the contai
 
 The [grid](workspace.md) ensures that content is aligned consistently in a column and helps the page render correctly on both desktop and mobile devices. For more information, see the [Advanced Content Tools](setup.md) section of the [!DNL Page Builder] configuration.
 
-![Grid divisions on a row with one column](./assets/pb-layout-column-one-grid.png)<!-- zoom -->
+![Grid divisions on a row with one column](./assets/pb-layout-column-one-grid.png){width="500" zoomable="yes"}
 
 In the following two-column example, the numbers in parentheses (6/12) in the top border of each column container indicate the number of grid divisions in each column and the total number of divisions. In this case, the column is the width of six grid units out of a total of 12.
 
-![Grid divisions on row with two columns](./assets/pb-layout-column-two-grid.png)<!-- zoom -->
+![Grid divisions on row with two columns](./assets/pb-layout-column-two-grid.png){width="600" zoomable="yes"}
 
 ## Add a column
 
 1. In the [!DNL Page Builder] panel under _[!UICONTROL Layout]_, drag a **[!UICONTROL Column]** to the stage.
 
-   ![Dragging a column to the stage](./assets/pb-layout-column-add-drag-placeholder.png)<!-- zoom -->
+   ![Dragging a column to the stage](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
 
    The column group is now divided into two columns of equal width. Each column is a separate container for content and has its own set of toolbox options.
 
-   ![Two equal columns](./assets/pb-layout-columns-two-empty.png)<!-- zoom -->
+   ![Two equal columns](./assets/pb-layout-columns-two-empty.png){width="600" zoomable="yes"}
 
 1. In the upper-left corner of the column group, click the _Grid_ tool (![Grid control](./assets/pb-icon-grid-control.png)) and adjust the grid size as needed.
 
    Positioning content on the grid helps to align content consistently and renders the page correctly on both desktop and mobile devices. For more information, see the [Advanced Content Tools](../configuration-reference/general/content-management.md) section of the [!DNL Page Builder] configuration.
 
-   ![Grid divisions on two columns](./assets/pb-layout-column-two-grid.png)<!-- zoom -->
+   ![Grid divisions on two columns](./assets/pb-layout-column-two-grid.png){width="600" zoomable="yes"}
 
 ## Resize a column
 
@@ -67,19 +68,19 @@ In the following two-column example, the numbers in parentheses (6/12) in the to
 
    The border is highlighted and the toolbox for the selected column appears.
 
-   ![Highlighted border between two columns](./assets/pb-column-resize-border.png)<!-- zoom -->
+   ![Highlighted border between two columns](./assets/pb-column-resize-border.png){width="600" zoomable="yes"}
 
 1. Hold down the mouse button to show the grid and drag the border to a new position on the grid.
 
    The width of both columns adjusts to reflect the change. The new width of each column appears after the label, such as `4/12` (four out of 12) and `8/12` (eight out of 12).
 
-   ![Resized columns](./assets/pb-columns-resized-grid.png)<!-- zoom -->
+   ![Resized columns](./assets/pb-columns-resized-grid.png){width="600" zoomable="yes"}
 
 ## Remove a column
 
-1. Hover over the column that you want to remove to display the toolbox and choose the _Remove_ (![Remove icon](./assets/pb-icon-remove.png)) icon.
+1. Hover over the column that you want to remove to display the toolbox and choose the _Remove_ ( ![Remove icon](./assets/pb-icon-remove.png){width="20"} ) icon.
 
-   ![Column toolbox](./assets/pb-column-toolbox-remove.png)<!-- zoom -->
+   ![Column toolbox](./assets/pb-column-toolbox-remove.png){width="600" zoomable="yes"}
 
 1. If the column contains content, click **[!UICONTROL OK]** to confirm.
 
@@ -87,25 +88,25 @@ In the following two-column example, the numbers in parentheses (6/12) in the to
 
    The column group now has a single column (12/12) and grid. Because the grid is available only for columns, you can use this technique to show the grid.
 
-   ![Single column with grid](./assets/pb-column-single-grid.png)<!-- zoom -->
+   ![Single column with grid](./assets/pb-column-single-grid.png){width="600" zoomable="yes"}
 
 1. If you want the column group to extend the remaining column to the full width of the row or stage:
 
-   - Hover over the column to display the toolbox and choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon.
+   - Hover over the column to display the toolbox and choose the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png){width="20"} ) icon.
 
    - Scroll down to the _[!UICONTROL Advanced]_ section and set all four **[!UICONTROL Padding]** values to `0`.
 
-      ![Using zero padding](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png)<!-- zoom -->
+      ![Using zero padding](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
    - In the upper-right corner, click **[!UICONTROL Save]** to close the _[!UICONTROL Edit Column]_ page.
 
-1. Click the _Close Full Screen_ (![Close full screen icon](./assets/pb-icon-reduce.png)) icon in the upper-right corner of the workspace, and then click **[!UICONTROL Save]** in the upper-right corner.
+1. Click the _Close Full Screen_ ( ![Close full screen icon](./assets/pb-icon-reduce.png){width="20"} ) icon in the upper-right corner of the workspace, and then click **[!UICONTROL Save]** in the upper-right corner.
 
 ## Change column settings
 
-1. Hover over the column to display the toolbox and choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon.
+1. Hover over the column to display the toolbox and choose the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png){width="20"} ) icon.
 
-   ![Column toolbox](./assets/pb-column-toolbox-settings.png)<!-- zoom -->
+   ![Column toolbox](./assets/pb-column-toolbox-settings.png){width="600" zoomable="yes"}
 
 1. Change the **[!UICONTROL Appearance]** settings as needed.
 
@@ -134,7 +135,7 @@ In the following two-column example, the numbers in parentheses (6/12) in the to
       | ------ | ----------- |
       | [!UICONTROL Upload] | Uploads an image file from your local computer to the gallery and then applies it as the background image for the column. |
       | [!UICONTROL Select from Gallery] | Prompts you to choose an existing image from the gallery as the background image for the column. |
-      | ![Camera icon](./assets/pb-icon-camera.png)<!-- width="25px" --> | Allows you to either drag the image to the camera tile or browse to the image in your local file system. |
+      | ![Camera icon](./assets/pb-icon-camera.png){width="25"} | Allows you to either drag the image to the camera tile or browse to the image in your local file system. |
 
       {style="table-layout:auto"}
 

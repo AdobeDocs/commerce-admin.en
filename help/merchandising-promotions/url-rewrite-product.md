@@ -2,14 +2,13 @@
 title: Product URL rewrites
 description: Learn how to use product URL rewrites to redirect links to the URL of another product in your Commerce store.
 exl-id: 42b28ff7-e148-44f2-b6b4-63a38458e752
+feature: Products, Configuration
 ---
 # Product URL rewrites
 
 Before you begin, make sure that you understand exactly what the redirect should accomplish. Think in terms of _target_ / _original request_ or _redirect to_ / _redirect from_. Although people might still navigate to the former page from search engines or outdated links, the redirect causes your store to switch to the new target.
 
 If [automatic redirects](url-redirect-product-automatic.md) are enabled for your store, there is no need to create a rewrite when a product [URL Key](../catalog/catalog-urls.md) is changed.
-
-![URL rewrites - product](./assets/url-rewrite-product.png)<!-- zoom -->
 
 {{url-rewrite-skip}}
 
@@ -51,13 +50,13 @@ Redirect from: `overnight-duffle.html`
 
 1. In the grid, find the product that is the target (destination) of the redirect and click the row.
 
-   ![Product URL rewrite](./assets/url-rewrite-product-grid.png)<!-- zoom -->
+   ![URL rewrites - product](./assets/url-rewrite-product.png){width="700" zoomable="yes"}
 
 1. Below the category tree, click **[!UICONTROL Skip Category Selection]**. 
 
    For this example, the redirect does not include a category.
 
-    ![Product URL rewrite - skip category selection](./assets/url-rewrite-skip-category-selection.png)<!-- zoom -->
+    ![Product URL rewrite - skip category selection](./assets/url-rewrite-skip-category-selection.png){width="600" zoomable="yes"}
 
     The Add URL Rewrite for a Product page displays a link to the target in the upper-left corner, and the Target Path field displays the system version of the path, which cannot be changed. Initially, the Redirect Path field also displays the target path.
 
@@ -76,7 +75,7 @@ Redirect from: `overnight-duffle.html`
 
    - For your own reference, enter a brief **[!UICONTROL Description]** of the rewrite.
 
-    ![Product URL rewrite - information](./assets/url-rewrite-product-permanent-301.png)<!-- zoom -->
+    ![Product URL rewrite - information](./assets/url-rewrite-product-permanent-301.png){width="600" zoomable="yes"}
 
 1. Before saving the redirect, review the following:
 
@@ -130,4 +129,4 @@ You can quickly update URL rewrites for multiple or all products simultaneously 
 >
 >All selected products are readded to the selected websites and URL rewrites are regenerated.
 
-![Update Attributes - update multiple URL rewrites](./assets/url-rewrites-update.png)<!-- zoom -->
+![Update Attributes - update multiple URL rewrites](./assets/url-rewrites-update.png){width="600" zoomable="yes"}

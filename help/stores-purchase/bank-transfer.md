@@ -2,6 +2,7 @@
 title: Bank transfers
 description: Learn how to set up bank transfers as an offline method of payment on your store.
 exl-id: 34b2163c-2edd-4741-b002-3d8fb561fc78
+feature: Payments
 ---
 # Bank transfers
 

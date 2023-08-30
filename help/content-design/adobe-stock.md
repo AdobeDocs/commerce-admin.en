@@ -2,6 +2,7 @@
 title: Adobe Stock Integration
 description: Integrate Adobe Stock with your [!DNL Commerce] instance to access to countless media assets for use in your store.
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
+feature: CMS, Media, Configuration, Integration
 ---
 # Adobe Stock Integration
 

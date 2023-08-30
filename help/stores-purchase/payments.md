@@ -2,6 +2,7 @@
 title: Payments overview
 description: Learn about the payment methods and services that are supported natively in Adobe COmmerce and Magento Open Source.
 exl-id: 474bf6df-96e2-4db3-ad3c-1804b5de33b0
+feature: Payments
 ---
 # Payments overview
 

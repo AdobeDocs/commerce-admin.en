@@ -2,6 +2,7 @@
 title: Product settings - [!UICONTROL Product Reviews]
 description: For a product, the [!UICONTROL Product Reviews] settings provide access to submitted reviews for the product and edit the status for pending reviews.
 exl-id: 9328c9f5-dcd4-4837-8902-39dc48cb8151
+feature: Catalog Management, Products
 ---
 # Product settings - [!UICONTROL Product Reviews]
 

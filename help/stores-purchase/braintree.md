@@ -2,6 +2,7 @@
 title: Braintree
 description: Learn how to set up Braintree as an online payment solution on your store.
 exl-id: 781b385f-926e-4047-b7da-6f7c090d75d8
+feature: Payments
 ---
 # Braintree
 
@@ -163,9 +164,13 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 1. For **[!UICONTROL Allowed Payment Methods]**, select the local payment method to be enabled.
 
-   Options: `Bancontact` / `EPS` / `giropay` / `iDeal` / `Klarna Pay Now` / `SOFORT` / `MyBank` / `P24` / `SEPA/ELV Direct Debit`
+   Options: `Bancontact` / `EPS` / `giropay` / `iDeal` / `Klarna Pay Now` / `SOFORT` / `MyBank` / `P24` / `SEPA/ELV Direct Debit` (not yet supported)
 
    ![Local Payment Methods settings](../configuration-reference/sales/assets/payment-methods-braintree-local-payment-config.png){width="600" zoomable="yes"}
+   
+   >[!NOTE]
+   >
+   >The bundled Braintree extension does not support all the local payment methods listed in the [Braintree developer documentation](https://developer.paypal.com/braintree/docs/guides/local-payment-methods/overview). Other local payment methods are under development to be supported in future releases.
 
 1. For **[!UICONTROL Sort Order]**, enter a number to determine the sequence in which local payment method appears when listed with other payment options during the checkout.
 

@@ -2,6 +2,7 @@
 title: Configurable product
 description: Learn how to create a configurable product that provides shoppers with variations for selection.
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
+feature: Catalog Management, Products
 ---
 # Configurable product
 
@@ -349,7 +350,7 @@ The _Stock Status_ of the configurable product is partially controlled by the St
 
 >[!NOTE]
 >
->Stocks and sources are parts of the [Inventory Management](../inventory-management/sources-stocks.md) tool.
+>Custom stocks and sources are part of the [Inventory Management](../inventory-management/sources-stocks.md) extension and it is highly recommended that you use this tool exclusively for managing stock and source. The default source and stock functions are part of the `CatalogInventory` module, which is now deprecated.
 
 #### With at least one custom source/stock:
 

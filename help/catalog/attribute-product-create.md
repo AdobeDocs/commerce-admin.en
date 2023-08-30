@@ -2,6 +2,7 @@
 title: Create and delete product attributes
 description: Learn about creating and removing product attributes, which are used to describe specific characteristics of the products in your catalog.
 exl-id: fd0e5d5b-a917-4e55-8ec2-7ebb040d3d06
+feature: Catalog Management, Products
 ---
 # Create and delete product attributes
 

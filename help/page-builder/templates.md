@@ -2,6 +2,7 @@
 title: '[!DNL Page Builder] Templates'
 description: Learn how to save your existing [!DNL Page Builder] content as a template, and then apply that template to another area.
 exl-id: 02c1a93f-4186-4af9-ad35-bd0f5734f979
+feature: Page Builder, Page Content
 ---
 # [!DNL Page Builder] Templates
 
@@ -11,7 +12,7 @@ Templates are containers that save [!DNL Page Builder] content and layouts of ex
 
 On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Elements]_ > **[!UICONTROL Templates]**.
 
-![Templates grid with thumbnail preview](./assets/templates-list.png)<!-- zoom -->
+![Templates grid with thumbnail preview](./assets/templates-list.png){width="700" zoomable="yes"}
 
 ## Save [!DNL Page Builder] content as a template
 
@@ -21,11 +22,11 @@ On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Elements]_
 
 1. Above the stage, click **[!UICONTROL Save as Template]** at the top right.
 
-   ![[!DNL Page Builder] stage with Save as Template button](./assets/pb-templates-saveastemplate-button.png)<!-- zoom -->
+   ![[!DNL Page Builder] stage with Save as Template button](./assets/pb-templates-saveastemplate-button.png){width="600" zoomable="yes"}
 
    This action displays the _[!UICONTROL Save Content as Template]_ dialog.
 
-   ![[!DNL Page Builder] Save as Template dialog](./assets/pb-templates-save-dialog.png)<!-- zoom -->
+   ![[!DNL Page Builder] Save as Template dialog](./assets/pb-templates-save-dialog.png){width="400" zoomable="yes"}
 
 1. For **[!UICONTROL Template Name]**, enter a unique name for the template.
 
@@ -47,13 +48,13 @@ You can apply a template to a [!DNL Page Builder] content area (page, block, dyn
 
 1. In the content area, click **[!UICONTROL Apply Template]** at the top right.
 
-   ![[!DNL Page Builder] Apply Template button](./assets/pb-templates-applytemplate-button.png)<!-- zoom -->
+   ![[!DNL Page Builder] Apply Template button](./assets/pb-templates-applytemplate-button.png){width="600" zoomable="yes"}
 
 1. Choose a template from the _[!UICONTROL Apply Template]_ grid and click **[!UICONTROL Apply]** at the end of the row.
 
    To see the entire template, you can click the template thumbnail image. This action expands the image so you can view the entire template as needed.
 
-   ![[!DNL Page Builder] Apply Template grid](./assets/pb-templates-apply-slideout-nofilters.png)<!-- zoom -->
+   ![[!DNL Page Builder] Apply Template grid](./assets/pb-templates-apply-slideout-nofilters.png){width="600" zoomable="yes"}
 
 ## Delete a template
 
@@ -78,7 +79,7 @@ The _Apply Template_ grid and the _Templates_ page grid provide two ways to filt
    - The template name (**[!UICONTROL Template Name]**)
    - The designated content area (**[!UICONTROL Created For]**)
 
-![[!DNL Page Builder] Apply Template grid](./assets/pb-templates-apply-slideout-withfilters.png)<!-- zoom -->
+![[!DNL Page Builder] Apply Template grid](./assets/pb-templates-apply-slideout-withfilters.png){width="600" zoomable="yes"}
 
 ## Content templates demo
 

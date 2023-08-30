@@ -2,6 +2,7 @@
 title: Configure catalog search
 description: Learn how to configure catalog search for your store.
 exl-id: b4f22bce-39e2-4269-99a4-eb2d647df939
+feature: Catalog Management, Search
 ---
 # Configure catalog search
 

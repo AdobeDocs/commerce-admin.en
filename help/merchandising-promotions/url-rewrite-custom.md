@@ -2,14 +2,13 @@
 title: Custom URL rewrites
 description: Learn how to use custom URL rewrites to manage miscellaneous redirects in your Commerce store.
 exl-id: b15054be-e463-48e6-b6c1-0a8a2141cc01
+feature: Search, Configuration
 ---
 # Custom URL rewrites
 
 A custom rewrite can be used to manage miscellaneous redirects, such as redirecting a page from your store to an external website. For example, you might have two Commerce websites, each with their own domain. You can use a custom redirect to reroute requests for a product, category, or page to the other website. Unlike other redirect types, the target of a custom redirect is not chosen from a list of existing pages in your store.
 
 Before you begin, make sure that you understand exactly what the redirect is to accomplish. Think in terms of _target_ / _source_ or _redirect to_ / _redirect from_. Although people might still navigate to the former page from search engines or outdated links, the redirect causes your store to switch to the new target.
-
-![URL rewrites - custom](./assets/url-rewrite-custom.png)<!-- zoom -->
 
 ## Step 1. Plan the rewrite
 
@@ -49,6 +48,8 @@ Redirect from:
 
 1. Set **[!UICONTROL Create URL Rewrite]** to `Custom`.
 
+   ![URL rewrites - custom](./assets/url-rewrite-custom.png){width="600" zoomable="yes"}
+
 1. Under URL Rewrite Information, do the following:
 
    - If you have multiple store views, select the **[!UICONTROL Store]** where the rewrite applies.
@@ -67,8 +68,6 @@ Redirect from:
       - `Permanent (301)`
 
    - For your reference, enter a brief description of the rewrite.
-
-    ![URL rewrite information](./assets/url-rewrite-custom.png)<!-- zoom -->
 
 1. Before saving the redirect, review the following:
 

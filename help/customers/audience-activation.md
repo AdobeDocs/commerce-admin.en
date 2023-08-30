@@ -2,6 +2,9 @@
 title: "[!DNL Audience Activation]"
 description: Learn how to activate Real-Time CDP audiences in Adobe Commerce to drive personalization in your store.
 exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
+feature: Customers, Configuration, Personalization
+topic: Commerce, Personalization
+level: Experienced
 ---
 # [!DNL Audience Activation]
 
@@ -27,13 +30,31 @@ These release notes describe feature changes and fixes related to extensions use
 
 +++Supported service updates
 
+_August 15, 2023_
+
+- ![Fix](../assets/new.svg) - Updated the [Real-Time CDP Audiences dashboard](#real-time-cdp-audiences-dashboard) to simplify filtering.
+
+_June 27, 2023_
+
+- ![Fix](../assets/fix.svg) - Added support for PHP 8.2 in the `magento/module-data-services-graphql` package.
+
 _May 30, 2023_
 
 - ![New](../assets/new.svg) - Updated the [Real-Time CDP Audiences dashboard](#real-time-cdp-audiences-dashboard) to include the ability to sort, search, and filter the active audiences within your Adobe Commerce instance.
 
 +++
 
+### 1.2.0
+
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
+
+_August 15, 2023_
+
+- ![Fix](../assets/fix.svg) - Updated the UI components version.
+
 ### 1.1.0
+
+_May 30, 2023_
 
 [!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
 
@@ -67,7 +88,7 @@ The following tasks apply to both Luma and headless storefront implementations. 
 
 ### Install the extension
 
-You can install the [!DNL Audience Activation] extension from the [marketplace](https://marketplace.magento.com/magento-audiences.html) or you can run the following command:
+Install the [!DNL Audience Activation] extension from the [marketplace](https://commercemarketplace.adobe.com/magento-audiences.html), or run the following command:
 
    ```bash
    composer require magento/audiences
@@ -116,12 +137,13 @@ To access the **Real-Time CDP Audiences** dashboard, go to the _Admin_ sidebar, 
 
 |Column|Description|
 |--- |--- |
-|`Search Filter`|Section that lets you specify the search criteria. You can search by `Audience` or `Last Modified`. If you do not select any criteria or you select all criteria, all audiences are searched.|
-|`Search`|Lets you search for active audiences in your Commerce instance. |
-|`Audience`|Name given to the audience in Real-Time CDP.|
-|`Last Modified`|Indicates when the audience was modified in Real-Time CDP.|
+|`Hide filters`|Lets you show or hide any filters that you can apply to the dashboard. Currently, the only filter you can apply is `Last updated`. This filter lets you select a date range for audiences based on when they were last updated.|
+|`Search`|Lets you search for active audiences in your Commerce instance.|
+|`Name`|Name given to the audience in Real-Time CDP.|
 |`Origin`|Indicates where the audience came from, such as `Experience Platform`.|
+|`Last updated`|Indicates when the audience was modified in Real-Time CDP.|
 |`Sync now`|Retrieves new or updated audiences from Real-Time CDP.|
+|`Customize table`| Lets you show or hide the `Origin` and `Last updated` columns.|
 
 {style="table-layout:auto"}
 
@@ -227,6 +249,40 @@ The following query returns all dynamic blocks associated with multiple audience
 
 Learn more about the `dynamicBlocks` GraphQL query in the [developer documentation](https://developer.adobe.com/commerce/webapi/graphql/schema/store/queries/dynamic-blocks/).
 
->[!NOTE]
+## Retrieve audiences using the Adobe Experience Platform Mobile SDK
+
+Before you can retrieve Real-Time CDP audiences using the Adobe Experience Platform Mobile SDK, you must [install and configure the SDK for your mobile Commerce site](https://experienceleague.adobe.com/docs/commerce-merchant-services/experience-platform-connector/fundamentals/mobile-sdk-epc.html).
+
+>[!IMPORTANT]
 >
->An AEM storefront does not support dynamic blocks.
+>The Adobe Experience Platform Mobile SDK for iOS supports iOS 11 or later.
+
+After you complete the configuration, use mobile SDK operations to retrieve the audience data. For example:
+
+```swift
+Edge.sendEvent(experienceEvent: experienceEvent) { (handles: [EdgeEventHandle]) in
+    for handle in handles {
+        if handle.type == "activation:pull" {
+        let payloadItems = handle.payload ?? []
+            for payloadItem in payloadItems {
+                if let segments = payloadItem["segments"] as? any Sequence {
+                    var segmentsArr = [Any]()
+                    for segment in segments {
+                        let response = segment as AnyObject?
+                        segmentsArr.append(response?.object(forKey: "id")! ?? "")
+                    }
+                    print("Saving segments ->  \(segments)")
+                    storage.set(segmentsArr, forKey: "segments")
+                    print("End saving segments")
+                }
+         
+                // Show segments
+                let rSegments = storage.object(forKey: "segments") ?? nil;
+                print("Retrieving segments -> \(rSegments)")
+            }
+        }
+    }
+}
+```
+
+After data is retrieved, you can use it to create audience-informed [cart price rules](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) and [dynamic blocks](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) in the Commerce app.

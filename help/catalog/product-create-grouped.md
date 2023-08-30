@@ -2,6 +2,7 @@
 title: Grouped product
 description: Learn how to create a grouped product that consists of simple standalone products that are presented as a group.
 exl-id: af42b7fc-27f2-4c5a-b504-a70a324fae76
+feature: Catalog Management, Products
 ---
 # Grouped product
 

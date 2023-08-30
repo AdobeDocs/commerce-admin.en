@@ -2,6 +2,7 @@
 title: Cart price rule example - discount with minimum purchase
 description: Review an example of using a cart price rule to offer a discount with a minimum purchase.
 exl-id: dc06cd12-d23b-4836-9ad2-93ca60dac927
+feature: Merchandising, Price Rules, Shopping Cart
 ---
 # Cart price rule example - discount with minimum purchase
 
@@ -19,31 +20,29 @@ Follow the basic [instructions](price-rules-cart.md) to create a cart rule.
 
 1. Click _Add_ (![Add icon](../assets/icon-add-green-circle.png)) and choose **[!UICONTROL Product Attribute Combination]**.
 
-    ![Cart price rule condition - product attribute combination](./assets/condition1.png)<!-- zoom -->
+    ![Cart price rule condition - product attribute combination](./assets/condition1.png){width="500" zoomable="yes"}
 
 1. Click _Add_ (![Add icon](../assets/icon-add-green-circle.png)) at the beginning of the next line and in the list under **[!UICONTROL Product Attribute]**, choose **[!UICONTROL Category]**.
 
-    ![Cart price rule condition - category](./assets/condition2.png)<!-- zoom -->
-
     - Click the (**…**) _more_ link to display additional options.
 
-      ![Cart price rule condition - category options](./assets/condition3.png)<!-- zoom -->
+      ![Cart price rule condition - category options](./assets/condition3.png){width="600" zoomable="yes"}
 
-    - Click the _Chooser_ (![List icon](../assets/icon-list-chooser.png)) icon to see the available categories. In the category tree, select the checkbox of each category that you want to include. Press **Enter** to add the categories to the condition.
+    - Click the _Chooser_ (![List icon](../assets/icon-list-chooser.png)) icon to see the available categories. In the category tree, select the checkbox of each category that you want to include. Click the check icon to accept the category selections.
 
-      ![Cart price rule condition - category](./assets/condition4.png)<!-- zoom -->
+      ![Cart price rule condition - category](./assets/condition4.png){width="600" zoomable="yes"}
 
 1. Click _Add_ (![Add icon](../assets/icon-add-green-circle.png)) at the beginning of the next line and do the following:
 
     - In the list under **[!UICONTROL Cart Item Attribute]**, choose **[!UICONTROL Price in cart]**.
 
-      ![Cart price rule condition - cart item attribute](./assets/condition5.png)<!-- zoom -->
+      ![Cart price rule condition - cart item attribute](./assets/condition5.png){width="500"}
 
     - Click **is** and choose `equals or greater than`.
 
-    - Click **...** and enter the amount that the Price in Cart must be to meet the condition. For example, enter `200`.
+    - Click **...** and enter the amount that the Price in Cart must be to meet the condition. For example, enter `30`.
 
-        ![Cart price rule condition - price in cart](./assets/condition6.png)<!-- zoom -->
+        ![Cart price rule condition - price in cart](./assets/condition6.png){width="500"}
 
 1. Click **[!UICONTROL Save and Continue Edit]**.
 
@@ -51,11 +50,11 @@ Follow the basic [instructions](price-rules-cart.md) to create a cart rule.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Actions]** section and do the following:
 
-    ![Cart price rule actions](./assets/minimum-discount-actions.png)<!-- zoom -->
+    ![Cart price rule actions](./assets/minimum-discount-actions.png){width="600" zoomable="yes"}
 
     - Set **[!UICONTROL Apply]** to `Percent of product price discount`.
 
-    - Enter the **[!UICONTROL Discount Amount]**. For example, enter `25` for a 25% discount.
+    - Enter the **[!UICONTROL Discount Amount]**. For example, enter `10` for a 10% discount.
 
     - To prevent additional promotions from being applied to the purchase, set **[!UICONTROL Discard subsequent rules]** to `Yes`.
 

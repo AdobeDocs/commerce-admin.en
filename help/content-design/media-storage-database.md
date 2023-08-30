@@ -2,6 +2,8 @@
 title: Use a Media Database
 description: Learn how to use a media database to store your [!DNL Commerce] media files.
 exl-id: b59349fb-0cb6-4812-a126-6e0d8d37564f
+feature: Page Content, Media, Configuration
+level: Experienced
 ---
 # Use a Media Database
 

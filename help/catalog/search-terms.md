@@ -2,6 +2,7 @@
 title: Manage search terms
 description: Learn how to manage the search terms for your store to redirect customers using misspelled or alternative terms.
 exl-id: e21ece58-2bc2-49ef-96d3-3be930e09f94
+feature: Catalog Management, Search
 ---
 # Manage search terms
 

@@ -2,6 +2,7 @@
 title: Customer account scope
 description: The scope of customer accounts can be limited to the website where the account was created, or shared with all websites and stores in the store hierarchy.
 exl-id: c401bee2-763e-4fad-88cd-5d5a43c46186
+feature: Customers, Configuration
 ---
 # Customer account scope
 
@@ -46,3 +47,7 @@ The scope of customer accounts can be limited to the website where the account w
    > If necessary, clear the **[!UICONTROL User system value]** checkbox to make the change.
 
 1. When complete, click **[!UICONTROL Save Config]**.
+
+   >[!NOTE]
+   >
+   >When `Global` is selected the customer information in **My Account** (addresses and account information such as contact details) is shared.

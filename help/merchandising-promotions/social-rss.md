@@ -2,6 +2,7 @@
 title: Social media and RSS feeds
 description: Learn how to add social media and other RSS feed integration to build brand and product awareness.
 exl-id: e4a48870-f53e-4848-8faa-8f2aedaf53b7
+feature: Merchandising, Communications
 ---
 # Social media and RSS feeds
 
@@ -12,8 +13,6 @@ Many merchants use social media and other digital tools to build brand and produ
 Your store can be connected to social networks by installing a [Marketplace extension](../getting-started/commerce-marketplace.md). In addition, you can easily add social plugins such as the _Like_ button to CMS blocks that can be incorporated into pages throughout your store. 
 
 Social networking sites have a numerous plugins that can easily be added to your store. In addition, there are many extensions on the Commerce Marketplace that can be used to integrate your store with social media. The following example shows how to add a Facebook _Like_ button to your store.
-
-![Facebook social plugins](./assets/facebook-plugins.png)<!-- zoom -->
 
 >[!NOTE]
 >
@@ -37,8 +36,6 @@ Social networking sites have a numerous plugins that can easily be added to your
    - `Recommend`
 
 1. Click **[!UICONTROL Get Code]** to copy the generated code to the clipboard.
-
-   ![Facebook - Like button setup](./assets/facebook-like-button-setup.png)<!-- zoom -->
 
 ### Step 2. Create a content block
 
@@ -126,11 +123,11 @@ RSS (Really Simple Syndication) is an XML-based data format that is used to dist
 
 When RSS feeds are enabled, any additions to products, specials, categories, and coupons are automatically sent to the subscribers of each feed. A link to all RSS feeds that you publish is in the footer of your store.
 
-![RSS feed icon](./assets/icon-rss.png)<br/>
+![RSS feed icon](./assets/icon-rss.png){width="100"}<br/>
 
 The software that is required to read an RSS feed is called a feed reader, and allows people to subscribe to headlines, blogs, podcasts, and much more. Google Reader is one of the many feed readers that are available online for free.
 
-![Example storefront - RSS feed](./assets/storefront-rss-feeds.png)<!-- zoom -->
+![Example storefront - RSS feed](./assets/storefront-rss-feeds.png){width="700" zoomable="yes"}
 
 ### Benefits of setting up an RSS feed
 
@@ -165,7 +162,7 @@ The software that is required to read an RSS feed is called a feed reader, and a
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Rss Config]** section and set **[!UICONTROL Enable RSS]** to `Enable`.
     
-   ![Catalog configuration - RSS feeds](../configuration-reference/catalog/assets/rss-feeds-rss-config.png)<!-- zoom -->
+   ![Catalog configuration - RSS feeds](../configuration-reference/catalog/assets/rss-feeds-rss-config.png){width="600" zoomable="yes"}
 
    If necessary, clear the **[!UICONTROL Use Default]** checkbox to change the default value.
 
@@ -178,7 +175,7 @@ The software that is required to read an RSS feed is called a feed reader, and a
    - **[!UICONTROL Coupons/Discounts]**
    - **[!UICONTROL Top Level Category]**
 
-   ![Catalog - RSS feeds settings](../configuration-reference/catalog/assets/rss-feeds-catalog.png)<!-- zoom -->
+   ![Catalog - RSS feeds settings](../configuration-reference/catalog/assets/rss-feeds-catalog.png){width="600" zoomable="yes"}
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Order]** section and set **[!UICONTROL Customer Order Status Notification]** to `Enable`.
 
@@ -186,4 +183,3 @@ The software that is required to read an RSS feed is called a feed reader, and a
 
 1. See result on the storefront with `/rss` at the end of the page URL.
 
-   ![RSS Feeds on the Storefront](./assets/rss-feed-on-the-storefront.png)<!-- zoom -->

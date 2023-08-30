@@ -2,6 +2,7 @@
 title: Price scope
 description: Learn about the scope used for product prices, which can be configured to apply at either the global or website level.
 exl-id: 3726b16b-4ed5-4286-a7fd-69ed6677f87a
+feature: Catalog Management, Products
 ---
 # Price scope
 

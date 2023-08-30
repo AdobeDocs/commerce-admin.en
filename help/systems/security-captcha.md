@@ -2,6 +2,8 @@
 title: CAPTCHA
 description: Learn how to configure CAPTCHA for Admin access and various storefront actions initiated by registered customers.
 exl-id: b2867ad5-7d48-4e9f-b84e-3cf0a14ec16f
+role: Admin
+feature: Configuration, Security
 ---
 # CAPTCHA
 
@@ -9,13 +11,13 @@ A CAPTCHA is a visual device that ensures that a human being, rather than a comp
 
 You can reload the CAPTCHA as many times as is necessary by clicking the Reload icon in the upper-right corner of the image. The CAPTCHA is fully configurable and can be set appear every time, or only after a defined number of failed login attempts.
 
-![Login with CAPTCHA](./assets/customer-account-login-captcha.png)<!-- zoom -->
+![Login with CAPTCHA](./assets/customer-account-login-captcha.png){width="700" zoomable="yes"}
 
 ## Configure CAPTCHA for the Admin
 
 For an extra level of security, you can add a CAPTCHA to the Admin Sign In and Forgot Password page. Admin users can reload the displayed CAPTCHA by clicking the _Reload_ ![reload icon](./assets/CAPTCHA-icon-reload.png) icon in the upper-right corner of the image. The number of reloads is unlimited.
 
-![Admin - Sign in with CAPTCHA](./assets/security-captcha-admin.png)<!-- zoom -->
+![Admin - Sign in with CAPTCHA](./assets/security-captcha-admin.png){width="300"}
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -29,7 +31,7 @@ For an extra level of security, you can add a CAPTCHA to the Admin Sign In and 
 
 1. Set **[!UICONTROL Enable CAPTCHA in Admin]** to `Yes`. Then complete the remaining options as follows:
 
-    ![Admin - CAPTCHA configuration](../configuration-reference/advanced/assets/admin-captcha.png)<!-- zoom -->
+    ![Admin - CAPTCHA configuration](../configuration-reference/advanced/assets/admin-captcha.png){width="600" zoomable="yes"}
 
    - Enter the name of the **[!UICONTROL Font]** to be used for CAPTCHA symbols (default: `LinLibertine`).
 
@@ -63,7 +65,7 @@ For an extra level of security, you can add a CAPTCHA to the Admin Sign In and 
 
 Customers can be required to enter a CAPTCHA each time they log in to their accounts, or after several unsuccessful attempts to log in. In addition, numerous forms used throughout the storefront can be configured to require verification by CAPTCHA.
 
-![CAPTCHA during checkout](./assets/storefront-checkout-payment-captcha.png)<!-- zoom -->
+![CAPTCHA during checkout](./assets/storefront-checkout-payment-captcha.png){width="700" zoomable="yes"}
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -71,7 +73,7 @@ Customers can be required to enter a CAPTCHA each time they log in to their acco
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL CAPTCHA]** section.
 
-![Customer CAPTCHA configuration](../configuration-reference/customers/assets/customer-configuration-captcha.png)<!-- zoom -->
+![Customer CAPTCHA configuration](../configuration-reference/customers/assets/customer-configuration-captcha.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Enable CAPTCHA on Storefront]** to `Yes`. Then complete the remaining options as follows:
 

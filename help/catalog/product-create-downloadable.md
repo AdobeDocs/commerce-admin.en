@@ -2,6 +2,7 @@
 title: Downloadable product
 description: Learn how to create a downloadable product that can be delivered as a digital file.
 exl-id: c3dd4c5f-adc1-4a8f-a9da-7f0dedd1ee34
+feature: Catalog Management, Products
 ---
 # Downloadable product
 

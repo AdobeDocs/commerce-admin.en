@@ -2,6 +2,7 @@
 title: Shared catalog overview
 description: Learn about the shared catalogs provided by B2B for Adobe Commerce and how you can use them to maintain gated catalogs with custom pricing for different company accounts.
 exl-id: cf7c9099-9b7d-407b-adb9-06a4815624ee
+feature: B2B, Companies, Catalog Management
 ---
 # Shared catalog overview
 

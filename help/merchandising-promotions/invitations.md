@@ -2,6 +2,7 @@
 title: Event invitations
 description: Learn how customers can send and view invitations to events and private sales from the dashboard of their customer accounts.
 exl-id: 6a9123a0-bdb4-4cd6-99cd-658f728aa90c
+feature: Promotions/Events, Communications
 ---
 # Event invitations
 
@@ -13,7 +14,7 @@ When invitations are enabled, customers can send and view invitations from the d
 
 The _[!UICONTROL My Invitations]_ section of the customer account lists all invitations sent by the customer. Customers can send invitations to friends and family for store events, gift registries, wish lists, and so on.
 
-![My Invitations](./assets/account-dashboard-my-invitations.png)<!-- zoom -->
+![My Invitations](./assets/account-dashboard-my-invitations.png){width="700" zoomable="yes"}
 
 ### Invitation workflow
 
@@ -56,7 +57,7 @@ The invitation configuration enables invitations for the store and determines ho
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL General]** section.
 
-   ![Customers configuration - invitations general options](../configuration-reference/customers/assets/invitations-general.png)<!-- zoom -->
+   ![Customers configuration - invitations general options](../configuration-reference/customers/assets/invitations-general.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Enable Invitations Functionality]** to `Yes`.
 
@@ -78,7 +79,7 @@ The invitation configuration enables invitations for the store and determines ho
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Email]** section and do the following:
 
-   ![Customers configuration - invitations email options](../configuration-reference/customers/assets/invitations-email.png)<!-- zoom -->
+   ![Customers configuration - invitations email options](../configuration-reference/customers/assets/invitations-email.png){width="600" zoomable="yes"}
 
    - Select the store identity to be used as the **[!UICONTROL Customer Invitation Email Sender]**.
 
@@ -100,7 +101,7 @@ In the [Private Sales Reports](../getting-started/private-sales-reports.md) sect
 
    If you have multiple store views, use the **[!UICONTROL Send From]** option to specify the store view from which an invitation is sent.
 
-   ![Invitations Information](./assets/create-invitation-page.png)<!-- zoom -->
+   ![Invitations Information](./assets/create-invitation-page.png){width="700" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save]**.
 

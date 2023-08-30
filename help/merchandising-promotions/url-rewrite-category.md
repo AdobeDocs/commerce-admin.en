@@ -2,14 +2,13 @@
 title: Category URL rewrites
 description: Learn how to use category URL rewrites to redirect links to the URL of another category in your Commerce store.
 exl-id: fc18f472-4aa8-4203-ade9-7ca576689d61
+feature: Categories, Configuration
 ---
 # Category URL rewrites
 
 If a category is removed from your catalog, you can use a category rewrite to redirect links to the URL of another category in your store. Think in terms of _target_ / _original request_  or _redirect to_ / _redirect from_. Although people might still navigate to the former page from search engines or outdated links, the redirect causes your store to switch to the new target.
 
 If [automatic redirects](url-redirect-product-automatic.md) are enabled for your store, there is no need to create a rewrite when a category [URL Key](../catalog/catalog-urls.md) is changed.
-
-![Add URL rewrite for category](./assets/url-rewrite-for-category.png)<!-- zoom -->
 
 {{url-rewrite-skip}}
 
@@ -43,7 +42,7 @@ Redirect from: `gear/bags.html`
 
 1. Set **[!UICONTROL Create URL Rewrite]** to `For category` and choose the target category in the tree that is the destination of the redirect.
 
-   ![URL rewrite - choose category](./assets/url-rewrite-category-choose.png)<!-- zoom -->
+   ![URL rewrite - choose category](./assets/url-rewrite-category-choose.png){width="700" zoomable="yes"}
 
 1. In the _URL Rewrite_ section, do the following:
 
@@ -62,7 +61,7 @@ Redirect from: `gear/bags.html`
 
    - For your reference, enter a brief description of the rewrite.
 
-      ![Category URL rewrite - settings](./assets/url-rewrite-category-information.png)<!-- zoom -->
+   ![Add URL rewrite for category](./assets/url-rewrite-for-category.png){width="700" zoomable="yes"}
 
 1. Before saving the redirect, review the following:
 

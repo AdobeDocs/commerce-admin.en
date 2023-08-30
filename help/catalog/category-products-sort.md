@@ -2,6 +2,7 @@
 title: Sort category products
 description: Learn how to define the positioning of products in a category manually or by applying a predefined sort order.
 exl-id: 09c66a5d-57d4-4e78-a8d8-e3047c1bd35a
+feature: Catalog Management, Categories, Products
 ---
 # Sort category products
 

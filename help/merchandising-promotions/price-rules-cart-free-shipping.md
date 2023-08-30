@@ -2,6 +2,7 @@
 title: Cart price rule example - free shipping promotion
 description: Review an example of using a cart price rule to offer free shipping.
 exl-id: f7652254-ff01-44ff-a207-2d7cf2017517
+feature: Merchandising, Price Rules, Shopping Cart, Shipping/Delivery
 ---
 # Cart price rule example - free shipping promotion
 
@@ -40,7 +41,7 @@ Follow the steps below to set up the type of free shipping promotion that you wa
    - Set **[!UICONTROL Apply to Shipping Amount]** to `Yes`.
    - Set **[!UICONTROL Free Shipping]** to `For matching items only`.
 
-   ![Cart price rule - free shipping actions](./assets/free-shipping-actions.png)<!-- zoom -->
+   ![Cart price rule - free shipping actions](./assets/free-shipping-actions.png){width="600" zoomable="yes"}
 
 ### Example 2: Free shipping for orders over $ amount
 
@@ -54,7 +55,7 @@ Follow the steps below to set up the type of free shipping promotion that you wa
    - Click **[!UICONTROL is]** and choose `equals or greater than`.
    - Click **...** and enter a threshold value for the Subtotal, such as `100`, to complete the condition.
 
-   ![Cart price rule - condition](./assets/free-shipping-condition1.png)<!-- zoom -->
+   ![Cart price rule - condition](./assets/free-shipping-condition1.png){width="600" zoomable="yes"}
 
 1. If necessary, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Actions]** section and do the following:
 

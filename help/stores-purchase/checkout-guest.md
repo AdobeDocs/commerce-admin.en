@@ -2,6 +2,7 @@
 title: Guest checkout
 description: Learn how to enable guest checkout capabilities on your store.
 exl-id: ce25eba3-7503-46aa-a5cd-9b7d5662164b
+feature: Checkout
 ---
 # Guest checkout
 

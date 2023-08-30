@@ -2,6 +2,7 @@
 title: Catalog and product URLs
 description: Learn about the URL format types for your catalog products, and how to configure them.
 exl-id: 47405dc6-9b5e-4ca8-87eb-5a222de40793
+feature: Catalog Management, Products, Search, Categories
 ---
 # Catalog and product URLs
 

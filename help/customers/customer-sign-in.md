@@ -2,6 +2,7 @@
 title: Customer sign in
 description: The customer sign in function on the storefront allows for easy access to the customers' accounts.
 exl-id: eadcc15a-a052-4213-a818-d5b248d974d2
+feature: Customers, Storefront
 ---
 # Customer sign in
 

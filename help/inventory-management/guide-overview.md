@@ -17,7 +17,7 @@ This guide is intended for administrators of Adobe Commerce and Magento Open Sou
 This guide covers:
 
 - All Inventory Management-specific tasks that are done in the Admin.
-- All Inventory Management-specific tasks that are done using the [!DNL Commerce] command line
+- All Inventory Management-specific tasks that are done using the command line
 
 It does not cover the core capabilities of Adobe Commerce and Magento Open Source.
 

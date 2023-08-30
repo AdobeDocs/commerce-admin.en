@@ -2,6 +2,7 @@
 title: Product data attributes reference
 description: Use this reference of product data attributes when you work with product data imports and exports.
 exl-id: 9ffa4d1f-cbf8-4a08-bb79-33f21e698a74
+feature: Products, Attributes
 ---
 # Product data attributes reference
 
@@ -116,7 +117,7 @@ The term complex data refers to the data that is associated with multiple produc
 
 If you export a configurable product, you would find the standard attributes that make up a simple product, plus the additional attributes that are needed to manage complex data.
 
-![Configurable product - exported data](./assets/data-exported-configurable-product.png)<!-- zoom -->
+![Configurable product - exported data](./assets/data-exported-configurable-product.png){width="600" zoomable="yes"}
 
 ### Configurable products
 
@@ -150,7 +151,7 @@ If you export a configurable product, you would find the standard attributes tha
 
 Advanced Price Import/Export allows you to quickly update pricing information for product groups and tier prices. The process to [import](data-import.md) and [export](data-export.md) advanced price data is the same as any other entity type. The sample CSV file contains tier and group prices for each product type that supports advanced pricing. Changing advanced pricing does not affect the rest of the product record.
 
-![Example export data - advanced pricing](./assets/data-advanced-pricing-export-sample.png)<!-- zoom -->
+![Example export data - advanced pricing](./assets/data-advanced-pricing-export-sample.png){width="600" zoomable="yes"}
 
 |Attribute|Description|
 |--- |--- |

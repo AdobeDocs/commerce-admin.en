@@ -2,6 +2,7 @@
 title: Manage newsletter subscribers
 description: Learn how to manage your newsletter subscribers using a simple list of active subscriptions.
 exl-id: c7e8e642-e3fd-4979-9ea3-2d96839730b2
+feature: Customers, Communications
 ---
 # Manage newsletter subscribers
 
@@ -27,15 +28,15 @@ If you want to use a third-party service to send newsletters, you can export you
 
    For a single site/single store setup, you can simply select or clear the **[!UICONTROL Subscribed to Newsletter]** checkbox.
 
-   ![Single store customer newsletter subscription checkbox](./assets/newsletter-customer-single-store.png)<!-- zoom -->
+   ![Single store customer newsletter subscription checkbox](./assets/newsletter-customer-single-store.png){width="500" zoomable="yes"}
 
    For a single site/multi-store setup, you can select or clear the **[!UICONTROL Subscribed to Newsletter]** checkbox and set **[!UICONTROL Subscribed on Store View]** to the correct store view for the subscription.
 
-   ![Multi-store customer newsletter subscription checkbox and store view selector](./assets/newsletter-customer-multi-store.png)<!-- zoom -->
+   ![Multi-store customer newsletter subscription checkbox and store view selector](./assets/newsletter-customer-multi-store.png){width="500" zoomable="yes"}
 
    For a multi-site/multi-store setup with a global customer account scope, the page displays the subscription status for all sites. You can select or clear the **[!UICONTROL Subscribed]** checkbox and/or change the **[!UICONTROL Store View]** for the subscription.
 
-   ![Multi-site customer newsletter subscription checkboxes and store view selectors](./assets/newsletter-customer-multi-site.png)<!-- zoom -->
+   ![Multi-site customer newsletter subscription checkboxes and store view selectors](./assets/newsletter-customer-multi-site.png){width="500" zoomable="yes"}
 
 1. Click **[!UICONTROL Save Customer]**.
 
@@ -53,7 +54,7 @@ If you want to use a third-party service to send newsletters, you can export you
 
 1. Set the _[!UICONTROL Action]_ control to **[!UICONTROL Unsubscribe]** and click **[!UICONTROL Submit]**.
 
-   ![Unsubscribe newsletter](./assets/newsletter-unsubscribe.png)<!-- zoom -->
+   ![Unsubscribe newsletter](./assets/newsletter-unsubscribe.png){width="600" zoomable="yes"}
 
    The status of the record changes to `Unsubscribed`.
 
@@ -68,7 +69,7 @@ If you want to use a third-party service to send newsletters, you can export you
 
 1. Click **[!UICONTROL Export]** and look for the prompt at the bottom of the screen and save the file.
 
-   ![Export newsletter subscribers](./assets/newsletter-subscribers-export.png)<!-- zoom -->
+   ![Export newsletter subscribers](./assets/newsletter-subscribers-export.png){width="600" zoomable="yes"}
 
 ## Delete a subscriber from the subscribers list
 

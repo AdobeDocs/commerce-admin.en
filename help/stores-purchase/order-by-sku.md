@@ -2,6 +2,7 @@
 title: Order by SKU
 description: Learn how to configure your store to support ordering by SKU as a convenience for your customers.
 exl-id: cb39554f-ab76-46d5-8217-e43bc8f9f88d
+feature: Orders, Storefront, Configuration
 ---
 # Order by SKU
 

@@ -2,6 +2,7 @@
 title: Currency
 description: Learn about how your Adobe Commerce or Magento Open Source store can support multiple currencies to enhance the customer experience.
 exl-id: 5255fb63-a615-4b05-8b00-5c5a089cbb2d
+feature: Currency, Storefront
 ---
 # Currency
 

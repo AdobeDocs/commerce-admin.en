@@ -2,6 +2,7 @@
 title: Scheduled changes for cart price rules
 description: Learn how to apply cart price rules on schedule as part of a campaign and grouped with other content changes.
 exl-id: 4c9caa04-1e11-440d-b3db-7cc5fc83a08f
+feature: Merchandising, Price Rules, Shopping Cart
 ---
 # Scheduled changes for cart price rules
 
@@ -9,7 +10,7 @@ exl-id: 4c9caa04-1e11-440d-b3db-7cc5fc83a08f
 
 Cart price rules can be applied on schedule as part of a campaign and grouped with other content changes. You can create a campaign based on scheduled changes to a price rule, or apply the changes to an existing campaign.
 
-![Cart price rules - scheduled changes](./assets/content-staging-price-rules-cart-scheduled-changes.png)<!-- zoom -->
+![Cart price rules - scheduled changes](./assets/content-staging-price-rules-cart-scheduled-changes.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >

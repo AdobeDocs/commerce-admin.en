@@ -2,6 +2,7 @@
 title: Update currency rates
 description: Learn how to set currency rates manually or import them into your store.
 exl-id: 316a7bc8-1118-46e7-82ff-891ada04cd13
+feature: Currency, Configuration, Data Import/Export
 ---
 # Update currency rates
 

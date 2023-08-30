@@ -2,6 +2,7 @@
 title: Price display settings
 description: Learn about the display of taxes in the catalog, shopping cart, orders, invoices, and credit memos that support the customer purchase experience.
 exl-id: 6f97c474-ef6e-4ca6-899d-812c58b993ca
+feature: Checkout, Invoices, Taxes
 ---
 # Price display settings
 

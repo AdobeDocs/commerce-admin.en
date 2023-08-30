@@ -2,6 +2,7 @@
 title: Add product videos
 description: Learn how to configure product videos for your store, which requires a YouTube data API key from a Google account, and add a video link for a product.
 exl-id: 0cfcee67-a2e2-41cb-ac70-304452f5db6d
+feature: Catalog Management, Products, Media
 ---
 # Add product videos
 
@@ -84,6 +85,10 @@ To add a product video, you must first obtain an API Key from your Google accoun
    - `Hide from Product Page`
 
 1. When complete, click **[!UICONTROL Save]**.
+
+   >[!NOTE]
+   >
+   >If the _[!UICONTROL Autostart base video]_ configuration option is set to `Yes` but the video does not begin to play automatically, it could be due to the autoplay policies that are enforced by the browser and cannot be controlled by Adobe Commerce. Each supported browser has its own autoplay policies that can change over time and your video may not autoplay in the future. As a recommended best practice, you should not rely on autoplay for business critical functionality and should test the video autoplay behavior in your store with each supported browser. 
 
 ## Maintain API access
 

@@ -2,6 +2,8 @@
 title: Set shared catalog pricing and structure
 description: With B2B for Adobe COmmerce, learn about setting up the pricing and structure of a shared catalog.
 exl-id: 67caf56f-1b31-44bb-98dc-ea6ea7d8a4d5
+feature: B2B, Companies, Catalog Management
+role: Admin
 ---
 # Set shared catalog pricing and structure
 
@@ -106,14 +108,16 @@ The selection of products in the grid cannot be changed from the _Custom Prices_
 
 1. Set **[!UICONTROL Actions]** to one of the following:
 
-   - `Set Discount` - Applies a discount percent to all selected products.
-   - `Adjust Fixed Price` - Applies a fixed price to all selected products.
+   - `Set Discount` - Applies a discount percent to all selected products. Each affected product price is displayed as a **_discounted_** price.
+   - `Adjust Fixed Price` - Applies a fixed price discount percent to all selected products. Each affected product price is displayed as an **_adjusted fixed_** price.
 
    ![Actions Control - Set Discount](./assets/shared-catalog-set-custom-prices-discount-action.png){width="600" zoomable="yes"}
 
-1. When prompted, enter the discount and click **[!UICONTROL Apply]**.
+1. When prompted, enter the discount or price adjustment and click **[!UICONTROL Apply]**.
 
-   ![Set Discount](./assets/shared-catalog-set-custom-prices-discount.png){width="400"}
+   ![Set Discount](./assets/shared-catalog-set-custom-prices-discount.png){width="400"}<br/>
+
+   ![Adjust Fixed Price](./assets/shared-catalog-set-custom-fixed-prices.png){width="400"}
 
    The discount is applied to all selected products, and the _Custom Price_ column reflects the type of discount and amount applied.
 

@@ -2,16 +2,17 @@
 title: Enhanced storefront experiences
 description: Learn about the many tools designed to help you maximize your customer engagement, retention, and loyalty.
 exl-id: 04d196fa-0d19-4ff2-870c-6cd3666ac2cf
+feature: Storefront
 ---
 # Enhanced storefront experiences
 
 In addition to the standard elements that enable customers to make purchases in your store, there are many tools designed to help you maximize your customer engagement, retention, and loyalty.
 
->[!TIP]
+<!-- This is not currently working >[!TIP]
 >
 >![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/)<br>
 >
->Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers.
+>Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers. -->
 
 ## Attract new customers 
 

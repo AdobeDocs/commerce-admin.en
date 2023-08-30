@@ -2,6 +2,7 @@
 title: Sales reports
 description: The [!DNL Commerce] sales reports help you to track orders, taxes, invoices, shipping, refunds, coupons, and PayPal settlement.
 exl-id: 928a407f-cbed-4114-ad0b-ee227383bf36
+feature: Reporting, Orders
 ---
 # Sales reports
 

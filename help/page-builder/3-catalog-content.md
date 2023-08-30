@@ -1,13 +1,14 @@
 ---
-title: '[!DNL Page Builder] Walkthrough Part 3: Catalog Content'
-description: Learn how to add a product list to a page in [!DNL Page Builder].
+title: '[!DNL Page Builder] Walkthrough part 3: catalog content'
+description: Learn how to add a product list to a [!DNL Page Builder] page.
 exl-id: f2a0dc29-6d8f-4b97-a947-72659c01d0cb
+feature: Page Builder, Page Content
 ---
-# Walkthrough Part 3: Catalog Content
+# [!DNL Page Builder] Walkthrough part 3: catalog content
 
 This exercise demonstrates how easy it is to add a product list to a page, customize product pages, and create a custom attribute that adds the [!DNL Page Builder] workspace to a product attribute set.
 
-![Product list](./assets/pb-add-content-products-list.png)<!-- zoom -->
+![Product list](./assets/pb-add-content-products-list.png){width="600" zoomable="yes"}
 
 This exercise assumes that you have completed [Part 1: Simple Page](1-simple-page.md) and [Part 2: Blocks](2-blocks.md), including the prerequisites and downloaded sample files. Follow the three parts of this exercise in order.
 
@@ -27,13 +28,13 @@ This exercise assumes that you have completed [Part 1: Simple Page](1-simple-pag
 
 1. In the [!DNL Page Builder] panel, expand **[!UICONTROL Add Content]** and drag a **[!UICONTROL Products]** placeholder to the new row.
 
-   ![Dragging a products placeholder onto the row](./assets/pb-add-content-products-drag.png)<!-- zoom -->
+   ![Dragging a products placeholder onto the row](./assets/pb-add-content-products-drag.png){width="600" zoomable="yes"}
 
 ### Step 2: Compose the condition
 
-1. Hover over the empty products container to display the toolbox and choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon.
+1. Hover over the empty products container to display the toolbox and choose the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png){width="20"} ) icon.
 
-   ![Products toolbox](./assets/pb-add-content-products-toolbox.png)<!-- zoom -->
+   ![Products toolbox](./assets/pb-add-content-products-toolbox.png){width="600" zoomable="yes"}
 
 1. For **[!UICONTROL Select Products By]**, choose `Condition`.
 
@@ -43,15 +44,15 @@ This exercise assumes that you have completed [Part 1: Simple Page](1-simple-pag
 
    - Under _[!UICONTROL Product Attribute]_, choose **[!UICONTROL Category]**.
 
-      ![Choosing the category attribute for the condition](./assets/pb-add-content-products-settings-condition.png)<!-- zoom -->
+      ![Choosing the category attribute for the condition](./assets/pb-add-content-products-settings-condition.png){width="600" zoomable="yes"}
 
    - Complete the _[!UICONTROL Category is] ..._ part of the condition by clicking the More (...) icon and then click the _Chooser_ (![Chooser icon](../assets/icon-list-chooser.png)) icon.
 
-      ![Defining the condition](./assets/pb-add-content-products-settings-condition-category-is.png)<!-- zoom -->
+      ![Defining the condition](./assets/pb-add-content-products-settings-condition-category-is.png){width="600" zoomable="yes"}
 
    - In the category tree, drill down to the **Women > Tops** category and select the **Tees** checkbox.
 
-      ![Choosing the category in the tree](./assets/pb-add-content-products-settings-condition-category-tree.png)<!-- zoom -->
+      ![Choosing the category in the tree](./assets/pb-add-content-products-settings-condition-category-tree.png){width="600" zoomable="yes"}
 
    - Click the Checkmark (![Checkmark icon](../assets/icon-checkmark-green-circle.png)) icon.
 
@@ -65,13 +66,13 @@ This exercise assumes that you have completed [Part 1: Simple Page](1-simple-pag
 
 1. Complete the remaining settings as needed.
 
-   If needed, use the field descriptions at the end of the [Add Products](products.md) topic for reference.
+   If needed, use the field descriptions at the end of the [Add Content - Products](products.md) page for reference.
 
 1. When complete, click **[!UICONTROL Save]** to save the settings and return to the [!DNL Page Builder] workspace.
 
-   ![Products list in the stage](./assets/pb-add-content-products-list-stage.png)<!-- zoom -->
+   ![Products list in the stage](./assets/pb-add-content-products-list-stage.png){width="600" zoomable="yes"}
 
-1. In the upper-right corner of the stage, click the _Close Full Screen_ (![Close full screen icon](./assets/pb-icon-reduce.png)) icon.
+1. In the upper-right corner of the stage, click the _Close Full Screen_ ( ![Close full screen icon](./assets/pb-icon-reduce.png){width="20"} ) icon.
 
    Clicking this icon returns you to the _[!UICONTROL Content]_ section for the page with the preview displayed.
 
@@ -93,7 +94,7 @@ In this part of the exercise, you learn how easy it is to customize a product pa
 
 1. Next to _[!UICONTROL Description]_, click **[!UICONTROL Edit with Page Builder]**.
 
-   ![Product description content](./assets/pb-catalog-product-content.png)<!-- zoom -->
+   ![Product description content](./assets/pb-catalog-product-content.png){width="600" zoomable="yes"}
 
    If the product description was entered previously without [!DNL Page Builder], the current description appears as HTML in an [HTML Code](html-code.md) container. With the Luma theme, the product description appears on the Detail tab.
 
@@ -101,15 +102,15 @@ In this part of the exercise, you learn how easy it is to customize a product pa
 
    Look for the red guideline to appear when the row is in the correct position.
 
-   ![Dragging a row to the stage](./assets/catalog-product-content-stage-row-drag.png)<!-- zoom -->
+   ![Dragging a row to the stage](./assets/catalog-product-content-stage-row-drag.png){width="600" zoomable="yes"}
 
 1. In the [!DNL Page Builder] panel, expand **[!UICONTROL Media]** and drag a **[!UICONTROL Video]** placeholder to the new row.
 
-   ![Video placeholder in the row](./assets/tutorial3-product-drag-video.png)<!-- zoom -->
+   ![Video placeholder in the row](./assets/tutorial3-product-drag-video.png){width="600" zoomable="yes"}
 
-1. Hover over the empty video container to display the toolbox and choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon.
+1. Hover over the empty video container to display the toolbox and choose the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png){width="20"} ) icon.
 
-   ![Video toolbox](./assets/pb-tutorial3-product-video-toolbox.png)<!-- zoom -->
+   ![Video toolbox](./assets/pb-tutorial3-product-video-toolbox.png){width="500" zoomable="yes"}
 
 1. Enter the **[!UICONTROL Video URL]**.
 
@@ -117,7 +118,7 @@ In this part of the exercise, you learn how easy it is to customize a product pa
 
       `https://www.youtube.com/watch?v=ZpFrNyD4100`
 
-   ![Editing the video](./assets/pb-tutorial3-product-edit-video.png)<!-- zoom -->
+   ![Editing the video](./assets/pb-tutorial3-product-edit-video.png){width="500" zoomable="yes"}
 
 1. Enter the **[!UICONTROL Maximum Width]** in pixels for the video display.
 
@@ -125,9 +126,9 @@ In this part of the exercise, you learn how easy it is to customize a product pa
 
 1. Click **[!UICONTROL Save]** to save the settings and return to the [!DNL Page Builder] workspace.
 
-   ![Video in the content stage](./assets/pb-tutorial3-product-video.png)<!-- zoom -->
+   ![Video in the content stage](./assets/pb-tutorial3-product-video.png){width="600" zoomable="yes"}
 
-1. In the upper-right corner of the stage, click the _Close Full Screen_ (![Close full screen icon](./assets/pb-icon-reduce.png)) icon.
+1. In the upper-right corner of the stage, click the _Close Full Screen_ ( ![Close full screen icon](./assets/pb-icon-reduce.png){width="20"} ) icon.
 
    Clicking this icon returns you to the _[!UICONTROL Content]_ section for the page with the preview displayed.
 
@@ -135,15 +136,13 @@ In this part of the exercise, you learn how easy it is to customize a product pa
 
 In the storefront, the video appears below the set of tabs. To see how the page looks on a mobile device, you can resize the window.
 
-![Video displayed on the product page](./assets/pb-tutorial3-product-video-storefront.png)<!-- zoom -->
+![Video displayed on the product page](./assets/pb-tutorial3-product-video-storefront.png){width="600" zoomable="yes"}
 
 **Congratulations!** You have completed the second part of the Catalog Content tutorial. Keep the work that you created, so you can refer to it later.
 
 ## Part 3: Add custom attributes
 
 Use the [!DNL Page Builder] custom attribute to add a fully functioning [!DNL Page Builder] workspace to a product page, which you can use to create engaging content. In this part of the exercise, you learn how to create a custom attribute using the [!DNL Page Builder] input type and apply it to product pages in your catalog. For more information about these attributes, see [Product Attributes](../catalog/product-attributes.md).
-
-![[!DNL Page Builder] and text editor attributes in the storefront](./assets/pb-storefront-product-attribute.png)<!-- zoom -->
 
 ### Step 1: Create a product
 
@@ -182,7 +181,7 @@ In this step, you create two new custom attributes to show how the [!DNL Page Bu
 
    When creating a custom attribute, you can specify the editor that is most suitable to the application as either `Page Builder` or the standard, WYSIWYG `Text Editor`.
 
-   ![[!DNL Page Builder] Input Type](./assets/pb-attribute-page-builder.png)<!-- zoom -->
+   ![[!DNL Page Builder] Input Type](./assets/pb-attribute-page-builder.png){width="600" zoomable="yes"}
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Advanced Attribute Properties]** section and make the following settings:
 
@@ -223,7 +222,7 @@ In this step, you create two new custom attributes to show how the [!DNL Page Bu
 
    The location of the attribute in the [!UICONTROL Groups] column determines where it appears on the page.
 
-   ![New attributes added to the Content group](./assets/pb-product-attribute-set.png)<!-- zoom -->
+   ![New attributes added to the Content group](./assets/pb-product-attribute-set.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Save]** to return to the Attribute Sets list.
 
@@ -242,14 +241,14 @@ In this step, you create two new custom attributes to show how the [!DNL Page Bu
    - _Short Description_, which uses the standard WYSIWYG [editor](../content-design/editor.md).
    - _Description_, which displays the [!DNL Page Builder] preview.
 
-   ![Product content](./assets/pb-product-content-edit-with-page-builder.png)<!-- zoom -->
+   ![Product content](./assets/pb-product-content-edit-with-page-builder.png){width="600" zoomable="yes"}
 
    As you scroll to the lower half of the section, there are the two attributes you created and assigned:
 
    - _My [!DNL Page Builder] Attribute_, which displays the [!DNL Page Builder] preview.
    - _My Text Editor Attribute_, which uses the standard WYSIWYG editor.
 
-   ![Product content editing](./assets/pb-product-content-my-attributes.png)<!-- zoom -->
+   ![Product content editing](./assets/pb-product-content-my-attributes.png){width="600" zoomable="yes"}
 
 1. In the **My Text Editor Attribute** editor, enter `Text Editor Attribute placeholder text`.
 
@@ -261,9 +260,9 @@ In this step, you create two new custom attributes to show how the [!DNL Page Bu
 
    - Enter `Page Builder attribute placeholder text`.
 
-   - In the upper-right corner of the stage, click the _Close Full Screen_ (![Close full screen icon](./assets/pb-icon-reduce.png)) icon.
+   - In the upper-right corner of the stage, click the _Close Full Screen_ ( ![Close full screen icon](./assets/pb-icon-reduce.png){width="20"} ) icon.
 
-      ![Custom attributes with placeholder text](./assets/pb-product-content-attributes.png)<!-- zoom -->
+      ![Custom attributes with placeholder text](./assets/pb-product-content-attributes.png){width="600" zoomable="yes"}
 
 1. Scroll up to **[!UICONTROL Description]**, click **[!UICONTROL Edit with Page Builder]**, and add any text that you like using the same method as the previous step.
 
@@ -271,7 +270,7 @@ In this step, you create two new custom attributes to show how the [!DNL Page Bu
 
 1. If prompted, click the **[!UICONTROL Cache Management]** link in the message at the top of the page and refresh any invalid cache.
 
-### Step 5: Check it out
+### Step 5: View the result
 
 1. Navigate to your sample product page in the storefront.
 
@@ -281,9 +280,9 @@ In this step, you create two new custom attributes to show how the [!DNL Page Bu
 
    The position of the attributes on the product page is determined by the theme. In the Luma theme, the new attributes are located just after the product description.
 
-   ![[!DNL Page Builder] and Text Editor attributes in the storefront](./assets/pb-storefront-product-attribute.png)<!-- zoom -->
+   ![[!DNL Page Builder] and Text Editor attributes in the storefront](./assets/pb-storefront-product-attribute.png){width="600" zoomable="yes"}
 
-**Congratulations!** You have completed the [!DNL Page Builder] Catalog Content exercise. Keep the work that you created, so you can refer to it later.
+You have completed the [!DNL Page Builder] Catalog Content exercise. Keep the work that you created, so you can refer to it later.
 
 [1]: https://www.youtube.com/
 [2]: https://vimeo.com/

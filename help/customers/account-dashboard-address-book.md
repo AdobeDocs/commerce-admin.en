@@ -2,6 +2,7 @@
 title: The customer address book
 description: The address book contains the customer's default billing and shipping addresses, and any additional addresses that they use frequently.
 exl-id: b1cbc3b0-c245-4b8a-886f-b2cfc104db16
+feature: Customers, Storefront
 ---
 # The customer address book
 
