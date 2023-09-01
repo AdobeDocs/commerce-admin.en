@@ -67,7 +67,7 @@ When the Experience Cloud integration is enabled, administrators use the followi
 
     If the module is not available on the Commerce instance, it can be installed using Composer.
 
-  - [Adobe I/O Events service](https://developer.adobe.com/commerce/events/get-started/)—Required to send event data to manage administrator access to Commerce projects from Experience Cloud.
+  - [Adobe I/O Events service](https://developer.adobe.com/commerce/extensibility/events/)—Required to send event data to manage administrator access to Commerce projects from Experience Cloud.
 
     The Adobe I/O Events integration with Commerce is enabled by the Commerce Event extension (`magento/commerce-eventing`) which is available with Adobe Commerce 2.4.4 and later versions.
 
