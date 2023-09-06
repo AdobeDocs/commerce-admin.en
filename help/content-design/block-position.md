@@ -1,9 +1,9 @@
 ---
-title: Position Blocks
+title: Position content blocks
 description: Position a block at a specific place on the page, and even for a specific product or category, without writing any code
 exl-id: cfc9eb2c-19c8-43f1-937d-4162b5011b8a
 ---
-# Position Blocks
+# Position content blocks
 
 The code that controls the page layout and placement of blocks is written in XML [Widgets](widgets.md). These widgets make it easy to position a block at a specific place on the page, and even for a specific product or category without writing any code. You can choose each option from a list, rather than trying to remember all possible combinations.
 
@@ -43,8 +43,8 @@ The following list describes the locations by page type where blocks are typical
 | [!UICONTROL Page Footer] | Content appears above the footer of the page. |
 | [!UICONTROL Page Header] | Content appears below the header of the page. |
 | [!UICONTROL Page Top] | Content appears at the top of the page. |
-| [!UICONTROL PayPal Express Checkout (Payflow Edition) Shortcut Wrapper] | If the PayPal payment method is enabled, content appears below the _PayPal buy_ button. |
-| [!UICONTROL PayPal Express Checkout Shortcut Wrapper] | If the PayPal payment method is enabled, content appears below the _PayPal buy_ button. |
+| [!UICONTROL PayPal Express Checkout (Payflow Edition) Shortcut Wrapper] | If the PayPal payment method is enabled, the content appears below the _PayPal buy_ button. |
+| [!UICONTROL PayPal Express Checkout Shortcut Wrapper] | If the PayPal payment method is enabled, the content appears below the _PayPal buy_ button. |
 | [!UICONTROL Product Tags List] | Content appears below the products tag bar. |
 | [!UICONTROL Product View Extra Hint] | Content appears below the main top price of the product. |
 | [!UICONTROL Right Column] | Content appears below the right column blocks. |
