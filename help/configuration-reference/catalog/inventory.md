@@ -76,7 +76,7 @@ feature: Configuration, Inventory
 
 >[!NOTE]
 >
-> Due to the volatile nature of the inventory and its ordering related implications, the inventory indexer will also be triggered on product save, regardless of `Synchronous` / `Asynchronous` setting.
+> Due to the dependencies of inventory updates for the order-related activities, the inventory indexer is also triggered on product save, regardless of  the `Synchronous` or `Asynchronous` setting.
 
 
 {:style="table-layout:auto"}
