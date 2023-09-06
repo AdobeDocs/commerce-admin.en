@@ -26,7 +26,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 
    - In the _[!UICONTROL Merchant Location]_ section, verify that **[!UICONTROL Merchant Country]** is set to the location of your business.
 
-1. Under _[!UICONTROL Recommended Solutions]_, in the _[!UICONTROL Braintree Payments (by GENE Commerce) v4.5.0)]_ section, click **[!UICONTROL Configure]**.
+1. Under _[!UICONTROL Recommended Solutions]_, in the _[!UICONTROL Braintree Payments (by GENE Commerce v4.5.0)]_ section, click **[!UICONTROL Configure]**.
 
    ![Configure Braintree](./assets/braintree-payments.png){width="600" zoomable="yes"}
 
