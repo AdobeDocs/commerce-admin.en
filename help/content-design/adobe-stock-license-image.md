@@ -1,10 +1,10 @@
 ---
-title: License an Adobe Stock Image
+title: License an Adobe Stock image
 description: To ensure you have legal access and to eliminate the Adobe Stock watermark, license your Adobe Stock images.
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
 ---
-# License an Adobe Stock Image
+# License an Adobe Stock image
 
 Adobe Stock assets that you want to use for your production Adobe Commerce and Magento Open Source stores should be licensed. This licensing ensures you have legal access to the image and to eliminate the Adobe Stock watermark that is present on all [image previews][save-preview]. To license images or to save already-licensed images, you must be logged in to your Adobe account.
 
@@ -28,7 +28,7 @@ This feature requires the [Adobe Stock Integration][adobe-stock-integration] mod
 
    >[!NOTE]
    >
-   >If you are not logged in, login form appears. For more information about login, see [Using Adobe Stock Images][using-adobe-stock].
+   >If you are not logged in, the login form appears. For more information about login, see [Using Adobe Stock Images][using-adobe-stock].
 
 1. In the licensing confirmation dialog, click **[!UICONTROL Confirm]** to license the image.
 
@@ -38,7 +38,7 @@ This feature requires the [Adobe Stock Integration][adobe-stock-integration] mod
    >
    >You must have available [Adobe Stock credits][stock-credits] in your account to license the image.
 
-## License an image from the standard Media Storage
+## License an image from the standard media storage
 
 1. [Access the Adobe Stock Search grid][access-search].
 

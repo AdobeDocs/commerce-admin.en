@@ -120,7 +120,7 @@ Enable the Commerce Events extension (`magento/commerce-eventing`) to send custo
 
 >[!NOTE]
 >
->For Commerce 2.4.6 and later, the Commerce Events extension is installed by default. For Commerce projects with Commerce 2.4.5, first use Composer to [install the extension](https://developer.adobe.com/commerce/events/get-started/installation/#install-adobe-io-modules-on-commerce), then enable it.
+>For Commerce 2.4.6 and later, the Commerce Events extension is installed by default. For Commerce projects with Commerce 2.4.5, first use Composer to [install the extension](https://developer.adobe.com/commerce/extensibility/events/installation/#install-adobe-io-modules-on-commerce), then enable it.
 
 1. From your local Commerce project development environment, add the following configuration to the `.magento.env.yaml` file.
 
@@ -143,19 +143,19 @@ Enable the Commerce Events extension (`magento/commerce-eventing`) to send custo
 
 ### Configure the Commerce Events integration
 
-Configure the Commerce Events integration by completing the following tasks. For detailed instructions, see [Adobe I/O Events for Commerce](https://developer.adobe.com/commerce/events/get-started/project-setup/) developer documentation.
+Configure the Commerce Events integration by completing the following tasks. For detailed instructions, see [Adobe I/O Events for Commerce](https://developer.adobe.com/commerce/extensibility/events/project-setup/) developer documentation.
 
-1. [Create an App Builder project](https://developer.adobe.com/commerce/events/get-started/project-setup/) to receive event data from the Commerce instance.
+1. [Create an App Builder project](https://developer.adobe.com/commerce/extensibility/events/project-setup/) to receive event data from the Commerce instance.
 
    You need credentials and configuration data from the App Builder project to configure the integration in the Commerce Admin.
 
 1. Configure Adobe Commerce to use Adobe I/O Events.
 
-   - [Update the Store Configuration settings for the Adobe I/O Events service](https://developer.adobe.com/commerce/events/get-started/configure-commerce/#begin-configuring-events-on-commerce).
+   - [Update the Store Configuration settings for the Adobe I/O Events service](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#begin-configuring-events-on-commerce).
 
-   - [Configure an event provider to send Commerce events](https://developer.adobe.com/commerce/events/get-started/configure-commerce/#create-an-event-provider-and-complete-the-commerce-configuration).
+   - [Configure an event provider to send Commerce events](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#create-an-event-provider-and-complete-the-commerce-configuration).
 
-1. [Update the App Builder project to receive event data from the Commerce instance](https://developer.adobe.com/commerce/events/get-started/configure-commerce/#subscribe-and-register-events).
+1. [Update the App Builder project to receive event data from the Commerce instance](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#subscribe-and-register-events).
 
    Do not register or subscribe to events from the Commerce instance. The event registration is pushed to the App Builder project when you configure the event provider for the Commerce application.
 

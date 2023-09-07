@@ -1,13 +1,13 @@
 ---
-title: Page Hierarchy
+title: Page hierarchy
 description: Learn how the page hierarchy system gives you the ability to organize your content pages and add pagination, navigation, and menus.
 exl-id: 2ce79b85-1420-4640-a4f7-0143a608a71a
 ---
-# Page Hierarchy
+# Page hierarchy
 
 {{ee-feature}}
 
-The store page hierarchy system gives you the ability to organize your content pages and add pagination, navigation, and menus. The Privacy Policy page in the sample data is an example of a page with a menu on the left. If you publish a large amount of content regularly, you can use page hierarchy to organize your content to make it easy for people to find articles of interest.
+The store page hierarchy system gives you the ability to organize your content pages and add pagination, navigation, and menus. The Privacy Policy page in the sample data is an example of a page with a menu on the left. If you publish a large amount of content regularly, you can use a page hierarchy to organize your content to make it easy for people to find articles of interest.
 
 The page hierarchy system uses nodes to identify related pieces of content, and to organize content pages into parent/child relationships. A parent node is like a folder that might contain child nodes and pages. The relative position of each node and page in the hierarchy is shown as a _tree_ structure. A node might contain other nodes and content pages, and a single content page might be associated with multiple nodes and other content pages in a parent/child or neighbor relationships.
 
@@ -29,9 +29,9 @@ The configuration settings activate the page hierarchy system and metadata, and 
 
 |Field|Description|
 |--- |--- |
-|[!UICONTROL Enable Hierarchy Functionality]|Activates the use of page hierarchy for your content pages. Options: Yes / No|
-|[!UICONTROL Enable Hierarchy Metadata]|Gives you the ability to associate meta data with pages in the hierarchy. Options: Yes / No|
-|[!UICONTROL Default Layout for Hierarchy Menu]|Determines the default menu style. Options: Content / Left Column / Right Column|
+|[!UICONTROL Enable Hierarchy Functionality]|Activates the use of page hierarchy for your content pages. Options: `Yes` / `No`|
+|[!UICONTROL Enable Hierarchy Metadata]|WHen this option is enabled, you can associate meta data with pages in the hierarchy. Options: `Yes` / `No`|
+|[!UICONTROL Default Layout for Hierarchy Menu]|Determines the default menu style. Options: `Content` / `Left Column` / `Right Column`|
 
 {style="table-layout:auto"}
 
@@ -122,7 +122,7 @@ If you want the node to appear in the menu, do the following:
 
 1. To specify the location of the menu in relation to the content, set the **[!UICONTROL Menu Layout]**:
 
-   - `Content` - The menu layout is located in the content.
+   - `Content` - The menu layout is in the content.
    - `Use Default` - Uses the menu style that is specified in the [configuration](../configuration-reference/general/content-management.md).
    - `Left Column` - The menu appears to the left of the content.
    - `Right Column` - The menu appears to the right of the content.
