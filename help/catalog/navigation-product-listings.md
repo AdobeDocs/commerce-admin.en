@@ -10,7 +10,7 @@ Product listings can be set to appear by default as either a list or grid. You c
 
 >[!NOTE]
 >
->When sorting category by a product attribute, products with the same attribute values are additionally sorted by their _[!UICONTROL Product ID]_ in the ascending order.
+>When sorting category by a product attribute, products with the same attribute values are also sorted by their _[!UICONTROL Product ID]_ in the ascending order.
 
 ![Products displayed as a grid](./assets/storefront-catalog-page.png){width="700" zoomable="yes"}
 
