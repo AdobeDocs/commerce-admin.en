@@ -165,4 +165,6 @@ Hover over the container to display the toolbox and choose an option.
 | Duplicate | ![Duplicate icon](./assets/pb-icon-duplicate.png){width="25"} | Makes a copy of the current content container. |
 | Remove    | ![Remove](./assets/pb-icon-remove.png){width="25"} | Deletes the current content container from the stage. |
 
+{{$include /help/_includes/page-builder-hidden-element-note.md}}
+
 {style="table-layout:auto"}

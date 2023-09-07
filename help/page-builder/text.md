@@ -32,6 +32,8 @@ You can access the text editor directly from the stage or from a settings page. 
 | Duplicate | ![Duplicate icon](./assets/pb-icon-duplicate.png){width="25"} | Makes a copy of the text container. |
 | Remove    | ![Remove icon](./assets/pb-icon-remove.png){width="25"}    | Deletes the text container and its content from the stage. |
 
+{{$include /help/_includes/page-builder-hidden-element-note.md}}
+
 {style="table-layout:auto"}
 
 ## Add text

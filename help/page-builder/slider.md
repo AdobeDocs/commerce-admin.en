@@ -42,6 +42,8 @@ When you are working with the Slider content type, you add and edit individual s
 |Duplicate|![Duplicate icon](./assets/pb-icon-duplicate.png){width="25"}|Makes a copy of the slider.|
 |Remove|![Remove icon](./assets/pb-icon-remove.png){width="25"}|Deletes the slider from the stage.|
 
+{{$include /help/_includes/page-builder-hidden-element-note.md}}
+
 {style="table-layout:auto"}
 
 ## Add an individual slide
