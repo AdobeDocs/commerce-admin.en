@@ -26,9 +26,9 @@ Use the _Video_ content type to add a video that is hosted on [YouTube][1] or [V
 |Duplicate|![Duplicate icon](./assets/pb-icon-duplicate.png){width="25"}|Makes a copy of the video.|
 |Remove|![Remove icon](./assets/pb-icon-remove.png){width="25"}|Deletes the video from the stage.|
 
-{{$include /help/_includes/page-builder-hidden-element-note.md}}
-
 {style="table-layout:auto"}
+
+{{$include /help/_includes/page-builder-hidden-element-note.md}}
 
 ## Add a video
 
