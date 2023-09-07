@@ -32,9 +32,9 @@ The image toolbox appears when you hover over the image container.
 |Upload New Image||Uploads an image from your local file system to the gallery.|
 |Select from Gallery||Chooses an existing image from the gallery.|
 
-{{$include /help/_includes/page-builder-hidden-element-note.md}}
-
 {style="table-layout:auto"}
+
+{{$include /help/_includes/page-builder-hidden-element-note.md}}
 
 ## Add an image
 

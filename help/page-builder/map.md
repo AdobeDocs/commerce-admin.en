@@ -38,9 +38,9 @@ The map toolbox appears when you hover over the map container.
 |Duplicate|![Duplicate icon](./assets/pb-icon-duplicate.png){width="25"}|Makes a copy of the map.|
 |Remove|![Remove icon](./assets/pb-icon-remove.png){width="25"}|Deletes the map from the stage.|
 
-{{$include /help/_includes/page-builder-hidden-element-note.md}}
-
 {style="table-layout:auto"}
+
+{{$include /help/_includes/page-builder-hidden-element-note.md}}
 
 ## Configure [!DNL Google Maps] for your Admin
 

@@ -41,9 +41,9 @@ The following instructions show how to add a Products list to a block. You can t
 | Duplicate | ![Duplicate icon](./assets/pb-icon-duplicate.png){width="25"} | Makes a copy of the products container and its content.  |
 | Remove    | ![Remove icon](./assets/pb-icon-remove.png){width="25"}| Deletes the products container and its content from the stage. |
 
-{{$include /help/_includes/page-builder-hidden-element-note.md}}
-
 {style="table-layout:auto"}
+
+{{$include /help/_includes/page-builder-hidden-element-note.md}}
 
 ## Create a products list block
 

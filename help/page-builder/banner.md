@@ -34,9 +34,9 @@ The banner toolbox appears when you hover over the banner container.
 |[!UICONTROL Upload New Image]||Uploads an image from your local file system to the gallery for the banner background.|
 |[!UICONTROL Select from Gallery]||Uses an existing image from the gallery for the banner background.|
 
-{{$include /help/_includes/page-builder-hidden-element-note.md}}
-
 {style="table-layout:auto"}
+
+{{$include /help/_includes/page-builder-hidden-element-note.md}}
 
 ## Add a banner
 

@@ -23,9 +23,9 @@ Use the _Block_ content type to add an existing, active [block](../content-desig
 | Duplicate | ![Duplicate icon](./assets/pb-icon-duplicate.png) | Makes a copy of the block container and its content. |
 | Remove    | ![Remove icon](./assets/pb-icon-remove.png) | Deletes the block container and its content from the stage. |
 
-{{$include /help/_includes/page-builder-hidden-element-note.md}}
-
 {style="table-layout:auto"}
+
+{{$include /help/_includes/page-builder-hidden-element-note.md}}
 
 ## Add an existing block
 

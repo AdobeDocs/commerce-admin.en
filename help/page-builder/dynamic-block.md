@@ -23,9 +23,9 @@ Use the Dynamic Block content type to add an existing [dynamic block](../content
 | Duplicate | ![Duplicate icon](./assets/pb-icon-duplicate.png){width="25"} | Makes a copy of the block container and its content.  |
 | Remove    | ![Remove icon](./assets/pb-icon-remove.png){width="25"} | Deletes the block container and its content from the stage. |
 
-{{$include /help/_includes/page-builder-hidden-element-note.md}}
-
 {style="table-layout:auto"}
+
+{{$include /help/_includes/page-builder-hidden-element-note.md}}
 
 ## Add an existing dynamic block to the stage
 

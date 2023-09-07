@@ -38,9 +38,9 @@ As with all content containers, the toolbox appears when you hover over the cont
 | Duplicate | ![Duplicate icon](./assets/pb-icon-duplicate.png){width="25"} | Makes a copy of the heading container. |
 | Remove    | ![Remove icon](./assets/pb-icon-remove.png){width="25"} | Deletes the heading container and its content from the stage. |
 
-{{$include /help/_includes/page-builder-hidden-element-note.md}}
-
 {style="table-layout:auto"}
+
+{{$include /help/_includes/page-builder-hidden-element-note.md}}
 
 ## Add a heading
 
