@@ -30,6 +30,10 @@ You can set up the category options separately for each [store](../stores-purcha
 
 ## Step 2: Sort the products
 
+>[!NOTE]
+>
+>When sorting category by a product attribute, products with the same attribute values are additionally sorted by their _[!UICONTROL Product ID]_ in the ascending order.
+
 In the _[!UICONTROL Products in Category]_ section, click the tiles ( ![View tiles](../assets/icon-view-tiles.png) ) icon to show the product tiles in a grid. Use either the manual or automatic method to sort the products.
 
 ![Product tiles](./assets/category-products-tiles.png){width="600" zoomable="yes"}
