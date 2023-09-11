@@ -6,4 +6,4 @@ description: Reused note about hidden elements
 
 >[!NOTE]
 >
->Hidden elements will still be stored in the database, and however invisible to customers, such elements will be visible to search engines and other bots that crawl your site. They will also be returned sa a part of the content if requested via API call with an attribute of invisibility unless you remove them from the stage.
+>Hidden elements are stored in the database and invisible to customers. However, these elements are visible to search engines and other bots that crawl your site. They are also returned as part of the content if requested through an API call with an attribute of invisibility, unless you remove them from the stage.
