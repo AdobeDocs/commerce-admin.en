@@ -40,6 +40,8 @@ The map toolbox appears when you hover over the map container.
 
 {style="table-layout:auto"}
 
+{{$include /help/_includes/page-builder-hidden-element-note.md}}
+
 ## Configure [!DNL Google Maps] for your Admin
 
 Before adding a map, you must first open an [account][3] for a free trial of [!DNL Google Maps] Platform. The free trial lasts for 12 months and includes a $300 credit. If you use up your credit, Google does not bill your account without your permission.

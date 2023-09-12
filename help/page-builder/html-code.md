@@ -21,6 +21,8 @@ Use the _HTML Code_ content type to add snippets of HTML, CSS, and JavaScript co
 | Duplicate | ![Duplicate icon](./assets/pb-icon-duplicate.png){width="25"} | Makes a copy of the HTML Code container. |
 | Remove    | ![Remove icon](./assets/pb-icon-remove.png){width="25"}  | Deletes the HTML Code container and its content from the stage. |
 
+{{$include /help/_includes/page-builder-hidden-element-note.md}}
+
 ## Add HTML code
 
 The following example demonstrates how to embed [Google Font][1] code and declare custom heading classes that override the current stylesheet.

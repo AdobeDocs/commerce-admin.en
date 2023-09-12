@@ -25,6 +25,8 @@ Use the Dynamic Block content type to add an existing [dynamic block](../content
 
 {style="table-layout:auto"}
 
+{{$include /help/_includes/page-builder-hidden-element-note.md}}
+
 ## Add an existing dynamic block to the stage
 
 1. Navigate to the [!DNL Page Builder] workspace on the target page, block, product, or category.
