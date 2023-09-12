@@ -46,6 +46,8 @@ When you are working with the _Tabs_ content type, you add and edit individual t
 
 {style="table-layout:auto"}
 
+{{$include /help/_includes/page-builder-hidden-element-note.md}}
+
 ## Add an individual tab
 
 1. In the [!DNL Page Builder] panel under _[!UICONTROL Layout]_, drag the **[!UICONTROL Tabs]** placeholder directly to the stage or to a row or column on the stage.

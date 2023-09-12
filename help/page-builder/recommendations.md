@@ -27,6 +27,8 @@ Use the _Product Recommendations_ content type to add an existing, active [recom
 
 {style="table-layout:auto"}
 
+{{$include /help/_includes/page-builder-hidden-element-note.md}}
+
 ## Add an existing recommendation unit
 
 1. Make sure you have already [created a recommendation unit](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/create.html) for the [!DNL Page Builder] page type.

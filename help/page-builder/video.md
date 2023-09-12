@@ -28,6 +28,8 @@ Use the _Video_ content type to add a video that is hosted on [YouTube][1] or [V
 
 {style="table-layout:auto"}
 
+{{$include /help/_includes/page-builder-hidden-element-note.md}}
+
 ## Add a video
 
 1. Before you begin, navigate to the [YouTube][1] or [Vimeo][2] video that you want to embed, and copy the link.

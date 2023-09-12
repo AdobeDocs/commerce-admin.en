@@ -34,6 +34,8 @@ You can access the text editor directly from the stage or from a settings page. 
 
 {style="table-layout:auto"}
 
+{{$include /help/_includes/page-builder-hidden-element-note.md}}
+
 ## Add text
 
 1. In the [!DNL Page Builder] panel, expand **[!UICONTROL Elements]** and drag a **[!UICONTROL Text]** placeholder to a row, column, or tab set on the stage.
