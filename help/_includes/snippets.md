@@ -66,9 +66,9 @@ To access the store configurations settings, choose **[!UICONTROL Stores]** > _[
 
 >[!IMPORTANT]
 >
->The United Parcel Service (UPS) APIs used by the native Adobe Commerce integration are temporarily deprecated because it does not currently support the OAuth 2.0 security model. An update to the Commerce UPS integration is expected later this year. To learn more about this change, refer to [_Developer Portal Access Key Migration Guide_](https://developer.ups.com/oauth-developer-guide). <br/>
+>Beginning June 2024, Adobe Commerce merchants are not able to transact with the current UPS integration. The United Parcel Service (UPS) APIs used by the native Adobe Commerce integration do not currently support the required OAuth 2.0 security model. To learn more about this change, refer to [_Developer Portal Access Key Migration Guide_](https://developer.ups.com/oauth-developer-guide). <br/>
 >
->This API deprecation does not impact merchants already using generated API keys and UPS will continue to support authentication through these keys until June 3, 2024. Merchants without generated keys cannot use this native integration, but can use a published UPS delivery extension [available on the Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=UPS&categories=Extensions~Shipping%20%26%20Fulfillment).
+>Merchants should [apply the a secuity patch update](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.html) to their store in order to migrate from SOAP API to the RESTful API, which supports OAuth 2.0 authentication protocols.
 
 
 ## Available documentation {#docs-links}
