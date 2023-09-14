@@ -28,30 +28,28 @@ To offer this shipping method to your customers, you must first open an account 
 
 1. Set **[!UICONTROL Enabled for Checkout]** to `Yes`.
 
-1. For a UPS XML account (default), set **[!UICONTROL UPS Type]** to `United Parcel Service XML` and do the following:
+1. For a UPS REST account (default), do the following:
 
-   - Enter your UPS credentials: **[!UICONTROL User ID]**, **[!UICONTROL Access License Number]** (the 16-digit UPS account `Access Key`), and **[!UICONTROL Password]**
+   - Enter your UPS credentials: UPS ClientID as **[!UICONTROL User ID]**, UPS Client Secret as **[!UICONTROL Password]**
 
    - Set **[!UICONTROL Mode]** to `Live` to send data to the UPS shipping system over a secure connection. (Development mode does not send data over a secure connection.)
 
-   - Verify the **[!UICONTROL Gateway XML URL]** that is required to send requests by XML file.
+   - Verify the **[!UICONTROL Gateway URL]** that is required to send requests, use sandbox url for test mode and production url for live requests.
+
+   - Verify the **[!UICONTROL Tracking URL]** that is required to get tracking information, use sandbox url for test mode and production url for live requests.
 
    - Set **[!UICONTROL Origin of the Shipment]** to the region where the shipment originates.
 
    - If you have special rates with UPS, set **[!UICONTROL Enable Negotiated Rates]** to `Yes` and enter the six-digit **[!UICONTROL Shipper Number]** assigned to you by UPS.
-
-1. For a standard UPS account, set **[!UICONTROL UPS Type]** to `United Parcel Service` and do the following:
-
-   >[!NOTE]
-   >
-   >The standard United Parcel Service type is scheduled for deprecation. For new configurations, you should use the default  `United Parcel Service XML` type. The XML type is also required to generate [shipping labels](shipping-labels.md).
 
    - Set **[!UICONTROL Live Account]** to one of the following:
 
       - `Yes` - Runs UPS in production mode, and offers UPS as a shipping method to your customers.
       - `No` - Runs UPS in a test mode.
 
-   - In the **[!UICONTROL Gateway URL]** field, enter the URL that is used to calculate UPS shipping rates.
+   >[!NOTE]
+   >
+   >The standard United Parcel Service type is scheduled for deprecation. For new configurations, you should use the default  `United Parcel Service REST` type. The REST type is also required to generate [shipping labels](shipping-labels.md). The **[!UICONTROL UPS Type]**  has been removed as "UPS" and "UPS XML" are scheduled for deprecation and under new configuration we will use "UPS REST" as default. The United Parcel Service (UPS) APIs used by the native Adobe Commerce integration are temporarily deprecated because it does not currently support the OAuth 2.0 security model.
 
       >[!IMPORTANT]
       >
