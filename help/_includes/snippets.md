@@ -1,6 +1,6 @@
 ---
 title: Snippets
-description: Reused visual elements to note feature or pages applying to a specific edition
+description: Reused notes and visual elements to note a feature or page applying to a specific edition
 ---
 # Snippets
 
@@ -19,7 +19,7 @@ description: Reused visual elements to note feature or pages applying to a speci
 ## CE only feature {#ce-feature}
 
 <table style="border:1px solid orange">
-<tr><td><img alt="Magento Open Source feature" src="../assets/open-source.svg" width="20" height="20" /> Alternative method required for Magento Open Source (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">Learn more</a>)</td></tr>
+<tr><td><img alt="Magento Open Source feature" src="../assets/open-source.svg" width="20" height="20" /> Alternative method is required for Magento Open Source (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">Learn more</a>)</td></tr>
 </table>
 
 ## Beta updates {#beta-updates}
@@ -56,11 +56,11 @@ description: Reused visual elements to note feature or pages applying to a speci
 
 >[!NOTE]
 >
->Price rules are automatically processed with other system rules. Processing frequency depends on the [cron configuration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html). When you create a price rule, allow enough time for it to get into the system and then test the rule to make sure that it works correctly.
+>Price rules are automatically processed with other system rules. Processing frequency depends on the [cron configuration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html). When you create a price rule, allow enough time for it to get into the system. WHen you are sure it is in the system, test the rule.
 
 ## Configuration settings {#config}
 
-To access the store configurations settings, choose **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]** from the _Admin_ sidebar.
+To access the store configuration settings, choose **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]** from the _Admin_ sidebar.
 
 ## UPS API deprecation {#ups-api}
 
@@ -68,7 +68,7 @@ To access the store configurations settings, choose **[!UICONTROL Stores]** > _[
 >
 >Beginning June 2024, Adobe Commerce merchants are not able to transact with the current UPS integration. The United Parcel Service (UPS) APIs used by the native Adobe Commerce integration do not currently support the required OAuth 2.0 security model. To learn more about this change, refer to [_Developer Portal Access Key Migration Guide_](https://developer.ups.com/oauth-developer-guide). <br/>
 >
->Merchants should [apply a quality patch update](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.html) to their store in order to migrate from SOAP API to the RESTful API, which supports OAuth 2.0 authentication protocols.
+>Merchants should [apply a quality patch update](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.html) to their store to migrate from the SOAP API to the RESTful API, which supports OAuth 2.0 authentication protocols.
 
 
 ## Available documentation {#docs-links}
