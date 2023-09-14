@@ -68,7 +68,7 @@ To access the store configurations settings, choose **[!UICONTROL Stores]** > _[
 >
 >Beginning June 2024, Adobe Commerce merchants are not able to transact with the current UPS integration. The United Parcel Service (UPS) APIs used by the native Adobe Commerce integration do not currently support the required OAuth 2.0 security model. To learn more about this change, refer to [_Developer Portal Access Key Migration Guide_](https://developer.ups.com/oauth-developer-guide). <br/>
 >
->Merchants should [apply a secuity patch update](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.html) to their store in order to migrate from SOAP API to the RESTful API, which supports OAuth 2.0 authentication protocols.
+>Merchants should [apply a quality patch update](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.html) to their store in order to migrate from SOAP API to the RESTful API, which supports OAuth 2.0 authentication protocols.
 
 
 ## Available documentation {#docs-links}
