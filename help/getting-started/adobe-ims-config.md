@@ -55,8 +55,8 @@ You must have an Adobe account to generate a new project and register it in IMS.
 1. Click **[!UICONTROL Add API]** on the newly created Project page.
 1. Select **[!UICONTROL Adobe Services]** > **[!UICONTROL Adobe Commerce with Adobe ID]**.
 1. Select **[!UICONTROL Oauth 2.0 Web]**.
-1. Specify the **[!UICONTROL Redirect URI]**: `https://<hostname>/<backend_frontname>/adobe_ims/oauth/callback/`
-1. Specify the **[!UICONTROL Redirect URI pattern]**: `https://<hostname>/<backend_frontname>/adobe_ims/oauth/callback/.*`
+1. Specify the **[!UICONTROL Redirect URI]**: `https://<hostname>/`
+1. Specify the **[!UICONTROL Redirect URI pattern]**: `https://<hostname>/.*`
 
    Escape any dots in the hostname by preceding the dots with `\\`. Adding a wildcard to the end of the URL supports the Adobe Commerce Admin secret key.
 

@@ -26,7 +26,10 @@ Licensing Adobe Stock images requires:
 
 ## Integrate [!DNL Commerce] and Adobe Stock
 
-Configuring the Adobe Stock integration for Adobe Commerce is a two-step process: [create an adobe.developer integration](#create-an-adobe-developer-integration) to generate an API Key, and then [configure the Adobe Stock integration in your [!DNL Commerce] Admin](#configure-the-adobe-stock-integration).
+Configuring the Adobe Stock integration for Adobe Commerce is a two-step process: 
+
+1. [Create an adobe.developer integration](#create-an-adobe-developer-integration) to generate an API Key
+1. [Configure the Adobe Stock integration in the Commerce Admin](#configure-the-adobe-stock-integration)
 
 ### Create an Adobe Developer integration
 
@@ -56,11 +59,11 @@ Configuring the Adobe Stock integration for Adobe Commerce is a two-step process
 
 1. Click **[!UICONTROL Next]**.
 
-1.  Review thw available scopes and click **[!UICONTROL Save configured API]**.
+1. Review thw available scopes and click **[!UICONTROL Save configured API]**.
 
 1. On the page that follows, copy your **[!UICONTROL Client ID]** (API key) and **[!UICONTROL Client secret]**.
 
-   This information is used in steps of the [next section][configure].
+   This information is used in steps of the next section.
 
 ### Configure the Adobe Stock integration
 

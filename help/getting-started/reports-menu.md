@@ -1,6 +1,7 @@
 ---
 title: '[!UICONTROL Reports] menu'
 description: Adobe Commerce and Magento Open Source provide a wide selection of reports to keep you informed on your marketing efforts, sales products, and customer activity.
+feature: Admin Workspace, Reporting
 exl-id: f6356590-ba89-4c97-a9fc-efbd0dacf31a
 ---
 # [!UICONTROL Reports] menu

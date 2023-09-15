@@ -1,9 +1,9 @@
 ---
-title: Add and Remove Pages
+title: Add and remove pages
 description: Learn how to add and remove content pages used in your [!DNL Commerce] store.
 exl-id: a7a503ea-3631-4be2-81e4-aed2ae9419dc
 ---
-# Add and Remove Pages
+# Add and remove pages
 
 The process of adding a content page to your store is essentially the same for any type of page that you might want to create. You can include text, images, blocks of content, variables, and widgets. Most content pages are designed for reading by search engines first, and by people second. Keep the needs of each of these two different audiences in mind when choosing the page title, and URL, and when composing the meta data, and content. When your page is complete, it can be added to your store navigation, linked to other pages, linked from the footer of your store, or used as a new [home page](page-home-new.md).
 
@@ -67,7 +67,7 @@ Depending on your [Advanced Content Tools configuration](../configuration-refere
 
 1. Enter a **[!UICONTROL Meta Title]** for the page.
 
-   The Meta Title should contain fewer than 70 characters and appears in the browser title bar and tab.
+   The meta-title should contain fewer than 70 characters and appears in the browser title bar and tab.
 
 1. Enter your choice of high-value **[!UICONTROL Meta Keywords]** that search engines can use to index the page.
 
@@ -200,7 +200,7 @@ Any content page can be used as a template, and saved as a duplicate. You might 
 
 ## Delete a page
 
-There are two ways to remove a created page. You can remove it from _[!UICONTROL Pages]_ grid or from the _[!UICONTROL Edit]_ page.
+There are two ways to remove a created page. You can remove it from the _[!UICONTROL Pages]_ grid or from the _[!UICONTROL Edit]_ page.
 
 ### Method 1: Remove a page from the Pages grid
 
@@ -223,5 +223,3 @@ There are two ways to remove a created page. You can remove it from _[!UICONTROL
 1. In the button bar, click **[!UICONTROL Delete Page]**.
 
 1. To confirm the action, click **[!UICONTROL OK]**.
-
-[1]: https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-instructions/

@@ -2,7 +2,7 @@
 title: Product reports
 description: The product reports available in Adobe Commerce and Magento Open Source give you insight regarding products viewed and ordered, bestsellers, stock levels, and downloads.
 exl-id: 7b2430dd-050a-407d-b922-39df5b3c52d1
-feature: Products
+feature: Products, Reporting
 ---
 # Product reports
 

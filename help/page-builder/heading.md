@@ -40,6 +40,8 @@ As with all content containers, the toolbox appears when you hover over the cont
 
 {style="table-layout:auto"}
 
+{{$include /help/_includes/page-builder-hidden-element-note.md}}
+
 ## Add a heading
 
 1. In the [!DNL Page Builder] panel, expand **[!UICONTROL Elements]** and drag a **[!UICONTROL Heading]** placeholder to a row, column, or tab set on the stage.
