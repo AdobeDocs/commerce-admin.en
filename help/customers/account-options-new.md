@@ -34,16 +34,22 @@ In the _[!UICONTROL Create New Account Options]_ section of the configuration, t
 
     - Set **[!UICONTROL Default Welcome Email]** to the template that is used for the Welcome email sent to new customers.
 
+    - To require customers to confirm their request to open an account with your store, set **[!UICONTROL Require Emails Confirmation]** to `Yes`. Then, set **[!UICONTROL Confirmation Link Email]** to the template that is used for the confirmation email.
+   
+      >[!NOTE]
+      >
+      >Starting from version 2.4.7, customers must reenter their email and password to log in to their account after email confirmation, regardless of the browser.
+    
+    - Set **[!UICONTROL Welcome Email]** to the template that is used for the Welcome message that is sent after the account is confirmed.
+
     - Set **[!UICONTROL Default Welcome Email without Password]** to the template that is used when a customer account is created that does not yet have a password. For example, a customer account created from the Admin does not yet have a password assigned.
 
     - Set **[!UICONTROL Email Sender]** to the store contact that appears as the sender of the Welcome email.
 
     - To require customers to confirm their request to open an account with your store, set **[!UICONTROL Require Emails Confirmation]** to `Yes`. Then, set **[!UICONTROL Confirmation Link Email]** to the template that is used for the confirmation email.
+      
+    ![Create New Account Options with VAT enabled](../configuration-reference/customers/assets/customer-configuration-create-new-account-options-vat.png){width="600" zoomable="yes"}
 
-    - Set **[!UICONTROL Welcome Email]** to the template that is used for the Welcome message that is sent after the account is confirmed.
-
-      ![Create New Account Options with VAT enabled](../configuration-reference/customers/assets/customer-configuration-create-new-account-options-vat.png){width="600" zoomable="yes"}
-
-      For detailed information about each of the options available in this configuration option set, see the _Create New Account Options_ [configuration reference](../configuration-reference/customers/customer-configuration.md).
+    For detailed information about each of the options available in this configuration option set, see the _Create New Account Options_ [configuration reference](../configuration-reference/customers/customer-configuration.md).
 
 1. When complete, click **[!UICONTROL Save Config]**.
