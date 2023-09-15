@@ -34,9 +34,9 @@ To offer this shipping method to your customers, you must first open an account 
 
    - Set **[!UICONTROL Mode]** to `Live` to send data to the UPS shipping system over a secure connection. (Development mode does not send data over a secure connection.)
 
-   - Verify the **[!UICONTROL Gateway URL]** that is required to send requests, use sandbox url for test mode and production url for live requests.
+   - Verify the **[!UICONTROL Gateway URL]** that is required to send requests. Use a sandbox URL for test mode and a production URL for live requests.
 
-   - Verify the **[!UICONTROL Tracking URL]** that is required to get tracking information, use sandbox url for test mode and production url for live requests.
+   - Verify the **[!UICONTROL Tracking URL]** that is required to get tracking information. Use a sandbox URL for test mode and a production URL for live requests.
 
    - Set **[!UICONTROL Origin of the Shipment]** to the region where the shipment originates.
 
@@ -49,7 +49,8 @@ To offer this shipping method to your customers, you must first open an account 
 
    >[!NOTE]
    >
-   >The standard United Parcel Service type is scheduled for deprecation. For new configurations, you should use the default  `United Parcel Service REST` type. The REST type is also required to generate [shipping labels](shipping-labels.md). The **[!UICONTROL UPS Type]**  has been removed as "UPS" and "UPS XML" are scheduled for deprecation and under new configuration we will use "UPS REST" as default. The United Parcel Service (UPS) APIs used by the native Adobe Commerce integration are temporarily deprecated because it does not currently support the OAuth 2.0 security model.
+   >The standard United Parcel Service type is scheduled for deprecation. For new configurations, use the default `United Parcel Service REST` type. The REST type is also required to generate [shipping labels](shipping-labels.md).<br/>
+   >For the 2.4.7 release, **[!UICONTROL UPS Type]**  is removed because `UPS` and `UPS XML` types are scheduled for deprecation and `UPS REST` is the default. The United Parcel Service (UPS) APIs used by the native Adobe Commerce integration are temporarily deprecated because it does not currently support the OAuth 2.0 security model.
 
       >[!IMPORTANT]
       >
