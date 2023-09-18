@@ -67,6 +67,6 @@ The preview opens a new browser tab, and shows how the product appears during th
 
 >[!NOTE]
 >
->Staging scheduled update preview always starts from the **default** store view, which emulates the customer's experience of navigating through the staging update campaign.
+>A staging preview for a scheduled update always starts from the **default** store view, which emulates the customer's experience of navigating through the staging update campaign.
 
 For more information about using the preview content tools to change the date and scope of the preview, see [Previewing a Campaign](content-staging-preview.md). You can also share a link to the store preview with your colleagues.
