@@ -16,7 +16,7 @@ Product updates can be applied on schedule and grouped with other content change
 
 >[!NOTE]
 >
->Staging scheduled update preview always starts from the **default** store view, which emulates the customer's experience of navigating through the staging update campaign.
+>A staging preview for a scheduled update always starts from the **default** store view, which emulates the customer's experience of navigating through the staging update campaign.
 
 ## Create a scheduled update
 
