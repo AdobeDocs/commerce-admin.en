@@ -2,6 +2,8 @@
 title: Browser capabilities detection
 description: Learn how to configure browser capabilities detection and display a notice if the customer's browser settings need to be changed.
 exl-id: 16caab8b-3ba5-43a1-a6f0-7c1e921be132
+role: Admin
+feature: Configuration, Security
 ---
 # Browser capabilities detection
 
@@ -26,6 +28,6 @@ For technical information, refer to [Supported browsers](https://experienceleagu
 
    - To display a banner above the header when Local Storage is disabled in the user's browser, set **[!UICONTROL Show Notice if Local Storage is Disabled]** to `Yes`.
 
-    ![General configuration - web browser capabilities detection](../configuration-reference/general/assets/web-browser-capabilities-detection.png)<!-- zoom -->
+    ![General configuration - web browser capabilities detection](../configuration-reference/general/assets/web-browser-capabilities-detection.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Config]**.

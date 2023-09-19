@@ -2,12 +2,13 @@
 title: Shipping labels
 description: Learn about shipping label workflow for regular shipments and products with return merchandise authorization.
 exl-id: 5da03cf9-5e92-4bb8-ba53-67c6469665ed
+feature: Shipping/Delivery, Orders
 ---
 # Shipping labels
 
 Commerce includes a high level of integration with major shipping carriers, which gives you access to carrier shipping systems to track orders, create shipping labels, and more. Shipping labels can be created for regular shipments and products with return merchandise authorization. In addition to the information provided by the shipping carrier, the label also includes the Commerce order number, number of the package, and the total quantity of packages for the shipment.
 
-![USPS Priority Shipping Label](./assets/shipping-usps-priority-label.png)<!-- zoom -->
+![USPS Priority Shipping Label](./assets/shipping-usps-priority-label.png){width="300"}
 
 - [Configure shipping labels](shipping-label-configure.md)
 - [Create shipping labels and packages](shipping-label-create.md)

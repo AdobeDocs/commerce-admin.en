@@ -2,6 +2,7 @@
 title: Prioritize Sources for a Stock
 description: Learn how to arrange sources from top to bottom in priority, which is used when determining shipment and inventory deductions.
 exl-id: 16db3ee3-ce99-40dd-b1a3-fcb145b1298f
+feature: Inventory, Configuration
 ---
 # Prioritize Sources for a Stock
 
@@ -11,7 +12,7 @@ The source priority on stocks does not influence assigned sources when editing p
 
 In this example, the UK Stock has sources assigned out of order for a store and two warehouses in London and a warehouse in Berlin.
 
-![Source order before prioritization](assets/inventory-priority-before.png)
+![Source order before prioritization](assets/inventory-priority-before.png){width="350" zoomable="yes"}
 
 The merchant prefers to have shipments prioritized from the larger Berlin warehouse, then the London warehouse, the London overflow location, and finally the storefront in London. To change the order, entries are dragged and dropped into the desired order.
 
@@ -27,4 +28,4 @@ The merchant prefers to have shipments prioritized from the larger Berlin wareho
 
 1. Click **[!UICONTROL Save & Continue]** to save the changes.
 
-![Source order after prioritization](assets/inventory-stock-priority-after.png)
+![Source order after prioritization](assets/inventory-stock-priority-after.png){width="350" zoomable="yes"}

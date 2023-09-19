@@ -2,6 +2,7 @@
 title: CSV data files
 description: Learn about the structure used in CSV file to support data import and export.
 exl-id: 86e362af-2af7-4557-ac49-1efad2f0e976
+feature: Products, Customers, Data Import/Export
 ---
 # CSV data files
 

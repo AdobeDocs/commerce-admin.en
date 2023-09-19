@@ -2,6 +2,7 @@
 title: Flat rate shipping
 description: Learn how to set up a flat-rate shipping option for your store.
 exl-id: a6874509-a79b-42ab-aa93-d70d18fc33f6
+feature: Shipping/Delivery
 ---
 # Flat rate shipping
 
@@ -15,7 +16,7 @@ _Flat rate_ is a fixed, predefined charge that can be applied per item, or per s
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Flat Rate** section.
 
-   ![Flat Rate](../configuration-reference/sales/assets/delivery-methods-flat-rate.png)<!-- zoom -->
+   ![Flat Rate](../configuration-reference/sales/assets/delivery-methods-flat-rate.png){width="600" zoomable="yes"}
 
    For a detailed description of each of these configuration settings, see [Flat Rate](../configuration-reference/sales/delivery-methods.md#flat-rate) in the _Configuration Reference Guide_.
 
@@ -27,7 +28,7 @@ _Flat rate_ is a fixed, predefined charge that can be applied per item, or per s
 
 1. Enter a **Method Name** to appear next to the calculated rate in the shopping cart.
 
-   The default method name is `Fixed`. If you charge a handling fee, you could change this to `Plus Handling`, or something else that is suitable.
+   The default method name is `Fixed`. If you charge a handling fee, you could change this text to `Plus Handling`, or something else that is suitable.
 
 1. To describe how flat rate shipping can be used, set **Type** to one of the following:
 

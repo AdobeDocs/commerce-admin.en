@@ -2,6 +2,7 @@
 title: '[!UICONTROL Catalog] &gt; [!UICONTROL Inventory]'
 description: Review the configurations settings on the [!UICONTROL Catalog] &gt; [!UICONTROL Inventory] page of the Commerce Admin.
 exl-id: 80113a31-3585-4ee1-95af-31efc09389eb
+feature: Configuration, Inventory
 ---
 # [!UICONTROL Catalog] > [!UICONTROL Inventory]
 
@@ -72,6 +73,11 @@ exl-id: 80113a31-3585-4ee1-95af-31efc09389eb
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |[!UICONTROL Stock/Source reindex strategy]|Global|Determines the strategy used for stock/source reindexing. Options: `Synchronous` / `Asynchronous` (an asynchronous queue manager must be configured for async mode)|
+
+>[!NOTE]
+>
+> Due to the dependencies of inventory updates for the order-related activities, the inventory indexer is also triggered on product save, regardless of  the `Synchronous` or `Asynchronous` setting.
+
 
 {:style="table-layout:auto"}
 

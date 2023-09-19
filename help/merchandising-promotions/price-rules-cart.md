@@ -2,6 +2,7 @@
 title: Cart price rules
 description: Learn about cart price rules that apply discounts to items in the shopping cart based on a set of conditions.
 exl-id: f3038f2a-9d34-4696-a39e-f87fbb1294a2
+feature: Merchandising, Price Rules, Shopping Cart
 ---
 # Cart price rules
 
@@ -11,13 +12,13 @@ Cart price rules apply discounts to items in the shopping cart, based on a set o
 >
 >If the coupon cart rule has conditions that specify checkout options, such as certain shipping or payment methods, the conditions are met only in checkout after the specific shipping/payment methods are selected. In this case, the coupon can be applied at checkout in the last step.
 
-![Example storefront - cart apply coupon](./assets/storefront-cart-apply-coupon.png)<!-- zoom -->
+![Example storefront - cart apply coupon](./assets/storefront-cart-apply-coupon.png){width="600" zoomable="yes"}
 
 ## Access cart price rules
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_ > **[!UICONTROL Cart Price Rules]**.
 
-   ![Cart price rule](./assets/price-rule-cart.png)<!-- zoom -->
+   ![Cart price rule](./assets/price-rule-cart.png){width="700" zoomable="yes"}
 
 1. If you have many rules, use the filter options at the top of each column to streamline the list and click **[!UICONTROL Search]** to apply the filters.
 

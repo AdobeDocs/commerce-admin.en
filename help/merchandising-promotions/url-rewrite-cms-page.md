@@ -2,12 +2,13 @@
 title: Content page URL rewrites
 description: Learn how to use content page URL rewrites to redirect links to the URL of another content page in your Commerce store.
 exl-id: e29c45fd-cf25-4b51-a8ae-9e188dc2a61c
+feature: Page Content, Configuration
 ---
 # Content page URL rewrites
 
 Before you begin, make sure that you understand exactly what the redirect is to accomplish. Think in terms of _target_ / _source_ or _redirect to_ / _redirect from_. Although people might still navigate to the former page from search engines or outdated links, the redirect causes your store to switch to the new target.
 
-![URL rewrites - CMS page](./assets/url-rewrite-cms-page.png)<!-- zoom -->
+![URL rewrites - CMS page](./assets/url-rewrite-cms-page.png){width="700" zoomable="yes"}
 
 ## Step 1. Plan the rewrite
 
@@ -41,7 +42,7 @@ Redirect from: `old-page`
 
 1. Find your new target page in the grid, and open in edit mode.
 
-   ![Add URL rewrite - for CMS page](./assets/url-rewrite-cms-page-add.png)<!-- zoom -->
+   ![Add URL rewrite - for CMS page](./assets/url-rewrite-cms-page-add.png){width="700" zoomable="yes"}
 
 1. Under URL Rewrite Information, do the following:
 
@@ -60,7 +61,7 @@ Redirect from: `old-page`
 
    - For your reference, enter a brief description of the rewrite.
 
-    ![URL rewrite information](./assets/url-rewrite-cms-page-information.png)<!-- zoom -->
+    ![URL rewrite information](./assets/url-rewrite-cms-page-information.png){width="600" zoomable="yes"}
 
 1. Before saving the redirect, review the following:
 
@@ -70,8 +71,6 @@ Redirect from: `old-page`
 1. When complete, click **[!UICONTROL Save]**.
 
     The new rewrite appears in the grid at the top of the list.
-
-    ![URL rewrite for CMS page - saved](./assets/url-rewrite-cms-page-saved.png)<!-- zoom -->
 
 ## Step 3. Test the result
 

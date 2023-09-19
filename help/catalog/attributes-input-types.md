@@ -2,6 +2,7 @@
 title: Attribute input types
 description: Learn about the input types available for product attributes, which determine the type of data that can be entered and the format of the field or input control.
 exl-id: c35b3b9d-57b0-4c33-abdb-662ac6d0260e
+feature: Catalog Management, Products
 ---
 # Attribute input types
 
@@ -19,7 +20,7 @@ When viewed from the Admin, attributes are the fields that you complete when you
 |[!UICONTROL Yes/No]|Displays a drop-down list with pre-defined options of `Yes` and `No`.|
 |Dropdown|Displays a drop-down list of values that accepts only a single selection. The Dropdown input type is a key component of [configurable products](../catalog/product-create-configurable.md).|
 |[!UICONTROL Multiple Select]|Displays a drop-down list of values that accepts multiple selections.|
-|[!UICONTROL Price]|This input type is used to create price fields that are in addition to the predefined attributes: Price, Special Price, Tier Price, and Cost. The currency used is determined by your system configuration.|
+|[!UICONTROL Price]|This input type is used to create price fields that are in addition to the predefined attributes: `Price`, `Special Price`, `Tier Price`, and `Cost`. The currency used is determined by your system configuration.|
 |[!UICONTROL Media Image]|Associates an extra image with a product, such as a product logo, care instructions, or ingredients from a food label. When you add a media image attribute to the attribute set of a product, it becomes an extra image type, along with Base, Small, and Thumbnail. The media image attribute can be excluded from the [storefront media browser](catalog-images-video.md#storefront-media-browser).|
 |[!UICONTROL Fixed Product Tax]|Lets you define [FPT rates](../stores-purchase/fixed-product-tax.md) based on the requirements of your locale.|
 |[!UICONTROL Visual Swatch]|Displays a swatch that depicts the color, texture, or pattern of a configurable product. A [visual swatch](swatches.md) can be filled with a hexadecimal color value, or display an uploaded image that represents the color, material, texture, or pattern of the option.|
@@ -32,15 +33,19 @@ When viewed from the Admin, attributes are the fields that you complete when you
 
 You can customize the format of date and time fields, and select the input control that is used for data entry. Dates values can be selected from a drop-down list, or pop-up calendar.
 
-![Example - storefront popup calendar](./assets/storefront-popup-calendar.png)<!-- zoom -->
+![Example - storefront popup calendar](./assets/storefront-popup-calendar.png){width="700" zoomable="yes"}
 
-To format date/time fields:
+**_To format date/time fields:_**
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
 1. In the panel on the left, expand **[!UICONTROL Catalog]** and click the **[!UICONTROL Catalog]** subitem.
 
 1. Expand the **[!UICONTROL Date & Time Custom Options]** section.
+
+   ![Catalog configuration - date and time options](../configuration-reference/catalog/assets/catalog-date-time-custom-options.png){width="600" zoomable="yes"}
+
+   For a detailed listing of these options, see [_Date & Time Custom Options_](../configuration-reference/catalog/catalog.md) in the _Configuration Reference_.
 
 1. To use a popup calendar as the input control for date fields, set **[!UICONTROL Use JavaScript Calendar]** to `Yes`.
 
@@ -59,8 +64,4 @@ To format date/time fields:
 
    If blank, the field defaults to the current year.
 
-   ![Catalog configuration - date and time options](./assets/catalog-date-time-custom-options.png)<!-- zoom -->
-
 1. When complete, click **[!UICONTROL Save Config]**.
-
-For more information about these options, see [_Date & Time Custom Options_](../configuration-reference/catalog/catalog.md) in the _Configuration Reference_.

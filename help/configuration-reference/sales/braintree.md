@@ -2,6 +2,7 @@
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL Braintree]'
 description: Review the configurations settings for the [!UICONTROL Braintree] section on the [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] page of the Commerce Admin.
 exl-id: cf08bc4d-8d88-45e7-af71-f1ff90023766
+feature: Configuration, Payments
 ---
 # [!UICONTROL Sales] > [!UICONTROL Payment Methods] > [!UICONTROL Braintree]
 
@@ -110,10 +111,14 @@ exl-id: cf08bc4d-8d88-45e7-af71-f1ff90023766
 |--- |--- |--- |
 |[!UICONTROL Enabled Local Payment Methods]|Website|Determines if Local Payment Method is included as a payment method through Braintree. Options: `Yes` / `No`|
 |[!UICONTROL Title]|Website|Label that appears on the checkout payment method section. Default value: `Local Payments`|
-|[!UICONTROL Allowed Payment Method]|Website|Select the local Payment method to be enabled. Options: `Bancontact` / `EPS` / `giropay` / `iDeal` / `Klarna Pay Now` / `SOFORT` / `MyBank` / `P24` / `SEPA/ELV Direct Debit`|
+|[!UICONTROL Allowed Payment Method]|Website|Select the local Payment method to be enabled. Options: `Bancontact` / `EPS` / `giropay` / `iDeal` / `Klarna Pay Now` / `SOFORT` / `MyBank` / `P24` / `SEPA/ELV Direct Debit` (not yet supported) |
 |[!UICONTROL Sort Order]|Website|Determines the order that Local Payment Method is listed with other payment methods during checkout.|
 
 {style="table-layout:auto"}
+
+>[!NOTE]
+>
+>The bundled Braintree extension does not support all the local payment methods listed in the [Braintree developer documentation](https://developer.paypal.com/braintree/docs/guides/local-payment-methods/overview). Other local payment methods are under development to be supported in future releases.
 
 ## [!UICONTROL GooglePay through Braintree]
 

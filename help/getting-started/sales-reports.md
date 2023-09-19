@@ -2,6 +2,7 @@
 title: Sales reports
 description: The [!DNL Commerce] sales reports help you to track orders, taxes, invoices, shipping, refunds, coupons, and PayPal settlement.
 exl-id: 928a407f-cbed-4114-ad0b-ee227383bf36
+feature: Reporting, Orders
 ---
 # Sales reports
 
@@ -99,8 +100,6 @@ For more information about using the [!UICONTROL Coupons Report] to gather data 
 <!--- ![Coupons Report](./assets/sales-coupons.png) need coupon data  -->
 
 ## [!UICONTROL PayPal Settlement Reports]
-
-![PayPal Settlement Report](./assets/reports-sales-paypal-settlement.png){width="600"}
 
 The [PayPal Settlement Reports] page includes the type of event, such as a debit card transaction, the start and finish dates, gross amount, and related fees. The report can be automatically updated with the most current data from PayPal. There are filtering options for date range, merchant account, transaction ID, invoice ID, or PayPal reference ID.
 

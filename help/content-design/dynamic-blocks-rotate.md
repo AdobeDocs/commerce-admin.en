@@ -1,15 +1,15 @@
 ---
-title: Add a Rotating Dynamic Block
+title: Add a rotating dynamic block
 description: Present a slide show of interactive content on the storefront by adding multiple dynamic blocks to a rotator.
 exl-id: 3d338014-cf26-4171-b48b-d37b3d7b0e81
 ---
-# Add a Rotating Dynamic Block
+# Add a rotating dynamic block
 
 {{ee-feature}}
 
 To present a slide show of interactive content, you can add multiple [dynamic blocks](dynamic-blocks.md) to a rotator. The [widget](widgets.md) tool is used to place the rotator at a specific place on a either a single page, or on multiple pages throughout your store.
 
-![Dynamic block rotator](./assets/widget-dynamic-block-rotator.png)<!-- zoom -->
+![Dynamic block rotator](./assets/widget-dynamic-block-rotator.png){width="700" zoomable="yes"}
 
 ## Step 1: Create individual dynamic blocks
 
@@ -29,7 +29,7 @@ To [create the dynamic blocks](dynamic-blocks.md) that you want to place in the 
 
 1. Click **[!UICONTROL Continue]**.
 
-   ![Dynamic block rotator settings](./assets/widget-dynamic-block-rotator-settings.png)<!-- zoom -->
+   ![Dynamic block rotator settings](./assets/widget-dynamic-block-rotator-settings.png){width="600" zoomable="yes"}
 
 ## Step 3: Complete the options
 
@@ -41,7 +41,7 @@ To [create the dynamic blocks](dynamic-blocks.md) that you want to place in the 
 
    - (Optional) Enter a **[!UICONTROL Sort Order]** number to determine the position of the rotator in the target container. It is relative to other widgets that might be assigned to the same container.
 
-   ![Rotator storefront properties](./assets/widget-dynamic-block-rotator-storefront-properties.png)<!-- zoom -->
+   ![Rotator storefront properties](./assets/widget-dynamic-block-rotator-storefront-properties.png){width="600" zoomable="yes"}
 
 1. Under _Layout Options_, click **[!UICONTROL Add Layout Update]** and do the following:
 
@@ -63,7 +63,7 @@ To [create the dynamic blocks](dynamic-blocks.md) that you want to place in the 
 
       This setting determines the template that is used to format the rotator, based on whether the rotator is to stand alone, or be placed inside existing text.
 
-      ![Rotator layout updates](./assets/widget-dynamic-block-rotator-layout-updates.png)<!-- zoom -->
+      ![Rotator layout updates](./assets/widget-dynamic-block-rotator-layout-updates.png){width="600" zoomable="yes"}
 
    - Click **[!UICONTROL Save and Continue Edit]**.
 
@@ -71,7 +71,7 @@ To [create the dynamic blocks](dynamic-blocks.md) that you want to place in the 
 
 1. For the **[!UICONTROL Dynamic Blocks to Display]**, accept `Specified Dynamic Blocks`.
 
-   This setting determines the type of dynamic blocks are included in the rotator.
+   This setting determines the type of dynamic blocks that are included in the rotator.
 
    - `Specified Dynamic Blocks` - Includes only specific dynamic blocks.
    - `Cart Price Rule Related` - Includes only dynamic blocks that are associated with a cart price rule.
@@ -94,7 +94,7 @@ To [create the dynamic blocks](dynamic-blocks.md) that you want to place in the 
    - `One at the time, Series` - Displays the specified dynamic blocks in the sequence that they were added. When the page is refreshed, the next dynamic block in the sequence appears.
    - `One at the time, Shuffle` - Displays one dynamic block at a time in a shuffled order. This option is similar to the `One at a time, Random` option, except that the same dynamic block is not repeated.
 
-   ![Rotator widget options](./assets/widget-dynamic-block-rotator-widget-options.png)<!-- zoom -->
+      ![Rotator widget options](./assets/widget-dynamic-block-rotator-widget-options.png){width="600" zoomable="yes"}
 
 1. In the **[!UICONTROL Specify Dynamic Blocks]** grid, select the checkbox of each dynamic block that you want to include in the rotator.
 

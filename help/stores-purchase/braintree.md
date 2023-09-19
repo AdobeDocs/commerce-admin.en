@@ -2,6 +2,7 @@
 title: Braintree
 description: Learn how to set up Braintree as an online payment solution on your store.
 exl-id: 781b385f-926e-4047-b7da-6f7c090d75d8
+feature: Payments
 ---
 # Braintree
 
@@ -27,20 +28,20 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 1. Under _[!UICONTROL Recommended Solutions]_, in the _[!UICONTROL Braintree Payments (by GENE Commerce) v4.5.0)]_ section, click **[!UICONTROL Configure]**.
 
-   ![Configure Braintree](./assets/braintree-payments.png)<!-- zoom -->
+   ![Configure Braintree](./assets/braintree-payments.png){width="600" zoomable="yes"}
 
-1. Enter a **[!UICONTROL Title]** to identify Braintree as a payment option during checkout.
+1. For **[!UICONTROL Title]**, enter a title that identifies Braintree as a payment option during checkout.
 
 1. Set the current operating **[!UICONTROL Environment]** for Braintree transactions to `Sandbox` or `Production`
 
    When testing the configuration in a sandbox, use only [credit card numbers][2] that are recommended by Braintree. When you are ready to go to production with Braintree, set **[!UICONTROL Environment]** to `Production`.
 
-      ![Basic Credentials Settings](./assets/braintree-settings1.png)<!-- zoom -->
+      ![Basic Credentials Settings](./assets/braintree-settings1.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Payment Action]** to one of the following:
 
-     -  `Authorize Only` - Approves the purchase and puts a hold on the funds. The amount is not withdrawn from the customer's bank account until the sale is _captured_ by the merchant.|
-     - `Intent Sale`  - The amount of the purchase is authorized and immediately withdrawn from the customer's account. **_Note:_** This was  _Authorize and Capture_ in 2.3.x and earlier releases.|
+     - `Authorize Only` - Approves the purchase and puts a hold on the funds. The amount is not withdrawn from the customer's bank account until the sale is _captured_ by the merchant.|
+     - `Intent Sale`  - The amount of the purchase is authorized and immediately withdrawn from the customer's account. **_Note:_** This value was  _Authorize and Capture_ in 2.3.x and earlier releases.|
 
 1. Enter the **[!UICONTROL Sandbox Merchant ID / Merchant ID]** from your Braintree account.
 
@@ -57,9 +58,9 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 1. Set **[!UICONTROL Enable Card Payments]** to `Yes`.
 
-   ![Basic Settings](./assets/braintree-settings2.png)<!-- zoom -->
+   ![Basic Settings](./assets/braintree-settings2.png){width="600" zoomable="yes"}
 
-   - If you want the ability to store customer information securely, so customers don't have to reenter it each time they make a purchase, set **[!UICONTROL Enable Vault for Card Payments]** to `Yes`.
+   If you want the ability to store customer information securely, so customers don't have to reenter it each time they make a purchase, set **[!UICONTROL Enable Vault for Card Payments]** to `Yes`.
 
 ## Step 3: Complete the advanced settings
 
@@ -95,7 +96,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 ## Step 4: Complete the Braintree webhooks settings
 
-![Braintree Webhooks Settings](../configuration-reference/sales/assets/payment-methods-braintree-webhooks-config.png)<!-- zoom -->
+![Braintree Webhooks Settings](../configuration-reference/sales/assets/payment-methods-braintree-webhooks-config.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Enable Webhook]** to `Yes` to enable the webhook functionality for fraud protection, ACH payments, and local payment methods.
 
@@ -120,7 +121,7 @@ Go to [Braintree Payments][1] and sign up for an account.
    - `All Allowed Countries` - Customers from all [countries](../getting-started/store-details.md#country-options) specified in your store configuration can use this payment method.
    - `Specific Countries` - After choosing this option, the _[!UICONTROL Payment from Specific Countries]_ list appears. Hold down the Ctrl key (PC) or the Command key (Mac) and select each country in the list where customers can make purchases from your store.
 
-   ![Country-Specific Settings](../configuration-reference/sales/assets/payment-methods-braintree-country-specific-config.png)<!-- zoom -->
+   ![Country-Specific Settings](../configuration-reference/sales/assets/payment-methods-braintree-country-specific-config.png){width="600" zoomable="yes"}
 
 1. To set up **[!UICONTROL Country Specific Credit Card Types]**:
 
@@ -132,7 +133,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 ## Step 6: Complete the ACH through Braintree settings
 
-![ACH through Braintree](../configuration-reference/sales/assets/payment-methods-braintree-ach-config.png)<!-- zoom -->
+![ACH through Braintree](../configuration-reference/sales/assets/payment-methods-braintree-ach-config.png){width="600" zoomable="yes"}
 
 1. To include ACH as a payment option with Braintree, set **[!UICONTROL Enable ACH Direct Debit]** to `Yes`.
 
@@ -140,7 +141,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 ## Step 7: Complete the [!UICONTROL Apple Pay] through Braintree settings
 
-![ApplePay through Braintree settings](../configuration-reference/sales/assets/payment-methods-braintree-applepay-config.png)<!-- zoom -->
+![ApplePay through Braintree settings](../configuration-reference/sales/assets/payment-methods-braintree-applepay-config.png){width="600" zoomable="yes"}
 
 1. To include [!DNL Apple Pay] as a payment option with Braintree, set **[!UICONTROL Enable ApplePay through Braintree]** to `Yes`.
 
@@ -148,10 +149,10 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 1. Set **[!UICONTROL Payment Action]** to one of the following:
 
-   -  `Authorize Only` - Approves the purchase and puts a hold on the funds. The amount is not withdrawn from the customer's bank account until the sale is _captured_ by the merchant.
+   - `Authorize Only` - Approves the purchase and puts a hold on the funds. The amount is not withdrawn from the customer's bank account until the sale is _captured_ by the merchant.
    - `Intent Sale` - The amount of the purchase is authorized and immediately withdrawn from the customer's account.
 
-1. Enter text in the **[!UICONTROL Merchant Name]** field to specify the label that is displayed to customers in the Apple Pay dialog.
+1. For **[!UICONTROL Merchant Name]**, enter text that specifies the label that is displayed to customers in the Apple Pay dialog.
 
 1. For **[!UICONTROL Sort Order]**, enter a number to determine the sequence in which [!DNL Apple Pay] payment option appears when listed with other payment options during the checkout.
 
@@ -161,23 +162,27 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 1. For **[!UICONTROL Title]**, enter the text to use for the label that appears on the checkout payment method section (default value: `Local Payments`).
 
-1. For **[!UICONTROL Allowed Payment Methods]**, select the local payment method that needs to be enabled.
+1. For **[!UICONTROL Allowed Payment Methods]**, select the local payment method to be enabled.
 
-   Options: `Bancontact` / `EPS` / `giropay` / `iDeal` / `Klarna Pay Now` / `SOFORT` / `MyBank` / `P24` / `SEPA/ELV Direct Debit`
+   Options: `Bancontact` / `EPS` / `giropay` / `iDeal` / `Klarna Pay Now` / `SOFORT` / `MyBank` / `P24` / `SEPA/ELV Direct Debit` (not yet supported)
 
-   ![Local Payment Methods settings](../configuration-reference/sales/assets/payment-methods-braintree-local-payment-config.png)<!-- zoom -->
+   ![Local Payment Methods settings](../configuration-reference/sales/assets/payment-methods-braintree-local-payment-config.png){width="600" zoomable="yes"}
+   
+   >[!NOTE]
+   >
+   >The bundled Braintree extension does not support all the local payment methods listed in the [Braintree developer documentation](https://developer.paypal.com/braintree/docs/guides/local-payment-methods/overview). Other local payment methods are under development to be supported in future releases.
 
 1. For **[!UICONTROL Sort Order]**, enter a number to determine the sequence in which local payment method appears when listed with other payment options during the checkout.
 
 ## Step 9: Complete the [!DNL Google Pay] through Braintree settings
 
-![Google Pay through Braintree](../configuration-reference/sales/assets/payment-methods-braintree-googlepay-config.png)<!-- zoom -->
+![Google Pay through Braintree](../configuration-reference/sales/assets/payment-methods-braintree-googlepay-config.png){width="600" zoomable="yes"}
 
 1. To include [!DNL Google Pay] as a payment option with Braintree, set **[!UICONTROL Enable GooglePay Through Braintree]** to `Yes`.
 
 1. Set **[!UICONTROL Payment Action]** to one of the following:
 
-    -  `Authorize Only` - Approves the purchase and puts a hold on the funds. The amount is not withdrawn from the customer's bank account until the sale is _captured_ by the merchant.
+    - `Authorize Only` - Approves the purchase and puts a hold on the funds. The amount is not withdrawn from the customer's bank account until the sale is _captured_ by the merchant.
     - `Intent Sale`  - The amount of the purchase is authorized and immediately withdrawn from the customer's account.
 
 1. Set **[!UICONTROL Button Color]** to determine the color of the [!DNL Google Pay] button: `White` or `Black`
@@ -194,11 +199,11 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 1. To include Venmo as a payment option with Braintree, set **[!UICONTROL Enable Venmo through Braintree]** to `Yes`.
 
-   ![Venmo through Braintree](../configuration-reference/sales/assets/payment-methods-braintree-venmo-config.png)<!-- zoom -->
+   ![Venmo through Braintree](../configuration-reference/sales/assets/payment-methods-braintree-venmo-config.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Payment Action]** to one of the following:
 
-   -  `Authorize Only` - Approves the purchase and puts a hold on the funds. The amount is not withdrawn from the customer's bank account until the sale is _captured_ by the merchant.
+   - `Authorize Only` - Approves the purchase and puts a hold on the funds. The amount is not withdrawn from the customer's bank account until the sale is _captured_ by the merchant.
    - `Intent Sale`  - The amount of the purchase is authorized and immediately withdrawn from the customer's account.
 
 1. For **[!UICONTROL Sort Order]**, enter a number to determine the sequence in which Venmo appears when listed with other payment options during the checkout.
@@ -229,7 +234,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 
      You can display PayLater messaging on your site for offers, such as _Pay in 3_, which lets customers pay with three interest-free monthly payments. The Braintree integration can display messages on your site to promote this feature. You cannot promote PayLater offers with any other content, marketing, or materials.
 
-1. Enter a **[!UICONTROL Title]** to identify the Braintree payment by PayPal option during checkout.
+1. For **[!UICONTROL Title]**, enter a title that identifies the Braintree payment by PayPal option during checkout.
 
 1. Set **[!UICONTROL Vault Title]** to `Yes` to enable use of a secure vault to store customers' credit card information.
 
@@ -261,7 +266,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 1. For **[!UICONTROL Location]**, choose where PayPal buttons and messages are rendered: `Mini-Cart and Cart Page`, `Checkout Page`, or `Product Page`
 
-   ![PayPal Styling settings](../configuration-reference/sales/assets/payment-methods-braintree-paypal-styling.png)<!-- zoom -->
+   ![PayPal Styling settings](../configuration-reference/sales/assets/payment-methods-braintree-paypal-styling.png){width="600" zoomable="yes"}
 
 ### [!UICONTROL Mini-Cart and Cart Page]
 
@@ -287,7 +292,7 @@ The options and settings in this section vary according to the button type selec
 
 1. To show [!DNL PayLater] messaging on the storefront at the selected location, set **[!UICONTROL Show PayLater Messaging]** to `Yes`. 
 
-   This includes the display of [!DNL PayLater] messaging for available offers ([restrictions apply](https://developer.paypal.com/docs/checkout/pay-later/us/)). 
+   This messaging includes the display of [!DNL PayLater] messaging for available offers ([restrictions apply](https://developer.paypal.com/docs/checkout/pay-later/us/)). 
 
 1. For **[!UICONTROL Message Layout]**, select the [!DNL PayLater] message layout: `Text` or `Flex`
 
@@ -320,17 +325,17 @@ When these options are set, you can see the preview of the PayPal buttons and Pa
    - `All Allowed Countries` - Customers from all [countries](../getting-started/store-details.md#country-options) specified in your store configuration can use this payment method.
    - `Specific Countries` - After choosing this option, the _[!UICONTROL Verify for Specific Countries]_ list appears. Hold down the Ctrl key (PC) or the Command key (Mac) and select each country in the list where customers can make purchases from your store.
 
-   ![3D verification settings](../configuration-reference/sales/assets/payment-methods-braintree-3d-secure-verify-config.png)<!-- zoom -->
+   ![3D verification settings](../configuration-reference/sales/assets/payment-methods-braintree-3d-secure-verify-config.png){width="600" zoomable="yes"}
 
 ## Step 14: Set up the Braintree dynamic descriptors
 
 The following descriptors are used to identify purchases on customer credit card statements. You can reduce the number of charge backs by clearly identifying the company that is associated with each purchase. If dynamic descriptors are not enabled for your account, contact Braintree support.
 
-![Dynamic Descriptors](../configuration-reference/sales/assets/payment-methods-braintree-dynamic-config.png)<!-- zoom -->
+![Dynamic Descriptors](../configuration-reference/sales/assets/payment-methods-braintree-dynamic-config.png){width="600" zoomable="yes"}
 
 1. Enter the dynamic descriptor for the **[!UICONTROL Name]**, **[!UICONTROL Phone]**, and **[!UICONTROL URL]** according to these guidelines:
 
-   -  **[!UICONTROL Name]** - There are two parts to the name descriptor, which are separated by an asterisk (*). For example:
+   - **[!UICONTROL Name]** - There are two parts to the name descriptor, which are separated by an asterisk (*). For example:
       
       `company*myproduct`
       

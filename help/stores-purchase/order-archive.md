@@ -2,6 +2,7 @@
 title: Archive orders
 description: Learn how to configure the order archive to improve performance and streamline Commerce for your organization.
 exl-id: 12025591-bfe2-4f44-9358-a38ea4493b5c
+feature: Orders, Configuration
 ---
 # Archive orders
 
@@ -11,9 +12,7 @@ Archiving orders regularly improves performance and keeps your workspace free of
 
 >[!NOTE]
 >
->The _[!UICONTROL Archive]_ option appears in the [!UICONTROL Sales] menu only when archiving is [enabled](../configuration-reference/sales/sales.md).
-
-![Orders, Invoices, Shipments, Credit Memos Archiving](./assets/order-move-to-archive.png)<!-- zoom -->
+>The _[!UICONTROL Archive]_ option appears in the [[!UICONTROL Sales] menu](sales-menu.md) only when archiving is [enabled](../configuration-reference/sales/sales.md).
 
 ## Configure the order archive
 
@@ -25,7 +24,7 @@ Your store can be configured to archive orders, invoices, shipments, and credit 
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Orders, Invoices, Shipments, Credit Memos Archiving]** section.
 
-   ![Orders, Invoices, Shipments, Credit Memos Archiving](../configuration-reference/sales/assets/sales-orders-invoices-shipments-credit-memos-archiving.png)<!-- zoom -->
+   ![Orders, Invoices, Shipments, Credit Memos Archiving configuration settings](../configuration-reference/sales/assets/sales-orders-invoices-shipments-credit-memos-archiving.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Enable Archiving]** to `Yes`.
 
@@ -54,7 +53,7 @@ Your store can be configured to archive orders, invoices, shipments, and credit 
    - **[!UICONTROL Shipments]**
    - **[!UICONTROL Credit Memos]**
 
-1. Click any archived document in the list to view details.
+1. To view details, click any archived document in the list.
 
 ## Apply an action to an archived document
 
@@ -68,7 +67,7 @@ Select each document to be the target of the action and choose one of the follow
 
 ## Manually archive documents
 
-1. Select the type of the document to archive from the following:
+1. Select the type of the document to be archived from the following:
 
    - **[!UICONTROL Orders]**
    - **[!UICONTROL Invoices]**
@@ -108,15 +107,15 @@ Select each document to be the target of the action and choose one of the follow
 
 Your store can be configured to archive orders, invoices, shipments, and credit memos after a set number of days. You can move orders and their associated documents to the archive, or restore them to their previous state. Archived orders are not deleted and remain available from the Admin. Archived data can be exported to a CSV file and opened in a spreadsheet. When enabled, the _[!UICONTROL Archive]_ command appears at the top of the workspace.
 
-## Manually archive an order
+## Manually archive orders
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > _[!UICONTROL Operations]_ > **[!UICONTROL Orders]**.
 
 1. To select the order on the grid, select the checkbox in the first column.
 
-   ![Select the orders to archive](./assets/order-select-in-grid.png)<!-- zoom -->
-
 1. Set the **[!UICONTROL Actions]** control to `Move to Archive` and look for the message that order has been archived.
+
+   ![Moving selected orders to the archive ](./assets/order-move-to-archive.png){width="700" zoomable="yes"}
 
 >[!TIP]
 >
@@ -136,7 +135,7 @@ Your store can be configured to archive orders, invoices, shipments, and credit 
 
 1. In the _Action_ column, click **[!UICONTROL View]**.
 
-   ![View Archived Order](./assets/order-archived-view.png)<!-- zoom -->
+   ![View an archived order](./assets/order-archived-view.png){width="600" zoomable="yes"}
 
 ## Restore an archived order
 
@@ -144,9 +143,9 @@ Your store can be configured to archive orders, invoices, shipments, and credit 
 
 1. In the button bar, click **[!UICONTROL Go to Archive]**.
 
-1. Find the record to restore and click the checkbox to select it.
+1. Find the record to be restored and click the checkbox to select it.
 
-   ![Select Order to be Restored](./assets/order-archived-select-to-restore.png)<!-- zoom -->
+   ![Select Order to be Restored](./assets/order-archived-select-to-restore.png){width="600" zoomable="yes"}
 
 1. Set the **[!UICONTROL Actions]** control value to `Move to Order Management`.
 

@@ -2,6 +2,7 @@
 title: Tax zones and rates
 description: Learn how to define tax rates for each geographical area where you collect and remit taxes.
 exl-id: d8eb0743-d277-438d-91ed-fc711a6ba3ae
+feature: Taxes
 ---
 # Tax zones and rates
 
@@ -9,13 +10,15 @@ Tax rates generally apply to transactions that take place within a specific geog
 
 Store tax is calculated based on the store's address. The actual customer tax for an order is calculated after the customer completes the order information. Commerce then calculates the tax according to the tax configuration of the store.
 
-![Tax Zones and Rates](./assets/tax-zones-rates.png)<!-- zoom -->
+![Tax Zones and Rates](./assets/tax-zones-rates.png){width="600" zoomable="yes"}
 
 ## Define a new tax rate
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_ > **[!UICONTROL Tax Zones and Rates]**.
 
 1. In the upper-right corner, click **[!UICONTROL Add New Tax Rate]**.
+
+   ![New Tax Rate](./assets/tax-rate-new.png){width="600" zoomable="yes"}
 
 1. Enter a **[!UICONTROL Tax Identifier]**.
 
@@ -27,7 +30,7 @@ Store tax is calculated based on the store's address. The actual customer tax fo
 
    - Select the **[!UICONTROL Zip/Post is Range]** checkbox and define the range by entering the first and last ZIP or postal code for **[!UICONTROL Range From]** and **[!UICONTROL Range To]**.
 
-      ![ZIP/Post is Range](./assets/tax-rate-new-zip-post-range.png)<!-- zoom -->
+      ![ZIP/Post is Range](./assets/tax-rate-new-zip-post-range.png){width="600" zoomable="yes"}
 
    - Choose the **[!UICONTROL State]** where the tax rate applies.
 
@@ -42,8 +45,6 @@ Store tax is calculated based on the store's address. The actual customer tax fo
    >Leave this field empty if you want to use the tax identifier.
 
 1. When complete, click **[!UICONTROL Save Rate]**.
-
-   ![New Tax Rate](./assets/tax-rate-new.png)<!-- zoom -->
 
 ## Edit an existing tax rate
 

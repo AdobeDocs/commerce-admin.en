@@ -2,6 +2,8 @@
 title: Install, Update, and Remove Inventory Management
 description: Learn how to manage the installed [!DNL Inventory Management] metapackage.
 exl-id: d088ff35-c0e1-41c8-89fb-78180eaefbf7
+level: Experienced
+feature: Inventory, Install
 ---
 # Install, Update, and Remove Inventory Management
 
@@ -81,6 +83,10 @@ For more information about configurations, see [Configure Inventory Management](
 
 ## Disable Inventory Management
 
+>[!IMPORTANT]
+>
+>Using the default [!DNL Inventory Management] modules is highly recommended. The alternative [!DNL CatalogInventory] module, which is used for systems with disabled [!DNL Inventory Management] modules, is now deprecated. Disabling the [!DNL Inventory Management] modules can cause an unstable system and result in various issues.
+
 You may want to disable [!DNL Inventory Management] modules to:
 
 *  Speed up the upgrade process for merchants migrating from 2.0.x, 2.1.x, 2.2.x, or 2.3.x to 2.4.x.
@@ -103,7 +109,11 @@ When complete, the system provides a list of modules and values in `<Magento_ins
 
 ## Remove Inventory Management
 
-If you choose not to use the Inventory Management functionality, you can remove (uninstall) these modules to improve performance. To remove all the modules through the composer file, add the following to `composer.json`.
+>[!IMPORTANT]
+>
+>Using the default [!DNL Inventory Management] modules is highly recommended. The alternative [!DNL CatalogInventory] module, which is used for systems with removed [!DNL Inventory Management] modules, is now deprecated. Removing the [!DNL Inventory Management] modules can cause an unstable system and result in various issues.
+
+If you choose not to use the [!DNL Inventory Management] functionality, you can remove (uninstall) these modules. To remove all the modules through the composer file, add the following to `composer.json`:
 
 ```
 "replace": {

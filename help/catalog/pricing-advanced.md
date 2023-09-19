@@ -1,9 +1,10 @@
 ---
-title: Advanced Pricing
+title: Advanced pricing
 description: Learn about the advanced pricing controls available in Adobe Commerce.
 exl-id: 0f353341-1b6b-4093-bba9-4a1b88323f8a
+feature: Catalog Management, Products
 ---
-# Advanced Pricing
+# Advanced pricing
 
 Adobe Commerce and Magento Open Source support various pricing options that you can use for promotions, or to meet the minimum advertised pricing requirements of the manufacturer. Changes to product pricing can be made on schedule, or by price rule that is applied at the product level or in the shopping cart.
 
@@ -13,9 +14,9 @@ The _[!UICONTROL Advanced Pricing]_ settings define the conditions required for 
 
 Advanced pricing data is synchronized with product pages. For example, if you update a tier price quantity, the system updates the value on the product page.
 
-![B2B for Adobe Commerce](../assets/b2b.svg) (Available with [B2B for Adobe Commerce](./b2b/../introduction.md) only) If you are using shared catalogs, advanced pricing data is synchronized with both product pages and shared catalogs. For example, if you update a tier price quantity, the system updates the value in the shared catalog and on the product page. Any custom pricing that is indicated in the shared catalog has priority over customer group pricing. Also refer to [Set Pricing and Structure](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html) in the _B2B for Adobe Commerce Guide_.
+![B2B for Adobe Commerce](../assets/b2b.svg) (Available with [B2B for Adobe Commerce](./b2b/../introduction.md) only) If you are using shared catalogs, advanced pricing data is synchronized with both product pages and shared catalogs. For example, if you update a tier price quantity, the system updates the value in the shared catalog and on the product page. Any custom pricing that is indicated in the shared catalog has priority over customer group pricing. Also refer to [Set shared catalog pricing and structure](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html) in the _B2B for Adobe Commerce Guide_.
 
-![Advanced Pricing](./assets/product-pricing-advanced-link.png)<!-- zoom -->
+![Advanced Pricing](./assets/product-pricing-advanced-link.png){width="600" zoomable="yes"}
 
 ## Access the advanced pricing options
 
@@ -35,28 +36,28 @@ Advanced pricing data is synchronized with product pages. For example, if you up
 
 ## Page reference
 
-### Special Price
+### [!UICONTROL Special Price]
 
-Enter the special price to offer a discounted price during a specified time period or scheduled campaign. When a special price is available, the retail price is crossed out and the special price appears below in large, bold text.
+To offer a discounted price during a specified time period or scheduled campaign, enter the special price. When a special price is available, the retail price is crossed out and the special price appears below in large, bold text.
 
-#### Special Price From dates
+#### [!UICONTROL Special Price From] dates
 
 {{ce-feature}}
 
 | Field | Description |
 | ---- | ----------- |
-|[!UICONTROL From]|Sets the first date that the Special Price is available. You can either enter the date or select it from the calendar.|
-|[!UICONTROL To]|Sets the last date that the Special Price is available. You can either enter the date or select it from the calendar.|
+|[!UICONTROL From]|Sets the first date that the special price is available. You can either enter the date or select it from the calendar.|
+|[!UICONTROL To]|Sets the last date that the special price is available. You can either enter the date or select it from the calendar.|
 
 {style="table-layout:auto"}
 
-### Cost
+### [!UICONTROL Cost]
 
-This is the actual cost of the item.
+Enter the actual cost of the item.
 
-### Customer Group Price
+### [!UICONTROL Customer Group Price]
 
-![Advanced Pricing](./assets/product-pricing-advanced.png)<!-- zoom -->
+![Advanced Pricing](./assets/product-pricing-advanced-group-price.png){width="600" zoomable="yes"}
 
 Sets up promotional and tier prices for specific customer groups.
 
@@ -71,13 +72,13 @@ Sets up promotional and tier prices for specific customer groups.
 
 {style="table-layout:auto"}
 
-### Catalog and Tier Price
+### [!UICONTROL Catalog and Tier Price]
 
 Sets up promotional and tier prices for specific shared catalogs and customer groups.
 
 {{b2b-feature}}
 
-![Tiered Pricing](./assets/product-pricing-promotional-tiered-b2b.png)<!-- zoom -->
+![Advanced Pricing for B2B stores with shared catalogs](./assets/product-pricing-advanced.png){width="600" zoomable="yes"}
 
 |Item|Description|
 |----|-----------|
@@ -90,11 +91,11 @@ Sets up promotional and tier prices for specific shared catalogs and customer gr
 
 {style="table-layout:auto"}
 
-### Minimum Advertised Price
+### [!UICONTROL Minimum Advertised Price]
 
 The minimum advertised price (MAP) for the product.
 
-### Display Actual Price
+### [!UICONTROL Display Actual Price]
 
 Determines where the actual price of the product is visible to the customer.
 

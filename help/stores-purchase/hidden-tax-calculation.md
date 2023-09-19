@@ -2,6 +2,7 @@
 title: Hidden tax calculation
 description: Learn how to configure a hidden tax calculation when there is a discount that has tax embedded in it.
 exl-id: be2000b1-09d7-4a28-814a-f5da7591e387
+feature: Invoices, Taxes
 ---
 # Hidden tax calculation
 
@@ -11,7 +12,7 @@ _Hidden Tax_ is the amount of VAT that a discount amount has. It is non-zero whe
 - The VAT rate is not zero
 - There is a discount present
 
-When there is a discount that has tax embedded in it, Commerce computes a _hidden tax_ that is added back in order to compute the discounted price.
+When there is a discount that has tax embedded in it, Commerce computes a _hidden tax_ that is added back for calculating the discounted price.
 
 `discountedItemPrice = fullPriceWithoutTax - discountAmountOnFullPriceWithoutTax + vatAmountOnDiscountedPrice + hiddenTax`
 
@@ -32,7 +33,7 @@ When there is a discount that has tax embedded in it, Commerce computes a _hidde
 
 ### Valid Actual Result in Cart
 
-![Hidden Tax Tax Calculation in Cart](./assets/hidden-tax.png)<!-- zoom -->
+![Hidden Tax Tax Calculation in Cart](./assets/hidden-tax.png){width="700" zoomable="yes"}
 
 ### Valid Calculations
 
@@ -42,13 +43,13 @@ When there is a discount that has tax embedded in it, Commerce computes a _hidde
 
    _Can also be calculated as: $100 \ * (1 - 1/1.2)._
 
-1. Discount of 10% on $83.33 is: **$8.33** (when we don&#39;t discount tax)
+1. Discount of 10% on $83.33 is: **$8.33** (when you don&#39;t discount tax)
 
 1. Discounted price of item with tax is: $100 - $8.33 = $91.67
 
    >[!NOTE]
    >
-   >This is the customer's perception of how discounts are applied.
+   >This equation illustrates the customer's perception of how discounts are applied.
 
 1. Discounted price of the item without taxes is: $91.67 / 1.2 = $76.39
 
@@ -58,7 +59,7 @@ When there is a discount that has tax embedded in it, Commerce computes a _hidde
 
 1. Hidden tax or _Discount Tax Compensation_ is the difference between the VAT amount of the full price versus discounted price: $16.67 - $15.28 = **$1.39**
 
-   _Another way to look at this: hidden tax is the VAT amount carried within the $8.33 discount: $8.33 \* (1 - 1/1.2)._
+   _Another way to look at it: hidden tax is the VAT amount carried within the $8.33 discount: $8.33 \* (1 - 1/1.2)._
 
 1. How the customer usually understands the discounted price (Order Total):
 

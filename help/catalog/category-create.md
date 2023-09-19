@@ -2,6 +2,7 @@
 title: Create categories
 description: You can create as many additional subcategories as needed, according to the maximum menu depth that is set in the configuration.
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
+feature: Catalog Management, Categories
 ---
 # Create categories
 
@@ -9,7 +10,7 @@ The category structure of your catalog is like an upside-down tree, with the roo
 
 For a website with multiple [stores](../stores-purchase/stores.md#add-stores), you can create a different root category for each store that defines the set of categories that is used for the [top navigation](navigation-top.md).
 
-![Category tree](./assets/category-selected.png)<!-- zoom -->
+![Category tree](./assets/category-selected.png){width="700" zoomable="yes"}
 
 ## Best practices
 
@@ -63,7 +64,7 @@ Also define any associated keywords and attributes, such as:
 
 1. Enter the **[!UICONTROL Category Name]**.
 
-   ![Basic category information](./assets/catalog-categories-currently-active.png)<!-- zoom -->
+   ![Basic category information](./assets/catalog-categories-currently-active.png){width="500" zoomable="yes"}
 
 1. click **[!UICONTROL Save]** and continue.
 
@@ -71,7 +72,7 @@ Also define any associated keywords and attributes, such as:
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Content]** section.
 
-   ![Category content](./assets/category-content.png)<!-- zoom -->
+   ![Category content](./assets/category-content.png){width="600" zoomable="yes"}
 
 1. To display a **[!UICONTROL Category Image]** at the top of the page, you can either upload your own image or use an image that exists in the [Media Storage](../content-design/media-storage.md).
 
@@ -95,7 +96,7 @@ Also define any associated keywords and attributes, such as:
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Display Setting]** section.
 
-   ![Display settings](./assets/category-display-settings.png)<!-- zoom -->
+   ![Display settings](./assets/category-display-settings.png){width="600" zoomable="yes"}
    
    For more information about these options, see For more information about these options, see  [Display settings](categories-display-settings.md).
 
@@ -129,7 +130,7 @@ Also define any associated keywords and attributes, such as:
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Search Engine Optimization Settings]** section.
 
-   ![Search engine optimization](./assets/catalog-categories-search-engine-optimization.png)<!-- zoom -->
+   ![Search engine optimization](./assets/categories-search-engine-optimization.png){width="600" zoomable="yes"}
    
    For more information about these options, see [Search engine optimization](categories-search-engine-optimization.md).
 
@@ -145,11 +146,11 @@ Also define any associated keywords and attributes, such as:
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Products in Category]** section.
 
-   ![Products in category](./assets/catalog-categories-products-in-category.png)<!-- zoom -->
+   ![Products in category](./assets/category-products-in-category.png){width="600" zoomable="yes"}
 
    For more information about these options, see [Products in category](categories-product-assignments.md).
 
-1. Use the [filters](../getting-started/admin-grid-controls.md) as needed to find the products.
+1. If needed, use the [filters](../getting-started/admin-grid-controls.md) to find the products.
 
    To display all records that are not yet included in the category, set the record chooser in the first column to `No` and click **[!UICONTROL Search]**.
 
@@ -177,7 +178,7 @@ Also define any associated keywords and attributes, such as:
 
 1. To add another permission rule, click **[!UICONTROL New Permission]** and repeat the process.
 
-   ![Category permissions](./assets/category-create-permissions.png)<!-- zoom -->
+   ![Category permissions](./assets/category-create-permissions.png){width="600" zoomable="yes"}
 
 ## Step 8: Complete the design settings
 
@@ -195,7 +196,7 @@ Also define any associated keywords and attributes, such as:
 
    - To use the same design for product pages, set **[!UICONTROL Apply Design to Products]** to `Yes`.
 
-   ![Design settings](./assets/category-design.png)<!-- zoom -->
+   ![Design settings](./assets/category-design.png){width="600" zoomable="yes"}
 
 1. ![Magento Open Source](../assets/open-source.svg) (Magento Open Source only) To schedule the design update for a specific time period, do the following:
 
@@ -203,6 +204,6 @@ Also define any associated keywords and attributes, such as:
 
    - Use the calendar (![Calendar icon](../assets/icon-calendar.png)) to choose the Schedule Update **[!UICONTROL from]** and **[!UICONTROL to]** dates.
 
-   ![Scheduled design update](./assets/category-scheduled-design-update.png)<!-- zoom -->
+   ![Scheduled design update](./assets/category-scheduled-design-update.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save]**.

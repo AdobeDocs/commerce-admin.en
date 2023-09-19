@@ -2,12 +2,17 @@
 title: Reward points in price rules
 description: Learn how reward points can be awarded to customers according to a cart price rule.
 exl-id: 6e23b56d-64e4-435d-9f4c-ee3f400b0250
+feature: Rewards, Promotions/Events, Customers
 ---
 # Reward points in price rules
 
 {{ee-feature}}
 
 Reward points can be awarded to customers according to a [cart price rule](price-rules-cart.md). The award of points can be the only action of the price rule, or can be used with a discount.
+
+>[!NOTE]
+>
+>[Reward Exchange Rates](reward-exchange-rates.md) configuration is required for redemption of reward points by customers and Admin users during checkout.
 
 ## Add reward points to a price rule
 
@@ -17,7 +22,7 @@ Reward points can be awarded to customers according to a [cart price rule](price
 
 1. Scroll down, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Actions]** section, set the conditions, and enter the number of points in the **[!UICONTROL Add Reward Points]** field.
 
-   ![Cart price rule - reward points](./assets/reward-points-price-rule-actions.png)<!-- zoom -->
+   ![Cart price rule - reward points](./assets/reward-points-price-rule-actions.png){width="600" zoomable="yes"}
 
 1. Follow the standard instructions to complete the [cart price rule](price-rules-cart-create.md).
 

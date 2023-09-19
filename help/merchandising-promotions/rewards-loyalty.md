@@ -2,6 +2,7 @@
 title: Reward and loyalty programs
 description: Learn about the reward points system that you can use to drive customer engagement and promote customer loyalty.
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
+feature: Rewards, Promotions/Events, Customers, Configuration
 ---
 # Reward and loyalty programs
 
@@ -19,6 +20,10 @@ Reward point balances can be managed by Admin users per customer. If enabled in 
 
 ## Redeeming points
 
+>[!NOTE]
+>
+>[Reward Exchange Rates](reward-exchange-rates.md) configuration is required for redemption of reward points by customers and Admin users during checkout.
+
 Points can be redeemed by Admin users and customers (if enabled) during checkout. In the Payment Method section, a Use my Reward Points checkbox appears above the enabled payment methods. The available points and monetary exchange rate is included. If the available balance is greater than the grand total of the order, no additional payment method is required. The number of reward points that are applied to the order appears with the order totals, subtracted from the grand total, similar to a store credit or gift cards. If reward points are used along with store credit or a gift card, the reward points are deducted first. The store credit or gift card is then deducted if the order total is greater than the redeemable number of reward points.
 
 >[!NOTE]
@@ -33,7 +38,7 @@ Orders placed with reward points can be refunded to the reward points balance up
 
 The Reward Points configuration determines how reward points are presented in the store and defines the basic operating parameters.
 
-![Customers configuration - reward points](../configuration-reference/customers/assets/reward-points-reward-points.png)<!-- zoom -->
+![Customers configuration - reward points](../configuration-reference/customers/assets/reward-points-reward-points.png){width="600" zoomable="yes"}
 
 ### Step 1. Configure the reward points
 
@@ -77,7 +82,7 @@ In this step, the number of reward points that can be earned for various custome
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Actions for Acquiring Reward Points by Customer]** section.
 
-   ![Customers configuration - actions for acquiring reward points by customer](../configuration-reference/customers/assets/reward-points-actions-for-acquiring.png)<!-- zoom -->
+   ![Customers configuration - actions for acquiring reward points by customer](../configuration-reference/customers/assets/reward-points-actions-for-acquiring.png){width="600" zoomable="yes"}
 
 1. To display a message in the shopping cart that includes the rewards points earned for the purchase and the customer's current reward point balance, set **[!UICONTROL Purchase]** to `Yes`.
 
@@ -109,7 +114,7 @@ In this step, the number of reward points that can be earned for various custome
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Email Notification Settings]** section.
 
-    ![Customers configuration - reward points email notifications](../configuration-reference/customers/assets/reward-points-email-notification-settings.png)<!-- zoom -->
+    ![Customers configuration - reward points email notifications](../configuration-reference/customers/assets/reward-points-email-notification-settings.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Email Sender]** to the store contact that appears as the sender of balance updates and expiration notifications.
 
@@ -140,7 +145,7 @@ The reward points balance can be updated from the Admin.
 
 1. Enter **[!UICONTROL Comments]** related to the reward points adjustment, if needed.
 
-   ![Reward Points Balance](./assets/reward-points-balance.png)<!-- zoom -->
+   ![Reward Points Balance](./assets/reward-points-balance.png){width="700" zoomable="yes"}
 
 1. Optionally, subscribe the customer to _Reward Points Notifications_:
 

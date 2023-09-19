@@ -2,6 +2,7 @@
 title: Update currency rates
 description: Learn how to set currency rates manually or import them into your store.
 exl-id: 316a7bc8-1118-46e7-82ff-891ada04cd13
+feature: Currency, Configuration, Data Import/Export
 ---
 # Update currency rates
 
@@ -9,7 +10,7 @@ Currency rates can be set manually, or imported into the store. To ensure that y
 
 Before importing currency rates, complete the [currency rate setup](currency-configuration.md) to specify the currencies that you accept, and to establish the import connection and schedule.
 
-![Currency rates](./assets/stores-currency-rate-update.png)<!-- zoom -->
+![Currency rates](./assets/stores-currency-rate-update.png){width="600" zoomable="yes"}
 
 ## Update a currency rate manually
 
@@ -39,13 +40,13 @@ Before importing currency rates, complete the [currency rate setup](currency-con
 
 1. When prompted to update the cache, click the **[!UICONTROL Cache Management]** link and refresh the invalid cache.
 
-   ![System message - refresh the invalid cache](./assets/currency-cache-update.png)<!-- zoom -->
+   ![System message - refresh the invalid cache](./assets/currency-cache-update.png){width="600" zoomable="yes"}
 
 ## Import currency rates on schedule
 
 1. Make sure that [Cron](../systems/cron.md) is enabled for your store.
 
-1. Complete the [Currency Rate Setup](currency-configuration.md) to specify the currencies that you accept, and to establish the import connection and schedule.
+1. To specify the currencies that you accept and establish the import connection and schedule, complete the [Currency Rate Setup](currency-configuration.md).
 
 1. To verify that the rates are imported on schedule, check the _[!UICONTROL Currency Rates]_ list.
 

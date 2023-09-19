@@ -2,6 +2,7 @@
 title: Configure the Distance Priority Algorithm
 description: Set the configuration for comparing the location of the shipping destination address with source locations to determine the closest source to fulfill shipments.
 exl-id: 4dec179a-25ac-48db-a84b-4974798272b0
+feature: Inventory, Configuration
 ---
 # Configure the Distance Priority Algorithm
 
@@ -34,7 +35,7 @@ The key is from the [Google Maps Platform][1] and should have [Geocoding API][2]
 
 1. To enable the platform, select **[!UICONTROL Maps, Routes, and Places]** and click **[!UICONTROL Continue]**.
 
-    ![Google Maps Platform for your Key](assets/inventory-google-key1.png)
+    ![Google Maps Platform for your Key](assets/inventory-google-key1.png){width="350" zoomable="yes"}
 
 1. Sign in with a Google account or create an account.
 
@@ -56,13 +57,13 @@ The key is from the [Google Maps Platform][1] and should have [Geocoding API][2]
 
    - Expand the menu and click **[!UICONTROL APIs & Services]** > **[!UICONTROL Library]**.
 
-      ![Google API Services](assets/inventory-google-key2.png)
+      ![Google API Services](assets/inventory-google-key2.png){width="350" zoomable="yes"}
 
    - Search for [Geocoding API][2] and [Distance Matrix API][3]. Select and enable each service.
 
 1. Expand the menu, click **[!UICONTROL APIs & Services]** > **[!UICONTROL Credentials]**, and copy the Google API Key.
 
-    ![Google API Key Copy](assets/inventory-google-key3.png)
+    ![Google API Key Copy](assets/inventory-google-key3.png){width="350" zoomable="yes"}
 
 ### Step 2: Configure the Google MAP Provider
 
@@ -72,7 +73,7 @@ The key is from the [Google Maps Platform][1] and should have [Geocoding API][2]
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the _[!UICONTROL Distance Provider for Distance Based SSA]_ section and set **[!UICONTROL Provider]** to `Google MAP`.
 
-    ![Providers for Distance-Based SSA](assets/config-catalog-inventory-distance-provider.png)
+    ![Providers for Distance-Based SSA](assets/config-catalog-inventory-distance-provider.png){width="350" zoomable="yes"}
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the _[!UICONTROL Google Distance Provider]_ section and configure the settings:
 
@@ -97,7 +98,7 @@ The key is from the [Google Maps Platform][1] and should have [Geocoding API][2]
       | `Distance` | (Default) Returns the distance between points in metrics (kilometers and meters) or imperial (miles and feet). |
       | `Time to Destination` | Returns the time required to travel from the source locations to the shipping address in hours and minutes. |
 
-    ![Google Distance Provider](assets/config-catalog-inventory-distance-provider-settings.png)
+    ![Google Distance Provider](assets/config-catalog-inventory-distance-provider-settings.png){width="350" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
@@ -125,7 +126,7 @@ Complete these commands anytime you want to add more geocodes.
 
 1. Deselect the **[!UICONTROL Use system value]** checkbox and set **[!UICONTROL Provider]** to `Offline Calculation`.
 
-    ![Distance Providers for Distance Based SSA](assets/inventory-distance-offline.png)
+    ![Distance Providers for Distance Based SSA](assets/inventory-distance-offline.png){width="350" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Config]**.
 

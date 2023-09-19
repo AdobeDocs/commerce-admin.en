@@ -1,15 +1,16 @@
 ---
-title: Manage Company Accounts
-description: Learn about the Companies page and the tools available in the grid that help you to manage company accounts.
+title: Manage company accounts
+description: Learn about the Companies page and the tools available in the grid that help you to manage company accounts for your Adobe Commerce store.
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
+feature: B2B, Companies, Configuration
 ---
-# Manage Company Accounts
+# Manage company accounts
 
-The _Companies_ page lists all current company accounts, regardless of status. Any pending requests for approval appear at the top of the list. The standard [workplace controls](../getting-started/admin-workspace.md) can be used to filter the list, change the [column layout](../getting-started/admin-grid-controls.md), save views, and export data.
+The _[!UICONTROL Companies]_ page lists all current company accounts, regardless of status. Any pending requests for approval appear at the top of the list. The standard [workplace controls](../getting-started/admin-workspace.md) can be used to filter the list, change the [column layout](../getting-started/admin-grid-controls.md), save views, and export data.
 
-The Actions control above the grid can be used to apply an action to multiple company records. For example, rather than approving each individual company request, you can select multiple requests and activate the accounts in a single action. The actions that are available depend on the [permissions](../systems/permissions.md) for the role that is assigned to your Admin user account.
+The _[!UICONTROL Actions]_ control above the grid can be used to apply an action to multiple company records. For example, rather than approving each individual company request, you can select multiple requests and activate the accounts in a single action. The actions that are available depend on the [permissions](../systems/permissions.md) for the role that is assigned to your Admin user account.
 
-![Companies Grid](./assets/companies-grid.png)<!-- zoom -->
+![Companies Grid](./assets/companies-grid.png){width="700" zoomable="yes"}
 
 ## Company role resources
 
@@ -105,8 +106,7 @@ Method 1: **Quick edit**
 
    Each value that can be updated appears in a text box.
 
-   ![](./assets/companies-grid-quick-edit.png)<!-- zoom -->
-   _Quick Edit_
+   ![Quick Edit for a company account](./assets/companies-grid-quick-edit.png){width="700" zoomable="yes"}
 
 1. Update any of the following values as needed:
 
@@ -132,7 +132,7 @@ Method 2: **Full edit**
 
 ## Assign a sales representative
 
-The sales representative is an [Admin user](../systems/permissions.md) who is assigned as the point of contact for a company account and receives all automated [email messages](../b2b/enable-basic-features.md#configure-company-email-options) related to the company. Only one sales representative can be assigned per company account, but a single sales representative can manage multiple company accounts. The default admin account is assigned as the sales representative, unless a different admin user is assigned.
+The sales representative is an [Admin user](../systems/permissions.md) who is assigned as the point of contact for a company account and receives all automated [email messages](../b2b/enable-basic-features.md#configure-company-email-options) related to the company. Only one sales representative can be assigned per company account, but a single sales representative can manage multiple company accounts. The default Admin user account is assigned as the sales representative, unless a different Admin user is assigned.
 
 The name and email address of the assigned sales representative is visible to company members from the company account and quotes page.
 
@@ -150,7 +150,7 @@ The name and email address of the assigned sales representative is visible to co
 
 The company profile can be maintained from the storefront by the company administrator, and also from the Admin by a store administrator.
 
-![Company Profile](./assets/company-update.png)<!-- zoom -->
+![Company Profile](./assets/company-update.png){width="700" zoomable="yes"}
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
@@ -162,7 +162,7 @@ The company profile can be maintained from the storefront by the company adminis
 
 ## Company account demo
 
-Watch this video to learn about managing company accounts:
+You can learn about managing company accounts by watching this video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12)
 
@@ -218,7 +218,7 @@ The following columns are available by changing the [column layout](../getting-s
 |[!UICONTROL VAT/TAX ID]|The [value-added tax](../stores-purchase/vat.md) number that is assigned to the company by some jurisdictions for tax reporting purposes. To configure the customer VAT/TAX ID to appear in the storefront, see [Create New Account Options](../configuration-reference/customers/customer-configuration.md).|
 |[!UICONTROL Credit Limit]|The credit limit that is extended to the company account.|
 |[!UICONTROL Credit Currency]|The currency that is accepted by the store for purchases on company credit.|
-|[!UICONTROL Status]|Indicates the current [status](account-company-approve.md) of the company account. Options: <br/>**[!UICONTROL Active]** - The company account is approved by the store administrator. The company administrator and associated members can log in the account from the storefront and make purchases. <br/>**[!UICONTROL Pending Approval]** - A request to open a company account has been submitted, but is not yet approved by the store administrator. <br/>**[!UICONTROL Rejected]** - A request to open a company account was submitted, but not approved by the store administrator. The initial login credentials that were used to submit the request are blocked. <br/>**[!UICONTROL Blocked]** - Company members can log in and access the catalog, but cannot make purchases. The store administrator might block a company account that is not in good standing. The block on the account can be removed by the store administrator at any time.|
+|[!UICONTROL Status]|Indicates the [status](account-company-approve.md) of the company account. Options: <br/>**[!UICONTROL Active]** - The company account is approved by the store administrator. The company administrator and associated members can log in the account from the storefront and make purchases. <br/>**[!UICONTROL Pending Approval]** - A request to open a company account has been submitted, but is not yet approved by the store administrator. <br/>**[!UICONTROL Rejected]** - A request to open a company account was submitted, but not approved by the store administrator. The initial login credentials that were used to submit the request are blocked. <br/>**[!UICONTROL Blocked]** - Company members can log in and access the catalog, but cannot make purchases. The store administrator might block a company account that is not in good standing. The block on the account can be removed by the store administrator at any time.|
 |[!UICONTROL Gender]|The gender of the company administrator. Options: Male / Female / Not Specified|
 |[!UICONTROL Comment]|Notes about the company account for reference and visible only from the Admin.|
 
@@ -243,7 +243,7 @@ The following columns are available by changing the [column layout](../getting-s
 |Field|Description|
 |--- |--- |
 |[!UICONTROL Company Name]|The company name is entered when the company account is first created, and can be a shortened version of the full legal name.|
-|[!UICONTROL Status]|Indicates the current [status](account-company-approve.md) of the company account. Options: <br/>**[!UICONTROL Active]** - The company account is approved by the store administrator. The company administrator and associated members can log in the account from the storefront and make purchases. <br/>**[!UICONTROL Pending Approval]** - A request to open a company account has been submitted, but is not yet approved by the store administrator. <br/>**[!UICONTROL Rejected]** - A request to open a company account was submitted, but not approved by the store administrator. The initial login credentials that were used to submit the request are blocked. <br/>**[!UICONTROL Blocked]** - Company members can log in and access the catalog, but cannot make purchases. The store administrator might block a company account that is not in good standing. The block on the account can be removed by the store administrator at any time.|
+|[!UICONTROL Status]|Indicates the [status](account-company-approve.md) of the company account. Options: <br/>**[!UICONTROL Active]** - The company account is approved by the store administrator. The company administrator and associated members can log in the account from the storefront and make purchases. <br/>**[!UICONTROL Pending Approval]** - A request to open a company account has been submitted, but is not yet approved by the store administrator. <br/>**[!UICONTROL Rejected]** - A request to open a company account was submitted, but not approved by the store administrator. The initial login credentials that were used to submit the request are blocked. <br/>**[!UICONTROL Blocked]** - Company members can log in and access the catalog, but cannot make purchases. The store administrator might block a company account that is not in good standing. The block on the account can be removed by the store administrator at any time.|
 |[!UICONTROL Company Email]|The email address that is associated with the company account.|
 |[!UICONTROL Sales Representative]|The Admin user who is the primary contact for the company account.|
 

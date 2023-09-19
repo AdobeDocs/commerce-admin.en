@@ -2,12 +2,14 @@
 title: Use predefined variables
 description: Learn about the predefined variables and how to add them in an email template.
 exl-id: 01e909c4-c932-4262-9f33-bd2740a6355f
+role: Admin, User
+feature: System, Variables, Page Content, Communications
 ---
 # Use predefined variables
 
 [Predefined](variables-predefined.md) variables make it easy to personalize [email](email-templates.md) and [newsletter](../merchandising-promotions/newsletters.md) templates, and other types of content. The list of allowed [predefined](variables-predefined.md) variables appears when you click the Insert Variable button. As shown in the following image, the list of available variables for a specific email template is determined by the data that is associated with the template. See the [Variable Reference](variables-reference.md) for a list of frequently used email templates and their associated variables.
 
-![Predefined Variables for Email Template](./assets/email-template-new-pickup-order-predefined-variables.png )<!-- zoom -->
+![Predefined Variables for Email Template](./assets/email-template-new-pickup-order-predefined-variables.png){width="700" zoomable="yes"}
 
 ## Add a variable to an email template
 
@@ -29,6 +31,8 @@ exl-id: 01e909c4-c932-4262-9f33-bd2740a6355f
 
    - **[!UICONTROL Template Content]** - This text is displayed in the full content of the sent email.
 
+   ![Email Template Content](./assets/email-template-content.png){width="600" zoomable="yes"}
+
 1. Enter a **[!UICONTROL Template Name]**.
 
 1. For a list of the [predefined](variables-predefined.md) variables that can be used with this email template, click **[!UICONTROL Insert Variable]**.
@@ -39,15 +43,11 @@ exl-id: 01e909c4-c932-4262-9f33-bd2740a6355f
 
    When the preview opens in a new tab, determine where you want to place the variable in relation to the other content. Then return to the original tab to continue.
 
-   ![Preview Template](./assets/email-template-new-pickup-order-preview.png)<!-- zoom -->
+   ![Preview Template](./assets/email-template-new-pickup-order-preview.png){width="600" zoomable="yes"}
 
 1. In the **[!UICONTROL Template Content]** box, position the insertion point where you want the variable to appear and click **[!UICONTROL Insert Variable...]**.
 
 1. In the list of available variables, click the one that you want to insert into the template.
-
-   In this example, the `Order Items Grid` variable is added to the template.
-
-   ![Email Template Content](./assets/email-template-content.png)<!-- zoom -->
 
 1. When complete, click **[!UICONTROL Save Template]**.
 

@@ -1,9 +1,10 @@
 ---
-title: Insert a Variable in the Editor
-description: Add predefined or custom variables to your content.
+title: Insert a variable in the editor
+description: Add predefined or custom variables to your content in the WYSIWYG editor.
 exl-id: 49b05df0-f425-4706-a402-f1c3f868cb49
+feature: Page Content, Variables
 ---
-# Insert a Variable in the Editor
+# Insert a variable in the editor
 
 Your store includes many predefined [variables](../systems/variables-predefined.md) that can be incorporated into page content and other communications. In addition, you can include your own [custom variables](../systems/variables-custom.md) that are specific to your needs.
 
@@ -13,12 +14,12 @@ Your store includes many predefined [variables](../systems/variables-predefined.
 
 1. Position the cursor where you want the variable to appear and click the _Insert Variable_ icon.
 
-   ![Editor toolbar - Insert Variable](./assets/editor-toolbar-variable-button.png)<!-- zoom -->
+   ![Editor toolbar - Insert Variable](./assets/editor-toolbar-variable-button.png){width="700" zoomable="yes"}
 
    If you do not have [!UICONTROL Page Builder] enabled and prefer to work with the HTML code, click **[!UICONTROL Show / Hide Editor]**. Position the insertion point in the text where you want the variable to appear. Then, click **[!UICONTROL Insert Variable]**.
 
 1. In the list of available variables, choose the one you want and click **[!UICONTROL Insert Variable]**.
 
-   ![Insert Variable page](./assets/content-insert-variable.png)<!-- zoom -->
+   ![Insert Variable page](./assets/content-insert-variable.png){width="600" zoomable="yes"}
 
 1. When your content edits are complete, click **[!UICONTROL Save]**.

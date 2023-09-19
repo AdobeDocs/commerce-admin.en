@@ -2,6 +2,7 @@
 title: Security
 description: Learn about the tools available to secure your store and data, and guidelines for a security action plan if your detect a compromise.
 exl-id: 10eef4ac-de83-4083-9ba3-e42c8eb33781
+feature: Security, Site Management
 ---
 # Security
 
@@ -17,7 +18,7 @@ Visit the [Security Center](https://helpx.adobe.com/security.html){:target="_bla
 >
 >Stores that have enabled [!DNL Adobe Identity Management Services] (IMS) authentication have native Adobe Commerce and Magento Open Source 2FA disabled. Admin users who are logged into their Commerce instance with their Adobe credentials do not need to reauthenticate for many Admin tasks. Authentication is handled by Adobe IMS when the Admin user logs into their current session. See [[!DNL Adobe Identity Management Service] (IMS) Integration Overview](../getting-started/adobe-ims-integration-overview.md).
 
-![Security Center](./assets/magento-resources-security-center.png)<!-- zoom -->
+![Security Center](./assets/product-security-home.png){width="700" zoomable="yes"}
 
 ## Security action plan
 

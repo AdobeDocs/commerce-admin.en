@@ -2,6 +2,7 @@
 title: Tax rules
 description: Learn how to define the tax rules using product class, customer class, and tax rate.
 exl-id: 38d65998-7769-49ce-9814-e65df9d77bba
+feature: Taxes, Currency
 ---
 # Tax rules
 
@@ -11,7 +12,7 @@ Tax rules incorporate a combination of product class, customer class, and tax ra
 >
 >When numerous tax rates must be defined, you can simplify the process by importing them.
 
-![Tax rules](./assets/tax-rules.png)<!-- zoom -->
+![Tax rules](./assets/tax-rules.png){width="600" zoomable="yes"}
 
 ## Step 1: Complete the tax rule information
 
@@ -21,15 +22,15 @@ Tax rules incorporate a combination of product class, customer class, and tax ra
 
 1. Under _Tax Rule Information_, enter a **[!UICONTROL Name]** for the new rule.
 
+   ![Tax Rule Information](./assets/tax-rule-information.png){width="600" zoomable="yes"}
+
 1. Choose the **[!UICONTROL Tax Rate]** that applies to the rule.
 
-   If you need to edit an existing tax rate, do the following:
+   To edit an existing tax rate, do the following:
 
    - Hover over the tax rate and click the _Edit_ ![Pencil icon](../assets/icon-edit-pencil.png) icon.
 
    - Update the form as needed and click **[!UICONTROL Save]**.
-
-   ![Tax Rule Information](./assets/tax-rule-information.png)<!-- zoom -->
 
 1. To enter tax rates, use either of the following methods:
 
@@ -41,7 +42,7 @@ Tax rules incorporate a combination of product class, customer class, and tax ra
 
 1. When complete, click **[!UICONTROL Save]**.
 
-   ![New Tax Rate](./assets/tax-rate-create-new.png)<!-- zoom -->
+   ![New Tax Rate](./assets/tax-rate-create-new.png){width="600" zoomable="yes"}
 
 ### Method 2: Import tax rates
 
@@ -55,11 +56,13 @@ Tax rules incorporate a combination of product class, customer class, and tax ra
 
 1. To export tax rates, click **[!UICONTROL Export Tax Rates]** (see [Import/Export Tax Rates](../systems/data-transfer-tax-rates.md)).
 
-![Import / Export Tax Rates](./assets/tax-rule-new-import-export.png)<!-- zoom -->
+![Import / Export Tax Rates](./assets/tax-rule-new-import-export.png){width="600" zoomable="yes"}
 
 ## Step 2: Complete the additional settings
 
-1. Click **[!UICONTROL Additional Settings]** to open the section.
+1. To open the section, click **[!UICONTROL Additional Settings]**.
+
+   ![Additional Settings for tax rule](./assets/tax-class-additional-settings.png){width="600" zoomable="yes"}
 
 1. Choose the **[!UICONTROL Customer Tax Class]** to which the rule applies.
 
@@ -81,12 +84,10 @@ Tax rules incorporate a combination of product class, customer class, and tax ra
 
 1. For **[!UICONTROL Sort Order]**, enter a number to indicate the order of this tax rule when listed with others.
 
-   ![Additional Settings](./assets/tax-rule-new-additional-settings.png)<!-- zoom -->
-
 1. When complete, click **[!UICONTROL Save Rule]**.
 
 ## Currency and tax rules demo
 
-Watch this video to learn about managing currency and tax rules:
+Learn about managing currency and tax rules by watching this video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/343657/?quality=12)

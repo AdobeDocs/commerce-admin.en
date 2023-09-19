@@ -2,12 +2,13 @@
 title: Scheduled order operations
 description: Learn about the scheduled order operations and orders cron settings that support this functionality.
 exl-id: 330fe75a-d901-4696-946e-fa7af9ea3d40
+feature: Orders, Configuration
 ---
 # Scheduled order operations
 
 Use [Cron](../systems/cron.md) jobs to schedule the following order processing tasks:
 
-![Orders grid](./assets/orders-grid.png)<!-- zoom -->
+![Orders grid](./assets/orders-grid.png){width="700" zoomable="yes"}
 
 ## Set pending payment order lifetime
 
@@ -19,7 +20,7 @@ The lifetime of orders with pending payments is determined by the _Orders Cron S
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Orders Cron Settings]** section.
 
-   ![Orders Cron Settings](../configuration-reference/sales/assets/sales-orders-cron-settings.png)<!-- zoom -->
+   ![Orders Cron Settings](../configuration-reference/sales/assets/sales-orders-cron-settings.png){width="600" zoomable="yes"}
 
 1. For **[!UICONTROL Pending Payment Order Lifetime (minutes)]**, enter the number of minutes before a pending payment expires.
 
@@ -40,12 +41,12 @@ By scheduling these tasks, you can avoid the locks that occur when data is saved
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1.  In the left panel, expand the **[!UICONTROL Advanced]** section and choose **[!UICONTROL Developer]**.
+1. In the left panel, expand the **[!UICONTROL Advanced]** section and choose **[!UICONTROL Developer]**.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Grid Settings]** section.
 
 1. Set **[!UICONTROL Asynchronous Indexing]** to `Enable`.
 
-   ![Grid Settings](../configuration-reference/advanced/assets/developer-grid-settings.png)<!-- zoom -->
+   ![Grid Settings](../configuration-reference/advanced/assets/developer-grid-settings.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Save Config]**.

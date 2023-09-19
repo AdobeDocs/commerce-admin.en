@@ -2,6 +2,7 @@
 title: DHL
 description: Learn how to set up DHL as a shipping carrier for your store.
 exl-id: 765e5f90-3e93-43cf-a5bc-6132e00b506c
+feature: Shipping/Delivery
 ---
 # DHL
 
@@ -31,7 +32,7 @@ DHL offers integrated international services and tailored, customer-focused solu
    - **[!UICONTROL Password]**
    - **[!UICONTROL Account Number]**
 
-![DHL Account Settings](../configuration-reference/sales/assets/delivery-methods-dhl-account-settings.png)<!-- zoom -->
+![DHL Account Settings](../configuration-reference/sales/assets/delivery-methods-dhl-account-settings.png){width="600" zoomable="yes"}
 
 ## Step 2; Enter package description and handling fee
 
@@ -72,7 +73,7 @@ DHL offers integrated international services and tailored, customer-focused solu
 
       If you choose `Specific`, enter the **[!UICONTROL Height]**, **[!UICONTROL Depth]**, and **[!UICONTROL Width]** of the package in centimeters.
 
-   ![DHL Package Settings](../configuration-reference/sales/assets/delivery-methods-dhl-package-settings.png)<!-- zoom -->
+   ![DHL Package Settings](../configuration-reference/sales/assets/delivery-methods-dhl-package-settings.png){width="600" zoomable="yes"}
 
 ## Step 3: Specify allowed delivery methods
 
@@ -98,11 +99,11 @@ DHL offers integrated international services and tailored, customer-focused solu
 
       `Disable` - Does not apply free DHL shipping to any orders.
 
-      This is similar to the standard Free Shipping method, but appears in the DHL section so customers know which method is used for their order.
+      This setting is similar to the one for the standard _Free Shipping_ method, but appears in the DHL section so customers know which method is used for their order.
 
    - For **[!UICONTROL Free Shipping Amount Threshold]**, enter the minimum amount for an order to qualify for free shipping.
 
-      ![DHL Allowed Methods](../configuration-reference/sales/assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
+      ![DHL Allowed Methods](../configuration-reference/sales/assets/delivery-methods-dhl-allowed-methods.png){width="600" zoomable="yes"}
 
 ## Step 4: Specify the applicable countries
 
@@ -127,4 +128,4 @@ DHL offers integrated international services and tailored, customer-focused solu
 
 1. Click **[!UICONTROL Save Config]**.
 
-   ![DHL Applicable Countries](../configuration-reference/sales/assets/delivery-methods-dhl-applicable-countries.png)<!-- zoom -->
+   ![DHL Applicable Countries](../configuration-reference/sales/assets/delivery-methods-dhl-applicable-countries.png){width="600" zoomable="yes"}

@@ -2,12 +2,13 @@
 title: Categories - Display settings
 description: Learn about using the [!UICONTROL Display] settings to define which content elements appear on a category page and the order in which products appear.
 exl-id: bb3a1b00-ba56-4113-8208-860963612333
+feature: Catalog Management, Categories, Page Content
 ---
 # Categories - Display settings
 
 Display settings determine which content elements appear on a category page and the order in which products appear. You can enable CMS blocks, set the anchor status of the category, and manage sorting options from the _[!UICONTROL Display Settings]_ tab. For examples of how categories are reflected in the storefront, see [Catalog Navigation](navigation.md).
 
-![Display Settings for categories](./assets/category-display-settings.png)<!-- zoom -->
+![Display Settings for categories](./assets/category-display-settings.png){width="600" zoomable="yes"}
 
 |Field|Description|
 |--- |--- |

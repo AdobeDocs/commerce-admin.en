@@ -2,6 +2,9 @@
 user-guide-title: Adobe Commerce Getting Started Guide
 user-guide-description: If you are new to Adobe Commerce or Magento Open Source, discover resources of the [!DNL Commerce] ecosystem, follow the customer journey to explore your store, and learn about key features.
 breadcrumb-title: Getting Started
+role: Admin, Leader, User
+feature: Admin Workspace
+recommendations: noDisplay
 ---
 
 # Adobe Commerce Getting Started Guide {#start}
@@ -20,6 +23,12 @@ breadcrumb-title: Getting Started
   + Adobe Identity Management Service (IMS) Integration {#ims}
     + [IMS integration overview](adobe-ims-integration-overview.md)
     + [Configure the Admin integration with IMS](adobe-ims-config.md)
+    + [Disable the Admin integration with IMS](adobe-ims-disable.md)
+  + Adobe Experience Cloud Integration {#unifiedexperience}
+    + [Overview](admin-unified-experience-integration-overview.md)
+    + [Configure the integration](admin-unified-experience-integration-configure.md)
+    + [Manage the Experience Cloud integration](admin-unified-experience-integration-manage.md)
+    + [Release Notes](admin-unified-experience-release-notes.md)
   + Admin tools and workspace {#tools}
     + [Workspace](admin-workspace.md)
     + [The Admin sidebar](admin-menu.md)

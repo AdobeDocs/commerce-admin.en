@@ -2,12 +2,11 @@
 title: Add attributes to a product
 description: Learn how to add attributes to products in your catalog.
 exl-id: 1f92807a-2362-48a2-8d3a-4aef90a5671f
+feature: Catalog Management, Products
 ---
 # Add attributes to a product
 
 Although attributes are managed primarily from the [Stores](../stores-purchase/stores-menu.md) menu, you can also add new attributes _on the fly_ while working on a product. You can choose from the list of existing attributes or create an attribute. The new attribute is added to the [attribute set](../catalog/attribute-sets.md) upon which the product is based.
-
-![New product with default attribute set](./assets/product-attribute-add.png)<!-- zoom -->
 
 ## Step 1: Add an attribute
 
@@ -15,19 +14,21 @@ Although attributes are managed primarily from the [Stores](../stores-purchase/s
 
 1. In the upper-right corner, click **[!UICONTROL Add Attribute]**.
 
+   ![New product with default attribute set](./assets/product-attribute-add.png){width="600" zoomable="yes"}
+
 1. To add an existing attribute to the product, use the [filter controls](../getting-started/admin-grid-controls.md) to find the attribute in the grid and do the following:
 
    - Select the checkbox in the first column of each attribute to be added.
 
    - Click **[!UICONTROL Add Selected]**.
 
-   ![Select an attribute](./assets/product-attribute-add-select.png)<!-- zoom -->
+   ![Select an attribute](./assets/product-attribute-add-select.png){width="600" zoomable="yes"}
 
-1. To define a new attribute, click **[!UICONTROL Create New Attribute]** and the next set of steps.
+1. To define a new attribute, click **[!UICONTROL Create New Attribute]** and complete the items in Step 2.
 
-## Step 2: Describe the basic properties
+## Step 2: Describe the basic attribute properties
 
-![Attribute Properties](./assets/product-attribute-add-new.png)<!-- zoom -->
+![Attribute Properties](./assets/product-attribute-add-new.png){width="600" zoomable="yes"}
 
 1. Under _[!UICONTROL Attribute Properties]_, enter an **[!UICONTROL Attribute Label]** to identify the attribute.
 
@@ -47,13 +48,13 @@ Although attributes are managed primarily from the [Stores](../stores-purchase/s
 
    - Select **[!UICONTROL Is Default]** to use the option as the default value.
 
-   ![Values](./assets/product-attribute-add-values-flavors.png)<!-- zoom -->
+   ![Values](./assets/product-attribute-add-values-colors.png){width="600" zoomable="yes"}
 
 1. If you want to require the customer to choose an option before the product can be purchased, set **[!UICONTROL Required]** to `Yes`.
 
 ## Step 3: Describe the advanced properties (optional)
 
-![Advanced Attribute Properties](./assets/product-attribute-advanced-attribute-properties.png)<!-- zoom -->
+![Advanced Attribute Properties](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
 1. Enter a unique **[!UICONTROL Attribute Code]** in lowercase characters and without spaces.
 
@@ -74,7 +75,7 @@ Although attributes are managed primarily from the [Stores](../stores-purchase/s
    - `Letters`
    - `Letters (a-z, A-Z) or Numbers (0-9)`
 
-   ![Input Validation](./assets/product-attribute-input-validation.png)<!-- zoom -->
+   ![Input Validation](./assets/product-attribute-input-validation.png){width="500"}
 
 1. If you want to be able to include the attribute as a column in the Products grid, set **[!UICONTROL Add to Column Options]** to `Yes`.
 
@@ -88,13 +89,13 @@ Although attributes are managed primarily from the [Stores](../stores-purchase/s
 
    If your store is available in different languages, you can enter a translated title for each view.
 
-   ![Manage Titles](./assets/product-attribute-add-manage-titles.png)<!-- zoom -->
+   ![Manage Titles](./assets/product-attribute-add-manage-titles.png){width="600" zoomable="yes"}
 
 ## Step 5: Describe the storefront properties
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Storefront Properties]** section.
 
-   ![Storefront Properties](./assets/product-attribute-add-storefront-properties.png)<!-- zoom -->
+   ![Storefront Properties](./assets/product-attribute-add-storefront-properties.png){width="600" zoomable="yes"}
 
 1. To make the attribute available for search, set **[!UICONTROL Use in Search]** to `Yes`.
 
@@ -102,13 +103,21 @@ Although attributes are managed primarily from the [Stores](../stores-purchase/s
 
 1. To include dropdown, multiple select, or price attributes in layered navigation, set **[!UICONTROL Use in Search Results Layered Navigation]** to one of the following:
 
-   - `Filterable (with results)` - Layered navigation includes only those filters for which matching products can be found. Any attribute value that already applies to all products shown in the list does not appear as an available filter. Attribute values with a count of zero (0) product matches are also omitted from the list of available filters.<br/><br/>The filtered list of products includes only those that match the filter. The products list is updated only if the selected filters change what is shown.
+   - `Filterable (with results)` - Layered navigation includes only those filters for which matching products can be found. Any attribute value that already applies to all products shown in the list does not appear as an available filter. Attribute values with a count of zero (0) product matches are also omitted from the list of available filters.<br/><br/>The filtered list of products includes only the products that match the filter. The products list is updated only if the selected filters change what is shown.
 
-   - `Filterable (no results)` - Layered navigation includes filters for all available attribute values and their product counts, including those with zero (0) product matches. If the attribute value is a swatch, the value appears as a filter, but is crossed out.
+   - `Filterable (no results)` - Layered navigation includes filters for all available attribute values and their product counts, including the products with zero (0) product matches. If the attribute value is a swatch, the value appears as a filter, but is crossed out.
 
-1. To use in layered navigation on search results pages, set **[!UICONTROL Use in Search Results Navigation]** to `Yes` and enter a number in the **[!UICONTROL Position]** field.
+   >[!NOTE]
+   >
+   >When the _[!UICONTROL Use in Search]_ setting is set to `No`, the _[!UICONTROL Use in Search Results Layered Navigation]_ setting is not displayed and the product attribute is not used in the search with any [!UICONTROL Use in Layered Navigation] setting value.
+
+1. To use the attribute in layered navigation on search results pages, set **[!UICONTROL Use in Search Results Layered Navigation]** to `Yes` and enter a number in the **[!UICONTROL Position]** field.
 
    The position number indicates the relative position of the attribute within the layered navigation block.
+
+   >[!NOTE]
+   >
+   >The _[!UICONTROL Position]_ field is dimmed by default and you must save the attribute before you can modify this setting.
 
 1. To use the attribute in price rules, set **[!UICONTROL Use for Promo Rule Conditions]** to `Yes`.
 

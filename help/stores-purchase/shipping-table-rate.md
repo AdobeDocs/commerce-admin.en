@@ -2,6 +2,7 @@
 title: Table rate shipping
 description: Learn how to set up a table-rate shipping option for your store.
 exl-id: f73adc9a-4c6c-477d-9553-3a3f28647bdd
+feature: Shipping/Delivery
 ---
 # Table rate shipping
 
@@ -19,7 +20,7 @@ The data that is used to calculate tables rates is prepared in a spreadsheet and
 >
 >Only one set of table rate data can be active at a time.
 
-![Table Rate in Shopping Cart](./assets/storefront-cart-table-rate.png)<!-- zoom -->
+![Table Rate shipping option in the shopping cart order summary](./assets/storefront-cart-table-rate.png){width="700" zoomable="yes"}
 
 ## Step 1: Complete the default settings
 
@@ -35,7 +36,7 @@ The first step is to complete the default settings for table rates. You can comp
    >
    >If necessary, first clear the **[!UICONTROL Use system value]** checkbox to change the following settings as described.
 
-   ![Table Rates](../configuration-reference/sales/assets/delivery-methods-table-rates.png)<!-- zoom -->
+   ![Table Rates](../configuration-reference/sales/assets/delivery-methods-table-rates.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Enabled]** to `Yes`.
 
@@ -99,20 +100,20 @@ The first step is to complete the default settings for table rates. You can comp
 
 1. Click **[!UICONTROL Export CSV]**.
 
-1. Save the `tablerates.csv` file to your computer.
+   ![Export CSV](./assets/shipping-table-rates-export.png){width="700" zoomable="yes"}
 
-   ![Export CSV](./assets/shipping-table-rates-export.png)<!-- zoom -->
+1. Save the `tablerates.csv` file to your system.
 
 1. Open the file in a spreadsheet application.
 
 1. Complete the table with appropriate values for the shipping calculation condition.
 
-   - Use an asterisk (*) as a wildcard to represent all possible values in any category.
+   - Use an asterisk (*) as a wildcard that represents all possible values in any category.
    - The _[!UICONTROL Country]_ column must contain a [valid three-character code][1] for each row.
-   - Sort the data by _[!UICONTROL Region/State]_ so the specific locations are at the top of the list, and the wildcard locations at the bottom. This processes the rules with the absolute values first, and the wildcard values later.
+   - Sort the data by _[!UICONTROL Region/State]_ so the specific locations are at the top of the list, and the wildcard locations at the bottom. Using this method processes the rules with the absolute values first, and the wildcard values later.
    - Values in the _[!UICONTROL Weight (and above)]_ column can have a maximum of four decimal places (such as `2.5075`). Using more decimal places in the data causes the import to fail. 
 
-   ![Weight vs. Destination (Australia)](./assets/table-rates-weight-destination-csv.png)<!-- zoom -->
+   ![Weight vs. Destination (Australia)](./assets/table-rates-weight-destination-csv.png){width="500"}
 
 1. Save the `tablerates.csv` file.
 
@@ -124,7 +125,7 @@ The first step is to complete the default settings for table rates. You can comp
 
 1. For **[!UICONTROL Import]**, click **[!UICONTROL Choose File]** and select your completed `tablerates.csv` file to import the rates.
 
-   ![Import Table Rates](./assets/shipping-table-rates-import.png)<!-- zoom -->
+   ![Import Table Rates](./assets/shipping-table-rates-import.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Save Config]**.
 

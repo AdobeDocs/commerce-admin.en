@@ -2,6 +2,7 @@
 title: Cart price rule example - buy this get that
 description: Review an example of using a cart price rule to offer a buy-this-get-that promotion.
 exl-id: 49e4f9d1-bc60-4861-baca-a23fe148d1c4
+feature: Merchandising, Price Rules, Shopping Cart
 ---
 # Cart price rule example - buy this get that
 
@@ -24,7 +25,7 @@ Complete [Step 2](price-rules-cart.md) of the cart instructions to define the co
 
 If left blank, the rule is triggered for every cart.
 
-![Cart price rule - condition](./assets/buy-x-get-y-condition-default.png)<!-- zoom -->
+![Cart price rule - condition](./assets/buy-x-get-y-condition-default.png){width="600" zoomable="yes"}
 
 ## Step 3. Define the actions
 
@@ -40,13 +41,13 @@ If left blank, the rule is triggered for every cart.
 
    - If you want to prevent other discounts from being applied to the purchase, set **[!UICONTROL Discard subsequent rules]** to `Yes`.
 
-   ![Cart price rule - buy 3 get 1 free](./assets/buy-3-get-1-actions.png)<!-- zoom -->
+   ![Cart price rule - buy 3 get 1 free](./assets/buy-3-get-1-actions.png){width="600" zoomable="yes"}
 
 1. To apply the rule only to specific items in the cart, complete the condition to describe the cart items and/or product attributes that are required for the promotion.
 
    The following example uses the SKU to apply the rule to all associated variations of a configurable product.
 
-   ![Cart price rule - condition for cart items](./assets/buy-3-get-1-actions-condition.png)<!-- zoom -->
+   ![Cart price rule - condition for cart items](./assets/buy-3-get-1-actions-condition.png){width="600" zoomable="yes"}
 
 1. To include **[!UICONTROL Free Shipping]**, choose `For matching items only`.
 

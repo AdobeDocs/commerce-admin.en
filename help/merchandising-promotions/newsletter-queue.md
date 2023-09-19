@@ -2,18 +2,17 @@
 title: Newsletter queues
 description: Learn how to manage newsletter queues for sending multiple newsletter batches.
 exl-id: bf85b3ff-3093-49a1-8a9a-d3ea71fe3f09
+feature: Customers, Communications
 ---
 # Newsletter queues
 
 To manage the load on the server, newsletters with many subscribers are sent in a queue of multiple batches. You can check the newsletter queue periodically to check the status, and see how many have been processed. Any problems that occur during transmission appear on the _Newsletter Problem_ report.
 
-![Newsletter templates - add to newsletter queue](./assets/newsletter-templates-grid.png)<!-- zoom -->
-
 ## Send a newsletter
 
 1. On the _Admin_ menu, go to **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_ > **[!UICONTROL Newsletter Template]**.
 
-1. In the grid, find the template for the newsletter that is to be sent and set the **[!UICONTROL Action]** column to `Queue Newsletter`.
+1. In the grid, find the [newsletter template](newsletter-template.md) that is to be sent and set the **[!UICONTROL Action]** column to `Queue Newsletter`.
 
 1. For **[!UICONTROL Queue Date Start]**, select the date that the transmission is to begin from the calendar (![Calendar icon](../assets/icon-calendar.png)).
 
@@ -29,7 +28,7 @@ To manage the load on the server, newsletters with many subscribers are sent in 
 
       The default name and email address of the sender is specified in the configuration.
 
-      ![Newsletter queue information](./assets/newsletter-queue-information1.png)<!-- zoom -->
+      ![Newsletter queue information](./assets/newsletter-queue-information1.png){width="600" zoomable="yes"}
 
 1. If applicable, enter a note in the **[!UICONTROL Message]** box above the instructions to unsubscribe.
 
@@ -42,8 +41,6 @@ To manage the load on the server, newsletters with many subscribers are sent in 
 1. When complete, click **[!UICONTROL Save and Resume]**.
 
     The newsletter appears in the queue waiting to be processed.
-
-    ![Newsletter queue](./assets/newsletter-queue-saved.png)<!-- zoom -->
 
 ## Check for problems
 

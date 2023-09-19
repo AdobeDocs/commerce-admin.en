@@ -1,11 +1,15 @@
 ---
 title: Add custom variables
-description: Learn how to create custom variables and insert them into pages, blocks, and email templates.
+description: Learn how to create custom variables and insert them into pages, blocks, and product content.
 exl-id: 8233518a-abcf-4889-b75b-4aa503c7cebb
+role: Admin, User
+feature: System, Variables, Page Content, Communications
 ---
 # Add custom variables
 
-To meet the specific needs of your business, you can create custom variables and insert them into [pages](../content-design/pages.md), [blocks](../content-design/blocks.md), and [email templates](email-templates.md). The list of allowed variables that appears when you click the _Insert Variable_ button includes both [predefined](variables-predefined.md) and custom variables. As shown in the following image, the list of available variables for a specific email template is determined by the data that is associated with the template. See the [Variable Reference](variables-reference.md) for a list of frequently used email templates and their associated variables.
+To meet the specific needs of your business, you can create custom variables and insert them into [pages](../content-design/pages.md), [blocks](../content-design/blocks.md), and [email templates](email-templates.md). The list of allowed variables that appears when you click the _Insert Variable_ button includes both [predefined](variables-predefined.md) and custom variables. The list of available variables for a specific email template is determined by the data that is associated with the template. See the [Variable Reference](variables-reference.md) for a list of frequently used email templates and their associated variables.
+
+![Custom variables](./assets/variables-custom.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -16,8 +20,6 @@ To meet the specific needs of your business, you can create custom variables and
 1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Other Settings]_ > **[!UICONTROL Custom Variables]**.
 
 1. Click **[!UICONTROL Add New Variable]**.
-
-   ![Custom variables](./assets/variables-custom.png)<!-- zoom -->
 
 1. Enter an identifier for **[!UICONTROL Variable Code]**, using all lowercase characters without spaces.
 
@@ -35,43 +37,23 @@ To meet the specific needs of your business, you can create custom variables and
 
       `This unformatted content appears in place of the variable.`
 
-   >[!NOTE]
+   >[!TIP]
    >
    >If you need more room, drag the lower-right corner of the text box.
 
-   ![New custom variable](./assets/variable-custom-add.png)<!-- zoom -->
+   ![New custom variable](./assets/variable-custom-add.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save]**.
 
-## Step 2: Insert the custom variable
+## Step 2: Insert the custom variable in your content
 
-### Example - insert a variable into a page
+Use [!DNL Page Builder] to insert a custom variable.
 
-![Magento Open Source](../assets/open-source.svg) (Magento Open Source)
-
-1. Open the CMS page or block where the variable is to appear.
-
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Content]** section and click **[!UICONTROL Show / Hide Editor]** to work in HTML.
-
-1. Position the insertion point in the editor where you want the variable to appear and click **[!UICONTROL Insert Variable]**.
-
-1. Select the option for the custom variable that you want to insert and click **Insert Variable**.
-
-   ![New custom variable](./assets/variable-custom-insert-select.png)<!-- zoom -->
-
-   A command to insert the variable is enclosed in curly braces and added to the code at the cursor location. For example:
-
-   `customVar code=my_custom_variable`
-
-   ![New custom variable](./assets/variable-custom-insert-content.png)<!-- zoom -->
-
-1. When complete, click **[!UICONTROL Save]**.
-
-### Example - Use [!DNL Page Builder] to insert a custom variable
-
-1. Open the page or block where the variable is to appear.
+1. Open the page, block, category, or product where you want to add the variable to the content.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Content]** section.
+
+1. Click **[!UICONTROL Edit with Page Builder]**.
 
 1. In the left panel, click **[!UICONTROL Elements]** and do one of the following:
 
@@ -81,14 +63,14 @@ To meet the specific needs of your business, you can create custom variables and
 
 1. At the far right of the editor toolbar, click ( ![Insert variable](./assets/editor-btn-insert-variable.png) ) to insert a variable.
 
-   ![[!DNL Page Builder] stage and panel](./assets/variable-custom-pagebuilder-stage.png)<!-- zoom -->
+   ![[!DNL Page Builder] stage and panel](./assets/variable-custom-pagebuilder-stage.png){width="600" zoomable="yes"}
 
 1. In the list, select the custom variable that you want to insert and click **[!UICONTROL Insert Variable]**.
 
-   ![New custom variable](./assets/variable-custom-insert-select.png)<!-- zoom -->
+   ![New custom variable](./assets/variable-custom-insert-select.png){width="600" zoomable="yes"}
 
    The variable identifier appears as a placeholder in the editor.
 
-   ![[!DNL Page Builder] stage - variable placeholder](./assets/pagebuilder-variable-inserted.png)<!-- zoom -->
+   ![[!DNL Page Builder] stage - variable placeholder](./assets/pagebuilder-variable-inserted.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save]**.

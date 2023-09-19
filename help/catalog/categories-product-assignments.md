@@ -2,6 +2,7 @@
 title: Category product assignments
 description: Learn about using the [!UICONTROL Products in Category] settings to control which products are currently assigned to the category.
 exl-id: e7ab11c0-2d55-4824-a397-a1c858344d4f
+feature: Catalog Management, Categories, Products
 ---
 # Category product assignments
 
@@ -9,9 +10,9 @@ For a category, use the _[!UICONTROL Products in Category]_ section to review th
 
 >[!TIP]
 >
->During category rule setup, the products are _sorted_, _matched_, _assigned_, and _unassigned_ according to that rule **_only_** when this category is saved. For example, if you add a product to the catalog and want to assign it according to the rule, you **must resave each category** that is set to match products by rule to ensure that the new product is assigned. Also, if any product stock status is changed to `In Stock` or `Out of Stock` and products in the category are _sorted_ according to the **Automatic Sorting** rule, you must click **[!UICONTROL Save Category]**.
+>During category rule setup, the products are _sorted_, _matched_, _assigned_, and _unassigned_ according to that rule **_only_** when this category is saved. To ensure that a new product is assigned according to the rule when you add it to the catalog, you **must resave each category** that is set to match products by rule. Also, if any product stock status is changed to `In Stock` or `Out of Stock` and products in the category are _sorted_ according to the **Automatic Sorting** rule, you must click **[!UICONTROL Save Category]**.
 
-![Category Products](./assets/category-products-in-category.png)<!-- zoom -->
+![Category Products](./assets/category-products-in-category.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -29,7 +30,7 @@ For a category, use the _[!UICONTROL Products in Category]_ section to review th
 
    The automatic sorting and condition options appear.
 
-   ![To Match Products by Rule](./assets/category-match-products-by-rule.png)<!-- zoom -->
+   ![To Match Products by Rule](./assets/category-match-products-by-rule.png){width="600" zoomable="yes"}
 
 1. Set the **[!UICONTROL Automatic Sorting]** order.
 
@@ -46,12 +47,12 @@ For a category, use the _[!UICONTROL Products in Category]_ section to review th
 1. Click **[!UICONTROL Add Condition]** and do the following:
 
    - Choose the **[!UICONTROL Attribute]** that is the basis of the condition.
-   - Choose the **[!UICONTROL Operator]** that is needed to form the expression.
+   - Choose the **[!UICONTROL Operator]** required to form the expression.
    - Enter the **[!UICONTROL Value]** that is to be matched.
 
-   ![Add Condition to Category Rule](./assets/category-rule-create.png)<!-- zoom -->
+   ![Add Condition to Category Rule](./assets/category-rule-create.png){width="600" zoomable="yes"}
 
-   Repeat this process for each attribute that is needed to describe the conditions to be met. For example, to match products that were created from 7 through 30 days ago, do the following:
+   Repeat this process for each attribute to be used to describe the conditions to be met. For example, to match products that were created from 7 through 30 days ago, do the following:
 
    - Set **[!UICONTROL Date Created]** to `Less than 30`.
    - Set **[!UICONTROL Logic]** to `AND`.
@@ -82,7 +83,7 @@ For a category, use the _[!UICONTROL Products in Category]_ section to review th
 
 >[!NOTE]
 >
->The quantity of a configurable product with child options is calculated by combining all the salable child product quantities. For example, if you have a configurable product _Endurance Fitness Tank_ with purple, red, and yellow color options with different quantities of each, the parent product quantity is the combined salable quantity of the purple, red, and yellow color child products.
+>The quantity of a configurable product with child options is calculated by combining all the salable child product quantities. Consider an example of a configurable product _Endurance Fitness Tank_ with purple, red, and yellow color options and different quantities of each. In this scenario, the parent product quantity is the combined salable quantity of the purple, red, and yellow color child products.
 
 ## Controls
 
@@ -108,7 +109,7 @@ For a category, use the _[!UICONTROL Products in Category]_ section to review th
 
 | Control  | Description  |
 |----------|--------------|
-| ![Selected checkbox](../assets/checkbox-selected.png) | Use the checkbox in the header of the first column to select all products or clear all selections. The control in the first row determines the type of search and can be set to include any record, or include only those that are either assigned or not assigned to the category. The checkbox in the first column of each row identifies products to be added to the category. Options: `Yes` / `No` / `Any` |
+| ![Selected checkbox](../assets/checkbox-selected.png) | Use the checkbox in the header of the first column for selecting all products or clearing all selections. The control in the first row determines the type of search and can be set to include any record, or include only the records that are either assigned or not assigned to the category. The checkbox in the first column of each row identifies products to be added to the category. Options: `Yes` / `No` / `Any` |
 | [!UICONTROL Search Filters] | The filter controls at the top of each column can be used to enter specific values you want to either include or omit from the list, depending on the Select All setting. |
 | [!UICONTROL Reset Filter] | Clears all search filters. |
 | [!UICONTROL Search] | Searches the catalog based on the filter criteria and displays the result. |

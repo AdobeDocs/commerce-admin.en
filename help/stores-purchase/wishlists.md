@@ -2,6 +2,7 @@
 title: Wish lists
 description: Learn about wish lists and how they can add to the shopping experience and promote more sales.
 exl-id: 42c73566-0e32-4639-9fa2-d504fa161ebc
+feature: Customers, Storefront
 ---
 # Wish lists
 
@@ -15,11 +16,11 @@ Shared wish lists are sent from a store email address, but the body of the messa
 
 Wish lists can be updated from the dashboard of the [customer account](../customers/account-dashboard.md). Items can be added or transferred between the wish list and cart by the customer or by the store administrator.
 
-![Example storefront - My Wish List](./assets/customer-account-wishlist-add-item.png)<!-- zoom -->
+![Example storefront - My Wish List](./assets/storefront-my-wishlist.png){width="700" zoomable="yes"}
 
 When a product with multiple options is added to a wish list, any options that have been selected by the customer are included in the wish list item description. For example, if the customer adds the same pair of shoes in three different colors, each pair appears as a separate wish list item. However, if the customer adds the same product to the wish list multiple times, the product appears only once, but with the quantity selected from product page.
 
-## Wish list assistance
+## Wish list assistance in the Admin
 
 Customers can [manage their wish lists](wishlist-storefront.md) by logging in to their accounts on the storefront. As a store administrator, you can also manage customer wish lists from the Admin.
 
@@ -27,13 +28,13 @@ Customers can [manage their wish lists](wishlist-storefront.md) by logging in to
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
-1. Find the customer in the list and click **[!UICONTROL Edit]** in the *[!UICONTROL Action]* column.
+1. Find the customer in the list and click **[!UICONTROL Edit]** in the _[!UICONTROL Action]_ column.
 
 1. In the left panel, choose **[!UICONTROL Wish List]** and find the item to be edited in the list.
 
    Any options selected for the product appear below the product name.
 
-   ![Commerce Admin - customer wish list](./assets/customer-wishlist-edit-admin.png)<!-- zoom -->
+   ![Commerce Admin - customer wish list](./assets/customer-wishlist-edit-admin.png){width="600" zoomable="yes"}
 
 1. To edit the product options, do the following:
 

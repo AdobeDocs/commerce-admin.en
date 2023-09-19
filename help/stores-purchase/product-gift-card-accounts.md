@@ -2,16 +2,17 @@
 title: Gift card accounts
 description: Learn about gift card accounts and how to configure the default settings for code pool management.
 exl-id: f8caff04-38fd-4195-ab11-77dae900976d
+feature: Products, Gift, Configuration
 ---
 # Gift card accounts
 
-A gift card account is automatically created for each Gift Card that is purchased. The value of the gift card can then be applied toward the purchase of a product in your store. You can also create gift card accounts from the Admin as a promotion or service for customers. The gift card account number corresponds to the gift card code.
+A gift card account is automatically created for each gift card that is purchased. The value of the gift card can then be applied toward the purchase of a product in your store. You can also create gift card accounts from the Admin as a promotion or service for customers. The gift card account number corresponds to the gift card code.
 
-![Gift Card Accounts](./assets/marketing-gift-card-accounts-grid.png)<!-- zoom -->
+![Gift Card Accounts](./assets/marketing-gift-card-accounts-grid.png){width="700" zoomable="yes"}
 
 ## Configure gift card accounts
 
-The Gift Card configuration establishes the default settings for all gift cards for the store view and manages the code pool. The code pool is a set of unique gift card codes in a specific format. Codes from the pool are used each time a gift card account is created. It is the responsibility of the store administrator to ensure that there are enough codes available for gift card sales. Make sure to generate a code pool before offering gift cards for sale. By default, Adobe Commerce generates 1,000 codes. A new code pool is not generated until there are no more codes available in the current pool.
+The gift card configuration establishes the default settings for all gift cards for the store view and manages the code pool. The code pool is a set of unique gift card codes in a specific format. Codes from the pool are used each time a gift card account is created. It is the responsibility of the store administrator to ensure that there are enough codes available for gift card sales. Make sure to generate a code pool before offering gift cards for sale. By default, Adobe Commerce generates 1,000 codes. A new code pool is not generated until there are no more codes available in the current pool.
 
 ### Step 1: Configure email notifications
 
@@ -25,7 +26,7 @@ The Gift Card configuration establishes the default settings for all gift cards 
 
    - Set **[!UICONTROL Gift Card Notification Email Template]** to the template that is used for the notification.
 
-    ![Gift Card Email Settings](../configuration-reference/sales/assets/gift-cards-gift-card-email-settings.png)<!-- zoom -->
+    ![Gift Card Email Settings](../configuration-reference/sales/assets/gift-cards-gift-card-email-settings.png){width="600" zoomable="yes"}
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the _[!UICONTROL Email Sent from Gift Card Account Management]_ section and do the following:
 
@@ -56,13 +57,13 @@ See [Store Email Addresses](../configuration-reference/general/store-email-addre
    - `Ordered` - The gift card account is created when the order is placed.
    - `Invoiced` - The gift card account is created after payment is captured and the order is invoiced.
 
-   ![Gift Card General Settings](../configuration-reference/sales/assets/gift-cards-gift-card-general-settings.png)<!-- zoom -->
+   ![Gift Card General Settings](../configuration-reference/sales/assets/gift-cards-gift-card-general-settings.png){width="600" zoomable="yes"}
 
 ### Step 3: Establish the gift card code pool
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the _[!UICONTROL Gift Card Account General Settings]_ section and do the following:
 
-   ![Gift Card Account General Settings](../configuration-reference/sales/assets/gift-cards-gift-card-account-general-settings.png)<!-- zoom -->
+   ![Gift Card Account General Settings](../configuration-reference/sales/assets/gift-cards-gift-card-account-general-settings.png){width="600" zoomable="yes"}
 
    - To customize the code, complete the following according to your preference:
 
@@ -84,7 +85,7 @@ See [Store Email Addresses](../configuration-reference/general/store-email-addre
 
 ## Review an existing gift card account
 
-1. If you need to find the number of the gift card account for a current order, do the following:
+1. To find the number of the gift card account for a current order, do the following:
 
     - On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > _[!UICONTROL Operations]_  > **[!UICONTROL Orders]**.
 
@@ -100,15 +101,13 @@ See [Store Email Addresses](../configuration-reference/general/store-email-addre
 
    The gift card code appears at the top of the _Information_ section.
 
-   ![Gift Card Account Information](./assets/gift-card-account-information.png)<!-- zoom -->
+   ![Gift Card Account Information](./assets/gift-card-account-information.png){width="600" zoomable="yes"}
 
 ## Create a gift card account
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_ > **[!UICONTROL Gift Card Accounts]**.
 
 1. At the upper-right corner, click **[!UICONTROL Add Gift Card Account]**.
-
-   ![New Account](./assets/gift-card-account-add-new.png)<!-- zoom -->
 
 1. In the _[!UICONTROL Information]_ section, set **[!UICONTROL Active]** to `Yes` and do the following:
 
@@ -118,11 +117,11 @@ See [Store Email Addresses](../configuration-reference/general/store-email-addre
 
     - Enter the initial **[!UICONTROL Balance]** on the gift card.
 
-    - To set an **[!UICONTROL Expiration Date]** for the gift card, select the date from the calendar ![Calendar icon](../assets/icon-calendar.png).
+    - _(Optional)_ To set an **[!UICONTROL Expiration Date]** for the gift card, select the date from the calendar ![Calendar icon](../assets/icon-calendar.png).
 
       If left blank, the gift card account does not expire.
 
-    ![Gift Card Information](./assets/marketing-gift-card-accounts-new-information.png)<!-- zoom -->
+      ![New Account](./assets/gift-card-account-add-new.png){width="600" zoomable="yes"}
 
 1. In the left panel, choose **[!UICONTROL Send Gift Card]** and do the following:
 
@@ -132,7 +131,7 @@ See [Store Email Addresses](../configuration-reference/general/store-email-addre
 
     - Set **[!UICONTROL Send Email from the Following Store View]** to the store view that appears as the sender of the gift card notification.
 
-    ![Send Gift Card Settings](./assets/marketing-gift-card-accounts-new-send.png)<!-- zoom -->
+    ![Send Gift Card Settings](./assets/marketing-gift-card-accounts-new-send.png){width="600" zoomable="yes"}
 
 1. Do one of the following to save the new account:
 
@@ -148,7 +147,7 @@ See [Store Email Addresses](../configuration-reference/general/store-email-addre
 
 1. The **[!UICONTROL History]** of the gift card is displayed.
 
-   ![Gift Card History](./assets/gift-card-history.png)<!-- zoom -->
+   ![Gift Card History](./assets/gift-card-history.png){width="600" zoomable="yes"}
 
 |Column|Description|
 |--- |--- |

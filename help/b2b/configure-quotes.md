@@ -1,9 +1,11 @@
 ---
-title: Configure Quotes
+title: Configure quotes
 description: Learn about quote configuration, which controls the minimum required order amount for quote requests, the quote lifetime, and file attachments.
 exl-id: 865f6624-df9b-4f78-abfa-1f9a3d82bc0d
+feature: B2B, Companies, Configuration, Quotes
+role: Admin
 ---
-# Configure Quotes
+# Configure quotes
 
 If quotes are enabled in the general [B2B features](enable-basic-features.md), you can configure support for quotes in the Admin. The quote configuration determines the minimum required order amount for quote requests, the quote lifetime, and the supported file formats for attached files. 
 
@@ -17,7 +19,7 @@ If quotes are enabled in the general [B2B features](enable-basic-features.md), y
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL General]** section and do the following:
 
-   ![Sales quotes configuration - general](./assets/quotes-general.png)<!-- zoom -->
+   ![Sales quotes configuration - general](./assets/quotes-general.png){width="700" zoomable="yes"}
 
    See [Quotes](../configuration-reference/sales/quotes.md) in the _Configuration Reference_ for a full list of Quotes feature options and their functions.
 
@@ -39,6 +41,6 @@ If quotes are enabled in the general [B2B features](enable-basic-features.md), y
 
       The value you enter might be overridden by the server setting.
 
-      ![Sales quotes configuration - attached files](./assets/quotes-attached-files.png)<!-- zoom -->
+      ![Sales quotes configuration - attached files](./assets/quotes-attached-files.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Config]**.

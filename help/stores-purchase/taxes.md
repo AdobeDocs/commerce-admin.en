@@ -2,6 +2,7 @@
 title: Taxes
 description: Learn how to configure your store to calculate taxes according to the requirements of your locale.
 exl-id: bf807132-416f-497a-82c4-b00dba4d3092
+feature: Taxes
 ---
 # Taxes
 
@@ -57,7 +58,7 @@ The possible display fields vary depending on the calculation method and whether
 
 ### Tax amounts as line items
 
-To display two different tax amounts as separate line items, such as GST and PST for Canadian stores, you must set different priorities for the related tax rules. However, in previous tax calculations, taxes with different priorities would automatically be compounded. To correctly display separate tax amounts without an incorrect compounding of the tax amounts, you can set different priorities, and also select the Calculate off subtotal only checkbox. This produces correctly calculated tax amounts that appear as separate line items.
+To display two different tax amounts as separate line items, such as GST and PST for Canadian stores, you must set different priorities for the related tax rules. However, in previous tax calculations, taxes with different priorities would automatically be compounded. To correctly display separate tax amounts without an incorrect compounding of the tax amounts, you can set different priorities, and also select the _Calculate off subtotal only_ checkbox. This setting produces correctly calculated tax amounts that appear as separate line items.
 
 ## Warning messages
 
@@ -103,5 +104,5 @@ Additional resources:
 - [European Commission Taxation and Customs Union ][1]
 - [EU 1015 Place of Supply Changes][2]
 
-[1]: https://taxation-customs.ec.europa.eu/taxation/vat/how_vat_works/vat_on_services/index_en.html
+[1]: https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm
 [2]: https://www2.deloitte.com/global/en/services/tax.html

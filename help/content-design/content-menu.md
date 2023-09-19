@@ -1,11 +1,11 @@
 ---
-title: '[!UICONTROL Content] Menu'
+title: '[!UICONTROL Content] menu'
 description: Use the [!UICONTROL Content] menu to access multiple features for managing the content in your store.
 exl-id: 4e149836-f13c-4240-8700-882f2fc1619a
 ---
-# Content Menu
+# [!UICONTROL Content] menu
 
-![The [!UICONTROL Content] menu displayed in the Admin](./assets/admin-menu-content-ee.png)<!-- zoom -->
+![The [!UICONTROL Content] menu displayed in the Admin](./assets/admin-menu-content.png){width="400" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -17,7 +17,7 @@ On the _Admin_ sidebar, choose **[!UICONTROL Content]**.
 
 ## [!UICONTROL Elements]
 
-- Create [pages](pages.md) with text, images, blocks, variables, and widgets, that can be incorporated into the navigation of your store and can be linked to other pages.
+- Create [pages](pages.md) with text, images, blocks, variables, and widgets. Your pages can be incorporated into the navigation of your store and can be linked to other pages.
 - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Organize your pages into a [hierarchy](page-hierarchy.md) with navigation.
 - Create [blocks](blocks.md) of content without writing any code. Blocks can contain text, images, and even video, and can be assigned to any part of the page layout.
 - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Create [dynamic blocks](dynamic-blocks.md) to incorporate rich, interactive content that is driven by logic from [price rules](../merchandising-promotions/introduction.md#promotions) and [customer segments](../customers/customer-segments.md).

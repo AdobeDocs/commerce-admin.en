@@ -2,6 +2,7 @@
 title: Cash on delivery (COD)
 description: Learn how to set up cash on delivery as an offline method of payment on your store.
 exl-id: dcf94734-a66e-4d32-b389-b47c979ceaa9
+feature: Payments
 ---
 # Cash on delivery (COD)
 
@@ -17,7 +18,7 @@ The shipping carrier receives payment from the customer at the time of delivery,
 
 1. Under _Other Payment Methods_, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Cash On Delivery Payment]** section.
 
-   ![Cash on Delivery Payment](../configuration-reference/sales/assets/payment-methods-cash-on-delivery-payment.png)<!-- zoom -->
+   ![Cash on Delivery Payment](../configuration-reference/sales/assets/payment-methods-cash-on-delivery-payment.png){width="600" zoomable="yes"}
 
    For a detailed description of each of these configuration settings, see [Cash On Delivery Payment](../configuration-reference/sales/payment-methods.md#cash-on-delivery-payment) in the _Configuration Reference Guide_.
 
@@ -27,7 +28,7 @@ The shipping carrier receives payment from the customer at the time of delivery,
 
 1. To activate cash on delivery payment, set **[!UICONTROL Enabled]** to `Yes`.
 
-1. Enter a **[!UICONTROL Title]** to identify the COD payment method during checkout.
+1. For **[!UICONTROL Title]**, enter a title that identifies the COD payment method during checkout.
 
 1. Set **[!UICONTROL New Order Status]** to `Pending` until receipt of payment is confirmed.
 
@@ -46,8 +47,8 @@ The shipping carrier receives payment from the customer at the time of delivery,
    >
    >An order qualifies if the total is between, or matches, the minimum or maximum order total.
 
-1. Enter a **[!UICONTROL Sort Order]** number to determine the position of this item in the list of payment methods that is displayed during checkout.
+1. For **[!UICONTROL Sort Order]**, enter a number that determines the position of this item in the list of payment methods that is displayed during checkout.
 
-   This is relative to the other payment methods. (`0` = first, `1` = second, `2` = third, and so on.)
+   This number is relative to the other payment methods. (`0` = first, `1` = second, `2` = third, and so on.)
 
 1. When complete, click **[!UICONTROL Save Config]**.

@@ -1,13 +1,13 @@
 ---
-title: Add Blocks
+title: Add content blocks
 description: Create custom blocks of content that you can reuse in any page or within another block.
 exl-id: 2f104d77-a1d1-4f10-82ce-014955fe560b
 ---
-# Add Blocks
+# Add content blocks
 
 Custom blocks of content can be created, and then added to any page, group of pages, or even to another block. For example, you might place an image slider in a block, and then place the block on the home page. The Blocks workspace uses the same [basic controls](pages-workspace.md) as the _Pages_ workspace to help you find available blocks and perform routine maintenance. When the block is complete, you can use the [Widget](widget-static-block.md) tool to place it on specific pages in your store.
 
-![The Blocks page displays a grid of existing blocks](./assets/blocks-workspace.png)<!-- zoom -->
+![The Blocks page displays a grid of existing blocks](./assets/blocks-workspace.png){width="700" zoomable="yes"}
 
 ## Create a block
 
@@ -15,8 +15,7 @@ Custom blocks of content can be created, and then added to any page, group of pa
 
 1. In the upper-right corner, click **Add New Block**.
 
-   ![The New Block page displays options and a content space](./assets/block-detail.png)<!-- zoom -->
-   _Block detail information_
+   ![The New Block page displays options and a content space](./assets/block-detail.png){width="500" zoomable="yes"}
 
 1. If you want to change the default-enabled status of the new block, set **Enable Block** to `No`.
 
@@ -30,9 +29,9 @@ Custom blocks of content can be created, and then added to any page, group of pa
 
 1. Add the content for the block using the displayed content tool set:
 
-   - If [Page Builder](../page-builder/introduction.md) is enabled, the content [workspace](../page-builder/workspace.md) includes the Page Builder tools.
+   - If [Page Builder](../page-builder/introduction.md) is enabled, select **[!UICONTROL Edit with Page Builder]** to use the Page Builder tools in the content [workspace](../page-builder/workspace.md).
 
-      ![Page Builder workspace](./assets/pb-workspace-block.png)<!-- zoom -->
+      ![Page Builder workspace](./assets/pb-workspace-block.png){width="500" zoomable="yes"}
 
       >[!NOTE]
       >
@@ -42,11 +41,9 @@ Custom blocks of content can be created, and then added to any page, group of pa
 
       If you prefer to work with HTML code, click **Show / Hide Editor**.
 
-      ![Block editor (hidden)](./assets/block-editor-hidden.png)<!-- zoom -->
+      ![Block editor (hidden)](./assets/block-editor-hidden.png){width="500" zoomable="yes"}
 
 1. When complete, click the **[!UICONTROL Save]** arrow and choose **[!UICONTROL Save & Close]**.
-
-   ![The Save menu displays a Save and Close option](./assets/cms-new-block-save-and-close.png)<!-- zoom -->
 
    The new block appears at the bottom of the list in the Blocks grid.
 
@@ -54,7 +51,7 @@ Custom blocks of content can be created, and then added to any page, group of pa
 
 ## Delete a block
 
-There are two ways to remove created block. You can remove it from _Blocks_ grid, or from the edit block page.
+There are two ways to remove a custom block. You can remove it from the _Blocks_ grid, or from the edit block page.
 
 ### Method 1: Remove a block from the Blocks grid
 
@@ -85,13 +82,10 @@ There are two ways to remove created block. You can remove it from _Blocks_ grid
 
 - It is easy to add a [slider](../page-builder/slider.md) to your store with [[!DNL Page Builder]](../page-builder/introduction.md). The slider can be set to play automatically, or controlled manually with navigation buttons.
 
-   ![Page Builder slider](./assets/pb-tutorial3-slider-tee-shirt-promo.png)<!-- zoom -->
+   ![Page Builder slider](./assets/pb-tutorial3-slider-tee-shirt-promo.png){width="600" zoomable="yes"}
 
    There is also a wide assortment of jQuery-based image lightboxes available on [[!DNL Commerce Marketplace]][1], and some are free.
 
 - You can also download an extension from [!DNL Commerce Marketplace]. For additional help, see the documentation provided by the extension developer.
 
-   ![Slider extensions](./assets/marketplace-sliders.png)<!-- zoom -->
-
 [1]: https://marketplace.magento.com/extensions.html?q=lightbox
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html/

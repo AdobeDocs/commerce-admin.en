@@ -2,6 +2,7 @@
 title: Markup tags
 description: Learn about markup tags that contain snippets of code to reference an object in your store.
 exl-id: 0d6f5a9b-983d-473e-b641-0dceba40974f
+feature: Page Content, Communications, Variables
 ---
 # Markup tags
 

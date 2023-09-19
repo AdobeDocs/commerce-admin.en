@@ -2,18 +2,19 @@
 title: Ship an order
 description: Learn how to complete the shipping information for a processing order, and view shipment and tracking information.
 exl-id: 60b0e66a-8ee6-4091-94ce-179cc2fdf57a
+feature: Orders, Shipping/Delivery
 ---
 # Ship an order
 
 An order that has been paid, but is awaiting shipment has the `Processing` status. The shipment record contains a detailed history of the fulfillment process associated with the order. Partial shipments can be made until the order is fulfilled.
 
-1. On the _Admin_ menu, select **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
+1. On the _Admin_ sidebar, select **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. In the _[!UICONTROL Orders]_ list, find the order to be shipped and click to open it.
 
 1. In the upper-right corner, click the **[!UICONTROL Ship]** button.
 
-1. If you need to update the billing or shipping address, click the **[!UICONTROL Edit]** link in the upper-right corner of the section. 
+1. If you want to update the billing or shipping address, click the **[!UICONTROL Edit]** link in the upper-right corner of the section. 
 
    Make the necessary changes, and click **[!UICONTROL Save Order Address]**.
 
@@ -51,7 +52,7 @@ An order that has been paid, but is awaiting shipment has the `Processing` statu
 
 ## View the shipment detail
 
-1. On the Admin menu, select **[!UICONTROL Sales]** > **[!UICONTROL Shipments]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > **[!UICONTROL Shipments]**.
 
 1. Find the shipment in the list, and click to open the record.
 

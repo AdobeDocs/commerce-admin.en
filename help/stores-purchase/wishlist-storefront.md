@@ -2,16 +2,17 @@
 title: Wish list storefront experience
 description: Learn about the wish list management tools available to your customers on the storefront.
 exl-id: df8cf89a-c897-4a9a-9e84-3bae946683a4
+feature: Customers, Storefront
 ---
 # Wish list storefront experience
 
 A wish list is a convenient way for customers to recall products that they like, but are not ready to buy. Items from a wish list can be shared with others or added to the shopping cart. If the customer has multiple wish lists, the name of the current wish list appears at the top of the page. Customers can manage their wish lists from their account dashboard. Store administrators can also help customers manage their wish lists from the Admin.
 
-![Example storefront - My Wish List](./assets/storefront-my-wishlist.png)<!-- zoom -->
+![Example storefront - My Wish List](./assets/storefront-my-wishlist.png){width="700" zoomable="yes"}
 
 ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce supports the use of multiple wish lists per customer account.
 
-![Magento Open Source](../assets/open-source.svg) Magento Open Source supports the use of a single wish list per customer account.
+![Magento Open Source](../assets/open-source.svg) The Magento Open Source code base supports the use of a single wish list per customer account.
 
 ## Create a wish list
 
@@ -35,7 +36,7 @@ In the storefront, a customer can create a wish list from their account dashboar
 
 1. When complete, click **[!UICONTROL Save]**.
 
-   ![Create New Wish List](./assets/account-dashboard-wishlist-create-new.png)<!-- zoom -->
+   ![Create New Wish List](./assets/account-dashboard-wishlist-create-new.png){width="700" zoomable="yes"}
 
 ### Method 2: From the catalog page
 
@@ -43,7 +44,7 @@ In the storefront, a customer can create a wish list from their account dashboar
 
 1. Hovers over the product.
 
-1. Clicks the arrow next to the _Add to Wish List_ icon and selects the **[!UICONTROL Create New Wish List]**.
+1. The customer clicks the arrow next to the _Add to Wish List_ icon and selects the **[!UICONTROL Create New Wish List]**.
 
 1. Enters the wish list name.
 
@@ -63,7 +64,7 @@ In the storefront, a customer can create a wish list from their account dashboar
 
 1. When complete, clicks **[!UICONTROL Save]**.
 
-   ![Create New Wish List from the Product Detail page](./assets/account-dashboard-wishlist-create-from-pdp.png)<!-- zoom -->
+   ![Create New Wish List from the Product Detail page](./assets/account-dashboard-wishlist-create-from-pdp.png){width="700" zoomable="yes"}
 
 ### Method 4: From the shopping cart
 
@@ -77,7 +78,7 @@ In the storefront, a customer can create a wish list from their account dashboar
 
 1. When complete, clicks **[!UICONTROL Save]**.
 
-![Create New Wish List from the Shopping Cart page](./assets/account-dashboard-wishlist-create-from-cart.png)<!-- zoom -->
+![Create New Wish List from the Shopping Cart page](./assets/account-dashboard-wishlist-create-from-cart.png){width="700" zoomable="yes"}
 
 ## Update the product listing
 
@@ -85,7 +86,7 @@ In the storefront, a customer can create a wish list from their account dashboar
 
 1. To add a **[!UICONTROL Comment]** about the product, enters the text in the box below the price.
 
-    ![Edit Options](./assets/account-dashboard-wishlist-edit-options.png)<!-- zoom -->
+    ![Edit Options](./assets/account-dashboard-wishlist-edit-options.png){width="700" zoomable="yes"}
 
 1. To change the selection of product options, clicks **[!UICONTROL Edit]** and does the following:
 
@@ -102,8 +103,6 @@ In the storefront, a customer can create a wish list from their account dashboar
 
 ## Share the wish list
 
-![My Wish List](./assets/account-dashboard-wishlist.png)<!-- zoom -->
-
 1. The customer clicks **[!UICONTROL Share Wishlist]**.
 
 1. Enters the email address of each person who is to receive the wish list, separated by a comma.
@@ -112,15 +111,15 @@ In the storefront, a customer can create a wish list from their account dashboar
 
 1. Clicks **[!UICONTROL Share Wish List]**.
 
-   ![Share Your Wish List](./assets/account-dashboard-wishlist-sharing.png)<!-- zoom -->
+   ![Share Your Wish List](./assets/account-dashboard-wishlist-sharing.png){width="700" zoomable="yes"}
 
    The message is sent from your primary [store contact](../getting-started/store-details.md#store-email-addresses) and includes a thumbnail image of each product, with links to your store.
 
-   ![Shared Wish List Email](./assets/account-dashboard-wishlist-sharing-email.png)<!-- zoom -->
+   ![Shared Wish List Email](./assets/account-dashboard-wishlist-sharing-email.png){width="500" zoomable="yes"}
 
 ## Edit wish lists
 
-![Example storefront - My Wish List](./assets/storefront-customer-wishlist-edit.png)<!-- zoom -->
+Customers can modify their wish list in multiple ways from their account dashboard.
 
 ### Move items to a different list
 
@@ -157,24 +156,6 @@ In the storefront, a customer can create a wish list from their account dashboar
 >[!IMPORTANT]
 >
 >This action cannot be undone.
-
-## Share a wish list
-
-1. In the left panel of the customer account dashboard, the customer chooses **[!UICONTROL My Wish List]**.
-
-1. To add a comment to an item, hovers over the image and enter your **[!UICONTROL Comment]** in the box.
-
-1. To share the wish list, does the following:
-
-   - Clicks **[!UICONTROL Share My Wish List]**.
-
-   - Enters the email address of each recipient, separated by a comma.
-
-   - Enters a **[!UICONTROL Message]** for the body of the email.
-
-1. When they are ready to send the message, clicks **[!UICONTROL Share Wish List]**.
-
-   ![Example storefront - share wish list](./assets/storefront-wishlist-sharing.png)<!-- zoom -->
 
 ## Transfer wish list items to the cart
 

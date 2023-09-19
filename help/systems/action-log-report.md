@@ -2,6 +2,7 @@
 title: Action Logs report
 description: Learn how to view, filter, and export the Actions Log report, which provides a detailed record of all log-enabled Admin actions.
 exl-id: f2be5852-9185-4f14-b0bb-44d779b40819
+feature: Logs, Data Import/Export
 ---
 # Action Logs report
 
@@ -29,11 +30,11 @@ The Action Logs Report includes the following information:
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Actions Logs]_ > **[!UICONTROL Report]**.
 
-   ![Action logs](./assets/action-log-report.png)<!-- zoom -->
+   ![Action logs](./assets/action-log-report.png){width="600" zoomable="yes"}
 
 1. To view the full details of a listed admin action, click **[!UICONTROL View]**.
 
-   ![Action log entry details](./assets/action-log-report-view.png)<!-- zoom -->
+   ![Action log entry details](./assets/action-log-report-view.png){width="600" zoomable="yes"}
 
 ## Filter the Action Logs report
 
@@ -41,7 +42,7 @@ You can define the filter options fields and then click **[!UICONTROL Search]** 
 
 To clear the filter options and return to the full report, click **[!UICONTROL Reset Filter]**.
 
-![Action log report filters](./assets/action-log-report-filters.png)<!-- zoom -->
+![Action log report filters](./assets/action-log-report-filters.png){width="600" zoomable="yes"}
 
 |Field|description|
 |--- |--- |
@@ -67,4 +68,4 @@ To clear the filter options and return to the full report, click **[!UICONTROL R
 
    The generated file is automatically saved to your designated folder for downloads.
 
-   ![Action logs report export](./assets/action-log-report-export.png)<!-- zoom -->
+   ![Action logs report export](./assets/action-log-report-export.png){width="200"}

@@ -5,9 +5,9 @@ exl-id: b9d8ea6b-5b4b-42af-b74d-7afa48ccf2ff
 ---
 # [!UICONTROL Stores] menu
 
-The _[!UICONTROL Stores]_ menu provides access to settings that are used less frequently, but referenced throughout your Adobe Commerce or Magento Open Source installation. This includes setting up the store hierarchy, configuration, sales and order settings, tax and currency, product attributes, product review ratings, and customer groups.
+The _[!UICONTROL Stores]_ menu provides access to settings that are used less frequently, but referenced throughout your Adobe Commerce or Magento Open Source installation. These functions include setting up the store hierarchy, configuration, sales and order settings, tax and currency, product attributes, product review ratings, and customer groups.
 
-![Admin - Stores menu](./assets/stores-menu.png)<!-- zoom -->
+![Admin - Stores menu](./assets/stores-menu.png){width="500" zoomable="yes"}
 
 ## Display the [!UICONTROL Stores] menu
 

@@ -2,14 +2,17 @@
 title: United Parcel Service (UPS)
 description: Learn how to set up UPS as a shipping carrier for your store.
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
+feature: Shipping/Delivery
 ---
 # United Parcel Service (UPS)
 
 United Parcel Service (UPS) offers domestic and international shipping services by land and air to more than 220 countries.
 
+{{ups-api}}
+
 >[!NOTE]
 >
->UPS can use [dimensional weight](carriers.md#dimensional-weight) to determine some shipping rates. However, Adobe Commerce and Magento Open Source support only weight-based shipping cost calculation.
+>UPS can use [dimensional weight](carriers.md#dimensional-weight) to determine some shipping rates. However, Adobe Commerce supports only weight-based shipping cost calculation.
 
 ## Step 1: Open a UPS Shipping Account
 
@@ -25,40 +28,39 @@ To offer this shipping method to your customers, you must first open an account 
 
 1. Set **[!UICONTROL Enabled for Checkout]** to `Yes`.
 
-1. For a UPS XML account (default), set **[!UICONTROL UPS Type]** to `United Parcel Service XML` and do the following:
+1. For a UPS REST account (default), do the following:
 
-   - Enter your UPS credentials: **[!UICONTROL User ID]**, **[!UICONTROL Access License Number]** (the 16-digit UPS account `Access Key`), and **[!UICONTROL Password]**
+   - Enter your UPS credentials: UPS ClientID as **[!UICONTROL User ID]**, UPS Client Secret as **[!UICONTROL Password]**
 
    - Set **[!UICONTROL Mode]** to `Live` to send data to the UPS shipping system over a secure connection. (Development mode does not send data over a secure connection.)
 
-   - Verify the **[!UICONTROL Gateway XML URL]** that is required to send requests by XML file.
+   - Verify the **[!UICONTROL Gateway URL]** that is required to send requests. Use a sandbox URL for test mode and a production URL for live requests.
+
+   - Verify the **[!UICONTROL Tracking URL]** that is required to get tracking information. Use a sandbox URL for test mode and a production URL for live requests.
 
    - Set **[!UICONTROL Origin of the Shipment]** to the region where the shipment originates.
 
    - If you have special rates with UPS, set **[!UICONTROL Enable Negotiated Rates]** to `Yes` and enter the six-digit **[!UICONTROL Shipper Number]** assigned to you by UPS.
-
-1. For a standard UPS account, set **[!UICONTROL UPS Type]** to `United Parcel Service` and do the following:
-
-   >[!NOTE]
-   >
-   >The standard United Parcel Service type is scheduled for deprecation. For new configurations, you should use the default  `United Parcel Service XML` type. The XML type is also required to generate [shipping labels](shipping-labels.md).
 
    - Set **[!UICONTROL Live Account]** to one of the following:
 
       - `Yes` - Runs UPS in production mode, and offers UPS as a shipping method to your customers.
       - `No` - Runs UPS in a test mode.
 
-   - In the **[!UICONTROL Gateway URL]** field, enter the URL that is used to calculate UPS shipping rates.
+   >[!NOTE]
+   >
+   >The standard United Parcel Service type is scheduled for deprecation. For new configurations, use the default `United Parcel Service REST` type. The REST type is also required to generate [shipping labels](shipping-labels.md).<br/>
+   >For the 2.4.7 release, **[!UICONTROL UPS Type]**  is removed because `UPS` and `UPS XML` types are scheduled for deprecation and `UPS REST` is the default. The United Parcel Service (UPS) APIs used by the native Adobe Commerce integration are temporarily deprecated because it does not currently support the OAuth 2.0 security model.
 
       >[!IMPORTANT]
       >
-      >UPS is discontinuing support of HTTP, which is used in the current default (system value). Clear the **[!UICONTROL Use system value]** checkbox and modify the URL to use HTTPS. Example: https://www.ups.com/using/services/rave/qcostcgi.cgi
+      >UPS is discontinuing support of HTTP, which is used in the current default (system value). Clear the **[!UICONTROL Use system value]** checkbox and modify the URL to use HTTPS. Example: `https://www.ups.com/using/services/rave/qcostcgi.cgi`
 
 1. For **[!UICONTROL Title]**, enter the name of this shipping option as you want it to appear during checkout.
 
    By default, this field is set to `United Parcel Service`.
 
-   ![Enable UPS](../configuration-reference/sales/assets/delivery-methods-ups1.png)<!-- zoom -->
+   ![Enable UPS](../configuration-reference/sales/assets/delivery-methods-ups1.png){width="600" zoomable="yes"}
 
 ## Step 3: Complete the container description
 
@@ -106,7 +108,7 @@ To offer this shipping method to your customers, you must first open an account 
 
 1. Enter the **[!UICONTROL Minimum Package Weight]** allowed by the carrier.
 
-   ![Container Description](./assets/ups2.png)<!-- zoom -->
+   ![Container Description](./assets/ups2.png){width="600" zoomable="yes"}
 
 ## Step 4: Set up handling fees
 
@@ -126,7 +128,7 @@ The handling fee is optional and appears as an extra charge that is added to the
 
    To enter a percentage, use the decimal format. For example, enter `0.25` for 25%.
 
-   ![Handling Fee](./assets/ups3.png)<!-- zoom -->
+   ![Handling Fee](./assets/ups3.png){width="600" zoomable="yes"}
 
 ## Step 5: Specify allowed methods and applicable countries
 
@@ -144,7 +146,7 @@ The handling fee is optional and appears as an extra charge that is added to the
 
    This text box is preset with a default message, but you can enter a different message that you want to appear if UPS becomes unavailable.
 
-   ![Allowed Methods](./assets/ups4.png)<!-- zoom -->
+   ![Allowed Methods](./assets/ups4.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Ship to Applicable Countries]** to one of the following:
 
@@ -153,10 +155,10 @@ The handling fee is optional and appears as an extra charge that is added to the
 
 1. Set **[!UICONTROL Show Method if Not Applicable]** to one of the following:
 
-   - `Yes` - Lists all available UPS shipping methods during checkout, including those that do not apply to the shipment.
+   - `Yes` - Lists all available UPS shipping methods during checkout, including methods that do not apply to the shipment.
    - `No` - Lists only the UPS shipping methods that are applicable to the shipment.
 
-   ![Applicable Countries](./assets/ups5.png)<!-- zoom -->
+   ![Applicable Countries](./assets/ups5.png){width="600" zoomable="yes"}
 
 1. To create a log file with the details of UPS shipments made from your store, set **[!UICONTROL Debug]** to `Yes`.
 
@@ -176,7 +178,7 @@ The handling fee is optional and appears as an extra charge that is added to the
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) **[!UICONTROL Origin]** on the page and configure the shipping origin address.
 
-   ![Sales configuration - shipping origin address options](./assets/shipping-origin-magento.png)<!-- zoom -->
+   ![Sales configuration - shipping origin address options](./assets/shipping-origin.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Save Config]**.
 

@@ -2,6 +2,7 @@
 title: '[!UICONTROL Customers]  &gt; [!UICONTROL Customer Configuration]'
 description: Review the configurations settings on the [!UICONTROL Customers] &gt; [!UICONTROL Customer Configuration] page of the Commerce Admin.
 exl-id: 596359d7-3891-4e0c-9604-3647032188fd
+feature: Configuration, Customers
 ---
 # [!UICONTROL Customers]  > [!UICONTROL Customer Configuration]
 
@@ -34,6 +35,8 @@ exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 
 ## [!UICONTROL Create New Account Options]
 
+{{beta-updates}}
+
 ![Create New Account Options](./assets/customer-configuration-create-new-account-options.png)<!-- zoom -->
 
 ![Create New Account Options (VAT Fields)](./assets/customer-configuration-create-new-account-options-vat.png)<!-- zoom -->
@@ -50,7 +53,7 @@ exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 |[!UICONTROL Default Welcome Email]|Store View|Identifies the email template used for the default _Welcome_ email.|
 |[!UICONTROL Default Welcome Email Without Password]|Store View|An alternate Welcome email template that is used for new customer accounts created by the Administrator that don't yet have a password assigned.|
 |[!UICONTROL Email Sender]|Store View|Identifies the store contact that appears as the sender of the Welcome email.|
-|[!UICONTROL Require Emails Confirmation]|Website|Determines if a request to create an account requires confirmation from the customer. Options: `Yes` / `No`|
+|[!UICONTROL Require Emails Confirmation]|Website|Determines if a request to create an account requires confirmation from the customer. Options: `Yes` / `No`. <br/><br/> _**Note:**_ Starting from version 2.4.7, customers must reenter their email and password to log in to their account after email confirmation, regardless of the browser.|
 |[!UICONTROL Confirmation Link Email]|Store View|Identifies the email template that is used for the confirmation email. Default template: `New account confirmation key`|
 |[!UICONTROL Welcome Email]|Store View|Identifies the email template that is used for the Welcome message that is sent after the account is confirmed.|
 |[!UICONTROL Generate Human-Friendly Customer ID]|Global|Determines if the field that is used to enter and store the VAT ID number is visible from the storefront. Options: `Yes` / `No`|
@@ -65,7 +68,7 @@ exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|[!UICONTROL Password Reset Protection Type]|Store View|Determines the method used to reset a Customer password. Options: <br/>**`By IP and Email`** - The password can be reset online after a response is received from a reset notification that is sent to the email address associated with the Admin account. <br/>**`By IP`** - The password can be reset online. <br/>**`By Email`** - The password can be reset by responding to an email notification that is sent to the email address associated with the Admin account. <br/>**`None`** - The password can be reset only by the store administrator. |
+|[!UICONTROL Password Reset Protection Type]|Store View|Determines the method used to reset a customer account password. Options: <br/>**`By IP and Email`** - The password can be reset online after a response is received from a reset notification that is sent to the email address associated with the Admin account. <br/>**`By IP`** - The password can be reset online. <br/>**`By Email`** - The password can be reset by responding to an email notification that is sent to the email address associated with the Admin account. <br/>**`None`** - The password can be reset only by the store administrator. |
 |[!UICONTROL Max Number of Password Reset Requests]|Store View|Limits the number of password reset requests per hour. For unlimited requests, enter zero (0).|
 |[!UICONTROL Min Time Between Password Reset Requests]|Store View|Determines the number of minutes between password reset requests. For no delay between requests, enter zero (0).|
 |[!UICONTROL Forgot Email Template]|Store View|Identifies the email template that is used when customers forget their passwords. Default template: `Forgot Password`|
@@ -75,9 +78,9 @@ exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 |[!UICONTROL Recovery Link Expiration Period (hours)]|Global|Specifies the number of hours before a password recovery link expires.|
 |[!UICONTROL Enable Autocomplete on login/forgot password forms]|Website|Determines if autocomplete is enabled on login/forgot password forms. Options: `Yes` / `No`|
 |[!UICONTROL Number of Required Character Classes]|Global|Determines the number of different character classes (lowercase, uppercase, numeric, and special characters) that must be included in a password.|
-|[!UICONTROL Maximum Login Failures to Lockout Account]|Global|Determines the number failed login attempts until the Admin account is locked. For unlimited attempts, enter zero (`0`).|
+|[!UICONTROL Maximum Login Failures to Lockout Account]|Global|Determines the number failed login attempts until the customer account is locked. For unlimited attempts, enter zero (`0`).|
 |[!UICONTROL Minimum Password Length]|Global|Determines the minimum number of characters allowed in a password. The number must be greater than zero (`0`).|
-|[!UICONTROL Lockout Time (minutes)]|Global|Determines the number of minutes an Admin account is locked after too many failed attempts to log in.|
+|[!UICONTROL Lockout Time (minutes)]|Global|Determines the number of minutes a customer account is locked after too many failed attempts to log in.|
 
 {:style="table-layout:auto"}
 

@@ -2,6 +2,7 @@
 title: Layered navigation
 description: Learn how layered navigation makes it easy for shoppers to find products based on category, price range, or any other available attribute.
 exl-id: 5f17528a-3593-449c-a044-98736a4ae913
+feature: Catalog Management, Categories, Site Navigation
 ---
 # Layered navigation
 
@@ -11,7 +12,7 @@ exl-id: 5f17528a-3593-449c-a044-98736a4ae913
 
 Layered navigation makes it easy to find products based on category, price range, or any other available attribute. Layered navigation usually appears in the left column of search results and category pages and sometimes on the home page. The standard navigation includes a _Shop By_ list of categories and price range. You can configure the display of layered navigation, including product count and price range.
 
-![Layered navigation by category and price](./assets/navigation-layered-basic.png)<!-- zoom -->
+![Layered navigation by category and price](./assets/navigation-layered-basic.png){width="700" zoomable="yes"}
 
 ## Filterable attributes
 
@@ -23,9 +24,13 @@ Layered navigation can be used to search for products by category or by attribut
 
 The attribute properties, combined with the product input type, determine which attributes can be used for layered navigation. Layered navigation is available only for [_anchor_](categories-display-settings.md) categories, but can also be added to search results pages. The **Catalog Input Type for Store Owner** property of each attribute must be set to `Yes/No`, `Dropdown`, `Multiple Select`, or `Price`. To make the attributes filterable, the **Use in Layered Navigation** property of each must be set to either `Filterable (with results)` or `Filterable (no results)`.
 
-![Filterable attributes in layered navigation](./assets/storefront-layered-navigation-filtered.png)<!-- zoom -->
+_Example: Filterable attributes with results_
 
-![Filterable swatch value with no results](./assets/storefront-product-attribute-filter-no-results.png)<!-- zoom -->
+![Filterable attributes in layered navigation](./assets/storefront-layered-navigation-filtered.png){width="700" zoomable="yes"}
+
+_Example: Filterable swatch values displayed with no result_
+
+![Filterable swatch value with no results](./assets/storefront-product-attribute-filter-no-results.png){width="700" zoomable="yes"}
 
 The following instructions show how to set up basic layered navigation with filterable attributes. For advanced layered navigation with price steps, see [Price Navigation](navigation-layered.md#configure-price-navigation).
 
@@ -35,23 +40,27 @@ The following instructions show how to set up basic layered navigation with filt
 
 1. Browse or use filtered search to find an attribute in the list and open it in edit mode.
 
-   ![Enter search terms per column to use filtered search](./assets/attribute-search.png)<!-- zoom -->
+   ![Enter search terms per column to use filtered search](./assets/attribute-search.png){width="700" zoomable="yes"}
 
 1. In the left panel, choose **[!UICONTROL Storefront Properties]** and set **[!UICONTROL Use In Layered Navigation]** to one of the following:
 
-   - `Filterable (with results)` - Layered navigation includes only those filters for which matching products can be found. Any attribute value that already applies to all products shown in the list should still appear as an available filter. Attribute values with a count of zero (0) product matches are omitted from the list of available filters. The filtered list of products includes only those that match the filter. The products list is updated only if the selected filters change what is shown.
+   - `Filterable (with results)` - Layered navigation includes only those filters for which matching products can be found. Any attribute value that already applies to all products shown in the list should still appear as an available filter. Attribute values with a count of zero (0) product matches are omitted from the list of available filters. The filtered list includes only the products that match the filter. The products list is updated only if the selected filters change what is shown.
 
-   - `Filterable (no results)` - Layered navigation includes filters for all available attribute values and their product counts, including those with zero (0) product matches. If the attribute value is a swatch, the value appears as a filter, but is crossed out. Price-layered filtering is not supported by this option, and does not affect Price filters.
+   - `Filterable (no results)` - Layered navigation includes filters for all available attribute values and their product counts, including products with zero (0) product matches. If the attribute value is a swatch, the value appears as a filter, but is crossed out. Price-layered filtering is not supported by this option, and does not affect Price filters.
 
 1. Set **[!UICONTROL Use In Search Results Layered Navigation]** to `Yes`.
 
-   ![Storefront properties](./assets/attribute-storefront-properties.png)<!-- zoom -->
+   ![Storefront properties](./assets/attribute-storefront-properties.png){width="600" zoomable="yes"}
 
 1. Repeat these steps for each attribute that you want to include in layered navigation.
 
 >[!NOTE]
 >
->The [!UICONTROL Position] field is dimmed by default. You must save the attribute before you can modify this setting.
+>When the _[!UICONTROL Use in Search]_ setting is set to `No`, the _[!UICONTROL Use in Search Results Layered Navigation]_ setting is not displayed and the product attribute is not used in the search with any [!UICONTROL Use in Layered Navigation] setting value.
+
+>[!NOTE]
+>
+>The [!UICONTROL Position] field is dimmed by default, so you must save the attribute before you can modify this setting.
 
 ## Step 2: Make the category an anchor
 
@@ -61,9 +70,9 @@ The following instructions show how to set up basic layered navigation with filt
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Display Settings]** section and set **[!UICONTROL Anchor]** to `Yes`.
 
-1. click **[!UICONTROL Save]**.
+   ![Category Display Settings](./assets/category-layered-navigation-anchor.png){width="600" zoomable="yes"}
 
-   ![Category Display Settings](./assets/category-layered-navigation-anchor.png)<!-- zoom -->
+1. Click **[!UICONTROL Save]**.
 
 ## Step 3: Test the results
 
@@ -73,11 +82,11 @@ Search, filter, and review the displayed products.
 
 ## Remove filterable attribute values from layered navigation
 
-Layered navigation includes filters for all available attribute values and their product counts, including those with zero (0) product matches (as shown in the following image).
+Layered navigation includes filters for all available attribute values and their product counts, including products with zero (0) product matches (as shown in the following image).
 
-   ![Zero filters displaying](./assets/filterable-attributes-on-plp.png)<!-- zoom -->
+   ![Zero filters displaying](./assets/filterable-attributes-on-plp.png){width="700" zoomable="yes"}
 
-This makes it difficult for customers to select a preferred product, and there is no need to display attribute values ​​with 0 products in the front end.
+This result can make it difficult for customers to select a preferred product, and there is no need to display attribute values ​​with 0 products in the front end.
 
 You can use the following steps to remove filterable attribute values with 0 Products from the layered navigation:
 
@@ -87,9 +96,9 @@ You can use the following steps to remove filterable attribute values with 0 Pro
 
 1. Under _[!UICONTROL Attribute Information]_ , click **[!UICONTROL Storefront Properties]**.
 
-   ![Attribute Information section](./assets/storefront-properties-tab.png)<!-- zoom -->
-
 1. For **[!UICONTROL Layered Navigation]**, choose `Filterable (with results)`.
+
+   ![Attribute Information section](./assets/storefront-properties-tab.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Save Attribute]**.
 
@@ -140,9 +149,9 @@ Iterative splitting provides the best distribution of products among price range
 
    By default, **[!UICONTROL Display Product Count]** is set to `Yes`. If necessary, deselect the **[!UICONTROL Use system value]** checkbox to change this setting.
 
-   ![Layered Navigation](./assets/layered-navigation.png)<!-- zoom -->
+   ![Layered Navigation](../configuration-reference/catalog/assets/layered-navigation.png){width="600" zoomable="yes"}
 
-   For information about these configuration options, see [Layered Navigation](../configuration-reference/catalog/catalog.md#layered-navigation)
+   For a detailed list of these configuration options, see [Layered Navigation](../configuration-reference/catalog/catalog.md#layered-navigation) in the _Configuration Reference_.
 
 1. Set **[!UICONTROL Price Navigation Steps Calculation]** for one of the methods in the following sections.
 
@@ -166,7 +175,7 @@ Leave **[!UICONTROL Price Navigation Steps Calculation]** set to `Automatic (Equ
 
    The range cannot be further split beyond this limit. The default value is `9`.
 
-   ![Automatic (equalize product counts)](./assets/equalize-product-counts.png)<!-- zoom -->
+   ![Automatic (equalize product counts)](../configuration-reference/catalog/assets/layered-navigation-equalize-product-counts.png){width="600" zoomable="yes"}
 
 ### Method 3: Manual
 
@@ -176,11 +185,11 @@ Leave **[!UICONTROL Price Navigation Steps Calculation]** set to `Automatic (Equ
 
 1. Set **[!UICONTROL Price Navigation Steps Calculation]** to `Manual`.
 
-1. Enter a value to determine the **[!UICONTROL Default Price Navigation Step]**.
+1. Enter a value that determines the **[!UICONTROL Default Price Navigation Step]**.
 
 1. Enter the **[!UICONTROL Maximum Number of Price Intervals]** allowed, up to `100`.
 
-   ![Manual](./assets/layered-navigation-manual.png)<!-- zoom -->
+   ![Manual](../configuration-reference/catalog/assets/layered-navigation-manual.png){width="600" zoomable="yes"}
 
 ## Configure layered navigation
 
@@ -195,8 +204,6 @@ The layered navigation configuration determines if a product count appears in pa
 1. In the left panel, expand the _[!UICONTROL Catalog]_ section and choose **[!UICONTROL Catalog]** underneath.
 
 1. Expand the _[!UICONTROL Layered Navigation]_ section.
-
-   ![Layered Navigation](./assets/layered-navigation.png)<!-- zoom -->
 
    >[!NOTE]
    >

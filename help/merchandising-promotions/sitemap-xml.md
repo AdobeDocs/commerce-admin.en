@@ -2,6 +2,7 @@
 title: Site maps
 description: Learn how to configure a site map to index all pages and images of your Commerce sites.
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
+feature: Merchandising, Storefront, Search
 ---
 # Site maps
 
@@ -13,7 +14,7 @@ While your site is in development, you might include instructions in the `robots
 
 For technical information, see [Add sitemap and robots.txt][1] in the _Commerce on Cloud Infrastructure Guide_.
 
-![Sitemap grid](./assets/marketing-sitemap-grid-generated.png)<!-- zoom -->
+![Sitemap grid](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
 ## Step 1. Configure the site map
 
@@ -23,19 +24,19 @@ Complete the [XML Sitemap configuration](#site-map-configuration) to determine 
 
 1. On the _Admin_ menu, go to **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_ > **[!UICONTROL Site Map]**.
 
-1. Click **[!UICONTROL Add Site Map]** and do the following:
+1. Click **[!UICONTROL Add Site Map]**.
 
-    ![Site map grid](./assets/marketing-sitemap.png)<!-- zoom -->
+   ![Site map grid](./assets/marketing-sitemap.png){width="700" zoomable="yes"}
 
-    - Enter the site map **[!UICONTROL Filename]**. For example: `sitemap.xml`
+1. Enter the site map **[!UICONTROL Filename]**. For example: `sitemap.xml`
 
-    - Enter the **[!UICONTROL Path]** to determine where the site map file is to reside on the server. Make sure that the path is writeable.
+1. Enter the **[!UICONTROL Path]** to determine where the site map file is to reside on the server. Make sure that the path is writeable.
 
-      - `/sitemap/` - Places the site map file in a directory called _sitemap_.
+   - `/sitemap/` - Places the site map file in a directory called _sitemap_.
 
-      - `/` - Places the site map file at the base path, or root of your Commerce installation.
+   - `/` - Places the site map file at the base path, or root of your Commerce installation.
 
-   ![New site map](./assets/marketing-sitemap-new.png)<!-- zoom -->
+   ![New site map](./assets/marketing-sitemap-new.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save & Generate]**.
 
@@ -134,7 +135,7 @@ Your site map should be updated as frequently as the content on your site change
 
    - For **[!UICONTROL Priority]**, enter a value between `0.0` and `1.0`. Zero has the lowest priority.
 
-   ![XML sitemap - Categories options](../configuration-reference/catalog/assets/xml-sitemap-categories-options.png)<!-- zoom -->
+   ![XML sitemap - Categories options](../configuration-reference/catalog/assets/xml-sitemap-categories-options.png){width="600" zoomable="yes"}
 
    For a detailed list of these options, see [Categories Options](../configuration-reference/catalog/xml-sitemap.md#categories-options) in the _Configuration Reference_.
 
@@ -148,17 +149,17 @@ Your site map should be updated as frequently as the content on your site change
    - `Base Only`
    - `All`
 
-   ![Catalog configuration - XML sitemap products](../configuration-reference/catalog/assets/xml-sitemap-products-options.png)<!-- zoom -->
+   ![Catalog configuration - XML sitemap products](../configuration-reference/catalog/assets/xml-sitemap-products-options.png){width="600" zoomable="yes"}
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL CMS Pages Options]** section and complete the **[!UICONTROL Frequency]** and **[!UICONTROL Priority]** settings as needed.
 
-   ![Catalog configuration - XML sitemap CMS pages](../configuration-reference/catalog/assets/xml-sitemap-cms-pages-options.png)<!-- zoom -->
+   ![Catalog configuration - XML sitemap CMS pages](../configuration-reference/catalog/assets/xml-sitemap-cms-pages-options.png){width="600" zoomable="yes"}
 
    For a detailed list of these options, see [CMS Pages Options](../configuration-reference/catalog/xml-sitemap.md#cms-pages-options) in the _Configuration Reference_.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Store Url Options]** section and complete the **[!UICONTROL Frequency]** and **[!UICONTROL Priority]** settings as needed.
 
-   ![Catalog configuration - XML sitemap store url](./assets/xml-sitemap.png)<!-- zoom -->
+   ![Catalog configuration - XML sitemap store url](./assets/xml-sitemap.png){width="600" zoomable="yes"}
 
    For a detailed list of these options, see [Store Url Options](../configuration-reference/catalog/xml-sitemap.md#store-url-options) in the _Configuration Reference_.
 
@@ -170,7 +171,7 @@ Your site map should be updated as frequently as the content on your site change
 
    If needed, clear the **Use system value** checkbox to change these settings.
 
-   ![Catalog configuration - XML sitemap generation settings](../configuration-reference/catalog/assets/xml-sitemap-generation-settings.png)<!-- zoom -->
+   ![Catalog configuration - XML sitemap generation settings](../configuration-reference/catalog/assets/xml-sitemap-generation-settings.png){width="600" zoomable="yes"}
 
    For a detailed list of these options, see [Generation Settings](../configuration-reference/catalog/xml-sitemap.md#generation-settings) in the _Configuration Reference_.
 
@@ -194,7 +195,7 @@ Your site map should be updated as frequently as the content on your site change
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Sitemap File Limits]** section.
 
-   ![Catalog configuration - XML sitemap file limits](../configuration-reference/catalog/assets/xml-sitemap-sitemap-file-limits.png)<!-- zoom -->
+   ![Catalog configuration - XML sitemap file limits](../configuration-reference/catalog/assets/xml-sitemap-sitemap-file-limits.png){width="600" zoomable="yes"}
 
    For a detailed list of these options, see [Sitemap File Limits](../configuration-reference/catalog/xml-sitemap.md#sitemap-file-limits) in the _Configuration Reference_.
 
@@ -210,7 +211,7 @@ Your site map should be updated as frequently as the content on your site change
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Search Engine Submission Settings]** section.
 
-   ![Catalog configuration - XML sitemap search engine submission settings](../configuration-reference/catalog/assets/xml-sitemap-search-engine-submission-settings.png)<!-- zoom -->
+   ![Catalog configuration - XML sitemap search engine submission settings](../configuration-reference/catalog/assets/xml-sitemap-search-engine-submission-settings.png){width="600" zoomable="yes"}
 
 1. If using a `robots.txt` file to provide instructions to search engines that crawl your site, set **[!UICONTROL Enable Submission to Robots.txt]** to `Yes`.
 

@@ -2,12 +2,13 @@
 title: Add and remove category products
 description: Learn how to add and remove products from a category.
 exl-id: 3b71028e-8679-425a-9ac7-77bf692d0194
+feature: Catalog Management, Categories, Products
 ---
 # Add and remove category products
 
 From the [Products in Category](categories-product-assignments.md) section, a store administrator can add products to the category. This section lists all the products that are assigned to the category and displays **[!UICONTROL Add Product]** when **[!UICONTROL Match products by rule]** is set to `No`.
 
-![Products in Category section](./assets/category-product.png)<!-- zoom -->
+![Products in Category section](./assets/category-products-in-category.png){width="600" zoomable="yes"}
 
 ## Search for products to add
 
@@ -21,7 +22,7 @@ From the [Products in Category](categories-product-assignments.md) section, a st
 
 1. Use _Search by keyword_ or filters to find the products you want to add.
 
-   ![Search All Products tab](./assets/search-all-product.png)<!-- zoom -->
+   ![Search All Products tab](./assets/search-all-product.png){width="700" zoomable="yes"}
 
 1. In the _[!UICONTROL Assign]_ column, toggle the option to `Yes` for each product that you want to add.
 
@@ -50,7 +51,7 @@ From the [Products in Category](categories-product-assignments.md) section, a st
 
    To discard the changes, click **[!UICONTROL Remove]**.
 
-   ![Add Products by SKU tab](./assets/add-product-by-sku.png)<!-- zoom -->
+   ![Add Products by SKU tab](./assets/add-product-by-sku.png){width="700" zoomable="yes"}
 
 1. To apply your changes, click **[!UICONTROL Save and Close]**.
 

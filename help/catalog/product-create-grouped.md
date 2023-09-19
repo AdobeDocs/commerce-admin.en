@@ -2,6 +2,7 @@
 title: Grouped product
 description: Learn how to create a grouped product that consists of simple standalone products that are presented as a group.
 exl-id: af42b7fc-27f2-4c5a-b504-a70a324fae76
+feature: Catalog Management, Products
 ---
 # Grouped product
 
@@ -13,15 +14,15 @@ Although they are presented as a group, each product in the group is purchased a
 
 The following instructions demonstrate the process of creating a grouped product using a [product template](attribute-sets.md), required fields, and basic settings. Each required field is marked with a red asterisk (`*`). When you finish the basics, you can complete the other product settings as needed.
 
-![Grouped Product](./assets/product-grouped.png)<!-- zoom -->
+![Grouped Product](./assets/product-grouped.png){width="700" zoomable="yes"}
 
 ## Step 1: Choose the product type
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. On the _[!UICONTROL Add Product]_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png)<!-- {: width="25px"} --> ) menu at the upper-right corner, choose **[!UICONTROL Grouped Product]**.
+1. On the _[!UICONTROL Add Product]_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png){width="25"} ) menu at the upper-right corner, choose **[!UICONTROL Grouped Product]**.
 
-   ![Add Grouped Product](./assets/product-add-grouped.png)<!-- zoom -->
+   ![Add Grouped Product](./assets/product-add-grouped.png){width="700" zoomable="yes"}
 
 ## Step 2: Choose the attribute set
 
@@ -32,14 +33,14 @@ To choose the [attribute set](attribute-sets.md) that is used as a template for 
 
 The form is updated to reflect the change.
 
-![Choose Template](./assets/product-grouped-create-choose-attribute-set.png)<!-- zoom -->
+![Choose Template](./assets/product-create-choose-attribute-set.png){width="600" zoomable="yes"}
 
 If the needed attributes do not exist, you can add new attributes while creating a product:
 
 - In the upper-right corner, click **[!UICONTROL Add Attribute]**.
 - Define a new attribute (see [Adding an Attribute to a Product](product-attributes-add.md)).
 
-   ![New Attribute](./assets/product-attribute-add-select.png)<!-- zoom -->
+   ![New Attribute](./assets/product-attribute-add-select.png){width="600" zoomable="yes"}
 
 To add an existing attribute to the product, use the [filter controls](../getting-started/admin-grid-controls.md) to find the attribute in the grid and do the following:
 
@@ -56,13 +57,13 @@ To add an existing attribute to the product, use the [filter controls](../gettin
 
 1. Because the product is not yet ready to publish, set **[!UICONTROL Enable Product]** to `No` ( ![Toggle no](../assets/toggle-no.png) ).
 
-1. click **[!UICONTROL Save]** and continue.
+1. Click **[!UICONTROL Save]** and continue.
 
    When the product is saved, the product name appears at the top of the page, and the [Store View](introduction.md#product-scope) chooser appears in the upper-left corner.
 
 1. Choose the **[!UICONTROL Store View]** where the product is to be available.
 
-   ![Choose Store View](./assets/product-grouped-create-store-view-choose.png)<!-- zoom -->
+   ![Choose Store View](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
 
 ## Step 4: Complete the basic settings
 
@@ -72,7 +73,7 @@ To add an existing attribute to the product, use the [filter controls](../gettin
 
    **Choose an existing category:**
 
-   - Start typing in the box to find a match.
+   - Start typing in the box until you find a match.
 
    - Select the checkbox of the category that is to be assigned.
 
@@ -80,7 +81,7 @@ To add an existing attribute to the product, use the [filter controls](../gettin
 
    - Click **[!UICONTROL New Category]**.
 
-   - Enter the **[!UICONTROL Category Name]** and choose the **[!UICONTROL Parent Category]** to determine its position in the menu structure.
+   - Enter the **[!UICONTROL Category Name]** and choose the **[!UICONTROL Parent Category]**, which determines its position in the menu structure.
 
    - Click **[!UICONTROL Create Category]**.
 
@@ -92,13 +93,11 @@ To add an existing attribute to the product, use the [filter controls](../gettin
 
    There might be additional individual attributes that describe the product. The selection varies attribute set, and you can complete them later.
 
-   ![Grouped Product Details](./assets/product-grouped-details.png)<!-- zoom -->
-
 ## Step 5: Add products to the group
 
 1. Scroll down to the **[!UICONTROL Grouped Products]** section and click **[!UICONTROL Add Products to Group]**.
 
-   ![Grouped Products](./assets/product-grouped-products.png)<!-- zoom -->
+   ![Grouped Products](./assets/product-grouped-products.png){width="600" zoomable="yes"}
 
 1. If necessary, use the [filters](../getting-started/admin-grid-controls.md) to find the products that you want to include in the group.
 
@@ -108,15 +107,15 @@ To add an existing attribute to the product, use the [filter controls](../gettin
    >
    >Only simple, downloadable, and virtual products with no configurable options can be grouped child products. Other product types do not appear in the selection list.
 
-   ![Add Selected Products](./assets/product-grouped-add-products.png)<!-- zoom -->
+   ![Add Selected Products](./assets/product-grouped-add-products.png){width="600" zoomable="yes"}
 
-1. Click **[!UICONTROL Add Selected Products]** to add them to the group.
+1. To add them to the product group, click **[!UICONTROL Add Selected Products]**.
 
    The selected products appear in the _[!UICONTROL Grouped Products]_ section.
 
    For Multi Source merchants with [Inventory Management](../inventory-management/sources-stocks.md), the grid includes a **[!UICONTROL Quantity per Source]** column with each assigned source and inventory stock amount.
 
-   ![Products in Group](./assets/product-grouped-grouped-products-section.png)<!-- zoom -->
+   ![Products in Group](./assets/product-grouped-grouped-products-section.png){width="600" zoomable="yes"}
 
 1. Enter a **[!UICONTROL Default Quantity]** for any of the items.
 
@@ -151,13 +150,11 @@ Complete the information in the following sections as needed:
 
       The store opens in a new browser tab.
 
-      ![Customer View](./assets/product-admin-customer-view.png)<!-- zoom -->
+      ![Customer View](./assets/product-admin-customer-view.png){width="700" zoomable="yes"}
 
    **Method 2:** Save and Close
 
-   - On the _[!UICONTROL Save]_ (![Menu arrow](../assets/icon-menu-down-arrow-red.png)<!-- {: width="25px"} --> ) menu, choose **[!UICONTROL Save & Close]**.
-
-   ![Save & Close](./assets/product-edit-save-close.png)<!-- zoom -->
+   - On the _[!UICONTROL Save]_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png){width="25"} ) menu, choose **[!UICONTROL Save & Close]**.
 
 ## Step 7: Configure the cart thumbnails (optional)
 
@@ -169,11 +166,11 @@ If you have a different image for each product in the group, you can set the con
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Shopping Cart]**.
 
-   ![Shopping Cart](./assets/cart-grouped-product.png)<!-- zoom -->
-
-   For information about these configuration options, see [Shopping Cart](../configuration-reference/sales/checkout.md#shopping-cart) in the _Configuration Reference_.
+   For a detailed list of these configuration options, see [Shopping Cart](../configuration-reference/sales/checkout.md#shopping-cart) in the _Configuration Reference_.
 
 1. Set **[!UICONTROL Grouped Product Image]** to `Product Thumbnail Itself`.
+
+   ![Shopping Cart](./assets/config-sales-cart-grouped-product.png){width="600" zoomable="yes"}
 
    If necessary, deselect the **[!UICONTROL Use system value]** checkbox to set this option.
 

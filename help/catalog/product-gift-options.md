@@ -2,12 +2,13 @@
 title: Product settings - [!UICONTROL Gift Options]
 description: For a product, the [!UICONTROL Gift Options] settings determine if a gift message can be included or if gift-wrapping options are available during checkout.
 exl-id: 21597e38-60f5-45e5-8d99-955d088c5c48
+feature: Catalog Management, Products, Gift
 ---
 # Product settings - [!UICONTROL Gift Options]
 
 In the _[!UICONTROL Gift Options]_ section, you can set gift message and gift-wrapping options at checkout at the product level. To override the default configuration setting, deselect the **[!UICONTROL Use Config Settings]** checkbox.
 
-![Gift Options](./assets/product-gift-options-ee.png)<!-- zoom -->
+![Gift Options](./assets/product-gift-options-ee.png){width="600" zoomable="yes"}
 
 ## Set gift options for a single product
 
@@ -45,4 +46,4 @@ You can provide this feature to customers by enabling _gift message_ for your st
 
 With this configuration, customers can add a gift message to the cart page from storefront as shown in the following example:
 
-![Gift Message](./assets/gift-message.png)<!-- zoom -->
+![Gift Message](./assets/gift-message.png){width="600" zoomable="yes"}

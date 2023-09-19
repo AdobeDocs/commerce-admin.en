@@ -2,6 +2,7 @@
 title: Store localization
 description: Learn how to localize a store or store view.
 exl-id: 64e1b431-f599-444c-9d39-207bb95f0400
+topic: Commerce, Localization
 ---
 # Store localization
 
@@ -11,7 +12,7 @@ Language packs can be found under [Translations & Localization][1]{:target="_bla
 
 ## Step 1: Install a language pack
 
-Follow the standard instructions to install the language pack extension. For detailed information about installing an extension, see [General CLI installation][2] in the *Extensions Guide*.
+Follow the standard instructions for installing the language pack extension. For detailed information about installing an extension, see [General CLI installation][2] in the _Extensions Guide_.
 
 ## Step 2: Create a store view for the language
 
@@ -85,7 +86,7 @@ If your store has multiple views in different languages, the same products are a
 
 1. In the _[!UICONTROL Manage Titles]_ section, enter a translated label for each store view.
 
-   ![Enter Translated Labels](./assets/product-attribute-labels-translate.png)<!-- zoom -->
+   ![Enter Translated Labels](./assets/product-attribute-labels-translate.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Attribute]**.
 
@@ -127,13 +128,11 @@ If your store has multiple views in different languages, the same products are a
 
 1. Select the attribute to be translated.
 
-1. Choose **[!UICONTROL Manage Label]** on the left and set the **[!UICONTROL Managed Titles]** options to define the attribute title translations.
-
-   ![Manage Titles](./assets/manage-label-tab.png)<!-- zoom -->
+1. Choose **[!UICONTROL Manage Labels]** on the left and set the **[!UICONTROL Managed Titles]** options to define the attribute title translations.
 
 1. Choose **[!UICONTROL Properties]** on the left and enter the translated attribute options in the **[!UICONTROL Manage Options]** section.
 
-   ![Manage Options](./assets/manage-option-tab.png)<!-- zoom -->
+   ![Manage Options](./assets/manage-option-tab.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Attribute]**.
 

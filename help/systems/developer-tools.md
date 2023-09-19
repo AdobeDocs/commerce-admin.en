@@ -2,6 +2,7 @@
 title: Developer tools
 description: Learn about the advanced developer tools that are available to support developers working on customization projects.
 exl-id: 34529aa9-201f-4817-b53b-a15b6a78a923
+role: Admin, Developer
 ---
 # Developer tools
 
@@ -32,7 +33,7 @@ See [Client-side LESS compilation vs. server-side](https://developer.adobe.com/
 >
 >The frontend development workflow configuration is available in [Developer mode](../systems/developer-tools.md#operation-modes) only.
 
-![Advanced configuration - frontend development workflow](../configuration-reference/advanced/assets/developer-frontend-development-workflow.png)
+![Advanced configuration - frontend development workflow](../configuration-reference/advanced/assets/developer-frontend-development-workflow.png){width="600" zoomable="yes"}
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -57,7 +58,7 @@ See [Static content signing](https://experienceleague.adobe.com/docs/commerce-op
 >
 >The Static File Settings configuration is available only when working in [developer mode](../systems/developer-tools.md#operation-modes).
 
-![Advanced configuration - static files settings](../configuration-reference/advanced/assets/developer-static-files-settings.png)<!--{: width="700px"}-->
+![Advanced configuration - static files settings](../configuration-reference/advanced/assets/developer-static-files-settings.png){width="600" zoomable="yes"}
 
 For a detailed list of the configuration settings, see [_Static File Settings_](../configuration-reference/advanced/developer.md) in the _Configuration Reference_.
 
@@ -73,7 +74,7 @@ For a detailed list of the configuration settings, see [_Static File Settings_](
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-## Optimizing resource files
+## Resource file optimization
 
 The time it takes to load resource files can be reduced by merging and bundling files, and by minimizing code.
 
@@ -108,7 +109,7 @@ See [Performance best practices](https://experienceleague.adobe.com/docs/commerc
    - Set **[!UICONTROL Merge CSS Files]** to `Yes`.
    - Set **[!UICONTROL Minify CSS Files]** to `Yes`.
 
-   ![Advanced configuration - CSS settings](../configuration-reference/advanced/assets/developer-css-settings.png)<!-- zoom -->
+   ![Advanced configuration - CSS settings](../configuration-reference/advanced/assets/developer-css-settings.png){width="600" zoomable="yes"}
    
    [_CSS Settings_](../configuration-reference/advanced/developer.md)
 
@@ -117,11 +118,11 @@ See [Performance best practices](https://experienceleague.adobe.com/docs/commerc
    - Set **[!UICONTROL Merge JavaScript Files]** to `Yes`.
    - Set **[!UICONTROL Minify JavaScript Files]** to `Yes`.
 
-   ![Advanced configuration - JavaScript settings](../configuration-reference/advanced/assets/developer-javascript-settings.png)<!-- zoom -->
+   ![Advanced configuration - JavaScript settings](../configuration-reference/advanced/assets/developer-javascript-settings.png){width="600" zoomable="yes"}
 
 1. To minify PHTML template files, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Template Settings]** section and set **[!UICONTROL Minify Html]** to `Yes`.
 
-   ![Advanced configuration - template settings](../configuration-reference/advanced/assets/developer-template-settings.png)<!-- zoom -->
+   ![Advanced configuration - template settings](../configuration-reference/advanced/assets/developer-template-settings.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
@@ -143,7 +144,7 @@ For technical information, see [Custom VCL for allowing requests](https://experi
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Developer Client Restrictions]** section.
 
-   ![Advanced configuration - developer client restrictions](../configuration-reference/advanced/assets/developer-developer-client-restrictions.png)<!-- zoom -->
+   ![Advanced configuration - developer client restrictions](../configuration-reference/advanced/assets/developer-developer-client-restrictions.png){width="600" zoomable="yes"}
 
 1. For **[!UICONTROL Allow IPs]**, enter your IP address.
 
@@ -163,13 +164,13 @@ Template path hints are a diagnostic tool that adds notation with the path to ea
 
 See [Locate templates, layouts, and styles](https://developer.adobe.com/commerce/frontend-core/guide/themes/debug/){:target="_blank"} in the Commerce developer documentation.
 
-![Example storefront - template path hints](./assets/storefront-template-path-hints.png)<!-- zoom -->
+![Example storefront - template path hints](./assets/storefront-template-path-hints.png){width="700" zoomable="yes"}
 
 ### Step 1: Add your IP address to the allowlist
 
 Before using template path hints, add your IP address to the [allowlist](#client-restrictions) to avoid interference with customers who are shopping in the store. When you are finished, make sure to clear the Commerce cache to remove all hints from the store.
 
-![Advanced configuration - developer client restrictions](../configuration-reference/advanced/assets/developer-developer-client-restrictions.png)<!-- zoom -->
+![Advanced configuration - developer client restrictions](../configuration-reference/advanced/assets/developer-developer-client-restrictions.png){width="600" zoomable="yes"}
 
 ### Step 2: Enable template path hints
 
@@ -179,7 +180,7 @@ Before using template path hints, add your IP address to the [allowlist](#clien
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Debug]** section and do the following:
 
-   ![Advanced configuration - debug](../configuration-reference/advanced/assets/developer-debug.png)<!-- zoom -->
+   ![Advanced configuration - debug](../configuration-reference/advanced/assets/developer-debug.png){width="600" zoomable="yes"}
 
    - To activate template path hints for the store, set **[!UICONTROL Enabled Template Path Hints for Storefront]** to `Yes`.
 
@@ -207,7 +208,7 @@ You can use the Translate Inline tool in [developer mode](../systems/developer-t
 
 See [Translations overview](https://developer.adobe.com/commerce/frontend-core/guide/translations/) in the Commerce developer documentation.
 
-![Example storefront - translatable text](./assets/storefront-translate-inline.png)<!-- zoom -->
+![Example storefront - translatable text](./assets/storefront-translate-inline.png){width="700" zoomable="yes"}
 
 If your store is available in multiple languages, you can make fine adjustments to the translated text for the locale. On the server, interface text is maintained in a separate CSV file for each output block, and is organized by locale. As an alternate approach, rather than use the _Translate Inline_ tool, you can also edit the CSV files directly on the server. Translation files are stored in `app/code/Magento/<module_name>/i18n/<language_locale>.csv`.
 
@@ -227,8 +228,6 @@ If your store is available in multiple languages, you can make fine adjustments 
 
 1. Set the **[!UICONTROL Actions]** control to `Disable` and click **[!UICONTROL Submit]**.
 
-   ![Disable output caches](./assets/output-cache-disable.png)<!-- zoom -->
-
 ### Step 2: Enable the Translate Inline tool
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
@@ -243,7 +242,7 @@ If your store is available in multiple languages, you can make fine adjustments 
 
    The _[!UICONTROL Enabled for Admin]_ option is not available when editing a specific store view.
 
-   ![Advanced configuration - translate inline](../configuration-reference/advanced/assets/developer-translate-inline.png)<!-- zoom -->
+   ![Advanced configuration - translate inline](../configuration-reference/advanced/assets/developer-translate-inline.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Enabled for Storefront]** to `Yes`.
 
@@ -265,7 +264,7 @@ If your store is available in multiple languages, you can make fine adjustments 
 
 1. When complete, click **[!UICONTROL Submit]**.
 
-   ![Enter Custom Text](./assets/storefront-translate-inline-detail.png)<!-- zoom -->
+   ![Enter Custom Text](./assets/storefront-translate-inline-detail.png){width="700" zoomable="yes"}
 
 1. To see your changes in the store, refresh the browser.
 
@@ -303,4 +302,4 @@ If your store is available in multiple languages, you can make fine adjustments 
 
 Go to your storefront and examine each page that was updated to make sure that the changes are correct. In this example, `Customer Login` was changed to `Customer Sign In`. If changes were made to a specific view, use the Language Chooser to switch to the correct view.
 
-![Example storefront - translated customer sign in](./assets/storefront-translate-inline-customer-sign-in.png)<!-- zoom -->
+![Example storefront - translated customer sign in](./assets/storefront-translate-inline-customer-sign-in.png){width="700" zoomable="yes"}

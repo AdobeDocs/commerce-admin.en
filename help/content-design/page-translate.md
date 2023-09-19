@@ -1,9 +1,11 @@
 ---
-title: Translate a Content Page
+title: Translate a content page
 description: Learn how to create a translated version of each page that is available from the specific store view.
 exl-id: e8743ea5-0c8e-4970-987d-c9ac7c1e2a66
+feature: Page Content
+topic: Commerce, Localization
 ---
-# Translate a Content Page
+# Translate a content page
 
 If your store has multiple views in different [languages](../stores-purchase/store-localize.md), and you have set the locale for each view to a different language, the result is a partially translated site. The next step is to create a translated version of each page that is available from the specific store view. The [!UICONTROL Store View] column of the _[!UICONTROL Manage Pages]_ list shows each view that has a translated version of the page.
 

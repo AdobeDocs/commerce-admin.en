@@ -2,28 +2,29 @@
 title: Categories - Content settings
 description: Learn about using the [!UICONTROL Content] settings to define any additional content that appears on the category page.
 exl-id: 988083e1-0993-4e08-b5e6-8b0855e56467
+feature: Catalog Management, Categories, Page Content
 ---
 # Categories - Content settings
 
-The _[!UICONTROL Content]_ settings determine any additional content appears on the category page. In addition to the list of category products, the page can include an image, description, and CMS block. You can use the [Page Builder](../page-builder/introduction.md) content tools to define the category description.
+The _[!UICONTROL Content]_ settings determine any additional content appears on the category page. In addition to the list of category products, the page can include an image, description, and CMS block. You can use the [[!DNL Page Builder]](../page-builder/introduction.md) content tools to define the category description.
 
-## Add the category description in Page Builder
+## Add the category description in [!DNL Page Builder]
 
 1. Open the category in edit mode.
 
 1. Scroll down and expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Content]** section.
 
-   ![Category content](./assets/category-content.png)<!-- zoom -->
+   ![Category content](./assets/category-content.png){width="600" zoomable="yes"}
 
 1. At the top right of the **[!UICONTROL Description]** area, click **[!UICONTROL Edit with Page Builder]**.
 
-1. Use the [Page Builder](../page-builder/introduction.md)  content tools to [edit any existing text](../page-builder/text.md) and add other content (if needed).
+1. Use the [[!DNL Page Builder]](../page-builder/introduction.md) content tools to [edit any existing text](../page-builder/text.md) and add other content (if needed).
 
-## Page Builder preview
+## [!DNL Page Builder] preview
 
-When you expand the _Content_ section for an existing category where there is content created with Page Builder, it displays a preview of the **[!UICONTROL Description]** content as it would appear in the category page. Click the content area to open the Page Builder workspace, where you can make any needed updates.
+When you expand the _Content_ section for an existing category where there is content created with [!DNL Page Builder], it displays a preview of the **[!UICONTROL Description]** content as it would appear in the category page. Clicking the content area opens the [!DNL Page Builder] workspace, where you can make any needed updates.
 
-![Description preview](../page-builder/assets/pb-product-category-content-preview.png)<!-- zoom -->
+![Description preview](../page-builder/assets/pb-product-category-content-preview.png){width="500" zoomable="yes"}
 
 This content preview is enabled for the product and category forms by default. If performance suffers due to loading the preview, you can disable the preview in the [Content Management configuration](../configuration-reference/general/content-management.md#advanced-content-tools) settings.
 
@@ -31,13 +32,13 @@ This content preview is enabled for the product and category forms by default. I
 
 Enter only plain ASCII characters into the text box. If pasting text from a word processor, save it first as a plain .TXT file to remove any invisible control characters.
 
-For more information, see [Using the Editor](../content-design/editor.md).
+For more information, see [WYSIWYG editor](../content-design/editor.md).
 
 1. Open the category in edit mode.
 
 1. Scroll down and expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Content]** section.
 
-   ![Category content](./assets/category-content-ce.png)<!-- zoom -->
+   ![Category content](./assets/category-content-ce.png){width="500" zoomable="yes"}
 
 1. Enter the category **[!UICONTROL Description]** and use the [editor toolbar](../content-design/editor.md) to format as needed.
 

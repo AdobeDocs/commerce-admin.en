@@ -1,9 +1,11 @@
 ---
-title: Request for Quote
+title: Request for quote
 description: Learn how customers associated with a company account can submit a request for a quote.
 exl-id: c52176a7-4076-4cea-8ddb-17e0d1a77fd9
+feature: B2B, Quotes
+role: Admin, User
 ---
-# Request for Quote
+# Request for quote
 
 If quotes are enabled in the [Sales features configuration](configure-quotes.md), an authorized buyer from a company can initiate the price negotiation process by requesting a quote from their shopping cart.
 
@@ -19,13 +21,13 @@ If quotes are enabled in the [Sales features configuration](configure-quotes.md)
 
 1. Clicks **[!UICONTROL Request a Quote]**.
 
-   ![Requesting a quote from the shopping cart](./assets/quote-request-from-cart.png)<!-- zoom -->
+   ![Requesting a quote from the shopping cart](./assets/quote-request-from-cart.png){width="700" zoomable="yes"}
 
 1. In the **[!UICONTROL Add your comment]** box, enters a brief note that describes the request.
 
 1. Enters a **[!UICONTROL Quote Name]**.
 
-   ![Entering the quote comments and name](./assets/quote-request-from-cart-name-comments.png)<!-- zoom -->
+   ![Entering the quote comments and name](./assets/quote-request-from-cart-name-comments.png){width="400" zoomable="yes"}
 
 1. If needed, attaches a supporting document or image to the quote:
 

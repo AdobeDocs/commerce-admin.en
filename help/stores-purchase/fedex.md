@@ -2,12 +2,13 @@
 title: FedEx
 description: Learn how to set up FedEx as a shipping carrier for your store.
 exl-id: 75bb3ed1-3ae9-418a-be90-888046b28a7b
+feature: Shipping/Delivery
 ---
 # FedEx
 
 FedEx is one of the world's largest shipping service companies, providing air, freight, and ground shipping services with several levels of priorities.
 
-![FedEx Shipping Options at Checkout](./assets/storefront-checkout-shipping-fedex.png)<!-- zoom -->
+![FedEx Shipping Options at Checkout](./assets/storefront-checkout-shipping-fedex.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -15,11 +16,11 @@ FedEx is one of the world's largest shipping service companies, providing air, f
 
 ## Step 1: Register for FedEx Web Services Production
 
-You must create a [FedEx merchant account][1] and register for FedEx Web Services Production Access. After creating a FedEx account, read through the production account information page, then click the Obtain Production Key link at the bottom of the page to register and obtain a key.
+A [FedEx merchant account][1] and registration for FedEx Web Services Production Access is required. After creating a FedEx account, read through the production account information page, then click the _Obtain Production Key_ link at the bottom of the page to register and obtain a key.
 
 >[!NOTE]
 >
->Make sure to copy or write down the authentication key. You need it to set up FedEx in your Commerce shipping settings.
+>Make sure to copy or write down the authentication key. It is required to set up FedEx in your Commerce shipping settings.
 
 ## Step 2: Enable FedEx for Your Store
 
@@ -31,7 +32,7 @@ You must create a [FedEx merchant account][1] and register for FedEx Web Service
 
 1. Set **[!UICONTROL Enabled for Checkout]** to `Yes`.
 
-1. Enter an appropriate **[!UICONTROL Title]** to identify the FedEx shipping method during checkout.
+1. For **[!UICONTROL Title]**, enter a title that identifies the FedEx shipping method during checkout.
 
 1. Enter the following information from your FedEx account:
 
@@ -46,7 +47,7 @@ You must create a [FedEx merchant account][1] and register for FedEx Web Service
    >
    >Remember to set Sandbox Mode to `No` when you are ready to offer FedEx as a shipping method to your customers.
 
-   ![FedEx Account Settings](../configuration-reference/sales/assets/delivery-methods-fedex-account-settings.png)<!-- zoom -->
+   ![FedEx Account Settings](../configuration-reference/sales/assets/delivery-methods-fedex-account-settings.png){width="600" zoomable="yes"}
 
 ## Step 3: Package description and handling fee
 
@@ -76,9 +77,9 @@ You must create a [FedEx merchant account][1] and register for FedEx Web Service
 
 1. Enter the **[!UICONTROL Maximum Package Weight]** allowed for FedEx shipments.
 
-   The default FedEx maximum weight is 150 lbs. Consult your shipping carrier for more information. We recommend using the default value, unless you have made special arrangements with FedEx. See also: [Dimensional Weight](carriers.md#dimensional-weight).
+   The default FedEx maximum weight is 150 lbs. Consult your shipping carrier for more information. The default value is recommended, unless you have made special arrangements with FedEx. See [Dimensional weight](carriers.md#dimensional-weight) for more information.
 
-   ![FedEx Package Settings](../configuration-reference/sales/assets/delivery-methods-fedex-packaging.png)<!-- zoom -->
+   ![FedEx Package Settings](../configuration-reference/sales/assets/delivery-methods-fedex-packaging.png){width="600" zoomable="yes"}
 
 1. Configure the handling fee options according to your requirements.
 
@@ -101,7 +102,7 @@ You must create a [FedEx merchant account][1] and register for FedEx Web Service
    - `Yes` - For B2C residential deliveries.
    - `No` - For B2B residential deliveries.
 
-   ![FedEx Handling Fee Settings](../configuration-reference/sales/assets/delivery-methods-fedex-handling-fee.png)<!-- zoom -->
+   ![FedEx Handling Fee Settings](../configuration-reference/sales/assets/delivery-methods-fedex-handling-fee.png){width="600" zoomable="yes"}
 
 ## Step 4: Allowed methods and applicable countries
 
@@ -123,13 +124,13 @@ You must create a [FedEx merchant account][1] and register for FedEx Web Service
 
    - To require a minimum order amount that qualifies an order for free shipping with FedEx, set **[!UICONTROL Enable Free Shipping Threshold]** to `Enable`. Then, enter the minimum value in **[!UICONTROL Free Shipping Amount Threshold]**.
 
-   This is similar to the standard Free Shipping method, but appears in the FedEx section during checkout, so customers know which method is used for their order.
+   This setting is similar to the one for the standard Free Shipping method, but appears in the FedEx section during checkout, so customers know which method is used for their order.
 
 1. If needed, change the **[!UICONTROL Displayed Error Message]**.
 
    This text box is preset with a default message, but you can enter a different message that you want to appear if FedEx becomes unavailable.
 
-   ![FedEx Allowed Delivery Methods](../configuration-reference/sales/assets/delivery-methods-fedex-delivery-methods.png)<!-- zoom -->
+   ![FedEx Allowed Delivery Methods](../configuration-reference/sales/assets/delivery-methods-fedex-delivery-methods.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Ship to Applicable Countries]**:
 
@@ -150,7 +151,7 @@ You must create a [FedEx merchant account][1] and register for FedEx Web Service
 
 1. Click **[!UICONTROL Save Config]**.
 
-   ![FedEx Applicable Countries](../configuration-reference/sales/assets/delivery-methods-fedex-applicable-countries.png)<!-- zoom -->
+   ![FedEx Applicable Countries](../configuration-reference/sales/assets/delivery-methods-fedex-applicable-countries.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >

@@ -2,6 +2,7 @@
 title: Shipments
 description: Learn how to create shipment records for invoices and to cancel shipments.
 exl-id: 6df83549-ba38-43f7-aab1-dbf3f6b89d74
+feature: Shipping/Delivery, Invoices
 ---
 # Shipments
 
@@ -9,7 +10,7 @@ The _[!UICONTROL Shipments]_ grid lists the shipment record of all invoices that
 
 Adobe Commerce and Magento Open Source support partial and complete order shipment, with additional options available from [Inventory Management](../inventory-management/introduction.md) and third-party extensions.
 
-![Shipments grid](./assets/shipments.png)<!-- zoom -->
+![Shipments grid](./assets/shipments.png){width="600" zoomable="yes"}
 
 ## Column descriptions
 
@@ -80,7 +81,7 @@ For each line item in the order, modify the **[!UICONTROL Qty to Ship]** as need
    - `United Parcel Service`
    - `United States Postal Service`
 
-1. Enter **[!UICONTROL Title]** and **[!UICONTROL Number]** to track the shipment.
+1. To track the shipment, enter the **[!UICONTROL Title]** and **[!UICONTROL Number]** .
 
 **Method 2:** Using the shipment page
 
@@ -105,7 +106,7 @@ You can modify shipping and tracking information as needed using the direct ship
 
    To track the location of any shipment, open the required shipment in edit mode and click **[!UICONTROL Track this shipment]**.
 
-   ![Shipping and Tracking Information](./assets/tracking-information.png)<!-- zoom -->
+   ![Shipping and Tracking Information](./assets/tracking-information.png){width="600" zoomable="yes"}
 
 ### Buttons
 
@@ -131,7 +132,7 @@ You can modify shipping and tracking information as needed using the direct ship
 
 1. Expand the **Shipment Comments** section and modify the settings as needed:
 
-   ![Shipment comment configuration](./assets/shipment-comments.png)<!-- zoom -->
+   ![Shipment comment configuration](../configuration-reference/sales/assets/sales-emails-shipment-comments.png){width="600" zoomable="yes"}
 
    - The **[!UICONTROL Enabled]** option is set to `Yes` by default, which means that the email is sent to a customer when a shipping comment is entered.
 

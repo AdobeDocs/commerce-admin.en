@@ -2,6 +2,7 @@
 title: Catalog and product URLs
 description: Learn about the URL format types for your catalog products, and how to configure them.
 exl-id: 47405dc6-9b5e-4ca8-87eb-5a222de40793
+feature: Catalog Management, Products, Search, Categories
 ---
 # Catalog and product URLs
 
@@ -18,7 +19,7 @@ A dynamic URL is created _on the fly_ and might include a query string with vari
 
 ### Static URL
 
-A static URL is a fixed address for a specific page. A static URL can be displayed in a search engine friendly format or one that references products and categories by ID. Search engine friendly URLs include words that people might use to look for a product, and require Web Server Rewrites to be enabled. Files with static URLs are commonly used for product and category pages, content pages, and [theme assets](../content-design/theme-assets.md).
+A static URL is a fixed address for a specific page. A static URL can be displayed in a search engine-friendly format or one that references products and categories by ID. These URLs include words that people might use to look for a product, and require web server rewrites to be enabled. Files with static URLs are commonly used for product and category pages, content pages, and [theme assets](../content-design/theme-assets.md).
 
 - `http://mystore.com/antonia-racer-tank.html`
 
@@ -81,15 +82,15 @@ To prevent search engines from indexing multiple URLs that lead to the same cont
 
    - Set **[!UICONTROL Use Categories Path for Product URLs]** to your preference.
 
-   ![Search Engine Optimization](./assets/catalog-search-engine-optimization.png)<!-- zoom -->
+   ![Search Engine Optimization](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
    
-   For more information about these options, see [Search Engine Optimization](../configuration-reference/catalog/catalog.md#search-engine-optimization) in the _Configuration  Reference_.
+   For a detailed list of these options, see [Search Engine Optimization](../configuration-reference/catalog/catalog.md#search-engine-optimization) in the _Configuration  Reference_.
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
 1. When prompted, click the **[!UICONTROL Cache Management]** link in the system message and refresh the invalid cache.
 
-   ![Refresh Cache](./assets/msg-cache-management.png)<!-- zoom -->
+   ![Refresh Cache](./assets/msg-cache-management.png){width="450" zoomable="yes"}
    
    For more information about these options, see [Refresh caches](../systems/cache-management.md#refresh-specific-caches).
 
@@ -101,12 +102,12 @@ To prevent search engines from indexing multiple URLs that lead to the same cont
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Url Options]** section and set the options:
 
-![Web > General Options](./assets/web-url-options.png)<!-- zoom -->
+![Web > General Options](../configuration-reference/general/assets/web-url-options.png){width="600" zoomable="yes"}
 
 |Field|[Scope](../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|[!UICONTROL Add Store Code to URLs]|Global|If Web Server Rewrites are enabled, this inserts the Store Code of the current view in the URL. Options: Yes / No|
-|[!UICONTROL Auto-redirect to Base URL]|Global|(For single-store setups) If there is a broken link on your site, this redirects traffic to the base URL rather than to a page with a "404 Page Not Found" message. Options: No / Yes (302 Found) / Yes (301 Moved Permanently) <br /><br />**_Important!_** Do not use auto-redirect to base URL for multi-store setups.|
+|[!UICONTROL Add Store Code to URLs]|Global|If web server rewrites are enabled, enabling this setting inserts the Store Code of the current view in the URL. Options: `Yes` / `No`|
+|[!UICONTROL Auto-redirect to Base URL]|Global|(For single-store setups) If there is a broken link on your site, this redirects traffic to the base URL rather than to a page with a "404 Page Not Found" message. Options: `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_Important!_** Do not use auto-redirect to base URL for multi-store setups.|
 |[!UICONTROL Catalog media URL format]|Global|Defines the URL format assigned to products and categories. Options: <br />**[!UICONTROL Unique hash per image variant (Legacy mode)]** - Defines converted filename as a unique hash value.<br />**[!UICONTROL Image optimization based on query parameters]** - Defines [image optimization](../content-design/media-gallery-image-optimization.md) process depending on query parameters.|
 
 {style="table-layout:auto"}

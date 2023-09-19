@@ -1,13 +1,14 @@
 ---
 title: Instant Purchase
-description: Learn about Instant Purchase how it can provide a speedy checkout for registered customer accounts.
+description: Learn about Instant Purchase and how it can provide a speedy checkout for registered customer accounts.
 exl-id: f299f364-d7e3-4567-8c7b-955129011a19
+feature: Checkout
 ---
 # Instant Purchase
 
-Instant Purchase allows customers to speed through the checkout process using information that is saved in their account. When enabled, the _Instant Purchase_ button appears below the _Add to Cart_ button on the product page for customers who meet the requirements.
+_Instant Purchase_ allows customers to speed through the checkout process using information that is saved in their account. When enabled, the _Instant Purchase_ button appears below the _Add to Cart_ button on the product page for customers who meet the requirements.
 
-![Product page with the Instant Purchase option displayed](./assets/storefront-checkout-instant-purchase.png)<!-- zoom -->
+![Product page with the Instant Purchase option displayed](./assets/storefront-checkout-instant-purchase.png){width="700" zoomable="yes"}
 
 ## Customer requirements
 
@@ -21,9 +22,9 @@ Instant Purchase allows customers to speed through the checkout process using in
 
    The following payment methods can be used to provide secure access to saved credit card information:
 
-   - [Braintree Credit Cards](braintree.md) (Instant Purchase cannot be used with Braintree Credit Cards if 3D Secure is enabled.)
-   - [Braintree with PayPal Enabled](braintree.md)
-   - [PayPal Payflow Pro](paypal-payflow-pro.md)
+    - [Braintree Credit Cards](braintree.md) (Instant Purchase cannot be used with Braintree Credit Cards if 3D Secure is enabled.)
+    - [Braintree with PayPal Enabled](braintree.md)
+    - [PayPal Payflow Pro](paypal-payflow-pro.md)
 
 ## Instant Purchase on the storefront
 
@@ -31,7 +32,7 @@ Instant Purchase allows customers to speed through the checkout process using in
 
 1. Selects the required options and clicks **[!UICONTROL Instant Purchase]**.
 
-   ![Confirmation dialog to confirm the instant purchase](./assets/storefront-checkout-instant-purchase-confirmation.png)<!-- zoom -->
+   ![Confirmation dialog to confirm the instant purchase](./assets/storefront-checkout-instant-purchase-confirmation.png){width="500" zoomable="yes"}
 
 1. Reviews the **[!UICONTROL Instant Purchase Confirmation]** information and clicks **[!UICONTROL OK]** to complete the transaction.
 
@@ -45,7 +46,7 @@ Instant Purchase allows customers to speed through the checkout process using in
 
 ### Step 2: Configure the payment method vault
 
-You can use Instant Purchase with Braintree or Payment Services for Adobe Commerce and Magento Open Source. Vaulting must be enabled before a shopper can utilize Instant Purchase.
+You can use Instant Purchase with Braintree or Payment Services for Adobe Commerce and Magento Open Source. Vaulting must be enabled before a shopper can use the Instant Purchase function.
 
 Learn how to configure the payment method and enable vaulting for Braintree or Payment Services:
 
@@ -68,7 +69,7 @@ Learn how to configure the payment method and enable vaulting for Braintree or P
 
    The button text can be changed for each store view, or language. By default, the button text is `Instant Purchase`.
 
-   ![Configuration - instant purchase options](../configuration-reference/sales/assets/sales-instant-purchase.png)<!-- zoom -->
+   ![Configuration - instant purchase options](../configuration-reference/sales/assets/sales-instant-purchase.png){width="600" zoomable="yes"}
 
    For a detailed description of each of these configuration settings, see [Instant Purchase](../configuration-reference/sales/sales.md#instant-purchase) in the _Configuration Reference Guide_.
 

@@ -1,20 +1,154 @@
 ---
-title: '[!DNL B2B for Adobe Commerce] Release Notes'
+title: '[!DNL B2B for Adobe Commerce] release notes'
 description: Review the release notes for information about changes in [!DNL B2B for Adobe Commerce] extension releases.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
+feature: B2B, Release Notes
 ---
-# [!DNL B2B for Adobe Commerce] Release Notes
+# [!DNL B2B for Adobe Commerce] release notes
 
 These release notes for the B2B extension capture additions and fixes that Adobe has added during a release cycle, including:
 
 ![New](../assets/new.svg) New features
 ![Fixed issue](../assets/fix.svg) Fixes and improvements
 
-See [Product availability](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html){target="_blank"} for information about supported and compatible extension releases.
+
+>[!NOTE]
+>
+>See [Product availability](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) for information about versions of the B2B Commerce extension supported for available Adobe Commerce releases.
+
+## B2B v1.4.1
+
+*August 7, 2023*
+
+[!BADGE Compatibility]{type=Informative tooltip="Supported Versions"} Supported on [Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Compatible with Adobe Commerce 2.4.7-beta1.
+
+The B2B v1.4.1 release includes quality improvements and bug fixes.
+
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1825-->Purchase orders can no longer be placed by a user associated with the company after the company has been blocked. Previously, a user associated with the company could place purchase orders when the company was blocked.
+
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1943-->Product backordered status is now displayed correctly on the storefront. Previously, products that were available for shipment were incorrectly identified as backordered.
+
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1862-->If the company registration form includes a customer file type attribute, the file uploaded during the registration process is now included in the account information for the Company Administrator after the company is created. Previously, the attachment was missing.
+
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1793-->The swatch selector for a configurable product is now displayed as expected in the requisition list item configuration page. Previously, the swatch selector was displayed as a dropdown field in the requisition list item configuration page.
+
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1968-->When using the [Company GraphQL query](https://developer.adobe.com/commerce/webapi/graphql/schema/b2b/company/queries/company/#return-the-company-structure) to return company details, results are now returned successfully without error.
+
+## B2B v1.4.0
+
+*June 13, 2023*
+
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Supported on [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Compatible with Adobe Commerce 2.4.7-beta1
+
+This release includes new capabilities and enhancements for B2B negotiable quotes and multiple bug fixes.
+
+![New](../assets/new.svg) Added compatibility with Adobe Commerce 2.4.7-beta1.
+
+![New](../assets/new.svg) **Seller initiated quotes**—Sellers can now initiate a quote for a buyer directly from the Quote and Customer grids in the Admin. This capability streamlines the quote process and reduces complexity for customers. If a customer has not initiated an order, a seller can quickly create a quote on behalf of the customer and start the negotiation process. Previously, quotes could only be created from the storefront by the buyer, or by a seller logged in as the customer.
+
+![New](../assets/new.svg) **Line item discounts and negotiation**—<!--B2B-2440--> Within a quote, B2B buyers and sellers can now negotiate at the line item level, applying discounts and exchanging notes until an agreement is reached. Note creation and updates are included in the line item and quote history to track communication. Previously, buyers and sellers could only exchange notes and apply discounts at the quote level.
+
+![Fixed issue](../assets/fix.svg) Adobe Commerce now displays correct details during payment when the Purchase Orders option is enabled and a virtual quote that was created with the PayPal payment option has been selected. Previously, totals were displayed as zero under these conditions.
+
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1504--> Validation errors no longer occur when you try to save a company with a credit limit that exceeds 999. Previously, for company credit limits greater than 999, Adobe commerce inserted a comma separator, which caused a validation error that prevented updates from being saved.
+
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1474-->  The selected shipping address now remains unchanged when you place an order with a negotiable quote. Previously, when you placed an order, the selected shipping address was changed to the default shipping address.
+
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1429--> In the Store Configuration settings for B2B Features, the **[!UICONTROL Enable Shared Catalog direct products price assigning]** field is now disabled automatically. On the storefront, it is hidden when the **[!UICONTROL Enable Company]** setting or **[!UICONTROL Enable Shared Catalog]** setting is set to **[!UICONTROL No]**.
+
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1683--> When creating a company account from the storefront, Commerce now validates the email address before processing the company registration. If the email address is invalid, the operation fails and no account updates are processed. Previously, a customer account was created even if the request to create a company account failed because of an invalid email address.
+
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1664--> Product SKUs that include double quotation marks in the Shared Catalog and pricing structure no longer cause errors in the Admin.
+
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1498--> Updated the Varnish configuration for the Commerce application to prevent Guest users from seeing data from other customer groups.
+
+### Known issue
+
+If you install or upgrade B2B 1.4.0 on [Adobe Commerce version 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html), the following error occurs:
+
+```terminal
+Your requirements could not be resolved to an installable set of packages.
+
+  Problem 1
+    - Root composer.json requires magento/extension-b2b 1.4.0 -> satisfiable by magento/extension-b2b[1.4.0].
+    - magento/extension-b2b 1.4.0 requires magento/security-package-b2b 1.0.4-beta1 -> found magento/security-package-b2b[1.0.4-beta1] but it does not match your minimum-stability.
+
+Installation failed, reverting ./composer.json and ./composer.lock to their original content.
+```
+
+### Workaround
+
+Successfully install or upgrade to B2B version 1.4.0 on Adobe Commerce 2.4.6-p1 by adding manual dependencies for the B2B security package with a [stability tag](https://getcomposer.org/doc/04-schema.md#package-links).
+
+1. From the Adobe Commerce installation directory, update `composer.json` with the required dependencies:
+
+   ```terminal
+   composer require magento/module-re-captcha-company=1.0.3-beta1@beta magento/security-package-b2b=1.0.4-beta1@beta
+   ```
+
+   **Command Output:**
+
+   ```terminal
+   Running composer update magento/module-re-captcha-company magento/security-package-b2b
+   Loading composer repositories with package information
+   Updating dependencies
+   Lock file operations: 2 installs, 0 updates, 0 removals
+     - Locking magento/module-re-captcha-company (1.0.3-beta1)
+     - Locking magento/security-package-b2b (1.0.4-beta1)
+   Writing lock file
+   Installing dependencies from lock file (including require-dev)
+   Package operations: 2 installs, 0 updates, 0 removals
+     - Downloading magento/module-re-captcha-company (1.0.3-beta1)
+     - Installing magento/module-re-captcha-company (1.0.3-beta1): Extracting archive
+     - Installing magento/security-package-b2b (1.0.4-beta1)
+   1 package suggestions were added by new dependencies, use `composer suggest` to see details.
+   Package sebastian/phpcpd is abandoned, you should avoid using it. No replacement was suggested.
+   Generating autoload files
+   132 packages you are using are looking for funding.
+   Use the `composer fund` command to find out more!
+   No security vulnerability advisories found
+   ```
+
+1. Update `composer.json` to add B2B version 1.4.0.
+
+   ```terminal
+   composer require magento/extension-b2b=1.4.0
+   ```
+
+   **Command output**
+
+   ```terminal
+   ./composer.json has been updated
+   Running composer update magento/extension-b2b
+   Loading composer repositories with package information
+   Updating dependencies
+   ...
+   Generating autoload files
+   132 packages you are using are looking for funding.
+   Use the `composer fund` command to find out more!
+   No security vulnerability advisories found
+   ```
+
+1. Complete the installation or upgrade process.
+
+   - [Install B2B on cloud infrastructure](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html)
+   - [Install on premises](install.md)
 
 ## B2B v1.3.5
 
-This extension release is fully compatible and supported with Adobe Commerce 2.4.6.
+*March 14, 2023*
+
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce 2.4.0 - 2.4.6 and newer versions
+
+![New](../assets/new.svg) Released B2B version 1.3.5-p2 to support compatibility with Adobe Commerce 2.4.6-p2.
+
+![New](../assets/new.svg) Released B2B version 1.3.5-p1 to support compatibility with Adobe Commerce 2.4.6-p1.
+
+>[!NOTE]
+>
+>After you upgrade Commerce from 2.4.6 to the [latest release](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html#2.4.6), make sure to  update to the supported B2B 1.3.5 patch release. Or, upgrade the B2B extension from version 1.3.5 to version 1.4.0 or later to get the latest features.
+
+![New](../assets/new.svg) Added support for Adobe Commerce 2.4.6.
 
 ![Fixed issue](../assets/fix.svg) <!--- ACP2E-689--> Adobe Commerce now displays correct details during payment when the Purchase Orders option is enabled and a virtual quote that was created with the PayPal payment option has been selected. Previously, totals were displayed as zero under these conditions.
 
@@ -38,7 +172,11 @@ This extension release is fully compatible and supported with Adobe Commerce 2.4
 
 ## B2B v1.3.4
 
-This extension release is fully compatible and supported with Adobe Commerce 2.4.5.
+*August 9, 2022*
+
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce 2.4.0 and newer versions
+
+![New](../assets/new.svg) Added support for Adobe Commerce 2.4.5.
 
 ![Fixed issue](../assets/fix.svg) <!--- ACP2E-453-->Adobe Commerce no longer sends email notifications each time an existing Company is updated by an API call. Emails are now sent only when a company is created.
 
@@ -68,7 +206,11 @@ This extension release is fully compatible and supported with Adobe Commerce 2.4
 
 ## B2B v1.3.3
 
-This extension release is fully compatible and supported with Adobe Commerce 2.4.4.
+*August 9, 2022*
+
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce 2.4.0 and newer versions
+
+![New](../assets/new.svg) Added support for Adobe Commerce 2.4.4.
 
 ![Fixed issue](../assets/fix.svg) <!--- MC-41985--> The time required to upgrade from Adobe Commerce 2.3.x to Adobe Commerce 2.4.x in deployments with more than 100,000 company roles has been substantially reduced.
 
@@ -102,7 +244,7 @@ This extension release is fully compatible and supported with Adobe Commerce 2.4
 
 ![Fixed issue](../assets/fix.svg) <!--- MC-42528--> The `categoryList` query now respects category permissions and returns only permitted categories. Previously, it returned all assigned and unassigned categories.
 
-![Fixed issue](../assets/fix.svg) <!--- MC-42399--> `rest/V1/company/{id}` now returns `is_purchase_order_enabled` attribute values as expected.
+![Fixed issue](../assets/fix.svg) <!--- MC-42399--> The `rest/V1/company/{id}` request now returns `is_purchase_order_enabled` attribute values as expected.
 
 ![Fixed issue](../assets/fix.svg) <!--- ACP2E-128--> Custom customer attributes are now displayed as expected in the _Company Admin_ tab.
 
@@ -116,7 +258,11 @@ This extension release is fully compatible and supported with Adobe Commerce 2.4
 
 ## B2B v1.3.2
 
-This extension release is fully compatible with Adobe Commerce 2.4.3.
+*August 29, 2022*
+
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce 2.4.0 and newer versions
+
+![New](../assets/new.svg) Added support for Adobe Commerce 2.4.3.
 
 ![Fixed issue](../assets/fix.svg) <!--- MC-39862--> Adobe Commerce now successfully sends update emails about expired negotiable quotes. Previously, when a negotiable quote expired, Adobe Commerce did not send update emails.
 
@@ -208,7 +354,11 @@ This extension release is fully compatible with Adobe Commerce 2.4.3.
 
 ## B2B v1.3.1
 
-This extension release is fully compatible and supported with Adobe Commerce 2.4.2.
+*February 9, 2021*
+
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce 2.4.0 and newer versions
+
+![New](../assets/new.svg) Added support for Adobe Commerce 2.4.2.
 
 ![New](../assets/new.svg) Online payment methods are now supported for purchase orders.
 
@@ -266,15 +416,19 @@ This extension release is fully compatible and supported with Adobe Commerce 2.4
 
 - Adobe Commerce sometimes displays a 404 error when a buyer creates a purchase order and then navigates to the checkout page. This error occurs when a buyer has previously created a different purchase order with an online payment method before navigating to the checkout page without completing the previous purchase. The buyer can still place the purchase order. **_Work around_**: None. <!--- B2B-1605-->
 
-- Discounts for a specific payment method persist during checkout for a purchase order even when the buyer changes their payment method during final checkout. As a result, customers may receive a discount that they are not entitled to. This occurs because a cart rule for the original payment method is still applied despite the change in payment method. **_Work around_**: None. See the [Adobe Commerce 2.4.2 B2B known issue: discount remains for online Purchase Orders after payment method is changed](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/magento-2.4.2-b2b-discount-remains-pay-method-change.html) _Knowledge Base_ article. <!-- B2B-1012 -->
+- Discounts for a specific payment method persist during checkout for a purchase order even when the buyer changes their payment method during final checkout. As a result, customers can receive a discount that they are not entitled to. This issue occurs because a cart rule for the original payment method is still applied despite the change in payment method. **_Work around_**: None. See the [Adobe Commerce 2.4.2 B2B known issue: discount remains for online Purchase Orders after payment method is changed](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/magento-2.4.2-b2b-discount-remains-pay-method-change.html) _Knowledge Base_ article. <!-- B2B-1012 -->
 
 - The `deleteRequisitionListOutput` query returns details about the deleted requisition list instead of the remaining requisition lists. <!--- MC-39894-->
 
 ## B2B v1.3.0
 
-This extension release is fully compatible and supported with Adobe Commerce 2.4.1.
+*October 15, 2020*
+
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce 2.4.0 and newer versions
 
 This release includes improvements to order approvals, shipping methods, shopping cart, and logging of Admin actions.
+
+![New](../assets/new.svg) Added support for Adobe Commerce 2.4.1.
 
 ![New](../assets/new.svg) B2B order approvals have been enhanced to improve usability and to allow for bulk actions on purchase orders.
 
@@ -350,7 +504,11 @@ This release includes improvements to order approvals, shipping methods, shoppin
 
 ## B2B v1.2.0
 
-This extension release is fully compatible and supported with Adobe Commerce 2.4.0.
+*July 28, 2020*
+
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce 2.4.0 and newer versions
+
+![New](../assets/new.svg) Added support for Adobe Commerce 2.4.0.
 
 ![New](../assets/new.svg) Storefront Order Search, with added thanks for contribution by Marek Mularczyk from [Divante](https://www.divante.com/) and community members.
 
@@ -374,7 +532,7 @@ This extension release is fully compatible and supported with Adobe Commerce 2.4
 
 ![Fixed issue](../assets/fix.svg) The Purchase Order Approve, Reject, Cancel, and Validate buttons now render correctly on mobile devices.
 
-![Fixed issue](../assets/fix.svg) Previously, approving a Purchase Order with a discount that has expired placed the order at the full amount and did not update the Purchase Order total. This now works correctly.
+![Fixed issue](../assets/fix.svg) Previously, approving a Purchase Order with a discount that has expired placed the order at the full amount and did not update the Purchase Order total. Now, the Purchase Order total is updated to show the correct total.
 
 ![Fixed issue](../assets/fix.svg) An issue was introduced in 2.3.4 where custom extension attributes would not be copied from the Customer Address to the Quote Address. This issue has been fixed.
 
@@ -392,11 +550,11 @@ This extension release is fully compatible and supported with Adobe Commerce 2.4
 
 ![Fixed issue](../assets/fix.svg) Previously, after a customer was moved to another customer group, adding a product to an order using _Quick Order_ would fail with an error. This issue has been fixed.
 
-![Fixed issue](../assets/fix.svg) Previously, when attempting to checkout using the WebAPI with a B2B quote, an incorrect value was sent to the API, causing an error to occur. This issue has been fixed.
+![Fixed issue](../assets/fix.svg) Previously, when attempting to check out using the WebAPI with a B2B quote, an incorrect value was sent to the API, causing an error to occur. This issue has been fixed.
 
 ![Fixed issue](../assets/fix.svg) Previously, when setting a company to "Active" via the API, an error would occur. This issue has now been fixed.
 
-![Fixed issue](../assets/fix.svg) Due to an unneeded `form` tag, the page would refresh when you press Enter after changing a proposed shipping charge. This has been fixed.
+![Fixed issue](../assets/fix.svg) Due to an unneeded `form` tag, the order page automatically refreshed when you pressed Enter after changing a proposed shipping charge. This issue has been fixed.
 
 ![Fixed issue](../assets/fix.svg) Previously, when setting a product display limit on a catalog page and that limit was less than the number of total products, an error occurred. That feature now works as expected.
 
@@ -410,6 +568,6 @@ This extension release is fully compatible and supported with Adobe Commerce 2.4
 
 ### Known issues
 
--  Adobe Commerce throws an exception during upgrade to B2B 1.2.0 in a multi-website deployment. When `setup:upgrade` runs, this error occurs on the `PurchaseOrder` module: `Module Magento_PurchaseOrder: Unable to apply data patch Magento\PurchaseOrder\Setup\Patch\Data\InitPurchaseOrderSalesSequence for moduleMagento_PurchaseOrder`. **Workaround**: Install the `B2B-716 Add NonTransactionableInterface` interface to the `InitPurchaseOrderSalesSequence` data patch hotfix, which is now available from the **My Account** > **Downloads** section of `magento.com`.
--  If a discount code expires before a Purchase Order (PO) is approved, the PO continues to display the discounted amount, but once the PO is approved, the order is placed at the non-discounted total. **Workaround**: Install the `B2B-709 Purchase Order Discount patch` hotfix for this issue, which is now available from the **My Account** > **Downloads** section of `magento.com`.
--  If items in a purchase order are out of stock, or of insufficient quantity when the purchase order is converted into an actual order, an error occurs. If backorders are enabled, the order is processed normally.
+- Adobe Commerce throws an exception during upgrade to B2B 1.2.0 in a multi-website deployment. When `setup:upgrade` runs, this error occurs on the `PurchaseOrder` module: `Module Magento_PurchaseOrder: Unable to apply data patch Magento\PurchaseOrder\Setup\Patch\Data\InitPurchaseOrderSalesSequence for moduleMagento_PurchaseOrder`. **Workaround**: Install the `B2B-716 Add NonTransactionableInterface` interface to the `InitPurchaseOrderSalesSequence` data patch hotfix, which is now available from the **My Account** > **Downloads** section of `magento.com`.
+- If a discount code expires before a Purchase Order (PO) is approved, the PO continues to display the discounted amount, but once the PO is approved, the order is placed at the non-discounted total. **Workaround**: Install the `B2B-709 Purchase Order Discount patch` hotfix for this issue, which is now available from the **My Account** > **Downloads** section of `magento.com`.
+- If items in a purchase order are out of stock, or of insufficient quantity when the purchase order is converted into an actual order, an error occurs. If backorders are enabled, the order is processed normally.

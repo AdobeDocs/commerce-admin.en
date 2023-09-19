@@ -1,12 +1,13 @@
 ---
-title: Configure Company Email
+title: Configure company email
 description: Learn about the email options and templates used to send communications for company accounts.
+exl-id: fd61c0c6-0887-4ff2-8002-906ff615bad9
+feature: B2B, Companies, Configuration
+role: Admin
 ---
-# Configure Company Email
+# Configure company email options
 
 The [sales representative](account-company-manage.md) that is assigned as the primary contact for a company is configured by default as the sender of many automated email messages sent to the company.
-
-## Configure Company Email Options
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -31,21 +32,21 @@ The [sales representative](account-company-manage.md) that is assigned as the pr
 
    - If you have prepared an email template that is to be used instead of the default, set **[!UICONTROL Default Company Registration Email]** to the name of the template. By default, the `Company Registration Request` template is used.
 
-      ![Customers configuration - company registration](./assets/company-email-options-company-registration.png)<!-- zoom -->
+      ![Customers configuration - company registration](./assets/company-email-options-company-registration.png){width="600" zoomable="yes"}
 
 1. Complete the **[!UICONTROL Customer-Related Emails]** section:
 
    If you have prepared alternate email templates to be used instead of the defaults, choose the template that you want to use for each of the following:
 
-   - **[!UICONTROL Default ‘Sales Rep Assigned’ Email]**
-   - **[!UICONTROL Default ‘Assign Company to Customer’ Email]**
-   - **[!UICONTROL Default ‘Assign Company Admin’ Email]**
-   - **[!UICONTROL Default ‘Company Admin Inactive’ Email]**
-   - **[!UICONTROL Default ‘Company Admin Changed to Member’ Email]**
-   - **[!UICONTROL Default ‘Customer Status Active’ Email]**
-   - **[!UICONTROL Default ‘Customer Status Inactive’ Email]**
+   - **[!UICONTROL Default 'Sales Rep Assigned' Email]**
+   - **[!UICONTROL Default 'Assign Company to Customer' Email]**
+   - **[!UICONTROL Default 'Assign Company Admin' Email]**
+   - **[!UICONTROL Default 'Company Admin Inactive' Email]**
+   - **[!UICONTROL Default 'Company Admin Changed to Member' Email]**
+   - **[!UICONTROL Default 'Customer Status Active' Email]**
+   - **[!UICONTROL Default 'Customer Status Inactive' Email]**
 
-   ![Customers configuration - customer related emails](./assets/company-email-options-customer-related-emails.png)<!-- zoom -->
+   ![Customers configuration - customer related emails](./assets/company-email-options-customer-related-emails.png){width="600" zoomable="yes"}
 
 1. Complete the **[!UICONTROL Company Status Change]** section:
 
@@ -58,17 +59,17 @@ The [sales representative](account-company-manage.md) that is assigned as the pr
       - `Bcc` - Sends a _blind courtesy copy_ by including the recipient in the header of the same email that is sent to the customer. The BCC recipient is not visible to the customer.
       - `Separate Email` - Sends the copy as a separate email.
 
-   - If you have a prepared email template that is to be used instead of the default when company status changes from `Pending Approval` to `Active`, set **[!UICONTROL Default ‘Company Status Change to Active 1’ Email]** to that template. By default, the `Company Status Active 1` template is used.
+   - If you have a prepared email template that is to be used instead of the default when company status changes from `Pending Approval` to `Active`, set **[!UICONTROL Default 'Company Status Change to Active 1' Email]** to that template. By default, the `Company Status Active 1` template is used.
 
-   - If you have a prepared email template that is to be used instead of the default when company status changes from `Rejected` or `Blocked` to `Active`, set **[!UICONTROL Default ‘Company Status Change to Active 2’ Email]** to that template. By default, the `Company Status Active 2` template is used.
+   - If you have a prepared email template that is to be used instead of the default when company status changes from `Rejected` or `Blocked` to `Active`, set **[!UICONTROL Default 'Company Status Change to Active 2' Email]** to that template. By default, the `Company Status Active 2` template is used.
 
-   - If you have a prepared email template that is to be used instead of the default when company status changes to `Rejected`, set **[!UICONTROL Default ‘Company Status Change to Rejected’ Email]** to that template. By default, the `Company Status Rejected` template is used.
+   - If you have a prepared email template that is to be used instead of the default when company status changes to `Rejected`, set **[!UICONTROL Default 'Company Status Change to Rejected' Email]** to that template. By default, the `Company Status Rejected` template is used.
 
-   - If you have a prepared email template that is to be used instead of the default when company status changes to `Blocked`, set **[!UICONTROL Default ‘Company Status Change to Blocked’ Email]** to that template. By default, the `Company Status Blocked` template is used.
+   - If you have a prepared email template that is to be used instead of the default when company status changes to `Blocked`, set **[!UICONTROL Default 'Company Status Change to Blocked' Email]** to that template. By default, the `Company Status Blocked` template is used.
 
-   - If you have a prepared email template that is to be used instead of the default when company status changes to `Pending Approval`, set **[!UICONTROL Default ‘Company Status Change to Pending Approval’ Email]** to that template. By default, the `Company Status Pending Approval` template is used.
+   - If you have a prepared email template that is to be used instead of the default when company status changes to `Pending Approval`, set **[!UICONTROL Default 'Company Status Change to Pending Approval' Email]** to that template. By default, the `Company Status Pending Approval` template is used.
 
-      ![Customers configuration - company status change](TOC.md/assets/company-email-options-company-status-change.png)<!-- zoom -->
+      ![Customers configuration - company status change](./assets/company-email-options-company-status-change.png){width="600" zoomable="yes"}
 
 1. Complete the **[!UICONTROL Company Credit Emails]** section:
 
@@ -89,6 +90,6 @@ The [sales representative](account-company-manage.md) that is assigned as the pr
       - **[!UICONTROL Refunded Email Template]**
       - **[!UICONTROL Reverted Email Template]**
 
-    ![Customers configuration - company credit emails](./assets/company-email-options-company-credit.png)<!-- zoom -->
+    ![Customers configuration - company credit emails](./assets/company-email-options-company-credit.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Config]**.

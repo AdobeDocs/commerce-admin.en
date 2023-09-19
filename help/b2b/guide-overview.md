@@ -1,10 +1,11 @@
 ---
-title: '[!DNL B2B for Adobe Commerce] Guide Overview'
+title: '[!DNL B2B for Adobe Commerce] Guide'
 description: Comprehensive information for [!DNL B2B for Adobe Commerce] administrators, including installation and configuration.
 breadcrumb-title: Guide Overview
 seo-title: '[!DNL B2B for Adobe Commerce] Guide'
 seo-description: Describes how to use the B2B features module in Adobe Commerce.
 exl-id: 8a7fda1d-0040-48fe-b393-9244adca6fde
+feature: B2B
 ---
 # B2B for Adobe Commerce Guide
 

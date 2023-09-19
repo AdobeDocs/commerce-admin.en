@@ -2,12 +2,13 @@
 title: User roles
 description: Learn how to create user roles and the associated permissions to manage access to Admin functions.
 exl-id: a70f74d4-72b4-4639-a67d-9fc13df65924
+feature: Admin Workspace, Roles/Permissions, Security
 ---
 # User roles
 
 To give someone restricted access to the Admin, the first step is to create a role that has the appropriate level of permissions. After the role is saved, you can add new users and assign the restricted role to grant them limited access to the Admin.
 
-![Admin - user roles](./assets/permissions-role-grid.png)
+![Admin - user roles](./assets/permissions-role-grid.png){width="600" zoomable="yes"}
 
 ## Define a role
 
@@ -23,7 +24,7 @@ To give someone restricted access to the Admin, the first step is to create a ro
 
 1. Under _[!UICONTROL Current User Identity Verification]_, enter your password.
 
-   ![System permissions - role information](./assets/permissions-role-info.png)<!-- zoom -->
+   ![System permissions - role information](./assets/permissions-role-info.png){width="600" zoomable="yes"}
 
 ### Step 2: Assign resources
 
@@ -38,7 +39,7 @@ To give someone restricted access to the Admin, the first step is to create a ro
 
    If set to `Custom` for a multisite installation, select the checkbox of the website and store where the role is to be used.
 
-   ![User role resources - custom scope](./assets/permissions-role-scope-custom.png)<!-- zoom -->
+   ![User role resources - custom scope](./assets/permissions-role-scope-custom.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -50,7 +51,7 @@ To give someone restricted access to the Admin, the first step is to create a ro
 
    To create an Admin role with access to tax settings, choose both the Sales/Tax and System/Tax resources. If setting up a website for a region that differs from your default [shipping point of origin](../stores-purchase/shipping-settings.md#point-of-origin), you must allow access to the System/Shipping resources for the role. The shipping settings determine the store tax rate that is used for catalog prices.
 
-   ![Assigned user role resources](./assets/permissions-role-resources-product.png)<!-- zoom -->
+   ![Assigned user role resources](./assets/permissions-role-resources-product.png){width="600" zoomable="yes"}
 
    The list of available permissions may include additional options for bundled and installed extensions. By selecting the top-most permission for each feature, you assign all permissions available for the user.
 
@@ -72,6 +73,8 @@ To give someone restricted access to the Admin, the first step is to create a ro
 
    The _[!UICONTROL Role Users]_ option appears only after a new role is saved.
 
+   ![User accounts assigned to the role](./assets/permissions-role-users.png){width="600" zoomable="yes"}
+
 1. To search for a specific user record, do the following:
 
    - Enter the value in the search filter at the top of a column and press **Enter**.
@@ -81,8 +84,6 @@ To give someone restricted access to the Admin, the first step is to create a ro
 1. Select the checkbox of any users to be assigned to the role.
 
 1. Click **[!UICONTROL Save Role]**.
-
-   ![User accounts assigned to the role](./assets/permissions-role-users.png)<!-- zoom -->
 
 ## Edit a role
 

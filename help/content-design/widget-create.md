@@ -1,13 +1,13 @@
 ---
-title: Create and Manage Widgets
+title: Create and manage widgets
 description: Learn how to create and manage the widgets that automatically update content across your store.
 exl-id: 680f2f41-ec51-4ac6-9e92-2817591af3e6
 ---
-# Create and Manage Widgets
+# Create and manage widgets
 
 Widgets are reusable components. You can easily create widgets, and modify existing ones to automatically update content across your store. You can also delete widgets that are no longer in use.
 
-![Widgets](./assets/widgets.png)<!-- zoom -->
+![Widgets](./assets/widgets.png){width="700" zoomable="yes"}
 
 ## Create a widget
 
@@ -23,9 +23,9 @@ The process of creating a widget is nearly the same for each [widget type](widge
 
    - Set **[!UICONTROL Type]** to the widget type that you want to create.
 
-   - Verify that **[!UICONTROL Design Theme]** is set to the current theme.
+   - Verify that the **[!UICONTROL Design Theme]** is set to the current theme.
 
-   ![Widget settings](./assets/widget-settings.png)<!-- zoom -->
+      ![Widget settings](./assets/widget-settings.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Continue]**.
 
@@ -43,7 +43,7 @@ The process of creating a widget is nearly the same for each [widget type](widge
 
    - (Optional) For **[!UICONTROL Sort Order]**, enter a number to determine the order this item appears with others in the same part of the page. (`0` = first, `1` = second, `3` = third, and so on.)
 
-   ![Storefront properties](./assets/widget-storefront-properties.png)<!-- zoom -->
+      ![Storefront properties](./assets/widget-storefront-properties.png){width="600" zoomable="yes"}
 
 1. In the _[!UICONTROL Layout Updates]_ section, click **[!UICONTROL Add Layout Update]**.
 
@@ -51,7 +51,7 @@ The process of creating a widget is nearly the same for each [widget type](widge
 
 1. In the **[!UICONTROL Container]** list, choose the area of the page layout where it is to be placed.
 
-   ![Layout updates](./assets/widget-layout-update-home-page.png)<!-- zoom -->
+   ![Layout updates](./assets/widget-layout-update-home-page.png){width="600" zoomable="yes"}
 
 1. If the widget is a link, set **[!UICONTROL Template]** to one of the following:
 
@@ -78,13 +78,11 @@ The options for each widget type vary slightly, but the process is essentially t
 
       The process is the same as setting a condition for a [price rule](../merchandising-promotions/price-rules-catalog.md).
 
-   ![Widget options](./assets/widget-options-new-product-list.png)<!-- zoom -->
-
 ### Step 4: Save and check the result
 
 1. When complete, click **[!UICONTROL Save]**.
 
-1. When prompted, follow the instructions at the top of the workspace to update the cache, as needed.
+1. When prompted, follow the instructions at the top of the workspace to update the cache as needed.
 
 1. Return to your storefront to verify that the widget is working correctly.
 
@@ -92,7 +90,7 @@ The options for each widget type vary slightly, but the process is essentially t
 
 ## Widget creation demo
 
-Watch this video to learn about creating widgets:
+To learn about creating widgets, watch this video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/343786?quality=12)
 
@@ -100,7 +98,7 @@ Watch this video to learn about creating widgets:
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Elements]_ > **[!UICONTROL Widgets]**.
 
-1. Locate the widget using filters above the grid and click the widget name.
+1. Locate the widget by using the filters above the grid and then click the widget name.
 
 1. Make needed changes.
 
@@ -112,7 +110,7 @@ Watch this video to learn about creating widgets:
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Elements]_ > **[!UICONTROL Widgets]**.
 
-1. Locate the widget using filters above the grid, select the checkbox of the widgets to be deleted.
+1. Locate the widgets by using the filters above the grid and then select the checkbox of the widgets to be deleted.
 
 1. In the upper-left corner of the list, set **[!UICONTROL Actions]** to `Delete`.
 

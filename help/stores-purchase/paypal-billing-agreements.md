@@ -2,6 +2,7 @@
 title: PayPal billing agreements
 description: Learn how you can support PayPal billing agreements and a payment method within your store.
 exl-id: b0800b41-816a-4c48-a54d-41ddc1d586ce
+feature: Payments
 ---
 # PayPal billing agreements
 
@@ -21,8 +22,6 @@ To simplify the checkout process, customers can enter into a billing agreement w
 
 The _[!UICONTROL Billing Agreements]_ page lists all billing agreements between your store and its customers. Merchants can filter the records by the customer or billing agreement information including billing agreement reference ID, status, and creation date. Each record includes general information about the billing agreement, and all sales orders that have used it as a payment method. You can view, cancel, or delete customer billing agreements. A canceled billing agreement can be deleted only by the store administrator.
 
-![Billing agreements](./assets/billing-agreements.png)<!-- zoom -->
-
 ### View a billing agreement
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > _[!UICONTROL Operations]_ > **[!UICONTROL Billing Agreements]**.
@@ -41,13 +40,13 @@ This tab includes the general information about the billing agreement:
 - [!UICONTROL Created At]: Creation date.
 - [!UICONTROL Updated At]: Update date.
 
-![Billing Agreement View](./assets/billing-agreement-view.png)<!-- zoom -->
+![Billing Agreement View](./assets/billing-agreement-view.png){width="600" zoomable="yes"}
 
 #### Related Orders
 
 This tab displays the list of the orders placed using the current billing agreement.
 
-![Billing Agreement View](./assets/billing-agreement-related-orders.png)<!-- zoom -->
+![Billing Agreement View](./assets/billing-agreement-related-orders.png){width="600" zoomable="yes"}
 
 ### Cancel a billing agreement
 
@@ -88,7 +87,7 @@ This tab displays the list of the orders placed using the current billing agreem
 
 Customers who enter into a billing agreement with a payment provider can make purchases now and pay for them later, according to the agreement. The 
 
-![Billing agreements list in the customer's dashboard](./assets/billing-agreements-dashboard.png)<!-- zoom -->
+![Billing agreements list in the customer's dashboard](./assets/billing-agreements-dashboard.png){width="700" zoomable="yes"}
 
 |Column|Description|
 |--- |--- |
@@ -109,9 +108,9 @@ Customers who enter into a billing agreement with a payment provider can make pu
 
 1. Click **[!UICONTROL Create]**.
 
-This redirects the customer to the payment system website.
+This action redirects the customer to the payment system website.
 
-![New billing agreement in the customer account dashboard](./assets/create-billing-agreement-dashboard.png)<!-- zoom -->
+![New billing agreement in the customer account dashboard](./assets/create-billing-agreement-dashboard.png){width="700" zoomable="yes"}
 
 ### View a billing agreement
 
@@ -119,7 +118,7 @@ This redirects the customer to the payment system website.
 
 1. Selects the billing agreement and clicks **[!UICONTROL View]**.
 
-![View billing agreement in customer's dashboard](./assets/view-billing-agreement.png)<!-- zoom -->
+![View billing agreement in customer's dashboard](./assets/view-billing-agreement.png){width="700" zoomable="yes"}
 
 ### Cancel a billing agreement
 
@@ -131,4 +130,4 @@ This redirects the customer to the payment system website.
 
 >[!NOTE]
 >
->If an Admin user (merchant) cancels the billing agreement, it cannot be cancelled on the storefront. The _Canceled_ status is displayed for this agreement.
+>If an Admin user (merchant) cancels the billing agreement, it cannot be canceled on the storefront. The _Canceled_ status is displayed for this agreement.

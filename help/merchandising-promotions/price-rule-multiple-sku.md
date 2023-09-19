@@ -2,6 +2,7 @@
 title: Catalog price rule with multiple SKUs
 description: Learn how to apply a single catalog price rule to multiple SKUs.
 exl-id: 99023460-0501-45cd-8990-5f2b9ed7b4a2
+feature: Merchandising, Price Rules, Catalog Management
 ---
 # Catalog price rule with multiple SKUs
 
@@ -34,23 +35,25 @@ Before you begin, make sure that the [Storefront Properties](../catalog/attribut
 
     - In the first line, set the first parameter to `ANY`.
 
-      ![Catalog price rule condition - ANY](./assets/multiple-skus-condition1.png)<!-- zoom -->
+      ![Catalog price rule condition - ANY](./assets/multiple-skus-condition1.png){width="600" zoomable="yes"}
 
     - Click _Add_ (![Add icon](../assets/icon-add-green-circle.png)) at the beginning of the next line and in the list under **[!UICONTROL Product Attribute]**, click `SKU`.
 
-      ![Catalog price rule condition - SKU is one of](./assets/multiple-skus-condition1a.png)<!-- zoom -->
+      ![Catalog price rule condition - SKU is one of](./assets/multiple-skus-condition1a.png){width="600" zoomable="yes"}
 
     - For the comparison, you have options. If you want to locate at least one from a list of SKUs, `select is one of`. If you want to locate a group of SKUs that all must be found to apply, select `is`. We recommend selecting `is one of`.
 
-      ![Catalog price rule condition - SKU is one of](./assets/multiple-skus-condition1b.png)<!-- zoom -->
+      ![Catalog price rule condition - SKU is one of](./assets/multiple-skus-condition1b.png){width="600" zoomable="yes"}
 
     - To complete the condition, click the more (**…**) link and click the _Chooser_ (![List icon](../assets/icon-list-chooser.png)) icon for the list of available products.
 
-      ![Catalog price rule condition - multiple SKUs](./assets/multiple-skus-condition2b.png)<!-- zoom -->
+      ![Catalog price rule condition - multiple SKUs](./assets/multiple-skus-condition2b.png){width="600" zoomable="yes"}
 
-    - Browse, filter, or search to find the SKUs you want to add. In the list, select the checkbox of each product that is to be included. Click **[!UICONTROL Save and Apply]** to add the SKUs to the condition.
+    - Browse, filter, or search to find the SKUs you want to add. In the list, select the checkbox of each product that is to be included.
+    
+    - Click **[!UICONTROL Save and Apply]** to add the SKUs to the condition.
 
-      ![Catalog price rule condition - multiple SKUs](./assets/multiple-skus-condition2.png)<!-- zoom -->
+      ![Catalog price rule condition - multiple SKUs](./assets/multiple-skus-condition2.png){width="600" zoomable="yes"}
 
 1. Complete the rule, including any [Actions](price-rules-catalog.md) to be taken when the conditions are met.
 

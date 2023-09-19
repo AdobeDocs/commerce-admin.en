@@ -1,13 +1,14 @@
 ---
 title: Guest checkout
-description: Learn how to provide support for guest checkout on your store.
+description: Learn how to enable guest checkout capabilities on your store.
 exl-id: ce25eba3-7503-46aa-a5cd-9b7d5662164b
+feature: Checkout
 ---
 # Guest checkout
 
 Your store can be configured to require shoppers to open an account before making a purchase. The default setting allows guests to make purchases, with an option to register for an account after they complete the checkout process.
 
-![Luma store displays Check Out as Guest](./assets/storefront-checkout-as-guest.png)<!-- zoom -->
+![Luma store displays Check Out as Guest](./assets/storefront-checkout-as-guest.png){width="600" zoomable="yes"}
 
 **_To disable guest checkout:_**
 
@@ -17,7 +18,7 @@ Your store can be configured to require shoppers to open an account before makin
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Checkout Options]** section.
 
-   ![Checkout options expanded on the configuration page](../configuration-reference/sales/assets/checkout-checkout-options.png)<!-- zoom -->
+   ![Checkout options expanded on the configuration page](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
 
   For a detailed description of each of these configuration settings, see [Checkout Options](../configuration-reference/sales/checkout.md#checkout-options) in the _Configuration Reference Guide_.
 

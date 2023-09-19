@@ -2,6 +2,7 @@
 title: Assign Sources per Product
 description: Learn how to assign an inventory source to a product.
 exl-id: 7e47be25-633e-4f5d-bb61-0d9e79b6dbad
+feature: Inventory, Products
 ---
 # Assign Sources per Product
 
@@ -23,13 +24,13 @@ Before modifying quantities and settings, you must assign [sources](sources-mana
    >
    >Currently, only Simple, Configurable, Virtual, Downloadable, and Grouped products support multiple sources. Bundle products can be created and managed with only the Default Source and Stock.
 
-   ![Product Sources section](assets/inventory-product-sources-before.png)
+   ![Product Sources section](assets/inventory-product-sources-before.png){width="600" zoomable="yes"}
 
 1. To add a source, click **[!UICONTROL Assign Sources]**.
 
 1. On the _[!UICONTROL Assign Sources]_ page, select the checkbox next to each source that you want to assign for the product.
 
-   ![Product - assign sources](assets/inventory-product-assign-sources.png)
+   ![Product - assign sources](assets/inventory-product-assign-sources.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Done]** to add the sources.
 

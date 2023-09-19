@@ -2,22 +2,23 @@
 title: Stored payment methods
 description: Learn how customers can use stored payment methods on your Commerce storefront.
 exl-id: 5e264f84-1891-4ee9-8ebe-55ac9c93ab8c
+feature: Payments
 ---
 # Stored payment methods
 
 Customers with access to a secure vault for storing payment information can speed through checkout without entering their credit card information each time. If [Instant Purchase](checkout-instant-purchase.md) is enabled, customers can bypass the two-step checkout process and place the order from the product page.
 
-A payment method that supports a secure vault, such as [Braintree](braintree.md), is required. When a secure vault is enabled in the payment method configuration, customers will have the option during checkout to save their credit card information as a stored payment method. Customers can manage stored payment methods from their account dashboard.
+A payment method that supports a secure vault, such as [Braintree](braintree.md), is required. When a secure vault is enabled in the payment method configuration, customers have the option during checkout to save their credit card information as a stored payment method. Customers can manage stored payment methods from their account dashboard.
 
-![Stored Payment Methods](./assets/customer-account-stored-payment-methods.png)<!-- zoom -->
+![Stored Payment Methods](./assets/customer-account-stored-payment-methods.png){width="700" zoomable="yes"}
 
-## Add stored payment method from checkout
+## Add stored payment method at checkout
 
 1. From the storefront, the customer goes to the detail page of the product.
 
 1. Adds product to the cart.
 
-1. Proceeds to checkout.
+1. Proceeds to the checkout page.
 
 1. Completes the _Shipping_ step.
 

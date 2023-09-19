@@ -2,12 +2,13 @@
 title: Adobe Stock Integration
 description: Integrate Adobe Stock with your [!DNL Commerce] instance to access to countless media assets for use in your store.
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
+feature: CMS, Media, Configuration, Integration
 ---
 # Adobe Stock Integration
 
 To get access to countless media assets for use in your store, integrate [Adobe Stock][adobe-stock] with [!UICONTROL Commerce].
 
-![Adobe Stock Search Results](./assets/adobe-stock-search-grid.png)<!-- zoom -->
+![Adobe Stock Search Results](./assets/adobe-stock-search-grid.png){width="700" zoomable="yes"}
 
 The Adobe Stock service provides businesses with access to millions of high-quality, curated, royalty-free photos, vectors, illustrations, videos, templates, and 3D assets for all their creative projects. [!DNL Commerce] users are able to quickly find, preview, and license Adobe Stock assets. Users can also save them to the [media storage][media-storage], all without leaving the Admin workspace.
 
@@ -25,7 +26,10 @@ Licensing Adobe Stock images requires:
 
 ## Integrate [!DNL Commerce] and Adobe Stock
 
-Configuring the Adobe Stock integration for Adobe Commerce is a two-step process: [create an adobe.developer integration](#create-an-adobe-developer-integration) to generate an API Key, and then [configure the Adobe Stock integration in your [!DNL Commerce] Admin](#configure-the-adobe-stock-integration).
+Configuring the Adobe Stock integration for Adobe Commerce is a two-step process: 
+
+1. [Create an adobe.developer integration](#create-an-adobe-developer-integration) to generate an API Key
+1. [Configure the Adobe Stock integration in the Commerce Admin](#configure-the-adobe-stock-integration)
 
 ### Create an Adobe Developer integration
 
@@ -55,11 +59,11 @@ Configuring the Adobe Stock integration for Adobe Commerce is a two-step process
 
 1. Click **[!UICONTROL Next]**.
 
-1.  Review thw available scopes and click **[!UICONTROL Save configured API]**.
+1. Review thw available scopes and click **[!UICONTROL Save configured API]**.
 
 1. On the page that follows, copy your **[!UICONTROL Client ID]** (API key) and **[!UICONTROL Client secret]**.
 
-   This information is used in steps of the [next section][configure].
+   This information is used in steps of the next section.
 
 ### Configure the Adobe Stock integration
 
@@ -79,7 +83,7 @@ To set the system configuration in your [!DNL Commerce] Admin, use the _API Key_
 
    - Click **[!UICONTROL Test Connection]** to validate your keys.
 
-   ![Advanced configuration - Adobe Stock integration](./assets/system-adobe-stock-integration.png)<!-- zoom -->
+   ![Advanced configuration - Adobe Stock integration](./assets/system-adobe-stock-integration.png){width="600" zoomable="yes"}
 
    Give the validation a few seconds. If your credentials are valid, you should see a green _Connection Successful!_ message.
 

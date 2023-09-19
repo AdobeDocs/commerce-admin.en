@@ -2,12 +2,13 @@
 title: Manage product images and videos
 description: Learn about managing image and video assets for your product listings.
 exl-id: 3cb4ab8a-8966-400f-be94-a517634d1334
+feature: Catalog Management, Products, Media
 ---
 # Manage product images and videos
 
 For each product, you can upload multiple images and videos, rearrange their order, and control how each is used. If you have a large quantity of images to manage, you may prefer to import them as a batch, rather than upload each one individually. For more information, see [Import product images](../systems/data-import-product-images.md).
 
-If you plan to upload large images for viewing on the _[!UICONTROL Product Details]_ page, you may want to consider setting a maximum pixel size (width and height) and automatically resize the files at upload. We provide an option to enable automatic resizing of larger image files as you upload. For more information, see [Product image resizing](product-image-config.md#product-image-resizing).
+If you plan to upload large images for viewing on the _[!UICONTROL Product Details]_ page, you may want to consider setting a maximum pixel size (width and height) and automatically resize the files at upload. There is an option to enable automatic resizing of larger image files as you upload. For more information, see [Product image resizing](product-image-config.md#product-image-resizing).
 
 ## Update the product images
 
@@ -29,17 +30,17 @@ The image file name length, including extension, cannot exceed 90 characters.
 
 To upload an image, do one of the following:
 
-- Drag an image from your desktop and drop it on the _Camera_ ( ![Camera icon](../assets/icon-camera.png)) tile in the _[!UICONTROL Images And Videos]_ box.
+- Drag an image from your desktop and drop it on the _Camera_ ( ![Camera icon](../assets/icon-camera.png) ) tile in the _[!UICONTROL Images And Videos]_ box.
 
-- In the _[!UICONTROL Images And Videos]_ box, click the _Camera_ ( ![Camera icon](../assets/icon-camera.png)) tile, select the image file on your computer, and click **[!UICONTROL Open]**.
+- In the _[!UICONTROL Images And Videos]_ box, click the _Camera_ ( ![Camera icon](../assets/icon-camera.png) ) tile, select the image file on your computer, and click **[!UICONTROL Open]**.
 
-   ![Upload or Drag and Drop](./assets/product-images-and-video-jewel-tee.png)<!-- zoom -->
+   ![Upload or Drag and Drop](./assets/product-images-and-video-jewel-tee.png){width="600" zoomable="yes"}
 
 ### Rearrange images
 
 To change the order of images in the gallery, click the _[!UICONTROL Sort]_ ( ![Sort icon](./assets/inventory-icon-sort.png) ) icon at the bottom of the image tile and  drag the image to a different position in the _[!UICONTROL Images And Videos]_ box.
 
-![Change Order](./assets/product-images-and-videos-drag.png)<!-- zoom -->
+![Change Order](./assets/product-images-and-videos-drag.png){width="600" zoomable="yes"}
 
 ### Delete an image
 
@@ -49,7 +50,7 @@ To remove an image from the gallery, click the **[!UICONTROL Delete]** ( ![Tras
 
 Click the image that you want to open in detail view and do any of the following:
 
-   ![Image Detail View](./assets/product-image-detail-jewel-tee.png)<!-- zoom -->
+   ![Image Detail View](./assets/product-image-detail-jewel-tee.png){width="600" zoomable="yes"}
 
    To close detail view, click the _Close_ ( ![Close icon](../assets/icon-close-x.png) ) icon in the upper-right corner.
 
@@ -69,13 +70,13 @@ In the _[!UICONTROL Role]_ box, choose the role that you want to assign to the i
 
 When you return to the _Images and Videos_ section, the currently assigned roles appear below each image.
 
-![Assigned Roles](./assets/product-images-video-swatch.png)<!-- zoom -->
+![Assigned Roles](./assets/product-images-video-swatch.png){width="600" zoomable="yes"}
 
 #### Hide an image
 
 To exclude an image from the thumbnail gallery, select the **[!UICONTROL Hidden]** checkbox and click **[!UICONTROL Save]**.
 
-![Hidden Images](./assets/product-images-and-videos-hidden.png)<!-- zoom -->
+![Hidden Images](./assets/product-images-and-videos-hidden.png){width="600" zoomable="yes"}
 
 ## Image roles
 
@@ -98,37 +99,40 @@ The watermark used for the _small_ image in the following example is a black log
 - Opacity: 5
 - Position: Tile
 
-![Tiled watermark](./assets/storefront-watermark-tiled.png)<!-- zoom -->
+![Tiled watermark](./assets/storefront-watermark-tiled.png){width="700" zoomable="yes"}
 
 ### Add watermarks to product images
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Design]_ > **[!UICONTROL Configuration]**.
 
-   For more information about design configurations, see [Design Configuration](../content-design/configuration.md).
+   For more information about design configurations, see [Design configuration](../content-design/configuration.md).
 
 1. Find the store view that you want to configure and click **[!UICONTROL Edit]** in the _[!UICONTROL Action]_ column.
 
 1. Under _[!UICONTROL Other Settings]_, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Product Image Watermarks]** section.
 
-1. Complete the **[!UICONTROL Base]**, **[!UICONTROL Thumbnail]**, **[!UICONTROL Small]**, and **[!UICONTROL Swatch Image]** image settings as follows.
+   ![Product Image Watermarks - Base](./assets/config-design-product-image-watermarks-base.png){width="600" zoomable="yes"}
 
-   The fields in each section are the same.
+   The **[!UICONTROL Base]**, **[!UICONTROL Thumbnail]**, **[!UICONTROL Small]**, and **[!UICONTROL Swatch Image]** image settings are the same.
+
+1. Use one of the following methods to add the watermark image asset:
+
+   - Click **[!UICONTROL Upload]** and choose the image file on your system that you want to upload for use as a watermark.
+   - Click **[!UICONTROL Select from Gallery]** and select an image asset from the [Media Gallery](../content-design/media-gallery.md).
+
+1. Complete the settings for the watermark display:
 
    - Enter the **[!UICONTROL Image Opacity]** as a percentage. For example: `40`
 
    - Enter the **[!UICONTROL Image Size]** in pixels. For example: `200 x 200`
 
-   - Click **[!UICONTROL Upload]** and choose the image file that you want to use.
-
    - Set **[!UICONTROL Image Position]** to determine where the watermark appears.
-
-   ![Product Image Watermarks - Base](./assets/config-design-product-image-watermarks-base.png)<!-- zoom -->
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
 1. When prompted to refresh the cache, click **[!UICONTROL Cache Management]** in the system message and refresh the invalid cache.
 
-   ![Refresh Cache](./assets/msg-cache-management.png)<!-- zoom -->
+   ![Refresh Cache](./assets/msg-cache-management.png){width="600" zoomable="yes"}
 
 >[!TIP]
 >
@@ -138,7 +142,7 @@ The watermark used for the _small_ image in the following example is a black log
 
 1. In the lower-left corner of the image, click the **[!UICONTROL Delete]** ( ![Trash icon](../assets/icon-delete-trashcan-solid.png) ) icon.
 
-   ![Delete Watermark](./assets/product-image-watermark-delete.png)<!-- zoom -->
+   ![Delete Watermark](./assets/product-image-watermark-delete.png){width="300"}
 
 1. Click **[!UICONTROL Save Config]**.
 

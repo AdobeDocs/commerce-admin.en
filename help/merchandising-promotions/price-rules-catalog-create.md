@@ -2,6 +2,7 @@
 title: Create a catalog price rule
 description: Learn how to create a catalog price rule that applies a discount to specific products whenever a set of conditions is met.
 exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
+feature: Merchandising, Price Rules, Catalog Management
 ---
 # Create a catalog price rule
 
@@ -15,7 +16,7 @@ Follow these instructions to apply a discount to specific products whenever a se
 
    The _[!UICONTROL Rule Information]_ section includes expandable sections for **[!UICONTROL Conditions]** and **[!UICONTROL Actions]**.
 
-   ![Catalog price rule - information](./assets/price-rule-catalog-new-ee.png)<!-- zoom -->
+   ![Catalog price rule - information](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
 1. Complete the **[!UICONTROL Rule Name]** and **[!UICONTROL Description]** fields.
 
@@ -55,6 +56,10 @@ Most of the available conditions are based on existing attribute values. To appl
 
 >[!NOTE]
 >
+>If at least one conditional product attribute has an empty value, the catalog price rule is not applied to the product.
+
+>[!NOTE]
+>
 >To apply a `Category` product attribute condition to any [bundle](../catalog/product-create-bundle.md) or [grouped](../catalog/product-create-grouped.md) product, all child products must be assigned to the same category for the rule to apply correctly. If not, you can use a [Cart Price Rule](price-rules-cart-create.md) promotion instead.
 
 1. Scroll down and expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Conditions]** section.
@@ -63,7 +68,7 @@ Most of the available conditions are based on existing attribute values. To appl
 
       `If **ALL** of these conditions are **TRUE**:`
 
-   ![Catalog price rule - condition line 1](./assets/catalog-condition1.png)<!-- zoom -->
+   ![Catalog price rule - condition line 1](./assets/catalog-condition1.png){width="400"}
 
    The statement has two bold links that you can click to display the selection of options for that part of the statement. You can create different conditions by changing the combination of these values. 
    
@@ -81,7 +86,7 @@ Most of the available conditions are based on existing attribute values. To appl
 
    For this example, the condition is `Attribute Set`.
 
-   ![Catalog price rule - condition line 2](./assets/catalog-condition2.png)<!-- zoom -->
+   ![Catalog price rule - condition line 2](./assets/catalog-condition2.png){width="400"}
 
    >[!NOTE]
    >
@@ -99,11 +104,11 @@ Most of the available conditions are based on existing attribute values. To appl
 
    These options may include an option for different comparisons. In this example, the options are `is` and `is not`.
 
-1. Select or enter values for the condition. Depending on the condition, you may select products from a grid or list, enter a numerical value, and so on.
+1. Select or enter values for the condition. 
 
-   For this example, click the (**...**) more link and choose the attribute set upon which the condition is based.
+   Depending on the condition, you may select products from a grid or list, enter a numerical value, and so on.
 
-   ![Catalog price rule - condition line 2](./assets/catalog-condition3.png)<!-- zoom -->
+   ![Catalog price rule - condition line 2](./assets/catalog-condition3.png){width="400"}
 
    The selected item appears in the statement to complete the condition.
 
@@ -122,7 +127,7 @@ Most of the available conditions are based on existing attribute values. To appl
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png)the **[!UICONTROL Actions]** section and do the following:
 
-   ![Catalog price rule - actions](./assets/price-rule-catalog-actions.png)<!-- zoom -->
+   ![Catalog price rule - actions](./assets/price-rule-catalog-actions.png){width="600" zoomable="yes"}
 
 1. Under **[!UICONTROL Pricing Structure Rules]**, set **[!UICONTROL Apply]** to one of the following:
 
@@ -159,7 +164,9 @@ Most of the available conditions are based on existing attribute values. To appl
 
 1. Select the checkbox in the first column to associate the dynamic block with the rule.
 
-   ![Catalog price rule - related dynamic blocks](./assets/price-rule-catalog-related-dynamic-blocks.png)<!-- zoom -->
+   ![Catalog price rule - related dynamic blocks](./assets/price-rule-catalog-related-dynamic-blocks.png){width="600" zoomable="yes"}
+
+1. Click **[!UICONTROL Save and Continue Edit]**.
 
 ## Step 5: Schedule the rule
 
@@ -169,11 +176,9 @@ Most of the available conditions are based on existing attribute values. To appl
 >
 >Setting the rule to active must be added as a scheduled update. To learn more, see [Scheduled Changes](price-rule-catalog-scheduled-changes.md).
 
-1. Click **[!UICONTROL Save and Continue Edit]**.
+1. In the _Scheduled Changes_ box, click **[!UICONTROL Schedule New Update]** at the top of the box).
 
-   ![Catalog price rules - scheduled changes](./assets/price-rule-scheduled-changes-new.png)<!-- zoom -->
-
-1. In the _Scheduled Changes_ box, click **[!UICONTROL View/Edit]** to the right of the listed change (or you can click **[!UICONTROL Schedule New Update]** at the top of the box).
+   If the rule has an existing scheduled update, you can click **[!UICONTROL View/Edit]** to the right of the listed change.
 
    You can either edit the existing update or assign the catalog price rule to another campaign. The **Edit Existing Update** option is selected by default.
 
@@ -181,9 +186,11 @@ Most of the available conditions are based on existing attribute values. To appl
 
    You can either enter the dates or choose the dates from the _Calendar_ (![Calendar icon](../assets/icon-calendar.png)).
 
-   ![Catalog price rule - update schedule](./assets/price-rule-catalog-schedule-update.png)<!-- zoom -->
+   ![Catalog price rule - update schedule](./assets/price-rule-catalog-schedule-update.png){width="600" zoomable="yes"}
 
-1. Scroll to the _Rule Information_ section and set the **[!UICONTROL Status]** to `active`.
+1. Click **[!UICONTROL Save]**.
+
+1. In the _Rule Information_ section, set the **[!UICONTROL Status]** to `active`.
 
 ## Step 6: Save and test the rule
 
@@ -191,13 +198,11 @@ Most of the available conditions are based on existing attribute values. To appl
 
    - ![Magento Open Source](../assets/open-source.svg) (Magento Open Source only) Click **[!UICONTROL Save and Apply]**.
 
-      ![Catalog price rules - pricing structures](./assets/price-rule-catalog-saved.png)<!-- zoom -->
-
    - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Click **[!UICONTROL Save]**.
 
       The Rule Information page displays an updated timeline in the Scheduled Changes for the rule.
 
-      ![Catalog price rules - scheduled changes](./assets/price-rule-scheduled-changes-updated.png)<!-- zoom -->
+      ![Catalog price rules - scheduled changes](./assets/price-rule-scheduled-changes-updated.png){width="600" zoomable="yes"}
 
 1. Update properties for a rule:
 
