@@ -166,3 +166,5 @@ Hover over the container to display the toolbox and choose an option.
 | Remove    | ![Remove](./assets/pb-icon-remove.png){width="25"} | Deletes the current content container from the stage. |
 
 {style="table-layout:auto"}
+
+{{$include /help/_includes/page-builder-hidden-element-note.md}}

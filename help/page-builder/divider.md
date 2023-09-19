@@ -30,6 +30,8 @@ Although most divider containers are invisible, the following example displays t
 
 {style="table-layout:auto"}
 
+{{$include /help/_includes/page-builder-hidden-element-note.md}}
+
 ## Add a divider
 
 1. In the [!DNL Page Builder] panel, expand **[!UICONTROL Elements]** and drag a **[!UICONTROL Divider]** placeholder to a row, column, or tab set on the stage.
