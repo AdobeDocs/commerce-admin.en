@@ -26,7 +26,7 @@ The B2B v1.4.2 release includes quality improvements and bug fixes
 
 ![Fixed issue](../assets/fix.svg) <!--B2B-2897-->The Storefront shows a **requested quote was not found** error message when that product is not associated with shared catalog and seller tries to send the quote. Previously, the quote failed to load on the storefront.
 
-![Fixed issue](../assets/fix.svg) <!--B2B-3108-->Previously, selected products do not apply the new custom price.
+![Fixed issue](../assets/fix.svg) <!--B2B-3108-->Previously, new custom price was not updated on selected products.
 
 ![Fixed issue](../assets/fix.svg) <!--ACP2E-1862-->If the company registration form includes a customer file type attribute, the file uploaded during the registration process is now included in the account information for the Company Administrator after the company is created. Previously, the attachment was missing.
 
