@@ -16,11 +16,29 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 >
 >See [Product availability](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) for information about versions of the B2B Commerce extension supported for available Adobe Commerce releases.
 
+## B2B v1.4.2
+
+*October 10, 2023*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Supported on Adobe Commerce 2.4.7.
+
+The B2B v1.4.2 release includes quality improvements and bug fixes.
+
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1825-->Purchase orders can no longer be placed by a user associated with the company after the company has been blocked. Previously, a user associated with the company could place purchase orders when the company was blocked.
+
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1943-->Product backordered status is now displayed correctly on the storefront. Previously, products that were available for shipment were incorrectly identified as backordered.
+
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1862-->If the company registration form includes a customer file type attribute, the file uploaded during the registration process is now included in the account information for the Company Administrator after the company is created. Previously, the attachment was missing.
+
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1793-->The swatch selector for a configurable product is now displayed as expected in the requisition list item configuration page. Previously, the swatch selector was displayed as a dropdown field in the requisition list item configuration page.
+
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1968-->When using the [Company GraphQL query](https://developer.adobe.com/commerce/webapi/graphql/schema/b2b/company/queries/company/#return-the-company-structure) to return company details, results are now returned successfully without error.
+
 ## B2B v1.4.1
 
 *August 7, 2023*
 
-[!BADGE Compatibility]{type=Informative tooltip="Supported Versions"} Supported on [Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Compatible with Adobe Commerce 2.4.7-beta1.
+[!BADGE Supported]{type=Informative tooltip="Supported"} Supported on [Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Compatible with Adobe Commerce 2.4.7-beta1.
 
 The B2B v1.4.1 release includes quality improvements and bug fixes.
 
@@ -38,7 +56,7 @@ The B2B v1.4.1 release includes quality improvements and bug fixes.
 
 *June 13, 2023*
 
-[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Supported on [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Compatible with Adobe Commerce 2.4.7-beta1
+[!BADGE Supported]{type=Informative tooltip="Supported"} Supported on [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Compatible with Adobe Commerce 2.4.7-beta1
 
 This release includes new capabilities and enhancements for B2B negotiable quotes and multiple bug fixes.
 
@@ -138,7 +156,7 @@ Successfully install or upgrade to B2B version 1.4.0 on Adobe Commerce 2.4.6-p1 
 
 *March 14, 2023*
 
-[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce 2.4.0 - 2.4.6 and newer versions
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.0 - 2.4.6 and newer versions
 
 ![New](../assets/new.svg) Released B2B version 1.3.5-p2 to support compatibility with Adobe Commerce 2.4.6-p2.
 
@@ -174,7 +192,7 @@ Successfully install or upgrade to B2B version 1.4.0 on Adobe Commerce 2.4.6-p1 
 
 *August 9, 2022*
 
-[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce 2.4.0 and newer versions
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.0 and newer versions
 
 ![New](../assets/new.svg) Added support for Adobe Commerce 2.4.5.
 
@@ -208,7 +226,7 @@ Successfully install or upgrade to B2B version 1.4.0 on Adobe Commerce 2.4.6-p1 
 
 *August 9, 2022*
 
-[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce 2.4.0 and newer versions
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.0 and newer versions
 
 ![New](../assets/new.svg) Added support for Adobe Commerce 2.4.4.
 
@@ -260,7 +278,7 @@ Successfully install or upgrade to B2B version 1.4.0 on Adobe Commerce 2.4.6-p1 
 
 *August 29, 2022*
 
-[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce 2.4.0 and newer versions
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.0 and newer versions
 
 ![New](../assets/new.svg) Added support for Adobe Commerce 2.4.3.
 
@@ -356,7 +374,7 @@ Successfully install or upgrade to B2B version 1.4.0 on Adobe Commerce 2.4.6-p1 
 
 *February 9, 2021*
 
-[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce 2.4.0 and newer versions
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.0 and newer versions
 
 ![New](../assets/new.svg) Added support for Adobe Commerce 2.4.2.
 
@@ -424,7 +442,7 @@ Successfully install or upgrade to B2B version 1.4.0 on Adobe Commerce 2.4.6-p1 
 
 *October 15, 2020*
 
-[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce 2.4.0 and newer versions
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.0 and newer versions
 
 This release includes improvements to order approvals, shipping methods, shopping cart, and logging of Admin actions.
 
@@ -506,7 +524,7 @@ This release includes improvements to order approvals, shipping methods, shoppin
 
 *July 28, 2020*
 
-[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce 2.4.0 and newer versions
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.0 and newer versions
 
 ![New](../assets/new.svg) Added support for Adobe Commerce 2.4.0.
 
