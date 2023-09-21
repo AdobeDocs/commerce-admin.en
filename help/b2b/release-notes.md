@@ -26,11 +26,17 @@ The B2B v1.4.2 release includes quality improvements and bug fixes
 
 ![Fixed issue](../assets/fix.svg) <!--B2B-2897-->The Storefront shows a **requested quote was not found** error message when that product is not associated with shared catalog and seller tries to send the quote. Previously, the quote failed to load on the storefront.
 
-![Fixed issue](../assets/fix.svg) <!--B2B-3108-->Previously, new custom price was not updated on selected products.
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1984-->Merchants clicking the **[!UICONTROL Print]** button (Admin **[!UICONTROL Sales]** > **[!UICONTROL Quotes]** ) are now prompted to save the quote as a PDF. Previously, merchants were redirected to a page that contained quote details.
 
-![Fixed issue](../assets/fix.svg) <!--ACP2E-1862-->If the company registration form includes a customer file type attribute, the file uploaded during the registration process is now included in the account information for the Company Administrator after the company is created. Previously, the attachment was missing.
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1742-->Previously when sending a customer quote with 0 percentage and changing quantity, the admin throws an exception but saved the quantity. After this fix applies, for the 0 percentage proper exception with a message will be thrown.
 
-![Fixed issue](../assets/fix.svg) <!--ACP2E-1793-->The swatch selector for a configurable product is now displayed as expected in the requisition list item configuration page. Previously, the swatch selector was displayed as a dropdown field in the requisition list item configuration page.
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1792-->The `sales_clean_quotes` cron process has been optimized to run faster by adding a composite index on `store_id` and `updated_at columns` in the quote table. This change improves cron job performance when processing many quotes.
+
+![Fixed issue](../assets/fix.svg) <!--ACP2E-2097-->Fixed issue when "ReCaptcha validation failed, please try again" would appear during a checkout with a B2B quote and ReCaptcha V3 is set for storefront checkout.
+
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1825-->Purchase orders can no longer be placed by a user associated with the company after the company has been blocked. Previously, a user associated with the company could place purchase orders when the company was blocked.
+
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1933-->Company admins can now add company users from the storefront. Previously, Commerce logged this error when admin user tried to add a new user: `report.CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
 
 ## B2B v1.4.1
 
