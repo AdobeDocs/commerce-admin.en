@@ -1,20 +1,20 @@
 ---
-title: Add an Item to a Campaign
-description: Review this campaign example used to add a promotional image to the category page for the duration of the campaign.
+title: Add an item to a campaign
+description: Review this campaign example used to add a promotional image to the category page during the campaign.
 exl-id: cd46b657-2586-46dd-beab-42f42d3476b6
 feature: Page Content, Staging
 ---
-# Add an Item to a Campaign
+# Add an item to a campaign
 
 {{ee-feature}}
 
-The following example adds a promotional image to the category page for the duration of the campaign. You can also do the same for a product page or CMS page.
+The following example adds a promotional image to the category page during the campaign. You can also do the same for a product page or CMS page.
 
 ## Add the campaign item for a category
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
-1. Locate the category you want use in the campaign and open it in edit mode.
+1. Locate the category that you want to use in the campaign and open it in edit mode.
 
 1. Click **[!UICONTROL Schedule New Update]**.
 
@@ -45,4 +45,4 @@ The following example adds a promotional image to the category page for the dura
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) **[!UICONTROL Categories]** to view the list of assigned categories.
 
-1. Return to the dashboard, click the campaign again, and then click **[!UICONTROL Preview]** to review the pages for the category when the campaign is active.
+1. To review the pages for the category when the campaign is active, return to the dashboard, click the campaign again, and then click **[!UICONTROL Preview]**.

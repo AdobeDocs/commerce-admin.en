@@ -10,7 +10,7 @@ Use the _Product Recommendations_ content type to add an existing, active [recom
 
 >[!NOTE]
 >
->The [!DNL Page Builder] _Product Recommendations_ content type is supported in Adobe Commerce 2.3.1 and later and available in the [Product Recommendations metapackage versions 3.0.x or later](https://marketplace.magento.com/magento-product-recommendations.html). To add [!DNL Page Builder] support for Product Recommendations, [see the installation information](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html#pbsupport). **This content type is not available for Magento Open Source.**
+>The [!DNL Page Builder] _Product Recommendations_ content type is supported in Adobe Commerce 2.4.4 and later and available in the [Product Recommendations metapackage versions 3.0.x or later](https://marketplace.magento.com/magento-product-recommendations.html). To add [!DNL Page Builder] support for Product Recommendations, [see the installation information](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html#pbsupport). **This content type is not available for Magento Open Source.**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -26,6 +26,8 @@ Use the _Product Recommendations_ content type to add an existing, active [recom
 | Remove | ![Remove icon](./assets/pb-icon-remove.png){width="25"} | Deletes the product recommendation container and its content from the stage. |
 
 {style="table-layout:auto"}
+
+{{$include /help/_includes/page-builder-hidden-element-note.md}}
 
 ## Add an existing recommendation unit
 
