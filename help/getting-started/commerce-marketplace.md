@@ -20,8 +20,8 @@ The following resources provide a starting point for new adopters to familiarize
 
 ### Commerce resources:
 
--  [Setting up I/O Events for Adobe Commerce](https://developer.adobe.com/commerce/events/get-started/)
--  [Configuring Events for Adobe Commerce](https://developer.adobe.com/commerce/events/get-started/configure-commerce/)
+-  [Setting up I/O Events for Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/)
+-  [Configuring Events for Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/)
 -  [Setting up Admin UI SDK](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
 -  [Converting an extension to an app](https://developer.adobe.com/commerce/extensibility/app-development/#how-do-i-port-an-extension-into-an-app)
 
