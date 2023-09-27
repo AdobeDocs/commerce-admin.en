@@ -14,16 +14,20 @@ Although you can purchase extensions from other sources, only the extensions tha
 
 ## App resources
 
-The following resources apply to Marketplace apps:
+Developers have traditionally used PHP to create in-process extensions to add features, functionality, services, and integrations to Adobe Commerce. By creating apps with out-of-process extensibility, as opposed to extensions, you can avoid compatibility issues.
+
+The following resources provide a starting point for new adopters to familiarize themselves with apps:
 
 ### Commerce resources:
 
 -  [Setting up I/O Events for Adobe Commerce](https://developer.adobe.com/commerce/events/get-started/)
 -  [Configuring Events for Adobe Commerce](https://developer.adobe.com/commerce/events/get-started/configure-commerce/)
 -  [Setting up Admin UI SDK](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
+-  [Converting an extension to an app](https://developer.adobe.com/commerce/extensibility/app-development/#how-do-i-port-an-extension-into-an-app)
 
 ### App Builder resources:
 
+-  [Commerce App Builder Overview](https://developer.adobe.com/commerce/extensibility/app-development/)
 -  [Setting up API Mesh for Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
 -  [Deploying App Builder apps](https://developer.adobe.com/app-builder/docs/guides/deployment/)
 -  [CI/CD for App Builder apps](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
