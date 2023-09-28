@@ -20,7 +20,7 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 
 *October 10, 2023*
 
-[!BADGE Supported]{type=Informative tooltip="Supported"} Supported on Adobe Commerce 2.4.7.
+[!BADGE Supported]{type=Informative tooltip="Supported"} Supported on Adobe Commerce 2.4.7-beta releases.
 
 The B2B v1.4.2 release includes quality improvements and bug fixes
 
@@ -30,13 +30,13 @@ The B2B v1.4.2 release includes quality improvements and bug fixes
 
 ![Fixed issue](../assets/fix.svg) <!--ACP2E-1742-->Previously when sending a customer quote with 0 percentage and changing quantity, the admin throws an exception but saved the quantity. After this fix applies, for the 0 percentage proper exception with a message will be thrown.
 
-![Fixed issue](../assets/fix.svg) <!--ACP2E-1792-->The `sales_clean_quotes` cron process has been optimized to run faster by adding a composite index on `store_id` and `updated_at columns` in the quote table. This change improves cron job performance when processing many quotes.
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1742-->During quote negotiation, a seller can now specify a `0%` discount in the Negotiated Quote quote discount field and send the quote back to the buyer. Previously, if the seller entered a 0% discount and sent the quote back to the buyer, the Admin returned an `Exception occurred during quote sending` error message.
 
-![Fixed issue](../assets/fix.svg) <!--ACP2E-2097-->Fixed issue when "ReCaptcha validation failed, please try again" would appear during a checkout with a B2B quote and ReCaptcha V3 is set for storefront checkout.
+![Fixed issue](../assets/fix.svg) <!--ACP2E-2097-->ReCaptcha validation now works correctly during the checkout process for a B2B quote when ReCaptcha V3 is configured for storefront checkout. Previously,  the validation failed with a "ReCaptcha validation failed, please try again" error message.
 
 ![Fixed issue](../assets/fix.svg) <!--ACP2E-1825-->Purchase orders can no longer be placed by a user associated with the company after the company has been blocked. Previously, a user associated with the company could place purchase orders when the company was blocked.
 
-![Fixed issue](../assets/fix.svg) <!--ACP2E-1933-->Company admins can now add company users from the storefront. Previously, Commerce logged this error when admin user tried to add a new user: `report.CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1933-->Company administrators can now add company users from the storefront. Previously, Commerce logged this error when admin user tried to add a new user: `report.CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
 
 ## B2B v1.4.1
 
