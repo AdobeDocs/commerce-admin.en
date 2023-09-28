@@ -24,15 +24,15 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 
 The B2B v1.4.2 release includes quality improvements and bug fixes
 
-![Fixed issue](../assets/fix.svg) <!--B2B-2897-->The Storefront shows a **requested quote was not found** error message when that product is not associated with shared catalog and seller tries to send the quote. Previously, the quote failed to load on the storefront.
+![Fixed issue](../assets/fix.svg) <!--B2B-2897-->The Storefront shows a `The SKU you entered is not available in the shared catalog. Please check the SKU and try again` error message when a product with an unavailable SKU is not associated with shared catalog and the seller tries to send the quote. Previously, a quote with an unavailable SKU is created with a product that is not in the shared catalog that the buyer is tied to, then the quote will fail to load on the storefront.
 
 ![Fixed issue](../assets/fix.svg) <!--ACP2E-1984-->Merchants clicking the **[!UICONTROL Print]** button (Admin **[!UICONTROL Sales]** > **[!UICONTROL Quotes]** ) are now prompted to save the quote as a PDF. Previously, merchants were redirected to a page that contained quote details.
 
-![Fixed issue](../assets/fix.svg) <!--ACP2E-1742-->Previously when sending a customer quote with 0 percentage and changing quantity, the admin throws an exception but saved the quantity. After this fix applies, for the 0 percentage proper exception with a message will be thrown.
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1742-->Previously when sending a customer quote with 0 percentage and changing quantity, the admin throws an exception but saved the quantity. After this fix applies, for the `0 percentage` proper exception with a message will be thrown.
 
 ![Fixed issue](../assets/fix.svg) <!--ACP2E-1742-->During quote negotiation, a seller can now specify a `0%` discount in the Negotiated Quote quote discount field and send the quote back to the buyer. Previously, if the seller entered a 0% discount and sent the quote back to the buyer, the Admin returned an `Exception occurred during quote sending` error message.
 
-![Fixed issue](../assets/fix.svg) <!--ACP2E-2097-->ReCaptcha validation now works correctly during the checkout process for a B2B quote when ReCaptcha V3 is configured for storefront checkout. Previously,  the validation failed with a "ReCaptcha validation failed, please try again" error message.
+![Fixed issue](../assets/fix.svg) <!--ACP2E-2097-->ReCaptcha validation now works correctly during the checkout process for a B2B quote when ReCaptcha V3 is configured for storefront checkout. Previously,  the validation failed with a `recaptcha validation failed, please try again` error message.
 
 ![Fixed issue](../assets/fix.svg) <!--ACP2E-1825-->Purchase orders can no longer be placed by a user associated with the company after the company has been blocked. Previously, a user associated with the company could place purchase orders when the company was blocked.
 
