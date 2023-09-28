@@ -1,6 +1,7 @@
 ---
 title: '[!DNL Admin Unified Experience for Adobe Commerce] release notes'
 description: Review the release notes for information about the latest release of the [!DNL Admin Unified Experience] extension for Commerce.
+exl-id: 8c4ab42a-cc82-4cc9-8d25-139c8f246f1d
 ---
 # Admin Unified Experience release notes
 
