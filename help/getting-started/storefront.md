@@ -59,7 +59,7 @@ Checkout process consists of two steps:
 1. Shipping Information
 
    The first step of the checkout process is for the customer to complete the shipping address information, and to choose the shipping method. If the customer has an account, the shipping address is entered automatically, but can be changed if needed.
-   If after entering an email address at the checkout page the guest customer is recognized as previously registered, the sign-in prompt will be displayed only if the Stores > Configuration > Sales > Checkout > Enable Guest Checkout Login field in the Admin is set to Yes. However, doing this can expose customer information to unauthenticated users.
+   If a guest customer enters an email address that is recognized as previously registered, the sign-in prompt is displayed if the [!UICONTROL Enable Guest Checkout Login] field in the store configuration is set to `Yes` (see [[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options) in the _Configuration Reference Guide_). However, this setting can expose customer information to unauthenticated users.
 
    ![Example storefront checkout page](./assets/storefront-checkout-shipping-full.png){width="700"}
 
