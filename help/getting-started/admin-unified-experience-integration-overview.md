@@ -2,6 +2,7 @@
 title: Adobe Experience Cloud Integration for Commerce Admin
 description: Learn about the Admin Unified Experience extension which integrates Commerce with Experience Cloud so that customers can access Commerce projects from the Experience Cloud home page.
 feature: Integration
+exl-id: a512051d-cc4a-4946-8895-962bae311d0e
 ---
 # Adobe Experience Cloud Integration for Commerce
 
