@@ -26,7 +26,7 @@ Customer groups determine which discounts are available and the tax class that i
 
 >[!NOTE]
 >
->Admin user who does not have access to all websites (who is assigned to 'Custom' [!UICONTROL Role Scope]) cannot create, modify, and delete Customer Groups.
+>Admin users that do not have access to all websites (assigned a role with a 'Custom' [!UICONTROL Role Scope]) cannot create, modify, or delete customer groups.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]**.
 
