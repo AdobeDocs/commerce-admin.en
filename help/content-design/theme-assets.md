@@ -1,12 +1,12 @@
 ---
-title: Theme Assets
+title: Theme assets
 description: Learn how to manage your theme assets, such as CSS, fonts, images, and JavaScript files.
 exl-id: 326c648e-eace-45a0-b53d-bbc8702fee05
 feature: Page Content, Themes
 ---
-# Theme Assets
+# Theme assets
 
-The term _static files_ refers to the collection of assets, such as CSS, fonts, images, and JavaScript, that is used by a theme. The location of static files is specified in the [Base URL](../stores-purchase/store-urls.md) configuration. You can add a digital signature to the URL of each static file to make it possible for browsers to detect when a newer version is available. The newer version of the file is used if the signature differs from what is stored in the browser cache.
+The _static files_ are the collection of assets, such as CSS, fonts, images, and JavaScript that is used by a theme. The location of static files is specified in the [Base URL](../stores-purchase/store-urls.md) configuration. You can add a digital signature to the URL of each static file to make it possible for browsers to detect when a newer version is available. The newer version of the file is used if the signature differs from what is stored in the browser cache.
 
 For a standard installation, the assets associated with a theme are organized in the `web` folder at the following location below the [!DNL Commerce] root.
 
@@ -37,7 +37,7 @@ For a standard installation, the assets associated with a theme are organized in
 
 ## Merge CSS files
 
-As part of an effort to optimize your site and reduce page load time, you can reduce the number of separate CSS files by merging them into a single, condensed file. If you open a merged CSS file, you will find one continuous stream of text, with line breaks removed. You cannot edit the merged file, so it is best to wait until you are out of the development mode and no longer making frequent changes to the CSS.
+As part of an effort to optimize your site and reduce page load time, you can reduce the number of separate CSS files by merging them into a single, condensed file. If you open a merged CSS file, you see one continuous stream of text, with line breaks removed. You cannot edit the merged file, so it is best to wait until you are out of the development mode and no longer making frequent changes to the CSS.
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ As part of an effort to optimize your site and reduce page load time, you can re
 
 ## Merge JavaScript files
 
-Multiple JavaScript files can be merged into a single, condensed file to reduce page load time. If you open a merged JavaScript file, you will find one continuous stream of text, with line breaks removed. If you are finished with the development process and the code contains no errors, you might consider merging the files.
+Multiple JavaScript files can be merged into a single, condensed file to reduce page load time. If you open a merged JavaScript file, you see one continuous stream of text, with line breaks removed. If you are finished with the development process and the code contains no errors, you might consider merging the files.
 
 >[!NOTE]
 >

@@ -1,12 +1,12 @@
 ---
-title: Design Configuration
+title: Design configuration
 description: The Design Configuration makes it easy to edit design-related rules and configuration settings by displaying the settings on a single page.
 exl-id: 43fec57f-d76d-45a9-812b-ba1947cea46d
 feature: Page Content, Configuration
 ---
-# Design Configuration
+# Design configuration
 
-The Design Configuration makes it easy to edit design-related rules and configuration settings by displaying the settings on a single page.
+The Design configuration makes it easy to edit design-related rules and configuration settings by displaying the settings on a single page.
 
 ![Design Configuration page](./assets/configuration.png){width="700" zoomable="yes"}
 
@@ -32,7 +32,7 @@ The Design Configuration makes it easy to edit design-related rules and configur
 
    - For **[!UICONTROL Search String]**, enter the browser ID for the specific device.
 
-      A search string can be either a normal expression or Perl Compatible Regular Expression (PCRE). To learn more, see [User Agent][1]. The following search string identifies Firefox:
+      A search string can be either a normal expression or Perl Compatible Regular Expression (PCRE) (see [User Agent](https://en.wikipedia.org/wiki/User_agent) for more information). The following search string identifies Firefox:
 
             /^mozilla/i
 
@@ -55,5 +55,3 @@ The Design Configuration makes it easy to edit design-related rules and configur
    ![Other settings to affect design](./assets/configuration-other-settings.png){width="500" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Configuration]**.
-
-[1]: https://en.wikipedia.org/wiki/User_agent

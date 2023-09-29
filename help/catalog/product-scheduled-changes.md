@@ -2,7 +2,7 @@
 title: Scheduled product updates
 description: Learn how to schedule changes to your product listings to support campaigns and promotional programs.
 exl-id: ce1aebe6-9032-438d-b950-4b13116b8ed3
-feature: Catalogs, Products
+feature: Catalog Management, Products
 ---
 # Schedule product updates
 

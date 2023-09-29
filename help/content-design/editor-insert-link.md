@@ -1,15 +1,15 @@
 ---
-title: Insert a Link in the Editor
-description: Use the editor to add a link to your content
+title: Insert a link in the editor
+description: Use the WYSIWYG editor to add a link to your content
 exl-id: c9930a4f-a082-4bd8-b0c4-9d86b59a2365
 ---
-# Insert a Link in the Editor
+# Insert a link in the editor
 
 An easy way to insert a link is to use the _Link_ button in the [editor](editor.md) toolbar. It doesn't require any knowledge of HTML and the result is the same.
 
 1. Select the text where you want to create the link.
 
-1. Click _Insert/edit link_ icon in the editor toolbar.
+1. Click the _Insert/edit link_ icon in the editor toolbar.
 
    ![Editor toolbar - Insert Link](./assets/editor-toolbar-link-button.png){width="700" zoomable="yes"}
 
@@ -25,7 +25,7 @@ An easy way to insert a link is to use the _Link_ button in the [editor](editor.
 
 1. If needed, modify the **[!UICONTROL Text to display]**.
 
-   This defaults to the text you selected for the link. You can change it in the text box.
+   The default is the text that you selected for the link. You can change it in the text box.
 
 1. For **[!UICONTROL Title]**, enter the tooltip text to appear when someone hovers over the link.
 

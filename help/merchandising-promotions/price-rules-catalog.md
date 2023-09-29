@@ -2,7 +2,7 @@
 title: Catalog price rules
 description: Learn about catalog price rules that can be used to offer products to buyers at a discounted price based on a set of defined conditions.
 exl-id: 8da95076-d724-41f6-b3ca-e61ff1906b72
-feature: Merchandising, Price Rules, Catalogs
+feature: Merchandising, Price Rules, Catalog Management
 ---
 # Catalog price rules
 

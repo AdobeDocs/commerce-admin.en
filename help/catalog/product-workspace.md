@@ -2,7 +2,7 @@
 title: Product workspace
 description: Learn about the settings and controls available in the product workspace.
 exl-id: 8258b117-56d2-4d5f-9413-80d51fd5eae6
-feature: Catalogs, Products, Admin Workspace
+feature: Catalog Management, Products, Admin Workspace
 ---
 # Product workspace
 

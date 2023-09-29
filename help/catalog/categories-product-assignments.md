@@ -2,7 +2,7 @@
 title: Category product assignments
 description: Learn about using the [!UICONTROL Products in Category] settings to control which products are currently assigned to the category.
 exl-id: e7ab11c0-2d55-4824-a397-a1c858344d4f
-feature: Catalogs, Categories, Products
+feature: Catalog Management, Categories, Products
 ---
 # Category product assignments
 

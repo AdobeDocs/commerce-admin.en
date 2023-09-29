@@ -18,7 +18,7 @@ Wish lists can be updated from the dashboard of the [customer account](../custom
 
 ![Example storefront - My Wish List](./assets/storefront-my-wishlist.png){width="700" zoomable="yes"}
 
-When a product with multiple options is added to a wish list, any options that have been selected by the customer are included in the wish list item description. For example, if the customer adds the same pair of shoes in three different colors, each pair appears as a separate wish list item. However, if the customer adds the same product to the wish list multiple times, the product appears only once, but with an updated quantity that reflects the number of times the product was added.
+When a product with multiple options is added to a wish list, any options that have been selected by the customer are included in the wish list item description. For example, if the customer adds the same pair of shoes in three different colors, each pair appears as a separate wish list item. However, if the customer adds the same product to the wish list multiple times, the product appears only once, but with the quantity selected from product page.
 
 ## Wish list assistance in the Admin
 

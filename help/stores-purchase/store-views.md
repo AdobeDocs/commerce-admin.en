@@ -2,7 +2,7 @@
 title: Store views
 description: Learn how to add and edit a store view.
 exl-id: aa1f7f1c-a6d0-4ec2-83fe-15fb9646634a
-feature: Site Navigation, System
+feature: Site Management, System
 ---
 # Store views
 

@@ -2,7 +2,7 @@
 title: Store URLs
 description: Learn about store URLs and how to configure the base URL and store codes.
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
-feature: Site Navigation, System
+feature: Site Management, System
 ---
 # Store URLs
 

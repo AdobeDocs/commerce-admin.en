@@ -1,10 +1,10 @@
 ---
-title: Media Gallery Folder Management
+title: Media Gallery folder management
 description: Learn how to use folders to organize your media assets.
 exl-id: 23cfbdac-08dd-454c-8212-8739c540ba16
 feature: Page Content, Media
 ---
-# Media Gallery Folder Management
+# Media Gallery folder management
 
 Use folders to organize images in the new [Media Gallery](media-gallery.md). As the number of media assets increases, folders make it easier to locate and manage existing assets in your media gallery.
 

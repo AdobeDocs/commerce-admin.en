@@ -1,10 +1,10 @@
 ---
-title: New Products List Widget
-description: Learn how to use the New Products widget to display a list of the most recently added products.
+title: New products list widget
+description: Learn how to use the new products list widget to display a list of the most recently added products.
 exl-id: bdff3655-cd14-4a19-a51f-4cabeb274d2a
 feature: Page Content, Products
 ---
-# New Products List
+# New products list widget
 
 The list of new products is an example of dynamic content, and consists of live data that is pulled from your product catalog. By default, the _New Products_ list includes the first eight of the most recently added products. However, it can also be configured to include only products within a specified date range.
 
@@ -54,7 +54,7 @@ The code that determines the content of the New Products list and its placement 
 
    - For **[!UICONTROL Widget Title]**, enter a descriptive title for the widget. (This title is visible only from the _Admin_.)
 
-   - For **[!UICONTROL Assign to Store Views]**, select the store views where the widget will be visible.
+   - For **[!UICONTROL Assign to Store Views]**, select the store views where the widget is visible.
 
       You can select a specific store view, or `All Store Views`. To select multiple views, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
 
@@ -89,14 +89,14 @@ The code that determines the content of the New Products list and its placement 
 
 1. Set **[!UICONTROL Display Products]** to one of the following:
 
-   - `All Products` - Lists products in sequence, starting with those most recently added.
-   - `New Products` - Lists only the products that are identified as _new_. A product is considered to be new during the date range that is specified in _[!UICONTROL Set Product As New From/To]_. The list will be empty if the date range expires without any new products defined. 
+   - `All Products` - Lists products in sequence, starting with the most recently added.
+   - `New Products` - Lists only the products that are identified as _new_. A product is considered to be new during the date range that is specified in _[!UICONTROL Set Product As New From/To]_. The list is empty if the date range expires without any new products defined. 
 
 1. To provide navigation control for lists with multiple pages, set **[!UICONTROL Display Page Control]** to `Yes`.
 
    For **[!UICONTROL Number of Products per Page]**, enter the number of products you want to appear on each page.
 
-1. Set **[!UICONTROL Number of Products to Display]** to the number of new products that you want to include in the list.
+1. Set the **[!UICONTROL Number of Products to Display]** option to the number of new products that you want to include in the list.
 
    The default setting is `10`.
 

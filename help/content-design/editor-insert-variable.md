@@ -1,10 +1,10 @@
 ---
-title: Insert a Variable in the Editor
-description: Add predefined or custom variables to your content.
+title: Insert a variable in the editor
+description: Add predefined or custom variables to your content in the WYSIWYG editor.
 exl-id: 49b05df0-f425-4706-a402-f1c3f868cb49
 feature: Page Content, Variables
 ---
-# Insert a Variable in the Editor
+# Insert a variable in the editor
 
 Your store includes many predefined [variables](../systems/variables-predefined.md) that can be incorporated into page content and other communications. In addition, you can include your own [custom variables](../systems/variables-custom.md) that are specific to your needs.
 

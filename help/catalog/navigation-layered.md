@@ -2,7 +2,7 @@
 title: Layered navigation
 description: Learn how layered navigation makes it easy for shoppers to find products based on category, price range, or any other available attribute.
 exl-id: 5f17528a-3593-449c-a044-98736a4ae913
-feature: Catalogs, Categories, Site Navigation
+feature: Catalog Management, Categories, Site Navigation
 ---
 # Layered navigation
 
@@ -53,6 +53,10 @@ The following instructions show how to set up basic layered navigation with filt
    ![Storefront properties](./assets/attribute-storefront-properties.png){width="600" zoomable="yes"}
 
 1. Repeat these steps for each attribute that you want to include in layered navigation.
+
+>[!NOTE]
+>
+>When the _[!UICONTROL Use in Search]_ setting is set to `No`, the _[!UICONTROL Use in Search Results Layered Navigation]_ setting is not displayed and the product attribute is not used in the search with any [!UICONTROL Use in Layered Navigation] setting value.
 
 >[!NOTE]
 >

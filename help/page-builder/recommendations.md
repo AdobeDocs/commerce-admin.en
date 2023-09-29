@@ -18,14 +18,16 @@ Use the _Product Recommendations_ content type to add an existing, active [recom
 
 | Tool  | Icon | Description |
 | --- | --| --- |
-| Move | ![Move icon](./assets/pb-icon-move.png) | Moves the product recommendation container and its content to another position on the stage.|
-| Settings | ![Settings icon](./assets/pb-icon-settings.png) | Opens the Edit Product Recommendation page, where you can choose the recommendation unit and change the properties of the container. |
-| Hide | ![Hide icon](./assets/pb-icon-hide.png) | Hides the current product recommendation container and its content. |
-| Show | ![Show icon](./assets/pb-icon-show.png) | Shows the hidden product recommendation container and its content. |
-| Duplicate | ![Duplicate icon](./assets/pb-icon-duplicate.png) | Makes a duplicate copy of the product recommendation container and its content. |
-| Remove | ![Remove icon](./assets/pb-icon-remove.png) | Deletes the product recommendation container and its content from the stage. |
+| Move | ![Move icon](./assets/pb-icon-move.png){width="25"} | Moves the product recommendation container and its content to another position on the stage.|
+| Settings | ![Settings icon](./assets/pb-icon-settings.png){width="25"} | Opens the Edit Product Recommendation page, where you can choose the recommendation unit and change the properties of the container. |
+| Hide | ![Hide icon](./assets/pb-icon-hide.png){width="25"} | Hides the current product recommendation container and its content. |
+| Show | ![Show icon](./assets/pb-icon-show.png){width="25"} | Shows the hidden product recommendation container and its content. |
+| Duplicate | ![Duplicate icon](./assets/pb-icon-duplicate.png){width="25"} | Makes a duplicate copy of the product recommendation container and its content. |
+| Remove | ![Remove icon](./assets/pb-icon-remove.png){width="25"} | Deletes the product recommendation container and its content from the stage. |
 
 {style="table-layout:auto"}
+
+{{$include /help/_includes/page-builder-hidden-element-note.md}}
 
 ## Add an existing recommendation unit
 
@@ -43,20 +45,20 @@ Use the _Product Recommendations_ content type to add an existing, active [recom
 
 1. In the [!DNL Page Builder] panel under _[!UICONTROL Add Content]_, drag a **[!UICONTROL Product Recommendation]** placeholder to the row.
 
-   ![Adding the Product Recommendation content type](./assets/pb-add-prex-drag.png)<!-- zoom -->
+   ![Adding the Product Recommendation content type](./assets/pb-add-prex-drag.png){width="600" zoomable="yes"}
 
 1. Do one of the following:
 
    - Click **[!UICONTROL Edit Product Recommendation]**.
-   - Hover over the empty container to display the toolbox and click the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon.
+   - Hover over the empty container to display the toolbox and click the _Settings_ (![Settings icon](./assets/pb-icon-settings.png){width="20"} ) icon.
 
-   ![Edit Product Recommendation](./assets/pb-prex-toolbox.png)<!-- zoom -->
+   ![Edit Product Recommendation](./assets/pb-prex-toolbox.png){width="600" zoomable="yes"}
 
 1. In the _[!UICONTROL Selection]_ section, click **[!UICONTROL Select]**.
 
 1. In the list of active product recommendations, find the row with the recommendation unit that you want to add and click **[!UICONTROL Select]** in the last column.
 
-   ![Selected Product Recommendation](./assets/pb-prex-select.png)<!-- zoom -->
+   ![Selected Product Recommendation](./assets/pb-prex-select.png){width="600" zoomable="yes"}
 
 1. In the upper-right corner, click **[!UICONTROL Add Selected]**.
 
@@ -64,7 +66,7 @@ Use the _Product Recommendations_ content type to add an existing, active [recom
 
 1. Make any changes necessary to the [Advanced settings](#advanced-settings).
 
-   ![Edit Product Recommendation](./assets/pb-prex-edit.png)<!-- zoom -->
+   ![Edit Product Recommendation](./assets/pb-prex-edit.png){width="600" zoomable="yes"}
 
 1. When complete, do the following:
 
@@ -76,9 +78,9 @@ Use the _Product Recommendations_ content type to add an existing, active [recom
 
 ## Edit recommendation unit settings
 
-1. Hover over the recommendation unit container to display the toolbox and click the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon.
+1. Hover over the recommendation unit container to display the toolbox and click the _Settings_ (![Settings icon](./assets/pb-icon-settings.png){width="20"} ) icon.
 
-   ![Recommendation Toolbox](./assets/pb-placeholder-toolbox.png)<!-- zoom -->
+   ![Recommendation Toolbox](./assets/pb-placeholder-toolbox.png){width="600" zoomable="yes"}
 
 1. Make any changes necessary to the [Advanced settings](#advanced-settings).
 
@@ -86,11 +88,11 @@ Use the _Product Recommendations_ content type to add an existing, active [recom
 
 ## Duplicate a recommendation unit
 
-1. Hover over the recommendation unit container to display the toolbox and click the _Duplicate_ (![Duplicate ison](./assets/pb-icon-duplicate.png)) icon in the toolbox.
+1. Hover over the recommendation unit container to display the toolbox and click the _Duplicate_ ( ![Duplicate ison](./assets/pb-icon-duplicate.png){width="20"} ) icon in the toolbox.
 
    The duplicate appears just below the original.
 
-1. To move the duplicated recommendation unit to a new position, hover over the container and click the _Move_ (![Move icon](./assets/pb-icon-move.png)) icon in the toolbox.
+1. To move the duplicated recommendation unit to a new position, hover over the container and click the _Move_ ( ![Move icon](./assets/pb-icon-move.png){width="20"} ) icon in the toolbox.
 
 1. Select and drag the recommendation unit until the red guideline appears at the new position.
 
@@ -98,7 +100,7 @@ Use the _Product Recommendations_ content type to add an existing, active [recom
 
 ## Remove a recommendation unit from the stage
 
-1. Hover over the recommendation unit container and click the _Remove_ (![Remove icon](./assets/pb-icon-remove.png)) icon in the toolbox.
+1. Hover over the recommendation unit container and click the _Remove_ ( ![Remove icon](./assets/pb-icon-remove.png){width="20"} ) icon in the toolbox.
 
 1. When prompted to confirm, click **[!UICONTROL OK]**.
 
