@@ -252,17 +252,16 @@ feature: Configuration, Shipping/Delivery
 
 <!-- [FedEx Account Settings](https://docs.magento.com/user-guide/shipping/fedex.html) -->
 
-|Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
-|--- |--- |--- |
-|_[!UICONTROL FedEx Account Settings]_|||
-|[!UICONTROL Enabled for Checkout]|Website|Determines if FedEx is available to customers as a shipping method during checkout. Options: `Yes` / `No`|
-|[!UICONTROL Title]|Store View|The title of this shipping option as it appears in the shopping cart checkout.|
-|[!UICONTROL Account ID]|Website|Your FedEx account ID.|
-|[!UICONTROL Meter Number]|Website|Your FedEx meter number.|
-|[!UICONTROL Key]|Website|Your FedEx account key.|
-|[!UICONTROL Password]|Website|Your FedEx account password.|
-|[!UICONTROL Sandbox Mode]|Website|To run FedEx transactions in a test environment, set Sandbox Mode to `Yes`. Options: `Yes` / `No`.|
-|[!UICONTROL Web-Services URL]|Website|The URL that is required depends on the Sandbox Mode setting. Options: <br/>**`Production`** - The URL to access FedEx web services when the store is live. <br/>**`Sandbox`** - The URL to access the  testing environment for FedEx web services.|
+| Field                                 |[Scope](../../getting-started/websites-stores-views.md#scope-settings)| Description                                                                                                                                                                                                                                         |
+|---------------------------------------|--- |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| _[!UICONTROL FedEx Account Settings]_ |||
+| [!UICONTROL Enabled for Checkout]     |Website| Determines if FedEx is available to customers as a shipping method during checkout. Options: `Yes` / `No`                                                                                                                                           |
+| [!UICONTROL Title]                    |Store View| The title of this shipping option as it appears in the shopping cart checkout.                                                                                                                                                                      |
+| [!UICONTROL Account ID]               |Website| Your FedEx account ID.                                                                                                                                                                                                                              |
+| [!UICONTROL Api Key]                  |Website| Your FedEx account Api key.                                                                                                                                                                                                                         |
+| [!UICONTROL Secret Key]               |Website| Your FedEx account Api secret key.                                                                                                                                                                                                                  |
+| [!UICONTROL Sandbox Mode]             |Website| To run FedEx transactions in a test environment, set Sandbox Mode to `Yes`. Options: `Yes` / `No`.                                                                                                                                                  |
+| [!UICONTROL Web-Services URL]         |Website| The URL that is required depends on the Sandbox Mode setting. Options: <br/>**`Production`** - The URL to access FedEx web services when the store is live. <br/>**`Sandbox`** - The URL to access the  testing environment for FedEx web services. |
 
 {:style="table-layout:auto"}
 
