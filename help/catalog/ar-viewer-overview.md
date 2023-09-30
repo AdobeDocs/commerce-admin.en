@@ -1,7 +1,7 @@
 ---
 title: '[!DNL AR Viewer] for Adobe Commerce'
 description: Learn how the [!DNL AR Viewer] could benefit your Adobe Commerce instance and how to successfully onboard and setup the extension.
-exl-id: edea5015-5f64-4eb8-bab7-a8f160a92fd9
+exl-id: 9f9f3ff3-2402-4f70-9fc7-031dd2bb3916
 ---
 # [!DNL AR Viewer] for Adobe Commerce
 
