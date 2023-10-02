@@ -45,6 +45,8 @@ When you are working with the Buttons content type, you add and edit individual 
 
 {style="table-layout:auto"}
 
+{{$include /help/_includes/page-builder-hidden-element-note.md}}
+
 ## Add an individual button
 
 1. In the [!DNL Page Builder] panel, expand **[!UICONTROL Elements]** and drag a **[!UICONTROL Buttons]** placeholder to a row, column, or tab set on the stage.

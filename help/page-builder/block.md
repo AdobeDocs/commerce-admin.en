@@ -25,6 +25,8 @@ Use the _Block_ content type to add an existing, active [block](../content-desig
 
 {style="table-layout:auto"}
 
+{{$include /help/_includes/page-builder-hidden-element-note.md}}
+
 ## Add an existing block
 
 1. Navigate to the [!DNL Page Builder] workspace on the target page, block, dynamic block, product, or category.

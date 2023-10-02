@@ -28,6 +28,8 @@ The row toolbox appears when you hover over the row container. The toolbox inclu
 
 {style="table-layout:auto"}
 
+{{$include /help/_includes/page-builder-hidden-element-note.md}}
+
 ## Add a row
 
 1. In the [!DNL Page Builder] panel under _[!UICONTROL Layout]_, drag a new **[!UICONTROL Row]** to the stage, just below the first row.

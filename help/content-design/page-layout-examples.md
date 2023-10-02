@@ -1,11 +1,11 @@
 ---
-title: Storefront Layout Examples
+title: Storefront layout examples
 description: Review the examples of page layout options.
 exl-id: 1cda1175-269b-42b9-bf4e-9bf14483da1d
 ---
-# Storefront Layout Examples
+# Storefront layout examples
 
-The column dimensions are determined by style sheet of the theme. Some themes apply a fixed pixel width to the page layout, while others use percentages to make the page respond to the width of the window or device.
+The column dimensions are determined by the style sheet of the theme. Some themes apply a fixed pixel width to the page layout, while others use percentages to make the page respond to the width of the window or device.
 
 Most desktop themes have a fixed width for the main column, and all activity takes place within this enclosed area. Depending on your screen resolution, there is empty space on each side of the main column.
 
