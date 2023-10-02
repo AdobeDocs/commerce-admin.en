@@ -1,8 +1,8 @@
 ---
-title: "[!DNL AR Viewer] for Adobe Commerce setup"
-description: "Learn about managing 3D model assets using the [!DNL AR Viewer] extension for your product listings."
+title: '[!DNL AR Viewer] for Adobe Commerce setup'
+description: Learn about managing 3D model assets using the [!DNL AR Viewer] extension for your product listings.
+exl-id: e7cb80d0-ad2d-41ba-b699-250506034f21
 ---
-
 # Manage product 3D models with the [!DNL AR Viewer] for Adobe Commerce
 
 For each product, you can upload a `.USDZ` file that allows for AR and 3D models to be used in your product listing.

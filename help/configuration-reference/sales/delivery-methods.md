@@ -100,26 +100,23 @@ feature: Configuration, Shipping/Delivery
 
 {{ups-api}}
 
-![UPS XML Account Settings](./assets/delivery-methods-ups1.png)<!-- zoom -->
+![UPS REST Account Settings](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
-<!-- [UPS XML Account Settings](https://docs.magento.com/user-guide/shipping/ups.html) -->
+<!-- [UPS REST Account Settings](https://docs.magento.com/user-guide/shipping/ups.html) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |[!UICONTROL Enabled for Checkout]|Website|Determines if UPS is available to customers as a shipping method during checkout. Options: `Yes` / `No`|
 |[!UICONTROL Enabled for RMA]|Website|Determines if UPS is available to customers as a shipping method for an RMA. Options: `Yes` / `No`|
-|[!UICONTROL UPS Type]|Store View|Specifies the  method used to connect to the UPS shipping system. Options: <br/>**`United Parcel Service XML`** - (Default) Your store sends an XML file with data to UPS as a request. <br/>**`United Parcel Service`** - Your store sends key-value pairs to UPS as a request. <br/><br/>**_Note:_** The standard United Parcel Service type is scheduled for deprecation in Commerce. For new configurations, you should use the [!UICONTROL United Parcel Service XML] type.|
 |_[!UICONTROL UPS Account Settings]_|||
 |[!UICONTROL Live Account]|Store View|Specifies that the United Parcel Service account is live. Options: `Yes` / `No`|
-|[!UICONTROL Gateway URL]|Website|The URL that connects to the UPS system to retrieve dynamic shipping rates. UPS is discontinuing support of HTTP. Default value: `https://www.ups.com/using/services/rave/qcostcgi.cgi`|
 |[!UICONTROL Title]|Store View|The name that is used for this shipping method during checkout.|
-|_[!UICONTROL UPS XML Account Settings]_|||
-|[!UICONTROL Access License Number]|Website|Your UPS shipper account access license number.|
-|[!UICONTROL Gateway XML URL]|Website|For UPS XML service, displays the following URLs that are required to transmit XML data: Gateway XML URL, Tracking XML URL, Shipping Confirm XML URL, Shipping Accept XML URL|
+|_[!UICONTROL UPS REST Account Settings]_|||
+|[!UICONTROL Gateway URL]|Website|For UPS REST service, displays the following URLs that are required to transmit JSON data: Gateway URL, Tracking URL, Shipping URL|
 |[!UICONTROL Mode]|Website|Determines the mode of transmission used for data sent to the UPS system. Options: <br/>**`Development`** - UPS does not verify that data received from the Commerce server is sent over SSL. <br/>**`Live`** - UPS verifies that data received from the Commerce server is sent over a secure socket layer (SSL).|
-|User ID|Website|Your UPS shipper account user ID.|
-|[!UICONTROL Origin of the Shipment]|Website|(UPS XML Only) The country or region where the product shipment originates.|
-|[!UICONTROL Password]|Store View|Your UPS shipper account password.|
+|User ID|Website|Your UPS shipper account Client ID.|
+|[!UICONTROL Origin of the Shipment]|Website|(UPS REST Only) The country or region where the product shipment originates.|
+|[!UICONTROL Password]|Store View|Your UPS shipper account Client Secret.|
 
 {:style="table-layout:auto"}
 
@@ -130,12 +127,12 @@ feature: Configuration, Shipping/Delivery
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |_[!UICONTROL UPS Negotiated Rate Settings]_|||
-|[!UICONTROL Enable Negotiated Rates]|Website|(UPS XML  Only) Enables / disables special rates, according to your agreement with UPS. Options: `Yes` / `No`|
+|[!UICONTROL Enable Negotiated Rates]|Website|(UPS REST  Only) Enables / disables special rates, according to your agreement with UPS. Options: `Yes` / `No`|
 |[!UICONTROL Packages Request Type]|Website|Determines how weight is calculated for shipments with multiple packages. Options: `Divide to equal weight (one request)` / `Use origin weight (multiple requests)`|
-|[!UICONTROL Shipper Number]|Website|(UPS XML  Only) The six-character UPS Shipper Number is required for reference to use negotiated rates.|
+|[!UICONTROL Shipper Number]|Website|(UPS REST  Only) The six-character UPS Shipper Number is required for reference to use negotiated rates.|
 |[!UICONTROL Container]|Website|Sets the container type used to package order shipments. Options: `Customer Packaging` / `UPS Letter Envelope` / `Customer Packaging` / `UPS Letter Envelope` / `UPS Tube` / `UPS Express Box` / `UPS Worldwide 25 kilo` / `UPS Worldwide 10 kilo`|
 |[!UICONTROL Weight Unit]|Website|Sets the default unit of measurement for product weight in your store. See [Dimensional weight](../../stores-purchase/carriers.md#dimensional-weight) for additional information.|
-|[!UICONTROL Tracking XML URL]|Website|(UPS XML  Only) The UPS URL that is used to track packages.|
+|[!UICONTROL Tracking URL]|Website|(UPS REST  Only) The UPS URL that is used to track packages.|
 |[!UICONTROL Destination Type]|Website|Sets the default shipment destination type. Options: `Business` / `Residential`|
 |[!UICONTROL Maximum Package Weight]|Website|Sets the maximum weight that a package can be as specified by UPS. If the products ordered exceeds the maximum package weight, this shipping option is not available. According to [UPS.com](https://www.ups.com/us/en/global.page), packages cannot exceed 150 lbs (70 kg) Check with your shipping carrier to verify the maximum  weight.|
 |[!UICONTROL Pickup Method]|Website|Sets the UPS pickup method. Options: `Regular Daily Pickup` / `On Call Air` / `One Time Pickup` / `Letter Center` / `Customer Counter`|
@@ -252,17 +249,16 @@ feature: Configuration, Shipping/Delivery
 
 <!-- [FedEx Account Settings](https://docs.magento.com/user-guide/shipping/fedex.html) -->
 
-|Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
-|--- |--- |--- |
-|_[!UICONTROL FedEx Account Settings]_|||
-|[!UICONTROL Enabled for Checkout]|Website|Determines if FedEx is available to customers as a shipping method during checkout. Options: `Yes` / `No`|
-|[!UICONTROL Title]|Store View|The title of this shipping option as it appears in the shopping cart checkout.|
-|[!UICONTROL Account ID]|Website|Your FedEx account ID.|
-|[!UICONTROL Meter Number]|Website|Your FedEx meter number.|
-|[!UICONTROL Key]|Website|Your FedEx account key.|
-|[!UICONTROL Password]|Website|Your FedEx account password.|
-|[!UICONTROL Sandbox Mode]|Website|To run FedEx transactions in a test environment, set Sandbox Mode to `Yes`. Options: `Yes` / `No`.|
-|[!UICONTROL Web-Services URL]|Website|The URL that is required depends on the Sandbox Mode setting. Options: <br/>**`Production`** - The URL to access FedEx web services when the store is live. <br/>**`Sandbox`** - The URL to access the  testing environment for FedEx web services.|
+| Field                                 |[Scope](../../getting-started/websites-stores-views.md#scope-settings)| Description                                                                                                                                                                                                                                         |
+|---------------------------------------|--- |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| _[!UICONTROL FedEx Account Settings]_ |||
+| [!UICONTROL Enabled for Checkout]     |Website| Determines if FedEx is available to customers as a shipping method during checkout. Options: `Yes` / `No`                                                                                                                                           |
+| [!UICONTROL Title]                    |Store View| The title of this shipping option as it appears in the shopping cart checkout.                                                                                                                                                                      |
+| [!UICONTROL Account ID]               |Website| Your FedEx account ID.                                                                                                                                                                                                                              |
+| [!UICONTROL Api Key]                  |Website| Your FedEx account API key.                                                                                                                                                                                                                         |
+| [!UICONTROL Secret Key]               |Website| Your FedEx account API secret key.                                                                                                                                                                                                                  |
+| [!UICONTROL Sandbox Mode]             |Website| To run FedEx transactions in a test environment, set Sandbox Mode to `Yes`. Options: `Yes` / `No`.                                                                                                                                                  |
+| [!UICONTROL Web-Services URL]         |Website| The URL that is required depends on the Sandbox Mode setting. Options: <br/>**`Production`** - The URL to access FedEx web services when the store is live. <br/>**`Sandbox`** - The URL to access the  testing environment for FedEx web services. |
 
 {:style="table-layout:auto"}
 
