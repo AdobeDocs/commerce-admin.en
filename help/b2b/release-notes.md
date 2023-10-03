@@ -24,7 +24,7 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 
 The B2B v1.4.2 release includes quality improvements and bug fixes
 
-![Fixed issue](../assets/fix.svg) <!--B2B-2897-->The Storefront shows a `The SKU you entered is not available in the shared catalog. Please check the SKU and try again` error message when a product with an unavailable SKU is not associated with shared catalog and the seller tries to send the quote. Previously, a quote with an unavailable SKU is created with a product that is not in the shared catalog that the buyer is tied to, then the quote will fail to load on the storefront.
+![Fixed issue](../assets/fix.svg) <!--B2B-2897-->The Storefront shows a `The SKU you entered is not available in the shared catalog. Please check the SKU and try again` error message when a product with an unavailable SKU is not associated with the buyer's shared catalog and the seller tries to send the quote. Previously, the quote was saved with the unavailable SKU included, and the quote failed to load on the storefront.
 
 ## B2B v1.4.1
 
