@@ -1,11 +1,11 @@
 ---
-title: Page Setup
+title: Page setup
 description: Learn how to configure the defaults for the main parts of a store page.
 exl-id: a4310940-0d4f-4948-a271-382f03905bfd
 ---
-# Page Setup
+# Page setup
 
-The main sections of the page are controlled, in part, by a set of standard HTML tags. Some of these tags can be used determine the selection of fonts, color, size, background colors, and images that are used in each section of the page. Other settings control page elements such as the logo in the header, and the copyright notice in the footer. These sections correspond to the underlying structure of the HTML page, and many of the basic properties can be set from the Admin.
+The main sections of the page are controlled, in part, by a set of standard HTML tags. Some of these tags can be used to determine the selection of fonts, color, size, background colors, and images that are used in each section of the page. Other settings control page elements such as the logo in the header, and the copyright notice in the footer. These sections correspond to the underlying structure of the HTML page, and many of the basic properties can be set from the Admin.
 
 - [HTML Head](#html-head)
 - [Header](#header)
@@ -31,16 +31,16 @@ The settings in the HTML Head section correspond to the `<head>` tag of an HTML
 
 1. Update the page title settings according to your needs:
 
-   -  **[!UICONTROL Default Page Title]**
-   -  **[!UICONTROL Page Title Prefix]**
-   -  **[!UICONTROL Page Title Suffix]**
+   - **[!UICONTROL Default Page Title]**
+   - **[!UICONTROL Page Title Prefix]**
+   - **[!UICONTROL Page Title Suffix]**
 
-   You can use a suffix and/or prefix with the default title to create a two-or three part title. You can add a vertical bar or colon as a separator between the prefix or suffix and the default title.
+   You can use a suffix and/or prefix with the default title to create a two-or three-part title. You can add a vertical bar or colon as a separator between the prefix or suffix and the default title.
 
-1. Add or modify meta data to support Search Engine Optimization (SEO) and help steer customers to your store from search results:
+1. Add or modify meta data that supports Search Engine Optimization (SEO) and helps steer customers to your store from search results:
 
-   -  **[!UICONTROL Default Meta Description]**
-   -  **[!UICONTROL Default Meta Keywords]**
+   - **[!UICONTROL Default Meta Description]**
+   - **[!UICONTROL Default Meta Keywords]**
 
 1. Enter any **[!UICONTROL Scripts and Style Sheets]** as needed.
 
@@ -55,7 +55,7 @@ The settings in the HTML Head section correspond to the `<head>` tag of an HTML
 |[!UICONTROL Favicon Icon]|Store View|Uploads the small graphic image that appears in the address bar and tab of the browser. Allowed file types: ICO, PNG, APNG, GIF, and JPG (JPEG). Not all browsers support these formats.|
 |[!UICONTROL Default Page Title]|Store View|The title that appears at the title bar of each page when viewed in a  browser. The default title is used for all pages, unless another title is specified for individual pages.|
 |[!UICONTROL Page Title Prefix]|Store View|A prefix can be added before the title to create a two- or three-part title. A vertical bar or colon can be used  as a separator at the end of the prefix to differentiate it from the text of the main title.|
-|[!UICONTROL Page Title Suffix]|Store View|A suffix can be added after the title to create a two-or three part title. A vertical bar or colon can be used as a separator at the end of the prefix to differentiate it from the text of the main title.|
+|[!UICONTROL Page Title Suffix]|Store View|A suffix can be added after the title to create a two-or three-part title. A vertical bar or colon can be used as a separator at the end of the prefix to differentiate it from the text of the main title.|
 |[!UICONTROL Default Meta Description]|Store View|The description provides a summary of your site for search engine listings and should not be more than 160 characters in length.|
 |[!UICONTROL Default Meta Keywords]|Store View|A series of keywords that describe your store, each separated by a comma.|
 |[!UICONTROL Scripts and Style Sheets]|Store View|Contains scripts that must be included in the HTML before the closing `<head>` tag. For example, any third-party JavaScript that must be placed before the `<body>` tag can be entered here.|
@@ -77,10 +77,10 @@ The Header configuration identifies the path to your store logo and specifies th
 
 1. Under _Other Settings_, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Header]** section.
 
-1. Make any changes needed for the store view:
+1. Make any changes that are needed for the store view:
 
-   -  [Logo](../getting-started/storefront-branding.md#upload-your-logo) settings
-   -  [Welcome message](../getting-started/storefront-branding.md#change-the-welcome-message) settings
+   - [Logo](../getting-started/storefront-branding.md#upload-your-logo) settings
+   - [Welcome message](../getting-started/storefront-branding.md#change-the-welcome-message) settings
 
 1. When complete, click **[!UICONTROL Save Configuration]**.
 
@@ -121,6 +121,6 @@ The Footer configuration section is where you can update the [copyright notice](
 |--- |--- |--- |
 |[!UICONTROL Miscellaneous HTML]|Store View|An input box where you can upload miscellaneous scripts to the server that must be placed just before the closing `<body>` tag.|
 |[!UICONTROL Copyright]|Store View|The copyright statement that appears at the bottom of each page. To include the copyright symbol, use the HTML character entity `\&copy;` as in the following: `\&copy; 2021 Commerce Demo Store. All Rights Reserved.` Make sure to replace the sample copyright notice with your own.|
-|[!UICONTROL Display Report Bugs Link]|Store View|Allows the bug report link (supported for some themes) to be enabled or disabled.|
+|[!UICONTROL Display Report Bugs Link]|Store View|Determines if the bug report link (supported for some themes) is enabled or disabled.|
 
 {style="table-layout:auto"}

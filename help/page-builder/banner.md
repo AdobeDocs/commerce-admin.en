@@ -12,7 +12,7 @@ Use the _Banner_ content type to add an illustrated, interactive component that 
 >
 >What was previously the _Banner_ option in the Content menu, is now [Dynamic Block](../content-design/dynamic-blocks.md).
 
-![Banner on a storefront home page](./assets/pb-banner-homepage.png)<!-- zoom -->
+![Banner on a storefront home page](./assets/pb-banner-homepage.png){width="700" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -20,27 +20,29 @@ Use the _Banner_ content type to add an illustrated, interactive component that 
 
 The banner toolbox appears when you hover over the banner container.
 
-![Banner toolbox](./assets/pb-tutorial1-banner-toolbox.png)<!-- zoom -->
+![Banner toolbox](./assets/pb-tutorial1-banner-toolbox.png){width="600" zoomable="yes"}
 
 |Tool|Icon|Description|
 |--- |--- |--- |
-|Move|![Move icon](./assets/pb-icon-move.png)<!-- width="25px" -->|Moves the banner to another position on the stage.|
+|Move|![Move icon](./assets/pb-icon-move.png){width="25"}|Moves the banner to another position on the stage.|
 |(label)|Banner|Identifies the current content container as a banner. Hover over the container to see the toolbox.|
-|Settings|![Settings icon](./assets/pb-icon-settings.png)<!-- width="25px" -->|Opens the Edit Banner page, where you can change the properties of the banner and container.|
-|Hide|![Hide icon](./assets/pb-icon-hide.png)<!-- width="25px" -->|Hides the current banner.|
-|Show|![Show icon](./assets/pb-icon-show.png)<!-- width="25px" -->|Shows the  hidden banner.|
-|Duplicate|![Duplicate icon](./assets/pb-icon-duplicate.png)<!-- width="25px" -->|Makes a copy of the banner.|
-|Remove|![Remove icon](./assets/pb-icon-remove.png)<!-- width="25px" -->|Deletes the banner from the stage.|
+|Settings|![Settings icon](./assets/pb-icon-settings.png){width="25"}|Opens the Edit Banner page, where you can change the properties of the banner and container.|
+|Hide|![Hide icon](./assets/pb-icon-hide.png){width="25"}|Hides the current banner.|
+|Show|![Show icon](./assets/pb-icon-show.png){width="25"}|Shows the  hidden banner.|
+|Duplicate|![Duplicate icon](./assets/pb-icon-duplicate.png){width="25"}|Makes a copy of the banner.|
+|Remove|![Remove icon](./assets/pb-icon-remove.png){width="25"}|Deletes the banner from the stage.|
 |[!UICONTROL Upload New Image]||Uploads an image from your local file system to the gallery for the banner background.|
 |[!UICONTROL Select from Gallery]||Uses an existing image from the gallery for the banner background.|
 
 {style="table-layout:auto"}
 
+{{$include /help/_includes/page-builder-hidden-element-note.md}}
+
 ## Add a banner
 
 1. In the [!DNL Page Builder] panel, expand **[!UICONTROL Media]** and drag a **[!UICONTROL Banner]** placeholder to the stage.
 
-   ![Dragging a banner content type to the stage](./assets/pb-tutorial1-banner-drag-to-stage.png)<!-- zoom -->
+   ![Dragging a banner content type to the stage](./assets/pb-tutorial1-banner-drag-to-stage.png){width="600" zoomable="yes"}
 
    The _[!UICONTROL Upload Image]_ and _[!UICONTROL Select from Gallery]_ buttons are included so you can make quick changes to the banner content directly from the stage. You can also change the content on the _[!UICONTROL Edit Banner]_ page.
 
@@ -78,7 +80,7 @@ Banners are easy to set up and maintain, because they are based on one of four p
 
    {style="table-layout:auto"}
 
-   ![Appearance - collage right](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png)<!-- zoom -->
+   ![Appearance - collage right](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png){width="600" zoomable="yes"}
 
 - (Optional) Enter the **[!UICONTROL Minimum Height]** for the row.
 
@@ -94,7 +96,7 @@ There are many options for defining the background display of a banner. You can 
 
 Specify the background color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value. This setting determines the background color of the row. You can also adjust the opacity of the color.
 
-![No color (default)](./assets/pb-settings-background-color-no-color.png)<!-- zoom -->
+![No color (default)](./assets/pb-settings-background-color-no-color.png){width="200"}
 
 You can set the value in one of three ways:
 
@@ -104,11 +106,11 @@ You can set the value in one of three ways:
 
 If you want to choose a color, click the swatch to the left of the _No Color_ box.
 
-![Choosing a color swatch](./assets/pb-settings-background-color-picker-swatch.png)<!-- zoom -->
+![Choosing a color swatch](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
 
 If you click the color box to open the color picker again, the box below the slider shows the current red, green, blue, and alpha values (rgba). The last number indicates the current opacity percentage as a decimal. You can use the slider to adjust the opacity, or enter the desired decimal value.
 
-![Setting opacity](./assets/pb-settings-background-color.png)<!-- zoom -->
+![Setting opacity](./assets/pb-settings-background-color.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -118,13 +120,13 @@ If you click the color box to open the color picker again, the box below the sli
 
 A background type can be an image or a video. [!DNL Page Builder] defaults to `Image` and shows various image settings. If you select `Video`, [!DNL Page Builder] swaps the image settings with video settings. Both background type settings are described in the following sections.
 
-![Background type](./assets/pb-background-type.png)<!-- zoom -->
+![Background type](./assets/pb-background-type.png){width="200"}
 
 ### Image type settings
 
 If you set the _Background Type_ to `Image`, use the following settings to define the background image display.
 
-![Banner with background image](./assets/pb-tutorial1-banner-background.png)<!-- zoom -->
+![Banner with background image](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
 
 - **[!UICONTROL Background Image]** - If needed, use the provided tools to choose a background image to apply to the banner:
 
@@ -132,7 +134,7 @@ If you set the _Background Type_ to `Image`, use the following settings to defin
    | ---- | ----------- |
    | [!UICONTROL Upload] | Uploads an image file from your local computer to the gallery and then applies it as the background image for the banner. |
    | [!UICONTROL Select from Gallery] | Prompts you to choose an existing image from the gallery as the background image for the banner. |
-   | ![Camera icon](./assets/pb-icon-camera.png)<!-- width="25px" --> | Allows you to either drag the image to the camera tile or browse to the image in your local file system. |
+   | ![Camera icon](./assets/pb-icon-camera.png){width="25"} | Allows you to either drag the image to the camera tile or browse to the image in your local file system. |
 
    {style="table-layout:auto"}
 
@@ -148,7 +150,7 @@ If you set the _Background Type_ to `Image`, use the following settings to defin
 
    {style="table-layout:auto"}
 
-   ![Background size](./assets/pb-layout-row-settings-background-size-cover.png)<!-- zoom -->
+   ![Background size](./assets/pb-layout-row-settings-background-size-cover.png){width="200"}
 
 - **[!UICONTROL Background Position]** - Set this option to determine how the background image is anchored in relation to the banner:
 
@@ -183,7 +185,7 @@ If you set the _[!UICONTROL Background Type]_ to `Video`, use the following sett
   - Vimeo videos: `https://vimeo.com/190156113`
   - Valid video files (`.mp4` is recommended): `https://myvideos.com/spiral.mp4`
 
-   ![Background video URL](./assets/pb-video-url.png)<!-- zoom -->
+   ![Background video URL](./assets/pb-video-url.png){width="200"}
 
 - **[!UICONTROL Overlay Color]** - Select a color to apply a transparent tint to the video.
 
@@ -205,21 +207,21 @@ You can modify the banner content directly on the stage or when you are changing
 
    The editor toolbar appears above the text box.
 
-   ![Edit content on the stage](./assets/pb-tutorial1-banner-stage-text.png)<!-- zoom -->
+   ![Edit content on the stage](./assets/pb-tutorial1-banner-stage-text.png){width="600" zoomable="yes"}
 
 1. Use the editor toolbar to enter and format text, as well as insert elements, such as links, images, and widgets.
 
-   ![Stage with formatted text](./assets/pb-tutorial1-banner-stage-text-format-line2.png)<!-- zoom -->
+   ![Stage with formatted text](./assets/pb-tutorial1-banner-stage-text-format-line2.png){width="600" zoomable="yes"}
 
 ### Complex content in the settings
 
-1. Hover over the banner container to display the toolbox and choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon.
+1. Hover over the banner container to display the toolbox and choose the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png){width="25"} ) icon.
 
 1. Scroll down to the _[!UICONTROL Content]_ section and use the **[!UICONTROL Message Text]** editor to enter and format banner text.
 
    You can also insert elements, such as text links, images, and widgets.
 
-   ![Message Text editor](./assets/pb-tutorial1-banner-settings-content-message-text.png)<!-- zoom -->
+   ![Message Text editor](./assets/pb-tutorial1-banner-settings-content-message-text.png){width="600" zoomable="yes"}
 
 1. If needed, specify a **[!UICONTROL Link]** for the banner.
 
@@ -234,14 +236,14 @@ You can modify the banner content directly on the stage or when you are changing
    >
    >Starting with the 2.4.1 release, [!DNL Page Builder] no longer supports linking the banner and links within the nested text due to issues with display on the storefront. If you are using a link in the _[!UICONTROL Message Text]_, you cannot configure the _[!UICONTROL Link]_ option. If you prefer to use a single link for the whole banner, you can remove all links from the text.<br/>
    >
-   >![Link configuration is blocked](./assets/pb-nested-link-blocked.png)<!-- width="400px"} -->
+   >![Link configuration is blocked](./assets/pb-nested-link-blocked.png){width="200"}
 
 
 1. If needed, add a button to prompt customers to follow the link.
 
    The banner Appearance setting places a single link or button below the text. Complete the properties of the link or button that you want to add.
 
-   ![Appearance with text and button (or link)](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png)<!-- zoom -->
+   ![Appearance with text and button (or link)](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -288,11 +290,11 @@ You can modify the banner content directly on the stage or when you are changing
    - Click the **No Color** swatch, and choose a swatch.
    - In the **No Color** field, either enter a valid color name, or hexadecimal value.
 
-   ![Overlay Color](./assets/pb-tutorial1-banner-settings-overlay-color.png)<!-- zoom -->
+   ![Overlay Color](./assets/pb-tutorial1-banner-settings-overlay-color.png){width="600" zoomable="yes"}
 
 1. In the upper-right corner, click **[!UICONTROL Save]** to apply the settings and return to the [!DNL Page Builder] workspace.
 
-   ![Banner with text message and button](./assets/pb-tutorial1-banner-stage-background-color.png)<!-- zoom -->
+   ![Banner with text message and button](./assets/pb-tutorial1-banner-stage-background-color.png){width="600" zoomable="yes"}
 
 
 ## [!UICONTROL Search Engine Optimization] {#seo}
@@ -341,7 +343,7 @@ Text for these settings is visible to search engines and improves the way the pa
 
    - **[!UICONTROL Border Color]** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
 
-      ![Border Color](./assets/pb-settings-border-color.png)<!-- zoom -->
+      ![Border Color](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Border Width]** - Enter the number of pixels for the border line width.
 

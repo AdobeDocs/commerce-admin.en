@@ -2,11 +2,15 @@
 title: Product listings
 description: Learn how to modify the product listing configuration, which determines how many products appear per page, and which attribute is used to sort the list.
 exl-id: 3779d9db-4adb-473b-b9c9-ad066f50b549
-feature: Catalogs, Products, Page Content
+feature: Catalog Management, Products, Page Content
 ---
 # Product listings
 
 Product listings can be set to appear by default as either a list or grid. You can also determine how many products appear per page, and which attribute is used to sort the list. The product list includes a set of controls that can be used to sort the products, change the format of the list, sort by attribute, and advance from one page to the next.
+
+>[!NOTE]
+>
+>When sorting a category by a product attribute, products with the same attribute values are also sorted by their _[!UICONTROL Product ID]_ in the ascending order.
 
 ![Products displayed as a grid](./assets/storefront-catalog-page.png){width="700" zoomable="yes"}
 

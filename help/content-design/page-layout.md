@@ -1,9 +1,9 @@
 ---
-title: Page Layouts
+title: Page layouts
 description: Learn about the page layout sections and how to configure default layouts.
 exl-id: 397a92cf-6f20-4729-8d7c-c5f672fc1c9a
 ---
-# Page Layouts
+# Page layouts
 
 The layout of each page in your store consists of distinct sections, or containers, that define the header, footer, and content areas of the page. Depending on the layout, each page might have one, two, three columns, or more. You can think of the layout as the _floor plan_ of the page, and assign a specific layout to be used as the default for CMS, product, and category pages.
 
@@ -80,28 +80,28 @@ On the page, content blocks float to fill the available space, according to the 
 
 ![Diagram - one-column layout](./assets/layout-1-col-th.png){zoomable="yes"}
 
-The _1 Column_ [layout](page-layout.md) can be used to create a dramatic home page with a large image or focal point. It is also a good choice for a landing page, or any other page that has a combination of text, images, and video.
+The _[!UICONTROL 1 Column]_ layout can be used to create a dramatic home page with a large image or focal point. It is also a good choice for a landing page, or any other page that has a combination of text, images, and video.
 
 ### Two columns with left bar
 
 ![Diagram - two-column layout with left bar](./assets/layout-2-col-lft-bar-th.png){zoomable="yes"}
 
-The _2 Columns with Left Bar_ layout is often used for pages with navigation on the left, such as a catalog or search results pages with layered navigation. It is also an excellent choice for home pages that need additional navigation or blocks of supporting content on the left.
+The _[!UICONTROL 2 Columns with Left Bar]_ layout is often used for pages with navigation on the left, such as a catalog or search results pages with layered navigation. It is also an excellent choice for home pages that need additional navigation or blocks of supporting content on the left.
 
 ### Two columns with right bar
 
-![Diagram - ttwo-column layout with right bar](./assets/layout-2-col-rt-bar-th.png){zoomable="yes"}
+![Diagram - two-column layout with right bar](./assets/layout-2-col-rt-bar-th.png){zoomable="yes"}
 
-With a _2 Columns with Right Bar_ layout, the main content area is large enough for an eye-catching image or banner. This layout is also often used for Product pages with blocks of supporting content on the right.
+With a _[!UICONTROL 2 Columns with Right Bar]_ layout, the main content area is large enough for an eye-catching image or banner. This layout is also often used for Product pages with blocks of supporting content on the right.
 
 ### Three columns
 
 ![Diagram - three-column layout](./assets/layout-3-col-th.png){zoomable="yes"}
 
-The _3 Column_ layout has a center column that is wide enough for the main text of the page, with room on each side for additional navigation and blocks of supporting content.
+The _[!UICONTROL 3 Column]_ layout has a center column that is wide enough for the main text of the page, with room on each side for additional navigation and blocks of supporting content.
 
 ### Empty
 
 ![Diagram - empty layout](./assets/layout-blank-th.png){zoomable="yes"}
 
-The _Empty_ layout can be used to define custom page layouts.
+The _[!UICONTROL Empty]_ layout can be used to define custom page layouts.

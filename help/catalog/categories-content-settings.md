@@ -2,7 +2,7 @@
 title: Categories - Content settings
 description: Learn about using the [!UICONTROL Content] settings to define any additional content that appears on the category page.
 exl-id: 988083e1-0993-4e08-b5e6-8b0855e56467
-feature: Catalogs, Categories, Page Content
+feature: Catalog Management, Categories, Page Content
 ---
 # Categories - Content settings
 
