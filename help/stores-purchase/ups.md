@@ -20,6 +20,8 @@ To offer this shipping method to your customers, you must first open an account 
 
 ## Step 2: Enable UPS for your store
 
+{{beta2-updates}}
+
 1. On the _Admin sidebar_, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
 1. In the panel on the left, under **[!UICONTROL Sales]**, choose **[!UICONTROL Delivery Methods]**.
