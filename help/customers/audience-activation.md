@@ -106,7 +106,7 @@ After you install the [!DNL Audience Activation] extension, you must log into yo
 
 1. In the **[!UICONTROL Datastream ID]** field, paste the ID of the datastream that you created when you [activated](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html#parameters) Adobe Commerce as a destination in Real-Time CDP. 
 
-    This datastream sends data from your Commerce website to Real-Time CDP to determine if a shopper belongs to an audience. If you have not yet created a datastream, [create](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#create) one in Experience Platform, [add](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) it to the Commerce destination in Real-Time CDP, and to the [Experience Platform Connector](https://experienceleague.adobe.com/docs/commerce-merchant-services/experience-platform-connector/fundamentals/connect-data.html#data-collection) in the Admin.
+    This datastream sends data from your Commerce website to Real-Time CDP to determine if a shopper belongs to an audience. If you have not yet created a datastream, [create](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create) one in Experience Platform, [add](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) it to the Commerce destination in Real-Time CDP, and to the [Experience Platform Connector](https://experienceleague.adobe.com/docs/commerce-merchant-services/experience-platform-connector/fundamentals/connect-data.html#data-collection) in the Admin.
 
     >[!NOTE]
     >
@@ -114,11 +114,11 @@ After you install the [!DNL Audience Activation] extension, you must log into yo
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. Expand **[!UICONTROL Services]** and select **[!UICONTROL Audience Activation]**. 
+1. Expand **[!UICONTROL Services]** and select **[!UICONTROL Experience Platform Connector]**. 
 
-1. Enter the configuration credentials found in the [developer console](https://developer.adobe.com/console/home).
+1. In the [Experience Platform connector](https://experienceleague.adobe.com/docs/commerce-merchant-services/experience-platform-connector/fundamentals/connect-data.html#send-historical-order-data) guide, follow steps 2: **Create a project in Adobe Developer Console**, and 3: **Download configuration file**. The result is a file that you copy and paste into the **[!UICONTROL Experience Platform Connector]** configuration page:
 
-    ![Real-Time CDP Audience Admin Configuration](./assets/rtcdp-admin-config.png){width="700" zoomable="yes"}
+    ![Real-Time CDP Audience Admin Configuration](./assets/epc-admin-config.png){width="700" zoomable="yes"}
 
 1. Click **Save Config**.
 
