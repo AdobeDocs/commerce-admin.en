@@ -16,9 +16,9 @@ You can activate audiences in a Luma storefront or [headless](#headless-support)
 
 This section contains information about updates to the Audience Activation extension and includes:
 
-- ![New](../assets/new.svg) - New features
-- ![Fix](../assets/fix.svg) - Fixes and improvements
-- ![Bug](../assets/bug.svg) - Known issues
+![New](../assets/new.svg) - New features
+![Fix](../assets/fix.svg) - Fixes and improvements
+![Bug](../assets/bug.svg) - Known issues
 
 See [Upcoming Releases](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) to learn about release schedules and support.
 
@@ -32,17 +32,26 @@ These release notes describe feature changes and fixes related to extensions use
 
 _August 15, 2023_
 
-- ![Fix](../assets/new.svg) - Updated the [Real-Time CDP Audiences dashboard](#real-time-cdp-audiences-dashboard) to simplify filtering.
+![Fix](../assets/new.svg) - Updated the [Real-Time CDP Audiences dashboard](#real-time-cdp-audiences-dashboard) to simplify filtering.
 
 _June 27, 2023_
 
-- ![Fix](../assets/fix.svg) - Added support for PHP 8.2 in the `magento/module-data-services-graphql` package.
+![Fix](../assets/fix.svg) - Added support for PHP 8.2 in the `magento/module-data-services-graphql` package.
 
 _May 30, 2023_
 
-- ![New](../assets/new.svg) - Updated the [Real-Time CDP Audiences dashboard](#real-time-cdp-audiences-dashboard) to include the ability to sort, search, and filter the active audiences within your Adobe Commerce instance.
+![New](../assets/new.svg) - Updated the [Real-Time CDP Audiences dashboard](#real-time-cdp-audiences-dashboard) to include the ability to sort, search, and filter the active audiences within your Adobe Commerce instance.
 
 +++
+
+### 2.0.0
+
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
+
+_October 10, 2023_
+
+![New](../assets/new.svg) - Added support for OAuth 2.0 when you [configure](connect-data.md#connect-commerce-data-to-adobe-experience-platform) the Experience Platform connector.
+![Fix](../assets/fix.svg) - Improved stability.
 
 ### 1.2.0
 
@@ -50,7 +59,7 @@ _May 30, 2023_
 
 _August 15, 2023_
 
-- ![Fix](../assets/fix.svg) - Updated the UI components version.
+![Fix](../assets/fix.svg) - Updated the UI components version.
 
 ### 1.1.0
 
@@ -58,7 +67,7 @@ _May 30, 2023_
 
 [!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
 
-- ![New](../assets/new.svg) - Added support for [dynamic blocks](#headless-support) in a headless storefront.
+![New](../assets/new.svg) - Added support for [dynamic blocks](#headless-support) in a headless storefront.
 
 ### 1.0.1
 
@@ -66,8 +75,8 @@ _May 11, 2023_
 
 [!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
 
-- ![Fix](../assets/fix.svg) - Fixed an issue where a dynamic block or cart price rule was not applied to the storefront.
-- ![Fix](../assets/fix.svg) - Fixed an issue where an unconfigured installation of the Audience Activation extension caused an error when a merchant tried to create or update a dynamic block.
+![Fix](../assets/fix.svg) - Fixed an issue where a dynamic block or cart price rule was not applied to the storefront.
+![Fix](../assets/fix.svg) - Fixed an issue where an unconfigured installation of the Audience Activation extension caused an error when a merchant tried to create or update a dynamic block.
 
 ### 1.0.0
 
@@ -75,7 +84,7 @@ _March 31, 2023_
 
 [!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
 
-- ![New](../assets/new.svg) - General availability release
+![New](../assets/new.svg) - General availability release
 
 ## Implementation
 
