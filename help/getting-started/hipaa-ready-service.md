@@ -6,6 +6,11 @@ feature: Security, Roles/Permissions
 
 # HIPAA readiness on Adobe Commerce
 
+### *Legal Disclaimer*
+*This document is intended to help Adobe customers answer their questions regarding Adobe’s HIPAA-Ready Services. It does not
+constitute legal advice. Each customer should consult with their own legal counsel to understand their obligations under HIPAA
+and the appropriate use and configuration of Adobe’s products.*
+
 ## Health Insurance Portability and Accountability Act (HIPAA)
 
 The Administrative Simplification subtitle of the Health Insurance Portability and Accountability Act of 1996 (“HIPAA”) provides for the U.S. Department of Health and Human Services to promulgate standards governing the privacy and security of certain individually identifiable health information.  HIPAA was most significantly amended by the Health Information Technology Act for Economic and Clinical Health Act of 2009 (the “HITECH Act”), which added breach notification requirements and expanded the scope of who is governed by HIPAA.  The HIPAA Privacy, Security, and Breach Notification Rules establish important protections for individually identifiable health information called protected health information or “PHI” when created, received, maintained, or transmitted by a HIPAA covered entity or business associate.  A “Covered Entity” is a health care provider, health plan, or a health care clearinghouse.  A “Business Associate” is an entity or person, other than a member of the workforce of a covered entity, who performs functions or activities on behalf of, or provides certain services to, a Covered Entity that involves creating, receiving, maintaining, or transmitting PHI.
@@ -14,6 +19,13 @@ The HIPAA Privacy and Security Rules require that a Covered Entity obtain writte
 ## Adobe Commerce HIPAA-Ready
 
 Adobe Commerce HIPAA-Ready has additional features and functionalities that allow merchants to comply with their respective HIPAA obligations. You can install the Adobe Commerce Hipaa Ready (magento/hipaa-ee) module to your Adobe Commerce on cloud infrastructure. There are some features that also have to be disabled to be compliant with HIPAA.
+
+*These materials are intended for informational purposes only. Provision of this information does not entitle the recipient to
+any contractual or other rights. Furthermore, while efforts have been made to assure the accuracy of the information as of the
+date it has been provided, no representation is made that such information is accurate and complete, and Adobe undertakes no
+obligation to update this information as the law or Adobe’s products change. Additionally, this document is not to be distributed to
+any party other than the intended recipient without written consent from Adobe.*
+
 
 ## [Action Logs](https://experienceleague.adobe.com/docs/commerce-admin/systems/action-logs/action-log.html?lang=en)
 
