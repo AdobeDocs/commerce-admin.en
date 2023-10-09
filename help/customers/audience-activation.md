@@ -50,7 +50,7 @@ _May 30, 2023_
 
 _October 10, 2023_
 
-![New](../assets/new.svg) - Added support for OAuth 2.0 when you [configure](connect-data.md#connect-commerce-data-to-adobe-experience-platform) the Experience Platform connector.
+![New](../assets/new.svg) - Added support for OAuth 2.0 when you [configure](#configure-the-extension) the Audience Activation extension.
 ![Fix](../assets/fix.svg) - Improved stability.
 
 ### 1.2.0
