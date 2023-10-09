@@ -31,7 +31,8 @@ any party other than the intended recipient without written consent from Adobe.*
 
 Audit Log is one of the HIPAA requirements. In Adobe Commerce, we already have an Action Logs feature to record every change made by an Admin user who works in your store. But to meet HIPAA requirements about Audit Log, we made some changes with the feature to record all Admin user and customer actions performed via both the UI and API calls.
 
-We also made some changes with the Action Logs report grid.
+### Action logs report (System > Action Logs > Report)  
+We made some changes with the Action Logs report grid.
 - Two new columns Source & Client Type are added.
 - Existing column Username renamed to Client Identifier
 - Existing column Full Action Name renamed to Target
