@@ -89,10 +89,7 @@ To empower administrators with more informative grids, several enhancements have
 - Added a **User** column (_username of an admin who scheduled import/export_).
 
 #### Disabled Modules
-- Magento_Analytics
 - Magento_NewsletterGraphQl
-
-- The Advanced Reporting Service setting has been disabled by default to prevent PHI from being used for analysis and reporting.
 - The NewsletterGraphQl module has been disabled to prevent PHI from being used in a market context via customer segments.
 
 #### Disabled Guest Checkout by default
@@ -100,4 +97,7 @@ To empower administrators with more informative grids, several enhancements have
 - Guest Checkout has been disabled by default in the HIPAA product but can be enabled my merchants at their own risk.
 
 ### Disabled Newsletter feature by default
-- The newsletter feature has been disabled by default to prevent PHI being used in a market context.
+- The newsletter feature has been disabled by default to prevent PHI being used in a market context but can be enabled by the merchant at their own risk.
+
+### Disabled Advanced Reporting Service setting by default
+The Advanced Reporting Service setting has been disabled by default to prevent PHI from being used for analysis and reporting but can be enabled by the merchant at their own risk.
