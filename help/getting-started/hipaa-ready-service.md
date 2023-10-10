@@ -101,10 +101,6 @@ To empower administrators with more informative grids, several enhancements have
 - Added a **Scheduled At** column (_date and time when import/export was scheduled_).
 - Added a **User** column (_username of an admin who scheduled import/export_).
 
-#### Disabled Modules
-- Magento_NewsletterGraphQl
-- The NewsletterGraphQl module has been disabled to prevent PHI from being used in a market context via customer segments.
-
 #### Disabled Guest Checkout by default
 - Guest checkout presents a potential risk for various aspects of HIPAA including logging, access control, PHI hygiene and lineage, and potentially more.
 - Guest Checkout has been disabled by default in the HIPAA product but can be enabled my merchants at their own risk.
