@@ -26,6 +26,78 @@ date it has been provided, no representation is made that such information is ac
 obligation to update this information as the law or Adobe’s products change. Additionally, this document is not to be distributed to
 any party other than the intended recipient without written consent from Adobe.*
 
+## Installation instructions
+
+Adobe’s HIPAA-Ready Services is technically a composer's metapackage `magento/hipaa-ee` that contains links to special modules. The metapackage `magento/hipaa-ee` located in the repository [repo.magento.com](https://repo.magento.com). 
+
+In order to be able to install `magento/hipaa-ee` metapackage, you need to have access to it. For key generation and obtaining the necessary rights, please refer to this topic "[Get your authentication keys](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=en)".
+
+Before installing the `magento/hipaa-ee` metapackage, you should also check the environment where the package will be installed meets the [system requirements](https://jira.corp.adobe.com/browse/AC-9522).
+
+So, having the necessary rights to the repository where the metapackage `magento/hipaa-ee` is located, and making sure that your environment meets the system requirements, you can start the installation.
+
+To install, you only need to add the metapackage `magento/hipaa-ee` to the composer configuration.
+
+```shell
+composer require magento/hipaa-ee
+```
+
+If Adobe Commerce has not been installed, then you can start the installation. Follow this [Installation instructions](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html?lang=en).
+If Adobe Commerce was already installed, then after downloading modules, you need to run `bin/magento setup:upgrade` command and then follow the recommendations.
+
+```shell
+bin/magento setup:upgrade
+```
+
+In fact, when this command is running, the newly downloaded modules will be enabled, and the scripts to install them will be launched. You can learn more about module management in this topic "[Enable or disable modules](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=en)".
+
+After the installation or updating process is finished, you should check whether the Hipaa relevant modules have been included.
+Run the command:
+
+```shell
+bin/magento module:status
+```
+Output:
+
+```shell
+List of enabled modules:
+Magento_Store
+...
+Magento_HipaaAnalytics
+Magento_HipaaCheckout
+Magento_HipaaLogging
+Magento_HipaaScheduledImportExport
+Magento_HipaaAdminLogging
+Magento_HipaaCustomerLogging
+Magento_HipaaNewsletter
+Magento_HipaaImportExport
+Magento_HipaaApiLogging
+...
+Temando_ShippingRemover
+
+List of disabled modules:
+```
+Or this command
+
+```shell
+php bin/magento module:status --enabled | grep Hipaa
+```
+
+Output:
+
+```shell
+Magento_HipaaAnalytics
+Magento_HipaaCheckout
+Magento_HipaaLogging
+Magento_HipaaScheduledImportExport
+Magento_HipaaAdminLogging
+Magento_HipaaCustomerLogging
+Magento_HipaaNewsletter
+Magento_HipaaImportExport
+Magento_HipaaApiLogging
+```
+
+The result of this command is a list of modules. All modules prefixed with `Magento_Hipaa` must be in the enabled modules section.
 
 ## [Action Logs](https://experienceleague.adobe.com/docs/commerce-admin/systems/action-logs/action-log.html?lang=en)
 
