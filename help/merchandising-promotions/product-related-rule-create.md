@@ -14,6 +14,10 @@ The process of creating a related product rule is similar to setting up a price 
 >
 >For an attribute to be used in a targeted rule, the [_[!UICONTROL Use for Promo Rule Conditions]_](../catalog/product-attributes.md) property must be set to `Yes`.
 
+>[!NOTE]
+>
+>[!UICONTROL All Store Views] scope values are always used for both [!UICONTROL Products to Match] and [!UICONTROL Products to Display] conditions for all product attributes. Even if these product attributes have different values for different store views and websites.
+
 ## Create a related product rule
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_ > **[!UICONTROL Related Product Rules]**.
