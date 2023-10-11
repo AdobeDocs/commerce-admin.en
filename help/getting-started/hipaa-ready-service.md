@@ -26,6 +26,13 @@ date it has been provided, no representation is made that such information is ac
 obligation to update this information as the law or Adobe’s products change. Additionally, this document is not to be distributed to
 any party other than the intended recipient without written consent from Adobe.*
 
+## System Requirements
+
+HIPAA readiness on Adobe Commerce shares the same system requirements as Adobe Commerce and has the following limitations:
+- Compatible with Adobe Commerce **2.4.6-p3** only.
+- Have to be deployed on Adobe Commerce cloud infrastructure.
+- Requires the latest version of **magento/hipaa-ee** extension.
+
 ## Installation instructions
 
 Adobe’s HIPAA-Ready Services is technically a composer's metapackage `magento/hipaa-ee` that contains links to special modules. The metapackage `magento/hipaa-ee` located in the repository [repo.magento.com](https://repo.magento.com). 
