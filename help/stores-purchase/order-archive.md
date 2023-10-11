@@ -141,7 +141,7 @@ Your store can be configured to archive orders, invoices, shipments, and credit 
 
 >[!NOTE]
 >
->Restored orders is archived again only after a _**new**_ number of days configured in [!UICONTROL Configuration] > [!UICONTROL SALES] > [!UICONTROL Sales] > [!UICONTROL Orders, Invoices, Shipments, Credit Memos Archiving] > [!UICONTROL Archive Orders Purchased] setting.
+>Restored orders are archived again only after a _**new**_ number of days, which is configured in [!UICONTROL Configuration] > [!UICONTROL SALES] > [!UICONTROL Sales] > [!UICONTROL Orders, Invoices, Shipments, Credit Memos Archiving] > [!UICONTROL Archive Orders Purchased] setting.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > _[!UICONTROL Operations]_ > **[!UICONTROL Orders]**.
 
