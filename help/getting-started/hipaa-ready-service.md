@@ -28,10 +28,10 @@ any party other than the intended recipient without written consent from Adobe.*
 
 ## System Requirements
 
-HIPAA readiness on Adobe Commerce shares the same system requirements as Adobe Commerce and has the following limitations:
-- Compatible with Adobe Commerce **2.4.6-p3** only.
-- Have to be deployed on Adobe Commerce cloud infrastructure.
-- Requires the latest version of **magento/hipaa-ee** extension.
+HIPAA readiness on Adobe Commerce shares the same system requirements as Adobe Commerce with the additional requirements:
+- Adobe Commerce version 2.4.6-p3 or newer.
+- Adobe Commerce cloud infrastructure.
+- Latest version of **magento/hipaa-ee** extension.
 
 ## Installation instructions
 
@@ -106,44 +106,49 @@ Magento_HipaaApiLogging
 
 The result of this command is a list of modules. All modules prefixed with `Magento_Hipaa` must be in the enabled modules section.
 
-## [Action Logs](https://experienceleague.adobe.com/docs/commerce-admin/systems/action-logs/action-log.html?lang=en)
+## HIPAA Readiness Changes
+
+The `magento/hipaa-ee` package introduces some changes and enhancements to the base Commerce product. The sections below detail those changes and how they alter the base product.
+
+
+### [Action Logs](https://experienceleague.adobe.com/docs/commerce-admin/systems/action-logs/action-log.html?lang=en)
 
 Audit Log is one of the HIPAA requirements. In Adobe Commerce, we already have an Action Logs feature to record every change made by an Admin user who works in your store. But to meet HIPAA requirements about Audit Log, we made some changes with the feature to record all Admin user and customer actions performed via both the UI and API calls.
 
-### Action logs report (System > Action Logs > Report)  
+#### Action logs report (System > Action Logs > Report)  
 We made some changes with the Action Logs report grid.
 - Two new columns Source & Client Type are added.
 - Existing column Username renamed to Client Identifier
 - Existing column Full Action Name renamed to Target
 
-### Configure Admin actions for logging
+#### Configure Admin actions for logging
 
 This feature is not available anymore since all actions have to be recorded by default.
 
-## Import / Export Features
+### Import / Export Features
 
 Enhancements to Import/Export Features focus on improving the administrative experience and providing better visibility into user actions. It's important to note that these enhancements do not alter Import/Export core logic; rather, they extend the functionality to offer more comprehensive logging and improved data attribution.
 
-### Core Logic
+#### Core Logic
 
 The fundamental functionality of Import/Export remains unchanged. Users can continue to leverage the existing features and workflows without any disruption.
 
-### Administrative Action Logging
+#### Administrative Action Logging
 
 One of the key improvements within the Import/Export features is the enhanced logging of administrative actions. This introduces the capability to delve deeper into activities associated with data import/export, contributing to improved tracking and auditability. The following actions are now logged and reflected in the **System > Action Logs > Report** grid:
 
-#### Import
+##### Import
 
 - an Admin does import
 - an Admin downloads an imported file
 - an Admin downloads an error file
 
-#### Export
+##### Export
 
 - an Admin requests export
 - an Admin downloads exported file
 
-#### Scheduled Imports/Exports
+##### Scheduled Imports/Exports
 
 - an Admin schedules export
 - an Admin edits scheduled export
@@ -155,15 +160,15 @@ One of the key improvements within the Import/Export features is the enhanced lo
 - an Admin deletes scheduled import
 - an Admin mass deletes import/export operations
 
-### Grid Display Enhancements & Improved Filtering and Sorting
+#### Grid Display Enhancements & Improved Filtering and Sorting
 
 To empower administrators with more informative grids, several enhancements have been made to the display of data as well as filtering and sorting capabilities:
 
-#### Import History Grid (System > Data Transfer > Import History)
+##### Import History Grid (System > Data Transfer > Import History)
 
 - Enabled filtering for all columns except **Imported File**, **Error File**, **Execution Time** and **Summary**.
 
-#### Export Grid (System > Data Transfer > Export)
+##### Export Grid (System > Data Transfer > Export)
 
 - Added an **ID** column.
 - Added a **Requested At** column (_date and time when export was requested_).
@@ -174,18 +179,18 @@ To empower administrators with more informative grids, several enhancements have
 - Enabled sorting for all columns except **File name**.
 - Enabled filtering for all columns.
 
-#### Scheduled Imports/Exports Grid
+##### Scheduled Imports/Exports Grid
 
 - Added an **ID** column.
 - Added a **Scheduled At** column (_date and time when import/export was scheduled_).
 - Added a **User** column (_username of an admin who scheduled import/export_).
 
-#### Disabled Guest Checkout by default
+##### Disabled Guest Checkout by default
 - Guest checkout presents a potential risk for various aspects of HIPAA including logging, access control, PHI hygiene and lineage, and potentially more.
 - Guest Checkout has been disabled by default in the HIPAA product but can be enabled my merchants at their own risk.
 
-### Disabled Newsletter feature by default
+#### Disabled Newsletter feature by default
 - The newsletter feature has been disabled by default to prevent PHI being used in a market context but can be enabled by the merchant at their own risk.
 
-### Disabled Advanced Reporting Service setting by default
+#### Disabled Advanced Reporting Service setting by default
 The Advanced Reporting Service setting has been disabled by default to prevent PHI from being used for analysis and reporting but can be enabled by the merchant at their own risk.
