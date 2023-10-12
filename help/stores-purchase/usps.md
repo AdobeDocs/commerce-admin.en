@@ -16,6 +16,8 @@ You can also open a [USPS Web Tools][1] account. After you complete the registra
 
 ## Step 2: Enable USPS for your store
 
+{{beta2-updates}}
+
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Delivery Methods]**.

@@ -36,6 +36,8 @@ There are two variations of the Catalog Search configuration. The first method d
 >
 >Due to the [!DNL Elasticsearch 7] end-of-support announcement for August 2023, it is recommended that all Adobe Commerce customers migrate to the OpenSearch 2.x search engine. For information about migrating your search engine during product upgrade, see [Migrating to OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) in the _Upgrade Guide_.
 
+{{beta2-updates}}
+
 ### Step 1: Configure general search options
 
 >[!NOTE]

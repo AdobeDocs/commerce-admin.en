@@ -102,6 +102,8 @@ feature: Configuration, Shipping/Delivery
 
 ![UPS REST Account Settings](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
+![UPS XML Account Settings](./assets/delivery-methods-ups1.png)<!-- zoom -->
+
 <!-- [UPS REST Account Settings](https://docs.magento.com/user-guide/shipping/ups.html) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
@@ -174,6 +176,8 @@ feature: Configuration, Shipping/Delivery
 
 ### [!UICONTROL USPS]
 
+{{beta2-updates}}
+
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |Enabled for Checkout|Website|Determines if USPS is available to customers as a shipping method during checkout. Options: `Yes` / `No`|
@@ -244,6 +248,8 @@ feature: Configuration, Shipping/Delivery
 {:style="table-layout:auto"}
 
 ### [!UICONTROL FedEx]
+
+{{beta2-updates}}
 
 ![FedEx Account Settings](./assets/delivery-methods-fedex-account-settings.png)<!-- zoom -->
 
