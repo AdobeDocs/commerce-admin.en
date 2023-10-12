@@ -1,7 +1,7 @@
 ---
 title: '[!DNL AR Viewer] for Adobe Commerce setup'
 description: Learn about managing 3D model assets using the [!DNL AR Viewer] extension for your product listings.
-exl-id: e7cb80d0-ad2d-41ba-b699-250506034f21
+exl-id: e3f081ff-b994-4842-a1f3-613012d33a9c
 ---
 # Manage product 3D models with the [!DNL AR Viewer] for Adobe Commerce
 
