@@ -133,22 +133,22 @@ Enhancements to Import/Export Features focus on improving the administrative exp
 
 The fundamental functionality of Import/Export remains unchanged. Users can continue to leverage the existing features and workflows without any disruption.
 
-#### Administrative Action Logging
+### Administrative Action Logging
 
 One of the key improvements within the Import/Export features is the enhanced logging of administrative actions. This introduces the capability to delve deeper into activities associated with data import/export, contributing to improved tracking and auditability. The following actions are now logged and reflected in the **System > Action Logs > Report** grid:
 
-##### Import
+#### Import
 
 - an Admin does import
 - an Admin downloads an imported file
 - an Admin downloads an error file
 
-##### Export
+#### Export
 
 - an Admin requests export
 - an Admin downloads exported file
 
-##### Scheduled Imports/Exports
+#### Scheduled Imports/Exports
 
 - an Admin schedules export
 - an Admin edits scheduled export
@@ -160,15 +160,15 @@ One of the key improvements within the Import/Export features is the enhanced lo
 - an Admin deletes scheduled import
 - an Admin mass deletes import/export operations
 
-#### Grid Display Enhancements & Improved Filtering and Sorting
+### Grid Display Enhancements & Improved Filtering and Sorting
 
 To empower administrators with more informative grids, several enhancements have been made to the display of data as well as filtering and sorting capabilities:
 
-##### Import History Grid (System > Data Transfer > Import History)
+#### Import History Grid (System > Data Transfer > Import History)
 
 - Enabled filtering for all columns except **Imported File**, **Error File**, **Execution Time** and **Summary**.
 
-##### Export Grid (System > Data Transfer > Export)
+#### Export Grid (System > Data Transfer > Export)
 
 - Added an **ID** column.
 - Added a **Requested At** column (_date and time when export was requested_).
@@ -179,18 +179,18 @@ To empower administrators with more informative grids, several enhancements have
 - Enabled sorting for all columns except **File name**.
 - Enabled filtering for all columns.
 
-##### Scheduled Imports/Exports Grid
+#### Scheduled Imports/Exports Grid
 
 - Added an **ID** column.
 - Added a **Scheduled At** column (_date and time when import/export was scheduled_).
 - Added a **User** column (_username of an admin who scheduled import/export_).
 
-##### Disabled Guest Checkout by default
+#### Disabled Guest Checkout by default
 - Guest checkout presents a potential risk for various aspects of HIPAA including logging, access control, PHI hygiene and lineage, and potentially more.
 - Guest Checkout has been disabled by default in the HIPAA product but can be enabled my merchants at their own risk.
 
-#### Disabled Newsletter feature by default
+### Disabled Newsletter feature by default
 - The newsletter feature has been disabled by default to prevent PHI being used in a market context but can be enabled by the merchant at their own risk.
 
-#### Disabled Advanced Reporting Service setting by default
+### Disabled Advanced Reporting Service setting by default
 The Advanced Reporting Service setting has been disabled by default to prevent PHI from being used for analysis and reporting but can be enabled by the merchant at their own risk.
