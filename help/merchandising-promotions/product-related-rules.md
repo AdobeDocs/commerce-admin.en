@@ -4,7 +4,7 @@ description: Learn about related product rules and how they are used to dynamica
 exl-id: ff566e13-cbe8-42f1-be3a-684e364b86dd
 feature: Merchandising, Products, Storefront
 ---
-# Related product rules (Target Rules)
+# Related product rules (target rules)
 
 {{ee-feature}}
 
