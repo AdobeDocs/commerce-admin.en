@@ -128,14 +128,15 @@ We modified the Action Logs report grid to accommodate customer actions perform 
 2. Rename ***Username*** to ***Client Identifier***
    - ***Client Identifier***: Displays the login ID for the user who performed the action  
       Values:
-      - an email if Client Type is Customer or Integration
+      - an email if Client Type is Customer
       - a username if Client Type is Admin
+      - a name if Client Type is Integration
 
 
 3. Rename ***Full Action Name*** to ***Target***
    - ***Target***:  Displays the action name  
          Values:
-       - an endpoint if Source is REST API
+       - an endpoint if Source is REST API or SOAP API
        - a query/mutation name if GraphQL API
        - an action name if Admin UI or Customer UI.
 
