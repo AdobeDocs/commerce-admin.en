@@ -16,7 +16,7 @@ The process of creating a related product rule is similar to setting up a price 
 
 >[!NOTE]
 >
->[!UICONTROL All Store Views] scope values are always used for both [!UICONTROL Products to Match] and [!UICONTROL Products to Display] conditions for all product attributes. Even if these product attributes have different values for different store views and websites.
+>The `All Store Views` scope value is always used for both [!UICONTROL Products to Match] and [!UICONTROL Products to Display] conditions for all product attributes. This also applies when the product attributes have different values for different store views and websites.
 
 ## Create a related product rule
 
