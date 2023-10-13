@@ -116,10 +116,28 @@ The `magento/hipaa-ee` package introduces some changes and enhancements to the b
 Audit Log is one of the HIPAA requirements. In Adobe Commerce, we already have an Action Logs feature to record every change made by an Admin user who works in your store. But to meet HIPAA requirements about Audit Log, we made some changes with the feature to record all Admin user and customer actions performed via both the UI and API calls.
 
 #### Action logs report (System > Action Logs > Report)  
-We made some changes with the Action Logs report grid.
-- Two new columns Source & Client Type are added.
-- Existing column Username renamed to Client Identifier
-- Existing column Full Action Name renamed to Target
+
+We modified the Action Logs report grid to accommodate customer actions perform via UI and API. 
+1. Add 2 new columns ***Source*** & ***Client Type***.
+   - ***Source***: Displays where the action was performed.  
+      Values: Admin UI | Customer UI | REST API | SOAP API | GraphQL API
+   - ***Client Type***: Display the client type.   
+      Values: Customer | Admin | Integration
+   
+
+2. Rename ***Username*** to ***Client Identifier***
+   - ***Client Identifier***: Displays the login ID for the user who performed the action  
+      Values:
+      - an email if Client Type is Customer or Integration
+      - a username if Client Type is Admin
+
+
+3. Rename ***Full Action Name*** to ***Target***
+   - ***Target***:  Displays the action name  
+         Values:
+       - an endpoint if Source is REST API
+       - a query/mutation name if GraphQL API
+       - an action name if Admin UI or Customer UI.
 
 #### Configure Admin actions for logging
 
