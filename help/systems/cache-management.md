@@ -139,7 +139,7 @@ Commerce provides additional flush cache options using the command line. These o
 | [!UICONTROL Translations] | Translation files. | `TRANSLATE` |
 | [!UICONTROL Web Services Configuration] | REST and SOAP configurations, generated WSDL file. | `WEBSERVICE` |
 | [!UICONTROL Target Rule] | Target Rule Index | `TARGET_RULE` |
-| [!UICONTROL Admin UI SDK Cache] | Admin UI SDK Cache | `ADMIN_UI_SDK` |
+| [!UICONTROL Admin UI SDK Cache] | Caches customizations to the Admin | `ADMIN_UI_SDK` |
 
 {style="table-layout:auto"}
 
