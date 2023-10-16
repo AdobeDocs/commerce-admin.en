@@ -39,9 +39,8 @@ A [FedEx merchant account][1] and registration for FedEx Web Services Production
 1. Enter the following information from your FedEx account:
 
    - **[!UICONTROL Account ID]**
-   - **[!UICONTROL Meter Number]**
-   - **[!UICONTROL Key]**
-   - **[!UICONTROL Password]**
+   - **[!UICONTROL Api Key]**
+   - **[!UICONTROL Secret Key]**
 
 1. If you have set up a FedEx sandbox and want to work in the testing environment, set **[!UICONTROL Sandbox Mode]** to `Yes`.
 
