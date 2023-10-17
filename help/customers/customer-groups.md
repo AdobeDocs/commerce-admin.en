@@ -24,6 +24,10 @@ Customer groups determine which discounts are available and the tax class that i
 
 ## Create a customer group
 
+>[!NOTE]
+>
+>Admin users that do not have access to all websites (assigned a role with a 'Custom' [!UICONTROL Role Scope]) cannot create, modify, or delete customer groups.
+
 1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]**.
 
 1. Click **[!UICONTROL Add New Customer Group]**.
