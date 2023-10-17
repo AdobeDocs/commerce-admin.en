@@ -100,45 +100,46 @@ Commerce provides additional flush cache options using the command line. These o
 
 ## Controls
 
-|Control|Description|
-|--- |--- |
-|[!UICONTROL Mass Actions]|Selects the checkbox of multiple caches. Options: <br/>**[!UICONTROL Select All]** — Selects the checkbox of all caches. <br/>**Unselect All** — Clears the checkbox of all caches. <br/>**[!UICONTROL Select Visible]** — Selects the checkbox of all visible caches. <br/>**[!UICONTROL Unselect Visible]** — Clears the checkbox of all visible caches.|
-|[!UICONTROL Actions]|Determines the action to be applied to all selected caches. Options: <br/>**[!UICONTROL Enable]** — Enables all selected caches. <br/>**[!UICONTROL Disable]** — Disables all selected caches. <br/>**[!UICONTROL Refresh]** — Refreshes all selected caches.|
-|[!UICONTROL Submit]|Applies the action to all selected caches.|
+| Control                   | Description                                                                                                                                                                                                                                                                                                                                                |
+|---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Mass Actions] | Selects the checkbox of multiple caches. Options: <br/>**[!UICONTROL Select All]** — Selects the checkbox of all caches. <br/>**Unselect All** — Clears the checkbox of all caches. <br/>**[!UICONTROL Select Visible]** — Selects the checkbox of all visible caches. <br/>**[!UICONTROL Unselect Visible]** — Clears the checkbox of all visible caches. |
+| [!UICONTROL Actions]      | Determines the action to be applied to all selected caches. Options: <br/>**[!UICONTROL Enable]** — Enables all selected caches. <br/>**[!UICONTROL Disable]** — Disables all selected caches. <br/>**[!UICONTROL Refresh]** — Refreshes all selected caches.                                                                                              |
+| [!UICONTROL Submit]       | Applies the action to all selected caches.                                                                                                                                                                                                                                                                                                                 |
 
 {style="table-layout:auto"}
 
 ### Buttons
 
-|Button|Description|
-|--- |--- |
-|[!UICONTROL Flush Magento Cache]|Removes all items in the default Commerce cache (`var/cache`), according to their associated Commerce tags.|
-|[!UICONTROL Flush Cache Storage]|Removes all items from the cache, regardless of Commerce tag. If your system uses an alternate cache location, any cached files used by other applications are removed in the process.|
-|[!UICONTROL Flush Catalog Images Cache]|Removes all automatically resized and watermarked catalog images that are stored in `media/catalog/product/cache`. If recently uploaded images are not reflected in the catalog, try flushing the catalog and refreshing your browser.|
-|[!UICONTROL Flush JavaScript/CSS Cache]|Removes the merged copy of JavaScript and CSS files from the cache. If recent changes to the style sheet or JavaScript are not reflected in the store, try flushing the JavaScript/CSS cache and refreshing your browser.|
-|[!UICONTROL Flush Static Files Cache]|Removes preprocessed view files and static files.|
+| Button                                  | Description                                                                                                                                                                                                                            |
+|-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Flush Magento Cache]        | Removes all items in the default Commerce cache (`var/cache`), according to their associated Commerce tags.                                                                                                                            |
+| [!UICONTROL Flush Cache Storage]        | Removes all items from the cache, regardless of Commerce tag. If your system uses an alternate cache location, any cached files used by other applications are removed in the process.                                                 |
+| [!UICONTROL Flush Catalog Images Cache] | Removes all automatically resized and watermarked catalog images that are stored in `media/catalog/product/cache`. If recently uploaded images are not reflected in the catalog, try flushing the catalog and refreshing your browser. |
+| [!UICONTROL Flush JavaScript/CSS Cache] | Removes the merged copy of JavaScript and CSS files from the cache. If recent changes to the style sheet or JavaScript are not reflected in the store, try flushing the JavaScript/CSS cache and refreshing your browser.              |
+| [!UICONTROL Flush Static Files Cache]   | Removes preprocessed view files and static files.                                                                                                                                                                                      |
 
 {style="table-layout:auto"}
 
 ### Caches
 
-| Cache | Description | Associated tag |
-| ----- | ----------- | -------------- |
-| [!UICONTROL Configuration] | Various XML configurations that were collected across modules and merged.<br>**[!UICONTROL System]** -  `config.xml`, `local.xml`<br>**[!UICONTROL Module]** -  `config.xml` | `CONFIG` |
-| [!UICONTROL Layouts] | Layout building instructions. | `LAYOUT_GENERAL_CACHE_TAG` |
-| [!UICONTROL Blocks HTML output] | Page blocks HTML. | `BLOCK_HTML` |
-| [!UICONTROL Collections Data] | Collection data files.  | `COLLECTION_DATA` |
-| [!UICONTROL Reflection Data ]| Clears API interface reflection data, that typically is generated during runtime. | `REFLECTION` |
-| [!UICONTROL Database DDL operations] | Results of DDL queries, such as describing tables or indexes.  | `DB_DDL` |
-| [!UICONTROL Compiled Config] | Results of code compilation. | `COMPILED_CONFIG` |
-| [!UICONTROL EAV types and attributes] | Entity types declaration cache. | `EAV` |
-| [!UICONTROL Customer Notification] | Temporary notifications that appear in the user interface. | `CUSTOMER_NOTIFICATION` |
-| [!UICONTROL Integrations Configuration] | Integration configuration file. | `INTEGRATION` |
-| [!UICONTROL Integrations API Configuration] | Integrations API configuration file. | `INTEGRATION_API_CONFIG` |
-| [!UICONTROL Page Cache] | Full page caching. | `FPC` |
-| [!UICONTROL Translations] | Translation files. | `TRANSLATE` |
-| [!UICONTROL Web Services Configuration] | REST and SOAP configurations, generated WSDL file. | `WEBSERVICE` |
-| [!UICONTROL Target Rule] | Target Rule Index | `TARGET_RULE` |
+| Cache                                       | Description                                                                                                                                                                  | Associated tag             |
+|---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
+| [!UICONTROL Configuration]                  | Various XML configurations that were collected across modules and merged.<br>**[!UICONTROL System]** -  `config.xml`, `local.xml`<br>**[!UICONTROL Module]** -  `config.xml` | `CONFIG`                   |
+| [!UICONTROL Layouts]                        | Layout building instructions.                                                                                                                                                | `LAYOUT_GENERAL_CACHE_TAG` |
+| [!UICONTROL Blocks HTML output]             | Page blocks HTML.                                                                                                                                                            | `BLOCK_HTML`               |
+| [!UICONTROL Collections Data]               | Collection data files.                                                                                                                                                       | `COLLECTION_DATA`          |
+| [!UICONTROL Reflection Data ]               | Clears API interface reflection data, that typically is generated during runtime.                                                                                            | `REFLECTION`               |
+| [!UICONTROL Database DDL operations]        | Results of DDL queries, such as describing tables or indexes.                                                                                                                | `DB_DDL`                   |
+| [!UICONTROL Compiled Config]                | Results of code compilation.                                                                                                                                                 | `COMPILED_CONFIG`          |
+| [!UICONTROL EAV types and attributes]       | Entity types declaration cache.                                                                                                                                              | `EAV`                      |
+| [!UICONTROL Customer Notification]          | Temporary notifications that appear in the user interface.                                                                                                                   | `CUSTOMER_NOTIFICATION`    |
+| [!UICONTROL Integrations Configuration]     | Integration configuration file.                                                                                                                                              | `INTEGRATION`              |
+| [!UICONTROL Integrations API Configuration] | Integrations API configuration file.                                                                                                                                         | `INTEGRATION_API_CONFIG`   |
+| [!UICONTROL Page Cache]                     | Full page caching.                                                                                                                                                           | `FPC`                      |
+| [!UICONTROL Target Rule]                    | Target Rule Index                                                                                                                                                            | `TARGET_RULE`              |
+| [!UICONTROL GraphQL Resolver Results]       | GraphQL Query Resolver results cache                                                                                                                                         | `GRAPHQL_RESOLVER_RESULT`  |
+| [!UICONTROL Web Services Configuration]     | REST and SOAP configurations, generated WSDL file.                                                                                                                           | `WEBSERVICE`               |
+| [!UICONTROL Translations]                   | Translation files.                                                                                                                                                           | `TRANSLATE`                |
 
 {style="table-layout:auto"}
 
