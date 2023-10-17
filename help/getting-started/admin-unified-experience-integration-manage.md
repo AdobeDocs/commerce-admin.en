@@ -4,6 +4,7 @@ description: Learn how to manage the Experience Cloud integration and troublesho
 hide: no
 hidefromtoc: no
 feature: Integration
+exl-id: 451bf2e1-7c38-40be-a7c1-aaf0fe9f486c
 ---
 # Manage the Experience Cloud Integration
 

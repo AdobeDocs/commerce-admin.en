@@ -5,6 +5,7 @@ hide: no
 hidefromtoc: no
 feature: Integration
 role: Admin, Leader
+exl-id: b2522d25-8255-4219-98b5-4b764430dea2
 ---
 # Configure the Experience Cloud Integration with the Commerce Admin
 
