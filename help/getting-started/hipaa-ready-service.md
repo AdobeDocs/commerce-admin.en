@@ -39,7 +39,7 @@ Adobe’s HIPAA-Ready Services is technically a composer's metapackage `magento/
 
 In order to be able to install `magento/hipaa-ee` metapackage, you need to have access to it. For key generation and obtaining the necessary rights, please refer to this topic "[Get your authentication keys](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=en)".
 
-Before installing the `magento/hipaa-ee` metapackage, you should also check the environment where the package will be installed meets the [system requirements](https://jira.corp.adobe.com/browse/AC-9522).
+Before installing the `magento/hipaa-ee` metapackage, you should also check the environment where the package will be installed meets the [system requirements](#system-requirements).
 
 So, having the necessary rights to the repository where the metapackage `magento/hipaa-ee` is located, and making sure that your environment meets the system requirements, you can start the installation.
 
