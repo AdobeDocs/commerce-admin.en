@@ -13,8 +13,7 @@ and the appropriate use and configuration of Adobe’s products.*
 
 ## Health Insurance Portability and Accountability Act (HIPAA)
 
-The Administrative Simplification subtitle of the Health Insurance Portability and Accountability Act of 1996 (“HIPAA”) provides for the U.S. Department of Health and Human Services to promulgate standards governing the privacy and security of certain individually identifiable health information.  HIPAA was most significantly amended by the Health Information Technology Act for Economic and Clinical Health Act of 2009 (the “HITECH Act”), which added breach notification requirements and expanded the scope of who is governed by HIPAA.  The HIPAA Privacy, Security, and Breach Notification Rules establish important protections for individually identifiable health information called protected health information or “PHI” when created, received, maintained, or transmitted by a HIPAA covered entity or business associate.  A “Covered Entity” is a health care provider, health plan, or a health care clearinghouse.  A “Business Associate” is an entity or person, other than a member of the workforce of a covered entity, who performs functions or activities on behalf of, or provides certain services to, a Covered Entity that involves creating, receiving, maintaining, or transmitting PHI.
-The HIPAA Privacy and Security Rules require that a Covered Entity obtain written assurances from a Business Associate in the form of a Business Associate Agreement, or BAA, requiring the Business Associate to safeguard the privacy and security of the Covered Entity’s PHI.
+The Health Insurance Portability and Accountability Act (HIPAA) is the key federal healthcare privacy law in the United States and is enforced by the U.S. Department of Health and Human Services (HHS). HIPAA applies to "Covered Entities" (e.g. healthcare providers, insurers, and clearinghouses) and "Business Associates" (e.g., entities that provide services to covered entities). HIPAA requirements are set across three separate rules: Privacy Rule, Security Rule, and Breach Notification Rule. Adobe acts as a Business Associate for certain products, which Adobe classifies as “HIPAA-Ready Services." Data regulated under HIPAA is referred to as “Protected Health Information” or “PHI.” PHI is a subset of health information that (1) is created or received by a healthcare provider, health plan, or healthcare clearinghouse, (2) relates to the past, present, or future physical or mental health or condition of an individual, the provision of healthcare to an individual, or the past, present, or future payment for the provision of healthcare to an individual, and (3) identifies the individual or with respect to which there is a reasonable basis to believe that the information can be used to identify the individual. The HIPAA Privacy and Security Rules require that a Covered Entity obtain written assurances from a Business Associate in the form of a Business Associate Agreement, or BAA, requiring the Business Associate to safeguard the privacy and security of the Covered Entityʼs PHI.
 
 ## Adobe Commerce HIPAA-Ready
 
@@ -29,84 +28,61 @@ any party other than the intended recipient without written consent from Adobe.*
 ## System Requirements
 
 HIPAA readiness on Adobe Commerce shares the same system requirements as Adobe Commerce with the additional requirements:
-- Adobe Commerce version 2.4.6-p3 or newer.
-- Adobe Commerce cloud infrastructure.
+- Adobe Commerce version 2.4.6-p3 or newer (non-beta).
+- Adobe Commerce on Cloud or Adobe Commerce on Managed Services.
 - Latest version of **magento/hipaa-ee** extension.
 
 ## Installation instructions
 
 Adobe’s HIPAA-Ready Services is technically a composer's metapackage `magento/hipaa-ee` that contains links to special modules. The metapackage `magento/hipaa-ee` located in the repository [repo.magento.com](https://repo.magento.com). 
 
-In order to be able to install `magento/hipaa-ee` metapackage, you need to have access to it. For key generation and obtaining the necessary rights, please refer to this topic "[Get your authentication keys](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=en)".
+1. In order to be able to install `magento/hipaa-ee` metapackage, you need to have access to it. For key generation and obtaining the necessary rights, please refer to this topic "[Get your authentication keys](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=en)".
 
-Before installing the `magento/hipaa-ee` metapackage, you should also check the environment where the package will be installed meets the [system requirements](#system-requirements).
+2. Check the environment where the package will be installed meets the general [system requirements](#system-requirements).
 
-So, having the necessary rights to the repository where the metapackage `magento/hipaa-ee` is located, and making sure that your environment meets the system requirements, you can start the installation.
+3. Add the metapackage `magento/hipaa-ee` to the composer configuration. The simplest way is by using the composer CLI. For example:
 
-To install, you only need to add the metapackage `magento/hipaa-ee` to the composer configuration.
+  ```shell
+  composer require magento/hipaa-ee
+  ```
 
-```shell
-composer require magento/hipaa-ee
-```
+4. If Adobe Commerce has not yet been installed, then you can start the installation. Follow this [Installation instructions](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html?lang=en).
 
-If Adobe Commerce has not been installed, then you can start the installation. Follow this [Installation instructions](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html?lang=en).
-If Adobe Commerce was already installed, then after downloading modules, you need to run `bin/magento setup:upgrade` command and then follow the recommendations.
+   If Adobe Commerce was already installed, then after downloading modules, you need to run `bin/magento setup:upgrade` command and then follow the recommendations.
 
-```shell
-bin/magento setup:upgrade
-```
+   ```shell
+   bin/magento setup:upgrade
+   ```
 
-In fact, when this command is running, the newly downloaded modules will be enabled, and the scripts to install them will be launched. You can learn more about module management in this topic "[Enable or disable modules](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=en)".
+   When this command is running, the newly downloaded modules will be enabled, and the scripts to install them will be launched. You can learn more about module management in this topic "[Enable or disable modules](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=en)".
 
-After the installation or updating process is finished, you should check whether the Hipaa relevant modules have been included.
+5. After the installation or updating process is finished, you should check whether the `Hipaa*` relevant modules have been included.
 Run the command:
 
-```shell
-bin/magento module:status
-```
-Output:
+   ```shell
+   bin/magento module:status
+   ```
 
-```shell
-List of enabled modules:
-Magento_Store
-...
-Magento_HipaaAnalytics
-Magento_HipaaCheckout
-Magento_HipaaLogging
-Magento_HipaaScheduledImportExport
-Magento_HipaaAdminLogging
-Magento_HipaaCustomerLogging
-Magento_HipaaNewsletter
-Magento_HipaaImportExport
-Magento_HipaaApiLogging
-...
-Temando_ShippingRemover
+   And if the HIPAA composer package was added correctly you will see the HIPAA modules in the output of the command. For example:
 
-List of disabled modules:
-```
-Or this command
+   ```text
+   List of enabled modules:
+   <truncated for brevity>
+   Magento_HipaaAnalytics
+   Magento_HipaaCheckout
+   Magento_HipaaLogging
+   Magento_HipaaScheduledImportExport
+   Magento_HipaaAdminLogging
+   Magento_HipaaCustomerLogging
+   Magento_HipaaNewsletter
+   Magento_HipaaImportExport
+   Magento_HipaaApiLogging
+   <truncated for brevity>
+   ```
 
-```shell
-php bin/magento module:status --enabled | grep Hipaa
-```
+   All modules prefixed with `Magento_Hipaa` must be in the enabled modules section.
 
-Output:
-
-```shell
-Magento_HipaaAnalytics
-Magento_HipaaCheckout
-Magento_HipaaLogging
-Magento_HipaaScheduledImportExport
-Magento_HipaaAdminLogging
-Magento_HipaaCustomerLogging
-Magento_HipaaNewsletter
-Magento_HipaaImportExport
-Magento_HipaaApiLogging
-```
-
-The result of this command is a list of modules. All modules prefixed with `Magento_Hipaa` must be in the enabled modules section.
-
-## HIPAA Readiness Changes
+## Feature Enhancements with HIPAA-readiness
 
 The `magento/hipaa-ee` package introduces some changes and enhancements to the base Commerce product. The sections below detail those changes and how they alter the base product.
 
@@ -203,6 +179,17 @@ To empower administrators with more informative grids, several enhancements have
 - Added an **ID** column.
 - Added a **Scheduled At** column (_date and time when import/export was scheduled_).
 - Added a **User** column (_username of an admin who scheduled import/export_).
+
+## Disabled features for HIPAA-readiness
+
+### SaaS Services
+
+None of the SaaS services offered for Adobe Commerce are available under the HIPAA-readiness offering. This includes but not limited to:
+
+- Live Search
+- API Mesh
+- App Builder
+- Catalog Service
 
 ### Disabled Guest Checkout by default
 - Guest checkout presents a potential risk for various aspects of HIPAA including logging, access control, PHI hygiene and lineage, and potentially more.
