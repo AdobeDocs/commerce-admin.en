@@ -16,7 +16,7 @@ Depending on their role, and the order, company users could be subjected to seve
 
 >[!NOTE]
 >
->Order cannot be placed if at least 1 product in the purchase order became disabled, or out of stock.
+>Order cannot be placed if at least one product in the purchase order became disabled, or out of stock.
 
 The purchase order workflow for a company can vary in a few ways:
 
