@@ -10,13 +10,13 @@ A theme is a collection of files that determines the visual presentation of your
 
 A responsive theme adjusts the page layout to fit the view port of the device. The sample _Luma_ theme has a flexible, responsive layout that can be viewed from the desktop, tablet, or mobile device.
 
-[!DNL Commerce] themes include layout files, template files, translation files, and skins. A skin is a collection of supporting CSS, images, and JavaScript files that together, create the visual presentation and interactions that your customers experience when they visit your store. Themes and skins can be modified and customized by a developer or designer who understands [!DNL Commerce] theme design and has access to your server. To learn more, see the [_Frontend Developer Guide_][1].
+[!DNL Commerce] themes include layout files, template files, translation files, and skins. A skin is a collection of supporting CSS, images, and JavaScript files that together, create the visual presentation and interactions that your customers experience when they visit your store. Themes and skins can be modified and customized by a developer or design professional who understands Commerce theme design and has access to your server. To learn more, see the [_Frontend Developer Guide_](https://developer.adobe.com/commerce/frontend-core/guide/themes/).
 
 ![Luma theme](./assets/design-responsive.png){width="600" zoomable="yes"}
 
-## The Default theme
+## The default theme
 
-The _[!DNL Magento Blank]_ responsive theme renders the display of your storefront for different devices and incorporates best practices for desktop, table, and mobile devices. Some themes are designed for use only with specific devices. When [!DNL Commerce] detects a specific browser ID, or user agent, it uses the theme that is configured for the specific browser. The search string can also include Perl-Compatible Regular Expressions (PCRE).
+The `Magento Blank` responsive theme renders the display of your storefront for different devices and incorporates best practices for desktop, table, and mobile devices. Some themes are designed for use only with specific devices. When [!DNL Commerce] detects a specific browser ID, or user agent, it uses the theme that is configured for the specific browser. The search string can also include Perl-Compatible Regular Expressions (PCRE).
 
 ![Themes](./assets/themes.png){width="700" zoomable="yes"}
 
@@ -69,5 +69,3 @@ The _[!DNL Magento Blank]_ responsive theme renders the display of your storefro
 1. To enter additional devices, repeat the process.
 
 1. When complete, click **[!UICONTROL Save Configuration]**.
-
-[1]: https://developer.adobe.com/commerce/frontend-core/guide/themes/

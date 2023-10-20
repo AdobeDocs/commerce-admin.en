@@ -2,6 +2,7 @@
 title: Adobe Experience Cloud Integration for Commerce Admin
 description: Learn about the Admin Unified Experience extension which integrates Commerce with Experience Cloud so that customers can access Commerce projects from the Experience Cloud home page.
 feature: Integration
+exl-id: e3fb6337-c7d5-4b6f-8f4a-583697a1f2d2
 ---
 # Adobe Experience Cloud Integration for Commerce
 
@@ -67,7 +68,7 @@ When the Experience Cloud integration is enabled, administrators use the followi
 
     If the module is not available on the Commerce instance, it can be installed using Composer.
 
-  - [Adobe I/O Events service](https://developer.adobe.com/commerce/events/get-started/)—Required to send event data to manage administrator access to Commerce projects from Experience Cloud.
+  - [Adobe I/O Events service](https://developer.adobe.com/commerce/extensibility/events/)—Required to send event data to manage administrator access to Commerce projects from Experience Cloud.
 
     The Adobe I/O Events integration with Commerce is enabled by the Commerce Event extension (`magento/commerce-eventing`) which is available with Adobe Commerce 2.4.4 and later versions.
 

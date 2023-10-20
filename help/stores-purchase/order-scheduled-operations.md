@@ -39,6 +39,12 @@ By scheduling these tasks, you can avoid the locks that occur when data is saved
 
 **_To enable the updates and reindexing:_**
 
+When [Production mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#production-mode) (the default mode used in Adobe Commerce on cloud infrastructure) is enabled, run the following command:
+
+``bin/magento config:set dev/grid/async_indexing 1``
+
+When [Default mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#default-mode) is enabled, complete the following steps:
+
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand the **[!UICONTROL Advanced]** section and choose **[!UICONTROL Developer]**.

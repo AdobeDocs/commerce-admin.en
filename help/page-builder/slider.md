@@ -44,6 +44,8 @@ When you are working with the Slider content type, you add and edit individual s
 
 {style="table-layout:auto"}
 
+{{$include /help/_includes/page-builder-hidden-element-note.md}}
+
 ## Add an individual slide
 
 1. Open the page, block, or dynamic block where you want to place the slider and expand the **[!UICONTROL Content]** section.

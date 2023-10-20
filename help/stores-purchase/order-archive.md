@@ -139,6 +139,10 @@ Your store can be configured to archive orders, invoices, shipments, and credit 
 
 ## Restore an archived order
 
+>[!NOTE]
+>
+>An order that is restored from an archived order is archived again according to the number of days configured in the [!UICONTROL Archive Orders Purchased] setting (see [Configure the order archive](#configure-the-order-archive)). The number of days is calculated against the [!UICONTROL Updated At] date for the order, which is changed when the order is moved from the archive.
+
 1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > _[!UICONTROL Operations]_ > **[!UICONTROL Orders]**.
 
 1. In the button bar, click **[!UICONTROL Go to Archive]**.
