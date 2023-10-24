@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods]'
-description: Review the configurations settings on the [!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods] page of the Commerce Admin.
+description: Review the configuration settings on the [!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods] page of the Commerce Admin.
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
 ---
@@ -100,28 +100,25 @@ feature: Configuration, Shipping/Delivery
 
 {{ups-api}}
 
-{{beta2-updates}}
+![UPS REST Account Settings](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
 ![UPS XML Account Settings](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
-<!-- [UPS XML Account Settings](https://docs.magento.com/user-guide/shipping/ups.html) -->
+<!-- [UPS REST Account Settings](https://docs.magento.com/user-guide/shipping/ups.html) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |[!UICONTROL Enabled for Checkout]|Website|Determines if UPS is available to customers as a shipping method during checkout. Options: `Yes` / `No`|
 |[!UICONTROL Enabled for RMA]|Website|Determines if UPS is available to customers as a shipping method for an RMA. Options: `Yes` / `No`|
-|[!UICONTROL UPS Type]|Store View|Specifies the  method used to connect to the UPS shipping system. Options: <br/>**`United Parcel Service XML`** - (Default) Your store sends an XML file with data to UPS as a request. <br/>**`United Parcel Service`** - Your store sends key-value pairs to UPS as a request. <br/><br/>**_Note:_** The standard United Parcel Service type is scheduled for deprecation in Commerce. For new configurations, you should use the [!UICONTROL United Parcel Service XML] type.|
 |_[!UICONTROL UPS Account Settings]_|||
 |[!UICONTROL Live Account]|Store View|Specifies that the United Parcel Service account is live. Options: `Yes` / `No`|
-|[!UICONTROL Gateway URL]|Website|The URL that connects to the UPS system to retrieve dynamic shipping rates. UPS is discontinuing support of HTTP. Default value: `https://www.ups.com/using/services/rave/qcostcgi.cgi`|
 |[!UICONTROL Title]|Store View|The name that is used for this shipping method during checkout.|
-|_[!UICONTROL UPS XML Account Settings]_|||
-|[!UICONTROL Access License Number]|Website|Your UPS shipper account access license number.|
-|[!UICONTROL Gateway XML URL]|Website|For UPS XML service, displays the following URLs that are required to transmit XML data: Gateway XML URL, Tracking XML URL, Shipping Confirm XML URL, Shipping Accept XML URL|
+|_[!UICONTROL UPS REST Account Settings]_|||
+|[!UICONTROL Gateway URL]|Website|For UPS REST service, displays the following URLs that are required to transmit JSON data: Gateway URL, Tracking URL, Shipping URL|
 |[!UICONTROL Mode]|Website|Determines the mode of transmission used for data sent to the UPS system. Options: <br/>**`Development`** - UPS does not verify that data received from the Commerce server is sent over SSL. <br/>**`Live`** - UPS verifies that data received from the Commerce server is sent over a secure socket layer (SSL).|
-|User ID|Website|Your UPS shipper account user ID.|
-|[!UICONTROL Origin of the Shipment]|Website|(UPS XML Only) The country or region where the product shipment originates.|
-|[!UICONTROL Password]|Store View|Your UPS shipper account password.|
+|User ID|Website|Your UPS shipper account Client ID.|
+|[!UICONTROL Origin of the Shipment]|Website|(UPS REST Only) The country or region where the product shipment originates.|
+|[!UICONTROL Password]|Store View|Your UPS shipper account Client Secret.|
 
 {:style="table-layout:auto"}
 
@@ -132,12 +129,12 @@ feature: Configuration, Shipping/Delivery
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |_[!UICONTROL UPS Negotiated Rate Settings]_|||
-|[!UICONTROL Enable Negotiated Rates]|Website|(UPS XML  Only) Enables / disables special rates, according to your agreement with UPS. Options: `Yes` / `No`|
+|[!UICONTROL Enable Negotiated Rates]|Website|(UPS REST  Only) Enables / disables special rates, according to your agreement with UPS. Options: `Yes` / `No`|
 |[!UICONTROL Packages Request Type]|Website|Determines how weight is calculated for shipments with multiple packages. Options: `Divide to equal weight (one request)` / `Use origin weight (multiple requests)`|
-|[!UICONTROL Shipper Number]|Website|(UPS XML  Only) The six-character UPS Shipper Number is required for reference to use negotiated rates.|
-|[!UICONTROL Container]|Website|Sets the container type used to package order shipments. Options: `Customer Packaging` / `UPS Letter Envelope` / `Customer Packaging` / `UPS Letter Envelope` / `UPS Tube` / `UPS Express Box` / `UPS Worldwide 25 kilo` / `UPS Worldwide 10 kilo`|
+|[!UICONTROL Shipper Number]|Website|(UPS REST  Only) The six-character UPS Shipper Number is required for reference to use negotiated rates.|
+|[!UICONTROL Container]|Website|Sets the container type used to package shipments. Options: `Customer Packaging` / `UPS Letter Envelope` / `Customer Packaging` / `UPS Letter Envelope` / `UPS Tube` / `UPS Express Box` / `UPS Worldwide 25 kilo` / `UPS Worldwide 10 kilo`|
 |[!UICONTROL Weight Unit]|Website|Sets the default unit of measurement for product weight in your store. See [Dimensional weight](../../stores-purchase/carriers.md#dimensional-weight) for additional information.|
-|[!UICONTROL Tracking XML URL]|Website|(UPS XML  Only) The UPS URL that is used to track packages.|
+|[!UICONTROL Tracking URL]|Website|(UPS REST  Only) The UPS URL that is used to track packages.|
 |[!UICONTROL Destination Type]|Website|Sets the default shipment destination type. Options: `Business` / `Residential`|
 |[!UICONTROL Maximum Package Weight]|Website|Sets the maximum weight that a package can be as specified by UPS. If the products ordered exceeds the maximum package weight, this shipping option is not available. According to [UPS.com](https://www.ups.com/us/en/global.page), packages cannot exceed 150 lbs (70 kg) Check with your shipping carrier to verify the maximum  weight.|
 |[!UICONTROL Pickup Method]|Website|Sets the UPS pickup method. Options: `Regular Daily Pickup` / `On Call Air` / `One Time Pickup` / `Letter Center` / `Customer Counter`|
@@ -202,7 +199,7 @@ feature: Configuration, Shipping/Delivery
 |--- |--- |--- |
 |_[!UICONTROL USPS packaging Settings]_|||
 |[!UICONTROL Packages Request Type]|Website|Determines how weight is calculated for shipments with multiple packages. Options: `Divide to equal weight (one request)` / `Use origin weight (multiple requests)`|
-|[!UICONTROL Container]|Website|Sets the container type used to package order shipments. Options: `Variable` / `Flat Rate Box` / `Flat Rate Envelope` / `Rectangular` / Non-rectangular|
+|[!UICONTROL Container]|Website|Sets the container type used to package shipments. Options: `Variable` / `Flat Rate Box` / `Flat Rate Envelope` / `Rectangular` / Non-rectangular|
 |[!UICONTROL Size]|Website|Sets the Size option to the typical shipment package size. This option affects the calculation of the shipping rate. Options: `Regular` / `Large` / `Oversize`|
 |[!UICONTROL Machinable]|Website|Specifies whether the package can be processed by machine. This option affects the calculation of the shipping rate.|
 |[!UICONTROL Maximum Package Weight]|Website|Sets the maximum weight that a package can be as specified by USPS. If the products ordered exceeds the maximum package weight, this shipping option is not available.|
@@ -254,58 +251,56 @@ feature: Configuration, Shipping/Delivery
 
 {{beta2-updates}}
 
-![FedEx Account Settings](./assets/delivery-methods-fedex-account-settings.png)<!-- zoom -->
-
 <!-- [FedEx Account Settings](https://docs.magento.com/user-guide/shipping/fedex.html) -->
 
-|Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
-|--- |--- |--- |
-|_[!UICONTROL FedEx Account Settings]_|||
-|[!UICONTROL Enabled for Checkout]|Website|Determines if FedEx is available to customers as a shipping method during checkout. Options: `Yes` / `No`|
-|[!UICONTROL Title]|Store View|The title of this shipping option as it appears in the shopping cart checkout.|
-|[!UICONTROL Account ID]|Website|Your FedEx account ID.|
-|[!UICONTROL Meter Number]|Website|Your FedEx meter number.|
-|[!UICONTROL Key]|Website|Your FedEx account key.|
-|[!UICONTROL Password]|Website|Your FedEx account password.|
-|[!UICONTROL Sandbox Mode]|Website|To run FedEx transactions in a test environment, set Sandbox Mode to `Yes`. Options: `Yes` / `No`.|
-|[!UICONTROL Web-Services URL]|Website|The URL that is required depends on the Sandbox Mode setting. Options: <br/>**`Production`** - The URL to access FedEx web services when the store is live. <br/>**`Sandbox`** - The URL to access the  testing environment for FedEx web services.|
+#### FedEx account settings
+
+![FedEx Account Settings](./assets/delivery-methods-fedex-account-settings.png){width="600" zoomable="yes"}
+
+| Field |[Scope](../../getting-started/websites-stores-views.md#scope-settings)| Description  |
+|-------|------ |-----------------------------------------------------------------------------|
+| [!UICONTROL Enabled for Checkout] |Website| Determines if FedEx is available to customers as a shipping method during checkout. Options: `Yes` / `No` |
+| [!UICONTROL Title]  |Store View| The title of this shipping option as it appears in the shopping cart checkout. |
+| [!UICONTROL Account ID] |Website| Your FedEx account ID. |
+| [!UICONTROL Api Key] |Website| Your FedEx account API key. |
+| [!UICONTROL Secret Key] |Website| Your FedEx account API secret key. |
+| [!UICONTROL Sandbox Mode] |Website| To run FedEx transactions in a test environment, set Sandbox Mode to `Yes`. Options: `Yes` / `No`. |
+| [!UICONTROL Web-Services URL] |Website| The URL that is required depends on the Sandbox Mode setting. Options: <br/>**`Production`** - The URL to access FedEx web services when the store is live. <br/>**`Sandbox`** - The URL to access the  testing environment for FedEx web services. |
 
 {:style="table-layout:auto"}
 
-![FedEx Packaging](./assets/delivery-methods-fedex-packaging.png)<!-- zoom -->
+#### FedEx packaging settings
 
-<!-- [FedEx Packaging](https://docs.magento.com/user-guide/shipping/fedex.html) -->
+![FedEx Packaging](./assets/delivery-methods-fedex-packaging.png){width="600" zoomable="yes"}
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|_[!UICONTROL FedEx Packaging Settings]_|||
+|[!UICONTROL Pickup Type]|Website|From the list, select the pick-up method: <br/>**`DropOff at Fedex Location`** - (Default) Indicates that you drop off shipments at your local FedEx station. <br/>**`Contact Fedex to Schedule`** - Indicates that you contact FedEx to request a pickup. <br/>**`Use Scheduled Pickup`** - Indicates that the shipment is picked up as part of a regular scheduled pickup. <br/>**`On Call`** - Indicates that the pickup is scheduled by calling FedEx. <br/>**`Package Return Program`** - Indicates that the shipment is picked up by the FedEx Ground Package Returns Program. <br/>**`Regular Stop`** - Indicates that the shipment is picked up at the regular pickup schedule. <br/>**`Tag`** - Indicates that the shipment pickup is specific to an Express tag or Ground call tag pickup request. This is applicable only for a return shipping label. |
 |[!UICONTROL Packages Request Type]|Website|Determines how weight is calculated for shipments with multiple packages. Options: `Divide to equal weight (one request)` / `Use origin weight (multiple requests)`|
 |[!UICONTROL Packaging]|Website|From the list, select the container type that you typically use to package products ordered from your store.|
-|[!UICONTROL Dropoff]|Website|From the list, select the pick-up method: <br/>**`Regular Pickup`** - (Default) If you have a high volume of shipments, it can be cost effective to arrange regular pickups. <br/>**`Request Courier`** - You must call and request a FedEx courier to pick up shipments. <br/>**`Drop Box`** - You must drop off shipments at your local FedEx drop off box. <br/>**`Business Service Center`** - You must drop off shipments at your local FedEx business service center. <br/>**`Station`** - You must drop off shipments at your local FedEx station.|
+|[!UICONTROL Weight Unit]|Website|The unit used for package weight. Options: `Pounds` (default) / `Kilograms`|
 |[!UICONTROL Maximum Package Weight]|Website|The default for FedEx is 150 pounds. Consult your shipping carrier for maximum supported weight. Using the default value is recommended unless you have special arrangements with FedEx.|
 
 {:style="table-layout:auto"}
 
-![FedEx Handling Fee](./assets/delivery-methods-fedex-handling-fee.png)<!-- zoom -->
+#### FedEx handling fee settings
 
-<!-- [FedEx Handling Fee](https://docs.magento.com/user-guide/shipping/fedex.html) -->
+![FedEx Handling Fee](./assets/delivery-methods-fedex-handling-fee.png){width="600" zoomable="yes"}
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|_[!UICONTROL FedEx Handling Fee Settings]_|||
 |[!UICONTROL Calculate Handling Fee]|Website|Determines the method used to calculate handling fees. Options: `Fixed Fee` / `Percentage` <br/><br/>**_Note:_** The handling fee is optional, and appears as an extra charge that is added to the FedEx shipping cost.|
 |[!UICONTROL Handling Applied]|Website|Determines how handling fees are applied. Options: `Per Order` / `Per Package`|
 |[!UICONTROL Handling Fee]|Website|Specifies the amount charged as a handling fee, based on the method used to calculate the amount. If the charge is based on a fixed fee, enter the amount as a decimal, such as `4.90`. If the handling fee is based on a percentage of the order, enter the amount as a percentage. For example, to charge six percent of the order, enter the value as `.06`.|
 
 {:style="table-layout:auto"}
 
-![FedEx Delivery Methods](./assets/delivery-methods-fedex-delivery-methods.png)<!-- zoom -->
+#### FedEx delivery methods
 
-<!-- [FedEx Delivery Methods](https://docs.magento.com/user-guide/shipping/fedex.html) -->
+![FedEx Delivery Methods](./assets/delivery-methods-fedex-delivery-methods.png){width="600" zoomable="yes"}
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|_[!UICONTROL FedEx delivery methods]_|||
 |[!UICONTROL Residential Delivery]|Website|Set to one of the following, depending on whether you sell Business-to-Consumer (B2C) or Business-to-Business (B2B): <br/>**`Yes`** - For B2C deliveries <br/>**`No`** - For B2B deliveries|
 |[!UICONTROL Allowed Methods]|Website|From the list, select the methods of shipment that you support. The methods depend on your FedEx account, the frequency and size of your shipments, and whether you allow international shipments. As the merchant, you might decide to offer ground shipping only.|
 |[!UICONTROL Hub ID]|Website|An ID provided by FedEx that is used with the [!DNL Smart Post] method.|
@@ -316,13 +311,12 @@ feature: Configuration, Shipping/Delivery
 
 {:style="table-layout:auto"}
 
-![FedEx Applicable Countries](./assets/delivery-methods-fedex-applicable-countries.png)<!-- zoom -->
+#### FedEx applicable country settings
 
-<!-- [FedEx Applicable Countries](https://docs.magento.com/user-guide/shipping/fedex.html) -->
+![FedEx Applicable Countries](./assets/delivery-methods-fedex-applicable-countries.png){width="600" zoomable="yes"}
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|_[!UICONTROL FedEx Applicable Countries]_|||
 |[!UICONTROL Ship to Applicable Countries]|Website|Indicates the countries where your customers can ship by FedEx. Options: <br/>**`All Allowed Countries`** - Customers from all [countries](../../getting-started/store-details.md#country-options) specified in your store configuration  can use this shipping method. <br/>**`Specific Countries`** - After choosing this option, the [!UICONTROL Ship to Specific Countries] list appears. Select each country in the list where this shipping method can be used.|
 |[!UICONTROL Ship to Specific Countries]|Website|Indicates the specific countries where your customers can ship by FedEx.|
 |[!UICONTROL Debug]|Website|Determines if a log of data transmissions between your store and FedEx is maintained by the system for debugging. Unless there is an issue that must be tracked and logged, this option should be set to `No`.|
@@ -373,7 +367,7 @@ feature: Configuration, Shipping/Delivery
 |--- |--- |--- |
 |_[!UICONTROL DHL allowed methods]_|||
 |[!UICONTROL Allowed Methods]|Website|In the list, select each shipment method that you support.|
-|[!UICONTROL Ready Time]|Website|Specifies when the package will be ready for pickup, in hours, after an order is submitted.|
+|[!UICONTROL Ready Time]|Website|Specifies when the package will be ready for pickup (in hours) after an order is submitted.|
 |[!UICONTROL Displayed Error Message]|Store View|This message appears when DHL becomes unavailable for any reason. You can use the default message or enter a message of your own.|
 |[!UICONTROL Free Method]||This shipping method is similar to the regular Free Shipping method, however it is listed within the DHL shipping options and is identified as DHL shipping. In the list, select the shipping method you prefer to use for offers of free shipping.|
 |[!UICONTROL Free Shipping with Minimum Order Amount]|Website|Set to one of the following: <br/>**`Enable`** - To allow free DHL shipping for orders that meet the minimum amount. <br/>**`Disable`** - To not offer free DHL shipping with minimum order.|
