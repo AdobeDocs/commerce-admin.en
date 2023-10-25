@@ -30,6 +30,7 @@ The person who sets up a company account from the storefront is assigned a role 
    - Completes the required fields:
 
       - **[!UICONTROL Company Name]**
+      - **[!UICONTROL Company Type]**
       - **[!UICONTROL Company Email]**
 
    - Completes the remaining fields, as applicable:
@@ -89,6 +90,7 @@ The process of creating a company from the Admin is essentially the same as from
    - Complete these required fields:
 
       - **[!UICONTROL Company Name]**
+      - **[!UICONTROL Company Type]**
       - **[!UICONTROL Company Email]**
 
    - If you are not ready for the account to go live, set **[!UICONTROL Status]** to `Pending Approval`. (Set to `Active` by default.)
@@ -218,6 +220,23 @@ The process of creating a company from the Admin is essentially the same as from
 |[!UICONTROL VAT / TAX ID]|The [value-added tax](../stores-purchase/vat.md) number that is assigned to the company by some jurisdictions for tax reporting purposes. To configure the customer VAT/TAX ID to appear in the storefront, see [Create New Account Options](../configuration-reference/customers/customer-configuration.md). <br/> **_Note:_** The company administrator and other company users do not have their own separate VAT/TAX ID numbers in their customer accounts.|
 |[!UICONTROL Reseller ID]|The resale number that is assigned to the company for tax reporting purposes.|
 |[!UICONTROL Comment]|(Admin Only) These notes about the company account are for reference and visible only from the Admin.|
+
+{style="table-layout:auto"}
+
+### [!UICONTROL Company Hierarchy]
+
+|Field|Description|
+|--- |--- |
+|[!UICONTROL Company ID]|The ID number of the company.|
+|[!UICONTROL Company Name]|The full name of the company.|
+|[!UICONTROL Company Type]|The type of the [company](manage-companies.md). Options: <br/>**[!UICONTROL Parent]** - The company is the parent company of other companies. <br/>**[!UICONTROL Child]** - The company is a subsidiary of a parent company. |
+|[!UICONTROL Company Email]|The email address that is associated with the company account.|
+|[!UICONTROL Phone Number]|The primary phone number of the company.|
+|[!UICONTROL State/Province]|The state or province where the company is registered to conduct business.|
+|[!UICONTROL City]|The city where the company is registered to conduct business.|
+|[!UICONTROL Customer Group]|(Admin Only) Indicates the [customer group](../customers/customer-groups.md) or [shared catalog](catalog-shared.md) that is assigned to the company.|
+|[!UICONTROL Company Admin]|The full name of the company administrator.|
+|[!UICONTROL Action]|The list of possible actions for that company line.|
 
 {style="table-layout:auto"}
 
