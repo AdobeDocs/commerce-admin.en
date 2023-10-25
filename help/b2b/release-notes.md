@@ -24,37 +24,37 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 
 The B2B v1.5.0-beta release includes new features, quality improvements, and bug fixes.
 
-- ![New](../assets/new.svg) Improvements to quoting capabilities provide Buyers and Sellers with more flexibility to manage quotes and quote negotiation more effectively.
+![New](../assets/new.svg) Improvements to quoting capabilities provide Buyers and Sellers with more flexibility to manage quotes and quote negotiation more effectively.
 
-  - **Save Quote as Draft**<!--B2B-2566-->—When creating a new quote request from the shopping cart, buyers can now save the quote as a draft by selecting **[!UICONTROL Save as Draft]** on the [!UICONTROL Request a Quote] form.
+- **Save Quote as Draft**<!--B2B-2566-->—When creating a new quote request from the shopping cart, buyers can now save the quote as a draft by selecting **[!UICONTROL Save as Draft]** on the [!UICONTROL Request a Quote] form.
 
-    The draft quote does not have an expiration date. Buyers can review and update draft quotes from the [!UICONTROL My Quotes] section of their account dashboard until they are ready to send the quote request.
+  The draft quote does not have an expiration date. Buyers can review and update draft quotes from the [!UICONTROL My Quotes] section of their account dashboard until they are ready to send the quote request.
 
-  - **Rename Quote**<!--B2B-2596-->—Buyers can now change a quote name from the Quote detail page by selecting the **[!UICONTROL Rename]** option.This option is available to authorized buyers when they are editing the quote. Name change events are recorded in the Quote History Log.
+- **Rename Quote**<!--B2B-2596-->—Buyers can now change a quote name from the Quote detail page by selecting the **[!UICONTROL Rename]** option.This option is available to authorized buyers when they are editing the quote. Name change events are recorded in the Quote History Log.
 
-  - **Line item discount locking**<!--B2B-2597-->—During quote negotiation, Sellers can now use line item discount locking for more flexibility when applying discounts at the line item and quote level.
+- **Line item discount locking**<!--B2B-2597-->—During quote negotiation, Sellers can now use line item discount locking for more flexibility when applying discounts at the line item and quote level.
 
-    For example, a Seller can give a special discount on a line item and use the [!UICONTROL lock line item]** action on the Select menu to ensure that no further discounts are applied. When an item is locked, the price cannot be updated by any discount applied at the quote level.
+  For example, a Seller can give a special discount on a line item and use the [!UICONTROL lock line item]** action on the Select menu to ensure that no further discounts are applied. When an item is locked, the price cannot be updated by any discount applied at the quote level.
 
-- ![New](../assets/new.svg)**Company Management**<!--B2B-2901-->—Merchants can now view and manage Adobe Commerce companies as hierarchical organizations by assigning companies to designated parent companies. After a company is assigned to a parent company, the parent company administrator can manage the company account. Only authorized Admin users can create and manage company assignments.
+![New](../assets/new.svg)**Company Management**<!--B2B-2901-->—Merchants can now view and manage Adobe Commerce companies as hierarchical organizations by assigning companies to designated parent companies. After a company is assigned to a parent company, the parent company administrator can manage the company account. Only authorized Admin users can create and manage company assignments.
 
-  - On the Companies page, a new **[!UICONTROL Company Type]**field identifies parent and child companies. Merchants can filter the company view by company type.
+- On the Companies page, a new **[!UICONTROL Company Type]**field identifies parent and child companies. Merchants can filter the company view by company type.
 
-  - Merchants can add and manage company assignments from the new **[!UICONTROL Company Hierarchy]** section on the [!UICONTROL Company Account] page.
+- Merchants can add and manage company assignments from the new **[!UICONTROL Company Hierarchy]** section on the [!UICONTROL Company Account] page.
 
-  - API Developers can use the new Company Relations REST API endpoint `/V1/company/{parentId}/relations` to create, view, and remove company assignments. See [Manage company objects](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/) in the *Web API Developer Guide*.
+- API Developers can use the new Company Relations REST API endpoint `/V1/company/{parentId}/relations` to create, view, and remove company assignments. See [Manage company objects](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/) in the *Web API Developer Guide*.
 
-- ![Fixed issue](../assets/fix.svg)<!--ACP2E-1984-->Merchants clicking the **[!UICONTROL Print]** button (Admin **[!UICONTROL Sales]** > **[!UICONTROL Quotes]** are now prompted to save the quote as a PDF. Previously, merchants were redirected to a page that contained quote details.
+![Fixed issue](../assets/fix.svg)<!--ACP2E-1984-->Merchants clicking the **[!UICONTROL Print]** button (Admin **[!UICONTROL Sales]** > **[!UICONTROL Quotes]** are now prompted to save the quote as a PDF. Previously, merchants were redirected to a page that contained quote details.
 
-- ![Fixed issue](../assets/fix.svg) <!--ACP2E-1742-->Previously when sending a customer quote with 0 percentage and changing quantity, the admin throws an exception but saved the quantity. After this fix applies, for the `0 percentage` proper exception with a message will be thrown.
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1742-->Previously when sending a customer quote with 0 percentage and changing quantity, the admin throws an exception but saved the quantity. After this fix applies, for the `0 percentage` proper exception with a message will be thrown.
 
-- ![Fixed issue](../assets/fix.svg) <!--ACP2E-1742-->During quote negotiation, a seller can now specify a `0%` discount in the Negotiated Quote quote discount field and send the quote back to the buyer. Previously, if the seller entered a 0% discount and sent the quote back to the buyer, the Admin returned an `Exception occurred during quote sending` error message.
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1742-->During quote negotiation, a seller can now specify a `0%` discount in the Negotiated Quote quote discount field and send the quote back to the buyer. Previously, if the seller entered a 0% discount and sent the quote back to the buyer, the Admin returned an `Exception occurred during quote sending` error message.
 
-- ![Fixed issue](../assets/fix.svg) <!--ACP2E-2097-->ReCaptcha validation now works correctly during the checkout process for a B2B quote when ReCaptcha V3 is configured for storefront checkout. Previously,  the validation failed with a `recaptcha validation failed, please try again` error message.
+![Fixed issue](../assets/fix.svg) <!--ACP2E-2097-->ReCaptcha validation now works correctly during the checkout process for a B2B quote when ReCaptcha V3 is configured for storefront checkout. Previously,  the validation failed with a `recaptcha validation failed, please try again` error message.
 
-- ![Fixed issue](../assets/fix.svg) <!--ACP2E-1825-->Purchase orders can no longer be placed by a user associated with the company after the company has been blocked. Previously, a user associated with the company could place purchase orders when the company was blocked.
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1825-->Purchase orders can no longer be placed by a user associated with the company after the company has been blocked. Previously, a user associated with the company could place purchase orders when the company was blocked.
 
-- ![Fixed issue](../assets/fix.svg)<!--ACP2E-1933-->Company administrators can now add company users from the storefront. Previously, Commerce logged the following error when admin user tried to add a new user `report.CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
+![Fixed issue](../assets/fix.svg)<!--ACP2E-1933-->Company administrators can now add company users from the storefront. Previously, Commerce logged the following error when admin user tried to add a new user `report.CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
 
 ## B2B v1.4.2
 
