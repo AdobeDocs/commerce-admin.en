@@ -141,6 +141,7 @@ Commerce provides additional flush cache options using the command line. These o
 | [!UICONTROL Web Services Configuration]     | REST and SOAP configurations, generated WSDL file.                                                                                                                           | `WEBSERVICE`               |
 | [!UICONTROL Translations]                   | Translation files.                                                                                                                                                           | `TRANSLATE`                |
 | [!UICONTROL Admin UI SDK Cache]             | Caches customizations to the Admin.                                                                                                                                          | `ADMIN_UI_SDK`             |
+| [!UICONTROL Webhooks Response Cache]        | Caches responses to webhook requests.                                                                                                                                          | `WEBHOOKS_RESPONSE`        |
 
 {style="table-layout:auto"}
 
