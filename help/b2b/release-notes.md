@@ -24,19 +24,19 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 
 The B2B v1.5.0-beta release includes new features, quality improvements, and bug fixes.
 
-![New](../assets/new.svg) Improvements to quoting capabilities provide Buyers and Sellers with more flexibility to manage quotes and quote negotiation more effectively.
+![New](../assets/new.svg) Improvements to quoting capabilities help Buyers and Sellers manage quotes and quote negotiation more effectively.
 
-- **Save Quote as Draft**<!--B2B-2566-->—When creating a new quote request from the shopping cart, buyers can now save the quote as a draft by selecting **[!UICONTROL Save as Draft]** on the [!UICONTROL Request a Quote] form.
+- **Save Quote as Draft**<!--B2B-2566-->—When creating a quote request from the shopping cart, buyers can now save the quote as a draft by selecting **[!UICONTROL Save as Draft]** on the [!UICONTROL Request a Quote] form.
 
-  The draft quote does not have an expiration date. Buyers can review and update draft quotes from the [!UICONTROL My Quotes] section of their account dashboard until they are ready to send the quote request.
+  The draft quote does not have an expiration date. Buyers can review and update draft quotes from the [!UICONTROL My Quotes] section of their account dashboard.
 
-- **Rename Quote**<!--B2B-2596-->—Buyers can now change a quote name from the Quote detail page by selecting the **[!UICONTROL Rename]** option.This option is available to authorized buyers when they are editing the quote. Name change events are recorded in the Quote History Log.
+- **Rename Quote**<!--B2B-2596-->—Buyers can now change a quote name from the Quote detail page by selecting the **[!UICONTROL Rename]** option. This option is available to authorized buyers when they are editing the quote. Name change events are recorded in the Quote History Log.
 
-- **Line item discount locking**<!--B2B-2597-->—During quote negotiation, sellers can use line item discount locking for more flexibility when applying discounts. For example, a Seller can give a special line item discount and lock the item to prevent further discounting. When an item is locked, the price cannot be updated when a discount is applied at the quote level.
+- **Line item discount locking**<!--B2B-2597-->—During quote negotiation, sellers can use line item discount locking for more flexibility when applying discounts. For example, a Seller can apply a special line item discount to an item and lock the item to prevent further discounting. When an item is locked, the item price price cannot be updated when a quote-level discount is applied.
 
-![New](../assets/new.svg)**Company Management**<!--B2B-2901-->—Merchants can now view and manage Adobe Commerce companies as hierarchical organizations by assigning companies to designated parent companies. After a company is assigned to a parent company, the parent company administrator can manage the company account. Only authorized Admin users can create and manage company assignments.
+![New](../assets/new.svg)**Company Management**<!--B2B-2901-->—Merchants can now view and manage Adobe Commerce companies as hierarchical organizations by assigning companies to designated parent companies. After a company is assigned to a parent, the parent company administrator can manage the company account. Only authorized Admin users can add and manage company assignments.
 
-- On the Companies page, a new **[!UICONTROL Company Type]**field identifies parent and child companies. Merchants can filter the company view by company type.
+- On the Companies page, a new **[!UICONTROL Company Type]** field identifies parent and child companies. Merchants can filter the company view by company type, and manage companies using line item or bulk actions. 
 
 - Merchants can add and manage company assignments from the new **[!UICONTROL Company Hierarchy]** section on the [!UICONTROL Company Account] page.
 
