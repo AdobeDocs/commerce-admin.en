@@ -1,11 +1,11 @@
 ---
-title: Install, Update, and Remove Inventory Management
+title: "Install, update, and remove [!DNL Inventory Management]"
 description: Learn how to manage the installed [!DNL Inventory Management] metapackage.
 exl-id: d088ff35-c0e1-41c8-89fb-78180eaefbf7
 level: Experienced
 feature: Inventory, Install
 ---
-# Install, Update, and Remove Inventory Management
+# Install, update, and remove [!DNL Inventory Management]
 
 [!DNL Inventory Management] modules provide all inventory features and options for single- and multi-source merchants to manage product quantities and stock for sales channels. These features are available in 2.4.x releases of Adobe Commerce and Magento Open Source.
 
@@ -89,8 +89,8 @@ For more information about configurations, see [Configure Inventory Management](
 
 You may want to disable [!DNL Inventory Management] modules to:
 
-*  Speed up the upgrade process for merchants migrating from 2.0.x, 2.1.x, 2.2.x, or 2.3.x to 2.4.x.
-*  Use custom or third-party inventory and order management system modules.
+* Speed up the upgrade process for merchants migrating from 2.0.x, 2.1.x, 2.2.x, or 2.3.x to 2.4.x.
+* Use custom or third-party inventory and order management system modules.
 
 See the [Enable or disable modules](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html) page in the _Installation Guide_ for information about how to disable the applicable modules.
 
@@ -234,5 +234,5 @@ For the latest, update your metapackage version:
 
 See the following guides for more information about Commerce upgrades:
 
-*  [Software Update Guide](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html){target="_blank"}
-*  [Enable or disable modules](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html){target="_blank"}
+* [Commerce Update Guide](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html){target="_blank"}
+* [Enable or disable modules](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html){target="_blank"}

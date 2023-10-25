@@ -1,9 +1,9 @@
 ---
-title: Delete Stocks
+title: Delete inventory stocks
 description: Learn how to delete an inventory stock.
 exl-id: 420e0bbf-6382-471d-9ad2-16587191e5e7
 ---
-# Delete Stocks
+# Delete stocks
 
 When you delete the stock, all assigned websites are assigned to the Default Stock. Reassigning websites to other stocks before deletion is recommended.
 

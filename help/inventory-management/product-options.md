@@ -1,10 +1,10 @@
 ---
-title: Configure Product Options
+title: "Configure [!DNL Inventory Management] product options"
 description: Learn how to configure the [!DNL Inventory Management] product configuration options.
 exl-id: b5cff7d2-5197-4362-9503-b07c80793ac7
 feature: Inventory, Products
 ---
-# Configure Product Options
+# Configure [!DNL Inventory Management] product options
 
 These configurations apply only to the edited product, overriding all configurations at the global website level. Modify these settings when editing a product, through the _[!UICONTROL Sources]_ section and _[!UICONTROL Advanced Inventory]_ page.
 

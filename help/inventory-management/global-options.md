@@ -1,10 +1,10 @@
 ---
-title: Configure Global Options
+title: "Configure [!DNL Inventory Management] global options"
 description: Learn how to configure the default [!DNL Inventory Management] configuration options for product and stock for your websites.
 exl-id: 1a8c9605-ae61-4d45-b549-64911b329203
 feature: Inventory, Configuration
 ---
-# Configure Global Options
+# Configure [!DNL Inventory Management] global options
 
 Configure the default configuration options for product and stock for your websites. Some of these settings can be overridden per product through [Configuring Product Options](product-options.md). To configure Distance Priority settings, see [Configuring Distance Priority Algorithm](distance-priority-algorithm.md).
 

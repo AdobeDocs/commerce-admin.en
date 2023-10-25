@@ -1,10 +1,10 @@
 ---
-title: Order Status and Reservations
+title: Order status and reservations
 description: Learn about automatic reservation entry or changes that update the salable quantity for a stock (or sales channel) and the on-hand inventory quantity per source.
 exl-id: d264cb49-5aa8-4949-ae87-5efcd463d38c
 feature: Inventory, Orders, Shipping/Delivery
 ---
-# Order Status and Reservations
+# Order status and reservations
 
 [!DNL Inventory Management] supports partial and full invoicing, payments, shipping, and cancellations per order. As you manage an order through processing, invoicing, shipment, and potentially refunds, [!DNL Commerce] automatically enters or changes reservations to update the salable quantity for a stock (or sales channel) and the on-hand inventory quantity per source. You do not have to actively access or enter reservations. Completing actions to fulfill, cancel, or refund an order does it for you.
 

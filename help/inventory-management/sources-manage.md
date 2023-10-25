@@ -1,9 +1,9 @@
 ---
-title: Manage Sources
+title: Manage inventory sources
 description: Learn about sources and how they define the physical locations where product inventory is managed and shipped for order fulfillment, or where services are available.
 exl-id: 1315a8c9-7791-4c4b-9463-3126b79793c2
 ---
-# Manage Sources
+# Manage sources
 
 Sources are the physical locations where product inventory is managed and shipped for order fulfillment, or where services are available. These locations can include warehouses, brick-and-mortar stores, distribution centers, pickup locations, and drop shippers. You allocate inventory quantities to these sources, and [!DNL Commerce] automatically aggregates the total salable products for your stocks. For large companies, add multiple sources for all of your locations: in different geographic locations by country and continent, locations in a city, based on the type of inventory, even based on services.
 
