@@ -18,7 +18,7 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 
 ## B2B 1.5.0-beta
 
-*November 13, 2023
+*November 13, 2023*
 
 [!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.7-beta releases.
 
@@ -44,7 +44,7 @@ The B2B v1.5.0-beta release includes new features, quality improvements, and bug
 
   - API Developers can use the new Company Relations REST API endpoint `/V1/company/{parentId}/relations` to create, view, and remove company assignments. See [Manage company objects](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/) in the *Web API Developer Guide*.
 
-- ![Fixed issue](../assets/fix.svg)<!--ACP2E-1984-->Merchants clicking the **[!UICONTROL Print]** button (Admin **[!UICONTROL Sales]** > **[!UICONTROL Quotes]** ) are now prompted to save the quote as a PDF. Previously, merchants were redirected to a page that contained quote details.
+- ![Fixed issue](../assets/fix.svg)<!--ACP2E-1984-->Merchants clicking the **[!UICONTROL Print]** button (Admin **[!UICONTROL Sales]** > **[!UICONTROL Quotes]** are now prompted to save the quote as a PDF. Previously, merchants were redirected to a page that contained quote details.
 
 - ![Fixed issue](../assets/fix.svg) <!--ACP2E-1742-->Previously when sending a customer quote with 0 percentage and changing quantity, the admin throws an exception but saved the quantity. After this fix applies, for the `0 percentage` proper exception with a message will be thrown.
 
