@@ -12,6 +12,8 @@ Braintree offers a fully customizable checkout experience with fraud detection a
 >
 >If you are upgrading to 2.4.x from an earlier version of Adobe Commerce or Magento Open Source with the Braintree extension from Commerce Marketplace installed, see the [2.4 upgrade notes](#24-upgrade-notes) at the end of this page.
 
+{{beta2-updates}}
+
 ## Step 1: Get your Braintree credentials
 
 Go to [Braintree Payments][1] and sign up for an account.

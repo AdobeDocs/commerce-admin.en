@@ -36,6 +36,8 @@ The banner toolbox appears when you hover over the banner container.
 
 {style="table-layout:auto"}
 
+{{$include /help/_includes/page-builder-hidden-element-note.md}}
+
 ## Add a banner
 
 1. In the [!DNL Page Builder] panel, expand **[!UICONTROL Media]** and drag a **[!UICONTROL Banner]** placeholder to the stage.

@@ -1,12 +1,12 @@
 ---
-title: Use Adobe Stock Images
+title: Use Adobe Stock images
 description: Enhance your store pages with images from Adobe Stock.
 exl-id: 8f7d6f0a-511f-4f4b-821d-10a06e18041e
 feature: CMS, Media
 ---
-# Use Adobe Stock Images
+# Use Adobe Stock images
 
-[Adobe Stock][adobe-stock] images can be used in place of uploading your own image content. One common use case is to upload and place image content when creating a page.
+[Adobe Stock](https://stock.adobe.com) images can be used in place of uploading your own image content. One common use case is to upload and place image content when creating a page.
 
 The [[!DNL Media Gallery]](media-gallery.md) provides a direct integration with Adobe Stock, making it easy to license your images directly from the gallery page.
 
@@ -14,7 +14,7 @@ The [[!DNL Media Gallery]](media-gallery.md) provides a direct integration with 
 
 The Adobe Stock search panel is accessible when you [add or edit a page](page-add.md), when you [create or edit a category](../catalog/category-create.md), or when you [insert images via the Content Editor](editor-insert-image.md).
 
-To search Adobe Stock assets and add a stock image to a page:
+**_To search Adobe Stock assets and add a stock image to a page:_**
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Elements]_ > **[!UICONTROL Pages]**.
 
@@ -26,13 +26,13 @@ To search Adobe Stock assets and add a stock image to a page:
 
    - If you have the [WYSIWYG editor enabled](editor.md), click **[!UICONTROL Show/Hide Editor]** and then click **[!UICONTROL Insert Image]**.
 
-   - If you have [Page Builder enabled](../page-builder/setup.md), expand the **[!UICONTROL Media]** panel and drag an **Image** placeholder to the target container. Then click **[!UICONTROL Select from Gallery]**.
+   - If you have [Page Builder enabled](../page-builder/setup.md), expand the **[!UICONTROL Media]** panel and drag an **[!UICONTROL Image]** placeholder to the target container. Then click **[!UICONTROL Select from Gallery]**.
 
       ![Dragging an image to the Page Builder stage](./assets/pb-media-image-drag.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Search Adobe Stock]**.
 
-To search Adobe Stock assets and add a stock image to a category:
+**_To search Adobe Stock assets and add a stock image to a category:_**
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
@@ -56,13 +56,13 @@ To search Adobe Stock assets and add a stock image from the WYSIWYG Editor:
 
 ## Filter and search for Adobe Stock assets
 
-The [Adobe Stock search Grid][access-search] provides querying and filtering functionality to help you find the perfect image for your [!DNL Commerce] stores.
+The [Adobe Stock search Grid](#access-the-adobe-stock-search-grid) provides querying and filtering functionality to help you find the perfect image for your [!DNL Commerce] stores.
 
-By default, the search results shown are from an Adobe Stock curated gallery of a few hundred results. When you apply your own keyword search, you are searching the millions of assets available via Adobe Stock.
+By default, the search results shown are from an Adobe Stock-curated gallery of a few hundred results. When you apply your own keyword search, you are searching the millions of assets available via Adobe Stock.
 
 ### Search for Adobe Stock assets by keywords
 
-1. [Access the Adobe Stock Search grid][access-search].
+1. [Access the Adobe Stock Search grid](#access-the-adobe-stock-search-grid).
 
 1. Enter your keyword search into the **[!UICONTROL Search by keyword]** input field in the top-left and click the magnifying glass or press **Enter**.
 
@@ -70,7 +70,7 @@ By default, the search results shown are from an Adobe Stock curated gallery of 
 
 ### Filter Adobe Stock assets
 
-1. [Run a keyword search for Adobe Stock assets][search-by-keywords].
+1. [Run a keyword search for Adobe Stock assets](#search-for-adobe-stock-assets-by-keywords).
 
 1. Click **[!UICONTROL Filters]**.
 
@@ -83,7 +83,7 @@ By default, the search results shown are from an Adobe Stock curated gallery of 
    |[!UICONTROL Color]|Use a color palette to filter for images by color|
    |[!UICONTROL Price]|Filter for images based on their cost|
    |[!UICONTROL Safe search]|Enable or disable Safe search|
-   |[!UICONTROL Isolated Assets]|Show only Isolated Assets, which have subjects appear alone on a solid background|
+   |[!UICONTROL Isolated Assets]|Limit the display to only _isolated assets_, which have subjects appear alone on a solid background|
 
    {style="table-layout:auto"}
 
@@ -95,9 +95,9 @@ By default, the search results shown are from an Adobe Stock curated gallery of 
 
 ## View image details
 
-Each image has details available for viewing. Additional image-specific actions, such as [saving image previews][save-preview] or [saving (and optionally licensing) images][save-licensed], are available via this detailed view.
+Each image has details available for viewing. Additional image-specific actions, such as [saving image previews](adobe-stock-save-preview.md) or [saving (and optionally licensing) images](adobe-stock-license-image.md), are available via this detailed view.
 
-1. [Access the Adobe Stock search grid][access-search].
+1. [Access the Adobe Stock search grid](#access-the-adobe-stock-search-grid).
 
 1. Click an image in the search results.
 
@@ -106,27 +106,27 @@ Each image has details available for viewing. Additional image-specific actions,
    - A larger version of the image
    - Image metadata, such as _[!UICONTROL Dimensions]_, _[!UICONTROL File type]_, _[!UICONTROL Category]_, _[!UICONTROL File]_, and _Keywords_
    - Related images, such as images from the same _series_ or _model_
-   - Action buttons, such as [[!UICONTROL Save Preview]][save-preview] and [[!UICONTROL Save (and optionally license) Image]][save-licensed]
+   - Action buttons, such as [[!UICONTROL Save Preview]](adobe-stock-save-preview.md) and [[!UICONTROL Save (and optionally license) Image]](adobe-stock-license-image.md)
 
       ![Adobe Stock image details](./assets/adobe-stock-image-details.png){width="600" zoomable="yes"}
 
 ## Log in to your Adobe account
 
-To gain complete access to an image and eliminate the Adobe Stock watermark, you must [sign in with an Adobe account][adobe-signin] and purchase credits to license rights to use an image.
+To gain complete access to an image and eliminate the Adobe Stock watermark, you must [sign in with an Adobe account](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html) and purchase credits to license rights to use an image.
 
-1. [Access the Adobe Stock Search grid][access-search].
+1. [Access the Adobe Stock Search grid](#access-the-adobe-stock-search-grid).
 
 1. Click **[!UICONTROL Sign In]** at the top right.
 
-   A new browser window guides you through the [Adobe sign-in process][adobe-signin].
+   A new browser window guides you through the [Adobe sign-in process](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html).
 
-   After completing the sign-in process, the [licensed state][licensed-state] of images is displayed in search results as a label.
+   After completing the sign-in process, the licensed state of images is displayed in search results as a label.
 
    ![Adobe sign in](./assets/adobe-stock-account-login.png){width="600" zoomable="yes"}
 
 ### View the licensed state of search results
 
-[Log in to your Adobe account][log-in-to-adobe-account].
+[Log in to your Adobe account](#log-in-to-your-adobe-account).
 
 All licensed images associated to your Adobe account have a label displayed on them, making it clear which images you have licensed.
 
@@ -134,35 +134,35 @@ All licensed images associated to your Adobe account have a label displayed on t
 
 ### Save images to the media storage
 
-Images searched using the Adobe Stock integration can be saved to the [!DNL Commerce] [media storage][media-storage] for easy reuse across your [!DNL Commerce] store.
+Images searched using the Adobe Stock integration can be saved to the [!DNL Commerce] [media storage](media-storage.md) for easy reuse across your [!DNL Commerce] store.
 
-You can save two types of images: an [image preview][save-preview] or a [licensed image][save-licensed].
+You can save two types of images: an [image preview](adobe-stock-save-preview.md) or a [licensed image](adobe-stock-license-image.md).
 
 #### Save an image preview
 
 An image preview is a watermarked version of an Adobe Stock asset. Image previews are free and are a good way to experiment with different images before you decide to purchase a license for specific images and use them on your production stores.
 
-1. [Access the Adobe Stock search grid][access-search].
+1. [Access the Adobe Stock search grid](#access-the-adobe-stock-search-grid).
 
-1. To [view the image details][view-details], click an image in the search grid.
+1. To [view the image details](#view-image-details), click an image in the search grid.
 
 1. Click **[!UICONTROL Save Preview]**.
 
-   This action displays a prompt for you to specify a file name that is used to save the image to the [media storage][media-storage]. A default file name is provided, but you can customize the name to your preferences.
+   This action displays a prompt for you to specify a file name that is used to save the image to the media storage. A default file name is provided, but you can customize the name to your preferences.
 
     ![Save Adobe Stock preview image](./assets/adobe-stock-save-preview.png){width="500" zoomable="yes"}
 
 1. Click **[!UICONTROL Confirm]**.
 
-    The page redirects to the [media storage][media-storage] and your saved preview is displayed.
+   The page redirects to the media storage and your saved preview is displayed.
 
 #### Save a licensed image
 
-Adobe Stock assets that you want to use for your production [!DNL Commerce] stores should be licensed. Licensing ensures that you have legal access to the image and to eliminate the Adobe Stock watermark that is present on all [image previews][save-preview]. To license images or to save already-licensed images, you must be logged in to your Adobe account.
+Adobe Stock assets that you want to use for your production [!DNL Commerce] stores should be licensed. Licensing ensures that you have legal access to the image and to eliminate the Adobe Stock watermark that is present on all [image previews](adobe-stock-save-preview.md). To license images or to save already-licensed images, you must be logged in to your Adobe account.
 
-1. [Log in to your Adobe account][log-in-to-adobe-account].
+1. [Log in to your Adobe account](#log-in-to-your-adobe-account).
 
-1. To [view the image details][view-details], click an image in the search grid. 
+1. To [view the image details](#view-image-details), click an image in the search grid. 
 
 1. Depending on the current licensing status of the image, do one of the following:
 
@@ -172,23 +172,10 @@ Adobe Stock assets that you want to use for your production [!DNL Commerce] stor
 
       >[!NOTE]
       >
-      >You must have available [Adobe Stock credits][stock-credits] in your account to license the image.
+      >You must have available [Adobe Stock credits](https://helpx.adobe.com/stock/help/credit-packs.html) in your account to license the image.
 
-   This action displays a prompt for you to specify a file name that is used to save the image to the [media storage][media-storage]. A default file name is provided, but you can customize the name to your preferences.
+   This action displays a prompt for you to specify a file name that is used to save the image to the [media storage](media-storage.md). A default file name is provided, but you can customize the name to your preferences.
 
 1. Click **[!UICONTROL Confirm]**.
 
-    The page redirects to the [media storage][media-storage] and your saved preview is displayed.
-
-[adobe-stock]: https://stock.adobe.com
-[media-storage]: media-storage.md
-[access-search]: #access-the-adobe-stock-search-grid
-[search-by-keywords]: #search-for-adobe-stock-assets-by-keywords
-[view-details]: #view-image-details
-[log-in-to-adobe-account]: #log-in-to-your-adobe-account
-[adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html
-[licensed-state]: #view-the-licensed-state-of-search-results
-[save-to-media-storage]: #save-images-to-the-media-storage
-[save-preview]: adobe-stock-save-preview.md
-[save-licensed]: adobe-stock-license-image.md
-[stock-credits]: https://helpx.adobe.com/stock/help/credit-packs.html
+   The page redirects to the media storage and your saved preview is displayed.

@@ -34,6 +34,8 @@ The image toolbox appears when you hover over the image container.
 
 {style="table-layout:auto"}
 
+{{$include /help/_includes/page-builder-hidden-element-note.md}}
+
 ## Add an image
 
 1. In the [!DNL Page Builder] panel, expand **[!UICONTROL Media]** and drag an **[!UICONTROL Image]** placeholder to the target container.

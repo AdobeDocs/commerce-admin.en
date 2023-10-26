@@ -14,6 +14,10 @@ Product updates can be applied on schedule and grouped with other content change
 >
 >All scheduled updates are applied consecutively, which means that any entity can have only one scheduled update at one time. Any scheduled update is applied to all store views within its time frame. As a result, an entity cannot have different scheduled updates for different store views at the same time. All entity attribute values within all store views, which are not affected by the current scheduled update, are taken from the default values, and not from the previous scheduled update.
 
+>[!NOTE]
+>
+>A staging preview for a scheduled update always starts from the **default** store view, which emulates the customer's experience of navigating through the staging update campaign.
+
 ## Create a scheduled update
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.

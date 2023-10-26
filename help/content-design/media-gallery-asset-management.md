@@ -1,12 +1,12 @@
 ---
-title: Media Gallery Asset Management
+title: Media Gallery asset management
 description: Learn how to manage uploaded media files, and assets that you acquire through an Adobe Stock integration.
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
 ---
-# Media Gallery Asset Management
+# Media Gallery asset management
 
-The new [Media Gallery](media-gallery.md) provides tools for managing uploaded media files, and assets that you acquire through an [Adobe Stock integration][adobe-stock-integration]. If you have saved an Adobe Stock [image preview][save-preview], you can also [license][stock-license] the image in the new Media Gallery.
+The new [Media Gallery](media-gallery.md) provides tools for managing uploaded media files, and assets that you acquire through an [Adobe Stock integration](adobe-stock.md). If you have saved an Adobe Stock [image preview](adobe-stock-save-preview.md), you can also [license](adobe-stock-license-image.md) the image in the new Media Gallery.
 
 ## Upload an asset
 
@@ -61,7 +61,7 @@ The new [Media Gallery](media-gallery.md) provides tools for managing uploaded m
 
 ## Use an asset
 
-Assets can be used extensively throughout the Admin, such as [add or edit a page][add-edit-page], [create or edit a category][create-edit-category], or [insert images from the Content Editor][editor-insert-media].
+Assets can be used extensively throughout the Admin, such as [add or edit a page](page-add.md), [create or edit a category](../catalog/category-create.md), or [insert images from the Content Editor](editor-insert-image.md).
 
 1. Access the new Media Gallery from an area that allows you to use media assets.
 
@@ -89,9 +89,9 @@ Assets can be used extensively throughout the Admin, such as [add or edit a page
 
 >[!NOTE]
 >
->To learn how you can update image tags, see the [Edit an asset][edit-asset] section.
+>To learn how you can update image tags, see the _[Edit an asset](#edit-an-asset)_ section.
 
-## Filtering assets
+## Filter assets
 
 >[!NOTE]
 >
@@ -120,16 +120,8 @@ Assets can be used extensively throughout the Admin, such as [add or edit a page
 
     ![Filter for Enabled Assets by Category](./assets/media-gallery-filter-by-category.png){width="600" zoomable="yes"}
 
-## Finding image duplicates
+## Find image duplicates
 
 1. Click the **[!UICONTROL Filters]** tab and select the **[!UICONTROL Show duplicates]** checkbox.
 
 1. To see the results, click **[!UICONTROL Apply Filters]**.
-
-[adobe-stock-integration]: adobe-stock.md
-[save-preview]: adobe-stock-save-preview.md
-[stock-license]: adobe-stock-license-image.md
-[add-edit-page]: page-add.md
-[create-edit-category]: ../catalog/category-create.md
-[editor-insert-media]: editor-insert-image.md
-[edit-asset]: #edit-an-asset

@@ -53,14 +53,16 @@ The country of manufacture is required for all products that are shipped interna
 
 ## Step 2 Verify the store information
 
+{{beta2-updates}}
+
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **[!UICONTROL Sales]** and choose **Shipping Settings**.
+1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Shipping Settings]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Origin** section, and verify that the following fields are complete:
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Origin]** section, and verify that the following fields are complete:
 
-   - **Street Address** – The street address of the place from which shipments are sent. For example, the location of your company or warehouse. This field is required for shipping labels.
-   - **Street Address Line 2** – Any additional address information, such as the floor or entrance. Using this field is recommended.
+   - **[!UICONTROL Street Address]** – The street address of the place from which shipments are sent. For example, the location of your company or warehouse. This field is required for shipping labels.
+   - **[!UICONTROL Street Address Line 2]** – Any additional address information, such as the floor or entrance. Using this field is recommended.
 
    ![Origin](../configuration-reference/sales/assets/shipping-settings-origin.png){width="600" zoomable="yes"}
 
@@ -68,7 +70,7 @@ The country of manufacture is required for all products that are shipped interna
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL USPS]** section, and verify that the following fields are complete:
 
-   - **Secure Gateway URL** – The system automatically enters the gateway URL.
+   - **[!UICONTROL Secure Gateway URL]** – The system automatically enters the gateway URL.
    - **[!UICONTROL Password]** – The password is provided by USPS and gives you access to their system through Web Services.
    - **Length, Width, Height, Girth** – The default dimensions of the package. To make these fields appear, set **[!UICONTROL Size]** to `Large`.
 
@@ -80,15 +82,15 @@ The country of manufacture is required for all products that are shipped interna
 
    This information is provided by the carrier, and is required to gain access to their system through Web Services.
 
-1. In the left panel, expand **General** and choose **General** underneath.
+1. In the left panel, expand **[!UICONTROL General]** and choose **[!UICONTROL General]** underneath.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **Store Information** section and verify that the following fields are complete:
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Store Information]** section and verify that the following fields are complete:
 
-   - **Store Name** – The name of the store or store view.
-   - **Store Contact Telephone** – The telephone number of the primary contact for the store or store view.
-   - **Country** – The country where your store is based.
-   - **VAT Number** – If applicable the Value Added Tax number of your store. (Not required for stores based in the U.S.)
-   - **Store Contact Address** – The street address of the primary contact for the store or store view.
+   - **[!UICONTROL Store Name]** – The name of the store or store view.
+   - **[!UICONTROL Store Contact Telephone]** – The telephone number of the primary contact for the store or store view.
+   - **[!UICONTROL Country]** – The country where your store is based.
+   - **[!UICONTROL VAT Number]** – If applicable the Value Added Tax number of your store. (Not required for stores based in the U.S.)
+   - **[!UICONTROL Store Contact Address]** – The street address of the primary contact for the store or store view.
 
 1. If you have multiple stores and the contact information differs from the default, set **[!UICONTROL Store View]** for each and verify that the information is complete.
 

@@ -1,9 +1,9 @@
 ---
-title: Add Blocks
+title: Add content blocks
 description: Create custom blocks of content that you can reuse in any page or within another block.
 exl-id: 2f104d77-a1d1-4f10-82ce-014955fe560b
 ---
-# Add Blocks
+# Add content blocks
 
 Custom blocks of content can be created, and then added to any page, group of pages, or even to another block. For example, you might place an image slider in a block, and then place the block on the home page. The Blocks workspace uses the same [basic controls](pages-workspace.md) as the _Pages_ workspace to help you find available blocks and perform routine maintenance. When the block is complete, you can use the [Widget](widget-static-block.md) tool to place it on specific pages in your store.
 
@@ -51,7 +51,7 @@ Custom blocks of content can be created, and then added to any page, group of pa
 
 ## Delete a block
 
-There are two ways to remove created block. You can remove it from _Blocks_ grid, or from the edit block page.
+There are two ways to remove a custom block. You can remove it from the _Blocks_ grid, or from the edit block page.
 
 ### Method 1: Remove a block from the Blocks grid
 

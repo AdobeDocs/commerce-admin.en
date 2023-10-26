@@ -1,11 +1,11 @@
 ---
-title: Insert a Widget in the Editor
-description: Use the widget tool to add various content elements to a page, including links to any content page or node, product, or category.
+title: Insert a widget in the editor
+description: Add various content elements to a page using the widget tool in the WYSIWYG editor.
 exl-id: bbc5e059-06d8-4dda-89a7-6c9826b73fd3
 ---
-# Insert a Widget in the Editor
+# Insert a widget in the editor
 
-The [widget](widget-create.md) tool can be used to add various content elements to the page, including links to any content page or node, product, or category. Links can be positioned on the page in a block format, or incorporated directly into the content. You can use the Widget tool to create links to the following types of content:
+The [widget](widget-create.md) tool can be used to add various content elements to the page, including links to any Commerce content page or node, product, or category. Links can be positioned on the page in a block format, or incorporated directly into the content. You can use the Widget tool to create links to the following types of content:
 
 - [Content Pages](pages.md)
 - [Catalog Categories](../catalog/categories.md)
