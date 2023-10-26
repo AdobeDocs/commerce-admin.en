@@ -33,14 +33,11 @@ In the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Compani
 
 The [!UICONTROL Companies] grid lists all companies regardless of status. 
 
-When a company administrator creates a new company, you can unfold a dropdown called **Company Hierarchy** where you can view the parent company, or [assign and unassign companies](assign-companies.md) to that parent company:
-
-* New Parent Company: When the company administrator has created the company, new companies can be added to this parent company.
-* Existing Company: When the company administrator has created the company, new companies can be searched and added to this parent company.
+When a company administrator has created a new company, you can select the dropdown called **Company Hierarchy** where you can view the parent company and its related companies, or [assign and unassign companies](assign-companies.md) to that parent company.
 
 >[!IMPORTANT]
 >
-> In the **Company Hierarchy** view for a parent company, it appears as empty. This section enables a sales representative to identify all companies that are part of that parent company.
+> The **Company Hierarchy** view for a parent company appears as empty.
 
 Once the [company account](account-company-create.md) is created and the company administrator and other users have been setup, you can specify the inheritance in the company management:
 
