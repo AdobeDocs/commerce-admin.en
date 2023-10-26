@@ -1,7 +1,7 @@
 ---
 title: Company management
 description: Learn about company management and how they function between companies in B2B.
-feature: B2B, Companies, Management, Storefront
+feature: B2B, Companies, Storefront
 role: Admin
 hide: yes
 hidefromtoc: yes
