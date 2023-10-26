@@ -44,6 +44,6 @@ When a company administrator creates a new company, you can unfold a dropdown ca
 
 Once the [company account](account-company-create.md) is created and the company administrator and other users have been setup, you can specify the inheritance in the company management:
 
-* Full Inheritance: Shared catalogs, quotes, payment and shipping methods are replicated from the parent company to its related companies.
-* Partial Inheritance: Specify what is inherited from the parent company to its related companies.
+* Full Inheritance: Shared catalogs, quotes, payment and shipping methods are replicated between the parent company to its related companies.
+* Partial Inheritance: Specify what is inherited between the parent company to its related companies.
 * No Inheritance: No inheritance between the parent company and its related companies.
