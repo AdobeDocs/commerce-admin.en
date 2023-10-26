@@ -33,25 +33,17 @@ In the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Compani
 
 The [!UICONTROL Companies] grid lists all companies regardless of status. 
 
-When a company administrator creates a new company, you can unfold a dropdown called **Company Hierarchy** where you can view the parent company, or assign and unassign companies to that parent company:
+When a company administrator creates a new company, you can unfold a dropdown called **Company Hierarchy** where you can view the parent company, or [assign and unassign companies](assign-companies.md) to that parent company:
 
 * New Parent Company: When the company administrator has created the company, new companies can be added to this parent company.
-
 * Existing Company: When the company administrator has created the company, new companies can be searched and added to this parent company.
 
 >[!IMPORTANT]
 >
 > In the **Company Hierarchy** view for a parent company, it appears as empty. This section enables a sales representative to identify all companies that are part of that parent company.
 
-Once the Master Account/Tax and Administrative users have been set up.  The merchant may specify inheritance rules as follows:
-* Full Inheritance: All catalog entitlements, pricing, and terms are replicated from parent to child account.
-* Partial Inheritance: Specify items that should be inherited including 1,2,3.
-* No Inheritance: The Child Company must be manually configured without any inheritance between companies
+Once the [company account](account-company-create.md) is created and the company administrator and other users have been setup, you can specify the inheritance in the company management:
 
-Root organization
-
-The root organization is the top-level organization and is its own parent. All organizations in the HCL Commerce organization structure are descendants of the root organization. The site administrators are owned by the root organization.
-
-Default organization
-
-The default organization is owned by the root organization. All guest customers and all customers in a B2C scenario belong to the default organization. Customers in a B2B or B2B indirect scenarios should not be placed under the default organization, but rather in the appropriate buyer organization. B2C users under the default organization can be managed by an administrator in HCL Commerce Accelerator. Business users outside of the default organization can be managed in the Organization Administration Console. Do no create stores under the default organization. Instead, create stores under a separate organization, such as the seller organization.
+* Full Inheritance: Shared catalogs, quotes, payment and shipping methods are replicated from the parent company to its related companies.
+* Partial Inheritance: Specify what is inherited from the parent company to its related companies.
+* No Inheritance: No inheritance between the parent company and its related companies.
