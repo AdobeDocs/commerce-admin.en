@@ -1,10 +1,10 @@
 ---
-title: Assign Quantities per Product
+title: Assign inventory quantities per product
 description: Learn how to update the inventory quantities for your product and track the on-hand, available stock amounts.
 exl-id: 935385bb-6657-4d49-980e-96a3d0d3a187
 feature: Inventory, Products
 ---
-# Assign Quantities per Product
+# Assign quantities per product
 
 After adding [sources](sources-assign-per-product.md), update the inventory quantities for your product. These values track the on-hand, available stock amounts.
 

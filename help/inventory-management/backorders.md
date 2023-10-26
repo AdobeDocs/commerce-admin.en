@@ -1,10 +1,10 @@
 ---
-title: Configure backorders
+title: "Configure [!DNL Inventory Management] backorders"
 description: Learn how to configure backorders to support sale of out-of-stock products.
 exl-id: 2fe778df-781e-4cda-8b85-47cf973c9e94
 feature: Inventory, Orders
 ---
-# Configure backorders
+# Configure [!DNL Inventory Management] backorders
 
 Backorders allow your store to continue selling products after the quantity reaches zero or is effectively out of stock. When a customer order is a backorder, the funds are authorized and captured immediately, the processing status of the order does not change, and the shipping remains on-hold until stock is available.
 

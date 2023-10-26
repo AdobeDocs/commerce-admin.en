@@ -1,10 +1,10 @@
 ---
-title: Import and Export Inventory
+title: Import and export inventory
 description: Use the native import and export features with expanded [!DNL Inventory Management] options to update sources and quantities by SKU.
 exl-id: cb2d2e0d-aef8-4b18-b013-9a7b0ab448bd
 feature: Inventory, Data Import/Export
 ---
-# Import and Export Inventory
+# Import and export inventory
 
 For catalogs with many products, use the native import and export features with expanded [!DNL Inventory Management] options to update sources and quantities by SKU. With these options, you can add new sources and update inventory quantities for all or a specific source. For example, you can export products for a source in Germany without affecting product information for sources in France, England, or the US.
 

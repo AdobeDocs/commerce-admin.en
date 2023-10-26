@@ -16,7 +16,9 @@ exl-id: 6a7dd27e-248f-4c40-b2db-0d70529422a1
 
 >[!NOTE]
 >
->These features were developed as part of the [Inventory Management](https://github.com/magento/inventory) (formerly MSI) project through the Community Engineering program.
+>These features were developed as part of the [Inventory Management](https://github.com/magento/inventory) (formerly MSI) project through the Community Engineering program.<br/>
+>
+>The [!DNL Inventory Management] module is installed with Magento Open Source and Adobe Commerce, with all features enabled by default. For information about changes included in module releases, see the [Release Notes](release-notes.md). 
 
 ## Basic terminology
 

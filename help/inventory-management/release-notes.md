@@ -1,10 +1,10 @@
 ---
-title: '[!DNL Inventory Management] Release Notes'
+title: '[!DNL Inventory Management] release notes'
 description: Review the release notes for information about all [!DNL Inventory Management] releases.
 exl-id: 856b9503-7621-4beb-ac2f-3eb1a240cebc
 feature: Inventory, Release Notes
 ---
-# Release Notes
+# [!DNL Inventory Management] release notes
 
 These release notes describe releases of [!DNL Inventory Management] and include:
 
@@ -12,7 +12,7 @@ These release notes describe releases of [!DNL Inventory Management] and include
 ![Fixed issue](../assets/fix.svg) Fixes and improvements
 ![Known issue](../assets/bug.svg) Known issues
 
-[!DNL Inventory Management] is a Magento Open Source Community Engineering special project open to contributors. To take part and contribute, see the [GitHub project](https://github.com/magento/inventory) repository and [wiki](https://github.com/magento/inventory/wiki) to get started. To discuss the project, join the [Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY) channel ([self signup](https://opensource.magento.com/slack)).
+[!DNL Inventory Management] is a Magento Open Source Community Engineering special project open to contributors. To take part and contribute, see the [GitHub project](https://github.com/magento/inventory) repository and [wiki](https://github.com/magento/inventory/wiki) to get started. To discuss the project, join the [Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY) channel ([self-signup](https://opensource.magento.com/slack)).
 
 [Release schedule](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"} for supported and compatible releases.
 
@@ -64,11 +64,11 @@ These release notes describe releases of [!DNL Inventory Management] and include
 
 ![Fixed issue](../assets/fix.svg) The default inventory stock status of bundle and grouped products is now updated as expected when a merchant creates a shipment from the Admin. Previously, the status of these products remained unchanged after a shipment was created. <!--- ACP2E-418-->
 
-![Fixed issue](../assets/fix.svg) Configurable products are now returned back to stock when one of these conditions is met: the parent product has at least one saved child in stock, or the configurable product itself was updated and set as **in stock** and had at least one child in stock. <!--- ACP2E-443-->
+![Fixed issue](../assets/fix.svg) Configurable products are now returned back to stock when one of the following conditions is met: 1. The parent product has at least one saved child in stock. 2. The configurable product itself was updated and set as **in stock** and had at least one child in stock. <!--- ACP2E-443-->
 
 ![Fixed issue](../assets/fix.svg) Inventory changes implemented through the REST API are now reflected as expected on product detail pages. The cache for catalog products is now cleaned after comparing the last and current stock statuses. Previously, omitting the callback function resulted in the incorrect evaluation of stock status changes, which did not trigger the necessary cache cleaning. As a result, the storefront did not reflect the inventory changes. <!--- ACP2E-161-->
 
-![Fixed issue](../assets/fix.svg) Products that are assigned to default stock and that were previously out of stock are now visible on the storefront after updating the source item using `/V1/inventory/source-items`. Previously, this REST API endpoint set the wrong `stock_status`. <!--- ACP2E-562-->
+![Fixed issue](../assets/fix.svg) Products that are assigned to default stock and were previously out of stock are now visible on the storefront after the source item is updated using `/V1/inventory/source-items`. Previously, this REST API endpoint set the wrong `stock_status`. <!--- ACP2E-562-->
 
 ![Fixed issue](../assets/fix.svg) Unassigning inventory sources through bulk action (**[!UICONTROL Catalog]** > **[!UICONTROL Products]** > **[!UICONTROL Select Products]** > **[!UICONTROL Actions - Unassign Inventory Source]**) now works as expected when sources include SKUs that are duplicates except for a leading zero (for example, `01234` and `1234`). Previously, the application did not unassign inventory sources and threw an error. <!--- ACP2E-2641-->
 
@@ -86,13 +86,13 @@ These release notes describe releases of [!DNL Inventory Management] and include
 
 ![Fixed issue](../assets/fix.svg) Compatibility issues with PHP 7.4 are resolved. <!--- AC-3192-->
 
-![Fixed issue](../assets/fix.svg) The performance of save operations that include bundle products that contain many options (several hundred) is improved. Previously, saving these large bundle products took several minutes and sometimes resulted in timeouts in deployments with Inventory services enabled. [GitHub-34732](https://github.com/magento/magento2/issues/34732) <!--- AC-1901-->
+![Fixed issue](../assets/fix.svg) The performance of save operations that include bundle products that contain many options (several 100) is improved. Previously, saving these large bundle products took several minutes and sometimes resulted in timeouts in deployments with Inventory services enabled. [GitHub-34732](https://github.com/magento/magento2/issues/34732) <!--- AC-1901-->
 
-![Fixed issue](../assets/fix.svg) The product bulk action tool (**[!UICONTROL Catalog]** > **[!UICONTROL Products]** > **[!UICONTROL Select Products]** > **[!UICONTROL Actions]** > **[!UICONTROL Assign Inventory Source]**) now works as expected when assigning inventory source to multiple products when SKUs are duplicated with the exception of a leading 0 (for example, 01234 and 1234). Previously, only one product was assigned an Inventory source. [GitHub-35171](https://github.com/magento/magento2/issues/35171) <!--- AC-2584-->
+![Fixed issue](../assets/fix.svg) The product bulk action tool (**[!UICONTROL Select Products]** > **[!UICONTROL Actions]** > **[!UICONTROL Assign Inventory Source]**) now works as expected when assigning inventory source to multiple products when SKUs are duplicated except for a leading `0` (for example, `01234` and `1234`). Previously, only one product was assigned an inventory source. [GitHub-35171](https://github.com/magento/magento2/issues/35171) <!--- AC-2584-->
 
 ![Fixed issue](../assets/fix.svg) The `ProductInterface.only_x_left_in_stock` field now returns 0 if inventory is 0. Previously, it returned null. [GitHub-29932](https://github.com/magento/magento2/issues/29932) <!--- AC-1806-->
 
-![Fixed issue](../assets/fix.svg) You can now edit default stock from Admin **[!UICONTROL Stores]** > **[!UICONTROL Inventory]** > **[!UICONTROL Stocks]**. Previously, a JavaScript error was displayed in the console when you tried to add or remove sources from default stock, although you could assign websites to default stock. <!--- ACP2E-545-->
+![Fixed issue](../assets/fix.svg) You can now edit default stock from the Admin **[!UICONTROL Stores]** > **[!UICONTROL Inventory]** > **[!UICONTROL Stocks]**. Previously, a JavaScript error was displayed in the console when you tried to add or remove sources from default stock, although you could assign websites to default stock. <!--- ACP2E-545-->
 
 ![Fixed issue](../assets/fix.svg) <!--- ACP2E-274--> The category list product count is now correct when using inventory single-source mode with the **[!UICONTROL Display Out-Of-Stock Products]** setting enabled. A new plugin now uses `AreProductsSalableInterface` and `StockConfigurationInterface` to determine the total number of products. Previously, the category product list returned the wrong product quantity.
 
@@ -158,7 +158,7 @@ Inventory Management 1.2.4 (module version: `magento/inventory-metapackage = 1.2
 
 [!DNL Inventory Management] 1.2.1 (module version: `magento/inventory-metapackage = 1.2.1`) is supported with version 2.4.1 and compatible with version 2.4.0 of Adobe Commerce, Adobe Commerce on cloud infrastructure, and the Magento Open Source code base.
 
-![Fixed issue](../assets/fix.svg) Fixed known issue related to the `inventory_cleanup_reservations` cron job and addressed an issue related to In-Store Pickup functionality for bundle products. This update also includes general improvements to stock calculation, bundle product support, and backorders functionality.
+![Fixed issue](../assets/fix.svg) Fixed known issue related to the `inventory_cleanup_reservations` cron job and addressed an issue related to In-Store Pickup functionality for bundle products. This update also includes general improvements to stock calculation, bundle product support, and backorder functionality.
 
 ![New](../assets/new.svg) **Functional tests.** Introduced new functional tests to provide additional coverage for In-Store Pickup functionality.
 
