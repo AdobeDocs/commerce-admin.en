@@ -88,13 +88,17 @@ From the **Company Hierarchy** view, you can filter the companies shown in the l
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 1. Click the **[!UICONTROL Filters]** selector.
-1. Toggle the _[!UICONTROL Transaction Result]_ options to see report results for only selected order transactions.
-1. Select the _[!UICONTROL Company Type]_ to see report results for only that selected type of card. A tooltip is shown when the payment processor is unable to identify the card type.
-1. Select the _[!UICONTROL Card Brand]_ to see report results for only that selected card brand. A tooltip is shown when the payment processor is unable to identify the card brand.
-1. Toggle the _[!UICONTROL Payment Method]_ options to see report results for only selected payment methods.
-1. Enter a _Min Order Amount_ or _Max Order Amount_ to see report results within that order amount range.
-1. Enter an _[!UICONTROL Order ID]_ to search for a specific transaction.
-1. Enter the _[!UICONTROL Card Last Four Digits]_ to search for a specific credit or debit card.
+1. Toggle the _[!UICONTROL ID]_ values to see results for only selected company IDs.
+1. Select the _[!UICONTROL Company Name]_ to see results for only that selected company name.
+1. Select the _[!UICONTROL Company Email]_ to see results for only that selected company email.
+1. Select the _[!UICONTROL Phone Number]_ to see results for only that phone number.
+1. Select the _[!UICONTROL Country]_ to see results for only that specific country.
+1. Select the _[!UICONTROL State/province]_ to see results for only that specific State or Province.
+1. Select the _[!UICONTROL City]_ to see results for only that specific city.
+1. Toggle the _[!UICONTROL Group/Shared Catalog]_ values to see results for only that specific group or shared catalog.
+1. Select the _[!UICONTROL Company Admin]_ to see results for only that selected company admin.
+1. Select the _[!UICONTROL Job Title]_ to see results for only that job title.
+1. Select the _[!UICONTROL Email]_ to see results for only that email.
 1. Click **[!UICONTROL Apply filters]** to apply desired filters.
 
 ### Search filter
