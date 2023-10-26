@@ -31,7 +31,6 @@ recommendations: noDisplay
 + Company management {#company-management}
     + [Overview](manage-companies.md)
     + [Assign or Unassign companies](assign-companies.md)
-    + [Company management organization roles and permissions](companies-roles-permissions.md)
 + Shared catalogs {#shared-catalogs}
   + [Overview](catalog-shared.md)
   + Define shared catalogs {#define}
