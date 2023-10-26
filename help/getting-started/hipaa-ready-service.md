@@ -133,7 +133,7 @@ Enhancements to import/export features are focused on improving the administrati
 
 #### Administrative action logging
 
-One of the key improvements within the import/export features is the enhanced logging of administrative actions. This introduces the capability to delve deeper into activities associated with data import/export, contributing to improved tracking and auditability. The following actions are now logged and reflected in the **System > Action Logs > Report** grid:
+One of the key improvements within the import/export features is the enhanced logging of administrative actions. This introduces the capability to delve deeper into activities associated with data import/export, contributing to improved tracking and auditability. The following actions are now logged and reflected in the **[!UICONTROL System] > _[!UICONTROL Action Logs]_ > [!UICONTROL Report]** grid:
 
 | Type | Actions |
 | ---- | ------- |
