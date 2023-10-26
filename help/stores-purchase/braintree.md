@@ -94,7 +94,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 1. For **[!UICONTROL Sort Order]**, enter a number to determine the sequence in which Braintree appears when listed with other payment methods during checkout.
 
-## Step 4: Complete the Braintree webhooks settings
+## Step 4: Complete the Braintree webhook settings
 
 ![Braintree Webhooks Settings](../configuration-reference/sales/assets/payment-methods-braintree-webhooks-config.png){width="600" zoomable="yes"}
 
@@ -156,7 +156,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 1. For **[!UICONTROL Sort Order]**, enter a number to determine the sequence in which [!DNL Apple Pay] payment option appears when listed with other payment options during the checkout.
 
-## Step 8: Complete the local payment methods settings
+## Step 8: Complete the settings for local payment methods
 
 1. To include local payment methods as a payment option with Braintree, set **[!UICONTROL Enable Local Payment Methods]** to `Yes`.
 
@@ -189,7 +189,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 1. For **[!UICONTROL Merchant ID]**, enter your MerchantID (provided by Google).
 
-1. For **[!UICONTROL Accepted Cards]**, select the type of cards that a customer can use to place order using [!DNL Google Pay]. 
+1. For **[!UICONTROL Accepted Cards]**, select the type of cards that a customer can use to place an order using [!DNL Google Pay]. 
 
    Options: `Visa` / `MasterCard` / `AMEX` / `Discover` / `JCB`
 
@@ -270,7 +270,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 ### [!UICONTROL Mini-Cart and Cart Page]
 
-The option and settings in this section vary according to the setting in the _[!UICONTROL Location]_ field.
+The options and settings in this section vary according to the setting in the _[!UICONTROL Location]_ field.
 
 1. Set **[!UICONTROL PayPal Button Type]** to one of three types of buttons: `PayPal Button` / `PayPal Pay Later Button` / `PayPal Credit Button`
 
@@ -304,11 +304,11 @@ The options and settings in this section vary according to the button type selec
 
 When these options are set, you can see the preview of the PayPal buttons and PayLater messages. There are controls that you can use to apply the settings or reset the values:
 
-- Click **[!UICONTROL Apply]** to store the selected styling settings for buttons and PayLater messaging and apply them to the current location and current button type.
+- To store the selected styling settings for buttons and PayLater messaging and apply them to the current location and current button type, click **[!UICONTROL Apply]**.
 
-- Click **[!UICONTROL Apply to All Buttons]** to store the selected styling settings for buttons and PayLater messaging values and apply them to all button types and locations.
+- to store the selected styling settings for buttons and PayLater messaging values and apply them to all button types and locations, click **[!UICONTROL Apply to All Buttons]**.
 
-- Click **[!UICONTROL Reset to Recommended Defaults]** to return styling settings to the recommended default values for buttons and PayLater messaging and apply them to all button types and locations.
+- To return styling settings to the recommended default values for buttons and PayLater messaging and apply them to all button types and locations, click **[!UICONTROL Reset to Recommended Defaults]**.
 
 ## Step 13: Complete the 3D verification settings
 
@@ -329,7 +329,7 @@ When these options are set, you can see the preview of the PayPal buttons and Pa
 
 ## Step 14: Set up the Braintree dynamic descriptors
 
-The following descriptors are used to identify purchases on customer credit card statements. You can reduce the number of charge backs by clearly identifying the company that is associated with each purchase. If dynamic descriptors are not enabled for your account, contact Braintree support.
+The following descriptors are used to identify purchases on customer credit card statements. You can reduce the number of charge-backs by clearly identifying the company that is associated with each purchase. If dynamic descriptors are not enabled for your account, contact Braintree support.
 
 ![Dynamic Descriptors](../configuration-reference/sales/assets/payment-methods-braintree-dynamic-config.png){width="600" zoomable="yes"}
 
@@ -365,7 +365,7 @@ The following descriptors are used to identify purchases on customer credit card
 
 ## 2.4 upgrade notes 
 
-Before upgrading to Commerce 2.4 from 2.3, it is recommended that merchants replace the core Commerce Braintree integration with the official Braintree extension from [Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree). Beginning with Adobe Commerce and Magento Open Source 2.4.0, the Braintree extension is included in the release.
+Before upgrading to Commerce 2.4 from 2.3, it is recommended that merchants replace the core Commerce Braintree integration with the official Braintree extension from [Commerce Marketplace](https://commercemarketplace.adobe.com/catalogsearch/result/?q=braintree). Beginning with Adobe Commerce and Magento Open Source 2.4.0, the Braintree extension is included in the release.
 
 If you are migrating to Commerce 2.4.x from a pre-2.4.0 version that has the Marketplace Braintree extension installed, you must uninstall that extension (`paypal/module-braintree` or `gene/module-braintree`) and update any code customizations to use the `PayPal_Braintree` namespace instead of `Magento_Braintree`. Configuration settings from the core Commerce Braintree Payments bundled extension and the extension distributed on Commerce Marketplace persist and payments placed with those previous versions can still be captured, voided, or refunded as normal.
 

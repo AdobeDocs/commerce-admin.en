@@ -8,7 +8,7 @@ feature: Inventory, Orders, Shipping/Delivery
 
 [!DNL Inventory Management] supports partial and full invoicing, payments, shipping, and cancellations per order. As you manage an order through processing, invoicing, shipment, and potentially refunds, [!DNL Commerce] automatically enters or changes reservations to update the salable quantity for a stock (or sales channel) and the on-hand inventory quantity per source. You do not have to actively access or enter reservations. Completing actions to fulfill, cancel, or refund an order does it for you.
 
-These reservations always add to your salable quantity, with positive or negative amounts to increase or decrease quantities. These reservations are compensations, updating your on-hand inventory and salable quantities for up-to-date amounts for your store.
+These reservations always adjust your salable quantity, with positive or negative amounts to increase or decrease quantities. The result is an update to your on-hand inventory and salable quantities for up-to-date product availability.
 
 For specifics on orders and shipments, see [Managing Orders and Shipments](shipments.md).
 
@@ -49,30 +49,30 @@ The following tables detail order and credit memo status with reservation change
 |[!UICONTROL Open]|New and recently submitted, no processing|Reservation is saved when order is submitted for the stock.|
 |[!UICONTROL Canceled]|Canceled in partial or full before payment|Reservation compensation is entered to return partial or full quantity back to the stock salable quantity.|
 |[!UICONTROL On Hold]|Payment and shipping not processed or invoiced|Reservation stays in place.|
-|[!UICONTROL Suspected Fraud]|Not processed due to fraud|If approved or in review, the reservation stays in place.<br/>If declined, the reservation stays in place until the merchant makes a decision.<br/>If canceled, the reservation compensation is entered to return full quantity back to the stock salable quantity.|
+|[!UICONTROL Suspected Fraud]|Not processed due to fraud|If approved or in review, the reservation stays in place.<br/>If declined, the reservation stays in place until the merchant decides to approve or cancel.<br/>If canceled, the reservation compensation is entered to return full quantity back to the stock salable quantity.|
 |[!UICONTROL Pending]|Waiting for payment|The reservation stays in place.|
 |[!UICONTROL Processing]|Payment processing, not received|The reservation stays in place.|
 |[!UICONTROL Pending Payment]|Payment not received|The reservation stays in place.|
 |[!UICONTROL Payment Review]|Payment being reviewed for processing and completion|The reservation stays in place.|
-|[!UICONTROL Complete]|Paid and shipped in full|The reservation amount is deducted from the product quantity for the selected source when invoiced partial or in full. The reservation compensation is entered to update the total salable quantity.|
+|[!UICONTROL Complete]|Paid and shipped in full|The reservation amount is deducted from the product quantity for the selected source when invoiced partially or in full. The reservation compensation is entered to update the total salable quantity.|
 |[!UICONTROL Closed]|Refunded or archived|If archived, there is no change in quantities. If refunded in partial or full, the reservation compensation is entered and converted to add back product quantities per source and salable quantity per stock.|
 
 |Credit Memo Status|Description|Reservation for Salable Quantity|
 |--|--|--|
 |[!UICONTROL Open]|The refund is due, not completed|There is no change in reservations.|
-|[!UICONTROL Refunded]|Completed, funds returned|If refunded in partial or full, the reservation compensation is entered and converted to add back product quantities per source and salable quantity per stock.|
+|[!UICONTROL Refunded]|Completed, funds returned|If refunded in part or full, the reservation compensation is entered and converted to add back product quantities per source and salable quantity per stock.|
 
 ## Example complex order
 
-Jenny Sanders orders bikes and clothing for her family vacation and fun. She sees some great sales on your Biking Adventures store with stock and sources spanning the United States, Canada, and Europe.
+Blake Sanders orders bikes and clothing for their family vacation and fun. They see some great sales on your Biking Adventures store with stock and sources spanning the United States, Canada, and Europe.
 
-She buys two great park bikes for her daughters, a BMX bike for her son, a nice mountain bike for herself, and a modern German cross-country bike for her husband. The store had a sale on cute shirts, so she bought some for the whole family to match. See the list of vacation purchases below, the matching SKUs, and the reservations entered against the stock salable quantities.
+They buy two great park bikes for their small children, a BMX bike for their teenager, a nice mountain bike for themself, and a modern German cross-country bike for their spouse. The store had a sale on cute shirts, so they bought some for the whole family to match. See the list of vacation purchases below, the matching SKUs, and the reservations entered against the stock salable quantities.
 
 ![Complex order](assets/diagram-order-complex.png){width="600" zoomable="yes"}
 
-She shows her family what she found, but makes some changes. Before payment completes, she cancels two of the 33-BikeFun SKUs (her daughters did not like them). This is a partial cancellation due to payment pending, so no credit memo needed. To update, [!DNL Commerce] adds back to the salable quantity stock for Canada. The order is paid, and all products ship, arriving in time for vacation. [!DNL Commerce] updates the salable quantity and source quantities for the shipping warehouses for the shipped products.
+They show their family what they found, but makes some changes. Before payment completes, they cancel two of the 33-BikeFun SKUs (children did not like them). This is a partial cancellation due to payment pending, so no credit memo needed. To update, [!DNL Commerce] adds back to the salable quantity stock for Canada. The order is paid, and all products ship, arriving in time for vacation. [!DNL Commerce] updates the salable quantity and source quantities for the shipping warehouses for the shipped products.
 
-But the shirt didn't quite fit her husband. Jenny requests a refund and sends back his shirt. The creation of the credit memo adds one 54-BikeLife shirt back to the Canada stock and shipping warehouse.
+But the shirt didn't quite fit their spouse. Blake requests a refund and sends back his shirt. The creation of the credit memo adds one 54-BikeLife shirt back to the Canada stock and shipping warehouse.
 
 - **Shipped products** - With products purchased and shipped, [!DNL Commerce] updates the inventory. Reservation compensations convert to on-hand inventory quantity deductions from the shipped source. The available salable quantity updates for the stock.
 

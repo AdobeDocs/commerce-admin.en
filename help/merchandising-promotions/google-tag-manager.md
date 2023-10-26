@@ -8,7 +8,7 @@ feature: Marketing Tools, Integration
 
 {{ee-feature}}
 
-[!DNL Google Tag Manager] helps you manage the many tags, or snippets of code, that are related to your marketing campaign events. [!DNL Google Tag Manager] gives you the ability to add tracking tags to your site to measure the audience, or to personalize, retarget, or conduct search engine marketing initiatives.
+[!DNL Google Tag Manager] helps you manage the many tags (snippets of code) that are related to your marketing campaign events. [!DNL Google Tag Manager] gives you the ability to add tracking tags to your site to measure the audience, or to personalize, retarget, or conduct search engine marketing initiatives.
 
 [!DNL Google Tag Manager] directly transfers data and events to [!DNL Google Analytics], Enhanced Ecommerce, and other third-party analytics solutions to produce a clear picture of how well your site, products, and promotions are performing.
 
@@ -20,7 +20,7 @@ You should have a [!DNL Google Analytics] and [!DNL Tag Manager] account to cont
 
 ## Step 1. Configure your [!DNL Google Analytics] account
 
-See [Set up Site Search](https://support.google.com/analytics/answer/1012264) in Google Help for the basics you need to get started. Also see the Google guides for [Google Analytics](https://support.google.com/analytics/answer/1008015) and [Google Tag Manager](https://support.google.com/tagmanager/answer/6102821).
+See [Set up Site Search](https://support.google.com/analytics/answer/1012264) in Google Help for the basics you need for getting started. Also see the Google guides for [Google Analytics](https://support.google.com/analytics/answer/9304153) and [Google Tag Manager](https://support.google.com/tagmanager/answer/6102821).
 
 1. Sign in to your [!DNL Google Analytics] account.
 
@@ -52,7 +52,7 @@ See [Set up Site Search](https://support.google.com/analytics/answer/1012264) in
 
     - **[!UICONTROL Save]** the settings.
 
-1. Reload the page to verify that all the settings remain `On`.
+1. Reload the page and verify that all the settings remain `On`.
 
    >[!NOTE]
    >
@@ -78,7 +78,7 @@ The following instructions show how to configure a new container with the basic 
 
 1. Enter a title and description, then click **[!UICONTROL Save]**.
 
-1. Select one of the following actions to import the file:
+1. To import the file, select one of the following actions:
 
     - The **[!UICONTROL Overwrite]** option should be selected for a new container.
 
@@ -92,13 +92,13 @@ The following instructions show how to configure a new container with the basic 
 
     - Choose **[!UICONTROL Google Analytics]** and update the placeholder (`UA-xxxxxx-x`) with your own **[!UICONTROL GA ID]**.
 
-1. Follow Google's instructions to add tags, triggers, and variables to the new container.
+1. Follow Google's instructions for adding tags, triggers, and variables to the new container.
 
     If you have settings in another container that you want to use, they can be moved to the new container.
 
 1. Click **[!UICONTROL Confirm]** when complete.
 
-1. Follow Google's instructions to publish the new container.
+1. Follow Google's instructions for publishing the new container.
 
 ## Step 3. Configure your store
 
@@ -126,7 +126,7 @@ The following instructions show how to configure a new container with the basic 
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-1. Test your [!DNL Google Tag Manager] settings to verify that everything works correctly.
+1. Test your [!DNL Google Tag Manager] settings and verify that everything works correctly.
 
 >[!NOTE]
 >
@@ -168,7 +168,7 @@ The following instructions show how to configure a new container with the basic 
 
 {style="table-layout:auto"}
 
-## Create a tag to track conversions
+## Create a tag for tracking conversions
 
 If you have a Google AdWords account, you can create a tag that tracks conversions. The following example shows how to use both [!DNL Google Tag Manager] and [!DNL Google Analytics] to create a tag that fires on your store's conversion _Success_ page.
 

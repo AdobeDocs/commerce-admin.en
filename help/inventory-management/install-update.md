@@ -1,6 +1,6 @@
 ---
 title: "Install, update, and remove [!DNL Inventory Management]"
-description: Learn how to manage the installed [!DNL Inventory Management] metapackage.
+description: Learn how to manage the [!DNL Inventory Management] metapackage.
 exl-id: d088ff35-c0e1-41c8-89fb-78180eaefbf7
 level: Experienced
 feature: Inventory, Install
@@ -191,13 +191,13 @@ If you choose not to use the [!DNL Inventory Management] functionality, you can 
     }
 ```
 
-When this change is complete, run composer install and it automatically removes these Inventory Management modules.
+When this change is complete, run composer install, and it automatically removes these Inventory Management modules.
 
 ## Upgrade Inventory Management
 
 ### Previous [!DNL Commerce] versions
 
-When upgrading or updating an existing 2.1.x, 2.2.x, or 2.3.x installation to Adobe Commerce or Magento Open Source 2.4.x, [!DNL Inventory Management] modules are disabled by default. This default setting is a precaution to prevent backward incompatible upgrades and to better support Order Management (OMS).
+When upgrading or updating an existing 2.1.x, 2.2.x, or 2.3.x installation to Adobe Commerce or Magento Open Source 2.4.x, [!DNL Inventory Management] modules are disabled by default. This default setting is a precaution to prevent backward-incompatible upgrades and to better support Order Management (OMS).
 
 >[!NOTE]
 >

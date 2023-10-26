@@ -28,7 +28,7 @@ Configure the default configuration options for product and stock for your websi
 
     - To set the start for displaying the last remaining inventory amount on the product page, enter an amount for **[!UICONTROL Only X left Threshold]**.
 
-      The message begins to appear when the quantity in stock reaches the threshold. For example, if set to `3`, the message "Only 3 left" appears when the quantity in stock reaches three. The message adjusts to reflect the quantity in stock, until the quantity reaches zero.
+      The message begins to appear when the quantity in stock reaches the threshold. For example, if set to `3`, the message `Only 3 left` appears when the quantity in stock reaches three. The message adjusts to reflect the quantity in stock, until the quantity reaches zero.
 
     - To display an "In Stock" or "Out of Stock" message on the product page, set **[!UICONTROL Display Products Availability In Stock on Storefront]** to `Yes`.
 
@@ -46,9 +46,9 @@ Configure the default configuration options for product and stock for your websi
 
        | Option| Description |
        | ----- | ----- |
-       | `No Backorders` | To not accept [backorders](backorders.md) when product is out of stock. |
-       | `Allow Qty Below 0` | To accept backorders when the quantity falls below zero. |
-       | `Allow Qty Below 0 and Notify Customer` | To accept backorders when the quantity falls below zero, and notify the customer that the order can still be placed. |
+       | `No Backorders` | [Backorders](backorders.md) are not accepted when product is out of stock. |
+       | `Allow Qty Below 0` | Backorders are accepted when the quantity falls below zero. |
+       | `Allow Qty Below 0 and Notify Customer` | Backorders are accepted when the quantity falls below zero, and the system notifies the customer that the order can still be placed. |
 
     - Enter the **[!UICONTROL Maximum Qty Allowed in Shopping Cart]**.
 
@@ -66,7 +66,7 @@ Configure the default configuration options for product and stock for your websi
 
     - To activate quantity increments for the product, set **[!UICONTROL Enable Qty Increments]** to `Yes`. Then, for **[!UICONTROL Qty Increments]**, enter the number of the items that must be purchased to meet the requirement.
 
-      For example, an item that is sold in increments of six can be purchased in quantities of 6, 12, 18, and so on.
+      For example, an item that is sold in increments of six can be purchased in quantities of `6`, `12`, `18`, and so on.
 
     - For [!DNL Inventory Management], **[!UICONTROL Automatically Return Credit Memo Item to Stock]** is set to `No`. When submitting a credit memo, you enter and select to return stock to sources.
 

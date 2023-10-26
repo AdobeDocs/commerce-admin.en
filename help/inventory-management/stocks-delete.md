@@ -9,7 +9,7 @@ When you delete the stock, all assigned websites are assigned to the Default Sto
 
 >[!IMPORTANT]
 >
->Deleting a [stock](stocks-manage.md) can affect salable quantities and unprocessed orders for a sales channel. If you continue using a sales channel, please add the sales channel to another existing or new stock.
+>Deleting a [stock](stocks-manage.md) can affect salable quantities and unprocessed orders for a sales channel. If you continue using a sales channel, add the sales channel to another existing or new stock.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_ > **[!UICONTROL Stocks]**.
 
