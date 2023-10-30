@@ -21,7 +21,7 @@ The process of assigning a company to a parent company in the Admin can only be 
 
     ![New Company](./assets/company-create-admin.png){width="700" zoomable="yes"}
 
-1. You can **[!UICONTROL Assign Companies]** by selecting one company via the line item. To assign multiple companies use the **[!UICONTROL Actions]** selector.
+1. You can **[!UICONTROL Assign Companies]** by selecting one company via the line item. To assign multiple companies use the **[!UICONTROL Actions]** control.
 
 1. Click **[!UICONTROL Assign]** on the pop-up modal to confirm selection.
 
