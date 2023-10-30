@@ -75,6 +75,18 @@ The custom pricing of products in any shared catalog can be easily updated from 
 
 1. When complete, Click **[!UICONTROL Save]**.
 
+## Assign companies
+
+If you want to manage your company and its related companies, you can easily assign companies from the shared catalog.
+
+![General Settings](./assets/shared-catalog-grid-general-settings.png){width="700" zoomable="yes"}
+
+1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
+
+1. For the shared catalog that you want to update, go to the **[!UICONTROL Action]** column and select **[!UICONTROL Assign companies]**.
+
+For more information, see [Company Management](manage-companies.md) in B2B.
+
 ## Update the catalog details
 
 The detail information of any shared catalog can be easily updated from the Action column of the Shared Catalogs grid. The changes you make are reflected in any associated company accounts.
