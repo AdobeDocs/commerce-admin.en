@@ -82,20 +82,10 @@ From the **Company Hierarchy** view, you can filter the companies shown in the l
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 1. Click the **[!UICONTROL Filters]** selector.
-1. Toggle the _[!UICONTROL ID]_ values to see results for only selected company IDs.
-1. Select the _[!UICONTROL Company Name]_ to see results for only that selected company name.
-1. Select the _[!UICONTROL Company Email]_ to see results for only that selected company email.
-1. Select the _[!UICONTROL Phone Number]_ to see results for only that phone number.
-1. Select the _[!UICONTROL Country]_ to see results for only that specific country.
-1. Select the _[!UICONTROL State/province]_ to see results for only that specific State or Province.
-1. Select the _[!UICONTROL City]_ to see results for only that specific city.
-1. Toggle the _[!UICONTROL Group/Shared Catalog]_ values to see results for only that specific group or shared catalog.
-1. Select the _[!UICONTROL Company Admin]_ to see results for only that selected company admin.
-1. Select the _[!UICONTROL Job Title]_ to see results for only that job title.
-1. Select the _[!UICONTROL Email]_ to see results for only that email.
+1. Complete as many filters as necessary to describe the record you want to find.
 1. Click **[!UICONTROL Apply filters]** to apply desired filters.
 
-### Search filter
+### Search by keyword
 
 You can search by keyword in the **Company Hierarchy** grid view. If you are searching for a parent company, the search returns the parent company and all related companies.
 
