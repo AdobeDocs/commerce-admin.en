@@ -12,7 +12,9 @@ With the [installation](install.md) and [enablement](enable-basic-features.md) o
 
 ## Company accounts
 
-The Company feature is the key entity within B2B on which all other features are in some way dependent. It allows joining multiple buyers that belong to the same company into a single company account (or corporate account). The company administrator is able to build the company structure (divisions, subdivisions, and users) in the appropriate hierarchy and provide different user roles and permissions to the company members. This hierarchy allows the company administrator to control user activity for the company account: ordering, quoting, purchasing, access to company credit information or profile, and so on. A seller can configure how the buying company operates on the website, including the payment methods, pricing levels, the ability to negotiate prices, and the ability to create requisition lists.
+The Company account feature is a key entity within B2B on which all other features are in some way dependent. It allows joining multiple buyers that belong within a single company into a single company account (or corporate account). The company administrator is able to build this hierarchical company structure (divisions, subdivisions, and users) in the appropriate hierarchy and provide different user roles and permissions to the company members. This hierarchy allows the company administrator to control user activity for the company account: ordering, quoting, purchasing, access to company credit information or profile, and so on. A seller can configure how the buying company operates on the website, including the payment methods, pricing levels, the ability to negotiate prices, and the ability to create requisition lists.
+
+This company structure is an excellent opportunity to improve the performance of a company.
 
 For more information, see [Company Accounts](account-companies.md).
 
@@ -22,7 +24,7 @@ For more information, see [Company Accounts](account-companies.md).
 
 ## Company management
 
-The Company feature is the key entity within B2B on which all other features are in some way dependent. Company management allows B2B Administrators to view and manage the parent company and its internal organization with all related companies. Administrators will be able to assign, unassign companies to the parent company, manage the roles and permissions within those companies. B2B company management is an excellent opportunity to improve the performance of a company.
+Company management streamlines business operations for companies with complex organizational structures. B2B company administrators can create a company hierarchy by assigning companies to a designated parent company. Then, the parent company administrator can view and manage the assigned companies as a group.
 
 For more information, see [Company Management](manage-companies.md).
 

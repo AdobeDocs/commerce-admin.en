@@ -9,9 +9,9 @@ hidefromtoc: yes
 
 # Company management
 
-The Company management feature allows company Administrators to view and manage the parent company and its internal organization with all related companies. Administrators will be able to assign or unassign companies to the parent company or manage the roles and permissions within those companies. B2B company management is an excellent opportunity to improve the performance within a company.
+The Company management feature streamlines business operations for companies with complex organizational structures. B2B company administrators can create a company hierarchy by assigning companies to a designated parent company. Then, the parent company administrator can view and manage the assigned companies as a group.
 
-From a business point of view, the controlling or owning company is generally called a parent company. While many parent companies will completely own their related companies, they can also be just one of the owners or members as well. In most cases, however, the parent company will be the majority shareholder. Although those companies are connected, they are two distinct legal entities.
+From a business point of view, the controlling or owning company is generally called a parent company. While many parent companies completely own their related companies, a parent company can also be just one of the owners or a member as well. In most cases, however, the parent company is the majority shareholder. Although the parent and related companies are connected, they are distinct legal entities.
 
 Each company contains unique identifiers, such as:
 
@@ -33,17 +33,11 @@ In the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Compani
 
 The [!UICONTROL Companies] grid lists all companies regardless of status. 
 
-When a company administrator has created a new company, you can select the dropdown called **Company Hierarchy** where you can view the parent company and its related companies, or [assign and unassign companies](assign-companies.md) to that parent company.
+When a company administrator has created a new company, you can select the dropdown called **Company Hierarchy** to view the parent company and its related companies. You can also manage the hierarchy by [assigning or unassigning companies](assign-companies.md).
 
 >[!IMPORTANT]
 >
 > The **Company Hierarchy** view for a parent company appears as empty.
-
-Once the [company account](account-company-create.md) is created and the company administrator and other users have been setup, you can specify the inheritance in the company management:
-
-* Full Inheritance: Shared catalogs, quotes, payment and shipping methods are replicated between the parent company to its related companies.
-* Partial Inheritance: Specify what is inherited between the parent company to its related companies.
-* No Inheritance: No inheritance between the parent company and its related companies.
 
 ## Column descriptions
 
@@ -52,7 +46,7 @@ The **Company Hierarchy** view provides visibility on all the information relate
 |Columns|Description|
 |--- |--- |
 |[!UICONTROL Company Name]|The full name of the company.|
-|[!UICONTROL Company Type]|The type of the company. Options: <br/>**[!UICONTROL Parent]** - The company is the parent company of other companies. <br/>**[!UICONTROL Company]** - This company is related to a parent company. |
+|[!UICONTROL Company Type]|The type of the company. Options: <br/>**[!UICONTROL Company]** - By default new companies are created as single companies. <br/>**[!UICONTROL Parent]** - The company is a parent company of other companies. <br/>**[!UICONTROL Child]** - This company is related to a parent company.|
 |[!UICONTROL Parent]|Shows the parent company for this specific company.|
 |[!UICONTROL Company Email]|The email address that is associated with the company account.|
 |[!UICONTROL Phone Number]|The primary phone number of the company.|
@@ -103,11 +97,11 @@ From the **Company Hierarchy** view, you can filter the companies shown in the l
 
 ### Search filter
 
-You can search by keyword in this filter for the **Company Hierarchy** view.
+You can search by keyword in this filter for the **Company Hierarchy** view. If you are searching for a parent company, the search returns the parent company and all related companies.
 
 ## Export report
 
-You can download a file with all the companies listed in this view.
+Download a file with all the companies listed in this view.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Companies]** > **[!UICONTROL Export]**.
 1. You can select an specific file to export the report as:

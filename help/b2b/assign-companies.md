@@ -21,9 +21,9 @@ The process of assigning a company to a parent company in the Admin can only be 
 
     ![New Company](./assets/company-create-admin.png){width="700" zoomable="yes"}
 
-1. You can **[!UICONTROL Assign Companies]** by selecting the desired companies that you want to assign to that parent company.
+1. You can **[!UICONTROL Assign Companies]** by selecting one company via the line item. To assign multiple companies use the **[!UICONTROL Actions]** selector.
 
-1. Click **[!UICONTROL Confirm]** on the pop-up modal to confirm selection.
+1. Click **[!UICONTROL Assign]** on the pop-up modal to confirm selection.
 
 ## Unassign companies to a parent company
 
@@ -35,11 +35,8 @@ The process of assigning a company to a parent company in the Admin can only be 
 
     ![New Company](./assets/company-create-admin.png){width="700" zoomable="yes"}
 
-1. You can **[!UICONTROL Unassign Child Companies]** by selecting the desired companies that you want to unassign to that parent company.
+1. You can **[!UICONTROL Unassign Child Companies]** by selecting one company via the line item. To unassign multiple companies use the **[!UICONTROL Actions]** selector.
 
-1. Click **[!UICONTROL Confirm]** on the pop-up modal to confirm selection.
+1. Click **[!UICONTROL Unassign]** on the pop-up modal to confirm selection.
 
->[!IMPORTANT]
->
-> You can perform bulk actions to assign or unassign companies to a parent company.
 
