@@ -41,7 +41,7 @@ When a company administrator has created a new company, you can select the dropd
 
 ## Column descriptions
 
-The **Company Hierarchy** view provides visibility on all the information related to company management in B2B. The main columns shown are as follows:
+The **Company Hierarchy** view provides information about any company relationships defined for the specified company. For example, on the detail page for a parent company, the [!UICONTROL Company Hierarchy] displays all companies assigned to the parent. On a detail page for an assigned company, the view displays the parent company and any other companies assigned to the same parent.  The main columns shown are as follows:
 
 |Columns|Description|
 |--- |--- |
