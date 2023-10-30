@@ -229,7 +229,7 @@ The process of creating a company from the Admin is essentially the same as from
 |--- |--- |
 |[!UICONTROL Company ID]|The ID number of the company.|
 |[!UICONTROL Company Name]|The full name of the company.|
-|[!UICONTROL Company Type]|The type of the [company](manage-companies.md). Options: <br/>**[!UICONTROL Parent]** - The company is the parent company of other companies. <br/>**[!UICONTROL Child]** - The company is a subsidiary of a parent company. |
+|[!UICONTROL Company Type]|The type of the [company](manage-companies.md). Options: <br/>**[!UICONTROL Company]** - By default new companies are created as single companies. <br/>**[!UICONTROL Parent]** - The company is a parent company of other companies. <br/>**[!UICONTROL Child]** - This company is related to a parent company. |
 |[!UICONTROL Company Email]|The email address that is associated with the company account.|
 |[!UICONTROL Phone Number]|The primary phone number of the company.|
 |[!UICONTROL State/Province]|The state or province where the company is registered to conduct business.|

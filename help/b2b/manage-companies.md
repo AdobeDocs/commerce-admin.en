@@ -78,7 +78,7 @@ See [assign and unassign companies](assign-companies.md) for more information on
 
 ## Filter info
 
-From the **Company Hierarchy** view, you can filter the companies shown in the list by selecting filter criteria.
+From the **Company Hierarchy** view, you can filter the companies shown in the list by selecting a filter criteria.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 1. Click the **[!UICONTROL Filters]** selector.
@@ -98,6 +98,18 @@ From the **Company Hierarchy** view, you can filter the companies shown in the l
 ### Search filter
 
 You can search by keyword in this filter for the **Company Hierarchy** view. If you are searching for a parent company, the search returns the parent company and all related companies.
+
+### Actions control options
+
+|Option|Description|
+|--- |--- |
+|[!UICONTROL Set Active]|Sets the status of all selected company records to `Active`. Company administrators receive instructions to set their passwords so they can access their accounts and manage their companies from the storefront.|
+|[!UICONTROL Block]|Restricts company accounts that are not in good standing, while preserving the account. The status of users who are associated with a blocked company is changed to `Inactive`. They cannot sign in to their accounts, or place orders on behalf of the company.|
+|[!UICONTROL Delete]|Deletes selected company accounts. The status of user accounts that are associated with a deleted company is set to `Inactive` and the Company ID is removed from the profiles of user accounts. Information about company activity and transactions is retained in the system.|
+|[!UICONTROL Edit]|Allows some values of the selected company record to be edited from the grid. By default, the Company Name, Company Email, and Phone Number values are available for a quick edit.|
+|[!UICONTROL Convert Credit]|Converts the credit on account for the selected companies according to the rates of the specified currency.|
+
+{style="table-layout:auto"}
 
 ## Export report
 
