@@ -107,4 +107,4 @@ Download a file with all the companies listed in this view.
 1. You can select an specific file to export the report as:
    * .csv file
    * Excel (xml) file
-1. Click the _Export_ button.
+1. Click the **[!UICONTROL Export]** button.
