@@ -97,7 +97,7 @@ From the **Company Hierarchy** view, you can filter the companies shown in the l
 
 ### Search filter
 
-You can search by keyword in this filter for the **Company Hierarchy** view. If you are searching for a parent company, the search returns the parent company and all related companies.
+You can search by keyword in the **Company Hierarchy** grid view. If you are searching for a parent company, the search returns the parent company and all related companies.
 
 ## Export report
 
