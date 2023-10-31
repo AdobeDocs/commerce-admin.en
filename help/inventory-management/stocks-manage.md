@@ -1,9 +1,9 @@
 ---
-title: Manage Stock
+title: Manage inventory stock
 description: Learn how stock is used to represent a virtual, aggregated inventory of products for sources of your sales channels.
 exl-id: 076b1325-2de4-46d3-9976-d900bd2cef47
 ---
-# Manage Stock
+# Manage stock
 
 Stock represents a virtual, aggregated inventory of products for sources of your sales channels (websites). Depending on your site configuration, the stock may be assigned to one or more sales channels. Each sales channel can only have a single stock assigned to it, and a single stock can be assigned to multiple sales channels. Through the stock, you can modify the prioritization of sources used as orders come through a sales channel.
 

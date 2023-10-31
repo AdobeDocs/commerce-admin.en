@@ -16,9 +16,9 @@ You can activate audiences in a Luma storefront or [headless](#headless-support)
 
 This section contains information about updates to the Audience Activation extension and includes:
 
-- ![New](../assets/new.svg) - New features
-- ![Fix](../assets/fix.svg) - Fixes and improvements
-- ![Bug](../assets/bug.svg) - Known issues
+![New](../assets/new.svg) - New features
+![Fix](../assets/fix.svg) - Fixes and improvements
+![Bug](../assets/bug.svg) - Known issues
 
 See [Upcoming Releases](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) to learn about release schedules and support.
 
@@ -32,17 +32,26 @@ These release notes describe feature changes and fixes related to extensions use
 
 _August 15, 2023_
 
-- ![Fix](../assets/new.svg) - Updated the [Real-Time CDP Audiences dashboard](#real-time-cdp-audiences-dashboard) to simplify filtering.
+![Fix](../assets/new.svg) - Updated the [Real-Time CDP Audiences dashboard](#real-time-cdp-audiences-dashboard) to simplify filtering.
 
 _June 27, 2023_
 
-- ![Fix](../assets/fix.svg) - Added support for PHP 8.2 in the `magento/module-data-services-graphql` package.
+![Fix](../assets/fix.svg) - Added support for PHP 8.2 in the `magento/module-data-services-graphql` package.
 
 _May 30, 2023_
 
-- ![New](../assets/new.svg) - Updated the [Real-Time CDP Audiences dashboard](#real-time-cdp-audiences-dashboard) to include the ability to sort, search, and filter the active audiences within your Adobe Commerce instance.
+![New](../assets/new.svg) - Updated the [Real-Time CDP Audiences dashboard](#real-time-cdp-audiences-dashboard) to include the ability to sort, search, and filter the active audiences within your Adobe Commerce instance.
 
 +++
+
+### 2.0.0
+
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
+
+_October 10, 2023_
+
+![New](../assets/new.svg) - Added support for OAuth 2.0 when you [configure](#configure-the-extension) the Audience Activation extension.
+![Fix](../assets/fix.svg) - Improved stability.
 
 ### 1.2.0
 
@@ -50,7 +59,7 @@ _May 30, 2023_
 
 _August 15, 2023_
 
-- ![Fix](../assets/fix.svg) - Updated the UI components version.
+![Fix](../assets/fix.svg) - Updated the UI components version.
 
 ### 1.1.0
 
@@ -58,7 +67,7 @@ _May 30, 2023_
 
 [!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
 
-- ![New](../assets/new.svg) - Added support for [dynamic blocks](#headless-support) in a headless storefront.
+![New](../assets/new.svg) - Added support for [dynamic blocks](#headless-support) in a headless storefront.
 
 ### 1.0.1
 
@@ -66,8 +75,8 @@ _May 11, 2023_
 
 [!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
 
-- ![Fix](../assets/fix.svg) - Fixed an issue where a dynamic block or cart price rule was not applied to the storefront.
-- ![Fix](../assets/fix.svg) - Fixed an issue where an unconfigured installation of the Audience Activation extension caused an error when a merchant tried to create or update a dynamic block.
+![Fix](../assets/fix.svg) - Fixed an issue where a dynamic block or cart price rule was not applied to the storefront.
+![Fix](../assets/fix.svg) - Fixed an issue where an unconfigured installation of the Audience Activation extension caused an error when a merchant tried to create or update a dynamic block.
 
 ### 1.0.0
 
@@ -75,7 +84,7 @@ _March 31, 2023_
 
 [!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
 
-- ![New](../assets/new.svg) - General availability release
+![New](../assets/new.svg) - General availability release
 
 ## Implementation
 
@@ -106,7 +115,7 @@ After you install the [!DNL Audience Activation] extension, you must log into yo
 
 1. In the **[!UICONTROL Datastream ID]** field, paste the ID of the datastream that you created when you [activated](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html#parameters) Adobe Commerce as a destination in Real-Time CDP. 
 
-    This datastream sends data from your Commerce website to Real-Time CDP to determine if a shopper belongs to an audience. If you have not yet created a datastream, [create](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#create) one in Experience Platform, [add](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) it to the Commerce destination in Real-Time CDP, and to the [Experience Platform Connector](https://experienceleague.adobe.com/docs/commerce-merchant-services/experience-platform-connector/fundamentals/connect-data.html#data-collection) in the Admin.
+    This datastream sends data from your Commerce website to Real-Time CDP to determine if a shopper belongs to an audience. If you have not yet created a datastream, [create](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create) one in Experience Platform, [add](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) it to the Commerce destination in Real-Time CDP, and to the [Experience Platform Connector](https://experienceleague.adobe.com/docs/commerce-merchant-services/experience-platform-connector/fundamentals/connect-data.html#data-collection) in the Admin.
 
     >[!NOTE]
     >
@@ -114,11 +123,11 @@ After you install the [!DNL Audience Activation] extension, you must log into yo
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. Expand **[!UICONTROL Services]** and select **[!UICONTROL Audience Activation]**. 
+1. Expand **[!UICONTROL Services]** and select **[!UICONTROL Experience Platform Connector]**. 
 
-1. Enter the configuration credentials found in the [developer console](https://developer.adobe.com/console/home).
+1. In the [Experience Platform connector](https://experienceleague.adobe.com/docs/commerce-merchant-services/experience-platform-connector/fundamentals/connect-data.html#send-historical-order-data) guide, follow steps 1: **Create a project in Adobe Developer Console**, and 2: **Download configuration file**. The result is a file that you copy and paste into the **[!UICONTROL Experience Platform Connector]** configuration page:
 
-    ![Real-Time CDP Audience Admin Configuration](./assets/rtcdp-admin-config.png){width="700" zoomable="yes"}
+    ![Real-Time CDP Audience Admin Configuration](./assets/epc-admin-config.png){width="700" zoomable="yes"}
 
 1. Click **Save Config**.
 

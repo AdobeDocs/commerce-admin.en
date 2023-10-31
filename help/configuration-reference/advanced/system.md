@@ -171,6 +171,8 @@ For more information about changing these settings, see [Action log archive](../
 
 ## [!UICONTROL Full Page Cache]
 
+{{beta2-patches-updates}}
+
 ![Advanced configuration - Full Page Cache](./assets/system-full-page-cache.png)<!-- zoom -->
 
 For more information about changing these settings, see [Full-page caching](../../systems/cache-management.md#full-page-caching) in the _Admin Systems Guide_.

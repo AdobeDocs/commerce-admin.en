@@ -1,9 +1,9 @@
 ---
-title: Stocks and Sources
+title: Stocks and sources
 description: Learn about the relationships between products, sources, and stocks.
 exl-id: 01bbbd82-898b-4757-ab40-0d8b89ec59bc
 ---
-# Stocks and Sources
+# Stocks and sources
 
 Manage your inventory regardless of warehouse location, type of product or service, or sales channel. Fulfill orders and ship products from multiple warehouses, brick-and-mortar stores, distribution centers, and drop shipping to complete orders with a focus on balanced inventory, shipping costs, and more.
 

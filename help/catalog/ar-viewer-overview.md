@@ -1,8 +1,8 @@
 ---
-title: "[!DNL AR Viewer] for Adobe Commerce"
-description: "Learn how the [!DNL AR Viewer] could benefit your Adobe Commerce instance and how to successfully onboard and setup the extension."
+title: '[!DNL AR Viewer] for Adobe Commerce'
+description: Learn how the [!DNL AR Viewer] could benefit your Adobe Commerce instance and how to successfully onboard and setup the extension.
+exl-id: 9f9f3ff3-2402-4f70-9fc7-031dd2bb3916
 ---
-
 # [!DNL AR Viewer] for Adobe Commerce
 
 Augmented reality (AR) describes user experiences that add 2D or 3D elements to the live view from a device's camera in a way that makes those elements appear to inhabit the real world.
