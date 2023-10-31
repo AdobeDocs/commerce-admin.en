@@ -88,13 +88,13 @@ Adobe's HIPAA-Ready Services is technically a composer metapackage `magento/hipa
 
    All modules prefixed with `Magento_Hipaa` must be in the enabled modules section.
 
-## Feature enhancements with HIPAA-readiness
+## Feature enhancements for HIPAA-readiness
 
 The `magento/hipaa-ee` package introduces some changes and enhancements to the base Commerce product. The following sections provide details about these changes and how they alter the base product.
 
 ### Action Logs
 
-Audit Log is one of the HIPAA requirements. In Adobe Commerce, the [Action Logs](https://experienceleague.adobe.com/docs/commerce-admin/systems/action-logs/action-log.html?lang=en) feature records every change made by an Admin user who works in your store. To meet HIPAA requirements about Audit Log, there are changes to the feature to record all Admin user and customer actions performed through the Admin UI and through API calls.
+Audit Logging is a HIPAA requirement. In Adobe Commerce, the [Action Logs](https://experienceleague.adobe.com/docs/commerce-admin/systems/action-logs/action-log.html?lang=en) feature records every change made by an Admin user who works in your store. To meet HIPAA requirements about Audit Log, there are changes to the feature to record all Admin user and customer actions performed through the Admin UI and through API calls.
 
 #### Action Logs report  
 
@@ -182,7 +182,7 @@ None of the SaaS services offered for Adobe Commerce are available under the HIP
 ### Disabled guest checkout by default
 
 - Guest checkout presents a potential risk for various aspects of HIPAA including logging, access control, PHI hygiene and lineage, and potentially more.
-- Guest Checkout is disabled by default in the HIPAA-readiness product module, but can be enabled my merchants at their own risk.
+- Guest Checkout is disabled by default in the HIPAA-readiness module, but can be enabled my merchants at their own risk.
 
 ### Disabled newsletter feature by default
 
