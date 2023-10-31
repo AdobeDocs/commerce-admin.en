@@ -20,7 +20,7 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 
 *November 13, 2023*
 
-[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.7-beta releases.
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.6-p3 release.
 
 The B2B v1.5.0-beta release includes new features, quality improvements, and bug fixes.
 
