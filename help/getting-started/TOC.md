@@ -55,7 +55,6 @@ recommendations: noDisplay
   + [Store details](store-details.md)
   + [Storefront branding](storefront-branding.md)
   + [Prelaunch checklist](prelaunch-checklist.md)
-
 + Standard reporting  {#reporting}
   + [Reports menu](reports-menu.md)
   + [Marketing reports](marketing-reports.md)
