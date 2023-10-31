@@ -32,6 +32,8 @@ The B2B v1.5.0-beta release includes new features, quality improvements, and bug
 
 - **Rename Quote**<!--B2B-2596-->—Buyers can now change a quote name from the Quote detail page by selecting the **[!UICONTROL Rename]** option. This option is available to authorized buyers when they are editing the quote. Name change events are recorded in the Quote History Log.
 
+- **Duplicate Quote**<!--B2B-2701-->—Buyers and sellers can now create a new quote by copying an existing quote. A quote can be copied from the Quote list view by selecting [!UICONTROL Create Copy] from the line item [!UICONTROL Select] menu for the quote, or from the Quote detail view by selecting the [!UICONTROL Create Copy] action.
+
 - **Line item discount locking**<!--B2B-2597-->—During quote negotiation, sellers can use line item discount locking for more flexibility when applying discounts. For example, a Seller can apply a special line item discount to an item and lock the item to prevent further discounting. When an item is locked, the item price price cannot be updated when a quote-level discount is applied.
 
 ![New](../assets/new.svg)**Company Management**<!--B2B-2901-->—Merchants can now view and manage Adobe Commerce companies as hierarchical organizations by assigning companies to designated parent companies. After a company is assigned to a parent, the parent company administrator can manage the company account. Only authorized Admin users can add and manage company assignments.
