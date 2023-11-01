@@ -46,11 +46,11 @@ You can also use the [Actions control](account-company-manage.md) to approve mul
 
 ## Company status
 
-| Status           | Description                                                                                                                  |
-|------------------|------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Active] | The company is approved and can be managed from the storefront by the company administrator.                                 |
-| [!UICONTROL Pending Approval] | A request to create a company account was submitted from the storefront, but is not yet reviewed.                            |
-| [!UICONTROL Rejected] | The request to create a company account was rejected by the store administrator.                                             |
-| [!UICONTROL Blocked]| The company account is no longer in good standing, and the customer can access the account from the storefront, but cannot but cannot make purchases. |
+| Status           | Description                                                                                                                                |
+|------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Active] | The company is approved and can be managed from the storefront by the company administrator.                                               |
+| [!UICONTROL Pending Approval] | A request to create a company account was submitted from the storefront, but is not yet reviewed.                                          |
+| [!UICONTROL Rejected] | The request to create a company account was rejected by the store administrator.                                                           |
+| [!UICONTROL Blocked]| The company account is no longer in good standing, the customer still can access the account from the storefront, but cannot make purchases. |
 
 {style="table-layout:auto"}
