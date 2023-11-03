@@ -11,36 +11,40 @@ hidefromtoc: yes
 
 The process of assigning a company to a parent company in the Admin can only be done when the companies have already been created in the Admin.
 
->[!IMPORTANT]
->
-> The **Company Hierarchy** view for a parent company appears as empty.
-
 ## Assign companies to a parent company
 
 1. On the _Admin_ sidebar, navigate to **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-    ![Companies Grid](./assets/companies-grid.png){width="700" zoomable="yes"}
+    ![Companies Grid](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
-1. Click **[!UICONTROL Edit]** in your **[!UICONTROL Companies]** view under the **[!UICONTROL Actions]** column:
+1. Click **[!UICONTROL Edit]**.
 
-    ![New Company](./assets/company-create-admin.png){width="700" zoomable="yes"}
+    ![New Company](./assets/company-update.png){width="700" zoomable="yes"}
 
-1. You can **[!UICONTROL Assign Companies]** by selecting one company via the line item. To assign multiple companies use the **[!UICONTROL Actions]** control.
+1. Expand the **[!UICONTROL Company Hierarchy]** view.
+
+1. You can **Select All on This Page** or one specific company line item and click **[!UICONTROL Assign Selected Companies]**.
 
 1. Click **[!UICONTROL Assign]** on the pop-up modal to confirm selection.
+
+>[!IMPORTANT]
+>
+> The **[!UICONTROL Company Hierarchy]** view for a parent company appears as empty.
 
 ## Unassign companies to a parent company
 
 1. On the _Admin_ sidebar, navigate to **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-    ![Companies Grid](./assets/companies-grid.png){width="700" zoomable="yes"}
+    ![Companies Grid](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
-1. Click **[!UICONTROL Edit]** in your **[!UICONTROL Companies]** view under the **[!UICONTROL Actions]** column:
+1. Click **[!UICONTROL Edit]**.
 
-    ![New Company](./assets/company-create-admin.png){width="700" zoomable="yes"}
+    ![New Company](./assets/company-update.png){width="700" zoomable="yes"}
 
-1. You can **[!UICONTROL Unassign Companies]** by selecting one company via the line item. To unassign multiple companies use the **[!UICONTROL Actions]** selector.
+1. Expand the **[!UICONTROL Company Hierarchy]** view.
+
+1. Click **[!UICONTROL Select]** and choose **[!UICONTROL Unassign from parent]** from the dropdown selector.
+
+    ![New Company](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
 
 1. Click **[!UICONTROL Unassign]** on the pop-up modal to confirm selection.
-
-
