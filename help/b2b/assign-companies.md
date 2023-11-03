@@ -27,10 +27,6 @@ The process of assigning a company to a parent company in the Admin can only be 
 
 1. Click **[!UICONTROL Assign]** on the pop-up modal to confirm selection.
 
->[!IMPORTANT]
->
-> The **[!UICONTROL Company Hierarchy]** view for a parent company appears as empty.
-
 ## Unassign companies to a parent company
 
 1. On the _Admin_ sidebar, navigate to **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
