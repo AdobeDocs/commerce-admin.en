@@ -23,6 +23,8 @@ The process of assigning a company to a parent company in the Admin can only be 
 
 1. Expand the **[!UICONTROL Company Hierarchy]** view and click **[!UICONTROL Assign Companies]**.
 
+    ![New Company](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
+
 1. You can **Select All on This Page** or one specific company line item and click **[!UICONTROL Assign Selected Companies]**.
 
 1. Click **[!UICONTROL Assign]** on the pop-up modal to confirm selection.
