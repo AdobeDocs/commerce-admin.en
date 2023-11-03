@@ -10,7 +10,7 @@ The _[!UICONTROL Companies]_ page lists all current company accounts, regardless
 
 The _[!UICONTROL Actions]_ control above the grid can be used to apply an action to multiple company records. For example, rather than approving each individual company request, you can select multiple requests and activate the accounts in a single action. The actions that are available depend on the [permissions](../systems/permissions.md) for the role that is assigned to your Admin user account.
 
-![Companies Grid](./assets/companies-grid.png){width="700" zoomable="yes"}
+![Companies Grid](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
 ## Company role resources
 

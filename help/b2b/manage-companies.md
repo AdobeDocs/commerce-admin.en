@@ -62,14 +62,6 @@ The **Company Hierarchy** view provides information about any company relationsh
 
 {style="table-layout:auto"}
 
-### Show/Hide columns
-
-1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Companies]** > **[!UICONTROL Columns]** button.
-1. Click the **[!UICONTROL Column]** .
-1. To customize which columns that you see in this view, check or uncheck columns in the list.
-
-The **Company Hierarchy** view immediately shows any changes you made in the Column selector. The column preferences are saved and remain in effect if you navigate away from the view.
-
 ## Apply an action
 
 The following actions can be applied to either single or multiple company lines.
@@ -86,12 +78,9 @@ From the **Company Hierarchy** view, you can filter the companies shown in the l
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 1. Click the **[!UICONTROL Filters]** selector.
-1. Complete as many filters as necessary to describe the record you want to find.
+1. Complete as many filters as necessary to describe the company you want to find.
 1. Click **[!UICONTROL Apply filters]** to apply desired filters.
 
 ### Search by keyword
 
-Use the search filter to find companies in the **Company Hierarchy** view by keyword.
-
-* If you search for a parent company, the search returns the parent company and all assigned companies.
-* If you search for a child company, the search returns only that specific company.
+Use the search filter to find parent companies in the **Company Hierarchy** view by keyword. When you search for a parent company, the search returns the parent company and all assigned companies. If you search for a child company, the search returns only that specific company.
