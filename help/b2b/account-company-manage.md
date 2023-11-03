@@ -267,6 +267,25 @@ The following columns are available by changing the [column layout](../getting-s
 
 {style="table-layout:auto"}
 
+#### [!UICONTROL Company Hierarchy]
+
+|Columns|Description|
+|--- |--- |
+|[!UICONTROL Company Name]|The full name of the company.|
+|[!UICONTROL Company Type]|The type of the company. Options: <br/>**[!UICONTROL Company]** - By default new companies are created as single companies. <br/>**[!UICONTROL Parent]** - The company is a parent company of other companies. <br/>**[!UICONTROL Child]** - This company is related to a parent company.|
+|[!UICONTROL Parent]|Shows the parent company for this specific company.|
+|[!UICONTROL Company Email]|The email address that is associated with the company account.|
+|[!UICONTROL Phone Number]|The primary phone number of the company.|
+|[!UICONTROL State/Province]|The state or province where the company is registered to conduct business.|
+|[!UICONTROL City]|The city where the company is registered to conduct business.|
+|[!UICONTROL Customer Group]|(Admin Only) Indicates the [customer group](../customers/customer-groups.md) or [shared catalog](catalog-shared.md) that is assigned to the company.|
+|[!UICONTROL Company Admin]|The full name of the company administrator.|
+|[!UICONTROL Action]|The list of possible actions for that company line.|
+
+{style="table-layout:auto"}
+
+For more information, see [Company Management](manage-companies.md).
+
 #### [!UICONTROL Company Admin]
 
 |Field|Description|

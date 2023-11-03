@@ -11,6 +11,10 @@ hidefromtoc: yes
 
 The process of assigning a company to a parent company in the Admin can only be done when the companies have already been created in the Admin.
 
+>[!IMPORTANT]
+>
+> The **Company Hierarchy** view for a parent company appears as empty.
+
 ## Assign companies to a parent company
 
 1. On the _Admin_ sidebar, navigate to **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.

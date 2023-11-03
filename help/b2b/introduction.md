@@ -24,7 +24,9 @@ For more information, see [Company Accounts](account-companies.md).
 
 ## Company management
 
-Company management streamlines business operations for companies with complex organizational structures. Admin users can create a company hierarchy by assigning companies to a designated parent company. Then, the parent company administrator can view and manage the assigned companies as a group.
+Company management helps companies with complex organizational structures to set a [!UICONTROL Company Hierarchy].
+
+**[!UICONTROL Company Hierarchy]** allows Commerce B2B admin users with the appropriate permissions to create a parent company and assign companies, then this parent company administrator can manage the company accounts for the parent and all assigned companies.
 
 For more information, see [Company Management](manage-companies.md).
 
