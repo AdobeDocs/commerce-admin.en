@@ -9,9 +9,7 @@ hidefromtoc: yes
 
 # Company management
 
-The Company management feature streamlines business operations for companies with complex organizational structures. B2B company administrators can create a company hierarchy by assigning companies to a designated parent company. Then, the parent company administrator can view and manage the assigned companies as a group.
-
-From a business point of view, the controlling or owning company is generally called a parent company. While many parent companies completely own their related companies, a parent company can also be just one of the owners or a member as well. In most cases, however, the parent company is the majority shareholder. Although the parent and related companies are connected, they are distinct legal entities.
+The Company management feature streamlines business operations for companies with complex organizational structures. Admin users can create company hierarchy by assigning companies to a designated parent company.
 
 Each company contains unique identifiers, such as:
 
@@ -20,24 +18,30 @@ Each company contains unique identifiers, such as:
 * Company type
 * Company email
 * Phone number
-* Country
-* State/Province
-* City
-* Company admin
+
+The _[!UICONTROL Companies]_ page lists all current companies, regardless of status. The standard [workplace controls](../getting-started/admin-workspace.md) can be used to filter the list, change the [column layout](../getting-started/admin-grid-controls.md), save views, or export data.
+
+The _[!UICONTROL Actions]_ control above the grid can be used to apply an action to multiple company line items. The actions that are available depend on the [permissions](../systems/permissions.md) for the role that is assigned to your Admin user account.
 
 ## Company Hierarchy
 
 In the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-![Companies Grid](./assets/companies-grid.png){width="700" zoomable="yes"}
+![Companies Grid](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
 The [!UICONTROL Companies] grid lists all companies regardless of status. 
 
-When a company administrator has created a new company, you can select the dropdown called **Company Hierarchy** to view the parent company and its related companies. You can also manage the hierarchy by [assigning or unassigning companies](assign-companies.md).
+Company hierarchy allows Commerce B2B admin users with the appropriate permissions to create a parent company  and assign companies, then this parent company admin can manage the company accounts for the parent and all assigned companies.
+
+You can also manage the hierarchy by [assigning or unassigning companies](assign-companies.md).
 
 >[!IMPORTANT]
 >
 > The **Company Hierarchy** view for a parent company appears as empty.
+
+The standard [workplace controls](../getting-started/admin-workspace.md) can be used to filter the list, change the [column layout](../getting-started/admin-grid-controls.md), save views, and export data.
+
+The _[!UICONTROL Actions]_ control above the grid can be used to apply an action to multiple company records. For example, rather than approving each individual company request, you can select multiple requests and activate the accounts in a single action. The actions that are available depend on the [permissions](../systems/permissions.md) for the role that is assigned to your Admin user account.
 
 ## Column descriptions
 
@@ -87,14 +91,7 @@ From the **Company Hierarchy** view, you can filter the companies shown in the l
 
 ### Search by keyword
 
-You can search by keyword in the **Company Hierarchy** grid view. If you are searching for a parent company, the search returns the parent company and all related companies.
+Use the search filter to find companies in the **Company Hierarchy** view by keyword.
 
-## Export report
-
-Download a file with all the companies listed in this view.
-
-1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Companies]** > **[!UICONTROL Export]**.
-1. You can select an specific file to export the report as:
-   * .csv file
-   * Excel (xml) file
-1. Click the **[!UICONTROL Export]** button.
+* If you search for a parent company, the search returns the parent company and all assigned companies.
+* If you search for a child company, the search returns only that specific company.

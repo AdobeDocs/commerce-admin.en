@@ -30,7 +30,6 @@ The person who sets up a company account from the storefront is assigned a role 
    - Completes the required fields:
 
       - **[!UICONTROL Company Name]**
-      - **[!UICONTROL Company Type]**
       - **[!UICONTROL Company Email]**
 
    - Completes the remaining fields, as applicable:
@@ -90,7 +89,6 @@ The process of creating a company from the Admin is essentially the same as from
    - Complete these required fields:
 
       - **[!UICONTROL Company Name]**
-      - **[!UICONTROL Company Type]**
       - **[!UICONTROL Company Email]**
 
    - If you are not ready for the account to go live, set **[!UICONTROL Status]** to `Pending Approval`. (Set to `Active` by default.)

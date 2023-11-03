@@ -24,7 +24,7 @@ For more information, see [Company Accounts](account-companies.md).
 
 ## Company management
 
-Company management streamlines business operations for companies with complex organizational structures. B2B company administrators can create a company hierarchy by assigning companies to a designated parent company. Then, the parent company administrator can view and manage the assigned companies as a group.
+Company management streamlines business operations for companies with complex organizational structures. Admin users can create a company hierarchy by assigning companies to a designated parent company. Then, the parent company administrator can view and manage the assigned companies as a group.
 
 For more information, see [Company Management](manage-companies.md).
 
