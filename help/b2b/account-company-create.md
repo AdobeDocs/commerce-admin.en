@@ -223,6 +223,10 @@ The process of creating a company from the Admin is essentially the same as from
 
 ### [!UICONTROL Company Hierarchy]
 
+On initial company creation, the Company Hierarchy page control is empty when you expand it. After a company is created, Admin users with appropriate permissions can use the Company Hierarchy section to build a parent company organization by editing the designated parent company and assigning related companies.
+
+If a company has been added to a hierarchy, the Company Hierarchy view displays the parent company and all assigned companies in the grid. See [Company management](manage-companies.md) for more information.
+
 |Field|Description|
 |--- |--- |
 |[!UICONTROL Company ID]|The ID number of the company.|

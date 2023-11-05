@@ -9,7 +9,7 @@ hidefromtoc: yes
 
 # Company management
 
-The Company management feature streamlines business operations for companies with complex organizational structures.
+The Company management capability streamlines business operations for companies with complex organizational structures. Admin users can manage companies as a group by building a company hierarchy that assigns related companies to a designated parent company. This assignment allows the parent company administrator to manage their own account and the company accounts for all assigned companies.
 
 In the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
@@ -21,7 +21,7 @@ The _[!UICONTROL Actions]_ control above the grid can be used to apply an action
 
 ## [!UICONTROL Company Hierarchy]
 
-Admin users can create a company hierarchy by assigning companies to a designated parent company.
+On initial company creation, the Company Hierarchy page control is empty when you expand it. After a company is created, Admin users with appropriate permissions can use the Company Hierarchy section to build a parent company organization by editing the designated parent company and assigning related companies.
 
 ![Companies Hierarchy Grid](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
 
@@ -34,9 +34,7 @@ The **[!UICONTROL Company Hierarchy]** view provides information about any compa
 |Columns|Description|
 |--- |--- |
 |[!UICONTROL Company ID]|The ID number of the company.|
-|[!UICONTROL Company Name]|The full name of the company.|
-|[!UICONTROL Company Type]|The type of the company. Options: <br/>**[!UICONTROL Company]** - By default new companies are created as single companies. <br/>**[!UICONTROL Parent]** - The company is a parent company of other companies. <br/>**[!UICONTROL Child]** - This company is related to a parent company.|
-|[!UICONTROL Parent]|Shows the parent company for this specific company.|
+|[!UICONTROL Company Name]|The full name of the company. Options: <br/>- A `current company indicator` appears if company is a parent company.<br/>- A `child company indicator` appears if company is a child company.|
 |[!UICONTROL Company Email]|The email address that is associated with the company account.|
 |[!UICONTROL Phone Number]|The primary phone number of the company.|
 |[!UICONTROL State/Province]|The state or province where the company is registered to conduct business.|

@@ -12,9 +12,9 @@ With the [installation](install.md) and [enablement](enable-basic-features.md) o
 
 ## Company accounts
 
-The Company account component is a key entity within B2B on which all other features are in some way dependent. It allows joining multiple buyers that belong within a single company into a single company account (or corporate account). The company administrator can build a company structure (divisions, subdivisions, and users) that reflects the operational model for the company and provide different user roles and permissions for company members. This structure allows the company administrator to control user activity for the company account: ordering, quoting, purchasing, access to company credit information or profile, and so on. From the Admin, the Commerce site administrator can configure how the company operates on the website. Configuration determines the B2B features available to company users, including payment methods, pricing levels, the ability to negotiate prices using quotes, the ability to create requisition lists, and more.
+The Company account component is a key entity within B2B on which all other features are in some way dependent. It allows joining multiple buyers that belong within a single company into a single company account (or corporate account). The company administrator can build a company structure (divisions, subdivisions, and users) that reflects the operational model for the company and provide different user roles and permissions for company members. This structure allows the company administrator to control user activity for the company account: ordering, quoting, purchasing, access to company credit information or profile, and so on.
 
-This company structure is an excellent opportunity to improve the performance of a company.
+From the Admin, the Commerce site administrator can configure how the company operates on the website. Configuration determines the B2B capabilities available for company users, including payment methods, pricing levels, the ability to negotiate prices using quotes, the ability to create requisition lists, and more.
 
 For more information, see [Company Accounts](account-companies.md).
 
@@ -24,9 +24,9 @@ For more information, see [Company Accounts](account-companies.md).
 
 ## Company management
 
-Company management helps companies with complex organizational structures to set a [!UICONTROL Company Hierarchy].
+Company management helps merchant administrators streamline administration and management of B2B organizations with complex operational models.
 
-**[!UICONTROL Company Hierarchy]** allows Commerce B2B admin users with the appropriate permissions to create a parent company and assign companies.
+From the Admin, users with appropriate permissions can build a **[!UICONTROL Company Hierarchy]** that reflects the organizational structure of a business enterprise comprised of multiple companies. This hierarchy allows them to view and manage companies as a group. For example, the administrator can designate a parent company, and assign all companies that operate as subsidiaries of the parent company. Then, the parent company administrator can view and manage company accounts for all assigned companies.
 
 For more information, see [Company Management](manage-companies.md).
 
