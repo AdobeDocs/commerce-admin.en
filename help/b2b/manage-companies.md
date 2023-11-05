@@ -9,19 +9,21 @@ hidefromtoc: yes
 
 # Company management
 
-The Company management feature streamlines business operations for companies with complex organizational structures. Admin users can create a company hierarchy by assigning companies to a designated parent company.
+The Company management feature streamlines business operations for companies with complex organizational structures.
+
+In the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+
+![Companies Grid](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
 The _[!UICONTROL Companies]_ page lists all current companies, regardless of status. The standard [workplace controls](../getting-started/admin-workspace.md) can be used to filter the list, change the [column layout](../getting-started/admin-grid-controls.md), save views, or export data.
 
 The _[!UICONTROL Actions]_ control above the grid can be used to apply an action to multiple company line items. The actions that are available depend on the [permissions](../systems/permissions.md) for the role that is assigned to your Admin user account.
 
-![Companies Grid](./assets/companies-grid-view.png){width="700" zoomable="yes"}
-
 ## [!UICONTROL Company Hierarchy]
 
-In the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+Admin users can create a company hierarchy by assigning companies to a designated parent company.
 
-![Companies Grid](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
+![Companies Hierarchy Grid](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
 
 See [assign and unassign companies](assign-companies.md) for more information on available actions in this view.
 
@@ -31,6 +33,7 @@ The **[!UICONTROL Company Hierarchy]** view provides information about any compa
 
 |Columns|Description|
 |--- |--- |
+|[!UICONTROL Company ID]|The ID number of the company.|
 |[!UICONTROL Company Name]|The full name of the company.|
 |[!UICONTROL Company Type]|The type of the company. Options: <br/>**[!UICONTROL Company]** - By default new companies are created as single companies. <br/>**[!UICONTROL Parent]** - The company is a parent company of other companies. <br/>**[!UICONTROL Child]** - This company is related to a parent company.|
 |[!UICONTROL Parent]|Shows the parent company for this specific company.|
@@ -46,13 +49,8 @@ The **[!UICONTROL Company Hierarchy]** view provides information about any compa
 
 ### Filter info
 
-From the **Company Hierarchy** view, you can filter the companies shown in the list by selecting a filter criteria.
+From the **Company Hierarchy grid** you can filter by **Company Type** to show specific companies in the list.
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
-1. Click the **[!UICONTROL Filters]** selector.
-1. Complete as many filters as necessary to describe the company you want to find.
-1. Click **[!UICONTROL Apply filters]** to apply desired filters.
+### Search
 
-### Search by keyword
-
-Use the search filter to find parent companies in the **Company Hierarchy** view by keyword. When you search for a parent company, the search returns the parent company and all assigned companies. If you search for a child company, the search returns only that specific company.
+Use the search function to find the companies in the **Companies** view by keyword. It will find the company by searching the specified keyword on the text in Company Name column and Parent columns.

@@ -26,7 +26,7 @@ For more information, see [Company Accounts](account-companies.md).
 
 Company management helps companies with complex organizational structures to set a [!UICONTROL Company Hierarchy].
 
-**[!UICONTROL Company Hierarchy]** allows Commerce B2B admin users with the appropriate permissions to create a parent company and assign companies, then this parent company administrator can manage the company accounts for the parent and all assigned companies.
+**[!UICONTROL Company Hierarchy]** allows Commerce B2B admin users with the appropriate permissions to create a parent company and assign companies.
 
 For more information, see [Company Management](manage-companies.md).
 
