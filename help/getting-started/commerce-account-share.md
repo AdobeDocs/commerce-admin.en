@@ -90,3 +90,7 @@ The following instructions are written from the perspective of a shared user who
 1. Find the account to be revoked under _[!UICONTROL Managing Users & Permissions]_ and click **[!UICONTROL Delete]**.
 
 1. When prompted to confirm, click **[!UICONTROL Delete User]**.
+
+ >[!NOTE]
+ >
+ >You cannot delete users with the Share Name of _Cloud Shared Access from MAG[XYZ]_ in this interface. Please refer to [How to delete users who were granted shared access via a Cloud project?](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users) for more details.
