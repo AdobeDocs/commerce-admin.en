@@ -6,9 +6,11 @@ feature: B2B, Companies, Configuration
 ---
 # Manage company accounts
 
-The _[!UICONTROL Companies]_ page lists all current company accounts, regardless of status. Any pending requests for approval appear at the top of the list. The standard [workplace controls](../getting-started/admin-workspace.md) can be used to filter the list, change the [column layout](../getting-started/admin-grid-controls.md), save views, and export data.
+The _[!UICONTROL Companies]_ page lists all current company accounts, regardless of status. Any pending requests for approval appear at the top of the list. The standard [workplace controls](../getting-started/admin-workspace.md) can be used to filter the list, change the [column layout](../getting-started/admin-grid-controls.md), save views, or export data.
 
 The _[!UICONTROL Actions]_ control above the grid can be used to apply an action to multiple company records. For example, rather than approving each individual company request, you can select multiple requests and activate the accounts in a single action. The actions that are available depend on the [permissions](../systems/permissions.md) for the role that is assigned to your Admin user account.
+
+Use the _[!UICONTROL Search]_ function to find companies in the **Companies** grid by keyword. It will find the company by searching the specified keyword in the **Company Name** and **Parent** columns. You can filter by **Company Type** to show parent companies and its related companies, or only show Child companies.
 
 ![Companies Grid](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
@@ -126,7 +128,7 @@ Method 2: **Full edit**
 
 1. Make the necessary changes to the company information.
 
-   For field descriptions, see [Manage Company Accounts](account-company-manage.md).
+   For field descriptions, see [Create a company account](account-company-create.md).
 
 1. When complete, click **[!UICONTROL Save]**.
 
@@ -166,6 +168,14 @@ You can learn about managing company accounts by watching this video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12)
 
+## Company management
+
+After a company is created, Admin users with appropriate permissions can use the [!UICONTROL Company Hierarchy] section to build a parent company organization by editing the designated parent company and assigning related companies.
+
+If a company has been added to a hierarchy, the [!UICONTROL Company Hierarchy] grid displays the parent company and all assigned companies in the grid. 
+
+See [Company Management](manage-companies.md) for more information.
+
 ## Company options and columns
 
 The following sections provide a reference for the available actions, options, and displayed information available for managing company accounts.
@@ -191,6 +201,8 @@ The following sections provide a reference for the available actions, options, a
 |[!UICONTROL Select]|Checkboxes used to select company records that are to be subjects of an action or use the selection control in the column header to select/deselect all.|
 |[!UICONTROL ID]|A unique numeric identifier that is assigned when the request to create a company is submitted.|
 |[!UICONTROL Company Name]|The company name is entered when the company account is first created, and can be a shortened version of the full legal name.|
+|[!UICONTROL Company Type]|The type of [company](manage-companies.md). Options: <br/>**[!UICONTROL Company]** - By default new companies are created as single companies. <br/>**[!UICONTROL Parent]** - The company is a parent company of other companies. <br/>**[!UICONTROL Child]** - This company is related to a parent company. |
+|[!UICONTROL Parent]|Shows the parent company for this specific company line.|
 |[!UICONTROL Company Email]|The email address that is associated with the company account.|
 |[!UICONTROL Phone Number]|The primary phone number of the company.|
 |[!UICONTROL Country]|The country where the company is registered to conduct business.|
@@ -282,8 +294,6 @@ The following columns are available by changing the [column layout](../getting-s
 |[!UICONTROL Action]|The list of possible actions for that company line.|
 
 {style="table-layout:auto"}
-
-For more information, see [Company Management](manage-companies.md).
 
 #### [!UICONTROL Company Admin]
 

@@ -80,7 +80,7 @@ The person who sets up a company account from the storefront is assigned a role 
 
 The process of creating a company from the Admin is essentially the same as from the storefront, but with additional fields.
 
-![New Company](./assets/company-create-admin.png){width="700" zoomable="yes"}
+![New Company](./assets/company-update.png){width="700" zoomable="yes"}
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
@@ -108,6 +108,8 @@ The process of creating a company from the Admin is essentially the same as from
       The comments are visible only from the Admin.
 
    ![Account Information](./assets/company-create-account-information-admin.png){width="700" zoomable="yes"}
+
+1. On initial company creation, the _[!UICONTROL Company Hierarchy]_ grid is empty when you expand it. see [Company Management](manage-companies.md) for more information.
 
 1. In the _[!UICONTROL Legal Address]_ section, complete these required fields:
 
@@ -222,10 +224,6 @@ The process of creating a company from the Admin is essentially the same as from
 {style="table-layout:auto"}
 
 ### [!UICONTROL Company Hierarchy]
-
-On initial company creation, the Company Hierarchy page control is empty when you expand it. After a company is created, Admin users with appropriate permissions can use the Company Hierarchy section to build a parent company organization by editing the designated parent company and assigning related companies.
-
-If a company has been added to a hierarchy, the Company Hierarchy view displays the parent company and all assigned companies in the grid. See [Company management](manage-companies.md) for more information.
 
 |Field|Description|
 |--- |--- |
