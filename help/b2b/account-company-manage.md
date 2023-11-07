@@ -10,7 +10,7 @@ The _[!UICONTROL Companies]_ page lists all current company accounts, regardless
 
 The _[!UICONTROL Actions]_ control above the grid can be used to apply an action to multiple company records. For example, rather than approving each individual company request, you can select multiple requests and activate the accounts in a single action. The actions that are available depend on the [permissions](../systems/permissions.md) for the role that is assigned to your Admin user account.
 
-Use the _[!UICONTROL Search]_ function to find companies in the **Companies** grid by keyword. It will find the company by searching the specified keyword in the **Company Name** and **Parent** columns. You can filter by **Company Type** to show parent companies and its related companies, or only show Child companies.
+Use the _[!UICONTROL Search]_ function to find companies in the **Companies** grid by keyword. It will find the company by searching the specified keyword in the **Company Name** and **Parent** columns. You can filter by **Company Type** to show parent companies and their related companies, or only show child companies.
 
 ![Companies Grid](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
