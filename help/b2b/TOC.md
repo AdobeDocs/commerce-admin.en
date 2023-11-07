@@ -28,6 +28,9 @@ recommendations: noDisplay
     + [Company user accounts](account-company-users.md)
     + [Company roles and permissions](account-company-roles-permissions.md)
     + [Define company structure](account-company-structure.md)
++ Company management {#company-management}
+    + [Overview](manage-companies.md)
+    + [Assign or Unassign companies](assign-companies.md)
 + Shared catalogs {#shared-catalogs}
   + [Overview](catalog-shared.md)
   + Define shared catalogs {#define}
