@@ -109,7 +109,7 @@ The process of creating a company from the Admin is essentially the same as from
 
    ![Account Information](./assets/company-create-account-information-admin.png){width="700" zoomable="yes"}
 
-1. On initial company creation, the _[!UICONTROL Company Hierarchy]_ grid is empty when you expand it. see [Company Management](manage-companies.md) for more information.
+1. On initial company creation, the _[!UICONTROL Company Hierarchy]_ grid is empty when you expand it. After you save the company, you can include it in a company hierarchy. See [Company Management](manage-companies.md).
 
 1. In the _[!UICONTROL Legal Address]_ section, complete these required fields:
 
