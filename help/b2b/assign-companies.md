@@ -38,10 +38,7 @@ In the Admin, you manage company assignments by editing a company, and then usin
 
     ![New Company](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
 
-    When you expand this view, you can see existing company assignments, if any exist:
-    
-    - A `current company indicator` appears if company is a parent company.
-    - A `child company indicator` appears if company is a child company.
+    When you expand this view, you can see existing company assignments, if any exist. The parent company always appear on top of the _[!UICONTROL Company Hierarchy]_ grid with a `current company indicator` shown in the company line being edited.
 
 1. Companies available for assignment are listed in the grid. Select the companies to assign, then select **[!UICONTROL Assign Selected Companies]**.
 

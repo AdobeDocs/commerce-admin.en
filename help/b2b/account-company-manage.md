@@ -284,7 +284,7 @@ The following columns are available by changing the [column layout](../getting-s
 |Columns|Description|
 |--- |--- |
 |[!UICONTROL Company ID]|The ID number of the company.|
-|[!UICONTROL Company Name]|The full name of the company. Options: <br/>- A `current company indicator` appears if company is a parent company.<br/>- A `child company indicator` appears if company is a child company.|
+|[!UICONTROL Company Name]|The full name of the company. <br/>A `current company indicator` appears in the company line being edited.|
 |[!UICONTROL Company Email]|The email address that is associated with the company account.|
 |[!UICONTROL Phone Number]|The primary phone number of the company.|
 |[!UICONTROL State/Province]|The state or province where the company is registered to conduct business.|
