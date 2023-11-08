@@ -153,3 +153,5 @@ After the new owner successfully transfers their Adobe account to the current (n
 1. Enter the confirmation code sent to the new owner.
 
 1. Click **[!UICONTROL Verify]**.
+
+1. **Submit a Support request** letting us know that you have updated the Account Owner's email address as additional steps will have to be performed on our end, such as updating the email address on your [Commerce Marketplace](https://commercemarketplace.adobe.com/) profile
