@@ -1,9 +1,9 @@
 ---
-title: Add a Stock
+title: Add an inventory tock
 description: Learn how to add a stock and map sources to sales channels (websites), providing a direct link to salable quantities and product inventories.
 exl-id: d0032ed7-c0d6-4654-b182-43a165e7dcf6
 ---
-# Add a Stock
+# Add a stock
 
 Stocks map your sources to sales channels (or websites), providing a direct link to salable quantities and product inventories.
 
@@ -13,7 +13,7 @@ After adding sources, you must prioritize the order for the sources from top (fi
 
 ![New Stock](assets/inventory-stock-new.png){width="600" zoomable="yes"}
 
-## Add the stock
+## Add the inventory stock
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_ > **[!UICONTROL Stock]**.
 

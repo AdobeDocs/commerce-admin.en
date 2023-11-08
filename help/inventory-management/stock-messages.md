@@ -1,10 +1,10 @@
 ---
-title: Stock Message Scenarios
+title: Stock message scenarios
 description: Learn about the combination of configuration settings that control stock availability messages on product pages and in listings of products on catalog pages.
 exl-id: 63114305-e695-445b-91cd-9e0fb2729ec4
 feature: Inventory, Configuration
 ---
-# Stock Message Scenarios
+# Stock message scenarios
 
 You can use a combination of configuration settings to control stock availability messages on product pages and in listings of products on catalog pages.
 

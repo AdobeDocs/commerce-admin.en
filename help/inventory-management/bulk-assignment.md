@@ -1,5 +1,5 @@
 ---
-title: Bulk source assignment and unassignment
+title: Bulk inventory source assignment and unassignment
 description: Learn how to use the Assign Sources tool to manage source assignments for products.
 exl-id: 1f1e81a5-fb06-46b7-84ca-7feea4942093
 feature: Inventory, Products
