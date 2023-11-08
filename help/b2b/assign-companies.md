@@ -1,15 +1,14 @@
 ---
-title: Assign or unassign companies
-description: Learn how to assign or unassign companies in B2B.
+title: Manage the Company Hierarchy
+description: Build and manage company hierarchies to support B2B organizations with complex operational models.
 feature: B2B, Companies
 role: Admin
 hide: no
 hidefromtoc: no
 ---
+# Manage the [!UICONTROL Company Hierarchy]
 
-# Managing the [!UICONTROL Company Hierarchy]
-
-[!BADGE 1.5.0-beta]{type=Informative url="/help/release/release-notes/commerce/1-5-0-beta.md" tooltip="Available only for Beta program participants"}
+[!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Available only for Beta program participants"}
 
 Administrators can build a [!UICONTROL Company Hierarchy] by assigning related companies to a designated parent company, which is the company at the top of the organizational hierarchy.
 

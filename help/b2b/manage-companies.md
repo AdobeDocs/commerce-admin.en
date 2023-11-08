@@ -1,6 +1,6 @@
 ---
 title: Company management
-description: Learn about company management and how they function between companies in B2B.
+description: Streamline administration and management of B2B organizations with complex operational models.
 feature: B2B, Companies, Storefront
 role: Admin
 hide: no
@@ -9,7 +9,7 @@ hidefromtoc: no
 
 # Company management
 
-[!BADGE 1.5.0-beta]{type=Informative url="/help/release/release-notes/commerce/1-5-0-beta.md" tooltip="Available only for Beta program participants"}
+[!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Available only for Beta program participants"}
 
 The Company management capability streamlines business operations for companies with complex organizational structures. Admin users can manage companies as a group by building a company hierarchy that assigns related companies to a designated parent company. This assignment allows the parent company administrator to manage their own account and the company accounts for all assigned companies.
 

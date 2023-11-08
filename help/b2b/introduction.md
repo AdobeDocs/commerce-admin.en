@@ -24,6 +24,8 @@ For more information, see [Company Accounts](account-companies.md).
 
 ## Company management
 
+[!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Available only for Beta program participants"}
+
 Company management helps merchant administrators streamline administration and management of B2B organizations with complex operational models.
 
 From the Admin, users with appropriate permissions can build a **[!UICONTROL Company Hierarchy]** that reflects the organizational structure of a business enterprise comprised of multiple companies. This hierarchy allows them to view and manage companies as a group. For example, the administrator can designate a parent company, and assign all companies that operate as subsidiaries of the parent company. Then, the parent company administrator can view and manage company accounts for all assigned companies.
