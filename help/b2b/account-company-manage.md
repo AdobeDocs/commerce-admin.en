@@ -284,6 +284,8 @@ The following columns are available by changing the [column layout](../getting-s
 
 #### [!UICONTROL Company Hierarchy]
 
+[!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Available only for Beta program participants"}
+
 | Columns                     | Description                                                                                                                                          |
 |-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company ID]     | The ID number of the company.                                                                                                                        |
