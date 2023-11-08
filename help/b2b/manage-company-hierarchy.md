@@ -3,21 +3,23 @@ title: Company management
 description: Learn about company management and how they function between companies in B2B.
 feature: B2B, Companies, Storefront
 role: Admin
-hide: no
-hidefromtoc: no
+hide: yes
+hidefromtoc: yes
 ---
 
 # Company management
 
-[!BADGE 1.5.0-beta]{type=Informative url="/help/release/release-notes/commerce/1-5-0-beta.md" tooltip="Available only for Beta program participants"}
-
 The Company management capability streamlines business operations for companies with complex organizational structures. Admin users can manage companies as a group by building a company hierarchy that assigns related companies to a designated parent company. This assignment allows the parent company administrator to manage their own account and the company accounts for all assigned companies.
 
-1. In the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
-
-1. Open the company detail page in the Companies grid for the parent company by selecting the **[!UICONTROL Edit]** action.
+Build a company hierarchy from the Company detail page.
 
 ![Companies Grid](./assets/company-detail-view.png){width="700" zoomable="yes"}
+
+## Open the Company detail page
+
+1. From the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+
+1. Open the company detail page in the Companies grid for the parent company by selecting the **[!UICONTROL Edit]** action.
 
 See the [Manage company accounts](account-company-manage.md) for more information on the Companies grid.
 

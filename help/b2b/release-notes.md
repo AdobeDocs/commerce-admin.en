@@ -18,6 +18,8 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 
 ## B2B 1.5.0-beta
 
+{{$include /help/_includes/b2b-beta-note.md}}
+
 *November 13, 2023*
 
 [!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.6-p3 release.
@@ -32,13 +34,13 @@ The B2B v1.5.0-beta release includes new features, quality improvements, and bug
 
 - **Rename Quote**<!--B2B-2596-->—Buyers can now change a quote name from the Quote detail page by selecting the **[!UICONTROL Rename]** option. This option is available to authorized buyers when they are editing the quote. Name change events are recorded in the Quote History Log.
 
-- **Duplicate Quote**<!--B2B-2701-->—Buyers and sellers can now create a new quote by copying an existing quote. A copy is created from the Quote detail view by selecting  **[!UICONTROL Create Copy]**. 
+- **Duplicate Quote**<!--B2B-2701-->—Buyers and sellers can now create a new quote by copying an existing quote. A copy is created from the Quote detail view by selecting  **[!UICONTROL Create Copy]**.
 
 - **Line item discount locking**<!--B2B-2597-->—During quote negotiation, sellers can use line item discount locking for more flexibility when applying discounts. For example, a Seller can apply a special line item discount to an item and lock the item to prevent further discounting. When an item is locked, the item price price cannot be updated when a quote-level discount is applied.
 
-![New](../assets/new.svg)**Company Management**<!--B2B-2901-->—Merchants can now view and manage Adobe Commerce companies as hierarchical organizations by assigning companies to designated parent companies. After a company is assigned to a parent, the parent company administrator can manage the company account. Only authorized Admin users can add and manage company assignments.
+![New](../assets/new.svg)**Company Management**<!--B2B-2901-->—Merchants can now view and manage Adobe Commerce companies as hierarchical organizations by assigning companies to designated parent companies. After a company is assigned to a parent, the parent company administrator can manage the company account. Only authorized Admin users can add and manage company assignments. For detals, see [Manage company hierarchy](assign-companies.md).
 
-- On the Companies page, a new **[!UICONTROL Company Type]** field identifies parent and child companies. Merchants can filter the company view by company type, and manage companies using line item or bulk actions. 
+- On the Companies page, a new **[!UICONTROL Company Type]** field identifies parent and child companies. Merchants can filter the company view by company type, and manage companies using line item or bulk actions.
 
 - Merchants can add and manage company assignments from the new **[!UICONTROL Company Hierarchy]** section on the [!UICONTROL Company Account] page.
 
