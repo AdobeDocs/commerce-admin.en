@@ -17,7 +17,7 @@ This integration supports Commerce merchants with Admin users who have an Adobe 
 ## Prerequisites
 
 * Adobe Commerce 2.4.5 or later
-* An Adobe.com account with access to the [Adobe Admin Console](https://adminconsole.adobe.com/). 
+* An Adobe.com account with access to the [Adobe Admin Console](https://adminconsole.adobe.com/).
 
 The administrator who configures this integration needs the following credentials during module enablement:
 
@@ -25,7 +25,7 @@ The administrator who configures this integration needs the following credential
 * 2FA should be enforced on the Organization level in Adobe Admin Console to enable the module. Check [Authentication settings](https://helpx.adobe.com/enterprise/using/authentication-settings.html#two-step-verification).
 * Client ID
 * Client secret
-* Client ID and client secret are available after retrieving API keys in the [Adobe Developer Console](https://developer.adobe.com/).
+* Client ID and client secret are available after retrieving API keys from the [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/credentials/).
 
 Commerce Admin users must create an account with an Adobe ID to log in.
 
@@ -48,7 +48,7 @@ Membership in at least one IMS organization is required to enable this feature. 
 
 ### Step 2: Generate a new project, IMS API keys, and secret
 
-You must have an Adobe account to generate a new project and register it in IMS.
+To create projects for an organization, the Adobe Admin account for the organization must have the system administrator or developer role. See the [Developer Console Guide](https://developer.adobe.com/developer-console/docs/guides/projects/).
 
 1. Log in to [Adobe Developer Console](https://developer.adobe.com/).
 1. Go to the **[!UICONTROL Projects]** tab (adobe.io/projects) and click **[!UICONTROL Create a new project]**.
