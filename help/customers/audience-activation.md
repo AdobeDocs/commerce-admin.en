@@ -140,9 +140,9 @@ With audiences activated to your Adobe Commerce instance, you can:
 
 You can view all active audiences that are available to personalize within your Adobe Commerce instance using the **Real-Time CDP Audiences** dashboard. Any audiences you [activated](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) in the Adobe Commerce destination in Real-Time CDP appear in this dashboard.
 
-To access the **Real-Time CDP Audiences** dashboard, go to the _Admin_ sidebar, then go to **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]**. The **Real-Time CDP Audiences** dashboard appears:
+To access the **Real-Time CDP Audiences** dashboard, go to the _Admin_ sidebar, then go to **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]**.
 
-![Real-Time CDP Audiences Dashboard](./assets/audience-library.png){width="700" zoomable="yes"}
+The dashboard contains the following fields:
 
 |Column|Description|
 |--- |--- |
