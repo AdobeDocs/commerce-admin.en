@@ -19,10 +19,11 @@ A buyer can complete the following actions when negotiating a quote:
 * Track the negotiation process from [!UICONTROL Comments] and [!UICONTROL History] sections
 * Modify the quote to remove items
 * Communicate and negotiate with the seller by adding notes at the line item and quote level
-* Send the quote for review
+* Send quote to seller for review
 * Convert the quote to an order if the terms are acceptable
 * Close the quote
 * Delete the quote
+* [!BADGE 1.5.0-beta capabilities]{type=Informative url="/help/b2b/release-notes.md" tooltip="Available only for Beta program participants"} Rename the quote, create a copy of the quote
 
 The following example shows a quote that has been updated by the buyer and sent back to the seller for review.
 
@@ -70,6 +71,16 @@ With the required [permissions for their role](account-company-roles-permissions
 1. When prompted to confirm, clicks **[!UICONTROL OK]**.
 
    The closed quote is removed from their list of quotes. However, it remains listed on the _[!UICONTROL Quotes]_ grid in the Admin, with the `Closed` status.
+
+## Quote Actions
+
+| Action        | Description                                                                                                                                                                                                                 |
+|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Rename        | [!BADGE 1.5.0-beta capabilities]{type=Informative url="/help/b2b/release-notes.md" tooltip="Available only for Beta program participants"}Change the name of the quote                                                      |
+| Create a copy | [!BADGE 1.5.0-beta capabilities]{type=Informative url="/help/b2b/release-notes.md" tooltip="Available only for Beta program participants"}A buyer can create a new quote from the current quote by copying and renaming it. |
+| Close quote   | After a buyer closes a quote, it cannot be reopened it. If needed, the buyer can recreate it by using the [!UICONTROL Create Copy] action. This option is not available if the quote status is `Draft`.                     |
+| Delete quote  | When a buyer deletes a quote, it is removed from the system, and is no longer available.                                                                                                                                    |
+| Print         | Opens a print form to save the quote as a PDF, file, or print it to a configured printer.                                                                                                                                   |
 
 ## Column descriptions
 

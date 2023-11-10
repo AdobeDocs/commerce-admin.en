@@ -145,6 +145,3 @@ The following figure shows an example of the quote detail view in the Admin with
 >[!NOTE]
 >
 >[!BADGE 1.5.0-beta capabilities]{type=Informative url="/help/b2b/release-notes.md" tooltip="Available only for Beta program participants"} The Quote detail page for the buyer now offers an additional option to create a copy of the quote.
-
-
-![Quote detail beta capabilities](./assets/quote-detail-beta-features.png){width="700" zoomable="yes"}
