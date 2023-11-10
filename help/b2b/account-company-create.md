@@ -289,7 +289,7 @@ The process of creating a company from the Admin is essentially the same as from
 |[!UICONTROL Enable Purchase Orders]|(Admin Only) Determines if company members can submit orders as [purchase orders](account-dashboard-my-purchase-orders.md) on behalf of the company.|
 |Applicable Payment Methods|(Admin Only) Indicates the payment methods that are available for company purchases. Options: `B2B Payment Methods` / `All Enabled Payment Methods` / `Selected Payment Methods`|
 |[!UICONTROL Payment Methods]|(Admin Only) Becomes active if specific payment methods are activated. To make multiple payment methods available for the company account, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.|
-|[!UICONTROL Applicable Shipping Methods]|(Admin Only) Indicates the payment methods that are available for company purchases. Options: `B2B Shipping Methods` / `All Enabled Shipping Methods` / `Selected Shipping Methods`|
+|[!UICONTROL Applicable Shipping Methods]|(Admin Only) Indicates the shipping methods that are available for company purchases. Options: `B2B Shipping Methods` / `All Enabled Shipping Methods` / `Selected Shipping Methods`|
 |[!UICONTROL Shipping Methods]|(Admin Only) Becomes active if specific shipping methods are activated. To make multiple payment methods available for the company account, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.|
 
 {style="table-layout:auto"}

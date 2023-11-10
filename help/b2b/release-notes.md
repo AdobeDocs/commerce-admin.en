@@ -128,63 +128,7 @@ Your requirements could not be resolved to an installable set of packages.
 Installation failed, reverting ./composer.json and ./composer.lock to their original content.
 ```
 
-### Workaround
-
-Successfully install or upgrade to B2B version 1.4.0 on Adobe Commerce 2.4.6-p1 by adding manual dependencies for the B2B security package with a [stability tag](https://getcomposer.org/doc/04-schema.md#package-links).
-
-1. From the Adobe Commerce installation directory, update `composer.json` with the required dependencies:
-
-   ```terminal
-   composer require magento/module-re-captcha-company=1.0.3-beta1@beta magento/security-package-b2b=1.0.4-beta1@beta
-   ```
-
-   **Command Output:**
-
-   ```terminal
-   Running composer update magento/module-re-captcha-company magento/security-package-b2b
-   Loading composer repositories with package information
-   Updating dependencies
-   Lock file operations: 2 installs, 0 updates, 0 removals
-     - Locking magento/module-re-captcha-company (1.0.3-beta1)
-     - Locking magento/security-package-b2b (1.0.4-beta1)
-   Writing lock file
-   Installing dependencies from lock file (including require-dev)
-   Package operations: 2 installs, 0 updates, 0 removals
-     - Downloading magento/module-re-captcha-company (1.0.3-beta1)
-     - Installing magento/module-re-captcha-company (1.0.3-beta1): Extracting archive
-     - Installing magento/security-package-b2b (1.0.4-beta1)
-   1 package suggestions were added by new dependencies, use `composer suggest` to see details.
-   Package sebastian/phpcpd is abandoned, you should avoid using it. No replacement was suggested.
-   Generating autoload files
-   132 packages you are using are looking for funding.
-   Use the `composer fund` command to find out more!
-   No security vulnerability advisories found
-   ```
-
-1. Update `composer.json` to add B2B version 1.4.0.
-
-   ```terminal
-   composer require magento/extension-b2b=1.4.0
-   ```
-
-   **Command output**
-
-   ```terminal
-   ./composer.json has been updated
-   Running composer update magento/extension-b2b
-   Loading composer repositories with package information
-   Updating dependencies
-   ...
-   Generating autoload files
-   132 packages you are using are looking for funding.
-   Use the `composer fund` command to find out more!
-   No security vulnerability advisories found
-   ```
-
-1. Complete the installation or upgrade process.
-
-   - [Install B2B on cloud infrastructure](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html)
-   - [Install on premises](install.md)
+You can fix this issue by adding manual dependencies for the B2B security package by adding manual dependencies for the B2B security package with a [stability tag](https://getcomposer.org/doc/04-schema.md#package-links). For instructions, see the [Adobe Commerce Knowledge Base](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html). 
 
 ## B2B v1.3.5
 
