@@ -43,13 +43,17 @@ A Sales Representative can create a quote from the Quotes or Customer Grid.
 
      ![New draft quote created by seller](./assets/quote-create-by-seller.png){width="700" zoomable="yes"}
 
-1. Prepare the quote to submit to the buyer.
-
    - Update the quote name and modify the expiration date as needed.
 
-   - Add items to the quote by selecting **[!UICONTROL Add Product By SKU]**. Enter the SKU number and quantity, and then select **[!UICONTROL Add Product]**.
+   - Save the quote as a draft.
 
-     ![Seller adding items to draft quote for buyer](./assets/quote-draft-add-items.png){width="700" zoomable="yes"}
+## Prepare the quote for the buyer
+
+After creating the draft quote, add product items, apply discounts, and communicate with the buyer by adding comments and any related files to the quote. Then, send the quote to the buyer for review, or save it as a draft.
+
+1. Add items to the quote by selecting **[!UICONTROL Add Product By SKU]**. Enter the SKU number and quantity, and then select **[!UICONTROL Add Product]**.
+
+  ![Seller adding items to draft quote for buyer](./assets/quote-draft-add-items.png){width="700" zoomable="yes"}
 
 1. Apply line item discounts to products as needed.
 

@@ -32,11 +32,11 @@ The B2B v1.5.0-beta release includes new features, quality improvements, and bug
 
   The draft quote does not have an expiration date. Buyers can review and update draft quotes from the [!UICONTROL My Quotes] section of their account dashboard.
 
-- **Rename Quote**<!--B2B-2596-->—Buyers can now change a quote name from the Quote detail page by selecting the **[!UICONTROL Rename]** option. This option is available to authorized buyers when they are editing the quote. Name change events are recorded in the Quote History Log.
+- **Rename Quote**<!--B2B-2596-->—Buyers can now change a quote name from the [Quote detail](account-dashboard-my-quotes.md#quote-actions) page by selecting the **[!UICONTROL Rename]** option. This option is available to authorized buyers when they are editing the quote. Name change events are recorded in the Quote History Log.
 
 - **Duplicate Quote**<!--B2B-2701-->—Buyers and sellers can now create a new quote by copying an existing quote. A copy is created from the Quote detail view by selecting  **[!UICONTROL Create Copy]** on the [Quote detail view](quote-price-negotiation.md#button-bar) in the Admin or the [Storefront](account-dashboard-my-quotes.md#quote-actions).
 
-- **Line item discount locking**<!--B2B-2597-->—During quote negotiation, sellers can use line item discount locking for more flexibility when applying discounts. For example, a Seller can apply a special line item discount to an item and lock the item to prevent further discounting. When an item is locked, the item price price cannot be updated when a quote-level discount is applied. See [Initiate quote for a buyer](sales-rep-initiates-quote.md).
+- **Line item discount locking**<!--B2B-2597-->—During quote negotiation, sellers can use line item discount locking for more flexibility when applying discounts. For example, a Seller can apply a special line item discount to an item and lock the item to prevent further discounting. When an item is locked, the item price cannot be updated when a quote-level discount is applied. See [Initiate quote for a buyer](sales-rep-initiates-quote.md).
 
 ![New](../assets/new.svg)**Company Management**<!--B2B-2901-->—Merchants can now view and manage Adobe Commerce companies as hierarchical organizations by assigning companies to designated parent companies. After a company is assigned to a parent, the parent company administrator can manage the company account. Only authorized Admin users can add and manage company assignments. For details, see [Manage company hierarchy](assign-companies.md).
 
@@ -612,7 +612,7 @@ This release includes improvements to order approvals, shipping methods, shoppin
 
 ![Fixed issue](../assets/fix.svg) Previously, when changing the admin of a company, the original admin address would be copied to the new admin, giving them two addresses. Now, only the correct address is added.
 
-![Fixed issue](../assets/fix.svg) Previously, using the API to save a quote item when backorder is set to "Allowed and Notify Customer" would fail. This API call now works as expected.
+![Fixed issue](../assets/fix.svg) Previously, using the API to save a quote item when git is set to "Allowed and Notify Customer" would fail. This API call now works as expected.
 
 ![Fixed issue](../assets/fix.svg) The Fixed Product Tax is now displayed on the Quotes detail page.
 
