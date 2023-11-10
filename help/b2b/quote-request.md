@@ -27,7 +27,7 @@ If quotes are enabled in the [Sales features configuration](configure-quotes.md)
 
 1. Enters a **[!UICONTROL Quote Name]**.
 
-   ![Entering the quote comments and name](./assets/quote-request-from-cart-name-comments-beta.png){width="400" zoomable="yes"}
+   ![Entering the quote comments and name](./assets/quote-request-from-cart-name-comments.png){width="400" zoomable="yes"}
 
 1. If needed, attaches a supporting document or image to the quote:
 
