@@ -28,15 +28,15 @@ The B2B v1.5.0-beta release includes new features, quality improvements, and bug
 
 ![New](../assets/new.svg) Improvements to quoting capabilities help Buyers and Sellers manage quotes and quote negotiation more effectively.
 
-- **Save Quote as Draft**<!--B2B-2566-->—When creating a quote request from the shopping cart, buyers can now save the quote as a draft by selecting **[!UICONTROL Save as Draft]** on the [!UICONTROL Request a Quote] form.
+- **Save Quote as Draft**<!--B2B-2566-->—When creating a [quote request](quote-request.md) from the shopping cart, buyers can now save the quote as a draft by selecting **[!UICONTROL Save as Draft]** on the [!UICONTROL Request a Quote] form.
 
   The draft quote does not have an expiration date. Buyers can review and update draft quotes from the [!UICONTROL My Quotes] section of their account dashboard.
 
 - **Rename Quote**<!--B2B-2596-->—Buyers can now change a quote name from the Quote detail page by selecting the **[!UICONTROL Rename]** option. This option is available to authorized buyers when they are editing the quote. Name change events are recorded in the Quote History Log.
 
-- **Duplicate Quote**<!--B2B-2701-->—Buyers and sellers can now create a new quote by copying an existing quote. A copy is created from the Quote detail view by selecting  **[!UICONTROL Create Copy]**.
+- **Duplicate Quote**<!--B2B-2701-->—Buyers and sellers can now create a new quote by copying an existing quote. A copy is created from the Quote detail view by selecting  **[!UICONTROL Create Copy]** on the [Quote detail view](quote-price-negotiation.md#button-bar) in the Admin or the [Storefront](account-dashboard-my-quotes.md#quote-actions).
 
-- **Line item discount locking**<!--B2B-2597-->—During quote negotiation, sellers can use line item discount locking for more flexibility when applying discounts. For example, a Seller can apply a special line item discount to an item and lock the item to prevent further discounting. When an item is locked, the item price price cannot be updated when a quote-level discount is applied.
+- **Line item discount locking**<!--B2B-2597-->—During quote negotiation, sellers can use line item discount locking for more flexibility when applying discounts. For example, a Seller can apply a special line item discount to an item and lock the item to prevent further discounting. When an item is locked, the item price price cannot be updated when a quote-level discount is applied. See [Initiate quote for a buyer](sales-rep-initiates-quote.md).
 
 ![New](../assets/new.svg)**Company Management**<!--B2B-2901-->—Merchants can now view and manage Adobe Commerce companies as hierarchical organizations by assigning companies to designated parent companies. After a company is assigned to a parent, the parent company administrator can manage the company account. Only authorized Admin users can add and manage company assignments. For details, see [Manage company hierarchy](assign-companies.md).
 
@@ -46,7 +46,7 @@ The B2B v1.5.0-beta release includes new features, quality improvements, and bug
 
 - API Developers can use the new Company Relations REST API endpoint `/V1/company/{parentId}/relations` to create, view, and remove company assignments. See [Manage company objects](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/) in the *Web API Developer Guide*.
 
-![Fixed issue](../assets/fix.svg)<!--ACP2E-1984-->Merchants clicking the **[!UICONTROL Print]** button (Admin **[!UICONTROL Sales]** > **[!UICONTROL Quotes]** are now prompted to save the quote as a PDF. Previously, merchants were redirected to a page that contained quote details.
+![Fixed issue](../assets/fix.svg)<!--ACP2E-1984-->Merchants clicking the **[!UICONTROL Print]** button in the Quote detail view in the Admin are now prompted to save the quote as a PDF. Previously, merchants were redirected to a page that contained quote details.
 
 ![Fixed issue](../assets/fix.svg) <!--ACP2E-1742-->Previously when sending a customer quote with 0 percentage and changing quantity, the admin throws an exception but saved the quantity. After this fix applies, for the `0 percentage` proper exception with a message will be thrown.
 
