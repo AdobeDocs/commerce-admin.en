@@ -68,7 +68,7 @@ Method 2: **From the account edit page**
 
 ### Block company accounts
 
-Users who are associated with a blocked company account cannot access the account, or place orders from the store. A company with an account that is not in good standing might be blocked temporarily until the matter is resolved.
+Users who are associated with a blocked company account can log in and access the catalog, but cannot make purchases. A company with an account that is not in good standing might be blocked temporarily until the matter is resolved.
 
 1. Set the **[!UICONTROL Actions]** control to `Block`.
 
@@ -172,13 +172,13 @@ The following sections provide a reference for the available actions, options, a
 
 ### Actions control options
 
-|Option|Description|
-|--- |--- |
-|[!UICONTROL Set Active]|Sets the status of all selected company records to `Active`. Company administrators receive instructions to set their passwords so they can access their accounts and manage their companies from the storefront.|
-|[!UICONTROL Block]|Restricts company accounts that are not in good standing, while preserving the account. The status of users who are associated with a blocked company is changed to `Inactive`. They cannot sign in to their accounts, or place orders on behalf of the company.|
-|[!UICONTROL Delete]|Deletes selected company accounts. The status of user accounts that are associated with a deleted company is set to `Inactive` and the Company ID is removed from the profiles of user accounts. Information about company activity and transactions is retained in the system.|
-|[!UICONTROL Edit]|Allows some values of the selected company record to be edited from the grid. By default, the Company Name, Company Email, and Phone Number values are available for a quick edit.|
-|[!UICONTROL Convert Credit]|Converts the credit on account for the selected companies according to the rates of the specified currency.|
+|Option| Description                                                                                                                                                                                                                                                                    |
+|--- |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|[!UICONTROL Set Active]| Sets the status of all selected company records to `Active`. Company administrators receive instructions to set their passwords so they can access their accounts and manage their companies from the storefront.                                                              |
+|[!UICONTROL Block]| Restricts company accounts that are not in good standing, while preserving the account. Company members can log in and access the catalog, but they cannot place orders on behalf of the company.                                                 |
+|[!UICONTROL Delete]| Deletes selected company accounts. The status of user accounts that are associated with a deleted company is set to `Inactive` and the Company ID is removed from the profiles of user accounts. Information about company activity and transactions is retained in the system. |
+|[!UICONTROL Edit]| Allows some values of the selected company record to be edited from the grid. By default, the Company Name, Company Email, and Phone Number values are available for a quick edit.                                                                                             |
+|[!UICONTROL Convert Credit]| Converts the credit on account for the selected companies according to the rates of the specified currency.                                                                                                                                                                    |
 
 {style="table-layout:auto"}
 

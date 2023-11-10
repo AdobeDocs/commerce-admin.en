@@ -163,7 +163,7 @@ If you choose not to use the [!DNL Inventory Management] functionality, you can 
         "magento/module-inventory-shipping-admin-ui": "*",
         "magento/module-inventory-source-deduction-api": "*",
         "magento/module-inventory-source-selection": "*",
-        "magento/module-inventory-source-selection-api": "*"
+        "magento/module-inventory-source-selection-api": "*",
         "magento/module-inventory-visual-merchandiser": "*",
         "magento/module-inventory-swatches-frontend-ui": "*",
         "magento/module-inventory-quote-graph-ql": "*",
