@@ -87,7 +87,7 @@ View the negotiation timeline, communication, and other quote activity from the 
 
 1. History is also tracked at the line item level.
 
-   ![View Line Item History](./assets/quote-view-line-item-history.png){width="400"
+   ![View Line Item History](./assets/quote-view-line-item-history.png){width="400"}
 
 
 ### Decline a request for a quote
@@ -129,7 +129,7 @@ Only quote requests with an `Open` status can be declined.
 | [!UICONTROL Send ]         | Sends the updated quote as a reply to the buyer's inquiry. This button is disabled if the seller is waiting for a reply from the buyer.                                                                                                                                                                                                                       |
 | [!UICONTROL Back]          | Returns to the _Quotes_ page without saving changes.                                                                                                                                                                                                                                                                                                          |
 | [!UICONTROL Print]         | Sends the quote to a printer or saves it as a PDF file.                                                                                                                                                                                                                                                                                                       |
-| [!UICONTROL Create a copy] | [!BADGE 1.5.0-beta capability]{type=Informative url="/help/b2b/release-notes.md" tooltip="Available only for Beta program participants"} Creates a copy of the quote named `<original quote name> (copy)` and opens it. Rename and update the new quote as needed before saving it as draft or sending it to the buyer.                                       |
+| [!UICONTROL Create a copy] | Creates a copy of the quote named `<original quote name> (copy)` and opens it. Rename and update the new quote as needed before saving it as draft or sending it to the buyer.                                                                                                                                                                                |
 | [!UICONTROL Save as Draft] | Saves any changes made to the quote, but does not send it back to the buyer.                                                                                                                                                                                                                                                                                  |
 | [!UICONTROL Decline]       | Declines the request to negotiate prices, either on the initial inquiry, or during ongoing negotiations. When a quote is declined, the seller should add a comment to explain the decision. When a quote is declined, all negotiated prices are reset to the original values. This button is disabled while the seller is waiting for a reply from the buyer. |
 
@@ -137,11 +137,14 @@ Only quote requests with an `Open` status can be declined.
 
 ## Example quote
 
-The following figure shows  an example of the buyer quote detail view on the storefront with some settings configured.
+The following figure shows an example of the quote detail view in the Admin with some settings configured.
 
 ![Example quote](./assets/quote-full.png){width="700" zoomable="yes"}
 
 
 >[!NOTE]
 >
->[!BADGE 1.5.0-beta capabilities]{type=Informative url="/help/b2b/release-notes.md" tooltip="Available only for Beta program participants"} The Quote detail page for the buyer now offers additional options to rename or create a copy of the quote.
+>[!BADGE 1.5.0-beta capabilities]{type=Informative url="/help/b2b/release-notes.md" tooltip="Available only for Beta program participants"} The Quote detail page for the buyer now offers an additional option to create a copy of the quote.
+
+
+![Quote detail beta capabilities](./assets/quote-detail-beta-features.png){width="700" zoomable="yes"}

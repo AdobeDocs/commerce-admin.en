@@ -19,7 +19,7 @@ If quotes are enabled in the [Sales features configuration](configure-quotes.md)
 
 1. Adds the products that they want to be included in the quote to the shopping cart.
 
-1. Clicks **[!UICONTROL Request a Quote]**.
+1. Selects **[!UICONTROL Request a Quote]**.
 
    ![Requesting a quote from the shopping cart](./assets/quote-request-from-cart.png){width="700" zoomable="yes"}
 
@@ -27,13 +27,18 @@ If quotes are enabled in the [Sales features configuration](configure-quotes.md)
 
 1. Enters a **[!UICONTROL Quote Name]**.
 
-   ![Entering the quote comments and name](./assets/quote-request-from-cart-name-comments.png){width="400" zoomable="yes"}
+   ![Entering the quote comments and name](./assets/quote-request-from-cart-name-comments-beta.png){width="400" zoomable="yes"}
 
 1. If needed, attaches a supporting document or image to the quote:
 
-   - Clicks **[!UICONTROL Attach file]**.
+   - Selects **[!UICONTROL Attach file]**.
    - Chooses the file from their system.
 
    By default, an [attached file](configure-quotes.md) can be up to 2 MB, in any of the following file formats: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG or JPEG, PNG.
 
-1. Clicks **[!UICONTROL Send Request]**.
+1. Creates and processes the quote:
+
+   - Sends the quote to the Seller by selecting **[!UICONTROL Request a Quote]**.
+   - [!BADGE 1.5.0-beta capability]{type=Informative url="/help/b2b/release-notes.md" tooltip="Available only for Beta program participants"} Saves the quote as a draft by selecting **[!UICONTROL Save as Draft]**.
+
+     If the buyer saves the quote as a draft, the quote is available in the [!UICONTROL My Quotes] in `Draft` state. It is not visible to the Seller until the Buyer opens the draft quote and submits it.
