@@ -14,9 +14,13 @@ Administrators can build a [!UICONTROL Company Hierarchy] by assigning related c
 
 Create a parent company by editing a company that has not been assigned to an existing [!UICONTROL Company Hierarchy], and assigning related companies.
 
-![Company Hierarchy Grid](./assets/company-detail-view.png){width="700" zoomable="yes"}
+![Company Hierarchy Grid](./assets/company-detail-view.png){width="700"}
 
 After a company has been assigned to a hierarchy, the [!UICONTROL Company type] column in the **Companies** grid identifies the company as  a `Parent` or  `Child` company.  If the [!UICONTROL Company Type] is `Company`, the company is not part of a company hierarchy and is eligible to become a parent company, or to be assigned to an existing parent company.
+
+>[!NOTE]
+>
+>For details about the [!UICONTROL Company Hierarchy] grid, see [Company Hierarchy](account-company-create.md#company-hierarchy) field descriptions.
 
 In the Admin, you manage company assignments by editing a company, and then using the [!UICONTROL Company Hierarchy] section of the [!UICONTROL Company] page to assign or unassign companies.
 
