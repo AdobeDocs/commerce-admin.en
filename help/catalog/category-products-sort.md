@@ -14,7 +14,7 @@ The position of products in a category can be specified manually by dragging and
 >
 >On the category pages, `Out of stock` products are always displayed **_after_** `In Stock` products on the product listing with all sorting types.
 
-You can set up the category options separately for each [store](../stores-purchase/stores.md#add-stores) to determine the selection of products, their relative position in the list, and the attributes that are available for category rules. However, there is a single, **_global_** sort order and product position in the catalog and they are shared across all [store views](../stores-purchase/store-views.md), stores, and websites.
+You can set up the category options separately for each [store view](../stores-purchase/stores.md#add-stores) to determine the selection of products, their relative position in the list, and the attributes that are available for category rules. However, there is a single, **_global_** sort order and product position in the catalog and they are shared across all [store views](../stores-purchase/store-views.md), stores, and websites.
 
 ## Step 1: Set the scope of the configuration
 
