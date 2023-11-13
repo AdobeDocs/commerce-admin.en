@@ -71,7 +71,7 @@ The following steps use an example for creating a customer segment that targets 
    
    >[!NOTE]
    >
-   > If a segment applies to `Visitors and Registered Customers`, the [!UICONTROL Matched Customers] displays only `Registered Customers`. This is the case even if visitors can be targeted based on conditions that apply to them. For `Visitors` only segments no `Matched Customers` tab is displayed.
+   > If a segment applies to `Visitors and Registered Customers`, the [!UICONTROL Matched Customers] displays only `Registered Customers`. This is the case even if visitors can be targeted based on conditions that apply to them. For `Visitors` only segments, no `Matched Customers` tab is displayed.
 
 
 1. Click **[!UICONTROL Save and Continue Edit]**.
