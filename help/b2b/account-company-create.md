@@ -80,7 +80,7 @@ The person who sets up a company account from the storefront is assigned a role 
 
 The process of creating a company from the Admin is essentially the same as from the storefront, but with additional fields.
 
-![New Company](./assets/company-create-admin.png){width="700" zoomable="yes"}
+![New Company](./assets/company-update.png){width="700" zoomable="yes"}
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
@@ -108,6 +108,8 @@ The process of creating a company from the Admin is essentially the same as from
       The comments are visible only from the Admin.
 
    ![Account Information](./assets/company-create-account-information-admin.png){width="700" zoomable="yes"}
+
+1. On initial company creation, the _[!UICONTROL Company Hierarchy]_ grid is empty when you expand it. After you save the company, you can include it in a company hierarchy. See [Company Management](manage-companies.md).
 
 1. In the _[!UICONTROL Legal Address]_ section, complete these required fields:
 
@@ -218,6 +220,22 @@ The process of creating a company from the Admin is essentially the same as from
 |[!UICONTROL VAT / TAX ID]|The [value-added tax](../stores-purchase/vat.md) number that is assigned to the company by some jurisdictions for tax reporting purposes. To configure the customer VAT/TAX ID to appear in the storefront, see [Create New Account Options](../configuration-reference/customers/customer-configuration.md). <br/> **_Note:_** The company administrator and other company users do not have their own separate VAT/TAX ID numbers in their customer accounts.|
 |[!UICONTROL Reseller ID]|The resale number that is assigned to the company for tax reporting purposes.|
 |[!UICONTROL Comment]|(Admin Only) These notes about the company account are for reference and visible only from the Admin.|
+
+{style="table-layout:auto"}
+
+### [!UICONTROL Company Hierarchy]
+
+|Field|Description|
+|--- |--- |
+|[!UICONTROL Company ID]|The ID number of the company.|
+|[!UICONTROL Company Name]|The full name of the company. <br/>A `current company indicator` appears in the company line being edited.|
+|[!UICONTROL Company Email]|The email address that is associated with the company account.|
+|[!UICONTROL Phone Number]|The primary phone number of the company.|
+|[!UICONTROL State/Province]|The state or province where the company is registered to conduct business.|
+|[!UICONTROL City]|The city where the company is registered to conduct business.|
+|[!UICONTROL Customer Group]|(Admin Only) Indicates the [customer group](../customers/customer-groups.md) or [shared catalog](catalog-shared.md) that is assigned to the company.|
+|[!UICONTROL Company Admin]|The full name of the company administrator.|
+|[!UICONTROL Action]|The list of possible actions for that company line.|
 
 {style="table-layout:auto"}
 

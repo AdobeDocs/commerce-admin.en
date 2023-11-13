@@ -16,6 +16,48 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 >
 >See [Product availability](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) for information about versions of the B2B Commerce extension supported for available Adobe Commerce releases.
 
+## B2B 1.5.0-beta
+
+{{$include /help/_includes/b2b-beta-note.md}}
+
+*November 13, 2023*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.6-p3 release.
+
+The B2B v1.5.0-beta release includes new features, quality improvements, and bug fixes.
+
+![New](../assets/new.svg) Improvements to quoting capabilities help Buyers and Sellers manage quotes and quote negotiation more effectively.
+
+- **Save Quote as Draft**<!--B2B-2566-->—When creating a [quote request](quote-request.md) from the shopping cart, buyers can now save the quote as a draft by selecting **[!UICONTROL Save as Draft]** on the [!UICONTROL Request a Quote] form.
+
+  The draft quote does not have an expiration date. Buyers can review and update draft quotes from the [!UICONTROL My Quotes] section of their account dashboard.
+
+- **Rename Quote**<!--B2B-2596-->—Buyers can now change a quote name from the [Quote detail](account-dashboard-my-quotes.md#quote-actions) page by selecting the **[!UICONTROL Rename]** option. This option is available to authorized buyers when they are editing the quote. Name change events are recorded in the Quote History Log.
+
+- **Duplicate Quote**<!--B2B-2701-->—Buyers and sellers can now create a new quote by copying an existing quote. A copy is created from the Quote detail view by selecting  **[!UICONTROL Create Copy]** on the [Quote detail view](quote-price-negotiation.md#button-bar) in the Admin or the [Storefront](account-dashboard-my-quotes.md#quote-actions).
+
+- **Line item discount locking**<!--B2B-2597-->—During quote negotiation, sellers can use line item discount locking for more flexibility when applying discounts. For example, a Seller can apply a special line item discount to an item and lock the item to prevent further discounting. When an item is locked, the item price cannot be updated when a quote-level discount is applied. See [Initiate quote for a buyer](sales-rep-initiates-quote.md).
+
+![New](../assets/new.svg)**Company Management**<!--B2B-2901-->—Merchants can now view and manage Adobe Commerce companies as hierarchical organizations by assigning companies to designated parent companies. After a company is assigned to a parent, the parent company administrator can manage the company account. Only authorized Admin users can add and manage company assignments. For details, see [Manage company hierarchy](assign-companies.md).
+
+- On the Companies page, a new **[!UICONTROL Company Type]** field identifies parent and child companies. Merchants can filter the company view by company type, and manage companies using line item or bulk actions.
+
+- Merchants can add and manage company assignments from the new **[!UICONTROL Company Hierarchy]** section on the [!UICONTROL Company Account] page.
+
+- API Developers can use the new Company Relations REST API endpoint `/V1/company/{parentId}/relations` to create, view, and remove company assignments. See [Manage company objects](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/) in the *Web API Developer Guide*.
+
+![Fixed issue](../assets/fix.svg)<!--ACP2E-1984-->Merchants clicking the **[!UICONTROL Print]** button in the Quote detail view in the Admin are now prompted to save the quote as a PDF. Previously, merchants were redirected to a page that contained quote details.
+
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1742-->Previously when sending a customer quote with 0 percentage and changing quantity, the admin throws an exception but saved the quantity. After this fix applies, for the `0 percentage` proper exception with a message will be thrown.
+
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1742-->During quote negotiation, a seller can now specify a `0%` discount in the Negotiated Quote quote discount field and send the quote back to the buyer. Previously, if the seller entered a 0% discount and sent the quote back to the buyer, the Admin returned an `Exception occurred during quote sending` error message.
+
+![Fixed issue](../assets/fix.svg) <!--ACP2E-2097-->ReCaptcha validation now works correctly during the checkout process for a B2B quote when ReCaptcha V3 is configured for storefront checkout. Previously,  the validation failed with a `recaptcha validation failed, please try again` error message.
+
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1825-->Purchase orders can no longer be placed by a user associated with the company after the company has been blocked. Previously, a user associated with the company could place purchase orders when the company was blocked.
+
+![Fixed issue](../assets/fix.svg)<!--ACP2E-1933-->Company administrators can now add company users from the storefront. Previously, Commerce logged an error when an Admin user tried to add a new user: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
+
 ## B2B v1.4.2
 
 *October 10, 2023*
@@ -24,7 +66,7 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 
 The B2B v1.4.2 release includes quality improvements and bug fixes
 
-![Fixed issue](../assets/fix.svg) <!--B2B-2897-->The Storefront shows a `The SKU you entered is not available in the shared catalog. Please check the SKU and try again` error message when a product with an unavailable SKU is not associated with the buyer's shared catalog and the seller tries to send the quote. Previously, the quote was saved with the unavailable SKU included, and the quote failed to load on the storefront.
+![Fixed issue](../assets/fix.svg) <!--B2B-2897-->If a Seller creates a buyer quote that includes a product SKU not available in the shared catalog associated with the buyer company, the system displays the error message `The SKU you entered is not available in the shared catalog. Please check the SKU and try again`.  The Seller cannot save the quote until they remove the product that is not available. Previously, the quote was saved with the unavailable SKU included, and the quote failed to load on the storefront.
 
 ## B2B v1.4.1
 
@@ -514,7 +556,7 @@ This release includes improvements to order approvals, shipping methods, shoppin
 
 ![Fixed issue](../assets/fix.svg) Previously, when changing the admin of a company, the original admin address would be copied to the new admin, giving them two addresses. Now, only the correct address is added.
 
-![Fixed issue](../assets/fix.svg) Previously, using the API to save a quote item when backorder is set to "Allowed and Notify Customer" would fail. This API call now works as expected.
+![Fixed issue](../assets/fix.svg) Previously, using the API to save a quote item when git is set to "Allowed and Notify Customer" would fail. This API call now works as expected.
 
 ![Fixed issue](../assets/fix.svg) The Fixed Product Tax is now displayed on the Quotes detail page.
 
