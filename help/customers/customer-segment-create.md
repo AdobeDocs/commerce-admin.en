@@ -68,6 +68,11 @@ The following steps use an example for creating a customer segment that targets 
    >[!TIP]
    >
    >If you are creating a segment based on customer attributes stored in a customer account, it is a best practice to apply the segment to registered customers only.
+   
+   >[!NOTE]
+   >
+   > If a segment applies to `Visitors and Registered Customers`, the [!UICONTROL Matched Customers] displays only `Registered Customers`. This is the case even if visitors can be targeted based on conditions that apply to them. For `Visitors` only segments, no `Matched Customers` tab is displayed.
+
 
 1. Click **[!UICONTROL Save and Continue Edit]**.
 
@@ -88,6 +93,11 @@ The following steps use an example for creating a customer segment that targets 
 {style="table-layout:auto"}
 
 ### Step 2: Define the conditions
+
+>[!NOTE]
+>
+> For visitors, only the following conditions are applicable: Shopping Cart conditions (cart subtotal amount, cart line items, and cart products quantity), Product rules (products found in shopping cart and product history), and combinations of these items. If a segment should apply to both visitors and registered customers, the visitors are tracked based on the listed conditions only.
+
 
 1. In the left pane, click **[!UICONTROL Conditions]**.
 
