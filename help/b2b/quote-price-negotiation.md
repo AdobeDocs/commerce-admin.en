@@ -37,7 +37,7 @@ Buyers manage the quote negotiation process from the storefront using [[!UICONTR
 
 1. Under _[!UICONTROL Quote & Account Information]_, click the _Calendar_ (![Calendar icon](../assets/icon-calendar.png)) icon.
 
-   ![Quote and account information](./assets/quote-details-account-information.png){width="600" zoomable="yes"}
+   ![Quote and account information](./assets/quote-details-account-information.png){width="575" zoomable="yes"}
 
 1. Choose an **[!UICONTROL Expiration Date]** for the quote.
 
