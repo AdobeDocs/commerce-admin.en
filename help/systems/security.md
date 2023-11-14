@@ -12,7 +12,7 @@ There are multiple ways to secure your store and maintain your data security:
 - Implement [CAPTCHA](security-captcha.md) or [reCAPTCHA](security-google-recaptcha.md)
 - Set up a [Security Scan](security-scan.md) for each domain in your Adobe Commerce or Magento Open Source installation. 
 
-Visit the [Security Center](https://helpx.adobe.com/security.html){:target="_blank"} and join the Security Alert Registry for the latest news about potential vulnerabilities and [best practices](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adobe-commerce-best-practices-guide.pdf).
+Visit the [Security Center](https://helpx.adobe.com/security.html){:target="_blank"} and join the Security Alert Registry for the latest news about potential vulnerabilities. For information about security best practices, see [Secure your Commerce Site and Infrastructure](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) in the _Implementation Playbook_.
 
 >[!NOTE]
 >
