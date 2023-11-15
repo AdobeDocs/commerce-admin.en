@@ -90,7 +90,7 @@ _March 31, 2023_
 
 The following tasks apply to both Luma and headless storefront implementations. To activate audiences in Adobe Commerce, you must:
 
-- [Install Adobe Commerce on cloud infrastructure, version 2.4.4 or higher](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html)
+- Install Adobe Commerce version 2.4.4 or higher
 - [Activate](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) Adobe Commerce as a destination in Real-Time CDP
 - [Install](#install-the-extension) the [!DNL Audience Activation] extension in the Admin
 - [Configure](#configure-the-extension) the [!DNL Audience Activation] extension in the Admin
