@@ -12,6 +12,29 @@ All extensions available on [!DNL Commerce Marketplace] have passed an extensive
 
 Although you can purchase extensions from other sources, only the extensions that are available on [!DNL Commerce Marketplace] are verified through extensive technical and marketing review within the Extension Quality Program.
 
+## App resources
+
+Developers have traditionally used PHP to create in-process extensions to add features, functionality, services, and integrations to Adobe Commerce. By creating apps with out-of-process extensibility, as opposed to extensions, you can avoid compatibility issues.
+
+The following resources provide a starting point for new adopters to familiarize themselves with apps:
+
+### Commerce resources:
+
+-  [Setting up I/O Events for Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/)
+-  [Configuring Events for Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/)
+-  [Setting up Admin UI SDK](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
+-  [Converting an extension to an app](https://developer.adobe.com/commerce/extensibility/app-development/#how-do-i-port-an-extension-into-an-app)
+
+### App Builder resources:
+
+-  [Commerce App Builder Overview](https://developer.adobe.com/commerce/extensibility/app-development/)
+-  [Setting up API Mesh for Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
+-  [Deploying App Builder apps](https://developer.adobe.com/app-builder/docs/guides/deployment/)
+-  [CI/CD for App Builder apps](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
+-  Getting Started with App Builder/Developer Console
+   -  [Getting started with App Builder](https://developer.adobe.com/app-builder/docs/getting_started/)
+   -  [Understanding Projects and Workspaces](https://developer.adobe.com/app-builder/docs/resources/videos/exploring/projects-and-workspaces/)
+
 ## [!DNL Marketplace] credentials
 
 Before you can install an extension purchased from [!DNL Commerce Marketplace], sign in to your [!DNL Commerce] account and verify that you have an active access key. You can sign in to your [!DNL Commerce] account from the header of [[!DNL Marketplace]][1] or [Magento.com][6].
