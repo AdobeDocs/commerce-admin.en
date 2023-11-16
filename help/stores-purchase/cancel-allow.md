@@ -36,7 +36,7 @@ When enabled, you can cancel an order directly from the customer's account. Canc
 1. In the **[!UICONTROL Order Order cancellation reasons]** you can add, delete, or modify any cancellation reason.
 
    With this setting, cancellation reasons are displayed on the storefront to the customer when they cancel an order.
-   This should have almost one reason set.
+   Make sure you have specified at least one reason.
 
 1. Click **[!UICONTROL Save Config]**.
 
