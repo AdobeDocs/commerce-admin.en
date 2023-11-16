@@ -29,12 +29,12 @@ The company administrator is initially assigned when the company account is firs
 
    - If a user account doesn't exist for the new company administrator, the system creates an account of the `Company Admin` type.
 
-   - If the user account exists in the system, it is moved to the company administrator position in the company hierarchy.
+   - If the user account exists in the system, it is moved to the company administrator position in the company structure.
 
 1. Enter the **[!UICONTROL First Name]** and **[!UICONTROL Last Name]**, and any other information as applicable for the new company administrator.
 
 1. When complete, click **[!UICONTROL Save]**.
 
-   The individual account of the former company administrator remains in the system as an active individual user account in the company hierarchy, assigned to the default user role.
+   The individual account of the former company administrator remains in the system as an active individual user account in the company structure, assigned to the default user role.
 
    The system sends email notification of the change to the new and former company administrators.
