@@ -1,24 +1,23 @@
 ---
 title: Allow cancel order
 description: Learn how to provide cancel capabilities for your customers.
-exl-id:
 feature: Orders, Storefront 
 ---
 # Allow cancel order
 
-When enabled, cancel can be made directly from the customer account. Cancel is disabled by default.
+When enabled, you can cancel an order directly from the customer's account. Cancel is disabled by default.
 
 ## Criteria for cancellation to be enabled for an order
 
 - The _Allow Cancel Order_ configuration option must be enabled.
 
-- If order is in `Hold`, `Canceled`, `Complete`, `Closed` status, the cancel option is disabled on the storefront.
+- If order is in `Hold`, `Canceled`, `Complete` or `Closed` status, the cancel option is disabled on the storefront.
 
-- If any of the items in the order is shipped, the cancel option is disabled on the storefront.
+- If any of the items in the order have shipped, the cancel option is disabled on the storefront.
 
 - If there is some item paid, the cancel option is enabled and the refund is created for that item.
 
-- If order is in `Pending`, `Processing` status, the cancel option is enabled on the storefront.
+- If order is in `Pending` or `Processing` status, the cancel option is enabled on the storefront.
 
 ## Configure to allow customer cancellation and customize the cancellation reasons
 

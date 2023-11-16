@@ -139,30 +139,30 @@ To perform the cancel:
 
 1. Provide a cancellation reason
 
-![Cancel order reasons](./assets/cancel-order-reasons.png){width="700" zoomable="yes"}
+   ![Cancel order reasons](./assets/cancel-order-reasons.png){width="700" zoomable="yes"}
 
 These cancellation reasons can be customised in the admin store configuration. Check [_Allow Cancel_](cancel-allow.md) to have more details.
 
 1. Clicks **[!UICONTROL Confirm]**
 
-![Cancel on the My Order page](./assets/cancel-order.png){width="700" zoomable="yes"}
+   ![Cancel on the My Order page](./assets/cancel-order.png){width="700" zoomable="yes"}
 
-After the cancellation, the orders that were in _[!UICONTROL Pending]_ status, change to _[!UICONTROL Canceled]_ status and the orders that were in _[!UICONTROL Processing]_ status, changed to _[!UICONTROL Closed]_ status and a refund will be processed.
+After the cancellation, the orders that were in _[!UICONTROL Pending]_ status, change to _[!UICONTROL Canceled]_ status, the orders that were in _[!UICONTROL Processing]_ status, change to _[!UICONTROL Closed]_ status and a refund will be processed.
 
 When the cancellation is finished, an email is sent to the customer.
 
-![Cancel order email](./assets/cancel-order-email.png){width="700" zoomable="yes"}
+   ![Cancel order email](./assets/cancel-order-email.png){width="700" zoomable="yes"}
 
-And this cancellation information is reflected in the customer's order history, inside the notes of the order and in the comments history tab.
+The cancellation information is added to the customer's order history. It appears inside the notes of the order and in the comments history tab.
 
-![Cancel order notes](./assets/cancel-order-notes.png){width="700" zoomable="yes"}
+   ![Cancel order notes](./assets/cancel-order-notes.png){width="700" zoomable="yes"}
 
-![Cancel comments history](./assets/cancel-order-comments.png){width="700" zoomable="yes"}
+   ![Cancel comments history](./assets/cancel-order-comments.png){width="700" zoomable="yes"}
 
-If for some reason the order changed to an status that cannot be cancellable and you did not refresh the page, the link to cancel will still be there but when you try to cancel, an error message is displayed.
+If for some reason the order changed to a status that cannot be canceled and the customer did not refresh the page, the link to cancel the order still appears. However, when they try to cancel, an error message displays.
 
-![Cancel order error message](./assets/cancel-order-error-message.png){width="700" zoomable="yes"}
+   ![Cancel order error message](./assets/cancel-order-error-message.png){width="700" zoomable="yes"}
 
-After refreshing we can see the order was already complete, this is why the cancellation did not work
+After refreshing the page, you can see the order was already complete, which is why the cancellation did not work.
 
-![Cancel order after refresh](./assets/cancel-order-after-refresh.png){width="700" zoomable="yes"}
+   ![Cancel order after refresh](./assets/cancel-order-after-refresh.png){width="700" zoomable="yes"}
