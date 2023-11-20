@@ -8,10 +8,10 @@ feature: Page Content, Staging
 
 {{ee-feature}}
 
-The following example shows how to schedule a temporary price change for a product. It includes scheduling and previewing changes, and viewing scheduled updates on the calendar. Although this example includes only a single change, a campaign might include multiple changes to products, price rules, CMS pages, and other entities that are scheduled to take place at the same time. You will also follow a similar method to specify the From/To dates for the "Set Product As New" attribute.
+The following example shows how to schedule a temporary price change for a product. It includes scheduling and previewing changes, and viewing scheduled updates on the calendar. Although this example includes only a single change, a campaign might include multiple changes to products, price rules, CMS pages, and other entities that are scheduled to take place at the same time. Follow a similar method to specify the from/to dates for the [!UICONTROL Set Product As New] attribute.
 
 >[!NOTE]
->You must create a Scheduled Update in order to specify a Start (and End Date) for "Set Product As New", Soecial Price From/To Dates, and Design Change From/To Dates - the Date fields have been removed from Commerce and are exclusively available in Magento Open Source only. 
+>You must create a scheduled update to specify a Start (and End) date for [!UICONTROL Set Product As New]. For [!UICONTROL Special Price] and [!UICONTROL Design Change], the from/to date fields are removed from Adobe Commerce and available in Magento Open Source only. 
 >
 >All scheduled updates are applied consecutively, which means that any entity can have only one scheduled update at one time. Any scheduled update is applied to all store views within its time frame. As a result, an entity cannot have a different scheduled update for different store views at the same time. All entity attribute values within all store views, which are not affected by the current scheduled update, are taken from the default values, and not from the previous scheduled update.
 
