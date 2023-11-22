@@ -5,6 +5,7 @@ feature: B2B, Companies
 role: Admin
 hide: no
 hidefromtoc: no
+exl-id: a277ed95-7935-4d27-adb2-35116972732b
 ---
 # Manage the [!UICONTROL Company Hierarchy]
 
