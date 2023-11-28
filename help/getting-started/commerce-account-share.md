@@ -18,8 +18,9 @@ The [!DNL Commerce] Support team does not have access to the account and cannot 
 
 ## Set up a shared account
 
-1. Before you begin, get the following information from the [!DNL Commerce] account of the **new user**:
+1. Before you begin, get the following information from the [!DNL Commerce] account of the **new shared access grantee**:
 
+   - The user must have already registered for an account at account.adobe.com and be logged in through account.magento.com.
    - The `Account ID` that is displayed at the upper-left corner of the _[!UICONTROL Magento]_ tab, just above the **Log Out** link.
    - The `Email` address that is associated with the account.
 
