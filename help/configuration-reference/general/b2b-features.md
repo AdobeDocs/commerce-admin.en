@@ -50,6 +50,7 @@ When the Company feature is enabled, additional fields are available for Shared 
 ### [!UICONTROL Default B2B Shipping Methods]
 
 ![B2B configuration - default shipping methods](./assets/b2b-features-shipping-methods.png)<!-- zoom -->
+
 |Field                                                              |[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--------------------------------------------------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |[!UICONTROL Applicable Shipping Methods]|Global|Determines the selection of shipping methods that are available by default to B2B buyers. Options: `All Shipping Methods` / `Specific Shipping Methods` |
