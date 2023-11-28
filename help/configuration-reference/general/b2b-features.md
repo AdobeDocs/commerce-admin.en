@@ -51,8 +51,9 @@ When the Company feature is enabled, additional fields are available for Shared 
 
 ![B2B configuration - default shipping methods](./assets/b2b-features-shipping-methods.png)<!-- zoom -->
 
-|[!UICONTROL Applicable Shipping Methods]|Global|Determines the selection of shipping methods that are available by default to B2B buyers. Options: `All Shipping Methods` / `Specific Shipping Methods`|
-|[!UICONTROL Shipping Methods]|Global|Specifies each shipping method that is available by default to B2B buyers. <br/>**_Note:_** You can also limit the shipping methods for a specific [company account](../../b2b/account-companies.md).|
+|![UICONTROL Applicable Shipping Methods]|Global|Determines the selection of shipping methods that are available by default to B2B buyers. Options: `All Shipping Methods` / `Specific Shipping Methods` |
+|---------------------------------------| ------ | --------------------------------------------------------------------------------------------------------------------------- |
+|![UICONTROL Shipping Methods]|Global|Specifies each shipping method that is available by default to B2B buyers. <br/>**_Note:_** You can also limit the shipping methods for a specific [company account](../../b2b/account-companies.md).|
 
 {:style="table-layout:auto"}
 
