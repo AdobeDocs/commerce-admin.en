@@ -65,6 +65,7 @@ recommendations: noDisplay
   + [Compare products](product-compare.md)
   + [Recently viewed or compared](products-viewed-compared.md)
   + [Allow reorders](reorders-allow.md)
+  + [Allow cancel order](cancel-allow.md)
 + Payments {#payments}
   + [Overview](payments.md)
   + PayPal payment solutions {#paypal}
