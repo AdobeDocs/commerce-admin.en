@@ -5,8 +5,8 @@ feature: B2B, Companies, Storefront
 role: Admin
 hide: no
 hidefromtoc: no
+exl-id: 8246be3d-ff9f-4f9f-875d-1b999befc534
 ---
-
 # Company management
 
 [!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Available only for Beta program participants"}
