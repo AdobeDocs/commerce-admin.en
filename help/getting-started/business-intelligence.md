@@ -95,7 +95,7 @@ If you get a 404 "Page Not Found" message, verify that your store meets the requ
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Extensions]_ > **[!UICONTROL Integration]**.
 
-1. Verify that the **[!UICONTROL Magento Analytics user]** integration appears in the list and the **[!UICONTROL Status]** is `Active`.
+1. Verify that the **[!UICONTROL Commerce Analytics user]** integration appears in the list and the **[!UICONTROL Status]** is `Active`.
 
 1. To reestablish the user, click **[!UICONTROL Reauthorize]** and do the following:
 
