@@ -20,7 +20,7 @@ For technical information, see the [[!DNL Advanced Reporting]][2]{:target="_blan
 
 >[!NOTE]
 >
->[!DNL Business Intelligence] accounts use built-in reporting, rather than the [!DNL Advanced Reporting] feature.
+>Due to compatibility issues with [!DNL Commerce Business Intelligence], we are temporarily unable to support Advanced Reporting using AWS S3 Bucket as a medium for source data file in [!DNL Commerce Business Intelligence].
 
 ![Advanced Reporting dashboard](./assets/reporting-advanced.png){width="700"}
 
