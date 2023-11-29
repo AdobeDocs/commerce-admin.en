@@ -18,7 +18,7 @@ feature: Configuration, Orders
 |--- |--- |--- |
 |[!UICONTROL Display Order ID in Header]|Store View|Includes the Order ID  in the header of invoices for reference. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shipment]
 
@@ -28,7 +28,7 @@ feature: Configuration, Orders
 |--- |--- |--- |
 |[!UICONTROL Display Order ID in Header]|Store View|Includes the Order ID in the header of shipment packing slips for reference. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Credit Memo]
 
@@ -38,4 +38,4 @@ feature: Configuration, Orders
 |--- |--- |--- |
 |[!UICONTROL Display Order ID in Header]|Store View|Includes the Order ID in the header of credit memos for reference. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

@@ -26,7 +26,7 @@ For more information about using Google reCAPTCHA to secure your store, see Goog
 |[!UICONTROL Theme]|Website|Determines the style of the Google reCAPTCHA box. Options: `Light Theme` (default) / `Dark Theme`|
 |[!UICONTROL Language Code]|Store view|The [two-character code](https://developers.google.com/recaptcha/docs/language) that specifies the language that is used for Google reCAPTCHA text and messaging.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA v2 Invisible]
 
@@ -40,7 +40,7 @@ For more information about using Google reCAPTCHA to secure your store, see Goog
 |[!UICONTROL Theme]|Global|Determines the style of the Google reCAPTCHA box. Options: `Light Theme` (default) / `Dark Theme`|
 |[!UICONTROL Language Code]|Store view|A [two-character code](https://developers.google.com/recaptcha/docs/language) that specifies the language that is used for Google reCAPTCHA text and messaging.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA v3 Invisible]
 
@@ -55,7 +55,7 @@ For more information about using Google reCAPTCHA to secure your store, see Goog
 |[!UICONTROL Theme]|Website|Determines the style of the Google reCAPTCHA box. Options: `Light Theme` (default) / `Dark Theme`|
 |[!UICONTROL Language Code]|Store view|A [two-character code](https://developers.google.com/recaptcha/docs/language) that specifies the language that is used for Google reCAPTCHA text and messaging.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA Failure Messages]
 
@@ -66,7 +66,7 @@ For more information about using Google reCAPTCHA to secure your store, see Goog
 |[!UICONTROL reCAPTCHA Validation Failure Message]|Store view|The message that is displayed in the storefront if verification fails. Default text: `reCAPTCHA verification failed.`|
 |[!UICONTROL reCAPTCHA Technical Failure Message]|Store view|The message that is displayed in the storefront if reCAPTCHA fails to return a verification result. Default text: `Something went wrong with reCAPTCHA. Please contact the store owner.`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Storefront]
 
@@ -97,4 +97,4 @@ For more information about using Google reCAPTCHA to secure your store, see Goog
 |[!UICONTROL Enable for Coupon Codes]|Website|Specifies the type of reCAPTCHA that is used when customers enter a [coupon code](../../merchandising-promotions/price-rules-cart-coupon.md). Options:<br/>**`No`** - (default) Does not validate the coupon code submission.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Requires the user to select the _I'm not a robot_ checkbox.<br />**`Invisible reCAPTCHA v2`** - Validates user behavior i.n the background without requiring interactions based on score.<br/>**`Invisible reCAPTCHA v3`** -  (Recommended) Validates user behavior in the background based on interaction score.|
 |[!UICONTROL Enable for PayPal Payflow Pro payment form] |Website|Specifies the type of reCAPTCHA that is used when customers pay for a purchase with [PayPal Payflow Pro](../../stores-purchase/paypal-payflow-pro.md). Options:<br/>**`No`** - (default) Does not validate the password reset request.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Requires the user to select the _I'm not a robot_ checkbox.<br />**`Invisible reCAPTCHA v2`** - Validates user behavior in the background without requiring interactions based on score.<br/>**`Invisible reCAPTCHA v3`** - (Recommended) Validates user behavior in the background based on interaction score.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

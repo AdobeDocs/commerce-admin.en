@@ -30,7 +30,7 @@ To access the configuration settings for Payment Services, on the _Admin_ sideba
 | [!UICONTROL Production Merchant ID] | store view | Your production merchant ID, which is auto-generated during sandbox onboarding. |
 | [!UICONTROL Soft Descriptor] | website or store view | Add a soft descriptor to your website(s) and store view(s) to add information to customer transactions which delineate brands, stores, or product lines. The [!UICONTROL Use website] toggle applies any soft descriptor added at the website level. The [!UICONTROL Use default] toggle applies any soft descriptor added as the default.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Credit card fields]
 
@@ -46,7 +46,7 @@ To access the configuration settings for Payment Services, on the _Admin_ sideba
 | [!UICONTROL Show vaulted payment methods in Admin] | store view | Enable or disable ability for merchant to complete orders for customers in the Admin [using a vaulted payment method](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/payments-checkout/vaulting.html). Options: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Debug Mode] | website | Enable or disable Debug Mode. Options: [!UICONTROL Yes] / [!UICONTROL No] |
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Payment buttons]
 
@@ -66,7 +66,7 @@ To access the configuration settings for Payment Services, on the _Admin_ sideba
 | [!UICONTROL Show Apple Pay button] | store view | Enable or disable the Apple Pay payment option where payment buttons are displayed. Options: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Show PayPal Credit and Debit card button] | store view | Enable or disable the Credit and Debit card payment option where payment buttons are displayed. Options: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Debug Mode] | website | Enable or disable Debug Mode. Options: [!UICONTROL Yes] / [!UICONTROL No] |
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL PayPal Smart Button Styling]
 
@@ -82,4 +82,4 @@ To access the configuration settings for Payment Services, on the _Admin_ sideba
 |[!UICONTROL Height]|Store View|Define height of the payment buttons. Default value: none|
 |[!UICONTROL Label]|Store View|Define label that appears in the payment buttons. Options: [!UICONTROL PayPal] / [!UICONTROL Checkout] / [!UICONTROL Buynow] / [!UICONTROL Pay] / [!UICONTROL Installment]|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

@@ -19,7 +19,7 @@ See [Store email addresses](../../getting-started/store-details.md#store-email-a
 |[!UICONTROL Sender Name]|Store View|The name that appears as the sender of email sent by the `General Contact` identity.|
 |[!UICONTROL Sender Email]|Store View|The email address that is associated with the `General Contact` identity.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Sales Representative]
 
@@ -30,7 +30,7 @@ See [Store email addresses](../../getting-started/store-details.md#store-email-a
 |[!UICONTROL Sender Name]|Store View|The name that appears as the sender of email sent by the `Sales Representative` identity.|
 |[!UICONTROL Sender Email]|Store View|The email address that is associated with the `Sales Representative` identity.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Customer Support]
 
@@ -41,7 +41,7 @@ See [Store email addresses](../../getting-started/store-details.md#store-email-a
 |[!UICONTROL Sender Name]|Store View|The name that appears as the sender of email sent by the `Customer Support` identity.|
 |[!UICONTROL Sender Email]|Store View|The email address that is associated with the `Customer Support` identity.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## Custom Email 1
 
@@ -52,7 +52,7 @@ See [Store email addresses](../../getting-started/store-details.md#store-email-a
 |[!UICONTROL Sender Name]|Store View|The name that appears as the sender of email sent by the `Custom 1` identity.|
 |[!UICONTROL Sender Email]|Store View|The email address that is associated with the `Custom 1` identity.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## Custom Email 2
 
@@ -63,4 +63,4 @@ See [Store email addresses](../../getting-started/store-details.md#store-email-a
 |[!UICONTROL Sender Name]|Store View|The name that appears as the sender of email sent by the `Custom 2` identity.|
 |[!UICONTROL Sender Email]|Store View|The email address that is associated with the `Custom 2` identity.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
