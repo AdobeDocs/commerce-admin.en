@@ -29,7 +29,7 @@ feature: Configuration, Checkout
 | [!UICONTROL Enable Address Search]                               |Website| ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce only) Determines if customers can use [address search](../../stores-purchase/checkout-address-search.md) functionality for Shipping, and Review & Payments steps. When this is enabled, use Number of Customer Addresses Limit to set the number of saved addresses required to activate this functionality during checkout. Options: `Yes` / `No`                                                    |
 | Number of Customer Addresses Limit                               |Website| ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce only) When address search is enabled, determines the number of saved addresses required to activate this functionality during checkout. When the customer's number of saved addresses meets or exceeds this number, only the default address is rendered on the _Shipping_ and _Review & Payments_ steps. The customer can use a search function to change the selected address. The default is `10`. |
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shopping Cart]
 
@@ -48,7 +48,7 @@ feature: Configuration, Checkout
 |[!UICONTROL Preview Quote Lifetime (minutes)]|Store View|Determines the maximum age of the quote in minutes when previewed from the shopping cart.|
 |[!UICONTROL Enable Clear Shopping Cart]|Website|Determines if the shopping cart displays the option for users to clear the contents of the cart in a single action. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL My Cart Link]
 
@@ -60,7 +60,7 @@ feature: Configuration, Checkout
 |--- |--- |--- |
 |[!UICONTROL Display Cart Summary]|Website|Determines the value that appears in parentheses after the My Cart link. Options: `Display number of items in cart` / `Display item quantities`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## Mini Cart
 
@@ -74,7 +74,7 @@ feature: Configuration, Checkout
 |[!UICONTROL Number of Items to Display Scrollbar]|Store View|Determines the number of items that can appear in the mini cart before the scrollbar is triggered. Default: `5`|
 |[!UICONTROL Maximum Number of Items to Display]|Store View|Determines the maximum number of items that can appear in the mini cart. Default: `10`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Payment Failed Emails]
 
@@ -90,4 +90,4 @@ feature: Configuration, Checkout
 |[!UICONTROL Send Payment Failed Copy To]|Store View|Provides the email address of anyone to receive a copy of a Payment Failed email. Separate multiple addresses with a comma.|
 |[!UICONTROL Send Payment Failed Copy Method]|Store View|Indicates the email method used to send the copy. Options: <br />**`Bcc`** - Sends a blind courtesy copy by including the recipient in the header of the same email that is sent to the customer. The BCC recipient is not visible to the customer. <br />**`Separate Email`** - Sends the copy as a separate email.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

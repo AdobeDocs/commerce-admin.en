@@ -1,10 +1,10 @@
 ---
-title: Prioritize Sources for a Stock
+title: Prioritize inventory sources for a stock
 description: Learn how to arrange sources from top to bottom in priority, which is used when determining shipment and inventory deductions.
 exl-id: 16db3ee3-ce99-40dd-b1a3-fcb145b1298f
 feature: Inventory, Configuration
 ---
-# Prioritize Sources for a Stock
+# Prioritize sources for a stock
 
 After adding [sources](sources-manage.md) to the [stock](stocks-manage.md), arrange those sources from top to bottom in priority for fulfilling orders. The Source Selection Algorithm (SSA) provides an algorithm Priority using this order when determining shipment and inventory deductions.
 

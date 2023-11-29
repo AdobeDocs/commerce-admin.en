@@ -20,7 +20,7 @@ feature: Configuration, Orders
 |--- |--- |--- |
 |[!UICONTROL Hide Customer IP]|Store View|Determines if the customer IP address appears on orders, invoices, shipments, and credit memos. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Checkout Totals Sort Order]
 
@@ -37,7 +37,7 @@ feature: Configuration, Orders
 |[!UICONTROL Fixed Product Tax]|Website|A number that determines when the Fixed Product Tax is calculated in relation to other checkout totals. Default value: `50`|
 |[!UICONTROL Grand Total]|Website|A number that determines when the Grand Total is calculated in relation to other checkout totals. Default value: `100`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Reorder]
 
@@ -49,7 +49,7 @@ feature: Configuration, Orders
 |--- |--- |--- |
 |[!UICONTROL Allow Reorder]|Store View|Determines if the customers can reorder from their accounts. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Allow Zero Grand Total]
 
@@ -57,7 +57,7 @@ feature: Configuration, Orders
 |--- |--- |--- |
 |[!UICONTROL Allow Zero Grand Total for Credit Memo]|Store View|Determines the possibility of creating a Credit Memo with a Zero Grand Total. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Invoice and Packing Slip Design]
 
@@ -71,7 +71,7 @@ feature: Configuration, Orders
 |[!UICONTROL Logo for HTML Print View]|Store View|Identifies the logo file that appears in the header of HTML print view of invoices and packing slips. Allowed file types: <br/>JPG /JPEG <br/>GIF <br/>PNG|
 |[!UICONTROL Address]|Store View|The store address as you want it to appear on invoices and packing slips.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Minimum Order Amount]
 
@@ -91,7 +91,7 @@ feature: Configuration, Orders
 |[!UICONTROL Multi-address Description Message]|Store View|For multi-address orders, determines the message that appears in the shopping cart if the items sent to an address are less than the minimum order amount.|
 |[!UICONTROL Multi-address Error to Show in Shopping Cart]|Store View|For multi-address orders, determines the message that appears from the mini cart or checkout link when the order amount is less than the minimum order amount required. If left blank, a default message appears.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Dashboard]
 
@@ -103,7 +103,7 @@ feature: Configuration, Orders
 |--- |--- |--- |
 |[!UICONTROL Use Aggregated Data]|Global|Determines if real-time, aggregated sales data is used to produce dashboard snapshot reports. If you have a large amount of data to process, performance can be improved by turning off the display of real-time data. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Orders Cron Settings]
 
@@ -115,7 +115,7 @@ feature: Configuration, Orders
 |--- |--- |--- |
 |[!UICONTROL Pending Payment Order Lifetime]|Website|Determines the lifetime of pending orders in minutes. Default setting: `480` minutes (8 hours)|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Gift Options]
 
@@ -133,7 +133,7 @@ feature: Configuration, Orders
 |[!UICONTROL Allow Printed Card]|Website|![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce only) Specify whether a printed card can be added for the order.|
 |[!UICONTROL Default Price for Printed Card]|Website|![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce only) Specify the default price for the printed card.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Minimum Advertised Price]
 
@@ -149,7 +149,7 @@ feature: Configuration, Orders
 |[!UICONTROL Default "What's This" Text Message]|Store View|The text message that appears when the customer clicks the "What's this?" link from the product view page.|
 |[!UICONTROL Manufacturer's Suggested Retail Price]|Global|The retail price as suggested by the manufacturer (MSRP).|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order by SKU Settings]
 
@@ -166,7 +166,7 @@ feature: Configuration, Orders
 |[!UICONTROL Enable Order by SKU on My Account in Storefront]|Website|Determines if Order by SKU is available in the customer account dashboard. Options: <br/>**`Yes, for Everyone`** - The Order by SKU tab appears in the account dashboard of all customers. <br/>**`Yes, for Specified Customer Groups`** - The Order by SKU tab appears in the account dashboard for members of specified groups or a shared catalog. <br/>**`No`** - The Order by SKU tab is not available in the customer account.|
 |[!UICONTROL Customer Groups]|Website|Determines the Customer Groups. Options: `General` / `Retailer` / `Wholesale`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Instant Purchase]
 
@@ -179,7 +179,7 @@ feature: Configuration, Orders
 |[!UICONTROL Enabled]|Store View|Enables Instant Purchase for the store view, if the payment method, such as Braintree, has vault enabled. Options: `Yes` / `No`|
 |[!UICONTROL Button Text]|Store View|Specifies the text that appears on the Instant Purchase button. The default text is `Instant Purchase`.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Rate Limiting]
 
@@ -208,7 +208,7 @@ For more information about changing these settings, see [Configure the order arc
 |[!UICONTROL Archive Orders Purchased]|Global|Determines the number of days that pass before a completed order is archived. Default value: `30`|
 |[!UICONTROL Order  Statuses to be Archived]|Global|Determines the [status](../../stores-purchase/order-status.md) of orders to be archived. By default, orders with a status of either Complete or Closed are archived. Options: `Pending` / `Processing` / `Suspected Fraud` / `Complete` / `Closed` / `Canceled` / `On Hold`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA Settings]
 
@@ -224,4 +224,4 @@ For more information about changing these settings, see [Configure returns](../.
 |[!UICONTROL Enable RMA on Product Level]|Website|Determines the default value for the Enable RMA field in product information.|
 |[!UICONTROL Use Store Address]|Website|Determines the contact name and address that is used for shipments of returned merchandise. Options: <br/>**`Yes`** - Uses the [Point of Origin](../../stores-purchase/shipping-settings.md#point-of-origin) address from Shipping Settings. <br/>**`No`** - Opens the address form so you can enter an alternate address.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

@@ -18,8 +18,9 @@ The [!DNL Commerce] Support team does not have access to the account and cannot 
 
 ## Set up a shared account
 
-1. Before you begin, get the following information from the [!DNL Commerce] account of the **new user**:
+1. Before you begin, get the following information from the [!DNL Commerce] account of the **new shared access grantee**:
 
+   - The user must have already registered for an account at account.adobe.com and be logged in through account.magento.com.
    - The `Account ID` that is displayed at the upper-left corner of the _[!UICONTROL Magento]_ tab, just above the **Log Out** link.
    - The `Email` address that is associated with the account.
 
@@ -90,3 +91,7 @@ The following instructions are written from the perspective of a shared user who
 1. Find the account to be revoked under _[!UICONTROL Managing Users & Permissions]_ and click **[!UICONTROL Delete]**.
 
 1. When prompted to confirm, click **[!UICONTROL Delete User]**.
+
+ >[!NOTE]
+ >
+ >You cannot delete users with the Share Name of _Cloud Shared Access from MAG[XYZ]_ in this interface. For more details, refer to [How to delete users who were granted shared access via a Cloud project?](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users).

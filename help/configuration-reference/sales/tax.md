@@ -27,7 +27,7 @@ For more information about changing these settings, see [Tax classes](../../stor
 |[!UICONTROL Default Tax Class for Product]|Global|Identifies the default tax class that is used for products.|
 |[!UICONTROL Default Tax Class for Customer]|Global|Identifies the default tax class that is used for customers.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Calculation Settings]
 
@@ -44,7 +44,7 @@ For more information about changing these settings, see [Tax classes](../../stor
 |[!UICONTROL Apply Tax On]|Website|Determines if the tax applies to the original price, or to a custom price, if available. Options: `Custom price if available` / `Original price only`|
 |[!UICONTROL Enable Cross Border Trade]|Website|When enabled, applies consistent pricing across borders of regions with different tax rates. Options: `Yes` / `No` <br/><br/>**_Note:_** Using cross-border trade adjusts the profit margin by tax rate.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Default Tax Destination Calculation]
 
@@ -56,7 +56,7 @@ For more information about changing these settings, see [Tax classes](../../stor
 |[!UICONTROL Default State]|Store View|Determines the state upon which tax calculations are based. An asterisk (*) can function as a wildcard to indicate all states within the selected country. |
 |[!UICONTROL Default Post Code]|Store View|Identifies the postal code or ZIP code upon which tax calculations are based. An asterisk (*) can function as a wildcard to indicate all postal codes within the selected state.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Price Display Settings]
 
@@ -69,7 +69,7 @@ For more information about changing these settings, see [Configure price display
 |[!UICONTROL Display Product Prices in Catalog]|Store View|Determines if product prices published in the catalog include or exclude tax, or show two versions of the price; one with, and the other  without tax. Options: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` <br/><br/>**_Note:_** If you set the Display Product Prices field to `Including Tax`, the tax appears only if there is a tax rule that matches the tax origin or there is a customer address that matches the tax rule. Events that can trigger a match include customer account creation, login, or the use of the Tax and Shipping estimation tool in the shopping cart.|
 |[!UICONTROL Display Shipping Prices]|Store View|Determines if shipping prices include or exclude tax, or show two versions of the shipping price; one with, and the other without tax. Options: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shopping Cart Display Settings]
 
@@ -86,7 +86,7 @@ For more information about changing these settings, see [Configure shopping cart
 |[!UICONTROL Display Full Tax Summary]|Store View|Determines if the shopping cart includes a full tax summary. Options: `Yes` / `No`|
 |[!UICONTROL Display Zero Tax Subtotal]|Store View|Determines if the shopping cart includes a tax subtotal when the tax is zero. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Orders, Invoices, Credit Memos Display Settings]
 
@@ -105,7 +105,7 @@ For more information about changing these settings, see [Configure order, invoic
 |[!UICONTROL Display Gift Wrapping Prices]|Store View|![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce only) Determines if gift-wrapping prices are included in the subtotal. Options: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax`|
 |[!UICONTROL Display Printed Card Prices]|Store View|![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce only) Determines if printed card prices are included in the subtotal. Options: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Fixed Product Taxes]
 
@@ -124,4 +124,4 @@ For more information about changing these settings, see [Fixed product tax (FPT)
 |[!UICONTROL FPT Tax Configuration]|Website|Determines how FPT tax is calculated. Options: <br/>**`Not Taxed`** - Select this option if your taxing jurisdiction does not tax FPT. (For example, California.) <br/>**`Taxed`** - Select this option if your taxing jurisdiction does tax FPT. (For example, Canada.) <br/>**`Loaded and Displayed with Tax`** - Click this option if FPT is added to the order total before applying tax. (For example, EU countries.)|
 |[!UICONTROL Include FPT in Subtotal]|Website|Determines if FPT is included in the shopping cart subtotal. Options: <br/>**`Yes`** - Includes FPT in the shopping cart subtotal. <br/>**`No`** - FPT is not included in the subtotal, and is placed after the subtotal in the shopping cart.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

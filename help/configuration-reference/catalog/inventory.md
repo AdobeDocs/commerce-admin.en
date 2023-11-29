@@ -28,7 +28,7 @@ feature: Configuration, Inventory
 |[!UICONTROL Enable Inventory Check On Cart Load]|Global|Determines if an inventory check is performed when loading a product in the cart. Disabling this inventory check can improve performance for checkout steps, especially when there are many items in the cart. However, if you skip pre-validation, customers could see _out of stock_ errors later in the checkout process. Options: `Yes` / `No`|
 |[!UICONTROL Synchronize with Catalog]|Global|When set to `Yes`, inventory data is adjusted according to the catalog changes (such as product removals, product SKU changes, and product type changes) and keeps consistency between inventory and catalog. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Stock Options]
 
@@ -49,7 +49,7 @@ feature: Configuration, Inventory
 |[!UICONTROL Qty Increments]|Global| Establishes the number of products that make up a quantity increment.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |[!UICONTROL Automatically Return Credit Memo Item to Stock]|Global| Determines if items included on credit memos are automatically returned to inventory. Options: `Yes` / `No`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Admin Bulk Operations]
 
@@ -66,7 +66,7 @@ feature: Configuration, Inventory
 |[!UICONTROL Run asynchronously]|Global|Determines if you run bulk operations asynchronously for mass product actions including [bulk](../../inventory-management/bulk-assignment.md) assign sources, unassign sources, and [transfer inventory to source](../../inventory-management/inventory-transfer.md). It collects bulk actions up to the _[!UICONTROL Asynchronous batch size]_, then runs those actions. This feature is disabled by default. We recommend reviewing your performance with bulk actions before enabling. Options: <br/>**`Yes`** - Runs all bulk operations for [!DNL Inventory Management] asynchronously. To enable, you must configure an asynchronous queue manager. <br/>**`No`** - Default. Does not run bulk operations asynchronously.|
 |[!UICONTROL Asynchronous batch size]|Global|Set **[!UICONTROL Run asynchronously]** to `Yes` to enter a value for _[!UICONTROL Asynchronous batch size]_ field. <br/>The default batch size is 100. When bulk processes reach this amount, they are executed.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Inventory Indexer Settings]
 
@@ -74,12 +74,12 @@ feature: Configuration, Inventory
 |--- |--- |--- |
 |[!UICONTROL Stock/Source reindex strategy]|Global|Determines the strategy used for stock/source reindexing. Options: `Synchronous` / `Asynchronous` (an asynchronous queue manager must be configured for async mode)|
 
+{style="table-layout:auto"}
+
 >[!NOTE]
 >
 > Due to the dependencies of inventory updates for the order-related activities, the inventory indexer is also triggered on product save, regardless of  the `Synchronous` or `Asynchronous` setting.
 
-
-{:style="table-layout:auto"}
 
 ## [!UICONTROL Distance Provider for Distance Based SSA]
 
@@ -91,7 +91,7 @@ feature: Configuration, Inventory
 |--- |--- |--- |
 |[!UICONTROL Provider]|Global|Determines the provider to use for the Distance Priority Source Selection Algorithm. This feature is enabled by default. Options: <br/>**`Google MAP`** - Uses Google services to calculate the distance and time between the shipping destination address and source locations (address and GPS coordinates). This option requires a Google API key and may incur charges through Google. <br/>**`Offline Calculation`** - Calculates the distance using an embedded database to determine the closest source to the shipping destination address. To use this option, you might require developer assistance to initially download the database location content for all countries you ship to using a command line.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google Distance Provider]
 
@@ -105,4 +105,4 @@ feature: Configuration, Inventory
 |[!UICONTROL Computation mode]|Global|Determines the directions and paths to calculate the distance from the shipping address and all sources assigned to the stock. By default, calculations use the driving mode. Options: <br/>**`Driving`** - Default setting, requests standard driving directions using the road network. <br/>**`Walking`** - Requests walking directions using pedestrian paths and sidewalks (where available). <br/>**`Bicycling`** - Requests bicycling directions using bicycle paths and preferred streets (currently only available in the US and some Canadian cities).|
 |[!UICONTROL Value]|Global|Indicates what to calculate and return for the distance and time for the source locations to the shipping destination address. The Distance Priority Algorithm recommends the source with the shortest distance or time to the shipping destination address, which delivers faster and possibly cheaper to fulfill shipments. Options: <br/>**`Distance`** - Returns the distance between points in metrics (kilometers and meters) or imperial (miles and feet). <br/>**`Time to Destination`** - Returns the time required to travel from the source locations to the shipping address in hours and minutes.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

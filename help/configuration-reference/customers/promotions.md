@@ -26,7 +26,7 @@ feature: Configuration, Promotions/Events
 |[!UICONTROL Email Send Failure Threshold]|Global|The number of times the reminder attempts to send out notifications to specific email address and fails. When the value is set to 0, there is no threshold, and notifications continue to be sent despite any failures.|
 |[!UICONTROL Reminder Email Sender]|Store View|The store identity that appears as the sender of the email.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Auto Generated Specific Coupon Codes]
 
@@ -42,4 +42,4 @@ feature: Configuration, Promotions/Events
 |[!UICONTROL Code Suffix]|Global|A value that is appended to the end of all codes. If you do not want to use a suffix, leave the field blank.|
 |[!UICONTROL Dash Every X Characters]|Global|The interval for inserting a dash (-) into all coupon codes. If you do not want to use a dash, leave the field blank. <br/>_**Note:**_ Coupon  codes that differ by only a dash are considered to be different codes.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

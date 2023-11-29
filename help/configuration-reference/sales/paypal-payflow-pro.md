@@ -29,7 +29,7 @@ feature: Configuration, Payments
 |[!UICONTROL Enable this Solution]|Website|Determines if PayPal Payflow Pro is available your customers as a payment method.|
 |[!UICONTROL Enable PayPal Credit]|Website|Determines if PayPal Credit is available to your customers as a payment option.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Advertise PayPal Credit]
 
@@ -44,7 +44,7 @@ feature: Configuration, Payments
 |[!UICONTROL Catalog Product Page]|Website|Determines the position and size of the [!DNL PayPal Credit] banner on product pages. Options: (same as for [!UICONTROL Home Page])|
 |[!UICONTROL Checkout Cart Page]|Website|Determines the position and size of the [!DNL PayPal Credit] banner on cart page. Options: (same as for [!UICONTROL Home Page])|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Basic Settings - PayPal Payflow Pro]
 
@@ -58,7 +58,7 @@ feature: Configuration, Payments
 |**[!UICONTROL Credit Card Settings]**|||
 |[!UICONTROL Allowed Credit Cart Types]|Website|Determines the credit cards that are available to customers during checkout. Select each supported card. Options: `American Express` (requires an extra agreement) / `Visa` / `MasterCard` / `Discover` / `JCB`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Advanced Settings]
 
@@ -74,4 +74,4 @@ feature: Configuration, Payments
 |[!UICONTROL Transfer Cart Line Items]|Website|Displays a full summary of the line items from the customer's shopping cart on the PayPal site. Options: `Yes` / `No`|
 |[!UICONTROL Skip Order Review Step]|Website|Determines if customers can complete the  transaction from the PayPal site, or are required to return to your store and complete the Order Review step before submitting the order. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
