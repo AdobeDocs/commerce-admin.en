@@ -59,5 +59,3 @@ feature: Configuration, Page Content
 >[!TIP]
 >
 >Page Builder makes it easy to create content-rich pages with custom layouts that enhance your visual storytelling and to drive customer engagement and loyalty. These features are designed to improve quality and reduce the time and expense of producing custom pages. For more information about these features and how you can use them to create engaging content for your Adobe Commerce or Magento Open Source store, see the [_Page Builder User Guide_](../../page-builder/guide-overview.md).
-
-{style="table-layout:auto"}
