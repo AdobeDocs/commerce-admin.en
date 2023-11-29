@@ -26,7 +26,7 @@ feature: Configuration, System, Reporting
 |[!UICONTROL New Relic Application Name]|Store View|The name that you have assigned to your [!DNL New Relic] integration.|
 |[!UICONTROL Send Adminhtml and Frontend as Separate Apps]|Store View|An option to send report data collected for the storefront and Admin as separate apps to New Relic. This option requires a name entered for the [!UICONTROL New Relic Application Name]. The feature appends the application name with an underscore to the collected app data. For example: `MyStore_Adminhtml`, `MyStore_frontend`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Cron]
 
@@ -38,4 +38,4 @@ feature: Configuration, System, Reporting
 |--- |--- |--- |
 |[!UICONTROL Enable Cron]|Store View|Determines if [!DNL New Relic] reports can be run on schedule with [Cron](../../systems/cron.md). Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

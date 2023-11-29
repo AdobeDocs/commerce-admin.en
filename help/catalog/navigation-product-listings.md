@@ -93,7 +93,7 @@ The Pagination settings appear at the top and bottom of the list, and control th
 |![Show per page](./assets/control-pagination-show-per-page.png)|[!UICONTROL Show Per Page] - Determines how many products appear per page.|
 |![Pagination links](./assets/control-pagination.png)|Pagination links - Navigation links to other pages.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ### Configure the pagination controls
 

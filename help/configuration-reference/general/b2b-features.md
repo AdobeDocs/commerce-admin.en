@@ -24,7 +24,7 @@ feature: Configuration, B2B
 | [[!UICONTROL Enable Quick Order]](../../b2b/quick-order.md)                      | Website                                                                | When enabled, allows customers and guests to quickly place orders based on SKU or product name. Options: `Yes` / `No`                                                                        |
 | [[!UICONTROL Enable Requisition List]](../../b2b/configure-requisition-lists.md) | Website                                                                | When enabled, allows customers to create and manage requisition lists from their account dashboard.                                                                                          |
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ![B2B Features with companies and shared catalogs enabled](./assets/b2b-features-company-enabled.png)<!-- zoom -->
 
@@ -36,7 +36,7 @@ When the Company feature is enabled, additional fields are available for Shared 
 | [!UICONTROL Enable Shared Catalog direct products price assigning] | Website                                                                | When the _[!UICONTROL Enable Shared Catalog]_ field is set to `Yes`, this option is available. When enabled, only products that are assigned to a shared catalog are stored in the price index. Products that are not assigned to the shared catalog are not displayed on the storefront. Options: `Yes` / `No` |
 | [[!UICONTROL Enable B2B Quote]](../../b2b/configure-quotes.md)     | Website                                                                | When enabled, allows company buyers to submit a request for a quote from the shopping cart. Options: `Yes` / `No`                                                                                                                                                                                               |
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Default B2B Payment Methods]
 
@@ -47,7 +47,7 @@ When the Company feature is enabled, additional fields are available for Shared 
 |[!UICONTROL Applicable Payment Methods]|Global|Determines the selection of payment methods that are available to B2B buyers. Options: `All Payment Methods` / `Specific Payment Methods`|
 |[!UICONTROL Payment Methods]|Global|Specifies each payment method that is available to B2B buyers.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Default B2B Shipping Methods]
 
@@ -58,7 +58,7 @@ When the Company feature is enabled, additional fields are available for Shared 
 |[!UICONTROL Applicable Shipping Methods]|Global|Determines the selection of shipping methods that are available by default to B2B buyers. Options: `All Shipping Methods` / `Specific Shipping Methods` |
 |[!UICONTROL Shipping Methods]|Global|Specifies each shipping method that is available by default to B2B buyers. <br/>**_Note:_** You can also limit the shipping methods for a specific [company account](../../b2b/account-companies.md).|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order Approval Configuration]
 
@@ -68,6 +68,6 @@ When the Company feature is enabled, additional fields are available for Shared 
 |------- |----------------------------------------------------------------------- |------------ |
 | [[!UICONTROL Enable Purchase Orders]](../../stores-purchase/purchase-order.md) | Website                                                                | When enabled, allows companies to create purchase orders. Options: `Yes` / `No` |
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 

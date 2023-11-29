@@ -23,4 +23,4 @@ feature: Configuration, Merchandising
 |[!UICONTROL Color Attribute Code]|Global|Specifies the attribute that is used to sort products by color. Default value: `color`|
 |[!UICONTROL Color Order]|Global|Determines the sort order when products are sorted by color. Enter each color on a separate row.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

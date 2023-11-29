@@ -31,7 +31,7 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Show Method if Not Applicable]|Website|Determines if Flat Rate appears as an option during checkout if the method does not apply to the purchase. Options: `Yes` / `No`|
 |[!UICONTROL Sort Order]|Website|A number that determines the order that Flat Rate appears when listed with other delivery methods during checkout.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Free Shipping]
 
@@ -52,7 +52,7 @@ feature: Configuration, Shipping/Delivery
 |Show Method if Not Applicable|Website|Determines if Free Shipping appears as an  option during checkout if the method does not apply to the purchase. Options: `Yes` / `No`|
 |[!UICONTROL Sort Order]|Website|A number that determines the order that  Free Shipping appears when listed with other delivery methods during checkout.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Table Rates]
 
@@ -75,7 +75,7 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Show Method if Not Applicable]|Website|Determines if Table Rates appears as an  option during checkout if the method does not apply to the purchase. Options: `Yes` / `No`|
 |[!UICONTROL Sort Order]|Website|A number that determines the order that Table Rates appears when listed with other delivery methods during checkout.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ### [!UICONTROL In-Store Delivery]
 
@@ -92,7 +92,7 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Search Radius]|Website| The radius, in km, to use when searching for pickup locations.|
 |[!UICONTROL Displayed Error Message]|Store View|A message that displays when a customer selects in-store pickup, but the delivery method is not available.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Carriers]
 
@@ -123,7 +123,7 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Origin of the Shipment]|Website|(UPS XML Only) The country or region where the product shipment originates.|
 |[!UICONTROL Password]|Store View|Your UPS shipper account password.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ![UPS Package Information](./assets/delivery-methods-ups-packaging-settings.png)<!-- zoom -->
 
@@ -146,7 +146,7 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Handling Applied]|Website|Specifies whether handling fee is applied to each order or to each package within an order.|
 |[!UICONTROL Handling Fee]|Website|Sets the handling that is included with the shipping rate price. Handling fee can be set as a fixed amount or a percentage. <br/><br/>**_Note:_** If typing a percentage amount, use the decimal format `0.25` for 25%.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ![UPS Allowed Methods](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
 
@@ -161,7 +161,7 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Free Shipping Amount Threshold]|Website|Sets the minimum total amount that an order must reach to qualify for free shipping.|
 |[!UICONTROL Displayed Error Message]|Store View|The error message that is displayed when this shipping method is unavailable for any reason.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ![UPS Applicable Countries and Other Settings](./assets/delivery-methods-ups-ship-to.png)<!-- zoom -->
 
@@ -175,7 +175,7 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Debug]|Website|Specifies if data transmissions between your store and UPS are logged in the system for debugging. Unless there is an issue that must be tracked and logged, this option should be set to `No`.|
 |[!UICONTROL Sort Order]|Website|A number that determines the order that UPS appears when listed with other delivery methods during checkout. Enter `0` for the top of the list.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ### [!UICONTROL USPS]
 
@@ -192,7 +192,7 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Password]|Website|Your USPS shipper account password.|
 |[!UICONTROL Mode]|Website|Determines the mode of transmission used for data sent to the USPS system. Options include: <br/>**`Development`** - USPS does not verify that data received from the Commerce server is sent over SSL. <br/>**`Live`** - USPS verifies that data received from the Commerce server is sent over a secure socket layer (SSL).|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ![USPS Packaging Settings](./assets/delivery-methods-usps-packaging.png)<!-- zoom -->
 
@@ -207,7 +207,7 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Machinable]|Website|Specifies whether the package can be processed by machine. This option affects the calculation of the shipping rate.|
 |[!UICONTROL Maximum Package Weight]|Website|Sets the maximum weight that a package can be as specified by USPS. If the products ordered exceeds the maximum package weight, this shipping option is not available.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ![USPS Handling Fee Settings](./assets/delivery-methods-usps-handling-fee.png)<!-- zoom -->
 
@@ -220,7 +220,7 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Handling Applied]|Website|Specifies whether handling fee is applied to each order or to each package within an order.|
 |[!UICONTROL Handling Fee]|Website|Sets the handling that is included with the shipping rate price. Handling fee can be set as a fixed amount or a percentage. <br/><br/>**_Note:_** When typing a percentage amount, use the decimal format `0.25` for 25%.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ![USPS Allowed Methods](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
 
@@ -234,7 +234,7 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Minimum Order Amount for Free Shipping]|Website|Sets the minimum order amount that must be met to qualify for free shipping.|
 |[!UICONTROL Displayed Error Message]|Store View|The error message that appears when USPS is unavailable for any reason.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ![USPS Applicable Countries](./assets/delivery-methods-usps-countries.png)<!-- zoom -->
 
@@ -248,7 +248,7 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Debug]|Website|Determines if a log of data transmissions between your store and USPS is maintained by the system for debugging. Unless there is an issue that must be tracked and logged, this option should be set to `No`.|
 |[!UICONTROL Sort Order]|Website|A number that determines the order that USPS appears when listed with other delivery methods during checkout. Enter `0` for the top of the list.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ### [!UICONTROL FedEx]
 
@@ -270,7 +270,7 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Sandbox Mode]|Website|To run FedEx transactions in a test environment, set Sandbox Mode to `Yes`. Options: `Yes` / `No`.|
 |[!UICONTROL Web-Services URL]|Website|The URL that is required depends on the Sandbox Mode setting. Options: <br/>**`Production`** - The URL to access FedEx web services when the store is live. <br/>**`Sandbox`** - The URL to access the  testing environment for FedEx web services.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ![FedEx Packaging](./assets/delivery-methods-fedex-packaging.png)<!-- zoom -->
 
@@ -284,7 +284,7 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Dropoff]|Website|From the list, select the pick-up method: <br/>**`Regular Pickup`** - (Default) If you have a high volume of shipments, it can be cost effective to arrange regular pickups. <br/>**`Request Courier`** - You must call and request a FedEx courier to pick up shipments. <br/>**`Drop Box`** - You must drop off shipments at your local FedEx drop off box. <br/>**`Business Service Center`** - You must drop off shipments at your local FedEx business service center. <br/>**`Station`** - You must drop off shipments at your local FedEx station.|
 |[!UICONTROL Maximum Package Weight]|Website|The default for FedEx is 150 pounds. Consult your shipping carrier for maximum supported weight. Using the default value is recommended unless you have special arrangements with FedEx.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ![FedEx Handling Fee](./assets/delivery-methods-fedex-handling-fee.png)<!-- zoom -->
 
@@ -297,7 +297,7 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Handling Applied]|Website|Determines how handling fees are applied. Options: `Per Order` / `Per Package`|
 |[!UICONTROL Handling Fee]|Website|Specifies the amount charged as a handling fee, based on the method used to calculate the amount. If the charge is based on a fixed fee, enter the amount as a decimal, such as `4.90`. If the handling fee is based on a percentage of the order, enter the amount as a percentage. For example, to charge six percent of the order, enter the value as `.06`.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ![FedEx Delivery Methods](./assets/delivery-methods-fedex-delivery-methods.png)<!-- zoom -->
 
@@ -314,7 +314,7 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Free Shipping Amount Threshold]|Website|Specifies the minimum order amount that is required for free shipping.|
 |[!UICONTROL Displayed Error Message]|Store View|The message that appears when FedEx is unavailable for any reason. You can use the default message or enter another.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ![FedEx Applicable Countries](./assets/delivery-methods-fedex-applicable-countries.png)<!-- zoom -->
 
@@ -329,7 +329,7 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Show Method if Not Applicable]|Website|Determines when FedEx appears as a shipping method during checkout. Options: <br/>**`Yes`** - The FedEx shipping option is displayed in the delivery methods list, regardless of whether the order qualifies to use it. <br/>**`No`** - The FedEx shipping option is not displayed in the delivery methods list if it is not applicable to the order (for example, if the order weight exceeds the maximum weight amount).|
 |[!UICONTROL Sort Order]|Website|A number that determines the order that FedEx appears when listed with other delivery methods during checkout. Enter `0` for the top of the list.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ### [!UICONTROL DHL]
 
@@ -347,7 +347,7 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Password]|Website|Your DHL shipper account password.|
 |[!UICONTROL Account Number]|Website|Your DHL shipper account number.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ![DHL Package Settings](./assets/delivery-methods-dhl-package-settings.png)<!-- zoom -->
 
@@ -363,7 +363,7 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Weight Unit]|Store View|Determines the unit of measurement for weight that is used in shipping calculations. Options: `Pounds` / `Kilograms`|
 |[!UICONTROL Size]|Store View|Determines the size of the package. Options: <br/>**`Regular`** - Packages shipped conform to of DHL standard packaging methods. In the [!UICONTROL Allowed Methods] list, select each packaging method used to ship products from your store. <br/>**`Specific`** - If packages shipped have custom dimensions, complete the following: [!UICONTROL Height (cm)] / [!UICONTROL Depth (cm)] / [!UICONTROL Width (cm)]|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ![DHL Allowed Methods](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
 
@@ -379,7 +379,7 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Free Shipping with Minimum Order Amount]|Website|Set to one of the following: <br/>**`Enable`** - To allow free DHL shipping for orders that meet the minimum amount. <br/>**`Disable`** - To not offer free DHL shipping with minimum order.|
 |[!UICONTROL Minimum Order Amount for Free Shipping]|Website|If you enable [!UICONTROL Free Shipping with Minimum Order], enter the minimum order amount value in the field.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ![DHL Applicable Countries](./assets/delivery-methods-dhl-applicable-countries.png)<!-- zoom -->
 
@@ -394,4 +394,4 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Debug]|Website|Creates a log file with error information.|
 |[!UICONTROL Sort Order]|Website|A number that determines the order in which DHL appears when listed with other delivery methods during checkout. To place it at the top of the list, enter `0`.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

@@ -18,7 +18,7 @@ feature: Configuration, Communications
 |--- |--- |--- |
 |[!UICONTROL Enable RSS]|Store View|Enables customers to receive RSS feeds from the store.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Wish List]
 
@@ -30,7 +30,7 @@ feature: Configuration, Communications
 |--- |--- |--- |
 |[!UICONTROL Enable RSS]|Store View|When enabled, an RSS feed link appears at the top of wish list pages. The wish list sharing page includes a checkbox that the customer can select to link to the feed from shared wish lists.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Catalog]
 
@@ -45,7 +45,7 @@ feature: Configuration, Communications
 |[!UICONTROL Coupons/Discounts]|Store View|When enabled, publishes notification of any coupons or discounts.|
 |[!UICONTROL Top Level Category]|Store View|Publishes notification of any change to the top-level category structure of your catalog, which is reflected in the main menu.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order]
 
@@ -57,4 +57,4 @@ feature: Configuration, Communications
 |--- |--- |--- |
 |[!UICONTROL Customer Order Status Notification]|Store View|Gives customers the ability to track their order status by RSS feed. When enabled, an RSS feed link appears on the order|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
