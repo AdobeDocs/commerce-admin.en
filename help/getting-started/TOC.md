@@ -63,7 +63,7 @@ recommendations: noDisplay
   + [Customer reports](customer-reports.md)
   + [Product reports](product-reports.md)
   + [Private sales reports](private-sales-reports.md)
-  + [Business intelligence tools](business-intelligence.md)
+  + [Commerce Intelligence tools](business-intelligence.md)
   + [New Relic reporting](new-relic-reporting.md)
 + Resources {#resources}
   + [Ecosystem](resources.md)
