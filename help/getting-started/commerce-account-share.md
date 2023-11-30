@@ -40,7 +40,7 @@ The [!DNL Commerce] Support team does not have access to the account and cannot 
 
 1. Under _[!UICONTROL Shared Information]_, do the following:
 
-   - To identify the shared account, enter a **[!UICONTROL Share Name]**. This name is for internal reference, and is visible only to you and the person with whom you share your account. Hint: do not enter a **Share Name** that begins with "CLOUD SHARED ACCESS FROM MAG XYX"
+   - To identify the shared account, enter a **[!UICONTROL Share Name]**. This name is for internal reference and is visible only to you and the person with whom you share your account. (Do not enter a share name that begins with `CLOUD SHARED ACCESS FROM MAG XYX`.)
    - If you want to share your personal contact information with the new user, enter **[!UICONTROL Your Email]** and **[!UICONTROL Your Phone]**.
 
 1. Under _[!UICONTROL Grant Account Permissions]_, select the checkbox of each [!DNL Commerce] product and service that you want to share.
@@ -87,7 +87,11 @@ The following instructions are written from the perspective of a shared user who
 
 1. In the left navigation panel, click **[!UICONTROL Shared Access]**.
 
-1. Find the account to be revoked under _[!UICONTROL Managing Users & Permissions]_ and click **[!UICONTROL Delete]**. (NOTE: If  **[!UICONTROL Delete]** is not present, check whether the **[!UICONTROL Share Name]** begins with `Cloud Shared Access from MAG XYZ` - [those cannot be deleted typically.](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users))
+1. Find the account to be revoked under _[!UICONTROL Managing Users & Permissions]_ and click **[!UICONTROL Delete]**. 
+
+   >[!NOTE]
+   >
+   > If  **[!UICONTROL Delete]** is not displayed, check whether the **[!UICONTROL Share Name]** begins with `Cloud Shared Access from MAG XYZ` - typically, [these accounts](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users) cannot be deleted.
 
 1. When prompted to confirm, click **[!UICONTROL Delete User]**.
 
