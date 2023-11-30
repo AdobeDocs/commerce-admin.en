@@ -48,6 +48,6 @@ The selection of [product reports](product-reports.md) includes Views, Bestselle
 
 [Statistics](sales-reports.md#refresh-statistics) is a tool that reduces the performance impact of generating reports by calculating and storing statistical data. Rather than recalculate the statistics every time a report is generated, the stored statistics are used until you refresh the statistics.
 
-### [!DNL Business Intelligence]
+### [!DNL Commerce Intelligence]
 
-Integrated [[!DNL Business Intelligence]](business-intelligence.md) tools provide the insight that you need for making strategic business decisions.
+Integrated [[!DNL Commerce Intelligence]](business-intelligence.md) tools provide the insight that you need for making strategic business decisions.

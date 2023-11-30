@@ -23,7 +23,7 @@ For more information about changing these settings, see [Shipping settings](../.
 |[!UICONTROL Street Address]|Website|The point-of-origin street address.|
 |[!UICONTROL Street Address Line 2]|Website|An extra line for the point-of-origin street address, if needed.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shipping Policy Parameters]
 
@@ -34,4 +34,4 @@ For more information about changing these settings, see [Shipping settings](../.
 |[!UICONTROL Apply Custom Shipping Policy]|Website|Determines if your shipping policy appears during checkout. Options: `Yes` / `No`|
 |[!UICONTROL Shipping Policy]|Store View|Contains your shipping policy as text.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

@@ -22,4 +22,4 @@ feature: Configuration, Customer Service
 | [!UICONTROL Title for Login as Customer opt-in checkbox] | Website | Adds a title for the `Login as customer` checkbox. |
 | [!UICONTROL Login as Customer checkbox tooltip] | Website | Adds a tooltip for the `Log in as customer` checkbox. |
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

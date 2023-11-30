@@ -33,7 +33,7 @@ feature: Configuration, Rewards
 |[!UICONTROL Deduct Reward Points from Refund Amount Automatically]|Global|Determines if reward points are automatically deducted from the amount of a refund. Options: `Yes` / `No`.|
 |[!UICONTROL Landing Page]|Store View|Specifies the CMS page that explains your reward points program. A link to the default Rewards page appears at the locations in your store where points can be earned.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Actions for Acquiring Reward Points by Customers]
 
@@ -54,7 +54,7 @@ feature: Configuration, Rewards
 |[!UICONTROL Review Submission]|Website|Determines the number of points earned by a customer who submits a review that is approved for publication.|
 |[!UICONTROL Rewarded Reviews Submission Quantity Limit]|Website|Limits the number of reviews that can be used to earn points per customer. Leave blank for no limit.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Notification Settings]
 
@@ -70,4 +70,4 @@ feature: Configuration, Rewards
 |[!UICONTROL Reward Points Expiry Warning Email]|Store View|Determines the template of the email that customers receive when the expiration warning limit has been reached for a batch of points. Default template: `Reward Points Expiry Warning`|
 |[!UICONTROL Expiry Warning before (days)]|Global|Specifies the number of days before point expiration to send the notification. Leave blank to send no expiration notifications. Notification is not sent if the number of days entered is greater than the remaining lifetime of the points.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

@@ -28,4 +28,4 @@ feature: Configuration, B2B
 |--- |--- |--- |
 |[!UICONTROL Number of Requisition Lists]|Store View|Determines the maximum number of requisition lists that can be maintained per customer account. The minimum number is `2`, and the maximum number is `999`.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
