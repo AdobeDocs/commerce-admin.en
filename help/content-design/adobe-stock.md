@@ -59,7 +59,7 @@ Configuring the Adobe Stock integration for Adobe Commerce is a two-step process
 
 1. Click **[!UICONTROL Next]**.
 
-1. Review thw available scopes and click **[!UICONTROL Save configured API]**.
+1. Review the available scopes and click **[!UICONTROL Save configured API]**.
 
 1. On the page that follows, copy your **[!UICONTROL Client ID]** (API key) and **[!UICONTROL Client secret]**.
 
