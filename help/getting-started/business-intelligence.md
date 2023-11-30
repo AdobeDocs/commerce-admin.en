@@ -1,12 +1,12 @@
 ---
 title: '[!DNL Commerce Intelligence] tools'
-description: Learn how Adobe Commerce and Magento Open Source merchants can use business intelligence tools to gain the insight used to make sound business decisions.
+description: Learn how Adobe Commerce and Magento Open Source merchants can use Commerce Intelligence tools to gain the insight used to make sound business decisions.
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
 ---
 # [!DNL Commerce Intelligence] tools
 
-Use business intelligence tools to gain the insight used to make sound business decisions.
+Use Commerce Intelligence tools to gain the insight used to make sound business decisions.
 
 ## [!DNL Commerce Intelligence] account
 
@@ -14,7 +14,7 @@ When you activate a [!DNL Commerce Intelligence] account through Adobe, you get 
 
 ## [!DNL Advanced Reporting]
 
-[!DNL Advanced Reporting] is included with Adobe Commerce and Magento Open Source. This feature gives you access to a suite of dynamic reports that are based on your product, order, and customer data, with a personalized dashboard that is tailored to your business needs. While [!DNL Advanced Reporting] uses [!DNL Commerce Intelligence] for analytics, you do not need to have a Business Intelligence account to use [!DNL Advanced Reporting].
+[!DNL Advanced Reporting] is included with Adobe Commerce and Magento Open Source. This feature gives you access to a suite of dynamic reports that are based on your product, order, and customer data, with a personalized dashboard that is tailored to your business needs. While [!DNL Advanced Reporting] uses [!DNL Commerce Intelligence] for analytics, you do not need to have a Commerce Intelligence account to use [!DNL Advanced Reporting].
 
 For technical information, see the [[!DNL Advanced Reporting]][2]{:target="_blank"} topic in the developer documentation.
 
@@ -95,7 +95,7 @@ If you get a 404 "Page Not Found" message, verify that your store meets the requ
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Extensions]_ > **[!UICONTROL Integration]**.
 
-1. Verify that the **[!UICONTROL Commerce Analytics user]** integration appears in the list and the **[!UICONTROL Status]** is `Active`.
+1. Verify that the **[!UICONTROL Magento Analytics user]** integration appears in the list and the **[!UICONTROL Status]** is `Active`.
 
 1. To reestablish the user, click **[!UICONTROL Reauthorize]** and do the following:
 
