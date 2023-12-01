@@ -75,6 +75,10 @@ To select up-sell products:
 
 1. When complete, click **[!UICONTROL Add Selected Products]**.
 
+>[!NOTE]
+>
+>Parent bundle product is always displayed as an up-sell product for all its child products automatically.
+
 ## Cross-sells
 
 Cross-sell items are similar to impulse purchases positioned next to the cash register in the checkout line. Products offered as a cross-sell appear on the shopping cart page, just before the customer begins the checkout process.
