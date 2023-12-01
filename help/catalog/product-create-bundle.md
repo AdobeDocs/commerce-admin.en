@@ -19,6 +19,10 @@ The options appear when the customer clicks either **[!UICONTROL Customize]** or
 >
 >Minimum Advertised Price (MAP) is not available for Bundle products that use dynamic pricing.
 
+>[!NOTE]
+>
+>Parent bundle product is always displayed as an up-sell product for all its child products automatically.
+
 If [Instant Purchase](../stores-purchase/checkout-instant-purchase.md) is available, the _Instant Purchase_ button appears below the _Add to Cart_ button for each item in the bundle.
 
 ![Customize Bundle](./assets/product-bundle-customize.png){width="600" zoomable="yes"}
@@ -270,3 +274,5 @@ Bundle product stock status is **_not automatically changed to Out of Stock_** w
 ![Checkbox](../assets/checkbox.png) The quantity can be a preset or user-defined value. However, do not assign the _[!UICONTROL User Defined]_ property to checkbox or multiple-select input types.
 
 ![Checkbox](../assets/checkbox.png) Bundle items can be shipped together or separately.
+
+![Checkbox](../assets/checkbox.png) Parent bundle product is always displayed as an up-sell product for all its child products automatically.
