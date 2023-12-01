@@ -18,6 +18,7 @@ There are multiple ways to secure your store and maintain your data security:
 
 Visit the [Security Center](https://helpx.adobe.com/security.html){:target="_blank"} to get the latest news about potential vulnerabilities, register for Adobe Security notifications, and access the Adobe Trust Center.
 
+For information about security best practices, see [Secure your Commerce Site and Infrastructure](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) in the _Implementation Playbook_.
 ![Security Center](./assets/product-security-home.png){width="700" zoomable="yes"}
 
 ## Security action plan
