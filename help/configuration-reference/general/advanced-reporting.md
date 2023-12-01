@@ -22,7 +22,7 @@ _[!DNL Advanced Reporting]_ is a cloud-based service that is powered by [Adobe C
 |[!UICONTROL Industry]|Website|Identifies your business industry to personalize [!DNL Advanced Reporting].|
 |[!UICONTROL Time of day to send data]|Global|Determines the time each day when your store data is sent to [!DNL Advanced Reporting]. The time is based on a 24-hour clock, and includes the minute, hour, and second in your time zone.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 [1]: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html
 [2]: https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/business-intelligence.html#advanced-reporting

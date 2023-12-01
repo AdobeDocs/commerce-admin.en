@@ -1,9 +1,9 @@
 ---
-title: Disable Sources
+title: Disable inventory sources
 description: Learn how to disable sources and modify information, including location and point of contact.
 exl-id: 3fcbfa3c-8bb7-4e08-a395-9760bbd69f04
 ---
-# Disable Sources
+# Disable sources
 
 To ensure that all order data retains in [!DNL Commerce], sources cannot be deleted. Sources, orders, and shipments are directly connected to each other. You can disable sources and modify information including location and point of contact.
 

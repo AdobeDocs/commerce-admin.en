@@ -1,6 +1,6 @@
 ---
 title: Security
-description: Learn about the tools available to secure your store and data, and guidelines for a security action plan if your detect a compromise.
+description: Learn about the tools available to secure your stores and data, and guidelines for a security action plan if your detect a compromise.
 exl-id: 10eef4ac-de83-4083-9ba3-e42c8eb33781
 feature: Security, Site Management
 ---
@@ -28,7 +28,7 @@ If you suspect that your Adobe Commerce or Magento Open Source site is compromis
 
 1. **Clean**: Hire a [qualified consultant](https://solutionpartners.adobe.com/s/directory/?partner_type=1) or online service to clean your site of all malicious code. Some Commerce community members recommend [[!DNL Sucuri Website Malware Removal]](https://sucuri.net/website-antivirus/malware-removal). Check the `/media` folder for leftover executable code. Remove all unknown Admin users and reset all Admin passwords.
 
-1. **Protect**: Keep your Commerce installation up to date with the most current release. If you are using an older version, apply all security patches as they become available. Review and follow [Commerce Security Best Practices](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adobe-commerce-best-practices-guide.pdf){:target="_blank"}. Subscribe to [Commerce Security Alerts](https://www.adobe.com/subscription/adbeSecurityNotifications.html).
+1. **Protect**: Keep your Commerce installation up to date with the most current release. If you are using an older version, apply all security patches as they become available. Review and follow [Commerce security best practices](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adobe-commerce-best-practices-guide.pdf). Subscribe to [Commerce Security Alerts](https://www.adobe.com/subscription/adbeSecurityNotifications.html).
 
 1. **Report**: If you think that you have found a specific vulnerability in Commerce, [open an issue with Adobe](https://hackerone.com/adobe?type=team) and include technical details.
 

@@ -28,4 +28,4 @@ feature: Configuration, Security, Payments
 |[!UICONTROL API Identifier]|Website|The API Identifier from your [!DNL CardinalCommerce] merchant account.|
 |[!UICONTROL Debug]|Website|Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

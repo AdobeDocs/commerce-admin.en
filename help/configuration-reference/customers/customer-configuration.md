@@ -18,7 +18,7 @@ feature: Configuration, Customers
 |--- |--- |--- |
 |[!UICONTROL Share Customer Accounts]|Global|Determines the scope of customer accounts in the store hierarchy. Options: <br/>**`Global`** - Customer account information is shared with every website and store in the Commerce installation. <br/>**`Per Website`** - Customer account information is limited to the website where the account was created.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Online Customers Options]
 
@@ -31,7 +31,7 @@ feature: Configuration, Customers
 |[!UICONTROL Online Minutes Interval]|Global|Determines the length of time that a customer's online activity is accessible from the Admin. Leave empty for a default interval of 15 minutes.|
 |[!UICONTROL Customer Data Lifetime]|Global|Determines the number of minutes before unsaved data that is entered by the customer expires. By default, unsaved data expires after 60 minutes.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Create New Account Options]
 
@@ -58,7 +58,7 @@ feature: Configuration, Customers
 |[!UICONTROL Welcome Email]|Store View|Identifies the email template that is used for the Welcome message that is sent after the account is confirmed.|
 |[!UICONTROL Generate Human-Friendly Customer ID]|Global|Determines if the field that is used to enter and store the VAT ID number is visible from the storefront. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Password Options]
 
@@ -82,7 +82,7 @@ feature: Configuration, Customers
 |[!UICONTROL Minimum Password Length]|Global|Determines the minimum number of characters allowed in a password. The number must be greater than zero (`0`).|
 |[!UICONTROL Lockout Time (minutes)]|Global|Determines the number of minutes a customer account is locked after too many failed attempts to log in.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Account Information Options]
 
@@ -93,7 +93,7 @@ feature: Configuration, Customers
 |[!UICONTROL Change Email Template]|Store View|Identifies the default email template that is used when a customer changes their email address.|
 |[!UICONTROL Change Email and Password Template]|Store View|Identifies the default email template that is used when a customer changes their email address and password.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Name and Address Options]
 
@@ -120,7 +120,7 @@ feature: Configuration, Customers
 |[!UICONTROL Show Company]|Website|Determines if the customer's company is included in the name and address form. Options: `No` / `Optional` / `Required`|
 |[!UICONTROL Show Fax]|Website|Determines if the customer's fax number is included in the name and address form. Options: `No` / `Optional` / `Required`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ### Adobe Commerce options
 
@@ -138,7 +138,7 @@ feature: Configuration, Customers
 |[!UICONTROL Show Company]|Website|Determines if the customer's company is included in the name and address form. Options: `No` / `Optional` / `Required`|
 |[!UICONTROL Show Fax]|Website|Determines if the customer's fax number is included in the name and address form. Options: `No` / `Optional` / `Required`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Store Credit Options]
 
@@ -156,7 +156,7 @@ feature: Configuration, Customers
 |[!UICONTROL Store Credit Update Email Sender]|Store View|Determines the store identity that appears as the sender of credit update notifications sent to customers.|
 |[!UICONTROL Store Credit Update Email Template]|Store View|Determines the email template used for credit updates.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Login Options]
 
@@ -168,7 +168,7 @@ feature: Configuration, Customers
 |--- |--- |--- |
 |[!UICONTROL Redirect Customer to Account Dashboard after Logging in]|Website|Determines what happens after customers log in to their accounts. To redirect customers to their account dashboard, select `Yes`. Options: <br/>**`Yes`** - The account dashboard appears when customers log in to their accounts. <br/>**`No`** - Customers can continue shopping after logging in to their accounts.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Address Templates]
 
@@ -183,7 +183,7 @@ feature: Configuration, Customers
 |[!UICONTROL HTML]|Store View|This template defines the order of address fields located under the _Customer Addresses_ area in the Admin panel ([!UICONTROL Customers] > [!UICONTROL Manage Customers]). This also affects those on the _Add New Address_ page when a customer creates a billing or shipping address on their account page.|
 |[!UICONTROL PDF]|Store View|The template defines the display of billing and shipping addresses in the printed invoices, shipments, and credit memos.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Customer Segments]
 
@@ -198,7 +198,7 @@ feature: Configuration, Customers
 |[!UICONTROL Enable Customer Segment Functionality]|Global|Determines if customer segments can be used to create targeted promotions. Options: `Yes` / `No`|
 |[!UICONTROL Real-time Check if Customer is Matched by Segment]|Global| Determines if customer segments are validated in real time. Options: <br/>**[!UICONTROL Yes]** - Customer segments are validated in real time (default value). <br/>**[!UICONTROL No]** - Customer segments are validated by a single combined condition SQL query. This improves performance of segments validation if there are many customers segments in the system. However, the validation does not work with a split database or when there are no registered customers. |
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL CAPTCHA]
 
@@ -218,4 +218,4 @@ feature: Configuration, Customers
 |[!UICONTROL Symbols Used in CAPTCHA]|Website|Determines the letters (a-z and A-Z) and numbers (0-9) that appear in the CAPTCHA. Symbols that are hard to distinguish from other symbols, such as `i`, `l`, or `1`, are not included in the default set of CAPTCHA symbols.|
 |[!UICONTROL Case Sensitive]|Website|Determines if CAPTCHA characters are case-sensitive. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

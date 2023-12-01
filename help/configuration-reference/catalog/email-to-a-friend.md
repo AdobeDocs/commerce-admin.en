@@ -23,4 +23,4 @@ feature: Configuration, Communications
 |[!UICONTROL Max Products Sent in 1  Hour]|Store View|Limits the number of products that can be shared by a single user over a one-hour time period.|
 |[!UICONTROL Limit Sending By]|Store View|Determines the method used to identify the sender. Options include: <br/>**`IP Address`** - (Recommended) Identifies the sender by the IP address of the computer that is used to send the product emails. <br/>**`Cookie (unsafe)`** - Identifies the sender by a browser cookie. This method is not secure because the user can delete the cookie to avoid the restriction.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

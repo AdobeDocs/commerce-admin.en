@@ -26,7 +26,7 @@ For more information about changing these settings, see [Google reCAPTCHA](../..
 |[!UICONTROL Theme]|Global|Determines the style of the Google reCAPTCHA box. Options: `Light Theme` (default) / `Dark Theme`|
 |[!UICONTROL Language Code]|Global|A [two-character code](https://developers.google.com/recaptcha/docs/language) that specifies the language that is used for Google reCAPTCHA text and messaging.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA v2 Invisible]
 
@@ -40,7 +40,7 @@ For more information about changing these settings, see [Google reCAPTCHA](../..
 |[!UICONTROL Theme]|Global|Determines the style of the Google reCAPTCHA box. Options: `Light Theme` (default) / `Dark Theme`|
 |[!UICONTROL Language Code]|Global|A [two-character code](https://developers.google.com/recaptcha/docs/language) that specifies the language that is used for Google reCAPTCHA text and messaging.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA v3 Invisible]
 
@@ -55,7 +55,7 @@ For more information about changing these settings, see [Google reCAPTCHA](../..
 |[!UICONTROL Theme]|Global|Determines the style of the Google reCAPTCHA box. Options: `Light Theme` (default) / `Dark Theme`|
 |[!UICONTROL Language Code]|Global|A [two-character code](https://developers.google.com/recaptcha/docs/language) that specifies the language that is used for Google reCAPTCHA text and messaging.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA Failure Messages]
 
@@ -66,7 +66,7 @@ For more information about changing these settings, see [Google reCAPTCHA](../..
 |[!UICONTROL reCAPTCHA Validation Failure Message]|Global|The message that is displayed in the Admin if verification fails. Default text: `reCAPTCHA verification failed.`|
 |[!UICONTROL reCAPTCHA Technical Failure Message]|Global|The message that is displayed in the Admin if reCAPTCHA fails to return a verification result. Default text: `Something went wrong with reCAPTCHA. Please contact the store owner.`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Admin Panel]
 
@@ -85,4 +85,4 @@ For more information about changing these settings, see [Google reCAPTCHA](../..
 |[!UICONTROL Enable for Login]|Global|Determines the type of reCAPTCHA that is enabled for the [Admin login](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html). Options:<br/>**`No`** - (default) Does not validate the Admin login.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Requires the user to select the _I'm not a robot_ checkbox.<br />**`Invisible reCAPTCHA v2`** - Validates user behavior in the background without requiring interactions based on score.<br/>**`Invisible reCAPTCHA v3`** -  (Recommended) Validates user behavior in the background based on interaction score.|
 |[!UICONTROL Enable for Forgot Password]|Global|Determines the type of reCAPTCHA that is enabled to request an [Admin password reset](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#reset-your-password). Options:<br/>**`No`** - (default) Does not validate the password reset request.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Requires the user to select the _I'm not a robot_ checkbox.<br />**`Invisible reCAPTCHA v2`** - Validates user behavior in the background without requiring interactions based on score.<br/>**`Invisible reCaptcha v3`** -  (Recommended) Validates user behavior in the background based on interaction score.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

@@ -21,7 +21,7 @@ For detailed information about configuring these multishipping settings for your
 |[!UICONTROL Allow Shipping to Multiple Addresses] |Website| Determines if you allow single orders to be shipping to multiple addresses (registered customers only). Options: `Yes` / `No`|
 |[!UICONTROL Maximum Qty Allowed for Shipping to Multiple Addresses]|Website|Sets a limit for the number of units  of a product that can be shipping to multiple addresses.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >

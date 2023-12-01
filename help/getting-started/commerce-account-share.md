@@ -18,8 +18,9 @@ The [!DNL Commerce] Support team does not have access to the account and cannot 
 
 ## Set up a shared account
 
-1. Before you begin, get the following information from the [!DNL Commerce] account of the **new user**:
+1. Before you begin, get the following information from the [!DNL Commerce] account of the **new shared access grantee**:
 
+   - The user must have already registered for an account at account.adobe.com and be logged in through account.magento.com.
    - The `Account ID` that is displayed at the upper-left corner of the _[!UICONTROL Magento]_ tab, just above the **Log Out** link.
    - The `Email` address that is associated with the account.
 
@@ -40,7 +41,7 @@ The [!DNL Commerce] Support team does not have access to the account and cannot 
 
 1. Under _[!UICONTROL Shared Information]_, do the following:
 
-   - To identify the shared account, enter a **[!UICONTROL Share Name]**. This name is for internal reference, and is visible only to you and the person with whom you share your account.
+   - To identify the shared account, enter a **[!UICONTROL Share Name]**. This name is for internal reference and is visible only to you and the person with whom you share your account. (Do not enter a share name that begins with `CLOUD SHARED ACCESS FROM MAG XYX`.)
    - If you want to share your personal contact information with the new user, enter **[!UICONTROL Your Email]** and **[!UICONTROL Your Phone]**.
 
 1. Under _[!UICONTROL Grant Account Permissions]_, select the checkbox of each [!DNL Commerce] product and service that you want to share.
@@ -87,6 +88,14 @@ The following instructions are written from the perspective of a shared user who
 
 1. In the left navigation panel, click **[!UICONTROL Shared Access]**.
 
-1. Find the account to be revoked under _[!UICONTROL Managing Users & Permissions]_ and click **[!UICONTROL Delete]**.
+1. Find the account to be revoked under _[!UICONTROL Managing Users & Permissions]_ and click **[!UICONTROL Delete]**. 
+
+   >[!NOTE]
+   >
+   > If  **[!UICONTROL Delete]** is not displayed, check whether the **[!UICONTROL Share Name]** begins with `Cloud Shared Access from MAG XYZ` - typically, [these accounts](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users) cannot be deleted.
 
 1. When prompted to confirm, click **[!UICONTROL Delete User]**.
+
+ >[!NOTE]
+ >
+ >You cannot delete users with the Share Name of _Cloud Shared Access from MAG[XYZ]_ in this interface. For more details, refer to [How to delete users who were granted shared access via a Cloud project?](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users).

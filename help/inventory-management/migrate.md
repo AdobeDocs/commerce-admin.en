@@ -1,12 +1,12 @@
 ---
-title: '[!DNL Commerce] Upgrades'
+title: '[!DNL Commerce] upgrades'
 description: Learn how Adobe Commerce and Magento Open Source upgrades affect catalog and [!DNL Inventory Management] configurations.
 exl-id: ba640b91-0f29-46df-bfd9-1c43433a751f
 feature: Inventory, Upgrade
 ---
-# [!DNL Commerce] Upgrades
+# [!DNL Commerce] upgrades
 
-If you used single-source inventory in a previous release, this information provides details on new features and changes to your existing catalog and Inventory configurations.
+If you used single-source inventory in a previous release, this information provides details on new features and changes to your existing catalog and inventory configurations.
 
 [!DNL Inventory Management] for Adobe Commerce and Magento Open Source includes features, enhancements, and developer support that enhances and updates all product stock management and add new features. All features are available out-of-the-box including the Source Selection Algorithm and Concurrent Checkout to match order quantities to sources and order fulfillment. Depending on your websites, stores, and merchant type, you can create additional stock and sources, assign inventory amounts, and more. For complete information, see [Inventory Management](introduction.md).
 

@@ -20,7 +20,7 @@ feature: Configuration, Customers, Communications
 |--- |--- |--- |
 |[!UICONTROL Enabled]|Store View|Determines if newsletters are enabled for the store view scope. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Subscription Options]
 
@@ -39,4 +39,4 @@ feature: Configuration, Customers, Communications
 |[!UICONTROL Unsubscription Email Sender]|Store View|Identifies the store contact that appears as the sender of email sent to those who request to end their newsletter subscription.|
 |[!UICONTROL Unsubscription Email Template]|Store View|Determines the email template used for the notification sent to those who request to end their newsletter subscription. Default template: `Newsletter unsubscription success`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
