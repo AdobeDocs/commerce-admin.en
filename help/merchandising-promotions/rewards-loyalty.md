@@ -68,7 +68,11 @@ The Reward Points configuration determines how reward points are presented in th
 
 1. If you want to refund available reward points automatically, set **[!UICONTROL Refund Reward Points Automatically]** to `Yes`.
 
-1. If you want to deduct reward points automatically, set **[!UICONTROL Deduct Reward Points from Refund Amount Automatically]** to `Yes`.
+1. To void reward points earned through purchases when the order that earned the points is fully or partially refunded, set **[!UICONTROL Deduct Reward Points from Refund Amount Automatically]** to `Yes`.
+
+   >[!NOTE]
+   >
+   >Only the points earned with the order that is being refunded are affected.
 
 1. Set **[!UICONTROL Landing Page]** to the content page that explains your reward points program.
 
