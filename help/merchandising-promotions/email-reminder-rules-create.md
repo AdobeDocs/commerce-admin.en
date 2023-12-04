@@ -53,7 +53,7 @@ Before setting up an email reminder rule, you must first set up a cart price rul
 
    >[!NOTE]
    >
-   >The same email reminder is not re-triggered again for the same customer for new abandoned carts, and wish lists **_after_** the _[!UICONTROL Repeat Schedule]_ period is over.
+   >The same email reminder is not retriggered again for the same customer for new abandoned carts, and wish lists **_after_** the _[!UICONTROL Repeat Schedule]_ period is over.
 
    Complete the condition to describe the scenario that triggers the email reminder.
 
