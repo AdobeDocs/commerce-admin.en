@@ -68,6 +68,10 @@ The form is updated to reflect the change.
 
    - To charge a fixed price for the bundle, set **[!UICONTROL Dynamic Price]** to `No` and enter the **[!UICONTROL Price]** that you want to charge for the bundle.
 
+>[!NOTE]
+>
+>[!UICONTROL Special Price] and [!UICONTROL Customer Group Price] (Tier Price) are always set as the discount percentage for all bundle product types.
+
 1. Because the product is not yet ready to publish, set **[!UICONTROL Enable Product]** to `No`.
 
 1. Click **[!UICONTROL Save]** and continue.
@@ -276,3 +280,5 @@ Bundle product stock status is **_not automatically changed to Out of Stock_** w
 ![Checkbox](../assets/checkbox.png) Bundle items can be shipped together or separately.
 
 ![Checkbox](../assets/checkbox.png) Parent bundle product is always displayed as an up-sell product for all its child products automatically.
+
+![Checkbox](../assets/checkbox.png) [!UICONTROL Special Price] and [!UICONTROL Customer Group Price] (Tier Price) are always set as the discount percentage for all bundle product types.
