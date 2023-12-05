@@ -88,7 +88,7 @@ In this step, the number of reward points that can be earned for various custome
 
    ![Customers configuration - actions for acquiring reward points by customer](../configuration-reference/customers/assets/reward-points-actions-for-acquiring.png){width="600" zoomable="yes"}
 
-1. To display a message in the shopping cart that includes the rewards points earned for the purchase and the customer's current reward point balance, set **[!UICONTROL Purchase]** to `Yes`.
+1. To allow reward points to be earned for the purchases based on the configured [Reward Exchange Rates](reward-exchange-rates.md), set **[!UICONTROL Purchase]** to `Yes`.
 
    >[!NOTE]
    >
