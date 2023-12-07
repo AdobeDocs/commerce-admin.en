@@ -68,7 +68,11 @@ The Reward Points configuration determines how reward points are presented in th
 
 1. If you want to refund available reward points automatically, set **[!UICONTROL Refund Reward Points Automatically]** to `Yes`.
 
-1. If you want to deduct reward points automatically, set **[!UICONTROL Deduct Reward Points from Refund Amount Automatically]** to `Yes`.
+1. To void reward points earned through purchases when the order that earned the points is fully or partially refunded, set **[!UICONTROL Deduct Reward Points from Refund Amount Automatically]** to `Yes`.
+
+   >[!NOTE]
+   >
+   >Only the points earned with the order that is being refunded are affected.
 
 1. Set **[!UICONTROL Landing Page]** to the content page that explains your reward points program.
 
@@ -84,7 +88,7 @@ In this step, the number of reward points that can be earned for various custome
 
    ![Customers configuration - actions for acquiring reward points by customer](../configuration-reference/customers/assets/reward-points-actions-for-acquiring.png){width="600" zoomable="yes"}
 
-1. To display a message in the shopping cart that includes the rewards points earned for the purchase and the customer's current reward point balance, set **[!UICONTROL Purchase]** to `Yes`.
+1. To allow reward points to be earned for the purchases based on the configured [Reward Exchange Rates](reward-exchange-rates.md), set **[!UICONTROL Purchase]** to `Yes`.
 
    >[!NOTE]
    >
