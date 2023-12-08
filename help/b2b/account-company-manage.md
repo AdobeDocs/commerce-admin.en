@@ -86,7 +86,7 @@ Deleted company accounts cannot be restored. The status of user accounts that ar
 
 ### Change company settings
 
-Update the [Advanced Settings](account-company-create.md#advanced-settings) configuration to apply the same settings to multiple companies selected on the Company Grid.
+Update the [Advanced Settings](account-company-create.md#advanced-settings) configuration to apply the same settings to multiple companies selected on the *Companies grid*.
 
 1. From the **[!UICONTROL Actions]** control, select **[!UICONTROL Change company settings]**.
 
