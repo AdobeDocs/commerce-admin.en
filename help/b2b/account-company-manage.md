@@ -124,7 +124,7 @@ Method 1: **Quick edit**
 
 1. In the first column, select the checkbox of the company account to be edited.
 
-1. From the **[!UICONTROL Actions]** column to `Edit`.
+1. From the **[!UICONTROL Actions]** control, select **[!UICONTROL Edit]**.
 
    Each value that can be updated appears in a text box.
 
@@ -144,7 +144,7 @@ Method 2: **Full edit**
 
 1. In the grid, find the company record to be edited.
 
-1. Click **[!UICONTROL Edit]** in the _[!UICONTROL Action]_ column.
+1. Select **[!UICONTROL Edit]** from the _[!UICONTROL Action]_ column.
 
 1. Make the necessary changes to the company information.
 
