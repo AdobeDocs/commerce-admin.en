@@ -9,9 +9,9 @@ feature: Configuration, System, Reporting
 {{config}}
 
 >[!NOTE]
->Does not apply to Adobe Commerce Cloud. 
+>These configuration options do not apply to Adobe Commerce on Cloud Infrastructure. 
 >
->New Relic is already [preconfigured and enabled by default](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html?lang=en) if you are on the Pro plan. If you are on the Starter plan, you will need to [take these steps](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html?lang=en#configure-new-relic-for-starter-environment) to complete the setup process.
+>If you are on the Pro plan, New Relic is already [preconfigured and enabled by default](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html). If you are on the Starter plan, you must complete the [New Relic configuration steps](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment) that are part of the setup process.
 
 ## [!UICONTROL General]
 
