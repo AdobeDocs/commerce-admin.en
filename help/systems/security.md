@@ -12,13 +12,15 @@ There are multiple ways to secure your store and maintain your data security:
 - Implement [CAPTCHA](security-captcha.md) or [reCAPTCHA](security-google-recaptcha.md)
 - Set up a [Security Scan](security-scan.md) for each domain in your Adobe Commerce or Magento Open Source installation. 
 
-Visit the [Security Center](https://helpx.adobe.com/security.html){:target="_blank"} and join the Security Alert Registry for the latest news about potential vulnerabilities. For information about security best practices, see [Secure your Commerce Site and Infrastructure](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) in the _Implementation Playbook_.
-
 >[!NOTE]
 >
 >Stores that have enabled [!DNL Adobe Identity Management Services] (IMS) authentication have native Adobe Commerce and Magento Open Source 2FA disabled. Admin users who are logged into their Commerce instance with their Adobe credentials do not need to reauthenticate for many Admin tasks. Authentication is handled by Adobe IMS when the Admin user logs into their current session. See [[!DNL Adobe Identity Management Service] (IMS) Integration Overview](../getting-started/adobe-ims-integration-overview.md).
 
+Visit the [Security Center](https://helpx.adobe.com/security.html){:target="_blank"} to get the latest news about potential vulnerabilities, register for Adobe Security notifications, and access the Adobe Trust Center.
+
 ![Security Center](./assets/product-security-home.png){width="700" zoomable="yes"}
+
+For information about security best practices, see [Secure your Commerce Site and Infrastructure](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) in the _Implementation Playbook_.
 
 ## Security action plan
 

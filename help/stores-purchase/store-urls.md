@@ -131,7 +131,7 @@ If after following the configuration instructions, some pages continue to be ser
 
 ## Use a custom Admin URL
 
-As a [security best practice](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adobe-commerce-best-practices-guide.pdf), Adobe recommends that you use a unique Admin URL instead of the default _admin_ or a common term such as _backend_. Although it does not directly protect your site from a determined bad actor, it can reduce exposure to scripts that try to gain unauthorized access.
+As a [security best practice](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), Adobe recommends that you use a unique Admin URL instead of the default _admin_ or a common term such as _backend_. Although it does not directly protect your site from a determined bad actor, it can reduce exposure to scripts that try to gain unauthorized access.
 
 >[!NOTE]
 >
@@ -147,7 +147,7 @@ Although it is possible to change the Admin URL and path to another location, an
 
 >[!NOTE]
 >
->As a precaution, do not try to change the Admin URL yourself unless you know how to edit configuration files on the server.
+>As a precaution, do not try to change the Admin URL yourself unless you know how to edit configuration files on the server. For Adobe Commerce projects deployed on cloud infrastructure, change the Admin URL by following the [instructions](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=en#admin-url) in the *Adobe Commerce on Cloud Infrastructure Guide*.
 
 ### Method 1: Change from the Admin
 
