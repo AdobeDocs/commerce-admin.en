@@ -6,7 +6,7 @@ feature: Merchandising, Communications
 ---
 # Create email reminders
 
-Before setting up an email reminder rule, you must first set up a cart price rule to define the promotion that is being offered. Rule conditions that trigger an email reminder can be based on cart properties, wishlist properties, or both.
+Before setting up an email reminder rule, you must first [set up a cart price rule](price-rules-cart-create.md) to define the promotion that is being offered. Rule conditions that trigger an email reminder can be based on cart properties, wishlist properties, or both.
 
 >[!NOTE]
 >
