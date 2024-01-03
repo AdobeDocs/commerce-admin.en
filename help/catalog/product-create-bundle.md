@@ -10,8 +10,6 @@ A bundle is a _build your own_, customizable product. Each item in a bundle can 
 
 - [Simple Product](product-create-simple.md)
 - [Virtual Product](product-create-virtual.md)
-- [Downloadable Prodiuct](product-create-downloadable.md)
-- [Virtual Product](product-create-virtual.md)
 
 ![Bundle product](./assets/product-bundle.png){width="700" zoomable="yes"}
 
