@@ -94,7 +94,7 @@ Update the [Advanced Settings](account-company-create.md#advanced-settings) conf
 
 1. For each configuration setting to change, select the **[!UICONTROL Change]** checkbox to enable the setting. Then, update the setting as needed.
 
-   ![Change company settings for multiple companies](./assets/companies-change-advanced-settings-action.png){width="700" zoomable="yes"}
+   ![Change company settings for multiple companies](assets/companies-change-advanced-settings-action.png){width="700" zoomable="yes"}
 
 1. After updating the configuration settings, select **[!UICONTROL Apply Changes]**.
 
@@ -212,7 +212,6 @@ The following sections provide a reference for the available actions, options, a
 | [!UICONTROL Edit]                    | Allows some values of the selected company record to be edited from the grid. By default, the Company Name, Company Email, and Phone Number values are available for a quick edit.                                                                                              |
 | [!UICONTROL Change company settings] | Opens the *Change company settings* form to update the [Advanced settings](account-company-create.md#advanced-settings) configuration and apply the changes to the selected companies.                                                                                          |
 | [!UICONTROL Convert Credit]          | Converts the credit on account for the selected companies according to the rates of the specified currency.                                                                                                                                                                     |
-
 {style="table-layout:auto"}
 
 ### Column descriptions
