@@ -35,7 +35,7 @@ The following actions can be applied to either single or multiple records.
 
 ### Activate company accounts
 
-1. Set the **[!UICONTROL Actions]** control to `Set Active`.
+1. From the **[!UICONTROL Actions]** control, select **[!UICONTROL Set Active]**.
 
 1. When prompted to confirm, click **[!UICONTROL OK]**.
 
@@ -47,12 +47,12 @@ Method 1: **From the customers grid**
 
 1. On the _Admin_ sidebar, go to [!UICONTROL **Customers**] > [!UICONTROL **All Customers**].
 
-1. Set the [!UICONTROL **Actions**] control to one of the following:
+1. From the **[!UICONTROL Actions]** menu, select one of the following:
 
-   - `Active`
-   - `Inactive`
+   - **[!UICONTROL Active]**
+   - **[!UICONTROL Inactive]**
 
-1. When prompted to confirm, click **[!UICONTROL OK]**.
+1. When prompted, select **[!UICONTROL OK]** to apply the change.
 
 Method 2: **From the account edit page**
 
@@ -60,7 +60,7 @@ Method 2: **From the account edit page**
 
 1. In the grid, find the customer record to be edited.
 
-1. In the _Actions_ column on the far right, click [!UICONTROL **Edit**].
+1. In the _Actions_ column on the far right, select [!UICONTROL **Edit**].
 
 1. Select the [!UICONTROL **Account Information**] tab.
 
@@ -72,7 +72,7 @@ Method 2: **From the account edit page**
 
 Users who are associated with a blocked company account can log in and access the catalog, but cannot make purchases. A company with an account that is not in good standing might be blocked temporarily until the matter is resolved.
 
-1. Set the **[!UICONTROL Actions]** control to `Block`.
+1. From the **[!UICONTROL Actions]** control, select **[!UICONTROL Block]**.
 
 1. When prompted to confirm, click **[!UICONTROL OK]**.
 
@@ -80,15 +80,35 @@ Users who are associated with a blocked company account can log in and access th
 
 Deleted company accounts cannot be restored. The status of user accounts that are associated with the company is set to `Inactive` and the Company ID is removed from the profiles of user accounts. Information about company activity and transactions is retained in the system.
 
-1. Set the **[!UICONTROL Actions]** control to `Delete`.
+1. From the **[!UICONTROL Actions]** control, select **[!UICONTROL Delete]**.
 
 1. When prompted to confirm, click **[!UICONTROL OK]**.
+
+### Change company settings
+
+Update the [Advanced Settings](account-company-create.md#advanced-settings) configuration to apply the same settings to multiple companies selected on the *Companies grid*.
+
+1. From the **[!UICONTROL Actions]** control, select **[!UICONTROL Change company settings]**.
+
+   On the *[!UICONTROL Change company settings]* form, the initial configuration settings are set to the default values.
+
+1. For each configuration setting to change, select the **[!UICONTROL Change]** checkbox to enable the setting. Then, update the setting as needed.
+
+   ![Change company settings for multiple companies](assets/companies-change-advanced-settings-action.png){width="700" zoomable="yes"}
+
+1. After updating the configuration settings, select **[!UICONTROL Apply Changes]**.
+
+1. When prompted, select **[!UICONTROL Change settings]** to update the configuration for the selected companies.
+
+>[!TIP]
+>
+>You can change the advanced settings configuration for a single company by using the [!UICONTROL Edit] in the [!UICONTROL Action] column for the company record.
 
 ### Convert the credit currency
 
 The credit in the accounts of selected companies is converted to the current rate of the selected currency.
 
-1. Set the **[!UICONTROL Actions]** control to `Convert Currency`.
+1. From the **[!UICONTROL Actions]** control, select **[!UICONTROL Convert Currency]**.
 
 1. When prompted to confirm, click **[!UICONTROL OK]**.
 
@@ -104,7 +124,7 @@ Method 1: **Quick edit**
 
 1. In the first column, select the checkbox of the company account to be edited.
 
-1. Set the **[!UICONTROL Actions]** column to `Edit`.
+1. From the **[!UICONTROL Actions]** control, select **[!UICONTROL Edit]**.
 
    Each value that can be updated appears in a text box.
 
@@ -124,7 +144,7 @@ Method 2: **Full edit**
 
 1. In the grid, find the company record to be edited.
 
-1. Click **[!UICONTROL Edit]** in the _[!UICONTROL Action]_ column.
+1. Select **[!UICONTROL Edit]** from the _[!UICONTROL Action]_ column.
 
 1. Make the necessary changes to the company information.
 
@@ -184,14 +204,14 @@ The following sections provide a reference for the available actions, options, a
 
 ### Actions control options
 
-|Option| Description                                                                                                                                                                                                                                                                    |
-|--- |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|[!UICONTROL Set Active]| Sets the status of all selected company records to `Active`. Company administrators receive instructions to set their passwords so they can access their accounts and manage their companies from the storefront.                                                              |
-|[!UICONTROL Block]| Restricts company accounts that are not in good standing, while preserving the account. Company members can log in and access the catalog, but they cannot place orders on behalf of the company.                                                 |
-|[!UICONTROL Delete]| Deletes selected company accounts. The status of user accounts that are associated with a deleted company is set to `Inactive` and the Company ID is removed from the profiles of user accounts. Information about company activity and transactions is retained in the system. |
-|[!UICONTROL Edit]| Allows some values of the selected company record to be edited from the grid. By default, the Company Name, Company Email, and Phone Number values are available for a quick edit.                                                                                             |
-|[!UICONTROL Convert Credit]| Converts the credit on account for the selected companies according to the rates of the specified currency.                                                                                                                                                                    |
-
+| Option                               | Description                                                                                                                                                                                                                                                                     |
+|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Set Active]              | Sets the status of all selected company records to `Active`. Company administrators receive instructions to set their passwords so they can access their accounts and manage their companies from the storefront.                                                               |
+| [!UICONTROL Block]                   | Restricts company accounts that are not in good standing, while preserving the account. Company members can log in and access the catalog, but they cannot place orders on behalf of the company.                                                                               |
+| [!UICONTROL Delete]                  | Deletes selected company accounts. The status of user accounts that are associated with a deleted company is set to `Inactive` and the Company ID is removed from the profiles of user accounts. Information about company activity and transactions is retained in the system. |
+| [!UICONTROL Edit]                    | Allows some values of the selected company record to be edited from the grid. By default, the Company Name, Company Email, and Phone Number values are available for a quick edit.                                                                                              |
+| [!UICONTROL Change company settings] | Opens the *Change company settings* form to update the [Advanced settings](account-company-create.md#advanced-settings) configuration and apply the changes to the selected companies.                                                                                          |
+| [!UICONTROL Convert Credit]          | Converts the credit on account for the selected companies according to the rates of the specified currency.                                                                                                                                                                     |
 {style="table-layout:auto"}
 
 ### Column descriptions
