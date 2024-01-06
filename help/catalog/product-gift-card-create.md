@@ -72,6 +72,10 @@ You can use the default `Gift Card` attribute set or choose another. To choose t
 
    You can create gift cards with fixed pricing, open amount pricing, or both.
 
+   >[!NOTE]
+   >
+   >Gift Card product does not have its own price in the Catalog. Gift card price is derived from the selected gift card amount during the purchase.
+
    ![Gift Card Amounts](./assets/product-create-gift-card-amounts.png){width="600" zoomable="yes"}
 
 ### Step 4: Complete the basic settings
@@ -146,5 +150,7 @@ Complete the information in the following sections as needed:
 - The lifetime of a gift card can be unlimited or set to a specified number of days.
 
 - The value of a gift card can be set to a fixed amount or set to an open amount with a minimum and maximum value.
+
+- Gift Card product does not have its own price in the Catalog. Gift card price is derived from the selected gift card amount during the purchase.
 
 - A gift card account for the customer can be created when the order is placed or at the time of invoice.
