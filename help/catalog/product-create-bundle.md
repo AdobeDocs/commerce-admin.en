@@ -64,7 +64,7 @@ The form is updated to reflect the change.
 
 1. To determine the price of the bundle, do one of the following:
 
-   - To have the price reflect the options chosen by the customer, set **[!UICONTROL Dynamic Price]** to `Yes` and leave **[!UICONTROL Price]** blank. In this case bundle product does not have its own price in the Catalog. And such product price is derived from the price of products included in the bundle.
+   - To have the price reflect the options chosen by the customer, set **[!UICONTROL Dynamic Price]** to `Yes` and leave **[!UICONTROL Price]** blank. In this case, bundle product does not have its own price in the Catalog. And such product price is derived from the price of products included in the bundle.
 
    - To charge a fixed price for the bundle, set **[!UICONTROL Dynamic Price]** to `No` and enter the **[!UICONTROL Price]** that you want to charge for the bundle.
 
