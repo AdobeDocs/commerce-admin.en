@@ -55,7 +55,7 @@ To add an existing attribute to the product, use the [filter controls](../gettin
 
    Take note that the **[!UICONTROL Quantity]** field is not available because the value is derived from the individual products that make up the group.
 
-   Grouped product does not have its own price in the Catalog. Grouped product price is derived from the price of individual products that make up the group as well.
+   Grouped product does not have its own price in the Catalog. Grouped product price is derived from the price of individual products that are included in the group.
 
 1. Because the product is not yet ready to publish, set **[!UICONTROL Enable Product]** to `No` ( ![Toggle no](../assets/toggle-no.png) ).
 
@@ -186,6 +186,6 @@ If you have a different image for each product in the group, you can set the con
 
 - Each item purchased appears individually in the shopping cart, rather than as part of the group.
 
-- Grouped product does not have its own price in the Catalog. Grouped product price is derived from the price of individual products that make up the group.
+- Grouped product does not have its own price in the Catalog. Grouped product price is derived from the price of individual products that are included in the group.
 
 - The thumbnail image in the shopping cart can be set to display the image from the grouped parent product or associated product.
