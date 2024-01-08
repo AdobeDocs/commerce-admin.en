@@ -186,6 +186,6 @@ If you have a different image for each product in the group, you can set the con
 
 - Each item purchased appears individually in the shopping cart, rather than as part of the group.
 
-- Grouped product does not have its own price in the Catalog. Grouped product price is derived from the price of individual products that are included in the group.
+- A grouped product does not have its own price in the catalog. The grouped product price is derived from the price of the individual products that are included in the group.
 
 - The thumbnail image in the shopping cart can be set to display the image from the grouped parent product or associated product.
