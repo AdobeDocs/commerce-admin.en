@@ -200,7 +200,7 @@ Use one of the following methods to configure the **[!UICONTROL prices]**:
 
 >[!NOTE]
 >
->Configurable product does not have its own price in the Catalog. Configurable product price is derived from its [!UICONTROL In Stock] child products.
+>A configurable product does not have its own price in the catalog. The configurable product price is derived from its [!UICONTROL In Stock] child products.
 
 **Method 1:** Apply the same price to all SKUs
 
