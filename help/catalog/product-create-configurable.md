@@ -372,7 +372,7 @@ The _Stock Status_ of the configurable product is partially controlled by the St
 
 - Configurable child products can be simple or virtual products **without custom options**. To make custom child products virtual, you must select `Тhis item has no weight` for the **[!UICONTROL Weight]** setting for each of them.
 
-- Configurable product does not have its own price in the Catalog. Configurable product price is derived from its [!UICONTROL In Stock] child products.
+- A configurable product does not have its own price in the catalog. The configurable product price is derived from its [!UICONTROL In Stock] child products.
 
 - The attributes that are used for product variations must have a global scope and the customer must be required to choose a value. The product variation attributes must be included in the attribute set that is used as a template for the configurable product.
 
