@@ -151,6 +151,6 @@ Complete the information in the following sections as needed:
 
 - The value of a gift card can be set to a fixed amount or set to an open amount with a minimum and maximum value.
 
-- Gift Card product does not have its own price in the Catalog. Gift card price is derived from the selected gift card amount during the purchase.
+- A gift card product does not have its own price in the catalog. The gift card price is derived from the selected gift card amount during the purchase.
 
 - A gift card account for the customer can be created when the order is placed or at the time of invoice.
