@@ -74,7 +74,7 @@ You can use the default `Gift Card` attribute set or choose another. To choose t
 
    >[!NOTE]
    >
-   >Gift Card product does not have its own price in the Catalog. Gift card price is derived from the selected gift card amount during the purchase.
+   >A gift card product does not have its own price in the catalog. The gift card price is derived from the selected gift card amount during the purchase.
 
    ![Gift Card Amounts](./assets/product-create-gift-card-amounts.png){width="600" zoomable="yes"}
 
