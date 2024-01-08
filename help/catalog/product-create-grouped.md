@@ -55,7 +55,7 @@ To add an existing attribute to the product, use the [filter controls](../gettin
 
    Take note that the **[!UICONTROL Quantity]** field is not available because the value is derived from the individual products that make up the group.
 
-   Grouped product does not have its own price in the Catalog. Grouped product price is derived from the price of individual products that are included in the group.
+   A grouped product does not have its own price in the catalog. The grouped product price is derived from the price of the individual products that are included in the group.
 
 1. Because the product is not yet ready to publish, set **[!UICONTROL Enable Product]** to `No` ( ![Toggle no](../assets/toggle-no.png) ).
 
