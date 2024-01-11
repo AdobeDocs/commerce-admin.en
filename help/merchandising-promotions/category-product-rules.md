@@ -82,7 +82,7 @@ Category product rules can speed up the process of assigning specific products t
 
    ![Automatic Sorting](./assets/automatic-sorting-field.png){width="600" zoomable="yes"}
 
-   Sorting is based on current conditions and is defined globally, i.e., you cannot set a different sort order on the website/store-view level:
+   Sort order options are defined globally and applied based on current conditions. You cannot set a different sort order for the website, store, or store view level.
 
    |Sort option| Description|
    |-----------| -----------|
