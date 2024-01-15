@@ -136,24 +136,6 @@ For more information about changing these settings, see [System notifications](.
 
 {style="table-layout:auto"}
 
-## [!UICONTROL Scheduled Backup Settings]
-
-![Advanced configuration - Scheduled Backup Settings](./assets/system-scheduled-backup-settings.png)<!-- zoom -->
-
-For more information about changing these settings, see [System backups](../../systems/backups.md) in the _Admin Systems Guide_.
-
-{{$include /help/_includes/backups-note.md}}
-
-|Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
-|--- |--- |--- |
-|[!UICONTROL Enable Scheduled Backup]|Global|Determines if the Commerce instance is automatically backed up on a regular schedule. Options: `Yes` / `No`|
-|[!UICONTROL Backup Type]|Global|Determines the elements of the Commerce instance that are included in the backup. Options: `Database` / `Database and Media` / `System` / `System (excluding Media)`|
-|[!UICONTROL Start Time]|Global|Specifies the hour, minute, and second that the scheduled backup begins.|
-|[!UICONTROL Frequency]|Global|Determines how often the scheduled backup takes place. Options: `Daily` / `Weekly` / `Monthly`|
-|[!UICONTROL Maintenance Mode]|Global|Determines if the store is put in maintenance mode during the scheduled backup. Options: `Yes` / `No`|
-
-{style="table-layout:auto"}
-
 ## [!UICONTROL Admin Actions Log Archiving]
 
 {{ee-feature}}
