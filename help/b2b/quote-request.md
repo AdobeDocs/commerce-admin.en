@@ -18,6 +18,10 @@ If quotes are enabled in the [Sales features configuration](configure-quotes.md)
 1. The customer logs in to their user account as a buyer with [permission](account-company-roles-permissions.md) to request a quote.
 
 1. Adds the products that they want to be included in the quote to the shopping cart.
+ 
+   >[!TIP]
+   > 
+   >If you have a list of product SKUs to order, add them to the cart more quickly by using [Quick Order](quick-order.md).
 
 1. Selects **[!UICONTROL Request a Quote]**.
 
