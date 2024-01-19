@@ -45,4 +45,4 @@ If quotes are enabled in the [Sales features configuration](configure-quotes.md)
    - Sends the quote to the Seller by selecting **[!UICONTROL Request a Quote]**.
    - [!BADGE 1.5.0-beta capability]{type=Informative url="/help/b2b/release-notes.md" tooltip="Available only for Beta program participants"} Saves the quote as a draft by selecting **[!UICONTROL Save as Draft]**.
 
-     If the buyer saves the quote as a draft, the quote is available in [!UICONTROL My Quotes] in `Draft` state. Draft quotes are not visible to the Seller until the Buyer sends them to the Seller.
+     If the buyer saves the quote as a draft, the quote is available in [!UICONTROL My Quotes] in `Draft` state. Draft quotes are not visible to the Seller until the Buyer sends them for review.
