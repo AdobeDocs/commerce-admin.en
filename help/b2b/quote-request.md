@@ -27,7 +27,7 @@ If quotes are enabled in the [Sales features configuration](configure-quotes.md)
 
    ![Requesting a quote from the shopping cart](./assets/quote-request-from-cart.png){width="700" zoomable="yes"}
 
-1. In the **[!UICONTROL Add your comment]** box, enters a brief note to describe the request.
+1. In the **[!UICONTROL Add your comment]** box, the customer enters a brief note to describe the request.
 
 1. Enters a **[!UICONTROL Quote Name]**.
 
