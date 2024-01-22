@@ -198,6 +198,10 @@ Because the image for the parent product is already uploaded, you can use this o
 
 Use one of the following methods to configure the **[!UICONTROL prices]**:
 
+>[!NOTE]
+>
+>A configurable product does not have its own price in the catalog. The configurable product price is derived from its [!UICONTROL In Stock] child products.
+
 **Method 1:** Apply the same price to all SKUs
 
 1. If the price is the same for all variations, select **[!UICONTROL Apply single price to all SKUs]**.
@@ -367,6 +371,8 @@ The _Stock Status_ of the configurable product is partially controlled by the St
 - [Stock Status](../inventory-management/sources-stocks.md) for a configurable product is a semi-manually controlled setting. It is different from the stock status of the simple product, where it is a direct representation of the product availability. For a configurable product, the stock status is a part of a multi-criteria stock status calculation.
 
 - Configurable child products can be simple or virtual products **without custom options**. To make custom child products virtual, you must select `Тhis item has no weight` for the **[!UICONTROL Weight]** setting for each of them.
+
+- A configurable product does not have its own price in the catalog. The configurable product price is derived from its [!UICONTROL In Stock] child products.
 
 - The attributes that are used for product variations must have a global scope and the customer must be required to choose a value. The product variation attributes must be included in the attribute set that is used as a template for the configurable product.
 
