@@ -30,9 +30,13 @@ These release notes describe feature changes and fixes related to extensions use
 
 +++Supported service updates
 
+_January 23, 2024_
+
+![New](../assets/new.svg) - Updated the [Real-Time CDP Audiences dashboard](#real-time-cdp-audiences-dashboard) to include the website that contains the audience and information about where an audience is used. Such as, in a dynamic block or a cart price rule.
+
 _August 15, 2023_
 
-![Fix](../assets/new.svg) - Updated the [Real-Time CDP Audiences dashboard](#real-time-cdp-audiences-dashboard) to simplify filtering.
+![Fix](../assets/fix.svg) - Updated the [Real-Time CDP Audiences dashboard](#real-time-cdp-audiences-dashboard) to simplify filtering.
 
 _June 27, 2023_
 
@@ -131,16 +135,20 @@ After you install the [!DNL Audience Activation] extension, you must log into yo
 
 1. Click **Save Config**.
 
-With audiences activated to your Adobe Commerce instance, you can:
+## Where to use Real-Time CDP audiences in Commerce
+
+With the [!DNL Audience Activation] extension enabled, you can:
 
 - [Create a cart price rule](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) informed by audiences
 - [Create a dynamic block](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) informed by audiences
 
 ## Real-Time CDP audiences dashboard
 
-You can view all active audiences that are available to personalize within your Adobe Commerce instance using the **Real-Time CDP Audiences** dashboard. Any audiences you [activated](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) in the Adobe Commerce destination in Real-Time CDP appear in this dashboard.
+You can view all [active](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) audiences that are available to personalize within your Adobe Commerce instance using the **Real-Time CDP Audiences** dashboard.
 
 To access the **Real-Time CDP Audiences** dashboard, go to the _Admin_ sidebar, then go to **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]**.
+
+![Real-Time CDP Audiences Dashboard](./assets/real-time-cdp-dashboard.png){width="700" zoomable="yes"}
 
 The dashboard contains the following fields:
 
@@ -150,9 +158,12 @@ The dashboard contains the following fields:
 |`Search`|Lets you search for active audiences in your Commerce instance.|
 |`Name`|Name given to the audience in Real-Time CDP.|
 |`Origin`|Indicates where the audience came from, such as `Experience Platform`.|
+|`Websites`|Indicates which websites are configured to use the audiences.|
+|`Dynamic Blocks`|Indicates which dynamic blocks are configured to use the audiences.|
+|`Cart Price Rules`|Indicates which cart price rules are configured to use the audiences.|
 |`Last updated`|Indicates when the audience was modified in Real-Time CDP.|
 |`Sync now`|Retrieves new or updated audiences from Real-Time CDP.|
-|`Customize table`| Lets you show or hide the `Origin` and `Last updated` columns.|
+|`Customize table`| Lets you show or hide the `Origin`, `Websites`, `Dynamic Blocks`, `Cart Price Rules`, and `Last updated` columns.|
 
 {style="table-layout:auto"}
 
