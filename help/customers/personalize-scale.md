@@ -5,7 +5,7 @@ feature: Customers, Storefront, Personalization
 ---
 # Personalization at scale
 
-Personalization at scale allows businesses to meet customer expectations and deliver customized experiences to every customer on every channel in real time. ​Personalization at scale means that your business has the ability to personalize any and every customer touchpoint based on immediate context and previously observed behavior. The goal is to present the most relevant and personalized experience possible every time, in real time.
+Personalization at scale allows businesses to meet customer expectations and deliver customized experiences to every customer on every channel in real time. ​Personalization at scale means that your business has the ability to personalize any and every customer touchpoint based on immediate context and previously observed behavior. The goal is to present the most relevant and personalized experience possible every time.
 
 For an overview of Personalization at Scale, download the [_Getting Started with Pesonalization at Scale_](https://business.adobe.com/resources/reports/getting-started-with-personalization-at-scale.html) report.
 
