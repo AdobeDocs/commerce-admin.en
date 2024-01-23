@@ -30,9 +30,9 @@ These release notes describe feature changes and fixes related to extensions use
 
 +++Supported service updates
 
-_January 23, 2024_
+_January 24, 2024_
 
-![New](../assets/new.svg) - Updated the [Real-Time CDP Audiences dashboard](#real-time-cdp-audiences-dashboard) to include the website that contains the audience and information about where an audience is used. Such as, in a dynamic block or a cart price rule.
+![New](../assets/new.svg) - Updated the [Real-Time CDP Audiences dashboard](#real-time-cdp-audiences-dashboard) to include the websites that contain the audiences and which dynamic blocks and cart price rules are configured to use those audiences.
 
 _August 15, 2023_
 
