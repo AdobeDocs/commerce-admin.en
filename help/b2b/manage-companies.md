@@ -29,7 +29,6 @@ When you edit a parent or child company, expand *[!UICONTROL Company Hierarchy]*
 
    ![B2B Company Hierarchy grid](./assets/company-detail-hierarchy-current-flag.png){width="700" zoomable="yes"}
 
-
 ## View and configure the [!UICONTROL Company Hierarchy]
 
 On initial company creation, the [!UICONTROL Company Hierarchy] grid is empty. It is also empty if the company is a single company.
