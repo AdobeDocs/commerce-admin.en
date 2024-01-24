@@ -19,15 +19,19 @@ Initiate company management tasks from the *[!UICONTROL Companies]* view. From t
 
 In the *[!UICONTROL Companies grid]*, the *[!UICONTROL Company Type]* column indicates whether a company is managed as part of an organization, or as a separate company.
 
+  ![Companies Grid](./assets/companies-grid-view.png){width="675" zoomable="yes"}
+
+The *[!UICONTROL Company Type]* column indicates whether a company is managed as part of an organization, or as a separate company.
+
 - `Parent` is a business organization with one or more assigned companies. A parent company cannot be assigned as a child of another company.
 
 - `Child` is a company that has been assigned to an organization. A company can be assigned to only one parent company.
 
-- `Company` represents a single company. A single company can become part of an organization by making it a parent company or by assigning it to an existing parent company.
+- `Company` represents a single company. A single company can be added to an organization by assigning it to a parent company.
 
-When you edit a parent or child company, expand *[!UICONTROL Company Hierarchy]* to view all companies in the organization. A `Current` flag indicates the company you are editing.
+When you edit a parent or child company from the grid, the company details list all associated companies in the *[!UICONTROL Company Hierarchy]*.  A `Current` flag indicates the company you are editing.
 
-   ![B2B Company Hierarchy grid](./assets/company-detail-hierarchy-current-flag.png){width="700" zoomable="yes"}
+   ![Companies Grid](./assets/company-detail-hierarchy-current-flag.png){width="700" zoomable="yes"}
 
 ## View and configure the [!UICONTROL Company Hierarchy]
 
@@ -35,13 +39,11 @@ On initial company creation, the [!UICONTROL Company Hierarchy] grid is empty. I
 
 ![B2B Company Hierarchy Grid](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
 
-If the company is a designated parent company, Admin users with appropriate permissions can build the company hierarchy by assigning companies to it **[!UICONTROL Assign Companies]**.
-
-After you create a parent company by assigning a company to it, use the *[!UICONTROL Company Hierarchy]* grid for other company management tasks:
+If the company is a parent company for an organization, and the company accounts for other companies in the organization have already been configured in Adobe Commerce, Admin users with appropriate permissions can assign companies and use the *[!UICONTROL Company Hierarchy]* grid to complete other company management tasks:
 
 - View all companies associated with parent company.
 - From a parent company detail page, assign more companies to the organization.
 - Remove a company from an organization by using the *[!UICONTROL Unassign from parent]* action.
 - Update the [Advanced Settings](account-company-create.md#advanced-settings) configuration to apply the same settings to multiple companies.
 
-For detailed instructions, see [assign and unassign companies](assign-companies.md).
+For detailed instructions, see [Manage the company hierarchy](assign-companies.md).
