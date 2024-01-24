@@ -21,9 +21,41 @@ Personalizing the buying experience for your shoppers requires that you understa
 
 ## How do you personalize the buying experience
 
-Personalizing the buying experience for your shoppers hinges upon the ability to aggregate visitor data. Knowing what products your customers are viewing and ultimately purchasing, can help you target their interest and personalize their experience. This data is only useful if it can be collected, analyzed, and shared between Commerce features.
+Personalizing the shopping experience for your customers hinges upon the ability to aggregate visitor data then act on that data to create a unique and personal experience for each customer. Knowing what products your customers are viewing and ultimately purchasing, can help you target their interest and personalize their experience.
 
-In this article, you learn which features in Commerce can share the data so you can personalize your customer's shopping experience.
+In this article, you learn what is refered to as the experience layer in Commerce. which features in Commerce can share the data so you can personalize your customer's shopping experience.
+
+### Data layer
+
+The Adobe Commerce contains a wealth of data. What kinds of data. This data comprises the data layer. What good is that data if you can't use it/share it to enhance the commerce storefront? Personalizing starts with a solid data foundation. When we talk about data, this is what we're talking about:
+
+Customer profile data
+Behavioral and click stream data
+Back office data (order status, history, inventory)
+Product catalog data (products, pricing)
+3rd party system (loyalty, social, reviews)
+
+### Experience layer
+
+Sitting on top of the data layer in Commerce is the experience layer. This layer is composed of the features in Commerce that can act on that data and is divided into four main pillars:  product discovery, site content, offers and campaigns, and measurement. The following sections go into each of these pillars in more detail and provide the available Commerce features you can use to turn that data into that allow you to create actionable insights using the information from the data layer.
+
+### Product discovery
+
+
+Features to use
+
+### Site content
+
+Features to use
+
+### Offers and campaigns
+
+Features to use
+
+### Measurement
+
+Features to use
+
 
 ### Basic data sharing features
 
@@ -32,6 +64,9 @@ These features are available on Magento Open Source and Adobe Commerce.
 - **Dynamic blocks** - 
 - **Cart price rules** - 
 - **Segments** - 
+
+from rohan:
+from his presentation the OOTB are the above, but also prex, LS, IM.
 
 ### Data sharing using merchandising services features
 
@@ -50,6 +85,11 @@ You can extend the Adobe Commerce data sharing capabilities by connecting your C
 
 - **Data Connection** - The [!DNL Data Connection] extension allows Adobe Commerce merchants to send [storefront](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#storefront-events) and [back office](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#back-office-events) data to the Adobe Experience Platform edge so that other Adobe Experience Cloud products, such as Adobe Analytics and Adobe Journey Optimizer, can use that Commerce data. By connecting your Commerce data to other products in the Adobe Experience Cloud, you can perform tasks such as analyze user behavior on your site, perform AB testing, and create personalized campaigns.
 - **Audience Activation** - Enables merchants to deliver personalized site content and promotions in real-time, tailored to AI-powered audiences built and managed within Real-Time CDP. The [!DNL Audience Activation] extension lets you activate Real-Time CDP audiences in Adobe Commerce to create unique offers in the cart. These offers and incentives include common ecommerce merchandising techniques, such as _buy 2 get 1 free_, hero banners geared toward that customer, and modified product pricing through various offers. The audiences built within Real-Time CDP are based on data from various enterprise systems, such as Enterprise Resource Planning (ERP), Customer Relationship Management (CRM), point of sale, and marketing systems. Because customer segment information is constantly refreshed, customers can become associated and disassociated from a segment as they shop in your store.
+
+
+HOW TO EXPAND BEYOND COMMERCE AND ACTIVATE DATE IN OTHER ADOBE Experience Cloud SOLUTIONS...
+
+REACH OUT TO JEFF MATTHEWS ABOUT BLUE PRINT FOR PERSONALIZATION DATA FLOW DIAGRAM. CONSIDER SURFACING ON THIS PAGE.
 
 ## In conclusion
 
