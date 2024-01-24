@@ -8,13 +8,14 @@ feature: B2B, Quotes
 
 Buyers and sellers use Quotes to manage the negotiation process for an order–adding items, updating quantities, requesting and applying discounts, and so on—until they reach agreement. The quote negotiation process can be initiated by an authorized company buyer, or by a company sales representative.
 
-Quotes can be initiated by an authorized company buyer or a sales representative. After the quote is created, the negotiation process begins when the buyer or seller submits the quote for review. The _Quotes_ grid which lists each quote received and maintains a history of the communication between buyer and seller. Use the standard [workplace controls](../getting-started/admin-workspace.md) to filter the list, change the column layout, save views, and export data.
+After a quote is created, the negotiation process begins when the buyer or seller submits the quote for review. Sellers view and manage quotes from the _Quotes_ grid which lists each quote received and maintains a history of the communication between buyer and seller. Use the standard [workplace controls](../getting-started/admin-workspace.md) to filter the list, change the column layout, save views, and export data.
 
-- In the storefront, buyers submit the quote as a [request to negotiate](quote-price-negotiation.md) the price from the shopping cart. When creating the quote request, a buyer can save the quote as a draft, or submit it directly to the seller.
+- In the storefront, buyers submit the quote as a [request to negotiate](quote-price-negotiation.md) the price from the shopping cart. When creating the quote request, a buyer can save the quote as a draft, or submit it directly to the seller. Buyers view and manage quotes from the _My Quotes_ view. 
 
-- In the Admin, Sales representatives can create quotes on behalf of company buyer. When creating the quote, a seller can save the quote as a draft, or submit it directly to the buyer to initiate the negotiation process.
+- In the Admin, sales representatives can create quotes on behalf of company buyer. When creating the quote, a seller can save the quote as a draft, or submit it directly to the buyer to initiate the negotiation process.
 
-During the negotiation process, the quote can only be updated by the person reviewing and proposing terms for further negotiation.
+During the negotiation process, the quote can be updated only by the person reviewing and proposing terms for further negotiation.
+Once both parties are satisfied with the quote terms, the Buyer can convert the quote to an order.
 
 ## Prerequisites
 
