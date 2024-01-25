@@ -30,10 +30,6 @@ These release notes describe feature changes and fixes related to extensions use
 
 +++Supported service updates
 
-_January 24, 2024_
-
-![New](../assets/new.svg) - Updated the [Real-Time CDP Audiences dashboard](#real-time-cdp-audiences-dashboard) to include the websites that contain the audiences and specify which dynamic blocks and cart price rules are configured to use those audiences.
-
 _August 15, 2023_
 
 ![Fix](../assets/fix.svg) - Updated the [Real-Time CDP Audiences dashboard](#real-time-cdp-audiences-dashboard) to simplify filtering.
@@ -47,6 +43,22 @@ _May 30, 2023_
 ![New](../assets/new.svg) - Updated the [Real-Time CDP Audiences dashboard](#real-time-cdp-audiences-dashboard) to include the ability to sort, search, and filter the active audiences within your Adobe Commerce instance.
 
 +++
+
+### 2.1.0
+
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
+
+_January 24, 2024_
+
+![New](../assets/new.svg) - Updated the [Real-Time CDP Audiences dashboard](#real-time-cdp-audiences-dashboard) to include the websites that contain the audiences and specify which dynamic blocks and cart price rules are configured to use those audiences.
+
+### 2.0.1
+
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
+
+_November 16, 2023_
+
+![Fix](../assets/fix.svg) - Improved stability.
 
 ### 2.0.0
 
