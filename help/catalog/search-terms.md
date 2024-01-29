@@ -125,6 +125,10 @@ Adobe Commerce supports two different synonym management solutions:
 >
 >The standard Search Synonyms feature out-of-the-box supports `name` and `sku` product attributes **_only_**.
 
+>[!NOTE]
+>
+>Search synonyms feature uses full-text matching search method only.
+
 ![Example storefront - search results with synonyms](./assets/storefront-search-results-synonyms.png){width="700" zoomable="yes"}
 
 ### Create a synonym group
