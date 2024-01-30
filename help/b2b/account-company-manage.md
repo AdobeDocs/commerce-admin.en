@@ -1,6 +1,6 @@
 ---
 title: Manage company accounts
-description: Learn about the Companies page and the tools available in the grid that help you to manage company accounts for your Adobe Commerce store.
+description: Learn to manage company accounts for your Adobe Commerce store using the Companies page and the tools available in the grid.
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
 ---
@@ -10,7 +10,7 @@ The _[!UICONTROL Companies]_ page lists all current company accounts, regardless
 
 The _[!UICONTROL Actions]_ control above the grid can be used to apply an action to multiple company records. For example, rather than approving each individual company request, you can select multiple requests and activate the accounts in a single action. The actions that are available depend on the [permissions](../systems/permissions.md) for the role that is assigned to your Admin user account.
 
-Use the _[!UICONTROL Search]_ function to find companies in the **Companies** grid by keyword. It will find the company by searching the specified keyword in the **Company Name** and **Parent** columns. You can filter by **Company Type** to show parent companies and their related companies, or only show child companies.
+Use the _[!UICONTROL Search]_ function to find companies in the **Companies** grid by keyword. The search indexes keywords from the **Company Name** and **Parent** columns. You can filter by **Company Type** to show only single companies, only parent companies, or only child companies.
 
 ![Companies Grid](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
@@ -43,7 +43,7 @@ The following actions can be applied to either single or multiple records.
 
 Customers with inactive accounts cannot log in or make purchases from their accounts. There are two methods to set a customer account as active or inactive:
 
-Method 1: **From the customers grid**
+Method 1: **From the Customers grid**
 
 1. On the _Admin_ sidebar, go to [!UICONTROL **Customers**] > [!UICONTROL **All Customers**].
 
@@ -102,7 +102,11 @@ Update the [Advanced Settings](account-company-create.md#advanced-settings) conf
 
 >[!TIP]
 >
+<<<<<<< HEAD
 >You can change the advanced settings configuration for a single company by using the [!UICONTROL Edit] in the [!UICONTROL Action] column for the company record.
+=======
+>You can change the advanced settings configuration for a single company by selecting [!UICONTROL Edit] in the [!UICONTROL Action] column for the company record.
+>>>>>>> 582f15c4 (Clean up company management topics)
 
 ### Convert the credit currency
 
@@ -118,7 +122,7 @@ The credit in the accounts of selected companies is converted to the current rat
 
 1. Click **[!UICONTROL Proceed]** to complete the conversion.
 
-### Edit a company account
+## Edit a company account
 
 Method 1: **Quick edit**
 
@@ -204,6 +208,7 @@ The following sections provide a reference for the available actions, options, a
 
 ### Actions control options
 
+<<<<<<< HEAD
 | Option                               | Description                                                                                                                                                                                                                                                                     |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Set Active]              | Sets the status of all selected company records to `Active`. Company administrators receive instructions to set their passwords so they can access their accounts and manage their companies from the storefront.                                                               |
@@ -212,6 +217,15 @@ The following sections provide a reference for the available actions, options, a
 | [!UICONTROL Edit]                    | Allows some values of the selected company record to be edited from the grid. By default, the Company Name, Company Email, and Phone Number values are available for a quick edit.                                                                                              |
 | [!UICONTROL Change company settings] | Opens the *Change company settings* form to update the [Advanced settings](account-company-create.md#advanced-settings) configuration and apply the changes to the selected companies.                                                                                          |
 | [!UICONTROL Convert Credit]          | Converts the credit on account for the selected companies according to the rates of the specified currency.                                                                                                                                                                     |
+=======
+| Option                      | Description                                                                                                                                                                                                                                                                     |
+|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Set Active]     | Sets the status of all selected company records to `Active`. Company administrators receive instructions to set their passwords so they can access their accounts and manage their companies from the storefront.                                                               |
+| [!UICONTROL Block]          | Restricts company accounts that are not in good standing, while preserving the account. Company members can log in and access the catalog, but they cannot place orders on behalf of the company.                                                                               |
+| [!UICONTROL Delete]         | Deletes selected company accounts. The status of user accounts that are associated with a deleted company is set to `Inactive` and the Company ID is removed from the profiles of user accounts. Information about company activity and transactions is retained in the system. |
+| [!UICONTROL Edit]           | Allows some values of the selected company record to be edited from the grid. By default, the Company Name, Company Email, and Phone Number values are available for a quick edit.                                                                                              |
+| [!UICONTROL Convert Credit] | Converts the credit on account for the selected companies according to the rates of the specified currency.                                                                                                                                                                     |
+>>>>>>> 582f15c4 (Clean up company management topics)
 
 {style="table-layout:auto"}
 
@@ -338,12 +352,12 @@ The following columns are available by changing the [column layout](../getting-s
 
 #### [!UICONTROL Company Credit]
 
-| Field                                     | Description                                                                                                                                                                |
-|-------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Credit Currency]              | The currency that is accepted by the store for purchases on company credit.                                                                                                |
-| [!UICONTROL Credit Limit]                 | The credit limit that is extended to the company account.                                                                                                                  |
-| [!UICONTROL Allow to Exceed Credit Limit] | Indicates if the company has permission to exceed the credit limit. Options: Yes / No                                                                                      |
-| [!UICONTROL Reason for Change]            | A note that explains why the company is allowed, or disallowed to exceed the credit limit. This field is active only if the permission to exceed the credit limit changes. |
+| Field                                     | Description                                                                                                                                                                    |
+|-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Credit Currency]              | The currency that is accepted by the store for purchases on company credit.                                                                                                    |
+| [!UICONTROL Credit Limit]                 | The credit limit that is extended to the company account.                                                                                                                      |
+| [!UICONTROL Allow to Exceed Credit Limit] | Indicates if the company has permission to exceed the credit limit. Options: Yes / No                                                                                          |
+| [!UICONTROL Reason for Change]            | A note that explains the circumstances when the company can or cannot exceed the credit limit. This field is active only if the permission to exceed the credit limit changes. |
 
 {style="table-layout:auto"}
 
