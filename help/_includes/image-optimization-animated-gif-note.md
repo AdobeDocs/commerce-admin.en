@@ -6,4 +6,4 @@ description: Animated GIF file may lose animation after scaling down during imag
 
 >[!NOTE]
 >
->Optimization of animated GIF images is not supported. Such images may lose their animation after the image optimization process. To avoid this, please make sure the animated GIF image size is under the Maximum Width and Height defined at [!UICONTROL Media Gallery Image Optimization] [configuration settings](../content-design/media-gallery-image-optimization.md).
+>Optimization of animated GIF images is not supported. Such images may lose their animation after the image optimization process. To avoid this, make sure the animated GIF image size is under the maximum width and height defined by the [[!UICONTROL Media Gallery Image Optimization] configuration settings](../content-design/media-gallery-image-optimization.md).
