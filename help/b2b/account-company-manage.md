@@ -84,26 +84,6 @@ Deleted company accounts cannot be restored. The status of user accounts that ar
 
 1. When prompted to confirm, click **[!UICONTROL OK]**.
 
-### Change company settings
-
-Update the [Advanced Settings](account-company-create.md#advanced-settings) configuration to apply the same settings to multiple companies selected on the *Companies grid*.
-
-1. From the **[!UICONTROL Actions]** control, select **[!UICONTROL Change company settings]**.
-
-   On the *[!UICONTROL Change company settings]* form, the initial configuration settings are set to the default values.
-
-1. For each configuration setting to change, select the **[!UICONTROL Change]** checkbox to enable the setting. Then, update the setting as needed.
-
-   ![Change company settings for multiple companies](assets/companies-change-advanced-settings-action.png){width="700" zoomable="yes"}
-
-1. After updating the configuration settings, select **[!UICONTROL Apply Changes]**.
-
-1. When prompted, select **[!UICONTROL Change settings]** to update the configuration for the selected companies.
-
->[!TIP]
->
->You can change the advanced settings configuration for a single company by selecting [!UICONTROL Edit] in the [!UICONTROL Action] column for the company record.
-
 ### Convert the credit currency
 
 The credit in the accounts of selected companies is converted to the current rate of the selected currency.
