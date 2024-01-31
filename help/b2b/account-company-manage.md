@@ -1,6 +1,6 @@
 ---
 title: Manage company accounts
-description: Learn about the Companies page and the tools available in the grid that help you to manage company accounts for your Adobe Commerce store.
+description: Learn to manage company accounts for your Adobe Commerce store using the Companies page and the tools available in the grid.
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
 ---
@@ -10,7 +10,7 @@ The _[!UICONTROL Companies]_ page lists all current company accounts, regardless
 
 The _[!UICONTROL Actions]_ control above the grid can be used to apply an action to multiple company records. For example, rather than approving each individual company request, you can select multiple requests and activate the accounts in a single action. The actions that are available depend on the [permissions](../systems/permissions.md) for the role that is assigned to your Admin user account.
 
-Use the _[!UICONTROL Search]_ function to find companies in the **Companies** grid by keyword. It will find the company by searching the specified keyword in the **Company Name** and **Parent** columns. You can filter by **Company Type** to show parent companies and their related companies, or only show child companies.
+Use the _[!UICONTROL Search]_ function to find companies in the **Companies** grid by keyword. The search indexes keywords from the **Company Name** and **Parent** columns. You can filter by **Company Type** to show only single companies, only parent companies, or only child companies.
 
 ![Companies Grid](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
@@ -43,7 +43,7 @@ The following actions can be applied to either single or multiple records.
 
 Customers with inactive accounts cannot log in or make purchases from their accounts. There are two methods to set a customer account as active or inactive:
 
-Method 1: **From the customers grid**
+Method 1: **From the Customers grid**
 
 1. On the _Admin_ sidebar, go to [!UICONTROL **Customers**] > [!UICONTROL **All Customers**].
 
@@ -118,7 +118,7 @@ The credit in the accounts of selected companies is converted to the current rat
 
 1. Click **[!UICONTROL Proceed]** to complete the conversion.
 
-### Edit a company account
+## Edit a company account
 
 Method 1: **Quick edit**
 
@@ -338,12 +338,12 @@ The following columns are available by changing the [column layout](../getting-s
 
 #### [!UICONTROL Company Credit]
 
-| Field                                     | Description                                                                                                                                                                |
-|-------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Credit Currency]              | The currency that is accepted by the store for purchases on company credit.                                                                                                |
-| [!UICONTROL Credit Limit]                 | The credit limit that is extended to the company account.                                                                                                                  |
-| [!UICONTROL Allow to Exceed Credit Limit] | Indicates if the company has permission to exceed the credit limit. Options: Yes / No                                                                                      |
-| [!UICONTROL Reason for Change]            | A note that explains why the company is allowed, or disallowed to exceed the credit limit. This field is active only if the permission to exceed the credit limit changes. |
+| Field                                     | Description                                                                                                                                                                    |
+|-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Credit Currency]              | The currency that is accepted by the store for purchases on company credit.                                                                                                    |
+| [!UICONTROL Credit Limit]                 | The credit limit that is extended to the company account.                                                                                                                      |
+| [!UICONTROL Allow to Exceed Credit Limit] | Indicates if the company has permission to exceed the credit limit. Options: Yes / No                                                                                          |
+| [!UICONTROL Reason for Change]            | A note that explains the circumstances when the company can or cannot exceed the credit limit. This field is active only if the permission to exceed the credit limit changes. |
 
 {style="table-layout:auto"}
 
