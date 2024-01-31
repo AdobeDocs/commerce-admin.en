@@ -14,6 +14,12 @@ Use the _[!UICONTROL Search]_ function to find companies in the **Companies** gr
 
 ![Companies Grid](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
+Customize the company information displayed in the view using the search and filter capabilities.
+
+- Find companies in the **Companies** grid by using the _[!UICONTROL Search]_. The search indexes the **Company Name** and **Parent** columns.
+
+- Customize the view to include records that meet specific criteria by using the [!UICONTROL Filter]. For example, if the B2B site is configured to manage both single company accounts and [company hierarchies](manage-companies.md), you can filter by `[!UICONTROL Company Type - Company]` to display only single companies, or by `[!UICONTROL Company Type - Parent]` to show only the parent company for each hierarchy.
+
 ## Company role resources
 
 The [Role Resources](../systems/permissions-user-roles.md#role-resources) settings determine the ability to:
@@ -23,15 +29,15 @@ The [Role Resources](../systems/permissions-user-roles.md#role-resources) settin
 - Apply a balance reimbursement
 - View companies
 
-These role resources must be set for the [User Role](../systems/permissions-user-roles.md) that is assigned for the Admin user account.
+These role resources must be set for the [User Role](../systems/permissions-user-roles.md) that is assigned to the Admin user account.
 
-## Apply an action
+## Manage companies from the company view
 
 The following actions can be applied to either single or multiple records.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-1. In the first column of the grid, select the checkbox of each record that you want to update and follow the instructions for the action that you want to apply:
+1. In the first column of the grid, select the checkbox of each record that you want to update and follow the instructions for the action that you want to apply.
 
 ### Activate company accounts
 
@@ -87,6 +93,10 @@ Deleted company accounts cannot be restored. The status of user accounts that ar
 ### Change company settings
 
 Update the [Advanced Settings](account-company-create.md#advanced-settings) configuration to apply the same settings to multiple companies selected on the *Companies grid*.
+
+>[!NOTE]
+>
+>Manage the advanced settings configuration for a company organization with a parent and associated child companies from the [Company Hierarchy view](assign-companies.md#manage-advanced-settings).
 
 1. From the **[!UICONTROL Actions]** control, select **[!UICONTROL Change company settings]**.
 
@@ -194,13 +204,14 @@ After a company is created, Admin users with appropriate permissions can use the
 
 If a company has been added to a hierarchy, the [!UICONTROL Company Hierarchy] grid displays the parent company and all assigned companies in the grid.
 
-See [Manage company hierarchy](assign-companies.md) for more information.
+See [Manage company hierarchy](manage-company-hierarchy.md) for more information.
 
 ## Company options and columns
 
 The following sections provide a reference for the available actions, options, and displayed information available for managing company accounts.
 
 ### Actions control options
+
 | Option                               | Description                                                                                                                                                                                                                                                                     |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Set Active]              | Sets the status of all selected company records to `Active`. Company administrators receive instructions to set their passwords so they can access their accounts and manage their companies from the storefront.                                                               |

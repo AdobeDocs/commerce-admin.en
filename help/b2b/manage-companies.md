@@ -46,4 +46,4 @@ If the company is a parent company for an organization, and the company accounts
 - Remove a company from an organization by using the *[!UICONTROL Unassign from parent]* action.
 - Update the [Advanced Settings](account-company-create.md#advanced-settings) configuration to apply the same settings to multiple companies.
 
-For detailed instructions, see [Manage the company hierarchy](assign-companies.md).
+For detailed instructions, see [Manage the company hierarchy](manage-company-hierarchy.md).
