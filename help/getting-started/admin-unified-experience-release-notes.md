@@ -16,6 +16,7 @@ These release notes for the Commerce Admin Unified Experience extension (`magent
 >See [Product availability](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) for detailed information about the release status of the Admin Unified Experience extension relative to Adobe Commerce.
 
 ## 1.0 release
+
 *February 13, 2023*
 
 [!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce 2.4.5 and newer versions
