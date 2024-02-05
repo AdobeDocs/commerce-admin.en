@@ -27,7 +27,7 @@ In this article, you learn what is refered to as the experience layer in Commerc
 
 ### Data layer
 
-The Adobe Commerce contains a wealth of data. What kinds of data. This data comprises the data layer. What good is that data if you can't use it/share it to enhance the commerce storefront? Personalizing starts with a solid data foundation. When we talk about data, this is what we're talking about:
+Adobe Commerce contains a wealth of data. What kinds of data. This data comprises the data layer. What good is that data if you can't use it/share it to enhance the commerce storefront? Personalizing starts with a solid data foundation. When we talk about data, this is what we're talking about:
 
 Customer profile data
 Behavioral and click stream data
@@ -37,7 +37,7 @@ Product catalog data (products, pricing)
 
 ### Experience layer
 
-Sitting on top of the data layer in Commerce is the experience layer. This layer is composed of the features in Commerce that can act on that data and is divided into four main pillars:  product discovery, site content, offers and campaigns, and measurement. The following sections go into each of these pillars in more detail and provide the available Commerce features you can use to turn that data into that allow you to create actionable insights using the information from the data layer.
+Sitting on top of the data layer in Commerce is the experience layer. This layer is composed of the features in Commerce that can act on that data and is divided into four main pillars:  product discovery, site content, offers and campaigns, and measurement. The following sections go into each of these pillars in more detail and provide the available Commerce features you can use to turn that data into actionable insights.
 
 ### Product discovery
 
