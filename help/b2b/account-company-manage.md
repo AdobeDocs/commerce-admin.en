@@ -96,7 +96,7 @@ Update the [Advanced Settings](account-company-create.md#advanced-settings) conf
 
 >[!NOTE]
 >
->Manage the advanced settings configuration for a company organization with a parent and associated child companies from the [Company Hierarchy view](assign-companies.md#manage-advanced-settings).
+>Manage the advanced settings configuration for a company organization with a parent and associated child companies from the [Company Hierarchy view](manage-company-hierarchy.md#change-company-settings).
 
 1. From the **[!UICONTROL Actions]** control, select **[!UICONTROL Change company settings]**.
 
