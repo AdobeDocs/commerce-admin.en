@@ -102,11 +102,7 @@ Update the [Advanced Settings](account-company-create.md#advanced-settings) conf
 
 >[!TIP]
 >
-<<<<<<< HEAD
->You can change the advanced settings configuration for a single company by using the [!UICONTROL Edit] in the [!UICONTROL Action] column for the company record.
-=======
 >You can change the advanced settings configuration for a single company by selecting [!UICONTROL Edit] in the [!UICONTROL Action] column for the company record.
->>>>>>> 582f15c4 (Clean up company management topics)
 
 ### Convert the credit currency
 
@@ -194,8 +190,6 @@ You can learn about managing company accounts by watching this video:
 
 ## Company management
 
-[!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Available only for Beta program participants"}
-
 After a company is created, Admin users with appropriate permissions can use the [!UICONTROL Company Hierarchy] section to build a parent company organization by editing the designated parent company and assigning related companies.
 
 If a company has been added to a hierarchy, the [!UICONTROL Company Hierarchy] grid displays the parent company and all assigned companies in the grid.
@@ -207,8 +201,6 @@ See [Manage company hierarchy](assign-companies.md) for more information.
 The following sections provide a reference for the available actions, options, and displayed information available for managing company accounts.
 
 ### Actions control options
-
-<<<<<<< HEAD
 | Option                               | Description                                                                                                                                                                                                                                                                     |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Set Active]              | Sets the status of all selected company records to `Active`. Company administrators receive instructions to set their passwords so they can access their accounts and manage their companies from the storefront.                                                               |
@@ -217,15 +209,6 @@ The following sections provide a reference for the available actions, options, a
 | [!UICONTROL Edit]                    | Allows some values of the selected company record to be edited from the grid. By default, the Company Name, Company Email, and Phone Number values are available for a quick edit.                                                                                              |
 | [!UICONTROL Change company settings] | Opens the *Change company settings* form to update the [Advanced settings](account-company-create.md#advanced-settings) configuration and apply the changes to the selected companies.                                                                                          |
 | [!UICONTROL Convert Credit]          | Converts the credit on account for the selected companies according to the rates of the specified currency.                                                                                                                                                                     |
-=======
-| Option                      | Description                                                                                                                                                                                                                                                                     |
-|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Set Active]     | Sets the status of all selected company records to `Active`. Company administrators receive instructions to set their passwords so they can access their accounts and manage their companies from the storefront.                                                               |
-| [!UICONTROL Block]          | Restricts company accounts that are not in good standing, while preserving the account. Company members can log in and access the catalog, but they cannot place orders on behalf of the company.                                                                               |
-| [!UICONTROL Delete]         | Deletes selected company accounts. The status of user accounts that are associated with a deleted company is set to `Inactive` and the Company ID is removed from the profiles of user accounts. Information about company activity and transactions is retained in the system. |
-| [!UICONTROL Edit]           | Allows some values of the selected company record to be edited from the grid. By default, the Company Name, Company Email, and Phone Number values are available for a quick edit.                                                                                              |
-| [!UICONTROL Convert Credit] | Converts the credit on account for the selected companies according to the rates of the specified currency.                                                                                                                                                                     |
->>>>>>> 582f15c4 (Clean up company management topics)
 
 {style="table-layout:auto"}
 
