@@ -26,3 +26,5 @@ When Media Gallery image optimization functionality is enabled, an optimized cop
 When the _Maximum Width_ and _Maximum Height_ values are changed in the configuration, it updates all the existing optimized images that were previously inserted.
 
 The Media Gallery Image Optimization requires that the `media.gallery.renditions.update` queue consumers are running for regenerating optimized images when configuration is changed. See [Manage message queues](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) in the _Configuration Guide_ for more details.
+
+{{$include /help/_includes/image-optimization-animated-gif-note.md}}
