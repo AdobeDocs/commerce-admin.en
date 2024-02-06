@@ -94,10 +94,8 @@ The following instructions are written from the perspective of a shared user who
    >
    > If  **[!UICONTROL Delete]** is not displayed, check whether the **[!UICONTROL Share Name]** begins with `Cloud Shared Access from MAG XYZ` - [these accounts](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users) cannot be deleted.
    > 
-   > If this is the case, you will need to ask the Account Owner to modify the Shared Access account and uncheck all the Account Permissions - once that has been done, the user will no longer have Shared Access to any of the resources:
-   > 
-   > ![image](https://git.corp.adobe.com/storage/user/38345/files/7725efc0-ad73-4837-83c2-764bad29c3ae)
-   > 
+   > If this is the case, ask the account owner to modify the Shared Access account and clear the account permissions.  After that update, the user does not have shared access to any of the resources.
+   >
    > In addition, you will need to make sure that the users have been removed from the project so that they will no longer receive email notifications: [Former team members receive Adobe Commerce cloud notification emails](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html?lang=en)
 
 
