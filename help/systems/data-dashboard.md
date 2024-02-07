@@ -5,7 +5,7 @@ feature: Products, Customers, Data Import/Export
 ---
 # Data Management Dashboard
 
-The Data Management Dashboard provides insight into data streams for Adobe Commerce SaasS products. Users of [!DNL Live Search], [!DNL Product Recommendations], and [!DNL Catalog Service] can view product sync statuses and resync data from a single dashboard.
+The Data Management Dashboard provides insight into data streams for Adobe Commerce SaaS products. Users of [!DNL Live Search], [!DNL Product Recommendations], and [!DNL Catalog Service] can view product sync statuses and resync data from a single dashboard.
 
 The Data Management Dashboard is located at *System* > Data Transfer > *Data Management Dashboard*.
 
@@ -21,7 +21,7 @@ Resyncing catalog data forces the service to refetch data from the Commerce data
 
 ## Sync status
 
-The Sync status panel reports the number of products that have been synced within the last three hours. If you make infrequent updates to your catalog, this value will frequently be zero. Press the Refresh button to refresh the count.
+The _[!UICONTROL Sync]_ status panel reports the number of products that have been synced within the last three hours. If you make infrequent updates to your catalog, this value is frequently zero. Click **[!UICONTROL Refresh]** to refresh the count.
 
 ## Product count
 
@@ -29,11 +29,11 @@ The product count panel reflects the total number of catalog products available 
 
 The [!DNL Catalog Service] dashboard reflects the total number of products in the catalog available to the service. This is generally all products in the Commerce database. 
 
-The Product Recommendations and Live Search dashboards display the total number of ["searchable"](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search.html) products. If some products are not set to be searchable, this would account for the difference in product totals between [!DNL Product Recommendations] and [!DNL Live Search], and [!DNL Catalog Service].
+The Product Recommendations and Live Search dashboards display the total number of [_searchable_](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search.html) products. If some products are not set to be searchable, this would account for the difference in product totals between [!DNL Product Recommendations] and [!DNL Live Search], and [!DNL Catalog Service].
 
 ## Synced products
 
 The Synced Catalog Products table provides details about the products in the index. By default, this table is sorted by 'Last Updated'.
 
-Use the "Search by SKU" field to find a particular product.
-The Customize Table button on the right of the table allows you to control what columns are displayed.
+To find a specific product, use the**[!UICONTROL Search by SKU]** field .
+To control what columns are displayed, click **[!UICONTROL Customize Table]** on the right of the table.
