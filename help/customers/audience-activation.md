@@ -149,7 +149,7 @@ With the [!DNL Audience Activation] extension enabled, you can:
 
 - [Create a cart price rule](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) informed by audiences
 - [Create a dynamic block](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) informed by audiences
-- [Create a related product block](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) informed by audiences
+- [(**Beta**) Create a related product rule](../merchandising-promotions/product-related-rule-create.md) informed by audiences
 
 ## Real-Time CDP audiences dashboard
 
