@@ -2,8 +2,6 @@
 title: HIPAA readiness on Adobe Commerce
 description: Learn how you can add the Adobe Commerce HIPAA-Ready module and get additional features and functionalities that allow you to comply with your HIPAA obligations.
 feature: Security, Compliance
-hide: yes
-hidefromtoc: yes
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
 ---
 # HIPAA readiness on Adobe Commerce
