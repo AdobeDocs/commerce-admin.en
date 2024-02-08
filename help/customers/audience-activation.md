@@ -139,13 +139,9 @@ After you install the [!DNL Audience Activation] extension, you must log into yo
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. Expand **[!UICONTROL Services]** and select **[!UICONTROL [!DNL Data Connection]]**. 
+1. Expand **[!UICONTROL Services]** and select **[!UICONTROL [!DNL Data Connection]]**.
 
-1. In the [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#send-historical-order-data) guide, follow steps 1: **Create a project in Adobe Developer Console**, and 2: **Download configuration file**. The result is a file that you copy and paste into the **[!UICONTROL [!DNL Data Connection]]** configuration page:
-
-    ![Real-Time CDP Audience Admin Configuration](./assets/epc-admin-config.png){width="700" zoomable="yes"}
-
-1. Click **Save Config**.
+1. [Add](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#add-service-account-and-credential-details) service account and credential details. 
 
 ## Where to use Real-Time CDP audiences in Commerce
 
@@ -153,6 +149,7 @@ With the [!DNL Audience Activation] extension enabled, you can:
 
 - [Create a cart price rule](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) informed by audiences
 - [Create a dynamic block](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) informed by audiences
+- [Create a related product block](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) informed by audiences
 
 ## Real-Time CDP audiences dashboard
 
