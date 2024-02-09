@@ -43,16 +43,6 @@ You can manage accounts individually or in groups.
 
   ![Select action to apply to selected companies](assets/companies-change-settings-mass-action-selection.png){width="675" zoomable="yes"}
 
-**Apply an action to a group of companies**
-
-1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
-
-1. In the first column of the grid, select the checkbox of each record that you want to update, or use the **[!UICONTROL Select]** control to choose multiple records.
-
-1. Apply an action by selecting the **[!UICONTROL Actions]** control.
-
-   ![Select action to apply to selected companies](assets/companies-change-settings-mass-action-selection.png){width="675" zoomable="yes"}
-
 See the following sections for instructions to apply each action.
 
 ### Activate company accounts
