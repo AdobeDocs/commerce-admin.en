@@ -35,7 +35,7 @@ View and manage the user accounts for companies from the Admin menu by selecting
 
 You can manage accounts individually or in groups.
 
-- View or change configuration settings for the individual company account from the account by selecting **[!UICONTROL Edit]** from the company.
+- View or change configuration settings for an individual company account by selecting **[!UICONTROL Edit]** in the **[!UICONTROL Action]** column for the company account record.
 
   ![Select action to apply to selected companies](assets/companies-change-settings-edit-selection.png){width="675" zoomable="yes"}
 
@@ -118,7 +118,7 @@ Update the [Advanced Settings](account-company-create.md#advanced-settings) conf
 
 >[!TIP]
 >
->You can change the advanced settings configuration for a single company by selecting [!UICONTROL Edit] in the [!UICONTROL Action] column for the company record.
+>You can change the advanced settings configuration for a single company by selecting **[!UICONTROL Edit]** in the **[!UICONTROL Action]** column for the company account record.
 
 ### Convert the credit currency
 
