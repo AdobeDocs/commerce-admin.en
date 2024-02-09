@@ -6,11 +6,7 @@ feature: B2B, Companies, Configuration
 ---
 # Manage company accounts
 
-The _[!UICONTROL Companies]_ page lists all current company accounts, regardless of status. Any pending requests for approval appear at the top of the list. The standard [workplace controls](../getting-started/admin-workspace.md) can be used to filter the list, change the [column layout](../getting-started/admin-grid-controls.md), save views, or export data.
-
-The _[!UICONTROL Actions]_ control above the grid can be used to apply an action to multiple company records. For example, rather than approving each individual company request, you can select multiple requests and activate the accounts in a single action. The actions that are available depend on the [permissions](../systems/permissions.md) for the role that is assigned to your Admin user account.
-
-Use the _[!UICONTROL Search]_ function to find companies in the **Companies** grid by keyword. The search indexes keywords from the **Company Name** and **Parent** columns. You can filter by **Company Type** to show only single companies, only parent companies, or only child companies.
+The _[!UICONTROL Companies]_ page lists all current company accounts, regardless of status. Any pending requests for approval appear at the top of the list.
 
 ![Companies Grid](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
@@ -19,6 +15,8 @@ Customize the company information displayed in the view using the search and fil
 - Find companies in the **Companies** grid by using the _[!UICONTROL Search]_. The search indexes the **Company Name** and **Parent** columns.
 
 - Customize the view to include records that meet specific criteria by using the [!UICONTROL Filter]. For example, if the B2B site is configured to manage both single company accounts and [company hierarchies](manage-companies.md), you can filter by `[!UICONTROL Company Type - Company]` to display only single companies, or by `[!UICONTROL Company Type - Parent]` to show only the parent company for each hierarchy.
+
+Apply an action to multiple company records by using the _[!UICONTROL Actions]_ control above the grid. For example, rather than approving each individual company request, you can select multiple requests to activate the accounts in a single action. The available actions depend on the [permissions](../systems/permissions.md) for the role that is assigned to your Admin user account.
 
 ## Company role resources
 
@@ -31,13 +29,31 @@ The [Role Resources](../systems/permissions-user-roles.md#role-resources) settin
 
 These role resources must be set for the [User Role](../systems/permissions-user-roles.md) that is assigned to the Admin user account.
 
-## Manage companies from the company view
+## Manage company accounts from the Companies grid
 
-The following actions can be applied to either single or multiple records.
+View and manage the user accounts for companies from the Admin menu by selecting **[!UICONTROL Customers]** > **[!UICONTROL Companies]** to open the *[!UICONTROL Companies]* page.
+
+You can manage accounts individually or in groups.
+
+- View or change configuration settings for the individual company account from the account by selecting **[!UICONTROL Edit]** from the company.
+
+  ![Select action to apply to selected companies](assets/companies-change-settings-edit-selection.png){width="675" zoomable="yes"}
+
+- View or change a group of selected company accounts by using the options available from the [!UICONTROL Actions]** control above the grid.
+
+  ![Select action to apply to selected companies](assets/companies-change-settings-mass-action-selection.png){width="675" zoomable="yes"}
+
+**Apply an action to a group of companies**
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-1. In the first column of the grid, select the checkbox of each record that you want to update and follow the instructions for the action that you want to apply.
+1. In the first column of the grid, select the checkbox of each record that you want to update, or use the **[!UICONTROL Select]** control to choose multiple records.
+
+1. Apply an action by selecting the **[!UICONTROL Actions]** control.
+
+   ![Select action to apply to selected companies](assets/companies-change-settings-mass-action-selection.png){width="675" zoomable="yes"}
+
+See the following sections for instructions to apply each action.
 
 ### Activate company accounts
 
@@ -104,7 +120,7 @@ Update the [Advanced Settings](account-company-create.md#advanced-settings) conf
 
 1. For each configuration setting to change, select the **[!UICONTROL Change]** checkbox to enable the setting. Then, update the setting as needed.
 
-   ![Change company settings for multiple companies](assets/companies-change-advanced-settings-action.png){width="700" zoomable="yes"}
+   ![Change company settings for multiple companies](assets/companies-change-advanced-settings-action.png){width="675" zoomable="yes"}
 
 1. After updating the configuration settings, select **[!UICONTROL Apply Changes]**.
 
@@ -138,7 +154,7 @@ Method 1: **Quick edit**
 
    Each value that can be updated appears in a text box.
 
-   ![Quick Edit for a company account](./assets/companies-grid-quick-edit.png){width="700" zoomable="yes"}
+   ![Quick Edit for a company account](./assets/companies-grid-quick-edit.png){width="675" zoomable="yes"}
 
 1. Update any of the following values as needed:
 
