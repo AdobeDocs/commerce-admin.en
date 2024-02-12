@@ -131,7 +131,7 @@ The behavior of product relationship rules and display of matched products are d
 
 >[!NOTE]
 >
->This feature is in beta. If you would like to join the beta, send an email to the following address: [dataconnection@adobe.com](mailto:dataconnection@adobe.com). 
+>This feature is in beta. If you would like to join the beta program, send a request to [dataconnection@adobe.com](mailto:dataconnection@adobe.com). 
 
 
 Learn how to [activate](../customers/audience-activation.md) Real-Time CDP audiences into your Adobe Commerce instance to inform related product rules.
