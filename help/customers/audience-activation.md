@@ -178,7 +178,7 @@ The dashboard contains the following fields:
 
 ## Headless support
 
-You can activate audiences in a headless Adobe Commerce instance, such as AEM and PWA, to display cart price rules or dynamic blocks based on the audiences.
+You can activate audiences in a headless Adobe Commerce instance, such as AEM and PWA, to display cart price rules, related product rules, or dynamic blocks based on the audiences.
 
 ### Cart price rules and related product rules
 
