@@ -318,3 +318,26 @@ Edge.sendEvent(experienceEvent: experienceEvent) { (handles: [EdgeEventHandle]) 
 ```
 
 After data is retrieved, you can use it to create audience-informed [cart price rules](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) and [dynamic blocks](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) in the Commerce app.
+
+## Troubleshooting
+
+### Audiences are not displayed in Commerce Dashboard with valid tokens
+
+#### Incorrect authentication type selected in Commerce
+
+1. Open Commerce your environment -> Stores -> Configuration
+2. Navigate to Services -> Data Connection tab
+3. Make sure that Authentication Type field represents the type of generate API credentials. In most cases, **OAuth**
+
+#### Insufficient privileges on generated token
+
+This issue can be caused by insufficient API privileges for generated token. To ensure the token has correct privileges, follow next steps:
+
+1. Identify the person with System privileges for Adobe Experience Platform in your organization
+2. Find the project and credential that you will be using
+3. Make a note of Technical account email (ex. fe3c9476-1234-1234-abcd-2a51a785009a@techacct.adobe.com)
+4. Now with help of admin user, proceed to Adobe Experience Platform -> Permissions -> Users -> API credentials
+5. Find the credential by Technical account email (from step #3)
+6. Open it -> Roles -> Add roles -> Add **Production all access** -> Save
+7. Regenerate access token in Console
+8. Verify that token provides a valid response using this [Target Connections API](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/getTargetConnections)
