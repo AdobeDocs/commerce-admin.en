@@ -19,6 +19,10 @@ The options appear when the customer clicks either **[!UICONTROL Customize]** or
 >
 >Minimum Advertised Price (MAP) is not available for Bundle products that use dynamic pricing.
 
+>[!NOTE]
+>
+>Parent bundle product is always displayed as an up-sell product for all its child products automatically.
+
 If [Instant Purchase](../stores-purchase/checkout-instant-purchase.md) is available, the _Instant Purchase_ button appears below the _Add to Cart_ button for each item in the bundle.
 
 ![Customize Bundle](./assets/product-bundle-customize.png){width="600" zoomable="yes"}
@@ -60,9 +64,13 @@ The form is updated to reflect the change.
 
 1. To determine the price of the bundle, do one of the following:
 
-   - To have the price reflect the options chosen by the customer, set **[!UICONTROL Dynamic Price]** to `Yes` and leave **[!UICONTROL Price]** blank.
+   - To have the price reflect the options chosen by the customer, set **[!UICONTROL Dynamic Price]** to `Yes` and leave **[!UICONTROL Price]** blank. In this case, a bundle product does not have its own price from the catalog, and the product price is derived from the price of the individual products included in the bundle.
 
    - To charge a fixed price for the bundle, set **[!UICONTROL Dynamic Price]** to `No` and enter the **[!UICONTROL Price]** that you want to charge for the bundle.
+
+   >[!NOTE]
+   >
+   >[!UICONTROL Special Price] and [!UICONTROL Customer Group Price] (Tier Price) are always set as the discount percentage for all bundle product types.
 
 1. Because the product is not yet ready to publish, set **[!UICONTROL Enable Product]** to `No`.
 
@@ -270,3 +278,7 @@ Bundle product stock status is **_not automatically changed to Out of Stock_** w
 ![Checkbox](../assets/checkbox.png) The quantity can be a preset or user-defined value. However, do not assign the _[!UICONTROL User Defined]_ property to checkbox or multiple-select input types.
 
 ![Checkbox](../assets/checkbox.png) Bundle items can be shipped together or separately.
+
+![Checkbox](../assets/checkbox.png) Parent bundle product is always displayed as an up-sell product for all its child products automatically.
+
+![Checkbox](../assets/checkbox.png) [!UICONTROL Special Price] and [!UICONTROL Customer Group Price] (Tier Price) are always set as the discount percentage for all bundle product types.

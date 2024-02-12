@@ -234,13 +234,13 @@ The shopping cart price rule actions describe how prices are updated when the co
    |`Percent of product price discount` |Discounts item by subtracting a percentage from the original price. The discount applies to each qualifying item in the cart. For example: Enter `10` in [!UICONTROL Discount Amount] for an updated price that is 10% less than the original price. |
    |`Fixed amount discount` |Discounts item by subtracting a fixed amount from the original price of each qualifying item in the cart. For example: Enter `10` in [!UICONTROL Discount Amount] for an updated price that is $10 less than the original price. |
    |Fixed amount discount for whole cart |Discounts the entire cart by subtracting a fixed amount from the cart total. For example: Enter 10 in [!UICONTROL Discount Amount] to subtract $10 from the cart total. By default, the discount applies only to the cart subtotal. To apply the discount to the subtotal and shipping separately, use the _[!UICONTROL Apply to Shipping Amount]_ option. |
-   |`Buy X get Y free` |Defines a quantity that the customer must purchase to receive a quantity for free. (The [!UICONTROL Discount Amount] is Y.) |
+   |`Buy X get Y free` |Defines a quantity X that the customer must purchase to receive a quantity Y **of the same product/variation** for free. (The [!UICONTROL Discount Amount] is Y.) A total quantity of X+Y of that same item must be present in/added to the cart for the discount to be applied. |
 
    {style="table-layout:auto"}
 
    - Enter the **[!UICONTROL Discount Amount]** as a number, without symbols. For example, depending on the discount option selected, the number 10 might indicate a percentage, a fixed amount, or a quantity of items.
 
-   - For a _Buy X get Y Free_ discount, enter the quantity in the **[!UICONTROL Discount Qty Step (Buy X)]** field that the customer must purchase to receive the discount.
+   - For a _Buy X get Y Free_ discount, enter the quantity in the **[!UICONTROL Discount Qty Step (Buy X)]** field of a single product/SKU/line item that the customer must purchase to receive the discount on the Y quantity. Both X and Y refer to quantities of the same SKU, and that specific quantity (variations of a configurable products are counted separately) of the item must be added to the cart manually.
 
    - In the **[!UICONTROL Maximum Qty Discount is Applied To]** field, enter the maximum quantity of the same product that can qualify for the discount in the same purchase.
 

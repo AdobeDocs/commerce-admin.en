@@ -67,6 +67,8 @@ Assets can be used extensively throughout the Admin, such as [add or edit a page
 
 1. Select the asset and click **[!UICONTROL Add Selected]**.
 
+{{$include /help/_includes/image-optimization-animated-gif-note.md}}
+
 ## Delete assets
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Media]_ > **[!UICONTROL Media Gallery]**.
