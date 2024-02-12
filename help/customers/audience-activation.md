@@ -314,4 +314,35 @@ Edge.sendEvent(experienceEvent: experienceEvent) { (handles: [EdgeEventHandle]) 
 }
 ```
 
-After data is retrieved, you can use it to create audience-informed [cart price rules](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) and [dynamic blocks](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) in the Commerce app.
+After data is retrieved, you can use it to create audience-informed [cart price rules](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences), [dynamic blocks](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) and  [related product rules](../merchandising-promotions/product-related-rule-create.md) in the Commerce app.
+
+## Audiences are not displayed in Commerce
+
+If Real-Time CDP audiences are not being displayed in Commerce, it could be due to:
+
+- Incorrect authentication type selected in the **Data Connection** configuration page
+- Insufficient privileges on generated token
+
+The following two sections describe how to troubleshoot either case.
+
+### Incorrect authentication type selected in configuration
+
+1. Open your Commerce instance.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. Expand **[!UICONTROL Services]** and select **[!UICONTROL [!DNL Data Connection]]**.
+1. Ensure the server-to-server authorization method that you specified in the **[!UICONTROL Authentication Type]** field is correct. Adobe recommends using **OAuth**. JWT has been deprecated. [Learn more](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
+
+### Insufficient privileges on generated token
+
+This issue can be caused by insufficient API privileges for the generated token. To ensure the token has correct privileges:
+
+1. Identify the systems administrator for Adobe Experience Platform in your organization.
+1. Find the project and credentials that you will be using.
+1. Identify the technical account email, for example: `fe3c9476-1234-1234-abcd-2a51a785009a@techacct.adobe.com`.
+1. Have the systems administrator launch Adobe Experience Platform and go to **[!UICONTROL Permissions]** -> **[!UICONTROL Users]** -> **[!UICONTROL API credentials]**.
+1. Using the technical account email from above, search for the credentials to modify.
+1. Open the credentials, then select **[!UICONTROL Roles]** -> **[!UICONTROL Add roles]**.
+1. Add **Production all access**.
+1. Click **[!UICONTROL Save]**.
+1. [Regenerate](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#generate-access-token) the access token in Console.
+1. Verify that token provides a valid response using the [Target Connections API](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/getTargetConnections).
