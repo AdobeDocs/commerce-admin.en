@@ -1,9 +1,9 @@
 ---
-title: Dynamic Blocks
+title: Dynamic blocks
 description: Use dynamic blocks to create rich, interactive content that is driven by logic from price rules and customer segments.
 exl-id: 0c842ad9-2e46-48aa-9a12-2f74a54c352e
 ---
-# Dynamic Blocks
+# Dynamic blocks
 
 {{ee-feature}}
 
@@ -42,7 +42,7 @@ Create rich, interactive content that is driven by logic from [price rules](../m
    >[!NOTE]
    >
    >- If no Segment is created, the dynamic block is visible to everyone.
-   >- If the customer does not belong to any segments and the dynamic block is created for all segments, the contents of dynamic block is still displayed.
+   >- If the customer does not belong to any segments and the dynamic block is created for all segments, the contents of the dynamic block is still displayed.
    >- If all customer segments assigned to a Dynamic Block are deleted, its contents are then visible to everyone.
 
 ### Use Real-Time CDP audiences in dynamic blocks

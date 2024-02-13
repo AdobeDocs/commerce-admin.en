@@ -6,7 +6,7 @@ feature: Merchandising, Communications
 ---
 # Create email reminders
 
-Before setting up an email reminder rule, you must first set up a cart price rule to define the promotion that is being offered. Rule conditions that trigger an email reminder can be based on cart properties, wishlist properties, or both.
+Before setting up an email reminder rule, you must first [set up a cart price rule](price-rules-cart-create.md) to define the promotion that is being offered. Rule conditions that trigger an email reminder can be based on cart properties, wishlist properties, or both.
 
 >[!NOTE]
 >
@@ -49,7 +49,9 @@ Before setting up an email reminder rule, you must first set up a cart price rul
 
    >[!NOTE]
    >
-   >If a customer has more than one matched abandoned cart, wish list, or combination of both, the email reminder is triggered only once for that customer. To trigger the same email reminder again, use the _[!UICONTROL Repeat Schedule]_ field to set the number of days between emails.
+   >If a customer has more than one matched abandoned cart, wish list, or combination of both, the email reminder is triggered only once for that customer. To trigger the same email reminder again, use the _[!UICONTROL Repeat Schedule]_ field to set the number of days between emails. <br/>
+   >
+   >The same email reminder is **_not retriggered_** for the same customer for **_new_** abandoned carts and wish lists **_after_** the _[!UICONTROL Repeat Schedule]_ period is over.
 
    Complete the condition to describe the scenario that triggers the email reminder.
 

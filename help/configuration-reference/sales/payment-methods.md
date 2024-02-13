@@ -22,7 +22,7 @@ feature: Configuration, Payments
 |--- |--- |--- |
 |[!UICONTROL Merchant Country]|Website|Identifies the country where the merchant is registered to conduct business.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## Recommended solutions
 
@@ -80,7 +80,7 @@ The following payment methods are built into Commerce and do not use a third-par
 |[!UICONTROL Maximum Order Total]|Website|The largest order amount that can be paid by check or money order. <br/><br/>**_Note:_** An order qualifies if the total is between, or matches, the minimum or maximum order total.|
 |[!UICONTROL Sort Order]|Website|A number that determines the order that payment by check or money order appears when listed with other payment methods during checkout. Enter `0` to place it at the top of the list.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Bank Transfer Payment]
 
@@ -99,7 +99,7 @@ The following payment methods are built into Commerce and do not use a third-par
 |[!UICONTROL Maximum Order Total]|Website|The largest order amount that can be paid by bank transfer. <br/><br/>**_Note:_** An order qualifies if the total is between, or matches, the minimum or maximum order total.|
 |[!UICONTROL Sort Order]|Website|A number that determines the order that payment by bank transfer appears when listed with other payment methods during checkout. Enter `0` to place it at the top of the list.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Payment on Account]
 
@@ -120,7 +120,7 @@ The following payment methods are built into Commerce and do not use a third-par
 |[!UICONTROL Maximum Order Total]|Website|The largest order amount that can be charged to a company account. <br/><br/>**_Note:_** An order qualifies if the total is between, or matches, the minimum or maximum order total.|
 |[!UICONTROL Sort Order]|Website|A number that determines the order that payment on account appears when listed with other payment methods during checkout. Enter `0` to place it at the top of the list.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -143,7 +143,7 @@ The following payment methods are built into Commerce and do not use a third-par
 |[!UICONTROL Maximum Order Total]|Website|The largest order amount that can be paid by bank transfer. <br/><br/>**_Note:_** An order qualifies if the total is between, or matches, the minimum or maximum order total.|
 |[!UICONTROL Sort Order]|Website|A number that determines the order that payment by bank transfer appears when listed with other payment methods during checkout. Enter `0` to place it at the top of the list.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Zero Subtotal Checkout]
 
@@ -160,7 +160,7 @@ The following payment methods are built into Commerce and do not use a third-par
 |[!UICONTROL Payment from Specific Countries]|Website|Identifies the specific countries for which Zero Subtotal Checkout can be applied.|
 |[!UICONTROL Sort Order]|Website|A number that determines the order that the title, such as "No Payment Information is Required", appears when listed with other payment methods during checkout. Enter `0` to place it at the top of the list.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Payment actions]
 
@@ -179,7 +179,7 @@ See the Basic settings section of each individual payment method topic for a com
 |[!UICONTROL Order] |Represents an agreement with PayPal that allows the merchant to capture one or more amounts up to the order total from the customer's buyer account, within a defined time period (up to 29 days).|
 |[!UICONTROL Sale] |Amount of the purchase is authorized and immediately withdrawn from the customer's account.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -202,4 +202,4 @@ See the Basic settings section of each individual payment method topic for a com
 |[!UICONTROL Maximum Order Total]|Website|The largest order amount that can be paid by PO. <br/><br/>**_Note:_** An order qualifies if the total is between, or matches, the minimum or maximum order total.|
 |[!UICONTROL Sort Order]|Website|A number that determines the order that payment by PO appears when listed with other payment methods during checkout. Enter `0` to place it at the top of the list.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

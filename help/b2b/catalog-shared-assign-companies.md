@@ -21,7 +21,7 @@ There are two ways to assign a company to a shared catalog. You can make the ass
 
 1. Select the company that you want to assign to the shared catalog, click the **[!UICONTROL Actions]** menu, and choose **[!UICONTROL Assign Catalog]**.
 
-   ![Available Companies](./assets/shared-catalog-assign-companies-grid.png){width="700" zoomable="yes"}
+   ![Available Companies](./assets/shared-catalog-assign-companies-grid-view.png){width="700" zoomable="yes"}
 
    As an alternative, you can click **[!UICONTROL Assign]** in the **[!UICONTROL Action]** column for any company that is not assigned to the catalog.
 

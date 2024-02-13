@@ -8,6 +8,10 @@ feature: Catalog Management, Products, Page Content
 
 Product listings can be set to appear by default as either a list or grid. You can also determine how many products appear per page, and which attribute is used to sort the list. The product list includes a set of controls that can be used to sort the products, change the format of the list, sort by attribute, and advance from one page to the next.
 
+>[!NOTE]
+>
+>When sorting a category by a product attribute, products with the same attribute values are also sorted by their _[!UICONTROL Product ID]_ in the ascending order.
+
 ![Products displayed as a grid](./assets/storefront-catalog-page.png){width="700" zoomable="yes"}
 
 ## Configure product listings
@@ -89,7 +93,7 @@ The Pagination settings appear at the top and bottom of the list, and control th
 |![Show per page](./assets/control-pagination-show-per-page.png)|[!UICONTROL Show Per Page] - Determines how many products appear per page.|
 |![Pagination links](./assets/control-pagination.png)|Pagination links - Navigation links to other pages.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ### Configure the pagination controls
 

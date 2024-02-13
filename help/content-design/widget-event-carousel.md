@@ -1,14 +1,14 @@
 ---
-title: Catalog Events Carousel Widget
-description: Learn how to use the Catalog Events Carousel widget to display a slider of upcoming events on a page.
+title: Catalog events carousel widget
+description: Learn how to use a catalog events carousel widget to display a slider of upcoming events on a page.
 exl-id: 4e88b253-f320-4c94-9996-94d7005effc6
 feature: Page Content, Promotions/Events
 ---
-# Catalog Events Carousel Widget
+# Catalog events carousel widget
 
 {{ee-feature}}
 
-The Catalog Events Carousel widget displays a slider of upcoming events with a countdown ticker for each event. You can choose the pages and area of the page layout where you want the carousel to appear, and control the width and number of events that appear at one time. The result you get depends on your theme, where it is positioned to appear on the page, and the options that you choose.
+A catalog events carousel widget displays a slider of upcoming events with a countdown ticker for each event. You can choose the pages and area of the page layout where you want the carousel to appear, and control the width and number of events that appear at one time. The result you get depends on your theme, where it is positioned to appear on the page, and the options that you choose.
 
 ![Event carousel in the left sidebar](./assets/storefront-event-carousel-sidebar-gear.png){width="700" zoomable="yes"}
 
@@ -88,7 +88,7 @@ Before you begin, follow the [instructions](../merchandising-promotions/event-co
 
 1. For a custom width, enter the number of pixels for **[!UICONTROL Block Custom Width]**.
 
-   The custom width for the example on the following page is set to 250 pixels.
+   On the following example page, the custom width is set to 250 pixels.
 
    ![Custom width widget options](./assets/widget-options-custom-width.png){width="400" zoomable="yes"}
 

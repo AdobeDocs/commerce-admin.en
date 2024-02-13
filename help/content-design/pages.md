@@ -44,7 +44,7 @@ The [503 Service Unavailable](../configuration-reference/general/general.md) pag
 
 ### About Us
 
-The About Us page is linked from the footer of your store. You can include images, video, links to press releases and announcements. The sample page has an image on the right, and decorative one to indicate the end of the page.
+The About Us page is linked from the footer of your store. You can include images, video, links to press releases and announcements. The sample page has an image on the right, and a decorative one to indicate the end of the page.
 
 ### Customer Service
 

@@ -19,7 +19,7 @@ feature: Configuration, Admin Workspace, Reporting
 |[!UICONTROL Year-to-Date Starts]|Global|Specifies the month and day upon which the year-to-date calculations are based.|
 |[!UICONTROL Current Month Starts]|Global|Specifies the day of the month that is used in calculations to mark the beginning of the current month.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL General Options]
 
@@ -39,4 +39,4 @@ feature: Configuration, Admin Workspace, Reporting
 |[!UICONTROL Enable "Product Added To Wishlist" Report]|Global|Enables or disables the collection of statistics of products added to wish list.|
 |[!UICONTROL Enable "Share WishList" Report]|Global|Enables or disables the collection of statistics of shared wish lists.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

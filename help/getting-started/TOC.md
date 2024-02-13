@@ -17,6 +17,17 @@ recommendations: noDisplay
   + [Secure your account](commerce-account-secure.md)
   + [Share your account](commerce-account-share.md)
   + [Transfer an account](commerce-account-transfer.md)
++ Site compliance {#compliance}
+  + [HIPAA readiness on Adobe Commerce](hipaa-ready-service.md)
+  + Privacy {#privacy}
+    + [Store privacy policy](privacy-policy.md)
+    + [CCPA compliance](compliance-ccpa.md)
+    + [GDPR compliance](compliance-gdpr.md)
+    + [Cookie law compliance](compliance-cookie-law.md)
+  + Payments {#payments}
+    + [PCI compliance](compliance-pci.md)
+    + [Payment Services Directive](compliance-payment-services-directive.md)
+  + [Accessibility](navigation-accessibility.md)
 + The Admin {#admin}
   + [What is the Admin?](admin.md)
   + [Your Admin user account](admin-signin.md)
@@ -44,16 +55,6 @@ recommendations: noDisplay
   + [Store details](store-details.md)
   + [Storefront branding](storefront-branding.md)
   + [Prelaunch checklist](prelaunch-checklist.md)
-+ Site compliance {#compliance}
-  + Privacy {#privacy}
-    + [Store privacy policy](privacy-policy.md)
-    + [CCPA compliance](compliance-ccpa.md)
-    + [GDPR compliance](compliance-gdpr.md)
-    + [Cookie law compliance](compliance-cookie-law.md)
-  + Payments {#payments}
-    + [PCI compliance](compliance-pci.md)
-    + [Payment Services Directive](compliance-payment-services-directive.md)
-  + [Accessibility](navigation-accessibility.md)
 + Standard reporting  {#reporting}
   + [Reports menu](reports-menu.md)
   + [Marketing reports](marketing-reports.md)
@@ -62,7 +63,7 @@ recommendations: noDisplay
   + [Customer reports](customer-reports.md)
   + [Product reports](product-reports.md)
   + [Private sales reports](private-sales-reports.md)
-  + [Business intelligence tools](business-intelligence.md)
+  + [Commerce Intelligence tools](business-intelligence.md)
   + [New Relic reporting](new-relic-reporting.md)
 + Resources {#resources}
   + [Ecosystem](resources.md)

@@ -33,4 +33,4 @@ feature: Configuration, Shopping Cart
 |[!UICONTROL Persist Recently Viewed Products]|Website|![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce only) Determines if the state of recently viewed products is retained when the session ends. Options: <br/>**`Yes`** - The state of recently viewed products is saved when the session ends. <br/>**`No`** - The state of recently viewed products is not saved when the session ends.|
 |[!UICONTROL Persist Customer Group Membership and Segmentation]|Website|![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce only) Determines if the state of customers' group membership and segmentation criteria are retained when the session ends. Options: <br/>**`Yes`** - The state of the customer's group membership and segmentation data is saved when the session ends. <br/>**`No`** - The state of the customer's group membership and segmentation data are not saved when the session ends.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

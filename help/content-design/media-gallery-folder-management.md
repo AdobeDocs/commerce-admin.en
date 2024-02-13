@@ -1,14 +1,18 @@
 ---
-title: Media Gallery Folder Management
+title: Media Gallery folder management
 description: Learn how to use folders to organize your media assets.
 exl-id: 23cfbdac-08dd-454c-8212-8739c540ba16
 feature: Page Content, Media
 ---
-# Media Gallery Folder Management
+# Media Gallery folder management
 
 Use folders to organize images in the new [Media Gallery](media-gallery.md). As the number of media assets increases, folders make it easier to locate and manage existing assets in your media gallery.
 
 ## Create a folder
+
+>[!NOTE] 
+>
+>You can only create a folder in the `pub/media/wysywig` and `pub/media/catalog/category` folders.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Media]_ > **[!UICONTROL Media Gallery]**.
 
@@ -24,7 +28,7 @@ Use folders to organize images in the new [Media Gallery](media-gallery.md). As 
 
 >[!WARNING]
 >
->Deleting a folder causes the removal of all the images within that folder.
+>Deleting a folder causes the removal of all the images within that folder. You can only delete a folder in the `pub/media/wysywig` and `pub/media/catalog/category` folders.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Media]_ > **[!UICONTROL Media Gallery]**.
 

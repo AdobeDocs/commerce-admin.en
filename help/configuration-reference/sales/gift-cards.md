@@ -21,7 +21,7 @@ feature: Configuration, Gift
 |[!UICONTROL Gift Card Notification Email Sender]|Store View|Identifies the [store contact](../../getting-started/store-details.md#store-email-addresses) that appears as the sender of the gift card notification email. Default value: `General Contact`|
 |[!UICONTROL Gift Card Notification Email Template]|Store View|Determines the [template](../../systems/email-templates.md) that is used for the gift card notification email.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Gift Card General Settings]
 
@@ -37,7 +37,7 @@ feature: Configuration, Gift
 |[!UICONTROL Gift Message Maximum Length]|Store View|Determines the maximum number of characters allowed in a gift card message. Default value: 255|
 |[!UICONTROL Generate Gift Card Account when Order Item is]|Global|Determines if a gift card account is generated when a customer places an order, or when the order is invoiced. Options: `Ordered` / `Invoiced`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Sent from Gift Card Account Management]
 
@@ -50,7 +50,7 @@ feature: Configuration, Gift
 |[!UICONTROL Gift Card Email Sender]|Store View|Identifies the [store contact](../../getting-started/store-details.md#store-email-addresses) that appears as the sender of the gift card email. Default value: `General Contact`|
 |[!UICONTROL Gift Card Template]|Store View|Determines the [template](../../systems/email-templates.md) that is used for the gift card email.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Gift Card Account General Settings]
 
@@ -69,4 +69,4 @@ feature: Configuration, Gift
 |[!UICONTROL Low Code Pool Threshold]|Global|Determines the number of records in the code pool that triggers an alert that the pool needs to be replenished.|
 |[!UICONTROL Generate]|Global|Click to generate the list of gift card codes.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

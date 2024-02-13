@@ -1,10 +1,10 @@
 ---
-title: Create Multi-Source Shipments
+title: Create multi-source shipments
 description: Learn how multi-source merchants can create and send shipments.
 exl-id: d2995139-0fc3-4379-a4ec-b0d38ed566bb
 feature: Inventory, Shipping/Delivery
 ---
-# Create Multi-Source Shipments
+# Create multi-source shipments
 
 With [!DNL Inventory Management], send one or more shipments as you have inventory. To generate additional shipments as needed, repeat these instructions using recommended or manually entered quantities and sources. These instructions detail how multi-source merchants send shipments. Single-source merchants send shipments without these additional steps (see [Create a shipment](../stores-purchase/shipments.md#create-a-shipment){target="_blank"} in the core user guide).
 

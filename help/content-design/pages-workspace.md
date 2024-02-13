@@ -1,10 +1,10 @@
 ---
-title: Page Workspace Controls
-description: Learn about the workspace tools used to located and update content pages.
+title: Page workspace controls
+description: Learn about the workspace tools used to locate and update content pages.
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
 ---
-# Page Workspace Controls
+# Page workspace controls
 
 The page workspace includes tools to help you quickly find the pages you need, and commands to perform routine maintenance on individual or multiple pages. You can also quickly update page properties from the grid.
 
@@ -107,8 +107,8 @@ The Search box in the upper left of the _[!UICONTROL Pages]_ grid can be used to
 |[!UICONTROL Status]|Filter the search on the page status. Options: `Disabled` / `Published`|
 |[!UICONTROL Custom design from / to]|Filter the search by the start and end date when the selected design is applied to the product page|
 |[!UICONTROL Asset]|Filter the search by the page title assets|
-|[!UICONTROL Custom Layout]|Filter the search based on custom layout. Options: `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` / `Page -- Full Width` / `Category -- Full Width` / `Product -- Full Width`|
-|[!UICONTROL Custom Theme]|Filter the search based on custom theme. Default options: `Magento Blank` / `Magento Luma`|
+|[!UICONTROL Custom Layout]|Filter the search based on a custom layout. Options: `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` / `Page -- Full Width` / `Category -- Full Width` / `Product -- Full Width`|
+|[!UICONTROL Custom Theme]|Filter the search based on a custom theme. Default options: `Magento Blank` / `Magento Luma`|
 |[!UICONTROL Meta Keywords]|Filter the search based on the meta keywords for the page.|
 |[!UICONTROL Meta Title]|Filter the search based on the meta title for the page.|
 |[!UICONTROL Meta Description]|Filter the search based on the meta description for the page.|
@@ -143,7 +143,7 @@ Use the _[!UICONTROL Action]_ column on the far right to apply any of the follow
 
 ### Mass Actions
 
-Use the _[!UICONTROL Action]_ selector at the top-left corner to apply any of the following actions to several selected pages at the same time:
+Apply any of the following actions to several selected pages at the same time using the _[!UICONTROL Action]_ selector at the top-left corner:
 
 - [!UICONTROL Delete] - deletes the pages (requires confirmation)
 - [!UICONTROL Disable] - disables the pages on the storefront
@@ -196,12 +196,12 @@ Page changes can be applied on schedule, and grouped with other content changes.
 
 >[!NOTE]
 >
->All scheduled updates are applied consecutively, which means that any entity can have only one scheduled update at one point of time. Any scheduled update is applied to all store views within its time frame. As a result, an entity cannot have different scheduled updates for different store views at the same time. All entity attribute values within all store views, which are not affected by the current scheduled update, are taken from the default values, and not from the previous scheduled update.
+>All scheduled updates are applied consecutively, which means that any entity can have only one scheduled update at one point. Any scheduled update is applied to all store views within its time frame. As a result, an entity cannot have a different scheduled update for different store views at the same time. All entity attribute values within all store views, which are not affected by the current scheduled update, are taken from the default values, and not from the previous scheduled update.
 
 ![The Home page displays scheduled changes at the top](./assets/page-scheduled-change.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->Campaign Start Date and End Date must be defined by using the **_default_** Admin time zone, which is converted from the local time zone of each website. For example, if you have multiple websites in different time zones, but you want to start campaign based on a US time zone, you need to schedule separate update for each local time zone, and set **[!UICONTROL Start Date]** and **[!UICONTROL End Date]** in converted from each local website time zone to default Admin time zone.
+>Campaign Start Date and End Date must be defined by using the **_default_** Admin time zone, which is converted from the local time zone of each website. Consider an example where you have multiple websites in different time zones, but you want to start a campaign based on a US time zone. In this case, you must schedule a separate update for each local time zone, and set **[!UICONTROL Start Date]** and **[!UICONTROL End Date]** in converted from each local website time zone to the default Admin time zone.
 
 Also, you can schedule and preview changes for product updates. For more information, see [Scheduling an Update](content-staging-scheduled-update.md).

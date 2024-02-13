@@ -15,7 +15,7 @@ The Store View chooser in the upper-left corner of many configuration pages filt
 |[!UICONTROL Default Store View]|The name of the default store view that is associated with the parent store.|
 |[!UICONTROL Stores Configuration]|Jumps to the Stores grid, and is the same as choosing [!UICONTROL Stores] > [!UICONTROL All Stores] from the Admin sidebar.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ![Use System Value checkboxes selected](./assets/store-view-control.png){width="700" zoomable="yes"}
 
@@ -33,7 +33,7 @@ The checkbox label changes according to the current scope, and always refers to 
 |[!UICONTROL Use Default]|This checkbox appears when the configuration scope is set to Main `Website`, and refers to the default store that is assigned to the website.|
 |[!UICONTROL Use Website]|This checkbox appears when the configuration scope set to a specific store view. When selected, it uses the setting from the parent website that is associated with the store view. In this case, the store level is skipped because it is understood to apply to the default store that is associated with the website.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## Set the scope
 
@@ -88,4 +88,4 @@ Before making a configuration setting that applies only to a specific website, s
 |Languages|To support multiple languages, all content, including product descriptions, must be [translated](../stores-purchase/store-localize.md#localize-products) for each store view.|
 |Display Currency|A different [display currency](../stores-purchase/currency-configuration.md) can be used for each store view, although the transactions are processed at the website level using the base currency.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

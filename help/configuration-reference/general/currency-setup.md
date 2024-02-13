@@ -23,7 +23,7 @@ feature: Currency, Configuration, Data Import/Export
 |[!UICONTROL Default Display Currency]|Store View|The primary currency used to display prices.|
 |[!UICONTROL Allowed Currencies]|Store View|The currencies accepted by your store for payment.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Fixer.io (legacy)]
 
@@ -38,7 +38,7 @@ feature: Currency, Configuration, Data Import/Export
 |[!UICONTROL API key]|Global|The key used to access the conversion service through your [!DNL fixer.io] account. For more information, see [[!DNL fixer.io]](https://fixer.io/).|
 |[!UICONTROL Connection Timeout in Seconds]|Global|Determines the number of seconds of inactivity before a Fixer.io session times out. Default value: `100`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Fixer Api (APILayer)]
 
@@ -49,7 +49,7 @@ feature: Currency, Configuration, Data Import/Export
 |[!UICONTROL API key]|Global|The key used to access the conversion service through your [!DNL APILayer] account. For more information, see [[!DNL APILayer]](https://apilayer.com/).|
 |[!UICONTROL Connection Timeout in Seconds]|Global|Determines the number of seconds of inactivity before an [!DNL APILayer] session times out. Default value is `100`.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Currency Converter API]
 
@@ -60,7 +60,7 @@ feature: Currency, Configuration, Data Import/Export
 |[!UICONTROL API key]|Global|The key used to access the conversion service. For more information, see [[!DNL Currency Convertor] API](https://free.currencyconverterapi.com/).|
 |[!UICONTROL Connection Timeout in Seconds]|Global|Determines the number of seconds of inactivity before a [!DNL Currency Converter] session times out. Default value:`100`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Scheduled Import Settings]
 
@@ -76,4 +76,4 @@ feature: Currency, Configuration, Data Import/Export
 |[!UICONTROL Error Email Sender]|Website|Identifies the store contact that appears as the sender of the error email notification. Default sender: `General Contact`|
 |[!UICONTROL Error Email Template]|Website|Specifies the template that is used as the basis of the error email notification. Default template: `Currency Update Warnings`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

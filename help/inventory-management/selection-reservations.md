@@ -1,10 +1,10 @@
 ---
-title: Source Algorithms and Reservations
+title: Source algorithms and reservations
 description: Learn about the Source Selection Algorithm and Reservations systems that run in the background to keep your salable quantities updated.
 exl-id: dcd63322-fb4c-4448-b6e7-0c54350905d7
 feature: Inventory, Shipping/Delivery
 ---
-# Source Algorithms and Reservations
+# Source algorithms and reservations
 
 The heart of [!DNL Inventory Management] tracks every available product virtually and on-hand in your warehouses and stores. The Source Selection Algorithm and Reservations systems run in the background, keeping your salable quantities updated, checkout free of collisions, and shipment options recommended.
 

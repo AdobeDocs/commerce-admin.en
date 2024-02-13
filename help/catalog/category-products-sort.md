@@ -14,7 +14,7 @@ The position of products in a category can be specified manually by dragging and
 >
 >On the category pages, `Out of stock` products are always displayed **_after_** `In Stock` products on the product listing with all sorting types.
 
-You can set up the category options separately for each [store](../stores-purchase/stores.md#add-stores) to determine the selection of products, their relative position in the list, and the attributes that are available for category rules. However, there is a single, **_global_** sort order and product position in the catalog and they are shared across all [store views](../stores-purchase/store-views.md), stores, and websites.
+You can set up the category options separately for each [store view](../stores-purchase/stores.md#add-stores) to determine the selection of products, their relative position in the list, and the attributes that are available for category rules. However, there is a single, **_global_** sort order and product position in the catalog and they are shared across all [store views](../stores-purchase/store-views.md), stores, and websites.
 
 ## Step 1: Set the scope of the configuration
 
@@ -29,6 +29,10 @@ You can set up the category options separately for each [store](../stores-purcha
    ![Category tree](./assets/category-selected.png){width="700" zoomable="yes"}
 
 ## Step 2: Sort the products
+
+>[!NOTE]
+>
+>When sorting a category by a product attribute, products with the same attribute values are also sorted by their _[!UICONTROL Product ID]_ in the ascending order.
 
 In the _[!UICONTROL Products in Category]_ section, click the tiles ( ![View tiles](../assets/icon-view-tiles.png) ) icon to show the product tiles in a grid. Use either the manual or automatic method to sort the products.
 
