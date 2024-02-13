@@ -9,8 +9,6 @@ exl-id: b2522d25-8255-4219-98b5-4b764430dea2
 ---
 # Configure the Experience Cloud Integration with the Commerce Admin
 
-{{$include /help/_includes/admin-unified-experience-beta-note.md}}
-
 Get started with the Experience Cloud integration with Commerce Admin by configuring the Commerce application to use the Commerce Admin Unified Experience and Commerce Events extensions.
 
 
