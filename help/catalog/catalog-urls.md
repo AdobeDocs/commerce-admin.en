@@ -31,7 +31,7 @@ The URL key is the part of a static URL that describes the product or category. 
 
 >[!NOTE]
 >
->Accented special characters are automatically replaced by their regular non-accented versions in the URL key. For example, `ñ` is automatically replaced by `n`.
+>By default, accented special characters are automatically replaced by their regular non-accented versions in the URL key. For example, `ñ` is automatically replaced by `n`. This behavior can be disabled by setting the _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_ configuration option to `No`. See [Configure catalog URLs](#configure-catalog-urls).
 
 The URL key should consist of lowercase characters with non-trailing hyphens between these characters to separate words. Hyphens are not allowed at the start or at the end of the URL key. A well-designed, "search engine friendly" URL key might include the product name and key words to improve the way it is indexed by search engines. The URL key can be configured to create an automatic redirect if the URL key changes.
 
