@@ -53,7 +53,7 @@ After creating the draft quote, add product items, apply discounts, and communic
 
 1. Add items to the quote by selecting **[!UICONTROL Add Product By SKU]**. Enter the SKU number and quantity, and then select **[!UICONTROL Add Product]**.
 
-  ![Seller adding items to draft quote for buyer](./assets/quote-draft-add-items.png){width="700" zoomable="yes"}
+   ![Seller adding items to draft quote for buyer](./assets/quote-draft-add-items.png){width="675" zoomable="yes"}
 
 1. Apply line item discounts to products as needed.
 
@@ -61,7 +61,7 @@ After creating the draft quote, add product items, apply discounts, and communic
 
    - On the [!UICONTROL Discount Line item] form, select the **[!UICONTROL Discount Type]**.
 
-    ![Apply line item discount to quote](./assets/quote-draft-add-items.png){width="700" zoomable="yes"}
+     ![Apply line item discount to quote](./assets/quote-discount-line-item.png){width="675" zoomable="yes"}
 
    - In the [!UICONTROL Discount] field, enter the value for the discount type. For example, if you selected a percentage discount, enter 10 to apply a 10% discount to the line item.
 
@@ -79,7 +79,7 @@ After creating the draft quote, add product items, apply discounts, and communic
 
 1. Add additional information for the buyer.
 
-   In [!UICONTROL Negotiation - Comments], add a note and attach any supporting files required for the buyer in [!UICONTROL Negotiation - Comments]
+   On the **[!UICONTROL Negotiation - Comments]** tab, add a note and attach any supporting files required for the buyer.
 
    ![Seller adds information for buyer](./assets/quote-draft-add-info-for-buyer.png){width="700" zoomable="yes"}
 
@@ -89,11 +89,9 @@ After creating the draft quote, add product items, apply discounts, and communic
 
    Save the quote as a draft, or send it to the buyer.
 
-   If you send the quote to the buyer, the status changes to `Submitted`, and the quote is locked until the buyer the quote, the status updates to draft and a confirmation message is displayed:
+   - If you save the quote as a draft, the status updates to `Draft` and a confirmation message is displayed.
 
-   ![Confirmation draft quote submitted to buyer](./assets/quote-draft-submitted-confirmation.png){width="700" zoomable="yes"}
-
-  The buyer receives an email notification to review the quote. The quote is locked until the buyer returns it for further negotiation. The Seller can view the quote from the Quote grid or the Customer grid.
+   - If you send the quote to the buyer, the status changes to `Submitted`. The buyer receives an email notification to review the quote. The quote is locked until the buyer returns it for further negotiation. The seller can view the quote from the Quote grid or the Customer grid.
 
 ## View and create quotes from Customer Grid
 
