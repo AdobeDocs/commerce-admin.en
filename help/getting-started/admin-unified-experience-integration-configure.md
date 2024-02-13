@@ -51,7 +51,7 @@ Before configuring the Experience Cloud integration, verify that your project an
      bin/magento admin:adobe-ims:status
      ```
 
-    If the module is not enabled, [enable it using the Organization and credentials for the IMS integration project](../getting-started/adobe-ims-config.md#step-3-enable-the-adminadobeims-module). If you don't have the credentials, [submit an Adobe Support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
+    If the module is not enabled, [enable it using the Organization and credentials for the IMS integration project](../getting-started/adobe-ims-config.md#step-3-enable-the-adminadobeims-module).
 
 1. Verify that the Admin user can log into the Commerce Admin using their Adobe ID.
 
