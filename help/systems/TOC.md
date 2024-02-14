@@ -42,7 +42,6 @@ feature: System
     - [Import downloadable products](data-transfer-downloadable-products.md)
     - [Import tier price data](data-import-price-tier.md)
   - [Scheduled import and export](data-scheduled-import-export.md)
-  - [Data Management Dashboard](data-dashboard.md)
 - Action logs {#action-logs}
   - [Overview](action-log.md)
   - [Action logs report](action-log-report.md)
