@@ -44,6 +44,14 @@ _May 30, 2023_
 
 +++
 
+### 2.2.0-beta1
+
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
+
+_February 16, 2024_
+
+![New](../assets/new.svg) - (**Beta**) Added ability to create [related product rules](../merchandising-promotions/product-related-rule-create.md) informed by audiences.
+
 ### 2.1.0
 
 [!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
