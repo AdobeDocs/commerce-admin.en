@@ -50,6 +50,7 @@ _May 30, 2023_
 
 _February 16, 2024_
 
+![New](../assets/new.svg) - If you are participating in the beta, make sure your `composer.json` file has the following on the root level: ` "minimum-stability": "beta"`.
 ![New](../assets/new.svg) - (**Beta**) Added ability to create [related product rules](../merchandising-promotions/product-related-rule-create.md) informed by audiences.
 
 ### 2.1.0
