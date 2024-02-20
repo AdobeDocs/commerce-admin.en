@@ -6,13 +6,17 @@ feature: B2B, Companies, Configuration
 ---
 # Manage company accounts
 
-The _[!UICONTROL Companies]_ page lists all current company accounts, regardless of status. Any pending requests for approval appear at the top of the list. The standard [workplace controls](../getting-started/admin-workspace.md) can be used to filter the list, change the [column layout](../getting-started/admin-grid-controls.md), save views, or export data.
-
-The _[!UICONTROL Actions]_ control above the grid can be used to apply an action to multiple company records. For example, rather than approving each individual company request, you can select multiple requests and activate the accounts in a single action. The actions that are available depend on the [permissions](../systems/permissions.md) for the role that is assigned to your Admin user account.
-
-Use the _[!UICONTROL Search]_ function to find companies in the **Companies** grid by keyword. The search indexes keywords from the **Company Name** and **Parent** columns. You can filter by **Company Type** to show only single companies, only parent companies, or only child companies.
+The _[!UICONTROL Companies]_ page lists all current company accounts, regardless of status. Any pending requests for approval appear at the top of the list.
 
 ![Companies Grid](./assets/companies-grid-view.png){width="700" zoomable="yes"}
+
+Customize the company information displayed in the view using the search and filter capabilities.
+
+- Find companies in the **Companies** grid by using the _[!UICONTROL Search]_. The search indexes the **Company Name** and **Parent** columns.
+
+- Customize the view to include records that meet specific criteria by using the [!UICONTROL Filter]. For example, if the B2B site is configured to manage both single company accounts and [company hierarchies](manage-companies.md), you can filter by `[!UICONTROL Company Type - Company]` to display only single companies, or by `[!UICONTROL Company Type - Parent]` to show only the parent company for each hierarchy.
+
+Apply an action to multiple company records by using the _[!UICONTROL Actions]_ control above the grid. For example, rather than approving each individual company request, you can select multiple requests to activate the accounts in a single action. The available actions depend on the [permissions](../systems/permissions.md) for the role that is assigned to your Admin user account.
 
 ## Company role resources
 
@@ -23,15 +27,23 @@ The [Role Resources](../systems/permissions-user-roles.md#role-resources) settin
 - Apply a balance reimbursement
 - View companies
 
-These role resources must be set for the [User Role](../systems/permissions-user-roles.md) that is assigned for the Admin user account.
+These role resources must be set for the [User Role](../systems/permissions-user-roles.md) that is assigned to the Admin user account.
 
-## Apply an action
+## Manage company accounts from the Companies grid
 
-The following actions can be applied to either single or multiple records.
+View and manage the user accounts for companies from the Admin menu by selecting **[!UICONTROL Customers]** > **[!UICONTROL Companies]** to open the *[!UICONTROL Companies]* page.
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+You can manage accounts individually or in groups.
 
-1. In the first column of the grid, select the checkbox of each record that you want to update and follow the instructions for the action that you want to apply:
+- View or change configuration settings for an individual company account by selecting **[!UICONTROL Edit]** in the **[!UICONTROL Action]** column for the company account record.
+
+  ![Select action to apply to selected companies](assets/companies-change-settings-edit-selection.png){width="675" zoomable="yes"}
+
+- View or change a group of selected company accounts by using the options available from the [!UICONTROL Actions]** control above the grid.
+
+  ![Select action to apply to selected companies](assets/companies-change-settings-mass-action-selection.png){width="675" zoomable="yes"}
+
+See the following sections for instructions to apply each action.
 
 ### Activate company accounts
 
@@ -88,13 +100,17 @@ Deleted company accounts cannot be restored. The status of user accounts that ar
 
 Update the [Advanced Settings](account-company-create.md#advanced-settings) configuration to apply the same settings to multiple companies selected on the *Companies grid*.
 
+>[!NOTE]
+>
+>Manage the advanced settings configuration for a company organization with a parent and associated child companies from the [Company Hierarchy view](manage-company-hierarchy.md#change-company-settings).
+
 1. From the **[!UICONTROL Actions]** control, select **[!UICONTROL Change company settings]**.
 
    On the *[!UICONTROL Change company settings]* form, the initial configuration settings are set to the default values.
 
 1. For each configuration setting to change, select the **[!UICONTROL Change]** checkbox to enable the setting. Then, update the setting as needed.
 
-   ![Change company settings for multiple companies](assets/companies-change-advanced-settings-action.png){width="700" zoomable="yes"}
+   ![Change company settings for multiple companies](assets/companies-change-advanced-settings-action.png){width="675" zoomable="yes"}
 
 1. After updating the configuration settings, select **[!UICONTROL Apply Changes]**.
 
@@ -102,7 +118,7 @@ Update the [Advanced Settings](account-company-create.md#advanced-settings) conf
 
 >[!TIP]
 >
->You can change the advanced settings configuration for a single company by using the [!UICONTROL Edit] in the [!UICONTROL Action] column for the company record.
+>You can change the advanced settings configuration for a single company by selecting **[!UICONTROL Edit]** in the **[!UICONTROL Action]** column for the company account record.
 
 ### Convert the credit currency
 
@@ -128,7 +144,7 @@ Method 1: **Quick edit**
 
    Each value that can be updated appears in a text box.
 
-   ![Quick Edit for a company account](./assets/companies-grid-quick-edit.png){width="700" zoomable="yes"}
+   ![Quick Edit for a company account](./assets/companies-grid-quick-edit.png){width="675" zoomable="yes"}
 
 1. Update any of the following values as needed:
 
@@ -190,13 +206,11 @@ You can learn about managing company accounts by watching this video:
 
 ## Company management
 
-[!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Available only for Beta program participants"}
-
 After a company is created, Admin users with appropriate permissions can use the [!UICONTROL Company Hierarchy] section to build a parent company organization by editing the designated parent company and assigning related companies.
 
 If a company has been added to a hierarchy, the [!UICONTROL Company Hierarchy] grid displays the parent company and all assigned companies in the grid.
 
-See [Manage company hierarchy](assign-companies.md) for more information.
+See [Manage company hierarchy](manage-company-hierarchy.md) for more information.
 
 ## Company options and columns
 
