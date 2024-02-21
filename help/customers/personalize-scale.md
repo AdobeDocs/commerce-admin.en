@@ -5,92 +5,117 @@ feature: Customers, Storefront, Personalization
 ---
 # Personalization at scale
 
-Personalization at scale allows businesses to meet customer expectations and deliver customized experiences to every customer on every channel in real time. ​Personalization at scale means that your business has the ability to personalize any and every customer touchpoint based on immediate context and previously observed behavior. The goal is to present the most relevant and personalized experience possible every time.
+​Personalization at scale allows businesses the ability to personalize the shopping experience for every customer touchpoint based on immediate context and previously observed behavior. The goal is to present the most relevant and personalized experience possible every time.
 
-For an overview of Personalization at Scale, download the [_Getting Started with Pesonalization at Scale_](https://business.adobe.com/resources/reports/getting-started-with-personalization-at-scale.html) report.
+To understand the benefits of delivering a personalized shopping experience, download the [_Getting Started with Pesonalization at Scale_](https://business.adobe.com/resources/reports/getting-started-with-personalization-at-scale.html) report.
 
-## Concepts
+## How do you personalize the shopping experience
 
-Personalizing the buying experience for your shoppers requires that you understand several concepts.
+Successful personalization starts with shopper context. Building an understanding of the customer context requires data. In this section, you learn what types of data are available to build that shopper context.
 
-- Concept 1
+### Behavioral data
 
-- Concept 2
+Behavioral data answers the question: how do shoppers interact with your site? For example, do they:
 
-- Concept 3
+- Click a search ad
+- Watch a video
+- Interact with the call center
+- Open an email offer
+- Browse your site from a mobile device
+- View specific products or categories
+- Make purchases
+- Return items
 
-## How do you personalize the buying experience
+### Customer profile data
 
-Personalizing the shopping experience for your customers hinges upon the ability to aggregate visitor data then act on that data to create a unique and personal experience for each customer. Knowing what products your customers are viewing and ultimately purchasing, can help you target their interest and personalize their experience.
+Customer profile data answers the question: who are your shoppers? For example, what is their:
 
-In this article, you learn what is refered to as the experience layer in Commerce. which features in Commerce can share the data so you can personalize your customer's shopping experience.
+- Name
+- Gender
+- Address
+- Loyalty status
+- Phone number
+- Email address
 
-### Data layer
+### Segment data
 
-Adobe Commerce contains a wealth of data. What kinds of data. This data comprises the data layer. What good is that data if you can't use it/share it to enhance the commerce storefront? Personalizing starts with a solid data foundation. When we talk about data, this is what we're talking about:
+Segment data answers the question: which segments do your shoppers qualify for. For example, are they:
 
-Customer profile data
-Behavioral and click stream data
-Back office data (order status, history, inventory)
-Product catalog data (products, pricing)
-3rd party system (loyalty, social, reviews)
+- Eligible for upgrades
+- Cross channel shoppers
+- Prospects for new products
+- Gold, silver, or bronze loyalty members
 
-### Experience layer
+The above data forms the foundation of the Commerce customer context. Using this data, you can better understand the shopper context, which helps you know what products your customers are viewing and ultimately purchasing. You can then target their interest and personalize their experience.
 
-Sitting on top of the data layer in Commerce is the experience layer. This layer is composed of the features in Commerce that can act on that data and is divided into four main pillars:  product discovery, site content, offers and campaigns, and measurement. The following sections go into each of these pillars in more detail and provide the available Commerce features you can use to turn that data into actionable insights.
+In the next section, you learn which features in Commerce can use this data to personalize the shopping experience.
+
+## Commerce features that use customer context data to personalize the shopping experience
+
+Sitting on top of the customer context data in Commerce is the experience layer. This layer is composed of the features in Commerce that can act on that data and is divided into four main pillars:
+
+- Product discovery
+- Site content
+- Offers and campaigns
+- Measurement
+
+The following sections go into each of these pillars in more detail and provide the available Commerce features you can use to turn that data into actionable insights.
 
 ### Product discovery
 
+The product discovery pillar contains merchandising services that are [deployed as SaaS](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html). These are features that allow you to use behavioral data, product attributes, and inventory levels to automatically personalize product discovery across search results, product recommendations, and browsing pages. These features all use Adobe Sensei AI.
 
-Features to use
+#### Commerce features to use
+
+You can use the following Commerce features to assist in product discovery.
+
+- **Product Recommendations** - Displays AI-fueled product recommendations based on shopper behavior, trends, product similarity and more. When combined with your Adobe Commerce catalog, product recommendations deliver a highly engaging, relevant, and personalized experience. Learn [more](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html).
+
+- **Live Search** - Uses AI ranking algorithms to personalize and optimize search results based on shopper's on-site behavioral actions, boosting search relevance and conversion. Learn [more](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html).
+
+- **Category Merchandising** - Accessed from the Live Search Admin, category merchandising uses AI to automatically re-rank the sequence of products on each category page to boost relevance and conversion for every shopper. You can create and manage AI-powered rules to automatically re-rank product sequencing on category pages according to shopper actions and affinities. Learn [more](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/category-merch.html).
 
 ### Site content
 
-Features to use
+The site content pillar refers to the ability to deploy personalized dynamic content blocks based on the current customer browsing your site.
+
+#### Commerce features to use
+
+You can use the following Commerce features to assist in personalizing site content.
+
+- **Dynamic blocks informed by native Commerce features** - Allows you to deliver personalized site content based on logic configured in price rules and customer segments. Learn [more](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks.html).
+
+- **Dynamic blocks informed by Real-Time CDP audiences** - Enables merchants to deliver personalized site content based on audiences configured in Real-Time CDP. Learn [more](https://experienceleague.adobe.com/docs/commerce-admin/customers/audience-activation.html).
 
 ### Offers and campaigns
 
-Features to use
+The offers and campaigns pillar lets you deploy personalized promotional content based on segment data.
+
+#### Commerce features to use
+
+You can use the following Commerce features to assist in creating personalized offers and campaigns.
+
+- **Cart price rules** - Lets you apply discounts to items in the shopping cart, based on a set of conditions. Learn [more](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html).
+
+- **Dynamic blocks informed by native Commerce features** - Allows you to display personalized banner promotions based on customer segments configured natively in Commerce. Learn [more](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks.html).
+
+- **Dynamic blocks informed by Real-Time CDP audiences** - Allows you to display personalized promotions based on audiences configured in Real-Time CDP. Learn [more](https://experienceleague.adobe.com/docs/commerce-admin/customers/audience-activation.html).
 
 ### Measurement
 
-Features to use
+The measurement pillar uses data intelligence to better understand your business including revenue, channel and merchandise performance, promotions, and so on.
 
+#### Commerce features to use
 
-### Basic data sharing features
+You can use the following Commerce feature to assist in measuring the success of any personalization at scale implementation.
 
-These features are available on Magento Open Source and Adobe Commerce.
-
-- **Dynamic blocks** - 
-- **Cart price rules** - 
-- **Segments** - 
-
-from rohan:
-from his presentation the OOTB are the above, but also prex, LS, IM.
-
-### Data sharing using merchandising services features
-
-Exclusively for Adobe Commerce merchants, the merchandising services feature set are optional Adobe Commerce extensions included in your license.
-
-These features allow you to use behavioral data, product attributes, and inventory levels to automatically personalize product discovery across search results, product recommendations, and browsing pages, using Adobe Sensei AI for efficient merchandiser workflows.
-
-- **Product Recommendations** - AI-fueled product recommendations based on shopper behavior, trends, product similarity and more. When combined with your Adobe Commerce catalog, product recommendations deliver a highly engaging, relevant, and personalized experience.
-
-- **Live Search** - Uses the power of Adobe Sensei to personalize and optimize search results based on shopper's on-site actions, boosting search relevance and conversion. Use AI ranking algorithms to personalize and optimize search results in-session based on behavioral actions, boosting search relevance & conversion
-- **Intelligent Merchandising** - Accessed from the Live Search Admin, intelligent merchandising uses AI to automatically re-rank the sequence of products on each category page to boost relevance and conversion for every shopper. You can create and manage AI-powered rules to automatically re-rank product sequencing on category pages according to shopper actions and affinities.
-
-### Data sharing features that extend Commerce
-
-You can extend the Adobe Commerce data sharing capabilities by connecting your Commerce instance to the Adobe Experience Platform. Connecting your Commerce instance to the Experience Platform unlocks the joint value Adobe Commerce can have with other DX Applications, including Real-Time CDP, Adobe Journey Optimizer (AJO), Customer Journey Analytics (CJA), Adobe Analytics (AA), and Adobe Target (AT). Use the Data Connection extension to send Commerce data to other Adobe Experience Cloud products and the Audience Activation extension to personalize the Commerce experience using Real-Time CDP Audiences.
-
-- **Data Connection** - The [!DNL Data Connection] extension allows Adobe Commerce merchants to send [storefront](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#storefront-events) and [back office](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#back-office-events) data to the Adobe Experience Platform edge so that other Adobe Experience Cloud products, such as Adobe Analytics and Adobe Journey Optimizer, can use that Commerce data. By connecting your Commerce data to other products in the Adobe Experience Cloud, you can perform tasks such as analyze user behavior on your site, perform AB testing, and create personalized campaigns.
-- **Audience Activation** - Enables merchants to deliver personalized site content and promotions in real-time, tailored to AI-powered audiences built and managed within Real-Time CDP. The [!DNL Audience Activation] extension lets you activate Real-Time CDP audiences in Adobe Commerce to create unique offers in the cart. These offers and incentives include common ecommerce merchandising techniques, such as _buy 2 get 1 free_, hero banners geared toward that customer, and modified product pricing through various offers. The audiences built within Real-Time CDP are based on data from various enterprise systems, such as Enterprise Resource Planning (ERP), Customer Relationship Management (CRM), point of sale, and marketing systems. Because customer segment information is constantly refreshed, customers can become associated and disassociated from a segment as they shop in your store.
-
-
-HOW TO EXPAND BEYOND COMMERCE AND ACTIVATE DATE IN OTHER ADOBE Experience Cloud SOLUTIONS...
-
-REACH OUT TO JEFF MATTHEWS ABOUT BLUE PRINT FOR PERSONALIZATION DATA FLOW DIAGRAM. CONSIDER SURFACING ON THIS PAGE.
+ - **Adobe Commerce Intelligence** - (Formerly known as Magento Business Intelligence) is a cloud platform that provides best practice insights to help you make data-driven decisions and take clear and informed actions. Adobe Commerce Intelligence can analyze your data to help you answer questions about order growth, customer behavior, and the effectiveness of promotional strategies. Learn [more](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html).
 
 ## In conclusion
 
-Wrap it up.
+
+## Features beyond commerce
+
+Audience Activation as mentioned above uses Real-Time CDP available in the Experience Platform. You can also take advantage of Adobe Journey Optimizer (AJO), Customer Journey Analytics (CJA), Adobe Analytics (AA), and other Adobe DX products to personalize your store. Like Audience Activation, it starts with connecting your Commerce instance to the Experience Platform using the Data Connection extension. Learn [more](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html).
+
+You can extend the Adobe Commerce data sharing capabilities by connecting your Commerce instance to the Adobe Experience Platform. Connecting your Commerce instance to the Experience Platform unlocks the joint value Adobe Commerce can have with other DX Applications, including Real-Time CDP, Adobe Journey Optimizer (AJO), Customer Journey Analytics (CJA), Adobe Analytics (AA), and Adobe Target (AT). Use the Data Connection extension to send Commerce data to other Adobe Experience Cloud products and the Audience Activation extension to personalize the Commerce experience using Real-Time CDP Audiences.
