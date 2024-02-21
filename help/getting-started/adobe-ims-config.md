@@ -33,8 +33,8 @@ Commerce Admin users must create an account with an Adobe ID to log in.
 
 * Get Adobe Org ID from the [Adobe Admin Console](https://adminconsole.adobe.com/)
 * Generate a new project, IMS API keys, and secret from the [Adobe Developer Console](https://developer.adobe.com/)
-* Enable the `AdminAdobeIms` module
-* Configure Adobe Commerce users in the Adobe Admin Console.
+* Configure Adobe Commerce users in the Adobe Admin Console
+* Enable the `AdminAdobeIms` module.
 
 A successful integration requires that all Adobe Commerce users have Admin user accounts with the same name and primary email address. If a matching Admin user account does not exist, a user with the required permissions (typically assigned the Administrator role) must manually [create the Admin user account](../systems/permissions-users-all.md#create-a-user) with the same name and email.
 
