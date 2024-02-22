@@ -14,11 +14,11 @@ The Data Management Dashboard is located at *System* > Data Transfer > *Data Man
 
 ## Settings
 
-The Settings button on the right side of the page opens the [[!DNL Catalog Sync]](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/data-services/catalog-sync.html) settings dialog.
+The **[!UICONTROL Settings]** button on the right side of the page opens the dialog where you can resynchronize the catalog data.
 
-Normally, the [!DNL Catalog Sync] process runs automatically, once an hour.
+Synchronizing catalog data forces the service to refetch data from the Commerce database, ensuring that the latest changes are reflected in the service and on your site. Use this button if you have made several product changes and you need to have those changes updated before the normal automatic sync process.
 
-Resyncing catalog data forces the service to refetch data from the Commerce database, ensuring that the latest changes are reflected in the service and on your site. Use this button if you have made several product changes and you need to have those changes updated before the normal automatic sync process. 
+Synchronizing catalog data forces the service to refetch data from the Commerce database. This action is usually used during the first-time onboarding when the catalog sync has not run for a couple of hours.
 
 ## Sync status
 
@@ -28,13 +28,11 @@ The _[!UICONTROL Sync]_ status panel reports the number of products that have be
 
 The product count panel reflects the total number of catalog products available to the service.
 
-The [!DNL Catalog Service] dashboard reflects the total number of products in the catalog available to the service. This is generally all products in the Commerce database. 
-
-The Product Recommendations and Live Search dashboards display the total number of [_searchable_](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search.html) products. If some products are not set to be searchable, this would account for the difference in product totals between [!DNL Product Recommendations] and [!DNL Live Search], and [!DNL Catalog Service].
+The [!DNL Product Recommendations] and [!DNL Live Search] dashboards display the total number of _displayable_ products. [!DNL Catalog Service] does not filter products by displayable, so if you have both [!DNL Catalog Service] and [!DNL Live Search] or [!DNL Product Recommendations] installed, it is possible for the two dashboards to show two different values for the product count.
 
 ## Synced products
 
-The Synced Catalog Products table provides details about the products in the index. By default, this table is sorted by 'Last Updated'.
+The Synced Products table provides details about the products in the index. By default, this table is sorted by 'Last Updated'.
 
-To find a specific product, use the**[!UICONTROL Search by SKU]** field .
+To find a specific product, use the **[!UICONTROL Search by SKU]** field .
 To control what columns are displayed, click **[!UICONTROL Customize Table]** on the right of the table.
