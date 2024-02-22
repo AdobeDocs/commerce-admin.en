@@ -65,7 +65,9 @@ To create projects for an organization, the Adobe Admin account for the organiza
 
 ### Step 3: Configure Adobe Commerce users in the Adobe Admin Console
 
-Before enabling this feature, ensure that there is a corresponding Adobe IMS account for each Adobe Commerce user account.  Adobe Commerce users must belong to specific Adobe organization to log in using an Adobe ID.
+Adobe Commerce users must belong to specific Adobe organization to log in using an Adobe ID. 
+
+Before enabling the integration, verify that each Adobe Commerce Admin user account has a corresponding Adobe IMS account. You can create and manage IMS accounts from the Adobe Admin Console.
 
 >[!TIP]
 >
