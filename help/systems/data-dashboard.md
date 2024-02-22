@@ -16,9 +16,7 @@ The Data Management Dashboard is located at *System* > Data Transfer > *Data Man
 
 The **[!UICONTROL Settings]** button on the right side of the page opens the dialog where you can resynchronize the catalog data.
 
-Synchronizing catalog data forces the service to refetch data from the Commerce database, ensuring that the latest changes are reflected in the service and on your site. Use this button if you have made several product changes and you need to have those changes updated before the normal automatic sync process.
-
-Synchronizing catalog data forces the service to refetch data from the Commerce database. This action is usually used during the first-time onboarding when the catalog sync has not run for a couple of hours.
+Resynching catalog data forces the service to refetch data from the Commerce database. This action is usually used during the first-time onboarding when the catalog sync has not run for a couple of hours.
 
 ## Sync status
 
