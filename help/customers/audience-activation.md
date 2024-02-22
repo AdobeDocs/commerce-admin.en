@@ -32,7 +32,7 @@ These release notes describe feature changes and fixes related to extensions use
 
 _August 15, 2023_
 
-![Fix](../assets/new.svg) - Updated the [Real-Time CDP Audiences dashboard](#real-time-cdp-audiences-dashboard) to simplify filtering.
+![Fix](../assets/fix.svg) - Updated the [Real-Time CDP Audiences dashboard](#real-time-cdp-audiences-dashboard) to simplify filtering.
 
 _June 27, 2023_
 
@@ -43,6 +43,31 @@ _May 30, 2023_
 ![New](../assets/new.svg) - Updated the [Real-Time CDP Audiences dashboard](#real-time-cdp-audiences-dashboard) to include the ability to sort, search, and filter the active audiences within your Adobe Commerce instance.
 
 +++
+
+### 2.2.0-beta1
+
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
+
+_February 16, 2024_
+
+![New](../assets/new.svg) - If you are participating in the beta, make sure your `composer.json` file has the following on the root level: ` "minimum-stability": "beta"`.
+![New](../assets/new.svg) - (**Beta**) Added ability to create [related product rules](../merchandising-promotions/product-related-rule-create.md) informed by audiences.
+
+### 2.1.0
+
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
+
+_January 24, 2024_
+
+![New](../assets/new.svg) - Updated the [Real-Time CDP Audiences dashboard](#real-time-cdp-audiences-dashboard) to include the websites that contain the audiences and specify which dynamic blocks and cart price rules are configured to use those audiences.
+
+### 2.0.1
+
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
+
+_November 16, 2023_
+
+![Fix](../assets/fix.svg) - Improved stability.
 
 ### 2.0.0
 
@@ -123,24 +148,25 @@ After you install the [!DNL Audience Activation] extension, you must log into yo
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. Expand **[!UICONTROL Services]** and select **[!UICONTROL [!DNL Data Connection]]**. 
+1. Expand **[!UICONTROL Services]** and select **[!UICONTROL [!DNL Data Connection]]**.
 
-1. In the [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#send-historical-order-data) guide, follow steps 1: **Create a project in Adobe Developer Console**, and 2: **Download configuration file**. The result is a file that you copy and paste into the **[!UICONTROL [!DNL Data Connection]]** configuration page:
+1. [Add](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#add-service-account-and-credential-details) service account and credential details. 
 
-    ![Real-Time CDP Audience Admin Configuration](./assets/epc-admin-config.png){width="700" zoomable="yes"}
+## Where to use Real-Time CDP audiences in Commerce
 
-1. Click **Save Config**.
-
-With audiences activated to your Adobe Commerce instance, you can:
+With the [!DNL Audience Activation] extension enabled, you can:
 
 - [Create a cart price rule](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) informed by audiences
 - [Create a dynamic block](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) informed by audiences
+- [(**Beta**) Create a related product rule](../merchandising-promotions/product-related-rule-create.md) informed by audiences
 
 ## Real-Time CDP audiences dashboard
 
-You can view all active audiences that are available to personalize within your Adobe Commerce instance using the **Real-Time CDP Audiences** dashboard. Any audiences you [activated](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) in the Adobe Commerce destination in Real-Time CDP appear in this dashboard.
+You can view all [active](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) audiences that are available to personalize within your Adobe Commerce instance using the **Real-Time CDP Audiences** dashboard.
 
 To access the **Real-Time CDP Audiences** dashboard, go to the _Admin_ sidebar, then go to **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]**.
+
+![Real-Time CDP Audiences Dashboard](./assets/real-time-cdp-dashboard.png){width="700" zoomable="yes"}
 
 The dashboard contains the following fields:
 
@@ -150,19 +176,22 @@ The dashboard contains the following fields:
 |`Search`|Lets you search for active audiences in your Commerce instance.|
 |`Name`|Name given to the audience in Real-Time CDP.|
 |`Origin`|Indicates where the audience came from, such as `Experience Platform`.|
+|`Websites`|Indicates which websites are configured to use the audiences.|
+|`Dynamic Blocks`|Indicates which dynamic blocks are configured to use the audiences.|
+|`Cart Price Rules`|Indicates which cart price rules are configured to use the audiences.|
 |`Last updated`|Indicates when the audience was modified in Real-Time CDP.|
 |`Sync now`|Retrieves new or updated audiences from Real-Time CDP.|
-|`Customize table`| Lets you show or hide the `Origin` and `Last updated` columns.|
+|`Customize table`| Lets you show or hide the `Origin`, `Websites`, `Dynamic Blocks`, `Cart Price Rules`, and `Last updated` columns.|
 
 {style="table-layout:auto"}
 
 ## Headless support
 
-You can activate audiences in a headless Adobe Commerce instance, such as AEM and PWA, to display cart price rules or dynamic blocks based on the audiences.
+You can activate audiences in a headless Adobe Commerce instance, such as AEM and PWA, to display cart price rules, related product rules, or dynamic blocks based on the audiences.
 
-### Cart price rules
+### Cart price rules and related product rules
 
-For cart price rules, a headless storefront communicates to the Experience Platform through the [Commerce Integration Framework (CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). The framework provides a server-side API that is implemented using GraphQL. Audience information, such as a shopper's segment, passes to Commerce through a GraphQL header parameter named: `aep-segments-membership`.
+For cart price rules and related product rules, a headless storefront communicates to the Experience Platform through the [Commerce Integration Framework (CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). The framework provides a server-side API that is implemented using GraphQL. Audience information, such as a shopper's segment, passes to Commerce through a GraphQL header parameter named: `aep-segments-membership`.
 
 The overall architecture is as follows:
 
@@ -294,4 +323,35 @@ Edge.sendEvent(experienceEvent: experienceEvent) { (handles: [EdgeEventHandle]) 
 }
 ```
 
-After data is retrieved, you can use it to create audience-informed [cart price rules](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) and [dynamic blocks](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) in the Commerce app.
+After data is retrieved, you can use it to create audience-informed [cart price rules](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences), [dynamic blocks](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) and  [related product rules](../merchandising-promotions/product-related-rule-create.md) in the Commerce app.
+
+## Audiences are not displayed in Commerce
+
+If Real-Time CDP audiences are not being displayed in Commerce, it could be due to:
+
+- Incorrect authentication type selected in the **Data Connection** configuration page
+- Insufficient privileges on generated token
+
+The following two sections describe how to troubleshoot either case.
+
+### Incorrect authentication type selected in configuration
+
+1. Open your Commerce instance.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. Expand **[!UICONTROL Services]** and select **[!UICONTROL [!DNL Data Connection]]**.
+1. Ensure the server-to-server authorization method that you specified in the **[!UICONTROL Authentication Type]** field is correct. Adobe recommends using **OAuth**. JWT has been deprecated. [Learn more](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
+
+### Insufficient privileges on generated token
+
+This issue can be caused by insufficient API privileges for the generated token. To ensure the token has correct privileges:
+
+1. Identify the systems administrator for Adobe Experience Platform in your organization.
+1. Find the project and credentials that you will be using.
+1. Identify the technical account email, for example: `fe3c9476-1234-1234-abcd-2a51a785009a@techacct.adobe.com`.
+1. Have the systems administrator launch Adobe Experience Platform and go to **[!UICONTROL Permissions]** -> **[!UICONTROL Users]** -> **[!UICONTROL API credentials]**.
+1. Using the technical account email from above, search for the credentials to modify.
+1. Open the credentials, then select **[!UICONTROL Roles]** -> **[!UICONTROL Add roles]**.
+1. Add **Production all access**.
+1. Click **[!UICONTROL Save]**.
+1. [Regenerate](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#generate-access-token) the access token in Console.
+1. Verify that token provides a valid response using the [Target Connections API](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/getTargetConnections).
