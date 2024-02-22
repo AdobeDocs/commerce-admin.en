@@ -65,15 +65,13 @@ To create projects for an organization, the Adobe Admin account for the organiza
 
 ### Step 3: Configure Adobe Commerce users in the Adobe Admin Console
 
-Adobe Commerce users must belong to specific Adobe organization to log in using an Adobe ID. 
-
-Before enabling the integration, verify that each Adobe Commerce Admin user account has a corresponding Adobe IMS account. You can create and manage IMS accounts from the Adobe Admin Console.
+Before enabling the integration, verify that each Adobe Commerce Admin user account has a corresponding Adobe IMS account. Adobe Commerce users must belong to a specific Adobe organization to log in using an Adobe ID.
 
 >[!TIP]
 >
->You can create multiple user accounts in the Adobe Admin console by uploading the user information from a CSV file. See [Manage multiple users](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).
+>You can create multiple user accounts by uploading the user information from a CSV file. See [Manage multiple users](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).
 
-1. In the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html), navigate to **[!UICONTROL Users]**  > **[!UICONTROL Users]**.
+1. In the [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html), navigate to **[!UICONTROL Users]**  > **[!UICONTROL Users]**.
 
 1. Click **[!UICONTROL Add User]**.
 
