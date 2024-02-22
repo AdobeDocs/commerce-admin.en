@@ -111,11 +111,8 @@ You can use the following Commerce feature to assist in measuring the success of
 
  - **Adobe Commerce Intelligence** - (Formerly known as Magento Business Intelligence) is a cloud platform that provides best practice insights to help you make data-driven decisions and take clear and informed actions. Adobe Commerce Intelligence can analyze your data to help you answer questions about order growth, customer behavior, and the effectiveness of promotional strategies. Learn [more](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html).
 
-## In conclusion
-
-
 ## Features beyond commerce
 
-Audience Activation as mentioned above uses Real-Time CDP available in the Experience Platform. You can also take advantage of Adobe Journey Optimizer (AJO), Customer Journey Analytics (CJA), Adobe Analytics (AA), and other Adobe DX products to personalize your store. Like Audience Activation, it starts with connecting your Commerce instance to the Experience Platform using the Data Connection extension. Learn [more](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html).
+Audience Activation as mentioned above uses Real-Time CDP available in the Experience Platform. You can also take advantage of other Adobe DX products, such as Adobe Journey Optimizer (AJO), Customer Journey Analytics (CJA), Adobe Analytics (AA), and others to personalize your store. Like Audience Activation, it starts with connecting your Commerce instance to the Experience Platform using the Data Connection extension. Learn [more](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html).
 
 You can extend the Adobe Commerce data sharing capabilities by connecting your Commerce instance to the Adobe Experience Platform. Connecting your Commerce instance to the Experience Platform unlocks the joint value Adobe Commerce can have with other DX Applications, including Real-Time CDP, Adobe Journey Optimizer (AJO), Customer Journey Analytics (CJA), Adobe Analytics (AA), and Adobe Target (AT). Use the Data Connection extension to send Commerce data to other Adobe Experience Cloud products and the Audience Activation extension to personalize the Commerce experience using Real-Time CDP Audiences.
