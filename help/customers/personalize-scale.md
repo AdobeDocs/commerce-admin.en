@@ -9,6 +9,14 @@ feature: Customers, Storefront, Personalization
 
 To understand the benefits of delivering a personalized shopping experience, download the [_Getting Started with Pesonalization at Scale_](https://business.adobe.com/resources/reports/getting-started-with-personalization-at-scale.html) report.
 
+Creating a personalized shopping experience requires that you become familiar with the type of data needed to understand the shopper context. From there, you learn which features in Adobe Commerce use that data to unlock customer insights so you can create that personalized shopping experience.
+
+The following image illustrates the concepts involved in personalizing the shopping experience:
+
+![Building a personalization pipeline](assets/personalization-journey.png){width="700" zoomable="yes"}
+
+This article discuss in more detail each of the above concepts.
+
 ## How do you personalize the shopping experience
 
 Successful personalization starts with shopper context. Building an understanding of the customer context requires data. In this section, you learn what types of data are available to build that shopper context.
@@ -46,7 +54,7 @@ Segment data answers the question: which segments do your shoppers qualify for. 
 - Prospects for new products
 - Gold, silver, or bronze loyalty members
 
-The above data forms the foundation of the Commerce customer context. Using this data, you can better understand the shopper context, which helps you know what products your customers are viewing and ultimately purchasing. You can then target their interest and personalize their experience.
+The above data forms the foundation of the Commerce customer context, which helps you know what products your customers are viewing and ultimately purchasing. You can then target their interest and personalize their experience.
 
 In the next section, you learn which features in Commerce can use this data to personalize the shopping experience.
 
@@ -109,7 +117,7 @@ The measurement pillar uses data intelligence to better understand your business
 
 You can use the following Commerce feature to assist in measuring the success of any personalization at scale implementation.
 
- - **Adobe Commerce Intelligence** - (Formerly known as Magento Business Intelligence) is a cloud platform that provides best practice insights to help you make data-driven decisions and take clear and informed actions. Adobe Commerce Intelligence can analyze your data to help you answer questions about order growth, customer behavior, and the effectiveness of promotional strategies. Learn [more](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html).
+- **Adobe Commerce Intelligence** - (Formerly known as Magento Business Intelligence) is a cloud platform that provides best practice insights to help you make data-driven decisions and take clear and informed actions. Adobe Commerce Intelligence can analyze your data to help you answer questions about order growth, customer behavior, and the effectiveness of promotional strategies. Learn [more](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html).
 
 ## Features beyond commerce
 
