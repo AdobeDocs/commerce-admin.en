@@ -9,7 +9,7 @@ feature: Customers, Storefront, Personalization
 
 To understand the benefits of delivering a personalized shopping experience, download the [_Getting Started with Personalization at Scale_](https://business.adobe.com/resources/reports/getting-started-with-personalization-at-scale.html) report.
 
-Creating a personalized shopping experience requires you to learn about the type of data needed to understand the shopper context. From there, you learn about Adobe Commerce features that use that data to unlock the customer insights you need to create the personalized shopping experience.
+Creating a personalized shopping experience requires you to learn about the type of data needed to understand the customer context. From there, you learn about Adobe Commerce features that use that data to unlock the customer insights you need to create the personalized shopping experience.
 
 The following image illustrates the concepts involved in personalizing the shopping experience:
 
@@ -19,7 +19,7 @@ This article discusses each of the above concepts in more detail.
 
 ## How do you personalize the shopping experience
 
-Successful personalization starts with shopper context. In this section, you learn about the data types that are available to help you build the shopper context.
+Successful personalization starts with customer context. In this section, you learn about the data types that are available to help you build the customer context.
 
 ### Behavioral data
 
@@ -79,9 +79,9 @@ You can use the following Commerce features to assist in product discovery.
 
 - **Product Recommendations** - Displays AI-fueled product recommendations based on shopper behavior, trends, product similarity and more. When combined with your Adobe Commerce catalog, product recommendations deliver a highly engaging, relevant, and personalized experience. [Learn more](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html).
 
-- **Live Search** - Uses AI ranking algorithms to personalize and optimize search results based on a shopper's on-site behavioral actions, boosting search relevance and conversion. Learn [more](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html).
+- **Live Search** - Uses AI ranking algorithms to personalize and optimize search results based on a shopper's on-site behavioral actions, boosting search relevance and conversion. [Learn more](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html).
 
-- **Category Merchandising** - Accessed from the Live Search Admin, category merchandising uses AI to automatically rerank the sequence of products on each category page to boost relevance and conversion for every shopper. You can create and manage AI-powered rules to automatically rerank product sequencing on category pages according to shopper actions and affinities. Learn [more](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/category-merch.html).
+- **Category Merchandising** - Accessed from the Live Search Admin, category merchandising uses AI to automatically rerank the sequence of products on each category page to boost relevance and conversion for every shopper. You can create and manage AI-powered rules to automatically rerank product sequencing on category pages according to shopper actions and affinities. [Learn more](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/category-merch.html).
 
 ### Site content
 
@@ -91,9 +91,9 @@ The site content pillar refers to the ability to deploy personalized dynamic con
 
 You can use the following Commerce features to assist in personalizing site content.
 
-- **Dynamic blocks informed by native Commerce features** - Allows you to deliver personalized site content based on logic configured in price rules and customer segments. Learn [more](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks.html).
+- **Dynamic blocks informed by native Commerce features** - Allows you to deliver personalized site content based on logic configured in price rules and customer segments. [Learn more](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks.html).
 
-- **Dynamic blocks informed by Real-Time CDP audiences** - Enables merchants to deliver personalized site content based on audiences configured in Real-Time CDP. Learn [more](https://experienceleague.adobe.com/docs/commerce-admin/customers/audience-activation.html).
+- **Dynamic blocks informed by Real-Time CDP audiences** - Enables merchants to deliver personalized site content based on audiences configured in Real-Time CDP. [Learn more](https://experienceleague.adobe.com/docs/commerce-admin/customers/audience-activation.html).
 
 ### Offers and campaigns
 
@@ -103,11 +103,11 @@ The offers and campaigns pillar lets you deploy personalized promotional content
 
 You can use the following Commerce features to assist in creating personalized offers and campaigns.
 
-- **Cart price rules** - Lets you apply discounts to items in the shopping cart based on a set of conditions. Learn [more](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html).
+- **Cart price rules** - Lets you apply discounts to items in the shopping cart based on a set of conditions. [Learn more](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html).
 
-- **Dynamic blocks informed by native Commerce features** - Allows you to display personalized banner promotions based on customer segments configured natively in Commerce. Learn [more](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks.html).
+- **Dynamic blocks informed by native Commerce features** - Allows you to display personalized banner promotions based on customer segments configured natively in Commerce. [Learn more](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks.html).
 
-- **Dynamic blocks informed by Real-Time CDP audiences** - Allows you to display personalized promotions based on audiences configured in Real-Time CDP. Learn [more](https://experienceleague.adobe.com/docs/commerce-admin/customers/audience-activation.html).
+- **Dynamic blocks informed by Real-Time CDP audiences** - Allows you to display personalized promotions based on audiences configured in Real-Time CDP. [Learn more](https://experienceleague.adobe.com/docs/commerce-admin/customers/audience-activation.html).
 
 ### Measurement
 
@@ -117,8 +117,8 @@ The measurement pillar uses data intelligence to better understand your business
 
 You can use the following Commerce feature to assist in measuring the success of any personalization at scale implementation.
 
-- **Adobe Commerce Intelligence** - (Formerly known as Magento Business Intelligence) is a cloud platform that provides best practice insights to help you make data-driven decisions and take clear and informed actions. Adobe Commerce Intelligence can analyze your data to help you answer questions about order growth, customer behavior, and the effectiveness of promotional strategies. Learn [more](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html).
+- **Adobe Commerce Intelligence** - (Formerly known as Magento Business Intelligence) is a cloud platform that provides best practice insights to help you make data-driven decisions and take clear and informed actions. Adobe Commerce Intelligence can analyze your data to help you answer questions about order growth, customer behavior, and the effectiveness of promotional strategies. [Learn more](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html).
 
 ## Features beyond commerce
 
-As mentioned above, [!DNL Audience Activation] uses Real-Time CDP which is available in the Experience Platform. You can also take advantage of other Adobe DX products, such as Adobe [!DNL Journey Optimizer], [!DNL Customer Journey Analytics], Adobe [!DNL Analytics], and others to personalize your store. Like [!DNL Audience Activation], it starts with connecting your Commerce instance to the Experience Platform using the [!DNL Data Connection] extension. Learn [more](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html).
+As mentioned above, [!DNL Audience Activation] uses Real-Time CDP which is available in the Experience Platform. You can also take advantage of other Adobe DX products, such as Adobe [!DNL Journey Optimizer], [!DNL Customer Journey Analytics], Adobe [!DNL Analytics], and others to personalize your store. Like [!DNL Audience Activation], it starts with connecting your Commerce instance to the Experience Platform using the [!DNL Data Connection] extension. [Learn more](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html).
