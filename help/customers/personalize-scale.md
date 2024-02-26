@@ -9,7 +9,7 @@ feature: Customers, Storefront, Personalization
 
 To understand the benefits of delivering a personalized shopping experience, download the [_Getting Started with Personalization at Scale_](https://business.adobe.com/resources/reports/getting-started-with-personalization-at-scale.html) report.
 
-Creating a personalized shopping experience requires that you become familiar with the type of data needed to understand the shopper context. From there, you learn which features in Adobe Commerce use that data to unlock customer insights so you can create that personalized shopping experience.
+Creating a personalized shopping experience requires you to learn about the type of data needed to understand the shopper context. From there, you learn about Adobe Commerce features that use that data to unlock the customer insights you need to create the personalized shopping experience.
 
 The following image illustrates the concepts involved in personalizing the shopping experience:
 
@@ -19,11 +19,11 @@ This article discusses each of the above concepts in more detail.
 
 ## How do you personalize the shopping experience
 
-Successful personalization starts with shopper context. Building an understanding of the customer context requires data. In this section, you learn what types of data are available to help you build that shopper context.
+Successful personalization starts with shopper context. In this section, you learn about the data types that are available to help you build the shopper context.
 
 ### Behavioral data
 
-Behavioral data answers the question: how do shoppers interact with your site? For example, do they:
+Behavioral data answers the question: How do shoppers interact with your site? For example, do they:
 
 - Click a search ad
 - Watch a video
@@ -36,7 +36,7 @@ Behavioral data answers the question: how do shoppers interact with your site? F
 
 ### Customer profile data
 
-Customer profile data answers the question: who are your shoppers? For example, what is their:
+Customer profile data answers the question: Who are your shoppers? For example, what is their:
 
 - Name
 - Gender
@@ -47,7 +47,7 @@ Customer profile data answers the question: who are your shoppers? For example, 
 
 ### Segment data
 
-Segment data answers the question: which segments do your shoppers qualify for. For example, are they:
+Segment data answers the question: Which segments do your shoppers qualify for. For example, are they:
 
 - Eligible for upgrades
 - Cross-channel shoppers
@@ -56,18 +56,18 @@ Segment data answers the question: which segments do your shoppers qualify for. 
 
 The above data forms the foundation of the Commerce customer context, which helps you know what products your customers are viewing and ultimately purchasing. You can then target their interests and personalize their experience.
 
-In the next section, you learn which features in Commerce can use this data to personalize the shopping experience.
+In the next section, you learn about Commerce features that can use this data to personalize the shopping experience.
 
 ## Commerce features that use customer context data to personalize the shopping experience
 
-Sitting on top of the customer context data in Commerce is the experience layer. This layer is composed of the features in Commerce that can act on that data and is divided into four main pillars:
+Sitting on top of the customer context data in Commerce is the experience layer. This layer is composed of the Commerce features that can act on the context data and is divided into four main pillars:
 
 - Product discovery
 - Site content
 - Offers and campaigns
 - Measurement
 
-The following sections go into each of these pillars in more detail and provide the available Commerce features you can use to turn that data into actionable insights.
+The following sections describe each of the pillars in the experience layer in more detail and provides the list of  available Commerce features you can use to turn the context data into actionable insights.
 
 ### Product discovery
 
@@ -77,9 +77,9 @@ The product discovery pillar contains merchandising services that are [deployed 
 
 You can use the following Commerce features to assist in product discovery.
 
-- **Product Recommendations** - Displays AI-fueled product recommendations based on shopper behavior, trends, product similarity and more. When combined with your Adobe Commerce catalog, product recommendations deliver a highly engaging, relevant, and personalized experience. Learn [more](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html).
+- **Product Recommendations** - Displays AI-fueled product recommendations based on shopper behavior, trends, product similarity and more. When combined with your Adobe Commerce catalog, product recommendations deliver a highly engaging, relevant, and personalized experience. [Learn more](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html).
 
-- **Live Search** - Uses AI ranking algorithms to personalize and optimize search results based on shopper's on-site behavioral actions, boosting search relevance and conversion. Learn [more](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html).
+- **Live Search** - Uses AI ranking algorithms to personalize and optimize search results based on a shopper's on-site behavioral actions, boosting search relevance and conversion. Learn [more](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html).
 
 - **Category Merchandising** - Accessed from the Live Search Admin, category merchandising uses AI to automatically rerank the sequence of products on each category page to boost relevance and conversion for every shopper. You can create and manage AI-powered rules to automatically rerank product sequencing on category pages according to shopper actions and affinities. Learn [more](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/category-merch.html).
 
@@ -103,7 +103,7 @@ The offers and campaigns pillar lets you deploy personalized promotional content
 
 You can use the following Commerce features to assist in creating personalized offers and campaigns.
 
-- **Cart price rules** - Lets you apply discounts to items in the shopping cart, based on a set of conditions. Learn [more](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html).
+- **Cart price rules** - Lets you apply discounts to items in the shopping cart based on a set of conditions. Learn [more](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html).
 
 - **Dynamic blocks informed by native Commerce features** - Allows you to display personalized banner promotions based on customer segments configured natively in Commerce. Learn [more](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks.html).
 
