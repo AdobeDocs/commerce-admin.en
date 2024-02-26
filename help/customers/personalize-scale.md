@@ -7,7 +7,7 @@ feature: Customers, Storefront, Personalization
 
 ​Personalization at scale allows businesses the ability to personalize the shopping experience for every customer touchpoint based on immediate context and previously observed behavior. The goal is to present the most relevant and personalized experience possible every time.
 
-To understand the benefits of delivering a personalized shopping experience, download the [_Getting Started with Pesonalization at Scale_](https://business.adobe.com/resources/reports/getting-started-with-personalization-at-scale.html) report.
+To understand the benefits of delivering a personalized shopping experience, download the [_Getting Started with Personalization at Scale_](https://business.adobe.com/resources/reports/getting-started-with-personalization-at-scale.html) report.
 
 Creating a personalized shopping experience requires that you become familiar with the type of data needed to understand the shopper context. From there, you learn which features in Adobe Commerce use that data to unlock customer insights so you can create that personalized shopping experience.
 
@@ -15,11 +15,11 @@ The following image illustrates the concepts involved in personalizing the shopp
 
 ![Building a personalization pipeline](assets/personalization-journey.png){width="700" zoomable="yes"}
 
-This article discuss in more detail each of the above concepts.
+This article discusses each of the above concepts in more detail.
 
 ## How do you personalize the shopping experience
 
-Successful personalization starts with shopper context. Building an understanding of the customer context requires data. In this section, you learn what types of data are available to build that shopper context.
+Successful personalization starts with shopper context. Building an understanding of the customer context requires data. In this section, you learn what types of data are available to help you build that shopper context.
 
 ### Behavioral data
 
@@ -50,11 +50,11 @@ Customer profile data answers the question: who are your shoppers? For example, 
 Segment data answers the question: which segments do your shoppers qualify for. For example, are they:
 
 - Eligible for upgrades
-- Cross channel shoppers
+- Cross-channel shoppers
 - Prospects for new products
 - Gold, silver, or bronze loyalty members
 
-The above data forms the foundation of the Commerce customer context, which helps you know what products your customers are viewing and ultimately purchasing. You can then target their interest and personalize their experience.
+The above data forms the foundation of the Commerce customer context, which helps you know what products your customers are viewing and ultimately purchasing. You can then target their interests and personalize their experience.
 
 In the next section, you learn which features in Commerce can use this data to personalize the shopping experience.
 
@@ -81,7 +81,7 @@ You can use the following Commerce features to assist in product discovery.
 
 - **Live Search** - Uses AI ranking algorithms to personalize and optimize search results based on shopper's on-site behavioral actions, boosting search relevance and conversion. Learn [more](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html).
 
-- **Category Merchandising** - Accessed from the Live Search Admin, category merchandising uses AI to automatically re-rank the sequence of products on each category page to boost relevance and conversion for every shopper. You can create and manage AI-powered rules to automatically re-rank product sequencing on category pages according to shopper actions and affinities. Learn [more](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/category-merch.html).
+- **Category Merchandising** - Accessed from the Live Search Admin, category merchandising uses AI to automatically rerank the sequence of products on each category page to boost relevance and conversion for every shopper. You can create and manage AI-powered rules to automatically rerank product sequencing on category pages according to shopper actions and affinities. Learn [more](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/category-merch.html).
 
 ### Site content
 
@@ -121,4 +121,4 @@ You can use the following Commerce feature to assist in measuring the success of
 
 ## Features beyond commerce
 
-As mentioned above, [!DNL Audience Activation] uses Real-Time CDP which is available in the Experience Platform. You can also take advantage of other Adobe DX products, such as Adobe [!DNL Journey Optimizer] (AJO), [!DNL Customer Journey Analytics] (CJA), Adobe [!DNL Analytics] (AA), and others to personalize your store. Like [!DNL Audience Activation], it starts with connecting your Commerce instance to the Experience Platform using the [!DNL Data Connection] extension. Learn [more](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html).
+As mentioned above, [!DNL Audience Activation] uses Real-Time CDP which is available in the Experience Platform. You can also take advantage of other Adobe DX products, such as Adobe [!DNL Journey Optimizer], [!DNL Customer Journey Analytics], Adobe [!DNL Analytics], and others to personalize your store. Like [!DNL Audience Activation], it starts with connecting your Commerce instance to the Experience Platform using the [!DNL Data Connection] extension. Learn [more](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html).
