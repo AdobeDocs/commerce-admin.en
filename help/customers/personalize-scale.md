@@ -23,16 +23,15 @@ Successful personalization starts with customer context. In this section, you le
 
 ### Behavioral data
 
-Behavioral data answers the question: How do shoppers interact with your site? For example, do they:
+Behavioral data answers the question: How do shoppers interact with your site? For example:
 
-- Click a search ad
-- Watch a video
-- Interact with the call center
-- Open an email offer
-- Browse your site from a mobile device
-- View specific products or categories
-- Make purchases
-- Return items
+- What products and categories are my shoppers most interested in?
+- What kind of search queriers are my shoppers most engaged in?
+- What is the order life cycle like? Are my shoppers returning products?
+- Are my shoppers adding products to the cart and then abandoning it?
+- Are my shoppers using a desktop or mobile browser?
+
+While this list is not exhaustive, it helps us shed light on the diverse domains where behavioral information can be captured
 
 ### Customer profile data
 
@@ -56,9 +55,19 @@ Segment data answers the question: Which segments do your shoppers qualify for. 
 
 The above data forms the foundation of the Commerce customer context, which helps you know what products your customers are viewing and ultimately purchasing. You can then target their interests and personalize their experience.
 
-In the next section, you learn about Commerce features that can use this data to personalize the shopping experience.
+In the next two sections, you learn how you can use this data in [Adobe Experience Platform](#using-commerce-data-in-adobe-experience-platform) and in [native Commerce features](#using-commerce-data-in-native-commerce-features) to personalize the shopping experience.
 
-## Commerce features that use customer context data to personalize the shopping experience
+## Using Commerce data in Adobe Experience Platform
+
+The Adobe Experience Platform provides a suite of technologies, that when hydrated with data from your Commerce store, can distribute that data through the Edge Network to other Adobe DX products to unlock insights into your shopper's buying behavior. With these deep insights, you can create a more personalized shopping experience across all channels.
+
+![How data flows to the Experience Platform edge](assets/commerce-edge.png){width="700" zoomable="yes"}
+
+To learn more about how you can send your Commerce data to the Experience Platform, see [Data Connection](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html).
+
+In the following section, you learn how you can use native Commerce features, such as Product Recommendations and Live Search to create that personalized shopping experience. You also will learn about a feature called [!DNL Audience Activation], which uses data from a product available in the Experience PLatform called Real-Time CDP. While Real-Time CDP is not native to Commerce, its information can be ingested into Commerce through the [[!DNL Audience Activation]](https://experienceleague.adobe.com/docs/commerce-admin/customers/audience-activation.html) extension.
+
+## Using Commerce data in native Commerce features
 
 Sitting on top of the customer context data in Commerce is the experience layer. This layer is composed of the Commerce features that can act on the context data and is divided into four main pillars:
 
@@ -71,7 +80,7 @@ The following sections describe each of the pillars in the experience layer in m
 
 ### Product discovery
 
-The product discovery pillar contains merchandising services that are [deployed as SaaS](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html). These are features that allow you to use behavioral data, product attributes, and inventory levels to automatically personalize product discovery across search results, product recommendations, and browsing pages. These features all use Adobe Sensei AI.
+The product discovery pillar contains merchandising services that are [deployed as SaaS](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html). These are features that allow you to use behavioral data, product attributes, and inventory levels to automatically personalize product discovery across search results, product recommendations, and browsing pages. These features all use [Adobe Sensei AI](https://business.adobe.com/products/sensei/adobe-sensei.html).
 
 #### Commerce features to use
 
@@ -118,7 +127,3 @@ The measurement pillar uses data intelligence to better understand your business
 You can use the following Commerce feature to assist in measuring the success of any personalization at scale implementation.
 
 - **Adobe Commerce Intelligence** - (Formerly known as Magento Business Intelligence) is a cloud platform that provides best practice insights to help you make data-driven decisions and take clear and informed actions. Adobe Commerce Intelligence can analyze your data to help you answer questions about order growth, customer behavior, and the effectiveness of promotional strategies. [Learn more](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html).
-
-## Features beyond commerce
-
-As mentioned above, [!DNL Audience Activation] uses Real-Time CDP which is available in the Experience Platform. You can also take advantage of other Adobe DX products, such as Adobe [!DNL Journey Optimizer], [!DNL Customer Journey Analytics], Adobe [!DNL Analytics], and others to personalize your store. Like [!DNL Audience Activation], it starts with connecting your Commerce instance to the Experience Platform using the [!DNL Data Connection] extension. [Learn more](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html).
