@@ -65,7 +65,7 @@ The Adobe Experience Platform provides a suite of technologies, that when hydrat
 
 To learn more about how you can send your Commerce data to the Experience Platform, see [Data Connection](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html).
 
-In the following section, you learn how you can use native Commerce features, such as Product Recommendations and Live Search to create that personalized shopping experience. You also will learn about a feature called [!DNL Audience Activation], which uses data from a product available in the Experience PLatform called Real-Time CDP. While Real-Time CDP is not native to Commerce, its information can be ingested into Commerce through the [[!DNL Audience Activation]](https://experienceleague.adobe.com/docs/commerce-admin/customers/audience-activation.html) extension.
+In the following section, you learn how you can use native Commerce features, such as Product Recommendations and Live Search to create that personalized shopping experience. You will also learn about a feature called [!DNL Audience Activation], which uses data from a product available in the Experience Platform called Real-Time CDP. While Real-Time CDP is not native to Commerce, its information can be ingested into Commerce through the [[!DNL Audience Activation]](https://experienceleague.adobe.com/docs/commerce-admin/customers/audience-activation.html) extension.
 
 ## Using Commerce data in native Commerce features
 
@@ -76,7 +76,7 @@ Sitting on top of the customer context data in Commerce is the experience layer.
 - Offers and campaigns
 - Measurement
 
-The following sections describe each of the pillars in the experience layer in more detail and provides the list of  available Commerce features you can use to turn the context data into actionable insights.
+The following sections describe each of the pillars in the experience layer in more detail and provides the list of available Commerce features you can use to turn the context data into actionable insights.
 
 ### Product discovery
 
