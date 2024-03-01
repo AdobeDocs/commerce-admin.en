@@ -9,8 +9,6 @@ exl-id: b2522d25-8255-4219-98b5-4b764430dea2
 ---
 # Configure the Experience Cloud Integration with the Commerce Admin
 
-{{$include /help/_includes/admin-unified-experience-beta-note.md}}
-
 Get started with the Experience Cloud integration with Commerce Admin by configuring the Commerce application to use the Commerce Admin Unified Experience and Commerce Events extensions.
 
 
@@ -53,7 +51,7 @@ Before configuring the Experience Cloud integration, verify that your project an
      bin/magento admin:adobe-ims:status
      ```
 
-    If the module is not enabled, [enable it using the Organization and credentials for the IMS integration project](../getting-started/adobe-ims-config.md#step-3-enable-the-adminadobeims-module). If you don't have the credentials, [submit an Adobe Support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
+    If the module is not enabled, [enable it using the Organization and credentials for the IMS integration project](../getting-started/adobe-ims-config.md#step-3-enable-the-adminadobeims-module).
 
 1. Verify that the Admin user can log into the Commerce Admin using their Adobe ID.
 

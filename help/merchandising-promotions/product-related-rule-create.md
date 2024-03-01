@@ -46,6 +46,10 @@ The process of creating a related product rule is similar to setting up a price 
 
    - If the rule applies to a specific [customer segment](../customers/customer-segments.md), set **[!UICONTROL Customer Segments]** to `Specified` and choose the customer segment from the list.
 
+   - (**Beta**) If the rule applies to a specific [Real-Time CDP audience](../customers/audience-activation.md), set **[!UICONTROL Real-Time CDP Audience]** to `Specified` and choose the Real-Time CDP audience from the list. This feature is in beta. If you would like to join the beta program, send a request to [dataconnection@adobe.com](mailto:dataconnection@adobe.com). 
+
+      ![Related products rule - Real-Time CDP audience](./assets/rtcdp-related-products.png){width="500"}
+
 1. In the left panel, choose **[!UICONTROL Products to Match]** and build the conditions as you would for a [catalog price rule](price-rules-catalog.md).
 
    ![Related products rule - products to match](./assets/catalog-related-products-match.png){width="500"}

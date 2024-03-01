@@ -8,8 +8,6 @@ exl-id: 451bf2e1-7c38-40be-a7c1-aaf0fe9f486c
 ---
 # Manage the Experience Cloud Integration
 
-{{$include /help/_includes/admin-unified-experience-beta-note.md}}
-
 After initial enablement, manage the status of the the Experience Cloud integration by enabling or disabling the Commerce Admin Unified Experience extension.
 
 - If the Commerce Admin Unified Experience extension is enabled and administrator accounts are [provisioned correctly](#manage-admin-user-accounts), Commerce administrators can view and access available Commerce projects from Adobe Experience Cloud. Administrators can still access individual projects using the Admin URL for the Commerce project environment.
