@@ -51,6 +51,8 @@ The buyer and seller can continue the negotiation process until an agreement is 
 
 **Step 4: Buyer accepts quote** - The buyer accepts the proposed price and continues to checkout. Additional discounts cannot be added to the negotiated quote.
 
+![Quotes Status Workflow](./assets/quote-status-workflow.svg){width="700" zoomable="yes"}
+
 ## B2B role resources for store quotes
 
 Configuration options for quotes are controlled using the [role resources](../systems/permissions-user-roles.md#role-resources). These role resources must be set for the Admin user role that is assigned to the store administrator.
