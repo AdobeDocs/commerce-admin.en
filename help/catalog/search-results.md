@@ -93,6 +93,10 @@ The following example uses keyword mapping based on SKU. When either SKU is ente
 
 Product attributes that are enabled for catalog search can be assigned a weight to give them a higher value in search results. Attributes with a greater weight are returned before attributes with a lower weight. For example, if there are two attributes in the system, _color_ with a search weight of 3 and _description_ with a search weight of 1. A search for the word _red_ returns a list of products with a color attribute value of `red` at the top of the search results and returns products with descriptions that contain the word _red_ at the bottom of the search results. In this example, the `color` attribute has a greater defined weight than the `description` attribute.
 
+>[!IMPORTANT]
+>
+>Sorting by relevance is affected by **_multiple_** criteria, and relations between them **_at the same time_**. [!UICONTROL Search Weight] is only one of those criteria.</br> This means that in some cases attribute with lower search weight may still have more relevance than attribute with higher search weight.</br> These other criteria may include number of matches in any given attribute, position of found search term, overall text structure before and after search term etc.
+
 **_To set the search weight properties of an attribute:_**
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_ > **[!UICONTROL Product]**.
