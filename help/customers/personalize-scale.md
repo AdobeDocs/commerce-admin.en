@@ -23,7 +23,7 @@ Successful personalization starts with customer context. In this section, you le
 
 ### Storefront data
 
-Storefront data, also called behavioral or browser data, answers the question: How do shoppers interact with your site? For example
+Storefront data, also called behavioral or browser data, can reveal insights into how your shoppers interact with your site. For example:
 
 - What products and categories are my shoppers most interested in?
 - What kind of search queriers are my shoppers most engaged in?
@@ -32,25 +32,23 @@ Storefront data, also called behavioral or browser data, answers the question: H
 
 The following storefront events capture data that can help you answer these questions:
 
-- View page
-- Search request
-- Search response
-- View category
-- View product page
-- Add to cart
-- View cart
-- Sign in
-- Sign out
-- Start checkout
-- Complete checkout
-- Create requisition list
-- Add to requisition list
-- Remove from requisition list
-- Quote accepted
+- [pageView](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#pageView)
+- [searchRequestSent](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#searchRequestSent)
+- [searchResponseReceived](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#searchResponseReceived)
+- [productPageView](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#productPageView)
+- [addToCart](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#addToCart)
+- [openCart](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#openCart)
+- [signIn](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#signIn)
+- [signOut](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#signOut)
+- [startCheckout](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#startCheckout)
+- [completeCheckout](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#completeCheckout)
+- [createRequisitionList](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#createRequisitionList)
+- [addToRequisitionList](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#addToRequisitionList)
+- [removeFromRequisitionList](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#removeFromRequisitionList)
 
 ### Back office data
 
-Back office data, also called server-side data, answers the question: What is the order life cycle for my shoppers? For example:
+Back office data, also called server-side data, can reveal insights into the order life cycle. For example:
 
 - Are there products that are purchased more frequently based on season?
 - Are my shoppers returning products?
@@ -58,15 +56,14 @@ Back office data, also called server-side data, answers the question: What is th
 
 The following back office events capture data that can help you answer these questions:
 
-- Order placed
-- Order returned
-- Order shipped
-- Order canceled
-- Order history (past five years of transactions)
+- [orderPlaced](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice.html#orderPlaced)
+- [orderItemsReturnedInitiated](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice.html#orderItemsReturnedInitiated)
+- [orderItemsShipped](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice.html#orderItemsShipped)
+- [orderCancelled](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice.html#orderCancelled)
 
 ### Customer profile and segment data
 
-Customer profile data answers the question: Who are your shoppers? Which segments do your shoppers qualify for? For example:
+Customer profile data can reveal insights into who your shoppers are and which segments do they qualify for? For example:
 
 - Name
 - Gender
@@ -84,12 +81,12 @@ Customer profile data answers the question: Who are your shoppers? Which segment
 
 The following profile events capture data that can help you answer these questions:
 
-- Profile record
-- Account created
-- Account updated
-- Account deleted
+- [Profile record](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events-profilerecord.html)
+- [accountCreated](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice.html#accountcreated)
+- [accountUpdated](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice.html#accountUpdated)
+- [accountDeleted](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice.html#accountDeleted)
 
-The above data forms the foundation of the Commerce customer and order context, which helps you know what products your customers are viewing and ultimately purchasing. You can then target their interests and personalize their experience. In the next section, you learn what types of personalized experiences you can engage in with  your shoppers.
+Storefront, back office, and profile data forms the foundation of the Commerce customer and order context, which helps you know what products your customers are viewing and ultimately purchasing. You can then target their interests and personalize their experience. In the next section, you learn what types of personalized experiences you can engage in with your shoppers.
 
 ## Types of personalized experiences
 
@@ -120,7 +117,6 @@ The following table highlights some of the Experience Platform applications avai
 ||[Adobe [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html)|Adobe Commerce data can be activated in Adobe [!DNL Target] for testing, optimization, and creating dynamic landing pages. You can personalize the order that content is shown on a page, such as descriptions, specifications, reviews, and recommended products based on the Commerce data sent.|
 |**Offers and campaigns**|[Adobe [!DNL Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)|Adobe Commerce behavioral and back office data can serve as a trigger for personalized omni-channel journeys, including email campaigns, SMS, push notifications and more.​|
 |**Measurement**|[Adobe [!DNL Analytics]](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/analytics-overview.html) and [Customer [!DNL Journey Analytics]](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html)|Commerce sends both storefront and back-office data to Customer [!DNL Journey Analytics] (and only storefront data to Adobe [!DNL Analytics]) to allow for richer analysis beyond basic metrics in Adobe Commerce Intelligence, such as revenue, merchandise, and promotions.​|
-
 
 To learn more about how you can send your Commerce data to the Experience Platform, see [Data Connection](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html).
 
