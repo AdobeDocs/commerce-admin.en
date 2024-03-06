@@ -178,6 +178,8 @@ For technical information, see [Configure and Use Varnish](https://experiencelea
 
 1. To set the timeout for the page cache, enter the **[!UICONTROL TTL for public content]**. (The default value is `86400`)
 
+1. To specifiy the maximum number of [layout handles](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) to process on the [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) HTTP endpoint, enter the **[!UICONTROL Handles param size]**. Restricting the size can improve security and performance. (The default value is `100`)
+
 1. If using Varnish, complete the **[!UICONTROL Varnish Configuration]** section as follows:
 
    - **[!UICONTROL Access list]** - Enter the IP addresses that can purge the Varnish configuration to generate a config file. Separate multiple entries with a comma. The default value is `localhost`.
@@ -186,7 +188,7 @@ For technical information, see [Configure and Use Varnish](https://experiencelea
 
    - **[!UICONTROL Backend port]** - Identify the backend port that is used to generate config files. The default value is: `8080`.
 
-   - **[!UICONTROL Grace period]** - Specify the number of seconds to use as a grace period to generate config files. See [Advanced Varnish configuration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html) in the _Configuration Guide_.
+   - **[!UICONTROL Grace period]** - Determines how long Varnish serves stale content if the backend is not responsive. See [Advanced Varnish configuration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html) in the _Configuration Guide_.
 
    - To export the configuration as a `varnish.vcl` file, click the button for the version of Varnish that you use.
 
