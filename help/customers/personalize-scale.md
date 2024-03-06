@@ -32,19 +32,19 @@ Storefront data, also called behavioral or browser data, can reveal insights int
 
 The following storefront events capture data that can help you answer these questions:
 
-- [pageView](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#pageView)
-- [searchRequestSent](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#searchRequestSent)
-- [searchResponseReceived](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#searchResponseReceived)
-- [productPageView](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#productPageView)
-- [addToCart](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#addToCart)
-- [openCart](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#openCart)
-- [signIn](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#signIn)
-- [signOut](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#signOut)
-- [startCheckout](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#startCheckout)
-- [completeCheckout](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#completeCheckout)
-- [createRequisitionList](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#createRequisitionList)
-- [addToRequisitionList](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#addToRequisitionList)
-- [removeFromRequisitionList](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#removeFromRequisitionList)
+- [pageView](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#pageview)
+- [searchRequestSent](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#searchrequestsent)
+- [searchResponseReceived](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#searchresponsereceived)
+- [productPageView](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#productpageview)
+- [addToCart](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#addtocart)
+- [openCart](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#opencart)
+- [signIn](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#signin)
+- [signOut](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#signout)
+- [startCheckout](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#startcheckout)
+- [completeCheckout](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#completecheckout)
+- [createRequisitionList](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#createrequisitionlist)
+- [addToRequisitionList](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#addtorequisitionlist)
+- [removeFromRequisitionList](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html#removefromrequisitionlist)
 
 ### Back office data
 
@@ -56,10 +56,10 @@ Back office data, also called server-side data, can reveal insights into the ord
 
 The following back office events capture data that can help you answer these questions:
 
-- [orderPlaced](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice.html#orderPlaced)
-- [orderItemsReturnedInitiated](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice.html#orderItemsReturnedInitiated)
-- [orderItemsShipped](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice.html#orderItemsShipped)
-- [orderCancelled](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice.html#orderCancelled)
+- [orderPlaced](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice.html#orderplaced)
+- [orderItemsReturnedInitiated](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice.html#orderitemsreturnedinitiated)
+- [orderItemsShipped](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice.html#orderitemsshipped)
+- [orderCancelled](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice.html#ordercancelled)
 
 ### Customer profile and segment data
 
@@ -83,8 +83,8 @@ The following profile events capture data that can help you answer these questio
 
 - [Profile record](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events-profilerecord.html)
 - [accountCreated](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice.html#accountcreated)
-- [accountUpdated](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice.html#accountUpdated)
-- [accountDeleted](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice.html#accountDeleted)
+- [accountUpdated](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice.html#accountupdated)
+- [accountDeleted](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice.html#accountdeleted)
 
 Storefront, back office, and profile data forms the foundation of the Commerce customer and order context, which helps you know what products your customers are viewing and ultimately purchasing. You can then target their interests and personalize their experience. In the next section, you learn what types of personalized experiences you can engage in with your shoppers.
 
