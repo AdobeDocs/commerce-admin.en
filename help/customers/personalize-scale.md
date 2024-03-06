@@ -63,7 +63,7 @@ The following back office events capture data that can help you answer these que
 
 ### Customer profile and segment data
 
-Customer profile data can reveal insights into who your shoppers are and which segments do they qualify for? For example:
+Customer profile data can reveal insights into who your shoppers are and which segments do they qualify for. For example:
 
 - Name
 - Gender
