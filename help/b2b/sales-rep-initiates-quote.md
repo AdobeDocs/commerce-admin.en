@@ -65,9 +65,15 @@ After creating the draft quote, add product items, apply discounts, and communic
 
    - In the [!UICONTROL Discount] field, enter the value for the discount type. For example, if you selected a percentage discount, enter 10 to apply a 10% discount to the line item.
 
-   - [!BADGE 1.5.0-beta capabilities]{type=Informative url="/help/b2b/release-notes.md" tooltip="Available only for Beta program participants"} Optionally, lock the line item discount value so that the product price is not further reduced by any discounts applied at the quote level.
+   - Optionally, lock the line item discount value so that the product price is not further reduced by any discounts applied at the quote level.
 
      After confirming the change, the line item attributes in the product grid update to show the discount amount applied. If the discount is locked, a lock icon displays.
+
+   A Sales Representative can request a discount from a specific line item in a quote.
+   
+   >[!NOTE]
+   >
+   >For a video demo of a how discounts at the line item work, see [Sales Representative applies discount to a quote line item](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html) in _Commerce Videos and Tutorials_.
 
 1. Apply a quote-level discount as needed:
 
