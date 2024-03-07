@@ -52,6 +52,14 @@ With the required [permissions for their role](account-company-roles-permissions
 
 1. Finds the quote in the list and clicks **[!UICONTROL View]** in the _[!UICONTROL Action]_ column.
 
+## Copy a quote
+
+1. The customer logs in to their account.
+
+1. In the left panel, chooses **[!UICONTROL My Quotes]**.
+
+1. Find and access the desired quote in the list and clicks **[!UICONTROL Create Copy]** from that original quote.
+
 ## Print a quote
 
 1. In the open quote to the right of the _[!UICONTROL Items Quoted]_ section, the customer clicks **[!UICONTROL Print]**.
