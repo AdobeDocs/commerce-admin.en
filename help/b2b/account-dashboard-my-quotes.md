@@ -23,7 +23,7 @@ A buyer can complete the following actions when negotiating a quote:
 * Convert the quote to an order if the terms are acceptable
 * Close the quote
 * Delete the quote
-* [!BADGE 1.5.0-beta capabilities]{type=Informative url="/help/b2b/release-notes.md" tooltip="Available only for Beta program participants"} Rename the quote, create a copy of the quote
+* Rename the quote, create a copy of the quote
 
 The following example shows a quote that has been updated by the buyer and sent back to the seller for review.
 
@@ -76,8 +76,8 @@ With the required [permissions for their role](account-company-roles-permissions
 
 | Action        | Description                                                                                                                                                                                                                  |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Rename        | [!BADGE 1.5.0-beta capabilities]{type=Informative url="/help/b2b/release-notes.md" tooltip="Available only for Beta program participants"} Change the name of the quote                                                      |
-| Create a copy | [!BADGE 1.5.0-beta capabilities]{type=Informative url="/help/b2b/release-notes.md" tooltip="Available only for Beta program participants"} A buyer can create a new quote from the current quote by copying and renaming it. |
+| Rename        | Change the name of the quote                                                      |
+| Create a copy | A buyer can create a new quote from the current quote by copying and renaming it. |
 | Close quote   | After a buyer closes a quote, it cannot be reopened it. If needed, the buyer can recreate it by using the [!UICONTROL Create Copy] action. This option is not available if the quote status is `Draft`.                      |
 | Delete quote  | When a buyer deletes a quote, it is removed from the system, and is no longer available.                                                                                                                                     |
 | Print         | Opens a print form to save the quote as a PDF, file, or print it to a configured printer.                                                                                                                                    |
