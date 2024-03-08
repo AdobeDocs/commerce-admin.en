@@ -2,8 +2,8 @@
 title: Data Management Dashboard
 description: Learn how to access insights about data streams for Catalog Service, Live Search, Product Recommendations.
 feature: Products, Customers, Data Import/Export
+exl-id: 63c261c1-1a52-46f7-93f8-81055edf1f7b
 ---
-
 # Data Management Dashboard
 
 The Data Management Dashboard provides insight into data streams for Adobe Commerce SaaS products. Users of [!DNL Live Search], [!DNL Product Recommendations], and [!DNL Catalog Service] can view product sync statuses and resync data from a single dashboard.
