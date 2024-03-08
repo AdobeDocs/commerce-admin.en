@@ -95,7 +95,7 @@ Product attributes that are enabled for catalog search can be assigned a weight 
 
 >[!IMPORTANT]
 >
->Sorting by relevance is affected by **_multiple_** criteria, and relations between them **_at the same time_**. [!UICONTROL Search Weight] is only one of those criteria.</br> This means that sometimes attributes with lower search weight may still have more relevance than attributes with higher search weight.</br> These other criteria may include number of matches in any given attribute, position of found search term, overall text structure before and after search term and so on.
+>Sorting by relevance is affected by **_multiple_** criteria and relationships between them **_at the same time_**. [!UICONTROL Search Weight] is only one of those criteria. This means that sometimes attributes with lower search weight may still have more relevance than attributes with higher search weight. Other criteria may include number of matches in any given attribute, position of found search term, and overall text structure before and after a search term.
 
 **_To set the search weight properties of an attribute:_**
 
