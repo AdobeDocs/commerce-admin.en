@@ -53,6 +53,7 @@ Customers can add products to a requisition list from:
 - A catalog page
 - The shopping cart
 - Existing orders
+- Existing quotes
 
 ### From a product detail page
 
@@ -88,6 +89,22 @@ Customers can add products to a requisition list from:
    - Creates a requisition list.
 
    ![Add to Requisition List](./assets/requisition-list-add-from-order.png){width="700" zoomable="yes"}
+
+### From an existing quote
+
+1. In the sidebar of their account dashboard, customer chooses **[!UICONTROL My Quotes]**.
+
+1. Find and access the desired quote in the list.
+
+1. Select the line items.
+
+1. Click **[!UICONTROL Move to Requisition list]** in the _[!UICONTROL Actions]_ dropdown.
+
+1. Select an existing requisition list to move the selected items.
+
+1. Click **[!UICONTROL Move item]**.
+
+See [My quotes](account-dashboard-my-quotes.md) topic for more information on **B2B Quotes**.
 
 ### From the cart
 

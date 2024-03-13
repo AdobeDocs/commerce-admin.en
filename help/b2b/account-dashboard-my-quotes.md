@@ -60,6 +60,24 @@ With the required [permissions for their role](account-company-roles-permissions
 
 1. Find and access the desired quote in the list and click **[!UICONTROL Create Copy]** from that original quote.
 
+## Move line items from a quote to a requisition list
+
+1. The customer logs in to their account.
+
+1. In the left panel, chooses **[!UICONTROL My Quotes]**.
+
+1. Find and access the desired quote in the list.
+
+1. Select the line items.
+
+1. Click **[!UICONTROL Move to Requisition list]** in the _[!UICONTROL Actions]_ dropdown.
+
+1. Select an existing requisition list to move the selected items.
+
+1. Click **[!UICONTROL Move item]**.
+
+See [Add products to a requisition list](requisition-lists.md) to learn more about this process.
+
 ## Print a quote
 
 1. In the open quote to the right of the _[!UICONTROL Items Quoted]_ section, the customer clicks **[!UICONTROL Print]**.
