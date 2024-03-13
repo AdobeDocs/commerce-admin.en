@@ -97,7 +97,7 @@ After creating the draft quote, add product items, apply discounts, and communic
 
    Shipping options are locked on checkout.
 
-   For details on the buyer adding a shipping address, see [Quotes](account-dashboard-my-quotes.md)
+   For more information, see [My quotes](account-dashboard-my-quotes.md).
 
 1. Process the quote.
 
