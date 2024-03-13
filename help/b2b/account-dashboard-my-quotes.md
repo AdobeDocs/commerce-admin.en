@@ -21,9 +21,12 @@ A buyer can complete the following actions when negotiating a quote:
 * Communicate and negotiate with the seller by adding notes at the line item and quote level
 * Send quote to seller for review
 * Convert the quote to an order if the terms are acceptable
+* Create a copy of the quote
+* Move line items to a requisition list
+* Add a shipping address
 * Close the quote
 * Delete the quote
-* Rename the quote, create a copy of the quote
+* Rename the quote
 
 The following example shows a quote that has been updated by the buyer and sent back to the seller for review.
 
@@ -77,6 +80,22 @@ With the required [permissions for their role](account-company-roles-permissions
 1. Click **[!UICONTROL Move item]**.
 
 See [Add products to a requisition list](requisition-lists.md) to learn more about this process.
+
+## Adding a shipping address
+
+1. The customer logs in to their account.
+
+1. In the left panel, chooses **[!UICONTROL My Quotes]**.
+
+1. Selects the desired quote.
+
+1. In the **[!UICONTROL Shipping Information]** section, clicks **[!UICONTROL Add New Address]**.
+
+1. Fills in details for the new address.
+
+1. Clicks **[!UICONTROL Save Address]**.
+
+When the customer adds the address, seller provides shipping and delivery options. This can affect the negotiated agreement on the quote. The shipping options are locked on checkout.
 
 ## Print a quote
 

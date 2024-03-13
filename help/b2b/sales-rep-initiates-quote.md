@@ -91,6 +91,14 @@ After creating the draft quote, add product items, apply discounts, and communic
 
    By default, an [attached file](configure-quotes.md) can be up to 2 MB, in any of the following file formats: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG or JPEG, PNG.
 
+1. Add shipping address during negotiations.
+
+   A Sales Representative can make a shipping and delivery selection once the buyer has added a shipping address to the quote.
+
+   Shipping options are locked on checkout.
+
+   For details on the buyer adding a shipping address, see [Quotes](quotes.md)
+
 1. Process the quote.
 
    Save the quote as a draft, or send it to the buyer.
