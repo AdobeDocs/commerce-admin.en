@@ -58,7 +58,7 @@ With the required [permissions for their role](account-company-roles-permissions
 
 1. In the left panel, chooses **[!UICONTROL My Quotes]**.
 
-1. Find and access the desired quote in the list and clicks **[!UICONTROL Create Copy]** from that original quote.
+1. Find and access the desired quote in the list and click **[!UICONTROL Create Copy]** from that original quote.
 
 ## Print a quote
 
@@ -85,7 +85,7 @@ With the required [permissions for their role](account-company-roles-permissions
 | Action        | Description                                                                                                                                                                                                                  |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Rename        | Change the name of the quote                                                      |
-| Create a copy | A buyer can create a new quote from the current quote by copying and renaming it. |
+| Create copy | A buyer can create a new quote from the current quote by copying and renaming it. |
 | Close quote   | After a buyer closes a quote, it cannot be reopened it. If needed, the buyer can recreate it by using the [!UICONTROL Create Copy] action. This option is not available if the quote status is `Draft`.                      |
 | Delete quote  | When a buyer deletes a quote, it is removed from the system, and is no longer available.                                                                                                                                     |
 | Print         | Opens a print form to save the quote as a PDF, file, or print it to a configured printer.                                                                                                                                    |
