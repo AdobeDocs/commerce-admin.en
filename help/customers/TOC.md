@@ -11,6 +11,7 @@ feature: Customers
 + Customer management tools {#customers-menu}
   + [Customers list](customers-all.md)
   + [Now online](now-online.md)
+  + [Personalization at scale](personalize-scale.md)
 + Customer accounts {#customer-accounts}
   + [Account scope](customer-account-scope.md)
   + Account options {#configure}
