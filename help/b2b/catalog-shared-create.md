@@ -1,28 +1,30 @@
 ---
-title: Create a Shared Catalog
+title: Create a shared catalog
 description: Learn about creating shared catalogs and duplicating existing shared catalogs.
 exl-id: 969c352c-ff88-4902-8347-334ee8b79afb
+feature: B2B, Companies, Catalog Management
+role: Admin
 ---
-# Create a Shared Catalog
+# Create a shared catalog
 
-When a shared catalog is created, the system automatically creates a [customer group](account-company-customer-group.md) by the same name. For example, if you create a shared catalog called "ABC Catalog", the system also creates a corresponding _ABC Catalog_ customer group. Assigning a company to the shared custom catalog is essentially the same as assigning them to a customer group.
+When a [shared catalog](catalog-shared.md) is created, the system automatically creates a [customer group](account-company-customer-group.md) by the same name. For example, if you create a shared catalog called _ABC Catalog_, the system also creates a corresponding _ABC Catalog_ customer group. Assigning a company to the shared custom catalog is essentially the same as assigning them to a customer group.
 
-A new shared catalog does not include products, custom pricing, or company associations. This is not the case for a public catalog, which is automatically assigned to guests and to customers who are not associated with a company.
+A new shared catalog does not include products, custom pricing, or company associations. A public catalog, which is the default shared catalog that is created when shared catalogs are enabled, is automatically assigned to guests and to customers who are not associated with a company.
 
-![Shared Catalogs](./assets/shared-catalogs-grid.png)<!-- zoom -->
+![Shared Catalogs](./assets/shared-catalogs-grid.png){width="700" zoomable="yes"}
 
 The following aspects of a shared catalog must be set up before it can be used:
 
-- Catalog Scope
-- Product Selection
-- Custom Prices
-- Company Assignments
+- Catalog scope
+- Product selection
+- Custom prices
+- Company assignments
 
 ## Price scope
 
-If you have a multisite installation, make sure to configure the price scope before you create your shared catalogs. The [price scope](../catalog/catalog-price-scope.md) can be set to `Global` or `Website`. However, it can be set only at the beginning of the setup process. The Website chooser appears during Step 2 of the [shared catalog setup](catalog-shared-pricing-structure.md).
+If you have a multisite installation, make sure to configure the price scope before you create your shared catalogs. The [price scope](../catalog/catalog-price-scope.md) can be set to `Global` or `Website`. However, it can be set only at the beginning of the setup process. The website chooser appears during step 2 of the [shared catalog setup](catalog-shared-pricing-structure.md).
 
-![Website Chooser](./assets/shared-catalog-scope-pricing.png)<!-- zoom -->
+![Website Chooser](./assets/shared-catalog-scope-pricing.png){width="600" zoomable="yes"}
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -32,7 +34,7 @@ If you have a multisite installation, make sure to configure the price scope bef
 
 1. Set **Catalog Price Scope** to `Website`.
 
-   ![Catalog Price Scope](./assets/catalog-price-scope-website.png)<!-- zoom -->
+   ![Catalog Price Scope](../configuration-reference/catalog/assets/catalog-price.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Save Config]**.
 
@@ -54,17 +56,17 @@ There are two ways to create a shared catalog. You can create a shared catalog o
 
    - Choose the appropriate **[!UICONTROL Customer Tax Class]** that applies to purchases made from the shared catalog.
 
+      For more information about tax class setup and definition, see [Tax classes](../stores-purchase/tax-class.md).
+
       The following example shows a new custom catalog for a specific wholesale customer.
 
-      ![New Shared Catalog](./assets/shared-catalog-new.png)<!-- zoom -->
+      ![New Shared Catalog](./assets/shared-catalog-new.png){width="600" zoomable="yes"}
 
    - Enter **[!UICONTROL Description]**
 
 1. When complete, Click **[!UICONTROL Save]**.
 
-   The new catalog appears in the Shared Catalogs grid.
-
-   ![New Shared Custom Catalog](./assets/shared-catalog-grid-new.png)<!-- zoom -->
+   The new catalog appears in the _[!UICONTROL Shared Catalogs]_ grid.
 
 ### Method 2: Duplicate an existing shared catalog
 
@@ -76,24 +78,24 @@ If a public shared catalog is duplicated, the type of the duplicate catalog chan
 
 1. For the shared catalog in the grid that you want to duplicate, go to the **[!UICONTROL Action]** column and select **[!UICONTROL General Settings]**.
 
-1. In the options across the top of the page, click **[!UICONTROL Duplicate]** and update the following fields as needed:
+1. In the options across the top of the page, click **[!UICONTROL Duplicate]**.
+
+   ![Duplicate Shared Catalog](./assets/shared-catalog-duplicate.png){width="600" zoomable="yes"}
+
+1. Update the following fields for the new catalog:
 
    - **[!UICONTROL Name]**
    - **[!UICONTROL Type]**
    - **[!UICONTROL Customer Tax Class]**
    - **[!UICONTROL Description]**
 
-   ![Duplicate Shared Catalog](./assets/shared-catalog-duplicate.png)<!-- zoom -->
-
 1. When complete, Click **[!UICONTROL Save]**.
 
-   The duplicate appears in the Shared Catalogs grid, with a unique ID.
-
-   ![New Shared Catalog](./assets/shared-catalog-grid-duplicate.png)<!-- zoom -->
+   The duplicate appears in the _[!UICONTROL Shared Catalogs]_ grid, with a unique ID.
 
 ## Step 2: Complete the setup
 
-After creating a new shared catalog, it must be configured with the appropriate product selection, [company assignments](catalog-shared-assign-companies.md), and [category permissions](../catalog/category-permissions.md). To continue, see [Set Pricing and Structure](catalog-shared-pricing-structure.md).
+After creating a new shared catalog, it must be configured with the appropriate product selection, [company assignments](catalog-shared-assign-companies.md), and [category permissions](../catalog/category-permissions.md). To continue, see [Set pricing and structure](catalog-shared-pricing-structure.md).
 
 >[!NOTE]
 >
@@ -101,11 +103,11 @@ After creating a new shared catalog, it must be configured with the appropriate 
 
 ## Shared catalog demo
 
-Watch this video to learn about managing shared catalogs:
+To see a demonstration of shared catalog management, watch this video:
 
->[!VIDEO](https://video.tv.adobe.com/v/344446?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/344446?quality=12&learn=on)
 
-## Shared Catalog page reference
+## Shared catalog page reference
 
 ### Button bar
 

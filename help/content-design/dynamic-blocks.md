@@ -1,9 +1,9 @@
 ---
-title: Dynamic Blocks
+title: Dynamic blocks
 description: Use dynamic blocks to create rich, interactive content that is driven by logic from price rules and customer segments.
 exl-id: 0c842ad9-2e46-48aa-9a12-2f74a54c352e
 ---
-# Dynamic Blocks
+# Dynamic blocks
 
 {{ee-feature}}
 
@@ -13,17 +13,17 @@ Create rich, interactive content that is driven by logic from [price rules](../m
 >
 >The _[!UICONTROL Banner]_ option in the [[!UICONTROL Content] menu](content-menu.md) was deprecated in 2.3.1 and removed in 2.4.0. Its functionality is replaced by Dynamic Blocks.
 
-![[!DNL Page Builder] - dynamic block with price rule and customer segment](../page-builder/assets/pb-tutorial2-dynamic-block-storefront.png)<!-- zoom -->
+![[!DNL Page Builder] - dynamic block with price rule and customer segment](../page-builder/assets/pb-tutorial2-dynamic-block-storefront.png){width="600" zoomable="yes"}
 
 ## Step 1: Create a dynamic block
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Elements]_ > **[!UICONTROL Dynamic Blocks]**.
 
-   ![Dynamic blocks list](../page-builder/assets/pb-tutorial2-block-dynamic-add.png)<!-- zoom -->
+   ![Dynamic blocks list](../page-builder/assets/pb-tutorial2-block-dynamic-add.png){width="600" zoomable="yes"}
 
 1. In the upper-right corner, click **[!UICONTROL Add Dynamic Block]**.
 
-   ![New dynamic block](../page-builder/assets/pb-tutorial2-block-dynamic-new.png)<!-- zoom -->
+   ![New dynamic block](../page-builder/assets/pb-tutorial2-block-dynamic-new.png){width="600" zoomable="yes"}
 
 1. If applicable, set **[!UICONTROL Store View]** to a specific store view where the dynamic block is to appear.
 
@@ -33,23 +33,31 @@ Create rich, interactive content that is driven by logic from [price rules](../m
 
 1. Set **[!UICONTROL Dynamic Block Type]** to the area of the page where you want the dynamic block to appear and click **[!UICONTROL Done]**.
 
-   ![Setting the dynamic block type](../page-builder/assets/pb-dynamic-block-type.png)<!-- zoom -->
+   ![Setting the dynamic block type](../page-builder/assets/pb-dynamic-block-type.png){width="500" zoomable="yes"}
 
 1. In the **[!UICONTROL Customer Segment]** list, select the checkbox of each segment that you want to see the dynamic block and click **[!UICONTROL Done]** to save the setting.
 
-   ![Choosing a customer segment](../page-builder/assets/pb-dynamic-block-customer-segment.png)<!-- zoom -->
+   ![Choosing a customer segment](../page-builder/assets/pb-dynamic-block-customer-segment.png){width="500" zoomable="yes"}
 
    >[!NOTE]
    >
    >- If no Segment is created, the dynamic block is visible to everyone.
-   >- If the customer does not belong to any segments and the dynamic block is created for all segments, the contents of dynamic block is still displayed.
+   >- If the customer does not belong to any segments and the dynamic block is created for all segments, the contents of the dynamic block is still displayed.
    >- If all customer segments assigned to a Dynamic Block are deleted, its contents are then visible to everyone.
+
+### Use Real-Time CDP audiences in dynamic blocks
+
+If you [installed](../customers/audience-activation.md#install-the-extension) and [configured](../customers/audience-activation.md#configure-the-extension) the [!DNL Audience Activation] extension, you see a section called **[!UICONTROL Audiences]**.
+
+![Choose a Real-Time CDP Audience](./assets/dynamic-block-rtcdp.png){width="600" zoomable="yes"}
+
+In the **[!UICONTROL Real-Time CDP Audience]** list, select the checkbox of each audience that you want to see the dynamic block and click **[!UICONTROL Done]** to save the setting.
 
 ## Step 2: Complete the content
 
 Use the [!DNL Page Builder] [workspace](../page-builder/workspace.md) to complete the content.
 
-![[!DNL Page Builder] - dynamic block workspace](../page-builder/assets/pb-dynamic-block-workspace.png)<!-- zoom -->
+![[!DNL Page Builder] - dynamic block workspace](../page-builder/assets/pb-dynamic-block-workspace.png){width="600" zoomable="yes"}
 
 ## Step 3: Choose a related promotion
 
@@ -60,6 +68,10 @@ Use the [!DNL Page Builder] [workspace](../page-builder/workspace.md) to complet
    - **[!UICONTROL Add Cart Price Rules]** (see [Cart Price Rules](../merchandising-promotions/price-rules-cart.md))
 
    - **[!UICONTROL Add Catalog Price Rules]** (see [Catalog Price Rules](../merchandising-promotions/price-rules-catalog.md))
+
+   >[!NOTE]
+   >
+   >Catalog price rules are not supported for Real-Time CDP audiences.
 
 1. In the list of available rules, select the checkbox of each rule that you want to use and click **[!UICONTROL Add Selected]**.
 
@@ -80,6 +92,7 @@ Use the [!DNL Page Builder] [workspace](../page-builder/workspace.md) to complet
 |[!UICONTROL Dynamic Block Name]|A descriptive name that identifies the dynamic block in the Admin.|
 |[!UICONTROL Dynamic Block Type]|Identifies the place in the [standard page layout](layout-updates.md) where the dynamic block is placed. Options: <br/>**[!UICONTROL Content Area]** - Places the dynamic block in the main [content area](layout-updates.md) of the page. <br/>**[!UICONTROL Footer]** - Places the dynamic block in the page [footer](page-setup.md#footer). <br/>**[!UICONTROL Header]** - Places the dynamic block in the page [header](page-setup.md#header). <br/>**[!UICONTROL Left Column]** - Places the dynamic block in the [left sidebar](page-layout.md#standard-page-layouts) of a two-or three-column layout. <br/>**[!UICONTROL Right Column]** - Places the dynamic block in the [right sidebar](page-layout.md#standard-page-layouts) of a two- or three-column layout.|
 |Customer Segment|Associates a customer segment with the dynamic block to determine which customers can see it.|
+|Real-Time CDP Audience|Associates a [Real-Time CDP audience](../customers/audience-activation.md) with the dynamic block to determine which customers can see it.|
 
 {style="table-layout:auto"}
 

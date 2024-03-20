@@ -1,9 +1,10 @@
 ---
-title: Create Multi-Source Shipments
+title: Create multi-source shipments
 description: Learn how multi-source merchants can create and send shipments.
 exl-id: d2995139-0fc3-4379-a4ec-b0d38ed566bb
+feature: Inventory, Shipping/Delivery
 ---
-# Create Multi-Source Shipments
+# Create multi-source shipments
 
 With [!DNL Inventory Management], send one or more shipments as you have inventory. To generate additional shipments as needed, repeat these instructions using recommended or manually entered quantities and sources. These instructions detail how multi-source merchants send shipments. Single-source merchants send shipments without these additional steps (see [Create a shipment](../stores-purchase/shipments.md#create-a-shipment){target="_blank"} in the core user guide).
 
@@ -45,12 +46,12 @@ As you enter shipments, your on-hand inventory quantities deduct entered amounts
 
    - Click **[!UICONTROL Proceed to Shipment]**.
 
-      ![Select a Source and enter a Quantity](assets/shipment-magento-shipping-sources.png)
+      ![Select a Source and enter a Quantity](assets/shipment-adobe-shipping-sources.png){width="350" zoomable="yes"}
 
 1. Review the _[!UICONTROL New Shipment]_ page and enter any additional changes as needed.
 
    The _[!UICONTROL Inventory]_ section displays the source, products shipping, total ordered quantity, and quantity to ship.
 
-   ![Inventory details for the shipment, example partial shipment](assets/inventory-shipment-details.png)
+   ![Inventory details for the shipment, example partial shipment](assets/inventory-shipment-details.png){width="350" zoomable="yes"}
 
 1. Click **[!UICONTROL Submit Shipment]** to complete.

@@ -2,6 +2,7 @@
 title: '[!UICONTROL Customers]  &gt; [!UICONTROL Customer Configuration]'
 description: Review the configurations settings on the [!UICONTROL Customers] &gt; [!UICONTROL Customer Configuration] page of the Commerce Admin.
 exl-id: 596359d7-3891-4e0c-9604-3647032188fd
+feature: Configuration, Customers
 ---
 # [!UICONTROL Customers]  > [!UICONTROL Customer Configuration]
 
@@ -17,7 +18,7 @@ exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 |--- |--- |--- |
 |[!UICONTROL Share Customer Accounts]|Global|Determines the scope of customer accounts in the store hierarchy. Options: <br/>**`Global`** - Customer account information is shared with every website and store in the Commerce installation. <br/>**`Per Website`** - Customer account information is limited to the website where the account was created.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Online Customers Options]
 
@@ -30,9 +31,11 @@ exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 |[!UICONTROL Online Minutes Interval]|Global|Determines the length of time that a customer's online activity is accessible from the Admin. Leave empty for a default interval of 15 minutes.|
 |[!UICONTROL Customer Data Lifetime]|Global|Determines the number of minutes before unsaved data that is entered by the customer expires. By default, unsaved data expires after 60 minutes.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Create New Account Options]
+
+{{beta-updates}}
 
 ![Create New Account Options](./assets/customer-configuration-create-new-account-options.png)<!-- zoom -->
 
@@ -55,7 +58,7 @@ exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 |[!UICONTROL Welcome Email]|Store View|Identifies the email template that is used for the Welcome message that is sent after the account is confirmed.|
 |[!UICONTROL Generate Human-Friendly Customer ID]|Global|Determines if the field that is used to enter and store the VAT ID number is visible from the storefront. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Password Options]
 
@@ -65,7 +68,7 @@ exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|[!UICONTROL Password Reset Protection Type]|Store View|Determines the method used to reset a Customer password. Options: <br/>**`By IP and Email`** - The password can be reset online after a response is received from a reset notification that is sent to the email address associated with the Admin account. <br/>**`By IP`** - The password can be reset online. <br/>**`By Email`** - The password can be reset by responding to an email notification that is sent to the email address associated with the Admin account. <br/>**`None`** - The password can be reset only by the store administrator. |
+|[!UICONTROL Password Reset Protection Type]|Store View|Determines the method used to reset a customer account password. Options: <br/>**`By IP and Email`** - The password can be reset online after a response is received from a reset notification that is sent to the email address associated with the Admin account. <br/>**`By IP`** - The password can be reset online. <br/>**`By Email`** - The password can be reset by responding to an email notification that is sent to the email address associated with the Admin account. <br/>**`None`** - The password can be reset only by the store administrator. |
 |[!UICONTROL Max Number of Password Reset Requests]|Store View|Limits the number of password reset requests per hour. For unlimited requests, enter zero (0).|
 |[!UICONTROL Min Time Between Password Reset Requests]|Store View|Determines the number of minutes between password reset requests. For no delay between requests, enter zero (0).|
 |[!UICONTROL Forgot Email Template]|Store View|Identifies the email template that is used when customers forget their passwords. Default template: `Forgot Password`|
@@ -75,11 +78,11 @@ exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 |[!UICONTROL Recovery Link Expiration Period (hours)]|Global|Specifies the number of hours before a password recovery link expires.|
 |[!UICONTROL Enable Autocomplete on login/forgot password forms]|Website|Determines if autocomplete is enabled on login/forgot password forms. Options: `Yes` / `No`|
 |[!UICONTROL Number of Required Character Classes]|Global|Determines the number of different character classes (lowercase, uppercase, numeric, and special characters) that must be included in a password.|
-|[!UICONTROL Maximum Login Failures to Lockout Account]|Global|Determines the number failed login attempts until the Admin account is locked. For unlimited attempts, enter zero (`0`).|
+|[!UICONTROL Maximum Login Failures to Lockout Account]|Global|Determines the number failed login attempts until the customer account is locked. For unlimited attempts, enter zero (`0`).|
 |[!UICONTROL Minimum Password Length]|Global|Determines the minimum number of characters allowed in a password. The number must be greater than zero (`0`).|
-|[!UICONTROL Lockout Time (minutes)]|Global|Determines the number of minutes an Admin account is locked after too many failed attempts to log in.|
+|[!UICONTROL Lockout Time (minutes)]|Global|Determines the number of minutes a customer account is locked after too many failed attempts to log in.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Account Information Options]
 
@@ -90,7 +93,7 @@ exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 |[!UICONTROL Change Email Template]|Store View|Identifies the default email template that is used when a customer changes their email address.|
 |[!UICONTROL Change Email and Password Template]|Store View|Identifies the default email template that is used when a customer changes their email address and password.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Name and Address Options]
 
@@ -110,14 +113,14 @@ exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 |[!UICONTROL Show Middle Name (initial)]|Website|Determines if the middle initial is included as part of the customer name. If used, the middle initial is an optional field. Options: `Yes` / `No`|
 |[!UICONTROL Show Suffix]|Website|Determines if the customer name includes a suffix at the end, such as Jr., Sr., and III. Options: `No` / `Optional` / `Required`|
 |[!UICONTROL Suffix Dropdown Options]|Website|Defines the list of suffix options. Separate values with a semicolon. Place a semicolon before the first value to display an empty value at the top of the list.|
-|[!UICONTROL Show Date of Birth]|Website|Determines if the customer date of birth is included in the name and address form. Options: `No` / `Optional` / `Required`  <br><br>**_Important:_** In keeping with current security and privacy best practices, be sure that you are aware of any potential legal and security risks associated with the storage of customers' full date of birth (month, day, year) along with other personal identifiers. We recommend limiting the storage of customers' full birth dates and instead suggest using customer year of birth as an alternative.|
+|[!UICONTROL Show Date of Birth]|Website|Determines if the customer date of birth is included in the name and address form. Options: `No` / `Optional` / `Required`  <br><br>**_Important:_** In keeping with current security and privacy best practices, be aware of any potential legal and security risks associated with the storage of customers' full date of birth (month, day, year) with other personal identifiers. It is recommended that you limit the storage of customers' full birth dates and suggest using customer year of birth as an alternative.|
 |[!UICONTROL Show Tax/VAT Number]|Website|Determines if the Tax or [VAT number](../../stores-purchase/vat.md) is included in the name and address form. Options: `No` / `Optional` / `Required`|
 |[!UICONTROL Show Gender]|Website|Determines if gender is included in the name and address form. Options: `No` / `Optional` / `Required`|
 |[!UICONTROL Show Telephone]|Website|Determines if the customer's telephone number is included in the name and address form. Options: `No` / `Optional` / `Required`|
 |[!UICONTROL Show Company]|Website|Determines if the customer's company is included in the name and address form. Options: `No` / `Optional` / `Required`|
 |[!UICONTROL Show Fax]|Website|Determines if the customer's fax number is included in the name and address form. Options: `No` / `Optional` / `Required`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ### Adobe Commerce options
 
@@ -135,7 +138,7 @@ exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 |[!UICONTROL Show Company]|Website|Determines if the customer's company is included in the name and address form. Options: `No` / `Optional` / `Required`|
 |[!UICONTROL Show Fax]|Website|Determines if the customer's fax number is included in the name and address form. Options: `No` / `Optional` / `Required`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Store Credit Options]
 
@@ -153,7 +156,7 @@ exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 |[!UICONTROL Store Credit Update Email Sender]|Store View|Determines the store identity that appears as the sender of credit update notifications sent to customers.|
 |[!UICONTROL Store Credit Update Email Template]|Store View|Determines the email template used for credit updates.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Login Options]
 
@@ -165,7 +168,7 @@ exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 |--- |--- |--- |
 |[!UICONTROL Redirect Customer to Account Dashboard after Logging in]|Website|Determines what happens after customers log in to their accounts. To redirect customers to their account dashboard, select `Yes`. Options: <br/>**`Yes`** - The account dashboard appears when customers log in to their accounts. <br/>**`No`** - Customers can continue shopping after logging in to their accounts.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Address Templates]
 
@@ -180,7 +183,7 @@ exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 |[!UICONTROL HTML]|Store View|This template defines the order of address fields located under the _Customer Addresses_ area in the Admin panel ([!UICONTROL Customers] > [!UICONTROL Manage Customers]). This also affects those on the _Add New Address_ page when a customer creates a billing or shipping address on their account page.|
 |[!UICONTROL PDF]|Store View|The template defines the display of billing and shipping addresses in the printed invoices, shipments, and credit memos.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Customer Segments]
 
@@ -193,8 +196,9 @@ exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 |Template|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |[!UICONTROL Enable Customer Segment Functionality]|Global|Determines if customer segments can be used to create targeted promotions. Options: `Yes` / `No`|
+|[!UICONTROL Real-time Check if Customer is Matched by Segment]|Global| Determines if customer segments are validated in real time. Options: <br/>**[!UICONTROL Yes]** - Customer segments are validated in real time (default value). <br/>**[!UICONTROL No]** - Customer segments are validated by a single combined condition SQL query. This improves performance of segments validation if there are many customers segments in the system. However, the validation does not work with a split database or when there are no registered customers. |
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL CAPTCHA]
 
@@ -214,4 +218,4 @@ exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 |[!UICONTROL Symbols Used in CAPTCHA]|Website|Determines the letters (a-z and A-Z) and numbers (0-9) that appear in the CAPTCHA. Symbols that are hard to distinguish from other symbols, such as `i`, `l`, or `1`, are not included in the default set of CAPTCHA symbols.|
 |[!UICONTROL Case Sensitive]|Website|Determines if CAPTCHA characters are case-sensitive. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

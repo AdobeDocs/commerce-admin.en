@@ -2,12 +2,13 @@
 title: Order status
 description: Learn about the predefined order statuses and how to define custom order statuses to align with your operational needs.
 exl-id: d1153558-a721-4643-a70c-7fc20072983c
+feature: Orders
 ---
 # Order status
 
 All orders have an order status that is associated with a stage in the order processing [workflow](order-processing.md). The status of each order is shown in the _Status_ column of the _Orders_ grid. Your store has a set of predefined order status and order state settings. The order state describes the position of an order in the workflow.
 
-![Order Status](./assets/stores-order-status-column.png)<!-- zoom -->
+![Order Status](./assets/stores-order-status-column.png){width="700" zoomable="yes"}
 
 >[!TIP]
 >
@@ -22,8 +23,8 @@ All orders have an order status that is associated with a stage in the order pro
 |Order Status|Status Code||
 |--- |--- |--- |
 |Processing|`processing`|When the state of new orders is set to 'Processing', the _Automatically Invoice All Items_ option becomes available in the configuration. Invoices are not created automatically for orders placed by using Gift Card, Store Credit, Reward Points, or other offline payment methods.|
-|Suspected Fraud|`fraud`|Sometimes orders paid via PayPal or another payment gateway are marked as Suspected Fraud. This means that the order does not have invoice issued and the confirmation email is also not sent.|
-|Pending Payment|`pending_payment`|This is the status used if order is created and PayPal or similar payment method is used. This means that the customer was directed to the payment gateway website, but no return information has been received yet. This status changes when customer pays.|
+|Suspected Fraud|`fraud`|Sometimes orders paid via PayPal or another payment gateway are marked as _Suspected Fraud_. This status means that the order does not have invoice issued and the confirmation email is also not sent.|
+|Pending Payment|`pending_payment`|This status is used if the order is created and PayPal or similar payment method is used. It means that the customer was directed to the payment gateway website, but no return information has been received yet. This status changes when customer pays.|
 |Payment Review|`payment_review`|This status appears when PayPal payment review is turned on.|
 |Pending|`pending`|This status indicates that no invoice and shipments have been submitted.|
 |On Hold|`holded`|This status can only be assigned manually. You can put any order on hold.|
@@ -45,7 +46,7 @@ In addition to the preset order status settings, you can create your own custom 
 >
 >Only default custom order status values are used in the order workflow. Custom status values that are not set as default can be used only in the comments section of the order.
 
-![Order Status Settings](./assets/order-status.png)<!-- zoom -->
+![Order Status settings](./assets/order-status.png){width="700" zoomable="yes"}
 
 ### Create a custom order status
 
@@ -53,13 +54,13 @@ In addition to the preset order status settings, you can create your own custom 
 
 1. In the upper-right corner, click **[!UICONTROL Create New Status]**.
 
-   ![Create New Order Status](./assets/order-status-new.png)<!-- zoom -->
+   ![Create New Order Status](./assets/order-status-new.png){width="600" zoomable="yes"}
 
 1. Update the _[!UICONTROL Order Status Information]_ section:
 
    - Enter a **[!UICONTROL Status Code]** for internal reference. The first character must be a letter (a-z), and the rest can be any combination of letters and numbers (0-9). Use the underscore character instead of a space.
 
-   - Enter a **[!UICONTROL Status Label]** to identify the status setting in both the Admin and storefront.
+   - For **[!UICONTROL Status Label]**, enter a label that identifies the status setting in both the Admin and storefront.
 
 1. In the _[!UICONTROL Store View Specific Labels]_ section, enter any labels that are needed for different store views.
 
@@ -69,13 +70,17 @@ In addition to the preset order status settings, you can create your own custom 
 
 1. On the _Order Status_ page, click **[!UICONTROL Assign Status to State]**.
 
-   ![Assign Status](./assets/store-status-assign-status.png)<!-- zoom -->
+   ![Assign Status](./assets/store-status-assign-status.png){width="600" zoomable="yes"}
 
 1. Update the **[!UICONTROL Assignment Information]** section, do the following:
 
    - Choose the **[!UICONTROL Order Status]** that you want to assign. They are listed by status label.
 
    - Set **[!UICONTROL Order State]** to the place in the workflow where the order status belongs.
+
+      >[!NOTE]
+      >
+      >**_[!UICONTROL Order State]_** list includes the default assigned order statuses. For example, the `Pending` default order status is displayed instead of the `New` order state value.
 
    - To make this status the default for the order state, select the **[!UICONTROL Use Order Status as Default]** checkbox.
 
@@ -85,7 +90,7 @@ In addition to the preset order status settings, you can create your own custom 
 
    - To make this status visible from the storefront, select the **[!UICONTROL Visible On Storefront]** checkbox.
 
-   ![Assign Status to State](./assets/order-status-assign-state.png)<!-- zoom -->
+   ![Assign Status to State](./assets/order-status-assign-state.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Save Status Assignment]**.
 
@@ -109,6 +114,10 @@ In addition to the preset order status settings, you can create your own custom 
 
    A message appears at the top of the workspace that the order status has been unassigned. Although the order status label still appears in the list, it is no longer assigned to a state. Order status settings cannot be deleted.
 
+>[!NOTE]
+>
+>If the default order status is unassigned from the order state, _**another**_ order status is _**set  automatically**_ as a default for this order state.
+
 ## Notification
 
 Customers can track the status of their orders by [RSS feed](../merchandising-promotions/social-rss.md) if the Order RSS feed is enabled in the configuration. When enabled, a link to the RSS feed appears on each order.
@@ -123,7 +132,7 @@ Customers can track the status of their orders by [RSS feed](../merchandising-pr
 
 1. Set **[!UICONTROL Customer Order Status Notification]** to `Enable`.
 
-   ![Customer Order Status Notification](../configuration-reference/catalog/assets/rss-feeds-order.png)<!-- zoom -->
+   ![Customer Order Status Notification](../configuration-reference/catalog/assets/rss-feeds-order.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
@@ -135,7 +144,7 @@ Customers can track the status of their orders by [RSS feed](../merchandising-pr
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Order]** section.
 
-   ![Configuration - Order options](../configuration-reference/sales/assets/sales-emails-order.png)<!-- zoom -->
+   ![Configuration - Order options](../configuration-reference/sales/assets/sales-emails-order.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL New Order Confirmation Email Sender]** to one of the following:
 

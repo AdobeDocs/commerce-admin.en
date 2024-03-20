@@ -2,6 +2,7 @@
 title: Purchase orders
 description: Learn how to set up purchase orders as an offline method of payment on your store.
 exl-id: 493c1b59-2155-449f-a08a-eb1aa2af9b3e
+feature: Purchase Orders
 ---
 # Purchase orders
 
@@ -17,8 +18,7 @@ Before accepting payment by purchase order, always establish the credit worthine
 
 1. Under _[!UICONTROL Other Payment Methods]_, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Purchase Order]** section.
 
-   ![Purchase Order](../configuration-reference/sales/assets/payment-methods-purchase-order.png)
-   )<!-- zoom -->
+   ![Purchase Order](../configuration-reference/sales/assets/payment-methods-purchase-order.png){width="600" zoomable="yes"}
 
    For a detailed description of each of these configuration settings, see [Purchase Order](../configuration-reference/sales/payment-methods.md#purchase-order) in the _Configuration Reference Guide_.
 
@@ -28,7 +28,7 @@ Before accepting payment by purchase order, always establish the credit worthine
 
 1. To activate this payment method, set **[!UICONTROL Enabled]** to `Yes`.
 
-1. Enter a **[!UICONTROL Title]** to identify this payment method during checkout.
+1. For **[!UICONTROL Title]**, enter a title that identifies this payment method during checkout.
 
 1. Set **[!UICONTROL New Order Status]** to `Pending` until payment is authorized.
 
@@ -43,8 +43,8 @@ Before accepting payment by purchase order, always establish the credit worthine
    >
    >An order qualifies if the total falls between, or exactly matches, the minimum or maximum total values.
 
-1. Enter a **[!UICONTROL Sort Order]** number to determine the position of this item in the list of payment methods that is displayed during checkout.
+1. For **[!UICONTROL Sort Order]**, enter a number that determine the position of this item in the list of payment methods that is displayed during checkout.
 
-   This is relative to the other payment methods. (`0` = first, `1` = second, `2` = third, and so on.)
+   This number is relative to the other payment methods. (`0` = first, `1` = second, `2` = third, and so on.)
 
 1. When complete, click **[!UICONTROL Save Config]**.

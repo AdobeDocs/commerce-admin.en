@@ -2,6 +2,7 @@
 title: Modify a category
 description: Learn how to move or delete a category.
 exl-id: 7acc2cee-3e95-4d55-864e-6c62ae08eb91
+feature: Catalog Management, Categories
 ---
 # Modify a category
 

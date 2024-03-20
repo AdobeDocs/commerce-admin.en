@@ -2,6 +2,7 @@
 title: '[!UICONTROL Sales] &gt; [!UICONTROL PDF Print-outs]'
 description: Review the configurations settings on the [!UICONTROL Sales] &gt; [!UICONTROL PDF Print-outs] page of the Commerce Admin.
 exl-id: aa30ee9a-4201-4054-82f0-2f42d7b4ba4f
+feature: Configuration, Orders
 ---
 # [!UICONTROL Sales] > [!UICONTROL PDF Print-outs]
 
@@ -17,7 +18,7 @@ exl-id: aa30ee9a-4201-4054-82f0-2f42d7b4ba4f
 |--- |--- |--- |
 |[!UICONTROL Display Order ID in Header]|Store View|Includes the Order ID  in the header of invoices for reference. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shipment]
 
@@ -27,7 +28,7 @@ exl-id: aa30ee9a-4201-4054-82f0-2f42d7b4ba4f
 |--- |--- |--- |
 |[!UICONTROL Display Order ID in Header]|Store View|Includes the Order ID in the header of shipment packing slips for reference. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Credit Memo]
 
@@ -37,4 +38,4 @@ exl-id: aa30ee9a-4201-4054-82f0-2f42d7b4ba4f
 |--- |--- |--- |
 |[!UICONTROL Display Order ID in Header]|Store View|Includes the Order ID in the header of credit memos for reference. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

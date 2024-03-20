@@ -1,11 +1,11 @@
 ---
 title: Introduction to stores and purchase experience
-description: Learn about the features used to to construct and manage your online stores and the purchasing experience for your customers.
+description: Learn about the features used to construct and manage your online stores and the purchasing experience for your customers.
 exl-id: 7ced9cbc-49b4-48f7-aae2-fcb48fdb888f
 ---
 # Introduction to stores and purchase experience
 
-Adobe Commerce and Magento Open Source provide a comprehensive set of features to construct and manage your online stores and the purchasing experience for your customers. Within your Commerce instance, you can manage the store hierarchy of websites, stores, and views. You can also configure the taxes and currency rates required to run stores across multiple locales, including tax classes for products and customer groups.
+Adobe Commerce and Magento Open Source provide a comprehensive set of features to construct and manage your online stores and the purchasing experience for your customers. Within your Commerce instance, you can manage the store hierarchy of websites, stores, and views. You can also configure the taxes and currency rates required to run stores for multiple locales, including tax classes for products and customer groups.
 
 ## Store structure
 
@@ -19,7 +19,7 @@ Adobe Commerce and Magento Open Source reduce ordering errors by automatically v
 
 >[!TIP]
 >
->![B2B for Adobe Commerce](../assets/b2b.svg) With the installation and enablement of B2B for Adobe Commerce, you can configure _Quick Order_ for customers associated with a company account. This reduces the order process to several clicks when they know the name or SKU of the products they want to order. You can also configure support for negotiated quotes for your company accounts. For more information about the B2B features, see the [B2B for Adobe Commerce User Guide](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>![B2B for Adobe Commerce](../assets/b2b.svg) With the installation and enablement of B2B for Adobe Commerce, you can configure _Quick Order_ for customers associated with a company account. This function reduces the order process to several clicks when they know the name or SKU of the products they want to order. You can also configure support for Negotiable Quotes for your company accounts. For more information about the B2B features, see the [B2B for Adobe Commerce User Guide](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 ## Shopping assistance
 
@@ -29,9 +29,9 @@ Customers sometimes need assistance to complete a purchase. Some customers like 
 - [Create orders](customer-account-create-order.md) for registered customers
 - [Update orders](order-update.md)
 
-![Shopping cart](./assets/storefront-cart-price-group-discount.png)<!-- zoom -->
+![Shopping cart](./assets/storefront-cart-price-group-discount.png){width="700" zoomable="yes"}
 
-Watch this video to learn about seller-assisted shopping:
+Learn about seller-assisted shopping by watching this video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/343662/?quality=12)
 
@@ -53,4 +53,4 @@ In the Admin, merchants can access information at each stage of the order workfl
 
 ## Shipping and delivery
 
-Studies show that stores offering customers a choice of several [delivery methods](delivery.md) have higher conversion rates than those that use a single method. The Admin provides various tools that merchants can use to set up multiple delivery methods and [shipping carriers](carriers.md), and to print [shipping labels](shipping-labels.md).
+Studies show that stores offering customers a choice of several [delivery methods](delivery.md) have higher conversion rates than stores that use a single method. The Admin provides various tools that merchants can use to set up multiple delivery methods and [shipping carriers](carriers.md), and to print [shipping labels](shipping-labels.md).

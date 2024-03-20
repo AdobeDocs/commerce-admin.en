@@ -2,6 +2,7 @@
 title: Simple product
 description: Learn how to create a simple product that can be sold individually or as part of a grouped, configurable, or bundle product.
 exl-id: 3ac9b28d-3929-4fd6-97ca-145ea6d6897c
+feature: Catalog Management, Products
 ---
 # Simple product
 
@@ -9,15 +10,15 @@ One of the keys to harnessing the power of product types is learning when to use
 
 The following instructions demonstrate the process of creating a simple product using a [product template](attribute-sets.md), required fields, and basic settings. Each required field is marked with a red asterisk (`*`). When you finish the basics, you can complete the other product settings as needed.
 
-![Simple product](./assets/product-simple.png)<!-- zoom -->
+![Simple product](./assets/product-simple.png){width="700" zoomable="yes"}
 
 ## Step 1: Choose the product type
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. On the _[!UICONTROL Add Product]_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png)<!-- {: width="25px"} --> ) menu at the upper-right, choose **[!UICONTROL Simple Product]**.
+1. On the _[!UICONTROL Add Product]_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png){width="25"} ) menu at the upper-right, choose **[!UICONTROL Simple Product]**.
 
-   ![Add Simple Product](./assets/product-add-simple.png)<!-- zoom -->
+   ![Add Simple Product](./assets/product-add-simple.png){width="700" zoomable="yes"}
 
 ## Step 2: Choose the attribute set
 
@@ -29,7 +30,7 @@ To choose the [attribute set](attribute-sets.md) that is used as a template for 
 
 The form is updated to reflect the change.
 
-![Choose attribute set](./assets/product-create-choose-attribute-set.png)<!-- zoom -->
+![Choose attribute set](./assets/product-create-choose-attribute-set.png){width="600" zoomable="yes"}
 
 ## Step 3: Complete the required settings
 
@@ -47,7 +48,7 @@ The form is updated to reflect the change.
 
 1. Choose the **[!UICONTROL Store View]** where the product is to be available.
 
-   ![Choose the store view](./assets/product-create-store-view-choose.png)<!-- zoom -->
+   ![Choose the store view](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
 
 ## Step 4: Complete the basic settings
 
@@ -64,7 +65,7 @@ The form is updated to reflect the change.
    - `VAT Reduced`
    - `VAT Standard`
 
-1. Enter the **[!UICONTROL Quantity]** of the product that is currently in stock.
+1. Enter the **[!UICONTROL Quantity]** of the product that is in stock.
 
    By default, **[!UICONTROL Stock Status]** is set to `In Stock`.
 
@@ -80,7 +81,7 @@ The form is updated to reflect the change.
 
    **Choose an existing category**:
 
-   - Start typing in the box to find a match.
+   - Start typing in the box until you find a match.
 
    - Select the checkbox of each category that is to be assigned.
 
@@ -88,15 +89,13 @@ The form is updated to reflect the change.
 
    - Click **[!UICONTROL New Category]**.
 
-   - Enter the **[!UICONTROL Category Name]** and choose the **[!UICONTROL Parent Category]** to determine its position in the menu structure.
+   - Enter the **[!UICONTROL Category Name]** and choose the **[!UICONTROL Parent Category]**, which determines its position in the menu structure.
 
    - Click **[!UICONTROL Create Category]**.
 
 1. To feature the product in the list of [new products](../content-design/widget-new-products-list.md), select the **[!UICONTROL Set Product as New]** checkbox.
 
 1. Choose the **[!UICONTROL Country of Manufacture]**.
-
-   ![Product Details](./assets/product-details-simple.png)<!-- zoom -->
 
 There might be additional individual attributes that describe the product. The selection varies by attribute set, and you can complete them later.
 
@@ -131,13 +130,11 @@ Scroll down and complete the information in the following sections as needed:
 
       The store opens in a new browser tab.
 
-      ![Customer View](./assets/product-admin-customer-view.png)<!-- zoom -->
+      ![Customer View](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
 
    - **Method 2:** Save and Close
 
-      On the _[!UICONTROL Save]_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png)<!-- {: width="25px"} --> ) menu, choose **[!UICONTROL Save & Close]**.
-
-      ![Save & Close](./assets/product-edit-save-close.png)<!-- zoom -->
+      On the _[!UICONTROL Save]_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png){width="25"} ) menu, choose **[!UICONTROL Save & Close]**.
 
 ## Things to remember
 

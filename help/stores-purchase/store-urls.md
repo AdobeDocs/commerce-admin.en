@@ -2,6 +2,7 @@
 title: Store URLs
 description: Learn about store URLs and how to configure the base URL and store codes.
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
+feature: Site Management, System
 ---
 # Store URLs
 
@@ -25,7 +26,7 @@ If a security certificate was not available for the domain at the time of the in
 >
 >Adobe strongly recommends transmitting all pages of a production site, including content and product pages, using a secure protocol.
 
-Adobe Commerce and Magento Open Source can be configured to deliver all pages over `HTTPS` by default. If your store has been running up with standard protocol, you can improve security by enabling [HTTP Strict Transport Security][2] (HSTS) and upgrading any unsecure page requests. HSTS is an opt-in protocol that prevents browsers from rendering standard `HTTP` pages that are transmitted with unsecure protocol for the specified domain. Because search engines might have already indexed each page of your store with standard `HTTP` URLs, you can configure Commerce to upgrade any unsecure page requests to `HTTPS` automatically , so you don't lose any traffic. When Commerce is configured to use secure URLs for both the store and Admin, two additional fields appear that allow you to enable `HSTS`.
+Adobe Commerce and Magento Open Source can be configured to deliver all pages over `HTTPS` by default. If your store has been running up with standard protocol, you can improve security by enabling [HTTP Strict Transport Security][2] (HSTS) and upgrading any unsecure page requests. HSTS is an opt-in protocol that prevents browsers from rendering standard `HTTP` pages that are transmitted with unsecure protocol for the specified domain. Because search engines might have already indexed each page of your store with standard `HTTP` URLs, you can configure Commerce to upgrade any unsecure page requests to `HTTPS` automatically , so you don't lose any traffic. When Commerce is configured to use secure URLs for both the storefront and Admin, two additional fields appear that allow you to enable `HSTS`.
 
 ## Configure the base URL
 
@@ -51,7 +52,7 @@ Adobe Commerce and Magento Open Source can be configured to deliver all pages ov
 
       For a typical installation, there is no need to update the paths for the static view files or media files because they are relative to the base URL.
 
-   ![General configuration - web base URLs](../configuration-reference/general/assets/web-base-urls.png)<!-- zoom -->
+   ![General configuration - web base URLs](../configuration-reference/general/assets/web-base-urls.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -65,7 +66,7 @@ If your domain has a valid security certificate, you can configure the URLs of b
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the _[!UICONTROL Base URLs (Secure])_ section and do the following:
 
-   ![General configuration - secure base URLs](../configuration-reference/general/assets/web-base-urls-secure.png)<!-- zoom -->
+   ![General configuration - secure base URLs](../configuration-reference/general/assets/web-base-urls-secure.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Secure Base URL]** — Enter the full secure base URL, followed by a forward slash. For example: `https://yourdomain.com/`
 
@@ -86,13 +87,13 @@ If your domain has a valid security certificate, you can configure the URLs of b
 
 1. For _[!UICONTROL Enhanced Security Settings]_, do the following:
 
-   ![General configuration - URL enhanced security](./assets/config-general-web-base-urls-secure-hsts.png)<!-- zoom -->
-
    - **[!UICONTROL Enable HTTP Strict Transport Security (HSTS)]** — If you want your store to display only secure HTTPS page requests, set to `Yes`.
 
    - **[!UICONTROL Upgrade Insecure Requests]** — To upgrade any requests for standard unsecured HTTP pages to secure HTTPS, set to `Yes`.
+      
+1. Set the **[!UICONTROL Offloader Header]** for your server.
 
-1. Most Commerce installations use the default `X-Forward-Proto` **[!UICONTROL Offloader Header]** to identify the protocol as either `HTTP` or `HTTPS`. If your server configuration uses a different `offloader_header`, enter it here.
+   Most Commerce installations use the default `X-Forward-Proto` to identify the protocol as either `HTTP` or `HTTPS`. If your server configuration uses a different offloader_header, enter it here.
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
@@ -100,7 +101,7 @@ If your domain has a valid security certificate, you can configure the URLs of b
 
 >[!NOTE]
 >
->When the _Add Store Code to URLs_ option is set to `Yes`, you must include store codes in your browser URLs. This ensures that URL rewrites are mapped correctly and all pages are opened successfully, without _"404 Page Not Found"_ errors.
+>When the _Add Store Code to URLs_ option is set to `Yes`, you must include store codes in your browser URLs. This setting ensures that URL rewrites are mapped correctly and all pages are opened successfully, without _"404 Page Not Found"_ errors.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -113,7 +114,7 @@ If your domain has a valid security certificate, you can configure the URLs of b
    - **[!UICONTROL URL with Store Code]**: `http://www.yourdomain.com/magento/[store-code]/index.php/url-identifier`
    - **[!UICONTROL URL without Store Code]**: `http://www.yourdomain.com/magento/index.php/url-identifier`
 
-    ![General configuration - web URL options](../configuration-reference/general/assets/web-url-options.png)<!-- zoom -->
+    ![General configuration - web URL options](../configuration-reference/general/assets/web-url-options.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
@@ -130,7 +131,7 @@ If after following the configuration instructions, some pages continue to be ser
 
 ## Use a custom Admin URL
 
-As a [security best practice](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adobe-commerce-best-practices-guide.pdf), Adobe recommends that you use a unique Admin URL instead of the default _admin_ or a common term such as _backend_. Although it does not directly protect your site from a determined bad actor, it can reduce exposure to scripts that try to gain unauthorized access.
+As a [security best practice](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), Adobe recommends that you use a unique Admin URL instead of the default _admin_ or a common term such as _backend_. Although it does not directly protect your site from a determined bad actor, it can reduce exposure to scripts that try to gain unauthorized access.
 
 >[!NOTE]
 >
@@ -146,7 +147,7 @@ Although it is possible to change the Admin URL and path to another location, an
 
 >[!NOTE]
 >
->As a precaution, do not try to change the Admin URL yourself unless you know how to edit configuration files on the server.
+>As a precaution, do not try to change the Admin URL yourself unless you know how to edit configuration files on the server. For Adobe Commerce projects deployed on cloud infrastructure, change the Admin URL by following the [instructions](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=en#admin-url) in the *Adobe Commerce on Cloud Infrastructure Guide*.
 
 ### Method 1: Change from the Admin
 
@@ -158,7 +159,7 @@ Although it is possible to change the Admin URL and path to another location, an
 
 1. Set the configuration options for the custom URL:
 
-   ![Advanced configuration - Admin base URL](../configuration-reference/advanced/assets/admin-admin-base-url.png)<!-- zoom -->
+   ![Advanced configuration - Admin base URL](../configuration-reference/advanced/assets/admin-admin-base-url.png){width="600" zoomable="yes"}
 
     If needed, clear the **[!UICONTROL Use system value]** checkbox to change the setting.
 
@@ -172,11 +173,9 @@ Although it is possible to change the Admin URL and path to another location, an
 
    - Set **[!UICONTROL Custom Admin Path]** to `Yes`.
 
-   - Enter the **Custom Admin Path**.
+   - For **[!UICONTROL Custom Admin Path]**, enter the path to use as the custom admin folder name.
 
-      This is the desired custom admin folder name only.
-
-      `sample_custom_admin`
+      Example: `sample_custom_admin`
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
@@ -197,6 +196,7 @@ Although it is possible to change the Admin URL and path to another location, an
    >For Adobe Commerce on cloud infrastructure, you can set up a custom admin path using the `ADMIN_URL` variable in the Cloud UI. See the [Admin variables topic](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html) in the _Commerce on Cloud Infrastructure Guide_.
 
    - **Default Admin Path**
+
       ```php?start_inline=1
       'backend' => [
        'frontName' => 'admin'
@@ -204,6 +204,7 @@ Although it is possible to change the Admin URL and path to another location, an
       ```
 
    - **New Admin Path**
+
       ```php?start_inline=1
       'backend' => [
           'frontName' => 'backend'
@@ -212,8 +213,9 @@ Although it is possible to change the Admin URL and path to another location, an
 
 1. Use one of the following methods to clear the cache:
 
-   - On the _Admin_ sidebar, go to **System** > _Tools_ > **Cache Management**. Then, click **Flush Magento Cache**.
+   - On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Tools]_ > **[!UICONTROL Cache Management]**. Then, click **[!UICONTROL Flush Magento Cache]**.
    - On the server, execute the following:
+
       ```terminal
       php bin/magento cache:flush
       ```
@@ -234,15 +236,15 @@ This command updates the `backend` > `frontName` configuration option in the `ap
 
 ## Restore the default Admin URL and Admin path
 
-In case you have set an invalid Admin URL or an Admin Path and lost access to the backend, there is a way to fix this from the command line.
+In case you have set an invalid Admin URL or an Admin Path and lost access to the backend, there is a way to fix it from the command line.
 
-1. Execute this command to revert to the default Admin URL
+1. To revert to the default Admin URL, execute this command:
 
    ```terminal
    php bin/magento config:set admin/url/use_custom 0
    ```
 
-1. Execute this command to revert to the default Admin Path (set in the `app/etc/env.php` as described in the Method 2)
+1. To revert to the default Admin Path (set in the `app/etc/env.php` as described in the Method 2), execute this command :
 
    ```terminal
    php bin/magento config:set admin/url/use_custom_path 0
@@ -252,6 +254,7 @@ In case you have set an invalid Admin URL or an Admin Path and lost access to th
 
    - On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Tools]_ > **[!UICONTROL Cache Management]**. Then, click **[!UICONTROL Flush Magento Cache]**.
    - On the server, execute the following:
+
       ```terminal
       php bin/magento cache:flush
       ```

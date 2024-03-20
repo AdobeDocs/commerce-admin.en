@@ -2,30 +2,33 @@
 title: Media - Video
 description: Learn about the Video content type, used to add a video that is hosted on YouTube or Vimeo to the [!DNL Page Builder] stage.
 exl-id: 9cd075e7-c10d-4c34-8932-c1ccb32bf198
+feature: Page Builder, Page Content
 ---
 # Media - Video
 
-Use the _Video_ content type to add a video that is hosted on [YouTube][1] or [Vimeo][2] to the [[!DNL Page Builder] stage](workspace.md#stage). It’s easy to embed video in a page or block or in product and category descriptions.
+Use the _Video_ content type to add a video that is hosted on [YouTube][1] or [Vimeo][2] to the [[!DNL Page Builder] stage](workspace.md#stage). It's easy to embed video in a page or block or in product and category descriptions.
 
-![Video on the storefront home page](./assets/pb-storefront-video.png)<!-- zoom -->
+![Video on the storefront home page](./assets/pb-storefront-video.png){width="700" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
 ## Video toolbox
 
-![Video toolbox](./assets/pb-media-video-toolbox.png)<!-- zoom -->
+![Video toolbox](./assets/pb-media-video-toolbox.png){width="600" zoomable="yes"}
 
 |Tool|Icon|Description|
 |--- |--- |--- |
-|Move|![Move icon](./assets/pb-icon-move.png)<!-- width="25px" -->|Moves the video to another position on the stage.|
+|Move|![Move icon](./assets/pb-icon-move.png){width="25"}|Moves the video to another position on the stage.|
 |(label)|[!UICONTROL Video]|Identifies the current content container as a video. Hover over the image container to see the toolbox.|
-|Settings|![Settings icon](./assets/pb-icon-settings.png)<!-- width="25px" -->|Opens the _[!UICONTROL Edit Video]_ page, where you can change the properties of the video and container.|
-|Hide|![Hide icon](./assets/pb-icon-hide.png)<!-- width="25px" -->|Hides the current video.|
-|Show|![Show icon](./assets/pb-icon-show.png)<!-- width="25px" -->|Shows the  hidden video.|
-|Duplicate|![Duplicate icon](./assets/pb-icon-duplicate.png)<!-- width="25px" -->|Makes a copy of the video.|
-|Remove|![Remove icon](./assets/pb-icon-remove.png)<!-- width="25px" -->|Deletes the video from the stage.|
+|Settings|![Settings icon](./assets/pb-icon-settings.png){width="25"}|Opens the _[!UICONTROL Edit Video]_ page, where you can change the properties of the video and container.|
+|Hide|![Hide icon](./assets/pb-icon-hide.png){width="25"}|Hides the current video.|
+|Show|![Show icon](./assets/pb-icon-show.png){width="25"}|Shows the  hidden video.|
+|Duplicate|![Duplicate icon](./assets/pb-icon-duplicate.png){width="25"}|Makes a copy of the video.|
+|Remove|![Remove icon](./assets/pb-icon-remove.png){width="25"}|Deletes the video from the stage.|
 
 {style="table-layout:auto"}
+
+{{$include /help/_includes/page-builder-hidden-element-note.md}}
 
 ## Add a video
 
@@ -37,9 +40,9 @@ Use the _Video_ content type to add a video that is hosted on [YouTube][1] or [V
 
 1. In the [!DNL Page Builder] panel, expand **[!UICONTROL Media]** and drag a **[!UICONTROL Video]** placeholder to the stage.
 
-   ![Dragging a video placeholder to the stage](./assets/pb-media-video-drag.png)<!-- zoom -->
+   ![Dragging a video placeholder to the stage](./assets/pb-media-video-drag.png){width="600" zoomable="yes"}
 
-1. Hover over the video container to display the toolbox and choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon.
+1. Hover over the video container to display the toolbox and choose the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png){width="20"} ) icon.
 
 1. For **[!UICONTROL Video URL]**, paste the URL of the video that you copied.
 
@@ -53,7 +56,7 @@ Use the _Video_ content type to add a video that is hosted on [YouTube][1] or [V
 
 ## Change video settings
 
-1. Hover over the video container to display the toolbox and choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon.
+1. Hover over the video container to display the toolbox and choose the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png){width="20"} ) icon.
 
 1. Modify the settings according to the following sections:
 
@@ -118,7 +121,7 @@ Use the _Video_ content type to add a video that is hosted on [YouTube][1] or [V
 
 - If you set a border style other than `None`, complete the border display options:
 
-   ![Border Color](./assets/pb-settings-border-color.png)<!-- zoom -->
+   ![Border Color](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
    | Option | Description |
    | ------ |------------ |
@@ -145,13 +148,13 @@ Use the _Video_ content type to add a video that is hosted on [YouTube][1] or [V
 
 ## Move a video
 
-1. Hover over the video container to display the toolbox and choose the _Move_ (![Move icon](./assets/pb-icon-move.png)) icon.
+1. Hover over the video container to display the toolbox and choose the _Move_ ( ![Move icon](./assets/pb-icon-move.png){width="20"} ) icon.
 
-   ![Moving a video](./assets/pb-media-video-toolbox-move-col1.png)<!-- zoom -->
+   ![Moving a video](./assets/pb-media-video-toolbox-move-col1.png){width="500" zoomable="yes"}
 
 1. Select and drag the video to the new position, just below the red guideline.
 
-   ![Using the red guideline to place the video](./assets/pb-media-video-toolbox-move-col2.png)<!-- zoom -->
+   ![Using the red guideline to place the video](./assets/pb-media-video-toolbox-move-col2.png){width="500" zoomable="yes"}
 
 ## Remove a video from the stage
 

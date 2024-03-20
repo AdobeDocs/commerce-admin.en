@@ -2,6 +2,7 @@
 title: '[!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap]'
 description: Review the configurations settings on the [!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap] page of the Commerce Admin.
 exl-id: 319c34e9-bd5f-46f8-810f-bc4d5228f9c9
+feature: Configuration, Site Navigation
 ---
 # [!UICONTROL Catalog] > [!UICONTROL XML Sitemap]
 
@@ -18,7 +19,7 @@ exl-id: 319c34e9-bd5f-46f8-810f-bc4d5228f9c9
 |[!UICONTROL Frequency]|Store View|Determines how often sitemap categories are updated. Options: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never`|
 |[!UICONTROL Priority]|Store View|A value between `0.0` and `1.0` that determines the priority of category sitemap updates in relation to other content. Zero (`0.0`) has the lowest priority.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Products Options]
 
@@ -32,7 +33,7 @@ exl-id: 319c34e9-bd5f-46f8-810f-bc4d5228f9c9
 |[!UICONTROL Priority]|Store View|A value between `0.0` and `1.0` that determines the priority of product sitemap updates in relation to other content. Zero (`0.0`) has the lowest priority.|
 |[!UICONTROL Add Images into Sitemap]|Store View|Determines the extent that images are included in the sitemap. Options: `None` / `Base Only` / `All`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL CMS Pages Options]
 
@@ -45,7 +46,7 @@ exl-id: 319c34e9-bd5f-46f8-810f-bc4d5228f9c9
 |[!UICONTROL Frequency]|Store View|Determines how often sitemap CMS pages are updated. Options: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never`|
 |[!UICONTROL Priority]|Store View|A value between `0.0` and `1.0` that determines the priority of CMS page sitemap updates in relation to other content. Zero (`0.0`) has the lowest priority.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Store Url Options]
 
@@ -54,7 +55,7 @@ exl-id: 319c34e9-bd5f-46f8-810f-bc4d5228f9c9
 |[!UICONTROL Frequency]|Store View|Determines how often store URLs are updated. Options: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never`|
 |[!UICONTROL Priority]|Store View|A value between `0.0` and `1.0` that determines the priority of store URL updates in relation to other content. Zero (`0.0`) has the lowest priority.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Generation Settings]
 
@@ -71,7 +72,7 @@ exl-id: 319c34e9-bd5f-46f8-810f-bc4d5228f9c9
 |[!UICONTROL Error Email Sender]|Website|Identifies the store contact that appears as the sender of the error notification. Options: `General Contact` / `Sales Representative` / `Customer Support` / `Custom Email 1` / `Custom Email 2`|
 |[!UICONTROL Error Email Template]|Website|Identifies the email template that is used for the error notification. Default template: `Sitemap generate Warnings`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Sitemap File Limits]
 
@@ -84,7 +85,7 @@ exl-id: 319c34e9-bd5f-46f8-810f-bc4d5228f9c9
 |[!UICONTROL Maximum No of URLs Per File]|Store View|Determines the maximum number of URLs that can be included in a single sitemap.|
 |[!UICONTROL Maximum File Size]|Store View|Determines the maximum size of the generated sitemap, in bytes.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Search Engine Submission Settings]
 
@@ -96,4 +97,4 @@ exl-id: 319c34e9-bd5f-46f8-810f-bc4d5228f9c9
 |--- |--- |--- |
 |[!UICONTROL Enable Submission to Robots.txt]|Store View|Enables directives to be submitted for the robots.txt file. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

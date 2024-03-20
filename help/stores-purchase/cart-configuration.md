@@ -2,6 +2,7 @@
 title: Cart configuration
 description: Learn about the shopping cart features that you can configure to support the purchase experience on your store.
 exl-id: b98ec7ce-9354-4f03-b67e-dd1587f0c866
+feature: Shopping Cart, Configuration
 ---
 # Cart configuration
 
@@ -32,7 +33,7 @@ The cart configuration determines how the shopping cart functions for your store
 The _mini cart_ displays a summary of items in the cart. It is enabled by default, and appears when you click the Cart link at the top of the page.
 The link can be configured to display the number of different products (or SKUs) in the cart, or the total quantity of all items.
 
-![The shopper displays the shopping cart sidebar from a product page](./assets/storefront-mini-cart-watch.png)<!-- zoom -->
+![The shopper displays the shopping cart sidebar from a product page](./assets/storefront-mini-cart-watch.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -46,7 +47,7 @@ The link can be configured to display the number of different products (or SKUs)
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the _[!UICONTROL Mini Cart]_ section.
 
-   ![Configuring the mini cart](../configuration-reference/sales/assets/checkout-mini-cart.png)<!-- zoom -->
+   ![Configuring the mini cart](../configuration-reference/sales/assets/checkout-mini-cart.png){width="600" zoomable="yes"}
 
 1. If the setting is for a specific store view, [choose the store view](../configuration-reference/scope-change.md#set-the-scope) where the configuration applies.
 
@@ -77,7 +78,7 @@ The link can be configured to display the number of different products (or SKUs)
    - `Display item quantities` - This setting displays the total number of products in the cart, adding the quantities for each product.
    - `Display number of items in cart` - This setting displays the number of product items in the cart, regardless of quantity.
 
-   ![Configuration options for My Cart Link](../configuration-reference/sales/assets/checkout-my-cart-link.png)<!-- zoom -->
+   ![Configuration options for My Cart Link](../configuration-reference/sales/assets/checkout-my-cart-link.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Save Config]**.
 
@@ -93,7 +94,7 @@ The shopping cart page can be configured to appear whenever an item is added to 
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Shopping Cart]** section.
 
-   ![The shopping cart configuration settings expanded on the page](../configuration-reference/sales/assets/checkout-shopping-cart.png)<!-- zoom -->
+   ![The shopping cart configuration settings expanded on the page](../configuration-reference/sales/assets/checkout-shopping-cart.png){width="600" zoomable="yes"}
 
 1. If the setting is for a specific store view, [choose the store view](../configuration-reference/scope-change.md#set-the-scope) where the configuration applies.
 
@@ -120,7 +121,7 @@ You can determine how long a price is valid by setting the cart quote lifetime i
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Shopping Cart]** section.
 
-   ![The shopping cart configuration settings expanded on the page](../configuration-reference/sales/assets/checkout-shopping-cart.png)<!-- zoom -->
+   ![The shopping cart configuration settings expanded on the page](../configuration-reference/sales/assets/checkout-shopping-cart.png){width="600" zoomable="yes"}
 
 1. If the setting is for a specific store view, [choose the store view](../configuration-reference/scope-change.md#set-the-scope) where the configuration applies.
 
@@ -134,7 +135,7 @@ You can determine how long a price is valid by setting the cart quote lifetime i
 
 The configuration allows you to specify a minimum amount, after discounts are applied, that order subtotals are required to meet. Orders shipped to multiple address can be required to meet the minimum order amount per address. The Checkout button becomes available only after the minimum order amount is reached.
 
-![The shopping cart displays a minimum order message](./assets/storefront-cart-minimum-order-amount.png)<!-- zoom -->
+![The shopping cart displays a minimum order message](./assets/storefront-cart-minimum-order-amount.png){width="700" zoomable="yes"}
 
 **_To configure a minimum order amount:_**
 
@@ -144,7 +145,7 @@ The configuration allows you to specify a minimum amount, after discounts are ap
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Minimum Order Amount]** section.
 
-   ![The minimum order configuration options expanded on the page](../configuration-reference/sales/assets/sales-minimum-order-amount.png)<!-- zoom -->
+   ![The minimum order configuration options expanded on the page](../configuration-reference/sales/assets/sales-minimum-order-amount.png){width="600" zoomable="yes"}
 
 1. To require a minimum order amount, set **[!UICONTROL Enable]** to `Yes`.
 
@@ -194,7 +195,7 @@ You can set the minimum quantity allowed for an order. The minimum quantity can 
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Product Stock Options]** section.
 
-   ![Product Stock Options](../configuration-reference/catalog/assets/catalog-inventory-product-stock-options.png)<!-- zoom -->
+   ![Product Stock Options](../configuration-reference/catalog/assets/catalog-inventory-product-stock-options.png){width="600" zoomable="yes"}
 
 1. For **[!UICONTROL Minimum Qty Allowed in Shopping Cart]**, set the minimum quantity of the product for an order.
 
@@ -206,7 +207,7 @@ You can set the minimum quantity allowed for an order. The minimum quantity can 
 
 1. Click **[!UICONTROL Save Config]**.
 
-   ![Minimum quantity requirement in shopping cart](./assets/minimum-qty-allowed-in-shopping-cart.png)<!-- zoom -->
+   ![Minimum quantity requirement in shopping cart](./assets/minimum-qty-allowed-in-shopping-cart.png){width="700" zoomable="yes"}
 
 ## Cart thumbnails
 
@@ -216,7 +217,7 @@ The thumbnail images displayed in the cart give customers a quick overview of th
 
 The thumbnail image for both grouped and configurable products can be set to display the image from either the "parent" product or from the product variation.
 
-![The shopping cart displays thumbnail images for each product](./assets/storefront-cart.png)<!-- zoom -->
+![The shopping cart displays thumbnail images for each product](./assets/storefront-cart.png){width="700" zoomable="yes"}
 
 **_To configure cart thumbnails:_**
 
@@ -226,7 +227,7 @@ The thumbnail image for both grouped and configurable products can be set to dis
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Shopping Cart]** section.
 
-   ![The shopping cart configuration settings expanded on the page](../configuration-reference/sales/assets/checkout-shopping-cart.png)<!-- zoom -->
+   ![The shopping cart configuration settings expanded on the page](../configuration-reference/sales/assets/checkout-shopping-cart.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Grouped Product Image]** to determine the thumbnail that is used in the cart for [grouped products](../catalog/product-create-grouped.md):
 
@@ -244,7 +245,7 @@ The thumbnail image for both grouped and configurable products can be set to dis
 
 The selection of available gift options appears in the cart before the checkout process begins. The gift options configuration determines if customers can add a gift message or greeting card, and if gift-wrapping options are available. Each item in the order can have a separate message and gift wrapping. When applied to the entire order, customers can also add a gift receipt and greeting card.
 
-![Example storefront - Gift options in shopping cart](./assets/storefront-cart-gift-options-for-products-or-order.png)<!-- zoom -->
+![Example storefront - Gift options in shopping cart](./assets/storefront-cart-gift-options-for-products-or-order.png){width="700" zoomable="yes"}
 
 The Gift Options configuration applies to the entire website, but can be overridden at the product level.
 
@@ -256,7 +257,7 @@ The Gift Options configuration applies to the entire website, but can be overrid
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) **[!UICONTROL Gift Options]** on the page.
 
-   ![Sales configuration - Gift Options settings](../configuration-reference/sales/assets/sales-gift-options.png)<!-- zoom -->
+   ![Sales configuration - Gift Options settings](../configuration-reference/sales/assets/sales-gift-options.png){width="600" zoomable="yes"}
 
 1. Set the gift message options according to your preference:
 
@@ -286,17 +287,15 @@ Gift wrapping is available for any product that can be shipped, and can be offer
 
 The gift wrap image should be a swatch that shows the repeating pattern, and can also include a sample of the ribbon that is to be used. You can either scan the paper, or take a photograph of a wrapped package. The uploaded image can be a GIF, JPG, or PNG image, and should be square. In the following example, the uploaded gift wrap image is 230 x 230 pixels.
 
-![Gift options in cart](./assets/storefront-cart-gift-options-gift-wrap.png)<!-- zoom -->
+![Gift options in cart](./assets/storefront-cart-gift-options-gift-wrap.png){width="700" zoomable="yes"}
 
 #### Add a gift wrap design
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_ > **[!UICONTROL Gift Wrapping]**.
 
-   ![Gift Wrapping grid](./assets/gift-wrapping.png)<!-- zoom -->
+   ![Gift Wrapping grid](./assets/gift-wrapping.png){width="700" zoomable="yes"}
 
 1. In the upper-right corner, click **[!UICONTROL Add Gift Wrapping]**.
-
-   ![New Gift Wrapping](./assets/gift-wrapping-new.png)<!-- zoom -->
 
 1. Enter the name for the **[!UICONTROL Gift Wrapping Design]** to appear during checkout.
 
@@ -306,15 +305,17 @@ The gift wrap image should be a swatch that shows the repeating pattern, and can
 
 1. Set **[!UICONTROL Status]** to `Enabled`.
 
-   If you have seasonal wrapping option, you can set this to `Disabled` when you do not want the option to be available.
+   If you have seasonal wrapping option, you can set it to `Disabled` when you do not want the option to be available.
 
 1. Enter the **[!UICONTROL Price]** of the gift wrap design.
 
    This setting can be overridden by the gift wrap price set at the product level.
 
+   ![New Gift Wrapping](./assets/gift-wrapping-new.png){width="600" zoomable="yes"}
+
 1. To upload a thumbnail **[!UICONTROL Image]** of the gift wrapping, click **[!UICONTROL Choose File]** and select the file to upload from your directory.
 
-   A thumbnail of the image appears in the Gift Wrapping Information after the record is saved.
+   A thumbnail of the image appears in the _[!UICONTROL Gift Wrapping Information]_ after the record is saved.
 
 1. Click **[!UICONTROL Save]**.
 
@@ -326,7 +327,7 @@ The gift wrap image should be a swatch that shows the repeating pattern, and can
 
 1. In the _Action_ column, click **[!UICONTROL Edit]**.
 
-   ![Edit gift wrapping information](./assets/gift-wrapping-edit.png)<!-- zoom -->
+   ![Edit gift wrapping information](./assets/gift-wrapping-edit.png){width="600" zoomable="yes"}
 
 1. Make the necessary changes.
 
@@ -366,13 +367,13 @@ Gift wrapping and printed gift card prices can be configured to include or exclu
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Tax Classes]** section.
 
-   ![Tax class configuration](../configuration-reference/sales/assets/tax-tax-classes.png)<!-- zoom -->
+   ![Tax class configuration](../configuration-reference/sales/assets/tax-tax-classes.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Tax Class for Gift Options]** to the applicable tax class.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Orders, Invoices, Credit Memos Display Settings]** section.
 
-   ![Orders, invoices, credit memos display settings](../configuration-reference/sales/assets/tax-orders-invoices-credit-memos-display-settings.png)<!-- zoom -->
+   ![Orders, invoices, credit memos display settings](../configuration-reference/sales/assets/tax-orders-invoices-credit-memos-display-settings.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Display Gift Wrapping Prices]** to one of the following:
 

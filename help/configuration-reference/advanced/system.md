@@ -2,6 +2,8 @@
 title: '[!UICONTROL Advanced] &gt; [!UICONTROL System]'
 description: Review the configurations settings on the [!UICONTROL Advanced] &gt; [!UICONTROL System] page of the Commerce Admin.
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
+role: Admin, Developer
+feature: Configuration, System
 ---
 # [!UICONTROL Advanced] > [!UICONTROL System]
 
@@ -27,7 +29,7 @@ For more information about changing these configuration settings, see [Cron (sch
 |[!UICONTROL Failure History Lifetime]|Global|Determines the number of minutes that the record of failed cron jobs is kept in the database.|
 |[!UICONTROL Use Separate Process]|Global|Determines if cron jobs are executed in parallel as separate processes. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ### [!UICONTROL default]
 
@@ -43,7 +45,7 @@ For more information about changing these configuration settings, see [Cron (sch
 |[!UICONTROL Failure History Lifetime]|Global|Determines the number of minutes that the record of failed cron jobs is kept in the database.|
 |[!UICONTROL Use Separate Process]|Global|Determines if cron jobs are executed in parallel as separate processes. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL MySQL Message Queue Cleanup]
 
@@ -58,7 +60,7 @@ For more information about changing these configuration settings, see [Cron (sch
 |[!UICONTROL Failed Messages Lifetime]|Global|Determines the lifetime of failed messages in minutes. Enter zero to skip the cleanup. Default: `10080` (7 days)|
 |[!UICONTROL Retry Messages in Progress After]|Global|Determines how long the system waits for a message in progress before retrying. Default: `1440` (24 hours)|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Mail Sending Settings]
 
@@ -68,17 +70,32 @@ For more information about changing these settings, see [Configure email communi
 
 >[!IMPORTANT]
 >
->**Security Notice** We recommend that all merchants immediately set their mail sending configuration to protect against a recently identified potential remote code execution exploit. Until this issue is resolved, we highly recommend that you avoid using [!DNL Sendmail] for email communications. In the [!UICONTROL Mail Sending Settings], make sure that [!UICONTROL Set Return Path] is set to `No`.
+>**Security Notice** We recommend that all merchants immediately set their mail sending configuration to protect against a recently identified potential remote code execution exploit. Until this issue is resolved, it is highly recommended that you avoid using [!DNL Sendmail] for email communications. In the [!UICONTROL Mail Sending Settings], make sure that [!UICONTROL Set Return Path] is set to `No`.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |[!UICONTROL Disable Email Communications]|Store View|Determines if email communications are activated for the store. Options: `Yes` / `No`|
-|[!UICONTROL Host]|Store View|(For Windows server only) Determines the name that is used to refer to the host. Default value: `localhost`|
-|[!UICONTROL Port (25)]|Store View|(For Windows server only) Identifies the port used for email communications. Default value: `25`|
+|[!UICONTROL Transport] |Store View| Determines the transport type for email communications from the store. Options: `Sendmail` / `SMTP` |
+|[!UICONTROL Host]|Store View|(For SMTP and Windows servers only) Determines the name that is used to refer to the host. Default value: `localhost`|
+|[!UICONTROL Port (25)]|Store View|(For SMTP and Windows servers only) Identifies the port used for email communications. Default value: `25`|
 |[!UICONTROL Set Return-Path]|Store View|Determines if a routing address is used for returned emails. Options: `No` / `Yes` / `Specified`|
-|[!UICONTROL Return-Path Email]|Global|Specifies the routing email address for returned emails.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
+
+### SMTP options
+
+When you select SMTP at the transport type, additional options are available to configure the SMTP server connection.
+
+![Advanced configuration - Mail Sending Settings with SMTP](./assets/system-mail-sending-settings-smtp.png)<!-- zoom -->
+
+|Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
+|--- |--- |--- |
+|[!UICONTROL Username] | Store View | Login user name for the SMTP server. |
+|[!UICONTROL Password] | Store View | Password for the SMTP server login. |
+|[!UICONTROL Auth] | Store View | Determines th authentication type for the SMTP server connection. Options: `NONE` / `PLAIN` / `LOGIN` |
+|[!UICONTROL SSL] | Store View | Determines verification type for the host security certificate. Options: `SSL` / `TLS` |
+
+{style="table-layout:auto"}
 
 ## [!UICONTROL Currency]
 
@@ -90,7 +107,7 @@ For more information about changing this setting, see [Currency configuration](.
 |--- |--- |--- |
 |[!UICONTROL Installed Currencies]|Global|Indicates the currencies that are currently available to the Commerce installation. Options include all available currencies, with installed currencies selected.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Security]
 
@@ -103,7 +120,7 @@ For more information about changing these settings, see [Session management](../
 |[!UICONTROL Max Session Size in Admin]|Global|Limit the maximum session size in bytes. Use `0` to disable.|
 |[!UICONTROL Max Session Size in Storefront]|Global|Limit the maximum session size in bytes. Use `0` to disable.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Notifications]
 
@@ -117,25 +134,26 @@ For more information about changing these settings, see [System notifications](.
 |Update Frequency|Global|Determines the frequency of Admin message updates. Options: `1 Hour` / `2 Hours` / `6 Hours` / `12 Hours` / `24 Hours`|
 |[!UICONTROL Last Update]|Global|Indicates the date and time of the last message update.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
-## [!UICONTROL Scheduled Backup Settings]
+## [!UICONTROL Backup Settings]
 
-![Advanced configuration - Scheduled Backup Settings](./assets/system-scheduled-backup-settings.png)<!-- zoom -->
-
-For more information about changing these settings, see [System backups](../../systems/backups.md) in the _Admin Systems Guide_.
+![Advanced configuration - Backup Settings](./assets/system-scheduled-backup-settings.png)<!-- zoom -->
 
 {{$include /help/_includes/backups-note.md}}
 
+For more information about changing these settings, see [System backups](../../systems/backups.md) in the _Admin Systems Guide_.
+
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|[!UICONTROL Enable Scheduled Backup]|Global|Determines if the Commerce instance is automatically backed up on a regular schedule. Options: `Yes` / `No`|
-|[!UICONTROL Backup Type]|Global|Determines the elements of the Commerce instance that are included in the backup. Options: `Database` / `Database and Media` / `System` / `System (excluding Media)`|
-|[!UICONTROL Start Time]|Global|Specifies the hour, minute, and second that the scheduled backup begins.|
-|[!UICONTROL Frequency]|Global|Determines how often the scheduled backup takes place. Options: `Daily` / `Weekly` / `Monthly`|
-|[!UICONTROL Maintenance Mode]|Global|Determines if the store is put in maintenance mode during the scheduled backup. Options: `Yes` / `No`|
+|[!UICONTROL Enable Backup]|Global|Determines if the Commerce instance allows backups. Options: `Yes` / `No`|
+|[!UICONTROL Enable Scheduled Backup]|Global|(Displayed when _[!UICONTROL Enable Backup]_ is set to `Yes`.) Determines if the Commerce instance is automatically backed up on a regular schedule. Options: `Yes` / `No`|
+|[!UICONTROL Scheduled Backup Type]|Global|(Displayed when _[!UICONTROL Enable Scheduled Backup]_ is set to `Yes`.) Determines the elements of the Commerce instance that are included in the backup. Options: `Database` / `Database and Media` / `System` / `System (excluding Media)`|
+|[!UICONTROL Start Time]|Global|(Displayed when [!UICONTROL Enable Scheduled Backup] is set to `Yes`.) Specifies the hour, minute, and second that the scheduled backup begins.|
+|[!UICONTROL Frequency]|Global|(Displayed when [!UICONTROL Enable Scheduled Backup] is set to `Yes`.) Determines how often the scheduled backup takes place. Options: `Daily` / `Weekly` / `Monthly`|
+|[!UICONTROL Maintenance Mode]|Global|(Displayed when [!UICONTROL Enable Scheduled Backup] is set to `Yes`.) Determines if the store is put in maintenance mode during the scheduled backup. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Admin Actions Log Archiving]
 
@@ -150,9 +168,11 @@ For more information about changing these settings, see [Action log archive](../
 |[!UICONTROL Log Entry Lifetime, Days]|Store View|Determines the number of days that admin actions are kept in the Admin Actions archive. Default: `60`|
 |[!UICONTROL Log Archiving Frequency]|Store View|Determines how often the Admin Actions logs are archived. Options: `Daily` / `Weekly` / `Monthly`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Full Page Cache]
+
+{{beta2-patches-updates}}
 
 ![Advanced configuration - Full Page Cache](./assets/system-full-page-cache.png)<!-- zoom -->
 
@@ -174,7 +194,7 @@ For more information about changing these settings, see [Full-page caching](../.
 |[!UICONTROL Export VCL for Varnish 5]|Global|Exports the `varnish.vcl` file for version 5.|
 |[!UICONTROL Export VCL for Varnish 6]|Global|Exports the `varnish.vcl` file for version 6.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Storage Configuration for Media]
 
@@ -187,7 +207,7 @@ For more information about changing these settings, see [Use a Media Database](.
 |[!UICONTROL Media Storage]|Global|Determines the method used to store media files. Default setting: `File System`|
 |[!UICONTROL Environment Update Time]|Global|Determines the frequency of the media file environment updates in seconds. Default value: `3600`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ![Advanced configuration - Storage Configuration for Media - Database](./assets/database-storage-deprecated.png)<!-- zoom -->
 
@@ -202,7 +222,7 @@ For more information about changing these settings, see [Use a Media Database](.
 |[!UICONTROL Synchronize]||Synchronizes the transfer of all media to the specified database location.|
 |Environment Update Time|Global|Determines the frequency of the media file environment updates in seconds. Default value: `3600`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Bulk Actions]
 
@@ -216,7 +236,7 @@ For more information about changing these settings, see [Bulk actions](../../sys
 |--- |--- |--- |
 |[!UICONTROL Days Saved in Log]|Global|Determines the number of days that bulk actions are kept in the _Bulk Actions Log_ archive. Default: `60`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Scheduled Import/Export File History Cleaning]
 
@@ -237,7 +257,7 @@ For more information about changing these settings, see [Scheduled import and ex
 |[!UICONTROL Error Email Sender]|Global|Identifies the store contact that appears as the sender of the notification. Default sender: `General Contact`|
 |[!UICONTROL Error Email Template]|Global|Identifies the email template that is used for the import/export file cleaning-error notification. Default template: `File History Clean Failed`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Image Upload Configuration]
 
@@ -247,12 +267,12 @@ For more information about changing these settings, see [Scheduled import and ex
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|[!UICONTROL Quality]|Global|Determines the JPG quality for the resized image. Lower quality reduces the file size. We recommend 80-90% to help reduce file size with high quality. Default: `80`|
+|[!UICONTROL Quality]|Global|Determines the JPG quality for the resized image. Lower quality reduces the file size. Use 80-90% to help reduce file size with high quality. Default: `80`|
 |[!UICONTROL Enable Frontend Resize]|Global|Enable this setting to allow Commerce to resize large, oversized images you may upload for the _Product Details_ page. Commerce resizes the image files using JavaScript before uploading the file. When the image is resized, it keeps the exact proportions to meet and not exceed the largest size for Maximum Width or Maximum Height. Default: `Yes`|
 |[!UICONTROL Maximum Width]|Global|Determines the maximum pixel width for the image. When the image is resized, it does not exceed this width. Default: `1920`|
 |[!UICONTROL Maximum Height]|Global|Determines the maximum pixel height for the image. When the image is resized, it does not exceed this height. Default: `1200`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Media Gallery]
 
@@ -262,7 +282,7 @@ For more information about changing these settings, see [Scheduled import and ex
 |--- |--- |--- |
 |[!UICONTROL Enable Old Media Gallery]|Global|Enables or disables the old Media Gallery.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Media Gallery Image Optimization]
 
@@ -274,7 +294,7 @@ For more information about changing these settings, see [Scheduled import and ex
 |[!UICONTROL Maximum Width]|Global|The maximum width (in pixels) for images inserted from Media Gallery into the content.|
 |[!UICONTROL Maximum Height]|Global|The maximum height (in pixels) for images inserted from Media Gallery into the content.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Adobe Stock Integration]
 
@@ -289,4 +309,4 @@ For more information about configuring these settings, see [Adobe Stock Integrat
 |[!UICONTROL Client Secret]|Global|The Client Secret for your Adobe Stock integration is required.|
 |[!UICONTROL Test Connection]||Runs a test to verify that the API key is valid for use with the Adobe Stock service.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

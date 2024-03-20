@@ -1,9 +1,10 @@
 ---
-title: Enable Inventory Management
+title: "Enable [!DNL Inventory Management]"
 description: Learn how to enable [!DNL Inventory Management] at the global store or product level.
 exl-id: 89bd2f8b-b9e4-4b9a-b729-f7bd71f764c9
+feature: Inventory, Configuration
 ---
-# Enable Inventory Management
+# Enable [!DNL Inventory Management]
 
 To manage your product inventory, enable [!DNL Inventory Management] at the global store or product level. When the _Manage Stock_ option is enabled, [!DNL Inventory Management] automatically tracks product quantities available for the site through configured stocks and sources. Every feature and option begins tracking and reporting when enabled, without additional configuration.
 
@@ -29,7 +30,7 @@ With [!DNL Inventory Management] enabled, see the following to configure all set
 
 - [Configuring Product Options](product-options.md) - Settings for a specific product that override global options.
 
-## Enable or Disable Inventory Management
+## Enable or disable [!DNL Inventory Management]
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -37,7 +38,7 @@ With [!DNL Inventory Management] enabled, see the following to configure all set
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) _Product Stock Options_ and configure:
 
-   ![Product Stock Options](assets/config-catalog-inventory-product-stock-options.png)
+   ![Product Stock Options](assets/config-catalog-inventory-product-stock-options.png){width="600" zoomable="yes"}
 
    - To manage inventory and use all [!DNL Commerce] features, set **[!UICONTROL Manage Stock]** to `Yes` (default).
 

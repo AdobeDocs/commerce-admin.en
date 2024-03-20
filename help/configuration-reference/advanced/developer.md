@@ -2,6 +2,8 @@
 title: '[!UICONTROL Advanced] &gt; [!UICONTROL Developer]'
 description: Review the configurations settings on the [!UICONTROL Advanced] &gt; [!UICONTROL Developer] page of the Commerce Admin.
 exl-id: 2ef4ba6a-b5a5-419d-8d61-e535e3366370
+role: Admin, Developer
+feature: Site Management, Configuration, System
 ---
 # [!UICONTROL Advanced] > [!UICONTROL Developer]
 
@@ -21,7 +23,7 @@ For more information about changing these settings, see [Frontend development wo
 |--- |--- |--- |
 |[!UICONTROL Workflow Type]|Global|Determines if Less compilation takes place on the client or server side during development. Options: <br/>**`Client side less compilation`** - Compilation takes place in the browser using the native less.js library. <br/>**`Server side less compilation`** - Compilation takes place on the server using the Less PHP library. This is the default mode for production.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Developer Client Restrictions]
 
@@ -33,7 +35,7 @@ For more information about changing this setting, see [Client restrictions](../.
 |--- |--- |--- |
 |[!UICONTROL Allow IPs (comma separated)]|Store View|Creates an allowlist of IP addresses that  can use developer tools on a live site, without interfering with customers in the store. Any changes to the site when using a developer tool such  as _Inline Translation_, are visible only from the IP addresses on the allowlist.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Template Settings]
 
@@ -46,7 +48,7 @@ For more information about changing these settings, see [Optimizing resource fil
 |[!UICONTROL Allow Symlinks]|Store View|Enabling [symbolic links](https://en.wikipedia.org/wiki/Symbolic_link) can expose your site to security risks and is not recommended for a production store.|
 |[!UICONTROL Minify Html]|Store View|Determines if the HTML for store templates is minimized. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Debug]
 
@@ -60,7 +62,7 @@ For more information about changing these settings, see [Template path hints](..
 |[!UICONTROL Enable Template Path Hints for Admin]|Global|Adds notation to the Admin that indicates the path to each template that is used on the page. Options: `Yes` / `No`|
 |[!UICONTROL Add Block Class Type to Hints]|Store View|Includes the names of blocks in the template path hints. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Translate Inline]
 
@@ -73,7 +75,7 @@ For more information about changing these settings, see [Translate inline](../..
 |[!UICONTROL Enable for Storefront]|Store View|Activates the Inline Translator for the storefront. The interface text can be edited for each store view. To use the Inline Translator without interfering with the live store, add your IP address to the Developer Client Restrictions allowlist.|
 |[!UICONTROL Enable for Admin]|Global|Activates the Inline Translator for the Admin. Unlike the storefront, the Admin cannot be translated into multiple languages. However, the field labels and other text in the interface can be changed.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL JavaScript Settings]
 
@@ -91,7 +93,7 @@ For more information about changing these settings, see [Optimizing resource fil
 |[!UICONTROL Log JS Errors to Session Storage]|Global|If enabled, can be used by functional tests for reporting. Options: `Yes` / `No`|
 |[!UICONTROL Log JS Errors to Session Storage Key]|Global|Identifies the key that is used to retrieve collected js errors.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL CSS Settings]
 
@@ -105,7 +107,7 @@ For more information about changing these settings, see [Optimizing resource fil
 |[!UICONTROL Minify CSS Files]|Store View|Removes unnecessary characters, spaces, and indentation to reduce the size of the code. Options: `Yes` / `No`|
 |[!UICONTROL Use CSS critical path]|Global|The _CSS critical path_ delivers minified critical CSS inline in `<head>` and defers all non-critical styles that are loaded asynchronously. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Image Processing Settings]
 
@@ -115,7 +117,7 @@ For more information about changing these settings, see [Optimizing resource fil
 |--- |--- |--- |
 |[!UICONTROL Image Adapter]|Global|Specifies the adapter that is used to render images. After changing the adapter setting, flush the catalog images cache. Options: `PHP GD2` / `ImageMagick` <br/><br/>**_Note:_** The ICO file type is supported only by the ImageMagik adapter.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Caching Settings]
 
@@ -125,7 +127,7 @@ For more information about changing these settings, see [Optimizing resource fil
 |--- |--- |--- |
 | [!UICONTROL Cache User Defined Attributes] | Global | When enabled, caches user-defined and system Entity Attribute Value (EAV) attributes. This option may increase performance but also requires additional space for caching. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Static Files Settings]
 
@@ -135,7 +137,7 @@ For more information about changing these settings, see [Optimizing resource fil
 |--- |--- |--- |
 |[!UICONTROL Sign Static Files]|Global|When enabled, adds a digital signature to the URL of static files to make it possible for browsers to detect when a newer version of the file is available. If a file's signature differs from what is stored in the browser's cache, then the newer version of the file is used. Static files that can be signed include JavaScript, CSS, images, and fonts. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Grid Settings]
 
@@ -145,4 +147,4 @@ For more information about changing these settings, see [Optimizing resource fil
 |--- |--- |--- |
 |[!UICONTROL Asynchronous Indexing|Global]|Determines when order processing system entities, such as orders, invoices, shipments, and credit memos, are added to the grid and reindexed. Asynchronous Indexing can be used to avoid locks on data during save operations, and to reduce processing time. Options: <br/>**`Disable`** - (Default) Order-related entities are added to the grid at various times. as they are saved. <br/>**`Enable`** - Order-related entities are added to the grid only during a scheduled cron job. Cron should be configured to run once every minute.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

@@ -1,9 +1,10 @@
 ---
-title: Manage Inventory Quantities
+title: Manage inventory quantities
 description: Learn how to assign sources and quantities for new products or change existing products.
 exl-id: b3d4a4c0-725a-4e62-854f-efb6a5709f73
+feature: Inventory, Products
 ---
-# Manage Inventory Quantities
+# Manage inventory quantities
 
 The following information details how to assign sources and quantities for new products or change existing products.
 
@@ -19,7 +20,7 @@ Single- and multi-source merchants can update sources, inventory quantities, and
 
 When adding sources and quantities to your products, you can view the amounts through the Product Grid. If you have a high number of sources, hover over the _[!UICONTROL Quantity per Source]_ to see the full, scrollable list of sources with current quantities.
 
-![Product quantities per source](assets/inventory-product-quantity.png)
+![Product quantities per source](assets/inventory-product-quantity.png){width="600" zoomable="yes"}
 
 You have the following options to assign inventory to products:
 

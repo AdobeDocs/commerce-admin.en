@@ -2,10 +2,11 @@
 title: Payments overview
 description: Learn about the payment methods and services that are supported natively in Adobe COmmerce and Magento Open Source.
 exl-id: 474bf6df-96e2-4db3-ad3c-1804b5de33b0
+feature: Payments
 ---
 # Payments overview
 
-Adobe Commerce and Magento Open Source support various payment methods and services that you can offer for easier checkout and customer convenience. This includes several offline payment methods, including payment by check or money order, and cash on delivery (COD). There are also native integrations for numerous online payment solutions and gateways, including Braintree as a bundled vendor-developed extension.
+Adobe Commerce and Magento Open Source support various payment methods and services that you can offer for easier checkout and customer convenience. This list includes several offline payment methods, including payment by check or money order, and cash on delivery (COD). There are also native integrations for numerous online payment solutions and gateways, including Braintree as a bundled vendor-developed extension.
 
 >[!TIP]
 >
@@ -23,7 +24,7 @@ Some payment integrations and bundled extensions have been removed in 2.4.x rele
 
    If you have either of these bundled extension enabled and configured, you must update your composer.json file as part of the 2.4.4 upgrade process and to manage extension updates going forward. See [Upgrade modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) in the _Upgrade Guide_ for more information.
 
-- **Worldpay**, **Eway**, **CyberSource**, and **Authorize.Net**: For details about making a secure transition from these payment integrations, see our [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}.
+- **Worldpay**, **Eway**, **CyberSource**, and **Authorize.Net**: For details about making a secure transition from these payment integrations, see the [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}.
 
 ## Offline payment methods
 

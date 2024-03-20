@@ -2,6 +2,7 @@
 title: Hidden categories
 description: Learn how to use hidden categories for internal purposes or to link to a category that is not included in the navigation menu.
 exl-id: 43aa74b3-b4cd-488d-aa58-fa2c468fe3a2
+feature: Catalog Management, Categories
 ---
 # Hidden categories
 
@@ -18,7 +19,7 @@ There are many ways to use hidden categories. You might want to create additiona
 
 1. In the **[!UICONTROL Display Settings]** section, set **[!UICONTROL Anchor]** to `No`.
 
-   ![Hidden category](./assets/hidden-categories.png)<!-- zoom -->
+   ![Hidden category](./assets/hidden-categories.png){width="600" zoomable="yes"}
 
    The hidden category is active, but does not appear in the top menu, or in layered navigation.
 

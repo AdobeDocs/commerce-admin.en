@@ -1,13 +1,15 @@
 ---
-title: Company Roles and Permissions
-description: Learn about roles and permissions for company users, allowing for various levels access to order information and resources.
+title: Company roles and permissions
+description: Learn about roles and permissions that a company administrator can apply to company users, allowing for various levels access to order information and resources.
 exl-id: 9fe20d6a-2c9c-4618-a395-805d64dcf0de
+feature: B2B, Companies, Roles/Permissions
+role: Admin
 ---
 # Company Roles and Permissions
 
 Roles for company users are set up with various levels of permission to access sales information and resources. By default, the company administrator is a _super user_ with full permissions. The [Access Denied](../content-design/pages.md#access-denied) page appears if the user does not have permission to access the page.
 
-![Roles and Permissions page with default role](./assets/company-roles-permissions.png)<!-- zoom -->
+![Roles and Permissions page with default role](./assets/company-roles-permissions.png){width="700" zoomable="yes"}
 
 The system has one predefined Default User role, which you can use _as is_ or modify to suit your needs. You can create as many roles as necessary to match your company structure and organizational responsibilities, such as the following:
 
@@ -29,7 +31,7 @@ The system has one predefined Default User role, which you can use _as is_ or mo
 
 1. Clicks **[!UICONTROL Add New Role]**.
 
-   ![Add New Role](./assets/company-roles-permissions-add-storefront.png)<!-- zoom -->
+   ![Add New Role](./assets/company-roles-permissions-add-storefront.png){width="600" zoomable="yes"}
 
 1. Enters a descriptive **[!UICONTROL Role Name]**.
 
@@ -37,7 +39,7 @@ The system has one predefined Default User role, which you can use _as is_ or mo
 
    - Selects the checkbox of each resource or activity that users assigned the role have permission to access.
 
-   - Selects the **[!UICONTROL All]** checkbox. Then, clears the checkbox of each resource or activity that users assigned to the role do not have permission to access.
+   - Selects the **[!UICONTROL All]** checkbox and clears the checkbox of each resource or activity that users assigned to the role do not have permission to access.
 
 1. Clicks **[!UICONTROL Save Role]**.
 
@@ -79,7 +81,7 @@ The system has one predefined Default User role, which you can use _as is_ or mo
 
 {style="table-layout:auto"}
 
-## Role Permissions
+## Role permissions
 
 - All
    - Sales
@@ -99,7 +101,7 @@ The system has one predefined Default User role, which you can use _as is_ or mo
    - Auto-approve POs created within this role
    - Approve Purchase Orders without other approvals
    - View Approval Rules
-      - Create, Edit and Delete
+      - Create, Edit, and Delete
 - Company Profile
    - Account Information (View)
       - Edit
@@ -124,12 +126,12 @@ After defining the roles that are needed, the company administrator assigns a ro
 
 1. In the left panel, chooses **[!UICONTROL Company Users]**.
 
-   ![Company Users](./assets/company-users-list-storefront.png)<!-- zoom -->
+   ![Company Users](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
 
 1. Finds the user in the list and clicks **[!UICONTROL Edit]**.
 
 1. Chooses the appropriate **[!UICONTROL User Role]** for the user.
 
-   ![Edit User - choose a user role](./assets/company-user-assign-role.png)<!-- zoom -->
+   ![Edit User - choose a user role](./assets/company-user-assign-role.png){width="700" zoomable="yes"}
 
 1. Clicks **[!UICONTROL Save]**.

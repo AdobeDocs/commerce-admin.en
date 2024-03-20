@@ -2,12 +2,13 @@
 title: PayPal Payflow Pro
 description: Learn how to set up PayPal Payflow Pro as an online payment solution on your store.
 exl-id: c720b33c-44e1-4954-b5be-38932393a43c
+feature: Payments
 ---
 # PayPal Payflow Pro
 
 PayPal Payflow Pro gateway, formerly known as _Verisign_, is available for customers of the United States, Canada, Australia, and New Zealand. Unlike other PayPal payment methods, merchants are charged a fixed monthly fee, plus a fixed fee for each transaction, regardless of the number.
 
-![Checkout with PayPal](./assets/storefront-cart-paypal.png)<!-- zoom -->
+![Checkout with PayPal](./assets/storefront-cart-paypal.png){width="700" zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -22,7 +23,7 @@ PayPal Payflow Pro gateway, formerly known as _Verisign_, is available for custo
 
 ## Customer workflow
 
-1. **Customer goes to checkout** - During checkout, the customer chooses to pay with PayPal PayFlow Pro, and enters the credit card information. Customers are not required to have personal PayPal accounts. However, depending on the merchant country, customers can also use their personal PayPal account to pay for the order.
+1. **Customer goes to the checkout** - During checkout, the customer chooses to pay with PayPal Payflow Pro, and enters the credit card information. Customers are not required to have personal PayPal accounts. However, depending on the merchant country, customers can also use their personal PayPal account to pay for the order.
 1. **Customer submits order** - The customer submits the order, and the order information is sent to PayPal for processing. The customer does not leave the checkout page of your site.
 1. **PayPal completes the transaction** - Payments are accepted at the time the order is placed. Depending on the payment action specified n the configuration, either a sales order or a sales order and an invoice is created.
 
@@ -110,15 +111,15 @@ This setup method assumes you have an existing PayPal account.
 
    This setting determines the selection of PayPal Solutions that appear in the configuration.
 
-   ![Merchant Country](../configuration-reference/sales/assets/payment-methods-merchant-location.png)<!-- zoom -->
+   ![Merchant Country](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
 1. Expand **[!UICONTROL PayPal Payment Gateways]** (if needed) and click **[!UICONTROL Configure]** for **[!UICONTROL Payflow Pro]**.
 
-   ![Configure - Payflow Pro](./assets/payflow-pro.png)<!-- zoom -->
+   ![Configure - Payflow Pro](./assets/payflow-pro.png){width="600" zoomable="yes"}
 
 ### Step 2: Complete the required PayPal settings
 
-   ![Required Settings - PayPal Payflow Pro](./assets/payflow-pro-required-a.png)<!-- zoom -->
+   ![Required Settings - PayPal Payflow Pro](./assets/payflow-pro-required-a.png){width="600" zoomable="yes"}
 
 1. (Optional) Enter the **[!UICONTROL Email Associated with your PayPal Merchant Account]**.
 
@@ -152,9 +153,9 @@ This setup method assumes you have an existing PayPal account.
 
 1. If you want to securely store customer payment/credit card details, so customers do not have to reenter payment information each time, set **[!UICONTROL Vault Enabled]** to `Yes`.
 
-### Step 3: Set up Advertise PayPal Credit / Advertise PayPal Pay Later (optional)
+### Step 3: Set up Advertise PayPal Credit / Advertise PayPal PayLater (optional)
 
-Starting with the 2.4.3 release, PayPal Pay Later is supported in deployments that include PayPal. This feature allows shoppers to pay for an order in bi-weekly installments instead of paying the full amount at time of purchase. The PayPal Credit experience is deprecated.
+Starting with the 2.4.3 release, PayPal PayLater is supported in deployments that include PayPal. This feature allows shoppers to pay for an order in bi-weekly installments instead of paying the full amount at time of purchase. The PayPal Credit experience is deprecated.
 
 Set **[!UICONTROL Enable PayPal PayLater Experience]** to one of the following:
 
@@ -165,15 +166,15 @@ Set **[!UICONTROL Enable PayPal PayLater Experience]** to one of the following:
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Advertise PayPal Credit]** section.
 
-   ![Advertise PayPal Credit](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png)<!-- zoom -->
+   ![Advertise PayPal Credit](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png){width="600" zoomable="yes"}
 
-1. Click **[!UICONTROL Get Publisher ID from PayPal]** and follow the instructions to get your account information.
+1. To get your account information, click **[!UICONTROL Get Publisher ID from PayPal]** and follow the instructions.
 
 1. Enter your **[!UICONTROL Publisher ID]**.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Home Page]** section.
 
-   ![Advertise PayPal Credit Home Page Settings](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png)<!-- zoom -->
+   ![Advertise PayPal Credit Home Page Settings](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png){width="600" zoomable="yes"}
 
 1. To place a banner on the page, set **[!UICONTROL Display]** to `Yes`.
 
@@ -197,7 +198,7 @@ Set **[!UICONTROL Enable PayPal PayLater Experience]** to one of the following:
    - **[!UICONTROL Catalog Product Page]**
    - **[!UICONTROL Checkout Cart Page]**
 
-#### Advertise PayPal Pay Later
+#### Advertise PayPal PayLater
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Advertise PayPal PayLater]** section.
 
@@ -205,7 +206,7 @@ Set **[!UICONTROL Enable PayPal PayLater Experience]** to one of the following:
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Home Page]** section.
 
-   ![Advertise PayPal Credit Home Page Settings](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png)<!-- zoom -->
+   ![Advertise PayPal Credit Home Page Settings](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png){width="600" zoomable="yes"}
 
 1. To place a banner on the page, set **[!UICONTROL Display]** to `Yes`.
 
@@ -277,15 +278,15 @@ Set **[!UICONTROL Enable PayPal PayLater Experience]** to one of the following:
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Basic Settings - PayPal Payflow Pro]** section.
 
-   ![Basic Settings - PayPal Payflow Pro_](../configuration-reference/sales/assets/payment-methods-paypal-payflow-pro-basic-settings.png)<!-- zoom -->
+   ![Basic Settings - PayPal Payflow Pro_](../configuration-reference/sales/assets/payment-methods-paypal-payflow-pro-basic-settings.png){width="600" zoomable="yes"}
 
-1. Enter a **[!UICONTROL Title]** to identify PayPal Payflow Pro during checkout.
+1. For **[!UICONTROL Title]**, enter a title that identifies PayPal Payflow Pro during checkout.
 
    It is recommended that you use the title _Debit or Credit Card_.
 
 1. If you offer multiple payment methods, enter a number for **[!UICONTROL Sort Order]** to determine the sequence in which Payflow Pro appears when listed with the other payment methods.
 
-   This is relative to the other payment methods. (`0` = first, `1` = second, `2` = third, and so on.)
+   This number is relative to the other payment methods. (`0` = first, `1` = second, `2` = third, and so on.)
 
 1. Set **[!UICONTROL Payment Action]** to one of the following:
 
@@ -304,7 +305,7 @@ Set **[!UICONTROL Enable PayPal PayLater Experience]** to one of the following:
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Advanced Settings]** section.
 
-   ![Advanced Settings - PayPal Payflow Pro](../configuration-reference/sales/assets/payment-methods-paypal-payflow-pro-advanced-settings.png)<!-- zoom -->
+   ![Advanced Settings - PayPal Payflow Pro](../configuration-reference/sales/assets/payment-methods-paypal-payflow-pro-advanced-settings.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Payment Applicable From]** to one of the following:
 
@@ -333,7 +334,7 @@ To determine when a transaction should be rejected when the Address Verification
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL CVV and AVS Settings]** section.
 
-   ![CVV and AVS Settings - PayPal Payflow Pro](./assets/payflow-pro-cvv-avs.png)<!-- zoom -->
+   ![CVV and AVS Settings - PayPal Payflow Pro](./assets/payflow-pro-cvv-avs.png){width="600" zoomable="yes"}
 
 1. To reject a transaction based on a mismatched street mismatch, set **[!UICONTROL AVS Street Does Not Match]** to `Yes`.
 
@@ -347,7 +348,7 @@ To determine when a transaction should be rejected when the Address Verification
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Settlement Report Settings]** section.
 
-   ![Settlement Report Settings - PayPal Payflow Pro](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png)<!-- zoom -->
+   ![Settlement Report Settings - PayPal Payflow Pro](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png){width="600" zoomable="yes"}
 
 1. For **[!UICONTROL SFTP Credentials]**, do the following:
 
@@ -390,7 +391,7 @@ Use the Frontend Experience Settings to choose which PayPal logos appear on your
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Frontend Experience Settings]** section.
 
-   ![Frontend Experience Settings - PayPal Payflow Pro](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png)<!-- zoom -->
+   ![Frontend Experience Settings - PayPal Payflow Pro](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png){width="600" zoomable="yes"}
 
 1. Select the **[!UICONTROL PayPal Product Logo]** that you want to appear in the PayPal block in your store.
 
@@ -426,28 +427,28 @@ Use the Frontend Experience Settings to choose which PayPal logos appear on your
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Basic Settings - PayPal Express Checkout]** section.
 
-   ![Express Checkout Basic Settings](../configuration-reference/sales/assets/payment-methods-paypal-payments-pro-express-checkout-basic-settings.png)<!-- zoom -->
+   ![Express Checkout Basic Settings](../configuration-reference/sales/assets/payment-methods-paypal-payments-pro-express-checkout-basic-settings.png){width="600" zoomable="yes"}
 
-1. Enter a **[!UICONTROL Title]** to identify this payment method during checkout.
+1. For **[!UICONTROL Title]**, enter a title that identifies this payment method during checkout.
 
    Setting the title to _PayPal_ for each store view is recommended.
 
 1. If you offer multiple payment methods, enter a number for **[!UICONTROL Sort Order]** to determine the sequence in which PayPal Express Checkout appears when listed with the other payment methods.
 
-   This is relative to the other payment methods. (`0` = first, `1` = second, `2` = third, and so on.)
+   This number is relative to the other payment methods. (`0` = first, `1` = second, `2` = third, and so on.)
 
 1. Set **[!UICONTROL Payment Action]** to one of the following:
 
    - `Authorization` - Approves the purchase and puts a hold on the funds. The amount is not withdrawn until it is _captured_ by the merchant.
    - `Sale` - The amount of the purchase is authorized and immediately withdrawn from the customer's account.
 
-1. To display the _Check out with PayPal_ button on the product page, set **[!UICONTROL Display on Product Details Page]** to `Yes`.
+1. To display the _[!UICONTROL Check out with PayPal]_ button on the product page, set **[!UICONTROL Display on Product Details Page]** to `Yes`.
 
 ### Step 7: Complete the advanced settings for PayPal Express Checkout
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Advanced Settings]** section.
 
-   ![Express Checkout Advanced Setting](../configuration-reference/sales/assets/payment-methods-paypal-payments-pro-express-checkout-advanced-settings.png)<!-- zoom -->
+   ![Express Checkout Advanced Setting](../configuration-reference/sales/assets/payment-methods-paypal-payments-pro-express-checkout-advanced-settings.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Display on Shopping Cart]** to `Yes`.
 
@@ -472,7 +473,7 @@ Use the Frontend Experience Settings to choose which PayPal logos appear on your
 
 ### Step 8: Add Google reCAPTCHA
 
-To better protect PayPal PayFlow Pro checkout, enable Google reCAPTCHA. It includes options to run reCAPTCHA using a clickable interface or an invisible check to validate the customer. We recommend the invisible option to increase sales conversion and protect your store. For details, see [Google reCAPTCHA](../systems/security-google-recaptcha.md).
+To better protect PayPal Payflow Pro checkout, enable Google reCAPTCHA. It includes options to run reCAPTCHA using a clickable interface or an invisible check to validate the customer. The invisible option is recommended to increase sales conversion and protect your store. For details, see [Google reCAPTCHA](../systems/security-google-recaptcha.md).
 
 [1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
 [2]: https://manager.paypal.com/

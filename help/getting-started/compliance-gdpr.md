@@ -1,17 +1,18 @@
 ---
-title: GDPR Compliance
+title: GDPR compliance
 description: Learn about General Data Protection Regulation (GDPR), which is legislation that regulates data protection and privacy for all individuals in the European Union and the European Economic Area.
 exl-id: 88a732f3-f376-4ff5-890c-0535de8eae51
+feature: Compliance
 ---
-# GDPR Compliance
+# GDPR compliance
 
 >[!NOTE]
 >
 >This information is one in a series of topics to help Adobe Commerce and Magento Open Source merchants and developers understand the implications of the General Data Protection Regulation (GDPR). The information is intended for informational purposes only and should not be construed as legal advice. To determine whether and how your business should comply with any legal obligations, consult with your legal counsel.
 
-The General Data Protection Regulation (GDPR) is legislation that regulates data protection and privacy for all individuals in the European Union and the European Economic Area. The legislation also applies to the export of personal data outside the EU. The GDPR was adopted in April 2016, and became enforceable on 25 May 2018. Businesses that are not based in the EU, but engage in global commerce are required to comply with the regulation. The GDPA defines personal data as follows:
+The General Data Protection Regulation (GDPR) is legislation that regulates data protection and privacy for all individuals in the European Union and the European Economic Area. The legislation also applies to the export of personal data outside the EU. The GDPR was adopted in April 2016, and became enforceable on 25 May 2018. Businesses that are not based in the EU, but engage in global commerce are required to comply with the regulation. The GDPA defines **personal data** as follows:
 
-**Personal Data**: Any information relating to an identified or identifiable natural person ('data subject'); an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural, or social identity of that natural person.
+>Any information relating to an identified or identifiable natural person ('data subject'); an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural, or social identity of that natural person.
 
 All organizations that process personal data must disclose the following:
 
@@ -32,7 +33,7 @@ If your business is required to comply with both the GDPR and the [California Co
 
 Businesses that comply with GDPR might have additional obligations under the CCPA. To learn more, see the [CCPA Fact Sheet][3]{:target="_blank"}.
 
-## Best Practices
+## Best practices
 
 - Examine the current [privacy policies](../getting-started/privacy-policy.md) for all of your stores to ensure that they align with any applicable legal requirements (including, but not limited to GDPR and CCPA).
 

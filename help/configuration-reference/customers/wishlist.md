@@ -2,6 +2,7 @@
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Wish List]'
 description: Review the configurations settings on the [!UICONTROL Customers] &gt; [!UICONTROL Wish List] page of the Commerce Admin.
 exl-id: 33ff428c-03e3-4698-a01e-f007b4e1688e
+feature: Configuration, Customers, Storefront
 ---
 # [!UICONTROL Customers] > [!UICONTROL Wish List]
 
@@ -24,7 +25,7 @@ exl-id: 33ff428c-03e3-4698-a01e-f007b4e1688e
 |[!UICONTROL Enable Multiple Wish Lists]|Store View|![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce only) When set to `Yes`, allows customers to create and maintain multiple wish lists. Options: `Yes` / `No`|
 |[!UICONTROL Number of Multiple Wish Lists]|Store View|![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce only) If multiple wish lists are enabled, determines the maximum number of wish lists customers can have associated with their account.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Share Options]
 
@@ -39,7 +40,7 @@ exl-id: 33ff428c-03e3-4698-a01e-f007b4e1688e
 |[!UICONTROL Max Emails Allowed to be Sent]|Store View|Determines the maximum number of emails that can be sent in a batch. Setting a maximum limit can help reduce the load on the server. The maximum number allowed is 10,000. Default value: `10`|
 |[!UICONTROL Email Text Length Limit]|Store View|Determines the maximum number of characters that can be included in the message. The maximum number allowed is 10,000. Default value: `255`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL My Wish List Link]
 
@@ -51,4 +52,4 @@ exl-id: 33ff428c-03e3-4698-a01e-f007b4e1688e
 |--- |--- |--- |
 |[!UICONTROL Display Wish List Summary]|Website|Configures the display of the Wish List Summary in the customer account dashboard. Options: `Display number of items in wish list` / `Display item quantities`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

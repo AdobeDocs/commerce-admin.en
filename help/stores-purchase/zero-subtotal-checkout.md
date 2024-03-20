@@ -2,6 +2,7 @@
 title: Zero subtotal checkout
 description: Learn how to set up a zero subtotal as an offline method of payment on your store.
 exl-id: c14ce289-8292-41d9-a448-f493c784f35c
+feature: Checkout, Configuration
 ---
 # Zero subtotal checkout
 
@@ -25,7 +26,7 @@ To save time, zero subtotal orders can be set to automatically invoice.
 
 1. Under _[!UICONTROL Other Payment Methods]_, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Zero Subtotal Checkout]** section.
 
-   ![Zero Subtotal Checkout](../configuration-reference/sales/assets/payment-methods-zero-subtotal-checkout.png)<!-- zoom -->
+   ![Zero Subtotal Checkout](../configuration-reference/sales/assets/payment-methods-zero-subtotal-checkout.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -33,7 +34,7 @@ To save time, zero subtotal orders can be set to automatically invoice.
 
 1. To activate zero subtotal checkout, set **[!UICONTROL Enabled]** to `Yes`.
 
-1. Enter a **[!UICONTROL Title]** to identify the Zero Subtotal method during checkout.
+1. For **[!UICONTROL Title]**, enter a title that identifies the Zero Subtotal method during checkout.
 
 1. If orders typically wait for approval, accept the default **[!UICONTROL New Order Status]** as `Pending"` until the order is approved.
 
@@ -52,8 +53,8 @@ To save time, zero subtotal orders can be set to automatically invoice.
    - `All Allowed Countries` - Customers from all [countries](../getting-started/store-details.md#country-options) specified in your store configuration can use this payment method.
    - `Specific Countries` - After you choose this option, the _[!UICONTROL Payment from Specific Countries]_ list appears. To select multiple countries, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
 
-1. Enter a **[!UICONTROL Sort Order]** number to determine the position of this item in the list of payment methods that is displayed during checkout.
+1. For **[!UICONTROL Sort Order]**, enter a number that determines the position of this item in the list of payment methods that is displayed during checkout.
 
-   This is relative to the other payment methods. (`0` = first, `1` = second, `2` = third, and so on.)
+   This number is relative to the other payment methods. (`0` = first, `1` = second, `2` = third, and so on.)
 
 1. When complete, click **[!UICONTROL Save Config]**.

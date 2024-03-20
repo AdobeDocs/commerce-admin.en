@@ -1,9 +1,10 @@
 ---
-title: PCI Compliance Guidelines
+title: PCI compliance guidelines
 description: Review this information about the Payment Card Industry (PCI) requirements for businesses that accept payment by credit card over the Internet.
 exl-id: b9fff131-bea3-4d7a-bbf7-e98b284387d3
+feature: Compliance
 ---
-# PCI Compliance Guidelines
+# PCI compliance guidelines
 
 The Payment Card Industry (PCI) has established a set of requirements for businesses that accept payment by credit card over the Internet. In addition to maintaining a secure server environment, merchants who handle customer credit card information must meet the following guidelines.
 
@@ -41,5 +42,5 @@ To learn more, see [Adobe Approach to PCI Compliance][1]{:target="_blank"}.
 
 As your business grows, you may be required to file a compliance report on an annual basis. PCI reporting requirements increase in proportion to merchant level, but are waived for businesses that process fewer than 20,000 credit card transactions per year. To learn more, visit the [PCI Security Standards Council][2] website.
 
-[1]: https://magento.com/pci-compliance
+[1]: https://business.adobe.com/products/magento/pci-compliance.html
 [2]: https://www.pcisecuritystandards.org/index.php

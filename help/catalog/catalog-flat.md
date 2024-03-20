@@ -7,7 +7,7 @@ exl-id: f67bd2e0-3902-41eb-b26f-c772a7692cef
 
 >[!IMPORTANT]
 >
->Use of a flat catalog is no longer recommended as a best practice. Continued use of this feature is known to cause performance degradation and other indexing issues. A detailed description and solution is available in the [Help Center](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html).<br/><br/>Affected versions include: <br/>- Adobe Commerce on cloud infrastructure, 2.3.x and above<br/>- Adobe Commerce (On-Premise), 2.3.x and above<br/>- Magento Open Source, 2.3.x and above <br/><br/>On any release version, some extensions only work with flat tables, thus creating a risk if you disable flat tables. If you know that you have some extensions that use Flat Catalog indexers, you need to be aware of this risk when setting those values to `No`.
+>Use of a flat catalog is no longer recommended as a best practice. Continued use of this feature is known to cause performance degradation and other indexing issues. A detailed description and solution is available in the [Help Center](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html).<br/><br/>Affected versions include: <br/>- Adobe Commerce on cloud infrastructure, 2.3.x and above<br/>- Adobe Commerce (On-Premise), 2.3.x and above<br/>- Magento Open Source, 2.3.x and above <br/><br/>On any release version, some extensions only work with flat tables, thus creating a risk if you disable flat tables. If you know that you have some extensions that use Flat Catalog indexers, you must be aware of this risk when setting those values to `No`.
 
 Commerce typically stores catalog data in multiple tables, based on the Entity-Attribute-Value (EAV) model. Because product attributes are stored in many tables, SQL queries are sometimes long and complex.
 
@@ -17,7 +17,7 @@ In contrast, a flat catalog creates tables on the fly, where each row contains a
 >
 >Before you enable a flat catalog for a live store, make sure to test the configuration in a development environment.
 
-## Step 1: Enable the Flat Catalog
+## Step 1: Enable the flat catalog
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -29,7 +29,7 @@ In contrast, a flat catalog creates tables on the fly, where each row contains a
 
    - Set **[!UICONTROL Use Flat Catalog Product]** to `Yes`.
 
-   ![Flat catalog configuration](./assets/use-flat-catalog.png)<!-- zoom -->
+   ![Flat catalog configuration](./assets/use-flat-catalog.png){width="700" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
@@ -47,7 +47,7 @@ There are two methods that you can use to verify the results.
 
 1. For **[!UICONTROL Name]**, add the text `_TEST` to the end of the product name.
 
-1. click **[!UICONTROL Save]**.
+1. Click **[!UICONTROL Save]**.
 
 1. On a new browser tab, navigate to the home page of your store and do the following:
 
@@ -57,7 +57,7 @@ There are two methods that you can use to verify the results.
 
       If necessary, refresh the page to see the results. The change appears within the minute or according to your [Cron](../systems/cron.md) schedule.
 
-   ![Storefront with Flat Catalog](./assets/storefront-flat-catalog-enabled.png)<!-- zoom -->
+   ![Storefront with Flat Catalog](./assets/storefront-flat-catalog-enabled.png){width="700" zoomable="yes"}
 
 ### Method 2: Verify the results for a category
 
@@ -73,15 +73,15 @@ There are two methods that you can use to verify the results.
 
    - When complete, click **[!UICONTROL Save]**.
 
-      ![Test subcategory](./assets/catalog-flat-test-category.png)<!-- zoom -->
+      ![Test subcategory](./assets/catalog-flat-test-category.png){width="600" zoomable="yes"}
 
    - Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Products in Category]** section and click **[!UICONTROL Reset Filter]** to display all products.
 
-   - Select the checkbox of several products to add them to the new category.
+   - Select the checkbox of several products to be added to the new category.
 
    - click **[!UICONTROL Save]**.
 
-   ![Test category products](./assets/catalog-flat-test-category-products.png)<!-- zoom -->
+   ![Test category products](./assets/catalog-flat-test-category-products.png){width="600" zoomable="yes"}
 
 1. On a new browser tab, navigate to the home page of your store and use the store navigation to browse to the category you created.
 
@@ -101,7 +101,7 @@ Do the following to remove the test data and restore the original product name a
 
 1. When prompted to confirm, click **[!UICONTROL OK]**.
 
-   This does not remove the products that are assigned to the category.
+   This category removal does not remove the products that are assigned to the category.
 
 ### Restore the original product name
 

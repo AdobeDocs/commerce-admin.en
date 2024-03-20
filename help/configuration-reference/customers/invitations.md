@@ -2,6 +2,7 @@
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Invitations]'
 description: Review the configurations settings on the [!UICONTROL Customers] &gt; [!UICONTROL Invitations] page of the Commerce Admin.
 exl-id: edafeaed-9c4f-4d9f-b35c-381ae5f43b67
+feature: Configuration, Promotions/Events
 ---
 # [!UICONTROL Customers] > [!UICONTROL Invitations]
 
@@ -24,7 +25,7 @@ exl-id: edafeaed-9c4f-4d9f-b35c-381ae5f43b67
 |[!UICONTROL Allow Customers to Add Custom Message to Invitation Email]|Store View|Determines whether there is a field in the Invitation form in which the inviter can add a custom message that is sent to the invitee via email. This does not affect the administrator's ability to add a message to an Invitation. Options: `Yes` / `No`.|
 |[!UICONTROL Max Invitations Allowed to be Sent at One Time]|Store View|Determines the maximum number of invitations that the inviter can send at once. A different invitation is sent out to each email address that the inviter includes in the form. This protects server resources by preventing large numbers of Invitations from being sent at once, and makes it less likely for invitations to be sent as spam.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email]
 
@@ -37,4 +38,4 @@ exl-id: edafeaed-9c4f-4d9f-b35c-381ae5f43b67
 |[!UICONTROL Customer Invitation Email Sender]|Store View|Determines the sender of the email that invitees receive when an invitation email is sent. Default value: `General Contact`|
 |[!UICONTROL Customer Invitation Email Template]|Store View|Determines the template of the email that invitees receive when an invitation email is sent. Default template: `Customer Invitation`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

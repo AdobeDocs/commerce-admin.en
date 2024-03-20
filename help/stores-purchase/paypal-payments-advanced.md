@@ -2,6 +2,7 @@
 title: PayPal Payments Advanced
 description: Learn how to set up PayPal Payments Advanced as an online payment solution on your store.
 exl-id: 018dd999-2f17-4650-8f61-624809ae76c6
+feature: Payments
 ---
 # PayPal Payments Advanced
 
@@ -80,7 +81,7 @@ Before you set up PayPal Payments Advanced in Commerce, you must configure your 
 
    - Log in to your [PayPal business account][2].
 
-   - Follow the instructions to set up another user.
+   - To set up another user, follow the instructions.
 
    - **[!UICONTROL Save]** the changes.
 
@@ -106,17 +107,17 @@ Before you set up PayPal Payments Advanced in Commerce, you must configure your 
 
    This setting determines the selection of PayPal Solutions that appear in the configuration.
 
-   ![Merchant country](../configuration-reference/sales/assets/payment-methods-merchant-location.png)<!-- zoom -->
+   ![Merchant country](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
 1. Expand **[!UICONTROL PayPal All-in-One Payment Solution]** and click **[!UICONTROL Configure]** for **[!UICONTROL Payments Advanced]**.
 
-   ![PayPal Payments Advanced](./assets/paypal-payments-advanced.png)<!-- zoom -->
+   ![PayPal Payments Advanced](./assets/paypal-payments-advanced.png){width="600" zoomable="yes"}
 
 ### Step 2: Complete the required settings
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Required PayPal Settings]** section, if needed.
 
-   ![Advanced Required Settings - PayPal Payments Advanced](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-required.png)<!-- zoom -->
+   ![Advanced Required Settings - PayPal Payments Advanced](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-required.png){width="600" zoomable="yes"}
 
 1. (Optional) Enter the **[!UICONTROL Email Associated with your PayPal Merchant Account]**.
 
@@ -150,9 +151,9 @@ Before you set up PayPal Payments Advanced in Commerce, you must configure your 
 
 1. If you want to offer [PayPal Credit](paypal.md#paypal-credit-and-pay-later) to your customers, set **[!UICONTROL Enable PayPal Credit]** to `Yes`.
 
-### Step 3: Set up Advertise PayPal Credit / Advertise PayPal Pay Later (optional)
+### Step 3: Set up Advertise PayPal Credit / Advertise PayPal PayLater (optional)
 
-Starting with the 2.4.3 release, PayPal Pay Later is supported in deployments that include PayPal. This feature allows shoppers to pay for an order in bi-weekly installments instead of paying the full amount at time of purchase. The PayPal Credit experience is deprecated.
+Starting with the 2.4.3 release, PayPal PayLater is supported in deployments that include PayPal. This feature allows shoppers to pay for an order in bi-weekly installments instead of paying the full amount at time of purchase. The PayPal Credit experience is deprecated.
 
 Set **[!UICONTROL Enable PayPal PayLater Experience]** to one of the following:
 
@@ -163,9 +164,9 @@ Set **[!UICONTROL Enable PayPal PayLater Experience]** to one of the following:
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Advertise PayPal Credit]** section.
 
-   ![Advertise PayPal Credit](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png)<!-- zoom -->
+   ![Advertise PayPal Credit](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png){width="600" zoomable="yes"}
 
-1. Click **[!UICONTROL Get Publisher ID from PayPal]** and follow the instructions to get your account information.
+1. To get your account information, click **[!UICONTROL Get Publisher ID from PayPal]** and follow the instructions.
 
 1. Enter your **[!UICONTROL Publisher ID]**.
 
@@ -187,7 +188,7 @@ Set **[!UICONTROL Enable PayPal PayLater Experience]** to one of the following:
    - `728 x 90`
    - `800 x 66`
 
-    ![Advertise PayPal Credit Home Page Settings](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png)<!-- zoom -->
+    ![Advertise PayPal Credit Home Page Settings](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png){width="600" zoomable="yes"}
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the remaining sections and repeat the previous steps:
 
@@ -195,7 +196,7 @@ Set **[!UICONTROL Enable PayPal PayLater Experience]** to one of the following:
    - **[!UICONTROL Catalog Product Page]**
    - **[!UICONTROL Checkout Cart Page]**
 
-#### Advertise PayPal Pay Later
+#### Advertise PayPal PayLater
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Advertise PayPal PayLater]** section.
 
@@ -262,7 +263,7 @@ Set **[!UICONTROL Enable PayPal PayLater Experience]** to one of the following:
    - `Monochrome`
    - `Grayscale`
 
-   ![Advertise PayPal Credit Home Page Settings](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png)<!-- zoom -->
+   ![Advertise PayPal Credit Home Page Settings](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png){width="600" zoomable="yes"}
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the remaining sections and repeat the previous steps:
 
@@ -275,15 +276,15 @@ Set **[!UICONTROL Enable PayPal PayLater Experience]** to one of the following:
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Basic Settings - PayPal Payments Advanced]** section, if needed.
 
-   ![PayPal Payments Advanced Basic Settings](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-basic-settings.png)<!-- zoom -->
+   ![PayPal Payments Advanced Basic Settings](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-basic-settings.png){width="600" zoomable="yes"}
 
-1. Enter a **[!UICONTROL Title]** to identify PayPal Payments Advanced during checkout.
+1. To identify PayPal Payments Advanced during checkout, enter a **[!UICONTROL Title]**.
 
    It is recommended that you use the title _Debit or Credit Card_.
 
 1. If you offer multiple payment methods, enter a number for **[!UICONTROL Sort Order]** to determine the sequence in which PayPal Payments Advanced appears when listed with other payment methods during checkout.
 
-   This is relative to the other payment methods. (`0` = first, `1` = second, `2` = third, and so on.)
+   This number is relative to the other payment methods. (`0` = first, `1` = second, `2` = third, and so on.)
 
 1. Set **[!UICONTROL Payment Action]** to one of the following:
 
@@ -294,7 +295,7 @@ Set **[!UICONTROL Enable PayPal PayLater Experience]** to one of the following:
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Advanced Settings]** section.
 
-   ![Advanced Settings - PayPal Payments Advanced](./assets/paypal-payments-advanced2.png)<!-- zoom -->
+   ![Advanced Settings - PayPal Payments Advanced](./assets/paypal-payments-advanced2.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Payment Applicable From]** to one of the following:
 
@@ -333,7 +334,7 @@ Set **[!UICONTROL Enable PayPal PayLater Experience]** to one of the following:
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Settlement Report Settings]** section.
 
-   ![PayPal Settlement Report Settings](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png)<!-- zoom -->
+   ![PayPal Settlement Report Settings](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png){width="600" zoomable="yes"}
 
 1. For **[!UICONTROL SFTP Credentials]**, do the following:
 
@@ -376,7 +377,7 @@ Use the _[!UICONTROL Frontend Experience Settings]_ to choose which PayPal logos
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Frontend Experience Settings]** section.
 
-   ![PayPal Frontend Experience Settings](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings.png)<!-- zoom -->
+   ![PayPal Frontend Experience Settings](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings.png){width="600" zoomable="yes"}
 
 1. Select the **[!UICONTROL PayPal Product Logo]** that you want to appear in the PayPal block in your store.
 
@@ -412,28 +413,28 @@ Use the _[!UICONTROL Frontend Experience Settings]_ to choose which PayPal logos
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Basic Settings - PayPal Express Checkout]** section.
 
-   ![PayPal Express Checkout Basic Settings](../configuration-reference/sales/assets/payment-methods-paypal-advanced-express-checkout-basic-settings.png)<!-- zoom -->
+   ![PayPal Express Checkout Basic Settings](../configuration-reference/sales/assets/payment-methods-paypal-advanced-express-checkout-basic-settings.png){width="600" zoomable="yes"}
 
-1. Enter a **[!UICONTROL Title]** to identify this payment method during checkout.
+1. For **[!UICONTROL Title]**, enter a title that identifies this payment method during checkout.
 
    Setting the title to _PayPal_ for each store view is recommended.
 
 1. If you offer multiple payment methods, enter a number for **[!UICONTROL Sort Order]** to determine the sequence in which PayPal Express Checkout appears when listed with the other payment methods.
 
-   This is relative to the other payment methods. (`0` = first, `1` = second, `2` = third, and so on.)
+   This number is relative to the other payment methods. (`0` = first, `1` = second, `2` = third, and so on.)
 
 1. Set **[!UICONTROL Payment Action]** to one of the following:
 
    - `Authorization` - Approves the purchase and puts a hold on the funds. The amount is not withdrawn until it is _captured_ by the merchant.
    - `Sale` - The amount of the purchase is authorized and immediately withdrawn from the customer's account.
 
-1. To display the _Check out with PayPal_ button on the product page, set **[!UICONTROL Display on Product Details Page]** to `Yes`.
+1. To display the _[!UICONTROL Check out with PayPal]_ button on the product page, set **[!UICONTROL Display on Product Details Page]** to `Yes`.
 
 ### Step 7: Complete Advanced Settings - PayPal Express Checkout
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Advanced Settings]** section.
 
-   ![PayPal Express Checkout Advanced Settings](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-express-checkout-advanced.png)<!-- zoom -->
+   ![PayPal Express Checkout Advanced Settings](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-express-checkout-advanced.png){width="600" zoomable="yes"}
 
 1. To make PayPal Express Checkout available from both the shopping cart and mini cart, set **[!UICONTROL Display on Shopping Cart]** to `Yes`.
 

@@ -2,12 +2,13 @@
 title: Elements - Text
 description: Learn about the Text content type, used to add a text container in the [!DNL Page Builder] stage.
 exl-id: 3f14af35-9c04-4f4b-b3dd-d3406d56a9c0
+feature: Page Builder, Page Content
 ---
 # Elements - Text
 
 Use the _Text_ content type to add a text container with a WYSIWYG ("What You See Is What You Get") editor in the [[!DNL Page Builder] stage](workspace.md#stage). In addition, you can add links, images, [variables](../systems/variables-predefined.md), and widgets to the text from the editor toolbar.
 
-![Formatted text on a banner](./assets/pb-storefont-banner-with-button.png)<!-- zoom -->
+![Formatted text on a banner](./assets/pb-storefont-banner-with-button.png){width="700"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -15,35 +16,37 @@ Use the _Text_ content type to add a text container with a WYSIWYG ("What You Se
 
 You can access the text editor directly from the stage or from a settings page. Changes made directly to the stage are saved automatically. For more information, see [Using the Editor](../content-design/editor.md).
 
-![Text editor tool - TinyMCE](./assets/pb-elements-text-editor-tools.png)<!-- zoom -->
+![Text editor tool - TinyMCE](./assets/pb-elements-text-editor-tools.png){width="600"}
 
 ## Text container toolbox
 
-![Text container toolbox](./assets/pb-elements-text-toolbox.png)<!-- zoom -->
+![Text container toolbox](./assets/pb-elements-text-toolbox.png){width="600"}
 
 | Tool      | Icon                  | Description    |
 | --------- | --------------------- | -------------- |
-| Move      | ![Move icon](./assets/pb-icon-move.png)| Moves the text container to another valid place on the page. |
+| Move      | ![Move icon](./assets/pb-icon-move.png){width="25"}| Moves the text container to another valid place on the page. |
 | (label)   | TEXT      | Identifies the current container as a text element.          |
-| Settings  | ![Settings icon](./assets/pb-icon-settings.png)  | Opens the text container properties in edit mode.|
-| Hide      | ![Hide icon](./assets/pb-icon-hide.png)      | Hides the text container. |
-| Show      | ![Show icon](./assets/pb-icon-show.png)      | Shows the hidden text container. |
-| Duplicate | ![Duplicate icon](./assets/pb-icon-duplicate.png) | Makes a copy of the text container. |
-| Remove    | ![Remove icon](./assets/pb-icon-remove.png)    | Deletes the text container and its content from the stage. |
+| Settings  | ![Settings icon](./assets/pb-icon-settings.png){width="25"}  | Opens the text container properties in edit mode.|
+| Hide      | ![Hide icon](./assets/pb-icon-hide.png){width="25"}      | Hides the text container. |
+| Show      | ![Show icon](./assets/pb-icon-show.png){width="25"}      | Shows the hidden text container. |
+| Duplicate | ![Duplicate icon](./assets/pb-icon-duplicate.png){width="25"} | Makes a copy of the text container. |
+| Remove    | ![Remove icon](./assets/pb-icon-remove.png){width="25"}    | Deletes the text container and its content from the stage. |
 
 {style="table-layout:auto"}
+
+{{$include /help/_includes/page-builder-hidden-element-note.md}}
 
 ## Add text
 
 1. In the [!DNL Page Builder] panel, expand **[!UICONTROL Elements]** and drag a **[!UICONTROL Text]** placeholder to a row, column, or tab set on the stage.
 
-   ![Dragging a text placeholder to the stage](./assets/pb-elements-text-drag.png)<!-- zoom -->
+   ![Dragging a text placeholder to the stage](./assets/pb-elements-text-drag.png){width="600" zoomable="yes"}
 
 1. Use the editor to enter and format text, as needed.
 
    For more information, see [Using the Editor](../content-design/editor.md).
 
-   ![Text editor with content](./assets/pb-elements-text-editor.png)<!-- zoom -->
+   ![Text editor with content](./assets/pb-elements-text-editor.png){width="600"}
 
 ## Create a link
 
@@ -59,9 +62,9 @@ To create a link for a telephone number or email, see [Adding Custom Variables](
 
    Relative URL - `../women/tops-women/tees-women.html`
 
-1. Select the text in the editor space and click _Insert/edit link_ (![Insert/edit link button](./assets/pb-icon-add-link.png)) on the editor toolbar.
+1. Select the text in the editor space and click _Insert/edit link_ ( ![Insert/edit link button](./assets/pb-icon-add-link.png){width="20"} ) on the editor toolbar.
 
-   ![Adding a link to formatted text](./assets/pb-tutorial2-column-text-editor-link-insert.png)<!-- zoom -->
+   ![Adding a link to formatted text](./assets/pb-tutorial2-column-text-editor-link-insert.png){width="500" zoomable="yes"}
 
 1. For **[!UICONTROL URL]**, enter the relative link that you prepared.
 
@@ -75,13 +78,13 @@ To create a link for a telephone number or email, see [Adding Custom Variables](
 
 1. To save the link and return to the [!DNL Page Builder] workspace, click **[!UICONTROL OK]**.
 
-   ![Link detail](./assets/pb-tutorial2-column-text-editor-link-insert-detail.png)<!-- zoom -->
+   ![Link detail](./assets/pb-tutorial2-column-text-editor-link-insert-detail.png){width="500" zoomable="yes"}
 
 ## Insert an image
 
 1. Place the cursor in the text where you want to insert the image.
 
-1. Click _Insert/edit image_ (![Insert/edit image button](./assets/icon-pb-add-image.png)) on the editor toolbar.
+1. Click _Insert/edit image_ ( ![Insert/edit image button](./assets/icon-pb-add-image.png){width="20"} ) on the editor toolbar.
 
 1. For **[!UICONTROL Source]**, click the search icon to use the media storage for locating and selecting an image.
 
@@ -97,7 +100,7 @@ To create a link for a telephone number or email, see [Adding Custom Variables](
 
 ## Change text settings
 
-1. Hover over the text container to display the toolbox and choose the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png) ) icon.
+1. Hover over the text container to display the toolbox and choose the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png){width="20"} ) icon.
 
    >[!NOTE]
    >

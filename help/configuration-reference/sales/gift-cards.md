@@ -2,6 +2,7 @@
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Gift Cards]'
 description: Review the configurations settings on the [!UICONTROL Sales] &gt; [!UICONTROL Gift Cards] page of the Commerce Admin.
 exl-id: 95bfdbde-633e-44d0-9d43-00dde671ab6d
+feature: Configuration, Gift
 ---
 # [!UICONTROL Sales] > [!UICONTROL Gift Cards]
 
@@ -20,7 +21,7 @@ exl-id: 95bfdbde-633e-44d0-9d43-00dde671ab6d
 |[!UICONTROL Gift Card Notification Email Sender]|Store View|Identifies the [store contact](../../getting-started/store-details.md#store-email-addresses) that appears as the sender of the gift card notification email. Default value: `General Contact`|
 |[!UICONTROL Gift Card Notification Email Template]|Store View|Determines the [template](../../systems/email-templates.md) that is used for the gift card notification email.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Gift Card General Settings]
 
@@ -36,7 +37,7 @@ exl-id: 95bfdbde-633e-44d0-9d43-00dde671ab6d
 |[!UICONTROL Gift Message Maximum Length]|Store View|Determines the maximum number of characters allowed in a gift card message. Default value: 255|
 |[!UICONTROL Generate Gift Card Account when Order Item is]|Global|Determines if a gift card account is generated when a customer places an order, or when the order is invoiced. Options: `Ordered` / `Invoiced`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Sent from Gift Card Account Management]
 
@@ -49,7 +50,7 @@ exl-id: 95bfdbde-633e-44d0-9d43-00dde671ab6d
 |[!UICONTROL Gift Card Email Sender]|Store View|Identifies the [store contact](../../getting-started/store-details.md#store-email-addresses) that appears as the sender of the gift card email. Default value: `General Contact`|
 |[!UICONTROL Gift Card Template]|Store View|Determines the [template](../../systems/email-templates.md) that is used for the gift card email.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Gift Card Account General Settings]
 
@@ -68,4 +69,4 @@ exl-id: 95bfdbde-633e-44d0-9d43-00dde671ab6d
 |[!UICONTROL Low Code Pool Threshold]|Global|Determines the number of records in the code pool that triggers an alert that the pool needs to be replenished.|
 |[!UICONTROL Generate]|Global|Click to generate the list of gift card codes.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

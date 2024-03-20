@@ -2,14 +2,15 @@
 title: Scheduled changes for cart price rules
 description: Learn how to apply cart price rules on schedule as part of a campaign and grouped with other content changes.
 exl-id: 4c9caa04-1e11-440d-b3db-7cc5fc83a08f
+feature: Merchandising, Price Rules, Shopping Cart
 ---
 # Scheduled changes for cart price rules
 
 {{ee-feature}}
 
-Cart price rules can be applied on schedule as part of a campaign and grouped with other content changes. You can create a new campaign based on scheduled changes to a price rule, or apply the changes to an existing campaign.
+Cart price rules can be applied on schedule as part of a campaign and grouped with other content changes. You can create a campaign based on scheduled changes to a price rule, or apply the changes to an existing campaign.
 
-![Cart price rules - scheduled changes](./assets/content-staging-price-rules-cart-scheduled-changes.png)<!-- zoom -->
+![Cart price rules - scheduled changes](./assets/content-staging-price-rules-cart-scheduled-changes.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -20,9 +21,9 @@ If there are multiple price rules running in the same campaign, the _[!UICONTROL
 Keep in mind the following caveats:
 
 - If a campaign that includes a price rule is initially created without an end date, the campaign cannot later be edited to include an end date. It is recommended that you either add an end date when you create the campaign or create a duplicate version of the existing campaign and add the end date to the duplicate as needed.
-- When using a scheduled update to enable a cart price rule with an end date, be sure to set the rule as initially disabled. Rules that are already active will not respect the end date.
-- Coupons are not specifically connected to cart price rules. A Scheduled Update does not provide access to the _[!UICONTROL Coupon]_, _[!UICONTROL Coupon Code]_, _[!UICONTROL Uses per Coupon]_, and _[!UICONTROL Uses per Customer]_ fields on the _[!UICONTROL Rule Information]_ tab.  Additionally, all settings from the _[!UICONTROL Manage Coupon Codes]_ tab are not available.
+- When using a scheduled update to enable a cart price rule with an end date, be sure to set the rule as initially disabled. Rules that are already active do not respect the end date.
+- Coupons are not connected to cart price rules. A Scheduled Update does not provide access to the _[!UICONTROL Coupon]_, _[!UICONTROL Coupon Code]_, _[!UICONTROL Uses per Coupon]_, and _[!UICONTROL Uses per Customer]_ fields on the _[!UICONTROL Rule Information]_ tab. Also, all settings from the _[!UICONTROL Manage Coupon Codes]_ tab are not available.
 
 >[!IMPORTANT]
 >
->Campaign **[!UICONTROL Start Date]** and **[!UICONTROL End Date]** must be defined by using the **_default_** Admin time zone, which is converted from each website local time zone. For example, if you have multiple websites in different time zones, but you want to start campaign based on a US time zone, you need to schedule separate update for each local time zone, and set **[!UICONTROL Start Date]** and **[!UICONTROL End Date]** in converted from each local website time zone to default Admin time zone.
+>Campaign **[!UICONTROL Start Date]** and **[!UICONTROL End Date]** must be defined by using the **_default_** Admin time zone, which is converted from each website's local time zone. Consider an example where you have multiple websites in different time zones, but you want to start campaign based on a US time zone. In this case, you need to schedule separate update for each local time zone, and set **[!UICONTROL Start Date]** and **[!UICONTROL End Date]** converted from each local website time zone to default Admin time zone.

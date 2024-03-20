@@ -2,10 +2,12 @@
 title: Configure Admin security
 description: Learn how to configure security for your store Admin.
 exl-id: 931fd8ad-96b7-42e5-9c3e-4bb9ca85b1ba
+role: Admin
+feature: Admin Workspace, Configuration, Security
 ---
 # Configure Admin security
 
-We recommend that you take a multifaceted approach to protect the security of your store. You can begin by using a [custom Admin URL](../stores-purchase/store-urls.md#use-a-custom-admin-url) that is not easy to guess, rather than the obvious "Admin" or "Backend." By default, passwords that are used to [log in](../getting-started/admin-signin.md) to the Admin must be seven or more characters long and include both letters and numbers. As a [best practice](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adobe-commerce-best-practices-guide.pdf){:target="_blank"}, use only strong Admin passwords that include a combination of letters, numbers, and symbols. Adobe Commerce and Magento Open Source do not allow the reuse of the last four passwords assigned to the account.
+We recommend that you take a multifaceted approach to protect the security of your store. You can begin by using a [custom Admin URL](../stores-purchase/store-urls.md#use-a-custom-admin-url) that is not easy to guess, rather than the obvious "Admin" or "Backend." By default, passwords that are used to [log in](../getting-started/admin-signin.md) to the Admin must be seven or more characters long and include both letters and numbers. As a [best practice](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), use only strong Admin passwords that include a combination of letters, numbers, and symbols. Adobe Commerce and Magento Open Source do not allow the reuse of the last four passwords assigned to the account.
 
 The Admin security configuration gives you the ability to:
 
@@ -25,7 +27,7 @@ In addition to the security settings in this section, [two-factor authentication
 
 For technical information, see [Security overview](https://developer.adobe.com/commerce/php/architecture/basics/security/){:target="_blank"} in the developer documentation.
 
-![Admin security](../configuration-reference/advanced/assets/admin-security.png)<!-- zoom -->
+![Admin security](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
 
 ## Configure Admin security
 
@@ -68,8 +70,8 @@ For technical information, see [Security overview](https://developer.adobe.com/c
 
    - Set **[!UICONTROL Password Change]** to one of the following:
 
-      - `Forced` — Requires that Admin users change their passwords after the account setup.
-      - `Recommended` — Recommends that Admin users change their passwords after the account setup.
+     - `Forced` — Requires that Admin users change their passwords after the account setup.
+     - `Recommended` — Recommends that Admin users change their passwords after the account setup.
 
 1. When complete, click **[!UICONTROL Save Config]**.
 

@@ -2,14 +2,15 @@
 title: Downloadable product
 description: Learn how to create a downloadable product that can be delivered as a digital file.
 exl-id: c3dd4c5f-adc1-4a8f-a9da-7f0dedd1ee34
+feature: Catalog Management, Products
 ---
 # Downloadable product
 
 A downloadable product can be anything that you can deliver as a file, such as an eBook, music, video, software application, or update. You can offer an album for sale and sell each song individually. You can also use a downloadable product to deliver an electronic version of your product catalog.
 
-Because the download is not available until after the purchase, you can provide samples, such as an excerpt from a book, a clip from an audio file, or a trailer from a video. This is something that the customer can try before purchasing the product. The files that you make available for download can be either uploaded to your server or from a different server.
+Because the download is not available until after the purchase, you can provide samples, such as an excerpt from a book, a clip from an audio file, or a trailer from a video. A sample is something that the customer can try before purchasing the product. The files that you make available for download can be either uploaded to your server or from a different server.
 
-![Downloadable product](./assets/storefront-product-downloadable.png)<!-- zoom -->
+![Downloadable product](./assets/storefront-product-downloadable.png){width="700" zoomable="yes"}
 
 Downloadable products can be configured to require that the customer logs in to an account to receive the link or can be sent by email and shared with others. The status of the order before the download becomes available, default values, and other delivery options are set in the configuration. As you plan your downloadable catalog additions, take note of the following:
 
@@ -34,9 +35,9 @@ The downloadable configuration settings determine the default values and deliver
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the _[!UICONTROL Downloadable Product Options]_ section.
 
-   ![Downloadable Product Options](./assets/catalog-downloadable-product-options.png)<!-- zoom -->
+   ![Downloadable Product Options](../configuration-reference/catalog/assets/catalog-downloadable-product-options.png){width="700" zoomable="yes"}
 
-   For more information about these configuration options, see [_Downloadable Product Options_](../configuration-reference/catalog/catalog.md#downloadable-product-options) in the _Configuration Reference_.
+   For a detailed list of these configuration options, see [_Downloadable Product Options_](../configuration-reference/catalog/catalog.md#downloadable-product-options) in the _Configuration Reference_.
 
 1. To determine the status of the order process when the download becomes available, set **[!UICONTROL Order Item Status to Enable Downloads]** to one of the following:
 
@@ -52,7 +53,7 @@ The downloadable configuration settings determine the default values and deliver
 
 1. For **[!UICONTROL Default Sample Title]**, enter the heading that you want to appear above the selection of samples.
 
-   ![Sample Title](./assets/product-downloadable-config-sample-title.png)<!-- zoom -->
+   ![Sample Title](./assets/product-downloadable-config-sample-title.png){width="400"}
 
 1. For **[!UICONTROL Default Link Title]**, enter the default text that you want to use for download links.
 
@@ -81,9 +82,9 @@ The following instructions demonstrate the process of creating a downloadable pr
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. On the _[!UICONTROL Add Product]_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png)<!-- {: width="25px"} --> ) menu at the upper-right corner, choose `Downloadable Product`.
+1. On the _[!UICONTROL Add Product]_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png){width="25"} ) menu at the upper-right corner, choose `Downloadable Product`.
 
-   ![Add Downloadable Product](./assets/product-add-downloadable.png)<!-- zoom -->
+   ![Add Downloadable Product](./assets/product-add-downloadable.png){width="700" zoomable="yes"}
 
 ### Step 2: Choose the attribute set
 
@@ -97,7 +98,7 @@ To choose the attribute set that is used as a template for the product, do one o
 
 The form is updated to reflect the change.
 
-![Choose Attribute Set](./assets/product-create-choose-attribute-set-downloadable.png)<!-- zoom -->
+![Choose Attribute Set](./assets/product-create-choose-attribute-set-downloadable.png){width="600" zoomable="yes"}
 
 ### Step 3: Complete the required settings
 
@@ -115,7 +116,7 @@ The form is updated to reflect the change.
 
 1. Choose the **[!UICONTROL Store View]** where the product is to be available.
 
-   ![Choose Store View](./assets/product-create-store-view-choose.png)<!-- zoom -->
+   ![Choose Store View](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
 
 ### Step 4: Complete the basic settings
 
@@ -124,7 +125,7 @@ The form is updated to reflect the change.
    - `None`
    - `Taxable Goods`
 
-1. Enter the **[!UICONTROL Quantity]** of the product that is currently in stock.
+1. Enter the **[!UICONTROL Quantity]** of the product that is in stock.
 
    Take note of the following:
 
@@ -144,7 +145,7 @@ The form is updated to reflect the change.
 
    **Choose an existing category**:
 
-   - Start typing in the box to find a match.
+   - Start typing in the box until you find a match.
 
    - Select the checkbox of each category that is to be assigned.
 
@@ -152,7 +153,7 @@ The form is updated to reflect the change.
 
    - Click **[!UICONTROL New Category]**.
 
-   - Enter the **[!UICONTROL Category Name]** and choose the **[!UICONTROL Parent Category]** to determine its position in the [menu structure](category-root.md).
+   - Enter the **[!UICONTROL Category Name]** and choose the **[!UICONTROL Parent Category]**, which determines its position in the [menu structure](category-root.md).
 
    - Click **[!UICONTROL Create Category]**.
 
@@ -162,8 +163,6 @@ The form is updated to reflect the change.
    - `DVD`
 
    If necessary, you can edit the [attribute](attribute-product-create.md) to add more values.
-
-   ![Product Details](./assets/product-details-downloadable.png)<!-- zoom -->
 
    There might be additional attributes that describe the product. The selection varies by attribute set and you can complete them later.
 
@@ -175,9 +174,9 @@ The form is updated to reflect the change.
 
 Scroll down, expand ![Expansion selector](../assets/icon-display-expand.png) the _[!UICONTROL Downloadable Information]_ section, and select the **[!UICONTROL Is this downloadable product?]** checkbox.
 
-WHen enabled, the _[!UICONTROL Downloadable Information]_ section has two parts. The first part describes each download link, and the second part describes each sample file. The default value for many of these options can be set in the [configuration](#configure-the-download-options).
+When enabled, the _[!UICONTROL Downloadable Information]_ section has two parts. The first part describes each download link, and the second part describes each sample file. The default value for many of these options can be set in the [configuration](#configure-the-download-options).
 
-![Downloadable Information](./assets/product-downloadable-information.png)<!-- zoom -->
+![Downloadable Information](./assets/product-downloadable-information.png){width="600" zoomable="yes"}
 
 #### Complete the links
 
@@ -211,7 +210,7 @@ WHen enabled, the _[!UICONTROL Downloadable Information]_ section has two parts.
       - To limit downloads per customer, enter the maximum number for **[!UICONTROL Max. Downloads]**.
       - To allow unlimited downloads, select the **[!UICONTROL Unlimited]** checkbox.
 
-    ![Link Detail](./assets/product-downloadable-link-detail.png)<!-- zoom -->
+    ![Link Detail](./assets/product-downloadable-link-detail.png){width="600" zoomable="yes"}
 
 1. To add another link, click **[!UICONTROL Add Link]** and repeat these steps.
 
@@ -221,7 +220,7 @@ WHen enabled, the _[!UICONTROL Downloadable Information]_ section has two parts.
 
 1. To complete the information for each sample, click **[!UICONTROL Add Link]**.
 
-   ![Samples](./assets/product-downloadable-samples.png)<!-- zoom -->
+   ![Samples](./assets/product-downloadable-samples.png){width="600" zoomable="yes"}
 
 1. Complete the link detail as follows:
 
@@ -261,19 +260,17 @@ If you are ready to publish the product in the catalog, set **[!UICONTROL Enable
 
    The store opens in a new browser tab.
 
-   ![Customer View](./assets/admin-customer-view.png)<!-- zoom -->
+   ![Customer View](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
 
 **Method 2:** Save and Close
 
-On the _[!UICONTROL Save]_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png)<!-- {: width="25px"} --> ) menu, choose **[!UICONTROL Save & Close]**.
-
-![Save & Close](./assets/product-edit-save-close.png)<!-- zoom -->
+On the _[!UICONTROL Save]_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png){width="25"} ) menu, choose **[!UICONTROL Save & Close]**.
 
 ## Storefront experience
 
 In the customer account dashboard, the _[!UICONTROL My Downloadable Products]_ page links to each order of downloadable products. The downloads become available from the customer's account when the order is complete.
 
-![My Downloadable Products](./assets/customer-account-my-downloadable-products.png)<!-- zoom -->
+![My Downloadable Products](./assets/customer-account-my-downloadable-products.png){width="700" zoomable="yes"}
 
 The following table describes the _My Downloadable Products_ values:
 

@@ -2,6 +2,7 @@
 title: Product settings - [!UICONTROL Sources]
 description: For a product, the [!UICONTROL Sources] settings provides access to the [!DNL Inventory Management] sources from which the product can be distributed.
 exl-id: 986f6031-0edc-4105-aa02-1c22364b3e7c
+feature: Catalog Management, Products, Inventory
 ---
 # Product settings - [!UICONTROL Sources]
 
@@ -17,9 +18,9 @@ The _[!UICONTROL Sources]_ section of the product settings lists the sources fro
 
 1. Select **[!UICONTROL Source Item Status]** and enter the **[!UICONTROL Qty]** and **[!UICONTROL Notify Qty]** values as needed.
 
-1. click **[!UICONTROL Save]** to save the changes.
+1. Click **[!UICONTROL Save]** to save the changes.
 
-![Sources View](./assets/catalog-sources-list.png)<!-- zoom -->
+![Sources View](./assets/catalog-sources-list.png){width="600" zoomable="yes"}
 
 ## Field reference
 

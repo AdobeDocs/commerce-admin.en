@@ -1,9 +1,10 @@
 ---
-title: Configure Inventory Management
+title: "Configure [!DNL Inventory Management]"
 description: Learn about the configuration of [!DNL Inventory Management] options that determine source availability, storefront products, and order shipment.
 exl-id: 1696999e-77b1-45c7-9b0b-dd1512427cff
+feature: Inventory, Configuration
 ---
-# Configure Inventory Management
+# Configure [!DNL Inventory Management]
 
 The [!DNL Inventory Management] module supports inventory configuration settings at the product and global level and also provides additional settings that affect source availability, storefront products, and order shipment. The configuration settings apply to: 
 

@@ -1,13 +1,14 @@
 ---
-title: Design Configuration
+title: Design configuration
 description: The Design Configuration makes it easy to edit design-related rules and configuration settings by displaying the settings on a single page.
 exl-id: 43fec57f-d76d-45a9-812b-ba1947cea46d
+feature: Page Content, Configuration
 ---
-# Design Configuration
+# Design configuration
 
-The Design Configuration makes it easy to edit design-related rules and configuration settings by displaying the settings on a single page.
+The Design configuration makes it easy to edit design-related rules and configuration settings by displaying the settings on a single page.
 
-![Design Configuration page](./assets/configuration.png)<!-- zoom -->
+![Design Configuration page](./assets/configuration.png){width="700" zoomable="yes"}
 
 ## Change the design configuration
 
@@ -23,7 +24,7 @@ The Design Configuration makes it easy to edit design-related rules and configur
 
 1. If the theme is to be used for only a specific device, set the **[!UICONTROL User Agent Rules]**.
 
-   ![User-Agent Rules](./assets/configuration-user-agent-rules.png)<!-- zoom -->
+   ![User-Agent Rules](./assets/configuration-user-agent-rules.png){width="400" zoomable="yes"}
 
    For each device type where you want to specify a theme:
 
@@ -31,7 +32,7 @@ The Design Configuration makes it easy to edit design-related rules and configur
 
    - For **[!UICONTROL Search String]**, enter the browser ID for the specific device.
 
-      A search string can be either a normal expression or Perl Compatible Regular Expression (PCRE). To learn more, see [User Agent][1]. The following search string identifies Firefox:
+      A search string can be either a normal expression or Perl Compatible Regular Expression (PCRE) (see [User Agent](https://en.wikipedia.org/wiki/User_agent) for more information). The following search string identifies Firefox:
 
             /^mozilla/i
 
@@ -51,8 +52,6 @@ The Design Configuration makes it easy to edit design-related rules and configur
    - [[!UICONTROL Product Image Watermarks]](../catalog/product-image.md#watermarks)
    - [[!UICONTROL Transactional Emails]](../systems/email-templates.md#configure-email-templates)
 
-   ![Other settings to affect design](./assets/configuration-other-settings.png)<!-- zoom -->
+   ![Other settings to affect design](./assets/configuration-other-settings.png){width="500" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Configuration]**.
-
-[1]: https://en.wikipedia.org/wiki/User_agent

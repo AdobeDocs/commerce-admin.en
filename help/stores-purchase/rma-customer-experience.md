@@ -2,6 +2,7 @@
 title: Returns storefront experience
 description: Learn how your customers can manage their product returns from their account on the storefront.
 exl-id: c276ca2c-3d8b-4019-a9aa-e7631080f331
+feature: Returns, Storefront
 ---
 # Returns storefront experience
 
@@ -20,7 +21,7 @@ As a best practice, make sure to include a description of your RMA requirements 
 
 All customer RMA information is displayed on the **[!UICONTROL My Returns]** page in the customer account dashboard.
 
-![My Returns](./assets/my-returns-page.png)<!-- zoom -->
+![My Returns](./assets/my-returns-page.png){width="700" zoomable="yes"}
 
 ## Request an RMA
 
@@ -36,11 +37,11 @@ The customer completes the following steps on the storefront to submit an RMA:
 
 1. Clicks **[!UICONTROL Continue]**.
 
-   ![Orders and Returns](./assets/storefront-orders-and-returns.png)<!-- zoom -->
+   ![Orders and Returns](./assets/storefront-orders-and-returns.png){width="700" zoomable="yes"}
 
 1. Below the order date, clicks **[!UICONTROL Return]**.
 
-   ![Order detail](./assets/storefront-orders-and-returns-order-information.png)<!-- zoom -->
+   ![Order detail](./assets/storefront-orders-and-returns-order-information.png){width="700" zoomable="yes"}
 
 1. Chooses the item to return and enters the **[!UICONTROL Quantity to Return]**.
 
@@ -63,7 +64,7 @@ The customer completes the following steps on the storefront to submit an RMA:
    - `Out of Service`
    - `Other`
 
-   ![Create New Return](./assets/storefront-orders-and-returns-create-new-return.png)<!-- zoom -->
+   ![Create New Return](./assets/storefront-orders-and-returns-create-new-return.png){width="700" zoomable="yes"}
 
 1. If needed, sets **[!UICONTROL Contact Email Address]** and **[!UICONTROL Comments]**.
 

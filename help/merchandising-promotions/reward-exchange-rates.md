@@ -2,6 +2,7 @@
 title: Reward exchange rates
 description: Learn how to set up the reward exchange rates that determine the number of reward points that are earned.
 exl-id: 4850d853-fb86-4f64-bfee-47915ea028e2
+feature: Rewards, Promotions/Events, Customers
 ---
 # Reward exchange rates
 
@@ -23,15 +24,15 @@ When converting currency to points, the number of points cannot be divided. Any 
 
 ## Set up exchange rates
 
+![Reward exchange rates](./assets/reward-exchange-rates.png){width="700" zoomable="yes"}
+
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_ > **[!UICONTROL Reward Exchange Rates]**.
 
 1. In the upper-right corner, click **[!UICONTROL Add New Rate]**.
 
-   ![Reward exchange rates](./assets/reward-exchange-rates.png)<!-- zoom -->
-
 1. In the **[!UICONTROL Reward Exchange Rate Information]** section, do the following:
 
-   ![Reward exchange rates - information](./assets/reward-exchange-rate-new.png)<!-- zoom -->
+   ![Reward exchange rates - information](./assets/reward-exchange-rate-new.png){width="600" zoomable="yes"}
 
    - Set **[!UICONTROL Website]** to the sites where the reward exchange rate applies.
 

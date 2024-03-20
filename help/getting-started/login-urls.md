@@ -1,15 +1,17 @@
 ---
-title: Login Credentials and URLs
+title: Login credentials and URLs
 description: Learn about the Commerce URLs and account credentials used to gain access to your Admin and to your storefront.
 exl-id: fa16b7e9-e05f-4eb8-bc32-596946c57e1c
+feature: System
+role: Admin, Leader
 ---
-# Login Credentials and URLs
+# Login credentials and URLs
 
-Before you proceed with setup and configuration, make sure that you have the information that is required to access the Admin of your store and your [!DNL Commerce] account.
+Before you proceed with setup and configuration, make sure that you have the information that is required to access the Admin of your store and your Commerce account.
 
 ## Storefront URL
 
-The address for your [storefront](storefront.md) is usually the domain that is assigned to your IP address. Some stores are installed at the root, or topmost directory. Others are installed in a directory below the root. Your store might reside within a subdomain that is associated with your primary domain. Your store URL might look like one of the following:
+The address for your [storefront](storefront.md) is usually the domain that is assigned to your IP address. Some stores are installed at the root, or topmost directory. Others are installed in a directory below the root. The store might reside within a subdomain that is associated with a primary domain. The URL for your store might look like one of the following:
 
 - `http://mydomain.com`
 - `http://www.mydomain.com/mystore`
@@ -26,7 +28,7 @@ The address for your store [Admin](admin.md) is set up during the installation. 
 
 ## [!DNL Commerce] account
 
-Your [[!DNL Commerce] account](commerce-account-create.md) provides access to information about your products and services, account settings, billing history, and support resources. To access your account, go to the main Commerce site and click **[!UICONTROL My Account]** in the upper-right corner.
+Your [Commerce account](commerce-account-create.md) provides access to information about your products and services, account settings, billing history, and support resources. To access your account, go to the main Commerce site and click **[!UICONTROL My Account]** in the upper-right corner.
 
 ## Customer account
 

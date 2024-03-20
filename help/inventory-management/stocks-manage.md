@@ -1,9 +1,9 @@
 ---
-title: Manage Stock
+title: Manage inventory stock
 description: Learn how stock is used to represent a virtual, aggregated inventory of products for sources of your sales channels.
 exl-id: 076b1325-2de4-46d3-9976-d900bd2cef47
 ---
-# Manage Stock
+# Manage stock
 
 Stock represents a virtual, aggregated inventory of products for sources of your sales channels (websites). Depending on your site configuration, the stock may be assigned to one or more sales channels. Each sales channel can only have a single stock assigned to it, and a single stock can be assigned to multiple sales channels. Through the stock, you can modify the prioritization of sources used as orders come through a sales channel.
 
@@ -17,7 +17,7 @@ Sales Channels represent entities selling your inventory. By default, [!DNL Comm
 
 The following diagram helps define how a Stock works in relation to Sources and Sales Channels for a Bicycle Shop merchant.
 
-![Diagram for example stocks for a store](assets/diagram-stock.png)
+![Diagram for example stocks for a store](assets/diagram-stock.png){width="600" zoomable="yes"}
 
 ## Example stocks for a mountain bike and store
 
@@ -31,7 +31,7 @@ For multi-source merchants, create and configure stocks to best fit your stores 
 
 For a multi-store installation, the Default Stock is initially assigned to the [Main Website](../stores-purchase/stores.md#add-websites){target="_blank"} and default store. Correct stock and quantities are displayed for enabled and disabled products in the **[!UICONTROL Products]** grid view.
 
-![Manage Stock](assets/inventory-stock.png)
+![Manage Stock](assets/inventory-stock.png){width="600" zoomable="yes"}
 
 ## Button bar
 

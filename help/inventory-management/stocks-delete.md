@@ -1,15 +1,15 @@
 ---
-title: Delete Stocks
+title: Delete inventory stocks
 description: Learn how to delete an inventory stock.
 exl-id: 420e0bbf-6382-471d-9ad2-16587191e5e7
 ---
-# Delete Stocks
+# Delete stocks
 
 When you delete the stock, all assigned websites are assigned to the Default Stock. Reassigning websites to other stocks before deletion is recommended.
 
 >[!IMPORTANT]
 >
->Deleting a [stock](stocks-manage.md) can affect salable quantities and unprocessed orders for a sales channel. If you continue using a sales channel, please add the sales channel to another existing or new stock.
+>Deleting a [stock](stocks-manage.md) can affect salable quantities and unprocessed orders for a sales channel. If you continue using a sales channel, add the sales channel to another existing or new stock.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_ > **[!UICONTROL Stocks]**.
 
@@ -19,10 +19,10 @@ When you delete the stock, all assigned websites are assigned to the Default Sto
 
 1. From the **[!UICONTROL Actions]** menu, select **[!UICONTROL Delete]**.
 
-   ![Select Delete from the Actions menu](assets/inventory-stock-delete.png)
+   ![Select Delete from the Actions menu](assets/inventory-stock-delete.png){width="350" zoomable="yes"}
 
 1. In the confirmation dialog, click **[!UICONTROL OK]**.
 
    The stock is deleted and any assigned sales channels are unmapped.
 
-   ![Stock delete verification message](assets/inventory-stock-delete-confirm.png)
+   ![Stock delete verification message](assets/inventory-stock-delete-confirm.png){width="350" zoomable="yes"}

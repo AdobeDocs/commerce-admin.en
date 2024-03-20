@@ -2,6 +2,7 @@
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Login As Customer]'
 description: Review the configurations settings on the [!UICONTROL Customers] &gt; [!UICONTROL Login As Customer] page of the Commerce Admin.
 exl-id: fe5925a2-f66f-44a1-aead-8b1abcbd9db2
+feature: Configuration, Customer Service
 ---
 # [!UICONTROL Customers] > [!UICONTROL Login As Customer]
 
@@ -21,4 +22,4 @@ exl-id: fe5925a2-f66f-44a1-aead-8b1abcbd9db2
 | [!UICONTROL Title for Login as Customer opt-in checkbox] | Website | Adds a title for the `Login as customer` checkbox. |
 | [!UICONTROL Login as Customer checkbox tooltip] | Website | Adds a tooltip for the `Log in as customer` checkbox. |
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

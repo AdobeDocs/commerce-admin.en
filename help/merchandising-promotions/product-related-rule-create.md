@@ -2,6 +2,7 @@
 title: Create a related product rule
 description: Learn how to create a related product rule that can be triggered to display related products, up-sells, and cross-sells.
 exl-id: fbc059ec-d3e6-46ca-810a-a979a0631dd8
+feature: Merchandising, Products, Storefront
 ---
 # Create a related product rule
 
@@ -13,13 +14,17 @@ The process of creating a related product rule is similar to setting up a price 
 >
 >For an attribute to be used in a targeted rule, the [_[!UICONTROL Use for Promo Rule Conditions]_](../catalog/product-attributes.md) property must be set to `Yes`.
 
+>[!NOTE]
+>
+>The `All Store Views` scope value is always used for both [!UICONTROL Products to Match] and [!UICONTROL Products to Display] conditions for all product attributes. This also applies when the product attributes have different values for different store views and websites.
+
 ## Create a related product rule
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_ > **[!UICONTROL Related Product Rules]**.
 
 1. In the upper-right corner, click **[!UICONTROL Add Rule]**.
 
-   ![Related products rule - information](./assets/catalog-related-products-rule-information.png)<!-- zoom -->
+   ![Related products rule - information](./assets/catalog-related-products-rule-information.png){width="600" zoomable="yes"}
 
 1. Complete the **[!UICONTROL Rule Information]** as follows:
 
@@ -41,13 +46,17 @@ The process of creating a related product rule is similar to setting up a price 
 
    - If the rule applies to a specific [customer segment](../customers/customer-segments.md), set **[!UICONTROL Customer Segments]** to `Specified` and choose the customer segment from the list.
 
+   - (**Beta**) If the rule applies to a specific [Real-Time CDP audience](../customers/audience-activation.md), set **[!UICONTROL Real-Time CDP Audience]** to `Specified` and choose the Real-Time CDP audience from the list. This feature is in beta. If you would like to join the beta program, send a request to [dataconnection@adobe.com](mailto:dataconnection@adobe.com). 
+
+      ![Related products rule - Real-Time CDP audience](./assets/rtcdp-related-products.png){width="500"}
+
 1. In the left panel, choose **[!UICONTROL Products to Match]** and build the conditions as you would for a [catalog price rule](price-rules-catalog.md).
 
-   ![Related products rule - products to match](./assets/catalog-related-products-match.png)<!-- zoom -->
+   ![Related products rule - products to match](./assets/catalog-related-products-match.png){width="500"}
 
 1. In the left panel, choose **[!UICONTROL Products to Display]** and build the results conditions as you would for a [catalog price rule](price-rules-catalog.md).
 
-   ![Related products rule - products to display](./assets/catalog-related-products-to-display.png)<!-- zoom -->
+   ![Related products rule - products to display](./assets/catalog-related-products-to-display.png){width="500"}
 
    Complete the condition to describe the products that you want to include in the displayed results.
 

@@ -1,9 +1,10 @@
 ---
-title: Configure Global Options
+title: "Configure [!DNL Inventory Management] global options"
 description: Learn how to configure the default [!DNL Inventory Management] configuration options for product and stock for your websites.
 exl-id: 1a8c9605-ae61-4d45-b549-64911b329203
+feature: Inventory, Configuration
 ---
-# Configure Global Options
+# Configure [!DNL Inventory Management] global options
 
 Configure the default configuration options for product and stock for your websites. Some of these settings can be overridden per product through [Configuring Product Options](product-options.md). To configure Distance Priority settings, see [Configuring Distance Priority Algorithm](distance-priority-algorithm.md).
 
@@ -15,7 +16,7 @@ Configure the default configuration options for product and stock for your websi
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Stock Options]** section and set the options:
 
-   ![Stock Options](assets/config-catalog-inventory-stock-options.png)
+   ![Stock Options](assets/config-catalog-inventory-stock-options.png){width="600" zoomable="yes"}
 
     - To adjust the quantity on hand when an order is placed, set **[!UICONTROL Decrease Stock When Order is Placed]** to `Yes`.
 
@@ -27,7 +28,7 @@ Configure the default configuration options for product and stock for your websi
 
     - To set the start for displaying the last remaining inventory amount on the product page, enter an amount for **[!UICONTROL Only X left Threshold]**.
 
-      The message begins to appear when the quantity in stock reaches the threshold. For example, if set to `3`, the message "Only 3 left" appears when the quantity in stock reaches three. The message adjusts to reflect the quantity in stock, until the quantity reaches zero.
+      The message begins to appear when the quantity in stock reaches the threshold. For example, if set to `3`, the message `Only 3 left` appears when the quantity in stock reaches three. The message adjusts to reflect the quantity in stock, until the quantity reaches zero.
 
     - To display an "In Stock" or "Out of Stock" message on the product page, set **[!UICONTROL Display Products Availability In Stock on Storefront]** to `Yes`.
 
@@ -39,15 +40,15 @@ Configure the default configuration options for product and stock for your websi
 
     - To activate [inventory control](enable.md) for your catalog, set **[!UICONTROL Manage Stock]** to `Yes`.
 
-      ![Product Stock Options](assets/config-catalog-inventory-product-stock-options.png)
+      ![Product Stock Options](assets/config-catalog-inventory-product-stock-options.png){width="600" zoomable="yes"}
 
     - Set **[!UICONTROL Backorders]** to one of the following:
 
        | Option| Description |
        | ----- | ----- |
-       | `No Backorders` | To not accept [backorders](backorders.md) when product is out of stock. |
-       | `Allow Qty Below 0` | To accept backorders when the quantity falls below zero. |
-       | `Allow Qty Below 0 and Notify Customer` | To accept backorders when the quantity falls below zero, and notify the customer that the order can still be placed. |
+       | `No Backorders` | [Backorders](backorders.md) are not accepted when product is out of stock. |
+       | `Allow Qty Below 0` | Backorders are accepted when the quantity falls below zero. |
+       | `Allow Qty Below 0 and Notify Customer` | Backorders are accepted when the quantity falls below zero, and the system notifies the customer that the order can still be placed. |
 
     - Enter the **[!UICONTROL Maximum Qty Allowed in Shopping Cart]**.
 
@@ -65,13 +66,13 @@ Configure the default configuration options for product and stock for your websi
 
     - To activate quantity increments for the product, set **[!UICONTROL Enable Qty Increments]** to `Yes`. Then, for **[!UICONTROL Qty Increments]**, enter the number of the items that must be purchased to meet the requirement.
 
-      For example, an item that is sold in increments of six can be purchased in quantities of 6, 12, 18, and so on.
+      For example, an item that is sold in increments of six can be purchased in quantities of `6`, `12`, `18`, and so on.
 
     - For [!DNL Inventory Management], **[!UICONTROL Automatically Return Credit Memo Item to Stock]** is set to `No`. When submitting a credit memo, you enter and select to return stock to sources.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Admin bulk operations]** section and set the options:
 
-   ![Admin Bulk Operations](assets/config-catalog-inventory-admin-bulk-operations.png)
+   ![Admin Bulk Operations](assets/config-catalog-inventory-admin-bulk-operations.png){width="600" zoomable="yes"}
 
     - Set **[!UICONTROL Run asynchronously]** to run bulk operations asynchronously for mass product actions
 

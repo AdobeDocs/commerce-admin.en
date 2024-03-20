@@ -1,11 +1,12 @@
 ---
-title: Extensions
+title: Extensions from Adobe
 description: Review information about extensions for Adobe Commerce and Magento Open Source released by Adobe.
 exl-id: 86338edc-c32a-41c8-9594-6aec26f53ac6
+feature: Extensions
 ---
-# Extensions
+# Extensions from Adobe
 
-This topic provides information about extensions for Adobe Commerce and Magento Open Source released by Adobe. Extensions add features, functionality, services, and integrations to the Admin and storefront. Some of these extensions are developed through Magento Open Source Community contributions. Some extensions require separate installation, and others are installed by default.
+This topic provides information about extensions for Adobe Commerce and Magento Open Source that are released by Adobe. Extensions add features, functionality, services, and integrations to the Admin and storefront. Some of these extensions are developed through Magento Open Source Community contributions. Some extensions require separate installation, and others are installed by default.
 
 ## Installed extensions
 
@@ -23,9 +24,9 @@ There are some extensions that are automatically installed with Adobe Commerce o
 
 ### Braintree
 
-PayPal and Gene Commerce together developed the official Braintree extension for [!DNL Commerce] 2.4.x stores. Featuring an improved checkout experience designed to drive conversion, the updates include Pay Later options that automatically show relevant Pay Later messages and buttons to consumers while shopping and during checkout. 
+PayPal and Gene Commerce together developed the official Braintree extension for Commerce 2.4.x stores. Featuring an improved checkout experience designed to drive conversion, the updates include PayLater options that automatically show relevant PayLater messages and buttons to consumers while shopping and during checkout. 
 
-This extension is installed by default, but requires a [Braintree account](https://signups.braintreepayments.com/) and configuration in the Admin to be enabled for your store. To determine the fees that apply when using Braintree to process your transactions, check the [Braintree pricing](https://www.braintreepayments.com/braintree-pricing).
+This extension is installed by default, but requires a [Braintree account](https://www.braintreepayments.com/) and configuration in the Admin to be enabled for your store. To determine the fees that apply when using Braintree to process your transactions, check the [Braintree pricing](https://www.braintreepayments.com/braintree-pricing).
 
 For information about Braintree configuration in the Admin, see the [Braintree](../stores-purchase/braintree.md) topic in the _Sales and Purchase Experience Guide_.
 
@@ -87,8 +88,8 @@ Store Fulfillment for Adobe Commerce and Magento Open Source enables a superior 
 
 ### [!DNL Amazon Sales Channel]
 
-The [!DNL Amazon Sales Channel] for Adobe Commerce and Magento Open Source enables you to integrate your Amazon Seller Central listing database with your [!DNL Commerce] product catalog and manage your Amazon listings and sales in the [!DNL Commerce] Admin. See the [[!DNL Amazon Sales] Guide User Guide](https://experienceleague.adobe.com/docs/commerce-channels/amazon/guide-overview.html) for more information.
+The [!DNL Amazon Sales Channel] for Adobe Commerce enables you to integrate your Amazon Seller Central listing database with your [!DNL Commerce] product catalog and manage your Amazon listings and sales in the Commerce Admin. See the [[!DNL Amazon Sales] Guide User Guide](https://experienceleague.adobe.com/docs/commerce-channels/amazon/guide-overview.html) for more information.
 
 ### [!DNL Channel Manager]
 
-[!DNL Channel Manager] enables you to increase sales, reach new customers, streamline operations, and save time by integrating an Adobe Commerce or Magento Open Source product catalog with the Walmart Marketplace. After installing and configuring the extension, your staff can manage Walmart Marketplace listings, inventory, orders, returns and refunds seamlessly from the [!DNL Commerce Admin]. See the [[!DNL Channel Manager] User Guide](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/guide-overview.html) for more information.
+[!DNL Channel Manager] enables you to increase sales, reach new customers, streamline operations, and save time by integrating an Adobe Commerce or Magento Open Source product catalog with the Walmart Marketplace. After installing and configuring the extension, your staff can manage Walmart Marketplace listings, inventory, orders, returns, and refunds seamlessly from the [!DNL Commerce Admin]. See the [[!DNL Channel Manager] User Guide](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/guide-overview.html) for more information.

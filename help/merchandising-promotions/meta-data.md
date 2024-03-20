@@ -2,24 +2,25 @@
 title: Meta data
 description: Learn about how can enter keyword-rich meta data to improve the way search engines index your Commerce site.
 exl-id: 2acc1523-9da6-4e6f-8e4f-607603a61559
+feature: Merchandising, Search
 ---
 # Meta data
 
 Your store is loaded with places where you can enter keyword-rich meta data to improve the way search engines index your site. While setting up your store, you might enter preliminary meta data, with the intention of finishing it later. Over time, you can fine-tune the meta data to target the buying patterns and preferences of your customers.
 
-![Product settings - search engine optimization](./assets/product-basic-settings-search-engine-optimization-yoga-strap.png)<!-- zoom -->
+![Product settings - search engine optimization](./assets/product-basic-settings-search-engine-optimization-yoga-strap.png){width="700" zoomable="yes"}
 
 ## Meta title
 
 The meta title appears in the title bar and tab of your browser and search results listings. The meta title should be unique to the page, and fewer than 70 characters in length.
 
-![Example storefront - meta title](./assets/storefront-home-page-meta-title.png)<!-- zoom -->
+![Example storefront - meta title](./assets/storefront-home-page-meta-title.png){width="600"}
 
 ## Meta keywords
 
 Although some search engines ignore meta keywords, others continue to use them. The current best practice is to incorporate high-value keywords in the meta title and meta description.
 
-![Web browser search - meta keywords](./assets/storefront-meta-description.png)<!-- zoom -->
+![Web browser search - meta keywords](./assets/storefront-meta-description.png){width="500"}
 
 ## Meta description
 
@@ -66,7 +67,7 @@ You can avoid being penalized by search engines by omitting the category from th
 
     To change any field values, you must first clear the **Use system value** checkbox after each field.
 
-    ![Catalog configuration - search engine optimization](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png)<!-- zoom -->
+    ![Catalog configuration - search engine optimization](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
 
 1. If you want search engines to index only category pages using the full category path, do the following:
 

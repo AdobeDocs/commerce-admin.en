@@ -2,6 +2,7 @@
 title: Product attributes overview
 description: Learn about product attributes and how they are used to describe specific characteristics of a product.
 exl-id: e15770ee-fb71-43f0-8c26-e8029935799a
+feature: Catalog Management, Products
 ---
 # Product attributes overview
 
@@ -9,7 +10,7 @@ Attributes are the building blocks of your product catalog, and describe specifi
 
 Attributes determine the type of input control that is used for product options, and provide additional information for product pages. They are also used as search parameters and criteria for layered navigation, product comparison reports, and promotions. You can create as many attributes and attribute sets as necessary to describe the products in your catalog. In addition to the attributes that you can create, system attributes, such as price, are built into the core Commerce platform and cannot be changed.
 
-![Creating a New Attribute While Editing a Product](./assets/attribute-new-product.png)<!-- zoom -->
+![Creating a new attribute while editing a product](./assets/product-attribute-add-new.png){width="600" zoomable="yes"}
 
 Use the best practices described in the following sections when you plan and create product attributes.
 

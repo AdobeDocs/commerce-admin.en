@@ -2,6 +2,7 @@
 title: Layout - Row
 description: Learn about the Row content type, used to add a row in the [!DNL Page Builder] stage.
 exl-id: 0aa8bf6f-7ae3-4718-9f76-430ed63ba05c
+feature: Page Builder, Page Content
 ---
 # Layout - Row
 
@@ -13,35 +14,37 @@ Use the _Row_ content type to add a row in the [[!DNL Page Builder] stage](works
 
 The row toolbox appears when you hover over the row container. The toolbox includes options to move, hide, duplicate, edit, or remove the row. The selection of settings determines the appearance, background, and layout of the row. Additional content elements can be dragged to the row from the [!DNL Page Builder] panel on the left.
 
-![Row toolbox](./assets/pb-layout-page-add-content-row-tools.png)<!-- zoom -->
+![Row toolbox](./assets/pb-layout-page-add-content-row-tools.png){width="600" zoomable="yes"}
 
 | Tool      | Icon       | Description |
 | --------- | ---------- | ----------- |
-| Move | ![Move icon](./assets/pb-icon-move.png) | Moves the row to another position in relation to other rows on the stage. |
+| Move | ![Move icon](./assets/pb-icon-move.png){width="25"} | Moves the row to another position in relation to other rows on the stage. |
 | (label) | [!UICONTROL Row]  | Identifies the current content container as a row. Hover over the container to see the toolbox. |
-| Settings | ![Settings icon](./assets/pb-icon-settings.png) | Opens the Edit Row page, where you can change the properties of the container. |
-| Hide | ![Hide icon](./assets/pb-icon-hide.png) | Hides the current row. |
-| Show | ![Show icon](./assets/pb-icon-show.png) | Shows the hidden row. |
-| Duplicate | ![Duplicate icon](./assets/pb-icon-duplicate.png) | Makes a copy of the row. |
-| Remove | ![Remove icon](./assets/pb-icon-remove.png) | Deletes the row container and its content from the stage. |
+| Settings | ![Settings icon](./assets/pb-icon-settings.png){width="25"} | Opens the Edit Row page, where you can change the properties of the container. |
+| Hide | ![Hide icon](./assets/pb-icon-hide.png){width="25"} | Hides the current row. |
+| Show | ![Show icon](./assets/pb-icon-show.png){width="25"} | Shows the hidden row. |
+| Duplicate | ![Duplicate icon](./assets/pb-icon-duplicate.png){width="25"} | Makes a copy of the row. |
+| Remove | ![Remove icon](./assets/pb-icon-remove.png){width="25"} | Deletes the row container and its content from the stage. |
 
 {style="table-layout:auto"}
+
+{{$include /help/_includes/page-builder-hidden-element-note.md}}
 
 ## Add a row
 
 1. In the [!DNL Page Builder] panel under _[!UICONTROL Layout]_, drag a new **[!UICONTROL Row]** to the stage, just below the first row.
 
-1. To format the row, hover over the row container to display the toolbox and choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon.
+1. To format the row, hover over the row container to display the toolbox and choose the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png){width="20"} ) icon.
 
    Use the following sections for detailed information about completing the available settings.
 
-   ![Adding a row](./assets/pb-layout-row-add.png)<!-- zoom -->
+   ![Adding a row](./assets/pb-layout-row-add.png){width="600" zoomable="yes"}
 
 ## Change row settings
 
-1. Hover over the row container to display the toolbox and choose the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)<!-- width="20px" --> ) icon.
+1. Hover over the row container to display the toolbox and choose the _Settings_ ( ![Settings icon](./assets/pb-icon-settings.png){width="20"} ) icon.
 
-   ![Row toolbox](./assets/pb-tutorial1-row-toolbox.png)<!-- zoom -->
+   ![Row toolbox](./assets/pb-tutorial1-row-toolbox.png){width="600" zoomable="yes"}
 
 1. Use the following sections for detailed information about updating the available settings.
 
@@ -51,9 +54,9 @@ The row toolbox appears when you hover over the row container. The toolbox inclu
 
 Use the _Appearance_ settings to determine how content is displayed in the row.
 
-![Appearance settings](./assets/pb-row-layout.png)<!-- zoom -->
+![Appearance settings](./assets/pb-row-layout.png){width="600" zoomable="yes"}
 
--  To determine how the background color and/or background image appears in relation to the container and width of the content area, choose the alignment:
+- To determine how the background color and/or background image appears in relation to the container and width of the content area, choose the alignment:
 
    | Option | Description |
    | ------ | ----------- |
@@ -77,7 +80,7 @@ There are many options for defining the background display of a row. You can app
 
 Specify the background color by choosing a swatch, by clicking the color picker, or by entering a valid color name or equivalent hexadecimal value. This setting determines the background color of the row. You can also adjust the opacity of the color.
 
-![No color (default)](./assets/pb-settings-background-color-no-color.png)<!-- zoom -->
+![No color (default)](./assets/pb-settings-background-color-no-color.png){width="200"}
 
 You can set the value in one of three ways:
 
@@ -87,11 +90,11 @@ You can set the value in one of three ways:
 
 If you want to choose a color, click the swatch to the left of the _No Color_ box.
 
-![Choosing a color swatch](./assets/pb-settings-background-color-picker-swatch.png)<!-- zoom -->
+![Choosing a color swatch](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
 
 If you click the color box to open the color picker again, the box below the slider shows the current red, green, blue, and alpha values (rgba). The last number indicates the current opacity percentage as a decimal. You can use the slider to adjust the opacity, or enter the desired decimal value.
 
-![Setting opacity](./assets/pb-settings-background-color.png)<!-- zoom -->
+![Setting opacity](./assets/pb-settings-background-color.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -101,13 +104,13 @@ If you click the color box to open the color picker again, the box below the sli
 
 A background type can be an image or a video. [!DNL Page Builder] defaults to `Image` and shows various image settings. If you select `Video`, [!DNL Page Builder] swaps the image settings with video settings. Both background types are described as follows.
 
-![Background type](./assets/pb-background-type.png)<!-- zoom -->
+![Background type](./assets/pb-background-type.png){width="200"}
 
 ### Image type settings
 
 If you set the _[!UICONTROL Background Type]_ to `Image`, use the following settings to define the background image display.
 
-![Background image](./assets/pb-tutorial1-row-settings-background-image-selected.png)<!-- zoom -->
+![Background image](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
 
 - **[!UICONTROL Background Image]** - If needed, use the provided tools to choose a background image to apply to the row:
 
@@ -115,7 +118,7 @@ If you set the _[!UICONTROL Background Type]_ to `Image`, use the following sett
    | ------ | ----------- |
    | [!UICONTROL Upload] |Uploads an image file from your local computer to the gallery and then applies it as the background image for the row. |
    | [!UICONTROL Select from Gallery] |Prompts you to choose an existing image from the gallery as the background image for the row. |
-   | ![Camera icon](./assets/pb-icon-camera.png)<!-- width="25px" --> |Allows you to either drag the image to the camera tile or browse to the image in your local file system. |
+   | ![Camera icon](./assets/pb-icon-camera.png){width="25"} |Allows you to either drag the image to the camera tile or browse to the image in your local file system. |
 
    {style="table-layout:auto"}
 
@@ -131,7 +134,7 @@ If you set the _[!UICONTROL Background Type]_ to `Image`, use the following sett
 
    {style="table-layout:auto"}
 
-   ![Background Size](./assets/pb-layout-row-settings-background-size-cover.png)<!-- zoom -->
+   ![Background Size](./assets/pb-layout-row-settings-background-size-cover.png){width="250"}
 
 - **[!UICONTROL Background Position]** - Set this option to determine how the background image is anchored in relation to the row:
 
@@ -166,7 +169,7 @@ If you set the _Background Type_ to `Video`, use the following settings to defin
    - Vimeo videos: `https://vimeo.com/190156113`
    - Valid video files (`.mp4` is recommended): `https://myvideos.com/spiral.mp4`
 
-   ![Background video URL](./assets/pb-video-url.png)<!-- zoom -->
+   ![Background video URL](./assets/pb-video-url.png){width="300"}
 
 - **[!UICONTROL Overlay Color]** - Select a color to apply a transparent tint to the video.
 
@@ -185,7 +188,7 @@ Use these options to control the speed of a scrolling background image or video 
 - Set **Enable Parallax Background** to `Yes`.
 - Enter the **Parallax Speed** as a decimal value between `-1.0` and `2.0`.
 
-![Parallax Background settings](./assets/pb-settings-parallax-background.png)<!-- zoom -->
+![Parallax Background settings](./assets/pb-settings-parallax-background.png){width="600" zoomable="yes"}
 
 ## Advanced
 
@@ -219,7 +222,7 @@ Use these options to control the speed of a scrolling background image or video 
 
 - If you set a border style other than `None`, complete the border display options:
 
-   ![Border Color](./assets/pb-settings-border-color.png)<!-- zoom -->
+   ![Border Color](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
    
    | Option | Description |
    | ------ |------------ |
@@ -231,7 +234,7 @@ Use these options to control the speed of a scrolling background image or video 
 
    The row in the following example has a border radius of 15.
 
-   ![Row with Border Radius of 15](./assets/pb-settings-border-radius-15.png)<!-- zoom -->
+   ![Row with Border Radius of 15](./assets/pb-settings-border-radius-15.png){width="500"}
 
 - (Optional) Specify the names of **[!UICONTROL CSS classes]** from the current style sheet to apply to the row container.
 
@@ -248,4 +251,4 @@ Use these options to control the speed of a scrolling background image or video 
 
    {style="table-layout:auto"}
 
-   ![Margins and Padding](./assets/pb-layout-row-settings-margin-padding-default.png)<!-- zoom -->
+   ![Margins and Padding](./assets/pb-layout-row-settings-margin-padding-default.png){width="600" zoomable="yes"}

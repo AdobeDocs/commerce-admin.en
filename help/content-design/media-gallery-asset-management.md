@@ -1,11 +1,12 @@
 ---
-title: Media Gallery Asset Management
+title: Media Gallery asset management
 description: Learn how to manage uploaded media files, and assets that you acquire through an Adobe Stock integration.
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
+feature: Page Content, Media
 ---
-# Media Gallery Asset Management
+# Media Gallery asset management
 
-The new [Media Gallery](media-gallery.md) provides tools for managing uploaded media files, and assets that you acquire through an [Adobe Stock integration][adobe-stock-integration]. If you have saved an Adobe Stock [image preview][save-preview], you can also [license][stock-license] the image in the new Media Gallery.
+The new [Media Gallery](media-gallery.md) provides tools for managing uploaded media files, and assets that you acquire through an [Adobe Stock integration](adobe-stock.md). If you have saved an Adobe Stock [image preview](adobe-stock-save-preview.md), you can also [license](adobe-stock-license-image.md) the image in the new Media Gallery.
 
 ## Upload an asset
 
@@ -21,9 +22,9 @@ The new [Media Gallery](media-gallery.md) provides tools for managing uploaded m
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Media]_ > **[!UICONTROL Media Gallery]**.
 
-1. Click the three dots below the asset (![Details icon](./assets/media-gallery-asset-menu-icon.png)), then click **[!UICONTROL View Details]**.
+1. Click the three dots below the asset (![Details icon](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}), then click **[!UICONTROL View Details]**.
 
-    ![Asset Actions](./assets/media-gallery-asset-actions.png)<!-- zoom -->
+    ![Asset Actions](./assets/media-gallery-asset-actions.png){width="600" zoomable="yes"}
 
     The asset details are displayed on a slide panel. They include the information where the asset is being used:
 
@@ -32,11 +33,11 @@ The new [Media Gallery](media-gallery.md) provides tools for managing uploaded m
    - **[!UICONTROL Pages]**
    - **[!UICONTROL Blocks]**
 
-    ![Asset Details](./assets/media-gallery-asset-details.png)<!-- zoom -->
+    ![Asset Details](./assets/media-gallery-asset-details.png){width="600" zoomable="yes"}
 
     To see the details, click the **[!UICONTROL Used In]** links . The grid in the following example shows all categories where a specific asset is used.
 
-    ![Category Grid](./assets/media-gallery-asset-categories.png)<!-- zoom -->
+    ![Category Grid](./assets/media-gallery-asset-categories.png){width="600" zoomable="yes"}
 
     It is also possible to delete the asset from the _View Details_ section.
 
@@ -44,9 +45,9 @@ The new [Media Gallery](media-gallery.md) provides tools for managing uploaded m
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Media]_ > **[!UICONTROL Media Gallery]**.
 
-1. Click the three dots below the asset (![Asset menu icon](./assets/media-gallery-asset-menu-icon.png)), then click **[!UICONTROL Edit]**.
+1. Click the three dots below the asset (![Asset menu icon](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}), then click **[!UICONTROL Edit]**.
 
-    ![Edit Asset](./assets/media-gallery-edit-asset.png)<!-- zoom -->
+    ![Edit Asset](./assets/media-gallery-edit-asset.png){width="600" zoomable="yes"}
 
 1. If needed, change one of the following metadata values:
 
@@ -60,13 +61,13 @@ The new [Media Gallery](media-gallery.md) provides tools for managing uploaded m
 
 ## Use an asset
 
-Assets can be used extensively throughout the Admin, such as [add or edit a page][add-edit-page], [create or edit a category][create-edit-category], or [insert images from the Content Editor][editor-insert-media].
+Assets can be used extensively throughout the Admin, such as [add or edit a page](page-add.md), [create or edit a category](../catalog/category-create.md), or [insert images from the Content Editor](editor-insert-image.md).
 
 1. Access the new Media Gallery from an area that allows you to use media assets.
 
 1. Select the asset and click **[!UICONTROL Add Selected]**.
 
-    ![Add Selected](./assets/media-gallery-selected-assets.png)<!-- zoom -->
+{{$include /help/_includes/image-optimization-animated-gif-note.md}}
 
 ## Delete assets
 
@@ -76,7 +77,7 @@ Assets can be used extensively throughout the Admin, such as [add or edit a page
 
 1. In the confirmation dialog, click **[!UICONTROL Delete Image]**.
 
-    ![Delete Confirmation](./assets/media-gallery-bulk-delete-confirm.png)<!-- zoom -->
+    ![Delete Confirmation](./assets/media-gallery-bulk-delete-confirm.png){width="500" zoomable="yes"}
 
 ## Search for assets
 
@@ -86,13 +87,13 @@ Assets can be used extensively throughout the Admin, such as [add or edit a page
 
     The search in the following example finds assets that contain a specific tag (`mountain`).
 
-    ![Asset Search](./assets/media-gallery-asset-search.png)<!-- zoom -->
+    ![Asset Search](./assets/media-gallery-asset-search.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->To learn how you can update image tags, see the [Edit an asset][edit-asset] section.
+>To learn how you can update image tags, see the _[Edit an asset](#edit-an-asset)_ section.
 
-## Filtering assets
+## Filter assets
 
 >[!NOTE]
 >
@@ -102,7 +103,7 @@ Assets can be used extensively throughout the Admin, such as [add or edit a page
 
 1. Click the **[!UICONTROL Filters]** tab.
 
-    ![Filters](./assets/media-gallery-filters.png)<!-- zoom -->
+    ![Filters](./assets/media-gallery-filters.png){width="600" zoomable="yes"}
 
 1. Set the filtering options.
 
@@ -119,20 +120,10 @@ Assets can be used extensively throughout the Admin, such as [add or edit a page
 
    The filtering in the following example finds assets that are used in a specific category (`cars`) and are enabled.
 
-    ![Filter for Enabled Assets by Category](./assets/media-gallery-filter-by-category.png)<!-- zoom -->
+    ![Filter for Enabled Assets by Category](./assets/media-gallery-filter-by-category.png){width="600" zoomable="yes"}
 
-## Finding image duplicates
+## Find image duplicates
 
 1. Click the **[!UICONTROL Filters]** tab and select the **[!UICONTROL Show duplicates]** checkbox.
 
 1. To see the results, click **[!UICONTROL Apply Filters]**.
-
-    ![Show Duplicates](./assets/media-gallery-filter-duplicates.png)<!-- zoom -->
-
-[adobe-stock-integration]: adobe-stock.md
-[save-preview]: adobe-stock-save-preview.md
-[stock-license]: adobe-stock-license-image.md
-[add-edit-page]: page-add.md
-[create-edit-category]: ../catalog/category-create.md
-[editor-insert-media]: editor-insert-image.md
-[edit-asset]: #edit-an-asset

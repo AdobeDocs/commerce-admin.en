@@ -2,6 +2,7 @@
 title: Gift card product
 description: Learn how to create a gift card product that produces a unique code to be redeemed by a recipient customer during checkout.
 exl-id: bc4b60fe-10b3-4d17-85ce-35c2720c90a2
+feature: Catalog Management, Products, Gift
 ---
 # Gift card product
 
@@ -9,7 +10,7 @@ exl-id: bc4b60fe-10b3-4d17-85ce-35c2720c90a2
 
 Each gift card has a unique code, which can be redeemed by only one customer during checkout. A [code pool](../stores-purchase/product-gift-card-accounts.md#step-3-establish-the-gift-card-code-pool) must be established before gift cards can be sold. See [Gift card workflow](../stores-purchase/product-gift-card-workflow.md) for information about how gift cards are redeemed in the shopping cart.
 
-![Gift card product page](./assets/storefront-giftcard-product-page.png)<!-- zoom -->
+![Gift card product page](./assets/storefront-giftcard-product-page.png){width="700" zoomable="yes"}
 
 There are three kinds of gift card products:
 
@@ -27,10 +28,10 @@ The following instructions demonstrate the process of creating a gift card using
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. In the upper-right corner on the _[!UICONTROL Add Product]_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png)<!-- {: width="25px"} --> ) menu, choose **[!UICONTROL Gift Card]**.
+1. In the upper-right corner on the _[!UICONTROL Add Product]_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png){width="25"}  ) menu, choose **[!UICONTROL Gift Card]**.
 
-   ![Add Gift Card](./assets/product-add-gift-card.png)<!-- zoom -->
-
+   ![Add Gift Card](./assets/product-add-gift-card.png){width="700" zoomable="yes"}
+     
 ### Step 2: Choose the attribute set
 
 You can use the default `Gift Card` attribute set or choose another. To choose the attribute set that is used as a template for the product, do one of the following:
@@ -39,7 +40,7 @@ You can use the default `Gift Card` attribute set or choose another. To choose t
 
 - In the displayed list, choose the attribute set that you want to use.
 
-![Choose Attribute Set](./assets/product-create-choose-attribute-set-gift-card.png)<!-- zoom -->
+![Choose Attribute Set](./assets/product-create-choose-attribute-set-gift-card.png){width="600" zoomable="yes"}
 
 ### Step 3: Complete the required settings
 
@@ -57,13 +58,11 @@ You can use the default `Gift Card` attribute set or choose another. To choose t
    - `Physical` - Physical gift cards can be mass produced in advance and embossed with unique codes.
    - `Combined` - A combined gift card has the characteristics of both a virtual and physical gift card.
 
-   ![Gift Card Type](./assets/product-create-gift-card-type.png)<!-- zoom -->
+   ![Gift Card Type](./assets/product-create-gift-card-type.png){width="600" zoomable="yes"}
 
 1. To offer the customer a choice of fixed amounts, click **[!UICONTROL Add Amount]** and enter the first fixed value of the card as a decimal.
 
-   Repeat this step to enter the selection of fixed amounts.
-
-   ![Gift Card Amounts](./assets/product-create-gift-card-amounts.png)<!-- zoom -->
+   To enter the selection of fixed amounts, repeat this step for each.
 
 1. To give customers the ability to set the value of the gift card, do the following:
 
@@ -72,6 +71,12 @@ You can use the default `Gift Card` attribute set or choose another. To choose t
    - To define the range of minimum and maximum acceptable values, enter the **[!UICONTROL Open Amount From]** and **[!UICONTROL To]** values.
 
    You can create gift cards with fixed pricing, open amount pricing, or both.
+
+   >[!NOTE]
+   >
+   >A gift card product does not have its own price in the catalog. The gift card price is derived from the selected gift card amount during the purchase.
+
+   ![Gift Card Amounts](./assets/product-create-gift-card-amounts.png){width="600" zoomable="yes"}
 
 ### Step 4: Complete the basic settings
 
@@ -91,7 +96,7 @@ The _[!UICONTROL Gift Card Information]_ section of the product settings can be 
 
    The default settings in this section are determined by the system configuration.
 
-   ![Gift Card Information](./assets/product-gift-card-information.png)<!-- zoom -->
+   ![Gift Card Information](./assets/product-gift-card-information.png){width="600" zoomable="yes"}
 
 1. Change additional fields according to how you want the gift card to function:
 
@@ -128,13 +133,11 @@ Complete the information in the following sections as needed:
 
    - To view the product in your store, choose **[!UICONTROL Customer View]** on the _Admin_ ( ![Menu arrow](../assets/icon-menu-down-arrow-black.png) ) menu,
 
-   ![Customer View](./assets/admin-customer-view.png)<!-- zoom -->
+   ![Customer View](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
 
    **Method 2:** Save and Close
 
-   On the _[!UICONTROL Save]_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png)<!-- {: width="25px"} --> ) menu, choose **[!UICONTROL Save & Close]**.
-
-   ![Save & Close](./assets/product-edit-save-close.png)<!-- zoom -->
+   On the _[!UICONTROL Save]_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png){width="25"} ) menu, choose **[!UICONTROL Save & Close]**.
 
 ## Things to remember
 
@@ -147,5 +150,7 @@ Complete the information in the following sections as needed:
 - The lifetime of a gift card can be unlimited or set to a specified number of days.
 
 - The value of a gift card can be set to a fixed amount or set to an open amount with a minimum and maximum value.
+
+- A gift card product does not have its own price in the catalog. The gift card price is derived from the selected gift card amount during the purchase.
 
 - A gift card account for the customer can be created when the order is placed or at the time of invoice.

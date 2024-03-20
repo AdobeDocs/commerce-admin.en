@@ -2,14 +2,15 @@
 title: Attribute sets
 description: Learn how to organize attributes into groups, which determine where they appear in the product record.
 exl-id: de0c5fa2-158c-44ff-b84d-e4904ed8aa7d
+feature: Catalog Management, Products
 ---
 # Attribute sets
 
 One of the first steps when creating a product is to choose the attribute set that is used as a template for the product record. The attribute set determines the fields that are available during data entry, and the values that appear to the customer.
 
-The attributes are organized into groups that determine where they appear in the product record. Your store comes with an initial attribute set, called _default_, that includes a set of commonly used attributes. If you would like to add only a few attributes, you can add them to this default attribute set. If you sell products that require specific types of information, it might be better to create a dedicated attribute set that includes the specific attributes needed for the product.
+The attributes are organized into groups that determine where they appear in the product record. Your store comes with an initial attribute set (called _default_) that includes a set of commonly used attributes. If you would like to add only a few attributes, you can add them to this default attribute set. If you sell products that require specific types of information, it might be better to create a dedicated attribute set that includes the specific attributes needed for the product.
 
-![Attribute Sets](./assets/attribute-sets.png)<!-- zoom -->
+![Attribute Sets](./assets/attribute-sets.png){width="700" zoomable="yes"}
 
 ## Create an attribute set
 
@@ -17,7 +18,7 @@ The attributes are organized into groups that determine where they appear in the
 
 1. Click **[!UICONTROL Add New Set]**.
 
-    ![Attribute set - edit name](./assets/attribute-set-new.png)<!-- zoom -->
+    ![Attribute set - edit name](./assets/attribute-set-new.png){width="600" zoomable="yes"}
 
 1. Enter a **[!UICONTROL Name]** for the attribute set.
 
@@ -39,7 +40,7 @@ The attributes are organized into groups that determine where they appear in the
 
 1. When complete, click **[!UICONTROL Save]**.
 
-![Attribute set - edit](./assets/attribute-set-edit.png)<!-- zoom -->
+![Attribute set - edit](./assets/attribute-set-edit.png){width="600" zoomable="yes"}
 
 ## Create an attribute group
 

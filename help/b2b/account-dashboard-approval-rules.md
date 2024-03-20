@@ -1,9 +1,11 @@
 ---
-title: Purchase Order Approval Rules
+title: Purchase order approval rules
 description: Learn about purchase order approval rules and how company administrators can define them on the storefront.
 exl-id: e8d8bbc9-41cf-4024-85cc-92f0b0ce32d6
+feature: B2B, Companies, Configuration
+role: Admin
 ---
-# Purchase Order Approval Rules
+# Purchase order approval rules
 
 Most companies require order approval for purchase orders. By adding approval rules for their company account, they can control who can create purchase orders and how much they can spend. For example:
 
@@ -30,7 +32,7 @@ Purchase order approval flows support both online and offline payment methods. A
 
 With the required [permissions for their role](account-company-roles-permissions.md), B2B customers can set up approval rules to enforce company policies by clicking **[!UICONTROL Approval Rules]** in the left panel for their customer account.
 
-![Company Approval Rules](./assets/approval-rules.png)<!-- zoom -->
+![Company Approval Rules](./assets/approval-rules.png){width="700" zoomable="yes"}
 
 To create an approval rule, a customer completes the following steps:
 
@@ -52,7 +54,7 @@ To create an approval rule, a customer completes the following steps:
 
    The following sections provide a detailed explanation and example for each rule type.
 
-   ![Creating a new approval rule](./assets/approval-rules-create.png)<!-- zoom -->
+   ![Creating a new approval rule](./assets/approval-rules-create.png){width="700" zoomable="yes"}
 
 1. For **[!UICONTROL Requires approval from]**, chooses one or more required approvers according to the type of approval.
 
@@ -64,7 +66,7 @@ To create an approval rule, a customer completes the following steps:
 
 1. Click **[!UICONTROL Save]**.
 
-### Order Total
+### [!UICONTROL Order Total]
 
 This rule type is used to require a PO approval based on the order total, including tax.
 
@@ -77,9 +79,9 @@ This rule type is used to require a PO approval based on the order total, includ
 
 1. Selects the currency type and enter the amount.
 
-![Order Total Approval Rule](./assets/approval-rules-order-total.png)<!-- zoom -->
+![Order Total Approval Rule](./assets/approval-rules-order-total.png){width="600" zoomable="yes"}
 
-### Shipping cost
+### [!UICONTROL Shipping Cost]
 
 This rule type is used to require a PO approval based on shipping cost, which many companies require.
 
@@ -92,9 +94,9 @@ This rule type is used to require a PO approval based on shipping cost, which ma
 
 1. Sets the desired shipping amount.
 
-![Shipping Cost Approval Rule](./assets/approval-rules-shipping-cost.png)<!-- zoom -->
+![Shipping Cost Approval Rule](./assets/approval-rules-shipping-cost.png){width="600" zoomable="yes"}
 
-### Number of SKUs
+### [!UICONTROL Number of SKUs]
 
 This rule type is used to require a PO approval based on the number of SKUs or unique products in the order. It controls the number of distinct item types, not the number of items being ordered. For example, a PO could include:
 
@@ -112,13 +114,13 @@ This example specifies five items, but two distinct SKUs.
 
 1. Sets the quantity of SKUs.
 
-![Number of SKUs Approval Rule](./assets/approval-rules-number-skus.png)<!-- zoom -->
+![Number of SKUs Approval Rule](./assets/approval-rules-number-skus.png){width="600" zoomable="yes"}
 
 ## Edit approval rules
 
 To modify an existing approval rule, a customer can complete the following steps:
 
-1. In the sidebar of their account, selects **[!UICONTROL Approval Rules]**.
+1. In the sidebar of their account, the customer selects **[!UICONTROL Approval Rules]**.
 
 1. Finds the approval rule entry to be edited.
 

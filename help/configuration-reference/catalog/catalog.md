@@ -2,6 +2,7 @@
 title: '[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]'
 description: Review the configurations settings on the [!UICONTROL Catalog] &gt; [!UICONTROL Catalog] page of the Commerce Admin.
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
+feature: Configuration, Catalog Management
 ---
 # [!UICONTROL Catalog] > [!UICONTROL Catalog]
 
@@ -20,7 +21,7 @@ exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 |[!UICONTROL Mask for Meta Keywords]|Global|Determines the default value of the _Meta Keywords_ field based on placeholder values from other fields and any additional text that is entered. Default placeholder: <br/>Product Name - `{{name}}`|
 |[!UICONTROL Mask for Meta Description]|Global|Determines the default value of the Meta Description field based on placeholder values from other fields and any additional text that is entered. Default placeholder: <br/>Product Name - `{{name}}` <br/>Description - `{{description}}`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Reviews]
 
@@ -33,7 +34,7 @@ exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 |[!UICONTROL Enabled]|Store View|Enables product reviews. Options: `Yes` / `No`|
 |[!UICONTROL Allow Guests to Write Reviews]|Website|Determines if customers must open an account with your store to be able to write product reviews.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Storefront]
 
@@ -57,7 +58,7 @@ exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 |[!UICONTROL Show Swatches in Product List]|Store View|Determines if the swatches appear in the Product List. Options: `Yes` / `No`|
 |[!UICONTROL Show Swatch Tooltip]|Store View|Determines if the swatch tooltip appears. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Alerts]
 
@@ -73,7 +74,7 @@ exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 |[!UICONTROL Stock Alert Email Template]|Store View|Identifies the template that is used for stock alert email notifications. Default template: `Product stock alert`|
 |[!UICONTROL Alert Email Sender]|Store View|Determines the store contact that appears as the sender of the product alert email message. Options: `General Contact` / `Sales Representative` / `Customer Support` / `Custom Email`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Alerts Run Settings]
 
@@ -89,7 +90,7 @@ exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 |[!UICONTROL Error Email Sender]|Global|Select the role that the email is `from`.|
 |[!UICONTROL Error Email Template]|Global|Select the email template to use for product alert error notifications.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Image Placeholders]
 
@@ -105,7 +106,7 @@ exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 |[!UICONTROL Thumbnail]|Store View|Identifies the placeholder file chosen for the thumbnail.|
 |[!UICONTROL Choose File]||Navigates to the file and uploads it as the placeholder image for the type.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Recently Viewed/Compared Products]
 
@@ -122,7 +123,7 @@ exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 |[!UICONTROL Lifetime of products in Recently Viewed Widget]|Global|Determines how long, in seconds, viewed products are displayed in the recently viewed list.|
 |[!UICONTROL Lifetime of products in Recently Compared Widget]|Global|Determines how long, in seconds, compared products are displayed in the recently compared list.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Video]
 
@@ -137,7 +138,7 @@ exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 |[!UICONTROL Show related video]|Store View|To display related videos, set to `Yes`.|
 |[!UICONTROL Auto restart video]|Store View|To enable auto replay video, set to `Yes`.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Price]
 
@@ -150,7 +151,7 @@ exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 |[!UICONTROL Catalog Price Scope]|Global|Determines the scope of the base currency. Options: `Global` / `Website`|
 |[!UICONTROL Default Product Price]|Global|![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce only) Defines the default product price, if applicable.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Layered Navigation]
 
@@ -173,7 +174,7 @@ exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 |[!UICONTROL Default Price Navigation Step]|Store View|Determines the number of products that are included in each step.|
 |[!UICONTROL Maximum Number of Price Intervals]|Store View|Establishes a limit for the number of price intervals that appear in layered navigation.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Category Permissions]
 
@@ -191,7 +192,7 @@ exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 |[!UICONTROL Allow Adding to Cart]|Website|Determines who can purchase products from the category. Options: <br/>`Yes, for Everyone` - Allows everyone to place products from the category into their shopping carts. <br/>`Yes, for Specified Customer Groups` - Allows only members of selected customer groups to place products from the category into their shopping carts. <br/>`No` - Does not allow anyone to place products from the category into their shopping carts.|
 |[!UICONTROL Disallow Catalog Search by]|Website|Identifies the customer groups that are not allowed to search for products in the category.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Search Engine Optimization]
 
@@ -199,19 +200,20 @@ exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 
 <!-- [Search Engine Optimization](https://docs.magento.com/user-guide/catalog/product-search-engine-optimization.html) -->
 
-|Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
-|--- |--- |--- |
-|[!UICONTROL Popular Search Terms]|Store View|Determines if _Popular Search Terms_ is implemented in the store. This setting does not apply to stores that use [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html). Options: `Enable` / `Disable`|
-|[!UICONTROL Product URL Suffix]|Store View|Determines if a suffix, such as html or htm, is applied to product URLs. If used, do not include a period before the suffix, because it is applied automatically.|
-|[!UICONTROL Category URL Suffix]|Store View|Determines if a suffix, such as html or htm, is applied to category URLs. If used, do not include a period before the suffix, because it is applied automatically.|
-|[!UICONTROL Use Categories Path for Product URLs]|Store View|Determines if category paths are included in product URLs. Doing so can cause multiple URLs to point to the same page, which might impact search rank. To learn more, see [Canonical meta tag](../../merchandising-promotions/meta-data.md#canonical-meta-tag).|
-|[!UICONTROL Create Permanent Redirect for URLs if URL Key Changed]|Store View|Determines if a permanent redirect is created automatically whenever a URL key changes. When implemented, the Create Custom Redirect for old URL checkbox below the product URL Key field is selected by default. Options: `Yes` / `No`|
-|[!UICONTROL Generate "category/product" URL Rewrites]|Global|Determines if Adobe Commerce generates data and saves it into rewrite tables when a user saves a category that contains many assigned products. Options: `Yes` / `No` <br/><br/>**_Important:_** Saving this generated data into a URL rewrites table can degrade performance. See [Automatic Product Redirects](../../merchandising-promotions/url-redirect-product-automatic.md) for more information.|
-|[!UICONTROL Page Title Separator]|Store View|Identifies the character that separates the category name and subcategory in the browser title bar.|
-|[!UICONTROL Use Canonical Link Meta Tag for Categories]|Store View|If there are multiple URLs that point to the same category page, this option uses a canonical meta tag to identify the category URL that search engines should index. The URL includes a full name to the category using the meta tag. This reduces duplicate content and improves SEO. Options: `Yes` / `No`|
-|[!UICONTROL Use Canonical Link Meta Tag for Products]|Store View|If there are multiple URLs that point to the same product page, this option uses a canonical meta tag to identify the product URL that search engines should index. The URL includes a full name to the product using the meta tag. This reduces duplicate content and improves SEO. Options: `Yes` / `No`|
+|Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)| Description                                                                                                                                                                                                                                                                                                                                                                                              |
+|--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|[!UICONTROL Popular Search Terms]|Store View| Determines if _Popular Search Terms_ is implemented in the store. This setting does not apply to stores that use [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html). Options: `Enable` / `Disable`                                                                                                                                              |
+|[!UICONTROL Product URL Suffix]|Store View| Determines if a suffix, such as html or htm, is applied to product URLs. If used, do not include a period before the suffix, because it is applied automatically.                                                                                                                                                                                                                                        |
+|[!UICONTROL Category URL Suffix]|Store View| Determines if a suffix, such as html or htm, is applied to category URLs. If used, do not include a period before the suffix, because it is applied automatically.                                                                                                                                                                                                                                       |
+|[!UICONTROL Use Categories Path for Product URLs]|Store View| Determines if category paths are included in product URLs. Doing so can cause multiple URLs to point to the same page, which might impact search rank. To learn more, see [Canonical meta tag](../../merchandising-promotions/meta-data.md#canonical-meta-tag).                                                                                                                                          |
+|[!UICONTROL Create Permanent Redirect for URLs if URL Key Changed]|Store View| Determines if a permanent redirect is created automatically whenever a URL key changes. When implemented, the Create Custom Redirect for old URL checkbox below the product URL Key field is selected by default. Options: `Yes` / `No`                                                                                                                                                                  |
+|[!UICONTROL Generate "category/product" URL Rewrites]|Global| Determines if Adobe Commerce generates data and saves it into rewrite tables when a user saves a category that contains many assigned products. Options: `Yes` / `No` <br/><br/>**_Important:_** Saving this generated data into a URL rewrites table can degrade performance. See [Automatic Product Redirects](../../merchandising-promotions/url-redirect-product-automatic.md) for more information. |
+|[!UICONTROL Apply transliteration for product URL]|Store View| Determines if transliteration is applied when creating or updating product URLs. Options: `Yes` / `No`. Default is set to `Yes`. <br/><br/>For certain use cases, you should disable transliteration. For example, if you operate an online store in Chinese, SEO best practices recommend that product URLs match the product name. Setting the option to `No` allows Chinese characters to be used in product URLs instead of an ASCII equivalent.    |
+|[!UICONTROL Page Title Separator]|Store View| Identifies the character that separates the category name and subcategory in the browser title bar.                                                                                                                                                                                                                                                                                                      |
+|[!UICONTROL Use Canonical Link Meta Tag for Categories]|Store View| If there are multiple URLs that point to the same category page, this option uses a canonical meta tag to identify the category URL that search engines should index. The URL includes a full name to the category using the meta tag. This reduces duplicate content and improves SEO. Options: `Yes` / `No`                                                                                            |
+|[!UICONTROL Use Canonical Link Meta Tag for Products]|Store View| If there are multiple URLs that point to the same product page, this option uses a canonical meta tag to identify the product URL that search engines should index. The URL includes a full name to the product using the meta tag. This reduces duplicate content and improves SEO. Options: `Yes` / `No`                                                                                               |
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Category Top Navigation]
 
@@ -223,7 +225,7 @@ exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 |--- |--- |--- |
 |[!UICONTROL Maximal Depth]|Global|Determines the number of subcategory levels in the top navigation. The default value of `0` places no limit on the number of levels.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Catalog Search]
 
@@ -244,7 +246,7 @@ When Live Search is installed, Catalog Search includes the following configurati
 |[!UICONTROL Number of top search results to cache]|Store View|The number of popular search terms and results to cache for faster responses. Entering a value of `0` caches all search terms and results when entered a second time. Default value: `100`|
 |[!UICONTROL Autocomplete Limit]|Store View|Determines the maximum number of lines available in the [storefront popover] page. The default value can be changed when Live Search is installed, and updated later by changing this configuration setting. Default value: `8`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ### Adobe Commerce with Elasticsearch
 
@@ -253,6 +255,10 @@ Native Adobe Commerce with Elasticsearch includes the following configuration se
 ![Catalog Search - Elasticsearch](./assets/catalog-search-elasticsearch.png)<!-- zoom -->
 
 <!-- [Catalog Search](https://docs.magento.com/user-guide/catalog/search-configuration.html) -->
+
+>[!IMPORTANT]
+>
+>Due to the Elasticsearch 7 end-of-support announcement for August 2023, it is recommended that all Adobe Commerce customers migrate to the OpenSearch 2.x search engine. For information about migrating your search engine during product upgrade, see [Migrating to OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) in the _Upgrade Guide_.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -278,7 +284,7 @@ Native Adobe Commerce with Elasticsearch includes the following configuration se
 |[!UICONTROL Show Results Count for Each Suggestion]|Store View|Determines if the number of search results is shown for each suggestion. Depending on theme, the number usually appears in brackets after the suggestion. Options: `Yes` / `No`|
 |[!UICONTROL Minimum Terms to Match]|Store View|Specifies a value that corresponds to the number of terms from your query that the search results should match in order to be returned. This ensures optimal results relevancy for shoppers. Percent values correlate to a number, and if needed, rounded down and used as the minimum number of terms to match in your query. The value can be a negative or positive integer, negative or positive percent, a combination of the two, or multiple combinations. To learn more, see [minimum_should_match parameter](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html) in the Elasticsearch documentation.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Downloadable Product Options]
 
@@ -297,7 +303,7 @@ Native Adobe Commerce with Elasticsearch includes the following configuration se
 |[!UICONTROL Use Content Disposition]|Store View|Determines how the link to the downloadable content is delivered, as an email attachment or as an inline link in a browser window. Options: <br/>**`Attachment`** - The download link is delivered as an email attachment. <br/>**`Inline`** - The download link is delivered as an inline link on a web page.|
 |[!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items]|Website|Determines if guests who are purchase downloadable products must register for an account and log in to complete the checkout process. Options: <br/>**`Yes`** - If the cart contains downloadable products, the guest has to either register for an account, or login to an existing account to complete the purchase. <br/>**`No`** - The download link is delivered as an inline link in the body of the email message.  <br/> _**Note:**_ Guest checkout is only available for download products if Sharable is set to `Yes`.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Date & Time Custom Options]
 
@@ -312,7 +318,7 @@ Native Adobe Commerce with Elasticsearch includes the following configuration se
 |[!UICONTROL Time Format]|Store View|Sets the time format to either a  12 or 24-hour clock. Options: `12h AM/PM` / `24h`|
 |[!UICONTROL Year Range]|Store View|Defines the beginning and ending range of years that appear in the _Year_ field. The value must be entered in YYYY format.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Catalog Events]
 
@@ -329,7 +335,7 @@ Native Adobe Commerce with Elasticsearch includes the following configuration se
 |[!UICONTROL Number of Events to be Displayed in the Event Slider Widget]|Store View|Determines the number of events that appear in the event slider widget on the category pages. To override, use the `limit="x"` variable.|
 |[!UICONTROL Events to Scroll per Click in Event Slider Widget]|Store View|Determines the number of events that appear in the event slider widget on CMS pages, such as the home page. To override, use the `scroll="x"` variable.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Rule-Based Product Relations]
 
@@ -351,4 +357,4 @@ Native Adobe Commerce with Elasticsearch includes the following configuration se
 |[!UICONTROL Show Upsell Products]|Global|Determines which list of up-sell products appears in the store. It can be either the list that is selected manually in the Product Information, the list that is generated in response to a product relationship rule, or a combination of the two. Options: `Both Selected and Rule-Based` / `Selected Only` / `Rule-Based Only`|
 |[!UICONTROL Rotation Mode for Products in Upsell Product List]|Global|Determines the order in which products in the Upsell Product list appear. Options: `Do not rotate` / `Shuffle`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

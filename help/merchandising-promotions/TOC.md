@@ -2,7 +2,8 @@
 user-guide-title: Adobe Commerce Merchandising and Promotions Guide
 user-guide-description: Adobe Commerce and Magento Open Source include many tools that you can use to drive sales, create opportunities for customer engagement, and set up targeted promotions.
 breadcrumb-title: Merchandising and Promotions
-hide: yes
+role: Admin, Leader, User
+feature: Merchandising, Promotions/Events
 ---
 
 # Adobe Commerce Merchandising and Promotions Guide {#marketing}
@@ -45,7 +46,6 @@ hide: yes
     - [Create a cart price rule](price-rules-cart-create.md)
     - [Coupon codes](price-rules-cart-coupon.md)
     - [Scheduled changes for cart price rules](price-rule-cart-scheduled-changes.md)
-    - [Integrate Experience Platform Audiences in Commerce](customer-segment-rtcdp.md)
     - [Example: free shipping promotion](price-rules-cart-free-shipping.md)
     - [Example: buy this get that free](price-rules-cart-buy-this-get-that.md)
     - [Example: discount with minimum purchase](price-rule-discount-minimum-purchase.md)

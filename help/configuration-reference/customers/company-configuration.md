@@ -2,6 +2,7 @@
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Company Configuration]'
 description: Review the configurations settings on the [!UICONTROL Customers] &gt; [!UICONTROL Company Configuration] page of the Commerce Admin.
 exl-id: 330eabeb-edab-4a9f-968e-37d0b95cdedb
+feature: Configuration, Companies
 ---
 # [!UICONTROL Customers] > [!UICONTROL Company Configuration]
 
@@ -27,7 +28,7 @@ For more information about configuring these settings, see [Enable Basic B2B Fea
 |--- |--- |--- |
 |[!UICONTROL Allow Company Registration from the Storefront]|Website|Determines if visitors to your store have the choice to [register](../../customers/customer-sign-in.md) for a company account or an individual account. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Options - Company Registration]
 
@@ -40,7 +41,7 @@ For more information about configuring these settings, see [Enable Basic B2B Fea
 |[!UICONTROL Send Email Copy Method]|Store View|The email method that is used to send the copy of the registration email. Options: `Bcc` / `Separate Email`|
 |[!UICONTROL Default Company Registration Email]|Store View|The email template that is used by default for the company registration notification. Default template: `Company Registration Request`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Customer-Related Emails]
 
@@ -56,7 +57,7 @@ For more information about configuring these settings, see [Enable Basic B2B Fea
 |[!UICONTROL Default 'Customer Status Active' Email]|Store View|The email template that is used by default when the status of a customer becomes active. This email is sent to the customer only. Default template: `Customer Status Active`|
 |[!UICONTROL Default 'Customer Status Inactive' Email]|Store View|The email template that is used by default when the status of a customer becomes inactive. This email is sent to the customer only. Default template: `Customer Status Inactive`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Company Status Change]
 
@@ -73,7 +74,7 @@ For more information about configuring these settings, see [Enable Basic B2B Fea
 |[!UICONTROL Default 'Company Status Change to Blocked' Email]|Store View|The email template that is used by default when the status of a company changes to _Blocked_. Default template: `Company Status Blocked`|
 |[!UICONTROL Default 'Company Status Change to Pending Approval' Email]|Store View|The email template that is used by default when the status of a company changes to _Pending Approval_. Default template: `Company Status Pending Approval`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Company Credit]
 
@@ -90,4 +91,4 @@ For more information about configuring these settings, see [Enable Basic B2B Fea
 |[!UICONTROL Refunded Email Template]|Store View|The email template that is used by default when an amount from an order is refunded to company credit. This email is sent to the company administrator. Default template: `Order Refunded to Company Credit`|
 |[!UICONTROL Reverted Email Template]|Store View|The email template that is used by default when an order is reverted to company credit. This email is sent to the company administrator. Default template: `Order Reverted to Company Credit`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

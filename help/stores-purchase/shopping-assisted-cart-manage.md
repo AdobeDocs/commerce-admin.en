@@ -2,6 +2,7 @@
 title: Manage a shopping cart
 description: Learn how to assist a customer with their shopping cart directly from the Admin.
 exl-id: beb41dfa-ef87-4065-96fd-0649a5c4c21c
+feature: Customer Service, Shopping Cart
 ---
 # Manage a shopping cart
 
@@ -9,7 +10,7 @@ exl-id: beb41dfa-ef87-4065-96fd-0649a5c4c21c
 
 To begin an assisted shopping session, the customer must be logged into their account from the storefront to make the information available. If the customer does not have an account, you can [create one](../customers/account-create.md).
 
-![Shopping Cart in in the customer account](./assets/customer-account-manage-cart-items.png)<!-- zoom -->
+![Shopping Cart in in the customer account](./assets/customer-account-manage-cart-items.png){width="600" zoomable="yes"}
 
 ## Actions control
 
@@ -36,7 +37,7 @@ To begin an assisted shopping session, the customer must be logged into their ac
 
    All visitors to the store and logged in customers appear in the list.
 
-   ![Customers Now Online](./assets/customers-now-online.png)<!-- zoom -->
+   ![Customers Now Online](./assets/customers-now-online.png){width="700" zoomable="yes"}
 
 ## Offer assisted shopping
 
@@ -44,21 +45,23 @@ To begin an assisted shopping session, the customer must be logged into their ac
 
 1. In the list, open the customer record in edit mode.
 
-   To find the customer record in a hurry, use the [Filters](../getting-started/admin-grid-controls.md) control.
+   >[!TIP]
+   >
+   >To find the customer record in a hurry, use the [Filters](../getting-started/admin-grid-controls.md) control.
 
    In the customer profile under _[!UICONTROL Personal Information]_, the _[!UICONTROL Last Logged In]_ date and time shows that the customer is online.
 
-   ![Customer profile of an online customer](./assets/customer-account-manage-cart.png)<!-- zoom -->
+   ![Customer profile of an online customer](./assets/customer-account-manage-cart.png){width="600" zoomable="yes"}
 
 1. To enter assisted shopping mode, click **[!UICONTROL Manage Shopping Cart]** in the top button bar.
 
-   ![Assisted shopping mode](./assets/customer-manage-shopping-cart.png)<!-- zoom -->
+   ![Assisted shopping mode](./assets/customer-manage-shopping-cart.png){width="600" zoomable="yes"}
 
 ## Add products to cart by attribute
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Products]** section.
 
-1. Find a product to add using any of the filters at the top of each column.
+1. Find a product using any of the filters at the top of each column.
 
 1. Click **[!UICONTROL Search]**.
 
@@ -74,19 +77,19 @@ To begin an assisted shopping session, the customer must be logged into their ac
 
 1. On the left above the grid, click **[!UICONTROL Add selections to my cart]**.
 
-   ![Add Product to Cart](./assets/customer-account-manage-cart-order-products.png)<!-- zoom -->
+   ![Add Product to Cart](./assets/customer-account-manage-cart-order-products.png){width="600" zoomable="yes"}
 
-   The line item is added to the Shopping Cart at the top of the page.
+   The line item is added to the shopping cart at the top of the page.
 
-   ![Cart Updated](./assets/customer-account-manage-cart-update-cart.png)<!-- zoom -->
+   ![Cart Updated](./assets/customer-account-manage-cart-update-cart.png){width="600" zoomable="yes"}
 
 ### Add a product with configuration
 
-There are three types of products that need to be configured before adding to the cart: `Bundle Product`, `Configurable Product`, and `Grouped Product`.
+There are three types of products that must be configured before adding to the cart: `Bundle Product`, `Configurable Product`, and `Grouped Product`.
 
 1. In the grid, click **[!UICONTROL Configure]** next to the product name.
 
-   ![Configure the product](./assets/customer-account-manage-cart-order-configurable-product.png)<!-- zoom -->
+   ![Configure the product](./assets/customer-account-manage-cart-order-configurable-product.png){width="600" zoomable="yes"}
 
 1. In the _Associated Products_ dialog, choose each product option to describe the item to be ordered, enter the **[!UICONTROL Quantity]**, and click **[!UICONTROL OK]**.
 
@@ -94,7 +97,7 @@ There are three types of products that need to be configured before adding to th
 
 1. To add the product to the cart, click **[!UICONTROL Add selections to my cart]**.
 
-   ![Configurable product in the cart](./assets/customer-account-manage-cart-order-configurable-product-cart.png)<!-- zoom -->
+   ![Configurable product in the cart](./assets/customer-account-manage-cart-order-configurable-product-cart.png){width="600" zoomable="yes"}
 
 1. Update product options in the cart if needed:
 
@@ -114,7 +117,7 @@ There are three types of products that need to be configured before adding to th
 
 1. To order another product, click **[!UICONTROL Add another]**.
 
-   ![Add Products by SKU](./assets/customer-account-manage-cart-order-product-by-sku.png)<!-- zoom -->
+   ![Add Products by SKU](./assets/customer-account-manage-cart-order-product-by-sku.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Add selections to my cart]**.
 

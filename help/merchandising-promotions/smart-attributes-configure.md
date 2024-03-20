@@ -2,6 +2,7 @@
 title: Configure smart attributes for Visual Merchandiser
 description: Learn how to configure the smart attributes used by the Visual Merchandiser.
 exl-id: 7bbbca40-d991-4393-b99c-5bef2e711071
+feature: Merchandising, Products, Configuration, Attributes
 ---
 # Configure smart attributes for Visual Merchandiser
 
@@ -15,7 +16,7 @@ The Visual Merchandiser configuration determines the attributes that can be used
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL General Options]** section.
 
-   ![Catalog configuration - visual merchandiser](../configuration-reference/catalog/assets/catalog-visual-merchandiser-general-options.png)<!-- zoom -->
+   ![Catalog configuration - visual merchandiser](../configuration-reference/catalog/assets/catalog-visual-merchandiser-general-options.png){width="600" zoomable="yes"}
    
 1. In the **[!UICONTROL Attributes for Category Rules]** list, select each attribute that you want to make available for visual merchandising.
    

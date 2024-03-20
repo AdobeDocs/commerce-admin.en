@@ -2,6 +2,7 @@
 title: '[!UICONTROL General] &gt; [!UICONTROL Web]'
 description: Review the configurations settings on the [!UICONTROL General] &gt; [!UICONTROL Web] page of the Commerce Admin.
 exl-id: 1809b03a-a55c-41b4-947b-f66f4bd290a1
+feature: Site Management, Configuration
 ---
 # [!UICONTROL General] > [!UICONTROL Web]
 
@@ -19,7 +20,7 @@ exl-id: 1809b03a-a55c-41b4-947b-f66f4bd290a1
 |    [!UICONTROL Auto-redirect to Base URL]   |    Store View   |   (For single-store setups) If there is a broken link on your site, redirects traffic to the base URL, rather than to a page with a "404 Page Not Found" message. Options:` No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br />**_Important:_** Do not use auto-redirect to base URL for multi-store setups.    |
 |    [!UICONTROL Catalog media URL format]   |   Global   |  Defines the [URL format](../../catalog/catalog-urls.md) assigned to products and categories. Options: Unique hash per image variant (Legacy mode) defines converted filename as a unique hash value. Image optimization based on query parameters defines [image optimization](../../content-design/media-gallery-image-optimization.md) process depending on query parameters.     |
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Search Engine Optimization]
 
@@ -31,7 +32,7 @@ exl-id: 1809b03a-a55c-41b4-947b-f66f4bd290a1
 |--- |--- |--- |
 |[!UICONTROL Use Web Server Rewrites]|Store View|PHP-based systems typically include a file called `index.php` in the root folder. By default, the file name appears in the URL just after the name of the root folder. When this is enabled, the system omits `index.php` from the URL. This usability best practice makes each URL more concise, and has no impact on performance or site rank. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Base URLs]
 
@@ -46,7 +47,7 @@ exl-id: 1809b03a-a55c-41b4-947b-f66f4bd290a1
 |[!UICONTROL Base URL for Static View Files]|Store View|A path that points to the  location of static files used by the theme, such as css, fonts, images, and JavaScript. A placeholder is used to represent the base URL. If your Commerce installation has multiple sites with the same folder structure, you can have a different folder for each site. Set the configuration scope to the correct site before entering the base URL for static view files. You can also specify a folder outside of your Commerce installation.|
 |[!UICONTROL Base URL for User Media Files]|Store View|A path that points to the location of catalog images and other media files. A placeholder is used to represent the base URL. If your Commerce installation has multiple sites with the same folder structure, you can have a different media folder for each. This gives you the ability to back up and roll back  each media folder separately. You can also specify a media folder outside of your Commerce installation.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Base URLs (Secure)]
 
@@ -66,7 +67,7 @@ exl-id: 1809b03a-a55c-41b4-947b-f66f4bd290a1
 |[!UICONTROL Upgrade Insecure Requests]|Store View| When enabled, converts unsecure (`HTTP`) requests received from the browser to the secure (`HTTPS`) protocol. Options: `Yes` / `No`|
 |[!UICONTROL Offloader Header]|Global|Specifies the `offloader_header` value in your server configuration to identify the protocol between the client and load balancer. Most Commerce installations use the default value, `X-Forwarded-Proto` (XFP) to identify the protocol as either `HTTP` or `HTTPS`.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Default Pages]
 
@@ -83,7 +84,7 @@ exl-id: 1809b03a-a55c-41b4-947b-f66f4bd290a1
 |[!UICONTROL CMS No Cookies Page]|Store View|Identifies a specific CMS page that appears when cookies are not enabled for the browser. The page explains why cookies are used, and how to enable them for each browser. The default page is Enable Cookies.|
 |[!UICONTROL Show Breadcrumbs for CMS Pages]|Store View|Determines if a breadcrumb trail appears on all CMS pages in the catalog. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Default Layouts]
 
@@ -97,7 +98,7 @@ exl-id: 1809b03a-a55c-41b4-947b-f66f4bd290a1
 |[!UICONTROL Default Category Layout]|Global|Determines the [layout](../../content-design/page-layout.md) that is used by default for category pages. Options: <br/>**`No layout updates`** - By default, layout updates are not available for category pages. <br/>**`Empty`** - By default, uses a blank layout for category pages. <br/>**`1 column`** - By default, uses a single column layout for category pages. <br/>**`2 columns with left bar`** - By default, uses a two-column layout with the sidebar on the left for category pages. <br/>**`2 columns with right bar`** - By default, uses a two-column layout with the sidebar on the right for category pages. <br/>**`3 columns`** - By default, uses a three-column layout with sidebars on the left and right for category pages.<br/>**`Page - Full Width`** - (Requires [!DNL Page Builder]) By default, uses the Page - Full Width  layout for category pages. <br/>**`Category - Full Width`** - (Requires [!DNL Page Builder]) By default, uses the Category - Full Width layout for category pages. <br/>**`Product - Full Width`** - (Requires [!DNL Page Builder]) By default, uses the Product - Full Width layout for category pages.|
 |Default Page Layout|Global|Determines the [layout](../../content-design/page-layout.md) that is used by default for CMS pages. Options: <br/>**`No layout updates`** - By default, layout updates are not available for CMS pages. <br/>**`Empty`** - By default, uses a blank layout for CMS pages. <br/>**`1 column`** - By default, uses a single column layout for CMS pages. <br/>**`2 columns with left bar`** - By default, uses a two-column layout with the sidebar on the left for CMS pages.<br/>**`2 columns with right bar`** - By default, uses a two-column layout with the sidebar on the right for CMS pages. <br/>**`3 columns`** - By default, uses a three-column layout with sidebars on the left and right for CMS pages.<br/>**`Page - Full Width`** - (Requires [!UICONTROL Page Builder]) By default, uses the Page - Full Width  layout for CMS pages. <br/>**`Category - Full Width`** - (Requires [!UICONTROL Page Builder]) By default, uses the Category - Full Width layout for CMS pages. <br/>**`Product - Full Width`** - (Requires [!DNL Page Builder]) By default, uses the Product - Full Width  layout for CMS pages.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Default Cookie Settings]
 
@@ -113,7 +114,7 @@ exl-id: 1809b03a-a55c-41b4-947b-f66f4bd290a1
 |[!UICONTROL Use HTTP Only]|Store View|Determines if Commerce Cookies can be used only over an unsecure channel (http), or can also be used over an encrypted channel (https). Options: `Yes` / `No`|
 |[!UICONTROL Cookie Restriction Mode]|Website|Determines if cookie restriction mode is enabled. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Session Validation Settings]
 
@@ -128,7 +129,7 @@ exl-id: 1809b03a-a55c-41b4-947b-f66f4bd290a1
 |[!UICONTROL Validate HTTP_x_FORWARDED_FOR]|Global|Verifies outgoing proxy data and checks that the forwarded-for address of a request matches  `$_SESSION` data. The session terminates if a different forwarded-for address is detected. Options: `Yes` / `No`|
 |[!UICONTROL Validate HTTP_USER_AGENT]|Global|`USER_AGENT` refers to the browser or device that is used to access the website. It verifies that the name and version of the browser, and operating system, matches `$_SESSION` data. The session terminates if a different user agent is detected from one request to another in the same session. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Browser Capabilities Detection]
 
@@ -142,6 +143,6 @@ exl-id: 1809b03a-a55c-41b4-947b-f66f4bd290a1
 |[!UICONTROL Show Notice if JavaScript is Disabled]|Store View|If JavaScript is disabled by the browser, it displays a notice that prompts the user to enable JavaScript Options: `Yes` / `No` (disables)|
 |[!UICONTROL Show Notice if Local Storage is Disabled]|Store View|Displays a message if the local cache is disabled. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 [1]: https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html

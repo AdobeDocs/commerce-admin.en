@@ -1,15 +1,17 @@
 ---
-title: Use a Media Database
+title: Use a media database
 description: Learn how to use a media database to store your [!DNL Commerce] media files.
 exl-id: b59349fb-0cb6-4812-a126-6e0d8d37564f
+feature: Page Content, Media, Configuration
+level: Experienced
 ---
-# Use a Media Database
+# Use a media database
 
 >[!IMPORTANT]
 >
 >The database media storage method is deprecated as of Adobe Commerce and Magento Open Source 2.4.3.
 
-By default, all images, compiled CSS files, and compiled JavaScript files of the [!DNL Commerce] instance are stored in the file system on the web server. You can choose to store these files in a database on a database server. One advantage of this approach is the option of automatic synchronization and reverse synchronization between the web server file system and the database. You can use the default database to store media or create a new one. To be able to use a newly created database as media storage, you must add information about it and its access credentials to the `env.php` file.
+By default, all images, compiled CSS files, and compiled JavaScript files of the [!DNL Commerce] instance are stored in the file system on the web server. You can choose to store these files in a database on a database server. One advantage of this approach is the option of automatic synchronization and reverse synchronization between the web server file system and the database. You can use the default database to store media or create one. To be able to use a newly created database as media storage, you must add information about it and its access credentials to the `env.php` file.
 
 ## Database workflow
 
@@ -30,17 +32,17 @@ By default, all images, compiled CSS files, and compiled JavaScript files of the
 
 1. In the left panel, expand **[!UICONTROL Advanced]** and choose **[!UICONTROL System]**.
 
-1. In the upper-left corner, set **[!UICONTROL Store Viewl]** to `Default Config` to apply the configuration at the global level.
+1. In the upper-left corner, set **[!UICONTROL Store View]** to `Default Config` to apply the configuration at the global level.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Storage Configuration for Media]** section and do the following:
 
-    ![Advanced configuration - storage configuration for media](./assets/database-storage-deprecated.png)<!-- zoom -->
+    ![Advanced configuration - storage configuration for media](./assets/database-storage-deprecated.png){width="600" zoomable="yes"}
 
     - Set **[!UICONTROL Media Storage]** to `Database`.
 
     - Set **[!UICONTROL Select Media Database]** to the database you want to use.
 
-    - Click **[!UICONTROL Synchronize]** to transfer the existing media to the newly selected database.
+    - To transfer the existing media to the newly selected database, click **[!UICONTROL Synchronize]**.
 
     - Enter the **[!UICONTROL Environment Update Time]** in seconds.
 

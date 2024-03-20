@@ -2,6 +2,7 @@
 title: Sort category products
 description: Learn how to define the positioning of products in a category manually or by applying a predefined sort order.
 exl-id: 09c66a5d-57d4-4e78-a8d8-e3047c1bd35a
+feature: Catalog Management, Categories, Products
 ---
 # Sort category products
 
@@ -13,7 +14,7 @@ The position of products in a category can be specified manually by dragging and
 >
 >On the category pages, `Out of stock` products are always displayed **_after_** `In Stock` products on the product listing with all sorting types.
 
-You can set up the category options separately for each [store](../stores-purchase/stores.md#add-stores) to determine the selection of products, their relative position in the list, and the attributes that are available for category rules. However, only one sort order can be assigned to the [store view](../stores-purchase/store-views.md) level of any store.
+You can set up the category options separately for each [store view](../stores-purchase/stores.md#add-stores) to determine the selection of products, their relative position in the list, and the attributes that are available for category rules. However, there is a single, **_global_** sort order and product position in the catalog and they are shared across all [store views](../stores-purchase/store-views.md), stores, and websites.
 
 ## Step 1: Set the scope of the configuration
 
@@ -25,21 +26,25 @@ You can set up the category options separately for each [store](../stores-purcha
 
 1. In the category tree on the left, choose the category that you want to edit.
 
-   ![Category tree](./assets/category-selected.png)<!-- zoom -->
+   ![Category tree](./assets/category-selected.png){width="700" zoomable="yes"}
 
 ## Step 2: Sort the products
 
+>[!NOTE]
+>
+>When sorting a category by a product attribute, products with the same attribute values are also sorted by their _[!UICONTROL Product ID]_ in the ascending order.
+
 In the _[!UICONTROL Products in Category]_ section, click the tiles ( ![View tiles](../assets/icon-view-tiles.png) ) icon to show the product tiles in a grid. Use either the manual or automatic method to sort the products.
 
-![Product tiles](./assets/category-products-tiles.png)<!-- zoom -->
+![Product tiles](./assets/category-products-tiles.png){width="600" zoomable="yes"}
 
 ### Method 1: Manual sort
 
 1. Set **[!UICONTROL Sort Order]** to your preference.
 
-1. Click **[!UICONTROL Sort]** to apply the new sort order.
+   ![Sort order](./assets/category-edit-sort-order.png){width="600" zoomable="yes"}
 
-   ![Sort order](./assets/category-edit-sort-order.png)<!-- zoom -->
+1. To apply the new sort order, click **[!UICONTROL Sort]**.
 
 1. To save the sort order, click **[!UICONTROL Save Category]**.
 
@@ -49,19 +54,16 @@ In the _[!UICONTROL Products in Category]_ section, click the tiles ( ![View til
 
 1. Set **[!UICONTROL Match products by rule]** (![Toggle yes](../assets/toggle-yes.png)) to `Yes`.
 
-   ![Match Products by Rule](./assets/category-edit-automatic-sorting.png)<!-- zoom -->
 
 1. Set **[!UICONTROL Automatic Sorting]** to your preference.
 
-1. Follow the instructions in the next step to create a category rule.
+1. To create a category rule, follow the instructions in the next step.
 
 ## Step 3: Create a category rule
 
 1. Set **[!UICONTROL Match products by rule]** (![Toggle yes](../assets/toggle-yes.png)) to `Yes`.
 
 1. Click **[!UICONTROL Add Condition]**.
-
-   ![Category condition](./assets/category-edit-condition.png)<!-- zoom -->
 
 1. Choose the **[!UICONTROL Attribute]** that is the basis of the condition.
 
@@ -77,6 +79,8 @@ In the _[!UICONTROL Products in Category]_ section, click the tiles ( ![View til
 
 1. Enter the appropriate **[!UICONTROL Value]**.
 
+   ![Category condition](./assets/category-rule-create.png){width="600" zoomable="yes"}
+
 1. To add another condition, click **[!UICONTROL Add Condition]** and repeat the process.
 
 ## Step 4: Save, refresh, and verify
@@ -87,4 +91,4 @@ In the _[!UICONTROL Products in Category]_ section, click the tiles ( ![View til
 
 1. In the storefront, verify that the product selection, sorting, and category rules work correctly.
 
-   If you need to make adjustments, change the settings and try again.
+   If you must make adjustments, change the settings and try again.

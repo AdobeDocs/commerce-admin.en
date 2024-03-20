@@ -2,6 +2,7 @@
 title: Save an Adobe Stock Image Preview
 description: Image previews are free and are a good way to experiment with different Adobe Stock images before you decide to purchase a license.s
 exl-id: 148d8445-fbbb-4f27-8de8-d8c1943d2afe
+feature: CMS, Media
 ---
 # Save an Adobe Stock Image Preview
 
@@ -23,7 +24,7 @@ This feature requires the [Adobe Stock Integration][adobe-stock-integration] mod
 
    This action displays a prompt for you to specify a file name that is used to save the image to the [media storage][media-storage]. A default file name is provided, but you can customize the name to your preferences.
 
-   ![Save Adobe Stock preview image](./assets/adobe-stock-save-preview.png)<!-- zoom -->
+   ![Save Adobe Stock preview image](./assets/adobe-stock-save-preview.png){width="500" zoomable="yes"}
 
 1. Click **[!UICONTROL Confirm]**.
 

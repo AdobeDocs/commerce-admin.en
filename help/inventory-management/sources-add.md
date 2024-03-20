@@ -1,9 +1,10 @@
 ---
-title: Add a Source
+title: Add an inventory source
 description: Learn how to create a source for a location, such as a warehouse, brick-and-mortar store, distribution center, or drop shipper.
 exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
+feature: Inventory, Products
 ---
-# Add a Source
+# Add a source
 
 Manage inventory and order fulfillment from multiple locations with custom sources. Create a source for each location such as warehouses, brick-and-mortar stores, distribution centers, and drop shippers. Assign sources and update quantities per product
 

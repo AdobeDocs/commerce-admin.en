@@ -1,24 +1,25 @@
 ---
-title: The [!DNL Commerce] Ecosystem
+title: The Adobe Commerce ecosystem
 description: Adobe provides a wealth of business and technical resources, self-help tools, and services to help merchants succeed.
 exl-id: 05fb3769-6f99-45c0-81d6-3ccdd50dc047
+feature: Support
 ---
-# The [!DNL Commerce] Ecosystem
+# The Adobe Commerce ecosystem
 
 Adobe provides a wealth of business and technical resources, self-help tools, and services to help you succeed.
 
 | Ecosystem resource | Description |
 | ------------------ | ----------- |
-[Product documentation][1]{:target="_blank"}|Merchants, designers, and developers can use the documentation to gain a deeper insight into how they can apply the power of [!DNL Commerce] to grow their business.|
-[[!DNL Commerce ]Resources Library][3]{:target="_blank"}|Access Ebooks, [!DNL Commerce] whitepapers, and webinars to gain expert insight and online business resources to help develop and improve your store.|
-[Adobe Product Security Incident Response][4]{:target="_blank"}|Join the Security Alert Registry to get the latest information on potential vulnerabilities and [Security Best Practices][5].
-[Community Forums][6]{:target="_blank"}|The forums provide access to a network of dedicated Adobe Commerce and Magento Open Source enthusiasts who share tips, tricks, and support.
-[Blog][7]{:target="_blank"}|Check out the blog for the latest information about new features, trends, best practices, upcoming events, and more.|
-[Events and webinars][8]{:target="_blank"}|Keep tabs on the calendar of upcoming events and webinars. There is always something happening in the [!DNL Commerce] ecosystem.|
-[[!DNL Commerce Marketplace]][9]{:target="_blank"}|Visit the [!DNL Commerce] next-generation marketplace of digital commerce solutions. [!DNL Commerce Marketplace] offers merchants a curated selection of solutions, while providing qualified developers the tools, platform, and prime location for a thriving business.|
-[Training and certification][10]{:target="_blank"}|Learn how to unleash the power and flexibility of Adobe Commerce and Magento Open Source. Training is provided for every role in your business, including marketers, designers, developers, and more. Experienced [!DNL Commerce] professionals can validate their real-world skills by earning a [!DNL Commerce] certification.|
-[Partners][12]{:target="_blank"}|Adobe partners are committed to your success and provide custom integrations, best-in-class customer experiences, strategic marketing initiatives, and expert performance and scalability optimization for both on-premise and cloud-based solutions.|
-[Adobe Commerce Managed Services][13]{:target="_blank"}|The Adobe Commerce Managed Services team helps merchants and Solution Partners maximize their success. These experts offer comprehensive analysis and best practice recommendations, from architecture planning through post-deployment.|
+|[Product documentation][1]|Merchants, designers, and developers can use the documentation to gain a deeper insight into how they can apply the power of [!DNL Commerce] to grow their business.|
+|[Commerce Resources Library][3]|Access Ebooks, Commerce whitepapers, and webinars to gain expert insight and online business resources to help develop and improve your store.|
+|[Adobe Product Security Incident Response][4]|Join the Security Alert Registry to get the latest information on potential vulnerabilities and [Security Best Practices][5].|
+|[Community Forums][6]|The forums provide access to a network of dedicated Adobe Commerce and Magento Open Source enthusiasts who share tips, tricks, and support.|
+|[Blog][7]|Check out the blog for the latest information about new features, trends, best practices, upcoming events, and more.|
+|[Events and webinars][8]|Keep tabs on the calendar of upcoming events and webinars. There is always something happening in the [!DNL Commerce] ecosystem.|
+|[[!DNL Commerce Marketplace]][9]|Visit the [!DNL Commerce] next-generation marketplace of digital commerce solutions. [!DNL Commerce Marketplace] offers merchants a curated selection of solutions, while providing qualified developers the tools, platform, and prime location for a thriving business.|
+|[Training and certification][10]|Learn how to unleash the power and flexibility of Adobe Commerce and Magento Open Source. Training is provided for every role in your business, including marketers, designers, developers, and more. Experienced [!DNL Commerce] professionals can validate their real-world skills by earning a [!DNL Commerce] certification.|
+|[Partners][12]|Adobe partners are committed to your success and provide custom integrations, best-in-class customer experiences, strategic marketing initiatives, and expert performance and scalability optimization for both on-premise and cloud-based solutions.|
+|[Adobe Commerce Managed Services][13]|The Adobe Commerce Managed Services team helps merchants and Solution Partners maximize their success. These experts offer comprehensive analysis and best practice recommendations, from architecture planning through post-deployment.|
 
 {style="table-layout:auto"}
 

@@ -2,6 +2,7 @@
 title: Scheduled product updates
 description: Learn how to schedule changes to your product listings to support campaigns and promotional programs.
 exl-id: ce1aebe6-9032-438d-b950-4b13116b8ed3
+feature: Catalog Management, Products
 ---
 # Schedule product updates
 
@@ -11,11 +12,13 @@ Product updates can be applied on schedule and grouped with other content change
 
 >[!NOTE]
 >
->All scheduled updates are applied consecutively. This means that any entity can have only one scheduled update at one point of time. Any scheduled update is applied to all store views within its time frame. As a result, an entity cannot have different scheduled updates for different store views at the same time. All entity attribute values within all store views, which are not affected by the current scheduled update, are taken from the default values, and not from the previous scheduled update.
+>All scheduled updates are applied consecutively, which means that any entity can have only one scheduled update at one time. Any scheduled update is applied to all store views within its time frame. As a result, an entity cannot have different scheduled updates for different store views at the same time. All entity attribute values within all store views, which are not affected by the current scheduled update, are taken from the default values, and not from the previous scheduled update.
 
-![Scheduled Changes](./assets/product-scheduled-changes.png)<!-- zoom -->
+>[!NOTE]
+>
+>A staging preview for a scheduled update always starts from the **default** store view, which emulates the customer's experience of navigating through the staging update campaign.
 
-## Create a schedule update
+## Create a scheduled update
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
@@ -33,7 +36,9 @@ Product updates can be applied on schedule and grouped with other content change
 
    >[!NOTE]
    >
-   >Campaign **[!UICONTROL Start Date]** and **[!UICONTROL End Date]** must be defined by using the **_default_** Admin time zone, which is converted from the local time zone for each website. For example, with multiple websites in different time zones where you want to start a campaign based on a US time zone, you need to schedule a separate update for each local time zone. Set **[!UICONTROL Start Date]** and **[!UICONTROL End Date]** for each, and it is converted from the local website time zone to default Admin time zone.
+   >Campaign **[!UICONTROL Start Date]** and **[!UICONTROL End Date]** must be defined by using the **_default_** Admin time zone, which is converted from the local time zone for each website. For example, with multiple websites in different time zones where you want to start a campaign based on a US time zone, you must schedule a separate update for each local time zone. Set **[!UICONTROL Start Date]** and **[!UICONTROL End Date]** for each, and it is converted from the local website time zone to default Admin time zone.
+
+   ![Schedule as a new update](./assets/product-schedule-as-new.png){width="600" zoomable="yes"}
 
 1. Scroll down to _[!UICONTROL Price]_ and click **[!UICONTROL Advanced Pricing]**.
 
@@ -53,7 +58,7 @@ Product updates can be applied on schedule and grouped with other content change
 
 1. In the list, select the campaign to be modified.
 
-   ![Assigning to an existing campaign](./assets/scheduled-changes-assign-to-existing-campaign.png)<!-- zoom -->
+   ![Assigning to an existing campaign](./assets/scheduled-changes-assign-to-existing-campaign.png){width="600" zoomable="yes"}
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) **[!UICONTROL Content]**.
 
@@ -63,7 +68,7 @@ Product updates can be applied on schedule and grouped with other content change
 
 The scheduled change appears at the top of the product page, with the start and end dates of the campaign.
 
-![Scheduled change](./assets/view-product-scheduled-changes.png)<!-- zoom -->
+![Scheduled change](./assets/view-product-scheduled-changes.png){width="600" zoomable="yes"}
 
 ## Edit the scheduled change
 
@@ -71,7 +76,7 @@ The scheduled change appears at the top of the product page, with the start and 
 
 1. Make any changes necessary to the scheduled update.
 
-1. click **[!UICONTROL Save]**.
+1. Click **[!UICONTROL Save]**.
 
 ## Remove the scheduled change
 
@@ -79,13 +84,13 @@ The scheduled change appears at the top of the product page, with the start and 
 
 1. On the top bar, click **[!UICONTROL Remove from Update]**.
 
+   ![Remove Scheduled Change](./assets/remove-product-scheduled-changes.png){width="600" zoomable="yes"}
+   
 1. In the dialog, select **[!UICONTROL Delete the Update]** and click **[!UICONTROL Done]**.
 
    >[!NOTE]
    >
    >The product is removed from the update and all scheduled changes are lost.
-
-   ![Remove Scheduled Change](./assets/remove-product-scheduled-changes.png)<!-- zoom -->
 
 ## Schedule a design update
 
@@ -93,7 +98,8 @@ The scheduled change appears at the top of the product page, with the start and 
 
 The _[!UICONTROL Schedule Design Update]_ section gives you the ability to make temporary changes to the appearance of the product page. You can schedule design changes for a season, promotion, or just to make things fresh. Design changes can be scheduled in advance, so they go into effect, or _drip_, on your defined schedule.
 
-![Scheduled Design Update](./assets/product-design-update-scheduled.png)<!-- zoom -->
+![Scheduled Design Update](./assets/product-design-update-scheduled-ce.png){width="600" zoomable="yes"}
+   
 
 |Field|Description|
 |--- |--- |

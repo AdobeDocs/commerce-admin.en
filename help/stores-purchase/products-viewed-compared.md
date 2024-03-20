@@ -2,6 +2,7 @@
 title: Recently viewed or compared products
 description: Learn how to configure the storefront content blocks for recently viewed and compared products.
 exl-id: a4580835-68c2-4eb0-825e-0939eeab921b
+feature: Products, Storefront
 ---
 # Recently viewed or compared products
 
@@ -15,7 +16,7 @@ The _Recently Viewed and Recently Compared_ blocks usually appear in the right s
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Recently Viewed/Compared Products]** section.
 
-   ![Catalog configuration - recently viewed/compared products](../configuration-reference/catalog/assets/catalog-recently-viewed-and-compared-products.png)<!-- zoom -->
+   ![Catalog configuration - recently viewed/compared products](../configuration-reference/catalog/assets/catalog-recently-viewed-and-compared-products.png){width="600" zoomable="yes"}
 
    For a detailed description of each of these configuration settings, see [Recently Viewed/Compared Products](../configuration-reference/catalog/catalog.md#recently-viewedcompared-products) in the _Configuration Reference Guide_.
 

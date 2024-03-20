@@ -1,9 +1,10 @@
 ---
-title: Configure Product Options
+title: "Configure [!DNL Inventory Management] product options"
 description: Learn how to configure the [!DNL Inventory Management] product configuration options.
 exl-id: b5cff7d2-5197-4362-9503-b07c80793ac7
+feature: Inventory, Products
 ---
-# Configure Product Options
+# Configure [!DNL Inventory Management] product options
 
 These configurations apply only to the edited product, overriding all configurations at the global website level. Modify these settings when editing a product, through the _[!UICONTROL Sources]_ section and _[!UICONTROL Advanced Inventory]_ page.
 
@@ -31,7 +32,7 @@ Configure the quantities and additional settings per [added source](sources-add.
       `Select to use Default` - [!DNL Commerce] checks the product Advanced Inventory options for configuration settings.
       `Clear to Modify` - Enter a value for the Notify Quantity, overriding Advanced Inventory and Store configuration settings.
 
-   ![Sources Section for a product](assets/inventory-product-quantity-edit.png)
+   ![Sources Section for a product](assets/inventory-product-quantity-edit.png){width="350" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Done]**, then **[!UICONTROL Save]**.
 
@@ -42,7 +43,7 @@ Configure the quantities and additional settings per [added source](sources-add.
 | [!UICONTROL Source Code] | Global | The unique code for a [source](sources-manage.md). |
 | [!UICONTROL Name] | Global | The unique name for a source. |
 | [!UICONTROL Status] | Global | Product is enabled or disabled in the catalog. |
-| [!UICONTROL Source Item Status] | Global | Determines the current availability of the product. Options:<br />**[!UICONTROL In Stock]** - Makes the product available for purchase.<br />**[!UICONTROL Out of Stock]** - Unless Backorders are activated, prevents the product from being available for purchase and removes the listing from the catalog. |
+| [!UICONTROL Source Item Status] | Global | Determines the current availability of the product. Options:<br />`In Stock` - Makes the product available for purchase.<br />`Out of Stock` - Unless Backorders are activated, prevents the product from being available for purchase and removes the listing from the catalog. |
 | [!UICONTROL Qty] | Global | On-hand stock amounts for each source or location. |
 | [!UICONTROL Notify Quantity] | Global | An amount for the _[!UICONTROL Notify for Quantity Below]_ for this specific source if _[!UICONTROL Notify Quantity Use Default]_ is not selected. |
 | [!UICONTROL Notify Quantity Use Default] | Global | Indicates to use the default setting for _[!UICONTROL Notify for Quantity Below]_ in the product _[!UICONTROL Advanced Inventory]_ or global setting in the store configuration. |
@@ -61,7 +62,7 @@ Configure the quantities and additional settings per [added source](sources-add.
    >
    >[!UICONTROL Manage Stock] settings in child products override a configurable product.
 
-   ![Advanced Inventory for a Product](assets/product-inventory-manage-stock-yes.png)
+   ![Advanced Inventory for a Product](assets/inventory-backorders-product-settings.png){width="600" zoomable="yes"}
 
 1. Enter an amount for the **[!UICONTROL Out-of-Stock Threshold]**:
 
@@ -100,12 +101,12 @@ Configure the quantities and additional settings per [added source](sources-add.
 |Field|Scope|Description|
 |--|--|--|
 | [!UICONTROL Manage Stock] | Global | Determines if inventory control is used to manage this product in your catalog. Set to enable or disable all [!DNL Inventory Management] features. When you complete a return or a credit memo, the product quantity is automatically returned to the affected source quantity. You may want to disable if using a third-party, ERP system. |
-| [!UICONTROL Out-of-Stock Threshold] | Global | Determines the stock level at which a product is considered to be out of stock. Options:<br />**[!UICONTROL Positive amount]** - With Backorders disabled, enter a positive amount.<br />**[!UICONTROL Zero]** - With Backorders enabled, entering zero allows for infinite backorders.<br />**[!UICONTROL Negative amount]** - With Backorders enabled, entering a negative amount is recommended. The amount is added to the Salable Quantity. For example, enter `-50` to allow orders up to this amount. |
+| [!UICONTROL Out-of-Stock Threshold] | Global | Determines the stock level at which a product is considered to be out of stock. Options:<br />Positive value - With backorders disabled, enter a positive amount.<br />Zero (0) - With Backorders enabled, entering zero allows for infinite backorders.<br />Negative value - With backorders enabled, entering a negative amount is recommended. The amount is added to the Salable Quantity. For example, enter `-50` to allow orders up to this amount. |
 | [!UICONTROL Minimum Qty Allowed in Shopping Cart] | Global | Determines the minimum number of the product that can be purchased in a single order. |
 | [!UICONTROL Maximum Qty Allowed in Shopping Cart] | Global | Determines the maximum number of the product that can be purchased in a single order. |
-| [!UICONTROL Qty Uses Decimals] | Global | Determines if customers can use a decimal value rather than a whole number when entering the quantity ordered. Options:<br />**[!UICONTROL Yes]** - Permits values to be entered as decimals, rather than whole numbers. Decimals are suitable for products sold by weight, volume, or length.<br />**[!UICONTROL No]** - Requires quantity values to be entered as whole numbers. |
+| [!UICONTROL Qty Uses Decimals] | Global | Determines if customers can use a decimal value rather than a whole number when entering the quantity ordered. Options:<br />`Yes` - Permits values to be entered as decimals, rather than whole numbers. Decimals are suitable for products sold by weight, volume, or length.<br />`No` - Requires quantity values to be entered as whole numbers. |
 | [!UICONTROL Allow Multiple Boxes for Shipping] | Global | Determines if parts of the product can be shipped separately. This option is visible when **[!UICONTROL Qty Uses Decimals]** = `Yes`. |
-| [!UICONTROL Backorders] | Global | Determines how  backorders are managed. Backorders do not change the processing status of the order. Funds are still authorized or captured immediately when the order is placed, regardless of whether the product is in stock. Products are shipped as they become available. When enabled, it is recommended that you enter a negative amount for the Out-of-Stock Threshold. Options:<br />**[!UICONTROL No Backorders]** -  Does not accept backorders when product is out of stock.<br />**[!UICONTROL Allow Qty Below 0]** - Accepts backorders when the quantity falls below zero.<br />**[!UICONTROL Allow Qty Below 0 and Notify Customer]** - Accepts backorders when the quantity falls below zero, but notifies customers that orders can still be placed. |
+| [!UICONTROL Backorders] | Global | Determines how  backorders are managed. Backorders do not change the processing status of the order. Funds are still authorized or captured immediately when the order is placed, regardless of whether the product is in stock. Products are shipped as they become available. When enabled, it is recommended that you enter a negative amount for the Out-of-Stock Threshold. Options:<br/>`No Backorders` -  Does not accept backorders when product is out of stock.<br />`Allow Qty Below 0` - Accepts backorders when the quantity falls below zero.<br />`Allow Qty Below 0 and Notify Customer` - Accepts backorders when the quantity falls below zero, but notifies customers that orders can still be placed. |
 | [!UICONTROL Enable Qty Increments] | Global | Determines if the product can be sold in quantity increments. |
 
 >[!NOTE]

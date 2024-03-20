@@ -1,7 +1,8 @@
 ---
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales Emails]'
-description: Review the configurations settings on the [!UICONTROL Sales] &gt; [!UICONTROL Quotes] page of the Commerce Admin.
+description: Review the configurations settings on the [!UICONTROL Sales] &gt; [!UICONTROL Sales Emails] page of the Commerce Admin.
 exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
+feature: Configuration, Communications
 ---
 # [!UICONTROL Sales] > [!UICONTROL Sales Emails]
 
@@ -17,7 +18,7 @@ exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 |--- |--- |--- |
 |[!UICONTROL Asynchronous sending]|Global|Determines if sales emails are sent asynchronously. It is recommended that you enable Asynchronous sending. Options: <br/>**`Disable`** - (Default) Sales emails are sent when triggered by an event. <br/>**`Enable`** - (Recommended) Sales emails are sent at predetermined, regular intervals.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order]
 
@@ -34,7 +35,7 @@ exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 |[!UICONTROL Send Order Email Copy To]|Store View|Provides the email address of anyone to receive a copy of an order email. Separate multiple addresses with a comma.|
 |[!UICONTROL Send Order Email Copy Method]|Store View|Indicates the email method used to send the copy. Options include: <br/>**`Bcc`** - Sends a blind courtesy copy by including the recipient in the header of the same email that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**`Separate Email`** - Sends the copy as a separate email.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order Comments]
 
@@ -51,7 +52,7 @@ exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 |[!UICONTROL Send Order Email Copy To|Store View]|Provides the email address of anyone to receive a copy of an order comment email. Separate multiple addresses with a comma.|
 |[!UICONTROL Send Order Email Copy Method]|Store View|Indicates the method used to send the copy. Options include: <br/>**`Bcc`** - Sends a blind courtesy copy by including the recipient in the header of the same email that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**`Separate Email`** - Sends the copy as a separate email.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Invoice]
 
@@ -68,7 +69,7 @@ exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 |[!UICONTROL Send Invoice Email Copy To]|Store View|Provides the email address of anyone to receive a copy of an invoice email. Separate multiple addresses with a comma.|
 |[!UICONTROL Send Invoice Email Copy Method]|Store View|Indicates the method used to send the copy. Options include: <br/>**`Bcc`** - Sends a blind courtesy copy by including the recipient in the header of the same email  that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**`Separate Email`** - Sends the copy as a separate email.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Invoice Comments]
 
@@ -85,7 +86,7 @@ exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 |[!UICONTROL Send Invoice Comment Email Copy To]|Store View|Provides the email address of anyone to receive a copy of an invoice comment email. Separate multiple addresses with a comma.|
 |[!UICONTROL Send Invoice Comments Email Copy Method]|Store View|Indicates the email method used to send the copy. Options include: <br/>**`Bcc`** - Sends a blind courtesy copy by including the recipient in the header of the same email  that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**`Separate Email`** - Sends the copy as a separate email.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shipment]
 
@@ -102,7 +103,7 @@ exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 |[!UICONTROL Send Shipment Email Copy To]|Store View|Provides the email address of anyone who should receive a copy of a shipment email. Separate multiple addresses with a comma.|
 |[!UICONTROL Send Shipment Email Copy Method]|Store View|Indicates the method used to send the copy. Options include: <br/>**`Bcc`** - Sends a blind courtesy copy by including the recipient in the header of the same email that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**`Separate Email`** - Sends the copy as a separate email.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shipment Comments]
 
@@ -119,7 +120,7 @@ exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 |[!UICONTROL Send Shipment Comment Email Copy To]|Store View|Provides the email address of anyone to receive a copy of a shipment comment email. Separate multiple addresses with a comma.|
 |[!UICONTROL Send Shipment Comments Email Copy Method]|Store View|Indicates the email method used to send the copy. Options include: <br/>**`Bcc`** - Sends a blind courtesy copy by including the recipient in the header of the same email  that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**`Separate Email`** - Sends the copy as a separate email.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Credit Memo]
 
@@ -136,7 +137,7 @@ exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 |[!UICONTROL Send Credit Memo Email Copy To]|Store View|Provides the email address of anyone who should receive a copy of a credit memo email. Separate multiple addresses with a comma.|
 |[!UICONTROL Send Credit Memo Email Copy Method]|Store View|Indicates the method used to send the copy. Options include: <br/>**`Bcc`** - Sends a blind courtesy copy by including the recipient in the header of the same email that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**`Separate Email`** - Sends the copy as a separate email.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Credit Memo Comments]
 
@@ -153,7 +154,7 @@ exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 |[!UICONTROL Send Credit Memo Comment Email Copy To]|Store View|Specifies the email address of anyone to receive a copy of a credit memo comment email. Separate multiple addresses with a comma.|
 |[!UICONTROL Send Credit Memo Comments Email Copy Method]|Store View|Indicates the email method used to send the copy. Options include: <br/>**`Bcc`** - Sends a blind courtesy copy by including the recipient in the header of the same email  that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**`Separate Email`** - Sends the copy as a separate email.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order Ready For Pickup in Store]
 
@@ -170,7 +171,7 @@ exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 |Send Order Ready For Pickup Email Copy To|Store View|Specifies the email address of anyone to receive a copy of an _Order Ready For Pickup_ email. Separate multiple addresses with a comma.|
 |[!UICONTROL Send Order Ready For Pickup Email Copy Method]|Store View|Indicates the email method used to send the copy. Options: <br/>**`Bcc`** - Sends a blind courtesy copy by including the recipient in the header of the same email that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**`Separate Email`** - Sends the copy as a separate email.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Purchase Order Approval]
 
@@ -189,7 +190,7 @@ exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 | [!UICONTROL Error creating Order from Purchase Order (to Buyer)] | Store View | Notifies creator that an error occurred when converting a PO to an order.|
 | [!UICONTROL Purchase Order required Approval (to Approver)] | Store View | Sends an email to notify the approver that the purchase order requires their approval. |
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Quote]
 
@@ -212,7 +213,7 @@ exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 |[!UICONTROL Send Quote Email Copy To]|Store View|Specifies the email address of each person who is to receive a copy of the quote email. Separate multiple addresses with a comma.|
 |[!UICONTROL Send Quote Email Copy Method]|Store View|Indicates the email method used to send the copy. Options include: <br/>**`Bcc`** - Sends a blind courtesy copy by including the recipient in the header of the same email  that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**`Separate Email`** - Sends the copy as a separate email.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA]
 
@@ -231,7 +232,7 @@ exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 |[!UICONTROL Send RMA Email Copy To]|Store View|Provides the email address of anyone who should receive a copy of an RMA email. Separate multiple addresses with a comma.|
 |[!UICONTROL Send RMA  Email Copy Method]|Store View|Indicates the email method used to send the copy. Options include: <br/>**`Bcc`** - Sends a blind courtesy copy by including the recipient in the header of the same email  that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**`Separate Email`** - Sends the copy as a separate email.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA Authorization]
 
@@ -250,7 +251,7 @@ exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 |[!UICONTROL Send RMA Authorization Email Copy To]|Store View|Provides the email address of anyone to receive a copy of an RMA authorization email. Separate multiple addresses with a comma.|
 |[!UICONTROL Send RMA Authorization Email Copy Method]|Store View|Indicates the email method used to send the copy. Options include: <br/>**`Bcc`** - Sends a blind courtesy copy by including the recipient in the header of the same email  that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**`Separate Email`** - Sends the copy as a separate email.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA Admin Comments]
 
@@ -267,7 +268,7 @@ exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 |[!UICONTROL Send RMA Comment Email Copy To]|Store View|Provides the email address of anyone to receive a copy of the notification. Separate multiple addresses with a comma.|
 |[!UICONTROL Send RMA Comments Email Copy Method]|Store View|Indicates the email method used to send the copy. Options include: <br/>**`Bcc`** - Sends a blind courtesy copy by including the recipient in the header of the same email  that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**`Separate Email`** - Sends the copy as a separate email.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA Customer Comments]
 
@@ -286,4 +287,4 @@ exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 |[!UICONTROL Send RMA Comment Email Copy To]|Store View|Provides the email address of anyone to receive a copy of the notification. Separate multiple addresses with a comma.|
 |[!UICONTROL Send RMA Comments Email Copy Method]|Store View|Indicates the email method used to send the copy. Options include: <br/>**`Bcc`** - Sends a blind courtesy copy by including the recipient in the header of the same email  that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**`Separate Email`** - Sends the copy as a separate email.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

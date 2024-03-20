@@ -1,9 +1,9 @@
 ---
-title: Disable Sources
+title: Disable inventory sources
 description: Learn how to disable sources and modify information, including location and point of contact.
 exl-id: 3fcbfa3c-8bb7-4e08-a395-9760bbd69f04
 ---
-# Disable Sources
+# Disable sources
 
 To ensure that all order data retains in [!DNL Commerce], sources cannot be deleted. Sources, orders, and shipments are directly connected to each other. You can disable sources and modify information including location and point of contact.
 
@@ -31,7 +31,7 @@ Setting a source to `disabled` is helpful for the following situations:
 
 1. Click the _Actions_ menu at the upper-left corner and choose **[!UICONTROL Disable]**.
 
-   ![[!DNL Inventory Management] sources - Actions menu](assets/inventory-source-disable.png)
+   ![[!DNL Inventory Management] sources - Actions menu](assets/inventory-source-disable.png){width="600" zoomable="yes"}
 
 1. In the confirmation dialog, click **[!UICONTROL OK]**.
 

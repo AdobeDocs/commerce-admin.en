@@ -1,9 +1,10 @@
 ---
-title: Cookie Law Compliance
+title: Cookie law compliance
 description: To keep pace with legislation in many countries regarding the use of cookies, Adobe Commerce and Magento Open Source offer merchants a choice of methods to obtain customer consent.
 exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
+feature: Compliance
 ---
-# Cookie Law Compliance
+# Cookie law compliance
 
 Cookies are small files that are saved to the computer of each visitor to your site, and used as temporary holding places for information. Information that is saved in cookies is used to personalize the shopping experience, link visitors to their shopping carts, measure traffic patterns, and improve the effectiveness of promotions. To keep pace with legislation in many countries regarding the use of cookies, Adobe Commerce and Magento Open Source offer merchants a choice of methods to obtain customer consent. For a list of the default cookies in Adobe Commerce and Magento Open Source, the [Cookie Reference](#default-cookies).
 
@@ -29,17 +30,17 @@ Your [privacy policy](privacy-policy.md)) should include the name of your store 
 >
 >If you change the URL key of the privacy policy, you must also create a custom URL rewrite to redirect traffic to the new URL key. Otherwise, the link in the Cookie Restriction Mode message returns `404 Page Not Found`.
 
-![Example storefront - cookie restriction notice](./assets/storefront-cookie-restriction-message.png)<!-- zoom -->
+![Example storefront - cookie restriction notice](./assets/storefront-cookie-restriction-message.png){width="600"}
 
 ### Step 1: Enable cookie restriction mode
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel under **[!UICONTROL General]**, choose **[!UICONTROL Web]**.
+1. In the left navigation panel under **[!UICONTROL General]**, choose **[!UICONTROL Web]**.
 
 1. Expand the **[!UICONTROL Default Cookie Settings]** section and do the following:
 
-    ![Web configuration - default cookie settings](./assets/web-default-cookie-settings.png)<!-- zoom -->
+    ![Web configuration - default cookie settings](./assets/web-default-cookie-settings.png){width="600"}
  
     - Enter the **[!UICONTROL Cookie Lifetime]** in seconds.
 
@@ -74,9 +75,7 @@ Some of these cookies may provide configuration options, including enable/disabl
  
 #### `add_to_cart` 
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only)
-
-Used by Google Tag Manager. Captures the product SKU, name, price and quantity removed from the cart, and makes the information available for future integration by third-party scripts.
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Used by Google Tag Manager. Captures the product SKU, name, price and quantity removed from the cart, and makes the information available for future integration by third-party scripts.
 
 #### `guest-view`
 
@@ -98,9 +97,7 @@ Preserves the destination page that was loading before the customer was directed
 
 #### `mage-banners-cache-storage`
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only)
-
-Stores banner content locally to improve performance.
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Stores banner content locally to improve performance.
 
 #### `mage-messages`
 
@@ -178,9 +175,7 @@ Stores product IDs of recently previously viewed products for easy navigation.
 
 #### `remove_from_cart`
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only)
-
-Used by [Google Tag Manager](../merchandising-promotions/google-tag-manager.md). Captures the product SKU, name, price, and quantity added to the cart, and makes the information available for future integration by third-party scripts.
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Used by [Google Tag Manager](../merchandising-promotions/google-tag-manager.md). Captures the product SKU, name, price, and quantity added to the cart, and makes the information available for future integration by third-party scripts.
 
 #### `stf`
 
@@ -207,8 +202,8 @@ A security measure that appends a random string to all form submissions to prote
 - Is Secure? No
 - HTTP Only: No
 - Expiration Policy:
-   - PHP: Based on PHP setting session.cookie_lifetime
-   - JS: Session
+    - PHP: Based on PHP setting session.cookie_lifetime
+    - JS: Session
 - Module: Page Cache
 
 #### `mage-cache-sessid`
@@ -262,42 +257,40 @@ Appends a random, unique number and time to pages with customer content to preve
 
 It is set in multiple places: in PHP, in JavaScript as a cookie, and in JavaScript to local storage.
 
-For, HTTP Only=Yes (based on request), it means that the cookie is secure if set during HTTPS request and unsecure if set during HTTP request.
+For HTTP Only=`Yes` (based on request), it means that the cookie is secure if set during HTTPS request and unsecure if set during HTTP request.
 
-- Is Secure? Yes (based on request), No
-- HTTP Only: No
+- Is Secure? `Yes` (based on request), `No`
+- HTTP Only: `No`
 - Expiration Policy: Based on [Persistent Shopping Cart](../stores-purchase/cart-persistent.md) - Persistence Lifetime (seconds) configuration
-   - PHP: 1 year / 315360000s (10yr)
-   - JS: 1 day
-   - JS local storage: Per local storage rules (forever)
+    - PHP: `1` year / `315360000s` (ten years)
+    - JS: `1` day
+    - JS local storage: Per local storage rules (forever)
 - Module: `Magento_PageCache`, `Magento_Customer`
 
 #### `section_data_ids`
 
-Stores customer-specific information related to shopper-initiated actions, such as display wish list, checkout information, and so on.
+Stores customer-specific information related to shopper-initiated actions, such as wish list display and checkout information.
 
-- Is Secure? No
-- HTTP Only: No
-- Expiration Policy: Session
+- Is Secure? `No`
+- HTTP Only: `No`
+- Expiration Policy: `Session`
 - Module: `Magento_Customer`
 
 #### `store`
 
 Tracks the specific store view / locale selected by the shopper.
 
-- Is Secure? No
-- HTTP Only: Yes
-- Expiration Policy: 1 year
+- Is Secure? `No`
+- HTTP Only: `Yes`
+- Expiration Policy: `1` year
 - Module: `Magento_Store`
 
 #### `mage-banners-cache-storage` - local storage
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only)
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Local storage for Banner functionality.
 
-Local storage for Banner functionality.
-
-- Is Secure? No
-- HTTP Only: No
+- Is Secure? `No`
+- HTTP Only: `No`
 - Expiration Policy: Per local storage rules
 - Module: `Magento_Banner`
 
@@ -307,22 +300,18 @@ The following cookies are used when [Google Analytics](../merchandising-promotio
 
 ### Google Universal Analytics cookies  - non-exempt
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only)
-
-JavaScript Libraries: `gtag.js` and `analytics.js`
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) JavaScript Libraries: `gtag.js` and `analytics.js`
 
 - `_ga`: Distinguishes visitors to your site.
 - `_gid`: Distinguishes visitors to your site.
 - `gat`: Used to throttle request rate.
 - `dc_gtm_<property-id>`: Throttles request rate when Google Analytics is deployed with [Google Tag Manager](../merchandising-promotions/google-tag-manager.md).
-- `AMP_TOKEN`: Contains a token that can be used to retrieve a Client ID from AMP Client ID service. Other possible values include opt-out, inflight request or an error retrieving a Client ID from  AMP Client ID service.
+- `AMP_TOKEN`: Contains a token that can be used to retrieve a Client ID from AMP Client ID service. Other possible values include opt-out, inflight request, or an error retrieving a Client ID from  AMP Client ID service.
 - `_gac_<property-id>`: Contains campaign-related information for the user. Google AdWords conversion tags read this cookie if Google Analytics is linked to your [AdWords][2] account.
 
 ### Google Analytics cookies - non-exempt
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only)
-
-JavaScript Library: `ga.js`
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) JavaScript Library: `ga.js`
 
 - `__utma`: Distinguishes shoppers and sessions. This cookie is created when the JavaScript library executes and there is no existing `__utma` cookie. The cookie is updated every time data is sent to Google Analytics.
 - `__utmt`: Used to throttle request rate.
@@ -332,16 +321,22 @@ JavaScript Library: `ga.js`
 
 ## Product Recommendations cookies
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only)
-
-The following cookies are used by Product Recommendations for Adobe Commerce customers. These cookies are installed with the [DataServices module](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html).
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) The following cookies are used by Product Recommendations for Adobe Commerce customers. These cookies are installed with the [DataServices module](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html).
 
 - `mg_dnt`: Allows you to [restrict Adobe Commerce data collection](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/developer/setting-cookie.html) if you have custom code to manage cookie consent on your site.
-- `user_allowed_save_cookie`: Used for [cookie restriction mode](#cookierestrict).
+- `user_allowed_save_cookie`: Used for [cookie restriction mode](#cookie-restriction-mode).
 - `authentication_flag`: Indicates if a shopper has signed in or signed out. This cookie is updated at the same time as the `dataservices_customer_id` cookie.
-- `dataservices_customer_id`: Indicates if a shopper has signed in or signed out. This cookie does not contain the customer ID.
-- `dataservices_cart_id`: Identifies a shopper's cart actions.
-- `dataservices_product_context`: Identifies a shopper's product interactions.
+- `dataservices_customer_id`: Indicates if a shopper has signed in or signed out. This cookie contains the customer's unique ID in the system.
+- `dataservices_customer_group`: Indicates a customer's group. This cookie is stored as [sha1](https://en.wikipedia.org/wiki/SHA-1) checksum of the customer's group ID.
+- `dataservices_cart_id`: Identifies a shopper's cart actions. This cookie contains the customer's unique cart ID in the system.
+- `dataservices_product_context`: Identifies a shopper's product interactions. This cookie contains the customer's unique quote ID in the system.
+
+## Additional cookies
+
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) The following cookies are set for Adobe Commerce customers. These cookies are installed with the [DataServices module](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html).
+
+- `mg`: Set by Snowplow JavaScript tracker. More information can be found in the [Snowplow documentation](https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/javascript-trackers/javascript-tracker/javascript-tracker-v3/tracker-setup/initialization-options).
+- `com.adobe.alloy.getTld`: Given the current web page's hostname, this is the top-most domain that is not a "public suffix" as outlined in https://publicsuffix.org. Essentially, this is the top-most domain that can accept cookies. This cookie is part of the [Alloy Web SDK](https://github.com/adobe/alloy).
 
 [1]: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
 [2]: https://support.google.com/adwords/answer/7521212

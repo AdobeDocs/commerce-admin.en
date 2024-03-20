@@ -1,13 +1,14 @@
 ---
-title: Product Alerts
+title: Product alerts
 description: Learn about product alerts and how to use them to notify customers about stock status and price changes for products.
 exl-id: c9f736c5-7bba-4e3e-804d-5b0fe52c8f9b
+feature: Inventory, Configuration
 ---
-# Product Alerts
+# Product alerts
 
 Customers can subscribe to two types of alerts by email - price change alerts and in-stock alerts. For each type of alert, you can determine if customers are able to subscribe, select the email template that is used, and identify the sender of the email.
 
-![Sign up for a product alert](assets/product-alert-setting.png)
+![Sign up for a product alert](assets/product-alert-setting.png){width="600" zoomable="yes"}
 
 ## Price change alerts
 
@@ -17,7 +18,7 @@ When price change alerts are enabled, a _Notify me when the price drops_ link ap
 
 The in-stock alert creates a link called _Notify me when this product is in stock_ for every product that is out of stock. Customers can click the link to subscribe to the alert. When the product is back in stock, customers receive an email notification that the product is available. Products with alerts have a _Product Alerts_ tab in the Product Information panel that lists the customers who have subscribed to an alert.
 
-![List of product and price alert subscriptions](assets/inventory-product-alerts.png)
+![List of product and price alert subscriptions](assets/inventory-product-alerts.png){width="600" zoomable="yes"}
 
 ## Set up product alerts
 
@@ -27,7 +28,7 @@ The in-stock alert creates a link called _Notify me when this product is in stoc
 
 1. Click to expand the _[!UICONTROL Product Alerts]_ section and do the following:
 
-    ![Product Alerts](assets/config-catalog-product-alerts.png)
+    ![Product Alerts](assets/config-catalog-product-alerts.png){width="600" zoomable="yes"}
 
     - To offer price change alerts to your customers, set **[!UICONTROL Allow Alert When Product Price Changes]** to `Yes`.
 
@@ -80,7 +81,7 @@ For more detailed information about using email messaging, see [Message Template
 
 These settings allow you to select how often [!DNL Commerce] checks for changes that require alerts to be sent. You can also select the recipient, sender, and template for emails that are sent if the sending of alerts fails.
 
-![Product Alert Run Settings](assets/config-catalog-product-alerts-run-settings.png)
+![Product Alert Run Settings](assets/config-catalog-product-alerts-run-settings.png){width="600" zoomable="yes"}
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 

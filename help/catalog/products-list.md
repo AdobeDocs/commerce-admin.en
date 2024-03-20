@@ -2,6 +2,7 @@
 title: Products list
 description: Learn about the _[!UICONTROL Products]_ page in the Admin, where you can create products and edit existing ones.
 exl-id: 47e14f72-017f-456a-8904-6d32ef47e6f1
+feature: Catalog Management, Products, Admin Workspace
 ---
 # Products list
 
@@ -11,14 +12,45 @@ The _[!UICONTROL Products]_ list includes all products in the catalog, indicates
 
 You can browse through the list page by page, or search for specific products. Use the standard [controls](../getting-started/admin-grid-controls.md) to sort and filter the list, and apply [actions](../getting-started/admin-actions-control.md) to selected products.
 
-![Products grid](./assets/products-grid.png)<!-- zoom -->
+![Products grid](./assets/products-grid.png){width="700" zoomable="yes"}
+
+## Limit product display
+
+To improve performance for large catalogs, it is recommended that you limit the number of products displayed in the grid. You can limit displayed product grids for:
+
+- Products page
+- Add Related/Up-Sell/Cross-Sell Products
+- Add Products to Bundle Product
+- Add Products to Group Product
+- Create Order (Admin)
+
+This configuration setting for the product display limitation is disabled by default. By enabling it, you can limit the number of products in the grid to a specific value. If it is enabled and the number of matching products for the grid display is greater than the record limit, a limited collection of records is returned. When the limit is reached, the total records found, number of selected records, and pagination elements do not appear in the grid header.
+
+>[!NOTE]
+>
+>If you do not want your product grid to be limited, use filters more precisely to produce a collection that has fewer items than the number specified in the _[!UICONTROL Records Limit]_ field.
+
+**_To configure the product display limitation:_**
+
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+
+1. Expand **[!UICONTROL Advanced]** and choose **[!UICONTROL Admin]**.
+
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Admin Grids]** section and do the following:
+
+   - Set **[!UICONTROL Limit Number of Products in Grid]** to `Yes`.
+
+   - (Optional) Enter a value in the **[!UICONTROL Records Limit]** field to limit the number of products in the grid to a specific value. The default minimum value is `20000`.
+
+   ![Admin Grids configuration settings](../configuration-reference/advanced/assets/admin-admin-grids.png){width="600" zoomable="yes"}
+
+1. When complete, click **[!UICONTROL Save Config]**.
 
 ## Page controls
 
 |Control|Description|
 |--- |--- |
 |[!UICONTROL Add Product]|Initiates the process to create a new simple product. To choose a specific product type, click the down arrow. Options: [[!UICONTROL Simple Product]](product-create-simple.md) / [[!UICONTROL Configurable Product]](product-create-configurable.md) / [[!UICONTROL Grouped Product]](product-create-grouped.md) / [[!UICONTROL Virtual Product]](product-create-virtual.md) / [[!UICONTROL Bundle Product]](product-create-bundle.md) / [[!UICONTROL Downloadable Product]](product-create-downloadable.md) / [[!UICONTROL Gift Card]](product-gift-card-create.md)|
-|[!UICONTROL Export Full Catalog]|([MCOM Connector](../systems/mcom.md) required) Manually request a [full catalog export](../systems/mcom.md#export-full-catalog) from Adobe Commerce. Outgoing messages are exported to a .csv file in batches.|
 |[!UICONTROL Actions]|Lists all actions that can be applied to selected products in the list. To apply an action to a product or group of products, select the checkbox in the first column of each product. Options: `Delete` / `Change Status` / `Update Attributes` / `Assign Inventory Source` / `Unassign Inventory Source` / `Transfer Inventory To Source`|
 |[!UICONTROL Filters]|Initiates a catalog search based on the current filters.|
 |[!UICONTROL Default View]|Indicates the current grid column layout. If there are saved grid column views, you can choose another.|
@@ -40,7 +72,7 @@ You can browse through the list page by page, or search for specific products. U
 |[!UICONTROL Attribute Set]|The name of the attribute set that is used as a template for the product.|
 |[!UICONTROL SKU]|The unique Stock Keeping Unit that is assigned to the product.|
 |[!UICONTROL Price]|The unit price of the product.|
-|[!UICONTROL Quantity]|The quantity that is currently in stock.|
+|[!UICONTROL Quantity]|The quantity that is in stock.|
 |[!UICONTROL Salable Quantity]|The sum of all available units of this product.|
 |[!UICONTROL Visibility]|Indicates where the product is visible in the catalog. Options: `Not Visible Individually` / `Catalog` / `Search` / `Catalog, Search`|
 |[!UICONTROL Status]|Indicates the status of the product. Options: `Enabled` and `Disabled`|

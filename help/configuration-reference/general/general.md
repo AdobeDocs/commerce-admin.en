@@ -2,6 +2,7 @@
 title: '[!UICONTROL General] &gt; [!UICONTROL General]'
 description: Review the configurations settings on the [!UICONTROL General] &gt; [!UICONTROL General] page of the Commerce Admin.
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
+feature: Configuration, System
 ---
 # [!UICONTROL General] > [!UICONTROL General]
 
@@ -21,7 +22,7 @@ See [Country Options](../../getting-started/store-details.md#country-options) fo
 |[!UICONTROL European Union Countries]|Global|Countries that are members of the European Union.|
 |[!UICONTROL Top Destinations]|Store View|The primary countries that you target for sales.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL State Options]
 
@@ -34,7 +35,7 @@ See [State Options](../../getting-started/store-details.md#state-options) for mo
 |[!UICONTROL State is required for]|Global|The countries (where you conduct business) that require a region or state to be included in the postal address.|
 |[!UICONTROL Allow to Choose State if It is Optional for Country]|Global|For countries where it is not required, determines if the _Region/State_ field is included in the postal address of the customer.<br /> <br />**`Yes`** - Includes the _Region/State_ field in the customer address, even if not required by the country. <br />**`No`** - Omits the Region/State field from the customer address if not required by the country.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Locale Options]
 
@@ -50,7 +51,7 @@ See [Locale Options](../../getting-started/store-details.md#locale-options) for 
 |[!UICONTROL First Day of Week]|Store View|The day that is considered to be the first day of the week in the market served by the store view.|
 |[!UICONTROL Weekend Days]|Store View|The days that fall on the weekend in the market served by the store view.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Website Restrictions]
 
@@ -69,7 +70,7 @@ For more information about changing these settings, see [Access restrictions](..
 |[!UICONTROL HTTP Response]|Website|Determines the HTTP response that is sent when the website is closed and a connection is attempted by a bot, crawler, or spider.<br /> <br />**`503 Service unavailable`** - The page is not available, but the spider should not update the index. <br />**`200 OK`** - The landing page is correct, and should be treated by the spider as the only page on the site.|
 |[!UICONTROL Enable Autocomplete on login/forgot password forms]|Website|Determines if the fields on the _Login_ and _Forgot Password_ forms are filled automatically from previous entries. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Store Information]
 
@@ -90,7 +91,7 @@ For more information about changing these settings, see [Store Information](../.
 |[!UICONTROL VAT Number]|Website|The Value Added Tax number of the business that owns the Commerce installation, if applicable.|
 |[!UICONTROL Validate VAT Number]||Verifies the Value Added Tax identification number.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Single-Store Mode]
 
@@ -102,4 +103,4 @@ For more information about changing these settings, see [Single-store mode](../.
 |--- |--- |--- |
 |[!UICONTROL Enable Single-Store Mode]|Global|When enabled for single-store installations, hides the configuration Scope box and related field labels Options: `Yes` / `No` <br/>**_Note:_** Single-store mode is ignored for stores with more than one view.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

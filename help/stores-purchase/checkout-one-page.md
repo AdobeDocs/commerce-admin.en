@@ -2,6 +2,7 @@
 title: One-page checkout
 description: Learn about one-page checkout how it can provide a streamlined checkout process for your store.
 exl-id: c91347b6-bb6f-44e7-b470-f237bf430d5f
+feature: Checkout
 ---
 # One-page checkout
 
@@ -17,7 +18,7 @@ One-page checkout is enabled by default. If you are implementing a custom integr
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Checkout Options]** section.
 
-   ![Configuration - checkout options](../configuration-reference/sales/assets/checkout-checkout-options.png)<!-- zoom -->
+   ![Configuration - checkout options](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
 
    For a detailed description of each of these configuration settings, see [Checkout Options](../configuration-reference/sales/checkout.md#checkout-options) in the _Configuration Reference Guide_.
 

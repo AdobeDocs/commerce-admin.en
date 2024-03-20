@@ -2,12 +2,13 @@
 user-guide-title: "[!DNL Inventory Management] User Guide"
 user-guide-description: Learn how to use [!DNL Inventory Management] features to maintain quantities for sales and handle shipments to complete [!DNL Commerce] orders.
 breadcrumb-title: "[!DNL Inventory Management]"
-hide: yes
+role: Admin, Leader, User
+feature: Inventory
 ---
 
 # [!DNL Inventory Management] User Guide {#inventory}
 
-- [Guide overview](guide-overview.md)
+- [Inventory Management Guide](guide-overview.md)
 - [Introduction to [!DNL Inventory Management]](introduction.md)
 - [Release Notes](release-notes.md)
 - Inventory basics {#basics}
@@ -21,7 +22,7 @@ hide: yes
   - [Merchant sourcing](merchant-sourcing.md)
   - [Expand and restructure inventory](expand-restructure.md)
 - Configuration {#configuration}
-  - [Configuration overview](configuration.md)
+  - [Overview](configuration.md)
   - [Enable [!DNL Inventory Management]](enable.md)
   - [Configure global options](global-options.md)
   - [Configure product options](product-options.md)

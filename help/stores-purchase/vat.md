@@ -2,10 +2,11 @@
 title: Value added tax (VAT)
 description: '&lt;Add description here&gt;'
 exl-id: 20dbcb86-e558-47f2-968d-b5c9ec5f665b
+feature: Taxes
 ---
 # Value added tax (VAT)
 
-Some countries charge a value-added tax, or VAT, on goods and services. There can be different VAT rates depending on the stage in the manufacture or distribution process, materials, or services that you sell to your customers. You might need to apply more than one VAT rate to correctly calculate the tax that is due.
+Some countries charge a value-added tax, or VAT, on goods and services. There can be different VAT rates depending on the stage in the manufacture or distribution process, materials, or services that you sell to your customers. You can apply more than one VAT rate to correctly calculate the tax that is due.
 
 Commerce can be configured to charge a value-added tax based on either the merchant or customer address, if both are in the same country. VAT calculations are typically based on the shipment destination, rather than its point of origin. For most scenarios, a configuration setting that calculates VAT based on the customer shipping address is sufficient.
 
@@ -29,7 +30,7 @@ The following instructions include a sample procedure to set up a 20% VAT in the
 >
 >Before proceeding, make sure to find out which rules and regulations apply to VAT in your area.
 
-In certain business-to-business transactions, VAT is not assessed. Commerce can validate a customer's VAT ID to ensure that VAT is assessed (or not assessed) properly. See [VAT ID Validation](#vat-id-validation).
+In certain business-to-business transactions, VAT is not assessed. Commerce can validate a customer's VAT ID to ensure that VAT is assessed (or not assessed) properly. See [VAT ID validation](#vat-id-validation).
 
 ### Step 1: Set up customer tax classes
 
@@ -37,11 +38,11 @@ The process of creating a tax rule begins by adding a tax rate.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_ > **[!UICONTROL Tax Zones and Rates]**.
 
+   ![Set up customer tax classes](./assets/vat-zones.png){width="600" zoomable="yes"}
+
 1. Ensure that there is a customer tax class that is appropriate to use with the VAT.
 
-   For this example, ensure that there is a customer tax class named "Retail Customer". If this tax class does not exist, click **[!UICONTROL Add New Tax Rate]**.
-
-   ![Set up customer tax classes](./assets/vat-zones.png)<!-- zoom -->
+   For this example, ensure that there is a customer tax class named _Retail Customer_. If this tax class does not exist, click **[!UICONTROL Add New Tax Rate]**.
 
 1. Enter the **[!UICONTROL Tax Identifier]** for the new tax class.
 
@@ -65,9 +66,11 @@ Based on the submitted tax rate, you can create subsequent tax rules. In the abs
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Additional Settings]** section.
 
+   ![Set up product tax classes](./assets/tax-class-additional-settings.png){width="600" zoomable="yes"}
+
 1. Under _Product Tax Class_, click **[!UICONTROL Add New Tax Class]**.
 
-1. Enter the **[!UICONTROL Name]** of the new tax class and click the checkmark to add the new class to the list of available product tax classes and create three new classes:
+1. To add the new class to the list of available product tax classes and create three new classes, enter the **[!UICONTROL Name]** of the new tax class and click the checkmark:
 
    - `VAT Standard`
    - `VAT Reduced`
@@ -77,15 +80,17 @@ Based on the submitted tax rate, you can create subsequent tax rules. In the abs
 
 1. Click **[!UICONTROL Save Rule]**.
 
-   ![Set up product tax classes](./assets/vat-add-new-class.png)<!-- zoom -->
-
 ### Step 3: Set up tax zones and rates
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** >  _[!UICONTROL Taxes]_ > **[!UICONTROL Tax Zones and Rates]**.
 
    For this example you can remove the U.S. tax rates, or leave them as they are.
 
-1. Click **[!UICONTROL Add New Tax Rate]** and add new rates as follows:
+1. Click **[!UICONTROL Add New Tax Rate]**.
+
+   ![Set up tax zones and rates](./assets/tax-rate-create-new.png){width="600" zoomable="yes"}
+
+1. Define new rates as follows:
 
    **VAT Standard**
 
@@ -100,8 +105,6 @@ Based on the submitted tax rate, you can create subsequent tax rules. In the abs
    - Rate Percent: `5.00`
 
 1. Click **[!UICONTROL Save Rate]** for each rate.
-
-   ![Set up tax zones and rates](./assets/vat-setup-zones.png)<!-- zoom -->
 
 ### Step 4: Set up tax rules
 
@@ -127,8 +130,6 @@ A tax rule is a combination of a customer tax class, a product tax class, and a 
 
 1. Click **[!UICONTROL Save Rule]** for each rate.
 
-   ![Set up tax rules](./assets/vat-tax-rules.png)<!-- zoom -->
-
 ### Step 5: Apply tax classes to products
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Manage Products]**.
@@ -139,7 +140,7 @@ A tax rule is a combination of a customer tax class, a product tax class, and a 
 
 1. When complete, click **[!UICONTROL Save]**.
 
-   ![Apply tax classes to products](./assets/vat-apply-classes.png)<!-- zoom -->
+   ![Apply tax classes to products](./assets/vat-apply-classes.png){width="600" zoomable="yes"}
 
 ## Field descriptions
 
@@ -149,7 +150,7 @@ Commerce uses the following [Store Information configuration settings](../config
 
 **[!UICONTROL VAT Number]** - The value-added tax number that is assigned to the merchant.
 
-**[!UICONTROL Validate VAT Number]** - [VAT validation](#vat-id-validation) confirms that the VAT Number matches the corresponding record in the [European Commission](https://ec.europa.eu/taxation_customs/vies/) database.
+**[!UICONTROL Validate VAT Number]** - [VAT validation](#vat-id-validation) confirms that the VAT number matches the corresponding record in the [European Commission](https://ec.europa.eu/taxation_customs/vies/) database.
 
 ### Customer information
 
@@ -190,11 +191,11 @@ The store administrator creates more than one default customer group that can be
 
 ### Customer registration workflow
 
-If VAT ID Validation is enabled, after registration each customer is proposed to enter the VAT ID number. However only those who are registered VAT customers are expected to fill this field.
+If VAT ID Validation is enabled, after registration each customer is proposed to enter the VAT ID number. However only shoppers who are registered VAT customers are expected to fill this field.
 
 After a customer specifies the VAT number and other address fields, and chooses to save, the system saves the address and sends the VAT ID validation request to the European Commission server. According to the results of the validation, one of the default groups is assigned to a customer. This group can be changed if a customer or an administrator changes the VAT ID of the default address or changes the whole default address. Sometimes, the group can be temporarily changed (group change is emulated) during one-page checkout.
 
-If enabled, you can override VAT ID Validation for individual customers by selecting the checkbox on the Customer Information page.
+If enabled, you can override VAT ID Validation for individual customers by selecting the checkbox on the _[!UICONTROL Customer Information]_ page.
 
 ### Checkout workflow
 
@@ -204,13 +205,13 @@ The system behavior concerned with the VAT ID validation and the customer group 
 
 If customer uses Google Express Checkout, PayPal Express Checkout, or another external checkout method, the checkout is performed completely on the side of the external payment gateway. For this scenario, the _Validate on Each Transaction_ setting cannot be applied and the customer group cannot change during checkout.
 
-![VAT Validation Checkout Workflow](./assets/vat-id-validation2.png)<!-- {:width="550px"} -->
+![VAT Validation Checkout Workflow](./assets/vat-id-validation2.png){width="550" zoomable="yes"}
 
 ### Configure VAT ID validation
 
 To configure VAT ID validation, you must first set up the customer groups that are needed, and create the related tax classes, rates, and rules. Then, enable VAT ID validation for the store, and complete the configuration.
 
-The following examples show how tax classes and rates are used for VAT ID Validation. Review the examples, and then follow the instructions to set up the tax classes and rules that are needed for your store.
+The following examples show how tax classes and rates are used for VAT ID Validation. Review the examples, and then follow the instructions for setting up the tax classes and rules that are needed for your store.
 
 #### Example: Minimal tax rules required for VAT ID validation
 
@@ -265,7 +266,7 @@ Each tax rule is defined by three entities:
 - Product Tax Classes
 - Tax Rates
 
-Create the [tax rules](tax-rules.md) that you need to use VAT ID Validation effectively.
+Create the [tax rules](tax-rules.md) for using VAT ID Validation effectively.
 
 - Tax rules include tax rates and [tax classes](tax-class.md).
 - Tax classes are assigned to [customer groups](../customers/customer-groups.md).
@@ -282,7 +283,7 @@ Create the [tax rules](tax-rules.md) that you need to use VAT ID Validation eff
 
    In the following example, the general customer settings that are not related to VAT Validation are dim.
 
-   ![Create New Account Options](../configuration-reference/customers/assets/customer-configuration-create-new-account-options-vat.png)<!-- zoom -->
+   ![Create New Account Options](../configuration-reference/customers/assets/customer-configuration-create-new-account-options-vat.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Enable Automatic Assignment to Customer Group]** to `Yes` and complete the following fields as needed.
 
@@ -298,7 +299,7 @@ Create the [tax rules](tax-rules.md) that you need to use VAT ID Validation eff
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Store Information]** section.
 
-   ![Store Information](../configuration-reference/general/assets/general-store-information.png)<!-- zoom -->
+   ![Store Information](../configuration-reference/general/assets/general-store-information.png){width="600" zoomable="yes"}
 
 1. Select your **[!UICONTROL Country]**.
 
@@ -312,13 +313,13 @@ Create the [tax rules](tax-rules.md) that you need to use VAT ID Validation eff
 
 1. Continuing in the _General_ configuration page, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Countries Options]** section.
 
+   ![Countries Options](../configuration-reference/general/assets/general-country-options.png){width="600" zoomable="yes"}
+
 1. In the **[!UICONTROL European Union Countries]** list, verify that each member country of the EU is selected.
 
    To change the default setting, clear the **Use system values** checkbox. Hold down the Ctrl key (PC) or the Command key (Mac) and click each country that you want to add or remove.
 
 1. When complete, click **[!UICONTROL Save Config]**.
-
-   ![Countries Options](../configuration-reference/general/assets/general-country-options.png)<!-- zoom -->
 
 
 [1]: https://ec.europa.eu/taxation_customs/vies/

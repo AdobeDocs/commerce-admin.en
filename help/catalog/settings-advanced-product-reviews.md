@@ -2,12 +2,13 @@
 title: Product settings - [!UICONTROL Product Reviews]
 description: For a product, the [!UICONTROL Product Reviews] settings provide access to submitted reviews for the product and edit the status for pending reviews.
 exl-id: 9328c9f5-dcd4-4837-8902-39dc48cb8151
+feature: Catalog Management, Products
 ---
 # Product settings - [!UICONTROL Product Reviews]
 
 The _[!UICONTROL Product Reviews]_ section lists all reviews that customers have submitted about the product. This section appears with the other product information only after a new product is saved for the first time. For more information, see [Product Reviews](../merchandising-promotions/product-reviews.md).
 
-![Product Reviews](./assets/product-review.png)<!-- zoom -->
+![Product Reviews](./assets/product-review.png){width="600" zoomable="yes"}
 
 ## Field reference
 

@@ -2,6 +2,7 @@
 title: Category permissions
 description: Learn how to use categories to control the display of product prices, and determine which customer groups can add products to the cart, and specify the landing page.
 exl-id: d80a0545-918e-4c08-9f37-4aa3cd7771f4
+feature: Catalog Management, Categories, Customers, Configuration
 ---
 # Category permissions
 
@@ -13,9 +14,9 @@ Category access can be limited to specific customer groups, or restricted entire
 >
 >Category Permissions has a global scope and when enabled, restricts access to each category according to its individual permissions. By default, Category Permissions is not enabled.
 
-For example, if you sell only to wholesale customers, you can allow anyone to browse the catalog, but display prices and allow purchases only to those in the Wholesale customer group. In the following example, only logged in users have access to the "Collections" category. For guests, the "Collections" option doesn't appear in the main menu.
+For example, if you sell only to wholesale customers, you can allow anyone to browse the catalog, but display prices and allow purchases only for shoppers in the _Wholesale_ customer group. In the following example, only logged in users have access to the "Collections" category. For guests, the "Collections" option doesn't appear in the main menu.
 
-![Logged-in users see "Collections" category](./assets/storefront-category-permissions-logged-in.png)<!-- zoom -->
+![Logged-in users see "Collections" category](./assets/storefront-category-permissions-logged-in.png){width="600" zoomable="yes"}
 
 When enabled, a new _[!UICONTROL Category Permissions]_ section appears on the Category page that allows you to apply the needed access for each category. You can add multiple permission rules to each category for different websites and customer groups.
 
@@ -31,9 +32,9 @@ When enabled, a new _[!UICONTROL Category Permissions]_ section appears on the C
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Category Permissions]** section.
 
-   ![Category Permissions](./assets/catalog-category-permissions.png)<!-- zoom -->
+   ![Category Permissions](../configuration-reference/catalog/assets/catalog-category-permissions.png){width="600" zoomable="yes"}
 
-   For more information about these options, see [Category Permissions](../configuration-reference/catalog/catalog.md#category-permissions) in the _Configuration Reference_.
+   For a detailed list of these options, see [Category Permissions](../configuration-reference/catalog/catalog.md#category-permissions) in the _Configuration Reference_.
 
 1. Set **[!UICONTROL Enable]** to `Yes`.
 
@@ -55,7 +56,7 @@ To allow members of a **_specific customer group_** to browse through category p
 
    To select multiple groups, hold down the Ctrl key (PC) or the Command key (Mac) as you click each group.
 
-   ![Allow Browsing by Wholesale Customer Group](./assets/category-permissions-allow-browsing-customer-groups.png)<!-- zoom -->
+   ![Allow Browsing by Wholesale Customer Group](./assets/category-permissions-allow-browsing-customer-groups.png){width="600" zoomable="yes"}
 
 To **_restrict access and redirect to a landing page_**, do the following:
 
@@ -63,7 +64,7 @@ To **_restrict access and redirect to a landing page_**, do the following:
 
 1. Choose the **[!UICONTROL Landing Page]** where visitors are redirected.
 
-   ![Redirect to Home Page](./assets/category-permissions-browse-category-landing-page.png)<!-- zoom -->
+   ![Redirect to Home Page](./assets/category-permissions-browse-category-landing-page.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -81,7 +82,7 @@ To allow only members of **_specific customer groups_** to see the price of prod
 
    To select multiple groups, hold down the Ctrl key (PC) or the Command key (Mac) as you click each group.)
 
-   ![Only Wholesale customer group can see prices](./assets/category-permissions-price-customer-groups.png)<!-- zoom -->
+   ![Only Wholesale customer group can see prices](./assets/category-permissions-price-customer-groups.png){width="600" zoomable="yes"}
 
 ### [!UICONTROL Allow Adding to Cart]
 
@@ -95,7 +96,7 @@ To allow only members of **_specific customer groups_** to put category products
 
    To select multiple groups, hold down the Ctrl key (PC) or the Command key (Mac) as you click each group.
 
-   ![Only Wholesale customer group can put product in cart](./assets/category-permissions-cart-customer-groups.png)<!-- zoom -->
+   ![Only Wholesale customer group can put product in cart](./assets/category-permissions-cart-customer-groups.png){width="600" zoomable="yes"}
 
 ### [!UICONTROL Disallow Catalog Search]
 
@@ -107,7 +108,7 @@ Set this option to prevent members of a specific customer group from using Catal
 
    To select multiple groups, hold down the Ctrl key (PC) or the Command key (Mac) as you click each group.
 
-   ![Catalog search not allowed for General customer group](./assets/category-permissions-disallow-category-search.png)<!-- zoom -->
+   ![Catalog search not allowed for General customer group](./assets/category-permissions-disallow-category-search.png){width="600" zoomable="yes"}
 
 ## Step 2: Apply category permissions
 
@@ -119,7 +120,7 @@ Set this option to prevent members of a specific customer group from using Catal
 
    - To create a permissions rule, click **[!UICONTROL New Permission]**.
 
-      ![Category Permissions Section](./assets/category-permissions-section-admin.png)<!-- zoom -->
+      ![Category Permissions Section](./assets/category-permissions-section-admin.png){width="600" zoomable="yes"}
 
    - Choose the applicable **[!UICONTROL Website]** and **[!UICONTROL Customer Group]**.
 

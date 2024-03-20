@@ -1,9 +1,9 @@
 ---
-title: Manage Sources
+title: Manage inventory sources
 description: Learn about sources and how they define the physical locations where product inventory is managed and shipped for order fulfillment, or where services are available.
 exl-id: 1315a8c9-7791-4c4b-9463-3126b79793c2
 ---
-# Manage Sources
+# Manage sources
 
 Sources are the physical locations where product inventory is managed and shipped for order fulfillment, or where services are available. These locations can include warehouses, brick-and-mortar stores, distribution centers, pickup locations, and drop shippers. You allocate inventory quantities to these sources, and [!DNL Commerce] automatically aggregates the total salable products for your stocks. For large companies, add multiple sources for all of your locations: in different geographic locations by country and continent, locations in a city, based on the type of inventory, even based on services.
 
@@ -17,7 +17,7 @@ Start with a _Default Source_ that you can update but not disable. This source i
 
 The following diagram helps illustrate the Sources for a Bicycle Shop merchant selling a mountain bike, which available to stocks and accessible by the SSA for shipments.
 
-![Example sources diagram](assets/diagram-sources.png)
+![Example sources diagram](assets/diagram-sources.png){width="600" zoomable="yes"}
 
 All stores begin with a Default Source that must remain enabled:
 
@@ -40,7 +40,7 @@ The _[!UICONTROL Manage Sources]_ page lists all available inventory locations a
 
 1. Update the information and save the changes.
 
-   ![Manage Sources](assets/inventory-sources.png)
+   ![Manage Sources](assets/inventory-sources.png){width="600" zoomable="yes"}
 
 ## Button bar
 

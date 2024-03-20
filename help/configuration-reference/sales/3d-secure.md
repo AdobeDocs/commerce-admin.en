@@ -2,6 +2,7 @@
 title: '[!UICONTROL Sales] &gt; [!UICONTROL 3D Secure]'
 description: Review the configurations settings on the [!UICONTROL Sales] &gt; [!UICONTROL 3D Secure] page of the Commerce Admin.
 exl-id: 38eb3ee6-8b80-4ba3-afce-8ab82baa76a9
+feature: Configuration, Security, Payments
 ---
 # [!UICONTROL Sales] > [!UICONTROL 3D Secure]
 
@@ -27,4 +28,4 @@ exl-id: 38eb3ee6-8b80-4ba3-afce-8ab82baa76a9
 |[!UICONTROL API Identifier]|Website|The API Identifier from your [!DNL CardinalCommerce] merchant account.|
 |[!UICONTROL Debug]|Website|Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

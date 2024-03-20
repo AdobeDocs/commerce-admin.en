@@ -2,12 +2,13 @@
 title: '[!DNL Google Tag Manager]'
 description: Learn how to use [!DNL Google Tag Manager] to manage the many tags (snippets of code) that are related to your marketing campaign events in your Adobe Commerce sites.
 exl-id: 9c24239b-9efd-42ee-9b99-5a194f3c4347
+feature: Marketing Tools, Integration
 ---
 # [!DNL Google Tag Manager]
 
 {{ee-feature}}
 
-[!DNL Google Tag Manager] helps you manage the many tags, or snippets of code, that are related to your marketing campaign events. [!DNL Google Tag Manager] gives you the ability to add tracking tags to your site to measure the audience, or to personalize, retarget, or conduct search engine marketing initiatives.
+[!DNL Google Tag Manager] helps you manage the many tags (snippets of code) that are related to your marketing campaign events. [!DNL Google Tag Manager] gives you the ability to add tracking tags to your site to measure the audience, or to personalize, retarget, or conduct search engine marketing initiatives.
 
 [!DNL Google Tag Manager] directly transfers data and events to [!DNL Google Analytics], Enhanced Ecommerce, and other third-party analytics solutions to produce a clear picture of how well your site, products, and promotions are performing.
 
@@ -19,7 +20,7 @@ You should have a [!DNL Google Analytics] and [!DNL Tag Manager] account to cont
 
 ## Step 1. Configure your [!DNL Google Analytics] account
 
-See [Set up Site Search][7] in Google Help for the basics you need to get started. Also see the Google guides for [Google Analytics][1] and [Google Tag Manager][2].
+See [Set up Site Search](https://support.google.com/analytics/answer/1012264) in Google Help for the basics you need for getting started. Also see the Google guides for [Google Analytics](https://support.google.com/analytics/answer/9304153) and [Google Tag Manager](https://support.google.com/tagmanager/answer/6102821).
 
 1. Sign in to your [!DNL Google Analytics] account.
 
@@ -51,7 +52,7 @@ See [Set up Site Search][7] in Google Help for the basics you need to get starte
 
     - **[!UICONTROL Save]** the settings.
 
-1. Reload the page to verify that all the settings remain `On`.
+1. Reload the page and verify that all the settings remain `On`.
 
    >[!NOTE]
    >
@@ -59,11 +60,11 @@ See [Set up Site Search][7] in Google Help for the basics you need to get starte
 
 ## Step 2. Configure your [!DNL Google Tag Manager] account
 
-The following instructions show how to configure a new container with the basic settings. A sample [Composer][4] configuration (.json) file is used to simplify the process, importing to generate a tag in a new container. For this example, creating a container, rather than modify an existing container, is recommended.
+The following instructions show how to configure a new container with the basic settings. A sample [Composer](https://developer.adobe.com/commerce/php/development/composer/) configuration (.json) file is used to simplify the process, importing to generate a tag in a new container. For this example, creating a container, rather than modify an existing container, is recommended.
 
 >[!NOTE]
 >
->For additional information, see Google's [Container export and import][5]. These instructions walk-through importing a sample JSON to a new container.
+>For additional information, see Google's [Container export and import](https://support.google.com/tagmanager/answer/6106997). These instructions provide a walk-through for importing a sample JSON in a new container.
 
 1. Download the linked file [GTM_M2_Config_json.txt](./assets/GTM_M2_Config_json.txt), open the file in an editor, and save it as `GTM_M2_Config.json`.
 
@@ -77,7 +78,7 @@ The following instructions show how to configure a new container with the basic 
 
 1. Enter a title and description, then click **[!UICONTROL Save]**.
 
-1. Select one of the following actions to import the file:
+1. To import the file, select one of the following actions:
 
     - The **[!UICONTROL Overwrite]** option should be selected for a new container.
 
@@ -91,13 +92,13 @@ The following instructions show how to configure a new container with the basic 
 
     - Choose **[!UICONTROL Google Analytics]** and update the placeholder (`UA-xxxxxx-x`) with your own **[!UICONTROL GA ID]**.
 
-1. Follow Google's instructions to add tags, triggers, and variables to the new container.
+1. Follow Google's instructions for adding tags, triggers, and variables to the new container.
 
     If you have settings in another container that you want to use, they can be moved to the new container.
 
 1. Click **[!UICONTROL Confirm]** when complete.
 
-1. Follow Google's instructions to publish the new container.
+1. Follow Google's instructions for publishing the new container.
 
 ## Step 3. Configure your store
 
@@ -111,7 +112,7 @@ The following instructions show how to configure a new container with the basic 
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Google Analytics]** section and configure the following:
 
-    ![Sales configuration - Google Analytics](../configuration-reference/sales/assets/google-api-analytics-tag-manager.png)<!-- zoom -->
+    ![Sales configuration - Google Analytics](../configuration-reference/sales/assets/google-api-analytics-tag-manager.png){width="600" zoomable="yes"}
 
     - Set **[!UICONTROL Enable]** to `Yes`.
 
@@ -125,7 +126,7 @@ The following instructions show how to configure a new container with the basic 
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-1. Test your [!DNL Google Tag Manager] settings to verify that everything works correctly.
+1. Test your [!DNL Google Tag Manager] settings and verify that everything works correctly.
 
 >[!NOTE]
 >
@@ -137,17 +138,15 @@ The following instructions show how to configure a new container with the basic 
 
    There are two GTM code snippets to be added to your Commerce site: the first one for the `<head>` tag and the second for the `<body>` tag.
 
-   ![Install Google Tag Manager](./assets/install-google-tag-manager.png)<!-- zoom -->
-
 1. In the Commerce Admin, go to **[!UICONTROL Content]** > _[!UICONTROL Design]_ > **[!UICONTROL Configuration]** and open the store view in edit mode.
 
 1. Under _[!UICONTROL Other Settings]_, expand **[!UICONTROL HTML Head]** and paste the code you copied from GTM for the `<head>` tag in the **[!UICONTROL Scripts and Style Sheets]** field.
 
-   ![Inserting code in the HTML Head](./assets/head-tag.png)<!-- zoom -->
+   ![Inserting code in the HTML Head](./assets/head-tag.png){width="600" zoomable="yes"}
 
 1. Expand **[!UICONTROL Footer]** and paste the GTM code for `<body>` in the **[!UICONTROL Miscellaneous HTML]** field.
 
-   ![Inserting code in the Footer](./assets/footer-tag-section.png)<!-- zoom -->
+   ![Inserting code in the Footer](./assets/footer-tag-section.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Configuration]**.
 
@@ -169,9 +168,9 @@ The following instructions show how to configure a new container with the basic 
 
 {style="table-layout:auto"}
 
-## Create a tag to track conversions
+## Create a tag for tracking conversions
 
-If you have a Google AdWords account, you can create a tag that tracks conversions. The following example shows how to use both [!DNL Google Tag Manager] and [!DNL Google Analytics] to create a tag that fires on your store's conversion _Success_"_ page.
+If you have a Google AdWords account, you can create a tag that tracks conversions. The following example shows how to use both [!DNL Google Tag Manager] and [!DNL Google Analytics] to create a tag that fires on your store's conversion _Success_ page.
 
 ### Step 1. Create a tag
 
@@ -179,14 +178,12 @@ If you have a Google AdWords account, you can create a tag that tracks conversio
 
 1. In the **[!UICONTROL New Tag]** box, click **[!UICONTROL Add a new tag]**.
 
-   ![Google Tag Manager - new workspace](./assets/gtm-workspace-new.png)<!-- zoom -->
-
 1. Get the following information from your AdWords account:
 
     - Conversion ID
     - Conversion Label
 
-   If you need help, visit Google's [support site][8].
+   If you need help, visit Google's [support site](https://support.google.com/tagmanager/answer/6105160).
 
 1. From the [!DNL Google Tag Manager] dashboard, click **[!UICONTROL Google AdWords]** and do the following:
 
@@ -194,23 +191,15 @@ If you have a Google AdWords account, you can create a tag that tracks conversio
 
     - Under **[!UICONTROL Choose Product]**, select **[!UICONTROL Google AdWords]**.
 
-      ![Google Tag Manager - choose Google Adwords](./assets/gtm-create-adwords-tag1.png)<!-- zoom -->
-
     - Under _[!UICONTROL Choose a Tag Type]_, select **[!UICONTROL AdWords Conversion Tracking]** and click **[!UICONTROL Continue]**.
 
-      ![Google Tag Manager - Adwords conversion tracking](./assets/gtm-create-adwords-tag2.png)<!-- zoom -->
-
 1. Enter the **[!UICONTROL Conversion ID]** and **[!UICONTROL Conversion Label]** from your AdWords account and click **[!UICONTROL Continue]**.
-
-    ![Google Tag Manager - conversion ID and label](./assets/gtm-create-adwords-tag3.png)<!-- zoom -->
 
 ### Step 2. Create a rule
 
 Continuing from the [!DNL Google Tag Manager] dashboard, the next step is to create a rule that fires the tag on the conversion page.
 
 1. Under **[!UICONTROL Fire On]**, click **[!UICONTROL Some Pages]**.
-
-   ![Google Tag Manager - fire on](./assets/gtm-create-adwords-tag4.png)<!-- zoom -->
 
 1. In the _[!UICONTROL Choose Pages]_ section, complete the following settings:
 
@@ -220,11 +209,9 @@ Continuing from the [!DNL Google Tag Manager] dashboard, the next step is to cre
 
    - **Operation** - `matches RegEx`
 
-      To learn more, see [Regex and CSS selector operators][9] in Tag Manager Help.
+      To learn more, see [Regex and CSS selector operators](https://support.google.com/tagmanager/answer/7679109) in the Google Tag Manager Help.
 
    - **[!UICONTROL Value]** - `checkout/success.*`
-
-   ![Google Tag Manager - conversion page location](./assets/gtm-create-adwords-tag6.png)<!-- zoom -->
 
 1. Select the green checkbox and click **[!UICONTROL Save]**.
 
@@ -232,17 +219,6 @@ Continuing from the [!DNL Google Tag Manager] dashboard, the next step is to cre
 
 1. When complete, click **[!UICONTROL Save Tag]**.
 
-   ![Google Tag Manager - trigger setup success](./assets/gtm-create-adwords-tag7.png)<!-- zoom -->
-
 ### Step 3. Preview and publish
 
 The next step in the process is to preview the tag. Each time the tag is previewed, a snapshot of the version is saved. When you are satisfied with the results, go to the version that you want to use and click **[!UICONTROL Publish]**.
-
-
-[1]: https://support.google.com/analytics/answer/1008015
-[2]: https://support.google.com/tagmanager/answer/6102821
-[4]: https://developer.adobe.com/commerce/php/development/composer/
-[5]: https://support.google.com/tagmanager/answer/6106997
-[7]: https://support.google.com/analytics/answer/1012264
-[8]: https://support.google.com/tagmanager/answer/6105160
-[9]: https://support.google.com/tagmanager/answer/7679109

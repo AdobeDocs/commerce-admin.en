@@ -1,9 +1,9 @@
 ---
-title: Stocks and Sources
+title: Stocks and sources
 description: Learn about the relationships between products, sources, and stocks.
 exl-id: 01bbbd82-898b-4757-ab40-0d8b89ec59bc
 ---
-# Stocks and Sources
+# Stocks and sources
 
 Manage your inventory regardless of warehouse location, type of product or service, or sales channel. Fulfill orders and ship products from multiple warehouses, brick-and-mortar stores, distribution centers, and drop shipping to complete orders with a focus on balanced inventory, shipping costs, and more.
 
@@ -17,7 +17,7 @@ A source can have priority in the scope of stock in one warehouse, but not neces
 
 In this example, the merchant has a mountain bike available for shipment from stores, warehouses, and a drop shipper.
 
-![Example sources diagram](assets/diagram-sources.png)
+![Example sources diagram](assets/diagram-sources.png){width="600" zoomable="yes"}
 
 ## Stocks
 
@@ -27,7 +27,7 @@ Sales Channels represent entities selling your inventory, including websites, st
 
 You start with a Default Stock assigned with the Default Source and your website, best used by single-source merchants. Only the Default Source can be assigned to this stock. Multi-source merchants create custom stocks for custom sources and websites as needed.
 
-![Diagram for example stocks for a store](assets/diagram-stock.png)
+![Diagram for example stocks for a store](assets/diagram-stock.png){width="600" zoomable="yes"}
 
 ## Product quantities
 
@@ -40,7 +40,7 @@ Reservations track stock requests for the entire shopping process---adding produ
 
 Salable Quantity calculates the virtual inventory of products (or availability), using configured thresholds, reserved or sold amounts, and quantities per source. For each stock, [!DNL Commerce] accesses all assigned sources and aggregates associated product quantities. With this base value, it then subtracts all reservation amounts and the _[!UICONTROL Notify for Quantity Below]_ threshold.
 
-![Calculating the salable quantity for a stock](assets/diagram-salable-quantity.png)
+![Calculating the salable quantity for a stock](assets/diagram-salable-quantity.png){width="600" zoomable="yes"}
 
 ## Inventory configurations
 

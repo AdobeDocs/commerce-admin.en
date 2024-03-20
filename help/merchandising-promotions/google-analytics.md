@@ -2,6 +2,7 @@
 title: '[!DNL Google Analytics]'
 description: Learn how you can use [!DNL Google Analytics] to gather useful metrics for your Commerce sites.
 exl-id: d4df2ef2-d67f-46bf-8569-cbee9dde77e4
+feature: Marketing Tools, Integration
 ---
 # [!DNL Google Analytics]
 
@@ -46,7 +47,7 @@ If you do not already have a [!DNL Google Analytics] 4 setup for your site, foll
 
    - If you want to conduct A/B testing and other performance tests on your content, set **Content Experiments** to `Yes`.
 
-   ![Sales configuration - Google API for Google Analytics 4](../configuration-reference/sales/assets/google-api-gtag-google-analytics4.png)<!-- zoom -->
+   ![Sales configuration - Google API for Google Analytics 4](../configuration-reference/sales/assets/google-api-gtag-google-analytics4.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
@@ -76,7 +77,7 @@ Visit the Google website, and sign up for a [Google Universal Analytics][1] acco
 
    - If you want to conduct A/B testing and other performance tests on your content, set **[!UICONTROL Content Experiments]** to `Yes`.
 
-   ![Sales configuration - Google API - Google Analytics](../configuration-reference/sales/assets/google-api-analytics-ee.png)<!-- zoom -->
+   ![Sales configuration - Google API - Google Analytics](../configuration-reference/sales/assets/google-api-analytics-ee.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
@@ -85,8 +86,6 @@ Visit the Google website, and sign up for a [Google Universal Analytics][1] acco
 Enhanced Ecommerce is a plugin for [!DNL Google Universal Analytics] that gives you insight into the shopping and purchasing behavior of your customers. You can use Enhanced Ecommerce to produce reports about key customer activities, such as when customers add items the cart, begin the checkout process, or complete a purchase. You can also identify and analyze patterns of shoppers who abandon their carts without making a purchase.
 
 The following instructions show how to configure [!DNL Google Tag Manager] with [!DNL Universal Analytics] to produce Enhanced Ecommerce data and reports.
-
-![Example storefront in debug mode - Google tags fired in shopping cart](./assets/storefront-google-tags-fired-checkout.png)<!-- zoom -->
 
 ### Step 1. Sign up for Google accounts
 
@@ -107,8 +106,6 @@ The following instructions show how to configure [!DNL Google Tag Manager] with 
 
 1. When complete, click **[!UICONTROL Submit]**.
 
-   ![Google Universal Analytics - enable Enhanced Ecommerce](./assets/google-universal-analytics-ecommerce-setup1.png)<!-- zoom -->
-
 ### Step 3. Create tags and triggers
 
 1. Sign in to your [!DNL Google Tag Manager] account and create the following triggers:
@@ -124,9 +121,9 @@ The following instructions show how to configure [!DNL Google Tag Manager] with 
     |`promotionClick`|Custom Event||
     |`removeFromCart`|Custom Event||
 
->[!NOTE]
->
->The [!UICONTROL Checkout] event is triggered for the built-in Commerce basic payment methods only (such as `Check / Money Order` and `Cash On Delivery Payment`). This event is not executed for `PayPal checkout` and other external payment methods, which use redirection to the checkout from external resources.
+   >[!NOTE]
+   >
+   >The [!UICONTROL Checkout] event is triggered for the built-in Commerce basic payment methods only (such as `Check / Money Order` and `Cash On Delivery Payment`). This event is not executed for `PayPal checkout` and other external payment methods, which use redirection to the checkout from external resources.
 
 1. Create the following Universal Analytics tags with the same basic configuration.
 

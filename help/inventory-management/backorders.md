@@ -1,17 +1,18 @@
 ---
-title: Configure backorders
+title: "Configure [!DNL Inventory Management] backorders"
 description: Learn how to configure backorders to support sale of out-of-stock products.
 exl-id: 2fe778df-781e-4cda-8b85-47cf973c9e94
+feature: Inventory, Orders
 ---
-# Configure backorders
+# Configure [!DNL Inventory Management] backorders
 
 Backorders allow your store to continue selling products after the quantity reaches zero or is effectively out of stock. When a customer order is a backorder, the funds are authorized and captured immediately, the processing status of the order does not change, and the shipping remains on-hold until stock is available.
 
 Depending on your store and sales, you may want to enable or disable backorders at the following levels:
 
-- **Global** - All products in your catalog at the site level
+- **[!UICONTROL Global]** - All products in your catalog at the site level
 
-- **Product** - Specific products overriding settings for site, source, and stock
+- **[!UICONTROL Product]** - Specific products overriding settings for site, source, and stock
 
 ## Understand backorder settings
 
@@ -32,9 +33,9 @@ The following is an example:
 
 The Salable Quantity for this product is `75 (25 - (-50))`.
 
-![Example Salable Quantity before backorders enabled](assets/inventory-backorders-before.png)
+![Example Salable Quantity before backorders enabled](assets/inventory-backorders-before.png){width="600" zoomable="yes"}
 
-![Example Salable Quantity after backorders enabled](assets/inventory-backorders-after.png)
+![Example Salable Quantity after backorders enabled](assets/inventory-backorders-after.png){width="600" zoomable="yes"}
 
 When customers purchase the available 25 products, new orders enter as backorders. As the product's Salable Quantity reduces to 5 (70 items have been sold), the _Product_ page displays a message `Only 5 left` on the storefront. When the Salable Quantity reaches `0`, the product is displayed as `Out of Stock` in the storefront.
 
@@ -110,6 +111,6 @@ Product level configurations override global configurations. You may want to con
     | Zero | With Backorders enabled, entering `0` allows for infinite backorders. |
     | Negative amount | With Backorders enabled, entering a negative value is recommended. The amount is added to the Salable Quantity. For example, enter `-50` to allow orders up to that amount. |
 
-    ![Advanced Inventory configured for Backorders](assets/inventory-backorders-product-settings.png)
+    ![Advanced Inventory configured for Backorders](assets/inventory-backorders-product-settings.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Done]**, and then **[!UICONTROL Save]**.

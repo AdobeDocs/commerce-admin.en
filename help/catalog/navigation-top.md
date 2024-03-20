@@ -2,12 +2,13 @@
 title: Top navigation
 description: Learn how to define the main menu of a store, which functions like a directory to the different departments.
 exl-id: 8b71fe73-2716-4820-9e57-4cb1e6888132
+feature: Catalog Management, Categories, Site Navigation
 ---
 # Top navigation
 
 The main menu of your store is like a directory to the different departments in your store. Each option represents a different category of products. The position and presentation of the top navigation might vary by theme, but the way it works is essentially the same.
 
-![Top Navigation](./assets/storefront-top-navigation.png)<!-- zoom -->
+![Top Navigation](./assets/storefront-top-navigation.png){width="700" zoomable="yes"}
 
 The category structure of your catalog can influence how well your site is indexed by search engines. The more deeply nested a category, the less likely it is to be thoroughly indexed. Generally, using between one and three visible levels is the most effective. The [root category](category-root.md) counts as the first level, although it doesn't appear in the menu. The maximum number of levels that are available in the top navigation is determined by the configuration. In addition, there might be a limit to the number of menu levels that are supported by your store theme. For example, the sample Luma theme supports up to five levels, including the root.
 
@@ -57,15 +58,13 @@ For a multistore installation, a different main menu can be assigned as the [roo
 
 1. In the left panel, expand **[!UICONTROL Catalog]** and choose **[!UICONTROL Catalog]** underneath.
 
-      For information about these configuration options, see [Category Top Navigation](../configuration-reference/catalog/catalog.md#layered-navigation)
-
 1. Expand the **[!UICONTROL Category Top Navigation]** section.
-   
-   ![Category Top Navigation](./assets/catalog-category-top-navigation.png)<!-- zoom -->
+
+   ![Category Top Navigation](../configuration-reference/catalog/assets/catalog-category-top-navigation.png){width="600" zoomable="yes"}
 
    Because the depth of the top navigation has a global [configuration scope](../getting-started/websites-stores-views.md#scope-settings), the setting applies to all websites, stores, and store views in the Commerce installation. The _[!UICONTROL Category Top Navigation]_ configuration section is available only when _[!UICONTROL Store View]_ in the upper-left corner is set to `Default Config`.
 
-   ![Default Config](./assets/configuration-store-view-default-config.png)<!-- zoom --> 
+   For a detailed list of these options, see [Category Top Navigation](../configuration-reference/catalog/catalog.md#layered-navigation) in the _Configuration Reference_.
       
 1. To limit the number of subcategories that appear in the top navigation, enter the number for **[!UICONTROL Maximal Depth]**.
 

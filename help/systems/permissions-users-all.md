@@ -2,6 +2,8 @@
 title: Manage Admin user accounts
 description: Learn how to create Admin user accounts and assign roles to grant permissions to Admin functions.
 exl-id: 65cca7a8-3d44-4c8c-a758-c0de03d53e11
+role: Admin
+feature: Admin Workspace, Roles/Permissions, User Account, Security
 ---
 # Manage Admin user accounts
 
@@ -15,7 +17,7 @@ If there are others on your team or service providers who need access, you can c
 
 For users or roles that are temporary, you can also set an expiration date for the user account.
 
-<!--  update this to a better info-graphic ![User types for your Admin](./assets/merchant-admin-users.png)<!-- zoom -->
+<!--  update this to a better info-graphic ![User types for your Admin](./assets/merchant-admin-users.png) -->
 
 ## Create a user
 
@@ -27,7 +29,7 @@ For users or roles that are temporary, you can also set an expiration date for t
 
 1. In the _[!UICONTROL Account Information]_ section, do the following:
 
-   ![User account information](./assets/permissions-user-new.png)<!-- zoom -->
+   ![User account information](./assets/permissions-user-new.png){width="600" zoomable="yes"}
 
    - Enter the **[!UICONTROL User Name]** for account.
 
@@ -69,7 +71,7 @@ For users or roles that are temporary, you can also set an expiration date for t
 
    The grid lists all the existing user roles. For a new store, _[!UICONTROL Administrators]_ is the only role available.
 
-   ![Admin - add new user role](./assets/permissions-user-roles.png)<!-- zoom -->
+   ![Admin - add new user role](./assets/permissions-user-roles.png){width="600" zoomable="yes"}
 
 1. In the _[!UICONTROL Assigned]_ column, select a user role.
 
@@ -77,9 +79,11 @@ For users or roles that are temporary, you can also set an expiration date for t
 
 ## Verify or reset 2FA providers
 
+1. Open the Admin user account.
+
 1. In the left panel, click **[!UICONTROL 2FA]**.
 
-   ![Admin - add new user role](./assets/permissions-user-2fa.png)<!-- zoom -->
+   ![Admin - add new user role](./assets/permissions-user-2fa.png){width="600" zoomable="yes"}
 
 1. Verify the 2FA solutions that are available to _Admin_ users and advise each user to install the solutions they want to use before they sign in.
 
@@ -121,7 +125,7 @@ The Admin email template configuration determines the emails that are sent when 
 
 1. Expand ![expansion toggler](../assets/icon-display-expand.png) the **[!UICONTROL Admin User Emails]** section.
 
-   ![Advanced configuration - Admin email template settings](../configuration-reference/advanced/assets/admin-admin-user-emails.png)<!-- zoom -->
+   ![Advanced configuration - Admin email template settings](../configuration-reference/advanced/assets/admin-admin-user-emails.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Forgot Password Email Template]** to the template that is sent when an Admin user forgets their passwords.
 
@@ -135,9 +139,9 @@ The Admin email template configuration determines the emails that are sent when 
 
 For the security of your business, user accounts are locked by default after six failed attempts to [log in](../getting-started/admin-signin.md) to the Admin. Any user account that is currently locked appears in the Locked Users grid. An account can be unlocked by any other user with full Administrator permissions.
 
-Additional password security measures can be implemented in the [Advanced Admin](../configuration-reference/advanced/admin.md) configuration. See [Admin Security](security-admin.md).
+Additional password security measures can be implemented in the [Advanced Admin](../configuration-reference/advanced/admin.md#security) configuration. See [Admin Security](security-admin.md).
 
-![Login screen alert - account is temporarily disabled](./assets/admin-login-locked-out-message.png)<!-- zoom -->
+![Login screen alert - account is temporarily disabled](./assets/admin-login-locked-out-message.png){width="300"}
 
 **_To unlock an Admin account:_**
 
@@ -145,7 +149,7 @@ Additional password security measures can be implemented in the [Advanced Admin]
 
 1. In the grid, select the checkbox of the locked account.
 
-   ![Permissions - locked user accounts](./assets/permissions-locked-users-grid.png)<!-- zoom -->
+   ![Permissions - locked user accounts](./assets/permissions-locked-users-grid.png){width="600" zoomable="yes"}
 
 1. In the upper-left corner, set **[!UICONTROL Actions]** to `Unlock`.
 

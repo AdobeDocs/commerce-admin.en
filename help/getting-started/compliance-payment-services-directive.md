@@ -1,9 +1,10 @@
 ---
-title: PSD2 Compliance
+title: PSD2 compliance
 description: Learn about the requirements of the Payment Services Directive (PSD2) that could affect your store.
 exl-id: efe94cac-a170-48df-88cf-36019ca52951
+feature: Compliance
 ---
-# PSD2 Compliance
+# PSD2 compliance
 
 Starting September 14, 2019, the European Union requires that all merchants in the EU and UK comply with the [Strong Customer Authentication](https://www.cardinalcommerce.com/content-hub/mandates/psd2-sca/understanding-psd2-sca) (SCA) requirements of the Payment Services Directive (PSD2). Merchants in all other countries are encouraged to comply with PSD2 as a best practice.
 
@@ -24,7 +25,7 @@ Due to this significant change and to ensure that customer payments are not decl
 |Payment Method |Compliance Requirements |
 |--- |--- |
 |[PayPal](../stores-purchase/paypal.md) |For most PayPal solutions, no action is required to comply with PSD2, because the requirements are handled by PayPal. For information about specific solutions, see the note at the top of each PayPal topic.|
-|[Braintree](../stores-purchase/braintree.md) |Starting with the changeover to the installed extension in 2.4.0, the requirements are handled within the included Braintree Payments module and no action is required to comply with PSD2. <br /><br />**_Note:_** To comply with PSD2 using the core integration in previous releases, do one of the following:<br/>- (Recommended) Install the official Braintree payment integration extension from [[!DNL Commerce Marketplace]](https://marketplace.magento.com/catalogsearch/result/?q=braintree#q=braintree&idx=m2_cloud_prod_default_products&p=0&nR%5Bvisibility_search%5D%5B%3D%5D%5B0%5D=1){:target="_blank"}.<br/>- Enable and configure the Braintree payment method in the [!DNL Commerce] configuration.<br/><br/>These earlier core integrations support 3D Secure 2.0 verification. However, Braintree implementations that run on JavaScript SDK v2 do not support 3D Secure 2.0.|
+|[Braintree](../stores-purchase/braintree.md) |Starting with the changeover to the installed extension in 2.4.0, the requirements are handled within the included Braintree Payments module and no action is required to comply with PSD2. <br /><br />**_Note:_** To comply with PSD2 using the core integration in previous releases, do one of the following:<br/>- (Recommended) Install the official Braintree payment integration extension from [[!DNL Adobe Commerce Marketplace]](https://marketplace.magento.com/catalogsearch/result/?q=braintree#q=braintree&idx=m2_cloud_prod_default_products&p=0&nR%5Bvisibility_search%5D%5B%3D%5D%5B0%5D=1){:target="_blank"}.<br/>- Enable and configure the Braintree payment method in the [!DNL Commerce] configuration.<br/><br/>These earlier core integrations support 3D Secure 2.0 verification. However, Braintree implementations that run on JavaScript SDK v2 do not support 3D Secure 2.0.|
 |Other |For all other payment integrations, check the available extensions on [[!DNL Commerce Marketplace]](https://marketplace.magento.com/extensions/payments-security/payment-integration.html?_ga=2.108129217.2105547619.1564067043-238341041.1564067043){:target="_blank"}. Ask your payment provider to recommend a solution for supporting PSD2 requirements.|
 
 {style="table-layout:auto"}

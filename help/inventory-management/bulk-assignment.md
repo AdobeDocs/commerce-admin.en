@@ -1,7 +1,8 @@
 ---
-title: Bulk source assignment and unassignment
+title: Bulk inventory source assignment and unassignment
 description: Learn how to use the Assign Sources tool to manage source assignments for products.
 exl-id: 1f1e81a5-fb06-46b7-84ca-7feea4942093
+feature: Inventory, Products
 ---
 # Bulk source assignment and unassignment
 
@@ -27,7 +28,7 @@ After adding new custom sources, you can add [inventory quantities per product](
 
 1. Click **[!UICONTROL Assign Sources]**.  
 
-    ![Select products to add sources](assets/inventory-bulk-assign-sources-summary.png)
+    ![Select products to add sources](assets/inventory-bulk-assign-sources-summary.png){width="600" zoomable="yes"}
 
 The sources are added to the products with an inventory quantity of 0. You can add [inventory quantities](quantities-assign-per-product.md) per source.
 
@@ -57,4 +58,4 @@ It is highly recommended to complete all orders and shipments for those products
 
 1. Click **[!UICONTROL Unassign Sources]**.
 
-   ![Remove sources from selected products](assets/inventory-bulk-unassign-sources-summary.png)
+   ![Remove sources from selected products](assets/inventory-bulk-unassign-sources-summary.png){width="600" zoomable="yes"}

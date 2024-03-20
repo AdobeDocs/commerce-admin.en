@@ -2,6 +2,7 @@
 title: Shipping carrier setup
 description: Learn about the support for commercial shipping accounts that is available for your store.
 exl-id: b6098068-12f3-4223-b216-98055a802b19
+feature: Shipping/Delivery
 ---
 # Shipping carrier setup
 
@@ -17,10 +18,10 @@ Before you can offer your customers a selection of shipping carriers, you must c
 
 - Configure the settings for each carrier service that you want to offer.
 
-   - [**UPS**](ups.md)  - United Parcel Service (UPS) offers domestic and international shipping services by land and air to more than 220 countries.
-   - [**USPS**](usps.md) - The United States Postal Service (USPS) is the independent postal service of United States government. USPS offers domestic and international shipping services by land and air.
-   - [**FedEx**](fedex.md) - FedEx offers domestic and international shipping services by land and air to more than 220 countries.
-   - [**DHL**](dhl.md) - DHL offers integrated international services and tailored, customer-focused solutions for managing and transporting letters, goods, and information.
+    - [**UPS**](ups.md)  - United Parcel Service (UPS) offers domestic and international shipping services by land and air to more than 220 countries.
+    - [**USPS**](usps.md) - The United States Postal Service (USPS) is the independent postal service of United States government. USPS offers domestic and international shipping services by land and air.
+    - [**FedEx**](fedex.md) - FedEx offers domestic and international shipping services by land and air to more than 220 countries.
+    - [**DHL**](dhl.md) - DHL offers integrated international services and tailored, customer-focused solutions for managing and transporting letters, goods, and information.
 
 ## Dimensional weight
 

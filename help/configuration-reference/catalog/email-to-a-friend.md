@@ -2,6 +2,7 @@
 title: '[!UICONTROL Catalog] &gt; [!UICONTROL Email to a Friend]'
 description: Review the configurations settings on the [!UICONTROL Catalog] &gt; [!UICONTROL Email to a Friend] page of the Commerce Admin.
 exl-id: cd1e3a8d-14ce-47e9-a3bc-c1b1dcbe0d8c
+feature: Configuration, Communications
 ---
 # [!UICONTROL Catalog] > [!UICONTROL Email to a Friend]
 
@@ -22,4 +23,4 @@ exl-id: cd1e3a8d-14ce-47e9-a3bc-c1b1dcbe0d8c
 |[!UICONTROL Max Products Sent in 1  Hour]|Store View|Limits the number of products that can be shared by a single user over a one-hour time period.|
 |[!UICONTROL Limit Sending By]|Store View|Determines the method used to identify the sender. Options include: <br/>**`IP Address`** - (Recommended) Identifies the sender by the IP address of the computer that is used to send the product emails. <br/>**`Cookie (unsafe)`** - Identifies the sender by a browser cookie. This method is not secure because the user can delete the cookie to avoid the restriction.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

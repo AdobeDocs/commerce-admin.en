@@ -2,6 +2,7 @@
 title: '[!UICONTROL General] &gt; [!UICONTROL Reports]'
 description: Review the configurations settings on the [!UICONTROL General] &gt; [!UICONTROL Reports] page of the Commerce Admin.
 exl-id: 0ca75585-eb5d-4497-9f4e-22a788c3a2c2
+feature: Configuration, Admin Workspace, Reporting
 ---
 # [!UICONTROL General] > [!UICONTROL Reports]
 
@@ -18,7 +19,7 @@ exl-id: 0ca75585-eb5d-4497-9f4e-22a788c3a2c2
 |[!UICONTROL Year-to-Date Starts]|Global|Specifies the month and day upon which the year-to-date calculations are based.|
 |[!UICONTROL Current Month Starts]|Global|Specifies the day of the month that is used in calculations to mark the beginning of the current month.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL General Options]
 
@@ -38,4 +39,4 @@ exl-id: 0ca75585-eb5d-4497-9f4e-22a788c3a2c2
 |[!UICONTROL Enable "Product Added To Wishlist" Report]|Global|Enables or disables the collection of statistics of products added to wish list.|
 |[!UICONTROL Enable "Share WishList" Report]|Global|Enables or disables the collection of statistics of shared wish lists.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

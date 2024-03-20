@@ -2,6 +2,7 @@
 title: Gift card purchase and redemption
 description: Learn about the gift card purchase-to-redemption lifecycle when you include gift cards in your store catalog.
 exl-id: ecaa39aa-f504-4bfd-874b-12b44093c2a9
+feature: Products, Gift
 ---
 # Gift card purchase and redemption
 
@@ -11,7 +12,7 @@ Gift cards are redeemed in the shopping cart similar to the way that a coupon is
 
 The applied gift card code applied can be viewed by opening the order in the _Admin_, which makes it possible for you to retrieve the code to place it on a physical gift card, if necessary. If a gift card order is canceled or refunded, you must manually cancel the associated gift card account. You can either delete the account entirely or deactivate it.
 
-![Gift Card Detail in Cart](./assets/storefront-gift-card-order-customer-account.png)<!-- zoom -->
+![Gift Card Detail in Cart](./assets/storefront-gift-card-order-customer-account.png){width="700" zoomable="yes"}
 
 For example, a customer shopping in the demo Luma store can purchase either a virtual or physical gift card.
 
@@ -61,7 +62,7 @@ How gift cards work on the storefront:
 
 The receiving customer can use the _[!UICONTROL Gift Card]_ section of their account dashboard to check the balance of their [gift card account](product-gift-card-accounts.md) and redeem gift cards for [store credit](../customers/store-credit-using.md).
 
-![Gift Card](./assets/account-dashboard-gift-card.png)<!-- zoom -->
+![Gift Card](./assets/account-dashboard-gift-card.png){width="700" zoomable="yes"}
 
 ### Check status and balance of the gift card
 
@@ -71,7 +72,7 @@ The receiving customer can use the _[!UICONTROL Gift Card]_ section of their acc
 
 1. The customer clicks **[!UICONTROL Check status and balance]**.
 
-![Gift Card Balance](./assets/gift-balance.png)<!-- zoom -->
+![Gift Card Balance](./assets/gift-balance.png){width="700" zoomable="yes"}
 
 The balance of the gift card is displayed.
 
@@ -81,11 +82,11 @@ The balance of the gift card is displayed.
 
 1. The customer clicks **[!UICONTROL Redeem Gift Card]**.
 
-![Message about successful activation of the gift card](./assets/gift-redeemed-balance.png)<!-- zoom -->
+![Message about successful activation of the gift card](./assets/gift-redeemed-balance.png){width="700" zoomable="yes"}
 
 The gift card amount is activated and added to the total store credit balance.
 
-![Store Credit balance](./assets/store-credit.png)<!-- zoom -->
+![Store Credit balance](./assets/store-credit.png){width="700" zoomable="yes"}
 
 All operations for the gift card balance are available on the _[!UICONTROL Store Credit]_ page.
 

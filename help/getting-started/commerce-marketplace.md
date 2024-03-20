@@ -1,15 +1,39 @@
 ---
-title: '[!DNL Commerce Marketplace]'
+title: '[!DNL Adobe Commerce Marketplace]'
 description: Learn about the [!DNL Commerce Marketplace], which offers merchants a curated selection of solutions, and provides qualified developers the tools, platform, and prime location to build a thriving business.
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
+feature: Extensions
 ---
-# Commerce Marketplace
+# Adobe Commerce Marketplace
 
-[Commerce Marketplace][1] is the application store that offers merchants a curated selection of solutions, and provides qualified developers the tools, platform, and prime location to build a thriving business. [!DNL Commerce Marketplace] offers a selection of extensions that are available for free, and others that are for sale. Purchases can be paid by credit card or [PayPal][2].
+[Adobe Commerce Marketplace][1] is the application store that offers merchants a curated selection of solutions, and provides qualified developers the tools, platform, and prime location to build a thriving business. [!DNL Commerce Marketplace] offers a selection of extensions that are available for free, and others that are for sale. Purchases can be paid by credit card or [PayPal][2].
 
 All extensions available on [!DNL Commerce Marketplace] have passed an extensive review. The [Extension Quality Program][3] (EQP) combines [!DNL Commerce] expertise, development guidelines, and verification tools to ensure that all extensions on Commerce Marketplace meet coding standards and best practices. The review process includes both an automated check and manual QA review. During the process, the structure and code of each extension is examined and tested for evidence of virus/malware infection, and any indication of plagiarism. The review includes a deep technical examination and sanity check conducted by a [!DNL Commerce] engineer, with a focus on documentation, coding structure, performance, scalability, security, and compatibility with the [!DNL Commerce] core.
 
 Although you can purchase extensions from other sources, only the extensions that are available on [!DNL Commerce Marketplace] are verified through extensive technical and marketing review within the Extension Quality Program.
+
+## App resources
+
+Developers have traditionally used PHP to create in-process extensions to add features, functionality, services, and integrations to Adobe Commerce. By creating apps with out-of-process extensibility, as opposed to extensions, you can avoid compatibility issues.
+
+The following resources provide a starting point for new adopters to familiarize themselves with apps:
+
+### Commerce resources:
+
+-  [Setting up I/O Events for Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/)
+-  [Configuring Events for Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/)
+-  [Setting up Admin UI SDK](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
+-  [Converting an extension to an app](https://developer.adobe.com/commerce/extensibility/app-development/#how-do-i-port-an-extension-into-an-app)
+
+### App Builder resources:
+
+-  [Commerce App Builder Overview](https://developer.adobe.com/commerce/extensibility/app-development/)
+-  [Setting up API Mesh for Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
+-  [Deploying App Builder apps](https://developer.adobe.com/app-builder/docs/guides/deployment/)
+-  [CI/CD for App Builder apps](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
+-  Getting Started with App Builder/Developer Console
+   -  [Getting started with App Builder](https://developer.adobe.com/app-builder/docs/getting_started/)
+   -  [Understanding Projects and Workspaces](https://developer.adobe.com/app-builder/docs/resources/videos/exploring/projects-and-workspaces/)
 
 ## [!DNL Marketplace] credentials
 
@@ -27,11 +51,13 @@ You can create multiple access keys for different purposes and enable or disable
 
 1. In the upper-right corner next to your name, click the down arrow and choose **[!UICONTROL My Profile]**.
 
-    ![Your [!DNL Marketplace] profile](./assets/marketplace-profile.png)<!-- zoom -->
+    ![Your [!DNL Marketplace] profile](./assets/marketplace-profile.png){width="600"}
 
-1. On the _[!UICONTROL Marketplace]_ tab under _[!UICONTROL My Products]_, click **[!UICONTROL Access Keys]**, and then do one of the following:
+1. On the _[!UICONTROL Marketplace]_ tab under _[!UICONTROL My Products]_, click **[!UICONTROL Access Keys]**, and then do either of the following:
 
     - Check to see if you already have a set of access keys for your Marketplace purchases. You can create multiple sets of access keys for different purposes.
+
+    ![Access Keys](./assets/access-keys.png){width="600"}
 
     - Click **[!UICONTROL Create a New Access Key]**. Enter a name for the new key pair and click **[!UICONTROL OK]**. Valid characters include upper- and lowercase characters and hyphens instead of spaces.
 
@@ -41,18 +67,15 @@ You can create multiple access keys for different purposes and enable or disable
 
     Notice the _Copy_ link after each public and private key. In the next step, you will copy and paste these values to synchronize your store with Commerce Marketplace.
 
-    ![Access Keys](./assets/access-keys.png)<!-- zoom -->
-
 ## Installation Process
 
 >[!IMPORTANT]
 >
->Starting with Adobe Commerce and Magento Open Source 2.4.0, the Web Setup Wizard is removed, and you must use the command line to [install](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html){:target="_blank"} or [upgrade](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html){:target="_blank"} your instance. This requirement also includes [modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html){:target="_blank"} and [extensions](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html){:target="_blank"}.
-
+>Starting with Adobe Commerce and Magento Open Source 2.4.0, the Web Setup Wizard is removed, and you must use the command line to [install](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) or [upgrade](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html) your instance. This requirement also includes [modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) and [extensions](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
 
 The installation process for [!DNL Marketplace] purchases is different for _on-premise_ installations of Commerce than for installations hosted on [the Adobe Cloud Architecture][4].
 
-![Commerce Marketplace](./assets/marketplace.png)<!-- zoom -->
+![Commerce Marketplace](./assets/marketplace.png){width="600"}
 
 ## Support
 

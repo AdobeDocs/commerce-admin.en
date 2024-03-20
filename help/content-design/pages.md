@@ -2,6 +2,7 @@
 title: Pages
 description: Learn details about the core content pages included with the [!DNL Commerce] demo store, and changing the Default Pages configuration.
 exl-id: 4be7d3d6-ce36-42bc-9224-4804c3211f16
+feature: Page Content, Configuration
 ---
 # Pages
 
@@ -9,7 +10,7 @@ Content can be viewed in terms of its shelf life, just as any product in a store
 
 Content with a long shelf life is sometimes referred to as _evergreen content_. Examples of evergreen content include customer success stories, _how to_ instructions, and Frequently Asked Questions (FAQ). In contrast, content that is perishable by nature includes events, industry news, and press releases.
 
-![The About Us page included with the sample Luma store ](./assets/storefront-about-us.png)<!-- zoom -->
+![The About Us page included with the sample Luma store ](./assets/storefront-about-us.png){width="700" zoomable="yes"}
 
 ## Core Content pages
 
@@ -43,13 +44,13 @@ The [503 Service Unavailable](../configuration-reference/general/general.md) pag
 
 ### About Us
 
-The About Us page is linked from the footer of your store. You can include images, video, links to press releases and announcements. The sample page has an image on the right, and decorative one to indicate the end of the page.
+The About Us page is linked from the footer of your store. You can include images, video, links to press releases and announcements. The sample page has an image on the right, and a decorative one to indicate the end of the page.
 
 ### Customer Service
 
 The Customer Service page is another node in the page hierarchy. The two headers on the page have content that only becomes visible when the customer clicks the header.
 
-![Customer Service page on the storefront](./assets/storefront-customer-service.png)<!-- zoom -->
+![Customer Service page on the storefront](./assets/storefront-customer-service.png){width="700" zoomable="yes"}
 
 ## Configure default pages
 
@@ -61,7 +62,7 @@ The _Default Pages_ configuration determines the landing page that is associated
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Default Pages]** section.
 
-   ![Default pages](./assets/web-default-pages.png)<!-- zoom -->
+   ![Default pages](./assets/web-default-pages.png){width="500" zoomable="yes"}
 
    |Field|[Scope](../getting-started/websites-stores-views.md#scope-settings)|Description|
    |--- |--- |--- |

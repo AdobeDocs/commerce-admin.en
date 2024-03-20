@@ -2,6 +2,7 @@
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Persistent Shopping Cart]'
 description: Review the configurations settings on the [!UICONTROL Customers] &gt; [!UICONTROL Persistent Shopping Cart] page of the Commerce Admin.
 exl-id: d6c5ae46-32ed-4fcd-bcd6-ee3a07d7db5f
+feature: Configuration, Shopping Cart
 ---
 # [!UICONTROL Customers] > [!UICONTROL Persistent Shopping Cart]
 
@@ -32,4 +33,4 @@ exl-id: d6c5ae46-32ed-4fcd-bcd6-ee3a07d7db5f
 |[!UICONTROL Persist Recently Viewed Products]|Website|![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce only) Determines if the state of recently viewed products is retained when the session ends. Options: <br/>**`Yes`** - The state of recently viewed products is saved when the session ends. <br/>**`No`** - The state of recently viewed products is not saved when the session ends.|
 |[!UICONTROL Persist Customer Group Membership and Segmentation]|Website|![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce only) Determines if the state of customers' group membership and segmentation criteria are retained when the session ends. Options: <br/>**`Yes`** - The state of the customer's group membership and segmentation data is saved when the session ends. <br/>**`No`** - The state of the customer's group membership and segmentation data are not saved when the session ends.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

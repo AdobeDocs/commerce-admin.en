@@ -1,7 +1,8 @@
 ---
 title: Add gift registry search
-description: Learn how to place a gift registry search box most anywhere in your store.
+description: Learn how to place a gift registry search box to help store vistors purchase products from customer registries.
 exl-id: 8c5558d6-3641-4769-987e-8b217603d9fc
+feature: Gift, Storefront, Search
 ---
 # Add gift registry search
 
@@ -9,7 +10,7 @@ exl-id: 8c5558d6-3641-4769-987e-8b217603d9fc
 
 The [Widget](../content-design/widgets.md) tool can be used to place a gift registry search box most anywhere in your store. You can specify the search options to be available to customers, such as name, email address, and gift registry ID. When the customer clicks the Search button, the results appear on the Gift Registry Search page. If the search returns no results, the customer can try again with other parameters.
 
-![Example storefront - gift registry search](./assets/storefront-gift-registry-search.png)<!-- zoom -->
+![Example storefront - gift registry search](./assets/storefront-gift-registry-search.png){width="700" zoomable="yes"}
 
 ## Configure gift registry search
 
@@ -25,17 +26,17 @@ The [Widget](../content-design/widgets.md) tool can be used to place a gift regi
 
    - Click **[!UICONTROL Continue]**.
 
-   ![Gift registry - search settings](./assets/widget-gift-registry-search-settings.png)<!-- zoom -->
+   ![Gift registry - search settings](./assets/widget-gift-registry-search-settings.png){width="700" zoomable="yes"}
 
-1. In the _Storefront Properties_ section, do the following:
+1. In the _[!UICONTROL Storefront Properties]_ section, do the following:
 
    - Enter a **[!UICONTROL Widget Title]** for internal reference.
 
    - Set **[!UICONTROL Assign to Store Views]** to the store views where Gift Registry Search is to be available.
 
-   - Set **[!UICONTROL Sort Order]** to determine the order that the Gift Registry Search block appears if there are other blocks assigned to the same location on the page.
+   - Set **[!UICONTROL Sort Order]** to determine the order that the Gift Registry Search block appears when there are other blocks assigned to the same location on the page.
 
-   ![Gift registry - storefront properties](./assets/widget-gift-registry-search-storefront-properties.png)<!-- zoom -->
+   ![Gift registry - storefront properties](./assets/widget-gift-registry-search-storefront-properties.png){width="700" zoomable="yes"}
 
 1. In the **[!UICONTROL Layout Updates]** section, click **[!UICONTROL Add Layout Update]**.
 
@@ -47,7 +48,7 @@ The [Widget](../content-design/widgets.md) tool can be used to place a gift regi
 
    - Set **[!UICONTROL Container]** to the location on the page to place the Gift Registry Search block.
 
-   ![Gift registry - layout updates](./assets/widget-gift-registry-search-layout-updates.png)<!-- zoom -->
+   ![Gift registry - layout updates](./assets/widget-gift-registry-search-layout-updates.png){width="500" zoomable="yes"}
 
 1. In the left panel, choose **[!UICONTROL Widget Options]**.
 
@@ -58,7 +59,7 @@ The [Widget](../content-design/widgets.md) tool can be used to place a gift regi
    - [!UICONTROL Registrant Email Search]
    - [!UICONTROL Gift Registry ID Search]
 
-   ![Gift registry - widget options](./assets/widget-gift-registry-search-widget-options.png)<!-- zoom -->
+   ![Gift registry - widget options](./assets/widget-gift-registry-search-widget-options.png){width="700" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save]**.
 

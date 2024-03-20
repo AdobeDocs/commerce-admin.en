@@ -2,6 +2,7 @@
 title: Reward points storefront experience
 description: Learn how customers can access a history of their reward point balance in their storefront account.
 exl-id: 6aa2d406-95c1-408c-a971-5c2a4132a0c8
+feature: Rewards, Promotions/Events, Customers, Storefront
 ---
 # Reward points storefront experience
 
@@ -9,7 +10,7 @@ exl-id: 6aa2d406-95c1-408c-a971-5c2a4132a0c8
 
 The [Reward Points](rewards-loyalty.md) section of the customer account shows that the current balance of reward points earned by the customer, and a history of their reward point balance.
 
-![Reward Points](./assets/account-dashboard-reward-points.png)<!-- zoom -->
+![Reward Points](./assets/account-dashboard-reward-points.png){width="700" zoomable="yes"}
 
 ## Redeem the reward points during the checkout
 
@@ -23,7 +24,7 @@ If [Reward Exchange Rate](reward-exchange-rates.md) with `Points to Currency` di
 
 1. Clicks **[!UICONTROL Use reward points]**.
 
-![Reward Points on checkout](./assets/reward-points-on-checkout.png)<!-- zoom -->
+![Reward Points on checkout](./assets/reward-points-on-checkout.png){width="700" zoomable="yes"}
 
 The available points discount is applied to the subtotal.
 

@@ -2,6 +2,7 @@
 title: Create shipping labels and packages
 description: Learn how to package items in an order and create shipping labels.
 exl-id: ed9be72a-0dcd-4dbf-82ba-b1d75a1e76fd
+feature: Shipping/Delivery, Orders
 ---
 # Create shipping labels
 
@@ -71,6 +72,8 @@ The [!DNL United States Postal Service] ships both domestically and internationa
 
 FedEx ships domestically and internationally. Stores located outside the United States can create FedEx labels for international shipments only.
 
+{{beta2-updates}}
+
 1. Continuing in the **[!UICONTROL Delivery Methods]** configuration, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL FedEx]** section.
 
 1. Verify that the following FedEx credentials are correct:
@@ -117,7 +120,7 @@ DHL provides international shipping services.
 
 1. Add or update products in package:
 
-   - To add products from the order to the package, click **[!UICONTROL Add Products]**. The Quantity column shows the maximum number of products that are available for the package.
+   - To add products from the order to the package, click **[!UICONTROL Add Products]**. The _[!UICONTROL Quantity]_ column shows the maximum number of products that are available for the package.
 
    - Select the checkbox of each product to be added to the package, and enter the **[!UICONTROL Quantity]** of each. Then, click **[!UICONTROL Add Selected Product(s) to Package]**.
 
@@ -208,7 +211,7 @@ The _[!UICONTROL Create Packages]_ window appears when you choose to create a sh
 
    - Specify the products and quantities.
 
-      The Qty column shows the maximum quantity that is available to add. For the first package, the number is the total quantity of the product to be shipped.
+      The _[!UICONTROL Qty]_ column shows the maximum quantity that is available to add. For the first package, the number is the total quantity of the product to be shipped.
 
    - To add the products to the package, click **[!UICONTROL Add Selected Product(s) to Package]**.
 
@@ -240,11 +243,9 @@ After products are added to the package, the quantity cannot be edited directly.
 
 After you distribute all products, the total number of the packages you are going to use equals the number of the last package in the list. The _OK_ button is disabled until all shipped items are distributed to packages, and all necessary information is complete.
 
-1. Click **[!UICONTROL OK]** to generate the labels.
+To generate the labels, click **[!UICONTROL OK]**.
 
-1. If you need to stop the process, click **[!UICONTROL Cancel]**.
-
-   The packages are not saved, and the shipping label process is canceled.
+You can click **[!UICONTROL Cancel]** to stop the process, if needed. The packages are not saved, and the shipping label process is canceled.
 
 ### Field descriptions
 

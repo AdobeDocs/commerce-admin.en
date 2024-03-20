@@ -2,6 +2,7 @@
 title: '[!UICONTROL Catalog] &gt; [!UICONTROL Visual Merchandiser]'
 description: Review the configurations settings on the [!UICONTROL Catalog] &gt; [!UICONTROL Visual Merchandiser] page of the Commerce Admin.
 exl-id: 264f0f21-7324-4e37-938e-9f0cdbb3dfe8
+feature: Configuration, Merchandising
 ---
 # [!UICONTROL Catalog] > [!UICONTROL Visual Merchandiser]
 
@@ -22,4 +23,4 @@ exl-id: 264f0f21-7324-4e37-938e-9f0cdbb3dfe8
 |[!UICONTROL Color Attribute Code]|Global|Specifies the attribute that is used to sort products by color. Default value: `color`|
 |[!UICONTROL Color Order]|Global|Determines the sort order when products are sorted by color. Enter each color on a separate row.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

@@ -2,6 +2,7 @@
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Newsletter]'
 description: Review the configurations settings on the [!UICONTROL Customers] &gt; [!UICONTROL Newsletter] page of the Commerce Admin.
 exl-id: a97003ca-985e-47fa-9ff3-677e05ef3729
+feature: Configuration, Customers, Communications
 ---
 # [!UICONTROL Customers] > [!UICONTROL Newsletter]
 
@@ -19,7 +20,7 @@ exl-id: a97003ca-985e-47fa-9ff3-677e05ef3729
 |--- |--- |--- |
 |[!UICONTROL Enabled]|Store View|Determines if newsletters are enabled for the store view scope. Options: `Yes` / `No`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Subscription Options]
 
@@ -38,4 +39,4 @@ exl-id: a97003ca-985e-47fa-9ff3-677e05ef3729
 |[!UICONTROL Unsubscription Email Sender]|Store View|Identifies the store contact that appears as the sender of email sent to those who request to end their newsletter subscription.|
 |[!UICONTROL Unsubscription Email Template]|Store View|Determines the email template used for the notification sent to those who request to end their newsletter subscription. Default template: `Newsletter unsubscription success`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

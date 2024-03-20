@@ -1,11 +1,12 @@
 ---
-title: '[!DNL Commerce] Upgrades'
+title: '[!DNL Commerce] upgrades'
 description: Learn how Adobe Commerce and Magento Open Source upgrades affect catalog and [!DNL Inventory Management] configurations.
 exl-id: ba640b91-0f29-46df-bfd9-1c43433a751f
+feature: Inventory, Upgrade
 ---
-# [!DNL Commerce] Upgrades
+# [!DNL Commerce] upgrades
 
-If you used single-source inventory in a previous release, this information provides details on new features and changes to your existing catalog and Inventory configurations.
+If you used single-source inventory in a previous release, this information provides details on new features and changes to your existing catalog and inventory configurations.
 
 [!DNL Inventory Management] for Adobe Commerce and Magento Open Source includes features, enhancements, and developer support that enhances and updates all product stock management and add new features. All features are available out-of-the-box including the Source Selection Algorithm and Concurrent Checkout to match order quantities to sources and order fulfillment. Depending on your websites, stores, and merchant type, you can create additional stock and sources, assign inventory amounts, and more. For complete information, see [Inventory Management](introduction.md).
 
@@ -14,6 +15,10 @@ When you install Magento Open Source 2.4.x or Adobe Commerce 2.4.x, the followin
 - [Inventory Management](enable.md) enables at the global store or product level. The Manage Stock option enables or disables tracking of inventory quantities, calculations of aggregated salable quantities, and reservation management for tracking purchases through to invoice and shipment. You can disable this option to use an ERP and other third-party services for managing stock, orders, and shipments. For additional information, see [!DNL Inventory Management] Modules below.
 
 - A [Default Source](sources-manage.md) and [Default Stock](stocks-manage.md) add to the system. Do not disable or remove these defaults. [!DNL Commerce] assigns existing and newly imported products to these defaults.
+
+   >[!IMPORTANT]
+   >
+   >Using the Default Stock and the Default Source is highly discouraged because they are a part of the `CatalogInventory` module, which is now deprecated. It is recommended that you create and use custom stocks and sources instead.
 
   - Stocks provide an aggregated, virtual Salable Quantity with reservations to track shopping carts and orders, ensuring concurrent checkout.
 

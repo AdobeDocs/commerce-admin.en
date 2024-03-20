@@ -2,6 +2,7 @@
 title: PayPal Settlement report
 description: Learn about the PayPal Settlement report as a tool to manage PayPal transactions.
 exl-id: cd087e15-e6ad-4472-9038-8c64fde316f9
+feature: Payments
 ---
 # PayPal Settlement report
 
@@ -13,11 +14,11 @@ The PayPal Settlement report provides merchants with the information about each 
 
 After configuring and enabling settlement reports in the PayPal merchant account, Adobe Commerce and Magento Open Source will start generating reports during the following 24 hours. The list of available settlement reports can be viewed from the Admin.
 
-![PayPal Settlement Reports](./assets/reports-sales-paypal-settlement.png)<!-- zoom -->
-
 **_To view settlement reports:_**
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Reports]** > _[!UICONTROL Sales]_ > **[!UICONTROL PayPal Settlement]**.
+
+   ![PayPal Settlement Reports](../getting-started/assets/reports-sales-paypal-settlement.png){width="600" zoomable="yes"}
 
 1. For the most recent updates, click **[!UICONTROL Fetch Updates]** in the upper-right corner.
 

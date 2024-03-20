@@ -2,6 +2,7 @@
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Quotes]'
 description: Review the configurations settings on the [!UICONTROL Sales] &gt; [!UICONTROL Quotes] page of the Commerce Admin.
 exl-id: 9382552d-1be5-47f2-b0e3-931e5c6298d4
+feature: Configuration, Quotes
 ---
 # [!UICONTROL Sales] > [!UICONTROL Quotes]
 
@@ -25,7 +26,7 @@ exl-id: 9382552d-1be5-47f2-b0e3-931e5c6298d4
 |[!UICONTROL Minimum Amount Message]|Store View|The message that appears in the shopping cart when a customer tries to submit a request for a quote, but the minimum amount required is not met.|
 |[!UICONTROL Default Expiration Period]|Website|Determines the default lifespan of a [quote](../../b2b/quote-price-negotiation.md) as time period from the date the request for a quote is submitted. Options: `Days` / `Weeks` / `Months`|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Attached Files]
 
@@ -36,4 +37,4 @@ exl-id: 9382552d-1be5-47f2-b0e3-931e5c6298d4
 |[!UICONTROL File formats for upload]|Global|Determines the file formats that can be attached to a quote. Default values supported: `doc`, `docx`, `xls`, `xlsx`, `pdf`, `txt`, `jpg`, `png`, and `jpeg`|
 |[!UICONTROL Maximum file size]|Global|Determines the maximum size for a file that is attached to a quote. This setting can be overridden by the server configuration.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

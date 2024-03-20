@@ -1,17 +1,18 @@
 ---
-title: Enhanced Storefront Experiences
+title: Enhanced storefront experiences
 description: Learn about the many tools designed to help you maximize your customer engagement, retention, and loyalty.
 exl-id: 04d196fa-0d19-4ff2-870c-6cd3666ac2cf
+feature: Storefront
 ---
-# Enhanced Storefront Experiences
+# Enhanced storefront experiences
 
 In addition to the standard elements that enable customers to make purchases in your store, there are many tools designed to help you maximize your customer engagement, retention, and loyalty.
 
->[!TIP]
+<!-- This is not currently working >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) [**Merchant Site Assessment**](https://acrobat.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A98cc2c67-7962-482f-93e6-58457be61656&viewer%21megaVerb=group-discover)<br>
+>![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/)<br>
 >
->Use this downloadable, easy-to-use guide to identify the features offered by Adobe Commerce that can turn website visitors into buying customers.
+>Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers. -->
 
 ## Attract new customers 
 
@@ -67,7 +68,7 @@ Adobe Commerce and Magento Open Source provide a range of tools to help you tail
 
 - **Product Suggestions** - Another way to increase AOV is to offer [suggestions](../catalog/related-products-up-sells-cross-sells.md) for related products and opportunities to up-sell and cross-sell at strategic points along the path to conversion.
 
--  **Email Reminders** - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Send automated [reminder emails](../merchandising-promotions/email-reminder-rules.md) to customers who have added items to their carts or wish lists, but haven't made a purchase. Various triggers can launch automated emails, including total cart value, quantity, items in the cart, and more.
+- **Email Reminders** - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Send automated [reminder emails](../merchandising-promotions/email-reminder-rules.md) to customers who have added items to their carts or wish lists, but haven't made a purchase. Various triggers can launch automated emails, including total cart value, quantity, items in the cart, and more.
 
 - **Full-Page Caching** - Enhance performance by [caching primary pages](../systems/cache-management.md#full-page-caching). Caching pages improves server response times, reduces load, and increases sustainable traffic. You can use tags to define which components to cache, so that only relevant pages are cached as updates take place. It can also identify and differentiate visitors from shoppers.
 
@@ -83,7 +84,7 @@ Adobe Commerce and Magento Open Source provide a range of tools to help you tail
 
 - **Taxes** - Manage your [taxes](../stores-purchase/taxes.md) with native tools, or add third-party extensions from [[!DNL Commerce Marketplace]](https://marketplace.magento.com/){:target="_blank"}.
 
--  **Automated business rules** - Set up [automated business rules](../merchandising-promotions/price-rules-cart.md) that define product relationships and use price rules that trigger discounts based on various conditions.
+- **Automated business rules** - Set up [automated business rules](../merchandising-promotions/price-rules-cart.md) that define product relationships and use price rules that trigger discounts based on various conditions.
 
 - **Integrated B2B and B2C** - With [B2B for Adobe Commerce](../b2b/introduction.md), you can serve both B2C and B2B customers. Through an easy-to-use customer portal, B2B customers can set up multiple tiers of buyers with specific roles and permissions, track quotes and orders, define purchase approval rules, and manage their credit online.
 

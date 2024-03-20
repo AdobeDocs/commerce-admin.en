@@ -2,6 +2,7 @@
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Google API]'
 description: Review the configurations settings on the [!UICONTROL Sales] &gt; [!UICONTROL Google API] page of the Commerce Admin.
 exl-id: 5031ad3d-1c9a-4bc6-9bfa-683414dca979
+feature: Configuration, Marketing Tools
 ---
 # [!UICONTROL Sales] > [!UICONTROL Google API]
 
@@ -21,7 +22,7 @@ exl-id: 5031ad3d-1c9a-4bc6-9bfa-683414dca979
 | [!UICONTROL Anonymize IP] | Store View | Determines if identifying information is removed from IP addresses that appear in [!DNL Google Analytics] results. |
 | [!UICONTROL Enable Content Experiments] | Store View | Activates [Google Content Experiments](https://support.google.com/analytics/answer/9366791?hl=en&ref_topic=1745207), which can be used to test up to ten different versions of the same page. Options: `Yes` / `No` |
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google Analytics - Google Tag Manager]
 
@@ -41,7 +42,7 @@ When **[!UICONTROL Account Type]** is set to `Google Tag Manager`, there are add
 | [!UICONTROL List property for the search results page] | Store View | Identifies the [!DNL Google Tag Manager] property associated with the search results page. Default value: `Search Results` |
 | [!UICONTROL 'Internal Promotions' for promotions field "Label"] | Store View | Identifies the [!DNL Google Tag Manager] property associated with the labels for internal promotions. Default value: `Label` |
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google AdWords]
 
@@ -61,7 +62,7 @@ When **[!UICONTROL Account Type]** is set to `Google Tag Manager`, there are add
 | [!UICONTROL Conversion Value] | Store View | Specifies the value that is used for a _[!UICONTROL Constant]_ conversion value type. |
 | [!UICONTROL Send Order Currency] | Store View | Enables transaction-specific currency conversion values in AdWords (for websites with different base currencies). |
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google GTag]
 
@@ -81,7 +82,7 @@ When **[!UICONTROL Account Type]** is set to `Google Tag Manager`, there are add
 | [!UICONTROL Anonymize IP] | Store View | Determines if identifying information is removed from IP addresses that appear in Google Analytics results. |
 | [!UICONTROL Enable Content Experiments] | Store View | Activates [Google Content Experiments](https://support.google.com/analytics/answer/9366791?hl=en&ref_topic=1745207), which can be used to test up to ten different versions of the same page. Options: `Yes` / `No` |
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Google Analytics4 - Google Tag Manager]
 
@@ -101,7 +102,7 @@ When **[!UICONTROL Account Type]** is set to `Google Tag Manager`, there are add
 | [!UICONTROL List property for the search results page] | Store View | Identifies the [!DNL Google Tag Manager] property associated with the search results page. Default value: `Search Results` |
 | [!UICONTROL 'Internal Promotions' for promotions field "Label"] | Store View | Identifies the [!DNL Google Tag Manager] property associated with the labels for internal promotions. Default value: `Label` |
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Google AdWords]
 
@@ -121,4 +122,4 @@ When **[!UICONTROL Account Type]** is set to `Google Tag Manager`, there are add
 | [!UICONTROL Conversion Value] | Store View | Specifies the value that is used for a _[!UICONTROL Constant]_ conversion value type. |
 | [!UICONTROL Send Order Currency]   | Store View | Enables transaction-specific currency conversion values in AdWords (for websites with different base currencies). |
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}

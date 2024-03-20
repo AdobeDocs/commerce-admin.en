@@ -2,6 +2,7 @@
 title: Order by SKU
 description: Learn how to configure your store to support ordering by SKU as a convenience for your customers.
 exl-id: cb39554f-ab76-46d5-8217-e43bc8f9f88d
+feature: Orders, Storefront, Configuration
 ---
 # Order by SKU
 
@@ -14,9 +15,9 @@ A 'SKU' is a 'Stock Keeping Unit'. SKUs generally help online sellers identify t
 
 Normally, a SKU includes a set of abbreviations indicating the distinguishing characteristics of the product. The maximum SKU length is 64 characters. SKUs are important to effectively track and manage inventory, so setting them up correctly is critical for e-commerce.
 
-_Order by SKU_ is a [widget](../content-design/widgets.md) that can be displayed in the store as a convenience for all shoppers, or made available to only those in specific customer groups. Shoppers can either enter the SKU and quantity information directly into the Order by SKU block, or upload a csv file from their customer account. Regardless of the configuration, order by SKU is always available to store administrators.
+_Order by SKU_ is a [widget](../content-design/widgets.md) that can be displayed in the store as a convenience for all shoppers, or made available to only the shoppers in specific customer groups. Shoppers can either enter the SKU and quantity information directly into the Order by SKU block, or upload a csv file from their customer account. Regardless of the configuration, order by SKU is always available to store administrators.
 
-![Order by SKU in the Storefront](./assets/storefront-order-by-sku.png)<!-- zoom -->
+![Order by SKU in the Storefront](./assets/storefront-order-by-sku.png){width="700" zoomable="yes"}
 
 ## Configure order by SKU
 
@@ -32,7 +33,7 @@ _Order by SKU_ is a [widget](../content-design/widgets.md) that can be displayed
     - `Yes, for Specified Customer Groups` – Order by SKU is available only to members of a specific customer group, such as `Wholesale`.
     - `No` – The Order by SKU block does not appear in the storefront, and the Order by SKU page is not available in the  customer account.
 
-      ![Order by SKU Settings](../configuration-reference/sales/assets/sales-order-by-sku-settings.png)<!-- zoom -->
+    ![Order by SKU Settings](../configuration-reference/sales/assets/sales-order-by-sku-settings.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Save Config]**.
 
@@ -78,9 +79,9 @@ When the functionality is configured for the store, customers can order by SKU f
 
    _**Uploads a CSV file of multiple items:**_
 
-      - Prepares an [import data CSV](../systems/data-csv.md) (Comma Separated Value) file that includes columns for `SKU` and `Qty`.
+      - Prepares an [import data CSV](../systems/data-csv.md) (Comma-Separated Value) file that includes columns for `SKU` and `Qty`.
 
-      ![SKUs to Import](./assets/account-dashboard-order-by-sku-import.png)<!-- zoom -->
+      ![SKUs to Import](./assets/account-dashboard-order-by-sku-import.png){width="500" zoomable="yes"}
 
       - To upload the CSV file, clicks **[!UICONTROL Choose File]** and select the file to upload.
 
@@ -88,7 +89,7 @@ When the functionality is configured for the store, customers can order by SKU f
 
       If any of the products have additional options, the customer is prompted from the shopping cart that the product requires attention.
 
-      ![Product Requires Attention](./assets/account-dashboard-order-by-sku-cart-product-requires-attention.png)<!-- zoom -->
+      ![Product Requires Attention](./assets/account-dashboard-order-by-sku-cart-product-requires-attention.png){width="600" zoomable="yes"}
 
       >[!NOTE]
       >
