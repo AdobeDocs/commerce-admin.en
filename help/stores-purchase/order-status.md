@@ -8,7 +8,7 @@ feature: Orders
 
 All orders have an order status that is associated with a stage in the order processing [workflow](order-processing.md).  
 The difference between order states and order statuses, is that **[!UICONTROL order states]** are used programmatically. They are not 
-visible to customers or admin users. They determine the flow of an order, and which operations are possible for an 
+visible to customers or Admin users. They determine the flow of an order, and which operations are possible for an 
 order in a certain state.  
 **[!UICONTROL Order statuses]** are used to communicate the status of an order to customers and admin users. 
 You can create additional order statuses to align with your operational needs. Order statuses are convenient to display 
@@ -25,7 +25,7 @@ The status of each order is shown in the _Status_ column of the _Orders_ grid.
 
 >[!TIP]
 >
->A partially refunded order remains in `Processing` status until **_all_** ordered items (including refunded items) are shipped. The order status does not change to `Complete` as long as even one order item is not yet shipped.
+>A partially refunded order remains in `Processing` status until **_all_** ordered items (including refunded items) are shipped. The order status does not change to `Complete` until every item in the order has been shipped.
 
 ## Order state workflow
 
@@ -36,7 +36,7 @@ The status of each order is shown in the _Status_ column of the _Orders_ grid.
 | Order Status             | Status Code                |                                                                                                                                                                                                                                                                                        |
 |--------------------------|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Received                 | `received`                 | This status is the initial status for orders that are placed when asynchronous order placement is enabled.                                                                                                                                                                             |
-| Suspected Fraud          | `fraud`                    | Sometimes orders paid via PayPal or another payment gateway are marked as _Suspected Fraud_. This status means that the order does not have invoice issued and the confirmation email is also not sent.                                                                                |
+| Suspected Fraud          | `fraud`                    | Sometimes orders paid via PayPal or another payment gateway are marked as _Suspected Fraud_. This status means that the order does not have an invoice issued, and the confirmation email is also not sent.                                                                                |
 | Processing               | `processing`               | When the status of new orders is set to 'Processing', the _Automatically Invoice All Items_ option becomes available in the configuration. Invoices are not created automatically for orders placed by using Gift Card, Store Credit, Reward Points, or other offline payment methods. |
 | Pending Payment          | `pending_payment`          | This status is used if the order is created and PayPal or similar payment method is used. It means that the customer was directed to the payment gateway website, but no return information has been received yet. This status changes when customer pays.                             |
 | Payment Review           | `payment_review`           | This status appears when PayPal payment review is turned on.                                                                                                                                                                                                                           |
@@ -54,7 +54,7 @@ The status of each order is shown in the _Status_ column of the _Orders_ grid.
 
 ## Custom order status
 
-In addition to the preset order status settings, you can create your own custom order status settings, assign them to order states, and set a default order status for order states. The order state indicates the position of the order within the order processing workflow and the order status assigns a meaningful translatable label to the position of the order. For example, you might need a custom order status such as `packaging"`, `backordered`, or a status that is specific to your needs. You can create a descriptive name for the custom status and assign it to the associated order state in the workflow.
+In addition to the preset order status settings, you can create your own custom order status settings, assign them to order states, and set default order statuses for order states. The order state indicates the position of the order within the order processing workflow and the order status assigns a meaningful translatable label to the position of the order. For example, you might need a custom order status such as `packaging"`, `backordered`, or a status that is specific to your needs. You can create a descriptive name for the custom status and assign it to the associated order state in the workflow.
 
 >[!NOTE]
 >
