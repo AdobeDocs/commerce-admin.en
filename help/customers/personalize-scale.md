@@ -2,6 +2,7 @@
 title: Personalization at scale
 description: Learn which features in Adobe Commerce allow you to create a personalized experience for your shoppers.
 feature: Customers, Storefront, Personalization
+exl-id: 9546e1b8-796b-4694-8396-773a2b0e9c12
 ---
 # Personalization at scale
 
