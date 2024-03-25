@@ -153,7 +153,7 @@ You can transfer items to the cart from a customer's wish list, and recently vie
 
 1. Click **[!UICONTROL Add selections to my cart]**.
 
-1. Apply a coupon code if available:
+1. Apply one or more coupon codes if available:
 
    - For **[!UICONTROL Apply Coupon Code]**, enter a valid coupon code.
 
