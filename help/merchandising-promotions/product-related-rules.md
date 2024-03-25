@@ -126,3 +126,12 @@ The behavior of product relationship rules and display of matched products are d
 | [!UICONTROL Weighted Random] | Products are randomized so that products belonging to a rule with higher priority have higher probability to appear than those belonging to a rule with lower priority. Products are then reduced to the configurable maximum limit and regrouped back by priority. This mode gives a chance to products from lower priority to appear sometimes even if the remaining slots could be filled up with products from rule with higher priority|
 
 {style="table-layout:auto"}
+
+## Use Real-Time CDP audiences to inform related product rules
+
+>[!NOTE]
+>
+>This feature is in beta. If you would like to join the beta program, send a request to [dataconnection@adobe.com](mailto:dataconnection@adobe.com). 
+
+
+Learn how to [activate](../customers/audience-activation.md) Real-Time CDP audiences into your Adobe Commerce instance to inform related product rules.
