@@ -151,6 +151,18 @@ feature: Configuration, Orders
 
 {style="table-layout:auto"}
 
+## [!UICONTROL Multicoupon Settings]
+
+{{ee-feature}}
+
+![Multicoupon Settings](./assets/sales-multicoupon-settings.png)<!-- zoom -->
+
+|Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
+|--- |--- |--- |
+|[!UICONTROL Maximum number of coupons per order]|Website|Determines the maximum number of coupons allowed per order|
+
+{style="table-layout:auto"}
+
 ## [!UICONTROL Order by SKU Settings]
 
 {{ee-feature}}
