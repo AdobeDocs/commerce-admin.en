@@ -39,9 +39,8 @@ A [FedEx merchant account][1] and registration for FedEx Web Services Production
 1. Enter the following information from your FedEx account:
 
    - **[!UICONTROL Account ID]**
-   - **[!UICONTROL Meter Number]**
-   - **[!UICONTROL Key]**
-   - **[!UICONTROL Password]**
+   - **[!UICONTROL Api Key]**
+   - **[!UICONTROL Secret Key]**
 
 1. If you have set up a FedEx sandbox and want to work in the testing environment, set **[!UICONTROL Sandbox Mode]** to `Yes`.
 
@@ -51,26 +50,24 @@ A [FedEx merchant account][1] and registration for FedEx Web Services Production
 
    ![FedEx Account Settings](../configuration-reference/sales/assets/delivery-methods-fedex-account-settings.png){width="600" zoomable="yes"}
 
-## Step 3: Package description and handling fee
+## Step 3: Package description and handling fees
 
-1. Select the **[!UICONTROL Packages Request Type]** to the option that best describes your preference when splitting an order into multiple shipments:
+1. Set **[!UICONTROL Pickup Type]** to the pickup method used for shipments.
+
+   - `DropOff at Fedex Location` - (Default) Indicates that you drop off shipments at your local FedEx station.
+   - `Contact Fedex to Schedule` - Indicates that you contact FedEx to request a pickup.
+   - `Use Scheduled Pickup` - Indicates that the shipment is picked up as part of a regular scheduled pickup. 
+   - `On Call` - Indicates that the pickup is scheduled by calling FedEx. 
+   - `Package Return Program` - Indicates that the shipment is picked up by the FedEx Ground Package Returns Program.
+   - `Regular Stop` - Indicates that the shipment is picked up at the regular pickup schedule.
+   - `Tag` - Indicates that the shipment pickup is specific to an Express tag or Ground call tag pickup request. This is applicable only for a return shipping label. 
+
+1. For **[!UICONTROL Packages Request Type]**, select the request type that best describes your preference when splitting an order into multiple shipments:
 
    - `Divide to equal weight (one request)`
    - `Use origin weight (few requests)`
 
-1. Select the type of **[!UICONTROL Packaging]** typically used to ship products from your store.
-
-1. Set **[!UICONTROL Dropoff]** to the pick-up method used for delivery.
-
-   - `Regular Pickup` - If you have a high volume of shipments, it can be cost effective to make arrangements with FedEx for regular pickups.
-
-   - `Request Courier` - You must call and request a FedEx courier to pick up shipments.
-
-   - `Drop Box` - You must drop off shipments at your nearby FedEx drop off box.
-
-   - `Business Service Center` - You must drop off shipments at your local FedEx business service center.
-
-   - `Station` - You must drop off shipments at your local FedEx station.
+1. For **[!UICONTROL Packaging]**, select the type of FedEx packaging that you typically use to ship products from your store.
 
 1. Set **[!UICONTROL Weight Unit]** to the unit of measurement that is used in your locale.
 

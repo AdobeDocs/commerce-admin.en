@@ -151,6 +151,18 @@ feature: Configuration, Orders
 
 {style="table-layout:auto"}
 
+## [!UICONTROL Multicoupon Settings]
+
+{{ee-feature}}
+
+![Multicoupon Settings](./assets/sales-multicoupon-settings.png)<!-- zoom -->
+
+|Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
+|--- |--- |--- |
+|[!UICONTROL Maximum number of coupons per order]|Website|Determines the maximum number of coupons allowed per order|
+
+{style="table-layout:auto"}
+
 ## [!UICONTROL Order by SKU Settings]
 
 {{ee-feature}}
@@ -178,6 +190,19 @@ feature: Configuration, Orders
 |--- |--- |--- |
 |[!UICONTROL Enabled]|Store View|Enables Instant Purchase for the store view, if the payment method, such as Braintree, has vault enabled. Options: `Yes` / `No`|
 |[!UICONTROL Button Text]|Store View|Specifies the text that appears on the Instant Purchase button. The default text is `Instant Purchase`.|
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Rate Limiting]
+
+![Rate Limiting](assets/sales-rate-limiting.png)<!-- zoom -->
+
+| Field                                                  |[Scope](../../getting-started/websites-stores-views.md#scope-settings)| Description                                                                                                                                                                        |
+|--------------------------------------------------------|--- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Enable rate limiting for placing orders]   |Store View| Determines if rate limiting is used for placing orders from the store view (default is `No`). Options: `Yes` / `No`.                                                                                 |
+| [!UICONTROL Requests limit per authenticated customer] |Store View| The number of purchase requests that an authenticated customer can make during the period. The default limit is `10`.                                                              |
+| [!UICONTROL Requests limit per guest]                  |Store View| The number of purchase requests that an unauthenticated customer can make during the specified period. The default value is `50`.                                                                 |
+| [!UICONTROL Counter resets in a ...]                   |Store View| The time period during which an authenticated/unauthenticated customer can make a certain number of purchase requests (default is `Minute`). Options: `Minute` / `Hour` /`Day` |
 
 {style="table-layout:auto"}
 

@@ -53,7 +53,7 @@ feature: Configuration, Customers
 |[!UICONTROL Default Welcome Email]|Store View|Identifies the email template used for the default _Welcome_ email.|
 |[!UICONTROL Default Welcome Email Without Password]|Store View|An alternate Welcome email template that is used for new customer accounts created by the Administrator that don't yet have a password assigned.|
 |[!UICONTROL Email Sender]|Store View|Identifies the store contact that appears as the sender of the Welcome email.|
-|[!UICONTROL Require Emails Confirmation]|Website|Determines if a request to create an account requires confirmation from the customer. Options: `Yes` / `No`|
+|[!UICONTROL Require Emails Confirmation]|Website|Determines if a request to create an account requires confirmation from the customer. Options: `Yes` / `No`. <br/><br/> _**Note:**_ Starting from version 2.4.7, customers must reenter their email and password to log in to their account after email confirmation, regardless of the browser.|
 |[!UICONTROL Confirmation Link Email]|Store View|Identifies the email template that is used for the confirmation email. Default template: `New account confirmation key`|
 |[!UICONTROL Welcome Email]|Store View|Identifies the email template that is used for the Welcome message that is sent after the account is confirmed.|
 |[!UICONTROL Generate Human-Friendly Customer ID]|Global|Determines if the field that is used to enter and store the VAT ID number is visible from the storefront. Options: `Yes` / `No`|
