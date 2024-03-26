@@ -177,11 +177,11 @@ feature: Configuration, Payments
 |[!UICONTROL Debug]|Website|Determines if communications between the PayPal through Braintree system and your store are recorded in a log file. Options: `Yes` / `No`|
 |[!UICONTROL Display on Shopping Cart]|Website|Determines if the PayPal button appears in the [mini cart](../../stores-purchase/cart-configuration.md#mini-cart) and on the [shopping cart](../../stores-purchase/cart.md) page. Options: `Yes` / `No`|
 
+{style="table-layout:auto"}
+
 >[!NOTE]
 >
 >Either **[!DNL PayPal Credit]** or **[!DNL PayPal PayLater]** can be enabled. Both methods cannot be enabled at the same.
-
-{style="table-layout:auto"}
 
 ### [!UICONTROL Styling]
 
