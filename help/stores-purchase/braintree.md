@@ -62,7 +62,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 
    ![Basic Settings](./assets/braintree-settings2.png){width="600" zoomable="yes"}
 
-   If you want the ability to store customer information securely, so customers don't have to reenter it each time they make a purchase, set **[!UICONTROL Enable Vault for Card Payments]** to `Yes`.
+   If you want the ability to store customer information securely, so customers don't have to re-enter it each time they make a purchase, set **[!UICONTROL Enable Vault for Card Payments]** to `Yes`.
 
 ## Step 3: Complete the advanced settings
 
@@ -234,7 +234,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 
    >[!NOTE]
    >
-   >Either **[!DNL PayPal Credit]** or **[!DNL PayPal PayLater]** can be enabled. Both the methods cannot be enabled at the same.
+   >Either **[!DNL PayPal Credit]** or **[!DNL PayPal PayLater]** can be enabled. Both methods cannot be enabled at the same.
 
    - To include [!DNL PayPal Credit] as a payment option with Braintree, set **[!UICONTROL Enable PayPal Credit through Braintree]** to `Yes`.
      
