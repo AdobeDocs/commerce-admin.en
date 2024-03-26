@@ -76,7 +76,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 
    If you don't specify the merchant account to be used, Braintree processes the transaction using your default merchant account.
 
-1. To encourage a faster checkout experience, we have introduced Express Payment options at the beginning of the checkout. We currently offer PayPal, PayLater, Apple Pay and Google Pay as Express payments, set **[!UICONTROL Enable Checkout Express Payments]** to `Yes`.
+1. To provide a faster checkout experience with Express Payment options at the beginning of the checkout process, including PayPal, PayLater, Apple Pay, and Google Pay, set **[!UICONTROL Enable Checkout Express Payments]** to `Yes`.
 
 1. If you want to prevent the transaction from being sent for evaluation as part of Advanced Fraud Tools checks, on orders placed through the Admin, set **[!UICONTROL Skip Fraud Checks on Admin Orders]** to `Yes`.
 
@@ -141,7 +141,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 1. To include ACH as a payment option with Braintree, set **[!UICONTROL Enable ACH Direct Debit]** to `Yes`.
 
-1. Customers can vault their single-use ACH Direct Debit payment method and store it for future use. Once vaulted, ACH Direct Debit can be reused as many times as possible without your customer needing to re-enter or authenticate their payment information, if set **[!UICONTROL Enable Vault for ACH Direct Debit]** to `Yes`.
+1. Customers can vault their single-use ACH Direct Debit payment method and store it for future use. Once vaulted, customers can reuse ACH Direct Debit without needing to re-enter or authenticate their payment information if set **[!UICONTROL Enable Vault for ACH Direct Debit]** to `Yes`.
 
 1. For **[!UICONTROL Sort Order]**, enter a number to determine the sequence in which the Braintree ACH payment option appears when listed with other payment options during the checkout.
 
@@ -153,7 +153,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 
    Make sure to [verify your domain name](https://developer.paypal.com/braintree/docs/guides/apple-pay/configuration/javascript/v3) in your Braintree account first.
 
-1. If you want the ability to store customer information securely, so customers don't have to reenter it each time they make a purchase via Apple Pay, set **[!UICONTROL Enable Vault for ApplePay]** to `Yes`.
+1. If you want the ability to store customer information securely, so customers don't have to re-enter it each time they make a purchase with Apple Pay, set **[!UICONTROL Enable Vault for ApplePay]** to `Yes`.
 
 1. Set **[!UICONTROL Payment Action]** to one of the following:
 
@@ -170,9 +170,9 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 1. For **[!UICONTROL Title]**, enter the text to use for the label that appears on the checkout payment method section (default value: `Local Payments`).
 
-1. For **[!UICONTROL Fallback Button Text]**, enter the text to use for the button that appears on the fallback braintree page to take customer back to the website (For ex: `Complete Checkout`).
+1. For **[!UICONTROL Fallback Button Text]**, enter the text to use for the button that appears on the fallback Braintree page to take the customer back to the website (for example, `Complete Checkout`).
 
-1. For **[!UICONTROL Redirect on Fail]**, Please enter the URL where customer should be redirected when local payment method transaction gets failed or cancelled or any error occurred. It should be checkout payment page (For ex: https://www.domain.com/checkout#payment).
+1. For **[!UICONTROL Redirect on Fail]**, enter the URL where customers should be redirected when local payment method transactions are cancelled, fail, or encounter errors. It should be the checkout payment page (for example, `https://www.domain.com/checkout#payment`).
 
 1. For **[!UICONTROL Allowed Payment Methods]**, select the local payment method to be enabled.
 
@@ -192,7 +192,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 1. To include [!DNL Google Pay] as a payment option with Braintree, set **[!UICONTROL Enable GooglePay Through Braintree]** to `Yes`.
 
-1. If you want the ability to store customer information securely, so customers don't have to reenter it each time they make a purchase via Google Pay, set **[!UICONTROL Enable Vault for GooglePay]** to `Yes`.
+1. If you want the ability to store customer information securely, so customers don't have to re-enter it each time they make a purchase with Google Pay, set **[!UICONTROL Enable Vault for GooglePay]** to `Yes`.
 
 1. Set **[!UICONTROL Payment Action]** to one of the following:
 
@@ -252,9 +252,9 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 1. For **[!UICONTROL Title]**, enter a title that identifies the Braintree payment by PayPal option during checkout.
 
-1. Set **[!UICONTROL Vault Enabled]** to `Yes` to enable use of a secure vault to store customers' PayPal account. Vaulted PayPal account can be used for future transactions and that will reduce the steps for the customers.
+1. Set **[!UICONTROL Vault Enabled]** to `Yes` to enable use of a secure vault to store customers' PayPal account. Vaulted PayPal account can be used for future transactions, which reduces the number of steps for customers.
 
-1. Set **[!UICONTROL Send Cart Line Items for PayPal]** to `Yes` to send the line items (order items) to the PayPal along with Gift Cards, Gift Wrapping for items, Gift Wrapping for order, Store Credit, Shipping and Tax as line items.
+1. Set **[!UICONTROL Send Cart Line Items for PayPal]** to `Yes` to send the line items (order items) to PayPal along with Gift Cards, Gift Wrapping for items, Gift Wrapping for order, Store Credit, Shipping, and Tax as line items.
 
 1. For **[!UICONTROL Sort Order]**, enter a number to determine the sequence in which the Braintree PayPal payment option appears when listed with other payment options during checkout.
 
@@ -308,7 +308,7 @@ The options and settings in this section vary according to the button type selec
 
 >[!NOTE]
 >
->**[!DNL Size(Deprecated)]** configuration field is deprecated and not being used to style the PayPal buttons.
+>The **[!DNL Size(Deprecated)]** configuration field is deprecated and not being used to style the PayPal buttons.
 
 **[!UICONTROL PayLater Messaging]**
 
