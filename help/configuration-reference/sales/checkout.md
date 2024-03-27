@@ -10,10 +10,6 @@ feature: Configuration, Checkout
 
 ## [!UICONTROL Checkout Options]
 
->[!NOTE]
->
->[!BADGE 2.4.6-p1]{type=Informative tooltip="Updates in 2.4.6-p1"} [!BADGE 2.4.7-beta1]{type=Informative tooltip="Updates in 2.4.7-beta1"} There are updates included in the [2.4.7-beta2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-7.html) and [2.4.6-p3](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html) releases that provide security enhancements to the described functionality. If you are using either or these release versions, review the release notes.
-
 ![Checkout Options](./assets/checkout-checkout-options.png)<!-- zoom -->
 
 <!--[Checkout Options](https://docs.magento.com/user-guide/sales/checkout-options.html) -->
