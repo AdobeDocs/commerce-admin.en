@@ -61,7 +61,7 @@ feature: Configuration, Payments
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|[!UICONTROL Enable Webhook]|Website|To enable the webhook functionality for Fraud protection, ACH payments, Local payment methods and Disputes. Options: `Yes` / `No`|
+|[!UICONTROL Enable Webhook]|Website|To enable the webhook functionality for fraud protection, ACH payments, local payment methods, and disputes. Options: `Yes` / `No`|
 |[!UICONTROL Fraud Protection URL]|Website|Add this URL into your Braintree Account as the [!UICONTROL Webhook Destination URL]. **This URL must be secure and publicly accessible.**|
 |[!UICONTROL Fraud Protection Approve Order Status]|Website|When fraud protection is approved by Braintree, the selected order status is assigned to the Commerce order. This status is used to update the status of the order where the ACH payment method is used and when it moves to `SETTLED` in Braintree.|
 |[!UICONTROL Fraud Protection Reject Order Status]|Website|When fraud protection is rejected by Braintree, the selected order status is assigned to the Commerce order. This status is used to update the status of the order where the ACH payment method is used and when `SETTLEMENT` is `DECLINED` in Braintree.|
