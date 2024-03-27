@@ -8,8 +8,6 @@ feature: Configuration, Orders
 
 {{config}}
 
-{{beta-updates}}
-
 ## [!UICONTROL General]
 
 ![General](./assets/sales-general.png)<!-- zoom -->

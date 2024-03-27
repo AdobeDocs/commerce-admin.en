@@ -17,8 +17,6 @@ feature: Configuration, Payments
 
 {{config}}
 
-{{beta2-updates}}
-
 ## [!UICONTROL Basic Braintree Settings]
 
 ![Basic Braintree Settings](./assets/payment-methods-braintree-basic-config.png)<!-- zoom -->

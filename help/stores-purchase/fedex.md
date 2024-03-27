@@ -24,8 +24,6 @@ A [FedEx merchant account][1] and registration for FedEx Web Services Production
 
 ## Step 2: Enable FedEx for Your Store
 
-{{beta2-updates}}
-
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Delivery Methods]**.
