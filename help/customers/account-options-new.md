@@ -8,8 +8,6 @@ feature: Customers, Configuration
 
 In the _[!UICONTROL Create New Account Options]_ section of the configuration, the basic account options are combined with more advanced options that relate to VAT ID Validation and custom integrations. The following instructions cover only the most frequently used options. To learn about automatic customer group assignments, see [VAT Validation](../stores-purchase/vat.md).
 
-{{beta-updates}}
-
 ![Create New Account Options](assets/customer-configuration-create-new-account-options.png){width="600" zoomable="yes"}
 
 ## Set up the basic customer account options

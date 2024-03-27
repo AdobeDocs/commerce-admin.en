@@ -176,8 +176,6 @@ feature: Configuration, Shipping/Delivery
 
 ### [!UICONTROL USPS]
 
-{{beta2-updates}}
-
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |Enabled for Checkout|Website|Determines if USPS is available to customers as a shipping method during checkout. Options: `Yes` / `No`|
@@ -248,8 +246,6 @@ feature: Configuration, Shipping/Delivery
 {style="table-layout:auto"}
 
 ### [!UICONTROL FedEx]
-
-{{beta2-updates}}
 
 <!-- [FedEx Account Settings](https://docs.magento.com/user-guide/shipping/fedex.html) -->
 
