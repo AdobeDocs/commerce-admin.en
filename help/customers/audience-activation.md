@@ -44,6 +44,14 @@ _May 30, 2023_
 
 +++
 
+### 2.1.1
+
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
+
+_April 9, 2024_
+
+![New](../assets/new.svg) - Added support for PHP 8.3.
+
 ### 2.2.0-beta1
 
 [!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
@@ -289,7 +297,10 @@ Learn more about the `dynamicBlocks` GraphQL query in the [developer documentati
 
 ## Retrieve audiences using the Adobe Experience Platform Mobile SDK
 
-Before you can retrieve Real-Time CDP audiences using the Adobe Experience Platform Mobile SDK, you must [install and configure the SDK for your mobile Commerce site](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
+You can retrieve Real-Time CDP audiences using the Adobe Experience Platform Mobile SDK.
+
+1. [Install](#install-the-extension) the Audience Activation extension.
+1. [install and configure the SDK for your mobile Commerce site](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
 
 >[!IMPORTANT]
 >
