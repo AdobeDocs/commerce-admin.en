@@ -101,6 +101,6 @@ For more information about changing these settings, see [Single-store mode](../.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|[!UICONTROL Enable Single-Store Mode]|Global|When enabled for single-store installations, hides the configuration Scope box and related field labels Options: `Yes` / `No` <br/>**_Note:_** Single-store mode is ignored for stores with more than one view.|
+|[!UICONTROL Enable Single-Store Mode]|Global|When enabled for single-store installations, hides the configuration Scope box and related field labels Options: `Yes` / `No` <br/>**_Note:_** Single-store mode is ignored for stores with more than one view.<br/> Enabling single store mode will copy all catalog and product store specific data from default store view to all store view scope. It will only copy catalog and product data if the store have only one storeview. If store have one disabled storeview and one enabled storeview it won't copy catalog and product data.<br/> Enabling single store mode will ignore storeview specific configuration settings for content specific data. Instead it will use configuration that is defined on the global level scope which will ensure consistency between Admin UI and storefront.|
 
 {style="table-layout:auto"}
