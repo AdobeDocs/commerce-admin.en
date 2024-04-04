@@ -6,41 +6,55 @@ feature: Orders
 ---
 # Order status
 
-All orders have an order status that is associated with a stage in the order processing [workflow](order-processing.md). The status of each order is shown in the _Status_ column of the _Orders_ grid. Your store has a set of predefined order status and order state settings. The order state describes the position of an order in the workflow.
+All orders have an order status that is associated with a stage in the order processing [workflow](order-processing.md).  
+The difference between order states and order statuses, is that **[!UICONTROL order states]** are used programmatically. They are not 
+visible to customers or Admin users. They determine the flow of an order, and which operations are possible for an 
+order in a certain state.  
+**[!UICONTROL Order statuses]** are used to communicate the status of an order to customers and admin users. 
+You can create additional order statuses to align with your operational needs. Order statuses are convenient to display 
+progress outside of Adobe Commerce, for example order picking and delivery progress. They have no impact on the order
+processing workflow.  
+Each order status is associated with an order state. Your store has a set of predefined order status and
+order state settings. 
+
+![Order states and statuses](./assets/order-states-and-statuses.png){width="700" zoomable="yes"}
+
+The status of each order is shown in the _Status_ column of the _Orders_ grid.
 
 ![Order Status](./assets/stores-order-status-column.png){width="700" zoomable="yes"}
 
 >[!TIP]
 >
->A partially refunded order remains in `Processing` status until **_all_** ordered items (including refunded items) are shipped. The order status does not change to `Complete` when even one order item is not yet shipped.
+>A partially refunded order remains in `Processing` status until **_all_** ordered items (including refunded items) are shipped. The order status does not change to `Complete` until every item in the order has been shipped.
 
-## Order status workflow
+## Order state workflow
 
-![Order status workflow](./assets/order-workflow.png)
+![Order state workflow](./assets/order-state-workflow.png)
 
 ## Predefined status
 
-|Order Status|Status Code||
-|--- |--- |--- |
-|Processing|`processing`|When the state of new orders is set to 'Processing', the _Automatically Invoice All Items_ option becomes available in the configuration. Invoices are not created automatically for orders placed by using Gift Card, Store Credit, Reward Points, or other offline payment methods.|
-|Suspected Fraud|`fraud`|Sometimes orders paid via PayPal or another payment gateway are marked as _Suspected Fraud_. This status means that the order does not have invoice issued and the confirmation email is also not sent.|
-|Pending Payment|`pending_payment`|This status is used if the order is created and PayPal or similar payment method is used. It means that the customer was directed to the payment gateway website, but no return information has been received yet. This status changes when customer pays.|
-|Payment Review|`payment_review`|This status appears when PayPal payment review is turned on.|
-|Pending|`pending`|This status indicates that no invoice and shipments have been submitted.|
-|On Hold|`holded`|This status can only be assigned manually. You can put any order on hold.|
-|Open|`STATE_OPEN`|This status means that an order or credit memo is still open and may need further action.|
-|Complete|`complete`|This status means that the order is created, paid,  and shipped to customer.|
-|Closed|`closed`|This status indicates that an order was assigned a credit memo and the customer has received a refund.|
-|Canceled|`canceled`|This status is assigned manually in the Admin or, for some payment gateways, when the customer does not pay within the specified time.|
-|PayPal Canceled Reversal|`paypay_canceled_reversal`|This status means that PayPal canceled the reversal.|
-|Pending PayPal|`pending_paypal`|This status means that the order was received by PayPal, but payment has not yet been processed.|
-|PayPal Reversed|`paypal_reversed`|This status means that PayPal reversed the transaction.|
+| Order Status             | Status Code                |                                                                                                                                                                                                                                                                                        |
+|--------------------------|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Received                 | `received`                 | This status is the initial status for orders that are placed when asynchronous order placement is enabled.                                                                                                                                                                             |
+| Suspected Fraud          | `fraud`                    | Sometimes orders paid via PayPal or another payment gateway are marked as _Suspected Fraud_. This status means that the order does not have an invoice issued, and the confirmation email is also not sent.                                                                                |
+| Processing               | `processing`               | When the status of new orders is set to 'Processing', the _Automatically Invoice All Items_ option becomes available in the configuration. Invoices are not created automatically for orders placed by using Gift Card, Store Credit, Reward Points, or other offline payment methods. |
+| Pending Payment          | `pending_payment`          | This status is used if the order is created and PayPal or similar payment method is used. It means that the customer was directed to the payment gateway website, but no return information has been received yet. This status changes when customer pays.                             |
+| Payment Review           | `payment_review`           | This status appears when PayPal payment review is turned on.                                                                                                                                                                                                                           |
+| Pending                  | `pending`                  | This status indicates that no invoice and shipments have been submitted.                                                                                                                                                                                                               |
+| On Hold                  | `holded`                   | This status can only be assigned manually. You can put any order on hold.                                                                                                                                                                                                              |
+| Complete                 | `complete`                 | This status means that the order is created, paid,  and shipped to customer.                                                                                                                                                                                                           |
+| Closed                   | `closed`                   | This status indicates that an order was assigned a credit memo and the customer has received a refund.                                                                                                                                                                                 |
+| Canceled                 | `canceled`                 | This status is assigned manually in the Admin or, for some payment gateways, when the customer does not pay within the specified time.                                                                                                                                                 |
+| Rejected                 | `rejected`                 | This status means that an order was rejected during asynchronous order processing. This happens when en error occurs during asynchronous order placement.                                                                                                                              |
+| PayPal Canceled Reversal | `paypay_canceled_reversal` | This status means that PayPal canceled the reversal.                                                                                                                                                                                                                                   |
+| Pending PayPal           | `pending_paypal`           | This status means that the order was received by PayPal, but payment has not yet been processed.                                                                                                                                                                                       |
+| PayPal Reversed          | `paypal_reversed`          | This status means that PayPal reversed the transaction.                                                                                                                                                                                                                                |
 
 {style="table-layout:auto"}
 
 ## Custom order status
 
-In addition to the preset order status settings, you can create your own custom order status settings, assign them to order states, and set a default order status for order states. The order state indicates the position of the order within the order processing workflow and the order status defines the state of the order. For example, you might need a custom order status such as `packaging"`, `backordered`, or a status that is specific to your needs. You can create a descriptive name for the custom status and assign it to the associated order state in the workflow.
+In addition to the preset order status settings, you can create your own custom order status settings, assign them to order states, and set default order statuses for order states. The order state indicates the position of the order within the order processing workflow and the order status assigns a meaningful translatable label to the position of the order. For example, you might need a custom order status such as `packaging"`, `backordered`, or a status that is specific to your needs. You can create a descriptive name for the custom status and assign it to the associated order state in the workflow.
 
 >[!NOTE]
 >
