@@ -140,7 +140,7 @@ Developers and system integrators use these values to configure and manage cachi
 
 | Cache | Description| Cache Tag| Cache id |
 |-------|------------|----------|----------|
-| [!UICONTROL Configuration] | Various XML configurations that were collected across modules and merged.<br>**[!UICONTROL System]** -  `config.xml`, `local.xml`<br>**[!UICONTROL Module]** - `config.xml` | `CONFIG` | `config` |
+| [!UICONTROL Configuration] | Commerce collects XML configuration from all modules, merges it, and saves the merged result to the cache.<br>**[!UICONTROL System]** -  `config.xml`, `local.xml`<br>**[!UICONTROL Module]** - `config.xml`<br><br>This cache also contains store-specific settings stored in the file system and database. Clean or flush this cache type after modifying configuration files. | `CONFIG` | `config` |
 | [!UICONTROL Layouts] | Compiled page layouts, that is, the layout components from all components. Clean or flush this cache type after modifying layout files. | `LAYOUT_GENERAL_CACHE_TAG`| `layout` |
 | [!UICONTROL Blocks HTML output] | HTML page fragments per block. Clean or flush this cache type after modifying the view layer. | `BLOCK_HTML`         | `block_html`|
 | [!UICONTROL Collections Data] | Collection data files that store the results of database queries. If necessary, Commerce cleans up this cache automatically, but third-party developers can put any data in any segment of the cache. Clean or flush this cache type if your custom module uses logic that results in cache entries that Commerce cannot clean. | `COLLECTION_DATA` | `collections`|
