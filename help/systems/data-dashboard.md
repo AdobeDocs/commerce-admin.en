@@ -1,126 +1,64 @@
 ---
 title: Data Management Dashboard
-description: Learn how to access insights about data streams for Catalog Service, Live Search, Product Recommendations.
+description: Learn how to access insights about data streams for [!DNL Catalog Service], [!DNL Live Search], and [!DNL Product Recommendation]s.
 feature: Products, Customers, Data Import/Export
 exl-id: 63c261c1-1a52-46f7-93f8-81055edf1f7b
 ---
 # Data Management Dashboard
 
-
-
-
-Once you get to this page you will see 3 taps, one for each SaaS service. 
-
-Which data can you see?
-For each SaaS service you will see:
-
-
-
-
-
-The Sync status panel reports the number of products that have been transferred from Commerce Foundation to any of the SaaS services within the last three hours. If you make infrequent updates to your catalog, this value is frequently zero.
-
-If there is a synchronization process in progress, you can click the Refresh button to get an updated count.
-
-
-Guidance
-Once you've updated products on Commerce Foundation, you should observe data transferring to SaaS services according to your system configuration. As the process initiates, the synced products count will indicate the number of products sent to SaaS services. Please note that the time taken to complete the transfer will vary based on your catalog size and the volume of updated data.
-
-When the number of Products processed matches the number of updated products, it signifies that the transfer has been completed.
-
-Products in SaaS service panel
-
-
-The product count panel reflects the total number of catalog products available to the service (tap) you are looking at.
-
-Guidance
-The Product Recommendations and Live Search dashboards display the total number of displayable products (add a link to displayable products description). Catalog Service does not filter products by displayable, so if you have both Catalog Service and Live Search or Product Recommendations installed, it is possible for the two panels to show two different values for the product count.
-
-List of synced products
-
-
-The Synced Products table provides details about the products in the Commerce index. By default, this table is sorted by 'Last Updated' to help you identify which products were recently updated.
-
-To find a specific product, use the Search by SKU field.
-
-
-
-To control what columns are displayed, click Customize Table on the right of the table.
-
-
-
-You will be able to choose the columns you want to display
-
-
-
-To see details of a product you can click on the product from the table, a lightbox will be displayed showing the selected product data:
-
-
-
-Which actions can I do?
-Resync catalog data
-You should implement a regular schedule (add link to doc on how to set up a data sync) for syncing catalog data to ensure that your Commerce SaaS Services are always up-to-date with the latest product information. During certain crucial circumstances, there's an option to manually initiate a catalog data resynchronization from Commerce Foundation to SaaS Services. While we don't advise frequent use of this tool, it offers flexibility in the following scenarios if required:
-
-Whenever significant changes are made to your product catalog, such as adding new products, updating product details, or modifying categories, it's prudent to trigger a resynchronization to reflect these changes in your Commerce SaaS Services.
-If you notice any discrepancies or performance issues in displaying product data on your storefronts, consider resyncing catalog data as a troubleshooting measure to ensure smooth operations.
-
-Following any updates or changes to integrations between Commerce Foundation and SaaS Services, it's advisable to perform a resynchronization to maintain data consistency and integrity across platforms.
-
-When deploying customizations or configurations that impact product data management or synchronization processes, initiate a resynchronization to ensure that all changes are accurately reflected in your Commerce SaaS Services.
-
-By adhering to these guidelines and proactively resyncing catalog data as needed, you can maintain data consistency, accuracy, and reliability across your Adobe Commerce ecosystem.
-
-To resync catalog data use the Settings button on the right side of the page, it will open the dialog where you can resynchronize the catalog data.
-
-
-
-
-
-Resynching catalog data forces the service to refetch data from the Commerce database to SaaS services. This action is usually used during the first-time onboarding when the catalog sync has not run for a couple of hours.
-
-
-
-
-
-
-
-
-
-
-
-
-The Data Management Dashboard offers an overview of the synchronization status for product data transferred from Commerce Foundation to Commerce SaaS Services. Users of [!DNL Product Recommendations], [!DNL Live Search], and [!DNL Catalog Service] can conveniently monitor product sync statuses and initiate data resynchronization from a unified dashboard. This feature provides valuable insights into the availability of product data for your storefront, ensuring it can be promptly displayed to your shoppers.
+The Data Management Dashboard offers an overview of the synchronization status for product data transferred from the Commerce database to Commerce SaaS services. Users of [[!DNL Product Recommendations]](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview), [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview), and [[!DNL Catalog Service]](https://experienceleague.adobe.com/docs/commerce-merchant-services/catalog-service/guide-overview) can conveniently monitor product sync statuses and initiate data resynchronization from a unified dashboard. This feature provides valuable insights into the availability of product data for your storefront, ensuring it can be promptly displayed to your shoppers.
 
 The Data Management Dashboard is located at *System* > Data Transfer > *Data Management Dashboard*.
 
 ![Data Management Dashboard](assets/data-management-dashboard.png)
 
+The dashboard contains the following fields:
 
+|Field|Description|
+|--- |--- |
+| Scope | Specific website for the synced data.|
+|[!DNL Product Recommendations]|Displays sync status, number of products synced, and a table of the displayable synced products for [!DNL Product Recommendations].|
+|[!DNL Live Search]|Displays sync status, number of products synced, and a table of the displayable synced products for [!DNL Live Search].|
+|[!DNL Catalog Service]|Displays sync status, number of products synced, and a table of the synced products for [!DNL Catalog Service].|
+|Settings| Opens a dialog where you can [manually resync the catalog data](#resync-catalog-data).|
+|Sync status|Displays the number of products that have been transferred from the Commerce database to any of the SaaS services within the last three hours. If you make infrequent updates to your catalog, this value is frequently zero. If a sync is in progress, click **[!UICONTROL Refresh]** to get an updated count.|
+|Product count|Reflects the total number of catalog products available to the service. The [!DNL Product Recommendations] and [!DNL Live Search] dashboards display the total number of _displayable_ products. [!DNL Catalog Service] does not filter products by displayable, so if you have both [!DNL Catalog Service] and [!DNL Live Search] or [!DNL Product Recommendations] installed, it is possible for the two dashboards to show two different values for the product count.|
+|Synced products|Provides details about the products in the index. By default, this table is sorted by 'Last Updated'. To find a specific product, use the **[!UICONTROL Search by SKU]** field. To control what columns are displayed, click **[!UICONTROL Customize Table]** on the right of the table.|
 
+## Using the Data Management dashboard
 
+When you update products in the Commerce database, product data transfers to SaaS services according to your system configuration. When the sync process initiates, **Product Count** indicates the number of products sent to SaaS services.
 
+>[!IMPORTANT]
+>
+>The time it takes to complete the sync varies based on your catalog size and the volume of updated data.
 
+When the number of products processed matches the number of updated products, it indicates that the sync is complete.
 
+### List of synced products
 
-## Settings
+To see the details of a synced product, click on the product from the table.
 
-The **[!UICONTROL Settings]** button on the right side of the page opens the dialog where you can resynchronize the catalog data.
+![Syncd Product Details](assets/sync-product-detail.png)
 
-Resynching catalog data forces the service to refetch data from the Commerce database. This action is usually used during the first-time onboarding when the catalog sync has not run for a couple of hours.
+### Resync catalog data
 
-## Sync status
+To ensure that your Commerce SaaS services are always up-to-date with the latest product information, you should implement a schedule (add link to doc on how to set up a data sync) for syncing catalog data.
 
-The _[!UICONTROL Sync]_ status panel reports the number of products that have been synced within the last three hours. If you make infrequent updates to your catalog, this value is frequently zero. Click **[!UICONTROL Refresh]** to refresh the count.
+While you can [manually initiate](#manually-initiate-catalog-sync) a catalog data resynch from the Commerce database to SaaS services, it is not recommended as it can increase load on hardware resources. However, manually resyncing catalog might be necessary in the following scenarios:
 
-## Product count
+- Whenever significant changes are made to your product catalog, such as adding new products, updating product details, or modifying categories.
 
-The product count panel reflects the total number of catalog products available to the service.
+- If you notice any discrepancies or performance issues in displaying product data on your storefronts.
 
-The [!DNL Product Recommendations] and [!DNL Live Search] dashboards display the total number of _displayable_ products. [!DNL Catalog Service] does not filter products by displayable, so if you have both [!DNL Catalog Service] and [!DNL Live Search] or [!DNL Product Recommendations] installed, it is possible for the two dashboards to show two different values for the product count.
+- Following any updates or changes to integrations between the Commerce database and SaaS services.
 
-## Synced products
+- When deploying customizations or configurations that impact product data management or synchronization processes.
 
-The Synced Products table provides details about the products in the index. By default, this table is sorted by 'Last Updated'.
+By adhering to these guidelines and proactively resyncing catalog data as needed, you can maintain data consistency, accuracy, and reliability across your Adobe Commerce ecosystem.
 
-To find a specific product, use the **[!UICONTROL Search by SKU]** field .
-To control what columns are displayed, click **[!UICONTROL Customize Table]** on the right of the table.
+#### Manually initiate catalog resync
+
+If you need to resync catalog data, click **[!UICONTROL Settings]** on the right side of the page to display a dialog where you can initiate a resync. Resynching catalog data forces the service to refetch data from the Commerce database to SaaS services.
+
+![Manually Sync Products](assets/resync-data.png)
