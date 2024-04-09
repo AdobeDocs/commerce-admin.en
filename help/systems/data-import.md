@@ -40,6 +40,8 @@ If an attribute that is specified in the import file exists and its value is der
 - A file cannot be imported if all rows are invalid.
 - A non-existing service data or complex data name is specified in the import file, such as a column with a `_<non-existing name>` heading.
 
+Adobe Commerce's import process may not properly recognize files encoded in UTF-8 that use a Byte Order Mark (BOM). Files containing a BOM can lead to issues or failures during the import process.
+
 ## Import operations
 
 | Operation | Description |

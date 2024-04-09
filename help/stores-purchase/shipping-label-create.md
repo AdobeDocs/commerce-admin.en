@@ -72,8 +72,6 @@ The [!DNL United States Postal Service] ships both domestically and internationa
 
 FedEx ships domestically and internationally. Stores located outside the United States can create FedEx labels for international shipments only.
 
-{{beta2-updates}}
-
 1. Continuing in the **[!UICONTROL Delivery Methods]** configuration, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL FedEx]** section.
 
 1. Verify that the following FedEx credentials are correct:
