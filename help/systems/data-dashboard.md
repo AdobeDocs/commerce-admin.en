@@ -8,19 +8,6 @@ exl-id: 63c261c1-1a52-46f7-93f8-81055edf1f7b
 
 
 
-What is the Data Management Dashboard?
-The Data Management Dashboard offers an overview of the synchronization status for product data transferred from Commerce Foundation to Commerce SaaS Services. Users of Product Recommendations, Live Search, and/or Catalog Service can conveniently monitor product sync statuses and initiate data resynchronization from a unified dashboard. This feature provides valuable insights into the availability of product data for your storefront, ensuring it can be promptly displayed to your shoppers.
-
-
-
-
-Who is this for?
-The Data Management Dashboards are available for all Commerce merchants using at least one of Commerce SaaS Services:  Product Recommendations, Live Search, and/or Catalog Service. Commerce SaaS Services are available at no additional cost for Commerce merchants with an active license. 
-
-
-
-Using the Data Management Dashboard
-The Data Management Dashboard is located at System > Data Transfer > Data Management Dashboard.
 
 Once you get to this page you will see 3 taps, one for each SaaS service. 
 
@@ -102,11 +89,18 @@ Resynching catalog data forces the service to refetch data from the Commerce dat
 
 
 
-The Data Management Dashboard provides insight into data streams for Adobe Commerce SaaS products. Users of [!DNL Live Search], [!DNL Product Recommendations], and [!DNL Catalog Service] can view product sync statuses and resync data from a single dashboard.
+The Data Management Dashboard offers an overview of the synchronization status for product data transferred from Commerce Foundation to Commerce SaaS Services. Users of [!DNL Product Recommendations], [!DNL Live Search], and [!DNL Catalog Service] can conveniently monitor product sync statuses and initiate data resynchronization from a unified dashboard. This feature provides valuable insights into the availability of product data for your storefront, ensuring it can be promptly displayed to your shoppers.
 
 The Data Management Dashboard is located at *System* > Data Transfer > *Data Management Dashboard*.
 
 ![Data Management Dashboard](assets/data-management-dashboard.png)
+
+
+
+
+
+
+
 
 ## Settings
 
