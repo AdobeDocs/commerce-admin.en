@@ -3,6 +3,7 @@ title: Allow cancel order
 description: Learn how to provide cancel capabilities for your customers.
 feature: Orders, Storefront 
 ---
+
 # Allow cancel order
 
 When enabled, you can cancel an order directly from the customer's account. Cancel is disabled by default.
