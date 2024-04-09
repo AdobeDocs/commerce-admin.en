@@ -1,9 +1,9 @@
 ---
 title: Allow cancel order
 description: Learn how to provide cancel capabilities for your customers.
-feature: Orders, Storefront 
+feature: Orders, Storefront
+exl-id: 5a8ef668-f929-4188-8574-0bccdd076f3e
 ---
-
 # Allow cancel order
 
 When enabled, you can cancel an order directly from the customer's account. Cancel is disabled by default.
@@ -68,5 +68,3 @@ The _Cancel Order_ button is displayed in the View Order page if the order can b
 The _Cancel Order_ button is displayed in the Recent Orders section of the My Account page, if the order can be canceled.
 
 ![My Account page](./assets/my-account-page-view-cancel.png){width="700" zoomable="yes"}
-
-
