@@ -43,21 +43,21 @@ To see the details of a synced product, click on the product from the table.
 
 ### Resync catalog data
 
-To ensure that your Commerce SaaS services are always up-to-date with the latest product information, you should implement a schedule (add link to doc on how to set up a data sync) for syncing catalog data.
+To ensure that your Commerce SaaS services are always up-to-date with the latest product information, you should [implement a schedule](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex) for syncing catalog data.
 
-While you can [manually initiate](#manually-initiate-catalog-sync) a catalog data resynch from the Commerce database to SaaS services, it is not recommended as it can increase load on hardware resources. However, manually resyncing catalog might be necessary in the following scenarios:
+While you can [manually initiate](#manually-resync-catalog) a catalog data resync from the Commerce database to SaaS services, it is not recommended as it can increase the load on hardware resources. However, manually resyncing the catalog might be necessary in the following scenarios:
 
-- Whenever significant changes are made to your product catalog, such as adding new products, updating product details, or modifying categories.
+- Whenever significant changes are made to your product catalog, such as adding new products, updating product details, or modifying categories
 
-- If you notice any discrepancies or performance issues in displaying product data on your storefronts.
+- If you notice any discrepancies or performance issues in displaying product data on your storefronts
 
-- Following any updates or changes to integrations between the Commerce database and SaaS services.
+- Following any updates or changes to integrations between the Commerce database and SaaS services
 
-- When deploying customizations or configurations that impact product data management or synchronization processes.
+- When deploying customizations or configurations that impact product data management or synchronization processes
 
 By adhering to these guidelines and proactively resyncing catalog data as needed, you can maintain data consistency, accuracy, and reliability across your Adobe Commerce ecosystem.
 
-#### Manually initiate catalog resync
+#### Manually resync catalog
 
 If you need to resync catalog data, click **[!UICONTROL Settings]** on the right side of the page to display a dialog where you can initiate a resync. Resynching catalog data forces the service to refetch data from the Commerce database to SaaS services.
 
