@@ -6,7 +6,11 @@ exl-id: 63c261c1-1a52-46f7-93f8-81055edf1f7b
 ---
 # Data Management Dashboard
 
-The Data Management Dashboard offers an overview of the synchronization status for product data transferred from the Commerce database to Commerce SaaS services. Users of [[!DNL Product Recommendations]](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview), [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview), and [[!DNL Catalog Service]](https://experienceleague.adobe.com/docs/commerce-merchant-services/catalog-service/guide-overview) can conveniently monitor product sync statuses and initiate data resynchronization from a unified dashboard. This feature provides valuable insights into the availability of product data for your storefront, ensuring it can be promptly displayed to your shoppers.
+The Data Management Dashboard offers an overview of the synchronization status for product data transferred from the Commerce database to Commerce SaaS services. Users can conveniently monitor product sync statuses and initiate data resynchronization from a unified dashboard. This feature provides valuable insights into the availability of product data for your storefront, ensuring it can be promptly displayed to your shoppers.
+
+## Audience
+
+The Data Management Dashboard is available at no additional cost to all Commerce merchants using [[!DNL Product Recommendations]](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview), [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview), or [[!DNL Catalog Service]](https://experienceleague.adobe.com/docs/commerce-merchant-services/catalog-service/guide-overview) with an active license.
 
 The Data Management Dashboard is located at *System* > Data Transfer > *Data Management Dashboard*.
 
@@ -17,13 +21,13 @@ The dashboard contains the following fields:
 |Field|Description|
 |--- |--- |
 | Scope | Specific website for the synced data.|
-|[!DNL Product Recommendations]|Displays sync status, number of products synced, and a table of the displayable synced products for [!DNL Product Recommendations].|
-|[!DNL Live Search]|Displays sync status, number of products synced, and a table of the displayable synced products for [!DNL Live Search].|
+|[!DNL Product Recommendations]|Displays sync status, number of products synced, and a table of the [displayable](https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/inventory#stock-options) synced products for [!DNL Product Recommendations].|
+|[!DNL Live Search]|Displays sync status, number of products synced, and a table of the [displayable](https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/inventory#stock-options) synced products for [!DNL Live Search].|
 |[!DNL Catalog Service]|Displays sync status, number of products synced, and a table of the synced products for [!DNL Catalog Service].|
 |Settings| Opens a dialog where you can [manually resync the catalog data](#resync-catalog-data).|
 |Sync status|Displays the number of products that have been transferred from the Commerce database to any of the SaaS services within the last three hours. If you make infrequent updates to your catalog, this value is frequently zero. If a sync is in progress, click **[!UICONTROL Refresh]** to get an updated count.|
 |Product count|Reflects the total number of catalog products available to the service. The [!DNL Product Recommendations] and [!DNL Live Search] dashboards display the total number of _displayable_ products. [!DNL Catalog Service] does not filter products by displayable, so if you have both [!DNL Catalog Service] and [!DNL Live Search] or [!DNL Product Recommendations] installed, it is possible for the two dashboards to show two different values for the product count.|
-|Synced products|Provides details about the products in the index. By default, this table is sorted by 'Last Updated'. To find a specific product, use the **[!UICONTROL Search by SKU]** field. To control what columns are displayed, click **[!UICONTROL Customize Table]** on the right of the table.|
+|Synced products|Provides details about the products in the core Commerce index. By default, this table is sorted by 'Last Updated'. To find a specific product, use the **[!UICONTROL Search by SKU]** field. To control what columns are displayed, click **[!UICONTROL Customize Table]** on the right of the table.|
 
 ## Using the Data Management dashboard
 
