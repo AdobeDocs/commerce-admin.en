@@ -14,6 +14,8 @@ Coupons codes are used with [cart price rules](price-rules-cart.md) to apply a d
 
 Coupon codes can be sent by email, or included in newsletters, catalogs, and advertisements. The list of coupon codes can be exported and sent to a commercial printer. You can also create in-store coupons with a quick response code that shoppers can scan with their smart phones. The QR code can link to a page on your site with more information about the promotion.
 
+As of Commerce 2.4.7, shoppers can apply multiple coupons to a cart. Merchants can also apply multiple coupons using shopping assistance.
+
 ## Configure coupon codes
 
 The length and format of automatically generated coupon codes is controlled by the configuration. The characters can be set to all numbers, all letters, or a combination. You can insert a dash at set intervals to make it easy to read, and add a prefix and suffix to associate the code with a specific campaign or initiative.
