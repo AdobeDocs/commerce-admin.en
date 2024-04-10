@@ -6,7 +6,7 @@ feature: Cache, System
 ---
 # Cache management
 
-The Adobe Commerce and Magento Open Source cache management system provides an easy way to improve the performance of your site. Whenever a cache requires a refresh, a notice appears at the top of the workspace with a link to the [!UICONTROL Cache Management] page where you can view and refresh caches.
+The Adobe Commerce and Magento Open Source cache management system provides an easy way to improve the performance of your site. Whenever a cache requires a refresh, a notification displays with a link to the [!UICONTROL Cache Management] page to complete the refresh.
 
 ![Save product attribute - update cache message](./assets/product-attribute-save-msg-update-cache.png){width="500"}
 
@@ -34,12 +34,12 @@ Reindexing and caching have different purposes in Commerce. [Indexes](index-mana
 - Always flush the cache after installing extensions/modules. You can install one or more extensions, then flush the cache.
 - Flush the cache after installing Commerce. For fresh installs, you should also reindex.
 - Flush the cache after upgrading from one version of Open Source or Commerce to another.
-- When flushing caches, consider the type of cache and scheduling the flushing during non-peak times. For example, pick a time when few customers may access the site such as late night or early morning. Clearing some cache types during peak times cause result in a high load on the Admin and may result in a down site until completed.
-- When [reindexing](index-management.md), you do not need to also perform a flush cache.
+- When flushing caches, consider the type of cache and scheduling the flushing during non-peak times. For example, pick a time when few customers use the site such as late night or early morning. Clearing cache types during peak demand can increase load on the Admin and cause the site to go down until the operation completes.
+- When [reindexing](index-management.md), you do not need to flush the cache.
 
 ## Cache management role resources
 
-Access to specific cache maintenance actions can be assigned to users by role, including options to view, toggle, and flush caches. Adobe recommends enabling flush actions only for administrator level users. Providing access to all Cache Management features can impact your storefront's performance.
+You can assign access to specific cache maintenance actions to users by role, including options to view, toggle, and flush caches. Adobe recommends enabling flush actions only for administrator level users. Providing access to all Cache Management features can impact your storefront's performance.
 
 ![Role resources - cache management](./assets/permissions-role-resources-cache-management.png){width="600" zoomable="yes"}
 
@@ -74,7 +74,7 @@ For information about assigning resources to grant access for Admin user account
    - `Select All`
    - `Select Visible`
 
-1. Select the checkbox of each cache to be targeted by the action.
+1. Select the checkbox for each cache to refresh.
 
 1. Set **[!UICONTROL Actions]** to `Refresh` and click **[!UICONTROL Submit]**.
 
@@ -88,7 +88,7 @@ For information about assigning resources to grant access for Admin user account
 
 ## Flush the JavaScript/CSS cache
 
-1. Under _[!UICONTROL Additional Cache Management]_, click **[!UICONTROL Flush JavaScript/CSS Cache]** to clear any JavaScript and CSS files that have been merged into a single file.
+1. Under _[!UICONTROL Additional Cache Management]_, clear Javascript and CSS files that have been merged into a single file by clicking **[!UICONTROL Flush JavaScript/CSS Cache]**.
 
    The `The JavaScript/CSS cache has been cleaned` message appears at the top of the workspace.
 
@@ -96,7 +96,7 @@ For information about assigning resources to grant access for Admin user account
 
 ## Flush using the command line
 
-System Administrators and developers with access to the Commerce application server can also manage the cache and cache configuration from the command line using the Commerce CLI. See [Manage the cache](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#:~:text=You%20can%20also%20clean%20and,bin%2Fmagento%20cache%3Aclean%20.) in the _Configuration Guide_.{:target="_blank"}.
+System Administrators and developers with access to the Commerce application server can also manage the cache and cache configuration from the command line using the Commerce CLI. See [Manage the cache](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target="_blank"} in the _Configuration Guide_.
 
 ## Controls
 
@@ -122,13 +122,13 @@ System Administrators and developers with access to the Commerce application ser
 
 ### Caches
 
-The [!UICONTROL Cache Management] page lists the cache types you can manage from the Admin with their current status. This section describes the default cache types supported by Adobe Commerce. The _Cache Tag_ and _Cache id_ columns describe values used in the Commerce application code:
+The [!UICONTROL Cache Management] page lists the cache types that you can manage from the Admin with their current status. This section describes the default cache types supported by Adobe Commerce. The _Cache Tag_ and _Cache id_ columns describe values used in the Commerce application code:
 
 - `cache_type_id` defines the unique identifier for a cache type.
 
 - `%CACHE_TYPE_TAG%` defines the unique tag to be used in cache type scoping.
 
-Developers and system integrators use these values to configure and manage caching when customizing or integrating with Adobe Commerce, for example developing integrations using GraphQL APIs. The `cache type id` is also used for cache management from the application server command line using the Commerce CLI, for example ` bin/magento cache:status config` displays the current status of the Configuration cache.
+Developers and system integrators use these values to configure and manage caching when customizing or integrating with Adobe Commerce, for example developing integrations using GraphQL APIs. The `cache type id` is also used for cache management from the application server command line using the Commerce CLI. For example, ` bin/magento cache:status config` displays the current status of the Configuration cache.
 
 >[!NOTE]
 >
@@ -148,7 +148,7 @@ Developers and system integrators use these values to configure and manage cachi
 | `Database DDL operations` | Database schema. If necessary, Commerce cleans up this cache automatically, but third-party developers can put any data in any segment of the cache. Clean or flush this cache type after you make custom changes to the database schema. (In other words, these are updates that Commerce does not make itself.) One way to update the database schema automatically is using the magento setup:db-schema:upgrade command. | `DB_DDL`               | `db_ddl`|
 | [!UICONTROL Compiled Config] | Results of code compilation. | `COMPILED_CONFIG` | `compiled_config`|
 | [!UICONTROL Webhooks Response Cache]| Caches responses to webhook requests. For more information, see the [Webhooks Guide](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes/#enhancements-2) in the Commerce developer documentation.                                | `WEBHOOKS_RESPONSE` | `webhooks_response`|
-| [!UICONTROL EAV types and attributes] | Entity types declaration cache for metadata related to EAV attributes (for example, store labels, links to related PHP code, attribute rendering, search settings, and so on). You typically do not need to clean or flush this cache type. | `EAV`| `eav`|
+| [!UICONTROL EAV types and attributes] | Caches entity types declaration for metadata related to Entity Attribute Value (EAV) attributes. Attributes include store labels, links to related PHP code, attribute rendering, search settings, and so on. You typically do not need to clean or flush this cache type. | `EAV`| `eav`|
 | [!UICONTROL Customer Notification] | Temporary notifications that appear in the user interface. |`CUSTOMER_NOTIFICATION` | `customer_notification`|
 | [!UICONTROL GraphQL Query Resolver Results] | Caches the results from GraphQL query resolvers for customer, CMS page, CMS block, and product media gallery entities. Keep this cache enabled to improve GraphQL performance. | `GRAPHQL_QUERY_RESOLVER_RESULT` | `graphql_query_resolver_result` |
 | [!UICONTROL Integrations Configuration] | Integration configuration file. Clean or flush this cache after changing or adding integrations. | `INTEGRATION` | `config_integration` |
@@ -163,17 +163,17 @@ Developers and system integrators use these values to configure and manage cachi
 
 ## Full-page caching
 
-Adobe Commerce and Magento Open Source use full-page caching on the server to quickly display category, product, and CMS pages. Full-page caching improves response time and reduces the load on the server. Without caching, each page might need to run blocks of code and retrieve information from the database. However, with full-page caching enabled, a fully generated page can be read directly from the cache.
+Adobe Commerce and Magento Open Source use full-page caching on the server to display category, product, and CMS pages quickly. Full-page caching improves response time and reduces the load on the server. Without caching, each page might need to run blocks of code and retrieve information from the database. However, with full-page caching enabled, a fully generated page can be read directly from the cache.
 
 >[!NOTE]
 >
 >It is recommended that [Varnish Cache](https://varnish-cache.org/){:target="_blank"} be used only in a production environment.
 
-Cached content can be used to process the requests from similar types of visits. As a result, pages shown to a casual visitor might differ from those shown to a customer. For the purposes of caching, each visit is one of three types:
+Cached content can be used to process the requests from similar types of visits. As a result, pages shown to a casual visitor might differ from pages shown to a customer. For the purposes of caching, each visit is one of three types:
 
 - `Non-sessioned` - During a non-sessioned visit, the shopper views pages, but does not interact with the store. The system caches the content of each page viewed and serves them to other non-sessioned shoppers.
-- `Sessioned` - During a sessioned visit, shoppers who interact with the store — through activities such as comparing products or adding products to the shopping cart — are assigned a session ID. Cached pages that are generated during the session are used only by that shopper during the session.
-- `Customer` - Customer sessions are created for those who have registered for an account with your store and shop while logged in to their accounts. During the session, customers can be presented with special offers, promotions, and prices that are based on their assigned customer group.
+- `Sessioned` - During a sessioned visit, shoppers who interact with the store are assigned a session ID. Interactions include activities such as comparing products or adding products to the shopping cart. Cached pages that are generated during the session are used only by that shopper during the session.
+- `Customer` - Customer sessions are created for customers that log in and shop using their registered account. During the session, customers can be presented with special offers, promotions, and prices based on their assigned customer group.
 
 For technical information, see [Configure and Use Varnish](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html){:target="_blank"} and [Use Redis for the Commerce page and default cache](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html){:target="_blank"} in the _Configuration Guide_.
 
