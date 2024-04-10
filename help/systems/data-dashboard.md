@@ -10,7 +10,7 @@ The Data Management Dashboard offers an overview of the synchronization status f
 
 ## Audience
 
-The Data Management Dashboard is available at no additional cost to all Commerce merchants using [[!DNL Product Recommendations]](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview), [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview), or [[!DNL Catalog Service]](https://experienceleague.adobe.com/docs/commerce-merchant-services/catalog-service/guide-overview) with an active license.
+The Data Management Dashboard is available at no additional cost to all Commerce merchants using [[!DNL Product Recommendations]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview), [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/guide-overview), or [[!DNL Catalog Service]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview) with an active license.
 
 The Data Management Dashboard is located at *System* > Data Transfer > *Data Management Dashboard*.
 
@@ -21,8 +21,8 @@ The dashboard contains the following fields:
 |Field|Description|
 |--- |--- |
 | Scope | Specific website for the synced data.|
-|[!DNL Product Recommendations]|Displays sync status, number of products synced, and a table of the [displayable](https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/inventory#stock-options) synced products for [!DNL Product Recommendations].|
-|[!DNL Live Search]|Displays sync status, number of products synced, and a table of the [displayable](https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/inventory#stock-options) synced products for [!DNL Live Search].|
+|[!DNL Product Recommendations]|Displays sync status, number of products synced, and a table of the [displayable](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/inventory#stock-options) synced products for [!DNL Product Recommendations].|
+|[!DNL Live Search]|Displays sync status, number of products synced, and a table of the [displayable](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/inventory#stock-options) synced products for [!DNL Live Search].|
 |[!DNL Catalog Service]|Displays sync status, number of products synced, and a table of the synced products for [!DNL Catalog Service].|
 |Settings| Opens a dialog where you can [manually resync the catalog data](#resync-catalog-data).|
 |Sync status|Displays the number of products that have been transferred from the Commerce database to any of the SaaS services within the last three hours. If you make infrequent updates to your catalog, this value is frequently zero. If a sync is in progress, click **[!UICONTROL Refresh]** to get an updated count.|
@@ -47,7 +47,7 @@ To see the details of a synced product, click on the product from the table.
 
 ### Resync catalog data
 
-To ensure that your Commerce SaaS services are always up-to-date with the latest product information, you should [implement a schedule](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex) for syncing catalog data.
+To ensure that your Commerce SaaS services are always up-to-date with the latest product information, you should [implement a schedule](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex) for syncing catalog data.
 
 While you can [manually initiate](#manually-resync-catalog) a catalog data resync from the Commerce database to SaaS services, it is not recommended as it can increase the load on hardware resources. However, manually resyncing the catalog might be necessary in the following scenarios:
 
