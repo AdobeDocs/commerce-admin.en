@@ -96,7 +96,7 @@ For information about assigning resources to grant access for Admin user account
 
 ## Flush using the command line
 
-System Administrators and developers with access to the Commerce application server can also manage the cache and cache configuration from the command line using the Commerce CLI. See [Manage the cache]([https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target="_blank"} in the _Configuration Guide_.
+System Administrators and developers with access to the Commerce application server can also manage the cache and cache configuration from the command line using the Commerce CLI. See [Manage the cache](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target="_blank"} in the _Configuration Guide_.
 
 ## Controls
 
