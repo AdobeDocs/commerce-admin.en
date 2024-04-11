@@ -62,7 +62,7 @@ To change how long the one-time password (OTP) is available during sign-in, clea
 
 >[!NOTE]
 >
->In Adobe Commerce 2.4.7 and later, the configuration for the OTP Window setting must be less than 30 seconds.
+>In Adobe Commerce 2.4.7 and later, the OTP window configuration setting controls how long (in seconds) the system accepts an administrator's one-time-password (OTP) after it has expired. This value must be less than 30 seconds. The system default setting is `1`.
 
 ### [!DNL Duo Security]
 
