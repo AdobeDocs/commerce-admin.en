@@ -13,7 +13,7 @@ The Commerce _Admin_ for your Adobe Commerce or Magento Open Source installation
 >
 >This implementation of two-factor authentication (2FA) applies to the _Admin_ only, and is not available for customer accounts. The two-factor authentication that protects your Commerce account has a separate setup. To learn more, go to [Secure your Commerce account](../getting-started/commerce-account-secure.md).
 
-Two-factor authentication is widely used, and it is common to generate access codes for different websites on the same app. This ensures that only you are able to log in to your user account. If you lose your password or a bot guesses it, two-factor authentication adds a layer of protection. For example, you might use Google Authenticator to generate codes for the Admin of your store, your Commerce account, and Google account.
+Two-factor authentication is widely used, and it is common to generate access codes for different websites on the same app. This additional authentication ensures that only you are able to log in to your user account. If you lose your password or a bot guesses it, two-factor authentication adds a layer of protection. For example, you might use Google Authenticator to generate codes for the Admin of your store, your Commerce account, and Google account.
 
 ![Security configuration iphone - 2FA](./assets/google-authenticator-iphone.png){width="300"}
 
