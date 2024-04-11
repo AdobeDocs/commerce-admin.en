@@ -1,6 +1,6 @@
 ---
 title: Two-factor authentication (2FA)
-description: Learn about two-factor authentication support to ensure security of your store and data.
+description: Learn about two-factor authentication support to ensure the security of your stores and data.
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
@@ -17,7 +17,7 @@ Two-factor authentication is widely used, and it is common to generate access co
 
 ![Security configuration iphone - 2FA](./assets/google-authenticator-iphone.png){width="300"}
 
-Adobe Commerce supports 2FA methods from multiple providers. Some require the installation of an app that generates a one-time password (OTP) that users enter at sign-in to verify their identity. Universal second Factor (U2F) devices resemble a key fob and generate a unique key to verify identity. Other devices verify identity when they are inserted into a USB port. As the store administrator, you can require one or more of the available 2FA methods to verify user identity. Your 2FA configuration applies to all websites and stores that are associated with the Adobe Commerce installation.
+Adobe Commerce supports 2FA methods from multiple providers. Some require the installation of an app that generates a one-time password (OTP) that users enter at sign-in to verify their identity. Universal second factor (U2F) devices resemble a key fob and generate a unique key to verify identity. Other devices verify identity when they are inserted into a USB port. As the store administrator, you can require one or more of the available 2FA methods to verify user identity. Your 2FA configuration applies to all websites and stores that are associated with the Adobe Commerce installation.
 
 The first time a user signs in to the _Admin_, they must set up each [2FA](../configuration-reference/security/2fa.md) method that you require, and verify their identity using the associated app or device. After this initial setup, the user must authenticate with one of the configured methods each time they sign in. Each user's 2FA information is recorded in their _Admin_ account and can be [reset](security-two-factor-authentication-manage.md) if necessary. To learn more about the sign-in process, go to [_Admin_ Sign In](../getting-started/admin-signin.md).
 
@@ -33,7 +33,7 @@ You can watch this [video demo](https://video.tv.adobe.com/v/339104?quality=12&l
 
 1. In the left panel, expand **[!UICONTROL Security]** and choose **[!UICONTROL 2FA]**.
 
-1. In the _[!UICONTROL General]_ section, select each **[!UICONTROL Provider to use]**.
+1. In the _[!UICONTROL General]_ section, select the providers to use.
 
    |Provider|Function|
    |--- |--- |
