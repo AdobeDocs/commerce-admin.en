@@ -58,7 +58,7 @@ Complete the settings for each 2FA method that you require.
 
 ### Google
 
-To change how long the one-time password (OTP) is available during sign-in, clear the **[!UICONTROL Use system value]** checkbox. Then, enter the number of seconds that you want the **[!UICONTROL OTP Window]** to be valid.
+To change how long the one-time password (OTP) is available during sign-in, clear the **[!UICONTROL Use system value]** checkbox. Then, enter the number of seconds that you want the **[!UICONTROL OTP Window]** to be valid. The value must be less than 30 seconds.
 
 ![Security configuration - Google](../configuration-reference/security/assets/2fa-google.png){width="600" zoomable="yes"}
 
