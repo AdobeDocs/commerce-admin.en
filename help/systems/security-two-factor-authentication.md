@@ -1,6 +1,6 @@
 ---
 title: Two-factor authentication (2FA)
-description: Learn about two-factor authentication support to ensure security of your store and data.
+description: Learn about two-factor authentication support to ensure the security of your system and data.
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
@@ -13,11 +13,11 @@ The Commerce _Admin_ for your Adobe Commerce or Magento Open Source installation
 >
 >This implementation of two-factor authentication (2FA) applies to the _Admin_ only, and is not available for customer accounts. The two-factor authentication that protects your Commerce account has a separate setup. To learn more, go to [Secure your Commerce account](../getting-started/commerce-account-secure.md).
 
-Two-factor authentication is widely used, and it is common to generate access codes for different websites on the same app. This ensures that only you are able to log in to your user account. If you lose your password or a bot guesses it, two-factor authentication adds a layer of protection. For example, you might use Google Authenticator to generate codes for the Admin of your store, your Commerce account, and Google account.
+Two-factor authentication is widely used, and it is common to generate access codes for different websites on the same app. This additional authentication ensures that only you are able to log in to your user account. If you lose your password or a bot guesses it, two-factor authentication adds a layer of protection. For example, you might use Google Authenticator to generate codes for the Admin of your store, your Commerce account, and Google account.
 
 ![Security configuration iphone - 2FA](./assets/google-authenticator-iphone.png){width="300"}
 
-Adobe Commerce supports 2FA methods from multiple providers. Some require the installation of an app that generates a one-time password (OTP) that users enter at sign-in to verify their identity. Universal second Factor (U2F) devices resemble a key fob and generate a unique key to verify identity. Other devices verify identity when they are inserted into a USB port. As the store administrator, you can require one or more of the available 2FA methods to verify user identity. Your 2FA configuration applies to all websites and stores that are associated with the Adobe Commerce installation.
+Adobe Commerce supports 2FA methods from multiple providers. Some require the installation of an app that generates a one-time password (OTP) that users enter at sign-in to verify their identity. Universal second factor (U2F) devices resemble a key fob and generate a unique key to verify identity. Other devices verify identity when they are inserted into a USB port. As the store administrator, you can require one or more of the available 2FA methods to verify user identity. Your 2FA configuration applies to all websites and stores that are associated with the Adobe Commerce installation.
 
 The first time a user signs in to the _Admin_, they must set up each [2FA](../configuration-reference/security/2fa.md) method that you require, and verify their identity using the associated app or device. After this initial setup, the user must authenticate with one of the configured methods each time they sign in. Each user's 2FA information is recorded in their _Admin_ account and can be [reset](security-two-factor-authentication-manage.md) if necessary. To learn more about the sign-in process, go to [_Admin_ Sign In](../getting-started/admin-signin.md).
 
@@ -33,7 +33,7 @@ You can watch this [video demo](https://video.tv.adobe.com/v/339104?quality=12&l
 
 1. In the left panel, expand **[!UICONTROL Security]** and choose **[!UICONTROL 2FA]**.
 
-1. In the _[!UICONTROL General]_ section, select each **[!UICONTROL Provider to use]**.
+1. In the _[!UICONTROL General]_ section, select the providers to use.
 
    |Provider|Function|
    |--- |--- |
@@ -60,7 +60,9 @@ Complete the settings for each 2FA method that you require.
 
 To change how long the one-time password (OTP) is available during sign-in, clear the **[!UICONTROL Use system value]** checkbox. Then, enter the number of seconds that you want the **[!UICONTROL OTP Window]** to be valid.
 
-![Security configuration - Google](../configuration-reference/security/assets/2fa-google.png){width="600" zoomable="yes"}
+>[!NOTE]
+>
+>In Adobe Commerce 2.4.7 and later, the OTP window configuration setting controls how long (in seconds) the system accepts an administrator's one-time-password (OTP) after it has expired. This value must be less than 30 seconds. The system default setting is `1`.<br><br> In version 2.4.6, the OTP window setting determines the number of past and future OTP codes that remain valid. A value of `1` indicates that the current OTP code plus one code in the past and one code in the future remain valid at any given point in time. 
 
 ### [!DNL Duo Security]
 
