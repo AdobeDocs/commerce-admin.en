@@ -6,7 +6,9 @@ exl-id: e3fb6337-c7d5-4b6f-8f4a-583697a1f2d2
 ---
 # Adobe Experience Cloud Integration for Commerce
 
-{{ee-feature}}
+<table style="border:1px solid red">
+<tr><td><img alt="Adobe Commerce feature" src="../assets/adobe-logo.svg" width="20" height="20" /> Exclusive feature only in Adobe Commerce (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">Learn more</a>)</td></tr>
+</table>
 
 Integrate Adobe Commerce projects with Experience Cloud by enabling the Admin Unified Experience extension. When the integration is active, administrators can access Commerce projects from Adobe Experience Cloud.
 
