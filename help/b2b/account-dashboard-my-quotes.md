@@ -81,6 +81,10 @@ With the required [permissions for their role](account-company-roles-permissions
 
 See [Add products to a requisition list](requisition-lists.md) to learn more about this process.
 
+>[!NOTE]
+>
+> You cannot create a new requisition list when you move items. Items can only be moved to an existing requisition list.
+
 ## Adding a shipping address
 
 1. The customer logs in to their account.
