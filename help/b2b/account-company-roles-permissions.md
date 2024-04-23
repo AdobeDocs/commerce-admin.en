@@ -92,8 +92,13 @@ The system has one predefined Default User role, which you can use _as is_ or mo
 - Quotes
    - View
       - Request, Edit, Delete
+      - Create draft, Save as draft, Decline, Send
       - Checkout with quote
       - View quotes of subordinate users
+- Quote Templates
+   - View
+      - Request, Edit, Delete
+      - Create draft, Decline, Send
 - Order Approvals
    - View My Purchase Orders
       - View for subordinates

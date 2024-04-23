@@ -70,6 +70,8 @@ Configuration options for quotes are controlled using the [role resources](../sy
 
 To grant access to quote functions in the Admin, go to **[!UICONTROL System]** > _[!UICONTROL Permissions]_ > **[!UICONTROL User Roles]**, select the role, and navigate to [!UICONTROL Sales] > [!UICONTROL Operations] > [!UICONTROL Quotes] in the _Role Resources_ tree.
 
+![Quotes Roles & Permissions](./assets/roles-permissions-quotes.png){width="700" zoomable="yes"}
+
 ## Apply an action
 
 In the Admin, B2B Administrators and Sellers can manage quotes from the Quote Grid by using the [!UICONTROL Actions] menu.
