@@ -48,7 +48,7 @@ Research has shown that about [64% of shoppers](https://techreport.com/statistic
 This new high-performance storefront has already been successfully piloted by several Adobe Commerce merchants, such as [Maidenform](https://business.adobe.com/blog/perspectives/how-hanesbrands-and-adobe-built-one-of-the-fastest-ecommerce-websites-in-the-world), a property of HanesBrands. The results speak for themselves. Maidenform pages consistently deliver Google Lighthouse scores of [100 and Core Web Vitals results](https://treo.sh/sitespeed/www.maidenform.com) far above the industry average.
 
 ![Site speed results](assets/maidenform-site.png){width="50%" align=center}
-![Core Web Vitals chart](assets/release/maidenform-site-stats.png){zoomable="yes"}
+![Core Web Vitals chart](assets/maidenform-site-stats.png){zoomable="yes"}
 
 Discover how HanesBrands and Adobe developed a high-performance edge architecture with data sharing and personalization capabilities.[E-Comm Masterclass: Hanesbrands Creates the World's Fastest Storefront](https://business.adobe.com/summit/2024/sessions/ecomm-masterclass-hanesbrands-creates-the-worlds-f-s435.html)  
 
