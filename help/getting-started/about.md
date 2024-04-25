@@ -272,7 +272,7 @@ Built on Adobe's App Builder framework, the [Zuora extension](https://commercema
 
 #### Performance and scale
 
-- 30% improvement in GraphQL API response times with the newly introduced [GraphQL Application Server](../performance/application-server.md). 
+- 30% improvement in GraphQL API response times with the newly introduced [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server). 
 
 - Bulk [import](https://developer.adobe.com/commerce/webapi/rest/modules/import/) up to 100k records per minute in JSON format.
 
@@ -290,7 +290,7 @@ The HIPAA-Ready offering is available to Adobe Commerce cloud and Managed Servic
 
 ## Beta opportunities
 
-Visit the [beta release page](beta.md) for a summary of beta and early access programs, including IBM Sterling Order Management, Data Connection to Adobe Experience Platform, and back-office ERP, CRM, and PIM integration starter kit using App Builder.
+Visit the [beta release page](https://experienceleague.adobe.com/en/docs/commerce-operations/release/beta) for a summary of beta and early access programs, including IBM Sterling Order Management, Data Connection to Adobe Experience Platform, and back-office ERP, CRM, and PIM integration starter kit using App Builder.
 
 ## On-demand content from Adobe Summit
 
