@@ -216,7 +216,7 @@ Traditional composable applications are built using point-to-point integrations 
 
 ![Adobe Commerce extensibility diagram](assets/comprehensive-extensibility.png)
 
-## Webhooks and Admin UI SDK enhancements
+### Webhooks and Admin UI SDK enhancements
 
 [!BADGE Available now]{type=Informative tooltip="Available now"}
 
@@ -230,7 +230,7 @@ Later this year, Adobe will increase the availability of API Mesh to over 200 gl
 >
 >To learn how to get started with webhooks, read our [documentation](https://developer.adobe.com/commerce/extensibility/webhooks/).
 
-## Integration starter kit & pre-built ERP integrations
+### Integration starter kit & pre-built ERP integrations
 
 [!BADGE Available June 2024]{type=Informative tooltip="Available June 2024"}
 
@@ -246,7 +246,7 @@ Later this year, Adobe will also be releasing pre-built integrations for two com
 These reference integrations can easily be customized by developers to meet the needs of the business, lowering the time to market and the cost of integrations.
 
 
-### Subscription commerce powered by Zuora
+#### Subscription commerce powered by Zuora
 
 [!BADGE Available now]{type=Informative tooltip="Available now"}
 
