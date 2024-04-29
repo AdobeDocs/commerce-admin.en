@@ -10,6 +10,7 @@ recommendations: noDisplay
 # Adobe Commerce Getting Started Guide {#start}
 
 + [Adobe Commerce Getting Started Guide](guide-overview.md)
++ [What is Adobe Commerce?](about.md)
 + [Release information](about-this-release.md)
 + [Login credentials and URLs](login-urls.md)
 + Commerce accounts {#commerce-account}
