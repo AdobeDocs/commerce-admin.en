@@ -44,7 +44,11 @@ This new high-performance storefront has already been successfully piloted by se
 ![Site speed results](assets/maidenform-site.png){width="50%" align=center}
 ![Core Web Vitals chart](assets/maidenform-site-stats.png){zoomable="yes"}
 
-Discover how HanesBrands and Adobe developed a high-performance edge architecture with data sharing and personalization capabilities. [E-Comm Masterclass: Hanesbrands Creates the World's Fastest Storefront](https://business.adobe.com/summit/2024/sessions/ecomm-masterclass-hanesbrands-creates-the-worlds-f-s435.html)  
+>[!BEGINSHADEBOX]
+
+Discover how HanesBrands and Adobe developed a high-performance edge architecture with data sharing and personalization capabilities. [E-Comm Masterclass: Hanesbrands Creates the World's Fastest Storefront](https://business.adobe.com/summit/2024/sessions/ecomm-masterclass-hanesbrands-creates-the-worlds-f-s435.html)
+
+>[!ENDSHADEBOX]
 
 At the heart of this new experience-driven storefront are a set of principles that focus on delivering a composable commerce experience, with improved conversion, reduction in costs, and increased velocity.
 
