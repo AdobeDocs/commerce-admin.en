@@ -10,17 +10,13 @@ Adobe Commerce is an enterprise commerce solution that delivers superior ecommer
 
 ## Ecommerce teams are facing unique challenges
 
-Ecommerce teams today must deliver exceptional experiences for their customers. A fast, convenient, personalized commerce experience leads to increased sales, deeper customer relationships and operational efficiencies for your businesses. In fact, companies that focus on being "experience leaders" see higher business performance than those who don't. According to [Deloitte Digital](https://www.deloittedigital.com/content/dam/deloittedigital/us/documents/offerings/offering-20220713-personalization-pov.pdf), companies who deliver personalized experiences see the following results:
-
-- 1.5 times higher revenue per customer 
-- 2 times higher business growth
-- 20% to 30% higher satisfaction and engagement
+Ecommerce teams today must deliver exceptional experiences for their customers. A fast, convenient, personalized commerce experience leads to increased sales, deeper customer relationships and operational efficiencies for your businesses.
 
 Unfortunately, creating and delivering exceptional commerce experiences is harder than ever. 
 
 - **Technical debt is blocking the business**—Complex, legacy technical environments span multiple platforms and are challenging to maintain. [60%](https://engage.adobe.com/DigComRptWBR-register.html) of ecommerce professionals say they struggle to maintain and integrate their tech.
 - **Teams are expected to do more with less**—Many ecommerce teams are facing high growth expectations but often struggle to re-define the customer experience due to manual processes, overly technical solutions and limited data. [56%](https://engage.adobe.com/DigComRptWBR-register.html) of ecommerce professionals say they lack adequate funding.
-- **Data overload**—Data volumes continue to rise in quality but do not translate into quality experiences because the data is trapped in various systems, making it hard to drive the business and create impactful experiences. [60%](https://engage.adobe.com/DigComRptWBR-register.html) of ecommerce professionals say they don't have the right data in the right systems.
+- **Data overload**—Data volumes continue to rise in quantity but do not translate into quality experiences because the data is trapped in various systems, making it hard to drive the business and create impactful experiences. [60%](https://engage.adobe.com/DigComRptWBR-register.html) of ecommerce professionals say they don't have the right data in the right systems.
 - **Consumers expect more**—The number of channels and business models that businesses must support continue to multiply, which adds more cost and complexity. [53%](https://www.bloomreach.com/en/news/2020/bloomreach-releases-new-global-research-study) of consumers will not buy again from the same company if they had a bad experience and [90%](https://www.prweb.com/releases/study-90-of-b2b-buyers-will-turn-to-a-competitor-if-a-suppliers-digital-channel-doesn-t-meet-their-needs-811395853.html) of B2B buyers will turn to a competitor if a supplier can't meet their needs digitally.
 
 ## Adobe Commerce's vision is experience-led commerce
@@ -29,28 +25,26 @@ Adobe's vision is to deliver an experience-led, data-powered, technology-enabled
 
 - [Experience-led](#experience-led-commerce). At Adobe, we believe growth comes from experiences. That's why we are focused on powering the world's fastest ecommerce storefronts and empowering ecommerce teams to author personalized experiences at scale.
 
-- [Data-powered](#data-powered-commerce). Adobe continues to expand data sharing capabilities and how you can now personalize experiences across all touchpoints using data from Adobe Commerce.
+- [Data-powered](#data-powered-commerce). Adobe Commerce provides seamless data sharing across your marketing technology stack, empowering you to put your first-party commerce data to work, personalizing experiences across every touchpoint and channel.
 
 - [Technology-enabled](#tech-enabled-commerce). Adobe Commerce is a composable ecommerce platform designed to launch ecommerce features faster, easily share data between third-party systems, and lower the cost of ownership for integrations and customizations.
 
-If you'd like to engage further, consider joining one of the Adobe Commerce [beta programs](#beta-opportunities) to get early access to the latest capabilities and watch one of the on-demand sessions from [Adobe Summit 2024](#on-demand-content-from-adobe-summit)
-
 ## Experience-led Commerce 
 
-As we move further into 2024, it is critical for ecommerce leaders to deliver experience-led commerce by improving storefront performance and using AI-powered personalization capabilities. 
+As we move further into 2024, it is critical for ecommerce leaders to deliver highly performant and personalized commerce experiences to their shoppers.
 
 ### Lightning fast storefront using Edge Delivery Services
 
 Research has shown that about [64% of shoppers](https://techreport.com/statistics/website-load-time-statistics-data) will go to a competitor's site to purchase a similar item if their web experience is poor. Conversely, for every 0.1 second improvement in site speed, businesses can expect a [9.2% increase in average order value](https://techreport.com/statistics/website-load-time-statistics-data).
 
-[Edge Delivery Services in Adobe Commerce](https://experienceleague.adobe.com/developer/commerce/storefront/) is a set of composable services that drives business value by delivering exceptional experiences, in both content creation and customer experiences. It combines business-based capabilities, like document-based content authoring and built-in A/B testing, with Adobe Commerce dropin components to deliver lightning-fast storefronts.
+[Edge Delivery Services in Adobe Commerce](https://experienceleague.adobe.com/developer/commerce/storefront/) is a set of composable services that drives business value by delivering exceptional experiences, in both content creation and customer experiences. It combines business-based capabilities, like document-based content authoring and built-in A/B testing, with Adobe Commerce dropin components and content delivery from the edge for lightning-fast storefronts" (e.g., need to mention edge delivery).
 
 This new high-performance storefront has already been successfully piloted by several Adobe Commerce merchants, such as [Maidenform](https://business.adobe.com/blog/perspectives/how-hanesbrands-and-adobe-built-one-of-the-fastest-ecommerce-websites-in-the-world), a property of HanesBrands. The results speak for themselves. Maidenform pages consistently deliver Google Lighthouse scores of [100 and Core Web Vitals results](https://treo.sh/sitespeed/www.maidenform.com) far above the industry average.
 
 ![Site speed results](assets/maidenform-site.png){width="50%" align=center}
 ![Core Web Vitals chart](assets/maidenform-site-stats.png){zoomable="yes"}
 
-Discover how HanesBrands and Adobe developed a high-performance edge architecture with data sharing and personalization capabilities.[E-Comm Masterclass: Hanesbrands Creates the World's Fastest Storefront](https://business.adobe.com/summit/2024/sessions/ecomm-masterclass-hanesbrands-creates-the-worlds-f-s435.html)  
+Discover how HanesBrands and Adobe developed a high-performance edge architecture with data sharing and personalization capabilities. [E-Comm Masterclass: Hanesbrands Creates the World's Fastest Storefront](https://business.adobe.com/summit/2024/sessions/ecomm-masterclass-hanesbrands-creates-the-worlds-f-s435.html)  
 
 At the heart of this new experience-driven storefront are a set of principles that focus on delivering a composable commerce experience, with improved conversion, reduction in costs, and increased velocity.
 
@@ -58,7 +52,7 @@ Conversion in Commerce is related to both your ability to connect your customers
 
 This means that a faster, experience-driven site is ranked higher in search engines, driving down your SEO costs, whilst driving up your organic and keyword traffic. Not only does this increase your visitor count, but it also connects your customers and products together more seamlessly than ever before, allowing for speedier product location, selection, and checkout.
 
-Reduction in costs across content creation and reuse, as your business content owners can quickly and easily deliver content experiences, while your commerce managers are delivering integrated Commerce capabilities. No more operational roadblocks from collaborating teams!
+You also benefit from lower content creation costs as your business content owners can quickly and easily deliver while your commerce managers are delivering integrated Commerce capabilities. No more operational roadblocks from collaborating teams! 
 
 Velocity for your content creation teams, velocity in delivering that content to your customers, and velocity in the experience your customers are living through your new, experience driven, highly performant storefront.
 
@@ -70,7 +64,7 @@ This is all achieved via a composable architecture, bringing your CMS and publis
 
 ### Adobe Experience Manager Assets integration
 
-Adobe is bringing Experience Manager Assets together with Adobe Commerce, to power Adobe Commerce with on-brand approved assets at bulk, driven by Experience Manager Assets, with all the GenAI goodness that Experience Manager Assets brings.
+Adobe is bringing Adobe Experience Manager Assets together with Adobe Commerce to power your ecommerce experiences with on-brand, approved assets in bulk, leveraging powerful GenAI capabilities.
 
 This allows an organization to use Experience Manager Assets Cloud Services as the single source of truth for asset creation and management, and as a central DAM powering Adobe Commerce to new heights of asset scalability.
 
@@ -124,7 +118,7 @@ Payment Services also offers right-for-you pricing options, including Interchang
 
 [!BADGE Available Now]{type=Informative tooltip="Available 1H 2024"}
 
-By the first half of this year, Adobe Commerce expects to release support for Google Pay, a leading digital wallet. According to Insider Intelligence, Google Pay is expected to reach [36 million consumers](https://forecasts-na1.emarketer.com/591373e4aeb8830e3829e400/5efc402eac4d4d07841472f9?_gl=1*qmtm8x*_ga*OTEwMjg4NjExLjE3MDY2MzQ2MTk.*_ga_XXYLHB9SXG*MTcwNjk3NjkzNS44LjAuMTcwNjk3NjkzNS42MC4wLjA.*_gcl_au*MTkwNzgzOTY5OS4xNzA2NjM0NjE5LjQ3MzE4MjY5LjE3MDY3MTcyMjUuMTcwNjcxNzIyNQ..) in 2024. The addition of Google Pay rounds out support for popular digital wallets, including Apple Pay and PayPal.
+Adobe Commerce now supports Google Pay, a leading digital wallet expected to reach [36 million consumers](https://forecasts-na1.emarketer.com/591373e4aeb8830e3829e400/5efc402eac4d4d07841472f9?_gl=1*qmtm8x*_ga*OTEwMjg4NjExLjE3MDY2MzQ2MTk.*_ga_XXYLHB9SXG*MTcwNjk3NjkzNS44LjAuMTcwNjk3NjkzNS42MC4wLjA.*_gcl_au*MTkwNzgzOTY5OS4xNzA2NjM0NjE5LjQ3MzE4MjY5LjE3MDY3MTcyMjUuMTcwNjcxNzIyNQ..) consumers globally. The addition of Google Pay rounds out support for popular digital wallets, including Apple Pay and PayPal.
 
 These digital wallets provide shoppers with the right payment method for them, increasing purchase confidence and purchase completion.
 
@@ -186,7 +180,7 @@ Adobe is also adding Commerce-specific dashboards in Adobe Experience Platform t
 
 Last year, Adobe Commerce also launched [Audience Activation](https://experienceleague.adobe.com/docs/commerce-admin/customers/audience-activation.html), which leverages unified customer profiles and audiences from Real-Time CDP to personalize shopper journeys. Specifically, [Adobe Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started.html) stitches Commerce data with data from other sources to build detailed customer profiles and audience segments for targeting content and promotional offers in Adobe Commerce.
 
-In the first half of the year, Adobe is expanding these [Audience Activation](https://experienceleague.adobe.com/docs/commerce-admin/customers/audience-activation.html) capabilities to allow marketers and merchandisers to use Audiences defined in Adobe's Real-Time CDP to personalize more aspects of the Adobe Commerce shopping experience, including [related products](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules.html), [promotions](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html), and [content blocks](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks.html). Adobe will also release support for tracking user behavior on native mobile app deployments of Adobe Commerce in addition to web channels.
+In the first half of the year, Adobe is expanding these [Audience Activation](https://experienceleague.adobe.com/docs/commerce-admin/customers/audience-activation.html) capabilities to allow marketers and merchandisers to use Audiences defined in Adobe's Real-Time CDP to personalize more aspects of the Adobe Commerce shopping experience, including [related products](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules.html), [promotions](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html), and [content blocks](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks.html).
 
 #### Track and personalize commerce in native mobile apps
 
@@ -260,24 +254,6 @@ Built on Adobe's App Builder framework, the [Zuora extension](https://commercema
 >
 >To learn how to get started with the Zuora extension, read the [documentation](https://commercemarketplace.adobe.com/media/catalog/product/zuora-revenue-management-with-subcriptions-1-0-0-ece/installation_guides.pdf?1708112475).
 
-### Core platform update for Adobe Commerce
-
-[Adobe Commerce 2.4.7](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7) is now generally available. The latest release of Adobe Commerce includes improvements for platform quality, updated dependencies, security, and performance. The key enhancements for this release are:
-
-#### Dependencies and compatibility
-
-- PHP 8.3: This release adds support for PHP 8.3, which brings with it significant performance improvements. Merchants running on PHP 8.2 should plan to upgrade to 8.3 before December 2025 to maintain support and PCI compliance. 
-
-- Third-party integrations: Native integrations with [FedEx](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) and [UPS](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) have been migrated to the latest RESTFul APIs and support for the latest USPS Ground Advantage shipping has been added.
-
-#### Performance and scale
-
-- 30% improvement in GraphQL API response times with the newly introduced [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server). 
-
-- Bulk [import](https://developer.adobe.com/commerce/webapi/rest/modules/import/) up to 100k records per minute in JSON format.
-
-- Support for up to 1M coupon-based cart price rules.
-
 ### Adobe Commerce's HIPAA-ready solution
 
 Adobe has extensive experience deploying HIPAA-Ready Services with healthcare customers of all sizes. From payors to providers to pharmaceutical and med tech vendors, Adobe sets the standard for responsible consumer data management. This expertise is now extending to the rapidly growing healthcare digital commerce market with a HIPAA-ready version of the Adobe Commerce cloud platform.
@@ -288,26 +264,22 @@ The HIPAA-Ready offering is available to Adobe Commerce cloud and Managed Servic
 >
 >Learn more about HIPAA-readiness on Adobe Commerce, read our [documentation](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/hipaa-ready-service).
 
+### Core platform update for Adobe Commerce
+
+The latest release of [Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7) is now available and includes
+
+- 30% improvement in GraphQL API response times with the newly introduced [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server). 
+
+- Bulk [import](https://developer.adobe.com/commerce/webapi/rest/modules/import/) up to 100k records per minute in JSON format.
+
+- Support for up to 1M coupon-based cart price rules.
+
 ## Beta opportunities
 
 Visit the [beta release page](https://experienceleague.adobe.com/en/docs/commerce-operations/release/beta) for a summary of beta and early access programs, including IBM Sterling Order Management, Data Connection to Adobe Experience Platform, and back-office ERP, CRM, and PIM integration starter kit using App Builder.
 
 ## On-demand content from Adobe Summit
 
-Missed Adobe Summit? The entire conference is now on-demand! Here are some of our favorite Adobe Commerce sessions from Adobe Summit 2024!
+Missed Adobe Summit? The entire conference is now on-demand! 
 
-- Adobe Commerce Roadmap: Join Adobe Commerce leaders to learn about Adobe's exciting 2024 product roadmap. See how the new capabilities can help you grow B2B and B2C sales faster with adaptable and engaging commerce experiences. [Adobe Commerce 2024 Product Roadmap Review](https://business.adobe.com/summit/2024/sessions/adobe-commerce-2024-product-roadmap-review-s432.html).
-
-- Lightning Fast Storefronts: Discover how HanesBrands tackled this project and how, in collaboration with Adobe, they developed a high-performance edge architecture, data sharing, with personalization capabilities that power these remarkable results. [E-Comm Masterclass: Hanesbrands Creates the World's Fastest Storefront](https://business.adobe.com/summit/2024/sessions/ecomm-masterclass-hanesbrands-creates-the-worlds-f-s435.html)  
-
-- Integrating Adobe Commerce with other systems using App Builder: Learn how Adobe Commerce enables Purina to bring in critical capabilities and data from different systems, expand to new channels, and build rich commerce experiences while reducing its time to market. [Nestle Purina: Build a Composable Platform for Business Agility with Adobe Commerce](https://business.adobe.com/summit/2024/sessions/purina-takes-composable-commerce-approach-to-boost-s437.html).
-
-- Personalized Commerce Experiences: Explore Coca-Cola's digital transformation journey to create personalized shopping experiences at scale. [Coca-Cola: Unlocking Data to Create Consumer-Centric Commerce Experiences](https://business.adobe.com/summit/2024/sessions/cocacola-unlocking-data-to-create-consumercentric-s434.html).
-
-- B2B Headless Commerce: Learn how the pharmaceutical giant rolled out a global reference build and headless e-commerce platform on Adobe Commerce across international markets. [Lessons from a Headless, B2B, Global Reference Storefront Build](https://business.adobe.com/summit/2024/sessions/lessons-from-a-headless-b2b-global-reference-store-s708.html).
-
-- Global B2B Commerce via Mobile App: from Prashaant Huria, CTO for Unilever's distributive trade, on how this partnership has enabled the transformation. [How Unilever Digitized Its Distributive Trade Route to Market Globally](https://business.adobe.com/summit/2024/sessions/how-unilever-digitized-its-distributive-trade-rout-s430.html).
-
-- Headless Commerce for B2C Retail: Discover the design and implementation of an extensible, API-based ecosystem, enabling seamless integrations and fostering adaptability in an ever-changing retail landscape. [Blowing Minds: Zumiez's Journey to Headless Commerce, PWA, and Cloud](https://business.adobe.com/summit/2024/sessions/blowing-minds-zumiezs-journey-to-headless-commerce-s439.html).
-
-- SEO Optimization: Using Adobe Commerce, Canon achieved a 150% increase in conversion rate, a 25% increase in mobile traffic, and a 20% reduction in bounce rate, leading to its most successful holiday shopping season ever. [How Canon Increased Conversion Rates and Traffic Using Adobe Commerce.](https://business.adobe.com/summit/2024/sessions/how-canon-increased-conversion-rates-and-traffic-u-s438.html)
+Read the [full summary](https://experienceleague.adobe.com/en/docs/commerce-operations/events/summit/2024) about Adobe Commerce at Adobe Summit including Adobe Commerce Roadmap, on-demand customer presentations and more!
