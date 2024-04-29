@@ -6,24 +6,24 @@ mini-toc-levels: 1
 
 # What is Adobe Commerce?
 
-Adobe Commerce is an enterprise commerce solution that delivers superior ecommerce experiences for consumers and B2B buyers globally. With thousands of customers and billions in annual gross merchandise value processed through our cloud platform, Adobe Commerce is at the forefront of powering the worlds largest and most complex ecommerce experiences for retailers, consumer brands, manufacturers and wholesale distributors globally.
+Adobe Commerce is an enterprise commerce solution that delivers superior ecommerce experiences for consumers and B2B buyers globally. With thousands of customers and billions in annual gross merchandise value processed through our cloud platform, Adobe Commerce is at the forefront of powering the world's largest and most complex ecommerce experiences for retailers, consumer brands, manufacturers and wholesale distributors globally.
 
 ## Ecommerce teams are facing unique challenges
 
-Ecommerce teams today must deliver exceptional experiences for their customers. A fast, convenient, personalized commerce experience leads to increased sales, deeper customer relationships and operational efficiencies for your businesses.
+Ecommerce teams today must deliver exceptional experiences for their customers. A fast, convenient, personalized commerce experience leads to increased sales, deeper customer relationships and operational efficiencies for your business.
 
 Unfortunately, creating and delivering exceptional commerce experiences is harder than ever. 
 
 - **Technical debt is blocking the business**—Complex, legacy technical environments span multiple platforms and are challenging to maintain. [60%](https://engage.adobe.com/DigComRptWBR-register.html) of ecommerce professionals say they struggle to maintain and integrate their tech.
 - **Teams are expected to do more with less**—Many ecommerce teams are facing high growth expectations but often struggle to re-define the customer experience due to manual processes, overly technical solutions and limited data. [56%](https://engage.adobe.com/DigComRptWBR-register.html) of ecommerce professionals say they lack adequate funding.
-- **Data overload**—Data volumes continue to rise in quantity but do not translate into quality experiences because the data is trapped in various systems, making it hard to drive the business and create impactful experiences. [60%](https://engage.adobe.com/DigComRptWBR-register.html) of ecommerce professionals say they don't have the right data in the right systems.
-- **Consumers expect more**—The number of channels and business models that businesses must support continue to multiply, which adds more cost and complexity. [53%](https://www.bloomreach.com/en/news/2020/bloomreach-releases-new-global-research-study) of consumers will not buy again from the same company if they had a bad experience and [90%](https://www.prweb.com/releases/study-90-of-b2b-buyers-will-turn-to-a-competitor-if-a-suppliers-digital-channel-doesn-t-meet-their-needs-811395853.html) of B2B buyers will turn to a competitor if a supplier can't meet their needs digitally.
+- **Data overload**—Data volumes continue to rise in quantity but do not translate into quality experiences because the data is trapped in various systems, making it hard to drive the business and create impactful experiences. [60%](https://engage.adobe.com/DigComRptWBR-register.html) of ecommerce professionals say that they don't have the right data in the right systems.
+- **Consumers expect more**—The number of channels and business models that businesses must support continue to multiply, which adds more cost and complexity. [53%](https://www.bloomreach.com/en/news/2020/bloomreach-releases-new-global-research-study) of consumers will not buy again from the same company if they had a bad experience and [90%](https://www.prweb.com/releases/study-90-of-b2b-buyers-will-turn-to-a-competitor-if-a-suppliers-digital-channel-doesn-t-meet-their-needs-811395853.html) of B2B buyers turn to a competitor if a supplier can't meet their needs digitally.
 
 ## Adobe Commerce's vision is experience-led commerce
 
 Adobe's vision is to deliver an experience-led, data-powered, technology-enabled commerce platform. 
 
-- [Experience-led](#experience-led-commerce). At Adobe, we believe growth comes from experiences. That's why we are focused on powering the world's fastest ecommerce storefronts and empowering ecommerce teams to author personalized experiences at scale.
+- [Experience-led](#experience-led-commerce). At Adobe, we believe that growth comes from experiences. That's why we are focused on powering the world's fastest ecommerce storefronts and empowering ecommerce teams to author personalized experiences at scale.
 
 - [Data-powered](#data-powered-commerce). Adobe Commerce provides seamless data sharing across your marketing technology stack, empowering you to put your first-party commerce data to work, personalizing experiences across every touchpoint and channel.
 
@@ -35,9 +35,9 @@ As we move further into 2024, it is critical for ecommerce leaders to deliver hi
 
 ### Lightning fast storefront using Edge Delivery Services
 
-Research has shown that about [64% of shoppers](https://techreport.com/statistics/website-load-time-statistics-data) will go to a competitor's site to purchase a similar item if their web experience is poor. Conversely, for every 0.1 second improvement in site speed, businesses can expect a [9.2% increase in average order value](https://techreport.com/statistics/website-load-time-statistics-data).
+Research has shown that about [64% of shoppers](https://techreport.com/statistics/website-load-time-statistics-data) go to a competitor's site to purchase a similar item if their web experience is poor. Conversely, for every 0.1 second improvement in site speed, businesses can expect a [9.2% increase in average order value](https://techreport.com/statistics/website-load-time-statistics-data).
 
-[Edge Delivery Services in Adobe Commerce](https://experienceleague.adobe.com/developer/commerce/storefront/) is a set of composable services that drives business value by delivering exceptional experiences, in both content creation and customer experiences. It combines business-based capabilities, like document-based content authoring and built-in A/B testing, with Adobe Commerce dropin components and content delivery from the edge for lightning-fast storefronts" (e.g., need to mention edge delivery).
+[Edge Delivery Services in Adobe Commerce](https://experienceleague.adobe.com/developer/commerce/storefront/) is a set of composable services that drives business value by delivering exceptional experiences, in both content creation and customer experiences. It combines business-based capabilities, like document-based content authoring and built-in A/B testing, with Adobe Commerce dropin components and content delivery from the edge for lightning-fast storefronts" (for example, need to mention edge delivery).
 
 This new high-performance storefront has already been successfully piloted by several Adobe Commerce merchants, such as [Maidenform](https://business.adobe.com/blog/perspectives/how-hanesbrands-and-adobe-built-one-of-the-fastest-ecommerce-websites-in-the-world), a property of HanesBrands. The results speak for themselves. Maidenform pages consistently deliver Google Lighthouse scores of [100 and Core Web Vitals results](https://treo.sh/sitespeed/www.maidenform.com) far above the industry average.
 
@@ -78,13 +78,13 @@ Create storefronts for new product launches or seasonal campaigns with increased
 
 ### B2B Commerce
 
-Adobe Commerce has delivered mission critical B2B ecommerce features for years, including company accounts, purchase approval rules, quote management, and customer price books. That's why B2B ecommerce leaders like [Watsco](https://business.adobe.com/content/dam/dx/us/en/resources/ebooks/building-better-experiences/building-better-experiences-and-bigger-profits.pdf), [SealedAir](https://business.adobe.com/customer-success-stories/sealed-air-case-study.html), [Sunbelt Rentals](https://business.adobe.com/customer-success-stories/sunbelt-rentals-case-study.html), [Transcat](https://business.adobe.com/customer-success-stories/transcat-case-study.html), [FoodServiceDirect.com](https://business.adobe.com/customer-success-stories/foodservicedirect-case-study.html), and [Univar Solutions](https://business.adobe.com/summit/2023/sessions/debunking-top-b2b-commerce-myths-s517.html) power their global B2B ecommerce channels on Adobe Commerce.
+Adobe Commerce has delivered mission-critical B2B ecommerce features for years, including company accounts, purchase approval rules, quote management, and customer price books. That's why B2B ecommerce leaders like [Watsco](https://business.adobe.com/content/dam/dx/us/en/resources/ebooks/building-better-experiences/building-better-experiences-and-bigger-profits.pdf), [SealedAir](https://business.adobe.com/customer-success-stories/sealed-air-case-study.html), [Sunbelt Rentals](https://business.adobe.com/customer-success-stories/sunbelt-rentals-case-study.html), [Transcat](https://business.adobe.com/customer-success-stories/transcat-case-study.html), [FoodServiceDirect.com](https://business.adobe.com/customer-success-stories/foodservicedirect-case-study.html), and [Univar Solutions](https://business.adobe.com/summit/2023/sessions/debunking-top-b2b-commerce-myths-s517.html) power their global B2B ecommerce channels on Adobe Commerce.
 
 Adobe is excited to share that new quoting and company management features will be available later in 2024.
 
 Company management features allow businesses to configure any buyer company structure they need to support B2B2X, conglomerates, or global businesses using Adobe's new parent/child account structures. Buyers can also switch between multiple child accounts for streamlined purchasing.
 
-Building on our strong built-in quoting tool, B2B sellers can capture more revenue faster with new request for quote (RFQ) tools, including draft quotes, duplicate quotes, split quotes, quote templates, and multi-admin access to quotes.
+Building on Adobe Commerce's strong built-in quoting tool, B2B sellers can capture more revenue faster with new request for quote (RFQ) tools, including draft quotes, duplicate quotes, split quotes, quote templates, and multi-admin access to quotes.
 
 Both capabilities will be compatible with Adobe Commerce's native storefront architecture and headless commerce deployments that use GraphQL APIs.
 
@@ -104,7 +104,7 @@ The latest release builds on a series of updates from 2023 that added Apple Pay,
 
 >[!TIP]
 >
->To learn how to get started with Payment Services, read our [documentation](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html).
+>To learn how to get started with Payment Services, read our [documentation](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/guide-overview).
 
 #### Headless support for Payment Services
 
@@ -112,7 +112,7 @@ The latest release builds on a series of updates from 2023 that added Apple Pay,
 
 In the latest release, Payment Services now includes GraphQL support so merchants can accept and process payments on headless storefront implementations, such as Adobe Experience Manager and other custom front ends.
 
-Payment Services also offers right-for-you pricing options, including Interchange++ for more competitive payment processing rates and [self-service onboarding](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/production.html#standard-onboarding) to Payment Services Basic providing payment processing capabilities to almost 200 regions worldwide.
+Payment Services also offers right-for-you pricing options, including Interchange++ for more competitive payment processing rates and [self-service onboarding](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/get-started/production) to Payment Services Basic providing payment processing capabilities to almost 200 regions worldwide.
 
 >[!TIP]
 >
@@ -138,17 +138,17 @@ Companies are seeking to personalize every part of the buying journey, from help
 
 [Live Search, powered by Adobe Sensei](https://business.adobe.com/products/magento/live-search.html), helps you personalize how customers find exactly what they need so you can increase your conversion rates. In fact, Live Search customers boost conversion rates by an average of 7% after launching Live Search, with 15% of customers experiencing over a 40% conversion lift.
 
-Adobe's latest release of Live Search focuses on making these features easy to use and empowers you to fully customize the search experience to fit your unique needs. You can now apply specific [AI re-ranking rules](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/rules/rules-add.html) for your highest volume searches, then supplement those rules with a default fallback rule to cover the long tail of _all other queries_.
+Adobe's latest release of Live Search focuses on making these features easy to use and empowers you to fully customize the search experience to fit your unique needs. You can now apply specific [AI re-ranking rules](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/rules/rules-add) for your highest volume searches, then supplement those rules with a default fallback rule to cover the long tail of _all other queries_.
 
-For example, a merchandiser can set a rule that any search query containing the phrase "dress" should be sorted by _trending items_ algorithm. That same merchandiser can then use the _most purchased_ algorithm for all other search queries. With this update, brands can showcase their top products for every search, simplifying personalized merchandising.
+For example, a merchandiser can set a rule that any search query containing the phrase "dress" should be sorted by the _trending items_ algorithm. That same merchandiser can then use the _most purchased_ algorithm for all other search queries. With this update, brands can showcase their top products for every search, simplifying personalized merchandising.
 
 ![A screenshot of a search engine](assets/default-search-rule.png){align="center" zoomable="yes"}
 
-Adobe has also introduced new customization options for Live Search. Using Live Search's [PLP Widget](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling.html) and [Popover Widget](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-storefront/storefront-popover.html), you can design the Live Search UI features, including color swatches, product detail page layout options, add to cart buttons, price sliders, and more using low code configuration tools. Adobe provides full flexibility through an [open code repository](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/technical-overview.html?lang=en#widget-code-repository), which serves as a best-practice reference implementation.
+Adobe has also introduced new customization options for Live Search. Using Live Search's [PLP Widget](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling) and [Popover Widget](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/storefront-popover), you can design the Live Search UI features, including color swatches, product detail page layout options, add to cart buttons, price sliders, and more using low code configuration tools. Adobe provides full flexibility through an [open code repository](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/install), which serves as a best-practice reference implementation.
 
 >[!TIP]
 >
->To learn how to get started with Live Search, read our [documentation](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html):
+>To learn how to get started with Live Search, read our [documentation](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview):
 
 #### Data Management Dashboard
 
@@ -162,17 +162,17 @@ This new dashboard can be accessed directly from the Adobe Commerce Admin ([!UIC
 
 [!BADGE Available June 2024]{type=Informative tooltip="Available June 2024"}
 
-Last year, Adobe Commerce released [Data Connection](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html), which  automatically collects, maps, and shares a range of Commerce data including storefront clicks and back-office order status and order history information. Today, digital commerce leaders are using Data Connection to break down data siloes, create unified customer profiles and audiences, personalize customer journeys, and power rich analytics.
+Last year, Adobe Commerce released [Data Connection](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview), which automatically collects, maps, and shares a range of Commerce data including storefront clicks and back-office order status and order history information. Today, digital commerce leaders are using Data Connection to break down data siloes, create unified customer profiles and audiences, personalize customer journeys, and power rich analytics.
 
-In the first half of this year, Adobe will share even more data, including [Commerce customer profiles](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/manage/update-account.html), mobile app behavior, and custom attributes for back-office events to personalize campaigns and experiences at scale.
+In the first half of this year, Adobe will share even more data, including [Commerce customer profiles](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/update-account), mobile app behavior, and custom attributes for back-office events to personalize campaigns and experiences at scale.
 
-For example, customers will be able to use real-time Commerce customer registrations to trigger welcome email campaigns in [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html).
+For example, customers will be able to use real-time Commerce customer registrations to trigger welcome email campaigns in [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started).
 
 ![A diagram of connected data sources](assets/data-connection.png){align="center" zoomable="yes"}
 
 #### Abandon cart emails in Adobe Journey Optimizer using commerce data
 
-Informed by hundreds of implementations of Adobe Commerce alongside other Adobe Experience Cloud solutions, Adobe is launching [Use Case Playbooks](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/playbooks.html), which are ready-to-use implementation assets that allow customers to experience immediate time-to-value.  
+Informed by hundreds of implementations of Adobe Commerce alongside other Adobe Experience Cloud solutions, Adobe is launching [Use Case Playbooks](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/playbooks), which are ready-to-use implementation assets that allow customers to experience immediate time-to-value.  
 
 The initial Adobe Commerce playbook enables customers to easily launch abandoned cart campaigns by guiding them through the data setup process. Once connected, customers can quickly launch campaigns, saving them time and helping lift sales. One global retailer achieved 1.9x conversion-on-click, 1,000 more people re-engaged per week, and a double-digit revenue lift from launching abandonment campaigns with Adobe Commerce and Adobe Journey Optimizer.
 
@@ -182,9 +182,9 @@ Adobe is also adding Commerce-specific dashboards in Adobe Experience Platform t
 
 #### Activate personalization using audiences from Adobe Real-time CDP
 
-Last year, Adobe Commerce also launched [Audience Activation](https://experienceleague.adobe.com/docs/commerce-admin/customers/audience-activation.html), which leverages unified customer profiles and audiences from Real-Time CDP to personalize shopper journeys. Specifically, [Adobe Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started.html) stitches Commerce data with data from other sources to build detailed customer profiles and audience segments for targeting content and promotional offers in Adobe Commerce.
+Last year, Adobe Commerce also launched [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation), which leverages unified customer profiles and audiences from Real-Time CDP to personalize shopper journeys. Specifically, [Adobe Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started) stitches Commerce data with data from other sources to build detailed customer profiles and audience segments for targeting content and promotional offers in Adobe Commerce.
 
-In the first half of the year, Adobe is expanding these [Audience Activation](https://experienceleague.adobe.com/docs/commerce-admin/customers/audience-activation.html) capabilities to allow marketers and merchandisers to use Audiences defined in Adobe's Real-Time CDP to personalize more aspects of the Adobe Commerce shopping experience, including [related products](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules.html), [promotions](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html), and [content blocks](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks.html).
+In the first half of the year, Adobe is expanding these [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) capabilities to allow marketers and merchandisers to use Audiences defined in Adobe's Real-Time CDP to personalize more aspects of the Adobe Commerce shopping experience, including [related products](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules), [promotions](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart), and [content blocks](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks).
 
 #### Track and personalize commerce in native mobile apps
 
@@ -194,7 +194,7 @@ Adobe is bringing hyper-personalized experiences to mobile app commerce. Using [
  
 >[!TIP]
 >
->- To learn how to get started with Adobe Commerce Data Connection, read our [documentation](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html).
+>- To learn how to get started with Adobe Commerce Data Connection, read our [documentation](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview).
 >- To start your personalization journey, review the [personalization at scale documentation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customers-menu/personalize-scale).
 
 Explore Coca-Cola's digital transformation journey to create personalized shopping experiences at scale using Adobe Commerce's Data Connection to Adobe Journey Optimizer and Real-time CDP. [Coca-Cola: Unlocking Data to Create Consumer-Centric Commerce Experiences](https://business.adobe.com/summit/2024/sessions/cocacola-unlocking-data-to-create-consumercentric-s434.html).
@@ -205,7 +205,7 @@ Explore Coca-Cola's digital transformation journey to create personalized shoppi
 
 Adobe Commerce is a composable ecommerce platform designed to launch ecommerce features faster, easily share data between third-party systems, and lower the cost of ownership for integrations and customizations.
 
-Traditional composable applications are built using point-to-point integrations between multiple services. This approach leads to a brittle integration layer with increasing technical debt. Adobe Commerce provides developers with comprehensive extension points as well as an extensibility platform to orchestrate API, events, and data resulting in a flexible composable architecture. The Adobe Commerce platform includes:
+Traditional composable applications are built using point-to-point integrations between multiple services. This approach leads to a brittle integration layer with increasing technical debt. Adobe Commerce provides developers with comprehensive extension points as well as an extensible platform to orchestrate API, events, and data resulting in a flexible composable architecture. The Adobe Commerce platform includes:
 
 - Comprehensive [API](https://developer.adobe.com/commerce/webapi/) coverage
 - [Webhooks](https://developer.adobe.com/commerce/extensibility/webhooks/) to customize native commerce processes
@@ -232,7 +232,7 @@ Later this year, Adobe will increase the availability of API Mesh to over 200 gl
 
 [!BADGE Available June 2024]{type=Informative tooltip="Available June 2024"}
 
-Integrating an ecommerce platform with your ERP, OMS, or CRM is a mission critical requirement. Companies can spend tens of thousands of dollars building these integrations. To reduce the cost of integrating with back-office systems and to improve reliability of real-time connections, Adobe is introducing an integration starter kit.
+Integrating an ecommerce platform with your ERP, OMS, or CRM is a mission-critical requirement. Companies can spend tens of thousands of dollars building these integrations. To reduce the cost of integrating with back-office systems and to improve the reliability of real-time connections, Adobe is introducing an integration starter kit.
 
 The kit includes reference integrations for commonly used commerce data, including orders, products, and customers. It also includes onboarding scripts and a standardized architecture for developers to build on following best practices. The starter kit (currently in beta) is expected to reduce integration effort by up to 50%.
 
@@ -243,16 +243,15 @@ Later this year, Adobe will also be releasing pre-built integrations for two com
 
 These reference integrations can easily be customized by developers to meet the needs of the business, lowering the time to market and the cost of integrations.
 
-
 #### Subscription commerce powered by Zuora
 
 [!BADGE Available now]{type=Informative tooltip="Available now"}
 
 According to financial services firm UBS, the subscription economy is on track to reach $1.5 trillion, up from $650 billion in 2021. Consumers and businesses alike are becoming more comfortable purchasing subscription products and services due to their convenience and value.
 
-To empower companies to add subscription revenue streams to their business and support existing recurring revenue business models, Adobe Commerce has partnered with Zuora — the industry leading subscription management platform — to launch the [Zuora Subscription Management for Adobe Commerce](https://commercemarketplace.adobe.com/zuora-revenue-management-with-subcriptions.html) extension.
+To empower companies to add subscription revenue streams to their business and support existing recurring revenue business models, Adobe Commerce has partnered with Zuora — the industry-leading subscription management platform — to launch the [Zuora Subscription Management for Adobe Commerce](https://commercemarketplace.adobe.com/zuora-revenue-management-with-subcriptions.html) extension.
 
-Built on Adobe's App Builder framework, the [Zuora extension](https://commercemarketplace.adobe.com/zuora-revenue-management-with-subcriptions.html) received [Adobe Commerce App Assurance Program](https://developer.adobe.com/commerce/marketplace/guides/sellers/assurance/) recognition for following simplified composable development best practices including a React-native front-end architecture and use of Adobe I/O events and Adobe API Mesh to limit customizations within the core Adobe Commerce platform.
+Built on Adobe's App Builder framework, the [Zuora extension](https://commercemarketplace.adobe.com/zuora-revenue-management-with-subcriptions.html) received [Adobe Commerce App Assurance Program](https://developer.adobe.com/commerce/marketplace/guides/sellers/assurance/) recognition for following simplified composable development best practices including a React-native front-end architecture and use of Adobe I/O Events and Adobe API Mesh to limit customizations within the core Adobe Commerce platform.
 
 >[!TIP]
 >
