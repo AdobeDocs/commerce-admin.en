@@ -128,7 +128,7 @@ These digital wallets provide shoppers with the right payment method for them, i
 
 ### AI-Powered personalization with Live Search
 
-[!BADGE Available now](type=Informative tooltip="Available now")
+[!BADGE Available now]{type=Informative tooltip="Available now"}
 
 Companies are seeking to personalize every part of the buying journey, from helping customers find the right products to delivering personalized campaigns, offers, and communications across all channels.
 
