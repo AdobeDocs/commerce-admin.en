@@ -22,24 +22,6 @@ description: Reused notes and visual elements to note a feature or page applying
 <tr><td><img alt="Magento Open Source feature" src="../assets/open-source.svg" width="20" height="20" /> Alternative method is required for Magento Open Source (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">Learn more</a>)</td></tr>
 </table>
 
-## Beta 1 updates {#beta-updates}
-
->[!NOTE]
->
->[!BADGE 2.4.7-beta1]{type=Informative url="https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-7.html" tooltip="Available in 2.4.7-beta1 only"} There are updates included in the 2.4.7-beta1 release that provide enhancements to the described functionality. If you are using this release version, review the [release notes](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-7.html) for detailed information about the changes.
-
-## Beta 2 updates {#beta2-updates}
-
->[!NOTE]
->
->[!BADGE 2.4.7-beta2]{type=Informative url="https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-7.html" tooltip="Available in 2.4.7-beta2 only"} There are updates included in the 2.4.7-beta2 release that provide enhancements to the described functionality. If you are using this release version, review the [release notes](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-7.html) for detailed information about the changes.
-
-## Beta 2 and patch updates {#beta2-patches-updates}
-
->[!NOTE]
->
->[!BADGE 2.4.6-p3]{type=Informative tooltip="Updates in 2.4.6-p3"} [!BADGE 2.4.7-beta2]{type=Informative tooltip="Updates in 2.4.7-beta2"} There are updates included in the [2.4.7-beta2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-7.html) and [2.4.6-p3](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p3.html) releases that provide enhancements to the described functionality. If you are using either or these release versions, review the release notes.
-
 ## IMS admin authentication note {#ims-admin-note}
 
 >[!NOTE]
@@ -87,10 +69,10 @@ To access the store configuration settings, choose **[!UICONTROL Stores]** > _[!
 
 | Documentation resource | Description |
 |----------------------- | ----------- |
-| [Adobe Commerce 2.4 Merchant Documentation](../landing/home.md) | Merchant-focused documentation for both Adobe Commerce and Magento Open Source |
+| [Adobe Commerce 2.4 Merchant Documentation](../landing/home.md) | Merchant-focused documentation for Adobe Commerce |
 | [Services for Adobe Commerce Documentation](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | Documentation to support a collection of services that help merchants integrate key components of their business with their store. |
 | [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Step-by-step procedures for deploying Adobe Commerce on a managed, automated hosting Cloud platform. |
-| [Adobe Commerce 2.4 Operational Guides](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Systems documentation about the concepts, processes, tools, and best practices to develop, deploy, and maintain projects deployed on Adobe Commerce and Magento Open Source platforms.|
-| [Adobe Commerce 2.4 Developer Documentation](https://developer.adobe.com/commerce/docs) | Developer-focused documentation used to build and customize Adobe Commerce or Magento Open Source |
+| [Adobe Commerce 2.4 Operational Guides](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Systems documentation about the concepts, processes, tools, and best practices to develop, deploy, and maintain Adobe Commerce projects.|
+| [Adobe Commerce 2.4 Developer Documentation](https://developer.adobe.com/commerce/docs) | Developer-focused documentation used to customize Adobe Commerce and integrate with third-party systems |
 
 {style="table-layout:auto"}
