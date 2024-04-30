@@ -2,8 +2,8 @@
 title: What is Adobe Commerce
 description: Adobe Commerce is an enterprise ecommerce platform. Read the latest features that are driving growth for ecommerce teams globally.
 mini-toc-levels: 1
+exl-id: e25d60d5-5489-46ba-a9bf-2f5b95437dc3
 ---
-
 # What is Adobe Commerce?
 
 Adobe Commerce is an enterprise commerce solution that delivers superior ecommerce experiences for consumers and B2B buyers globally. With thousands of customers and billions in annual gross merchandise value processed through our cloud platform, Adobe Commerce is at the forefront of powering the world's largest and most complex ecommerce experiences for retailers, consumer brands, manufacturers and wholesale distributors globally.
