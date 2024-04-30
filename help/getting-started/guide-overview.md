@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce Getting Started Guide
-description: Comprehensive information for merchants that are new to Adobe Commerce and Magento Open Source.
+description: Comprehensive information for merchants that are new to Adobe Commerce.
 seo-title: Adobe Commerce Getting Started Guide
 seo-description: Describes basic tools and initial tasks for launching an Adobe Commerce or Magento Open Source store.
 exl-id: 1397872f-d5d0-46e4-9bb6-ab6b0c07255d
@@ -8,13 +8,13 @@ recommendations: noCatalog
 ---
 # Adobe Commerce Getting Started Guide
 
-This guide is intended for merchants and system administrators that are new to Adobe Commerce and Magento Open Source. It provides an overview of the platform from their perspective and some detailed information about basic features that enable a functional store.
+This guide is intended for merchants and system administrators that are new to Adobe Commerce. It provides an overview of the platform from their perspective and some detailed information about basic features that enable a functional store.
 
 This guide covers:
 
 | Subject | Description |
 | ------- | ----------- |
-| [Release Information](about-this-release.md) | Learn about the current Adobe Commerce and Magento Open Source release. |
+| [About Commerce](about.md) | Learn about the current Adobe Commerce release. |
 | [Login Credentials and URLs](login-urls.md) | Learn about the [!DNL Commerce] URLs and account credentials used to gain access to your Admin and to your storefront. |
 | [[!DNL Commerce] accounts](commerce-account-create.md)  | Learn about [!DNL Commerce] accounts, which manage the products and services that you have purchased. |
 | [The Admin](admin.md) | Learn about the [!DNL Commerce] Admin, the place where merchants set up products and promotions, manage orders, and perform other administrative tasks. |
@@ -26,7 +26,7 @@ This guide covers:
 
 {style="table-layout:auto"}
 
-It does not cover the more detailed capabilities of Adobe Commerce and Magento Open Source.
+It does not cover the more detailed capabilities of Adobe Commerce.
 
 ## Additional documentation
 
