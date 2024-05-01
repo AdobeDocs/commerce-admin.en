@@ -29,6 +29,8 @@ Adobe's vision is to deliver an experience-led, data-powered, technology-enabled
 
 - [Technology-enabled](#tech-enabled-commerce). Adobe Commerce is a composable ecommerce platform designed to launch ecommerce features faster, easily share data between third-party systems, and lower the cost of ownership for integrations and customizations.
 
+![Adobe Commerce infographic](assets/about-commerce.png)
+
 ## Experience-led Commerce 
 
 As we move further into 2024, it is critical for ecommerce leaders to deliver highly performant and personalized commerce experiences to their shoppers.
