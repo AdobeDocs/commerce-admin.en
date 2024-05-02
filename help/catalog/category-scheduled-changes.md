@@ -12,7 +12,7 @@ Category updates can be applied on schedule, and grouped with other content chan
 
 >[!NOTE]
 >
->[!UICONTROL Schedule Design Update] tab for category is available in ![Magento Open Source](../assets/open-source.svg) Magento Open Source only. In ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce scheduled contend staging updates with [!UICONTROL Start Date] and [!UICONTROL Start Date] fields must be used instead of listed ![Magento Open Source](../assets/open-source.svg) Magento Open Source tab.
+>[!UICONTROL Schedule Design Update] tab for category is available in ![Magento Open Source](../assets/open-source.svg) Magento Open Source only. In ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce, scheduled content staging updates with [!UICONTROL Start Date] and [!UICONTROL Start Date] fields must be used instead of listed ![Magento Open Source](../assets/open-source.svg) Magento Open Source tab.
 
 >[!NOTE]
 >

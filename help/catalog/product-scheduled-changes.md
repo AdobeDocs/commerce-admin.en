@@ -12,7 +12,7 @@ Product updates can be applied on schedule and grouped with other content change
 
 >[!NOTE]
 >
->Product [!UICONTROL Set Product as New From] and [!UICONTROL To] fields and [!UICONTROL Schedule Design Update] tab are available in ![Magento Open Source](../assets/open-source.svg) Magento Open Source only. In ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce scheduled contend staging updates with [!UICONTROL Start Date] and [!UICONTROL Start Date] fields must be used instead of listed ![Magento Open Source](../assets/open-source.svg) Magento Open Source fields.
+>Product [!UICONTROL Set Product as New From] and [!UICONTROL To] fields and [!UICONTROL Schedule Design Update] tab are available in ![Magento Open Source](../assets/open-source.svg) Magento Open Source only. In ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce, scheduled content staging updates with [!UICONTROL Start Date] and [!UICONTROL Start Date] fields must be used instead of listed ![Magento Open Source](../assets/open-source.svg) Magento Open Source fields.
 
 >[!NOTE]
 >

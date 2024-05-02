@@ -12,7 +12,7 @@ Cart price rules can be applied on schedule as part of a campaign and grouped wi
 
 >[!NOTE]
 >
->Cart price rule [!UICONTROL From] and [!UICONTROL To] fields are available in ![Magento Open Source](../assets/open-source.svg) Magento Open Source only. In ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce scheduled contend staging updates with [!UICONTROL Start Date] and [!UICONTROL Start Date] fields must be used instead of listed ![Magento Open Source](../assets/open-source.svg) Magento Open Source fields.
+>Cart price rule [!UICONTROL From] and [!UICONTROL To] fields are available in ![Magento Open Source](../assets/open-source.svg) Magento Open Source only. In ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce, scheduled content staging updates with [!UICONTROL Start Date] and [!UICONTROL Start Date] fields must be used instead of listed ![Magento Open Source](../assets/open-source.svg) Magento Open Source fields.
 
 ![Cart price rules - scheduled changes](./assets/content-staging-price-rules-cart-scheduled-changes.png){width="700" zoomable="yes"}
 

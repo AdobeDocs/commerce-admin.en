@@ -16,7 +16,7 @@ When you schedule a content change for a specific time period, the content rever
 
 >[!NOTE]
 >
->Cart price rule and catalog price rule [!UICONTROL From] and [!UICONTROL To] fields, product [!UICONTROL Set Product as New From] and [!UICONTROL To] fields, scheduled design update tabs for product, category and CMS page are available in ![Magento Open Source](../assets/open-source.svg) Magento Open Source only. In ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce scheduled contend staging updates with [!UICONTROL Start Date] and [!UICONTROL Start Date] fields must be used instead of listed ![Magento Open Source](../assets/open-source.svg) Magento Open Source fields.
+>Cart price rule and catalog price rule [!UICONTROL From] and [!UICONTROL To] fields, product [!UICONTROL Set Product as New From] and [!UICONTROL To] fields, scheduled design update tabs for product, category and CMS page are available in ![Magento Open Source](../assets/open-source.svg) Magento Open Source only. In ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce, scheduled content staging updates with [!UICONTROL Start Date] and [!UICONTROL Start Date] fields must be used instead of listed ![Magento Open Source](../assets/open-source.svg) Magento Open Source fields.
 
 ## Content staging objects and campaigns
 
