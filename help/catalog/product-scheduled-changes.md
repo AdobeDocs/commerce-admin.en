@@ -12,6 +12,10 @@ Product updates can be applied on schedule and grouped with other content change
 
 >[!NOTE]
 >
+>Product [!UICONTROL Set Product as New From] and [!UICONTROL To] fields and [!UICONTROL Schedule Design Update] tab are available in ![Magento Open Source](../assets/open-source.svg) Magento Open Source only. In ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce scheduled contend staging updates with [!UICONTROL Start Date] and [!UICONTROL Start Date] fields must be used instead of listed ![Magento Open Source](../assets/open-source.svg) Magento Open Source fields.
+
+>[!NOTE]
+>
 >All scheduled updates are applied consecutively, which means that any entity can have only one scheduled update at one time. Any scheduled update is applied to all store views within its time frame. As a result, an entity cannot have different scheduled updates for different store views at the same time. All entity attribute values within all store views, which are not affected by the current scheduled update, are taken from the default values, and not from the previous scheduled update.
 
 >[!NOTE]
