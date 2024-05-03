@@ -41,7 +41,9 @@ The [!DNL Commerce] Support team does not have access to the account and cannot 
 
 1. Under _[!UICONTROL Shared Information]_, do the following:
 
-   - To identify the shared account, enter a **[!UICONTROL Share Name]**. This name is for internal reference and is visible only to you and the person with whom you share your account. (We recommend entering your Organization name as the [!UICONTROL Share Name] - but not anything that begins with `CLOUD SHARED ACCESS FROM MAG XYX`.)
+   - To identify the shared account, enter a **[!UICONTROL Share Name]**. This name is for internal reference and is visible only to you and the person with whom you share your account.
+   
+     We recommend using your Organization name as the [!UICONTROL Share Name]. Do not use a name that begins with `CLOUD SHARED ACCESS FROM MAG XYX`.
    - If you want to share your personal contact information with the new user, enter **[!UICONTROL Your Email]** and **[!UICONTROL Your Phone]**.
 
 1. Under _[!UICONTROL Grant Account Permissions]_, select the checkbox of each [!DNL Commerce] product and service that you want to share.
