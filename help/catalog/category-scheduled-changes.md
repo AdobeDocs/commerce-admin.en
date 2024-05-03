@@ -12,6 +12,10 @@ Category updates can be applied on schedule, and grouped with other content chan
 
 >[!NOTE]
 >
+>The [!UICONTROL Schedule Design Update] tab has been removed in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce and cannot be modified directly on the category. You must create a scheduled update for these activations.
+
+>[!NOTE]
+>
 >All scheduled updates are applied consecutively, which means that any entity can have only one scheduled update at one time. Any scheduled update is applied to all store views within its time frame. As a result, an entity cannot have multiple scheduled updates for different store views at the same time. All entity attribute values within all store views, which are not affected by the current scheduled update, are taken from the default values, and not from the previous scheduled update.
 
 ## Schedule an update to a category

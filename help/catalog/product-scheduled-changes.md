@@ -12,6 +12,10 @@ Product updates can be applied on schedule and grouped with other content change
 
 >[!NOTE]
 >
+>The [!UICONTROL Set Product as New From] and [!UICONTROL To] fields and [!UICONTROL Schedule Design Update] tab have been removed in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce and cannot be modified directly on the product. You must create a scheduled update for these activations.
+
+>[!NOTE]
+>
 >All scheduled updates are applied consecutively, which means that any entity can have only one scheduled update at one time. Any scheduled update is applied to all store views within its time frame. As a result, an entity cannot have different scheduled updates for different store views at the same time. All entity attribute values within all store views, which are not affected by the current scheduled update, are taken from the default values, and not from the previous scheduled update.
 
 >[!NOTE]
