@@ -196,7 +196,7 @@ Page changes can be applied on schedule, and grouped with other content changes.
 
 >[!NOTE]
 >
->[!UICONTROL Custom Design Update] tab for pages is available in ![Magento Open Source](../assets/open-source.svg) Magento Open Source only. In ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce, scheduled content staging updates with [!UICONTROL Start Date] and [!UICONTROL Start Date] fields must be used instead of listed ![Magento Open Source](../assets/open-source.svg) Magento Open Source tab.
+>The [!UICONTROL Custom Design Update] tab has been removed in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce and cannot be modified directly on the page. You must create a scheduled update for these activations.
 
 >[!NOTE]
 >

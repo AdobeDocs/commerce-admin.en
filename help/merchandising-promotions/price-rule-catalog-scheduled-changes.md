@@ -12,7 +12,7 @@ The Scheduled Changes box appears at the top of the page when a new price rule i
 
 >[!NOTE]
 >
->Catalog price rule [!UICONTROL From] and [!UICONTROL To] fields are available in ![Magento Open Source](../assets/open-source.svg) Magento Open Source only. In ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce scheduled, content staging updates with [!UICONTROL Start Date] and [!UICONTROL Start Date] fields must be used instead of listed ![Magento Open Source](../assets/open-source.svg) Magento Open Source fields.
+>The [!UICONTROL From] and [!UICONTROL To] fields have been removed in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce and cannot be modified directly on the catalog price rule. You must create a scheduled update for these activations.
 
 >[!NOTE]
 >
