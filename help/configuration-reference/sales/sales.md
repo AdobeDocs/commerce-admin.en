@@ -157,7 +157,7 @@ feature: Configuration, Orders
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|[!UICONTROL Maximum number of coupons per order]|Website|Determines the maximum number of coupons allowed per order|
+|[!UICONTROL Maximum number of coupons per order]|Website|Determines the maximum number of coupons allowed per order. This feature is available in Admin, GraphQL and REST API only. And it is **_not available_** in Storefront.|
 
 {style="table-layout:auto"}
 
