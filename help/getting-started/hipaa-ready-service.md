@@ -180,7 +180,7 @@ None of the SaaS services offered for Adobe Commerce are available under the HIP
 ### Disabled guest checkout by default
 
 - Guest checkout presents a potential risk for various aspects of HIPAA including logging, access control, PHI hygiene and lineage, and potentially more.
-- Guest Checkout is disabled by default in the HIPAA-readiness module, but can be enabled my merchants at their own risk.
+- Guest Checkout is disabled by default in the HIPAA-readiness module, but can be enabled by merchants at their own risk.
 
 ### Disabled newsletter feature by default
 
@@ -189,3 +189,7 @@ None of the SaaS services offered for Adobe Commerce are available under the HIP
 ### Disabled the Advanced Reporting service setting by default
 
 The Advanced Reporting service setting is disabled by default to prevent PHI from being used for analysis and reporting, but can be enabled by the merchant at their own risk.
+
+### Disabled Sendgrid service by default
+   
+The Sendgrid service is disabled by default because the application is non-HIPAA-compliant. Merchants can submit a support request to enable Sendgrid,  but they must acknowledge that they will assume the risk of using the service.
