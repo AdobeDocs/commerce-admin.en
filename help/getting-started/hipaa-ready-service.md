@@ -192,4 +192,4 @@ The Advanced Reporting service setting is disabled by default to prevent PHI fro
 
 ### Disabled Sendgrid service by default
    
-- Sendgrid is disabled by default as they are non-HIPAA-compliant. This can be enabled upon request from merchants, but they must acknowledge that they will assume the risk.
+The Sendgrid service is disabled by default because the application is non-HIPAA-compliant. Merchants can submit a support request to enable Sendgrid,  but they must acknowledge that they will assume the risk of using the service.
