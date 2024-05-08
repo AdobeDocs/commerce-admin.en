@@ -358,27 +358,27 @@ Specifies the conditions that must be met before the cart price rule goes into a
 |Field|Description|
 |--- |--- |
 |[!UICONTROL **Cart Item Attribute**]||
-|[!UICONTROL Price in cart]|Product price. Will pass if product meets product price in cart condition.|
-|[!UICONTROL Quantity in cart]|Product quantity. Will pass if product meets product quantity in cart condition.|
-|[!UICONTROL Row total in cart]|Product row total. Will pass if product meets product row total in cart condition.|
+|[!UICONTROL Price in cart]|Product price. Rule applies if product price in cart condition is met.|
+|[!UICONTROL Quantity in cart]|Product quantity. Rule applies if product quantity in cart condition is met.|
+|[!UICONTROL Row total in cart]|Product row total. Rule applies if product row total in cart condition is met.|
 |[!UICONTROL **Product Attribute**]||
-|[!UICONTROL Attribute Set]|Product attribute set. Will pass if product meets product attribute condition.|
-|[!UICONTROL Category]|Product category. Will pass if either the product itself or its child product meets the category condition.|
-|[!UICONTROL Category (Children Only)]|Child product category. Will pass if only the product children meet the category condition (the product itself is not checked here).|
-|[!UICONTROL Category (Parent Only)]|Parent product category. Will pass if only the product itself meets the category condition (children products are not checked here).|
+|[!UICONTROL Attribute Set]|Product attribute set. Rule applies if product meets product attribute condition.|
+|[!UICONTROL Category]|Product category. Rule applies if either the product itself or its child product meets the category condition.|
+|[!UICONTROL Category (Children Only)]|Child product category. Rule applies if only the product children meet the category condition (the product itself is not checked here).|
+|[!UICONTROL Category (Parent Only)]|Parent product category. Rule applies if only the product itself meets the category condition (children products are not checked here).|
 |[!UICONTROL **Cart Attribute**]||
-|[!UICONTROL Subtotal (Excl. Tax)]|Cart subtotal (excluding tax). Will pass if shopping cart meets subtotal (excluding tax) condition.|
-|[!UICONTROL Subtotal (Incl. Tax)]|Cart subtotal (including tax). Will pass if shopping cart meets subtotal (including tax) condition.|
-|[!UICONTROL Subtotal]|Cart subtotal. Will pass if shopping cart meets subtotal condition. Will include or exclude tax according to the current tax settings.|
-|[!UICONTROL Total Items Quantity]|Total quantity of all products in the shopping cart. Will pass if shopping cart meets total items quantity condition.|
-|[!UICONTROL Total Weight]|Total weight of all products in the shopping cart. Will pass if shopping cart meets total weight condition.|
-|[!UICONTROL Payment Method]|Payment method selected on checkout. Will pass if payment method condition is met.|
-|[!UICONTROL Shipping Method]|Shipping method selected on checkout. Will pass if shipping method condition is met.|
-|[!UICONTROL Shipping Postcode]|Shipping address postcode. Will pass if shipping address meets postcode condition.|
-|[!UICONTROL Shipping Region]|Shipping address region. Will pass if shipping address meets region condition.|
-|[!UICONTROL Shipping State/Province]|Shipping address state/province. Will pass if shipping address meets state/province condition.|
-|[!UICONTROL Shipping Country]|Shipping address country. Will pass if shipping address meets country condition.|
-|[!UICONTROL Customer Segment]|Will pass if registered or guest customer meets customer segment condition.|
+|[!UICONTROL Subtotal (Excl. Tax)]|Cart subtotal (excluding tax). Rule applies if shopping cart meets subtotal (excluding tax) condition.|
+|[!UICONTROL Subtotal (Incl. Tax)]|Cart subtotal (including tax). Rule applies if shopping cart meets subtotal (including tax) condition.|
+|[!UICONTROL Subtotal]|Cart subtotal. Rule applies if shopping cart meets subtotal condition. Check includes or excludes tax according to the current tax settings.|
+|[!UICONTROL Total Items Quantity]|Total quantity of all products in the shopping cart. Rule applies if shopping cart meets total items quantity condition.|
+|[!UICONTROL Total Weight]|Total weight of all products in the shopping cart. Rule applies if shopping cart meets total weight condition.|
+|[!UICONTROL Payment Method]|Payment method selected on checkout. Rule applies if payment method condition is met.|
+|[!UICONTROL Shipping Method]|Shipping method selected on checkout. Rule applies if shipping method condition is met.|
+|[!UICONTROL Shipping Postcode]|Shipping address postcode. Rule applies if shipping address meets postcode condition.|
+|[!UICONTROL Shipping Region]|Shipping address region. Rule applies if shipping address meets region condition.|
+|[!UICONTROL Shipping State/Province]|Shipping address state/province. Rule applies if shipping address meets state/province condition.|
+|[!UICONTROL Shipping Country]|Shipping address country. Rule applies if shipping address meets country condition.|
+|[!UICONTROL Customer Segment]|Rule applies if registered or guest customer meets customer segment condition.|
 
 ### [!UICONTROL Actions]
 
