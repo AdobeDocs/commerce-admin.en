@@ -355,6 +355,31 @@ Watch this video to learn about creating cart price rules:
 
 Specifies the conditions that must be met before the cart price rule goes into action. If left blank, the rule applies to all products in the cart. Conditions can be based on any combination of cart and product attributes. However, [customizable options](../catalog/settings-advanced-custom-options.md) cannot be referenced in cart price rule conditions.
 
+|Field|Description|
+|--- |--- |
+|[!UICONTROL **Cart Item Attribute**]||
+|[!UICONTROL Price in cart]|Product price. Will pass if product meets product price in cart condition.|
+|[!UICONTROL Quantity in cart]|Product quantity. Will pass if product meets product quantity in cart condition.|
+|[!UICONTROL Row total in cart]|Product row total. Will pass if product meets product row total in cart condition.|
+|[!UICONTROL **Product Attribute**]||
+|[!UICONTROL Attribute Set]|Product attribute set. Will pass if product meets product attribute condition.|
+|[!UICONTROL Category]|Product category. Will pass if either the product itself or its child product meets the category condition.|
+|[!UICONTROL Category (Children Only)]|Child product category. Will pass if only the product children meet the category condition (the product itself is not checked here).|
+|[!UICONTROL Category (Parent Only)]|Parent product category. Will pass if only the product itself meets the category condition (children products are not checked here).|
+|[!UICONTROL **Cart Attribute**]||
+|[!UICONTROL Subtotal (Excl. Tax)]|Cart subtotal (excluding tax). Will pass if shopping cart meets subtotal (excluding tax) condition.|
+|[!UICONTROL Subtotal (Incl. Tax)]|Cart subtotal (including tax). Will pass if shopping cart meets subtotal (including tax) condition.|
+|[!UICONTROL Subtotal]|Cart subtotal. Will pass if shopping cart meets subtotal condition. Will include or exclude tax according to the actual tax settings.|
+|[!UICONTROL Total Items Quantity]|Total quantity of all products in the shopping cart. Will pass if shopping cart meets total items quantity condition.|
+|[!UICONTROL Total Weight]|Total weight of all products in the shopping cart. Will pass if shopping cart meets total weight condition.|
+|[!UICONTROL Payment Method]|Payment method selected on checkout. Will pass if payment method condition is met.|
+|[!UICONTROL Shipping Method]|Shipping method selected on checkout. Will pass if shipping method condition is met.|
+|[!UICONTROL Shipping Postcode]|Shipping address postcode. Will pass if shipping address meets postcode condition.|
+|[!UICONTROL Shipping Region]|Shipping address region. Will pass if shipping address meets region condition.|
+|[!UICONTROL Shipping State/Province]|Shipping address state/province. Will pass if shipping address meets state/province condition.|
+|[!UICONTROL Shipping Country]|Shipping address country. Will pass if shipping address meets country condition.|
+|[!UICONTROL Customer Segment]|Will pass if registered or guest customer meets customer segment condition.|
+
 ### [!UICONTROL Actions]
 
 |Field|Description|
