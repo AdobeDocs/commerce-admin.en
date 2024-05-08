@@ -369,7 +369,7 @@ Specifies the conditions that must be met before the cart price rule goes into a
 |[!UICONTROL **Cart Attribute**]||
 |[!UICONTROL Subtotal (Excl. Tax)]|Cart subtotal (excluding tax). Will pass if shopping cart meets subtotal (excluding tax) condition.|
 |[!UICONTROL Subtotal (Incl. Tax)]|Cart subtotal (including tax). Will pass if shopping cart meets subtotal (including tax) condition.|
-|[!UICONTROL Subtotal]|Cart subtotal. Will pass if shopping cart meets subtotal condition. Will include or exclude tax according to the actual tax settings.|
+|[!UICONTROL Subtotal]|Cart subtotal. Will pass if shopping cart meets subtotal condition. Will include or exclude tax according to the current tax settings.|
 |[!UICONTROL Total Items Quantity]|Total quantity of all products in the shopping cart. Will pass if shopping cart meets total items quantity condition.|
 |[!UICONTROL Total Weight]|Total weight of all products in the shopping cart. Will pass if shopping cart meets total weight condition.|
 |[!UICONTROL Payment Method]|Payment method selected on checkout. Will pass if payment method condition is met.|
