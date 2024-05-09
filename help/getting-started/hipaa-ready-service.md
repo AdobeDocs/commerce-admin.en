@@ -11,9 +11,10 @@ exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
 >**Legal Disclaimer**<br/>
 >This information is intended to help Adobe customers answer their questions regarding Adobe's HIPAA-Ready Services. It does not constitute legal advice. Merchants should consult with their own legal counsel to understand their obligations under HIPAA and the appropriate use and configuration of Adobe's products.
 
-## Health Insurance Portability and Accountability Act (HIPAA)
-
++++Health Insurance Portability and Accountability Act
 The Health Insurance Portability and Accountability Act (HIPAA) is the key federal healthcare privacy law in the United States and is enforced by the U.S. Department of Health and Human Services (HHS). HIPAA applies to _Covered Entities_ (such as healthcare providers, insurers, and clearinghouses) and _Business Associates_ (such as those entities that provide services to covered entities). HIPAA requirements are set across three separate rules: Privacy Rule, Security Rule, and Breach Notification Rule. Adobe acts as a Business Associate for certain products, which Adobe classifies as "HIPAA-Ready Services." Data regulated under HIPAA is referred to as _Protected Health Information_ or PHI. PHI is a subset of health information that (1) is created or received by a healthcare provider, health plan, or healthcare clearinghouse, (2) relates to the past, present, or future physical or mental health or condition of an individual, the provision of healthcare to an individual, or the past, present, or future payment for the provision of healthcare to an individual, and (3) identifies the individual or with respect to which there is a reasonable basis to believe that the information can be used to identify the individual. The HIPAA Privacy and Security Rules require that a Covered Entity obtain written assurances from a Business Associate in the form of a Business Associate Agreement, or BAA, requiring the Business Associate to safeguard the privacy and security of the Covered Entityʼs PHI.
+
++++
 
 ## Adobe Commerce HIPAA-Ready
 
@@ -29,45 +30,58 @@ any party other than the intended recipient without written consent from Adobe.*
 
 HIPAA-readiness on Adobe Commerce has the same system requirements as Adobe Commerce with the additional requirements:
 
-- Adobe Commerce version 2.4.6-p3 or newer (non-beta)
-- Adobe Commerce on cloud infrastructure or Adobe Commerce on Managed Services
+- Adobe Commerce version 2.4.6-p3 or newer on cloud infrastructure (non-beta)
+- Adobe Commerce on Managed Services
 - Latest version of the `magento/hipaa-ee` extension
 
 ## Installation
 
-Adobe's HIPAA-Ready Services is technically a composer metapackage `magento/hipaa-ee` that contains links to special modules. This metapackage resides in the repository [repo.magento.com](https://repo.magento.com). 
+You can install Adobe's HIPAA-Ready Services extension (`magento/hipaa-ee`) on an Adobe Commerce cloud instance on version 2.4.6 or later.
+The extension is delivered as a composer metapackage from the [repo.magento.com](https://repo.magento.com) repository.
 
-1. To be able to install `magento/hipaa-ee` metapackage, you must have access to it. For key generation and obtaining the necessary rights, refer to [Get your authentication keys](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=en).
+1. You must have access to [repos.magento.com](https://repo.magento.com). For key generation and obtaining the necessary rights, see [Get your authentication keys](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
 
-1. Check the environment where you will install the package and make sure that it meets the general [system requirements](#system-requirements).
+1. On your local workstation, change to the project directory for your Commerce cloud project.
 
-1. Add the metapackage `magento/hipaa-ee` to the composer configuration. 
+1. Check out the environment branch to install the extension.
 
-   The simplest way is by using the composer CLI. For example:
-
-   ```shell
-   composer require magento/hipaa-ee
-   ```
-
-1. If Adobe Commerce is not yet installed, you can start the installation (follow the [Installation instructions](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html?lang=en)).
-
-   If Adobe Commerce is already installed, then after downloading modules, run `bin/magento setup:upgrade` command and then follow the recommendations.
+1. Add the metapackage `magento/hipaa-ee` to the composer configuration using the composer CLI.
 
    ```shell
-   bin/magento setup:upgrade
+   composer require magento/hipaa-ee --no-update
+   ```
+1. Update package dependencies.
+
+   ```shell
+   composer update
+   ```
+ 
+1. Add, commit, and push code changes to your cloud project environment.
+
+   ```shell
+   git add -A
+   git commit -m "Add HIPAA-Ready Services modules"
+   git push origin <branch-name>
+   ```
+   This initiates the cloud build and deploy processes to install and enable the modules included in the HIPAA-Ready services metapackage. 
+   
+### Verify installation
+
+After the updates are deployed, verify that the `Hipaa*` relevant modules have been included.
+
+1. Use SSH to log in to the remote cloud environment.
+
+   ```shell
+   magento-cloud ssh
    ```
 
-   When this command is running, the newly downloaded modules are enabled, and the scripts to install them are launched. To learn more about module management, see [Enable or disable modules](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=en).
-
-1. After the installation or updating process is finished, you should check whether the `Hipaa*` relevant modules have been included.
-
-   Run the command:
+1. From the command line, use the Adobe Commerce CLI to check the module status.
 
    ```shell
    bin/magento module:status
    ```
 
-   If the HIPAA composer package was added correctly, you see the HIPAA modules in the output of the command. For example:
+1. Verify that the HIPAA modules are included in the list of enabled modules:
 
    ```text
    List of enabled modules:
