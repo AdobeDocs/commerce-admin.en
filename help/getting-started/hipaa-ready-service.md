@@ -11,7 +11,7 @@ exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
 >**Legal Disclaimer**<br/>
 >This information is intended to help Adobe customers answer their questions regarding Adobe's HIPAA-Ready Services. It does not constitute legal advice. Merchants should consult with their own legal counsel to understand their obligations under HIPAA and the appropriate use and configuration of Adobe's products.
 
-## Health Insurance Portability and Accountability Act (HIPAA)
+## Health Insurance Portability and Accountability Act (HIPAA) 
 
 The Health Insurance Portability and Accountability Act (HIPAA) is the key federal healthcare privacy law in the United States and is enforced by the U.S. Department of Health and Human Services (HHS). HIPAA applies to _Covered Entities_ (such as healthcare providers, insurers, and clearinghouses) and _Business Associates_ (such as those entities that provide services to covered entities). HIPAA requirements are set across three separate rules: Privacy Rule, Security Rule, and Breach Notification Rule. Adobe acts as a Business Associate for certain products, which Adobe classifies as "HIPAA-Ready Services." Data regulated under HIPAA is referred to as _Protected Health Information_ or PHI. PHI is a subset of health information that (1) is created or received by a healthcare provider, health plan, or healthcare clearinghouse, (2) relates to the past, present, or future physical or mental health or condition of an individual, the provision of healthcare to an individual, or the past, present, or future payment for the provision of healthcare to an individual, and (3) identifies the individual or with respect to which there is a reasonable basis to believe that the information can be used to identify the individual. The HIPAA Privacy and Security Rules require that a Covered Entity obtain written assurances from a Business Associate in the form of a Business Associate Agreement, or BAA, requiring the Business Associate to safeguard the privacy and security of the Covered Entityʼs PHI.
 
@@ -29,15 +29,34 @@ any party other than the intended recipient without written consent from Adobe.*
 
 HIPAA-readiness on Adobe Commerce has the same system requirements as Adobe Commerce with the additional requirements:
 
-- Adobe Commerce version 2.4.6-p3 or newer (non-beta)
-- Adobe Commerce on cloud infrastructure or Adobe Commerce on Managed Services
+- Adobe Commerce version 2.4.6-p3 or newer (non-beta) on cloud infrastructure
+- Adobe Commerce on Managed Services
 - Latest version of the `magento/hipaa-ee` extension
 
 ## Installation
 
-Adobe's HIPAA-Ready Services is technically a composer metapackage `magento/hipaa-ee` that contains links to special modules. This metapackage resides in the repository [repo.magento.com](https://repo.magento.com). 
+Adobe's HIPAA-Ready Services extension is a composer metapackage `magento/hipaa-ee` that contains a collection of modules that are  Adobe Commerce installation contains links to special modules. This metapackage resides in the repository [repo.magento.com](https://repo.magento.com).
 
 1. To be able to install `magento/hipaa-ee` metapackage, you must have access to it. For key generation and obtaining the necessary rights, refer to [Get your authentication keys](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=en).
+
+
+Use this method to install the [!DNL Catalog Service] extension for a Commerce Cloud instance.
+
+1. On your local workstation, change to your Adobe Commerce cloud project directory.
+
+1. Add the HIPAA-Ready Services extension.
+
+   ```bash
+   composer require "magento/catalog-service" "^3.0.1" --no-update
+   ```
+
+1. Update package dependencies.
+
+   ```bash
+   composer update
+   ```
+
+1. Commit and push code changes for the `composer.json` and `composer.lock` files.
 
 1. Check the environment where you will install the package and make sure that it meets the general [system requirements](#system-requirements).
 
