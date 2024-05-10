@@ -22,7 +22,7 @@ Adobe Commerce HIPAA-Ready has additional features and functionalities that allo
 
 *These materials are intended for informational purposes only. Provision of this information does not entitle the recipient to
 any contractual or other rights. While efforts have been made to assure the accuracy of the information as of the
-date it has been provided, no representation is made that such information is accurate and complete, and Adobe undertakes no
+date it has been provided, no representation is made that such information is accurate and complete. Adobe undertakes no
 obligation to update this information as the law or Adobe's products change. Also, this document is not to be distributed to
 any party other than the intended recipient without written consent from Adobe.*
 
@@ -36,12 +36,11 @@ HIPAA-readiness on Adobe Commerce has the same system requirements as Adobe Comm
 
 ## Installation
 
-You can install Adobe's HIPAA-Ready Services extension (`magento/hipaa-ee`) on an Adobe Commerce cloud instance on version 2.4.6 or later.
-The extension is delivered as a composer metapackage from the [repo.magento.com](https://repo.magento.com) repository.
+You can install Adobe's HIPAA-Ready Services extension (`magento/hipaa-ee`) on an Adobe Commerce cloud instance on version 2.4.6 or later. The extension is delivered as a composer metapackage from the [repo.magento.com](https://repo.magento.com) repository.
 
 1. You must have access to [repos.magento.com](https://repo.magento.com). For key generation and obtaining the necessary rights, see [Get your authentication keys](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
 
-1. On your local workstation, change to the project directory for your Commerce cloud project.
+1. On your local workstation, change to the project directory for your Adobe Commerce on cloud infrastructure project.
 
 1. Check out the environment branch to install the extension.
 
@@ -50,21 +49,21 @@ The extension is delivered as a composer metapackage from the [repo.magento.com]
    ```shell
    composer require magento/hipaa-ee --no-update
    ```
+
 1. Update package dependencies.
 
    ```shell
    composer update
    ```
- 
-1. Add, commit, and push code changes to your cloud project environment.
+
+1. Add, commit, and push the updated code to the cloud environment.
 
    ```shell
    git add -A
    git commit -m "Add HIPAA-Ready Services modules"
    git push origin <branch-name>
    ```
-   This initiates the cloud build and deploy processes to install and enable the modules included in the HIPAA-Ready services metapackage. 
-   
+
 ### Verify installation
 
 After the updates are deployed, verify that the `Hipaa*` relevant modules have been included.
@@ -106,48 +105,47 @@ The `magento/hipaa-ee` package introduces some changes and enhancements to the b
 
 ### Action Logs
 
-Audit Logging is a HIPAA requirement. In Adobe Commerce, the [Action Logs](https://experienceleague.adobe.com/docs/commerce-admin/systems/action-logs/action-log.html?lang=en) feature records every change made by an Admin user who works in your store. To meet HIPAA requirements about Audit Log, there are changes to the feature to record all Admin user and customer actions performed through the Admin UI and through API calls.
+Audit Logging is a HIPAA requirement. In Adobe Commerce, the [Action Logs](https://experienceleague.adobe.com/docs/commerce-admin/systems/action-logs/action-log.html?lang=en) feature records every change made by an Admin user who works in your store. To meet HIPAA requirements for the Audit Log, the feature has been updated to record all Admin user and customer actions performed through the Admin UI and through API calls.
 
-#### Action Logs report  
+#### Action Logs report
 
-The _Action Logs_ report grid (**[!UICONTROL System]** > Action Logs > Report) is modified to accommodate customer actions performed through the Admin UI and API. 
+The _Action Logs_ report grid (**[!UICONTROL System]** > Action Logs > Report) is modified to accommodate customer actions performed through the Admin UI and API.
 
 1. Two additional columns:
-   - ***Source***: Displays where the action was performed.  
+   - ***Source***: Displays where the action was performed.
       Values: `Admin UI` / `Customer UI` / `REST API` / `SOAP API` / `GraphQL API`
-   - ***Client Type***: Displays the client type.   
+   - ***Client Type***: Displays the client type.
       Values: Customer | Admin | Integration
-   
 
 2. Rename ***Username*** to ***Client Identifier***
-   - ***Client Identifier***: Displays the login ID for the user who performed the action  
+   - ***Client Identifier***: Displays the login ID for the user who performed the action.
       Values:
       - an email if Client Type is Customer
       - a username if Client Type is Admin
       - a name if Client Type is Integration
 
 3. Rename ***Full Action Name*** to ***Target***
-   - ***Target***:  Displays the action name  
+   - ***Target***: Displays the action name.
          Values:
-       - an endpoint if Source is REST API or SOAP API
-       - a query/mutation name if GraphQL API
-       - an action name if Admin UI or Customer UI.
+       - an endpoint if Source is a REST API or SOAP API
+       - a query or mutation name if a GraphQL API
+       - an action name if an Admin UI or Customer UI.
 
 #### Configure Admin actions for logging
 
 This feature is not available because all actions must be recorded by default.
 
-### Import / export features
+### Import and export features
 
-Enhancements to import/export features are focused on improving the administrative experience and providing better visibility into user actions. 
+Enhancements to import and export features are focused on improving the administrative experience and providing better visibility into user actions.
 
 >[!NOTE]
 >
->These ***enhancements do not alter Import/Export core logic***; rather, they extend the functionality to offer more comprehensive logging and improved data attribution. The fundamental functionality of import/export remains unchanged. Users can continue to use the existing features and workflows without any disruption.
+>These ***enhancements do not alter the Import and Export core logic***; rather, they extend the functionality to offer more comprehensive logging and improved data attribution. The fundamental functionality of import and export remains unchanged. Users can continue to use the existing features and workflows without any disruption.
 
 #### Administrative action logging
 
-One of the key improvements within the import/export features is the enhanced logging of administrative actions. This introduces the capability to delve deeper into activities associated with data import/export, contributing to improved tracking and auditability. The following actions are now logged and reflected in the **[!UICONTROL System] > _[!UICONTROL Action Logs]_ > [!UICONTROL Report]** grid:
+One of the key improvements within the import and export features is the enhanced logging of administrative actions. This enhancement introduces the capability to delve deeper into activities associated with data import and export, contributing to improved tracking and auditability. The following actions are now logged and reflected in the **[!UICONTROL System] > _[!UICONTROL Action Logs]_ > [!UICONTROL Report]** grid:
 
 | Type | Actions |
 | ---- | ------- |
@@ -155,9 +153,9 @@ One of the key improvements within the import/export features is the enhanced lo
 | Export | <ul><li>An Admin user requests<li>An Admin user downloads an exported file<ul/> |
 | Scheduled imports/exports | <ul><li>An Admin user schedules export<li>An Admin user edits a scheduled export<li>An Admin user runs a scheduled export<li>An Admin user deletes a scheduled export<li>An Admin user schedules an import<li>An Admin user edits a scheduled import<li>An Admin user runs a scheduled import<li>An Admin user deletes a scheduled import<li>An Admin user executes a bulk delete of import/export operations<ul/> |
 
-### Display enhancements and improved filtering/sorting
+### Display enhancements and improved filtering and sorting
 
-To empower Admin users with more informative grids, there are several enhancements to the display of data and filtering and sorting capabilities:
+To empower Admin users with more informative grids, there are several enhancements to the display of data and to the filtering and sorting capabilities:
 
 #### Import history ([!UICONTROL System] > _[!UICONTROL Data Transfer]_ > [!UICONTROL Import History])
 
@@ -174,17 +172,17 @@ To empower Admin users with more informative grids, there are several enhancemen
 - Enabled sorting for all columns except **[!UICONTROL File name]**.
 - Enabled filtering for all columns.
 
-#### Scheduled imports/exports ([!UICONTROL System] > _[!UICONTROL Data Transfer]_ > [!UICONTROL Scheduled Import/Export])
+#### Scheduled imports and exports ([!UICONTROL System] > _[!UICONTROL Data Transfer]_ > [!UICONTROL Scheduled Import/Export])
 
 - Added an **[!UICONTROL ID]** column.
-- Added a **[!UICONTROL Scheduled At]** column (_date and time when the import or export was scheduled_).
-- Added a **[!UICONTROL User]** column (_username of an Admin user who scheduled the import/export_).
+- Added a **[!UICONTROL Scheduled At]** column (the _date and time when the import or export was scheduled_).
+- Added a **[!UICONTROL User]** column (the _username of an Admin user who scheduled the import or export_).
 
 ## Disabled features for HIPAA-readiness
 
 ### SaaS Services
 
-None of the SaaS services offered for Adobe Commerce are available under the HIPAA-readiness offering. This includes, but is not limited to:
+None of the SaaS services offered for Adobe Commerce are available under the HIPAA-readiness offering. These services include, but are not limited to:
 
 - Live Search
 - API Mesh
@@ -194,16 +192,16 @@ None of the SaaS services offered for Adobe Commerce are available under the HIP
 ### Disabled guest checkout by default
 
 - Guest checkout presents a potential risk for various aspects of HIPAA including logging, access control, PHI hygiene and lineage, and potentially more.
-- Guest Checkout is disabled by default in the HIPAA-readiness module, but can be enabled by merchants at their own risk.
+- Guest Checkout is disabled by default in the HIPAA-readiness module, but the merchant can enable it at their own risk.
 
 ### Disabled newsletter feature by default
 
-- The newsletter feature is disabled by default to prevent PHI being used in a marketing context, but can be enabled by the merchant at their own risk.
+- The newsletter feature is disabled by default to prevent PHI being used in a marketing context, but the merchant can enable it at their own risk.
 
 ### Disabled the Advanced Reporting service setting by default
 
-The Advanced Reporting service setting is disabled by default to prevent PHI from being used for analysis and reporting, but can be enabled by the merchant at their own risk.
+The Advanced Reporting service setting is disabled by default to prevent PHI from being used for analysis and reporting, but the merchant can enable it at their own risk.
 
-### Disabled Sendgrid service by default
-   
-The Sendgrid service is disabled by default because the application is non-HIPAA-compliant. Merchants can submit a support request to enable Sendgrid,  but they must acknowledge that they will assume the risk of using the service.
+### Disabled Renderid service by default
+
+The Sendgrid service is disabled by default because the application is non-HIPAA-compliant. Merchants can submit a support request to enable Sendgrid, but they must acknowledge that they assume the risk of using the service.
