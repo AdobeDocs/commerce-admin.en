@@ -11,20 +11,21 @@ exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
 >**Legal Disclaimer**<br/>
 >This information is intended to help Adobe customers answer their questions regarding Adobe's HIPAA-Ready Services. It does not constitute legal advice. Merchants should consult with their own legal counsel to understand their obligations under HIPAA and the appropriate use and configuration of Adobe's products.
 
-+++Health Insurance Portability and Accountability Act
+>[!BEGINSHADEBOX]
+
+**Health Insurance Portability and Accountability Act (HIPAA)**
+
 The Health Insurance Portability and Accountability Act (HIPAA) is the key federal healthcare privacy law in the United States and is enforced by the U.S. Department of Health and Human Services (HHS). HIPAA applies to _Covered Entities_ (such as healthcare providers, insurers, and clearinghouses) and _Business Associates_ (such as those entities that provide services to covered entities). HIPAA requirements are set across three separate rules: Privacy Rule, Security Rule, and Breach Notification Rule. Adobe acts as a Business Associate for certain products, which Adobe classifies as "HIPAA-Ready Services." Data regulated under HIPAA is referred to as _Protected Health Information_ or PHI. PHI is a subset of health information that (1) is created or received by a healthcare provider, health plan, or healthcare clearinghouse, (2) relates to the past, present, or future physical or mental health or condition of an individual, the provision of healthcare to an individual, or the past, present, or future payment for the provision of healthcare to an individual, and (3) identifies the individual or with respect to which there is a reasonable basis to believe that the information can be used to identify the individual. The HIPAA Privacy and Security Rules require that a Covered Entity obtain written assurances from a Business Associate in the form of a Business Associate Agreement, or BAA, requiring the Business Associate to safeguard the privacy and security of the Covered Entityʼs PHI.
 
-+++
+>[!ENDSHADEBOX]
 
 ## Adobe Commerce HIPAA-Ready
 
-Adobe Commerce HIPAA-Ready has additional features and functionalities that allow merchants to comply with their respective HIPAA obligations. You can install the Adobe Commerce HIPAA-Ready (`magento/hipaa-ee`) module to your Adobe Commerce on cloud infrastructure. There are also some features that must be disabled to be compliant with HIPAA.
+Adobe Commerce HIPAA-Ready has additional features and functionalities that allow merchants to comply with their respective HIPAA obligations.
 
-*These materials are intended for informational purposes only. Provision of this information does not entitle the recipient to
-any contractual or other rights. While efforts have been made to assure the accuracy of the information as of the
-date it has been provided, no representation is made that such information is accurate and complete. Adobe undertakes no
-obligation to update this information as the law or Adobe's products change. Also, this document is not to be distributed to
-any party other than the intended recipient without written consent from Adobe.*
+You can install the Adobe Commerce HIPAA-Ready (`magento/hipaa-ee`) extension on Adobe Commerce on cloud infrastructure or Adobe Managed Services projects. Some services and features must be disabled to comply with HIPAA requirements. See [Disabled services and features]#disabled-services-(and-featuresdisabled-services-and -features)
+
+*These materials are intended for informational purposes only. Provision of this information does not entitle the recipient to any contractual or other rights. While efforts have been made to assure the accuracy of the information as of the date it has been provided, no representation is made that such information is accurate and complete. Adobe undertakes no obligation to update this information as the law or Adobe's products change. Also, this document is not to be distributed to any party other than the intended recipient without written consent from Adobe.*
 
 ## System requirements
 
@@ -38,7 +39,13 @@ HIPAA-readiness on Adobe Commerce has the same system requirements as Adobe Comm
 
 You can install Adobe's HIPAA-Ready Services extension (`magento/hipaa-ee`) on an Adobe Commerce cloud instance on version 2.4.6 or later. The extension is delivered as a composer metapackage from the [repo.magento.com](https://repo.magento.com) repository.
 
-1. You must have access to [repos.magento.com](https://repo.magento.com). For key generation and obtaining the necessary rights, see [Get your authentication keys](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
+>[!BEGINSHADEBOX]
+
+**Prerequisite**
+
+You must have access to [repo.magento.com](https://repo.magento.com) to install the extension. For key generation and obtaining the necessary rights, see [Get your authentication keys](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
+
+>[!ENDSHADEBOX]
 
 1. On your local workstation, change to the project directory for your Adobe Commerce on cloud infrastructure project.
 
@@ -178,30 +185,27 @@ To empower Admin users with more informative grids, there are several enhancemen
 - Added a **[!UICONTROL Scheduled At]** column (the _date and time when the import or export was scheduled_).
 - Added a **[!UICONTROL User]** column (the _username of an Admin user who scheduled the import or export_).
 
-## Disabled features for HIPAA-readiness
+## Disabled services and features
 
-### SaaS Services
+To comply with HIPAA requirements, some services and features supported by Adobe Commerce are either not available or disabled by default. Merchants have the option to re-enable or use these services and features at their own risk.
 
-None of the SaaS services offered for Adobe Commerce are available under the HIPAA-readiness offering. These services include, but are not limited to:
+### Services
 
-- Live Search
-- API Mesh
-- App Builder
-- Catalog Service
+- **SaaS services from Adobe Commerce**—None of the SaaS services offered for Adobe Commerce are available under the HIPAA-readiness offering. These services include, but are not limited to:
 
-### Disabled guest checkout by default
+  - Live Search
+  - API Mesh
+  - App Builder
+  - Catalog Service
 
-- Guest checkout presents a potential risk for various aspects of HIPAA including logging, access control, PHI hygiene and lineage, and potentially more.
-- Guest Checkout is disabled by default in the HIPAA-readiness module, but the merchant can enable it at their own risk.
+- **[SendGrid service](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)**—This service is disabled by default because the application is non-HIPAA-compliant. Merchants can submit a support request to enable Sendgrid, but they must acknowledge that they assume the risk of using the service.
 
-### Disabled newsletter feature by default
+### Features disabled by default
 
-- The newsletter feature is disabled by default to prevent PHI being used in a marketing context, but the merchant can enable it at their own risk.
+The following features are disabled by default in the the HIPAA-readiness module. Merchants can enable any of these features at their own risk.
 
-### Disabled the Advanced Reporting service setting by default
+- **[Guest checkout](../stores-purchase/checkout-guest.md)**—This feature presents a potential risk for various aspects of HIPAA including logging, access control, PHI hygiene and lineage, and potentially more.
 
-The Advanced Reporting service setting is disabled by default to prevent PHI from being used for analysis and reporting, but the merchant can enable it at their own risk.
+- **[Newsletter feature](../merchandising-promotions/newsletters.md)**—This feature is disabled to prevent PHI being used in a marketing context.
 
-### Disabled Renderid service by default
-
-The Sendgrid service is disabled by default because the application is non-HIPAA-compliant. Merchants can submit a support request to enable Sendgrid, but they must acknowledge that they assume the risk of using the service.
+- **[Advanced Reporting service setting](../getting-started/business-intelligence.md)**— This configuration setting is disabled to prevent PHI from being used for analysis and reporting.
