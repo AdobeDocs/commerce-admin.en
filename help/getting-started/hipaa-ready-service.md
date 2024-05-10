@@ -15,7 +15,7 @@ exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
 
 **Health Insurance Portability and Accountability Act (HIPAA)**
 
-The Health Insurance Portability and Accountability Act (HIPAA) is the key federal healthcare privacy law in the United States and is enforced by the U.S. Department of Health and Human Services (HHS). HIPAA applies to _Covered Entities_ (such as healthcare providers, insurers, and clearinghouses) and _Business Associates_ (such as those entities that provide services to covered entities). HIPAA requirements are set across three separate rules: Privacy Rule, Security Rule, and Breach Notification Rule. Adobe acts as a Business Associate for certain products, which Adobe classifies as "HIPAA-Ready Services." Data regulated under HIPAA is referred to as _Protected Health Information_ or PHI. PHI is a subset of health information that (1) is created or received by a healthcare provider, health plan, or healthcare clearinghouse, (2) relates to the past, present, or future physical or mental health or condition of an individual, the provision of healthcare to an individual, or the past, present, or future payment for the provision of healthcare to an individual, and (3) identifies the individual or with respect to which there is a reasonable basis to believe that the information can be used to identify the individual. The HIPAA Privacy and Security Rules require that a Covered Entity obtain written assurances from a Business Associate in the form of a Business Associate Agreement, or BAA, requiring the Business Associate to safeguard the privacy and security of the Covered Entityʼs PHI.
+The Health Insurance Portability and Accountability Act (HIPAA) is the key federal healthcare privacy law in the United States and is enforced by the U.S. Department of Health and Human Services (HHS). HIPAA applies to _Covered Entities_ (such as healthcare providers, insurers, and clearinghouses) and _Business Associates_ (such as those entities that provide services to covered entities). HIPAA requirements are set across three separate rules: Privacy Rule, Security Rule, and Breach Notification Rule. Adobe acts as a Business Associate for certain products, which Adobe classifies as "HIPAA-Ready Services." Data regulated under HIPAA is referred to as _Protected Health Information_ or PHI. PHI is a subset of health information that (1) is created or received by a healthcare provider, health plan, or healthcare clearinghouse, (2) relates to the past, present, or future physical or mental health or condition of an individual, the provision of healthcare to an individual, or the past, present, or future payment for the provision of healthcare to an individual, and (3) identifies the individual or with respect to which there is a reasonable basis to believe that the information can be used to identify the individual. The HIPAA Privacy and Security Rules require that a Covered Entity obtain written assurances from a Business Associate in the form of a Business Associate Agreement, or BAA, requiring the Business Associate to safeguard the privacy and security of the Covered Entityʼs PHI. For more information, see [HIPAA and Adobe Products and Services](https://www.adobe.com/trust/compliance/hipaa-ready.html) in the Adobe Trust Center.
 
 >[!ENDSHADEBOX]
 
@@ -23,7 +23,7 @@ The Health Insurance Portability and Accountability Act (HIPAA) is the key feder
 
 Adobe Commerce HIPAA-Ready has additional features and functionalities that allow merchants to comply with their respective HIPAA obligations.
 
-You can install the Adobe Commerce HIPAA-Ready (`magento/hipaa-ee`) extension on Adobe Commerce on cloud infrastructure or Adobe Managed Services projects. Some services and features must be disabled to comply with HIPAA requirements. See [Disabled services and features]#disabled-services-(and-featuresdisabled-services-and -features)
+You can install the Adobe Commerce HIPAA-Ready (`magento/hipaa-ee`) extension on Adobe Commerce on cloud infrastructure or Adobe Managed Services projects. Some services and features must be disabled to comply with HIPAA requirements. See [Disabled services and features](#disabled-services-and-features).
 
 *These materials are intended for informational purposes only. Provision of this information does not entitle the recipient to any contractual or other rights. While efforts have been made to assure the accuracy of the information as of the date it has been provided, no representation is made that such information is accurate and complete. Adobe undertakes no obligation to update this information as the law or Adobe's products change. Also, this document is not to be distributed to any party other than the intended recipient without written consent from Adobe.*
 
@@ -37,7 +37,7 @@ HIPAA-readiness on Adobe Commerce has the same system requirements as Adobe Comm
 
 ## Installation
 
-You can install Adobe's HIPAA-Ready Services extension (`magento/hipaa-ee`) on an Adobe Commerce cloud instance on version 2.4.6 or later. The extension is delivered as a composer metapackage from the [repo.magento.com](https://repo.magento.com) repository.
+You can install Adobe's HIPAA-Ready Services extension (`magento/hipaa-ee`) on an Adobe Commerce cloud instance on version 2.4.6-p3 or later. The extension is delivered as a composer metapackage from the [repo.magento.com](https://repo.magento.com) repository.
 
 >[!BEGINSHADEBOX]
 
@@ -54,13 +54,13 @@ You must have access to [repo.magento.com](https://repo.magento.com) to install 
 1. Add the metapackage `magento/hipaa-ee` to the composer configuration using the composer CLI.
 
    ```shell
-   composer require magento/hipaa-ee --no-update
+   composer require "magento/hipaa-ee" --no-update
    ```
 
 1. Update package dependencies.
 
    ```shell
-   composer update
+   composer update "magento/hipaa-ee"
    ```
 
 1. Add, commit, and push the updated code to the cloud environment.
