@@ -197,7 +197,7 @@ To comply with HIPAA requirements, some services and features supported by Adobe
 
 ### Services
 
-- **Adobe Commerce services**—None of the Adobe Commerce services or extensibility offerings are available under the HIPAA-readiness offering. These services include, but are not limited to:
+- **Adobe Commerce services**—None of the Adobe Commerce services or extensibility services are available under the HIPAA-readiness offering. These services include, but are not limited to:
 
   - Live Search
   - API Mesh
