@@ -23,17 +23,17 @@ The Health Insurance Portability and Accountability Act (HIPAA) is the key feder
 
 Adobe Commerce HIPAA-Ready has additional features and functionalities that allow merchants to comply with their respective HIPAA obligations.
 
-You can install the Adobe Commerce HIPAA-Ready (`magento/hipaa-ee`) extension on Adobe Commerce on cloud infrastructure or Adobe Managed Services projects. Some services and features must be disabled to comply with HIPAA requirements. See [Disabled services and features](#disabled-services-and-features).
+Adobe Commerce HIPAA-Ready is delivered as an Adobe Commerce extension, `magento/hipaa-ee` that is available for Adobe Commerce on cloud infrastructure or Adobe Managed Services projects. The Adobe Commerce HIPAA-Ready installation process disables some native services and features to comply with HIPAA requirements. See [Disabled services and features](#disabled-services-and-features).
 
 *These materials are intended for informational purposes only. Provision of this information does not entitle the recipient to any contractual or other rights. While efforts have been made to assure the accuracy of the information as of the date it has been provided, no representation is made that such information is accurate and complete. Adobe undertakes no obligation to update this information as the law or Adobe's products change. Also, this document is not to be distributed to any party other than the intended recipient without written consent from Adobe.*
 
 ## System requirements
 
-Adobe Commerce must be deployed on either Adobe Commerce on cloud infrastructure or Adobe Commerce Managed Services with version 2.4.6-p3 or later—no beta versions).
+Adobe Commerce must be deployed on either Adobe Commerce on cloud infrastructure or Adobe Commerce Managed Services with version 2.4.6-p3 or later (no beta versions).
 
 ## Installation
 
-Install the latest version of Adobe's HIPAA-Ready Services extension (`magento/hipaa-ee`) on an instance that is running Adobe Commerce version 2.4.6-p3 or later—no beta versions. The extension is delivered as a composer metapackage from the [repo.magento.com](https://repo.magento.com) repository.
+Install the latest version of Adobe's HIPAA-Ready Services extension (`magento/hipaa-ee`) on an instance that is running Adobe Commerce version 2.4.6-p3 or later. The extension is delivered as a composer metapackage from the [repo.magento.com](https://repo.magento.com) repository.
 
 >[!BEGINSHADEBOX]
 
@@ -45,7 +45,15 @@ You must have access to [repo.magento.com](https://repo.magento.com) to install 
 
 1. On your local workstation, change to the project directory for your Adobe Commerce on cloud infrastructure project.
 
-1. Check out the environment branch to install the extension.
+   >[!NOTE]
+   >
+   >For information about managing Commerce project environments locally, see  [Managing branches with the CLI](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches) in the _Adobe Commerce on Cloud Infrastructure User Guide_.
+
+1. Checkout the environment branch to update using the Adobe Commerce Cloud CLI.
+
+   ```shell
+   magento-cloud environment:checkout <environment-id>
+   ```
 
 1. Add the metapackage `magento/hipaa-ee` to the composer configuration using the composer CLI.
 
@@ -67,9 +75,11 @@ You must have access to [repo.magento.com](https://repo.magento.com) to install 
    git push origin <branch-name>
    ```
 
+   Pushing the updates initiates the [Commerce cloud deployment process](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process) to apply the changes. Check the deployment status from the [deploy log](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
+
 ### Verify installation
 
-After the updates are deployed, verify that the `Hipaa*` relevant modules have been included.
+After the updates are deployed, verify that the `Hipaa*` extensiion is installed
 
 1. Use SSH to log in to the remote cloud environment.
 
@@ -114,20 +124,20 @@ Audit Logging is a HIPAA requirement. In Adobe Commerce, the [Action Logs](https
 
 The _Action Logs_ report grid (**[!UICONTROL System]** > Action Logs > Report) is modified to accommodate customer actions performed through the Admin UI and API.
 
-1. Two additional columns:
+1. Added two columns:
    - ***Source***: Displays where the action was performed.
       Values: `Admin UI` / `Customer UI` / `REST API` / `SOAP API` / `GraphQL API`
    - ***Client Type***: Displays the client type.
       Values: Customer | Admin | Integration
 
-2. Rename ***Username*** to ***Client Identifier***
+2. Renamed the ***Username*** colunn to ***Client Identifier***
    - ***Client Identifier***: Displays the login ID for the user who performed the action.
       Values:
       - an email if Client Type is Customer
       - a username if Client Type is Admin
       - a name if Client Type is Integration
 
-3. Rename ***Full Action Name*** to ***Target***
+3. Renamed the ***Full Action Name*** column to ***Target***
    - ***Target***: Displays the action name.
          Values:
        - an endpoint if Source is a REST API or SOAP API
@@ -158,7 +168,7 @@ One of the key improvements within the import and export features is the enhance
 
 ### Display enhancements and improved filtering and sorting
 
-To empower Admin users with more informative grids, there are several enhancements to the display of data and to the filtering and sorting capabilities:
+To empower Admin users with more informative grids, the HIPAA-Ready service provides several enhancements to display, filter, and sort data.
 
 #### Import history ([!UICONTROL System] > _[!UICONTROL Data Transfer]_ > [!UICONTROL Import History])
 
@@ -187,7 +197,7 @@ To comply with HIPAA requirements, some services and features supported by Adobe
 
 ### Services
 
-- **SaaS services from Adobe Commerce**—None of the SaaS services offered for Adobe Commerce are available under the HIPAA-readiness offering. These services include, but are not limited to:
+- **Adobe Commerce services**—None of the Adobe Commerce SaaS or extensibility services are available under the HIPAA-readiness offering. These services include, but are not limited to:
 
   - Live Search
   - API Mesh
