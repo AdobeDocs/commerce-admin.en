@@ -16,13 +16,13 @@ The enhanced security scan allows you to monitor each of your Adobe Commerce and
 - Access historical security reports that track and monitor the progress of your sites.
 - Access the scan report that shows successful and failed checks, with any recommended actions.
 
-The Security scan tool is available for free from the dashboard of your [Commerce account](../getting-started/commerce-account-create.md). For technical information, see [Set up the Security Scan Tool](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) in the _Commerce on Cloud Infrastructure Guide_.
+The Security scan tool is available for free from the dashboard of your [Commerce/Magento account](../getting-started/commerce-account-create.md). For technical information, see [Set up the Security Scan Tool](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) in the _Commerce on Cloud Infrastructure Guide_.
 
 ![Security scan tool](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
 ## Run a security scan
 
-1. Go to the Commerce home page, and sign in to your [Commerce account](../getting-started/commerce-account-create.md) and do the following:
+1. Go to the Commerce home page, and sign in to your [Commerce/Magento account](../getting-started/commerce-account-create.md) and do the following:
 
    - In the left panel, choose **[!UICONTROL Security Scan]**.
    - Click **[!UICONTROL Go to Security Scan]**.
