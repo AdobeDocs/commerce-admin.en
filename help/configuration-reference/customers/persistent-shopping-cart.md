@@ -14,5 +14,3 @@ feature: Configuration, Shopping Cart
 
 
 {{$include /help/_includes/persistent-cart-configuration.md}}
-
-{style="table-layout:auto"}
