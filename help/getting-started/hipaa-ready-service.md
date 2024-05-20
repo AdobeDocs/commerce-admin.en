@@ -208,9 +208,9 @@ To comply with HIPAA requirements, some services and features supported by Adobe
 
 - **[SendGrid service](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)**—This service is disabled by default because the application is non-HIPAA-compliant.
 
-### Features disabled by default
+### Features that are disabled by default
 
-The following features are disabled by default in the the HIPAA-readiness module. Merchants can enable any of these features at their own risk.
+The following features are disabled by default in the HIPAA-readiness module. Merchants can enable any of these features at their own risk.
 
 - **[Guest checkout](../stores-purchase/checkout-guest.md)**—This feature presents a potential risk for various aspects of HIPAA including logging, access control, PHI hygiene and lineage, and potentially more.
 
