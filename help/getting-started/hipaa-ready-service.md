@@ -25,6 +25,10 @@ The Adobe Commerce HIPAA-Ready extension adds additional features and functional
 
 The Adobe Commerce HIPAA-Ready extension, `magento/hipaa-ee` is available for Adobe Commerce on cloud infrastructure or Adobe Managed Services projects. The Adobe Commerce HIPAA-Ready installation process disables some native services and features to comply with HIPAA requirements. See [Disabled services and features](#disabled-services-and-features).
 
+>[!NOTE]
+>
+>Access to HIPAA ready features and functionality is available only to merchants that have purchased the health care add-on for Adobe Commerce. 
+
 *These materials are intended for informational purposes only. Provision of this information does not entitle the recipient to any contractual or other rights. While efforts have been made to assure the accuracy of the information as of the date it has been provided, no representation is made that such information is accurate and complete. Adobe undertakes no obligation to update this information as the law or Adobe's products change. Also, this document is not to be distributed to any party other than the intended recipient without written consent from Adobe.*
 
 ## System requirements
