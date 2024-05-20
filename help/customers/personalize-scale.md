@@ -60,24 +60,12 @@ Adobe [!DNL Commerce] Data Sharing includes two key components:
 
 Adobe [!DNL Commerce] delivers powerful personalization with its native out-of-the-box capabilities. The following table describes [!DNL Commerce] features you can activate immediately to get started on your personalization journey.  
 
-- **Personalized Product Discovery**
-
-    - [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview): Personalize and optimize search results based on a shopper's onsite behavioral actions and affinities with AI-powered search. 
-    - [Intelligent Category Merchandising](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/category-merch): AI-driven product ranking on category pages based on a shopper's onsite behavioral actions and affinities. 
-    - [Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview): AI-powered product recommendations based on shopper behavior, trends, and affinities. 
-    - [Related Product Rules](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules): Define custom rules to display products from your catalog to drive cross- and up-sell. 
-
-- **Personalized Site Content**
-
-    - [Dynamic Content Blocks](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks): Display personalized content blocks (for example, banners) based on customer segments in Adobe Commerce. 
-
-- **Personalized Offers and Promotions**
-
-    - [Cart Price Rules](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart): Apply discounts to items in the shopping cart based on a set of conditions, including customer segments in Adobe Commerce. 
-
-- **Insights and Measurement**
-
-    - [Adobe [!DNL Commerce] Intelligence](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started): Understand how your personalization strategies are working and improve over time.  
+|Category|Features|
+|---|---|
+|Personalized Product Discovery|[[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview): Personalize and optimize search results based on a shopper's onsite behavioral actions and affinities with AI-powered search.<br>[Intelligent Category Merchandising](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/category-merch): AI-driven product ranking on category pages based on a shopper's onsite behavioral actions and affinities.<br>[Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview): AI-powered product recommendations based on shopper behavior, trends, and affinities.<br>[Related Product Rules](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules): Define custom rules to display products from your catalog to drive cross- and up-sell.|
+|Personalized Site Content|[Dynamic Content Blocks](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks): Display personalized content blocks (for example, banners) based on customer segments in Adobe Commerce.|
+|Personalized Offers and Promotions|[Cart Price Rules](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart): Apply discounts to items in the shopping cart based on a set of conditions, including customer segments in Adobe Commerce.|
+|Insights and Measurement|[Adobe [!DNL Commerce] Intelligence](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started): Understand how your personalization strategies are working and improve over time.|
 
 ## Top personalization use-cases
 
@@ -107,63 +95,5 @@ Adobe [!DNL Commerce] customers are using out-of-the-box capabilities and sharin
 |**Purchase Trends** - Understand purchase behaviors over a specific time frame (for example, shopper basket analysis, product analysis) to identify trends, seasonality, and optimize marketing based on historical purchase patterns.|**Adobe [!DNL Commerce] Only**:<br>[Adobe [!DNL Commerce] Intelligence](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started) provides rich analytics on the digital [!DNL Commerce] channel, but not across channels or broader pieces of the customer journey.<br>**Adobe [!DNL Commerce] with Customer Journey Analytics**:<br>[!DNL Commerce] data feeds data dashboards for full rich detail on all stages of the customer experience (across channels). Understand every touchpoint and the broader funnel to identify weak points in the customer journey where customers may fall off.|
 
 ## Example Use-Case
-
-In the following example, you learn about the parts needed to create an abandoned cart and browse email.
-
-### Abandoned Cart and Browse 
-
-Learn how to deliver a personalized re-engagement email or notification if a cart or browser session has been abandoned. You will use data generated from customers that have viewed a number of products and categories, engaged with a product, or spent time on a page.
-
-#### What data should I consider using?
-
-To build an abandoned cart or browse email or notification, you need data from storefront and back office events.
-
-#### Relevant Storefront Events:  
-
-- [pageView](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#pageview)
-- [productPageView](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [addToCart](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#addtocart)
-- [openCart](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#opencart)
-- [startCheckout](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#startcheckout)
-- [completeCheckout](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#completecheckout)
-
-#### Relevant Back office Events:  
-
-- [orderPlaced](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice#orderplaced)
-- [Order history](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/fundamentals/connect-data#send-historical-order-data)
-
-#### What can I do with just Adobe Commerce? 
-
-Adobe [!DNL Commerce] enables you to set up rules-based email reminders, which can serve as cart or browse abandonment emails. Learn how here.  
-
-#### What can I do with Adobe [!DNL Commerce] and Experience Cloud? 
-
-- **Adobe [!DNL Commerce] with Adobe Journey Optimizer** - Using Adobe [!DNL Commerce] with Adobe Journey Optimizer lets you use [!DNL Commerce] data as the trigger for an omni-channel abandonment journey. You can personalize that journey based on customer attributes, items they abandoned, other shopping behaviors, and past purchase behaviors.  
-
-- **Adobe Commerce, Adobe Journey Optimizer, and Adobe Real-Time CDP** - Adding Real-Time CDP would allow you to further refine abandonment campaigns based on unified customer profiles and centrally managed rules-based or AI-powered audiences. For example, you could create:  
-
-    - A "strong converters" audience that has a low abandonment rate
-    - A "high consideration" audience that has revisited certain categories multiple times
-    - A "high potential" audience that has high spend and loyalty but has recently abandoned 
-
-#### What have other customers achieved?
-
-Adobe [!DNL Commerce] customers have achieved significant business impacts from implementing personalized abandonment campaigns using Adobe [!DNL Commerce], Adobe [!DNL Journey Optimizer], and Adobe [!DNL Real-Time CDP].
-
-A global, multi-brand apparel retailers achieved:
-
-- 1.9x conversion on click from new campaigns
-- 57% increase in revenue flowing from omni-channel abandonment journeys
-- 41% increase in conversion rate of re-engagement campaigns
-- 1000+ new shoppers engaged per week
-
-A global beverage company achieved:
-
-- 36% re-engagement email open rates
-- 21% lift in clickthrough rates
-- 8.5% lift in conversion rate
-- 89% of re-engaged abandoners convert
-
-#### Ready to implement?
 
 Learn how you can use Adobe Journey Optimizer to [send an abandoned cart email](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/using-ajo).
