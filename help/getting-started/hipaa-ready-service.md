@@ -1,6 +1,6 @@
 ---
 title: HIPAA readiness on Adobe Commerce
-description: Learn how you can add the Adobe Commerce HIPAA-Ready module and get additional features and functionalities that allow you to comply with your HIPAA obligations.
+description: Learn how you can add the Adobe Commerce HIPAA-Ready extension and get additional features and functionalities that allow you to comply with your HIPAA obligations.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
 ---
@@ -46,8 +46,7 @@ Adobe Commerce must be deployed on either Adobe Commerce on cloud infrastructure
 
 >[!ENDSHADEBOX]
 
-Install the latest version of Adobe's HIPAA-Ready Services extension (`magento/hipaa-ee`) on an instance that is running Adobe Commerce version 2.4.6-p3 or later. The extension is delivered as a composer metapackage from the [repo.magento.com](https://repo.magento.com) repository.
-
+Install the latest version of Adobe's HIPAA-Ready Services extension (`magento/hipaa-ee`) on an instance that is running Adobe Commerce version 2.4.6-p3 or later. The extension is delivered as a composer metapackage from the [repo.magento.com](https://repo.magento.com) repository. The metapackage includes the collection of modules that enable the HIPAA capabilities for an Adobe Commerce instance.
 
 1. On your local workstation, change to the project directory for your Adobe Commerce on cloud infrastructure project.
 
@@ -120,7 +119,7 @@ After the updates are deployed, verify that the `Hipaa*` extensiion is installed
 
 ## Feature enhancements for HIPAA-readiness
 
-The `magento/hipaa-ee` package introduces some changes and enhancements to the base Commerce product. The following sections provide details about these changes and how they alter the base product.
+The `magento/hipaa-ee` extension introduces some changes and enhancements to the base Commerce product. The following sections provide details about these changes and how they alter the base product.
 
 ### Action Logs
 
