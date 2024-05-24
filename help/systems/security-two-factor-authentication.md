@@ -60,9 +60,11 @@ Complete the settings for each 2FA method that you require.
 
 To change how long the one-time password (OTP) is available during sign-in, clear the **[!UICONTROL Use system value]** checkbox. Then, enter the number of seconds that you want the **[!UICONTROL OTP Window]** to be valid.
 
+![Security configuration - Google](../configuration-reference/security/assets/2fa-google.png){width="600" zoomable="yes"}
+
 >[!NOTE]
 >
->In Adobe Commerce 2.4.7 and later, the OTP window configuration setting controls how long (in seconds) the system accepts an administrator's one-time-password (OTP) after it has expired. This value must be less than 30 seconds.<br><br> In version 2.4.6, the OTP window setting determines the number of past and future OTP codes that remain valid. A value of `1` indicates that the current OTP code plus one code in the past and one code in the future remain valid at any given point in time. 
+>In Adobe Commerce 2.4.7 and later, the OTP window configuration setting controls how long (in seconds) the system accepts an administrator's one-time-password (OTP) after it has expired. This value must be less than 30 seconds. The system default setting is `1`.<br><br> In version 2.4.6, the OTP window setting determines the number of past and future OTP codes that remain valid. A value of `1` indicates that the current OTP code plus one code in the past and one code in the future remain valid at any given point in time. 
 
 ### [!DNL Duo Security]
 
