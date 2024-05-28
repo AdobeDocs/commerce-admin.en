@@ -30,3 +30,8 @@ task :image_optim do
 
   system "bundle exec image_optim --no-svgo --recursive #{path}"
 end
+
+desc 'Render the templated files'
+task :render do
+  sh '_scripts/render'
+end
