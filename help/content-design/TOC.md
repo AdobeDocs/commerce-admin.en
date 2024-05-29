@@ -59,7 +59,7 @@ feature: CMS, Page Content
     - [Dynamic media URLs](catalog-urls-dynamic-media.md)
   - AEM Assets {#aem-assets}
     - [AEM Assets integration](aem-assets.md)
-    - [Map Assets using the integration](aem-asset-mapping.md)
+    - [Map Assets using the integration](aem-assets-mapping.md)
     - [Use AEM Assets](aem-assets-manage.md)
   - Adobe Stock {#adobe-stock}
     - [Adobe Stock integration](adobe-stock.md)
