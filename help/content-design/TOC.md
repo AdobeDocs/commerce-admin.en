@@ -57,6 +57,10 @@ feature: CMS, Page Content
     - [Use a media database](media-storage-database.md)
     - [Use a content delivery network](media-storage-content-delivery-network.md)
     - [Dynamic media URLs](catalog-urls-dynamic-media.md)
+  - AEM Assets {#aem-assets}
+    - [AEM Assets integration](aem-assets.md)
+    - [Map Assets using the integration](aem-asset-mapping.md)
+    - [Use AEM Assets](aem-assets-manage.md)
   - Adobe Stock {#adobe-stock}
     - [Adobe Stock integration](adobe-stock.md)
     - [Use Adobe Stock images](adobe-stock-manage.md)
