@@ -16,19 +16,18 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 >
 >See [Product availability](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) for information about versions of the B2B Commerce extension supported for available Adobe Commerce releases.
 
-## B2B 1.5.0-beta
 
-{{$include /help/_includes/b2b-beta-note.md}}
+## B2B 1.5.0
 
-*November 13, 2023*
+*Month dd, 2024*
 
-[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.6-p3 release.
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce versions 2.4.5 (TBD), 2.4.6-p3+, 2.4.7 and later.
 
-The B2B v1.5.0-beta release includes new features, quality improvements, and bug fixes.
+The B2B v1.5.0 release includes new features, quality improvements, and bug fixes.
 
 ![New](../assets/new.svg) Improvements to quoting capabilities help Buyers and Sellers manage quotes and quote negotiation more effectively.
 
-- **Save Quote as Draft**<!--B2B-2566-->—When creating a [quote request](quote-request.md) from the shopping cart, buyers can now save the quote as a draft by selecting **[!UICONTROL Save as Draft]** on the [!UICONTROL Request a Quote] form.
+- **Save Quote as Draft**<!--B2B-2566-->—When creating a [quote request](quote-request.md) from the shopping cart, buyers can now save the quote as a draft so that they can review and update it before initiating the quote negotiation process with the seller.
 
   The draft quote does not have an expiration date. Buyers can review and update draft quotes from the [!UICONTROL My Quotes] section of their account dashboard.
 
@@ -36,7 +35,11 @@ The B2B v1.5.0-beta release includes new features, quality improvements, and bug
 
 - **Duplicate Quote**<!--B2B-2701-->—Buyers and sellers can now create a new quote by copying an existing quote. A copy is created from the Quote detail view by selecting  **[!UICONTROL Create Copy]** on the [Quote detail view](quote-price-negotiation.md#button-bar) in the Admin or the [Storefront](account-dashboard-my-quotes.md#quote-actions).
 
-- **Line item discount locking**<!--B2B-2597-->—During quote negotiation, sellers can use line item discount locking for more flexibility when applying discounts. For example, a Seller can apply a special line item discount to an item and lock the item to prevent further discounting. When an item is locked, the item price cannot be updated when a quote-level discount is applied. See [Initiate quote for a buyer](sales-rep-initiates-quote.md).
+- **Move quote item to requisition list**<!--B2B-2755-->—Buyers now have the flexibility to remove products from a quote and save them to a requisition list if they decide not to include them in the quote negotiation process.
+
+- **Remove multiple products from a quote**<!--B2B-2881-->—On quotes with a large number of products, buyers can now remove multiple products from the quote by selecting them and using the [!UICONTROL Remove] option from the [!UICONTROL Actions] control on the Quote detail page. In previous releases, a buyer had to delete products one at time.
+
+- **Line item discount locking**<!--B2B-2597-->—During quote negotiation, sellers can use line item discount locking for more flexibility when applying discounts during the quote negotation process. For example, a Seller can apply a special line item discount to an item and lock the item to prevent further discounting. When an item is locked, the item price cannot be updated when a quote-level discount is applied. See [Initiate quote for a buyer](sales-rep-initiates-quote.md).
 
 ![New](../assets/new.svg)**Company Management**<!--B2B-2901-->—Merchants can now view and manage Adobe Commerce companies as hierarchical organizations by assigning companies to designated parent companies. After a company is assigned to a parent, the parent company administrator can manage the company account. Only authorized Admin users can add and manage company assignments. For details, see [Manage company hierarchy](manage-company-hierarchy.md).
 
