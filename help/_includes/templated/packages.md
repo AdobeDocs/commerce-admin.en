@@ -1,4 +1,4 @@
-# B2B for Adobe Commerce packages
+# Adobe Commerce with B2B packages
 
 <!-- The 'packages' variable contains the 'packages' node of the '_data/codebase/b2b/composer_lock.json' file
  -->
@@ -12,11 +12,11 @@
 <!-- The edition variable contains `commerce-b2b` value from the _data/names.yml file
  -->
 
-B2B for Adobe Commerce uses Composer to manage PHP packages.
+Adobe Commerce B2B uses Composer to manage PHP packages.
 
-The `composer.json` file declares the list of packages, whereas the `composer.lock` file stores a complete list of the packages (a full version of each package and its dependencies) used to build an installation of B2B for Adobe Commerce.
+The `composer.json` file declares the list of packages, whereas the `composer.lock` file stores a complete list of the packages (a full version of each package and its dependencies) used to build an installation of Adobe Commerce B2B.
 
-The following reference documentation is generated from the `composer.lock` file, and it covers required packages included in B2B for Adobe Commerce 1.4.2.
+The following reference documentation is generated from the `composer.lock` file, and it covers required packages included in Adobe Commerce B2B 1.4.2.
 
 ## Dependencies
 
