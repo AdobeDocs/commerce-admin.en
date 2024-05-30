@@ -168,6 +168,8 @@ With the [!DNL Audience Activation] extension enabled, you can:
 - [Create a dynamic block](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) informed by audiences
 - [(**Beta**) Create a related product rule](../merchandising-promotions/product-related-rule-create.md) informed by audiences
 
+For a complete end-to-end use case about how to export [!DNL Commerce] data to Real-Time CDP, build an audience, then activate that audience to [!DNL Commerce], see [Create an audience in Real-Time CDP using [!DNL Commerce] event data](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
+
 ## Real-Time CDP audiences dashboard
 
 You can view all [active](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) audiences that are available to personalize within your Adobe Commerce instance using the **Real-Time CDP Audiences** dashboard.
