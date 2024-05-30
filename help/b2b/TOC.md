@@ -12,7 +12,6 @@ recommendations: noDisplay
 + [[!DNL B2B for Adobe Commerce] Guide](guide-overview.md)
 + [Introduction to B2B features](introduction.md)
 + [Release notes](release-notes.md)
-+ [Packages](packages-reference.md)
 + [Installation](install.md)
 + [Enable B2B features](enable-basic-features.md)
 + Company accounts {#companies}
@@ -56,3 +55,5 @@ recommendations: noDisplay
   + [Overview](requisition-lists.md)
   + [Configure the list maximum](configure-requisition-lists.md)
   + [[!UICONTROL My Requisition Lists]](account-dashboard-requisition-lists-manage.md)
++ Reference {#reference}
+  + [Packages](packages.md)
