@@ -793,6 +793,13 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/php-fig/cache.git">psr/cache</a>
+    </td>
+    <td>library</td>
+    <td>Common interface for caching libraries</td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/php-fig/clock.git">psr/clock</a>
     </td>
     <td>library</td>
