@@ -264,7 +264,12 @@ The solution includes the ability to:
 3. Expose this catalog data model to your storefront using headless APIs.
 
 These new capabilities are hosted on Adobe's Software-as-a-Service architecture. They do not need to be installed into a specific merchant's cloud infrastructure. Adobe hosts this solution for our customers and exposes a set of data import, data modification, and data publication APIs.
+
 This solution utilizes the same SaaS architecture as Live Search, Product Recommendations, and Live Search. It can be used to power product experiences on headless implementations of Adobe Commerce including Edge Delivery Services, Adobe Experience Manager, custom front-ends, native mobile-apps. 
+
+![Adobe Commerce catalog modeling diagram](assets/catalog-modeling.png)
+
+Adobe is actively seeking early access customers to utilize this new solution. Please visit our [beta release page](https://experienceleague.adobe.com/en/docs/commerce-operations/release/beta) to find out more about the criteria, limitations, and how to apply for early access.
 
 ### Adobe Commerce's HIPAA-ready solution
 
