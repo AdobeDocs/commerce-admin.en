@@ -266,20 +266,6 @@ The solution includes the ability to:
 These new capabilities are hosted on Adobe's Software-as-a-Service architecture. They do not need to be installed into a specific merchant's cloud infrastructure. Adobe hosts this solution for our customers and exposes a set of data import, data modification, and data publication APIs.
 This solution utilizes the same SaaS architecture as Live Search, Product Recommendations, and Live Search. It can be used to power product experiences on headless implementations of Adobe Commerce including Edge Delivery Services, Adobe Experience Manager, custom front-ends, native mobile-apps. 
 
-#### Subscription commerce powered by Zuora
-
-[!BADGE Available now]{type=Informative tooltip="Available now"}
-
-According to financial services firm UBS, the subscription economy is on track to reach $1.5 trillion, up from $650 billion in 2021. Consumers and businesses alike are becoming more comfortable purchasing subscription products and services due to their convenience and value.
-
-To empower companies to add subscription revenue streams to their business and support existing recurring revenue business models, Adobe Commerce has partnered with Zuora — the industry-leading subscription management platform — to launch the [Zuora Subscription Management for Adobe Commerce](https://commercemarketplace.adobe.com/zuora-revenue-management-with-subcriptions.html) extension.
-
-Built on Adobe's App Builder framework, the [Zuora extension](https://commercemarketplace.adobe.com/zuora-revenue-management-with-subcriptions.html) received [Adobe Commerce App Assurance Program](https://developer.adobe.com/commerce/marketplace/guides/sellers/assurance/) recognition for following simplified composable development best practices including a React-native front-end architecture and use of Adobe I/O Events and Adobe API Mesh to limit customizations within the core Adobe Commerce platform.
-
->[!TIP]
->
->To learn how to get started with the Zuora extension, read the [documentation](https://commercemarketplace.adobe.com/media/catalog/product/zuora-revenue-management-with-subcriptions-1-0-0-ece/installation_guides.pdf?1708112475).
-
 ### Adobe Commerce's HIPAA-ready solution
 
 Adobe has extensive experience deploying HIPAA-Ready Services with healthcare customers of all sizes. From payors to providers to pharmaceutical and med tech vendors, Adobe sets the standard for responsible consumer data management. This expertise is now extending to the rapidly growing healthcare digital commerce market with a HIPAA-ready version of the Adobe Commerce cloud platform.
