@@ -109,7 +109,7 @@ The shopping cart page can be configured to appear whenever an item is added to 
 
 ## Quote lifetime
 
-With the installation and enablement of B2B for Adobe Commerce, you can add support for the _Quotes_ feature. This capability allows authorized buyers to initiate the price negotiation process by submitting a request from the shopping cart. The _Quotes_ grid lists each quote received, and maintains a history of the communication between buyer and seller. For more information about the B2B features, see [Negotiated quotes](../b2b/quotes.md) in the _B2B for Adobe Commerce User Guide_.
+With the installation and enablement of Adobe Commerce B2B, you can add support for the _Quotes_ feature. This capability allows authorized buyers to initiate the price negotiation process by submitting a request from the shopping cart. The _Quotes_ grid lists each quote received, and maintains a history of the communication between buyer and seller. For more information about the B2B features, see [Negotiated quotes](../b2b/quotes.md) in the _Adobe Commerce B2B User Guide_.
 
 You can determine how long a price is valid by setting the cart quote lifetime in the configuration. For example, if a shopper leaves a cart unattended after several days, the quotes price for some items might no longer be the same. By default, the quote lifetime is set to 30 days.
 

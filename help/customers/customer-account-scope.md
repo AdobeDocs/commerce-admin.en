@@ -9,7 +9,7 @@ feature: Customers, Configuration
 The header of every page in your store extends an invitation for shoppers to _Log in or register_ for an account with your store. Customers who open an account enjoy a range of benefits, including:
 
 * **Create customer account** - Visitors can create a customer account so that they can use the storefront as a registered customer.
-* **Create a company account** Depending on the configuration, a visitor to your store can choose to create a company account. For more information, see [B2B for Adobe Commerce](../b2b/introduction.md).
+* **Create a company account** Depending on the configuration, a visitor to your store can choose to create a company account. For more information, see [Adobe Commerce B2B](../b2b/introduction.md).
 * **Faster checkout** — Registered customers move through checkout faster because much of the information is already in their accounts.
 * **Self-service** — Registered customers can update their information, check the status of orders, and even reorder from their accounts.
 

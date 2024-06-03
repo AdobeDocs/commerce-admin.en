@@ -1,13 +1,13 @@
 ---
-title: '[!DNL B2B for Adobe Commerce] Guide'
-description: Comprehensive information for [!DNL B2B for Adobe Commerce] administrators, including installation and configuration.
+title: '[!DNL Adobe Commerce B2B] Guide'
+description: Comprehensive information for [!DNL Adobe Commerce B2B] administrators, including installation and configuration.
 breadcrumb-title: Guide Overview
-seo-title: '[!DNL B2B for Adobe Commerce] Guide'
+seo-title: '[!DNL Adobe Commerce B2B] Guide'
 seo-description: Describes how to use the B2B features module in Adobe Commerce.
 exl-id: 8a7fda1d-0040-48fe-b393-9244adca6fde
 feature: B2B
 ---
-# B2B for Adobe Commerce Guide
+# Adobe Commerce B2B Guide
 
 This guide is intended for administrators of Adobe Commerce. It provides detailed information about installing and enabling this module, including configuration and management of its features. It assumes a basic understanding of the core [!DNL Commerce] configuration, and functionality.
 
@@ -20,10 +20,10 @@ This guide covers:
 
 | Subject | Description |
 | ------- | ----------- |
-| [Introduction](introduction.md) | What features are available with [!DNL B2B for Adobe Commerce]?|
-| [Release Notes](release-notes.md) | Review the updates provided in each [!DNL B2B for Adobe Commerce] module release. |
-| [Install](install.md) | Install the [!DNL B2B for Adobe Commerce] extension.|
-| [Enable Basic B2B Features](enable-basic-features.md) | After you install [!DNL B2B for Adobe Commerce], you must enable the features that you want to activate for your store. |
+| [Introduction](introduction.md) | What features are available with [!DNL Adobe Commerce B2B]?|
+| [Release Notes](release-notes.md) | Review the updates provided in each [!DNL Adobe Commerce B2B] module release. |
+| [Install](install.md) | Install the [!DNL Adobe Commerce B2B] extension.|
+| [Enable Basic B2B Features](enable-basic-features.md) | After you install [!DNL Adobe Commerce B2B], you must enable the features that you want to activate for your store. |
 | [Company Accounts](account-companies.md) | Learn about company accounts and how they provide the primary building block for providing support for B2B buyers on your store. |
 | [Company Management](manage-companies.md) | Learn how B2B Commerce site administrators can build company hierarchies to streamline the management of multiple companies that belong to the same business enterprise.|
 | [Shared Catalogs](catalog-shared.md) | Learn about using shared catalogs to maintain gated catalogs with custom pricing for different companies. |

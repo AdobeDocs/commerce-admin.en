@@ -93,8 +93,8 @@ Both capabilities will be compatible with Adobe Commerce's native storefront arc
 >[!TIP]
 >To learn more about B2B Commerce capabilities, read our documentation:
 >
->- [B2B for Adobe Commerce User Guide](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/guide-overview)
->- [B2B for Adobe Commerce Developer Guide](https://developer.adobe.com/commerce/webapi/rest/b2b/)
+>- [Adobe Commerce B2B User Guide](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/guide-overview)
+>- [Adobe Commerce B2B Developer Guide](https://developer.adobe.com/commerce/webapi/rest/b2b/)
 
 ### Payment Services for Adobe Commerce
 
