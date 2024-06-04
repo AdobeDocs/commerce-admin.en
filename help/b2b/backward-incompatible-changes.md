@@ -1,5 +1,5 @@
 ---
-title: Adobe Commerce B2B backward incompatible changes
+title: Adobe Commerce B2B backward-incompatible changes
 description: Learn about backward incompatible changes in Adobe Commerce B2B.
 ---
 # Adobe Commerce B2B backward incompatible changes
