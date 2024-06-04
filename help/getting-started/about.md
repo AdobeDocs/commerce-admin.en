@@ -241,37 +241,6 @@ The kit includes reference integrations for commonly used commerce data, includi
 
 In June of 2024 Adobe will release the first ERP integration accelerator built using this integration starter kit for [Microsoft Dynamics Finance & Operations](https://www.microsoft.com/en-us/dynamics-365/products/finance). This integration accelerator for Microsoft's ERP can be used to process orders, update product data and customer records, and sync inventory levels from Microsoft Dynamics Finance & Operations with Adobe Commerce. The Microsoft Dynamics Finance & Operations Accelerator will be available in the [Commerce Marketplace](https://commercemarketplace.adobe.com/).
 
-### New method to model and build your product catalogs in Adobe Commerce
-
-Adobe Commerce is planning to introduce a new method to create product catalogs, attributes, and prices in Adobe Commerce and improve how product catalog data is delivered to storefronts. This new catalog data model allows merchants to set-up their catalogs to match their business models and go-to-market strategies. Adobe is actively seeking early access users for this solution. Please visit the [beta release page](https://experienceleague.adobe.com/en/docs/commerce-operations/release/beta) for more information on how to apply.
-
-Using Adobe's new catalog data model you can map your unique business model to your ecommerce channels with ease without requiring the use of Adobe's traditional website / store / store-view concept.
-Initial scenarios for the new catalog data model include:
-
-- Multi-Brand: Sell multiple brands in multiple countries from one platform
-- B2B2C / B2B2B: Sell products at different prices based on your dealer, distributor or reseller network
-- B2B Commerce Reflect negotiated prices (price books) and control which products you sell to specific customers online
-
-This solution is intended to provide more flexibility in how Adobe Commerce supports highly complex and large product catalogs. It also allows merchants to quickly scale catalog data for new channels or business models without duplicating data in Adobe Commerce database.
-The solution includes the ability to:
-
-- Import products, prices, attributes and other data from your back-office systems, including Product Information Management (PIM), Enterprise Resource Planning (ERP) and other sources using our data ingestion APIs.
-- Create unique variations of a base catalog to align with your channels, countries/locales, price books, customer types, and more using a series of new and updated APIs within our cloud architecture. APIs include:
-    - Updated Product and Product Variant APIs
-    - Updated Attribute API
-    - New Price Book API
-    - New Policy API
-    - New Channels API
-- Expose this catalog data model to your storefront using headless APIs.
-
-These new capabilities are hosted on Adobe's Software-as-a-Service architecture. They do not need to be installed into a specific merchant's cloud infrastructure. Adobe hosts this solution for our customers and exposes a set of data import, data modification, and data publication APIs.
-
-This solution utilizes the same SaaS architecture as Live Search, Product Recommendations, and Live Search. It can be used to power product experiences on headless implementations of Adobe Commerce including Edge Delivery Services, Adobe Experience Manager, custom front-ends, native mobile-apps. 
-
-
-
-Adobe is actively seeking early access customers to utilize this new solution. Please visit our [beta release page](https://experienceleague.adobe.com/en/docs/commerce-operations/release/beta) to find out more about the criteria, limitations, and how to apply for early access.
-
 ### Adobe Commerce's HIPAA-ready solution
 
 Adobe has extensive experience deploying HIPAA-Ready Services with healthcare customers of all sizes. From payors to providers to pharmaceutical and med tech vendors, Adobe sets the standard for responsible consumer data management. This expertise is now extending to the rapidly growing healthcare digital commerce market with a HIPAA-ready version of the Adobe Commerce cloud platform.
