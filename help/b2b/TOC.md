@@ -56,4 +56,5 @@ recommendations: noDisplay
   + [Configure the list maximum](configure-requisition-lists.md)
   + [[!UICONTROL My Requisition Lists]](account-dashboard-requisition-lists-manage.md)
 + Reference {#reference}
+  + [Backward-incompatible changes](backward-incompatible-changes.md)
   + [Packages](packages.md)
