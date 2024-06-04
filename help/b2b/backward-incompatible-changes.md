@@ -1,6 +1,7 @@
 ---
 title: Adobe Commerce B2B backward-incompatible changes
 description: Learn about changes in Adobe Commerce B2B releases that may require you to update your custom code.
+exl-id: 79b66843-3f34-4fe9-9670-53d19b749eb4
 ---
 # Adobe Commerce B2B backward-incompatible changes
 
