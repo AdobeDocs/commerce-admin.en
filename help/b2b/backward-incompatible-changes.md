@@ -4,7 +4,7 @@ description: Learn about changes in Adobe Commerce B2B releases that may require
 ---
 # Adobe Commerce B2B backward-incompatible changes
 
-This topic lists backward incompatible changes in Adobe Commerce B2B.
+This topic lists backward-incompatible changes in Adobe Commerce B2B.
 
 {{$include /help/_includes/backward-incompatible-changes/1.4.1-1.4.2.md}}
 
