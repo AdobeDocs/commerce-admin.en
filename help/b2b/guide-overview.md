@@ -21,7 +21,7 @@ This guide covers:
 | Subject | Description |
 | ------- | ----------- |
 | [Introduction](introduction.md) | What features are available with [!DNL Adobe Commerce B2B]?|
-| [Release Notes](release-notes.md) | Review the updates provided in each [!DNL Adobe Commerce B2B] module release. |
+| [Release Notes](release-notes.md) | Review the updates provided in each [!DNL Adobe Commerce B2B] release. |
 | [Install](install.md) | Install the [!DNL Adobe Commerce B2B] extension.|
 | [Enable Basic B2B Features](enable-basic-features.md) | After you install [!DNL Adobe Commerce B2B], you must enable the features that you want to activate for your store. |
 | [Company Accounts](account-companies.md) | Learn about company accounts and how they provide the primary building block for providing support for B2B buyers on your store. |
