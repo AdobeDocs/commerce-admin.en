@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce B2B backward-incompatible changes
-description: Learn about backward incompatible changes in Adobe Commerce B2B.
+description: Learn about changes in Adobe Commerce B2B releases that may require you to update your custom code.
 ---
 # Adobe Commerce B2B backward incompatible changes
 
