@@ -17,7 +17,7 @@ On the _Admin_ sidebar, click **[!UICONTROL Sales]**.
 
 ### [!UICONTROL Quotes]
 
-![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce)
+![Adobe Commerce B2B](../assets/b2b.svg) (Available with Adobe Commerce B2B)
 
 Authorized buyers can [negotiate the price](../b2b/quotes.md) with the seller by sending a [request](../b2b/quote-request.md) from the shopping cart.
 
