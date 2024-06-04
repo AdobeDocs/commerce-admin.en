@@ -187,7 +187,7 @@ Adobe is also adding Commerce-specific dashboards in Adobe Experience Platform, 
 
 Last year, Adobe Commerce also launched [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation), which leverages unified customer profiles and audiences from Real-Time CDP to personalize shopper journeys. Specifically, [Adobe Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started) stitches Commerce data with data from other sources to build detailed customer profiles and audience segments for targeting content and promotional offers in Adobe Commerce.
 
-Adobe has expanded these [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) capabilities to allow marketers and merchandisers to use Audiences defined in Adobe's Real-Time CDP to personalize more aspects of the Adobe Commerce shopping experience, including [(upsell and cross-sell promotions)](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules) in addition to [promotions](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart) and [content blocks](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks).
+Adobe has expanded these [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) capabilities to allow marketers and merchandisers to use Audiences defined in Adobe's Real-Time CDP to personalize more aspects of the Adobe Commerce shopping experience, including [related product rules](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules) for upsell and cross-sell recommendations in addition to [promotions](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart) and [content blocks](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks).
 
 #### Track and personalize commerce in native mobile apps
 
@@ -225,7 +225,7 @@ Adobe continues to lead the way in simplifying composable development for ecomme
 
 Developers now have more granular control to extend the Admin UI, such as adding additional [columns](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/extension-points/product/grid-columns/), [buttons](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/extension-points/order/view-button/), and [mass actions](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/extension-points/order/mass-action/) to existing Admin panels.
 
-In June of 2024, Adobe will increase the availability of API Mesh to over 200 global locations, which reduces network latency and delivers improved compute time; providing a better overall experience for shoppers.
+Later this year, Adobe will increase the availability of API Mesh to over 200 global locations, which reduces network latency and delivers improved compute time; providing a better overall experience for shoppers.
 
 >[!TIP]
 >
@@ -239,35 +239,36 @@ Integrating an ecommerce platform with your ERP, OMS, or CRM is a mission-critic
 
 The kit includes reference integrations for commonly used commerce data, including orders, products, and customers.  It also includes onboarding scripts and a standardized architecture for developers to build on following best practices. The  starter kit  is expected to reduce integration effort by up to 50%. These reference integrations can easily be customized by developers to meet the needs of the business, lowering the time to market and the cost of integrations.
 
-In June of 2024 Adobe will release the first ERP integration accelerator built using this integration starter kit for [Microsoft Dynamics Finance & Operations](https://www.microsoft.com/en-us/dynamics-365/products/finance). This integration accelerator for Microsoft's ERP can be used to process orders, update product data and customer records, and sync inventory levels from Microsoft Dynamics Finance & Operations with Adobe Commerce. The Microsoft Dynamics Finance & Operations Accelerator will be available on the [Commerce Marketplace](https://commercemarketplace.adobe.com/).
+In June of 2024 Adobe will release the first ERP integration accelerator built using this integration starter kit for [Microsoft Dynamics Finance & Operations](https://www.microsoft.com/en-us/dynamics-365/products/finance). This integration accelerator for Microsoft's ERP can be used to process orders, update product data and customer records, and sync inventory levels from Microsoft Dynamics Finance & Operations with Adobe Commerce. The Microsoft Dynamics Finance & Operations Accelerator will be available in the [Commerce Marketplace](https://commercemarketplace.adobe.com/).
 
 ### New method to model and build your product catalogs in Adobe Commerce
 
 Adobe Commerce is planning to introduce a new method to create product catalogs, attributes, and prices in Adobe Commerce and improve how product catalog data is delivered to storefronts. This new catalog data model allows merchants to set-up their catalogs to match their business models and go-to-market strategies. Adobe is actively seeking early access users for this solution. Please visit the [beta release page](https://experienceleague.adobe.com/en/docs/commerce-operations/release/beta) for more information on how to apply.
-Using Adobe's new catalog data model you can map your unique business model to your ecommerce channels with ease without requiring the use of Adobe's traditional website / store / store-view concept.
-Initial scenarios for the new catalog data modeling include:
 
-1. Multi-Brand: Sell multiple brands in multiple countries from one platform
-2. B2B2C / B2B2B: Sell products at different prices based on your dealer, distributor or reseller network
-3. B2B Commerce Reflect negotiated prices (price books) and control which products you sell to specific customers online
+Using Adobe's new catalog data model you can map your unique business model to your ecommerce channels with ease without requiring the use of Adobe's traditional website / store / store-view concept.
+Initial scenarios for the new catalog data model include:
+
+- Multi-Brand: Sell multiple brands in multiple countries from one platform
+- B2B2C / B2B2B: Sell products at different prices based on your dealer, distributor or reseller network
+- B2B Commerce Reflect negotiated prices (price books) and control which products you sell to specific customers online
 
 This solution is intended to provide more flexibility in how Adobe Commerce supports highly complex and large product catalogs. It also allows merchants to quickly scale catalog data for new channels or business models without duplicating data in Adobe Commerce database.
 The solution includes the ability to:
 
-1. Import products, prices, attributes and other data from your back-office systems, including Product Information Management (PIM), Enterprise Resource Planning (ERP) and other sources using our data ingestion APIs.
-2. Create unique variations of a base catalog to align with your channels, countries/locales, price books, customer types, and more using a series of new and updated APIs within our cloud architecture. APIs include:
+- Import products, prices, attributes and other data from your back-office systems, including Product Information Management (PIM), Enterprise Resource Planning (ERP) and other sources using our data ingestion APIs.
+- Create unique variations of a base catalog to align with your channels, countries/locales, price books, customer types, and more using a series of new and updated APIs within our cloud architecture. APIs include:
     - Updated Product and Product Variant APIs
     - Updated Attribute API
     - New Price Book API
     - New Policy API
     - New Channels API
-3. Expose this catalog data model to your storefront using headless APIs.
+- Expose this catalog data model to your storefront using headless APIs.
 
 These new capabilities are hosted on Adobe's Software-as-a-Service architecture. They do not need to be installed into a specific merchant's cloud infrastructure. Adobe hosts this solution for our customers and exposes a set of data import, data modification, and data publication APIs.
 
 This solution utilizes the same SaaS architecture as Live Search, Product Recommendations, and Live Search. It can be used to power product experiences on headless implementations of Adobe Commerce including Edge Delivery Services, Adobe Experience Manager, custom front-ends, native mobile-apps. 
 
-![Adobe Commerce catalog modeling diagram](assets/catalog-modeling.png)
+
 
 Adobe is actively seeking early access customers to utilize this new solution. Please visit our [beta release page](https://experienceleague.adobe.com/en/docs/commerce-operations/release/beta) to find out more about the criteria, limitations, and how to apply for early access.
 
