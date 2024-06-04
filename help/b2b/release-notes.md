@@ -1,6 +1,6 @@
 ---
 title: '[!DNL Adobe Commerce B2B] release notes'
-description: Review the release notes for information about changes in [!DNL Adobe Commerce B2B] extension releases.
+description: Review the release notes for information about changes in [!DNL Adobe Commerce B2B] releases.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
 ---
