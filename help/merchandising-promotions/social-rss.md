@@ -75,7 +75,7 @@ Social networking sites have a numerous plugins that can easily be added to your
 
 1. In the upper-right corner, click **[!UICONTROL Add Widget]** and do the following:
 
-   - ![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce only) In the _Settings_ section, set **[!UICONTROL Type]** to `CMS Static Block` and click **[!UICONTROL Continue]**.
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Available with Adobe Commerce B2B only) In the _Settings_ section, set **[!UICONTROL Type]** to `CMS Static Block` and click **[!UICONTROL Continue]**.
 
    - Verify that **[!UICONTROL Design Theme]** is set to the current theme.
 

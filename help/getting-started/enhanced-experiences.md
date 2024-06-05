@@ -86,7 +86,7 @@ Adobe Commerce and Magento Open Source provide a range of tools to help you tail
 
 - **Automated business rules** - Set up [automated business rules](../merchandising-promotions/price-rules-cart.md) that define product relationships and use price rules that trigger discounts based on various conditions.
 
-- **Integrated B2B and B2C** - With [B2B for Adobe Commerce](../b2b/introduction.md), you can serve both B2C and B2B customers. Through an easy-to-use customer portal, B2B customers can set up multiple tiers of buyers with specific roles and permissions, track quotes and orders, define purchase approval rules, and manage their credit online.
+- **Integrated B2B and B2C** - With [Adobe Commerce B2B](../b2b/introduction.md), you can serve both B2C and B2B customers. Through an easy-to-use customer portal, B2B customers can set up multiple tiers of buyers with specific roles and permissions, track quotes and orders, define purchase approval rules, and manage their credit online.
 
 ## Moment of purchase
 

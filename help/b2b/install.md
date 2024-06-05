@@ -1,14 +1,14 @@
 ---
-title: Install the [!DNL B2B for Adobe Commerce] extension
-description: Learn how to install the [!DNL B2B for Adobe Commerce] metapackage.
+title: Install the [!DNL Adobe Commerce B2B] extension
+description: Learn how to install the [!DNL Adobe Commerce B2B] metapackage.
 feature: B2B, Install
 role: Admin, Developer
 exl-id: a6947212-1708-40ae-9e81-874467eba5e1
 ---
 
-# Install the [!DNL B2B for Adobe Commerce] extension
+# Install the [!DNL Adobe Commerce B2B] extension
 
-The B2B for Adobe Commerce extension is only available for Adobe Commerce v2.2.0 or later. It is installed after installing Adobe Commerce.
+The Adobe Commerce B2B extension is only available for Adobe Commerce v2.2.0 or later. It is installed after installing Adobe Commerce.
 
 Install the most recent version of the B2B extension that is supported on the deployed Adobe Commerce version.
 
@@ -75,7 +75,7 @@ After completing the installation, configure and start message consumers, includ
 
 ## Message consumers
 
-The B2B for Adobe Commerce extension uses MySQL for message queue management. The following table lists the message consumers that support B2B capabilities. After you install the extension, start the message consumers for the B2B capabilities required for your Commerce storefront.
+The Adobe Commerce B2B extension uses MySQL for message queue management. The following table lists the message consumers that support B2B capabilities. After you install the extension, start the message consumers for the B2B capabilities required for your Commerce storefront.
 
 | Consumer                                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -149,4 +149,4 @@ You can also configure schedules for message consumers from the [Store Configura
 
 ## Enable B2B features in the Admin
 
-After installing the B2B for Adobe Commerce extension and starting message consumers, you must also [enable B2B features in the Admin](enable-basic-features.md).
+After installing the Adobe Commerce B2B extension and starting message consumers, you must also [enable B2B features in the Admin](enable-basic-features.md).
