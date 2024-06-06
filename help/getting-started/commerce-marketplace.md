@@ -85,6 +85,10 @@ If what you purchase on Commerce Marketplace does not meet your needs, you can r
 
 For support issues related to Commerce Marketplace, see the [[!DNL Marketplace] Help Center][5].
 
+### Open source questions
+
+The Adobe Commerce Marketplace Support team resolves issues related to the [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) and [commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) sites only. Please direct questions about Magento Open Source to the [Community Forum](https://community.magento.com/) or [contact a partner](https://business.adobe.com/products/magento/partners.html) who can assist with Magento Open Source.
+
 [1]: https://marketplace.magento.com/
 [2]: https://www.paypal.com/us/home
 [3]: https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/
