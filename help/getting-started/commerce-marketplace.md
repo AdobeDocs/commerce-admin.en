@@ -18,14 +18,14 @@ Developers have traditionally used PHP to create in-process extensions to add fe
 
 The following resources provide a starting point for new adopters to familiarize themselves with apps:
 
-### Commerce resources:
+### Commerce resources
 
 -  [Setting up I/O Events for Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/)
 -  [Configuring Events for Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/)
 -  [Setting up Admin UI SDK](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
 -  [Converting an extension to an app](https://developer.adobe.com/commerce/extensibility/app-development/#how-do-i-port-an-extension-into-an-app)
 
-### App Builder resources:
+### App Builder resources
 
 -  [Commerce App Builder Overview](https://developer.adobe.com/commerce/extensibility/app-development/)
 -  [Setting up API Mesh for Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
