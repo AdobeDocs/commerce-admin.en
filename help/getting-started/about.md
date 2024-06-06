@@ -210,26 +210,12 @@ Adobe Commerce is a composable ecommerce platform designed to launch ecommerce f
 
 Traditional composable applications are built using point-to-point integrations between multiple services. This approach leads to a brittle integration layer with increasing technical debt. Adobe Commerce provides developers with comprehensive extension points as well as an extensible platform to orchestrate API, events, and data resulting in a flexible composable architecture. The Adobe Commerce platform includes:
 
-- Comprehensive [API](https://developer.adobe.com/commerce/webapi/) coverage
-- [Webhooks](https://developer.adobe.com/commerce/extensibility/webhooks/) to customize native commerce processes
-- [Admin UI](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/) extensibility
-- Over 700 [events](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
+- Comprehensive [API](https://developer.adobe.com/commerce/webapi/) coverage and API orchestration with [API Mesh](https://developer.adobe.com/graphql-mesh-gateway/)
+- [Webhooks](https://developer.adobe.com/commerce/extensibility/webhooks/) to customize native commerce processes like add to cart and checkout
+- Granular control to extend the Commerce [Admin UI](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/) for custom merchant capabilities
+- Over 700 [events](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events) to build scalable event-driven integraitons
 
 ![Adobe Commerce extensibility diagram](assets/comprehensive-extensibility.png)
-
-### Webhooks and Admin UI SDK enhancements
-
-[!BADGE Available now]{type=Informative tooltip="Available now"}
-
-Adobe continues to lead the way in simplifying composable development for ecommerce businesses. You can now [configure webhooks through the Admin UI](https://developer.adobe.com/commerce/extensibility/webhooks/admin-configuration/) making it even simpler to extend native commerce processes like checkout, add to cart, and more. Webhooks can also now be triggered conditionally. For example, you can trigger a shipping calculation webhook for the checkout process for specific ZIP codes.
-
-Developers now have more granular control to extend the Admin UI, such as adding additional [columns](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/extension-points/product/grid-columns/), [buttons](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/extension-points/order/view-button/), and [mass actions](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/extension-points/order/mass-action/) to existing Admin panels.
-
-Later this year, Adobe will increase the availability of API Mesh to over 200 global locations, which reduces network latency and delivers improved compute time; providing a better overall experience for shoppers.
-
->[!TIP]
->
->To learn how to get started with webhooks, read our [documentation](https://developer.adobe.com/commerce/extensibility/webhooks/).
 
 ### Integration starter kit & pre-built ERP integrations
 
