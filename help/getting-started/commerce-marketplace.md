@@ -89,7 +89,7 @@ For support issues related to Commerce Marketplace, see the [[!DNL Marketplace] 
 
 The Adobe Commerce Marketplace Support team resolves issues related to the [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) and [commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) sites only. Please direct questions about Magento Open Source to the [Community Forum](https://community.magento.com/) or [contact a partner](https://business.adobe.com/products/magento/partners.html) who can assist with Magento Open Source.
 
-### Request a refund
+### Refund requests
 
 To request a refund for a Marketplace purchase, log in to your Marketplace account and follow these steps:
 
@@ -98,6 +98,16 @@ To request a refund for a Marketplace purchase, log in to your Marketplace accou
 1. Complete the refund order form.
 
 Marketplace Support will request information after the refund request is generated. The refund option is available for 25 days after date-of-purchase. See the [Marketplace Customer Agreement](https://www.adobe.com/legal/terms/enterprise-licensing/magento-legacy-terms.html).
+
+### Order invoices
+
+You can download order invoices from the [!UICONTROL **Purchase History**] in your Marketplace account. The invoice does not supply the VAT or address of the seller because it is not a Marketplace requirement at this time.
+
+To download an order invoice for a Marketplace purchase, log in to your Marketplace account and follow these steps:
+
+1. Click [!UICONTROL **My Profile**] > [!UICONTROL **Purchase History**].
+1. Locate the purchase.
+1. Click the printer icon in the top-right corner of the order.
 
 [1]: https://marketplace.magento.com/
 [2]: https://www.paypal.com/us/home
