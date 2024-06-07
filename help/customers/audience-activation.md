@@ -48,7 +48,7 @@ _May 30, 2023_
 
 [!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
 
-_June 7, 2024_
+_June 12, 2024_
 
 ![New](../assets/new.svg) - GA release for [related product rules](../merchandising-promotions/product-related-rule-create.md) informed by audiences.
 
