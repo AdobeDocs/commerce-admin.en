@@ -1,7 +1,7 @@
 ---
 title: Experience Assets Integration for Commerce overview
 description: Learn how to integrate Experience Manager Assets with your [!DNL Commerce] instance to access to countless media assets for use in your store.
-feature: CMS, Media, Configuration, Integration, Assets
+feature: CMS, Media, Configuration, Integration
 ---
 # Experience Manager Assets Integration for Commerce overview
 
