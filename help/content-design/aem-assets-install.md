@@ -23,6 +23,14 @@ Get started with the AEM Assets integration for Adobe Commerce by configuring th
   - [Commerce Admin](https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html)—Update store configuration and manage Commerce user accounts
   - [Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/introduction)—Adobe IMS application administrator or user account with access to complete tasks such as creating a folder structure, uploading assets, setting up permissions, setting up metadata forms, and creating public collections.
 
+## Prerequisites
+
+- Adobe Commerce must be configured to use [Adobe IMS authentication](/help/getting-started/adobe-ims-config.md)
+- Account provisioning and permissions—Administrators must have access to the following resources to configure the Experience Manager Assets integration:
+  - Commerce application administrator—Install required modules and configure the Commerce application server from the Admin or the command line using Adobe Commerce command line interface tools
+  - [Commerce Admin](https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html)—Update store configuration and manage Commerce user accounts
+  - [Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/introduction)—Adobe IMS application administrator or user account with access to complete tasks such as creating a folder structure, uploading assets, setting up permissions, setting up metadata forms, and creating public collections.
+
 ## Configuration overview
 
 Enable the integration by completing the following tasks
@@ -135,7 +143,11 @@ For detailed instructions, see [Commerce Services Connector](https://experiencel
 
 When you configure the Commerce Services Connector, the system generates the SaaS project and database Ids. You need these ids when you onboard the AEM Assets integration tenant.
 
+<<<<<<< HEAD
 ![SaaS project and data space ids for AEM Assets integration](assets/commerce-events-config.png){width="600" zoomable="yes"}
+=======
+![SaaS project and data space ids for AEM Assets integration](assets/aem-saas-project-config.png){width="600" zoomable="yes"}
+>>>>>>> 01ed21b7 (Added Commerce extension installation and Admin)
 
 ## Configure Adobe I/O Events for Commerce
 
@@ -185,7 +197,11 @@ The Adobe I/O Events service sends Commerce event data to Experience Cloud to ma
 
    1. Set **[!UICONTROL Enabled]** to `Yes`.
 
+<<<<<<< HEAD
       ![Adobe I/O Events Commerce Admin configuration - enable Commerce events](assets/commerce-events-config.png){width="600" zoomable="yes"}
+=======
+      ![Adobe I/O Events Commerce Admin configuration - enable Commerce events](assets/aem-integration-admin-config.png){width="600" zoomable="yes"}
+>>>>>>> 01ed21b7 (Added Commerce extension installation and Admin)
 
       >[!NOTE]
       >
@@ -205,7 +221,11 @@ From the Admin, enable the Experience Manager Assets integration, and then activ
 
    1. Set **[!UICONTROL Integration enabled]** to `yes`.
 
+<<<<<<< HEAD
       ![AEM Assets Integration for Commerce Admin configuration](./assets/aem-integration-admin-config.png){width="600" zoomable="yes"}
+=======
+      ![AEM Assets Integration for Commerce Admin configuration](./assets/aem-enable-integration-admin-config.png){width="600" zoomable="yes"}
+>>>>>>> 01ed21b7 (Added Commerce extension installation and Admin)
 
 ## Get authentication credentials for API access
 
@@ -231,6 +251,7 @@ Activating the Assets integration in the Commerce Admin establishes the location
 
    1. Set **Resource Access** to **All**.
 
+<<<<<<< HEAD
      ![Integrations - available API](./assets/integrations-available-api.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Save]**.
@@ -238,6 +259,23 @@ Activating the Assets integration in the Commerce Admin establishes the location
 ### Generate the authentication credentials
 
 On the Integrations page, generate the OAuth authentication credentials for API access by clicking **Activate** for the Assets integration. These credentials are required for the Commerce instance to process GraphQL requests from the Asset Rule Engine Service and REST API requests from the Commerce API.
+=======
+1. Click **[!UICONTROL Save]**.
+
+### Generate the authentication credentials
+
+On the Integrations page, generate the OAuth authentication credentials for API access by clicking **Activate** for the Assets integration. These credentials are required for the Commerce instance to process GraphQL requests from the Asset Rule Engine Service and REST API requests from the Commerce API.
+
+1. From the Integrations page, generate the credentials by clicking **[!UICONTROL Activate]**.
+
+   ![Save Commerce configuration for Assets integration](./assets/aem-save-commerce-integration.png){width="600" zoomable="yes"}
+
+1. Save the credentials for the consumer key and access token for later use.
+
+  ![OAuth credentials to authenticate API requests](./assets/aem-commerce-integration-credentials.png){width="600" zoomable="yes"}
+
+1. Click **[!UICONTROL Done]**.
+>>>>>>> 01ed21b7 (Added Commerce extension installation and Admin)
 
 1. From the Integrations page, generate the credentials by clicking **[!UICONTROL Activate]**.
 

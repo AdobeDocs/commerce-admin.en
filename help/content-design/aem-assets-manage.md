@@ -12,4 +12,4 @@ Create and update asset
 Create new product, send update to Assets
 
 
- 
+ POST/PUT products & product/
