@@ -5,6 +5,8 @@ feature: CMS, Media
 ---
 # Use AEM Assets
 
+{{$include /help/_includes/aem-assets-integration-beta-note.md}}
+
 Manage assets
 
 Create and update asset

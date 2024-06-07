@@ -5,6 +5,8 @@ feature: CMS, Media
 ---
 # Install and configure the AEM Assets Integration for Commerce
 
+{{$include /help/_includes/aem-assets-integration-beta-note.md}}
+
 Get started with the AEM Assets integration for Adobe Commerce by configuring the Commerce application to use the AEM Assets integration and the Adobe I/O Events service.
 
 ## System requirements
@@ -17,17 +19,9 @@ Get started with the AEM Assets integration for Adobe Commerce by configuring th
 
 ## Prerequisites
 
-- Adobe Commerce must be configured to use [Adobe IMS authentication](/help/getting-started/adobe-ims-config.md)
+- Adobe Commerce must be configured to use [Adobe IMS authentication](/help/getting-started/adobe-ims-config.md).
 - Account provisioning and permissions—Administrators must have access to the following resources to configure the Experience Manager Assets integration:
-  - Commerce application administrator—Install required modules and configure the Commerce application server from the Admin or the command line using Adobe Commerce command line interface tools
-  - [Commerce Admin](https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html)—Update store configuration and manage Commerce user accounts
-  - [Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/introduction)—Adobe IMS application administrator or user account with access to complete tasks such as creating a folder structure, uploading assets, setting up permissions, setting up metadata forms, and creating public collections.
-
-## Prerequisites
-
-- Adobe Commerce must be configured to use [Adobe IMS authentication](/help/getting-started/adobe-ims-config.md)
-- Account provisioning and permissions—Administrators must have access to the following resources to configure the Experience Manager Assets integration:
-  - Commerce application administrator—Install required modules and configure the Commerce application server from the Admin or the command line using Adobe Commerce command line interface tools
+  - Commerce application administrator—Install required modules and configure the Commerce application server from the Admin or the command line
   - [Commerce Admin](https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html)—Update store configuration and manage Commerce user accounts
   - [Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/introduction)—Adobe IMS application administrator or user account with access to complete tasks such as creating a folder structure, uploading assets, setting up permissions, setting up metadata forms, and creating public collections.
 
