@@ -79,19 +79,31 @@ The installation process for [!DNL Marketplace] purchases is different for _on-p
 
 ## Support
 
-If you need help with installing or with using an extension, look first in the documentation that accompanies the extension. If you can't find the answer to your question, use the contact information in the extension listing to contact the developer directly.
+If you need help with installing or with using an extension, look first in the documentation that accompanies the extension. If you can't find the answer to your question, use the contact information in the extension listing to contact the developer directly. If what you purchase on Marketplace does not meet your needs, you can [request a refund](#refund-requests) within 25 days from the date of purchase. Adobe reviews all refund requests and (if approved) issues the appropriate refund. For support issues related to Commerce Marketplace, see the [[!DNL Marketplace] Help Center][5].
 
-If what you purchase on Commerce Marketplace does not meet your needs, you can request a refund within 25 days from the date of purchase. Adobe reviews all refund requests and if approved, issues the appropriate refund.
+### Checkout issues
 
-For support issues related to Commerce Marketplace, see the [[!DNL Marketplace] Help Center][5].
+The address fields in your account profile must be completed for verification purposes in the Marketplace purchasing system.
+
+1. Add the address fields in your Marketplace account profile.
+1. Save the updated profile.
+1. Continue with your checkout.
+
+### Log in issues
+
+Log in issues are typically related to a mismatch between your MAGEID and email address in the account database. Contact Marketplace Support for assistance.
+
+>[!INFO]
+>
+>App and extension purchases cannot be [transfered](#purchase-transfers) to a new account.
 
 ### Open source questions
 
-The Adobe Commerce Marketplace Support team resolves issues related to the [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) and [commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) sites only. Please direct questions about Magento Open Source to the [Community Forum](https://community.magento.com/) or [contact a partner](https://business.adobe.com/products/magento/partners.html) who can assist with Magento Open Source.
+The Marketplace Support team resolves issues related to the [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) and [commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) sites only. Please direct questions about Magento Open Source to the [Community Forum](https://community.magento.com/) or [contact a partner](https://business.adobe.com/products/magento/partners.html) who can assist with Magento Open Source.
 
 ### Refund requests
 
-To request a refund for a Marketplace purchase, log in to your Marketplace account and follow these steps:
+To request a refund for a Marketplace purchase, log in to your account and follow these steps:
 
 1. Click [!UICONTROL **My Profile**] > [!UICONTROL **Purchase History**].
 1. Locate the purchase and click [!UICONTROL **Request a Refund**].
@@ -108,6 +120,14 @@ To download an order invoice for a Marketplace purchase, log in to your Marketpl
 1. Click [!UICONTROL **My Profile**] > [!UICONTROL **Purchase History**].
 1. Locate the purchase.
 1. Click the printer icon in the top-right corner of the order.
+
+### Purchase transfers
+
+The Marketplace Support team does not have the ability to transfer purchases to a different account. You must purchase all apps and extensions under the primary Commerce account to avoid installation and deployment issues. Adobe Commerce is entitled to one unique identifier. Since Composer is used for installation, only one set of [access keys](#create-an-access-key) tied to the primary account can be used. The only available solution is to [request a refund](#refund-requests) from the Marketplace purchasing account (if allowed by the Adobe Commerce refund policy).
+
+You can [share](commerce-account-share.md) a Commerce instance through the primary account. Shared access grants special permissions to a subordinate account from a primary account. The shared access point is generated from the primary account. The primary account can be the Commerce entitled account, the main merchant account, or an account shared within an organization.
+
+These special permissions grant the same level of access on Adobe Commerce as the primary, however it does not carry over to the Adobe Commerce Marketplace or Developer Portal. This means that buying an extension from a subordinate account in the Marketplace cannot be shared with the primary account. Shared access is a one-way street (primary account to subordinate). It does not work when a subordinate account is trying to share back to the primary.
 
 [1]: https://marketplace.magento.com/
 [2]: https://www.paypal.com/us/home
