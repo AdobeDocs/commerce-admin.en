@@ -364,7 +364,7 @@ This issue can be caused by insufficient API privileges for the generated token.
 1. Have the systems administrator launch Adobe Experience Platform and go to **[!UICONTROL Permissions]** -> **[!UICONTROL Users]** -> **[!UICONTROL API credentials]**.
 1. Using the technical account email from above, search for the credentials to modify.
 1. Open the credentials, then select **[!UICONTROL Roles]** -> **[!UICONTROL Add roles]**.
-1. Add **Production all access**.
+1. Add the role that contains **[!UICONTROL Manage destinations]** permission.
 1. Click **[!UICONTROL Save]**.
 1. [Regenerate](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#generate-access-token) the access token in Console.
 1. Verify that token provides a valid response using the [Target Connections API](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/getTargetConnections).
