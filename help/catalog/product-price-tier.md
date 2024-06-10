@@ -32,7 +32,7 @@ The prices in the storefront take precedence from the highest to the lowest quan
 
 1. If your store has multiple websites, choose the **[!UICONTROL Website]** for which the tier pricing applies.
 
-1. If necessary, limit the availability of the pricing tier by selecting the **[!UICONTROL Customer Group]** or **[!UICONTROL Shared Catalog]** (![B2B for Adobe Commerce](../assets/b2b.svg) Available with [B2B for Adobe Commerce](./b2b/../introduction.md) only).
+1. If necessary, limit the availability of the pricing tier by selecting the **[!UICONTROL Customer Group]** or **[!UICONTROL Shared Catalog]** (![Adobe Commerce B2B](../assets/b2b.svg) Available with [Adobe Commerce B2B](./b2b/../introduction.md) only).
 
 1. For **[!UICONTROL Qty]**, enter the quantity that must be ordered to receive the discount.
 

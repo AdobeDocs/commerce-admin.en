@@ -25,6 +25,6 @@ Create the [category](categories.md) structure that is the foundation of your st
 
 ## [!UICONTROL Shared Catalogs]
 
-For stores with B2B for Adobe Commerce installed and enabled, [shared catalogs](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html) give you the ability to make custom pricing available to different companies.
+For stores with Adobe Commerce B2B installed and enabled, [shared catalogs](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html) give you the ability to make custom pricing available to different companies.
 
 ![Shared catalog products](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}

@@ -35,7 +35,7 @@ Adobe Commerce and Magento Open Source include several built-in offline payment 
 - [Bank Transfer Payment](bank-transfer.md)
 - [Check / Money Order](check-money-order.md)
 - [Purchase Order](purchase-order.md)
-- [Payment on Account](../b2b/enable-basic-features.md#configure-payment-on-account) ![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce)
+- [Payment on Account](../b2b/enable-basic-features.md#configure-payment-on-account) ![Adobe Commerce B2B](../assets/b2b.svg) (Available with Adobe Commerce B2B)
 
 ## Online payment methods
 
