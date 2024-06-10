@@ -66,3 +66,4 @@ The Experience Manager Integration for Commerce requires all Commerce assets sto
 1. On the [!UICONTROL Metadata Schema Form], create the `Does Commerce exist?` and `Commerce mappings` fields and map the properties.
 
 1. Click **[!UICONTROL Save]**.
+

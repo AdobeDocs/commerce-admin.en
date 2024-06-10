@@ -135,7 +135,7 @@ To transmit data between your Adobe Commerce instance and the services that enab
 
 For detailed instructions, see [Commerce Services Connector](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#organizationid).
 
-When you configure the Commerce Services Connector, the system generates the SaaS project and database Ids. You need these ids when you onboard the AEM Assets integration tenant.
+When you configure the Commerce Services Connector, the system generates the SaaS project and database Ids. You need these ids during the tenant onboarding process.
 
 ![SaaS project and data space ids for AEM Assets integration](assets/aem-saas-project-config.png){width="600" zoomable="yes"}
 
@@ -153,13 +153,23 @@ The AEM Assets Integration uses the Adobe I/O Events service to send custom even
 
 >[!ENDSHADEBOX]
 
-The Adobe I/O Events service sends Commerce event data to Experience Cloud to manage administrator access to Commerce projects. Set up requires the following steps.
+>[!NOTE]
+>
+>For detailed information about Adobe I/O Events for Commerce, see the [Adobe I/O Events for Commerce](https://developer.adobe.com/commerce/extensibility/events/) documentation on the Adobe Developer site.
+
+Set up requires the following steps.
 
 1. Enable the Commerce Eventing framework by configuring Adobe I/O events on the application server and in the Admin.
 1. Enable data synchronization between Adobe Commerce and AEM Assets by using the Assets Rules Engine Service API to configure the connection
 1. Enable the AEM Assets integration in the Admin
 
 ### Enable the Commerce Eventing framework
+
+Enable the Commerce eventing framework by using the instructions for the environment where your Commerce project is deployed.
+
+>[!BEGINTABS]
+
+>[!TAB Cloud infrastructure]
 
 1. From the Commerce application server command line, configure the SaaS eventing framework for the production environment using the Adobe Commerce CLI:
 
@@ -192,6 +202,62 @@ The Adobe I/O Events service sends Commerce event data to Experience Cloud to ma
       >[!NOTE]
       >
       >You must [enable cron](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration) so that Commerce can send events to the API endpoints for managing communication and workflows for the Commerce Assets integration.
+
+1. Update the cloud project configuration.
+
+   1. Add the `app/etc/config.php` file to your working repository:
+
+     ```shell
+     git add app/etc/config.php
+     ```
+
+   1. Run the `composer info magento/ece-tools` command to determine your version of ece-tools. If the version is less than `2002.1.13`, [update to the most recent version](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html).
+
+   1. Enable eventing in the `.magento.env.yaml` file:
+
+      ```yaml
+      stage:
+         global:
+            ENABLE_EVENTING: true
+      ```
+
+   1. Commit and push updated files to the Cloud environment.
+
+>[!TAB On-premises]
+
+1. From the Commerce application server command line, configure the SaaS eventing framework for the production environment using the Adobe Commerce CLI:
+
+   ```shell
+   bin/magento config:set adobe_io_events/integration/adobe_io_environment
+   ```
+
+   Configure the eventing framework for a different environment by appending the environment name to the command.
+
+   ```shell
+   bin/magento config:set adobe_io_events/integration/adobe_io_environment staging
+   ```
+
+1. Apply the configuration changes by clearing the cache.
+
+   ```shell
+   bin/magento cache:clean
+   ```
+
+1. Enable the Adobe I/O Events service from the [!DNL Store Settings Configuration] menu.
+
+   1. From the Admin, go to **[!UICONTROL Stores]** > [!UICONTROL Settings] > **[!UICONTROL Configuration]** > **[!UICONTROL Adobe Services]** > **Adobe I/O Events**.
+
+   1. Expand **[!UICONTROL Commerce events]**.
+
+   1. Set **[!UICONTROL Enabled]** to `Yes`.
+
+      ![Adobe I/O Events Commerce Admin configuration - enable Commerce events](assets/aem-integration-admin-config.png){width="600" zoomable="yes"}
+
+      >[!NOTE]
+      >
+      >You must [enable cron](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration) so that Commerce can send events to the API endpoints for managing communication and workflows for the Commerce Assets integration.
+
+>[!ENDTABS]
 
 ### Enable and activate the Experience Manager Assets integration
 
@@ -248,3 +314,12 @@ On the Integrations page, generate the OAuth authentication credentials for API 
   ![OAuth credentials to authenticate API requests](./assets/aem-commerce-integration-credentials.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Done]**.
+
+
+## Onboard a tenant
+
+Integration AEM Assets and Adobe Commerce requires configuration to enable synchronization between these two systems using the Assets Rule Engine Service. This service automatically matches assets in AEM to products in Adobe Commerce based on SKU or other key attributes. It also ensures that the latest product assets and variations are always available on the eCommerce site.
+
+You complete the configuration by submitting a registration request to the Assets Rule Engine Service using a GraphQL client. The request includes credentials and project identifiers required to establish the connection between your Commerce project and the service.
+
+
