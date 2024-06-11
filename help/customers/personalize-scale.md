@@ -66,7 +66,7 @@ With Edge Delivery Services, you can:
 
 - **Generate variations**: Allows content authors to use Generative AI to create large volumes of personalized AI-driven [text content and image variations](https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/generative-ai/generate-variations) with Adobe Firefly.
 
-- **Deploy via Edge Delivery Services Storefront**: Content on the Edge and Commerce capabilities powered by drop in components, to create bespoke shoppable experiences for your audiences.
+- **Deploy via Edge Delivery Services Storefront**: Content on the Edge and Commerce capabilities powered by drop-in components, to create bespoke shoppable experiences for your audiences.
 
 - **Commerce and Adobe Experience Manager Assets**: Generative AI product asset creation and variations at scale. Create, deliver, and monitor content delivery across any channel.
 
