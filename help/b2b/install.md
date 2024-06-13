@@ -19,8 +19,8 @@ The Adobe Commerce B2B extension, `magento/extension-b2b` is available for all s
 
 ## Supported platforms
 
-- Adobe Commerce on Cloud (ECE) : All supported versions
-- Adobe Commerce on-premises (EE) : All supported versions
+- Adobe Commerce on cloud infrastructure (ECE)
+- Adobe Commerce on-premises (EE)
 
 ## Installation steps
 
