@@ -12,10 +12,6 @@ The Adobe Commerce B2B extension is only available for Adobe Commerce v2.2.0 or 
 
 Install the most recent version of the B2B extension that is supported on the deployed Adobe Commerce version.
 
->[!NOTE]
->
->These installation instructions apply to Adobe Commerce deployed on premises. To install the B2B extension for Commerce projects deployed on cloud infrastructure, see the [Commerce Cloud Infrastructure Guide](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html).
-
 ## Requirements
 
 - Adobe Commerce version 2.3.x or later
@@ -30,6 +26,66 @@ Before installing or upgrading the B2B extension, check the release notes for th
 - [Adobe Commerce Release Notes](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html?lang=en)
 
 ## Installation steps
+
+>[!BEGINTABS]
+
+>[!TAB Cloud infrastructure]
+
+>[!TIP]
+>
+>When installing Adobe Commerce B2B on cloud infrastructure, Adobe recommends that you deploy your Adobe Commerce application to an Integration or Staging environment before beginning.
+
+Adobe recommends working in a development branch when adding the B2B module to your project. If you do not have a branch, see [Create a branch for development](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches). When installing the B2B module, the `Magento_B2b` module name is automatically inserted in the `app/etc/config.php` file. There is no need to edit the file directly.
+
+**To install the B2B module**:
+
+1. On your local workstation, change to your project directory.
+
+1. Create or check out a development branch.
+
+1. Add the B2B module to the `require` section of the `composer.json` file.
+
+   ```bash
+   composer require magento/extension-b2b --no-update
+   ```
+
+1. Update the project dependencies.
+
+   ```bash
+   composer update
+   ```
+
+1. Add, commit, and push code changes.
+
+   ```bash
+   git add -A
+   ```
+
+   ```bash
+   git commit -m "Install the B2B module."
+   ```
+
+   ```bash
+   git push origin <branch-name>
+   ```
+
+1. After the build and deploy finishes, use SSH to log in to the remote environment and verify that the B2B module installed.
+
+   ```bash
+   bin/magento module:status Magento_B2b
+   ```
+
+   An extension name uses the format: `<VendorName>_<ComponentName>`.
+
+   Sample response:
+
+   ```terminal
+   Magento_B2b : Module is enabled
+   ```
+
+   If you encounter deployment errors, see [Recover from component failure](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment).
+
+>[!TAB On-premises]
 
 1. From the Adobe Commerce application root directory, update the `composer.json` to add the dependencies for the B2B extension:
 
@@ -71,7 +127,9 @@ Before installing or upgrading the B2B extension, check the release notes for th
    >
    >In Production mode, you might receive a message to `Please rerun Magento compile command`. Enter the commands to complete the installation. Adobe Commerce does not prompt you to run the compile command in Developer mode.
 
-After completing the installation, configure and start message consumers, including [specifying parameters for message consumers](#configure-message-consumers).
+>[!ENDTABS]
+
+After completing the installation, configure and start message consumers.
 
 ## Message consumers
 
@@ -149,4 +207,27 @@ You can also configure schedules for message consumers from the [Store Configura
 
 ## Enable B2B features in the Admin
 
-After installing the Adobe Commerce B2B extension and starting message consumers, you must also [enable B2B features in the Admin](enable-basic-features.md).
+After installing the Adobe Commerce B2B module and starting message consumers, you must also [enable B2B features in the Admin](enable-basic-features.md).
+
+## Manage the B2B module
+
+When you install the B2B module using Composer, the deployment process automatically enables the module. If you already have the B2B module installed, you can enable or disable the module using the CLI
+
+Enable the B2B module:
+
+```bash
+bin/magento module:enable Magento_B2b
+```
+
+Sample response:
+
+```terminal
+The following modules have been enabled:
+- Magento_B2b
+
+Cache cleared successfully.
+Generated classes cleared successfully. Please run the 'setup:di:compile' command to generate classes.
+Info: Some modules might require static view files to be cleared. To do this, run 'module:enable' with the --clear-static-content option to clear them.
+```
+
+See [Manage extensions](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions).
