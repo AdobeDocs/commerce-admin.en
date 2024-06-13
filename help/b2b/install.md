@@ -8,24 +8,41 @@ exl-id: a6947212-1708-40ae-9e81-874467eba5e1
 
 # Install the [!DNL Adobe Commerce B2B] extension
 
-The Adobe Commerce B2B extension is only available for Adobe Commerce v2.2.0 or later. It is installed after installing Adobe Commerce.
+The Adobe Commerce B2B extension, `magento/extension-b2b` is only available for Adobe Commerce v2.2.0 or later. It is installed after installing Adobe Commerce.
 
-Install the most recent version of the B2B extension that is supported on the deployed Adobe Commerce version.
+The B2B extension is delivered as a composer metapackage from the [repo.magento.com](https://repo.magento.com/) repository. The metapackage includes the collection of modules that enable the B2B capabilities for an Adobe Commerce instance.
 
 ## Requirements
 
-- Adobe Commerce version 2.3.x or later
-- [Supported version of the B2B extension](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability)
-- Valid [authentication keys](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) to download Adobe Commerce extensions.
+- [Adobe Commerce](https://business.adobe.com/products/magento/magento-commerce.html) 2.3.x+
+- PHP 8.1 / 8.2 / 8.3
+- [!DNL Composer]
+
+## Supported platforms
+
+- Adobe Commerce on Cloud (ECE) : 2.4.3+
+- Adobe Commerce on-premises (EE) : 2.4.3+
+
+## Installation steps
+
+>[!BEGINSHADEBOX]
+
+**Prerequisite**
+
+- Access to [repo.magento.com](https://repo.magento.com/) to download the install the extension. For key generation and obtaining the necessary rights, see [Get your authentication keys](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys).
 
   Save authentication keys for installation by defining them globally in your [COMPOSER_HOME](https://getcomposer.org/doc/03-cli.md#composer-home) directory. Or, save them to an [auth.json](https://developer.adobe.com/commerce/contributor/guides/install/clone-repository/#authentication-file) file in the Adobe Commerce application root directory.
 
-Before installing or upgrading the B2B extension, check the release notes for the most current information about version compatibility, updates, or changes that can affect installation or upgrade requirements.
+- [Supported version of the B2B extension](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability)–Determine the most recent version of the B2B extension that is supported on the deployed Adobe Commerce version.
 
-- [B2B Release Notes](release-notes.md)
-- [Adobe Commerce Release Notes](https://experienceleague.adobe.com/en/docs/commerce-operations/release/versions)
+- Check the release notes for the most current information about version compatibility, updates, or changes that can affect installation or upgrade requirements.
 
-## Installation steps
+  - [B2B Release Notes](release-notes.md)
+  - [Adobe Commerce Release Notes](https://experienceleague.adobe.com/en/docs/commerce-operations/release/versions)
+
+>[!ENDSHADEBOX]
+
+Install the B2B extension (`magento/b2b-extension`) using Composer. The extension is a composer metapackage that includes the collection of modules that enable the B2B capabilities for an Adobe Commerce instance. For a list of included modules, see [B2B Packages](packages.md).
 
 >[!BEGINTABS]
 
@@ -35,15 +52,15 @@ Before installing or upgrading the B2B extension, check the release notes for th
 >
 >When installing Adobe Commerce B2B on cloud infrastructure, Adobe recommends that you deploy your Adobe Commerce application to an Integration or Staging environment before beginning.
 
-Adobe recommends working in a development branch when adding the B2B module to your project. If you do not have a branch, see [Create a branch for development](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches). When installing the B2B module, the `Magento_B2b` module name is automatically inserted in the `app/etc/config.php` file. There is no need to edit the file directly.
+Adobe recommends working in a development branch when adding the B2B extension to your project. If you do not have a branch, see [Create a branch for development](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches). When installing the B2B extension, the `Magento_B2b` extension name is automatically inserted in the `app/etc/config.php` file. There is no need to edit the file directly.
 
-**To install the B2B module**:
+**To install the B2B extension**:
 
 1. On your local workstation, change to your project directory.
 
 1. Create or check out a development branch.
 
-1. Add the B2B module to the `require` section of the `composer.json` file.
+1. Add the B2B extension to the `require` section of the `composer.json` file.
 
    ```bash
    composer require magento/extension-b2b --no-update
@@ -62,14 +79,18 @@ Adobe recommends working in a development branch when adding the B2B module to y
    ```
 
    ```bash
-   git commit -m "Install the B2B module."
+   git commit -m "Install the B2B extension."
    ```
 
    ```bash
    git push origin <branch-name>
    ```
 
-1. After the build and deploy finishes, use SSH to log in to the remote environment and verify that the B2B module is installed.
+   >[!NOTE]
+   >
+   >Pushing the updates initiates the Commerce cloud deployment process to apply the changes. Check the deployment status from the [deploy log](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process). If you encounter deployment errors, see [Recover from component failure](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment).
+
+1. After the build and deploy finishes, use SSH to log in to the remote environment and verify that the B2B extension is installed.
 
    ```bash
    bin/magento module:status Magento_B2b
@@ -82,8 +103,6 @@ Adobe recommends working in a development branch when adding the B2B module to y
    ```terminal
    Magento_B2b : Module is enabled
    ```
-
-   If you encounter deployment errors, see [Recover from component failure](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment).
 
 >[!TAB On-premises]
 
@@ -207,9 +226,9 @@ You can also configure schedules for message consumers from the [Store Configura
 
 ## Enable B2B features in the Admin
 
-After installing the Adobe Commerce B2B module and starting message consumers, you must also [enable B2B features in the Admin](enable-basic-features.md).
+After installing the Adobe Commerce B2B extension and starting message consumers, you must also [enable B2B features in the Admin](enable-basic-features.md).
 
-## Manage the B2B module
+## Manage the B2B extension
 
 When you install the B2B module using Composer, the deployment process automatically enables the module. If you already have the B2B module installed, you can enable or disable the module using the CLI.
 
