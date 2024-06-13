@@ -56,7 +56,7 @@ The [!DNL Commerce] Support team does not have access to the account and cannot 
 
    ![Manage permissions for shared access](./assets/shared-manage-permissions.png){width="600" zoomable="yes"}
 
-[!NOTE]> It's not required to share access to the _[!UICONTROL Security Tool]_ - Any user with a MAGE ID cab set up the Security Scan Tool with their own account. They just need the necessary privileges to make changes to the site and to verify ownership of the domain using one of the [required methods]((https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan)).
+[!NOTE]> It's not required to share access to the _[!UICONTROL Security Tool]_ - Any user with a MAGE ID can set up the Security Scan Tool with their own account. They just need the necessary privileges to make changes to the site and to verify ownership of the domain using one of the [required methods]((https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan)).
 
 ## Access a shared account
 
