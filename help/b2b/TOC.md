@@ -58,4 +58,4 @@ recommendations: noDisplay
 + Reference {#reference}
   + [Backward-incompatible changes](backward-incompatible-changes.md)
   + [Packages](packages.md)
-- [Return to Commerce Capabilities](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Return to Merchant Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
