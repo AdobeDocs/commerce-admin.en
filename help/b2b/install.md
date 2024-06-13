@@ -69,7 +69,7 @@ Adobe recommends working in a development branch when adding the B2B module to y
    git push origin <branch-name>
    ```
 
-1. After the build and deploy finishes, use SSH to log in to the remote environment and verify that the B2B module installed.
+1. After the build and deploy finishes, use SSH to log in to the remote environment and verify that the B2B module is installed.
 
    ```bash
    bin/magento module:status Magento_B2b
@@ -145,7 +145,7 @@ The Adobe Commerce B2B extension uses MySQL for message queue management. The fo
 | `purchaseorder.validation`               | Validates purchase order against relevant [approval rules](account-dashboard-approval-rules.md). Required when the [**[!UICONTROL Purchase Orders]**](purchase-order-flow.md) option is enabled in the Admin System configuration settings.                                                                                                                                                                                                                                                                              |
 | `quoteItemCleaner`                       | Deletes invalid or inactive price quotes when a product is deleted from the catalog or removed from the cart. Required when the [**[!UICONTROL Quotes]**](quotes.md) option is enabled in the Admin System configuration settings.                                                                                                                                                                                                                                                                                       |
 | `inventoryQtyCounter`                    | Asynchronously corrects the stock index after an order is placed or a product is removed. Required when the [**[!UICONTROL Use deferred stock update]**](../configuration-reference/catalog/inventory.md#product-stock-options) option is enabled for Inventory Management in the Admin configuration settings. See [Performance Best Practices](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/configuration#deferred-stock-update).                                       |
-| `async.operations.all`                   | Creates messages for each individual task of a [bulk operation](https://developer.adobe.com/commerce/php/development/components/message-queues/bulk-operations/)such as importing or exporting items, changing prices on a mass scale, and assigning products to a warehouse. Required when the [**Admin bulk operations**](../configuration-reference/catalog/inventory.md#admin-bulk-operations) option for [!DNL Inventory Management] is set to **Run asynchronously** in the Admin System configuration settings. |
+| `async.operations.all`                   | Creates messages for each individual task of a [bulk operation](https://developer.adobe.com/commerce/php/development/components/message-queues/bulk-operations/) such as importing or exporting items, changing prices on a mass scale, and assigning products to a warehouse. Required when the [**Admin bulk operations**](../configuration-reference/catalog/inventory.md#admin-bulk-operations) option for [!DNL Inventory Management] is set to **Run asynchronously** in the Admin System configuration settings. |
 
 {style="table-layout:auto"}
 
