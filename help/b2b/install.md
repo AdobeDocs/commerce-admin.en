@@ -8,7 +8,7 @@ exl-id: a6947212-1708-40ae-9e81-874467eba5e1
 
 # Install the [!DNL Adobe Commerce B2B] extension
 
-The Adobe Commerce B2B extension, `magento/extension-b2b` is only available for Adobe Commerce v2.2.0 or later. It is installed after installing Adobe Commerce.
+The Adobe Commerce B2B extension, `magento/extension-b2b` is available for all supported versions of Adobe Commerce. It is installed after installing Adobe Commerce.
 
 
 ## Requirements
@@ -19,8 +19,8 @@ The Adobe Commerce B2B extension, `magento/extension-b2b` is only available for 
 
 ## Supported platforms
 
-- Adobe Commerce on Cloud (ECE) : 2.4.3+
-- Adobe Commerce on-premises (EE) : 2.4.3+
+- Adobe Commerce on Cloud (ECE) : All supported versions
+- Adobe Commerce on-premises (EE) : All supported versions
 
 ## Installation steps
 
@@ -89,7 +89,7 @@ Adobe recommends working in a development branch when adding the B2B extension t
    >
    >Pushing updates to the cloud environment initiates the Commerce cloud deployment process to apply the changes. Check the deployment status from the [deploy log](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process). If you encounter deployment errors, see [Recover from component failure](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment).
 
-1. After the build and deploy finishes, use SSH to log in to the remote environment and verify that the B2B extension is installed.
+1. After the build and deploy finishes, use SSH to log in to the remote environment and verify that the B2B extension is installed and enabled.
 
    ```bash
    bin/magento module:status Magento_B2b
