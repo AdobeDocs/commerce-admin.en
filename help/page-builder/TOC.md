@@ -40,3 +40,5 @@ role: User
   - [Products](products.md)
   - [Product Recommendations](recommendations.md)
 - [Templates](templates.md)
+- [Return to Merchant Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+
