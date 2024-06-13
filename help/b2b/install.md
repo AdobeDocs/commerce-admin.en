@@ -227,25 +227,3 @@ You can also configure schedules for message consumers from the [Store Configura
 
 After installing the Adobe Commerce B2B extension and starting message consumers, you must also [enable B2B features in the Admin](enable-basic-features.md).
 
-## Manage the B2B extension
-
-When you install the B2B module using Composer, the deployment process automatically enables the module. If you already have the B2B module installed, you can enable or disable the module using the CLI.
-
-Enable the B2B module:
-
-```bash
-bin/magento module:enable Magento_B2b
-```
-
-Sample response:
-
-```terminal
-The following modules have been enabled:
-- Magento_B2b
-
-Cache cleared successfully.
-Generated classes cleared successfully. Please run the 'setup:di:compile' command to generate classes.
-Info: Some modules might require static view files to be cleared. To do this, run 'module:enable' with the --clear-static-content option to clear them.
-```
-
-See [Manage extensions](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions).
