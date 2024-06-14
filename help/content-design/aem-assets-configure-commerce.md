@@ -1,5 +1,5 @@
 ---
-title: Install and configure
+title: Install and configure the Experience Manager Assets Integration 
 description: "Learn how to install and configure the [!DNL AEM Assets Integration for Adobe Commerce]"
 feature: CMS, Media
 ---

@@ -10,7 +10,6 @@ The Asset Rules Engine Service (ARES) is a multi-tenant service that integrates 
 
 To set up the service, you need to register your tenant ID using the ARES GraphQL API and select the matching strategy for synchronizing assets.
 
-
 ## Register a tenant
 
 >[!BEGINSHADEBOX]
@@ -82,6 +81,7 @@ After you set up synchronization services, the last step of the onboarding proce
    1. Set **[!UICONTROL Integration enabled]** to `yes`.
 
       ![AEM Assets Integration for Commerce Admin configuration](assets/aem-integration-admin-enable.png){width="600" zoomable="yes"}
+
 
 
 

@@ -29,6 +29,15 @@ Adobe Experience Manager (AEM) Assets integration with Adobe Commerce brings tog
 **Prerequisites**
 
 - Adobe Commerce must be configured with the [Commerce Admin integration with Adobe ID](/help/getting-started/adobe-ims-config.md), with an assigned Organization ID.
-- Adobe Commerce and Experience Manager Assets or Assets Essentials must be assigned as a product to the user configuring the integration.
+- The user configuring the integration must be Adobe Commerce and Experience Manager Assets or Assets Essentials must be assigned as a product to the user configuring the integration.
 
-To get started, complete the [Installation and Onboarding](aem-assets-install.md) process.
+## Getting started
+
+To use the Experience Manager integration for Commerce, you have to onboard the service which requires completing the following steps:
+
+1. [Configure your Experience Manager Assets project to manage Commerce assets](aem-assets-configure-aem.md).
+
+1. [Install the Experience Manager Assets Integration extension and configure Adobe Commerce](aem-assets-configure-aem.md)
+
+1. [Set up synchronization services](aem-assets-setup-synchronization.md)
+
