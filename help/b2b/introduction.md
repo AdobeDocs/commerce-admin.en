@@ -1,12 +1,12 @@
 ---
-title: Introduction to [!DNL B2B for Adobe Commerce]
+title: Introduction to [!DNL Adobe Commerce B2B]
 description: Learn how to use integrated B2B features to meet your needs for customers that are companies.
 exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
 ---
-# Introduction to [!DNL B2B for Adobe Commerce]
+# Introduction to [!DNL Adobe Commerce B2B]
 
-Unlike the standard business-to-consumer model, integrated B2B (Business to Business) features are designed to meet the needs of sellers (Adobe Commerce merchants) who have customers that are companies. It accommodates companies with complex organizational structures and multiple users with various roles and levels of purchasing permission. A typical B2B customer might be the manager of a retail store, or a buyer that makes purchases on behalf of a company. In both cases, the transaction takes place between your business and theirs. You might also sell products direct to the consumer. [!DNL B2B for Adobe Commerce] is an integrated solution that provides support for both B2B and B2C models.
+Unlike the standard business-to-consumer model, integrated B2B (Business to Business) features are designed to meet the needs of sellers (Adobe Commerce merchants) who have customers that are companies. It accommodates companies with complex organizational structures and multiple users with various roles and levels of purchasing permission. A typical B2B customer might be the manager of a retail store, or a buyer that makes purchases on behalf of a company. In both cases, the transaction takes place between your business and theirs. You might also sell products direct to the consumer. [!DNL Adobe Commerce B2B] is an integrated solution that supports both B2B and B2C models.
 
 With the [installation](install.md) and [enablement](enable-basic-features.md) of the B2B extension in your Adobe Commerce store, the buying experience can be personalized with customer-specific catalogs and pricing, and targeted content and promotions.
 

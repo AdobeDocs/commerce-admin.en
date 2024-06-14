@@ -124,7 +124,7 @@ Only sales orders that are not invoiced, have a status of `Processing`, and a [p
 |[!UICONTROL Order Date]|The date and time the order was placed.|
 |[!UICONTROL Purchased From]|Indicates the website, store, and store view where the order was placed.|
 |[!UICONTROL Placed from IP]|Indicates the IP address of the computer from which the order was placed.|
-|[!UICONTROL Order Placed from Quote]|![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce) Indicates the [quote](../b2b/quotes.md) from which the order was generated, if applicable. The quote name is linked to the quote.|
+|[!UICONTROL Order Placed from Quote]|![Adobe Commerce B2B](../assets/b2b.svg) (Available with Adobe Commerce B2B) Indicates the [quote](../b2b/quotes.md) from which the order was generated, if applicable. The quote name is linked to the quote.|
 
 {style="table-layout:auto"}
 
@@ -135,7 +135,7 @@ Only sales orders that are not invoiced, have a status of `Processing`, and a [p
 |[!UICONTROL Customer Name]|The name of the customer or buyer who placed the order. The Customer Name is linked to the customer profile.|
 |[!UICONTROL Email]|The email address of the customer or buyer. The email address is linked to open a new email message.|
 |[!UICONTROL Customer Group]|The name of the customer group or shared catalog to which the customer is assigned.|
-|[!UICONTROL Company Name]|![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce) The name of the company with which the buyer is associated, and on whose behalf the order is placed. The company name is linked to the [company profile](../b2b/account-companies.md).|
+|[!UICONTROL Company Name]|![Adobe Commerce B2B](../assets/b2b.svg) (Available with Adobe Commerce B2B) The name of the company with which the buyer is associated, and on whose behalf the order is placed. The company name is linked to the [company profile](../b2b/account-companies.md).|
 
 {style="table-layout:auto"}
 
@@ -214,9 +214,9 @@ In the **[!UICONTROL Order Total]** section, do the following:
 |[!UICONTROL Total Refunded]|The total amount refunded from the order, if applicable.|
 |[!UICONTROL Total Due]|The total amount that is due.|
 |[!UICONTROL Store Credit]|![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) The amount of available store credit that is applied to the order, if applicable.|
-|[!UICONTROL Catalog Total Price]|![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce) The total price of the items in the quote without tax, according to pricing in the shared catalog or standard catalog that is used as the basis of the quote. If the storefront display currency differs from the base currency, the value appears in both currencies, with the storefront display in square brackets.|
-|[!UICONTROL Negotiated Discount]|![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce) The discount that is the result of a quote negotiated between buyer and seller. If the storefront display currency differs from the base currency, the value appears in both currencies, with the storefront display in square brackets.|
-|[!UICONTROL Subtotal]|![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce) The Catalog Total Price less the Negotiated Discount.|
+|[!UICONTROL Catalog Total Price]|![Adobe Commerce B2B](../assets/b2b.svg) (Available with Adobe Commerce B2B) The total price of the items in the quote without tax, according to pricing in the shared catalog or standard catalog that is used as the basis of the quote. If the storefront display currency differs from the base currency, the value appears in both currencies, with the storefront display in square brackets.|
+|[!UICONTROL Negotiated Discount]|![Adobe Commerce B2B](../assets/b2b.svg) (Available with Adobe Commerce B2B) The discount that is the result of a quote negotiated between buyer and seller. If the storefront display currency differs from the base currency, the value appears in both currencies, with the storefront display in square brackets.|
+|[!UICONTROL Subtotal]|![Adobe Commerce B2B](../assets/b2b.svg) (Available with Adobe Commerce B2B) The Catalog Total Price less the Negotiated Discount.|
 
 {style="table-layout:auto"}
 

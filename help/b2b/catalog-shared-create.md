@@ -125,7 +125,7 @@ To see a demonstration of shared catalog management, watch this video:
 |Field|Description|
 |--- |--- |
 |[!UICONTROL Name]|Identifies the shared catalog throughout the Admin, and in the customer accounts where it is available. The catalog name should be descriptive and no more than 32 characters in length. You cannot have two shared catalogs with the same name. Maximum characters: 32|
-|[!UICONTROL Type]|**[!UICONTROL Custom]** - Identifies a catalog with custom pricing that is available only to the specific companies to which it is assigned.<br/>**[!UICONTROL Public]** - Identifies the shared catalog that is available to all guest visitors and to logged-in customers who are not associated with a company. A default public shared catalog is created when [!DNL B2B for Adobe Commerce] is installed, but must be configured by a store administrator. Only one public shared catalog can exist at a time.|
+|[!UICONTROL Type]|**[!UICONTROL Custom]** - Identifies a catalog with custom pricing that is available only to the specific companies to which it is assigned.<br/>**[!UICONTROL Public]** - Identifies the shared catalog that is available to all guest visitors and to logged-in customers who are not associated with a company. A default public shared catalog is created when [!DNL Adobe Commerce B2B] is installed, but must be configured by a store administrator. Only one public shared catalog can exist at a time.|
 |[!UICONTROL Customer Tax Class]|Determines the tax class that is used for purchases made from the catalog. The options include all available tax classes.|
 |[!UICONTROL Description]|A brief explanation of how the catalog is to be used.|
 

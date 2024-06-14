@@ -25,4 +25,4 @@ For detailed information about configuring these multishipping settings for your
 
 >[!NOTE]
 >
->![B2B for Adobe Commerce](../../assets/b2b.svg) (Available with B2B for Adobe Commerce only) For orders with multiple shipping addresses, the [Payment on Account](../../b2b/enable-basic-features.md#configure-payment-on-account) payment method, even if enabled, is not available during the checkout.
+>![Adobe Commerce B2B](../../assets/b2b.svg) (Available with Adobe Commerce B2B only) For orders with multiple shipping addresses, the [Payment on Account](../../b2b/enable-basic-features.md#configure-payment-on-account) payment method, even if enabled, is not available during the checkout.
