@@ -215,7 +215,7 @@ Enable the Commerce eventing framework by using the instructions for the environ
 
    1. Set **[!UICONTROL Enabled]** to `Yes`.
 
-      ![Adobe I/O Events Commerce Admin configuration - enable Commerce events](assets/aem-enable-io-event-admin.png){width="600" zoomable="yes"}
+      ![Adobe I/O Events Commerce Admin configuration - enable Commerce events](assets/aem-enable-io-event-admin-config.png){width="600" zoomable="yes"}
 
       >[!NOTE]
       >
@@ -249,7 +249,7 @@ You generate the credentials by adding the integration to the Commerce instance 
 E
    1. Select the external media resource (**[!UICONTROL Catalog > Inventory > Products > External Media]**.
 
-     ![Admin Integration config for API resources](./assets/aem-commerce-integration-api-resources.png){width="600" zoomable="yes"}
+     ![Admin Integration config for API resources](assets/aem-commerce-integration-api-resources.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Save]**.
 
@@ -259,7 +259,7 @@ On the Integrations page, generate the OAuth authentication credentials by click
 
 1. From the Integrations page, generate the credentials by clicking **[!UICONTROL Activate]**.
 
-   ![Save Commerce configuration for Assets integration](./assets/aem-save-commerce-integration.png){width="600" zoomable="yes"}
+   ![Activate Commerce configuration for Assets integration](assets/aem-activate-commerce-integration.png){width="600" zoomable="yes"}
 
 1. Save the credentials for the consumer key and access token for later use.
 
