@@ -68,9 +68,9 @@ ruleType: 2 different rules available: matchBySkuRule and externalMatcher
 
 ### Enable the Experience Manager Assets integration
 
-After you set up synchronization services, the last step of the onboarding process is to  enable the Experience Manager Assets integration in the Admin.
+After you set up synchronization services, the last step of the onboarding process is enabling the Experience Manager Assets Integration for Commerce extension in the Admin.
 
-1. Enable the integration.
+1. Enable the extension.
 
    1. Go to **Stores** > Settings > **Configuration** > **Catalog**.
 

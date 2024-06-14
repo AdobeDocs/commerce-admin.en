@@ -10,7 +10,6 @@ feature: CMS, Media, Integration
 In Experience Manager assets, each asset is described by metadata which enables users to find assets, understand them more fully, and make decisions about managing and using them.
 
 - **[Metadata profiles](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles)** let you apply default metadata to assets within a folder. All assets in the folder inherit the default metadata configured in the profile.
- A Metadata Schema defines a set of fields that can be used as metadata properties on an AEM asset.
 
 - **[Metadata schema](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-schemas)** defines the layout of the properties page and the set of fields that can be used as metadata properties on an AEM asset.
 

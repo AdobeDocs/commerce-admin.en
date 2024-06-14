@@ -1,0 +1,11 @@
+{
+    "cSpell.words": [
+        "hidefromtoc",
+        "metapackage",
+        "UICONTROL"
+    ],
+    "github-enterprise.uri": "https://git.corp.adobe.com",
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "main"
+    ]
+}
