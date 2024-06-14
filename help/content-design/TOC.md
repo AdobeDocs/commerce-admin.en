@@ -73,3 +73,5 @@ feature: CMS, Page Content
   - [Staging dashboard](content-staging-dashboard.md)
   - [Add a campaign item](content-staging-add-item.md)
   - [Preview a campaign](content-staging-preview.md)
+- [Return to Merchant Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+
