@@ -1,9 +1,9 @@
 ---
-title: Configure metadata for Commerce assets
-description: Add metadata required for the AEM Assets Integration for Commerce to Experience Manager Assets metadata profile and schemas
+title: Configure Experience Manager Assets
+description: Add the asset metadata required to enable the AEM Assets Integration for Commerce to synchronize assets between Adobe Commerce and Experience Manager Assets projects.
 feature: CMS, Media, Integration
 ---
-# Configure AEM Assets
+# Configure Experience Manager Assets
 
 {{$include /help/_includes/aem-assets-integration-beta-note.md}}
 

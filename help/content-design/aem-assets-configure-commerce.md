@@ -246,12 +246,10 @@ You generate the credentials by adding the integration to the Commerce instance 
 1. Configure API resources.
 
    1. From the left panel, click **[!UICONTROL API]**.
-
-   1. 
+E
+   1. Select the external media resource (**[!UICONTROL Catalog > Inventory > Products > External Media]**.
 
      ![Admin Integration config for API resources](./assets/aem-commerce-integration-api-resources.png){width="600" zoomable="yes"}
-
-   1. Set **Resource Access** to **External **.
 
 1. Click **[!UICONTROL Save]**.
 
@@ -274,64 +272,13 @@ On the Integrations page, generate the OAuth authentication credentials by click
 >You can also generate authentication credentials using the Adobe Commerce APIs. For details, about this process and more information about OAuth-based authentication for Adobe Commerce, see [OAuth-based authentication](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) in the Adobe Developer documentation.
 
 
-## Configure AEM
-
-A configured production environment is required for an Experience Manager Assets instance to connect with the Commerce tenant.
-
-## Onboard a tenant
-
-Integration AEM Assets and Adobe Commerce requires configuration to enable synchronization between these two systems using the Assets Rule Engine Service. This service automatically matches assets in AEM to products in Adobe Commerce based on SKU or other key attributes. It also ensures that the latest product assets and variations are always available on the eCommerce site.
-
-You complete the configuration by submitting a registration request to the Assets Rule Engine Service using a GraphQL client. The request includes credentials and project identifiers required to establish the connection between your Commerce project and the service.
-
-You must provide the following information:
-
-
-
-Credentials:
-
-
-AEM project and environment ID—Get these credentials from the AEM URL 
-
-https://author-p73105-e167213-cmstg.adobeaemcloud.com/aem/start.html
-
-```graphql
-mutation registerTenant($tenantInput: TenantInput!) {
-    registerTenant(tenantInput: $tenantInput) {
-        tenantId
-        userErrors {
-            message
-            path
-        }
-    }
-}
-```
-
-enabled: Enable/disable sync.
-threshold (0-100): Not in use. Optional. A minimum % of accuracy is required to FULL sync an existing catalog in Commerce with its assets in AEM assets.
-projectId: SaaS project Id (from Commerce Services Connector)
-aem: Program and environment identifier from the AEM asset organization owning the repository of assets.
-commerce: Commerce credentials
-version and extensionVersion are optional and could be omitted.
-ruleType: 2 different rules available: matchBySkuRule and externalMatcher
 
 
 
 
-### Enable the Experience Manager Assets integration
 
-From the Admin, enable the Experience Manager Assets integration, and then activate the integration to generate the authentication credentials required for API authentication.
 
-1. Enable the integration.
 
-   1. Go to **Stores** > Settings > **Configuration** > **Catalog**.
 
-   1. Open the Catalog configuration by selecting **[!UICONTROL Catalog]**.
-
-   1. Expand **[!UICONTROL AEM Assets integration]**.
-
-   1. Set **[!UICONTROL Integration enabled]** to `yes`.
-
-      ![AEM Assets Integration for Commerce Admin configuration](./assets/aem-integration-admin-config.png){width="600" zoomable="yes"}
 
 

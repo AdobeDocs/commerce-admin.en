@@ -59,8 +59,10 @@ feature: CMS, Page Content
     - [Dynamic media URLs](catalog-urls-dynamic-media.md)
   - AEM Assets {#aem-assets}
     - [Experience Manager Assets Integration](aem-assets.md)
-    - [Install and configure](aem-assets-install.md)
-    - [Map Assets using the integration](aem-assets-mapping.md)
+    - Onboarding {#onboarding}
+       - [Set up mapping in AEM Assets](aem-assets-configure-aem.md)
+       - [Configure Adobe Commerce ](aem-assets-configure-commerce.md)
+       - [Set up synchronization services](aem-assets-setup-synchronization.md)
     - [Use AEM Assets](aem-assets-manage.md)
   - Adobe Stock {#adobe-stock}
     - [Adobe Stock integration](adobe-stock.md)
