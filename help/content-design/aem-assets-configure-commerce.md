@@ -237,7 +237,7 @@ You generate the credentials by adding the integration to the Commerce instance 
 
    In the **General** section, only specify the integration **Name** and **Email**. Use the email for an Adobe IMS account with access to the organization where Commerce and Experience Manager Assets are deployed.
 
-   ![AEM Assets Integration for Commerce Admin configuration](./assets/aem-add-commerce-integration.png){width="600" zoomable="yes"}
+   ![AEM Assets Integration for Commerce Admin configuration](assets/aem-add-commerce-integration.png){width="600" zoomable="yes"}
 
 1. Verify your identity by clicking **Confirm Identity**.
 

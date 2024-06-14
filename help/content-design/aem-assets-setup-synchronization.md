@@ -81,7 +81,7 @@ After you set up synchronization services, the last step of the onboarding proce
 
    1. Set **[!UICONTROL Integration enabled]** to `yes`.
 
-      ![AEM Assets Integration for Commerce Admin configuration](./assets/aem-integration-admin-config.png){width="600" zoomable="yes"}
+      ![AEM Assets Integration for Commerce Admin configuration](assets/aem-integration-admin-enable.png){width="600" zoomable="yes"}
 
 
 
