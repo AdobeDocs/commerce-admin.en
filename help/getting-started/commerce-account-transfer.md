@@ -8,7 +8,7 @@ feature: User Account
 
 As business responsibilities change, you might need to transfer the ownership of your existing Commerce account to a new owner or to another email address. This transfer requires a change to the primary user email associated with the account. 
 
-The following information describes the process for transferring a Commerce (MAGEID) account. It does not include changes for cloud account (cloud project) ownership. For more information about cloud project access, see [Manage user access](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) in the _Commerce on Cloud Infrastructure Guide_.
+The following information describes the process for transferring a Commerce (MAGEID) account. It does not include changes for Cloud account (Cloud project or New Relic) ownership. For more information about cloud project access, see [Manage user access](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) in the _Commerce on Cloud Infrastructure Guide_.
 
 ## Identify your transfer type
 
