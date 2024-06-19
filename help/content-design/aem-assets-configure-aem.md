@@ -72,6 +72,13 @@ For the initial onboarding, update the AEM Assets configuration with Commerce me
 
 1. Click **[!UICONTROL Save]**.
 
+
+## Add an asset to the Commerce folder
+
+Create at least one asset in the AEM Assets Commerce folder that has the Commerce metadata attributes assigned.
+
+This asset is required to [setup synchronization](setup-synchronization) between your Commerce instance and AEM Assets.
+
 ## Map metadata for assets
 
 Metadata maps when an asset is pushed from Commerce for the first time. Media assets that have the built-in or custom fields automatically map to the specified fields the first time an asset is sent to Experience Manager Assets.

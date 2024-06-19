@@ -8,7 +8,15 @@ feature: CMS, Media
 
 The Asset Rules Engine Service (ARES) is a multi-tenant service that integrates AEM Assets with Adobe Commerce. This service synchronizes assets between Adobe Commerce and Experience Manager. The ARES service automatically matches assets in AEM to products in Adobe Commerce based on SKU or other key attributes. It also ensures that the latest product assets and variations are always available on the ecommerce site.
 
-To set up the service, you need to register your tenant ID using the ARES GraphQL API and select the matching strategy for synchronizing assets.
+To set up the service, you need to register your tenant ID using the ARES GraphQL API and select the matching rule for synchronizing assets.
+
+## Choose a matching strategy
+
+Before you can register your tenant, determine the matching strategy for synchronizing assets between Adobe Commerce and AEM Assets.
+
+- **MatchBySku**-This is the default matching rule that matches assets based on the Stock Keeping Unit (SKU) of the product. The SKU is a unique identifier for each product, and this rule ensures that images and other assets are correctly associated with their corresponding products by matching the SKU in the asset metadata with the SKU in the Commerce catalog.
+
+- **ExternalMatcher**–This matching rule is for more complex scenarios or specific business requirements that require custom matching logic. To use this rule, you must have custom code implemented in Adobe Developer App Builder that defines how assets are matched with products. [Add link to separate topic with more info].
 
 ## Register a tenant
 
@@ -17,10 +25,8 @@ To set up the service, you need to register your tenant ID using the ARES GraphQ
 **Prerequisite**
 
 - A configured production environment is required for an Experience Manager Assets instance to connect with the Commerce tenant. See [Configure Experience Manager Assets](aem-assets-configure-aem.md)
-- Program and environment identifier from the AEM asset organization owning the repository of assets. AEM project and environment ID—Get these credentials from the AEM URL `https://author-p<project-id>-e<environment-id>-cmstg.adobeaemcloud.com/aem/start.html`.
-- Credentials to authenticate the authentication
-  - projectId: SaaS project Id (from Commerce Services Connector)
-  - commerce: Commerce credentials
+- AEM Assets integration has been configured in Adobe Commerce.
+- Commerce metadata required for mapping assets has been configured in AEM assets.
 
 >[!ENDSHADEBOX]
 
@@ -38,7 +44,6 @@ Specify the following HTTP headers for the request:
 
 **Request:**
 
-
 **Syntax**
 
 ```graphql
@@ -53,18 +58,108 @@ mutation registerTenant($tenantInput: TenantInput!) {
 }
 ```
 
-## Example usage
+**Example usage**
+
+Register a tenant and select `matchBySku` rule for 
+
+**Request:**
+
+```graphql
+   {
+      "tenantInput": {
+         "enabled": true,
+         "projectId": "8231afb6-90cd-65e8-84ba-d9abac0f94e6",
+         "aem": {
+               "programId": "11111",
+               "environmentId": "222222"
+         },
+         "commerce": {
+               "baseUrl": "https://assets-rp3st7y-efo2rc3kezxte.eu-4.magentosite.cloud",
+               "credentials": {
+                  "consumerKey": "***",
+                  "consumerSecret": "***",
+                  "accessToken": "***",
+                  "accessTokenSecret": "***"
+               }
+         },
+         "ruleType": "matchBySKU",
+         "matchBySkuRule": {
+               "metadataField": "commerce:skus"
+         }
+       }
+   }
+```
+
+**Response**
+
+```graphql
+
+Add response here
+```
+
+### Input Fields
+
+#### TenantInput
+
+Field | Data Type | Description
+`aem` | [AemInput](#aeminput) | Identifies the AEM Assets instance within the AEM Cloud Service where you will store the Commerce Assets.
+`commerce` | [CommerceInput](#commerceinput) | Provides Commerce project information and credentials for API access
+`enabled`| boolean | Enable or disable the assets sync between Adobe Commerce and AEM Assets.
+`projectId` | String! | The SaaS Project ID from the [Commerce Services Connector SaaS Identifier configuration](aem-assets-configure-commerce.md#configure-the-commerce-services-connector).
+`ruletype` | String! | Specifies the matching rule for synchronizing assets between Adobe Commerce and AEM Assets. Specify either `matchBySkuRule` or `externalMatcher`.
+`threshold` | integer | Not in use. Optional. A minimum % of accuracy is required to FULL sync an existing catalog in Commerce with its assets in AEM assets.
+`externalMatcher`| ExternalMatcherInput |
+`matchbySkuRule` | MatchBySkuRuleInput | Provides the 
+
+#### AemInput
+
+Identifies the AEM Assets instance where you will store the Commerce Assets. You can get this information from the Cloud Manager My Programs view, or from the content authoring URL 
+
+Field | Data Type | Description
+`programId` | String! | Unique identifier for your project within AEM Cloud Service
+`environmentId`| String! | Id for the project environment you are using, such as Production, Staging, or Development
+
+#### CommerceInput
+
+Provides the OAuth authentication credentials for API access to the Commerce Catalog. You can find these credentials in the Commerce [configuration settings for the Assets integration](aem-assets-configure-commerce.md#experience-manager-assets-integration-for-adobe-commerce-10-release).
+
+Field | Data Type | Description
+`baseUrl` | String | The [base URL](../stores-purchase/store-urls.md) for your Commerce storefront.
+`credentials` | [CommerceCredentialsInput](#commercecredentialsinput)! | Specifies the credentials to access the Commerce instance.
+`extensionVersion` | String | Optional. The version of the AEM Assets Integration for Commerce extension installed on the Commerce instance.
+`version` | String | Optional. The version of the Commerce application currently installed.
+
+#### CommerceCredentialsInput
+
+Provides the OAuth credentials for API access to the Commerce Catalog. You can find these credentials in the Commerce [configuration settings for the Assets integration](aem-assets-configure-commerce.md#experience-manager-assets-integration-for-adobe-commerce-10-release).
+
+Field | Data Type | Description
+`accessToken` | String! | The access token generated for the Assets integration.
+`accessTokenSecret` | String! |The access token secret generated for the Assets integration.
+`consumerKey` | String! | The consumer key generated for the Assets integration.
+`consumerSecret` | String! | The consumer secret generated for the Assets integration.
+
+#### ExternalMatcherInput
+
+Field | Data Type | Description
+assetToProductUrl | String! | 
+productToAssetUrl | String! |
+credentials | [ExternalMatcherCredentialsInput](#externalmatchercredentials)! | Credentials for accessing the App builder project for the AEM Assets integration for Commerce.
+
+#### ExternalMatcherCredentials
+
+Field | Data Type | Description
+`oauthServerUrl` | String! |
+`clientId` | String! |
+`clientSecret` | String! |
+`imsOrgId` | String! | The IMS or
+
+#### MatchBySkuRuleInput
+
+Field | Data Type | Description
+metadataField | String! | Specify the assets metadata field to use for matching. Use `commerce:skus`
 
 
-### Parameters
-
-enabled: Enable/disable sync.
-threshold (0-100): Not in use. Optional. A minimum % of accuracy is required to FULL sync an existing catalog in Commerce with its assets in AEM assets.
-projectId: SaaS project Id (from Commerce Services Connector)
-aem: Program and environment identifier from the AEM asset organization owning the repository of assets.
-commerce: Commerce credentials
-version and extensionVersion are optional and could be omitted.
-ruleType: 2 different rules available: matchBySkuRule and externalMatcher
 
 ### Enable the Experience Manager Assets integration
 

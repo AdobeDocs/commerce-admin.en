@@ -58,9 +58,9 @@ feature: CMS, Page Content
     - [Use a content delivery network](media-storage-content-delivery-network.md)
     - [Dynamic media URLs](catalog-urls-dynamic-media.md)
   - AEM Assets {#aem-assets}
-    - [Experience Manager Assets Integration](aem-assets.md)
+    - [Experience Manager Assets integration](aem-assets.md)
     - Onboarding {#onboarding}
-       - [Set up mapping in AEM Assets](aem-assets-configure-aem.md)
+       - [Configure AEM Assets](aem-assets-configure-aem.md)
        - [Configure Adobe Commerce ](aem-assets-configure-commerce.md)
        - [Set up synchronization services](aem-assets-setup-synchronization.md)
     - [Use AEM Assets](aem-assets-manage.md)
