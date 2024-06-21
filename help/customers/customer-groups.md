@@ -62,7 +62,7 @@ Customer groups determine which discounts are available and the tax class that i
 
 >[!NOTE]
 >
->To see a new prices in the catalog, a customer must re-login on the Storefront after the group is changed.
+>To see a new prices in the catalog, a customer must re-login on the Storefront, after the group is changed.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
