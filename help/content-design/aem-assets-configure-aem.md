@@ -88,5 +88,5 @@ Metadata maps when an asset is pushed from Commerce for the first time. Media as
 Before you can begin asset mapping, complete the following tasks:
 
 - [Install and configure the AEM Assets Integration for Commerce](aem-assets-configure-commerce.md)
-- [Set up synchronization services to transfer assets between your Adobe Commerce project environment and the AEM Assets project environment](aem-assetts-setup-synchronization.md)
+- [Set up synchronization services to transfer assets between your Adobe Commerce project environment and the AEM Assets project environment](aem-assets-setup-synchronization.md)
 
