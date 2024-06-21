@@ -46,8 +46,7 @@ John sits down at the computer to do some quick shopping while Jane is in the ki
 
 ### Remember Me
 
-Customers can select the _[!UICON
-TROL Remember Me]_ checkbox on the login page to save the contents of their shopping carts when the log-in session expires.
+Customers can select the _[!UICONTROL Remember Me]_ checkbox on the login page to save the contents of their shopping carts when the log-in session expires.
 
 | Remember Me? |  Result |
 | ------------ |  ------ |
