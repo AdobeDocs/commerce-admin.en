@@ -12,11 +12,13 @@ To set up the service, you need to register your tenant ID using the ARES GraphQ
 
 ## Choose a matching strategy
 
-Before you can register your tenant, determine the matching strategy for synchronizing assets between Adobe Commerce and AEM Assets.
+The AEM Assets Integration for Commerce supports two matching strategies for synchronizing assets between Adobe Commerce and AEM Assets.
 
 - **MatchBySku**-This is the default matching rule that matches assets based on the Stock Keeping Unit (SKU) of the product. The SKU is a unique identifier for each product, and this rule ensures that images and other assets are correctly associated with their corresponding products by matching the SKU in the asset metadata with the SKU in the Commerce catalog.
 
-- **ExternalMatcher**–This matching rule is for more complex scenarios or specific business requirements that require custom matching logic. To use this rule, you must have custom code implemented in Adobe Developer App Builder that defines how assets are matched with products. [Add link to separate topic with more info].
+- **ExternalMatcher**–This matching rule is for more complex scenarios or specific business requirements that require custom matching logic. To use this rule, you must have custom code implemented in Adobe Developer App Builder that defines how assets are matched with products. <!--Add link to separate topic with more info-->.
+
+For initial onboarding, use the `MatchBySku` strategy. If needed, you can change the matching strategy later.
 
 ## Register a tenant
 
@@ -24,11 +26,25 @@ Before you can register your tenant, determine the matching strategy for synchro
 
 **Prerequisite**
 
-- A configured production environment is required for an Experience Manager Assets instance to connect with the Commerce tenant. See [Configure Experience Manager Assets](aem-assets-configure-aem.md)
-- AEM Assets integration has been configured in Adobe Commerce.
-- Commerce metadata required for mapping assets has been configured in AEM assets.
+- A configured production environment is required for an Experience Manager Assets instance to connect with the Commerce tenant. See [Configure Experience Manager Assets](aem-assets-configure-aem.md).
+- Install and configure the Experience Manager Assets Integration in Adobe Commerce.
+- AEM Assets project has been configured with Commerce metadata required for mapping assets.
 
 >[!ENDSHADEBOX]
+
+## Gather credentials
+
+You need the following credentials to authenticate and connect your Commerce project environment and AEM Assets project environment with Commerce SaaS services.
+
+| Required Data | Source | Where to find it|
+| ---------- | ------ | ------------- |
+| [Organization ID](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations) | Experience Cloud | From the Experience Cloud dashboard, press Ctrl + i to display the User Data debugger. Copy and save the **[!UICONTROL Current Org ID]** value.|
+|AEM `programId`<br>`environmentId` | [AEM Assets Authoring environment](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start) | Open AEM Sites page, and select Assets.  Copy the project and environment IDs from the URL: `https://author-p[Program ID]-e[EnvironmentID].adobeaemcloud.com/`|
+| Project ID | Commerce Admin | The SaaS Project ID from the [Commerce Services Connector SaaS Identifier configuration](aem-assets-configure-commerce.md#configure-the-commerce-services-connector).|
+| baseURL | Commerce storefront | The [base URL](../stores-purchase/store-urls.md) for your Commerce storefront.|
+| OAuth credentials for API access | Commerce Admin | You can find these credentials in the Commerce [configuration settings for the Assets integration](aem-assets-configure-commerce.md#experience-manager-assets-integration-for-adobe-commerce-10-release).|
+
+## Register tenant
 
 You complete tenant registration by submitting a registration request to the Assets Rule Engine Service using a GraphQL client. The request includes credentials and project identifiers required to establish the connections between the service, the Commerce project, and the Experience Manager Assets project.
 
@@ -142,8 +158,8 @@ Field | Data Type | Description
 #### ExternalMatcherInput
 
 Field | Data Type | Description
-assetToProductUrl | String! | 
-productToAssetUrl | String! |
+assetToProductUrl | String! | <!--Add field description-->
+productToAssetUrl | String! | <!--Add field description-->
 credentials | [ExternalMatcherCredentialsInput](#externalmatchercredentials)! | Credentials for accessing the App builder project for the AEM Assets integration for Commerce.
 
 #### ExternalMatcherCredentials
@@ -159,11 +175,9 @@ Field | Data Type | Description
 Field | Data Type | Description
 metadataField | String! | Specify the assets metadata field to use for matching. Use `commerce:skus`
 
+## Enable the Experience Manager Assets integration
 
-
-### Enable the Experience Manager Assets integration
-
-After you set up synchronization services, the last step of the onboarding process is enabling the Experience Manager Assets Integration for Commerce extension in the Admin.
+After you register the tenant, the last step of the onboarding process is enabling the Experience Manager Assets Integration for Commerce extension in the Admin.
 
 1. Enable the extension.
 

@@ -22,6 +22,8 @@ For the initial onboarding, update the AEM Assets configuration with Commerce me
 | Text | **Does it exist in Adobe Commerce?** | `./jcr:content/metadata/commerce:isCommerce` | yes |
 | Multi Value Text | **Commerce mappings** | `./jcr:content/metadata/commerce:mappings` | none |
 
+Metadata maps when an asset is pushed from Commerce for the first time. Media assets that have the built-in or custom fields automatically map to the specified fields the first time an asset is sent to Experience Manager Assets.
+
 ## Configure metadata
 
 ### Add Commerce fields to a metadata profile
@@ -82,3 +84,9 @@ This asset is required to [setup synchronization](setup-synchronization) between
 ## Map metadata for assets
 
 Metadata maps when an asset is pushed from Commerce for the first time. Media assets that have the built-in or custom fields automatically map to the specified fields the first time an asset is sent to Experience Manager Assets.
+
+Before you can begin asset mapping, complete the following tasks:
+
+- [Install and configure the AEM Assets Integration for Commerce](aem-assets-configure-commerce.md)
+- [Set up synchronization services to transfer assets between your Adobe Commerce project environment and the AEM Assets project environment](aem-assetts-setup-synchronization.md)
+
