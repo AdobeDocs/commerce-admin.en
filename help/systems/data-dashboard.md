@@ -39,6 +39,10 @@ When you update products in the Commerce database, product data transfers to Saa
 
 When the number of products processed matches the number of updated products, it indicates that the sync is complete.
 
+>[!NOTE]
+>
+>Adobe also provides a command-line interface and system logs that developers and system integrators can use to manage and track sync operations and troubleshoot errors for Commerce SaaS services. For details, see the [SaaS Data Export Guide](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview). 
+
 ### List of synced products
 
 To see the details of a synced product, click on the product from the table.
