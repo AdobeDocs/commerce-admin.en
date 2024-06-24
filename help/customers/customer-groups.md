@@ -60,6 +60,10 @@ Customer groups determine which discounts are available and the tax class that i
 
 ## Assign a customer to a different group
 
+>[!NOTE]
+>
+>After changing the company group, a company user must log out and log in on the Storefront to see new prices in the catalog.
+
 1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
 1. Find the customer in the list and select the checkbox in the first column.
