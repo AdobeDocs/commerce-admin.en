@@ -35,8 +35,8 @@ On the _Admin_ sidebar, go to **[!UICONTROL Reports]** > _[!UICONTROL Customers]
 |[!UICONTROL Interval]|The order total interval, by `Month` / `Day` / `Year`.|
 |[!UICONTROL Customer]|The name of the customer who placed the orders.|
 |[!UICONTROL Orders]|The number of orders for the specified interval.|
-|[!UICONTROL Average]|Average order amount.|
-|[!UICONTROL Total]|The sum of all orders for the period.|
+|[!UICONTROL Average]|Average order amount. This amount is always calculated for product prices **excluding tax** even if catalog product prices, order subtotal and order total include tax. As a result, the amount shown in the report is different than the amount shown in order details in cases where order totals include tax.|
+|[!UICONTROL Total]|The sum of all orders for the period. This amount is always calculated for product prices **excluding tax** even if catalog product prices, order subtotal and order total include tax. As a result, the total shown in the report is different than the amount shown in order details in cases where order totals include tax.|
 
 {style="table-layout:auto"}
 
@@ -67,8 +67,8 @@ On the _Admin_ sidebar, go to **[!UICONTROL Reports]** > _[!UICONTROL Customers]
 |[!UICONTROL Interval]|The order count interval, by `Month` / `Day` / `Year`.|
 |[!UICONTROL Customer]|The customer who placed the order.|
 |[!UICONTROL Orders]|The number of orders for the specified interval.|
-|[!UICONTROL Average]|Average order amount.|
-|[!UICONTROL Total]|The sum of all orders for the period.|
+|[!UICONTROL Average]|Average order amount. This amount is always calculated for product prices **excluding tax** even if catalog product prices, order subtotal and order total include tax. As a result, the amount shown in the report is different than the amount shown in order details in cases where order totals include tax.|
+|[!UICONTROL Total]|The sum of all orders for the period. This amount is always calculated for product prices **excluding tax** even if catalog product prices, order subtotal and order total include tax. As a result, the total shown in the report is different than the amount shown in order details in cases where order totals include tas.|
 
 {style="table-layout:auto"}
 
