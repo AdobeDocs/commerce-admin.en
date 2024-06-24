@@ -62,7 +62,7 @@ Customer groups determine which discounts are available and the tax class that i
 
 >[!NOTE]
 >
->To see a new prices in the catalog, a customer must log out and log in on the Storefront, after the group is changed.
+   >After changing the company group, a company user must log out and log in on the Storefront to see new prices in the catalog.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
