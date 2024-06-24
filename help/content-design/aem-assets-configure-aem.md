@@ -79,7 +79,7 @@ Metadata maps when an asset is pushed from Commerce for the first time. Media as
 
 Create at least one asset in the AEM Assets Commerce folder that has the Commerce metadata attributes assigned.
 
-This asset is required to [setup synchronization](aem-assets-setup-synchronization.md) between your Commerce instance and AEM Assets.
+This asset is required to setup synchronization between your Commerce instance and AEM Assets.
 
 ## Map metadata for assets
 

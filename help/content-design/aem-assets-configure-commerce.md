@@ -7,7 +7,7 @@ feature: CMS, Media
 
 {{$include /help/_includes/aem-assets-integration-beta-note.md}}
 
-Get started with the AEM Assets integration for Adobe Commerce by configuring the Commerce application to use the AEM Assets integration and the Adobe I/O Events service.
+Install and configure the AEM Assets integration for Commerce by adding the extension to the Commerce application, connecting to SaaS Commerce SaaS services, e Adobe I/O Events service, and connect to the Commerce SaaS .
 
 ## System requirements
 
@@ -125,6 +125,8 @@ Use this method to install the [!DNL AEM Assets Integration] extension for an on
 >[!ENDTABS]
 
 ## Configure the Commerce Services Connector
+
+If you have previously installed an Adobe Commerce Service like Catalog Service, 
 
 To transmit data between your Adobe Commerce instance and the services that enable the AEM Assets Integration, configure the Commerce Services Connector with the following:
 
