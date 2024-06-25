@@ -7,24 +7,22 @@ feature: CMS, Media, Integration
 
 {{$include /help/_includes/aem-assets-integration-beta-note.md}}
 
-In Experience Manager assets, each asset is described by metadata which enables users to find assets, understand them more fully, and make decisions about managing and using them.
+The Experience Manager Integration for Commerce requires Commerce assets stored in AEM Assets to have specific metadata. This metadata helps customers find and manage Commerce assets, and also enables asset synchronization processes between Adobe Commerce and Experience Manager Assets. Assets that have the built-in or custom fields automatically map to the specified fields the first time an asset is sent to Experience Manager Assets.
 
-- **[Metadata profiles](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles)** let you apply default metadata to assets within a folder. All assets in the folder inherit the default metadata configured in the profile.
+For the integration, you configure two types of metadata:
+
+- **[Metadata profile](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles)** lets you apply default metadata to assets within a folder. All assets in the folder inherit the default metadata configured in the profile.
 
 - **[Metadata schema](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-schemas)** defines the layout of the properties page and the set of fields that can be used as metadata properties on an AEM asset.
 
-The Experience Manager Integration for Commerce requires all Commerce assets stored in AEM Assets to have metadata stored in a metadata profile and added to a metadata schema. This metadata is used to manage communication and synchronization processes between Adobe Commerce and Experience Manager Assets.
+## Configure metadata
 
-For the initial onboarding, update the AEM Assets configuration with Commerce metadata by adding the the following fields to both an AEM Assets metadata profile and a metadata schema.
+For the initial onboarding, add the following Commerce metadata to both an AEM Assets metadata profile and a metadata schema.
 
 | Field type  | Label   | Property   | Default Value |
 |------ | ------- | ---------- | ------------- |
 | Text | **Does it exist in Adobe Commerce?** | `./jcr:content/metadata/commerce:isCommerce` | yes |
 | Multi Value Text | **Commerce mappings** | `./jcr:content/metadata/commerce:mappings` | none |
-
-Metadata maps when an asset is pushed from Commerce for the first time. Media assets that have the built-in or custom fields automatically map to the specified fields the first time an asset is sent to Experience Manager Assets.
-
-## Configure metadata
 
 ### Add Commerce fields to a metadata profile
 

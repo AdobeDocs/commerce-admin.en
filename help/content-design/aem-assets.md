@@ -28,6 +28,14 @@ The integration between Commerce and Adobe Experience Manager (AEM) Assets combi
 
 ## What changes when you enable the integration
 
+After enabling the AEM Assets Integration for Commerce, 
+
+
+Products grid changes
+
+Product 
+
+
 
 
 ## Integrate Commerce and Experience Manager Assets

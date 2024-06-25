@@ -37,3 +37,8 @@ Product attributes that are enabled for [catalog search](search.md) can be assig
 ## Unused properties
 
 Remove unused product properties for better structuring and faster indexing.
+
+
+>[NOTE!]
+>
+>For information on optimizing the product attribute configuration for performance, see [Catalog management best practices](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes) in the _Implementation Playbook_.

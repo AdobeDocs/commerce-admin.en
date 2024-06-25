@@ -77,6 +77,7 @@ This configuration setting for the product display limitation is disabled by def
 |[!UICONTROL Visibility]|Indicates where the product is visible in the catalog. Options: `Not Visible Individually` / `Catalog` / `Search` / `Catalog, Search`|
 |[!UICONTROL Status]|Indicates the status of the product. Options: `Enabled` and `Disabled`|
 |[!UICONTROL Websites]|Indicates the websites where the product is available.|
+|[!UICONTROL Remote Media URL]| URL to access Commerce assets managed 
 |[!UICONTROL Action]|Opens the product in Edit mode.|
 |[!UICONTROL Shared Catalog]|![B2B for Adobe Commerce](../assets/b2b.svg) (Available with [B2B for Adobe Commerce](./b2b/../introduction.md) only) Indicates the shared catalogs that contain custom pricing for the product.|
 
