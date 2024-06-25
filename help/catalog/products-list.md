@@ -77,7 +77,7 @@ This configuration setting for the product display limitation is disabled by def
 |[!UICONTROL Visibility]|Indicates where the product is visible in the catalog. Options: `Not Visible Individually` / `Catalog` / `Search` / `Catalog, Search`|
 |[!UICONTROL Status]|Indicates the status of the product. Options: `Enabled` and `Disabled`|
 |[!UICONTROL Websites]|Indicates the websites where the product is available.|
-|[!UICONTROL Remote Media URL]| URL to access Commerce assets managed 
+|[!UICONTROL Remote Media URL]| If product media assets are managed using the [AEM Assets Integration for Commerce](../content-design/aem-assets.md), this field displays the URL to view the Commerce asset in the AEM assets Digital Asset Management store, the centralized repository where the assets are kept. This field is displayed only if the AEM Assets integration is enabled.|
 |[!UICONTROL Action]|Opens the product in Edit mode.|
 |[!UICONTROL Shared Catalog]|![B2B for Adobe Commerce](../assets/b2b.svg) (Available with [B2B for Adobe Commerce](./b2b/../introduction.md) only) Indicates the shared catalogs that contain custom pricing for the product.|
 
