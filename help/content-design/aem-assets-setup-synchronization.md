@@ -26,9 +26,9 @@ For initial onboarding, use the `MatchBySku` strategy. If needed, you can change
 
 **Prerequisite**
 
-- A configured production environment is required for an Experience Manager Assets instance to connect with the Commerce tenant. See [Configure Experience Manager Assets](aem-assets-configure-aem.md).
-- Install and configure the Experience Manager Assets Integration in Adobe Commerce.
-- AEM Assets project has been configured with Commerce metadata required for mapping assets.
+- [AEM Assets project has been configured with Commerce metadata required for mapping assets](aem-assets-configure-aem.md).
+
+- [Install and configure the Experience Manager Assets Integration in Adobe Commerce](aem-assets-configure-commerce.md).
 
 >[!ENDSHADEBOX]
 
@@ -199,6 +199,10 @@ After you register the tenant, the last step of the onboarding process is enabli
    1. Set **[!UICONTROL Integration enabled]** to `yes`.
 
       ![AEM Assets Integration for Commerce Admin configuration](assets/aem-integration-admin-enable.png){width="600" zoomable="yes"}
+
+
+### Error messages
+
 
 
 
