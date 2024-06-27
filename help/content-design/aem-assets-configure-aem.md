@@ -7,7 +7,7 @@ feature: CMS, Media, Integration
 
 {{$include /help/_includes/aem-assets-integration-beta-note.md}}
 
-The Experience Manager Integration for Commerce requires Commerce assets stored in AEM Assets to have specific metadata. This metadata helps customers find and manage Commerce assets, and also enables asset synchronization processes between Adobe Commerce and Experience Manager Assets. Assets that have the built-in or custom fields automatically map to the specified fields the first time an asset is sent to Experience Manager Assets.
+To manage media assets for your store using the AEM Assets integration for Commerce, your AEM Assets project requires adding certain metadata to ensure that you can easily search and manage Commerce assets. This metadata also facilitates the synchronization of assets between Adobe Commerce and Experience Manager Assets. After you have defined the metadata fields, the initial mapping of these fields happens automatically the first time a Commerce asset is shared with Experience Manager Assets.
 
 For the integration, you configure two types of metadata:
 
@@ -87,4 +87,5 @@ Before you can begin asset mapping, complete the following tasks:
 
 - [Install and configure the AEM Assets Integration for Commerce](aem-assets-configure-commerce.md)
 - [Set up synchronization services to transfer assets between your Adobe Commerce project environment and the AEM Assets project environment](aem-assets-setup-synchronization.md)
+
 
