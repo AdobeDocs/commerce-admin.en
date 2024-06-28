@@ -62,7 +62,7 @@ The B2B v1.5.0-beta release includes new features, quality improvements, and bug
 
 [!BADGE Supported]{type=Informative tooltip="Supported"} Supported on Adobe Commerce 2.4.7-p1+ and 2.4.6-p6+ security patch releases.
 
-![New](../assets/new.svg) Added compatibility with Adobe Commerce 2.4.7-p1 and 2.4.6-p6 security patch releases.
+![New](../assets/new.svg) Added compatibility with Adobe Commerce 2.4.7-p1+ and 2.4.6-p6+ security patch releases.
 
 
 ## B2B v1.4.2
