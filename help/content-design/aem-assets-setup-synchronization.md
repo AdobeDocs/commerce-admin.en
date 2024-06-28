@@ -38,7 +38,7 @@ You need the following credentials to authenticate and connect your Commerce pro
 
 | Required Data | Source | Where to find it|
 | ---------- | ------ | ------------- |
-| API Key from Magento account | Commerce | 
+| API Key from Magento account | Commerce | Provide the public API key associated with the 
 | Commerce SaaS Identifiers <ul><li>`magento-environment-Id`</li><li>`Project ID`</li></ul> | Commerce Admin | These values identify the SaaS data space environment and project to connect to. Values come from the [Commerce Services Connector SaaS Identifier configuration](aem-assets-configure-commerce.md#configure-the-commerce-services-connector). |
 |AEM `programId`<br>`environmentId` | [AEM Assets Authoring environment](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start) | Open AEM Sites page, and select Assets.  Copy the project and environment IDs from the URL: `https://author-p[Program ID]-e[EnvironmentID].adobeaemcloud.com/`|
 | baseURL | Commerce storefront | The [base URL](../stores-purchase/store-urls.md) for your Commerce storefront.|

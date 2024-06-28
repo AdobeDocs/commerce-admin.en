@@ -126,13 +126,17 @@ Use this method to install the [!DNL AEM Assets Integration] extension for an on
 
 ## Configure the Commerce Services Connector
 
-If you have previously installed an Adobe Commerce Service like Catalog Service, 
+The Commerce Services Connector enables data synchronization and communication between the Commerce instance, the Asset Rule Engine Service, and other supporting services.
+
+>[!NOTE]
+>
+>Commerce Services Connector setup is a one-time process required to use [Adobe Commerce SaaS services](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#availableservices). If you have already configured the connector for another service, you can view the existing configuration from the Commerce Admin by selecting **[!UICONTROL Systems]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]**.
 
 To transmit data between your Adobe Commerce instance and the services that enable the AEM Assets Integration, configure the Commerce Services Connector with the following:
 
 - Configure your Commerce instance with production and sandbox API keys for authentication.
 - Specify a data space (SaaS identifier) for secure cloud storage.
-- Connect to your organization's dataset on Adobe Experience Platform by signing into the same IMS organization that you use to access AEM Assets.
+- Sign into the same IMS organization that you use to access AEM Assets to establish the connection between your data set and the Adobe Experience Platform.
 
 For detailed instructions, see [Commerce Services Connector](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#organizationid).
 

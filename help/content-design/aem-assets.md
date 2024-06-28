@@ -28,12 +28,12 @@ The integration between Commerce and Adobe Experience Manager (AEM) Assets combi
 
 ## What changes when you enable the integration
 
-After enabling the AEM Assets Integration for Commerce, 
-
-
+Catalog Store Configuration - New section to manage the AEM Assets integration
 Products grid changes
 
-Product 
+Product details page - no change, except assets displayed will be coming from the AEM DAM
+
+
 
 
 
