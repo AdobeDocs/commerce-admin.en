@@ -1,6 +1,6 @@
 ---
 title: HIPAA readiness on Adobe Commerce
-description: Learn how you can add the Adobe Commerce HIPAA-Ready module and get additional features and functionalities that allow you to comply with your HIPAA obligations.
+description: Learn how you can add the Adobe Commerce HIPAA-Ready extension and get additional features and functionalities that allow you to comply with your HIPAA obligations.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
 ---
@@ -21,9 +21,13 @@ The Health Insurance Portability and Accountability Act (HIPAA) is the key feder
 
 ## Adobe Commerce HIPAA-Ready
 
-Adobe Commerce HIPAA-Ready has additional features and functionalities that allow merchants to comply with their respective HIPAA obligations.
+The Adobe Commerce HIPAA-Ready extension adds additional features and functionalities to Adobe Commerce installations that allow merchants to comply with their respective HIPAA obligations.
 
-Adobe Commerce HIPAA-Ready is delivered as an Adobe Commerce extension, `magento/hipaa-ee` that is available for Adobe Commerce on cloud infrastructure or Adobe Managed Services projects. The Adobe Commerce HIPAA-Ready installation process disables some native services and features to comply with HIPAA requirements. See [Disabled services and features](#disabled-services-and-features).
+The Adobe Commerce HIPAA-Ready extension, `magento/hipaa-ee` is available for Adobe Commerce on cloud infrastructure or Adobe Managed Services projects. The Adobe Commerce HIPAA-Ready installation process disables some native services and features to comply with HIPAA requirements. See [Disabled services and features](#disabled-services-and-features).
+
+>[!NOTE]
+>
+>Access to HIPAA ready features and functionality is available only to merchants that have purchased the health care add-on for Adobe Commerce. 
 
 *These materials are intended for informational purposes only. Provision of this information does not entitle the recipient to any contractual or other rights. While efforts have been made to assure the accuracy of the information as of the date it has been provided, no representation is made that such information is accurate and complete. Adobe undertakes no obligation to update this information as the law or Adobe's products change. Also, this document is not to be distributed to any party other than the intended recipient without written consent from Adobe.*
 
@@ -33,15 +37,16 @@ Adobe Commerce must be deployed on either Adobe Commerce on cloud infrastructure
 
 ## Installation
 
-Install the latest version of Adobe's HIPAA-Ready Services extension (`magento/hipaa-ee`) on an instance that is running Adobe Commerce version 2.4.6-p3 or later. The extension is delivered as a composer metapackage from the [repo.magento.com](https://repo.magento.com) repository.
+**Prerequisite**
 
 >[!BEGINSHADEBOX]
 
-**Prerequisite**
-
-You must have access to [repo.magento.com](https://repo.magento.com) to install the extension. For key generation and obtaining the necessary rights, see [Get your authentication keys](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
+- Adobe has provisioned your Adobe Commerce account to access the HIPAA Ready extension.
+- Access to [repo.magento.com](https://repo.magento.com) to install the extension. For key generation and obtaining the necessary rights, see [Get your authentication keys](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
 
 >[!ENDSHADEBOX]
+
+Install the latest version of Adobe's HIPAA-Ready Services extension (`magento/hipaa-ee`) on an instance that is running Adobe Commerce version 2.4.6-p3 or later. The extension is delivered as a composer metapackage from the [repo.magento.com](https://repo.magento.com) repository. The metapackage includes the collection of modules that enable the HIPAA capabilities for an Adobe Commerce instance.
 
 1. On your local workstation, change to the project directory for your Adobe Commerce on cloud infrastructure project.
 
@@ -114,7 +119,7 @@ After the updates are deployed, verify that the `Hipaa*` extensiion is installed
 
 ## Feature enhancements for HIPAA-readiness
 
-The `magento/hipaa-ee` package introduces some changes and enhancements to the base Commerce product. The following sections provide details about these changes and how they alter the base product.
+The `magento/hipaa-ee` extension introduces some changes and enhancements to the base Commerce product. The following sections provide details about these changes and how they alter the base product.
 
 ### Action Logs
 
@@ -204,11 +209,11 @@ To comply with HIPAA requirements, some services and features supported by Adobe
   - App Builder
   - Catalog Service
 
-- **[SendGrid service](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)**—This service is disabled by default because the application is non-HIPAA-compliant. Merchants can submit a support request to enable Sendgrid, but they must acknowledge that they assume the risk of using the service.
+- **[SendGrid service](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)**—This service is disabled by default because the application is non-HIPAA-compliant.
 
-### Features disabled by default
+### Features that are disabled by default
 
-The following features are disabled by default in the the HIPAA-readiness module. Merchants can enable any of these features at their own risk.
+The following features are disabled by default in the HIPAA-readiness module. Merchants can enable any of these features at their own risk.
 
 - **[Guest checkout](../stores-purchase/checkout-guest.md)**—This feature presents a potential risk for various aspects of HIPAA including logging, access control, PHI hygiene and lineage, and potentially more.
 

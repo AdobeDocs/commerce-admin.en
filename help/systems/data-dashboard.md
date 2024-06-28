@@ -10,7 +10,7 @@ The Data Management Dashboard offers an overview of the synchronization status f
 
 ## Audience
 
-The Data Management Dashboard is available at no additional cost to all Commerce merchants using [[!DNL Product Recommendations]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview), [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/guide-overview), or [[!DNL Catalog Service]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview) with an active license.
+The Data Management Dashboard is available at no additional cost to all Commerce merchants using [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview), [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/guide-overview), or [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview) with an active license.
 
 The Data Management Dashboard is located at *System* > Data Transfer > *Data Management Dashboard*.
 
@@ -38,6 +38,10 @@ When you update products in the Commerce database, product data transfers to Saa
 >The time it takes to complete the sync varies based on your catalog size and the volume of updated data.
 
 When the number of products processed matches the number of updated products, it indicates that the sync is complete.
+
+>[!NOTE]
+>
+>Adobe also provides a command-line interface and system logs that developers and system integrators can use to manage and track sync operations and troubleshoot errors for Commerce SaaS services. For details, see the [SaaS Data Export Guide](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview). 
 
 ### List of synced products
 

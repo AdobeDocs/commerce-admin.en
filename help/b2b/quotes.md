@@ -20,7 +20,7 @@ During the negotiation process, the quote can only be updated by the person revi
 
 Negotiable quotes are available only if Adobe Commerce has the following configuration settings:
 
-- [The B2B for Adobe Commerce extension is installed](install.md)
+- [The Adobe Commerce B2B extension is installed](install.md)
 - [Configured B2B features](enable-basic-features.md)
   - Enable company accounts
   - Enable B2B quote

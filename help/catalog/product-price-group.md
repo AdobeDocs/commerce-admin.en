@@ -32,7 +32,7 @@ Pricing for customer groups is a component of [tiered pricing](product-price-tie
 
 1. In the _[!UICONTROL Customer Group Price]_ section, click **[!UICONTROL Add]**.
 
-   If your store includes [B2B for Adobe Commerce](../b2b/introduction.md) and has [shared catalogs](../b2b/catalog-shared.md) enabled, this section is labeled _[!UICONTROL Catalog and Tier Price]_.
+   If your store includes [Adobe Commerce B2B](../b2b/introduction.md) and has [shared catalogs](../b2b/catalog-shared.md) enabled, this section is labeled _[!UICONTROL Catalog and Tier Price]_.
 
    ![Advanced Pricing](./assets/product-price-group.png){width="600" zoomable="yes"}
 

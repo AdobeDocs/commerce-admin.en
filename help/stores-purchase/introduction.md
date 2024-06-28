@@ -19,7 +19,7 @@ Adobe Commerce and Magento Open Source reduce ordering errors by automatically v
 
 >[!TIP]
 >
->![B2B for Adobe Commerce](../assets/b2b.svg) With the installation and enablement of B2B for Adobe Commerce, you can configure _Quick Order_ for customers associated with a company account. This function reduces the order process to several clicks when they know the name or SKU of the products they want to order. You can also configure support for Negotiable Quotes for your company accounts. For more information about the B2B features, see the [B2B for Adobe Commerce User Guide](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>![Adobe Commerce B2B](../assets/b2b.svg) With the installation and enablement of Adobe Commerce B2B, you can configure _Quick Order_ for customers associated with a company account. This function reduces the order process to several clicks when they know the name or SKU of the products they want to order. You can also configure support for Negotiable Quotes for your company accounts. For more information about the B2B features, see the [Adobe Commerce B2B User Guide](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 ## Shopping assistance
 
