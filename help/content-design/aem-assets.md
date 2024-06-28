@@ -28,19 +28,14 @@ The integration between Commerce and Adobe Experience Manager (AEM) Assets combi
 
 ## What changes when you enable the integration
 
-Catalog Store Configuration - New section to manage the AEM Assets integration
-Products grid changes
+Product list - New field [!UICONTROL Remote Media URL]
 
 Product details page - no change, except assets displayed will be coming from the AEM DAM
 
 
-
-
-
-
 ## Integrate Commerce and Experience Manager Assets
 
-[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
 **Prerequisites**
 
@@ -48,7 +43,7 @@ Product details page - no change, except assets displayed will be coming from th
 - Experience Manager Assets must be assigned as a product to the same organization ID.
 - The user configuring the integration must have an account in the same organization  with Administrative rights to access Adobe Commerce and Experience Manager Assets.
 
-[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 
 Enabling the Commerce integration with Experience Manager Assets is a three step process:
