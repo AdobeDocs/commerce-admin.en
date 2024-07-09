@@ -79,7 +79,7 @@ The installation process for [!DNL Marketplace] purchases is different for _on-p
 
 ## Support
 
-If you need help with installing or with using an extension, look first in the documentation that accompanies the extension. If you can't find the answer to your question, use the contact information in the extension listing to contact the developer directly. If what you purchase on Marketplace does not meet your needs, you can [request a refund](#refund-requests) within 25 days from the date of purchase. Adobe reviews all refund requests and (if approved) issues the appropriate refund. For support issues related to Commerce Marketplace, see the [[!DNL Marketplace] Help Center][5].
+If you need help with installing or with using an extension, look first in the documentation that accompanies the extension. If you can't find the answer to your question, use the contact information in the extension listing to contact the developer directly. If what you purchase on Marketplace does not meet your needs, you can [request a refund](#refund-requests) within 25 days from the date of purchase. Adobe reviews all refund requests and (if approved) issues the appropriate refund. For issues related to Commerce Marketplace, contact [Support](mailto:commercemarketplacesupport@adobe.com).
 
 ### Checkout issues
 
@@ -133,5 +133,4 @@ These special permissions grant the same level of access on Adobe Commerce as th
 [2]: https://www.paypal.com/us/home
 [3]: https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/
 [4]: https://www.adobe.com/commerce/magento/enterprise.html
-[5]: https://marketplacesupport.magento.com/hc/en-us
 [6]: https://business.adobe.com/products/magento/magento-commerce.html
