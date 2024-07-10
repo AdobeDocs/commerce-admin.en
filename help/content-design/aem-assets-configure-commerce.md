@@ -21,7 +21,7 @@ Install and configure the AEM Assets integration for Commerce by adding the exte
 
 - Adobe Commerce must be configured to use [Adobe IMS authentication](/help/getting-started/adobe-ims-config.md).
 - Account provisioning and permissions—Administrators must have access to the following resources to configure the Experience Manager Assets integration:
-  - Commerce application administrator—Install required modules and configure the Commerce application server from the Admin or the command line
+  - Commerce application administrator—Install required extensions and configure the Commerce application server from the Admin or the command line
   - [Commerce Admin](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview)—Update store configuration and manage Commerce user accounts
   - [Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/introduction)—Adobe IMS application administrator or user account. Account must have permissions to create and manage folders and create public collections, upload assets, set up permissions, and set up metadata.
 
@@ -66,7 +66,7 @@ Use this method to install the [!DNL AEM Assets Integration] extension for a Com
    magento-cloud environment:checkout <environment-id>
    ```
 
-1. Add the Catalog Service module.
+1. Add the AEM Assets Integration for Commerce extension.
 
    ```shell
    composer require "magento/aem-assets-integration" "<version-tbd>" --no-update
@@ -94,10 +94,10 @@ Use this method to install the [!DNL AEM Assets Integration] extension for a Com
 
 Use this method to install the [!DNL AEM Assets Integration] extension for an on-premises instance.
 
-1. Use Composer to add the Catalog Service module to your project:
+1. Use Composer to add the AEM Assets Integration for Commerce extension to your project:
 
    ```shell
-   composer require "magento/aem-assets-integration" "version tbd"  --no-update
+   composer require "magento/aem-assets-integration" --no-update
    ```
 
 1. Update dependencies and install the extension:

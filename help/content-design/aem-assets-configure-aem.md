@@ -22,7 +22,10 @@ For the initial onboarding, add the following Commerce metadata to both an AEM A
 | Field type  | Label   | Property   | Default Value |
 |------ | ------- | ---------- | ------------- |
 | Text | **Does it exist in Adobe Commerce?** | `./jcr:content/metadata/commerce:isCommerce` | yes |
-| Multi Value Text | **Commerce mappings** | `./jcr:content/metadata/commerce:mappings` | none |
+| Multi Value Text | **SKUs** | `./jcr:content/metadata/commerce:skus` | none |
+| Multi Value Text | **Positions** | `./jcr:content/metadata/commerce:positions` | none |
+| Multi Value Text | **Roles** | `./jcr:content/metadata/commerce:roles` | none |
+
 
 ### Add Commerce fields to a metadata profile
 
@@ -40,7 +43,13 @@ For the initial onboarding, add the following Commerce metadata to both an AEM A
 
    ![AEM Author Admin add metadata profiles ](./assets/aem-create-metadata-profile.png){width="600" zoomable="yes"}
 
-1. Add `Does Commerce exist?` and `Commerce mappings` metadata fields for Commerce.
+1. Add a tab for Commerce metadata.
+
+   1. On the left, click  **[!UICONTROL Settings]**.
+
+   1. Click  **[!UICONTROL +]** in the tab section, and then specify the **[!UICONTROL Tab Name]**, `Commerce`.
+
+1. Add the [metadata fields](#configure-metadata) to the form.
 
    ![AEM Author Admin add metadata fields to profile](./assets/aem-edit-metadata-profile-fields.png){width="600" zoomable="yes"}
 
@@ -87,5 +96,3 @@ Before you can begin asset mapping, complete the following tasks:
 
 - [Install and configure the AEM Assets Integration for Commerce](aem-assets-configure-commerce.md)
 - [Set up synchronization services to transfer assets between your Adobe Commerce project environment and the AEM Assets project environment](aem-assets-setup-synchronization.md)
-
-
