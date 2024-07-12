@@ -165,8 +165,8 @@ The AEM Assets Integration uses the Adobe I/O Events service to send custom even
 Set up requires the following steps.
 
 1. Enable the Commerce Eventing framework by configuring Adobe I/O events on the application server and in the Admin.
-1. Enable data synchronization between Adobe Commerce and AEM Assets by using the Assets Rules Engine Service API to configure the connection
-1. Enable the AEM Assets integration in the Admin
+1. Enable data synchronization between Adobe Commerce and AEM Assets by using the Assets Rules Engine Service API to configure the connection.
+1. Enable the AEM Assets integration in the Admin.
 
 ### Enable the Commerce Eventing framework
 
@@ -252,7 +252,7 @@ You generate the credentials by adding the integration to the Commerce instance 
 
    1. From the left panel, click **[!UICONTROL API]**.
 E
-   1. Select the external media resource (**[!UICONTROL Catalog > Inventory > Products > External Media]**.
+   1. Select the external media resource **[!UICONTROL Catalog > Inventory > Products > External Media]**.
 
      ![Admin Integration config for API resources](assets/aem-commerce-integration-api-resources.png){width="600" zoomable="yes"}
 
@@ -275,6 +275,35 @@ On the Integrations page, generate the OAuth authentication credentials by click
 >[!NOTE]
 >
 >You can also generate authentication credentials using the Adobe Commerce APIs. For details about this process and more information about OAuth-based authentication for Adobe Commerce, see [OAuth-based authentication](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) in the Adobe Developer documentation.
+
+## Generate Access Token for Assets Rule Engine Service authentication
+
+Generate JSON Web Tokens (JWT) access tokens to authenticate API requests from the Commerce production or sandbox environment to the Assets Rule Engine Service (ARES). This service coordinates communication and workflows for the AEM Assets Integration for Commerce. The token must be included in the header for requests to ARES API endpoints.
+
+JWT tokens are secure tokens based on the API credentials to access an application. In this case, the tokens are generated from the Commerce API keys for sandbox and production environments. You can find these keys in the Commerce Service Connector configuration by selecting **[!UICONTROL System]** > **[!UICONTROL Commerce Service Connector]**.
+
+Generate two tokens, one for the production environment and one for the sandbox environment.
+
+Use the JWT.IO website or an equivalent service to generate the JWT token.
+
+1. Go to [jwt.io](https://jwt.io/).
+1. For the **Algorithm** select `RS256`.
+1. Add the private key content for the Commerce environment.
+1. In the **PAYLOAD** section, paste the following block:
+
+  ```
+  {
+   "exp": <GMT_5_TIMESTAMP>
+  }
+  ```
+
+1. Replace `<GMT_5_TIMESTAMP>` with a real timestamp using GMT-5 timezone (America/Chicago) + 10 minutes. You can get the value from the [Free Unix Timestamp Converter](https://www.site24x7.com/tools/time-stamp-converter.html) website.
+
+1. Copy and save the generated encoded key to use in the `x-gw-signature` header when you submit requests to the ARES API, for example when you [Register a tenant](aem-assets-setup-synchronization.md#register-a-tenant) during the onboarding process.
+
+
+
+
 
 
 
