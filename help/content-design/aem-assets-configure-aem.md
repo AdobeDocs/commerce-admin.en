@@ -82,6 +82,19 @@ For the initial onboarding, add the following Commerce metadata to both an AEM A
 1. Click **[!UICONTROL Save]**.
 
 
+## Publish an asset
+
+After configuring the AEM metadata and schema profile for Commerce assets, create the first Commerce asset to map the Commerce metadata fields.
+
+1. From Experience Manager, go to [!UICONTROL Assets > Files] select the **Commerce** folder.
+
+1. Upload an image for a Commerce project by dragging the file to the folder, or by clicking **[!UICONTROL Add Assets]**.
+
+1. Verify the metadata configuration:  **isCommerce** is set to `true`, and that the `commerce:skus` property is set to the SKU for the Commerce product associated with the image.
+
+1. Approve the asset.
+
+
 ## Add an asset to the Commerce folder
 
 Create at least one asset in the AEM Assets Commerce folder that has the Commerce metadata attributes assigned.
@@ -90,7 +103,7 @@ This asset is required to setup synchronization between your Commerce instance a
 
 ## Map metadata for assets
 
-Metadata maps when an asset is pushed from Commerce for the first time. Media assets that have the built-in or custom fields automatically map to the specified fields the first time an asset is sent to Experience Manager Assets.
+Metadata maps when a Commerce asset is published for the first time.  from Commerce for the first time. Media assets that have the built-in or custom fields automatically map to the specified fields the first time an asset is sent to Experience Manager Assets.
 
 Before you can begin asset mapping, complete the following tasks:
 

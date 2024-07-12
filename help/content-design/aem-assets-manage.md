@@ -9,10 +9,11 @@ feature: CMS, Media
 
 ## Update an asset
 
-After you change an asset in AEM Assets, send the updates to Commerce by approving and reprocessing the asset. Only approved assets are sent to your Commerce instance. Reprocessing the asset ensures that any final changes or metadata updates are captured before the asset is sent to Adobe Commerce.
+After you edit an asset in AEM Assets, send the updates to Commerce by approving and reprocessing the asset. Only approved assets are sent to your Commerce instance. Reprocessing the asset ensures that any final changes or metadata updates are captured before the asset is sent to Adobe Commerce.
 
-<!--Provide high level steps and screen captures with links to AEM documentation for details-->
-[Approve an asset](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
+For details, see the following AEM Assets documentation.
 
-[Reprocessing digital assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
+- [Reprocessing digital assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
+
+- [Approve an asset](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
 

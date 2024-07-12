@@ -7,7 +7,7 @@ feature: CMS, Media
 
 {{$include /help/_includes/aem-assets-integration-beta-note.md}}
 
-Install and configure the AEM Assets integration for Commerce by adding the extension to the Commerce application, connecting to SaaS Commerce SaaS services, e Adobe I/O Events service, and connect to the Commerce SaaS .
+Install and configure the AEM Assets integration for Commerce by adding the extension to the Commerce application, connecting to SaaS Commerce SaaS services, e Adobe I/O Events service, and connect to the Commerce SaaS.
 
 ## System requirements
 
@@ -40,13 +40,13 @@ Enable the integration by completing the following tasks:
 
 **Prerequisite**
 
-- Access [repo.magento.com](https://repo.magento.com) to install the extension. For key generation and obtaining the necessary rights, see [Get your authentication keys](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). For cloud installations, see the [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
+- Access [repo.magento.com](https://repo.magento.com/admin/dashboard) to install the extension. For key generation and obtaining the necessary rights, see [Get your authentication keys](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). For cloud installations, see the [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
 
 - Access to the command line of the Adobe Commerce application server.
 
 >[!ENDSHADEBOX]
 
-Install the latest version of the AEM Assets Integration extension (`aem-assets-integration`) on an Adobe Commerce running Adobe Commerce 2.4.4 or later. The AEM Asset Integration is delivered as a composer metapackage from the [repo.magento.com](https://repo.magento.com/) repository.
+Install the latest version of the AEM Assets Integration extension (`aem-assets-integration`) on an Adobe Commerce running Adobe Commerce 2.4.4 or later. The AEM Asset Integration is delivered as a composer metapackage from the [repo.magento.com](https://repo.magento.com/admin/dashboard) repository.
 
 >[!BEGINTABS]
 
@@ -188,7 +188,7 @@ Enable the Commerce eventing framework by using the instructions for the environ
 
       >[!NOTE]
       >
-      >You must [enable cron](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration) so that Commerce can send events to the API endpoints to manage communication and workflows for the integration.
+      >Enable cron](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration) so that Commerce can send events to the API endpoints to manage communication and workflows for the integration.
 
 1. Update the cloud project configuration.
 
@@ -224,7 +224,7 @@ Enable the Commerce eventing framework by using the instructions for the environ
 
       >[!NOTE]
       >
-      >You must [enable cron](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration) so that Commerce can send events to the API endpoints for managing communication and workflows for the Commerce Assets integration.
+      >[Enable cron jobs](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration) so that Commerce can send events to manage communication and workflows between AEM assets and Commerce.
 
 >[!ENDTABS]
 
