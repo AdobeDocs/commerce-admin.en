@@ -52,3 +52,5 @@ feature: Inventory
   - [Overview](shipments.md)
   - [Create shipments](shipments-create.md)
 - [CLI reference](cli.md)
+- [Return to Merchant Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+

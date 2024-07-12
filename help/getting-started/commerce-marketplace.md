@@ -18,14 +18,14 @@ Developers have traditionally used PHP to create in-process extensions to add fe
 
 The following resources provide a starting point for new adopters to familiarize themselves with apps:
 
-### Commerce resources:
+### Commerce resources
 
 -  [Setting up I/O Events for Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/)
 -  [Configuring Events for Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/)
 -  [Setting up Admin UI SDK](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
 -  [Converting an extension to an app](https://developer.adobe.com/commerce/extensibility/app-development/#how-do-i-port-an-extension-into-an-app)
 
-### App Builder resources:
+### App Builder resources
 
 -  [Commerce App Builder Overview](https://developer.adobe.com/commerce/extensibility/app-development/)
 -  [Setting up API Mesh for Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
@@ -79,15 +79,58 @@ The installation process for [!DNL Marketplace] purchases is different for _on-p
 
 ## Support
 
-If you need help with installing or with using an extension, look first in the documentation that accompanies the extension. If you can't find the answer to your question, use the contact information in the extension listing to contact the developer directly.
+If you need help with installing or with using an extension, look first in the documentation that accompanies the extension. If you can't find the answer to your question, use the contact information in the extension listing to contact the developer directly. If what you purchase on Marketplace does not meet your needs, you can [request a refund](#refund-requests) within 25 days from the date of purchase. Adobe reviews all refund requests and (if approved) issues the appropriate refund. For issues related to Commerce Marketplace, contact [Support](mailto:commercemarketplacesupport@adobe.com).
 
-If what you purchase on Commerce Marketplace does not meet your needs, you can request a refund within 25 days from the date of purchase. Adobe reviews all refund requests and if approved, issues the appropriate refund.
+### Checkout issues
 
-For support issues related to Commerce Marketplace, see the [[!DNL Marketplace] Help Center][5].
+The address fields in your account profile must be completed for verification purposes in the Marketplace purchasing system.
+
+1. Add the address fields in your Marketplace account profile.
+1. Save the updated profile.
+1. Continue with your checkout.
+
+### Log in issues
+
+Log in issues are typically related to a mismatch between your MAGEID and email address in the account database. Contact Marketplace Support for assistance.
+
+>[!INFO]
+>
+>App and extension purchases cannot be [transfered](#purchase-transfers) to a new account.
+
+### Open source questions
+
+The Marketplace Support team resolves issues related to the [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) and [commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) sites only. Please direct questions about Magento Open Source to the [Community Forum](https://community.magento.com/) or [contact a partner](https://business.adobe.com/products/magento/partners.html) who can assist with Magento Open Source.
+
+### Refund requests
+
+To request a refund for a Marketplace purchase, log in to your account and follow these steps:
+
+1. Click [!UICONTROL **My Profile**] > [!UICONTROL **Purchase History**].
+1. Locate the purchase and click [!UICONTROL **Request a Refund**].
+1. Complete the refund order form.
+
+Marketplace Support will request information after the refund request is generated. The refund option is available for 25 days after date-of-purchase. See the [Marketplace Customer Agreement](https://www.adobe.com/legal/terms/enterprise-licensing/magento-legacy-terms.html).
+
+### Order invoices
+
+You can download order invoices from the [!UICONTROL **Purchase History**] in your Marketplace account. The invoice does not supply the VAT or address of the seller because it is not a Marketplace requirement at this time.
+
+To download an order invoice for a Marketplace purchase, log in to your Marketplace account and follow these steps:
+
+1. Click [!UICONTROL **My Profile**] > [!UICONTROL **Purchase History**].
+1. Locate the purchase.
+1. Click the printer icon in the top-right corner of the order.
+
+### Purchase transfers
+
+The Marketplace Support team does not have the ability to transfer purchases to a different account. You must purchase all apps and extensions under the primary Commerce account to avoid installation and deployment issues. Adobe Commerce is entitled to one unique identifier. Since Composer is used for installation, only one set of [access keys](#create-an-access-key) tied to the primary account can be used. The only available solution is to [request a refund](#refund-requests) from the Marketplace purchasing account (if allowed by the Adobe Commerce refund policy).
+
+You can [share](commerce-account-share.md) a Commerce instance through the primary account. Shared access grants special permissions to a subordinate account from a primary account. The shared access point is generated from the primary account. The primary account can be the Commerce entitled account, the main merchant account, or an account shared within an organization.
+
+These special permissions grant the same level of access on Adobe Commerce as the primary, however it does not carry over to the Adobe Commerce Marketplace or Developer Portal. This means that buying an extension from a subordinate account in the Marketplace cannot be shared with the primary account. Shared access is a one-way street (primary account to subordinate). It does not work when a subordinate account is trying to share back to the primary.
 
 [1]: https://marketplace.magento.com/
 [2]: https://www.paypal.com/us/home
 [3]: https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/
 [4]: https://www.adobe.com/commerce/magento/enterprise.html
-[5]: https://marketplacesupport.magento.com/hc/en-us
 [6]: https://business.adobe.com/products/magento/magento-commerce.html

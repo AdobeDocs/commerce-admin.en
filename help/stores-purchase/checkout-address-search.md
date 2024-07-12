@@ -24,7 +24,7 @@ If the customer does not have a default shipping address, the _Shipping_ page di
 
 ## Locked address search for quotes
 
-![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce only)
+![Adobe Commerce B2B](../assets/b2b.svg) (Available with Adobe Commerce B2B only)
 
 Enabling address search also affects the checkout for orders that are created from quotes where customer's number of saved addresses meets or exceeds the configured limit. When the quote is complete and the customer proceeds to the checkout, only the selected shipping address is displayed. The page also displays a message that the shipping address is locked and can only be changed in the quote.
 

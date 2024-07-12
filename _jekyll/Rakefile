@@ -17,8 +17,8 @@ task :image_optim do
 
   unless path
     puts 'Looking in uncommitted files ...'.blue
-    modified_files = `git ls-files --modified --others --exclude-standard`.split("\n")
-    deleted_files = `git ls-files --deleted`.split("\n")
+    modified_files = `git ls-files --modified --others --exclude-standard -- ..`.split("\n")
+    deleted_files = `git ls-files --deleted -- ..`.split("\n")
     image_files_to_check = (modified_files - deleted_files).select do |file|
       File.extname(file) =~ /\.(png|jpg|jpeg|gif)/i
     end
@@ -29,4 +29,9 @@ task :image_optim do
   end
 
   system "bundle exec image_optim --no-svgo --recursive #{path}"
+end
+
+desc 'Render the templated files'
+task :render do
+  sh '_scripts/render'
 end

@@ -48,7 +48,7 @@ The most frequently used product settings and attributes are displayed at the to
 |[[!UICONTROL Product in Websites]](settings-basic-websites.md)| Identifies each website where the product is available, according to the store hierarchy.|
 |[[!UICONTROL Design]](settings-advanced-design.md)|Used to apply a different theme to the product page, change the column layout, determine where product options appear, and enter custom XML code.|
 |[[!UICONTROL Gift options]](product-gift-options.md)|Used to enable or disable a gift message option during checkout at the product level.|
-|[[!UICONTROL Product In Shared Catalogs]](../b2b/catalog-shared.md) | ![B2B for Adobe Commerce](../assets/b2b.svg) (Available with [B2B for Adobe Commerce](../b2b/introduction.md) only) Enables the ability to maintain shared catalogs with custom pricing for different companies.|
+|[[!UICONTROL Product In Shared Catalogs]](../b2b/catalog-shared.md) | ![Adobe Commerce B2B](../assets/b2b.svg) (Available with [Adobe Commerce B2B](../b2b/introduction.md) only) Enables the ability to maintain shared catalogs with custom pricing for different companies.|
 |[[!UICONTROL Downloadable Information]](product-create-downloadable.md#step-5-complete-the-downloadable-information)|Used to define the parameters for product download.|
 
 {style="table-layout:auto"}
