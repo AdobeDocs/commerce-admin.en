@@ -58,11 +58,18 @@ The B2B v1.5.0-beta release includes new features, quality improvements, and bug
 
 ![Fixed issue](../assets/fix.svg)<!--ACP2E-1933-->Company administrators can now add company users from the storefront. Previously, Commerce logged an error when an Admin user tried to add a new user: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
 
+## B2B v1.4.2-p1
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Supported on Adobe Commerce 2.4.7-p1+ and 2.4.6-p6+ security patch releases.
+
+![New](../assets/new.svg) Added compatibility with Adobe Commerce 2.4.7-p1+ and 2.4.6-p6+ security patch releases.
+
+
 ## B2B v1.4.2
 
 *October 10, 2023*
 
-[!BADGE Supported]{type=Informative tooltip="Supported"} Supported on Adobe Commerce 2.4.7-beta releases.
+[!BADGE Supported]{type=Informative tooltip="Supported"} Supported on the Adobe Commerce 2.4.7 release.
 
 The B2B v1.4.2 release includes quality improvements and bug fixes
 

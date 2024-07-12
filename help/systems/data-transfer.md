@@ -10,7 +10,10 @@ Use the import and export tools to manage multiple records in a single operation
 
 For example, you can add new products to your inventory, update product data and advanced price data, and replace a set of existing products with new products. The import and export tools help manage large product catalogs more efficiently because you can export the data, edit it in a spreadsheet, and import it back into your store instead of performing multiple operations in the Admin.
 
-In addition to the import and export tools, Adobe Commerce has processes like [SaaS data export](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview) that export product data from the Commerce server to SaaS services. SaaS data export is integrated with Commerce SaaS Services including [Product Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html), [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview), [Catalog Service](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview), and [SaaS price indexing](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/price-indexer/price-indexing).
+
+>[!NOTE]
+>
+>Adobe Commerce also supports SaaS data export to transfer product data from the Commerce server to SaaS services. SaaS data export is integrated with Commerce SaaS Services including [Product Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html), [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview), and [Catalog Service](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview). For details, see the [SaaS Data Export Guide](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
 
 ## Data validation
 
