@@ -8,7 +8,7 @@ feature: Catalog Management, Products, Admin Workspace
 
 All products in the catalog are accessible from the _[!UICONTROL Products]_ page in the Admin, where you can create products and edit existing ones. For a multi-site installation, each website can offer a different selection of products for sale from the same catalog.
 
-The _[!UICONTROL Products]_ list includes all products in the catalog, indicates the websites where they are available, and if they are currently enabled for sale. In B2B for Adobe Commerce installations with [shared catalogs](../b2b/catalog-shared.md) enabled, the grid includes a column that indicates which products have alternate discount pricing in a shared catalog.
+The _[!UICONTROL Products]_ list includes all products in the catalog, indicates the websites where they are available, and if they are currently enabled for sale. In Adobe Commerce B2B installations with [shared catalogs](../b2b/catalog-shared.md) enabled, the grid includes a column that indicates which products have alternate discount pricing in a shared catalog.
 
 You can browse through the list page by page, or search for specific products. Use the standard [controls](../getting-started/admin-grid-controls.md) to sort and filter the list, and apply [actions](../getting-started/admin-actions-control.md) to selected products.
 
@@ -79,7 +79,7 @@ This configuration setting for the product display limitation is disabled by def
 |[!UICONTROL Websites]|Indicates the websites where the product is available.|
 |[!UICONTROL Remote Media URL]| If product media assets are managed using the [AEM Assets Integration for Commerce](../content-design/aem-assets.md), this field displays the URL to view the Commerce asset in the AEM assets Digital Asset Management store, the centralized repository where the assets are kept. This field is displayed only if the AEM Assets integration is enabled.|
 |[!UICONTROL Action]|Opens the product in Edit mode.|
-|[!UICONTROL Shared Catalog]|![B2B for Adobe Commerce](../assets/b2b.svg) (Available with [B2B for Adobe Commerce](./b2b/../introduction.md) only) Indicates the shared catalogs that contain custom pricing for the product.|
+|[!UICONTROL Shared Catalog]|![Adobe Commerce B2B](../assets/b2b.svg) (Available with [Adobe Commerce B2B](./b2b/../introduction.md) only) Indicates the shared catalogs that contain custom pricing for the product.|
 
 {style="table-layout:auto"}
 

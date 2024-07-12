@@ -56,6 +56,22 @@ Adobe [!DNL Commerce] Data Sharing includes two key components:
 
 1. [[!DNL Audience Activation]](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation): Use [!DNL Real-Time CDP] audiences to personalize dynamic content blocks, promotions, and related product rules on your Adobe [!DNL Commerce] site.
 
+### Personalized Storefront Experiences across any channel, at scale 
+
+Adobe [!DNL Commerce] can take adavantage of a high-performance storefront, called [Edge Delivery Services](https://experienceleague.adobe.com/developer/commerce/storefront/), to deliver personalized experiences across all your channels, with AI capabilities at the core, and speed as a foundation.
+
+With Edge Delivery Services, you can:
+
+- **Craft personalized content**: Use document-based authoring, native experimentation with Generative AI text & image variations for personalizing the experience at scale. Use Assets and Generative AI content creation to produce product and marketing images at scale. 
+
+- **Generate variations**: Allows content authors to use Generative AI to create large volumes of personalized AI-driven [text content and image variations](https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/generative-ai/generate-variations) with Adobe Firefly.
+
+- **Deploy via Edge Delivery Services Storefront**: Content on the Edge and Commerce capabilities powered by drop-in components, to create bespoke shoppable experiences for your audiences.
+
+- **Commerce and Adobe Experience Manager Assets**: Generative AI product asset creation and variations at scale. Create, deliver, and monitor content delivery across any channel.
+
+![Drop-ins: Product Detail Page](assets/drop-in.png){width="700" zoomable="yes"}
+
 ### Out-of-the-box Personalization: Get started with native Adobe [!DNL Commerce] features 
 
 Adobe [!DNL Commerce] delivers powerful personalization with its native out-of-the-box capabilities. The following table describes [!DNL Commerce] features you can activate immediately to get started on your personalization journey.  
@@ -84,7 +100,7 @@ Adobe [!DNL Commerce] customers are using out-of-the-box capabilities and sharin
 
 |Use-Case|Solution|
 |---|---|
-|**Personalized Site Content** - Personalize site banners and other page content based on shopper actions, such as product browsing and category affinities. Deploy best-fit content based on results of A/B tests or business goals.|**Adobe [!DNL Commerce] Only**:<br>Deploy segment-specific [dynamic content blocks](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks).<br>**[!DNL Commerce] with Real-Time CDP**:<br>Use [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) to deploy audience-specific dynamic content blocks that respond to real-time actions and unified customer profile data, while centrally managing profiles and audiences in Real-Time CDP.<br>**[!DNL Commerce] with [!DNL Target]**:<br>Personalize every part of the site experience, including content, navigation items, full page layouts and more using Adobe [!DNL Commerce] data in Adobe [!DNL Target]. A/B test content, automatically select and deploy winning content for each customer.<br>**[!DNL Commerce] with AEM Assets**:<br>Store all of your content in Adobe Experience Manager Assets. Natively access that content from within Adobe Commerce. Use GenAI to create content variations to personalize for different segments or audiences.|
+|**Personalized Site Content** - Personalize site banners and other page content based on shopper actions, such as product browsing and category affinities. Deploy best-fit content based on results of A/B tests or business goals.|**Adobe [!DNL Commerce] Only**:<br>Deploy segment-specific [dynamic content blocks](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks).<br>**[!DNL Commerce] with Real-Time CDP**:<br>Use [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) to deploy audience-specific dynamic content blocks that respond to real-time actions and unified customer profile data, while centrally managing profiles and audiences in Real-Time CDP.<br>**[!DNL Commerce] with [!DNL Target]**:<br>Personalize every part of the site experience, including content, navigation items, full page layouts and more using Adobe [!DNL Commerce] data in Adobe [!DNL Target]. A/B test content, automatically select and deploy winning content for each customer.<br>**[!DNL Commerce] with AEM Assets**:<br>Store all of your content in Adobe Experience Manager Assets. Natively access that content from within Adobe Commerce. Use Generative AI to create content variations to personalize for different segments or audiences.|
 |**Personalized Onsite Offer Based on Behavior** - Personalize promotions based on shopper actions, such as product browsing and category affinities. Deploy the next best offer based on results of A/B tests or business goals.|**Adobe [!DNL Commerce] Only**:<br>Deploy segment-specific catalog and [cart price rules](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart).<br>**Adobe [!DNL Commerce] with Real-Time CDP**:<br>Use [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) to deploy audience-specific offers, while centrally managing profiles/audiences in Real-Time CDP.<br>**Commerce with [!DNL Target]**: Use offer decisioning to determine which offer to deploy, A/B test or set business goals to guide offers deployed in Adobe Commerce.|
 
 ### Analytics and insights
@@ -94,6 +110,7 @@ Adobe [!DNL Commerce] customers are using out-of-the-box capabilities and sharin
 |**Customer Behavior by Channel** - Understand the nuances of how customers engage in each channel (web, in-person, app, other) to impact marketing strategies for each channel; understand the shopper funnel and weaknesses in the customer experience.|**Adobe [!DNL Commerce] Only**:<br>[Adobe [!DNL Commerce] Intelligence](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started) provides rich analytics on the digital [!DNL Commerce] channel, but not across channels or broader pieces of the customer journey.<br>**Adobe [!DNL Commerce] with Customer Journey Analytics**:<br>[!DNL Commerce] data feeds data dashboards for full rich detail on all stages of the customer experience (across channels). Understand every touchpoint and the broader funnel to identify weak points in the customer journey where customers may fall off.|
 |**Purchase Trends** - Understand purchase behaviors over a specific time frame (for example, shopper basket analysis, product analysis) to identify trends, seasonality, and optimize marketing based on historical purchase patterns.|**Adobe [!DNL Commerce] Only**:<br>[Adobe [!DNL Commerce] Intelligence](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started) provides rich analytics on the digital [!DNL Commerce] channel, but not across channels or broader pieces of the customer journey.<br>**Adobe [!DNL Commerce] with Customer Journey Analytics**:<br>[!DNL Commerce] data feeds data dashboards for full rich detail on all stages of the customer experience (across channels). Understand every touchpoint and the broader funnel to identify weak points in the customer journey where customers may fall off.|
 
-## Example Use-Case
+## Example Use-Cases
 
-Learn how you can use Adobe Journey Optimizer to [send an abandoned cart email](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/using-ajo).
+- Learn how you can use Adobe Journey Optimizer to [send an abandoned cart email](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/using-ajo).
+- Learn how to [create an audience in Real-Time CDP](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience) to inform a cart price rule in Adobe [!DNL Commerce].

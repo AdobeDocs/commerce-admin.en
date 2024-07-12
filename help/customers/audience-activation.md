@@ -44,6 +44,14 @@ _May 30, 2023_
 
 +++
 
+### 2.2.0
+
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
+
+_June 12, 2024_
+
+![New](../assets/new.svg) - GA release for [related product rules](../merchandising-promotions/product-related-rule-create.md) informed by audiences.
+
 ### 2.1.1
 
 [!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
@@ -166,7 +174,11 @@ With the [!DNL Audience Activation] extension enabled, you can:
 
 - [Create a cart price rule](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) informed by audiences
 - [Create a dynamic block](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) informed by audiences
-- [(**Beta**) Create a related product rule](../merchandising-promotions/product-related-rule-create.md) informed by audiences
+- [Create a related product rule](../merchandising-promotions/product-related-rule-create.md) informed by audiences
+
+>[!TIP]
+>
+>For a complete end-to-end use case about how to export [!DNL Commerce] data to Real-Time CDP, build an audience, then activate that audience to [!DNL Commerce], see [Create an audience in Real-Time CDP using [!DNL Commerce] event data](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
 
 ## Real-Time CDP audiences dashboard
 
@@ -187,6 +199,7 @@ The dashboard contains the following fields:
 |`Websites`|Indicates which websites are configured to use the audiences.|
 |`Dynamic Blocks`|Indicates which dynamic blocks are configured to use the audiences.|
 |`Cart Price Rules`|Indicates which cart price rules are configured to use the audiences.|
+|`Related Product Rules`|Indicates which related product rules are configured to use the audiences.|
 |`Last updated`|Indicates when the audience was modified in Real-Time CDP.|
 |`Sync now`|Retrieves new or updated audiences from Real-Time CDP.|
 |`Customize table`| Lets you show or hide the `Origin`, `Websites`, `Dynamic Blocks`, `Cart Price Rules`, and `Last updated` columns.|
@@ -362,7 +375,7 @@ This issue can be caused by insufficient API privileges for the generated token.
 1. Have the systems administrator launch Adobe Experience Platform and go to **[!UICONTROL Permissions]** -> **[!UICONTROL Users]** -> **[!UICONTROL API credentials]**.
 1. Using the technical account email from above, search for the credentials to modify.
 1. Open the credentials, then select **[!UICONTROL Roles]** -> **[!UICONTROL Add roles]**.
-1. Add **Production all access**.
+1. Add the role that contains **[!UICONTROL Manage destinations]** permission.
 1. Click **[!UICONTROL Save]**.
 1. [Regenerate](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#generate-access-token) the access token in Console.
 1. Verify that token provides a valid response using the [Target Connections API](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/getTargetConnections).

@@ -1,12 +1,12 @@
 ---
 title: Shared catalog overview
-description: Learn about the shared catalogs provided by B2B for Adobe Commerce and how you can use them to maintain gated catalogs with custom pricing for different company accounts.
+description: Learn about the shared catalogs provided by Adobe Commerce B2B and how you can use them to maintain gated catalogs with custom pricing for different company accounts.
 exl-id: cf7c9099-9b7d-407b-adb9-06a4815624ee
 feature: B2B, Companies, Catalog Management
 ---
 # Shared catalog overview
 
-B2B for Adobe Commerce gives you the ability to maintain gated _shared_ catalogs with custom pricing for different companies. In addition to the standard, _primary_, product catalog, it provides customer access to two types of shared catalogs with different pricing structures.
+Adobe Commerce B2B gives you the ability to maintain gated _shared_ catalogs with custom pricing for different companies. In addition to the standard, _primary_, product catalog, it provides customer access to two types of shared catalogs with different pricing structures.
 
 If the [Shared Catalog feature](enable-basic-features.md) is enabled in the configuration, the original primary catalog remains visible from the Admin, but only the Default (General) public shared catalog is visible from the storefront. In addition, custom catalogs can be created that are visible only to members of specific [company](account-companies.md) accounts.
 
@@ -50,7 +50,7 @@ The [actions controls](../getting-started/admin-actions-control.md) in the upper
 |[!UICONTROL Select]|Selects shared catalog records for applying an action. The control in the header can be used to select all or deselect all shared catalog records in the grid. To select an individual shared catalog, select the checkbox.|
 |[!UICONTROL ID]|A unique numeric identifier that is assigned in sequence when the catalog is created.|
 |[!UICONTROL Name]|The name of the shared catalog. By default, the default (General) shared catalog is available.|
-|[!UICONTROL Type]|Identifies the type of shared catalog as either: <br/>**[!UICONTROL Public]** - The default public shared catalog is created automatically when B2B for Adobe Commerce is installed. It is initially assigned to the `General` and `Not Logged In` customer groups, and is visible to guests and individual logged-in customers who are not associated with a company. The system supports only one public shared catalog at a time. <br/>**[!UICONTROL Custom]** - A custom shared catalog contains pricing that is visible only to logged-in associates of the assigned company accounts. You can create as many custom shared catalogs as you need.|
+|[!UICONTROL Type]|Identifies the type of shared catalog as either: <br/>**[!UICONTROL Public]** - The default public shared catalog is created automatically when Adobe Commerce B2B is installed. It is initially assigned to the `General` and `Not Logged In` customer groups, and is visible to guests and individual logged-in customers who are not associated with a company. The system supports only one public shared catalog at a time. <br/>**[!UICONTROL Custom]** - A custom shared catalog contains pricing that is visible only to logged-in associates of the assigned company accounts. You can create as many custom shared catalogs as you need.|
 |[!UICONTROL Customer Tax Class]|The tax class that is assigned to the corresponding customer group. This column does not appear in the default grid, but can be added by changing the column layout.|
 |[!UICONTROL Created At]|The date and time the shared catalog was created.|
 |[!UICONTROL Created By]|The first and last name of the store administrator who created the shared catalog.|

@@ -168,7 +168,7 @@ Also define any associated keywords and attributes, such as:
 
 1. Choose the **[!UICONTROL Customer Group]** where the category permissions apply.
 
-   ![B2B for Adobe Commerce](../assets/b2b.svg) ([B2B for Adobe Commerce](../b2b/introduction.md) only) If needed, you can choose a **[!UICONTROL Shared Catalog]** instead.
+   ![Adobe Commerce B2B](../assets/b2b.svg) ([Adobe Commerce B2B](../b2b/introduction.md) only) If needed, you can choose a **[!UICONTROL Shared Catalog]** instead.
 
 1. Set the following permissions as needed:
 
@@ -186,7 +186,7 @@ Also define any associated keywords and attributes, such as:
 
 1. Set the design settings as needed:
 
-   - ([B2B for Adobe Commerce](../b2b/introduction.md) only) To apply the parent category design settings to this category, set **[!UICONTROL Use Parent Category Settings]** to `Yes`.
+   - ([Adobe Commerce B2B](../b2b/introduction.md) only) To apply the parent category design settings to this category, set **[!UICONTROL Use Parent Category Settings]** to `Yes`.
 
    - To change the design of the category pages, choose the **[!UICONTROL Theme]** that you want to apply.
 
