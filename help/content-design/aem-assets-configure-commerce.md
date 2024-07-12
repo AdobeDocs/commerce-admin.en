@@ -7,7 +7,7 @@ feature: CMS, Media
 
 {{$include /help/_includes/aem-assets-integration-beta-note.md}}
 
-Install and configure the AEM Assets integration for Commerce by adding the extension to the Commerce application, connecting to SaaS Commerce SaaS services, e Adobe I/O Events service, and connect to the Commerce SaaS.
+Install and configure the AEM Assets integration for Commerce by adding the extension to the Commerce application, connecting to Commerce SaaS services, e Adobe I/O Events service, and connect to the Commerce SaaS.
 
 ## System requirements
 
