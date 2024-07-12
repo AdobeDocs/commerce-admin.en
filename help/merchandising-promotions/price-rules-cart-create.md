@@ -363,7 +363,7 @@ Specifies the conditions that must be met before the cart price rule goes into a
 |[!UICONTROL Row total in cart]|Product row total. The rule applies if the product row total in cart condition is met.|
 |[!UICONTROL **Product Attribute**]||
 |[!UICONTROL Attribute Set]|Product attribute set. The rule applies if the product meets the product attribute condition.|
-|[!UICONTROL Category/Other attribute]|Product category/other attribute. The rule applies if either the product itself or its child product meets the category/other attribute condition. Attribute must have [!UICONTROL Use for Promo Rule Conditions]=`Yes` settings value to appear as this condition.|
+|[!UICONTROL Category/Other attribute]|Product category/other attribute. The rule applies if either the product itself or children meets the category/other attribute condition. The attribute must have [!UICONTROL Use for Promo Rule Conditions] set to `Yes`.|
 |[!UICONTROL Category/Other attribute (Children Only)]|Child product category/other attribute. The rule applies if only the product children meet the category/other attribute condition (the product itself is not checked here). Attribute must have [!UICONTROL Use for Promo Rule Conditions]=`Yes` settings value to appear as this condition.|
 |[!UICONTROL Category/Other attribute (Parent Only)]|Parent product category/other attribute. The rule applies if only the product itself meets the category/other attribute condition (children products are not checked here). Attribute must have [!UICONTROL Use for Promo Rule Conditions]=`Yes` settings value to appear as this condition.|
 |[!UICONTROL **Cart Attribute**]||
