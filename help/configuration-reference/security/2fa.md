@@ -22,6 +22,8 @@ For more information about changing these settings, see [Two-factor authenticati
 |--- |--- |--- |
 |[!UICONTROL Providers to use]|Global|Indicates the two-factor authentication methods that you require. If you select more than one provider, each user is required to configure each 2FA method the next time they log in.|
 |[!UICONTROL Configuration Email URL for Web API]|Global |For custom implementations, the URL for an alternate email configuration link that is sent to _Admin_ users at first login. In the email template, use the placeholder `:tfat` to indicate where the token is injected.|
+|[!UICONTROL Retry attempt limit for Two-Factor Authentication]|Global| Determines how many times an administrator can enter a [!DNL one-time password (OTP)] before their account is temporarily disabled. Default: `10`|
+|[!UICONTROL Two-Factor Authentication lockout time (seconds)]|Global| Determines how long (in seconds) that an administrator can wait to enter a [!DNL one-time password (OTP)] before their account is temporarily disabled. Default: `300`|
 
 {style="table-layout:auto"}
 
@@ -31,7 +33,7 @@ For more information about changing these settings, see [Two-factor authenticati
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|[!UICONTROL OTP Window]|Global|Determines how long (in seconds) that the system accepts an administrator's one-time-password (OTP) after it has expired. Cannot be higher than the lifetime of a single OTP (usually 30 seconds). Default: `29`|
+|[!UICONTROL OTP Window]|Global|Determines how long (in seconds) that the system accepts an administrator's [!DNL one-time-password (OTP)] after it has expired. Cannot be higher than the lifetime of a single OTP (usually 30 seconds). Default: `29`|
 
 {style="table-layout:auto"}
 
