@@ -188,7 +188,7 @@ Enable the Commerce eventing framework by using the instructions for the environ
 
       >[!NOTE]
       >
-      >Enable cron](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration) so that Commerce can send events to the API endpoints to manage communication and workflows for the integration.
+      >[Enable cron](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration) so that Commerce can send events to the API endpoints to manage communication and workflows for the integration.
 
 1. Update the cloud project configuration.
 
