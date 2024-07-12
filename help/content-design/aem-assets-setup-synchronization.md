@@ -14,7 +14,7 @@ To set up the service, you need to register your tenant ID using the ARES GraphQ
 
 The AEM Assets Integration for Commerce supports two matching strategies for synchronizing assets between Adobe Commerce and AEM Assets.
 
-- **MatchBySku**-This is the default matching rule that matches assets based on the Stock Keeping Unit (SKU) of the product. The SKU is a unique identifier for each product, and this rule ensures that images and other assets are correctly associated with their corresponding products by matching the SKU in the asset metadata with the SKU in the Commerce catalog.
+- **MatchBySku**-This is the default matching rule that matches assets based on the Stock Keeping Unit (SKU) of the product. The SKU is a unique identifier for each product. This rule matches the SKU in the asset metadata with the Commerce product SKU to ensure that assets are associated with the correct products.
 
 - **ExternalMatcher**–This matching rule is for more complex scenarios or specific business requirements that require custom matching logic. To use this rule, you must have custom code implemented in Adobe Developer App Builder that defines how assets are matched with products.
 
@@ -38,9 +38,9 @@ You need the following credentials to authenticate and connect your Commerce pro
 
 | Required Data | Source | Where to find it|
 | ---------- | ------ | ------------- |
-| API Key from Magento account | Commerce | Provide the public API key for the Commerce environment you are using, Staging or Production. You can find the API keys for the Production and Staging environments on the [Commerce Service Connector Setup](aem-assets-configure-commerce.md#configure-the-commerce-services-connector) page in the Admin, or on the [!UICONTROL My Account] page in the [!UICONTROL API Portal] section.|
+| API Key from Magento account | Commerce | Provide the public API key for the Commerce environment that you are using, Staging or Production. You can find the API keys for the Production and Staging environments on the [Commerce Service Connector Setup](aem-assets-configure-commerce.md#configure-the-commerce-services-connector) page in the Admin, or on the [!UICONTROL My Account] page in the [!UICONTROL API Portal] section.|
 | Commerce SaaS Project Identifier <ul><li>`magento-environment-Id`</li><li>`Project ID`</li></ul> | Commerce Admin | These values identify the Commerce environment and SaaS data space and project to connect to. Values come from the [Commerce Services Connector SaaS Identifier configuration].(aem-assets-configure-commerce.md#configure-the-commerce-services-connector). |
-|AEM `programId`<br>`environmentId` | [AEM Assets Authoring environment](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start) | Open the AEM Sites page, and select **[!UICONTROL Assets]**.  Copy the project and environment IDs from the URL: `https://author-p[Program ID]-e[EnvironmentID].adobeaemcloud.com/`|
+|AEM `programId`<br>`environmentId` | [AEM Assets Authoring Environment](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start) | Open the AEM Sites page, and select **[!UICONTROL Assets]**.  Copy the project and environment IDs from the URL: `https://author-p[Program ID]-e[EnvironmentID].adobeaemcloud.com/`|
 | baseURL | Commerce storefront | The [base URL](../stores-purchase/store-urls.md) for your Commerce storefront.|
 | OAuth credentials for API access | Commerce Admin | You can find these credentials in the Commerce [configuration settings for the Assets integration](aem-assets-configure-commerce.md#experience-manager-assets-integration-for-adobe-commerce-10-release).|
 
@@ -129,7 +129,7 @@ Register a tenant and select the `matchBySku` rule to map assets between Adobe C
 
 >[!TAB cURL request]
 
-```json
+```shell
 curl --request POST \
   --url https://commerce.adobe.io/assets-integration/graphql \
   --header 'Content-Type: application/json' \
@@ -145,7 +145,7 @@ curl --request POST \
 
 #### AemInput
 
-Identifies the AEM Assets instance where you will store the Commerce Assets. You can get this information from the Cloud Manager My Programs view, or from the content authoring URL.
+Identifies the AEM Assets instance for storing Commerce assets. You can get this information from the Cloud Manager My Programs view, or from the content authoring URL.
 
 | Field | Data Type | Description |
 | ----- | --------- | ----------- |
@@ -154,18 +154,18 @@ Identifies the AEM Assets instance where you will store the Commerce Assets. You
 
 #### CommerceInput
 
-Provides the OAuth authentication credentials for API access to the Commerce Catalog. You can find these credentials in the Commerce [configuration settings for the Assets integration](aem-assets-configure-commerce.md#experience-manager-assets-integration-for-adobe-commerce-10-release).
+This input field provides the OAuth authentication credentials for API access to the Commerce catalog. You can find these credentials in the Commerce [configuration settings for the Assets integration](aem-assets-configure-commerce.md#experience-manager-assets-integration-for-adobe-commerce-10-release).
 
 | Field | Data Type | Description |
 | ----- | --------- | ----------- |
 | `baseUrl` | String | The [base URL](../stores-purchase/store-urls.md) for your Commerce storefront.|
 | `credentials` | [CommerceCredentialsInput](#commercecredentialsinput)! | Specifies the credentials to access the Commerce instance.|
-| `extensionVersion` | String | Optional. The version of the AEM Assets Integration for Commerce extension installed on the Commerce instance.|
+| `extensionVersion` | String | Optional. The version of the AEM Assets Integration for the Commerce extension that is installed on the Commerce instance.|
 | `version` | String | Optional. The version of the Commerce application installed on the Commerce instance.|
 
 #### CommerceCredentialsInput
 
-Provides the OAuth credentials for API access to the Commerce Catalog. You can find these credentials in the Commerce [configuration settings for the Assets integration](aem-assets-configure-commerce.md#experience-manager-assets-integration-for-adobe-commerce-10-release).
+This input field provides the OAuth credentials for API access to the Commerce catalog. You can find these credentials in the Commerce [configuration settings for the Assets integration](aem-assets-configure-commerce.md#experience-manager-assets-integration-for-adobe-commerce-10-release).
 
 | Field | Data Type | Description |
 | ----- | --------- | ----------- |
@@ -180,7 +180,7 @@ Provides the OAuth credentials for API access to the Commerce Catalog. You can f
 | ----- | --------- | ----------- |
 | assetToProductUrl | String! | <!--Add field description--> |
 | productToAssetUrl | String! | <!--Add field description--> |
-| credentials | [ExternalMatcherCredentialsInput](#externalmatchercredentials)! | Credentials for accessing the App builder project for the AEM Assets integration for Commerce. |
+| credentials | [ExternalMatcherCredentialsInput](#externalmatchercredentials)! | Credentials for accessing the App Builder project for the AEM Assets integration for Commerce. |
 
 #### ExternalMatcherCredentials
 
@@ -203,7 +203,7 @@ Specifies the matching rule to use for synchronizing assets between Adobe Commer
 
 | Field | Data Type | Description |
 | ----- | --------- | ----------- |
-| externalMatcher | [ExternalMatcherInput](#externalmatcherinput) | Selects the externalMatcher rule for asset matching and specifies data required to use it. |
+| externalMatcher | [ExternalMatcherInput](#externalmatcherinput) | Selects the externalMatcher rule for asset matching and specifies the data required to use it. |
 | MatchBySkuRule | [MatchBySkuRuleInput](#matchbyskuruleinput) | Selects the MatchBySkuRule for asset matching and specifies the data required to use it.|
 
 #### RuleTypeInput
@@ -216,7 +216,7 @@ Specifies the matching rule to use for synchronizing assets between Adobe Commer
 
 | Field | Data Type | Description |
 | ----- | --------- | ----------- |
-|`aem` | [AemInput!](#aeminput) | Identifies the AEM Assets instance within the AEM Cloud Service where you will store the Commerce Assets. |
+|`aem` | [AemInput!](#aeminput) | Identifies the AEM Assets instance within the AEM Cloud Service where you store the Commerce assets. |
 |`commerce` | [CommerceInput!](#commerceinput) | Provides Commerce project information and credentials for API access |
 |`enabled`| Boolean! | Enable or disable the assets sync between Adobe Commerce and AEM Assets.|
 |`projectId` | String! | The SaaS Project Id from the [Commerce Services Connector SaaS Identifier configuration](aem-assets-configure-commerce.md#configure-the-commerce-services-connector). |
@@ -239,20 +239,17 @@ Specifies the matching rule to use for synchronizing assets between Adobe Commer
 
 | Error | Description |
 |:------|:------------|
-|`IMS Org ID not associated to this Commerce`| This error occurs if the environment Id specified in the `Magento-Environment-Id` header is not assigned to the IMS account, or the IMS account was not connected when the [Commerce Services Connector](aem-assets-configure-commerce.md#configure-the-commerce-services-connector) was configured for the Commerce instance.|
+|`IMS Org ID not associated to this Commerce`| This error occurs if the environment Id specified in the `Magento-Environment-Id` header is not assigned to the IMS account. This error can occur because the IMS account was not connected when the [Commerce Services Connector](aem-assets-configure-commerce.md#configure-the-commerce-services-connector) was configured for the Commerce instance.|
 |`Client ID is invalid` | The `x-api-key` header is incorrect.|
 |`Client ID is missing` | The `x-api-key` header was not provided.|
 |`JWT is required` | The `x-gw-signature` header was not provided.|
 |`JWT is invalid` | The `x-gw-signature` header was not provided. |
 |`Tenant already exists` | A tenant with the given `mageID` (taken from the JWT token) and `saasId` (provided by the `Magento-Environment-Id` header) was already registered.|
 |`Unexpected error when connecting with AEM Assets`| This error occurs due to invalid or non-existent `programId` or `environmentId` values.|
-|`Unable to connect with AEM Assets` | There are two possible reasons for this error:<br>1. The AEM asset account is associated with a different IMS organization Id than the one provided for Adobe Commerce.<br>2. The `commerce:isCommerce` metadata does not exist in AEM assets, indicating that there are no approved assets to send from AEM Assets to the Commerce instance.|
+|`Unable to connect with AEM Assets` | There are two possible reasons for this error:<br>1. The AEM asset account is associated with a different IMS organization Id than the one provided for Adobe Commerce.<br>2. The `commerce:isCommerce` metadata does not exist in AEM Assets, indicating that there are no approved assets to send from AEM Assets to the Commerce instance.|
 |`Unexpected error when connecting with Commerce`|This error occurs when an invalid commerce `baseURL` is provided.|
 |`Unable to connect with Commerce, unauthorized`|Invalid commerce credentials were provided, resulting in unauthorized access.|
-|`Invalid rule. The value must be matchBySKU or externalMatcher`|The `Rule` field contains an incorrect value. Valid values are defined by the [RuleTypeInput](#ruletypeinput) enum.|
-
-
-
+|`Invalid rule. The value must be matchBySKU or externalMatcher`|The `Rule` field contains an incorrect value. For the RegisterTenant request, available rule types are defined by the [RuleTypeInput](#ruletypeinput) enum.|
 
 ## Enable the Experience Manager Assets integration
 
