@@ -275,12 +275,3 @@ On the Integrations page, generate the OAuth authentication credentials by click
 >[!NOTE]
 >
 >You can also generate authentication credentials using the Adobe Commerce APIs. For details about this process and more information about OAuth-based authentication for Adobe Commerce, see [OAuth-based authentication](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) in the Adobe Developer documentation.
-
-
-
-
-
-
-
-
-
