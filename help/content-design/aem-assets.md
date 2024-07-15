@@ -26,13 +26,6 @@ The integration between Commerce and Adobe Experience Manager (AEM) Assets combi
   - **Dynamic Updates**–Keep product images current with the latest changes in the asset management system. These automated updates ensure that commerce storefronts always have the most up-to-date product information.
   - **Efficient Catalog Management**–Simplifies the maintenance of the product catalog by automating asset cleanup and refresh.
 
-## What changes when you enable the integration
-
-Product list - New field [!UICONTROL Remote Media URL]
-
-Product details page - no change, except assets displayed will be coming from the AEM DAM
-
-
 ## Integrate Commerce and Experience Manager Assets
 
 >[!BEGINSHADEBOX]
@@ -45,12 +38,10 @@ Product details page - no change, except assets displayed will be coming from th
 
 >[!ENDSHADEBOX]
 
+Enabling the Commerce integration with Experience Manager Assets by completing the following tasks:
 
-Enabling the Commerce integration with Experience Manager Assets is a three step process:
+1. [Configure your Experience Manager Assets project to manage Commerce assets](aem-assets-configure-aem.md)
 
-1. [Configure your Experience Manager Assets project to manage Commerce assets](aem-assets-configure-aem.md).
-
-1. [Install the Experience Manager Assets Integration extension and configure Adobe Commerce](aem-assets-configure-aem.md)
+1. [Install the Experience Manager Assets Integration extension and configure Adobe Commerce](aem-assets-configure-commerce.md)
 
 1. [Set up synchronization services](aem-assets-setup-synchronization.md)
-

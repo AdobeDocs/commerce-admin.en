@@ -165,8 +165,8 @@ The AEM Assets Integration uses the Adobe I/O Events service to send custom even
 Set up requires the following steps.
 
 1. Enable the Commerce Eventing framework by configuring Adobe I/O events on the application server and in the Admin.
-1. Enable data synchronization between Adobe Commerce and AEM Assets by using the Assets Rules Engine Service API to configure the connection
-1. Enable the AEM Assets integration in the Admin
+1. Enable data synchronization between Adobe Commerce and AEM Assets by using the Assets Rules Engine Service API to configure the connection.
+1. Enable the AEM Assets integration in the Admin.
 
 ### Enable the Commerce Eventing framework
 
@@ -252,7 +252,7 @@ You generate the credentials by adding the integration to the Commerce instance 
 
    1. From the left panel, click **[!UICONTROL API]**.
 E
-   1. Select the external media resource (**[!UICONTROL Catalog > Inventory > Products > External Media]**.
+   1. Select the external media resource **[!UICONTROL Catalog > Inventory > Products > External Media]**.
 
      ![Admin Integration config for API resources](assets/aem-commerce-integration-api-resources.png){width="600" zoomable="yes"}
 
@@ -275,15 +275,3 @@ On the Integrations page, generate the OAuth authentication credentials by click
 >[!NOTE]
 >
 >You can also generate authentication credentials using the Adobe Commerce APIs. For details about this process and more information about OAuth-based authentication for Adobe Commerce, see [OAuth-based authentication](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) in the Adobe Developer documentation.
-
-
-
-
-
-
-
-
-
-
-
-
