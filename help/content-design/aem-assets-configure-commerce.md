@@ -17,13 +17,12 @@ Install and configure the AEM Assets integration for Commerce by adding the exte
 - PHP 8.1, 8.2, 8.3
 - Composer: 2.x
 
-## Prerequisites
+**Configuration requirements**
 
 - Adobe Commerce must be configured to use [Adobe IMS authentication](/help/getting-started/adobe-ims-config.md).
-- Account provisioning and permissions—Administrators must have access to the following resources to configure the Experience Manager Assets integration:
-  - Commerce application administrator—Install required extensions and configure the Commerce application server from the Admin or the command line
+- Account provisioning and permissions
+  - [Commerce cloud project administrator](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access)—Install required extensions and configure the Commerce application server from the Admin or the command line
   - [Commerce Admin](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview)—Update store configuration and manage Commerce user accounts
-  - [Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/introduction)—Adobe IMS application administrator or user account. Account must have permissions to create and manage folders and create public collections, upload assets, set up permissions, and set up metadata.
 
 ## Configuration overview
 
