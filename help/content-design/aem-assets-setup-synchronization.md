@@ -1,5 +1,5 @@
 ---
-title: Set up the synchronization service
+title: Enable asset synchronization
 description: "Learn how to connect your Adobe Commerce and Experience Manager Assets projects with the Assets Rule Engine Service to enable asset synchronization between these two systems."
 feature: CMS, Media
 ---
