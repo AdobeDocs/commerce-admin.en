@@ -62,7 +62,7 @@ feature: CMS, Page Content
     - Onboarding {#onboarding}
        - [Configure AEM Assets](aem-assets-configure-aem.md)
        - [Configure Adobe Commerce ](aem-assets-configure-commerce.md)
-       - [Set up synchronization services](aem-assets-setup-synchronization.md)
+       - [Enable asset synchronization](aem-assets-setup-synchronization.md)
     - [Use AEM Assets](aem-assets-manage.md)
   - Adobe Stock {#adobe-stock}
     - [Adobe Stock integration](adobe-stock.md)
