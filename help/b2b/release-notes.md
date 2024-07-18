@@ -125,7 +125,7 @@ This release includes new capabilities and enhancements for B2B negotiable quote
 
 If you install or upgrade B2B 1.4.0 on [Adobe Commerce version 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html), the following error occurs:
 
-```terminal
+```
 Your requirements could not be resolved to an installable set of packages.
 
   Problem 1
