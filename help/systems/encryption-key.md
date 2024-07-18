@@ -25,13 +25,13 @@ The following instructions require access to a terminal.
 
    >[!BEGINTABS]
    
-   >[!TAB Cloud]
+>[!TAB Cloud]
 
    ```bash
 
    ```
 
-   >[!TAB On-premises]
+>[!TAB On-premises]
    
    ```bash
    bin/magento maintenance:enable
@@ -43,13 +43,13 @@ The following instructions require access to a terminal.
 
    >[!BEGINTABS]
 
-   >[!TAB Cloud]
+>[!TAB Cloud]
 
    ```bash
    ./vendor/bin/ece-tools cron:disable
    ```
 
-   >[!TAB On-premises]
+>[!TAB On-premises]
 
    ```bash
    crontab -e
@@ -76,13 +76,13 @@ The following instructions require access to a terminal.
 
    >[!BEGINTABS]
 
-   >[!TAB Cloud]
+>[!TAB Cloud]
 
    ```bash
    magento-cloud cc
    ```
 
-   >[!TAB On-premises]
+>[!TAB On-premises]
    
    ```bash
    bin/magento cache:flush
@@ -94,13 +94,13 @@ The following instructions require access to a terminal.
 
    >[!BEGINTABS]
 
-   >[!TAB Cloud]
+>[!TAB Cloud]
 
    ```bash
    ./vendor/bin/ece-tools cron:enable
    ```
 
-   >[!TAB On-premises]
+>[!TAB On-premises]
 
    ```bash
    crontab -e
@@ -112,13 +112,13 @@ The following instructions require access to a terminal.
 
    >[!BEGINTABS]
 
-   >[!TAB Cloud]
+>[!TAB Cloud]
 
    ```bash
    
    ```
 
-   >[!TAB On-premises]
+>[!TAB On-premises]
 
    ```bash
    bin/magento maintenance:disable
