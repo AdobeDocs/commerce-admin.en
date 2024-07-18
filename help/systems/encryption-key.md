@@ -23,7 +23,7 @@ The following instructions require access to a terminal.
 
 1. Enable [maintenance mode](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode).
 
-   >[!BEGINTABS]
+>[!BEGINTABS]
    
 >[!TAB Cloud]
 
@@ -37,11 +37,11 @@ The following instructions require access to a terminal.
    bin/magento maintenance:enable
    ```
 
-   >[!ENDTABS]
+>[!ENDTABS]
 
 1. Disable cron jobs.
 
-   >[!BEGINTABS]
+>[!BEGINTABS]
 
 >[!TAB Cloud]
 
@@ -55,7 +55,7 @@ The following instructions require access to a terminal.
    crontab -e
    ```
 
-   >[!ENDTABS]
+>[!ENDTABS]
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Other Settings]_ > **[!UICONTROL Manage Encryption Key]**.
 
@@ -74,7 +74,7 @@ The following instructions require access to a terminal.
 
 1. Flush the cache.
 
-   >[!BEGINTABS]
+>[!BEGINTABS]
 
 >[!TAB Cloud]
 
@@ -88,11 +88,11 @@ The following instructions require access to a terminal.
    bin/magento cache:flush
    ```
 
-   >[!ENDTABS]
+>[!ENDTABS]
 
 1. Enable cron jobs.
 
-   >[!BEGINTABS]
+>[!BEGINTABS]
 
 >[!TAB Cloud]
 
@@ -106,11 +106,11 @@ The following instructions require access to a terminal.
    crontab -e
    ```
 
-   >[!ENDTABS]
+>[!ENDTABS]
 
 1. Disable maintenance mode.
 
-   >[!BEGINTABS]
+>[!BEGINTABS]
 
 >[!TAB Cloud]
 
@@ -124,4 +124,4 @@ The following instructions require access to a terminal.
    bin/magento maintenance:disable
    ```
 
-   >[!ENDTABS]
+>[!ENDTABS]
