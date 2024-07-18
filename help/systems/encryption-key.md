@@ -22,22 +22,10 @@ For technical information, see [Advanced on-premises installation](https://exper
 The following instructions require access to a terminal.
 
 1. Enable [maintenance mode](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode).
-
->[!BEGINTABS]
-   
->[!TAB Cloud]
-
-   ```bash
-
-   ```
-
->[!TAB On-premises]
    
    ```bash
    bin/magento maintenance:enable
    ```
-
->[!ENDTABS]
 
 1. Disable cron jobs.
 
@@ -110,18 +98,6 @@ The following instructions require access to a terminal.
 
 1. Disable maintenance mode.
 
->[!BEGINTABS]
-
->[!TAB Cloud]
-
-   ```bash
-   
-   ```
-
->[!TAB On-premises]
-
    ```bash
    bin/magento maintenance:disable
    ```
-
->[!ENDTABS]
