@@ -13,11 +13,49 @@ During the initial installation, you are prompted to either let Commerce generat
 
 For technical information, see [Advanced on-premises installation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) in the _Installation Guide_.
 
-## Step 1: Make the file writable
+>[!IMPORTANT]
+>
+>Before following these instructions to change the encryption key, make sure that the following file is writable: `[your store]/app/etc/env.php`
 
-To change the encryption key, make sure that the following file is writable: `[your store]/app/etc/env.php`
+**To change an encryption key:**
 
-## Step 2: Change the encryption key
+The following instructions require access to a terminal.
+
+1. Enable [maintenance mode](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode).
+
+   >[!BEGINTABS]
+   
+   >[!TAB Cloud]
+
+   ```bash
+
+   ```
+
+   >[!TAB On-premises]
+   
+   ```bash
+   bin/magento maintenance:enable
+   ```
+
+   >[!ENDTABS]
+
+1. Disable cron jobs.
+
+   >[!BEGINTABS]
+
+   >[!TAB Cloud]
+
+   ```bash
+   ece-tools cron:disable
+   ```
+
+   >[!TAB On-premises]
+
+   ```bash
+   bin/magento cron:remove
+   ```
+
+   >[!ENDTABS]
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Other Settings]_ > **[!UICONTROL Manage Encryption Key]**.
 
@@ -30,6 +68,60 @@ To change the encryption key, make sure that the following file is writable: `[y
 
 1. Click **[!UICONTROL Change Encryption Key]**.
 
-1. Keep a record of the new key in a secure location.
+   >[!NOTE]
+   >
+   >Keep a record of the new key in a secure location. It is required to decrypt the data, if any problems occur with your files.
 
-   It is required to decrypt the data, if any problems occur with your files.
+1. Flush the cache.
+
+   >[!BEGINTABS]
+
+   >[!TAB Cloud]
+
+   ```bash
+   magento-cloud cc
+   ```
+
+   >[!TAB On-premises]
+   
+   ```bash
+   bin/magento cache:flush
+   ```
+
+   >[!ENDTABS]
+
+1. Enable cron jobs.
+
+   >[!BEGINTABS]
+
+   >[!TAB Cloud]
+
+   ```bash
+   ece-tools cron:enable
+   ```
+
+   >[!TAB On-premises]
+
+   ```bash
+   bin/magento cron:run
+   ```
+
+   >[!ENDTABS]
+
+1. Disable maintenance mode.
+
+   >[!BEGINTABS]
+
+   >[!TAB Cloud]
+
+   ```bash
+   
+   ```
+
+   >[!TAB On-premises]
+
+   ```bash
+   bin/magento maintenance:disable
+   ```
+
+   >[!ENDTABS]
