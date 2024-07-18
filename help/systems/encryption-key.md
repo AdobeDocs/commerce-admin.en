@@ -13,11 +13,33 @@ During the initial installation, you are prompted to either let Commerce generat
 
 For technical information, see [Advanced on-premises installation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) in the _Installation Guide_.
 
-## Step 1: Make the file writable
+>[!IMPORTANT]
+>
+>Before following these instructions to change the encryption key, make sure that the following file is writable: `[your store]/app/etc/env.php`
 
-To change the encryption key, make sure that the following file is writable: `[your store]/app/etc/env.php`
+**To change an encryption key:**
 
-## Step 2: Change the encryption key
+The following instructions require access to a terminal.
+
+1. Enable [maintenance mode](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode).
+   
+   ```bash
+   bin/magento maintenance:enable
+   ```
+
+1. Disable cron jobs.
+
+   _Cloud infrastructure projects:_
+
+   ```bash
+   ./vendor/bin/ece-tools cron:disable
+   ```
+   
+   _On-premises projects_
+
+   ```bash
+   crontab -e
+   ```
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Other Settings]_ > **[!UICONTROL Manage Encryption Key]**.
 
@@ -30,6 +52,40 @@ To change the encryption key, make sure that the following file is writable: `[y
 
 1. Click **[!UICONTROL Change Encryption Key]**.
 
-1. Keep a record of the new key in a secure location.
+   >[!NOTE]
+   >
+   >Keep a record of the new key in a secure location. It is required to decrypt the data, if any problems occur with your files.
 
-   It is required to decrypt the data, if any problems occur with your files.
+1. Flush the cache.
+
+   _Cloud infrastructure projects:_
+
+   ```bash
+   magento-cloud cc
+   ```
+
+   _On-premises projects:_
+   
+   ```bash
+   bin/magento cache:flush
+   ```
+
+1. Enable cron jobs.
+
+   _Cloud infrastructure projects:_
+
+   ```bash
+   ./vendor/bin/ece-tools cron:enable
+   ```
+
+   _On-premises projects:_
+
+   ```bash
+   crontab -e
+   ```
+
+1. Disable maintenance mode.
+
+   ```bash
+   bin/magento maintenance:disable
+   ```
