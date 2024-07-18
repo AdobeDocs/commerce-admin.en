@@ -26,7 +26,7 @@ bin/magento admin:adobe-ims:disable
 
 Adobe Commerce displays the following message upon success:
 
-```terminal
+```
 Admin Adobe IMS integration is disabled.
 ```
 

@@ -22,7 +22,7 @@ Before you try to import many images, review the steps in the import method that
 
 1. On the Commerce server, upload the image files to the `var/import/images` folder or a subfolder, such as `var/import/images/product_images`. This is the default root folder for importing product images.
 
-    ```terminal
+    ```
     <Magento root folder>/var/import/images
     ```
 
@@ -44,7 +44,7 @@ Before you try to import many images, review the steps in the import method that
 
 1. After selecting the file to import, enter the relative path following **[!UICONTROL Images File Directory]**.
 
-   ```terminal
+   ```
    var/import/images
    ```
 
@@ -62,7 +62,7 @@ Before you try to import many images, review the steps in the import method that
 
 1. In the CSV data, enter the full URL for each image file in the correct column by image type (`base_image`, `small_image`, `thumbnail_image`, or `additional_images`).
 
-   ```terminal
+   ```
    https://example.com/images/image.jpg
    ```
 
@@ -72,7 +72,7 @@ Before you try to import many images, review the steps in the import method that
 
 1. In the Remote storage module, upload the image files to the `var/import/images` folder or a subfolder, such as `var/import/images/product_images`. This is the default root folder for importing product images.
 
-   ```terminal
+   ```bash
    <remote-storage-root-folder>/var/import/images
    ```
 
@@ -94,7 +94,7 @@ Before you try to import many images, review the steps in the import method that
 
 1. After selecting the file to import, enter the relative path following **[!UICONTROL Images File Directory]**.
 
-   ```terminal
+   ```
    var/import/images/product_images
    ```
 
