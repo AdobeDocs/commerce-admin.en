@@ -102,7 +102,7 @@ Command option:
 
 If the format of the request is incorrect, the following message displays:
 
-```bash
+```
 Error while parsing argument "your_incorrect_format_argument". Given argument does not match pattern "/(?P<increment_id>.*):(?P<sku>.*):(?P<quantity>.*):(?P<stock_id>.*)/".
 ```
 
@@ -135,7 +135,7 @@ Example response:
 bin/magento inventory:reservation:list-inconsistencies -r | bin/magento inventory:reservation:create-compensations
 ```
 
-```bash
+```
 Following reservations were created:
 - Product bike-123 was compensated by +2.000000 for stock 1
 - Product bikehat-456 was compensated by +1.000000 for stock 1
@@ -147,7 +147,7 @@ After updates complete, run the list command to verify:
 bin/magento inventory:reservation:list-inconsistencies -r
 ```
 
-```bash
+```
 No order inconsistencies were found.
 ```
 

@@ -99,7 +99,7 @@ Adobe recommends working in a development branch when adding the B2B extension t
 
    Sample response:
 
-   ```bash
+   ```
    Magento_B2b : Module is enabled
    ```
 
@@ -113,7 +113,7 @@ Adobe recommends working in a development branch when adding the B2B extension t
 
    If an error occurs, for example:
 
-   ```bash
+   ```
    [InvalidArgumentException] Could not find a matching version of package magento/extension-b2b.
    ```
 
@@ -216,7 +216,7 @@ For more information, see [Manage message queues](https://experienceleague.adobe
 
 You can automate the run schedule for the `SharedCatalogUpdateCategoryPermissions` and `SharedCatalogUpdatePrice` message consumers by adding the schedule to the cron configuration file [/app/code/Magento/MessageQueue/etc/crontab.xml](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues#process-management).
 
-```bash
+```
 * * * * * ps ax | grep [s]haredCatalogUpdateCategoryPermissions >>/dev/null 2>&1 || nohup php /var/www/html/magento2/bin/magento queue:consumers:start sharedCatalogUpdateCategoryPermissions &
 * * * * * ps ax | grep [s]haredCatalogUpdatePrice >>/dev/null 2>&1 || nohup php /var/www/html/magento2/bin/magento queue:consumers:start sharedCatalogUpdatePrice &
 ```
