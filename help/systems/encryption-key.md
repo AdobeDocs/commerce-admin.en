@@ -46,13 +46,13 @@ The following instructions require access to a terminal.
    >[!TAB Cloud]
 
    ```bash
-   ece-tools cron:disable
+   ./vendor/bin/ece-tools cron:disable
    ```
 
    >[!TAB On-premises]
 
    ```bash
-   bin/magento cron:remove
+   crontab -e
    ```
 
    >[!ENDTABS]
@@ -97,13 +97,13 @@ The following instructions require access to a terminal.
    >[!TAB Cloud]
 
    ```bash
-   ece-tools cron:enable
+   ./vendor/bin/ece-tools cron:enable
    ```
 
    >[!TAB On-premises]
 
    ```bash
-   bin/magento cron:run
+   crontab -e
    ```
 
    >[!ENDTABS]
