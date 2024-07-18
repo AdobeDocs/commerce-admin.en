@@ -29,21 +29,17 @@ The following instructions require access to a terminal.
 
 1. Disable cron jobs.
 
->[!BEGINTABS]
-
->[!TAB Cloud]
+   _Cloud infrastructure projects:_
 
    ```bash
    ./vendor/bin/ece-tools cron:disable
    ```
-
->[!TAB On-premises]
+   
+   _On-premises projects_
 
    ```bash
    crontab -e
    ```
-
->[!ENDTABS]
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Other Settings]_ > **[!UICONTROL Manage Encryption Key]**.
 
@@ -62,39 +58,31 @@ The following instructions require access to a terminal.
 
 1. Flush the cache.
 
->[!BEGINTABS]
-
->[!TAB Cloud]
+   _Cloud infrastructure projects:_
 
    ```bash
    magento-cloud cc
    ```
 
->[!TAB On-premises]
+   _On-premises projects:_
    
    ```bash
    bin/magento cache:flush
    ```
 
->[!ENDTABS]
-
 1. Enable cron jobs.
 
->[!BEGINTABS]
-
->[!TAB Cloud]
+   _Cloud infrastructure projects:_
 
    ```bash
    ./vendor/bin/ece-tools cron:enable
    ```
 
->[!TAB On-premises]
+   _On-premises projects:_
 
    ```bash
    crontab -e
    ```
-
->[!ENDTABS]
 
 1. Disable maintenance mode.
 
