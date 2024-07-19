@@ -69,8 +69,6 @@ Jane is finishing her holiday shopping with a persistent session. She adds a pre
 
 John sits down at the computer to do some quick shopping while Jane is in the kitchen. Without noticing the `Not Jane Smith?` link at the top of the page, he finds a nice present for Jane and adds it to the cart. When he goes to check out and logs in as himself, both items in Jane's cart are added to his cart. John is in such a hurry that he does not notice the additional items during _Order Review_, and submits the order. Jane's cart is now empty, and John bought all the gifts.
 
-{style="table-layout:auto"}
-
 >[!NOTE]
 >
 >It is important to understand that, regardless of whether the persistent cart feature is enabled or not, and irrespective of its configuration or whether the "Remember Me" checkbox was checked upon login, the cart content will still be saved in the customer's account. Even though the cart content will disappear when the login session expires, it will be loaded back when the customer logs back in again.
