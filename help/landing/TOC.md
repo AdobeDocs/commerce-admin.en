@@ -8,7 +8,7 @@ feature: Admin Workspace
 
 - [Adobe Commerce Merchant Documentation](home.md)
 - [Getting Started](https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html)
-- [B2B for Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html)
+- [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html)
 - [Catalog Management](https://experienceleague.adobe.com/docs/commerce-admin/catalog/guide-overview.html)
 - [[!DNL Inventory Management]](https://experienceleague.adobe.com/docs/commerce-admin/inventory/guide-overview.html)
 - [Merchandising and Promotions](https://experienceleague.adobe.com/docs/commerce-admin/marketing/guide-overview.html)

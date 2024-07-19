@@ -12,13 +12,13 @@ feature: Configuration, Companies
 
 >[!TIP]
 >
->With the installation and enablement of B2B for Adobe Commerce, the buying experience can be personalized with company-specific features. B2B for Adobe Commerce is an integrated solution that supports both B2B and B2C models. For more information about the B2B features, see the [B2B for Adobe Commerce User Guide](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>With the installation and enablement of Adobe Commerce B2B, the buying experience can be personalized with company-specific features. Adobe Commerce B2B is an integrated solution that supports both B2B and B2C models. For more information about the B2B features, see the [Adobe Commerce B2B User Guide](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 >[!NOTE]
 >
 >Access to these configuration options for B2B features are controlled by the [role resources](../../systems/permissions-user-roles.md#role-resources). These role resources must be set for the user role assigned to the Admin user.
 
-For more information about configuring these settings, see [Enable Basic B2B Features](../../b2b/enable-basic-features.md) in the _B2B for Adobe Commerce User Guide_.
+For more information about configuring these settings, see [Enable Basic B2B Features](../../b2b/enable-basic-features.md) in the _Adobe Commerce B2B User Guide_.
 
 ## [!UICONTROL General]
 

@@ -1,10 +1,10 @@
 ---
-title: '[!DNL B2B for Adobe Commerce] release notes'
-description: Review the release notes for information about changes in [!DNL B2B for Adobe Commerce] extension releases.
+title: '[!DNL Adobe Commerce B2B] release notes'
+description: Review the release notes for information about changes in [!DNL Adobe Commerce B2B] releases.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
 ---
-# [!DNL B2B for Adobe Commerce] release notes
+# [!DNL Adobe Commerce B2B] release notes
 
 These release notes for the B2B extension capture additions and fixes that Adobe has added during a release cycle, including:
 
@@ -58,11 +58,18 @@ The B2B v1.5.0-beta release includes new features, quality improvements, and bug
 
 ![Fixed issue](../assets/fix.svg)<!--ACP2E-1933-->Company administrators can now add company users from the storefront. Previously, Commerce logged an error when an Admin user tried to add a new user: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
 
+## B2B v1.4.2-p1
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Supported on Adobe Commerce 2.4.7-p1+ and 2.4.6-p6+ security patch releases.
+
+![New](../assets/new.svg) Added compatibility with Adobe Commerce 2.4.7-p1+ and 2.4.6-p6+ security patch releases.
+
+
 ## B2B v1.4.2
 
 *October 10, 2023*
 
-[!BADGE Supported]{type=Informative tooltip="Supported"} Supported on Adobe Commerce 2.4.7-beta releases.
+[!BADGE Supported]{type=Informative tooltip="Supported"} Supported on the Adobe Commerce 2.4.7 release.
 
 The B2B v1.4.2 release includes quality improvements and bug fixes
 
@@ -118,7 +125,7 @@ This release includes new capabilities and enhancements for B2B negotiable quote
 
 If you install or upgrade B2B 1.4.0 on [Adobe Commerce version 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html), the following error occurs:
 
-```terminal
+```
 Your requirements could not be resolved to an installable set of packages.
 
   Problem 1

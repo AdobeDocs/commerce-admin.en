@@ -216,7 +216,7 @@ Although it is possible to change the Admin URL and path to another location, an
    - On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Tools]_ > **[!UICONTROL Cache Management]**. Then, click **[!UICONTROL Flush Magento Cache]**.
    - On the server, execute the following:
 
-      ```terminal
+      ```bash
       php bin/magento cache:flush
       ```
 
@@ -228,7 +228,7 @@ Although it is possible to change the Admin URL and path to another location, an
 
 You can use the CLI `setup:config:set` command to change the Admin Path. The following example uses the `--backend-frontname` option to change the path from the Commerce root to a new Admin path:
 
-```terminal
+```bash
 bin/magento setup:config:set --backend-frontname="backend_front_name"
 ```
 
@@ -240,13 +240,13 @@ In case you have set an invalid Admin URL or an Admin Path and lost access to th
 
 1. To revert to the default Admin URL, execute this command:
 
-   ```terminal
+   ```bash
    php bin/magento config:set admin/url/use_custom 0
    ```
 
 1. To revert to the default Admin Path (set in the `app/etc/env.php` as described in the Method 2), execute this command :
 
-   ```terminal
+   ```bash
    php bin/magento config:set admin/url/use_custom_path 0
    ```
 
@@ -255,7 +255,7 @@ In case you have set an invalid Admin URL or an Admin Path and lost access to th
    - On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Tools]_ > **[!UICONTROL Cache Management]**. Then, click **[!UICONTROL Flush Magento Cache]**.
    - On the server, execute the following:
 
-      ```terminal
+      ```bash
       php bin/magento cache:flush
       ```
 

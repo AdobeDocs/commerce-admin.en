@@ -69,3 +69,5 @@ recommendations: noDisplay
   + [Ecosystem](resources.md)
   + [Extensions](extensions.md)
   + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
++ [Return to Merchant Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+
