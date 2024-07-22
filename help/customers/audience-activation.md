@@ -358,6 +358,29 @@ If Real-Time CDP audiences are not being displayed in Commerce, it could be due 
 
 The following two sections describe how to troubleshoot either case.
 
+### Validating the connection
+
+To validate the credentials and the response from AEP, the next command can be used:
+
+```bash
+bin/magento audiences:config:status
+```
+
+This command will return connection status and can be paired with `-v` flag to provide extra verbosity:
+
+```
+./bin/magento audiences:config:status -v  
+```
+
+With extra verbosity:
+
+```
++----------------------------------+---------------+---------------------------------------------+---------------------------------------------------------+--------------+
+| Client ID                        | Client secret | Technical account ID                        | Technical account email                                 | Sandbox name |
++----------------------------------+---------------+---------------------------------------------+---------------------------------------------------------+--------------+
+| 1234bd57fac8497d8933327c535347d8 | *****         | 12341E116638D6B00A495C80@techacct.adobe.com | 12345-b95b-4894-a41c-a4130d26bd80@techacct.adobe.com | dev          |
+```
+
 ### Incorrect authentication type selected in configuration
 
 1. Open your Commerce instance.
