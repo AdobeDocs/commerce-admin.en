@@ -353,26 +353,27 @@ After data is retrieved, you can use it to create audience-informed [cart price 
 
 If Real-Time CDP audiences are not being displayed in Commerce, it could be due to:
 
+- Invalid connection
 - Incorrect authentication type selected in the **Data Connection** configuration page
 - Insufficient privileges on generated token
 
-The following two sections describe how to troubleshoot either case.
+The following sections describe how to troubleshoot these issues.
 
-### Validating the connection
+### Validate the connection
 
-To validate the credentials and the response from AEP, the next command can be used:
+To validate the credentials and the response from Adobe Experience Platform, run the following command:
 
 ```bash
 bin/magento audiences:config:status
 ```
 
-This command will return connection status and can be paired with `-v` flag to provide extra verbosity:
+This command returns the connection status. Add the `-v` flag to provide extra verbosity:
 
 ```
 ./bin/magento audiences:config:status -v  
 ```
 
-With extra verbosity:
+For example:
 
 ```
 +----------------------------------+---------------+---------------------------------------------+---------------------------------------------------------+--------------+
