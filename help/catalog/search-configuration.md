@@ -78,8 +78,6 @@ There are two variations of the Catalog Search configuration. The first method d
 
 1. For **[!UICONTROL Search Engine]**, accept the default value `Elasticsearch 7`.
 
-   Elasticsearch 7.6.x is required for all Commerce installations.
-
 1. For **[!UICONTROL Elasticsearch Server Hostname]**, accept the default value that was configured when Commerce was installed.
 
    In this example, the default value is `elasticsearch.internal`.
