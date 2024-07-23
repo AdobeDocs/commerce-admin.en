@@ -229,7 +229,7 @@ feature: Configuration, Catalog Management
 
 ## [!UICONTROL Catalog Search]
 
-There are three variations of the Catalog Search configuration: The settings that are available when [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) is installed, and those that are available for native Adobe Commerce. Follow the instructions for your installation.
+You can configure Catalog Search using [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) or third-party search engine services that Adobe Commerce supports. Follow the instructions for your installation.
 
 ### Adobe Commerce with [!DNL Live Search]
 
@@ -248,9 +248,9 @@ When Live Search is installed, Catalog Search includes the following configurati
 
 {style="table-layout:auto"}
 
-### Adobe Commerce with native search
+### Third-party search engines
 
-Native Adobe Commerce with OpenSearch or Elasticsearch includes the following configuration settings:
+Adobe Commerce supports OpenSearch and Elasticsearch. Adobe Commerce versions 2.3.7-p3, 2.4.3-p2, and 2.4.4 and later support the OpenSearch service. Elasticsearch 7.11 and later is not supported on Adobe Commerce on cloud infrastructure projects. Elasticsearch is still supported for on-premises installations.
 
 >[!IMPORTANT]
 >
