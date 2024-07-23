@@ -9,7 +9,7 @@ feature: Orders, Invoices
 Before a credit memo can be printed, it must first be generated for an [invoiced order](invoices.md#create-an-invoice). You can issue both online and offline refunds (partial or full) from an open credit memo, depending on the payment method.
 
 - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Refunds can be applied to store credit.
-- ![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce) Refunds can be applied to company credit.
+- ![Adobe Commerce B2B](../assets/b2b.svg) (Available with Adobe Commerce B2B) Refunds can be applied to company credit.
 - Purchases made by credit card can be refunded either online or offline.
 - Purchases made by check or money order must be refunded offline.
 
@@ -102,13 +102,13 @@ Determine the type of refund that you want to issue---for a [credit purchase](#i
 
    - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) To refund the amount to the customer's store credit, select the **[!UICONTROL Refund to Store Credit]** checkbox.
 
-   - ![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce) To refund the amount to the customer's company credit, select the **[!UICONTROL Refund to Company Credit]** checkbox.
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Available with Adobe Commerce B2B) To refund the amount to the customer's company credit, select the **[!UICONTROL Refund to Company Credit]** checkbox.
 
    - To issue on offline refund, click **[!UICONTROL Refund Offline]**.
 
    - To issue an online refund, click **[!UICONTROL Refund]**.
 
-   - ![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce) If the purchase was paid with company credit, click **[!UICONTROL Refund to Company Credit]**.
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Available with Adobe Commerce B2B) If the purchase was paid with company credit, click **[!UICONTROL Refund to Company Credit]**.
 
    See [Credit Memos](credit-memos.md) for more information about offline and online refunds.
 
@@ -189,7 +189,7 @@ Determine the type of refund that you want to issue---for a [credit purchase](#i
 |[!UICONTROL Customer Name]|The name of the customer or buyer who placed the order. The customer name is linked to the customer profile.|
 |[!UICONTROL Email]|The email address of the customer or buyer. The email address is linked to open a new email message.|
 |[!UICONTROL Customer Group]|The name of the customer group or shared catalog to which the customer is assigned.|
-|[!UICONTROL Company Name]|![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce) The name of the company associated with the buyer, and on whose behalf the order is placed. The company name is linked to the company profile.|
+|[!UICONTROL Company Name]|![Adobe Commerce B2B](../assets/b2b.svg) (Available with Adobe Commerce B2B) The name of the company associated with the buyer, and on whose behalf the order is placed. The company name is linked to the company profile.|
 
 {style="table-layout:auto"}
 
@@ -216,7 +216,7 @@ Determine the type of refund that you want to issue---for a [credit purchase](#i
 |Field|Description|
 |--- |--- |
 |[!UICONTROL Product]|The product name, SKU, and options (if applicable).|
-|[!UICONTROL Price]|The purchase price of the item. For B2B for Adobe Commerce, this value reflects any discount applied to the item from the shared catalog, if applicable.|
+|[!UICONTROL Price]|The purchase price of the item. For Adobe Commerce B2B, this value reflects any discount applied to the item from the shared catalog, if applicable.|
 |[!UICONTROL Qty]|The quantity ordered.|
 |[!UICONTROL Return to Stock]|Checkbox that indicates if the returned item is to be returned to stock.|
 |[!UICONTROL Qty to Refund]|Indicates the number of units returned of the product.|
@@ -248,7 +248,7 @@ Determine the type of refund that you want to issue---for a [credit purchase](#i
 |[!UICONTROL Append Comments]|Checkbox that determines if comments are included in the credit memo.|
 |[!UICONTROL Email Copy of Credit Memo]|Checkbox that determines if a copy of the credit memo is emailed.|
 |[!UICONTROL Refund to Store Credit]|![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Checkbox that determines if the total is to be refunded to [store credit](../customers/store-credit-using.md).|
-|[!UICONTROL Subtotal]|![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce) The total of all line items to be refunded.|
+|[!UICONTROL Subtotal]|![Adobe Commerce B2B](../assets/b2b.svg) (Available with Adobe Commerce B2B) The total of all line items to be refunded.|
 
 {style="table-layout:auto"}
 
@@ -260,7 +260,7 @@ The payment method used for the order determines the refund buttons that are ava
 |--- |--- |
 |**[!UICONTROL Refund]**|If the original purchase was paid by credit card through a payment gateway, the refund amount is managed by the payment processor. To manage refunds, see the documentation provided by your payment provider.|
 |**[!UICONTROL Refund Offline]**|If the original purchase was paid by check or money order, the refund is paid directly to the customer, by issuing a check, gift card, or cash if you have a brick and mortar storefront. The credit memo serves as a record of the offline transaction.|
-|**[!UICONTROL Refund to Company Credit]**|![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce) If the purchase was charged to company credit, the refund is returned to the [Company Account](../b2b/credit-company.md).|
+|**[!UICONTROL Refund to Company Credit]**|![Adobe Commerce B2B](../assets/b2b.svg) (Available with Adobe Commerce B2B) If the purchase was charged to company credit, the refund is returned to the [Company Account](../b2b/credit-company.md).|
 
 {style="table-layout:auto"}
 

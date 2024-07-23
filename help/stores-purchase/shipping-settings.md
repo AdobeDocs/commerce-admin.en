@@ -74,4 +74,4 @@ The multiple address shipping options enable customers to ship an order to multi
 
 >[!NOTE]
 >
->![B2B for Adobe Commerce](../assets/b2b.svg) (B2B for Adobe Commerce) For orders with multiple shipping addresses, the [Payment on Account](../b2b/enable-basic-features.md#configure-payment-on-account) payment method, even if enabled, are not available during the checkout.
+>![Adobe Commerce B2B](../assets/b2b.svg) (Adobe Commerce B2B) For orders with multiple shipping addresses, the [Payment on Account](../b2b/enable-basic-features.md#configure-payment-on-account) payment method, even if enabled, are not available during the checkout.

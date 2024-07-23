@@ -14,6 +14,10 @@ Depending on their role, and the order, company users could be subjected to seve
 
 ![Purchase order flow](./assets/purchase-order-flow.png){width="600" zoomable="yes"}
 
+>[!NOTE]
+>
+>An order cannot be placed if one or more products in the purchase order are currently disabled or out of stock.
+
 The purchase order workflow for a company can vary in a few ways:
 
 - If no approval rules are set, purchase orders can be placed and the order completed directly.

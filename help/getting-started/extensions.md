@@ -77,11 +77,6 @@ The [!DNL Catalog Service] enables you to deliver customers an optimized product
 
 [!DNL Payment services] for Adobe Commerce and Magento Open Source is a fully integrated payment solution that simplifies the process of managing payments and provides your customers with the opportunity to pay their way. Securely reconcile all payment and transaction data within the Adobe Commerce Admin – allowing you to manage orders and payments in one place while delivering a seamless checkout. See the [[!DNL Payment Services] User Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html) for more information.
 
-### [!DNL Quick Checkout]
-
-[!DNL Quick Checkout] for Adobe Commerce powers a seamless checkout experience designed to convert one-time guest shoppers into loyal account holders. 
-See the [[!DNL Quick Checkout] User Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/quick-checkout/overview.html) for more information.
-
 ### [!DNL Store Fulfillment] 
 
 Store Fulfillment for Adobe Commerce and Magento Open Source enables a superior buy online, pick up in store (BOPIS) customer experience and maximizes employee productivity by providing a comprehensive fulfillment workflow enabled through a mobile device. See the [[!DNL Store Fulfillment] User Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/store-fulfillment/guide-overview.html) for more information.  

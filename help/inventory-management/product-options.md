@@ -94,6 +94,8 @@ Configure the quantities and additional settings per [added source](sources-add.
 
    For example, an item that is sold in increments of six can be purchased in quantities of 6, 12, 18, and so on.
 
+   **[!UICONTROL Qty Increments]** field sets how many product items must be purchased as a single product, and as a child of configurable, grouped and bundle products.
+
 1. When complete, click **[!UICONTROL Done]** and then **[!UICONTROL Save]**.
 
 ### Field descriptions
@@ -107,7 +109,7 @@ Configure the quantities and additional settings per [added source](sources-add.
 | [!UICONTROL Qty Uses Decimals] | Global | Determines if customers can use a decimal value rather than a whole number when entering the quantity ordered. Options:<br />`Yes` - Permits values to be entered as decimals, rather than whole numbers. Decimals are suitable for products sold by weight, volume, or length.<br />`No` - Requires quantity values to be entered as whole numbers. |
 | [!UICONTROL Allow Multiple Boxes for Shipping] | Global | Determines if parts of the product can be shipped separately. This option is visible when **[!UICONTROL Qty Uses Decimals]** = `Yes`. |
 | [!UICONTROL Backorders] | Global | Determines how  backorders are managed. Backorders do not change the processing status of the order. Funds are still authorized or captured immediately when the order is placed, regardless of whether the product is in stock. Products are shipped as they become available. When enabled, it is recommended that you enter a negative amount for the Out-of-Stock Threshold. Options:<br/>`No Backorders` -  Does not accept backorders when product is out of stock.<br />`Allow Qty Below 0` - Accepts backorders when the quantity falls below zero.<br />`Allow Qty Below 0 and Notify Customer` - Accepts backorders when the quantity falls below zero, but notifies customers that orders can still be placed. |
-| [!UICONTROL Enable Qty Increments] | Global | Determines if the product can be sold in quantity increments. |
+| [!UICONTROL Enable Qty Increments] | Global | Determines if the product can be sold in quantity increments. Increments set how many product items must be purchased as a single product, and as a child of configurable, grouped and bundle products. |
 
 >[!NOTE]
 >

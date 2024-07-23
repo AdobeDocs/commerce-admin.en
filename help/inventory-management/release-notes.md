@@ -16,6 +16,10 @@ These release notes describe releases of [!DNL Inventory Management] and include
 
 [Release schedule](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"} for supported and compatible releases.
 
+## v1.2.7
+
+[!DNL Inventory Management] 1.2.7 release notes are included in the [core 2.4.7 release notes](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1).
+
 ## v1.2.6
 
 [!DNL Inventory Management] 1.2.6 (module version: `magento/inventory-metapackage = 1.2.6`) is supported with version 2.4.6 and compatible with version 2.4.0 of Adobe Commerce, Adobe Commerce on cloud infrastructure, and the Magento Open Source code base.

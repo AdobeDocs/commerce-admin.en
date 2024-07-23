@@ -154,7 +154,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
    - [!UICONTROL Enable for Forgot Password]
    - [!UICONTROL Enable for Create New Customer Account]
    - [!UICONTROL Enable for Edit Customer Account]
-   - [!UICONTROL Enable for Create New Company Account] ![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce only)
+   - [!UICONTROL Enable for Create New Company Account] ![Adobe Commerce B2B](../assets/b2b.svg) (Available with Adobe Commerce B2B only)
    - [!UICONTROL Enable for Contact Us]
    - [!UICONTROL Enable for Product Review]
    - [!UICONTROL Enable for Newsletter Subscription]

@@ -172,8 +172,6 @@ For more information about changing these settings, see [Action log archive](../
 
 ## [!UICONTROL Full Page Cache]
 
-{{beta2-patches-updates}}
-
 ![Advanced configuration - Full Page Cache](./assets/system-full-page-cache.png)<!-- zoom -->
 
 For more information about changing these settings, see [Full-page caching](../../systems/cache-management.md#full-page-caching) in the _Admin Systems Guide_.
@@ -184,11 +182,12 @@ For more information about changing these settings, see [Full-page caching](../.
 |--- |--- |--- |
 |[!UICONTROL Caching Application]|Global|Determines the application that is used to manage the full-page cache. Options: <br/>**`Built-in Application`** - Not recommended for the production environment. <br/>**`Varnish Caching`** - Recommended for the production environment.|
 |[!UICONTROL TTL for public content]|Global|Determines the lifetime of the public content cache in seconds. Default value: `120`|
+|[!UICONTROL Handles param size]| global|Specifies the maximum number of [layout handles](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) to process on the [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) HTTP endpoint. Restricting the size can improve security and performance. Default value: `100`|
 |**[!UICONTROL Varnish Configuration]**|||
 |[!UICONTROL Access list]|Global|Specifies the IP addresses that can purge the Varnish configuration to generate a config file. Separate multiple entries with a comma. Default value: `localhost`|
 |[!UICONTROL Backend host]|Global|Specifies the backend host that generates config files. Default value: `localhost`|
 |[!UICONTROL Backend port]|Global|Specifies the backend port that is used to generate config files. Default value: `8080`|
-|[!UICONTROL Grace period]|Global|Specifies the grace period in seconds for generating a config file. Default value: `300`|
+|[!UICONTROL Grace period]|Global|Determines how long Varnish serves stale content if the backend is not responsive. Default value: `300`|
 |**[!UICONTROL Export Configuration]**|||
 |[!UICONTROL Export VCL for Varnish 4]|Global|Exports the `varnish.vcl` file for version 4.|
 |[!UICONTROL Export VCL for Varnish 5]|Global|Exports the `varnish.vcl` file for version 5.|
