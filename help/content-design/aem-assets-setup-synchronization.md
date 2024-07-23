@@ -1,9 +1,9 @@
 ---
 title: Enable asset synchronization
-description: "Learn how to connect your Adobe Commerce and Experience Manager Assets projects with the Assets Rule Engine Service to enable asset synchronization between these two systems."
+description: Learn how to connect your Adobe Commerce and Experience Manager Assets projects with the Assets Rule Engine Service to enable asset synchronization between these two systems.
 feature: CMS, Media
+exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
 ---
-
 # Set up the synchronization service
 
 The Asset Rules Engine Service (ARES) is a multi-tenant service that integrates AEM Assets with Adobe Commerce. This service synchronizes assets between Adobe Commerce and Experience Manager. The ARES service automatically matches assets in AEM to products in Adobe Commerce based on SKU or other key attributes. It also ensures that the latest product assets and variations are always available on the ecommerce site.
