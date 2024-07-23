@@ -14,8 +14,12 @@ The Adobe Commerce B2B extension, `magento/extension-b2b` is available for all s
 ## Requirements
 
 - [Adobe Commerce](https://business.adobe.com/products/magento/magento-commerce.html), all supported versions
-- PHP 8.1 / 8.2 / 8.3
+- PHP 8.1 and  8.2
 - [!DNL Composer]
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B version 1.4.2+ is not compatible with PHP 8.3. If you upgrade the Commerce instance to Commerce version 2.4.7+, ensure that PHP version installed on the instance is PHP 8.2 to retain compatibility with B2B 1.3.5 or later.
 
 ## Supported platforms
 
