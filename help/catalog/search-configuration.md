@@ -53,7 +53,7 @@ There are two variations of the Catalog Search configuration. The first method d
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Catalog Search]** section.
 
-   ![Search engine settings](../configuration-reference/catalog/assets/catalog-search-opensearch.png){width="600" zoomable="yes"}
+   ![Search engine settings](../configuration-reference/catalog/assets/catalog-search-opensearch.png){zoomable="yes"}
    
    For more information about these options, see [Adobe Commerce with native search](../configuration-reference/catalog/catalog.md#adobe-commerce-with-native-search) in the _Configuration Reference_.
 
