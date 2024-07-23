@@ -57,7 +57,7 @@ With the required [permissions for their role](account-company-roles-permissions
 
 ## Copy a quote
 
-1. The customer logs in to their account.
+1. The buyer logs in to their company account on the storefront.
 
 1. In the left panel, chooses **[!UICONTROL My Quotes]**.
 

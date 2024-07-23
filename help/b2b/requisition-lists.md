@@ -92,19 +92,21 @@ Customers can add products to a requisition list from:
 
 ### From an existing quote
 
-1. In the sidebar of their account dashboard, customer chooses **[!UICONTROL My Quotes]**.
+From a negotiable quote, buyers can use the [!UICONTROL Move to Requisition List] option to move products from the quote to an existing requisition list. If there are no requisition lists, the  [!UICONTROL Move to Requisition List] option is not available.
+
+1. In the sidebar of their account dashboard, the buyer selects **[!UICONTROL My Quotes]**.
 
 1. Find and access the desired quote in the list.
 
-1. Select the line items.
+1. In the [!UICONTROL Items Quoted] tab, select the product to move.
 
-1. Click **[!UICONTROL Move to Requisition list]** in the _[!UICONTROL Actions]_ dropdown.
+1. Using the  [!UICONTROL Select] dropdown in the [!UICONTROL Actions] column for the product line item, choose **[!UICONTROL Move to Requisition list]**.
 
-1. Select an existing requisition list to move the selected items.
+1. Select the requisition list for the selected items.
 
-1. Click **[!UICONTROL Move item]**.
+1. Click **[!UICONTROL Move item to Requisition List]**.
 
-See [My quotes](account-dashboard-my-quotes.md) topic for more information on **B2B Quotes**.
+See the [My quotes](account-dashboard-my-quotes.md) topic for more information about B2B Quotes.
 
 ### From the cart
 
