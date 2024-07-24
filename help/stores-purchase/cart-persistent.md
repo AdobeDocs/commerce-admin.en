@@ -8,7 +8,7 @@ feature: Shopping Cart, Configuration
 
 A persistent shopping cart tracks unpurchased items that are left in the cart and saves the information on the current device so that it remains accessible when the logged-in session expires. 
 
-If a customers is _remembered_ , the contents of their shopping cart remains accessible on the current device when the logged-in session expires. After the session expires, the customers shopping cart is accessed using  the persistent cart session. If the same customer logs in on another device or browser and adds something to their shopping cart, and then returns to the device with an active persistent session, their shopping cart is updated with the added items.
+If a customers is _remembered_, the contents of their shopping cart remains accessible on the current device when the logged-in session expires. After the session expires, the customers shopping cart is accessed using  the persistent cart session. If the same customer logs in on another device or browser and adds something to their shopping cart, and then returns to the device with an active persistent session, their shopping cart is updated with the added items.
 
 Using a persistent shopping cart can reduce the number of abandoned shopping carts and increase sales. The persistent shopping cart **does not** expose sensitive account information at any time.
 
@@ -32,10 +32,9 @@ When the customer session expires, a `Not Jane Smith?` link displays in the page
 
 The system retains a record of the shopping cart contents on the current device, even if the logged-in session expires. The `Not Jane Smith?` link allows the customer to terminate the persistent session and start working as a guest, or to log in as a different or the same customer. 
 
-If the customer checked the _[!UICONTROL Remember Me]_ checkbox when logging in, your store creates and maintains a a separate persistent cookie. This cookie helps keep the customer logged in even after they close the browser or navigate to a different site.
+If the customer checked the _[!UICONTROL Remember Me]_ checkbox when logging in, your store creates and maintains a separate persistent cookie. This cookie helps keep the customer's shopping cart accessible even after they close the browser or navigate to a different site and their logged in session expires. 
 
-If the customer visits your store using multiple browsers while their session is active or when they are logged in, any changes they make (such as updating their profile or cart) in one browser are reflected in other browsers upon refreshing the page.
-'''
+If such customer visits your store using multiple browsers while when they are logged in or their persistent session is active, any changes they make to the shopping cart content in one browser are reflected in other browsers upon refreshing the page.
 
 >[!NOTE]
 >
@@ -43,18 +42,18 @@ If the customer visits your store using multiple browsers while their session is
 
 ### "Remember Me" checkbox behaviour
 
-Customers can select the _[!UICONTROL Remember Me]_ checkbox on the login page or when creating a new account to save the contents of the shopping cart on the current device when the logged-in session expires.
+Customers can select the _[!UICONTROL Remember Me]_ checkbox on the login page or when creating a new account to keep the contents of the shopping cart accessible on the current device when the logged-in session expires.
 
 | Remember Me? |  Result |
 | ------------ |  ------ |
-| Selected |Creates a persistent cookie and saves the contents of the shopping cart on the current device when the customer login session expires. |
-| Not selected | Does not create a persistent cookie and does not save the cart information on the current device when the login session expires. Note that the shopping cart content is still saved in the customer's account and  reloaded the next time the customer logs in.|
+| Selected |Creates a persistent cookie and keeps the contents of the shopping cart accessible on the current device when the customer login session expires. |
+| Not selected | Does not create a persistent cookie and does not keep the content of the shopping cart accessible on the current device when the login session expires. Note that the shopping cart content is still saved in the customer's account and  reloaded the next time the customer logs in.|
 
 {style="table-layout:auto"}
 
 ### Clear Persistence on Sign Out behaviour
 
-When the customer logs in or registers with the  _Remember Me_ option selected, the Persistent Cart behavior is determined by the  configuration of the _Clear Persistence on Sign Out_ option.
+When the customer logs in or registers with the _Remember Me_ option selected, the Persistent Cart behavior is determined by the configuration of the _Clear Persistence on Sign Out_ option.
 
 |  | Clear Persistence on Sign Out set to Yes | Clear Persistence on Sign Out set to No |
 | ------ | ------ | ------ |
@@ -75,7 +74,7 @@ To use the persistent shopping cart, the customer's browser must be set to allow
 
 - **Session cookie** – A short-term session cookie exists during a single visit to your site. This cookie expires when the customer logs out or when the session expires.
 
-- **Persistent Cookie** – A long-term, persistent cookie continues to exist after the logged-in session ends. This cookie ensures that the contents of a customer's shopping  cart is saved when the customer logs out or the session expires.
+- **Persistent Cookie** – A long-term, persistent cookie continues to exist after the logged-in session ends. This cookie ensures that the contents of a customer's shopping cart remains accessible when the customer logs out or the session expires.
 
 For more information about how the customer workflow is determined by these settings, see [Persistent cart workflow](#persistent-cart-workflow).
 

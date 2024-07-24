@@ -1,5 +1,5 @@
 ---
-title: Configuration  Reference of the Persistent Shopping Cart
+title: Configuration Reference of the Persistent Shopping Cart
 description: Reusable content for the configuration reference of the Persistent Shopping Cart.
 ---
 
@@ -11,7 +11,7 @@ description: Reusable content for the configuration reference of the Persistent 
 
 |Field| [Scope](/help/getting-started/websites-stores-views.md#scope-settings) |Description|
 |--- |------------------------------------------------------------------------|--- |
-|[!UICONTROL Enable Persistence]| Website                                                                |Determines if the persistence option is enabled.|
+|[!UICONTROL Enable Persistence]| Website                                                                |Determines if the persistence feature is enabled.|
 |[!UICONTROL Persistence Lifetime (seconds)]| Website                                                                |Defines the lifetime of the persistent cookie in seconds. The maximum allowed value is 34560000 seconds (400 days). This is a limitation of the maximum recommended cookie life.|
 |[!UICONTROL Enable "Remember Me"]| Website                                                                |Defines whether the _Remember Me_ checkbox is displayed on the login and registration pages of the store. Options: <br/>**`Yes`** - Displays the _Remember Me_ checkbox. <br/>**`No`** - Does not display the _Remember Me_ checkbox, and the persistent cookie is used only for customers who already have it.|
 |[!UICONTROL "Remember Me" Default Value]| Website                                                                |Defines the default state for the _Remember Me_ checkbox.|
