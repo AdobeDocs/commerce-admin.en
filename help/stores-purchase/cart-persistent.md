@@ -32,7 +32,10 @@ When the customer session expires, a `Not Jane Smith?` link displays in the page
 
 The system retains a record of the shopping cart contents on the current device, even if the logged-in session expires. The `Not Jane Smith?` link allows the customer to terminate the persistent session and start working as a guest, or to log in as a different or the same customer. 
 
-If the customer checked the _[!UICONTROL Remember Me]_ checkbox when logging in, your store creates and maintains a separate persistent cookie for each browser or device that is used by a customer to log in or create an account. If the customer uses multiple browsers while visiting your store when a persistent session is active or customer is logged in, changes made in one browser or device are reflected in any other browser sessions upon page refresh.
+If the customer checked the _[!UICONTROL Remember Me]_ checkbox when logging in, your store creates and maintains a a separate persistent cookie. This cookie helps keep the customer logged in even after they close the browser or navigate to a different site.
+
+If the customer visits your store using multiple browsers while their session is active or when they are logged in, any changes they make (such as updating their profile or cart) in one browser are reflected in other browsers upon refreshing the page.
+'''
 
 >[!NOTE]
 >
@@ -72,7 +75,7 @@ To use the persistent shopping cart, the customer's browser must be set to allow
 
 - **Session cookie** – A short-term session cookie exists during a single visit to your site. This cookie expires when the customer logs out or when the session expires.
 
-- **Persistent Cookie** – A long-term, persistent cookie continues in existence after the end of the logged-in session and keeps the customer's shopping cart content accessible.
+- **Persistent Cookie** – A long-term, persistent cookie continues to exist after the logged-in session ends. This cookie ensures that the contents of a customer's shopping  cart is saved when the customer logs out or the session expires.
 
 For more information about how the customer workflow is determined by these settings, see [Persistent cart workflow](#persistent-cart-workflow).
 
