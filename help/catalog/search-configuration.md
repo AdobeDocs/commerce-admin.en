@@ -6,7 +6,11 @@ feature: Catalog Management, Search
 ---
 # Configure catalog search
 
-There are two variations of the Catalog Search configuration. The first method describes the available settings when [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) is installed. The second method describes the configuration settings for native Adobe Commerce with [Elasticsearch][1]{:target="_blank"}.
+There are two variations of the Catalog Search configuration. The first method describes the available settings when [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) is installed. The second method describes the configuration settings for native Adobe Commerce with [OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html){:target="_blank"}.
+
+>[!NOTE]
+>
+>For cloud infrastructure projects, see additional instructions in the [_Commerce on Cloud Infrastructure Guide_](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/opensearch).
 
 ## Method 1: Adobe Commerce with [!DNL Live Search]
 
@@ -30,17 +34,18 @@ There are two variations of the Catalog Search configuration. The first method d
 
    Restricting the number of lines improves the performance of searches and reduces the size of the returned list. The default value is `8` lines.
 
-## Method 2: Commerce with Elasticsearch
+## Method 2: Commerce with OpenSearch
 
 >[!IMPORTANT]
 >
->Due to the [!DNL Elasticsearch 7] end-of-support announcement for August 2023, it is recommended that all Adobe Commerce customers migrate to the OpenSearch 2.x search engine. For information about migrating your search engine during product upgrade, see [Migrating to OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) in the _Upgrade Guide_.
+>- Due to the [!DNL Elasticsearch 7] end-of-support announcement for August 2023, it is recommended that all Adobe Commerce customers migrate to the OpenSearch 2.x search engine. For information about migrating your search engine during product upgrade, see [Migrating to OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) in the _Upgrade Guide_.
+>- In versions 2.4.4 and 2.4.3-p2, all fields labeled Elasticsearch also apply to OpenSearch. When support for Elasticsearch 8.x was introduced in version 2.4.6, new labels were created to distinguish between Elasticsearch and OpenSearch configurations. However, the configuration options for both are the same.
 
 ### Step 1: Configure general search options
 
 >[!NOTE]
 >
->With ElasticSearch, there is no out-of-the-box support for search by the suffix. For example, search by SKU may not return the expected result if the keyword contains only the end part of the SKU.
+>With OpenSearch and ElasticSearch, there is no out-of-the-box support for search by the suffix. For example, search by SKU may not return the expected result if the keyword contains only the end part of the SKU.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -48,15 +53,15 @@ There are two variations of the Catalog Search configuration. The first method d
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Catalog Search]** section.
 
-   ![Elasticsearch Settings](../configuration-reference/catalog/assets/catalog-search-elasticsearch.png){width="600" zoomable="yes"}
+   ![Search engine settings](../configuration-reference/catalog/assets/catalog-search-opensearch.png){zoomable="yes"}
    
-   For more information about these options, see [Adobe Commerce with Elasticsearch](../configuration-reference/catalog/catalog.md#adobe-commerce-with-elasticsearch) in the _Configuration Reference_.
+   For more information about these options, see [Adobe Commerce with native search](../configuration-reference/catalog/catalog.md#adobe-commerce-with-native-search) in the _Configuration Reference_.
 
 1. To limit the length and word count of search query text, set a value for **[!UICONTROL Minimal Query Length]** and **[!UICONTROL Maximum Query Length]**.
 
    >[!IMPORTANT]
    >
-   >The value set for this minimum and maximum range must be compatible with the corresponding range set in your Elasticsearch search engine configuration. For example, if you set these values to `2` and `300` in Commerce, update the corresponding values in your search engine.
+   >The value set for this minimum and maximum range must be compatible with the corresponding range set in your search engine configuration. For example, if you set these values to `2` and `300` in Commerce, update the corresponding values in your search engine.
 
 1. To limit the amount of popular search results to cache for faster responses, set an amount for **[!UICONTROL Number of top search results to cache]**.
 
@@ -70,31 +75,27 @@ There are two variations of the Catalog Search configuration. The first method d
 
    Restricting this amount increases performance of searches and reduces the displayed list size. The default value is `8`.
 
-### Step 2: Configure the Elasticsearch connection
+### Step 2: Configure the OpenSearch connection
 
 >[!IMPORTANT]
 >
->The **[!UICONTROL Search Engine]**, **[!UICONTROL Elasticsearch Server Hostname]**, **[!UICONTROL Elasticsearch Server Port]**, **[!UICONTROL Elasticsearch Index Prefix]**, **[!UICONTROL Enable Elasticsearch HTTP Auth]**, and **[!UICONTROL Elasticsearch Server Timeout]** fields were configured when Commerce was installed or upgraded. These values should be changed only when upgrading or modifying Elasticsearch.
+>The **[!UICONTROL Search Engine]**, **[!UICONTROL OpenSearch Server Hostname]**, **[!UICONTROL OpenSearch Server Port]**, **[!UICONTROL OpenSearch Index Prefix]**, **[!UICONTROL Enable OpenSearch HTTP Auth]**, and **[!UICONTROL OpenSearch Server Timeout]** fields were configured when Commerce was installed or upgraded. These values should be changed only when upgrading or modifying OpenSearch.
 
-1. For **[!UICONTROL Search Engine]**, accept the default value `Elasticsearch 7`.
+1. For **[!UICONTROL Search Engine]**, select `OpenSearch`.
 
-   Elasticsearch 7.6.x is required for all Commerce installations.
+1. For **[!UICONTROL OpenSearch Server Hostname]**, accept the default value that was configured when Commerce was installed.
 
-1. For **[!UICONTROL Elasticsearch Server Hostname]**, accept the default value that was configured when Commerce was installed.
-
-   In this example, the default value is `elasticsearch.internal`.
-
-1. For **[!UICONTROL Elasticsearch Server Port]**, accept the default value that was configured when Commerce was installed.
+1. For **[!UICONTROL OpenSearch Server Port]**, accept the default value that was configured when Commerce was installed.
 
    In this example, the default value is `9200`.
 
-1. For **[!UICONTROL Elasticsearch Index Prefix]**, enter a prefix to identify the Elasticsearch index.
+1. For **[!UICONTROL OpenSearch Index Prefix]**, enter a prefix to identify the Elasticsearch index.
 
    The default value is `magento2`.
 
-1. To use HTTP authentication to prompt for a username and password to access Elasticsearch Server, set **[!UICONTROL Enable Elasticsearch HTTP Auth]** to `Yes`.
+1. To use HTTP authentication to prompt for a username and password to access the OpenSearch server, set **[!UICONTROL Enable OpenSearch HTTP Auth]** to `Yes`.
 
-1. For **[!UICONTROL Elasticsearch Server Timeout]**, enter the number of seconds before the system times out.
+1. For **[!UICONTROL OpenSearch Server Timeout]**, enter the number of seconds before the system times out.
 
    The default value is `15`.
 
@@ -120,9 +121,6 @@ There are two variations of the Catalog Search configuration. The first method d
 
 ### Step 4: Configure minimum terms to match
 
-To control the minimum number of terms from your query that the search results should match for return, specify a value for **[!UICONTROL Minimum Terms to Match]**. Specifying this value ensures optimal results relevancy for shoppers. For a list of accepted values, see [minimum_should_match parameter](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html) in the Elasticsearch documentation.
+To control the minimum number of terms from your query that the search results should match for return, specify a value for **[!UICONTROL Minimum Terms to Match]**. Specifying this value ensures optimal results relevancy for shoppers. For a list of accepted values, see [minimum_should_match parameter](https://opensearch.org/docs/latest/query-dsl/minimum-should-match/) in the OpenSearch documentation.
 
 When complete, click **[!UICONTROL Save Config]**.
-
-[1]: https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/search/overview-search.html
