@@ -6,7 +6,7 @@ feature: Shopping Cart, Configuration
 ---
 # Cart persistence
 
-A persistent shopping cart tracks unpurchased items in the cart and saves the information. This process ensures that the contents of the shopping cart remain accessible when the logged-in session expires. 
+A persistent shopping cart saves a reference to the customer's account on the current device, ensuring cart contents remain accessible when the logged-in session expires.
 
 If a customer is _remembered_, the contents of their shopping cart remains accessible on the current device when the logged-in session expires. After the session expires, the customer's shopping cart is accessed using the persistent cart session. If the same customer logs in on another device or browser and adds something to their shopping cart, and then returns to the device with an active persistent session, their shopping cart is updated with the added items.
 
