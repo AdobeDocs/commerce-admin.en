@@ -44,6 +44,14 @@ _May 30, 2023_
 
 +++
 
+### 2.3.0
+
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
+
+_July 29, 2024_
+
+![New](../assets/new.svg) - Add ability to [test credentials](#validate-the-connection) in the Admin UI.
+
 ### 2.2.0
 
 [!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
