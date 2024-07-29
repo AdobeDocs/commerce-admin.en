@@ -50,7 +50,7 @@ _May 30, 2023_
 
 _July 29, 2024_
 
-![New](../assets/new.svg) - Add ability to [test credentials](#validate-the-connection) in the Admin UI.
+![New](../assets/new.svg) - Added command-line syntax so you can [test credentials](#validate-the-connection) to determine if they need to be updated to pull audience data from Adobe Experience Platform.
 
 ### 2.2.0
 
