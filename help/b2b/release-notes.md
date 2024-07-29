@@ -79,7 +79,7 @@ The B2B v1.5.0-beta release includes new features, quality improvements, and bug
 
 *October 10, 2023*
 
-[!BADGE Supported]{type=Informative tooltip="Supported"} Supported on the Adobe Commerce 2.4.7 release.
+[!BADGE Supported]{type=Informative tooltip="Supported"} Supported on the Adobe Commerce version 2.4.7 and version from 2.4.6 to 2.4.6-p5.
 
 The B2B v1.4.2 release includes quality improvements and bug fixes
 
