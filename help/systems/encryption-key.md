@@ -9,7 +9,7 @@ feature: System, Security
 
 >[!NOTE]
 >
->Adobe has received reports that the existing Admin feature to change the encryption key is not working as expected for some customers. See the [Troubleshooting Encryption Key Rotation: CVE-2024-34102]() Knowledge Base article for troubleshooting solutions.
+>Adobe has received reports that the existing Admin feature to change the encryption key is not working as expected for some customers. See the [Troubleshooting Encryption Key Rotation: CVE-2024-34102](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102) Knowledge Base article for troubleshooting solutions.
 
 Adobe Commerce and Magento Open Source use an encryption key to protect passwords and other sensitive data. An industry-standard [!DNL ChaCha20-Poly1305] algorithm is used with a 256-bit key to encrypt all data that requires encryption. This includes credit card data and integration (payment and shipping module) passwords. In addition, a strong Secure Hash Algorithm (SHA-256) is used to hash all data that does not require decryption.
 
