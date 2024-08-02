@@ -32,7 +32,7 @@ The AEM Assets Integration for Commerce has the following system and configurati
 Enable the integration by completing the following tasks:
 
 1. [Install the AEM Assets integration extension (`aem-assets-integration`)](#install-the-aem-assets-integration-extension)
-1. [Configure the Commerce Service Connector](#configure-the-commerce-services-connector) to enable data synchronization between Adobe Commerce and AEM Assets.
+1. [Configure the Commerce Service Connector](#configure-the-commerce-services-connector)
 1. [Configure Adobe I/O Events for Commerce](#configure-adobe-io-events-for-commerce)
 1. [Get authentication credentials for API access](#get-authentication-credentials-for-api-access)
 
