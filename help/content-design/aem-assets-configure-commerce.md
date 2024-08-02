@@ -8,7 +8,7 @@ exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
 
 {{$include /help/_includes/aem-assets-integration-beta-note.md}}
 
-Prepare your Commerce environment to use the AEM Assets Integration for Commerce by installing the `aem-assets-integration` PHP extension and updating the Admin configuration to enable communication and workflows between Adobe Commerce and AEM Assets.
+Prepare your Commerce environment to use the AEM Assets Integration for Commerce by installing the `aem-assets-integration` PHP extension. Then, update the Admin configuration to enable communication and workflows between Adobe Commerce and AEM Assets.
 
 ## System requirements
 
