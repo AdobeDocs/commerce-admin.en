@@ -32,7 +32,7 @@ The AEM Assets Integration for Commerce has the following system and configurati
 Enable the integration by completing the following tasks:
 
 1. [Install the AEM Assets integration extension (`aem-assets-integration`)](#install-the-aem-assets-integration-extension)
-1. [Configure the Commerce Service Connector](#configure-the-commerce-services-connector) to connect your Adobe Commerce instance with the services that enable data to be transmitted between Adobe Commerce and AEM Assets.
+1. [Configure the Commerce Service Connector](#configure-the-commerce-services-connector) to enable data synchronization between Adobe Commerce and AEM Assets.
 1. [Configure Adobe I/O Events for Commerce](#configure-adobe-io-events-for-commerce)
 1. [Get authentication credentials for API access](#get-authentication-credentials-for-api-access)
 
@@ -48,7 +48,7 @@ Enable the integration by completing the following tasks:
 
 >[!ENDSHADEBOX]
 
-Install the latest version of the AEM Assets Integration extension (`aem-assets-integration`) on an Adobe Commerce running Adobe Commerce 2.4.4 or later. The AEM Asset Integration is delivered as a composer metapackage from the [repo.magento.com](https://www.magentocommerce.com/magento-connect/) repository.
+Install the latest version of the AEM Assets Integration extension (`aem-assets-integration`) on an Adobe Commerce instance with version  Adobe Commerce 2.4.4+. The AEM Asset Integration is delivered as a composer metapackage from the [repo.magento.com](hhttps://repo.magento.com/admin/dashboard) repository.
 
 >[!BEGINTABS]
 
@@ -158,7 +158,7 @@ The AEM Assets Integration uses the Adobe I/O Events service to send custom even
   - [RabbitMQ Setup for Adobe Commerce on premises](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
   - [RabbitMQ Setup for Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
 
-- If are using Commerce version 2.4.5, you must [install the Adobe I/O modules](https://developer.adobe.com/commerce/extensibility/events/installation/#install-adobe-io-modules-on-commerce). In Commerce version 2.4.6+, These modules are loaded automatically.
+- For projects on Commerce version 2.4.4 or 2.4.5, you must [install the Adobe I/O modules](https://developer.adobe.com/commerce/extensibility/events/installation/#install-adobe-io-modules-on-commerce). In Commerce version 2.4.6+, These modules are loaded automatically.
 
 >[!ENDSHADEBOX]
 
@@ -176,7 +176,7 @@ Enable the eventing framework from the Commerce Admin.
 
    >[!NOTE]
    >
-   >Verify that [cron jobs are enabled](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration) so that Commerce can send events to manage communication and workflows between AEM Assets and Commerce.
+   >Verify that [cron jobs are enabled](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration). Cron jobs are required for Commerce to manage communication and workflows between AEM Assets and Commerce.
 
 >[!TIP]
 >
