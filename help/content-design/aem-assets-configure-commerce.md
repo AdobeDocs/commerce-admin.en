@@ -1,6 +1,6 @@
 ---
 title: Install and Configure the Experience Manager Assets Integration
-description: Learn how to install and configure the [!DNL AEM Assets Integration for Adobe Commerce]
+description: Learn how to install and configure the [!DNL AEM Assets Integration for Adobe Commerce] on an Adobe Commerce instance.
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
 ---
@@ -178,13 +178,9 @@ Enable the eventing framework from the Commerce Admin.
    >
    >Verify that [cron jobs are enabled](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration). Cron jobs are required for Commerce to manage communication and workflows between AEM Assets and Commerce.
 
->[!TIP]
->
->For additional information about the Adobe I/O Events configuration fields, see the _[Adobe I/O Events Guide](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#complete-the-commerce-configuration).
-
 ## Get authentication credentials for API access
 
-The AEM Assets Integration for Commerce requires OAuth authentication credentials to allow API access to the Commerce instance. You need these credentials to register the Commerce project with the Assets Rule Engine service during tenant onboarding, and to submit API requests to manage assets between Adobe Commerce and AEM Assets.
+The AEM Assets Integration for Commerce requires OAuth authentication credentials to allow API access to the Commerce instance. These credentials are required to authenticate API requests when managing assets using the AEM Assets integration.
 
 You generate the credentials by adding the integration to the Commerce instance and activating it.
 
@@ -205,7 +201,7 @@ You generate the credentials by adding the integration to the Commerce instance 
 1. Configure API resources.
 
    1. From the left panel, click **[!UICONTROL API]**.
-E
+
    1. Select the external media resource **[!UICONTROL Catalog > Inventory > Products > External Media]**.
 
      ![Admin Integration config for API resources](assets/aem-commerce-integration-api-resources.png){width="600" zoomable="yes"}
@@ -220,7 +216,7 @@ On the Integrations page, generate the OAuth authentication credentials by click
 
    ![Activate Commerce configuration for Assets integration](assets/aem-activate-commerce-integration.png){width="600" zoomable="yes"}
 
-1. Save the credentials for the consumer key and access token for later use.
+1. If you plan to use the API, save the credentials for the consumer key and access token to configure authentication in your API client.
 
   ![OAuth credentials to authenticate API requests](./assets/aem-commerce-integration-credentials.png){width="600" zoomable="yes"}
 
@@ -229,3 +225,4 @@ On the Integrations page, generate the OAuth authentication credentials by click
 >[!NOTE]
 >
 >You can also generate authentication credentials using the Adobe Commerce APIs. For details about this process and more information about OAuth-based authentication for Adobe Commerce, see [OAuth-based authentication](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) in the Adobe Developer documentation.
+
