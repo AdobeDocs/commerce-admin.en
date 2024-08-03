@@ -42,7 +42,9 @@ Enable the integration by completing the following tasks:
 
 **Prerequisite**
 
-- Access [repo.magento.com](https://repo.magento.com/admin/dashboard) to install the extension. For key generation and obtaining the necessary rights, see [Get your authentication keys](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). For cloud installations, see the [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
+- Access [repo.magento.com](https://repo.magento.com/admin/dashboard) to install the extension.
+
+   For key generation and obtaining the necessary rights, see [Get your authentication keys](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). For cloud installations, see the [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
 
 - Access to the command line of the Adobe Commerce application server.
 
@@ -120,9 +122,9 @@ Use this method to install the [!DNL AEM Assets Integration] extension for an on
    bin/magento cache:clean
    ```
 
-   >[!TIP]
-   >
-   >In some cases, particularly when deploying to production, you might wish to avoid clearing compiled code because it can take some time. Ensure that you back up your system before making any changes.
+>[!TIP]
+>
+>When deploying to production, consider not clearing compiled code to save time. Always back up your system before making changes.
 
 >[!ENDTABS]
 
@@ -204,7 +206,7 @@ You generate the credentials by adding the integration to the Commerce instance 
 
    1. Select the external media resource **[!UICONTROL Catalog > Inventory > Products > External Media]**.
 
-     ![Admin Integration config for API resources](assets/aem-commerce-integration-api-resources.png){width="600" zoomable="yes"}
+      ![Admin Integration config for API resources](assets/aem-commerce-integration-api-resources.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Save]**.
 
@@ -218,7 +220,7 @@ On the Integrations page, generate the OAuth authentication credentials by click
 
 1. If you plan to use the API, save the credentials for the consumer key and access token to configure authentication in your API client.
 
-  ![OAuth credentials to authenticate API requests](./assets/aem-commerce-integration-credentials.png){width="600" zoomable="yes"}
+   ![OAuth credentials to authenticate API requests](./assets/aem-commerce-integration-credentials.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Done]**.
 
