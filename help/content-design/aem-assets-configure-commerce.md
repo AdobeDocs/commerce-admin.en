@@ -50,7 +50,7 @@ Enable the integration by completing the following tasks:
 
 >[!ENDSHADEBOX]
 
-Install the latest version of the AEM Assets Integration extension (`aem-assets-integration`) on an Adobe Commerce instance with version  Adobe Commerce 2.4.4+. The AEM Asset Integration is delivered as a composer metapackage from the [repo.magento.com](https://repo.magento.com/admin/dashboard) repository.
+Install the latest version of the AEM Assets Integration extension (`aem-assets-integration`) on an Adobe Commerce instance with version  Adobe Commerce 2.4.5+. The AEM Asset Integration is delivered as a composer metapackage from the [repo.magento.com](https://repo.magento.com/admin/dashboard) repository.
 
 >[!BEGINTABS]
 
