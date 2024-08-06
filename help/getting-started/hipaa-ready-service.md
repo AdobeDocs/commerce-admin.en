@@ -207,7 +207,6 @@ To comply with HIPAA requirements, some services and features supported by Adobe
   - Live Search
   - API Mesh
   - App Builder
-  - Catalog Service
 
 - **[SendGrid service](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)**—This service is disabled by default because the application is non-HIPAA-compliant.
 
