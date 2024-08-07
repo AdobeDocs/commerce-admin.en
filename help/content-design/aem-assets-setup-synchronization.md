@@ -15,17 +15,17 @@ exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
 
 >[!ENDSHADEBOX]
 
-To enable the integration, register your tenant ID. This process identifies the AEM Assets project that you are connecting to, and provides the credentials to enable communication and workflows between Commerce and AEM Assets.
+During this enablement process, you register your tenant ID by providing the program and environment ID for your AEM authoring environment. These IDs identify the AEM Assets project that you are connecting to, and provides the credentials to enable communication and workflows between Commerce and AEM Assets.
 
-After you enable the integration, select the matching rule to use for synchronizing assets between Adobe Commerce and AEM Assets.
+After identifying the AEM assets project, you select the matching rule to use for synchronizing assets between Adobe Commerce and AEM Assets.
 
-The AEM Assets Integration for Commerce supports two matching strategies for synchronizing assets between Adobe Commerce and AEM Assets.
+The AEM Assets Integration for Commerce supports two matching rules for synchronizing assets between Adobe Commerce and AEM Assets.
 
 - **Match by product SKU**—This is the default matching rule that matches assets based on the Stock Keeping Unit (SKU) of the product. The SKU is a unique identifier for each product. This rule matches the SKU in the asset metadata with the Commerce product SKU to ensure that assets are associated with the correct products.
 
-- **Custom match**—This matching rule is for more complex scenarios or specific business requirements that require custom matching logic. To use this rule, you must have custom code implemented in Adobe Developer App Builder that defines how assets are matched with products.
+- **Custom match**—This matching rule is for more complex scenarios or specific business requirements that require custom matching logic. To use this rule, you must have custom code implemented in Adobe Developer App Builder that defines how assets are matched with products. More details coming soon...
 
-For initial onboarding, use the `MatchBySku` strategy. If needed, you can change the matching strategy later.
+For initial onboarding, use the default `Match by product sku` rule. If needed, you can change the matching rule later.
 
 ## Enable the integration
 
