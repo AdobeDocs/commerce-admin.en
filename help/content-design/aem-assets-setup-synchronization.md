@@ -21,9 +21,9 @@ After you enable the integration, select the matching rule to use for synchroniz
 
 The AEM Assets Integration for Commerce supports two matching strategies for synchronizing assets between Adobe Commerce and AEM Assets.
 
-- **Match by product SKU**-This is the default matching rule that matches assets based on the Stock Keeping Unit (SKU) of the product. The SKU is a unique identifier for each product. This rule matches the SKU in the asset metadata with the Commerce product SKU to ensure that assets are associated with the correct products.
+- **Match by product SKU**—This is the default matching rule that matches assets based on the Stock Keeping Unit (SKU) of the product. The SKU is a unique identifier for each product. This rule matches the SKU in the asset metadata with the Commerce product SKU to ensure that assets are associated with the correct products.
 
-- **Custom match**–This matching rule is for more complex scenarios or specific business requirements that require custom matching logic. To use this rule, you must have custom code implemented in Adobe Developer App Builder that defines how assets are matched with products.
+- **Custom match**—This matching rule is for more complex scenarios or specific business requirements that require custom matching logic. To use this rule, you must have custom code implemented in Adobe Developer App Builder that defines how assets are matched with products.
 
 For initial onboarding, use the `MatchBySku` strategy. If needed, you can change the matching strategy later.
 
@@ -31,7 +31,7 @@ For initial onboarding, use the `MatchBySku` strategy. If needed, you can change
 
 1. Get the project and environment ID for your [AEM Assets Authoring Environment](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start).
 
-   1. Open the AEM Sites page, and select **[!UICONTROL Assets]**.
+   1. Open the AEM Sites console, and select **[!UICONTROL Assets]**.
 
    1. Copy and save the project and environment IDs from the URL:<br>`https://author-p[Program ID]-e[EnvironmentID].adobeaemcloud.com/`|
 
@@ -45,9 +45,9 @@ For initial onboarding, use the `MatchBySku` strategy. If needed, you can change
 
 1. Identify the Experience Manager Assets project to connect to by entering the **[!UICONTROL Program ID]** and **[!UICONTROL Environment ID]**.
 
-1. Add the OAUTH credentials to authenticate API requests between Adobe Commerce and the ARES service by selecting the **[[!UICONTROL Commerce integration]](aem-assets-configure-commerce.md#add-the-integration-to-the-commerce-environment)** you created for AEM Assets Integration for Commerce extension, for example `Assets integration`.
+1. Add the OAUTH credentials to authenticate API requests between Adobe Commerce and the ARES service by selecting the **[[!UICONTROL Commerce integration]](aem-assets-configure-commerce.md#add-the-integration-to-the-commerce-environment)**, for example `Assets integration`.
 
-1. Allow Commerce to accept incoming updates from AEM Assets by selecting **[!UICONTROL Enable integration]**.
+1. Allow Commerce to accept incoming updates from AEM Assets by setting **[!UICONTROL Enable integration]** to `Yes`.
 
    After enabling the integration, you can configure the asset matching rule.
 
