@@ -66,7 +66,7 @@ The B2B v1.5.0-beta release includes new features, quality improvements, and bug
 
 >[!IMPORTANT]
 >
->Adobe Commerce B2B version 1.4.2+ is compatible with PHP 8.2. If you upgrade the Commerce instance to version 2.4.7+, ensure that the instance uses PHP version 8.2 to maintain compatibility with Adobe Commerce B2B release.
+>Adobe Commerce B2B version 1.4.2+ is compatible with PHP 8.2. If you upgrade the Commerce instance to version 2.4.7+, ensure that the instance uses PHP version 8.2 to maintain compatibility with Adobe Commerce B2B release. Additionally, B2B 1.4.2+ does not currently support the [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server). 
 
 
 ## B2B v1.4.2
@@ -75,9 +75,13 @@ The B2B v1.5.0-beta release includes new features, quality improvements, and bug
 
 [!BADGE Supported]{type=Informative tooltip="Supported"} Supported on the Adobe Commerce 2.4.7 release.
 
-The B2B v1.4.2 release includes quality improvements and bug fixes
+The B2B v1.4.2 release includes quality improvements and bug fixes.
 
 ![Fixed issue](../assets/fix.svg) <!--B2B-2897-->If a Seller creates a buyer quote that includes a product SKU not available in the shared catalog associated with the buyer company, the system displays the error message `The SKU you entered is not available in the shared catalog. Please check the SKU and try again`.  The Seller cannot save the quote until they remove the product that is not available. Previously, the quote was saved with the unavailable SKU included, and the quote failed to load on the storefront.
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B version 1.4.2+ is compatible with PHP 8.2. If you upgrade the Commerce instance to version 2.4.7+, ensure that the instance uses PHP version 8.2 to maintain compatibility with Adobe Commerce B2B release. Additionally, B2B 1.4.2+ does not currently support the [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server). 
 
 ## B2B v1.4.1
 

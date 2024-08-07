@@ -33,6 +33,8 @@ B2B [!DNL Quick Order] and [!DNL Requisition List] features can be enabled and d
 
 ## Configure B2B features
 
+The options to configure Adobe Commerce B2B features are available only on Commerce projects that have the [Adobe Commerce B2B extension installed](install.md).  
+
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
    If you have a multi-site installation, set the **[!UICONTROL Store View]** control in the upper-left corner to the website where the configuration applies.

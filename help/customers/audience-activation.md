@@ -44,6 +44,14 @@ _May 30, 2023_
 
 +++
 
+### 2.3.0
+
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
+
+_July 29, 2024_
+
+![New](../assets/new.svg) - Added command-line syntax so you can [test credentials](#validate-the-connection) to determine if they need to be updated to pull audience data from Adobe Experience Platform.
+
 ### 2.2.0
 
 [!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
