@@ -1,10 +1,10 @@
 ---
 title: Enable asset synchronization
-description: Learn how to connect your Adobe Commerce and Experience Manager Assets projects with the Assets Rule Engine Service to enable asset synchronization between these two systems.
+description: Learn how to connect your Adobe Commerce and Experience Manager Assets projects to enable asset synchronization between these two systems.
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
 ---
-# Set up the synchronization
+# Enable asset synchronization
 
 >[!BEGINSHADEBOX]
 
