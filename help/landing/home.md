@@ -135,7 +135,3 @@ Magento Open Source is the code base that Adobe officially contributes to and en
 | **New topic** - Added the [Transfer a Commerce account](../getting-started/commerce-account-transfer.md) topic to the _Getting Started Guide_. | New | 02/27/23 |
 
 {style="table-layout:auto"}
-
-## 2.3.x documentation
-
-The [Adobe Commerce 2.3 User Guide](https://docs.magento.com/user-guide/v2.3/) remains available on the `docs.magento.com` domain for Adobe Commerce 2.3 customers who are on an extended support contract.
