@@ -16,13 +16,13 @@ Adobe provides a collection of Commerce services, integration services, and data
 
 ![Catalog data for connected services](../landing/assets/icon-data-book.svg){width="40"} **[Catalog Service](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/overview)**—Give your customers an optimized product experience while boosting performance, improving scalability, and increasing conversions.
 
-![Credit Card payments](../landing/assets/icon-credit-card.svg){width="40"} **[Payment Services](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/overview)**—Drive customer satisfaction with diverse payment methods, including interest-free installments, and streamlined views of payment processing, orders, and invoices.
+![Payment methods](../landing/assets/icon-credit-card.svg){width="40"} **[Payment Services](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/overview)**—Drive customer satisfaction with diverse payment methods, including interest-free installments, and streamlined views of payment processing, orders, and invoices.
 
 ## Integration services
 
 [Transfer data to platform](../landing/assets/icon-transfer-to-platform.svg){width="40"} **[[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview)**—Leverage the connection between Adobe Commerce and the Adobe Experience Platform edge to use Commerce data for other Adobe Experience Cloud products, such as Adobe Analytics and Adobe Target.
 
-![Data connection icon](../landing/assets/icon-data-setting.svg){width="40"} **[Commerce Services Connector](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas)**—Configure authentication to enable secure communication between Adobe Commerce and connected services. For each environment, specify the data space ID for Commerce services data storage.
+![Data connection](../landing/assets/icon-data-setting.svg){width="40"} **[Commerce Services Connector](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas)**—Configure authentication to enable secure communication between Adobe Commerce and connected services. For each environment, specify the data space ID for Commerce services data storage.
 
 ## Data tools
 
