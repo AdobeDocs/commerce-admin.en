@@ -1,6 +1,6 @@
 ---
-title: Install and configure the Experience Manager Assets Integration
-description: Learn how to install and configure the [!DNL AEM Assets Integration for Adobe Commerce]
+title: Install and Configure the Experience Manager Assets Integration
+description: Learn how to install and configure the [!DNL AEM Assets Integration for Adobe Commerce] on an Adobe Commerce instance.
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
 ---
@@ -8,9 +8,11 @@ exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
 
 {{$include /help/_includes/aem-assets-integration-beta-note.md}}
 
-Install and configure the AEM Assets integration for Commerce by adding the extension to the Commerce application, connecting to Commerce SaaS services, e Adobe I/O Events service, and connect to the Commerce SaaS.
+Prepare your Commerce environment to use the AEM Assets Integration for Commerce by installing the `aem-assets-integration` PHP extension. Then, update the Admin configuration to enable communication and workflows between Adobe Commerce and AEM Assets.
 
 ## System requirements
+
+The AEM Assets Integration for Commerce has the following system and configuration requirements.
 
 **Software requirements**
 
@@ -29,8 +31,8 @@ Install and configure the AEM Assets integration for Commerce by adding the exte
 
 Enable the integration by completing the following tasks:
 
-1. [Install the AEM Assets integration extension (`aem-assets-integration`)](#install-the-aem-assets-integration-extension).
-1. [Configure the Commerce Service Connector](#configure-the-commerce-services-connector) to connect your Adobe Commerce instance and with the services that enable data to be transmitted between Adobe Commerce and AEM Assets.
+1. [Install the AEM Assets Integration extension (`aem-assets-integration`)](#install-the-aem-assets-integration-extension).
+1. [Configure the Commerce Services Connector](#configure-the-commerce-services-connector) to connect your Adobe Commerce instance and with the services that enable data to be transmitted between Adobe Commerce and AEM Assets.
 1. [Configure Adobe I/O Events for Commerce](#configure-adobe-io-events-for-commerce)
 1. [Get authentication credentials for API access](#get-authentication-credentials-for-api-access)
 
@@ -40,13 +42,15 @@ Enable the integration by completing the following tasks:
 
 **Prerequisite**
 
-- Access [repo.magento.com](https://repo.magento.com/admin/dashboard) to install the extension. For key generation and obtaining the necessary rights, see [Get your authentication keys](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). For cloud installations, see the [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
+- Access [repo.magento.com](https://repo.magento.com/admin/dashboard) to install the extension.
+
+   For key generation and obtaining the necessary rights, see [Get your authentication keys](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). For cloud installations, see the [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
 
 - Access to the command line of the Adobe Commerce application server.
 
 >[!ENDSHADEBOX]
 
-Install the latest version of the AEM Assets Integration extension (`aem-assets-integration`) on an Adobe Commerce running Adobe Commerce 2.4.4 or later. The AEM Asset Integration is delivered as a composer metapackage from the [repo.magento.com](https://repo.magento.com/admin/dashboard) repository.
+Install the latest version of the AEM Assets Integration extension (`aem-assets-integration`) on an Adobe Commerce instance with version Adobe Commerce 2.4.5+. The AEM Asset Integration is delivered as a composer metapackage from the [repo.magento.com](https://repo.magento.com/admin/dashboard) repository.
 
 >[!BEGINTABS]
 
@@ -118,9 +122,9 @@ Use this method to install the [!DNL AEM Assets Integration] extension for an on
    bin/magento cache:clean
    ```
 
-   >[!TIP]
-   >
-   >In some cases, particularly when deploying to production, you might wish to avoid clearing compiled code because it can take some time. Ensure that you back up your system before making any changes.
+>[!TIP]
+>
+>When deploying to production, consider not clearing compiled code to save time. Always back up your system before making changes.
 
 >[!ENDTABS]
 
@@ -156,81 +160,29 @@ The AEM Assets Integration uses the Adobe I/O Events service to send custom even
   - [RabbitMQ Setup for Adobe Commerce on premises](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
   - [RabbitMQ Setup for Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
 
+- For projects on Commerce version 2.4.5, you must [install the Adobe I/O modules](https://developer.adobe.com/commerce/extensibility/events/installation/#install-adobe-io-modules-on-commerce). In Commerce version 2.4.6+, these modules are loaded automatically.
+
 >[!ENDSHADEBOX]
-
->[!NOTE]
->
->For detailed information about Adobe I/O Events for Commerce, see the [Adobe I/O Events for Commerce](https://developer.adobe.com/commerce/extensibility/events/) documentation on the Adobe Developer site.
-
-Set up requires the following steps.
-
-1. Enable the Commerce Eventing framework by configuring Adobe I/O events on the application server and in the Admin.
-1. Enable data synchronization between Adobe Commerce and AEM Assets by using the Assets Rules Engine Service API to configure the connection.
-1. Enable the AEM Assets integration in the Admin.
 
 ### Enable the Commerce Eventing framework
 
-Enable the Commerce eventing framework by using the instructions for the environment where your Commerce project is deployed.
+Enable the eventing framework from the Commerce Admin.
 
->[!BEGINTABS]
+1. From the Admin, go to **[!UICONTROL Stores]** > [!UICONTROL Settings] > **[!UICONTROL Configuration]** > **[!UICONTROL Adobe Services]** > **Adobe I/O Events**.
 
->[!TAB Cloud infrastructure]
+1. Expand **[!UICONTROL Commerce events]**.
 
-1. Enable the Adobe I/O Events service from the [!DNL Store Settings Configuration] menu.
+1. Set **[!UICONTROL Enabled]** to `Yes`.
 
-   1. From the Admin, go to **[!UICONTROL Stores]** > [!UICONTROL Settings] > **[!UICONTROL Configuration]** > **[!UICONTROL Adobe Services]** > **Adobe I/O Events**.
+   ![Adobe I/O Events Commerce Admin configuration - enable Commerce events](assets/aem-enable-io-event-admin-config.png){width="600" zoomable="yes"}
 
-   1. Expand **[!UICONTROL Commerce events]**.
-
-   1. Set **[!UICONTROL Enabled]** to `Yes`.
-
-      ![Adobe I/O Events Commerce Admin configuration - enable Commerce events](assets/aem-enable-io-event-admin-config.png){width="600" zoomable="yes"}
-
-      >[!NOTE]
-      >
-      >[Enable cron](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration) so that Commerce can send events to the API endpoints to manage communication and workflows for the integration.
-
-1. Update the cloud project configuration.
-
-   1. Add the `app/etc/config.php` file to your working repository:
-
-     ```shell
-     git add app/etc/config.php
-     ```
-
-   1. Run the `composer info magento/ece-tools` command to determine your version of ece-tools. If the version is less than `2002.1.13`, [update to the most recent version](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package).
-
-   1. Enable eventing in the `.magento.env.yaml` file:
-
-      ```yaml
-      stage:
-         global:
-            ENABLE_EVENTING: true
-      ```
-
-   1. Commit and push updated files to the Cloud environment.
-
->[!TAB On-premises]
-
-1. Enable the Adobe I/O Events service from the [!DNL Store Settings Configuration] menu.
-
-   1. From the Admin, go to **[!UICONTROL Stores]** > [!UICONTROL Settings] > **[!UICONTROL Configuration]** > **[!UICONTROL Adobe Services]** > **Adobe I/O Events**.
-
-   1. Expand **[!UICONTROL Commerce events]**.
-
-   1. Set **[!UICONTROL Enabled]** to `Yes`.
-
-      ![Adobe I/O Events Commerce Admin configuration - enable Commerce events](assets/aem-enable-io-event-admin-config.png){width="600" zoomable="yes"}
-
-      >[!NOTE]
-      >
-      >[Enable cron jobs](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration) so that Commerce can send events to manage communication and workflows between AEM assets and Commerce.
-
->[!ENDTABS]
+   >[!NOTE]
+   >
+   >Verify that [cron jobs are enabled](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration). Cron jobs are required for Commerce to manage communication and workflows between AEM Assets and Commerce.
 
 ## Get authentication credentials for API access
 
-The AEM Assets Integration for Commerce requires OAuth authentication credentials to allow API access to the Commerce instance. You need these credentials to register the Commerce project with the Assets Rule Engine service during tenant onboarding, and to submit API requests to manage assets between Adobe Commerce and AEM Assets.
+The AEM Assets Integration for Commerce requires OAuth authentication credentials to allow API access to the Commerce instance. These credentials are required to authenticate API requests when managing assets using the AEM Assets integration.
 
 You generate the credentials by adding the integration to the Commerce instance and activating it.
 
@@ -251,10 +203,10 @@ You generate the credentials by adding the integration to the Commerce instance 
 1. Configure API resources.
 
    1. From the left panel, click **[!UICONTROL API]**.
-E
+
    1. Select the external media resource **[!UICONTROL Catalog > Inventory > Products > External Media]**.
 
-     ![Admin Integration config for API resources](assets/aem-commerce-integration-api-resources.png){width="600" zoomable="yes"}
+      ![Admin Integration config for API resources](assets/aem-commerce-integration-api-resources.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Save]**.
 
@@ -266,12 +218,13 @@ On the Integrations page, generate the OAuth authentication credentials by click
 
    ![Activate Commerce configuration for Assets integration](assets/aem-activate-commerce-integration.png){width="600" zoomable="yes"}
 
-1. Save the credentials for the consumer key and access token for later use.
+1. If you plan to use the API, save the credentials for the consumer key and access token to configure authentication in your API client.
 
-  ![OAuth credentials to authenticate API requests](./assets/aem-commerce-integration-credentials.png){width="600" zoomable="yes"}
+   ![OAuth credentials to authenticate API requests](./assets/aem-commerce-integration-credentials.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Done]**.
 
 >[!NOTE]
 >
 >You can also generate authentication credentials using the Adobe Commerce APIs. For details about this process and more information about OAuth-based authentication for Adobe Commerce, see [OAuth-based authentication](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) in the Adobe Developer documentation.
+
