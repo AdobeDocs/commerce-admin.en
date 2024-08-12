@@ -269,7 +269,7 @@ Bundle product stock status is **_not automatically changed to Out of Stock_** w
 
 ![Checkbox](../assets/checkbox.png) Customers can _build their own_ bundle product.
 
-![Checkbox](../assets/checkbox.png) All child products are assigned and unassigned from the bundle product **_globally_** for all websites, stores and store views at the same time.
+![Checkbox](../assets/checkbox.png) All child products are assigned and unassigned from the bundle product **_globally_** for all websites, stores, and store views at the same time.
 
 ![Checkbox](../assets/checkbox.png) Bundle items can be simple or virtual products without custom options.
 
