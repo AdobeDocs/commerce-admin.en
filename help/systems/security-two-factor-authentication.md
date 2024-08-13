@@ -44,7 +44,7 @@ You can watch this [video demo](https://video.tv.adobe.com/v/339104?quality=12&l
 
    To select multiple methods, hold down the Ctrl key (PC) or the Command key (Mac) and click each item.
 
-1. Complete the settings for each required 2FA method.
+1. Complete the [settings](../configuration-reference/security/2fa.md) for each required 2FA method.
 
    ![Security configuration - 2FA](../configuration-reference/security/assets/2fa-general.png){width="600" zoomable="yes"}
 
