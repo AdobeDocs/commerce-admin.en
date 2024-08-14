@@ -199,7 +199,7 @@ In the **[!UICONTROL Order Total]** section, do the following:
 |Field|Description|
 |--- |--- |
 |[!UICONTROL Status]|Displays the status of the sales order.|
-|[!UICONTROL Comment]|A text box that is used to enter a comment to the customer that accompanies the order. <br/>**[!UICONTROL Notify Customer by Email]** - Select the checkbox if you want to send the comment to the customer as a separate email. <br/>**[!UICONTROL Visible on Storefront]** - Select the checkbox if you want the comment to be visible from the customer's account. <br/>**[!UICONTROL Submit Comment]** - Submits the comment and sends by email, if applicable.|
+|[!UICONTROL Comment]|A text box that is used to enter a comment to the customer that accompanies the order. <br/>**[!UICONTROL Notify Customer by Email]** - Select the checkbox if you want to send the comment to the customer as a separate email. <br/>**[!UICONTROL Visible on Storefront]** - Select the checkbox if you want the comment to be visible from the customer's account. <br/>**[!UICONTROL Update]** - Adds the comment and sends an email, if applicable.|
 
 {style="table-layout:auto"}
 
