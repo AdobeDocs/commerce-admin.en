@@ -63,6 +63,10 @@ The settings in the HTML Head section correspond to the `<head>` tag of an HTML
 
 {style="table-layout:auto"}
 
+>[!NOTE]
+>
+>Every JavaScript placed in the [!UICONTROL Scripts and Style Sheets] field must be whitelisted in the Content Security Policy (CSP) settings, otherwise it will not be executed on the Checkout pages. For more information, see [Content Security Policy](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
+
 ## Header
 
 The Header configuration identifies the path to your store logo and specifies the logo alt text and welcome message.
@@ -124,3 +128,7 @@ The Footer configuration section is where you can update the [copyright notice](
 |[!UICONTROL Display Report Bugs Link]|Store View|Determines if the bug report link (supported for some themes) is enabled or disabled.|
 
 {style="table-layout:auto"}
+
+>[!NOTE]
+>
+>Every JavaScript placed in the [!UICONTROL Miscellaneous HTML] field must be whitelisted in the Content Security Policy (CSP) settings, otherwise it will not be executed on the Checkout pages. For more information, see [Content Security Policy](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
