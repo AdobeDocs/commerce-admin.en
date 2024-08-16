@@ -8,7 +8,7 @@ feature: Marketing Tools, Integration
 
 {{ee-feature}}
 
-[!DNL Google Tag Manager] helps you manage the many tags (snippets of code) that are related to your marketing campaign events. [!DNL Google Tag Manager] gives you the ability to add tracking tags to your site to measure the audience, or to personalize, retarget, or conduct search engine marketing initiatives.
+[!DNL Google Tag Manager] is a powerful tool that helps you efficiently manage and deploy various tags (snippets of code) associated with your marketing campaign events. [!DNL Google Tag Manager] gives you the ability to add tracking tags to your site to measure the audience, or to personalize, retarget, or conduct search engine marketing initiatives.
 
 [!DNL Google Tag Manager] directly transfers data and events to [!DNL Google Analytics], Enhanced Ecommerce, and other third-party analytics solutions to produce a clear picture of how well your site, products, and promotions are performing.
 
