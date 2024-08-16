@@ -24,7 +24,7 @@ The attributes are organized into groups that determine where they appear in the
 
 1. Set **[!UICONTROL Based On]** to an existing attribute set to be used as a template.
 
-1. click **[!UICONTROL Save]**.
+1. Click **[!UICONTROL Save]**.
 
    The next page displays the following:
 
@@ -32,7 +32,7 @@ The attributes are organized into groups that determine where they appear in the
    - The center of the page lists the current selection of attribute groups.
    - The right column lists the selection of attributes that are currently not assigned to the attribute set.
 
-1. To add an attribute to the set, drag the attribute from the **[!UICONTROL Unassigned Attributes]** list to the appropriate folder in the **[!UICONTROL Groups]** column.
+1. To add an attribute to the set, drag the attribute from the **[!UICONTROL Unassigned Attributes]** list to the appropriate folder in the **[!UICONTROL Groups]** column. To remove an attribute from the set, drag it to the **[!UICONTROL Unassigned Attributes]** list.
 
    >[!NOTE]
    >
@@ -44,14 +44,15 @@ The attributes are organized into groups that determine where they appear in the
 
 ## Create an attribute group
 
-1. In the _[!UICONTROL Groups]_ column the attribute set, click **[!UICONTROL Add New]**.
+1. In the _[!UICONTROL Groups]_ column of the attribute set, click **[!UICONTROL Add New]**.
 
 1. Enter a **[!UICONTROL Name]** for the new group, and click **[!UICONTROL OK]**.
 
-1. Do either of the following:
+1. Do any of the following:
 
    - Drag **[!UICONTROL Unassigned Attributes]** to the new group.
    - Drag attributes from any other group to the new group.
+   - Drag unnecessary attributes to **[!UICONTROL Unassigned Attributes]**.
 
    The new group becomes a section of attributes in any product that is based on the attribute set.
 
