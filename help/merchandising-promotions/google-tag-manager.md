@@ -132,24 +132,6 @@ The following instructions show how to configure a new container with the basic 
 >
 >Each container is associated with one website and you only need one container per account. If you have a multi-site Commerce instance, you need separate containers.
 
-## Step 4. Add the GTM code to your Adobe Commerce store
-
-1. To copy the GTM code, go to **[!UICONTROL Admin]** > **[!UICONTROL Install Google Tag Manager]**.
-
-   There are two GTM code snippets to be added to your Commerce site: the first one for the `<head>` tag and the second for the `<body>` tag.
-
-1. In the Commerce Admin, go to **[!UICONTROL Content]** > _[!UICONTROL Design]_ > **[!UICONTROL Configuration]** and open the store view in edit mode.
-
-1. Under _[!UICONTROL Other Settings]_, expand **[!UICONTROL HTML Head]** and paste the code you copied from GTM for the `<head>` tag in the **[!UICONTROL Scripts and Style Sheets]** field.
-
-   ![Inserting code in the HTML Head](./assets/head-tag.png){width="600" zoomable="yes"}
-
-1. Expand **[!UICONTROL Footer]** and paste the GTM code for `<body>` in the **[!UICONTROL Miscellaneous HTML]** field.
-
-   ![Inserting code in the Footer](./assets/footer-tag-section.png){width="600" zoomable="yes"}
-
-1. When complete, click **[!UICONTROL Save Configuration]**.
-
 ## Field descriptions
 
 |Field|Scope|Description|

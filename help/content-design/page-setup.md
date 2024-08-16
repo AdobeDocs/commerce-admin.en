@@ -43,6 +43,10 @@ The settings in the HTML Head section correspond to the `<head>` tag of an HTML
    - **[!UICONTROL Default Meta Keywords]**
 
 1. Enter any **[!UICONTROL Scripts and Style Sheets]** as needed.
+   >[!NOTE]
+   >
+   >Every JavaScript placed in the [!UICONTROL Scripts and Style Sheets] field must be whitelisted in the Content Security Policy (CSP) settings, otherwise it will not be executed on the Checkout pages. For more information, see [Content Security Policy](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
+
 
 1. Enable or disable the [demo store notice](../getting-started/storefront-branding.md#set-the-store-demo-notice) if needed.
 
@@ -62,10 +66,6 @@ The settings in the HTML Head section correspond to the `<head>` tag of an HTML
 |[!UICONTROL Display Demo Store Notice]|Store View|Controls the display of the demo store notice at the top of the page. Options: `Yes` / `No`|
 
 {style="table-layout:auto"}
-
->[!NOTE]
->
->Every JavaScript placed in the [!UICONTROL Scripts and Style Sheets] field must be whitelisted in the Content Security Policy (CSP) settings, otherwise it will not be executed on the Checkout pages. For more information, see [Content Security Policy](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
 
 ## Header
 
@@ -117,6 +117,10 @@ The Footer configuration section is where you can update the [copyright notice](
 
 1. Make any changes necessary to the **[!UICONTROL Copyright]** and **[!UICONTROL Miscellaneous HTML]** settings.
 
+   >[!NOTE]
+   >
+   >Every JavaScript placed in the [!UICONTROL Miscellaneous HTML] field must be whitelisted in the Content Security Policy (CSP) settings, otherwise it will not be executed on the Checkout pages. For more information, see [Content Security Policy](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
+
 1. When complete, click **[!UICONTROL Save Configuration]**.
 
 ## Footer field descriptions
@@ -128,7 +132,3 @@ The Footer configuration section is where you can update the [copyright notice](
 |[!UICONTROL Display Report Bugs Link]|Store View|Determines if the bug report link (supported for some themes) is enabled or disabled.|
 
 {style="table-layout:auto"}
-
->[!NOTE]
->
->Every JavaScript placed in the [!UICONTROL Miscellaneous HTML] field must be whitelisted in the Content Security Policy (CSP) settings, otherwise it will not be executed on the Checkout pages. For more information, see [Content Security Policy](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
