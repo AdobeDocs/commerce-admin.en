@@ -32,7 +32,7 @@ The attributes are organized into groups that determine where they appear in the
    - The center of the page lists the current selection of attribute groups.
    - The right column lists the selection of attributes that are currently not assigned to the attribute set.
 
-1. To add an attribute to the set, drag the attribute from the **[!UICONTROL Unassigned Attributes]** list to the appropriate folder in the **[!UICONTROL Groups]** column. To remove an attribute from the set, drag it to the the **[!UICONTROL Unassigned Attributes]** list.
+1. To add an attribute to the set, drag the attribute from the **[!UICONTROL Unassigned Attributes]** list to the appropriate folder in the **[!UICONTROL Groups]** column. To remove an attribute from the set, drag it to the **[!UICONTROL Unassigned Attributes]** list.
 
    >[!NOTE]
    >
@@ -44,7 +44,7 @@ The attributes are organized into groups that determine where they appear in the
 
 ## Create an attribute group
 
-1. In the _[!UICONTROL Groups]_ column the attribute set, click **[!UICONTROL Add New]**.
+1. In the _[!UICONTROL Groups]_ column of the attribute set, click **[!UICONTROL Add New]**.
 
 1. Enter a **[!UICONTROL Name]** for the new group, and click **[!UICONTROL OK]**.
 
