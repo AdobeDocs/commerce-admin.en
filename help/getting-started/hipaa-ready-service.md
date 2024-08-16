@@ -123,7 +123,9 @@ The `magento/hipaa-ee` extension introduces some changes and enhancements to the
 
 ### Action Logs
 
-Audit Logging is a HIPAA requirement. In Adobe Commerce, the [Action Logs](https://experienceleague.adobe.com/docs/commerce-admin/systems/action-logs/action-log.html?lang=en) feature records every change made by an Admin user who works in your store. To meet HIPAA requirements for the Audit Log, the feature has been updated to record all Admin user and customer actions performed through the Admin UI and through API calls.
+Audit Logging is a HIPAA requirement. In Adobe Commerce, the [Action Logs](../systems/action-log.md) feature records every change made by an Admin user who works in your store. To meet HIPAA requirements for the Audit Log, the feature has been updated to record all Admin user and customer actions performed through the Admin UI and through API calls.
+
+Action Logs also capture events when Adobe services access your store data. You can identify these events by filtering on the "Data Sent Outside" Action in the Action Logs report.
 
 #### Action Logs report
 
@@ -196,26 +198,34 @@ To empower Admin users with more informative grids, the HIPAA-Ready service prov
 - Added a **[!UICONTROL Scheduled At]** column (the _date and time when the import or export was scheduled_).
 - Added a **[!UICONTROL User]** column (the _username of an Admin user who scheduled the import or export_).
 
+## HIPAA-ready services
+
+The following Adobe Commerce and extensibility services are available for the HIPAA-readiness offering. These services include, but are not limited to:
+
+  - [Adobe I/O Events for Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/)
+  - [API Mesh](https://developer.adobe.com/graphql-mesh-gateway/)
+  - [App Builder](https://developer.adobe.com/app-builder/docs/overview/)
+  - [Catalog Service](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/overview)
+  - [Data Connection](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview)
+  - [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)
+  - [Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/overview)
+
 ## Disabled services and features
 
 To comply with HIPAA requirements, some services and features supported by Adobe Commerce are either not available or disabled by default. Merchants have the option to re-enable or use these services and features at their own risk.
 
 ### Services
 
-- **Adobe Commerce services**—None of the Adobe Commerce services or extensibility services are available under the HIPAA-readiness offering. These services include, but are not limited to:
-
-  - Live Search
-  - API Mesh
-  - App Builder
-
-- **[SendGrid service](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)**—This service is disabled by default because the application is non-HIPAA-compliant.
+The [SendGrid](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html) service is disabled by default because the application is non-HIPAA-compliant. Adobe recommends using [Amazon Simple Email Service](https://docs.aws.amazon.com/ses/).
 
 ### Features that are disabled by default
 
 The following features are disabled by default in the HIPAA-readiness module. Merchants can enable any of these features at their own risk.
 
+- **[Action Logs Archive](../systems/action-log-archive.md)**—This feature is disabled to prevent premature log removal that might violate HIPAA retention requirements.
+
 - **[Guest checkout](../stores-purchase/checkout-guest.md)**—This feature presents a potential risk for various aspects of HIPAA including logging, access control, PHI hygiene and lineage, and potentially more.
 
 - **[Newsletter feature](../merchandising-promotions/newsletters.md)**—This feature is disabled to prevent PHI being used in a marketing context.
 
-- **[Advanced Reporting service setting](../getting-started/business-intelligence.md)**— This configuration setting is disabled to prevent PHI from being used for analysis and reporting.
+- **[Advanced Reporting service setting](../getting-started/business-intelligence.md)**—This configuration setting is disabled to prevent PHI from being used for analysis and reporting.
