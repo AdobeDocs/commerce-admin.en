@@ -213,7 +213,10 @@ To comply with HIPAA requirements, some services and features supported by Adobe
 
 ### Services
 
-The [SendGrid](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html) service is disabled by default because the application is non-HIPAA-compliant. Adobe recommends using [Amazon Simple Email Service](https://docs.aws.amazon.com/ses/).
+The following services are not available under the HIPAA-readiness offering:
+
+- **[Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)**—Not available at this time.
+- **[SendGrid](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)**—Disabled by default because the application is non-HIPAA-compliant. Adobe recommends using [Amazon Simple Email Service](https://docs.aws.amazon.com/ses/).
 
 ### Features that are disabled by default
 
