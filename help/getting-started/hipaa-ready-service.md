@@ -205,10 +205,7 @@ The following Adobe Commerce and extensibility services are available for the HI
 - [Adobe I/O Events for Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/)
 - [API Mesh](https://developer.adobe.com/graphql-mesh-gateway/)
 - [App Builder](https://developer.adobe.com/app-builder/docs/overview/)
-- [Catalog Service](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/overview)
 - [Data Connection](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview)
-- [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)
-- [Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/overview)
 
 ## Disabled services and features
 
