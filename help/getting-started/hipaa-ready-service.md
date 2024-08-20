@@ -222,8 +222,6 @@ The following services are not available under the HIPAA-readiness offering:
 
 The following features are disabled by default in the HIPAA-readiness module. Merchants can enable any of these features at their own risk.
 
-- **[Action Logs Archive](../systems/action-log-archive.md)**—This feature is disabled to prevent premature log removal that might violate HIPAA retention requirements.
-
 - **[Guest checkout](../stores-purchase/checkout-guest.md)**—This feature presents a potential risk for various aspects of HIPAA including logging, access control, PHI hygiene and lineage, and potentially more.
 
 - **[Newsletter feature](../merchandising-promotions/newsletters.md)**—This feature is disabled to prevent PHI being used in a marketing context.
