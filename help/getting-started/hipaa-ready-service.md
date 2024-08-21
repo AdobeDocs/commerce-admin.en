@@ -203,7 +203,7 @@ To empower Admin users with more informative grids, the HIPAA-Ready service prov
 The following Adobe Commerce and extensibility services are available for the HIPAA-readiness offering. These services include, but are not limited to:
 
 - [Adobe I/O Events for Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/)
-- [API Mesh](https://developer.adobe.com/graphql-mesh-gateway/)
+- [API Mesh for Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/)
 - [App Builder](https://developer.adobe.com/app-builder/docs/overview/)
 - [Data Connection](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview)
 
