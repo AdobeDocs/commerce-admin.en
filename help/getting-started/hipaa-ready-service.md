@@ -219,7 +219,7 @@ The [Security Scan Tool](../systems/security-scan.md) for Adobe Commerce helps y
 - An Access Control List (ACL) has been defined for PHI
 - Auditing modules are not disabled
 - Two-factor authentication (2FA) is not disabled
-- Marketing features as disabled
+- Marketing features are disabled
 - All installed extensions match the allowlist
 - No unsupported Adobe services are installed
 
