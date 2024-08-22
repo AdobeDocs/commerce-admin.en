@@ -20,6 +20,8 @@ feature: Configuration, Communications
 
 {style="table-layout:auto"}
 
+For details on how to use RSS feeds after they are enabled, see [Social media and RSS feeds](../../merchandising-promotions/social-rss.md). 
+
 ## [!UICONTROL Wish List]
 
 ![Wish List](./assets/rss-feeds-wishlist.png)<!-- zoom -->
