@@ -43,6 +43,7 @@ The settings in the HTML Head section correspond to the `<head>` tag of an HTML
    - **[!UICONTROL Default Meta Keywords]**
 
 1. Enter any **[!UICONTROL Scripts and Style Sheets]** as needed.
+   
    >[!NOTE]
    >
    >Every JavaScript placed in the [!UICONTROL Scripts and Style Sheets] field must be whitelisted in the Content Security Policy (CSP) settings, otherwise it will not be executed on the Checkout pages. For more information, see [Content Security Policy](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
