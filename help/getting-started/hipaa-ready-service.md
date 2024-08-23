@@ -206,6 +206,7 @@ The following Adobe Commerce and extensibility services are available for the HI
 - [API Mesh for Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/)
 - [App Builder](https://developer.adobe.com/app-builder/docs/overview/)
 - [Data Connection](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview)
+- [SaaS Data Export](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview)
 
 ## Disabled services and features
 
