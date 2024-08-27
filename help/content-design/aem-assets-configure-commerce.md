@@ -138,13 +138,13 @@ The Commerce Services Connector enables data synchronization and communication b
 
 To transmit data between your Adobe Commerce instance and the services that enable the AEM Assets Integration, configure the Commerce Services Connector with the following:
 
-- Configure your Commerce instance with production and sandbox API keys for authentication.
-- Specify a data space (SaaS identifier) for secure cloud storage.
-- Sign into the same IMS organization that you use to access AEM Assets to establish the connection between your data set and the Adobe Experience Platform.
+- Production and sandbox API keys for authentication.
+- Set up a data space (SaaS identifier) for secure cloud storage.
+- Provide the IMS organization ID where your Commerce and AEM Assets environments are provisioned.
 
 For detailed instructions, see [Commerce Services Connector](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#organizationid).
 
-When you configure the Commerce Services Connector, the system generates the SaaS project and database Ids. You need these ids during the tenant onboarding process.
+After you configure the Commerce Services Connector, the system generates the SaaS project and database Ids and displays them in the Admin configuration. These ids are required to complete the onboarding process for asset synchronization.
 
 ![SaaS project and data space ids for AEM Assets integration](assets/aem-saas-project-config.png){width="600" zoomable="yes"}
 
@@ -159,8 +159,11 @@ The AEM Assets Integration uses the Adobe I/O Events service to send custom even
 - Ensure that RabbitMQ is enabled and listening for events.
   - [RabbitMQ Setup for Adobe Commerce on premises](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
   - [RabbitMQ Setup for Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
+  - Verify that [cron jobs are enabled](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration). Cron jobs are required for communication and workflows for the AEM Assets integration.
 
-- For projects on Commerce version 2.4.5, you must [install the Adobe I/O modules](https://developer.adobe.com/commerce/extensibility/events/installation/#install-adobe-io-modules-on-commerce). In Commerce version 2.4.6+, these modules are loaded automatically.
+>[!NOTE]
+>
+> For projects on Commerce version 2.4.5, you must [install the Adobe I/O modules](https://developer.adobe.com/commerce/extensibility/events/installation/#install-adobe-io-modules-on-commerce). In Commerce version 2.4.6+, these modules are loaded automatically.
 
 >[!ENDSHADEBOX]
 
@@ -175,10 +178,8 @@ Enable the eventing framework from the Commerce Admin.
 1. Set **[!UICONTROL Enabled]** to `Yes`.
 
    ![Adobe I/O Events Commerce Admin configuration - enable Commerce events](assets/aem-enable-io-event-admin-config.png){width="600" zoomable="yes"}
-
-   >[!NOTE]
-   >
-   >Verify that [cron jobs are enabled](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration). Cron jobs are required for Commerce to manage communication and workflows between AEM Assets and Commerce.
+   
+1. Enter the merchant company name in the **[!UICONTROL Merchant ID]** and the environment name in **[!UICONTROL Environment ID]** fields. Use only alphanumeric characters and underscores when setting these values.
 
 ## Get authentication credentials for API access
 
@@ -227,4 +228,3 @@ On the Integrations page, generate the OAuth authentication credentials by click
 >[!NOTE]
 >
 >You can also generate authentication credentials using the Adobe Commerce APIs. For details about this process and more information about OAuth-based authentication for Adobe Commerce, see [OAuth-based authentication](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) in the Adobe Developer documentation.
-
