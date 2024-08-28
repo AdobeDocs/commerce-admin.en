@@ -163,7 +163,7 @@ The AEM Assets Integration uses the Adobe I/O Events service to send custom even
 
 >[!NOTE]
 >
-> For projects on Commerce version 2.4.5, you must [install the Adobe I/O modules](https://developer.adobe.com/commerce/extensibility/events/installation/#install-adobe-io-modules-on-commerce). In Commerce version 2.4.6+, these modules are loaded automatically.
+> For projects on Commerce version 2.4.5, you must [install the Adobe I/O modules](https://developer.adobe.com/commerce/extensibility/events/installation/#install-adobe-io-modules-on-commerce). In Commerce version 2.4.6+, these modules are loaded automatically. For the AEM Assets integration for Commerce, you only need to install the modules. App Builder setup is not required.
 
 >[!ENDSHADEBOX]
 
