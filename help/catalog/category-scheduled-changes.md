@@ -66,4 +66,4 @@ Category updates can be applied on schedule, and grouped with other content chan
 
    >[!NOTE]
    >
-   >If a campaign is linked to more than 1 category, this campaign can be edited from the [Content Staging Dashboard](content-staging-dashboard.md) only.
+   >If a campaign is linked to more than 1 category, this campaign can be edited from the [Content Staging Dashboard](../content-design/content-staging-dashboard.md) only.
