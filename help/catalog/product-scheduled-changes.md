@@ -82,7 +82,7 @@ The scheduled change appears at the top of the product page, with the start and 
 
 >[!NOTE]
 >
->If campaign is linked to more than 1 product, this campaign can be edited from the [Content Staging Dashboard](content-staging-dashboard.md) only.
+>If a campaign is linked to more than 1 product, this campaign can be edited from the [Content Staging Dashboard](content-staging-dashboard.md) only.
 
 1. Click **[!UICONTROL Save]**.
 

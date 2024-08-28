@@ -68,7 +68,7 @@ If there are multiple price rules running in the same campaign, the Priority set
 
    >[!NOTE]
    >
-   >If campaign is linked to more than 1 catalog price rule, this campaign can be edited from the [Content Staging Dashboard](content-staging-dashboard.md) only.
+   >If a campaign is linked to more than 1 catalog price rule, this campaign can be edited from the [Content Staging Dashboard](content-staging-dashboard.md) only.
 
 1. Click **[!UICONTROL Save]**.
 

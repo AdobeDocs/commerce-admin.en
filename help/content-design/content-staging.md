@@ -51,7 +51,7 @@ When a new scheduled update is created for any of the following objects, a corre
 
    >[!NOTE]
    >
-   >If campaign is linked to more than 1 entity, it can be edited from the [Content Staging Dashboard](content-staging-dashboard.md) only.
+   >If a campaign is linked to more than 1 entity, it can be edited from the [Content Staging Dashboard](content-staging-dashboard.md) only.
 
    >[!NOTE]
    >
