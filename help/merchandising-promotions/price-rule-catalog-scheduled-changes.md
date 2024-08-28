@@ -66,6 +66,10 @@ If there are multiple price rules running in the same campaign, the Priority set
 
 1. Make any changes necessary to the scheduled update.
 
+   >[!NOTE]
+   >
+   >If campaign is linked to more than 1 catalog price rule, this campaign can be edited from the [Content Staging Dashboard](content-staging-dashboard.md) only.
+
 1. Click **[!UICONTROL Save]**.
 
 ## Preview the scheduled rule change

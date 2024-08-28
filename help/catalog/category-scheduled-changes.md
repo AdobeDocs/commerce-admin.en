@@ -63,3 +63,7 @@ Category updates can be applied on schedule, and grouped with other content chan
 1. Make the necessary changes to the scheduled update.
 
 1. When complete, click **[!UICONTROL Save]**.
+
+   >[!NOTE]
+   >
+   >If campaign is linked to more than 1 category, this campaign can be edited from the [Content Staging Dashboard](content-staging-dashboard.md) only.

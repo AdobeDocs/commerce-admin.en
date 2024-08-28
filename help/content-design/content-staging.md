@@ -32,7 +32,7 @@ When a new scheduled update is created for any of the following objects, a corre
 ## Content staging workflow
 
 1. **Create the baseline content**
-
+   
    The baseline is the content of an asset without a campaign and includes everything below the _[!UICONTROL Scheduled Changes]_ section at the top of the page. The baseline content is always used, unless there is an active campaign with changes scheduled for that place on the timeline.
 
 1. **Create the first campaign**
@@ -46,6 +46,12 @@ When a new scheduled update is created for any of the following objects, a corre
 1. **Add a second campaign**
 
    Create the second campaign, with the start and end dates as needed. The second campaign can be assigned to an entirely different time period. When creating multiple campaigns for the same asset, the campaigns cannot overlap. You can create as many campaigns as needed.
+
+   Multiple assets can be assigned to an existing campaign, which is not started yet. For example, 2 different product prices can be updated in scope of the same campaign with future start date.
+
+   >[!NOTE]
+   >
+   >If campaign is linked to more than 1 entity, it can be edited from the [Content Staging Dashboard](content-staging-dashboard.md) only.
 
    >[!NOTE]
    >

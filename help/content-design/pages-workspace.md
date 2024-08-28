@@ -196,6 +196,10 @@ Page changes can be applied on schedule, and grouped with other content changes.
 
 >[!NOTE]
 >
+>If campaign is linked to more than 1 page, this campaign can be edited from the [Content Staging Dashboard](content-staging-dashboard.md) only.
+
+>[!NOTE]
+>
 >The [!UICONTROL Custom Design Update] tab has been removed in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce and cannot be modified directly on the page. You must create a scheduled update for these activations.
 
 >[!NOTE]
