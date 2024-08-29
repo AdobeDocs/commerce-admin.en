@@ -10,6 +10,10 @@ feature: Merchandising, Price Rules, Shopping Cart
 
 Cart price rules can be applied on schedule as part of a campaign and grouped with other content changes. You can create a campaign based on scheduled changes to a price rule, or apply the changes to an existing campaign.
 
+>[!NOTE]
+>
+>The [!UICONTROL From] and [!UICONTROL To] fields have been removed in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce and cannot be modified directly on the cart price rule. You must create a scheduled update for these activations.
+
 ![Cart price rules - scheduled changes](./assets/content-staging-price-rules-cart-scheduled-changes.png){width="700" zoomable="yes"}
 
 >[!NOTE]

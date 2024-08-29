@@ -66,7 +66,7 @@ During the second step of the checkout process, the customer chooses the [paymen
 
 ### Review and Payments - Purchase Order
 
-![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce only)
+![Adobe Commerce B2B](../assets/b2b.svg) (Available with Adobe Commerce B2B only)
 
 When a customer is associated with a company that has enabled [purchase orders](../b2b/purchase-order-flow.md), all orders are processed as purchase orders. Available payment methods are determined by the company account settings.
 
