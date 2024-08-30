@@ -56,7 +56,7 @@ The buyer and seller can continue the negotiation process until an agreement is 
 
 - **Buyer adds a shipping address** - The buyer can add a shipping address to the quote. After the buyer adds the address, the seller can provide shipping and delivery options. The shipping methods shown depend on the Storefront configuration.
 
-If the buyer adds a shipping address, the negotiation agreement has to be reviewed, and seller can continue the negotiation process until an agreement is reached, or the seller declines the quote.
+If the buyer adds a shipping address, the negotiation agreement has to be reviewed, and the seller can continue the negotiation process until an agreement is reached, or the seller declines the quote.
 
 **Step 3: Buyer accepts quote (Checkout)**
 
