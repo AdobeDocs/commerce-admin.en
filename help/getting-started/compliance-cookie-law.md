@@ -67,7 +67,7 @@ Some of these cookies may provide configuration options, including enable/disabl
  
 #### `add_to_cart` 
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Used by Google Tag Manager. Captures the product SKU, name, price and quantity removed from the cart, and makes the information available for future integration by third-party scripts.
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Captures the product SKU, name, price, and quantity removed from the cart. This cookie allows Google Analytics to know when a product has been added to a cart. 
 
 #### `guest-view`
 
@@ -101,24 +101,6 @@ There is not an option to disable this cookie.
 - HTTP Only: No
 - Expiration Policy: Duration 1 year. Cleared on frontend when the message is displayed to the user.
 - Module: `Magento_Theme`
-
-#### `mage-translation-storage` (local storage)
-
-Stores translated content when requested by the shopper. Used when [Translation Strategy](../configuration-reference/advanced/developer.md) is configured as "Dictionary (Translation on Storefront side)".
-
-- Is Secure? No
-- HTTP Only: No
-- Expiration Policy: Per local storage rules
-- Module: `Magento_Translation`
-
-#### `mage-translation-file-version` (local storage)
-
-Tracks the version of translations in local storage. Used when [Translation Strategy](../configuration-reference/advanced/developer.md) is configured as `Dictionary (Translation on Storefront side)`.
-
-- Is Secure? No
-- HTTP Only: No
-- Expiration Policy: Per local storage rules
-- Module: `Magento_Translation`
 
 #### `product_data_storage` (local storage)
 
