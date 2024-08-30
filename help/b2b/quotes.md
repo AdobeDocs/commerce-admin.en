@@ -154,7 +154,7 @@ Only quote requests with an `Open` status can be declined.
 
 The following figure shows an example of the quote detail view in the Admin with some settings configured.
 
-![Example quote](./assets/quote-example.png){width="700" zoomable="yes"}
+![Example quote](./assets/quote-full.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
