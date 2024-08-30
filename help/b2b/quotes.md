@@ -50,7 +50,7 @@ Reviewing or negotiating a quote can include changing quantities, removing items
 
 - **Seller views request and sends response** - In the Admin, the seller views the request for a quote. On the storefront, the status of the quote changes to `Pending`, and the buyer cannot make any changes. The [seller responds](quote-price-negotiation.md) by offering price discounts and adjusting quantities and items as needed, enters a comment, and sends the quote back to the buyer. The buyer and sales representative are notified by email that the seller has responded.
 
-- **Buyer views quote from seller and sends response** - The buyer clicks the link in the email notification to open the quote, or opens the quote from the _My Quotes_ page of the account dashboard. The buyer can leave notes to the seller at the line item or quote level and remove items.
+- **Buyer views quote from seller and sends response** - The buyer clicks the link in the email notification to open the quote, or opens the quote from the _My Quotes_ page of the account dashboard. The buyer can leave notes to the seller at the line item or quote level, change quantities, and remove items.
 
 The buyer and seller can continue the negotiation process until an agreement is reached, or the seller declines the quote. If the buyer makes changes to the quote—adding or removing products or changing product quantities—the quote must be returned to the seller for review.
 
