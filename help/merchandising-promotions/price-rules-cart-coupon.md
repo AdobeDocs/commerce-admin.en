@@ -16,6 +16,10 @@ Coupon codes can be sent by email, or included in newsletters, catalogs, and adv
 
 As of Commerce 2.4.7, shoppers can apply multiple coupons to a cart. Merchants can also apply multiple coupons using shopping assistance.
 
+   >[!NOTE]
+   >
+   >Cart price rules that have the same priority do not result in a combined discount. Each rule (coupon) is applied to matching products separately, one-by-one, according to the cart price rule ID in the database. To control the discount applying order it is recommended to set the different priority for each added cart price rule.
+
 ## Configure coupon codes
 
 The length and format of automatically generated coupon codes is controlled by the configuration. The characters can be set to all numbers, all letters, or a combination. You can insert a dash at set intervals to make it easy to read, and add a prefix and suffix to associate the code with a specific campaign or initiative.
