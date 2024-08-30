@@ -54,7 +54,7 @@ Reviewing or negotiating a quote can include changing quantities, removing items
 
 The buyer and seller can continue the negotiation process until an agreement is reached, or the seller declines the quote. If the buyer makes changes to the quote—adding or removing products or changing product quantities—the quote must be returned to the seller for review.
 
-- **Buyer adds a shipping address** - The buyer can add a shipping address to the quote. However, once buyer adds the address, seller can provide shipping and delivery options. The shipping methods shown depend on the Storefront configuration.
+- **Buyer adds a shipping address** - The buyer can add a shipping address to the quote. After the buyer adds the address, the seller can provide shipping and delivery options. The shipping methods shown depend on the Storefront configuration.
 
 If the buyer adds a shipping address, the negotiation agreement has to be reviewed, and seller can continue the negotiation process until an agreement is reached, or the seller declines the quote.
 
