@@ -46,7 +46,7 @@ This diagram shows the quote statuses for a buyer and seller (Admin) in the diff
 
 **Step 2: Quote review and negotiation (Review)**
 
-Reviewing or negotiating a quote can include changing quantities, adding shipping addresses, adding line item comments.
+Reviewing or negotiating a quote can include changing quantities, removing items, adding line item comments, applying line item or quote discounts (seller), and adding a shipping address (buyer).
 
 - **Seller views request and sends response** - In the Admin, the seller views the request for a quote. The status of the quote changes to `Pending`, and the buyer cannot make any changes. The [seller responds](quote-price-negotiation.md) by offering discounted pricing for the products in the quote, enters a comment, and sends the quote back to the buyer. The buyer and sales representative are notified by email that the seller has responded.
 
