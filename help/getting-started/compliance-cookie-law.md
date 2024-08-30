@@ -71,7 +71,7 @@ Some of these cookies may provide configuration options, including enable/disabl
 
 #### `guest-view`
 
-Stores the Order ID that guest shoppers use to retrieve their order status. Guest orders view. Used in _[!DNL Orders and Returns]_ widgets.
+Links a guest order to a guest (because we don't have an account for guest).
 
 - Is Secure? No
 - HTTP Only: Yes
@@ -80,7 +80,7 @@ Stores the Order ID that guest shoppers use to retrieve their order status. Gues
 
 #### `login_redirect`
 
-Preserves the destination page that was loading before the customer was directed to log in. A login redirect is used with the mini cart for logged-in customers if the [Display Mini Cart](../stores-purchase/cart-configuration.md#mini-cart) configuration option is set to `Yes`.
+Saves redirect URL to route user in case of successful login and user registration. This cookie saves the page a user was on prior to login (to determine the location they will go back to after they login).
 
 - Is Secure? No
 - HTTP Only: No
@@ -89,13 +89,11 @@ Preserves the destination page that was loading before the customer was directed
 
 #### `mage-banners-cache-storage`
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Stores banner content locally to improve performance.
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Stores banner content locally to improve performance. Banner content is any content that a merchant would display on their website.
 
 #### `mage-messages`
 
-Tracks error messages and other notifications that are shown to the user, such as the cookie consent message, and various error messages. The message is deleted from the cookie after it is shown to the shopper.
-
-There is not an option to disable this cookie.
+Tracks error messages and other notifications that are shown to the user, such as the cookie consent message, and various error messages. The message is deleted from the cookie after it is shown to the shopper. There is not an option to disable this cookie. This is how one-time information is communicated to the user, such as error messages.
 
 - Is Secure? No
 - HTTP Only: No
@@ -104,7 +102,7 @@ There is not an option to disable this cookie.
 
 #### `product_data_storage` (local storage)
 
-Stores configuration for product data related to Recently Viewed / Compared Products.
+Stores configuration for product data used to use "Recently Viewed" and "Compare Products" functions. Stores a user's specific settings (for example, if they have recently viewed a product or compared products).
 
 - Is Secure? No
 - HTTP Only: No
@@ -140,7 +138,7 @@ Stores product IDs of recently viewed products for easy navigation.
 
 #### `recently_viewed_product_previous` (local storage)
 
-Stores product IDs of recently previously viewed products for easy navigation.
+Stores product IDs of recently viewed products for easy navigation.
 
 - Is Secure? No
 - HTTP Only: No
@@ -149,11 +147,11 @@ Stores product IDs of recently previously viewed products for easy navigation.
 
 #### `remove_from_cart`
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Used by [Google Tag Manager](../merchandising-promotions/google-tag-manager.md). Captures the product SKU, name, price, and quantity added to the cart, and makes the information available for future integration by third-party scripts.
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Allows Google Analytics to know when a product has been removed from a cart.
 
 #### `stf`
 
-Records the time messages are sent by the SendFriend ([Email a Friend](../stores-purchase/email-a-friend.md)) module.
+Records the time messages are sent by the SendFriend ([Email a Friend](../stores-purchase/email-a-friend.md)) module. When a shopper sends a link to a product, this cookie records a time-stamp and maintains a contains a count.
 
 - Is Secure? Yes
 - HTTP Only: Yes
@@ -162,7 +160,7 @@ Records the time messages are sent by the SendFriend ([Email a Friend](../stores
 
 #### `X-Magento-Vary`
 
-Configuration setting that improves performance when using Varnish static content caching.
+Indicates when a new version of a page needs to served from the cache. Supports website performance.
 
 - Is Secure? Yes
 - HTTP Only: Yes
@@ -171,7 +169,7 @@ Configuration setting that improves performance when using Varnish static conten
 
 #### `form_key`
 
-A security measure that appends a random string to all form submissions to protect the data from Cross-Site Request Forgery (CSRF).
+A security mechanism that holds a randomly generated value to prevent Cross Site Request Forgery attacks (CSRF) by helping determine whether a request came from a genuine source or a bad actor. This is an industry-standard practice to prevent CSRF attacks.
 
 - Is Secure? No
 - HTTP Only: No
@@ -182,7 +180,7 @@ A security measure that appends a random string to all form submissions to prote
 
 #### `mage-cache-sessid`
 
-The value of this cookie triggers the cleanup of local cache storage. When the cookie is removed by the backend application, the Admin cleans up local storage, and sets the cookie value to `true`.
+Useful in determining when to clean local storage in the browser after session expiry. This is used to determine if local storage has to be cleaned. The absence of this cookie triggers local storage cleanup.
 
 - Is Secure? No
 - HTTP Only: No
@@ -191,25 +189,16 @@ The value of this cookie triggers the cleanup of local cache storage. When the c
 
 #### `mage-cache-storage`
 
-Local storage of visitor-specific content that enables ecommerce functions.
+Local storage of visitor-specific content that enables e-commerce functions. This cookie is unused by default but, when it is used, it's used to expedite checkout so that basic user information is available when someone leaves and returns.
 
 - Is Secure? No
 - HTTP Only: No
 - Expiration Policy: Session
 - Module: `Magento_Customer`, `Magento_Persistent`
 
-#### `mage-cache-storage` (local storage)
+#### `mage-cache-storage-section-invalidation`
 
-Local storage of visitor-specific content that enables ecommerce functions.
-
-- Is Secure? No
-- HTTP Only: No
-- Expiration Policy: Session
-- Module: `Magento_Customer`, `Magento_Persistent`, `Magento_NegotiableQuote`
-
-#### `mage-cache-storage-section-invalidation` (local storage)
-
-Forces local storage of specific content sections that should be invalidated.
+Stores information related to which sections of page need to be invalidated and removed.
 
 - Is Secure? No
 - HTTP Only: No
@@ -218,7 +207,7 @@ Forces local storage of specific content sections that should be invalidated.
 
 #### `persistent_shopping_cart`
 
-Stores the key (ID) of persistent cart to make it possible to restore the cart for an anonymous shopper.
+Stores the key ID of persistent cart to make it possible to restore the cart for an anonymous shopper.
 
 - Is Secure? Yes
 - HTTP Only: Yes
@@ -227,11 +216,7 @@ Stores the key (ID) of persistent cart to make it possible to restore the cart f
 
 #### `private_content_version`
 
-Appends a random, unique number and time to pages with customer content to prevent them from being cached on the server.
-
-It is set in multiple places: in PHP, in JavaScript as a cookie, and in JavaScript to local storage.
-
-For HTTP Only=`Yes` (based on request), it means that the cookie is secure if set during HTTPS request and unsecure if set during HTTP request.
+Appends a random, unique number and time to pages with customer content to prevent them from being cached on the server. It is set in multiple places: in PHP, in JavaScript as a cookie, and in JavaScript to local storage.
 
 - Is Secure? `Yes` (based on request), `No`
 - HTTP Only: `No`
@@ -252,46 +237,73 @@ Stores customer-specific information related to shopper-initiated actions, such 
 
 #### `store`
 
-Tracks the specific store view / locale selected by the shopper.
+Tracks the specific store view/locale selected by the shopper.
 
 - Is Secure? `No`
 - HTTP Only: `Yes`
 - Expiration Policy: `1` year
 - Module: `Magento_Store`
 
-#### `mage-banners-cache-storage` - local storage
+#### `mage-banners-cache-storage`
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Local storage for Banner functionality.
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Local storage for Banner functionality. Banner means general website assets any information displayed to a shopper.
 
 - Is Secure? `No`
 - HTTP Only: `No`
 - Expiration Policy: Per local storage rules
 - Module: `Magento_Banner`
 
-## Google Analytics cookies
+#### `PHPSESSID`
 
-The following cookies are used when [Google Analytics](../merchandising-promotions/google-analytics.md) or Google Universal Analytics is fully enabled for your installation. To disable these cookies for privacy regulation compliance, see [Google Privacy Settings](../merchandising-promotions/google-tools.md#google-privacy-settings). To learn more, see [Google Analytics Cookie Usage on Websites][1].
+Tracks user sessions on storefront. This is the shoppers who use the end-products.
 
-### Google Universal Analytics cookies  - non-exempt
+#### `admin`
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) JavaScript Libraries: `gtag.js` and `analytics.js`
+Tracks user sessions on the Admin side.
 
-- `_ga`: Distinguishes visitors to your site.
-- `_gid`: Distinguishes visitors to your site.
-- `gat`: Used to throttle request rate.
-- `dc_gtm_<property-id>`: Throttles request rate when Google Analytics is deployed with [Google Tag Manager](../merchandising-promotions/google-tag-manager.md).
-- `AMP_TOKEN`: Contains a token that can be used to retrieve a Client ID from AMP Client ID service. Other possible values include opt-out, inflight request, or an error retrieving a Client ID from  AMP Client ID service.
-- `_gac_<property-id>`: Contains campaign-related information for the user. Google AdWords conversion tags read this cookie if Google Analytics is linked to your [AdWords][2] account.
+#### `loggedOutReasonCode`
 
-### Google Analytics cookies - non-exempt
+Cookie is set when an Admin user is locked out a after certain number of unsuccessful password attempts.
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) JavaScript Library: `ga.js`
+#### `section_data_clean`
 
-- `__utma`: Distinguishes shoppers and sessions. This cookie is created when the JavaScript library executes and there is no existing `__utma` cookie. The cookie is updated every time data is sent to Google Analytics.
-- `__utmt`: Used to throttle request rate.
-- `__utmb`: Determines new sessions/visits. This cookie is created when the JavaScript library executes and there is no existing `__utmb` cookie. The cookie is updated every time data is sent to Google Analytics.
-- `_utmz`: Saves the traffic source or campaign that explains how the shopper reached your site. The cookie is created when the JavaScript library executes, and is updated every time data is sent to Google Analytics.
-- `__utmv`: Stores visitor-level custom variable data. This cookie is created when a developer uses the `_setCustomVar` method with a visitor-level custom variable. This cookie is updated every time data is sent to Google Analytics.
+Cookie is set when a user switches store view. The presence of this cookie triggers JavaScript to reload certain sections on the page to reflect the correct store view.
+
+#### `lang`
+
+Set indirectly by the Admin Analytics module. Being used only in an administrative area of a store. Not applicable to shoppers. Only to track our customers' employee usage.
+
+#### `s_fid`
+
+Set indirectly by the Admin Analytics module. Fallback unique visitor ID time/date stamp. It is used to identify a unique visitor if the standard `s_vi` cookie is unavailable due to third-party cookie restrictions. Being used only in an administrative area of a store. Not applicable to shoppers. Only to track our customers' employee usage.
+
+#### `s_cc`
+
+Set indirectly by the Admin Analytics module. It is set and read by the JavaScript code to determine if cookies are enabled. Being used only in an administrative area of a store. Not applicable to shoppers. Only to track our customers' employee usage.
+
+#### `apt.sid`
+
+Set by the Gainsight PX library indirectly used by the Admin Analytics module. The purpose of this cookie is to allow persistent session ID tracking under the top-level domain of the product and is used as a reference ID to the active session. Being used only in an administrative area of a store. Not applicable to shoppers. Only to track our customers' employee usage.
+
+#### `apt.uid`
+
+Set by the Gainsight PX library indirectly used by the Admin Analytics module. The purpose of this cookie is to allow persistent ID tracking under the top-level domain of the product and is used as a reference ID to the user entity. Being used only in an administrative area of a store. Not applicable to shoppers. Only to track our customers' employee usage.
+
+#### `s_sq`
+
+Set indirectly by the Admin Analytics module. Used by the ClickMap feature that collects data on where visitors click and what they click. Stores information from each click. Being used only in an administrative area of a store. Not applicable to shoppers. Only to track our customers' employee usage.
+
+#### `pagebuilder_modal_dismissed`
+
+Set by the PageBuilder Module. Contains a flag that prevents subsequent prompts asking an admin to confirm a certain action from opening if the admin explicitly dismissed them before. Being used only in an administrative area of a store. Not applicable to shoppers. Only relevant to our customers' employee usage.
+
+#### `pagebuilder_template_apply_confirm`
+
+Set by the PageBuilder Module. Contains a flag that prevents subsequent prompts asking an admin to confirm a certain action from opening if the admin explicitly dismissed them before. Being used only in an administrative area of a store. Not applicable to shoppers. Only relevant to our customers' employee usage.
+
+#### `accordion-{VARIABLE}-{VARIABLE}`
+
+Being used as a part of tabs functionality implementation only in an administrative area of a store. Not applicable to shoppers.
 
 ## Product Recommendations cookies
 
