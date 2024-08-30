@@ -60,7 +60,7 @@ If the buyer adds a shipping address, the negotiation agreement has to be review
 
 **Step 3: Buyer accepts quote (Checkout)**
 
-The buyer accepts the proposed price and continues to checkout. Additional discounts cannot be added to the negotiated quote.
+The buyer accepts the proposed price and proceeds to checkout. Additional discounts cannot be added to the negotiated quote.
 
 Shipping options are locked on checkout.
 
