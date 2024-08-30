@@ -48,7 +48,7 @@ Your [privacy policy](privacy-policy.md)) should include the name of your store 
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-1. When prompted to update the cache, click the **[!UICONTROL Cache Management]** link in the system message. Then, refresh each invalid cache.
+1. When prompted to update the cache, click the **[!UICONTROL Cache Management]** link in the system message and refresh each invalid cache.
 
 ### Step 2: Update your privacy policy
 
@@ -56,9 +56,9 @@ Update your [privacy policy](privacy-policy.md) so that it reflects the informat
 
 ## Default cookies
 
-The default cookies in Adobe Commerce and Magento Open Source are classified as Exempt / Non-Exempt to help merchants meet the requirements of privacy regulations such as the [GDPR](compliance-gdpr.md). Merchants should use this information as a guide, and consult with legal advisors to update their Privacy and Cookie Policies as part of a comprehensive privacy regulation compliance strategy.
+The default cookies in Adobe Commerce and Magento Open Source are classified as Exempt/Non-Exempt to help merchants meet the requirements of privacy regulations such as the [GDPR](compliance-gdpr.md). Merchants should use this information as a guide, and consult with legal advisors to update their Privacy and Cookie Policies as part of a comprehensive privacy regulation compliance strategy.
 
-The following cookies are used by [!DNL Commerce] "out of the box" for on-premise and cloud installations. These cookies may be required by functionality that is explicitly requested by the customer. To learn about the lifetime of session cookies, see [Session Lifetime](../customers/customer-online-options.md).
+The following cookies are used by [!DNL Commerce] "out of the box" for on-premise and cloud installations. These cookies may be required by functionality that is explicitly requested by the customer. To learn more about the lifetime of session cookies, see [Session Lifetime](../customers/customer-online-options.md).
 
 Some of these cookies may provide configuration options, including enable/disable, as needed.
 
@@ -66,15 +66,15 @@ Some of these cookies may provide configuration options, including enable/disabl
  
 #### `add_to_cart` 
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Captures the product SKU, name, price, and quantity removed from the cart. This cookie allows Google Analytics to know when a product has been added to a cart. 
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Captures the product SKU, name, price, and quantity removed from the cart. Allows Google Analytics to know when a product has been added to a cart. 
 
 #### `guest-view`
 
-Links a guest order to a guest (because we don't have an account for guest).
+Links a guest order to a guest (because there is no account for guest).
 
 #### `login_redirect`
 
-Saves redirect URL to route user in case of successful login and user registration. This cookie saves the page a user was on prior to login (to determine the location they will go back to after they login).
+Saves redirect URL to route user if successful login and user registration. Saves the page that a user was on prior to log in (to determine the location they will go back to after they log in).
 
 #### `mage-banners-cache-storage`
 
@@ -110,11 +110,11 @@ Stores product IDs of recently viewed products for easy navigation.
 
 #### `stf`
 
-Records the time messages are sent by the SendFriend ([Email a Friend](../stores-purchase/email-a-friend.md)) module. When a shopper sends a link to a product, this cookie records a time-stamp and maintains a contains a count.
+Records the time messages are sent by the SendFriend ([Email a Friend](../stores-purchase/email-a-friend.md)) module. When a shopper sends a link to a product, this cookie records a time-stamp and maintains a count.
 
 #### `X-Magento-Vary`
 
-Indicates when a new version of a page needs to served from the cache. Supports website performance.
+Indicates when a new version of a page needs to be served from the cache. Supports website performance.
 
 #### `form_key`
 
@@ -126,15 +126,15 @@ Useful in determining when to clean local storage in the browser after session e
 
 #### `mage-cache-storage`
 
-Local storage of visitor-specific content that enables e-commerce functions. This cookie is unused by default but, when it is used, it's used to expedite checkout so that basic user information is available when someone leaves and returns.
+Local storage of visitor-specific content that enables e-commerce functions. Unused by default, but when it is used, it's used to expedite checkout so that basic user information is available when someone leaves and returns.
 
 #### `mage-cache-storage-section-invalidation`
 
-Stores information related to which sections of page need to be invalidated and removed
+Stores information related to which sections of the page need to be invalidated and removed.
 
 #### `persistent_shopping_cart`
 
-Stores the key ID of persistent cart to make it possible to restore the cart for an anonymous shopper.
+Stores the key ID of a persistent cart to make it possible to restore the cart for an anonymous shopper.
 
 #### `private_content_version`
 
@@ -154,7 +154,7 @@ Tracks the specific store view/locale selected by the shopper.
 
 #### `PHPSESSID`
 
-Tracks user sessions on storefront. This is the shoppers who use the end-products.
+Tracks user sessions on the storefront. This is the shoppers who use the end-products.
 
 #### `admin`
 
@@ -162,43 +162,43 @@ Tracks user sessions on the Admin side.
 
 #### `loggedOutReasonCode`
 
-Cookie is set when an Admin user is locked out a after certain number of unsuccessful password attempts.
+Set when an Admin user is locked out after a certain number of unsuccessful password attempts.
 
 #### `section_data_clean`
 
-Cookie is set when a user switches store view. The presence of this cookie triggers JavaScript to reload certain sections on the page to reflect the correct store view.
+Set when a user switches store view. The presence of this cookie triggers JavaScript to reload certain sections on the page to reflect the correct store view.
 
 #### `lang`
 
-Set indirectly by the Admin Analytics module. Being used only in an administrative area of a store. Not applicable to shoppers. Only to track our customers' employee usage.
+Set indirectly by the Admin Analytics module. Being used only in an administrative area of a store. Not applicable to shoppers.
 
 #### `s_fid`
 
-Set indirectly by the Admin Analytics module. Fallback unique visitor ID time/date stamp. It is used to identify a unique visitor if the standard `s_vi` cookie is unavailable due to third-party cookie restrictions. Being used only in an administrative area of a store. Not applicable to shoppers. Only to track our customers' employee usage.
+Set indirectly by the Admin Analytics module. Fallback unique visitor ID time/date stamp. It is used to identify a unique visitor if the standard `s_vi` cookie is unavailable due to third-party cookie restrictions. Being used only in an administrative area of a store. Not applicable to shoppers.
 
 #### `s_cc`
 
-Set indirectly by the Admin Analytics module. It is set and read by the JavaScript code to determine if cookies are enabled. Being used only in an administrative area of a store. Not applicable to shoppers. Only to track our customers' employee usage.
+Set indirectly by the Admin Analytics module. It is set and read by the JavaScript code to determine if cookies are enabled. Being used only in an administrative area of a store. Not applicable to shoppers.
 
 #### `apt.sid`
 
-Set by the Gainsight PX library indirectly used by the Admin Analytics module. The purpose of this cookie is to allow persistent session ID tracking under the top-level domain of the product and is used as a reference ID to the active session. Being used only in an administrative area of a store. Not applicable to shoppers. Only to track our customers' employee usage.
+Set by the Gainsight PX library indirectly used by the Admin Analytics module. The purpose of this cookie is to allow persistent session ID tracking under the top-level domain of the product and is used as a reference ID to the active session. Being used only in an administrative area of a store. Not applicable to shoppers.
 
 #### `apt.uid`
 
-Set by the Gainsight PX library indirectly used by the Admin Analytics module. The purpose of this cookie is to allow persistent ID tracking under the top-level domain of the product and is used as a reference ID to the user entity. Being used only in an administrative area of a store. Not applicable to shoppers. Only to track our customers' employee usage.
+Set by the Gainsight PX library indirectly used by the Admin Analytics module. The purpose of this cookie is to allow persistent ID tracking under the top-level domain of the product and is used as a reference ID to the user entity. Being used only in an administrative area of a store. Not applicable to shoppers.
 
 #### `s_sq`
 
-Set indirectly by the Admin Analytics module. Used by the ClickMap feature that collects data on where visitors click and what they click. Stores information from each click. Being used only in an administrative area of a store. Not applicable to shoppers. Only to track our customers' employee usage.
+Set indirectly by the Admin Analytics module. Used by the ClickMap feature that collects data on where visitors click and what they click. Stores information from each click. Being used only in an administrative area of a store. Not applicable to shoppers.
 
 #### `pagebuilder_modal_dismissed`
 
-Set by the PageBuilder Module. Contains a flag that prevents subsequent prompts asking an admin to confirm a certain action from opening if the admin explicitly dismissed them before. Being used only in an administrative area of a store. Not applicable to shoppers. Only relevant to our customers' employee usage.
+Set by the Page Builder Module. Contains a flag that prevents subsequent prompts asking an admin to confirm a certain action from opening if the admin explicitly dismissed them before. Being used only in an administrative area of a store. Not applicable to shoppers.
 
 #### `pagebuilder_template_apply_confirm`
 
-Set by the PageBuilder Module. Contains a flag that prevents subsequent prompts asking an admin to confirm a certain action from opening if the admin explicitly dismissed them before. Being used only in an administrative area of a store. Not applicable to shoppers. Only relevant to our customers' employee usage.
+Set by the Page Builder Module. Contains a flag that prevents subsequent prompts asking an admin to confirm a certain action from opening if the admin explicitly dismissed them before. Being used only in an administrative area of a store. Not applicable to shoppers.
 
 #### `accordion-{VARIABLE}-{VARIABLE}`
 
@@ -206,9 +206,9 @@ Being used as a part of tabs functionality implementation only in an administrat
 
 ## Product Recommendations cookies
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) The following cookies are used by Product Recommendations for Adobe Commerce customers. These cookies are installed with the [DataServices module](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html).
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) The following cookies are used by Product Recommendations for Adobe Commerce customers. These cookies are installed with the [DataServices module](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure).
 
-- `mg_dnt`: Allows you to [restrict Adobe Commerce data collection](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/developer/setting-cookie.html) if you have custom code to manage cookie consent on your site.
+- `mg_dnt`: Allows you to [restrict Adobe Commerce data collection](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/developer/setting-cookie) if you have custom code to manage cookie consent on your site.
 - `user_allowed_save_cookie`: Used for [cookie restriction mode](#cookie-restriction-mode).
 - `authentication_flag`: Indicates if a shopper has signed in or signed out. This cookie is updated at the same time as the `dataservices_customer_id` cookie.
 - `dataservices_customer_id`: Indicates if a shopper has signed in or signed out. This cookie contains the customer's unique ID in the system.
@@ -218,9 +218,9 @@ Being used as a part of tabs functionality implementation only in an administrat
 
 ## Additional cookies
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) The following cookies are set for Adobe Commerce customers. These cookies are installed with the [DataServices module](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html).
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) The following cookies are set for Adobe Commerce customers. These cookies are installed with the [DataServices module](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure).
 
-- `mg`: Set by Snowplow JavaScript tracker. More information can be found in the [Snowplow documentation](https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/javascript-trackers/javascript-tracker/javascript-tracker-v3/tracker-setup/initialization-options).
+- `mg`: Set by Snowplow JavaScript tracker. More information can be found in the [Snowplow documentation](https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/javascript-trackers/web-tracker/tracker-setup/initialization-options).
 - `com.adobe.alloy.getTld`: Given the current web page's hostname, this is the top-most domain that is not a "public suffix" as outlined in https://publicsuffix.org. Essentially, this is the top-most domain that can accept cookies. This cookie is part of the [Alloy Web SDK](https://github.com/adobe/alloy).
 
 [1]: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
