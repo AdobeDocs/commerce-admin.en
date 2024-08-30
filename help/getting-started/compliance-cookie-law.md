@@ -12,14 +12,6 @@ Cookies are small files that are saved to the computer of each visitor to your s
 >
 >If you modify the default [Google privacy settings](../merchandising-promotions/google-tools.md#google-privacy-settings) to comply with the [General Data Protection Regulation](compliance-gdpr.md), it is not necessary to obtain user consent for the use of Google Analytics cookies.
 
-## Method 1: Implied consent
-
-Implied consent means that visitors to your store have a clear understanding that cookies are a necessary part of operations, and by using your site, have indirectly granted permission to use them. The key to gaining implied consent is to provide enough information for a visitor to make an informed decision. Many stores display a message at the top of all standard pages that provides a brief overview of how cookies are used, with a link to the store's privacy policy. The privacy policy should describe the type of information that your store collects, and how it is used.
-
-## Method 2: Expressed consent
-
-Operating your store in _cookie restriction mode_ requires visitors to express their consent before any cookies can be saved to their computers. Unless consent is granted, many features of your store are unavailable. For example, if Google Analytics is available for your store, it can be invoked only after the visitor has granted permission to use cookies.
-
 ## Cookie restriction mode
 
 When cookie restriction mode is enabled, visitors to your store are notified that cookies are required for full-featured operations. Depending on your theme, the message might appear above the header, below the footer, or somewhere else on the page. The message links to your privacy policy for more information, and encourages visitors to click the Allow button to grant consent. After consent is granted, the message disappears.
