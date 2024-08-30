@@ -63,7 +63,6 @@ The following cookies are used by [!DNL Commerce] "out of the box" for on-premis
 Some of these cookies may provide configuration options, including enable/disable, as needed.
 
 ### Requested functionality cookies (exempt)
-
  
 #### `add_to_cart` 
 
@@ -73,19 +72,9 @@ Some of these cookies may provide configuration options, including enable/disabl
 
 Links a guest order to a guest (because we don't have an account for guest).
 
-- Is Secure? No
-- HTTP Only: Yes
-- Expiration Policy: Session
-- Module: `Magento_Sales`
-
 #### `login_redirect`
 
 Saves redirect URL to route user in case of successful login and user registration. This cookie saves the page a user was on prior to login (to determine the location they will go back to after they login).
-
-- Is Secure? No
-- HTTP Only: No
-- Expiration Policy: Session
-- Module: `Magento_Customer`
 
 #### `mage-banners-cache-storage`
 
@@ -95,55 +84,25 @@ Saves redirect URL to route user in case of successful login and user registrati
 
 Tracks error messages and other notifications that are shown to the user, such as the cookie consent message, and various error messages. The message is deleted from the cookie after it is shown to the shopper. There is not an option to disable this cookie. This is how one-time information is communicated to the user, such as error messages.
 
-- Is Secure? No
-- HTTP Only: No
-- Expiration Policy: Duration 1 year. Cleared on frontend when the message is displayed to the user.
-- Module: `Magento_Theme`
-
 #### `product_data_storage` (local storage)
 
 Stores configuration for product data used to use "Recently Viewed" and "Compare Products" functions. Stores a user's specific settings (for example, if they have recently viewed a product or compared products).
-
-- Is Secure? No
-- HTTP Only: No
-- Expiration Policy: Per local storage rules
-- Module: `Magento_Catalog`
 
 #### `recently_compared_product` (local storage)
 
 Stores product IDs of recently compared products.
 
-- Is Secure? No
-- HTTP Only: No
-- Expiration Policy: Per local storage rules
-- Module: `Magento_Catalog`
-
 #### `recently_compared_product_previous` (local storage)
 
 Stores product IDs of previously compared products for easy navigation.
-
-- Is Secure? No
-- HTTP Only: No
-- Expiration Policy: Per local storage rules
-- Module: `Magento_Catalog`
 
 #### `recently_viewed_product` (local storage)
 
 Stores product IDs of recently viewed products for easy navigation.
 
-- Is Secure? No
-- HTTP Only: No
-- Expiration Policy: Per local storage rules
-- Module: `Magento_Catalog`
-
 #### `recently_viewed_product_previous` (local storage)
 
 Stores product IDs of recently viewed products for easy navigation.
-
-- Is Secure? No
-- HTTP Only: No
-- Expiration Policy: Per local storage rules
-- Module: `Magento_Catalog`
 
 #### `remove_from_cart`
 
@@ -153,105 +112,45 @@ Stores product IDs of recently viewed products for easy navigation.
 
 Records the time messages are sent by the SendFriend ([Email a Friend](../stores-purchase/email-a-friend.md)) module. When a shopper sends a link to a product, this cookie records a time-stamp and maintains a contains a count.
 
-- Is Secure? Yes
-- HTTP Only: Yes
-- Expiration Policy: Session
-- Module: `Magento_SendFriend`
-
 #### `X-Magento-Vary`
 
 Indicates when a new version of a page needs to served from the cache. Supports website performance.
-
-- Is Secure? Yes
-- HTTP Only: Yes
-- Expiration Policy: Based on PHP setting session.cookie_lifetime
-- Module: `Magento_PageCache`
 
 #### `form_key`
 
 A security mechanism that holds a randomly generated value to prevent Cross Site Request Forgery attacks (CSRF) by helping determine whether a request came from a genuine source or a bad actor. This is an industry-standard practice to prevent CSRF attacks.
 
-- Is Secure? No
-- HTTP Only: No
-- Expiration Policy:
-    - PHP: Based on PHP setting session.cookie_lifetime
-    - JS: Session
-- Module: Page Cache
-
 #### `mage-cache-sessid`
 
 Useful in determining when to clean local storage in the browser after session expiry. This is used to determine if local storage has to be cleaned. The absence of this cookie triggers local storage cleanup.
-
-- Is Secure? No
-- HTTP Only: No
-- Expiration Policy: Session
-- Module: `Magento_Customer`
 
 #### `mage-cache-storage`
 
 Local storage of visitor-specific content that enables e-commerce functions. This cookie is unused by default but, when it is used, it's used to expedite checkout so that basic user information is available when someone leaves and returns.
 
-- Is Secure? No
-- HTTP Only: No
-- Expiration Policy: Session
-- Module: `Magento_Customer`, `Magento_Persistent`
-
 #### `mage-cache-storage-section-invalidation`
 
-Stores information related to which sections of page need to be invalidated and removed.
-
-- Is Secure? No
-- HTTP Only: No
-- Expiration Policy: Per local storage
-- Module: `Magento_Customer`
+Stores information related to which sections of page need to be invalidated and removed
 
 #### `persistent_shopping_cart`
 
 Stores the key ID of persistent cart to make it possible to restore the cart for an anonymous shopper.
 
-- Is Secure? Yes
-- HTTP Only: Yes
-- Expiration Policy: Based on [Persistent Shopping Cart](../stores-purchase/cart-persistent.md) - Persistence Lifetime (seconds) configuration
-- Module: `Magento_Persistent`
-
 #### `private_content_version`
 
 Appends a random, unique number and time to pages with customer content to prevent them from being cached on the server. It is set in multiple places: in PHP, in JavaScript as a cookie, and in JavaScript to local storage.
-
-- Is Secure? `Yes` (based on request), `No`
-- HTTP Only: `No`
-- Expiration Policy: Based on [Persistent Shopping Cart](../stores-purchase/cart-persistent.md) - Persistence Lifetime (seconds) configuration
-    - PHP: `1` year / `315360000s` (ten years)
-    - JS: `1` day
-    - JS local storage: Per local storage rules (forever)
-- Module: `Magento_PageCache`, `Magento_Customer`
 
 #### `section_data_ids`
 
 Stores customer-specific information related to shopper-initiated actions, such as wish list display and checkout information.
 
-- Is Secure? `No`
-- HTTP Only: `No`
-- Expiration Policy: `Session`
-- Module: `Magento_Customer`
-
 #### `store`
 
 Tracks the specific store view/locale selected by the shopper.
 
-- Is Secure? `No`
-- HTTP Only: `Yes`
-- Expiration Policy: `1` year
-- Module: `Magento_Store`
-
 #### `mage-banners-cache-storage`
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Local storage for Banner functionality. Banner means general website assets any information displayed to a shopper.
-
-- Is Secure? `No`
-- HTTP Only: `No`
-- Expiration Policy: Per local storage rules
-- Module: `Magento_Banner`
 
 #### `PHPSESSID`
 
