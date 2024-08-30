@@ -18,7 +18,7 @@ As of Commerce 2.4.7, shoppers can apply multiple coupons to a cart. Merchants c
 
    >[!NOTE]
    >
-   >Cart price rules that have the same priority do not result in a combined discount. Each rule (coupon) is applied to matching products separately, one-by-one, according to the cart price rule ID in the database. To control the discount applying order it is recommended to set the different priority for each added cart price rule.
+   >Cart price rules that have the same priority do not result in a combined discount. Each rule (coupon) is applied to matching products separately, one-by-one, according to the cart price rule ID in the database. To control the discount applying order, it is recommended to set the different priority for each added cart price rule.
 
 ## Configure coupon codes
 
