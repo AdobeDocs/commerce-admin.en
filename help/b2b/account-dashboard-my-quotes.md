@@ -13,33 +13,44 @@ If quotes are enabled, the _[!UICONTROL My Quotes]_ section of the customer acco
 
 The buyer begins the process by [submitting a request](quote-request.md) for a quote from the shopping cart. Email is exchanged between the buyer and seller during the [negotiation process](quote-price-negotiation.md). For the buyer, the [!UICONTROL My Quotes] page is the focal point for all communication between buyer and seller during the negotiation process. A buyer who accepts the negotiated price offered by the seller can proceed directly to the checkout page from the quote. Additional discounts cannot be added to the negotiated quote.
 
-A buyer can complete the following actions when negotiating a quote:
+When negotiating a quote, a buyer has several options to either manage the quote or update the quote detail.
 
-* Review item pricing and updates
-* Track the negotiation process from [!UICONTROL Comments] and [!UICONTROL History] sections
-* Modify the quote to remove items
-* Communicate and negotiate with the seller by adding notes at the line item and quote level
-* Send quote to seller for review
-* Convert the quote to an order if the terms are acceptable
-* Create a copy of the quote
-* Move line items to a requisition list
-* Add a shipping address
-* Close the quote
-* Delete the quote
-* Rename the quote
+* Actions related to managing the quote:
+
+   * Create a copy of the quote
+   * Close the quote
+   * Delete the quote
+   * Rename the quote
+   * Print the quote
+   * Create a template
+
+* Actions for updating quote detail:
+
+  * Review item pricing and updates
+  * Track the negotiation process from [!UICONTROL Comments] and [!UICONTROL History] sections
+  * Modify the quote to remove items
+  * Communicate and negotiate with the seller by adding notes at the line item and quote level
+  * Add a shipping address
+  * Move line items to a requisition list
+  * Convert the quote to an order if the terms are acceptable
+
+* General actions during negotiation:
+
+  * Send quote to seller for review
+  * Proceed to Checkout
 
 The following example shows a quote that has been updated by the buyer and sent back to the seller for review.
 
 
-![Buyer view of quote](./assets/account-dashboard-my-quote-detail.png){width="700" zoomable="yes"}
+![Buyer view of quote](./assets/account-dashboard-my-quote-detailed.png){width="700" zoomable="yes"}
 
 Quotes with the `Updated` status are locked until the seller returns the quote.
 
 ## Show quotes
 
-With the required [permissions for their role](account-company-roles-permissions.md), customers associated with a company account can see quotes requested by [subordinate users](account-company-structure.md). Company administrators can see all quotes for the company account.
+With the required [permissions for their role](account-company-roles-permissions.md), buyers associated with a company account can see quotes requested by [subordinate users](account-company-structure.md). Company administrators can see all quotes for the company account.
 
-1. The customer logs in to their account on the storefront.
+1. The buyer logs in to their account on the storefront.
 
 1. Clicks **[!UICONTROL My Quotes]** in the left navigation.
 
@@ -49,7 +60,7 @@ With the required [permissions for their role](account-company-roles-permissions
 
 ## View a quote
 
-1. The customer logs in to their account.
+1. The buyer logs in to their account.
 
 1. In the left panel, chooses **[!UICONTROL My Quotes]**.
 
@@ -63,9 +74,17 @@ With the required [permissions for their role](account-company-roles-permissions
 
 1. Find and access the desired quote in the list and click **[!UICONTROL Create Copy]** from that original quote.
 
+## Create Template
+
+1. The buyer logs in to their account.
+
+1. In the left panel, chooses **[!UICONTROL My Quote Templates]**.
+
+1. Finds the quote in the **[!UICONTROL My Quotes]** list and clicks **[!UICONTROL Create Quote Template]** in the _[!UICONTROL Action]_ column.
+
 ## Move line items from a quote to a requisition list
 
-1. The customer logs in to their account.
+1. The buyer logs in to their account.
 
 1. In the left panel, chooses **[!UICONTROL My Quotes]**.
 
@@ -87,7 +106,7 @@ See [Add products to a requisition list](requisition-lists.md) to learn more abo
 
 ## Adding a shipping address
 
-1. The customer logs in to their account.
+1. The buyer logs in to their account.
 
 1. In the left panel, chooses **[!UICONTROL My Quotes]**.
 
@@ -99,11 +118,11 @@ See [Add products to a requisition list](requisition-lists.md) to learn more abo
 
 1. Clicks **[!UICONTROL Save Address]**.
 
-When the customer adds the address, seller provides shipping and delivery options. This can affect the negotiated agreement on the quote. The shipping options are locked on checkout.
+When the buyer adds the address, seller provides shipping and delivery options. This can affect the negotiated agreement on the quote. The shipping options are locked on checkout.
 
 ## Print a quote
 
-1. In the open quote to the right of the _[!UICONTROL Items Quoted]_ section, the customer clicks **[!UICONTROL Print]**.
+1. In the open quote to the right of the _[!UICONTROL Items Quoted]_ section, the buyer clicks **[!UICONTROL Print]**.
 
 1. Verifies the **[!UICONTROL Destination]** as either a printer or PDF.
 
@@ -128,6 +147,7 @@ When the customer adds the address, seller provides shipping and delivery option
 | Rename        | Change the name of the quote                                                      |
 | Create copy | A buyer can create a new quote from the current quote by copying and renaming it. |
 | Close quote   | After a buyer closes a quote, it cannot be reopened it. If needed, the buyer can recreate it by using the [!UICONTROL Create Copy] action. This option is not available if the quote status is `Draft`.                      |
+| Create Template   | Create a quote template based on the current quote. Quote templates streamline quote negotiation by allowing buyers and sellers to agree on contract and pricing terms once. On agreement, the buyer can generate a pre-approved, linked quote from the template for subsequent orders instead of restarting the request for quote (RFQ) process.                      |
 | Delete quote  | When a buyer deletes a quote, it is removed from the system, and is no longer available.                                                                                                                                     |
 | Print         | Opens a print form to save the quote as a PDF, file, or print it to a configured printer.                                                                                                                                    |
 
