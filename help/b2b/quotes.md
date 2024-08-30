@@ -159,4 +159,3 @@ The following figure shows an example of the quote detail view in the Admin with
 
 >[!NOTE]
 >The Quote detail page for the buyer now offers an additional option to create a copy of the quote.
-git st
