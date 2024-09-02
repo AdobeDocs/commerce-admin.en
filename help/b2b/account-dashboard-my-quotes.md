@@ -104,6 +104,26 @@ See [Add products to a requisition list](requisition-lists.md) to learn more abo
 >
 > You cannot create a new requisition list when you move items. Items can only be moved to an existing requisition list.
 
+## Move line items to a new quote
+
+1. The buyer logs in to their account.
+
+1. In the left panel, chooses **[!UICONTROL My Quotes]**.
+
+1. Find and access the desired quote in the list.
+
+1. Select the line items.
+
+1. Click **[!UICONTROL Move item to new quote]** in the _[!UICONTROL Actions]_ dropdown.
+
+1. Name the new quote in the modal.
+
+1. Select **[!UICONTROL Move to quote]** to move the selected item to the new quote.
+
+>[!NOTE]
+>
+> When selecting several items, modal displays as **[!UICONTROL Move selected items to new quote]**.
+
 ## Adding a shipping address
 
 1. The buyer logs in to their account.
