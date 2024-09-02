@@ -16,7 +16,7 @@ During the negotiation process, the seller can do the following from the Admin:
 
 - Add or remove products
 - Change the quantity
-- Apply a discount to line items, or the total price
+- Apply a discount to line items, or the quote as a whole
 - Add or change the shipping method
 - Add comments
 - Send the updated quote to the buyer, or save as a draft
@@ -112,23 +112,33 @@ Apply line item changes in the _[!UICONTROL Items Quoted]_ section if needed.
 
     The maximum file size allowed for attachments is 2 MB.
 
-1. To apply a discount to the quote as a whole:
+1. To apply a discount to the quote:
 
    - Under _[!UICONTROL Quote Totals]_ in the _[!UICONTROL Negotiated Price]_ section, choose one of the following discount types:
 
-      - `Percentage Discount`
-      - `Amount Discount`
-      - `Proposed Price`
+      - `Percentage Discount`: A percentage discount reduces the original price by a specific percentage.
+      - `Amount Discount`: An amount discount applies a specific value reduction to the price. 
+      - `Proposed Price`: A proposed price discount sets the final price to a specific amount, regardless of the original price.
 
    - Enter the amount as a percentage or flat price.
 
       ![Negotiation Comments](./assets/quote-detail-negotiation-comments.png){width="600" zoomable="yes"}
+
+   - You can apply discounts to each line item or the quote as a whole:
+
+      - **Line item discounts**: Line item discounts are applied to individual items in the cart. The discount can be a `percentage`, a specific `amount`, or a `proposed price`.
+      - **Cart-level discounts**: Cart-level discounts are applied to the entire shopping cart. The discount can be either a `percentage` or a specific `amount` and is applied to the total cart value.
+      - **Combination of Cart and Line Item Discounts**: In some cases, discounts can be applied at both the cart and line item levels. The line item discount is applied first, followed by the cart-level discount on the remaining total.
 
 1. Send or save the quote:
 
    - If the quote is ready to send back to the buyer, click **[!UICONTROL Send]**.
 
    - To continue working on the quote later, click **[!UICONTROL Save as Draft]**.
+
+>[!NOTE]
+>
+> During the quote negotiation, discounts can be locked to prevent further changes. Once a quote is locked, neither the discount type nor the amount can be altered without unlocking the quote first. This locking mechanysm ensures that the agreed-upon terms between the sales representative and the buyer are preserved.
 
 ## Step 4: Follow up on a quote
 
@@ -146,7 +156,8 @@ To monitor its position in the workflow, check your email and the status of the 
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Back]          | Returns to the _[!UICONTROL Quotes]_ page without saving changes.                                                                                                                                                                                                                                                                                             |
 | [!UICONTROL Print]         | Sends the quote to a printer or saves it as a PDF file.                                                                                                                                                                                                                                                                                                       |
-| [!UICONTROL Create Copy] |  [!BADGE 1.5.0-beta capabilities]{type=Informative url="/help/b2b/release-notes.md" tooltip="Available only for Beta program participants"} Creates and opens a copy of the current quote with `(copy)` appended to the original name. Rename the new quote by editing the [!UICONTROL Name] field. Process the new quote by saving it as a draft, or sending it to the customer.                                                                                                                                                                                                                                                                                   |
+| [!UICONTROL Create Copy] | Creates and opens a copy of the current quote with `(copy)` appended to the original name. Rename the new quote by editing the [!UICONTROL Name] field. Process the new quote by saving it as a draft, or sending it to the customer.                                                                                                                                                                                                                                                                                   |
+| Create Template   | Create a quote template based on the current quote. Quote templates streamline quote negotiation by allowing buyers and sellers to agree on contract and pricing terms once. On agreement, the buyer can generate a pre-approved, linked quote from the template for subsequent orders instead of restarting the request for quote (RFQ) process.                      |
 | [!UICONTROL Save as Draft] | Save any changes made to the quote, but do not send it back to the buyer.                                                                                                                                                                                                                                                                                     |
 | [!UICONTROL Decline]       | Declines the request to negotiate prices, either on the initial inquiry, or during ongoing negotiations. When a quote is declined, the seller should add a comment to explain the decision. When a quote is declined, all negotiated prices are reset to the original values. This button is disabled while the seller is waiting for a reply from the buyer. |
 | [!UICONTROL Send]          | Sends the updated quote as a reply to the buyer's inquiry. This button is disabled if the seller is waiting for a reply from the buyer.                                                                                                                                                                                                                       |
