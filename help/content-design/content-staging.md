@@ -14,11 +14,11 @@ The term _campaign_ refers to the record of a scheduled change, or a collection 
 
 When you schedule a content change for a specific time period, the content reverts to the previous version when the scheduled change expires. You can create multiple versions of the same baseline content to be used for future updates. You can also step back through the timeline to view previous versions of the content. To save a draft version, simply assign a date on the timeline that is so far into the future that it never goes into production.
 
->[!NOTE]
->
->Fields related to the Start Date and End Date have been removed in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce and cannot be modified directly on the cart price rule, catalog price rule, product, category, and CMS page. You must create a scheduled update for these activations.
-
 ## Content staging objects and campaigns
+
+Fields related to the Start Date and End Date have been removed from Adobe Commerce and cannot be modified directly on the cart price rule, catalog price rule, product, category, and CMS page. You must create a scheduled update for these activations.
+
+All scheduled updates are applied consecutively, which means that any entity can have only one scheduled update at one time. Any scheduled update is applied to all store views within its time frame. As a result, an entity cannot have a different scheduled update for different store views at the same time. All entity attribute values within all store views, which are not affected by the current scheduled update, are taken from the default values, and not from the previous scheduled update.
 
 When a new scheduled update is created for any of the following objects, a corresponding campaign is created as a placeholder, and the _[!UICONTROL Scheduled Changes]_ box appears across the top of the page. The placeholder campaign has a start date, but not an end date. You can schedule updates to the content as part of a campaign, and then preview and share the changes by date, time, or store view. After a new campaign is created for one object, you can assign it as a scheduled update for other objects.
 
@@ -39,9 +39,7 @@ When a new scheduled update is created for any of the following objects, a corre
 
    Create your first campaign with the start and end dates as needed. To make the campaign open-ended, leave the end date blank. When the first campaign ends, the original baseline content is restored.
 
-   >[!NOTE]
-   >
-   >Campaign Start Date and End Date must be defined by using the **_default_** Admin time zone, which is converted from the local time zone of each website. Consider an example where you have multiple websites in different time zones, but you want to start a campaign based on a US time zone. In this case, you must schedule a separate update for each local time zone, and set **[!UICONTROL Start Date]** and **[!UICONTROL End Date]** in converted from each local website time zone to the default Admin time zone.
+   Campaign Start Date and End Date must be defined by using the **_default_** Admin time zone, which is converted from the local time zone of each website. Consider an example where you have multiple websites in different time zones, but you want to start a campaign based on a US time zone. In this case, you must schedule a separate update for each local time zone, and set **[!UICONTROL Start Date]** and **[!UICONTROL End Date]** in converted from each local website time zone to the default Admin time zone.
 
 1. **Add a second campaign**
 
@@ -52,10 +50,6 @@ When a new scheduled update is created for any of the following objects, a corre
    >[!NOTE]
    >
    >If a campaign is linked to more than one entity, the campaign can be edited only from the [Content Staging Dashboard](content-staging-dashboard.md).
-
-   >[!NOTE]
-   >
-   >All scheduled updates are applied consecutively, which means that any entity can have only one scheduled update at one time. Any scheduled update is applied to all store views within its time frame. As a result, an entity cannot have a different scheduled update for different store views at the same time. All entity attribute values within all store views, which are not affected by the current scheduled update, are taken from the default values, and not from the previous scheduled update.
 
 1. **Restore the baseline content**
 
