@@ -10,7 +10,7 @@ Using a requisition list saves time when purchasing frequently ordered products 
 
 >[!NOTE]
 >
->To enable requisition lists for your store, see [Enable B2B Features](enable-basic-features.md). It can allow up to 999 requisition lists to be maintained for each buyer account, depending on the [configuration](configure-requisition-lists.md).
+>To enable requisition lists for your store, see [Enable B2B Features](enable-basic-features.md). Up to 999 requisition lists can be maintained for each buyer account, depending on the [configuration](configure-requisition-lists.md).
 
 Requisition list functionality is similar to wish lists, with the following differences:
 
