@@ -32,7 +32,7 @@ When a new scheduled update is created for any of the following objects, a corre
 ## Content staging workflow
 
 1. **Create the baseline content**
-   
+ 
    The baseline is the content of an asset without a campaign and includes everything below the _[!UICONTROL Scheduled Changes]_ section at the top of the page. The baseline content is always used, unless there is an active campaign with changes scheduled for that place on the timeline.
 
 1. **Create the first campaign**
