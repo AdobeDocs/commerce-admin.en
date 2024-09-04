@@ -144,7 +144,7 @@ To transmit data between your Adobe Commerce instance and the services that enab
 
 For detailed instructions, see [Commerce Services Connector](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#organizationid).
 
-After you configure the Commerce Services Connector, the system generates the SaaS project and database Ids and displays them in the Admin configuration. These ids are required to complete the onboarding process for asset synchronization.
+After you configure the Commerce Services Connector, the system generates the SaaS project and database IDs that identifies the secure cloud storage environment for your Commerce Services and displays the IDs in the Admin configuration. These values are required to complete the onboarding process for asset synchronization.
 
 ![SaaS project and data space ids for AEM Assets integration](assets/aem-saas-project-config.png){width="600" zoomable="yes"}
 
