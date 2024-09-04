@@ -16,7 +16,7 @@ During the negotiation process, the seller can do the following from the Admin:
 
 - Add or remove products
 - Change the quantity
-- Apply a discount to line items, or the quote as a whole
+- Apply a discount to line items, or to the entire quote
 - Add or change the shipping method
 - Add comments
 - Send the updated quote to the buyer, or save as a draft
