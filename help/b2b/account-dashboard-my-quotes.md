@@ -72,7 +72,7 @@ With the required [permissions for their role](account-company-roles-permissions
 
 1. In the left panel, chooses **[!UICONTROL My Quotes]**.
 
-1. Find and access the desired quote in the list and click **[!UICONTROL Create Copy]** from that original quote.
+1. Find and access the desired quote in the list and click **[!UICONTROL Create Copy]** from the original quote.
 
 ## Create Template
 
