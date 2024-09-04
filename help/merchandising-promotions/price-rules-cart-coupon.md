@@ -17,7 +17,7 @@ Coupon codes can be sent by email, or included in newsletters, catalogs, and adv
 As of Commerce 2.4.7, shoppers can apply multiple coupons to a cart. Merchants can also apply multiple coupons using shopping assistance.
 
    >[!NOTE]
-   >
+>
 >Cart price rules that have the same priority do not result in a combined discount. Each rule (coupon) is applied to matching products separately, one-by-one, according to the cart price rule ID in the database. To control the order in which discounts are applied, Adobe recommends setting a different priority for each added cart price rule.
 
 ## Configure coupon codes
