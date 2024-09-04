@@ -196,7 +196,7 @@ Page changes can be applied on schedule, and grouped with other content changes.
 
 >[!NOTE]
 >
->If a campaign is linked to more than 1 page, this campaign can be edited from the [Content Staging Dashboard](content-staging-dashboard.md) only.
+>If a campaign is linked to more than one page, the campaign can be edited only from the [Content Staging Dashboard](content-staging-dashboard.md).
 
 >[!NOTE]
 >

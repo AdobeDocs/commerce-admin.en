@@ -47,11 +47,11 @@ When a new scheduled update is created for any of the following objects, a corre
 
    Create the second campaign, with the start and end dates as needed. The second campaign can be assigned to an entirely different time period. When creating multiple campaigns for the same asset, the campaigns cannot overlap. You can create as many campaigns as needed.
 
-   Multiple assets can be assigned to an existing campaign, which is not started yet. For example, 2 different product prices can be updated in the scope of the same campaign with a future start date.
+   Multiple assets can be assigned to an existing campaign that has not started yet. For example, two different product prices can be updated in the scope of the same campaign with a future start date.
 
    >[!NOTE]
    >
-   >If a campaign is linked to more than 1 entity, it can be edited from the [Content Staging Dashboard](content-staging-dashboard.md) only.
+   >If a campaign is linked to more than one entity, the campaign can be edited only from the [Content Staging Dashboard](content-staging-dashboard.md).
 
    >[!NOTE]
    >

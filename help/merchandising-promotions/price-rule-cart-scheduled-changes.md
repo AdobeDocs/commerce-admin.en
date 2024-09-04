@@ -24,7 +24,7 @@ If there are multiple price rules running in the same campaign, the _[!UICONTROL
 
 >[!NOTE]
 >
->If a campaign is linked to more than 1 cart price rule, this campaign can be edited from the [Content Staging Dashboard](../content-design/content-staging-dashboard.md) only.
+>If a campaign is linked to more than one cart price rule, the campaign can be edited only from the [Content Staging Dashboard](../content-design/content-staging-dashboard.md).
 
 Keep in mind the following caveats:
 
