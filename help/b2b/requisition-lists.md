@@ -100,7 +100,7 @@ From a negotiable quote, buyers can use the [!UICONTROL Move to Requisition List
 
 1. In the [!UICONTROL Items Quoted] tab, select the product to move.
 
-1. Using the  [!UICONTROL Select] dropdown in the [!UICONTROL Actions] column for the product line item, choose **[!UICONTROL Move to Requisition list]**.
+1. Using the [!UICONTROL Select] dropdown in the [!UICONTROL Actions] column for the product line item, choose **[!UICONTROL Move to Requisition list]**.
 
 1. Select the requisition list for the selected items.
 
