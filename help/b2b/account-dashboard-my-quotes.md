@@ -165,7 +165,7 @@ When the buyer adds the address, the seller provides the shipping and delivery o
 | Action        | Description                                                                                                                                                                                                                  |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Rename        | Change the name of the quote                                                      |
-| Create copy | A buyer can create a new quote from the current quote by copying and renaming it. |
+| Create copy | A buyer can create a quote from the current quote by copying and renaming it. |
 | Close quote   | After a buyer closes a quote, it cannot be reopened it. If needed, the buyer can recreate it by using the [!UICONTROL Create Copy] action. This option is not available if the quote status is `Draft`.                      |
 | Create Template   | Create a quote template based on the current quote. Quote templates streamline quote negotiation by allowing buyers and sellers to agree on contract and pricing terms that can be applied to multiple quotes.  On agreement, the buyer can generate a pre-approved, linked quote from the template for subsequent orders instead of restarting the request for quote (RFQ) process.                      |
 | Delete quote  | When a buyer deletes a quote, it is removed from the system, and is no longer available.                                                                                                                                     |
