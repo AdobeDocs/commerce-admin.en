@@ -138,7 +138,7 @@ See [Add products to a requisition list](requisition-lists.md) to learn more abo
 
 1. Clicks **[!UICONTROL Save Address]**.
 
-When the buyer adds the address, seller provides shipping and delivery options. This can affect the negotiated agreement on the quote. The shipping options are locked on checkout.
+When the buyer adds the address, the seller provides the shipping and delivery options. These updates can affect the negotiated quote pricing. The shipping options are locked on checkout.
 
 ## Print a quote
 
