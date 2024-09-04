@@ -117,7 +117,7 @@ Apply line item changes in the _[!UICONTROL Items Quoted]_ section if needed.
    - Under _[!UICONTROL Quote Totals]_ in the _[!UICONTROL Negotiated Price]_ section, choose one of the following discount types:
 
       - `Percentage Discount`: A percentage discount reduces the original price by a specific percentage.
-      - `Amount Discount`: An amount discount applies a specific value reduction to the price. 
+      - `Amount Discount`: An amount discount applies a fixed price reduction.
       - `Proposed Price`: A proposed price discount sets the final price to a specific amount, regardless of the original price.
 
    - Enter the amount as a percentage or flat price.
