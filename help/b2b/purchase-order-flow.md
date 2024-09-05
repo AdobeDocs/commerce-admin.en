@@ -51,7 +51,9 @@ Approval rules are used to control spending based on company guidelines. Example
 - Any order over $1000 needs the approval of your manager and the company administrator.
 - Any order with more than 30 unique SKUs needs the approval of the company administrator.
 
-With these rules in place for a company, a company user can complete the order immediately when the order is less than $100. To learn approval rule definition, see [Approval Rules](account-dashboard-approval-rules.md)
+With these rules in place for a company, a company user can complete the order immediately when the order is less than $100. To learn approval rule definition, see [Approval Rules](account-dashboard-approval-rules.md).
+
+If multiple approval rules apply to a purchase order, then all unique required approvers must approve it.
 
 ### Types of store users
 
