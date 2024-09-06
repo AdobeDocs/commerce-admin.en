@@ -4,11 +4,11 @@ description: Learn how to integrate Experience Manager Assets with your [!DNL Co
 feature: CMS, Media, Configuration, Integration
 exl-id: b3c9d12c-bf95-435c-bb93-b8fbf80d084e
 ---
-# Experience Manager Assets Integration for Commerce
+# Advanced Asset Management for Commerce
 
 {{$include /help/_includes/aem-assets-integration-beta-note.md}}
 
-The integration between Commerce and Adobe Experience Manager (AEM) Assets combines the robust capabilities of AEM as a Digital Asset Management (DAM) system with Adobe Commerce to enhance eCommerce experiences. This integration leverages AEM's powerful asset management features to provide a seamless, scalable, and efficient way to manage and deliver assets across commerce storefronts.
+Advanced Asset Management for Commerce combines the robust capabilities of AEM as a Digital Asset Management (DAM) system with Adobe Commerce to enhance eCommerce experiences. These capabilities are delivered by connecting Commerce projects to AEM's powerful asset management environment to provide a seamless, scalable, and efficient way to manage and deliver assets across commerce storefronts.
 
 **Key features**
 
@@ -23,11 +23,14 @@ The integration between Commerce and Adobe Experience Manager (AEM) Assets combi
 - **Automated Asset Matching**–The integration includes a Rules Engine Service that automatically matches assets in AEM to products in Adobe Commerce based on SKU or other key attributes. The service ensures that the latest product assets and variations are always available on ecommerce storefronts. It also reduces the manual effort required to manage assets, freeing up time for more strategic activities.
 
 - **Streamlined Processes**
+
   - **Enable and configure the integration from the Commerce Admin**–Administrators and developers can install and configure the integration from Adobe Commerce using familiar tools and processes.
   - **Dynamic Updates**–Keep product images current with the latest changes in the asset management system. These automated updates ensure that commerce storefronts always have the most up-to-date product information.
   - **Efficient Catalog Management**–Simplifies the maintenance of the product catalog by automating asset cleanup and refresh.
 
 ## Integrate Commerce and Experience Manager Assets
+
+Integrate Adobe Commerce projects with Experience Manager Assets by enabling the Assets integration for Commerce. When the integration is active, administrators can use Experience Manager Assets Cloud Services as the single source of truth for asset creation and management, and as a central digital asset management tool (DAM) to manage, organize, and distribute assets for Commerce storefronts.
 
 >[!BEGINSHADEBOX]
 

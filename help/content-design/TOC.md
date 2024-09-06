@@ -51,19 +51,11 @@ feature: CMS, Page Content
   - [Insert an image](editor-insert-image.md)
   - [Insert a widget](editor-widget.md)
   - [Insert a variable](editor-insert-variable.md)
-- Media {#media}
   - Media Storage {#storage}
     - [Overview](media-storage.md)
     - [Use a media database](media-storage-database.md)
     - [Use a content delivery network](media-storage-content-delivery-network.md)
     - [Dynamic media URLs](catalog-urls-dynamic-media.md)
-  - Experience Manager Assets {#aem-assets}
-    - [Assets integration](aem-assets.md)
-    - Onboarding {#onboarding}
-       - [Configure AEM Assets](aem-assets-configure-aem.md)
-       - [Configure Adobe Commerce ](aem-assets-configure-commerce.md)
-       - [Enable asset synchronization](aem-assets-setup-synchronization.md)
-    - [Use AEM Assets](aem-assets-manage.md)
   - Adobe Stock {#adobe-stock}
     - [Adobe Stock integration](adobe-stock.md)
     - [Use Adobe Stock images](adobe-stock-manage.md)
@@ -74,6 +66,14 @@ feature: CMS, Page Content
     - [Asset management](media-gallery-asset-management.md)
     - [Folder management](media-gallery-folder-management.md)
     - [Image optimization](media-gallery-image-optimization.md)
+- Advanced Asset Management {#aem-assets}
+  - [Experience Manager Assets Integration for Commerce](aem-assets.md)
+  - Onboarding {#onboarding}
+      - [Configure AEM Assets](aem-assets-configure-aem.md)
+      - [Configure Adobe Commerce ](aem-assets-configure-commerce.md)
+      - [Enable asset synchronization](aem-assets-setup-synchronization.md)
+  - [Use AEM Assets](aem-assets-manage.md)
+- Media {#media}
 - Content staging {#staging}
   - [Overview](content-staging.md)
   - [Schedule an update](content-staging-scheduled-update.md)
