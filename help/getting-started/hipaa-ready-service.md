@@ -213,14 +213,14 @@ The following Adobe Commerce and extensibility services are available for the HI
 
 ### Tools
 
-The [Security Scan Tool](../systems/security-scan.md) for Adobe Commerce helps you monitor your store to ensure that all required security controls are enabled and operational. In addition to the standard security checks, Adobe has enhanced the tool to display HIPAA-specific checks for customers using the HIPAA-offering for Adobe Commerce. The Security Scan Tool HIPAA checks are designed to ensure that:
+The [Security Scan Tool](../systems/security-scan.md) for Adobe Commerce helps you monitor your store to ensure that all required security controls are enabled and operational. In addition to the standard security checks, Adobe has enhanced the tool to display HIPAA-specific checks for customers using the HIPAA-offering for Adobe Commerce. The HIPAA checks in the Security Scan Tool are designed to ensure that:
 
 - Protected Health Information (PHI) is encrypted
 - An Access Control List (ACL) has been defined for PHI
 - Auditing modules are not disabled
 - Two-factor authentication (2FA) is not disabled
 - Marketing features are disabled
-- All installed extensions match the allowlist
+- All installed extensions match a predefined allowlist
 - No unsupported Adobe services are installed
 
 You can [configure the tool](../systems/security-scan.md#run-a-security-scan) to send you email notifications with details from scheduled scans or [manually view reports](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/overview#to-review-the-report).
