@@ -54,9 +54,9 @@ Deploy the Commerce-Assets AEM project to the environment for the AEM Assets aut
 
 1. Commit your changes and deploy them.
 
-## Update the metadata profile with default value for Commerce assets
+## Update the metadata profile
 
-Add the default value for the `Does it exist in Commerce?` metadata field.
+Update the metadata profile to add the default value for the `Does it exist in Commerce?` metadata field.
 
 1. From the Adobe Experience Manager workspace, go to the Author Content administration workspace for AEM Assets by clicking the Adobe Experience Manager icon.
 
