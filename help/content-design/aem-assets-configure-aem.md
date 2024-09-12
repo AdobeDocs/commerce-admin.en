@@ -10,11 +10,7 @@ exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
 
 Prepare the AEM as a Cloud Service environment to manage Commerce assets by updating the environment configuration and configuring the Assets metadata to identify and manage Commerce assets.
 
-The integration requires adding a custom `Commerce` namespace and two types of metadata to organize and manage Commerce assets.
-
-- **[Profile metadata](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles)** lets you apply metadata with predefined values to assets. You can apply the metadata profile to a folder so that assets within the folder inherit the default values.
-
-- **[Schema metadata](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-schemas)** defines the layout of the properties page and the set of fields that can be used as metadata properties on an AEM asset.
+The integration requires adding a custom `Commerce` namespace and additional [profile metadata](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles) and [schema metadata](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-schemas) to organize and manage Commerce assets.
 
 Adobe provides an AEM project template to add these resources to the AEM Assets as a Cloud Service environment configuration. The template adds:
 
@@ -24,7 +20,7 @@ Adobe provides an AEM project template to add these resources to the AEM Assets 
 
   ![Custom Product Data UI Control](./assets/aem-commerce-sku-metadata-fields-from-template.png){width="600" zoomable="yes"}
 
-- A default metadata schema form with a Commerce tab that includes the default metadata fields `Does it exist in Adobe Commerce` and `Product Data` properties for tagging Commerce assets. The form also provides options to show or hide the `roles` and `order` (position) fields.
+- A default metadata schema form with a Commerce tab that includes the default metadata fields `Does it exist in Adobe Commerce` and `Product Data` properties for tagging Commerce assets. The form also provides options to show or hide the `roles` and `order` (position) fields from the AEM Assets UI.
 
    ![Commerce tab for AEM Assets metadata schema form](./assets/assets-configure-metadata-schema-form-editor.png){width="600" zoomable="yes"}
 
@@ -102,7 +98,7 @@ Add the default value for the `Does it exist in Commerce?` metadata field.
 
 ## Next steps
 
-After update the AEM environment, set up Adobe Commerce:
+After updating the AEM environment, set up Adobe Commerce:
 
 1. [Install and configure the AEM Assets Integration for Commerce](aem-assets-configure-commerce.md)
 2. [Enable asset synchronization to transfer assets between your Adobe Commerce project environment and the AEM Assets project environment](aem-assets-setup-synchronization.md)
