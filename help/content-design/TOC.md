@@ -67,8 +67,9 @@ feature: CMS, Page Content
     - [Folder management](media-gallery-folder-management.md)
     - [Image optimization](media-gallery-image-optimization.md)
 - Advanced Asset Management {#aem-assets}
-  - [Experience Manager Assets Integration for Commerce](aem-assets.md)
-  - Set up the AEM Assets integration {#onboarding}
+  - [AEM Assets Integration for Commerce](aem-assets.md)
+  - [Onboarding]{#onboarding}
+  - [Set up the integration](aem-assets-setup.md)
     - [Configure AEM Assets](aem-assets-configure-aem.md)
     - [Configure Adobe Commerce ](aem-assets-configure-commerce.md)
     - [Enable asset synchronization](aem-assets-setup-synchronization.md)
@@ -81,4 +82,3 @@ feature: CMS, Page Content
   - [Add a campaign item](content-staging-add-item.md)
   - [Preview a campaign](content-staging-preview.md)
 - [Return to Merchant Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
-
