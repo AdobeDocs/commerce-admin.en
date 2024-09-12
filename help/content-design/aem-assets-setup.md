@@ -40,7 +40,6 @@ Enabling the Commerce integration with Experience Manager Assets is a three step
 
 1. [Enable asset synchronization](aem-assets-setup-synchronization.md).
 
->[!BEGINSHADEBOX]
 
 
 
