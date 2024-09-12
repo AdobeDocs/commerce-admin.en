@@ -1,5 +1,5 @@
 ---
-user-guide-title: Content and Design Guidehttps://experienceleague.adobe.com/en/docs/commerce-admin/content-design/media/aem-assets/onboarding/aem-assets-configure-aem
+user-guide-title: Content and Design Guide
 user-guide-description: Comprehensive information about content and design features for Adobe Commerce and Magento Open Source administrators and eCommerce marketers.
 breadcrumb-title: Content and Design
 feature: CMS, Page Content
