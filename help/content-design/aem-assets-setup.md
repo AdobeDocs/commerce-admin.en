@@ -4,13 +4,13 @@ description: Learn about the requirements and steps to set up the integration be
 feature: CMS, Media, Configuration, Integration
 ---
 
-## Set up the AEM Assets Integration
+# Set up the AEM Assets Integration
 
 Enable advanced asset management capabilities by setting up your AEM Assets environment and installing and configuring the AEM Assets integration for Commerce.
 
  When the integration is active, administrators can use Experience Manager Assets as a Cloud Service as the single source of truth for asset creation and management, and as a central digital asset management tool (DAM) to create, manage, organize, and distribute assets for Commerce projects.
 
-### Requirements
+## Requirements
 
 - Adobe Commerce 2.4.5+
   - PHP 8.1, 8.2, 8.3

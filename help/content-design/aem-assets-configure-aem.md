@@ -8,7 +8,7 @@ exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
 
 {{$include /help/_includes/aem-assets-integration-beta-note.md}}
 
-Prepare the AEM as a Cloud Service authoring environment to manage Commerce assets by updating the environment configuration and configuring the Assets metadata to identify and manage Commerce assets.
+Prepare the AEM as a Cloud Service environment to manage Commerce assets by updating the environment configuration and configuring the Assets metadata to identify and manage Commerce assets.
 
 The integration requires adding a custom `Commerce` namespace and two types of metadata to organize and manage Commerce assets.
 
@@ -38,7 +38,7 @@ For additional information about the Commerce-Assets AEM project, see the [Readm
 
 **Prerequisites**
 
-- Access to the AEM Assets Cloud Manager Program and environments with the Program and Deployment Manager roles.
+- [Access to the AEM Assets Cloud Manager Program and environments](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/journey/cloud-manager#access-sysadmin-bo) with the Program and Deployment Manager roles.
 
 - A [local AEM development environment](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview) and familiarity with the AEM local development process.
 
