@@ -68,10 +68,10 @@ feature: CMS, Page Content
     - [Image optimization](media-gallery-image-optimization.md)
 - Advanced Asset Management {#aem-assets}
   - [Experience Manager Assets Integration for Commerce](aem-assets.md)
-  - Onboarding {#onboarding}
-      - [Configure AEM Assets](aem-assets-configure-aem.md)
-      - [Configure Adobe Commerce ](aem-assets-configure-commerce.md)
-      - [Enable asset synchronization](aem-assets-setup-synchronization.md)
+  - Set up the AEM Assets integration {#onboarding}
+    - [Configure AEM Assets](aem-assets-configure-aem.md)
+    - [Configure Adobe Commerce ](aem-assets-configure-commerce.md)
+    - [Enable asset synchronization](aem-assets-setup-synchronization.md)
   - [Use AEM Assets](aem-assets-manage.md)
 - Media {#media}
 - Content staging {#staging}
