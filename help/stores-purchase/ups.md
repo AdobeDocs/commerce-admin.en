@@ -36,7 +36,7 @@ To offer this shipping method to your customers, you must first open an account 
 
    - Verify the **[!UICONTROL Gateway URL]** that is required to send requests. Use a sandbox URL (`https://wwwcie.ups.com/`) for test mode and a production URL for live requests (`https://onlinetools.ups.com`). Make sure to use the respective endpoints for each request with the given host.
 
-   - Verify the **[!UICONTROL Tracking URL]** that is required to get tracking information. Use a sandbox URL (https://wwwcie.ups.com/) for test mode and a production URL for live requests (https://onlinetools.ups.com). Make sure to use the respective endpoints for each request with the given host.
+   - Verify the **[!UICONTROL Tracking URL]** that is required to get tracking information. Use a sandbox URL (`https://wwwcie.ups.com/`) for test mode and a production URL for live requests (`https://onlinetools.ups.com`). Make sure to use the respective endpoints for each request with the given host.
 
    - Set **[!UICONTROL Origin of the Shipment]** to the region where the shipment originates.
 
