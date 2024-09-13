@@ -134,7 +134,7 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Shipper Number]|Website|(UPS REST  Only) The six-character UPS Shipper Number is required for reference to use negotiated rates.|
 |[!UICONTROL Container]|Website|Sets the container type used to package shipments. Options: `Customer Packaging` / `UPS Letter Envelope` / `Customer Packaging` / `UPS Letter Envelope` / `UPS Tube` / `UPS Express Box` / `UPS Worldwide 25 kilo` / `UPS Worldwide 10 kilo`|
 |[!UICONTROL Weight Unit]|Website|Sets the default unit of measurement for product weight in your store. See [Dimensional weight](../../stores-purchase/carriers.md#dimensional-weight) for additional information.|
-|[!UICONTROL Tracking URL]|Website|(UPS REST  Only) The UPS URL that is used to track packages. Use "https://onlinetools.ups.com/api/track" for Production OR "https://wwwcie.ups.com/api/track" for Sandbox setup|
+|[!UICONTROL Tracking URL]|Website|(UPS REST  Only) The UPS URL that is used to track packages. Use `https://onlinetools.ups.com/api/track` for Production OR `https://wwwcie.ups.com/api/track` for Sandbox setup.|
 |[!UICONTROL Destination Type]|Website|Sets the default shipment destination type. Options: `Business` / `Residential`|
 |[!UICONTROL Maximum Package Weight]|Website|Sets the maximum weight that a package can be as specified by UPS. If the products ordered exceeds the maximum package weight, this shipping option is not available. According to [UPS.com](https://www.ups.com/us/en/global.page), packages cannot exceed 150 lbs (70 kg) Check with your shipping carrier to verify the maximum  weight.|
 |[!UICONTROL Pickup Method]|Website|Sets the UPS pickup method. Options: `Regular Daily Pickup` / `On Call Air` / `One Time Pickup` / `Letter Center` / `Customer Counter`|
