@@ -114,7 +114,7 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Live Account]|Store View|Specifies that the United Parcel Service account is live. Options: `Yes` / `No`|
 |[!UICONTROL Title]|Store View|The name that is used for this shipping method during checkout.|
 |_[!UICONTROL UPS REST Account Settings]_|||
-|[!UICONTROL Gateway URL]|Website|For UPS REST service, displays the following URLs that are required to transmit JSON data: Gateway URL, Tracking URL, Shipping URL, Use either Sandbox or Production endpoints as per the Live Account setting|
+|[!UICONTROL Gateway URL]|Website|For UPS REST service, displays the following URLs that are required to transmit JSON data: Gateway URL, Tracking URL, Shipping URL. Use either Sandbox or Production endpoints as per the Live Account setting.|
 |[!UICONTROL Mode]|Website|Determines the mode of transmission used for data sent to the UPS system. Options: <br/>**`Development`** - UPS does not verify that data received from the Commerce server is sent over SSL. <br/>**`Live`** - UPS verifies that data received from the Commerce server is sent over a secure socket layer (SSL).|
 |User ID|Website|Your UPS shipper account Client ID.|
 |[!UICONTROL Origin of the Shipment]|Website|(UPS REST Only) The country or region where the product shipment originates.|
