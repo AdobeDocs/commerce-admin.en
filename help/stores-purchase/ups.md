@@ -45,7 +45,7 @@ To offer this shipping method to your customers, you must first open an account 
    - Set **[!UICONTROL Live Account]** to one of the following:
 
       - `Yes` - Runs UPS in production mode, and offers UPS as a shipping method to your customers. Make sure to use the correct Endpoints under Gateway URL and Tracking URL.
-      - `No` - Runs UPS in a test mode. Ensure using correct Endpoints under Gateway Url and Tracking Url.
+      - `No` - Runs UPS in a test mode. Make sure to use the correct Endpoints under Gateway URL and Tracking URL.
 
    >[!NOTE]
    >
