@@ -20,7 +20,7 @@ Adobe provides an AEM project template to add these resources to the AEM Assets 
 
   ![Custom Product Data UI Control](./assets/aem-commerce-sku-metadata-fields-from-template.png){width="600" zoomable="yes"}
 
-- A default metadata schema form with a Commerce tab that includes the default metadata fields `Does it exist in Adobe Commerce` and `Product Data` properties for tagging Commerce assets. The form also provides options to show or hide the `roles` and `order` (position) fields from the AEM Assets UI.
+- A default metadata schema form with a Commerce tab that includes the default metadata fields `Does it exist in Adobe Commerce?` and `Product Data` properties for tagging Commerce assets. The form also provides options to show or hide the `roles` and `order` (position) fields from the AEM Assets UI.
 
    ![Commerce tab for AEM Assets metadata schema form](./assets/assets-configure-metadata-schema-form-editor.png){width="600" zoomable="yes"}
 
