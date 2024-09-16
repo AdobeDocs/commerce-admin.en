@@ -10,7 +10,7 @@ exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
 
 Prepare the AEM as a Cloud Service environment to manage Commerce assets by updating the environment configuration and configuring the Assets metadata to identify and manage Commerce assets.
 
-The integration requires adding a custom `Commerce` namespace and additional [profile metadata](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles) and [schema metadata](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-schemas) to organize and manage Commerce assets.
+The integration requires adding a custom `Commerce` namespace and additional [profile metadata](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles) and [schema metadata](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-schemas).
 
 Adobe provides an AEM project template to add these resources to the AEM Assets as a Cloud Service environment configuration. The template adds:
 
