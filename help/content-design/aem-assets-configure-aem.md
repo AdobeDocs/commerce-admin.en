@@ -16,7 +16,7 @@ Adobe provides an AEM project template to add these resources to the AEM Assets 
 
 - A [custom namespace](https://github.com/ankumalh/assets-commerce/blob/main/ui.config/jcr_root/apps/commerce/config/org.apache.sling.jcr.repoinit.RepositoryInitializer~commerce-namespaces), `Commerce` to identify Commerce-related properties.
 
-- A custom metadata type `commerce:productmetadata` and a corresponding UI component to add a Commerce tab with the [!UICONTROL Product Data]* property to the metadata schema configuration for an AEM Assets environment. 
+- A custom metadata type `commerce:productmetadata` and a corresponding UI component to add a Commerce tab with the [!UICONTROL Product Data]* property to the default metadata schema configuration for an AEM Assets environment. 
 
   ![Custom Product Data UI Control](./assets/aem-commerce-sku-metadata-fields-from-template.png){width="600" zoomable="yes"}
 
