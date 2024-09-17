@@ -273,7 +273,7 @@ The following table identifies Adobe Commerce and extensibility services that ar
     </tbody>
 </table>
 
-## Disabledfeatures
+## Disabled features
 
 To comply with HIPAA requirements, some features supported by Adobe Commerce are either not available or disabled by default. Merchants have the option to re-enable or use these services and features at their own risk.
 
