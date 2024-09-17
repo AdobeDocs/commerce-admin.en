@@ -230,7 +230,7 @@ Watch this video to learn about creating catalog price rules:
 |[!UICONTROL Description]|A description of the rule should include the purpose of the rule and explain how it is used.|
 |[!UICONTROL Websites]|(Required) Identifies the websites where the rule can be used.|
 |[!UICONTROL Customer Groups]|(Required) Identifies the customer groups to which the rule applies.|
-|[!UICONTROL Priority]|A number that indicates the priority of this rule in relation to others. Priorities from the highest to the lowest are 0,1,2,3...|
+|[!UICONTROL Priority]|A number that indicates the priority of this rule in relation to others. Priorities from the highest to the lowest are `0,1,2,3...`|
 |[!UICONTROL Status]|![Magento Open Source](../assets/open-source.svg) (Magento Open Source only) Determines if the rule is active in the store. Options: `Yes` / `No`|
 |[!UICONTROL From]|![Magento Open Source](../assets/open-source.svg) (Magento Open Source only) Specifies the first day that the price rule is in effect. If left blank, the price rule goes into effect when it is saved.|
 |[!UICONTROL To]|![Magento Open Source](../assets/open-source.svg) (Magento Open Source only) Specifies the last day that the price rule is in effect. If left blank, the price rule continues indefinitely.|
