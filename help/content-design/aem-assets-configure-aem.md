@@ -18,7 +18,7 @@ Adobe provides an AEM project template to add the namespace and metadata schema 
 
 - A custom metadata type `commerce:isCommerce` with the label `Does it exist in Commerce?` to tag Commerce assets associated with an Adobe Commerce project.
 
-- A custom metadata type `commerce:productmetadata` and a corresponding UI component to add a *[!UICONTROL Product Data]* property to the metadata configuration for an AEM Assets environment.  Product Data includes the metadata properties to associate a Commerce asset with product SKUs, and to specify image `role` and `position` attributes for the asset.
+- A custom metadata type `commerce:productmetadata` and a corresponding UI component to add a *[!UICONTROL Product Data]* property. Product Data includes the metadata properties to associate a Commerce asset with product SKUs, and to specify image `role` and `position` attributes for the asset.
 
   ![Custom Product Data UI Control](./assets/aem-commerce-sku-metadata-fields-from-template.png){width="600" zoomable="yes"}
 
@@ -52,9 +52,11 @@ Deploy the Commerce-Assets AEM project to the environment for the AEM Assets aut
 
 1. From GitHub, download the boilerplate code from the [Commerce-Assets AEM project](https://github.com/ankumalh/assets-commerce).
 
-1. From your [local AEM development environnment](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview),  install the custom code into your AEM Assets environment configuration as a Maven package, or by manually copying the code into the existing project configuration.
+1. From your [local AEM development environnment](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview), install the custom code into your AEM Assets environment configuration as a Maven package, or by manually copying the code into the existing project configuration.
 
-1. Commit your changes and deploy them.
+1. Commit the changes and push your local development branch to the Cloud Manager git repository.
+
+1. From Cloud Manager, [deploy your code to update the AEM environment](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deploying-code-with-cloud-manager).
 
 ## Update the metadata profile
 
