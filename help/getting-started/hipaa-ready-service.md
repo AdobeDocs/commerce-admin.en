@@ -202,7 +202,6 @@ To empower Admin users with more informative grids, the HIPAA-Ready service prov
 
 The following table identifies Adobe Commerce and extensibility services that are available for the HIPAA-readiness offering. These services include, but are not limited to:
 
-</html>
 <table>
     <thead>
         <tr>
