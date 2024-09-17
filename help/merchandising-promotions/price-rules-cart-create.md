@@ -55,7 +55,7 @@ Complete the following steps to add a rule, describe the conditions, and define 
 
    >[!NOTE]
    >
-   >The _[!UICONTROL Priority}_ setting is important when two cart rules or coupon codes are valid for the same product at the same time. The rule with the highest [!UICONTROL Priority] setting controlling the cart action.  Priorities from the highest to the lowest are `0,1,2,3...`. See _Discard Subsequent Price Rules_ in the _[Define the Actions](#step-3-define-the-actions)_ step.
+   >The _[!UICONTROL Priority]_ setting is important when two cart rules or coupon codes are valid for the same product at the same time. The rule with the highest [!UICONTROL Priority] setting controlling the cart action.  Priorities from the highest to the lowest are `0,1,2,3...`. See _Discard Subsequent Price Rules_ in the _[Define the Actions](#step-3-define-the-actions)_ step.
 
    >[!NOTE]
    >
