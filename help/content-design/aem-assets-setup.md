@@ -15,7 +15,6 @@ Enable advanced asset management capabilities by setting up your AEM Assets envi
 - Adobe Commerce 2.4.5+
   - PHP 8.1, 8.2, 8.3
   - Composer: 2.x
-  - Adobe Commerce is configured with the [Commerce Admin integration with Adobe ID](/help/getting-started/adobe-ims-config.md) with an assigned Organization ID.
 - Adobe Experience Manager is provisioned with [Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview)
 - Adobe Commerce and Experience Manager Assets are assigned as a products to the same [Adobe organization ID](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255).
 
