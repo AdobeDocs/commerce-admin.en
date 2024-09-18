@@ -100,6 +100,11 @@ Update the metadata profile to add the default value for the `Does it exist in C
 
    1. Click **[!UICONTROL Apply]**.
 
+>[!TIP]
+>
+>You can automatically synchronize Commerce assets as they are uploaded to the AEM Assets environment by updating the metadata profile to set the default value for the _[!UICONTROL Review Status]_ field to `Approved`. The property type for the `Review Status` field is `./jcr:content/metadata/dam:status`. 
+
+
 ## Next steps
 
 After updating the AEM environment, set up Adobe Commerce:
