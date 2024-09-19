@@ -14,7 +14,7 @@ The new [[!DNL Media Gallery]](media-gallery.md) provides a direct integration w
 
 **Prerequisities**
 
-The Adobe Stock licensing feature is available only if the [Adobe Stock Integration][adobe-stock-integration] module and configuration. Licensing [Adobe Stock][adobe-stock] images requires a paid Adobe Stock plan and an [Adobe account][adobe-signin].
+The Adobe Stock licensing feature is available only if the the [Adobe Stock Integration][adobe-stock-integration] is installed and configured. Licensing [Adobe Stock][adobe-stock] images requires a paid Adobe Stock plan and an [Adobe account][adobe-signin].
 
  >[!ENDSHADEBOX] 
 
