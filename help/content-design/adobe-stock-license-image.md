@@ -10,13 +10,13 @@ Adobe Stock assets that you want to use for your production Adobe Commerce and M
 
 The new [[!DNL Media Gallery]](media-gallery.md) provides a direct integration with Adobe Stock, making it easy to license your images directly from the gallery page.
 
- >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
 **Prerequisities**
 
 The Adobe Stock licensing feature is available only if the the [Adobe Stock Integration][adobe-stock-integration] is installed and configured. Licensing [Adobe Stock][adobe-stock] images requires a paid Adobe Stock plan and an [Adobe account][adobe-signin].
 
- >[!ENDSHADEBOX] 
+>[!ENDSHADEBOX] 
 
 ## License an image from the new [!DNL Media Gallery]
 
