@@ -44,7 +44,7 @@ For additional information about the Commerce-Assets AEM project, see the [Readm
 
 >[!ENDSHADEBOX]
 
-Deploy the Commerce-Assets AEM project to the environment for the AEM Assets authoring environment.
+Deploy the Commerce-Assets AEM project to the AEM Assets authoring environment.
 
 1. From the Cloud Manager, create production and staging environments for your AEM Assets project, if needed.
 
