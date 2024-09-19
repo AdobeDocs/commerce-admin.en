@@ -58,9 +58,9 @@ Deploy the Commerce-Assets AEM project to the environment for the AEM Assets aut
 
 1. From Cloud Manager, [deploy your code to update the AEM environment](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deploying-code-with-cloud-manager).
 
-## Update the metadata profile
+## Configure a metadata profile
 
-Update the metadata profile to add the default value for the `Does it exist in Commerce?` metadata field.
+ Automatically set values for Commerce asset metadata fields by configuring a metadata profile. After configuring the profile, apply it to AEM Asset folders to apply the default values. This is an optional configuration to process assets more by minimizing manual configuration steps.
 
 1. From the Adobe Experience Manager workspace, go to the Author Content administration workspace for AEM Assets by clicking the Adobe Experience Manager icon.
 
@@ -102,7 +102,7 @@ Update the metadata profile to add the default value for the `Does it exist in C
 
 >[!TIP]
 >
->You can automatically synchronize Commerce assets as they are uploaded to the AEM Assets environment by updating the metadata profile to set the default value for the _[!UICONTROL Review Status]_ field to `Approved`. The property type for the `Review Status` field is `./jcr:content/metadata/dam:status`. 
+>You can automatically synchronize Commerce assets as they are uploaded to the AEM Assets environment by updating the metadata profile to set the default value for the _[!UICONTROL Review Status]_ field to `Approved`. The property type for the `Review Status` field is `./jcr:content/metadata/dam:status`.
 
 
 ## Next steps
