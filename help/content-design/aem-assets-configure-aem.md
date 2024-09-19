@@ -60,7 +60,7 @@ Deploy the Commerce-Assets AEM project to the AEM Assets authoring environment.
 
 ## Configure a metadata profile
 
- Automatically set values for Commerce asset metadata fields by configuring a metadata profile. After configuring the profile, apply it to AEM Asset folders to apply the default values. This is an optional configuration to process assets more by minimizing manual configuration steps.
+Set default values for Commerce asset metadata by creating a metadata profile. Once set up, apply this profile to AEM Asset folders to automatically use these defaults. This optional setup helps streamline asset processing by reducing manual steps.
 
 1. From the Adobe Experience Manager workspace, go to the Author Content administration workspace for AEM Assets by clicking the Adobe Experience Manager icon.
 
