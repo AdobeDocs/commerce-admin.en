@@ -66,8 +66,8 @@ feature: CMS, Page Content
     - [Asset management](media-gallery-asset-management.md)
     - [Folder management](media-gallery-folder-management.md)
     - [Image optimization](media-gallery-image-optimization.md)
-- Asset Management using AEM Assets {#aem-assets}
-  - [AEM Assets Integration for Commerce](aem-assets.md)
+- Asset Management using AEM Assets {#aem-asset-management}
+  - [AEM Assets Integration for Commerce](aem-assets.md) {commerce-aem-assets-integration}
   - Set up the integration {#onboarding}
     - [Overview](aem-assets-setup.md)
     - [Configure AEM Assets](aem-assets-configure-aem.md)
