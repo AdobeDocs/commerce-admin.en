@@ -79,6 +79,8 @@ The B2B v1.5.0 release includes new features, quality improvements, and bug fixe
 
 ![New](../assets/new.svg) Added compatibility with Adobe Commerce 2.4.7-p2+ and 2.4.6-p7+ security patch releases.
 
+![Fixed issue](../assets/fix.svg) Includes the Security fixes documented in Security Bulletin xxxx.
+
 >[!IMPORTANT]
 >
 >Adobe Commerce B2B version 1.4.2+ is compatible with PHP 8.2. If you upgrade the Commerce instance to version 2.4.7+, ensure that the instance uses PHP version 8.2 to maintain compatibility with Adobe Commerce B2B release. Additionally, the B2B 1.4.2+ release does not support the [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
@@ -177,7 +179,9 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 
 [!BADGE Supported]{type=Informative tooltip="Supported"} Supported on 2.4.6-p8+ security patch releases.
 
-![New](../assets/new.svg) Added compatibility with Adobe Commerce 2.4.6-p8+ security patch releases.
+![New](../assets/new.svg) Added compatibility with the Adobe Commerce 2.4.6-p8 security patch releases.
+
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in Security Bulletin xxxx.
 
 ## B2B v1.3.5-p7
 
@@ -185,7 +189,7 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 
 [!BADGE Supported]{type=Informative tooltip="Supported"} Supported on 2.4.6-p7+ security patch releases.
 
-![New](../assets/new.svg) Added compatibility with Adobe Commerce 2.4.6-p7+ security patch releases.
+![New](../assets/new.svg) Added compatibility with the Adobe Commerce 2.4.6-p7 security patch releases.
 
 ## B2B v1.3.5
 
@@ -222,6 +226,16 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 ![Fixed issue](../assets/fix.svg) <!--- ACP2E-2456--> Category queries now return product prices according to store configuration settings when there are no category permissions explicitly set on the category being queried.
 
 ![Fixed issue](../assets/fix.svg) <!--- ACP2E-6829--> The **[!UICONTROL Place Order]** button now works as expected when completing a purchase with an approved quote request. Issues with the negotiable quote `negotiableQuoteCheckoutSessionPlugin` plugin have been resolved.
+
+## B2B v1.3.4-p10
+
+*October 9, 2024*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.0 and newer versions
+
+![New](../assets/new.svg) Added support for Adobe Commerce 2.4.5-p10.
+
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in Security Bulletin xxxx.
 
 ## B2B v1.3.4
 
