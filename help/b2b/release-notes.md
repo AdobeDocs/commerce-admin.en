@@ -90,6 +90,8 @@ https://wiki.corp.adobe.com/display/3DI/How+to+Create+and+Update+a+New+HelpX+Pag
 
 ## B2B v1.4.2-p1
 
+*August 9, 2024*
+
 [!BADGE Supported]{type=Informative tooltip="Supported"} Supported on Adobe Commerce 2.4.7-p1+ and 2.4.6-p6+ security patch releases.
 
 ![New](../assets/new.svg) Added compatibility with Adobe Commerce 2.4.7-p1+ and 2.4.6-p6+ security patch releases.
@@ -178,6 +180,19 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 ## B2B v1.3.5-p9
 
 *October 8, 2024*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Supported on 2.4.7-p3+ and 2.4.6-p8+ security patch releases.
+
+![New](../assets/new.svg) Added compatibility with Adobe Commerce 2.4.7-p3+ and 2.4.6-p8+ security patch releases. The B2B 1.3.5-p9 release does not 
+ support the [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B version 1.3.5+ is compatible with PHP 8.2. If you upgrade the Commerce instance to version 2.4.7+, ensure that the instance uses PHP version 8.2 to maintain compatibility with the Adobe Commerce B2B release.
+
+## B2B v1.3.5-p7
+
+*August 9, 2024*
 
 [!BADGE Supported]{type=Informative tooltip="Supported"} Supported on 2.4.7-p2+ and 2.4.6-p7+ security patch releases.
 
