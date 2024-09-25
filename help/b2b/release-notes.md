@@ -66,6 +66,8 @@ The B2B v1.5.0-beta release includes new features, quality improvements, and bug
 
 ![New](../assets/new.svg) Added compatibility with Adobe Commerce 2.4.7-p3+ and 2.4.6-p8+ security patch releases.
 
+![Fixed issue](../assets/fix.svg) Includes the Security fixes documented in Security Bulletin xxxx.
+
 >[!IMPORTANT]
 >
 >Adobe Commerce B2B version 1.4.2+ is compatible with PHP 8.2. If you upgrade the Commerce instance to version 2.4.7+, ensure that the instance uses PHP version 8.2 to maintain compatibility with the Adobe Commerce B2B release. Additionally, the B2B 1.4.2+ release does not support the [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
