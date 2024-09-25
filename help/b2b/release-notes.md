@@ -174,7 +174,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 You can fix this issue by adding manual dependencies for the B2B security package by adding manual dependencies for the B2B security package with a [stability tag](https://getcomposer.org/doc/04-schema.md#package-links). For instructions, see the [Adobe Commerce Knowledge Base](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html).
 
-## B2B v1.3.5-p9
+## B2B v1.3.5-p8
 
 *October 8, 2024*
 
