@@ -219,9 +219,7 @@ This section explains how to add a CSP Nonce to the Custom HTML Tag JavaScript f
 
 ### Step 1. Create a CSP Nonce Variable
 
-Successfully create a CSP Nonce Variable that can be used within your Google Tag Manager configuration by completing the following steps.
-
-You can create a CSP Nonce Variable that can be used within your Google Tag Manager by importing the variable configuration or manually configure the variable.
+You can create a CSP Nonce Variable that can be used within your Google Tag Manager by importing the variable configuration or configuring it manually.
 
 #### Import the variable configuration
 
