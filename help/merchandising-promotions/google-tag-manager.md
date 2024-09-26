@@ -244,7 +244,7 @@ To learn more about [Google Tag Manager Variables](https://support.google.com/ta
 1. In your workspace, navigate to the **Tags** section in the sidebar.
 1. Click the **New** button.
 1. In the **Tag Configuration** section, select **Custom HTML Tag**.
-1. Enter your required JavaScript in the text area, and add a nonce attribute to the opening `<script>` tag, pointing to the variable you created in the previous step. For example:
+1. Enter your required JavaScript in the text area, and add a nonce attribute to the opening `<script>` tag that points to the variable you created in the previous step. For example:
 
     ```html
     <script nonce="{{gtmNonce}}">
