@@ -211,15 +211,15 @@ This section explains how to add a CSP Nonce to the Custom HTML Tag JavaScript f
 
 >[!NOTE]
 >
->Importing the `cspNonce` global variable into Google Tag Manager is supported only with Adobe Commerce 2.4.8 and higher.
+>Importing the `cspNonce` global variable into Google Tag Manager is supported only on Adobe Commerce version 2.4.8 and later.
 
 >[!WARNING]
 >
->Adding unfamiliar scripts to your store poses a potential risk of data compromise. Scripts authorized to execute on the checkout page can potentially steal sensitive customer data, including payment information. It is crucial to take all necessary precautions to protect your Google Tag Manager account. Ensure that only trusted scripts are added, regularly review and audit your tags, and implement strong security measures such as two-factor authentication (2FA) and access controls.
+>Adding unfamiliar scripts to your store can risk data compromise. Scripts authorized on the checkout page may steal sensitive customer information, including payment details. It is essential to take precautions to protect your Google Tag Manager account. Only add trusted scripts, regularly review and audit your tags, and implement strong security measures like two-factor authentication (2FA) and access controls.
 
 ### Step 1. Create a CSP Nonce Variable
 
-By following these steps, you will successfully create a CSP Nonce Variable that can be used within your Google Tag Manager configuration.
+Successfully create a CSP Nonce Variable that can be used within your Google Tag Manager configuration by completing the following steps.
 
 >[!NOTE]
 >
@@ -234,14 +234,14 @@ By following these steps, you will successfully create a CSP Nonce Variable that
 1. Save the variable.
 
 
-To gain a deeper understanding of [Google Tag Manager Variables](https://support.google.com/tagmanager/answer/7683056?hl=en), please refer to the official documentation on [User-defined variable types for web](https://support.google.com/tagmanager/answer/7683362?hl=en). This resource provides comprehensive information on how to create and manage custom variables, enabling you to tailor your tag management to meet specific marketing and analytical needs effectively.
+To learn more about [Google Tag Manager Variables](https://support.google.com/tagmanager/answer/7683056?hl=en), see [User-defined variable types for web](https://support.google.com/tagmanager/answer/7683362?hl=en) in the Google documentation. This documentation offers detailed guidance on creating and managing custom variables to tailor your tag management for specific marketing and analytical needs.
 
 ### Step 2. Create a Custom HTML Tag
 
 1. In your workspace, navigate to the **Tags** section in the sidebar.
 1. Click the **New** button.
 1. In the **Tag Configuration** section, select **Custom HTML Tag**.
-1. Enter the JavaScript you need in the text area, and ensure to add a nonce attribute to the opening `<script>` tag, pointing to the variable you created in the previous step. For example:
+1. Enter your required JavaScript in the text area, and add a nonce attribute to the opening `<script>` tag, pointing to the variable you created in the previous step. For example:
 
     ```html
     <script nonce="{{gtmNonce}}">
@@ -252,4 +252,4 @@ To gain a deeper understanding of [Google Tag Manager Variables](https://support
 1. Make sure to select **Support document.write**, otherwise the script won't be able to execute on the checkout pages.
 1. In the **Triggering** section, select the desired trigger. For example, **Consent Initialization - All Pages**.
 
-For more information about [Tags](https://support.google.com/tagmanager/answer/3281060) in Google Tag Manager, please refer to the official Google documentation on [Custom tags](https://support.google.com/tagmanager/answer/6107167).
+For more information about [Tags](https://support.google.com/tagmanager/answer/3281060) in Google Tag Manager, see [Custom tags](https://support.google.com/tagmanager/answer/6107167) in the Google documentation.
