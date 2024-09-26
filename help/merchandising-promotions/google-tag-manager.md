@@ -207,7 +207,7 @@ The next step in the process is to preview the tag. Each time the tag is preview
 
 ## Custom HTML Tag with JavaScript
 
-This section covers how to add a CSP Nonce to the Custom HTML Tag JavaScript to allow its execution on the checkout page, ensuring compliance with Content Security Policy (CSP) requirements. Adding a CSP Nonce helps prevent unauthorized scripts from running, thereby enhancing the security of your site. For more detailed information, please refer to the [Content Security Policy](https://developer.adobe.com/commerce/php/development/security/content-security-policies) documentation.
+This section explains how to add a CSP Nonce to the Custom HTML Tag JavaScript for execution on the checkout page, ensuring compliance with Content Security Policy (CSP) requirements. This addition enhances site security by preventing the execution of unauthorized scripts. For more detailed information, see the [Content Security Policy](https://developer.adobe.com/commerce/php/development/security/content-security-policies) documentation.
 
 >[!NOTE]
 >
