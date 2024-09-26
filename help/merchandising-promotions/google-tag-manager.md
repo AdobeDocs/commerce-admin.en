@@ -254,7 +254,7 @@ To learn more about [Google Tag Manager Variables](https://support.google.com/ta
     </script>
     ```
 
-1. Make sure to select **Support document.write**, otherwise the script won't be able to execute on the checkout pages.
+1. Select **Support document.write**.
 1. In the **Triggering** section, select the desired trigger. For example, **Consent Initialization - All Pages**.
 
 For more information about [Tags](https://support.google.com/tagmanager/answer/3281060) in Google Tag Manager, see [Custom tags](https://support.google.com/tagmanager/answer/6107167) in the Google documentation.
