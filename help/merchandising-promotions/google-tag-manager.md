@@ -221,9 +221,15 @@ This section explains how to add a CSP Nonce to the Custom HTML Tag JavaScript f
 
 Successfully create a CSP Nonce Variable that can be used within your Google Tag Manager configuration by completing the following steps.
 
->[!NOTE]
->
->The CSP Nonce Variable is already included in the example container [GTM_M2_Config_json.txt](./assets/GTM_M2_Config_json.txt) under the name `gtmNonce`. However, if importing this configuration is not an option, follow the steps below to create the variable manually:
+You can create a CSP Nonce Variable that can be used within your Google Tag Manager by importing the variable configuration or manually configure the variable.
+
+#### Import the variable configuration
+
+The CSP Nonce Variable is included in the example container [GTM_M2_Config_json.txt](./assets/GTM_M2_Config_json.txt). You can create the variable by importing this code into your workspace.
+
+#### Create the variable manually
+
+If you can't import the variable configuration, complete the following the steps below to create it.
 
 1. In your workspace, navigate to the **Variables** section in the sidebar.
 1. Click on the **New** button at the bottom of the page in the **User-Defined Variables** section.
@@ -232,7 +238,6 @@ Successfully create a CSP Nonce Variable that can be used within your Google Tag
 1. Select **JavaScript Variable** from the **Page Variable** section.
 1. In the **Global Variable Name** field, enter `window.cspNonce`.
 1. Save the variable.
-
 
 To learn more about [Google Tag Manager Variables](https://support.google.com/tagmanager/answer/7683056?hl=en), see [User-defined variable types for web](https://support.google.com/tagmanager/answer/7683362?hl=en) in the Google documentation. This documentation offers detailed guidance on creating and managing custom variables to tailor your tag management for specific marketing and analytical needs.
 
