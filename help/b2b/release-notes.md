@@ -66,7 +66,7 @@ The B2B v1.5.0-beta release includes new features, quality improvements, and bug
 
 ![New](../assets/new.svg) Added compatibility with Adobe Commerce 2.4.7-p3+ and 2.4.6-p8+ security patch releases.
 
-![Fixed issue](../assets/fix.svg) Includes the Security fixes documented in Security Bulletin xxxx.
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
 
 >[!IMPORTANT]
 >
@@ -180,7 +180,7 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 
 ![New](../assets/new.svg) Added compatibility with the Adobe Commerce 2.4.6-p8 security patch releases.
 
-![Fixed issue](../assets/fix.svg) Includes the security fixes documented in Security Bulletin xxxx.
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
 
 ## B2B v1.3.5-p7
 
@@ -234,7 +234,7 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 
 ![New](../assets/new.svg) Added support for Adobe Commerce 2.4.5-p10.
 
-![Fixed issue](../assets/fix.svg) Includes the security fixes documented in Security Bulletin xxxx.
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
 
 ## B2B v1.3.4
 
