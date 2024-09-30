@@ -43,6 +43,11 @@ The settings in the HTML Head section correspond to the `<head>` tag of an HTML
    - **[!UICONTROL Default Meta Keywords]**
 
 1. Enter any **[!UICONTROL Scripts and Style Sheets]** as needed.
+   
+   >[!NOTE]
+   >
+   >All JavaScript entered in the [!UICONTROL Scripts and Style Sheets] field must be whitelisted in the Content Security Policy (CSP) settings, otherwise it will not be executed on the Checkout pages. For more information, see [Content Security Policy](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
+
 
 1. Enable or disable the [demo store notice](../getting-started/storefront-branding.md#set-the-store-demo-notice) if needed.
 
@@ -112,6 +117,10 @@ The Footer configuration section is where you can update the [copyright notice](
 1. Under _Other Settings_, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Footer]** section.
 
 1. Make any changes necessary to the **[!UICONTROL Copyright]** and **[!UICONTROL Miscellaneous HTML]** settings.
+
+   >[!NOTE]
+   >
+   >All JavaScript entered in the [!UICONTROL Miscellaneous HTML] field must be whitelisted in the Content Security Policy (CSP) settings, otherwise it will not be executed on the Checkout pages. For more information, see [Content Security Policy](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
 
 1. When complete, click **[!UICONTROL Save Configuration]**.
 
