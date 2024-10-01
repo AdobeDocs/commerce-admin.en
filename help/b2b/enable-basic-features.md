@@ -47,11 +47,7 @@ The options to configure Adobe Commerce B2B features are available only on Comme
 
      When you enable company support, the Shared Catalog, B2B Quote, B2B Payment Methods, and B2B Shipping Methods are enabled automatically.
 
-<<<<<<< HEAD
-     ![B2B configuration - company features](b2b-additional-features.png){width="600"}
-=======
      ![B2B configuration - company features](../assets/b2b-additional-features.png){width="600"}
->>>>>>> a8224970 (Update B2B feature config topic)
 
    - To allow customers and guests to quickly place orders based on SKU or product name, set **[!UICONTROL Enable Quick Order]** to `Yes`.
 
