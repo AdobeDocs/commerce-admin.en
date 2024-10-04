@@ -18,7 +18,6 @@ Advantages of a company account:
 
 - Supports the [management](account-company-manage.md) of all company accounts in the Admin.
 
-
 ## View company accounts
 
 The _Companies_ grid lists all active company accounts and pending requests, regardless of status setting. It also provides the tools for [creating](account-company-create.md) and [managing](account-company-manage.md) company accounts. Use the standard grid controls to filter the list, and adjust the column layout. For a list of column descriptions, see the _Column Descriptions_ section in [Managing Company Accounts](account-company-manage.md).
