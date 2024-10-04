@@ -39,7 +39,7 @@ If needed, you can assign a user to more than one company. For example, if B2B b
 
 1. When complete, click **[!UICONTROL Save Customer]**.
 
-   ![Customer grid with company assignments](./assets/company-assign-grid-user-assignments.png){width="600"}
+   ![Customer grid with company assignments](./assets/company-assign-user-assignments.png){width="600"}
 
    The [!UICONTROL Customers grid] shows a separate row for each company that the user is assigned to. The following columns are updated.
 
