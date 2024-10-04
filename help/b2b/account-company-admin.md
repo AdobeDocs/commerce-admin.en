@@ -9,6 +9,12 @@ role: Admin, User
 
 The company administrator is initially assigned when the company account is first created, and can be modified only by a store administrator from the Admin.
 
+- Each company can have only one assigned administrator.
+- A company user can be the administrator for only one company.
+- Changes to the assigned company administrator must be completed by a store administrator from the Admin.
+
+## Update the assigned company administrator
+
 1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
 1. Find the company in the list and click **[!UICONTROL Edit]**.
@@ -35,6 +41,7 @@ The company administrator is initially assigned when the company account is firs
 
 1. When complete, click **[!UICONTROL Save]**.
 
-   The individual account of the former company administrator remains in the system as an active individual user account in the company structure, assigned to the default user role.
+   The individual account of the former company administrator remains in the system as an active individual user account, assigned to the default user role.
 
    The system sends email notification of the change to the new and former company administrators.
+

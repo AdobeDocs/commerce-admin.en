@@ -18,6 +18,7 @@ Advantages of a company account:
 
 - Supports the [management](account-company-manage.md) of all company accounts in the Admin.
 
+
 ## View company accounts
 
 The _Companies_ grid lists all active company accounts and pending requests, regardless of status setting. It also provides the tools for [creating](account-company-create.md) and [managing](account-company-manage.md) company accounts. Use the standard grid controls to filter the list, and adjust the column layout. For a list of column descriptions, see the _Column Descriptions_ section in [Managing Company Accounts](account-company-manage.md).
@@ -28,7 +29,7 @@ In the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Compani
 
 ![Companies Grid](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-The [!UICONTROL Companies] grid lists all companies regardless of status. The displayed example shows accounts for two companies: the "ACME" company and the "Vandelay" company.
+The [!UICONTROL Companies] grid lists all companies regardless of status. The company listing indicates whether a company is associated with a [company hierarchy](manage-company-hierarchy.md), and provides [detailed information](/help/b2b/account-company-manage.md#company-options-and-columns) about the company, the company admin, and other information. Customize the view by using the [Admin grid controls](../getting-started/admin-grid-controls.md) to set filters, column view options, and more.
 
 ## Company administrator
 
@@ -36,7 +37,7 @@ The following example shows the _Customers_ grid with the initial company admini
 
 ![Customers grid with company administrator account](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
-It is possible that the person who serves as company administrator has multiple roles within the company. If a separate email address is entered for the company administrator, the initial company structure includes the company administrator plus an individual user account in the name of the company administrator. In such a case, the company administrator can sign in to the account as the company or as an individual user.
+Each company has a single company administrator identified by the account email address and the first and last name of the administrator. The administrator can be assigned to other companies as a user, but they can be an administrator for only one company.
 
 After creating the account, the company administrator defines the company structure of [teams](account-company-structure.md), sets up the [company users](account-company-users.md), and establishes [roles and permissions](account-company-roles-permissions.md) for each.
 
