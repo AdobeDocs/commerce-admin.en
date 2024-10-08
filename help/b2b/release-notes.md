@@ -58,21 +58,35 @@ The B2B v1.5.0-beta release includes new features, quality improvements, and bug
 
 ![Fixed issue](../assets/fix.svg)<!--ACP2E-1933-->Company administrators can now add company users from the storefront. Previously, Commerce logged an error when an Admin user tried to add a new user: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
 
+## B2B v1.4.2-p3
+
+*October 8, 2024*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Supported on 2.4.7-p3+ and 2.4.6-p8+ security patch releases.
+
+![New](../assets/new.svg) Added compatibility with Adobe Commerce 2.4.7-p3+ and 2.4.6-p8+ security patch releases.
+
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B version 1.4.2+ is compatible with PHP 8.2. If you upgrade the Commerce instance to version 2.4.7+, ensure that the instance uses PHP version 8.2 to maintain compatibility with the Adobe Commerce B2B release. Additionally, the B2B 1.4.2+ release does not support the [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
+
 ## B2B v1.4.2-p2
 
 [!BADGE Supported]{type=Informative tooltip="Supported"} Supported on 2.4.7-p2+ and 2.4.6-p7+ security patch releases.
 
-![New](../assets/new.svg) Added compatibility with Adobe Commerce 2.4.7-p2+ and 2.4.6-p7+ security patch releases. The B2B 1.4.2-p2 release does not 
- support the [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
+![New](../assets/new.svg) Added compatibility with Adobe Commerce 2.4.7-p2+ and 2.4.6-p7+ security patch releases.
+
+![Fixed issue](../assets/fix.svg) Includes the Security fixes documented in Security Bulletin xxxx.
 
 >[!IMPORTANT]
 >
->Adobe Commerce B2B version 1.4.2+ is compatible with PHP 8.2. If you upgrade the Commerce instance to version 2.4.7+, ensure that the instance uses PHP version 8.2 to maintain compatibility with Adobe Commerce B2B release.
-
-
-https://wiki.corp.adobe.com/display/3DI/How+to+Create+and+Update+a+New+HelpX+Page#HowtoCreateandUpdateaNewHelpXPage-LinkstoupdateHelpXdocumentation:
+>Adobe Commerce B2B version 1.4.2+ is compatible with PHP 8.2. If you upgrade the Commerce instance to version 2.4.7+, ensure that the instance uses PHP version 8.2 to maintain compatibility with Adobe Commerce B2B release. Additionally, the B2B 1.4.2+ release does not support the [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
 
 ## B2B v1.4.2-p1
+
+*August 9, 2024*
 
 [!BADGE Supported]{type=Informative tooltip="Supported"} Supported on Adobe Commerce 2.4.7-p1+ and 2.4.6-p6+ security patch releases.
 
@@ -81,7 +95,6 @@ https://wiki.corp.adobe.com/display/3DI/How+to+Create+and+Update+a+New+HelpX+Pag
 >[!IMPORTANT]
 >
 >Adobe Commerce B2B version 1.4.2+ is compatible with PHP 8.2. If you upgrade the Commerce instance to version 2.4.7+, ensure that the instance uses PHP version 8.2 to maintain compatibility with Adobe Commerce B2B release. Additionally, B2B 1.4.2+ does not currently support the [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server). 
-
 
 ## B2B v1.4.2
 
@@ -157,7 +170,25 @@ Your requirements could not be resolved to an installable set of packages.
 Installation failed, reverting ./composer.json and ./composer.lock to their original content.
 ```
 
-You can fix this issue by adding manual dependencies for the B2B security package by adding manual dependencies for the B2B security package with a [stability tag](https://getcomposer.org/doc/04-schema.md#package-links). For instructions, see the [Adobe Commerce Knowledge Base](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html). 
+You can fix this issue by adding manual dependencies for the B2B security package by adding manual dependencies for the B2B security package with a [stability tag](https://getcomposer.org/doc/04-schema.md#package-links). For instructions, see the [Adobe Commerce Knowledge Base](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html).
+
+## B2B v1.3.5-p8
+
+*October 8, 2024*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Supported on 2.4.6-p8+ security patch releases.
+
+![New](../assets/new.svg) Added compatibility with the Adobe Commerce 2.4.6-p8 security patch releases.
+
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
+
+## B2B v1.3.5-p7
+
+*August 9, 2024*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Supported on 2.4.6-p7+ security patch releases.
+
+![New](../assets/new.svg) Added compatibility with the Adobe Commerce 2.4.6-p7 security patch releases.
 
 ## B2B v1.3.5
 
@@ -194,6 +225,16 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 ![Fixed issue](../assets/fix.svg) <!--- ACP2E-2456--> Category queries now return product prices according to store configuration settings when there are no category permissions explicitly set on the category being queried.
 
 ![Fixed issue](../assets/fix.svg) <!--- ACP2E-6829--> The **[!UICONTROL Place Order]** button now works as expected when completing a purchase with an approved quote request. Issues with the negotiable quote `negotiableQuoteCheckoutSessionPlugin` plugin have been resolved.
+
+## B2B v1.3.4-p10
+
+*October 9, 2024*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.0 and newer versions
+
+![New](../assets/new.svg) Added support for Adobe Commerce 2.4.5-p10.
+
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
 
 ## B2B v1.3.4
 
