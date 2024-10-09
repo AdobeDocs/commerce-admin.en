@@ -154,6 +154,6 @@ After the new owner successfully transfers their Adobe account to the current (n
 
 1. Click **[!UICONTROL Verify]**.
 
-1. **Submit a Support request** to inform the Support team that you have updated the account owner's email address.
- 
- There are additional steps to be performed by Support, such as updating the email address on your [Commerce Marketplace](https://commercemarketplace.adobe.com/) profile.
+>[IMPORTANT]
+> **Submit a Support request** to inform the Support team that you have updated the account owner's email address.
+> There are additional steps to be performed by Support, such as updating the email address on your [Commerce Marketplace](https://commercemarketplace.adobe.com/) profile.
