@@ -1,5 +1,5 @@
 ---
-title: Add customers to a company account
+title: Add users to a company account
 description: Learn about adding an existing customer to a company account.
 exl-id: ee2f9c27-37d6-4997-8285-1c4c84f8d04c
 feature: B2B, Companies, Customers
@@ -7,9 +7,9 @@ role: Admin, User
 ---
 # Add users to a company account
 
-When enabled in the configuration, the company administrator adds and manages company users from the storefront. However, users can also be assigned to a company account from the Admin.
+When enabled in the configuration, the company administrator adds and manages company users from the storefront. However, company users accounts can also be added and managed from the Admin.
 
-If needed, you can assign a user to more than one company. For example, if B2B buyers support multiple companies, you can add their user accounts to all companies they do business with. On the storefront, buyers that are assigned to multiple companies can switch between company accounts by selecting from the available companies in the [!UICONTROL Company] menu.
+If needed, you can assign a user to more than one company. For example, if B2B buyers support multiple companies, you can add their user accounts to all companies they do business with. On the storefront, buyers that are assigned to multiple companies can switch between company accounts by selecting from the available companies in the *[!UICONTROL Company]* menu.
 
 ![Associate to Company](./assets/company-assign-multi-switcher.png){width="700"}
 
@@ -35,7 +35,7 @@ When you add a company user, the first company you associate with the user accou
 
    1. Click **[!UICONTROL Associate to Company]** to view available companies.
 
-      ![Associate to Company](./assets/company-assign-customer-account.png){width="600"}
+      ![Associate to Company](./assets/company-assign-customer-account.png){width="675"}
 
       If needed, filter the list by typing the first few letters of the company name in the input box.
 
@@ -47,7 +47,23 @@ When you add a company user, the first company you associate with the user accou
 
    1. Allow sales representatives to log in to the storefront on behalf of the customer by enabling **[!UICONTROL Allow remote shopping assistance]**.
 
+   1. Apply the changes by clicking **[!UICONTROL Save Customer]**.
+
+      ![Customer grid with company assignments](./assets/company-assign-user-assignments.png){width="675"}
+
+The [!UICONTROL Customers grid] shows a separate row for each company that the user is assigned to. The following columns are updated.
+
+- The _[!UICONTROL Customer Type]_ column updates to show the role assigned to the user.
+
+  If this is the first time the customer has been assigned to a company, the _[!UICONTROL Customer Type]_ column updates from _[!UICONTROL Individual user]_ to _[!UICONTROL Company User]_.
+
+- The _[!UICONTROL Group]_ column changes to the name of the customer group (or shared catalog) that is assigned to the company.
+
+- The _[!UICONTROL Company]_ column displays the name of the company to which the customer profile is now associated.
+
 ## Assign a user to one or more company accounts
+
+When you assign a new user, the first company you associate with the user account is the default company.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
@@ -57,13 +73,18 @@ When you add a company user, the first company you associate with the user accou
 
 1. From the **[!UICONTROL Associate to Company]** list, select one or more companies to assign to the company user and click **[!UICONTROL Done]**.
 
-   ![Associate to Company](./assets/company-assign-customer-account.png){width="600"}
+1. Apply the changes by clicking **[!UICONTROL Save Customer]**.
 
-1. When complete, click **[!UICONTROL Save Customer]**.
+## Remove company assignment from a user account
 
-   ![Customer grid with company assignments](./assets/company-assign-user-assignments.png){width="600"}
+Removing a company from a user profile revokes user access to that company. User data remains accessible in the Admin. If you remove all company assignments, the _[!UICONTROL Customer Type]_ changes to *[!UICONTROL Individual user]* disabling B2B capabilities for the account.
 
-   The [!UICONTROL Customers grid] shows a separate row for each company that the user is assigned to. The following columns are updated.
+1. From the Customer grid in the Admin, edit the customer profile to update.
 
-   - The _[!UICONTROL Group]_ column changes to the name of the customer group (or shared catalog) that is assigned to the company.
-   - The _[!UICONTROL Company]_ column displays the name of the company to which the customer profile is now associated.
+1. In the *[!UICONTROL Account Information] section, remove an assigned company from the **[!UICONTROL Associate to Company]** field by clicking the **[!UICONTROL X]** in the company name label.
+
+1. Apply the changes by clicking **[!UICONTROL Save Customer]**.
+
+>[!NOTE]
+>
+>If a company user is assigned as the company administrator, you cannot  the company association from this user until you update the Company account to assign a new company administrator.

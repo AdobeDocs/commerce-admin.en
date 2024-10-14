@@ -6,7 +6,11 @@ feature: B2B, Companies, Configuration
 ---
 # Company accounts
 
-When you incorporate B2B company accounts in your store, you can simplify the corporate shopping experience by enabling companies to create multiple subaccounts with flexible permissions based on user roles in their organization. Depending on the company, a store administrator can adjust promotions and prices to suit their needs, and create highly customized offers that cater to the shoppers' demands and increase orders. Adding a company account association to a standard [individual](../customers/account-create.md) allows the customer to use the specific purchasing workflows defined for the company.
+When you incorporate B2B company accounts in your store, you can simplify the corporate shopping experience by enabling companies to create multiple subaccounts with flexible permissions based on user roles in their organization.
+
+Depending on the company, a store administrator can adjust promotions and prices to suit their needs, and create highly customized offers that cater to the shoppers' demands and increase orders.
+
+Adding a company account association to a standard [individual](../customers/account-create.md) allows the customer to use the specific purchasing workflows defined for the company.
 
 Advantages of a company account:
 
@@ -16,7 +20,7 @@ Advantages of a company account:
 
 - Provides a mechanism for merchants to increase income by offering [company store credit](credit-company.md) as a payment method.
 
-- Supports the [management](account-company-manage.md) of all company accounts in the Admin.
+- Supports the [management](account-company-manage.md) of all company accounts from the Admin.
 
 ## View company accounts
 

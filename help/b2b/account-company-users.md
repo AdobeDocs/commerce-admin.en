@@ -15,9 +15,11 @@ The company administrator first sets up the [company structure](account-company-
 
 - Define roles and permissions, and assign users to roles
 
->[!IMPORTANT]
->
->Company users can be added, edited, or removed only by the company administrator. Removal cannot be reversed because the user is removed from the company structure.
+Company users can be added, edited, inactivated, or deleted only by the company administrator.
+
+- When a user is removed, the account status changes to *inactive*, and the customer can no longer log in to the company. Administrators can still access all content associated with the user. The account can be administrator can restore access by changing the account status to *[!UICONTROL Active]* from the [!UICONTROL Company Users] page.
+
+- When a user account is deleted, the account and any associated content is deleted from the storefront. This action cannot be reverted.
 
 ## Add company users
 
@@ -35,8 +37,7 @@ The company administrator first sets up the [company structure](account-company-
 
       ![Add new user](./assets/company-structure-users-add.png){width="700" zoomable="yes"}
 
-   - Completes the remaining fields as needed for the user:
-
+   - Adds the user information in the remaining fields:
       - **[!UICONTROL First Name]** and **[!UICONTROL Last Name]**
       - **[!UICONTROL Email]**
       - **[!UICONTROL Phone Number]**
@@ -51,19 +52,12 @@ The company administrator first sets up the [company structure](account-company-
 
 To save time during their first order, the company administrator can remind each company user to add the default company billing and shipping address to their [address book](../customers/account-dashboard-address-book.md).
 
-## Edit company users
+## Remove a user from the [!UICONTROL Company Structure]
 
-1. From the storefront, the company administrator signs in to their account.
+Company administrators can remove a user from the [!UICONTROL Company Structure].
 
-1. In the left panel, chooses **[!UICONTROL Company Users]**.
-
-1. Finds the user record to be updated, and clicks **[!UICONTROL Edit]**.
-
-1. Makes the needed changes.
-
-1. When complete, clicks **[!UICONTROL Save]**.
-
-## Remove a company user
+After an account is removed, the user account status changes to *inactive*, and the user can no longer log into the storefront.
+The administrator can reactivate an account by editing the user account information from the Company Users page.
 
 1. From the storefront, the company administrator signs in to their account.
 
@@ -71,15 +65,53 @@ To save time during their first order, the company administrator can remind each
 
 1. Selects the company user in the company structure.
 
-1. Clicks **[!UICONTROL Delete Selected]**.
+1. Clicks **[!UICONTROL Remove from Structure]**.
 
    ![Delete User](./assets/company-structure-delete-user.png){width="600" zoomable="yes"}
 
-1. When prompted to confirm, clicks **[!UICONTROL Delete]**.
+1. When prompted to confirm, clicks **[!UICONTROL Remove]**.
 
-In the Admin, the company user remains listed in the [Customers](../customers/customers-all.md) grid, but with an `Inactive` status.
+   In the Admin, the company user remains listed in the [Customers](../customers/customers-all.md) grid, but with an `Inactive` status.
 
-## Field descriptions
+## View and manage company user accounts
+
+Company administrators can view and manage company user accounts using the view filters on the [!UICONTROL Company Users] page.
+
+![Company Users](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
+
+- View only inactive users by selecting **[!UICONTROL Show Inactive Users]**.
+- View only active users by selecting **[!UICONTROL Show Active Users]**.
+- View all users by selecting **[!UICONTROL Show All Users]**.
+
+The company administrator can manage an individual account using the line item *[!UICONTROL Actions]* to edit the account information, manage account status, or delete an account.
+
+### Edit company user account information
+
+Company administrators can update user account profile information and change the account status.
+
+1. On the [!UICONTROL Company Users] page, find the user account to update. Click **[!UICONTROL Edit]**.
+
+1. Make any required changes to the user account information, including changing the account status.
+
+1. Apply the changes by clicking  **[!UICONTROL Save]**.
+
+>[!NOTE]
+>
+>If you edit a company user account and notice that the profile is missing required account information such as job title and phone number, it indicates that the account was added by a Commerce site administrator. These accounts cannot be edited from the storefront. To update information or change the account status, contact your site administrator.
+
+### Deactivate or delete an active account
+
+1. On the [!UICONTROL Company Users] page, find the user account to update. Click **[!UICONTROL Manage]**.
+
+   ![Manage user from Company Users page](./assets/company-users-manage-storefront.png){width="600" zoomable="yes"}
+
+1. When prompted, inactivate or delete the user account as required.
+
+>[!IMPORTANT]
+>
+>Deleting a company user account removes the account and all associated content from the system. This action cannot be reverted.
+
+## Company user account profile field descriptions
 
 | Field        | Description |
 |--------------|---------------|
