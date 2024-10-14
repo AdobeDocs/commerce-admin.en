@@ -32,7 +32,7 @@ The [!UICONTROL Companies] grid lists all companies regardless of status. The co
 
 ## Company administrator
 
-The following example shows the _Customers_ grid with the initial company administrator accounts.
+The following example shows the _Customers_ grid with initial company administrator accounts.
 
 ![Customers grid with company administrator account](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
@@ -52,7 +52,7 @@ After creating the account, the company administrator defines the company struct
 
 1. Follows the instructions and clicks [!UICONTROL **link**] to set their password.
 
-1. Enters a [!UICONTROL **New Password**] for their account and again to confirm.
+1. Enters a [!UICONTROL **New Password**] and password configurmation for their account.
 
    The password must include at least three of the following character types:
 
