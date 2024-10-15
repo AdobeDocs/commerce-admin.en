@@ -10,7 +10,7 @@ The _[!UICONTROL Companies]_ page lists all current company accounts, regardless
 
 ![Companies Grid](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
-Customize the company information displayed in the view using the search and filter capabilities.
+Use the *[!UICONTROL Columns]* control to customize the columns displayed in the grid. Customize the company information displayed in the view using the search and filter capabilities.
 
 - Find companies in the **Companies** grid by using the _[!UICONTROL Search]_. The search indexes the **Company Name** and **Parent** columns.
 
@@ -164,7 +164,7 @@ Method 2: **Full edit**
 
 1. Make the necessary changes to the company information.
 
-  For field descriptions, see [Create a company account](account-company-create.md).
+   For field descriptions, see [Create a company account](account-company-create.md).
 
 1. When complete, click **[!UICONTROL Save]**.
 
@@ -279,7 +279,6 @@ The following columns are available by changing the [column layout](../getting-s
 | Button                         | Description                                                                                                                                                                                                                                                         |
 |--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Back]              | Returns to the Companies page without saving changes.                                                                                                                                                                                                               |
-| [!UICONTROL Login as Customer] | Allows an Admin user to [log in to the storefront as the customer](../customers/login-as-customer.md) and help with their orders.                                                                                                                                   |
 | [!DNL Delete Company]          | Deletes the company account. The status of user accounts that are associated with the company is set to `Inactive` and the Company ID is removed from the profiles of user accounts. Information about company activity and transactions is retained in the system. |
 | [!DNL Reset]                   | Restores the original values to any fields with unsaved changes.                                                                                                                                                                                                    |
 | [!DNL Reimburse Balance]       | Allows the administrator to reimburse the balance from store credit, referenced by PO number.                                                                                                                                                                       |
