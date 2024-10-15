@@ -340,6 +340,7 @@ The following columns are available by changing the [column layout](../getting-s
 
 | Field                            | Description                                                                                                                                                                                                                                      |
 |----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Website]           | Set the [website scope](../getting-started/setup/websites-stores-views.md) for the company account. Defaults to the *[!UICONTROL Main Website]*.                                                                                                |
 | [!UICONTROL Job Title]           | The title of the company administrator who manages the company account.                                                                                                                                                                          |
 | [!UICONTROL Email]               | The email address of the company administrator can be the same as the company email address. If a different email address is entered, a separate individual account is created for the company administrator in addition to the company account. |
 | [!UICONTROL Prefix]              | If applicable, the prefix that is associated with the name of the company administrator (such as `Mr.`, `Ms.`, `Mrs.`, or `Dr.`). Depending on the configuration, the input field might be a text field or list.                                 |
@@ -348,6 +349,7 @@ The following columns are available by changing the [column layout](../getting-s
 | [!UICONTROL Last Name]           | The last name of the company administrator.                                                                                                                                                                                                      |
 | [!UICONTROL Suffix]              | If applicable, the suffix that is associated with the name of the company administrator (such as `Jr.`, `Sr.`, or `III`). Depending on the configuration, the input field might be a text field or list.                                         |
 | [!UICONTROL Gender]              | The gender of the company administrator. Options: `Male` / `Female` / `Not Specified`                                                                                                                                                            |
+| [!UICONTROL Send Welcome Email From]              | Set the storeview to use when sending the welcome email to the new company administrator if you do not want to use the *[!UICONTROL Default Store View]*.                                                                                                                                                             |
 
 {style="table-layout:auto"}
 
