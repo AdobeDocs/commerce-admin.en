@@ -306,19 +306,10 @@ The following columns are available by changing the [column layout](../getting-s
 | [!UICONTROL VAT / TAX ID]       | The tax or [value-added tax](../stores-purchase/vat.md) number that is assigned to the company for tax reporting purposes. |
 | [!UICONTROL Reseller ID]        | The resale number that is assigned to the company for tax reporting purposes.                                              |
 | [!UICONTROL Comment]            | These notes about the company account are for reference and visible only from the Admin.                                   |
-| **[!UICONTROL Legal Address]**  |                                                                                                                            |
-| [!UICONTROL Street Address]     | The street address where the company is registered to conduct business.                                                    |
-| [!UICONTROL City]               | The city where the company is registered to conduct business.                                                              |
-| [!UICONTROL Country]            | The country where the company is registered to conduct business.                                                           |
-| [!UICONTROL State/Province]     | The state or province where the company is registered to conduct business.                                                 |
-| [!UICONTROL ZIP/Postal Code]    | The ZIP or postal code where the company is registered to conduct business.                                                |
-| [!UICONTROL Phone Number]       | The primary phone number of the company.                                                                                   |
 
 {style="table-layout:auto"}
 
 #### [!UICONTROL Company Hierarchy]
-
-[!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Available only for Beta program participants"}
 
 | Columns                     | Description                                                                                                                                          |
 |-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -331,6 +322,17 @@ The following columns are available by changing the [column layout](../getting-s
 | [!UICONTROL Customer Group] | (Admin Only) Indicates the [customer group](../customers/customer-groups.md) or [shared catalog](catalog-shared.md) that is assigned to the company. |
 | [!UICONTROL Company Admin]  | The full name of the company administrator.                                                                                                          |
 | [!UICONTROL Action]         | The list of possible actions for that company line.                                                                                                  |
+
+{style="table-layout:auto"}
+
+#### [!UICONTROL Legal Address]
+
+| [!UICONTROL Street Address]     | The street address where the company is registered to conduct business.                                                    |
+| [!UICONTROL City]               | The city where the company is registered to conduct business.                                                              |
+| [!UICONTROL Country]            | The country where the company is registered to conduct business.                                                           |
+| [!UICONTROL State/Province]     | The state or province where the company is registered to conduct business.                                                 |
+| [!UICONTROL ZIP/Postal Code]    | The ZIP or postal code where the company is registered to conduct business.                                                |
+| [!UICONTROL Phone Number]       | The primary phone number of the company.                                                                                   |
 
 {style="table-layout:auto"}
 
