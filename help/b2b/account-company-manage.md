@@ -327,6 +327,8 @@ The following columns are available by changing the [column layout](../getting-s
 
 #### [!UICONTROL Legal Address]
 
+| Columns                     | Description                                                                                                                                          |
+|-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Street Address]     | The street address where the company is registered to conduct business.                                                    |
 | [!UICONTROL City]               | The city where the company is registered to conduct business.                                                              |
 | [!UICONTROL Country]            | The country where the company is registered to conduct business.                                                           |
