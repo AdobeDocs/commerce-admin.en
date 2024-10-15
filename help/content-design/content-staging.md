@@ -55,6 +55,10 @@ When a new scheduled update is created for any of the following objects, a corre
 
    If all campaigns have end dates, the baseline content is restored whenever all active campaigns end.
 
+   >[!NOTE]
+   >
+   >If an active campaign is initially created without an end date, the campaign cannot be edited later to include an end date. In such a case, it is necessary to create a duplicate campaign and enter the end date that is needed.
+
 >[!NOTE]
 >
 >While a staging update is active for an entity, editing the entity is editing the current active staging update. It does not affect the baseline content, which is restored when the staging update ends.

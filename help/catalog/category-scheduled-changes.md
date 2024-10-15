@@ -66,4 +66,8 @@ Category updates can be applied on schedule, and grouped with other content chan
 
    >[!NOTE]
    >
+   >If an active campaign is initially created without an end date, the campaign cannot be edited later to include an end date. In such a case, it is necessary to create a duplicate campaign and enter the end date that is needed.
+
+   >[!NOTE]
+   >
    >If a campaign is linked to more than one category, the campaign can be edited only from the [Content Staging Dashboard](../content-design/content-staging-dashboard.md).

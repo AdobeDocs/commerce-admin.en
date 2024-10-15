@@ -78,6 +78,10 @@ The scheduled change appears at the top of the product page, with the start and 
 
 1. In the _[!UICONTROL Scheduled Changes]_ box at the top of the page, click **[!UICONTROL View/Edit]**.
 
+>[!NOTE]
+>
+>If an active campaign is initially created without an end date, the campaign cannot be edited later to include an end date. In such a case, it is necessary to create a duplicate campaign and enter the end date that is needed.
+
 1. Make any changes necessary to the scheduled update.
 
 >[!NOTE]
