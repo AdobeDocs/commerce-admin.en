@@ -7,7 +7,7 @@ role: Admin, User
 ---
 # Manage company user accounts
 
-Company users are assigned by the company administrator, and are visible from the Admin in the _[!UICONTROL Customers]_ grid by the customer type, _[!UICONTROL Company User]_. These individuals are typically buyers with varying levels of permission to access store services and resources.
+On the storefront, company users are assigned by the company administrator, and are visible from the _[!UICONTROL Company Users]_ page. These individuals are typically buyers with varying levels of permission to access store services and resources.
 
 The company administrator first sets up the [company structure](account-company-structure.md), and then completes the following tasks, as needed:
 
@@ -17,7 +17,7 @@ The company administrator first sets up the [company structure](account-company-
 
 Company users can be added, edited, inactivated, or deleted only by the company administrator.
 
-- When a user is removed, the account status changes to *inactive*, and the customer can no longer log in to the company. Administrators can still access all content associated with the user. The account can be administrator can restore access by changing the account status to *[!UICONTROL Active]* from the [!UICONTROL Company Users] page.
+- When a user is removed, the account status changes to *inactive*, and the customer can no longer log in to the company. Administrators can still access all content associated with the user. The account administrator can restore access by changing the account status to *[!UICONTROL Active]* from the [!UICONTROL Company Users] page.
 
 - When a user account is deleted, the account and any associated content is deleted from the storefront. This action cannot be reverted.
 
@@ -52,7 +52,7 @@ Company users can be added, edited, inactivated, or deleted only by the company 
 
 To save time during their first order, the company administrator can remind each company user to add the default company billing and shipping address to their [address book](../customers/account-dashboard-address-book.md).
 
-## Remove a user from the [!UICONTROL Company Structure]
+## Remove a user from the [!UICONTROL Company structure]
 
 Company administrators can remove a user from the [!UICONTROL Company Structure].
 
