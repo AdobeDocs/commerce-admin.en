@@ -46,7 +46,7 @@ The B2B v1.5.0 release includes new features, quality improvements, and bug fixe
 >
 >A company user can be assigned to multiple companies, but they can be the company administrator for only one company.
 
-![New](../assets/new.svg) <!--B2B-2747-->—**Company scope selector**—Provides ability for company users that are assigned to multiple companies to change companies on the storefront. When the scope is switched, the data updates to show the information based on the new company context. For example, if the new company uses a different shared catalog, the company user sees products, prices, and other information based on the new shared catalog. Content related to orders, quotes, quote templates also updates based on the context of the selected company.
+![New](../assets/new.svg) <!--B2B-2747--> **Company scope selector**—Provides ability for company users that are assigned to multiple companies to change companies on the storefront. When the scope is switched, the data updates to show the information based on the new company context. For example, if the new company uses a different shared catalog, the company user sees products, prices, and other information based on the new shared catalog. Content related to orders, quotes, quote templates also updates based on the context of the selected company.
 
 >[!NOTE]
 >
