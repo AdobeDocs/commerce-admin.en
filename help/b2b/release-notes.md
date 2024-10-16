@@ -21,8 +21,9 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 
 *October 30, 2024*
 
-[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce versions 2.4.5 (TBD), 2.4.6-p3+, 2.4.7 and later.
+[!BADGE Supported]{type=Informative tooltip="Supported"} Supported on 2.4.7-p3+ and 2.4.6-p8+ security patch releases.
 
+[!BADGE Compatible]{type=Informative tooltip="Supported"} Adobe Commerce versions 2.4.8-beta1, 2.4.7 to 2.4.7-p2, 2.4.6 to 2.4.6-p7
 The B2B v1.5.0 release includes new features, quality improvements, and bug fixes.
 
 ![New](../assets/new.svg) Improvements to quoting capabilities help Buyers and Sellers manage quotes and quote negotiation more effectively.
@@ -42,9 +43,17 @@ The B2B v1.5.0 release includes new features, quality improvements, and bug fixe
 
 ### Company Accounts
 
-![New](../assets/new.svg)<!--B2B-2828-->**Multi-company assignment**—Simplify company account access for company users by assigning a user to multiple companies. For example, if you have a buyer that orders from multiple company sites, create a single company account and assign all companies the buyer works with to that account. Then, the buyer can log in one time, and switch between company accounts by choosing the company from the storefront.
+![New](../assets/new.svg)<!--B2B-2828-->**Multi-company assignment**—Simplify company account access for company users by assigning a user to multiple companies. For example, if you have a buyer that orders from multiple company sites, create a single account and assign all companies the buyer works with to that account. Then, the buyer can log in one time, and switch between company accounts by choosing the company from the storefront.
 
-![New](../assets/new.svg)<!--B2B-2747-->—**Company switcher**—Provides ability for company users that are assigned to multiple companies to switch between companies. On the storefront, customers can use a *[!UICONTROL Company]* scope selector to switch between companies. When the scope is switched, the data context changes to show the information for the new company. For example, if the new company uses a different shared catalog, the company user sees products, prices, and other information based on the new shared catalog. Content related to orders, quotes, quote templates also updates based on the context of the selected company.
+>[!NOTE]
+>
+>A company user can be assigned to multiple companies, but they can be the company administrator for only one company.
+
+![New](../assets/new.svg)<!--B2B-2747-->—**Company scope selector**—Provides ability for company users that are assigned to multiple companies to change companies on the storefront. When the scope is switched, the data updates to show the information based on the new company context. For example, if the new company uses a different shared catalog, the company user sees products, prices, and other information based on the new shared catalog. Content related to orders, quotes, quote templates also updates based on the context of the selected company.
+
+>[!NOTE]
+>
+>If the company user switches companies with items in the shopping cart, update the cart to reflect product assortment, pricing and promotional discounts based on the new company context.
 
 ![Fixed issue](../assets/fix.svg)<!--ACP2E-1933-->Company administrators can now add company users from the storefront. Previously, Commerce logged an error when an Admin user tried to add a new user: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
 
