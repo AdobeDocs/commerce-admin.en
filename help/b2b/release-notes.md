@@ -21,9 +21,9 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 
 *October 30, 2024*
 
-[!BADGE Supported]{type=Informative tooltip="Supported"} Supported on 2.4.7-p3+ and 2.4.6-p8+ security patch releases.
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce versions 2.4.7-p3+ and 2.4.6-p8+ security patch releases.
+Compatible with Adobe Commerce versions 2.4.8-beta1, 2.4.7 to 2.4.7-p2, 2.4.6 to 2.4.6-p7
 
-[!BADGE Compatible]{type=Informative tooltip="Supported"} Adobe Commerce versions 2.4.8-beta1, 2.4.7 to 2.4.7-p2, 2.4.6 to 2.4.6-p7
 The B2B v1.5.0 release includes new features, quality improvements, and bug fixes.
 
 ![New](../assets/new.svg) Improvements to quoting capabilities help Buyers and Sellers manage quotes and quote negotiation more effectively.
@@ -100,7 +100,7 @@ The B2B v1.5.0 release includes new features, quality improvements, and bug fixe
 
 *October 8, 2024*
 
-[!BADGE Supported]{type=Informative tooltip="Supported"} Supported on 2.4.7-p3+ and 2.4.6-p8+ security patch releases.
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.7-p3+ and 2.4.6-p8+ security patch releases.
 
 ![New](../assets/new.svg) Added compatibility with Adobe Commerce 2.4.7-p3+ and 2.4.6-p8+ security patch releases.
 
@@ -112,7 +112,7 @@ The B2B v1.5.0 release includes new features, quality improvements, and bug fixe
 
 ## B2B v1.4.2-p2
 
-[!BADGE Supported]{type=Informative tooltip="Supported"} Supported on 2.4.7-p2+ and 2.4.6-p7+ security patch releases.
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.7-p2+ and 2.4.6-p7+ security patch releases.
 
 ![New](../assets/new.svg) Added compatibility with Adobe Commerce 2.4.7-p2+ and 2.4.6-p7+ security patch releases.
 
@@ -126,7 +126,7 @@ The B2B v1.5.0 release includes new features, quality improvements, and bug fixe
 
 *August 9, 2024*
 
-[!BADGE Supported]{type=Informative tooltip="Supported"} Supported on Adobe Commerce 2.4.7-p1+ and 2.4.6-p6+ security patch releases.
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.7-p1+ and 2.4.6-p6+ security patch releases.
 
 ![New](../assets/new.svg) Added compatibility with Adobe Commerce 2.4.7-p1+ and 2.4.6-p6+ security patch releases.
 
@@ -138,7 +138,7 @@ The B2B v1.5.0 release includes new features, quality improvements, and bug fixe
 
 *October 10, 2023*
 
-[!BADGE Supported]{type=Informative tooltip="Supported"} Supported on the Adobe Commerce version 2.4.7 and version from 2.4.6 to 2.4.6-p5.
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce version 2.4.7 and version from 2.4.6 to 2.4.6-p5.
 
 The B2B v1.4.2 release includes quality improvements and bug fixes.
 
@@ -152,7 +152,7 @@ The B2B v1.4.2 release includes quality improvements and bug fixes.
 
 *August 7, 2023*
 
-[!BADGE Supported]{type=Informative tooltip="Supported"} Supported on [Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Compatible with Adobe Commerce 2.4.7-beta1.
+[!BADGE Supported]{type=Informative tooltip="Supported"} [Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Compatible with Adobe Commerce 2.4.7-beta1.
 
 The B2B v1.4.1 release includes quality improvements and bug fixes.
 
@@ -170,7 +170,7 @@ The B2B v1.4.1 release includes quality improvements and bug fixes.
 
 *June 13, 2023*
 
-[!BADGE Supported]{type=Informative tooltip="Supported"} Supported on [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Compatible with Adobe Commerce 2.4.7-beta1
+[!BADGE Supported]{type=Informative tooltip="Supported"} [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Compatible with Adobe Commerce 2.4.7-beta1
 
 This release includes new capabilities and enhancements for B2B negotiable quotes and multiple bug fixes.
 
@@ -214,7 +214,7 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 
 *October 8, 2024*
 
-[!BADGE Supported]{type=Informative tooltip="Supported"} Supported on 2.4.6-p8+ security patch releases.
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.6-p8+ security patch releases.
 
 ![New](../assets/new.svg) Added compatibility with the Adobe Commerce 2.4.6-p8 security patch releases.
 
@@ -224,7 +224,7 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 
 *August 9, 2024*
 
-[!BADGE Supported]{type=Informative tooltip="Supported"} Supported on 2.4.6-p7+ security patch releases.
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.6-p7+ security patch releases.
 
 ![New](../assets/new.svg) Added compatibility with the Adobe Commerce 2.4.6-p7 security patch releases.
 
