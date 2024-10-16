@@ -31,7 +31,7 @@ When you add a company user, the first company you associate with the user accou
 
       Turn it on to immediately activate the account, or disable it to create an inactive account.
 
-   1. Select the Website scope from the **[!UICONTROL Associate to Website]** list.
+   1. Select the website scope from the **[!UICONTROL Associate to Website]** list.
 
    1. Click **[!UICONTROL Associate to Company]** to view available companies.
 

@@ -56,7 +56,7 @@ After creating the account, the company administrator defines the company struct
 
 1. Follows the instructions and clicks [!UICONTROL **link**] to set their password.
 
-1. Enters a [!UICONTROL **New Password**] and password configurmation for their account.
+1. Enters a [!UICONTROL **New Password**] and password confirmation for their account.
 
    The password must include at least three of the following character types:
 

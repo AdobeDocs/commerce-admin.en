@@ -29,7 +29,7 @@ When you enable support for customer companies, additional B2B features are enab
 
 Configuration settings for these features are visible only when [!DNL Enable Company] is set to `Yes`.
 
-B2B [[!DNL Quick Order]](quick-order.md) and [[!DNL Requisition List]](requisition-lists.md) features can be enabled and disabled independently.
+The B2B [[!DNL Quick Order]](quick-order.md) and [[!DNL Requisition List]](requisition-lists.md) features can be enabled and disabled independently.
 
 ## Configure B2B features
 

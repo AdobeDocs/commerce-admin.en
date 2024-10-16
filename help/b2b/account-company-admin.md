@@ -41,7 +41,7 @@ The company administrator is initially assigned when the company account is firs
 
 1. When complete, click **[!UICONTROL Save]**.
 
-   The individual account of the former company administrator remains in the system as an active user account, assigned to the default user role. If this is the only company associated with the user account, the account type changes from *[!UICONTROL Company user]* to *[!UICONTROL Individual user]*
+   The individual account of the former company administrator remains in the system as an active user account, assigned to the default user role. If this is the only company associated with the user account, the account type changes from *[!UICONTROL Company user]* to *[!UICONTROL Individual user]*.
 
    The system sends email notification of the change to the new and former company administrators.
 

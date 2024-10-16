@@ -10,7 +10,7 @@ The _[!UICONTROL Companies]_ page lists all current company accounts, regardless
 
 ![Companies Grid](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
-Use the *[!UICONTROL Columns]* control to customize the columns displayed in the grid. Customize the company information displayed in the view using the search and filter capabilities.
+Use the *[!UICONTROL Columns]* control to customize the columns displayed in the grid. Customize the companies displayed in the view using the search and filter capabilities.
 
 - Find companies in the **Companies** grid by using the _[!UICONTROL Search]_. The search indexes the **Company Name** and **Parent** columns.
 
