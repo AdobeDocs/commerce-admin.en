@@ -36,7 +36,7 @@ The B2B v1.5.0 release includes new features, quality improvements, and bug fixe
 
 - Sort and filter companies by the new [!UICONTROL Company Type] setting. In the companies grid, the *[!UICONTROL Company Type]* column indicates whether a company is an individual company or part of organizational hierarchy (parent or child).
 
-![New](../assets/new.svg) **Manage company configuration at scale**<!--B2B-2849-->Quickly change company configuration settings for selected companies using the **Change company settings** bulk action now available when managing companies from the **[!UICONTROL Companies]** or **[!UICONTROL Company Hierarchy]** grid. For example, if you create a new shared catalog for a group of companies, you can change the shared catalog configuration in a single action instead of editing each company individually.
+![New](../assets/new.svg) **Manage company configuration at scale**<!--B2B-2849-->—Quickly change company configuration settings for selected companies using the **Change company settings** bulk action now available when managing companies from the **[!UICONTROL Companies]** or **[!UICONTROL Company Hierarchy]** grid. For example, if you create a new shared catalog for a group of companies, you can change the shared catalog configuration in a single action instead of editing each company individually.
 
 ![New](../assets/new.svg) API Developers can use the new Company Relations REST API endpoint `/V1/company/{parentId}/relations` to create, view, and remove company assignments. See [Manage company objects](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/) in the *Web API Developer Guide*.
 
@@ -44,6 +44,7 @@ The B2B v1.5.0 release includes new features, quality improvements, and bug fixe
 
 ![New](../assets/new.svg)<!--B2B-2828-->**Multi-company assignment**—Simplify company account access for company users by assigning a user to multiple companies. For example, if you have a buyer that orders from multiple company sites, create a single company account and assign all companies the buyer works with to that account. Then, the buyer can log in one time, and switch between company accounts by choosing the company from the storefront.
 
+![New](../assets/new.svg)<!--B2B-2747-->—**Company switcher**—Provides ability for company users that are assigned to multiple companies to switch between companies. On the storefront, customers can use a *[!UICONTROL Company]* scope selector to switch between companies. When the scope is switched, the data context changes to show the information for the new company. For example, if the new company uses a different shared catalog, the company user sees products, prices, and other information based on the new shared catalog. Content related to orders, quotes, quote templates also updates based on the context of the selected company.
 
 ![Fixed issue](../assets/fix.svg)<!--ACP2E-1933-->Company administrators can now add company users from the storefront. Previously, Commerce logged an error when an Admin user tried to add a new user: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
 
