@@ -10,7 +10,7 @@ The _[!UICONTROL Companies]_ page lists all current company accounts, regardless
 
 ![Companies Grid](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
-Customize the company information displayed in the view using the search and filter capabilities.
+Use the *[!UICONTROL Columns]* control to customize the columns displayed in the grid. Customize the companies displayed in the view using the search and filter capabilities.
 
 - Find companies in the **Companies** grid by using the _[!UICONTROL Search]_. The search indexes the **Company Name** and **Parent** columns.
 
@@ -164,7 +164,7 @@ Method 2: **Full edit**
 
 1. Make the necessary changes to the company information.
 
-  For field descriptions, see [Create a company account](account-company-create.md).
+   For field descriptions, see [Create a company account](account-company-create.md).
 
 1. When complete, click **[!UICONTROL Save]**.
 
@@ -279,7 +279,6 @@ The following columns are available by changing the [column layout](../getting-s
 | Button                         | Description                                                                                                                                                                                                                                                         |
 |--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Back]              | Returns to the Companies page without saving changes.                                                                                                                                                                                                               |
-| [!UICONTROL Login as Customer] | Allows an Admin user to [log in to the storefront as the customer](../customers/login-as-customer.md) and help with their orders.                                                                                                                                   |
 | [!DNL Delete Company]          | Deletes the company account. The status of user accounts that are associated with the company is set to `Inactive` and the Company ID is removed from the profiles of user accounts. Information about company activity and transactions is retained in the system. |
 | [!DNL Reset]                   | Restores the original values to any fields with unsaved changes.                                                                                                                                                                                                    |
 | [!DNL Reimburse Balance]       | Allows the administrator to reimburse the balance from store credit, referenced by PO number.                                                                                                                                                                       |
@@ -307,19 +306,10 @@ The following columns are available by changing the [column layout](../getting-s
 | [!UICONTROL VAT / TAX ID]       | The tax or [value-added tax](../stores-purchase/vat.md) number that is assigned to the company for tax reporting purposes. |
 | [!UICONTROL Reseller ID]        | The resale number that is assigned to the company for tax reporting purposes.                                              |
 | [!UICONTROL Comment]            | These notes about the company account are for reference and visible only from the Admin.                                   |
-| **[!UICONTROL Legal Address]**  |                                                                                                                            |
-| [!UICONTROL Street Address]     | The street address where the company is registered to conduct business.                                                    |
-| [!UICONTROL City]               | The city where the company is registered to conduct business.                                                              |
-| [!UICONTROL Country]            | The country where the company is registered to conduct business.                                                           |
-| [!UICONTROL State/Province]     | The state or province where the company is registered to conduct business.                                                 |
-| [!UICONTROL ZIP/Postal Code]    | The ZIP or postal code where the company is registered to conduct business.                                                |
-| [!UICONTROL Phone Number]       | The primary phone number of the company.                                                                                   |
 
 {style="table-layout:auto"}
 
 #### [!UICONTROL Company Hierarchy]
-
-[!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Available only for Beta program participants"}
 
 | Columns                     | Description                                                                                                                                          |
 |-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -335,10 +325,24 @@ The following columns are available by changing the [column layout](../getting-s
 
 {style="table-layout:auto"}
 
+#### [!UICONTROL Legal Address]
+
+| Columns                     | Description                                                                                                                                          |
+|-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Street Address]     | The street address where the company is registered to conduct business.                                                    |
+| [!UICONTROL City]               | The city where the company is registered to conduct business.                                                              |
+| [!UICONTROL Country]            | The country where the company is registered to conduct business.                                                           |
+| [!UICONTROL State/Province]     | The state or province where the company is registered to conduct business.                                                 |
+| [!UICONTROL ZIP/Postal Code]    | The ZIP or postal code where the company is registered to conduct business.                                                |
+| [!UICONTROL Phone Number]       | The primary phone number of the company.                                                                                   |
+
+{style="table-layout:auto"}
+
 #### [!UICONTROL Company Admin]
 
 | Field                            | Description                                                                                                                                                                                                                                      |
 |----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Website]           | Set the [website scope](../getting-started/websites-stores-views.md) for the company account. Defaults to the *[!UICONTROL Main Website]*.                                                                                                |
 | [!UICONTROL Job Title]           | The title of the company administrator who manages the company account.                                                                                                                                                                          |
 | [!UICONTROL Email]               | The email address of the company administrator can be the same as the company email address. If a different email address is entered, a separate individual account is created for the company administrator in addition to the company account. |
 | [!UICONTROL Prefix]              | If applicable, the prefix that is associated with the name of the company administrator (such as `Mr.`, `Ms.`, `Mrs.`, or `Dr.`). Depending on the configuration, the input field might be a text field or list.                                 |
@@ -347,6 +351,7 @@ The following columns are available by changing the [column layout](../getting-s
 | [!UICONTROL Last Name]           | The last name of the company administrator.                                                                                                                                                                                                      |
 | [!UICONTROL Suffix]              | If applicable, the suffix that is associated with the name of the company administrator (such as `Jr.`, `Sr.`, or `III`). Depending on the configuration, the input field might be a text field or list.                                         |
 | [!UICONTROL Gender]              | The gender of the company administrator. Options: `Male` / `Female` / `Not Specified`                                                                                                                                                            |
+| [!UICONTROL Send Welcome Email From]              | Set the storeview to use when sending the welcome email to the new company administrator if you do not want to use the *[!UICONTROL Default Store View]*.                                                                                                                                                             |
 
 {style="table-layout:auto"}
 

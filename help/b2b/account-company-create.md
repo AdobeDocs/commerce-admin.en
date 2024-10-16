@@ -15,7 +15,7 @@ The person who sets up a company account from the storefront is assigned a role 
 
 >[!IMPORTANT]
 >
->To support this method (allowing customers to register their company from the storefront), make sure that the [B2B Features](enable-basic-features.md) are configured so that **[!UICONTROL Allow Company Registration from the Storefront]** is set to `Yes`.
+>To support this method (allowing customers to register their company from the storefront), make sure that the [B2B Features](enable-basic-features.md) are enabled.
 
 1. In the upper-right corner of the storefront header, the customer clicks **[!UICONTROL Create an Account]** and chooses **[!UICONTROL Create New Company Account]**.
 
@@ -23,7 +23,7 @@ The person who sets up a company account from the storefront is assigned a role 
 
    >[!NOTE]
    >
-   >If a visitor is logged in to a registered user account, they can create a company account by navigating to _[!UICONTROL Customer Profile]_ > **[!UICONTROL Company Structure]** > **[!UICONTROL Create a Company Account]**. Upon creation of the company account, the customer's account is assigned as the primary contact. Otherwise, the system creates a customer, who receives an email to set a password.
+   >If a visitor is logged in to a registered user account, they can create a company account by navigating to _[!UICONTROL Customer Profile]_ > **[!UICONTROL Company Structure]** > **[!UICONTROL Create a Company Account]**.
 
 1. In the _[!UICONTROL Company Information]_ section, the customer does the following:
 
