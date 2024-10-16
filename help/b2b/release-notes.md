@@ -26,40 +26,39 @@ Compatible with Adobe Commerce versions 2.4.8-beta1, 2.4.7 to 2.4.7-p2, 2.4.6 to
 
 The B2B v1.5.0 release includes new features, quality improvements, and bug fixes.
 
-![New](../assets/new.svg) Improvements to quoting capabilities help Buyers and Sellers manage quotes and quote negotiation more effectively.
-
-
 ### Company Management
 
 ![New](../assets/new.svg) **Company Management**<!--B2B-2901-->—Merchants can now view and manage Adobe Commerce companies as hierarchical organizations by assigning companies to designated parent companies. After a company is assigned to a parent, the parent company administrator can manage the company account. Only authorized Admin users can add and manage company assignments. For details, see [Manage company hierarchy](manage-company-hierarchy.md).
 
-- Add and manage company assignments from the new **[!UICONTROL Company Hierarchy]** section on the [!UICONTROL Company Account] page.
+- Add and manage company assignments from the new *[!UICONTROL Company Hierarchy]* section on the *[!UICONTROL Company Account]* page in the Admin.
 
-- Sort and filter companies by the new [!UICONTROL Company Type] setting. In the companies grid, the *[!UICONTROL Company Type]* column indicates whether a company is an individual company or part of organizational hierarchy (parent or child).
+- Sort and filter companies by the new *[!UICONTROL Company Type]* setting. In the companies grid, the *[!UICONTROL Company Type]* column indicates whether a company is an individual company or part of organizational hierarchy (parent or child).
 
-![New](../assets/new.svg) **Manage company configuration at scale**<!--B2B-2849-->—Quickly change company configuration settings for selected companies using the **Change company settings** bulk action now available when managing companies from the **[!UICONTROL Companies]** or **[!UICONTROL Company Hierarchy]** grid. For example, if you create a new shared catalog for a group of companies, you can change the shared catalog configuration in a single action instead of editing each company individually.
+![New](../assets/new.svg) **Manage company configuration at scale**<!--B2B-2849-->—Quickly change company configuration settings for selected companies using the *[!UICONTROL Change company setting]* bulk action now available when managing companies from the *[!UICONTROL Companies]* or *[!UICONTROL Company Hierarchy]* grid. For example, if you create a new shared catalog for a group of companies, you can change the shared catalog configuration in a single action instead of editing each company individually.
 
 ![New](../assets/new.svg) API Developers can use the new Company Relations REST API endpoint `/V1/company/{parentId}/relations` to create, view, and remove company assignments. See [Manage company objects](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/) in the *Web API Developer Guide*.
 
 ### Company Accounts
 
-![New](../assets/new.svg)<!--B2B-2828-->**Multi-company assignment**—Simplify company account access for company users by assigning a user to multiple companies. For example, if you have a buyer that orders from multiple company sites, create a single account and assign all companies the buyer works with to that account. Then, the buyer can log in one time, and switch between company accounts by choosing the company from the storefront.
+![New](../assets/new.svg)<!--B2B-2828--> **Multi-company assignment**—Simplify company account access for company users by assigning a user to multiple companies. For example, if you have a buyer that orders from multiple company sites, create a single account and assign all companies the buyer works with to that account. Then, the buyer can log in one time, and switch between company accounts by choosing the company from the storefront.
 
 >[!NOTE]
 >
 >A company user can be assigned to multiple companies, but they can be the company administrator for only one company.
 
-![New](../assets/new.svg)<!--B2B-2747-->—**Company scope selector**—Provides ability for company users that are assigned to multiple companies to change companies on the storefront. When the scope is switched, the data updates to show the information based on the new company context. For example, if the new company uses a different shared catalog, the company user sees products, prices, and other information based on the new shared catalog. Content related to orders, quotes, quote templates also updates based on the context of the selected company.
+![New](../assets/new.svg) <!--B2B-2747-->—**Company scope selector**—Provides ability for company users that are assigned to multiple companies to change companies on the storefront. When the scope is switched, the data updates to show the information based on the new company context. For example, if the new company uses a different shared catalog, the company user sees products, prices, and other information based on the new shared catalog. Content related to orders, quotes, quote templates also updates based on the context of the selected company.
 
 >[!NOTE]
 >
 >If the company user switches companies with items in the shopping cart, update the cart to reflect product assortment, pricing and promotional discounts based on the new company context.
 
-![Fixed issue](../assets/fix.svg)<!--ACP2E-1933-->Company administrators can now add company users from the storefront. Previously, Commerce logged an error when an Admin user tried to add a new user: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
+![Fixed issue](../assets/fix.svg)<!--ACP2E-1933--> Company administrators can now add company users from the storefront. Previously, Commerce logged an error when an Admin user tried to add a new user: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
 
 ### Quotes and Quote Templates
 
-![New](../assets/new.svg) **Quote templates**<!--B2B-3367-->Buyers and sellers can now streamline the quote process by creating reusable and customizable quote templates. Using quote templates, the quote negotiation process can be completed once, and buyers can generate pre-approved linked quotes for recurring orders instead of going through the quote negotiation process for each order. Quote templates extend the existing quote functionality by adding the following advanced features:
+Improvements to quoting capabilities help Buyers and Sellers manage quotes and quote negotiation more effectively.
+
+![New](../assets/new.svg) **Quote templates**—<!--B2B-3367-->Buyers and sellers can now streamline the quote process by creating reusable and customizable quote templates. Using quote templates, the quote negotiation process can be completed once, and buyers can generate pre-approved linked quotes for recurring orders instead of going through the quote negotiation process for each order. Quote templates extend the existing quote functionality by adding the following advanced features:
 
 - **Order thresholds** allow sellers to set minimum and maximum order commitments, ensuring the buyer adhere to agreed-upon purchasing volumes.
 - **Setting minimum and maximum item order quantities** provides the buyer with the flexibility to adjust order quantities on the linked quote without requiring a new template or further negotiation.
@@ -78,19 +77,19 @@ The B2B v1.5.0 release includes new features, quality improvements, and bug fixe
 
 - **Move quote item to requisition list**<!--B2B-2755-->—Buyers now have the flexibility to remove products from a quote and save them to a requisition list if they decide not to include them in the quote negotiation process.
 
-- **Remove multiple products from a quote**<!--B2B-2881-->—On quotes with a large number of products, buyers can now remove multiple products from the quote by selecting them and using the [!UICONTROL Remove] option from the [!UICONTROL Actions] control on the Quote detail page. In previous releases, a buyer had to delete products one at time.
+- **Remove multiple products from a quote**<!--B2B-2881-->—On quotes with a large number of products, buyers can now remove multiple products from the quote by selecting them and using the *[!UICONTROL Remove]* option from the *[!UICONTROL Actions]* control on the Quote detail page. In previous releases, a buyer had to delete products one at time.
 
 - **Line item discount locking**<!--B2B-2597-->—During quote negotiation, sellers can use line item discount locking for more flexibility when applying discounts during the quote negotiation process. For example, a Seller can apply a special line item discount to an item and lock the item to prevent further discounting. When an item is locked, the item price cannot be updated when a quote-level discount is applied. See [Initiate quote for a buyer](sales-rep-initiates-quote.md).
 
 ![Fixed issue](../assets/fix.svg) **Fixes for existing quote capabilities**
 
-- <!--ACP2E-1984-->Merchants clicking the **[!UICONTROL Print]** button in the Quote detail view in the Admin are now prompted to save the quote as a PDF. Previously, merchants were redirected to a page that contained quote details.
+- Merchants clicking the *[!UICONTROL Print]* button in the Quote detail view in the Admin are now prompted to save the quote as a PDF. Previously, merchants were redirected to a page that contained quote details. <!--ACP2E-1984-->
 
-- <!--ACP2E-1742-->Previously when sending a customer quote with 0 percentage and changing quantity, the admin throws an exception but saved the quantity. After this fix applies, for the `0 percentage` proper exception with a message will be thrown.
+- Previously when sending a customer quote with `0` percentage and changing quantity, the admin throws an exception but saved the quantity. After this fix applies, for the `0 percentage` proper exception with a message will be thrown. <!--ACP2E-1742-->
 
-- <!--ACP2E-1742-->During quote negotiation, a seller can now specify a `0%` discount in the Negotiated Quote quote discount field and send the quote back to the buyer. Previously, if the seller entered a 0% discount and sent the quote back to the buyer, the Admin returned an `Exception occurred during quote sending` error message.
+- During quote negotiation, a seller can now specify a `0%` discount in the Negotiated Quote quote discount field and send the quote back to the buyer. Previously, if the seller entered a 0% discount and sent the quote back to the buyer, the Admin returned an `Exception occurred during quote sending` error message. <!--ACP2E-1742-->
 
-- <!--ACP2E-2097-->ReCaptcha validation now works correctly during the checkout process for a B2B quote when ReCaptcha V3 is configured for storefront checkout. Previously,  the validation failed with a `recaptcha validation failed, please try again` error message.
+- ReCaptcha validation now works correctly during the checkout process for a B2B quote when ReCaptcha V3 is configured for storefront checkout. Previously,  the validation failed with a `recaptcha validation failed, please try again` error message.  <!--ACP2E-2097-->
 
 ### Purchase Orders
 
