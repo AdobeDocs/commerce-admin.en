@@ -70,6 +70,11 @@ The following instructions are written from the perspective of a shared user who
 
    ![Shared with me](./assets/shared-with-me.png){width="600" zoomable="yes"}
 
+   >[!NOTE]
+   >
+   >   If you do not see the _[!UICONTROL Switch Accounts]_ control, contact the primary account holder and confirm they have your correct [account information](#set-up-a-shared-account).
+
+
 1. To gain access to the shared account, set **[!UICONTROL Switch Accounts]** to the name of the shared account.
 
    ![Switch to the shared account](./assets/shared-switch.png){width="600" zoomable="yes"}
