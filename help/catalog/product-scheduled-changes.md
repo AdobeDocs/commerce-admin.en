@@ -10,7 +10,7 @@ feature: Catalog Management, Products
 
 Product updates can be applied on schedule and grouped with other content changes. You can use [content staging](../content-design/content-staging.md) to create a campaign based on scheduled changes to the product, or apply the changes to an existing campaign.
 
-When scheduling product updates, keep the following in mind:
+When configuring schedules for product updates and editing campaigns, keep the following in mind:
 
 - All scheduled updates are applied consecutively, which means that any entity can have only one scheduled update at one time. Any scheduled update is applied to all store views within its time frame. As a result, an entity cannot have different scheduled updates for different store views at the same time. All entity attribute values within all store views, which are not affected by the current scheduled update, are taken from the default values, and not from the previous scheduled update.
 
