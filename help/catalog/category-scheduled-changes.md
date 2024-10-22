@@ -10,7 +10,7 @@ feature: Catalog Management, Categories
 
 Category updates can be applied on schedule, and grouped with other content changes. You can create a campaign based on scheduled changes to the category, or apply the changes to an existing campaign. To learn more, see [Content Staging](../content-design/content-staging.md).
 
-When modifying campaigns, keep the following in mind:
+When scheduling changes for categories, keep the following in mind:
 
 - All scheduled updates are applied consecutively, which means that any entity can have only one scheduled update at one time. Any scheduled update is applied to all store views within its time frame. As a result, an entity cannot have multiple scheduled updates for different store views at the same time. All entity attribute values within all store views, which are not affected by the current scheduled update, are taken from the default values, and not from the previous scheduled update.
 
