@@ -64,6 +64,8 @@ This transfer type requires that you first create an associated Adobe ID and the
 
 1. Click **[!UICONTROL Verify]**.
 
+>[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on)
+
 ## Email change
 
 >[!IMPORTANT]
