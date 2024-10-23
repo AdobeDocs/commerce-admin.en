@@ -24,6 +24,10 @@ If there are multiple price rules running in the same campaign, the _[!UICONTROL
 
 >[!NOTE]
 >
+>If an active campaign is initially created without an end date, the campaign cannot be edited later to include an end date. In such a case, it is necessary to create a duplicate campaign and enter the end date that is needed.
+
+>[!NOTE]
+>
 >If a campaign is linked to more than one cart price rule, the campaign can be edited only from the [Content Staging Dashboard](../content-design/content-staging-dashboard.md).
 
 Keep in mind the following caveats:
