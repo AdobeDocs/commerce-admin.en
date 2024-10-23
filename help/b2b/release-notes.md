@@ -19,17 +19,57 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 
 ## B2B 1.5.0
 
-*Month dd, 2024*
+*October 30, 2024*
 
-[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce versions 2.4.5 (TBD), 2.4.6-p3+, 2.4.7 and later.
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce versions 2.4.7-p3+ and 2.4.6-p8+ security patch releases.
+Compatible with Adobe Commerce versions 2.4.8-beta1, 2.4.7 to 2.4.7-p2, 2.4.6 to 2.4.6-p7
 
 The B2B v1.5.0 release includes new features, quality improvements, and bug fixes.
 
-![New](../assets/new.svg) Improvements to quoting capabilities help Buyers and Sellers manage quotes and quote negotiation more effectively.
+### Company Management
 
-- **Save Quote as Draft**<!--B2B-2566-->—When creating a [quote request](quote-request.md) from the shopping cart, buyers can now save the quote as a draft so that they can review and update it before initiating the quote negotiation process with the seller.
+![New](../assets/new.svg) **Company Management**<!--B2B-2901-->—Merchants can now view and manage Adobe Commerce companies as hierarchical organizations by assigning companies to designated parent companies. After a company is assigned to a parent, the parent company administrator can manage the company account. Only authorized Admin users can add and manage company assignments. For details, see [Manage company hierarchy](manage-company-hierarchy.md).
 
-  The draft quote does not have an expiration date. Buyers can review and update draft quotes from the [!UICONTROL My Quotes] section of their account dashboard.
+- Add and manage company assignments from the new *[!UICONTROL Company Hierarchy]* section on the *[!UICONTROL Company Account]* page in the Admin.
+
+- Sort and filter companies by the new *[!UICONTROL Company Type]* setting. In the companies grid, the *[!UICONTROL Company Type]* column indicates whether a company is an individual company or part of organizational hierarchy (parent or child).
+
+![New](../assets/new.svg) **Manage company configuration at scale**<!--B2B-2849-->—Quickly change company configuration settings for selected companies using the *[!UICONTROL Change company setting]* bulk action now available when managing companies from the *[!UICONTROL Companies]* or *[!UICONTROL Company Hierarchy]* grid. For example, if you create a new shared catalog for a group of companies, you can change the shared catalog configuration in a single action instead of editing each company individually.
+
+![New](../assets/new.svg) API Developers can use the new Company Relations REST API endpoint `/V1/company/{parentId}/relations` to create, view, and remove company assignments. See [Manage company objects](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/) in the *Web API Developer Guide*.
+
+### Company Accounts
+
+![New](../assets/new.svg)<!--B2B-2828--> **Multi-company assignment**—Simplify company account access for company users by assigning a user to multiple companies. For example, if you have a buyer that orders from multiple company sites, create a single account and assign all companies the buyer works with to that account. Then, the buyer can log in one time, and switch between company accounts by choosing the company from the storefront.
+
+>[!NOTE]
+>
+>A company user can be assigned to multiple companies, but they can be the company administrator for only one company.
+
+![New](../assets/new.svg) <!--B2B-2747--> **Company scope selector**—Provides ability for company users that are assigned to multiple companies to change companies on the storefront. When the scope is switched, the data updates to show the information based on the new company context. For example, if the new company uses a different shared catalog, the company user sees products, prices, and other information based on the new shared catalog. Content related to orders, quotes, quote templates also updates based on the context of the selected company.
+
+>[!NOTE]
+>
+>If the company user switches companies with items in the shopping cart, update the cart to reflect product assortment, pricing and promotional discounts based on the new company context.
+
+![Fixed issue](../assets/fix.svg)<!--ACP2E-1933--> Company administrators can now add company users from the storefront. Previously, Commerce logged an error when an Admin user tried to add a new user: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
+
+### Quotes and Quote Templates
+
+Improvements to quoting capabilities help Buyers and Sellers manage quotes and quote negotiation more effectively.
+
+![New](../assets/new.svg) **Quote templates**—<!--B2B-3367-->Buyers and sellers can now streamline the quote process by creating reusable and customizable quote templates. Using quote templates, the quote negotiation process can be completed once, and buyers can generate pre-approved linked quotes for recurring orders instead of going through the quote negotiation process for each order. Quote templates extend the existing quote functionality by adding the following advanced features:
+
+- **Order thresholds** allow sellers to set minimum and maximum order commitments, ensuring the buyer adhere to agreed-upon purchasing volumes.
+- **Setting minimum and maximum item order quantities** provides the buyer with the flexibility to adjust order quantities on the linked quote without requiring a new template or further negotiation.
+- **Track the number of linked quotes generated and successfully completed orders** to gain insights into the fulfillment of negotiated agreements.
+- **Linked quotes** are pre-approved quotes that the buyer generates from an active quote template to submit recurring orders based on the terms negotiated in the quote template.
+
+![New](../assets/new.svg) **Improvements to existing quote capabilities**
+
+- **Updated Commerce Access Control List (ACL) rules** allow B2B managers and supervisors to manage quotes and quote templates of subordinate users. Separate rules support granular configuration for view, edit, and delete access.
+
+- **Save Quote as Draft**<!--B2B-2566-->—When creating a [quote request](quote-request.md) from the shopping cart, buyers can now save the quote as a draft so that they can review and update it before initiating the quote negotiation process with the seller. The draft quote does not have an expiration date. Buyers can review and update draft quotes from the [!UICONTROL My Quotes] section of their account dashboard.
 
 - **Rename Quote**<!--B2B-2596-->—Buyers can now change a quote name from the [Quote detail](account-dashboard-my-quotes.md#quote-actions) page by selecting the **[!UICONTROL Rename]** option. This option is available to authorized buyers when they are editing the quote. Name change events are recorded in the Quote History Log.
 
@@ -37,35 +77,29 @@ The B2B v1.5.0 release includes new features, quality improvements, and bug fixe
 
 - **Move quote item to requisition list**<!--B2B-2755-->—Buyers now have the flexibility to remove products from a quote and save them to a requisition list if they decide not to include them in the quote negotiation process.
 
-- **Remove multiple products from a quote**<!--B2B-2881-->—On quotes with a large number of products, buyers can now remove multiple products from the quote by selecting them and using the [!UICONTROL Remove] option from the [!UICONTROL Actions] control on the Quote detail page. In previous releases, a buyer had to delete products one at time.
+- **Remove multiple products from a quote**<!--B2B-2881-->—On quotes with a large number of products, buyers can now remove multiple products from the quote by selecting them and using the *[!UICONTROL Remove]* option from the *[!UICONTROL Actions]* control on the Quote detail page. In previous releases, a buyer had to delete products one at time.
 
-- **Line item discount locking**<!--B2B-2597-->—During quote negotiation, sellers can use line item discount locking for more flexibility when applying discounts during the quote negotation process. For example, a Seller can apply a special line item discount to an item and lock the item to prevent further discounting. When an item is locked, the item price cannot be updated when a quote-level discount is applied. See [Initiate quote for a buyer](sales-rep-initiates-quote.md).
+- **Line item discount locking**<!--B2B-2597-->—During quote negotiation, sellers can use line item discount locking for more flexibility when applying discounts during the quote negotiation process. For example, a Seller can apply a special line item discount to an item and lock the item to prevent further discounting. When an item is locked, the item price cannot be updated when a quote-level discount is applied. See [Initiate quote for a buyer](sales-rep-initiates-quote.md).
 
-![New](../assets/new.svg)**Company Management**<!--B2B-2901-->—Merchants can now view and manage Adobe Commerce companies as hierarchical organizations by assigning companies to designated parent companies. After a company is assigned to a parent, the parent company administrator can manage the company account. Only authorized Admin users can add and manage company assignments. For details, see [Manage company hierarchy](manage-company-hierarchy.md).
+![Fixed issue](../assets/fix.svg) **Fixes for existing quote capabilities**
 
-- On the Companies page, a new **[!UICONTROL Company Type]** field identifies parent and child companies. Merchants can filter the company view by company type, and manage companies using line item or bulk actions.
+- Merchants clicking the *[!UICONTROL Print]* button in the Quote detail view in the Admin are now prompted to save the quote as a PDF. Previously, merchants were redirected to a page that contained quote details. <!--ACP2E-1984-->
 
-- Merchants can add and manage company assignments from the new **[!UICONTROL Company Hierarchy]** section on the [!UICONTROL Company Account] page.
+- Previously when sending a customer quote with `0` percentage and changing quantity, the admin throws an exception but saved the quantity. After this fix applies, for the `0 percentage` proper exception with a message will be thrown. <!--ACP2E-1742-->
 
-- API Developers can use the new Company Relations REST API endpoint `/V1/company/{parentId}/relations` to create, view, and remove company assignments. See [Manage company objects](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/) in the *Web API Developer Guide*.
+- During quote negotiation, a seller can now specify a `0%` discount in the Negotiated Quote quote discount field and send the quote back to the buyer. Previously, if the seller entered a 0% discount and sent the quote back to the buyer, the Admin returned an `Exception occurred during quote sending` error message. <!--ACP2E-1742-->
 
-![Fixed issue](../assets/fix.svg)<!--ACP2E-1984-->Merchants clicking the **[!UICONTROL Print]** button in the Quote detail view in the Admin are now prompted to save the quote as a PDF. Previously, merchants were redirected to a page that contained quote details.
+- ReCaptcha validation now works correctly during the checkout process for a B2B quote when ReCaptcha V3 is configured for storefront checkout. Previously,  the validation failed with a `recaptcha validation failed, please try again` error message.  <!--ACP2E-2097-->
 
-![Fixed issue](../assets/fix.svg) <!--ACP2E-1742-->Previously when sending a customer quote with 0 percentage and changing quantity, the admin throws an exception but saved the quantity. After this fix applies, for the `0 percentage` proper exception with a message will be thrown.
-
-![Fixed issue](../assets/fix.svg) <!--ACP2E-1742-->During quote negotiation, a seller can now specify a `0%` discount in the Negotiated Quote quote discount field and send the quote back to the buyer. Previously, if the seller entered a 0% discount and sent the quote back to the buyer, the Admin returned an `Exception occurred during quote sending` error message.
-
-![Fixed issue](../assets/fix.svg) <!--ACP2E-2097-->ReCaptcha validation now works correctly during the checkout process for a B2B quote when ReCaptcha V3 is configured for storefront checkout. Previously,  the validation failed with a `recaptcha validation failed, please try again` error message.
+### Purchase Orders
 
 ![Fixed issue](../assets/fix.svg) <!--ACP2E-1825-->Purchase orders can no longer be placed by a user associated with the company after the company has been blocked. Previously, a user associated with the company could place purchase orders when the company was blocked.
-
-![Fixed issue](../assets/fix.svg)<!--ACP2E-1933-->Company administrators can now add company users from the storefront. Previously, Commerce logged an error when an Admin user tried to add a new user: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
 
 ## B2B v1.4.2-p3
 
 *October 8, 2024*
 
-[!BADGE Supported]{type=Informative tooltip="Supported"} Supported on 2.4.7-p3+ and 2.4.6-p8+ security patch releases.
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.7-p3+ and 2.4.6-p8+ security patch releases.
 
 ![New](../assets/new.svg) Added compatibility with Adobe Commerce 2.4.7-p3+ and 2.4.6-p8+ security patch releases.
 
@@ -77,7 +111,7 @@ The B2B v1.5.0 release includes new features, quality improvements, and bug fixe
 
 ## B2B v1.4.2-p2
 
-[!BADGE Supported]{type=Informative tooltip="Supported"} Supported on 2.4.7-p2+ and 2.4.6-p7+ security patch releases.
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.7-p2+ and 2.4.6-p7+ security patch releases.
 
 ![New](../assets/new.svg) Added compatibility with Adobe Commerce 2.4.7-p2+ and 2.4.6-p7+ security patch releases.
 
@@ -91,7 +125,7 @@ The B2B v1.5.0 release includes new features, quality improvements, and bug fixe
 
 *August 9, 2024*
 
-[!BADGE Supported]{type=Informative tooltip="Supported"} Supported on Adobe Commerce 2.4.7-p1+ and 2.4.6-p6+ security patch releases.
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.7-p1+ and 2.4.6-p6+ security patch releases.
 
 ![New](../assets/new.svg) Added compatibility with Adobe Commerce 2.4.7-p1+ and 2.4.6-p6+ security patch releases.
 
@@ -103,7 +137,7 @@ The B2B v1.5.0 release includes new features, quality improvements, and bug fixe
 
 *October 10, 2023*
 
-[!BADGE Supported]{type=Informative tooltip="Supported"} Supported on the Adobe Commerce version 2.4.7 and version from 2.4.6 to 2.4.6-p5.
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce version 2.4.7 and version from 2.4.6 to 2.4.6-p5.
 
 The B2B v1.4.2 release includes quality improvements and bug fixes.
 
@@ -117,7 +151,7 @@ The B2B v1.4.2 release includes quality improvements and bug fixes.
 
 *August 7, 2023*
 
-[!BADGE Supported]{type=Informative tooltip="Supported"} Supported on [Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Compatible with Adobe Commerce 2.4.7-beta1.
+[!BADGE Supported]{type=Informative tooltip="Supported"} [Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Compatible with Adobe Commerce 2.4.7-beta1.
 
 The B2B v1.4.1 release includes quality improvements and bug fixes.
 
@@ -135,7 +169,7 @@ The B2B v1.4.1 release includes quality improvements and bug fixes.
 
 *June 13, 2023*
 
-[!BADGE Supported]{type=Informative tooltip="Supported"} Supported on [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Compatible with Adobe Commerce 2.4.7-beta1
+[!BADGE Supported]{type=Informative tooltip="Supported"} [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Compatible with Adobe Commerce 2.4.7-beta1
 
 This release includes new capabilities and enhancements for B2B negotiable quotes and multiple bug fixes.
 
@@ -179,7 +213,7 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 
 *October 8, 2024*
 
-[!BADGE Supported]{type=Informative tooltip="Supported"} Supported on 2.4.6-p8+ security patch releases.
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.6-p8+ security patch releases.
 
 ![New](../assets/new.svg) Added compatibility with the Adobe Commerce 2.4.6-p8 security patch releases.
 
@@ -189,7 +223,7 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 
 *August 9, 2024*
 
-[!BADGE Supported]{type=Informative tooltip="Supported"} Supported on 2.4.6-p7+ security patch releases.
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.6-p7+ security patch releases.
 
 ![New](../assets/new.svg) Added compatibility with the Adobe Commerce 2.4.6-p7 security patch releases.
 
