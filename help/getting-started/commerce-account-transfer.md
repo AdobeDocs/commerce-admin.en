@@ -64,6 +64,8 @@ This transfer type requires that you first create an associated Adobe ID and the
 
 1. Click **[!UICONTROL Verify]**.
 
+>[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on)
+
 ## Email change
 
 >[!IMPORTANT]
@@ -154,6 +156,6 @@ After the new owner successfully transfers their Adobe account to the current (n
 
 1. Click **[!UICONTROL Verify]**.
 
-1. **Submit a Support request** to inform the Support team that you have updated the account owner's email address.
+1. **Submit a Support request** to inform the Support team that you have updated the account owner's email address. Include the previous account owner's email address in your request.
  
  There are additional steps to be performed by Support, such as updating the email address on your [Commerce Marketplace](https://commercemarketplace.adobe.com/) profile.
