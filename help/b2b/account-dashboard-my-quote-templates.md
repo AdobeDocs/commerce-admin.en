@@ -18,7 +18,7 @@ The quote template list organizes templates by status.
 
 - **[!UICONTROL Inactive]** lists templates that have expired, been canceled, or are no longer valid because a buyer has used up the number of committed orders permitted.
 
-For the buyer, the [!UICONTROL My Quotes Templates] page is the focal point for all communication between buyer and seller during the negotiation process.
+For the buyer, the *[!UICONTROL My Quotes Templates]* page is the focal point for all communication between buyer and seller during the negotiation process.
 
 A buyer who accepts the negotiated terms offered by the seller can accept the template, and then use it to generate pre-approved linked quotes that can be used to place orders.
 
@@ -70,7 +70,7 @@ The buyer can begin the quote template negotiation process using either of the f
 
 ## Add a shipping address
 
-The buyer cannot accept a quote template until it has a shipping address. After adding the address,  and retbuyer must add a shipping address to the quote template and send it to the seller for review.
+The buyer cannot accept a quote template until it has a shipping address.
 
 1. The buyer logs in to their account.
 
@@ -88,7 +88,7 @@ After the buyer adds the address, they send the template back to the seller for 
 
 ## Generate a linked quote
 
-After the buyer accepts a quote template, they can use it to generate pre-approved linked quotes from the *[!UICONTROL My Quote Templates dashboard]* , or from the quote template by using the  **[!UICONTROL Generate a quote]** action.
+After the buyer accepts a quote template, they can use it to generate pre-approved, linked quotes from the *[!UICONTROL My Quote Templates dashboard]*, or from the quote template by using the  **[!UICONTROL Generate a quote]** action.
 
 The linked quote includes a notification indicating that it is approved and ready for checkout. It also provides a link to the quote template in the header information.
 
@@ -107,7 +107,7 @@ Buyers can complete the following actions from a linked quote:
 
 From the quote template page, click **[!UICONTROL Cancel Quote Template]**.
 
-The quote template is canceled, and the quote status changes to `Closed`. The closed quote remains in your list of *[!UICONTROL Inactive]* quotes, and remains listed in the _[!UICONTROL Quotes]_ grid from the Admin.
+The quote template is canceled, and the quote status changes to `Closed`. The closed quote remains in your list of *[!UICONTROL Inactive]* quotes, and remains listed in the _[!UICONTROL Quote Templates]_ grid in the Admin.
 
 
 
