@@ -1,7 +1,6 @@
 ---
 title: Create a quote template
-description: Create a quote template from an existing quote to streamline quote negotiation for recurring orders.
-exl-id:
+description: Create a quote template from an existing quote to streamline quote negotiation for recurring orders.=
 feature: B2B, Quotes
 ---
 # Create a quote template

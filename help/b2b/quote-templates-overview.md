@@ -1,7 +1,6 @@
 ---
 title: Quote template use cases and workflows
 description: Create a quote template from an existing quote to streamline quote negotiation for recurring orders.
-exl-id:
 feature: B2B, Quotes
 ---
 
