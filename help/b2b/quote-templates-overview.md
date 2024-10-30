@@ -22,11 +22,9 @@ A company buyer can use a quote template to order a specific set of products ove
 
 - Quantity thresholds (minimum/maximum quantities) The template specifies a quantity threshold to set the minimum and maximum quantity that can be purchased for each order, ensuring that the seller can manage stock levels effectively while providing the buyer with the flexibility to adjust quantities as needed.
 
-
 ## Quote template workflow
 
 Quote templates can be initiated by the buyer or the seller.
-
 
 **Step 1: Quote template creation (New)**
 
