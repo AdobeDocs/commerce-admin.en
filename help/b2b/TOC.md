@@ -51,7 +51,7 @@ recommendations: noDisplay
   + [Initiate quote for a buyer](sales-rep-initiates-quote.md)
   + [Negotiate a quote](quote-price-negotiation.md)
   + [[!UICONTROL My Quotes]](account-dashboard-my-quotes.md)
-+ Quote Templates }#templates}
++ Quote Templates {#templates}
   + [[!UICONTROL My Quote Templates]](account-dashboard-my-quote-templates.md)
 + Requisition lists {#requisition-lists}
   + [Overview](requisition-lists.md)
