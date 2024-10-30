@@ -8,7 +8,7 @@ feature: B2B, Quotes
 
 Buyers and sellers use Quotes to manage the negotiation process for an order–adding items, updating quantities, requesting and applying discounts, and so on—until they reach agreement. The quote negotiation process can be initiated by an authorized company buyer, or by a company sales representative.
 
-![Quotes list view in Admin](./assets/quotes-admin-list-view-intro.md){width="700" zoomable="yes"}
+![Quotes list view in Admin](./assets/quotes-admin-list-view-intro.png){width="700" zoomable="yes"}
 
 After the quote is created, the negotiation process begins when the buyer or seller submits the quote for review. The _Quotes_ grid which lists each quote received and maintains a history of the communication between buyer and seller. Use the standard [workplace controls](../getting-started/admin-workspace.md) to filter the list, change the column layout, save views, and export data.
 
