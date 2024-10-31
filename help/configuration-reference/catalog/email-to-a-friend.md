@@ -12,7 +12,7 @@ feature: Configuration, Communications
 
 ![Email Templates](./assets/email-to-a-friend-email-templates.png)<!-- zoom -->
 
-<!-- [Email Templates](https://docs.magento.com/user-guide/marketing/email-template-configuration.html) -->
+<!-- [Email Templates](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/communications/email-templates#configure-email-templates) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |

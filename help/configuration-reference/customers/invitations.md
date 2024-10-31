@@ -14,7 +14,7 @@ feature: Configuration, Promotions/Events
 
 ![General](./assets/invitations-general.png)<!-- zoom -->
 
-<!-- [General](https://docs.magento.com/user-guide/marketing/invitations-configure.html) -->
+<!-- [General](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/events/invitations#enable-invitations-for-your-store) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -31,7 +31,7 @@ feature: Configuration, Promotions/Events
 
 ![Email](./assets/invitations-email.png)<!-- zoom -->
 
-<!-- [Email](https://docs.magento.com/user-guide/marketing/invitations-configure.html) -->
+<!-- [Email](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/events/invitations#enable-invitations-for-your-store) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |

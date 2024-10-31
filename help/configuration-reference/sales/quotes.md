@@ -14,7 +14,7 @@ feature: Configuration, Quotes
 
 {{config}}
 
-<!-- [Quotes](https://docs.magento.com/user-guide/sales/quotes.html) -->
+<!-- [Quotes](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/quotes/quotes) -->
 
 ## [!UICONTROL General]
 
