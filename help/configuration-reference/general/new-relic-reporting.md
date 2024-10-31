@@ -17,7 +17,7 @@ feature: Configuration, System, Reporting
 
 ![General](./assets/new-relic-reporting-general.png)<!-- zoom -->
 
-<!-- [General](https://docs.magento.com/user-guide/reports/new-relic-reporting.html) -->
+<!-- [General](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/new-relic-reporting) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -37,7 +37,7 @@ feature: Configuration, System, Reporting
 
 ![Cron](./assets/new-relic-reporting-cron.png)<!-- zoom -->
 
-<!-- Cron](https://docs.magento.com/user-guide/system/cron.html) -->
+<!-- Cron](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cron) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
