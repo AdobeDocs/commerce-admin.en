@@ -40,7 +40,7 @@ Follow the standard instructions for installing the language pack extension. For
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the **[!UICONTROL Scope]** dropdown, select the storeview for the configuration change and confirm the scope change.
+1. In the **[!UICONTROL Scope]** dropdown, select the store view to configure, and click **[!UICONTROL OK]** when prompted.
 
 1. On the *[!UICONTROL General]* configuration page, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Locale Options]** section.
 
