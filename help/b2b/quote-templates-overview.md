@@ -30,7 +30,7 @@ Quote templates can be initiated by the buyer or the seller.
 
 - **Buyer creates the quote template**
 
-   When reviewing an existing quote template, the buyer decides that the company needs to submit multiple orders over the next year and wants to request additional discounts based on repeat business. They create a quote template by using the *[!UICONTROL Create quote template]* action on the quote. Then, they initiate the negotiation by sending the new template to the seller for review.
+   When reviewing an existing quote, the buyer decides that the company needs to submit multiple orders over the next year and wants to request additional discounts based on repeat business. They create a quote template by using the *[!UICONTROL Create quote template]* action on the quote. Then, they initiate the negotiation by sending the quote template to the seller for review.
 
    Buyers can also create a quote template directly from the *[!UICONTROL My Quote Templates]** page on the storefront.
 
@@ -42,11 +42,11 @@ Quote templates can be initiated by the buyer or the seller.
 
 Reviewing or negotiating a quote template can include changing quantities, removing items, adding line item comments, applying line item or quote discounts (seller), and adding a shipping address (buyer).
 
-- **Seller views request and sends response** - In the Admin, the seller views the quote template from the *[!UICONTROL Quote Templates]** grid or opens it from the link in the email notification. On the storefront, the status of the quote changes to `Pending`, and the buyer cannot make any changes. Following the same process for [quote negotiation](quote-price-negotiation.md), the seller responds by offering price discounts and adjusting quantities and items as needed, enters a comment, and sends the quote back to the buyer. The buyer and sales representative are notified by email that the seller has responded.
+- **Seller views request and sends response** - In the Admin, the seller views the quote template from the *[!UICONTROL Quote Templates]** grid or opens it from the link in the email notification. On the storefront, the status of the quote changes to `Pending`, and the buyer cannot make any changes. Following the same process for [quote negotiation](quote-price-negotiation.md), the seller responds by offering price discounts and adjusting quantities and items as needed, enters a comment, and sends the quote template back to the buyer. The buyer and sales representative are notified by email that the seller has responded.
 
-- **Buyer views quote template from seller and sends response** - The buyer clicks the link in the email notification to open the quote template, or opens the quote from the _My Quote Templates_ page of the account dashboard. The buyer can leave notes to the seller at the line item or quote level, change quantities, and remove items.
+- **Buyer views quote template from seller and sends response** - The buyer clicks the link in the email notification to open the quote template, or opens it from the _My Quote Templates_ page of the account dashboard. The buyer can leave notes to the seller at the line item or quote level, change quantities, and remove items.
 
-The buyer and seller continue the negotiation process until an agreement is reached, or the seller declines the quote template. If the buyer makes changes to the quote—adding or removing products or changing product quantities—the quote must be returned to the seller for review.
+The buyer and seller continue the negotiation process until an agreement is reached, or the seller declines the quote template. If the buyer makes changes to the quote template—adding or removing products or changing product quantities—it must be returned to the seller for review.
 
 - **Buyer adds a shipping address** - The buyer must add a shipping address to the quote template if it doesn't have one. After the buyer adds the address, the seller can provide shipping and delivery options. The shipping methods shown depend on the Storefront configuration.
 
@@ -66,7 +66,7 @@ Shipping options are locked on checkout.
 
 ### View quote template activity
 
-View the negotiation timeline, communication, and other quote activity from the [!UICONTROL Comments] and [!UICONTROL History Log]--information includes status changes, updates to customer and shipping info, item and price updates, and other important information.
+View the negotiation timeline, communication, and other quote template activity from the [!UICONTROL Comments] and [!UICONTROL History Log]--information includes status changes, updates to customer and shipping info, item and price updates, and other important information.
 
 1. Open a quote template.
 
