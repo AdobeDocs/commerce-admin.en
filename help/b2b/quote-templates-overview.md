@@ -72,11 +72,11 @@ View the negotiation timeline, communication, and other quote template activity 
 
 1. View quote negotiation comments and history by scrolling to **[!UICONTROL Negotiation]**, and selecting **[!UICONTROL Comments]** and **[!UICONTROL History Log]**.
 
-   ![View History](./assets/quote-view-history.png){width="400"}
+   ![View History](./assets/quote-view-history.png){width="400" zoomable="yes"}
 
 1. History is also tracked at the line item level.
 
-   ![View Line Item History](./assets/quote-view-line-item-history.png){width="400"}
+   ![View Line Item History](./assets/quote-view-line-item-history.png){width="400" zoomable="yes"}
 
 
 ### Decline a quote template
