@@ -10,7 +10,7 @@ The Quote Template capability allows buyers and sellers to streamline the quote 
 
 - **Customizable Quotes**—Buyers can generate linked quotes from a pre-approved template, allowing for customization within specified parameters such as line-item quantities and selections.
 - **Order Thresholds**—Sellers can set minimum and maximum order commitments, ensuring that buyers adhere to agreed-upon purchasing volumes.
-- **Expiration Dates**—Templates can have validity periods, ensuring that the terms are applicable only within a specified time frame.
+- **Expiration Dates**—Templates can have validity periods (*[!UICONTROL Valid Until]*), ensuring that the terms are applicable only within a specified time frame.
 - **Discounts and Pricing**- Sellers can use the same line-item, quote-level, and shipping price discount capabilities available with quotes to set discounts for recurring orders, simplifying the negotiation process.
 - **Tracking and Reporting**—The system tracks the number of linked quotes generated from the template and successfully completed orders to provide insights into the fulfillment of agreed upon order quotas.
 
