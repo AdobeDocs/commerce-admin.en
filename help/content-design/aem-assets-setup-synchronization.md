@@ -44,7 +44,7 @@ For initial onboarding, use the default *Match by product sku* rule.
 1. Allow Commerce to accept incoming updates from AEM Assets by setting **[!UICONTROL Enable integration]** to `Yes`.
 
    After enabling the integration, configure the asset matching rule.
-   
+
    ![AEM Assets Integration select asset match rule](assets/aem-assets-config-matching-rule.png){width="600" zoomable="yes"}
 
 1. Define the matching rule for asset synchronization.
