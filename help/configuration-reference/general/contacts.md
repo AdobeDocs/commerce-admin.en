@@ -12,7 +12,7 @@ feature: Configuration, Communications
 
 ![Contact Us](./assets/contacts-contact-us.png)<!-- zoom -->
 
-<!-- [Contact Us](https://docs.magento.com/user-guide/stores/contact-us.html) -->
+<!-- [Contact Us](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/store-details#contact-us-form) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -24,7 +24,7 @@ feature: Configuration, Communications
 
 ![Email Options](./assets/contacts-email-options.png)<!-- zoom -->
 
-<!-- [Email Options](https://docs.magento.com/user-guide/stores/contact-us.html) -->
+<!-- [Email Options](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/store-details#contact-us-form) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |

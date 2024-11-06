@@ -12,7 +12,7 @@ feature: Configuration, Customer Service
 
 ![Login As Customer - General Options](./assets/login-as-customer.png)<!-- zoom -->
 
-<!-- [Login As Customer - General Options](https://docs.magento.com/user-guide/customers/login-as-customer.html#enable-the-feature) -->
+<!-- [Login As Customer - General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer) -->
 
 | Option | [Scope](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 |-- | -- | -- |

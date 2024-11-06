@@ -12,7 +12,7 @@ Follow this three-part exercise to become familiar with the [!DNL Page Builder] 
 
 >[!NOTE]
 >
->These walkthrough exercises are updated to reflect recent changes to the [!DNL Page Builder] workspace in the 2.4.1 release. If you are using an earlier Adobe Commerce release, use the [!DNL Page Builder] walkthrough exercises included in the [[!DNL Commerce] 2.3 User Guide](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html).
+>These walkthrough exercises are updated to reflect recent changes to the [!DNL Page Builder] workspace in the 2.4.1 release.
 
 ## Before you begin
 
