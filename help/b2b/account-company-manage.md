@@ -6,13 +6,17 @@ feature: B2B, Companies, Configuration
 ---
 # Manage company accounts
 
-The _[!UICONTROL Companies]_ page lists all current company accounts, regardless of status. Any pending requests for approval appear at the top of the list. The standard [workplace controls](../getting-started/admin-workspace.md) can be used to filter the list, change the [column layout](../getting-started/admin-grid-controls.md), save views, or export data.
-
-The _[!UICONTROL Actions]_ control above the grid can be used to apply an action to multiple company records. For example, rather than approving each individual company request, you can select multiple requests and activate the accounts in a single action. The actions that are available depend on the [permissions](../systems/permissions.md) for the role that is assigned to your Admin user account.
-
-Use the _[!UICONTROL Search]_ function to find companies in the **Companies** grid by keyword. The search indexes keywords from the **Company Name** and **Parent** columns. You can filter by **Company Type** to show only single companies, only parent companies, or only child companies.
+The _[!UICONTROL Companies]_ page lists all current company accounts, regardless of status. Any pending requests for approval appear at the top of the list.
 
 ![Companies Grid](./assets/companies-grid-view.png){width="700" zoomable="yes"}
+
+Use the *[!UICONTROL Columns]* control to customize the columns displayed in the grid. Customize the companies displayed in the view using the search and filter capabilities.
+
+- Find companies in the **Companies** grid by using the _[!UICONTROL Search]_. The search indexes the **Company Name** and **Parent** columns.
+
+- Customize the view to include records that meet specific criteria by using the [!UICONTROL Filter]. For example, if the B2B site is configured to manage both single company accounts and [company hierarchies](manage-companies.md), you can filter by `[!UICONTROL Company Type - Company]` to display only single companies, or by `[!UICONTROL Company Type - Parent]` to show only the parent company for each hierarchy.
+
+Apply an action to multiple company records by using the _[!UICONTROL Actions]_ control above the grid. For example, rather than approving each individual company request, you can select multiple requests to activate the accounts in a single action. The available actions depend on the [permissions](../systems/permissions.md) for the role that is assigned to your Admin user account.
 
 ## Company role resources
 
@@ -23,15 +27,23 @@ The [Role Resources](../systems/permissions-user-roles.md#role-resources) settin
 - Apply a balance reimbursement
 - View companies
 
-These role resources must be set for the [User Role](../systems/permissions-user-roles.md) that is assigned for the Admin user account.
+These role resources must be set for the [User Role](../systems/permissions-user-roles.md) that is assigned to the Admin user account.
 
-## Apply an action
+## Manage company accounts from the Companies grid
 
-The following actions can be applied to either single or multiple records.
+View and manage the user accounts for companies from the Admin menu by selecting **[!UICONTROL Customers]** > **[!UICONTROL Companies]** to open the *[!UICONTROL Companies]* page.
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+You can manage accounts individually or in groups.
 
-1. In the first column of the grid, select the checkbox of each record that you want to update and follow the instructions for the action that you want to apply:
+- View or change configuration settings for an individual company account by selecting **[!UICONTROL Edit]** in the **[!UICONTROL Action]** column for the company account record.
+
+  ![Select action to apply to selected companies](assets/companies-change-settings-edit-selection.png){width="675" zoomable="yes"}
+
+- View or change a group of selected company accounts by using the options available from the [!UICONTROL Actions]** control above the grid.
+
+  ![Select action to apply to selected companies](assets/companies-change-settings-mass-action-selection.png){width="675" zoomable="yes"}
+
+See the following sections for instructions to apply each action.
 
 ### Activate company accounts
 
@@ -84,6 +96,30 @@ Deleted company accounts cannot be restored. The status of user accounts that ar
 
 1. When prompted to confirm, click **[!UICONTROL OK]**.
 
+### Change company settings
+
+Update the [Advanced Settings](account-company-create.md#advanced-settings) configuration to apply the same settings to multiple companies selected on the *Companies grid*.
+
+>[!NOTE]
+>
+>Manage the advanced settings configuration for a company organization with a parent and associated child companies from the [Company Hierarchy view](manage-company-hierarchy.md#change-company-settings).
+
+1. From the **[!UICONTROL Actions]** control, select **[!UICONTROL Change company settings]**.
+
+   On the *[!UICONTROL Change company settings]* form, the initial configuration settings are set to the default values.
+
+1. For each configuration setting to change, select the **[!UICONTROL Change]** checkbox to enable the setting. Then, update the setting as needed.
+
+   ![Change company settings for multiple companies](assets/companies-change-advanced-settings-action.png){width="675" zoomable="yes"}
+
+1. After updating the configuration settings, select **[!UICONTROL Apply Changes]**.
+
+1. When prompted, select **[!UICONTROL Change settings]** to update the configuration for the selected companies.
+
+>[!TIP]
+>
+>You can change the advanced settings configuration for a single company by selecting **[!UICONTROL Edit]** in the **[!UICONTROL Action]** column for the company account record.
+
 ### Convert the credit currency
 
 The credit in the accounts of selected companies is converted to the current rate of the selected currency.
@@ -108,7 +144,7 @@ Method 1: **Quick edit**
 
    Each value that can be updated appears in a text box.
 
-   ![Quick Edit for a company account](./assets/companies-grid-quick-edit.png){width="700" zoomable="yes"}
+   ![Quick Edit for a company account](./assets/companies-grid-quick-edit.png){width="675" zoomable="yes"}
 
 1. Update any of the following values as needed:
 
@@ -128,7 +164,7 @@ Method 2: **Full edit**
 
 1. Make the necessary changes to the company information.
 
-  For field descriptions, see [Create a company account](account-company-create.md).
+   For field descriptions, see [Create a company account](account-company-create.md).
 
 1. When complete, click **[!UICONTROL Save]**.
 
@@ -170,13 +206,11 @@ You can learn about managing company accounts by watching this video:
 
 ## Company management
 
-[!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Available only for Beta program participants"}
-
 After a company is created, Admin users with appropriate permissions can use the [!UICONTROL Company Hierarchy] section to build a parent company organization by editing the designated parent company and assigning related companies.
 
 If a company has been added to a hierarchy, the [!UICONTROL Company Hierarchy] grid displays the parent company and all assigned companies in the grid.
 
-See [Manage company hierarchy](assign-companies.md) for more information.
+See [Manage company hierarchy](manage-company-hierarchy.md) for more information.
 
 ## Company options and columns
 
@@ -184,13 +218,14 @@ The following sections provide a reference for the available actions, options, a
 
 ### Actions control options
 
-| Option                      | Description                                                                                                                                                                                                                                                                     |
-|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Set Active]     | Sets the status of all selected company records to `Active`. Company administrators receive instructions to set their passwords so they can access their accounts and manage their companies from the storefront.                                                               |
-| [!UICONTROL Block]          | Restricts company accounts that are not in good standing, while preserving the account. Company members can log in and access the catalog, but they cannot place orders on behalf of the company.                                                                               |
-| [!UICONTROL Delete]         | Deletes selected company accounts. The status of user accounts that are associated with a deleted company is set to `Inactive` and the Company ID is removed from the profiles of user accounts. Information about company activity and transactions is retained in the system. |
-| [!UICONTROL Edit]           | Allows some values of the selected company record to be edited from the grid. By default, the Company Name, Company Email, and Phone Number values are available for a quick edit.                                                                                              |
-| [!UICONTROL Convert Credit] | Converts the credit on account for the selected companies according to the rates of the specified currency.                                                                                                                                                                     |
+| Option                               | Description                                                                                                                                                                                                                                                                     |
+|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Set Active]              | Sets the status of all selected company records to `Active`. Company administrators receive instructions to set their passwords so they can access their accounts and manage their companies from the storefront.                                                               |
+| [!UICONTROL Block]                   | Restricts company accounts that are not in good standing, while preserving the account. Company members can log in and access the catalog, but they cannot place orders on behalf of the company.                                                                               |
+| [!UICONTROL Delete]                  | Deletes selected company accounts. The status of user accounts that are associated with a deleted company is set to `Inactive` and the Company ID is removed from the profiles of user accounts. Information about company activity and transactions is retained in the system. |
+| [!UICONTROL Edit]                    | Allows some values of the selected company record to be edited from the grid. By default, the Company Name, Company Email, and Phone Number values are available for a quick edit.                                                                                              |
+| [!UICONTROL Change company settings] | Opens the *Change company settings* form to update the [Advanced settings](account-company-create.md#advanced-settings) configuration and apply the changes to the selected companies.                                                                                          |
+| [!UICONTROL Convert Credit]          | Converts the credit on account for the selected companies according to the rates of the specified currency.                                                                                                                                                                     |
 
 {style="table-layout:auto"}
 
@@ -244,7 +279,6 @@ The following columns are available by changing the [column layout](../getting-s
 | Button                         | Description                                                                                                                                                                                                                                                         |
 |--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Back]              | Returns to the Companies page without saving changes.                                                                                                                                                                                                               |
-| [!UICONTROL Login as Customer] | Allows an Admin user to [log in to the storefront as the customer](../customers/login-as-customer.md) and help with their orders.                                                                                                                                   |
 | [!DNL Delete Company]          | Deletes the company account. The status of user accounts that are associated with the company is set to `Inactive` and the Company ID is removed from the profiles of user accounts. Information about company activity and transactions is retained in the system. |
 | [!DNL Reset]                   | Restores the original values to any fields with unsaved changes.                                                                                                                                                                                                    |
 | [!DNL Reimburse Balance]       | Allows the administrator to reimburse the balance from store credit, referenced by PO number.                                                                                                                                                                       |
@@ -272,19 +306,10 @@ The following columns are available by changing the [column layout](../getting-s
 | [!UICONTROL VAT / TAX ID]       | The tax or [value-added tax](../stores-purchase/vat.md) number that is assigned to the company for tax reporting purposes. |
 | [!UICONTROL Reseller ID]        | The resale number that is assigned to the company for tax reporting purposes.                                              |
 | [!UICONTROL Comment]            | These notes about the company account are for reference and visible only from the Admin.                                   |
-| **[!UICONTROL Legal Address]**  |                                                                                                                            |
-| [!UICONTROL Street Address]     | The street address where the company is registered to conduct business.                                                    |
-| [!UICONTROL City]               | The city where the company is registered to conduct business.                                                              |
-| [!UICONTROL Country]            | The country where the company is registered to conduct business.                                                           |
-| [!UICONTROL State/Province]     | The state or province where the company is registered to conduct business.                                                 |
-| [!UICONTROL ZIP/Postal Code]    | The ZIP or postal code where the company is registered to conduct business.                                                |
-| [!UICONTROL Phone Number]       | The primary phone number of the company.                                                                                   |
 
 {style="table-layout:auto"}
 
 #### [!UICONTROL Company Hierarchy]
-
-[!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Available only for Beta program participants"}
 
 | Columns                     | Description                                                                                                                                          |
 |-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -300,10 +325,24 @@ The following columns are available by changing the [column layout](../getting-s
 
 {style="table-layout:auto"}
 
+#### [!UICONTROL Legal Address]
+
+| Columns                     | Description                                                                                                                                          |
+|-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Street Address]     | The street address where the company is registered to conduct business.                                                    |
+| [!UICONTROL City]               | The city where the company is registered to conduct business.                                                              |
+| [!UICONTROL Country]            | The country where the company is registered to conduct business.                                                           |
+| [!UICONTROL State/Province]     | The state or province where the company is registered to conduct business.                                                 |
+| [!UICONTROL ZIP/Postal Code]    | The ZIP or postal code where the company is registered to conduct business.                                                |
+| [!UICONTROL Phone Number]       | The primary phone number of the company.                                                                                   |
+
+{style="table-layout:auto"}
+
 #### [!UICONTROL Company Admin]
 
 | Field                            | Description                                                                                                                                                                                                                                      |
 |----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Website]           | Set the [website scope](../getting-started/websites-stores-views.md) for the company account. Defaults to the *[!UICONTROL Main Website]*.                                                                                                |
 | [!UICONTROL Job Title]           | The title of the company administrator who manages the company account.                                                                                                                                                                          |
 | [!UICONTROL Email]               | The email address of the company administrator can be the same as the company email address. If a different email address is entered, a separate individual account is created for the company administrator in addition to the company account. |
 | [!UICONTROL Prefix]              | If applicable, the prefix that is associated with the name of the company administrator (such as `Mr.`, `Ms.`, `Mrs.`, or `Dr.`). Depending on the configuration, the input field might be a text field or list.                                 |
@@ -312,6 +351,7 @@ The following columns are available by changing the [column layout](../getting-s
 | [!UICONTROL Last Name]           | The last name of the company administrator.                                                                                                                                                                                                      |
 | [!UICONTROL Suffix]              | If applicable, the suffix that is associated with the name of the company administrator (such as `Jr.`, `Sr.`, or `III`). Depending on the configuration, the input field might be a text field or list.                                         |
 | [!UICONTROL Gender]              | The gender of the company administrator. Options: `Male` / `Female` / `Not Specified`                                                                                                                                                            |
+| [!UICONTROL Send Welcome Email From]              | Set the storeview to use when sending the welcome email to the new company administrator if you do not want to use the *[!UICONTROL Default Store View]*.                                                                                                                                                             |
 
 {style="table-layout:auto"}
 

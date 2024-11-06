@@ -12,7 +12,7 @@ feature: Configuration, Communications
 
 ![Rss Config](./assets/rss-feeds-rss-config.png)<!-- zoom -->
 
-<!-- [Rss Config](https://docs.magento.com/user-guide/marketing/rss-feed.html) -->
+<!-- [Rss Config](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/social-rss) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -26,7 +26,7 @@ For details on how to use RSS feeds after they are enabled, see [Social media an
 
 ![Wish List](./assets/rss-feeds-wishlist.png)<!-- zoom -->
 
-<!-- [Wish List](https://docs.magento.com/user-guide/marketing/wishlists.html) -->
+<!-- [Wish List](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlists) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -38,7 +38,7 @@ For details on how to use RSS feeds after they are enabled, see [Social media an
 
 ![Catalog](./assets/rss-feeds-catalog.png)<!-- zoom -->
 
-<!-- [Catalog](https://docs.magento.com/user-guide/catalog/catalog-menu.html) -->
+<!-- [Catalog](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog-menu) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -53,7 +53,7 @@ For details on how to use RSS feeds after they are enabled, see [Social media an
 
 ![Order](./assets/rss-feeds-order.png)<!-- zoom -->
 
-<!-- [Order](https://docs.magento.com/user-guide/sales/order-status-notification.html) -->
+<!-- [Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-status#notification) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |

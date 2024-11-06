@@ -26,10 +26,6 @@ How you complete this transfer depends on which of the following scenarios descr
 >
 >As Adobe Commerce continues to integrate with other Adobe solutions, a Commerce account (MAGEID) now requires an association with an Adobe login. This Adobe ID uses the same email address connected to your Commerce account.
 
->[!NOTE]
->
->If either the current or new owner has an Adobe login account that is associated with other Adobe products/services, you can open a [support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) for assistance with transferring a Commerce account to another Adobe ID. 
-
 ## New Adobe ID and email change
 
 >[!IMPORTANT]
