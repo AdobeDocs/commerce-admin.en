@@ -40,7 +40,7 @@ Company users can be added, edited, inactivated, or deleted only by the company 
    - Adds the user information in the remaining fields:
       - **[!UICONTROL First Name]** and **[!UICONTROL Last Name]**
       - **[!UICONTROL Email]**
-      - **[!UICONTROL Phone Number]**
+      - **[!UICONTROL Work Phone Number]**
 
    By default, the **[!UICONTROL Status]** of the account is `Active`.
 
@@ -97,7 +97,7 @@ Company administrators can update user account profile information and change th
 
 >[!NOTE]
 >
->If you edit a company user account and notice that the profile is missing required account information such as job title and phone number, it indicates that the account was added by a Commerce site administrator. These accounts cannot be edited from the storefront. To update information or change the account status, contact your site administrator.
+>If you edit a company user account and notice that the profile is missing required account information such as job title and work phone number, it indicates that the account was added by a Commerce site administrator. These accounts cannot be edited from the storefront. To update information or change the account status, contact your site administrator.
 
 ### Deactivate or delete an active account
 
@@ -113,14 +113,14 @@ Company administrators can update user account profile information and change th
 
 ## Company user account profile field descriptions
 
-| Field        | Description |
-|--------------|---------------|
-| [!UICONTROL Job Title]    | The job title of the company user. |
-| [!UICONTROL User Role]    | The [role](account-company-roles-permissions.md) assigned to the company user. Options: `Default User` / (other roles) |
-| [!UICONTROL First Name]   | The first name of the company user.  |
-| [!UICONTROL Last Name]    | The last name of the company user.   |
-| [!UICONTROL Email]        | The email address of the company user.  |
-| [!UICONTROL Phone Number] | The phone number of the company user.  |
-| [!UICONTROL Status]       | The status of the company user account. Options: `Active` / `Inactive`  |
+| Field                          | Description |
+|--------------------------------|---------------|
+| [!UICONTROL Job Title]         | The job title of the company user. |
+| [!UICONTROL User Role]         | The [role](account-company-roles-permissions.md) assigned to the company user. Options: `Default User` / (other roles) |
+| [!UICONTROL First Name]        | The first name of the company user. |
+| [!UICONTROL Last Name]         | The last name of the company user. |
+| [!UICONTROL Email]             | The email address of the company user. |
+| [!UICONTROL Work Phone Number] | The work phone number of the company user. |
+| [!UICONTROL Status]            | The status of the company user account. Options: `Active` / `Inactive` |
 
 {style="table-layout:auto"}

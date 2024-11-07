@@ -22,7 +22,7 @@ feature: Configuration, B2B
 
 ![General](./assets/requisition-lists-general.png)<!-- zoom -->
 
-<!-- General](https://docs.magento.com/user-guide/stores/b2b-configure-requisition-lists.html) -->
+<!-- [General](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/requisition-lists/configure-requisition-lists) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
