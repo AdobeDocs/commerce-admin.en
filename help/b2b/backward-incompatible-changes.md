@@ -22,6 +22,8 @@ If you are upgrading from a previous release, Adobe recommends implementing the 
 
 {{$include /help/_includes/backward-incompatible-changes/1.4.2-1.5.0.md}}
 
+{{$include /help/_includes/backward-incompatible-changes/1.4.2-1.5.0.md}}
+
 {{$include /help/_includes/backward-incompatible-changes/1.4.1-1.4.2.md}}
 
 {{$include /help/_includes/backward-incompatible-changes/1.4.0-1.4.1.md}}
