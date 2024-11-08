@@ -19,8 +19,8 @@ recommendations: noDisplay
   + [Transfer an account](commerce-account-transfer.md)
 + Site compliance {#compliance}
   + HIPAA readiness on Adobe Commerce{#hipaa-ready-service}
-    + [Overview](overview.md)
-    + [Operational guidance](operations.md)
+    + [Overview](hipaa/overview.md)
+    + [Operational guidance](hipaa/operations.md)
   + Privacy {#privacy}
     + [Store privacy policy](privacy-policy.md)
     + [CCPA compliance](compliance-ccpa.md)
