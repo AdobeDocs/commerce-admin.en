@@ -123,7 +123,7 @@ The `magento/hipaa-ee` extension introduces some changes and enhancements to the
 
 ### Action Logs
 
-Audit Logging is a HIPAA requirement. In Adobe Commerce, the [Action Logs](../systems/action-log.md) feature records every change made by an Admin user who works in your store. To meet HIPAA requirements for the Audit Log, the feature has been updated to record all Admin user and customer actions performed through the Admin UI and through API calls.
+Audit Logging is a HIPAA requirement. In Adobe Commerce, the [Action Logs](../../systems/action-log.md) feature records every change made by an Admin user who works in your store. To meet HIPAA requirements for the Audit Log, the feature has been updated to record all Admin user and customer actions performed through the Admin UI and through API calls.
 
 Action Logs also capture events when Adobe services access your store data. You can identify these events by filtering on the "Data Sent Outside" Action in the Action Logs report.
 
@@ -223,8 +223,8 @@ The following services are not available under the HIPAA-readiness offering:
 
 The following features are disabled by default in the HIPAA-readiness module. Merchants can enable any of these features at their own risk.
 
-- **[Guest checkout](../stores-purchase/checkout-guest.md)**—This feature presents a potential risk for various aspects of HIPAA including logging, access control, PHI hygiene and lineage, and potentially more.
+- **[Guest checkout](../../stores-purchase/checkout-guest.md)**—This feature presents a potential risk for various aspects of HIPAA including logging, access control, PHI hygiene and lineage, and potentially more.
 
-- **[Newsletter feature](../merchandising-promotions/newsletters.md)**—This feature is disabled to prevent PHI being used in a marketing context.
+- **[Newsletter feature](../../merchandising-promotions/newsletters.md)**—This feature is disabled to prevent PHI being used in a marketing context.
 
-- **[Advanced Reporting service setting](../getting-started/business-intelligence.md)**—This configuration setting is disabled to prevent PHI from being used for analysis and reporting.
+- **[Advanced Reporting service setting](../../getting-started/business-intelligence.md)**—This configuration setting is disabled to prevent PHI from being used for analysis and reporting.
