@@ -2,8 +2,8 @@
 title: '[!UICONTROL My Quote Templates]'
 description: Learn about the customer experience for quote templates, which is available in the storefront account dashboard.
 feature: B2B, Companies, Quotes
+exl-id: 3d95a44e-b874-442b-af96-0dc6b589d0f7
 ---
-
 # [!UICONTROL My Quote Templates]
 
 If quotes are enabled, the _[!UICONTROL My Quotes Template]_ section of the customer account dashboard lists all quote templates associated with the customer account. Depending on their permissions, only buyers who make purchases on behalf of a company can request a quote template and negotiate quote pricing and terms for recurring orders.
@@ -108,7 +108,3 @@ Buyers can complete the following actions from a linked quote:
 From the quote template page, click **[!UICONTROL Cancel Quote Template]**.
 
 The quote template is canceled, and the quote status changes to `Closed`. The closed quote remains in your list of *[!UICONTROL Inactive]* quotes, and remains listed in the _[!UICONTROL Quote Templates]_ grid in the Admin.
-
-
-
-
