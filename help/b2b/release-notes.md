@@ -26,6 +26,10 @@ Compatible with Adobe Commerce versions 2.4.8-beta1, 2.4.7 to 2.4.7-p2, 2.4.6 to
 
 The B2B v1.5.0 release includes new features, quality improvements, and bug fixes.
 
+>[!NOTE]
+>
+> Learn about backward-incompatible changes (BICs) introduced in the B2B 1.5.0 release by reviewing the highlights and reference information in the [Backward Incompatible Changes](backward-incompatible-changes.md) topic.
+
 ### Company Management
 
 ![New](../assets/new.svg) **Company Management**<!--B2B-2901-->—Merchants can now view and manage Adobe Commerce companies as hierarchical organizations by assigning companies to designated parent companies. After a company is assigned to a parent, the parent company administrator can manage the company account. Only authorized Admin users can add and manage company assignments. For details, see [Manage company hierarchy](manage-company-hierarchy.md).
