@@ -48,6 +48,10 @@ Adobe Commerce must be deployed on either Adobe Commerce on cloud infrastructure
 
 Install the latest version of Adobe's HIPAA-Ready Services extension (`magento/hipaa-ee`) on an instance that is running Adobe Commerce version 2.4.6-p3 or later. The extension is delivered as a composer metapackage from the [repo.magento.com](https://repo.magento.com) repository. The metapackage includes the collection of modules that enable the HIPAA capabilities for an Adobe Commerce instance.
 
+>[!NOTE]
+>
+>To ensure back office event data that is sent to Experience Platform is HIPAA-ready, see the [Data Connection extension guide](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
+
 1. On your local workstation, change to the project directory for your Adobe Commerce on cloud infrastructure project.
 
    >[!NOTE]
