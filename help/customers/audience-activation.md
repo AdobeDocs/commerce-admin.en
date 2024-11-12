@@ -48,7 +48,7 @@ _May 30, 2023_
 
 [!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
 
-_November 11, 2024_
+_November 12, 2024_
 
 ![Fix](../assets/fix.svg) - Fixed an issue when filtering the available Real-Time CDP audiences to choose from.
 
