@@ -64,7 +64,7 @@ To access the new Media Gallery when you are adding or editing a page:
 
 To learn more about the [!DNL Media Gallery], watch this video:
 
->[!VIDEO](https://video.tv.adobe.com/v/343785?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343785?quality=12&learn=on)
 
 [adobe-stock]: https://stock.adobe.com
 
