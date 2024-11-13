@@ -29,7 +29,7 @@ Your store can be configured to automatically generate a permanent redirect when
 
 >[!NOTE]
 >
-> URL rewrites can be generated for the store view or website scope. You can set the URL rewrite scope from the Admin at **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]** **[!UICONTROL Catalog]** > **[!UICONTROL Catalog]** > **[!UICONTROL Search Engine Optimization]**, _[!UICONTROL Product URL Rewrite Scope]_ will allow you to choose the URL rewrite scope.
+> URL rewrites can be generated for the store view or website scope. Set the URL rewrite scope from the Admin at **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]** **[!UICONTROL Catalog]** > **[!UICONTROL Catalog]** > **[!UICONTROL Search Engine Optimization]**. Choose the scope in _[!UICONTROL Product URL Rewrite Scope]_ field.
 
 ## Automatically redirect product URLs
 
