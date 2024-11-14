@@ -202,7 +202,7 @@ The company profile can be maintained from the storefront by the company adminis
 
 You can learn about managing company accounts by watching this video:
 
->[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12&learn=on)
 
 ## Company management
 

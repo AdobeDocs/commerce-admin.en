@@ -190,4 +190,4 @@ _**[!UICONTROL Matched Customers] grid**_
 
 Watch this video for a demonstration of creating customer segments:
 
->[!VIDEO](https://video.tv.adobe.com/v/343659/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343659/?quality=12&learn=on)

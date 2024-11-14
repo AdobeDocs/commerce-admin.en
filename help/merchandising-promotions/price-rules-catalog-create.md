@@ -218,7 +218,7 @@ Most of the available conditions are based on existing attribute values. To appl
 
 Watch this video to learn about creating catalog price rules:
 
->[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12&learn=on)
 
 ## Field descriptions
 
