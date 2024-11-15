@@ -198,7 +198,11 @@ To empower Admin users with more informative grids, the HIPAA-Ready service prov
 - Added a **[!UICONTROL Scheduled At]** column (the _date and time when the import or export was scheduled_).
 - Added a **[!UICONTROL User]** column (the _username of an Admin user who scheduled the import or export_).
 
-## HIPAA-ready services
+## HIPAA-compliant services and tools
+
+This section describes HIPAA-compliant Adobe services that are available to use with the HIPAA-offering for Adobe Commerce. It also describes tools that you can use to help monitor key security and compliance controls for your store.
+
+### Services
 
 The following Adobe Commerce and extensibility services are available for the HIPAA-readiness offering. These services include, but are not limited to:
 
@@ -207,6 +211,18 @@ The following Adobe Commerce and extensibility services are available for the HI
 - [App Builder](https://developer.adobe.com/app-builder/docs/overview/)
 - [Data Connection](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview)
 - [SaaS Data Export](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview)
+
+### Tools
+
+The [Security Scan Tool](../systems/security-scan.md) for Adobe Commerce helps you monitor your store to ensure that all required security controls are enabled and operational. In addition to the standard security checks, Adobe has enhanced the tool to display HIPAA-specific checks for customers using the HIPAA-offering for Adobe Commerce. The HIPAA checks in the Security Scan Tool are designed to ensure that:
+
+- Auditing modules are not disabled
+- Two-factor authentication (2FA) is not disabled
+- Marketing features are disabled
+- All installed extensions match a predefined allowlist
+- No unsupported Adobe services are installed
+
+You can [configure the tool](../systems/security-scan.md#run-a-security-scan) to send you email notifications with details from scheduled scans or [manually view reports](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/overview#to-review-the-report).
 
 ## Disabled services and features
 
