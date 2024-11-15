@@ -55,11 +55,11 @@ Complete the following steps to add a rule, describe the conditions, and define 
 
    >[!NOTE]
    >
-   >The Priority setting is important when two cart rules/coupon codes are valid for the same product at the same time. The rule with the highest Priority setting (`1` being the highest) controls the cart action. See _Discard Subsequent Price Rules_ in the _Define the Actions_ step.
+   >The _[!UICONTROL Priority]_ setting is important when two cart rules or coupon codes are valid for the same product at the same time. The rule with the highest [!UICONTROL Priority] setting controlling the cart action.  Priorities from the highest to the lowest are `0,1,2,3...`. See _Discard Subsequent Price Rules_ in the _[Define the Actions](#step-3-define-the-actions)_ step.
 
    >[!NOTE]
    >
-   >Cart price rules that have the same priority do not result in a combined discount. Each rule is applied to matching products separately, one-by-one.
+   >Cart price rules that have the same priority do not result in a combined discount. Each rule (coupon) is applied to matching products separately, one-by-one, according to the cart price rule ID in the database. To control the order in which discounts are applied, Adobe recommends setting a different priority for each added cart price rule. 
 
 1. To apply the rule to published [RSS feeds](social-rss.md#rss-feeds), set **Public In RSS Feed** to `Yes`.
 
@@ -328,7 +328,7 @@ The label appears in the totals section of the order to identify the discount. T
 
 Watch this video to learn about creating cart price rules:
 
->[!VIDEO](https://video.tv.adobe.com/v/343835?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343835?quality=12&learn=on)
 
 ## Field descriptions
 
@@ -344,7 +344,7 @@ Watch this video to learn about creating cart price rules:
 |[!UICONTROL Coupon]|(Required) Indicates if a coupon is associated with the rule. Options: <br/>**[!UICONTROL No Coupon]** - No coupon is associated with the rule. <br/>**[!UICONTROL Specific Coupon]** - A specific coupon is associated with the rule. <br/>**[!UICONTROL Coupon Code]** - When prompted, enter the Coupon Code that the customer must enter to take advantage of the promotion. <br/>**[!UICONTROL Use Auto Generation]** - Select the checkbox to automatically generate multiple coupon codes that can be used with the promotion. <br/>**[!UICONTROL Auto]** - Displays the _[!UICONTROL Manage Coupon Codes]_ section to define the format of the  coupon codes to be generated.|
 |[!UICONTROL Uses per Coupon]|Determines how many times that the coupon code can be used. If there is no limit, leave the field blank.|
 |[!UICONTROL Uses per Customer]|Determines how many times that the cart price rule can be used by the same registered customer who belongs to any selected customer group. Does not apply to guest shoppers who are members of the NOT LOGGED IN customer group, or to customers who shop without logging in to their accounts. For no limit, leave blank.|
-|[!UICONTROL Priority]|A number that indicates the priority of this rule in relation to others. The highest priority is number `1`.|
+|[!UICONTROL Priority]|A number that indicates the priority of this rule in relation to others. Priorities from the highest to the lowest are `0,1,2,3...`|
 |[!UICONTROL Public in RSS Feed]|Determines if the promotion is included in your store's public RSS feed. Options:  `Yes` / `No`|
 |[!UICONTROL From]|![Magento Open Source](../assets/open-source.svg) (Magento Open Source only) The first date the coupon can be used.|
 |[!UICONTROL To]|![Magento Open Source](../assets/open-source.svg) (Magento Open Source only) The last date the coupon can be used.|

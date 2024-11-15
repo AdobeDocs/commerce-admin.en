@@ -22,6 +22,14 @@ Cart price rules can be applied on schedule as part of a campaign and grouped wi
 
 If there are multiple price rules running in the same campaign, the _[!UICONTROL Priority]_ setting of the price rule determines which rule takes precedence. To learn more, see [Content Staging](../content-design/content-staging.md).
 
+>[!NOTE]
+>
+>If an active campaign is initially created without an end date, the campaign cannot be edited later to include an end date. In such a case, it is necessary to create a duplicate campaign and enter the end date that is needed.
+
+>[!NOTE]
+>
+>If a campaign is linked to more than one cart price rule, the campaign can be edited only from the [Content Staging Dashboard](../content-design/content-staging-dashboard.md).
+
 Keep in mind the following caveats:
 
 - If a campaign that includes a price rule is initially created without an end date, the campaign cannot later be edited to include an end date. It is recommended that you either add an end date when you create the campaign or create a duplicate version of the existing campaign and add the end date to the duplicate as needed.

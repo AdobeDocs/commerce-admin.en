@@ -7,7 +7,7 @@ description: Reusable content for the configuration reference of the Persistent 
 
 ![General Options](/help/configuration-reference/customers/assets/persistent-shopping-cart-general.png)<!-- zoom -->
 
-<!-- [General Options](https://docs.magento.com/user-guide/sales/cart-persistent-configuration.html) -->
+<!-- [General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-persistent#configure-a-persistent-cart) -->
 
 |Field| [Scope](/help/getting-started/websites-stores-views.md#scope-settings) |Description|
 |--- |------------------------------------------------------------------------|--- |

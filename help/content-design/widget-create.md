@@ -92,7 +92,7 @@ The options for each widget type vary slightly, but the process is essentially t
 
 To learn about creating widgets, watch this video:
 
->[!VIDEO](https://video.tv.adobe.com/v/343786?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343786?quality=12&learn=on)
 
 ## Edit a widget
 

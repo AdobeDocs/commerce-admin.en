@@ -113,7 +113,7 @@ To give someone restricted access to the Admin, the first step is to create a ro
 
 Watch this video to learn about managing user roles:
 
->[!VIDEO](https://video.tv.adobe.com/v/343654?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343654?quality=12&learn=on)
 
 ## Role resources
 

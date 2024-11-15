@@ -34,4 +34,4 @@ If you have a commercial account with one or more [supported carriers](carriers.
 
 You can learn about shipping and delivery methods by watching this video:
 
->[!VIDEO](https://video.tv.adobe.com/v/343658/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343658/?quality=12&learn=on)
