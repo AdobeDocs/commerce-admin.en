@@ -1,11 +1,11 @@
 ---
 title: Operations
-description: Lorem ipsum dolor sit amet
+description: Guidelines for migrating to a HIPAA-ready offering and using the secondary staging environment for troubleshooting.
 ---
 
 # Operations
 
-Lorem ipsum dolor sit amet
+Guidelines for migrating to a HIPAA-ready offering and using the secondary staging environment for troubleshooting.
 
 ## Migration
 
