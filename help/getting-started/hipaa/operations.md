@@ -20,5 +20,6 @@ All HIPAA ready offering comes with an additional secondary staging environment 
 
 Customers must ensure that Staging 2 environment:
  - Does not contain any sensitive data, like, but not limited to, Protected Health Information (PHI).
- - Should not be used for any production activities.
+ - Must not be used for any production activities.
+ - Must not be given different name than "Staging 2" to avoid confusion.
  - Is kept up to date with both code and configuration from the production environment to ensure troubleshooting is performed in an environment as close to production as possible.
