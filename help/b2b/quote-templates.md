@@ -5,6 +5,8 @@ feature: B2B, Quotes
 ---
 # Create a quote template
 
+<!--This topic is linked to from the Commerce Admin quote templates page. If the URL to this topic changes, make sure to add a redirect to prevent the Admin link from returning a 404 error.-->
+
 Negotiate volume discounts for recurring orders by creating a quote template from an existing quote.
 
 ![Create quote template from the admin](./assets/quote-template-create-from-admin.png){width="700" zoomable="yes"}
