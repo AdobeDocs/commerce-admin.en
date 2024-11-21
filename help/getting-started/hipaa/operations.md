@@ -14,8 +14,11 @@ Customer migrating from a non-HIPAA Commerce offering to a HIPAA ready offering 
 1. Merchant need to delete their old data spaces and only after that should the new HIPAA-SaaS environment be used([commerce services connector](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas) should be configured only after that)
 1. If the merchant has a requirement to carry forward their old data/configurations(for example for LS, PREX), there needs to be a migration strategy in place. This process is owned by the merchant.
 
-## Staging
+## Troubleshooting with Adobe Commerce support
 
-All HIPAA ready offering comes with an additional secondary staging environment to be used by Commerce support team for troubleshooting purposes.  
+All HIPAA ready offering comes with an additional secondary staging environment called "Staging 2" to be used by Commerce support team for troubleshooting purposes.  
 
-Customers should not put any Protected Health Information (PHI) in the second staging environment. This secondary staging environment is only used by  Adobe Commerce customer support for troubleshooting purposes.
+Customers must ensure that Staging 2 environment:
+ - Does not contain any sensitive data, like, but not limited to, Protected Health Information (PHI).
+ - Should not be used for any production activities.
+ - Is kept up to date with both code and configuration from the production environment to ensure troubleshooting is performed in an environment as close to production as possible.
