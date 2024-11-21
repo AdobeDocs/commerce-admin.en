@@ -112,6 +112,8 @@ After the updates are deployed, verify that the `Hipaa*` extensiion is installed
    Magento_HipaaNewsletter
    Magento_HipaaImportExport
    Magento_HipaaApiLogging
+   Magento_HipaaSales
+   Magento_HipaaCustomer
    <truncated for brevity>
    ```
 
@@ -154,6 +156,42 @@ The _Action Logs_ report grid (**[!UICONTROL System]** > Action Logs > Report) i
 #### Configure Admin actions for logging
 
 This feature is not available because all actions must be recorded by default.
+
+### HIPAA Customer Search Results Restriction
+
+The HIPAA Customer Search Results Restriction functionality in Adobe Commerce ensures compliance with HIPAA regulations by limiting access to Protected Health Information (PHI) and Personally Identifiable Information (PII). This feature restricts the ability to search and view customer records based on user roles, ensuring that only authorized users can access this information.
+
+#### Key Features
+
+- **Search Restrictions**: Users without the necessary roles cannot search for or view customer records.
+- **Mandatory Search for Access**: Unlike the default Adobe Commerce behavior, it is not possible to see customer information without performing a search. This ensures that users must know specific details about a customer to locate their information.
+- **Limited Search Results**: Search results matching the criteria are limited to 10 records, ensuring that only a manageable number of records are displayed at a time.
+- **Minimum Number of Filters**: Users must apply a minimum of three filters (e.g., email, lastname, and state) to perform a search, ensuring that searches are specific and targeted.
+- **Filter Notifications**: When search restrictions are enabled, users are notified to apply filters to refine their search results.
+
+#### Configuration
+
+The configuration for limiting the number of customers in the search results is located in the admin panel under `Stores` > `Configuration` > `Advanced` > `Admin` > `Admin Grids`. This configuration is enabled by default when the `hipaa-ee` extension is installed.
+
+- **Limit Number of Customers in Grid**: This setting allows you to enable or disable the limitation on the number of customers displayed in the grid search results.
+- **Customer Grid Search Result Limit**: This setting specifies the maximum number of customer records that can be displayed in the grid search results.
+
+#### Affected Functional Areas
+
+Customer grids on the Admin Create Order page (`Sales` > `Orders` > `Create New Order`) and Customers page (`Customers` > `All Customers`) are affected by the search results restriction functionality.
+
+- Filters are opened by default.
+- Users must apply a minimum of three filters to perform a search.
+- Search results are limited to 10 records by default.
+- If there are more records matching the search criteria, notifications will inform users about the result limit and the need to refine their search.
+- Grid pagination is not available.
+- Previous search results and filters applied are not saved when navigating away from the page.
+
+The search results restriction functionality also applies to the REST API for customer search (`/V1/customers/search`).
+
+- Without filters applied or with insufficient filters, the API returns an error message indicating that the required number of filters are needed to perform a search.
+- When sufficient filters are applied by authorized users, the API returns results within the specified limit.
+- When results are limited, a message is added to the response indicating the total number of records found and the current applied limit.
 
 ### Import and export features
 
