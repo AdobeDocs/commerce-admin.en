@@ -32,7 +32,7 @@ Quote templates can be initiated by the buyer or the seller.
 
    When reviewing an existing quote, the buyer decides that the company needs to submit multiple orders over the next year and wants to request additional discounts based on repeat business. They create a quote template by using the *[!UICONTROL Create quote template]* action on the quote. Then, they initiate the negotiation by sending the quote template to the seller for review.
 
-   Buyers can also request a quote template by adding products they want to buy regularly to the shopping cart. Then, request a quote and mention in the comments, how often you would want to repeat the purchase.
+   Buyers can also request a quote template by adding products they want to buy regularly to the shopping cart. Then, request a quote and mention in the comments how often they want to repeat the purchase.
 
 - **Sales representative** — A Sales Representative can create a quote template from the Admin on behalf of a specific company buyer. The Sales Representative can create the quote template in the Admin from an existing quote or from the [!UICONTROL Quote Templates] grid and save it as a `draft` or send it to the buyer to start the negotiation. In draft state, the quote is visible only to the seller. Once the quote is sent, the status is `Submitted`. It cannot be modified by the seller until the buyer sends it back.
 
