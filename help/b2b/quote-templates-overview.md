@@ -9,8 +9,8 @@ exl-id: 7d1e7a3d-6c50-416a-b490-0a083e1c06b4
 The Quote Template capability allows buyers and sellers to streamline the quote process by creating reusable and customizable quote templates.
 
 - **Customizable Quotes**—Buyers can generate linked quotes from a pre-approved template, allowing for customization within specified parameters such as line-item quantities and selections.
-- **Order Thresholds**—Sellers can set minimum and maximum order commitments, ensuring that buyers adhere to agreed-upon purchasing volumes. After the buyer accepts the quote template, the order threshold count increments each time a linked quote is generated. If the linked quote is closed without being converted an order, the order is subtracted from the threshold count. When the maximum order threshold is met, the quote template expires.
-- **Expiration Dates**—Templates can have validity periods (*[!UICONTROL Valid Until]*), ensuring that the terms are applicable only within a specified time frame. At expiration, the template is closed and all associated linked quotes are closed. The expiration date can only be set or updated by the seller.
+- **Order Thresholds**—Sellers can set minimum and maximum order commitments, ensuring that buyers adhere to agreed-upon purchasing volumes. After the buyer accepts the quote template, the order threshold count increments each time a linked quote is generated. If the linked quote is closed without being converted to an order, the order is subtracted from the threshold count. When the maximum order threshold is met, the quote template expires.
+- **Expiration Dates**—Templates can have validity periods (*[!UICONTROL Valid Until]*), ensuring that the terms are applicable only within a specified time frame. At expiration, the template is closed and all associated linked quotes are closed.
 - **Discounts and Pricing**- Sellers can use the same line-item, quote-level, and shipping price discount capabilities available with quotes to set discounts for recurring orders, simplifying the negotiation process.
 - **Tracking and Reporting**—The system tracks the number of linked quotes generated from the template and successfully completed orders to provide insights into the fulfillment of agreed upon order quotas.
 
@@ -40,6 +40,8 @@ Quote templates can be initiated by the buyer or the seller.
   
   When the seller creates the quote template, the expiration date ([!UICONTROL Valid until] date field) defaults to 180 days. If the buyer created the template, the expiration date is blank.  The buyer must set the expiration date before sending the template back to the buyer for review.
 
+  When the seller creates the quote template, the expiration date (*[!UICONTROL Valid until]* date field) defaults to 180 days. If the buyer created the template, the expiration date is blank.  The buyer must set the expiration date before sending the template back to the buyer for review.
+
 **Step 2: Quote review and negotiation (Review)**
 
 Reviewing or negotiating a quote template can include changing quantities, removing items, adding line item comments, applying line item or quote discounts (seller), and adding a shipping address (buyer).
@@ -56,9 +58,11 @@ If the buyer adds a shipping address, the negotiation agreement has to be review
 
 **Step 3: Buyer accepts quote template**
 
-The buyer accepts the negotiated terms in the template. After the quote template is accepted, the buyer can use it to generate pre-approved, linked quotes that can be used to submit orders without requiring further negotiation.
+The buyer accepts the negotiated terms in the template. After the quote template is accepted, the buyer can use it to [generate pre-approved, linked quotes](account-dashboard-my-quote-templates.md#generate-a-linked-quote) that can be used to submit orders without requiring further negotiation.
 
 Shipping options are locked on checkout.
+
+Quote templates remain active until it expires, is canceled or closed, or it is no longer valid buyer has reached the maximum order threshold.
 
 ### View a quote template
 
