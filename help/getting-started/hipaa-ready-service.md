@@ -171,7 +171,7 @@ The HIPAA Customer Search Results Restriction functionality in Adobe Commerce en
 
 #### Configuration
 
-The configuration for limiting the number of customers in the search results is located in the admin panel under `**[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL Admin]** > **[!UICONTROL Admin Grids]**. This configuration is enabled by default when the `hipaa-ee` extension is installed.
+The configuration for limiting the number of customers in the search results is located in the admin panel under **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL Admin]** > **[!UICONTROL Admin Grids]**. This configuration is enabled by default when the `hipaa-ee` extension is installed.
 
 - **Limit Number of Customers in Grid**: This setting allows you to enable or disable the limitation on the number of customers displayed in the grid search results.
 - **Customer Grid Search Result Limit**: This setting specifies the maximum number of customer records that can be displayed in the grid search results.
