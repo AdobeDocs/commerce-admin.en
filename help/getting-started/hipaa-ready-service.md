@@ -334,6 +334,8 @@ To comply with HIPAA requirements, some features supported by Adobe Commerce are
 
 The following features are disabled by default in the HIPAA-readiness module. Merchants can enable any of these features at their own risk.
 
+- **[Transactional email](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)**—SendGrid is disabled by default because the service is non-HIPAA-ready. Adobe Commerce provides an integration option that you can use with your own [AWS Simple Email Service](https://docs.aws.amazon.com/ses/) account. Contact your Customer Technical Account Manager or Adobe Commerce Support for configuration details.
+
 - **[Guest checkout](../stores-purchase/checkout-guest.md)**—This feature presents a potential risk for various aspects of HIPAA including logging, access control, PHI hygiene and lineage, and potentially more.
 
 - **[Newsletter feature](../merchandising-promotions/newsletters.md)**—This feature is disabled to prevent PHI being used in a marketing context.

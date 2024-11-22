@@ -130,8 +130,8 @@ This setup method assumes you have an existing PayPal account.
 1. Enter one of the following credentials that you use to log in to your PayPal merchant account:
 
    - **[!UICONTROL Partner]** - Your PayPal Partner ID.
-   - **[!UICONTROL User]** - The ID of another user who is set up on your PayPal account.
-   - **[!UICONTROL Vendor]** - Your PayPal user login name.
+   - **[!UICONTROL User]** - If you set up one or more additional users on the account, this value is the ID of the user authorized to process transactions. If, however, you have not set up additional users, **[!UICONTROL USER]** has the same value as **[!UICONTROL Vendor]**.
+   - **[!UICONTROL Vendor]** - Your merchant login ID created when you registered for the account.
 
 1. Enter the **[!UICONTROL Password]** that is associated with your PayPal account.
 

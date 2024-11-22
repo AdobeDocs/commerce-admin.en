@@ -65,9 +65,15 @@ After creating the draft quote, add product items, apply discounts, and communic
 
    - In the [!UICONTROL Discount] field, enter the value for the discount type. For example, if you selected a percentage discount, enter 10 to apply a 10% discount to the line item.
 
-   - [!BADGE 1.5.0-beta capabilities]{type=Informative url="/help/b2b/release-notes.md" tooltip="Available only for Beta program participants"} Optionally, lock the line item discount value so that the product price is not further reduced by any discounts applied at the quote level.
+   - Optionally, lock the line item discount value so that the product price is not further reduced by any discounts applied at the quote level.
 
      After confirming the change, the line item attributes in the product grid update to show the discount amount applied. If the discount is locked, a lock icon displays.
+
+   A Sales Representative can request a discount from a specific line item in a quote.
+   
+   >[!NOTE]
+   >
+   >For a video demo of a how discounts at the line item work, see [Sales Representative applies discount to a quote line item](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html) in _Commerce Videos and Tutorials_.
 
 1. Apply a quote-level discount as needed:
 
@@ -84,6 +90,14 @@ After creating the draft quote, add product items, apply discounts, and communic
    ![Seller adds information for buyer](./assets/quote-draft-add-info-for-buyer.png){width="700" zoomable="yes"}
 
    By default, an [attached file](configure-quotes.md) can be up to 2 MB, in any of the following file formats: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG or JPEG, PNG.
+
+1. Add shipping address during negotiations.
+
+   A Sales Representative can make a shipping and delivery selection once the buyer has added a shipping address to the quote.
+
+   Shipping options are locked on checkout.
+
+   For more information, see [My quotes](account-dashboard-my-quotes.md#adding-a-shipping-address).
 
 1. Process the quote.
 

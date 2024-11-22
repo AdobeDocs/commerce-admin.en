@@ -26,7 +26,7 @@ feature: Configuration, Customers, Communications
 
 ![Subscription Options](./assets/newsletter-subscription-options.png)<!-- zoom -->
 
-<!-- [Subscription Options](https://docs.magento.com/user-guide/marketing/newsletter-configuration.html) -->
+<!-- [Subscription Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/newsletters/newsletters) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
