@@ -8,7 +8,7 @@ exl-id: 3d95a44e-b874-442b-af96-0dc6b589d0f7
 
 If quotes are enabled, the _[!UICONTROL My Quotes Template]_ section of the customer account dashboard lists all quote templates associated with the customer account. Depending on their permissions, only buyers who make purchases on behalf of a company can request a quote template and negotiate quote pricing and terms for recurring orders.
 
-![My Quote Templates](./assets/account-dashboard-quote-templates-list.png){width="700" zoomable="yes"}
+ ![My Quote Templates](./assets/account-dashboard-quote-templates-list.png){width="700" zoomable="yes"}
 
 The quote template list organizes templates by status.
 
