@@ -112,6 +112,8 @@ After the updates are deployed, verify that the `Hipaa*` extensiion is installed
    Magento_HipaaNewsletter
    Magento_HipaaImportExport
    Magento_HipaaApiLogging
+   Magento_HipaaSales
+   Magento_HipaaCustomer
    <truncated for brevity>
    ```
 
@@ -154,6 +156,42 @@ The _Action Logs_ report grid (**[!UICONTROL System]** > Action Logs > Report) i
 #### Configure Admin actions for logging
 
 This feature is not available because all actions must be recorded by default.
+
+### HIPAA Customer Search Results Restriction
+
+The HIPAA Customer Search Results Restriction functionality in Adobe Commerce ensures compliance with HIPAA regulations by limiting access to Protected Health Information (PHI) and Personally Identifiable Information (PII). This feature restricts the ability to search and view customer records based on user roles, ensuring that only authorized users can access this information.
+
+#### Key Features
+
+- **Search Restrictions**: Users without the necessary roles cannot search for or view customer records.
+- **Mandatory Search for Access**: Unlike the default Adobe Commerce behavior, it is not possible to see customer information without performing a search. This ensures that users must know specific details about a customer to locate their information.
+- **Limited Search Results**: Search results matching the criteria are limited to 10 records, ensuring that only a manageable number of records are displayed at a time.
+- **Minimum Number of Filters**: Users must apply a minimum of three filters (e.g., email, lastname, and state) to perform a search, ensuring that searches are specific and targeted.
+- **Filter Notifications**: When search restrictions are enabled, users are notified to apply filters to refine their search results.
+
+#### Configuration
+
+The configuration for limiting the number of customers in the search results is located in the admin panel under **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL Admin]** > **[!UICONTROL Admin Grids]**. This configuration is enabled by default when the `hipaa-ee` extension is installed.
+
+- **Limit Number of Customers in Grid**: This setting allows you to enable or disable the limitation on the number of customers displayed in the grid search results.
+- **Customer Grid Search Result Limit**: This setting specifies the maximum number of customer records that can be displayed in the grid search results.
+
+#### Affected Functional Areas
+
+Customer grids on the Admin Create Order page (**[!UICONTROL Sales]** > **[!UICONTROL Orders]** > **[!UICONTROL Create New Order]**) and Customers page (**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**) are affected by the search results restriction functionality.
+
+- Filters are opened by default.
+- Users must apply a minimum of three filters to perform a search.
+- Search results are limited to 10 records by default.
+- If there are more records matching the search criteria, notifications will inform users about the result limit and the need to refine their search.
+- Grid pagination is not available.
+- Previous search results and filters applied are not saved when navigating away from the page.
+
+The search results restriction functionality also applies to the REST API for customer search (`/V1/customers/search`).
+
+- Without filters applied or with insufficient filters, the API returns an error message indicating that the required number of filters are needed to perform a search.
+- When sufficient filters are applied by authorized users, the API returns results within the specified limit.
+- When results are limited, a message is added to the response indicating the total number of records found and the current applied limit.
 
 ### Import and export features
 
@@ -198,7 +236,11 @@ To empower Admin users with more informative grids, the HIPAA-Ready service prov
 - Added a **[!UICONTROL Scheduled At]** column (the _date and time when the import or export was scheduled_).
 - Added a **[!UICONTROL User]** column (the _username of an Admin user who scheduled the import or export_).
 
-## HIPAA-ready services
+## HIPAA-compliant services and tools
+
+This section describes HIPAA-compliant Adobe services that are available to use with the HIPAA-offering for Adobe Commerce. It also describes tools that you can use to help monitor key security and compliance controls for your store.
+
+### Services
 
 The following table identifies Adobe Commerce and extensibility services that are available for the HIPAA-readiness offering. These services include, but are not limited to:
 
@@ -272,7 +314,19 @@ The following table identifies Adobe Commerce and extensibility services that ar
     </tbody>
 </table>
 
-## Disabled features
+### Tools
+
+The [Security Scan Tool](../systems/security-scan.md) for Adobe Commerce helps you monitor your store to ensure that all required security controls are enabled and operational. In addition to the standard security checks, Adobe has enhanced the tool to display HIPAA-specific checks for customers using the HIPAA-offering for Adobe Commerce. The HIPAA checks in the Security Scan Tool are designed to ensure that:
+
+- Auditing modules are not disabled
+- Two-factor authentication (2FA) is not disabled
+- Marketing features are disabled
+- All installed extensions match a predefined allowlist
+- No unsupported Adobe services are installed
+
+You can [configure the tool](../systems/security-scan.md#run-a-security-scan) to send you email notifications with details from scheduled scans or [manually view reports](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/overview#to-review-the-report).
+
+## Disabled services and features
 
 To comply with HIPAA requirements, some features supported by Adobe Commerce are either not available or disabled by default. Merchants have the option to re-enable or use these services and features at their own risk.
 
