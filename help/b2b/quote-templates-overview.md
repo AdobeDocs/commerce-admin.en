@@ -9,8 +9,8 @@ exl-id: 7d1e7a3d-6c50-416a-b490-0a083e1c06b4
 The Quote Template capability allows buyers and sellers to streamline the quote process by creating reusable and customizable quote templates.
 
 - **Customizable Quotes**—Buyers can generate linked quotes from a pre-approved template, allowing for customization within specified parameters such as line-item quantities and selections.
-- **Order Thresholds**—Sellers can set minimum and maximum order commitments, ensuring that buyers adhere to agreed-upon purchasing volumes.
-- **Expiration Dates**—Templates can have validity periods (*[!UICONTROL Valid Until]*), ensuring that the terms are applicable only within a specified time frame.
+- **Order Thresholds**—Sellers can set minimum and maximum order commitments, ensuring that buyers adhere to agreed-upon purchasing volumes. After the buyer accepts the quote template, the order threshold count increments each time a linked quote is generated. If the linked quote is closed without being converted an order, the order is subtracted from the threshold count. When the maximum order threshold is met, the quote template expires.
+- **Expiration Dates**—Templates can have validity periods (*[!UICONTROL Valid Until]*), ensuring that the terms are applicable only within a specified time frame. At expiration, the template is closed and all associated linked quotes are closed. The expiration date can only be set or updated by the seller.
 - **Discounts and Pricing**- Sellers can use the same line-item, quote-level, and shipping price discount capabilities available with quotes to set discounts for recurring orders, simplifying the negotiation process.
 - **Tracking and Reporting**—The system tracks the number of linked quotes generated from the template and successfully completed orders to provide insights into the fulfillment of agreed upon order quotas.
 
@@ -37,6 +37,8 @@ Quote templates can be initiated by the buyer or the seller.
 - **Sales representative** — A Sales Representative can create a quote template from the Admin on behalf of a specific company buyer. The Sales Representative can create the quote template in the Admin from an existing quote or from the [!UICONTROL Quote Templates] grid and save it as a `draft` or send it to the buyer to start the negotiation. In draft state, the quote is visible only to the seller. Once the quote is sent, the status is `Submitted`. It cannot be modified by the seller until the buyer sends it back.
 
   ![Seller initiating a buyer quote from the Quotes grid in the Admin](./assets/quote-template-create-from-grid.png){width="700" zoomable="yes"}
+  
+  When the seller creates the quote template, the expiration date ([!UICONTROL Valid until] date field) defaults to 180 days. If the buyer created the template, the expiration date is blank.  The buyer must set the expiration date before sending the template back to the buyer for review.
 
 **Step 2: Quote review and negotiation (Review)**
 
@@ -77,7 +79,6 @@ View the negotiation timeline, communication, and other quote template activity 
 1. History is also tracked at the line item level.
 
    ![View Line Item History](./assets/quote-view-line-item-history.png){width="400" zoomable="yes"}
-
 
 ### Decline a quote template
 
