@@ -2,8 +2,8 @@
 title: Set up the AEM Assets Integration
 description: Learn about the requirements and steps to set up the integration between Adobe Commerce and AEM Assets as a Cloud Service.
 feature: CMS, Media, Configuration, Integration
+exl-id: 75cf72ed-0110-4aed-b44a-193ad4dae202
 ---
-
 # Set up the AEM Assets Integration
 
 Enable advanced asset management capabilities by setting up your AEM Assets environment and installing and configuring the AEM Assets integration for Commerce.

@@ -87,6 +87,6 @@ You can avoid being penalized by search engines by omitting the category from th
 
 Watch this video to learn about managing SEO meta data:
 
->[!VIDEO](https://video.tv.adobe.com/v/343750?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343750?quality=12&learn=on)
 
 [1]: https://schema.org/

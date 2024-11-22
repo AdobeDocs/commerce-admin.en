@@ -20,7 +20,7 @@ You can change the layout of the [!DNL Columns] container by dragging a column a
 
 Watch this video for a demonstration of how the [!DNL Columns] container can be used to refine your page layouts:
 
->[!VIDEO](https://video.tv.adobe.com/v/345828?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/345828?quality=12&learn=on)
 
 ## Column toolbox
 
