@@ -181,5 +181,4 @@ All actions related to reward points are displayed in the customer's _[!UICONTRO
 
 For help with troubleshooting reward points issues, see the following Commerce Support Knowledge Base articles:
 
-- [Loyalty points on partial orders](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-8/mdva-31295-magento-patch-loyalty-points-on-partial-orders.html)
 - [404 error - removing rewards points on multi-shipping checkout](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html)

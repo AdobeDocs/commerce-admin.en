@@ -42,12 +42,3 @@ For example, you can define and set the conditions for a price rule that when me
 |[!UICONTROL Status]|![Magento Open Source](../assets/open-source.svg) (Magento Open Source only) Use this option to filter the list based on rule status (`Active` or `Inactive`).|
 
 {style="table-layout:auto"}
-
-## Troubleshooting resources
-
-For help with troubleshooting catalog price rule issues, see the following Commerce Support Knowledge Base articles:
-
-- [404 Error on store front once catalog price rule schedules update is performed](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/404-error-on-store-front-once-catalog-price-rule-schedules-update-is-performed.html)
-- [Improved performance of product page with related products and target rules](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-9/mdva-31791-magento-patch-improvement-for-product-page-with-related-products-and-target-rules.html)
-- [Catalog price rules don't work](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-14/mdva-24201-magento-patch-catalog-price-rules-don-t-work.html)
-- [GraphQL price calculations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-14/mdva-33975-magento-patch-graphql-price-calculations.html)

@@ -143,14 +143,4 @@ Invoices can be printed individually or as a batch. However, before an invoice c
 
 The invoices are saved in a single PDF file that can be sent to a printer or saved.
 
-## Troubleshooting resources
-
-For help with troubleshooting invoice issues, see the following _Commerce Support Knowledge Base_ articles:
-
-- [Can't invoice bundle products virtual and simple](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-9/mdva-30889-magento-patch-can-t-invoice-bundle-products-virtual-and-simple.html)
-- [Invoice without store credit info](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-8/mdva-31150-magento-patch-invoice-without-store-credit-info.html)
-- [Tax appears on invoice with 100% discount](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-22/mdva-35773-tax-appears-on-invoice-with-100-discount.html)
-- [Order invoices don't send automatically](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-13/mdva-32545-magento-patch-order-invoices-don-t-send-automatically.html)
-
-
 [1]: https://www.adobe.com/acrobat/pdf-reader.html "Get Adobe Reader"

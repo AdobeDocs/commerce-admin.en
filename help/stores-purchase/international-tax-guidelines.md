@@ -134,7 +134,7 @@ These recommended settings can be used for most tax configurations for stores wi
 
 >[!IMPORTANT]
 >
->Merchants that are in a GST/PST province (Montreal) should create one tax rule and show a combined tax amount. Be sure to consult a qualified tax authority if you have any questions. For information about the tax requirements of specific provinces, see the following: [Revenu Québec][1], [Government of Saskatchewan][2], and [Manitoba Information for Vendors][3]
+>Merchants that are in a GST/PST province (Montreal) should create one tax rule and show a combined tax amount. Be sure to consult a qualified tax authority if you have any questions.
 
 |Tax option|Recommendation|
 |--- |--- |
@@ -412,7 +412,3 @@ Complete the following general tax settings:
       ![Default Tax Destination Calculation](./assets/destination-calc-french.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Config]**.
-
-[1]: https://www.revenuquebec.ca/en/businesses/
-[2]: https://www.saskatchewan.ca/finance
-[3]: https://www.gov.mb.ca/finance/taxation/bulletins/004.pdf
