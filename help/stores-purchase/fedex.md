@@ -16,7 +16,7 @@ FedEx is one of the world's largest shipping service companies, providing air, f
 
 ## Step 1: Register for FedEx Web Services Production
 
-A [FedEx merchant account][1] and registration for FedEx Web Services Production Access is required. After creating a FedEx account, read through the production account information page, then click the _Obtain Production Key_ link at the bottom of the page to register and obtain a key.
+A FedEx merchant account and registration for FedEx Web Services Production Access is required. After creating a FedEx account, read through the production account information page, then click the _Obtain Production Key_ link at the bottom of the page to register and obtain a key.
 
 >[!NOTE]
 >
@@ -153,5 +153,3 @@ A [FedEx merchant account][1] and registration for FedEx Web Services Production
 >[!NOTE]
 >
 >Commerce always declares the full order price to FedEx when calculating shipping charges. This behavior cannot be changed.
-
-[1]: https://www.fedex.com/login/web/jsp/contactInfo1.jsp
