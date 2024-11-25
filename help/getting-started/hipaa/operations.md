@@ -9,10 +9,14 @@ Guidelines for migrating to a HIPAA-ready offering and using the secondary stagi
 
 ## Migration
 
-Customer migrating from a non-HIPAA Commerce offering to a HIPAA ready offering must delete their old dataspaces to prevent co-mingling of sensitive and non-sensitive data.
+Customers migrating from a non-HIPAA Commerce offering to a HIPAA-ready offering must adhere to the following guidelines:
 
-1. Merchant need to delete their old data spaces and only after that should the new HIPAA-SaaS environment be used([commerce services connector](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas) should be configured only after that)
-1. If the merchant has a requirement to carry forward their old data/configurations(for example for LS, PREX), there needs to be a migration strategy in place. This process is owned by the merchant.
+1. **Delete Existing Dataspaces**: Before migration, all existing dataspaces must be deleted to prevent the co-mingling of sensitive and non-sensitive data.
+2. **Configure New Environment**: The new HIPAA-SaaS environment can only be used after the migration is complete and the old dataspaces are deleted. The [Commerce Services Connector](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas) should be configured only after this step.
+3. **Migration Strategy**: If there is a need to carry forward old data/configurations (e.g., for LS, PREX), a migration strategy must be in place. This process is the responsibility of the merchant.
+
+>[!NOTE]
+>To delete the existing dataspaces, customers must create a ticket with Adobe Commerce support and provide the necessary environment details.
 
 ## Troubleshooting with Adobe Commerce support
 
