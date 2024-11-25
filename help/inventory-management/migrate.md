@@ -66,5 +66,5 @@ You may want to disable [!DNL Inventory Management] modules to:
 
 For complete details, see [Install and Update](install-update.md).
 
-[1]: https://omsdocs.magento.com/
-[2]: https://omsdocs.magento.com/en/getting-started/feature-list/
+[1]: https://commerce-docs.github.io/oms-documentation-archive/
+[2]: https://commerce-docs.github.io/oms-documentation-archive/getting-started/feature-list/

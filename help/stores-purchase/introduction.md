@@ -33,7 +33,7 @@ Customers sometimes need assistance to complete a purchase. Some customers like 
 
 Learn about seller-assisted shopping by watching this video:
 
->[!VIDEO](https://video.tv.adobe.com/v/343662/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343662/?quality=12&learn=on)
 
 ## Order management and operations
 

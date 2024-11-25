@@ -13,7 +13,7 @@ Adobe provides a collection of Commerce services, integration services, and data
 
 ![Search](../landing/assets/icon-magnify.svg){width="40"}**[Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)**—Implement an AI-powered search tool that delivers smarter, faster, and more relevant results for B2C shoppers.
 
-![ThumbsUp](../landing/assets/icon-thumbs-up.svg){width="40"}**[Product Recommendations](https://experienceleague.adobe.com/en/en/docs/commerce-merchant-services/product-recommendations/overview)**—Add AI-fueled recommendations based on shopper behavior, popular trends, product similarity, and more.
+![ThumbsUp](../landing/assets/icon-thumbs-up.svg){width="40"}**[Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/overview)**—Add AI-fueled recommendations based on shopper behavior, popular trends, product similarity, and more.
 
 ![Catalog data for connected services](../landing/assets/icon-data-book.svg){width="40"}**[Catalog Service](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/overview)**—Give your customers an optimized product experience while boosting performance, improving scalability, and increasing conversions.
 

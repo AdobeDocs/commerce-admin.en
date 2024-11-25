@@ -73,7 +73,7 @@ The [!UICONTROL Content Staging] [dashboard](content-staging-dashboard.md) provi
 
 To learn about content staging, watch this video:
 
->[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12&learn=on)
 
 ## Troubleshooting resources
 
