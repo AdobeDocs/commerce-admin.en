@@ -39,7 +39,7 @@ For initial onboarding, use the default *Match by product sku* rule.
 
 1. Enter the **[!UICONTROL Asset Selector IMS Client ID].
 
-  The [IMS ID](../getting-started/adobe-ims-config.md) allows you to integrate AEM Assets with Page Builder.
+   The [IMS ID](../getting-started/adobe-ims-config.md) allows you to integrate AEM Assets with Page Builder.
 
 1. Select the [[!UICONTROL Commerce integration]](aem-assets-configure-commerce.md#add-the-integration-to-the-commerce-environment)** for authenticating requests between Commerce and the asset matching service.
 
