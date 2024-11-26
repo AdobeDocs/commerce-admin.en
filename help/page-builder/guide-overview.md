@@ -47,6 +47,3 @@ It does not cover the core capabilities of Adobe Commerce and Magento Open Sourc
 For help with troubleshooting [!DNL Page Builder] issues, see the following [!DNL Commerce] Support Knowledge Base articles:
 
 - [Empty page when DotDigital [!DNL Page Builder] form saved](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/magento-2.4.1-empty-page-when-dotdigital-page-builder-form-saved.html)
-- [[!DNL Page Builder] doesn't load media gallery](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-12/mdva-32133-magento-patch-page-builder-doesn-t-load-media-gallery.html)
-- [[!DNL Page Builder] preview breaks product price differs across sites](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-16/mdva-33453-page-builder-preview-breaks-product-price-differs-across-sites.html)
-- [Can't save Terms page](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-19/mdva-33614-magento-patch-can-t-save-terms-page.html)

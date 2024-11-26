@@ -194,18 +194,21 @@ Click the _View_ (![Eye icon](../assets/icon-view-eye.png)) control and do one o
 
 Page changes can be applied on schedule, and grouped with other content changes. You can create a campaign based on scheduled changes to a page, or apply the changes to an existing campaign. For more information, see [Content Staging](content-staging.md).
 
+When configuring schedules for page changes and editing campaigns, keep the following in mind:
+
+- All scheduled updates are applied consecutively, which means that any entity can have only one scheduled update at one point. Any scheduled update is applied to all store views within its time frame. As a result, an entity cannot have a different scheduled update for different store views at the same time. All entity attribute values within all store views, which are not affected by the current scheduled update, are taken from the default values, and not from the previous scheduled update.
+
+- If a campaign is linked to more than one page, the campaign can be edited only from the [Content Staging Dashboard](content-staging-dashboard.md).
+
+- If an active campaign is initially created without an end date, the campaign cannot be edited later to include an end date. In such a case, it is necessary to create a duplicate campaign and enter the end date that is needed.
+
+- Campaign Start Date and End Date must be defined by using the **_default_** Admin time zone, which is converted from the local time zone of each website. Consider an example where you have multiple websites in different time zones, but you want to start a campaign based on a US time zone. In this case, you must schedule a separate update for each local time zone, and set **[!UICONTROL Start Date]** and **[!UICONTROL End Date]** in converted from each local website time zone to the default Admin time zone.
+
+- You can schedule and preview changes for product updates. For more information, see [Scheduling an Update](content-staging-scheduled-update.md).
+
 >[!NOTE]
 >
 >The [!UICONTROL Custom Design Update] tab has been removed in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce and cannot be modified directly on the page. You must create a scheduled update for these activations.
 
->[!NOTE]
->
->All scheduled updates are applied consecutively, which means that any entity can have only one scheduled update at one point. Any scheduled update is applied to all store views within its time frame. As a result, an entity cannot have a different scheduled update for different store views at the same time. All entity attribute values within all store views, which are not affected by the current scheduled update, are taken from the default values, and not from the previous scheduled update.
-
 ![The Home page displays scheduled changes at the top](./assets/page-scheduled-change.png){width="600" zoomable="yes"}
 
->[!NOTE]
->
->Campaign Start Date and End Date must be defined by using the **_default_** Admin time zone, which is converted from the local time zone of each website. Consider an example where you have multiple websites in different time zones, but you want to start a campaign based on a US time zone. In this case, you must schedule a separate update for each local time zone, and set **[!UICONTROL Start Date]** and **[!UICONTROL End Date]** in converted from each local website time zone to the default Admin time zone.
-
-Also, you can schedule and preview changes for product updates. For more information, see [Scheduling an Update](content-staging-scheduled-update.md).

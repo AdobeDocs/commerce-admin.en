@@ -70,6 +70,11 @@ The following instructions are written from the perspective of a shared user who
 
    ![Shared with me](./assets/shared-with-me.png){width="600" zoomable="yes"}
 
+   >[!NOTE]
+   >
+   >   If you do not see the _[!UICONTROL Switch Accounts]_ control, contact the primary account holder and confirm that they have entered your correct [account information](#set-up-a-shared-account).
+
+
 1. To gain access to the shared account, set **[!UICONTROL Switch Accounts]** to the name of the shared account.
 
    ![Switch to the shared account](./assets/shared-switch.png){width="600" zoomable="yes"}
@@ -80,11 +85,11 @@ The following instructions are written from the perspective of a shared user who
 
    ![Support](./assets/shared-support.png){width="600" zoomable="yes"}
 
-   You can use the [Adobe Commerce Help Center](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview.html) from the shared account to search for articles and troubleshooting information, find patches for known issues, and create support tickets.
+   You can use the [Adobe Commerce Help Center](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) from the shared account to search for articles and troubleshooting information, find patches for known issues, and create support tickets.
 
    >[!NOTE]
    >
-   >After receiving shared access, the user must log in to their [[!DNL Commerce] account](https://account.magento.com/customer/account/login), navigate to _Shared Access_, and click the **[!UICONTROL Support]** tab. This action is required the first time only to ensure that the [Adobe Commerce Support Knowledge Base](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview.html) is configured properly through the `SSO` call.
+   >After receiving shared access, the user must log in to their [[!DNL Commerce] account](https://account.magento.com/customer/account/login), navigate to _Shared Access_, and click the **[!UICONTROL Support]** tab. This action is required the first time only to ensure that the [Adobe Commerce Support Knowledge Base](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) is configured properly through the `SSO` call.
 
 1. To return to your own account, click **Back** in your browser controls and set **[!UICONTROL Switch Accounts]** to `My Account`.
 
@@ -102,11 +107,11 @@ The following instructions are written from the perspective of a shared user who
    > 
    > If so, ask the account owner to modify the Shared Access account to clear the account permissions. After that update, the user cannot access any account resources.
    >
-   > In addition, make sure that the users are removed from the project so that they no longer receive email notifications: [Former team members receive Adobe Commerce cloud notification emails](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html)
+   > In addition, make sure that the users are removed from the project so that they no longer receive email notifications: [Former team members receive Adobe Commerce cloud notification emails](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
 
 
 1. When prompted to confirm, click **[!UICONTROL Delete User]**.
 
  >[!NOTE]
  >
- >You cannot delete users with the Share Name of _Cloud Shared Access from MAG[XYZ]_ in this interface. See [How to delete users who were granted shared access via a Cloud project?](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users).
+ >You cannot delete users with the Share Name of _Cloud Shared Access from MAG[XYZ]_ in this interface. See [How to delete users who were granted shared access via a Cloud project?](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting).

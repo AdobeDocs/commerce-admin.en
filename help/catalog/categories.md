@@ -30,6 +30,3 @@ For help with troubleshooting category issues, see the following Commerce Suppor
 
 - [Changes to categories are not being saved](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html)
 - [Main Menu (Categories) not displayed on subpages with Fastly enabled](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html)
-- [Missing products from categories, indexing related](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-6/mdva-30977-magento-patch-missing-products-from-categories-indexing-related.html)
-- [Out of memory on certain categories](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-19/mdva-31307-magento-patch-out-of-memory-on-certain-categories.html)
-- [Products and categories not displaying](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-18/mdva-34695-magento-patch-products-and-categories-not-displaying.html)

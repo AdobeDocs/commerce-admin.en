@@ -16,7 +16,7 @@ feature: Configuration, Customers, Storefront
 
 ![General Options](./assets/wishlist-general-options.png)<!-- zoom -->
 
-<!--[General Options](https://docs.magento.com/user-guide/marketing/wishlist-configuration.html) -->
+<!--[General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -31,7 +31,7 @@ feature: Configuration, Customers, Storefront
 
 ![Share Options](./assets/wishlist-share-options.png)<!-- zoom -->
 
-<!-- [Share Options](https://docs.magento.com/user-guide/marketing/wishlist-configuration.html) -->
+<!-- [Share Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -46,7 +46,7 @@ feature: Configuration, Customers, Storefront
 
 ![My Wish List Link](./assets/wishlist-my-wishlist-link.png)<!-- zoom -->
 
-<!--[My Wish List Link](https://docs.magento.com/user-guide/marketing/wishlist-configuration.html) -->
+<!--[My Wish List Link](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
