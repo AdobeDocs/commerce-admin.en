@@ -12,7 +12,7 @@ feature: Configuration, Marketing Tools
 
 ![Google Analytics](./assets/google-api-analytics-ee.png)<!-- zoom -->
 
-<!-- [Google Analytics](https://docs.magento.com/user-guide/marketing/google-universal-analytics.html) -->
+<!-- [Google Analytics](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-analytics) -->
 
 | Field | [Scope](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 | ----- | ------------------------------------------ | ----------- |
@@ -48,7 +48,7 @@ When **[!UICONTROL Account Type]** is set to `Google Tag Manager`, there are add
 
 ![Google AdWords](./assets/google-api-google-adwords.png)<!-- zoom -->
 
-<!-- [Google AdWords](https://docs.magento.com/user-guide/marketing/google-adwords.html) -->
+<!-- [Google AdWords](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-adwords) -->
 
 | Field | [Scope](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 | ----- | ------------------------------------------ | ----------- |
@@ -72,7 +72,7 @@ When **[!UICONTROL Account Type]** is set to `Google Tag Manager`, there are add
 
 ![Google Analytics4](./assets/google-api-gtag-google-analytics4.png)<!-- zoom -->
 
-<!-- [Google Analytics4](https://docs.magento.com/user-guide/marketing/google-universal-analytics.html) -->
+<!-- [Google Analytics4](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-analytics) -->
 
 | Field | [Scope](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 | ----- | ------------------------------------------ | ----------- |
@@ -108,7 +108,7 @@ When **[!UICONTROL Account Type]** is set to `Google Tag Manager`, there are add
 
 ![Google AdWords](./assets/google-api-gtag-google-adwords.png)<!-- zoom -->
 
-<!-- -- Google AdWords](https://docs.magento.com/user-guide/marketing/google-adwords.html) -->
+<!-- -- Google AdWords](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-adwords) -->
 
 | Field | [Scope](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 | ----- | ------------------------------------------ | ----------- |

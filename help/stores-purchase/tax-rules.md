@@ -90,4 +90,4 @@ Tax rules incorporate a combination of product class, customer class, and tax ra
 
 Learn about managing currency and tax rules by watching this video:
 
->[!VIDEO](https://video.tv.adobe.com/v/343657/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343657/?quality=12&learn=on)

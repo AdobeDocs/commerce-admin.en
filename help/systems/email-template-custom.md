@@ -6,7 +6,7 @@ feature: Communications, Configuration
 ---
 # Customize email templates
 
-Commerce includes a default email template for the body section of each message that is sent by the system. The template for the body content is combined with the header and footer templates to create the complete message. The content is formatted with HTML and CSS, and can be easily edited, and customized by adding [variables](variables-predefined.md) and [widgets](../content-design/widgets.md). Email templates can be customized for each website, store, or store view. If using custom templates, make sure to update the [system configuration](email-templates.md#configure-email-templates) to ensure that the correct template is used.
+Commerce includes a default email template for the body section of each message that is sent by the system. The template for the body content is combined with the header and footer templates to create the complete message. The content is formatted with HTML and CSS, and can be easily edited, and customized by adding [variables](variables-predefined.md). Email templates can be customized for each website, store, or store view. If using custom templates, make sure to update the [system configuration](email-templates.md#configure-email-templates) to ensure that the correct template is used. To learn how you can use conditional statements in customizing the email template, see the [developer documentation](https://developer.adobe.com/commerce/frontend-core/guide/templates/email/#theme-based-customizations-1).
 
 ![Example - welcome email preview](./assets/email-template-preview.png){width="500" zoomable="yes"}
 

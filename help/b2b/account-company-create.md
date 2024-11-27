@@ -15,7 +15,7 @@ The person who sets up a company account from the storefront is assigned a role 
 
 >[!IMPORTANT]
 >
->To support this method (allowing customers to register their company from the storefront), make sure that the [B2B Features](enable-basic-features.md) are configured so that **[!UICONTROL Allow Company Registration from the Storefront]** is set to `Yes`.
+>To support this method (allowing customers to register their company from the storefront), make sure that the [B2B Features](enable-basic-features.md) are enabled.
 
 1. In the upper-right corner of the storefront header, the customer clicks **[!UICONTROL Create an Account]** and chooses **[!UICONTROL Create New Company Account]**.
 
@@ -23,7 +23,7 @@ The person who sets up a company account from the storefront is assigned a role 
 
    >[!NOTE]
    >
-   >If a visitor is logged in to a registered user account, they can create a company account by navigating to _[!UICONTROL Customer Profile]_ > **[!UICONTROL Company Structure]** > **[!UICONTROL Create a Company Account]**. Upon creation of the company account, the customer's account is assigned as the primary contact. Otherwise, the system creates a customer, who receives an email to set a password.
+   >If a visitor is logged in to a registered user account, they can create a company account by navigating to _[!UICONTROL Customer Profile]_ > **[!UICONTROL Company Structure]** > **[!UICONTROL Create a Company Account]**.
 
 1. In the _[!UICONTROL Company Information]_ section, the customer does the following:
 
@@ -62,6 +62,7 @@ The person who sets up a company account from the storefront is assigned a role 
    - Optionally completes the following fields:
 
       - **[!UICONTROL Job Title]**
+      - **[!UICONTROL Work Phone Number]**
       - **[!UICONTROL Gender]**
 
    ![Company Administrator](./assets/company-administrator-account-storefront.png)
@@ -136,6 +137,7 @@ The process of creating a company from the Admin is essentially the same as from
 
       - **[!UICONTROL Website]**
       - **[!UICONTROL Job Title]**
+      - **[!UICONTROL Work Phone Number]**
       - **[!UICONTROL Gender]**
       - **[!UICONTROL Send Welcome Email From]**
 
@@ -259,6 +261,7 @@ The process of creating a company from the Admin is essentially the same as from
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Website]                 | Determines the website that the company administrator belongs to.                                                                                                                                                                                 |
 | [!UICONTROL Job Title]               | The title of the company administrator who manages the company account.                                                                                                                                                                           |
+| [!UICONTROL Work Phone Number]       | The phone number of the company administrator who manages the company account.                                                                                                                                                                    |
 | [!UICONTROL Email]                   | The email address of the company administrator can be the same as the company email address. If a different email address is entered, a separate individual account is created for the company administrator, in addition to the company account. |
 | [!UICONTROL Prefix]                  | If applicable, the prefix that is associated with the name of the company administrator (such as `Mr.`, `Ms.`, `Mrs.`, or `Dr.`). Depending on the configuration, the input field might be a text field or list.                                  |
 | [!UICONTROL First Name]              | The first name of the company administrator.                                                                                                                                                                                                      |

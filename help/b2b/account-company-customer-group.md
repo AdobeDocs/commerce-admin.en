@@ -9,9 +9,12 @@ role: Admin, User
 
 Assigning a customer group to a company is essentially the same as assigning a shared catalog. If Shared Catalog is not [enabled in the configuration](enable-basic-features.md), a Customer Group — rather than a Shared Catalog — is assigned to a company.
 
->[!NOTE]
->
-> Only one customer group or shared catalog can be assigned to a company at a time. A customer group that is associated with a shared catalog cannot be deleted.
+- Only one customer group or shared catalog can be assigned to a company at a time. A customer group that is associated with a shared catalog cannot be deleted.
+- Changing the customer group assigned to the company updates the profiles of all company members.
+- If the customer group assignment is changed from a shared catalog to a regular customer group, company members lose access to the shared catalog and the primary catalog becomes available to them from the storefront.
+- After changing the company group, a company user must log out and log in on the Storefront to see new prices in the catalog.
+
+## Change the customer group
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
@@ -22,22 +25,10 @@ Assigning a customer group to a company is essentially the same as assigning a s
 1. On the company page, scroll down and expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Advanced Settings]** section.
 
 1. Set the appropriate **[!UICONTROL Customer Group]**.
-
-   >[!NOTE]
-   >
-   >The [!UICONTROL Customer Group] list includes all existing shared catalogs, even if Shared Catalogs is disabled in the configuration.
-
-   Changing the customer group assigned to the company updates the profiles of all company members.
-
-   >[!NOTE]
-   >
-   >After changing the company group, a company user must log out and log in on the Storefront to see new prices in the catalog.
+   
+   The [!UICONTROL Customer Group] list includes all existing shared catalogs, even if Shared Catalogs is disabled in the configuration.
 
    ![Change customer group or shared catalog](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
-
-   >[!NOTE]
-   >
-   >If the customer group assignment is changed from a shared catalog to a regular customer group, company members lose access to the shared catalog and the primary catalog becomes available to them from the storefront.
 
 1. When prompted to confirm, click **[!UICONTROL Proceed]**.
 

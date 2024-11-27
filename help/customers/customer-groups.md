@@ -104,4 +104,4 @@ Customer groups determine which discounts are available and the tax class that i
 
 Learn about creating customer groups by watching this demo:
 
->[!VIDEO](https://video.tv.adobe.com/v/343660/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343660/?quality=12&learn=on)

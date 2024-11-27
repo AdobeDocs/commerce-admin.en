@@ -22,7 +22,7 @@ If there are multiple price rules running in the same campaign, the Priority set
 
 >[!IMPORTANT]
 >
->If a campaign that includes a price rule is initially created without an end date, the campaign cannot be edited later to include an end date. It is recommended that you either add an end date when you create the campaign, or create a duplicate version of the existing campaign and add the end date to the duplicate as needed.
+>If an active campaign is initially created without an end date, the campaign cannot be edited later to include an end date. In such a case, it is necessary to create a duplicate campaign and enter the end date that is needed.
 
 ![Catalog price rule - scheduled changes](./assets/price-rule-catalog-scheduled.png){width="600" zoomable="yes"}
 
@@ -65,6 +65,10 @@ If there are multiple price rules running in the same campaign, the Priority set
 1. In the **[!UICONTROL Scheduled Changes]** box at the top of the page, click **[!UICONTROL View/Edit]**.
 
 1. Make any changes necessary to the scheduled update.
+
+   >[!NOTE]
+   >
+   >If a campaign is linked to more than one catalog price rule, the campaign can be edited only from the [Content Staging Dashboard](../content-design/content-staging-dashboard.md).
 
 1. Click **[!UICONTROL Save]**.
 
