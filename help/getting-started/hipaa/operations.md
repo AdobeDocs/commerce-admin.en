@@ -11,9 +11,9 @@ Guidelines for migrating to a HIPAA-ready offering and using the secondary stagi
 
 Customers migrating from a non-HIPAA Commerce offering to a HIPAA-ready offering must adhere to the following guidelines:
 
-1. **Delete Existing Dataspaces**: Before migration, all existing dataspaces must be deleted to prevent the co-mingling of sensitive and non-sensitive data.
-2. **Configure New Environment**: The new HIPAA-SaaS environment can only be used after the migration is complete and the old dataspaces are deleted. The [Commerce Services Connector](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas) should be configured only after this step.
-3. **Migration Strategy**: If there is a need to carry forward old data/configurations (e.g., for LS, PREX), a migration strategy must be in place. This process is the responsibility of the merchant.
+1. **Delete Existing Dataspaces**: Before migration, all existing dataspaces must be deleted to prevent the co-mingling of sensitive and non-sensitive data in the Adobe Commerce SaaS layer. Raise a support ticket to delete your dataspaces - more details in the note below.
+2. **Configure New Environment**: The [Commerce Services Connector](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas) setup in the new HIPAA commerce instance should be configured only after the dataspaces have been deleted in step 1. The new HIPAA-SaaS environment should be used only after the old dataspaces are deleted. The setup of the Commerce Services Connector automatically triggers the creation of new SaaS dataspaces.
+3. **Migration Strategy**: The deletion of the SaaS dataspaces is an irreversible process. This will delete all your catalog data and related configurations. A migration strategy needs to be in place if you wish to carry forward any of your old data or configurations. This strategy is the responsibility of the merchant. A support ticket for deleting the existing dataspaces should be created only after migration data backup (if applicable) are done.
 
 >[!NOTE]
 >To delete the existing dataspaces, customers must create a ticket with Adobe Commerce support and provide the necessary environment details.
