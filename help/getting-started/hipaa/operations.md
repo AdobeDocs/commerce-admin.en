@@ -5,7 +5,7 @@ description: Guidelines for migrating to a HIPAA-ready offering and using the se
 
 # Operations
 
-Guidelines for migrating to a HIPAA-ready offering and using the secondary staging environment for troubleshooting.
+Guidelines for migrating to a HIPAA-ready offering and using the "staging_for_support" environment for troubleshooting.
 
 ## Migration
 
@@ -20,12 +20,12 @@ Customers migrating from a non-HIPAA Commerce offering to a HIPAA-ready offering
 
 ## Troubleshooting with Adobe Commerce support
 
-All HIPAA ready offering comes with an additional secondary staging environment called "Staging 2" to be used by Commerce support team for troubleshooting purposes.  
+All HIPAA ready offering comes with an additional "staging_for_support" environment to be used by Commerce support team for troubleshooting purposes.  
 
-Customers must ensure that Staging 2 environment:
+Customers must ensure that "staging_for_support" environment:
 - Does not contain any sensitive data, like, but not limited to, Protected Health Information (PHI).
 - Must not be used for any production activities.
-- Must not be given different name than "Staging 2" to avoid confusion.
+- Must not be given different name than ""staging_for_support"" to avoid confusion.
 - Is kept up to date with both code and configuration from the production environment to ensure troubleshooting is performed in an environment as close to production as possible.
 
 ## Commerce services
