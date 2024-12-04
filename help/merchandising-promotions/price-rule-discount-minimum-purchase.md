@@ -6,7 +6,7 @@ feature: Merchandising, Price Rules, Shopping Cart
 ---
 # Cart price rule example - discount with minimum purchase
 
-Cart price rules can be used to offer a percentage discount based on a minimum product price in the cart. In the following example, a 10% discount is applied to all products in the whole cart when at least 1 product with price over $30.00 from a specified categories is added to the cart. The format of the discount is as follows:
+Cart price rules can be used to offer a percentage discount based on a minimum product price in the cart. In the following example, a 10% discount is applied to all products in the whole cart when at least 1 product with a price over $30.00 from a specified category is added to the cart. The format of the discount is as follows:
 
    X% whole cart off when at least 1 product is from Y category, and its price is over $Z dollars.
 
