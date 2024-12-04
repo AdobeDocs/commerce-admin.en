@@ -1,6 +1,6 @@
 ---
 title: Cart price rule example - discount with minimum product price
-description: Review an example of using a cart price rule to offer a discount with a minimum purchase.
+description: Review an example of using a cart price rule to offer a discount with a minimum product price.
 exl-id: dc06cd12-d23b-4836-9ad2-93ca60dac927
 feature: Merchandising, Price Rules, Shopping Cart
 ---
