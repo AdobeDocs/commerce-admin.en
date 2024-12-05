@@ -125,7 +125,7 @@ The `magento/hipaa-ee` extension introduces some changes and enhancements to the
 
 ### Action Logs
 
-Audit Logging is a HIPAA requirement. In Adobe Commerce, the [Action Logs](../systems/action-log.md) feature records every change made by an Admin user who works in your store. To meet HIPAA requirements for the Audit Log, the feature has been updated to record all Admin user and customer actions performed through the Admin UI and through API calls.
+Audit Logging is a HIPAA requirement. In Adobe Commerce, the [Action Logs](../../systems/action-log.md) feature records every change made by an Admin user who works in your store. To meet HIPAA requirements for the Audit Log, the feature has been updated to record all Admin user and customer actions performed through the Admin UI and through API calls.
 
 Action Logs also capture events when Adobe services access your store data. You can identify these events by filtering on the "Data Sent Outside" Action in the Action Logs report.
 
@@ -316,7 +316,7 @@ The following table identifies Adobe Commerce and extensibility services that ar
 
 ### Tools
 
-The [Security Scan Tool](../systems/security-scan.md) for Adobe Commerce helps you monitor your store to ensure that all required security controls are enabled and operational. In addition to the standard security checks, Adobe has enhanced the tool to display HIPAA-specific checks for customers using the HIPAA-offering for Adobe Commerce. The HIPAA checks in the Security Scan Tool are designed to ensure that:
+The [Security Scan Tool](../../systems/security-scan.md) for Adobe Commerce helps you monitor your store to ensure that all required security controls are enabled and operational. In addition to the standard security checks, Adobe has enhanced the tool to display HIPAA-specific checks for customers using the HIPAA-offering for Adobe Commerce. The HIPAA checks in the Security Scan Tool are designed to ensure that:
 
 - Auditing modules are not disabled
 - Two-factor authentication (2FA) is not disabled
@@ -324,7 +324,7 @@ The [Security Scan Tool](../systems/security-scan.md) for Adobe Commerce helps y
 - All installed extensions match a predefined allowlist
 - No unsupported Adobe services are installed
 
-You can [configure the tool](../systems/security-scan.md#run-a-security-scan) to send you email notifications with details from scheduled scans or [manually view reports](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/overview#to-review-the-report).
+You can [configure the tool](../../systems/security-scan.md#run-a-security-scan) to send you email notifications with details from scheduled scans or [manually view reports](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/overview#to-review-the-report).
 
 ## Disabled services and features
 
@@ -336,8 +336,8 @@ The following features are disabled by default in the HIPAA-readiness module. Me
 
 - **[Transactional email](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)**—SendGrid is disabled by default because the service is non-HIPAA-ready. Adobe Commerce provides an integration option that you can use with your own [AWS Simple Email Service](https://docs.aws.amazon.com/ses/) account. Contact your Customer Technical Account Manager or Adobe Commerce Support for configuration details.
 
-- **[Guest checkout](../stores-purchase/checkout-guest.md)**—This feature presents a potential risk for various aspects of HIPAA including logging, access control, PHI hygiene and lineage, and potentially more.
+- **[Guest checkout](../../stores-purchase/checkout-guest.md)**—This feature presents a potential risk for various aspects of HIPAA including logging, access control, PHI hygiene and lineage, and potentially more.
 
-- **[Newsletter feature](../merchandising-promotions/newsletters.md)**—This feature is disabled to prevent PHI being used in a marketing context.
+- **[Newsletter feature](../../merchandising-promotions/newsletters.md)**—This feature is disabled to prevent PHI being used in a marketing context.
 
-- **[Advanced Reporting service setting](../getting-started/business-intelligence.md)**—This configuration setting is disabled to prevent PHI from being used for analysis and reporting.
+- **[Advanced Reporting service setting](../../getting-started/business-intelligence.md)**—This configuration setting is disabled to prevent PHI from being used for analysis and reporting.
