@@ -16,7 +16,7 @@ Customers migrating from a non-HIPAA Commerce offering to a HIPAA-ready offering
 3. **Migration Strategy**: The deletion of the SaaS dataspaces is an irreversible process. This will delete all your catalog data and related configurations. A migration strategy needs to be in place if you wish to carry forward any of your old data or configurations. This strategy is the responsibility of the merchant. A support ticket for deleting the existing dataspaces should be created only after migration data backup (if applicable) are done.
 
 >[!NOTE]
->To delete the existing dataspaces, customers must create a ticket with Adobe Commerce support and provide the necessary environment details.
+>To delete the existing dataspaces, customers must create a ticket with Adobe Commerce support titled "HIPAA Migration: Delete SaaS Dataspaces" and provide their MAGEID along with the SaaS Project IDs that need to be deleted.
 
 ## Troubleshooting with Adobe Commerce support
 
