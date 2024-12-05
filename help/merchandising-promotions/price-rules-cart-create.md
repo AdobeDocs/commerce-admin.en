@@ -328,7 +328,7 @@ The label appears in the totals section of the order to identify the discount. T
 
 Watch this video to learn about creating cart price rules:
 
->[!VIDEO](https://video.tv.adobe.com/v/343835?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343835?quality=12&learn=on)
 
 ## Field descriptions
 

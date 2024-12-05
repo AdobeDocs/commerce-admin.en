@@ -32,4 +32,4 @@ Whether you are new to [!DNL Commerce] or an experienced user, complete the foll
 
 Watch this video to learn about Page Builder capabilities:
 
->[!VIDEO](https://video.tv.adobe.com/v/343781?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343781?quality=12&learn=on)

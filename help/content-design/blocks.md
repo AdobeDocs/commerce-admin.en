@@ -15,6 +15,6 @@ You can create custom blocks of content without writing any code, and assign the
 
 Learn about static and [dynamic blocks](dynamic-blocks.md) by watching this video:
 
->[!VIDEO](https://video.tv.adobe.com/v/343783?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343783?quality=12&learn=on)
 
 [1]: https://developer.adobe.com/commerce/frontend-core/guide/layouts/
