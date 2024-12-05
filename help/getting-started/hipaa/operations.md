@@ -1,24 +1,32 @@
 ---
 title: Operations
-description: Lorem ipsum dolor sit amet
+description: Guidelines for migrating to a HIPAA-ready offering and using the secondary staging environment for troubleshooting.
 ---
 
 # Operations
 
-Lorem ipsum dolor sit amet
+Guidelines for migrating to a HIPAA-ready offering and using the "staging_for_support" environment for troubleshooting.
 
 ## Migration
 
-Customer migrating from a non-HIPAA Commerce offering to a HIPAA ready offering must delete their old dataspaces to prevent co-mingling of sensitive and non-sensitive data.
+Customers migrating from a non-HIPAA Commerce offering to a HIPAA-ready offering must adhere to the following guidelines:
 
-1. Merchant need to delete their old data spaces and only after that should the new HIPAA-SaaS environment be used([commerce services connector](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas) should be configured only after that)
-1. If the merchant has a requirement to carry forward their old data/configurations(for example for LS, PREX), there needs to be a migration strategy in place. This process is owned by the merchant.
+1. **Delete Existing Dataspaces**: Before migration, all existing dataspaces must be deleted to prevent the co-mingling of sensitive and non-sensitive data in the Adobe Commerce SaaS layer. Raise a support ticket to delete your dataspaces - more details in the note below.
+2. **Configure New Environment**: The [Commerce Services Connector](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas) setup in the new HIPAA commerce instance should be configured only after the dataspaces have been deleted in step 1. The new HIPAA-SaaS environment should be used only after the old dataspaces are deleted. The setup of the Commerce Services Connector automatically triggers the creation of new SaaS dataspaces.
+3. **Migration Strategy**: The deletion of the SaaS dataspaces is an irreversible process. This will delete all your catalog data and related configurations. A migration strategy needs to be in place if you wish to carry forward any of your old data or configurations. This strategy is the responsibility of the merchant. A support ticket for deleting the existing dataspaces should be created only after migration data backup (if applicable) are done.
 
-## Staging
+>[!NOTE]
+>To delete the existing dataspaces, customers must create a ticket with Adobe Commerce support titled "HIPAA Migration: Delete SaaS Dataspaces" and provide their MAGEID along with the SaaS Project IDs that need to be deleted.
 
-All HIPAA ready offering comes with an additional secondary staging environment to be used by Commerce support team for troubleshooting purposes.  
+## Troubleshooting with Adobe Commerce support
 
-Customers should not put any Protected Health Information (PHI) in the second staging environment. This secondary staging environment is only used by  Adobe Commerce customer support for troubleshooting purposes.
+All HIPAA ready offering comes with an additional "staging_for_support" environment to be used by Commerce support team for troubleshooting purposes.  
+
+Customers must ensure that "staging_for_support" environment:
+- Does not contain any sensitive data, like, but not limited to, Protected Health Information (PHI).
+- Must not be used for any production activities.
+- Must not be given different name than ""staging_for_support"" to avoid confusion.
+- Is kept up to date with both code and configuration from the production environment to ensure troubleshooting is performed in an environment as close to production as possible.
 
 ## Commerce services
 
