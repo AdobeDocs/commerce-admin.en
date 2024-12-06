@@ -240,87 +240,35 @@ To empower Admin users with more informative grids, the HIPAA-Ready service prov
 - Added a **[!UICONTROL Scheduled At]** column (the _date and time when the import or export was scheduled_).
 - Added a **[!UICONTROL User]** column (the _username of an Admin user who scheduled the import or export_).
 
-## HIPAA-compliant services and tools
+## HIPAA-ready services and tools
 
-This section describes HIPAA-compliant Adobe services that are available to use with the HIPAA-offering for Adobe Commerce. It also describes tools that you can use to help monitor key security and compliance controls for your store.
+This section describes HIPAA-ready Adobe services that are available to use with the HIPAA offering for Adobe Commerce. It also describes tools that you can use to help monitor key security and compliance controls for your store.
 
-### Services
+| Service                               | Production | Staging | staging_for_support | Development |
+|---------------------------------------|------------|---------|---------------------|-------------|
+| Adobe Commerce with Healthcare Add-on | Yes        | Yes     | Yes                 | No          |
+| SendGrid                              | No         | No      | No                  | No          |
+| AWS Simple Email Service              | Yes        | Yes     | Yes                 | No          |
 
-The following table identifies Adobe Commerce and extensibility services that are available for the HIPAA-readiness offering. These services include, but are not limited to:
+### Adobe Commerce Services
 
-<table>
-    <thead>
-        <tr>
-            <th></th>
-            <th>Staging</th>
-            <th>Integration</th>
-            <th>Production</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td><a href="https://developer.adobe.com/commerce/extensibility/events/">Adobe I/O Events for Adobe Commerce</a></td>
-            <td>Yes</td>
-            <td>No</td>
-            <td>Yes</td>
-        </tr>
-        <tr>
-            <td><a href="https://developer.adobe.com/graphql-mesh-gateway/">API Mesh for Adobe Developer App Builder</a></td>
-            <td>Yes</td>
-            <td>No</td>
-            <td>Yes</td>
-        </tr>
-        <tr>
-            <td><a href="https://developer.adobe.com/app-builder/docs/overview/">Adobe Developer App Builder</a></td>
-            <td>Yes</td>
-            <td>No</td>
-            <td>Yes</td>
-        </tr>
-        <tr style="background:lightgray;">
-            <td colspan="4"><a href="https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview">Data Connection</a></td>
-        </tr>
-        <tr>
-            <td>Audience Activation</td>
-            <td>Yes</td>
-            <td>No</td>
-            <td>Yes</td>
-        </tr>
-        <tr>
-            <td>Back office</td>
-            <td>Yes</td>
-            <td>No</td>
-            <td>Yes</td>
-        </tr>
-        <tr>
-            <td>Storefront events</td>
-            <td>Yes</td>
-            <td>No</td>
-            <td>Yes</td>
-        </tr>
-        <tr>
-            <td><a href="https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview" target="_blank" rel="noopener noreferrer">SaaS Data Export</a></td>
-            <td>Yes</td>
-            <td>No</td>
-            <td>Yes</td>
-        </tr>
-        <tr>
-            <td><a href="https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview">Live Search</a></td>
-            <td>No</td>
-            <td>No</td>
-            <td>No</td>
-        </tr>
-        <tr>
-            <td><a href="https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/sendgrid">SendGrid</a></td>
-            <td>No</td>
-            <td>No</td>
-            <td>No</td>
-        </tr>
-    </tbody>
-</table>
+The following table identifies Adobe Commerce services that are available for the HIPAA-readiness offering. These services include, but are not limited to:
+
+| Service                                                                                                                                                                                             | Non-Production | Production |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|
+| [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/overview/)                                                                                                               | Yes            | Yes        |
+| [API Mesh for Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/)                                                                                                       | Yes            | Yes        |
+| [SaaS Data Export](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview)                                                                                 | Yes            | Yes        |
+| [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overviewhttps://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) | No             | No         |
+| [Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/overview)                                                                   | No             | No         |
+| [Payment Services](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/guide-overview)                                                                           | No             | No         |
+| [Data Connection Back Office Events](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)                                     | Yes            | Yes        |
+| [Data Connection Storefront Events](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#storefront-events)                                | No             | No         |
+| [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation)                                                                                      | No             | No         |
 
 ### Tools
 
-The [Security Scan Tool](../../systems/security-scan.md) for Adobe Commerce helps you monitor your store to ensure that all required security controls are enabled and operational. In addition to the standard security checks, Adobe has enhanced the tool to display HIPAA-specific checks for customers using the HIPAA-offering for Adobe Commerce. The HIPAA checks in the Security Scan Tool are designed to ensure that:
+The [Security Scan Tool](../../systems/security-scan.md) for Adobe Commerce helps you monitor your store to ensure that all required security controls are enabled and operational. In addition to the standard security checks, Adobe has enhanced the tool to display HIPAA-specific checks for customers using the HIPAA offering for Adobe Commerce. The HIPAA checks in the Security Scan Tool are designed to ensure that:
 
 - Auditing modules are not disabled
 - Two-factor authentication (2FA) is not disabled
@@ -330,11 +278,9 @@ The [Security Scan Tool](../../systems/security-scan.md) for Adobe Commerce help
 
 You can [configure the tool](../../systems/security-scan.md#run-a-security-scan) to send you email notifications with details from scheduled scans or [manually view reports](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/overview#to-review-the-report).
 
-## Disabled services and features
+## Disabled features
 
-To comply with HIPAA requirements, some features supported by Adobe Commerce are either not available or disabled by default. Merchants have the option to re-enable or use these services and features at their own risk.
-
-### Features that are disabled by default
+To comply with HIPAA requirements, some features supported by Adobe Commerce are either not available or disabled by default. Merchants have the option to re-enable or use these features at their own risk.
 
 The following features are disabled by default in the HIPAA-readiness module. Merchants can enable any of these features at their own risk.
 
