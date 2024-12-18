@@ -104,22 +104,4 @@ As a security measure, the _Admin_ is initially set to time out after 900 second
 
    ![Advanced configuration - Admin security settings](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
 
-1. When complete, click **[!UICONTROL Save Config]**.## Admin session lifetime
-
-As a security measure, the _Admin_ is initially set to time out after 900 seconds (15 minutes) of keyboard inactivity. You can adjust the lifetime of the session to fit your work style.
-
-**_To adjust Admin session lifetime:_**
-
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
-
-1. Scroll down and expand **[!UICONTROL Advanced]** in the left side panel.
-
-1. Click **[!UICONTROL Admin]**.
-
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the _Security_ section.
-
-1. For **[!UICONTROL Admin Session Lifetime (seconds)]**, enter the number of seconds that a session remains active before it times out.
-
-   ![Advanced configuration - Admin security settings](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
-
 1. When complete, click **[!UICONTROL Save Config]**.
