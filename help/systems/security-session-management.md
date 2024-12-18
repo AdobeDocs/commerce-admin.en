@@ -98,7 +98,7 @@ As a security measure, the _Admin_ is initially set to time out after 900 second
 
 1. Click **[!UICONTROL Admin]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the _[!UICONTROL Security]_ section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Security]** section.
 
 1. For **[!UICONTROL Admin Session Lifetime (seconds)]**, enter the number of seconds that a session remains active before it times out.
 
