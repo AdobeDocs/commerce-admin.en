@@ -45,7 +45,6 @@ For more information about changing these settings, see [Two-factor authenticati
 |--- |--- |--- |
 |[!UICONTROL Client Id]|Global|The Client ID from your [!DNL Duo Security] account.|
 |[!UICONTROL Client Secret]|Global|The Client Secret from your [!DNL Duo Security] account.|
-|[!UICONTROL Duo Failmode]|Global|The Failmode settings for your [!DNL Duo Security] account.|
 |[!UICONTROL Integration Key]|Global|The integration key from your [!DNL Duo Security] API account.|
 |[!UICONTROL Secret Key]|Global|The secret key from your [!DNL Duo Security] API account.|
 |[!UICONTROL API Hostname]|Global|The API hostname from your [!DNL Duo Security] account.|
