@@ -151,3 +151,19 @@ The Admin provides access to manage the orders, customers, products, shipping, a
 1. Click **[!UICONTROL Save Config]**.
 
 [1]: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_US
+
+## Maintan secure access to the Admin
+
+To ensure the security of your admin, regular audits of users/roles with access to the admin should be conducted.
+
+You should also consider changing the default `/admin` endpoint to a custom path - refer to [Admin Base URL > Custom Admin Path](https://experienceleague.adobe.com/en/docs/commerce-admin/config/advanced/admin#admin-base-url) for more information.
+
+**Enhanced Security**: The default "admin" path is widely known and often targeted by malicious actors attempting brute force attacks. By changing it to a unique, custom value, you significantly reduce the risk of unauthorized access attempts.
+
+**Reduced Vulnerability**: Automated bots frequently scan for common paths like "admin" to exploit vulnerabilities. A custom path makes it harder for these bots to locate your admin login page, thereby reducing the likelihood of attacks.
+
+**Improved Privacy**: A custom admin path adds an extra layer of obscurity, making it more difficult for potential attackers to identify and target your admin login page.
+
+**Compliance with Best Practices**: Following security best practices, such as customizing your admin path, demonstrates a proactive approach to protecting your e-commerce site and customer data.
+
+>[!NOTE] If a breach is suspected, make sure to remove all unknown Admin users and reset all Admin passwords and review the [Security action plan](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security) for further steps.
