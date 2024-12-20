@@ -69,5 +69,4 @@ Complete [Step 4](price-rules-cart.md) of the cart price rule instructions to en
 {{new-price-rule}}
 
 1. When your rule is complete, click **[!UICONTROL Save Rule]**.
-
 1. Test the rule to make sure that it works correctly.
