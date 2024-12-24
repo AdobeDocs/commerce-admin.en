@@ -22,7 +22,7 @@ The AEM Assets Integration for Commerce has the following system and configurati
 
 **Configuration requirements**
 
-- Adobe Commerce must be configured to use [Adobe IMS authentication](/help/getting-started/adobe-ims-config.md).
+- Adobe Commerce can be configured to use [Adobe IMS authentication](/help/getting-started/adobe-ims-config.md).
 - Account provisioning and permissions
   - [Commerce cloud project administrator](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access)—Install required extensions and configure the Commerce application server from the Admin or the command line
   - [Commerce Admin](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview)—Update store configuration and manage Commerce user accounts
@@ -180,6 +180,44 @@ Enable the eventing framework from the Commerce Admin.
    ![Adobe I/O Events Commerce Admin configuration - enable Commerce events](assets/aem-enable-io-event-admin-config.png){width="600" zoomable="yes"}
    
 1. Enter the merchant company name in the **[!UICONTROL Merchant ID]** and the environment name in **[!UICONTROL Environment ID]** fields. Use only alphanumeric characters and underscores when setting these values.
+
+>[!BEGINSHADEBOX]
+
+**Configure Custom VCL for blocking requests**
+
+You can use the Fastly CDN module to create an Edge ACL with a list of IP addresses that you want to block.
+
+>[!NOTE]
+>
+> For detailed information on how to use VCL snippets to block incoming requests, see [Custom VCL for blocking requests](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blockin).
+
+If you use a custom VCL snippet to block unknown incoming requests, The AEM Assets Integration for Commerce requires that you modify the `X-Ims-Org-Id` header so it passes the VCL validation.
+
+The following custom VCL snippet code (JSON format) shows an example with a `X-Ims-Org-Id` request header.
+
+```json
+{
+  "name": "blockbyuseragent",
+  "dynamic": "0",
+  "type": "recv",
+  "priority": "5",
+  "content": "if ( req.http.X-ims-org ~ \"<YOUR-IMS-ORG>\" ) {error 405 \"Not allowed\";}"
+}
+```
+
+Before creating a snippet based on this example, review the values to determine whether you need to make any changes:
+
+- `name`: Name for the VCL snippet. For this example, we used the name `blockbyuseragent`.
+
+- `dynamic`: Sets the snippet version. For this example, we used `0`. See the [Fastly VCL snippets](https://www.fastly.com/documentation/reference/api/vcl-services/snippet/) for detailed data model information.
+
+- `type`: Specifies the type of VCL snippet that determines the location of the snippet in the generated VCL code. In this example,  we used `recv`, see the [Fastly VCL snippet reference](https://docs.fastly.com/api/config#api-section-snippet) for the list of snippet types.
+
+- `priority`: Determines when the VCL snippet runs. The priority is `5` to immediately run and check whether an Admin request is coming from an allowed IP address.
+
+- `content`: The snippet of VCL code to run, which checks the client IP address. If the IP is in the Edge ACL, it is blocked from access with a `405 Not allowed` error for the entire website. All other client IP addresses are allowed access.
+
+>[!ENDSHADEBOX]
 
 ## Get authentication credentials for API access
 
