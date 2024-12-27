@@ -22,10 +22,13 @@ The AEM Assets Integration for Commerce has the following system and configurati
 
 **Configuration requirements**
 
-- Adobe Commerce can be configured to use [Adobe IMS authentication](/help/getting-started/adobe-ims-config.md).
 - Account provisioning and permissions
   - [Commerce cloud project administrator](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access)—Install required extensions and configure the Commerce application server from the Admin or the command line
   - [Commerce Admin](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview)—Update store configuration and manage Commerce user accounts
+
+>[!TIP]
+>
+> Adobe Commerce can be configured to use [Adobe IMS authentication](/help/getting-started/adobe-ims-config.md).
 
 ## Configuration overview
 
@@ -191,7 +194,7 @@ You can use the Fastly CDN module to create an Edge ACL with a list of IP addres
 >
 > For detailed information on how to use VCL snippets to block incoming requests, see [Custom VCL for blocking requests](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blockin).
 
-If you use a custom VCL snippet to block unknown incoming requests, The AEM Assets Integration for Commerce requires that you modify the `X-Ims-Org-Id` header so it passes the VCL validation.
+If you use a custom VCL snippet to block unknown incoming requests, you might need to include the HTTP header `X-Ims-Org-Idheader` to allow incoming connections from the AEM Assets Integration for Commerce service.
 
 The following custom VCL snippet code (JSON format) shows an example with a `X-Ims-Org-Id` request header.
 
