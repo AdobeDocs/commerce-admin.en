@@ -214,9 +214,9 @@ Before creating a snippet based on this example, review the values to determine 
 
 - `dynamic`: Sets the snippet version. For this example, we used `0`. See the [Fastly VCL snippets](https://www.fastly.com/documentation/reference/api/vcl-services/snippet/) for detailed data model information.
 
-- `type`: Specifies the type of VCL snippet that determines the location of the snippet in the generated VCL code. In this example,  we used `recv`, see the [Fastly VCL snippet reference](https://docs.fastly.com/api/config#api-section-snippet) for the list of snippet types.
+- `type`: Specifies the type of VCL snippet, which determines the location of the snippet in the generated VCL code. In this example, we used `recv`, see the [Fastly VCL snippet reference](https://docs.fastly.com/api/config#api-section-snippet) for the list of snippet types.
 
-- `priority`: Determines when the VCL snippet runs. The priority is `5` to immediately run and check whether an Admin request is coming from an allowed IP address.
+- `priority`: Determines when the VCL snippet runs. This example uses priority `5` to immediately run and check whether an Admin request is coming from an allowed IP address.
 
 - `content`: The snippet of VCL code to run, which checks the client IP address. If the IP is in the Edge ACL, it is blocked from access with a `405 Not allowed` error for the entire website. All other client IP addresses are allowed access.
 
