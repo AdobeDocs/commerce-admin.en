@@ -13,6 +13,8 @@ If needed, you can assign a user to more than one company. For example, if B2B b
 
 ![Associate to Company](./assets/company-assign-multi-switcher.png){width="700"}
 
+When the buyer switches the company, the interface updates to display information based on the context of the selected company. For example, the user sees the user role, orders, purchase orders, quotes, and other information based on the new company. If the user has an active shopping cart, the shopping cart updates to show products and prices based on the catalog assigned to the selected company.
+
 >[!NOTE]
 >
 >If an individual already has a personal account with your store, and later goes to work for a company, do not assign the person's individual account to the company. Instead, create a company user account for the person with a company email address.
