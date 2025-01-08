@@ -13,7 +13,7 @@ The following information describes the process for transferring a Commerce (MAG
 >[!IMPORTANT]
 >
 >If the new Account Owner had originally purchased extensions using Shared Access, access to those extensions is lost as soon as the Account Transfer process has been initiated.
->Before requesting the account transfer, make sure that the new owner retrieves the Order IDs for the purchases from [their Marketplace account](https://commercemarketplace.adobe.com/sales/order/history/) and requests a refund for those extensions from the [Marketplace team] 
+Before requesting the account transfer, make sure that the new owner retrieves the Order IDs for the purchases from [their Marketplace account](https://commercemarketplace.adobe.com/sales/order/history/) and requests a refund for those extensions from the [Marketplace team] 
  (https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case). It is not possible to transfer extension purchases to a different account.
 
 ## Identify your transfer type
