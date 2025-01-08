@@ -188,13 +188,11 @@ Enable the eventing framework from the Commerce Admin.
 
 **Configure Custom VCL for blocking requests**
 
-You can use the Fastly CDN module to create an Edge ACL with a list of IP addresses that you want to block.
-
->[!NOTE]
->
-> For detailed information about using VCL snippets to block incoming requests, see [Custom VCL for blocking requests](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking) in the _Commerce on Cloud Infrastructure Guide_.
-
 If you use a custom VCL snippet to block unknown incoming requests, you might need to include the HTTP header `X-Ims-Org-Idheader` to allow incoming connections from the AEM Assets Integration for Commerce service.
+
+>[!TIP]
+>
+> You can use the Fastly CDN module to create an Edge ACL with a list of IP addresses that you want to block.
 
 The following custom VCL snippet code (JSON format) shows an example with a `X-Ims-Org-Id` request header.
 
@@ -219,6 +217,8 @@ Before creating a snippet based on this example, review the values to determine 
 - `priority`: Determines when the VCL snippet runs. This example uses priority `5` to immediately run and check whether an Admin request is coming from an allowed IP address.
 
 - `content`: The snippet of VCL code to run, which checks the client IP address. If the IP is in the Edge ACL, it is blocked from access with a `405 Not allowed` error for the entire website. All other client IP addresses are allowed access.
+
+For detailed information about using VCL snippets to block incoming requests, see [Custom VCL for blocking requests](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking) in the _Commerce on Cloud Infrastructure Guide_.
 
 >[!ENDSHADEBOX]
 
