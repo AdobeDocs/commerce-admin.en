@@ -17,8 +17,8 @@ How you complete this transfer depends on which of the following scenarios descr
 | Transfer type | Current owner | New owner |
 | ------------- | ------------- | --------- |
 | [New Adobe ID and email change](#new-adobe-id-and-email-change) | Has a MAGEID that is **_not connected_** with an Adobe login account. | Does not have a MAGEID and is not connected to an Adobe login account. | 
-| [Email change](#email-change) | Has a MAGEID that is **_connected_** with an Adobe login account with no other Adobe products/services associated. | Does not have a MAGEID and is not connected to an Adobe login account. |
-| [Adobe ID switch](#adobe-id-account-switch) | Has a MAGEID that is **_connected_** with an Adobe login account with no other Adobe products/services associated. | Has a MAGEID and is connected to an Adobe login account with no other Adobe products/services associated. |
+| [Email change](#email-change) | Has a MAGEID that is **_connected_** with an Adobe login account. | Does not have a MAGEID and is not connected to an Adobe login account. |
+| [Adobe ID switch](#adobe-id-account-switch) | Has a MAGEID that is **_connected_** with an Adobe login account. | Has a MAGEID and is connected to an Adobe login account with no other Adobe products/services associated. |
 
 {style="table-layout:auto"}
 
