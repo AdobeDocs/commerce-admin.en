@@ -14,6 +14,10 @@ The term _campaign_ refers to the record of a scheduled change, or a collection 
 
 When you schedule a content change for a specific time period, the content reverts to the previous version when the scheduled change expires. You can create multiple versions of the same baseline content to be used for future updates. You can also step back through the timeline to view previous versions of the content. To save a draft version, simply assign a date on the timeline that is so far into the future that it never goes into production.
 
+>[!NOTE]
+>
+>Fields related to the Start Date and End Date have been removed in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce and cannot be modified directly on the cart price rule, catalog price rule, product, category, and CMS page. You must create a scheduled update for these activations.
+
 ## Content staging objects and campaigns
 
 When a new scheduled update is created for any of the following objects, a corresponding campaign is created as a placeholder, and the _[!UICONTROL Scheduled Changes]_ box appears across the top of the page. The placeholder campaign has a start date, but not an end date. You can schedule updates to the content as part of a campaign, and then preview and share the changes by date, time, or store view. After a new campaign is created for one object, you can assign it as a scheduled update for other objects.

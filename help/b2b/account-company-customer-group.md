@@ -29,6 +29,10 @@ Assigning a customer group to a company is essentially the same as assigning a s
 
    Changing the customer group assigned to the company updates the profiles of all company members.
 
+   >[!NOTE]
+   >
+   >After changing the company group, a company user must log out and log in on the Storefront to see new prices in the catalog.
+
    ![Change customer group or shared catalog](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
 
    >[!NOTE]

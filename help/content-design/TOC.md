@@ -57,6 +57,13 @@ feature: CMS, Page Content
     - [Use a media database](media-storage-database.md)
     - [Use a content delivery network](media-storage-content-delivery-network.md)
     - [Dynamic media URLs](catalog-urls-dynamic-media.md)
+  - Experience Manager Assets {#aem-assets}
+    - [Assets integration](aem-assets.md)
+    - Onboarding {#onboarding}
+       - [Configure AEM Assets](aem-assets-configure-aem.md)
+       - [Configure Adobe Commerce ](aem-assets-configure-commerce.md)
+       - [Enable asset synchronization](aem-assets-setup-synchronization.md)
+    - [Use AEM Assets](aem-assets-manage.md)
   - Adobe Stock {#adobe-stock}
     - [Adobe Stock integration](adobe-stock.md)
     - [Use Adobe Stock images](adobe-stock-manage.md)
@@ -73,3 +80,5 @@ feature: CMS, Page Content
   - [Staging dashboard](content-staging-dashboard.md)
   - [Add a campaign item](content-staging-add-item.md)
   - [Preview a campaign](content-staging-preview.md)
+- [Return to Merchant Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+

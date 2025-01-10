@@ -1,15 +1,15 @@
 ---
-user-guide-title: "[!DNL B2B for Adobe Commerce] Guide"
+user-guide-title: "[!DNL Adobe Commerce B2B] Guide"
 user-guide-description: Learn how to use the integrated B2B features available for Adobe Commerce, 
-breadcrumb-title: "[!DNL B2B for Adobe Commerce]"
+breadcrumb-title: "[!DNL Adobe Commerce B2B]"
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
 ---
 
-# [!DNL B2B for Adobe Commerce] Guide {#b2b}
+# [!DNL Adobe Commerce B2B] Guide {#b2b}
 
-+ [[!DNL B2B for Adobe Commerce] Guide](guide-overview.md)
++ [[!DNL Adobe Commerce B2B] Guide](guide-overview.md)
 + [Introduction to B2B features](introduction.md)
 + [Release notes](release-notes.md)
 + [Installation](install.md)
@@ -55,3 +55,7 @@ recommendations: noDisplay
   + [Overview](requisition-lists.md)
   + [Configure the list maximum](configure-requisition-lists.md)
   + [[!UICONTROL My Requisition Lists]](account-dashboard-requisition-lists-manage.md)
++ Reference {#reference}
+  + [Backward-incompatible changes](backward-incompatible-changes.md)
+  + [Packages](packages.md)
++ [Return to Merchant Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

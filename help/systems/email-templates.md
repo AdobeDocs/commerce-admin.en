@@ -92,7 +92,7 @@ The list of email templates is organized alphabetically by module.
 
 ### [!DNL Magento_Company]
 
-![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce only)
+![Adobe Commerce B2B](../assets/b2b.svg) (Available with Adobe Commerce B2B only)
 
 |Template|Configuration path|
 |--- |--- |
@@ -115,7 +115,7 @@ The list of email templates is organized alphabetically by module.
 
 ### [!DNL Magento_CompanyCredit]
 
-![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce only)
+![Adobe Commerce B2B](../assets/b2b.svg) (Available with Adobe Commerce B2B only)
 
 |Template|Configuration path|
 |--- |--- |
@@ -227,7 +227,7 @@ The list of email templates is organized alphabetically by module.
 
 ### [!DNL Magento_NegotiableQuote]
 
-![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce only)
+![Adobe Commerce B2B](../assets/b2b.svg) (Available with Adobe Commerce B2B only)
 
 |Template|Configuration path|
 |--- |--- |

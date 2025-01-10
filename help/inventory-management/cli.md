@@ -70,7 +70,7 @@ Responses using `-r` return in `<ORDER_INCREMENT_ID>:<SKU>:<QUANTITY>:<STOCK-ID>
 
 Examples:
 
-```terminal
+```bash
 bin/magento inventory:reservation:list-inconsistencies
 
 Inconsistencies found on following entries:
@@ -78,7 +78,7 @@ Order 172:
 - Product bike-123 should be compensated by +2.000000 for stock 1
 ```
 
-```terminal
+```bash
 bin/magento inventory:reservation:list-inconsistencies -r
 
 172:bike-123:+2.000000:1
@@ -102,13 +102,13 @@ Command option:
 
 If the format of the request is incorrect, the following message displays:
 
-```terminal
+```
 Error while parsing argument "your_incorrect_format_argument". Given argument does not match pattern "/(?P<increment_id>.*):(?P<sku>.*):(?P<quantity>.*):(?P<stock_id>.*)/".
 ```
 
 As the command creates reservations, it displays messages indicating the updates by SKU, order, and stock.
 
-```terminal
+```bash
 bin/magento inventory:reservation:create-compensations 172:bike-123:+2.000000:1
 
 Following reservations were created:
@@ -135,7 +135,7 @@ Example response:
 bin/magento inventory:reservation:list-inconsistencies -r | bin/magento inventory:reservation:create-compensations
 ```
 
-```terminal
+```
 Following reservations were created:
 - Product bike-123 was compensated by +2.000000 for stock 1
 - Product bikehat-456 was compensated by +1.000000 for stock 1
@@ -147,7 +147,7 @@ After updates complete, run the list command to verify:
 bin/magento inventory:reservation:list-inconsistencies -r
 ```
 
-```terminal
+```
 No order inconsistencies were found.
 ```
 

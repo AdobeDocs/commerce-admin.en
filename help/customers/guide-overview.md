@@ -22,7 +22,7 @@ This guide is intended for customer service staff working in Adobe Commerce and 
 
 >[!TIP]
 >
->B2B for Adobe Commerce enables you to maintain company accounts that are tied to individual storefront customer accounts. For more information about the company accounts feature, see the [B2B for Adobe Commerce User Guide](../b2b/account-companies.md).
+>Adobe Commerce B2B enables you to maintain company accounts that are tied to individual storefront customer accounts. For more information about the company accounts feature, see the [Adobe Commerce B2B User Guide](../b2b/account-companies.md).
 
 ## Additional documentation
 
