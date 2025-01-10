@@ -8,7 +8,7 @@ feature: Configuration, Orders
 
 {{config}}
 
-<!-- [Invoice](https://docs.magento.com/user-guide/marketing/sales-documents-ref-id.html) -->
+<!-- [Invoice](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
 
 ## [!UICONTROL Invoice]
 

@@ -10,17 +10,20 @@ feature: Catalog Management, Products
 
 Product updates can be applied on schedule and grouped with other content changes. You can use [content staging](../content-design/content-staging.md) to create a campaign based on scheduled changes to the product, or apply the changes to an existing campaign.
 
+When configuring schedules for product updates and editing campaigns, keep the following in mind:
+
+- All scheduled updates are applied consecutively, which means that any entity can have only one scheduled update at one time. Any scheduled update is applied to all store views within its time frame. As a result, an entity cannot have different scheduled updates for different store views at the same time. All entity attribute values within all store views, which are not affected by the current scheduled update, are taken from the default values, and not from the previous scheduled update.
+
+- A staging preview for a scheduled update always starts from the **default** store view, which emulates the customer's experience of navigating through the staging update campaign.
+
+- If a campaign is linked to more than one product, the campaign can be edited only from the [Content Staging Dashboard](../content-design/content-staging-dashboard.md).
+
+- If an active campaign is initially created without an end date, the campaign cannot be edited later to include an end date. In such a case, it is necessary to create a duplicate campaign and enter the end date that is needed.
+
+
 >[!NOTE]
 >
 >The [!UICONTROL Set Product as New From] and [!UICONTROL To] fields and [!UICONTROL Schedule Design Update] tab have been removed in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce and cannot be modified directly on the product. You must create a scheduled update for these activations.
-
->[!NOTE]
->
->All scheduled updates are applied consecutively, which means that any entity can have only one scheduled update at one time. Any scheduled update is applied to all store views within its time frame. As a result, an entity cannot have different scheduled updates for different store views at the same time. All entity attribute values within all store views, which are not affected by the current scheduled update, are taken from the default values, and not from the previous scheduled update.
-
->[!NOTE]
->
->A staging preview for a scheduled update always starts from the **default** store view, which emulates the customer's experience of navigating through the staging update campaign.
 
 ## Create a scheduled update
 
@@ -92,9 +95,7 @@ The scheduled change appears at the top of the product page, with the start and 
    
 1. In the dialog, select **[!UICONTROL Delete the Update]** and click **[!UICONTROL Done]**.
 
-   >[!NOTE]
-   >
-   >The product is removed from the update and all scheduled changes are lost.
+   The product is removed from the update and all scheduled changes are lost.
 
 ## Schedule a design update
 

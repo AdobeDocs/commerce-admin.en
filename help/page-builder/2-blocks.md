@@ -18,7 +18,7 @@ This exercise assumes that you have completed [Part 1: Simple Page](1-simple-pag
 
 >[!NOTE]
 >
->These walkthrough exercises are updated to reflect recent changes to the [!DNL Page Builder] workspace in the 2.4.1 release. If you are using an earlier Adobe Commerce release, use the [!DNL Page Builder] exercises included in the [[!DNL Commerce] 2.3 User Guide](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html).
+>These walkthrough exercises are updated to reflect recent changes to the [!DNL Page Builder] workspace in the 2.4.1 release.
 
 ## Part 1: Create a simple block
 

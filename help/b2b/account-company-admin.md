@@ -9,17 +9,23 @@ role: Admin, User
 
 The company administrator is initially assigned when the company account is first created, and can be modified only by a store administrator from the Admin.
 
+- Each company can have only one assigned administrator.
+- A company user can be the administrator for only one company.
+- Changes to the assigned company administrator must be completed by a store administrator from the Admin.
+
+## Change assigned company administrator
+
 1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-1. Find the company in the list and click **[!UICONTROL Edit]**.
-
    ![Companies](./assets/companies-grid.png){width="700" zoomable="yes"}
+
+1. Find the company in the list, and then click **[!UICONTROL Edit]**.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Company Admin]** section.
 
    ![Company Admin](./assets/company-create-company-admin.png){width="700" zoomable="yes"}
 
-1. Enter the **[!UICONTROL Job Title]** of the new company administrator and click **[!UICONTROL Proceed]** to continue.
+1. Enter the **[!UICONTROL Job Title]** of the new company administrator.
 
    This action clears the form and the required _[!UICONTROL First Name]_ and _[!UICONTROL Last Name]_ fields are highlighted.
 
@@ -35,6 +41,7 @@ The company administrator is initially assigned when the company account is firs
 
 1. When complete, click **[!UICONTROL Save]**.
 
-   The individual account of the former company administrator remains in the system as an active individual user account in the company structure, assigned to the default user role.
+   The individual account of the former company administrator remains in the system as an active user account, assigned to the default user role. If this is the only company associated with the user account, the account type changes from *[!UICONTROL Company user]* to *[!UICONTROL Individual user]*.
 
    The system sends email notification of the change to the new and former company administrators.
+
