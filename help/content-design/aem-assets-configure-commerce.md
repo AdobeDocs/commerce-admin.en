@@ -22,10 +22,13 @@ The AEM Assets Integration for Commerce has the following system and configurati
 
 **Configuration requirements**
 
-- Adobe Commerce must be configured to use [Adobe IMS authentication](/help/getting-started/adobe-ims-config.md).
 - Account provisioning and permissions
   - [Commerce cloud project administrator](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access)—Install required extensions and configure the Commerce application server from the Admin or the command line
   - [Commerce Admin](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview)—Update store configuration and manage Commerce user accounts
+
+>[!TIP]
+>
+> Adobe Commerce can be configured to use [Adobe IMS authentication](/help/getting-started/adobe-ims-config.md).
 
 ## Configuration overview
 
@@ -138,13 +141,13 @@ The Commerce Services Connector enables data synchronization and communication b
 
 To transmit data between your Adobe Commerce instance and the services that enable the AEM Assets Integration, configure the Commerce Services Connector with the following:
 
-- Configure your Commerce instance with production and sandbox API keys for authentication.
-- Specify a data space (SaaS identifier) for secure cloud storage.
-- Sign into the same IMS organization that you use to access AEM Assets to establish the connection between your data set and the Adobe Experience Platform.
+- Production and sandbox API keys for authentication.
+- Set up a data space (SaaS identifier) for secure cloud storage.
+- Provide the IMS organization ID where your Commerce and AEM Assets environments are provisioned.
 
 For detailed instructions, see [Commerce Services Connector](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#organizationid).
 
-When you configure the Commerce Services Connector, the system generates the SaaS project and database Ids. You need these ids during the tenant onboarding process.
+After you configure the Commerce Services Connector, the system generates the SaaS project and database IDs that identifies the secure cloud storage environment for your Commerce Services and displays the IDs in the Admin configuration. These values are required to complete the onboarding process for asset synchronization.
 
 ![SaaS project and data space ids for AEM Assets integration](assets/aem-saas-project-config.png){width="600" zoomable="yes"}
 
@@ -159,8 +162,11 @@ The AEM Assets Integration uses the Adobe I/O Events service to send custom even
 - Ensure that RabbitMQ is enabled and listening for events.
   - [RabbitMQ Setup for Adobe Commerce on premises](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
   - [RabbitMQ Setup for Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
+  - Verify that [cron jobs are enabled](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration). Cron jobs are required for communication and workflows for the AEM Assets integration.
 
-- For projects on Commerce version 2.4.5, you must [install the Adobe I/O modules](https://developer.adobe.com/commerce/extensibility/events/installation/#install-adobe-io-modules-on-commerce). In Commerce version 2.4.6+, these modules are loaded automatically.
+>[!NOTE]
+>
+> For projects on Commerce version 2.4.5, you must [install the Adobe I/O modules](https://developer.adobe.com/commerce/extensibility/events/installation/#install-adobe-io-modules-on-commerce). In Commerce version 2.4.6+, these modules are loaded automatically. For the AEM Assets integration for Commerce, you only need to install the modules. App Builder setup is not required.
 
 >[!ENDSHADEBOX]
 
@@ -175,10 +181,46 @@ Enable the eventing framework from the Commerce Admin.
 1. Set **[!UICONTROL Enabled]** to `Yes`.
 
    ![Adobe I/O Events Commerce Admin configuration - enable Commerce events](assets/aem-enable-io-event-admin-config.png){width="600" zoomable="yes"}
+   
+1. Enter the merchant company name in the **[!UICONTROL Merchant ID]** and the environment name in **[!UICONTROL Environment ID]** fields. Use only alphanumeric characters and underscores when setting these values.
 
-   >[!NOTE]
-   >
-   >Verify that [cron jobs are enabled](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration). Cron jobs are required for Commerce to manage communication and workflows between AEM Assets and Commerce.
+>[!BEGINSHADEBOX]
+
+**Configure Custom VCL for blocking requests**
+
+If you use a custom VCL snippet to block unknown incoming requests, you might need to include the HTTP header `X-Ims-Org-Idheader` to allow incoming connections from the AEM Assets Integration for Commerce service.
+
+>[!TIP]
+>
+> You can use the Fastly CDN module to create an Edge ACL with a list of IP addresses that you want to block.
+
+The following custom VCL snippet code (JSON format) shows an example with a `X-Ims-Org-Id` request header.
+
+```json
+{
+  "name": "blockbyuseragent",
+  "dynamic": "0",
+  "type": "recv",
+  "priority": "5",
+  "content": "if ( req.http.X-ims-org ~ \"<YOUR-IMS-ORG>\" ) {error 405 \"Not allowed\";}"
+}
+```
+
+Before creating a snippet based on this example, review the values to determine whether you need to make any changes:
+
+- `name`: Name for the VCL snippet. For this example, we used the name `blockbyuseragent`.
+
+- `dynamic`: Sets the snippet version. For this example, we used `0`. See the [Fastly VCL snippets](https://www.fastly.com/documentation/reference/api/vcl-services/snippet/) for detailed data model information.
+
+- `type`: Specifies the type of VCL snippet, which determines the location of the snippet in the generated VCL code. In this example, we used `recv`, see the [Fastly VCL snippet reference](https://docs.fastly.com/api/config#api-section-snippet) for the list of snippet types.
+
+- `priority`: Determines when the VCL snippet runs. This example uses priority `5` to immediately run and check whether an Admin request is coming from an allowed IP address.
+
+- `content`: The snippet of VCL code to run, which checks the client IP address. If the IP is in the Edge ACL, it is blocked from access with a `405 Not allowed` error for the entire website. All other client IP addresses are allowed access.
+
+For detailed information about using VCL snippets to block incoming requests, see [Custom VCL for blocking requests](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking) in the _Commerce on Cloud Infrastructure Guide_.
+
+>[!ENDSHADEBOX]
 
 ## Get authentication credentials for API access
 
@@ -227,4 +269,3 @@ On the Integrations page, generate the OAuth authentication credentials by click
 >[!NOTE]
 >
 >You can also generate authentication credentials using the Adobe Commerce APIs. For details about this process and more information about OAuth-based authentication for Adobe Commerce, see [OAuth-based authentication](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) in the Adobe Developer documentation.
-

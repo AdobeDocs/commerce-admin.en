@@ -33,7 +33,7 @@ The Adobe Commerce HIPAA-Ready extension, `magento/hipaa-ee` is available for Ad
 
 ## System requirements
 
-Adobe Commerce must be deployed on either Adobe Commerce on cloud infrastructure or Adobe Commerce Managed Services with version 2.4.6-p3 or later (no beta versions).
+Adobe Commerce must be deployed on either Adobe Commerce on cloud infrastructure or Adobe Commerce Managed Services with version 2.4.6-p3 - 2.4.6-p8 (no beta versions).
 
 ## Installation
 
@@ -46,7 +46,7 @@ Adobe Commerce must be deployed on either Adobe Commerce on cloud infrastructure
 
 >[!ENDSHADEBOX]
 
-Install the latest version of Adobe's HIPAA-Ready Services extension (`magento/hipaa-ee`) on an instance that is running Adobe Commerce version 2.4.6-p3 or later. The extension is delivered as a composer metapackage from the [repo.magento.com](https://repo.magento.com) repository. The metapackage includes the collection of modules that enable the HIPAA capabilities for an Adobe Commerce instance.
+Install the latest version of Adobe's HIPAA-Ready Services extension (`magento/hipaa-ee`) on an instance that is running Adobe Commerce version  2.4.6-p3 - 2.4.6-p8. The extension is delivered as a composer metapackage from the [repo.magento.com](https://repo.magento.com) repository. The metapackage includes the collection of modules that enable the HIPAA capabilities for an Adobe Commerce instance.
 
 1. On your local workstation, change to the project directory for your Adobe Commerce on cloud infrastructure project.
 
@@ -208,7 +208,7 @@ To comply with HIPAA requirements, some services and features supported by Adobe
   - API Mesh
   - App Builder
 
-- **[SendGrid service](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)**—This service is disabled by default because the application is non-HIPAA-compliant.
+- **Transactional email**—[SendGrid](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html) is disabled by default because the service is non-HIPAA-ready. Adobe Commerce provides an integration option that you can use with your own [AWS Simple Email Service](https://docs.aws.amazon.com/ses/) account. Contact your Customer Technical Account Manager or Adobe Commerce Support for configuration details.
 
 ### Features that are disabled by default
 

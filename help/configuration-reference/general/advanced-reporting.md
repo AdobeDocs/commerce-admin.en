@@ -14,7 +14,7 @@ _[!DNL Advanced Reporting]_ is a cloud-based service that is powered by [Adobe C
 
 ![Advanced Reporting](./assets/advanced-reporting.png)<!-- zoom -->
 
-<!-- [Advanced Reporting](https://docs.magento.com/user-guide/reports/advanced-reporting.html) -->
+<!-- [Advanced Reporting](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |

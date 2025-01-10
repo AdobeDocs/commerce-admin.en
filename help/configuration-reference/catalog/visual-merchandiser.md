@@ -14,7 +14,7 @@ feature: Configuration, Merchandising
 
 ![General Options](./assets/catalog-visual-merchandiser-general-options.png)<!-- zoom -->
 
-<!-- [General Options](https://docs.magento.com/user-guide/marketing/visual-merchandiser-configuration.html) -->
+<!-- [General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/visual-merch/smart-attributes-configure) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |

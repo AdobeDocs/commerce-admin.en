@@ -11,25 +11,23 @@ A company account can be set up to reflect the structure of the business. Initia
 
 ![Company Structure with Divisions](./assets/company-structure-diagram.svg){width="500"}
 
-In the company administrator's account dashboard, the company structure is represented as a tree and initially consists of only the company administrator.
+In the company administrator's account dashboard on the storefront, the company structure is represented as a tree and initially consists of only the company administrator.
 
-![Company Structure with Company Administrator](./assets/company-structure-tree-admin.png){width="600" zoomable="yes"}
+![Company Structure with Company Administrator](./assets/company-structure-tree-admin.png){width="700" zoomable="yes"}
 
-When the account is created and approved, the company administrator can use the company email address or be assigned a different email address.
-
-It is possible that the person who serves as company administrator has multiple roles within the company. If a separate email address is entered for the company administrator, the initial company structure includes the company administrator plus an individual user account in the name of the company administrator. In such a case, the company administrator can sign in to the account as the company or as an individual user.
-
-![Company Structure with Administrator and User Account](./assets/company-structure-tree-admin-user.png){width="600" zoomable="yes"}
-
-For merchants, the full company structure is reflected in the _Companies_ and _Customers_ grids within the Admin. The Companies grid lists all companies regardless of status. The following example shows accounts for two companies: the _ACME_ company and the _Vendelay_ company.
+For merchants, the full company structure is reflected in the _Companies_ and _Customers_ grids within the Admin. The Companies grid lists all companies regardless of status.
 
 ![Companies Grid](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-The following example shows the [!UICONTROL Customers] grid with the initial company administrator accounts for these companies.
+The following example shows the [!UICONTROL Customers] grid with the initial company administrator accounts for each company.
 
-![Customers grid with company administrator account](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
+![Customers grid with company administrator accounts](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
-After creating the account, the company administrator must define the company structure of [teams](account-company-structure.md), set up the [company users](account-company-users.md), and establish [roles and permissions](account-company-roles-permissions.md) for each.
+After creating the account, the company administrator can define a company structure with [teams](account-company-structure.md), set up the [company users](account-company-users.md), and establish [roles and permissions](account-company-roles-permissions.md) for each.
+
+>[!NOTE]
+>
+>When a company users is added, the company user is added initially to the root company structure, subordinate to the company administrator. If the company administrator performs multiple roles within the company, create separate company user accounts with a different email address for each role.
 
 ## Company structure icons
 
@@ -68,9 +66,7 @@ If the store is [configured](enable-basic-features.md) to allow companies to man
 
    - Creates as many teams as need.
 
-      ![Company Structure with Teams](./assets/company-structure-teams.png){width="600" zoomable="yes"}
-
-1. To create a hierarchy of teams, does the following:
+1. To create a hierarchy of teams, the administrator does the following:
 
    - Selects the parent team, and click **[!UICONTROL Add Team]**.
 
@@ -123,7 +119,7 @@ When teams and users are first added to the [company structure](account-company-
 |[!UICONTROL Collapse All / Expand All] |Either collapses or expands the business structure tree|
 |[!UICONTROL Add User]|Creates a user below the current team|
 |[!UICONTROL Add Team]|Creates a team|
-|[!UICONTROL Edit Selected / Delete Selected]|Edits or removes users from the business tree|
+|[!UICONTROL Edit Selected / Remove from Structure]|Edits user information or removes users from the business tree. For details, see [Manage company user accounts](account-company-users.md). |
 
 {style="table-layout:auto"}
 

@@ -10,7 +10,7 @@ To get access to countless media assets for use in your store, integrate [Adobe 
 
 ![Adobe Stock Search Results](./assets/adobe-stock-search-grid.png){width="700" zoomable="yes"}
 
-The Adobe Stock service provides businesses with access to millions of high-quality, curated, royalty-free photos, vectors, illustrations, videos, templates, and 3D assets for all their creative projects. [!DNL Commerce] users are able to quickly find, preview, and license Adobe Stock assets. Users can also save them to the [media storage][media-storage], all without leaving the Admin workspace.
+The Adobe Stock service provides businesses with access to millions of high-quality, curated, royalty-free photos, vectors, illustrations, videos, templates, and 3D assets for all their creative projects. [!DNL Commerce] users are able to quickly find, preview, and license Adobe Stock assets. Users can also save them to the [media storage](./media-storage.md), all without leaving the Admin workspace.
 
 ## Prerequisites
 
@@ -91,6 +91,5 @@ To set the system configuration in your [!DNL Commerce] Admin, use the _API Key_
 
 [adobe-stock]: https://stock.adobe.com
 [adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html
-[media-storage]: media-storage.md
 [dev-console]: https://developer.adobe.com/console/home
 [create-integration]: #create-an-adobeio-integration

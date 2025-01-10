@@ -224,4 +224,4 @@ In the **[!UICONTROL Order Total]** section, do the following:
 
 Watch this video and learn more about order processing and status:
 
->[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12&learn=on)
