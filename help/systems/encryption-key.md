@@ -1,6 +1,6 @@
 ---
 title: Encryption key
-description: Learn how to auto generate or add your own encryption key, which should be changed regularly to improve security.
+description: Learn how to change your own encryption key, which should be done regularly to improve security.
 exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
@@ -20,6 +20,7 @@ For technical information, see [Advanced on-premises installation](https://exper
 >[!IMPORTANT]
 >
 >Before following these instructions to change the encryption key, make sure that the following file is writable: `[your store]/app/etc/env.php`
+> The encryption key change feature via the Admin UI is deprecated in favor of command Line and going forward this feature will be completely removed from the 2.4.8-beta2 release.
 
 **To change an encryption key:**
 
@@ -45,7 +46,21 @@ The following instructions require access to a terminal.
    crontab -e
    ```
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Other Settings]_ > **[!UICONTROL Manage Encryption Key]**.
+**Changing encryption key via CLI**
+
+1. Run the following command via CLI and make sure there are no errors
+
+   ```bash
+   bin/magento encryption:key:change
+   ```
+
+** Changing encryption key via admin:**
+
+>[!IMPORTANT]
+>
+>This feature is being deprecated and will no longer be available from the 2.4.8-beta2 release. It is highly recommended to change the encryption key via CLI as shown above.
+   
+1.  On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Other Settings]_ > **[!UICONTROL Manage Encryption Key]**.
 
    ![System encryption key](./assets/encryption-key.png){width="700" zoomable="yes"}
 
