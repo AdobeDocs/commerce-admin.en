@@ -20,7 +20,7 @@ The [!DNL Commerce] Support team does not have access to the account and cannot 
 
 1. Before you begin, get the following information from the [!DNL Commerce] account of the **new shared access grantee**:
 
-   - The user must have already registered for an account at account.adobe.com and be logged in through account.magento.com.
+   - The user must have already registered for an account at account.adobe.com and be logged in through account.magento.com. See [Create a Commerce account](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account) for more details.
    - The `MAGE ID/Account ID (MAG00XXXXXXX)` is displayed in the upper-left corner of the _[!UICONTROL Magento]_ tab, just above the **Log Out** link.
    - The `Email` address that is associated with the account.
 
