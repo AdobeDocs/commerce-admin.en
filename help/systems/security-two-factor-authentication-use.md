@@ -57,7 +57,7 @@ For complete instructions, see [Admin Sign In](../getting-started/admin-signin.m
 
    ![Example storefront - Duo setup](./assets/storefront-2fa-duo-setup-options.png){width="300"}
 
-1. Select your option. You can choose Touch ID, Duo Mobile, Security Key OR Phone Number. For Instance we chose Duo Mobile OR Phone Number.
+1. Select your option. You can choose Touch ID, Duo Mobile, Security Key, or Phone Number. This example shows the Duo Mobile or Phone Number option.
 
 1. When prompted, enter your phone number and click **[!UICONTROL Continue]**.
 
@@ -67,7 +67,7 @@ For complete instructions, see [Admin Sign In](../getting-started/admin-signin.m
 
 1. Open [!DNL Duo Mobile] and scan the QR code to sync the authenticator with Adobe Commerce. A checkmark appears when the activation is complete.
 
-1. You have options to add more devices if required or skip. Now your setup is complete and you can login with duo.
+1. You can add more devices (if necessary) or skip. Your setup is now complete and you can log in with Duo.
 
    ![Duo verification actions](./assets/storefront-2fa-duo-setup-complete.png){width="300"}
 
@@ -79,7 +79,7 @@ The following example shows the options for `Ask me to choose an authenticator m
 
    ![Duo - signin](./assets/storefront-2fa-duo-auth.png){width="300"}
 
-1. Choose login with Duo and you will get a push notification on Duo Mobile app/ or login with Touch Id or other options with which you have done the setup.
+1. Choose log in with Duo to get a push notification on the Duo Mobile app, log in with Touch ID, or proceed with another option that you configured during setup.
 
 1. Approve the request from Duo app/ Touch ID/ Text message and you will be successfully logged in.
 
