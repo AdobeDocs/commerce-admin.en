@@ -19,8 +19,8 @@ For technical information, see [Advanced on-premises installation](https://exper
 
 >[!IMPORTANT]
 >
->Before following these instructions to change the encryption key, make sure that the following file is writable: `[your store]/app/etc/env.php`
-> The encryption key change feature via the Admin UI is deprecated in favor of command Line and going forward this feature will be completely removed from the 2.4.8-beta2 release.
+>- Before following these instructions to change the encryption key, make sure that the following file is writable: `[your store]/app/etc/env.php`
+>- The encryption key change feature in the Admin settings is deprecated and was removed in 2.4.8. You must use the CLI command described on this page to change your encryption key after upgrading to 2.4.8.
 
 **To change an encryption key:**
 
@@ -46,34 +46,40 @@ The following instructions require access to a terminal.
    crontab -e
    ```
 
-**Changing encryption key via CLI**
+1. Change the encryption key using one of the following methods.
 
-1. Run the following command via CLI and make sure there are no errors
+   +++CLI command
+
+   Run the following CLI command and make sure that it completes with no errors.
 
    ```bash
    bin/magento encryption:key:change
    ```
 
-** Changing encryption key via admin:**
+   +++
 
->[!IMPORTANT]
->
->This feature is being deprecated and will no longer be available from the 2.4.8-beta2 release. It is highly recommended to change the encryption key via CLI as shown above.
-   
-1.  On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Other Settings]_ > **[!UICONTROL Manage Encryption Key]**.
+   +++Admin settings
 
-   ![System encryption key](./assets/encryption-key.png){width="700" zoomable="yes"}
-
-1. Do one of the following:
-
-   - To generate a new key, set **[!UICONTROL Auto-generate Key]** to `Yes`.
-   - To use a different key, set **[!UICONTROL Auto-generate Key]** to `No`. Then in the **[!UICONTROL New Key]** field, enter or paste the key that you want to use.
-
-1. Click **[!UICONTROL Change Encryption Key]**.
-
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >Keep a record of the new key in a secure location. It is required to decrypt the data, if any problems occur with your files.
+   >This feature has been deprecated and was removed in 2.4.8. Adobe recommends changing encryption keys with the CLI.
+   
+   1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Other Settings]_ > **[!UICONTROL Manage Encryption Key]**.
+
+      ![System encryption key](./assets/encryption-key.png){width="700" zoomable="yes"}
+
+   1. Do one of the following:
+
+      - To generate a new key, set **[!UICONTROL Auto-generate Key]** to `Yes`.
+      - To use a different key, set **[!UICONTROL Auto-generate Key]** to `No`. Then in the **[!UICONTROL New Key]** field, enter or paste the key that you want to use.
+
+   1. Click **[!UICONTROL Change Encryption Key]**.
+
+      >[!NOTE]
+      >
+      >Keep a record of the new key in a secure location. It is required to decrypt the data, if any problems occur with your files.
+
+   +++
 
 1. Flush the cache.
 
