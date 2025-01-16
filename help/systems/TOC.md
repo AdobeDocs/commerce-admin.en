@@ -59,6 +59,7 @@ feature: System
 - Security {#security}
   - [Overview](security.md)
   - [Encryption key](encryption-key.md)
+  - [ReEncrypting Configuration Values](reencrypting-custom-and-system-config-fields.md)
   - [Security scan](security-scan.md)
   - [Configure Admin security](security-admin.md)
   - CAPTCHA {#captcha}
