@@ -16,6 +16,34 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 >
 >See [Product availability](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) for information about versions of the B2B Commerce extension supported for available Adobe Commerce releases.
 
+## B2B 1.5.1
+
+*February 11, 2025*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce versions 2.4.7-p3+ and 2.4.6-p8+ security patch releases.
+Compatible with Adobe Commerce versions 2.4.8-beta1, 2.4.7 to 2.4.7-p2, 2.4.6 to 2.4.6-p7
+
+The B2B v1.5.1 release includes quality improvements and bug fixes.
+
+>[!NOTE]
+>
+> Learn about backward-incompatible changes (BICs) introduced in the B2B 1.5.0 release by reviewing the highlights and reference information in the [Backward Incompatible Changes](backward-incompatible-changes.md) topic.
+
+### Line item discounts
+
+![Fixed issue](../assets/fix.svg)<!-- B2B-2938 --> Improved degraded performance for quote recalculation that was caused by increased database requests for cart line item discounts and cart line item notes.
+
+### Company
+
+![Fixed issue](../assets/fix.svg)<!-- B2B-4222 --> Fixed an issue with the company switcher feature during the order placement process that allowed a user to create a quote for Company A, then place an order using prices intended for Company B.
+
+### Negotiable quote
+
+![Fixed issue](../assets/fix.svg)<!-- B2B-3820 --> Fixed a validation issue for "minimum/maximum quantity" fields in quote templates that was causing UI elements to shift unexpectedly on the page after clicking [!UICONTROL **Update**].
+
+### Shopping cart
+
+![Fixed issue](../assets/fix.svg)<!-- B2B-4222 -->
 
 ## B2B 1.5.0
 
