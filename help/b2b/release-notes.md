@@ -27,19 +27,23 @@ The B2B v1.5.1 release includes quality improvements and bug fixes.
 
 ### Company
 
-![Fixed issue](../assets/fix.svg)<!-- B2B-4422 --> The system now redirects users to an "Access Denied" page if they attempt to switch companies on the Quote Details Page, ensuring that a quote created for one company cannot be used to place an order with the prices of another company. Previously, a user could create a quote with the price for one company and then switch to another company to place an order with different prices.
+![Fixed issue](../assets/fix.svg)<!-- B2B-4422 --> If a customer tries to switch companies on the Quote Details page, the system now redirects the customer to an *Access Denied* page to ensure that a quote created for one company cannot be used to place an order with the prices of another company. Previously, a user could create a quote with the price for one company, and then switch to another company to place an order with different prices.
 
 ### Line item discounts
 
-![Fixed issue](../assets/fix.svg)<!-- B2B-2938 --> Performance degradation observed in the Quote Recalculate scenario has been addressed, resulting in improved system efficiency. Previously, the addition of two new entities to every cart line item had caused a noticeable increase in database requests, leading to slower performance.
+![Fixed issue](../assets/fix.svg)<!-- B2B-2938 --> Improved system efficiency by addressing a performance degradation observed in the quote recalculation scenario. Previously, two new entities were added to every cart line item which caused a noticeable increase in database requests, leading to slower performance.
 
 ### Negotiable quote
 
-![Fixed issue](../assets/fix.svg)<!-- B2B-3820 --> The system now maintains the position of UI elements when JavaScript validation is applied to the "min/max qty" fields on the Luma Storefront Quote Template page. Previously, applying JavaScript validation to these fields caused other UI elements on the page to shift.
+![Fixed issue](../assets/fix.svg)<!-- B2B-3820 --> The system now maintains the position of UI elements when JavaScript validation is applied to the *[!UICONTROL min/max qty|* fields on the Luma Storefront Quote Template page. Previously, applying JavaScript validation to these fields caused other UI elements on the page to shift.
 
 ### Shopping cart
 
-![Fixed issue](../assets/fix.svg)<!-- B2B-4222 --> This update introduces a new system where shopping carts are associated with individual companies, ensuring that pricing, tax classes, and gift options are specific to the company context. Users can switch between companies without sharing cart details, maintaining the integrity of each company's pricing and product availability. This release aims to streamline the shopping experience for users managing multiple company accounts, providing a more organized and efficient workflow.
+![Fixed issue](../assets/fix.svg)<!-- B2B-4222 --> Introduced a new shopping cart management system designed to streamline the shopping experience for users managing multiple company accounts. The new system associates shopping carts with individual companies rather than the customer account to streamline the shopping experience and improve the workflow by supporting the following capabilities.
+
+- **Company-specific carts:**—Shopping carts are now linked to individual companies to support company-specific pricing and product options.
+- **Seamless switching**—Users can easily switch between different company accounts without affecting the contents of each company's cart.
+- **Contextual Integrity**—All cart details remain within the context of the respective company, providing a consistent and reliable shopping experience.
 
 ## B2B 1.5.0
 
