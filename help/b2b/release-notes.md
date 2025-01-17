@@ -35,7 +35,7 @@ The B2B v1.5.1 release includes quality improvements and bug fixes.
 
 ### Negotiable quote
 
-![Fixed issue](../assets/fix.svg)<!-- B2B-3820 --> The system now maintains the position of UI elements when JavaScript validation is applied to the *[!UICONTROL min/max qty|* fields on the Luma Storefront Quote Template page. Previously, applying JavaScript validation to these fields caused other UI elements on the page to shift.
+![Fixed issue](../assets/fix.svg)<!-- B2B-3820 --> The system now maintains the position of UI elements when JavaScript validation is applied to the *[!UICONTROL min/max qty]* fields on the Luma Storefront Quote Template page. Previously, applying JavaScript validation to these fields caused other UI elements on the page to shift.
 
 ### Shopping cart
 
