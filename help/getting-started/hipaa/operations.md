@@ -1,8 +1,8 @@
 ---
 title: Operations
 description: Guidelines for migrating to a HIPAA-ready offering and using the secondary staging environment for troubleshooting.
+exl-id: 058b43de-1cee-4557-b2e3-87ee7422bf9b
 ---
-
 # Operations
 
 Use these guidelines to learn about migrating to the HIPAA-ready offering for Adobe Commerce and using the `staging_for_support` environment for troubleshooting.
