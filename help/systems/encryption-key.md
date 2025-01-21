@@ -50,7 +50,7 @@ The following instructions require access to a terminal.
 
    +++CLI command
 
-   Run the following CLI command and make sure that it completes with no errors. If you need to re-encrypt certain system config values or payment fields, please see this detailed guide on re-encryption [ReEncrypting System Configuration](reencrypting-custom-and-system-config-fields.md)
+   Run the following CLI command and make sure that it completes with no errors. If you need to re-encrypt certain system config values or payment fields, see the detailed [guide on re-encryption](https://developer.adobe.com/commerce/php/development/security/data-encryption/) in the _PHP Develop Guide_.
 
    ```bash
    bin/magento encryption:key:change
