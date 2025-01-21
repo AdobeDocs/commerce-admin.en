@@ -15,7 +15,7 @@ Adobe Commerce and Magento Open Source use an encryption key to protect password
 
 During the initial installation, you are prompted to either let Commerce generate an encryption key, or enter one of your own. The encryption key tool allows you to change the key as needed. The encryption key should be changed regularly to improve security, and at any time the original key might be compromised.
 
-For technical information, see [Advanced on-premises installation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) in the _Installation Guide_.
+For technical information, see [Advanced on-premises installation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) in the _Installation Guide_ and [Data re-encryption](https://developer.adobe.com/commerce/php/development/security/data-encryption/) in the _PHP Developer Guide_.
 
 >[!IMPORTANT]
 >
