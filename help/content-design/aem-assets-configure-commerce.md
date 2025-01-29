@@ -22,13 +22,15 @@ The AEM Assets Integration for Commerce has the following system and configurati
 
 **Configuration requirements**
 
-- Adobe Commerce must be configured to use [Adobe IMS authentication](/help/getting-started/adobe-ims-config.md).
-
-- Account provisioning and permissions
+- Account provisioning and permissions:
 
   - [Commerce cloud project administrator](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access)—Install required extensions and configure the Commerce application server from the Admin or the command line
 
   - [Commerce Admin](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview)—Update store configuration and manage Commerce user accounts
+
+>[!TIP]
+>
+> Adobe Commerce can be configured to use [Adobe IMS authentication](/help/getting-started/adobe-ims-config.md).
 
 ## Configuration overview
 
