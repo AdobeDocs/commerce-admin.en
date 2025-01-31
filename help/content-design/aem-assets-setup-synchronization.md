@@ -46,7 +46,7 @@ For initial onboarding, use the default *Match by product sku* rule.
 
 1. Enter the **[!UICONTROL Asset Selector IMS Client ID]** if available.
 
-   The [IMS ID](../getting-started/adobe-ims-config.md) is required by the [[!UICONTROL Assets Selector]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/overview-asset-selector), which is used to pick up images for categories and/or Page Builder.
+   The [IMS ID](../getting-started/adobe-ims-config.md) is required by the [[!UICONTROL Assets Selector]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/overview-asset-selector), which selects images for categories and/or [!DNL Page Builder].
 
 1. Select the [[!UICONTROL Commerce integration]](aem-assets-configure-commerce.md#add-the-integration-to-the-commerce-environment) for authenticating requests between Commerce and the asset matching service.
 
