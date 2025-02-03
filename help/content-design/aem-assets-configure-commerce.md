@@ -22,8 +22,10 @@ The AEM Assets Integration for Commerce has the following system and configurati
 
 **Configuration requirements**
 
-- Account provisioning and permissions
+- Account provisioning and permissions:
+
   - [Commerce cloud project administrator](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access)—Install required extensions and configure the Commerce application server from the Admin or the command line
+
   - [Commerce Admin](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview)—Update store configuration and manage Commerce user accounts
 
 >[!TIP]
