@@ -6,8 +6,6 @@ exl-id: b3c9d12c-bf95-435c-bb93-b8fbf80d084e
 ---
 # Experience Manager Assets Integration for Commerce
 
-{{$include /help/_includes/aem-assets-integration-beta-note.md}}
-
 Experience Manager Assets Integration for Commerce combines the robust capabilities of AEM as a Digital Asset Management (DAM) system with Adobe Commerce to enhance eCommerce experiences. These capabilities are delivered by connecting Commerce projects to AEM's powerful asset management environment to provide a seamless, scalable, and efficient way to manage and deliver assets across commerce storefronts.
 
 **Key features**
