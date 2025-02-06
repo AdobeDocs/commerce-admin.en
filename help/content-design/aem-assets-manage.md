@@ -6,8 +6,6 @@ exl-id: 55144019-8ba2-4392-b5dd-216e2ee9daf2
 ---
 # Use AEM Assets
 
-{{$include /help/_includes/aem-assets-integration-beta-note.md}}
-
 <!--In ACAP-844, this topic was linked to from the Commerce Admin products images and videos when the Assets integration is enabled. If the URL to the topic changes, be sure to add a redirect.-->
 
 ## Update an asset
