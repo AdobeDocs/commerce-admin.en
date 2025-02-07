@@ -24,7 +24,7 @@ You can add assets into your catalog categories content once you have configured
 
 1. On the _Admin_ sidebar, navigate to **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Content]** section.
+1. Expand the ![Expansion selector](../assets/icon-display-expand.png) in the **[!UICONTROL Content]** section.
 
    ![Category content](./assets/aem-assets-manage-categories.png){width="600" zoomable="yes"}
 
