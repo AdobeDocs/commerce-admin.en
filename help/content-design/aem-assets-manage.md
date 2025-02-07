@@ -30,6 +30,6 @@ You can add assets into your catalog categories content once you have configured
 
 1. To display a **[!UICONTROL Category Image]** at the top of the page, click **[!UICONTROL Select from Assets]** to use an image from your AEM Assets folder.
 
-1. Fill in description and click **[!UICONTROL Save]** and continue.
+1. Click **[!UICONTROL Save]** and continue.
 
    For more information to create a category, see [Complete the category content](../catalog/category-create.md#step-3-complete-the-category-content).
