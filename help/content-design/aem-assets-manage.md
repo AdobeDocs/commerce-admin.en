@@ -20,7 +20,7 @@ For details, see the following AEM Assets documentation.
 
 ## Manage categories
 
-You can add assets into your catalog categories content once you have configured the AEM Assets integration:
+You can add assets into your catalog categories content once you have enabled and configured the AEM Assets integration:
 
 1. On the _Admin_ sidebar, navigate to **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
