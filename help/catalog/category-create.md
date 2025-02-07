@@ -80,9 +80,11 @@ Also define any associated keywords and attributes, such as:
 
    - To use images from the Media Storage, click **[!UICONTROL Select from Gallery]** and select the image you want to represent the category.
 
+   Inside the Media Gallery, you can also use the [Adobe Stock Integration](../content-design/adobe-stock.md) to find an appropriate image by clicking **[!UICONTROL Search Adobe Stock]**.
+
    >[!NOTE]
    >
-   >Inside the Media Gallery, you can also use the [Adobe Stock Integration](../content-design/adobe-stock.md) to find an appropriate image by clicking **[!UICONTROL Search Adobe Stock]**.
+   > If you have AEM Assets enabled, see [Manage categories](../content-design/aem-assets-manage.md) for more information.
 
 1. For **[!UICONTROL Description]**, enter the text or other content that you want to appear on the category landing page.
 
@@ -90,7 +92,7 @@ Also define any associated keywords and attributes, such as:
 
 1. To include a content block on the category landing page, choose the **[!UICONTROL CMS Block]** that you want to appear.
 
-1. click **[!UICONTROL Save]** and continue.
+1. Click **[!UICONTROL Save]** and continue.
 
 ## Step 4: Complete the display settings
 
