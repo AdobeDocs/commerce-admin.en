@@ -17,3 +17,19 @@ For details, see the following AEM Assets documentation.
 - [Reprocessing digital assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
 
 - [Approve an asset](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
+
+## Manage categories
+
+You can add assets into your catalog categories content once you have configured the AEM Assets integration:
+
+1. On the _Admin_ sidebar, navigate to **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Content]** section.
+
+   ![Category content](./assets/aem-assets-manage-categories.png){width="600" zoomable="yes"}
+
+1. To display a **[!UICONTROL Category Image]** at the top of the page, click **[!UICONTROL Select from Assets]** to use an image from your AEM Assets folder.
+
+1. Fill in description and click **[!UICONTROL Save]** and continue.
+
+   For more information to create a category, see [Complete the category content](../catalog/category-create.md#step-3-complete-the-category-content).
