@@ -19,7 +19,14 @@ For initial onboarding, use the default *Match by product sku* rule.
 ## Prerequisites
 
 - [Configure AEM Experience Manager Assets to manage Commerce assets](#aem-assets-configure-aem)
+
 - [Install and configure the AEM Assets Integration for Commerce](#aem-assets-configure-commerce.md) to add the extension and generate the required credentials and connections to use the extension.
+
+- Create a support ticket to request enablement for the AEM Assets Integration. You must provide the **[!UICONTROL Program ID]**, **[!UICONTROL Environment ID]** and **[!UICONTROL IMS Org ID]**.
+
+   >[!TIP]
+   >
+   > (Optional) Provide the **[!UICONTROL Asset Selector IMS Client ID]** if available.
 
 ## Configure the connection
 
@@ -37,11 +44,11 @@ For initial onboarding, use the default *Match by product sku* rule.
 
 1. Enter the AEM Assets environment **[!UICONTROL Program ID]** and **[!UICONTROL Environment ID]**.
 
-1. Enter the **[!UICONTROL Asset Selector IMS Client ID].
+1. Enter the **[!UICONTROL Asset Selector IMS Client ID]** if available.
 
-   The [IMS ID](../getting-started/adobe-ims-config.md) allows you to integrate AEM Assets with Page Builder.
+   The [IMS ID](../getting-started/adobe-ims-config.md) is required by the [[!UICONTROL Assets Selector]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/overview-asset-selector), which selects images for categories and/or [!DNL Page Builder].
 
-1. Select the [[!UICONTROL Commerce integration]](aem-assets-configure-commerce.md#add-the-integration-to-the-commerce-environment)** for authenticating requests between Commerce and the asset matching service.
+1. Select the [[!UICONTROL Commerce integration]](aem-assets-configure-commerce.md#add-the-integration-to-the-commerce-environment) for authenticating requests between Commerce and the asset matching service.
 
 1. Allow Commerce to accept incoming updates from AEM Assets by setting **[!UICONTROL Integration enabled]** to `Yes`.
 
