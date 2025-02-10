@@ -6,8 +6,6 @@ exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
 ---
 # Install and configure the AEM Assets Integration for Commerce
 
-{{$include /help/_includes/aem-assets-integration-beta-note.md}}
-
 Prepare your Commerce environment to use the AEM Assets Integration for Commerce by installing the `aem-assets-integration` PHP extension. Then, update the Admin configuration to enable communication and workflows between Adobe Commerce and AEM Assets.
 
 ## System requirements
@@ -22,8 +20,10 @@ The AEM Assets Integration for Commerce has the following system and configurati
 
 **Configuration requirements**
 
-- Account provisioning and permissions
+- Account provisioning and permissions:
+
   - [Commerce cloud project administrator](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access)—Install required extensions and configure the Commerce application server from the Admin or the command line
+
   - [Commerce Admin](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview)—Update store configuration and manage Commerce user accounts
 
 >[!TIP]
