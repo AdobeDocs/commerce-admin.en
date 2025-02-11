@@ -16,6 +16,34 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 >
 >See [Product availability](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) for information about versions of the B2B Commerce extension supported for available Adobe Commerce releases.
 
+## B2B 1.5.1
+
+*February 11, 2025*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce versions 2.4.7-p4+ and 2.4.6-p9+ security patch releases.
+Compatible with Adobe Commerce versions 2.4.8-beta1 to 2.4.8-beta2, 2.4.7 to 2.4.7-p3, 2.4.6 to 2.4.9-p8
+
+The B2B v1.5.1 release includes quality improvements and bug fixes.
+
+### Company
+
+![Fixed issue](../assets/fix.svg)<!-- B2B-4422 --> If a customer tries to switch companies on the Quote Details page, the system now redirects the customer to an *Access Denied* page to ensure that a quote created for one company cannot be used to place an order with the prices of another company. Previously, a user could create a quote with the price for one company, and then switch to another company to place an order with different prices.
+
+### Line item discounts
+
+![Fixed issue](../assets/fix.svg)<!-- B2B-2938 --> Improved system efficiency by addressing a performance degradation observed in the quote recalculation scenario. Previously, two new entities were added to every cart line item which caused a noticeable increase in database requests, leading to slower performance.
+
+### Negotiable quote
+
+![Fixed issue](../assets/fix.svg)<!-- B2B-3820 --> The system now maintains the position of UI elements when JavaScript validation is applied to the *[!UICONTROL min/max qty]* fields on the Luma Storefront Quote Template page. Previously, applying JavaScript validation to these fields caused other UI elements on the page to shift.
+
+### Shopping cart
+
+![Fixed issue](../assets/fix.svg)<!-- B2B-4222 --> Introduced a new shopping cart management system designed to streamline the shopping experience for users managing multiple company accounts. The new system associates shopping carts with individual companies rather than the customer account to streamline the shopping experience and improve the workflow by supporting the following capabilities.
+
+- **Company-specific carts:**—Shopping carts are now linked to individual companies to support company-specific pricing and product options.
+- **Seamless switching**—Users can easily switch between different company accounts without affecting the contents of each company's cart.
+- **Contextual Integrity**—All cart details remain within the context of the respective company, providing a consistent and reliable shopping experience.
 
 ## B2B 1.5.0
 
