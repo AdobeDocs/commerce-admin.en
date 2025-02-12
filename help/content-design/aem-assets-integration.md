@@ -8,20 +8,55 @@ exl-id: b3c9d12c-bf95-435c-bb93-b8fbf80d084e
 
 Experience Manager Assets Integration for Commerce combines the robust capabilities of AEM as a Digital Asset Management (DAM) system with Adobe Commerce to enhance eCommerce experiences. These capabilities are delivered by connecting Commerce projects to AEM's powerful asset management environment to provide a seamless, scalable, and efficient way to manage and deliver assets across commerce storefronts.
 
-**Key features**
+## Key business benefits
 
-- **Centralized Asset Management**
+![check](assets/icon-check.png) **Centralized Asset Management**
 
   - **AEM Assets as the Single Source of Truth**–AEM Assets serves as the central repository for all digital assets, ensuring that all ecommerce platforms have access to on-brand, approved assets.
 
   - **Bulk Asset Management**–Organizations can manage large volumes of assets efficiently, thanks to AEM's robust asset management capabilities. This enables marketers and merchandisers to map large sets of images for new product lines efficiently.
 
-- **Personalized Commerce Experiences**–Using GenAI services in AEM, organizations can generate millions of product variations for personalized ecommerce experiences. Marketers and merchandisers can use these images to create dynamic storefronts for product launches and seasonal campaigns, enhancing engagement and boosting conversion rates.
+![check](assets/icon-check.png) **Personalized Commerce Experiences**–Using GenAI services in AEM, organizations can generate millions of product variations for personalized ecommerce experiences. Marketers and merchandisers can use these images to create dynamic storefronts for product launches and seasonal campaigns, enhancing engagement and boosting conversion rates.
 
-- **Automated Asset Matching**–The integration includes a Rules Engine Service that automatically matches assets in AEM to products in Adobe Commerce based on SKU or other key attributes. The service ensures that the latest product assets and variations are always available on ecommerce storefronts. It also reduces the manual effort required to manage assets, freeing up time for more strategic activities.
+![check](assets/icon-check.png) **Automated Asset Matching**–The integration includes a Rules Engine Service that automatically matches assets in AEM to products in Adobe Commerce based on SKU or other key attributes. The service ensures that the latest product assets and variations are always available on ecommerce storefronts. It also reduces the manual effort required to manage assets, freeing up time for more strategic activities.
 
-- **Streamlined Processes**
+![check](assets/icon-check.png) **Streamlined Processes**
 
   - **Enable and configure the integration from the Commerce Admin**–Administrators and developers can install and configure the integration from Adobe Commerce using familiar tools and processes.
   - **Dynamic Updates**–Keep product images current with the latest changes in the asset management system. These automated updates ensure that commerce storefronts always have the most up-to-date product information.
   - **Efficient Catalog Management**–Simplifies the maintenance of the product catalog by automating asset cleanup and refresh.
+
+## Requirements
+
+- Adobe Commerce 2.4.5+
+  - PHP 8.1, 8.2, 8.3
+  - Composer: 2.x
+- Adobe Experience Manager is provisioned with [Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview)
+-  The Adobe Commerce user configuring the integration must have access to the [IMS Organization](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255) where the AEM Assets project is provisioned.
+
+## Supported functionalities
+
+| Content Supply Chain (CSC) stage | Features | Availability |
+| ------------ | -------------------- |
+| Content creation | Content creation | Available ![check](assets/icon-check.png) |
+
+## Set up the integration
+
+>[!BEGINSHADEBOX]
+
+**Prerequisites**
+
+Setting up the AEM Assets integration requires administrative access to customize application and environment configuration.
+
+- Administrative access to the Cloud Manager program where the AEM Assets as a Cloud Service environments are provisioned.
+- Administrative access to the Adobe Commerce environment and ability to retrieve or generate API keys required for authentication.
+
+>[!ENDSHADEBOX]
+
+Enabling the Commerce integration with Experience Manager Assets is a three step process:
+
+1. [Configure your Experience Manager Assets project to manage Commerce assets](aem-assets-configure-aem.md).
+
+1. [Install the Experience Manager Assets Integration extension and configure Adobe Commerce](aem-assets-configure-aem.md).
+
+1. [Enable asset synchronization](aem-assets-setup-synchronization.md).

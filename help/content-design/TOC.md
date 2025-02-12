@@ -68,12 +68,11 @@ feature: CMS, Page Content
     - [Image optimization](media-gallery-image-optimization.md)
 - Asset Management using AEM Assets {#aem-asset-management}
   - [AEM Assets Integration for Commerce](aem-assets-integration.md)
-  - Set up the integration {#onboarding}
-    - [Overview](aem-assets-setup.md)
-    - [Configure AEM Assets](aem-assets-configure-aem.md)
-    - [Configure Adobe Commerce ](aem-assets-configure-commerce.md)
-    - [Enable asset synchronization](aem-assets-setup-synchronization.md)
-  - [Manage assets](aem-assets-manage.md)
+    - Set up the integration {#onboarding}
+      - [Configure AEM Assets](aem-assets-configure-aem.md)
+      - [Configure Adobe Commerce ](aem-assets-configure-commerce.md)
+      - [Enable asset synchronization](aem-assets-setup-synchronization.md)
+    - [Manage assets](aem-assets-manage.md)
 - Media {#media}
 - Content staging {#staging}
   - [Overview](content-staging.md)
