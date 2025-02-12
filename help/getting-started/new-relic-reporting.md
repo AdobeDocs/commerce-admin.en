@@ -107,7 +107,7 @@ Returns the number of active Admin users.
 
 Returns the names of active Admin users.
 
-      SELECT uniques(AdminName)
+      SELECT uniques(adminName)
       FROM Transaction
       WHERE appName='<your_app_name>' SINCE 15 minutes ago
 
@@ -115,18 +115,18 @@ Returns the names of active Admin users.
 
 Returns the number of recent Admin actions.
 
-      SELECT count(AdminId)
+      SELECT count(adminId)
       FROM Transaction
-      WHERE appName ='<your_app_name>' FACET AdminName SINCE 1 day ago
+      WHERE appName ='<your_app_name>' FACET adminName SINCE 1 day ago
 
 #### Latest Admin activity
 
 Returns detail information about recent admin actions, including the Admin username, duration, and application name.
 
-      SELECT AdminName, duration, name
+      SELECT adminName, duration, name
       FROM Transaction
-      WHERE appName='<your_app_name>' AND AdminName IS NOT NULL
-      AND AdminName != 'N/A' LIMIT 50
+      WHERE appName='<your_app_name>' AND adminName IS NOT NULL
+      AND adminName != 'N/A' LIMIT 50
 
 ### Cron events
 
@@ -134,104 +134,104 @@ Returns detail information about recent admin actions, including the Admin usern
 
 Returns the number of application events by category during the specified time period.
 
-      SELECT average(CatalogCategoryCount)
+      SELECT average(catalogCategoryCount)
       FROM Cron
-      WHERE CatalogCategoryCount IS NOT NULL
+      WHERE catalogCategoryCount IS NOT NULL
       AND appName = '<your_app_name>' TIMESERIES 2 minutes
 
 #### Current catalog count
 
 Returns the average number of application events in the catalog by category during the specified time period.
 
-      SELECT average(CatalogCategoryCount)
+      SELECT average(catalogCategoryCount)
       FROM Cron
-      WHERE CatalogCategoryCount IS NOT NULL
-      AND CatalogCategoryCount > 0
+      WHERE catalogCategoryCount IS NOT NULL
+      AND catalogCategoryCount > 0
       AND appName = '<your_app_name>' SINCE 2 minutes ago LIMIT 1
 
 #### Active products
 
 Returns the number of application events by product during the specified time period.
 
-      SELECT average(CatalogProductActiveCount)
+      SELECT average(catalogProductActiveCount)
       FROM Cron
-      WHERE CatalogProductActiveCount IS NOT NULL
+      WHERE catalogProductActiveCount IS NOT NULL
       AND appName = '<your_app_name>' TIMESERIES 2 minutes
 
 #### Active product count
 
 Returns the average number of active application events by product during the specified time period.
 
-      SELECT average(CatalogProductActiveCount)
+      SELECT average(catalogProductActiveCount)
       FROM Cron
-      WHERE CatalogProductActiveCount IS NOT NULL
-      AND CatalogProductActiveCount > 0
+      WHERE catalogProductActiveCount IS NOT NULL
+      AND catalogProductActiveCount > 0
       AND appName = '<your_app_name>' SINCE 2 minutes ago LIMIT 1
 
 #### Configurable products
 
 Returns the average number of application events for configurable products during the specified time period.
 
-      SELECT average(CatalogProductConfigurableCount)
+      SELECT average(catalogProductConfigurableCount)
       FROM Cron
-      WHERE CatalogProductConfigurableCount IS NOT NULL
+      WHERE catalogProductConfigurableCount IS NOT NULL
       AND appName = '<your_app_name>' TIMESERIES 2 minutes
 
 #### Configurable product count
 
 Returns the average number of application events by configurable product during the specified time period.
 
-      SELECT average(CatalogProductConfigurableCount)
+      SELECT average(catalogProductConfigurableCount)
       FROM Cron
-      WHERE CatalogProductConfigurableCount IS NOT NULL
-      AND CatalogProductConfigurableCount > 0
+      WHERE catalogProductConfigurableCount IS NOT NULL
+      AND catalogProductConfigurableCount > 0
       AND appName = '<your_app_name>' SINCE 2 minutes ago LIMIT 1
 
 #### Product count (all)
 
 Returns the total number of application events for all products.
 
-      SELECT average(CatalogProductCount)
+      SELECT average(catalogProductCount)
       FROM Cron
-      WHERE CatalogProductCount IS NOT NULL
+      WHERE catalogProductCount IS NOT NULL
       AND appName = '<your_app_name>' TIMESERIES 2 minutes
 
 #### Current product count (all)
 
 Returns the average number of application events for all products during the specified time period.
 
-      SELECT average(CatalogProductCount)
+      SELECT average(catalogProductCount)
       FROM Cron
-      WHERE CatalogProductCount IS NOT NULL
-      AND CatalogProductCount > 0
+      WHERE catalogProductCount IS NOT NULL
+      AND catalogProductCount > 0
       AND appName = '<your_app_name>' SINCE 2 minutes ago LIMIT 1
 
 #### Customer count
 
 Returns the average number of application events by customer.
 
-      SELECT average(CustomerCount)
+      SELECT average(customerCount)
       FROM Cron
-      WHERE CustomerCount IS NOT NULL
-      AND CustomerCount > 0<
+      WHERE customerCount IS NOT NULL
+      AND customerCount > 0<
       AND appName = '<your_app_name>' TIMESERIES 2 minutes
 
 #### Current customer count
 
 Returns the average number of customers during the specified time period.
 
-      SELECT average(CustomerCount)
+      SELECT average(customerCount)
       FROM Cron
-      WHERE CustomerCount IS NOT NULL
-      AND CustomerCount > 0
+      WHERE customerCount IS NOT NULL
+      AND customerCount > 0
       AND appName = '<your_app_name>' SINCE 2 minutes ago LIMIT 1
 
 #### Module status
 
 Returns the average number of times application modules are enabled, disabled, or installed during the specified time period.
 
-      SELECT average(ModulesDisabled), average(ModulesEnabled), average
-      (ModulesInstalled)
+      SELECT average(modulesDisabled), average(modulesEnabled), average
+      (modulesInstalled)
       FROM Cron<
       WHERE appName = '<your_app_name>' TIMESERIES 2 minutes
 
@@ -239,8 +239,8 @@ Returns the average number of times application modules are enabled, disabled, o
 
 Returns the average number of times modules were enabled, disabled, or installed during the specified time period.
 
-      SELECT average(ModulesDisabled), average(ModulesEnabled), average
-      (ModulesInstalled)
+      SELECT average(modulesDisabled), average(modulesEnabled), average
+      (modulesInstalled)
       FROM Cron
       WHERE appName = '<your_app_name>' SINCE 2 minutes ago LIMIT 1
 
@@ -248,7 +248,7 @@ Returns the average number of times modules were enabled, disabled, or installed
 
 Returns the average number of application events by website and store during the specified time period.
 
-      SELECT average(StoreViewCount), average(WebsiteCount)
+      SELECT average(storeViewCount), average(websiteCount)
       FROM Cron
       WHERE appName = '&lt;your_app_name&gt;' TIMESERIES 2 minutes
 
@@ -256,7 +256,7 @@ Returns the average number of application events by website and store during the
 
 Returns the average number of current application events during the specified time period.
 
-      SELECT average(StoreViewCount), average(WebsiteCount)
+      SELECT average(storeViewCount), average(websiteCount)
       FROM Cron
       WHERE appName = '<your_app_name>' SINCE 2 minutes ago LIMIT 1
 
@@ -274,7 +274,7 @@ Returns all application event data.
 
 Returns the number of active customers during the specified time period.
 
-      SELECT uniqueCount(CustomerId)
+      SELECT uniqueCount(customerId)
       FROM Transaction
       WHERE appName = '<your_app_name>' SINCE 15 minutes ago
 
@@ -282,7 +282,7 @@ Returns the number of active customers during the specified time period.
 
 Returns the names of active customers during the specified time period.
 
-      SELECT uniques(CustomerName)
+      SELECT uniques(customerName)
       FROM Transaction
       WHERE appName='<your_app_name>' SINCE 15 minutes ago
 
@@ -290,19 +290,19 @@ Returns the names of active customers during the specified time period.
 
 Returns the top customers during the specified time period.
 
-      SELECT count(CustomerId)
+      SELECT count(customerId)
       FROM Transaction
-      WHERE appName = '<your_app_name>' FACET CustomerName SINCE 1 day ago
+      WHERE appName = '<your_app_name>' FACET customerName SINCE 1 day ago
 
 #### Recent Admin activity
 
 Returns a defined number of records of recent activity, that include the customer name and duration of visit.
 
-      SELECT CustomerName, duration, name
+      SELECT customerName, duration, name
       FROM Transaction
       WHERE appName='<your_app_name>'
-      AND CustomerName IS NOT NULL
-      AND CustomerName != 'N/A' LIMIT 50
+      AND customerName IS NOT NULL
+      AND customerName != 'N/A' LIMIT 50
 
 ### Orders
 
