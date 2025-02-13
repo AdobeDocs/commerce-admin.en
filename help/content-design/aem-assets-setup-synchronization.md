@@ -65,3 +65,7 @@ For initial onboarding, use the default *Match by product sku* rule.
      ![AEM Assets Integration select asset match rule](assets/aem-assets-config-matching-rule.png){width="600" zoomable="yes"}
 
 1. Select **[!UICONTROL Save Config]** to apply updates and initiate asset synchronization
+
+>[!MORELIKETHIS]
+>
+> See [Manage your assets with AEM Assets](aem-assets-manage.md)for more information about managing your assets.
