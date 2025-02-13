@@ -102,10 +102,8 @@ Set default values for Commerce asset metadata by creating a metadata profile. O
 >
 >You can automatically synchronize Commerce assets as they are uploaded to the AEM Assets environment by updating the metadata profile to set the default value for the _[!UICONTROL Review Status]_ field to `Approved`. The property type for the `Review Status` field is `./jcr:content/metadata/dam:status`.
 
-
 ## Next steps
 
 After updating the AEM environment, set up Adobe Commerce:
 
 1. [Install and configure the AEM Assets Integration for Commerce](aem-assets-configure-commerce.md)
-2. [Enable asset synchronization to transfer assets between your Adobe Commerce project environment and the AEM Assets project environment](aem-assets-setup-synchronization.md)

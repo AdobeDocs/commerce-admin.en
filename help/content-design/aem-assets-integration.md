@@ -8,6 +8,8 @@ exl-id: b3c9d12c-bf95-435c-bb93-b8fbf80d084e
 
 Experience Manager Assets Integration for Commerce combines the robust capabilities of AEM as a Digital Asset Management (DAM) system with Adobe Commerce to enhance eCommerce experiences. These capabilities are delivered by connecting Commerce projects to AEM's powerful asset management environment to provide a seamless, scalable, and efficient way to manage and deliver assets across commerce storefronts.
 
+>[!BEGINSHADEBOX]
+
 ## Key business benefits
 
 ![check](assets/icon-check.png) **Centralized Asset Management**
@@ -26,10 +28,6 @@ Experience Manager Assets Integration for Commerce combines the robust capabilit
   - **Dynamic Updates**–Keep product images current with the latest changes in the asset management system. These automated updates ensure that commerce storefronts always have the most up-to-date product information.
   - **Efficient Catalog Management**–Simplifies the maintenance of the product catalog by automating asset cleanup and refresh.
 
-## Requirements
+>[!ENDSHADEBOX]
 
-- Adobe Commerce 2.4.5+
-  - PHP 8.1, 8.2, 8.3
-  - Composer: 2.x
-- Adobe Experience Manager is provisioned with [Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview)
-- The Adobe Commerce user configuring the integration must have access to the [IMS Organization](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255) where the AEM Assets project is provisioned.
+See [Onboard AEM Assets Integration for Commerce](aem-assets-onboard.md) for more information.
