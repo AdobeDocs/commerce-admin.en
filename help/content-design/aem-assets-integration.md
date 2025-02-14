@@ -31,3 +31,14 @@ Experience Manager Assets Integration for Commerce combines the robust capabilit
 >[!ENDSHADEBOX]
 
 See [Onboard AEM Assets Integration for Commerce](aem-assets-onboard.md) for more information.
+
+## Additional documentation
+
+| Guide | Description |
+|------ | ----------- |
+| [[!DNL Adobe Commerce] 2.4 User Guide](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) | Merchant-focused documentation for both [!DNL Adobe Commerce] and [!DNL Magento Open Source] |
+| [[!DNL Adobe Commerce] 2.4 Developer Guide](https://developer.adobe.com/commerce/docs) | Developer-focused documentation used to build and customize [!DNL Adobe Commerce] or [!DNL Magento Open Source] |
+
+## Support
+
+If you need information or have questions not covered in this guide, contact your AEM Assets Integration sales representative or create a [support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) to receive additional help.
