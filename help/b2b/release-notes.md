@@ -128,6 +128,21 @@ Improvements to quoting capabilities help Buyers and Sellers manage quotes and q
 
 ![Fixed issue](../assets/fix.svg) <!--ACP2E-1825-->Purchase orders can no longer be placed by a user associated with the company after the company has been blocked. Previously, a user associated with the company could place purchase orders when the company was blocked.
 
+## B2B v1.4.2-p4
+
+*February 11, 2025*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.7-p4+ and 2.4.6-p9+ security patch releases.
+
+![New](../assets/new.svg) Added compatibility with Adobe Commerce 2.4.7-p4+ and 2.4.6-p9+ security patch releases.
+
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html).
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B version 1.4.2+ is compatible with PHP 8.2. If you upgrade the Commerce instance to version 2.4.7+, ensure that the instance uses PHP version 8.2 to maintain compatibility with the Adobe Commerce B2B release. Additionally, the B2B 1.4.2+ release does not support the [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
+
+
 ## B2B v1.4.2-p3
 
 *October 8, 2024*
@@ -242,6 +257,16 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 You can fix this issue by adding manual dependencies for the B2B security package by adding manual dependencies for the B2B security package with a [stability tag](https://getcomposer.org/doc/04-schema.md#package-links). For instructions, see the [Adobe Commerce Knowledge Base](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html).
 
+## B2B v1.3.5-p9
+
+*February 11, 2025*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.6-p9+ security patch releases.
+
+![New](../assets/new.svg) Added compatibility with the Adobe Commerce 2.4.6-p9 security patch releases.
+
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html).
+
 ## B2B v1.3.5-p8
 
 *October 8, 2024*
@@ -295,6 +320,16 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 ![Fixed issue](../assets/fix.svg) <!--- ACP2E-2456--> Category queries now return product prices according to store configuration settings when there are no category permissions explicitly set on the category being queried.
 
 ![Fixed issue](../assets/fix.svg) <!--- ACP2E-6829--> The **[!UICONTROL Place Order]** button now works as expected when completing a purchase with an approved quote request. Issues with the negotiable quote `negotiableQuoteCheckoutSessionPlugin` plugin have been resolved.
+
+## B2B v1.3.4-p11
+
+*February 11, 2025*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.0 and newer versions
+
+![New](../assets/new.svg) Added support for Adobe Commerce 2.4.5-p11.
+
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html).
 
 ## B2B v1.3.4-p10
 
