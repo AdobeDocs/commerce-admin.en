@@ -14,9 +14,9 @@ Experience Manager Assets Integration for Commerce combines the robust capabilit
 
 ![check](assets/icon-check.png) **Centralized Asset Management**
 
-  - **AEM Assets as the Single Source of Truth**–AEM Assets serves as the central repository for all digital assets, ensuring that all ecommerce platforms have access to on-brand, approved assets.
+- **AEM Assets as the Single Source of Truth**–AEM Assets serves as the central repository for all digital assets, ensuring that all ecommerce platforms have access to on-brand, approved assets.
 
-  - **Bulk Asset Management**–Organizations can manage large volumes of assets efficiently, thanks to AEM's robust asset management capabilities. This enables marketers and merchandisers to map large sets of images for new product lines efficiently.
+- **Bulk Asset Management**–Organizations can manage large volumes of assets efficiently, thanks to AEM's robust asset management capabilities. This enables marketers and merchandisers to map large sets of images for new product lines efficiently.
 
 ![check](assets/icon-check.png) **Personalized Commerce Experiences**–Using GenAI services in AEM, organizations can generate millions of product variations for personalized ecommerce experiences. Marketers and merchandisers can use these images to create dynamic storefronts for product launches and seasonal campaigns, enhancing engagement and boosting conversion rates.
 
@@ -24,9 +24,11 @@ Experience Manager Assets Integration for Commerce combines the robust capabilit
 
 ![check](assets/icon-check.png) **Streamlined Processes**
 
-  - **Enable and configure the integration from the Commerce Admin**–Administrators and developers can install and configure the integration from Adobe Commerce using familiar tools and processes.
-  - **Dynamic Updates**–Keep product images current with the latest changes in the asset management system. These automated updates ensure that commerce storefronts always have the most up-to-date product information.
-  - **Efficient Catalog Management**–Simplifies the maintenance of the product catalog by automating asset cleanup and refresh.
+- **Enable and configure the integration from the Commerce Admin**–Administrators and developers can install and configure the integration from Adobe Commerce using familiar tools and processes.
+
+- **Dynamic Updates**–Keep product images current with the latest changes in the asset management system. These automated updates ensure that commerce storefronts always have the most up-to-date product information.
+
+- **Efficient Catalog Management**–Simplifies the maintenance of the product catalog by automating asset cleanup and refresh.
 
 >[!ENDSHADEBOX]
 
