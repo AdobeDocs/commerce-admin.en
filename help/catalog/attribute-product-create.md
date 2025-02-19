@@ -60,7 +60,7 @@ You can create attributes while working on a product or from the _[!UICONTROL Pr
 
    >[!NOTE]
    >
-   >It is not recommended to use `type` value for the [!UICONTROL Attribute Code] field. This may cause errors. `type` value is reserved by the system codebase.  
+   >It is not recommended to use `type` value in the [!UICONTROL Attribute Code] field. This may cause errors. `type` value is reserved by the system codebase.  
 
    ![Product attribute - advanced properties](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
