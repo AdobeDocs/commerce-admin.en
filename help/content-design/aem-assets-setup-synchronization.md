@@ -10,7 +10,7 @@ During the enablement process, you register the tenant ID for the project using 
 
 After identifying the AEM assets project, you select the matching rule for synchronizing assets between Adobe Commerce and AEM Assets.
 
-- **[!UICONTROL Match by product SKU]**—Default rule that matches the SKU in the asset metadata with the [Commerce product SKU](https://experienceleague.adobe.com/en/docs/commerce-operations/operational-playbook/glossary#sku) to ensure that assets are associated with the correct products.
+- **[!UICONTROL Match by product SKU]**—Default rule that matches the SKU in the asset metadata with the [Commerce product SKU](https://experienceleague.adobe.com/en/docs/commerce-operations/operational-playbook/glossary) to ensure that assets are associated with the correct products.
 
 - **[!UICONTROL Custom match]**—Matching rule for more complex scenarios or specific business requirements that require custom matching logic. Implementing custom matching requires developing custom code in Adobe Developer App Builder to define how assets are matched with products. More details coming soon...
 
@@ -18,9 +18,9 @@ For initial onboarding, use the default *Match by product sku* rule.
 
 ## Prerequisites
 
-- [Configure AEM Experience Manager Assets to manage Commerce assets](#aem-assets-configure-aem)
+- [Configure AEM Experience Manager Assets to manage Commerce assets](aem-assets-configure-aem.md)
 
-- [Install and configure the AEM Assets Integration for Commerce](#aem-assets-configure-commerce.md) to add the extension and generate the required credentials and connections to use the extension.
+- [Install and configure the AEM Assets Integration for Commerce](aem-assets-configure-commerce.md) to add the extension and generate the required credentials and connections to use the extension.
 
 - Create a support ticket to request enablement for the AEM Assets Integration. You must provide the **[!UICONTROL Program ID]**, **[!UICONTROL Environment ID]** and **[!UICONTROL IMS Org ID]**.
 
@@ -44,7 +44,7 @@ For initial onboarding, use the default *Match by product sku* rule.
 
 1. Enter the AEM Assets environment **[!UICONTROL Program ID]** and **[!UICONTROL Environment ID]**.
 
-1. Enter the **[!UICONTROL Asset Selector IMS Client ID]** if available.
+1. Enter the **[!UICONTROL Asset Selector IMS Client ID]**, if available.
 
    The [IMS ID](../getting-started/adobe-ims-config.md) is required by the [[!UICONTROL Assets Selector]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/overview-asset-selector), which selects images for categories and/or [!DNL Page Builder].
 
