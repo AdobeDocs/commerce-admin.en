@@ -26,6 +26,14 @@ To leverage this integration, businesses must meet the following requirements:
 
 - The Adobe Commerce user configuring the integration must have access to the [IMS Organization](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255) where the AEM Assets project is provisioned.
 
+## Key benefits
+
+- **No Additional Cost** This integration is provided free of charge for merchants who meet the licensing requirements.
+
+- **Official Adobe Solution** Developed, maintained, and fully supported by Adobe, ensuring stability and alignment with future platform enhancements.
+
+- **Adobe Managed Support Model** Assistance and troubleshooting are handled directly by Adobe, providing peace of mind and streamlined issue resolution.
+
 ## Next steps
 
 Enabling the Commerce integration with Experience Manager Assets is a three step process:
