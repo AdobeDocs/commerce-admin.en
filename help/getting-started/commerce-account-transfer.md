@@ -10,6 +10,10 @@ As business responsibilities change, you might need to transfer the ownership of
 
 The following information describes the process for transferring a Commerce (MAGEID) account. It does not include changes for Cloud account (Cloud project or New Relic) ownership. For more information about cloud project access, see [Manage user access](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) in the _Commerce on Cloud Infrastructure Guide_.
 
+>[!IMPORTANT]
+>
+>If the new Account Owner had originally purchased extensions using Shared Access, access to those extensions is lost as soon as the Account Transfer process has been initiated. Before requesting the account transfer, make sure that the new owner retrieves the Order IDs for the purchases from [their Marketplace account](https://commercemarketplace.adobe.com/sales/order/history/) and requests a refund for those extensions from the [Marketplace team](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case). It is not possible to transfer extension purchases to a different account.
+
 ## Identify your transfer type
 
 How you complete this transfer depends on which of the following scenarios describes your situation as the current owner of the account and the new owner (email address) to whom you want to transfer the account:
