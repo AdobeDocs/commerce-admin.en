@@ -6,9 +6,7 @@ exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
 ---
 # Configure Experience Manager Assets
 
-Prepare the AEM as a Cloud Service environment to manage Commerce assets by updating the environment configuration and configuring the Assets metadata to identify and manage Commerce assets.
-
-The integration requires adding a custom `Commerce` namespace and additional [profile metadata](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles) and [schema metadata](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-schemas).
+Set up AEM as a Cloud Service to manage Commerce assets by updating the AEM Assets environment configuration and configuring metadata in the AEM Assets authoring environment.
 
 Adobe provides an AEM project template to add the namespace and metadata schema resources to the AEM Assets as a Cloud Service environment configuration. The template adds:
 
@@ -26,13 +24,10 @@ Adobe provides an AEM project template to add the namespace and metadata schema 
 
 - A [sample tagged and approved Commerce asset](https://github.com/ankumalh/assets-commerce/blob/main/ui.content/src/main/content/jcr_root/content/dam/wknd/en/activities/hiking/equipment_6.jpg/.content.xml) `equipment_6.jpg` to support initial asset synchronization. Only approved Commerce assets can be synchronized from AEM Assets to Adobe Commerce.
 
-For additional information about the Commerce-Assets AEM project, see the [Readme](https://github.com/ankumalh/assets-commerce).
+>[!NOTE]
+>For additional information about the Commerce-Assets AEM project template, see the [Readme](https://github.com/ankumalh/assets-commerce).
 
-## Customize the AEM Assets environment configuration
-
->[!BEGINSHADEBOX]
-
-**Prerequisites**
+You need the following resources and permissions to use this AEM project to update the environment configuration:
 
 - [Access to the AEM Assets Cloud Manager Program and environments](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/journey/cloud-manager#access-sysadmin-bo) with the Program and Deployment Manager roles.
 
@@ -40,9 +35,7 @@ For additional information about the Commerce-Assets AEM project, see the [Readm
 
 - Understand [AEM project structure](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) and how to deploy custom content packages using Cloud Manager.
 
->[!ENDSHADEBOX]
-
-### Deploy the Commerce-Assets AEM project to the AEM Assets authoring environment
+## Update and deploy the AEM Assets environment configuration
 
 1. From the Cloud Manager, create production and staging environments for your AEM Assets project, if needed.
 
@@ -58,7 +51,8 @@ For additional information about the Commerce-Assets AEM project, see the [Readm
 
 ## Configure a metadata profile
 
-Set default values for Commerce asset metadata by creating a metadata profile. Once set up, apply this profile to AEM Asset folders to automatically use these defaults. This optional setup helps streamline asset processing by reducing manual steps.
+In the AEM Assets authoring environment, set default values for Commerce asset metadata by creating a metadata profile. Then, apply the new profile to 
+AEM Asset folders to automatically use these defaults. This configuration streamlines asset processing by reducing manual steps.
 
 1. From the Adobe Experience Manager workspace, go to the Author Content administration workspace for AEM Assets by clicking the Adobe Experience Manager icon.
 
