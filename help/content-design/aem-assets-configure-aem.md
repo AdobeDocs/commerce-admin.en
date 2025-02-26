@@ -106,4 +106,4 @@ Set default values for Commerce asset metadata by creating a metadata profile. O
 
 After updating the AEM environment, set up Adobe Commerce:
 
-1. [Install and configure the AEM Assets Integration for Commerce](aem-assets-configure-commerce.md)
+1. [Install and configure the AEM Assets Integration for Adobe Commerce](aem-assets-configure-commerce.md)

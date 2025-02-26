@@ -18,7 +18,7 @@ For initial onboarding, use the default *Match by product sku* rule.
 
 ## Prerequisites
 
-- [Configure AEM Experience Manager Assets to manage Commerce assets](aem-assets-configure-aem.md)
+- [Configure AEM Assets to manage Commerce assets](aem-assets-configure-aem.md)
 
 - [Install and configure the AEM Assets Integration for Commerce](aem-assets-configure-commerce.md) to add the extension and generate the required credentials and connections to use the extension.
 
