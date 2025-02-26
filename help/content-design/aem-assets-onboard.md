@@ -11,9 +11,11 @@ Setting up the AEM Assets integration requires administrative access to customiz
 
 - Administrative access to the Adobe Commerce environment and ability to retrieve or generate API keys required for authentication.
 
-## Requirements
+## Requirements to use the integration
 
-Verify that you meet the following requirements:
+To leverage this integration, businesses must meet the following requirements:
+
+- Active licenses for Adobe Commerce, AEM Assets, and [AEM Dynamic Media](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media).
 
 - Adobe Commerce 2.4.5+
 
@@ -23,8 +25,6 @@ Verify that you meet the following requirements:
 - Adobe Experience Manager is provisioned with [Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview)
 
 - The Adobe Commerce user configuring the integration must have access to the [IMS Organization](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255) where the AEM Assets project is provisioned.
-
-- The Adobe Commerce user configuring the integration must have access to [AEM Dynamic Media](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media).
 
 ## Next steps
 
