@@ -16,6 +16,34 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 >
 >See [Product availability](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) for information about versions of the B2B Commerce extension supported for available Adobe Commerce releases.
 
+## B2B 1.5.1
+
+*February 11, 2025*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce versions 2.4.7-p4+ and 2.4.6-p9+ security patch releases.
+Compatible with Adobe Commerce versions 2.4.8-beta1 to 2.4.8-beta2, 2.4.7 to 2.4.7-p3, 2.4.6 to 2.4.9-p8
+
+The B2B v1.5.1 release includes quality improvements and bug fixes.
+
+### Company
+
+![Fixed issue](../assets/fix.svg)<!-- B2B-4422 --> If a customer tries to switch companies on the Quote Details page, the system now redirects the customer to an *Access Denied* page to ensure that a quote created for one company cannot be used to place an order with the prices of another company. Previously, a user could create a quote with the price for one company, and then switch to another company to place an order with different prices.
+
+### Line item discounts
+
+![Fixed issue](../assets/fix.svg)<!-- B2B-2938 --> Improved system efficiency by addressing a performance degradation observed in the quote recalculation scenario. Previously, two new entities were added to every cart line item which caused a noticeable increase in database requests, leading to slower performance.
+
+### Negotiable quote
+
+![Fixed issue](../assets/fix.svg)<!-- B2B-3820 --> The system now maintains the position of UI elements when JavaScript validation is applied to the *[!UICONTROL min/max qty]* fields on the Luma Storefront Quote Template page. Previously, applying JavaScript validation to these fields caused other UI elements on the page to shift.
+
+### Shopping cart
+
+![Fixed issue](../assets/fix.svg)<!-- B2B-4222 --> Introduced a new shopping cart management system designed to streamline the shopping experience for users managing multiple company accounts. The new system associates shopping carts with individual companies rather than the customer account to streamline the shopping experience and improve the workflow by supporting the following capabilities.
+
+- **Company-specific carts:**—Shopping carts are now linked to individual companies to support company-specific pricing and product options.
+- **Seamless switching**—Users can easily switch between different company accounts without affecting the contents of each company's cart.
+- **Contextual Integrity**—All cart details remain within the context of the respective company, providing a consistent and reliable shopping experience.
 
 ## B2B 1.5.0
 
@@ -55,8 +83,7 @@ The B2B v1.5.0 release includes new features, quality improvements, and bug fixe
 ![New](../assets/new.svg) <!--B2B-2747--> **Company scope selector**—Provides ability for company users that are assigned to multiple companies to change companies on the storefront. When the scope is switched, the data updates to show the information based on the new company context. For example, if the new company uses a different shared catalog, the company user sees products, prices, and other information based on the new shared catalog. Content related to orders, quotes, quote templates also updates based on the context of the selected company.
 
 >[!NOTE]
->
->If the company user switches companies with items in the shopping cart, update the cart to reflect product assortment, pricing and promotional discounts based on the new company context.
+>The shopping cart contents reflect items selected by the current customer. If the customer has an active shopping cart and selects a different company, they are prompted to update the cart to reflect the product assortment, pricing, and promotional discounts based on the new company context. Products that are not available in the catalog associated with the new company are removed from the cart. If the product has a different price or availability, the cart updates to reflect the data available in the context of the selected company.<!--B2B-4222-->
 
 ![Fixed issue](../assets/fix.svg)<!--ACP2E-1933--> Company administrators can now add company users from the storefront. Previously, Commerce logged an error when an Admin user tried to add a new user: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
 
@@ -100,6 +127,21 @@ Improvements to quoting capabilities help Buyers and Sellers manage quotes and q
 ### Purchase Orders
 
 ![Fixed issue](../assets/fix.svg) <!--ACP2E-1825-->Purchase orders can no longer be placed by a user associated with the company after the company has been blocked. Previously, a user associated with the company could place purchase orders when the company was blocked.
+
+## B2B v1.4.2-p4
+
+*February 11, 2025*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.7-p4+ and 2.4.6-p9+ security patch releases.
+
+![New](../assets/new.svg) Added compatibility with Adobe Commerce 2.4.7-p4+ and 2.4.6-p9+ security patch releases.
+
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html).
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B version 1.4.2+ is compatible with PHP 8.2. If you upgrade the Commerce instance to version 2.4.7+, ensure that the instance uses PHP version 8.2 to maintain compatibility with the Adobe Commerce B2B release. Additionally, the B2B 1.4.2+ release does not support the [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
+
 
 ## B2B v1.4.2-p3
 
@@ -215,6 +257,16 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 You can fix this issue by adding manual dependencies for the B2B security package by adding manual dependencies for the B2B security package with a [stability tag](https://getcomposer.org/doc/04-schema.md#package-links). For instructions, see the [Adobe Commerce Knowledge Base](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html).
 
+## B2B v1.3.5-p9
+
+*February 11, 2025*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.6-p9+ security patch releases.
+
+![New](../assets/new.svg) Added compatibility with the Adobe Commerce 2.4.6-p9 security patch releases.
+
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html).
+
 ## B2B v1.3.5-p8
 
 *October 8, 2024*
@@ -268,6 +320,16 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 ![Fixed issue](../assets/fix.svg) <!--- ACP2E-2456--> Category queries now return product prices according to store configuration settings when there are no category permissions explicitly set on the category being queried.
 
 ![Fixed issue](../assets/fix.svg) <!--- ACP2E-6829--> The **[!UICONTROL Place Order]** button now works as expected when completing a purchase with an approved quote request. Issues with the negotiable quote `negotiableQuoteCheckoutSessionPlugin` plugin have been resolved.
+
+## B2B v1.3.4-p11
+
+*February 11, 2025*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.0 and newer versions
+
+![New](../assets/new.svg) Added support for Adobe Commerce 2.4.5-p11.
+
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html).
 
 ## B2B v1.3.4-p10
 

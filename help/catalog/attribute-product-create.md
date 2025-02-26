@@ -58,6 +58,10 @@ You can create attributes while working on a product or from the _[!UICONTROL Pr
 
 1. Enter a unique **[!UICONTROL Attribute Code]** in lowercase characters and without spaces.
 
+   >[!NOTE]
+   >
+   >It is not recommended to use  the `type` value in the [!UICONTROL Attribute Code] field. This can cause errors because the `type` value is reserved for system use.
+
    ![Product attribute - advanced properties](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
    The available options depend on the _[!UICONTROL Catalog Input Type for Store Owner]_ setting.
