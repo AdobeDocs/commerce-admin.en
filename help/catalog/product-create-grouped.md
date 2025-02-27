@@ -182,6 +182,8 @@ If you have a different image for each product in the group, you can set the con
 
 - A grouped product is essentially a collection of simple associated products.
 
+- All child products are assigned and unassigned from the grouped product **_globally_** for all websites, stores, and store views at the same time.
+
 - Grouped child products can be simple, downloadable, or virtual products **[!UICONTROL without custom options]**.
 
 - Each item purchased appears individually in the shopping cart, rather than as part of the group.

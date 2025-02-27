@@ -113,7 +113,7 @@ To give someone restricted access to the Admin, the first step is to create a ro
 
 Watch this video to learn about managing user roles:
 
->[!VIDEO](https://video.tv.adobe.com/v/343654?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343654?quality=12&learn=on)
 
 ## Role resources
 
@@ -121,21 +121,21 @@ Access to the following resources can be assigned to a custom role. See the link
 
 ![Adobe Commerce](../assets/adobe-logo.svg) - Adobe Commerce only
 
-![B2B for Adobe Commerce](../assets/b2b.svg) - Available with B2B for Adobe Commerce only
+![Adobe Commerce B2B](../assets/b2b.svg) - Available with Adobe Commerce B2B only
 
 | Resource |   |   |
 | --- | --- | --- |
 |[`Dashboard`](../getting-started/admin-dashboard.md)|||
 |[`Sales`](../stores-purchase/sales-menu.md)|[`Operations`](../stores-purchase/orders.md)||
-||[`Quotes`](../b2b/quotes.md) ![B2B for Adobe Commerce](../assets/b2b.svg) <br/>[`Orders`](../stores-purchase/orders.md)<br/>[`Invoices`](../stores-purchase/invoices.md)<br/>[`Shipments`](../stores-purchase/shipments.md)<br/>[`Credit Memos`](../stores-purchase/credit-memos.md)<br/>[`Billing Agreements`](../stores-purchase/paypal-billing-agreements.md)<br/>[`Returns`](../stores-purchase/returns.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`Transactions`](../stores-purchase/transactions.md)|
+||[`Quotes`](../b2b/quotes.md) ![Adobe Commerce B2B](../assets/b2b.svg) <br/>[`Orders`](../stores-purchase/orders.md)<br/>[`Invoices`](../stores-purchase/invoices.md)<br/>[`Shipments`](../stores-purchase/shipments.md)<br/>[`Credit Memos`](../stores-purchase/credit-memos.md)<br/>[`Billing Agreements`](../stores-purchase/paypal-billing-agreements.md)<br/>[`Returns`](../stores-purchase/returns.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`Transactions`](../stores-purchase/transactions.md)|
 ||[`Archive`](action-log-archive.md)![Adobe Commerce]||
 ||[`Shopping Cart Management`](../stores-purchase/cart.md)||
 |[`Catalog`](../catalog/catalog-menu.md)|[`Category Permissions`](../catalog/categories.md) ![Adobe Commerce](../assets/adobe-logo.svg)||
 ||[`Inventory`](../inventory-management/introduction.md)|[`Products`](../catalog/products-list.md)<br/>[`Categories`](../catalog/categories.md)|
-||[`Shared Catalog`](../b2b/catalog-shared-create.md) ![B2B for Adobe Commerce](../assets/b2b.svg) |[`Manage Shared Catalog`](../b2b/catalog-shared-manage.md)|
+||[`Shared Catalog`](../b2b/catalog-shared-create.md) ![Adobe Commerce B2B](../assets/b2b.svg) |[`Manage Shared Catalog`](../b2b/catalog-shared-manage.md)|
 |[`Customers`](../customers/guide-overview.md) | [`All Customers`](../customers/customers-all.md)<br/>[`Now Online`](../customers/now-online.md)<br/>[`Customer Groups`](../customers/customer-groups.md)<br/>[`Segments`](../customers/customer-segments.md) ![Adobe Commerce](../assets/adobe-logo.svg)||
 ||[`Login as Customer`](../customers/login-as-customer.md)|`Allow Login as Customer Button`<br/>`View Login as Customer Log` ![Adobe Commerce](../assets/adobe-logo.svg)|
-||[`Companies`](../b2b/account-companies.md) ![B2B for Adobe Commerce](../assets/b2b.svg) | [`Manage Companies`](../b2b/account-company-manage.md) <br/>`Add New Company` <br/>`Delete Company` <br/>`Reimburse Balance` |
+||[`Companies`](../b2b/account-companies.md) ![Adobe Commerce B2B](../assets/b2b.svg) | [`Manage Companies`](../b2b/account-company-manage.md) <br/>`Add New Company` <br/>`Delete Company` <br/>`Reimburse Balance` |
 |[`Carts`](../stores-purchase/shopping-assisted-cart-manage.md)|[`Manage carts`](../stores-purchase/shopping-assisted-cart-manage.md)||
 |[`My Account`](../customers/account-dashboard-my-account.md)|||
 |[`Marketing`](../merchandising-promotions/marketing-menu.md)|[`Promotions`](../merchandising-promotions/marketing-menu.md#uicontrol-promotions)|[`Catalog Price Rule`](../merchandising-promotions/price-rules-catalog.md) <br/>[`Cart Price Rules`](../merchandising-promotions/price-rules-cart.md) <br/>[`Related Products Rules`](../merchandising-promotions/product-related-rules.md)![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`Gift Card Accounts`](../stores-purchase/product-gift-card-accounts.md) ![Adobe Commerce](../assets/adobe-logo.svg)|

@@ -55,11 +55,11 @@ Complete the following steps to add a rule, describe the conditions, and define 
 
    >[!NOTE]
    >
-   >The Priority setting is important when two cart rules/coupon codes are valid for the same product at the same time. The rule with the highest Priority setting (`1` being the highest) controls the cart action. See _Discard Subsequent Price Rules_ in the _Define the Actions_ step.
+   >The _[!UICONTROL Priority]_ setting is important when two cart rules or coupon codes are valid for the same product at the same time. The rule with the highest [!UICONTROL Priority] setting controlling the cart action.  Priorities from the highest to the lowest are `0,1,2,3...`. See _Discard Subsequent Price Rules_ in the _[Define the Actions](#step-3-define-the-actions)_ step.
 
    >[!NOTE]
    >
-   >Cart price rules that have the same priority do not result in a combined discount. Each rule is applied to matching products separately, one-by-one.
+   >Cart price rules that have the same priority do not result in a combined discount. Each rule (coupon) is applied to matching products separately, one-by-one, according to the cart price rule ID in the database. To control the order in which discounts are applied, Adobe recommends setting a different priority for each added cart price rule. 
 
 1. To apply the rule to published [RSS feeds](social-rss.md#rss-feeds), set **Public In RSS Feed** to `Yes`.
 
@@ -328,7 +328,7 @@ The label appears in the totals section of the order to identify the discount. T
 
 Watch this video to learn about creating cart price rules:
 
->[!VIDEO](https://video.tv.adobe.com/v/343835?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343835?quality=12&learn=on)
 
 ## Field descriptions
 
@@ -344,7 +344,7 @@ Watch this video to learn about creating cart price rules:
 |[!UICONTROL Coupon]|(Required) Indicates if a coupon is associated with the rule. Options: <br/>**[!UICONTROL No Coupon]** - No coupon is associated with the rule. <br/>**[!UICONTROL Specific Coupon]** - A specific coupon is associated with the rule. <br/>**[!UICONTROL Coupon Code]** - When prompted, enter the Coupon Code that the customer must enter to take advantage of the promotion. <br/>**[!UICONTROL Use Auto Generation]** - Select the checkbox to automatically generate multiple coupon codes that can be used with the promotion. <br/>**[!UICONTROL Auto]** - Displays the _[!UICONTROL Manage Coupon Codes]_ section to define the format of the  coupon codes to be generated.|
 |[!UICONTROL Uses per Coupon]|Determines how many times that the coupon code can be used. If there is no limit, leave the field blank.|
 |[!UICONTROL Uses per Customer]|Determines how many times that the cart price rule can be used by the same registered customer who belongs to any selected customer group. Does not apply to guest shoppers who are members of the NOT LOGGED IN customer group, or to customers who shop without logging in to their accounts. For no limit, leave blank.|
-|[!UICONTROL Priority]|A number that indicates the priority of this rule in relation to others. The highest priority is number `1`.|
+|[!UICONTROL Priority]|A number that indicates the priority of this rule in relation to others. Priorities from the highest to the lowest are `0,1,2,3...`|
 |[!UICONTROL Public in RSS Feed]|Determines if the promotion is included in your store's public RSS feed. Options:  `Yes` / `No`|
 |[!UICONTROL From]|![Magento Open Source](../assets/open-source.svg) (Magento Open Source only) The first date the coupon can be used.|
 |[!UICONTROL To]|![Magento Open Source](../assets/open-source.svg) (Magento Open Source only) The last date the coupon can be used.|
@@ -355,6 +355,31 @@ Watch this video to learn about creating cart price rules:
 
 Specifies the conditions that must be met before the cart price rule goes into action. If left blank, the rule applies to all products in the cart. Conditions can be based on any combination of cart and product attributes. However, [customizable options](../catalog/settings-advanced-custom-options.md) cannot be referenced in cart price rule conditions.
 
+|Field|Description|
+|--- |--- |
+|[!UICONTROL **Cart Item Attribute**]||
+|[!UICONTROL Price in cart]|Product price. The rule applies if the product price in cart condition is met.|
+|[!UICONTROL Quantity in cart]|Product quantity. The rule applies if the product quantity in cart condition is met.|
+|[!UICONTROL Row total in cart]|Product row total. The rule applies if the product row total in cart condition is met.|
+|[!UICONTROL **Product Attribute**]||
+|[!UICONTROL Attribute Set]|Product attribute set. The rule applies if the product meets the product attribute condition.|
+|[!UICONTROL Category/Other attribute]|Product category/other attribute. The rule applies if either the product itself or children meets the category/other attribute condition. The attribute must have [!UICONTROL Use for Promo Rule Conditions] set to `Yes`.|
+|[!UICONTROL Category/Other attribute (Children Only)]|Child product category/other attribute. The rule applies if only the product children meet the category/other attribute condition (the product itself is not checked here). The attribute must have [!UICONTROL Use for Promo Rule Conditions] to `Yes`.|
+|[!UICONTROL Category/Other attribute (Parent Only)]|Parent product category/other attribute. The rule applies if only the product itself meets the category/other attribute condition (children products are not checked here). The attribute must have [!UICONTROL Use for Promo Rule Conditions] set to `Yes`.|
+|[!UICONTROL **Cart Attribute**]||
+|[!UICONTROL Subtotal (Excl. Tax)]|Cart subtotal (excluding tax). The rule applies if the shopping cart meets the subtotal (excluding tax) condition.|
+|[!UICONTROL Subtotal (Incl. Tax)]|Cart subtotal (including tax). The rule applies if the shopping cart meets the subtotal (including tax) condition.|
+|[!UICONTROL Subtotal]|Cart subtotal. The rule applies if the shopping cart meets a subtotal condition. Check includes or excludes tax according to the current tax settings.|
+|[!UICONTROL Total Items Quantity]|Total quantity of all products in the shopping cart. The rule applies if the shopping cart meets a total items quantity condition.|
+|[!UICONTROL Total Weight]|Total weight of all products in the shopping cart. The rule applies if the shopping cart meets the total weight condition.|
+|[!UICONTROL Payment Method]|Payment method selected on checkout. The rule applies if the payment method condition is met.|
+|[!UICONTROL Shipping Method]|Shipping method selected on checkout. The rule applies if the shipping method condition is met.|
+|[!UICONTROL Shipping Postcode]|Shipping address postcode. The rule applies if the shipping address meets the postcode condition.|
+|[!UICONTROL Shipping Region]|Shipping address region. The rule applies if the shipping address meets the region condition.|
+|[!UICONTROL Shipping State/Province]|Shipping address state/province. The rule applies if the shipping address meets the state/province condition.|
+|[!UICONTROL Shipping Country]|Shipping address country. The rule applies if the shipping address meets the country condition.|
+|[!UICONTROL Customer Segment]|The rule applies if a registered or guest customer meets the customer segment condition.|
+
 ### [!UICONTROL Actions]
 
 |Field|Description|
@@ -362,7 +387,7 @@ Specifies the conditions that must be met before the cart price rule goes into a
 |[!UICONTROL Apply]|Determines the type of calculation that is applied to the purchase. Options: <br/>**[!UICONTROL Percent of product price discount]** - Discounts item by subtracting a percentage from the original price. For example: Enter `10` in _[!UICONTROL Discount Amount]_ for an updated price that is 10% less than the original price. <br/>**[!UICONTROL Fixed amount discount]** - Discounts item by subtracting a fixed amount from the original price of each qualifying item in the cart. For example: Enter `10` in _[!UICONTROL Discount Amount]_ for an updated price that is $10 less than the original price. <br/>**[!UICONTROL Fixed amount discount for whole cart]** - Discounts the entire cart by subtracting a fixed amount from the cart subtotal. For example: Enter `10` in _[!UICONTROL Discount Amount]_ to subtract $10 from the cart subtotal. By default, the discount applies only to the cart subtotal. To apply the discount to the subtotal and shipping separately, see _Apply to Shipping Amount_. <br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]** - Defines a  quantity that the customer must purchase to receive a quantity for free. (The _[!UICONTROL Discount Amount]_ is Y.)|
 |[!UICONTROL Discount Amount]|(Required) The amount of discount that is offered.|
 |[!UICONTROL Maximum Qty Discount is Applied To]|Sets the maximum number of products that the discount can be applied to in the same purchase.|
-|[!UICONTROL Discount Qty Step (Buy X)]|Sets the number of products represented by `X` in a `Buy X Get Y Free` promotion.|
+|[!UICONTROL Discount Qty Step (Buy X)]|Sets the number of products represented by `X` in a `Buy X Get Y Free` promotion. Also, defines how many products must be added to the cart together in batches to apply `Fixed amount discount` and `Percent of product price discount` promotions.|
 |[!UICONTROL Apply to Shipping Amount]|Determines if the discount is applied separately to the subtotal and shipping amounts. Otherwise, it is applied only to the subtotal. Options: `Yes` / `No`|
 |[!UICONTROL Discard Subsequent Rules]|Determines if lower priority rules (1 is the highest priority) can be applied to the product when this cart price rule is a match. Enable this option to prevent multiple discounts from being applied to the same product. Options: `Yes` / `No`|
 |[!UICONTROL Free Shipping]| Determines if free shipping is included in the promotion, and if so, for which items. Options: <br/>**[!UICONTROL No]** - Free shipping is not available for the current rule. <br/>**[!UICONTROL For matching items only]** - Free shipping is available only for specific items in the cart that match the rule. <br/>**[!UICONTROL For shipment with matching items]** - Free shipping is available for all items in the cart. The [Free Shipping](../stores-purchase/shipping-free.md) delivery method must be enabled to use this option.|

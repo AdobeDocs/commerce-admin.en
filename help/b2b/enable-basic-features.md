@@ -11,7 +11,7 @@ By default, all B2B features are initially disabled. A store admin can enable or
 
 When you enable support for customer companies, additional B2B features are enabled automatically:
 
-- [!DNL Shared Catalog]
+- [[!DNL Shared Catalog]](catalog-shared.md)
 
   Supports custom pricing configuration for different companies and also enables category permissions for all stores.
 
@@ -19,7 +19,7 @@ When you enable support for customer companies, additional B2B features are enab
 
    Improves site performance by storing only products that are assigned to a shared catalog in the price index. Enabling this feature is a best practice for Merchants that have many shared catalogs to manage custom pricing for different companies.
 
-- [!DNL B2B Quotes]
+- [[!DNL B2B Quotes]](quotes.md)
 
   Gives sellers and company buyers the ability to negotiate prices.
 
@@ -29,9 +29,11 @@ When you enable support for customer companies, additional B2B features are enab
 
 Configuration settings for these features are visible only when [!DNL Enable Company] is set to `Yes`.
 
-B2B [!DNL Quick Order] and [!DNL Requisition List] features can be enabled and disabled independently.
+The B2B [[!DNL Quick Order]](quick-order.md) and [[!DNL Requisition List]](requisition-lists.md) features can be enabled and disabled independently.
 
 ## Configure B2B features
+
+The options to configure Adobe Commerce B2B features are available only on Commerce projects that have the [Adobe Commerce B2B extension installed](install.md).
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -44,6 +46,8 @@ B2B [!DNL Quick Order] and [!DNL Requisition List] features can be enabled and d
    - Allow customers to manage their own company accounts and enable support for additional B2B features by setting **[!UICONTROL Enable Company]**  to `Yes`.
 
      When you enable company support, the Shared Catalog, B2B Quote, B2B Payment Methods, and B2B Shipping Methods are enabled automatically.
+
+     ![B2B configuration - company features](assets/b2b-additional-features.png){width="600"}
 
    - To allow customers and guests to quickly place orders based on SKU or product name, set **[!UICONTROL Enable Quick Order]** to `Yes`.
 
@@ -192,7 +196,7 @@ The ability to track order processing and purchase orders gives company administ
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-   The purchase orders feature is enabled at the website level. To enable this type of order for a company, do the same with the appropriate settings in each [company profile](account-company-manage.md).   
+   The purchase orders feature is enabled at the website level. To enable this type of order for a company, do the same with the appropriate settings in each [company profile](account-company-manage.md).
 
 ## Configure purchase orders
 

@@ -81,3 +81,5 @@ feature: Merchandising, Promotions/Events
   - [Google Tag Manager](google-tag-manager.md)
   - [Google Adwords](google-adwords.md)
   - [Google Content Experiments](google-content-experiments.md)
+- [Return to Merchant Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+

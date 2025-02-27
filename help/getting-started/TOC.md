@@ -10,7 +10,7 @@ recommendations: noDisplay
 # Adobe Commerce Getting Started Guide {#start}
 
 + [Adobe Commerce Getting Started Guide](guide-overview.md)
-+ [Release information](about-this-release.md)
++ [What is Adobe Commerce?](about.md)
 + [Login credentials and URLs](login-urls.md)
 + Commerce accounts {#commerce-account}
   + [Create and access your account](commerce-account-create.md)
@@ -18,7 +18,9 @@ recommendations: noDisplay
   + [Share your account](commerce-account-share.md)
   + [Transfer an account](commerce-account-transfer.md)
 + Site compliance {#compliance}
-  + [HIPAA readiness on Adobe Commerce](hipaa-ready-service.md)
+  + HIPAA readiness on Adobe Commerce{#hipaa-ready-service}
+    + [Overview](hipaa/overview.md)
+    + [Operational guidance](hipaa/operations.md)
   + Privacy {#privacy}
     + [Store privacy policy](privacy-policy.md)
     + [CCPA compliance](compliance-ccpa.md)
@@ -69,3 +71,5 @@ recommendations: noDisplay
   + [Ecosystem](resources.md)
   + [Extensions](extensions.md)
   + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
++ [Return to Merchant Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+

@@ -14,6 +14,10 @@ Depending on their role, and the order, company users could be subjected to seve
 
 ![Purchase order flow](./assets/purchase-order-flow.png){width="600" zoomable="yes"}
 
+>[!NOTE]
+>
+>An order cannot be placed if one or more products in the purchase order are currently disabled or out of stock.
+
 The purchase order workflow for a company can vary in a few ways:
 
 - If no approval rules are set, purchase orders can be placed and the order completed directly.
@@ -23,6 +27,7 @@ The purchase order workflow for a company can vary in a few ways:
    >By default, a `Purchase order has been submitted for approval` message is always displayed to company users, even when no approval rules are set. When no approval process is required, company users automatically receive an email informing them that the order was created and approved.
    
 - If approval rules are defined by the company administrator, users go through the approval process.
+- If multiple approval rules apply to a purchase order, then all unique required approvers must approve it.
 - Offline payment details are entered when creating the purchase order.
 - Online payment details are entered after the purchase order is approved.
 
@@ -47,7 +52,7 @@ Approval rules are used to control spending based on company guidelines. Example
 - Any order over $1000 needs the approval of your manager and the company administrator.
 - Any order with more than 30 unique SKUs needs the approval of the company administrator.
 
-With these rules in place for a company, a company user can complete the order immediately when the order is less than $100. To learn approval rule definition, see [Approval Rules](account-dashboard-approval-rules.md)
+With these rules in place for a company, a company user can complete the order immediately when the order is less than $100. To learn approval rule definition, see [Approval Rules](account-dashboard-approval-rules.md).
 
 ### Types of store users
 

@@ -9,7 +9,7 @@ feature: Admin Workspace, Roles/Permissions, User Account, Security
 
 When your store is first installed, a default Admin account is created with login credentials that gives you full administrative access. As a best practice, you should create another user account with full Administrator access. That way, you can use one account for your everyday Administrative activities and reserve the other as a "Super Admin" account. This can be helpful if you forget your regular credentials, or they somehow become unusable.
 
-If there are others on your team or service providers who need access, you can create a separate user account for each and assign restricted access based on their business need to know. To limit the websites or stores that users can access in the Admin, you must first [create a role](permissions-user-roles.md) with limited scope and only the necessary resources selected. Then, you can assign the role to a specific user account. Admin users who are assigned to a restricted role can see and change data only for websites or stores that are associated with the role, but cannot change any global settings or data.
+If other team members or service providers need access, you can create individual user accounts for them and assign restricted access based on their specific business needs. To limit the websites or stores that users can access in the Admin, you must first [create a role](permissions-user-roles.md) with limited scope and only the necessary resources selected. Then, you can assign the role to a specific user account. Admin users who are assigned to a restricted role can see and change data only for websites or stores that are associated with the role, but cannot change any global settings or data.
 
 >[!NOTE]
 >

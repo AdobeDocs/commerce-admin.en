@@ -6,7 +6,11 @@ feature: B2B, Companies, Configuration
 ---
 # Company accounts
 
-When you incorporate B2B company accounts in your store, you can simplify the corporate shopping experience by enabling companies to create multiple subaccounts with flexible permissions based on user roles in their organization. Depending on the company, a store administrator can adjust promotions and prices to suit their needs, and create highly customized offers that cater to the shoppers' demands and increase orders. Adding a company account association to a standard [individual](../customers/account-create.md) allows the customer to use the specific purchasing workflows defined for the company.
+When you incorporate B2B company accounts in your store, you can simplify the corporate shopping experience by enabling companies to create multiple subaccounts with flexible permissions based on user roles in their organization.
+
+Depending on the company, a store administrator can adjust promotions and prices to suit their needs, and create highly customized offers that cater to the shoppers' demands and increase orders.
+
+Adding a company account association to a standard [individual](../customers/account-create.md) allows the customer to use the specific purchasing workflows defined for the company.
 
 Advantages of a company account:
 
@@ -16,7 +20,7 @@ Advantages of a company account:
 
 - Provides a mechanism for merchants to increase income by offering [company store credit](credit-company.md) as a payment method.
 
-- Supports the [management](account-company-manage.md) of all company accounts in the Admin.
+- Supports the [management](account-company-manage.md) of all company accounts from the Admin.
 
 ## View company accounts
 
@@ -28,15 +32,15 @@ In the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Compani
 
 ![Companies Grid](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-The [!UICONTROL Companies] grid lists all companies regardless of status. The displayed example shows accounts for two companies: the "ACME" company and the "Vandelay" company.
+The [!UICONTROL Companies] grid lists all companies regardless of status. The company listing indicates whether a company is associated with a [company hierarchy](manage-company-hierarchy.md), and provides [detailed information](/help/b2b/account-company-manage.md#company-options-and-columns) about the company, the company admin, and other information. Customize the view by using the [Admin grid controls](../getting-started/admin-grid-controls.md) to set filters, column view options, and more.
 
 ## Company administrator
 
-The following example shows the _Customers_ grid with the initial company administrator accounts.
+The following example shows the _Customers_ grid with initial company administrator accounts.
 
 ![Customers grid with company administrator account](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
-It is possible that the person who serves as company administrator has multiple roles within the company. If a separate email address is entered for the company administrator, the initial company structure includes the company administrator plus an individual user account in the name of the company administrator. In such a case, the company administrator can sign in to the account as the company or as an individual user.
+Each company has a single company administrator identified by the account email address and the first and last name of the administrator. The administrator can be assigned to other companies as a user, but they can be an administrator for only one company.
 
 After creating the account, the company administrator defines the company structure of [teams](account-company-structure.md), sets up the [company users](account-company-users.md), and establishes [roles and permissions](account-company-roles-permissions.md) for each.
 
@@ -52,7 +56,7 @@ After creating the account, the company administrator defines the company struct
 
 1. Follows the instructions and clicks [!UICONTROL **link**] to set their password.
 
-1. Enters a [!UICONTROL **New Password**] for their account and again to confirm.
+1. Enters a [!UICONTROL **New Password**] and password confirmation for their account.
 
    The password must include at least three of the following character types:
 

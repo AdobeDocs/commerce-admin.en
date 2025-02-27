@@ -37,8 +37,8 @@ Magento Open Source is the code base that Adobe officially contributes to and en
   </tr>
 <tr>
   <td valign="top">
-      <img alt="B2B for Adobe Commerce" src="./assets/icon-building.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html"><strong>B2B for Adobe Commerce</strong></a>
+      <img alt="Adobe Commerce B2B" src="./assets/icon-building.svg" width="40" height="40"/></td>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html"><strong>Adobe Commerce B2B</strong></a>
     <div><em>This feature set is designed to meet the needs of sellers (merchants) whose customers are primarily companies—possibly with complex organizational structures and multiple staff members with various roles and levels of buying permission.</em>
     <br></div>
   </td>
@@ -117,8 +117,8 @@ Magento Open Source is the code base that Adobe officially contributes to and en
 
 | Description | Type | Date |
 | ----------- | ---- | ---- |
-| **1.4.0 B2B release** - The B2B for Adobe Commerce release notes describe changes and additions for the [1.4.0 release](../b2b/release-notes.md#b2b-v140). | Update | 06/13/23 |
-| **1.4.0 B2B release** - The [Initiate quote for a buyer](../b2b/sales-rep-initiates-quote.md) topic is now included in the _B2B for Adobe Commerce Guide_. It describes how a seller can create a quote for a specific buyer to start the negotiation process. | New | 06/13/23 |
+| **1.4.0 B2B release** - The Adobe Commerce B2B release notes describe changes and additions for the [1.4.0 release](../b2b/release-notes.md#b2b-v140). | Update | 06/13/23 |
+| **1.4.0 B2B release** - The [Initiate quote for a buyer](../b2b/sales-rep-initiates-quote.md) topic is now included in the _Adobe Commerce B2B Guide_. It describes how a seller can create a quote for a specific buyer to start the negotiation process. | New | 06/13/23 |
 | **1.4.0 B2B release** - The [Negotiate a quote](../b2b/quote-price-negotiation.md), [Negotiable Quotes](../b2b/quotes.md), and [Enable B2B features](../b2b/enable-basic-features.md) topics are updated to reflect changes for seller-initiated quotes and default features. | Update | 06/13/23 |
 | **2.2.0 Adobe IMS integration release** - The [Disable the Commerce Admin Integration with Adobe ID](../getting-started/adobe-ims-disable.md) topic is now included in the _Getting Started Guide_. It describes an optional procedure for disabling the Adobe Commerce Admin integration with Adobe IMS. | New | 06/13/23 |
 | **2.2.0 Adobe IMS integration release** - Changes in the [Adobe Identity Management Service (IMS) integration overview](../getting-started/adobe-ims-integration-overview.md) and [Configure the Commerce Admin Integration with Adobe ID](../getting-started/adobe-ims-config.md) topics to reflect updated functionality. | Update | 06/13/23 |
@@ -135,7 +135,3 @@ Magento Open Source is the code base that Adobe officially contributes to and en
 | **New topic** - Added the [Transfer a Commerce account](../getting-started/commerce-account-transfer.md) topic to the _Getting Started Guide_. | New | 02/27/23 |
 
 {style="table-layout:auto"}
-
-## 2.3.x documentation
-
-The [Adobe Commerce 2.3 User Guide](https://docs.magento.com/user-guide/v2.3/) remains available on the `docs.magento.com` domain for Adobe Commerce 2.3 customers who are on an extended support contract.

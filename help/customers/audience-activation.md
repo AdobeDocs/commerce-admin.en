@@ -44,6 +44,38 @@ _May 30, 2023_
 
 +++
 
+### 2.3.1
+
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
+
+_November 12, 2024_
+
+![Fix](../assets/fix.svg) - Fixed an issue when filtering the available Real-Time CDP audiences to choose from.
+
+### 2.3.0
+
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
+
+_July 29, 2024_
+
+![New](../assets/new.svg) - Added command-line syntax so you can [test credentials](#validate-the-connection) to determine if they need to be updated to pull audience data from Adobe Experience Platform.
+
+### 2.2.0
+
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
+
+_June 12, 2024_
+
+![New](../assets/new.svg) - GA release for [related product rules](../merchandising-promotions/product-related-rule-create.md) informed by audiences.
+
+### 2.1.1
+
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
+
+_April 4, 2024_
+
+![New](../assets/new.svg) - Added support for PHP 8.3.
+
 ### 2.2.0-beta1
 
 [!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
@@ -158,7 +190,11 @@ With the [!DNL Audience Activation] extension enabled, you can:
 
 - [Create a cart price rule](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) informed by audiences
 - [Create a dynamic block](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) informed by audiences
-- [(**Beta**) Create a related product rule](../merchandising-promotions/product-related-rule-create.md) informed by audiences
+- [Create a related product rule](../merchandising-promotions/product-related-rule-create.md) informed by audiences
+
+>[!TIP]
+>
+>For a complete end-to-end use case about how to export [!DNL Commerce] data to Real-Time CDP, build an audience, then activate that audience to [!DNL Commerce], see [Create an audience in Real-Time CDP using [!DNL Commerce] event data](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
 
 ## Real-Time CDP audiences dashboard
 
@@ -179,6 +215,7 @@ The dashboard contains the following fields:
 |`Websites`|Indicates which websites are configured to use the audiences.|
 |`Dynamic Blocks`|Indicates which dynamic blocks are configured to use the audiences.|
 |`Cart Price Rules`|Indicates which cart price rules are configured to use the audiences.|
+|`Related Product Rules`|Indicates which related product rules are configured to use the audiences.|
 |`Last updated`|Indicates when the audience was modified in Real-Time CDP.|
 |`Sync now`|Retrieves new or updated audiences from Real-Time CDP.|
 |`Customize table`| Lets you show or hide the `Origin`, `Websites`, `Dynamic Blocks`, `Cart Price Rules`, and `Last updated` columns.|
@@ -289,7 +326,10 @@ Learn more about the `dynamicBlocks` GraphQL query in the [developer documentati
 
 ## Retrieve audiences using the Adobe Experience Platform Mobile SDK
 
-Before you can retrieve Real-Time CDP audiences using the Adobe Experience Platform Mobile SDK, you must [install and configure the SDK for your mobile Commerce site](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
+You can retrieve Real-Time CDP audiences using the Adobe Experience Platform Mobile SDK.
+
+1. [Install](#install-the-extension) the Audience Activation extension.
+1. [install and configure the SDK for your mobile Commerce site](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
 
 >[!IMPORTANT]
 >
@@ -329,10 +369,34 @@ After data is retrieved, you can use it to create audience-informed [cart price 
 
 If Real-Time CDP audiences are not being displayed in Commerce, it could be due to:
 
+- Invalid connection
 - Incorrect authentication type selected in the **Data Connection** configuration page
 - Insufficient privileges on generated token
 
-The following two sections describe how to troubleshoot either case.
+The following sections describe how to troubleshoot these issues.
+
+### Validate the connection
+
+To validate the credentials and the response from Adobe Experience Platform, run the following command:
+
+```bash
+bin/magento audiences:config:status
+```
+
+This command returns the connection status. Add the `-v` flag to provide extra verbosity:
+
+```
+./bin/magento audiences:config:status -v  
+```
+
+For example:
+
+```
++----------------------------------+---------------+---------------------------------------------+---------------------------------------------------------+--------------+
+| Client ID                        | Client secret | Technical account ID                        | Technical account email                                 | Sandbox name |
++----------------------------------+---------------+---------------------------------------------+---------------------------------------------------------+--------------+
+| 1234bd57fac8497d8933327c535347d8 | *****         | 12341E116638D6B00A495C80@techacct.adobe.com | 12345-b95b-4894-a41c-a4130d26bd80@techacct.adobe.com | dev          |
+```
 
 ### Incorrect authentication type selected in configuration
 
@@ -351,7 +415,7 @@ This issue can be caused by insufficient API privileges for the generated token.
 1. Have the systems administrator launch Adobe Experience Platform and go to **[!UICONTROL Permissions]** -> **[!UICONTROL Users]** -> **[!UICONTROL API credentials]**.
 1. Using the technical account email from above, search for the credentials to modify.
 1. Open the credentials, then select **[!UICONTROL Roles]** -> **[!UICONTROL Add roles]**.
-1. Add **Production all access**.
+1. Add the role that contains **[!UICONTROL Manage destinations]** permission.
 1. Click **[!UICONTROL Save]**.
 1. [Regenerate](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#generate-access-token) the access token in Console.
 1. Verify that token provides a valid response using the [Target Connections API](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/getTargetConnections).

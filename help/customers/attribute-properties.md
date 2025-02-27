@@ -165,4 +165,4 @@ Customer attributes provide the information that is required to support the orde
 
 For a demonstration of creating customer attributes, watch this video:
 
->[!VIDEO](https://video.tv.adobe.com/v/343661?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343661?quality=12&learn=on)

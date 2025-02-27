@@ -11,6 +11,7 @@ feature: Customers
 + Customer management tools {#customers-menu}
   + [Customers list](customers-all.md)
   + [Now online](now-online.md)
+  + [Personalization at scale](personalize-scale.md)
 + Customer accounts {#customer-accounts}
   + [Account scope](customer-account-scope.md)
   + Account options {#configure}
@@ -48,3 +49,5 @@ feature: Customers
   + [Create and delete customer segments](customer-segment-create.md)
   + [Customer segments in price rules](customer-segment-price-rule.md)
   + [Customer segment report](customer-segment-reports.md)
++ [Return to Merchant Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+

@@ -8,13 +8,11 @@ feature: Configuration, Orders
 
 {{config}}
 
-{{beta-updates}}
-
 ## [!UICONTROL General]
 
 ![General](./assets/sales-general.png)<!-- zoom -->
 
-<!-- [General](https://docs.magento.com/user-guide/marketing/sales-documents-ref-id.html) -->
+<!-- [General](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -26,7 +24,7 @@ feature: Configuration, Orders
 
 ![Checkout Totals Sort Order](./assets/sales-checkout-totals-sort-order.png)<!-- zoom -->
 
-<!-- [Checkout Totals Sort Order](https://docs.magento.com/user-guide/sales/checkout-totals-sort-order.html) -->
+<!-- [Checkout Totals Sort Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-totals-sort-order) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -43,7 +41,7 @@ feature: Configuration, Orders
 
 ![Reorder](./assets/sales-reorder.png)<!-- zoom -->
 
-<!-- [Reorder](https://docs.magento.com/user-guide/sales/reorders-allow.html) -->
+<!-- [Reorder](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/reorders-allow) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -63,7 +61,7 @@ feature: Configuration, Orders
 
 ![Invoice and Packing Slip Design](./assets/sales-invoice-packing-slip-design.png)<!-- zoom -->
 
-<!-- [Invoice and Packing Slip Design](https://docs.magento.com/user-guide/marketing/sales-document-pdf-logo.html) -->
+<!-- [Invoice and Packing Slip Design](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -77,7 +75,7 @@ feature: Configuration, Orders
 
 ![Minimum Order Amount](./assets/sales-minimum-order-amount.png)<!-- zoom -->
 
-<!-- [Minimum Order Amount](https://docs.magento.com/user-guide/sales/cart-minimum-order-amount.html) -->
+<!-- [Minimum Order Amount](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#minimum-order-amount) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -97,7 +95,7 @@ feature: Configuration, Orders
 
 ![Dashboard](./assets/sales-dashboard.png)<!-- zoom -->
 
-<!-- [Dashboard](https://docs.magento.com/user-guide/stores/admin-dashboard.html) -->
+<!-- [Dashboard](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/tools/admin-dashboard) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -109,7 +107,7 @@ feature: Configuration, Orders
 
 ![Orders Cron Settings](./assets/sales-orders-cron-settings.png)<!-- zoom -->
 
-<!-- [Orders Cron Settings](https://docs.magento.com/user-guide/system/cron.html) -->
+<!-- [Orders Cron Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cron) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -121,7 +119,7 @@ feature: Configuration, Orders
 
 ![Gift Options](./assets/sales-gift-options.png)<!-- zoom -->
 
-<!-- [Gift Options](https://docs.magento.com/user-guide/sales/gift-options.html) -->
+<!-- [Gift Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#gift-options) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -139,7 +137,7 @@ feature: Configuration, Orders
 
 ![Minimum Advertised Price](./assets/sales-minimum-advertised-price.png)<!-- zoom -->
 
-<!-- [Minimum Advertised Price](https://docs.magento.com/user-guide/catalog/product-price-minimum-advertised.html) -->
+<!-- [Minimum Advertised Price](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/product-price-minimum-advertised) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -151,13 +149,25 @@ feature: Configuration, Orders
 
 {style="table-layout:auto"}
 
+## [!UICONTROL Multicoupon Settings]
+
+{{ee-feature}}
+
+![Multicoupon Settings](./assets/sales-multicoupon-settings.png)<!-- zoom -->
+
+|Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
+|--- |--- |--- |
+|[!UICONTROL Maximum number of coupons per order]|Website|Determines the maximum number of coupons allowed per order. This feature is available in Admin, GraphQL and REST API only. And it is **_not available_** in Storefront.|
+
+{style="table-layout:auto"}
+
 ## [!UICONTROL Order by SKU Settings]
 
 {{ee-feature}}
 
 ![Order by SKU Settings](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
 
-<!-- [Order by SKU Settings](https://docs.magento.com/user-guide/customers/account-dashboard-order-by-sku.html) -->
+<!-- [Order by SKU Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/order-by-sku) -->
 
 ![Order by SKU Settings for Customer Group](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
 
@@ -172,12 +182,25 @@ feature: Configuration, Orders
 
 ![Instant Purchase](./assets/sales-instant-purchase.png)<!-- zoom -->
 
-<!-- [Instant Purchase](https://docs.magento.com/user-guide/sales/checkout-instant-purchase.html) -->
+<!-- [Instant Purchase](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout-instant-purchase) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |[!UICONTROL Enabled]|Store View|Enables Instant Purchase for the store view, if the payment method, such as Braintree, has vault enabled. Options: `Yes` / `No`|
 |[!UICONTROL Button Text]|Store View|Specifies the text that appears on the Instant Purchase button. The default text is `Instant Purchase`.|
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Rate Limiting]
+
+![Rate Limiting](assets/sales-rate-limiting.png)<!-- zoom -->
+
+| Field                                                  |[Scope](../../getting-started/websites-stores-views.md#scope-settings)| Description                                                                                                                                                                        |
+|--------------------------------------------------------|--- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Enable rate limiting for placing orders]   |Store View| Determines if rate limiting is used for placing orders from the store view (default is `No`). Options: `Yes` / `No`.                                                                                 |
+| [!UICONTROL Requests limit per authenticated customer] |Store View| The number of purchase requests that an authenticated customer can make during the period. The default limit is `10`.                                                              |
+| [!UICONTROL Requests limit per guest]                  |Store View| The number of purchase requests that an unauthenticated customer can make during the specified period. The default value is `50`.                                                                 |
+| [!UICONTROL Counter resets in a ...]                   |Store View| The time period during which an authenticated/unauthenticated customer can make a certain number of purchase requests (default is `Minute`). Options: `Minute` / `Hour` /`Day` |
 
 {style="table-layout:auto"}
 

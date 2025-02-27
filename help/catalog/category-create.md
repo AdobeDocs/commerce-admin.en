@@ -80,9 +80,11 @@ Also define any associated keywords and attributes, such as:
 
    - To use images from the Media Storage, click **[!UICONTROL Select from Gallery]** and select the image you want to represent the category.
 
+   Inside the Media Gallery, you can also use the [Adobe Stock Integration](../content-design/adobe-stock.md) to find an appropriate image by clicking **[!UICONTROL Search Adobe Stock]**.
+
    >[!NOTE]
    >
-   >Inside the Media Gallery, you can also use the [Adobe Stock Integration](../content-design/adobe-stock.md) to find an appropriate image by clicking **[!UICONTROL Search Adobe Stock]**.
+   > If you have AEM Assets enabled, see [Manage categories](../content-design/aem-assets-manage.md) for more information.
 
 1. For **[!UICONTROL Description]**, enter the text or other content that you want to appear on the category landing page.
 
@@ -90,7 +92,7 @@ Also define any associated keywords and attributes, such as:
 
 1. To include a content block on the category landing page, choose the **[!UICONTROL CMS Block]** that you want to appear.
 
-1. click **[!UICONTROL Save]** and continue.
+1. Click **[!UICONTROL Save]** and continue.
 
 ## Step 4: Complete the display settings
 
@@ -108,7 +110,7 @@ Also define any associated keywords and attributes, such as:
 
 1. If you want the category page to include the _`Filter by Attribute`_ section of layered navigation, set **[!UICONTROL Anchor]** to `Yes`.
 
-1. For the **[!UICONTROL Available Product Listing Sort By]** options, select one or more of the available values to be available for customers to sort the list.
+1. For the **[!UICONTROL Available Product Listing Sort By]** options, select one or more of the available values to be available for customers to sort the list. This setting does not apply to the [!DNL Live Search] [Product Listing Page Widget](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
 
    By default, all available values are included. Deselect the **[!UICONTROL Use All]** checkbox to change the selections. For example, the values might include:
 
@@ -116,7 +118,7 @@ Also define any associated keywords and attributes, such as:
    - `Product Name`
    - `Price`
 
-1. To set the default sort order for the category, choose the **[!UICONTROL Default Product Listing Sort By]** value.
+1. To set the default sort order for the category, choose the **[!UICONTROL Default Product Listing Sort By]** value. This setting does not apply to the [!DNL Live Search] [Product Listing Page Widget](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
 
 1. To change the default layered navigation [price step](navigation-layered.md#configure-price-navigation) setting, do the following:
 
@@ -168,7 +170,7 @@ Also define any associated keywords and attributes, such as:
 
 1. Choose the **[!UICONTROL Customer Group]** where the category permissions apply.
 
-   ![B2B for Adobe Commerce](../assets/b2b.svg) ([B2B for Adobe Commerce](../b2b/introduction.md) only) If needed, you can choose a **[!UICONTROL Shared Catalog]** instead.
+   ![Adobe Commerce B2B](../assets/b2b.svg) ([Adobe Commerce B2B](../b2b/introduction.md) only) If needed, you can choose a **[!UICONTROL Shared Catalog]** instead.
 
 1. Set the following permissions as needed:
 
@@ -186,7 +188,7 @@ Also define any associated keywords and attributes, such as:
 
 1. Set the design settings as needed:
 
-   - ([B2B for Adobe Commerce](../b2b/introduction.md) only) To apply the parent category design settings to this category, set **[!UICONTROL Use Parent Category Settings]** to `Yes`.
+   - ([Adobe Commerce B2B](../b2b/introduction.md) only) To apply the parent category design settings to this category, set **[!UICONTROL Use Parent Category Settings]** to `Yes`.
 
    - To change the design of the category pages, choose the **[!UICONTROL Theme]** that you want to apply.
 

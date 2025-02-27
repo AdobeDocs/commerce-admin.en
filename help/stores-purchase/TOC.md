@@ -65,6 +65,7 @@ recommendations: noDisplay
   + [Compare products](product-compare.md)
   + [Recently viewed or compared](products-viewed-compared.md)
   + [Allow reorders](reorders-allow.md)
+  + [Allow cancel order](cancel-allow.md)
 + Payments {#payments}
   + [Overview](payments.md)
   + PayPal payment solutions {#paypal}
@@ -124,3 +125,5 @@ recommendations: noDisplay
     + [Shipping label overview](shipping-labels.md)
     + [Configure shipping labels](shipping-label-configure.md)
     + [Create shipping labels](shipping-label-create.md)
++ [Return to Merchant Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+

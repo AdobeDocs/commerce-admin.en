@@ -22,7 +22,7 @@ This integration supports Commerce merchants with Admin users who have an Adobe 
 The administrator who configures this integration needs the following credentials during module enablement:
 
 * Organization ID (obtained from [Adobe Admin Console](https://adminconsole.adobe.com/)), which must be at least 24 characters in length. The authenticated user must belong to this IMS organization. For information about finding your organization ID, see [Organizations in Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
-* 2FA should be enforced on the Organization level in Adobe Admin Console to enable the module. Check [Authentication settings](https://helpx.adobe.com/enterprise/using/authentication-settings.html#two-step-verification).
+* 2FA should be enforced on the Organization level in Adobe Admin Console to enable the module. Check [Authentication setings](https://helpx.adobe.com/enterprise/using/authentication-settings.html#two-step-verification).
 * Client ID
 * Client secret
 * Client ID and client secret are available after retrieving API keys from the [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/credentials/).
@@ -55,8 +55,8 @@ To create projects for an organization, the Adobe Admin account for the organiza
 1. Click **[!UICONTROL Add API]** on the newly created Project page.
 1. Select **[!UICONTROL Adobe Services]** > **[!UICONTROL Adobe Commerce with Adobe ID]**.
 1. Select **[!UICONTROL Oauth 2.0 Web]**.
-1. Specify the **[!UICONTROL Redirect URI]**: `https://<hostname>/`
-1. Specify the **[!UICONTROL Redirect URI pattern]**: `https://<hostname>/.*`
+1. Specify the **[!UICONTROL Redirect URI]**: `https://<hostname>/admin/adobe_ims_auth/oauth/imscallback/`
+1. Specify the **[!UICONTROL Redirect URI pattern]**: `https://<hostname>/admin/adobe_ims_auth/oauth/imscallback/`
 
    Escape any dots in the hostname by preceding the dots with `\\`. Adding a wildcard to the end of the URL supports the Adobe Commerce Admin secret key.
 

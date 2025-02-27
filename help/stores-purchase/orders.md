@@ -125,7 +125,7 @@ Additional columns available:
 |[!UICONTROL Payment Method]|The method of payment to be used for the order.|
 |[!UICONTROL Total Refunded]|Any amount from the order that is to be refunded to the customer.|
 |[!UICONTROL Refunded to Store Credit]|![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Any amount from the order that is to be refunded to the customer's store credit.|
-|[!UICONTROL Company Name]|![B2B for Adobe Commerce](../assets/b2b.svg) (Available with B2B for Adobe Commerce) The name of the [company](../b2b/account-companies.md) who placed the order.|
+|[!UICONTROL Company Name]|![Adobe Commerce B2B](../assets/b2b.svg) (Available with Adobe Commerce B2B) The name of the [company](../b2b/account-companies.md) who placed the order.|
 
 {style="table-layout:auto"}
 
@@ -182,7 +182,4 @@ The Search box in the upper left of the Orders grid can be used to find specific
 For help with troubleshooting order issues, see the following Commerce Support Knowledge Base articles:
 
 - [Orders display error](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html)
-- [PayPal duplicate orders 10415 error](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-6/mdva-31006-magento-patch-paypal-duplicate-orders-10415-error.html)
-- [New orders are sent to archive](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/new-orders-are-sent-to-archive.html)
 - [Orders not displayed in the Orders grid in the Admin](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.html)
-- [Order status - incorrect shipment created via REST API](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-7/mdva-30972-magento-patch-order-status-incorrect-shipment-created-via-rest-api.html)

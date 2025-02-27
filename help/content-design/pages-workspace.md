@@ -62,7 +62,7 @@ The page workspace includes tools to help you quickly find the pages you need, a
 
 |Column|Description|
 |--- |--- |
-|[!UICONTROL Custom design from/to]|Specifies the start and end date when the selected design is applied to the product page|
+|[!UICONTROL Custom design from/to]|Specifies the start and end date when the selected design is applied to the page. ![Magento Open Source](../assets/open-source.svg) (Magento Open Source only).|
 |[!UICONTROL Custom Theme]|Applies a custom theme to the page|
 |[!UICONTROL Custom Layout]|Determines the custom layout of the page|
 |[!UICONTROL Meta Title]|Meta title for the page|
@@ -105,7 +105,7 @@ The Search box in the upper left of the _[!UICONTROL Pages]_ grid can be used to
 |[!UICONTROL Store View]|Filter the search based on store view. Options: `All available` / `Store Views`|
 |[!UICONTROL Layout]|Filter the search based on page layout. Options: `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty`|
 |[!UICONTROL Status]|Filter the search on the page status. Options: `Disabled` / `Published`|
-|[!UICONTROL Custom design from / to]|Filter the search by the start and end date when the selected design is applied to the product page|
+|[!UICONTROL Custom design from / to]|Filter the search by the start and end date when the selected design is applied to the page. ![Magento Open Source](../assets/open-source.svg) (Magento Open Source only).|
 |[!UICONTROL Asset]|Filter the search by the page title assets|
 |[!UICONTROL Custom Layout]|Filter the search based on a custom layout. Options: `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` / `Page -- Full Width` / `Category -- Full Width` / `Product -- Full Width`|
 |[!UICONTROL Custom Theme]|Filter the search based on a custom theme. Default options: `Magento Blank` / `Magento Luma`|
@@ -194,14 +194,21 @@ Click the _View_ (![Eye icon](../assets/icon-view-eye.png)) control and do one o
 
 Page changes can be applied on schedule, and grouped with other content changes. You can create a campaign based on scheduled changes to a page, or apply the changes to an existing campaign. For more information, see [Content Staging](content-staging.md).
 
+When configuring schedules for page changes and editing campaigns, keep the following in mind:
+
+- All scheduled updates are applied consecutively, which means that any entity can have only one scheduled update at one point. Any scheduled update is applied to all store views within its time frame. As a result, an entity cannot have a different scheduled update for different store views at the same time. All entity attribute values within all store views, which are not affected by the current scheduled update, are taken from the default values, and not from the previous scheduled update.
+
+- If a campaign is linked to more than one page, the campaign can be edited only from the [Content Staging Dashboard](content-staging-dashboard.md).
+
+- If an active campaign is initially created without an end date, the campaign cannot be edited later to include an end date. In such a case, it is necessary to create a duplicate campaign and enter the end date that is needed.
+
+- Campaign Start Date and End Date must be defined by using the **_default_** Admin time zone, which is converted from the local time zone of each website. Consider an example where you have multiple websites in different time zones, but you want to start a campaign based on a US time zone. In this case, you must schedule a separate update for each local time zone, and set **[!UICONTROL Start Date]** and **[!UICONTROL End Date]** in converted from each local website time zone to the default Admin time zone.
+
+- You can schedule and preview changes for product updates. For more information, see [Scheduling an Update](content-staging-scheduled-update.md).
+
 >[!NOTE]
 >
->All scheduled updates are applied consecutively, which means that any entity can have only one scheduled update at one point. Any scheduled update is applied to all store views within its time frame. As a result, an entity cannot have a different scheduled update for different store views at the same time. All entity attribute values within all store views, which are not affected by the current scheduled update, are taken from the default values, and not from the previous scheduled update.
+>The [!UICONTROL Custom Design Update] tab has been removed in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce and cannot be modified directly on the page. You must create a scheduled update for these activations.
 
 ![The Home page displays scheduled changes at the top](./assets/page-scheduled-change.png){width="600" zoomable="yes"}
 
->[!NOTE]
->
->Campaign Start Date and End Date must be defined by using the **_default_** Admin time zone, which is converted from the local time zone of each website. Consider an example where you have multiple websites in different time zones, but you want to start a campaign based on a US time zone. In this case, you must schedule a separate update for each local time zone, and set **[!UICONTROL Start Date]** and **[!UICONTROL End Date]** in converted from each local website time zone to the default Admin time zone.
-
-Also, you can schedule and preview changes for product updates. For more information, see [Scheduling an Update](content-staging-scheduled-update.md).

@@ -6,11 +6,11 @@ feature: Page Builder, Page Content, Recommendations
 ---
 # Add Content - Product Recommendations
 
-Use the _Product Recommendations_ content type to add an existing, active [recommendation unit](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/create.html) to the [[!DNL Page Builder] stage](workspace.md#stage) for a CMS page, block, or dynamic block.
+Use the _Product Recommendations_ content type to add an existing, active [recommendation unit](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) to the [[!DNL Page Builder] stage](workspace.md#stage) for a CMS page, block, or dynamic block.
 
 >[!NOTE]
 >
->The [!DNL Page Builder] _Product Recommendations_ content type is supported in Adobe Commerce 2.4.4 and later and available in the [Product Recommendations metapackage versions 3.0.x or later](https://marketplace.magento.com/magento-product-recommendations.html). To add [!DNL Page Builder] support for Product Recommendations, [see the installation information](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html#pbsupport). **This content type is not available for Magento Open Source.**
+>The [!DNL Page Builder] _Product Recommendations_ content type is supported in Adobe Commerce 2.4.4 and later and available in the [Product Recommendations metapackage versions 3.0.x or later](https://commercemarketplace.adobe.com/magento-product-recommendations.html). To add [!DNL Page Builder] support for Product Recommendations, [see the installation information](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure). **This content type is not available for Magento Open Source.**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -31,7 +31,7 @@ Use the _Product Recommendations_ content type to add an existing, active [recom
 
 ## Add an existing recommendation unit
 
-1. Make sure you have already [created a recommendation unit](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/create.html) for the [!DNL Page Builder] page type.
+1. Make sure you have already [created a recommendation unit](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) for the [!DNL Page Builder] page type.
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ Use the _Product Recommendations_ content type to add an existing, active [recom
 1. Do one of the following:
 
    - Click **[!UICONTROL Edit Product Recommendation]**.
-   - Hover over the empty container to display the toolbox and click the _Settings_ (![Settings icon](./assets/pb-icon-settings.png){width="20"} ) icon.
+   - Hover over the empty container to display the toolbox and click the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)) icon.
 
    ![Edit Product Recommendation](./assets/pb-prex-toolbox.png){width="600" zoomable="yes"}
 
@@ -78,7 +78,7 @@ Use the _Product Recommendations_ content type to add an existing, active [recom
 
 ## Edit recommendation unit settings
 
-1. Hover over the recommendation unit container to display the toolbox and click the _Settings_ (![Settings icon](./assets/pb-icon-settings.png){width="20"} ) icon.
+1. Hover over the recommendation unit container to display the toolbox and click the _Settings_ (![Settings icon](./assets/pb-icon-settings.png)) icon.
 
    ![Recommendation Toolbox](./assets/pb-placeholder-toolbox.png){width="600" zoomable="yes"}
 
@@ -88,11 +88,11 @@ Use the _Product Recommendations_ content type to add an existing, active [recom
 
 ## Duplicate a recommendation unit
 
-1. Hover over the recommendation unit container to display the toolbox and click the _Duplicate_ ( ![Duplicate ison](./assets/pb-icon-duplicate.png){width="20"} ) icon in the toolbox.
+1. Hover over the recommendation unit container to display the toolbox and click the _Duplicate_ (![Duplicate icon](./assets/pb-icon-duplicate.png)) icon in the toolbox.
 
    The duplicate appears just below the original.
 
-1. To move the duplicated recommendation unit to a new position, hover over the container and click the _Move_ ( ![Move icon](./assets/pb-icon-move.png){width="20"} ) icon in the toolbox.
+1. To move the duplicated recommendation unit to a new position, hover over the container and click the _Move_ (![Move icon](./assets/pb-icon-move.png)) icon in the toolbox.
 
 1. Select and drag the recommendation unit until the red guideline appears at the new position.
 
@@ -100,7 +100,7 @@ Use the _Product Recommendations_ content type to add an existing, active [recom
 
 ## Remove a recommendation unit from the stage
 
-1. Hover over the recommendation unit container and click the _Remove_ ( ![Remove icon](./assets/pb-icon-remove.png){width="20"} ) icon in the toolbox.
+1. Hover over the recommendation unit container and click the _Remove_ ( ![Remove icon](./assets/pb-icon-remove.png)) icon in the toolbox.
 
 1. When prompted to confirm, click **[!UICONTROL OK]**.
 

@@ -101,6 +101,16 @@ For more information about changing these settings, see [Single-store mode](../.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|[!UICONTROL Enable Single-Store Mode]|Global|When enabled for single-store installations, hides the configuration Scope box and related field labels Options: `Yes` / `No` <br/>**_Note:_** Single-store mode is ignored for stores with more than one view.|
+|[!UICONTROL Enable Single-Store Mode]|Global|When enabled for single-store installations, hides the configuration Scope box and related field labels Options: `Yes` / `No` <br/>**_Note:_** Single-store mode is ignored for stores with more than one view.<br/> Enabling single store mode will copy all catalog and product store specific data from default store view to all store view scope. It will only copy catalog and product data if the store have only one storeview. If store have one disabled storeview and one enabled storeview it won't copy catalog and product data.<br/> Enabling single store mode ignores storeview-specific configuration settings for content-specific data. Instead, it uses configuration settings defined on the global level scope to ensure consistency between the Admin UI and storefront.|
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Data Services]
+
+![General > Data Services](./assets/general-data-services.png)<!-- zoom -->
+
+|Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
+|--- |--- |--- |
+|[!UICONTROL Commerce Events Enabled]|Global|This configuration is turned off by default if you are a healthcare customer and have installed the [Data Services HIPAA](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/hipaa-readiness.html#installation) extension. As a result, storefront event data that is used by Live Search and Product Recommendations is no longer captured. This is because storefront event data is generated client-side. To continue capturing and sending storefront event data for use by the [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) and [Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview) services, set **Commerce Events Enabled** to `Yes`.|
 
 {style="table-layout:auto"}
