@@ -75,7 +75,7 @@ feature: CMS, Page Content
     - [Configure Adobe Commerce ](aem-assets-configure-commerce.md)
     - [Enable asset synchronization](aem-assets-setup-synchronization.md)
   - Manage assets {#manage}
-    - [Use AEM Assets with Adobe Commerce](aem-assets-manage.md)
+    - [Use AEM Assets with Commerce](aem-assets-manage.md)
 - Media {#media}
 - Content staging {#staging}
   - [Overview](content-staging.md)
