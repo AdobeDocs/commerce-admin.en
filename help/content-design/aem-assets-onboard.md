@@ -28,11 +28,11 @@ To leverage this integration, businesses must meet the following requirements:
 
 ## Key benefits
 
-- **No Additional Cost** This integration is provided free of charge for merchants who meet the licensing requirements.
+- **No Additional Cost**—This integration is provided free of charge for merchants who meet the licensing requirements.
 
-- **Official Adobe Solution** Developed, maintained, and fully supported by Adobe, ensuring stability and alignment with future platform enhancements.
+- **Official Adobe Solution**—Developed, maintained, and fully supported by Adobe, ensuring stability and alignment with future platform enhancements.
 
-- **Adobe Managed Support Model** Assistance and troubleshooting are handled directly by Adobe, providing peace of mind and streamlined issue resolution.
+- **Adobe Managed Support Model**—Assistance and troubleshooting are handled directly by Adobe, providing peace of mind and streamlined issue resolution.
 
 ## Next steps
 

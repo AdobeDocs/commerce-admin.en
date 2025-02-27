@@ -10,7 +10,7 @@ During the enablement process, you register the tenant ID for the project using 
 
 After identifying the AEM assets project, you select the matching rule for synchronizing assets between Adobe Commerce and AEM Assets.
 
-- **[!UICONTROL Match by product SKU]**—Default rule that matches the SKU in the asset metadata with the [Commerce product SKU](https://experienceleague.adobe.com/en/docs/commerce-operations/operational-playbook/glossary) to ensure that assets are associated with the correct products.
+- **[!UICONTROL Match by product SKU]**—Default rule that matches the SKU in the asset metadata with the [Commerce product SKU](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/glossary#sku) to ensure that assets are associated with the correct products.
 
 - **[!UICONTROL Custom match]**—Matching rule for more complex scenarios or specific business requirements that require custom matching logic. Implementing custom matching requires developing custom code in Adobe Developer App Builder to define how assets are matched with products. More details coming soon...
 

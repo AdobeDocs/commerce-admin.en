@@ -41,7 +41,7 @@ Enable the integration by completing the following tasks:
 
 ## Install the `aem-assets-integration` extension
 
-Installing the requires the following permissions:
+Installing the extension requires the following permissions:
 
 - Access [repo.magento.com](https://repo.magento.com/admin/dashboard) to install the extension.
 

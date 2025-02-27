@@ -32,15 +32,9 @@ Adobe Experience Manager (AEM) Assets Integration for Commerce combines the robu
 
 >[!ENDSHADEBOX]
 
-## Next steps
+## Next step
 
-1. [Set up AEM Assets Integration for Commerce](aem-assets-onboard.md).
-
-1. [Configure your AEM Assets project to manage Commerce assets](aem-assets-configure-aem.md).
-
-1. [Install the AEM Assets Integration extension and configure Adobe Commerce](aem-assets-configure-aem.md).
-
-1. [Enable asset synchronization](aem-assets-setup-synchronization.md).
+[Set up AEM Assets Integration for Commerce](aem-assets-onboard.md).
 
 ## Support
 

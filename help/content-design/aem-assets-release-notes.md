@@ -1,10 +1,10 @@
 ---
-title: AEM Assets Integration Release Notes
+title: AEM Assets Integration for Commerce Release Notes
 description: Review the release notes for information about all AEM Assets Integration releases.
 feature: CMS, Media, Release Notes
 ---
 
-# Release Notes
+# AEM Assets Integration for Commerce Release Notes
 
 These release notes describe the initial release of AEM Assets Integration and include:
 
@@ -32,6 +32,6 @@ _February 11, 2025_
 
 _February 11, 2025_
 
-[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce versions 2.4.5 and newer
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce version 2.4.5 and later releases.
 
-![New](../assets/new.svg) General availability release---AEM Assets Integration is now supported by [!DNL Adobe Commerce] versions 2.4.5 and newer.
+![New](../assets/new.svg) General availability release.
