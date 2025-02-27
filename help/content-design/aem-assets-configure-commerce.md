@@ -30,20 +30,18 @@ The AEM Assets Integration for Commerce has the following system and configurati
 >
 > Adobe Commerce can be configured to use [Adobe IMS authentication](/help/getting-started/adobe-ims-config.md).
 
-## Configuration overview
+## Configuration workflow
 
 Enable the integration by completing the following tasks:
 
 1. [Install the AEM Assets Integration extension (`aem-assets-integration`)](#install-the-aem-assets-integration-extension).
-1. [Configure the Commerce Services Connector](#configure-the-commerce-services-connector) to connect your Adobe Commerce instance and with the services that enable data to be transmitted between Adobe Commerce and AEM Assets.
-1. [Configure Adobe I/O Events for Commerce](#configure-adobe-io-events-for-commerce)
-1. [Get authentication credentials for API access](#get-authentication-credentials-for-api-access)
+3. [Configure the Commerce Services Connector](#configure-the-commerce-services-connector) to connect your Adobe Commerce instance and with the services that enable data to be transmitted between Adobe Commerce and AEM Assets.
+4. [Configure Adobe I/O Events for Commerce](#configure-adobe-io-events-for-commerce)
+5. [Get authentication credentials for API access](#get-authentication-credentials-for-api-access)
 
-## Install the AEM Assets Integration extension
+## Install the `aem-assets-integration` extension
 
->[!BEGINSHADEBOX]
-
-**Prerequisite**
+Installing the requires the following permissions:
 
 - Access [repo.magento.com](https://repo.magento.com/admin/dashboard) to install the extension.
 
@@ -51,7 +49,7 @@ Enable the integration by completing the following tasks:
 
 - Access to the command line of the Adobe Commerce application server.
 
->[!ENDSHADEBOX]
+### Add the extension to your Commerce environment
 
 Install the latest version of the AEM Assets Integration extension (`aem-assets-integration`) on an Adobe Commerce instance with version Adobe Commerce 2.4.5+. The AEM Asset Integration is delivered as a composer metapackage from the [repo.magento.com](https://repo.magento.com/admin/dashboard) repository.
 
@@ -133,31 +131,29 @@ Use this method to install the [!DNL AEM Assets Integration] extension for an on
 
 ## Configure the Commerce Services Connector
 
-The Commerce Services Connector enables data synchronization and communication between the Commerce instance, the Asset Rule Engine Service, and other supporting services.
-
 >[!NOTE]
 >
 >Commerce Services Connector setup is a one-time process required to use [Adobe Commerce SaaS services](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#availableservices). If you have already configured the connector for another service, you can view the existing configuration from the Commerce Admin by selecting **[!UICONTROL Systems]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]**.
 
-To transmit data between your Adobe Commerce instance and the services that enable the AEM Assets Integration, configure the Commerce Services Connector with the following:
+To transmit data between your Adobe Commerce instance and the services that enable the AEM Assets Integration, configure the Commerce Services Connector from the Admin (**[!UICONTROL System]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]**). 
 
-- Production and sandbox API keys for authentication.
-- Set up a data space (SaaS identifier) for secure cloud storage.
-- Provide the IMS organization ID where your Commerce and AEM Assets environments are provisioned.
+![SaaS project and data space ids for AEM Assets integration](assets/aem-saas-project-config.png){width="600" zoomable="yes"}ed
 
-For detailed instructions, see [Commerce Services Connector](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#organizationid).
+Provide the following values in the configuration
 
-After you configure the Commerce Services Connector, the system generates the SaaS project and database IDs that identifies the secure cloud storage environment for your Commerce Services and displays the IDs in the Admin configuration. These values are required to complete the onboarding process for asset synchronization.
+- Production and sandbox API keys for authentication
+- Data space name (SaaS identifier) for secure cloud storage
+- IMS organization ID where your Commerce and AEM Assets environments are provisioned
 
-![SaaS project and data space ids for AEM Assets integration](assets/aem-saas-project-config.png){width="600" zoomable="yes"}
+For detailed instructions, watch the [Commerce Services Connector configuration video](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs), of see the [Commerce Services Connector](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#organizationid) documentation.
+
+When you save the configuration, the system generates the SaaS project and database IDs for your environment. These values are required to enable asset synchronization between Adobe Commerce and AEM Assets.
 
 ## Configure Adobe I/O Events for Commerce
 
 The AEM Assets Integration uses the Adobe I/O Events service to send custom event data between the Commerce instance and Experience Cloud. The event data is used to coordinate workflows for the AEM Assets integration.
 
->[!BEGINSHADEBOX]
-
-**Prerequisite**
+Before configuring Adobe I/O events, verify the RabbitMQ and cron job configuration for your Commerce project: 
 
 - Ensure that RabbitMQ is enabled and listening for events.
   - [RabbitMQ Setup for Adobe Commerce on premises](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
@@ -168,7 +164,6 @@ The AEM Assets Integration uses the Adobe I/O Events service to send custom even
 >
 > For projects on Commerce version 2.4.5, you must [install the Adobe I/O modules](https://developer.adobe.com/commerce/extensibility/events/installation/#install-adobe-io-modules-on-commerce). In Commerce version 2.4.6+, these modules are loaded automatically. For the AEM Assets integration for Commerce, you only need to install the modules. App Builder setup is not required.
 
->[!ENDSHADEBOX]
 
 ### Enable the Commerce Eventing framework
 
