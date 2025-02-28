@@ -18,7 +18,7 @@ For details, see the following AEM Assets documentation.
 
 - [Approve an asset](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
 
-## Manage categories
+## Add assets to categories content
 
 You can add assets into your catalog categories content once you have enabled and configured the AEM Assets integration:
 
