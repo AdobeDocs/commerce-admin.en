@@ -2,8 +2,8 @@
 title: AEM Assets Integration for Commerce Release Notes
 description: Review the release notes for information about all AEM Assets Integration releases.
 feature: CMS, Media, Release Notes
+exl-id: 0d639565-812f-481a-afd6-6e6fa54ed70e
 ---
-
 # AEM Assets Integration for Commerce Release Notes
 
 These release notes describe the initial release of AEM Assets Integration and include:

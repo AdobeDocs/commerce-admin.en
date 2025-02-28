@@ -2,6 +2,7 @@
 title: Set up AEM Assets Integration for Commerce
 description: Learn how to onboard the Experience Manager Assets with your [!DNL Commerce] instance to access to countless media assets for use in your store.
 feature: CMS, Media, Configuration
+exl-id: 5a60e809-89e0-48f0-af45-5ac4455dbf59
 ---
 # Set up AEM Assets Integration for Commerce
 
