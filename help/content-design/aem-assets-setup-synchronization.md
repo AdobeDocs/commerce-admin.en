@@ -14,7 +14,7 @@ After identifying the AEM assets project, select the matching rule for synchroni
 
 - **[!UICONTROL Custom match]**—Matching rule for more complex scenarios or specific business requirements that require custom matching logic. Implementing custom matching requires developing custom code in Adobe Developer App Builder to define how assets are matched with products. More details coming soon...
 
-For initial onboarding, use the default *Match by product sku* rule.
+For the initial setup, use the default *Match by product sku* rule.
 
 ## Prerequisites
 

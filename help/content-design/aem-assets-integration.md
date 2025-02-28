@@ -38,7 +38,7 @@ Watch this video to learn how Adobe Commerce and AEM Assets work together to str
 
 ## Next step
 
-[Set up AEM Assets Integration for Commerce](aem-assets-onboard.md).
+[Set up AEM Assets Integration for Commerce](aem-assets-getting-started.md).
 
 ## Support
 
