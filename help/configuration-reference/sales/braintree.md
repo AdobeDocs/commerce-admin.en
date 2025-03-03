@@ -34,7 +34,7 @@ feature: Configuration, Payments
 |[!UICONTROL Private Key]|Store View|This is your user-specific, private identifier that restricts access to encrypted data. Each user associated with your Braintree gateway has their own private key. This field appears when the _[!UICONTROL Environment]_ field is set to `Production`.|
 |[!UICONTROL Enable Card Payments]|Website|Determines if the Braintree credit card payment method is available to your customers as a payment method. Options: `Yes` / `No`|
 |[!UICONTROL Enable Vault for Card Payments]|Website|When enabled, provides secure storage for customer payment information, so customers don't have to re-enter their credit card information for each purchase. Options: `Yes` / `No`|
-|[!UICONTROL Enable Vault CVV Reverification]|Website|When enabled, validation is done for the CVV rules setup in your Braintree Account. Options: `Yes` / `No`|
+|[!UICONTROL Enable Vault CVV Re-verification]|Website|When enabled, validation is done for the CVV rules setup in your Braintree Account. Options: `Yes` / `No`|
 
 {style="table-layout:auto"}
 
