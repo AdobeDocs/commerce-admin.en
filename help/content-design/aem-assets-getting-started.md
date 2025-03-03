@@ -1,7 +1,8 @@
 ---
 title: Set up AEM Assets Integration for Commerce
-description: Learn how to set up and configure your Experience Manager Assets environment to manage Commerce assets.
+description: Learn how to set up and configure your Experience Manager Assets environment to manage Commerce assets for your store.
 feature: CMS, Media, Configuration
+exl-id: 699f517e-1545-4c22-aa8d-9c8d60d352af
 ---
 # Set up AEM Assets Integration for Commerce
 
