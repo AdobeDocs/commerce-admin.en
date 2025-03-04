@@ -34,7 +34,7 @@ feature: Configuration, Payments
 |[!UICONTROL Private Key]|Store View|This is your user-specific, private identifier that restricts access to encrypted data. Each user associated with your Braintree gateway has their own private key. This field appears when the _[!UICONTROL Environment]_ field is set to `Production`.|
 |[!UICONTROL Enable Card Payments]|Website|Determines if the Braintree credit card payment method is available to your customers as a payment method. Options: `Yes` / `No`|
 |[!UICONTROL Enable Vault for Card Payments]|Website|When enabled, provides secure storage for customer payment information, so customers don't have to re-enter their credit card information for each purchase. Options: `Yes` / `No`|
-|[!UICONTROL Enable Vault CVV Reverification]|Website|When enabled, validation is done for the CVV rules setup in your Braintree Account. Options: `Yes` / `No`|
+|[!UICONTROL Enable Vault CVV Re-verification]|Website|When enabled, validation is done for the CVV rules setup in your Braintree Account. Options: `Yes` / `No`|
 
 {style="table-layout:auto"}
 
@@ -116,7 +116,7 @@ feature: Configuration, Payments
 |[!UICONTROL Title]|Website|Label that appears on the checkout payment method section. Default value: `Local Payments`|
 |[!UICONTROL Fallback Button Text]|Website|Enter the text to use for the button that appears on the fallback Braintree page that takes customers back to the website. Default value: `Complete Checkout`|
 |[!UICONTROL Redirect on Fail]|Website|Specifies the URL where customers should be redirected when local payment method transactions are cancelled, fail, or encounter errors. It should be the checkout payment page (for example, `https://www.domain.com/checkout#payment`).|
-|[!UICONTROL Allowed Payment Method]|Website|Select the local Payment method to be enabled. Options: `Bancontact` / `EPS` / `giropay` / `iDeal` / `Klarna Pay Now` / `SOFORT` / `MyBank` / `P24` / `SEPA/ELV Direct Debit` (not yet supported) |
+|[!UICONTROL Allowed Payment Method]|Website|Select the local Payment method to be enabled. Options: `Bancontact` / `EPS` / `iDeal` / `MyBank` / `P24` / `SEPA/ELV Direct Debit`|
 |[!UICONTROL Sort Order]|Website|Determines the order that Local Payment Method is listed with other payment methods during checkout.|
 
 {style="table-layout:auto"}
@@ -156,7 +156,8 @@ feature: Configuration, Payments
 
 ## [!UICONTROL PayPal through Braintree]
 
-![PayPal through Braintree](./assets/payment-methods-braintree-paypal-config.png){width="550" zoomable="yes"}
+![PayPal through Braintree Config 1](./assets/payment-methods-braintree-paypal-config-1.png){width="550" zoomable="yes"}
+![PayPal through Braintree Config 2](./assets/payment-methods-braintree-paypal-config-2.png){width="550" zoomable="yes"}
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -172,8 +173,11 @@ feature: Configuration, Payments
 |[!UICONTROL Payment from Applicable Countries]|Website|Determines if you accept payments processed by PayPal through Braintree from all countries, or only specific countries. Options: `All Allowed Countries` / `Specific Countries`|
 |[!UICONTROL Payment from Specific Countries]|Website|If applicable, identifies the specific countries from which you accept payments processed by Braintree.|
 |[!UICONTROL Require Customer's Billing Address]| Website|Determines if the customer's billing address is required to submit an order. Options: `Yes` / `No`|
+|[!UICONTROL Skip Order Review Step]|Website|Determines if customers are to be redirected to the review page before completing payment. Options: `Yes` / `No`|
 |[!UICONTROL Debug]|Website|Determines if communications between the PayPal through Braintree system and your store are recorded in a log file. Options: `Yes` / `No`|
 |[!UICONTROL Display on Shopping Cart]|Website|Determines if the PayPal button appears in the [mini cart](../../stores-purchase/cart-configuration.md#mini-cart) and on the [shopping cart](../../stores-purchase/cart.md) page. Options: `Yes` / `No`|
+|[!UICONTROL Send Package Tracking]|Website|Package tracking information will be sent to PayPal for PayPal transactions/orders only. You must enable the [!UICONTROL Send Cart Line Items for PayPal] configuration field in order for the [!UICONTROL Package Tracking] feature to work correctly. Options: `Yes` / `No`|
+|[!UICONTROL Use PayPal's "Notify Payer" functionality]|Website|Once this is set to Yes, Buyer or Payer will be notified by PayPal for package tracking updates. Options: `Yes` / `No`|
 
 {style="table-layout:auto"}
 
@@ -217,18 +221,6 @@ The options and settings in this section vary according to the button type selec
 >
 >The **[!DNL Size(Deprecated)]** configuration field is deprecated and not being used to style the PayPal buttons.
 
-**[!UICONTROL PayLater Messaging]**
-
-|Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
-|--- |--- |--- |
-|[!UICONTROL Show PayLater Messaging]|Website|Enables PayLater messaging at the selected location. Options: `Yes` / `No`. When enabled, it displays PayLater messaging for available offers ([restrictions apply](https://developer.paypal.com/docs/checkout/pay-later/us/)).|
-|[!UICONTROL Message Layout]|Website|Determines the PayLater message layout. Options: `Text` / `Flex`|
-|[!UICONTROL Logo]|Website|Determines the logo type used for the PayPal button. Options: `Inline` / `Primary` / `Alternative` / `None`|
-|[!UICONTROL Logo Position]|Website|Determines the logo position for the PayPal button. Options: `Left` / `Right` / `Top`|
-|[!UICONTROL Text Color]|Website|Determines the text color of the PayPal button. Options: `Black` / `White` / `Monochrome` / `Grayscale`|
-
-{style="table-layout:auto"}
-
 When these options are set, you can see the preview of the PayPal buttons and PayLater messages. There are controls that you can use to apply the settings or reset the values:
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
@@ -236,6 +228,48 @@ When these options are set, you can see the preview of the PayPal buttons and Pa
 |[!UICONTROL Apply]|Website|Stores the selected styling settings for buttons and PayLater messaging and applies them to the current location and current button type.|
 |[!UICONTROL Apply to All Buttons]|Website|Stores the selected styling settings for buttons and PayLater messaging values and applies them to all button types and locations.|
 |[!UICONTROL Reset to Recommended Defaults]|Website|Returns the styling settings to the recommended default values for buttons and PayLater messaging and applies them to all button types and locations.|
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Pay Later Messaging]
+
+**[!UICONTROL Product Page]**
+
+![Pay Later Messaging - Product Page](./assets/payment-methods-braintree-paylater-messaging-product.png)<!-- zoom -->
+
+|Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)| Description                                                                                                                                                                                                                              |
+|--- |--- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|[!UICONTROL Show PayLater Messaging]|Website| Enables PayLater messaging at the selected location. Options: `Yes` / `No`. Displays Pay Later messaging for available offers. Restrictions apply. [Click here to learn more.](https://developer.paypal.com/studio/checkout/pay-later/us)|
+|[!UICONTROL Message Layout]|Website| Determines the PayLater message layout. Options: `Text` / `Flex`                                                                                                                                                                         |
+|[!UICONTROL Logo]|Website| Determines the logo type used for the Pay Later message. Options: `Inline` / `Primary` / `Alternative` / `None`                                                                                                                              |
+|[!UICONTROL Logo Position]|Website| Determines the logo position for the Pay Later message. Options: `Left` / `Right` / `Top`                                                                                                                                                    |
+|[!UICONTROL Text Color]|Website| Determines the text color of the Pay Later message. Options: `Black` / `White` / `Monochrome` / `Grayscale`                                                                                                                                  |
+
+{style="table-layout:auto"}
+
+**[!UICONTROL Cart]**
+
+![Pay Later Messaging - Cart](./assets/payment-methods-braintree-paylater-messaging-cart.png)<!-- zoom -->
+
+|Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)| Description                                                                                                                                                                                                                              |
+|--- |--- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|[!UICONTROL Show PayLater Messaging]|Website| Enables PayLater messaging at the selected location. Options: `Yes` / `No`. Displays Pay Later messaging for available offers. Restrictions apply. [Click here to learn more.](https://developer.paypal.com/studio/checkout/pay-later/us)|
+|[!UICONTROL Message Layout]|Website| Determines the PayLater message layout. Options: `Text` / `Flex`                                                                                                                                                                         |
+|[!UICONTROL Logo]|Website| Determines the logo type used for the Pay Later message.. Options: `Inline` / `Primary` / `Alternative` / `None`                                                                                                                             |
+|[!UICONTROL Logo Position]|Website| Determines the logo position for the Pay Later message. Options: `Left` / `Right` / `Top`                                                                                                                                                    |
+|[!UICONTROL Text Color]|Website| Determines the text color of the Pay Later message. Options: `Black` / `White` / `Monochrome` / `Grayscale`                                                                                                                                  |
+
+{style="table-layout:auto"}
+
+**[!UICONTROL Checkout]**
+
+![Pay Later Messaging - Checkout](./assets/payment-methods-braintree-paylater-messaging-checkout.png)<!-- zoom -->
+
+| Field                                |[Scope](../../getting-started/websites-stores-views.md#scope-settings)| Description                                                                                                                                                                                                                               |
+|--------------------------------------|--- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Show PayLater Messaging] |Website| Enables PayLater messaging at the selected location. Options: `Yes` / `No`. Displays Pay Later messaging for available offers. Restrictions apply. [Click here to learn more.](https://developer.paypal.com/studio/checkout/pay-later/us) |
+| [!UICONTROL Text Align] |Website| Determines the PayLater message layout. Options: `Left` / `Center` / `Right`                                                                                                                                                              |
+| [!UICONTROL Text Color] |Website| Determines the text color of the Pay Later message. Options: `Black` / `White`                                                                                                                                                            |
 
 {style="table-layout:auto"}
 
