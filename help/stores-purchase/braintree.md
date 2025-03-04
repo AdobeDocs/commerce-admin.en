@@ -61,7 +61,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 1. If you want the ability to store customer information securely, so customers don't have to re-enter it each time they make a purchase, set **[!UICONTROL Enable Vault for Card Payments]** to `Yes`.
 
-1. If you want customer to verify CVV number for their vaulted card on every purchase, set **[!UICONTROL Enable Vault CVV Re-verification]** to `Yes`.
+1. If you want a customer to verify the CVV number for their vaulted card on every purchase, set **[!UICONTROL Enable Vault CVV Re-verification]** to `Yes`.
 
 ## Step 3: Complete the advanced settings
 
@@ -277,17 +277,17 @@ Go to [Braintree Payments][1] and sign up for an account.
    >
    >This feature must be enabled for your account by PayPal Technical Support.
 
-1. To skip the order review page for the PayPal express, set **[!UICONTROL Skip Order Review Step]** to `Yes`.
+1. To skip the order review page for PayPal Express, set **[!UICONTROL Skip Order Review Step]** to `Yes`.
 
-   For customers paying via PayPal Express: If you want customers to be redirected to a review page before completing payment, set this to `No`. If you'd prefer customers to skip the review page, set it to `Yes`. 
+   For customers paying with PayPal Express: If you want customers to be redirected to a review page before completing payment, set this to `No`. If you'd prefer customers to skip the review page, set it to `Yes`. 
 
 1. To save a log file of interactions between your store and PayPal through Braintree, set **[!UICONTROL Debug]** to `Yes`.
 
 1. To display the PayPal button on both the mini cart and shopping cart page, set **[!UICONTROL Display on Shopping Cart]** to `Yes`.
 
-1. To send package tracking information to the PayPal, set **[!UICONTROL Send Package Tracking]** to `Yes`.
+1. To send package tracking information to PayPal, set **[!UICONTROL Send Package Tracking]** to `Yes`.
 
-   Package tracking information will be sent to PayPal for PayPal transactions/orders only. Please enable the 'Send Cart Line Items for PayPal' configuration field in order for the 'Package Tracking' feature to work correctly.
+   Package tracking information will be sent to PayPal for PayPal transactions/orders only. You must enable the [!UICONTROL Send Cart Line Items for PayPal] configuration field in order for the [!UICONTROL Package Tracking] feature to work correctly.
 
 1. To notify a Buyer or Payer by PayPal for the package tracking updates, set **[!UICONTROL Use PayPal's "Notify Payer" functionality]** to `Yes`.
 
@@ -325,7 +325,7 @@ When these options are set, you can see the preview of the PayPal buttons. There
 
 - To store the selected styling settings for buttons and PayLater messaging and apply them to the current location and current button type, click **[!UICONTROL Apply]**.
 
-- to store the selected styling settings for buttons and PayLater messaging values and apply them to all button types and locations, click **[!UICONTROL Apply to All Buttons]**.
+- To store the selected styling settings for buttons and PayLater messaging values and apply them to all button types and locations, click **[!UICONTROL Apply to All Buttons]**.
 
 - To return styling settings to the recommended default values for buttons and PayLater messaging and apply them to all button types and locations, click **[!UICONTROL Reset to Recommended Defaults]**.
 
@@ -335,9 +335,9 @@ When these options are set, you can see the preview of the PayPal buttons. There
 
 ![Pay Later Message - Product Page settings](../configuration-reference/sales/assets/payment-methods-braintree-paylater-messaging-product.png){width="600" zoomable="yes"}
 
-1. To show [!DNL Pay Later] messaging on the storefront at Product Page, set **[!UICONTROL Show PayLater Messaging]** to `Yes`.
+1. To show [!DNL Pay Later] messaging on the storefront at product page, set **[!UICONTROL Show PayLater Messaging]** to `Yes`.
 
-   Displays Pay Later messaging for available offers. Restrictions apply. [Click here to learn more.](https://developer.paypal.com/studio/checkout/pay-later/us)
+   Displays Pay Later messaging for available offers. Restrictions apply. See [PayPal's documentation](https://developer.paypal.com/studio/checkout/pay-later/us).
 
 1. For **[!UICONTROL Message Layout]**, select the [!DNL Pay Later] message layout: `Text` or `Flex`
 
@@ -351,9 +351,9 @@ When these options are set, you can see the preview of the PayPal buttons. There
 
 ![Pay Later Message - Cart Page settings](../configuration-reference/sales/assets/payment-methods-braintree-paylater-messaging-cart.png){width="600" zoomable="yes"}
 
-1. To show [!DNL Pay Later] messaging on the storefront at Mini-cart / Cart Page, set **[!UICONTROL Show PayLater Messaging]** to `Yes`.
+1. To show [!DNL Pay Later] messaging on the storefront at mini-cart or cart Page, set **[!UICONTROL Show PayLater Messaging]** to `Yes`.
 
-   Displays Pay Later messaging for available offers. Restrictions apply. [Click here to learn more.](https://developer.paypal.com/studio/checkout/pay-later/us)
+   Displays Pay Later messaging for available offers. Restrictions apply. See [PayPal's documentation](https://developer.paypal.com/studio/checkout/pay-later/us).
 
 1. For **[!UICONTROL Message Layout]**, select the [!DNL Pay Later] message layout: `Text` or `Flex`
 
@@ -367,9 +367,9 @@ When these options are set, you can see the preview of the PayPal buttons. There
 
 ![Pay Later Message - Checkout Page settings](../configuration-reference/sales/assets/payment-methods-braintree-paylater-messaging-checkout.png){width="600" zoomable="yes"}
 
-1. To show [!DNL Pay Later] messaging on the storefront at Checkout, set **[!UICONTROL Show PayLater Messaging]** to `Yes`.
+1. To show [!DNL Pay Later] messaging on the storefront at checkout, set **[!UICONTROL Show PayLater Messaging]** to `Yes`.
 
-   Displays Pay Later messaging for available offers. Restrictions apply. [Click here to learn more.](https://developer.paypal.com/studio/checkout/pay-later/us)
+   Displays Pay Later messaging for available offers. Restrictions apply. See [PayPal's documentation](https://developer.paypal.com/studio/checkout/pay-later/us).
 
 1. For **[!UICONTROL Text Align]**, select the text align for [!DNL Pay Later] message: `Text` or `Center` or `Right`
 

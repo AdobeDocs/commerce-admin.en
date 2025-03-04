@@ -176,7 +176,7 @@ feature: Configuration, Payments
 |[!UICONTROL Skip Order Review Step]|Website|Determines if customers are to be redirected to the review page before completing payment. Options: `Yes` / `No`|
 |[!UICONTROL Debug]|Website|Determines if communications between the PayPal through Braintree system and your store are recorded in a log file. Options: `Yes` / `No`|
 |[!UICONTROL Display on Shopping Cart]|Website|Determines if the PayPal button appears in the [mini cart](../../stores-purchase/cart-configuration.md#mini-cart) and on the [shopping cart](../../stores-purchase/cart.md) page. Options: `Yes` / `No`|
-|[!UICONTROL Send Package Tracking]|Website|Package tracking information will be sent to PayPal for PayPal transactions/orders only. Please enable the 'Send Cart Line Items for PayPal' configuration field in order for the 'Package Tracking' feature to work correctly. Options: `Yes` / `No`|
+|[!UICONTROL Send Package Tracking]|Website|Package tracking information will be sent to PayPal for PayPal transactions/orders only. You must enable the [!UICONTROL Send Cart Line Items for PayPal] configuration field in order for the [!UICONTROL Package Tracking] feature to work correctly. Options: `Yes` / `No`|
 |[!UICONTROL Use PayPal's "Notify Payer" functionality]|Website|Once this is set to Yes, Buyer or Payer will be notified by PayPal for package tracking updates. Options: `Yes` / `No`|
 
 {style="table-layout:auto"}
