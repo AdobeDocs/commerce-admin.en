@@ -2,6 +2,7 @@
 title: Configure log rotation
 description: Configure log rotation for the AEM Assets Integration for Commerce.
 feature: CMS, Media, Integration
+exl-id: f735d086-048c-4555-bc58-ac6736c281b0
 ---
 # Configure Experience Manager Assets
 
@@ -14,5 +15,3 @@ Ask your System Administrator to check the log file rotation schedule for these 
 
 - For Adobe Commerce on-premises installations, ask your System Administrator to set up [log rotation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html#server-settings).
 - For Adobe Commerce on cloud infrastructure projects, see [View and manage logs](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html).
-
-
