@@ -53,27 +53,23 @@ For complete instructions, see [Admin Sign In](../getting-started/admin-signin.m
 
 1. Enter your account credentials and sign in to the _Admin_.
 
-1. When the [!DNL Duo] Setup page appears, click **[!UICONTROL Start setup]** and do the following:
+1. When the [!DNL Duo] Setup page appears, click **[!UICONTROL Get Started]** and do the following:
 
-   ![Example storefront - Duo setup](./assets/storefront-2fa-duo-user1.png){width="300"}
+   ![Example storefront - Duo setup](./assets/storefront-2fa-duo-setup-options.png){width="300"}
 
-1. Select your device.
+1. Select your option. You can choose Touch ID, Duo Mobile, Security Key, or Phone Number. This example shows the Duo Mobile or Phone Number option.
 
 1. When prompted, enter your phone number and click **[!UICONTROL Continue]**.
 
-   This example requests your phone number, because we are using a mobile device.
+   Confirm the ownership by sending and verifying the passcode on phone number.
 
 1. When prompted to install [!DNL Duo Mobile] for your phone type, click **[!UICONTROL I have Duo Mobile]**.
 
 1. Open [!DNL Duo Mobile] and scan the QR code to sync the authenticator with Adobe Commerce. A checkmark appears when the activation is complete.
 
-1. To configure your settings for the device, choose the action that you want to take place when you sign in.
+1. You can add more devices (if necessary) or skip. Your setup is now complete and you can log in with Duo.
 
-   - `Ask me to choose an authenticator method` — Allows the user to select when logging in and authenticating in the _Admin_.
-   - `Automatically send this device a Duo Push` — Sends a message to your device to accept or deny for access.
-   - `Automatically call this device` — Calls and provides a passcode to enter for access.
-
-   ![Duo verification actions](./assets/storefront-2fa-duo-user7.png){width="300"}
+   ![Duo verification actions](./assets/storefront-2fa-duo-setup-complete.png){width="300"}
 
 ### Step 2: Sign in with [!DNL Duo Security]
 
@@ -83,13 +79,11 @@ The following example shows the options for `Ask me to choose an authenticator m
 
    ![Duo - signin](./assets/storefront-2fa-duo-auth.png){width="300"}
 
-1. Choose the method that you want to use to authenticate:
+1. Choose log in with Duo to get a push notification on the Duo Mobile app, log in with Touch ID, or proceed with another option that you configured during setup.
 
-   - `Send Me a Push` — Click to receive a push notice to [!DNL Duo Mobile]. Accept to authenticate.
-   - `Call Me` — Click this option, receive a call with a code, and enter the pass code.
-   - `Enter a Passcode` — Click this option to receive and enter a pass code.
+1. Approve the request from Duo app/ Touch ID/ Text message and you will be successfully logged in.
 
-1. Complete the push or code to fully sign in to the _Admin_.
+   ![Duo - signin](./assets/storefront-2fa-duo-success.png){width="300"}
 
 ## [!DNL Authy]
 
