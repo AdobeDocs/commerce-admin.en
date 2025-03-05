@@ -1,12 +1,12 @@
 ---
-title: Configure Experience Manager Assets
+title: Install AEM Assets Package for Commerce
 description: Add the asset metadata required to enable the AEM Assets Integration for Commerce to synchronize assets between Adobe Commerce and Experience Manager Assets projects.
 feature: CMS, Media, Integration
 exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
 ---
 # Install the AEM Assets package
 
-Adobe provides a project template, `commerce-assets` to add Commerce namespace and metadata schema resources to the Experience Manager Assets as a Cloud Service environment configuration. Deploy this template to your environment as a Maven package. Then, configure the Commerce metadata in the AEM Assets authoring environment to complete the set up.
+Adobe provides a project template, `commerce-assets` to add Commerce namespace and metadata schema resources to the Experience Manager Assets as a Cloud Service environment configuration. Deploy this template to your environment as a Maven package. Then, configure the Commerce metadata in the AEM Assets authoring environment to complete the setup.
 
 The template adds the following resources to the AEM Assets authoring environment.
 
@@ -43,18 +43,17 @@ You need the following resources and permissions to use this AEM project to upda
 
 1. From GitHub, download the boilerplate code from the [Commerce-Assets AEM project](https://github.com/ankumalh/assets-commerce).
 
-1. From your [local AEM development environnment](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview), install the custom code into your AEM Assets environment configuration as a Maven package, or by manually copying the code into the existing project configuration.
+1. From your [local AEM development environment](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview), install the custom code into your AEM Assets environment configuration as a Maven package, or by manually copying the code into the existing project configuration.
 
-1. Commit the changes and push your local development branch to the Cloud Manager git repository.
+1. Commit the changes and push your local development branch to the Cloud Manager Git repository.
 
 1. From Cloud Manager, [deploy your code to update the AEM environment](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deploying-code-with-cloud-manager).
 
 ## Configure a metadata profile
 
-In the AEM Assets authoring environment, set default values for Commerce asset metadata by creating a metadata profile. Then, apply the new profile to 
-AEM Asset folders to automatically use these defaults. This configuration streamlines asset processing by reducing manual steps.
+In the AEM Assets authoring environment, set default values for Commerce asset metadata by creating a metadata profile. Then, apply the new profile to AEM Asset folders to use these defaults automatically. This configuration streamlines asset processing by reducing manual steps.
 
-1. From the Adobe Experience Manager workspace, go to the Author Content administration workspace for AEM Assets by clicking the Adobe Experience Manager icon.
+1. From the Adobe Experience Manager workspace, go to the Author Content Administration workspace for AEM Assets by clicking the Adobe Experience Manager icon.
 
    ![AEM Assets authoring](./assets/aem-assets-authoring.png){width="600" zoomable="yes"}
 
@@ -70,7 +69,7 @@ AEM Asset folders to automatically use these defaults. This configuration stream
 
 1. Add a tab for Commerce metadata.
 
-   1. On the left, click  **[!UICONTROL Settings]**.
+   1. On the left, click **[!UICONTROL Settings]**.
 
    1. Click  **[!UICONTROL +]** in the tab section, and then specify the **[!UICONTROL Tab Name]**, `Commerce`.
 
@@ -84,7 +83,7 @@ AEM Asset folders to automatically use these defaults. This configuration stream
 
    1. From the[!UICONTROL  Metadata Profiles] page, select the Commerce integration profile.
 
-   1. From the action menu, select **[!UICONTROL Apply Metadata Profiles to Folder(s)]**.
+   1. From the action menu, select **[!UICONTROL Apply Metadata Profiles to Folders]**.
 
    1. Select the folder containing Commerce assets.
 

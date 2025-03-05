@@ -6,7 +6,9 @@ exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
 ---
 # Install Adobe Commerce packages
 
-Prepare your Commerce environment to use the AEM Assets Integration for Commerce by installing the `aem-assets-integration` PHP extension, enabling the Adobe I/O Events for Commerce, and generating credentials required for communication and workflows between Adobe Commerce and Adobe Experience Manager Assets.
+The AEM Assets Integration for Commerce extension (`aem-assets-integration`) enables synchronization of assets between Adobe Commerce and Adobe Experience Manager Assets. The extension provides a set of tools and services to manage assets, including product images, videos, and other media assets, across both platforms.
+
+Add this extension to the Commerce environment by installing the `aem-assets-integration` PHP extension. You also need to enable Adobe I/O Events for Commerce and generate the credentials required for communication and workflows between Adobe Commerce and Adobe Experience Manager Assets.
 
 ## System requirements
 
@@ -24,9 +26,9 @@ You need the following roles and permissions to set up the integration.
 
 - [Commerce cloud project administrator](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access)—Install required extensions and configure the Commerce application server from the Admin or the command line.
 
-   - Access [repo.magento.com](https://repo.magento.com/admin/dashboard) to install the extension.
+  - Access [repo.magento.com](https://repo.magento.com/admin/dashboard) to install the extension.
 
-     For key generation and obtaining the necessary rights, see [Get your authentication keys (https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). For cloud installations, see the [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
+    For key generation and obtaining the necessary rights, see [Get your authentication keys](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). For cloud installations, see the [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
 
 - [Commerce Admin](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview)—Update store configuration and manage Commerce user accounts.
 
@@ -147,7 +149,7 @@ When you save the configuration, the system generates the SaaS project and datab
 
 The AEM Assets Integration uses the Adobe I/O Events service to send custom event data between the Commerce instance and Experience Cloud. The event data is used to coordinate workflows for the AEM Assets integration.
 
-Before configuring Adobe I/O events, verify the RabbitMQ and cron job configuration for your Commerce project: 
+Before configuring Adobe I/O Events, verify the RabbitMQ and cron job configuration for your Commerce project: 
 
 - Ensure that RabbitMQ is enabled and listening for events.
   - [RabbitMQ Setup for Adobe Commerce on premises](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
@@ -165,7 +167,7 @@ Enable the eventing framework from the Commerce Admin.
 
 >[!NOTE]
 >
->App Builder set up is required only if you plan to use a custom matching strategy to synchronize assets between Commerce and AEM Assets.
+>App Builder setup is required only if you plan to use a custom matching strategy to synchronize assets between Commerce and AEM Assets.
 
 1. From the Admin, go to **[!UICONTROL Stores]** > [!UICONTROL Settings] > **[!UICONTROL Configuration]** > **[!UICONTROL Adobe Services]** > **Adobe I/O Events**.
 
@@ -174,8 +176,8 @@ Enable the eventing framework from the Commerce Admin.
 1. Set **[!UICONTROL Enabled]** to `Yes`.
 
    ![Adobe I/O Events Commerce Admin configuration - enable Commerce events](assets/aem-enable-io-event-admin-config.png){width="600" zoomable="yes"}
-   
-1. Enter the merchant company name in the **[!UICONTROL Merchant ID]** and the environment name in **[!UICONTROL Environment ID]** fields. Use only alphanumeric characters and underscores when setting these values.
+
+1. Enter the merchant company name in the **[!UICONTROL Merchant ID]** and the environment name in the **[!UICONTROL Environment ID]** fields. Use only alphanumeric characters and underscores when setting these values.
 
 >[!BEGINSHADEBOX]
 
@@ -201,13 +203,13 @@ The following custom VCL snippet code (JSON format) shows an example with a `X-I
 
 Before creating a snippet based on this example, review the values to determine whether you need to make any changes:
 
-- `name`: Name for the VCL snippet. For this example, we used the name `blockbyuseragent`.
+- `name`: Name for the VCL snippet. This example uses the name `blockbyuseragent`.
 
-- `dynamic`: Sets the snippet version. For this example, we used `0`. See the [Fastly VCL snippets](https://www.fastly.com/documentation/reference/api/vcl-services/snippet/) for detailed data model information.
+- `dynamic`: Sets the snippet version. This example uses `0`. See the [Fastly VCL snippets](https://www.fastly.com/documentation/reference/api/vcl-services/snippet/) for detailed data model information.
 
-- `type`: Specifies the type of VCL snippet, which determines the location of the snippet in the generated VCL code. In this example, we used `recv`, see the [Fastly VCL snippet reference](https://docs.fastly.com/api/config#api-section-snippet) for the list of snippet types.
+- `type`: Specifies the type of VCL snippet, which determines the location of the snippet in the generated VCL code. This example uses `recv`. See the [Fastly VCL snippet reference](https://www.fastly.com/documentation/reference/api/#api-section-snippet) for the list of snippet types.
 
-- `priority`: Determines when the VCL snippet runs. This example uses priority `5` to immediately run and check whether an Admin request is coming from an allowed IP address.
+- `priority`: Determines when the VCL snippet runs. This example uses priority `5` to run immediately and check whether an Admin request is coming from an allowed IP address.
 
 - `content`: The snippet of VCL code to run, which checks the client IP address. If the IP is in the Edge ACL, it is blocked from access with a `405 Not allowed` error for the entire website. All other client IP addresses are allowed access.
 
