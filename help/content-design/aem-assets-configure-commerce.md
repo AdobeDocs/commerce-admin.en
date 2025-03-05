@@ -1,16 +1,16 @@
 ---
-title: Install and Configure the Experience Manager Assets Integration
-description: Learn how to install and configure the [!DNL AEM Assets Integration for Adobe Commerce] on an Adobe Commerce instance.
+title: Install Adobe Commerce packages
+description: Learn how to install the [!DNL AEM Assets Integration for Adobe Commerce] extension and on an Adobe Commerce instance.
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
 ---
-# Install and configure the AEM Assets Integration for Commerce
+# Install Adobe Commerce packages
 
-Prepare your Commerce environment to use the AEM Assets Integration for Commerce by installing the `aem-assets-integration` PHP extension. Then, update the Admin configuration to enable communication and workflows between Adobe Commerce and AEM Assets.
+Prepare your Commerce environment to use the AEM Assets Integration for Commerce by installing the `aem-assets-integration` PHP extension, enabling the Adobe I/O Events for Commerce, and generating credentials required for communication and workflows between Adobe Commerce and Adobe Experience Manager Assets.
 
 ## System requirements
 
-The AEM Assets Integration for Commerce has the following system and configuration requirements.
+The AEM Assets Integration for Commerce extension has the following system and configuration requirements.
 
 **Software requirements**
 
@@ -18,21 +18,25 @@ The AEM Assets Integration for Commerce has the following system and configurati
 - PHP 8.1, 8.2, 8.3
 - Composer: 2.x
 
-**Configuration requirements**
+**Access requirements**
 
-- Account provisioning and permissions:
+You need the following roles and permissions to set up the integration.
 
-  - [Commerce cloud project administrator](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access)—Install required extensions and configure the Commerce application server from the Admin or the command line
+- [Commerce cloud project administrator](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access)—Install required extensions and configure the Commerce application server from the Admin or the command line.
 
-  - [Commerce Admin](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview)—Update store configuration and manage Commerce user accounts
+   - Access [repo.magento.com](https://repo.magento.com/admin/dashboard) to install the extension.
+
+     For key generation and obtaining the necessary rights, see [Get your authentication keys (https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). For cloud installations, see the [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
+
+- [Commerce Admin](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview)—Update store configuration and manage Commerce user accounts.
 
 >[!TIP]
 >
 > Adobe Commerce can be configured to use [Adobe IMS authentication](/help/getting-started/adobe-ims-config.md).
 
-## Configuration workflow
+## Installation and configuration workflow
 
-Enable the integration by completing the following tasks:
+Install the Adobe Commerce package and prepare the Commerce environment by completing the following tasks:
 
 1. [Install the AEM Assets Integration extension (`aem-assets-integration`)](#install-the-aem-assets-integration-extension).
 1. [Configure the Commerce Services Connector](#configure-the-commerce-services-connector) to connect your Adobe Commerce instance and with the services that enable data to be transmitted between Adobe Commerce and AEM Assets.
@@ -40,16 +44,6 @@ Enable the integration by completing the following tasks:
 1. [Get authentication credentials for API access](#get-authentication-credentials-for-api-access)
 
 ## Install the `aem-assets-integration` extension
-
-Installing the extension requires the following permissions:
-
-- Access [repo.magento.com](https://repo.magento.com/admin/dashboard) to install the extension.
-
-   For key generation and obtaining the necessary rights, see [Get your authentication keys](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). For cloud installations, see the [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
-
-- Access to the command line of the Adobe Commerce application server.
-
-### Add the extension to your Commerce environment
 
 Install the latest version of the AEM Assets Integration extension (`aem-assets-integration`) on an Adobe Commerce instance with version Adobe Commerce 2.4.5+. The AEM Asset Integration is delivered as a composer metapackage from the [repo.magento.com](https://repo.magento.com/admin/dashboard) repository.
 
@@ -169,6 +163,10 @@ Before configuring Adobe I/O events, verify the RabbitMQ and cron job configurat
 
 Enable the eventing framework from the Commerce Admin.
 
+>[!NOTE]
+>
+>App Builder set up is required only if you plan to use a custom matching strategy to synchronize assets between Commerce and AEM Assets.
+
 1. From the Admin, go to **[!UICONTROL Stores]** > [!UICONTROL Settings] > **[!UICONTROL Configuration]** > **[!UICONTROL Adobe Services]** > **Adobe I/O Events**.
 
 1. Expand **[!UICONTROL Commerce events]**.
@@ -247,7 +245,7 @@ You generate the credentials by adding the integration to the Commerce instance 
 
 1. Click **[!UICONTROL Save]**.
 
-### Generate credentials
+### Generate OAuth credentials
 
 On the Integrations page, generate the OAuth authentication credentials by clicking **Activate** for the Assets integration. You need these credentials to register the Commerce project with the Assets Rule Engine service, and to submit API requests to manage assets between Adobe Commerce and AEM Assets.
 
@@ -267,4 +265,4 @@ On the Integrations page, generate the OAuth authentication credentials by click
 
 ## Next step
 
-[Enable asset synchronization to transfer assets between your Adobe Commerce project environment and the AEM Assets project environment](aem-assets-setup-synchronization.md)
+[Connect the Adobe Commerce and AEM Assets project environments and select the matching strategy for synchronizing assets](aem-assets-setup-synchronization.md)
