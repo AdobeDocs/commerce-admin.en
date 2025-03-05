@@ -6,7 +6,7 @@ exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
 ---
 # Install the AEM Assets package
 
-Adobe provides a project template, `commerce-assets` to add Commerce namespace and metadata schema resources to the Experience Manager Assets as a Cloud Service environment configuration. Deploy this template to your environment as a Maven package. Then, configure the Commerce metadata in the AEM Assets authoring environment to complete the setup.
+Adobe provides a project template, `commerce-assets`, to add Commerce namespace and metadata schema resources to the Experience Manager Assets as a Cloud Service environment configuration. Deploy this template to your environment as a Maven package. Then, configure the Commerce metadata in the AEM Assets authoring environment to complete the setup.
 
 The template adds the following resources to the AEM Assets authoring environment.
 
@@ -35,7 +35,7 @@ You need the following resources and permissions to use this AEM project to upda
 
 - Understand [AEM project structure](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) and how to deploy custom content packages using Cloud Manager.
 
-## Install the `commerce-assets` package in your AEM Assets environment
+## Install the `commerce-assets` package
 
 1. From the Cloud Manager, create production and staging environments for your AEM Assets project, if needed.
 

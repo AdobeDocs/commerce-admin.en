@@ -6,7 +6,7 @@ exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
 ---
 # Configure the integration
 
-Configure the integration by connecting Commerce to the AEM Assets instance and selecting the matching strategy to synchronize assets.
+Configure the integration by connecting Commerce to the AEM Assets instance and selecting the matching strategy for asset synchronization.
 
 After identifying the AEM Assets project, select the matching rule for synchronizing assets between Adobe Commerce and AEM Assets.
 
