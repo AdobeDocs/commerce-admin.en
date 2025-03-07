@@ -7,19 +7,69 @@ feature: CMS, Media, Integration
 
  Both Adobe Commerce and Adobe Experience Manager (AEM) provide built-in features to streamline media file migration from Commerce to the AEM Assets digital asset management system (DAM). You can also migrate media files from other sources.
 
+ Export media from existing data source to cloud storage
+ Organize assets
+ Map asset metadata
+
+
+## Migration best practices
+
+1. Curate assets before migration by removing unused and duplicate content.
+1. Organize assets logically by size, format, or use case.
+1. Consider breaking large migrations into smaller batches.
+1. Schedule resource-intensive imports during off-peak hours.
+1. Validate metadata mapping before full import.
+
+## Prerequisites
+
+### Required access and permissions
+
+- Administrator access to AEM Assets as a Cloud Service
+- Access to source system (Adobe Commerce or external system)
+- Appropriate permissions to access cloud storage services
+
+### Technical requirements
+
+- **Cloud Storage Account**
+  - AWS S3 or Azure Blob Storage account
+  - Private container/bucket configuration
+  - Authentication credentials
+
+- **Source Content**
+  - Organized media files ready for migration
+  - File formats supported by the integration (images and videos) <!--What formats are supported?-->
+  - Clean, deduplicated assets
+
+- **Metadata Preparation**
+  - CSV file editor (e.g., Microsoft Excel)
+  - AEM Assets metadata profile configured for Commerce assets
+  - Mapped metadata values for each asset
+
+### System Requirements
+
+- AEM as a Cloud Service environment provisioned with AEM Assets
+- Sufficient storage capacity
+- Network bandwidth for large file transfers
+
 ## Migration workflow
+
+The migration workflow is a three step process.
 
 Follow the same migration workflow described here to migrate media files from Adobe Commerce or another external system into the AEM Assets DAM.
 
 ### Step 1: Export content from the existing data source
 
-For merchants using Adobe Commerce, the Remote Storage module simplifies the process of exporting media files from Adobe Commerce and importing them into AEM Assets. This module allows you to store and manage media files using remote storage services, such as AWS S3. For details about configuring remote storage, see [Configure Remote Storage](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage-aws-s3) in the *Commerce Configuration Guide*.
+For Adobe Commerce merchants, the Remote Storage module provides a streamlined way to export media files from Commerce and import them into AEM Assets. This module enables you to store and manage media files on remote storage services like AWS S3, making the migration process more efficient. To learn how to set up remote storage for your Commerce instance, see [Configure Remote Storage](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage-aws-s3) in the *Commerce Configuration Guide*.
 
 If you have media files stored outside of Adobe Commerce, upload them directly to one of the [data sources](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-view/bulk-import-assets-view#prerequisites) supported by AEM as a Cloud Service.
 
 ### Step 2: Build a CSV file for metadata mapping
 
-Create a metadata mapping file in CSV format and upload it to the source folder containing your media files. This file provides metadata that helps organize and find assets in the DAM.
+Create a metadata mapping file in CSV format and upload it to the source folder containing your media files. This file maps essential metadata to each asset to:
+
+- Organize and categorize assets in the DAM for easy discovery
+- Enable proper synchronization between Adobe Commerce and AEM Assets
+- Maintain relationships between assets and products after migration
 
 For each media file you plan to migrate, provide values for the metadata fields included in the [AEM Assets metadata profile for Commerce assets](aem-assets-configure-aem.md) as described in the following table.
 
@@ -46,13 +96,13 @@ assetPath,dc:title{{String}},dam:status{{String}},commerce:positions{{String: mu
 
 +++
 
-## Step 3: Bulk Import Assets into AEM Assets
+### Step 3: Bulk Import Assets into AEM Assets
 
 After creating the metadata mapping file, use the AEM Assets Bulk Import Tool to import your assets.
 
 The following is a high-level overview for using the tool. For detailed instructions, see [Bulk upload assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/add-assets#bulk-upload) in the  *AEM as a Cloud Service User Guide*.
 
-1. Log in to your AEM Assets as a Cloud Service environment.
+1. Log in to your AEM Assets as a Cloud Service author environment.
 
 1. From the Experience Manager Tools view, select **[!UICONTROL Assets]** > **[!UICONTROL Bulk Import]**.
 
