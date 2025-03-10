@@ -20,7 +20,7 @@ To offer this shipping method to your customers, you must first open an account.
 
 ## Step 2: Obtain UPS OAUTH Credentials
 
-Follow the steps in the [Getting Started with UPS API guide](https://developer.ups.com/get-started) to obtain the API credentials (client id and client secret) to enable the UPS integration. You need to create an application to get the credentials.
+Follow the steps in the [Getting Started with UPS API guide](https://developer.ups.com/get-started) to obtain the API credentials (client id and client secret) to enable the UPS integration. You must create a UPS application to get the credentials.
 
 When you configure the UPS settings in the Admin, use the credential values for the `username` and `password`.
 
