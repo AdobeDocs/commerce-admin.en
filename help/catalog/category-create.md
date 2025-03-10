@@ -110,7 +110,7 @@ Also define any associated keywords and attributes, such as:
 
 1. If you want the category page to include the _`Filter by Attribute`_ section of layered navigation, set **[!UICONTROL Anchor]** to `Yes`.
 
-1. For the **[!UICONTROL Available Product Listing Sort By]** options, select one or more of the available values to be available for customers to sort the list. This setting does not apply to the [!DNL Live Search] [Product Listing Page Widget](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
+1. For the **[!UICONTROL Available Product Listing Sort By]** options, select one or more of the available values to be available for customers to sort the list. This setting does not apply to the [!DNL Live Search] [Product Listing Page Widget](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).
 
    By default, all available values are included. Deselect the **[!UICONTROL Use All]** checkbox to change the selections. For example, the values might include:
 
@@ -118,7 +118,7 @@ Also define any associated keywords and attributes, such as:
    - `Product Name`
    - `Price`
 
-1. To set the default sort order for the category, choose the **[!UICONTROL Default Product Listing Sort By]** value. This setting does not apply to the [!DNL Live Search] [Product Listing Page Widget](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
+1. To set the default sort order for the category, choose the **[!UICONTROL Default Product Listing Sort By]** value. This setting does not apply to the [!DNL Live Search] [Product Listing Page Widget](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).
 
 1. To change the default layered navigation [price step](navigation-layered.md#configure-price-navigation) setting, do the following:
 

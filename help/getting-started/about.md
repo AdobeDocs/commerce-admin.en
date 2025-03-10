@@ -107,7 +107,7 @@ The latest release builds on a series of updates from 2023 that added Apple Pay,
 
 >[!TIP]
 >
->To learn how to get started with Payment Services, read our [documentation](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/guide-overview).
+>To learn how to get started with Payment Services, read our [documentation](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview).
 
 #### Headless support for Payment Services
 
@@ -115,7 +115,7 @@ The latest release builds on a series of updates from 2023 that added Apple Pay,
 
 Payment Services now includes GraphQL support so merchants can accept and process payments  on headless storefront implementations, such as Adobe Experience Manager and other custom front ends.
 
-Payment Services also offers right-for-you pricing options, including Interchange++ for more competitive payment processing rates and [self-service onboarding](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/get-started/production) to Payment Services Basic providing payment processing capabilities to almost 200 regions worldwide.
+Payment Services also offers right-for-you pricing options, including Interchange++ for more competitive payment processing rates and [self-service onboarding](https://experienceleague.adobe.com/en/docs/commerce/payment-services/get-started/production) to Payment Services Basic providing payment processing capabilities to almost 200 regions worldwide.
 
 >[!TIP]
 >
@@ -131,7 +131,7 @@ These digital wallets provide shoppers with the right payment method for them, i
 
 >[!TIP]
 >
->To learn how to configure Google Pay, read our [documentation](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/payments-checkout/payments-options#google-pay-button).
+>To learn how to configure Google Pay, read our [documentation](https://experienceleague.adobe.com/en/docs/commerce/payment-services/payments-checkout/payments-options#google-pay-button).
 
 ### Live Search, Powered by Adobe Sensei
 
@@ -141,17 +141,17 @@ Companies are seeking to personalize every part of the buying journey, from help
 
 [Live Search, powered by Adobe Sensei](https://business.adobe.com/products/magento/live-search.html), helps you personalize how customers find exactly what they need so you can increase your conversion rates. In fact, Live Search customers boost conversion rates by an average of 7% after launching Live Search, with 15% of customers experiencing over a 40% conversion lift.
 
-Adobe's latest release of Live Search focuses on making these features easy to use and empowers you to fully customize the search experience to fit your unique needs. You can now apply specific [AI re-ranking rules](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/rules/rules-add) for your highest volume searches, then supplement those rules with a default fallback rule to cover the long tail of _all other queries_.
+Adobe's latest release of Live Search focuses on making these features easy to use and empowers you to fully customize the search experience to fit your unique needs. You can now apply specific [AI re-ranking rules](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/rules/rules-add) for your highest volume searches, then supplement those rules with a default fallback rule to cover the long tail of _all other queries_.
 
 For example, a merchandiser can set a rule that any search query containing the phrase "dress" should be sorted by the _trending items_ algorithm. That same merchandiser can then use the _most purchased_ algorithm for all other search queries. With this update, brands can showcase their top products for every search, simplifying personalized merchandising.
 
 ![A screenshot of a search engine](assets/default-search-rule.png){align=center zoomable="yes"}
 
-Adobe has also introduced new customization options for Live Search. Using Live Search's [PLP Widget](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling) and [Popover Widget](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/storefront-popover), you can design the Live Search UI features, including color swatches, product detail page layout options, add to cart buttons, price sliders, and more using low code configuration tools. Adobe provides full flexibility through an [open code repository](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/install), which serves as a best-practice reference implementation.
+Adobe has also introduced new customization options for Live Search. Using Live Search's [PLP Widget](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling) and [Popover Widget](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/storefront-popover), you can design the Live Search UI features, including color swatches, product detail page layout options, add to cart buttons, price sliders, and more using low code configuration tools. Adobe provides full flexibility through an [open code repository](https://experienceleague.adobe.com/en/docs/commerce/live-search/install), which serves as a best-practice reference implementation.
 
 >[!TIP]
 >
->To learn how to get started with Live Search, read our [documentation and updated installation guide](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)
+>To learn how to get started with Live Search, read our [documentation and updated installation guide](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)
 
 #### Data Management Dashboard
 
@@ -165,7 +165,7 @@ This new dashboard can be accessed directly from the Adobe Commerce Admin ([!UIC
 
 [!BADGE Available June 2024]{type=Informative tooltip="Available June 2024"}
 
-Last year, Adobe Commerce released [Data Connection](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview), which automatically collects, maps, and shares a range of Commerce data including storefront clicks and back-office order status and order history information. Today, digital commerce leaders are using Data Connection to break down data siloes, create unified customer profiles and audiences, personalize customer journeys, and power rich analytics.
+Last year, Adobe Commerce released [Data Connection](https://experienceleague.adobe.com/en/docs/commerce/data-connection/overview), which automatically collects, maps, and shares a range of Commerce data including storefront clicks and back-office order status and order history information. Today, digital commerce leaders are using Data Connection to break down data siloes, create unified customer profiles and audiences, personalize customer journeys, and power rich analytics.
 
 This year, Adobe will share even more data, including [Commerce customer profiles](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/update-account), mobile app behavior, and custom attributes for back-office events to personalize campaigns and experiences at scale.
 
@@ -191,13 +191,13 @@ Adobe has expanded these [Audience Activation](https://experienceleague.adobe.co
 
 #### Track and personalize commerce in native mobile apps
 
-Adobe is also bringing hyper-personalized experiences to mobile app commerce. Using [Data Connection](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview), you can send mobile app events from Adobe Commerce to other Adobe Experience Cloud applications, including Adobe Real-Time CDP, Adobe Journey Optimizer, Customer Journey Analytics, Adobe Analytics, and Adobe Target. Using [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation), you can personalize the mobile app experience – including dynamic content, promotions, and related product rules – based on audiences created and managed within Adobe Real-Time CDP. 
+Adobe is also bringing hyper-personalized experiences to mobile app commerce. Using [Data Connection](https://experienceleague.adobe.com/en/docs/commerce/data-connection/overview), you can send mobile app events from Adobe Commerce to other Adobe Experience Cloud applications, including Adobe Real-Time CDP, Adobe Journey Optimizer, Customer Journey Analytics, Adobe Analytics, and Adobe Target. Using [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation), you can personalize the mobile app experience – including dynamic content, promotions, and related product rules – based on audiences created and managed within Adobe Real-Time CDP. 
 
 ![Mobile App data](assets/mobile-app-data.png)
  
 >[!TIP]
 >
->- To learn how to get started with Adobe Commerce Data Connection, read our [documentation](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview).
+>- To learn how to get started with Adobe Commerce Data Connection, read our [documentation](https://experienceleague.adobe.com/en/docs/commerce/data-connection/overview).
 >- To start your personalization journey and learn about common personalization use cases, review the [personalization at scale documentation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customers-menu/personalize-scale).
 
 Explore Coca-Cola's digital transformation journey to create personalized shopping experiences at scale using Adobe Commerce's Data Connection with Adobe Journey Optimizer and Real-time CDP. [Coca-Cola: Unlocking Data to Create Consumer-Centric Commerce Experiences](https://business.adobe.com/summit/2024/sessions/cocacola-unlocking-data-to-create-consumercentric-s434.html).

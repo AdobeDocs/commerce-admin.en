@@ -30,7 +30,7 @@ Did you know that people who use search are nearly twice as likely to make a pur
 
 ### [!DNL Live Search]
 
-With [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) for Adobe Commerce, your store delivers a fast, super-relevant, and intuitive search experience, and is available for Adobe Commerce at no additional charge.
+With [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) for Adobe Commerce, your store delivers a fast, super-relevant, and intuitive search experience, and is available for Adobe Commerce at no additional charge.
 
 ![Live Search example - search as you type](./assets/storefront-search-as-you-type.png){width="700"}
 
