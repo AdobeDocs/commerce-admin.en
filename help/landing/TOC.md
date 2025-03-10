@@ -18,4 +18,3 @@ feature: Admin Workspace
 - [Stores and Purchase Experience](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/guide-overview.html)
 - [Admin systems](https://experienceleague.adobe.com/docs/commerce-admin/systems/guide-overview.html)
 - [Configuration Reference Guide](https://experienceleague.adobe.com/docs/commerce-admin/config/guide-overview.html)
-- [Services for Commerce](services.md)
