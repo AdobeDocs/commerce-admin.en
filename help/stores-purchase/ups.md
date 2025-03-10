@@ -16,7 +16,7 @@ United Parcel Service (UPS) offers domestic and international shipping services 
 
 ## Step 1: Open a UPS Shipping Account
 
-To offer this shipping method to your customers, you must first open an account.
+To offer this shipping method to your customers, you must first open account and complete the application to obtain a Shipper account number. See [Open a Free UPS Account](https://www.ups.com/us/en/business-solutions/open-an-account).
 
 ## Step 2: Obtain UPS OAUTH Credentials
 
