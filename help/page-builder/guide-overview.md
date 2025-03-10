@@ -7,7 +7,7 @@ exl-id: 983ef3a8-b803-40ff-a9f5-07eb895df31c
 ---
 # [!DNL Page Builder] User Guide
 
-This guide is intended for administrators of Adobe Commerce and Magento Open Source. It provides detailed information about [!DNL Page Builder] features, including a three-part walkthrough for building basic content components. It assumes a basic understanding of the core [!DNL Commerce] configuration, and functionality.
+This guide is intended for administrators working in the Adobe Commerce and Magento Open Source Admin. It provides detailed information about [!DNL Page Builder] features, including a three-part walkthrough for building basic content components. It assumes a basic understanding of the core [!DNL Commerce] configuration, and functionality.
 
 [!DNL Page Builder] has two areas for store administrators:
 

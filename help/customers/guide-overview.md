@@ -8,7 +8,7 @@ exl-id: ad10713a-f3ae-47dc-8c48-ab464a52b362
 
 # Adobe Commerce Customer Management Guide
 
-This guide is intended for customer service staff working in Adobe Commerce and Magento Open Source. It provides detailed information about customer management features in the Commerce Admin and the customer account experience in the storefront. It assumes a basic understanding of the core Commerce configuration and functionality.
+This guide is intended for customer service staff working in the Adobe Commerce and Magento Open Source Admin. It provides detailed information about customer management features in the Commerce Admin and the customer account experience in the storefront. It assumes a basic understanding of the core Commerce configuration and functionality.
 
 | Subject | Description |
 | ------- | ----------- |
