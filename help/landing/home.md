@@ -1,16 +1,16 @@
 ---
-title: Adobe Commerce merchant documentation
+title: Adobe Commerce Admin User Guides
 description: Browse Adobe Commerce product documentation
 seo-title: Services for Adobe Commerce
 seo-description: Documentation and resources for Adobe Commerce and Magento Open Source users working in the Admin.
-breadcrumb-title: Merchant Documentation
+breadcrumb-title: Admin User Guides
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
 ---
-# <!-- use banner as heading -->![Merchant documentation](./assets/banner-user-home.png) {#documentation}
+# <!-- use banner as heading -->![Admin documentation](./assets/banner-user-home.png) {#documentation}
 
 Welcome to the next generation of the world's leading digital commerce platform. Adobe Commerce provides online merchants with unparalleled flexibility and control over the look, content, and functionality of their online stores. The Admin features powerful marketing, search engine optimization, and product management tools that give you the power to create sites that are tailored to your unique business needs.
 
-The information in the merchant documentation is designed to accommodate business users working in Adobe Commerce or the Magento Open Source code base. There are notations for features and functions that are exclusive to Adobe Commerce, or to an extended feature set.
+The information in the Admin User Guides is designed to accommodate business users working in Adobe Commerce Admin or the Magento Open Source code base. There are notations for features and functions that are exclusive to Adobe Commerce, or to an extended feature set.
 
 ## Adobe Commerce {#product-editions}
 
@@ -22,7 +22,7 @@ For a list of the advanced capabilities included with Adobe Commerce, see [Comme
 
 Magento Open Source is the code base that Adobe officially contributes to and ensures compatibility for transition to Adobe Commerce. This code base is part of Adobe's initiative to empower individual developers and foster small businesses who aspire to grow fast. 
 
-## Merchant guides
+## Admin User Guides
 
 <table>
 <tr>
@@ -31,7 +31,7 @@ Magento Open Source is the code base that Adobe officially contributes to and en
    <td valign="top">
    <a href="https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html"><strong>Getting Started</strong></a>
     <div>
-    <em>The "why, where, and how" questions that most merchants have when first learning to use Adobe Commerce or Magento Open Source, as well as resources and reference information. This guide is a springboard to more advanced topics.</em>
+    <em>The "why, where, and how" questions that most merchants have when first learning to the Admin, as well as resources and reference information. This guide is a springboard to more advanced topics.</em>
     <br> </div>
   </td>
   </tr>
@@ -109,7 +109,7 @@ Magento Open Source is the code base that Adobe officially contributes to and en
 </tr>
 </table>
 
-## What's new in the merchant guides
+## What's new in the Admin User Guides
 
 >[!TIP]
 >

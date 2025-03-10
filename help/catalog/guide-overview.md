@@ -7,7 +7,7 @@ exl-id: 894b7cc3-8dc5-43aa-ab9c-ebc6480c7b2f
 ---
 # Adobe Commerce Catalog Management Guide
 
-This guide is intended for product merchandisers and inventory managers working in Adobe Commerce and Magento Open Source. It provides detailed information about product catalog features, including the building the navigation structures for a catalog. It assumes a basic understanding of the core [!DNL Commerce] configuration, and functionality.
+This guide is intended for product merchandisers and inventory managers working in the Adobe Commerce and Magento Open Source Admin. It provides detailed information about product catalog features, including the building the navigation structures for a catalog. It assumes a basic understanding of the core [!DNL Commerce] configuration, and functionality.
 
 This guide covers:
 

@@ -8,7 +8,7 @@ recommendations: noCatalog
 ---
 # Adobe Commerce Getting Started Guide
 
-This guide is intended for merchants and system administrators that are new to Adobe Commerce. It provides an overview of the platform from their perspective and some detailed information about basic features that enable a functional store.
+This guide is intended for merchants and system administrators that are new to the Adobe Commerce Admin. It provides an overview of the platform from their perspective and some detailed information about basic features that enable a functional store.
 
 This guide covers:
 
