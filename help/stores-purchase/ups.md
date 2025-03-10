@@ -36,7 +36,7 @@ When you configure the UPS settings in the Admin, use the credential values for 
 
 1. For a UPS REST account (default), do the following:
 
-   - Enter your UPS credentials: UPS ClientID as **[!UICONTROL User ID]**, UPS Client Secret as **[!UICONTROL Password]** obtained
+   - Enter your UPS credentials: UPS ClientID as **[!UICONTROL User ID]**, UPS Client Secret as **[!UICONTROL Password]**.
 
    - Set **[!UICONTROL Mode]** to `Live` to send data to the UPS shipping system over a secure connection. (Development mode does not send data over a secure connection.)
 
