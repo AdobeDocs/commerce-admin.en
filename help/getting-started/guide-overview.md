@@ -1,8 +1,8 @@
 ---
-title: Adobe Commerce Getting Started Guide
-description: Comprehensive information for merchants that are new to Adobe Commerce.
-seo-title: Adobe Commerce Getting Started Guide
-seo-description: Describes basic tools and initial tasks for launching an Adobe Commerce or Magento Open Source store.
+title: Adobe Commerce Admin Getting Started Guide
+description: Comprehensive information for merchants that are new to the Adobe Commerce Admin.
+seo-title: Adobe Commerce Admin Getting Started Guide
+seo-description: Describes basic Admin tools and initial tasks for launching an Adobe Commerce or Magento Open Source store.
 exl-id: 1397872f-d5d0-46e4-9bb6-ab6b0c07255d
 recommendations: noCatalog
 ---
@@ -14,7 +14,6 @@ This guide covers:
 
 | Subject | Description |
 | ------- | ----------- |
-| [About Commerce](about.md) | Learn about the current Adobe Commerce release. |
 | [Login Credentials and URLs](login-urls.md) | Learn about the [!DNL Commerce] URLs and account credentials used to gain access to your Admin and to your storefront. |
 | [[!DNL Commerce] accounts](commerce-account-create.md)  | Learn about [!DNL Commerce] accounts, which manage the products and services that you have purchased. |
 | [The Admin](admin.md) | Learn about the [!DNL Commerce] Admin, the place where merchants set up products and promotions, manage orders, and perform other administrative tasks. |
