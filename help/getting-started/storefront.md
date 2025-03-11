@@ -14,11 +14,11 @@ The path customers take to a sale is sometimes called the _path to purchase_, an
 
 With the introduction of the [!DNL **Commerce Storefront powered by Edge Delivery Services**], Adobe offers a high-performance, scalable, and reliable storefront that leverages cutting-edge technology to deliver superior speed and user experience.
 
-- **Enhanced performance**: Utilizing Edge Delivery Services, the storefront ensures faster load times and improved site performance, which can lead to higher conversion rates and better SEO rankings[1](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/edge-delivery-services/getting-started/shopper-experience).
+- **Enhanced performance**: Hosting storefronts on Edge Delivery Services ensures faster load times and improved site performance, which can lead to higher conversion rates and better SEO rankings.
 
-- **Scalability**: The architecture supports seamless scaling to handle increased traffic and larger product catalogs without compromising performance[2](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/webinars-and-events/enablement-series/edge-delivery-services-with-adobe-commerce).
+- **Scalability**: The architecture supports seamless scaling to handle increased traffic and larger product catalogs without compromising performance.
 
-- **Flexibility**: The storefront is highly customizable, allowing businesses to tailor the shopping experience to their unique needs. This includes the integration of various content and commerce products[2](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/webinars-and-events/enablement-series/edge-delivery-services-with-adobe-commerce).
+- **Flexibility**: The storefront is highly customizable, allowing businesses to tailor the shopping experience to their unique needs.
 
 - **Improved user experience**: Features such as advanced caching, real-time updates, and personalized content delivery contribute to a smoother and more engaging shopping experience.
 
@@ -53,7 +53,7 @@ Headless implementation enables developers to decouple the frontend presentation
 
 >[!NOTE]
 >
->While the Commerce Storefront offers numerous advantages, Adobe continues to support the original Luma-based storefront. This ensures that businesses currently using Luma can continue to operate without disruption and have the option to transition to the new storefront at their own pace.
+>While the Commerce Storefront offers numerous advantages, Adobe continues to support the original Luma-based storefront. Businesses currently using Luma can continue to operate without disruption and have the option to transition to the new storefront at their own pace.
 
 ## Home page
 
@@ -75,7 +75,7 @@ Did you know that people who use search are nearly twice as likely to make a pur
 
 ### [!DNL Live Search]
 
-With [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) for Adobe Commerce, your store delivers a fast, super-relevant, and intuitive search experience, and is available for Adobe Commerce at no additional charge.
+With [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) for Adobe Commerce, your store delivers a fast, super-relevant, and intuitive search experience, and is available for Adobe Commerce at no additional charge.
 
 ![Live Search example - search as you type](./assets/storefront-search-as-you-type.png){width="700"}
 
@@ -93,13 +93,13 @@ The product page has a lot going on! The first thing that catches your eye on th
 
 ## Shopping cart
 
-The cart is where order total can be determined, along with discount coupons and estimated shipping and tax, and a great place to display your trust badges and seals. It is also an ideal opportunity to offer one last item. As a cross-sell, you can select certain items to be offered as an impulse purchase whenever a specific item appears in the cart.
+The cart shows the order total, including any discount coupons, estimated shipping, and tax. These features make it a great place to display trust badges and seals. You can also use the cart page as an opportunity for one final offer. For example, you can set up cross-sell items that appear as impulse purchase options when specific products are in the cart.
 
 ![Example storefront shopping cart page](./assets/storefront-cart-full.png){width="700"}
 
 ## Checkout page
 
-Checkout process consists of two steps:
+The checkout process consists of two steps:
 
 1. Shipping Information
 
@@ -110,7 +110,7 @@ Checkout process consists of two steps:
 
 1. Review and Payment Information
 
-   The second step of the checkout process is for the customer to choose the payment method and optionally apply a  discount code.
+   The second step of the checkout process is for the customer to choose the payment method and optionally apply a discount code.
 
    >[!NOTE]
    >
@@ -122,4 +122,4 @@ The progress bar at the top of the page follows each step of the checkout proces
 
 >[!NOTE]
 >
->The exception to a two-step checkout applies to virtual and/or downloadable products. If there are only these types of products in the shopping cart, checkout is automatically transformed to one-step procedure, because shipping information is not required.
+>The exception to a two-step checkout applies to virtual and/or downloadable products. If there are only these types of products in the shopping cart, checkout is automatically transformed to a one-step procedure, because shipping information is not required.
