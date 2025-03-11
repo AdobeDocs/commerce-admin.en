@@ -13,7 +13,7 @@ For example, you can add new products to your inventory, update product data and
 
 >[!NOTE]
 >
->Adobe Commerce also supports SaaS data export to transfer product data from the Commerce server to SaaS services. SaaS data export is integrated with Commerce SaaS Services including [Product Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html), [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview), and [Catalog Service](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview). For details, see the [SaaS Data Export Guide](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
+>Adobe Commerce also supports SaaS data export to transfer product data from the Commerce server to SaaS services. SaaS data export is integrated with Commerce SaaS Services including [Product Recommendations](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html), [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview), and [Catalog Service](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview). For details, see the [SaaS Data Export Guide](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview).
 
 ## Data validation
 

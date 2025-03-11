@@ -113,7 +113,7 @@ Magento Open Source is the code base that Adobe officially contributes to and en
 
 >[!TIP]
 >
->You can also review [what's new in the Commerce Services documentation](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html#what%E2%80%99s-new) and [what's new in the Operational guides](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html#what%E2%80%99s-new).
+>You can also review [what's new in the Commerce Services documentation](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html#what%E2%80%99s-new) and [what's new in the Operational guides](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html#what%E2%80%99s-new).
 
 | Description | Type | Date |
 | ----------- | ---- | ---- |
