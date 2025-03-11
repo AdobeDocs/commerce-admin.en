@@ -10,6 +10,24 @@ Within your Adobe Commerce or Magento Open Source implementation, the storefront
 
 The path customers take to a sale is sometimes called the _path to purchase_, and your storefront includes the components for customers to complete this path. The following sections provide an overview of the basic page types that provide strategic value---the places customers usually visit while shopping in your store. As you review them, consider different store features that can be used at each stage of the customer journey.
 
+## Commerce Storefront
+
+With the introduction of the [!DNL **Commerce Storefront powered by Edge Delivery Services**], Adobe offers a high-performance, scalable, and reliable storefront that leverages cutting-edge technology to deliver superior speed and user experience.
+
+- **Enhanced performance**: Utilizing Edge Delivery Services, the storefront ensures faster load times and improved site performance, which can lead to higher conversion rates and better SEO rankings[1](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/edge-delivery-services/getting-started/shopper-experience).
+
+- **Scalability**: The architecture supports seamless scaling to handle increased traffic and larger product catalogs without compromising performance[2](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/webinars-and-events/enablement-series/edge-delivery-services-with-adobe-commerce).
+
+- **Flexibility**: The storefront is highly customizable, allowing businesses to tailor the shopping experience to their unique needs. This includes the integration of various content and commerce products[2](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/webinars-and-events/enablement-series/edge-delivery-services-with-adobe-commerce).
+
+- **Improved user experience**: Features such as advanced caching, real-time updates, and personalized content delivery contribute to a smoother and more engaging shopping experience.
+
+For more detailed information and guidance on setting up and optimizing your Commerce Storefront, see the [Adobe Commerce Storefront Documentation](https://experienceleague.adobe.com/en/docs/commerce).
+
+>[!NOTE]
+>
+>While the Commerce Storefront offers numerous advantages, Adobe continues to support the original Luma-based storefront. This ensures that businesses currently using Luma can continue to operate without disruption and have the option to transition to the new storefront at their own pace.
+
 ## Home page
 
 Did you know that most people spend only a few seconds on a page before they decide to stay or go somewhere else? It is not long to make an impression. Studies show that people also love photographs, especially of other people. Whatever design you choose, everything on your home page should move visitors along toward the next step in the sales process. The idea is to guide their attention in a cohesive flow from one point of interest to the next.
