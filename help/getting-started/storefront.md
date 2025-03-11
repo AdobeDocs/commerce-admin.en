@@ -10,6 +10,51 @@ Within your Adobe Commerce or Magento Open Source implementation, the storefront
 
 The path customers take to a sale is sometimes called the _path to purchase_, and your storefront includes the components for customers to complete this path. The following sections provide an overview of the basic page types that provide strategic value---the places customers usually visit while shopping in your store. As you review them, consider different store features that can be used at each stage of the customer journey.
 
+## Commerce Storefront
+
+With the introduction of the [!DNL **Commerce Storefront powered by Edge Delivery Services**], Adobe offers a high-performance, scalable, and reliable storefront that leverages cutting-edge technology to deliver superior speed and user experience.
+
+- **Enhanced performance**: Hosting storefronts on Edge Delivery Services ensures faster load times and improved site performance, which can lead to higher conversion rates and better SEO rankings.
+
+- **Scalability**: The architecture supports seamless scaling to handle increased traffic and larger product catalogs without compromising performance.
+
+- **Flexibility**: The storefront is highly customizable, allowing businesses to tailor the shopping experience to their unique needs.
+
+- **Improved user experience**: Features such as advanced caching, real-time updates, and personalized content delivery contribute to a smoother and more engaging shopping experience.
+
+### Key features
+
+The Commerce Storefront powered by Edge Delivery Services offers several key features that benefit both merchants and developers. These features enable businesses to create engaging shopping experiences while maintaining the flexibility to customize and scale their storefronts according to their needs.
+
+For more detailed information and guidance on setting up and optimizing your Commerce Storefront, see the [Adobe Commerce Storefront Documentation](https://experienceleague.adobe.com/en/docs/commerce).
+
+>[!BEGINTABS]
+
+>[!TAB Merchants]
+
+The Commerce Storefront powered by Edge Delivery Services provides an intuitive document-based authoring experience that makes it easy for merchants to create and manage content. Using familiar tools like Microsoft Word or Google Docs, merchants can create rich content while maintaining version control and collaborating with team members.
+
+- **Simplified content creation**: Create and edit content using familiar document-based authoring tools, like Microsift Word or Google Docs.
+- **Real-time preview**: See changes instantly with live preview capabilities before publishing.
+- **Version control**: Track content changes and easily roll back to previous versions.
+- **Collaborative workflow**: Multiple team members can work on content simultaneously with built-in review processes.
+- **Content reuse**: Create content blocks that can be reused across multiple pages to maintain consistency.
+
+>[!TAB Developers]
+
+Headless implementation enables developers to decouple the frontend presentation layer from the backend commerce functionality, allowing for flexible, custom storefronts built with modern technologies while leveraging Commerce's robust backend services.
+
+- **API-first architecture**: Build custom frontend experiences using modern frameworks while leveraging Commerce backend services.
+- **Composable components**: Create and deploy modular, reusable components that can be assembled into different page layouts.
+- **Extensible platform**: Add custom functionality through APIs and webhooks without modifying core code.
+- **Modern development tools**: Use industry-standard development tools and workflows for faster implementation and deployment.
+
+>[!ENDTABS]
+
+>[!NOTE]
+>
+>While the Commerce Storefront offers numerous advantages, Adobe continues to support the original Luma-based storefront. Businesses currently using Luma can continue to operate without disruption and have the option to transition to the new storefront at their own pace.
+
 ## Home page
 
 Did you know that most people spend only a few seconds on a page before they decide to stay or go somewhere else? It is not long to make an impression. Studies show that people also love photographs, especially of other people. Whatever design you choose, everything on your home page should move visitors along toward the next step in the sales process. The idea is to guide their attention in a cohesive flow from one point of interest to the next.
@@ -30,7 +75,7 @@ Did you know that people who use search are nearly twice as likely to make a pur
 
 ### [!DNL Live Search]
 
-With [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) for Adobe Commerce, your store delivers a fast, super-relevant, and intuitive search experience, and is available for Adobe Commerce at no additional charge.
+With [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) for Adobe Commerce, your store delivers a fast, super-relevant, and intuitive search experience, and is available for Adobe Commerce at no additional charge.
 
 ![Live Search example - search as you type](./assets/storefront-search-as-you-type.png){width="700"}
 
@@ -48,13 +93,13 @@ The product page has a lot going on! The first thing that catches your eye on th
 
 ## Shopping cart
 
-The cart is where order total can be determined, along with discount coupons and estimated shipping and tax, and a great place to display your trust badges and seals. It is also an ideal opportunity to offer one last item. As a cross-sell, you can select certain items to be offered as an impulse purchase whenever a specific item appears in the cart.
+The cart shows the order total, including any discount coupons, estimated shipping, and tax. These features make it a great place to display trust badges and seals. You can also use the cart page as an opportunity for one final offer. For example, you can set up cross-sell items that appear as impulse purchase options when specific products are in the cart.
 
 ![Example storefront shopping cart page](./assets/storefront-cart-full.png){width="700"}
 
 ## Checkout page
 
-Checkout process consists of two steps:
+The checkout process consists of two steps:
 
 1. Shipping Information
 
@@ -65,7 +110,7 @@ Checkout process consists of two steps:
 
 1. Review and Payment Information
 
-   The second step of the checkout process is for the customer to choose the payment method and optionally apply a  discount code.
+   The second step of the checkout process is for the customer to choose the payment method and optionally apply a discount code.
 
    >[!NOTE]
    >
@@ -77,4 +122,4 @@ The progress bar at the top of the page follows each step of the checkout proces
 
 >[!NOTE]
 >
->The exception to a two-step checkout applies to virtual and/or downloadable products. If there are only these types of products in the shopping cart, checkout is automatically transformed to one-step procedure, because shipping information is not required.
+>The exception to a two-step checkout applies to virtual and/or downloadable products. If there are only these types of products in the shopping cart, checkout is automatically transformed to a one-step procedure, because shipping information is not required.
