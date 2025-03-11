@@ -22,7 +22,34 @@ With the introduction of the [!DNL **Commerce Storefront powered by Edge Deliver
 
 - **Improved user experience**: Features such as advanced caching, real-time updates, and personalized content delivery contribute to a smoother and more engaging shopping experience.
 
+### Key features
+
+The Commerce Storefront powered by Edge Delivery Services offers several key features that benefit both merchants and developers. These features enable businesses to create engaging shopping experiences while maintaining the flexibility to customize and scale their storefronts according to their needs.
+
 For more detailed information and guidance on setting up and optimizing your Commerce Storefront, see the [Adobe Commerce Storefront Documentation](https://experienceleague.adobe.com/en/docs/commerce).
+
+>[!BEGINTABS]
+
+>[!TAB Merchants]
+
+The Commerce Storefront powered by Edge Delivery Services provides an intuitive document-based authoring experience that makes it easy for merchants to create and manage content. Using familiar tools like Microsoft Word or Google Docs, merchants can create rich content while maintaining version control and collaborating with team members.
+
+- **Simplified content creation**: Create and edit content using familiar document-based authoring tools, like Microsift Word or Google Docs.
+- **Real-time preview**: See changes instantly with live preview capabilities before publishing.
+- **Version control**: Track content changes and easily roll back to previous versions.
+- **Collaborative workflow**: Multiple team members can work on content simultaneously with built-in review processes.
+- **Content reuse**: Create content blocks that can be reused across multiple pages to maintain consistency.
+
+>[!TAB Developers]
+
+Headless implementation enables developers to decouple the frontend presentation layer from the backend commerce functionality, allowing for flexible, custom storefronts built with modern technologies while leveraging Commerce's robust backend services.
+
+- **API-first architecture**: Build custom frontend experiences using modern frameworks while leveraging Commerce backend services.
+- **Composable components**: Create and deploy modular, reusable components that can be assembled into different page layouts.
+- **Extensible platform**: Add custom functionality through APIs and webhooks without modifying core code.
+- **Modern development tools**: Use industry-standard development tools and workflows for faster implementation and deployment.
+
+>[!ENDTABS]
 
 >[!NOTE]
 >
