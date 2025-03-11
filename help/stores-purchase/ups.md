@@ -18,9 +18,9 @@ United Parcel Service (UPS) offers domestic and international shipping services 
 
 To offer this shipping method to your customers, you must first open a UPS account and complete the application to obtain a Shipper account number. See [Open a Free UPS Account](https://www.ups.com/us/en/business-solutions/open-an-account).
 
-## Step 2: Obtain UPS OAUTH Credentials
+## Step 2: Obtain UPS OAUTH credentials
 
-Follow the steps in the [Getting Started with UPS API guide](https://developer.ups.com/get-started) to obtain the API credentials (client id and client secret) to enable the UPS integration. You must create a UPS application to get the credentials.
+Follow the steps in the [Getting Started with UPS APIs guide](https://developer.ups.com/get-started) to obtain the API credentials (client ID and client secret) to enable the UPS integration. You must create a UPS application to get the credentials.
 
 When you configure the UPS settings in the Admin, use the credential values for the `username` and `password`.
 
