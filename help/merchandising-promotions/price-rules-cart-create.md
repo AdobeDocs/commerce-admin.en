@@ -213,7 +213,7 @@ You can set a condition for a cart price rule based on a Real-Time CDP [audience
    |`Name` |Name of the audience, such as `Orders over $50`|
    |`Description`|Description of the audience, such as `People who placed an order over $50 in the last month.`.|
    |`Source`|Indicates where the audience came from, such as `Experience Platform`.|
-   |`Website`|Indicates which website you have linked to the datastream that contains the audiences. You create this link when you connect your Commerce instance to the Experience Platform through the [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html) extension.|
+   |`Website`|Indicates which website you have linked to the datastream that contains the audiences. You create this link when you connect your Commerce instance to the Experience Platform through the [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html) extension.|
 
    {style="table-layout:auto"}
 

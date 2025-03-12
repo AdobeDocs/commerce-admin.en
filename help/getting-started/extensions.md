@@ -59,7 +59,7 @@ The [[!DNL Commerce Marketplace]](https://marketplace.magento.com/) is the globa
 
 The [!DNL Live Search] extension connects your store to the Live Search service---a free search platform from Adobe Commerce that seamlessly empowers sellers to provide customers with an AI-enhanced search experience. Built with Adobe's artificial intelligence, Adobe Sensei, Intelligent Faceting helps merchants do more with less by removing the manual work around faceting/filtering.
 
-See the [Live Search User Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html) for more information.
+See the [Live Search User Guide](https://experienceleague.adobe.com/docs/commerce/live-search/guide-overview.html) for more information.
 
 ### [!DNL Product Recommendations]
 
@@ -67,19 +67,19 @@ See the [Live Search User Guide](https://experienceleague.adobe.com/docs/commerc
 
 The [!DNL Product Recommendations] extension connects your store to the Product Recommendations service---a powerful marketing tool that you can use to increase conversions, revenue, and engagement. [!DNL Product Recommendations] was built by Adobe Commerce and is driven by its battle tested artificial intelligence, Adobe Sensei, so that you can confidently drive engagement and conversion. This feature removes the manual work required to make relevant product recommendations to every shopper. 
 
-See the [[!DNL Product Recommendations] User Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html?lang=en) for more information.
+See the [[!DNL Product Recommendations] User Guide](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=en) for more information.
 
 ### [!DNL Catalog Service]
 
-The [!DNL Catalog Service] enables you to deliver customers an optimized product experience while boosting performance, improving scalability, and increasing conversions. See the [[!DNL Catalog Service] User Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/catalog-service/guide-overview.html) for more information.
+The [!DNL Catalog Service] enables you to deliver customers an optimized product experience while boosting performance, improving scalability, and increasing conversions. See the [[!DNL Catalog Service] User Guide](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html) for more information.
 
 ### [!DNL Payment Services]
 
-[!DNL Payment services] for Adobe Commerce and Magento Open Source is a fully integrated payment solution that simplifies the process of managing payments and provides your customers with the opportunity to pay their way. Securely reconcile all payment and transaction data within the Adobe Commerce Admin – allowing you to manage orders and payments in one place while delivering a seamless checkout. See the [[!DNL Payment Services] User Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html) for more information.
+[!DNL Payment services] for Adobe Commerce and Magento Open Source is a fully integrated payment solution that simplifies the process of managing payments and provides your customers with the opportunity to pay their way. Securely reconcile all payment and transaction data within the Adobe Commerce Admin – allowing you to manage orders and payments in one place while delivering a seamless checkout. See the [[!DNL Payment Services] User Guide](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html) for more information.
 
 ### [!DNL Store Fulfillment] 
 
-Store Fulfillment for Adobe Commerce and Magento Open Source enables a superior buy online, pick up in store (BOPIS) customer experience and maximizes employee productivity by providing a comprehensive fulfillment workflow enabled through a mobile device. See the [[!DNL Store Fulfillment] User Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/store-fulfillment/guide-overview.html) for more information.  
+Store Fulfillment for Adobe Commerce and Magento Open Source enables a superior buy online, pick up in store (BOPIS) customer experience and maximizes employee productivity by providing a comprehensive fulfillment workflow enabled through a mobile device. See the [[!DNL Store Fulfillment] User Guide](https://experienceleague.adobe.com/docs/commerce/store-fulfillment/guide-overview.html) for more information.  
 
 ### [!DNL Amazon Sales Channel]
 

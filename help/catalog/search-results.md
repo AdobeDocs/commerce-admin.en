@@ -8,7 +8,7 @@ feature: Catalog Management, Search
 
 >[!NOTE]
 >
->This page describes standard search functionality that might differ from [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html).
+>This page describes standard search functionality that might differ from [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
 
 The _Search Results_ list includes all products that match the search criteria entered in the Quick Search box or the Advanced Search form. Every product list in the catalog has essentially the same controls. The only difference is that one is the result of a search query, and the other difference is the result of [navigation](navigation.md).
 

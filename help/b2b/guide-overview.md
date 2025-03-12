@@ -9,7 +9,7 @@ feature: B2B
 ---
 # Adobe Commerce B2B Guide
 
-This guide is intended for administrators of Adobe Commerce. It provides detailed information about installing and enabling this module, including configuration and management of its features. It assumes a basic understanding of the core [!DNL Commerce] configuration, and functionality.
+This guide is intended for administrators working in the Adobe Commerce Admin. It provides detailed information about installing and enabling this module, including configuration and management of its features. It assumes a basic understanding of the core [!DNL Commerce] configuration, and functionality.
 
 There are two areas for store administrators:
 
