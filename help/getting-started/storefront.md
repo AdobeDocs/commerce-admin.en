@@ -53,7 +53,7 @@ Headless implementation enables developers to decouple the frontend presentation
 
 >[!NOTE]
 >
->While the Commerce Storefront offers numerous advantages, Adobe continues to support the original Luma-based storefront. Businesses currently using Luma can continue to operate without disruption and have the option to transition to the new storefront at their own pace.
+>While the Commerce Storefront offers numerous advantages, Adobe continues to support the original Luma-based storefront. Businesses currently using Luma can continue to operate without disruption and have the option to transition to the new storefront at their own pace. The remaining sections on this page are based on Luma examples.
 
 ## Home page
 
