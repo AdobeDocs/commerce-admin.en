@@ -6,11 +6,13 @@ feature: Extensions
 ---
 # Extensions from Adobe
 
-This topic provides information about extensions for Adobe Commerce and Magento Open Source that are released by Adobe. Extensions add features, functionality, services, and integrations to the Admin and storefront. Some of these extensions are developed through Magento Open Source Community contributions. Some extensions require separate installation, and others are installed by default.
+This topic provides information about extensions for Adobe Commerce and Magento Open Source that are released by Adobe.
 
-## Installed extensions
+Extensions add features, functionality, services, and integrations to the Admin and storefront. Some of these extensions are developed through Magento Open Source Community contributions. Some extensions require separate installation, and others are installed by default.
 
-There are some extensions that are automatically installed with Adobe Commerce or Magento Open Source.
+## Adobe extensions installed by default
+
+Some Adobe extensions are installed automatically with Adobe Commerce or Magento Open Source.
 
 ### [!DNL Inventory Management]
 
@@ -24,7 +26,7 @@ There are some extensions that are automatically installed with Adobe Commerce o
 
 ### Braintree
 
-PayPal and Gene Commerce together developed the official Braintree extension for Commerce 2.4.x stores. Featuring an improved checkout experience designed to drive conversion, the updates include PayLater options that automatically show relevant PayLater messages and buttons to consumers while shopping and during checkout. 
+PayPal and Gene Commerce together developed the official Braintree extension for Commerce 2.4.x stores. Featuring an improved checkout experience designed to drive conversion, the updates include PayLater options that automatically show relevant PayLater messages and buttons to consumers while shopping and during checkout.
 
 This extension is installed by default, but requires a [Braintree account](https://www.braintreepayments.com/) and configuration in the Admin to be enabled for your store. To determine the fees that apply when using Braintree to process your transactions, check the [Braintree pricing](https://www.braintreepayments.com/braintree-pricing).
 
@@ -49,42 +51,176 @@ These features are enabled by default. Each Admin user must install and configur
 >
 >Adobe Commerce stores that have enabled Adobe Identity Management Services (IMS) authentication for the Admin have native Commerce 2FA disabled. Users who are logged into the Admin with their Adobe credentials do not need to reauthenticate for many Admin tasks. Authentication is handled by Adobe IMS when the Admin user logs into their current session. See [Adobe Identity Management Service (IMS) Integration Overview](./adobe-ims-integration-overview.md).
 
-## Extensions to add
+## Adobe extensions that require installation
 
-The [[!DNL Commerce Marketplace]](https://marketplace.magento.com/) is the global eCommerce resource for applications and services that expand [!DNL Commerce] solutions with powerful new features and functionality. Adobe releases several extensions through the [!DNL Marketplace] that can be installed and configured within your Adobe Commerce or Magento Open Source store to provide enhanced integrations and capabilities.
+Adobe offers additional extensions that must be installed separately using Composer. These extensions are available through different channels:
+
+- Repository Access (repo.magento.com)
+
+  The following extensions require account provisioning and credentials to install. Contact your Adobe Account Representative for access permissions.
+
+  - [Adobe Commerce B2B](#adobe-commerce-b2b)
+  - [AEM Assets Integration for Commerce](#assets-integration-for-commerce)
+
+- Adobe Commerce Marketplace
+
+  The following Adobe extensions are publicly accessible at [marketplace.magento.com](https://marketplace.magento.com). These extensions are available at no additional cost.
+
+  - [Live Search](#live-search)
+  - [Product Recommendations](#product-recommendations)
+  - [Catalog Service](#catalog-service)
+  - [Payment Services](#payment-services)
+
+### [!DNL Adobe Commerce B2B]
+
+![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce only, requires a separate license.
+
+[!DNL Adobe Commerce B2B] provides comprehensive B2B (Business to Business) capabilities that transform your Commerce store into a customized B2B solution. Key features include:
+
+- **Company Account Management**
+  - Complex organizational structures
+  - Company hierarchy management
+  - Customizable roles and permissions
+  - Company credit management
+  - Self-service company administration
+
+- **B2B Purchasing Tools**
+  - Shared catalogs with custom pricing
+  - Quick order functionality
+  - Requisition lists
+  - Purchase order management
+  - Negotiable quotes
+
+- **Streamlined Operations**
+  - Company-specific catalogs and pricing
+  - Automated approval workflows
+  - Corporate account management
+  - B2B and B2C support on single instance
+
+For implementation details and configuration steps, see the [[!DNL B2B for Adobe Commerce] User Guide](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+
+
+### [!DNL AEM Assets Integration for Commerce]
+
+>[!NOTE]
+>
+>Requires Adobe Commerce and Adobe Experience Manager Assets licenses.
+
+The Assets Integration for Commerce connects your Adobe Commerce store with Adobe Experience Manager Assets, providing a centralized digital asset management (DAM) system. Key features include:
+
+- **Centralized Asset Management**
+  - Single source of truth for product assets
+  - Automated asset synchronization
+  - Consistent brand experience across channels
+  - Enterprise-grade DAM capabilities
+
+- **Streamlined Workflows**
+  - Direct access to approved assets from Commerce Admin
+  - Automated metadata synchronization
+  - Real-time asset updates
+  - Efficient content reuse
+
+- **Enhanced Performance**
+  - Cloud-based asset delivery
+  - Optimized image renditions
+  - Fast loading product media
+  - Reduced storage requirements
+
+For implementation details and configuration steps, see the [[!DNL Assets Integration] User Guide](https://experienceleague.adobe.com/docs/commerce-admin/content-design/aem-asset-management/aem-assets-integration.html).
 
 ### [!DNL Live Search]
 
 ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce only
 
-The [!DNL Live Search] extension connects your store to the Live Search service---a free search platform from Adobe Commerce that seamlessly empowers sellers to provide customers with an AI-enhanced search experience. Built with Adobe's artificial intelligence, Adobe Sensei, Intelligent Faceting helps merchants do more with less by removing the manual work around faceting/filtering.
+[!DNL Live Search] delivers an AI-powered search experience that transforms the way shoppers find products on your store. This extension replaces the default Commerce search capabilities with an intelligent, lightning-fast search solution that includes:
 
-See the [Live Search User Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html) for more information.
+- "Search-as-you-type" results with product thumbnails
+- AI-powered merchandising rules for product boosting and burying
+- Intelligent faceting that automatically adjusts filters based on shopper behavior
+- Synonym management to improve search relevance
+- Analytics and search term management
+- Support for Commerce search term redirects
+
+The service is included with Adobe Commerce at no additional cost and requires minimal configuration to get started. For implementation details and technical requirements, see the [Live Search User Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html).
 
 ### [!DNL Product Recommendations]
 
 ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce only
 
-The [!DNL Product Recommendations] extension connects your store to the Product Recommendations service---a powerful marketing tool that you can use to increase conversions, revenue, and engagement. [!DNL Product Recommendations] was built by Adobe Commerce and is driven by its battle tested artificial intelligence, Adobe Sensei, so that you can confidently drive engagement and conversion. This feature removes the manual work required to make relevant product recommendations to every shopper. 
+[!DNL Product Recommendations] powered by Adobe Sensei delivers intelligent product recommendations that personalize the shopping experience. Key capabilities include:
 
-See the [[!DNL Product Recommendations] User Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html?lang=en) for more information.
+- **AI-Powered Intelligence**
+  - Machine learning analysis of shopper behavior
+  - Automatic product relationship mapping
+  - Real-time recommendation adjustments
+  - Adobe Sensei artificial intelligence technology
+
+- **Enhanced Shopping Experience**
+  - Personalized product discoveries
+  - Relevant recommendations throughout customer journey
+  - Improved shopper engagement
+  - More engaging product discovery
+
+- **Business Benefits**
+  - Increased conversion rates
+  - Higher revenue potential
+  - No manual merchandising rules required
+  - Frees team to focus on strategic initiatives
+
+For implementation details and best practices, see the [[!DNL Product Recommendations] User Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html).
 
 ### [!DNL Catalog Service]
 
-The [!DNL Catalog Service] enables you to deliver customers an optimized product experience while boosting performance, improving scalability, and increasing conversions. See the [[!DNL Catalog Service] User Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/catalog-service/guide-overview.html) for more information.
+>[!NOTE]
+>
+>Compatible with both Adobe Commerce and Magento Open Source installations.
+
+The [!DNL Catalog Service] delivers high-performance catalog data access for your Adobe Commerce storefront. Key benefits include:
+
+- **Fast Product Data Delivery**
+  - Real-time catalog synchronization
+  - Optimized GraphQL API endpoints
+  - Reduced page load times
+
+- **Enhanced Shopping Experience**
+  - High-performance product pages and listings
+  - Improved storefront scalability
+  - Better conversion rates
+
+- **Flexible Implementation**
+  - Ideal for headless commerce solutions
+  - Supports custom storefront development
+  - Minimal configuration required
+
+For setup instructions and technical details, see the [[!DNL Catalog Service] User Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/catalog-service/guide-overview.html).
+
 
 ### [!DNL Payment Services]
 
-[!DNL Payment services] for Adobe Commerce and Magento Open Source is a fully integrated payment solution that simplifies the process of managing payments and provides your customers with the opportunity to pay their way. Securely reconcile all payment and transaction data within the Adobe Commerce Admin – allowing you to manage orders and payments in one place while delivering a seamless checkout. See the [[!DNL Payment Services] User Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html) for more information.
+>[!NOTE]
+>
+>Compatible with both Adobe Commerce and Magento Open Source installations.
 
-### [!DNL Store Fulfillment] 
+[!DNL Payment Services] provides a complete payment solution for your Adobe Commerce or Magento Open Source store. Key features include:
 
-Store Fulfillment for Adobe Commerce and Magento Open Source enables a superior buy online, pick up in store (BOPIS) customer experience and maximizes employee productivity by providing a comprehensive fulfillment workflow enabled through a mobile device. See the [[!DNL Store Fulfillment] User Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/store-fulfillment/guide-overview.html) for more information.  
+- **Comprehensive Payment Processing**
+  - Secure payment gateway integration
+  - Built-in fraud protection tools
+  - Transparent transaction reporting
+  - Unified Admin management interface
 
-### [!DNL Amazon Sales Channel]
+- **Multiple Payment Options**
+  - Credit and debit cards
+  - PayPal
+  - Venmo (US only)
+  - PayLater payment plans
+  - Additional regional payment methods
 
-The [!DNL Amazon Sales Channel] for Adobe Commerce enables you to integrate your Amazon Seller Central listing database with your [!DNL Commerce] product catalog and manage your Amazon listings and sales in the Commerce Admin. See the [[!DNL Amazon Sales] Guide User Guide](https://experienceleague.adobe.com/docs/commerce-channels/amazon/guide-overview.html) for more information.
+- **Business Benefits**
+  - Simplified payment management
+  - All-in-one order and payment tracking
+  - Expanded market reach
+  - Improved customer experience
 
-### [!DNL Channel Manager]
+For detailed configuration steps and payment options, see the [[!DNL Payment Services] User Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html).
 
-[!DNL Channel Manager] enables you to increase sales, reach new customers, streamline operations, and save time by integrating an Adobe Commerce or Magento Open Source product catalog with the Walmart Marketplace. After installing and configuring the extension, your staff can manage Walmart Marketplace listings, inventory, orders, returns, and refunds seamlessly from the [!DNL Commerce Admin]. See the [[!DNL Channel Manager] User Guide](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/guide-overview.html) for more information.
