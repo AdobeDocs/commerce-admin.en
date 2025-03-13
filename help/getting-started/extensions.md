@@ -8,7 +8,7 @@ feature: Extensions
 
 This topic provides information about PHP extensions for Adobe Commerce and Magento Open Source that are released by Adobe.
 
-Extensions add features, functionality, services, and integrations to the Admin and storefront. Some of these extensions are developed through Magento Open Source Community contributions. Some extensions are installed by default, and other require separate installation.
+Extensions add features, functionality, services, and integrations to the Admin and storefront. Some of these extensions are developed through Magento Open Source Community contributions. Some extensions are installed by default, and others require separate installation.
 
 +++Learn more about extending Adobe Commerce
 
