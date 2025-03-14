@@ -5,7 +5,7 @@ exl-id: 76ba1e08-3afd-409c-8376-d07e98095d26
 ---
 # Adobe Commerce Merchandising and Promotions Guide
 
-This guide is intended for merchandisers and marketing staff working in Adobe Commerce and Magento Open Source. It provides detailed information about merchandising and promotional features, including targeted discounts and events. It assumes a basic understanding of the core [!DNL Commerce] configuration, and functionality.
+This guide is intended for merchandisers and marketing staff working in the Adobe Commerce and Magento Open Source Admin. It provides detailed information about merchandising and promotional features, including targeted discounts and events. It assumes a basic understanding of the core [!DNL Commerce] configuration, and functionality.
 
 This guide covers:
 

@@ -7,7 +7,7 @@ exl-id: ad3cd024-1703-409f-9820-a0b90e7d460f
 ---
 # Adobe Commerce Content and Design Guide
 
-This guide is intended for content designers and merchandisers working in Adobe Commerce and Magento Open Source. It provides detailed information about content and design features, including the building basic content components. It assumes a basic understanding of the core [!DNL Commerce] configuration, and functionality.
+This guide is intended for content designers and merchandisers working in the Adobe Commerce and Magento Open Source Admin. It provides detailed information about content and design features, including the building basic content components. It assumes a basic understanding of the core [!DNL Commerce] configuration, and functionality.
 
 This guide covers:
 

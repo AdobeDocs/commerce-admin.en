@@ -49,7 +49,7 @@ feature: Configuration, Catalog Management
 |[!UICONTROL Products per Page on Grid Default Value]|Store View|Determines the number of products displayed per page by default in grid view.|
 |[!UICONTROL Products per Page on List Allowed Values]|Store View|Determines the number of products displayed in List View. To provide a selection of options, enter multiple values separated by commas.|
 |[!UICONTROL Products per Page on List Default Value]|Store View|Determines the number of products displayed per page by default, in list view.|
-|Product Listing Sort by|Store View|Determines the sort order of the search results list. The selection of options is determined by the Display Settings of the category and the available attributes that are set to be `Used for Sorting in Product Listing`. The default is set to `Use All Available Attributes` and typically includes Best Value, Name, Price. This setting does not apply to the [!DNL Live Search] [Product Listing Page Widget](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).|
+|Product Listing Sort by|Store View|Determines the sort order of the search results list. The selection of options is determined by the Display Settings of the category and the available attributes that are set to be `Used for Sorting in Product Listing`. The default is set to `Use All Available Attributes` and typically includes Best Value, Name, Price. This setting does not apply to the [!DNL Live Search] [Product Listing Page Widget](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).|
 |[!UICONTROL Allow All Products per Page]|Store View|If set to `Yes`, includes the `ALL` option in the "Show per Page" control.|
 |[!UICONTROL Remember Category Pagination]|Global|If set to `Yes`, the current category pagination values are saved as customers browse from one category to another in [product listings](../../catalog/navigation-product-listings.md). Saving the value uses more cache storage and can affect the way pages are indexed by search engines. Options: `Yes` / `No` (default)|
 |[!UICONTROL Use Flat Catalog Category]|Global|Enables the [flat category structure](../../catalog/catalog-flat.md) (not recommended). Options: `Yes` / `No`|
@@ -157,7 +157,7 @@ feature: Configuration, Catalog Management
 
 >[!NOTE]
 >
->The standard search configuration described in this section differs for [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html).
+>The standard search configuration described in this section differs for [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
 
 <!-- [Layered Navigation - Automatic (equalize price ranges)](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#configure-layered-navigation) -->
 
@@ -202,7 +202,7 @@ feature: Configuration, Catalog Management
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)| Description                                                                                                                                                                                                                                                                                                                                                                                              |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|[!UICONTROL Popular Search Terms]|Store View| Determines if _Popular Search Terms_ is implemented in the store. This setting does not apply to stores that use [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html). Options: `Enable` / `Disable`                                                                                                                                              |
+|[!UICONTROL Popular Search Terms]|Store View| Determines if _Popular Search Terms_ is implemented in the store. This setting does not apply to stores that use [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html). Options: `Enable` / `Disable`                                                                                                                                              |
 |[!UICONTROL Product URL Suffix]|Store View| Determines if a suffix, such as html or htm, is applied to product URLs. If used, do not include a period before the suffix, because it is applied automatically.                                                                                                                                                                                                                                        |
 |[!UICONTROL Category URL Suffix]|Store View| Determines if a suffix, such as html or htm, is applied to category URLs. If used, do not include a period before the suffix, because it is applied automatically.                                                                                                                                                                                                                                       |
 |[!UICONTROL Use Categories Path for Product URLs]|Store View| Determines if category paths are included in product URLs. Doing so can cause multiple URLs to point to the same page, which might impact search rank. To learn more, see [Canonical meta tag](../../merchandising-promotions/meta-data.md#canonical-meta-tag).                                                                                                                                          |
@@ -229,7 +229,7 @@ feature: Configuration, Catalog Management
 
 ## [!UICONTROL Catalog Search]
 
-You can configure Catalog Search using [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) or third-party search engine services that Adobe Commerce supports. Follow the instructions for your installation.
+You can configure Catalog Search using [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) or third-party search engine services that Adobe Commerce supports. Follow the instructions for your installation.
 
 ### Adobe Commerce with [!DNL Live Search]
 

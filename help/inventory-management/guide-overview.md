@@ -7,7 +7,7 @@ exl-id: 8013bc13-b057-4ad7-bbed-ee00c2f6e4eb
 ---
 # [!DNL Inventory Management] Guide overview
 
-This guide is intended for administrators of Adobe Commerce and Magento Open Source. It provides detailed information about enabling this module, including configuration and management of its features. It assumes a basic understanding of the core [!DNL Commerce] configuration and functionality.
+This guide is intended for administrators working in the Adobe Commerce and Magento Open Source Admin. It provides detailed information about enabling this module, including configuration and management of its features. It assumes a basic understanding of the core [!DNL Commerce] configuration and functionality.
 
 [!DNL Inventory Management] has two areas for administrators:
 

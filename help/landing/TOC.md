@@ -1,10 +1,10 @@
 ---
-user-guide-title: Adobe Commerce Merchant Documentation
+user-guide-title: Adobe Commerce Admin User Guides
 user-guide-description: Documentation and resources for Adobe Commerce and Magento Open Source merchants working in the Admin.
-title: Adobe Commerce Merchant Documentation
+title: Adobe Commerce Admin User Guides
 feature: Admin Workspace
 ---
-# Adobe Commerce merchant documentation {#user-guides}
+# Adobe Commerce Admin User Guides {#user-guides}
 
 - [Adobe Commerce Merchant Documentation](home.md)
 - [Getting Started](https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html)
@@ -18,4 +18,3 @@ feature: Admin Workspace
 - [Stores and Purchase Experience](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/guide-overview.html)
 - [Admin systems](https://experienceleague.adobe.com/docs/commerce-admin/systems/guide-overview.html)
 - [Configuration Reference Guide](https://experienceleague.adobe.com/docs/commerce-admin/config/guide-overview.html)
-- [Services for Commerce](services.md)

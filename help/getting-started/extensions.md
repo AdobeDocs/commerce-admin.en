@@ -130,6 +130,7 @@ For setup instructions and technical details, see the [[!DNL Catalog Service] Us
 >[!NOTE]
 >
 >Catalog Services is installed automatically when Live Search or Product Recommendations are enabled. Manual installation is not required.
+Store Fulfillment for Adobe Commerce and Magento Open Source enables a superior buy online, pick up in store (BOPIS) customer experience and maximizes employee productivity by providing a comprehensive fulfillment workflow enabled through a mobile device. See the [[!DNL Store Fulfillment] User Guide](https://experienceleague.adobe.com/docs/commerce/store-fulfillment/guide-overview.html) for more information.  
 
 ### [!DNL Payment Services]
 

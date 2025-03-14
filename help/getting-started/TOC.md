@@ -1,16 +1,15 @@
 ---
-user-guide-title: Adobe Commerce Getting Started Guide
-user-guide-description: If you are new to Adobe Commerce or Magento Open Source, discover resources of the [!DNL Commerce] ecosystem, follow the customer journey to explore your store, and learn about key features.
+user-guide-title: Adobe Commerce Admin Getting Started Guide
+user-guide-description: If you are new to the Adobe Commerce or Magento Open Source Admin, discover resources of the [!DNL Commerce] ecosystem, follow the customer journey to explore your store, and learn about key Admin features.
 breadcrumb-title: Getting Started
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
 ---
 
-# Adobe Commerce Getting Started Guide {#start}
+# Adobe Commerce Admin Getting Started Guide {#start}
 
-+ [Adobe Commerce Getting Started Guide](guide-overview.md)
-+ [What is Adobe Commerce?](about.md)
++ [Adobe Commerce Admin Getting Started Guide](guide-overview.md)
 + [Login credentials and URLs](login-urls.md)
 + Commerce accounts {#commerce-account}
   + [Create and access your account](commerce-account-create.md)
@@ -71,5 +70,5 @@ recommendations: noDisplay
   + [Ecosystem](resources.md)
   + [Extensions](extensions.md)
   + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [Return to Merchant Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Return to Admin User Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
