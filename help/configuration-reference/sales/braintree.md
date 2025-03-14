@@ -19,7 +19,7 @@ feature: Configuration, Payments
 
 >[!IMPORTANT]
 >
->This is not the page you are looking for if you need help with unexpected charges on your card, visit the [cancel subscription](https://helpx.adobe.com/manage-account/using/cancel-subscription.html) page for assistance.
+>If you need help with unexpected charges on your card, visit the [cancel subscription](https://helpx.adobe.com/manage-account/using/cancel-subscription.html) page for assistance.
 
 ## [!UICONTROL Basic Braintree Settings]
 
