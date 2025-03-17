@@ -16,6 +16,25 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 >
 >See [Product availability](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) for information about versions of the B2B Commerce extension supported for available Adobe Commerce releases.
 
+## B2B 1.5.2
+
+*April 8, 2025*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce versions 2.4.7-p4+ and 2.4.6-p9+ security patch releases.
+Compatible with Adobe Commerce versions 2.4.8, 2.4.7 to 2.4.7-p3, 2.4.6 to 2.4.9-p8
+
+The B2B v1.5.2 release includes quality improvements and bug fixes.
+
+### Company
+
+![Fixed issue](../assets/fix.svg)<!-- B2B-4480 --> Fixed an issue where guest customers would see a `No such entity with cartId = ?` error message when logging in as a company user with products in their shopping cart.
+
+### Negotiable quote
+
+- ![Fixed issue](../assets/fix.svg)<!-- B2B-3252 --> The [!UICONTROL Line Item Discount Amount] field now validates input to prevent entering negative discount values.
+- ![Fixed issue](../assets/fix.svg)<!-- B2B-3224 --> Fixed a user experience issue where long line item notes were truncated and difficult to read for B2B customers.
+- ![Fixed issue](../assets/fix.svg)<!-- B2B-2865 --> B2B customers can now specify product quantities using decimal values (such as 1.5 or 2.75) when creating quotes.
+
 ## B2B 1.5.1
 
 *February 11, 2025*
