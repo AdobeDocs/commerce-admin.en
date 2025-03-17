@@ -8,7 +8,7 @@ feature: Catalog Management, Search
 
 >[!TIP]
 >
->[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) delivers a fast, super-relevant, and intuitive search experience and is available for Adobe Commerce at no additional charge. This section describes the standard search functionality that might differ from [!DNL Live Search].
+>[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) delivers a fast, super-relevant, and intuitive search experience and is available for Adobe Commerce at no additional charge. This section describes the standard search functionality that might differ from [!DNL Live Search].
 
 Research shows that people who use search are more likely to make a purchase than customers who rely on navigation alone. In fact, according to some studies, people who use search are nearly twice as likely to make a purchase.
 
@@ -26,7 +26,7 @@ The following sections describe the basic catalog search capabilities. For infor
 
 >[!NOTE]
 >
->When [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) is installed and the [[!DNL Storefront Popover]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/storefront-popover) widget is enabled, the search box returns "search as you type" results in a pop over.
+>When [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) is installed and the [[!DNL Storefront Popover]](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/storefront-popover) widget is enabled, the search box returns "search as you type" results in a pop over.
 
 The search box in the header of the store helps visitors find products in your catalog. The search text can be the full or partial product name or any other word or phrase that describes the product. The search terms that people use to find products can be managed from the Admin.
 
@@ -42,7 +42,7 @@ The search box in the header of the store helps visitors find products in your c
 
 >[!NOTE]
 >
->The advanced form search functionality described here does not apply to [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html).
+>The advanced form search functionality described here does not apply to [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
 
 Advanced Search lets shoppers search the catalog based on values entered into a form. Because the form contains multiple fields, a single search can include several parameters. The result is a list of all products in the catalog that match the criteria. A link to Advanced Search is in the footer of your store.
 

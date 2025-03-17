@@ -69,11 +69,12 @@ feature: CMS, Page Content
 - AEM Assets Integration for Commerce {#aem-asset-management}
   - [Integration overview](aem-assets-integration.md)
   - [Release notes](aem-assets-release-notes.md)
-  - Getting started  {#getting-started}
-    - [Set up AEM Assets](aem-assets-getting-started.md)
-    - [Configure AEM Assets](aem-assets-configure-aem.md)
-    - [Configure Adobe Commerce ](aem-assets-configure-commerce.md)
-    - [Enable asset synchronization](aem-assets-setup-synchronization.md)
+  - Getting started {#getting-started}
+    - [Set up environments](aem-assets-getting-started.md)
+    - [Install AEM Assets package](aem-assets-configure-aem.md)
+    - [Install Adobe Commerce packages](aem-assets-configure-commerce.md)
+    - [Configure the integration](aem-assets-setup-synchronization.md)
+    - [View and manage logs](aem-assets-log-files.md)
   - Manage assets {#manage}
     - [Use AEM Assets with Commerce](aem-assets-manage.md)
 - Media {#media}
@@ -83,4 +84,4 @@ feature: CMS, Page Content
   - [Staging dashboard](content-staging-dashboard.md)
   - [Add a campaign item](content-staging-add-item.md)
   - [Preview a campaign](content-staging-preview.md)
-- [Return to Merchant Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Return to Admin User Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

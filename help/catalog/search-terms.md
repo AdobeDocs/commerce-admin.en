@@ -118,7 +118,7 @@ One way to improve the effectiveness of [catalog search](search-configuration.md
 
 Adobe Commerce supports two different synonym management solutions:
 
-- Live Search [Synonyms](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/synonyms/synonyms.html) feature is available for Adobe Commerce installations with Live Search installed.
+- Live Search [Synonyms](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/synonyms/synonyms.html) feature is available for Adobe Commerce installations with Live Search installed.
 - The standard Search Synonyms feature (described in this page) is available out-of-the-box for all Adobe Commerce installations.
 
 >[!NOTE]

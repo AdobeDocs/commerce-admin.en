@@ -8,7 +8,7 @@ feature: Catalog Management, Categories, Site Navigation
 
 >[!NOTE]
 >
->The standard layered navigation described in this section differs from Live Search filtered navigation with [facets](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/facets/facets.html).
+>The standard layered navigation described in this section differs from Live Search filtered navigation with [facets](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/facets/facets.html).
 
 Layered navigation makes it easy to find products based on category, price range, or any other available attribute. Layered navigation usually appears in the left column of search results and category pages and sometimes on the home page. The standard navigation includes a _Shop By_ list of categories and price range. You can configure the display of layered navigation, including product count and price range.
 
@@ -18,7 +18,7 @@ Layered navigation makes it easy to find products based on category, price range
 
 >[!NOTE]
 >
->The filterable attribute requirements described in this topic differ for [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html). To learn more, see [Facets](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/facets/facets.html).
+>The filterable attribute requirements described in this topic differ for [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html). To learn more, see [Facets](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/facets/facets.html).
 
 Layered navigation can be used to search for products by category or by attribute. For example, when a shopper chooses the Mens/Shorts category from the top navigation, the initial results include all products in the category. The list can be filtered further by choosing a specific style, climate, color, material, pattern, or price—or a combination of values. Filterable attributes appear in an expanding section that lists each attribute value. As an option, the list of products with matching results can be configured to include products with, or without, a match.
 
@@ -106,7 +106,7 @@ You can use the following steps to remove filterable attribute values with 0 Pro
 
 >[!NOTE]
 >
->The price navigation configuration described in this topic differs for [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html).
+>The price navigation configuration described in this topic differs for [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
 
 Price navigation can be used to distribute products by price range in layered navigation. You can also split each range in intervals. There are a few ways to calculate price navigation:
 
@@ -195,7 +195,7 @@ Leave **[!UICONTROL Price Navigation Steps Calculation]** set to `Automatic (Equ
 
 >[!NOTE]
 >
->The standard configuration described in this page differs for [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html).
+>The standard configuration described in this page differs for [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
 
 The layered navigation configuration determines if a product count appears in parentheses after each attribute, and the size of the step calculation that is used in price navigation.
 

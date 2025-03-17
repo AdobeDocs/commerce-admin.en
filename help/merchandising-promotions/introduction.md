@@ -21,7 +21,7 @@ _Merchandising_ is a term used in retail to describe the art and science of floo
 
 >[!TIP]
 >
->To learn about Product Recommendations and how they can give you the insight and control you need to create the best experience for your buyers, see the [Product Recommendations User Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html).
+>To learn about Product Recommendations and how they can give you the insight and control you need to create the best experience for your buyers, see the [Product Recommendations User Guide](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html).
 
 ## Promotions
 

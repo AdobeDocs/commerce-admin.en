@@ -5,7 +5,7 @@ exl-id: b0359ba4-3643-4355-9154-adfedb369ec3
 ---
 # Configuration Reference Guide
 
-This guide is intended for merchants and system administrators that work in Adobe Commerce or Magento Open Source. It provides reference information for all store configuration settings that are accessed from the _Admin_ sidebar at **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+This guide is intended for merchants and system administrators that work in the Adobe Commerce or Magento Open Source Admin. It provides reference information for all store configuration settings that are accessed from the _Admin_ sidebar at **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
 It does not cover details about the capabilities of Adobe Commerce and Magento Open Source or procedures for store configuration.
 

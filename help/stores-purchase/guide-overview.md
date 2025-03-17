@@ -6,7 +6,7 @@ recommendations: noCatalog
 ---
 # Adobe Commerce Stores and Purchase Experience Guide
 
-This guide is intended for customer service agents and sales managers working in Adobe Commerce and Magento Open Source. It provides detailed information about order management and purchasing features, including how the shopping cart can be configured to assist customers and promote sales. It assumes a basic understanding of the core [!DNL Commerce] configuration, and functionality.
+This guide is intended for customer service agents and sales managers working in the Adobe Commerce and Magento Open Source Admin. It provides detailed information about order management and purchasing features, including how the shopping cart can be configured to assist customers and promote sales. It assumes a basic understanding of the core [!DNL Commerce] configuration, and functionality.
 
 This guide covers:
 

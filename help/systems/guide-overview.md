@@ -5,7 +5,7 @@ exl-id: 9d22571e-9e09-4d1a-ba55-a889f094158d
 ---
 # Adobe Commerce Admin Systems Guide
 
-This guide is intended for system administrators and integrators working in Adobe Commerce and Magento Open Source. It provides detailed information about Admin security, maintenance operations, and system-wide resources that support activities across multiple organizational functions for your ecommerce business. It assumes a basic understanding of the core Commerce configuration, and functionality.
+This guide is intended for system administrators and integrators working in the Adobe Commerce and Magento Open Source Admin. It provides detailed information about Admin security, maintenance operations, and system-wide resources that support activities across multiple organizational functions for your ecommerce business. It assumes a basic understanding of the core Commerce configuration, and functionality.
 
 This guide covers:
 
