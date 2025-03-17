@@ -29,9 +29,9 @@ The B2B v1.5.2 release includes quality improvements and bug fixes.
 
 ![New](../assets/new.svg)<!-- B2B-4123 -->Administrators can now manage multiple companies from a single account using a new storefront company switcher. Key benefits include:
 
-- **Simplified Multi-Company Management**—Company Administrators can now oversee multiple companies from one user account, eliminating the need to create and manage separate logins for each company
-- **Efficient Company Switching**—An intuitive interface allows administrators to quickly switch between companies and make updates, improving productivity when managing multiple entities
-- **Streamlined Operations**—Regional managers and business leaders can centrally manage all their companies, enabling faster decision-making and smoother business operations
+- **Simplified multi-company management**—Administrators can now oversee multiple companies from one user account, eliminating the need to create and manage separate logins for each company
+- **Efficient company switching**—An intuitive interface allows administrators to quickly switch between companies and make updates, improving productivity when managing multiple entities
+- **Streamlined operations**—Regional managers and business leaders can centrally manage all their companies, enabling faster decision-making and smoother business operations
 
 This enhancement builds on B2B 1.5.0's multi-company membership capability, which allowed users to belong to multiple companies but did not support admin access across companies. The new company switcher eliminates the need for separate admin accounts while maintaining proper access controls and company-specific views.
 
