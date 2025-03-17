@@ -20,8 +20,8 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 
 *April 8, 2025*
 
-[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce versions 2.4.7-p4+ and 2.4.6-p9+ security patch releases.
-Compatible with Adobe Commerce versions 2.4.8, 2.4.7 to 2.4.7-p3, 2.4.6 to 2.4.9-p8
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce versions 2.4.8, 2.4.7-p5 and 2.4.6-p10 security patch releases.
+Compatible with Adobe Commerce versions 2.4.7 to 2.4.7-p4, 2.4.6 to 2.4.6-p9
 
 The B2B v1.5.2 release includes quality improvements and bug fixes.
 
