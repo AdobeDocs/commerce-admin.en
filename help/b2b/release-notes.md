@@ -25,15 +25,36 @@ Compatible with Adobe Commerce versions 2.4.8, 2.4.7 to 2.4.7-p3, 2.4.6 to 2.4.9
 
 The B2B v1.5.2 release includes quality improvements and bug fixes.
 
+### Company management
+
+![New](../assets/new.svg)<!-- B2B-4123 -->Administrators can now manage multiple companies from a single account using a new storefront company switcher. Key benefits include:
+
+- **Simplified Multi-Company Management**—Company Administrators can now oversee multiple companies from one user account, eliminating the need to create and manage separate logins for each company
+- **Efficient Company Switching**—An intuitive interface allows administrators to quickly switch between companies and make updates, improving productivity when managing multiple entities
+- **Streamlined Operations**—Regional managers and business leaders can centrally manage all their companies, enabling faster decision-making and smoother business operations
+
+This enhancement builds on B2B 1.5.0's multi-company membership capability, which allowed users to belong to multiple companies but did not support admin access across companies. The new company switcher eliminates the need for separate admin accounts while maintaining proper access controls and company-specific views.
+
 ### Company
 
 ![Fixed issue](../assets/fix.svg)<!-- B2B-4480 --> Fixed an issue where guest customers would see a `No such entity with cartId = ?` error message when logging in as a company user with products in their shopping cart.
 
 ### Negotiable quote
 
-- ![Fixed issue](../assets/fix.svg)<!-- B2B-3252 --> The [!UICONTROL Line Item Discount Amount] field now validates input to prevent entering negative discount values.
-- ![Fixed issue](../assets/fix.svg)<!-- B2B-3224 --> Fixed a user experience issue where long line item notes were truncated and difficult to read for B2B customers.
-- ![Fixed issue](../assets/fix.svg)<!-- B2B-2865 --> B2B customers can now specify product quantities using decimal values (such as 1.5 or 2.75) when creating quotes.
+![Fixed issue](../assets/fix.svg) The B2B v1.5.2 release includes the following fixes for negotiable quotes:
+
+- <!-- B2B-3252 -->The [!UICONTROL Line Item Discount Amount] field now validates input to prevent entering negative discount values.
+- <!-- B2B-3224 -->Fixed a user experience issue where long line item notes were truncated and difficult to read for B2B customers.
+- <!-- B2B-2865 -->B2B customers can now specify product quantities using decimal values (such as 1.5 or 2.75) when creating quotes.
+
+### Quote template
+
+![New](../assets/new.svg)<!-- B2B-4104 --> New ability for B2B buyers and sellers to attach external document links to quote templates. This feature allows linking to documents hosted in services like DocuSign and Adobe Sign directly from quotes, complementing the existing file attachment capability. Key benefits include:
+
+- Streamlined collaboration through direct access to critical agreements and contracts
+- Enhanced transparency with instant access to the latest documentation
+- Faster quote negotiations by eliminating the need to download and upload files
+- Flexible document management using external document hosting services
 
 ## B2B 1.5.1
 
