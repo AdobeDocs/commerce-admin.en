@@ -176,7 +176,7 @@ Improvements to quoting capabilities help Buyers and Sellers manage quotes and q
 
 ![New](../assets/new.svg) Added compatibility with Adobe Commerce 2.4.7-p5+ and 2.4.6-p10+ security patch releases.
 
-![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html).
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html).
 
 {{b2b-compatibility}}
 
@@ -308,7 +308,7 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 
 ![New](../assets/new.svg) Added compatibility with the Adobe Commerce 2.4.6-p10 security patch releases.
 
-![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html).
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html).
 
 ## B2B v1.3.5-p9
 
@@ -382,7 +382,7 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 
 ![New](../assets/new.svg) Added support for Adobe Commerce 2.4.5-p12.
 
-![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html).
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html).
 
 ## B2B v1.3.4-p11
 
