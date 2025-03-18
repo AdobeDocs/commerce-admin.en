@@ -168,6 +168,18 @@ Improvements to quoting capabilities help Buyers and Sellers manage quotes and q
 
 ![Fixed issue](../assets/fix.svg) <!--ACP2E-1825-->Purchase orders can no longer be placed by a user associated with the company after the company has been blocked. Previously, a user associated with the company could place purchase orders when the company was blocked.
 
+## B2B v1.4.2-p5
+
+*April 8, 2025*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.7-p5+ and 2.4.6-p10+ security patch releases.
+
+![New](../assets/new.svg) Added compatibility with Adobe Commerce 2.4.7-p5+ and 2.4.6-p10+ security patch releases.
+
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html).
+
+{{b2b-compatibility}}
+
 ## B2B v1.4.2-p4
 
 *February 11, 2025*
@@ -178,10 +190,7 @@ Improvements to quoting capabilities help Buyers and Sellers manage quotes and q
 
 ![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html).
 
->[!IMPORTANT]
->
->Adobe Commerce B2B version 1.4.2+ is compatible with PHP 8.2. If you upgrade the Commerce instance to version 2.4.7+, ensure that the instance uses PHP version 8.2 to maintain compatibility with the Adobe Commerce B2B release. Additionally, the B2B 1.4.2+ release does not support the [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
-
+{{b2b-compatibility}}
 
 ## B2B v1.4.2-p3
 
@@ -193,9 +202,7 @@ Improvements to quoting capabilities help Buyers and Sellers manage quotes and q
 
 ![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
 
->[!IMPORTANT]
->
->Adobe Commerce B2B version 1.4.2+ is compatible with PHP 8.2. If you upgrade the Commerce instance to version 2.4.7+, ensure that the instance uses PHP version 8.2 to maintain compatibility with the Adobe Commerce B2B release. Additionally, the B2B 1.4.2+ release does not support the [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
+{{b2b-compatibility}}
 
 ## B2B v1.4.2-p2
 
@@ -205,9 +212,7 @@ Improvements to quoting capabilities help Buyers and Sellers manage quotes and q
 
 ![Fixed issue](../assets/fix.svg) Includes the Security fixes documented in Security Bulletin xxxx.
 
->[!IMPORTANT]
->
->Adobe Commerce B2B version 1.4.2+ is compatible with PHP 8.2. If you upgrade the Commerce instance to version 2.4.7+, ensure that the instance uses PHP version 8.2 to maintain compatibility with Adobe Commerce B2B release. Additionally, the B2B 1.4.2+ release does not support the [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
+{{b2b-compatibility}}
 
 ## B2B v1.4.2-p1
 
@@ -217,9 +222,7 @@ Improvements to quoting capabilities help Buyers and Sellers manage quotes and q
 
 ![New](../assets/new.svg) Added compatibility with Adobe Commerce 2.4.7-p1+ and 2.4.6-p6+ security patch releases.
 
->[!IMPORTANT]
->
->Adobe Commerce B2B version 1.4.2+ is compatible with PHP 8.2. If you upgrade the Commerce instance to version 2.4.7+, ensure that the instance uses PHP version 8.2 to maintain compatibility with Adobe Commerce B2B release. Additionally, B2B 1.4.2+ does not currently support the [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server). 
+{{b2b-compatibility}}
 
 ## B2B v1.4.2
 
