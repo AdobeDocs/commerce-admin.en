@@ -35,6 +35,10 @@ The Adobe Commerce HIPAA-Ready extension, `magento/hipaa-ee` is available for Ad
 
 Adobe Commerce must be deployed on either Adobe Commerce on cloud infrastructure or Adobe Commerce Managed Services with version 2.4.7-p5 or 2.4.6-p3 through 2.4.6-p8 (no beta versions).
 
+>[!NOTE]
+>
+>Adobe Commerce 2.4.7-p4 also supports the HIPAA-ready extension, but you must first apply a [hotfix](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/hotfix-for-hipaa-package-1-2-0-compatibility-with-adobe-commerce-2-4-7-p4).
+
 ## Installation
 
 **Prerequisite**
