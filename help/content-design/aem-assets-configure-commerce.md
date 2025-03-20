@@ -17,7 +17,7 @@ The AEM Assets Integration for Commerce extension has the following system and c
 **Software requirements**
 
 - Adobe Commerce 2.4.5+
-- PHP 8.1, 8.2, 8.3
+- PHP 8.1, 8.2, 8.3, 8.4
 - Composer: 2.x
 
 **Access requirements**
