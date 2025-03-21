@@ -35,12 +35,12 @@ The Adobe Commerce HIPAA-Ready extension, `magento/hipaa-ee` is available for Ad
 
 The following table shows the compatibility between versions of Adobe Commerce and the HIPAA-ready extension:
 
-| Adobe Commerce | Supported | Compatible | Notes |
-|----------------|-----------|------------|-------|
-| 2.4.7-p4 - 2.4.7-p5 | 1.2.0 | -- | 2.4.7-p4 support requires a [hotfix](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/hotfix-for-hipaa-package-1-2-0-compatibility-with-adobe-commerce-2-4-7-p4) |
-| 2.4.6-p9 - 2.4.6-p10 | 1.2.0 | -- | |
-| 2.4.6-p8 | 1.1.0 | 1.2.0 | Support for [data services](#adobe-commerce-services) was introduced in 1.1.0 |
-| 2.4.6-p3 - 2.4.6-p7 | 1.0.0 | 1.1.0 | |
+| Adobe Commerce | Supported | Notes |
+|----------------|-----------|-------|
+| 2.4.7-p4 - 2.4.7-p5 | 1.2.0 | 2.4.7-p4 support requires a [hotfix](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/hotfix-for-hipaa-package-1-2-0-compatibility-with-adobe-commerce-2-4-7-p4) |
+| 2.4.6-p9 - 2.4.6-p10 | 1.2.0 | |
+| 2.4.6-p8 | 1.1.0 | Support for [data services](#adobe-commerce-services) was introduced in 1.1.0 |
+| 2.4.6-p3 - 2.4.6-p7 | 1.0.0 | |
 
 >[!IMPORTANT]
 >
