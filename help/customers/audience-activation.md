@@ -44,6 +44,14 @@ _May 30, 2023_
 
 +++
 
+### 2.4.0
+
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
+
+_March 24, 2025_
+
+![New](../assets/New.svg) - Added PHP 8.4 support.
+
 ### 2.3.1
 
 [!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
