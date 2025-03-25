@@ -50,7 +50,7 @@ _May 30, 2023_
 
 _March 24, 2025_
 
-![New](../assets/New.svg) - Added PHP 8.4 support.
+![New](../assets/new.svg) - Added PHP 8.4 support.
 
 ### 2.3.1
 
