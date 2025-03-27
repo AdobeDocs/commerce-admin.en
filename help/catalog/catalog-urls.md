@@ -56,7 +56,7 @@ Because the suffix is controlled by the system configuration, you should never t
 
 ### Category path
 
-By default, the category path is not included in product URLs, but this behavior can be adjusted based on your preferences. However, nested categories will always display the full category path in their URLs on the storefront, ensuring clarity and consistency in category navigation.
+You can configure the product URLs to include or exclude the category path based on your preferences. By default, the category path is not included in product URLs. However, nested categories will always display the full category path in their URLs on the storefront, ensuring clarity and consistency in category navigation. The following examples show the same product URL with, and without, the category path.
 
 #### Product URL with category path
 
