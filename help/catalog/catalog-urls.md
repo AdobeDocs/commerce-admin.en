@@ -56,13 +56,13 @@ Because the suffix is controlled by the system configuration, you should never t
 
 ### Category path
 
-You can configure the URL to either include or exclude the category path. By default, the category path is included in all category and product pages. The following examples show the same product URL with, and without, the category path.
+By default, the category path is not included in product URLs, but this behavior can be adjusted based on your preferences. However, nested categories will always display the full category path in their URLs on the storefront, ensuring clarity and consistency in category navigation.
 
-#### URL with category path
+#### Product URL with category path
 
 - `http://mystore.com/women/tops-women/hoodies-and-sweatshirts-women/helena-hooded-fleece.html`
 
-#### URL without category path
+#### Product URL without category path
 
 - `http://mystore.com/helena-hooded-fleece.html`
 
