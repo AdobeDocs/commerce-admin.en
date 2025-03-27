@@ -65,6 +65,18 @@ For the initial setup, use the default *Match by product sku* rule.
 
    The configuration update triggers the initial synchronization process, allowing Commerce to accept incoming updates from AEM Assets. The time required for synchronization depends on the volume of assets and specific configurations. The integration leverages automated processes to minimize the time required for synchronization.
 
+### Configure the Custom Domain URL
+
+If a merchant sets a [Custom Domain Name](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/add-custom-domain-name){target=_blank} in their AEM dashboard, it is necessary to add this **Custom Domain URL** in Commerce, so the AEM Assets integration can use it.
+
+1. Navigate to **[!UICONTROL Store]** > Configuration > **[!UICONTROL ADOBE SERVICES]** > **[!UICONTROL AEM Assets Integration]**.
+
+      ![AEM Assets Integration enable the integration](assets/aem-assets-view.png){width="600" zoomable="yes"}
+
+1. Add the **Custom Domain URL** to the **[!UICONTROL Asset Custom Domain]** field.
+
+1. Click **[!UICONTROL Save Config]** to apply updates and initiate asset synchronization.
+
 ## Next step
 
 [Use AEM Assets with Commerce](aem-assets-manage.md)
