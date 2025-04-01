@@ -17,6 +17,10 @@ feature: Configuration, Payments
 
 {{config}}
 
+>[!IMPORTANT]
+>
+>If you need help with unexpected charges on your card, visit the [cancel subscription](https://helpx.adobe.com/manage-account/using/cancel-subscription.html) page for assistance.
+
 ## [!UICONTROL Basic Braintree Settings]
 
 ![Basic Braintree Settings](./assets/payment-methods-braintree-basic-config.png)<!-- zoom -->

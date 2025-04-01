@@ -27,7 +27,7 @@ The Adobe Commerce HIPAA-Ready extension, `magento/hipaa-ee` is available for Ad
 
 >[!NOTE]
 >
->Access to HIPAA ready features and functionality is available only to merchants that have purchased the health care add-on for Adobe Commerce. 
+>Access to HIPAA ready features and functionality is available only to merchants that have purchased the health care add-on for Adobe Commerce.
 
 *These materials are intended for informational purposes only. Provision of this information does not entitle the recipient to any contractual or other rights. While efforts have been made to assure the accuracy of the information as of the date it has been provided, no representation is made that such information is accurate and complete. Adobe undertakes no obligation to update this information as the law or Adobe's products change. Also, this document is not to be distributed to any party other than the intended recipient without written consent from Adobe.*
 
@@ -50,7 +50,7 @@ Install the latest version of Adobe's HIPAA-Ready Services extension (`magento/h
 
 >[!NOTE]
 >
->To ensure back office event data that is sent to Experience Platform is HIPAA-ready, see the [Data Connection extension guide](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
+>To ensure back office event data that is sent to Experience Platform is HIPAA-ready, see the [Data Connection extension guide](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
 
 1. On your local workstation, change to the project directory for your Adobe Commerce on cloud infrastructure project.
 
@@ -258,12 +258,12 @@ The following table identifies Adobe Commerce services that are available for th
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|
 | [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/overview/)                                                                                                               | Yes            | Yes        |
 | [API Mesh for Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/)                                                                                                       | Yes            | Yes        |
-| [SaaS Data Export](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview)                                                                                 | Yes            | Yes        |
-| [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overviewhttps://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) | No             | No         |
-| [Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/overview)                                                                   | No             | No         |
-| [Payment Services](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/guide-overview)                                                                           | No             | No         |
-| [Data Connection Back Office Events](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)                                     | Yes            | Yes        |
-| [Data Connection Storefront Events](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#storefront-events)                                | No             | No         |
+| [SaaS Data Export](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview)                                                                                 | Yes            | Yes        |
+| [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) | No             | No         |
+| [Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview)                                                                   | No             | No         |
+| [Payment Services](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview)                                                                           | No             | No         |
+| [Data Connection Back Office Events](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice)                                     | Yes            | Yes        |
+| [Data Connection Storefront Events](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#storefront-events)                                | No             | No         |
 | [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation)                                                                                      | No             | No         |
 
 ### Tools

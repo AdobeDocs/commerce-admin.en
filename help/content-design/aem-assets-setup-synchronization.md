@@ -1,14 +1,14 @@
 ---
-title: Enable asset synchronization
+title: Configure the integration
 description: Learn how to connect your Adobe Commerce and Experience Manager Assets projects to enable asset synchronization between these two systems.
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
 ---
-# Enable asset synchronization
+# Configure the integration
 
-Enable asset synchronization by updating the Commerce environment configuration to connect Commerce to the AEM Assets instance. The integration enables the synchronization of assets between Commerce and AEM Assets, ensuring that product images and other assets are always up to date.
+Configure the integration by connecting Commerce to the AEM Assets instance and selecting the matching strategy for asset synchronization.
 
-After identifying the AEM assets project, select the matching rule for synchronizing assets between Adobe Commerce and AEM Assets.
+After identifying the AEM Assets project, select the matching rule for synchronizing assets between Adobe Commerce and AEM Assets.
 
 - **[!UICONTROL Match by product SKU]**—Default rule that matches the SKU in the asset metadata with the [Commerce product SKU](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/glossary#sku) to ensure that assets are associated with the correct products.
 
@@ -18,11 +18,11 @@ For the initial setup, use the default *Match by product sku* rule.
 
 ## Prerequisites
 
-- [Configure AEM Assets to manage Commerce assets](aem-assets-configure-aem.md)
+- [Install AEM Assets package](aem-assets-configure-aem.md)
 
-- [Install and configure the AEM Assets Integration for Commerce](aem-assets-configure-commerce.md) to add the extension and generate the required credentials and connections to use the extension.
+- [Install Adobe Commerce packages](aem-assets-configure-commerce.md) to add the extension and generate the required credentials and connections to use the extension.
 
-- Create a support ticket to request enablement for the AEM Assets Integration. You must provide the **[!UICONTROL Program ID]**, **[!UICONTROL Environment ID]** and **[!UICONTROL IMS Org ID]** for the AEM Assets Authoring environment that you want to connect to Commerce.
+- Create a support ticket to request enablement for the AEM Assets for Commerce Integration. In the ticket, include the **[!UICONTROL Program ID]**, **[!UICONTROL Environment ID]** and **[!UICONTROL IMS Org ID]** for the AEM Assets Authoring environment that you want to connect to Commerce.
 
    >[!TIP]
    >
@@ -63,7 +63,19 @@ For the initial setup, use the default *Match by product sku* rule.
 
 1. Select **[!UICONTROL Save Config]** to apply updates and initiate asset synchronization.
 
-   The configuration update triggers the initial synchronization process, allowing Commerce to accept incoming updates from AEM Assets.The time required for synchronization depends on the volume of assets and specific configurations. The integration leverages automated processes to minimize the time required for synchronization.
+   The configuration update triggers the initial synchronization process, allowing Commerce to accept incoming updates from AEM Assets. The time required for synchronization depends on the volume of assets and specific configurations. The integration leverages automated processes to minimize the time required for synchronization.
+
+### Configure the Custom Domain URL
+
+If a merchant sets a [Custom Domain Name](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/add-custom-domain-name){target=_blank} in their AEM dashboard, it is necessary to add this **Custom Domain URL** in Commerce, so the AEM Assets integration can use it.
+
+1. Navigate to **[!UICONTROL Store]** > Configuration > **[!UICONTROL ADOBE SERVICES]** > **[!UICONTROL AEM Assets Integration]**.
+
+      ![AEM Assets Integration enable the integration](assets/aem-assets-view.png){width="600" zoomable="yes"}
+
+1. Add the **Custom Domain URL** to the **[!UICONTROL Asset Custom Domain]** field.
+
+1. Click **[!UICONTROL Save Config]** to apply updates and initiate asset synchronization.
 
 ## Next step
 

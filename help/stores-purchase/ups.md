@@ -16,9 +16,15 @@ United Parcel Service (UPS) offers domestic and international shipping services 
 
 ## Step 1: Open a UPS Shipping Account
 
-To offer this shipping method to your customers, you must first open an account with UPS.
+To offer this shipping method to your customers, you must first open a UPS account and complete the application to obtain a Shipper account number. See [Open a Free UPS Account](https://www.ups.com/us/en/business-solutions/open-an-account).
 
-## Step 2: Enable UPS for your store
+## Step 2: Obtain UPS OAUTH credentials
+
+Follow the steps in the [Getting Started with UPS APIs guide](https://developer.ups.com/get-started) to obtain the API credentials (client ID and client secret) to enable the UPS integration. You must create a UPS application to get the credentials.
+
+When you configure the UPS settings in the Admin, use the credential values for the `username` and `password`.
+
+## Step 3: Enable UPS for your store
 
 1. On the _Admin sidebar_, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -30,7 +36,7 @@ To offer this shipping method to your customers, you must first open an account 
 
 1. For a UPS REST account (default), do the following:
 
-   - Enter your UPS credentials: UPS ClientID as **[!UICONTROL User ID]**, UPS Client Secret as **[!UICONTROL Password]**
+   - Enter your UPS credentials: UPS ClientID as **[!UICONTROL User ID]**, UPS Client Secret as **[!UICONTROL Password]**.
 
    - Set **[!UICONTROL Mode]** to `Live` to send data to the UPS shipping system over a secure connection. (Development mode does not send data over a secure connection.)
 
@@ -110,7 +116,7 @@ To offer this shipping method to your customers, you must first open an account 
 
    ![Container Description](./assets/ups2.png){width="600" zoomable="yes"}
 
-## Step 4: Set up handling fees
+## Step 5: Set up handling fees
 
 The handling fee is optional and appears as an extra charge that is added to the UPS shipping cost. If you want to include a handling fee, do the following:
 
@@ -130,7 +136,7 @@ The handling fee is optional and appears as an extra charge that is added to the
 
    ![Handling Fee](./assets/ups3.png){width="600" zoomable="yes"}
 
-## Step 5: Specify allowed methods and applicable countries
+## Step 6: Specify allowed methods and applicable countries
 
 1. For **[!UICONTROL Allowed Methods]**, choose each UPS shipping method to be available to your customers.
 
@@ -168,7 +174,7 @@ The handling fee is optional and appears as an extra charge that is added to the
 
 1. Click **[!UICONTROL Save Config]**.
 
-## Step 6: Set up shipping origin address
+## Step 7: Set up shipping origin address
 
 1. Make sure that your [Store Information](../getting-started/store-details.md#store-information) is complete.
 
