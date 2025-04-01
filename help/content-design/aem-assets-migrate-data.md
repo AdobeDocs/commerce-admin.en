@@ -1,31 +1,18 @@
 ---
 title: Migrate media files to AEM
-description: Learn how to migrate media files to the AEM Assets DAM using the Bulk Import Tool.
+description: Migrate the media files from Adobe Commerce or an external source into the AEM Assets DAM.
 feature: CMS, Media, Integration
 ---
 # Migrate media files to the AEM Assets DAM
 
  Both Adobe Commerce and Adobe Experience Manager (AEM) provide built-in features to streamline media file migration from Commerce to the AEM Assets digital asset management system (DAM). You can also migrate media files from other sources.
 
- Export media from existing data source to cloud storage
- Organize assets
- Map asset metadata
-
-
-## Migration best practices
-
-1. Curate assets before migration by removing unused and duplicate content.
-1. Organize assets logically by size, format, or use case.
-1. Consider breaking large migrations into smaller batches.
-1. Schedule resource-intensive imports during off-peak hours.
-1. Validate metadata mapping before full import.
-
 ## Prerequisites
 
 ### Required access and permissions
 
 - Administrator access to AEM Assets as a Cloud Service
-- Access to source system (Adobe Commerce or external system)
+- Access to source system where media files are stored (Adobe Commerce or external system)
 - Appropriate permissions to access cloud storage services
 
 ### Technical requirements
@@ -37,13 +24,13 @@ feature: CMS, Media, Integration
 
 - **Source Content**
   - Organized media files ready for migration
-  - File formats supported by the integration (images and videos) <!--What formats are supported?-->
+  - Image and video files in [formats supported by AEM Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/file-format-support#image-formats).
   - Clean, deduplicated assets
 
 - **Metadata Preparation**
-  - CSV file editor (e.g., Microsoft Excel)
-  - AEM Assets metadata profile configured for Commerce assets
+  - [AEM Assets metadata profile configured for Commerce assets](aem-assets-configure-aem.md#configure-a-metadata-profile)
   - Mapped metadata values for each asset
+  - CSV file editor (e.g., Microsoft Excel)
 
 ### System Requirements
 
@@ -51,15 +38,21 @@ feature: CMS, Media, Integration
 - Sufficient storage capacity
 - Network bandwidth for large file transfers
 
+## Migration best practices
+
+1. Curate assets before migration by removing unused and duplicate content.
+1. Organize assets logically by size, format, or use case.
+1. Consider breaking large migrations into smaller batches.
+1. Schedule resource-intensive imports during off-peak hours.
+1. Validate metadata mapping before full import.
+
 ## Migration workflow
 
-The migration workflow is a three step process.
-
-Follow the same migration workflow described here to migrate media files from Adobe Commerce or another external system into the AEM Assets DAM.
+Follow the migration workflow export media files from Adobe Commerce or another external system and import them into the AEM Assets DAM.
 
 ### Step 1: Export content from the existing data source
 
-For Adobe Commerce merchants, the Remote Storage module provides a streamlined way to export media files from Commerce and import them into AEM Assets. This module enables you to store and manage media files on remote storage services like AWS S3, making the migration process more efficient. To learn how to set up remote storage for your Commerce instance, see [Configure Remote Storage](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage-aws-s3) in the *Commerce Configuration Guide*.
+For Adobe Commerce merchants, the Remote Storage module provides a streamlined way to export media files from Commerce and import them into AEM Assets. This module enables you to store and manage media files on remote storage services like AWS S3, making the migration process more efficient. To set up remote storage for your Commerce instance, see [Configure Remote Storage](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage-aws-s3) in the *Commerce Configuration Guide*.
 
 If you have media files stored outside of Adobe Commerce, upload them directly to one of the [data sources](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-view/bulk-import-assets-view#prerequisites) supported by AEM as a Cloud Service.
 
@@ -106,7 +99,7 @@ The following is a high-level overview for using the tool. For detailed instruct
 
 1. From the Experience Manager Tools view, select **[!UICONTROL Assets]** > **[!UICONTROL Bulk Import]**.
 
-  ![AEM Assets authoring](./assets/aem-assets-authoring.png){width="600" zoomable="yes"}
+   ![AEM Assets authoring](./assets/aem-assets-authoring.png){width="600" zoomable="yes"}
 
 1. Create and save the bulk import configuration.
 
@@ -123,18 +116,11 @@ The following is a high-level overview for using the tool. For detailed instruct
 
 1. Use the bulk import configuration to test and run the import operation.
 
-## Migration best practices
-
-1. Curate assets before migration by removing unused and duplicate content.
-1. Organize assets logically by size, format, or use case.
-1. Consider breaking large migrations into smaller batches.
-1. Schedule resource-intensive imports during off-peak hours.
-1. Validate metadata mapping before full import.
 
 
 >[!MORELIKETHIS]
 >
->*[Bulk Import tool video demo](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/add-assets#asset-bulk-ingestor)
->*[Tips, best practices, and limitations](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/add-assets#tips-limitations)
->*[Upload or ingest assets using APIs](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/admin/developer-reference-material-apis#asset-upload)
+>[Bulk Import tool video demo](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/add-assets#asset-bulk-ingestor)
+>[Tips, best practices, and limitations](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/add-assets#tips-limitations)
+>[Upload or ingest assets using APIs](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/admin/developer-reference-material-apis#asset-upload)
 
