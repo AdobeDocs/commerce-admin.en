@@ -16,6 +16,46 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 >
 >See [Product availability](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) for information about versions of the B2B Commerce extension supported for available Adobe Commerce releases.
 
+## B2B 1.5.2
+
+*April 8, 2025*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce versions 2.4.8, 2.4.7-p5 and 2.4.6-p10 security patch releases.
+Compatible with Adobe Commerce versions 2.4.7 to 2.4.7-p4, 2.4.6 to 2.4.6-p9
+
+The B2B v1.5.2 release includes quality improvements and bug fixes.
+
+### Company management
+
+![New](../assets/new.svg)<!-- B2B-4123 -->Administrators can now manage multiple companies from a single account using the storefront company switcher. Key benefits include:
+
+- **Simplified multi-company management**—Administrators can now oversee multiple companies from one user account, eliminating the need to create and manage separate logins for each company.
+- **Efficient company switching**—An intuitive interface allows administrators to quickly switch between companies and make updates, improving productivity when managing multiple entities.
+- **Streamlined operations**—Regional managers and business leaders can centrally manage all their companies, enabling faster decision-making and smoother business operations.
+
+This enhancement builds on B2B 1.5.0's multi-company membership capability, which allowed users to belong to multiple companies but did not support admin access across companies. The company switcher eliminates the need for separate admin accounts while maintaining proper access controls and company-specific views.
+
+### Company
+
+![Fixed issue](../assets/fix.svg)<!-- B2B-4480 --> Fixed an issue where guest customers would see a `No such entity with cartId = ?` error message when logging in as a company user with products in their shopping cart.
+
+### Negotiable quote
+
+![Fixed issue](../assets/fix.svg) The B2B v1.5.2 release includes the following fixes for negotiable quotes:
+
+- <!-- B2B-3252 -->The [!UICONTROL Line Item Discount Amount] field now validates input to prevent entering negative discount values.
+- <!-- B2B-3224 -->Fixed a user experience issue where long line item notes were truncated and difficult to read for B2B customers.
+- <!-- B2B-2865 -->B2B customers can now specify product quantities using decimal values (such as 1.5 or 2.75) when creating quotes.
+
+### Quote template
+
+![New](../assets/new.svg)<!-- B2B-4104 --> New ability for B2B buyers and sellers to attach external document links to quote templates. This feature allows linking to documents hosted in services like DocuSign and Adobe Sign directly from quotes, complementing the existing file attachment capability. Key benefits include:
+
+- Streamlined collaboration through direct access to critical agreements and contracts
+- Enhanced transparency with instant access to the latest documentation
+- Faster quote negotiations by eliminating the need to download and upload files
+- Flexible document management using external document hosting services
+
 ## B2B 1.5.1
 
 *February 11, 2025*
@@ -128,6 +168,18 @@ Improvements to quoting capabilities help Buyers and Sellers manage quotes and q
 
 ![Fixed issue](../assets/fix.svg) <!--ACP2E-1825-->Purchase orders can no longer be placed by a user associated with the company after the company has been blocked. Previously, a user associated with the company could place purchase orders when the company was blocked.
 
+## B2B v1.4.2-p5
+
+*April 8, 2025*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.7-p5+ and 2.4.6-p10+ security patch releases.
+
+![New](../assets/new.svg) Added compatibility with Adobe Commerce 2.4.7-p5+ and 2.4.6-p10+ security patch releases.
+
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html).
+
+{{b2b-compatibility}}
+
 ## B2B v1.4.2-p4
 
 *February 11, 2025*
@@ -138,10 +190,7 @@ Improvements to quoting capabilities help Buyers and Sellers manage quotes and q
 
 ![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html).
 
->[!IMPORTANT]
->
->Adobe Commerce B2B version 1.4.2+ is compatible with PHP 8.2. If you upgrade the Commerce instance to version 2.4.7+, ensure that the instance uses PHP version 8.2 to maintain compatibility with the Adobe Commerce B2B release. Additionally, the B2B 1.4.2+ release does not support the [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
-
+{{b2b-compatibility}}
 
 ## B2B v1.4.2-p3
 
@@ -153,9 +202,7 @@ Improvements to quoting capabilities help Buyers and Sellers manage quotes and q
 
 ![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
 
->[!IMPORTANT]
->
->Adobe Commerce B2B version 1.4.2+ is compatible with PHP 8.2. If you upgrade the Commerce instance to version 2.4.7+, ensure that the instance uses PHP version 8.2 to maintain compatibility with the Adobe Commerce B2B release. Additionally, the B2B 1.4.2+ release does not support the [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
+{{b2b-compatibility}}
 
 ## B2B v1.4.2-p2
 
@@ -165,9 +212,7 @@ Improvements to quoting capabilities help Buyers and Sellers manage quotes and q
 
 ![Fixed issue](../assets/fix.svg) Includes the Security fixes documented in Security Bulletin xxxx.
 
->[!IMPORTANT]
->
->Adobe Commerce B2B version 1.4.2+ is compatible with PHP 8.2. If you upgrade the Commerce instance to version 2.4.7+, ensure that the instance uses PHP version 8.2 to maintain compatibility with Adobe Commerce B2B release. Additionally, the B2B 1.4.2+ release does not support the [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
+{{b2b-compatibility}}
 
 ## B2B v1.4.2-p1
 
@@ -177,9 +222,7 @@ Improvements to quoting capabilities help Buyers and Sellers manage quotes and q
 
 ![New](../assets/new.svg) Added compatibility with Adobe Commerce 2.4.7-p1+ and 2.4.6-p6+ security patch releases.
 
->[!IMPORTANT]
->
->Adobe Commerce B2B version 1.4.2+ is compatible with PHP 8.2. If you upgrade the Commerce instance to version 2.4.7+, ensure that the instance uses PHP version 8.2 to maintain compatibility with Adobe Commerce B2B release. Additionally, B2B 1.4.2+ does not currently support the [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server). 
+{{b2b-compatibility}}
 
 ## B2B v1.4.2
 
@@ -257,6 +300,16 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 You can fix this issue by adding manual dependencies for the B2B security package by adding manual dependencies for the B2B security package with a [stability tag](https://getcomposer.org/doc/04-schema.md#package-links). For instructions, see the [Adobe Commerce Knowledge Base](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html).
 
+## B2B v1.3.5-p10
+
+*April 8, 2025*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.6-p10+ security patch releases.
+
+![New](../assets/new.svg) Added compatibility with the Adobe Commerce 2.4.6-p10 security patch releases.
+
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html).
+
 ## B2B v1.3.5-p9
 
 *February 11, 2025*
@@ -320,6 +373,16 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 ![Fixed issue](../assets/fix.svg) <!--- ACP2E-2456--> Category queries now return product prices according to store configuration settings when there are no category permissions explicitly set on the category being queried.
 
 ![Fixed issue](../assets/fix.svg) <!--- ACP2E-6829--> The **[!UICONTROL Place Order]** button now works as expected when completing a purchase with an approved quote request. Issues with the negotiable quote `negotiableQuoteCheckoutSessionPlugin` plugin have been resolved.
+
+## B2B v1.3.4-p12
+
+*April 8, 2025*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.0 and newer versions
+
+![New](../assets/new.svg) Added support for Adobe Commerce 2.4.5-p12.
+
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html).
 
 ## B2B v1.3.4-p11
 
