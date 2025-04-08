@@ -15,7 +15,7 @@ feature: CMS, Media, Integration
 | **Required access and permissions** | <ul><li>Administrator access to AEM Assets as a Cloud Service</li><li>Access to source system w here media files are stored (Adobe Commerce or external system)</li><li>Appropriate permissions to access cloud storage services</li></ul> |
 | **Cloud Storage Account** | <ul><li>AWS S3 or Azure Blob Storage account</li><li>Private container/bucket configuration</li><li>Authentication credentials</li></ul> |
 | **Source Content** | <ul><li>Organized media files ready for migration</li><li>Image and video files in <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/file-format-support#image-formats">formats supported by AEM Assets</a>.</li><li>Clean, deduplicated assets</li></li> |
-| **Metadata Preparation** | <ul><li><a href="aem-assets-configure.aem.html">AEM Assets metadata profile configured for Commerce assets</a></li><li>Mapped metadata values for each asset</li><li>CSV file editor (e.g., Microsoft Excel)</li></ul> |
+| **Metadata Preparation** | <ul><li><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/aem-asset-management/getting-started/aem-assets-configure-aem.html">AEM Assets metadata profile configured for Commerce assets</a></li><li>Mapped metadata values for each asset</li><li>CSV file editor (e.g., Microsoft Excel)</li></ul> |
 
 ## Migration best practices
 
