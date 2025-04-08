@@ -9,34 +9,13 @@ feature: CMS, Media, Integration
 
 ## Prerequisites
 
-### Required access and permissions
-
-- Administrator access to AEM Assets as a Cloud Service
-- Access to source system where media files are stored (Adobe Commerce or external system)
-- Appropriate permissions to access cloud storage services
-
-### Technical requirements
-
-- **Cloud Storage Account**
-  - AWS S3 or Azure Blob Storage account
-  - Private container/bucket configuration
-  - Authentication credentials
-
-- **Source Content**
-  - Organized media files ready for migration
-  - Image and video files in [formats supported by AEM Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/file-format-support#image-formats).
-  - Clean, deduplicated assets
-
-- **Metadata Preparation**
-  - [AEM Assets metadata profile configured for Commerce assets](aem-assets-configure-aem.md#configure-a-metadata-profile)
-  - Mapped metadata values for each asset
-  - CSV file editor (e.g., Microsoft Excel)
-
-### System Requirements
-
-- AEM as a Cloud Service environment provisioned with AEM Assets
-- Sufficient storage capacity
-- Network bandwidth for large file transfers
+| Category | Requirement |
+|----------|-------------|
+| **System requirements** | <ul><li>AEM as a Cloud Service environment provisioned with AEM Assets</li><li>Sufficient storage capacity</li><li>Network bandwidth for large file transfers</li></ul> |
+| **Required access and permissions** | <ul><li>Administrator access to AEM Assets as a Cloud Service</li><li>Access to source system w here media files are stored (Adobe Commerce or external system)</li><li>Appropriate permissions to access cloud storage services</li></ul> |
+| **Cloud Storage Account** | <ul><li>AWS S3 or Azure Blob Storage account</li><li>Private container/bucket configuration</li><li>Authentication credentials</li></ul> |
+| **Source Content** | <ul><li>Organized media files ready for migration</li><li>Image and video files in <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/file-format-support#image-formats">formats supported by AEM Assets</a>.</li><li>Clean, deduplicated assets</li></li> |
+| **Metadata Preparation** | <ul><li><a href="aem-assets-configure.aem.html">AEM Assets metadata profile configured for Commerce assets</a></li><li>Mapped metadata values for each asset</li><li>CSV file editor (e.g., Microsoft Excel)</li></ul> |
 
 ## Migration best practices
 
@@ -48,7 +27,7 @@ feature: CMS, Media, Integration
 
 ## Migration workflow
 
-Follow the migration workflow export media files from Adobe Commerce or another external system and import them into the AEM Assets DAM.
+Follow the migration workflow to export media files from Adobe Commerce or another external system and import them into the AEM Assets DAM.
 
 ### Step 1: Export content from the existing data source
 
@@ -93,30 +72,30 @@ assetPath,dc:title{{String}},dam:status{{String}},commerce:positions{{String: mu
 
 After creating the metadata mapping file, use the AEM Assets Bulk Import Tool to import your assets.
 
-The following is a high-level overview for using the tool. For detailed instructions, see [Bulk upload assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/add-assets#bulk-upload) in the  *AEM as a Cloud Service User Guide*.
+The following is a high-level overview for using the tool.
 
-1. Log in to your AEM Assets as a Cloud Service author environment.
+1. [Log in to your AEM Assets as a Cloud Service author environment](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/journey/aem-users#login-aem).
 
 1. From the Experience Manager Tools view, select **[!UICONTROL Assets]** > **[!UICONTROL Bulk Import]**.
 
-   ![AEM Assets authoring](./assets/aem-assets-authoring.png){width="600" zoomable="yes"}
+   ![AEM Assets authoring](./assets/aem-assets-bulk-import-selection.png){width="600" zoomable="yes"}
 
-1. Create and save the bulk import configuration.
+1. From the Bulk Import Configurations, select **[!UICONTROL Create]** to open the configuration form.
+
+   ![AEM Assets authoring](./assets/aem-assets-bulk-import-configuration.png){width="600" zoomable="yes"}
+
+1. Set up and save the configuration.
 
    You'll need:
 
    - Authentication credentials for your data source
-   - The path to your metadata mapping CSV file
    - The target folder in AEM Assets where imported files will be stored
-   - Information about the MIME types, file size, and other parameters to customize the import configuration
+   - Information about the MIME types, file size, and other parameters to customize the import configuration (optional)
+   - The path to the metadata mapping CSV file you uploaded to the Cloud storage instance.
 
-    >[!NOTE]
-    >
-    >The AEM Assets Integration for Commerce supports image and video media types.
+   For detailed steps, see [Configure the Bulk Import tool](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/add-assets#configure-bulk-ingestor-tool) in the *AEM Assets as a Cloud Service User Guide*.
 
-1. Use the bulk import configuration to test and run the import operation.
-
-
+1. After saving the configuration, use the bulk import tools to test and run the import operation.
 
 >[!MORELIKETHIS]
 >
