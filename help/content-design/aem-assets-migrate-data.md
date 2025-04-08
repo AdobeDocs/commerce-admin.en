@@ -12,10 +12,10 @@ feature: CMS, Media, Integration
 | Category | Requirement |
 |----------|-------------|
 | **System requirements** | <ul><li>AEM as a Cloud Service environment provisioned with AEM Assets</li><li>Sufficient storage capacity</li><li>Network bandwidth for large file transfers</li></ul> |
-| **Required access and permissions** | <ul><li>Administrator access to AEM Assets as a Cloud Service</li><li>Access to source system w here media files are stored (Adobe Commerce or external system)</li><li>Appropriate permissions to access cloud storage services</li></ul> |
+| **Required access and permissions** | <ul><li>Administrator access to AEM Assets as a Cloud Service</li><li>Access to source system where media files are stored (Adobe Commerce or external system)</li><li>Appropriate permissions to access cloud storage services</li></ul> |
 | **Cloud Storage Account** | <ul><li>AWS S3 or Azure Blob Storage account</li><li>Private container/bucket configuration</li><li>Authentication credentials</li></ul> |
 | **Source Content** | <ul><li>Organized media files ready for migration</li><li>Image and video files in <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/file-format-support#image-formats">formats supported by AEM Assets</a>.</li><li>Clean, deduplicated assets</li></li> |
-| **Metadata Preparation** | <ul><li><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/aem-asset-management/getting-started/aem-assets-configure-aem.html">AEM Assets metadata profile configured for Commerce assets</a></li><li>Mapped metadata values for each asset</li><li>CSV file editor (e.g., Microsoft Excel)</li></ul> |
+| **Metadata Preparation** | <ul><li><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/aem-asset-management/getting-started/aem-assets-configure-aem">AEM Assets metadata profile configured for Commerce assets</a></li><li>Mapped metadata values for each asset</li><li>CSV file editor (e.g., Microsoft Excel)</li></ul> |
 
 ## Migration best practices
 
@@ -47,7 +47,7 @@ For each media file you plan to migrate, provide values for the metadata fields 
 
 | Metadata | Description | Value |
 |-------|-------------|--------|
-| assetPath | The full path where the asset will be stored in AEM Assets repository.<br><br>Use the path to create sub-folders to organize Commerce assets, for example `content/dam/commerce/<brand>/<type>`. | `/content/dam/commerce/<sub-folder>/..<filename>` |
+| assetPath | The full path where the asset will be stored in the AEM Assets repository.<br><br>Use the path to create sub-folders to organize Commerce assets, for example `content/dam/commerce/<brand>/<type>`. | `/content/dam/commerce/<sub-folder>/..<filename>` |
 | dc:title | The display title of the asset in AEM Assets | String value (for example, `Sample 1`) |
 | dam:status | The approval status of the asset in AEM Assets | `approved` |
 | commerce:positions | The position/order of the asset in product galleries | Numeric value (e.g., "1") |
