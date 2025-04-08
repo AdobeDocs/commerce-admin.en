@@ -1036,6 +1036,22 @@
                     }
                 ],
                 "fingerprint": "1492084986149"
+            },
+            {
+                "accountId": "1312340634",
+                "containerId": "6733170",
+                "variableId": "2",
+                "name": "gtmNonce",
+                "type": "j",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "window.cspNonce"
+                    }
+                ],
+                "fingerprint": "1724428491631",
+                "formatValue": {}
             }
         ],
         "builtInVariable": [
