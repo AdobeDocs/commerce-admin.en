@@ -70,6 +70,8 @@ To change how long the one-time password (OTP) is available during sign-in, clea
 
 Enter the following credentials from your Duo Security account:
 
+- Client ID
+- Client Secret
 - Integration key
 - Secret key
 - API hostname
