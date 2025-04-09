@@ -13,6 +13,7 @@ The Quote Template capability allows buyers and sellers to streamline the quote 
 - **Expiration Dates**—Templates can have validity periods (*[!UICONTROL Valid Until]*), ensuring that the terms are applicable only within a specified time frame. At expiration, the template is closed and all associated linked quotes are closed.
 - **Discounts and Pricing**- Sellers can use the same line-item, quote-level, and shipping price discount capabilities available with quotes to set discounts for recurring orders, simplifying the negotiation process.
 - **Tracking and Reporting**—The system tracks the number of linked quotes generated from the template and successfully completed orders to provide insights into the fulfillment of agreed upon order quotas.
+- **Reference Document Links**—Both buyers and sellers can add, edit, and manage external document links (such as DocuSign, Adobe Sign, or other online services) to the quote template. This enables easy access to related contracts and agreements during the quote template process.
 
 ## Use Case
 
@@ -22,6 +23,8 @@ A company buyer can use a quote template to order a specific set of products ove
 
 - Quantity thresholds (minimum/maximum quantities) The template specifies a quantity threshold to set the minimum and maximum quantity that can be purchased for each order, ensuring that the seller can manage stock levels effectively while providing the buyer with the flexibility to adjust quantities as needed.
 
+- Reference document links to maintain connections with external contracts and agreements, making it easier to access related documentation during the quote process.
+
 ## Quote template workflow
 
 Quote templates can be initiated by the buyer or the seller.
@@ -30,7 +33,7 @@ Quote templates can be initiated by the buyer or the seller.
 
 - **Buyer creates the quote template**
 
-   When reviewing an existing quote, the buyer decides that the company needs to submit multiple orders over the next year and wants to request additional discounts based on repeat business. They create a quote template by using the *[!UICONTROL Create quote template]* action on the quote. Then, they initiate the negotiation by sending the quote template to the seller for review.
+   When reviewing an existing quote, the buyer decides that the company needs to submit multiple orders over the next year and wants to request additional discounts based on repeat business. They create a quote template by using the *[!UICONTROL Create quote template]* action on the quote. The buyer can add reference document links to external contracts or agreements using the *[!UICONTROL Add]* control in the reference documents section. Then, they initiate the negotiation by sending the quote template to the seller for review.
 
    Buyers can also request a quote template by adding products they want to buy regularly to the shopping cart. Then, request a quote and mention in the comments how often they want to repeat the purchase.
 
@@ -44,13 +47,13 @@ Quote templates can be initiated by the buyer or the seller.
 
 **Step 2: Quote review and negotiation (Review)**
 
-Reviewing or negotiating a quote template can include changing quantities, removing items, adding line item comments, applying line item or quote discounts (seller), and adding a shipping address (buyer).
+Reviewing or negotiating a quote template can include changing quantities, removing items, adding line item comments, applying line item or quote discounts (seller), adding a shipping address (buyer), and managing reference document links.
 
-- **Seller views request and sends response** - In the Admin, the seller views the quote template from the *[!UICONTROL Quote Templates]** grid or opens it from the link in the email notification. On the storefront, the status of the quote changes to `Pending`, and the buyer cannot make any changes. Following the same process for [quote negotiation](quote-price-negotiation.md), the seller responds by offering price discounts and adjusting quantities and items as needed, enters a comment, and sends the quote template back to the buyer. The buyer and sales representative are notified by email that the seller has responded.
+- **Seller views request and sends response** - In the Admin, the seller views the quote template from the *[!UICONTROL Quote Templates]** grid or opens it from the link in the email notification. On the storefront, the status of the quote changes to `Pending`, and the buyer cannot make any changes. Following the same process for [quote negotiation](quote-price-negotiation.md), the seller responds by offering price discounts and adjusting quantities and items as needed, enters a comment, and sends the quote template back to the buyer. The seller can also add, edit, or remove reference document links during this process. The buyer and sales representative are notified by email that the seller has responded.
 
-- **Buyer views quote template from seller and sends response** - The buyer clicks the link in the email notification to open the quote template, or opens it from the _My Quote Templates_ page of the account dashboard. The buyer can leave notes to the seller at the line item or quote level, change quantities, and remove items.
+- **Buyer views quote template from seller and sends response** - The buyer clicks the link in the email notification to open the quote template, or opens it from the _My Quote Templates_ page of the account dashboard. The buyer can leave notes to the seller at the line item or quote level, change quantities, remove items, and manage reference document links.
 
-The buyer and seller continue the negotiation process until an agreement is reached, or the seller declines the quote template. If the buyer makes changes to the quote template—adding or removing products or changing product quantities—it must be returned to the seller for review.
+The buyer and seller continue the negotiation process until an agreement is reached, or the seller declines the quote template. If the buyer makes changes to the quote template—adding or removing products, changing product quantities, or modifying reference document links—it must be returned to the seller for review.
 
 - **Buyer adds a shipping address** - The buyer must add a shipping address to the quote template if it doesn't have one. After the buyer adds the address, the seller can provide shipping and delivery options. The shipping methods shown depend on the Storefront configuration.
 

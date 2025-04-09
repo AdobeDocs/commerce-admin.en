@@ -51,7 +51,9 @@ You need the following resources and permissions to use this AEM project to upda
 
 ## Configure a metadata profile
 
-In the AEM Assets authoring environment, set default values for Commerce asset metadata by creating a metadata profile. Then, apply the new profile to AEM Asset folders to use these defaults automatically. This configuration streamlines asset processing by reducing manual steps.
+In the AEM Assets author environment, set default values for Commerce asset metadata by creating a metadata profile. Then, apply the new profile to AEM Asset folders to automatically use these defaults. This configuration streamlines asset processing by reducing manual steps.
+
+1. Log in to the Adobe Experience Manager author environment.
 
 1. From the Adobe Experience Manager workspace, go to the Author Content Administration workspace for AEM Assets by clicking the Adobe Experience Manager icon.
 

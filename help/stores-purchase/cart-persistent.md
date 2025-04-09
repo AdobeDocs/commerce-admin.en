@@ -42,7 +42,7 @@ If this same customer visits your store using multiple browsers while logged in 
 
 ### "Remember Me" checkbox behavior
 
-Customers can select the _[!UICONTROL Remember Me]_ checkbox on the login page or when creating a new account to keep the contents of the shopping cart accessible on the current device when the logged-in session expires.
+Customers can select the _[!UICONTROL Remember Me]_ checkbox on the login page, authentication popup, checkout sign-ins or when creating a new account to keep the contents of the shopping cart accessible on the current device when the logged-in session expires.
 
 | Remember Me? |  Result |
 | ------------ |  ------ |
@@ -50,6 +50,10 @@ Customers can select the _[!UICONTROL Remember Me]_ checkbox on the login page o
 | Not selected | Does not create a persistent cookie and does not keep the content of the shopping cart accessible on the current device when the login session expires. Note that the shopping cart content is still saved in the customer's account and reloaded the next time the customer logs in.|
 
 {style="table-layout:auto"}
+
+![Remember Me Customer Login](./assets/remember-me-customer-login.png){width="600" zoomable="yes"}
+![Remember Me Authentication Pop-up](./assets/remember-me-authentication-pop-up.png){width="600" zoomable="yes"}
+![Remember Me Checkout Sign-ins](./assets/remember-me-checkout-sign-ins.png){width="600" zoomable="yes"}
 
 ### Clear Persistence on Sign Out behaviour
 

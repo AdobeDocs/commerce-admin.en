@@ -29,6 +29,7 @@ A buyer who accepts the negotiated terms offered by the seller can accept the te
    - Accept the quote template
    - Change the quote template expiration date
    - Add a shipping address
+   - Manage reference document links
 
 - Actions for updating quote template detail during the negotiation process:
 
@@ -37,6 +38,7 @@ A buyer who accepts the negotiated terms offered by the seller can accept the te
   - Track the negotiation process from [!UICONTROL Comments] and [!UICONTROL History] sections.
   - For templates still being reviewed, the buyer can modify the quote template by removing items.
   - Communicate and negotiate with the seller by adding notes at the line item and quote level.
+  - Add, edit, or remove reference document links to external contracts and agreements.
 
   After making changes, the buyer returns the template to the seller for review.
 
@@ -108,3 +110,57 @@ Buyers can complete the following actions from a linked quote:
 From the quote template page, click **[!UICONTROL Cancel Quote Template]**.
 
 The quote template is canceled, and the quote status changes to `Closed`. The closed quote remains in your list of *[!UICONTROL Inactive]* quotes, and remains listed in the _[!UICONTROL Quote Templates]_ grid in the Admin.
+
+## Manage reference document links
+
+The reference document links feature allows buyers and sellers to add, edit, and manage links to external documents (such as contracts, agreements, or specifications) during the quote template process.
+
+### Add a reference document link
+
+1. Open the quote template.
+
+1. In the **[!UICONTROL Reference Documents]** section, click **[!UICONTROL Add]**.
+
+1. In the Document Information dialog:
+   - Enter a **[!UICONTROL Document Name]** (required)
+   - Enter a **[!UICONTROL Document Identifier]** (optional)
+   - Enter a **[!UICONTROL Reference Document URL]** (required)
+
+1. Click **[!UICONTROL Add to Quote Template]**.
+
+   The reference document link is added to the quote template with the following format:
+   `Document Name, Document Identifier https://document-url`
+
+### Edit a reference document link
+
+1. Open the quote template.
+
+1. In the **[!UICONTROL Reference Documents]** section, click **[!UICONTROL Edit]** next to the document link you want to modify.
+
+1. Update the document information in the dialog:
+   - Document Name
+   - Document Identifier
+   - Reference Document URL
+
+1. Click **[!UICONTROL Add to Quote Template]**.
+
+### Remove a reference document link
+
+1. Open the quote template.
+
+1. In the **[!UICONTROL Reference Documents]** section, click **[!UICONTROL Remove]** next to the document link you want to delete.
+
+### View a reference document
+
+1. Open the quote template.
+
+1. In the **[!UICONTROL Reference Documents]** section, click the document name link.
+
+   The document opens in a new browser window.
+
+### Reference document link restrictions
+
+- Reference document links can only be added, edited, or removed when the quote template is in an editable state.
+- Once the quote template is sent for review or accepted, the reference document links become read-only.
+- The Document Name field is required when adding or editing a reference document link.
+- Reference document links remain accessible even after the quote template is accepted or completed.

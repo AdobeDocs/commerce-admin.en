@@ -76,3 +76,9 @@ To access the store configuration settings, choose **[!UICONTROL Stores]** > _[!
 | [Adobe Commerce 2.4 Developer Documentation](https://developer.adobe.com/commerce/docs) | Developer-focused documentation used to customize Adobe Commerce and integrate with third-party systems. |
 
 {style="table-layout:auto"}
+
+## B2B compatibility {#b2b-compatibility}
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B version 1.4.2+ is compatible with PHP 8.2. If you upgrade the Commerce instance to version 2.4.7+, ensure that the instance uses PHP version 8.2 to maintain compatibility with the Adobe Commerce B2B release. Additionally, the B2B 1.4.2+ release does not support the [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).

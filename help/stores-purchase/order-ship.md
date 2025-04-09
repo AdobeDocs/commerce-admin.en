@@ -62,7 +62,7 @@ An order that has been paid, but is awaiting shipment has the `Processing` statu
 
    - To post the comment in the customer's account, select the **[!UICONTROL Visible on Frontend]** checkbox.
 
-1. Click **[!UICONTROL Submit Comment]**.
+1. Click **[!UICONTROL Update]**.
 
 ## Track the shipment
 

@@ -33,7 +33,21 @@ The Adobe Commerce HIPAA-Ready extension, `magento/hipaa-ee` is available for Ad
 
 ## System requirements
 
-Adobe Commerce must be deployed on either Adobe Commerce on cloud infrastructure or Adobe Commerce Managed Services with version 2.4.6-p3 - 2.4.6-p8 (no beta versions).
+The following table shows the compatibility between versions of Adobe Commerce and the HIPAA-ready extension:
+
+| Adobe Commerce | Supported | Notes |
+|----------------|-----------|-------|
+| 2.4.7-p4 - 2.4.7-p5 | 1.2.0 | 2.4.7-p4 support requires a [hotfix](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/hotfix-for-hipaa-package-1-2-0-compatibility-with-adobe-commerce-2-4-7-p4) |
+| 2.4.6-p9 - 2.4.6-p10 | 1.2.0 | |
+| 2.4.6-p8 | 1.1.0 | Support for [data services](#adobe-commerce-services) was introduced in 1.1.0 |
+| 2.4.6-p3 - 2.4.6-p7 | 1.0.0 | |
+
+>[!IMPORTANT]
+>
+>- The HIPAA-ready extension is only available for Adobe Commerce on Cloud or Adobe Commerce Managed Services projects.
+>- The extension is available as a Composer metapackage from `repo.magento.com`.
+>- Access to HIPAA-ready features and functionality requires the health care add-on for Adobe Commerce.
+>- Adobe Commerce beta versions are not supported.
 
 ## Installation
 
@@ -46,7 +60,7 @@ Adobe Commerce must be deployed on either Adobe Commerce on cloud infrastructure
 
 >[!ENDSHADEBOX]
 
-Install the latest version of Adobe's HIPAA-Ready Services extension (`magento/hipaa-ee`) on an instance that is running Adobe Commerce version  2.4.6-p3 - 2.4.6-p8. The extension is delivered as a composer metapackage from the [repo.magento.com](https://repo.magento.com) repository. The metapackage includes the collection of modules that enable the HIPAA capabilities for an Adobe Commerce instance.
+Install the latest version of Adobe's HIPAA-Ready Services extension (`magento/hipaa-ee`) on an instance that is running Adobe Commerce version  2.4.7-p5 or 2.4.6-p3 through 2.4.6-p8. The extension is delivered as a composer metapackage from the [repo.magento.com](https://repo.magento.com) repository. The metapackage includes the collection of modules that enable the HIPAA capabilities for an Adobe Commerce instance.
 
 >[!NOTE]
 >
