@@ -88,13 +88,15 @@ DHL provides international shipping services.
 
 1. Continuing in the **[!UICONTROL Delivery Methods]** configuration, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL DHL]** section.
 
-1. Verify that the **[!UICONTROL Gateway URL]** is correct.
+1. Select **[!UICONTROL DHL Type]** as `DHL REST` or `DHL XML`.
 
-1. Verify that the following credentials are complete:
+1. Verify that the following credentials are complete as per **[!UICONTROL DHL Type]** selection:
 
    - Access ID
    - Password
    - Account Number
+   - API Key
+   - API Secret
 
 1. Click **[!UICONTROL Save Config]**.
 
