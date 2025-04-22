@@ -220,7 +220,7 @@ Being used as a part of tabs functionality implementation only in an administrat
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) The following cookies are set for Adobe Commerce customers. These cookies are installed with the [DataServices module](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
 
-- `mg`: Set by Snowplow JavaScript tracker. More information can be found in the [Snowplow documentation](https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/javascript-trackers/web-tracker/tracker-setup/initialization-options).
+- `mg`: Set by Snowplow JavaScript tracker. More information can be found in the [Snowplow documentation](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/).
 - `com.adobe.alloy.getTld`: Given the current web page's hostname, this is the top-most domain that is not a "public suffix" as outlined in https://publicsuffix.org. Essentially, this is the top-most domain that can accept cookies. This cookie is part of the [Alloy Web SDK](https://github.com/adobe/alloy).
 
 [1]: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
