@@ -202,16 +202,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.342.21",
+            "version": "3.342.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "f4d501414c553ddeea2efc9c77f72e58bd899823"
+                "reference": "4f5276e14b6d7ee21859aaf54aa0e8f5367ba0d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/f4d501414c553ddeea2efc9c77f72e58bd899823",
-                "reference": "f4d501414c553ddeea2efc9c77f72e58bd899823",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/4f5276e14b6d7ee21859aaf54aa0e8f5367ba0d4",
+                "reference": "4f5276e14b6d7ee21859aaf54aa0e8f5367ba0d4",
                 "shasum": ""
             },
             "require": {
@@ -293,9 +293,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.342.21"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.342.22"
             },
-            "time": "2025-04-04T18:20:53+00:00"
+            "time": "2025-04-07T18:29:40+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -34148,12 +34148,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpmd/phpmd.git",
-                "reference": "293ce67f1aece57f5df7ea491496fac38f34d26e"
+                "reference": "3a8f6ed5293a244cdf4ec3a4f1ebc32db1dadf27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpmd/phpmd/zipball/293ce67f1aece57f5df7ea491496fac38f34d26e",
-                "reference": "293ce67f1aece57f5df7ea491496fac38f34d26e",
+                "url": "https://api.github.com/repos/phpmd/phpmd/zipball/3a8f6ed5293a244cdf4ec3a4f1ebc32db1dadf27",
+                "reference": "3a8f6ed5293a244cdf4ec3a4f1ebc32db1dadf27",
                 "shasum": ""
             },
             "require": {
@@ -34227,7 +34227,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-04-01T22:43:04+00:00"
+            "time": "2025-04-07T18:47:38+00:00"
         },
         {
             "name": "phpstan/phpstan",
