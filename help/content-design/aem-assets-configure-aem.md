@@ -87,11 +87,11 @@ The Product Data UI component is added automatically based on the template.
 1. Add `Eligible for Commerce` field to the form.
 
    ![AEM Author Admin add metadata fields to profile](./assets/aem-edit-metadata-profile-fields.png){width="600" zoomable="yes"}
-   
+
    - Click **Build form**.
 
    - Drag the `Single Line text` field to the form.
-   
+
    - Add the `Eligible for Commerce` text for the label by clicking **Field Label**.
 
    - On the Settings tab, add the label text to **Field Label**.
@@ -99,13 +99,16 @@ The Product Data UI component is added automatically based on the template.
    - Set the placeholder text to `yes`.
 
    - In the **Map to Property** field, copy and paste the following value
-   
+
      ```terminal
      ./jcr:content/metadata/commerce:isCommerce
-     ```   
+     ```
+
+1. Optional. To automatically synchronize approved Commerce assets as they are uploaded to the AEM Assets environment, set the default value for the _[!UICONTROL Review Status]_ field on the `Basic` tab to `approved`.
+
 1. Save the update.
 
-1. Apply the `Commerce integration` metadata profile to the folder where Commerce assets are stored.
+#### Apply the metadata profile to Commerce assets source folder
 
    1. From the[!UICONTROL  Metadata Profiles] page, select the Commerce integration profile.
 
@@ -116,14 +119,6 @@ The Product Data UI component is added automatically based on the template.
       Create a Commerce folder if it does not exist.
 
    1. Click **[!UICONTROL Apply]**.
-
->[!NOTE]
->
->You only have to add the Commerce tab and the `Eligible for Commerce` field. The Product 
-
->[!TIP]
->
->You can automatically synchronize Commerce assets as they are uploaded to the AEM Assets environment by updating the metadata profile to set the default value for the _[!UICONTROL Review Status]_ field on the `Basic` tab to `approved`.
 
 ## Next step
 
