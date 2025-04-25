@@ -18,7 +18,7 @@ The template adds the following resources to the AEM Assets authoring environmen
 
   ![Custom Product Data UI Control](./assets/aem-commerce-sku-metadata-fields-from-template.png){width="600" zoomable="yes"}
 
-- A metadata schema form with a Commerce tab that includes the `Does it exist in Adobe Commerce?` and `Product Data` fields for tagging Commerce assets. The form also provides options to show or hide the `roles` and `order` (position) fields from the AEM Assets UI.
+- A metadata schema form with a Commerce tab that includes the `Eligible for Commerce?` and `Product Data` fields for tagging Commerce assets. The form also provides options to show or hide the `roles` and `order` (position) fields from the AEM Assets UI.
 
    ![Commerce tab for AEM Assets metadata schema form](./assets/assets-configure-metadata-schema-form-editor.png){width="600" zoomable="yes"}
 
@@ -53,6 +53,15 @@ You need the following resources and permissions to use this AEM project to upda
 
 In the AEM Assets author environment, set default values for Commerce asset metadata by creating a metadata profile. Then, apply the new profile to AEM Asset folders to automatically use these defaults. This configuration streamlines asset processing by reducing manual steps.
 
+When you configure the metadata profile, you only have to configure the following components:
+
+- Add a Commerce tab. This tab enables Commerce-specific configuration settings added by the template
+- Add the `Eligible for Commerce` field to the Commerce tab.
+
+The Product Data UI component is added automatically based on the template.
+
+### Set up the metadata profile
+
 1. Log in to the Adobe Experience Manager author environment.
 
 1. From the Adobe Experience Manager workspace, go to the Author Content Administration workspace for AEM Assets by clicking the Adobe Experience Manager icon.
@@ -75,10 +84,25 @@ In the AEM Assets author environment, set default values for Commerce asset meta
 
    1. Click  **[!UICONTROL +]** in the tab section, and then specify the **[!UICONTROL Tab Name]**, `Commerce`.
 
-1. Add the `Does it exist in Commerce?` field to the form, and set the default value to `yes`.
+1. Add `Eligible for Commerce` field to the form.
 
    ![AEM Author Admin add metadata fields to profile](./assets/aem-edit-metadata-profile-fields.png){width="600" zoomable="yes"}
+   
+   - Click **Build form**.
 
+   - Drag the `Single Line text` field to the form.
+   
+   - Add the `Eligible for Commerce` text for the label by clicking **Field Label**.
+
+   - On the Settings tab, add the label text to **Field Label**.
+
+   - Set the placeholder text to `yes`.
+
+   - In the **Map to Property** field, copy and paste the following value
+   
+     ```terminal
+     ./jcr:content/metadata/commerce:isCommerce
+     ```   
 1. Save the update.
 
 1. Apply the `Commerce integration` metadata profile to the folder where Commerce assets are stored.
@@ -93,9 +117,13 @@ In the AEM Assets author environment, set default values for Commerce asset meta
 
    1. Click **[!UICONTROL Apply]**.
 
+>[!NOTE]
+>
+>You only have to add the Commerce tab and the `Eligible for Commerce` field. The Product 
+
 >[!TIP]
 >
->You can automatically synchronize Commerce assets as they are uploaded to the AEM Assets environment by updating the metadata profile to set the default value for the _[!UICONTROL Review Status]_ field to `Approved`. The property type for the `Review Status` field is `./jcr:content/metadata/dam:status`.
+>You can automatically synchronize Commerce assets as they are uploaded to the AEM Assets environment by updating the metadata profile to set the default value for the _[!UICONTROL Review Status]_ field on the `Basic` tab to `approved`.
 
 ## Next step
 
