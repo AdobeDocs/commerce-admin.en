@@ -84,21 +84,21 @@ The Product Data UI component is added automatically based on the template.
 
    1. Click  **[!UICONTROL +]** in the tab section, and then specify the **[!UICONTROL Tab Name]**, `Commerce`.
 
-1. Add `Eligible for Commerce` field to the form.
+1. Add the `Eligible for Commerce` field to the form.
 
    ![AEM Author Admin add metadata fields to profile](./assets/aem-edit-metadata-profile-fields.png){width="600" zoomable="yes"}
 
-   - Click **Build form**.
+   - Click **[!UICONTROL Build form]**.
 
    - Drag the `Single Line text` field to the form.
 
-   - Add the `Eligible for Commerce` text for the label by clicking **Field Label**.
+   - Add the `Eligible for Commerce` text for the label by clicking **[!UICONTROL Field Label]**.
 
    - On the Settings tab, add the label text to **Field Label**.
 
    - Set the placeholder text to `yes`.
 
-   - In the **Map to Property** field, copy and paste the following value
+   - In the **[!UICONTROL Map to Property]** field, copy and paste the following value
 
      ```terminal
      ./jcr:content/metadata/commerce:isCommerce
