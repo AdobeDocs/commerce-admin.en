@@ -14,7 +14,7 @@ This guide is intended for administrators working in the Adobe Commerce Admin. I
 There are two areas for store administrators:
 
 - The Admin: Use this area to access the configuration UI and reporting.
-- [!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip"Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."} The command-line interface: Use this tool to execute installation and backend configuration tasks.
+- [!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."} The command-line interface: Use this tool to execute installation and backend configuration tasks.
 
 This guide covers:
 
@@ -22,11 +22,11 @@ This guide covers:
 | ------- | ----------- |
 | [Introduction](introduction.md) | What features are available with [!DNL Adobe Commerce B2B]?|
 | [Release Notes](release-notes.md) | Review the updates provided in each [!DNL Adobe Commerce B2B] release. |
-| [Install](install.md) | [!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip"Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."} Install the [!DNL Adobe Commerce B2B] extension. |
+| [Install](install.md) | [!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."} Install the [!DNL Adobe Commerce B2B] extension. |
 | [Enable Basic B2B Features](enable-basic-features.md) | After you install [!DNL Adobe Commerce B2B], you must enable the features that you want to activate for your store. |
 | [Company Accounts](account-companies.md) | Learn about company accounts and how they provide the primary building block for providing support for B2B buyers on your store. |
 | [Company Management](manage-companies.md) | Learn how B2B Commerce site administrators can build company hierarchies to streamline the management of multiple companies that belong to the same business enterprise.|
-| [Shared Catalogs](catalog-shared.md) | [!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip"Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."} Learn about using shared catalogs to maintain gated catalogs with custom pricing for different companies. |
+| [Shared Catalogs](catalog-shared.md) | [!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."} Learn about using shared catalogs to maintain gated catalogs with custom pricing for different companies. |
 | [Quick Orders](quick-order.md) | Learn about quick order functionality and enabling it for your customers. |
 | [Purchase Orders](purchase-order-flow.md) | Learn about purchase order workflows that allow companies to track and control their spending. |
 | [Quotes](quotes.md) | Learn about quote workflows and how you can provide this service to your company accounts. |
