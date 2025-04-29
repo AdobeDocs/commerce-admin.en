@@ -4,7 +4,6 @@ description: With Adobe Commerce B2B, learn about setting up the pricing and str
 exl-id: 67caf56f-1b31-44bb-98dc-ea6ea7d8a4d5
 feature: B2B, Companies, Catalog Management
 role: Admin
-badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Set shared catalog pricing and structure
 
