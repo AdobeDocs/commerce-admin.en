@@ -32,9 +32,8 @@ recommendations: noDisplay
 + Company management {#company-management}
     + [Overview](manage-companies.md)
     + [Manage company hierarchy](manage-company-hierarchy.md)
-+ Shared catalogs {#shared-catalogs} [!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip"Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
-
-  + [Overview](catalog-shared.md)
++ Shared catalogs {#shared-catalogs}
+  + [Overview](catalog-shared.md)[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip"Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
   + Define shared catalogs {#define}
     + [Create a shared catalog](catalog-shared-create.md)
     + [Add products to a shared catalog](catalog-shared-product-add.md)
