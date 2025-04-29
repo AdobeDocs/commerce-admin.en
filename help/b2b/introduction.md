@@ -40,6 +40,8 @@ Services for Adobe Commerce are hosted services that provide extended capabiliti
 
 ## Shared catalogs
 
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+
 Shared catalogs are the pricing levels that allow setting custom prices per product for different companies on one or multiple websites. By using shared catalogs, you can sell products by applying different pricing levels for different customer groups. Support for Shared catalogs is available only for Commerce stores configured to support Company accounts.
 
 For more information, see [Working with Shared Catalogs](catalog-shared.md).
