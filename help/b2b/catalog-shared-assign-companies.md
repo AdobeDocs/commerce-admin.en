@@ -4,6 +4,7 @@ description: Learn about assigning companies to shared catalogs.
 exl-id: b1d05684-8522-49ec-b5ed-87b35d4e2b6d
 feature: B2B, Companies, Catalog Management
 role: Admin
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Assign companies to a shared catalog
 

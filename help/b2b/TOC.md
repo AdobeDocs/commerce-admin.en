@@ -12,7 +12,8 @@ recommendations: noDisplay
 + [[!DNL Adobe Commerce B2B] Guide](guide-overview.md)
 + [Introduction to B2B features](introduction.md)
 + [Release notes](release-notes.md)
-+ [Installation](install.md)
++ [Installation](install.md) [!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip"Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+
 + [Enable B2B features](enable-basic-features.md)
 + Company accounts {#companies}
   + [Overview](account-companies.md)
@@ -31,7 +32,8 @@ recommendations: noDisplay
 + Company management {#company-management}
     + [Overview](manage-companies.md)
     + [Manage company hierarchy](manage-company-hierarchy.md)
-+ Shared catalogs {#shared-catalogs}
++ Shared catalogs {#shared-catalogs} [!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip"Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+
   + [Overview](catalog-shared.md)
   + Define shared catalogs {#define}
     + [Create a shared catalog](catalog-shared-create.md)
