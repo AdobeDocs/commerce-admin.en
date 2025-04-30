@@ -44,7 +44,7 @@ _March 12, 2025_
 
 [!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce version 2.4.5 and later releases.
 
-![New issue](../assets/new.svg)<!-- Issue ACAP-xx --> Now, the [Assets selector IMS Client ID](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/aem-asset-management/getting-started/aem-assets-setup-synchronization) is required by the Assets Selector to enable mapping AEM Assets images with product categories and page-builder generated content.
+![New issue](../assets/new.svg)<!-- Issue ACAP-xx --> Now, the [Assets selector IMS Client ID](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/aem-asset-management/getting-started/aem-assets-setup-synchronization) is required by the Assets Selector to enable mapping AEM Assets images with product categories and Page Builder generated content.
 
 ## v1.0.20
 
