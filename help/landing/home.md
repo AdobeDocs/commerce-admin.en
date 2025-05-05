@@ -76,7 +76,6 @@ Magento Open Source is the code base that Adobe officially contributes to and en
     <td valign="top">
        <img alt="Page Builder" src="./assets/icon-web-pages.svg" width="40" height="40"/></td>
    <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/page-builder/guide-overview.html"> <strong>[!DNL Page Builder]</strong></a> [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
-
     <div><em>[!DNL Page Builder] makes it easy to create content-rich pages with custom layouts. These features are designed to improve quality, and reduce the time and expense of producing custom pages.</em></div>
   </td>
 </tr>
