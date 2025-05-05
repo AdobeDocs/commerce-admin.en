@@ -76,7 +76,7 @@ Instead of immediately deducting or adding product inventory quantities, reserva
 
 >[!NOTE]
 >
->The reservation capability requires the `inventory.reservations.updateSalabilityStatus` message queue consumer to run continuously. To check if it is running, use the `bin/magento queue:consumers:list` command. If the message queue consumer is not listed, start it: `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`.
+>[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."} The reservation capability requires the `inventory.reservations.updateSalabilityStatus` message queue consumer to run continuously. To check if it is running, use the `bin/magento queue:consumers:list` command. If the message queue consumer is not listed, start it: `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`.
 
 ### Order reservations
 

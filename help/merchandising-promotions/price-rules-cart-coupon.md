@@ -56,7 +56,7 @@ The length and format of automatically generated coupon codes is controlled by t
 
 >[!NOTE]
 >
->Before you create coupons, use the `bin/magento cron:run` command to verify that cron is running. See [Run cron from the command line](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line) in the _Configuration Guide_ for more information.
+>[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."} Before you create coupons, use the `bin/magento cron:run` command to verify that cron is running. See [Run cron from the command line](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line) in the _Configuration Guide_ for more information.
 
 ### Method 1: Create a specific coupon
 
