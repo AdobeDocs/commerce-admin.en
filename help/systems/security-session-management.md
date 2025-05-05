@@ -42,6 +42,8 @@ Use the following configuration settings to limit the maximum session size for A
 
 ### Admin sessions
 
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+
 If you exceed the maximum session size, an error message is displayed and the system logs the session size constraint to the `var/log` directory.
 
 If you lose access to the Admin after setting the session size too low, use the CLI to reset the configuration:
@@ -51,6 +53,8 @@ bin/magento config:set system/security/max_session_size_admin 256000
 ```
 
 ### Storefront sessions
+
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
 
 If you exceed the maximum session size, no error displays but the system logs the session size constraint to the `var/log` directory.
 

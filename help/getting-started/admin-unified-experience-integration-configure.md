@@ -6,6 +6,7 @@ hidefromtoc: no
 feature: Integration
 role: Admin, Leader
 exl-id: b2522d25-8255-4219-98b5-4b764430dea2
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Configure the Experience Cloud Integration with the Commerce Admin
 

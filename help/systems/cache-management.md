@@ -128,7 +128,7 @@ The [!UICONTROL Cache Management] page lists the cache types that you can manage
 
 - `%CACHE_TYPE_TAG%` defines the unique tag to be used in cache type scoping.
 
-Developers and system integrators use these values to configure and manage caching when customizing or integrating with Adobe Commerce, for example developing integrations using GraphQL APIs. The `cache type id` is also used for cache management from the application server command line using the Commerce CLI. For example, ` bin/magento cache:status config` displays the current status of the Configuration cache.
+Developers and system integrators use these values to configure and manage caching when customizing or integrating with Adobe Commerce, for example developing integrations using GraphQL APIs. The `cache_type_id` is also used for cache management from the application server command line using the Commerce CLI. For example, ` bin/magento cache:status config` displays the current status of the Configuration cache. [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
 
 >[!NOTE]
 >
