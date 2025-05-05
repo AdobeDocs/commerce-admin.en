@@ -27,7 +27,7 @@ Scheduled imports and exports can be run on a daily, weekly, or monthly basis. T
    >
    >When you create or update a scheduled import/export, it results in a change to the system configuration. After saving, make sure that you address the cache invalidation notice that appears at the top of the Admin page and flush the cache in order to apply the new or updated schedule.
 
-1. After each scheduled job, a copy of the file is placed in the `var/log/import_export` directory on the Adobe Commerce local server. [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+1. [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."} After each scheduled job, a copy of the file is placed in the `var/log/import_export` directory on the Adobe Commerce local server.
 
    The details of each operation are not written to the log. If an error occurs, notification is sent of the failed import/export job, with a description of the error.
 
@@ -42,7 +42,7 @@ The advantage of using scheduled import is that you can automatically import a d
 
 The details of each import operation are not written to a log, but when there is a failure you receive an _Import Failed_ email with a description of the error. The result of the last scheduled import job is shown in the Last Outcome column on the Scheduled Import/Export page.
 
-After each import operation, a copy of the import file is placed in the `var/log/import_export` directory on the server where Adobe Commerce or Magento Open Source is deployed. The timestamp, the marker of the imported entity (products or customers), and the type of the operation (in this case, import) are added to the import file name. [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."} After each import operation, a copy of the import file is placed in the `var/log/import_export` directory on the server where Adobe Commerce or Magento Open Source is deployed. The timestamp, the marker of the imported entity (products or customers), and the type of the operation (in this case, import) are added to the import file name.
 
 After each scheduled import job, a reindex operation is performed automatically. On the frontend, changes in the descriptions and other text information are reflected after the updated data goes to the database, and the changes in prices are reflected only after the reindex operation.
 
@@ -197,7 +197,7 @@ The advantage of using Scheduled Export is that you can export data multiple tim
 
 The details of each export are not written to a log, but if there is failure you receive an Export Failed email, which contains the error description. The result of the last export job appears in the Last Outcome column on the Scheduled Import/Export page.
 
-After each export, the export file is placed in the user-defined location, and a copy in the `var/log/import_export` directory on the server where Adobe Commerce or Magento Open Source is deployed. The timestamp and the marker of the exported entity (products or customers) and type of the operation (in this case, export) are added to the export file name. [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."} After each export, the export file is placed in the user-defined location, and a copy in the `var/log/import_export` directory on the server where Adobe Commerce or Magento Open Source is deployed. The timestamp and the marker of the exported entity (products or customers) and type of the operation (in this case, export) are added to the export file name.
 
 ### Step 1: Complete the export settings
 
