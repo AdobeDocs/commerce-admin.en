@@ -14,7 +14,7 @@ feature: Configuration, Shipping/Delivery
 
 ![Flat Rate](./assets/delivery-methods-flat-rate.png)<!-- zoom -->
 
-<!-- [Flat Rate](https://docs.magento.com/user-guide/shipping/shipping-flat-rate.html) -->
+<!-- [Flat Rate](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -31,13 +31,13 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Show Method if Not Applicable]|Website|Determines if Flat Rate appears as an option during checkout if the method does not apply to the purchase. Options: `Yes` / `No`|
 |[!UICONTROL Sort Order]|Website|A number that determines the order that Flat Rate appears when listed with other delivery methods during checkout.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Free Shipping]
 
 ![Free Shipping](./assets/delivery-methods-free-shipping.png)<!-- zoom -->
 
-<!-- [Free Shipping](https://docs.magento.com/user-guide/shipping/shipping-free.html) -->
+<!-- [Free Shipping](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -52,13 +52,13 @@ feature: Configuration, Shipping/Delivery
 |Show Method if Not Applicable|Website|Determines if Free Shipping appears as an  option during checkout if the method does not apply to the purchase. Options: `Yes` / `No`|
 |[!UICONTROL Sort Order]|Website|A number that determines the order that  Free Shipping appears when listed with other delivery methods during checkout.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Table Rates]
 
 ![Table Rates](./assets/delivery-methods-table-rates.png)<!-- zoom -->
 
-<!-- [Table Rates](https://docs.magento.com/user-guide/shipping/shipping-table-rate.html) -->
+<!-- [Table Rates](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -75,13 +75,13 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Show Method if Not Applicable]|Website|Determines if Table Rates appears as an  option during checkout if the method does not apply to the purchase. Options: `Yes` / `No`|
 |[!UICONTROL Sort Order]|Website|A number that determines the order that Table Rates appears when listed with other delivery methods during checkout.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ### [!UICONTROL In-Store Delivery]
 
 ![In-Store Delivery](./assets/delivery-methods-in-store-delivery.png)<!-- zoom -->
 
-<!-- [In-Store Delivery](https://docs.magento.com/user-guide/shipping/shipping-in-store-delivery.html) -->
+<!-- [In-Store Delivery](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -92,7 +92,7 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Search Radius]|Website| The radius, in km, to use when searching for pickup locations.|
 |[!UICONTROL Displayed Error Message]|Store View|A message that displays when a customer selects in-store pickup, but the delivery method is not available.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Carriers]
 
@@ -102,7 +102,9 @@ feature: Configuration, Shipping/Delivery
 
 ![UPS REST Account Settings](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
-<!-- [UPS REST Account Settings](https://docs.magento.com/user-guide/shipping/ups.html) -->
+![UPS XML Account Settings](./assets/delivery-methods-ups1.png)<!-- zoom -->
+
+<!-- [UPS REST Account Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -112,17 +114,17 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Live Account]|Store View|Specifies that the United Parcel Service account is live. Options: `Yes` / `No`|
 |[!UICONTROL Title]|Store View|The name that is used for this shipping method during checkout.|
 |_[!UICONTROL UPS REST Account Settings]_|||
-|[!UICONTROL Gateway URL]|Website|For UPS REST service, displays the following URLs that are required to transmit JSON data: Gateway URL, Tracking URL, Shipping URL, Use either Sandbox or Production endpoints as per the Live Account|
+|[!UICONTROL Gateway URL]|Website|For UPS REST service, displays the following URLs that are required to transmit JSON data: Gateway URL, Tracking URL, Shipping URL. Use either Sandbox or Production endpoints as per the Live Account setting.|
 |[!UICONTROL Mode]|Website|Determines the mode of transmission used for data sent to the UPS system. Options: <br/>**`Development`** - UPS does not verify that data received from the Commerce server is sent over SSL. <br/>**`Live`** - UPS verifies that data received from the Commerce server is sent over a secure socket layer (SSL).|
 |User ID|Website|Your UPS shipper account Client ID.|
 |[!UICONTROL Origin of the Shipment]|Website|(UPS REST Only) The country or region where the product shipment originates.|
 |[!UICONTROL Password]|Store View|Your UPS shipper account Client Secret.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ![UPS Package Information](./assets/delivery-methods-ups-packaging-settings.png)<!-- zoom -->
 
-<!-- [UPS Package Information](https://docs.magento.com/user-guide/shipping/ups.html) -->
+<!-- [UPS Package Information]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -130,9 +132,9 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Enable Negotiated Rates]|Website|(UPS REST  Only) Enables / disables special rates, according to your agreement with UPS. Options: `Yes` / `No`|
 |[!UICONTROL Packages Request Type]|Website|Determines how weight is calculated for shipments with multiple packages. Options: `Divide to equal weight (one request)` / `Use origin weight (multiple requests)`|
 |[!UICONTROL Shipper Number]|Website|(UPS REST  Only) The six-character UPS Shipper Number is required for reference to use negotiated rates.|
-|[!UICONTROL Container]|Website|Sets the container type used to package order shipments. Options: `Customer Packaging` / `UPS Letter Envelope` / `Customer Packaging` / `UPS Letter Envelope` / `UPS Tube` / `UPS Express Box` / `UPS Worldwide 25 kilo` / `UPS Worldwide 10 kilo`|
+|[!UICONTROL Container]|Website|Sets the container type used to package shipments. Options: `Customer Packaging` / `UPS Letter Envelope` / `Customer Packaging` / `UPS Letter Envelope` / `UPS Tube` / `UPS Express Box` / `UPS Worldwide 25 kilo` / `UPS Worldwide 10 kilo`|
 |[!UICONTROL Weight Unit]|Website|Sets the default unit of measurement for product weight in your store. See [Dimensional weight](../../stores-purchase/carriers.md#dimensional-weight) for additional information.|
-|[!UICONTROL Tracking URL]|Website|(UPS REST  Only) The UPS URL that is used to track packages. Use "https://onlinetools.ups.com/api/track" for Production OR "https://wwwcie.ups.com/api/track" for Sandbox setup|
+|[!UICONTROL Tracking URL]|Website|(UPS REST  Only) The UPS URL that is used to track packages. Use `https://onlinetools.ups.com/api/track` for Production OR `https://wwwcie.ups.com/api/track` for Sandbox setup.|
 |[!UICONTROL Destination Type]|Website|Sets the default shipment destination type. Options: `Business` / `Residential`|
 |[!UICONTROL Maximum Package Weight]|Website|Sets the maximum weight that a package can be as specified by UPS. If the products ordered exceeds the maximum package weight, this shipping option is not available. According to [UPS.com](https://www.ups.com/us/en/global.page), packages cannot exceed 150 lbs (70 kg) Check with your shipping carrier to verify the maximum  weight.|
 |[!UICONTROL Pickup Method]|Website|Sets the UPS pickup method. Options: `Regular Daily Pickup` / `On Call Air` / `One Time Pickup` / `Letter Center` / `Customer Counter`|
@@ -141,11 +143,11 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Handling Applied]|Website|Specifies whether handling fee is applied to each order or to each package within an order.|
 |[!UICONTROL Handling Fee]|Website|Sets the handling that is included with the shipping rate price. Handling fee can be set as a fixed amount or a percentage. <br/><br/>**_Note:_** If typing a percentage amount, use the decimal format `0.25` for 25%.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ![UPS Allowed Methods](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
 
-<!-- [UPS Allowed Methods](https://docs.magento.com/user-guide/shipping/ups.html) -->
+<!-- [UPS Allowed Methods]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -156,11 +158,11 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Free Shipping Amount Threshold]|Website|Sets the minimum total amount that an order must reach to qualify for free shipping.|
 |[!UICONTROL Displayed Error Message]|Store View|The error message that is displayed when this shipping method is unavailable for any reason.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ![UPS Applicable Countries and Other Settings](./assets/delivery-methods-ups-ship-to.png)<!-- zoom -->
 
-<!-- [UPS Applicable Countries and Other Settings](https://docs.magento.com/user-guide/shipping/ups.html) -->
+<!-- [UPS Applicable Countries and Other Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -170,7 +172,7 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Debug]|Website|Specifies if data transmissions between your store and UPS are logged in the system for debugging. Unless there is an issue that must be tracked and logged, this option should be set to `No`.|
 |[!UICONTROL Sort Order]|Website|A number that determines the order that UPS appears when listed with other delivery methods during checkout. Enter `0` for the top of the list.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ### [!UICONTROL USPS]
 
@@ -185,26 +187,26 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Password]|Website|Your USPS shipper account password.|
 |[!UICONTROL Mode]|Website|Determines the mode of transmission used for data sent to the USPS system. Options include: <br/>**`Development`** - USPS does not verify that data received from the Commerce server is sent over SSL. <br/>**`Live`** - USPS verifies that data received from the Commerce server is sent over a secure socket layer (SSL).|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ![USPS Packaging Settings](./assets/delivery-methods-usps-packaging.png)<!-- zoom -->
 
-<!-- [USPS Packaging Settings](https://docs.magento.com/user-guide/shipping/usps.html) -->
+<!-- [USPS Packaging Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |_[!UICONTROL USPS packaging Settings]_|||
 |[!UICONTROL Packages Request Type]|Website|Determines how weight is calculated for shipments with multiple packages. Options: `Divide to equal weight (one request)` / `Use origin weight (multiple requests)`|
-|[!UICONTROL Container]|Website|Sets the container type used to package order shipments. Options: `Variable` / `Flat Rate Box` / `Flat Rate Envelope` / `Rectangular` / Non-rectangular|
+|[!UICONTROL Container]|Website|Sets the container type used to package shipments. Options: `Variable` / `Flat Rate Box` / `Flat Rate Envelope` / `Rectangular` / Non-rectangular|
 |[!UICONTROL Size]|Website|Sets the Size option to the typical shipment package size. This option affects the calculation of the shipping rate. Options: `Regular` / `Large` / `Oversize`|
 |[!UICONTROL Machinable]|Website|Specifies whether the package can be processed by machine. This option affects the calculation of the shipping rate.|
 |[!UICONTROL Maximum Package Weight]|Website|Sets the maximum weight that a package can be as specified by USPS. If the products ordered exceeds the maximum package weight, this shipping option is not available.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ![USPS Handling Fee Settings](./assets/delivery-methods-usps-handling-fee.png)<!-- zoom -->
 
-<!-- [USPS Handling Fee Settings](https://docs.magento.com/user-guide/shipping/usps.html) -->
+<!-- [USPS Handling Fee Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -213,11 +215,11 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Handling Applied]|Website|Specifies whether handling fee is applied to each order or to each package within an order.|
 |[!UICONTROL Handling Fee]|Website|Sets the handling that is included with the shipping rate price. Handling fee can be set as a fixed amount or a percentage. <br/><br/>**_Note:_** When typing a percentage amount, use the decimal format `0.25` for 25%.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ![USPS Allowed Methods](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
 
-<!-- [USPS Allowed Methods](https://docs.magento.com/user-guide/shipping/usps.html) -->
+<!-- [USPS Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -227,11 +229,11 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Minimum Order Amount for Free Shipping]|Website|Sets the minimum order amount that must be met to qualify for free shipping.|
 |[!UICONTROL Displayed Error Message]|Store View|The error message that appears when USPS is unavailable for any reason.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ![USPS Applicable Countries](./assets/delivery-methods-usps-countries.png)<!-- zoom -->
 
-<!-- [USPS Applicable Countries](https://docs.magento.com/user-guide/shipping/usps.html) -->
+<!-- [USPS Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -241,62 +243,60 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Debug]|Website|Determines if a log of data transmissions between your store and USPS is maintained by the system for debugging. Unless there is an issue that must be tracked and logged, this option should be set to `No`.|
 |[!UICONTROL Sort Order]|Website|A number that determines the order that USPS appears when listed with other delivery methods during checkout. Enter `0` for the top of the list.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ### [!UICONTROL FedEx]
 
-![FedEx Account Settings](./assets/delivery-methods-fedex-account-settings.png)<!-- zoom -->
+<!-- [FedEx Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) -->
 
-<!-- [FedEx Account Settings](https://docs.magento.com/user-guide/shipping/fedex.html) -->
+#### FedEx account settings
+
+![FedEx Account Settings](./assets/delivery-methods-fedex-account-settings.png){width="600" zoomable="yes"}
+
+| Field |[Scope](../../getting-started/websites-stores-views.md#scope-settings)| Description  |
+|-------|------ |-----------------------------------------------------------------------------|
+| [!UICONTROL Enabled for Checkout] |Website| Determines if FedEx is available to customers as a shipping method during checkout. Options: `Yes` / `No` |
+| [!UICONTROL Title]  |Store View| The title of this shipping option as it appears in the shopping cart checkout. |
+| [!UICONTROL Account ID] |Website| Your FedEx account ID. |
+| [!UICONTROL Api Key] |Website| Your FedEx account API key. |
+| [!UICONTROL Secret Key] |Website| Your FedEx account API secret key. |
+| [!UICONTROL Sandbox Mode] |Website| To run FedEx transactions in a test environment, set Sandbox Mode to `Yes`. Options: `Yes` / `No`. |
+| [!UICONTROL Web-Services URL] |Website| The URL that is required depends on the Sandbox Mode setting. Options: <br/>**`Production`** - The URL to access FedEx web services when the store is live. <br/>**`Sandbox`** - The URL to access the  testing environment for FedEx web services. |
+
+{style="table-layout:auto"}
+
+#### FedEx packaging settings
+
+![FedEx Packaging](./assets/delivery-methods-fedex-packaging.png){width="600" zoomable="yes"}
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|_[!UICONTROL FedEx Account Settings]_|||
-|[!UICONTROL Enabled for Checkout]|Website|Determines if FedEx is available to customers as a shipping method during checkout. Options: `Yes` / `No`|
-|[!UICONTROL Title]|Store View|The title of this shipping option as it appears in the shopping cart checkout.|
-|[!UICONTROL Account ID]|Website|Your FedEx account ID.|
-|[!UICONTROL Meter Number]|Website|Your FedEx meter number.|
-|[!UICONTROL Key]|Website|Your FedEx account key.|
-|[!UICONTROL Password]|Website|Your FedEx account password.|
-|[!UICONTROL Sandbox Mode]|Website|To run FedEx transactions in a test environment, set Sandbox Mode to `Yes`. Options: `Yes` / `No`.|
-|[!UICONTROL Web-Services URL]|Website|The URL that is required depends on the Sandbox Mode setting. Options: <br/>**`Production`** - The URL to access FedEx web services when the store is live. <br/>**`Sandbox`** - The URL to access the  testing environment for FedEx web services.|
-
-{:style="table-layout:auto"}
-
-![FedEx Packaging](./assets/delivery-methods-fedex-packaging.png)<!-- zoom -->
-
-<!-- [FedEx Packaging](https://docs.magento.com/user-guide/shipping/fedex.html) -->
-
-|Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
-|--- |--- |--- |
-|_[!UICONTROL FedEx Packaging Settings]_|||
+|[!UICONTROL Pickup Type]|Website|From the list, select the pick-up method: <br/>**`DropOff at Fedex Location`** - (Default) Indicates that you drop off shipments at your local FedEx station. <br/>**`Contact Fedex to Schedule`** - Indicates that you contact FedEx to request a pickup. <br/>**`Use Scheduled Pickup`** - Indicates that the shipment is picked up as part of a regular scheduled pickup. <br/>**`On Call`** - Indicates that the pickup is scheduled by calling FedEx. <br/>**`Package Return Program`** - Indicates that the shipment is picked up by the FedEx Ground Package Returns Program. <br/>**`Regular Stop`** - Indicates that the shipment is picked up at the regular pickup schedule. <br/>**`Tag`** - Indicates that the shipment pickup is specific to an Express tag or Ground call tag pickup request. This is applicable only for a return shipping label. |
 |[!UICONTROL Packages Request Type]|Website|Determines how weight is calculated for shipments with multiple packages. Options: `Divide to equal weight (one request)` / `Use origin weight (multiple requests)`|
 |[!UICONTROL Packaging]|Website|From the list, select the container type that you typically use to package products ordered from your store.|
-|[!UICONTROL Dropoff]|Website|From the list, select the pick-up method: <br/>**`Regular Pickup`** - (Default) If you have a high volume of shipments, it can be cost effective to arrange regular pickups. <br/>**`Request Courier`** - You must call and request a FedEx courier to pick up shipments. <br/>**`Drop Box`** - You must drop off shipments at your local FedEx drop off box. <br/>**`Business Service Center`** - You must drop off shipments at your local FedEx business service center. <br/>**`Station`** - You must drop off shipments at your local FedEx station.|
+|[!UICONTROL Weight Unit]|Website|The unit used for package weight. Options: `Pounds` (default) / `Kilograms`|
 |[!UICONTROL Maximum Package Weight]|Website|The default for FedEx is 150 pounds. Consult your shipping carrier for maximum supported weight. Using the default value is recommended unless you have special arrangements with FedEx.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
-![FedEx Handling Fee](./assets/delivery-methods-fedex-handling-fee.png)<!-- zoom -->
+#### FedEx handling fee settings
 
-<!-- [FedEx Handling Fee](https://docs.magento.com/user-guide/shipping/fedex.html) -->
+![FedEx Handling Fee](./assets/delivery-methods-fedex-handling-fee.png){width="600" zoomable="yes"}
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|_[!UICONTROL FedEx Handling Fee Settings]_|||
 |[!UICONTROL Calculate Handling Fee]|Website|Determines the method used to calculate handling fees. Options: `Fixed Fee` / `Percentage` <br/><br/>**_Note:_** The handling fee is optional, and appears as an extra charge that is added to the FedEx shipping cost.|
 |[!UICONTROL Handling Applied]|Website|Determines how handling fees are applied. Options: `Per Order` / `Per Package`|
 |[!UICONTROL Handling Fee]|Website|Specifies the amount charged as a handling fee, based on the method used to calculate the amount. If the charge is based on a fixed fee, enter the amount as a decimal, such as `4.90`. If the handling fee is based on a percentage of the order, enter the amount as a percentage. For example, to charge six percent of the order, enter the value as `.06`.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
-![FedEx Delivery Methods](./assets/delivery-methods-fedex-delivery-methods.png)<!-- zoom -->
+#### FedEx delivery methods
 
-<!-- [FedEx Delivery Methods](https://docs.magento.com/user-guide/shipping/fedex.html) -->
+![FedEx Delivery Methods](./assets/delivery-methods-fedex-delivery-methods.png){width="600" zoomable="yes"}
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|_[!UICONTROL FedEx delivery methods]_|||
 |[!UICONTROL Residential Delivery]|Website|Set to one of the following, depending on whether you sell Business-to-Consumer (B2C) or Business-to-Business (B2B): <br/>**`Yes`** - For B2C deliveries <br/>**`No`** - For B2B deliveries|
 |[!UICONTROL Allowed Methods]|Website|From the list, select the methods of shipment that you support. The methods depend on your FedEx account, the frequency and size of your shipments, and whether you allow international shipments. As the merchant, you might decide to offer ground shipping only.|
 |[!UICONTROL Hub ID]|Website|An ID provided by FedEx that is used with the [!DNL Smart Post] method.|
@@ -305,46 +305,45 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Free Shipping Amount Threshold]|Website|Specifies the minimum order amount that is required for free shipping.|
 |[!UICONTROL Displayed Error Message]|Store View|The message that appears when FedEx is unavailable for any reason. You can use the default message or enter another.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
-![FedEx Applicable Countries](./assets/delivery-methods-fedex-applicable-countries.png)<!-- zoom -->
+#### FedEx applicable country settings
 
-<!-- [FedEx Applicable Countries](https://docs.magento.com/user-guide/shipping/fedex.html) -->
+![FedEx Applicable Countries](./assets/delivery-methods-fedex-applicable-countries.png){width="600" zoomable="yes"}
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|_[!UICONTROL FedEx Applicable Countries]_|||
 |[!UICONTROL Ship to Applicable Countries]|Website|Indicates the countries where your customers can ship by FedEx. Options: <br/>**`All Allowed Countries`** - Customers from all [countries](../../getting-started/store-details.md#country-options) specified in your store configuration  can use this shipping method. <br/>**`Specific Countries`** - After choosing this option, the [!UICONTROL Ship to Specific Countries] list appears. Select each country in the list where this shipping method can be used.|
 |[!UICONTROL Ship to Specific Countries]|Website|Indicates the specific countries where your customers can ship by FedEx.|
 |[!UICONTROL Debug]|Website|Determines if a log of data transmissions between your store and FedEx is maintained by the system for debugging. Unless there is an issue that must be tracked and logged, this option should be set to `No`.|
 |[!UICONTROL Show Method if Not Applicable]|Website|Determines when FedEx appears as a shipping method during checkout. Options: <br/>**`Yes`** - The FedEx shipping option is displayed in the delivery methods list, regardless of whether the order qualifies to use it. <br/>**`No`** - The FedEx shipping option is not displayed in the delivery methods list if it is not applicable to the order (for example, if the order weight exceeds the maximum weight amount).|
 |[!UICONTROL Sort Order]|Website|A number that determines the order that FedEx appears when listed with other delivery methods during checkout. Enter `0` for the top of the list.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ### [!UICONTROL DHL]
 
 ![DHL Account Settings](./assets/delivery-methods-dhl-account-settings.png)<!-- zoom -->
 
-<!-- [DHL Account Settings](https://docs.magento.com/user-guide/shipping/dhl.html) -->
+<!-- [DHL Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
-| Field                               |[Scope](../../getting-started/websites-stores-views.md#scope-settings)| Description                                                                                             |
-|-------------------------------------|--- |---------------------------------------------------------------------------------------------------------|
-| _[!UICONTROL DHL Account Settings]_ |||
-| [!UICONTROL Enabled for Checkout]   |Website| Determines if DHL is available to customers as a shipping method during checkout. Options: `Yes` / `No` |
-| [!UICONTROL Title]                  |Store View| The title of this shipping method as it appears during checkout.                                        |
-| [!UICONTROL DHL Type]               |Website| Choose REST or XML based on which one you will use.                                                     |
-| [!UICONTROL Access ID]              |Website| Your DHL shipper account access ID.                                                                     |
-| [!UICONTROL API KEY]                |Website| Your DHL API KEY for REST API.                                                                          |
-| [!UICONTROL Password]               |Website| Your DHL shipper account password.                                                                      |
-| [!UICONTROL API Secret]             |Website| Your DHL API Secret Key for REST API.                                                                   |
-| [!UICONTROL Account Number]         |Website| Your DHL shipper account number.                                                                        |
+|Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
+|--- |--- |--- |
+|_[!UICONTROL DHL Account Settings]_|||
+|[!UICONTROL Enabled for Checkout]|Website|Determines if DHL is available to customers as a shipping method during checkout. Options: `Yes` / `No`|
+|[!UICONTROL Title]|Store View|The title of this shipping method as it appears during checkout.|
+|[!UICONTROL DHL Type]|Website|Choose REST or XML based on which one you will use.|
+|[!UICONTROL Access ID]|Website|Your DHL shipper account access ID.|
+|[!UICONTROL API KEY]|Website|Your DHL API KEY for REST API.|
+|[!UICONTROL Password]|Website|Your DHL shipper account password.|
+|[!UICONTROL API Secret]|Website|Your DHL API Secret Key for REST API.|
+|[!UICONTROL Account Number]|Website|Your DHL shipper account number.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ![DHL Package Settings](./assets/delivery-methods-dhl-package-settings.png)<!-- zoom -->
 
-<!-- [DHL Package Settings](https://docs.magento.com/user-guide/shipping/dhl.html) -->
+<!-- [DHL Package Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -356,36 +355,36 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Weight Unit]|Store View|Determines the unit of measurement for weight that is used in shipping calculations. Options: `Pounds` / `Kilograms`|
 |[!UICONTROL Size]|Store View|Determines the size of the package. Options: <br/>**`Regular`** - Packages shipped conform to of DHL standard packaging methods. In the [!UICONTROL Allowed Methods] list, select each packaging method used to ship products from your store. <br/>**`Specific`** - If packages shipped have custom dimensions, complete the following: [!UICONTROL Height (cm)] / [!UICONTROL Depth (cm)] / [!UICONTROL Width (cm)]|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ![DHL Allowed Methods](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
 
-<!-- DHL Allowed Methods](https://docs.magento.com/user-guide/shipping/dhl.html) -->
+<!-- DHL Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |_[!UICONTROL DHL allowed methods]_|||
 |[!UICONTROL Allowed Methods]|Website|In the list, select each shipment method that you support.|
-|[!UICONTROL Ready Time]|Website|Specifies when the package will be ready for pickup, in hours, after an order is submitted.|
+|[!UICONTROL Ready Time]|Website|Specifies when the package will be ready for pickup (in hours) after an order is submitted.|
 |[!UICONTROL Displayed Error Message]|Store View|This message appears when DHL becomes unavailable for any reason. You can use the default message or enter a message of your own.|
 |[!UICONTROL Free Method]||This shipping method is similar to the regular Free Shipping method, however it is listed within the DHL shipping options and is identified as DHL shipping. In the list, select the shipping method you prefer to use for offers of free shipping.|
 |[!UICONTROL Free Shipping with Minimum Order Amount]|Website|Set to one of the following: <br/>**`Enable`** - To allow free DHL shipping for orders that meet the minimum amount. <br/>**`Disable`** - To not offer free DHL shipping with minimum order.|
 |[!UICONTROL Minimum Order Amount for Free Shipping]|Website|If you enable [!UICONTROL Free Shipping with Minimum Order], enter the minimum order amount value in the field.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ![DHL Applicable Countries](./assets/delivery-methods-dhl-applicable-countries.png)<!-- zoom -->
 
-<!-- [DHL Applicable Countries](https://docs.magento.com/user-guide/shipping/dhl.html) -->
+<!-- [DHL Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
-| Field                                      |[Scope](../../getting-started/websites-stores-views.md#scope-settings)| Description                                                                                                                                                                                                                                                                                                                                                                                                 |
-|--------------------------------------------|--- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| _[!UICONTROL DHL applicable countries]_    |||
-| [!UICONTROL Ship to Applicable Countries]  |Website| Specifies which country customers are allowed to use this shipping method. Options: <br/>**All Allowed Countries** - All allowed countries are applicable to use the free shipping method. The Allowed Countries are specified in the [!UICONTROL General] configuration page. <br/>**Specific Countries** - Limits this shipping option to the countries specified in the Ship to Specific Countries list. |
-| [!UICONTROL Ship to Specific Countries]    |Website| Specifies the countries where DHL shipments can be sent. This selected countries list is used if `Specific Countries` is selected in the [!UICONTROL Ship to Applicable Countries] option.                                                                                                                                                                                                                  |
-| [!UICONTROL Show Method if Not Applicable] |Website| Determines when DHL appears as a shipping method during checkout. Options: <br/>**`Yes`** - DHL always appears as a shipping option during checkout, even if not applicable to the order. <br/>**`No`** - DHL appears as a shipping option during checkout only if applicable to the order (that is, order weight exceeds the maximum weight amount).                                                       |
-| [!UICONTROL Debug]                         |Website| Creates a log file with error information.                                                                                                                                                                                                                                                                                                                                                                  |
-| [!UICONTROL Sandbox Mode]                  |Website| Set to `Yes` if using sandbox else `No` for Live mode.                                                                                                                                                                                                                                                                                                                                                      |
-| [!UICONTROL Sort Order]                    |Website| A number that determines the order in which DHL appears when listed with other delivery methods during checkout. To place it at the top of the list, enter `0`.                                                                                                                                                                                                                                             |
+|Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
+|--- |--- |--- |
+|_[!UICONTROL DHL applicable countries]_|||
+|[!UICONTROL Ship to Applicable Countries]|Website|Specifies which country customers are allowed to use this shipping method. Options: <br/>**All Allowed Countries** - All allowed countries are applicable to use the free shipping method. The Allowed Countries are specified in the [!UICONTROL General] configuration page. <br/>**Specific Countries** - Limits this shipping option to the countries specified in the Ship to Specific Countries list.|
+|[!UICONTROL Ship to Specific Countries]|Website|Specifies the countries where DHL shipments can be sent. This selected countries list is used if `Specific Countries` is selected in the [!UICONTROL Ship to Applicable Countries] option.|
+|[!UICONTROL Show Method if Not Applicable]|Website|Determines when DHL appears as a shipping method during checkout. Options: <br/>**`Yes`** - DHL always appears as a shipping option during checkout, even if not applicable to the order. <br/>**`No`** - DHL appears as a shipping option during checkout only if applicable to the order (that is, order weight exceeds the maximum weight amount).|
+|[!UICONTROL Debug]|Website|Creates a log file with error information.|
+| [!UICONTROL Sandbox Mode]|Website| Set to `Yes` if using sandbox else `No` for Live mode.|
+|[!UICONTROL Sort Order]|Website|A number that determines the order in which DHL appears when listed with other delivery methods during checkout. To place it at the top of the list, enter `0`.|
 
-{:style="table-layout:auto"}
+{style="table-layout:auto"}
