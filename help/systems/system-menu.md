@@ -7,7 +7,21 @@ exl-id: 3f3bfc07-0ac8-4a50-9442-4b2e1e5fba04
 
 The [!UICONTROL System] menu includes tools to import and export data, manage system caches and indexes, manage permissions, backups, system notifications, and custom variables.
 
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+
 ![System menu](./assets/system-menu.png){width="600" zoomable="yes"}
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and Adobe Commerce Optimizer projects only (Adobe-managed SaaS infrastructure)."}
+
+![System menu](./assets/system-menu-saas.png){width="600" zoomable="yes"}
+
+>[!ENDTABS]
 
 **_To display the [!UICONTROL System] menu:_**
 
@@ -19,13 +33,19 @@ These [tools](data-transfer.md) provide give you the ability to manage multiple 
 
 ## [!UICONTROL Extensions]
 
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+
 Manage [third-party integrations](integrations.md) and extensions for your store.
 
 ## [!UICONTROL Tools]
 
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+
 Use this collection of tools to manage your system resources, including [cache](cache-management.md) and [index](index-management.md) management, [backups](backups.md), and installation settings.
 
 ## [!UICONTROL Support]
+
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only)
 
