@@ -90,7 +90,7 @@ DHL provides international shipping services.
 
 1. Select **[!UICONTROL DHL Type]** as `DHL REST` or `DHL XML`.
 
-1. Verify that the following credentials are complete as per **[!UICONTROL DHL Type]** selection:
+1. Verify that the following credentials are complete based on the **[!UICONTROL DHL Type]** selection:
 
    - Access ID
    - Password

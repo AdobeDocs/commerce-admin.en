@@ -12,17 +12,17 @@ DHL offers integrated international services and tailored, customer-focused solu
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-2. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Delivery Methods]**.
+1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Delivery Methods]**.
 
-3. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL DHL]** section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL DHL]** section.
 
    >[!NOTE]
    >
    >If necessary, first clear the **[!UICONTROL Use system value]** checkbox to change the following settings as described.
 
-4. Set **[!UICONTROL Enabled for Checkout]** to `Yes`.
+1. Set **[!UICONTROL Enabled for Checkout]** to `Yes`.
 
-5. Set **[!UICONTROL DHL Type]** to `DHL REST` if you are using the DHL REST API.
+1. Set **[!UICONTROL DHL Type]** to `DHL REST` if you are using the DHL REST API.
 
    If you are using the DHL XML API, set **[!UICONTROL DHL Type]** to `DHL XML`.
 
@@ -30,14 +30,14 @@ DHL offers integrated international services and tailored, customer-focused solu
    >
    >The DHL REST API is the preferred method for integrating with DHL. The XML API is deprecated and may be removed in future releases.
 
-6. Use the credentials provided by DHL to complete the following fields:
+1. Use the credentials provided by DHL to complete the following fields:
 
-If you are using the DHL REST API, you need to provide the following credentials:
+If you are using the DHL REST API, you must provide the following credentials:
 
     - **[!UICONTROL API KEY]**
     - **[!UICONTROL API SECRET]**
 
-If you are using the DHL XML API, you need to provide the following credentials:
+If you are using the DHL XML API, you must provide the following credentials:
   
     - **[!UICONTROL Access ID]**
     - **[!UICONTROL Password]**
@@ -125,25 +125,25 @@ If you are using the DHL XML API, you need to provide the following credentials:
 
    If shipping to specific countries, select each country from the **[!UICONTROL Ship to Specific Countries]** list.
 
-2. Set **[!UICONTROL Show Method if Not Applicable]**:
+1. Set **[!UICONTROL Show Method if Not Applicable]**:
 
    `Yes` - Shows DHL as a shipping method during checkout, even if not applicable to the order.
 
    `No` - Shows DHL as a shipping method during checkout only if applicable.
 
-3. To create a log file with the details of DHL shipments made from your store, set **[!UICONTROL Debug]** to `Yes`.
+1. To create a log file with the details of DHL shipments made from your store, set **[!UICONTROL Debug]** to `Yes`.
 
-4. DHL has  **[!UICONTROL sandbox mode]** option. If you are using the sandbox mode, set **[!UICONTROL sandbox mode]** to `Yes`.
-   If you are using the live mode, set **[!UICONTROL sandbox mode]** to `No`.
+1. DHL provides a  **[!UICONTROL sandbox mode]** option. If you are using sandbox mode, set **[!UICONTROL sandbox mode]** to `Yes`.
+   If you are using live mode, set **[!UICONTROL sandbox mode]** to `No`.
 
    >[!NOTE]
    >
-   >The sandbox mode is used for testing purposes only. It allows you to test your integration with DHL without affecting your live store.
+   >Sandbox mode is used for testing purposes only. It allows you to test your integration with DHL without affecting your live store.
 
-5. For **[!UICONTROL Sort Order]**, enter a number to determine the sequence in which DHL appears when listed with other delivery methods during checkout.
+1. For **[!UICONTROL Sort Order]**, enter a number to determine the sequence in which DHL appears when listed with other delivery methods during checkout.
 
    `0` = first, `1` = second, `2` = third, and so on.
 
-6. Click **[!UICONTROL Save Config]**.
+1. Click **[!UICONTROL Save Config]**.
 
    ![DHL Applicable Countries](../configuration-reference/sales/assets/delivery-methods-dhl-applicable-countries.png){width="600" zoomable="yes"}
