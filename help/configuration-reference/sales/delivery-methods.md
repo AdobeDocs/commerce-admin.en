@@ -332,9 +332,11 @@ feature: Configuration, Shipping/Delivery
 |_[!UICONTROL DHL Account Settings]_|||
 |[!UICONTROL Enabled for Checkout]|Website|Determines if DHL is available to customers as a shipping method during checkout. Options: `Yes` / `No`|
 |[!UICONTROL Title]|Store View|The title of this shipping method as it appears during checkout.|
-|[!UICONTROL Gateway URL]|Website|Usually, you can accept the default Gateway URL. However, if DHL has given you an alternate URL, enter the value in this field.|
+|[!UICONTROL DHL Type]|Website|Choose REST or XML based on which one you will use.|
 |[!UICONTROL Access ID]|Website|Your DHL shipper account access ID.|
+|[!UICONTROL API KEY]|Website|Your DHL API KEY for REST API.|
 |[!UICONTROL Password]|Website|Your DHL shipper account password.|
+|[!UICONTROL API Secret]|Website|Your DHL API Secret Key for REST API.|
 |[!UICONTROL Account Number]|Website|Your DHL shipper account number.|
 
 {style="table-layout:auto"}
@@ -382,6 +384,7 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Ship to Specific Countries]|Website|Specifies the countries where DHL shipments can be sent. This selected countries list is used if `Specific Countries` is selected in the [!UICONTROL Ship to Applicable Countries] option.|
 |[!UICONTROL Show Method if Not Applicable]|Website|Determines when DHL appears as a shipping method during checkout. Options: <br/>**`Yes`** - DHL always appears as a shipping option during checkout, even if not applicable to the order. <br/>**`No`** - DHL appears as a shipping option during checkout only if applicable to the order (that is, order weight exceeds the maximum weight amount).|
 |[!UICONTROL Debug]|Website|Creates a log file with error information.|
+| [!UICONTROL Sandbox Mode]|Website| Set to `Yes` if using sandbox. Set to `No` for Live mode.|
 |[!UICONTROL Sort Order]|Website|A number that determines the order in which DHL appears when listed with other delivery methods during checkout. To place it at the top of the list, enter `0`.|
 
 {style="table-layout:auto"}

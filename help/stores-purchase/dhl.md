@@ -22,15 +22,26 @@ DHL offers integrated international services and tailored, customer-focused solu
 
 1. Set **[!UICONTROL Enabled for Checkout]** to `Yes`.
 
-1. Usually, you can accept the default **[!UICONTROL Gateway URL]**.
+1. Set **[!UICONTROL DHL Type]** to `DHL REST` if you are using the DHL REST API.
 
-   If DHL has given you an alternate URL, enter that value in this field.
+   If you are using the DHL XML API, set **[!UICONTROL DHL Type]** to `DHL XML`.
+
+   >[!NOTE]
+   >
+   >The DHL REST API is the preferred method for integrating with DHL. The XML API is deprecated and may be removed in future releases.
 
 1. Use the credentials provided by DHL to complete the following fields:
 
-   - **[!UICONTROL Access ID]**
-   - **[!UICONTROL Password]**
-   - **[!UICONTROL Account Number]**
+If you are using the DHL REST API, you must provide the following credentials:
+
+    - **[!UICONTROL API KEY]**
+    - **[!UICONTROL API SECRET]**
+
+If you are using the DHL XML API, you must provide the following credentials:
+  
+    - **[!UICONTROL Access ID]**
+    - **[!UICONTROL Password]**
+    - **[!UICONTROL Account Number]**
 
 ![DHL Account Settings](../configuration-reference/sales/assets/delivery-methods-dhl-account-settings.png){width="600" zoomable="yes"}
 
@@ -121,6 +132,13 @@ DHL offers integrated international services and tailored, customer-focused solu
    `No` - Shows DHL as a shipping method during checkout only if applicable.
 
 1. To create a log file with the details of DHL shipments made from your store, set **[!UICONTROL Debug]** to `Yes`.
+
+1. DHL provides a  **[!UICONTROL sandbox mode]** option. If you are using sandbox mode, set **[!UICONTROL sandbox mode]** to `Yes`.
+   If you are using live mode, set **[!UICONTROL sandbox mode]** to `No`.
+
+   >[!NOTE]
+   >
+   >Sandbox mode is used for testing purposes only. It allows you to test your integration with DHL without affecting your live store.
 
 1. For **[!UICONTROL Sort Order]**, enter a number to determine the sequence in which DHL appears when listed with other delivery methods during checkout.
 
