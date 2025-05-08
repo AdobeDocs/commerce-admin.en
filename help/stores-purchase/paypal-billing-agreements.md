@@ -3,6 +3,7 @@ title: PayPal billing agreements
 description: Learn how you can support PayPal billing agreements and a payment method within your store.
 exl-id: b0800b41-816a-4c48-a54d-41ddc1d586ce
 feature: Payments
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # PayPal billing agreements
 

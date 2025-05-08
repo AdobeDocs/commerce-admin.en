@@ -3,6 +3,7 @@ title: PayPal Settlement report
 description: Learn about the PayPal Settlement report as a tool to manage PayPal transactions.
 exl-id: cd087e15-e6ad-4472-9038-8c64fde316f9
 feature: Payments
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # PayPal Settlement report
 
