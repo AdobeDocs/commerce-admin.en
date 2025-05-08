@@ -9,60 +9,6 @@ exl-id: f67616e6-7879-4fd3-947a-16856f8447ba
 
 The support tools are designed to identify known issues in your system. They can be used as a resource during the development and optimization processes, and as a diagnostic tool to help our support team identify and resolve issues.
 
-## Data collector
-
-The data collector gathers the information about your system that is needed by our Support team to troubleshoot issues with your Adobe Commerce installation. The backup that is created takes several minutes to complete, and includes both a code and database dump. The data can be exported to a CSV or Excel XML file.
-
-![System - Data Collector](./assets/data-collector.png){width="600" zoomable="yes"}
-
-### Run the data collector
-
-1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Support]_ > **[!UICONTROL Data Collector]**.
-
-1. In the upper-right corner, click **[!UICONTROL New Backup]**.
-
-   It takes a few minutes to generate the backup. You can monitor the results of processing by clicking **[!UICONTROL Refresh Status]**. When complete, the backup appears in the _[!UICONTROL Data Collector]_ grid.
-
-1. To view a log with the backup details, do the following:
-
-   - In the _[!UICONTROL Action]_ column, select **[!UICONTROL Show Log]**.
-
-   - Click **[!UICONTROL Back]** to return to the grid.
-
-   ![data collector log](./assets/data-collector-log.png){width="600" zoomable="yes"}
-
-### Export backup data
-
-1. In the first column, select the checkbox of the backup to be exported.
-
-1. Use the **[!UICONTROL Export]** menu to choose the format of the export data.
-
-   ![Export Format](./assets/data-collector-export.png){width="600" zoomable="yes"}
-
-1. Access the file from the web browser download location and **[!UICONTROL Save]** it.
-
-### Download backup data
-
-After the backup is generated, you can download the copy of Code and DB data.
-
-1. Find the needed backup entity in the grid.
-
-1. Make sure it has a `Complete` status.
-
-1. Click the entity name in _[!UICONTROL Code Dump]_ or _[!UICONTROL DB Dump]_ columns.
-
-The download process should start automatically.
-
-## Delete backup data
-
-1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Support]_ > **[!UICONTROL Data Collector]**.
-
-1. Find and select the backup data to be deleted.
-
-1. In the _[!UICONTROL Action]_ column, click **[!UICONTROL Delete]**.
-
-1. To confirm the action, click **[!UICONTROL OK]**.
-
 ## System reports
 
 The system reporting tool gives you the ability take periodic full, or partial, snapshots of the system, and save them for future reference. You can compare performance settings before and after code development cycles, or changes to server settings. The system reporting tool can dramatically reduce the time spent preparing and submitting the information required by Support to begin an investigation.
