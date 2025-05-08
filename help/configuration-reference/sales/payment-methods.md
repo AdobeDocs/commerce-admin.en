@@ -31,10 +31,8 @@ feature: Configuration, Payments
 The following payment solutions are recommended as an easy way for merchants who are just starting out to accept online payment by PayPal account or credit card. As your business grows, you can combine these with additional PayPal payment solutions.
 
 - [Payment Services](payment-services.md)
-- [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
- [PayPal Express Checkout](paypal-express-checkout.md)
-- [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
- [Braintree](braintree.md)
+- [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."} [PayPal Express Checkout](paypal-express-checkout.md)
+- [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."} [Braintree](braintree.md)
 
 >[!NOTE]
 >
