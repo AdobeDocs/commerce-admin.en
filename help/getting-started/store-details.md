@@ -167,6 +167,8 @@ For help with troubleshooting country configuration issues, see the following [!
 
 ## [!UICONTROL Merchant Location]
 
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+
 The Merchant Location setting is used to configure [payment methods](../stores-purchase/payments.md). If there is no value for this setting, the [Default Country](#uicontrol-country-options) setting is used.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
