@@ -38,7 +38,7 @@ If you are using the DHL REST API, you must provide the following credentials:
     - **[!UICONTROL API SECRET]**
 
 If you are using the DHL XML API, you must provide the following credentials:
-  
+
     - **[!UICONTROL Access ID]**
     - **[!UICONTROL Password]**
     - **[!UICONTROL Account Number]**
@@ -68,7 +68,7 @@ If you are using the DHL XML API, you must provide the following credentials:
 
    - For **[!UICONTROL Handling Fee]**, enter the amount to be charged, based on the method you have chosen to calculate the amount.
 
-      For example, if the charge is based on a fixed fee, enter the amount as a decimal, such as `4.90`. However, if the handling fee is based on a percentage of the order, enter the amount as a percentage. For example, if you are charging six percent of the order, enter the value as `.06`.
+      For example, if the charge is based on a fixed fee, enter the amount as a decimal, such as `4.90`. However, if the handling fee is based on a percentage of the order, enter the amount as a percentage. For example, if you are charging six percent of the order, enter the value as `6`.
 
    - To allow the total order weight to be broken up to ensure an accurate calculation of shipping charges, set **[!UICONTROL Divide Order Weight]** to `Yes`.
 
@@ -83,6 +83,10 @@ If you are using the DHL XML API, you must provide the following credentials:
       - `Specific`
 
       If you choose `Specific`, enter the **[!UICONTROL Height]**, **[!UICONTROL Depth]**, and **[!UICONTROL Width]** of the package in centimeters.
+
+    >[!NOTE]
+    >
+    >If no dimensions are specified, each one will default to a minimum value of 3.
 
    ![DHL Package Settings](../configuration-reference/sales/assets/delivery-methods-dhl-package-settings.png){width="600" zoomable="yes"}
 
