@@ -84,7 +84,9 @@ If you are using the DHL XML API, you must provide the following credentials:
 
       If you choose `Specific`, enter the **[!UICONTROL Height]**, **[!UICONTROL Depth]**, and **[!UICONTROL Width]** of the package in centimeters.
 
-   - Note: If no dimensions are specified, each one will default to a minimum value of 3.
+    >[!NOTE]
+    >
+    >If no dimensions are specified, each one will default to a minimum value of 3.
 
    ![DHL Package Settings](../configuration-reference/sales/assets/delivery-methods-dhl-package-settings.png){width="600" zoomable="yes"}
 
