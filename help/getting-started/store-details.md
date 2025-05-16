@@ -211,7 +211,7 @@ Before you can configure email addresses for the store, each must be set up as a
 
 [!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service projects only (Adobe-managed SaaS infrastructure)."}
 
-Some customer-facing emails include links to the store, such those that help customers reset their passwords. You must define the base URL to your storefront.
+Some customer-facing emails include links to the store, such as those that help customers reset their passwords. To ensure that the links to the storefront are functional, you must define the base URL to your storefront.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
