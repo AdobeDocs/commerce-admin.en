@@ -18,7 +18,7 @@ See [Store email addresses](../../getting-started/store-details.md#store-email-a
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|[!UICONTROL Storefront Base URL]|Store View|The base URL that will be used to construct links that are included in customer-facing emails. The URL must end with a forward slash.|
+|[!UICONTROL Storefront Base URL]|Store View|The base URL that will be used to construct links that are included in customer-facing emails. The URL must end with a forward slash. For example, `https://www.example.com/`.|
 
 {style="table-layout:auto"}
 
