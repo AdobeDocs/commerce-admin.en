@@ -55,9 +55,24 @@ The [!DNL United States Postal Service] ships both domestically and internationa
 
 1. Continuing in the **[!UICONTROL Delivery Methods]** configuration, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL USPS]** section.
 
+1. Select **[!UICONTROL USPS Type]** as `USPS Rest APIs` or `USPS Web Tools API`.
+
 1. Verify that the **[!UICONTROL Secure Gateway URL]** is correct.
 
-1. Enter the **[!UICONTROL Password]** provided to you by USPS.
+1. Verify that the following configuration are complete based on the **[!UICONTROL USPS Type]** selection:
+
+   If you are using the USPS Web Tools API,
+      - User Id
+      - Password
+
+   If you are using the USPS Rest APIs,   
+      - Consumer Key
+      - Consumer Secret
+      - Account Type
+      - Account Number
+      - Customer Registration ID (CRID)
+      - Mailer Identifier (MID)
+      - Manifest MID
 
 1. Set **[!UICONTROL Size]** to `Large` and enter values for the following dimensions:
 

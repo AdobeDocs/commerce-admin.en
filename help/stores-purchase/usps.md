@@ -28,6 +28,14 @@ You can also open a [USPS Web Tools][1] account. After you complete the registra
 
 1. Set **[!UICONTROL Enabled for Checkout]** to `Yes`.
 
+1. Set **[!UICONTROL USPS Type]** to `USPS Rest APIs` if you are using the USPS REST API.
+
+   If you are using the USPS Web Tools API, set **[!UICONTROL USPS Type]** to `USPS Web Tools API`.
+
+   >[!NOTE]
+   >
+   >The USPS Rest APIs is the preferred method for integrating with USPS. The USPS Web Tools API is deprecated and may be removed in future releases.
+
 1. If needed, enter the **[!UICONTROL Gateway URL]** to access USPS shipping rates.
 
    >[!IMPORTANT]
@@ -38,7 +46,18 @@ You can also open a [USPS Web Tools][1] account. After you complete the registra
 
 1. Enter a **[!UICONTROL Title]** for this shipping method that appears during checkout.
 
-1. Enter the **[!UICONTROL User ID]** and **[!UICONTROL Password]** for your USPS account.
+1. Use the credentials provided by USPS to complete the following fields:
+
+   If you are using the USPS Rest APIs, you must provide the following credentials:
+
+      - **[!UICONTROL Consumer Key]**
+      - **[!UICONTROL Consumer Secre]**
+      
+   If you are using the USPS Web Tools API, you must provide the following credentials:
+
+      - **[!UICONTROL User ID]**
+      - **[!UICONTROL Password]**
+
 
 1. Set **[!UICONTROL Mode]** to one of the following:
 

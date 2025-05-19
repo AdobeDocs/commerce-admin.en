@@ -176,6 +176,8 @@ feature: Configuration, Shipping/Delivery
 
 ### [!UICONTROL USPS]
 
+![USPS Account Settings](./assets/delivery-methods-usps.png)<!-- zoom -->
+
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |Enabled for Checkout|Website|Determines if USPS is available to customers as a shipping method during checkout. Options: `Yes` / `No`|
@@ -183,9 +185,21 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Gateway URL]|Website|The URL that is used to connect to the USPS system to dynamically retrieve shipping rates.|
 |[!UICONTROL Secure Gateway URL]|Website|The secure URL that is used to connect to the USPS system over a secure socket layer (SSL) to dynamically retrieve shipping rates.|
 |[!UICONTROL Title]|Store View|The title of this shipping option as it appears in the shopping cart checkout.|
+|[!UICONTROL USPS Type]|Website|Choose **USPS Rest APIs** or **USPS Web Tools API** based on which one you will use.|
 |[!UICONTROL User ID]|Website|Your USPS shipper account user ID.|
 |[!UICONTROL Password]|Website|Your USPS shipper account password.|
-|[!UICONTROL Mode]|Website|Determines the mode of transmission used for data sent to the USPS system. Options include: <br/>**`Development`** - USPS does not verify that data received from the Commerce server is sent over SSL. <br/>**`Live`** - USPS verifies that data received from the Commerce server is sent over a secure socket layer (SSL).|
+|[!UICONTROL Mode]|Website|Determines the mode of transmission used for data sent to the USPS system. Options include: <br/>**`Development`** - USPS does not verify that data received from the Commerce server is sent over SSL. <br/>**`Live`** - USPS verifies that data received from the Commerce server is sent over a secure socket layer (SSL).|                                                                                                                                                |
+| _[!UICONTROL USPS Rest Account Settings]_||
+| [!UICONTROL Gateway REST URL]|Website|The URL that is used to connect to the USPS system to dynamically retrieve shipping rates.Use either Development or Production endpoints as per the Live Account setting.|
+| [!UICONTROL Client Id API Key ]|Website|Your USPS shipper account Client Id.|
+| [!UICONTROL Client Secret Key]|Website| Your USPS shipper account Client Secret Key.|
+| [!UICONTROL Account Type]|Website|Type of USPS payment account. Options: `"EPS"` (Enterprise Payment System), or`"PERMIT"` (Permit Imprint).|
+| [!UICONTROL Pricing Options]|Website|USPS pricing type: e.g., **Retail**, or **Commercial**. Impacts the shipping rate applied. Default is **Commercial**.|
+| [!UICONTROL Account Number]|Website|Your USPS **account number**, used for payment.|
+| [!UICONTROL Customer Registration Identifier(CRID)] |Website|A Customer Registration Identification number (CRID) is a USPS-generated numeric code that uniquely identifies a business at a location.|
+| [!UICONTROL Mailer Identifier(MID)] |Website|The Mailer Identifier (MID) is a field within the Intelligent Mail barcode that is used to identify mailers. MIDs are assigned by the USPS® to a Mail Owner, Mailing Agent or other service providers who request them.|
+| [!UICONTROL Manifest MID]|Website|The unique mailer identifier designated for the manifest.|
+| [!UICONTROL AES/ITN]|Website|USPS AES - Automated Export System / ITN - Internal Transaction Number.|
 
 {style="table-layout:auto"}
 
