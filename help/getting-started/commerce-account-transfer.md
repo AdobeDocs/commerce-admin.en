@@ -118,7 +118,7 @@ The current owner completes these steps to associate their Adobe ID with another
 
 ### New owner steps
 
-After the current owner completes the transfer to a temporary email address, complete these steps to change your account over to the current owner.
+After the current owner completes the transfer to a temporary email address, complete these steps to change your account over to the new owner.
 
 1. Navigate to [account.adobe.com](https://account.adobe.com/) and complete the Adobe login.
 
