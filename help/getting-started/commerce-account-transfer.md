@@ -6,17 +6,17 @@ feature: User Account
 ---
 # Transfer a Commerce account
 
-As business responsibilities change, you might need to transfer the ownership of your existing Commerce account to a new owner or to another email address. This transfer requires a change to the primary user email associated with the account. 
+As business responsibilities change, you might need to transfer your Commerce account to a new owner or to another email address. This transfer requires a change to the primary user email associated with the account. 
 
 The following information describes the process for transferring a Commerce (MAGEID) account. It does not include changes for Cloud account (Cloud project or New Relic) ownership. For more information about cloud project access, see [Manage user access](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) in the _Commerce on Cloud Infrastructure Guide_.
 
 >[!IMPORTANT]
 >
->If the new Account Owner had originally purchased extensions using Shared Access, access to those extensions is lost as soon as the Account Transfer process has been initiated. Before requesting the account transfer, make sure that the new owner retrieves the Order IDs for the purchases from [their Marketplace account](https://commercemarketplace.adobe.com/sales/order/history/) and requests a refund for those extensions from the [Marketplace team](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case). It is not possible to transfer extension purchases to a different account.
+>If the new account owner has purchased extensions using Shared Access, access to those extensions is lost as soon as the Account Transfer process has been initiated. Before requesting the account transfer, make sure that the new owner retrieves the Order IDs for the purchases from [their Marketplace account](https://commercemarketplace.adobe.com/sales/order/history/) and requests a refund for those extensions from the [Marketplace team](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case). It is not possible to transfer extension purchases to a different account.
 
 ## Identify your transfer type
 
-How you complete this transfer depends on which of the following scenarios describes your situation as the current owner of the account and the new owner (email address) to whom you want to transfer the account:
+The type of Commerce account transfer depends on the Commerce account credentials available to the current owner and the new owner. The following scenarios describe the different transfer types based on these credentials.
 
 | Transfer type | Current owner | New owner |
 | ------------- | ------------- | --------- |
@@ -48,7 +48,7 @@ This transfer type requires that you first create an associated Adobe ID and the
 
 1. Click **[!UICONTROL Continue]**.
 
-   This creates an Adobe ID and links it to the current Commerce account (MAGEID). With this account link, the _[!UICONTROL Email]_ field is blocked from any changes. The associated email address is managed by the Adobe ID account.
+   This step creates an Adobe ID and links it to the current Commerce account (MAGEID). With this account link, the _[!UICONTROL Email]_ field is blocked from any changes. The configuration of the associated email address is managed from the Adobe ID account.
 
 1. Navigate to [account.adobe.com](https://account.adobe.com/).
 
@@ -58,7 +58,7 @@ This transfer type requires that you first create an associated Adobe ID and the
 
 1. Click **[!UICONTROL Change]**.
 
-   This generates a verification email sent to the new email address. The email contains a confirmation code that is required to complete the email address change.
+   This step generates a verification email sent to the new email address. The email contains a confirmation code that is required to complete the email address change.
 
 1. Enter the confirmation code sent to the new email address.
 
@@ -80,7 +80,7 @@ This transfer type requires that you first create an associated Adobe ID and the
 
 1. Click **[!UICONTROL Change]**.
 
-   This generates a verification email sent to the new email address. The email contains a confirmation code that is required to complete the email address change.
+   This step generates a verification email sent to the new email address. The email contains a confirmation code that is required to complete the email address change.
 
 1. Enter the confirmation code sent to the new email address.
 
@@ -108,7 +108,7 @@ The current owner completes these steps to associate their Adobe ID with another
 
 1. Click **[!UICONTROL Change]**.
 
-   This generates a verification email sent to the temporary email address. The email contains a confirmation code that is required to complete the email address change.
+   This step generates a verification email sent to the temporary email address. The email contains a confirmation code that is required to complete the email address change.
 
 1. Enter the confirmation code sent to the temporary email address.
 
@@ -128,7 +128,7 @@ After the current owner completes the transfer to a temporary email address, the
 
 1. Click **[!UICONTROL Change]**.
 
-   This generates a verification email sent to the current owner's original email address. The email contains a confirmation code that is required to complete the email address change.
+   This step generates a verification email sent to the current owner's original email address. The email contains a confirmation code that is required to complete the email address change.
 
 1. Enter the confirmation code sent to the current owner's original email address.
 
@@ -148,7 +148,7 @@ After the new owner successfully configures their Adobe account with the origina
 
 1. Click **[!UICONTROL Change]**.
 
-   This generates a verification email sent to the new owner's email address. The email contains a confirmation code that is required to complete the email address change.
+   This step generates a verification email sent to the new owner's email address. The email contains a confirmation code that is required to complete the email address change.
 
 1. Enter the confirmation code sent to the new owner's email address.
 
