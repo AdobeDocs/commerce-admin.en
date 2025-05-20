@@ -118,7 +118,7 @@ The current owner completes these steps to associate their Adobe ID with another
 
 ### New owner steps
 
-After the current owner completes the transfer to a temporary email address, complete these steps to change your account over to the new owner.
+After the current owner completes the transfer to a temporary email address, the new owner must complete these steps to change their account configuration to point to the current owner's original email address.
 
 1. Navigate to [account.adobe.com](https://account.adobe.com/) and complete the Adobe login.
 
@@ -128,9 +128,9 @@ After the current owner completes the transfer to a temporary email address, com
 
 1. Click **[!UICONTROL Change]**.
 
-   This generates a verification email sent to that email address. The email contains a confirmation code that is required to complete the email address change.
+   This generates a verification email sent to the current owner's original email address. The email contains a confirmation code that is required to complete the email address change.
 
-1. Enter the confirmation code sent to the current owner.
+1. Enter the confirmation code sent to the current owner's original email address.
 
 1. Click **[!UICONTROL Verify]**.
 
@@ -138,11 +138,9 @@ After the current owner completes the transfer to a temporary email address, com
 
 ### Follow up steps
 
-After the new owner successfully transfers their Adobe account to the current (now previous) owner, complete these steps to transfer ownership.
+After the new owner successfully configures their Adobe account with the original email address of the current (now previous) owner, complete these steps to transfer ownership.
 
-1. Navigate to [account.adobe.com](https://account.adobe.com/) (first account used in the series of steps) and complete the Adobe login.
-
-   This login requires the use of the temporary email address.
+1. Navigate to [account.adobe.com](https://account.adobe.com/), and complete the Adobe login using the email address for the [temporary account](#change-to-a-temporary-account).
 
 1. Under the account name and avatar, click **[!UICONTROL Change Email]**.
 
@@ -150,9 +148,9 @@ After the new owner successfully transfers their Adobe account to the current (n
 
 1. Click **[!UICONTROL Change]**.
 
-   This generates a verification email sent to that email address. The email contains a confirmation code that is required to complete the email address change.
+   This generates a verification email sent to the new owner's email address. The email contains a confirmation code that is required to complete the email address change.
 
-1. Enter the confirmation code sent to the new owner.
+1. Enter the confirmation code sent to the new owner's email address.
 
 1. Click **[!UICONTROL Verify]**.
 
