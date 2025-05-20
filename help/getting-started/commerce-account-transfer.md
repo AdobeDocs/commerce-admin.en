@@ -92,7 +92,7 @@ This transfer type requires that you first create an associated Adobe ID and the
 >
 >Review the [transfer types](#identify-your-transfer-type) and make sure that you meet the preconditions for this sequence of steps.
 
-In the case where the current owner and new owner have existing Adobe IDs, both accounts should remain, but email addresses need to be switched between them. This requires the use of a _temporary_ email address that is valid, but is not associated with and Adobe ID.
+In the case where the current owner and new owner have existing Adobe IDs, both accounts should remain, but email addresses need to be switched between them. This requires the use of a _temporary_ email address that is valid, but is not associated with an Adobe ID.
 
 ### Change to a temporary account
 
