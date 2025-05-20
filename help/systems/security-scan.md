@@ -22,9 +22,9 @@ The Security scan tool is available for free from the dashboard of your [Commerc
 
 ## Run a security scan
 
-1. From the Commerce home page, sign in to your [Commerce/Magento account](../getting-started/commerce-account-create.md).
+1. Sign in to your [Commerce/Magento account](../getting-started/commerce-account-create.md).
 
-1. Review and accept the terms for using the Security scan tool.
+1. In the left panel, click on the [!UICONTROL Security Scan] tab. (If necessary, review and accept any updated terms for using the Security scan tool.)
 
    - In the left panel, choose **[!UICONTROL Security Scan]**.
    - Click **[!UICONTROL Go to Security Scan]**.
@@ -125,3 +125,17 @@ The Security scan tool is available for free from the dashboard of your [Commerc
     After the ownership of the domain is verified, the site appears in the Monitored Websites list of your Commerce account.
 
 1. If you have multiple websites with different domains, repeat this process to set up a security scan for each.
+
+## Delete a security scan
+
+>[!NOTE] Only the person who originally set up the scan will be able to delete the scan from the account. If they have not logged in to their [Commerce home page](https://account.magento.com) since Aug 2022, they must first make sure that they have [registered for an Adobe ID](https://account.magento.com).
+
+1. Sign in to their [Commerce/Magento account](../getting-started/commerce-account-create.md). 
+
+1. In the left panel, click on the [!UICONTROL Security Scan] tab. (If necessary, review and accept any updated terms for using the Security scan tool.)
+
+   - Click **[!UICONTROL Go to Security Scan]**.
+   - Read the **[!UICONTROL Terms and Conditions]**.
+   - Click **[!UICONTROL Agree]** to continue.
+
+1. On the _[!UICONTROL Monitored Websites]_ page, locate the dropdown under the Actions column, then select Delete for the appropriate website(s).
