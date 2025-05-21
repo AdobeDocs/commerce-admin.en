@@ -68,11 +68,13 @@ The [!DNL United States Postal Service] ships both domestically and internationa
    If you are using the USPS Rest APIs,   
       - Consumer Key
       - Consumer Secret
+      - Pricing Options
       - Account Type
       - Account Number
       - Customer Registration ID (CRID)
       - Mailer Identifier (MID)
       - Manifest MID
+      - AES/ITN
 
 1. Set **[!UICONTROL Size]** to `Large` and enter values for the following dimensions:
 

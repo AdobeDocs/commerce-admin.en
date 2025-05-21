@@ -189,17 +189,15 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL User ID]|Website|Your USPS shipper account user ID.|
 |[!UICONTROL Password]|Website|Your USPS shipper account password.|
 |[!UICONTROL Mode]|Website|Determines the mode of transmission used for data sent to the USPS system. Options include: <br/>**`Development`** - USPS does not verify that data received from the Commerce server is sent over SSL. <br/>**`Live`** - USPS verifies that data received from the Commerce server is sent over a secure socket layer (SSL).|                                                                                                                                                |
-| _[!UICONTROL USPS Rest Account Settings]_||
-| [!UICONTROL Gateway REST URL]|Website|The URL that is used to connect to the USPS system to dynamically retrieve shipping rates.Use either Development or Production endpoints as per the Live Account setting.|
-| [!UICONTROL Client Id API Key ]|Website|Your USPS shipper account Client Id.|
-| [!UICONTROL Client Secret Key]|Website| Your USPS shipper account Client Secret Key.|
-| [!UICONTROL Account Type]|Website|Type of USPS payment account. Options: `"EPS"` (Enterprise Payment System), or`"PERMIT"` (Permit Imprint).|
-| [!UICONTROL Pricing Options]|Website|USPS pricing type: e.g., **Retail**, or **Commercial**. Impacts the shipping rate applied. Default is **Commercial**.|
-| [!UICONTROL Account Number]|Website|Your USPS **account number**, used for payment.|
-| [!UICONTROL Customer Registration Identifier(CRID)] |Website|A Customer Registration Identification number (CRID) is a USPS-generated numeric code that uniquely identifies a business at a location.|
-| [!UICONTROL Mailer Identifier(MID)] |Website|The Mailer Identifier (MID) is a field within the Intelligent Mail barcode that is used to identify mailers. MIDs are assigned by the USPS® to a Mail Owner, Mailing Agent or other service providers who request them.|
-| [!UICONTROL Manifest MID]|Website|The unique mailer identifier designated for the manifest.|
-| [!UICONTROL AES/ITN]|Website|USPS AES - Automated Export System / ITN - Internal Transaction Number.|
+| [!UICONTROL Consumer Key ]|Website|Your USPS shipper account Client Id for REST API.|
+| [!UICONTROL Consumer Secret ]|Website| Your USPS shipper account Client Secret Key for REST API.|
+| [!UICONTROL Account Type]|Website|Type of USPS payment account. Options: `"EPS"` (Enterprise Payment System), or`"PERMIT"` (Permit Imprint) for REST API. <br/><br/>**_Note:_** This field is optional; however, it is required to enable shipping label creation.|
+| [!UICONTROL Pricing Options]|Website|USPS Pricing Options: e.g., **Retail**, or **Commercial**. Impacts the shipping rate applied. Default is **Commercial** for REST API|
+| [!UICONTROL Account Number]|Website|Your USPS **account number**, used for payment for REST API.  <br/><br/>**_Note:_** This field is optional; however, it is required to enable shipping label creation.|
+| [!UICONTROL Customer Registration Identifier(CRID)] |Website|A Customer Registration Identification number (CRID) is a USPS-generated numeric code that uniquely identifies a business at a location for REST API.  <br/><br/>**_Note:_** This field is optional; however, it is required to enable shipping label creation.|
+| [!UICONTROL Mailer Identifier(MID)] |Website|The Mailer Identifier (MID) is a field within the Intelligent Mail barcode that is used to identify mailers. MIDs are assigned by the USPS® to a Mail Owner, Mailing Agent or other service providers who request them for REST API.  <br/><br/>**_Note:_** This field is optional; however, it is required to enable shipping label creation.|
+| [!UICONTROL Manifest MID]|Website|The unique mailer identifier designated for the manifest for REST API.  <br/><br/>**_Note:_** This field is optional; however, it is required to enable shipping label creation.|
+| [!UICONTROL AES/ITN] | Website | USPS AES - Automated Export System / ITN - Internal Transaction Number for REST API. <br/><br/>**_Note:_** This field is generally optional, but is required to enable shipping label creation if: <ul><li>Each type of goods in the shipment (as defined by Schedule B Export Codes at <a href="https://www.census.gov/foreign-trade/schedules/b" target="_blank">www.census.gov/foreign-trade/schedules/b</a>) is valued at $2,500 or less and does not require an export license; or</li><li>The shipment, regardless of value, is being sent to Canada and does not require an export license.</li></ul> |
 
 {style="table-layout:auto"}
 

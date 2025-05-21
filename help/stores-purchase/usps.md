@@ -51,7 +51,8 @@ You can also open a [USPS Web Tools][1] account. After you complete the registra
    If you are using the USPS Rest APIs, you must provide the following credentials:
 
       - **[!UICONTROL Consumer Key]**
-      - **[!UICONTROL Consumer Secre]**
+      - **[!UICONTROL Consumer Secret]**
+      - **[!UICONTROL Pricing Options]**
       
    If you are using the USPS Web Tools API, you must provide the following credentials:
 
