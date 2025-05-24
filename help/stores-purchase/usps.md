@@ -34,7 +34,7 @@ You can also open a [USPS Web Tools][1] account. After you complete the registra
 
    >[!NOTE]
    >
-   >The USPS Rest APIs is the preferred method for integrating with USPS. The USPS Web Tools API is deprecated and may be removed in future releases.
+   >The USPS Rest APIs are the preferred method for integrating with USPS. The USPS Web Tools API is deprecated and may be removed in future releases.
 
 1. If needed, enter the **[!UICONTROL Gateway URL]** to access USPS shipping rates.
 
