@@ -188,7 +188,7 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL USPS Type]|Website|Choose **USPS Rest APIs** or **USPS Web Tools API** based on which one you will use.|
 |[!UICONTROL User ID]|Website|Your USPS shipper account user ID.|
 |[!UICONTROL Password]|Website|Your USPS shipper account password.|
-|[!UICONTROL Mode]|Website|Determines the mode of transmission used for data sent to the USPS system. Options include: <br/>**`Development`** - USPS does not verify that data received from the Commerce server is sent over SSL. <br/>**`Live`** - USPS verifies that data received from the Commerce server is sent over a secure socket layer (SSL).|                                                                                                                                                |
+|[!UICONTROL Mode]|Website|Determines the mode of transmission used for data sent to the USPS system. Options include: <br/>**`Development`** - USPS does not verify that data received from the Commerce server is sent over SSL. <br/>**`Live`** - USPS verifies that data received from the Commerce server is sent over a secure socket layer (SSL).|
 | [!UICONTROL Consumer Key ]|Website|Your USPS shipper account Client ID for REST API.|
 | [!UICONTROL Consumer Secret ]|Website| Your USPS shipper account Client Secret Key for REST API.|
 | [!UICONTROL Account Type]|Website|Type of USPS payment account. Options: `"EPS"` (Enterprise Payment System), or`"PERMIT"` (Permit Imprint) for REST API. <br/><br/>**_Note:_** This field is optional; however, it is required to enable shipping label creation.|
