@@ -6,7 +6,7 @@ exl-id: f735d086-048c-4555-bc58-ac6736c281b0
 ---
 # Configure Experience Manager Assets
 
-The AEM Assets Integration for Commerce provides the following log files:
+The AEM Assets Integration for Commerce provides the following log files in your Commerce instance:
 
 - `/var/log/aem-assets-integration.log`
 - `/var/log/aem-assets-integration-errors.log`

@@ -14,6 +14,8 @@ feature: Configuration, Payments
 
 ## [!UICONTROL Merchant Location]
 
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+
 ![Merchant Location](./assets/payment-methods-merchant-location.png)<!-- zoom -->
 
 <!-- [Merchant Location](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/store-details#merchant-location) -->
@@ -28,9 +30,9 @@ feature: Configuration, Payments
 
 The following payment solutions are recommended as an easy way for merchants who are just starting out to accept online payment by PayPal account or credit card. As your business grows, you can combine these with additional PayPal payment solutions.
 
-- [PayPal Express Checkout](paypal-express-checkout.md)
-- [Braintree](braintree.md)
 - [Payment Services](payment-services.md)
+- [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."} [PayPal Express Checkout](paypal-express-checkout.md)
+- [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."} [Braintree](braintree.md)
 
 >[!NOTE]
 >
@@ -44,15 +46,21 @@ The following payment solutions are recommended as an easy way for merchants who
 
 ## Other PayPal methods
 
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+
 PayPal offers various payment solutions that meet the needs of businesses of every size, and that are engaged in business all over the world. PayPal gives you the ability to accept payments from all major debit and credit cards. PayPal offers additional convenience without extra effort, because even customers who don't have a PayPal account can pay for their purchases with PayPal.
 
 ### PayPal all-in-one methods
+
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
 
 - [PayPal Payment Advanced](paypal-payments-advanced.md)
 - [PayPal Payments Pro](paypal-payments-pro.md)
 - [PayPal Payments Standard](paypal-payments-standard.md)
 
 ### PayPal payment gateways
+
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
 
 - [PayPal Payflow Pro](paypal-payflow-pro.md) (Includes Express Checkout)
 - [PayPal Payflow Link](paypal-payflow-link.md) (Includes Express Checkout)
@@ -163,6 +171,8 @@ The following payment methods are built into Commerce and do not use a third-par
 {style="table-layout:auto"}
 
 ## [!UICONTROL Payment actions]
+
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
 
 Payment actions are configured _per payment method_. The payment action determines when the funds are captured and when invoices are created for your sales orders.
 

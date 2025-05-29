@@ -10,6 +10,18 @@ feature: Configuration, Communications
 
 See [Store email addresses](../../getting-started/store-details.md#store-email-addresses) for detailed information about these configuration fields and options.
 
+## [!UICONTROL General]
+
+[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service projects only (Adobe-managed SaaS infrastructure)."}
+
+![Store Email Addresses > General Contact](./assets/store-email-addresses-general-general.png)<!-- zoom -->
+
+|Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
+|--- |--- |--- |
+|[!UICONTROL Storefront Base URL]|Store View|The base URL that will be used to construct links that are included in customer-facing emails. The URL must end with a forward slash. For example, `https://www.example.com/`.|
+
+{style="table-layout:auto"}
+
 ## [!UICONTROL General Contact]
 
 ![Store Email Addresses > General Contact](./assets/store-email-addresses-general-contact.png)<!-- zoom -->

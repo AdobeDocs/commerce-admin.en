@@ -3,6 +3,7 @@ title: Braintree
 description: Learn how to set up Braintree as an online payment solution on your store.
 exl-id: 781b385f-926e-4047-b7da-6f7c090d75d8
 feature: Payments
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Braintree
 

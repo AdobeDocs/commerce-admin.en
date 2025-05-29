@@ -61,7 +61,7 @@ This enhancement builds on B2B 1.5.0's multi-company membership capability, whic
 *February 11, 2025*
 
 [!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce versions 2.4.7-p4+ and 2.4.6-p9+ security patch releases.
-Compatible with Adobe Commerce versions 2.4.8-beta1 to 2.4.8-beta2, 2.4.7 to 2.4.7-p3, 2.4.6 to 2.4.9-p8
+Compatible with Adobe Commerce versions 2.4.8-beta1 to 2.4.8-beta2, 2.4.7 to 2.4.7-p3, 2.4.6 to 2.4.6-p8
 
 The B2B v1.5.1 release includes quality improvements and bug fixes.
 
