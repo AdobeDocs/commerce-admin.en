@@ -19,7 +19,7 @@ The [!UICONTROL System] menu includes tools to import and export data, manage sy
 
 [!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and Adobe Commerce Optimizer projects only (Adobe-managed SaaS infrastructure)."}
 
-![System menu](./assets/system-menu-saas.png){width="600" zoomable="yes"}
+![System menu](./assets/system-menu-accs.png){width="600" zoomable="yes"}
 
 >[!ENDTABS]
 
