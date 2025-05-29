@@ -5,11 +5,25 @@ exl-id: 4e149836-f13c-4240-8700-882f2fc1619a
 ---
 # [!UICONTROL Content] menu
 
-![The [!UICONTROL Content] menu displayed in the Admin](./assets/admin-menu-content.png){width="400" zoomable="yes"}
-
 >[!NOTE]
 >
 >When the new [[!DNL Media Gallery]](media-gallery.md) is enabled, the _[!UICONTROL Media]_ section appears with a single option to access the [!DNL Media Gallery]. You can set the **[!UICONTROL Enable Old Media Gallery]** option to `No` by going to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]** and choosing **[!UICONTROL Advanced]** > **[!UICONTROL System]** in the left panel.
+
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+
+![The [!UICONTROL Content] menu displayed in the Admin](./assets/admin-menu-content.png){width="400" zoomable="yes"}
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and Adobe Commerce Optimizer projects only (Adobe-managed SaaS infrastructure)."}
+
+![The [!UICONTROL Content] menu displayed in the Admin](./assets/admin-menu-content-accs.png){width="400" zoomable="yes"}
+
+>[!ENDTABS]
 
 ## Display the [!UICONTROL Content] menu
 

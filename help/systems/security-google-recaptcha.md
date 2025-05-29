@@ -64,6 +64,8 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
 ## Step 2: Configure Google reCAPTCHA for the Admin
 
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+
 1. Sign in to your Admin account.
 
 1. On the Admin sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
