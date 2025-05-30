@@ -137,21 +137,21 @@ The Security Scan Tool allows you to manage scan failures directly from the repo
 Managing scan failures helps you maintain a more accurate security overview of your store by:
 
 - Reducing false positives in your security reports.
-- Focusing attention on actual security issues that need attention.
+- Focusing on relevant security issues that need attention.
 - Maintaining a clearer view of your store's true security status.
 - Eliminating the need to contact support for known false positives.
-- Saving time by self-managing scan failures that you've already investigated.
+- Saving time by self-managing scan failures that you have already investigated.
 
 Common scenarios where you might want to mark a scan failure as a false positive include:
 
-- When you've already applied a security patch that the scan tool hasn't detected.
+- When you have already applied a security patch that the scan tool has not detected.
 - When a detected issue is not applicable to your specific store configuration.
-- When you've implemented an alternative security measure that addresses the concern.
-- When the scan failure is based on a configuration that you've intentionally set for your business needs.
+- When you have implemented an alternative security measure that addresses the concern.
+- When the scan failure is based on a configuration that you have intentionally set for your business needs.
 
 ### Ignore scan failures
 
-To manage scan failures that you've identified as false positives, follow these steps:
+To manage scan failures that you have identified as false positives, follow these steps:
 
 1. From the _[!UICONTROL Monitored Websites]_ page, click **[!UICONTROL View Report]** for the site you want to manage.
 
