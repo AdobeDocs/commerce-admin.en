@@ -128,28 +128,30 @@ The Security Scan Tool is available for free from the dashboard of your [Commerc
 
 1. If you have multiple websites with different domains, repeat this process to set up a security scan for each.
 
-## Manage scan results
+## Manage scan failures
 
-The Security Scan Tool allows you to manage scan results directly from the report view. You can mark specific scan failures as false positives and exclude them from your risk score.
+The Security Scan Tool allows you to manage scan failures directly from the report view. You can mark specific scan failures as false positives and exclude them from your risk score.
 
-### Benefits of managing scan results
+### Benefits of managing scan failures
 
-Managing scan results helps you maintain a more accurate security overview of your store by:
+Managing scan failures helps you maintain a more accurate security overview of your store by:
 
-- Reducing false positives in your security reports
-- Focusing attention on actual security issues that need attention
-- Maintaining a clearer view of your store's true security status
-- Eliminating the need to contact support for known false positives
-- Saving time by self-managing scan results that you've already investigated
+- Reducing false positives in your security reports.
+- Focusing attention on actual security issues that need attention.
+- Maintaining a clearer view of your store's true security status.
+- Eliminating the need to contact support for known false positives.
+- Saving time by self-managing scan failures that you've already investigated.
 
 Common scenarios where you might want to mark a scan failure as a false positive include:
 
 - When you've already applied a security patch that the scan tool hasn't detected.
 - When a detected issue is not applicable to your specific store configuration.
 - When you've implemented an alternative security measure that addresses the concern.
-- When the scan result is based on a configuration that you've intentionally set for your business needs.
+- When the scan failure is based on a configuration that you've intentionally set for your business needs.
 
-### Mark scan failures as false positives
+### Ignore scan failures
+
+To manage scan failures that you've identified as false positives, follow these steps:
 
 1. From the _[!UICONTROL Monitored Websites]_ page, click **[!UICONTROL View Report]** for the site you want to manage.
 
@@ -157,22 +159,28 @@ Common scenarios where you might want to mark a scan failure as a false positive
 
 1. Click **[!UICONTROL Ignore]** for the specific scan failure.
 
+   ![Ignore scan failures](assets/security-scan-ignore-failure.png){width="600" zoomable="yes"}
+
 1. Click **[!UICONTROL Apply Changes]** to save your selection.
 
 The ignored scan failure moves to the _[!UICONTROL Ignored Results]_ section and is excluded from your risk score.
 
-### Unignore scan failures
+### Stop ignoring scan failures
+
+If you need to restore a previously ignored scan failure to your active monitoring, follow these steps:
 
 1. In the report view, scroll to the _[!UICONTROL Ignored Results]_ section.
 
 1. Click **[!UICONTROL Stop Ignoring]** for the scan failure you want to restore.
 
+   ![Unignore scan failures](assets/security-scan-stop-ignoring-failure.png){width="600" zoomable="yes"}
+
 1. Click **[!UICONTROL Apply Changes]** to save your selection.
 
 The scan failure moves back to the _[!UICONTROL Failed Scans]_ section and is included in your risk score.
 
-### View ignored results
+### View ignored scan failures
 
-- Ignored results appear in a separate section of the report.
-- The risk score is automatically updated to reflect only active scan failures.
-- You can manage multiple scan failures at once by selecting multiple items before applying changes.
+Ignored results appear in a separate section of the report, and the risk score is automatically updated to reflect only active scan failures. You can manage multiple scan failures at once by selecting multiple items before applying changes.
+
+![View ignored scan failures](assets/security-scan-view-ignored-failures.png){width="600" zoomable="yes"}
