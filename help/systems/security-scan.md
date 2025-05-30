@@ -26,8 +26,8 @@ The Security scan tool is available for free from the dashboard of your [Commerc
 
 1. Review and accept the terms for using the Security scan tool.
 
-   - In the left panel, choose **[!UICONTROL Security Scan]**.
-   - Click **[!UICONTROL Go to Security Scan]**.
+   - In the left panel, choose **[!UICONTROL Security Scan]**.
+   - Click **[!UICONTROL Go to Security Scan]**.
    - Read the **[!UICONTROL Terms and Conditions]**.
    - Click **[!UICONTROL Agree]** to continue.
 
@@ -42,7 +42,7 @@ The Security scan tool is available for free from the dashboard of your [Commerc
    **Commerce storefront**:
 
    - Enter the **[!UICONTROL Site URL]** and **[!UICONTROL Site Name]**.
-   - Click **[!UICONTROL Generate Confirmation Code]**.
+   - Click **[!UICONTROL Generate Confirmation Code]**.
    - Click **Copy** to copy your confirmation code to the clipboard.
 
       ![Generate Confirmation Code](./assets/scan-site1.png){width="400" zoomable="yes"}
@@ -51,7 +51,7 @@ The Security scan tool is available for free from the dashboard of your [Commerc
 
       - In the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Design]_ > **[!UICONTROL Configuration]**.
       - Find your site in the list, and click **[!UICONTROL Edit]**.
-      - Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL HTML Head]** section.
+      - Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL HTML Head]** section.
       - Scroll down to **[!UICONTROL Scripts and Style Sheets]** and click in the text box at the end of any existing code and paste the confirmation code into the text box.
 
          ![Scripts and Style Sheets](./assets/scan-paste-code.png){width="600" zoomable="yes"}
@@ -125,3 +125,52 @@ The Security scan tool is available for free from the dashboard of your [Commerc
     After the ownership of the domain is verified, the site appears in the Monitored Websites list of your Commerce account.
 
 1. If you have multiple websites with different domains, repeat this process to set up a security scan for each.
+
+## Manage scan results
+
+The Security scan tool allows you to manage scan results directly from the report view. You can mark specific scan failures as false positives and exclude them from your risk score.
+
+### Benefits of managing scan results
+
+Managing scan results helps you maintain a more accurate security overview of your store by:
+
+- Reducing false positives in your security reports
+- Focusing attention on actual security issues that need attention
+- Maintaining a clearer view of your store's true security status
+- Eliminating the need to contact support for known false positives
+- Saving time by self-managing scan results that you've already investigated
+
+Common scenarios where you might want to mark a scan failure as a false positive include:
+
+- When you've already applied a security patch that the scan tool hasn't detected
+- When a detected issue is not applicable to your specific store configuration
+- When you've implemented an alternative security measure that addresses the concern
+- When the scan result is based on a configuration that you've intentionally set for your business needs
+
+### Mark scan failures as false positives
+
+1. From the _[!UICONTROL Monitored Websites]_ page, click **[!UICONTROL View Report]** for the site you want to manage.
+
+1. In the report view, locate the failed scan you want to mark as a false positive.
+
+1. Click **[!UICONTROL Ignore]** for the specific scan failure.
+
+1. Click **[!UICONTROL Apply Changes]** to save your selection.
+
+   The ignored scan failure moves to the _[!UICONTROL Ignored Results]_ section and is excluded from your risk score.
+
+### Unignore scan failures
+
+1. In the report view, scroll to the _[!UICONTROL Ignored Results]_ section.
+
+1. Click **[!UICONTROL Stop Ignoring]** for the scan failure you want to restore.
+
+1. Click **[!UICONTROL Apply Changes]** to save your selection.
+
+   The scan failure moves back to the _[!UICONTROL Failed Scans]_ section and is included in your risk score.
+
+### View ignored results
+
+- Ignored results appear in a separate section of the report.
+- The risk score is automatically updated to reflect only active scan failures.
+- You can manage multiple scan failures at once by selecting multiple items before applying changes.
