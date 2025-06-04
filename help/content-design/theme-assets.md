@@ -3,7 +3,7 @@ title: Theme assets
 description: Learn how to manage your theme assets, such as CSS, fonts, images, and JavaScript files.
 exl-id: 326c648e-eace-45a0-b53d-bbc8702fee05
 feature: Page Content, Themes
-https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/design/themes/theme-assets
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Theme assets
 
