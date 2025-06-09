@@ -33,7 +33,7 @@ Google reCAPTCHA can be implemented in several ways:
 
 Google reCAPTCHA requires a pair of API keys to enable. You can get these keys free of charge through the reCAPTCHA site. Before generating the keys, you must know the type of reCAPTCHA that you want to use.
 
-1. Open the Google reCAPTCHA page and log in to your account.
+1. Open the Google reCAPTCHA Admin Console and log in to your account.
 
 1. For **[!UICONTROL Label]**, enter a name to identify the keys for internal reference.
 
@@ -51,6 +51,8 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
    - Add your store domain and any subdomains.
    - You can add `localhost`, other local VM domains, and staging domains as needed for testing.
+
+1. Select the cloud project
 
 1. Select the checkbox to **[!UICONTROL Accept the reCAPTCHA Terms of Service]**.
 
