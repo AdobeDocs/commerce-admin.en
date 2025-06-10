@@ -5,9 +5,10 @@ exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
 ---
+
 # Security scan
 
-The Adobe Commerce Security Scan Tool provides free security monitoring for your Adobe Commerce and Magento Open Source sites. The tool operates as a web-based service that you access through your online Adobe Commerce account at [account.magento.com](https://account.magento.com/).
+The Adobe Commerce Security Scan Tool provides free security monitoring for your Adobe Commerce and Magento Open Source sites. The tool operates as a web-based service that you can access through your online Adobe Commerce account at [account.magento.com](https://account.magento.com/customer/account/login).
 
 ![Security Scan Tool](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
@@ -30,7 +31,7 @@ The Security Scan Tool provides comprehensive security monitoring capabilities t
 
 >[!NOTE]
 >
->You cannot exclude specific security tests from Security Scan Tool scans for Adobe Commerce. However, you can self-serve on [ignoring failures](#manage-scan-failures) as false positives if applicable.
+>You cannot exclude specific security tests from Security Scan Tool scans for Adobe Commerce. However, you can self-serve in [ignoring failures](#manage-scan-failures) as false positives if applicable.
 
 ## Access
 
