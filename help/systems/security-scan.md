@@ -5,9 +5,22 @@ exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
 ---
+
 # Security scan
 
-Monitor your Adobe Commerce and Magento Open Source sites for security risks and malware, and receive security updates and notifications.
+The Adobe Commerce Security Scan Tool provides free security monitoring for your Adobe Commerce and Magento Open Source sites. The tool operates as a web-based service that you can access through your online Adobe Commerce account at [account.magento.com](https://account.magento.com/customer/account/login).
+
+![Security Scan Tool](./assets/magento-security-scan.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>Adobe provides this service at no cost, though merchants must accept terms that limit Adobe's liability based on scan results and site configuration.
+
+## Scan coverage
+
+The Security Scan Tool operates over both HTTP and HTTPS protocols to detect malware, identify security vulnerabilities, and help you maintain the security posture of your store. The tool is available to all merchants, developers, and designated personnel responsible for site security.
+
+The Security Scan Tool provides comprehensive security monitoring capabilities that help you maintain a secure store environment:
 
 - Gain insight into the real-time security status of your store.
 - Receive suggestions based on best practices to help resolve issues.
@@ -16,11 +29,25 @@ Monitor your Adobe Commerce and Magento Open Source sites for security risks and
 - Access historical security reports that track and monitor the progress of your sites.
 - Access the scan report that shows successful and failed checks, with any recommended actions.
 
-The Security Scan Tool is available for free from the dashboard of your [Commerce/Magento account](../getting-started/commerce-account-create.md). For technical information, see [Setup the Security Scan Tool](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) in the _Commerce on Cloud Infrastructure Guide_.
+>[!NOTE]
+>
+>You cannot exclude specific security tests from Security Scan Tool scans for Adobe Commerce. However, you can self-serve in [ignoring failures](#manage-scan-failures) as false positives if applicable.
 
-![Security Scan Tool](./assets/magento-security-scan.png){width="600" zoomable="yes"}
+## Access
 
-## Run a security scan
+The Security Scan Tool maintains strict access controls to protect your site information. Only you can scan your site because the tool requires verification of domain ownership through your Adobe Commerce account. Each site connects to your account through a unique token, preventing unauthorized scanning by third parties.
+
+The tool focuses specifically on Adobe Commerce domains and their security vulnerabilities. While your webstore may include pages from other platforms, the Security Scan Tool should only scan Adobe Commerce-generated content to ensure reliable results. Scanning non-Adobe Commerce pages may produce unreliable vulnerability assessments.
+
+## Run a scan
+
+The scanning process checks your site against known security issues and identifies missing Adobe Commerce patches and updates that could leave your store vulnerable to attacks.
+
+>[!TIP]
+>
+>For Commerce on cloud infrastructure projects, see [Setup the Security Scan Tool](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
+
+To run a scan:
 
 1. From the Commerce home page, sign in to your [Commerce/Magento account](../getting-started/commerce-account-create.md).
 
