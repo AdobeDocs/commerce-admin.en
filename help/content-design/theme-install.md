@@ -3,6 +3,7 @@ title: Install a new theme
 description: Learn about installing a new theme for your Adobe Commerce or Magento Open Source store.
 exl-id: 28728064-cf3e-44ef-a251-61a23499d096
 feature: Page Content, Themes
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Install a new theme
 
