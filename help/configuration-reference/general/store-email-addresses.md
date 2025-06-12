@@ -29,7 +29,7 @@ See [Store email addresses](../../getting-started/store-details.md#store-email-a
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |[!UICONTROL Sender Name]|Store View|The name that appears as the sender of email sent by the `General Contact` identity.|
-|[!UICONTROL Sender Email]|Store View|The email address that is associated with the `General Contact` identity.|
+|[!UICONTROL Sender Email]|Store View|The email address that is associated with the `General Contact` identity. On Adobe Commerce as a Cloud Service, create a support ticket to change the the email address.|
 
 {style="table-layout:auto"}
 
@@ -40,7 +40,7 @@ See [Store email addresses](../../getting-started/store-details.md#store-email-a
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |[!UICONTROL Sender Name]|Store View|The name that appears as the sender of email sent by the `Sales Representative` identity.|
-|[!UICONTROL Sender Email]|Store View|The email address that is associated with the `Sales Representative` identity.|
+|[!UICONTROL Sender Email]|Store View|The email address that is associated with the `Sales Representative` identity.  On Adobe Commerce as a Cloud Service, create a support ticket to change the the email address.|
 
 {style="table-layout:auto"}
 
@@ -51,7 +51,7 @@ See [Store email addresses](../../getting-started/store-details.md#store-email-a
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |[!UICONTROL Sender Name]|Store View|The name that appears as the sender of email sent by the `Customer Support` identity.|
-|[!UICONTROL Sender Email]|Store View|The email address that is associated with the `Customer Support` identity.|
+|[!UICONTROL Sender Email]|Store View|The email address that is associated with the `Customer Support` identity.  On Adobe Commerce as a Cloud Service, create a support ticket to change the the email address.|
 
 {style="table-layout:auto"}
 
@@ -62,7 +62,7 @@ See [Store email addresses](../../getting-started/store-details.md#store-email-a
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |[!UICONTROL Sender Name]|Store View|The name that appears as the sender of email sent by the `Custom 1` identity.|
-|[!UICONTROL Sender Email]|Store View|The email address that is associated with the `Custom 1` identity.|
+|[!UICONTROL Sender Email]|Store View|The email address that is associated with the `Custom 1` identity.  On Adobe Commerce as a Cloud Service, create a support ticket to change the the email address.|
 
 {style="table-layout:auto"}
 
@@ -73,6 +73,6 @@ See [Store email addresses](../../getting-started/store-details.md#store-email-a
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |[!UICONTROL Sender Name]|Store View|The name that appears as the sender of email sent by the `Custom 2` identity.|
-|[!UICONTROL Sender Email]|Store View|The email address that is associated with the `Custom 2` identity.|
+|[!UICONTROL Sender Email]|Store View|The email address that is associated with the `Custom 2` identity.  On Adobe Commerce as a Cloud Service, create a support ticket to change the the email address.|
 
 {style="table-layout:auto"}
