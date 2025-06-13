@@ -223,7 +223,7 @@ Some customer-facing emails include links to the store, such as those that help 
 
 ### Step 3: Configure the email addresses for your store
 
-[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and Adobe Commerce Optimizer projects only (Adobe-managed SaaS infrastructure)."} Sender email addresses are configured your instance is provisioned. If you need to change these addresses, create a Support ticket.
+[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and Adobe Commerce Optimizer projects only (Adobe-managed SaaS infrastructure)."} Sender email addresses are configured when your instance is provisioned. If you need to change these addresses, create a Support ticket.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
