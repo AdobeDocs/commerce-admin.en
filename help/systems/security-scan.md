@@ -31,13 +31,21 @@ The Security Scan Tool provides comprehensive security monitoring capabilities t
 
 >[!NOTE]
 >
->You cannot exclude specific security tests from Security Scan Tool scans for Adobe Commerce. However, you can self-serve in [ignoring failures](#manage-scan-failures) as false positives if applicable.
+>You cannot exclude specific security tests from being run, but you can now exclude scan failures from your report by marking them as false positives. See [Manage scan failures](#manage-scan-failures) for details.
 
 ## Access
 
 The Security Scan Tool maintains strict access controls to protect your site information. Only you can scan your site because the tool requires verification of domain ownership through your Adobe Commerce account. Each site connects to your account through a unique token, preventing unauthorized scanning by third parties.
 
 The tool focuses specifically on Adobe Commerce domains and their security vulnerabilities. While your webstore may include pages from other platforms, the Security Scan Tool should only scan Adobe Commerce-generated content to ensure reliable results. Scanning non-Adobe Commerce pages may produce unreliable vulnerability assessments.
+
+
+## Access to Scan Results
+
+Only the original user who set up a scan can access the scan results. If others need access, the original user must manually share the PDF report.
+
+Other users can set up their own scans using their own accounts. When configuring a scan, you can enter a comma-separated list of valid email addresses to receive notifications of completed scans and security updates.
+
 
 ## Run a scan
 
@@ -175,6 +183,14 @@ Common scenarios where you might want to mark a scan failure as a false positive
 - When a detected issue is not applicable to your specific store configuration.
 - When you have implemented an alternative security measure that addresses the concern.
 - When the scan failure is based on a configuration that you have intentionally set for your business needs.
+
+
+### Examples of valid scenarios for ignoring scan failures
+
+- When a detected issue is not applicable to your specific store configuration (e.g., custom user login and registration pages).
+- When you have implemented an alternative security measure that addresses the concern (e.g., Web Application Firewall).
+- When you intentionally use third-party JavaScript code that fails the check due to code obfuscation and/or encoding.
+
 
 ### Ignore scan failures
 
