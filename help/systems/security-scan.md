@@ -44,6 +44,8 @@ The tool focuses specifically on Adobe Commerce domains and their security vulne
 
 Only the original user who set up a scan can access the scan results. If others need access, the original user must manually share the PDF report.
 
+The store owner can share his submissions with another MAGEID using [!UICONTROL Shared Access](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share) functionality 
+
 Other users can set up their own scans using their own accounts. When configuring a scan, you can enter a comma-separated list of valid email addresses to receive notifications of completed scans and assessed risk level.
 
 
