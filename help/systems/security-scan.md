@@ -31,7 +31,7 @@ The Security Scan Tool provides comprehensive security monitoring capabilities t
 
 >[!NOTE]
 >
->You cannot exclude specific security tests from being run, but you can now exclude scan failures from your report by marking them as false positives. See [Manage scan failures](#manage-scan-failures) for details.
+>You cannot exclude specific security tests from being run, but you can move the failed checks to the **[!UICONTROL Ignored Results]** category. See [Manage scan failures](#manage-scan-failures) for details.
 
 ## Access
 
