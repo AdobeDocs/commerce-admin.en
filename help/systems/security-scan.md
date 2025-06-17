@@ -44,7 +44,7 @@ The tool focuses specifically on Adobe Commerce domains and their security vulne
 
 Only the original user who set up a scan can access the scan results. If others need access, the original user must manually share the PDF report.
 
-Other users can set up their own scans using their own accounts. When configuring a scan, you can enter a comma-separated list of valid email addresses to receive notifications of completed scans and security updates.
+Other users can set up their own scans using their own accounts. When configuring a scan, you can enter a comma-separated list of valid email addresses to receive notifications of completed scans and assessed risk level.
 
 
 ## Run a scan
