@@ -175,18 +175,12 @@ Managing scan failures helps you maintain a more accurate security overview of y
 - Eliminating the need to contact support for known false positives.
 - Saving time by self-managing scan failures that you have already investigated.
 
-Common scenarios where you might want to mark a scan failure as a false positive include:
-
-- When you have already applied a security patch that the scan tool has not detected.
-- When a detected issue is not applicable to your specific store configuration.
-- When you have implemented an alternative security measure that addresses the concern.
-- When the scan failure is based on a configuration that you have intentionally set for your business needs.
-
-
 ### Examples of valid scenarios for ignoring scan failures
 
+- When you have already applied a security patch that the scan tool has not detected.
 - When a detected issue is not applicable to your specific store configuration (e.g., custom user login and registration pages).
 - When you have implemented an alternative security measure that addresses the concern (e.g., Web Application Firewall).
+- When the scan failure is based on a configuration that you have intentionally set for your business needs.
 - When you intentionally use third-party JavaScript code that fails the check due to code obfuscation and/or encoding.
 
 
