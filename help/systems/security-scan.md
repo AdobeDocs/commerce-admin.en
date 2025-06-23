@@ -43,6 +43,18 @@ The Security Scan Tool maintains strict access controls to protect your site inf
 
 The tool focuses specifically on Adobe Commerce domains and their security vulnerabilities. While your webstore may include pages from other platforms, the Security Scan Tool should only scan Adobe Commerce-generated content to ensure reliable results. Scanning non-Adobe Commerce pages may produce unreliable vulnerability assessments.
 
+>[!NOTE]
+>
+>The security scan tool uses the following public IP addresses:
+>
+>```text
+>52.87.98.44
+>34.196.167.176
+>3.218.25.102
+>```
+>
+>Add these IP addresses to an allowlist in your network firewall rules to allow the tool to scan your site. The tool posts requests to ports `80` and `443` only.
+
 ## Run a scan
 
 The scanning process checks your site against known security issues and identifies missing Adobe Commerce patches and updates that could leave your store vulnerable to attacks.
