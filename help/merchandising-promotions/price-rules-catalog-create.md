@@ -138,6 +138,10 @@ Most of the available conditions are based on existing attribute values. To appl
 
    >[!NOTE]
    >
+   >To apply **[!UICONTROL Apply as fixed amount]** and **[!UICONTROL Adjust final price to discount value]** discounts to websites with different currencies as the same amount instead of converting it from the global base currency, you must set **[!UICONTROL Catalog Price Scope]** = `Website` setting, and set base currency for each website.
+
+   >[!NOTE]
+   >
    >_Regular price_ refers to the base product price without any advanced pricing (special/tier/group) or promotional discounts. _Final price_ refers to the discounted price that appears in the shopping cart. <br/>The **_final_** product price is calculated as the **_minimum_** relevant price, using the following formula: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)`
 
    >[!NOTE]

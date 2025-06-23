@@ -238,6 +238,10 @@ The shopping cart price rule actions describe how prices are updated when the co
 
    {style="table-layout:auto"}
 
+   >[!NOTE]
+   >
+   >To apply **[!UICONTROL Fixed amount discount]** and **[!UICONTROL Fixed amount discount for whole cart]** discounts to websites with different currencies as the same amount instead of converting it from the global base currency, you must set **[!UICONTROL Catalog Price Scope]** = `Website` setting, and set base currency for each website.
+
    - Enter the **[!UICONTROL Discount Amount]** as a number, without symbols. For example, depending on the discount option selected, the number 10 might indicate a percentage, a fixed amount, or a quantity of items.
 
    - For a _Buy X get Y Free_ discount, enter the quantity in the **[!UICONTROL Discount Qty Step (Buy X)]** field of a single product/SKU/line item that the customer must purchase to receive the discount on the Y quantity. Both X and Y refer to quantities of the same SKU, and that specific quantity (variations of a configurable products are counted separately) of the item must be added to the cart manually.
