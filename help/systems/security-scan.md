@@ -16,6 +16,10 @@ The Adobe Commerce Security Scan Tool provides free security monitoring for your
 >
 >Adobe provides this service at no cost, though merchants must accept terms that limit Adobe's liability based on scan results and site configuration.
 
+>[!NOTE]
+>
+>Adobe recommends using the Security Scan Tool over other third-party tools to ensure the best quality of service during the findings investigation.
+
 ## Scan coverage
 
 The Security Scan Tool operates over both HTTP and HTTPS protocols to detect malware, identify security vulnerabilities, and help you maintain the security posture of your store. The tool is available to all merchants, developers, and designated personnel responsible for site security.
