@@ -16,6 +16,10 @@ The Adobe Commerce Security Scan Tool provides free security monitoring for your
 >
 >Adobe provides this service at no cost, though merchants must accept terms that limit Adobe's liability based on scan results and site configuration.
 
+>[!NOTE]
+>
+>Adobe recommends using the Security Scan Tool over other third-party tools to ensure the best quality of service during the findings investigation.
+
 ## Scan coverage
 
 The Security Scan Tool operates over both HTTP and HTTPS protocols to detect malware, identify security vulnerabilities, and help you maintain the security posture of your store. The tool is available to all merchants, developers, and designated personnel responsible for site security.
@@ -43,6 +47,19 @@ The tool focuses specifically on Adobe Commerce domains and their security vulne
 ## Access to scan results
 
 Scan results are only accessible to the user who originally set up the scan. To share results with others, the original user must manually distribute the PDF report. Alternatively, a store owner can share submissions with another MAGEID using the [**[!UICONTROL Shared Access]**](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share) functionality. Other individuals can also initiate scans using their own accounts. During scan setup, a comma-separated list of email addresses can be specified to receive notifications of completed scans and assessed risk level.
+
+
+>[!NOTE]
+>
+>The security scan tool uses the following public IP addresses:
+>
+>```text
+>52.87.98.44
+>34.196.167.176
+>3.218.25.102
+>```
+>
+>Add these IP addresses to an allowlist in your network firewall rules to allow the tool to scan your site. The tool posts requests to ports `80` and `443` only.
 
 
 ## Run a scan
