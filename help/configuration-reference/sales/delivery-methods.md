@@ -225,7 +225,7 @@ feature: Configuration, Shipping/Delivery
 |_[!UICONTROL USPS Handling Fee settings]_|||
 |[!UICONTROL Calculate Handling Fee]|Website|Sets the handling fee calculation method for table rate shipping. Options: <br/>**`Fixed`** - Handling fee is a fixed rate. <br/>**`Percent`** - Handling fee is applied as a percentage of the order amount.|
 |[!UICONTROL Handling Applied]|Website|Specifies whether handling fee is applied to each order or to each package within an order.|
-|[!UICONTROL Handling Fee]|Website|Sets the handling that is included with the shipping rate price. Handling fee can be set as a fixed amount or a percentage. <br/><br/>**_Note:_** When typing a percentage amount, use the decimal format `0.25` for 25%.|
+|[!UICONTROL Handling Fee]|Website|Sets the handling that is included with the shipping rate price. Handling fee can be set as a fixed amount or a percentage. <br/><br/>**_Note:_** When typing a percentage amount, use the decimal format `25` for 25%.|
 
 {style="table-layout:auto"}
 
