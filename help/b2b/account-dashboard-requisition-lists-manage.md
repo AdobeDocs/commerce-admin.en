@@ -135,3 +135,21 @@ A product in the requisition list can be edited when:
 |[!UICONTROL Delete Requisition List]|Deletes the requisition list from the company user's account.|
 
 {style="table-layout:auto"}
+
+## Pagination controls
+
+The Pagination appear at the bottom of the list. For the pagination controls to appear, there should be more requisition list items than stated in pagination.
+
+![Requisition List with pagination](./assets/requisition-list-bottom-with-pagination.png){width="700" zoomable="yes"}
+
+>[!NOTE]
+>
+> Products that require your attention (For example out of stock products) appear in the list when they are in the boundaries of the pagination selection. In that case such items are hoisted to the top of the list. Number of products requiring you attention is displayed above the list.
+> ![Items Requiring attention](./assets/requisition-list-product-requiring-attention.png){width="500"}
+
+### Storefront pagination controls
+
+| Control                                                        | Description                                                                                                                                                                      |
+|----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![Show per page](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] - Determines how many requisition list items appear per page. You can choose 20, 50, 100, 500 or 1000 requisition list items to be shown on the page. |
+| ![Pagination links](./assets/control-pagination.png)           | Pagination links - Navigation links to other pages.                                                                                                                              |
