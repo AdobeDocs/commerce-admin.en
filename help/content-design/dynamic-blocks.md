@@ -2,6 +2,7 @@
 title: Dynamic blocks
 description: Use dynamic blocks to create rich, interactive content that is driven by logic from price rules and customer segments.
 exl-id: 0c842ad9-2e46-48aa-9a12-2f74a54c352e
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Dynamic blocks
 

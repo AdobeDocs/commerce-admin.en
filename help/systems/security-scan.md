@@ -5,9 +5,26 @@ exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
 ---
+
 # Security scan
 
-Monitor your Adobe Commerce and Magento Open Source sites for security risks and malware, and receive security updates and notifications.
+The Adobe Commerce Security Scan Tool provides free security monitoring for your Adobe Commerce and Magento Open Source sites. The tool operates as a web-based service that you can access through your online Adobe Commerce account at [account.magento.com](https://account.magento.com/customer/account/login).
+
+![Security Scan Tool](./assets/magento-security-scan.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>Adobe provides this service at no cost, though merchants must accept terms that limit Adobe's liability based on scan results and site configuration.
+
+>[!NOTE]
+>
+>Adobe recommends using the Security Scan Tool over other third-party tools to ensure the best quality of service during the findings investigation.
+
+## Scan coverage
+
+The Security Scan Tool operates over both HTTP and HTTPS protocols to detect malware, identify security vulnerabilities, and help you maintain the security posture of your store. The tool is available to all merchants, developers, and designated personnel responsible for site security.
+
+The Security Scan Tool provides comprehensive security monitoring capabilities that help you maintain a secure store environment:
 
 - Gain insight into the real-time security status of your store.
 - Receive suggestions based on best practices to help resolve issues.
@@ -16,11 +33,44 @@ Monitor your Adobe Commerce and Magento Open Source sites for security risks and
 - Access historical security reports that track and monitor the progress of your sites.
 - Access the scan report that shows successful and failed checks, with any recommended actions.
 
-The Security Scan Tool is available for free from the dashboard of your [Commerce/Magento account](../getting-started/commerce-account-create.md). For technical information, see [Setup the Security Scan Tool](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) in the _Commerce on Cloud Infrastructure Guide_.
+>[!NOTE]
+>
+>You cannot exclude specific security tests from being run, but you can move the failed checks to the **[!UICONTROL Ignored Results]** category. See [Manage scan failures](#manage-scan-failures) for details.
 
-![Security Scan Tool](./assets/magento-security-scan.png){width="600" zoomable="yes"}
+## Access
 
-## Run a security scan
+The Security Scan Tool maintains strict access controls to protect your site information. Only you can scan your site because the tool requires verification of domain ownership through your Adobe Commerce account. Each site connects to your account through a unique token, preventing unauthorized scanning by third parties.
+
+The tool focuses specifically on Adobe Commerce domains and their security vulnerabilities. While your webstore may include pages from other platforms, the Security Scan Tool should only scan Adobe Commerce-generated content to ensure reliable results. Scanning non-Adobe Commerce pages may produce unreliable vulnerability assessments.
+
+
+## Access to scan results
+
+Scan results are only accessible to the user who originally set up the scan. To share results with others, the original user must manually distribute the PDF report. Alternatively, a store owner can share submissions with another MAGEID using the [**[!UICONTROL Shared Access]**](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share) functionality. Other individuals can also initiate scans using their own accounts. During scan setup, a comma-separated list of email addresses can be specified to receive notifications of completed scans and assessed risk level.
+
+
+>[!NOTE]
+>
+>The security scan tool uses the following public IP addresses:
+>
+>```text
+>52.87.98.44
+>34.196.167.176
+>3.218.25.102
+>```
+>
+>Add these IP addresses to an allowlist in your network firewall rules to allow the tool to scan your site. The tool posts requests to ports `80` and `443` only.
+
+
+## Run a scan
+
+The scanning process checks your site against known security issues and identifies missing Adobe Commerce patches and updates that could leave your store vulnerable to attacks.
+
+>[!TIP]
+>
+>For Commerce on cloud infrastructure projects, see [Setup the Security Scan Tool](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
+
+To run a scan:
 
 1. From the Commerce home page, sign in to your [Commerce/Magento account](../getting-started/commerce-account-create.md).
 
@@ -142,12 +192,14 @@ Managing scan failures helps you maintain a more accurate security overview of y
 - Eliminating the need to contact support for known false positives.
 - Saving time by self-managing scan failures that you have already investigated.
 
-Common scenarios where you might want to mark a scan failure as a false positive include:
+### Examples of valid scenarios for ignoring scan failures
 
 - When you have already applied a security patch that the scan tool has not detected.
-- When a detected issue is not applicable to your specific store configuration.
-- When you have implemented an alternative security measure that addresses the concern.
+- When a detected issue is not applicable to your specific store configuration (e.g., custom user login and registration pages).
+- When you have implemented an alternative security measure that addresses the concern (e.g., Web Application Firewall).
 - When the scan failure is based on a configuration that you have intentionally set for your business needs.
+- When you intentionally use third-party JavaScript code that fails the check due to code obfuscation and/or encoding.
+
 
 ### Ignore scan failures
 
