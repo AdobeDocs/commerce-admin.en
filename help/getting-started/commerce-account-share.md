@@ -89,7 +89,7 @@ The following instructions are written from the perspective of a shared user who
 
    >[!NOTE]
    >
-   >After receiving shared access, the user must log in to their [[!DNL Commerce] account](https://account.magento.com/customer/account/login), navigate to _Shared Access_, and click the **[!UICONTROL Support]** tab. This action is required the first time only to ensure that the [Adobe Commerce Support Knowledge Base](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) is configured properly through the `SSO` call.
+   >After receiving shared access, to [submit a Support case](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) on Experience League, make sure that you first select the Organization name that ends in "([!DNL Commerce])" in the left column.
 
 1. To return to your own account, click **Back** in your browser controls and set **[!UICONTROL Switch Accounts]** to `My Account`.
 
@@ -115,4 +115,4 @@ The following instructions are written from the perspective of a shared user who
 
  >[!NOTE]
  >
- >You will not be able to delete users with the Share Name containing the naming pattern _Cloud Shared Access from MAG[XYZ]_ in this interface if it was created via an API. See [How to delete users who were granted shared access via a Cloud project?](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting).
+ >You cannot delete users with the Share Name of _Cloud Shared Access from MAG[XYZ]_ in this interface. See [How to delete users who were granted shared access via a Cloud project?](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users).
