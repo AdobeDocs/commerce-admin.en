@@ -2,6 +2,7 @@
 title: Content blocks
 description: A block can be used to display fixed information such as text, images, and embedded video, and dynamic information.
 exl-id: 545740f7-802c-459e-acd1-a3b3ede29d07
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Content blocks
 

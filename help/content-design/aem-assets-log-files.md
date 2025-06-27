@@ -3,6 +3,7 @@ title: Configure log rotation
 description: Configure log rotation for the AEM Assets Integration for Commerce.
 feature: CMS, Media, Integration
 exl-id: f735d086-048c-4555-bc58-ac6736c281b0
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Configure Experience Manager Assets
 

@@ -3,6 +3,7 @@ title: New products list widget
 description: Learn how to use the new products list widget to display a list of the most recently added products.
 exl-id: bdff3655-cd14-4a19-a51f-4cabeb274d2a
 feature: Page Content, Products
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # New products list widget
 

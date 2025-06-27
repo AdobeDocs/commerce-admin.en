@@ -7,7 +7,21 @@ exl-id: 105106a4-85f7-4143-8411-69ff67ff9331
 
 The Sales menu lists transactions according to where they are in the order workflow. You might think of each of option as a different stage in the lifetime of an order.
 
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+
 ![Sales menu](./assets/admin-menu-sales.png){width="450" zoomable="yes"}
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and Adobe Commerce Optimizer projects only (Adobe-managed SaaS infrastructure)."}
+
+![Sales menu](./assets/admin-menu-sales-accs.png){width="450" zoomable="yes"}
+
+>[!ENDTABS]
 
 ## Display the [!UICONTROL Sales] menu
 
@@ -20,6 +34,12 @@ On the _Admin_ sidebar, click **[!UICONTROL Sales]**.
 ![Adobe Commerce B2B](../assets/b2b.svg) (Available with Adobe Commerce B2B)
 
 Authorized buyers can [negotiate the price](../b2b/quotes.md) with the seller by sending a [request](../b2b/quote-request.md) from the shopping cart.
+
+### [!UICONTROL Quote Templates]
+
+![Adobe Commerce B2B](../assets/b2b.svg) (Available with Adobe Commerce B2B)
+
+Allows buyers and sellers to streamline the quote process by creating reusable and customizable [quote templates](../b2b/quote-templates-overview.md).
 
 ### [!UICONTROL Orders]
 
@@ -45,6 +65,8 @@ A [returned merchandise authorization](returns.md) (RMA) can be granted to custo
 
 ### [!UICONTROL Billing Agreements]
 
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+
 A [billing agreement](paypal-billing-agreements.md) is similar to a purchase order, except that it isn't limited to a single purchase. During checkout, the customer chooses Billing Agreement as the payment method. A billing agreement streamlines the checkout process because the customer doesn't have to enter payment information for each purchase.
 
 ### [!UICONTROL Transactions]
@@ -52,6 +74,8 @@ A [billing agreement](paypal-billing-agreements.md) is similar to a purchase ord
 The [Transactions](transactions.md) page lists all payment activity that has taken place between your store and all payment systems, and provides access to more detailed information.
 
 ### [!UICONTROL Braintree Virtual Terminal]
+
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
 
 On the Braintree Virtual Terminal page, an Admin user can accept the payment for the selected amount. To make the terminal feature available, a merchant should configure basic [Braintree settings](braintree.md). Braintree offers a fully customizable checkout experience with fraud detection and PayPal integration.
 
