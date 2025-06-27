@@ -128,14 +128,18 @@ The Security scan tool is available for free from the dashboard of your [Commerc
 
 ## Delete a security scan
 
->[!NOTE] Only the person who originally set up the scan will be able to delete the scan from the account. If they have not logged in to their [Commerce home page](https://account.magento.com) since Aug 2022, they must first make sure that they have [registered for an Adobe ID](https://account.magento.com).
+>[!NOTE]
+>
+>Only the person who originally set up the scan can delete it from the account. If they have not logged in to their [account](https://account.magento.com) since Aug 2022, they must first make sure that they have [registered for an Adobe ID](https://account.magento.com).
 
-1. Sign in to their [Commerce/Magento account](../getting-started/commerce-account-create.md). 
+**Delete a scan**
 
-1. In the left panel, click on the [!UICONTROL Security Scan] tab. (If necessary, review and accept any updated terms for using the Security scan tool.)
+1. Sign in to the [Commerce/Magento account](../getting-started/commerce-account-create.md). 
+
+1. In the left panel, click the [!UICONTROL Security Scan] tab. (If necessary, review and accept any updated terms for using the Security scan tool.)
 
    - Click **[!UICONTROL Go to Security Scan]**.
    - Read the **[!UICONTROL Terms and Conditions]**.
    - Click **[!UICONTROL Agree]** to continue.
 
-1. On the _[!UICONTROL Monitored Websites]_ page, locate the dropdown under the Actions column, then select Delete for the appropriate website(s).
+1. On the _[!UICONTROL Monitored Websites]_ page, locate the dropdown under the [!UICONTROL Actions] column, then select **[!UICONTROL Delete]** for the appropriate website(s).
