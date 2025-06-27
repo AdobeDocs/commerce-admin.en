@@ -2,6 +2,7 @@
 title: Insert a link in the editor
 description: Use the WYSIWYG editor to add a link to your content
 exl-id: c9930a4f-a082-4bd8-b0c4-9d86b59a2365
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Insert a link in the editor
 
