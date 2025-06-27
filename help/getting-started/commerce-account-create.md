@@ -7,7 +7,9 @@ feature: User Account
 
 # Access your [!DNL Commerce] account
 
-You can access the account from the [!DNL Commerce] website. From the dashboard of your [!DNL Commerce] account, you can find information that is related to the products and services that you have purchased, as well as your contact and billing information. Some information is visible to license owners only.
+You can access your account from the [!DNL Commerce] website. From the dashboard of your [!DNL Commerce] account, you can find information that is related to the products and services that you have purchased, as well as your contact and billing information. Some information is visible to license owners only.
+
+You can access your account from the [!DNL Commerce] website. The account dashboard shows your purchased products, services, and contact or billing details. Some info is visible to license owners only.
 
 ![Your [!DNL Commerce] account](./assets/home-acct.png){width="700"}
 
