@@ -3,6 +3,7 @@ title: Media Gallery image optimization
 description: Learn how to use image optimization for your [!DNL Commerce] media assets.
 exl-id: ba75e90a-406b-4b14-b049-0b78c4a27188
 feature: Page Content, Media
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Media Gallery image optimization
 

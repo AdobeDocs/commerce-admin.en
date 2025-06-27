@@ -2,6 +2,7 @@
 title: Layout updates
 description: Learn how to use layout updates to customize the layout of a page.
 exl-id: e2d8261f-cae1-4bd4-a047-f861dd7ca14e
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Layout updates
 

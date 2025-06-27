@@ -2,6 +2,7 @@
 title: Add and remove pages
 description: Learn how to add and remove content pages used in your [!DNL Commerce] store.
 exl-id: a7a503ea-3631-4be2-81e4-aed2ae9419dc
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Add and remove pages
 

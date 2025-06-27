@@ -7,29 +7,29 @@ feature: Security, Site Management, Reporting
 ---
 # Security scan
 
-Monitor your Adobe Commerce and Magento Open Source sites for security risks and malware, and receive security updates and notifications.
+The enhanced security scan allows you to monitor each of your Adobe Commerce and Magento Open Source sites, including PWA, for known security risks and malware, and to receive patch updates and security notifications.
 
 - Gain insight into the real-time security status of your store.
 - Receive suggestions based on best practices to help resolve issues.
-- Schedule a security scan to run weekly, daily, or on demand.
+- Schedule security scan to run weekly, daily, or on demand.
 - Run over 21,000 security tests to help identify potential malware.
 - Access historical security reports that track and monitor the progress of your sites.
 - Access the scan report that shows successful and failed checks, with any recommended actions.
 
-The Security Scan Tool is available for free from the dashboard of your [Commerce/Magento account](../getting-started/commerce-account-create.md). For technical information, see [Setup the Security Scan Tool](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) in the _Commerce on Cloud Infrastructure Guide_.
+The Security scan tool is available for free from the dashboard of your [Commerce/Magento account](../getting-started/commerce-account-create.md). For technical information, see [Set up the Security Scan Tool](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) in the _Commerce on Cloud Infrastructure Guide_.
 
-![Security Scan Tool](./assets/magento-security-scan.png){width="600" zoomable="yes"}
+![Security scan tool](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
 ## Run a security scan
 
-1. From the Commerce home page, sign in to your [Commerce/Magento account](../getting-started/commerce-account-create.md).
+1. Sign in to your [Commerce/Magento account](../getting-started/commerce-account-create.md).
 
-1. Review and accept the terms for using the Security Scan Tool.
+1. In the left panel, click on the [!UICONTROL Security Scan] tab. (If necessary, review and accept any updated terms for using the Security scan tool.)
 
-   1. In the left panel, choose **[!UICONTROL Security Scan]**.
-   1. Click **[!UICONTROL Go to Security Scan]**.
-   1. Read the **[!UICONTROL Terms and Conditions]**.
-   1. Click **[!UICONTROL Agree]** to continue.
+   - In the left panel, choose **[!UICONTROL Security Scan]**.
+   - Click **[!UICONTROL Go to Security Scan]**.
+   - Read the **[!UICONTROL Terms and Conditions]**.
+   - Click **[!UICONTROL Agree]** to continue.
 
 1. On the _[!UICONTROL Monitored Websites]_ page, click **[!UICONTROL +Add Site]**.
 
@@ -41,54 +41,54 @@ The Security Scan Tool is available for free from the dashboard of your [Commerc
 
    **Commerce storefront**:
 
-   1. Enter the **[!UICONTROL Site URL]** and **[!UICONTROL Site Name]**.
-   1. Click **[!UICONTROL Generate Confirmation Code]**.
-   1. Click **Copy** to copy your confirmation code to the clipboard.
+   - Enter the **[!UICONTROL Site URL]** and **[!UICONTROL Site Name]**.
+   - Click **[!UICONTROL Generate Confirmation Code]**.
+   - Click **Copy** to copy your confirmation code to the clipboard.
 
       ![Generate Confirmation Code](./assets/scan-site1.png){width="400" zoomable="yes"}
 
-   1. Log in to the Admin of your store as a user with full administrator privileges and do the following:
+   - Log in to the Admin of your store as a user with full administrator privileges and do the following:
 
-      1. In the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Design]_ > **[!UICONTROL Configuration]**.
-      1. Find your site in the list, and click **[!UICONTROL Edit]**.
-      1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL HTML Head]** section.
-      1. Scroll down to **[!UICONTROL Scripts and Style Sheets]** and click in the text box at the end of any existing code. Paste the confirmation code into the text box.
+      - In the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Design]_ > **[!UICONTROL Configuration]**.
+      - Find your site in the list, and click **[!UICONTROL Edit]**.
+      - Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL HTML Head]** section.
+      - Scroll down to **[!UICONTROL Scripts and Style Sheets]** and click in the text box at the end of any existing code and paste the confirmation code into the text box.
 
          ![Scripts and Style Sheets](./assets/scan-paste-code.png){width="600" zoomable="yes"}
 
-      1. When complete, click **[!UICONTROL Save Configuration]**.
+      - When complete, click **[!UICONTROL Save Configuration]**.
 
    **PWA storefront**:
 
-   1. Enter the **[!UICONTROL Site URL]** and **[!UICONTROL Site Name]**.
+   - Enter the **[!UICONTROL Site URL]** and **[!UICONTROL Site Name]**.
 
-   1. For **[!UICONTROL Confirmation Code]**, choose the `META Tag` option and then click **[!UICONTROL Generate Code]**.
+   - For **[!UICONTROL Confirmation Code]**, choose the `META Tag` option and then click **[!UICONTROL Generate Code]**.
 
-   1. Click **[!UICONTROL Copy]** to copy the generated confirmation code META Tag to the clipboard.
+   - Click **[!UICONTROL Copy]** to copy the generated confirmation code META Tag to the clipboard.
 
       ![Generate Confirmation Code](./assets/scan-site2.png){width="400" zoomable="yes"}
 
-   1. Go to the PWA Studio storefront project directory and do the following:
+   - Go to the PWA Studio storefront project directory and do the following:
 
-      1. Under the PWA Studio project directory, go to `packages > venia-concept > template.html`.
-      1. Add the copied confirmation code (the generated META Tag) to the HTML head and save the changes.
+      - Under the PWA Studio project directory, go to `packages > venia-concept > template.html`.
+      - Add the copied confirmation code (the generated META Tag) to the HTML head and save the changes.
 
          ![Copy Confirmation Code](./assets/code-pwa.png){width="600" zoomable="yes"}
 
-      1. Go back to the PWA Studio CLI, and use yarn to install project dependencies and run the project build command.
+      - Go back to the PWA Studio CLI, and use yarn to install project dependencies and run the project build command.
 
-         ```sh
-         yarn install &&
-         yarn build
-         ```
+        ```sh
+        yarn install &&
+        yarn build
+        ```
 
-      1. *In your Cloud project*, create a `pwa` folder and copy the content inside your storefront project's `dist` folder.
+      - *In your Cloud project*, create a `pwa` folder and copy the content inside your storefront project's `dist` folder.
 
          ```sh
          mkdir pwa && cp -r <path to your storefront project>/dist/* pwa
          ```
 
-      1. Use the Git CLI tool to stage, commit, and push these changes to your Cloud project.
+      - Use the Git CLI tool to stage, commit, and push these changes to your Cloud project.
 
          ```sh
          git add . &&
@@ -104,19 +104,17 @@ The Security Scan Tool is available for free from the dashboard of your [Commerc
 
    **Scan Weekly (recommended)**:
 
-   Choose the **[!UICONTROL Week Day]**, **[!UICONTROL Time]**, and **[!UICONTROL Time Zone]** that the scan is to take place each week.
-   
-   By default, the scan is scheduled to begin each week at midnight Saturday, UTC, and continue through early Sunday.
+   - Choose the **[!UICONTROL Week Day]**, **[!UICONTROL Time]**, and **[!UICONTROL Time Zone]** that the scan is to take place each week.
+   - By default, the scan is scheduled to begin each week at midnight Saturday, UTC, and continue through early Sunday.
 
-   ![Scan Weekly](./assets/scan-weekly.png){width="500" zoomable="yes"}
+      ![Scan Weekly](./assets/scan-weekly.png){width="500" zoomable="yes"}
 
    **Scan Daily**:
 
-   Choose the **[!UICONTROL Time]**, and **[!UICONTROL Time Zone]** that the scan is to take place each day.
-   
-   By default, the scan is scheduled to begin each day at midnight, UTC.
+   - Choose the **[!UICONTROL Time]**, and **[!UICONTROL Time Zone]** that the scan is to take place each day.
+   - By default, the scan is scheduled to begin each day at midnight, UTC.
 
-   ![Scan Daily](./assets/scan-daily.png){width="500" zoomable="yes"}
+      ![Scan Daily](./assets/scan-daily.png){width="500" zoomable="yes"}
 
 1. Enter the **[!UICONTROL Email Address]** where you want to receive notifications of completed scans and security updates.
 
@@ -128,59 +126,20 @@ The Security Scan Tool is available for free from the dashboard of your [Commerc
 
 1. If you have multiple websites with different domains, repeat this process to set up a security scan for each.
 
-## Manage scan failures
+## Delete a security scan
 
-The Security Scan Tool allows you to manage scan failures directly from the report view. You can mark specific scan failures as false positives and exclude them from your risk score.
+>[!NOTE]
+>
+>Only the person who originally set up the scan can delete it from the account. If they have not logged in to their [account](https://account.magento.com) since Aug 2022, they must first make sure that they have [registered for an Adobe ID](https://account.magento.com).
 
-### Benefits of managing scan failures
+**Delete a scan**
 
-Managing scan failures helps you maintain a more accurate security overview of your store by:
+1. Sign in to the [Commerce/Magento account](../getting-started/commerce-account-create.md). 
 
-- Reducing false positives in your security reports.
-- Focusing on relevant security issues that need attention.
-- Maintaining a clearer view of your store's true security status.
-- Eliminating the need to contact support for known false positives.
-- Saving time by self-managing scan failures that you have already investigated.
+1. In the left panel, click the [!UICONTROL Security Scan] tab. (If necessary, review and accept any updated terms for using the Security scan tool.)
 
-Common scenarios where you might want to mark a scan failure as a false positive include:
+   - Click **[!UICONTROL Go to Security Scan]**.
+   - Read the **[!UICONTROL Terms and Conditions]**.
+   - Click **[!UICONTROL Agree]** to continue.
 
-- When you have already applied a security patch that the scan tool has not detected.
-- When a detected issue is not applicable to your specific store configuration.
-- When you have implemented an alternative security measure that addresses the concern.
-- When the scan failure is based on a configuration that you have intentionally set for your business needs.
-
-### Ignore scan failures
-
-To manage scan failures that you have identified as false positives, follow these steps:
-
-1. From the _[!UICONTROL Monitored Websites]_ page, click **[!UICONTROL View Report]** for the site you want to manage.
-
-1. In the report view, locate the failed scan you want to mark as a false positive.
-
-1. Click **[!UICONTROL Ignore]** for the specific scan failure.
-
-   ![Ignore scan failures](assets/security-scan-ignore-failure.png){width="600" zoomable="yes"}
-
-1. Click **[!UICONTROL Apply Changes]** to save your selection.
-
-The ignored scan failure moves to the _[!UICONTROL Ignored Results]_ section and is excluded from your risk score.
-
-### Stop ignoring scan failures
-
-If you need to restore a previously ignored scan failure to your active monitoring, follow these steps:
-
-1. In the report view, scroll to the _[!UICONTROL Ignored Results]_ section.
-
-1. Click **[!UICONTROL Stop Ignoring]** for the scan failure you want to restore.
-
-   ![Unignore scan failures](assets/security-scan-stop-ignoring-failure.png){width="600" zoomable="yes"}
-
-1. Click **[!UICONTROL Apply Changes]** to save your selection.
-
-The scan failure moves back to the _[!UICONTROL Failed Scans]_ section and is included in your risk score.
-
-### View ignored scan failures
-
-Ignored results appear in a separate section of the report, and the risk score is automatically updated to reflect only active scan failures. You can manage multiple scan failures at once by selecting multiple items before applying changes.
-
-![View ignored scan failures](assets/security-scan-view-ignored-failures.png){width="600" zoomable="yes"}
+1. On the _[!UICONTROL Monitored Websites]_ page, locate the dropdown under the [!UICONTROL Actions] column, then select **[!UICONTROL Delete]** for the appropriate website(s).
