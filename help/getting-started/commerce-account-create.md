@@ -15,6 +15,8 @@ Your [!DNL Commerce] account login is separate from your store Admin login. You 
 
 However, a user who wants to streamline their login to Adobe Commerce and Adobe Business products will be able to configure their Adobe ID to login to the store Admin: [Configure the Commerce Admin Integration with Adobe ID](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config)
 
+Your Commerce and store Admin logins are separate, with different credentials and independently managed access. However, you can streamline access by configuring your Adobe ID to log in to the store Admin. See [Configure the Commerce Admin Integration with Adobe ID] in the *IMS Integration Guide for Commerce*.
+
 >[!NOTE]
 >
 >After you create your account, it is recommended that you use Two-factor Authentication (TFA) to [secure your account](commerce-account-secure.md).
