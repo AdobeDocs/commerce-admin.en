@@ -22,6 +22,7 @@ For technical information, see [Advanced on-premises installation](https://exper
 >
 >- Before following these instructions to change the encryption key, make sure that the following file is writable: `[your store]/app/etc/env.php`
 >- The encryption key change feature in the Admin settings is deprecated and was removed in 2.4.8. You must use the CLI command described on this page to change your encryption key after upgrading to 2.4.8.
+>- Rotating the encryption key will immediately invalidate all customer and admin sessions (excluding integration users) and will require them to login again.
 
 **To change an encryption key:**
 
