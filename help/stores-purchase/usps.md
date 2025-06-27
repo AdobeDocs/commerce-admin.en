@@ -101,7 +101,7 @@ The handling fee is optional, and appears as an extra charge that is added to th
 
 1. Enter the amount of the **[!UICONTROL Handling Fee]** to be charged.
 
-   To enter a percentage, use the decimal format. For example, enter `0.25` for 25%.
+   To enter a percentage, use the decimal format. For example, enter `25` for 25%.
 
    ![USPS Handling Fee](../configuration-reference/sales/assets/delivery-methods-usps-handling-fee.png){width="600" zoomable="yes"}
 
