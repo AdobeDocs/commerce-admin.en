@@ -3,6 +3,7 @@ title: Themes
 description: Learn about [!DNL Commerce] themes, which include layout files, template files, translation files, and skins that define the look and feel of your store.
 exl-id: d2ccff51-5019-4f80-8eaa-3fe50d5cd6cc
 feature: Page Content, Themes
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Themes
 

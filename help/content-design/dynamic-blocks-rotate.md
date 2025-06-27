@@ -2,6 +2,7 @@
 title: Add a rotating dynamic block
 description: Present a slide show of interactive content on the storefront by adding multiple dynamic blocks to a rotator.
 exl-id: 3d338014-cf26-4171-b48b-d37b3d7b0e81
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Add a rotating dynamic block
 

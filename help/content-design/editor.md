@@ -2,6 +2,7 @@
 title: WYSIWYG Editor
 description: Learn how to use the editor and work with content in a _What You See Is What You Get_ (WYSIWYG) view.
 exl-id: 209ca9d6-973c-4ad9-b7cd-4fba58dbfbb8
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # WYSIWYG Editor
 

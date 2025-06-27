@@ -3,6 +3,7 @@ title: Moderate product reviews
 description: Learn how you can moderate product reviews to ensure that submitted reviews are appropriate for public display your store.
 exl-id: 90c3e918-f435-4468-b41b-e8044ad14fb0
 feature: Merchandising, Products
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Moderate product reviews
 
