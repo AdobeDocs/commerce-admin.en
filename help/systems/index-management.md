@@ -50,9 +50,12 @@ Reindexing and caching have different purposes in Commerce. Indexes track databa
    - `Update by Schedule`
    - `Invalidate index`
 
-   >[!IMPORTANT]
-   >
-   >Customer Grid can only be reindexed using `Update on Save`. This index does **_not_** support `Update by Schedule`.
+     >[!IMPORTANT]
+     >
+     >The [!DNL Customer Grid] indexer behavior changed in 2.4.8:
+     >
+     >- **Prior to 2.4.8**: The [!DNL Customer Grid] indexer can only be reindexed using the [!UICONTROL Update on Save] option and does not support the [!UICONTROL Update by Schedule] option.
+     >- **2.4.8 and later**: The [!DNL Customer Grid] indexer supports both [!UICONTROL Update on Save] and [!UICONTROL Update by Schedule] modes, and defaults to [!UICONTROL Update by Schedule].
 
 1. Click **[!UICONTROL Submit]** to apply the change to each selected indexer.
 
