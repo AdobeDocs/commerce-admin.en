@@ -222,6 +222,37 @@ Your site map should be updated as frequently as the content on your site change
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
+## Alternative cronjob for large catalogs
+
+>[!NOTE]
+>
+>For stores with large catalogs, an alternative cronjob can be used to ensure that all data is generated.  
+>In `app/code/Magento/Sitemap/etc/config.xml`, replace:
+>
+>```xml
+><jobs>
+>  <sitemap_generate>
+>    <schedule>
+>      <cron_expr>0 0 * * *</cron_expr>
+>    </schedule>
+>  </sitemap_generate>
+></jobs>
+>```
+>
+>with:
+>
+>```xml
+><jobs>
+>  <sitemap_generate_batch>
+>    <schedule>
+>      <cron_expr>0 0 * * *</cron_expr>
+>    </schedule>
+>  </sitemap_generate_batch>
+></jobs>
+>```
+>
+>This change enables batch sitemap generation, which is recommended for large catalogs.
+
 [1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html
 [2]: https://support.google.com/webmasters/answer/183669?hl=en
 [3]: https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed
