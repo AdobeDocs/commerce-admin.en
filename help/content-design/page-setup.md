@@ -2,6 +2,7 @@
 title: Page setup
 description: Learn how to configure the defaults for the main parts of a store page.
 exl-id: a4310940-0d4f-4948-a271-382f03905bfd
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Page setup
 

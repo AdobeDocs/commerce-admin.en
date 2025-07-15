@@ -3,6 +3,7 @@ title: Orders and returns widget
 description: Learn how to use the orders and returns widget to give customers the ability to check the status of their orders, print invoices, and track shipments.
 exl-id: 1c3948e6-a0de-4ee4-8abf-10ab845a94a7
 feature: Page Content, Orders, Returns
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Orders and returns widget
 

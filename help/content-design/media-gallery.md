@@ -3,6 +3,7 @@ title: The [!DNL Media Gallery]
 description: Use the Media Gallery to organize and manage your media files on the server.
 exl-id: bf730e46-70f3-405c-88cf-62d0a3e8634f
 feature: Page Content, Media
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # The [!DNL Media Gallery]
 

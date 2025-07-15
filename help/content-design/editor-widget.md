@@ -2,6 +2,7 @@
 title: Insert a widget in the editor
 description: Add various content elements to a page using the widget tool in the WYSIWYG editor.
 exl-id: bbc5e059-06d8-4dda-89a7-6c9826b73fd3
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Insert a widget in the editor
 

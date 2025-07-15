@@ -4,6 +4,7 @@ description: Learn how to configure browser capabilities detection and display a
 exl-id: 16caab8b-3ba5-43a1-a6f0-7c1e921be132
 role: Admin
 feature: Configuration, Security
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Browser capabilities detection
 

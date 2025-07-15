@@ -3,8 +3,13 @@ title: Site maps
 description: Learn how to configure a site map to index all pages and images of your Commerce sites.
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Site maps
+
+>[!TIP]
+>
+>For Adobe Commerce as a Cloud Service, see the [SEO guidelines](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) in the Commerce Storefront documentation
 
 A site map improves the way that your store is indexed by search engines, and is designed to find pages that might be overlooked by web crawlers. A site map can be configured to index all pages and images.
 

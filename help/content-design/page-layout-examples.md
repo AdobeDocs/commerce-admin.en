@@ -2,6 +2,7 @@
 title: Storefront layout examples
 description: Review the examples of page layout options.
 exl-id: 1cda1175-269b-42b9-bf4e-9bf14483da1d
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Storefront layout examples
 

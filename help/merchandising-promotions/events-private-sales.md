@@ -3,6 +3,7 @@ title: Private sales and events
 description: Learn about using private sales and other catalog events to increase sales to your existing customer base and to generate buzz and new leads.
 exl-id: 0b890463-b1e5-4327-8d8a-372afd53312a
 feature: Reporting, Promotions/Events
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Private sales and events
 
