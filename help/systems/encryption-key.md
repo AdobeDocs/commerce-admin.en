@@ -52,19 +52,17 @@ The following instructions require access to a terminal.
 
    +++CLI command
 
->[!NOTE] This command should be executed on the environment that contains your app/etc/env.php file for the key that you want to update.
->
->Confirm that the new command exists:
->
-```
-bin/magento list | grep encryption:key:change
-```
->
-> You should see the following output:
+   Confirm that the new command exists:
 
-```bash
-encryption:key:change Change the encryption key inside the env.php file.
-```
+   ```bash
+   bin/magento list | grep encryption:key:change
+   ```
+
+   You should see the following output:
+
+   ```bash
+   encryption:key:change Change the encryption key inside the env.php file.
+   ```
 
    If you see this output, run the following CLI command and make sure that it completes with no errors. If you need to re-encrypt certain system config values or payment fields, see the detailed [guide on re-encryption](https://developer.adobe.com/commerce/php/development/security/data-encryption/) in the _PHP Develop Guide_.
 
