@@ -176,6 +176,8 @@ feature: Configuration, Shipping/Delivery
 
 ### [!UICONTROL USPS]
 
+![USPS Account Settings](./assets/delivery-methods-usps.png)<!-- zoom -->
+
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |Enabled for Checkout|Website|Determines if USPS is available to customers as a shipping method during checkout. Options: `Yes` / `No`|
@@ -183,9 +185,19 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Gateway URL]|Website|The URL that is used to connect to the USPS system to dynamically retrieve shipping rates.|
 |[!UICONTROL Secure Gateway URL]|Website|The secure URL that is used to connect to the USPS system over a secure socket layer (SSL) to dynamically retrieve shipping rates.|
 |[!UICONTROL Title]|Store View|The title of this shipping option as it appears in the shopping cart checkout.|
+|[!UICONTROL USPS Type]|Website|Choose **USPS Rest APIs** or **USPS Web Tools API** based on which one you will use.|
 |[!UICONTROL User ID]|Website|Your USPS shipper account user ID.|
 |[!UICONTROL Password]|Website|Your USPS shipper account password.|
 |[!UICONTROL Mode]|Website|Determines the mode of transmission used for data sent to the USPS system. Options include: <br/>**`Development`** - USPS does not verify that data received from the Commerce server is sent over SSL. <br/>**`Live`** - USPS verifies that data received from the Commerce server is sent over a secure socket layer (SSL).|
+| [!UICONTROL Consumer Key ]|Website|Your USPS shipper account Client ID for REST API.|
+| [!UICONTROL Consumer Secret ]|Website| Your USPS shipper account Client Secret Key for REST API.|
+| [!UICONTROL Account Type]|Website|Type of USPS payment account. Options: `"EPS"` (Enterprise Payment System), or`"PERMIT"` (Permit Imprint) for REST API. <br/><br/>**_Note:_** This field is optional; however, it is required to enable shipping label creation.|
+| [!UICONTROL Pricing Options]|Website|USPS Pricing Options: **Retail** or **Commercial**. Impacts the shipping rate applied. Default is **Commercial** for REST API.|
+| [!UICONTROL Account Number]|Website|Your USPS **account number**, used for payment for REST API.  <br/><br/>**_Note:_** This field is optional; however, it is required to enable shipping label creation.|
+| [!UICONTROL Customer Registration Identifier(CRID)] |Website|A Customer Registration Identification number (CRID) is a USPS-generated numeric code that uniquely identifies a business at a location for REST API.  <br/><br/>**_Note:_** This field is optional; however, it is required to enable shipping label creation.|
+| [!UICONTROL Mailer Identifier(MID)] |Website|The Mailer Identifier (MID) is a field within the Intelligent Mail barcode that is used to identify mailers. MIDs are assigned by the USPS to a Mail Owner, Mailing Agent, or other service provider who requests them for REST API.  <br/><br/>**_Note:_** This field is optional; however, it is required to enable shipping label creation.|
+| [!UICONTROL Manifest MID]|Website|The unique mailer identifier designated for the manifest for REST API.  <br/><br/>**_Note:_** This field is optional; however, it is required to enable shipping label creation.|
+| [!UICONTROL AES/ITN] | Website | USPS AES - Automated Export System / ITN - Internal Transaction Number for REST API. <br/><br/>**_Note:_** This field is generally optional, but is required to enable shipping label creation if: <ul><li>Each type of goods in the shipment (as defined by Schedule B Export Codes at <a href="https://www.census.gov/foreign-trade/schedules/b" target="_blank">www.census.gov/foreign-trade/schedules/b</a>) is valued at $2,500 or less and does not require an export license; or</li><li>The shipment, regardless of value, is being sent to Canada and does not require an export license.</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -213,7 +225,7 @@ feature: Configuration, Shipping/Delivery
 |_[!UICONTROL USPS Handling Fee settings]_|||
 |[!UICONTROL Calculate Handling Fee]|Website|Sets the handling fee calculation method for table rate shipping. Options: <br/>**`Fixed`** - Handling fee is a fixed rate. <br/>**`Percent`** - Handling fee is applied as a percentage of the order amount.|
 |[!UICONTROL Handling Applied]|Website|Specifies whether handling fee is applied to each order or to each package within an order.|
-|[!UICONTROL Handling Fee]|Website|Sets the handling that is included with the shipping rate price. Handling fee can be set as a fixed amount or a percentage. <br/><br/>**_Note:_** When typing a percentage amount, use the decimal format `0.25` for 25%.|
+|[!UICONTROL Handling Fee]|Website|Sets the handling that is included with the shipping rate price. Handling fee can be set as a fixed amount or a percentage. <br/><br/>**_Note:_** When typing a percentage amount, use the decimal format `25` for 25%.|
 
 {style="table-layout:auto"}
 
@@ -332,9 +344,11 @@ feature: Configuration, Shipping/Delivery
 |_[!UICONTROL DHL Account Settings]_|||
 |[!UICONTROL Enabled for Checkout]|Website|Determines if DHL is available to customers as a shipping method during checkout. Options: `Yes` / `No`|
 |[!UICONTROL Title]|Store View|The title of this shipping method as it appears during checkout.|
-|[!UICONTROL Gateway URL]|Website|Usually, you can accept the default Gateway URL. However, if DHL has given you an alternate URL, enter the value in this field.|
+|[!UICONTROL DHL Type]|Website|Choose REST or XML based on which one you will use.|
 |[!UICONTROL Access ID]|Website|Your DHL shipper account access ID.|
+|[!UICONTROL API KEY]|Website|Your DHL API KEY for REST API.|
 |[!UICONTROL Password]|Website|Your DHL shipper account password.|
+|[!UICONTROL API Secret]|Website|Your DHL API Secret Key for REST API.|
 |[!UICONTROL Account Number]|Website|Your DHL shipper account number.|
 
 {style="table-layout:auto"}
@@ -348,7 +362,7 @@ feature: Configuration, Shipping/Delivery
 |_[!UICONTROL DHL Package Settings]_|||
 |[!UICONTROL Calculate Handling Fee]|Website|The handling fee is optional and appears as an extra charge added to the DHL shipping cost. From the list, select the method that you want to use to calculate handling fees. Options: Fixed Fee / Percentage.|
 |[!UICONTROL Handling Applied]|Website|From the list, select how you want the handling fees applied. Options: `Per Order` / `Per Package`|
-|Handling Fee|Website|Enter the amount to be charged for a handling fee, based on the method you have chosen to calculate the amount. For example, if the charge is based on a fixed fee, enter the amount as a decimal, such as `4.90`. However, if the handling fee is based on a percentage of the order, enter the amount as a percentage. For example, if you are charging six percent of the order, enter the value as `.06`.|
+|Handling Fee|Website|Enter the amount to be charged for a handling fee, based on the method you have chosen to calculate the amount. For example, if the charge is based on a fixed fee, enter the amount as a decimal, such as `4.90`. However, if the handling fee is based on a percentage of the order, enter the amount as a percentage. For example, if you are charging six percent of the order, enter the value as `6`.|
 |[!UICONTROL Divide Order Weight]|Store View|Determines if the weight of an order over 70 kg can be divided into smaller units to ensure an accurate shipping charge. Options: `Yes` / `No`|
 |[!UICONTROL Weight Unit]|Store View|Determines the unit of measurement for weight that is used in shipping calculations. Options: `Pounds` / `Kilograms`|
 |[!UICONTROL Size]|Store View|Determines the size of the package. Options: <br/>**`Regular`** - Packages shipped conform to of DHL standard packaging methods. In the [!UICONTROL Allowed Methods] list, select each packaging method used to ship products from your store. <br/>**`Specific`** - If packages shipped have custom dimensions, complete the following: [!UICONTROL Height (cm)] / [!UICONTROL Depth (cm)] / [!UICONTROL Width (cm)]|
@@ -382,6 +396,7 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Ship to Specific Countries]|Website|Specifies the countries where DHL shipments can be sent. This selected countries list is used if `Specific Countries` is selected in the [!UICONTROL Ship to Applicable Countries] option.|
 |[!UICONTROL Show Method if Not Applicable]|Website|Determines when DHL appears as a shipping method during checkout. Options: <br/>**`Yes`** - DHL always appears as a shipping option during checkout, even if not applicable to the order. <br/>**`No`** - DHL appears as a shipping option during checkout only if applicable to the order (that is, order weight exceeds the maximum weight amount).|
 |[!UICONTROL Debug]|Website|Creates a log file with error information.|
+| [!UICONTROL Sandbox Mode]|Website| Set to `Yes` if using sandbox. Set to `No` for Live mode.|
 |[!UICONTROL Sort Order]|Website|A number that determines the order in which DHL appears when listed with other delivery methods during checkout. To place it at the top of the list, enter `0`.|
 
 {style="table-layout:auto"}
