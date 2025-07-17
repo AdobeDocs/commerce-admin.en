@@ -7,7 +7,21 @@ exl-id: 1af76dd0-3f22-4ed1-b05c-75025b813e60
 
 The _[!UICONTROL Customers]_ menu provides access to customer account management tools and gives you the ability to see who is online in your store.
 
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+
 ![Customers menu](assets/admin-menu-customers.png){width="300" zoomable="yes"}
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and Adobe Commerce Optimizer projects only (Adobe-managed SaaS infrastructure)."}
+
+![Customers menu](assets/admin-menu-customers-accs.png){width="300" zoomable="yes"}
+
+>[!ENDTABS]
 
 ## Display the [!UICONTROL Customers] menu
 

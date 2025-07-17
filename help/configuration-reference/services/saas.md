@@ -3,6 +3,7 @@ title: '[!UICONTROL Services] &gt; [!UICONTROL Commerce Services Connector]'
 description: Review the configurations settings on the [!UICONTROL Services] &gt; [!UICONTROL Commerce Services Connector] page of the Commerce Admin.
 exl-id: 3570e846-c8ab-4a36-b020-1b536bbd377d
 feature: Configuration, Saas
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # [!UICONTROL Services] > [!UICONTROL Commerce Services Connector]
 

@@ -27,6 +27,7 @@ The properties of each attribute that is used for a configurable product variati
 |[!UICONTROL Scope]|`Global`|
 |[!UICONTROL Catalog Input Type for Store Owner]|The input type of any attribute that is used for a product variation must be one of the following: `Dropdown`, `Visual Swatch`, or `Text Swatch`.|
 |[!UICONTROL Values Required]|`Yes`|
+|[!UICONTROL Use for Promo Rule Conditions]|`Yes`|
 
 {style="table-layout:auto"}
 

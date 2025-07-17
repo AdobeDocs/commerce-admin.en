@@ -16,6 +16,15 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 >
 >See [Product availability](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) for information about versions of the B2B Commerce extension supported for available Adobe Commerce releases.
 
+## B2B v1.5.2-p1
+
+*June 10, 2025*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce versions 2.4.8-p1, 2.4.7-p6, and 2.4.6-p11 security patch releases.
+Compatible with Adobe Commerce versions 2.4.7 to 2.4.7-p5, 2.4.6 to 2.4.6-p10
+
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html).
+
 ## B2B 1.5.2
 
 *April 8, 2025*
@@ -61,7 +70,7 @@ This enhancement builds on B2B 1.5.0's multi-company membership capability, whic
 *February 11, 2025*
 
 [!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce versions 2.4.7-p4+ and 2.4.6-p9+ security patch releases.
-Compatible with Adobe Commerce versions 2.4.8-beta1 to 2.4.8-beta2, 2.4.7 to 2.4.7-p3, 2.4.6 to 2.4.9-p8
+Compatible with Adobe Commerce versions 2.4.8-beta1 to 2.4.8-beta2, 2.4.7 to 2.4.7-p3, 2.4.6 to 2.4.6-p8
 
 The B2B v1.5.1 release includes quality improvements and bug fixes.
 
@@ -167,6 +176,16 @@ Improvements to quoting capabilities help Buyers and Sellers manage quotes and q
 ### Purchase Orders
 
 ![Fixed issue](../assets/fix.svg) <!--ACP2E-1825-->Purchase orders can no longer be placed by a user associated with the company after the company has been blocked. Previously, a user associated with the company could place purchase orders when the company was blocked.
+
+## B2B v1.4.2-p6
+
+*June 10, 2025*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.7-p6+ and 2.4.6-p11+ security patch releases.
+
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html).
+
+{{b2b-compatibility}}
 
 ## B2B v1.4.2-p5
 
@@ -374,6 +393,16 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 
 ![Fixed issue](../assets/fix.svg) <!--- ACP2E-6829--> The **[!UICONTROL Place Order]** button now works as expected when completing a purchase with an approved quote request. Issues with the negotiable quote `negotiableQuoteCheckoutSessionPlugin` plugin have been resolved.
 
+## B2B v1.3.4-p13
+
+*June 10, 2025*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.0 and newer versions
+
+![New](../assets/new.svg) Added support for Adobe Commerce 2.4.5-p12.
+
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html).
+
 ## B2B v1.3.4-p12
 
 *April 8, 2025*
@@ -437,6 +466,16 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 ![Fixed issue](../assets/fix.svg) <!--- ACP2E-607 -->Company name is now visible as expected in the billing and shipping address sections of the checkout workflow.
 
 ![Fixed issue](../assets/fix.svg) <!--- ACP2E-375 -->Store credit is now unavailable when the **[!UICONTROL Zero Subtotal Checkout]** payment method is disabled. Previously, the Store Credit checkbox was not functional during order placement from the Admin. The application did not place the order with the store credit and displayed this error: `The requested Payment Method is not available`.
+
+## B2B v1.3.3-p14
+
+*June 10, 2025*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.0 and newer versions
+
+![New](../assets/new.svg) Added support for Adobe Commerce 2.4.5-p12.
+
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html).
 
 ## B2B v1.3.3
 
@@ -508,7 +547,7 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 
 ![Fixed issue](../assets/fix.svg) <!--- MC-41260--> Clicking the **[!UICONTROL Return]** button for an order that was created by a company user now redirects an administrative user to the Create Return page as expected. Previously, the administrator was redirected to the Order History page.
 
-![Fixed issue](../assets/fix.svg) <!--- MC-40798--> Adobe Commerce no longer fails with an out-of-memory error when executing the `app/code/Magento/PurchaseOrder/Setup/Patch/Data/InitPermissions.php::apply` method during `bin/magento setup:upgrade`. Previously, Adobe Commerce did not use batch size for collection when initializing permissions, but instead loaded a collection of all company roles.
+![Fixed issue](../assets/fix.svg) [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."} <!--- MC-40798--> Adobe Commerce no longer fails with an out-of-memory error when executing the `app/code/Magento/PurchaseOrder/Setup/Patch/Data/InitPermissions.php::apply` method during `bin/magento setup:upgrade`. Previously, Adobe Commerce did not use batch size for collection when initializing permissions, but instead loaded a collection of all company roles.
 
 ![Fixed issue](../assets/fix.svg) <!--- MC-40551--> Company users can now edit and update customer custom attribute values. Previously, these attributes did not bind properly with the create and edit user form. A company user could enter different attribute values, but Adobe Commerce did not save these values correctly.
 
@@ -778,7 +817,7 @@ This release includes improvements to order approvals, shipping methods, shoppin
 
 ![Fixed issue](../assets/fix.svg) A fix is added to allow store administrators to add products to an order that are not in the shared catalog. Previously, an error message would appear when adding an item not in the catalog.
 
-![Fixed issue](../assets/fix.svg) Previously, after running the command `php bin/magento indexer:set-dimensions-mode catalog_product_price website` and then trying to create a shared catalog, an error would occur. This issue has been fixed.
+![Fixed issue](../assets/fix.svg) [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."} Previously, after running the command `php bin/magento indexer:set-dimensions-mode catalog_product_price website` and then trying to create a shared catalog, an error would occur. This issue has been fixed.
 
 ![Fixed issue](../assets/fix.svg) When adding a company and assigning the company administrator to a non-default website, the wrong site ID was sent, causing an error. This issue has been fixed.
 

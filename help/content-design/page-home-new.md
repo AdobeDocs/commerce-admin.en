@@ -2,6 +2,7 @@
 title: Set the home page
 description: Learn how to change the home page used as the default CMS page.
 exl-id: 0065da5a-ca55-45ef-b9a7-9b5548ef73d1
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Set the home page
 

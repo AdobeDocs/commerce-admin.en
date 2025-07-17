@@ -53,13 +53,7 @@ Complete the following steps to add a rule, describe the conditions, and define 
 
 1. Enter a number to define the **[!UICONTROL Priority]** of this price rule in relation to the Action settings of other price rules which are active at the same time.
 
-   >[!NOTE]
-   >
-   >The _[!UICONTROL Priority]_ setting is important when two cart rules or coupon codes are valid for the same product at the same time. The rule with the highest [!UICONTROL Priority] setting controlling the cart action.  Priorities from the highest to the lowest are `0,1,2,3...`. See _Discard Subsequent Price Rules_ in the _[Define the Actions](#step-3-define-the-actions)_ step.
-
-   >[!NOTE]
-   >
-   >Cart price rules that have the same priority do not result in a combined discount. Each rule (coupon) is applied to matching products separately, one-by-one, according to the cart price rule ID in the database. To control the order in which discounts are applied, Adobe recommends setting a different priority for each added cart price rule. 
+   When multiple cart rules or coupons apply to the same product, the rule with the highest priority (lowest number) is applied first. Rules with the same priority don’t combine; they apply separately based on rule ID. To control the order in which discounts are applied, assign unique priorities, and consider using the [Discard Subsequent Price Rules](#step-3-define-the-actions) in the Actions step to prevent discount stacking.
 
 1. To apply the rule to published [RSS feeds](social-rss.md#rss-feeds), set **Public In RSS Feed** to `Yes`.
 
@@ -73,17 +67,15 @@ Complete the following steps to add a rule, describe the conditions, and define 
 
 ## Step 2: Describe the conditions
 
-In this step, the conditions are described that must be met for an order to qualify for the promotion. The rule goes into action whenever the set of conditions is met.
-
-If you are using audiences from Real-Time CDP, skip to [this section](#use-real-time-cdp-audiences-to-set-a-condition).
-
 >[!NOTE]
 >
->The cart price rule is applied to **_each_** product in the shopping cart whenever the set of conditions in the _[!UICONTROL Conditions]_ tab is met. Add conditions in the _[!UICONTROL Actions]_ tab to limit the number of products affected by the cart price rule.
+>If you are using audiences from Real-Time CDP, skip to [this section](#use-real-time-cdp-audiences-to-set-a-condition).
 
->[!NOTE]
->
->If at least one conditional product attribute has an empty value, the cart price rule is not applied to the product.
+In this step, the conditions are described that must be met for an order to qualify for the promotion. Conditions affect cart price rules in the following ways:
+
+- The cart price rule is applied to **_each_** product in the shopping cart whenever the set of conditions in the _[!UICONTROL Conditions]_ tab is met. To limit the number of products affected by cart price rule, add conditions in the _[!UICONTROL Actions]_ tab to limit the number of products affected by the cart price rule.
+
+- If at least one conditional product attribute has an empty value, the cart price rule is not applied to the product.
 
 1. In the left panel, select **[!UICONTROL Conditions]**.
 
@@ -237,6 +229,8 @@ The shopping cart price rule actions describe how prices are updated when the co
    |`Buy X get Y free` |Defines a quantity X that the customer must purchase to receive a quantity Y **of the same product/variation** for free. (The [!UICONTROL Discount Amount] is Y.) A total quantity of X+Y of that same item must be present in/added to the cart for the discount to be applied. |
 
    {style="table-layout:auto"}
+
+   - To apply fixed amount discounts consistently across websites with different currencies (without converting from the global base currency), set the **[!UICONTROL Catalog Price Scope]** option to `Website` and define a base currency for each site.
 
    - Enter the **[!UICONTROL Discount Amount]** as a number, without symbols. For example, depending on the discount option selected, the number 10 might indicate a percentage, a fixed amount, or a quantity of items.
 

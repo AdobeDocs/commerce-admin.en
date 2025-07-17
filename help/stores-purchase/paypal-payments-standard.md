@@ -3,6 +3,7 @@ title: PayPal Payments Standard
 description: Learn how to set up PayPal Payments Standard as an online payment solution on your store.
 exl-id: b4024dac-34d7-4f1a-ad9d-0fc406194609
 feature: Payments
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # PayPal Payments Standard
 

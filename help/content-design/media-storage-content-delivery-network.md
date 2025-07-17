@@ -4,6 +4,7 @@ description: Learn how to use a Content Delivery Network (CDN) to store media fi
 exl-id: cb612b79-f3e3-4f1b-8cf9-d47886486686
 feature: Page Content, Media, Configuration
 level: Experienced
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Use a content delivery network
 

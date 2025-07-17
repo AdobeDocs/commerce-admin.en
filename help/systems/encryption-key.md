@@ -4,6 +4,7 @@ description: Learn how to change your own encryption key, which should be done r
 exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Encryption key
 
@@ -21,6 +22,7 @@ For technical information, see [Advanced on-premises installation](https://exper
 >
 >- Before following these instructions to change the encryption key, make sure that the following file is writable: `[your store]/app/etc/env.php`
 >- The encryption key change feature in the Admin settings is deprecated and was removed in 2.4.8. You must use the CLI command described on this page to change your encryption key after upgrading to 2.4.8.
+>- Rotating the encryption key will immediately invalidate all customer and admin sessions (excluding integration users) and will require them to login again.
 
 **To change an encryption key:**
 
@@ -50,7 +52,19 @@ The following instructions require access to a terminal.
 
    +++CLI command
 
-   Run the following CLI command and make sure that it completes with no errors. If you need to re-encrypt certain system config values or payment fields, see the detailed [guide on re-encryption](https://developer.adobe.com/commerce/php/development/security/data-encryption/) in the _PHP Develop Guide_.
+   Confirm that the new command exists:
+
+   ```bash
+   bin/magento list | grep encryption:key:change
+   ```
+
+   You should see the following output:
+
+   ```bash
+   encryption:key:change Change the encryption key inside the env.php file.
+   ```
+
+   If you see this output, run the following CLI command and make sure that it completes with no errors. If you need to re-encrypt certain system config values or payment fields, see the detailed [guide on re-encryption](https://developer.adobe.com/commerce/php/development/security/data-encryption/) in the _PHP Develop Guide_.
 
    ```bash
    bin/magento encryption:key:change

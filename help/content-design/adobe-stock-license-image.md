@@ -3,6 +3,7 @@ title: License an Adobe Stock image
 description: To ensure you have legal access and to eliminate the Adobe Stock watermark, license your Adobe Stock images.
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # License an Adobe Stock image
 

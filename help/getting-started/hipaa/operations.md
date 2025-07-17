@@ -2,6 +2,7 @@
 title: Operations
 description: Guidelines for migrating to a HIPAA-ready offering and using the secondary staging environment for troubleshooting.
 exl-id: 058b43de-1cee-4557-b2e3-87ee7422bf9b
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Operations
 

@@ -11,7 +11,7 @@ Target promotions and create opportunities for customer engagement, and turn sho
 
 _Merchandising_ is a term used in retail to describe the art and science of floor plan development and the presentation of products. You might think of the [category-based navigation](../catalog/navigation-top.md) as the floor plan of the store, and the dynamic presentation of products as the conditions that you can apply to the listing of products in the store. Also, you can implement programs that drive more product sales:
 
-- [Visual Merchandiser](visual-merchandiser.md) - A set of advanced tools that allows you to position products, and apply conditions that determine which products appear in the category listing.
+- [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."} [Visual Merchandiser](visual-merchandiser.md) - A set of advanced tools that allows you to position products, and apply conditions that determine which products appear in the category listing.
 
 - [Gift registries](gift-registries.md) - Give your customers the ability to create gift registries for special occasions, and to invite their friends and family to purchase their gifts from the gift registry.
 

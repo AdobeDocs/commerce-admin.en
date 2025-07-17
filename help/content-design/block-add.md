@@ -2,6 +2,7 @@
 title: Add content blocks
 description: Create custom blocks of content that you can reuse in any page or within another block.
 exl-id: 2f104d77-a1d1-4f10-82ce-014955fe560b
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Add content blocks
 

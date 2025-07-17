@@ -2,6 +2,7 @@
 title: '[!DNL Admin Unified Experience for Adobe Commerce] release notes'
 description: Review the release notes for information about the latest release of the [!DNL Admin Unified Experience] extension for Commerce.
 exl-id: f8a16c63-13f9-4429-a1cd-2293bc465f9f
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Admin Unified Experience release notes
 
