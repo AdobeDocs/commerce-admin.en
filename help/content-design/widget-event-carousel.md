@@ -3,6 +3,7 @@ title: Catalog events carousel widget
 description: Learn how to use a catalog events carousel widget to display a slider of upcoming events on a page.
 exl-id: 4e88b253-f320-4c94-9996-94d7005effc6
 feature: Page Content, Promotions/Events
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Catalog events carousel widget
 

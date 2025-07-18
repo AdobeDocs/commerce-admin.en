@@ -7,7 +7,21 @@ exl-id: b9d8ea6b-5b4b-42af-b74d-7afa48ccf2ff
 
 The _[!UICONTROL Stores]_ menu provides access to settings that are used less frequently, but referenced throughout your Adobe Commerce or Magento Open Source installation. These functions include setting up the store hierarchy, configuration, sales and order settings, tax and currency, product attributes, product review ratings, and customer groups.
 
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+
 ![Admin - Stores menu](./assets/stores-menu.png){width="500" zoomable="yes"}
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and Adobe Commerce Optimizer projects only (Adobe-managed SaaS infrastructure)."}
+
+![Admin - Stores menu](./assets/stores-menu-accs.png){width="500" zoomable="yes"}
+
+>[!ENDTABS]
 
 ## Display the [!UICONTROL Stores] menu
 

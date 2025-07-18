@@ -2,6 +2,7 @@
 title: Use a widget to position a block
 description: Learn how to use a static block widget to place an existing content nearly anywhere within your store.
 exl-id: 174deef2-33c4-4f1a-8ca8-4969be209bc7
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Use a widget to position a block
 

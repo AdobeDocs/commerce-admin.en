@@ -3,6 +3,7 @@ title: PayPal Payments Advanced
 description: Learn how to set up PayPal Payments Advanced as an online payment solution on your store.
 exl-id: 018dd999-2f17-4650-8f61-624809ae76c6
 feature: Payments
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # PayPal Payments Advanced
 

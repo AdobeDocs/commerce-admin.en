@@ -39,9 +39,9 @@ By scheduling these tasks, you can avoid the locks that occur when data is saved
 
 **_To enable the updates and reindexing:_**
 
-When [Production mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#production-mode) (the default mode used in Adobe Commerce on cloud infrastructure) is enabled, run the following command:
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."} When [Production mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#production-mode) (the default mode used in Adobe Commerce on cloud infrastructure) is enabled, run the following command:
 
-``bin/magento config:set dev/grid/async_indexing 1``
+`bin/magento config:set dev/grid/async_indexing 1`
 
 When [Default mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#default-mode) is enabled, complete the following steps:
 

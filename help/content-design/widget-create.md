@@ -2,6 +2,7 @@
 title: Create and manage widgets
 description: Learn how to create and manage the widgets that automatically update content across your store.
 exl-id: 680f2f41-ec51-4ac6-9e92-2817591af3e6
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Create and manage widgets
 

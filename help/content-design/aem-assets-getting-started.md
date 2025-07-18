@@ -3,6 +3,7 @@ title: Set up AEM Assets Integration for Commerce
 description: Learn how to set up and configure your Experience Manager Assets environment to manage Commerce assets for your store.
 feature: CMS, Media, Configuration
 exl-id: 699f517e-1545-4c22-aa8d-9c8d60d352af
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Set up AEM Assets Integration for Commerce
 

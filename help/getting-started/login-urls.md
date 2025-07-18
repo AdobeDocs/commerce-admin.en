@@ -36,4 +36,6 @@ While you are learning your way around the store, make sure to set up a test [cu
 
 ## Sample data
 
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+
 Adobe provides a sample data set that includes a sample store with more than 250 products (about 200 of them are configurable products), categories, promotional price rules, CMS pages, banners, and so on. Sample data uses the _Luma_ theme on the storefront. [Installing this sample data](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html) is optional, but can be helpful for testing and developing customizations for your eCommerce business.

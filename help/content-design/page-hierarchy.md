@@ -2,6 +2,7 @@
 title: Page hierarchy
 description: Learn how the page hierarchy system gives you the ability to organize your content pages and add pagination, navigation, and menus.
 exl-id: 2ce79b85-1420-4640-a4f7-0143a608a71a
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Page hierarchy
 
