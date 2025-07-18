@@ -7,6 +7,8 @@ badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.ad
 ---
 # HIPAA readiness on Adobe Commerce
 
+{{ee-feature}}
+
 >[!IMPORTANT]
 >
 >**Legal Disclaimer**<br/>
