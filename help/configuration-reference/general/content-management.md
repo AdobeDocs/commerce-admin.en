@@ -10,7 +10,7 @@ feature: Configuration, Page Content
 
 ## [!UICONTROL WYSIWYG Options]
 
-### [!TinyMCE 6]
+### [!UICONTROL TinyMCE 6]
 
 ![WYSIWYG Options](./assets/content-management-wysiwyg-options.png)<!-- zoom -->
 
@@ -24,7 +24,7 @@ feature: Configuration, Page Content
 
 {style="table-layout:auto"}
 
-### [!HugeRTE]
+### [!UICONTROL HugeRTE]
 
 ![WYSIWYG Options](./assets/content-management-wysiwyg-options-hugerte.png)<!-- zoom -->
 
