@@ -73,7 +73,7 @@ Install the latest version of Adobe's HIPAA-Ready Services extension (`magento/h
 
    >[!NOTE]
    >
-   >For information about managing Commerce project environments locally, see  [Managing branches with the CLI](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/cli-branches) in the _Adobe Commerce on Cloud Infrastructure User Guide_.
+   >For information about managing Commerce project environments locally, see [Managing branches with the CLI](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/cli-branches) in the _Adobe Commerce on Cloud Infrastructure User Guide_.
 
 1. Checkout the environment branch to update using the Adobe Commerce Cloud CLI.
 
