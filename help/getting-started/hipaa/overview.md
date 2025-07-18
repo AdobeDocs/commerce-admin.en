@@ -59,11 +59,11 @@ The following table shows the compatibility between versions of Adobe Commerce a
 >[!BEGINSHADEBOX]
 
 - Adobe has provisioned your Adobe Commerce account to access the HIPAA Ready extension.
-- Access to [repo.magento.com](https://marketplace.magento.com/) to install the extension. For key generation and obtaining the necessary rights, see [Get your authentication keys](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys).
+- Access to `repo.magento.com` to install the extension. For key generation and obtaining the necessary rights, see [Get your authentication keys](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys).
 
 >[!ENDSHADEBOX]
 
-Install the latest version of Adobe's HIPAA-Ready Services extension (`magento/hipaa-ee`) on an instance that is running Adobe Commerce version  2.4.7-p5 or 2.4.6-p3 through 2.4.6-p8. The extension is delivered as a composer metapackage from the [repo.magento.com](https://marketplace.magento.com/) repository. The metapackage includes the collection of modules that enable the HIPAA capabilities for an Adobe Commerce instance.
+Install the latest version of Adobe's HIPAA-Ready Services extension (`magento/hipaa-ee`) on an instance that is running Adobe Commerce version  2.4.7-p5 or 2.4.6-p3 through 2.4.6-p8. The extension is delivered as a composer metapackage from the `repo.magento.com` repository. The metapackage includes the collection of modules that enable the HIPAA capabilities for an Adobe Commerce instance.
 
 >[!NOTE]
 >
