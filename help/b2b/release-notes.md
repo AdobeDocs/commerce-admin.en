@@ -16,6 +16,18 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 >
 >See [Product availability](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) for information about versions of the B2B Commerce extension supported for available Adobe Commerce releases.
 
+## B2B v1.5.3-alpha2
+
+*August 12, 2025*
+
+TODO
+
+## B2B v1.5.2-p2
+
+*August 12, 2025*
+
+TODO
+
 ## B2B v1.5.2-p1
 
 *June 10, 2025*
@@ -177,6 +189,12 @@ Improvements to quoting capabilities help Buyers and Sellers manage quotes and q
 
 ![Fixed issue](../assets/fix.svg) <!--ACP2E-1825-->Purchase orders can no longer be placed by a user associated with the company after the company has been blocked. Previously, a user associated with the company could place purchase orders when the company was blocked.
 
+## B2B v1.4.2-p7
+
+*August 12, 2025*
+
+TODO
+
 ## B2B v1.4.2-p6
 
 *June 10, 2025*
@@ -319,6 +337,12 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 You can fix this issue by adding manual dependencies for the B2B security package by adding manual dependencies for the B2B security package with a [stability tag](https://getcomposer.org/doc/04-schema.md#package-links). For instructions, see the [Adobe Commerce Knowledge Base](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html).
 
+## B2B v1.3.5-p12
+
+*August 12, 2025*
+
+TODO
+
 ## B2B v1.3.5-p10
 
 *April 8, 2025*
@@ -393,6 +417,12 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 
 ![Fixed issue](../assets/fix.svg) <!--- ACP2E-6829--> The **[!UICONTROL Place Order]** button now works as expected when completing a purchase with an approved quote request. Issues with the negotiable quote `negotiableQuoteCheckoutSessionPlugin` plugin have been resolved.
 
+## B2B v1.3.4-p14
+
+*August 12, 2025*
+
+TODO
+
 ## B2B v1.3.4-p13
 
 *June 10, 2025*
@@ -466,6 +496,12 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 ![Fixed issue](../assets/fix.svg) <!--- ACP2E-607 -->Company name is now visible as expected in the billing and shipping address sections of the checkout workflow.
 
 ![Fixed issue](../assets/fix.svg) <!--- ACP2E-375 -->Store credit is now unavailable when the **[!UICONTROL Zero Subtotal Checkout]** payment method is disabled. Previously, the Store Credit checkbox was not functional during order placement from the Admin. The application did not place the order with the store credit and displayed this error: `The requested Payment Method is not available`.
+
+## B2B v1.3.3-p15
+
+*August 12, 2025*
+
+TODO
 
 ## B2B v1.3.3-p14
 
