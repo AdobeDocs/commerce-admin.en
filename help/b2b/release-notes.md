@@ -195,6 +195,8 @@ Improvements to quoting capabilities help Buyers and Sellers manage quotes and q
 
 TODO
 
+{{b2b-compatibility}}
+
 ## B2B v1.4.2-p6
 
 *June 10, 2025*
