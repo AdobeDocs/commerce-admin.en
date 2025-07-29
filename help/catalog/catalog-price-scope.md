@@ -42,3 +42,5 @@ Commerce does not allow setting a product price for each store. But you can chan
 1. In the **[!UICONTROL Price]** tab, set price scope to `Website` instead of global.
 
 1. Set the price by opening the product edit page, selecting the scope on the upper left, and then entering a new price per website.
+
+In rare cases when price scope is set to global, Commerce database still may have different prices on the website level. It may happen as a result of synchronization issues outside of Commerce. In these cases Merchant must do a prices cleanup on the store level and run a Catalog Sync with Commerce Services.
