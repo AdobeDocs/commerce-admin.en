@@ -22,7 +22,7 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 
 Compatibile with Adobe Commerce version 2.4.9-alpha2
 
-![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-TBD](https://helpx.adobe.com/security/products/magento/apsb25-TBD.html).
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
 
 TODO
 
@@ -33,7 +33,7 @@ TODO
 [!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce versions 2.4.8-p2, 2.4.7-p7, and 2.4.6-p12 security patch releases.
 Compatible with Adobe Commerce versions 2.4.7 to 2.4.7-p6, 2.4.6 to 2.4.6-p11
 
-![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-TBD](https://helpx.adobe.com/security/products/magento/apsb25-TBD.html).
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
 
 ## B2B v1.5.2-p1
 
@@ -202,7 +202,7 @@ Improvements to quoting capabilities help Buyers and Sellers manage quotes and q
 
 [!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.7-p7+ and 2.4.6-p12+ security patch releases.
 
-![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-TBD](https://helpx.adobe.com/security/products/magento/apsb25-TBD.html).
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
 
 {{b2b-compatibility}}
 
@@ -434,7 +434,7 @@ TODO
 
 [!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.0 and newer versions
 
-![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-TBD](https://helpx.adobe.com/security/products/magento/apsb25-TBD.html).
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
 
 ## B2B v1.3.4-p13
 
@@ -516,7 +516,7 @@ TODO
 
 [!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.0 and newer versions
 
-![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-TBD](https://helpx.adobe.com/security/products/magento/apsb25-TBD.html).
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
 
 ## B2B v1.3.3-p14
 
