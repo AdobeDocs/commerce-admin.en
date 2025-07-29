@@ -24,8 +24,6 @@ Compatibile with Adobe Commerce version 2.4.9-alpha2
 
 ![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
 
-TODO
-
 ## B2B v1.5.2-p2
 
 *August 12, 2025*
