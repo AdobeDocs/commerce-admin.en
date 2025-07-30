@@ -6,6 +6,8 @@ badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.ad
 ---
 # Operations
 
+{{ee-feature}}
+
 Use these guidelines to learn about migrating to the HIPAA-ready offering for Adobe Commerce and using the `staging_for_support` environment for troubleshooting.
 
 ## Migration
