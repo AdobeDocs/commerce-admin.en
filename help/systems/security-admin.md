@@ -72,7 +72,7 @@ For technical information, see [Security overview](https://developer.adobe.com/c
 
      >[!WARNING]
      >
-     >Changing this value from the default may introduce backward compatibility issues with existing services. This setting affects Admin password changes, new Admin user creation from both the Admin interface and CLI, and password reset operations from the Admin.
+     >Changing this value from the default can introduce backward compatibility issues with existing services. This setting affects Admin password changes, new Admin user creation from both the Admin interface and CLI, and password reset operations from the Admin.
 
    - To limit the lifetime of Admin passwords, enter the number of days a password is valid for **[!UICONTROL Password Lifetime (days)]**. For an unlimited lifetime, leave the field blank.
 
@@ -85,4 +85,4 @@ For technical information, see [Security overview](https://developer.adobe.com/c
 
 ## Admin password requirements
 
-By default, an Admin password must be seven or more characters long and include both letters and numbers. You can configure the minimum password length requirement using the **[!UICONTROL Minimum Admin Password Length]** setting to meet your organization's security standards. However, increasing this value may affect compatibility with existing services and integrations.
+By default, an Admin password must be seven or more characters long and include both letters and numbers. You can use the **[!UICONTROL Minimum Admin Password Length]** setting to configure the minimum password length requirement to meet your organization's security standards. However, increasing this value may affect compatibility with existing services and integrations.
