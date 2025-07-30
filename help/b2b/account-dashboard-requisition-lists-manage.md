@@ -138,18 +138,18 @@ A product in the requisition list can be edited when:
 
 ## Pagination controls
 
-The Pagination appear at the bottom of the list. For the pagination controls to appear, there should be more requisition list items than stated in pagination.
+Pagination controls appear at the bottom of the list when the total number of requisition list items exceeds the selected items per page.
 
 ![Requisition List with pagination](./assets/requisition-list-bottom-with-pagination.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
-> Products that require your attention (For example out of stock products) appear in the list when they are in the boundaries of the pagination selection. In that case such items are hoisted to the top of the list. Number of products requiring you attention is displayed above the list.
+> Products that require your attention (for example, out-of-stock products) are displayed at the top of the list if they fall within the current page of the pagination. The number of products requiring your attention is shown above the list.
 > ![Items Requiring attention](./assets/requisition-list-product-requiring-attention.png){width="500"}
 
 ### Storefront pagination controls
 
 | Control                                                        | Description                                                                                                                                                                      |
 |----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![Show per page](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] - Determines how many requisition list items appear per page. You can choose 20, 50, 100, 500 or 1000 requisition list items to be shown on the page. |
-| ![Pagination links](./assets/control-pagination.png)           | Pagination links - Navigation links to other pages.                                                                                                                              |
+| ![Show per page](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] - Determines how many requisition list items appear per page. You can choose 20, 50, 100, 500, or 1000 requisition list items to be shown on the page. |
+| ![Pagination links](./assets/control-pagination.png)           |  [!UICONTROL Pagination links] - Provides navigation links to other pages.                                                                                                                              |
