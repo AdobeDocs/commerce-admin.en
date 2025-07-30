@@ -29,7 +29,7 @@ Compatibile with Adobe Commerce version 2.4.9-alpha2
 *August 12, 2025*
 
 [!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce versions 2.4.8-p2, 2.4.7-p7, and 2.4.6-p12 security patch releases.
-Compatible with Adobe Commerce versions 2.4.7 to 2.4.7-p6, 2.4.6 to 2.4.6-p11
+Compatible with Adobe Commerce versions 2.4.7 to 2.4.7-p6, 2.4.6 to 2.4.6-p11.
 
 ![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
 
