@@ -8,12 +8,13 @@ badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.ad
 ---
 # Configure Admin security
 
-We recommend that you take a multifaceted approach to protect the security of your store. You can begin by using a [custom Admin URL](../stores-purchase/store-urls.md#use-a-custom-admin-url) that is not easy to guess, rather than the obvious "Admin" or "Backend." By default, passwords that are used to [log in](../getting-started/admin-signin.md) to the Admin must be seven or more characters long and include both letters and numbers. As a [best practice](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), use only strong Admin passwords that include a combination of letters, numbers, and symbols. Adobe Commerce and Magento Open Source do not allow the reuse of the last four passwords assigned to the account.
+We recommend that you take a multifaceted approach to protect the security of your store. You can begin by using a [custom Admin URL](../stores-purchase/store-urls.md#use-a-custom-admin-url) that is not easy to guess, rather than the obvious "Admin" or "Backend." By default, passwords that are used to [log in](../getting-started/admin-signin.md) to the Admin must be seven or more characters long and include both letters and numbers. You can configure the minimum password length requirement to enhance security based on your organization's needs. As a [best practice](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), use only strong Admin passwords that include a combination of letters, numbers, and symbols. Adobe Commerce and Magento Open Source do not allow the reuse of the last four passwords assigned to the account.
 
 The Admin security configuration gives you the ability to:
 
 - Add a secret key to URLs
 - Require passwords to be case-sensitive
+- Configure the minimum password length requirement
 - Limit the length of Admin sessions
 - Limit the lifetime of passwords
 - Limit the number of login attempts that can be made before the Admin user account is [locked](permissions-users-all.md#locked-users).
@@ -24,7 +25,7 @@ In addition to the security settings in this section, [two-factor authentication
 
 >[!NOTE]
 >
->Stores that have enabled [!DNL Adobe Identity Management Services] (IMS) authentication have native Adobe Commerce and Magento Open Source 2FA disabled. Admin users who are logged into their Commerce instance with their Adobe credentials do not need to reauthenticate for many Admin tasks. Authentication is handled by Adobe IMS when the Admin user logs into their current session. See [[!DNL Adobe Identity Management Service] (IMS) Integration Overview](../getting-started/adobe-ims-integration-overview.md).
+>Stores that have enabled [!DNL Adobe Identity Management Services] (IMS) authentication have native Adobe Commerce and Magento Open Source 2FA disabled. Admin users who are logged into their Commerce instance with their Adobe credentials do not need to reauthenticate for many Admin tasks. Authentication is handled by Adobe IMS when the Admin user logs into their current session. See [[!DNL Adobe Identity Management Service] (IMS) Integration Overview](../getting-started/adobe-ims-integration-overview.md).
 
 For technical information, see [Security overview](https://developer.adobe.com/commerce/php/architecture/basics/security/){:target="_blank"} in the developer documentation.
 
@@ -67,6 +68,12 @@ For technical information, see [Security overview](https://developer.adobe.com/c
 
 1. Set password options:
 
+   - For **[!UICONTROL Minimum Admin Password Length]**, enter the minimum number of characters required for Admin passwords. The default value is 7, and the minimum allowed value is 7.
+
+     >[!WARNING]
+     >
+     >Changing this value from the default may introduce backward compatibility issues with existing services. This setting affects Admin password changes, new Admin user creation from both the Admin interface and CLI, and password reset operations from the Admin.
+
    - To limit the lifetime of Admin passwords, enter the number of days a password is valid for **[!UICONTROL Password Lifetime (days)]**. For an unlimited lifetime, leave the field blank.
 
    - Set **[!UICONTROL Password Change]** to one of the following:
@@ -78,4 +85,4 @@ For technical information, see [Security overview](https://developer.adobe.com/c
 
 ## Admin password requirements
 
-By default, an Admin password must be seven or more characters long and include both letters and numbers.
+By default, an Admin password must be seven or more characters long and include both letters and numbers. You can configure the minimum password length requirement using the **[!UICONTROL Minimum Admin Password Length]** setting to meet your organization's security standards. However, increasing this value may affect compatibility with existing services and integrations.
