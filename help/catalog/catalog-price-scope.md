@@ -43,4 +43,4 @@ Commerce does not allow setting a product price for each store. But you can chan
 
 1. Set the price by opening the product edit page, selecting the scope on the upper left, and then entering a new price per website.
 
-In rare cases when price scope is set to `Global`, Commerce database still may have different prices on the website level. It may happen as a result of synchronization issues outside of Commerce. In these cases Merchant must do a prices cleanup on the store level and run a Catalog Sync with Commerce Services.
+In rare cases when price scope is set to `Global`, the Commerce database can still have different prices on the website level. This can happen as a result of synchronization issues outside of Commerce. In these cases, the Merchant must perform a price cleanup on the store level and run a Catalog Sync with Commerce Services.
