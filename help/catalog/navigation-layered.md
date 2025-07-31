@@ -10,7 +10,7 @@ feature: Catalog Management, Categories, Site Navigation
 >
 >The standard layered navigation described in this section differs from Live Search filtered navigation with [facets](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets).
 
-Layered navigation makes it easy to find products based on category, price range, or any other available attribute. Layered navigation usually appears in the left column of search results and category pages and sometimes on the home page. The standard navigation includes a _Shop By_ list of categories and price range. You can configure the display of layered navigation, including product count and price range.
+Layered navigation makes it easy to find products based on category, price range, or any other available attribute. Layered navigation usually displays in the left column of search results and category pages and sometimes on the home page. The standard navigation includes a _Shop By_ list of categories and price range. You can configure the display of layered navigation, including product count and price range.
 
 ![Layered navigation by category and price](./assets/navigation-layered-basic.png){width="700" zoomable="yes"}
 
@@ -20,7 +20,7 @@ Layered navigation makes it easy to find products based on category, price range
 >
 >The filterable attribute requirements described in this topic differ for [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview). To learn more, see [Facets](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets).
 
-Layered navigation can be used to search for products by category or by attribute. For example, when a shopper chooses the Mens/Shorts category from the top navigation, the initial results include all products in the category. The list can be filtered further by choosing a specific style, climate, color, material, pattern, or price (or a combination of values). Filterable attributes appear in an expanding section that lists each attribute value. As an option, the list of products with matching results can be configured to include products with, or without, a match.
+Layered navigation can be used to search for products by category or by attribute. For example, when a shopper chooses the Mens/Shorts category from the top navigation, the initial results include all products in the category. The list can be filtered further by choosing a specific style, climate, color, material, pattern, or price (or a combination of values). Filterable attributes display in an expanding section that lists each attribute value. As an option, the list of products with matching results can be configured to include products with, or without, a match.
 
 The attribute properties, combined with the product input type, determine which attributes can be used for layered navigation. Layered navigation is available only for [_anchor_](categories-display-settings.md) categories, but can also be added to search results pages. The **Catalog Input Type for Store Owner** property of each attribute must be set to `Yes/No`, `Dropdown`, `Multiple Select`, or `Price`. To make the attributes filterable, the **Use in Layered Navigation** property of each must be set to either `Filterable (with results)` or `Filterable (no results)`.
 
@@ -44,9 +44,9 @@ The following instructions show how to set up basic layered navigation with filt
 
 1. In the left panel, choose **[!UICONTROL Storefront Properties]** and set **[!UICONTROL Use In Layered Navigation]** to one of the following:
 
-   - `Filterable (with results)` - Layered navigation includes only those filters for which matching products can be found. Any attribute value that already applies to all products shown in the list should still appear as an available filter. Attribute values with a count of zero (0) product matches are omitted from the list of available filters. The filtered list includes only the products that match the filter. The products list is updated only if the selected filters change what is shown.
+   - `Filterable (with results)` - Layered navigation includes only those filters for which matching products can be found. Any attribute value that already applies to all products shown in the list should still display as an available filter. Attribute values with a count of zero (0) product matches are omitted from the list of available filters. The filtered list includes only the products that match the filter. The products list is updated only if the selected filters change what is shown.
 
-   - `Filterable (no results)` - Layered navigation displays filters for all available attribute values and their product counts, even when products with zero (0) matches exist. If the attribute value is a swatch, the filter appears but is crossed out. This option does not support price-layered filtering and does not affect price filters.
+   - `Filterable (no results)` - Layered navigation displays filters for all available attribute values and their product counts, even when products with zero (0) matches exist. If the attribute value is a swatch, the filter displays but is crossed out. This option does not support price-layered filtering and does not affect price filters.
 
 1. Set **[!UICONTROL Use In Search Results Layered Navigation]** to `Yes`.
 
@@ -56,9 +56,9 @@ The following instructions show how to set up basic layered navigation with filt
 
 >[!NOTE]
 >
->- If the _[!UICONTROL Use in Search]_ setting is set to `No`, the _[!UICONTROL Use in Search Results Layered Navigation]_ setting does not appear. In this case, the product attribute is not used in search, regardless of the [!UICONTROL Use in Layered Navigation] setting.
+>- If the _[!UICONTROL Use in Search]_ setting is set to `No`, the _[!UICONTROL Use in Search Results Layered Navigation]_ setting does not display In this case, the product attribute is not used in search, regardless of the [!UICONTROL Use in Layered Navigation] setting.
 >
->- The [!UICONTROL Position] field is dimmed by default, so you must save the attribute before you can modify this setting.
+>- The [!UICONTROL Position] field is dimmed by default. You must save the attribute before you can modify this setting.
 
 ## Step 2: Make the category an anchor
 
@@ -201,7 +201,7 @@ Leave **[!UICONTROL Price Navigation Steps Calculation]** set to `Automatic (Equ
 >
 >The standard configuration described in this page differs for [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview).
 
-The layered navigation configuration determines if a product count appears in parentheses after each attribute, and the size of the step calculation that is used in price navigation.
+The layered navigation configuration determines if a product count displays in parentheses after each attribute, and the size of the step calculation that is used in price navigation.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
