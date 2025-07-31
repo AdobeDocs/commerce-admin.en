@@ -176,3 +176,19 @@ You can transfer items to the cart from a customer's wish list, and recently vie
 1. Click **[!UICONTROL Submit Order]**.
 
 To learn more, see [Create an order](customer-account-create-order.md).
+
+## Remove all items from a cart
+
+Removing all items from a customer's cart in assisted shopping mode is useful if the customer wants to start over, has added incorrect items, or needs to clear their cart before placing a new order. This helps ensure the cart only contains the products the customer actually wants to purchase.
+
+1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+
+1. In the list, open the customer record in edit mode.
+
+1. Click **[!UICONTROL Manage Shopping Cart]** in the top button bar.
+
+1. Click **[!UICONTROL Clear my shopping cart]**.
+
+   ![Clear my shopping cart](./assets/customer-manage-shopping-cart-clear.png){width="600" zoomable="yes"}
+
+1. Click **[!UICONTROL OK]** when prompted to confirm the action.
