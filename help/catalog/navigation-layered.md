@@ -104,7 +104,7 @@ You can use the following steps to remove filterable attribute values with 0 Pro
 
 >[!NOTE]
 >
->The price navigation configuration described in this topic differs for [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview).
+>The price navigation configuration described in this section differs from Live Search filtered navigation with [facets](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets).
 
 Price navigation can be used to distribute products by price range in layered navigation. You can also split each range in intervals. There are a few ways to calculate price navigation:
 
@@ -199,7 +199,7 @@ Leave **[!UICONTROL Price Navigation Steps Calculation]** set to `Automatic (Equ
 
 >[!NOTE]
 >
->The standard configuration described in this page differs for [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview).
+>The standard layered navigation described in this section differs from Live Search filtered navigation with [facets](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets).
 
 The layered navigation configuration determines if a product count displays in parentheses after each attribute, and the size of the step calculation that is used in price navigation.
 
