@@ -25,7 +25,7 @@ To begin an assisted shopping session, the customer must be logged into their ac
 
 |Button|Description|
 |--- |--- |
-|[!UICONTROL Clear my shopping cart]|Clears the current shopping cart from all products.|
+|[!UICONTROL Clear my shopping cart]|Removes all items from the cart.|
 |[!UICONTROL Update Items and Quantities|]Enter the required quantity in the **[!UICONTROL Qty]** field and update the number of items in the cart.|
 |[!UICONTROL Add selections to my cart]|Adds products from all sections to the cart.|
 
