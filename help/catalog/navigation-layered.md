@@ -114,6 +114,12 @@ Price navigation can be used to distribute products by price range in layered na
 - Automatic (Equalize Product Counts)
 - Manual
 
+>[!BEGINSHADEBOX]
+
+When using price range filters in layered navigation, Adobe Commerce uses the lowest price among associated child products of a configurable product for filtering purposes. This means that if a configurable product includes child products with higher prices, it may not appear in higher price ranges even if the configurable product includes simple products with higher prices.
+
+>[!ENDSHADEBOX]
+
 With the first two methods, the navigation steps are calculated automatically. The manual method lets you specify a division limit for price intervals. The following example shows the difference between price navigation steps of 10 and 100.
 
 Iterative splitting provides the best distribution of products among price ranges. With iterative splitting, after choosing the $0.00-$99 range, the customer can drill down through several subranges of prices. Price-range splitting stops when the number of products reaches the threshold set by the Interval Division Limit.
