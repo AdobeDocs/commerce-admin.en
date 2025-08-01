@@ -30,7 +30,7 @@ recommendations: noDisplay
     + [Define company structure](account-company-structure.md)
 + Company management {#company-management}
     + [Overview](manage-companies.md)
-    + [Manage the company hierarchy](manage-company-hierarchy.md)
+    + [Manage company hierarchies](manage-company-hierarchy.md)
 + Shared catalogs {#shared-catalogs}
   + [Overview](catalog-shared.md)
   + Define shared catalogs {#define}
