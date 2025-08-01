@@ -286,6 +286,8 @@ The process of creating a company from the Admin is essentially the same as from
 
 ### [!UICONTROL Advanced Settings]
 
+You can configure advanced settings for individual companies. If you create a company hierarchy, you can streamline the settings configuration by configuring the settings for the parent company and applying those settings to all or selected child companies instead of configuring each child company individually. For more information, see [Manage the Company Hierarchy](manage-company-hierarchy.md).
+
 | Field                                    | Description                                                                                                                                                                                                              |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Customer Group]              | (Admin Only) Indicates the [customer group](../customers/customer-groups.md) or [shared catalog](catalog-shared.md) that is assigned to the company.                                                                     |
