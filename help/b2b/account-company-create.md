@@ -7,9 +7,9 @@ role: Admin, User
 ---
 # Create a company account
 
-Company accounts can be set up from the storefront by the customer, or from the Admin. All requests to create a company account must be approved by the store administrator before the account becomes active.
+Customers can create company accounts from the storefront, or administrators can set them up from the Admin. Store administrators must approve all company account requests before accounts become active.
 
-The person who sets up a company account from the storefront is assigned a role as the [company administrator](account-company-admin.md). After the request to create a company account is approved, the company administrator can set an account password and log in to the account.
+The system assigns the person who sets up a company account from the storefront a role as the [company administrator](account-company-admin.md). After the store administrator approves the request to create a company account, the company administrator can set an account password and log in to the account.
 
 ## Method 1: Customer creates the account from the storefront
 
@@ -55,7 +55,7 @@ The person who sets up a company account from the storefront is assigned a role 
 
    - Enters the **[!UICONTROL Email address]** for the company administrator.
 
-      The email address for the company administrator can be the same as the company email address or a different email address. If a different email address is entered, a company user account is created, in addition to the company administrator account.
+      The email address for the company administrator can be the same as the company email address or a different email address. If you enter a different email address, the system creates a company user account, in addition to the company administrator account.
 
    - Enters the **[!UICONTROL First Name]** and **[!UICONTROL Last Name]** of the company administrator.
 
@@ -71,7 +71,7 @@ The person who sets up a company account from the storefront is assigned a role 
 
 1. When the information is complete, select **[!UICONTROL Submit]**.
 
-   When the request to create a company account is approved by the merchant, email notification is sent to the company administrator.
+   When the merchant approves the request to create a company account, the system sends an email notification to the company administrator.
 
    ![Example Welcome Email](./assets/company-admin-welcome-email.png){width="500"}
 
@@ -106,11 +106,11 @@ The process of creating a company from the Admin is essentially the same as from
 
    - For **[!UICONTROL Comment]**, enter any additional information about the customer that might be needed.
 
-      The comments are visible only from the Admin.
+      Only administrators can view the comments.
 
    ![Account Information](./assets/company-create-account-information-admin.png){width="700" zoomable="yes"}
 
-1. On initial company creation, the _[!UICONTROL Company Hierarchy]_ grid is empty when you expand it. After you save the company, you can include it in a company hierarchy. See [Company Management](manage-companies.md).
+1. When you initially create a company, the _[!UICONTROL Company Hierarchy]_ grid appears empty when you expand it. After you save the company, you can include it in a company hierarchy. See [Company Management](manage-companies.md).
 
 1. In the _[!UICONTROL Legal Address]_ section, complete these required fields:
 
@@ -156,9 +156,9 @@ The process of creating a company from the Admin is essentially the same as from
 
    >[!NOTE]
    >
-   >The customer group assignment determines which shared catalog is available to the company and its employees. By default, the company is assigned to the customer group that is set as the default in the configuration.
+   >The customer group assignment determines which shared catalog is available to the company and its employees. By default, the system assigns the company to the customer group configured as the default.
 
-   - You can change the **[!UICONTROL Customer Group]** assignment for the company and its employees to a group that has access to a different shared catalog or to a standard customer group. You are prompted to confirm before the group is changed.
+   - You can change the **[!UICONTROL Customer Group]** assignment for the company and its employees to a group that has access to a different shared catalog or to a standard customer group. The system prompts you to confirm before changing the group.
 
       ![Changing the customer group](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
 
@@ -207,7 +207,7 @@ The process of creating a company from the Admin is essentially the same as from
 
 | Field                             | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Company Name]         | The company name is entered when the company account is first created, and can be a shortened version of the full legal name.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| [!UICONTROL Company Name]         | You enter the company name when you first create the company account, and it can be a shortened version of the full legal name.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | [!UICONTROL Status]               | (Admin Only) Indicates the current state of the company account. Options: <br/>**[!UICONTROL Active]** - The company account is approved by the store administrator. The company administrator and associated members can log in the account from the storefront and make purchases. <br/>**[!UICONTROL Pending Approval]** - A request to open a company account has been submitted, but is not yet approved by the store administrator. <br/>**[!UICONTROL Rejected]** - A request to open a company account was submitted, but not approved by the store administrator. The initial login credentials that were used to submit the request are blocked. <br/>**Blocked** - Company members can log in and access the catalog, but cannot make purchases. The store administrator might block a company account that is not in good standing. The block on the account can be removed by the store administrator at any time. |
 | [!UICONTROL Company Email]        | The email address that is associated with the company account.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | [!UICONTROL Sales Representative] | (Admin Only) The Admin user who is the primary contact for the company account.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
@@ -220,8 +220,8 @@ The process of creating a company from the Admin is essentially the same as from
 |---------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company Legal Name] | The full legal name of the company.                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | [!UICONTROL VAT / TAX ID]       | The [value-added tax](../stores-purchase/vat.md) number that is assigned to the company by some jurisdictions for tax reporting purposes. To configure the customer VAT/TAX ID to appear in the storefront, see [Create New Account Options](../configuration-reference/customers/customer-configuration.md). <br/> **_Note:_** The company administrator and other company users do not have their own separate VAT/TAX ID numbers in their customer accounts. |
-| [!UICONTROL Reseller ID]        | The resale number that is assigned to the company for tax reporting purposes.                                                                                                                                                                                                                                                                                                                                                                                   |
-| [!UICONTROL Comment]            | (Admin Only) These notes about the company account are for reference and visible only from the Admin.                                                                                                                                                                                                                                                                                                                                                           |
+| [!UICONTROL Reseller ID]        | The resale number that authorities assign to the company for tax reporting purposes.                                                                                                                                                                                                                                                                                                                                                                                   |
+| [!UICONTROL Comment]            | (Admin Only) These reference notes about the company account are visible only to administrators.                                                                                                                                                                                                                                                                                                                                                           |
 
 {style="table-layout:auto"}
 
@@ -230,13 +230,13 @@ The process of creating a company from the Admin is essentially the same as from
 | Field                             | Description                                                                                                                                          |
 |-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company ID]           | The ID number of the company.                                                                                                                        |
-| [!UICONTROL Company Name]         | The full name of the company. <br/>A `current company indicator` appears in the company line being edited.                                           |
+| [!UICONTROL Company Name]         | The full name of the company. <br/>A `current company indicator` appears in the company line you are editing.                                           |
 | [!UICONTROL Company Email]        | The email address that is associated with the company account.                                                                                       |
 | [!UICONTROL Phone Number]         | The primary phone number of the company.                                                                                                             |
 | [!UICONTROL Country]              | The country where the company is registered to conduct business.                                                                                     |
 | [!UICONTROL State/Province]       | The state or province where the company is registered to conduct business.                                                                           |
 | [!UICONTROL City]                 | The city where the company is registered to conduct business.                                                                                        |
-| [!UICONTROL Group/Shared Catalog] | (Admin Only) Indicates the [customer group](../customers/customer-groups.md) or [shared catalog](catalog-shared.md) that is assigned to the company. |
+| [!UICONTROL Group/Shared Catalog] | (Admin Only) Shows the [customer group](../customers/customer-groups.md) or [shared catalog](catalog-shared.md) assigned to the company. |
 | [!UICONTROL Company Admin]        | The full name of the company administrator.                                                                                                          |
 | [!UICONTROL Action]               | The list of possible actions for that company line.                                                                                                  |
 
@@ -262,14 +262,14 @@ The process of creating a company from the Admin is essentially the same as from
 | [!UICONTROL Website]                 | Determines the website that the company administrator belongs to.                                                                                                                                                                                 |
 | [!UICONTROL Job Title]               | The title of the company administrator who manages the company account.                                                                                                                                                                           |
 | [!UICONTROL Work Phone Number]       | The phone number of the company administrator who manages the company account.                                                                                                                                                                    |
-| [!UICONTROL Email]                   | The email address of the company administrator can be the same as the company email address. If a different email address is entered, a separate individual account is created for the company administrator, in addition to the company account. |
-| [!UICONTROL Prefix]                  | If applicable, the prefix that is associated with the name of the company administrator (such as `Mr.`, `Ms.`, `Mrs.`, or `Dr.`). Depending on the configuration, the input field might be a text field or list.                                  |
+| [!UICONTROL Email]                   | The email address of the company administrator can be the same as the company email address. If you enter a different email address, the system creates a separate individual account for the company administrator, in addition to the company account. |
+| [!UICONTROL Prefix]                  | If applicable, the prefix associated with the company administrator's name (such as `Mr.`, `Ms.`, `Mrs.`, or `Dr.`). Depending on the configuration, the input field might be a text field or list.                                  |
 | [!UICONTROL First Name]              | The first name of the company administrator.                                                                                                                                                                                                      |
 | [!UICONTROL Middle Name/Initial]     | The middle name or initial of the company administrator.                                                                                                                                                                                          |
 | [!UICONTROL Last Name]               | The last name of the company administrator.                                                                                                                                                                                                       |
-| [!UICONTROL Suffix]                  | If applicable, the suffix that is associated with the name of the company administrator (such as `Jr.`, `Sr.`, or `III.`). Depending on the configuration, the input field might be a text field or list.                                         |
+| [!UICONTROL Suffix]                  | If applicable, the suffix associated with the company administrator's name (such as `Jr.`, `Sr.`, or `III.`). Depending on the configuration, the input field might be a text field or list.                                         |
 | [!UICONTROL Gender]                  | The gender of the company administrator. Options: `Male` / `Female` / `Not Specified`                                                                                                                                                             |
-| [!UICONTROL Send Welcome Email From] | The store view from which the Welcome email is to be sent.                                                                                                                                                                                        |
+| [!UICONTROL Send Welcome Email From] | The store view from which the system sends the Welcome email.                                                                                                                                                                                        |
 
 {style="table-layout:auto"}
 
@@ -277,8 +277,8 @@ The process of creating a company from the Admin is essentially the same as from
 
 | Field                                     | Description                                                                                                                                                                             |
 |-------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Credit Currency]              | (Admin Only) The currency that is accepted by the store for purchases on company credit.                                                                                                |
-| [!UICONTROL Credit Limit]                 | (Admin Only) The credit limit that is extended to the company account.                                                                                                                  |
+| [!UICONTROL Credit Currency]              | (Admin Only) The currency the store accepts for purchases on company credit.                                                                                                |
+| [!UICONTROL Credit Limit]                 | (Admin Only) The credit limit extended to the company account.                                                                                                                  |
 | [!UICONTROL Allow to Exceed Credit Limit] | (Admin Only) Indicates if the company has permission to exceed the credit limit. Options: `Yes` / `No`                                                                                  |
 | [!UICONTROL Reason for Change]            | (Admin Only) A note that explains why the company is allowed, or disallowed to exceed the credit limit. This field is active only if the permission to exceed the credit limit changes. |
 
@@ -290,12 +290,12 @@ You can configure advanced settings for individual companies. If you create a co
 
 | Field                                    | Description                                                                                                                                                                                                              |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Customer Group]              | (Admin Only) Indicates the [customer group](../customers/customer-groups.md) or [shared catalog](catalog-shared.md) that is assigned to the company.                                                                     |
+| [!UICONTROL Customer Group]              | (Admin Only) Shows the [customer group](../customers/customer-groups.md) or [shared catalog](catalog-shared.md) assigned to the company.                                                                     |
 | [!UICONTROL Allow Quotes]                | (Admin Only) Determines if company members can prepare and submit negotiable quotes on behalf of the company.                                                                                                            |
 | [!UICONTROL Enable Purchase Orders]      | (Admin Only) Determines if company members can submit orders as [purchase orders](account-dashboard-my-purchase-orders.md) on behalf of the company.                                                                     |
 | Applicable Payment Methods               | (Admin Only) Indicates the payment methods that are available for company purchases. Options: `B2B Payment Methods` / `All Enabled Payment Methods` / `Selected Payment Methods`                                         |
-| [!UICONTROL Payment Methods]             | (Admin Only) Becomes active if specific payment methods are activated. To make multiple payment methods available for the company account, hold down the Ctrl key (PC) or the Command key (Mac) and select each option.  |
+| [!UICONTROL Payment Methods]             | (Admin Only) Becomes active if you activate specific payment methods. To make multiple payment methods available for the company account, hold down the Ctrl key (PC) or the Command key (Mac) and select each option.  |
 | [!UICONTROL Applicable Shipping Methods] | (Admin Only) Indicates the shipping methods that are available for company purchases. Options: `B2B Shipping Methods` / `All Enabled Shipping Methods` / `Selected Shipping Methods`                                     |
-| [!UICONTROL Shipping Methods]            | (Admin Only) Becomes active if specific shipping methods are activated. To make multiple payment methods available for the company account, hold down the Ctrl key (PC) or the Command key (Mac) and select each option. |
+| [!UICONTROL Shipping Methods]            | (Admin Only) Becomes active if you activate specific shipping methods. To make multiple shipping methods available for the company account, hold down the Ctrl key (PC) or the Command key (Mac) and select each option. |
 
 {style="table-layout:auto"}
