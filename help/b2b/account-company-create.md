@@ -9,7 +9,7 @@ role: Admin, User
 
 Customers can create company accounts from the storefront, or administrators can set them up from the Admin. Store administrators must approve all company account requests before accounts become active.
 
-The system assigns the [company administrator](account-company-admin.md) role to the person who sets up a company account from the storefront. After the store administrator approves the request to create a company account, the company administrator can set an account password and log in to the account.
+The system assigns the [company administrator](account-company-admin.md) role to the person who sets up a company account from the storefront. After the store administrator approves the company account creation request in the Admin, the company administrator can set an account password and log in to the account.
 
 ## Method 1: Customer creates the account from the storefront
 
