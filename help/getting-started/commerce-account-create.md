@@ -13,7 +13,7 @@ You can access your [!DNL Commerce] account from the [!DNL Commerce] website. Fr
 
 Your [!DNL Commerce] account login is separate from your store Admin login. You will normally use different credentials for each, and access to each system is managed independently.
 
-However, a user who wants to streamline their login to Adobe Commerce and Adobe Business products will be able to configure their Adobe ID to login to the store Admin: [Configure the Commerce Admin Integration with Adobe ID](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config) in the *IMS Integration Guide for Commerce*.
+However, a user who wants to streamline their login to Adobe Commerce and Adobe Business products can configure their Adobe ID to log in to the store Admin: [Configure the Commerce Admin Integration with Adobe ID](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config) in the *IMS Integration Guide for Commerce*.
 
 >[!NOTE]
 >
