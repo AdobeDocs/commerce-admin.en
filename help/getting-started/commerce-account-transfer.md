@@ -22,7 +22,7 @@ The type of Commerce account transfer depends on the Commerce account credential
 | ------------- | ------------- | --------- |
 | [New Adobe ID and email change](#new-adobe-id-and-email-change) | Has a MAGEID that is **_not connected_** with an Adobe login account. | Does not have a MAGEID and is not connected to an Adobe login account. | 
 | [Email change](#email-change) | Has a MAGEID that is **_connected_** with an Adobe login account. | Does not have a MAGEID and is not connected to an Adobe login account. |
-| [Adobe ID switch](#adobe-id-account-switch) | Has a MAGEID that is **_connected_** with an Adobe login account. | Has a MAGEID and is connected to an Adobe login account with no other Adobe products/services associated. |
+| [Adobe ID switch](#adobe-id-account-switch) | Has a MAGEID that is **_connected_** with an Adobe login account. | Has a MAGEID and is connected to an Adobe login account. |
 
 {style="table-layout:auto"}
 
