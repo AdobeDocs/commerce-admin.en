@@ -7,11 +7,46 @@ role: Admin, User
 ---
 # Create a company account
 
-Customers can create company accounts from the storefront, or administrators can set them up from the Admin. Store administrators must approve all company account requests before accounts become active.
+Company accounts enable B2B businesses to manage their purchasing, users, and credit within Adobe Commerce. This topic covers the complete process of creating, configuring, and activating company accounts.
+
+## Company Account Creation Overview
+
+Company accounts can be created through two methods, each suited for different business scenarios:
+
+* **Storefront Registration**—Self-service account requests by businesses
+* **Admin Creation**—Sales-assisted account setup with pre-configured details
+
+All company accounts require administrator approval before becoming active, ensuring proper vetting and configuration.
+
+## Prerequisites
+
+Before creating company accounts, ensure the following requirements are met:
+
+* **System Requirements:**
+  * [B2B features are enabled](enable-basic-features.md) in your Adobe Commerce installation
+  * Company registration is enabled for storefront creation
+  * Email notifications are configured for approval workflows
+
+* **Business Requirements:**
+  * Approval processes and policies are established
+  * Sales representatives are assigned (for Admin-created accounts)
+  * Credit policies are defined (if using company credit)
+  * Customer groups and shared catalogs are configured
+
+* **Administrative Access:**
+  * Appropriate permissions for company management
+  * Access to customer and company administration sections
 
 The system assigns the [company administrator](account-company-admin.md) role to the person who sets up a company account from the storefront. After the store administrator approves the company account creation request in the Admin, the company administrator can set an account password and log in to the account.
 
 ## Method 1: Customer creates the account from the storefront
+
+**When to Use This Method:**
+
+* Self-service business registration is preferred
+* Customers have all necessary business information readily available
+* Standard approval workflow is sufficient
+* No special configuration or pre-population is required
 
 >[!IMPORTANT]
 >
@@ -79,6 +114,13 @@ The system assigns the [company administrator](account-company-admin.md) role to
 
 ## Method 2: Merchant creates the account from the Admin
 
+**When to Use This Method:**
+
+* Sales-assisted account creation is preferred
+* Pre-populating account details from existing business relationships
+* Custom configuration is required (credit limits, special pricing)
+* Immediate activation without approval workflow is needed
+
 The process of creating a company from the Admin is essentially the same as from the storefront, but with additional fields.
 
 ![Add a new company from the Admin](./assets/company-add-new.png){width="700" zoomable="yes"}
@@ -115,7 +157,8 @@ The process of creating a company from the Admin is essentially the same as from
 1. In the _[!UICONTROL Legal Address]_ section, complete these required fields:
 
    - **[!UICONTROL Street Address]**
-   - **[!UICONTROL City Country]**
+   - **[!UICONTROL City]**
+   - **[!UICONTROL Country]**
    - **[!UICONTROL ZIP/Postal Code]**
    - **[!UICONTROL Phone Number]**
 
@@ -192,7 +235,88 @@ The process of creating a company from the Admin is essentially the same as from
 
    When the password is set, the company administrator can [sign in](../customers/customer-sign-in.md) to the account.
 
-## Button bar
+## After Account Creation
+
+Once a company account is created, the following process occurs:
+
+### 1. Approval Workflow
+
+* **Pending Status**—New accounts await administrator review
+* **Review Process**—Store administrators verify business information and approve/reject requests
+* **Status Updates**—Companies receive email notifications about approval status changes
+
+### 2. Account Activation
+
+* **Welcome Email**—Approved company administrators receive setup instructions
+* **Password Setup**—Administrators create secure passwords for account access
+* **Initial Login**—First-time access to the company dashboard and features
+
+### 3. Next Steps for Company Administrators
+
+After activation, company administrators should:
+
+* **[Configure Company Structure](account-company-structure.md)**—Set up departments and user hierarchy
+* **[Manage Company Users](account-company-users.md)**—Add employees and assign roles
+* **[Set Up Purchase Orders](purchase-order-flow.md)**—Configure approval workflows if needed
+* **[Review Credit Settings](credit-company.md)**—Understand and manage company credit (if enabled)
+
+## Common issues and troubleshooting
+
+### Account creation problems
+
+**Registration form fails to submit**
+
+* Verify all required fields are completed correctly
+* Check that email addresses are valid and unique
+* Ensure B2B features are enabled and company registration is allowed
+* Clear browser cache and try again
+
+**Company Name Already Exists**
+
+* Choose a unique company name
+* Contact administrator if you believe this is an error
+* Consider adding location or business unit identifier
+
+**Email Address Issues**
+
+* Use business email addresses rather than personal ones
+* Ensure the company administrator email is accessible
+* Check that the domain isn't blocked by email filters
+
+### Approval and activation issues
+
+**Approval Email Not Received**
+
+* Check spam/junk email folders
+* Verify the email address was entered correctly during registration
+* Contact the store administrator for manual approval status check
+* Allow 24-48 hours for processing during business days
+
+**Cannot Set Password After Approval**
+
+* Use the exact link provided in the approval email
+* Check if the activation link has expired
+* Request a new activation email from the administrator
+
+**Access Issues After Activation**
+
+* Verify that you're logging in through the correct company account portal
+* Check that your account status is "Active"
+* Ensure you're using the company administrator credentials
+* Contact support if permissions seem incorrect
+
+## Security best practices
+
+When creating and managing company accounts:
+
+* **Use Strong Passwords**—Require complex passwords for company administrators
+* **Verify Business Information**—Validate company details during the approval process
+* **Monitor Account Activity**—Regularly review company user access and permissions
+* **Protect Sensitive Data**—Ensure credit and financial information is properly secured
+
+## Company account user interface reference
+
+### Button bar
 
 | Button                    | Description                                                      |
 |---------------------------|------------------------------------------------------------------|
@@ -203,7 +327,7 @@ The process of creating a company from the Admin is essentially the same as from
 
 {style="table-layout:auto"}
 
-## Field descriptions
+### Field descriptions
 
 | Field                             | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -214,7 +338,7 @@ The process of creating a company from the Admin is essentially the same as from
 
 {style="table-layout:auto"}
 
-### [!UICONTROL Account Information]
+#### [!UICONTROL Account Information]
 
 | Field                           | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |---------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -225,7 +349,7 @@ The process of creating a company from the Admin is essentially the same as from
 
 {style="table-layout:auto"}
 
-### [!UICONTROL Company Hierarchy]
+#### [!UICONTROL Company Hierarchy]
 
 | Field                             | Description                                                                                                                                          |
 |-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -242,7 +366,7 @@ The process of creating a company from the Admin is essentially the same as from
 
 {style="table-layout:auto"}
 
-### [!UICONTROL Legal Address]
+#### [!UICONTROL Legal Address]
 
 | Field                        | Description                                                                 |
 |------------------------------|-----------------------------------------------------------------------------|
@@ -255,7 +379,7 @@ The process of creating a company from the Admin is essentially the same as from
 
 {style="table-layout:auto"}
 
-### [!UICONTROL Company Admin]
+#### [!UICONTROL Company Admin]
 
 | Field                                | Description                                                                                                                                                                                                                                       |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -273,7 +397,7 @@ The process of creating a company from the Admin is essentially the same as from
 
 {style="table-layout:auto"}
 
-### [!UICONTROL Company Credit]
+#### [!UICONTROL Company Credit]
 
 | Field                                     | Description                                                                                                                                                                             |
 |-------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -284,7 +408,7 @@ The process of creating a company from the Admin is essentially the same as from
 
 {style="table-layout:auto"}
 
-### [!UICONTROL Advanced Settings]
+#### [!UICONTROL Advanced Settings]
 
 You can configure advanced settings for individual companies. If you create a company hierarchy, you can streamline the settings configuration by configuring the settings for the parent company and applying those settings to all or selected child companies instead of configuring each child company individually. For more information, see [Manage the Company Hierarchy](manage-company-hierarchy.md).
 
@@ -299,3 +423,15 @@ You can configure advanced settings for individual companies. If you create a co
 | [!UICONTROL Shipping Methods]            | (Admin Only) Becomes active if you activate specific shipping methods. To make multiple shipping methods available for the company account, hold down the Ctrl key (PC) or the Command key (Mac) and select each option. |
 
 {style="table-layout:auto"}
+
+>[!MORELIKETHIS]
+>
+>* [Enable B2B Features](enable-basic-features.md)—Configure foundational B2B functionality
+>* [Company Account Structure](account-company-structure.md)—Organize users and departments from the storefront
+>* [Manage Company Users](account-company-users.md)—Add and configure employee accounts from the storefront
+>* [Company Administrator Role](account-company-admin.md)—Understand administrator responsibilities
+>* [Manage Companies](manage-companies.md)—Administrative overview of company management
+>* [Company Credit Management](credit-company.md)—Set up and manage company credit from the Admin
+>* [Purchase Order Workflow](purchase-order-flow.md)—Configure approval processes from the Admin
+>* [Company Roles and Permissions](account-company-roles-permissions.md)—Control user access levels from the Admin
+>* [B2B Configuration Reference](../configuration-reference/general/b2b-features.md)—Detailed system settings

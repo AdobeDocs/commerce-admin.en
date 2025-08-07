@@ -13,11 +13,11 @@ Company credit allows B2B businesses to make purchases against a pre-approved cr
 
 Company credit enables you to:
 
-* **Extend credit terms**: Allow trusted business customers to purchase on account with deferred payment
-* **Set credit limits**: Control financial exposure by establishing credit limits for each company
-* **Track credit activity**: Monitor all credit transactions, payments, and outstanding balances in real-time
-* **Streamline B2B transactions**: Simplify the purchasing process for companies with established credit relationships
-* **Support complex workflows**: Integrate with purchase orders, quotes, and approval processes
+* **Extend credit terms**—Allow trusted business customers to purchase on account with deferred payment
+* **Set credit limits**—Control financial exposure by establishing credit limits for each company
+* **Track credit activity**—Monitor all credit transactions, payments, and outstanding balances in real-time
+* **Streamline B2B transactions**—Simplify the purchasing process for companies with established credit relationships
+* **Support complex workflows**—Integrate with purchase orders, quotes, and approval processes
 
 ## Prerequisites
 
@@ -33,22 +33,22 @@ Before setting up company credit, ensure that:
 
 Company credit is ideal for:
 
-* **Established B2B relationships**: Long-term business customers with proven payment history
-* **Large enterprise customers**: Companies making significant, regular purchases requiring extended payment terms
-* **Seasonal businesses**: Companies with cyclical cash flow that need flexible payment timing
-* **Corporate procurement**: Organizations with centralized purchasing but distributed payment processing
-* **Supply chain partners**: Distributors, resellers, and channel partners requiring credit facilities
+* **Established B2B relationships**—Long-term business customers with proven payment history
+* **Large enterprise customers**—Companies making significant, regular purchases requiring extended payment terms
+* **Seasonal businesses**—Companies with cyclical cash flow that need flexible payment timing
+* **Corporate procurement**—Organizations with centralized purchasing but distributed payment processing
+* **Supply chain partners**—Distributors, resellers, and channel partners requiring credit facilities
 
 ## Understanding Company Credit settings
 
-You can configure the following credit-related parameters for each company profile
+You can configure the following credit-related parameters for each company profile:
 
-* **Credit Currency**: Currency for all credit transactions and balances
-* **Credit Limit**:  Maximum amount the company can owe at any time
-* **Allow to Exceed Credit Limit**:  Whether companies can place orders exceeding available credit
-* **Reason for Change**: Documentation field for recording credit setting modifications
+* **Credit Currency**—Currency for all credit transactions and balances
+* **Credit Limit**— Maximum amount the company can owe at any time
+* **Allow to Exceed Credit Limit**— Whether companies can place orders exceeding available credit
+* **Reason for Change**—Documentation field for recording credit setting modifications
 
-For details about configuring the company profile, see [Create a Company Account](account-company-create.md).
+For details about these settings and configuring the company profile, see [Create a Company Account](account-company-create.md).
 
 >[!NOTE]
 >
@@ -149,13 +149,23 @@ Learn about managing company credit by watching this demo video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/344445?quality=12&learn=on)
 
+## Security Considerations
+
+When managing company credit, implement robust security measures to protect sensitive financial data:
+
+* **Access Control**—Restrict credit management permissions to authorized personnel only
+* **Audit Trails**—Maintain comprehensive logs of all credit transactions and modifications
+* **Data Protection**—Encrypt sensitive financial information both in transit and at rest
+* **Approval Workflows**—Implement multi-level approval processes for significant credit adjustments
+* **Regular Reviews**—Conduct periodic audits of user access and credit relationships
+
 ## Best Practices
 
-When managing company credit, establish clear policies for setting credit limits based on customer payment history and business relationships. Regularly review outstanding balances and payment patterns to assess risk, and always document changes to credit settings with detailed reasons for audit purposes.
+* * **Credit Policy Management**—When managing company credit, establish clear policies for setting credit limits based on customer payment history and business relationships. Regularly review outstanding balances and payment patterns to assess risk, and always document changes to credit settings with detailed reasons for audit purposes.
 
 Process payments promptly to maintain accurate balances, and ensure credit currency settings align with each company's primary business operations.
 
-Restrict credit management permissions to authorized personnel only, implement approval workflows for significant credit adjustments, and protect sensitive financial information according to your organization's security policies. Regular reviews of user access and credit relationships help maintain proper oversight and compliance.
+* **Compliance and security**—Restrict credit management permissions to authorized personnel only, implement approval workflows for significant credit adjustments, and protect sensitive financial information according to your organization's security policies. Regular reviews of user access and credit relationships help maintain proper oversight and compliance.
 
 >[!MORELIKETHIS]
 >

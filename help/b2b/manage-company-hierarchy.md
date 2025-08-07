@@ -13,10 +13,10 @@ The [!UICONTROL Company Hierarchy] feature allows you to organize multiple relat
 
 ## Use cases
 
-* **Centralize Management**: Apply settings and configurations across multiple companies from a single parent company
-* **Maintain Structure**: Organize companies in a logical hierarchy that reflects your business organization
-* **Streamline Operations**: Manage quotes, purchase orders, payment methods, and shipping settings for the entire organization
-* **Preserve Autonomy**: Individual companies retain their identity while benefiting from shared configurations
+* **Centralize Management**—Apply settings and configurations across multiple companies from a single parent company
+* **Maintain Structure**—Organize companies in a logical hierarchy that reflects your business organization
+* **Streamline Operations**— Manage quotes, purchase orders, payment methods, and shipping settings for the entire organization
+* **Preserve Autonomy**—Individual companies retain their identity while benefiting from shared configurations
 
 ## Prerequisites
 
@@ -87,20 +87,20 @@ Update the [Advanced Settings](account-company-create.md#advanced-settings) conf
 * Apply the parent configuration settings to all child companies
 * Apply the same settings to selected companies in the organization
 
-The following settings can be applied to the selected child companies:
+You can select settings to apply from the list of available settings—
 
-* **Quote Management**: Enable or disable the ability for companies to request and manage quotes
-* **Purchase Orders**: Control whether companies can create and manage purchase orders
-* **Payment Method Configuration**: Define which payment methods are available to companies
-* **Payment Method Settings**: Configure specific payment method parameters and limits
-* **Shipping Method Availability**: Set which shipping methods companies can use
-* **Shipping Method Configuration**: Define shipping method settings and restrictions
+* **Quote Management**—Enable or disable the ability for companies to request and manage quotes
+* **Purchase Orders**—Control whether companies can create and manage purchase orders
+* **Payment Method Configuration**—Define which payment methods are available to companies
+* **Payment Method Settings**—Configure specific payment method parameters and limits
+* **Shipping Method Availability**—Set which shipping methods companies can use
+* **Shipping Method Configuration**—Define shipping method settings and restrictions
 
-During the update process the initial configuration values default to the current values configured for the parent company. You must select the change checkbox for at least one setting to apply settings to the selected companies.
+During the update process the initial configuration values default to the current values configured for the parent company. You must select the change checkbox for at least one setting to apply settings to the selected companies. You can also update the default value for each setting before applying the changes.
 
 >[!WARNING]
 >
->Applying parent company settings replaces existing child company configurations, including credit limits, payment methods, shipping settings, and custom restrictions.
+>Applying parent company settings replaces existing child company configurations, including credit limits, payment methods, shipping settings, and custom restrictions. After applying the settings, you can still manage and customize the advanced settings for individual parent and child companies by editing the company line item.
 
 ### Best practices
 
@@ -110,14 +110,7 @@ When applying parent company settings to child companies, consider the following
 * Test settings changes on a single child company first
 * Communicate changes to company administrators who may be affected
 
-Applying parent company settings replaces existing child company configurations, including credit limits, payment methods, shipping settings, and custom restrictions.
-
-
-* Review existing child company settings before applying parent configurations
-* Test settings changes on a single child company first
-* Communicate changes to company administrators who may be affected
-
-### Change the Advanced Settings configuration for multiple companies**
+### Apply parent configuration settings to child companies
 
 1. On the _Admin_ sidebar, navigate to **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
@@ -147,14 +140,10 @@ Applying parent company settings replaces existing child company configurations,
 
 1. When prompted, select **[!UICONTROL Change settings]** to update the configuration for the selected companies.
 
->[!TIP]
->
->This operation updates the settings for all selected companies to streamline the company configuration process. You can still manage and customize the advanced settings for individual parent and child companies by editing the company line item.
-
 >[!MORELIKETHIS]
 >
 >* [Create a Company Account](account-company-create.md) - Learn how to create individual companies before building hierarchies
 >* [Company Roles and Permissions](account-company-roles-permissions.md) - Understand user access within company structures
 >* [Company Credit Management](credit-company.md) - Configure credit limits and payment terms for companies
 >* [Manage Companies](manage-companies.md) - Overview of company management features
->*[B2B Features Configuration](enable-basic-features.md) - Enable and configure B2B functionality
+>* [B2B Features Configuration](enable-basic-features.md) - Enable and configure B2B functionality

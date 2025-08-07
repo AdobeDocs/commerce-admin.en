@@ -13,11 +13,17 @@ Company management in Adobe Commerce provides comprehensive tools for administra
 
 Company management enables you to:
 
-* **Organize Business Relationships**: Create and manage individual company accounts for your B2B customers
-* **Build Organizational Hierarchies**: Structure parent-child relationships that mirror real-world business organizations
-* **Centralize Administration**: Manage multiple companies and their settings from a single administrative interface
-* **Streamline Operations**: Apply consistent configurations and policies across related companies
-* **Support Complex Structures**: Handle subsidiaries, franchises, multi-location businesses, and corporate divisions
+* **Organize Business Relationships**—Create and manage individual company accounts for your B2B customers
+* **Build Organizational Hierarchies**—Structure parent-child relationships that mirror real-world business organizations
+* **Centralize Administration**—Manage multiple companies and their settings from a single administrative interface
+* **Streamline Operations**—Apply consistent configurations and policies across related companies
+* **Support Complex Structures**—Handle subsidiaries, franchises, multi-location businesses, and corporate divisions
+
+Admin users can build a company hierarchy to mirror a B2B organization by assigning companies to a designated parent company. This assignment allows the parent company administrator to view and manage companies within the organization.
+
+Initiate company management tasks from the *[!UICONTROL Companies]* view. From the Admin, go to  **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+
+![B2B Manage Companies Grid](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
 ## Prerequisites
 
@@ -38,93 +44,81 @@ Company management is ideal for:
 * **Large enterprises** with multiple divisions or business units
 * **Distribution networks** with resellers, dealers, or channel partners
 
-Admin users can build a company hierarchy to mirror a B2B organization by assigning companies to the designated parent company. This assignment allows the parent company administrator to view and manage companies within the organization.
+## Understanding Company Hierarchy and Company Types
 
-Initiate company management tasks from the *[!UICONTROL Companies]* view. From the Admin, go to  **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+Company hierarchy structures business relationships by organizing multiple companies under a single parent company. This feature mirrors real-world organizational structures while enabling centralized management and preserving individual company identities.
 
-  ![B2B Manage Companies Grid](./assets/companies-grid-view.png){width="700" zoomable="yes"}
+### Company Types
 
-## Understanding Company Types
+The *[!UICONTROL Company Type]* column in the Companies grid shows how each company fits within your B2B organization:
 
-The *[!UICONTROL Company Type]* column in the Companies grid indicates how each company is structured within your B2B organization. Understanding these types helps you organize and manage your business relationships effectively.
+* **Parent**—Central hub with one or more assigned companies
+  * Controls multiple child companies but cannot be assigned to another parent
+  * **Use case**—Corporate headquarters, main franchise organization, or holding company
 
-* **`Parent`** - A business organization with one or more assigned companies
-  * Acts as the central hub for organizational management
-  * Can have multiple child companies but cannot be assigned to another parent
-  * Inherits administrative control over all assigned child companies
-  * **Use case**: Corporate headquarters, main franchise organization, or holding company
+* **Child**—Company assigned to a parent organization
+  * Operates under parent governance and may inherit configurations
+  * Can only belong to one parent at a time
+  * **Use case**—Subsidiary offices, franchise locations, or regional divisions
 
-* **`Child`** - A company assigned to a parent organization
-  * Operates under the governance and policies of its parent company
-  * Can only belong to one parent company at a time
-  * May inherit settings and configurations from the parent
-  * **Use case**: Subsidiary offices, franchise locations, or regional divisions
+* **Company**—Independent single company
+  * Operates independently without hierarchy relationships
+  * Can convert to parent (by assigning companies) or child (by assignment to parent)
+  * **Use case**—Individual business customers or standalone clients
 
-* **`Company`** - An independent single company
-  * Operates independently without organizational hierarchy
-  * Can be converted to a parent company by assigning other companies
-  * Can be assigned to an existing parent company to become a child
-  * **Use case**: Individual business customers, standalone clients, or companies not part of larger organizations
+### Converting Company Types
 
-### Converting between Company Types
+* **Single Company → Parent**—Assign other companies to it
+* **Single Company → Child**—Assign it to an existing parent company
+* **Child → Single**—Unassign it from its parent company
+* **Parent → Child**—Not possible without first removing all assigned companies
 
-* **Single Company → Parent**: Assign other companies to it
-* **Single Company → Child**: Assign it to an existing parent company
-* **Child → Single**: Unassign it from its parent company
-* **Parent → Child**: Not possible without first removing all assigned companies
+### Managing Company Hierarchies
 
-When you edit a parent or child company, expand *[!UICONTROL Company Hierarchy]* to view all companies in the organization. A `Current` flag indicates the company you are editing.
+When editing companies within a hierarchy, expand *[!UICONTROL Company Hierarchy]* to view all related companies. A `Current` flag indicates the company being edited.
 
-   ![B2B Company Hierarchy grid](./assets/company-detail-hierarchy-current-flag.png){width="700" zoomable="yes"}
+![B2B Company Hierarchy grid](./assets/company-detail-hierarchy-current-flag.png){width="700" zoomable="yes"}
 
-For detailed step-by-step instructions on building and managing company hierarchies, see [Manage the Company Hierarchy](manage-company-hierarchy.md).
+For detailed step-by-step instructions, see [Manage the Company Hierarchy](manage-company-hierarchy.md).
 
-## View and configure the [!UICONTROL Company Hierarchy]
+## Company management tasks
 
-On initial company creation, the *[!UICONTROL Company Hierarchy]* grid is empty. It is also empty if the company is a single company.
+When managing companies from the company grid, administrators can perform the following tasks from the *[!UICONTROL Company Hierarchy]* grid:
 
-![B2B Company Hierarchy Grid](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
+* **View and manage company relationships**
+  * **View Associated Companies**—See all companies linked to a parent organization in one centralized view
+  * **Monitor Company Status**—Track active, pending, and inactive companies within the hierarchy
+  * **Access Company Details**—Navigate directly to individual company configuration pages
 
-## Core Company Management Tasks
+* **Build and modify hierarchies**
+  * **Assign companies**—Add existing companies to a parent organization from the company detail page
+  * **Create parent-child relationships**—Structure companies to reflect real-world business relationships
+  * **Reorganize structures**—Move companies between different parent organizations as business needs change
 
-When managing companies in the hierarchy, administrators can perform the following key tasks using the *[!UICONTROL Company Hierarchy]* grid:
+* **Bulk configuration management**
+  * **Apply settings across companies**—Update advanced settings for multiple companies simultaneously using the [!UICONTROL Actions] control on the Company grid
+  * **Standardize configurations**—Ensure consistent policies across related organizations
+  * **Override individual settings**—Push parent company configurations to selected child companies
 
-### Viewing and Managing Company Relationships
-
-* **View Associated Companies**: See all companies linked to a parent organization in one centralized view
-* **Monitor Company Status**: Track active, pending, and inactive companies within the hierarchy
-* **Access Company Details**: Navigate directly to individual company configuration pages
-
-### Building and Modifying Hierarchies
-
-* **Assign companies**: Add existing companies to a parent organization from the company detail page
-* **Create parent-child relationships**: Structure companies to reflect real-world business relationships
-* **Reorganize structures**: Move companies between different parent organizations as business needs change
-
-### Bulk Configuration Management
-
-* **Apply settings across companies**: Update advanced settings for multiple companies simultaneously
-* **Standardize configurations**: Ensure consistent policies across related organizations
-* **Override individual settings**: Push parent company configurations to selected child companies
-
-### Administrative Actions
-
-* **Remove company relationships**: Use the *[!UICONTROL Unassign from parent]* action to dissolve organizational ties
-* **Manage company access**: Control which administrators can view and modify company relationships
-* **Monitor hierarchy changes**: Track modifications to organizational structures
+* **Administrative actions**
+  * **Remove company relationships**—Use the *[!UICONTROL Unassign from parent]* action to dissolve organizational ties
+  * **Manage company access**—Control which administrators can view and modify company relationships
+  * **Monitor hierarchy changes**—Track modifications to organizational structures
 
 ## Best Practices
 
-When managing complex company structures, plan your hierarchy to match real business relationships while keeping structures simple to avoid user confusion. Document all company relationships and their business connections for future reference.
+When managing companies, consider the following best practices:
 
-Test configuration changes on individual companies before applying them to entire hierarchies, and always document current settings before making bulk changes. Communicate planned changes to affected company administrators in advance.
+* **Building company hierarchies**—When managing complex company structures, plan your hierarchy to match real business relationships while keeping structures simple to avoid user confusion. Document all company relationships and their business connections for future reference.
 
-Limit company management permissions to trusted administrators only, conduct regular reviews of company relationships and access permissions, and monitor all hierarchy changes for audit purposes.
+* **Configuration management**—Test configuration changes on individual companies before applying them to entire hierarchies, and always document current settings before making bulk changes. Communicate planned changes to affected company administrators in advance.
+
+* **Security**—Limit company management permissions to trusted administrators only, conduct regular reviews of company relationships and access permissions, and monitor all hierarchy changes for audit purposes.
 
 >[!MORELIKETHIS]
 >
->* [Create a Company Account](account-company-create.md)
->* [Manage the Company Hierarchy](manage-company-hierarchy.md)
->* [Company Roles and Permissions](account-company-roles-permissions.md)
->* [Company Credit Management](credit-company.md)
->* [Enable B2B Features](enable-basic-features.md)
+>* [Create a company account](account-company-create.md)
+>* [Manage company hierarchies](manage-company-hierarchy.md)
+>* [Company roles and permissions](account-company-roles-permissions.md)
+>* [Company credit management](credit-company.md)
+>* [Enable B2B features](enable-basic-features.md)
