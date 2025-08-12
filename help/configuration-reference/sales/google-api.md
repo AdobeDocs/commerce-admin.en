@@ -20,7 +20,6 @@ feature: Configuration, Marketing Tools
 | [!UICONTROL Account Type] | Store View | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce only) Determines the configuration options according to your Google Analytics account type. Options: Universal Analytics (default) / Google Tag Manager |
 | [!UICONTROL Account Number] | Store View | The account number, or tracking code, that was assigned when you created your [!DNL Google Analytics] account. |
 | [!UICONTROL Anonymize IP] | Store View | Determines if identifying information is removed from IP addresses that appear in [!DNL Google Analytics] results. |
-| [!UICONTROL Enable Content Experiments] | Store View | Activates [Google Content Experiments](https://support.google.com/analytics/answer/9366791?hl=en&ref_topic=1745207), which can be used to test up to ten different versions of the same page. Options: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -80,8 +79,6 @@ When **[!UICONTROL Account Type]** is set to `Google Tag Manager`, there are add
 | [!UICONTROL Account Type] | Store View | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce only) Determines the configuration options according to your Google Analytics account type. Options: `Google Analytics4` (default) / `Google Tag Manager` |
 | [!UICONTROL Measurement ID] | Store View | The account number, or tracking code, that was assigned when you created your Google Analytics account. |
 | [!UICONTROL Anonymize IP] | Store View | Determines if identifying information is removed from IP addresses that appear in Google Analytics results. |
-| [!UICONTROL Enable Content Experiments] | Store View | Activates [Google Content Experiments](https://support.google.com/analytics/answer/9366791?hl=en&ref_topic=1745207), which can be used to test up to ten different versions of the same page. Options: `Yes` / `No` |
-
 {style="table-layout:auto"}
 
 ### [!UICONTROL Google Analytics4 - Google Tag Manager]
