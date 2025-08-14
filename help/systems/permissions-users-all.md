@@ -47,7 +47,7 @@ For users or roles that are temporary, you can also set an expiration date for t
 
       >[!NOTE]
       >
-      >An Admin password must be seven or more characters long and include both letters and numbers. For additional password options, see [Configuring Admin Security](security-admin.md).
+      >An Admin password must be seven or more characters long (by default) and include both letters and numbers. The minimum password length can be configured in the Admin security settings. For additional password options, see [Configuring Admin Security](security-admin.md).
 
    - For **[!UICONTROL Password Confirmation]**, reenter the password to make sure it was entered correctly.
 

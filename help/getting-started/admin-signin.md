@@ -94,7 +94,7 @@ Reuse of the last four passwords assigned to the account is not allowed.
 
    >[!NOTE]
    >
-   >An _Admin_ password must be seven or more characters long and include both letters and numbers. See [Configuring _Admin_ Security](../systems/security-admin.md) for information about password options.
+   >An _Admin_ password must be seven or more characters long (by default) and include both letters and numbers. The minimum password length can be configured in the Admin security settings. See [Configuring _Admin_ Security](../systems/security-admin.md) for information about password options.
 
 ## Sign out of the Admin
 
