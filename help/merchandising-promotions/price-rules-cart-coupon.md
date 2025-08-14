@@ -22,6 +22,17 @@ As of Commerce 2.4.7, shoppers can apply multiple coupons to a cart. Merchants c
 
 ## Configure coupon codes
 
+>[!BEGINSHADEBOX]
+
+By default, Commerce supports two methods for creating coupon codes:
+
+1. Creating a single specific coupon code
+1. Generating multiple _random_ coupon codes
+
+If you already have a list of coupon codes that you want to import and associate with a cart price rule, you should consider using an extension from the [Commerce Marketplace](https://marketplace.magento.com/).
+
+>[!ENDSHADEBOX]
+
 The length and format of automatically generated coupon codes is controlled by the configuration. The characters can be set to all numbers, all letters, or a combination. You can insert a dash at set intervals to make it easy to read, and add a prefix and suffix to associate the code with a specific campaign or initiative.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
@@ -163,10 +174,6 @@ The generation of discount coupons is an asynchronous operation, which executes 
 You can export coupon codes to a CSV or Excel XML file by selecting the file format and clicking **[!UICONTROL Export]**.
 
 To delete coupon codes, select one or more codes from the list. Select `Delete` from the **[!UICONTROL Actions]**  selector, and then click **[!UICONTROL Submit]**.
-
->[!NOTE]
->
->Although Commerce allows configuring multiple coupon codes, a customer can use only one coupon code in the cart. To allow the use of more than one coupon code in the cart simultaneously, you could consider using a corresponding extension from [Commerce Marketplace](https://marketplace.magento.com/).
 
 ## Coupons report
 
