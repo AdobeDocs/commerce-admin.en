@@ -10,8 +10,6 @@ Your store configuration is integrated with the following Google tools to help o
 
 - [Google Analytics](google-analytics.md) - Use _Google Universal Analytics_ to define additional custom dimensions and metrics for tracking, with support for offline and mobile app interactions, and access to ongoing updates.
 
-- [Google Content Experiments](google-content-experiments.md) - Set up an A/B test for products, categories, or content pages using Google Analytics Content Experiments.
-
 - [Google Tag Manager](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Use Google Tag Manager to manage the many tags related to marketing campaign events.
 
 - [Google AdWords](google-adwords.md) - Create a Google AdWords campaign and track conversions for your store.

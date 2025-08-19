@@ -40,9 +40,9 @@ When you configure the UPS settings in the Admin, use the credential values for 
 
    - Set **[!UICONTROL Mode]** to `Live` to send data to the UPS shipping system over a secure connection. (Development mode does not send data over a secure connection.)
 
-   - Verify the **[!UICONTROL Gateway URL]** that is required to send requests. Use a sandbox URL (`https://wwwcie.ups.com/`) for test mode and a production URL for live requests (`https://onlinetools.ups.com`). Make sure to use the respective endpoints for each request with the given host.
+   - Verify the **[!UICONTROL Gateway URL]** that is required to send requests. Use a sandbox URL (`https://wwwcie.ups.com/api/rating/`) for test mode and a production URL for live requests (`https://onlinetools.ups.com/api/rating/`). Make sure to use the respective endpoints for each request with the given host.
 
-   - Verify the **[!UICONTROL Tracking URL]** that is required to get tracking information. Use a sandbox URL (`https://wwwcie.ups.com/`) for test mode and a production URL for live requests (`https://onlinetools.ups.com`). Make sure to use the respective endpoints for each request with the given host.
+   - Verify the **[!UICONTROL Tracking URL]** that is required to get tracking information. Use a sandbox URL (`https://wwwcie.ups.com/api/track/`) for test mode and a production URL for live requests (`https://onlinetools.ups.com/api/track/`). Make sure to use the respective endpoints for each request with the given host.
 
    - Set **[!UICONTROL Origin of the Shipment]** to the region where the shipment originates.
 

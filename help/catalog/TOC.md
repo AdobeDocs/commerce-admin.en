@@ -78,7 +78,6 @@ feature: Catalog Management
     + [Images and Videos](product-images-and-video.md)
     + [Search Engine Optimization](product-search-engine-optimization.md)
     + [Related Products, Up-Sells, and Cross-Sells](related-products-up-sells-cross-sells.md)
-    + [Product View Optimization](product-view-optimization.md)
     + [Customizable Options](settings-advanced-custom-options.md)
     + [Product in Websites](settings-basic-websites.md)
     + [Design](settings-advanced-design.md)
