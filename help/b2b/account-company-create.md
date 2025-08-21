@@ -62,43 +62,43 @@ The system assigns the [company administrator](account-company-admin.md) role to
 
 1. In the _[!UICONTROL Company Information]_ section, the customer does the following:
 
-   - Completes the required fields:
+   * Completes the required fields:
 
-      - **[!UICONTROL Company Name]**
-      - **[!UICONTROL Company Email]**
+      * **[!UICONTROL Company Name]**
+      * **[!UICONTROL Company Email]**
 
-   - Completes the remaining fields, as applicable:
+   * Completes the remaining fields, as applicable:
 
-      - **[!UICONTROL Company Legal Name]**
-      - **[!UICONTROL VAT/TAX ID]**
-      - **[!UICONTROL Reseller ID]**
+      * **[!UICONTROL Company Legal Name]**
+      * **[!UICONTROL VAT/TAX ID]**
+      * **[!UICONTROL Reseller ID]**
 
    ![Company Information](./assets/company-information-storefront.png){width="700" zoomable="yes"}
 
 1. Completes the required fields in the _[!UICONTROL Legal Address]_ section.
 
-   - **[!UICONTROL Street Address]**
-   - **[!UICONTROL City]**
-   - **[!UICONTROL Country]**
-   - **[!UICONTROL State/Province]**
-   - **[!UICONTROL ZIP/Postal Code]**
-   - **[!UICONTROL Phone Number]**
+   * **[!UICONTROL Street Address]**
+   * **[!UICONTROL City]**
+   * **[!UICONTROL Country]**
+   * **[!UICONTROL State/Province]**
+   * **[!UICONTROL ZIP/Postal Code]**
+   * **[!UICONTROL Phone Number]**
 
    ![Legal Address](./assets/company-legal-address-storefront.png){width="700" zoomable="yes"}
 
 1. In the _[!UICONTROL Company Administrator]_ section, does the following:
 
-   - Enters the **[!UICONTROL Email address]** for the company administrator.
+   * Enters the **[!UICONTROL Email address]** for the company administrator.
 
       The email address for the company administrator can be the same as the company email address or a different email address. If you enter a different email address, the system creates a company user account, in addition to the company administrator account.
 
-   - Enters the **[!UICONTROL First Name]** and **[!UICONTROL Last Name]** of the company administrator.
+   * Enters the **[!UICONTROL First Name]** and **[!UICONTROL Last Name]** of the company administrator.
 
-   - Optionally completes the following fields:
+   * Optionally completes the following fields:
 
-      - **[!UICONTROL Job Title]**
-      - **[!UICONTROL Work Phone Number]**
-      - **[!UICONTROL Gender]**
+      * **[!UICONTROL Job Title]**
+      * **[!UICONTROL Work Phone Number]**
+      * **[!UICONTROL Gender]**
 
    ![Company Administrator](./assets/company-administrator-account-storefront.png)
 
@@ -129,24 +129,24 @@ The process of creating a company from the Admin is essentially the same as from
 
 1. Click **[!UICONTROL Add New Company]** and do the following:
 
-   - Complete these required fields:
+   * Complete these required fields:
 
-      - **[!UICONTROL Company Name]**
-      - **[!UICONTROL Company Email]**
+      * **[!UICONTROL Company Name]**
+      * **[!UICONTROL Company Email]**
 
-   - If you are not ready for the account to go live, set **[!UICONTROL Status]** to `Pending Approval`. (Set to `Active` by default.)
+   * If you are not ready for the account to go live, set **[!UICONTROL Status]** to `Pending Approval`. (Set to `Active` by default.)
 
-   - If applicable, choose the Admin account of the **[!UICONTROL Sales Representative]** who is to manage the account.
+   * If applicable, choose the Admin account of the **[!UICONTROL Sales Representative]** who is to manage the account.
 
 1. In the _[!UICONTROL Account Information]_ section, do the following:
 
-   - Complete the following fields as applicable:
+   * Complete the following fields as applicable:
 
-      - **[!UICONTROL Company Legal Name]**
-      - **[!UICONTROL VAT/TAX ID]**
-      - **[!UICONTROL Reseller ID]**
+      * **[!UICONTROL Company Legal Name]**
+      * **[!UICONTROL VAT/TAX ID]**
+      * **[!UICONTROL Reseller ID]**
 
-   - For **[!UICONTROL Comment]**, enter any additional information about the customer that might be needed.
+   * For **[!UICONTROL Comment]**, enter any additional information about the customer that might be needed.
 
       The comments are visible only from the Admin.
 
@@ -156,42 +156,42 @@ The process of creating a company from the Admin is essentially the same as from
 
 1. In the _[!UICONTROL Legal Address]_ section, complete these required fields:
 
-   - **[!UICONTROL Street Address]**
-   - **[!UICONTROL City]**
-   - **[!UICONTROL Country]**
-   - **[!UICONTROL ZIP/Postal Code]**
-   - **[!UICONTROL Phone Number]**
+   * **[!UICONTROL Street Address]**
+   * **[!UICONTROL City]**
+   * **[!UICONTROL Country]**
+   * **[!UICONTROL ZIP/Postal Code]**
+   * **[!UICONTROL Phone Number]**
 
 1. In the _[!UICONTROL Company Admin]_ section, do the following:
 
-   - Complete these required fields:
+   * Complete these required fields:
 
-      - **[!UICONTROL Email]**
-      - **[!UICONTROL First Name]**
-      - **[!UICONTROL Last Name]**
+      * **[!UICONTROL Email]**
+      * **[!UICONTROL First Name]**
+      * **[!UICONTROL Last Name]**
 
-   - Complete the following optional parts of the name, which might be applicable to some customer names more than others and can be used at your discretion:
+   * Complete the following optional parts of the name, which might be applicable to some customer names more than others and can be used at your discretion:
 
-      - **[!UICONTROL Prefix]**
-      - **[!UICONTROL Middle Name/Initial]**
-      - **[!UICONTROL Suffix]**
+      * **[!UICONTROL Prefix]**
+      * **[!UICONTROL Middle Name/Initial]**
+      * **[!UICONTROL Suffix]**
 
-   - If the information is available, complete the remaining fields to describe the company administrator:
+   * If the information is available, complete the remaining fields to describe the company administrator:
 
-      - **[!UICONTROL Website]**
-      - **[!UICONTROL Job Title]**
-      - **[!UICONTROL Work Phone Number]**
-      - **[!UICONTROL Gender]**
-      - **[!UICONTROL Send Welcome Email From]**
+      * **[!UICONTROL Website]**
+      * **[!UICONTROL Job Title]**
+      * **[!UICONTROL Work Phone Number]**
+      * **[!UICONTROL Gender]**
+      * **[!UICONTROL Send Welcome Email From]**
 
     ![Company Admin](./assets/company-create-company-admin.png){width="700" zoomable="yes"}
 
 1. In the _[!UICONTROL Company Credit]_ section, which displays a summary of the customer's credit activity, complete as many of the fields in the lower part of the section as applicable:
 
-   - **[!UICONTROL Credit Currency]**
-   - **[!UICONTROL Credit Limit]**
-   - **[!UICONTROL Allow to Exceed Credit Limit]**
-   - **[!UICONTROL Reason for Change]**
+   * **[!UICONTROL Credit Currency]**
+   * **[!UICONTROL Credit Limit]**
+   * **[!UICONTROL Allow to Exceed Credit Limit]**
+   * **[!UICONTROL Reason for Change]**
 
    ![Company Credit](./assets/company-create-credit-admin.png){width="700" zoomable="yes"}
 
@@ -201,15 +201,15 @@ The process of creating a company from the Admin is essentially the same as from
    >
    >The customer group assignment determines which shared catalog is available to the company and its employees. By default, the system assigns the company to the customer group configured as the default.
 
-   - You can change the **[!UICONTROL Customer Group]** assignment for the company and its employees to a group that has access to a different shared catalog or to a standard customer group. The system prompts you to confirm before changing the group.
+   * You can change the **[!UICONTROL Customer Group]** assignment for the company and its employees to a group that has access to a different shared catalog or to a standard customer group. The system prompts you to confirm before changing the group.
 
       ![Changing the customer group](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
 
-   - If you want to allow company employees to generate quotes from their account, set **[!UICONTROL Allow Quotes]** to `Yes`.
+   * If you want to allow company employees to generate quotes from their account, set **[!UICONTROL Allow Quotes]** to `Yes`.
 
-   - If you want to allow company employees to create and use purchase orders from their account, set **[!UICONTROL Enable Purchase Orders]** to `Yes`.
+   * If you want to allow company employees to create and use purchase orders from their account, set **[!UICONTROL Enable Purchase Orders]** to `Yes`.
 
-   - To change the **[!UICONTROL Applicable Payment Methods]** that are available to the company, clear the **[!UICONTROL Use config settings]** checkbox and choose one of the following:
+   * To change the **[!UICONTROL Applicable Payment Methods]** that are available to the company, clear the **[!UICONTROL Use config settings]** checkbox and choose one of the following:
 
       | Option                        | Description                                                                                                                                                                                                                             |
       |-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -219,7 +219,7 @@ The process of creating a company from the Admin is essentially the same as from
 
       {style="table-layout:auto"}
 
-   - To change the **[!UICONTROL Applicable Shipping Methods]** that are available to the company, clear the **[!UICONTROL Use config settings]** checkbox and choose one of the following:
+   * To change the **[!UICONTROL Applicable Shipping Methods]** that are available to the company, clear the **[!UICONTROL Use config settings]** checkbox and choose one of the following:
 
       | Option                         | Description                                                                                                                                                                                                                                        |
       |--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
