@@ -24,6 +24,10 @@ feature: Configuration, Page Content
 
 {style="table-layout:auto"}
 
+>[!NOTE]
+>
+>TinyMCE has been replaced with Hugerte as the default WYSIWYG editor in Magento 2.4.6 and later versions.
+
 ### [!UICONTROL HugeRTE]
 
 ![WYSIWYG Options](./assets/content-management-wysiwyg-options-hugerte.png)<!-- zoom -->
