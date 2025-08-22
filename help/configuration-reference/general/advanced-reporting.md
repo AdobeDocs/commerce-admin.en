@@ -3,6 +3,7 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Advanced Reporting]'
 description: Review the configurations settings on the [!UICONTROL General] &gt; [!UICONTROL Advanced Reporting] page of the Commerce Admin.
 exl-id: 3f6311c8-3849-4608-8f2c-64359bd3edbc
 feature: Configuration, Commerce Intelligence
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # [!UICONTROL General] > [!UICONTROL Advanced Reporting]
 
