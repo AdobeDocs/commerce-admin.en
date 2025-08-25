@@ -27,7 +27,7 @@ Before creating a company hierarchy, ensure that:
 * Parent and child companies are already created as individual companies
 * You understand that applying parent settings will override existing child company configurations
 
-## How It Works
+## How it works
 
 Administrators can build a company hierarchy by assigning related companies to a designated parent company, which is the company at the top of the organizational hierarchy.
 
@@ -87,7 +87,7 @@ Update the [Advanced Settings](account-company-create.md#advanced-settings) conf
 * Apply the parent configuration settings to all child companies
 * Apply the same settings to selected companies in the organization
 
-You can select settings to apply from the list of available settings—
+You can apply any of the following settings:
 
 * **Quote Management**—Enable or disable the ability for companies to request and manage quotes
 * **Purchase Orders**—Control whether companies can create and manage purchase orders
@@ -142,8 +142,8 @@ When applying parent company settings to child companies, consider the following
 
 >[!MORELIKETHIS]
 >
->* [Create a Company Account](account-company-create.md) - Learn how to create individual companies before building hierarchies
->* [Company Roles and Permissions](account-company-roles-permissions.md) - Understand user access within company structures
->* [Company Credit Management](credit-company.md) - Configure credit limits and payment terms for companies
->* [Manage Companies](manage-companies.md) - Overview of company management features
->* [B2B Features Configuration](enable-basic-features.md) - Enable and configure B2B functionality
+>* [Create a company account](account-company-create.md) - Learn how to create individual companies before building hierarchies
+>* [Company roles and permissions](account-company-roles-permissions.md) - Understand user access within company structures
+>* [Company credit management](credit-company.md) - Configure credit limits and payment terms for companies
+>* [Manage companies](manage-companies.md) - Overview of company management features
+>* [Enable B2B features](enable-basic-features.md) - Enable and configure B2B functionality

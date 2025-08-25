@@ -17,7 +17,7 @@ Company management enables you to:
 * **Build Organizational Hierarchies**—Structure parent-child relationships that mirror real-world business organizations
 * **Centralize Administration**—Manage multiple companies and their settings from a single administrative interface
 * **Streamline Operations**—Apply consistent configurations and policies across related companies
-* **Support Complex Structures**—Handle subsidiaries, franchises, multi-location businesses, and corporate divisions
+* **Support Complex Structures**—Manage subsidiaries, franchises, multi-location businesses, and corporate divisions
 
 Admin users can build a company hierarchy to mirror a B2B organization by assigning companies to a designated parent company. This assignment allows the parent company administrator to view and manage companies within the organization.
 
@@ -70,7 +70,7 @@ The *[!UICONTROL Company Type]* column in the Companies grid shows how each comp
 
 * **Single Company → Parent**—Assign other companies to it
 * **Single Company → Child**—Assign it to an existing parent company
-* **Child → Single**—Unassign it from its parent company
+* **Child → Single**—Unassign the child company from its parent
 * **Parent → Child**—Not possible without first removing all assigned companies
 
 ### Managing Company Hierarchies
@@ -105,7 +105,7 @@ When managing companies from the company grid, administrators can perform the fo
   * **Manage company access**—Control which administrators can view and modify company relationships
   * **Monitor hierarchy changes**—Track modifications to organizational structures
 
-## Best Practices
+## Best practices
 
 When managing companies, consider the following best practices:
 

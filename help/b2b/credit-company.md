@@ -139,7 +139,7 @@ A reimbursed balance is an offline payment that is made by a company toward the 
 
 ## Storefront credit information
 
-Company administrators can view their credit information on the account dashboard, including outstanding balance, available credit, credit limit, and outstanding invoices. When orders are canceled, amounts return to the company balance and appear in the Credit Allocation History.
+Company administrators can view their credit information on the account dashboard, including outstanding balance, available credit, credit limit, and outstanding invoices. When orders are canceled, amounts return to the company balance and appear in the Credit Allocation History field.
 
 ![Company Credit](./assets/company-credit.png){width="700" zoomable="yes"}
 
@@ -149,7 +149,7 @@ Learn about managing company credit by watching this demo video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/344445?quality=12&learn=on)
 
-## Security Considerations
+## Security considerations
 
 When managing company credit, implement robust security measures to protect sensitive financial data:
 
@@ -159,7 +159,7 @@ When managing company credit, implement robust security measures to protect sens
 * **Approval Workflows**—Implement multi-level approval processes for significant credit adjustments
 * **Regular Reviews**—Conduct periodic audits of user access and credit relationships
 
-## Best Practices
+## Best practices
 
 * * **Credit Policy Management**—When managing company credit, establish clear policies for setting credit limits based on customer payment history and business relationships. Regularly review outstanding balances and payment patterns to assess risk, and always document changes to credit settings with detailed reasons for audit purposes.
 
