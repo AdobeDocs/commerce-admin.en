@@ -29,7 +29,7 @@ Before setting up company credit, ensure that:
 * You have administrative permissions to manage company credit settings
 * Currency settings are configured if operating in multiple currencies
 
-## Use Cases
+## Use cases
 
 Company credit is ideal for:
 
