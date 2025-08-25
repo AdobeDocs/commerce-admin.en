@@ -5,7 +5,7 @@ exl-id: 62ff2a36-053d-4ba0-9969-0f05701afbff
 feature: B2B, Companies, Payments
 role: Admin
 ---
-# Manage Company Credit
+# Manage company credit
 
 Company credit allows B2B businesses to make purchases against a pre-approved credit line rather than requiring immediate payment. When [Payment on Account](../b2b/enable-basic-features.md#configure-payment-on-account) is enabled, companies can purchase up to their credit limit and view their credit status from the account dashboard.
 
