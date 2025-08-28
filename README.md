@@ -2,13 +2,41 @@
 
 We welcome contributions from our community as well as from Adobe employees from outside the documentation teams.
 
+## Pre-commit hooks for image optimization
+
+This repository includes automated pre-commit hooks that optimize images before committing. **All contributors should enable these hooks** to ensure consistent image optimization and reduced repository size.
+
+### Quick setup
+
+After cloning the repository, run:
+
+```bash
+.githooks/setup-hooks.sh
+```
+
+### What the hooks do
+
+- Automatically detect staged image files (PNG, JPG, JPEG, GIF, SVG)
+- Run `image_optim` to compress and optimize images
+- Re-stage optimized images automatically
+- Ensure all committed images are properly optimized
+
+### Benefits
+
+- Reduced repository size
+- Faster page loads for documentation
+- Consistent image quality across all contributors
+- No manual optimization required
+
+For detailed setup instructions, troubleshooting, and configuration, see [`.githooks/README.md`](.githooks/README.md).
+
 ## Adobe Open Source Code of Conduct
 
 This project has adopted the [Adobe Open Source Code of Conduct](code-of-conduct.md) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Contributing](contributing.md) article.
 
 ## About your contributions to Adobe content
 
-See the [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html). 
+See the [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
 How you contribute depends on who you are and the sort of changes you'd like to contribute:
 
@@ -24,7 +52,7 @@ If you are part of the Adobe community and you want to create a new article or s
 
 ### Major changes from Adobe Employees
 
-If you are a technical writer, program manager, or developer from the product team for an Adobe Experience Cloud solution and it is your job to contribute to or author technical articles, you should use the private repository at `https://git.corp.adobe.com/AdobeDocs`. 
+If you are a technical writer, program manager, or developer from the product team for an Adobe Experience Cloud solution and it is your job to contribute to or author technical articles, you should use the private repository at `https://git.corp.adobe.com/AdobeDocs`.
 
 ## Tools and setup
 
