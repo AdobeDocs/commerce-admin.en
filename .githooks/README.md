@@ -49,7 +49,7 @@ chmod +x .githooks/*
 2. Enable pre-commit hooks:
 
    ```bash
-   ./setup-hooks.sh
+   .githooks/setup-hooks.sh
    ```
 
 3. Install Jekyll dependencies:
