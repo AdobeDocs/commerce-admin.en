@@ -246,3 +246,5 @@ If you configured a product carousel, it should look similar to the following ex
 ![Product carousel on the stage](./assets/pb-products-admin-carousel.png){width="600"}
 
 You can now use a [widget](../content-design/widgets.md) to place this block wherever you want it to appear in the store. Or, you can use [Add Content - Block](block.md) to add the block to an existing page, tab, or block.
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

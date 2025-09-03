@@ -29,3 +29,5 @@ When the _Maximum Width_ and _Maximum Height_ values are changed in the configur
 The Media Gallery Image Optimization requires that the `media.gallery.renditions.update` queue consumers are running for regenerating optimized images when configuration is changed. See [Manage message queues](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) in the _Configuration Guide_ for more details.
 
 {{$include /help/_includes/image-optimization-animated-gif-note.md}}
+
+<!-- Last updated from includes: 2024-01-30 15:43:39 -->

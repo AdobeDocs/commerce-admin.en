@@ -151,3 +151,5 @@ For a formatted divider with specific settings, it is more efficient to make a d
    ![Moving the duplicated divider into position](./assets/pb-elements-divider-move-guideline.png){width="500" zoomable="yes"}
 
 [1]: https://en.wikipedia.org/wiki/Web_colors
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->
