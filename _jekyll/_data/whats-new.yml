@@ -1,0 +1,84 @@
+---
+title: What's New
+description: This section contains the changes made in the last 60 days. We exclude all
+  minor updates, such as copy editing, from this list.
+updated: Wed Sep 3 14:16:17 2025
+entries:
+- description: Clarified default methods for [creating coupon codes](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon)
+    and provided guidance for using an extension to import a list of custom coupon
+    codes.
+  versions: ''
+  type: technical
+  date: August 14, 2025
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/631
+  merge_commit: 95e0223bb211b03a9c9ede7b53372c33cad65885
+  contributor: jmatthew
+  membership:
+  labels:
+  - technical
+  - feedback
+- description: Added August 2025 B2B security patch [release notes](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes).
+  versions: ''
+  type: major-update
+  date: August 12, 2025
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/620
+  merge_commit: 0ff127d55e62cc13241d9b6285f36a1bb56d8162
+  contributor: jmatthew
+  membership:
+  labels:
+  - major-update
+- description: Clarified the expected behavior of [price filtering](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#price-navigation)
+    for configurable products in layered navigation.
+  versions: ''
+  type: technical
+  date: July 31, 2025
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/623
+  merge_commit: 3227227b6cf4f159b40fda8a5a165a7097f8a0bd
+  contributor: jmatthew
+  membership:
+  labels:
+  - technical
+- description: Clarified how to [remove all items](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage)
+    from a customer's cart in assisted shopping mode.
+  versions: ''
+  type: major-update
+  date: July 31, 2025
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/624
+  merge_commit: 193248c1fce55c950b22ec8d86613d23be1ead11
+  contributor: jmatthew
+  membership:
+  labels:
+  - major-update
+  - feedback
+- description: Updated the system requirements for the [HIPAA extension](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/hipaa-ready-service/overview#system-requirements).
+  versions: ''
+  type: technical
+  date: July 24, 2025
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/619
+  merge_commit: a8a79656179b9a725aa84ce5481ef82747547745
+  contributor: jmatthew
+  membership:
+  labels:
+  - technical
+- description: Clarified the default mode for the [Customer Grid indexer](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management),
+    which changed in 2.4.8.
+  versions: ''
+  type: technical
+  date: July 11, 2025
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/613
+  merge_commit: 5294e7e31941d13d2cbeae89851bfe3a800acc6e
+  contributor: jmatthew
+  membership:
+  labels:
+  - technical
+- description: Added clarification that [rotating an encryption key](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/encryption-key)
+    will immediately invalidate all customer and admin sessions.
+  versions: ''
+  type: technical
+  date: July 7, 2025
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/609
+  merge_commit: 5ba094edc8989019ad52dad02adae2dd6defeaf3
+  contributor: soumah
+  membership:
+  labels:
+  - technical

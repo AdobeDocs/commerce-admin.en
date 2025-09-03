@@ -109,29 +109,4 @@ Magento Open Source is the code base that Adobe officially contributes to and en
 </tr>
 </table>
 
-## What's new in the Admin User Guides
-
->[!TIP]
->
->You can also review [what's new in the Commerce Services documentation](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html#what%E2%80%99s-new) and [what's new in the Operational guides](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html#what%E2%80%99s-new).
-
-| Description | Type | Date |
-| ----------- | ---- | ---- |
-| **1.4.0 B2B release** - The Adobe Commerce B2B release notes describe changes and additions for the [1.4.0 release](../b2b/release-notes.md#b2b-v140). | Update | 06/13/23 |
-| **1.4.0 B2B release** - The [Initiate quote for a buyer](../b2b/sales-rep-initiates-quote.md) topic is now included in the _Adobe Commerce B2B Guide_. It describes how a seller can create a quote for a specific buyer to start the negotiation process. | New | 06/13/23 |
-| **1.4.0 B2B release** - The [Negotiate a quote](../b2b/quote-price-negotiation.md), [Negotiable Quotes](../b2b/quotes.md), and [Enable B2B features](../b2b/enable-basic-features.md) topics are updated to reflect changes for seller-initiated quotes and default features. | Update | 06/13/23 |
-| **2.2.0 Adobe IMS integration release** - The [Disable the Commerce Admin Integration with Adobe ID](../getting-started/adobe-ims-disable.md) topic is now included in the _Getting Started Guide_. It describes an optional procedure for disabling the Adobe Commerce Admin integration with Adobe IMS. | New | 06/13/23 |
-| **2.2.0 Adobe IMS integration release** - Changes in the [Adobe Identity Management Service (IMS) integration overview](../getting-started/adobe-ims-integration-overview.md) and [Configure the Commerce Admin Integration with Adobe ID](../getting-started/adobe-ims-config.md) topics to reflect updated functionality. | Update | 06/13/23 |
-| **[!DNL Audience Activation]** - New and updated and improved information is included in the [[!DNL Audience Activation]](../customers/audience-activation.md) topic to reflect the [!DNL Experience Platform Connector] configuration UI and how to use headless Commerce instance with cart price rules and dynamic blocks. | Update | 06/13/23 |
-| **UPS API deprecation** - Updated the [United Parcel Service (UPS)](../stores-purchase/ups.md) topic and the [Delivery Methods](../configuration-reference/sales/delivery-methods.md#ups) configuration reference page to reflect temporary deprecation of the UPS APIs for generating new API keys. | Update | 06/08/23 |
-| **2.4.6 release** - Updated the [Products list](../catalog/products-list.md) and [Admin configuration reference](../configuration-reference/advanced/admin.md) topics to include information about product display limitations that can be used to improve performance for large catalogs. | Update | 03/14/23 |
-| **2.4.6 release** - Updated the [Create and delete customer segments](../customers/customer-segment-create.md) and [Customer Configuration reference](../configuration-reference/customers/customer-configuration.md) topics to include information about real-time validation for segments. | Update | 03/14/23 |
-| **2.4.6 release** - Updated the [Braintree](../stores-purchase/braintree.md) and [Braintree configuration reference](../configuration-reference/sales/braintree.md) topics to reflect updated and new payment options supported by the bundled Braintree integration. | Update | 03/14/23 |
-| **2.4.6 release** - Updated the [Currency configuration](../stores-purchase/currency-configuration.md) and [Currency Setup configuration](../configuration-reference/general/currency-setup.md) topics to include the new [!DNL Fixer API] (APILayer) option. | Update | 03/14/23 |
-| **2.4.6 release** - Updated the [Configure email communications](../systems/email-communications.md) and [System configuration reference](../configuration-reference/advanced/system.md#uicontrol-mail-sending-settings) topics to include the new SMTP option for email communications. | Update | 03/14/23 |
-| **2.4.6 release** - Updated the [Inventory Management Release Notes](../inventory-management/release-notes.md) with a descriptive list of fixes included in the latest bundled extension version (v1.2.6). | Update | 03/14/23 |
-| **2.4.6 release** - Updated the [B2B Release Notes](../b2b/release-notes.md) with a descriptive list of fixes included in the latest extension version (v1.3.5). | Update | 03/14/23 |
-| **New topic** - Added the [Audience activation](../getting-started/commerce-account-transfer.md) topic to the _Customer Management Guide_, which provides detailed information about activating Real-Time CDP audiences in Adobe Commerce. | New | 03/13/23 |
-| **New topic** - Added the [Transfer a Commerce account](../getting-started/commerce-account-transfer.md) topic to the _Getting Started Guide_. | New | 02/27/23 |
-
-{style="table-layout:auto"}
+{{$include /help/_includes/templated/whats-new.md}}
