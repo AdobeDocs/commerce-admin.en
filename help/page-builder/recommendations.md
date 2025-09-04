@@ -158,3 +158,5 @@ Use the _Product Recommendations_ content type to add an existing, active [recom
    | [!UICONTROL Padding] | The amount of blank space that is applied to the inside edge of all sides of the unit. Options: `Top` / `Right` / `Bottom` / `Left` |
 
    {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

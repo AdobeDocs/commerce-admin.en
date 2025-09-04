@@ -291,3 +291,5 @@ _**To download a product file from the account dashboard**_
 1. In the lower-right corner of the download window, clicks the _download_ icon.
 
 1. Locates the file in their downloads location and saves the file to the desired location.
+
+<!-- Last updated from includes: 2023-05-19 17:14:58 -->

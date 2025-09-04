@@ -220,3 +220,5 @@ In the following two-column example, the numbers in parentheses (6/12) in the to
       {style="table-layout:auto"}
 
 1. When complete, click **[!UICONTROL Save]** to apply the settings and return to the [!DNL Page Builder] workspace.
+
+<!-- Last updated from includes: 2023-01-19 14:32:13 -->
