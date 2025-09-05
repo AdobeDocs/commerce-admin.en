@@ -121,25 +121,3 @@ This section contains the changes made in the last 60 days. We exclude all minor
     </tr>
   </tbody>
 </table>
-
-### July 7, 2025
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Description</th>
-      <th>Type</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Added clarification that <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/encryption-key">rotating an encryption key</a> will immediately invalidate all customer and admin sessions.</p>
-</td>
-      <td>
-        Technical
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/5ba094edc8989019ad52dad02adae2dd6defeaf3">commit</a></td>
-    </tr>
-  </tbody>
-</table>
