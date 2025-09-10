@@ -20,7 +20,6 @@ feature: Configuration
   - [Contacts](./general/contacts.md)
   - [Reports](./general/reports.md)
   - [Content Management](./general/content-management.md)
-  - [New Relic Reporting](./general/new-relic-reporting.md)
   - [Advanced Reporting](./general/advanced-reporting.md)
 - Catalog {#catalog}
   - [Catalog](./catalog/catalog.md)
