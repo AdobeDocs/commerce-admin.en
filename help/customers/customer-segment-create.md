@@ -105,7 +105,7 @@ The possible conditions are organized in the following groups:
 |**[!UICONTROL Customer]**|Conditions based on customer account attributes. Available only if the segment applies to registered customers.|
 |**[!UICONTROL Shopping Cart]**|Conditions based on the contents of the shopping cart. These conditions are available for all segment types.|
 |**[!UICONTROL Products]**|Conditions based on products in the shopping cart or product browsing history. These conditions are available for all segment types.|
-|**[!UICONTROL **Sales**|**|Conditions based on completed orders. Available only if the segment applies to registered customers.|
+|**[!UICONTROL **Sales**|Conditions based on completed orders. Available only if the segment applies to registered customers.|
 
 1. In the left pane, click **[!UICONTROL Conditions]**.
 
