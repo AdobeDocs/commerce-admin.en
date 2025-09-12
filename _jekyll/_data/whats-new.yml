@@ -2,8 +2,31 @@
 title: What's New
 description: This section contains the changes made in the last 60 days. We exclude
   all minor updates, such as copy editing, from this list.
-updated: Fri Sep 5 15:23:48 2025
+updated: Fri Sep 12 16:57:54 2025
 entries:
+- description: Added a description of each type of [customer segment](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/segments/customer-segment-create)
+    condition.
+  versions: ''
+  type: technical
+  date: September 10, 2025
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/641
+  merge_commit: 3caa8f3067d534d46e4dafb5731df200723216f8
+  contributor: keharper
+  membership:
+  labels:
+  - technical
+  - feedback
+- description: Removed deprecated New Relic [reporting](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/new-relic-reporting)
+    feature docs.
+  versions: ''
+  type: major-update
+  date: September 9, 2025
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/640
+  merge_commit: 066bcb5b86cfcf5ecb8a6384e6023fd839c4dfcb
+  contributor: jmatthew
+  membership:
+  labels:
+  - major-update
 - description: Clarified default methods for [creating coupon codes](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon)
     and provided guidance for using an extension to import a list of custom coupon
     codes.
