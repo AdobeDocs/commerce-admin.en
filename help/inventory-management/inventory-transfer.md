@@ -47,3 +47,5 @@ You can also unassign the source when transferring inventory quantities.
 1. Click **[!UICONTROL Transfer Inventory]**.
 
    All product quantities are deducted from the origin source and added to the destination source. The Quantity and Salable Quantity automatically update.
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

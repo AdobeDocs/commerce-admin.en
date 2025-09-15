@@ -121,3 +121,5 @@ Paste the completed anchor tag into the code of any CMS page, block, banner, or 
 ### Complete link with markup
 
    \<a href="\{\{store url='apparel/shoes'}}">Shoe Sale\</a>
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

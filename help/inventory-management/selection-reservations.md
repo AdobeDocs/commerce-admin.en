@@ -217,3 +217,5 @@ If you remove all sources from a product for a stock with pending orders, you ma
 [1]: https://cloud.google.com/maps-platform/
 [2]: https://developers.google.com/maps/documentation/geocoding/start
 [3]: https://developers.google.com/maps/documentation/distance-matrix/start
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

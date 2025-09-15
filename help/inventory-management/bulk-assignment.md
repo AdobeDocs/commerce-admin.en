@@ -59,3 +59,5 @@ It is highly recommended to complete all orders and shipments for those products
 1. Click **[!UICONTROL Unassign Sources]**.
 
    ![Remove sources from selected products](assets/inventory-bulk-unassign-sources-summary.png){width="600" zoomable="yes"}
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

@@ -309,3 +309,5 @@ For more information about configuring these settings, see [Adobe Stock Integrat
 |[!UICONTROL Test Connection]||Runs a test to verify that the API key is valid for use with the Adobe Stock service.|
 
 {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2023-02-22 09:59:54 -->

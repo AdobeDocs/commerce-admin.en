@@ -37,3 +37,5 @@ When you [create a widget](widget-create.md), you must set the type. This type d
 |[!UICONTROL Wish List Search]|Use this option to give a customer the ability to search for publicly available wish lists by the name or email address of the wish list owner. Store customers can find wish lists that belong to other customers, view them and order products from them, or add the products to their own wish lists.|
 
 {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

@@ -164,3 +164,5 @@ To create a link for a telephone number or email, see [Adding Custom Variables](
       {style="table-layout:auto"}
 
 1. When complete, click **[!UICONTROL Save]** to apply the settings and return to the [!DNL Page Builder] workspace.
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

@@ -143,3 +143,5 @@ Scroll down and complete the information in the following sections as needed:
 - Simple product configuration overrides configurable product configurations for a specific product.
 
 - A simple product can have custom options with various types of input, which makes it possible to sell many product variations from a single SKU.
+
+<!-- Last updated from includes: 2023-05-19 17:14:58 -->

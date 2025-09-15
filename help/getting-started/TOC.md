@@ -60,7 +60,6 @@ recommendations: noDisplay
   + [Product reports](product-reports.md)
   + [Private sales reports](private-sales-reports.md)
   + [Commerce Intelligence tools](business-intelligence.md)
-  + [New Relic reporting](new-relic-reporting.md)
 + Resources {#resources}
   + [Ecosystem](resources.md)
   + [Extensions](extensions.md)

@@ -53,3 +53,5 @@ By default, links inherit their style from the style sheet of the theme.
    If you are working with HTML code, a [markup tag](../systems/markup-tags.md) for the link appears at the top of the page, enclosed in double curly braces. If needed, use _Cut and Paste_ to position the markup tag in the code where you want the link to appear.
 
 1. When your content edits are complete, click **[!UICONTROL Save]**.
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

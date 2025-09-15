@@ -83,3 +83,5 @@ To use the persistent shopping cart, the customer's browser must be set to allow
 For more information about how the these configuration settings affect the customer workflow, see [Persistent cart workflow](#persistent-cart-workflow).
 
 {{$include /help/_includes/persistent-cart-configuration.md}}
+
+<!-- Last updated from includes: 2024-10-31 10:02:14 -->

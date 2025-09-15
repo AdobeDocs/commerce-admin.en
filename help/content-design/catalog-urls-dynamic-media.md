@@ -40,3 +40,5 @@ By default, images inserted into the catalog from the WYSIWYG editor have relati
    - `No` - (Default) Uses dynamic URLs for media content that is inserted with the WYSIWYG editor, based on the `\{\{media url="..."}}` directive. Dynamic URLs are relative and do not break if the base URL of the store changes.
 
 1. When complete, click **[!UICONTROL Save Config]**.
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

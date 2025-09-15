@@ -3,6 +3,7 @@ title: Customer reports
 description: Customer reports available in Adobe Commerce and Magento Open Source provide insight into customer activity during a specified time period or date range.
 exl-id: 7bee414b-b605-4aed-9749-78bb8056a6a4
 feature: Customers, Reporting
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Customer reports
 

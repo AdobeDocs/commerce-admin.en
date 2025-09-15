@@ -615,3 +615,5 @@ If you want a title above the slider, simply add a [Text content type] above the
    When you preview the slider, resize the window so you can see how it appears on a mobile device.
 
    ![Slider preview - mobile view](./assets/pb-media-slider-mobile-view.png){width="400" zoomable="yes"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

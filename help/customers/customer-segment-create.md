@@ -98,6 +98,14 @@ The following steps use an example for creating a customer segment that targets 
 >
 > For visitors, only the following conditions are applicable: Shopping Cart conditions (cart subtotal amount, cart line items, and cart products quantity), Product rules (products found in shopping cart and product history), and combinations of these items. If a segment should apply to both visitors and registered customers, the visitors are tracked based on the listed conditions only.
 
+The possible conditions are organized in the following groups:
+
+|Group|Description|
+|--- |--- |
+|**[!UICONTROL Customer]**|Conditions based on customer account attributes. Available only if the segment applies to registered customers.|
+|**[!UICONTROL Shopping Cart]**|Conditions based on the contents of the shopping cart. These conditions are available for all segment types.|
+|**[!UICONTROL Products]**|Conditions based on products in the shopping cart or product browsing history. These conditions are available for all segment types.|
+|**[!UICONTROL **Sales]**|Conditions based on completed orders. Available only if the segment applies to registered customers.|
 
 1. In the left pane, click **[!UICONTROL Conditions]**.
 

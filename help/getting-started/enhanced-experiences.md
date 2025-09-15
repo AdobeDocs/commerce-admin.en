@@ -26,7 +26,7 @@ Adobe Commerce and Magento Open Source are packed with features that make it eas
 
 - **Sitemap** - Link to a [sitemap](../merchandising-promotions/sitemap-xml.md) from the footer of your store to give customers an overview of the catalog structure, with links to all categories and products in the store. Easy integration with Google Sitemap.
 
-- **Analytics** - In addition to monitoring your site from the Admin dashboard, you can integrate third-party analytics tools such as [Google Analytics](../merchandising-promotions/google-analytics.md) and [New Relic Reporting](new-relic-reporting.md) for detailed statistics on traffic and sales.
+- **Analytics** - In addition to monitoring your site from the Admin dashboard, you can integrate third-party analytics tools such as [Google Analytics](../merchandising-promotions/google-analytics.md) for detailed statistics on traffic and sales.
 
 ## Engage your customers
 
