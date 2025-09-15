@@ -66,6 +66,7 @@ feature: Configuration, Site Navigation
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |[!UICONTROL Enabled]|Store View|Determines if an XML sitemap is available for the store. Options: `Yes` / `No`|
+|[!UICONTROL Generation Method]|Store View|Determines how the XML sitemap is generated. `Standard` uses the traditional synchronous generation process, while `Batch` uses an asynchronous batch mode for greater flexibility and scalability. This option is available starting with the 2.4.9 release. Options: `Standard` / `Batch`|
 |[!UICONTROL Start Time]|Store View|Specifies the hour, minute, and second of the day that the sitemap is updated.|
 |[!UICONTROL Frequency]|Store View|Determines how often the sitemap is updated. Options: `Daily` / `Weekly` / `Monthly`|
 |[!UICONTROL Error Email Recipient]|Store View|The email address of the person who receives notification if an error occurs during the sitemap update process. For multiple addresses, separate each with a comma.|

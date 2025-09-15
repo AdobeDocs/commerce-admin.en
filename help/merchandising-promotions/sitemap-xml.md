@@ -182,6 +182,11 @@ Your site map should be updated as frequently as the content on your site change
 
 1. To generate a sitemap, set **[!UICONTROL Enabled]** to `Yes` and do the following:
 
+   - Set **[!UICONTROL Generation Method]** to one of the following:
+
+      - `Standard` - The traditional synchronous generation process
+      - `Batch` - Recommended for larger catalogs to improve performance and scalability by generating the sitemap in batches. This option is available starting with the 2.4.9 release.
+
    - Set **[!UICONTROL Start Time]** to the hour, minute, and second that you want the sitemap to be updated.
 
    - Set **[!UICONTROL Frequency]** to one of the following:
