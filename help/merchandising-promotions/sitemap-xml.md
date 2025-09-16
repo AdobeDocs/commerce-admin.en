@@ -184,8 +184,8 @@ Your site map should be updated as frequently as the content on your site change
 
    - Set **[!UICONTROL Generation Method]** to one of the following:
 
-      - `Standard` - The traditional synchronous generation process
-      - `Batch` - Recommended for larger catalogs to improve performance and scalability by generating the sitemap in batches. This option is available starting with the 2.4.9 release.
+      - `Standard` - Processes all data in memory.
+      - `Batch` - Uses memory-optimized processing for large catalogs. This option is available starting with the 2.4.9 release.
 
    - Set **[!UICONTROL Start Time]** to the hour, minute, and second that you want the sitemap to be updated.
 
