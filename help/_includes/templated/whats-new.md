@@ -4,6 +4,50 @@
 
 This section contains the changes made in the last 60 days. We exclude all minor updates, such as copy editing, from this list.
 
+### September 10, 2025
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Added a description of each type of <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/segments/customer-segment-create">customer segment</a> condition.</p>
+</td>
+      <td>
+        Technical
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/3caa8f3067d534d46e4dafb5731df200723216f8">commit</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### September 9, 2025
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Removed deprecated New Relic <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/new-relic-reporting">reporting</a> feature docs.</p>
+</td>
+      <td>
+        Major update
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/066bcb5b86cfcf5ecb8a6384e6023fd839c4dfcb">commit</a></td>
+    </tr>
+  </tbody>
+</table>
+
 ### August 14, 2025
 
 <table style="table-layout:auto;">
@@ -96,28 +140,6 @@ This section contains the changes made in the last 60 days. We exclude all minor
         Technical
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/a8a79656179b9a725aa84ce5481ef82747547745">commit</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### July 11, 2025
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Description</th>
-      <th>Type</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Clarified the default mode for the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management">Customer Grid indexer</a>, which changed in 2.4.8.</p>
-</td>
-      <td>
-        Technical
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/5294e7e31941d13d2cbeae89851bfe3a800acc6e">commit</a></td>
     </tr>
   </tbody>
 </table>
