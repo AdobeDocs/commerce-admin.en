@@ -1,11 +1,11 @@
 ---
 metadata:
-  last_updated: 2025-09-19 15:23:03 CDT
+  last_updated: 2025-09-19 19:28:27 CDT
   description: Index of main files and their included files for automatic timestamp
     updates
   total_relationships: 38
   auto_discovered: true
-  discovery_date: 2025-09-19 15:23:03 CDT
+  discovery_date: 2025-09-19 19:28:27 CDT
 relationships:
   configuration-reference/advanced/system.md:
   - "/help/_includes/backups-note.md"

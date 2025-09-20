@@ -16,6 +16,14 @@ This section contains the changes made in the last 60 days. We exclude all minor
   </thead>
   <tbody>
     <tr>
+      <td><p>Removed the Use for Promo Rule Conditions  attribute from the “Product variation attribute requirements” table in the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/types/product-create-configurable#product-variation-attribute-requirements">Configurable products</a> topic.</p>
+</td>
+      <td>
+        Technical
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/7035acbe2b974ab8bdb4904e769856f0646211ea">commit</a></td>
+    </tr>
+    <tr>
       <td><p>Added a description of each type of <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/segments/customer-segment-create">customer segment</a> condition.</p>
 </td>
       <td>
