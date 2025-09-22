@@ -129,25 +129,3 @@ This section contains the changes made in the last 60 days. We exclude all minor
     </tr>
   </tbody>
 </table>
-
-### July 24, 2025
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Description</th>
-      <th>Type</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Updated the system requirements for the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/hipaa-ready-service/overview#system-requirements">HIPAA extension</a>.</p>
-</td>
-      <td>
-        Technical
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/a8a79656179b9a725aa84ce5481ef82747547745">commit</a></td>
-    </tr>
-  </tbody>
-</table>
