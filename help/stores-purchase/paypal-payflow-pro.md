@@ -154,6 +154,10 @@ This setup method assumes you have an existing PayPal account.
 
 1. If you want to securely store customer payment/credit card details, so customers do not have to reenter payment information each time, set **[!UICONTROL Vault Enabled]** to `Yes`.
 
+>[!NOTE]
+>
+>PayPal PayFlow Pro transaction IDs (PNREFs) are now valid for use in Reference Transactions for a fixed period of 12 months. Once expired, the saved card will no longer be displayed and must be added again.
+
 ### Step 3: Set up Advertise PayPal Credit / Advertise PayPal PayLater (optional)
 
 Starting with the 2.4.3 release, PayPal PayLater is supported in deployments that include PayPal. This feature allows shoppers to pay for an order in bi-weekly installments instead of paying the full amount at time of purchase. The PayPal Credit experience is deprecated.
