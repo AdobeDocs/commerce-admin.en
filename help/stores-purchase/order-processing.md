@@ -163,6 +163,8 @@ Only sales orders that are not invoiced, have a status of `Processing`, and a [p
 
 ### Custom Order Attributes
 
+[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service projects only (Adobe-managed SaaS infrastructure)."}
+
 Custom order attributes allow you to associate additional information specific to your business needs with the order.
 
 ![Custom Order Attributes](./assets/custom-order-attributes.png){width="600" zoomable="yes"}
