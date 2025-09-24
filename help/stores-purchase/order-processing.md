@@ -161,6 +161,24 @@ Only sales orders that are not invoiced, have a status of `Processing`, and a [p
 
 {style="table-layout:auto"}
 
+### Custom Order Attributes
+
+Custom order attributes allow you to associate additional information specific to your business needs with the order.
+
+![Custom Order Attributes](./assets/custom-order-attributes.png){width="600" zoomable="yes"}
+
+Ihe **[!UICONTROL Custom Order Attributes]** section, displays all custom order attributes and their current values.
+
+To create a new custom order attribute, enter a **[!UICONTROL Attribute Code]** and **[!UICONTROL Value]**
+
+To create additional custom order attributes, click **[!UICONTROL Add Attribute]**.
+
+To remove a custom order attribute, click the **[!UICONTROL X]** icon.
+
+>[!NOTE]
+>
+>Custom order attributes can only be edited when the order is in `Pending` status. For orders in other statuses, you can view the attribute values but cannot modify them.
+
 ### Review items ordered
 
 ![Items Ordered](./assets/order-items-ordered-tee.png){width="600" zoomable="yes"}
