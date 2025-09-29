@@ -16,6 +16,14 @@ This section contains the changes made in the last 60 days. We exclude all minor
   </thead>
   <tbody>
     <tr>
+      <td><p>Removed the Use for Promo Rule Conditions  attribute from the “Product variation attribute requirements” table in the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/types/product-create-configurable#product-variation-attribute-requirements">Configurable products</a> topic.</p>
+</td>
+      <td>
+        Technical
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/7035acbe2b974ab8bdb4904e769856f0646211ea">commit</a></td>
+    </tr>
+    <tr>
       <td><p>Added a description of each type of <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/segments/customer-segment-create">customer segment</a> condition.</p>
 </td>
       <td>
@@ -118,28 +126,6 @@ This section contains the changes made in the last 60 days. We exclude all minor
         Major update
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/193248c1fce55c950b22ec8d86613d23be1ead11">commit</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### July 24, 2025
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Description</th>
-      <th>Type</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Updated the system requirements for the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/hipaa-ready-service/overview#system-requirements">HIPAA extension</a>.</p>
-</td>
-      <td>
-        Technical
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/a8a79656179b9a725aa84ce5481ef82747547745">commit</a></td>
     </tr>
   </tbody>
 </table>
