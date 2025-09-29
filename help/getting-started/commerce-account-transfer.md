@@ -36,7 +36,7 @@ The type of Commerce account transfer depends on the Commerce account credential
 >
 >Review the [transfer types](#identify-your-transfer-type) and make sure that you meet the preconditions for this sequence of steps.
 
-This transfer type requires an Adobe ID that's linked to the existing Commerce account, and then changing that account to the email address for the new owner.
+This transfer type requires having an Adobe ID that's linked to the existing Commerce account, and then changing that account to the email address for the new owner.
 
 1. Go to the [Commerce account login](https://account.magento.com/customer/account/login/) page.
 
