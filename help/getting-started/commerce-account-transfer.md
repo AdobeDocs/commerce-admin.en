@@ -72,7 +72,7 @@ This transfer type requires having an Adobe ID that's linked to the existing Com
 >
 >Review the [transfer types](#identify-your-transfer-type) and make sure that you meet the preconditions for this sequence of steps.
 
-This transfer type will result in the current account owner losing access to other Adobe products.
+This transfer type results in the current account owner losing access to other Adobe products.
 
 1. Navigate to [account.adobe.com](https://account.adobe.com/) and complete the Adobe login.
 
