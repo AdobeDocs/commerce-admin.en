@@ -28,12 +28,12 @@ Data Feed Status monitoring provides two interfaces, an overview page that lists
 
 ### Installation
 
-<!--TO DO: Add installation instructions for customers to install the Data Feed Status module-->
+<!--TO DO: Add installation instructions for customers to install the Data Exporter Status extension (name?)-->
 
 1. Install module independently?
 1. Upgrade to a particular version of LS, CS, or PREX?
 
-## Feed Overview
+## Feed Status summary page
 
 The main status page displays a summary of all active data feeds:
 
@@ -48,9 +48,9 @@ The main status page displays a summary of all active data feeds:
 | **Failed Records Qty** | Number of records that failed to export and require attention |
 | **Action** | Available actions for each feed (View Details, Resync) |
 
-## Feed Detail View
+## Feed status detail page
 
-Click on a feed name or use the "View Details" action to access detailed information about individual records within a feed.
+From the Feed Status summary page, click a feed name or use the [!DNL View Details] action to access detailed information about individual records within a feed.
 
 <!--TO DO: Insert updated screen capture-->
 
@@ -71,32 +71,34 @@ The detail view provides a table with the following columns:
 | **Request ID** | Unique identifier for tracking export requests |
 | **Error** | Detailed error information if the export failed |
 
-## Feed Health Indicators
+
+<!--Validate the content below. Not sure it is implemented or applicable for initial release of the Data Feed Status extension-->s 
+## Feed health indicators
 
 At the top of each feed detail page, critical health indicators provide system status:
 
-### Indexer Status
+### Indexer status
 
 - **Valid**: Indexer is up-to-date and functioning normally
 - **Invalid**: Indexer needs to be rerun to capture recent changes.
 - **Processing**: Indexer is currently running
 
-### Changelog Backlog
+### Changelog backlog
 
 - **All synced**: No pending changes to process
 - **Items in backlog**: Number of pending changes waiting to be processed
 - **High backlog warning**: More than 1,000 items indicates potential performance issues
 
-### Indexer Mode
+### Indexer mode
 
 - **Schedule mode** (Recommended): Indexer runs on schedule, reducing risk of data loss
 - **Realtime mode** (Warning): Immediate processing but higher risk of data loss under load
 
-## Export Status Types
+## Export status types
 
 The system uses color-coded status indicators to help you quickly identify issues:
 
-### Status Categories
+### Status categories
 
 | Status | Indicator | Description | Action Required |
 |--------|-----------|-------------|-----------------|
@@ -105,7 +107,7 @@ The system uses color-coded status indicators to help you quickly identify issue
 | **Failed, require attention** | Red | Permanent failure requiring manual intervention | Investigate and resolve |
 | **Awaiting submission** | Blue | Queued for export but not yet processed | Normal processing state |
 
-### Detailed Status Codes
+### Detailed status codes
 
 | Code | Status Label | Description |
 |------|--------------|-------------|
@@ -134,7 +136,7 @@ When the number of successfully sent records matches the number of source record
 >
 >Adobe also provides command-line interface tools and system logs that developers and system integrators can use to manage and track sync operations. For details, see the [SaaS Data Export Guide](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
 
-### Managing Failed Exports
+### Managing failed exports
 
 To see the details of failed exports and take corrective action:
 
@@ -145,7 +147,7 @@ To see the details of failed exports and take corrective action:
 
 ![Feed Detail View](feed-detail-view.png)
 
-### Resync Failed Data
+### Resync failed data
 
 To ensure that your external services receive the most up-to-date information, you can manually resync failed or problematic data feeds.
 
@@ -167,22 +169,24 @@ If you need to resync specific feed items:
 3. **Confirm**: Click "Submit" and confirm the resync operation
 4. **Monitor Results**: Check the success message and monitor status changes
 
+<!--TO DO: Is this feature supported by the DataExporterStatus module in initial release. Update or remove screen capture as needed.-->
+
 ![Manual Resync Dialog](manual-resync-dialog.png)
 
-**Resync Options:**
+**Resync options:**
 
 * **Selected Items**: Reschedule only the items you have selected
 * **Full Feed Resync**: When no items are selected, triggers a complete feed resync
 
-## Best Practices
+## Best practices
 
-### Regular Monitoring
+### Regular monitoring
 
 1. **Daily Checks**: Review the overview page daily for any feeds showing high failure rates
 1. **Weekly Deep Dive**: Examine detailed status for critical feeds (products, prices)
 1. **Monthly Analysis**: Track trends in export success rates and performance
 
-### Troubleshooting Workflow
+### Troubleshooting workflow
 
 1. **Identify Issues**: Look for red status indicators and high failure counts
 1. **Check Indexer Health**: Ensure indexers are valid and backlog is manageable
@@ -190,32 +194,32 @@ If you need to resync specific feed items:
 1. **Schedule Resync**: Use mass actions to retry failed exports
 1. **Monitor Resolution**: Verify that resynced items show successful status
 
-### Performance Optimization
+### Performance optimization
 
 * **Maintain Schedule Mode**: Keep indexers in schedule mode for optimal performance
 * **Monitor Backlog**: Address high changelog backlogs promptly
 * **Batch Operations**: Use mass actions for efficient bulk resync operations
 
-## Troubleshooting Common Issues
+## Troubleshooting common issues
 
-### High Failure Rates
+### High failure rates
 
 **Symptoms**: Large number of records showing "Failed, require attention" status
 
-**Potential Causes**:
+**Potential causes**:
 
 * External service configuration changes
 * Data format incompatibilities
 * Authentication or permission issues
 
-**Resolution Steps**:
+**Resolution steps**:
 
 1. Check external service status and configuration
 1. Review error messages for patterns
 1. Verify authentication credentials
 1. Contact external service support if needed
 
-### Slow Export Performance
+### Slow export performance
 
 **Symptoms**: High changelog backlog, slow status updates
 
