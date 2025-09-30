@@ -55,6 +55,8 @@ This transfer type requires having an Adobe ID that's linked to the existing Com
 1. Click **[!UICONTROL Change Email]**.
 
 1. Enter the new owner's email address.
+  
+   If the new email address is already linked to another account in the system, it cannot be directly used for the transfer. Instead, the process requires using a [temporary email address](#change-to-a-temporary-account) to facilitate the change.
 
 1. Click **[!UICONTROL Change]**.
 
@@ -79,6 +81,8 @@ This transfer type results in the current account owner losing access to other A
 1. Under your account name and avatar, click **[!UICONTROL Change Email]**.
 
 1. In the dialog, enter the new owner's email address.
+
+   If the new email address is already linked to another account in the system, it cannot be directly used for the transfer. Instead, the process requires using a [temporary email address](#change-to-a-temporary-account) to facilitate the change.
 
 1. Click **[!UICONTROL Change]**.
 
