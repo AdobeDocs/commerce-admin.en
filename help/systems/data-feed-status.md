@@ -7,8 +7,12 @@ badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.ad
 
 <!--Initial support for the Data Feed Status module is available only for Adobe Commerce PaaS or on-premises deployments--> 
 
-The Data Feed Status page provides Adobe Commerce administrators with comprehensive visibility into the health and performance of data export feeds.
-Ensure reliable data transmission to Commerce services by monitoring the synchronization status of your product, category, pricing, and other data export feeds.
+Adobe Commerce administrators can monitor the synchronization status of product, category, pricing, and other data export feeds from the Data Feed Status page in the Commerce Admin. 
+This page provides key insights and tools to help administrators:
+
+* **View the synchronization status** for all data feeds
+* **Identify and troubleshoot errors** in feed processing
+* **Access detailed status information** for individual fed items
 
 <!--TO DO: List what feeds are included in tracking data-->
 
@@ -18,7 +22,7 @@ Ensure reliable data transmission to Commerce services by monitoring the synchro
 
 The Data Feed Status page is available at no additional cost to all Commerce merchants using [[!DNL Product Recommendations v6.0.0+]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview), [[!DNL Live Search v4.1.0+]](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview), or [[!DNL Catalog Service v1.17+]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview) with an active license.
 
-From the Commerce Admin, access the Data Feed Status page at **[!DNL System]**_ > Data Transfer  > **[!DNL Data feed status]**.
+From the Commerce Admin, access the Data Feed Status page at **[!DNL System]** > Data Transfer  > **[!DNL Data feed status]**.
 
 <!--TO DO: Insert updated screen capture-->
 
@@ -79,20 +83,20 @@ At the top of each feed detail page, critical health indicators provide system s
 
 ### Indexer status
 
-- **Valid**: Indexer is up-to-date and functioning normally
-- **Invalid**: Indexer needs to be rerun to capture recent changes.
-- **Processing**: Indexer is currently running
+* **Valid**: Indexer is up-to-date and functioning normally
+* **Invalid**: Indexer needs to be rerun to capture recent changes.
+* **Processing**: Indexer is currently running
 
 ### Changelog backlog
 
-- **All synced**: No pending changes to process
-- **Items in backlog**: Number of pending changes waiting to be processed
-- **High backlog warning**: More than 1,000 items indicates potential performance issues
+* **All synced**: No pending changes to process
+* **Items in backlog**: Number of pending changes waiting to be processed
+* **High backlog warning**: More than 1,000 items indicates potential performance issues
 
 ### Indexer mode
 
-- **Schedule mode** (Recommended): Indexer runs on schedule, reducing risk of data loss
-- **Realtime mode** (Warning): Immediate processing but higher risk of data loss under load
+* **Schedule mode** (Recommended): Indexer runs on schedule, reducing risk of data loss
+* **Realtime mode** (Warning): Immediate processing but higher risk of data loss under load
 
 ## Export status types
 
@@ -140,16 +144,16 @@ When the number of successfully sent records matches the number of source record
 
 To see the details of failed exports and take corrective action:
 
-1. Navigate to the feed with failed records
-2. Click "View Details" to see individual record status
-3. Review error messages for specific failure reasons
-4. Use mass actions to schedule resync for failed items
+1. Navigate to the feed with failed records.
+1. Click **[!DNL View Details]** to see individual record status.
+1. Review error messages for specific failure reasons.
+1. Use mass actions to schedule resync for failed items.
 
 ![Feed Detail View](feed-detail-view.png)
 
 ### Resync failed data
 
-To ensure that your external services receive the most up-to-date information, you can manually resync failed or problematic data feeds.
+To ensure that your external services receive the most current information, you can manually resync failed or problematic data feeds.
 
 While the system automatically retries certain types of failures, manual intervention may be necessary in the following scenarios:
 
@@ -165,8 +169,8 @@ By proactively monitoring feed status and addressing failures promptly, you can 
 If you need to resync specific feed items:
 
 1. **Select Records**: Use checkboxes to select failed records that need attention
-2. **Choose Action**: Select "Schedule Resync" from the mass action dropdown
-3. **Confirm**: Click "Submit" and confirm the resync operation
+2. **Choose Action**: Select **[!DNL Schedule Resync]** from the mass action dropdown
+3. **Confirm**: Click **[!DNL Submit]** and confirm the resync operation
 4. **Monitor Results**: Check the success message and monitor status changes
 
 <!--TO DO: Is this feature supported by the DataExporterStatus module in initial release. Update or remove screen capture as needed.-->
@@ -176,7 +180,7 @@ If you need to resync specific feed items:
 **Resync options:**
 
 * **Selected Items**: Reschedule only the items you have selected
-* **Full Feed Resync**: When no items are selected, triggers a complete feed resync
+* **Full Feed Resync**: When no items are selected, this option triggers a complete feed resync
 
 ## Best practices
 
