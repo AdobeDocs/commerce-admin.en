@@ -98,7 +98,7 @@ This transfer type results in the current account owner losing access to other A
 >
 >Review the [transfer types](#identify-your-transfer-type) and make sure that you meet the preconditions for this sequence of steps.
 
-This transfer type uses a temporary email address to switch account ownership when both the current owner and new owner have existing Adobe IDs, and you want to retain both accounts.  To complete the ownership transfer, tou must use a temporary email address that is not associated with an Adobe ID.
+This transfer type uses a temporary email address to switch account ownership when both the current owner and new owner have existing Adobe IDs, and you want to retain both accounts. To complete the ownership transfer, you must use a temporary email address that is not associated with an Adobe ID.
 
 ### Change to a temporary account
 
