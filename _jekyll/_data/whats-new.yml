@@ -2,8 +2,19 @@
 title: What's New
 description: This section contains the changes made in the last 60 days. We exclude
   all minor updates, such as copy editing, from this list.
-updated: Fri Sep 19 19:27:44 2025
+updated: Fri Sep 26 15:21:47 2025
 entries:
+- description: Added info on how to view and edit [custom order attributes](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes)
+    in the Admin for Adobe Commerce as a Cloud Service.
+  versions: ''
+  type: major-update
+  date: September 24, 2025
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/656
+  merge_commit: 68c4c836d0e6dfff1f397dcc93368f8daac774f3
+  contributor: jhoover
+  membership:
+  labels:
+  - major-update
 - description: Removed the Use for Promo Rule Conditions  attribute from the "Product
     variation attribute requirements" table in the [Configurable products](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/types/product-create-configurable#product-variation-attribute-requirements)
     topic.
