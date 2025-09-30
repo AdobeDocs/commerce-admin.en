@@ -111,4 +111,4 @@ Magento Open Source is the code base that Adobe officially contributes to and en
 
 {{$include /help/_includes/templated/whats-new.md}}
 
-<!-- Last updated from includes: 2025-09-19 19:28:58 -->
+<!-- Last updated from includes: 2025-09-26 20:21:59 -->
