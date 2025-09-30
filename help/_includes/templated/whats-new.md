@@ -121,33 +121,3 @@ This section contains the changes made in the last 60 days. We exclude all minor
     </tr>
   </tbody>
 </table>
-
-### July 31, 2025
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Description</th>
-      <th>Type</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Clarified the expected behavior of <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#price-navigation">price filtering</a> for configurable products in layered navigation.</p>
-</td>
-      <td>
-        Technical
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/3227227b6cf4f159b40fda8a5a165a7097f8a0bd">commit</a></td>
-    </tr>
-    <tr>
-      <td><p>Clarified how to <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage">remove all items</a> from a customer’s cart in assisted shopping mode.</p>
-</td>
-      <td>
-        Major update
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/193248c1fce55c950b22ec8d86613d23be1ead11">commit</a></td>
-    </tr>
-  </tbody>
-</table>
