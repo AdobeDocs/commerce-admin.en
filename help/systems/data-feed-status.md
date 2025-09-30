@@ -5,6 +5,8 @@ feature: Products, Customers, Data Import/Export
 badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 
+# Data Feed Status Monitoring
+
 <!--Initial support for the Data Feed Status module is available only for Adobe Commerce PaaS or on-premises deployments--> 
 
 Adobe Commerce administrators can monitor the synchronization status of product, category, pricing, and other data export feeds from the Data Feed Status page in the Commerce Admin. 
@@ -12,7 +14,7 @@ This page provides key insights and tools to help administrators:
 
 * **View the synchronization status** for all data feeds
 * **Identify and troubleshoot errors** in feed processing
-* **Access detailed status information** for individual fed items
+* **Access detailed status information** for individual feed items
 
 <!--TO DO: List what feeds are included in tracking data-->
 
@@ -45,7 +47,7 @@ The main status page displays a summary of all active data feeds:
 
 | Field | Description |
 |-------|-------------|
-| **Feed Name** | The type of data feed (products, categories, productPrices, inventory, etc.) |
+| **Feed Name** | The type of data feed (for example, products, product variants, and so on) |
 | **Source Records Qty** | Total number of records available for export from the Commerce database |
 | **Feed Records Qty** | Total number of records processed for export in the feed |
 | **Successfully Sent Records Qty** | Number of records successfully transmitted to external services |
@@ -67,16 +69,17 @@ The detail view provides a table with the following columns:
 | Field | Description |
 |-------|-------------|
 | **Feed Item ID** | Internal identifier for the feed record |
-| **Feed Identifiers** | Key identifiers used for the export operation, for example *Products Feed*.|
+| **Feed Identifiers** | The unique identifier of the entity, such as Product ID or Category ID.|
 | **Entity ID** | The source entity ID (product ID, category ID, and so on) |
-| **Export Status** | Current status of the export attempt with color-coded indicators |
-| **Modified At** | Timestamp when the record was last updated |
-| **Is entity deleted?** | Whether the entity has been marked for deletion |
-| **Request ID** | Unique identifier for tracking export requests |
-| **Error** | Detailed error information if the export failed |
+| **Export Status** | The [synchronization status](#export-status-types) of the feed item. Current status of the export attempt with color-coded indicators |
+| **Last Sync Date** | Timestamp when the record was last sent to Commerce Services |
+| **Is entity deleted?** | Indicates whether the entity or its part (for example, product or product price) has been deleted in Adobe Commerce. Deleted
+items are displayed only if an error occurred during synchronization. |
+| **Error** | Detailed error information if the feed item failed to synchronize. |
+| **Request ID** | A unique identifier for the synchronization request. Provide this ID to Support when troubleshooting updates for specific entities. |
 
+<!--Validate the content below. Not sure it is implemented or applicable for initial release of the Data Feed Status extension-->
 
-<!--Validate the content below. Not sure it is implemented or applicable for initial release of the Data Feed Status extension-->s 
 ## Feed health indicators
 
 At the top of each feed detail page, critical health indicators provide system status:
@@ -104,12 +107,12 @@ The system uses color-coded status indicators to help you quickly identify issue
 
 ### Status categories
 
-| Status | Indicator | Description | Action Required |
+| **Status** | **Description** | **Action required** |
 |--------|-----------|-------------|-----------------|
-| **Submitted to service** | Green | Successfully exported to external service | None |
-| **Failed, will retry** | Yellow | Temporary failure, system will automatically retry | Monitor for resolution |
-| **Failed, require attention** | Red | Permanent failure requiring manual intervention | Investigate and resolve |
-| **Awaiting submission** | Blue | Queued for export but not yet processed | Normal processing state |
+| **Submitted to service** | Feed item successfully exported to Commerce service | None |
+| **Failed, will retry** | Temporary failure, system will automatically retry | Monitor for resolution |
+| **Failed, requires attention** | Failed dut to application or data error. | Investigate and resolve issue in the [!DNL Error] column|
+| **Awaiting submission** | Queued for export but not yet processed | Normal processing state |
 
 ### Detailed status codes
 
@@ -117,9 +120,9 @@ The system uses color-coded status indicators to help you quickly identify issue
 |------|--------------|-------------|
 | 200 | Submitted to service | Export completed successfully |
 | 400 | Data payload error | Invalid data format or content |
-| 401 | Unauthorized request | Authentication failure with external service |
-| 403 | Permission denied | Access denied by external service |
-| 429 | Too many requests | Rate limiting applied by external service |
+| 401 | Unauthorized request | Authentication failure with Commerce service |
+| 403 | Permission denied | Access denied by Commerce service |
+| 429 | Too many requests | Rate limiting applied by Commerce service |
 | 500 | Internal Server Error | External service error |
 | 503 | Service Unavailable | External service temporarily unavailable |
 | 0 | Application error | Internal Commerce application error |
@@ -128,7 +131,7 @@ The system uses color-coded status indicators to help you quickly identify issue
 
 ## Monitor data feed status
 
-When you update products, categories, or other entities in the Commerce database, the data transfers to external services according to your feed configuration. The Data Feed Status dashboard allows you to monitor this process in real-time.
+When you update products, categories, or other entities in the Commerce database, the data transfers to Commerce services according to your feed configuration. The Data Feed Status dashboard allows you to monitor this process in real-time.
 
 >[!IMPORTANT]
 >
