@@ -20,9 +20,9 @@ The type of Commerce account transfer depends on the Commerce account credential
 
 | Transfer type | Current owner | New owner |
 | ------------- | ------------- | --------- |
-| [New Adobe ID and email change](#new-adobe-id-and-email-change) | Has a MAGEID that is **_not connected_** with an Adobe login account. | Does not have a MAGEID and is not connected to an Adobe login account. | 
-| [Email change](#email-change) | Has a MAGEID that is **_connected_** with an Adobe login account. | Does not have a MAGEID and is not connected to an Adobe login account. |
-| [Adobe ID switch](#adobe-id-account-switch) | Has a MAGEID that is **_connected_** with an Adobe login account. | Has a MAGEID and is connected to an Adobe login account. |
+| [New Adobe ID and email change](#new-adobe-id-and-email-change) | Has a MAGEID that **_has not been connected_** to an Adobe login account | Does not have a MAGEID and is not connected to an Adobe login account. | 
+| [Email change](#email-change) | Has a MAGEID that is **_connected_** with an Adobe login account. | Has an Adobe login account, but **_does not have a MAGEID_** connected to an Adobe login account. |
+| [Adobe ID account switch](#adobe-id-account-switch) | Has a MAGEID that is **_connected_** to an Adobe login account. | Has a MAGEID and is connected to an Adobe login account. |
 
 {style="table-layout:auto"}
 
@@ -36,9 +36,9 @@ The type of Commerce account transfer depends on the Commerce account credential
 >
 >Review the [transfer types](#identify-your-transfer-type) and make sure that you meet the preconditions for this sequence of steps.
 
-This transfer type requires that you first create an associated Adobe ID and then change that account to the email address for the new owner.
+This transfer type requires having an Adobe ID that's linked to the existing Commerce account, and then changing that account to the email address for the new owner.
 
-1. Go to your [Commerce account](https://account.magento.com/customer/account/login/).
+1. Go to the [Commerce account login](https://account.magento.com/customer/account/login/) page.
 
 1. Click **[!UICONTROL Sign in with Adobe ID]**.
 
@@ -74,6 +74,8 @@ This transfer type requires that you first create an associated Adobe ID and the
 >
 >Review the [transfer types](#identify-your-transfer-type) and make sure that you meet the preconditions for this sequence of steps.
 
+This transfer type results in the current account owner losing access to other Adobe products.
+
 1. Navigate to [account.adobe.com](https://account.adobe.com/) and complete the Adobe login.
 
 1. Under your account name and avatar, click **[!UICONTROL Change Email]**.
@@ -96,7 +98,7 @@ This transfer type requires that you first create an associated Adobe ID and the
 >
 >Review the [transfer types](#identify-your-transfer-type) and make sure that you meet the preconditions for this sequence of steps.
 
-In the case where the current owner and new owner have existing Adobe IDs, both accounts should remain, but email addresses need to be switched between them. This requires the use of a _temporary_ email address that is valid, but is not associated with an Adobe ID.
+This transfer type uses a temporary email address to switch account ownership when both the current owner and new owner have existing Adobe IDs, and you want to retain both accounts. To complete the ownership transfer, you must use a temporary email address that is not associated with an Adobe ID.
 
 ### Change to a temporary account
 
@@ -142,7 +144,7 @@ After the current owner completes the transfer to a temporary email address, the
 
 ### Follow up steps
 
-After the new owner successfully configures their Adobe account with the original email address of the current (now previous) owner, complete these steps to transfer ownership.
+After the new owner successfully configures their Adobe account with the original email address of the current owner, complete these steps to transfer ownership.
 
 1. Navigate to [account.adobe.com](https://account.adobe.com/), and complete the Adobe login using the email address for the [temporary account](#change-to-a-temporary-account).
 
