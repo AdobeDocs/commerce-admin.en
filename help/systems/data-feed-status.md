@@ -195,7 +195,7 @@ If you need to resync specific feed items:
 
 ### Troubleshooting workflow
 
-1. **Identify Issues**: Look for red status indicators and high failure counts
+1. **Identify Issues**: Look for errors and high failure counts
 1. **Check Indexer Health**: Ensure indexers are valid and backlog is manageable
 1. **Review Error Details**: Click on failed records to see specific error messages
 1. **Schedule Resync**: Use mass actions to retry failed exports
