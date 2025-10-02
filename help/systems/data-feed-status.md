@@ -201,15 +201,9 @@ If you need to resync specific feed items:
 1. **Schedule Resync**: Use mass actions to retry failed exports
 1. **Monitor Resolution**: Verify that resynced items show successful status
 
-### Performance optimization
+### Fix common issues
 
-* **Maintain Schedule Mode**: Keep indexers in schedule mode for optimal performance
-* **Monitor Backlog**: Address high changelog backlogs promptly
-* **Batch Operations**: Use mass actions for efficient bulk resync operations
-
-## Troubleshooting common issues
-
-### High failure rates
+#### High failure rates
 
 **Symptoms**: Large number of records showing "Failed, require attention" status
 
@@ -226,7 +220,7 @@ If you need to resync specific feed items:
 1. Verify authentication credentials
 1. Contact external service support if needed
 
-### Slow export performance
+#### Slow export performance
 
 **Symptoms**: High changelog backlog, slow status updates
 
@@ -243,7 +237,7 @@ If you need to resync specific feed items:
 3. Consider scheduling exports during off-peak hours
 4. Review system resources and performance
 
-### Authentication Failures
+#### Authentication Failures
 
 **Symptoms**: 401 or 403 status codes
 
@@ -253,6 +247,12 @@ If you need to resync specific feed items:
 1. Check external service account permissions
 1. Renew expired authentication tokens
 1. Contact service provider for access issues
+
+### Performance optimization
+
+* **Maintain Schedule Mode**: Keep indexers in schedule mode for optimal performance
+* **Monitor Backlog**: Address high changelog backlogs promptly
+* **Batch Operations**: Use mass actions for efficient bulk resync operations
 
 >[!MORELIKETHIS]
 >
