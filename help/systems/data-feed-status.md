@@ -73,8 +73,7 @@ The detail view provides a table with the following columns:
 | **Entity ID** | The source entity ID (product ID, category ID, and so on) |
 | **Export Status** | The [synchronization status](#export-status-types) of the feed item. Current status of the export attempt with color-coded indicators |
 | **Last Sync Date** | Timestamp when the record was last sent to Commerce Services |
-| **Is entity deleted?** | Indicates whether the entity or its part (for example, product or product price) has been deleted in Adobe Commerce. Deleted
-items are displayed only if an error occurred during synchronization. |
+| **Is entity deleted?** | Indicates whether the entity or its part (for example, product or product price) has been deleted in Adobe Commerce. Deleted items are displayed only if an error occurred during synchronization.|
 | **Error** | Detailed error information if the feed item failed to synchronize. |
 | **Request ID** | A unique identifier for the synchronization request. Provide this ID to Support when troubleshooting updates for specific entities. |
 
