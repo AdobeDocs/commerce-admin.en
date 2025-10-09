@@ -4,10 +4,7 @@ description: Monitor data export synchronization and identify any issues or dela
 feature: Products, Customers, Data Import/Export
 badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
-
 # Data Feed Status Monitoring
-
-<!--Initial support for the Data Feed Status module is available only for Adobe Commerce PaaS or on-premises deployments--> 
 
 Adobe Commerce administrators can monitor the synchronization status of product, category, pricing, and other data export feeds from the Data Feed Status page in the Commerce Admin. 
 This page provides key insights and tools to help administrators:
@@ -16,28 +13,30 @@ This page provides key insights and tools to help administrators:
 * **Identify and troubleshoot errors** in feed processing
 * **Access detailed status information** for individual feed items
 
-<!--TO DO: List what feeds are included in tracking data-->
-
-## Availability
-
-<!--TO DO: Check service versions where data feed status monitoring is supported-->
-
-The Data Feed Status page is available at no additional cost to all Commerce merchants using [[!DNL Product Recommendations v6.0.0+]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview), [[!DNL Live Search v4.1.0+]](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview), or [[!DNL Catalog Service v1.17+]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview) with an active license.
-
-From the Commerce Admin, access the Data Feed Status page at **[!DNL System]** > Data Transfer  > **[!DNL Data feed status]**.
-
-<!--TO DO: Insert updated screen capture-->
+Data Feed Status monitoring provides two interfaces, an overview page that lists the available feeds and current state, and a detail page that shows detailed information about a selected feed.
 
 ![Data Feed Status Overview](data-feed-status-dashboard.png)
 
-Data Feed Status monitoring provides two interfaces, an overview page that lists the available feeds and current state, and a detail page that shows detailed information about a selected feed.
+## Availability
+
+Data Feed Status Monitoring is available at no additional cost to all Commerce merchants using [[!DNL Product Recommendations v6.0.0+]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview), [[!DNL Live Search v4.1.0+]](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview), or [[!DNL Catalog Service v1.17+]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview) with an active license.
 
 ### Installation
 
-<!--TO DO: Add installation instructions for customers to install the Data Exporter Status extension (name?)-->
+Install the Data Export Status module using Composer.
 
-1. Install module independently?
-1. Upgrade to a particular version of LS, CS, or PREX?
+```bash
+composer require magento/module-data-exporter-status
+```
+For detailed instructions, see [Install an extension](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions#install-an-extension).
+
+## Monitor Data Export Feed Status
+
+After the module is installed, you can access the Data Feed Status page from the [!DNL Systems] menu.
+
+1. From the Commerce Admin, go to **[!DNL System]** > Data Transfer  > **[!DNL Data feed status]** to open the Feed Status summary page.
+
+1. For each feed, view detailed status information for feed items by selecting **[!DNL Details]**.
 
 ## Feed Status summary page
 
@@ -171,9 +170,9 @@ By proactively monitoring feed status and addressing failures promptly, you can 
 If you need to resync specific feed items:
 
 1. **Select Records**: Use checkboxes to select failed records that need attention
-2. **Choose Action**: Select **[!DNL Schedule Resync]** from the mass action dropdown
-3. **Confirm**: Click **[!DNL Submit]** and confirm the resync operation
-4. **Monitor Results**: Check the success message and monitor status changes
+1. **Choose Action**: Select **[!DNL Schedule Resync]** from the mass action dropdown
+1. **Confirm**: Click **[!DNL Submit]** and confirm the resync operation
+1. **Monitor Results**: Check the success message and monitor status changes
 
 <!--TO DO: Is this feature supported by the DataExporterStatus module in initial release. Update or remove screen capture as needed.-->
 
@@ -232,9 +231,9 @@ If you need to resync specific feed items:
 **Resolution Steps**:
 
 1. Check indexer status and rerun if invalid
-2. Monitor external service response times
-3. Consider scheduling exports during off-peak hours
-4. Review system resources and performance
+1. Monitor external service response times
+1. Consider scheduling exports during off-peak hours
+1. Review system resources and performance
 
 #### Authentication Failures
 
