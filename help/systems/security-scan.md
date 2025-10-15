@@ -98,6 +98,32 @@ The Security Scan Tool is available for free from the dashboard of your [Commerc
 
          After the build process completes, the changes will be deployed to your PWA store front.
 
+   **AEM Storefront**
+   1. Enter the **[!UICONTROL Site URL]** and **[!UICONTROL Site Name]**.
+
+   1. For **[!UICONTROL Confirmation Code]**, choose the `HTML Content` or `META Tag` option and then click **[!UICONTROL Generate Code]**.
+
+   1. Click **[!UICONTROL Copy]** to copy the generated confirmation code to the clipboard.
+
+      ![Generate Confirmation Code](./assets/scan-site3.png){width="400" zoomable="yes"}
+
+   1. Go to the AEM storefront project directory and do the following:
+       1. Under the AEM storefront project directory, go to `head.html`.
+       1. Add the copied confirmation code (the generated HTML Content or META Tag) to `head.html` file and save the changes.
+
+       ![Copy Confirmation Code](./assets/code-aem.png){width="600" zoomable="yes"}
+
+   1. Use the Git CLI tool to stage, commit, and push these changes to your project repository.
+
+     ```sh
+     git add . &&
+     git commit -m "Added security scan confirmation code" &&
+     git push origin
+     ```
+
+     After the build process completes, the changes will be deployed to your AEM store front.
+
+
 1. Return to the _[!UICONTROL Security Scan]_ page in your Commerce account, and click **[!UICONTROL Verify Confirmation Code]** to establish ownership of the domain.
 
 1. After a successful confirmation, configure the **[!UICONTROL Set Automatic Security Scan]** options for one of the following types:
