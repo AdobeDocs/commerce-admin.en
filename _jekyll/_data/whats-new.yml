@@ -2,8 +2,18 @@
 title: What's New
 description: This section contains the changes made in the last 60 days. We exclude
   all minor updates, such as copy editing, from this list.
-updated: Fri Oct 10 15:25:17 2025
+updated: Fri Oct 17 15:27:12 2025
 entries:
+- description: Added October 2025 B2B security patch [release notes](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes).
+  versions: ''
+  type: major-update
+  date: October 14, 2025
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/654
+  merge_commit: 86cc342b9e210b706ee7f37d9db551c17f3af944
+  contributor: jmatthew
+  membership:
+  labels:
+  - major-update
 - description: Added info on how to view and edit [custom order attributes](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes)
     in the Admin for Adobe Commerce as a Cloud Service.
   versions: ''
