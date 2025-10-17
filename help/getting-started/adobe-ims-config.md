@@ -100,3 +100,7 @@ Enter `bin/magento admin:adobe-ims:enable`. You are prompted to enter the follow
 Adobe Commerce displays a message that indicates whether enablement succeeded or failed.
 
 After successfully enabling this feature, you can transition other Adobe Commerce user accounts to Adobe IMS accounts. Adobe Commerce users must belong to the configured Adobe organization to log in using an Adobe ID.
+
+## Identity and Single Sign-On
+
+For information about identity configuration options from the Adobe Admin Console including Adobe ID, Enterprise ID, and Federated ID, and instructions for configuring Single Sign-On (SSO) for secure access to Adobe apps, see [Set up identity and Single Sign-On](https://helpx.adobe.com/enterprise/using/set-up-identity.html) in the *Enterprise Admin Console* documentation.
