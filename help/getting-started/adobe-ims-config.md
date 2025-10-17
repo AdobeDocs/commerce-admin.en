@@ -103,4 +103,4 @@ After successfully enabling this feature, you can transition other Adobe Commerc
 
 ## Identity and Single Sign-On
 
-For information about identity configuration options from the Adobe Admin Console including Adobe ID, Enterprise ID, and Federated ID, and instructions for configuring Single Sign-On (SSO) for secure access to Adobe apps, see [Set up identity and Single Sign-On](https://helpx.adobe.com/enterprise/using/set-up-identity.html) in the *Enterprise Admin Console* documentation.
+For information about identity configuration options including Adobe ID, Enterprise ID, and Federated ID, and instructions for configuring Single Sign-On (SSO) for secure access to Adobe apps, see [Set up identity and Single Sign-On](https://helpx.adobe.com/enterprise/using/set-up-identity.html) in the *Enterprise Admin Console* documentation.
