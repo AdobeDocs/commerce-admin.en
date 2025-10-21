@@ -30,7 +30,7 @@ Status is tracked for the following feeds:
 
 ## Install the extension
 
-The Data Feed Status page is available at no additional cost to all Commerce merchants with active licenses for the following Commerce services:
+The Data Feed Status page is available to all Commerce merchants with active licenses for the following Commerce services:
 
 * [[!DNL Product Recommendations v6.0.0+]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)
 * [[!DNL Live Search v4.1.0+]](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview)
@@ -40,7 +40,7 @@ The Data Feed Status page is available at no additional cost to all Commerce mer
 
 * PHP 8.1, 8.2, 8.3, or 8.4
 * Adobe Commerce 2.4.4+
-* [Adobe Commerce Data Export extension](manage-extension.md#update-a-module-to-a-specific-version), version 103.4.11 or later
+* [Adobe Commerce Data Export Extension](manage-extension.md#update-a-module-to-a-specific-version), version 103.4.11 or later
 * Access to [repo.magento.com](https://repo.magento.com)
 
   To generate keys and obtain the necessary rights, see [Get your authentication keys](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). For cloud installations, see the [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
@@ -57,24 +57,20 @@ composer require adobe-commerce/module-extra-product-attributes
 For detailed installation steps, see the following guides:
 
 * [Install extension on Adobe Commerce on Cloud Infrastructure](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions)
-* [Install extension Adobe Commerce on-premises](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extension)
 
+* [Install extension Adobe Commerce on-premises](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)
 
-The Data Feed Status page is available at no additional cost to all Commerce merchants with active licenses for the following Commerce services:
+## Access the Data Feed Status page
 
-* [[!DNL Product Recommendations v6.0.0+]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)
-* [[!DNL Live Search v4.1.0+]](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview)
-* [[!DNL Catalog Service v1.17+]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview) with an active license.
+From the Commerce Admin, Access the Data Feed Status page from the Commerce Admin at **[!DNL System]** > Data Transfer > **[!DNL Data Feed SyncStatus]**.
 
-From the Commerce Admin, Access the Data Feed Status page from the Commerce Admin at **[!DNL System]** > Data Transfer > **[!DNL Data feed status]**.
-
-![Data Feed Sync Status page summarizing data feed export activity](data-feed-sync-status.png)
+![Data Feed Sync Status page summarizing data feed export activity](assets/data-feed-sync-status.png)
 
 Data Feed Status monitoring provides two interfaces, the [Data Feed Sync Status summary page](#feed-status-summary-page) that lists the available feeds and current state, and a [detail page](#feed-sync-status-details) that shows detailed information about a selected feed.
 
-## Feed Sync Status summary
+## Data Feed Sync Status summary
 
-The Feed Sync Status page provides a summary table of data feed export activity, including the following information:
+The Feed Sync Status summary page provides information about data feed export activity including the following information:
 
 | Field | Description |
 |-------|-------------|
@@ -84,13 +80,13 @@ The Feed Sync Status page provides a summary table of data feed export activity,
 | **Failed Records** | Number of records that failed to export and require attention. |
 | **Action** | Available actions for each feed (View Details, Resync). |
 
-## Feed Sync Status details
+## Data Feed Sync Status details
 
-From the Feed Status summary page, click a feed name or use the [!DNL View Details] action to access detailed information about individual records within a feed.
+From the Data Feed Status summary page, click a feed name or use the [!DNL View Details] action to access detailed information about individual records within a feed.
 
 <!--TO DO: Insert updated screen capture-->
 
-![Data Feed Sync Status detail page with feed item status reporting](data-feed-status-dashboard.png)
+![[!UICONTROL Data Feed Sync Status - Details] page with feed item status reporting](assets/data-feed-sync-status-detail.png)
 
 The detail view provides the following information for each feed item:
 
@@ -103,8 +99,7 @@ The detail view provides the following information for each feed item:
 | **Entity ID** | The source entity ID (product ID, category ID, and so on) |
 | **Export Status** | The [synchronization status](#export-status-types) of the feed item. Current status of the export attempt with color-coded indicators |
 | **Last Sync Date** | Timestamp when the record was last sent to Commerce Services |
-| **Is entity deleted?** | Indicates whether the entity or its part (for example, product or product price) has been deleted in Adobe Commerce. Deleted |
-items are displayed only if an error occurred during synchronization. |
+| **Is entity deleted?** | Indicates whether the entity or its part (product or product price for example) has been deleted in Adobe Commerce. Items are displayed only if an error occurred during synchronization. |
 | **Error** | Detailed error information if the feed item failed to synchronize. |
 | **Request ID** | A unique identifier for the synchronization request. Provide this ID to Support when troubleshooting specific entity updates. |
 
@@ -129,7 +124,7 @@ At the top of each feed detail page, critical health indicators provide system s
 #### Indexer mode
 
 * **Schedule mode** (Recommended): Indexer runs on schedule, reducing risk of data loss
-* **Realtime mode** (Warning): Immediate processing but higher risk of data loss under load
+* **Relative mode** (Warning): Immediate processing but higher risk of data loss under load
 
 ### Export status types
 
@@ -139,14 +134,14 @@ The system uses color-coded status indicators to help you quickly identify issue
 
 | **Status** | **Description** | **Action required** |
 |--------|-----------|-------------|-----------------|
-| **Submitted to service** | Feed item successfully exported to Commerce service | None |
-| **Failed, will retry** | Temporary failure, system will automatically retry | Monitor for resolution |
-| **Failed, requires attention** | Failed due to application or data error. | Investigate and resolve issue in the [!DNL Error] column|
-| **Awaiting submission** | Queued for export but not yet processed | Normal processing state |
+| **Submitted to service** | Feed item successfully exported to Commerce service. | None |
+| **Failed, will retry** | Temporary failure. The system will automatically retry. | Monitor for resolution |
+| **Failed, requires attention** | Failed due to application or data error. | Investigate and resolve the issue in the [!DNL Error] column|
+| **Awaiting submission** | Queued for export but not yet processed. | Normal processing state |
 
 ## Monitor data feed status
 
-When you update product and category related entities in the Commerce database, the data transfers to Commerce services according to your feed configuration. You can monitor this process in real time from the Data Feed Sync Status Sync summary page.
+When you update product and category related entities in the Commerce database, the data transfers to Commerce services according to your feed configuration. You can monitor this process in real time from the Data Feed Sync Status summary page.
 
 >[!IMPORTANT]
 >
@@ -164,10 +159,13 @@ To see the details of failed exports and take corrective action:
 
 1. From the Feed Sync Status page, find the feed with failed records.
 1. Click **[!DNL Details]**.
-1. Review error messages for specific failure reasons.
-1. Use mass actions to schedule resync operrations for failed items.
 
-![Feed Detail View](feed-detail-view.png)
+   ![Feed Detail View](assets/data-feed-sync-status-details.png)
+
+1. Review error messages for specific failure reasons.
+
+1. Use mass actions to schedule resync operations for failed items.
+
 
 ### Resync failed data
 
@@ -175,10 +173,10 @@ To ensure that your external services receive the most current information, you 
 
 While the system automatically retries certain types of failures, manual intervention may be necessary in the following scenarios:
 
-* When you notice authentication or permission errors (401, 403 status codes)
-* After resolving data format issues that caused payload errors
-* Following updates to external service configurations or endpoints
-* When deploying customizations that impact data export processes
+* You notice authentication or permission errors (401, 403 status codes).
+* After resolving data format issues that caused payload errors.
+* Following updates to external service configurations or endpoints.
+* You are deploying customizations that impact data export processes.
 
 By proactively monitoring feed status and addressing failures promptly, you can maintain data consistency and reliability across your Commerce ecosystem.
 
@@ -197,7 +195,7 @@ If you need to resync specific feed items:
 
 **Resync options:**
 
-* **Selected Items**: Reschedule only the items you have selected
+* **Selected Items**: Reschedule only the items that you have selected
 * **Full Feed Resync**: When no items are selected, this option triggers a complete feed resync
 
 ## Best practices
@@ -205,16 +203,16 @@ If you need to resync specific feed items:
 ### Regular monitoring
 
 1. **Daily Checks**: Review the overview page daily for any feeds showing high failure rates
-1. **Weekly Deep Dive**: Examine detailed status for critical feeds (products, prices)
+1. **Weekly Deep Dive**: Examine the detailed status for critical feeds (products, prices)
 1. **Monthly Analysis**: Track trends in export success rates and performance
 
 ### Troubleshooting workflow
 
 1. **Identify Issues**: Look for errors and high failure counts
-1. **Check Indexer Health**: Ensure indexers are valid and backlog is manageable
+1. **Check Indexer Health**: Ensure that indexers are valid and backlog is manageable
 1. **Review Error Details**: Click on failed records to see specific error messages
 1. **Schedule Resync**: Use mass actions to retry failed exports
-1. **Monitor Resolution**: Verify that resynced items show successful status
+1. **Monitor Resolution**: Verify that resynchronized items show successful status
 
 ### Fix common issues
 
@@ -261,7 +259,7 @@ If you need to resync specific feed items:
 1. Verify API credentials and tokens
 1. Check external service account permissions
 1. Renew expired authentication tokens
-1. Contact service provider for access issues
+1. Contact your service provider for access issues
 
 ### Performance optimization
 
