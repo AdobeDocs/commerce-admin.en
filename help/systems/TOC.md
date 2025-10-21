@@ -42,9 +42,9 @@ feature: System
     - [Import downloadable products](data-transfer-downloadable-products.md)
     - [Import tier price data](data-import-price-tier.md)
   - [Scheduled import and export](data-scheduled-import-export.md)
-  - Data synchronization for Commerce services
+  - Data synchronization for Commerce services {#data-sync}
     - [Data Management Dashboard](data-dashboard.md)
-    - [Data Feed Sync Status](data-feed-status.md)
+    - [Data Feed Sync Status](data-feed-sync-status.md)
 - Action logs {#action-logs}
   - [Overview](action-log.md)
   - [Action logs report](action-log-report.md)
