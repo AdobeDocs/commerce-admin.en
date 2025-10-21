@@ -91,6 +91,10 @@ Although attributes are managed primarily from the [Stores](../stores-purchase/s
 
    ![Manage Titles](./assets/product-attribute-add-manage-titles.png){width="600" zoomable="yes"}
 
+      >[!NOTE]
+   >
+   >If you plan to use this attribute as a facet in Live Search, you must specify a store-specific label. If you do not, the attribute name does not appear correctly in the facet configuration page. You must manually edit the label using the [edit option in the Live Search faceting list](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional) in the _Live Search Guide_.
+
 ## Step 5: Describe the storefront properties
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Storefront Properties]** section.

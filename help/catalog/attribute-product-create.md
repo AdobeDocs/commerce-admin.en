@@ -98,6 +98,10 @@ You can create attributes while working on a product or from the _[!UICONTROL Pr
 
    ![Product attribute - manage titles](./assets/product-attribute-add-manage-titles.png){width="600" zoomable="yes"}
 
+   >[!NOTE]
+   >
+   >If you plan to use this attribute as a facet in Live Search, you must specify a store-specific label. If you do not, the attribute name does not appear correctly in the facet configuration page. You must manually edit the label using the [edit option in the Live Search faceting list](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional) in the _Live Search Guide_.
+
 ## Step 4: Describe the storefront properties
 
 1. In the left side navigation, choose **[!UICONTROL Storefront Properties]**.
