@@ -9,7 +9,8 @@ badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.ad
 
 Adobe Commerce administrators can monitor the synchronization status of data export feeds from the Data Feed Sync Status page in the Commerce Admin.
 
-![Data Feed Sync Status detail page with feed item status reporting](data-feed-status-dashboard.png)
+![Data Feed Sync Status detail page with feed item status reporting](assets/data-feed-sync-status.png)
+
 
 This page provides real-time insights into the health and performance of data export feeds that transfer product and category data from Commerce to external services such as [[!DNL Product Recommendations]], [[!DNL Live Search]], and [[!DNL Catalog Service]].
 
