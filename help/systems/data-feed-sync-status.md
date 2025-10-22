@@ -7,11 +7,11 @@ badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.ad
 
 # Data Feed Status Monitoring
 
-Adobe Commerce administrators can monitor the synchronization status of data export feeds from the Data Feed Sync Status page in the Commerce Admin.
+Adobe Commerce administrators can monitor the synchronization status of data exported from Adobe Commerce to connected Commerce services using the Data Feed Sync Status page in the Commerce Admin.
 
 ![Data Feed Sync Status detail page with feed item status reporting](assets/data-feed-sync-status.png)
 
-This page provides real-time insights into the health and performance of data export feeds that transfer product and category data from Commerce to external services such as [!DNL Product Recommendations], [!DNL Live Search], and [!DNL Catalog Service].
+This page provides real-time insights into the health and performance of data export feeds that transfer product and category data from Commerce to external services such as [!DNL Product Recommendations], [!DNL Live Search], and [!DNL Catalog Service]. A successful export status indicates that the data was transmitted to the SaaS platform and is now available to the connected services.
 
 Monitoring feed status helps ensure data consistency and enables prompt resolution of any issues that arise during the export process. Administrators can:
 
@@ -40,7 +40,7 @@ The Data Feed Status page is available to all Commerce merchants with active lic
 
 * PHP 8.1, 8.2, 8.3, or 8.4
 * Adobe Commerce 2.4.4+
-* [Adobe Commerce Data Export Extension](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/manage-extension), version 103.4.11 or later
+* [Adobe Commerce Data Export Extension](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/manage-extension), version 103.4.15 or later
 * Access to [repo.magento.com](https://repo.magento.com)
 
   To generate keys and obtain the necessary rights, see [Get your authentication keys](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). For cloud installations, see the [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
@@ -52,7 +52,7 @@ The Data Feed Status page is available to all Commerce merchants with active lic
 Add the `adobe-commerce/module-extra-product-attributes` module using Composer:
 
 ```shell
-composer require adobe-commerce/module-extra-product-attributes
+composer require magento/module-data-exporter-status
 ```
 
 For detailed installation steps, see the following guides:
@@ -115,15 +115,17 @@ At the top of each feed detail page, critical health indicators provide system s
 
 #### Indexer status
 
-* **Valid**: Indexer is up-to-date and functioning normally
-* **Invalid**: Indexer needs to be rerun to capture recent changes.
-* **Processing**: Indexer is currently running
+* **Valid**: Data is synchronized; no reindex required.
+* **Invalid**: Original data was changed; the index should be updated.
+* **Processing**: Indexing in progress.
 
+>[!TIP]
+>
+>To learn more about index processing, see the [Index Management](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management) topic.
 #### Changelog backlog
 
 * **All synced**: No pending changes to process
 * **Items in backlog**: Number of pending changes waiting to be processed
-* **High backlog warning**: More than 1,000 items indicates potential performance issues
 
 ### Export status types
 
@@ -165,7 +167,7 @@ To see the details of failed exports and take corrective action:
 
 ### Resync failed data
 
-To ensure that your external services receive the most current information, you can manually resync failed or problematic data feeds by using the [!DNL Actions] menu on the Data Feed Sync Status - Details page.
+You can manually resync failed or problematic data feeds by using the [!DNL Actions] menu on the [!DNL Data Feed Sync Status - Details] page.
 
 While the system automatically retries certain types of failures, manual intervention may be necessary in the following scenarios:
 
@@ -252,12 +254,6 @@ If you need to resync specific feed items:
 1. Check external service account permissions
 1. Renew expired authentication tokens
 1. Contact your service provider for access issues
-
-### Performance optimization
-
-* **Maintain Schedule Mode**: Keep indexers in schedule mode for optimal performance
-* **Monitor Backlog**: Address high changelog backlogs promptly
-* **Batch Operations**: Use mass actions for efficient bulk resync operations
 
 >[!MORELIKETHIS]
 >
