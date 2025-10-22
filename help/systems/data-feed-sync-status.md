@@ -40,7 +40,7 @@ The Data Feed Status page is available to all Commerce merchants with active lic
 
 * PHP 8.1, 8.2, 8.3, or 8.4
 * Adobe Commerce 2.4.4+
-* [Adobe Commerce Data Export Extension](manage-extension.md#update-a-module-to-a-specific-version), version 103.4.11 or later
+* [Adobe Commerce Data Export Extension](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/manage-extension), version 103.4.11 or later
 * Access to [repo.magento.com](https://repo.magento.com)
 
   To generate keys and obtain the necessary rights, see [Get your authentication keys](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). For cloud installations, see the [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
@@ -84,9 +84,13 @@ The Feed Sync Status summary page provides information about data feed export ac
 
 From the Data Feed Status summary page, click a feed name or use the [!DNL View Details] action to access detailed information about individual records within a feed.
 
+<!--TO DO: Insert updated screen capture-->
+
 ![[!UICONTROL Data Feed Sync Status - Details] page with feed item status reporting](assets/data-feed-sync-status-details.png)
 
 The detail view provides the following information for each feed item:
+
+<!--To Do: Verify files names in the detail view-->
 
 | Field | Description |
 |-------|-------------|
@@ -98,6 +102,8 @@ The detail view provides the following information for each feed item:
 | **Is entity deleted?** | Indicates whether the entity or its part (product or product price for example) has been deleted in Adobe Commerce. Items are displayed only if an error occurred during synchronization. |
 | **Error** | Detailed error information if the feed item failed to synchronize. |
 | **Request ID** | A unique identifier for the synchronization request. Provide this ID to Support when troubleshooting specific entity updates. |
+
+<!--Validate the content below. Not sure it is implemented or applicable for initial release of the Data Feed Status extension-->
 
 ### Feed health indicators
 
