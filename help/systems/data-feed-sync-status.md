@@ -11,7 +11,7 @@ Adobe Commerce administrators can monitor the synchronization status of data exp
 
 ![Data Feed Sync Status detail page with feed item status reporting](assets/data-feed-sync-status.png)
 
-This page provides real-time insights into the health and performance of data export feeds that transfer product and category data from Commerce to external services such as [!DNL Product Recommendations], [!DNL Live Search], and [!DNL Catalog Service]. A successful export status indicates that the data was transmitted to the SaaS platform and is now available to the connected services.
+This page provides real-time insights into the health and performance of data export feeds that transfer product and category data from Commerce to external services such as [!DNL Product Recommendations], [!DNL Live Search], and [!DNL Catalog Service].
 
 Monitoring feed status helps ensure data consistency and enables prompt resolution of any issues that arise during the export process. Administrators can:
 
@@ -27,6 +27,10 @@ Status is tracked for the following feeds:
 * Product Overrides Feed
 * Product Prices Feed
 * Product Variants Feed
+
+>[!TIP]
+>
+>To learn more about the data synchronization process, see [Synchronize data with SaaS data export](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-synchronization)in the *SaaS Data Export Guide**.
 
 ## Install the extension
 
@@ -49,7 +53,7 @@ The Data Feed Status page is available to all Commerce merchants with active lic
 
 ### Installation steps
 
-Add the `adobe-commerce/module-extra-product-attributes` module using Composer:
+Add the `adobe-commerce/module-data-exporter-status` module using Composer:
 
 ```shell
 composer require magento/module-data-exporter-status
@@ -122,6 +126,7 @@ At the top of each feed detail page, critical health indicators provide system s
 >[!TIP]
 >
 >To learn more about index processing, see the [Index Management](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management) topic.
+
 #### Changelog backlog
 
 * **All synced**: No pending changes to process
@@ -186,11 +191,6 @@ If you need to resync specific feed items:
 2. **Choose Action**: Select **[!DNL Schedule Resync]** from the mass action dropdown.
 3. **Confirm**: Click **[!DNL Submit]** and confirm the resync operation.
 4. **Monitor Results**: Check the success message and monitor status changes.
-
-**Resync options:**
-
-* **Selected Items**: Reschedule only the items that you have selected
-* **Full Feed Resync**: When no items are selected, this option triggers a complete feed resync
 
 ## Best practices
 
