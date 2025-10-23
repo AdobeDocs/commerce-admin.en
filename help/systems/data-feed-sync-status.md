@@ -55,7 +55,7 @@ The Data Feed Status page is available to all Commerce merchants with active lic
 
 ### Installation steps
 
-Add the `adobe-commerce/module-data-exporter-status` module using Composer:
+Add the `magento/module-data-exporter-status` module using Composer:
 
 ```shell
 composer require magento/module-data-exporter-status
