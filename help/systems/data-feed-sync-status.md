@@ -13,7 +13,7 @@ Adobe Commerce administrators can monitor the synchronization status of data exp
 
 This page provides real-time insights into the health and performance of data export feeds that transfer product and category data from Commerce to external services such as [!DNL Product Recommendations], [!DNL Live Search], and [!DNL Catalog Service]. 
 
-The sync status page shows only the export status. A success status indicates that the data is successfully exported to SaaS database for publication. Use the [Data management dashboard](data-dashboard.md) to track data transferred from the Commerce database to connected services. 
+The sync status page shows only the export status. A success status indicates that the data is successfully exported to the SaaS database and will eventually be available in connected Commerce services. Use the [Data management dashboard](data-dashboard.md) to see the actual state of entity synchronization.
 
 Monitoring feed status helps ensure data consistency and enables prompt resolution of any issues that arise during the export process. Administrators can:
 
@@ -32,7 +32,7 @@ Status is tracked for the following feeds:
 
 >[!TIP]
 >
->To learn more about the data synchronization process, see [Synchronize data with SaaS data export](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-synchronization)in the *SaaS Data Export Guide**.
+>To learn more about the data synchronization process, see [Synchronize data with SaaS data export](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-synchronization)in the *SaaS Data Export Guide*.
 
 ## Install the extension
 
