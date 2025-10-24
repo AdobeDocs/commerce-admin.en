@@ -1,11 +1,11 @@
 ---
-title: Data Feed Status Monitoring
+title: Data Feed Sync Status Monitoring
 description: Monitor data export synchronization and identify any issues or delays with feed processing for [!DNL Catalog Service], [!DNL Live Search], and [!DNL Product Recommendations].
 feature: Products, Customers, Data Import/Export
 badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 
-# Data Feed Status Monitoring
+# Data Feed Sync Status Monitoring
 
 Adobe Commerce administrators can monitor the synchronization status of data exported from Adobe Commerce to connected Commerce services using the Data Feed Sync Status page in the Commerce Admin.
 
@@ -13,7 +13,7 @@ Adobe Commerce administrators can monitor the synchronization status of data exp
 
 This page provides real-time insights into the health and performance of data export feeds that transfer product and category data from Commerce to external services such as [!DNL Product Recommendations], [!DNL Live Search], and [!DNL Catalog Service]. 
 
-The sync status page shows only the export status. A success status indicates that the data is successfully exported to SaaS database for publication. Use the [Data management dashboard](data-dashboard.md) to track data transferred from the Commerce database to connected services. 
+The sync status page shows only the export status. A success status indicates that the data is successfully exported and will eventually be available in connected Commerce services. Use the [Data management dashboard](data-dashboard.md) to see the actual state of entity synchronization.
 
 Monitoring feed status helps ensure data consistency and enables prompt resolution of any issues that arise during the export process. Administrators can:
 
@@ -32,7 +32,7 @@ Status is tracked for the following feeds:
 
 >[!TIP]
 >
->To learn more about the data synchronization process, see [Synchronize data with SaaS data export](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-synchronization)in the *SaaS Data Export Guide**.
+>To learn more about the data synchronization process, see [Synchronize data with SaaS data export](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-synchronization)in the *SaaS Data Export Guide*.
 
 ## Install the extension
 
@@ -55,7 +55,7 @@ The Data Feed Status page is available to all Commerce merchants with active lic
 
 ### Installation steps
 
-Add the `adobe-commerce/module-data-exporter-status` module using Composer:
+Add the `magento/module-data-exporter-status` module using Composer:
 
 ```shell
 composer require magento/module-data-exporter-status
@@ -69,7 +69,7 @@ For detailed installation steps, see the following guides:
 
 ## Access the Data Feed Status page
 
-From the Commerce Admin, Access the Data Feed Status page from the Commerce Admin at **[!DNL System]** > Data Transfer > **[!DNL Data Feed SyncStatus]**.
+From the Commerce Admin, Access the Data Feed Status page from the Commerce Admin at **[!DNL System]** > Data Transfer > **[!DNL Data Feed Sync Status]**.
 
 ![Data Feed Sync Status page summarizing data feed export activity](assets/data-feed-sync-status.png)
 
