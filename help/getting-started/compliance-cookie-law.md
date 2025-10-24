@@ -216,6 +216,16 @@ Being used as a part of tabs functionality implementation only in an administrat
 - `dataservices_cart_id`: Identifies a shopper's cart actions. This cookie contains the customer's unique cart ID in the system.
 - `dataservices_product_context`: Identifies a shopper's product interactions. This cookie contains the customer's unique quote ID in the system.
 
+### Product Recommendations local storage data
+
+The following data is saved to local storage for stores using the Luma theme when Live Search or Product Recommendations is installed:
+
+- `ds-cart`: Stores cart information for Luma-specific functionality
+- `ds-cart-order`: Stores order information for cart functionality
+- `ds-purchase-history`: Tracks customer purchase history
+- `ds-view-history-time-decay`: Stores product view history with time-based decay
+- `ds-logged-in`: Indicates customer login status. This data only exists when the customer is logged in and is stored even when cookie restriction mode is enabled. This is the only data that Commerce stores in local storage when cookie restriction mode is enabled, regardless of user consent status.
+
 ## Additional cookies
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) The following cookies are set for Adobe Commerce customers. These cookies are installed with the [DataServices module](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).

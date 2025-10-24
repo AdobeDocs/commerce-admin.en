@@ -89,6 +89,7 @@ You can transfer items to the cart from a customer's wish list, or any recently 
    - [!UICONTROL Payment Method]
    - [!UICONTROL Shipping Method]
    - [!UICONTROL Order Comments]
+   - [!UICONTROL [Custom Order Attributes]](../stores-purchase/order-processing.md#custom-order-attributes)
 
 >[!NOTE]
 >
