@@ -2,8 +2,22 @@
 title: What's New
 description: This section contains the changes made in the last 60 days. We exclude
   all minor updates, such as copy editing, from this list.
-updated: Fri Oct 17 15:27:12 2025
+updated: Mon Oct 27 13:59:46 2025
 entries:
+- description: Added documentation for the [Data Feed Sync Status extension](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status)
+    to monitor data export feed synchronization from Adobe Commerce to the Commerce
+    SaaS database for publication to connected Commerce services (Live Search, Product
+    Recommendations, Catalog Service). The Data Sync Status page is available from
+    the Systems menu in the Commerce Admin.
+  versions: ''
+  type: new-topic
+  date: October 23, 2025
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/659
+  merge_commit: 3a91e33221d7bcd6a42ae9c5da18a70e5d697d15
+  contributor: meker
+  membership:
+  labels:
+  - new-topic
 - description: Added October 2025 B2B security patch [release notes](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes).
   versions: ''
   type: major-update
