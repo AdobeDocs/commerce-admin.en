@@ -53,11 +53,31 @@ United Parcel Service ships both domestically and internationally. However, ship
 
 The [!DNL United States Postal Service] ships both domestically and internationally.
 
+{{$include /help/_includes/usps-api-type-configuration-note.md}}
+
 1. Continuing in the **[!UICONTROL Delivery Methods]** configuration, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL USPS]** section.
+
+1. Select **[!UICONTROL USPS Type]** as `USPS Rest APIs` or `USPS Web Tools API`.
 
 1. Verify that the **[!UICONTROL Secure Gateway URL]** is correct.
 
 1. Enter the **[!UICONTROL Password]** provided to you by USPS.
+1. Verify that the following configuration is complete based on the selected **[!UICONTROL USPS Type]**:
+
+   If you are using the USPS Web Tools API:
+      - User Id
+      - Password
+
+   If you are using the USPS REST APIs:
+      - Consumer Key
+      - Consumer Secret
+      - Pricing Options
+      - Account Type
+      - Account Number
+      - Customer Registration ID (CRID)
+      - Mailer Identifier (MID)
+      - Manifest MID
+      - AES/ITN
 
 1. Set **[!UICONTROL Size]** to `Large` and enter values for the following dimensions:
 
@@ -65,37 +85,6 @@ The [!DNL United States Postal Service] ships both domestically and internationa
    - Width
    - Height
    - Girth
-
-1. Click **[!UICONTROL Save Config]**.
-
-### FedEx configuration
-
-FedEx ships domestically and internationally. Stores located outside the United States can create FedEx labels for international shipments only.
-
-1. Continuing in the **[!UICONTROL Delivery Methods]** configuration, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL FedEx]** section.
-
-1. Verify that the following FedEx credentials are correct:
-
-   - Meter Number
-   - Key
-   - Password
-
-1. Click **[!UICONTROL Save Config]**.
-
-### DHL configuration
-
-DHL provides international shipping services.
-
-1. Continuing in the **[!UICONTROL Delivery Methods]** configuration, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL DHL]** section.
-
-1. Verify that the **[!UICONTROL Gateway URL]** is correct.
-
-1. Verify that the following credentials are complete:
-
-   - Access ID
-   - Password
-   - Account Number
-
 1. Click **[!UICONTROL Save Config]**.
 
 ## Step 3: Create shipping labels
