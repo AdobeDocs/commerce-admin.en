@@ -85,13 +85,17 @@ The [!DNL United States Postal Service] ships both domestically and internationa
    - Width
    - Height
    - Girth
+
 1. Click **[!UICONTROL Save Config]**.
 
 ### FedEx configuration
 
 FedEx ships domestically and internationally. Stores located outside the United States can create FedEx labels for international shipments only.
+
 1. Continuing in the **[!UICONTROL Delivery Methods]** configuration, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL FedEx]** section.
+
 1. Verify that the following FedEx credentials are correct:
+
    - Meter Number
    - Key
    - Password
@@ -101,14 +105,16 @@ FedEx ships domestically and internationally. Stores located outside the United 
 ### DHL configuration
 
 DHL provides international shipping services.
+
 1. Continuing in the **[!UICONTROL Delivery Methods]** configuration, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL DHL]** section.
-1. Select **[!UICONTROL DHL Type]** as `DHL REST` or `DHL XML`.
-1. Verify that the following credentials are complete based on the **[!UICONTROL DHL Type]** selection:
+
+1. Verify that the **[!UICONTROL Gateway URL]** is correct.
+
+1. Verify that the following credentials are complete:
+
    - Access ID
    - Password
    - Account Number
-   - API Key
-   - API Secret
 
 1. Click **[!UICONTROL Save Config]**.
 
