@@ -62,6 +62,7 @@ The [!DNL United States Postal Service] ships both domestically and internationa
 1. Verify that the **[!UICONTROL Secure Gateway URL]** is correct.
 
 1. Enter the **[!UICONTROL Password]** provided to you by USPS.
+
 1. Verify that the following configuration is complete based on the selected **[!UICONTROL USPS Type]**:
 
    If you are using the USPS Web Tools API:
