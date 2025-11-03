@@ -21,7 +21,7 @@ However, a user who wants to streamline their login to Adobe Commerce and Adobe 
 
 ## Log in to your [!DNL Commerce] account
 
-An Adobe ID is required to access your Commerce account. If you have an existing [!DNL Commerce] account but have not signed in since August 2022, you will need to create an Adobe ID during the sign-in process. Completing this step is necessary before you can log in to your account.
+An Adobe ID is required to access your Commerce account. If you have an existing [!DNL Commerce] account but have not signed in since August 2022, you must create an Adobe ID during the sign-in process. Completing this step is necessary before you can log in to your account.
 
 >[!WARNING]
 >
