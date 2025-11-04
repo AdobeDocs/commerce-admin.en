@@ -47,7 +47,7 @@ The Adobe Stock licensing feature is available only if the the [Adobe Stock Inte
 
 1. [Access the Adobe Stock Search grid][adobe-stock-manage.md].
 
-1. To [view the image details][view-details], click an image in the search grid in order.
+1. To [view the image details][adobe-stock-manage.md#view-image-details], click an image in the search grid in order.
 
 1. Depending on the current licensing status of the image, do one of the following:
 
