@@ -112,7 +112,7 @@ The current owner completes these steps to associate their Adobe ID with another
 
 >[!NOTE] You must have access to the email address so that you can retrieve the email with the confirmation code.
 >
->If you are unable to access the account's email, ask your IT team to set up email forwarding for the account email address in your company's email system. If email forwarding cannot be configured, ensure the new Account Owner has an Adobe ID and then [submit a Support request](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) with all necessary details to initiate the account transfer.
+>If you cannot access the account email, ask your IT team to set up email forwarding for the account email address in your company email system. If email forwarding cannot be configured, ensure the new Account Owner has an Adobe ID and then [submit a Support request](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) with all necessary details to initiate the account transfer.
 
 1. Click **[!UICONTROL Change]**.
 
