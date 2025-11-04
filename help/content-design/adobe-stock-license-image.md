@@ -45,7 +45,7 @@ The Adobe Stock licensing feature is available only if the the [Adobe Stock Inte
 
 ## License an image from the standard media storage
 
-1. [Access the Adobe Stock Search grid][access-search].
+1. [Access the Adobe Stock Search grid][adobe-stock-manage.md].
 
 1. To [view the image details][view-details], click an image in the search grid in order.
 
