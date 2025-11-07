@@ -92,5 +92,5 @@ feature: Catalog Management
     + [Create and delete attributes](attribute-product-create.md)
     + [Bulk updates](bulk-product-attribute-update.md)
     + [Attribute sets](attribute-sets.md)
-+ [Return to Admin User Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+
 
