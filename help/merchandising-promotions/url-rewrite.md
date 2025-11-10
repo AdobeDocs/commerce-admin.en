@@ -41,7 +41,7 @@ By default, [automatic URL redirects](url-redirect-product-automatic.md) are en
 
 ## URL rewrites demo
 
-Watch this video to learn about managing URL rewrites:
+Watch the following video to learn about managing URL rewrites:
 
 >[!VIDEO](https://video.tv.adobe.com/v/343751?quality=12&learn=on)
 
@@ -55,7 +55,7 @@ You can create URL rewrites to:
 
 * Add additional URLs for a temporary seasonal change, or permanent change.
 
-* Add a valid path for a page, including CMS content pages. For example, the system always references products and categories by their ID internally, and you want to create a more user- or SEO-friendly URL path.
+* Add a valid path for a page, including CMS content pages. For example, you can create a URL to create a more user- or SEO-friendly URL on a system that always references products and categories by their internal ID.
 
 The URL rewrites you create can redirect to existing categories or custom pages without changing your site structure, making it easy to create memorable URLs for marketing campaigns.
 
@@ -72,7 +72,7 @@ Commerce offers these URL rewrite types:
 
 URL rewrites are commonly used in these scenarios:
 
-#### Internal system URL vs. SEO-friendly URL
+#### Change an internal system URL to an SEO-friendly URL
 
 Commerce uses ID-based URLs internally, but you can create SEO-friendly URLs for customers:
 
@@ -144,13 +144,13 @@ The following example shows how URLs appear with and without web server rewrites
 
 ### Specify canonical URLs
 
-For SEO purposes, it is a good idea that each of your web pages has only one, distinct URL.
+For SEO purposes, each of your web pages should have only one, distinct URL.
 
 If you have a single page accessible by multiple URLs, or different pages with similar content, Google sees these as duplicate versions of the same page. Google chooses one URL as the canonical version and crawls that, and all other URLs are considered duplicate URLs and are crawled less often.
 
-If you don't explicitly tell Google which URL is canonical, it makes the choice for you, or might consider them both of equal weight. This could lead to unwanted behavior, and runs the risk of an ineffective crawl budget and low distributed backlinks.
+If you don't explicitly tell Google which URL is canonical, it makes the choice for you, or might consider them both of equal weight. This could lead to unwanted behavior, and risks an ineffective crawl budget and low distributed backlinks.
 
-Depending on how you set up your website, there may be multiple versions of your site in the index, including:
+Depending on how you set up your website, there may be multiple versions of your site in the index, for example:
 
     https://www.example.com
     https://www.example.com/

@@ -22,7 +22,7 @@ The Scheduled Changes box appears at the top of the page when a new price rule i
 
 ## Ending a price rule sale at a specific time
 
-If an active price rule was created without an end date and you need to end it at a specific time, you cannot simply edit the existing scheduled update to add an end date. Instead, you must create a new scheduled update that changes the rule's status to `Inactive`. Set the start date of this new update to the date and time when you want the sale to end.
+If an active price rule was created without an end date and you need to end it at a specific time, you cannot edit the existing scheduled update to add an end date. Instead, you must create a new scheduled update that changes the rule's status to `Inactive`. Set the start date of this new update to the date and time when you want the sale to end.
 
 ## Schedule an update to a catalog price rule
 
@@ -52,7 +52,7 @@ If an active price rule was created without an end date and you need to end it a
 
    >[!NOTE]
    >
-   >Whenever you update any rule information parameters, ensure that the _[!UICONTROL Status]_ is set correctly.  If you want the change to result in an actively applied rule, set the status to `Active`.
+   >Whenever you update any rule information parameters, ensure that the _[!UICONTROL Status]_ is set correctly. If you want the change to result in an actively applied rule, set the status to `Active`.
 
 1. When complete, click **[!UICONTROL Save]**.
 
@@ -62,7 +62,7 @@ If an active price rule was created without an end date and you need to end it a
 
 >[!NOTE]
 >
->If a campaign is linked to more than one catalog price rule, the campaign can be edited only from the [Content Staging Dashboard](../content-design/content-staging-dashboard.md).
+>If a campaign is linked to more than one catalog price rule, you can only edit the campaign from the [Content Staging Dashboard](../content-design/content-staging-dashboard.md).
 
 1. In the **[!UICONTROL Scheduled Changes]** box at the top of the page, click **[!UICONTROL View/Edit]**.
 
