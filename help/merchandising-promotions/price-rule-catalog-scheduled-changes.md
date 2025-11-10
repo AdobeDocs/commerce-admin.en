@@ -14,7 +14,7 @@ The Scheduled Changes box appears at the top of the page when a new price rule i
 
 ## How scheduled price rule updates work
 
-- All scheduled updates are applied consecutively. This means that any entity can have only one scheduled update at one point of time.
+- All scheduled updates are applied consecutively. This means that any entity can have only one scheduled update at a time.
 
 - Any scheduled update is applied to all store views within its time frame. As a result, an entity cannot have different scheduled updates for different store views at the same time. All entity attribute values within all store views, which are not affected by the current scheduled update, are taken from the default values, and not from the previous scheduled update.
 
