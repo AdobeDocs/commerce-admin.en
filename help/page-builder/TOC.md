@@ -41,3 +41,4 @@ badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.ad
   - [Products](products.md)
   - [Product Recommendations](recommendations.md)
 - [Templates](templates.md)
+- [Return to Admin User Guides](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

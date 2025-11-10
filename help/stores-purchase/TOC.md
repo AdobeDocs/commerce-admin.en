@@ -125,3 +125,4 @@ recommendations: noDisplay
     + [Shipping label overview](shipping-labels.md)
     + [Configure shipping labels](shipping-label-configure.md)
     + [Create shipping labels](shipping-label-create.md)
++ [Return to Admin User Guides](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

@@ -77,4 +77,4 @@ feature: Configuration
   - [Admin](./advanced/admin.md)
   - [System](./advanced/system.md)
   - [Developer](./advanced/developer.md)
-
+- [Return to Admin User Guides](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
