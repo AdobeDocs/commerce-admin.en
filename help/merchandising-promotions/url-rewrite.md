@@ -11,7 +11,7 @@ badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.ad
 >
 >For Adobe Commerce as a Cloud Service, see the [SEO guidelines](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) in the Commerce Storefront documentation
 
-The URL Rewrites tool lets you change any URL that is associated with a product, category, or CMS page. When you create a URL rewrite, Commerce automatically creates a permanent redirect (301) so that any links pointing to the old URL are redirected to the new address.
+The URL rewrites tool lets you change any URL that is associated with a product, category, or CMS page. When you create a URL rewrite, Commerce automatically creates a permanent redirect (301) so that any links pointing to the old URL are redirected to the new address.
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ The terms _rewrite_ and _redirect_ are often used interchangeably, but they are 
 
 ## How the Rewrites tool works
 
-In Adobe Commerce, the URL Rewrites tool creates permanent redirects (301) by default to preserve SEO value when you change the URL key of a product, category, or page. This behavior ensures that existing links continue to work and search engine rankings are maintained.
+In Adobe Commerce, the URL rewrites tool creates permanent redirects (301) by default to preserve SEO value when you change the URL key of a product, category, or page. This behavior ensures that existing links continue to work and search engine rankings are maintained.
 
 By default, [automatic URL redirects](url-redirect-product-automatic.md) are enabled for your store and the **Create Permanent Redirect for old URL** checkbox is selected under the URL key field of each product.
 
@@ -47,7 +47,7 @@ Watch the following video to learn about managing URL rewrites:
 
 ## Create URL rewrites
 
-Use the URL Rewrites tool to create product and category redirects, and custom redirects for any page in your store. When the URL rewrite configuration is applied, any existing links that point to the previous URL are seamlessly redirected to the new address.
+Use the URL rewrites tool to create product and category redirects, and custom redirects for any page in your store. When the URL rewrite configuration is applied, any existing links that point to the previous URL are seamlessly redirected to the new address.
 
 You can create URL rewrites to:
 
