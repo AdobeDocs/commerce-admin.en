@@ -39,6 +39,10 @@ The Security Scan Tool is available for free from the dashboard of your [Commerc
 
 1. To verify your ownership of the site domain by adding a confirmation code, do one of the following:
 
+>[!BEGINTABS]
+
+>[!TAB Commerce storefront]
+
    **Commerce storefront**:
 
    1. Enter the **[!UICONTROL Site URL]** and **[!UICONTROL Site Name]**.
@@ -57,6 +61,8 @@ The Security Scan Tool is available for free from the dashboard of your [Commerc
          ![Scripts and Style Sheets](./assets/scan-paste-code.png){width="600" zoomable="yes"}
 
       1. When complete, click **[!UICONTROL Save Configuration]**.
+
+>[!TAB PWA storefront]
 
    **PWA storefront**:
 
@@ -98,6 +104,8 @@ The Security Scan Tool is available for free from the dashboard of your [Commerc
 
          After the build process completes, the changes will be deployed to your PWA store front.
 
+>[!TAB AEM Storefront]
+   
    **AEM Storefront**
    1. Enter the **[!UICONTROL Site URL]** and **[!UICONTROL Site Name]**.
 
@@ -122,7 +130,7 @@ The Security Scan Tool is available for free from the dashboard of your [Commerc
      ```
 
      After the build process completes, the changes will be deployed to your AEM store front.
-
+>[!ENDTABS]
 
 1. Return to the _[!UICONTROL Security Scan]_ page in your Commerce account, and click **[!UICONTROL Verify Confirmation Code]** to establish ownership of the domain.
 
