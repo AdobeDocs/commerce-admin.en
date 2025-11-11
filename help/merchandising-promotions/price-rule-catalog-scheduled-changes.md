@@ -10,21 +10,19 @@ feature: Merchandising, Price Rules, Catalog Management
 
 The Scheduled Changes box appears at the top of the page when a new price rule is saved or updated. Catalog price rules can be applied on schedule as part of a campaign and grouped with other content changes. You can create a campaign based on scheduled changes to a price rule, or apply the changes to an existing campaign.
 
->[!NOTE]
->
->The [!UICONTROL From] and [!UICONTROL To] fields have been removed in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce and cannot be modified directly on the catalog price rule. You must create a scheduled update for these activations.
-
->[!NOTE]
->
->All scheduled updates are applied consecutively. This means that any entity can have only one scheduled update at one point of time. Any scheduled update is applied to all store views within its time frame. As a result, an entity cannot have different scheduled updates for different store views at the same time. All entity attribute values within all store views, which are not affected by the current scheduled update, are taken from the default values, and not from the previous scheduled update.
-
-If there are multiple price rules running in the same campaign, the Priority setting of the price rule determines which rule takes precedence. To learn more, see [Content Staging](../content-design/content-staging.md).
-
->[!IMPORTANT]
->
->If an active campaign is initially created without an end date, the campaign cannot be edited later to include an end date. In such a case, it is necessary to create a duplicate campaign and enter the end date that is needed.
-
 ![Catalog price rule - scheduled changes](./assets/price-rule-catalog-scheduled.png){width="600" zoomable="yes"}
+
+## How scheduled price rule updates work
+
+- All scheduled updates are applied consecutively. This means that any entity can have only one scheduled update at a time.
+
+- Any scheduled update is applied to all store views within its time frame. As a result, an entity cannot have different scheduled updates for different store views at the same time. All entity attribute values within all store views, which are not affected by the current scheduled update, are taken from the default values, and not from the previous scheduled update.
+
+- If there are multiple price rules running in the same campaign, the Priority setting of the price rule determines which rule takes precedence. To learn more, see [Content Staging](../content-design/content-staging.md).
+
+## Ending a price rule sale at a specific time
+
+If an active price rule was created without an end date and you need to end it at a specific time, you cannot edit the existing scheduled update to add an end date. Instead, you must create a new scheduled update that changes the rule's status to `Inactive`. Set the start date of this new update to the date and time when you want the sale to end.
 
 ## Schedule an update to a catalog price rule
 
@@ -54,7 +52,7 @@ If there are multiple price rules running in the same campaign, the Priority set
 
    >[!NOTE]
    >
-   >If you change to any of the rule information parameters, make sure that the _[!UICONTROL Status]_ is set correctly. If you want the change to result in an actively applied rule, the status should be`Active`.
+   >Whenever you update any rule information parameters, ensure that the _[!UICONTROL Status]_ is set correctly. If you want the change to result in an actively applied rule, set the status to `Active`.
 
 1. When complete, click **[!UICONTROL Save]**.
 
@@ -62,13 +60,13 @@ If there are multiple price rules running in the same campaign, the Priority set
 
 ## Edit a scheduled rule change
 
+>[!NOTE]
+>
+>If a campaign is linked to more than one catalog price rule, you can only edit the campaign from the [Content Staging Dashboard](../content-design/content-staging-dashboard.md).
+
 1. In the **[!UICONTROL Scheduled Changes]** box at the top of the page, click **[!UICONTROL View/Edit]**.
 
 1. Make any changes necessary to the scheduled update.
-
-   >[!NOTE]
-   >
-   >If a campaign is linked to more than one catalog price rule, the campaign can be edited only from the [Content Staging Dashboard](../content-design/content-staging-dashboard.md).
 
 1. Click **[!UICONTROL Save]**.
 
@@ -98,11 +96,11 @@ If there are multiple price rules running in the same campaign, the Priority set
 
    **Share a Link to the Preview**
 
-   To share a link to the store preview with your colleagues, click **[!UICONTROL Share]**. Copy the link to the clipboard and paste it into the body of an email message.
+   To share a link to the store preview with other Admin users, click **[!UICONTROL Share]**. Copy the link to the clipboard and paste it into the body of an email message.
 
    >[!NOTE]
    >
-   >An Admin user account is required to see a shared preview. If your [role has access](../systems/permissions-user-roles.md) to create an Admin user account, you must create the account for a new user before sharing.
+   >If your [role has access](../systems/permissions-user-roles.md) to manage Admin user accounts, you can create or update an existing user account with Admin permissions so that you can share the preview link.
 
    **Change the Scope of the Preview**
 

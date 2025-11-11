@@ -42,7 +42,9 @@ feature: System
     - [Import downloadable products](data-transfer-downloadable-products.md)
     - [Import tier price data](data-import-price-tier.md)
   - [Scheduled import and export](data-scheduled-import-export.md)
-  - [Data Management Dashboard](data-dashboard.md)
+  - Data synchronization for Commerce services {#data-sync}
+    - [Data Management Dashboard](data-dashboard.md)
+    - [Data Feed Sync Status](data-feed-sync-status.md)
 - Action logs {#action-logs}
   - [Overview](action-log.md)
   - [Action logs report](action-log-report.md)
@@ -71,6 +73,4 @@ feature: System
   - [Session management](security-session-management.md)
   - [Browser capabilities detection](security-browser-capabilities-detection.md)
   - [Security issue reporting](security-issue-reporting.md)
-- [Return to Admin User Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
-
-
+- [Return to Admin User Guides](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
