@@ -20,30 +20,37 @@ The Security Scan Tool is available for free from the dashboard of your [Commerc
 
 ![Security Scan Tool](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
-## Run a security scan
+## Workflow
+
+To set up and configure the Security Scan Tool for your Adobe Commerce or Magento Open Source site, complete two steps:
+
+1. [Set up your site for security scanning](#step-1-set-up-your-site-for-security-scanning)
+2. [Configure automatic security scans](#step-2-configure-automatic-security-scans)
+
+### Step 1: Set up your site for security scanning
 
 1. From the Commerce home page, sign in to your [Commerce/Magento account](../getting-started/commerce-account-create.md).
 
-1. Review and accept the terms for using the Security Scan Tool.
+2. Review and accept the terms for using the Security Scan Tool.
 
    1. In the left panel, choose **[!UICONTROL Security Scan]**.
    1. Click **[!UICONTROL Go to Security Scan]**.
    1. Read the **[!UICONTROL Terms and Conditions]**.
    1. Click **[!UICONTROL Agree]** to continue.
 
-1. On the _[!UICONTROL Monitored Websites]_ page, click **[!UICONTROL +Add Site]**.
+3. On the _[!UICONTROL Monitored Websites]_ page, click **[!UICONTROL +Add Site]**.
 
    If you have multiple sites with different domains, configure a separate scan for each domain.
 
    ![Monitored Sites](./assets/monitored-website.png){width="600" zoomable="yes"}
 
-1. To verify your ownership of the site domain by adding a confirmation code, do one of the following:
+4. Verify your ownership of the site domain by generating and adding a confirmation code to the Security scan tool.
+
+   The process for adding the confirmation code varies depending on the type of storefront you are using. Follow the steps for your storefront type.
 
 >[!BEGINTABS]
 
 >[!TAB Commerce storefront]
-
-   **Commerce storefront**:
 
    1. Enter the **[!UICONTROL Site URL]** and **[!UICONTROL Site Name]**.
    1. Click **[!UICONTROL Generate Confirmation Code]**.
@@ -62,9 +69,9 @@ The Security Scan Tool is available for free from the dashboard of your [Commerc
 
       1. When complete, click **[!UICONTROL Save Configuration]**.
 
->[!TAB PWA storefront]
+   1. Return to the _[!UICONTROL Security Scan]_ page in your Commerce account, and click **[!UICONTROL Verify Confirmation Code]** to establish ownership of the domain.
 
-   **PWA storefront**:
+>[!TAB PWA storefront]
 
    1. Enter the **[!UICONTROL Site URL]** and **[!UICONTROL Site Name]**.
 
@@ -104,9 +111,10 @@ The Security Scan Tool is available for free from the dashboard of your [Commerc
 
          After the build process completes, the changes will be deployed to your PWA storefront.
 
+   1. Return to the _[!UICONTROL Security Scan]_ page in your Commerce account, and click **[!UICONTROL Verify Confirmation Code]** to establish ownership of the domain.
+
 >[!TAB AEM Storefront]
-   
-   **AEM Storefront**
+
    1. Enter the **[!UICONTROL Site URL]** and **[!UICONTROL Site Name]**.
 
    1. For **[!UICONTROL Confirmation Code]**, choose the `HTML Content` or `META Tag` option and then click **[!UICONTROL Generate Code]**.
@@ -116,8 +124,9 @@ The Security Scan Tool is available for free from the dashboard of your [Commerc
       ![Generate Confirmation Code](./assets/scan-site3.png){width="400" zoomable="yes"}
 
    1. Go to the AEM storefront project directory and do the following:
-       1. Under the AEM storefront project directory, go to `head.html`.
-       1. Add the copied confirmation code (the generated HTML Content or META Tag) to `head.html` file and save the changes.
+
+      1. Under the AEM storefront project directory, go to `head.html`.
+      1. Add the copied confirmation code (the generated HTML Content or META Tag) to `head.html` file and save the changes.
 
        ![Copy Confirmation Code](./assets/code-aem.png){width="600" zoomable="yes"}
 
@@ -129,18 +138,20 @@ The Security Scan Tool is available for free from the dashboard of your [Commerc
       git push origin
       ```
 
-     After the build process completes, the changes will be deployed to your AEM store front.
-   
+      After the build process completes, the changes will be deployed to your AEM store front.
+
+   1. Return to the _[!UICONTROL Security Scan]_ page in your Commerce account, and click **[!UICONTROL Verify Confirmation Code]** to establish ownership of the domain.
+
 >[!ENDTABS]
 
-1. Return to the _[!UICONTROL Security Scan]_ page in your Commerce account, and click **[!UICONTROL Verify Confirmation Code]** to establish ownership of the domain.
+### Step 2: Configure automatic security scans
 
-1. After a successful confirmation, configure the **[!UICONTROL Set Automatic Security Scan]** options for one of the following types:
+1. After successfully verifying site ownership, configure the **[!UICONTROL Set Automatic Security Scan]** options for one of the following types:
 
    **Scan Weekly (recommended)**:
 
    Choose the **[!UICONTROL Week Day]**, **[!UICONTROL Time]**, and **[!UICONTROL Time Zone]** that the scan is to take place each week.
-   
+
    By default, the scan is scheduled to begin each week at midnight Saturday, UTC, and continue through early Sunday.
 
    ![Scan Weekly](./assets/scan-weekly.png){width="500" zoomable="yes"}
@@ -148,7 +159,7 @@ The Security Scan Tool is available for free from the dashboard of your [Commerc
    **Scan Daily**:
 
    Choose the **[!UICONTROL Time]**, and **[!UICONTROL Time Zone]** that the scan is to take place each day.
-   
+
    By default, the scan is scheduled to begin each day at midnight, UTC.
 
    ![Scan Daily](./assets/scan-daily.png){width="500" zoomable="yes"}
