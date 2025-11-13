@@ -102,7 +102,7 @@ The Security Scan Tool is available for free from the dashboard of your [Commerc
          git push origin
          ```
 
-         After the build process completes, the changes will be deployed to your PWA store front.
+         After the build process completes, the changes will be deployed to your PWA storefront.
 
 >[!TAB AEM Storefront]
    
