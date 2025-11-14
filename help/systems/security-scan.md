@@ -127,6 +127,10 @@ To set up and configure the Security Scan Tool for your Adobe Commerce or Magent
 
       1. Under the AEM storefront project directory, go to `head.html`.
       1. Add the copied confirmation code (the generated HTML Content or META Tag) to `head.html` file and save the changes.
+      
+      >[!NOTE]
+      >
+      >Verification of site ownership works only if confirmation is added directly to the `head.html` file in the AEM storefront project directory. It cannot be added through webpage editing tools like Document Authoring or the Universal Editor.
 
        ![Copy Confirmation Code](./assets/code-aem.png){width="600" zoomable="yes"}
 
