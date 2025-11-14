@@ -2,7 +2,7 @@
 title: What's New
 description: This section contains the changes made in the last 60 days. We exclude
   all minor updates, such as copy editing, from this list.
-updated: Fri Nov 7 17:35:01 2025
+updated: Fri Nov 14 15:25:55 2025
 entries:
 - description: Added documentation for the [Data Feed Sync Status extension](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status)
     to monitor data export feed synchronization from Adobe Commerce to the Commerce
