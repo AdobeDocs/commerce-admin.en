@@ -130,7 +130,7 @@ To set up and configure the Security Scan Tool for your Adobe Commerce or Magent
       
       >[!NOTE]
       >
-      >Verification of site ownership would only work if confirmation is added directly into AEM storefront project directory. It cannot be added through webpage editing tools like Document Authoring or the Universal Editor.
+      >Verification of site ownership works only if confirmation is added directly to the `head.html` file in the AEM storefront project directory. It cannot be added through webpage editing tools like Document Authoring or the Universal Editor.
 
        ![Copy Confirmation Code](./assets/code-aem.png){width="600" zoomable="yes"}
 
