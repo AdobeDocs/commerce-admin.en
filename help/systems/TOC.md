@@ -73,6 +73,4 @@ feature: System
   - [Session management](security-session-management.md)
   - [Browser capabilities detection](security-browser-capabilities-detection.md)
   - [Security issue reporting](security-issue-reporting.md)
-- [Return to Admin User Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
-
-
+- [Return to Admin User Guides](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
