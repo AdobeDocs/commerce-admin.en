@@ -32,7 +32,9 @@ The following instructions walk you through each step to create a basic page. So
 
 Depending on your [Advanced Content Tools configuration](../configuration-reference/general/content-management.md), add the page content.
 
-   Page Builder content editor does not show preview of CMS Page elements which are not available for the default Store View. For example, the CMS Block which is assigned to the non-default Store Views only. In this case you must publish your CMS page first. And then you can view this page on the Storefront directly. Or you can use the CMS page [!UICONTROL View] in the [!UICONTROL Action] column on the [!UICONTROL Pages] grid of Admin Panel.
+>[!NOTE]
+>
+>The Page Builder content editor does not show a preview of CMS Page elements which are not available for the default Store View. For example, you cannot preview a CMS Block which is assigned only to non-default store views . In this case, you must publish your CMS page first. Then, you can view this page on the Storefront directly. Alternatively, you can view the page from the [!UICONTROL Pages] grid in the Admin by selecting the CMS page [!UICONTROL View] in the [!UICONTROL Action] column.
 
 #### Use the Page Builder content tools
 
