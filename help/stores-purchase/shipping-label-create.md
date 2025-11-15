@@ -53,6 +53,8 @@ United Parcel Service ships both domestically and internationally. However, ship
 
 The [!DNL United States Postal Service] ships both domestically and internationally.
 
+{{$include /help/_includes/usps-api-type-configuration-note.md}}
+
 1. Continuing in the **[!UICONTROL Delivery Methods]** configuration, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL USPS]** section.
 
 1. Select **[!UICONTROL USPS Type]** as `USPS Rest APIs` or `USPS Web Tools API`.
@@ -66,6 +68,23 @@ The [!DNL United States Postal Service] ships both domestically and internationa
       - Password
 
    If you are using the USPS Rest APIs:
+      - Consumer Key
+      - Consumer Secret
+      - Pricing Options
+      - Account Type
+      - Account Number
+      - Customer Registration ID (CRID)
+      - Mailer Identifier (MID)
+      - Manifest MID
+      - AES/ITN
+
+1. Verify that the following configuration is complete based on the selected **[!UICONTROL USPS Type]**:
+
+   If you are using the USPS Web Tools API:
+      - User Id
+      - Password
+
+   If you are using the USPS REST APIs:
       - Consumer Key
       - Consumer Secret
       - Pricing Options

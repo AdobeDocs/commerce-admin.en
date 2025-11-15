@@ -177,9 +177,3 @@ The Search box in the upper left of the Orders grid can be used to find specific
 
 {style="table-layout:auto"}
 
-## Troubleshooting resources
-
-For help with troubleshooting order issues, see the following Commerce Support Knowledge Base articles:
-
-- [Orders display error](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html)
-- [Orders not displayed in the Orders grid in the Admin](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.html)

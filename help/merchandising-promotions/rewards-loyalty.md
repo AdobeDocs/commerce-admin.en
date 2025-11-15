@@ -177,8 +177,3 @@ All actions related to reward points are displayed in the customer's _[!UICONTRO
 
 {style="table-layout:auto"}
 
-## Troubleshooting resources
-
-For help with troubleshooting reward points issues, see the following Commerce Support Knowledge Base articles:
-
-- [404 error - removing rewards points on multi-shipping checkout](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html)
