@@ -26,7 +26,9 @@ For the best control over the positioning and format of headings of all levels, 
 
 When you expand the _[!UICONTROL Content]_ section and there is existing content created with [!DNL Page Builder], it displays a preview of the content as it would appear in a page. Click **[!UICONTROL Edit with Page Builder]** or inside the content preview area to open the [!DNL Page Builder] workspace, where you can make any needed updates.
 
-   Page Builder content editor does not show preview of CMS Page elements which are not available for the default Store View. For example, the CMS Block which is assigned to the non-default Store Views only. In this case you must publish your CMS page first. And then you can view this page on the Storefront directly. Or you can use the CMS page [!UICONTROL View] in the [!UICONTROL Action] column on the [!UICONTROL Pages] grid of Admin Panel.
+>[!NOTE]
+>
+>The Page Builder content editor does not show a preview of CMS Page elements which are not available for the default Store View. For example, you cannot preview a CMS Block which is assigned only to non-default store views . In this case, you must publish your CMS page first. Then, you can view this page on the Storefront directly. Alternatively, you can view the page from the [!UICONTROL Pages] grid in the Admin by selecting the CMS page [!UICONTROL View] in the [!UICONTROL Action] column.
 
 ![Product description preview](./assets/pb-product-category-content-preview.png){width="500" zoomable="yes"}
 
