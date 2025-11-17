@@ -4,6 +4,33 @@ description: This section contains the changes made in the last 60 days. We excl
   all minor updates, such as copy editing, from this list.
 updated: Fri Nov 14 15:25:55 2025
 entries:
+- description: Clarified how to end an active price rule sale at a specific time when
+    no end date was specified in the [Scheduled changes for catalog price rules](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-catalog-scheduled-changes)
+    topic.<br/>Reorganized the [URL rewrites](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite)
+    topic to improve examples, conceptual definitions, and group additional URL management
+    configuration instructions for Web Server Rewrites and Canonical URLs.
+  versions: ''
+  type: feedback
+  date: November 10, 2025
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/677
+  merge_commit: 29acc84df8c5b2f6ea4d894f5ae022b62ad2cad2
+  contributor: meker
+  membership:
+  labels:
+  - feedback
+- description: Updated the [Shipping Carrier Setup](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers)
+    instructions with instructions for migrating from USPS Web Tools API to the USPS
+    REST APIs.
+  versions: ''
+  type: technical, feedback
+  date: October 30, 2025
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/672
+  merge_commit: 5304a26081e0f4639c962d77b1932d300e5a4a6e
+  contributor: meker
+  membership:
+  labels:
+  - technical
+  - feedback
 - description: Added documentation for the [Data Feed Sync Status extension](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status)
     to monitor data export feed synchronization from Adobe Commerce to the Commerce
     SaaS database for publication to connected Commerce services (Live Search, Product

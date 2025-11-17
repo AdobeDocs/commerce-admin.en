@@ -138,3 +138,5 @@ The handling fee is optional, and appears as an extra charge that is added to th
 
 [1]: https://secure.shippingapis.com/registration/
 [2]: https://www.usps.com/business/web-tools-apis/welcome.htm
+
+<!-- Last updated from includes: 2025-10-29 05:34:15 -->
