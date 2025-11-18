@@ -2,10 +2,12 @@
 title: What's New
 description: This section contains the changes made in the last 60 days. We exclude
   all minor updates, such as copy editing, from this list.
-updated: Mon Nov 17 17:38:33 2025
+updated: Mon Nov 17 18:08:50 2025
 entries:
 - description: Added guidance about the availability of Page Builder preview on the
-    CMS Page. The preview does not display content unless it is available in the Default
+    CMS Page to the [Add and remove pages](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/page-add)
+    and the [Page Builder Workspace](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/workspace)
+    topics. The preview does not display content unless it is available in the Default
     Store View.
   versions: ''
   type: technical, feedback
