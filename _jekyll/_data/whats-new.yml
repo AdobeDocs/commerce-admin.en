@@ -2,21 +2,51 @@
 title: What's New
 description: This section contains the changes made in the last 60 days. We exclude
   all minor updates, such as copy editing, from this list.
-updated: Fri Nov 14 15:25:55 2025
+updated: Mon Nov 17 18:08:50 2025
 entries:
+- description: Added guidance about the availability of Page Builder preview on the
+    CMS Page to the [Add and remove pages](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/page-add)
+    and the [Page Builder Workspace](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/workspace)
+    topics. The preview does not display content unless it is available in the Default
+    Store View.
+  versions: ''
+  type: technical, feedback
+  date: November 15, 2025
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/678
+  merge_commit: 929fe633f473af030f44e9b0d6b0f9bf8b4c53d5
+  contributor: vkolesny
+  membership:
+  labels:
+  - technical
+  - feedback
+- description: The [Security Scan tool](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan)
+    has been updated to support merchants with Commerce storefronts deployed as Adobe
+    Experience Manager sites.
+  versions: ''
+  type: technical
+  date: November 13, 2025
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/666
+  merge_commit: 467decc88b33ada26ae7aa4afbf9b4a8e78f23cc
+  contributor: miroshny
+  membership:
+  labels:
+  - enhancement
+  - minor-update
+  - technical
 - description: Clarified how to end an active price rule sale at a specific time when
     no end date was specified in the [Scheduled changes for catalog price rules](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-catalog-scheduled-changes)
     topic.<br/>Reorganized the [URL rewrites](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite)
     topic to improve examples, conceptual definitions, and group additional URL management
     configuration instructions for Web Server Rewrites and Canonical URLs.
   versions: ''
-  type: feedback
+  type: technical, feedback
   date: November 10, 2025
   link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/677
   merge_commit: 29acc84df8c5b2f6ea4d894f5ae022b62ad2cad2
   contributor: meker
   membership:
   labels:
+  - technical
   - feedback
 - description: Updated the [Shipping Carrier Setup](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers)
     instructions with instructions for migrating from USPS Web Tools API to the USPS
@@ -45,6 +75,20 @@ entries:
   membership:
   labels:
   - new-topic
+- description: Added information about how to configure Single Sign-On (SSO) for secure
+    access to Adobe Apps to the [Configure the Commerce Admin Integration with Adobe
+    ID](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config#identity-and-single-sign-on)
+    topic in the Commerce Merchant documentation.
+  versions: ''
+  type: technical, feedback
+  date: October 20, 2025
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/667
+  merge_commit: 9e399378ac6360936b7c0bd5f08355793976c096
+  contributor: keharper
+  membership:
+  labels:
+  - technical
+  - feedback
 - description: Added October 2025 B2B security patch [release notes](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes).
   versions: ''
   type: major-update
