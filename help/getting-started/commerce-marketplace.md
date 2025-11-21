@@ -81,7 +81,7 @@ The installation process for [!DNL Marketplace] purchases is different for _on-p
 
 If you need help with installing or with using an extension, look first in the documentation that accompanies the extension. If you can't find the answer to your question, use the contact information in the extension listing to contact the developer directly. If what you purchase on Marketplace does not meet your needs, you can [request a refund](#refund-requests) within 25 days from the date of purchase. Adobe reviews all refund requests and (if approved) issues the appropriate refund. For issues related to Commerce Marketplace:
 
-Method 1: Go to the [Adobe Commerce Marketplace](https://commercemarketplace.adobe.com/), navigate to the bottom of the page and click [!UICONTROL Contact Us] which will open a form to submit a ticket. 
+Method 1: Submit a support request from the [Adobe Commerce Marketplace - Contact Us](https://commercemarketplace.adobe.com/contact-us/) form.
 
 Method 2: [Email Support](mailto:commercemarketplacesupport@adobe.com).
 
