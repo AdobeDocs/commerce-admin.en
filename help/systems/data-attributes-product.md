@@ -143,7 +143,7 @@ If you export a configurable product, you would find the standard attributes tha
 |`bundle_price_type`|Determines if the price of a bundle item is fixed or dynamic.|
 |`bundle_sku_type`|Determines if each item is assigned a variable, dynamic SKU, or if a fixed SKU is used for the bundle. Options: Fixed / Dynamic|
 |`bundle_weight_type`|Determines if the weight of a bundle item is variable or fixed.|
-|`bundle_values`|Describes teach value associated with a bundle option. For example: `name=Bundle Option One,name_store_view_1=Group 1,type=dropdown; required=1,sku=sku-option2,price=10,default=0,default_qty=1.0000,price_type=fixed,can_change_qty=0,price_website_website_1=30.000000,price_type_website_website_1=fixed`<br/><br/>Where:<br/>  `price_website_[website-code]` and `price_type_website_[website-code]`  — Product price for website `[website-code]`. Available only when [Catalog Price Scope](../catalog/catalog-price-scope.md) is not **Global**<br/>`name_[store-view-code]` — Option title in store view `[store-view-code]`.|
+|`bundle_values`|Describes each value associated with a bundle option. For example: `name=Bundle Option One,name_store_view_1=Group 1,type=dropdown; required=1,sku=sku-option2,price=10,default=0,default_qty=1.0000,price_type=fixed,can_change_qty=0,price_website_website_1=30.000000,price_type_website_website_1=fixed`<br/><br/>In the `name_[store-view-code]` option, `[store-view-code]` is the name of the store view.<br/></br>The `price_website_[website-code]` and `price_type_website_[website-code]` options specify the product price for website `[website-code]`. If the  [Catalog Price Scope](../catalog/catalog-price-scope.md)  is set to *Global*, these options are not available.
 
 {style="table-layout:auto"}
 
