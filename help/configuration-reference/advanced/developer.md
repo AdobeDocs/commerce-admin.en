@@ -83,16 +83,15 @@ For more information about changing these settings, see [Translate inline](../..
 
 For more information about changing these settings, see [Optimizing resource files](../../systems/developer-tools.md#optimizing-resource-files) in the _Admin Systems Guide_.
 
-|Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)| Description                                                                                                                                                                          |
-|--- |--- |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|[!UICONTROL Merge JavaScript Files]|Store View| Merges multiple JavaScript files into a single file to improve page load time.                                                                                                       |
-|[!UICONTROL Enable JavaScript Bundling]|Store View| Determines if multiple JavaScript files can be bundled into one file. Options: `Yes` / `No`                                                                                          |
-|[!UICONTROL Minify JavaScript Files]|Store View| Removes unnecessary characters, spaces, and indentation to reduce the size of the code.                                                                                              |
-|[!UICONTROL Move JS code to the bottom of the page]|Global| If enabled, moves the JS code to the bottom of the page. Options: `Yes` / `No`                                                                                                       |
-|[!UICONTROL Translation Strategy]|Global| Determines the translation methodology that is used by the system. Options: <br/>**`Dictionary`** - Translation on storefront side. <br/>**`Embedded`** - Translation on Admin side. |
-|[!UICONTROL Log JS Errors to Session Storage]|Global| If enabled, can be used by functional tests for reporting. Options: `Yes` / `No`                                                                                                     |
-|[!UICONTROL Log JS Errors to Session Storage Key]|Global| Identifies the key that is used to retrieve collected js errors.                                                                                                                     |
-|[!UICONTROL Defer non-critical head scripts]|Store View| If enabled, it will automatically add a `defer` attribute to all non-critical scripts that are loaded through the page `head` section.                                               |
+|Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
+|--- |--- |--- |
+|[!UICONTROL Merge JavaScript Files]|Store View|Merges multiple JavaScript files into a single file to improve page load time.|
+|[!UICONTROL Enable JavaScript Bundling]|Store View|Determines if multiple JavaScript files can be bundled into one file. Options: `Yes` / `No`|
+|[!UICONTROL Minify JavaScript Files]|Store View|Removes unnecessary characters, spaces, and indentation to reduce the size of the code.|
+|[!UICONTROL Move JS code to the bottom of the page]|Global|If enabled, moves the JS code to the bottom of the page. Options: `Yes` / `No`|
+|[!UICONTROL Translation Strategy]|Global|Determines the translation methodology that is used by the system. Options: <br/>**`Dictionary`** - Translation on storefront side. <br/>**`Embedded`** - Translation on Admin side.|
+|[!UICONTROL Log JS Errors to Session Storage]|Global|If enabled, can be used by functional tests for reporting. Options: `Yes` / `No`|
+|[!UICONTROL Log JS Errors to Session Storage Key]|Global|Identifies the key that is used to retrieve collected js errors.|
 
 {style="table-layout:auto"}
 
