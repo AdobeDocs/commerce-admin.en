@@ -4,6 +4,28 @@
 
 This section contains the changes made in the last 60 days. We exclude all minor updates, such as copy editing, from this list.
 
+### November 21, 2025
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Updated the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-attributes-product#bundle-products">bundle product data attributes reference</a> to include new <code class="language-plaintext highlighter-rouge">bundle_values</code> options: <code class="language-plaintext highlighter-rouge">price_website_[website-code]</code> and <code class="language-plaintext highlighter-rouge">price_type_website_[website-code]</code>. These attributes let you import or export product prices by website code.</p>
+</td>
+      <td>
+        Technical
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/b0bd7d82b8d454e71af5b693165c14544a399630">commit</a></td>
+    </tr>
+  </tbody>
+</table>
+
 ### November 15, 2025
 
 <table style="table-layout:auto;">

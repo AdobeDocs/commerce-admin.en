@@ -2,8 +2,20 @@
 title: What's New
 description: This section contains the changes made in the last 60 days. We exclude
   all minor updates, such as copy editing, from this list.
-updated: Mon Nov 17 18:08:50 2025
+updated: Fri Nov 21 15:20:48 2025
 entries:
+- description: 'Updated the [bundle product data attributes reference](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-attributes-product#bundle-products)
+    to include new `bundle_values` options: `price_website_[website-code]` and `price_type_website_[website-code]`.
+    These attributes let you import or export product prices by website code.'
+  versions: ''
+  type: technical
+  date: November 21, 2025
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/688
+  merge_commit: b0bd7d82b8d454e71af5b693165c14544a399630
+  contributor: soumah
+  membership:
+  labels:
+  - technical
 - description: Added guidance about the availability of Page Builder preview on the
     CMS Page to the [Add and remove pages](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/page-add)
     and the [Page Builder Workspace](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/workspace)
