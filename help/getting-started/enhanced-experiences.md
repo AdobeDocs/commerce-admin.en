@@ -78,7 +78,7 @@ Adobe Commerce and Magento Open Source provide a range of tools to help you tail
 
 ## Optimize business processes and profitability
 
-- **[!DNL Advanced Reporting]** - Gain valuable insights at a glance with dynamic product, order, and customer reports, powered by [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=en).
+- **[!DNL Advanced Reporting]** - Gain valuable insights at a glance with dynamic product, order, and customer reports, powered by [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html).
 
 - **Dashboard snapshots** - Knowing what is of interest on your site is crucial to maximize your marketing budget. Use this [information on your dashboard](admin-dashboard.md) to determine what you should cross- and up-sell to loyal customers, or which products to put on sale.
 
