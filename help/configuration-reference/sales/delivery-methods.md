@@ -189,7 +189,7 @@ feature: Configuration, Shipping/Delivery
 
 {style="table-layout:auto"}
 
-The following fields are available only if you have applied the [USPS REST API Migration quality patch](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/usps-rest-api-migration-patch.html)(AC-1520). This patch enables support for the USPS APIs, a REST-based platform that replaces the Web Tools APIs. For details, see [USPS Web Tools API deprecation](../../stores-purchase/carriers.md).
+The following fields are available only if you have applied the [USPS REST API Migration quality patch](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210). This patch enables support for the USPS APIs, a REST-based platform that replaces the Web Tools APIs. For details, see [USPS Web Tools API deprecation](../../stores-purchase/carriers.md).
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
