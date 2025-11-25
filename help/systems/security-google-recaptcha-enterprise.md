@@ -9,8 +9,8 @@ feature: Configuration, Security
 [Google reCAPTCHA Enterprise](https://cloud.google.com/security/products/recaptcha#protect-against-fraud-and-abuse-with-modern-bot-protection-and-fraud-prevention-platform) provides advanced bot protection for your Adobe Commerce as a Cloud Service storefront by using adaptive risk analysis and machine learning to differentiate between human users and bots. This helps to prevent fraudulent activities, spam, and abuse on your site.
 
 >[!NOTE]
-   >
-   >This feature does NOT provide reCAPTCHA support for the Admin.
+>
+>This feature does NOT provide reCAPTCHA support for the Admin.
 
 See [Google reCAPTCHA V3 and V2](security-google-recaptcha.md) for information about configuring other versions of Google reCAPTCHA.
 
