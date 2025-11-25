@@ -73,7 +73,7 @@ Follow these general steps to set up Google reCAPTCHA Enterprise for your storef
 
 1. Expand the **[!UICONTROL Storefront]** section and set each storefront form that you want t protect to **[!UICONTROL reCAPTCHA Enterprise]**.
 
-   {{recaptcha-forms}}
+   {{recaptcha-forms-list}}
 
    ![Storefront options configuration](../configuration-reference/security/assets/recaptcha-storefront.png){width="600" zoomable="yes"}
 
