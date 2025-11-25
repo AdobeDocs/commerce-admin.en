@@ -27,7 +27,7 @@ Google reCAPTCHA Enterprise includes the following features:
 
 ## Prerequisites
 
-You need the following before you can configure Google reCAPTCHA Enterprise for your Adobe Commerce as a Cloud Service storefront:
+You need the following resources before you can configure Google reCAPTCHA Enterprise for your Adobe Commerce as a Cloud Service storefront:
 
 - An active Google Cloud account with reCAPTCHA Enterprise enabled.
 - Access to the Google Cloud Console to create and manage reCAPTCHA Enterprise keys.
