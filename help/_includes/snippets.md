@@ -85,20 +85,18 @@ To access the store configuration settings, choose **[!UICONTROL Stores]** > _[!
 
 ## reCAPTCHA forms list {#recaptcha-forms-list}
 
-   - [!UICONTROL Enable for Customer Login]
-   - [!UICONTROL Enable for Forgot Password]
-   - [!UICONTROL Enable for Create New Customer Account]
-   - [!UICONTROL Enable for Edit Customer Account]
-   - [!UICONTROL Enable for Create New Company Account] ![Adobe Commerce B2B](../assets/b2b.svg) (Available with Adobe Commerce B2B only)
-   - [!UICONTROL Enable for Contact Us]
-   - [!UICONTROL Enable for Product Review]
-   - [!UICONTROL Enable for Newsletter Subscription]
-   - [!UICONTROL Enable for Gift Card] ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only)
-   - [!UICONTROL Enable for Invitation Create Account]
-   - [!UICONTROL Enable for Send To Friend] - [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."} [Braintree](braintree.md)
-   
-   - [!UICONTROL Enable for Checkout/Placing Order]
-   - [!UICONTROL Enable for Wishlist Sharing]
-   - [!UICONTROL Enable for Coupon Codes]
-   - [!UICONTROL Enable for PayPal PayflowPro payment form] - [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."} [Braintree](braintree.md)
-   
+- [!UICONTROL Enable for Customer Login]
+- [!UICONTROL Enable for Forgot Password]
+- [!UICONTROL Enable for Create New Customer Account]
+- [!UICONTROL Enable for Edit Customer Account]
+- [!UICONTROL Enable for Create New Company Account] (Available with Adobe Commerce B2B only)
+- [!UICONTROL Enable for Contact Us]
+- [!UICONTROL Enable for Product Review]
+- [!UICONTROL Enable for Newsletter Subscription]
+- [!UICONTROL Enable for Gift Card] (Adobe Commerce only)
+- [!UICONTROL Enable for Invitation Create Account]
+- [!UICONTROL Enable for Send To Friend] - [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+- [!UICONTROL Enable for Checkout/Placing Order]
+- [!UICONTROL Enable for Wishlist Sharing]
+- [!UICONTROL Enable for Coupon Codes]
+- [!UICONTROL Enable for PayPal PayflowPro payment form] - [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
