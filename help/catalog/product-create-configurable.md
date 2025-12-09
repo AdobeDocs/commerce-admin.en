@@ -10,8 +10,6 @@ A configurable product displays as a single product with dropdown options for va
 
 **Best for:** Products with multiple options (color, size, material, etc.) where you need to track inventory for each variation. Initial setup takes longer but provides better scalability.
 
-**Time estimate:** 15-20 minutes
-
 ![Configurable product](./assets/product-configurable.png){width="700" zoomable="yes"}
 
 ## Before you begin
