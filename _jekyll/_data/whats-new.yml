@@ -2,8 +2,21 @@
 title: What's New
 description: This section contains the changes made in the last 60 days. We exclude
   all minor updates, such as copy editing, from this list.
-updated: Fri Dec 5 15:20:16 2025
+updated: Fri Dec 12 15:58:10 2025
 entries:
+- description: Updated the descriptions for the `NOFOLLOW` robots meta directives
+    in the [SEO documentation](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview).<br/>_Fixes
+    issue [#82](https://github.com/AdobeDocs/commerce-admin.en/issues/82)._
+  versions: ''
+  type: technical, feedback
+  date: December 11, 2025
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/705
+  merge_commit: 76e7c13c89b8ae53c4a3b56e5f090e6ffaa0b423
+  contributor: keharper
+  membership:
+  labels:
+  - technical
+  - feedback
 - description: Added information about which default cookies should not be disabled
     for [Cookie law compliance](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law).
   versions: ''
