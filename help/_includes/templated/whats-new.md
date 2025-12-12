@@ -4,6 +4,28 @@
 
 This section contains the changes made in the last 60 days. We exclude all minor updates, such as copy editing, from this list.
 
+### December 11, 2025
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Updated the descriptions for the <code class="language-plaintext highlighter-rouge">NOFOLLOW</code> robots meta directives in the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview">SEO documentation</a>.<br /><em>Fixes issue <a href="https://github.com/AdobeDocs/commerce-admin.en/issues/82">#82</a>.</em></p>
+</td>
+      <td>
+        Technical, feedback
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/76e7c13c89b8ae53c4a3b56e5f090e6ffaa0b423">commit</a></td>
+    </tr>
+  </tbody>
+</table>
+
 ### November 24, 2025
 
 <table style="table-layout:auto;">
