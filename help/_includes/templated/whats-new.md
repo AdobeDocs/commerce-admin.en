@@ -4,7 +4,7 @@
 
 This section contains the changes made in the last 60 days. We exclude all minor updates, such as copy editing, from this list.
 
-### November 21, 2025
+### December 11, 2025
 
 <table style="table-layout:auto;">
   <thead>
@@ -16,12 +16,34 @@ This section contains the changes made in the last 60 days. We exclude all minor
   </thead>
   <tbody>
     <tr>
-      <td><p>Updated the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-attributes-product#bundle-products">bundle product data attributes reference</a> to include new <code class="language-plaintext highlighter-rouge">bundle_values</code> options: <code class="language-plaintext highlighter-rouge">price_website_[website-code]</code> and <code class="language-plaintext highlighter-rouge">price_type_website_[website-code]</code>. These attributes let you import or export product prices by website code.</p>
+      <td><p>Updated the descriptions for the <code class="language-plaintext highlighter-rouge">NOFOLLOW</code> robots meta directives in the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview">SEO documentation</a>.<br /><em>Fixes issue <a href="https://github.com/AdobeDocs/commerce-admin.en/issues/82">#82</a>.</em></p>
+</td>
+      <td>
+        Technical, feedback
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/76e7c13c89b8ae53c4a3b56e5f090e6ffaa0b423">commit</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### November 24, 2025
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Added information about which default cookies should not be disabled for <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law">Cookie law compliance</a>.</p>
 </td>
       <td>
         Technical
       </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/b0bd7d82b8d454e71af5b693165c14544a399630">commit</a></td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/dbc09915e0ce6f052fa797ddd103f051ea289625">commit</a></td>
     </tr>
   </tbody>
 </table>
