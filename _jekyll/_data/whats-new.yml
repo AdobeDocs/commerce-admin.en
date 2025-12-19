@@ -2,8 +2,20 @@
 title: What's New
 description: This section contains the changes made in the last 60 days. We exclude
   all minor updates, such as copy editing, from this list.
-updated: Fri Dec 12 15:58:10 2025
+updated: Fri Dec 19 15:29:08 2025
 entries:
+- description: Updated the [Rewards and loyalty topic](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty)
+    to clarify how tax is calculated when customers use reward points or store credit
+    during checkout.
+  versions: ''
+  type: feedback
+  date: December 17, 2025
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/707
+  merge_commit: 1154cd5ced746ac6dfd609946528f281774bbaaa
+  contributor: emarr
+  membership:
+  labels:
+  - feedback
 - description: Updated the descriptions for the `NOFOLLOW` robots meta directives
     in the [SEO documentation](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview).<br/>_Fixes
     issue [#82](https://github.com/AdobeDocs/commerce-admin.en/issues/82)._
