@@ -43,7 +43,7 @@ end
 # Run optimization on all images at once
 Dir.chdir('_jekyll')
 paths_arg = relative_paths.map { |p| Shellwords.escape(p) }.join(' ')
-result = system("bundle exec rake images:optimize path='#{paths_arg}'")
+result = system("bundle exec rake images:optimize path=\"#{paths_arg}\"")
 
 puts "Warning: Some images failed to optimize" unless result
 
