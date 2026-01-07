@@ -1,77 +1,53 @@
 ---
-title: Shipping settings
-description: Learn how to configure the shipping settings that define the point of origin and shipping policy for your store.
-exl-id: 767b3039-39c7-4692-a0a8-a8fde27622cc
-feature: Shipping/Delivery
+title: '[!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings]'
+description: Review the configurations settings on the [!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings] page of the Commerce Admin.
+exl-id: d7d46946-f8c9-4714-96c3-2173e28f7bfa
+feature: Configuration, Shipping/Delivery
 ---
-# Shipping settings
+# [!UICONTROL Sales] > [!UICONTROL Shipping Settings]
 
-The shipping configuration establishes the point of origin for all shipments, your shipping policy, and the handling of shipments to multiple addresses.
+{{config}}
 
-## Point of origin
+For more information about changing these settings, see [Shipping settings](../../stores-purchase/shipping-settings.md) in the _Stores and Purchase Experience Guide_.
 
-The point of origin is used to calculate the charge for shipments made from your store or warehouse, and also determines the tax rate for products sold. When calculating [EU taxes](international-tax-guidelines.md#eu-tax-configuration), make sure that the [Default Tax Destination Calculation](../configuration-reference/sales/tax.md) for each store view corresponds to the Shipping Settings point of origin.
+## [!UICONTROL Origin]
 
-![Origin](../configuration-reference/sales/assets/shipping-settings-origin.png){width="600" zoomable="yes"}
+![Origin](./assets/shipping-settings-origin.png)<!-- zoom -->
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+|Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
+|--- |--- |--- |
+|[!UICONTROL Country]|Website|The point-of-origin country.|
+|[!UICONTROL Region/State]|Website|The point-of-origin region or state.|
+|[!UICONTROL ZIP/Postal Code]|Website|The point-of-origin ZIP or postal code.|
+|[!UICONTROL City]|Website|The point-of-origin city.|
+|[!UICONTROL Street Address]|Website|The point-of-origin street address.|
+|[!UICONTROL Street Address Line 2]|Website|An extra line for the point-of-origin street address, if needed.|
 
-1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Shipping Settings]**.
+{style="table-layout:auto"}
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Origin]** section and complete the following:
+## [!UICONTROL Shipping Policy Parameters]
 
-   - [!UICONTROL Country]
-   - [!UICONTROL Region / State]
-   - [!UICONTROL ZIP / Postal Code]
-   - [!UICONTROL City]
-   - [!UICONTROL Street Address] (and line 2, if needed)
+![Shipping Policy Parameters](./assets/shipping-settings-shipping-policy-parameters.png)<!-- zoom -->
 
-1. Click **[!UICONTROL Save Config]**.
+|Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
+|--- |--- |--- |
+|[!UICONTROL Apply Custom Shipping Policy]|Website|Determines if your shipping policy appears during checkout. Options: `Yes` / `No`|
+|[!UICONTROL Shipping Policy]|Store View|Contains your shipping policy as text.|
 
-## Shipping policy
+{style="table-layout:auto"}
 
-A shipping policy should explain your company's business rules and guidelines for shipments. For example, if you have price rules that trigger free shipping, you can explain the terms in your shipping policy.
+## [!UICONTROL Shipment Tracking URLs]
 
-![Shipping Policy During Checkout](./assets/storefront-checkout-shipping-policy.png){width="700" zoomable="yes"}
+[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service projects only (Adobe-managed SaaS infrastructure)."}
 
-To display your shipping policy during checkout, complete the Shipping Policy Parameters in the configuration. The text appears when customers click _See our shipping policy_ during checkout.
+![Shipping Policy Parameters](./assets/shipping-settings-shipment-tracking-urls.png)<!-- zoom -->
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+|Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
+|--- |--- |--- |
+|[!UICONTROL Enable Custom Tracking URLs]|Store View|Determines whether shipment tracking numbers sent in shopper emails are links or plain text. The default value of `No` indicates the numbers are plain text. Options: `Yes` / `No`|
+|[!UICONTROL USPS Tracking URL]|Store View|The URL template for United States Postal Service shipments.|
+|[!UICONTROL UPS Tracking URL]|Store View|The URL template for United Parcel Service shipments.|
+|[!UICONTROL FedEx Tracking URL]|Store View|The URL template for Federal Express shipments.|
+|[!UICONTROL DHL Tracking URL]|Store View|The URL template for DHL Express shipments.|
 
-1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Shipping Settings]**.
-
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Shipping Policy Parameters]** section.
-
-1. Set **[!UICONTROL Apply Custom Shipping Policy]** to `Yes`.
-
-1. Either paste or enter your **[!UICONTROL Shipping Policy]** into the text box.
-
-   >[!NOTE]
-   >
-   >If you use a word processor to compose the text, make sure to save the document as a .txt file to remove any control characters from the text. Then, copy and paste the text into the Shipping Policy text box.
-
-   ![Shipping Policy Parameters](../configuration-reference/sales/assets/shipping-settings-shipping-policy-parameters.png){width="600" zoomable="yes"}
-
-1. Click **[!UICONTROL Save Config]**.
-
-## Multiple addresses
-
-The multiple address shipping options enable customers to ship an order to multiple addresses during checkout, and determine the maximum number of addresses to which an order can be shipped.
-
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
-
-1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Multishipping Settings]**.
-
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Options]** section.
-
-   ![Multiaddress Shipping Options](../configuration-reference/sales/assets/multishipping-settings-options.png){width="600" zoomable="yes"}
-
-1. Set **[!UICONTROL Allow Shipping to Multiple Addresses]** to `Yes`.
-
-1. Enter the **[!UICONTROL Maximum Qty Allowed for Shipping to Multiple Addresses]**.
-
-1. Click **[!UICONTROL Save Config]**.
-
->[!NOTE]
->
->![Adobe Commerce B2B](../assets/b2b.svg) (Adobe Commerce B2B) For orders with multiple shipping addresses, the [Payment on Account](../b2b/enable-basic-features.md#configure-payment-on-account) payment method, even if enabled, are not available during the checkout.
+{style="table-layout:auto"}
