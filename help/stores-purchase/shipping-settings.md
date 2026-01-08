@@ -84,10 +84,10 @@ By default, shipment tracking numbers sent in shopper emails are plain text. You
 
 The following shipping carriers are supported:
 
-* United States Postal Service (USPS)
-* United Parcel Service (UPS)
-* Federal Express (FedEx)
-* DHL Express (DHL)
+- United States Postal Service (USPS)
+- United Parcel Service (UPS)
+- Federal Express (FedEx)
+- DHL Express (DHL)
 
 To enable or edit custom tracking URLs:
 
