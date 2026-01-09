@@ -113,25 +113,3 @@ This section contains the changes made in the last 60 days. We exclude all minor
     </tr>
   </tbody>
 </table>
-
-### November 10, 2025
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Description</th>
-      <th>Type</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Clarified how to end an active price rule sale at a specific time when no end date was specified in the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-catalog-scheduled-changes">Scheduled changes for catalog price rules</a> topic.<br />Reorganized the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite">URL rewrites</a> topic to improve examples, conceptual definitions, and group additional URL management configuration instructions for Web Server Rewrites and Canonical URLs.</p>
-</td>
-      <td>
-        Technical, feedback
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/29acc84df8c5b2f6ea4d894f5ae022b62ad2cad2">commit</a></td>
-    </tr>
-  </tbody>
-</table>
