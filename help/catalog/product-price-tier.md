@@ -72,11 +72,11 @@ The prices in the storefront take precedence from the highest to the lowest quan
 
 [!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and Adobe Commerce Optimizer projects only (Adobe-managed SaaS infrastructure)."}
 
-On previous versions of Commerce, tier pricing could not be used in conjunction with catalog price rules. The catalog rules ignored tier price configuration and calculated discounts only from the original base price. On Adobe Commerce as a Cloud Service, you can now enable tier pricing to be included in the calculation of catalog price rules. 
+In previous versions of Commerce, tier pricing could not be used in conjunction with catalog price rules. The catalog rules ignored tier price configuration and calculated discounts only from the original base price. Using Adobe Commerce as a Cloud Service, you can now choose to include tier pricing in the calculation of catalog price rules. 
 
 To enable this functionality:
 
-1. Navigate to **[!UICONTROL Store]**  >  *[!UICONTROL Settings]* > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** >  **[!UICONTROL Sales]** >  **[!UICONTROL Promotions]** and set the **[!UICONTROL Store]** field to **[!UICONTROL Yes]**.
+1. Navigate to **[!UICONTROL Stores]**  >  *[!UICONTROL Settings]* > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** >  **[!UICONTROL Sales]** >  **[!UICONTROL Promotions]** and set the **[!UICONTROL Store]** field to **[!UICONTROL Yes]**.
 
    ![Enable tier pricing for catalog price rules](../configuration-reference/sales/assets/sales-promotions-settings.png){width="700" zoomable="yes"}
 
