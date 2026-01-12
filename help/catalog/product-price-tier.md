@@ -70,13 +70,13 @@ The prices in the storefront take precedence from the highest to the lowest quan
 
 ## Enable tier pricing for catalog price rules
 
-[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and Adobe Commerce Optimizer projects only (Adobe-managed SaaS infrastructure)."}
+[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service projects only (Adobe-managed SaaS infrastructure)."}
 
-In previous versions of Commerce, tier pricing could not be used in conjunction with catalog price rules. The catalog rules ignored tier price configuration and calculated discounts only from the original base price. Using Adobe Commerce as a Cloud Service, you can now choose to include tier pricing in the calculation of catalog price rules. 
+In previous versions of Commerce, tier pricing could not be used in conjunction with catalog price rules. The catalog rules ignored tier price configuration and calculated discounts only from the original base price. Using Adobe Commerce as a Cloud Service, you can now choose to include tier pricing in the calculation of catalog price rules.
 
 To enable this functionality:
 
-1. Navigate to **[!UICONTROL Stores]**  >  *[!UICONTROL Settings]* > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** >  **[!UICONTROL Sales]** >  **[!UICONTROL Promotions]** and set the **[!UICONTROL Store]** field to **[!UICONTROL Yes]**.
+1. Navigate to **[!UICONTROL Stores]** > *[!UICONTROL Settings]* > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Sales]** > **[!UICONTROL Promotions]** and set the **[!UICONTROL Apply Catalog Price Rule on Grouped Price]** field to **[!UICONTROL Yes]**.
 
    ![Enable tier pricing for catalog price rules](../configuration-reference/sales/assets/sales-promotions-settings.png){width="700" zoomable="yes"}
 
@@ -103,7 +103,7 @@ The following table summarizes price calculations when tier pricing is enabled f
 Product: Standard Price $100 (Single Item Purchase)
 
 | Customer Group | Tier Price (Qty=1) | New Base Price | Final Price |
-|---|---|---|---|---|---|
+|---|---|---|---|
 | ALL GROUPS | Not configured | $100 | $100 - 10% = $90 |
 | Wholesale | Fixed: $85 | $85 | $85 - 10% = $76.50 |
 | Retailer | 20% discount | $80 | $80 - 10% = $72.00 |
