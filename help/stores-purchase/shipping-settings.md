@@ -80,6 +80,8 @@ The multiple address shipping options enable customers to ship an order to multi
 
 [!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service projects only (Adobe-managed SaaS infrastructure)."}
 
+[!BADGE Sandbox]{type=Caution tooltip="The items listed are currently only available in Sandbox environments. Adobe makes new releases available in Sandbox environments first to provide time for you to test upcoming changes before the release is available on Production environments."}
+
 By default, shipment tracking numbers sent in shopper emails are plain text. You can convert these tracking numbers into clickable links by enabling the custom tracking URL feature. This feature allows you to define a template for tracking URLs for various shipping carriers. Each template includes the full URL to the tracking website and a placeholder for the tracking number. Commerce replaces the placeholder with the actual tracking number in the email.
 
 The following shipping carriers are supported:
