@@ -82,3 +82,21 @@ To access the store configuration settings, choose **[!UICONTROL Stores]** > _[!
 >[!IMPORTANT]
 >
 >Adobe Commerce B2B version 1.4.2+ is compatible with PHP 8.2. If you upgrade the Commerce instance to version 2.4.7+, ensure that the instance uses PHP version 8.2 to maintain compatibility with the Adobe Commerce B2B release. Additionally, the B2B 1.4.2+ release does not support the [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
+
+## reCAPTCHA forms list {#recaptcha-forms-list}
+
+- [!UICONTROL Enable for Customer Login]
+- [!UICONTROL Enable for Forgot Password]
+- [!UICONTROL Enable for Create New Customer Account]
+- [!UICONTROL Enable for Edit Customer Account]
+- [!UICONTROL Enable for Create New Company Account] (Available with Adobe Commerce B2B only)
+- [!UICONTROL Enable for Contact Us]
+- [!UICONTROL Enable for Product Review]
+- [!UICONTROL Enable for Newsletter Subscription]
+- [!UICONTROL Enable for Gift Card] (Adobe Commerce only)
+- [!UICONTROL Enable for Invitation Create Account]
+- [!UICONTROL Enable for Send To Friend] - [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+- [!UICONTROL Enable for Checkout/Placing Order]
+- [!UICONTROL Enable for Wishlist Sharing]
+- [!UICONTROL Enable for Coupon Codes]
+- [!UICONTROL Enable for PayPal PayflowPro payment form] - [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
