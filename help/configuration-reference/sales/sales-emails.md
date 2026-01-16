@@ -158,7 +158,7 @@ feature: Configuration, Communications
 
 ## [!UICONTROL Order Ready For Pickup in Store]
 
-This option requires Inventory Management to be enabled.
+This option requires [Inventory Management](../../inventory-management/guide-overview.md) to be enabled.
 
 ![Order Ready For Pickup in Store](./assets/sales-emails-ready-pickup.png)<!-- zoom -->
 
