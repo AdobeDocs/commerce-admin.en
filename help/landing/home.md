@@ -16,7 +16,7 @@ The information in the Admin User Guides is designed to accommodate business use
 
 Adobe Commerce is an agile B2B and B2C commerce platform which enables merchants and brands to accelerate revenue through customer-centric digital commerce experiences across online and physical spaces. It is the leading choice for mid-size and enterprise organizations as it offers the most flexible deployment models from on-prem to managed cloud with guaranteed SLAs. Adobe Commerce enables API-first integrations and fully customizable extensions, and the richest set of enterprise-grade commerce experience capabilities from marketing to merchandising and fulfillment. Adobe Commerce is built on an open-source code base to deliver flexibility and extensibility like no other commerce platform.
 
-For a list of the advanced capabilities included with Adobe Commerce, see [Commerce features](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=en) in the _Release Information_.
+For a list of the advanced capabilities included with Adobe Commerce, see [Commerce features](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html) in the _Release Information_.
 
 ## Magento Open Source code base
 
@@ -111,4 +111,4 @@ Magento Open Source is the code base that Adobe officially contributes to and en
 
 {{$include /help/_includes/templated/whats-new.md}}
 
-<!-- Last updated from includes: 2025-11-17 15:05:41 -->
+<!-- Last updated from includes: 2026-01-02 21:23:33 -->

@@ -75,3 +75,36 @@ The multiple address shipping options enable customers to ship an order to multi
 >[!NOTE]
 >
 >![Adobe Commerce B2B](../assets/b2b.svg) (Adobe Commerce B2B) For orders with multiple shipping addresses, the [Payment on Account](../b2b/enable-basic-features.md#configure-payment-on-account) payment method, even if enabled, are not available during the checkout.
+
+## Email shipment tracking URLs
+
+[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service projects only (Adobe-managed SaaS infrastructure)."}
+
+[!BADGE Sandbox]{type=Caution tooltip="The items listed are currently only available in Sandbox environments. Adobe makes new releases available in Sandbox environments first to provide time for you to test upcoming changes before the release is available on Production environments."}
+
+By default, shipment tracking numbers sent in shopper emails are plain text. You can convert these tracking numbers into clickable links by enabling the custom tracking URL feature. This feature allows you to define a template for tracking URLs for various shipping carriers. Each template includes the full URL to the tracking website and a placeholder for the tracking number. Commerce replaces the placeholder with the actual tracking number in the email.
+
+The following shipping carriers are supported:
+
+- United States Postal Service (USPS)
+- United Parcel Service (UPS)
+- Federal Express (FedEx)
+- DHL Express (DHL)
+
+To enable or edit custom tracking URLs:
+
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+
+1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Shipping Settings]**.
+
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Shipment Tracking URLs]** section.
+
+1. Set **[!UICONTROL Enable Custom Tracking URLs]** to `Yes`.
+
+1. Default URL templates are provided for each supported carrier. If you need to change any of these values, enter a new URL template in the corresponding field. Use `{{tracking_number}}` as a placeholder for the actual tracking number. If, for example, UPS changes their URL to `https://www.ups.com/newtracker?tracknumber`, the new tracking URL template might look like this:
+
+   ```text
+   https://www.ups.com/newtracker?tracknumber={{tracking_number}}
+   ```
+
+1. Click **[!UICONTROL Save Config]**.

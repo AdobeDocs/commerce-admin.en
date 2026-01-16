@@ -6,64 +6,76 @@ feature: Catalog Management, Products
 ---
 # Configurable product
 
-A configurable product looks like a single product with a drop-down list of each variation. Each list item is actually a separate simple product with a unique SKU, which makes it possible to track inventory for each product variation. You could achieve a similar effect by using a simple product with custom options, but without the ability to track inventory for each variation.
+A configurable product displays as a single product with dropdown options for variations (like color or size). Each variation is a separate simple product with its own SKU, enabling individual inventory tracking—unlike simple products with custom options.
 
-The following instructions demonstrate the process of creating a configurable product using a [product template](attribute-sets.md), required fields, and basic settings. Each required field is marked with a red asterisk (`*`). When you finish the basics, you can complete the other product settings as needed.
+**Best for:** Products with multiple options (color, size, material, etc.) where you need to track inventory for each variation. Initial setup takes longer but provides better scalability.
 
 ![Configurable product](./assets/product-configurable.png){width="700" zoomable="yes"}
 
-## Part 1: Creating a configurable product
+## Before you begin
 
-Although a configurable product uses more SKUs and may initially take a little longer to set up, it can save you time in the end. If you plan to grow your business, the configurable product type is a good choice for products with multiple options.
+### Prerequisites checklist
 
-Before you begin, prepare an [attribute set](attribute-sets.md) that includes an attribute that is set to one of the allowable input types for each product variation. For example, the attribute set might include drop-down attributes for color and size.
+Before creating a configurable product, ensure you have:
 
-The properties of each attribute that is used for a configurable product variation must have the following settings:
+1. **Attribute Set** - An attribute set that includes variation attributes (such as color and size)
+1. **Variation Attributes Created** - Attributes configured with the settings below
+1. **Product Images** - (Optional but recommended) Images for the parent product and each variation
 
-### Product variation attribute requirements
+### Attribute requirements
 
-|Property|Setting|
+Each attribute used for product variations must have these settings:
+
+|Property|Required Setting|
 |--- |--- |
 |[!UICONTROL Scope]|`Global`|
-|[!UICONTROL Catalog Input Type for Store Owner]|The input type of any attribute that is used for a product variation must be one of the following: `Dropdown`, `Visual Swatch`, or `Text Swatch`.|
+|[!UICONTROL Catalog Input Type for Store Owner]|`Dropdown`, `Visual Swatch`, or `Text Swatch`|
 |[!UICONTROL Values Required]|`Yes`|
 
 {style="table-layout:auto"}
+
+For instructions on creating attributes, see [Product Attributes](product-attributes.md).
+
+## Phase 1: Create the product foundation
 
 ### Step 1: Choose the product type
 
 1. On the _Admin_ sidebar, go to  **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. On the _[!UICONTROL Add Product]_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png){width="25"} ) menu at the upper-right corner, choose **[!UICONTROL Configurable Product]**.
+1. On the _[!UICONTROL Add Product]_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png){width="25"} ) menu at the upper-right corner, choose **[!UICONTROL Configurable Product]**.
 
    ![Add configurable product](./assets/product-add-configurable.png){width="700" zoomable="yes"}
 
 ### Step 2: Choose the attribute set
 
-The [attribute set](attribute-sets.md) determines the selection of fields that are used in the product. The attribute set that is used in the following example has attributes for color and size. The name of the attribute set is indicated at the top of the page and is initially set to `Default`.
+The [attribute set](attribute-sets.md) determines which fields appear in the product form and which attributes are available for variations.
 
-1. To choose the attribute set for the product, click the field at the top of the page and do one of the following:
+1. Click the attribute set field at the top of the page and do one of the following:
 
    - For **[!UICONTROL Search]**, enter the name of the attribute set.
    - In the list, choose the attribute set that you want to use.
 
-   The form is updated to reflect the change.
+   The form updates to reflect the selected attribute set.
 
-1. If you want to add another attribute to the attribute set, click **[!UICONTROL Add Attribute]** and follow the instructions in [Adding an Attribute](product-attributes-add.md).
+1. If you need to add another attribute to the attribute set, click **[!UICONTROL Add Attribute]** and follow the instructions in [Adding an Attribute](product-attributes-add.md).
 
    ![Choose template](./assets/product-create-choose-attribute-set.png){width="600" zoomable="yes"}
 
-### Step 3: Complete the required settings
+### Step 3: Enter basic information
 
 1. Enter the product **[!UICONTROL Product Name]**.
 
-1. Accept the default **[!UICONTROL SKU]** that is based on the product name or enter another.
+1. Accept the default **[!UICONTROL SKU]** based on the product name or enter a different value.
 
 1. Enter the product **[!UICONTROL Price]**.
 
+   >[!NOTE]
+   >
+   >This price is overridden by the child product prices. The actual price displayed to customers comes from the [!UICONTROL In Stock] child products.
+
 1. Because the product is not yet ready to publish, set **[!UICONTROL Enable Product]** to `No`.
 
-1. click **[!UICONTROL Save]** and continue.
+1. Click **[!UICONTROL Save]** and continue.
 
    When the product is saved, the [Store View](introduction.md#product-scope) chooser appears in the upper-left corner.
 
@@ -71,72 +83,72 @@ The [attribute set](attribute-sets.md) determines the selection of fields that a
 
    ![Choose the store view](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
 
-### Step 4: Complete the basic settings
+### Step 4: Complete basic settings
 
 1. Set **[!UICONTROL Tax Class]** to one of the following:
 
    - `None`
    - `Taxable Goods`
 
-1. The **[!UICONTROL Quantity]** is determined by the product variations, so you can leave it blank.
+1. Leave **[!UICONTROL Quantity]** blank. The quantity is determined by the product variations.
 
-1. Leave the **[!UICONTROL Stock Status]** as set.
+1. Leave **[!UICONTROL Stock Status]** as set.
 
-   The Stock Status of a configurable product is determined by each associated configuration. Because the product was saved without entering a quantity, the **[!UICONTROL Stock Status]** is set to `Out of Stock`.
+   The stock status of a configurable product is determined by its associated variations. Because the product was saved without a quantity, the **[!UICONTROL Stock Status]** is set to `Out of Stock`.
 
    >[!NOTE]
    >
-   >The **Stock Status** of the configurable product is a **_semi-manually_** controlled setting. It is partially controlled by the stock status of its child products. It is a part of a **_multi-criteria_** stock status calculation, which is described in the [Configure the Stock Status](#configure-the-stock-status) section.
+   >The **Stock Status** of a configurable product is a **_semi-manually_** controlled setting, partially based on the stock status of its child products. It is part of a **_multi-criteria_** stock status calculation. See [Configure Stock Status](#configure-stock-status) for details.
 
 1. Enter the product **[!UICONTROL Weight]**.
 
->[!NOTE]
->
->A configurable product must always have a weight. If you select **[!UICONTROL This item has no weight]** from the drop-down list, it is automatically changed to **[!UICONTROL This item has weight]** after saving the product.
+   >[!NOTE]
+   >
+   >A configurable product must always have a weight. If you select **[!UICONTROL This item has no weight]** from the dropdown, it automatically changes to **[!UICONTROL This item has weight]** when you save the product.
 
 1. Accept the default **[!UICONTROL Visibility]** setting of `Catalog, Search`.
 
 1. To feature the product in the list of [new products](../content-design/widget-new-products-list.md), select the **[!UICONTROL Set Product as New]** checkbox.
 
-1. To assign Categories to the product, click the **[!UICONTROL Select…]** box and do either of the following:
+1. To assign categories to the product, click the **[!UICONTROL Select…]** box and do one of the following:
 
-   **Choose an existing category**:
+   **Choose an existing category:**
 
-   - Start typing in the box until you find a match.
+   - Start typing in the box to find a match.
 
-   - Select the checkbox of the category that is to be assigned.
+   - Select the checkbox of each category to be assigned.
 
    ![Select one or more categories for the bundle product](./assets/product-create-categories.png){width="600" zoomable="yes"}
 
-   **Create a category**:
+   **Create a new category:**
 
    - Click **[!UICONTROL New Category]**.
 
-   - Enter the **[!UICONTROL Category Name]** and choose the **[!UICONTROL Parent Category]**, which determines its position in the menu structure.
+   - Enter the **[!UICONTROL Category Name]** and choose the **[!UICONTROL Parent Category]** to determine its position in the menu structure.
 
-   s- Click **[!UICONTROL Create Category]**.
+   - Click **[!UICONTROL Create Category]**.
 
 1. Choose the **[!UICONTROL Country of Manufacture]**.
 
-   There might be additional attributes that are used to describe the product. The selection varies by attribute set, and you can complete them later.
+   Additional attributes may appear depending on the attribute set. You can complete them later.
 
 ### Step 5: Save and continue
 
-Now is a good time to save your work. In the upper-right corner, click **[!UICONTROL Save]**. In the next series of steps, you'll set up the configurations for each variation of the product.
+This is a good time to save your work. Click **[!UICONTROL Save]** in the upper-right corner. In the next phase, you'll set up the configurations for each variation.
 
-## Part 2: Adding configurations
+## Phase 2: Add product variations
 
-The following example shows how to add configurations for three colors and three sizes. In all, nine simple products are created with unique SKUs to cover every possible combination of variations. By default, the product name and SKU for each variation is based on the attribute value and either the parent product name or SKU.
+The following steps show how to add configurations for multiple variations. The progress bar at the top of the page shows your current position in the process.
 
-The progress bar at the top of the page shows where you are in the process and guides you through each step.
+**Example:** For a shirt with 3 colors and 3 sizes, you'll create 9 simple products with unique SKUs (one for each combination). By default, the product name and SKU for each variation is based on the attribute value and the parent product name or SKU.
 
-### Step 1: Choose the attributes
+### Step 6: Choose variation attributes
 
-1. Continuing from above, scroll down to the _[!UICONTROL Configurations]_ section and click **[!UICONTROL Create Configurations]**.
+1. Scroll down to the _[!UICONTROL Configurations]_ section and click **[!UICONTROL Create Configurations]**.
 
    ![Configurations](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"} 
 
-1. Select the checkbox of each attribute that you want to include as a configuration.
+1. Select the checkbox of each attribute to include as a variation.
 
    For this example, `color` and `size` are selected.
 
@@ -144,7 +156,7 @@ The progress bar at the top of the page shows where you are in the process and g
 
    The list includes all attributes from the attribute set that can be used in a configurable product.
 
-1. If you want to add an attribute, click **[!UICONTROL Create New Attribute]** and do the following:
+1. If you need to add an attribute, click **[!UICONTROL Create New Attribute]** and do the following:
 
    - Complete the attribute properties.
 
@@ -152,57 +164,59 @@ The progress bar at the top of the page shows where you are in the process and g
 
    - Select the checkbox for the attribute.
 
-1. In the upper-right corner, click **[!UICONTROL Next]**.
+1. Click **[!UICONTROL Next]** in the upper-right corner.
 
-### Step 2: Enter the attribute values
+### Step 7: Select attribute values
 
 1. For each attribute, select the checkbox of the values that apply to the product.
 
     ![Attribute values](./assets/product-create-configurable-step2.png){width="600" zoomable="yes"}
 
-1. To rearrange the attributes, grab the _Reorder_ ( ![Sort order icon](../assets/icon-sort-order.png) ) icon and move the section to a new position.
+1. To rearrange the attributes, grab the _Reorder_ ( ![Sort order icon](../assets/icon-sort-order.png) ) icon and move the section to a new position.
 
-   The order determines the position of the drop-down lists on the product page.
+   The order determines the position of the dropdown lists on the product page.
 
 1. In the progress bar, click **[!UICONTROL Next]**.
 
-### Step 3: Configure the images, price, and quantity
+### Step 8: Configure images, pricing, and inventory
 
-This step determines the images, pricing, and quantity of each configuration. The available options are the same for each, and you can choose only one. You can apply the same setting to all SKUs, apply a unique setting to each SKU, or skip the settings for now.
+This step determines the images, pricing, and quantity for each configuration. The available options are the same for each. You can apply the same setting to all SKUs, apply unique settings to each SKU, or skip the settings for now.
 
-Choose the configuration options that apply.
+#### Configure images
 
-Use one of the following methods to configure the **[!UICONTROL images]**:
+Choose the configuration option that applies:
 
-**Method 1:** Apply a single set of images to all SKUs
+**Option 1: Apply a single set of images to all SKUs**
 
-   1. Select **[!UICONTROL Apply single set of images to all SKUs]**.
+1. Select **[!UICONTROL Apply single set of images to all SKUs]**.
 
-   1. Browse to each image that you want to include in the product gallery, or drag them to the box.
+1. Browse to each image to include in the product gallery, or drag images to the box.
 
-   ![Use same images for all SKUs](./assets/product-configurations-images-apply-single-set.png){width="600" zoomable="yes"}
+![Use same images for all SKUs](./assets/product-configurations-images-apply-single-set.png){width="600" zoomable="yes"}
 
-**Method 2:** Apply unique images for each SKU
+**Option 2: Apply unique images for each SKU**
 
-Because the image for the parent product is already uploaded, you can use this option to upload an image of each color. You can add a different image that appears in the shopping cart when someone buys the item in a specific color.
+Because the parent product image is already uploaded, use this option to upload images for each variation. You can add different images that appear in the shopping cart when someone purchases a specific variation.
 
-   1. Select **[!UICONTROL Apply unique images by attribute to each SKU]**.
+1. Select **[!UICONTROL Apply unique images by attribute to each SKU]**.
 
-   1. Select the **[!UICONTROL Attribute]** that the images illustrate, such as `color`.
+1. Select the **[!UICONTROL Attribute]** that the images illustrate, such as `color`.
 
-   1. For each attribute value, either browse to the images that you want to use for that configuration or drag them to the box.
+1. For each attribute value, browse to the images to use for that configuration or drag them to the box.
 
-      If you drag the image to a value box, it also appears in the sections for the other values. If you want to delete an image, click the _Trash can_ (![Trash icon](../assets/icon-delete-trashcan-solid.png)) icon.
+   If you drag an image to a value box, it also appears in the sections for other values. To delete an image, click the _Trash can_ (![Trash icon](../assets/icon-delete-trashcan-solid.png)) icon.
 
-      ![Unique images per SKU](./assets/product-configurable-create-configurations-add-images-unique.png){width="600" zoomable="yes"}
+   ![Unique images per SKU](./assets/product-configurable-create-configurations-add-images-unique.png){width="600" zoomable="yes"}
 
-Use one of the following methods to configure the **[!UICONTROL prices]**:
+#### Configure pricing
 
 >[!NOTE]
 >
 >A configurable product does not have its own price in the catalog. The configurable product price is derived from its [!UICONTROL In Stock] child products.
 
-**Method 1:** Apply the same price to all SKUs
+Choose the configuration option that applies:
+
+**Option 1: Apply the same price to all SKUs**
 
 1. If the price is the same for all variations, select **[!UICONTROL Apply single price to all SKUs]**.
 
@@ -210,9 +224,9 @@ Use one of the following methods to configure the **[!UICONTROL prices]**:
 
    ![Same price per SKU](./assets/product-configurable-create-configurations-price-all-skus.png){width="600" zoomable="yes"}
 
-**Method 2:** Apply a different price for each SKU
+**Option 2: Apply a different price for each SKU**
 
-1. If the price differs for each or for some variations of the product, select **[!UICONTROL Apply unique prices by attribute to each SKU]**.
+1. If the price differs for each or some variations, select **[!UICONTROL Apply unique prices by attribute to each SKU]**.
 
 1. Select the **[!UICONTROL Attribute]** that is the basis of the price difference.
 
@@ -222,41 +236,51 @@ Use one of the following methods to configure the **[!UICONTROL prices]**:
 
    ![Unique price per SKU](./assets/product-configurable-create-configurations-price-unique.png){width="600" zoomable="yes"}
 
-Use one of the following methods to configure the **[!UICONTROL Quantity]**:
+#### Configure inventory
 
-**Method 1:** Apply the same quantity to all SKUs
+Choose the configuration option that applies:
+
+**Option 1: Apply the same quantity to all SKUs**
 
 If the quantity is the same for all SKUs, select **[!UICONTROL Apply single quantity to each SKU]** and specify the quantity.
 
-_Single source merchants_ - Enter the **[!UICONTROL Quantity]**.
+_Single Source merchants:_
 
-_Multi Source merchants using [Inventory Management](../inventory-management/introduction.md)_ - Assign sources and add quantities for all generated product variants:
+Enter the **[!UICONTROL Quantity]**.
+
+_Multi Source merchants using [Inventory Management](../inventory-management/introduction.md):_
+
+Assign sources and add quantities for all generated product variants:
 
 1. Select the **[!UICONTROL Apply single quantity to each SKU]** option.
 
 1. To add a source, click **[!UICONTROL Assign Sources]**.
 
-1. Browse or search for a source you want to add. Select the checkbox next to the sources that you want to add for the product.
+1. Browse or search for a source to add. Select the checkbox next to the sources for the product.
 
 1. Enter an on-hand inventory amount per source.
 
    ![Single Quantity for All SKUs, assign source](./assets/inventory-configure-product-quantity.png){width="600" zoomable="yes"}
 
-**Method 2:** Apply different quantity by attribute
+**Option 2: Apply different quantity by attribute**
 
-_Single source merchants_ - Enter the **[!UICONTROL Quantity]**.
+_Single Source merchants:_
 
-_Multi Source merchants using [Inventory Management](../inventory-management/introduction.md)_ - Assign sources and add quantities for all generated product variants:
+Enter the **[!UICONTROL Quantity]** for each attribute value.
 
-1. If the quantity is the different for each SKU, select **[!UICONTROL Apply unique quantity by attribute to each SKU]**.
+_Multi Source merchants using [Inventory Management](../inventory-management/introduction.md):_
 
-1. Enter the **[!UICONTROL Quantity]** for each.
+Assign sources and add quantities for all generated product variants:
+
+1. Select **[!UICONTROL Apply unique quantity by attribute to each SKU]**.
+
+1. Enter the **[!UICONTROL Quantity]** for each variation.
 
    ![Different quantities per attribute](./assets/product-configurations-quantity-different.png){width="600" zoomable="yes"}
 
-When configuration for images, price, and quantity are complete, click **[!UICONTROL Next]** in the upper-right corner.
+When configuration for images, price, and quantity is complete, click **[!UICONTROL Next]** in the upper-right corner.
 
-### Step 4: Generate the product configurations
+### Step 9: Generate product configurations
 
 Wait a moment for the list of products to appear and do one of the following:
 
@@ -270,15 +294,15 @@ The current product variations appear at the bottom of the _Configuration_ secti
 
 ![Current Configurations](./assets/product-create-configurable-generated.png){width="600" zoomable="yes"}
 
-### Step 5: Add product images
+### Step 10: Add product images
 
 1. Scroll down and expand ![Expansion selector](../assets/icon-display-expand.png) the _[!UICONTROL Images and Videos]_ section.
 
-1. Click the _Camera_ tile and browse to the main image that you want to use for the configurable product.
+1. Click the _Camera_ tile and browse to the main image to use for the configurable product.
 
 For more information, see [Images and Video](product-images-and-video.md).
 
-### Step 6: Complete the product information
+### Step 11: Complete product information
 
 Scroll down and complete the information in the following sections as needed:
 
@@ -296,92 +320,98 @@ Scroll down and complete the information in the following sections as needed:
 
 - [Gift Options](product-gift-options.md)
 
-### Step 7: Publish the product
+## Phase 3: Publish the product
 
-1. If you are ready to publish the product in the catalog, set **[!UICONTROL Enable Product]** to `Yes` and do one of the following:
+### Step 12: Publish the product
 
-   - **Method 1:** Save and preview
+1. If you are ready to publish the product in the catalog, set **[!UICONTROL Enable Product]** to `Yes`.
 
-      - In the upper-right corner, click **[!UICONTROL Save]**.
+1. Do one of the following:
 
-      - To view the product in your store, choose **[!UICONTROL Customer View]** on the _Admin_ ( ![Menu arrow](../assets/icon-menu-down-arrow-black.png) ) menu.
+   **Method 1: Save and preview**
 
-      The store opens in a new browser tab.
+   - In the upper-right corner, click **[!UICONTROL Save]**.
 
-      ![Customer View](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
+   - To view the product in your store, choose **[!UICONTROL Customer View]** on the _Admin_ ( ![Menu arrow](../assets/icon-menu-down-arrow-black.png) ) menu.
 
-   - **Method 2:** Save and close
+   The store opens in a new browser tab.
 
-      On the _[!UICONTROL Save]_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png){width="25"} ) menu, choose **[!UICONTROL Save & Close]**.
+   ![Customer View](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
 
-### Step 8: Configure the cart thumbnails
+   **Method 2: Save and close**
 
-If you have a different image for each variation, you can set the configuration to use the correct image for the shopping cart thumbnail.
+   On the _[!UICONTROL Save]_ ( ![Menu arrow](../assets/icon-menu-down-arrow-red.png){width="25"} ) menu, choose **[!UICONTROL Save & Close]**.
+
+## Configure stock status
+
+Configurable product stock status differs from simple product stock status. For a configurable product, stock status is part of a **_multi-criteria_** calculation.
+
+### How stock status works
+
+The key principles of stock status behavior:
+
+|You Set Status To|Result|Controlled By Child Products?|
+|---|---|---|
+|`Out of Stock` (manual)|Always displays `Out of Stock` in Admin and Storefront|No - remains until manually changed to `In Stock`|
+|`In Stock` (manual)|Status is dynamic based on child products|Partial - see details below|
+
+{style="table-layout:auto"}
+
+### When set to "In Stock"
+
+When you manually set the configurable product stock status to `In Stock`, it behaves differently depending on your inventory setup:
+
+**With default source/stock only:**
+
+- **Admin and Storefront:** Stock status automatically reflects child product availability
+
+**With at least one custom source/stock:**
+
+- **Storefront:** Stock status automatically reflects child product availability
+- **Admin:** Remains as `In Stock` until manually changed (not controlled by child products)
+
+>[!NOTE]
+>
+>Custom stocks and sources are part of the [Inventory Management](../inventory-management/sources-stocks.md) extension. It is highly recommended that you use this tool exclusively for managing stock and source. The default source and stock functions are part of the `CatalogInventory` module, which is now deprecated.
+
+### Manual stock status changes
+
+If you manually set the stock status to `Out of Stock` (via Admin user action, file import, or API call), it remains `Out of Stock` on both the Admin and Storefront until you manually change it back to `In Stock`. It is not affected by child product stock status.
+
+## System configuration (optional)
+
+### Display variation images in cart thumbnails
+
+If you have different images for each variation, you can configure the system to display the correct image for the shopping cart thumbnail.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Checkout]** underneath.
+1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Checkout]**.
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the _[!UICONTROL Shopping Cart]_ section.
 
 1. Set **[!UICONTROL Configurable Product Image]** to `Product Thumbnail Itself`.
 
-1. When complete, click **[!UICONTROL Save Config]**.
+1. Click **[!UICONTROL Save Config]**.
 
    ![Shopping cart - configurable product image](./assets/config-checkout-configurable-product.png){width="600" zoomable="yes"}
 
-## Configure the Stock Status
+## Key considerations
 
-Configurable product stock status is different from the stock status of the simple product, where it is a direct representation of the product availability. For a configurable product, the stock status is a part of a **_multi-criteria_** stock status calculation.
+- **Variation types:** Shoppers can select options from dropdown, multiple select, visual swatch, and text swatch input types. Each option is a separate, simple product.
 
-### Overview
+- **Inventory tracking:** Unlike simple products with custom options, configurable products track inventory for each variation independently.
 
-The main principles of Stock Status relationships are following: 
+- **Child product types:** Child products can be simple or virtual products **without custom options**. To make child products virtual, select `Тhis item has no weight` for the **[!UICONTROL Weight]** setting for each child.
 
-- When you change the **[!UICONTROL Stock Status]** of the configurable product as `Out of Stock` and click **[!UICONTROL Save]**, it is **_not controlled_** by the stock statuses of its child products. It is always displayed as `Out of Stock` in the Admin and on the Storefront.
+- **Global assignment:** Child products are assigned and unassigned from the configurable product **globally** across all websites, stores, and store views simultaneously.
 
-- When you set the **[!UICONTROL Stock Status]** of the configurable product as `In Stock` and click **[!UICONTROL Save]**, it is **_only partially controlled_** by the stock statuses of its child products, which are reflected in the Admin and on the Storefront.
+- **Pricing:** A configurable product does not have its own price in the catalog. The displayed price comes from its [!UICONTROL In Stock] child products.
 
-### Detailed description
+- **Attributes:** Variation attributes must have a global scope, and customers must be required to choose a value. The attributes must be included in the attribute set used for the configurable product.
 
-The _Stock Status_ of the configurable product is partially controlled by the Stock Status of its child products, and according to the following **_multi-criteria_** stock status calculations:
+- **Cart thumbnails:** The shopping cart thumbnail can display the image from either the configurable product record or the product variation. See [System Configuration](#system-configuration-optional) above.
 
-#### With default source/stock only:
+- **Swatch behavior:** [Swatch attributes](swatches.md#create-swatches-for-products) can be configured to not display corresponding simple product images when the swatch is selected by setting **[!UICONTROL Update Product Preview Image]** to `No` on the attribute edit page.
 
-- If the configurable product Stock Status is **_manually_** set to `Out of Stock` by an Admin user, file import, or API call, it remains as `Out of Stock` on both the **_Admin_** and **_Storefront_** until it is  **_manually_** changed to `In stock` by an Admin user, file import, or API call. It cannot be controlled by the stock status of its child products.   
-
-- If the configurable product Stock Status is **_manually_** set to `In Stock` by an Admin user, file import, or API call, its stock status is **_automatically_** controlled by the stock status of its child products on both the **_Admin_** and **_Storefront_**.
-
->[!NOTE]
->
->Custom stocks and sources are part of the [Inventory Management](../inventory-management/sources-stocks.md) extension and it is highly recommended that you use this tool exclusively for managing stock and source. The default source and stock functions are part of the `CatalogInventory` module, which is now deprecated.
-
-#### With at least one custom source/stock:
-
-- If the configurable product Stock Status value is **_manually_** set to `Out of Stock` by an Admin user, file import, or API call, it remains as `Out of Stock` on both the **_Admin_** and **_Storefront_** until it is **_manually_** changed  to `In Stock` by an Admin user, file import, or API call. It **_cannot_** be controlled by the stock status of its child products.
-
-- If the configurable product Stock Status value is **_manually_** set to `In Stock` by an Admin user, file import, or API call, its stock status is **_automatically_** controlled by the stock status of its child products on the **_Storefront_** only.
-
-- If the configurable product Stock Status value is **_manually_** set to `In Stock` by an Admin user, file import, or API call, it remains as `In Stock` in the **_Admin_** until it is **_manually_** changed  to `Out of Stock` by an Admin user, file import, or API call. It **_cannot_** be controlled by the stock status of its child products.
-
-## Things to remember
-
-- A configurable product allows the shopper to choose options from drop-down, multiple select, visual swatch, and text swatch input types. Each option is a separate, simple product.
-
-- [Stock Status](../inventory-management/sources-stocks.md) for a configurable product is a semi-manually controlled setting. It is different from the stock status of the simple product, where it is a direct representation of the product availability. For a configurable product, the stock status is a part of a multi-criteria stock status calculation.
-
-- Configurable child products can be simple or virtual products **without custom options**. To make custom child products virtual, you must select `Тhis item has no weight` for the **[!UICONTROL Weight]** setting for each of them.
-
-- All child products are assigned and unassigned from the configurable product **_globally_** for all websites, stores, and store views at the same time.
-
-- A configurable product does not have its own price in the catalog. The configurable product price is derived from its [!UICONTROL In Stock] child products.
-
-- The attributes that are used for product variations must have a global scope and the customer must be required to choose a value. The product variation attributes must be included in the attribute set that is used as a template for the configurable product.
-
-- The attribute set that is used as a template for a configurable product must include the attributes that contain the values that are needed for each product variation.
-
-- The thumbnail image in the shopping cart can be set to display the image from the configurable product record or from the product variation.
-
-- [Swatch attributes](swatches.md#create-swatches-for-products) can be configured to not display corresponding simple product images when the swatch is selected by setting the **[!UICONTROL Update Product Preview Image]** option value to `No` at the attribute edit page in the Admin.
-
-- The theme controls how the Image Gallery behaves when a user switches between product configurations. The default behavior for the _Blank_ theme is to override the parent configurable product images with the selected product variation. For the Luma theme, the default behavior is to prepend the selected product variation images to the parent configurable product images.
+- **Image gallery behavior:** The theme controls how the Image Gallery behaves when users switch between product configurations. The default behavior for the _Blank_ theme overrides the parent configurable product images with the selected variation. For the Luma theme, the default behavior is to prepend the selected variation images to the parent configurable product images.

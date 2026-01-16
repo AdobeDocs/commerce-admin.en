@@ -65,8 +65,9 @@ feature: System
   - [Configure Admin security](security-admin.md)
   - CAPTCHA {#captcha}
     - [Standard CAPTCHA](security-captcha.md)
-    - [Google reCAPTCHA](security-google-recaptcha.md)
-  - Two-Factor Authentication (2FA) {#2fa}
+    - [Google reCAPTCHA V3 and V2](security-google-recaptcha.md)
+    - [Google reCAPTCHA Enterprise](security-google-recaptcha-enterprise.md)
+  - Two-Factor Authentication (2FA) {#tfa}
     - [Overview](security-two-factor-authentication.md)
     - [User account setup for 2FA](security-two-factor-authentication-use.md)
     - [Manage 2FA](security-two-factor-authentication-manage.md)

@@ -148,7 +148,7 @@ Although it is possible to change the Admin URL and path to another location, an
 
 >[!NOTE]
 >
->As a precaution, do not try to change the Admin URL yourself unless you know how to edit configuration files on the server. For Adobe Commerce projects deployed on cloud infrastructure, change the Admin URL by following the [instructions](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=en#admin-url) in the *Adobe Commerce on Cloud Infrastructure Guide*.
+>As a precaution, do not try to change the Admin URL yourself unless you know how to edit configuration files on the server. For Adobe Commerce projects deployed on cloud infrastructure, change the Admin URL by following the [instructions](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html#admin-url) in the *Adobe Commerce on Cloud Infrastructure Guide*.
 
 ### Method 1: Change from the Admin
 

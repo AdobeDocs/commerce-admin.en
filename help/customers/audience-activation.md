@@ -362,7 +362,7 @@ Edge.sendEvent(experienceEvent: experienceEvent) { (handles: [EdgeEventHandle]) 
                     storage.set(segmentsArr, forKey: "segments")
                     print("End saving segments")
                 }
-         
+
                 // Show segments
                 let rSegments = storage.object(forKey: "segments") ?? nil;
                 print("Retrieving segments -> \(rSegments)")
@@ -395,7 +395,7 @@ bin/magento audiences:config:status
 This command returns the connection status. Add the `-v` flag to provide extra verbosity:
 
 ```
-./bin/magento audiences:config:status -v  
+./bin/magento audiences:config:status -v
 ```
 
 For example:
@@ -412,7 +412,7 @@ For example:
 1. Open your Commerce instance.
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 1. Expand **[!UICONTROL Services]** and select **[!UICONTROL [!DNL Data Connection]]**.
-1. Ensure the server-to-server authorization method that you specified in the **[!UICONTROL Authentication Type]** field is correct. Adobe recommends using **OAuth**. JWT has been deprecated. [Learn more](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
+1. Ensure the server-to-server authorization method that you specified in the **[!UICONTROL Authentication Type]** field is correct. Adobe recommends using **OAuth**. [JWT has been deprecated](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/jwt-credentials-deprecation-in-adobe-developer-console), with all current certificates expiring by March 1, 2026.
 
 ### Insufficient privileges on generated token
 

@@ -164,6 +164,6 @@ After the new owner successfully configures their Adobe account with the origina
 
 1. Click **[!UICONTROL Verify]**.
 
->[!IMPORTANT]
->
->[Submit a Support request](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) to inform the Support team that you have updated the account owner's email address. The team must perform additional steps to complete the update such as updating the email address on your [Commerce Marketplace](https://commercemarketplace.adobe.com/) profile. Include the previous account owner's email address in your request.
+## Final steps
+
+After the new owner completes the steps in the first or third use case, the new owner must [submit a support request](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide?lang=en#support-case) to inform the support team about the email address update. The support team then completes additional tasks, such as updating the email address on the [Commerce Marketplace](https://commercemarketplace.adobe.com/) profile. Include the previous account owner’s email address in the request.

@@ -67,3 +67,46 @@ The prices in the storefront take precedence from the highest to the lowest quan
 >[!NOTE]
 >
 >**_Fixed Price_** product Customizable Options are _not_ affected by Group Price, Tier Price, Special Price, or Catalog Price rules.
+
+## Enable tier pricing for catalog price rules
+
+[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service projects only (Adobe-managed SaaS infrastructure)."}
+
+[!BADGE Sandbox]{type=Caution tooltip="The items listed are currently only available in Sandbox environments. Adobe makes new releases available in Sandbox environments first to provide time for you to test upcoming changes before the release is available on Production environments."}
+
+In previous versions of Commerce, tier pricing could not be used in conjunction with catalog price rules. The catalog rules ignored tier price configuration and calculated discounts only from the original base price. Using Adobe Commerce as a Cloud Service, you can now choose to include tier pricing in the calculation of catalog price rules.
+
+To enable this functionality:
+
+1. Navigate to **[!UICONTROL Stores]** > *[!UICONTROL Settings]* > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Sales]** > **[!UICONTROL Promotions]** and set the **[!UICONTROL Apply Catalog Price Rule on Grouped Price]** field to **[!UICONTROL Yes]**.
+
+   ![Enable tier pricing for catalog price rules](../configuration-reference/sales/assets/sales-promotions-settings.png){width="700" zoomable="yes"}
+
+1. Define a tier price with a quantity of `1` for each specific customer group or shared catalog (such as `Wholesale`, `Retail`, or merchant-defined group) that you want to target with catalog price rules. The `ALL GROUPS` customer group and `Default` shared catalog cannot be used for this purpose. Tier pricing is not enabled for any group that does not have a tier price defined with a quantity of `1`.
+
+1. Define additional tier prices with quantities greater than `1` as needed. These additional tier prices will be applied as usual when the customer adds additional quantities of the product to the shopping cart. Catalog price rules will not apply to these additional tier prices.
+
+To illustrate how tier pricing works with catalog price rules when purchasing a single product, consider the following example:
+
+- The standard base price of a product is 100 USD.
+- A tier price is defined for the `Wholesale` customer group with a quantity of `1` and a fixed price of 90 USD.
+- A catalog price rule provides a 10% discount for the `Wholesale` customer group.
+
+When tier pricing is enabled for catalog price rules, the system uses the following flow to calculate the final price:
+
+1. Before the customer logs in, the product price is displayed as 100 USD (the standard base price).
+
+1. After the customer logs in as a member of the `Wholesale` group, the product price is adjusted to 90 USD (the tier price for the `Wholesale` group).
+
+1. The catalog price rule is applied, providing a 10% discount on the tier price of 90 USD, resulting in a final price of 81 USD.
+
+The following table summarizes price calculations when tier pricing is enabled for catalog price rules and a catalog price rule provides a 10% discount for all customer groups:
+
+Product: Standard Price $100 (Single Item Purchase)
+
+| Customer Group | Tier Price (Qty=1) | New Base Price | Final Price |
+|---|---|---|---|
+| ALL GROUPS | Not configured | $100 | $100 - 10% = $90 |
+| Wholesale | Fixed: $85 | $85 | $85 - 10% = $76.50 |
+| Retailer | 20% discount | $80 | $80 - 10% = $72.00 |
+| VIP | 15% discount | $85 | $85 - 10% = $76.50 |

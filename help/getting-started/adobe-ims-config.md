@@ -26,7 +26,7 @@ The administrator who configures this integration needs the following credential
 * 2FA should be enforced on the Organization level in Adobe Admin Console to enable the module. Check [Authentication setings](https://helpx.adobe.com/enterprise/using/authentication-settings.html#two-step-verification).
 * Client ID
 * Client secret
-* Client ID and client secret are available after retrieving API keys from the [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/credentials/).
+* Client ID and client secret are available after retrieving API keys from the [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/credentials).
 
 Commerce Admin users must create an account with an Adobe ID to log in.
 
