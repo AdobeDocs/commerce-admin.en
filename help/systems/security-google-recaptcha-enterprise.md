@@ -3,8 +3,11 @@ title: Google reCAPTCHA Enterprise
 description: Learn how to configure Google reCAPTCHA Enterprise to protect your Adobe Commerce as a Cloud Service storefront from bots and fraudulent activities.
 role: Admin
 feature: Configuration, Security
+badgeSaas: label="SaaS only" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service projects only (Adobe-managed SaaS infrastructure)."
 ---
 # Google reCAPTCHA Enterprise
+
+[!BADGE Sandbox]{type=Caution tooltip="The items listed are currently only available in Sandbox environments. Adobe makes new releases available in Sandbox environments first to provide time for you to test upcoming changes before the release is available on Production environments."}
 
 [Google reCAPTCHA Enterprise](https://cloud.google.com/security/products/recaptcha#protect-against-fraud-and-abuse-with-modern-bot-protection-and-fraud-prevention-platform) provides advanced bot protection for your Adobe Commerce as a Cloud Service storefront by using adaptive risk analysis and machine learning to differentiate between human users and bots. This helps to prevent fraudulent activities, spam, and abuse on your site.
 
@@ -71,7 +74,7 @@ Follow these general steps to set up Google reCAPTCHA Enterprise for your storef
    - For **[!UICONTROL Validation Failure Message]**, optionally change the message displayed on the storefront when validation is not succesful.
 
 
-1. Expand the **[!UICONTROL Storefront]** section and set each storefront form that you want t protect to **[!UICONTROL reCAPTCHA Enterprise]**.
+1. Expand the **[!UICONTROL Storefront]** section and set each storefront form that you want to protect to **[!UICONTROL reCAPTCHA Enterprise]**.
 
    {{recaptcha-forms-list}}
 
