@@ -25,7 +25,7 @@ Google reCAPTCHA Enterprise includes the following features:
 - **Risk score analysis**: Provides detailed risk scores (0.0-1.0) for each interaction
 - **Configurable thresholds**: Set minimum acceptable risk scores per tenant
 - **Multi-tenant Support**: Per-tenant configuration with isolated Google Cloud projects
-- **Encrypted credentials**: Service account credentials stored encrypted in database
+- **Encrypted credentials**: Service account credentials stored encrypted in a database
 - **Form protection**: Protects all standard Commerce forms, including login, checkout, product reviews, and more.
 
 ## Prerequisites
@@ -57,13 +57,13 @@ Follow these general steps to set up Google reCAPTCHA Enterprise for your storef
 
 1. Complete the **[!UICONTROL reCAPTCHA Enterprise]** section as follows.
 
-   - For **[!UICONTROL Site Key]**, copy and paste your reCAPTCHA Enterprise site key from your Google Cloud console.
+   - For **[!UICONTROL Site Key]**, copy and paste your reCAPTCHA Enterprise site key from your Google Cloud Console.
 
    - For **[!UICONTROL Google Cloud Project ID]**, copy and paste the project ID from your Google Cloud project.
    
    - For **[!UICONTROL Service Account JSON]**, copy the contents of the Service Account JSON key file that you downloaded in [Step 1: Set up Google reCAPTCHA Enterprise](#step-1-set-up-google-recaptcha-enterprise).
 
-   - For **[!UICONTROL Minimum Score Threshold]**, enter the minimum score (0.0-1.0) to identify when a user interaction is flagged as a potential risk; where 1.0 is a typical user interaction, and 0.0 is likely a bot.
+   - For **[!UICONTROL Minimum Score Threshold]**, enter the minimum score (0.0-1.0) to identify when a user interaction is flagged as a potential risk. A score of 1.0 is a typical user interaction, and 0.0 is likely a bot.
 
    - For **[!UICONTROL Badge Position]**, choose the position of the invisible reCAPTCHA badge on each page. Options: `Inline` / `Bottom Right` / `Bottom Left`.
 
@@ -71,7 +71,7 @@ Follow these general steps to set up Google reCAPTCHA Enterprise for your storef
 
    - For **[!UICONTROL Language Code]**, enter a [two-character code](https://developers.google.com/recaptcha/docs/language) that specifies the language used for Google reCAPTCHA text and messaging.
 
-   - For **[!UICONTROL Validation Failure Message]**, optionally change the message displayed on the storefront when validation is not succesful.
+   - For **[!UICONTROL Validation Failure Message]**, optionally change the message displayed on the storefront when validation is not successful.
 
 
 1. Expand the **[!UICONTROL Storefront]** section and set each storefront form that you want to protect to **[!UICONTROL reCAPTCHA Enterprise]**.
