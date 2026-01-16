@@ -7,7 +7,7 @@ badgeSaas: label="SaaS only" type="Positive" url="https://experienceleague.adobe
 ---
 # Google reCAPTCHA Enterprise
 
-[!BADGE Sandbox]{type=Caution tooltip="The items listed are currently only available in Sandbox environments. Adobe makes new releases available in Sandbox environments first to provide time for you to test upcoming changes before the release is available on Production environments."}
+[!BADGE Sandbox]{type=Caution tooltip="The items listed are currently available only in Sandbox environments. Adobe releases updates to Sandbox first so you can test upcoming changes before they roll out to Production."}
 
 [Google reCAPTCHA Enterprise](https://cloud.google.com/security/products/recaptcha#protect-against-fraud-and-abuse-with-modern-bot-protection-and-fraud-prevention-platform) provides advanced bot protection for your Adobe Commerce as a Cloud Service storefront by using adaptive risk analysis and machine learning to differentiate between human users and bots. This helps to prevent fraudulent activities, spam, and abuse on your site.
 
