@@ -40,8 +40,6 @@ For more information about changing these settings, see [Shipping settings](../.
 
 [!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service projects only (Adobe-managed SaaS infrastructure)."}
 
-[!BADGE Sandbox]{type=Caution tooltip="The items listed are currently only available in Sandbox environments. Adobe makes new releases available in Sandbox environments first to provide time for you to test upcoming changes before the release is available on Production environments."}
-
 ![Shipping Policy Parameters](./assets/shipping-settings-shipment-tracking-urls.png)<!-- zoom -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
