@@ -119,8 +119,6 @@ feature: Configuration, Orders
 
 [!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service projects only (Adobe-managed SaaS infrastructure)."}
 
-[!BADGE Sandbox]{type=Caution tooltip="The items listed are currently only available in Sandbox environments. Adobe makes new releases available in Sandbox environments first to provide time for you to test upcoming changes before the release is available on Production environments."}
-
 ![Promotions Settings](./assets/sales-promotions-settings.png)<!-- zoom -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
