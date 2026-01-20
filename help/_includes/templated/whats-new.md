@@ -1,10 +1,10 @@
 # What's new template
 
-## What's New
+## What's new
 
 This section contains the changes made in the last 60 days. We exclude all minor updates, such as copy editing, from this list.
 
-### November 21, 2025
+### December 17, 2025
 
 <table style="table-layout:auto;">
   <thead>
@@ -16,12 +16,56 @@ This section contains the changes made in the last 60 days. We exclude all minor
   </thead>
   <tbody>
     <tr>
-      <td><p>Updated the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-attributes-product#bundle-products">bundle product data attributes reference</a> to include new <code class="language-plaintext highlighter-rouge">bundle_values</code> options: <code class="language-plaintext highlighter-rouge">price_website_[website-code]</code> and <code class="language-plaintext highlighter-rouge">price_type_website_[website-code]</code>. These attributes let you import or export product prices by website code.</p>
+      <td><p>Updated the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty">Rewards and loyalty topic</a> to clarify how tax is calculated when customers use reward points or store credit during checkout.</p>
+</td>
+      <td>
+        Feedback
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/1154cd5ced746ac6dfd609946528f281774bbaaa">commit</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### December 11, 2025
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Updated the descriptions for the <code class="language-plaintext highlighter-rouge">NOFOLLOW</code> robots meta directives in the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview">SEO documentation</a>.<br /><em>Fixes issue <a href="https://github.com/AdobeDocs/commerce-admin.en/issues/82">#82</a>.</em></p>
+</td>
+      <td>
+        Technical, feedback
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/76e7c13c89b8ae53c4a3b56e5f090e6ffaa0b423">commit</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### November 24, 2025
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Added information about which default cookies should not be disabled for <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law">Cookie law compliance</a>.</p>
 </td>
       <td>
         Technical
       </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/b0bd7d82b8d454e71af5b693165c14544a399630">commit</a></td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/dbc09915e0ce6f052fa797ddd103f051ea289625">commit</a></td>
     </tr>
   </tbody>
 </table>
@@ -66,138 +110,6 @@ This section contains the changes made in the last 60 days. We exclude all minor
         Technical
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/467decc88b33ada26ae7aa4afbf9b4a8e78f23cc">commit</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### November 10, 2025
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Description</th>
-      <th>Type</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Clarified how to end an active price rule sale at a specific time when no end date was specified in the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-catalog-scheduled-changes">Scheduled changes for catalog price rules</a> topic.<br />Reorganized the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite">URL rewrites</a> topic to improve examples, conceptual definitions, and group additional URL management configuration instructions for Web Server Rewrites and Canonical URLs.</p>
-</td>
-      <td>
-        Technical, feedback
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/29acc84df8c5b2f6ea4d894f5ae022b62ad2cad2">commit</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### October 30, 2025
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Description</th>
-      <th>Type</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Updated the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers">Shipping Carrier Setup</a> instructions with instructions for migrating from USPS Web Tools API to the USPS REST APIs.</p>
-</td>
-      <td>
-        Technical, feedback
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/5304a26081e0f4639c962d77b1932d300e5a4a6e">commit</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### October 23, 2025
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Description</th>
-      <th>Type</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Added documentation for the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">Data Feed Sync Status extension</a> to monitor data export feed synchronization from Adobe Commerce to the Commerce SaaS database for publication to connected Commerce services (Live Search, Product Recommendations, Catalog Service). The Data Sync Status page is available from the Systems menu in the Commerce Admin.</p>
-</td>
-      <td>
-        New topic
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/3a91e33221d7bcd6a42ae9c5da18a70e5d697d15">commit</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### October 20, 2025
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Description</th>
-      <th>Type</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Added information about how to configure Single Sign-On (SSO) for secure access to Adobe Apps to the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config#identity-and-single-sign-on">Configure the Commerce Admin Integration with Adobe ID</a> topic in the Commerce Merchant documentation.</p>
-</td>
-      <td>
-        Technical, feedback
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/9e399378ac6360936b7c0bd5f08355793976c096">commit</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### October 14, 2025
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Description</th>
-      <th>Type</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Added October 2025 B2B security patch <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes">release notes</a>.</p>
-</td>
-      <td>
-        Major update
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/86cc342b9e210b706ee7f37d9db551c17f3af944">commit</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### September 24, 2025
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Description</th>
-      <th>Type</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Added info on how to view and edit <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes">custom order attributes</a> in the Admin for Adobe Commerce as a Cloud Service.</p>
-</td>
-      <td>
-        Major update
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/68c4c836d0e6dfff1f397dcc93368f8daac774f3">commit</a></td>
     </tr>
   </tbody>
 </table>
