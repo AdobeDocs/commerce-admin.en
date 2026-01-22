@@ -197,7 +197,7 @@ After you install the [!DNL Audience Activation] extension, you must log into yo
 
 With the [!DNL Audience Activation] extension enabled, you can:
 
-- [Create a cart price rule](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) informed by audiences
+- [Create a cart price rule](../merchandising-promotions/price-rules-cart-create.md#use-real-time-cdp-audiences-to-set-a-condition) informed by audiences
 - [Create a dynamic block](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) informed by audiences
 - [Create a related product rule](../merchandising-promotions/product-related-rule-create.md) informed by audiences
 
