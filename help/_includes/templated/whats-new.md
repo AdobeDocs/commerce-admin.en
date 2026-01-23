@@ -113,25 +113,3 @@ This section contains the changes made in the last 60 days. We exclude all minor
     </tr>
   </tbody>
 </table>
-
-### November 24, 2025
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Description</th>
-      <th>Type</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Added information about which default cookies should not be disabled for <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law">Cookie law compliance</a>.</p>
-</td>
-      <td>
-        Technical
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/dbc09915e0ce6f052fa797ddd103f051ea289625">commit</a></td>
-    </tr>
-  </tbody>
-</table>
