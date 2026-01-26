@@ -20,6 +20,10 @@ This integration supports Commerce merchants with Admin users who have an Adobe 
 * Adobe Commerce 2.4.5 or later
 * An Adobe.com account with access to the [Adobe Admin Console](https://adminconsole.adobe.com/).
 
+  >[!NOTE]
+  >
+  >If you do not have access to the Adobe Commerce Admin console, submit a request to your account team to provision access.
+
 The administrator who configures this integration needs the following credentials during module enablement:
 
 * Organization ID (obtained from [Adobe Admin Console](https://adminconsole.adobe.com/)), which must be at least 24 characters in length. The authenticated user must belong to this IMS organization. For information about finding your organization ID, see [Organizations in Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
