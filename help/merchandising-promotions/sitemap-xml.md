@@ -17,7 +17,7 @@ When enabled, Commerce creates a file called `sitemap.xml` that is saved to you
 
 While your site is in development, you might include instructions in the `robots.txt` file for web crawlers to avoid indexing the site. Then before the launch, you can change the instructions to allow the site to be indexed.
 
-For technical information, see [Add sitemap and robots.txt][1] in the _Commerce on Cloud Infrastructure Guide_.
+For technical information, see [Add sitemap and robots.txt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html) in the _Commerce on Cloud Infrastructure Guide_.
 
 ![Sitemap grid](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
@@ -61,8 +61,8 @@ You can submit your site map to different search engines by providing them the l
 
 For more information, see the instructions for the specific search engine. Here are links to instructions for two top search engines:
 
-- [Google][2]
-- [Microsoft&reg; Bing][3]
+- [Google](https://support.google.com/webmasters/answer/183669?hl=en)
+- [Microsoft&reg; Bing](https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed)
 
 ## Step 5: Restore previous robot instructions (optional)
 
@@ -222,6 +222,29 @@ Your site map should be updated as frequently as the content on your site change
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html
-[2]: https://support.google.com/webmasters/answer/183669?hl=en
-[3]: https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed
+## Enable batch sitemap generation for large catalogs
+
+For stores with large catalogs, use the following alternative cron job to enable batch sitemap generation. This approach processes data in smaller increments, significantly reducing the risk of PHP memory exhaustion and ensuring that sitemap generation completes successfully, even for sites with extensive product data.
+ 
+In `app/code/Magento/Sitemap/etc/config.xml`, replace:
+
+```xml
+<jobs>
+  <sitemap_generate>
+    <schedule>
+      <cron_expr>0 0 * * *</cron_expr>
+    </schedule>
+  </sitemap_generate>
+</jobs>
+```
+
+with:
+
+```xml
+<jobs>
+  <sitemap_generate_batch>
+    <schedule>
+      <cron_expr>0 0 * * *</cron_expr>
+    </schedule>
+  </sitemap_generate_batch>></jobs>
+```

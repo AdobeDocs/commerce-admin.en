@@ -18,10 +18,10 @@ Contact each carrier that you use to activate shipping labels for your store.
 
 Follow the instructions provided by each carrier to add shipping label support to your account.
 
-- **FedEx** - Contact [FedEx Web Integration Services][1] to learn about the label printing requirements for your account.
-- **USPS** - Refer to the [Web Tools API Portal][4] under Shipper Support Center to learn how to set up your label printing credentials.
-- **UPS**- Contact [UPS][2] to confirm that your account supports shipping labels. To generate shipping labels, you must use the UPS XML option.
-- **DHL** - Contact [DHL eCommerce Solutions][3] to learn about the label printing requirements for your account.
+- **FedEx** - Contact [FedEx Web Integration Services](https://www.fedex.com/en-us/api/get-support.html) to learn about the label printing requirements for your account.
+- **USPS** - Refer to the [Web Tools API Portal](https://www.usps.com/business/web-tools-apis/#ssc) under Shipper Support Center to learn how to set up your label printing credentials.
+- **UPS**- Contact [UPS](https://www.ups.com/us/en/support/contact-us.page) to confirm that your account supports shipping labels. To generate shipping labels, you must use the UPS XML option.
+- **DHL** - Contact [DHL eCommerce Solutions](https://www.dhl.com/us-en/home/our-divisions/ecommerce-solutions.html) to learn about the label printing requirements for your account.
 
 ## Step 2: Update the configuration for each carrier
 
@@ -281,9 +281,5 @@ You can click **[!UICONTROL Cancel]** to stop the process, if needed. The packag
 
 {style="table-layout:auto"}
 
-[1]: https://www.fedex.com/en-us/api/get-support.html
-[2]: https://www.ups.com/us/en/support/contact-us.page
-[3]: https://www.dhl.com/us-en/home/our-divisions/ecommerce-solutions.html
-[4]: https://www.usps.com/business/web-tools-apis/#ssc
 
-<!-- Last updated from includes: 2025-10-29 05:34:15 -->
+<!-- Last updated from includes: 2025-11-26 10:55:00 -->

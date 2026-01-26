@@ -6,9 +6,9 @@ feature: Page Builder, Page Content
 ---
 # Media - Map
 
-Use the _Map_ content type to add a map from [[!DNL Google Maps] Platform][1] to the [[!DNL Page Builder] stage](workspace.md#stage). For example, you might add a map to a block, and then add the block to the [About Us](../content-design/pages.md#about-us) and [Contact Us](../getting-started/store-details.md#contact-us-form) pages.
+Use the _Map_ content type to add a map from [[!DNL Google Maps] Platform](https://cloud.google.com/maps-platform/) to the [[!DNL Page Builder] stage](workspace.md#stage). For example, you might add a map to a block, and then add the block to the [About Us](../content-design/pages.md#about-us) and [Contact Us](../getting-started/store-details.md#contact-us-form) pages.
 
-To get the most from [!DNL Google Maps] Platform, you can customize the map, highlight your store locations, and use Google [Places][2] to add rich information about your store to all [!DNL Google Maps].
+To get the most from [!DNL Google Maps] Platform, you can customize the map, highlight your store locations, and use Google [Places](https://cloud.google.com/maps-platform/places/) to add rich information about your store to all [!DNL Google Maps].
 
 ## Benefits of embedding a Google map
 
@@ -44,7 +44,7 @@ The map toolbox appears when you hover over the map container.
 
 ## Configure [!DNL Google Maps] for your Admin
 
-Before adding a map, you must first open an [account][3] for a free trial of [!DNL Google Maps] Platform. The free trial lasts for 12 months and includes a $300 credit. If you use up your credit, Google does not bill your account without your permission.
+Before adding a map, you must first open an [account](https://cloud.google.com/maps-platform/user-guide/) for a free trial of [!DNL Google Maps] Platform. The free trial lasts for 12 months and includes a $300 credit. If you use up your credit, Google does not bill your account without your permission.
 
 ### Step 1: Get your [!DNL Google Maps] API key
 
@@ -54,7 +54,7 @@ Depending on whether you already have a [!DNL Google Maps] key, use one of the f
 
 1. Click the project drop-down and select or create the project for which you want to add an API key.
 
-1. To configure your API credentials, follow the [instructions][4] in the [!DNL Google Maps] documentations.
+1. To configure your API credentials, follow the [instructions](https://developers.google.com/maps/documentation/javascript/get-api-key) in the [!DNL Google Maps] documentations.
 
 1. Copy your API Key to the clipboard.
 
@@ -106,7 +106,7 @@ Depending on whether you already have a [!DNL Google Maps] key, use one of the f
 
    Alternatively, in the **[!UICONTROL Position]** box, you can drag the pin in the displayed map.
 
-   If necessary, go to [[!DNL Google Maps]][5] in a new browser window and use one of the following methods to get the coordinates:
+   If necessary, go to [[!DNL Google Maps]](https://www.google.com/maps) in a new browser window and use one of the following methods to get the coordinates:
 
    ![Map Coordinates](./assets/pb-media-maps-settings-add-location-coordinates.png){width="600" zoomable="yes"}
 
@@ -158,9 +158,9 @@ Use the [!DNL Google Maps] Platform Styling Wizard to apply a one of six predefi
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
 
-1. Under the **[!UICONTROL Google Maps Style]** text box, click [Create Map Style][6].
+1. Under the **[!UICONTROL Google Maps Style]** text box, click [Create Map Style](https://mapstyle.withgoogle.com/).
 
-   This action opens the [[!DNL Google Maps] Platform Styling Wizard][6] in a separate tab, where you can define a style for your [!DNL Google Maps] Platform project.
+   This action opens the [[!DNL Google Maps] Platform Styling Wizard](https://mapstyle.withgoogle.com/) in a separate tab, where you can define a style for your [!DNL Google Maps] Platform project.
 
 1. Click **[!UICONTROL Create a Style]** and follow the provided instructions.
 
@@ -278,11 +278,5 @@ The grid size determines the size of the map related to a [column](column.md) on
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-[1]: https://cloud.google.com/maps-platform/
-[2]: https://cloud.google.com/maps-platform/places/
-[3]: https://cloud.google.com/maps-platform/user-guide/
-[4]: https://developers.google.com/maps/documentation/javascript/get-api-key
-[5]: https://www.google.com/maps
-[6]: https://mapstyle.withgoogle.com/
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->
