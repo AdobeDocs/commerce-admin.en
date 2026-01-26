@@ -20,9 +20,9 @@ The type of Commerce account transfer depends on the Commerce account credential
 
 | Transfer type | Current owner | New owner |
 | ------------- | ------------- | --------- |
-| [New Adobe ID and email change](#new-adobe-id-and-email-change) | Has a MAGEID that is **_not connected_** with an Adobe login account. | Does not have a MAGEID and is not connected to an Adobe login account. | 
-| [Email change](#email-change) | Has a MAGEID that is **_connected_** with an Adobe login account. | Does not have a MAGEID and is not connected to an Adobe login account. |
-| [Adobe ID switch](#adobe-id-account-switch) | Has a MAGEID that is **_connected_** with an Adobe login account. | Has a MAGEID and is connected to an Adobe login account with no other Adobe products/services associated. |
+| [New Adobe ID and email change](#new-adobe-id-and-email-change) | Has a MAGEID that **_has not been connected_** to an Adobe login account | Does not have a MAGEID and is not connected to an Adobe login account. | 
+| [Email change](#email-change) | Has a MAGEID that is **_connected_** with an Adobe login account. | Has an Adobe login account, but **_does not have a MAGEID_** connected to an Adobe login account. |
+| [Adobe ID account switch](#adobe-id-account-switch) | Has a MAGEID that is **_connected_** to an Adobe login account. | Has a MAGEID and is connected to an Adobe login account. |
 
 {style="table-layout:auto"}
 
@@ -36,9 +36,9 @@ The type of Commerce account transfer depends on the Commerce account credential
 >
 >Review the [transfer types](#identify-your-transfer-type) and make sure that you meet the preconditions for this sequence of steps.
 
-This transfer type requires that you first create an associated Adobe ID and then change that account to the email address for the new owner.
+This transfer type requires having an Adobe ID that's linked to the existing Commerce account, and then changing that account to the email address for the new owner.
 
-1. Go to your [Commerce account](https://account.magento.com/customer/account/login/).
+1. Go to the [Commerce account login](https://account.magento.com/customer/account/login/) page.
 
 1. Click **[!UICONTROL Sign in with Adobe ID]**.
 
@@ -55,6 +55,8 @@ This transfer type requires that you first create an associated Adobe ID and the
 1. Click **[!UICONTROL Change Email]**.
 
 1. Enter the new owner's email address.
+  
+   If the new email address is already linked to another account in the system, it cannot be directly used for the transfer. Instead, the process requires using a [temporary email address](#change-to-a-temporary-account) to facilitate the change.
 
 1. Click **[!UICONTROL Change]**.
 
@@ -72,11 +74,15 @@ This transfer type requires that you first create an associated Adobe ID and the
 >
 >Review the [transfer types](#identify-your-transfer-type) and make sure that you meet the preconditions for this sequence of steps.
 
+This transfer type results in the current account owner losing access to other Adobe products.
+
 1. Navigate to [account.adobe.com](https://account.adobe.com/) and complete the Adobe login.
 
 1. Under your account name and avatar, click **[!UICONTROL Change Email]**.
 
 1. In the dialog, enter the new owner's email address.
+
+   If the new email address is already linked to another account in the system, it cannot be directly used for the transfer. Instead, the process requires using a [temporary email address](#change-to-a-temporary-account) to facilitate the change.
 
 1. Click **[!UICONTROL Change]**.
 
@@ -92,7 +98,7 @@ This transfer type requires that you first create an associated Adobe ID and the
 >
 >Review the [transfer types](#identify-your-transfer-type) and make sure that you meet the preconditions for this sequence of steps.
 
-In the case where the current owner and new owner have existing Adobe IDs, both accounts should remain, but email addresses need to be switched between them. This requires the use of a _temporary_ email address that is valid, but is not associated with an Adobe ID.
+This transfer type uses a temporary email address to switch account ownership when both the current owner and new owner have existing Adobe IDs, and you want to retain both accounts. To complete the ownership transfer, you must use a temporary email address that is not associated with an Adobe ID.
 
 ### Change to a temporary account
 
@@ -104,7 +110,11 @@ The current owner completes these steps to associate their Adobe ID with another
 
 1. In the dialog, enter a valid temporary email address that is not used by an Adobe ID.
 
-   You must have access to the email address so that you can retrieve the email with the confirmation code. 
+>[!NOTE]
+>
+>You must have access to the email address so that you can retrieve the email with the confirmation code.
+>
+>If you cannot access the account email, ask your IT team to set up email forwarding for the account email address in your company email system. If email forwarding cannot be configured, ensure the new Account Owner has an Adobe ID and then [submit a Support request](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) with all necessary details to initiate the account transfer.
 
 1. Click **[!UICONTROL Change]**.
 
@@ -138,7 +148,7 @@ After the current owner completes the transfer to a temporary email address, the
 
 ### Follow up steps
 
-After the new owner successfully configures their Adobe account with the original email address of the current (now previous) owner, complete these steps to transfer ownership.
+After the new owner successfully configures their Adobe account with the original email address of the current owner, complete these steps to transfer ownership.
 
 1. Navigate to [account.adobe.com](https://account.adobe.com/), and complete the Adobe login using the email address for the [temporary account](#change-to-a-temporary-account).
 
@@ -154,6 +164,6 @@ After the new owner successfully configures their Adobe account with the origina
 
 1. Click **[!UICONTROL Verify]**.
 
->[!IMPORTANT]
->
->Submit a Support request to inform the Support team that you have updated the account owner's email address. The team must perform additional steps to complete the update such as updating the email address on your [Commerce Marketplace](https://commercemarketplace.adobe.com/) profile. Include the previous account owner's email address in your request.
+## Final steps
+
+After the new owner completes the steps in the first or third use case, the new owner must [submit a support request](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide?lang=en#support-case) to inform the support team about the email address update. The support team then completes additional tasks, such as updating the email address on the [Commerce Marketplace](https://commercemarketplace.adobe.com/) profile. Include the previous account owner’s email address in the request.

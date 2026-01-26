@@ -6,7 +6,7 @@ feature: Page Builder, Page Content
 ---
 # Media - Video
 
-Use the _Video_ content type to add a video that is hosted on [YouTube][1] or [Vimeo][2] to the [[!DNL Page Builder] stage](workspace.md#stage). It's easy to embed video in a page or block or in product and category descriptions.
+Use the _Video_ content type to add a video that is hosted on [YouTube](https://www.youtube.com/) or [Vimeo](https://vimeo.com/) to the [[!DNL Page Builder] stage](workspace.md#stage). It's easy to embed video in a page or block or in product and category descriptions.
 
 ![Video on the storefront home page](./assets/pb-storefront-video.png){width="700" zoomable="yes"}
 
@@ -32,7 +32,7 @@ Use the _Video_ content type to add a video that is hosted on [YouTube][1] or [V
 
 ## Add a video
 
-1. Before you begin, navigate to the [YouTube][1] or [Vimeo][2] video that you want to embed, and copy the link.
+1. Before you begin, navigate to the [YouTube](https://www.youtube.com/) or [Vimeo](https://vimeo.com/) video that you want to embed, and copy the link.
 
    As an alternative, you can also copy a direct link to a valid video file. See [Basic video settings](#basic-video-settings) for valid links.
 
@@ -162,5 +162,5 @@ Use the _Video_ content type to add a video that is hosted on [YouTube][1] or [V
 
 1. When prompted to confirm, click **[!UICONTROL OK]**.
 
-[1]: https://www.youtube.com/
-[2]: https://vimeo.com/
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

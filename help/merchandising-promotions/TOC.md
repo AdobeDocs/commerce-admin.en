@@ -80,6 +80,4 @@ feature: Merchandising, Promotions/Events
   - [Google Analytics](google-analytics.md)
   - [Google Tag Manager](google-tag-manager.md)
   - [Google Adwords](google-adwords.md)
-  - [Google Content Experiments](google-content-experiments.md)
-- [Return to Admin User Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
-
+- [Return to Admin User Guides](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

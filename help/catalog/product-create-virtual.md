@@ -139,3 +139,5 @@ Complete the information in the following sections as needed:
 - Virtual products are much like simple products, but without weight.
 
 - Shipping options do not appear during checkout unless there is a tangible product in the cart.
+
+<!-- Last updated from includes: 2023-05-19 17:14:58 -->

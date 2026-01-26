@@ -139,7 +139,6 @@ The following instructions show how to configure a new container with the basic 
 |[!UICONTROL Enable]|Store View|Determines if Google Analytics Enhanced Ecommerce can be used to analyze activity in your store. Options: `Yes` / `No`|
 |[!UICONTROL Account type]|Store View|Determines the Google tracking code that is used to monitor store activity and traffic. Options: `Google Analytics` / `Google Tag Manager`|
 |[!UICONTROL Anonymize IP]|Store View|Determines if identifying information is removed from IP addresses that appear in Google Analytics results.|
-|[!UICONTROL Enable Content Experiments]|Store View|Activates Google Content Experiments, which can be used to test up to ten different versions of the same page. Options: `Yes` / `No`|
 |[!UICONTROL Container Id]|Store View|If [!DNL Google Tag Manager] is already installed and configured for your store, the Container ID appears automatically in this field.|
 |[!UICONTROL List property for the catalog page]|Store View|Identifies the Tag Manager property associated with the catalog page. Default value: `Catalog Page`|
 |[!UICONTROL List property for the cross-sell block]|Store View|Identifies the Tag Manager property associated with the cross-sell block. Default value: `Cross-sell`|

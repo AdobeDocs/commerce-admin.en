@@ -78,7 +78,6 @@ feature: Catalog Management
     + [Images and Videos](product-images-and-video.md)
     + [Search Engine Optimization](product-search-engine-optimization.md)
     + [Related Products, Up-Sells, and Cross-Sells](related-products-up-sells-cross-sells.md)
-    + [Product View Optimization](product-view-optimization.md)
     + [Customizable Options](settings-advanced-custom-options.md)
     + [Product in Websites](settings-basic-websites.md)
     + [Design](settings-advanced-design.md)
@@ -93,5 +92,4 @@ feature: Catalog Management
     + [Create and delete attributes](attribute-product-create.md)
     + [Bulk updates](bulk-product-attribute-update.md)
     + [Attribute sets](attribute-sets.md)
-+ [Return to Admin User Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
-
++ [Return to Admin User Guides](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

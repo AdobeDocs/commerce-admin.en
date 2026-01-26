@@ -68,8 +68,8 @@ When you are working with the _Tabs_ content type, you add and edit individual t
 
 1. If needed, set the other options using the following sections as guidance:
 
-   - [[!UICONTROL Background]][background]
-   - [[!UICONTROL Advanced]][advanced]
+   - [[!UICONTROL Background]](#background)
+   - [[!UICONTROL Advanced]](#advanced)
 
 1. In the upper-right corner, click **[!UICONTROL Save]** to apply the settings and return to the [!DNL Page Builder] workspace.
 
@@ -318,5 +318,5 @@ You can any content type to a tab just as you can to a row. Use the following st
 
 1. When complete, click **[!UICONTROL Save]** to apply the settings and return to the [!DNL Page Builder] workspace.
 
-[background]: #background
-[advanced]: #advanced
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

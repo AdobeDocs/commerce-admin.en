@@ -189,6 +189,23 @@ feature: Configuration, Shipping/Delivery
 
 {style="table-layout:auto"}
 
+The following fields are available only if you have applied the [USPS REST API Migration quality patch](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210). This patch enables support for the USPS APIs, a REST-based platform that replaces the Web Tools APIs. For details, see [USPS Web Tools API deprecation](../../stores-purchase/carriers.md).
+
+|Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
+|--- |--- |--- |
+|[!UICONTROL USPS Type]|Website|Choose **USPS Rest APIs** or **USPS Web Tools API** based on which one you will use.|
+| [!UICONTROL Consumer Key ]|Website|Your USPS shipper account Client ID for REST API.|
+| [!UICONTROL Consumer Secret ]|Website| Your USPS shipper account Client Secret Key for REST API.|
+| [!UICONTROL Account Type]|Website|Type of USPS payment account. Options: `"EPS"` (Enterprise Payment System), or`"PERMIT"` (Permit Imprint) for REST API. <br/><br/>**_Note:_** This field is optional; however, it is required to enable shipping label creation.|
+| [!UICONTROL Pricing Options]|Website|USPS Pricing Options: **Retail** or **Commercial**. Impacts the shipping rate applied. Default is **Commercial** for REST API.|
+| [!UICONTROL Account Number]|Website|Your USPS **account number**, used for payment for REST API.  <br/><br/>**_Note:_** This field is optional; however, it is required to enable shipping label creation.|
+| [!UICONTROL Customer Registration Identifier(CRID)] |Website|A Customer Registration Identification number (CRID) is a USPS-generated numeric code that uniquely identifies a business at a location for REST API.  <br/><br/>**_Note:_** This field is optional; however, it is required to enable shipping label creation.|
+| [!UICONTROL Mailer Identifier(MID)] |Website|The Mailer Identifier (MID) is a field within the Intelligent Mail barcode that is used to identify mailers. MIDs are assigned by the USPS to a Mail Owner, Mailing Agent, or other service provider who requests them for REST API.  <br/><br/>**_Note:_** This field is optional; however, it is required to enable shipping label creation.|
+| [!UICONTROL Manifest MID]|Website|The unique mailer identifier designated for the manifest for REST API.  <br/><br/>**_Note:_** This field is optional; however, it is required to enable shipping label creation.|
+| [!UICONTROL AES/ITN] | Website | USPS AES - Automated Export System / ITN - Internal Transaction Number for REST API. <br/><br/>**_Note:_** This field is generally optional, but is required to enable shipping label creation if: <ul><li>Each type of goods in the shipment (as defined by Schedule B Export Codes at <a href="https://www.census.gov/foreign-trade/schedules/b" target="_blank">www.census.gov/foreign-trade/schedules/b</a>) is valued at $2,500 or less and does not require an export license; or</li><li>The shipment, regardless of value, is being sent to Canada and does not require an export license.</li></ul> |
+
+{style="table-layout:auto"}
+
 ![USPS Packaging Settings](./assets/delivery-methods-usps-packaging.png)<!-- zoom -->
 
 <!-- [USPS Packaging Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->

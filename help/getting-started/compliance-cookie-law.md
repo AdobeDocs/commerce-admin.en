@@ -70,7 +70,7 @@ Some of these cookies may provide configuration options, including enable/disabl
 
 #### `guest-view`
 
-Links a guest order to a guest (because there is no account for guest).
+Links a guest order to a guest (because there is no account for guest). To maintain system stability, do not disable this cookie.
 
 #### `login_redirect`
 
@@ -78,31 +78,31 @@ Saves redirect URL to route user if successful login and user registration. Save
 
 #### `mage-banners-cache-storage`
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Stores banner content locally to improve performance. Banner content is any content that a merchant would display on their website.
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Local storage for Banner functionality. Stores banner content locally to improve performance. Banner content includes general website assets that display information to a shopper. To maintain system stability, do not disable this cookie.
 
 #### `mage-messages`
 
-Tracks error messages and other notifications that are shown to the user, such as the cookie consent message, and various error messages. The message is deleted from the cookie after it is shown to the shopper. There is not an option to disable this cookie. This is how one-time information is communicated to the user, such as error messages.
+Tracks error messages and other notifications that are shown to the user, such as the cookie consent message, and various error messages. The message is deleted from the cookie after it is shown to the shopper. There is not an option to disable this cookie. This is how one-time information is communicated to the user, such as error messages. To maintain system stability, do not disable this cookie.
 
 #### `product_data_storage` (local storage)
 
-Stores configuration for product data used to use "Recently Viewed" and "Compare Products" functions. Stores a user's specific settings (for example, if they have recently viewed a product or compared products).
+Stores configuration for product data used to use "Recently Viewed" and "Compare Products" functions. Stores a user's specific settings (for example, if they have recently viewed a product or compared products). To maintain system stability, do not disable this cookie.
 
 #### `recently_compared_product` (local storage)
 
-Stores product IDs of recently compared products.
+Stores product IDs of recently compared products. To maintain system stability, do not disable this cookie.
 
 #### `recently_compared_product_previous` (local storage)
 
-Stores product IDs of previously compared products for easy navigation.
+Stores product IDs of previously compared products for easy navigation. To maintain system stability, do not disable this cookie.
 
 #### `recently_viewed_product` (local storage)
 
-Stores product IDs of recently viewed products for easy navigation.
+Stores product IDs of recently viewed products for easy navigation. To maintain system stability, do not disable this cookie.
 
 #### `recently_viewed_product_previous` (local storage)
 
-Stores product IDs of recently viewed products for easy navigation.
+Stores product IDs of recently viewed products for easy navigation. To maintain system stability, do not disable this cookie.
 
 #### `remove_from_cart`
 
@@ -114,51 +114,47 @@ Records the time messages are sent by the SendFriend ([Email a Friend](../stores
 
 #### `X-Magento-Vary`
 
-Indicates when a new version of a page needs to be served from the cache. Supports website performance.
+Indicates when a new version of a page needs to be served from the cache. Supports website performance. To maintain system stability, do not disable this cookie.
 
 #### `form_key`
 
-A security mechanism that holds a randomly generated value to prevent Cross Site Request Forgery attacks (CSRF) by helping determine whether a request came from a genuine source or a bad actor. This is an industry-standard practice to prevent CSRF attacks.
+A security mechanism that holds a randomly generated value to prevent Cross Site Request Forgery attacks (CSRF) by helping determine whether a request came from a genuine source or a bad actor. This is an industry-standard practice to prevent CSRF attacks. To maintain system stability, do not disable this cookie.
 
 #### `mage-cache-sessid`
 
-Useful in determining when to clean local storage in the browser after session expiry. This is used to determine if local storage has to be cleaned. The absence of this cookie triggers local storage cleanup.
+Useful in determining when to clean local storage in the browser after session expiry. This is used to determine if local storage has to be cleaned. The absence of this cookie triggers local storage cleanup. To maintain system stability, do not disable this cookie.
 
 #### `mage-cache-storage`
 
-Local storage of visitor-specific content that enables e-commerce functions. Unused by default, but when it is used, it's used to expedite checkout so that basic user information is available when someone leaves and returns.
+Local storage of visitor-specific content that enables e-commerce functions. Unused by default, but when it is used, it's used to expedite checkout so that basic user information is available when someone leaves and returns. To maintain system stability, do not disable this cookie.
 
 #### `mage-cache-storage-section-invalidation`
 
-Stores information related to which sections of the page need to be invalidated and removed.
+Stores information related to which sections of the page need to be invalidated and removed. To maintain system stability, do not disable this cookie.
 
 #### `persistent_shopping_cart`
 
-Stores the key ID of a persistent cart to make it possible to restore the cart for an anonymous shopper.
+Stores the key ID of a persistent cart to make it possible to restore the cart for an anonymous shopper. To maintain system stability, do not disable this cookie.
 
 #### `private_content_version`
 
-Appends a random, unique number and time to pages with customer content to prevent them from being cached on the server. It is set in multiple places: in PHP, in JavaScript as a cookie, and in JavaScript to local storage.
+Appends a random, unique number and time to pages with customer content to prevent them from being cached on the server. It is set in multiple places: in PHP, in JavaScript as a cookie, and in JavaScript to local storage. To maintain system stability, do not disable this cookie.
 
 #### `section_data_ids`
 
-Stores customer-specific information related to shopper-initiated actions, such as wish list display and checkout information.
+Stores customer-specific information related to shopper-initiated actions, such as wish list display and checkout information. To maintain system stability, do not disable this cookie.
 
 #### `store`
 
-Tracks the specific store view/locale selected by the shopper.
-
-#### `mage-banners-cache-storage`
-
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Local storage for Banner functionality. Banner means general website assets any information displayed to a shopper.
+Tracks the specific store view/locale selected by the shopper. To maintain system stability, do not disable this cookie.
 
 #### `PHPSESSID`
 
-Tracks user sessions on the storefront. This is the shoppers who use the end-products.
+Tracks user sessions on the storefront. This is the shoppers who use the end-products. To maintain system stability, do not disable this cookie.
 
 #### `admin`
 
-Tracks user sessions on the Admin side.
+Tracks user sessions on the Admin side. To maintain system stability, do not disable this cookie.
 
 #### `loggedOutReasonCode`
 
@@ -166,31 +162,31 @@ Set when an Admin user is locked out after a certain number of unsuccessful pass
 
 #### `section_data_clean`
 
-Set when a user switches store view. The presence of this cookie triggers JavaScript to reload certain sections on the page to reflect the correct store view.
+Set when a user switches store view. The presence of this cookie triggers JavaScript to reload certain sections on the page to reflect the correct store view. To maintain system stability, do not disable this cookie.
 
 #### `lang`
 
-Set indirectly by the Admin Analytics module. Being used only in an administrative area of a store. Not applicable to shoppers.
+Set indirectly by the Admin Analytics module. Being used only in an administrative area of a store. Not applicable to shoppers. To maintain system stability, do not disable this cookie.
 
 #### `s_fid`
 
-Set indirectly by the Admin Analytics module. Fallback unique visitor ID time/date stamp. It is used to identify a unique visitor if the standard `s_vi` cookie is unavailable due to third-party cookie restrictions. Being used only in an administrative area of a store. Not applicable to shoppers.
+Set indirectly by the Admin Analytics module. Fallback unique visitor ID time/date stamp. It is used to identify a unique visitor if the standard `s_vi` cookie is unavailable due to third-party cookie restrictions. Being used only in an administrative area of a store. Not applicable to shoppers. To maintain system stability, do not disable this cookie.
 
 #### `s_cc`
 
-Set indirectly by the Admin Analytics module. It is set and read by the JavaScript code to determine if cookies are enabled. Being used only in an administrative area of a store. Not applicable to shoppers.
+Set indirectly by the Admin Analytics module. It is set and read by the JavaScript code to determine if cookies are enabled. Being used only in an administrative area of a store. Not applicable to shoppers. To maintain system stability, do not disable this cookie.
 
 #### `apt.sid`
 
-Set by the Gainsight PX library indirectly used by the Admin Analytics module. The purpose of this cookie is to allow persistent session ID tracking under the top-level domain of the product and is used as a reference ID to the active session. Being used only in an administrative area of a store. Not applicable to shoppers.
+Set by the Gainsight PX library indirectly used by the Admin Analytics module. The purpose of this cookie is to allow persistent session ID tracking under the top-level domain of the product and is used as a reference ID to the active session. Being used only in an administrative area of a store. Not applicable to shoppers. To maintain system stability, do not disable this cookie.
 
 #### `apt.uid`
 
-Set by the Gainsight PX library indirectly used by the Admin Analytics module. The purpose of this cookie is to allow persistent ID tracking under the top-level domain of the product and is used as a reference ID to the user entity. Being used only in an administrative area of a store. Not applicable to shoppers.
+Set by the Gainsight PX library indirectly used by the Admin Analytics module. The purpose of this cookie is to allow persistent ID tracking under the top-level domain of the product and is used as a reference ID to the user entity. Being used only in an administrative area of a store. Not applicable to shoppers. To maintain system stability, do not disable this cookie.
 
 #### `s_sq`
 
-Set indirectly by the Admin Analytics module. Used by the ClickMap feature that collects data on where visitors click and what they click. Stores information from each click. Being used only in an administrative area of a store. Not applicable to shoppers.
+Set indirectly by the Admin Analytics module. Used by the ClickMap feature that collects data on where visitors click and what they click. Stores information from each click. Being used only in an administrative area of a store. Not applicable to shoppers. To maintain system stability, do not disable this cookie.
 
 #### `pagebuilder_modal_dismissed`
 
@@ -216,12 +212,20 @@ Being used as a part of tabs functionality implementation only in an administrat
 - `dataservices_cart_id`: Identifies a shopper's cart actions. This cookie contains the customer's unique cart ID in the system.
 - `dataservices_product_context`: Identifies a shopper's product interactions. This cookie contains the customer's unique quote ID in the system.
 
+### Product Recommendations local storage data
+
+The following data is saved to local storage for stores using the Luma theme when Live Search or Product Recommendations is installed:
+
+- `ds-cart`: Stores cart information for Luma-specific functionality
+- `ds-cart-order`: Stores order information for cart functionality
+- `ds-purchase-history`: Tracks customer purchase history
+- `ds-view-history-time-decay`: Stores product view history with time-based decay
+- `ds-logged-in`: Indicates customer login status. This data only exists when the customer is logged in and is stored even when cookie restriction mode is enabled. This is the only data that Commerce stores in local storage when cookie restriction mode is enabled, regardless of user consent status.
+
 ## Additional cookies
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) The following cookies are set for Adobe Commerce customers. These cookies are installed with the [DataServices module](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
 
 - `mg`: Set by Snowplow JavaScript tracker. More information can be found in the [Snowplow documentation](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/).
 - `com.adobe.alloy.getTld`: Given the current web page's hostname, this is the top-most domain that is not a "public suffix" as outlined in https://publicsuffix.org. Essentially, this is the top-most domain that can accept cookies. This cookie is part of the [Alloy Web SDK](https://github.com/adobe/alloy).
-
-[1]: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
-[2]: https://support.google.com/adwords/answer/7521212
+- `aep-segments-membership`: Contains [audience information](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation), such as which segment a shopper belongs to.

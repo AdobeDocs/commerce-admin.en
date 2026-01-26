@@ -128,3 +128,5 @@ Assets can be used extensively throughout the Admin, such as [add or edit a page
 1. Click the **[!UICONTROL Filters]** tab and select the **[!UICONTROL Show duplicates]** checkbox.
 
 1. To see the results, click **[!UICONTROL Apply Filters]**.
+
+<!-- Last updated from includes: 2024-01-30 15:43:39 -->

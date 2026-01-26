@@ -60,7 +60,7 @@ The Distance Priority Algorithm compares the location of the shipping destinatio
 
 You have two options for calculating the distance and time to find the closest source for shipment fulfillment:
 
-- **Google MAP** - Uses [Google Maps Platform][1] services to calculate the distance and time between the shipping destination address and source locations (address and GPS coordinates). This option uses the source's Latitude and Longitude. A Google API key is required with [Geocoding API][2] and [Distance Matrix API][3] enabled. This option requires a Google billing plan and may incur charges through Google.
+- **Google MAP** - Uses [Google Maps Platform](https://cloud.google.com/maps-platform/) services to calculate the distance and time between the shipping destination address and source locations (address and GPS coordinates). This option uses the source's Latitude and Longitude. A Google API key is required with [Geocoding API](https://developers.google.com/maps/documentation/geocoding/start) and [Distance Matrix API](https://developers.google.com/maps/documentation/distance-matrix/start) enabled. This option requires a Google billing plan and may incur charges through Google.
 
 - **Offline Calculation** - Calculates the distance using downloaded and imported geocode data to determine the closest source to the shipping destination address. This option uses the country codes of the shipping address and source. To configure this option, you may require developer assistance to initially download and import geocodes using a command line.
 
@@ -214,6 +214,5 @@ If you remove all sources from a product for a stock with pending orders, you ma
 
 {{$include /help/_includes/unassign-source.md}}
 
-[1]: https://cloud.google.com/maps-platform/
-[2]: https://developers.google.com/maps/documentation/geocoding/start
-[3]: https://developers.google.com/maps/documentation/distance-matrix/start
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

@@ -51,7 +51,7 @@ When the state of new orders is set to `Processing`, the option to _Automaticall
 >
 >Invoices are not created automatically for orders placed by using `Gift Card`, `Store Credit`, `Reward Points`, or other offline payment methods.
 
-An invoice for the order must be generated before it can be printed. To view or print the PDF, first download and install a PDF reader such as [Adobe Acrobat Reader][1].
+An invoice for the order must be generated before it can be printed. To view or print the PDF, first download and install a PDF reader such as [Adobe Acrobat Reader](https://www.adobe.com/acrobat/pdf-reader.html "Get Adobe Reader").
 
 **_To invoice an order:_**
 
@@ -119,7 +119,7 @@ Invoices can be printed individually or as a batch. However, before an invoice c
 
 >[!NOTE]
 >
->To view or print the PDF, you must have a PDF reader. You can download [Adobe Reader][1] at no charge.
+>To view or print the PDF, you must have a PDF reader. You can download [Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "Get Adobe Reader") at no charge.
 
 ### Print a single invoice
 
@@ -142,5 +142,3 @@ Invoices can be printed individually or as a batch. However, before an invoice c
    ![Print multiple invoices](./assets/invoices-print-batch.png){width="600" zoomable="yes"}
 
 The invoices are saved in a single PDF file that can be sent to a printer or saved.
-
-[1]: https://www.adobe.com/acrobat/pdf-reader.html "Get Adobe Reader"

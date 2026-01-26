@@ -5,6 +5,7 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # [!DNL Audience Activation]
 
@@ -196,7 +197,7 @@ After you install the [!DNL Audience Activation] extension, you must log into yo
 
 With the [!DNL Audience Activation] extension enabled, you can:
 
-- [Create a cart price rule](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) informed by audiences
+- [Create a cart price rule](../merchandising-promotions/price-rules-cart-create.md#use-real-time-cdp-audiences-to-set-a-condition) informed by audiences
 - [Create a dynamic block](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) informed by audiences
 - [Create a related product rule](../merchandising-promotions/product-related-rule-create.md) informed by audiences
 
@@ -361,7 +362,7 @@ Edge.sendEvent(experienceEvent: experienceEvent) { (handles: [EdgeEventHandle]) 
                     storage.set(segmentsArr, forKey: "segments")
                     print("End saving segments")
                 }
-         
+
                 // Show segments
                 let rSegments = storage.object(forKey: "segments") ?? nil;
                 print("Retrieving segments -> \(rSegments)")
@@ -394,7 +395,7 @@ bin/magento audiences:config:status
 This command returns the connection status. Add the `-v` flag to provide extra verbosity:
 
 ```
-./bin/magento audiences:config:status -v  
+./bin/magento audiences:config:status -v
 ```
 
 For example:
@@ -411,7 +412,7 @@ For example:
 1. Open your Commerce instance.
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 1. Expand **[!UICONTROL Services]** and select **[!UICONTROL [!DNL Data Connection]]**.
-1. Ensure the server-to-server authorization method that you specified in the **[!UICONTROL Authentication Type]** field is correct. Adobe recommends using **OAuth**. JWT has been deprecated. [Learn more](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
+1. Ensure the server-to-server authorization method that you specified in the **[!UICONTROL Authentication Type]** field is correct. Adobe recommends using **OAuth**. [JWT has been deprecated](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/jwt-credentials-deprecation-in-adobe-developer-console), with all current certificates expiring by March 1, 2026.
 
 ### Insufficient privileges on generated token
 

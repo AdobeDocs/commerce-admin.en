@@ -36,3 +36,20 @@ The configuration options vary for each carrier. However, all require the follow
 1. Open a shipping account with the carrier.
 
 1. Enter your account number or user ID, and the gateway URL to their system into the configuration of your store.
+
+### USPS Web Tools API deprecation
+
+Adobe Commerce versions 2.4.6, 2.4.7, and 2.4.8 use the Legacy Web Tools APIs for out-of-the-box shipping integration with USPS. USPS has introduced USPS APIs, a REST-based platform to replace the Legacy Web Tools APIs.
+
+On January 25, 2026, USPS is retiring the Legacy Web Tools APIs. After this date, all requests to the Web Tools APIs will fail.
+
+To avoid disruption of USPS shipping services, take the following actions before January 25, 2026:
+
+- Apply the [USPS REST API Migration quality patch](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) to add support for integrating with the USPS REST APIs.
+
+- Update the Commerce USPS configuration to use the REST APIs:
+
+  - [USPS Shipping Carrier configuration](usps.md)
+
+  - [Shipping label configuration](shipping-label-create.md)
+

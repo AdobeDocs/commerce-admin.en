@@ -1,3 +1,6 @@
+---
+repo: AdobeDocs/commerce-admin.en
+url: https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home
 exclude:
   - Rakefile
   - tmp

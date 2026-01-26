@@ -62,7 +62,7 @@ You can submit your site map to different search engines by providing them the l
 For more information, see the instructions for the specific search engine. Here are links to instructions for two top search engines:
 
 - [Google](https://support.google.com/webmasters/answer/183669?hl=en)
-- [Microsoft&reg; Bing][3]
+- [Microsoft&reg; Bing](https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed)
 
 ## Step 5: Restore previous robot instructions (optional)
 

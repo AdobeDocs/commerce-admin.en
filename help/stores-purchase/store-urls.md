@@ -21,13 +21,13 @@ Each website in an Adobe Commerce or Magento Open Source installation has a base
 
 The base URLs for your store were initially set up during your Adobe Commerce installation. If a security certificate was available at the time, you could specify for `HTTPS` URLs to be used for the store, Admin, or both. If your Adobe Commerce installation includes multiple stores or you plan to later add more stores, you can include the store code in the URL. All Adobe resources and operations can be used with secure protocol.
 
-If a security certificate was not available for the domain at the time of the installation, make sure to update the configuration before launching your store. After a security certificate is established for your domain, you can configure either or both base URLs to operate with encrypted Secure Sockets Layer (SSL) and [Transport Layer Security][1] (TLS) protocol.
+If a security certificate was not available for the domain at the time of the installation, make sure to update the configuration before launching your store. After a security certificate is established for your domain, you can configure either or both base URLs to operate with encrypted Secure Sockets Layer (SSL) and [Transport Layer Security](https://en.wikipedia.org/wiki/Transport_Layer_Security) (TLS) protocol.
 
 >[!IMPORTANT]
 >
 >Adobe strongly recommends transmitting all pages of a production site, including content and product pages, using a secure protocol.
 
-Adobe Commerce and Magento Open Source can be configured to deliver all pages over `HTTPS` by default. If your store has been running up with standard protocol, you can improve security by enabling [HTTP Strict Transport Security][2] (HSTS) and upgrading any unsecure page requests. HSTS is an opt-in protocol that prevents browsers from rendering standard `HTTP` pages that are transmitted with unsecure protocol for the specified domain. Because search engines might have already indexed each page of your store with standard `HTTP` URLs, you can configure Commerce to upgrade any unsecure page requests to `HTTPS` automatically , so you don't lose any traffic. When Commerce is configured to use secure URLs for both the storefront and Admin, two additional fields appear that allow you to enable `HSTS`.
+Adobe Commerce and Magento Open Source can be configured to deliver all pages over `HTTPS` by default. If your store has been running up with standard protocol, you can improve security by enabling [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) (HSTS) and upgrading any unsecure page requests. HSTS is an opt-in protocol that prevents browsers from rendering standard `HTTP` pages that are transmitted with unsecure protocol for the specified domain. Because search engines might have already indexed each page of your store with standard `HTTP` URLs, you can configure Commerce to upgrade any unsecure page requests to `HTTPS` automatically , so you don't lose any traffic. When Commerce is configured to use secure URLs for both the storefront and Admin, two additional fields appear that allow you to enable `HSTS`.
 
 ## Configure the base URL
 
@@ -148,7 +148,7 @@ Although it is possible to change the Admin URL and path to another location, an
 
 >[!NOTE]
 >
->As a precaution, do not try to change the Admin URL yourself unless you know how to edit configuration files on the server. For Adobe Commerce projects deployed on cloud infrastructure, change the Admin URL by following the [instructions](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=en#admin-url) in the *Adobe Commerce on Cloud Infrastructure Guide*.
+>As a precaution, do not try to change the Admin URL yourself unless you know how to edit configuration files on the server. For Adobe Commerce projects deployed on cloud infrastructure, change the Admin URL by following the [instructions](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html#admin-url) in the *Adobe Commerce on Cloud Infrastructure Guide*.
 
 ### Method 1: Change from the Admin
 
@@ -259,7 +259,3 @@ In case you have set an invalid Admin URL or an Admin Path and lost access to th
       ```bash
       php bin/magento cache:flush
       ```
-
-
-[1]: https://en.wikipedia.org/wiki/Transport_Layer_Security
-[2]: https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security

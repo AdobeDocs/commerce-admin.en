@@ -30,7 +30,7 @@ recommendations: noDisplay
     + [Define company structure](account-company-structure.md)
 + Company management {#company-management}
     + [Overview](manage-companies.md)
-    + [Manage company hierarchy](manage-company-hierarchy.md)
+    + [Manage company hierarchies](manage-company-hierarchy.md)
 + Shared catalogs {#shared-catalogs}
   + [Overview](catalog-shared.md)
   + Define shared catalogs {#define}
@@ -62,4 +62,4 @@ recommendations: noDisplay
 + Reference {#reference}
   + [Backward-incompatible changes](backward-incompatible-changes.md)
   + [Packages](packages.md)
-+ [Return to Admin User Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Return to Admin User Guides](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

@@ -10,8 +10,6 @@ Your store configuration is integrated with the following Google tools to help o
 
 - [Google Analytics](google-analytics.md) - Use _Google Universal Analytics_ to define additional custom dimensions and metrics for tracking, with support for offline and mobile app interactions, and access to ongoing updates.
 
-- [Google Content Experiments](google-content-experiments.md) - Set up an A/B test for products, categories, or content pages using Google Analytics Content Experiments.
-
 - [Google Tag Manager](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Use Google Tag Manager to manage the many tags related to marketing campaign events.
 
 - [Google AdWords](google-adwords.md) - Create a Google AdWords campaign and track conversions for your store.
@@ -24,7 +22,7 @@ If your business is required to comply with privacy regulations such as the [GDP
 
 ### Step 1: Update Google settings
 
-1. [Sign in][1]{: target="_blank"} to your company's Google Analytics account.
+1. [Sign in](https://www.google.com/analytics/){: target="_blank"} to your company's Google Analytics account.
 
 1. At the bottom of the left sidebar, choose **[!UICONTROL Admin]**, and then navigate to the account that you want to edit (if applicable).
 
@@ -41,7 +39,7 @@ If your business is required to comply with privacy regulations such as the [GDP
 
 1. Accept the _Data Processing Amendment_.
 
-   The Google Ads Data Processing Terms describe how Google processes data, and the measures it takes to ensure data security for business that are subject to the GDPR. A record of your legal entities and contact information is also maintained with the amendment. To [learn more][2]{: target="_blank"}, click the link in the message at the top of the page.
+   The Google Ads Data Processing Terms describe how Google processes data, and the measures it takes to ensure data security for business that are subject to the GDPR. A record of your legal entities and contact information is also maintained with the amendment. To [learn more](https://support.google.com/analytics/answer/3379636){: target="_blank"}, click the link in the message at the top of the page.
 
    - Scroll down the page to **[!UICONTROL Data Processing Amendment]**.
    - Click **[!UICONTROL Review Amendment]** to read the _Google Ads Data Processing Terms_.
@@ -76,7 +74,7 @@ To anonymize the IP addresses used by **_Google Universal Analytics_**, add the 
    : `ga('set', 'anonymizeIp', true);`
    ```
 
-   To learn more, see the [Analytics.js Field Reference][3]{: target="_blank"} in Google Help.
+   To learn more, see the [Analytics.js Field Reference](https://developers.google.com/analytics/devguides/collection/analyticsjs/field-reference){: target="_blank"} in Google Help.
 
    If you use the legacy `ga.js` library, add the following snippet:
    
@@ -94,7 +92,7 @@ To anonymize the IP addresses used by **_Google Tag Manager_**, set the `anonym
    : `gtag('event', 'your_event', { 'anonymize_ip': true })`
    ```
 
-   To learn more, see [IP Anonymization in Analytics][4] in Google Help.
+   To learn more, see [IP Anonymization in Analytics](https://support.google.com/analytics/answer/2763052) in Google Help.
 
 #### Force SSL
 
@@ -114,8 +112,3 @@ Update your [privacy policy](../getting-started/privacy-policy.md ) to state tha
 - Masks IP addresses to hide personal information
 - Has turned off Google Data Sharing
 - Does not use other Google services with Google Analytics cookies
-
-[1]: https://www.google.com/analytics/
-[2]: https://support.google.com/analytics/answer/3379636
-[3]: https://developers.google.com/analytics/devguides/collection/analyticsjs/field-reference
-[4]: https://support.google.com/analytics/answer/2763052

@@ -6,9 +6,9 @@ feature: Extensions
 ---
 # Adobe Commerce Marketplace
 
-[Adobe Commerce Marketplace][1] is the application store that offers merchants a curated selection of solutions, and provides qualified developers the tools, platform, and prime location to build a thriving business. [!DNL Commerce Marketplace] offers a selection of extensions that are available for free, and others that are for sale. Purchases can be paid by credit card or [PayPal][2].
+[Adobe Commerce Marketplace](https://marketplace.magento.com/) is the application store that offers merchants a curated selection of solutions, and provides qualified developers the tools, platform, and prime location to build a thriving business. [!DNL Commerce Marketplace] offers a selection of extensions that are available for free, and others that are for sale. Purchases can be paid by credit card or [PayPal](https://www.paypal.com/us/home).
 
-All extensions available on [!DNL Commerce Marketplace] have passed an extensive review. The [Extension Quality Program][3] (EQP) combines [!DNL Commerce] expertise, development guidelines, and verification tools to ensure that all extensions on Commerce Marketplace meet coding standards and best practices. The review process includes both an automated check and manual QA review. During the process, the structure and code of each extension is examined and tested for evidence of virus/malware infection, and any indication of plagiarism. The review includes a deep technical examination and sanity check conducted by a [!DNL Commerce] engineer, with a focus on documentation, coding structure, performance, scalability, security, and compatibility with the [!DNL Commerce] core.
+All extensions available on [!DNL Commerce Marketplace] have passed an extensive review. The [Extension Quality Program](https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/) (EQP) combines [!DNL Commerce] expertise, development guidelines, and verification tools to ensure that all extensions on Commerce Marketplace meet coding standards and best practices. The review process includes both an automated check and manual QA review. During the process, the structure and code of each extension is examined and tested for evidence of virus/malware infection, and any indication of plagiarism. The review includes a deep technical examination and sanity check conducted by a [!DNL Commerce] engineer, with a focus on documentation, coding structure, performance, scalability, security, and compatibility with the [!DNL Commerce] core.
 
 Although you can purchase extensions from other sources, only the extensions that are available on [!DNL Commerce Marketplace] are verified through extensive technical and marketing review within the Extension Quality Program.
 
@@ -37,7 +37,7 @@ The following resources provide a starting point for new adopters to familiarize
 
 ## [!DNL Marketplace] credentials
 
-Before you can install an extension purchased from [!DNL Commerce Marketplace], sign in to your [!DNL Commerce] account and verify that you have an active access key. You can sign in to your [!DNL Commerce] account from the header of [[!DNL Marketplace]][1] or [Magento.com][6].
+Before you can install an extension purchased from [!DNL Commerce Marketplace], sign in to your [!DNL Commerce] account and verify that you have an active access key. You can sign in to your [!DNL Commerce] account from the header of [[!DNL Marketplace]](https://marketplace.magento.com/) or [Magento.com](https://business.adobe.com/products/magento/magento-commerce.html).
 
 Your access key is a set of public and private keys that is used to synchronize your [!DNL Commerce] installation with your [!DNL Commerce] account and verify your credentials. After your account is synchronized, you must enter your private key each time you install an extension or module from Commerce Marketplace or upgrade your [!DNL Commerce] installation.
 
@@ -73,7 +73,7 @@ You can create multiple access keys for different purposes and enable or disable
 >
 >Starting with Adobe Commerce and Magento Open Source 2.4.0, the Web Setup Wizard is removed, and you must use the command line to [install](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) or [upgrade](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html) your instance. This requirement also includes [modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) and [extensions](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
 
-The installation process for [!DNL Marketplace] purchases is different for _on-premise_ installations of Commerce than for installations hosted on [the Adobe Cloud Architecture][4].
+The installation process for [!DNL Marketplace] purchases is different for _on-premise_ installations of Commerce than for installations hosted on [the Adobe Cloud Architecture](https://www.adobe.com/commerce/magento/enterprise.html).
 
 ![Commerce Marketplace](./assets/marketplace.png){width="600"}
 
@@ -81,7 +81,7 @@ The installation process for [!DNL Marketplace] purchases is different for _on-p
 
 If you need help with installing or with using an extension, look first in the documentation that accompanies the extension. If you can't find the answer to your question, use the contact information in the extension listing to contact the developer directly. If what you purchase on Marketplace does not meet your needs, you can [request a refund](#refund-requests) within 25 days from the date of purchase. Adobe reviews all refund requests and (if approved) issues the appropriate refund. For issues related to Commerce Marketplace:
 
-Method 1: Go to the [Adobe Commerce Marketplace](https://commercemarketplace.adobe.com/), navigate to the bottom of the page and click [!UICONTROL Contact Us] which will open a form to submit a ticket. 
+Method 1: Submit a support request from the [Adobe Commerce Marketplace - Contact Us](https://commercemarketplace.adobe.com/contact-us/) form.
 
 Method 2: [Email Support](mailto:commercemarketplacesupport@adobe.com).
 
@@ -132,9 +132,3 @@ The Marketplace Support team does not have the ability to transfer purchases to 
 You can [share](commerce-account-share.md) a Commerce instance through the primary account. Shared access grants special permissions to a subordinate account from a primary account. The shared access point is generated from the primary account. The primary account can be the Commerce entitled account, the main merchant account, or an account shared within an organization.
 
 These special permissions grant the same level of access on Adobe Commerce as the primary, however it does not carry over to the Adobe Commerce Marketplace or Developer Portal. This means that buying an extension from a subordinate account in the Marketplace cannot be shared with the primary account. Shared access is a one-way street (primary account to subordinate). It does not work when a subordinate account is trying to share back to the primary.
-
-[1]: https://marketplace.magento.com/
-[2]: https://www.paypal.com/us/home
-[3]: https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/
-[4]: https://www.adobe.com/commerce/magento/enterprise.html
-[6]: https://business.adobe.com/products/magento/magento-commerce.html
