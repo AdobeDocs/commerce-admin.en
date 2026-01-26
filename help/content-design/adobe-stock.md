@@ -55,7 +55,7 @@ Configuring the Adobe Stock integration for Adobe Commerce is a two-step process
    - Any periods (`.`) must be escaped with two backslashes (`\\`).
    - Add `.*` to the end of the pattern.
 
-   Using the example from the previous default redirect URI, it would be `https://store\\.myshop\\.com/admin_hgkq1l/adobe_ims/oauth/callback/.*`
+   Using the example from the previous default redirect URI, the pattern would be `https://store\\.myshop\\.com/admin_hgkq1l/adobe_ims/oauth/callback/.*`
 
 1. Click **[!UICONTROL Next]**.
 
