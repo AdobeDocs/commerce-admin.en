@@ -222,7 +222,7 @@ Your site map should be updated as frequently as the content on your site change
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-## Enable batch site map generation for large catalogs
+## Enable batch sitemap generation for large catalogs
 
 For stores with large catalogs, use the following alternative cron job to enable batch sitemap generation. This approach processes data in smaller increments, significantly reducing the risk of PHP memory exhaustion and ensuring that sitemap generation completes successfully, even for sites with extensive product data.
  
