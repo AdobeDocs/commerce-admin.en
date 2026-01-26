@@ -229,6 +229,3 @@ The following data is saved to local storage for stores using the Luma theme whe
 - `mg`: Set by Snowplow JavaScript tracker. More information can be found in the [Snowplow documentation](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/).
 - `com.adobe.alloy.getTld`: Given the current web page's hostname, this is the top-most domain that is not a "public suffix" as outlined in https://publicsuffix.org. Essentially, this is the top-most domain that can accept cookies. This cookie is part of the [Alloy Web SDK](https://github.com/adobe/alloy).
 - `aep-segments-membership`: Contains [audience information](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation), such as which segment a shopper belongs to.
-
-[1]: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
-[2]: https://support.google.com/adwords/answer/7521212

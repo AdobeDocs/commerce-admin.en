@@ -26,7 +26,7 @@ To use TFA, you must have a TFA application installed on your personal device (s
 
 ## Enable two-factor authentication
 
-1. Log in to your [[!DNL Commerce] account][1]{:target="_blank"}.
+1. Log in to your [[!DNL Commerce] account](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. In the left navigation pane, select **[!UICONTROL Account Settings]**, and then select **[!UICONTROL Two-factor Authentication]**.
 
@@ -90,7 +90,7 @@ To use TFA, you must have a TFA application installed on your personal device (s
 
 ## Log in using a verification code
 
-1. Go to the [!DNL Commerce] [account login][1]{:target="_blank"}.
+1. Go to the [!DNL Commerce] [account login](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Enter your username and password credentials, and then select **[!UICONTROL Login]**.
 
@@ -102,7 +102,7 @@ To use TFA, you must have a TFA application installed on your personal device (s
 
 ## Log in using a recovery code
 
-1. Go to the [!DNL Commerce] [account login][1]{:target="_blank"}.
+1. Go to the [!DNL Commerce] [account login](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Enter your username and password credentials, and then select **[!UICONTROL Login]**.
 
@@ -116,7 +116,7 @@ To use TFA, you must have a TFA application installed on your personal device (s
 
 ## Log in using your recovery email
 
-1. Log in to your [[!DNL Commerce] account][1]{:target="_blank"}.
+1. Log in to your [[!DNL Commerce] account](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Enter your username and password credentials, and then select **[!UICONTROL Login]**.
 
@@ -134,7 +134,7 @@ After using a temporary recovery code to access your account, [generate new reco
 
 ## View your recovery codes
 
-1. Go to the [!DNL Commerce] [account login][1]{:target="_blank"}.
+1. Go to the [!DNL Commerce] [account login](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Enter your username and password credentials, and then select **[!UICONTROL Login]**.
 
@@ -162,7 +162,7 @@ After using a temporary recovery code to access your account, [generate new reco
 
 ## Generate new recovery codes
 
-1. Go to the [!DNL Commerce] [account login][1]{:target="_blank"}.
+1. Go to the [!DNL Commerce] [account login](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Enter your username and password credentials, and then select **[!UICONTROL Login]**.
 
@@ -184,7 +184,7 @@ After using a temporary recovery code to access your account, [generate new reco
 
 ## Change your recovery email
 
-1. Go to the [!DNL Commerce] [account login][1]{:target="_blank"}.
+1. Go to the [!DNL Commerce] [account login](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Enter your username and password credentials, and then select **[!UICONTROL Login]**.
 
@@ -212,7 +212,7 @@ After using a temporary recovery code to access your account, [generate new reco
 
 ## Change your two-factor authentication application
 
-1. Go to the [!DNL Commerce] [account login][1]{:target="_blank"}.
+1. Go to the [!DNL Commerce] [account login](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Enter your username and password credentials, and then select **[!UICONTROL Login]**.
 
@@ -264,7 +264,7 @@ After using a temporary recovery code to access your account, [generate new reco
 >
 >If your organizational security policy requires multi-factor authentication on Adobe Commerce accounts, you cannot disable two-factor authentication.
 
-1. Go to the [!DNL Commerce] [account login][1]{:target="_blank"}.
+1. Go to the [!DNL Commerce] [account login](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Enter your username and password credentials, and then select **[!UICONTROL Login]**.
 
@@ -281,5 +281,3 @@ After using a temporary recovery code to access your account, [generate new reco
    The system sends an email confirmation indicating that TFA has been disabled on your [!DNL Commerce] account.
 
    ![Disable TFA](./assets/2fa-disable.png){width="400"}
-
-[1]: https://account.magento.com/customer/account/login

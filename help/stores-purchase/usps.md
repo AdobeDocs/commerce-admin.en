@@ -10,9 +10,9 @@ The United States Postal Service is the independent postal service of United Sta
 
 ## Step 1: Open a USPS shipping account
 
-Open a [USPS Web Tools][1] account. After you complete the registration process, you will receive your User ID and a URL to the USPS test server.
+Open a [USPS Web Tools](https://secure.shippingapis.com/registration/) account. After you complete the registration process, you will receive your User ID and a URL to the USPS test server.
 
-You can also open a [USPS Web Tools][1] account. After you complete the registration process, you will receive your User ID and a URL to the USPS test server. To learn more about USPS Web Tools, see their [Technical Documentation][2].
+You can also open a [USPS Web Tools](https://secure.shippingapis.com/registration/) account. After you complete the registration process, you will receive your User ID and a URL to the USPS test server. To learn more about USPS Web Tools, see their [Technical Documentation](https://www.usps.com/business/web-tools-apis/welcome.htm).
 
 ## Step 2: Enable USPS for your store
 
@@ -136,7 +136,5 @@ The handling fee is optional, and appears as an extra charge that is added to th
 
 1. Click **[!UICONTROL Save Config]**.
 
-[1]: https://secure.shippingapis.com/registration/
-[2]: https://www.usps.com/business/web-tools-apis/welcome.htm
 
 <!-- Last updated from includes: 2025-11-26 10:55:00 -->

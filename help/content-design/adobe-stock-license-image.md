@@ -15,7 +15,7 @@ The new [[!DNL Media Gallery]](media-gallery.md) provides a direct integration w
 
 **Prerequisities**
 
-The Adobe Stock licensing feature is available only if the the [Adobe Stock Integration](./adobe-stock.md) is installed and configured. Licensing [Adobe Stock][adobe-stock] images requires a paid Adobe Stock plan and an [Adobe account][adobe-signin].
+The Adobe Stock licensing feature is available only if the the [Adobe Stock Integration](./adobe-stock.md) is installed and configured. Licensing [Adobe Stock](https://stock.adobe.com) images requires a paid Adobe Stock plan and an [Adobe account](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html).
 
 >[!ENDSHADEBOX] 
 
@@ -41,7 +41,7 @@ The Adobe Stock licensing feature is available only if the the [Adobe Stock Inte
 
    >[!NOTE]
    >
-   >You must have available [Adobe Stock credits][stock-credits] in your account to license the image.
+   >You must have available [Adobe Stock credits](https://helpx.adobe.com/stock/help/credit-packs.html) in your account to license the image.
 
 ## License an image from the standard media storage
 
@@ -57,7 +57,7 @@ The Adobe Stock licensing feature is available only if the the [Adobe Stock Inte
 
       >[!NOTE]
       >
-      >You must have available [Adobe Stock credits][stock-credits] in your account to license the image.
+      >You must have available [Adobe Stock credits](https://helpx.adobe.com/stock/help/credit-packs.html) in your account to license the image.
 
     This action displays a prompt for you to specify a file name that is used to save the image to the [media storage](./media-storage.md). A default file name is provided, but you can customize the name to your preferences.
 
@@ -66,9 +66,3 @@ The Adobe Stock licensing feature is available only if the the [Adobe Stock Inte
 1. Click **[!UICONTROL Confirm]**.
 
     The page redirects to the media storage and your saved preview is displayed.
-
-[access-search]: adobe-stock-manage.md#access-the-adobe-stock-search-grid
-[view-details]: adobe-stock-manage.md#view-image-details
-[stock-credits]: https://helpx.adobe.com/stock/help/credit-packs.html
-[adobe-stock]: https://stock.adobe.com
-[adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html
