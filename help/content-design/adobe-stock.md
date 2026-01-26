@@ -3,26 +3,27 @@ title: Adobe Stock Integration
 description: Integrate Adobe Stock with your [!DNL Commerce] instance to access to countless media assets for use in your store.
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Adobe Stock Integration
 
-To get access to countless media assets for use in your store, integrate [Adobe Stock][adobe-stock] with [!UICONTROL Commerce].
+To get access to countless media assets for use in your store, integrate [Adobe Stock](https://stock.adobe.com) with [!UICONTROL Commerce].
 
 ![Adobe Stock Search Results](./assets/adobe-stock-search-grid.png){width="700" zoomable="yes"}
 
-The Adobe Stock service provides businesses with access to millions of high-quality, curated, royalty-free photos, vectors, illustrations, videos, templates, and 3D assets for all their creative projects. [!DNL Commerce] users are able to quickly find, preview, and license Adobe Stock assets. Users can also save them to the [media storage][media-storage], all without leaving the Admin workspace.
+The Adobe Stock service provides businesses with access to millions of high-quality, curated, royalty-free photos, vectors, illustrations, videos, templates, and 3D assets for all their creative projects. [!DNL Commerce] users are able to quickly find, preview, and license Adobe Stock assets. Users can also save them to the [media storage](./media-storage.md), all without leaving the Admin workspace.
 
 ## Prerequisites
 
 This integration requires:
 
-- An [Adobe Developer][dev-console] account
+- An [Adobe Developer](https://developer.adobe.com/console/home) account
 - Adobe Commerce or Magento Open Source, 2.3.4 or later
 
 Licensing Adobe Stock images requires:
 
-- An [Adobe account][adobe-signin]
-- A paid [Adobe Stock][adobe-stock] plan associated with the account
+- An [Adobe account](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)
+- A paid [Adobe Stock](https://stock.adobe.com) plan associated with the account
 
 ## Integrate [!DNL Commerce] and Adobe Stock
 
@@ -33,7 +34,7 @@ Configuring the Adobe Stock integration for Adobe Commerce is a two-step process
 
 ### Create an Adobe Developer integration
 
-1. Navigate to the [Adobe Developer Console][dev-console].
+1. Navigate to the [Adobe Developer Console](https://developer.adobe.com/console/home).
 
 1. Under _[!UICONTROL Quick Start]_, click **[!UICONTROL Create new project]**.
 
@@ -67,7 +68,7 @@ Configuring the Adobe Stock integration for Adobe Commerce is a two-step process
 
 ### Configure the Adobe Stock integration
 
-To set the system configuration in your [!DNL Commerce] Admin, use the _API Key_ and _Client secret_ generated in the [previous section][create-integration].
+To set the system configuration in your [!DNL Commerce] Admin, use the _API Key_ and _Client secret_ generated in the [previous section](#create-an-adobeio-integration).
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -88,9 +89,3 @@ To set the system configuration in your [!DNL Commerce] Admin, use the _API Key_
    Give the validation a few seconds. If your credentials are valid, you should see a green _Connection Successful!_ message.
 
 1. When complete, click **[!UICONTROL Save Config]**.
-
-[adobe-stock]: https://stock.adobe.com
-[adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html
-[media-storage]: media-storage.md
-[dev-console]: https://developer.adobe.com/console/home
-[create-integration]: #create-an-adobeio-integration

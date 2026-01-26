@@ -3,6 +3,7 @@ title: Media Gallery asset management
 description: Learn how to manage uploaded media files, and assets that you acquire through an Adobe Stock integration.
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Media Gallery asset management
 
@@ -127,3 +128,5 @@ Assets can be used extensively throughout the Admin, such as [add or edit a page
 1. Click the **[!UICONTROL Filters]** tab and select the **[!UICONTROL Show duplicates]** checkbox.
 
 1. To see the results, click **[!UICONTROL Apply Filters]**.
+
+<!-- Last updated from includes: 2024-01-30 15:43:39 -->

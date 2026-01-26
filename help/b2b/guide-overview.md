@@ -9,12 +9,12 @@ feature: B2B
 ---
 # Adobe Commerce B2B Guide
 
-This guide is intended for administrators of Adobe Commerce. It provides detailed information about installing and enabling this module, including configuration and management of its features. It assumes a basic understanding of the core [!DNL Commerce] configuration, and functionality.
+This guide is intended for administrators working in the Adobe Commerce Admin. It provides detailed information about installing and enabling this module, including configuration and management of its features. It assumes a basic understanding of the core [!DNL Commerce] configuration, and functionality.
 
 There are two areas for store administrators:
 
 - The Admin: Use this area to access the configuration UI and reporting.
-- The command-line interface: Use this tool to execute installation and backend configuration tasks.
+- [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."} The command-line interface: Use this tool to execute installation and backend configuration tasks.
 
 This guide covers:
 
@@ -22,7 +22,7 @@ This guide covers:
 | ------- | ----------- |
 | [Introduction](introduction.md) | What features are available with [!DNL Adobe Commerce B2B]?|
 | [Release Notes](release-notes.md) | Review the updates provided in each [!DNL Adobe Commerce B2B] release. |
-| [Install](install.md) | Install the [!DNL Adobe Commerce B2B] extension.|
+| [Install](install.md) | [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."} Install the [!DNL Adobe Commerce B2B] extension. |
 | [Enable Basic B2B Features](enable-basic-features.md) | After you install [!DNL Adobe Commerce B2B], you must enable the features that you want to activate for your store. |
 | [Company Accounts](account-companies.md) | Learn about company accounts and how they provide the primary building block for providing support for B2B buyers on your store. |
 | [Company Management](manage-companies.md) | Learn how B2B Commerce site administrators can build company hierarchies to streamline the management of multiple companies that belong to the same business enterprise.|

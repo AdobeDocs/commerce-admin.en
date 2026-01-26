@@ -4,6 +4,7 @@ description: Learn about two-factor authentication support to ensure the securit
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Two-factor authentication (2FA)
 
@@ -70,6 +71,8 @@ To change how long the one-time password (OTP) is available during sign-in, clea
 
 Enter the following credentials from your Duo Security account:
 
+- Client ID
+- Client Secret
 - Integration key
 - Secret key
 - API hostname

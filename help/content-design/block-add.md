@@ -2,6 +2,7 @@
 title: Add content blocks
 description: Create custom blocks of content that you can reuse in any page or within another block.
 exl-id: 2f104d77-a1d1-4f10-82ce-014955fe560b
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Add content blocks
 
@@ -84,8 +85,6 @@ There are two ways to remove a custom block. You can remove it from the _Blocks_
 
    ![Page Builder slider](./assets/pb-tutorial3-slider-tee-shirt-promo.png){width="600" zoomable="yes"}
 
-   There is also a wide assortment of jQuery-based image lightboxes available on [[!DNL Commerce Marketplace]][1], and some are free.
+   There is also a wide assortment of jQuery-based image lightboxes available on [[!DNL Commerce Marketplace]](https://marketplace.magento.com/extensions.html?q=lightbox), and some are free.
 
 - You can also download an extension from [!DNL Commerce Marketplace]. For additional help, see the documentation provided by the extension developer.
-
-[1]: https://marketplace.magento.com/extensions.html?q=lightbox

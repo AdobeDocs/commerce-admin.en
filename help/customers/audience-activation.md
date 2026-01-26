@@ -5,6 +5,7 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # [!DNL Audience Activation]
 
@@ -43,6 +44,22 @@ _May 30, 2023_
 ![New](../assets/new.svg) - Updated the [Real-Time CDP Audiences dashboard](#real-time-cdp-audiences-dashboard) to include the ability to sort, search, and filter the active audiences within your Adobe Commerce instance.
 
 +++
+
+### 2.4.0
+
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
+
+_March 24, 2025_
+
+![New](../assets/new.svg) - Added PHP 8.4 support.
+
+### 2.3.1
+
+[!BADGE Compatibility]{type=Informative tooltip="Compatibility"} Adobe Commerce versions 2.4.4 and newer
+
+_November 12, 2024_
+
+![Fix](../assets/fix.svg) - Fixed an issue when filtering the available Real-Time CDP audiences to choose from.
 
 ### 2.3.0
 
@@ -158,35 +175,35 @@ After you install the [!DNL Audience Activation] extension, you must log into yo
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Services]_ > **[!UICONTROL Commerce Services Connector]**.
 
-1. [Sign in](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html#organizationid) to your Adobe account and select your organization ID.
+1. [Sign in](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html#organizationid) to your Adobe account and select your organization ID.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _[!UICONTROL Services]_ > **[!UICONTROL [!DNL Data Connection]]**.
 
 1. In the **[!UICONTROL Datastream ID]** field, paste the ID of the datastream that you created when you [activated](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html#parameters) Adobe Commerce as a destination in Real-Time CDP. 
 
-    This datastream sends data from your Commerce website to Real-Time CDP to determine if a shopper belongs to an audience. If you have not yet created a datastream, [create](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create) one in Experience Platform, [add](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) it to the Commerce destination in Real-Time CDP, and to the [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#data-collection) extension in the Admin.
+    This datastream sends data from your Commerce website to Real-Time CDP to determine if a shopper belongs to an audience. If you have not yet created a datastream, [create](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create) one in Experience Platform, [add](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) it to the Commerce destination in Real-Time CDP, and to the [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#data-collection) extension in the Admin.
 
     >[!NOTE]
     >
-    >When you specify a datastream ID, you [associate it to a specific website](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#data-collection) in the [!DNL Data Connection] extension. If your Commerce store has multiple websites, [create a destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) for each website in Real-Time CDP and use a different datastream ID for each.
+    >When you specify a datastream ID, you [associate it to a specific website](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#data-collection) in the [!DNL Data Connection] extension. If your Commerce store has multiple websites, [create a destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) for each website in Real-Time CDP and use a different datastream ID for each.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
 1. Expand **[!UICONTROL Services]** and select **[!UICONTROL [!DNL Data Connection]]**.
 
-1. [Add](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#add-service-account-and-credential-details) service account and credential details. 
+1. [Add](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#add-service-account-and-credential-details) service account and credential details. 
 
 ## Where to use Real-Time CDP audiences in Commerce
 
 With the [!DNL Audience Activation] extension enabled, you can:
 
-- [Create a cart price rule](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) informed by audiences
+- [Create a cart price rule](../merchandising-promotions/price-rules-cart-create.md#use-real-time-cdp-audiences-to-set-a-condition) informed by audiences
 - [Create a dynamic block](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) informed by audiences
 - [Create a related product rule](../merchandising-promotions/product-related-rule-create.md) informed by audiences
 
 >[!TIP]
 >
->For a complete end-to-end use case about how to export [!DNL Commerce] data to Real-Time CDP, build an audience, then activate that audience to [!DNL Commerce], see [Create an audience in Real-Time CDP using [!DNL Commerce] event data](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
+>For a complete end-to-end use case about how to export [!DNL Commerce] data to Real-Time CDP, build an audience, then activate that audience to [!DNL Commerce], see [Create an audience in Real-Time CDP using [!DNL Commerce] event data](https://experienceleague.adobe.com/en/docs/commerce/data-connection/use-cases/create-audience).
 
 ## Real-Time CDP audiences dashboard
 
@@ -321,7 +338,7 @@ Learn more about the `dynamicBlocks` GraphQL query in the [developer documentati
 You can retrieve Real-Time CDP audiences using the Adobe Experience Platform Mobile SDK.
 
 1. [Install](#install-the-extension) the Audience Activation extension.
-1. [install and configure the SDK for your mobile Commerce site](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
+1. [install and configure the SDK for your mobile Commerce site](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/mobile-sdk-epc.html).
 
 >[!IMPORTANT]
 >
@@ -345,7 +362,7 @@ Edge.sendEvent(experienceEvent: experienceEvent) { (handles: [EdgeEventHandle]) 
                     storage.set(segmentsArr, forKey: "segments")
                     print("End saving segments")
                 }
-         
+
                 // Show segments
                 let rSegments = storage.object(forKey: "segments") ?? nil;
                 print("Retrieving segments -> \(rSegments)")
@@ -378,7 +395,7 @@ bin/magento audiences:config:status
 This command returns the connection status. Add the `-v` flag to provide extra verbosity:
 
 ```
-./bin/magento audiences:config:status -v  
+./bin/magento audiences:config:status -v
 ```
 
 For example:
@@ -395,7 +412,7 @@ For example:
 1. Open your Commerce instance.
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 1. Expand **[!UICONTROL Services]** and select **[!UICONTROL [!DNL Data Connection]]**.
-1. Ensure the server-to-server authorization method that you specified in the **[!UICONTROL Authentication Type]** field is correct. Adobe recommends using **OAuth**. JWT has been deprecated. [Learn more](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
+1. Ensure the server-to-server authorization method that you specified in the **[!UICONTROL Authentication Type]** field is correct. Adobe recommends using **OAuth**. [JWT has been deprecated](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/jwt-credentials-deprecation-in-adobe-developer-console), with all current certificates expiring by March 1, 2026.
 
 ### Insufficient privileges on generated token
 

@@ -10,11 +10,13 @@ The United States Postal Service is the independent postal service of United Sta
 
 ## Step 1: Open a USPS shipping account
 
-Open a [USPS Web Tools][1] account. After you complete the registration process, you will receive your User ID and a URL to the USPS test server.
+Open a [USPS Web Tools](https://secure.shippingapis.com/registration/) account. After you complete the registration process, you will receive your User ID and a URL to the USPS test server.
 
-You can also open a [USPS Web Tools][1] account. After you complete the registration process, you will receive your User ID and a URL to the USPS test server. To learn more about USPS Web Tools, see their [Technical Documentation][2].
+You can also open a [USPS Web Tools](https://secure.shippingapis.com/registration/) account. After you complete the registration process, you will receive your User ID and a URL to the USPS test server. To learn more about USPS Web Tools, see their [Technical Documentation](https://www.usps.com/business/web-tools-apis/welcome.htm).
 
 ## Step 2: Enable USPS for your store
+
+{{$include /help/_includes/usps-api-type-configuration-note.md}}
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -28,17 +30,28 @@ You can also open a [USPS Web Tools][1] account. After you complete the registra
 
 1. Set **[!UICONTROL Enabled for Checkout]** to `Yes`.
 
-1. If needed, enter the **[!UICONTROL Gateway URL]** to access USPS shipping rates.
+1. Set **[!UICONTROL USPS Type]** to `USPS Rest APIs` if you are using the USPS REST API.
 
-   >[!IMPORTANT]
-   >
-   >Effective June 24, 2021, USPS Web Tools will remove support for all unsecure HTTP endpoints. After this change, all Web Tools API requests that to an unsecure HTTP endpoint will fail. Make sure that your **[!UICONTROL Gateway URL]** uses the secure HTTPS endpoint.
+   If you are using the USPS Web Tools API, set **[!UICONTROL USPS Type]** to `USPS Web Tools API`.
+
+1. If needed, enter the **[!UICONTROL Gateway URL]** to access USPS shipping rates.
 
    The field is preset by default, and normally does not need to be changed.
 
 1. Enter a **[!UICONTROL Title]** for this shipping method that appears during checkout.
 
-1. Enter the **[!UICONTROL User ID]** and **[!UICONTROL Password]** for your USPS account.
+1. Use the credentials provided by USPS to complete the following fields:
+
+   If you are using the USPS Rest APIs, you must provide the following credentials:
+
+      - **[!UICONTROL Consumer Key]**
+      - **[!UICONTROL Consumer Secret]**
+      - **[!UICONTROL Pricing Options]**
+
+   If you are using the USPS Web Tools API, you must provide the following credentials:
+
+      - **[!UICONTROL User ID]**
+      - **[!UICONTROL Password]**
 
 1. Set **[!UICONTROL Mode]** to one of the following:
 
@@ -124,5 +137,4 @@ The handling fee is optional, and appears as an extra charge that is added to th
 1. Click **[!UICONTROL Save Config]**.
 
 
-[1]: https://secure.shippingapis.com/registration/
-[2]: https://www.usps.com/business/web-tools-apis/welcome.htm
+<!-- Last updated from includes: 2025-11-26 10:55:00 -->

@@ -7,7 +7,7 @@ exl-id: 8013bc13-b057-4ad7-bbed-ee00c2f6e4eb
 ---
 # [!DNL Inventory Management] Guide overview
 
-This guide is intended for administrators of Adobe Commerce and Magento Open Source. It provides detailed information about enabling this module, including configuration and management of its features. It assumes a basic understanding of the core [!DNL Commerce] configuration and functionality.
+This guide is intended for administrators working in the Adobe Commerce and Magento Open Source Admin. It provides detailed information about enabling this module, including configuration and management of its features. It assumes a basic understanding of the core [!DNL Commerce] configuration and functionality.
 
 [!DNL Inventory Management] has two areas for administrators:
 
@@ -43,8 +43,5 @@ See [[!DNL Inventory Management]](https://developer.adobe.com/commerce/webapi/re
 
 If you need information or have questions that are not covered in this guide, use the following resources:
 
-- [Large number reservation inconsistencies](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-8/mdva-30112-magento-patch-large-number-reservation-inconsistencies.html)
-- [Inventory inconsistency issues](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-14/mdva-33281-magento-patch-inventory-inconsistency-issues.html)
-- [Swatches not strike-through inventory reaches "0"](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-17/mdva-34850-swatches-not-strike-through-inventory-reaches-0.html)
 - [Stock status incorrect after Inventory install](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.html)
 - [Support tickets](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket)---Submit a ticket to receive additional help.

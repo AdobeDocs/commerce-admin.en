@@ -177,12 +177,3 @@ The Search box in the upper left of the Orders grid can be used to find specific
 
 {style="table-layout:auto"}
 
-## Troubleshooting resources
-
-For help with troubleshooting order issues, see the following Commerce Support Knowledge Base articles:
-
-- [Orders display error](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html)
-- [PayPal duplicate orders 10415 error](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-6/mdva-31006-magento-patch-paypal-duplicate-orders-10415-error.html)
-- [New orders are sent to archive](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/new-orders-are-sent-to-archive.html)
-- [Orders not displayed in the Orders grid in the Admin](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.html)
-- [Order status - incorrect shipment created via REST API](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-7/mdva-30972-magento-patch-order-status-incorrect-shipment-created-via-rest-api.html)

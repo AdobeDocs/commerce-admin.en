@@ -1,16 +1,15 @@
 ---
-user-guide-title: Adobe Commerce Getting Started Guide
-user-guide-description: If you are new to Adobe Commerce or Magento Open Source, discover resources of the [!DNL Commerce] ecosystem, follow the customer journey to explore your store, and learn about key features.
+user-guide-title: Adobe Commerce Admin Getting Started Guide
+user-guide-description: If you are new to the Adobe Commerce or Magento Open Source Admin, discover resources of the [!DNL Commerce] ecosystem, follow the customer journey to explore your store, and learn about key Admin features.
 breadcrumb-title: Getting Started
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
 ---
 
-# Adobe Commerce Getting Started Guide {#start}
+# Adobe Commerce Admin Getting Started Guide {#start}
 
-+ [Adobe Commerce Getting Started Guide](guide-overview.md)
-+ [What is Adobe Commerce?](about.md)
++ [Adobe Commerce Admin Getting Started Guide](guide-overview.md)
 + [Login credentials and URLs](login-urls.md)
 + Commerce accounts {#commerce-account}
   + [Create and access your account](commerce-account-create.md)
@@ -18,7 +17,9 @@ recommendations: noDisplay
   + [Share your account](commerce-account-share.md)
   + [Transfer an account](commerce-account-transfer.md)
 + Site compliance {#compliance}
-  + [HIPAA readiness on Adobe Commerce](hipaa-ready-service.md)
+  + HIPAA readiness on Adobe Commerce{#hipaa-ready-service}
+    + [Overview](hipaa/overview.md)
+    + [Operational guidance](hipaa/operations.md)
   + Privacy {#privacy}
     + [Store privacy policy](privacy-policy.md)
     + [CCPA compliance](compliance-ccpa.md)
@@ -35,11 +36,6 @@ recommendations: noDisplay
     + [IMS integration overview](adobe-ims-integration-overview.md)
     + [Configure the Admin integration with IMS](adobe-ims-config.md)
     + [Disable the Admin integration with IMS](adobe-ims-disable.md)
-  + Adobe Experience Cloud Integration {#unifiedexperience}
-    + [Overview](admin-unified-experience-integration-overview.md)
-    + [Configure the integration](admin-unified-experience-integration-configure.md)
-    + [Manage the Experience Cloud integration](admin-unified-experience-integration-manage.md)
-    + [Release Notes](admin-unified-experience-release-notes.md)
   + Admin tools and workspace {#tools}
     + [Workspace](admin-workspace.md)
     + [The Admin sidebar](admin-menu.md)
@@ -64,10 +60,8 @@ recommendations: noDisplay
   + [Product reports](product-reports.md)
   + [Private sales reports](private-sales-reports.md)
   + [Commerce Intelligence tools](business-intelligence.md)
-  + [New Relic reporting](new-relic-reporting.md)
 + Resources {#resources}
   + [Ecosystem](resources.md)
   + [Extensions](extensions.md)
   + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [Return to Merchant Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
-
++ [Return to Admin User Guides](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

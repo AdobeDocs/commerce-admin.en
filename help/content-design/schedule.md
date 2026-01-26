@@ -2,6 +2,7 @@
 title: Schedule design changes
 description: Learn how to schedule your theme design changes in advance
 exl-id: 0a214fd5-77a6-4ad4-9740-5138d40ad0a1
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Schedule design changes
 

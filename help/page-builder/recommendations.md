@@ -6,11 +6,11 @@ feature: Page Builder, Page Content, Recommendations
 ---
 # Add Content - Product Recommendations
 
-Use the _Product Recommendations_ content type to add an existing, active [recommendation unit](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) to the [[!DNL Page Builder] stage](workspace.md#stage) for a CMS page, block, or dynamic block.
+Use the _Product Recommendations_ content type to add an existing, active [recommendation unit](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create) to the [[!DNL Page Builder] stage](workspace.md#stage) for a CMS page, block, or dynamic block.
 
 >[!NOTE]
 >
->The [!DNL Page Builder] _Product Recommendations_ content type is supported in Adobe Commerce 2.4.4 and later and available in the [Product Recommendations metapackage versions 3.0.x or later](https://commercemarketplace.adobe.com/magento-product-recommendations.html). To add [!DNL Page Builder] support for Product Recommendations, [see the installation information](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure). **This content type is not available for Magento Open Source.**
+>The [!DNL Page Builder] _Product Recommendations_ content type is supported in Adobe Commerce 2.4.4 and later and available in the [Product Recommendations metapackage versions 3.0.x or later](https://commercemarketplace.adobe.com/magento-product-recommendations.html). To add [!DNL Page Builder] support for Product Recommendations, [see the installation information](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure). **This content type is not available for Magento Open Source.**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -31,7 +31,7 @@ Use the _Product Recommendations_ content type to add an existing, active [recom
 
 ## Add an existing recommendation unit
 
-1. Make sure you have already [created a recommendation unit](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) for the [!DNL Page Builder] page type.
+1. Make sure you have already [created a recommendation unit](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create) for the [!DNL Page Builder] page type.
 
 >[!NOTE]
 >
@@ -158,3 +158,5 @@ Use the _Product Recommendations_ content type to add an existing, active [recom
    | [!UICONTROL Padding] | The amount of blank space that is applied to the inside edge of all sides of the unit. Options: `Top` / `Right` / `Bottom` / `Left` |
 
    {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

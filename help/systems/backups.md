@@ -3,6 +3,7 @@ title: System backups
 description: Learn how to create and schedule system backups, including the file system, database, and media files.
 exl-id: 3a9655c1-c124-42be-a487-b31404dada90
 feature: System, Configuration
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # System backups
 
@@ -59,3 +60,5 @@ Adobe Commerce and Magento Open Source give you the ability to back up different
 1. When prompted, confirm the action.
 
 
+
+<!-- Last updated from includes: 2023-02-22 09:59:54 -->

@@ -13,7 +13,7 @@ description: Reused notes and visual elements to note a feature or page applying
 ## B2B only feature {#b2b-feature}
 
 <table style="border:1px solid green">
-<tr><td><img alt="Adobe Commerce B2B feature" src="../assets/b2b.svg" width="20" height="20" /> Exclusive feature available only with <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=en">Adobe Commerce B2B</a></td></tr>
+<tr><td><img alt="Adobe Commerce B2B feature" src="../assets/b2b.svg" width="20" height="20" /> Exclusive feature available only with <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html">Adobe Commerce B2B</a></td></tr>
 </table>
 
 ## CE only feature {#ce-feature}
@@ -32,7 +32,7 @@ description: Reused notes and visual elements to note a feature or page applying
 
 >[!NOTE]
 >
->Starting with the 2.4.5 release, the Google services integration is updated to support use of the GTag APIs. GTag is a unified mechanism for integration with Google functionality for web pages and supports the newest capabilities and opportunities for tracking and managing content through Google Services. For more information, see the [Google Analytics developer documentation](https://developers.google.com/analytics/devguides/collection/gtagjs).
+>Starting with the 2.4.5 release, the Google services integration is updated to support use of the GTag APIs. GTag is a unified mechanism for integration with Google functionality for web pages and supports the newest capabilities and opportunities for tracking and managing content through Google Services.
 
 ## URL rewrite automatic skip note {#url-rewrite-skip}
 
@@ -60,7 +60,7 @@ To access the store configuration settings, choose **[!UICONTROL Stores]** > _[!
 
 >[!IMPORTANT]
 >
->Beginning June 2024, Adobe Commerce merchants can no longer transact with the current UPS integration. This is because the United Parcel Service (UPS) APIs used by the native Adobe Commerce integration do not currently support the required OAuth 2.0 security model. To learn more about this change, refer to [_Developer Portal Access Key Migration Guide_](https://developer.ups.com/oauth-developer-guide). <br/>
+>Beginning June 2024, Adobe Commerce merchants can no longer transact with the current UPS integration. This is because the United Parcel Service (UPS) APIs used by the native Adobe Commerce integration do not currently support the required OAuth 2.0 security model. To enable the integration, [create an application on the UPS developer platform](https://developer.ups.com/get-started) to obtain the credentials required for OAuth 2.0. Use the new credentials as the `username` and `password` in the Commerce UPS Shipping configuration. To learn more about the security model change, see [Developer Portal Access Key Migration Guide_](https://developer.ups.com/oauth-developer-guide). <br/>
 >
 >Merchants should [apply a quality patch update](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.html) to their store to migrate from the SOAP API to the RESTful API, which supports OAuth 2.0 authentication protocols.
 
@@ -69,10 +69,34 @@ To access the store configuration settings, choose **[!UICONTROL Stores]** > _[!
 
 | Documentation resource | Description |
 |----------------------- | ----------- |
-| [Adobe Commerce 2.4 Merchant Documentation](../landing/home.md) | Merchant-focused documentation for Adobe Commerce |
-| [Services for Adobe Commerce Documentation](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | Documentation to support a collection of services that help merchants integrate key components of their business with their store. |
-| [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Step-by-step procedures for deploying Adobe Commerce on a managed, automated hosting Cloud platform. |
-| [Adobe Commerce 2.4 Operational Guides](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Systems documentation about the concepts, processes, tools, and best practices to develop, deploy, and maintain Adobe Commerce projects.|
-| [Adobe Commerce 2.4 Developer Documentation](https://developer.adobe.com/commerce/docs) | Developer-focused documentation used to customize Adobe Commerce and integrate with third-party systems |
+| [Adobe Commerce 2.4 Admin User Guides](../landing/home.md) | Documentation and resources for merchants working in the Admin. |
+| [Services for Adobe Commerce Documentation](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html) | Documentation to support a collection of merchandising services that help merchants integrate key components of their business with their store. |
+| [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Step-by-step procedures for deploying Adobe Commerce on a managed, automated hosting cloud platform. |
+| [Adobe Commerce 2.4 Operational Guides](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Systems documentation about the concepts, processes, tools, and best practices to develop, deploy, and maintain Adobe Commerce on Cloud and on-premises projects. |
+| [Adobe Commerce 2.4 Developer Documentation](https://developer.adobe.com/commerce/docs) | Developer-focused documentation used to customize Adobe Commerce and integrate with third-party systems. |
 
 {style="table-layout:auto"}
+
+## B2B compatibility {#b2b-compatibility}
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B version 1.4.2+ is compatible with PHP 8.2. If you upgrade the Commerce instance to version 2.4.7+, ensure that the instance uses PHP version 8.2 to maintain compatibility with the Adobe Commerce B2B release. Additionally, the B2B 1.4.2+ release does not support the [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
+
+## reCAPTCHA forms list {#recaptcha-forms-list}
+
+- [!UICONTROL Enable for Customer Login]
+- [!UICONTROL Enable for Forgot Password]
+- [!UICONTROL Enable for Create New Customer Account]
+- [!UICONTROL Enable for Edit Customer Account]
+- [!UICONTROL Enable for Create New Company Account] (Available with Adobe Commerce B2B only)
+- [!UICONTROL Enable for Contact Us]
+- [!UICONTROL Enable for Product Review]
+- [!UICONTROL Enable for Newsletter Subscription]
+- [!UICONTROL Enable for Gift Card] (Adobe Commerce only)
+- [!UICONTROL Enable for Invitation Create Account]
+- [!UICONTROL Enable for Send To Friend] - [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+- [!UICONTROL Enable for Checkout/Placing Order]
+- [!UICONTROL Enable for Wishlist Sharing]
+- [!UICONTROL Enable for Coupon Codes]
+- [!UICONTROL Enable for PayPal PayflowPro payment form] - [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}

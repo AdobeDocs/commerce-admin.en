@@ -26,41 +26,34 @@ Follow these instructions to apply a discount to specific products whenever a se
 
    By default, the status is `Inactive`.
 
-   >[!NOTE]
-   >
-   >After the rule is created, its status can be updated by changing the status to `Active` or `Inactive` as needed.
+   After the rule is created, its status can be updated by changing the status to `Active` or `Inactive` as needed.
 
 1. Select the **[!UICONTROL Websites]** where the rule is to be available.
 
 1. Select the **[!UICONTROL Customer Groups]** to which this rule applies.
 
-   To choose multiple groups, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
-
-   >[!NOTE]
-   >
-   >The options in this list depend on the customer groups created and managed in _Customers_ > _Customer Groups_.
+   - The options available for selection depend on the customer groups created and managed in _Customers_ > _Customer Groups_.
+   - To choose multiple groups, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
 
 1. ![Magento Open Source](../assets/open-source.svg) (Magento Open Source only) Enter the **[!UICONTROL From]** and **[!UICONTROL To]** dates to determine when the price rule is in effect.
 
    You can enter the dates or use the **[!UICONTROL Calendar]** (![Calendar icon](../assets/icon-calendar.png)) to choose the dates. If you leave the dates blank, the rule is enabled when the price rule is saved.
 
-1. Enter a number to establish the **[!UICONTROL Priority]** of this rule in relation to other rules.
-
    >[!NOTE]
    >
-   >The _[!UICONTROL Priority]_ setting is important when the same catalog product meets the conditions set for more than one price rule. The rule with the highest priority setting (priorities from the highest to the lowest are 0,1,2,3...) becomes active for the product.
+   >The `From` and `To` fields have been removed from the Catalog price rule configuration page in Adobe Commerce and cannot be modified directly on the catalog price rule. You must create a scheduled update to set the schedule for price rule activation.
+
+1. Enter a number to establish the **[!UICONTROL Priority]** of this rule in relation to other rules.
+
+   The **[!UICONTROL Priority]** setting determines which rule applies when a product meets conditions for multiple price rules. The rule with the highest priority (lowest number, for example, 0, 1, 2, 3..) takes effect.
 
 ## Step 2: Define the conditions
 
 Most of the available conditions are based on existing attribute values. To apply the rule to all products, leave the conditions blank.
 
->[!NOTE]
->
->If at least one conditional product attribute has an empty value, the catalog price rule is not applied to the product.
+- If at least one conditional product attribute has an empty value, the catalog price rule is not applied to the product.
 
->[!NOTE]
->
->To apply a `Category` product attribute condition to any [bundle](../catalog/product-create-bundle.md) or [grouped](../catalog/product-create-grouped.md) product, all child products must be assigned to the same category for the rule to apply correctly. If not, you can use a [Cart Price Rule](price-rules-cart-create.md) promotion instead.
+- If you add `[!UICONTROL Category]` product attribute condition to bundle or grouped products, the price rule is correctly applied only if all child items share the same category. If the child items are not in the same category, use a [Cart Price Rule](price-rules-cart-create.md) promotion instead."
 
 1. Scroll down and expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Conditions]** section.
 
@@ -71,7 +64,7 @@ Most of the available conditions are based on existing attribute values. To appl
    ![Catalog price rule - condition line 1](./assets/catalog-condition1.png){width="400"}
 
    The statement has two bold links that you can click to display the selection of options for that part of the statement. You can create different conditions by changing the combination of these values. 
-   
+
 1. Change the statement in any of the following ways:
 
    - Click **[!UICONTROL ALL]** and select `ALL` or `ANY`.
@@ -138,6 +131,10 @@ Most of the available conditions are based on existing attribute values. To appl
 
    >[!NOTE]
    >
+   >To apply fixed amount discounts consistently across websites with different currencies (without converting from the global base currency), set the **[!UICONTROL Catalog Price Scope]** option to `Website` and define a base currency for each site.
+
+   >[!NOTE]
+   >
    >_Regular price_ refers to the base product price without any advanced pricing (special/tier/group) or promotional discounts. _Final price_ refers to the discounted price that appears in the shopping cart. <br/>The **_final_** product price is calculated as the **_minimum_** relevant price, using the following formula: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)`
 
    >[!NOTE]
@@ -148,9 +145,7 @@ Most of the available conditions are based on existing attribute values. To appl
 
 1. To stop processing other rules after this rule is applied, set **[!UICONTROL Discard Subsequent Rules]** to `Yes`.
 
-   >[!NOTE]
-   >
-   >Setting this to `Yes` is a safeguard to prevent the system from applying multiple discounts (rules) to the same product.
+   Setting this value to `Yes` is a safeguard to prevent the system from applying multiple discounts (rules) to the same product.
 
 ## Step 4: Add related dynamic blocks
 
@@ -218,7 +213,7 @@ Most of the available conditions are based on existing attribute values. To appl
 
 Watch this video to learn about creating catalog price rules:
 
->[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12&learn=on)
 
 ## Field descriptions
 

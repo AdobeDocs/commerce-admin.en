@@ -18,7 +18,7 @@ This exercise assumes that you have completed [Part 1: Simple Page](1-simple-pag
 
 >[!NOTE]
 >
->These walkthrough exercises are updated to reflect recent changes to the [!DNL Page Builder] workspace in the 2.4.1 release. If you are using an earlier Adobe Commerce release, use the [!DNL Page Builder] exercises included in the [[!DNL Commerce] 2.3 User Guide](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html).
+>These walkthrough exercises are updated to reflect recent changes to the [!DNL Page Builder] workspace in the 2.4.1 release.
 
 ## Part 1: Create a simple block
 
@@ -70,7 +70,7 @@ If [!DNL Google Maps] is already configured for your store, you can skip this st
 
 1. Click the project drop-down and select or create the project for which you want to add an API key.
 
-1. To configure your API credentials, follow the [instructions][1] in the [!DNL Google Maps] documentation.
+1. To configure your API credentials, follow the [instructions](https://developers.google.com/maps/documentation/javascript/get-api-key) in the [!DNL Google Maps] documentation.
 
 1. Copy your API Key to the clipboard.
 
@@ -399,5 +399,3 @@ Because this dynamic block is visible only to members of a specific customer seg
 You have completed the Block exercise. Make sure to keep your work for reference.
 
 When you are ready, proceed to [Part 3: Catalog Content](3-catalog-content.md)
-
-[1]: https://developers.google.com/maps/documentation/javascript/get-api-key

@@ -164,9 +164,10 @@ You can also configure shipping to specific countries for each available [delive
 For help with troubleshooting country configuration issues, see the following [!DNL Commerce] Support Knowledge Base articles:
 
 - [How to add a country](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
-- [Provided countryId does not exist](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-15/mdva-33393-magento-patch-provided-countryid-does-not-exist.html)
 
 ## [!UICONTROL Merchant Location]
+
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
 
 The Merchant Location setting is used to configure [payment methods](../stores-purchase/payments.md). If there is no value for this setting, the [Default Country](#uicontrol-country-options) setting is used.
 
@@ -206,7 +207,23 @@ Each identity and its associated email address can be associated with specific a
 
 Before you can configure email addresses for the store, each must be set up as a valid email address for your domain. To create each email address that is needed, follow the instructions from your server administrator or email-hosting provider.
 
-### Step 2: Configure the email addresses for your store
+### Step 2: Set the base URL for generated links
+
+[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service projects only (Adobe-managed SaaS infrastructure)."}
+
+Some customer-facing emails include links to the store, such as those that help customers reset their passwords. To ensure that the links to the storefront are functional, you must define the base URL to your storefront.
+
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+
+1. Under **[!UICONTROL General]** in the left navigation panel, choose **[!UICONTROL Store Email Addresses]**.
+
+1. In the **[!UICONTROL Storefront Base URL]** field **[!UICONTROL General]** section, enter the root URL for your store, such as `https://www.example.com/`. The URL must end with a forward slash.
+
+   ![General configuration - General](../configuration-reference/general/assets/store-email-addresses-general-general.png){width="600"}
+
+### Step 3: Configure the email addresses for your store
+
+[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and Adobe Commerce Optimizer projects only (Adobe-managed SaaS infrastructure)."} Sender email addresses are configured when your instance is provisioned. If you need to change these addresses, create a Support ticket.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -224,7 +241,7 @@ Before you can configure email addresses for the store, each must be set up as a
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-### Step 3: Update the sales email configuration
+### Step 4: Update the sales email configuration
 
 If you use custom email addresses, make sure to update the configuration of any related email messages, so the correct identity appears as the sender.
 
@@ -320,6 +337,4 @@ The Luma sample data includes a _Contact Us Info_ block that can be customized f
 >
 >Starting with the 2.4.0 release, the contact form can no longer call inside a CMS block or CMS page. All customization of the contact form should be done using layout xml or custom theme templates.
 
-By default, shoppers access the contact form using the _Contact link_ in the footer of the storefront pages. For more information about customizing the contact page, refer to the [Frontend Developer Guide][theme-guide].
-
-[theme-guide]: https://developer.adobe.com/commerce/frontend-core/guide/themes/
+By default, shoppers access the contact form using the _Contact link_ in the footer of the storefront pages. For more information about customizing the contact page, refer to the [Frontend Developer Guide](https://developer.adobe.com/commerce/frontend-core/guide/themes/).

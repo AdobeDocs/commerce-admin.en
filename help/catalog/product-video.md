@@ -10,7 +10,7 @@ To add a product video, you must first obtain an API Key from your Google accoun
 
 ## Step 1: Get your YouTube API key
 
-1. Log in to your Google account and visit the [Google Developers Console][1].
+1. Log in to your Google account and visit the [Google Developers Console](https://console.developers.google.com/).
 
 1. In the search field at the top, enter `YouTube Data API v3` and click the search icon.
 
@@ -92,7 +92,7 @@ To add a product video, you must first obtain an API Key from your Google accoun
 
 ## Maintain API access
 
-According to the Google developer [Terms and Conditions], YouTube may disable API access for accounts that have been inactive for more than 90 days. This occurrence could result in your videos not displaying. To keep your API access current, use a cron job to ping the API at regular intervals:
+According to the Google developer [Terms and Conditions](https://developers.google.com/youtube/terms/developer-policies#d.-accessing-youtube-api-services), YouTube may disable API access for accounts that have been inactive for more than 90 days. This occurrence could result in your videos not displaying. To keep your API access current, use a cron job to ping the API at regular intervals:
 
 ```code
 30 10 1 * * curl -i -G -e https://yourdomain.com/ -d "part=snippet&maxResults=1&q=test&key=YOUTUBEAPIKEY" https://www.googleapis.com/youtube/v3/search >/dev/null 2>&1
@@ -110,6 +110,3 @@ According to the Google developer [Terms and Conditions], YouTube may disable AP
 |[!UICONTROL Role]|Determines how the preview image is used in your store. You can choose any combination of options: `Base Image`, `Small Image`, `Thumbnail`, `Swatch Image`, `Hide from Product Page`|
 
 {style="table-layout:auto"}
-
-[1]: https://console.developers.google.com/
-[Terms and Conditions]: https://developers.google.com/youtube/terms/developer-policies#d.-accessing-youtube-api-services

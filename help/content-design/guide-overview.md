@@ -4,10 +4,11 @@ description: Comprehensive information about Content and Design features for Ado
 seo-title: Adobe Commerce Content and Design Guide
 seo-description: Describes how to use the Content and Design features for Adobe Commerce and Magento Open Source.
 exl-id: ad3cd024-1703-409f-9820-a0b90e7d460f
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Adobe Commerce Content and Design Guide
 
-This guide is intended for content designers and merchandisers working in Adobe Commerce and Magento Open Source. It provides detailed information about content and design features, including the building basic content components. It assumes a basic understanding of the core [!DNL Commerce] configuration, and functionality.
+This guide is intended for content designers and merchandisers working in the Adobe Commerce and Magento Open Source Admin. It provides detailed information about content and design features, including the building basic content components. It assumes a basic understanding of the core [!DNL Commerce] configuration, and functionality.
 
 This guide covers:
 

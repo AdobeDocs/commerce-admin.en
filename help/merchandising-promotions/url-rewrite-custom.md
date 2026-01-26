@@ -3,6 +3,7 @@ title: Custom URL rewrites
 description: Learn how to use custom URL rewrites to manage miscellaneous redirects in your Commerce store.
 exl-id: b15054be-e463-48e6-b6c1-0a8a2141cc01
 feature: Search, Configuration
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Custom URL rewrites
 

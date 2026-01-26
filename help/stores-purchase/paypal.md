@@ -3,6 +3,7 @@ title: PayPal payment solutions
 description: Learn about the PayPal payment solution integrations that are available for your store.
 exl-id: d447b98e-d30c-4759-9ae0-94ccbeed9ba4
 feature: Payments
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # PayPal payment solutions
 
@@ -15,7 +16,7 @@ PayPal is a global leader in online payments and a fast and secure way for your 
 
 ## PayPal business account
 
-To offer PayPal as a payment method in your store, you must have a PayPal [business account][1] and/or a [PayPal Payflow account][2]. The account requirements are specified in the description of each PayPal solution. Your PayPal merchant account is also used to manage any [fraud filters](#paypal-fraud-management-filters) that are applied to purchases made from your store.
+To offer PayPal as a payment method in your store, you must have a PayPal [business account](https://manager.paypal.com/) and/or a [PayPal Payflow account](https://developer.paypal.com/docs/payflow/payflow-gateway/). The account requirements are specified in the description of each PayPal solution. Your PayPal merchant account is also used to manage any [fraud filters](#paypal-fraud-management-filters) that are applied to purchases made from your store.
 
 Customers who use PayPal Express Checkout or Express Checkout for Payflow Pro must have a PayPal buyer account. PayPal Payments Standard (Website Payments Standard in some countries) can be used directly or through a buyer account when that the merchant enables _PayPal Account Optional_. By default, this parameter is enabled so that customers can choose to enter their credit card information or create a buyer account with PayPal. When disabled, customers must first create a PayPal buyer account before making a purchase.
 
@@ -23,7 +24,7 @@ Website Payments Pro, Website Payments Pro Payflow Edition, Payflow Pro Gateway,
 
 ## PayPal Credit and PayLater
 
-PayPal PayLater offers your customers quick access to financing, so they can buy now and pay over time, at no additional cost to you. You are not charged when customers choose PayPal Credit options, and you pay only your normal PayPal transaction fee. To learn more, see the [PayPal website][3].
+PayPal PayLater offers your customers quick access to financing, so they can buy now and pay over time, at no additional cost to you. You are not charged when customers choose PayPal Credit options, and you pay only your normal PayPal transaction fee. To learn more, see the [PayPal website](https://www.paypal.com/us/business/buy-now-pay-later).
 
 Give your sales a boost when you advertise financing. PayPal helps turn browsers into buyers with financing with PayPal PayLater. Your customers can pay over time, while you get paid up front---at no additional cost to you. Use PayPal free banner ads to advertise PayPal financing as a payment option when your customers check out with PayPal. The PayPal Advertising Program has been shown to generate additional purchases and increase average purchase sizes by 15% or more.
 
@@ -178,8 +179,3 @@ PayPal Express Checkout and PayPal Website Payments Standard are available in th
 - Uruguay
 - Venezuela
 - Vietnam
-
-
-[1]: https://manager.paypal.com/
-[2]: https://developer.paypal.com/docs/payflow/payflow-gateway/
-[3]: https://www.paypal.com/us/business/buy-now-pay-later

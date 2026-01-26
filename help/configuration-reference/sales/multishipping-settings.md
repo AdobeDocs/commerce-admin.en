@@ -14,7 +14,7 @@ For detailed information about configuring these multishipping settings for your
 
 ![Options](./assets/multishipping-settings-options.png)<!-- zoom -->
 
-<!-- [Options](https://docs.magento.com/user-guide/shipping/shipping-multiaddress.html) -->
+<!-- [Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-settings#multiple-addresses) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |

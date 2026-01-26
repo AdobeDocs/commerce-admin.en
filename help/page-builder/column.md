@@ -20,7 +20,7 @@ You can change the layout of the [!DNL Columns] container by dragging a column a
 
 Watch this video for a demonstration of how the [!DNL Columns] container can be used to refine your page layouts:
 
->[!VIDEO](https://video.tv.adobe.com/v/345828?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/345828?quality=12&learn=on)
 
 ## Column toolbox
 
@@ -220,3 +220,5 @@ In the following two-column example, the numbers in parentheses (6/12) in the to
       {style="table-layout:auto"}
 
 1. When complete, click **[!UICONTROL Save]** to apply the settings and return to the [!DNL Page Builder] workspace.
+
+<!-- Last updated from includes: 2023-01-19 14:32:13 -->

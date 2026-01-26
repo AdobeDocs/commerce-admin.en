@@ -12,7 +12,7 @@ feature: Configuration, Communications
 
 ![General Settings](./assets/sales-emails-general-settings.png)<!-- zoom -->
 
-<!-- [General Settings](https://docs.magento.com/user-guide/system/email-communications.html) -->
+<!-- [General Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/communications/email-communications) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -24,7 +24,7 @@ feature: Configuration, Communications
 
 ![Order](./assets/sales-emails-order.png)<!-- zoom -->
 
-<!-- [Order](https://docs.magento.com/user-guide/sales/orders.html) -->
+<!-- [Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/orders) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -41,7 +41,7 @@ feature: Configuration, Communications
 
 ![Order Comments](./assets/sales-emails-order-comments.png)<!-- zoom -->
 
-<!-- [Order Comments](https://docs.magento.com/user-guide/sales/order-processing.html) -->
+<!-- [Order Comments](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#process-an-order) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -58,7 +58,7 @@ feature: Configuration, Communications
 
 ![Invoice](./assets/sales-emails-invoice.png)<!-- zoom -->
 
-<!-- [Invoice](https://docs.magento.com/user-guide/sales/invoices.html) -->
+<!-- [Invoice](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -75,7 +75,7 @@ feature: Configuration, Communications
 
 ![Invoice Comments](./assets/sales-emails-invoice-comments.png)<!-- zoom -->
 
-<!-- [Invoice Comments](https://docs.magento.com/user-guide/sales/invoice-create.html) -->
+<!-- [Invoice Comments](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -92,7 +92,7 @@ feature: Configuration, Communications
 
 ![Shipment](./assets/sales-emails-shipment.png)<!-- zoom -->
 
-<!-- [Shipment](https://docs.magento.com/user-guide/sales/shipments.html) -->
+<!-- [Shipment](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/shipments) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -109,7 +109,7 @@ feature: Configuration, Communications
 
 ![Shipment Comments](./assets/sales-emails-shipment-comments.png)<!-- zoom -->
 
-<!-- [Shipment Comments](https://docs.magento.com/user-guide/sales/shipments.html) -->
+<!-- [Shipment Comments](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/shipments) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -126,7 +126,7 @@ feature: Configuration, Communications
 
 ![Credit Memo](./assets/sales-emails-credit-memo.png)<!-- zoom -->
 
-<!-- [Credit Memo](https://docs.magento.com/user-guide/sales/credit-memos.html) -->
+<!-- [Credit Memo](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -143,7 +143,7 @@ feature: Configuration, Communications
 
 ![Credit Memo Comments](./assets/sales-emails-credit-memo-comments.png)<!-- zoom -->
 
-<!-- [Credit Memo Comments](https://docs.magento.com/user-guide/sales/credit-memo-create.html) -->
+<!-- [Credit Memo Comments](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memo-create) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -158,9 +158,11 @@ feature: Configuration, Communications
 
 ## [!UICONTROL Order Ready For Pickup in Store]
 
+This option requires [Inventory Management](../../inventory-management/guide-overview.md) to be enabled.
+
 ![Order Ready For Pickup in Store](./assets/sales-emails-ready-pickup.png)<!-- zoom -->
 
-<!-- [Order Ready For Pickup in Store](https://docs.magento.com/user-guide/shipping/shipping-in-store-delivery.html) -->
+<!-- [Order Ready For Pickup in Store](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -198,7 +200,7 @@ feature: Configuration, Communications
 
 ![Quote](./assets/sales-emails-quote.png)<!-- zoom -->
 
-<!-- [Quotes](https://docs.magento.com/user-guide/customers/account-dashboard-quotes.html) -->
+<!-- [Quotes](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/quotes/account-dashboard-my-quotes) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -221,7 +223,7 @@ feature: Configuration, Communications
 
 ![RMA](./assets/sales-emails-rma.png)<!-- zoom -->
 
-<!-- [RMA](https://docs.magento.com/user-guide/sales/returns.html) -->
+<!-- [RMA](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/returns/returns) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -240,7 +242,7 @@ feature: Configuration, Communications
 
 ![RMA Authorization](./assets/sales-emails-rma-auth.png)<!-- zoom -->
 
-<!-- [RMA Authorization](https://docs.magento.com/user-guide/sales/rma-configure.html) -->
+<!-- [RMA Authorization](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/returns/rma-configure) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -276,7 +278,7 @@ feature: Configuration, Communications
 
 ![RMA Customer Comments](./assets/sales-emails-rma-customer-comments.png)<!-- zoom -->
 
-<!-- [RMA Customer Comments](https://docs.magento.com/user-guide/sales/returns.html) -->
+<!-- [RMA Customer Comments](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/returns/returns) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |

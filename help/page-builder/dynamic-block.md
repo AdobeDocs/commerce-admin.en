@@ -158,3 +158,5 @@ Use the Dynamic Block content type to add an existing [dynamic block](../content
 1. Hover over the dynamic block container to display the toolbox and choose the _Remove_ ( ![Remove icon](./assets/pb-icon-remove.png){width="20"} ) icon.
 
 1. When prompted to confirm, click **[!UICONTROL OK]**.
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

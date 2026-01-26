@@ -3,6 +3,7 @@ title: Content staging
 description: Content Staging gives your business team the ability to easily create, preview, and schedule a wide range of content updates for your store directly from the Admin.
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Content staging
 
@@ -73,7 +74,7 @@ The [!UICONTROL Content Staging] [dashboard](content-staging-dashboard.md) provi
 
 To learn about content staging, watch this video:
 
->[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12&learn=on)
 
 ## Troubleshooting resources
 

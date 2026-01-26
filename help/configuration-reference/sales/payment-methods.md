@@ -8,15 +8,17 @@ feature: Configuration, Payments
 
 >[!TIP]
 >
->Payment Services for Adobe Commerce and Magento Open Source provides a turnkey self-service solution, including sandbox testing and a simple setup, for providing robust and secure payment processing. To learn more about this powerful tool set and how it can give you the insight and control you need to create the best experience for your buyers, see the [_Payment Services User Guide_](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html).
+>Payment Services for Adobe Commerce and Magento Open Source provides a turnkey self-service solution, including sandbox testing and a simple setup, for providing robust and secure payment processing. To learn more about this powerful tool set and how it can give you the insight and control you need to create the best experience for your buyers, see the [_Payment Services User Guide_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html).
 
 {{config}}
 
 ## [!UICONTROL Merchant Location]
 
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+
 ![Merchant Location](./assets/payment-methods-merchant-location.png)<!-- zoom -->
 
-<!-- [Merchant Location](https://docs.magento.com/user-guide/payment/merchant-location.html) -->
+<!-- [Merchant Location](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/store-details#merchant-location) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -28,9 +30,9 @@ feature: Configuration, Payments
 
 The following payment solutions are recommended as an easy way for merchants who are just starting out to accept online payment by PayPal account or credit card. As your business grows, you can combine these with additional PayPal payment solutions.
 
-- [PayPal Express Checkout](paypal-express-checkout.md)
-- [Braintree](braintree.md)
 - [Payment Services](payment-services.md)
+- [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."} [PayPal Express Checkout](paypal-express-checkout.md)
+- [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."} [Braintree](braintree.md)
 
 >[!NOTE]
 >
@@ -44,15 +46,21 @@ The following payment solutions are recommended as an easy way for merchants who
 
 ## Other PayPal methods
 
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+
 PayPal offers various payment solutions that meet the needs of businesses of every size, and that are engaged in business all over the world. PayPal gives you the ability to accept payments from all major debit and credit cards. PayPal offers additional convenience without extra effort, because even customers who don't have a PayPal account can pay for their purchases with PayPal.
 
 ### PayPal all-in-one methods
+
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
 
 - [PayPal Payment Advanced](paypal-payments-advanced.md)
 - [PayPal Payments Pro](paypal-payments-pro.md)
 - [PayPal Payments Standard](paypal-payments-standard.md)
 
 ### PayPal payment gateways
+
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
 
 - [PayPal Payflow Pro](paypal-payflow-pro.md) (Includes Express Checkout)
 - [PayPal Payflow Link](paypal-payflow-link.md) (Includes Express Checkout)
@@ -65,7 +73,7 @@ The following payment methods are built into Commerce and do not use a third-par
 
 ![Check / Money Order](./assets/payment-methods-check-money-order.png)<!-- zoom -->
 
-<!-- [Check / Money Order](https://docs.magento.com/user-guide/payment/check-money-order.html) -->
+<!-- [Check / Money Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/offline/check-money-order) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -86,7 +94,7 @@ The following payment methods are built into Commerce and do not use a third-par
 
 ![Bank Transfer Payment](./assets/payment-methods-bank-transfer-payment.png)<!-- zoom -->
 
-<!-- [Bank Transfer Payment](https://docs.magento.com/user-guide/payment/bank-transfer.html) -->
+<!-- [Bank Transfer Payment](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/offline/bank-transfer) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -107,7 +115,7 @@ The following payment methods are built into Commerce and do not use a third-par
 
 ![Payment on Account](./assets/payment-methods-payment-on-account.png)<!-- zoom -->
 
-<!-- [Payment on Account](https://docs.magento.com/user-guide/payment/payment-on-account.html) -->
+<!-- [Payment on Account](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/enable-basic-features#configure-payment-on-account) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -163,6 +171,8 @@ The following payment methods are built into Commerce and do not use a third-par
 {style="table-layout:auto"}
 
 ## [!UICONTROL Payment actions]
+
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
 
 Payment actions are configured _per payment method_. The payment action determines when the funds are captured and when invoices are created for your sales orders.
 

@@ -34,13 +34,10 @@ The Payment Card Industry (PCI) has established a set of requirements for busine
 
 ![checkbox](../assets/checkbox.png) - Maintain a policy that addresses information security.
 
-To learn more, see [Adobe Approach to PCI Compliance][1]{:target="_blank"}.
+To learn more, see [Adobe Approach to PCI Compliance](https://business.adobe.com/products/magento/pci-compliance.html){:target="_blank"}.
 
 >[!NOTE]
 >
 >This content is intended for informational purposes only and should not be construed as legal advice. To determine whether and how your business should comply with any legal obligations, consult with your legal counsel.
 
-As your business grows, you may be required to file a compliance report on an annual basis. PCI reporting requirements increase in proportion to merchant level, but are waived for businesses that process fewer than 20,000 credit card transactions per year. To learn more, visit the [PCI Security Standards Council][2] website.
-
-[1]: https://business.adobe.com/products/magento/pci-compliance.html
-[2]: https://www.pcisecuritystandards.org/index.php
+As your business grows, you may be required to file a compliance report on an annual basis. PCI reporting requirements increase in proportion to merchant level, but are waived for businesses that process fewer than 20,000 credit card transactions per year. To learn more, visit the [PCI Security Standards Council](https://www.pcisecuritystandards.org/index.php) website.

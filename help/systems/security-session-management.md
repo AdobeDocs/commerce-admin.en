@@ -4,6 +4,7 @@ description: Learn how to configure session management to secure the Admin and s
 exl-id: ad954218-aa3e-44e6-b23f-008de7fc7543
 role: Admin
 feature: Configuration, Security
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Session management
 
@@ -98,25 +99,7 @@ As a security measure, the _Admin_ is initially set to time out after 900 second
 
 1. Click **[!UICONTROL Admin]**.
 
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the _[!UICONTROL Security]_ section.
-
-1. For **[!UICONTROL Admin Session Lifetime (seconds)]**, enter the number of seconds that a session remains active before it times out.
-
-   ![Advanced configuration - Admin security settings](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
-
-1. When complete, click **[!UICONTROL Save Config]**.## Admin session lifetime
-
-As a security measure, the _Admin_ is initially set to time out after 900 seconds (15 minutes) of keyboard inactivity. You can adjust the lifetime of the session to fit your work style.
-
-**_To adjust Admin session lifetime:_**
-
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
-
-1. Scroll down and expand **[!UICONTROL Advanced]** in the left side panel.
-
-1. Click **[!UICONTROL Admin]**.
-
-1. Expand ![Expansion selector](../assets/icon-display-expand.png) the _Security_ section.
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Security]** section.
 
 1. For **[!UICONTROL Admin Session Lifetime (seconds)]**, enter the number of seconds that a session remains active before it times out.
 

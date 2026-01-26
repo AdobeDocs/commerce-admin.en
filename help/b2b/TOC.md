@@ -30,7 +30,7 @@ recommendations: noDisplay
     + [Define company structure](account-company-structure.md)
 + Company management {#company-management}
     + [Overview](manage-companies.md)
-    + [Manage company hierarchy](assign-companies.md)
+    + [Manage company hierarchies](manage-company-hierarchy.md)
 + Shared catalogs {#shared-catalogs}
   + [Overview](catalog-shared.md)
   + Define shared catalogs {#define}
@@ -50,7 +50,11 @@ recommendations: noDisplay
   + [Request for quote](quote-request.md)
   + [Initiate quote for a buyer](sales-rep-initiates-quote.md)
   + [Negotiate a quote](quote-price-negotiation.md)
+  + [Create a quote template](quote-templates.md)
   + [[!UICONTROL My Quotes]](account-dashboard-my-quotes.md)
++ Quote Templates {#templates}
+  + [Use case and workflow](quote-templates-overview.md)
+  + [[!UICONTROL My Quote Templates]](account-dashboard-my-quote-templates.md)
 + Requisition lists {#requisition-lists}
   + [Overview](requisition-lists.md)
   + [Configure the list maximum](configure-requisition-lists.md)
@@ -58,4 +62,4 @@ recommendations: noDisplay
 + Reference {#reference}
   + [Backward-incompatible changes](backward-incompatible-changes.md)
   + [Packages](packages.md)
-+ [Return to Merchant Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Return to Admin User Guides](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

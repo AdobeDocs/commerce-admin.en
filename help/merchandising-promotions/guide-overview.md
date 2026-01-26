@@ -5,7 +5,7 @@ exl-id: 76ba1e08-3afd-409c-8376-d07e98095d26
 ---
 # Adobe Commerce Merchandising and Promotions Guide
 
-This guide is intended for merchandisers and marketing staff working in Adobe Commerce and Magento Open Source. It provides detailed information about merchandising and promotional features, including targeted discounts and events. It assumes a basic understanding of the core [!DNL Commerce] configuration, and functionality.
+This guide is intended for merchandisers and marketing staff working in the Adobe Commerce and Magento Open Source Admin. It provides detailed information about merchandising and promotional features, including targeted discounts and events. It assumes a basic understanding of the core [!DNL Commerce] configuration, and functionality.
 
 This guide covers:
 
@@ -13,7 +13,7 @@ This guide covers:
 | ------- | ----------- |
 | [Introduction](introduction.md) | Overview of merchandising and promotion functions with a Commerce instance.|
 | [Marketing menu](marketing-menu.md) | Use the [!UICONTROL Marketing] menu to access multiple features for managing promotions, communications, SEO, and user-generated content. |
-| [Visual Merchandiser](visual-merchandiser.md) | Explore this set of advanced tools that allows you to position products and apply conditions that determine which products appear in the category listing. |
+| [Visual Merchandiser](visual-merchandiser.md) | [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."} Explore this set of advanced tools that allows you to position products and apply conditions that determine which products appear in the category listing. |
 | [Gift registries](gift-registries.md) | Give your customers the ability to create gift registries for special occasions, and to invite their friends and family to purchase their gifts from the gift registry. |
 | [Reward and loyalty programs](rewards-loyalty.md) | Implement programs that drive customer engagement and promote customer loyalty. |
 | [Private sales and events](events-private-sales.md) | Create limited-time sales, limit sales to specific members, or create a stand-alone private sale page. |

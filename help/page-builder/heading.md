@@ -148,3 +148,5 @@ For a formatted heading with specific settings, it is more efficient to duplicat
 1. If you want to change the heading level, click the heading text and choose the new level in the editor toolbar.
 
    ![Choosing a new heading Level](./assets/pb-elements-heading-change-heading-level.png){width="500" zoomable="yes"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

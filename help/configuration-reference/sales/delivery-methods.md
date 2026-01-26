@@ -14,7 +14,7 @@ feature: Configuration, Shipping/Delivery
 
 ![Flat Rate](./assets/delivery-methods-flat-rate.png)<!-- zoom -->
 
-<!-- [Flat Rate](https://docs.magento.com/user-guide/shipping/shipping-flat-rate.html) -->
+<!-- [Flat Rate](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -37,7 +37,7 @@ feature: Configuration, Shipping/Delivery
 
 ![Free Shipping](./assets/delivery-methods-free-shipping.png)<!-- zoom -->
 
-<!-- [Free Shipping](https://docs.magento.com/user-guide/shipping/shipping-free.html) -->
+<!-- [Free Shipping](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -58,7 +58,7 @@ feature: Configuration, Shipping/Delivery
 
 ![Table Rates](./assets/delivery-methods-table-rates.png)<!-- zoom -->
 
-<!-- [Table Rates](https://docs.magento.com/user-guide/shipping/shipping-table-rate.html) -->
+<!-- [Table Rates](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -81,7 +81,7 @@ feature: Configuration, Shipping/Delivery
 
 ![In-Store Delivery](./assets/delivery-methods-in-store-delivery.png)<!-- zoom -->
 
-<!-- [In-Store Delivery](https://docs.magento.com/user-guide/shipping/shipping-in-store-delivery.html) -->
+<!-- [In-Store Delivery](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -104,7 +104,7 @@ feature: Configuration, Shipping/Delivery
 
 ![UPS XML Account Settings](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
-<!-- [UPS REST Account Settings](https://docs.magento.com/user-guide/shipping/ups.html) -->
+<!-- [UPS REST Account Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -124,7 +124,7 @@ feature: Configuration, Shipping/Delivery
 
 ![UPS Package Information](./assets/delivery-methods-ups-packaging-settings.png)<!-- zoom -->
 
-<!-- [UPS Package Information](https://docs.magento.com/user-guide/shipping/ups.html) -->
+<!-- [UPS Package Information]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -147,7 +147,7 @@ feature: Configuration, Shipping/Delivery
 
 ![UPS Allowed Methods](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
 
-<!-- [UPS Allowed Methods](https://docs.magento.com/user-guide/shipping/ups.html) -->
+<!-- [UPS Allowed Methods]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -162,7 +162,7 @@ feature: Configuration, Shipping/Delivery
 
 ![UPS Applicable Countries and Other Settings](./assets/delivery-methods-ups-ship-to.png)<!-- zoom -->
 
-<!-- [UPS Applicable Countries and Other Settings](https://docs.magento.com/user-guide/shipping/ups.html) -->
+<!-- [UPS Applicable Countries and Other Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -189,9 +189,26 @@ feature: Configuration, Shipping/Delivery
 
 {style="table-layout:auto"}
 
+The following fields are available only if you have applied the [USPS REST API Migration quality patch](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210). This patch enables support for the USPS APIs, a REST-based platform that replaces the Web Tools APIs. For details, see [USPS Web Tools API deprecation](../../stores-purchase/carriers.md).
+
+|Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
+|--- |--- |--- |
+|[!UICONTROL USPS Type]|Website|Choose **USPS Rest APIs** or **USPS Web Tools API** based on which one you will use.|
+| [!UICONTROL Consumer Key ]|Website|Your USPS shipper account Client ID for REST API.|
+| [!UICONTROL Consumer Secret ]|Website| Your USPS shipper account Client Secret Key for REST API.|
+| [!UICONTROL Account Type]|Website|Type of USPS payment account. Options: `"EPS"` (Enterprise Payment System), or`"PERMIT"` (Permit Imprint) for REST API. <br/><br/>**_Note:_** This field is optional; however, it is required to enable shipping label creation.|
+| [!UICONTROL Pricing Options]|Website|USPS Pricing Options: **Retail** or **Commercial**. Impacts the shipping rate applied. Default is **Commercial** for REST API.|
+| [!UICONTROL Account Number]|Website|Your USPS **account number**, used for payment for REST API.  <br/><br/>**_Note:_** This field is optional; however, it is required to enable shipping label creation.|
+| [!UICONTROL Customer Registration Identifier(CRID)] |Website|A Customer Registration Identification number (CRID) is a USPS-generated numeric code that uniquely identifies a business at a location for REST API.  <br/><br/>**_Note:_** This field is optional; however, it is required to enable shipping label creation.|
+| [!UICONTROL Mailer Identifier(MID)] |Website|The Mailer Identifier (MID) is a field within the Intelligent Mail barcode that is used to identify mailers. MIDs are assigned by the USPS to a Mail Owner, Mailing Agent, or other service provider who requests them for REST API.  <br/><br/>**_Note:_** This field is optional; however, it is required to enable shipping label creation.|
+| [!UICONTROL Manifest MID]|Website|The unique mailer identifier designated for the manifest for REST API.  <br/><br/>**_Note:_** This field is optional; however, it is required to enable shipping label creation.|
+| [!UICONTROL AES/ITN] | Website | USPS AES - Automated Export System / ITN - Internal Transaction Number for REST API. <br/><br/>**_Note:_** This field is generally optional, but is required to enable shipping label creation if: <ul><li>Each type of goods in the shipment (as defined by Schedule B Export Codes at <a href="https://www.census.gov/foreign-trade/schedules/b" target="_blank">www.census.gov/foreign-trade/schedules/b</a>) is valued at $2,500 or less and does not require an export license; or</li><li>The shipment, regardless of value, is being sent to Canada and does not require an export license.</li></ul> |
+
+{style="table-layout:auto"}
+
 ![USPS Packaging Settings](./assets/delivery-methods-usps-packaging.png)<!-- zoom -->
 
-<!-- [USPS Packaging Settings](https://docs.magento.com/user-guide/shipping/usps.html) -->
+<!-- [USPS Packaging Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -206,7 +223,7 @@ feature: Configuration, Shipping/Delivery
 
 ![USPS Handling Fee Settings](./assets/delivery-methods-usps-handling-fee.png)<!-- zoom -->
 
-<!-- [USPS Handling Fee Settings](https://docs.magento.com/user-guide/shipping/usps.html) -->
+<!-- [USPS Handling Fee Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -219,7 +236,7 @@ feature: Configuration, Shipping/Delivery
 
 ![USPS Allowed Methods](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
 
-<!-- [USPS Allowed Methods](https://docs.magento.com/user-guide/shipping/usps.html) -->
+<!-- [USPS Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -233,7 +250,7 @@ feature: Configuration, Shipping/Delivery
 
 ![USPS Applicable Countries](./assets/delivery-methods-usps-countries.png)<!-- zoom -->
 
-<!-- [USPS Applicable Countries](https://docs.magento.com/user-guide/shipping/usps.html) -->
+<!-- [USPS Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -247,7 +264,7 @@ feature: Configuration, Shipping/Delivery
 
 ### [!UICONTROL FedEx]
 
-<!-- [FedEx Account Settings](https://docs.magento.com/user-guide/shipping/fedex.html) -->
+<!-- [FedEx Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) -->
 
 #### FedEx account settings
 
@@ -325,7 +342,7 @@ feature: Configuration, Shipping/Delivery
 
 ![DHL Account Settings](./assets/delivery-methods-dhl-account-settings.png)<!-- zoom -->
 
-<!-- [DHL Account Settings](https://docs.magento.com/user-guide/shipping/dhl.html) -->
+<!-- [DHL Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -341,7 +358,7 @@ feature: Configuration, Shipping/Delivery
 
 ![DHL Package Settings](./assets/delivery-methods-dhl-package-settings.png)<!-- zoom -->
 
-<!-- [DHL Package Settings](https://docs.magento.com/user-guide/shipping/dhl.html) -->
+<!-- [DHL Package Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -357,7 +374,7 @@ feature: Configuration, Shipping/Delivery
 
 ![DHL Allowed Methods](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
 
-<!-- DHL Allowed Methods](https://docs.magento.com/user-guide/shipping/dhl.html) -->
+<!-- DHL Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
@@ -373,7 +390,7 @@ feature: Configuration, Shipping/Delivery
 
 ![DHL Applicable Countries](./assets/delivery-methods-dhl-applicable-countries.png)<!-- zoom -->
 
-<!-- [DHL Applicable Countries](https://docs.magento.com/user-guide/shipping/dhl.html) -->
+<!-- [DHL Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |

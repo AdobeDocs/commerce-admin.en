@@ -161,6 +161,26 @@ Only sales orders that are not invoiced, have a status of `Processing`, and a [p
 
 {style="table-layout:auto"}
 
+### Custom Order Attributes
+
+[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service projects only (Adobe-managed SaaS infrastructure)."}
+
+Custom order attributes allow you to associate additional information specific to your business needs with the order.
+
+![Custom Order Attributes](./assets/custom-order-attributes.png){width="600" zoomable="yes"}
+
+Ihe **[!UICONTROL Custom Order Attributes]** section, displays all custom order attributes and their current values.
+
+To create a new custom order attribute, enter a **[!UICONTROL Attribute Code]** and **[!UICONTROL Value]**
+
+To create additional custom order attributes, click **[!UICONTROL Add Attribute]**.
+
+To remove a custom order attribute, click the **[!UICONTROL X]** icon.
+
+>[!NOTE]
+>
+>Custom order attributes can only be edited when the order is in `Pending` status. For orders in other statuses, you can view the attribute values but cannot modify them.
+
 ### Review items ordered
 
 ![Items Ordered](./assets/order-items-ordered-tee.png){width="600" zoomable="yes"}
@@ -199,7 +219,7 @@ In the **[!UICONTROL Order Total]** section, do the following:
 |Field|Description|
 |--- |--- |
 |[!UICONTROL Status]|Displays the status of the sales order.|
-|[!UICONTROL Comment]|A text box that is used to enter a comment to the customer that accompanies the order. <br/>**[!UICONTROL Notify Customer by Email]** - Select the checkbox if you want to send the comment to the customer as a separate email. <br/>**[!UICONTROL Visible on Storefront]** - Select the checkbox if you want the comment to be visible from the customer's account. <br/>**[!UICONTROL Submit Comment]** - Submits the comment and sends by email, if applicable.|
+|[!UICONTROL Comment]|A text box that is used to enter a comment to the customer that accompanies the order. <br/>**[!UICONTROL Notify Customer by Email]** - Select the checkbox if you want to send the comment to the customer as a separate email. <br/>**[!UICONTROL Visible on Storefront]** - Select the checkbox if you want the comment to be visible from the customer's account. <br/>**[!UICONTROL Update]** - Adds the comment and sends an email, if applicable.|
 
 {style="table-layout:auto"}
 
@@ -224,4 +244,4 @@ In the **[!UICONTROL Order Total]** section, do the following:
 
 Watch this video and learn more about order processing and status:
 
->[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12&learn=on)

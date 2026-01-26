@@ -25,11 +25,11 @@ Use the _HTML Code_ content type to add snippets of HTML, CSS, and JavaScript co
 
 ## Add HTML code
 
-The following example demonstrates how to embed [Google Font][1] code and declare custom heading classes that override the current stylesheet.
+The following example demonstrates how to embed [Google Font](https://fonts.google.com/) code and declare custom heading classes that override the current stylesheet.
 
 ### Step 1: Choose a Google font
 
-1. Visit the [Google Fonts][1] site and choose the font family that you want to use.
+1. Visit the [Google Fonts](https://fonts.google.com/) site and choose the font family that you want to use.
 
 1. Copy the generated code that is to be embedded in the `<head>` section of the page and paste it temporarily into a text editor.
 
@@ -157,4 +157,5 @@ The following example demonstrates how to embed [Google Font][1] code and declar
       | [!UICONTROL Margins] | The amount of blank space that is applied to the outside edge of all sides of the container. Options: `Top` / `Right` / `Bottom` / `Left` |
       | [!UICONTROL Padding] | The amount of blank space that is applied to the inside edge of all sides of the container. Options: `Top` / `Right` / `Bottom` / `Left` |
 
-[1]: https://fonts.google.com/
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->
