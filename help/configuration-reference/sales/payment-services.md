@@ -8,7 +8,7 @@ feature: Configuration, Payments
 
 
 
-Payment Services provides a turnkey self-service solution, including sandbox testing and a simple setup, for providing robust and secure payment processing. To learn more, see the [_Payment Services User Guide_](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html).
+Payment Services provides a turnkey self-service solution, including sandbox testing and a simple setup, for providing robust and secure payment processing. To learn more, see the [_Payment Services User Guide_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html).
 
 To access the configuration settings for Payment Services, on the _Admin_ sidebar go to **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** and click **[!UICONTROL Settings]**.
 
@@ -16,7 +16,7 @@ To access the configuration settings for Payment Services, on the _Admin_ sideba
 
 >[!NOTE]
 >
->To use the Legacy configuration instead of [Settings](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/settings.html), see [Legacy configuration](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/configure-admin.html).
+>To use the Legacy configuration instead of [Settings](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/settings.html), see [Legacy configuration](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/configure-admin.html).
 
 ## [!UICONTROL General]
 
@@ -40,10 +40,10 @@ To access the configuration settings for Payment Services, on the _Admin_ sideba
 |---|---|---|
 | [!UICONTROL Title] | store view | Add the text for display as the title for this payment option in the Payment Method view during checkout. |
 | [!UICONTROL Payment Action] | website | The [payment action](payment-methods.md#payment-actions) for the specified payment method. Options: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
-| [!UICONTROL 3DS Secure authentication] | website | Enable or disable [3DS Secure authentication](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/security-compliance/security.html#3ds). Options: [!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
+| [!UICONTROL 3DS Secure authentication] | website | Enable or disable [3DS Secure authentication](https://experienceleague.adobe.com/docs/commerce/payment-services/security-compliance/security.html#3ds). Options: [!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
 | [!UICONTROL Show on checkout page] | website | Enable or disable credit card fields to show on checkout page. Options: [!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Vault enabled] | store view | Enable or disable [credit card vaulting](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/payments-checkout/vaulting.html). Options: [!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Show vaulted payment methods in Admin] | store view | Enable or disable the ability to complete orders for customers in the Admin [using a vaulted payment method](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/payments-checkout/vaulting.html). Options: [!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Vault enabled] | store view | Enable or disable [credit card vaulting](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html). Options: [!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Show vaulted payment methods in Admin] | store view | Enable or disable the ability to complete orders for customers in the Admin [using a vaulted payment method](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html). Options: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Debug Mode] | website | Enable or disable debug mode. Options: [!UICONTROL Yes] / [!UICONTROL No] |
 
 {style="table-layout:auto"}

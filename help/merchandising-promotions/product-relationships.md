@@ -28,6 +28,6 @@ When you create or update a product, the [product settings](../catalog/product-c
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) [Related product rules](product-related-rules.md) give you the ability to target the selection of products that are presented to customers as related products, up-sells, and cross-sells.
 
-## Product Recommendations powered by Adobe Sensei
+## Product Recommendations powered by Adobe AI
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) [Product Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html) powered by Adobe Sensei simplifies the process of defining product relationships by using artificial intelligence and machine-learning algorithms to perform a deep analysis of aggregated visitor data. This data, when combined with your Adobe Commerce catalog, results in highly engaging, relevant, and personalized experiences for the shopper.
+![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) [Product Recommendations](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html) powered by Adobe AI simplifies the process of defining product relationships by using artificial intelligence and machine-learning algorithms to perform a deep analysis of aggregated visitor data. This data, when combined with your Adobe Commerce catalog, results in highly engaging, relevant, and personalized experiences for the shopper.

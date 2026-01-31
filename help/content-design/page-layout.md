@@ -2,6 +2,7 @@
 title: Page layouts
 description: Learn about the page layout sections and how to configure default layouts.
 exl-id: 397a92cf-6f20-4729-8d7c-c5f672fc1c9a
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Page layouts
 

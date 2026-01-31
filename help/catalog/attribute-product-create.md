@@ -58,6 +58,10 @@ You can create attributes while working on a product or from the _[!UICONTROL Pr
 
 1. Enter a unique **[!UICONTROL Attribute Code]** in lowercase characters and without spaces.
 
+   >[!NOTE]
+   >
+   >It is not recommended to use  the `type` value in the [!UICONTROL Attribute Code] field. This can cause errors because the `type` value is reserved for system use.
+
    ![Product attribute - advanced properties](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
    The available options depend on the _[!UICONTROL Catalog Input Type for Store Owner]_ setting.
@@ -93,6 +97,10 @@ You can create attributes while working on a product or from the _[!UICONTROL Pr
    If your store is available in different languages, you can enter a translated title for each view.
 
    ![Product attribute - manage titles](./assets/product-attribute-add-manage-titles.png){width="600" zoomable="yes"}
+
+   >[!NOTE]
+   >
+   > If you plan to use this attribute as a facet in Live Search, you must specify a store-specific label. Without it, the attribute name may not display correctly on the facet configuration page. To update the configuration, manually edit the label using the [edit option in the Live Search faceting list](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional) in the _Live Search Guide_.
 
 ## Step 4: Describe the storefront properties
 

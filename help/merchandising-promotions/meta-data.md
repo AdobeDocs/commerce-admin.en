@@ -3,8 +3,13 @@ title: Meta data
 description: Learn about how can enter keyword-rich meta data to improve the way search engines index your Commerce site.
 exl-id: 2acc1523-9da6-4e6f-8e4f-607603a61559
 feature: Merchandising, Search
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Meta data
+
+>[!TIP]
+>
+>For Adobe Commerce as a Cloud Service, see the [metadata guidelines](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/) in the Commerce Storefront documentation
 
 Your store is loaded with places where you can enter keyword-rich meta data to improve the way search engines index your site. While setting up your store, you might enter preliminary meta data, with the intention of finishing it later. Over time, you can fine-tune the meta data to target the buying patterns and preferences of your customers.
 
@@ -28,7 +33,7 @@ Meta descriptions provide a brief overview of the page for search results listin
 
 ## Rich snippets
 
-Rich snippets provide detailed information for search results listings and other applications. By default, structured data markup that is based on the [schema.org][1] standard is added to your store's product template. As a result, more information is available for search engines to include as _rich snippets_ in product listings.
+Rich snippets provide detailed information for search results listings and other applications. By default, structured data markup that is based on the [schema.org](https://schema.org/) standard is added to your store's product template. As a result, more information is available for search engines to include as _rich snippets_ in product listings.
 
 ## Canonical meta tag
 
@@ -88,5 +93,3 @@ You can avoid being penalized by search engines by omitting the category from th
 Watch this video to learn about managing SEO meta data:
 
 >[!VIDEO](https://video.tv.adobe.com/v/343750?quality=12&learn=on)
-
-[1]: https://schema.org/

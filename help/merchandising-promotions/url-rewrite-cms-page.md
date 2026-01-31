@@ -3,6 +3,7 @@ title: Content page URL rewrites
 description: Learn how to use content page URL rewrites to redirect links to the URL of another content page in your Commerce store.
 exl-id: e29c45fd-cf25-4b51-a8ae-9e188dc2a61c
 feature: Page Content, Configuration
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Content page URL rewrites
 

@@ -16,11 +16,7 @@ For a category, use the _[!UICONTROL Products in Category]_ section to review th
 
 >[!NOTE]
 >
->On the category pages, `Out of stock` products are always displayed **_after_** `In Stock` products on the product listing with all sorting types.
-
->[!NOTE]
->
->The _Stock_ column displays salable product quantity for _**selected category scope**_ only. When multiple stocks are managed for products, you should switch between the corresponding scopes to display other _Stock_ column values in the _Category Products_ grid.
+>The _Stock_ column displays available product quantity for _**selected category scope**_ only. When multiple stocks are managed for products, you should switch between the corresponding scopes to display other _Stock_ column values in the _Category Products_ grid.
 
 ## Apply a category rule
 
@@ -83,7 +79,7 @@ For a category, use the _[!UICONTROL Products in Category]_ section to review th
 
 >[!NOTE]
 >
->The quantity of a configurable product with child options is calculated by combining all the salable child product quantities. Consider an example of a configurable product _Endurance Fitness Tank_ with purple, red, and yellow color options and different quantities of each. In this scenario, the parent product quantity is the combined salable quantity of the purple, red, and yellow color child products.
+>The quantity of a configurable product with child options is calculated by combining all the child product quantities. Consider an example of a configurable product _Endurance Fitness Tank_ with purple, red, and yellow color options and different quantities of each. In this scenario, the parent product quantity is the combined quantity of the purple, red, and yellow color child products.
 
 ## Controls
 

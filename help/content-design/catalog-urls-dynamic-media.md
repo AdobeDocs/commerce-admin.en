@@ -3,6 +3,7 @@ title: Dynamic media URLs
 description: Learn about using a dynamic media URL as a relative reference to an image or other media asset.
 exl-id: 41aabde2-f6cc-4b83-8d56-9753a7aa93e9
 feature: CMS, Media
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Dynamic media URLs
 
@@ -35,3 +36,5 @@ By default, images inserted into the catalog from the WYSIWYG editor have relati
    - `No` - (Default) Uses dynamic URLs for media content that is inserted with the WYSIWYG editor, based on the `\{\{media url="..."}}` directive. Dynamic URLs are relative and do not break if the base URL of the store changes.
 
 1. When complete, click **[!UICONTROL Save Config]**.
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

@@ -14,7 +14,7 @@ The Distance Priority Algorithm compares the location of the shipping destinatio
 
 You have two options for calculating the distance and time to find the closest source for shipment fulfillment:
 
-- **Google MAP** - Uses [Google Maps Platform][1] services to calculate the distance and time between the shipping destination address and source locations. This option uses the source's Latitude and Longitude (GPS coordinates) and may use the street address depending on the computation mode. A Google API key is required with [Geocoding API][2] and [Distance Matrix API][3] enabled, and you may incur charges through Google.
+- **Google MAP** - Uses [Google Maps Platform](https://cloud.google.com/maps-platform/) services to calculate the distance and time between the shipping destination address and source locations. This option uses the source's Latitude and Longitude (GPS coordinates) and may use the street address depending on the computation mode. A Google API key is required with [Geocoding API](https://developers.google.com/maps/documentation/geocoding/start) and [Distance Matrix API](https://developers.google.com/maps/documentation/distance-matrix/start) enabled, and you may incur charges through Google.
 
 - **Offline Calculation** - Calculates the distance using downloaded and imported geocode data using zip/post codes and GPS coordinates to determine the closest source to the shipping destination address. To configure this option, you may require developer assistance to initially download and import geocodes using command-line instructions.
 
@@ -29,9 +29,9 @@ However, Google MAP distance-based algorithm is recommended as more advanced and
 
 ### Step 1: Create the Google API key
 
-The key is from the [Google Maps Platform][1] and should have [Geocoding API][2] and [Distance Matrix API][3] enabled. For details, see [Configuring Distance Priority Algorithm](distance-priority-algorithm.md).
+The key is from the [Google Maps Platform](https://cloud.google.com/maps-platform/) and should have [Geocoding API](https://developers.google.com/maps/documentation/geocoding/start) and [Distance Matrix API](https://developers.google.com/maps/documentation/distance-matrix/start) enabled. For details, see [Configuring Distance Priority Algorithm](distance-priority-algorithm.md).
 
-1. Visit [Google Maps Platform][1] and click **[!UICONTROL Get Started]**.
+1. Visit [Google Maps Platform](https://cloud.google.com/maps-platform/) and click **[!UICONTROL Get Started]**.
 
 1. To enable the platform, select **[!UICONTROL Maps, Routes, and Places]** and click **[!UICONTROL Continue]**.
 
@@ -59,7 +59,7 @@ The key is from the [Google Maps Platform][1] and should have [Geocoding API][2]
 
       ![Google API Services](assets/inventory-google-key2.png){width="350" zoomable="yes"}
 
-   - Search for [Geocoding API][2] and [Distance Matrix API][3]. Select and enable each service.
+   - Search for [Geocoding API](https://developers.google.com/maps/documentation/geocoding/start) and [Distance Matrix API](https://developers.google.com/maps/documentation/distance-matrix/start). Select and enable each service.
 
 1. Expand the menu, click **[!UICONTROL APIs & Services]** > **[!UICONTROL Credentials]**, and copy the Google API Key.
 
@@ -89,7 +89,7 @@ The key is from the [Google Maps Platform][1] and should have [Geocoding API][2]
       | ----- | ----- |
       | `Driving` | (Default) Requests standard driving directions using the road network. |
       | `Walking` | Requests walking directions using pedestrian paths and sidewalks (where available). |
-      | `Bicycling` | Requests bicycling directions using bicycle paths and preferred streets (where available). The [Distance Matrix Service][4] is only available in the US and some Canadian cities. |
+      | `Bicycling` | Requests bicycling directions using bicycle paths and preferred streets (where available). The [Distance Matrix Service](https://developers.google.com/maps/documentation/javascript/distancematrix#travel_modes) is only available in the US and some Canadian cities. |
 
    - For **[!UICONTROL Value]**, select a value type:
 
@@ -104,11 +104,11 @@ The key is from the [Google Maps Platform][1] and should have [Geocoding API][2]
 
 ## Use offline calculation
 
-Offline calculations use country codes to determine the distance between the shipping destination and source addresses. This option may require developer assistance to configure. Use an [!DNL Inventory Management] CLI command to download and import data from [geonames.org][5].
+Offline calculations use country codes to determine the distance between the shipping destination and source addresses. This option may require developer assistance to configure. Use an [!DNL Inventory Management] CLI command to download and import data from [geonames.org](https://www.geonames.org/).
 
 >[!NOTE]
 >
->Imported geocodes from [geonames.org][5] have limitations for some countries, such as Canada and Ireland. Refer to [GeoNames Postal Code files][6] for more information.
+>Imported geocodes from [geonames.org](https://www.geonames.org/) have limitations for some countries, such as Canada and Ireland. Refer to [GeoNames Postal Code files](https://download.geonames.org/export/zip/readme.txt) for more information.
 
 ### Step 1: Download and import geocodes
 
@@ -129,10 +129,3 @@ Complete these commands anytime you want to add more geocodes.
     ![Distance Providers for Distance Based SSA](assets/inventory-distance-offline.png){width="350" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Config]**.
-
-[1]: https://cloud.google.com/maps-platform/
-[2]: https://developers.google.com/maps/documentation/geocoding/start
-[3]: https://developers.google.com/maps/documentation/distance-matrix/start
-[4]: https://developers.google.com/maps/documentation/javascript/distancematrix#travel_modes
-[5]: https://www.geonames.org/
-[6]: https://download.geonames.org/export/zip/readme.txt

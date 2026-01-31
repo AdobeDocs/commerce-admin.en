@@ -3,8 +3,11 @@ title: HIPAA readiness on Adobe Commerce
 description: Learn how you can add the Adobe Commerce HIPAA-Ready extension and get additional features and functionalities that allow you to comply with your HIPAA obligations.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # HIPAA readiness on Adobe Commerce
+
+{{ee-feature}}
 
 >[!IMPORTANT]
 >
@@ -15,7 +18,7 @@ exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
 
 **Health Insurance Portability and Accountability Act (HIPAA)**
 
-The Health Insurance Portability and Accountability Act (HIPAA) is the key federal healthcare privacy law in the United States and is enforced by the U.S. Department of Health and Human Services (HHS). HIPAA applies to _Covered Entities_ (such as healthcare providers, insurers, and clearinghouses) and _Business Associates_ (such as those entities that provide services to covered entities). HIPAA requirements are set across three separate rules: Privacy Rule, Security Rule, and Breach Notification Rule. Adobe acts as a Business Associate for certain products, which Adobe classifies as "HIPAA-Ready Services." Data regulated under HIPAA is referred to as _Protected Health Information_ or PHI. PHI is a subset of health information that (1) is created or received by a healthcare provider, health plan, or healthcare clearinghouse, (2) relates to the past, present, or future physical or mental health or condition of an individual, the provision of healthcare to an individual, or the past, present, or future payment for the provision of healthcare to an individual, and (3) identifies the individual or with respect to which there is a reasonable basis to believe that the information can be used to identify the individual. The HIPAA Privacy and Security Rules require that a Covered Entity obtain written assurances from a Business Associate in the form of a Business Associate Agreement, or BAA, requiring the Business Associate to safeguard the privacy and security of the Covered Entityʼs PHI. For more information, see [HIPAA and Adobe Products and Services](https://www.adobe.com/trust/compliance/hipaa-ready.html) in the Adobe Trust Center.
+The Health Insurance Portability and Accountability Act (HIPAA) is the key federal healthcare privacy law in the United States and is enforced by the U.S. Department of Health and Human Services (HHS). HIPAA applies to _Covered Entities_ (such as healthcare providers, insurers, and clearinghouses) and _Business Associates_ (such as those entities that provide services to covered entities). HIPAA requirements are set across three separate rules: Privacy Rule, Security Rule, and Breach Notification Rule. Adobe acts as a Business Associate for certain products, which Adobe classifies as "HIPAA-Ready Services." Data regulated under HIPAA is referred to as _Protected Health Information_ or PHI. PHI is a subset of health information that (1) is created or received by a healthcare provider, health plan, or healthcare clearinghouse, (2) relates to the past, present, or future physical or mental health or condition of an individual, the provision of healthcare to an individual, or the past, present, or future payment for the provision of healthcare to an individual, and (3) identifies the individual or with respect to which there is a reasonable basis to believe that the information can be used to identify the individual. The HIPAA Privacy and Security Rules require that a Covered Entity obtain written assurances from a Business Associate in the form of a Business Associate Agreement, or BAA, requiring the Business Associate to safeguard the privacy and security of the Covered Entityʼs PHI. For more information, see [HIPAA and Adobe Products and Services](https://www.adobe.com/trust/compliance/hipaa-hds/hipaa-ready.html) in the Adobe Trust Center.
 
 >[!ENDSHADEBOX]
 
@@ -27,13 +30,27 @@ The Adobe Commerce HIPAA-Ready extension, `magento/hipaa-ee` is available for Ad
 
 >[!NOTE]
 >
->Access to HIPAA ready features and functionality is available only to merchants that have purchased the health care add-on for Adobe Commerce. 
+>Access to HIPAA ready features and functionality is available only to merchants that have purchased the health care add-on for Adobe Commerce.
 
 *These materials are intended for informational purposes only. Provision of this information does not entitle the recipient to any contractual or other rights. While efforts have been made to assure the accuracy of the information as of the date it has been provided, no representation is made that such information is accurate and complete. Adobe undertakes no obligation to update this information as the law or Adobe's products change. Also, this document is not to be distributed to any party other than the intended recipient without written consent from Adobe.*
 
 ## System requirements
 
-Adobe Commerce must be deployed on either Adobe Commerce on cloud infrastructure or Adobe Commerce Managed Services with version 2.4.6-p3 - 2.4.6-p8 (no beta versions).
+The following table shows the compatibility between versions of Adobe Commerce and the HIPAA-ready extension:
+
+| Adobe Commerce | Supported | Notes |
+|----------------|-----------|-------|
+| 2.4.7-p4 and later -p versions | 1.2.0 | 2.4.7-p4 support requires a [hotfix](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27147) |
+| 2.4.6-p9 - 2.4.6-p10 | 1.2.0 | |
+| 2.4.6-p8 | 1.1.0 | Support for [data services](#adobe-commerce-services) was introduced in 1.1.0 |
+| 2.4.6-p3 - 2.4.6-p7 | 1.0.0 | |
+
+>[!IMPORTANT]
+>
+>- The HIPAA-ready extension is only available for Adobe Commerce on Cloud or Adobe Commerce Managed Services projects.
+>- The extension is available as a Composer metapackage from `repo.magento.com`.
+>- Access to HIPAA-ready features and functionality requires the health care add-on for Adobe Commerce.
+>- Adobe Commerce beta versions are not supported.
 
 ## Installation
 
@@ -42,21 +59,21 @@ Adobe Commerce must be deployed on either Adobe Commerce on cloud infrastructure
 >[!BEGINSHADEBOX]
 
 - Adobe has provisioned your Adobe Commerce account to access the HIPAA Ready extension.
-- Access to [repo.magento.com](https://repo.magento.com) to install the extension. For key generation and obtaining the necessary rights, see [Get your authentication keys](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
+- Access to [repo.magento.com](https://repo.magento.com) to install the extension. For key generation and obtaining the necessary rights, see [Get your authentication keys](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys).
 
 >[!ENDSHADEBOX]
 
-Install the latest version of Adobe's HIPAA-Ready Services extension (`magento/hipaa-ee`) on an instance that is running Adobe Commerce version  2.4.6-p3 - 2.4.6-p8. The extension is delivered as a composer metapackage from the [repo.magento.com](https://repo.magento.com) repository. The metapackage includes the collection of modules that enable the HIPAA capabilities for an Adobe Commerce instance.
+Install the latest version of Adobe's HIPAA-Ready Services extension (`magento/hipaa-ee`) on an instance that is running Adobe Commerce version  2.4.7-p5 or 2.4.6-p3 through 2.4.6-p8. The extension is delivered as a composer metapackage from the [repo.magento.com](https://repo.magento.com) repository. The metapackage includes the collection of modules that enable the HIPAA capabilities for an Adobe Commerce instance.
 
 >[!NOTE]
 >
->To ensure back office event data that is sent to Experience Platform is HIPAA-ready, see the [Data Connection extension guide](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
+>To ensure back office event data that is sent to Experience Platform is HIPAA-ready, see the [Data Connection extension guide](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
 
 1. On your local workstation, change to the project directory for your Adobe Commerce on cloud infrastructure project.
 
    >[!NOTE]
    >
-   >For information about managing Commerce project environments locally, see  [Managing branches with the CLI](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches) in the _Adobe Commerce on Cloud Infrastructure User Guide_.
+   >For information about managing Commerce project environments locally, see [Managing branches with the CLI](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/cli-branches) in the _Adobe Commerce on Cloud Infrastructure User Guide_.
 
 1. Checkout the environment branch to update using the Adobe Commerce Cloud CLI.
 
@@ -84,11 +101,11 @@ Install the latest version of Adobe's HIPAA-Ready Services extension (`magento/h
    git push origin <branch-name>
    ```
 
-   Pushing the updates initiates the [Commerce cloud deployment process](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process) to apply the changes. Check the deployment status from the [deploy log](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
+   Pushing the updates initiates the [Commerce cloud deployment process](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/deploy/process) to apply the changes. Check the deployment status from the [deploy log](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/test/log-locations).
 
 ### Verify installation
 
-After the updates are deployed, verify that the `Hipaa*` extensiion is installed
+After the updates are deployed, verify that the `Hipaa*` extension is installed
 
 1. Use SSH to log in to the remote cloud environment.
 
@@ -139,11 +156,11 @@ The _Action Logs_ report grid (**[!UICONTROL System]** > Action Logs > Report) i
 
 1. Added two columns:
    - ***Source***: Displays where the action was performed.
-      Values: `Admin UI` / `Customer UI` / `REST API` / `SOAP API` / `GraphQL API`
+      Values: `Admin UI` | `Customer UI` | `REST API` | `SOAP API` | `GraphQL API`
    - ***Client Type***: Displays the client type.
       Values: Customer | Admin | Integration
 
-2. Renamed the ***Username*** colunn to ***Client Identifier***
+2. Renamed the ***Username*** column to ***Client Identifier***
    - ***Client Identifier***: Displays the login ID for the user who performed the action.
       Values:
       - an email if Client Type is Customer
@@ -170,7 +187,7 @@ The HIPAA Customer Search Results Restriction functionality in Adobe Commerce en
 - **Search Restrictions**: Users without the necessary roles cannot search for or view customer records.
 - **Mandatory Search for Access**: Unlike the default Adobe Commerce behavior, it is not possible to see customer information without performing a search. This ensures that users must know specific details about a customer to locate their information.
 - **Limited Search Results**: Search results matching the criteria are limited to 10 records, ensuring that only a manageable number of records are displayed at a time.
-- **Minimum Number of Filters**: Users must apply a minimum of three filters (e.g., email, lastname, and state) to perform a search, ensuring that searches are specific and targeted.
+- **Minimum Number of Filters**: Users must apply a minimum of three filters (for example, email, last name, and state) to perform a search, ensuring that searches are specific and targeted.
 - **Filter Notifications**: When search restrictions are enabled, users are notified to apply filters to refine their search results.
 
 #### Configuration
@@ -182,19 +199,19 @@ The configuration for limiting the number of customers in the search results is 
 
 #### Affected Functional Areas
 
-Customer grids on the Admin Create Order page (**[!UICONTROL Sales]** > **[!UICONTROL Orders]** > **[!UICONTROL Create New Order]**) and Customers page (**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**) are affected by the search results restriction functionality.
+The search results restriction functionality applies to customer grids on the Admin Create Order page (**[!UICONTROL Sales]** > **[!UICONTROL Orders]** > **[!UICONTROL Create New Order]**) and the Customers page (**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**).
 
 - Filters are opened by default.
 - Users must apply a minimum of three filters to perform a search.
 - Search results are limited to 10 records by default.
-- If there are more records matching the search criteria, notifications will inform users about the result limit and the need to refine their search.
+- If there are more records matching the search criteria, notifications inform users about the result limit and the need to refine their search.
 - Grid pagination is not available.
 - Previous search results and filters applied are not saved when navigating away from the page.
 
 The search results restriction functionality also applies to the REST API for customer search (`/V1/customers/search`).
 
 - Without filters applied or with insufficient filters, the API returns an error message indicating that the required number of filters are needed to perform a search.
-- When sufficient filters are applied by authorized users, the API returns results within the specified limit.
+- Authorized users who apply sufficient filters receive API results within the specified limit.
 - When results are limited, a message is added to the response indicating the total number of records found and the current applied limit.
 
 ### Import and export features
@@ -256,14 +273,14 @@ The following table identifies Adobe Commerce services that are available for th
 
 | Service                                                                                                                                                                                             | Non-Production | Production |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|
-| [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/overview/)                                                                                                               | Yes            | Yes        |
+| [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/intro_and_overview/)                                                                                                               | Yes            | Yes        |
 | [API Mesh for Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/)                                                                                                       | Yes            | Yes        |
-| [SaaS Data Export](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview)                                                                                 | Yes            | Yes        |
-| [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overviewhttps://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) | No             | No         |
-| [Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/overview)                                                                   | No             | No         |
-| [Payment Services](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/guide-overview)                                                                           | No             | No         |
-| [Data Connection Back Office Events](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)                                     | Yes            | Yes        |
-| [Data Connection Storefront Events](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#storefront-events)                                | No             | No         |
+| [SaaS Data Export](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview)                                                                                 | Yes            | Yes        |
+| [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) | No             | No         |
+| [Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview)                                                                   | No             | No         |
+| [Payment Services](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview)                                                                           | No             | No         |
+| [Data Connection Back Office Events](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice)                                     | Yes            | Yes        |
+| [Data Connection Storefront Events](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#storefront-events)                                | No             | No         |
 | [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation)                                                                                      | No             | No         |
 
 ### Tools
@@ -276,7 +293,7 @@ The [Security Scan Tool](../../systems/security-scan.md) for Adobe Commerce help
 - All installed extensions match a predefined allowlist
 - No unsupported Adobe services are installed
 
-You can [configure the tool](../../systems/security-scan.md#run-a-security-scan) to send you email notifications with details from scheduled scans or [manually view reports](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/overview#to-review-the-report).
+You can [configure the tool](../../systems/security-scan.md#run-a-security-scan) to send you email notifications with details from scheduled scans or [manually view reports](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview).
 
 ## Disabled features
 
@@ -284,7 +301,7 @@ To comply with HIPAA requirements, some features supported by Adobe Commerce are
 
 The following features are disabled by default in the HIPAA-readiness module. Merchants can enable any of these features at their own risk.
 
-- **[Transactional email](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)**—SendGrid is disabled by default because the service is non-HIPAA-ready. Adobe Commerce provides an integration option that you can use with your own [AWS Simple Email Service](https://docs.aws.amazon.com/ses/) account. Contact your Customer Technical Account Manager or Adobe Commerce Support for configuration details.
+- **[Transactional email](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/sendgrid)**—SendGrid is disabled by default because the service is non-HIPAA-ready. Adobe Commerce provides an integration option that you can use with your own [AWS Simple Email Service](https://docs.aws.amazon.com/ses/) account. Contact your Customer Technical Account Manager or Adobe Commerce Support for configuration details.
 
 - **[Guest checkout](../../stores-purchase/checkout-guest.md)**—This feature presents a potential risk for various aspects of HIPAA including logging, access control, PHI hygiene and lineage, and potentially more.
 

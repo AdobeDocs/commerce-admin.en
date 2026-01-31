@@ -1,11 +1,11 @@
 ---
-title: Google reCAPTCHA
+title: Google reCAPTCHA V3 and V2
 description: Learn how to configure Google reCAPTCHA for Admin access and various storefront actions initiated by registered customers.
 exl-id: c3b53702-0882-4ac4-9cf5-39fefc90005e
 role: Admin
 feature: Configuration, Security
 ---
-# Google reCAPTCHA
+# Google reCAPTCHA V3 and V2
 
 [Google reCAPTCHA](https://developers.google.com/recaptcha) ensures that a human being, rather than a computer (or "bot"), is interacting with your website. Unlike the standard Adobe Commerce and Magento Open Source [CAPTCHA](security-captcha.md), Google reCAPTCHA provides enhanced security with a selection of different display options and methods. Additional website traffic information is available in the dashboard of your Google reCAPTCHA account.
 
@@ -63,6 +63,8 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
    >Not all keys are applicable for all types of reCAPTCHA, and misapplying them could lead to unexpected behavior. For example, Google reCAPTCHA keys generated for reCAPTCHA v2 "I'm not a robot" do not work with _reCAPTCHA v2 Invisible_ and could block functionality where reCAPTCHA is enabled.
 
 ## Step 2: Configure Google reCAPTCHA for the Admin
+
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
 
 1. Sign in to your Admin account.
 
@@ -150,21 +152,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
 1. Set each storefront location field to the type of reCAPTCHA that you have configured to use.
 
-   - [!UICONTROL Enable for Customer Login]
-   - [!UICONTROL Enable for Forgot Password]
-   - [!UICONTROL Enable for Create New Customer Account]
-   - [!UICONTROL Enable for Edit Customer Account]
-   - [!UICONTROL Enable for Create New Company Account] ![Adobe Commerce B2B](../assets/b2b.svg) (Available with Adobe Commerce B2B only)
-   - [!UICONTROL Enable for Contact Us]
-   - [!UICONTROL Enable for Product Review]
-   - [!UICONTROL Enable for Newsletter Subscription]
-   - [!UICONTROL Enable for Gift Card] ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only)
-   - [!UICONTROL Enable for Invitation Create Account]
-   - [!UICONTROL Enable for Send To Friend]
-   - [!UICONTROL Enable for Checkout/Placing Order]
-   - [!UICONTROL Enable for Wishlist Sharing]
-   - [!UICONTROL Enable for Coupon Codes]
-   - [!UICONTROL Enable for PayPal PayflowPro payment form]
+   {{recaptcha-forms-list}}
 
    ![Storefront options configuration](../configuration-reference/security/assets/recaptcha-storefront.png){width="600" zoomable="yes"}
 

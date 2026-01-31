@@ -27,9 +27,9 @@ Every block consists of a list of products which belong to a specific option.
 
 >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) **Product Recommendations powered by Adobe Sensei** simplifies the process of defining product relationships by using artificial intelligence and machine-learning algorithms to perform a deep analysis of aggregated visitor data. This data, when combined with your Adobe Commerce catalog, results in highly engaging, relevant, and personalized experiences for the shopper.
+>![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) **Product Recommendations powered by Adobe AI** simplifies the process of defining product relationships by using artificial intelligence and machine-learning algorithms to perform a deep analysis of aggregated visitor data. This data, when combined with your Adobe Commerce catalog, results in highly engaging, relevant, and personalized experiences for the shopper.
 ><br/>
->For more information about using this Adobe-developed extension as an alternative to manually configured product recommendations and up-sells, see the _[Product Recommendations Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html)_.
+>For more information about using this Adobe-developed extension as an alternative to manually configured product recommendations and up-sells, see the _[Product Recommendations Guide](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)_.
 
 ## Related Products
 

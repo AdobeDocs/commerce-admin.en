@@ -3,6 +3,7 @@ title: Configure the Commerce Admin Integration with ID
 description: Follow this optional procedure for integrating Adobe Commerce Admin user account logins with Adobe ID.
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Configure the Commerce Admin Integration with Adobe ID
 
@@ -25,7 +26,7 @@ The administrator who configures this integration needs the following credential
 * 2FA should be enforced on the Organization level in Adobe Admin Console to enable the module. Check [Authentication setings](https://helpx.adobe.com/enterprise/using/authentication-settings.html#two-step-verification).
 * Client ID
 * Client secret
-* Client ID and client secret are available after retrieving API keys from the [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/credentials/).
+* Client ID and client secret are available after retrieving API keys from the [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/credentials).
 
 Commerce Admin users must create an account with an Adobe ID to log in.
 
@@ -55,8 +56,8 @@ To create projects for an organization, the Adobe Admin account for the organiza
 1. Click **[!UICONTROL Add API]** on the newly created Project page.
 1. Select **[!UICONTROL Adobe Services]** > **[!UICONTROL Adobe Commerce with Adobe ID]**.
 1. Select **[!UICONTROL Oauth 2.0 Web]**.
-1. Specify the **[!UICONTROL Redirect URI]**: `https://<hostname>/`
-1. Specify the **[!UICONTROL Redirect URI pattern]**: `https://<hostname>/.*`
+1. Specify the **[!UICONTROL Redirect URI]**: `https://<commerce_base_url>/`
+1. Specify the **[!UICONTROL Redirect URI pattern]**: `https://<commerce_base_url>/.*`
 
    Escape any dots in the hostname by preceding the dots with `\\`. Adding a wildcard to the end of the URL supports the Adobe Commerce Admin secret key.
 
@@ -99,3 +100,7 @@ Enter `bin/magento admin:adobe-ims:enable`. You are prompted to enter the follow
 Adobe Commerce displays a message that indicates whether enablement succeeded or failed.
 
 After successfully enabling this feature, you can transition other Adobe Commerce user accounts to Adobe IMS accounts. Adobe Commerce users must belong to the configured Adobe organization to log in using an Adobe ID.
+
+## Identity and Single Sign-On
+
+For information about identity configuration options including Adobe ID, Enterprise ID, and Federated ID, and instructions for configuring Single Sign-On (SSO) for secure access to Adobe apps, see [Set up identity and Single Sign-On](https://helpx.adobe.com/enterprise/using/set-up-identity.html) in the *Enterprise Admin Console* documentation.

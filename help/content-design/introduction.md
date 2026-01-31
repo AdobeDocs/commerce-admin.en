@@ -13,7 +13,7 @@ Your content should reflect the branding of your store, and be delivered with yo
 
 Adobe Commerce and Magento Open Source provide many easy-to-use design options that you can use to make simple changes to your store. There are also many professionally designed themes available in the [Commerce Marketplace](../getting-started/commerce-marketplace.md). Like the window dressing of your store, you can change the theme for the season or for a promotion.
 
-More advanced store designers appreciate the flexibility of working with an object-oriented environment that assembles pages from separate components. After you understand the basics, you will appreciate working in such a flexible and fluid environment. To learn more, see the [Frontend Developer Guide][1].
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."} More advanced store designers appreciate the flexibility of working with an object-oriented environment that assembles pages from separate components. After you understand the basics, you will appreciate working in such a flexible and fluid environment. To learn more, see the [Frontend Developer Guide](https://developer.adobe.com/commerce/frontend-core/guide/).
 
 ### Configuration
 
@@ -25,10 +25,10 @@ The [theme](themes.md) determines the visual presentation of your store, and con
 
 ### Schedule
 
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+
 Themes can be activated for a specific time period, according to a [schedule](schedule.md). Use the schedule to plan theme changes in advance for a season or promotion.
 
 ## Content
 
 Your content defines the [pages](pages.md) and elements that customers see when they access your store. You can define basic elements for your pages, such as text and images, as well as more advanced elements that provide interactive and dynamic content to enhance the shopping experience.
-
-[1]: https://developer.adobe.com/commerce/frontend-core/guide/

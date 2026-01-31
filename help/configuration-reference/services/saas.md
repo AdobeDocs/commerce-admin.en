@@ -3,10 +3,11 @@ title: '[!UICONTROL Services] &gt; [!UICONTROL Commerce Services Connector]'
 description: Review the configurations settings on the [!UICONTROL Services] &gt; [!UICONTROL Commerce Services Connector] page of the Commerce Admin.
 exl-id: 3570e846-c8ab-4a36-b020-1b536bbd377d
 feature: Configuration, Saas
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # [!UICONTROL Services] > [!UICONTROL Commerce Services Connector]
 
-To learn how to connect your store to Adobe Commerce services, see [Commerce Services](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html).
+To learn how to connect your store to Adobe Commerce services, see [Commerce Services](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html).
 
 {{config}}
 
@@ -39,7 +40,7 @@ To learn how to connect your store to Adobe Commerce services, see [Commerce Ser
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |[!UICONTROL Project]|Global|Name of the SaaS project that groups all of your SaaS data spaces. A _Create Project_ button appears if no SaaS projects exist.|
-|[!UICONTROL Data Space]|Global|Lists the SaaS data spaces in the specified SaaS project. The number of SaaS data spaces depends on your [Commerce license](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html):<br />Adobe Commerce - One production data space; two testing data spaces;<br />Magento Open Source - One production data space; no testing data spaces|
+|[!UICONTROL Data Space]|Global|Lists the SaaS data spaces in the specified SaaS project. The number of SaaS data spaces depends on your [Commerce license](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html):<br />Adobe Commerce - One production data space; two testing data spaces;<br />Magento Open Source - One production data space; no testing data spaces|
 
 {style="table-layout:auto"}
 

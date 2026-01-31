@@ -3,10 +3,11 @@ title: PayPal Payments Standard
 description: Learn how to set up PayPal Payments Standard as an online payment solution on your store.
 exl-id: b4024dac-34d7-4f1a-ad9d-0fc406194609
 feature: Payments
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # PayPal Payments Standard
 
-[PayPal Payments Standard][4] is the easiest way to accept payments online. You can offer your customers the convenience of payment both by credit card and PayPal by simply adding a checkout button to your store.
+[PayPal Payments Standard](https://developer.paypal.com/docs/paypal-payments-standard/mobile-paypal-payments-standard/) is the easiest way to accept payments online. You can offer your customers the convenience of payment both by credit card and PayPal by simply adding a checkout button to your store.
 
 >[!NOTE]
 >
@@ -21,7 +22,7 @@ With PayPal Payments Standard, you can swipe credit cards on mobile devices. The
 
 ## Merchant requirements
 
-- [PayPal Business Account][1]
+- [PayPal Business Account](https://www.paypal.com/webapps/mpp/how-to-sell-online)
 
 ## Checkout workflow
 
@@ -67,7 +68,7 @@ This setup method assumes you have an existing PayPal account.
 
 1. Connect your account for test or production:
 
-   - For testing (development) mode, click **[!UICONTROL Sandbox Credentials]** and enter your [PayPal sandbox][3] credentials.
+   - For testing (development) mode, click **[!UICONTROL Sandbox Credentials]** and enter your [PayPal sandbox](https://developer.paypal.com/docs/api-basics/sandbox/) credentials.
    - For production mode, click **[!UICONTROL Connect with PayPal]** and enter you production account credentials.
 
    When your connection is validated, you can proceed.
@@ -103,7 +104,7 @@ This setup method assumes you have an existing PayPal account.
 
 1. If you are using credentials from your sandbox account, set **[!UICONTROL Sandbox Mode]** to `Yes`.
 
-   When testing the configuration in a sandbox, use only [credit card numbers][2] that are recommended by PayPal. When you are ready to go to production, return to the configuration and set Sandbox Mode to `No` and connect to your production PayPal account.
+   When testing the configuration in a sandbox, use only [credit card numbers](https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm) that are recommended by PayPal. When you are ready to go to production, return to the configuration and set Sandbox Mode to `No` and connect to your production PayPal account.
 
 1. If your system uses a proxy server to establish the connection between Adobe Commerce or Magento Open Source and the PayPal payment system, set **[!UICONTROL API Uses Proxy]** to `Yes` and complete the following:
 
@@ -426,8 +427,3 @@ Use the _[!UICONTROL Frontend Experience Settings]_ to choose which PayPal logos
       - **[!UICONTROL Header Background Color]** - Background color for the checkout page header.
       - **[!UICONTROL Header Border Color]** - Color for two-pixel border around the header.
       - **[!UICONTROL Page Background Color]** - Background color for the checkout page and around the header and payment form.
-
-[1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
-[2]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
-[3]: https://developer.paypal.com/docs/api-basics/sandbox/
-[4]: https://developer.paypal.com/docs/paypal-payments-standard/mobile-paypal-payments-standard/

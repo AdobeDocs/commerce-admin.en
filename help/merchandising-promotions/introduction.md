@@ -11,7 +11,7 @@ Target promotions and create opportunities for customer engagement, and turn sho
 
 _Merchandising_ is a term used in retail to describe the art and science of floor plan development and the presentation of products. You might think of the [category-based navigation](../catalog/navigation-top.md) as the floor plan of the store, and the dynamic presentation of products as the conditions that you can apply to the listing of products in the store. Also, you can implement programs that drive more product sales:
 
-- [Visual Merchandiser](visual-merchandiser.md) - A set of advanced tools that allows you to position products, and apply conditions that determine which products appear in the category listing.
+- [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."} [Visual Merchandiser](visual-merchandiser.md) - A set of advanced tools that allows you to position products, and apply conditions that determine which products appear in the category listing.
 
 - [Gift registries](gift-registries.md) - Give your customers the ability to create gift registries for special occasions, and to invite their friends and family to purchase their gifts from the gift registry.
 
@@ -21,7 +21,7 @@ _Merchandising_ is a term used in retail to describe the art and science of floo
 
 >[!TIP]
 >
->To learn about Product Recommendations and how they can give you the insight and control you need to create the best experience for your buyers, see the [Product Recommendations User Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html).
+>To learn about Product Recommendations and how they can give you the insight and control you need to create the best experience for your buyers, see the [Product Recommendations User Guide](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html).
 
 ## Promotions
 
@@ -79,8 +79,6 @@ Your store configuration is integrated with the following Google tools to help o
 >Starting with the 2.4.5 release, the Google services integration is updated to support use of the GTag APIs. GTag is a unified mechanism for integration with Google functionality for web pages and supports the newest capabilities and opportunities for tracking and managing content through Google Services. For more information, see the [Google Analytics developer documentation](https://developers.google.com/analytics/devguides/collection/gtagjs).
 
 - [Google Analytics](google-analytics.md) - Use Google Universal Analytics to define additional custom dimensions and metrics for tracking, with support for offline and mobile app interactions, and access to ongoing updates.
-
-- [Google Content Experiments](google-content-experiments.md) - Set up an A/B test of products, categories, or content pages using Google Analytics Content
 
 - [Google Tag Manager](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Use Google Tag Manager to manage the many tags related to marketing campaign events.
 

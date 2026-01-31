@@ -3,6 +3,7 @@ title: PayPal Payflow Link
 description: Learn how to set up PayPal Payflow Link as an online payment solution on your store.
 exl-id: dba4057e-1fea-4a23-8594-cc85f619d664
 feature: Payments
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # PayPal Payflow Link
 
@@ -17,7 +18,7 @@ Credit memos are supported for both online and offline refunds. However, multipl
 
 ## Requirements
 
-- [PayPal Business Account][1] The PayPal Payflow Pro gateway links the merchant account at PayPal with the merchant website, acting as both a gateway and a merchant account.
+- [PayPal Business Account](https://www.paypal.com/webapps/mpp/how-to-sell-online) The PayPal Payflow Pro gateway links the merchant account at PayPal with the merchant website, acting as both a gateway and a merchant account.
 
 - If you manage multiple Commerce websites, you must have a separate PayPal merchant account for each website.
 
@@ -43,9 +44,9 @@ Credit memos are supported for both online and offline refunds. However, multipl
 
 ## Configure your PayPal account
 
-1. Log in to your [PayPal business account][2].
+1. Log in to your [PayPal business account](https://manager.paypal.com/).
 
-1. Configure the [Hosted Checkout Pages][4] using PayPal Manager with the following settings:
+1. Configure the [Hosted Checkout Pages](https://developer.paypal.com/docs/payflow/integration-guide/configure-hosted-checkout/#configuring-hosted-pages-using-paypal-manager) using PayPal Manager with the following settings:
 
    - Under **[!UICONTROL Security Options]**, complete the following settings:
 
@@ -122,7 +123,7 @@ This setup method assumes you have an existing PayPal account.
 
 1. To run test transactions, set **[!UICONTROL Test Mode]** to `Yes`.
 
-   When testing the configuration in a sandbox, use only [credit card numbers][3] that are recommended by PayPal. When you are ready to go to production, return to the configuration and set Test Mode to `No`.
+   When testing the configuration in a sandbox, use only [credit card numbers](https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm) that are recommended by PayPal. When you are ready to go to production, return to the configuration and set Test Mode to `No`.
 
 1. If your system uses a proxy server to establish the connection to the PayPal system, set **[!UICONTROL Test Mode]** to `Yes` and do the following:
 
@@ -441,8 +442,3 @@ Use the _[!UICONTROL Frontend Experience Settings]_ to choose which PayPal logos
 1. To allow the customer to complete the transaction from the PayPal site without returning to your store for Order Review, set **[!UICONTROL Skip Order Review Step]** to `Yes`.
 
 1. When complete, click **[!UICONTROL Save Config]**.
-
-[1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
-[2]: https://manager.paypal.com/
-[3]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
-[4]: https://developer.paypal.com/docs/payflow/integration-guide/configure-hosted-checkout/#configuring-hosted-pages-using-paypal-manager

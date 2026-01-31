@@ -89,10 +89,11 @@ You can transfer items to the cart from a customer's wish list, or any recently 
    - [!UICONTROL Payment Method]
    - [!UICONTROL Shipping Method]
    - [!UICONTROL Order Comments]
+   - [!UICONTROL [Custom Order Attributes]](../stores-purchase/order-processing.md#custom-order-attributes)
 
 >[!NOTE]
 >
->See the [Payment Services Guide](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/guide-overview) for more information about payment methods to support this functionality when the Payment Services extension is installed and configured.
+>See the [Payment Services Guide](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) for more information about payment methods to support this functionality when the Payment Services extension is installed and configured.
 
 ## Step 3: Submit the order
 

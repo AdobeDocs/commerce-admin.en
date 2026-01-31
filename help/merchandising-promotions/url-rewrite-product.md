@@ -3,6 +3,7 @@ title: Product URL rewrites
 description: Learn how to use product URL rewrites to redirect links to the URL of another product in your Commerce store.
 exl-id: 42b28ff7-e148-44f2-b6b4-63a38458e752
 feature: Products, Configuration
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Product URL rewrites
 

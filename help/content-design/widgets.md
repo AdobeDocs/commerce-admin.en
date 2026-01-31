@@ -2,6 +2,7 @@
 title: Widgets
 description: Learn about widgets, which provide a snippet of code that makes it possible to display a wide range of content and place it at specific block references in your store.
 exl-id: 993ba2ca-a8de-4f7e-8cab-7ba7d16eebe7
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Widgets
 
@@ -32,7 +33,9 @@ When you [create a widget](widget-create.md), you must set the type. This type d
 |[!UICONTROL Order by SKU]|Order by SKU can be displayed in the store as a convenience for all shoppers, or made available only to specific customer groups. Shoppers can either enter the SKU and quantity information directly into the Order by SKU block, or upload a CSV file from their customer account.|
 |[!UICONTROL Orders and Returns]|Use this option to give guests the ability to check the status of their orders and submit requests to return merchandise. The widget appears only for guests and customers who are not logged in to their accounts.|
 |[!UICONTROL Recently Compared Products]|Displays the  block of recently compared products. You can specify the number of products included, and format them as a list or product grid.|
-|[!UICONTROL Recently Viewed Products]|Use this option to display the block of recently viewed products. You can specify the number of products included and format them as a list or product grid.|
+|[!UICONTROL Recently Viewed Products]|Use this option to display the block of recently viewed products. You can specify the number of products included and format them as a list or product grid. The widget may not display real-time price updates. The shopper must click on a product to see current pricing on its product page.|
 |[!UICONTROL Wish List Search]|Use this option to give a customer the ability to search for publicly available wish lists by the name or email address of the wish list owner. Store customers can find wish lists that belong to other customers, view them and order products from them, or add the products to their own wish lists.|
 
 {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

@@ -59,7 +59,7 @@ If you do not already have a [!DNL Google Analytics] 4 setup for your site, foll
 
 ### Step 1: Set up Google Universal Analytics
 
-Visit the Google website, and sign up for a [Google Universal Analytics][1] account.
+Visit the Google website, and sign up for a [Google Universal Analytics](https://support.google.com/analytics/answer/2817075?hl=en) account.
 
 ### Step 2: Complete the Commerce configuration
 
@@ -91,7 +91,7 @@ The following instructions show how to configure [!DNL Google Tag Manager] with 
 
 1. Sign up for a [Google Tag Manager](google-tag-manager.md) account, and complete the Commerce configuration.
 
-1. Sign up for a new [Google Universal Analytics][1] account.
+1. Sign up for a new [Google Universal Analytics](https://support.google.com/analytics/answer/2817075?hl=en) account.
 
 ### Step 2. Configure Enhanced Ecommerce
 
@@ -207,6 +207,3 @@ The following instructions show how to configure [!DNL Google Tag Manager] with 
 1. When complete, click **[!UICONTROL Preview]** and verify that the tags work correctly.
 
 1. After verifying the settings, click **[!UICONTROL Publish]**.
-
-
-[1]: https://support.google.com/analytics/answer/2817075?hl=en

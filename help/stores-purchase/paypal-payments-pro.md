@@ -3,10 +3,11 @@ title: PayPal Payments Pro
 description: Learn how to set up PayPal Payments Pro as an online payment solution on your store.
 exl-id: 9cc5c3a6-d471-4198-85a2-c4cf9dfd378b
 feature: Payments
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # PayPal Payments Pro
 
-[PayPal Payments Pro][3] brings you all the benefits of a merchant account and payment gateway in one, plus the ability to create your own, fully customized checkout experience. PayPal Express Checkout is automatically enabled with PayPal Payments Pro, so you can tap into more than 110 million active PayPal users.
+[PayPal Payments Pro](https://developer.paypal.com/docs/paypal-payments-pro/) brings you all the benefits of a merchant account and payment gateway in one, plus the ability to create your own, fully customized checkout experience. PayPal Express Checkout is automatically enabled with PayPal Payments Pro, so you can tap into more than 110 million active PayPal users.
 
 ![PayPal Payments Pro displayed in the mini cart](./assets/storefront-mini-cart-payments-pro-racer-tank.png){width="700" zoomable="yes"}
 
@@ -21,7 +22,7 @@ feature: Payments
 
 ## Requirements
 
-- [PayPal Merchant Account][1] (with Direct Payments activated)
+- [PayPal Merchant Account](https://www.paypal.com/webapps/mpp/how-to-sell-online) (with Direct Payments activated)
 
 ## Checkout workflow
 
@@ -169,7 +170,7 @@ Before you set up PayPal Payments Pro in Commerce, you must configure your merch
 
 1. To run test transactions, set **[!UICONTROL Test Mode]** to `Yes`.
 
-   When testing the configuration in a sandbox, use only [credit card numbers][2] that are recommended by PayPal. When you are ready to go to production, return to the configuration and set Test Mode to `No`.
+   When testing the configuration in a sandbox, use only [credit card numbers](https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm) that are recommended by PayPal. When you are ready to go to production, return to the configuration and set Test Mode to `No`.
 
 1. If your system uses a proxy server to establish the connection to the PayPal system, set **[!UICONTROL Use Proxy]** to `Yes` and do the following:
 
@@ -499,7 +500,3 @@ Use the _[!UICONTROL Frontend Experience Settings]_ to choose which PayPal logos
 1. To allow the customer to complete the transaction from the PayPal site without returning to your store for Order Review, set **[!UICONTROL Skip Order Review Step]** to `Yes`.
 
 1. When complete, click **[!UICONTROL Save Config]**.
-
-[1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
-[2]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
-[3]: https://developer.paypal.com/docs/paypal-payments-pro/

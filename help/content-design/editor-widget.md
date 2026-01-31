@@ -2,6 +2,7 @@
 title: Insert a widget in the editor
 description: Add various content elements to a page using the widget tool in the WYSIWYG editor.
 exl-id: bbc5e059-06d8-4dda-89a7-6c9826b73fd3
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Insert a widget in the editor
 
@@ -52,3 +53,5 @@ By default, links inherit their style from the style sheet of the theme.
    If you are working with HTML code, a [markup tag](../systems/markup-tags.md) for the link appears at the top of the page, enclosed in double curly braces. If needed, use _Cut and Paste_ to position the markup tag in the code where you want the link to appear.
 
 1. When your content edits are complete, click **[!UICONTROL Save]**.
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

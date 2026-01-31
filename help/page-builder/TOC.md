@@ -5,6 +5,7 @@ breadcrumb-title: "[!DNL Page Builder]"
 topic: Commerce, Content Management
 feature: Page Builder
 role: User
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 
 # [!DNL Page Builder] User Guide {#page-builder}
@@ -40,5 +41,4 @@ role: User
   - [Products](products.md)
   - [Product Recommendations](recommendations.md)
 - [Templates](templates.md)
-- [Return to Merchant Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
-
+- [Return to Admin User Guides](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

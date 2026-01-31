@@ -3,8 +3,13 @@ title: Braintree
 description: Learn how to set up Braintree as an online payment solution on your store.
 exl-id: 781b385f-926e-4047-b7da-6f7c090d75d8
 feature: Payments
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Braintree
+
+>[!IMPORTANT]
+>
+>If you need help with unexpected charges on your card, visit the [cancel subscription](https://helpx.adobe.com/manage-account/using/cancel-subscription.html) page for assistance.
 
 Braintree offers a fully customizable checkout experience with fraud detection and PayPal integration. It supports [!DNL Apple Pay], [!DNL Google Pay], ACH, Venmo, and local payment methods. Braintree reduces the PCI compliance burden for merchants because the transaction takes place on the Braintree system. The Braintree Payments integration is developed by [GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/).
 
@@ -15,7 +20,7 @@ Braintree offers a fully customizable checkout experience with fraud detection a
 
 ## Step 1: Get your Braintree credentials
 
-Go to [Braintree Payments][1] and sign up for an account.
+Go to [Braintree Payments](https://www.braintreepayments.com/) and sign up for an account.
 
 ## Step 2: Complete the basic settings
 
@@ -27,7 +32,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 
    - In the _[!UICONTROL Merchant Location]_ section, verify that **[!UICONTROL Merchant Country]** is set to the location of your business.
 
-1. Under _[!UICONTROL Recommended Solutions]_, in the _[!UICONTROL Braintree Payments] (by [GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) v4.6.1 - [Release Notes](https://support.gene.co.uk/support/solutions/articles/35000228529)_ section, click **[!UICONTROL Configure]**.
+1. Under _[!UICONTROL Recommended Solutions]_, in the _[!UICONTROL Braintree Payments] (by [GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) v4.7.0 - [Release Notes](https://support.gene.co.uk/support/solutions/articles/35000278668)_ section, click **[!UICONTROL Configure]**.
 
    ![Configure Braintree](./assets/braintree-payments.png){width="600" zoomable="yes"}
 
@@ -35,9 +40,9 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 1. Set the current operating **[!UICONTROL Environment]** for Braintree transactions to `Sandbox` or `Production`
 
-   When testing the configuration in a sandbox, use only [credit card numbers][2] that are recommended by Braintree. When you are ready to go to production with Braintree, set **[!UICONTROL Environment]** to `Production`.
+   When testing the configuration in a sandbox, use only [credit card numbers](https://developers.braintreepayments.com/reference/general/testing/php) that are recommended by Braintree. When you are ready to go to production with Braintree, set **[!UICONTROL Environment]** to `Production`.
 
-      ![Basic Credentials Settings](./assets/braintree-settings1.png){width="600" zoomable="yes"}
+   ![Basic Credentials Settings](../configuration-reference/sales/assets/payment-methods-braintree-basic-config.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Payment Action]** to one of the following:
 
@@ -59,9 +64,9 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 1. Set **[!UICONTROL Enable Card Payments]** to `Yes`.
 
-   ![Basic Settings](./assets/braintree-settings2.png){width="600" zoomable="yes"}
+1. If you want the ability to store customer information securely, so customers don't have to re-enter it each time they make a purchase, set **[!UICONTROL Enable Vault for Card Payments]** to `Yes`.
 
-   If you want the ability to store customer information securely, so customers don't have to re-enter it each time they make a purchase, set **[!UICONTROL Enable Vault for Card Payments]** to `Yes`.
+1. If you want a customer to verify the CVV number for their vaulted card on every purchase, set **[!UICONTROL Enable Vault CVV Re-verification]** to `Yes`.
 
 ## Step 3: Complete the advanced settings
 
@@ -225,7 +230,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 ## Step 11: Complete the PayPal through Braintree settings
 
-   ![PayPal through Braintree Settings](./assets/braintree-paypal.png){width="550" zoomable="yes"}
+   ![PayPal through Braintree Settings 1](../configuration-reference/sales/assets/payment-methods-braintree-paypal-config-1.png){width="550" zoomable="yes"}
 
 1. To include PayPal as a payment option with Braintree, set **[!UICONTROL Enable PayPal through Braintree]** to `Yes`.
 
@@ -269,15 +274,27 @@ Go to [Braintree Payments][1] and sign up for an account.
    - `All Allowed Countries` - Customers from all [countries](../getting-started/store-details.md#country-options) specified in your store configuration can use this payment method.
    - `Specific Countries` - After choosing this option, the _[!UICONTROL Payment from Specific Countries]_ list appears. Hold down the Ctrl key (PC) or the Command key (Mac) and select each country in the list where customers can make purchases from your store.
 
+   ![PayPal through Braintree Settings 2](../configuration-reference/sales/assets/payment-methods-braintree-paypal-config-2.png){width="550" zoomable="yes"}
+
 1. To require customers to provide a billing address, set **[!UICONTROL Require Customer's Billing Address]** to `Yes`.
 
    >[!NOTE]
    >
    >This feature must be enabled for your account by PayPal Technical Support.
 
+1. To skip the order review page for PayPal Express, set **[!UICONTROL Skip Order Review Step]** to `Yes`.
+
+   For customers paying with PayPal Express: If you want customers to be redirected to a review page before completing payment, set this to `No`. If you'd prefer customers to skip the review page, set it to `Yes`. 
+
 1. To save a log file of interactions between your store and PayPal through Braintree, set **[!UICONTROL Debug]** to `Yes`.
 
 1. To display the PayPal button on both the mini cart and shopping cart page, set **[!UICONTROL Display on Shopping Cart]** to `Yes`.
+
+1. To send package tracking information to PayPal, set **[!UICONTROL Send Package Tracking]** to `Yes`.
+
+   Package tracking information will be sent to PayPal for PayPal transactions/orders only. You must enable the [!UICONTROL Send Cart Line Items for PayPal] configuration field in order for the [!UICONTROL Package Tracking] feature to work correctly.
+
+1. To notify a Buyer or Payer by PayPal for the package tracking updates, set **[!UICONTROL Use PayPal's "Notify Payer" functionality]** to `Yes`.
 
 ## Step 12: Set the styling settings
 
@@ -309,13 +326,25 @@ The options and settings in this section vary according to the button type selec
 >
 >The **[!DNL Size(Deprecated)]** configuration field is deprecated and not being used to style the PayPal buttons.
 
-**[!UICONTROL PayLater Messaging]**
+When these options are set, you can see the preview of the PayPal buttons. There are controls that you can use to apply the settings or reset the values:
 
-1. To show [!DNL PayLater] messaging on the storefront at the selected location, set **[!UICONTROL Show PayLater Messaging]** to `Yes`. 
+- To store the selected styling settings for buttons and PayLater messaging and apply them to the current location and current button type, click **[!UICONTROL Apply]**.
 
-   This messaging includes the display of [!DNL PayLater] messaging for available offers ([restrictions apply](https://developer.paypal.com/docs/checkout/pay-later/us/)). 
+- To store the selected styling settings for buttons and PayLater messaging values and apply them to all button types and locations, click **[!UICONTROL Apply to All Buttons]**.
 
-1. For **[!UICONTROL Message Layout]**, select the [!DNL PayLater] message layout: `Text` or `Flex`
+- To return styling settings to the recommended default values for buttons and PayLater messaging and apply them to all button types and locations, click **[!UICONTROL Reset to Recommended Defaults]**.
+
+## Step 13: Pay Later Messaging
+
+**[!UICONTROL Product Page]**
+
+![Pay Later Message - Product Page settings](../configuration-reference/sales/assets/payment-methods-braintree-paylater-messaging-product.png){width="600" zoomable="yes"}
+
+1. To show [!DNL Pay Later] messaging on the storefront at product page, set **[!UICONTROL Show PayLater Messaging]** to `Yes`.
+
+   Displays Pay Later messaging for available offers. Restrictions apply. See [PayPal's documentation](https://developer.paypal.com/studio/checkout/pay-later/us).
+
+1. For **[!UICONTROL Message Layout]**, select the [!DNL Pay Later] message layout: `Text` or `Flex`
 
 1. For **[!UICONTROL Logo]**, select the PayPal logo type: `Inline`, `Primary`, `Alternative`, or `None`
 
@@ -323,15 +352,35 @@ The options and settings in this section vary according to the button type selec
 
 1. For **[!UICONTROL Text Color]**, select the [!DNL PayLater] message text color: `Black`, `White`, `Monochrome`, or `Grayscale`
 
-When these options are set, you can see the preview of the PayPal buttons and PayLater messages. There are controls that you can use to apply the settings or reset the values:
+**[!UICONTROL Cart]**
 
-- To store the selected styling settings for buttons and PayLater messaging and apply them to the current location and current button type, click **[!UICONTROL Apply]**.
+![Pay Later Message - Cart Page settings](../configuration-reference/sales/assets/payment-methods-braintree-paylater-messaging-cart.png){width="600" zoomable="yes"}
 
-- to store the selected styling settings for buttons and PayLater messaging values and apply them to all button types and locations, click **[!UICONTROL Apply to All Buttons]**.
+1. To show [!DNL Pay Later] messaging on the storefront at mini-cart or cart Page, set **[!UICONTROL Show PayLater Messaging]** to `Yes`.
 
-- To return styling settings to the recommended default values for buttons and PayLater messaging and apply them to all button types and locations, click **[!UICONTROL Reset to Recommended Defaults]**.
+   Displays Pay Later messaging for available offers. Restrictions apply. See [PayPal's documentation](https://developer.paypal.com/studio/checkout/pay-later/us).
 
-## Step 13: Complete the 3D verification settings
+1. For **[!UICONTROL Message Layout]**, select the [!DNL Pay Later] message layout: `Text` or `Flex`
+
+1. For **[!UICONTROL Logo]**, select the PayPal logo type: `Inline`, `Primary`, `Alternative`, or `None`
+
+1. For **[!UICONTROL Logo Position]**, select the PayPal logo position: `Left`, `Right`, or `Top`
+
+1. For **[!UICONTROL Text Color]**, select the [!DNL PayLater] message text color: `Black`, `White`, `Monochrome`, or `Grayscale`
+
+**[!UICONTROL Checkout]**
+
+![Pay Later Message - Checkout Page settings](../configuration-reference/sales/assets/payment-methods-braintree-paylater-messaging-checkout.png){width="600" zoomable="yes"}
+
+1. To show [!DNL Pay Later] messaging on the storefront at checkout, set **[!UICONTROL Show PayLater Messaging]** to `Yes`.
+
+   Displays Pay Later messaging for available offers. Restrictions apply. See [PayPal's documentation](https://developer.paypal.com/studio/checkout/pay-later/us).
+
+1. For **[!UICONTROL Text Align]**, select the text align for [!DNL Pay Later] message: `Text` or `Center` or `Right`
+
+1. For **[!UICONTROL Text Color]**, select the [!DNL Pay Later] message text color: `Black`, `White`
+
+## Step 14: Complete the 3D verification settings
 
 1. If you want to add a verification step for customers using credit cards that are enrolled in a verification program (such as _Verified by VISA_), set **[!UICONTROL 3D Secure Verification]** to `Yes`.
 
@@ -348,7 +397,7 @@ When these options are set, you can see the preview of the PayPal buttons and Pa
 
    ![3D verification settings](../configuration-reference/sales/assets/payment-methods-braintree-3d-secure-verify-config.png){width="600" zoomable="yes"}
 
-## Step 14: Set up the Braintree dynamic descriptors
+## Step 15: Set up the Braintree dynamic descriptors
 
 The following descriptors are used to identify purchases on customer credit card statements. You can reduce the number of charge-backs by clearly identifying the company that is associated with each purchase. If dynamic descriptors are not enabled for your account, contact Braintree support.
 
@@ -387,6 +436,3 @@ The following descriptors are used to identify purchases on customer credit card
 ## 2.4 upgrade notes 
 
 Beginning with Adobe Commerce and Magento Open Source 2.4.0, the Braintree extension is included in the release. If you are migrating to Commerce 2.4.x from a pre-2.4.0 version that has the Marketplace Braintree extension installed, you must uninstall that extension (`paypal/module-braintree` or `gene/module-braintree`) and update any code customizations to use the `PayPal_Braintree` namespace instead of `Magento_Braintree`. Configuration settings from the core Commerce Braintree Payments bundled extension and the extension distributed on Commerce Marketplace persist and payments placed with those previous versions can still be captured, voided, or refunded as normal.
-
-[1]: https://www.braintreepayments.com/
-[2]: https://developers.braintreepayments.com/reference/general/testing/php

@@ -3,6 +3,7 @@ title: Index management
 description: Learn about index management, including the actions that trigger reindexing and best practices.
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Index management
 
@@ -13,7 +14,7 @@ Reindexing data speeds up processing, and reduces the time the customer has to w
 The indexers can be set to either update on save or on schedule. All indexes can use either option, except Customer Grid which only supports on save. When indexing on save, Commerce starts a reindex on save actions. The Index Management page completes the update and flushes the cache, with the reindex message appearing within a minute or two. When reindexing on a schedule, a reindex runs according to a schedule as a cron job. A system message appears if a [cron job](cron.md) is not available to update any indexers that become invalid. Your store remains accessible during reindex processes.
 
 >[!NOTE]
-> Adobe Commerce merchants using Live Search, Catalog Service, or Product Recommendations have the option to use a [SaaS-based price indexer](https://experienceleague.adobe.com/docs/commerce-merchant-services/price-indexer/index.html).
+> Adobe Commerce merchants using Live Search, Catalog Service, or Product Recommendations have the option to use a [SaaS-based price indexer](https://experienceleague.adobe.com/en/docs/commerce/price-indexer/price-indexing).
 
 When a reindex is needed, a notification appears at the top of the page. The index and message clears based on the reindex mode and potential actions that you take. For more detailed information about indexing , see the [How the application implements indexing](https://developer.adobe.com/commerce/php/development/components/indexing/#how-the-application-implements-indexing) in the _PHP Developer Guide_.
 
@@ -49,9 +50,12 @@ Reindexing and caching have different purposes in Commerce. Indexes track databa
    - `Update by Schedule`
    - `Invalidate index`
 
-   >[!IMPORTANT]
-   >
-   >Customer Grid can only be reindexed using `Update on Save`. This index does **_not_** support `Update by Schedule`.
+     >[!IMPORTANT]
+     >
+     >The [!DNL Customer Grid] indexer behavior changed in 2.4.8:
+     >
+     >- **Prior to 2.4.8**: The [!DNL Customer Grid] indexer can only be reindexed using the [!UICONTROL Update on Save] option and does not support the [!UICONTROL Update by Schedule] option.
+     >- **2.4.8 and later**: The [!DNL Customer Grid] indexer supports both [!UICONTROL Update on Save] and [!UICONTROL Update by Schedule] modes, and defaults to [!UICONTROL Update by Schedule].
 
 1. Click **[!UICONTROL Submit]** to apply the change to each selected indexer.
 

@@ -20,7 +20,7 @@ The [!DNL Commerce] Support team does not have access to the account and cannot 
 
 1. Before you begin, get the following information from the [!DNL Commerce] account of the **new shared access grantee**:
 
-   - The user must have already registered for an account at account.adobe.com and be logged in through account.magento.com.
+   - The user must have already registered for an account at account.adobe.com and be logged in through account.magento.com. See [Create a Commerce account](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account) for more details.
    - The `MAGE ID/Account ID (MAG00XXXXXXX)` is displayed in the upper-left corner of the _[!UICONTROL Magento]_ tab, just above the **Log Out** link.
    - The `Email` address that is associated with the account.
 
@@ -89,7 +89,7 @@ The following instructions are written from the perspective of a shared user who
 
    >[!NOTE]
    >
-   >After receiving shared access, the user must log in to their [[!DNL Commerce] account](https://account.magento.com/customer/account/login), navigate to _Shared Access_, and click the **[!UICONTROL Support]** tab. This action is required the first time only to ensure that the [Adobe Commerce Support Knowledge Base](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) is configured properly through the `SSO` call.
+   >After receiving shared access, to [submit a Support case](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) on Experience League, make sure that you first select the Organization name that ends in "([!DNL Commerce])" in the left column.
 
 1. To return to your own account, click **Back** in your browser controls and set **[!UICONTROL Switch Accounts]** to `My Account`.
 
@@ -103,15 +103,21 @@ The following instructions are written from the perspective of a shared user who
 
    >[!NOTE]
    >
-   > If  **[!UICONTROL Delete]** is not displayed, check whether the **[!UICONTROL Share Name]** begins with `Cloud Shared Access from MAG XYZ`. You cannot delete accounts with that [naming pattern](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users).
+   > If  **[!UICONTROL Delete]** is not displayed, check whether the **[!UICONTROL Share Name]** contains the naming pattern  `Cloud Shared Access from MAG0XYZ`. If the account has that [naming pattern and cannot be deleted](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users), this is because the Shared Access was created by an API, and not directly from the [Commerce account](https://account.magento.com/).
    > 
-   > If so, ask the account owner to modify the Shared Access account to clear the account permissions. After that update, the user cannot access any account resources.
+   > If it cannot be deleted, simply have the Account Owner modify the Shared Access account and under Grant Account Permissions, uncheck every item. After that update, the user will no longer be able to access any account resources.
+   > ![image](https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
    >
-   > In addition, make sure that the users are removed from the project so that they no longer receive email notifications: [Former team members receive Adobe Commerce cloud notification emails](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
+   > In addition, make sure that the users are removed from the project so that they will no longer receive email notifications: [Former team members receive Adobe Commerce cloud notification emails](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
 
 
 1. When prompted to confirm, click **[!UICONTROL Delete User]**.
 
  >[!NOTE]
  >
- >You cannot delete users with the Share Name of _Cloud Shared Access from MAG[XYZ]_ in this interface. See [How to delete users who were granted shared access via a Cloud project?](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting).
+ >You cannot delete users with the Share Name of _Cloud Shared Access from MAG[XYZ]_ in this interface. See [How to delete users who were granted shared access via a Cloud project?](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users).
+
+## Related Reading
+
+[Shared Access troubleshooting](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
+

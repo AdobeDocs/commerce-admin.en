@@ -42,7 +42,9 @@ feature: System
     - [Import downloadable products](data-transfer-downloadable-products.md)
     - [Import tier price data](data-import-price-tier.md)
   - [Scheduled import and export](data-scheduled-import-export.md)
-  - [Data Management Dashboard](data-dashboard.md)
+  - Data synchronization for Commerce services {#data-sync}
+    - [Data Management Dashboard](data-dashboard.md)
+    - [Data Feed Sync Status](data-feed-sync-status.md)
 - Action logs {#action-logs}
   - [Overview](action-log.md)
   - [Action logs report](action-log-report.md)
@@ -63,14 +65,13 @@ feature: System
   - [Configure Admin security](security-admin.md)
   - CAPTCHA {#captcha}
     - [Standard CAPTCHA](security-captcha.md)
-    - [Google reCAPTCHA](security-google-recaptcha.md)
-  - Two-Factor Authentication (2FA) {#2fa}
+    - [Google reCAPTCHA V3 and V2](security-google-recaptcha.md)
+    - [Google reCAPTCHA Enterprise](security-google-recaptcha-enterprise.md)
+  - Two-Factor Authentication (2FA) {#tfa}
     - [Overview](security-two-factor-authentication.md)
     - [User account setup for 2FA](security-two-factor-authentication-use.md)
     - [Manage 2FA](security-two-factor-authentication-manage.md)
   - [Session management](security-session-management.md)
   - [Browser capabilities detection](security-browser-capabilities-detection.md)
   - [Security issue reporting](security-issue-reporting.md)
-- [Return to Merchant Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
-
-
+- [Return to Admin User Guides](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

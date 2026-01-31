@@ -3,6 +3,7 @@ title: PayPal Express Checkout
 description: Learn how to set up PayPal Express Checkout as an online payment solution on your store.
 exl-id: 0cd90306-cf47-4a5f-8994-6ae96904ae2f
 feature: Payments
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # PayPal Express Checkout
 
@@ -21,8 +22,8 @@ Customers with current PayPal accounts can make a purchase in a single step by c
 
 ## Requirements
 
-- Merchant: [Business PayPal account][1]
-- Customer: [Personal PayPal account][2]
+- Merchant: [Business PayPal account](https://www.paypal.com/webapps/mpp/how-to-sell-online)
+- Customer: [Personal PayPal account](https://www.paypal.com/webapps/mpp/buying-online)
 
 ## Express checkout workflow
 
@@ -41,11 +42,11 @@ Unlike other payment methods, PayPal Express Checkout allows the customer to che
 
 ## In-context checkout
 
-PayPal's _In-Context Checkout_ makes it easier than ever to pay online. Customers never lose sight of your store during this simplified one- or two-click seamless checkout. In-context checkout works equally well on Macs and PCs, and offers a consistent experience on desktop computers, tablets, and mobile devices. To learn more, see [In-Context Checkout in Express Checkout][5].
+PayPal's _In-Context Checkout_ makes it easier than ever to pay online. Customers never lose sight of your store during this simplified one- or two-click seamless checkout. In-context checkout works equally well on Macs and PCs, and offers a consistent experience on desktop computers, tablets, and mobile devices. To learn more, see [In-Context Checkout in Express Checkout](https://www.paypal.com/rs/webapps/mpp/express-checkout).
 
 ![PayPal in-context checkout demo](./assets/storefront-paypal-in-context.png){width="700" zoomable="yes"}
 
-[_PayPal in-context checkout demo_][6]
+[_PayPal in-context checkout demo_](https://demo.paypal.com/us/demo/navigation?merchant=bigbox&amp;page=incontextProductCheckout)
 
 When you configure your store for [!DNL PayPal Express Checkout], you can enable this option.
 
@@ -53,7 +54,7 @@ When you configure your store for [!DNL PayPal Express Checkout], you can enable
 
 Before you set up PayPal Express Checkout in the Commerce Admin, you must configure your merchant account on the PayPal website.
 
-1. Log in to your PayPal Advanced account at [manager.paypal.com][3].
+1. Log in to your PayPal Advanced account at [manager.paypal.com](https://manager.paypal.com/).
 
 1. Go to **[!UICONTROL Service Settings]** > **[!UICONTROL Hosted Checkout Pages]** > **[!UICONTROL Set Up]** and make the following settings:
 
@@ -65,7 +66,7 @@ Before you set up PayPal Express Checkout in the Commerce Admin, you must config
 
 1. Set up another user (recommended by PayPal):
 
-   - Go to [manager.paypal.com][3] and log in to your account.
+   - Go to [manager.paypal.com](https://manager.paypal.com/) and log in to your account.
 
    - To set up another user, follow the instructions.
 
@@ -105,7 +106,7 @@ You can have two PayPal solutions active at the same time: PayPal Express Checko
 
 1. Connect your account for test or production:
 
-   - For testing (development) mode, click **[!UICONTROL Sandbox Credentials]** and enter your [PayPal sandbox][7] credentials.
+   - For testing (development) mode, click **[!UICONTROL Sandbox Credentials]** and enter your [PayPal sandbox](https://developer.paypal.com/docs/api-basics/sandbox/) credentials.
    - For production mode, click **[!UICONTROL Connect with PayPal]** and enter you production account credentials.
 
    When your connection is validated, you can proceed.
@@ -151,7 +152,7 @@ You can have two PayPal solutions active at the same time: PayPal Express Checko
 
 1. If you are using credentials from your sandbox account, set **[!UICONTROL Sandbox Mode]** to `Yes`.
 
-   When testing the configuration in a sandbox, use only [credit card numbers][4] that are recommended by PayPal. When you are ready to go to production, return to the configuration and set Sandbox Mode to `No` and connect to your production PayPal account.
+   When testing the configuration in a sandbox, use only [credit card numbers](https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm) that are recommended by PayPal. When you are ready to go to production, return to the configuration and set Sandbox Mode to `No` and connect to your production PayPal account.
 
 1. If your system uses a proxy server to establish the connection between Commerce and the PayPal payment system, set **[!UICONTROL API Uses Proxy]** to `Yes` and complete the following:
 
@@ -567,11 +568,3 @@ Features settings allow you to disable certain features related to this PayPal s
    - Venmo
    - PayPal Guest Checkout Credit Card Icons
    - Elektronisches Lastschriftverfahren - German ELV
-
-[1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
-[2]: https://www.paypal.com/webapps/mpp/buying-online
-[3]: https://manager.paypal.com/
-[4]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
-[5]: https://www.paypal.com/rs/webapps/mpp/express-checkout
-[6]: https://demo.paypal.com/us/demo/navigation?merchant=bigbox&amp;page=incontextProductCheckout
-[7]: https://developer.paypal.com/docs/api-basics/sandbox/

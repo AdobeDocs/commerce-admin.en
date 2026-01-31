@@ -3,6 +3,7 @@ title: PayPal Payflow Pro
 description: Learn how to set up PayPal Payflow Pro as an online payment solution on your store.
 exl-id: c720b33c-44e1-4954-b5be-38932393a43c
 feature: Payments
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # PayPal Payflow Pro
 
@@ -17,7 +18,7 @@ PayPal Payflow Pro gateway, formerly known as _Verisign_, is available for custo
 
 ## Requirements
 
-- [PayPal Business Account][1] - The PayPal Payflow Pro gateway links the merchant account at PayPal with the merchant website, acting as both a gateway and a merchant account.
+- [PayPal Business Account](https://www.paypal.com/webapps/mpp/how-to-sell-online) - The PayPal Payflow Pro gateway links the merchant account at PayPal with the merchant website, acting as both a gateway and a merchant account.
 
 - If you manage multiple Adobe Commerce and Magento Open Source websites, you must have a separate PayPal merchant account for each website.
 
@@ -30,7 +31,7 @@ PayPal Payflow Pro gateway, formerly known as _Verisign_, is available for custo
 ## Online order processing workflow
 
 1. **Administrator submits online invoice** - The store administrator submits an online invoice and, as a result, a corresponding transaction and invoice is created.
-1. **PayPal receives the transaction** - The order information is sent to PayPal. A record of the transaction and an invoice is generated. You can view all Payflow Pro Gateway transactions in your [PayPal merchant account][2].
+1. **PayPal receives the transaction** - The order information is sent to PayPal. A record of the transaction and an invoice is generated. You can view all Payflow Pro Gateway transactions in your [PayPal merchant account](https://manager.paypal.com/).
 
 >[!NOTE]
 >
@@ -38,9 +39,9 @@ PayPal Payflow Pro gateway, formerly known as _Verisign_, is available for custo
 
 ## Configure your PayPal account
 
-1. Log in to your [PayPal business account][2].
+1. Log in to your [PayPal business account](https://manager.paypal.com/).
 
-1. Configure the [Hosted Checkout Pages][4] using PayPal Manager with the following settings:
+1. Configure the [Hosted Checkout Pages](https://developer.paypal.com/docs/payflow/integration-guide/configure-hosted-checkout/#configuring-hosted-pages-using-paypal-manager) using PayPal Manager with the following settings:
 
    - Under **[!UICONTROL Choose your settings]**, set **[!UICONTROL Transaction Process Mode]** to `Live`.
 
@@ -137,7 +138,7 @@ This setup method assumes you have an existing PayPal account.
 
 1. To run test transactions, set **[!UICONTROL Test Mode]** to `Yes`.
 
-   When testing the configuration in a sandbox, use only [credit card numbers][3] that are recommended by PayPal. When you are ready to go to production, return to the configuration and set Test Mode to `No`.
+   When testing the configuration in a sandbox, use only [credit card numbers](https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm) that are recommended by PayPal. When you are ready to go to production, return to the configuration and set Test Mode to `No`.
 
 1. If your system uses a proxy server to establish the connection to the PayPal system, set **[!UICONTROL Use Proxy]** to `Yes` and do the following:
 
@@ -474,8 +475,3 @@ Use the Frontend Experience Settings to choose which PayPal logos appear on your
 ### Step 8: Add Google reCAPTCHA
 
 To better protect PayPal Payflow Pro checkout, enable Google reCAPTCHA. It includes options to run reCAPTCHA using a clickable interface or an invisible check to validate the customer. The invisible option is recommended to increase sales conversion and protect your store. For details, see [Google reCAPTCHA](../systems/security-google-recaptcha.md).
-
-[1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
-[2]: https://manager.paypal.com/
-[3]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
-[4]: https://developer.paypal.com/docs/payflow/integration-guide/configure-hosted-checkout/#configuring-hosted-pages-using-paypal-manager

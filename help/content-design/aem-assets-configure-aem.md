@@ -1,40 +1,34 @@
 ---
-title: Configure Experience Manager Assets
+title: Install AEM Assets Package for Commerce
 description: Add the asset metadata required to enable the AEM Assets Integration for Commerce to synchronize assets between Adobe Commerce and Experience Manager Assets projects.
 feature: CMS, Media, Integration
 exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
-# Configure Experience Manager Assets
+# Install the AEM Assets package
 
-{{$include /help/_includes/aem-assets-integration-beta-note.md}}
+Adobe provides a project template, `commerce-assets`, to add Commerce namespace and metadata schema resources to the Experience Manager Assets as a Cloud Service environment configuration. Deploy this template to your environment as a Maven package. Then, configure the Commerce metadata in the AEM Assets authoring environment to complete the setup.
 
-Prepare the AEM as a Cloud Service environment to manage Commerce assets by updating the environment configuration and configuring the Assets metadata to identify and manage Commerce assets.
-
-The integration requires adding a custom `Commerce` namespace and additional [profile metadata](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles) and [schema metadata](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-schemas).
-
-Adobe provides an AEM project template to add the namespace and metadata schema resources to the AEM Assets as a Cloud Service environment configuration. The template adds:
+The template adds the following resources to the AEM Assets authoring environment.
 
 - A [custom namespace](https://github.com/ankumalh/assets-commerce/blob/main/ui.config/jcr_root/apps/commerce/config/org.apache.sling.jcr.repoinit.RepositoryInitializer~commerce-namespaces.cfg.json), `Commerce` to identify Commerce-related properties.
 
-- A custom metadata type `commerce:isCommerce` with the label `Does it exist in Commerce?` to tag Commerce assets associated with an Adobe Commerce project.
+- A custom metadata type `commerce:isCommerce` with the label `Eligible for Commerce` to tag Commerce assets associated with an Adobe Commerce project.
 
 - A custom metadata type `commerce:productmetadata` and a corresponding UI component to add a *[!UICONTROL Product Data]* property. Product Data includes the metadata properties to associate a Commerce asset with product SKUs, and to specify image `role` and `position` attributes for the asset.
 
   ![Custom Product Data UI Control](./assets/aem-commerce-sku-metadata-fields-from-template.png){width="600" zoomable="yes"}
 
-- A metadata schema form with a Commerce tab that includes the `Does it exist in Adobe Commerce?` and `Product Data` fields for tagging Commerce assets. The form also provides options to show or hide the `roles` and `order` (position) fields from the AEM Assets UI.
+- A metadata schema form with a Commerce tab that includes the `Eligible for Commerce?` and `Product Data` fields for tagging Commerce assets. The form also provides options to show or hide the `roles` and `order` (position) fields from the AEM Assets UI.
 
    ![Commerce tab for AEM Assets metadata schema form](./assets/assets-configure-metadata-schema-form-editor.png){width="600" zoomable="yes"}
 
 - A [sample tagged and approved Commerce asset](https://github.com/ankumalh/assets-commerce/blob/main/ui.content/src/main/content/jcr_root/content/dam/wknd/en/activities/hiking/equipment_6.jpg/.content.xml) `equipment_6.jpg` to support initial asset synchronization. Only approved Commerce assets can be synchronized from AEM Assets to Adobe Commerce.
 
-For additional information about the Commerce-Assets AEM project, see the [Readme](https://github.com/ankumalh/assets-commerce).
+>[!NOTE]
+>For additional information about the `commerce-assets` AEM project template, see the [Readme](https://github.com/ankumalh/assets-commerce).
 
-## Customize the AEM Assets environment configuration
-
->[!BEGINSHADEBOX]
-
-**Prerequisites**
+You need the following resources and permissions to use this AEM project to update the environment configuration:
 
 - [Access to the AEM Assets Cloud Manager Program and environments](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/journey/cloud-manager#access-sysadmin-bo) with the Program and Deployment Manager roles.
 
@@ -42,9 +36,7 @@ For additional information about the Commerce-Assets AEM project, see the [Readm
 
 - Understand [AEM project structure](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) and how to deploy custom content packages using Cloud Manager.
 
->[!ENDSHADEBOX]
-
-### Deploy the Commerce-Assets AEM project to the AEM Assets authoring environment
+## Install the `commerce-assets` package
 
 1. From the Cloud Manager, create production and staging environments for your AEM Assets project, if needed.
 
@@ -52,17 +44,28 @@ For additional information about the Commerce-Assets AEM project, see the [Readm
 
 1. From GitHub, download the boilerplate code from the [Commerce-Assets AEM project](https://github.com/ankumalh/assets-commerce).
 
-1. From your [local AEM development environnment](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview), install the custom code into your AEM Assets environment configuration as a Maven package, or by manually copying the code into the existing project configuration.
+1. From your [local AEM development environment](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview), install the custom code into your AEM Assets environment configuration as a Maven package, or by manually copying the code into the existing project configuration.
 
-1. Commit the changes and push your local development branch to the Cloud Manager git repository.
+1. Commit the changes and push your local development branch to the Cloud Manager Git repository.
 
 1. From Cloud Manager, [deploy your code to update the AEM environment](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deploying-code-with-cloud-manager).
 
 ## Configure a metadata profile
 
-Set default values for Commerce asset metadata by creating a metadata profile. Once set up, apply this profile to AEM Asset folders to automatically use these defaults. This optional setup helps streamline asset processing by reducing manual steps.
+In the AEM Assets author environment, set default values for Commerce asset metadata by creating a metadata profile. Then, apply the new profile to AEM Asset folders to automatically use these defaults. This configuration streamlines asset processing by reducing manual steps.
 
-1. From the Adobe Experience Manager workspace, go to the Author Content administration workspace for AEM Assets by clicking the Adobe Experience Manager icon.
+When you configure the metadata profile, you only have to configure the following components:
+
+- Add a Commerce tab. This tab enables Commerce-specific configuration settings added by the template
+- Add the `Eligible for Commerce` field to the Commerce tab.
+
+The Product Data UI component is added automatically based on the template.
+
+### Set up the metadata profile
+
+1. Log in to the Adobe Experience Manager author environment.
+
+1. From the Adobe Experience Manager workspace, go to the Author Content Administration workspace for AEM Assets by clicking the Adobe Experience Manager icon.
 
    ![AEM Assets authoring](./assets/aem-assets-authoring.png){width="600" zoomable="yes"}
 
@@ -78,21 +81,39 @@ Set default values for Commerce asset metadata by creating a metadata profile. O
 
 1. Add a tab for Commerce metadata.
 
-   1. On the left, click  **[!UICONTROL Settings]**.
+   1. On the left, click **[!UICONTROL Settings]**.
 
    1. Click  **[!UICONTROL +]** in the tab section, and then specify the **[!UICONTROL Tab Name]**, `Commerce`.
 
-1. Add the `Does it exist in Commerce?` field to the form, and set the default value to `yes`.
+1. Add the `Eligible for Commerce` field to the form.
 
    ![AEM Author Admin add metadata fields to profile](./assets/aem-edit-metadata-profile-fields.png){width="600" zoomable="yes"}
 
+   - Click **[!UICONTROL Build form]**.
+
+   - Drag the `Single Line text` field to the form.
+
+   - Add the `Eligible for Commerce` text for the label by clicking **[!UICONTROL Field Label]**.
+
+   - On the Settings tab, add the label text to **Field Label**.
+
+   - Set the placeholder text to `yes`.
+
+   - In the **[!UICONTROL Map to Property]** field, copy and paste the following value
+
+     ```terminal
+     ./jcr:content/metadata/commerce:isCommerce
+     ```
+
+1. Optional. To automatically synchronize approved Commerce assets as they are uploaded to the AEM Assets environment, set the default value for the _[!UICONTROL Review Status]_ field on the `Basic` tab to `approved`.
+
 1. Save the update.
 
-1. Apply the `Commerce integration` metadata profile to the folder where Commerce assets are stored.
+#### Apply the metadata profile to Commerce assets source folder
 
    1. From the[!UICONTROL  Metadata Profiles] page, select the Commerce integration profile.
 
-   1. From the action menu, select **[!UICONTROL Apply Metadata Profiles to Folder(s)]**.
+   1. From the action menu, select **[!UICONTROL Apply Metadata Profiles to Folders]**.
 
    1. Select the folder containing Commerce assets.
 
@@ -100,14 +121,6 @@ Set default values for Commerce asset metadata by creating a metadata profile. O
 
    1. Click **[!UICONTROL Apply]**.
 
->[!TIP]
->
->You can automatically synchronize Commerce assets as they are uploaded to the AEM Assets environment by updating the metadata profile to set the default value for the _[!UICONTROL Review Status]_ field to `Approved`. The property type for the `Review Status` field is `./jcr:content/metadata/dam:status`.
+## Next step
 
-
-## Next steps
-
-After updating the AEM environment, set up Adobe Commerce:
-
-1. [Install and configure the AEM Assets Integration for Commerce](aem-assets-configure-commerce.md)
-2. [Enable asset synchronization to transfer assets between your Adobe Commerce project environment and the AEM Assets project environment](aem-assets-setup-synchronization.md)
+[Install Adobe Commerce packages](aem-assets-configure-commerce.md)
