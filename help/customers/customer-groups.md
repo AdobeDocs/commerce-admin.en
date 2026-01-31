@@ -63,7 +63,7 @@ Customer groups determine which discounts are available and the tax class that i
 >[!NOTE]
 >
 >After changing the company group, a company user must log out and log in on the Storefront to see new prices in the catalog.
->When customer already assigned to a company, Admin user cannot update it's Customer Group.
+>After a customer is assigned to a company, the Customer Group becomes read‑only and cannot be updated by an Admin user.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
