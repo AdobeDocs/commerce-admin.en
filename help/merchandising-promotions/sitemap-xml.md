@@ -221,30 +221,3 @@ Your site map should be updated as frequently as the content on your site change
 1. If using a `robots.txt` file to provide instructions to search engines that crawl your site, set **[!UICONTROL Enable Submission to Robots.txt]** to `Yes`.
 
 1. When complete, click **[!UICONTROL Save Config]**.
-
-## Enable batch sitemap generation for large catalogs
-
-For stores with large catalogs, use the following alternative cron job to enable batch sitemap generation. This approach processes data in smaller increments, significantly reducing the risk of PHP memory exhaustion and ensuring that sitemap generation completes successfully, even for sites with extensive product data.
- 
-In `app/code/Magento/Sitemap/etc/config.xml`, replace:
-
-```xml
-<jobs>
-  <sitemap_generate>
-    <schedule>
-      <cron_expr>0 0 * * *</cron_expr>
-    </schedule>
-  </sitemap_generate>
-</jobs>
-```
-
-with:
-
-```xml
-<jobs>
-  <sitemap_generate_batch>
-    <schedule>
-      <cron_expr>0 0 * * *</cron_expr>
-    </schedule>
-  </sitemap_generate_batch>></jobs>
-```
