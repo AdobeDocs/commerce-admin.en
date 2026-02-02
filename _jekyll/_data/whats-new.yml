@@ -2,8 +2,20 @@
 title: What's new
 description: This section contains the changes made in the last 60 days. We exclude
   all minor updates, such as copy editing, from this list.
-updated: Fri Jan 23 15:27:09 2026
+updated: Mon Feb 2 10:02:12 2026
 entries:
+- description: Updated the [Customer Groups](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-groups)
+    in the Customer Management Guide to clarify that Admin users cannot edit a customer’s
+    Customer Group after the customer has been assigned to a company.
+  versions: ''
+  type: technical
+  date: January 31, 2026
+  link: https://github.com/AdobeDocs/commerce-admin.en/pull/81
+  merge_commit: ac72d6ecc6a6e920d08b7426efa4a39d0f692766
+  contributor: apoltoratskyi
+  membership:
+  labels:
+  - technical
 - description: Changed product references from "Adobe Sensei" to "Adobe AI" to reflect
     Adobe branding updates.
   versions: ''

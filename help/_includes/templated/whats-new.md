@@ -4,6 +4,28 @@
 
 This section contains the changes made in the last 60 days. We exclude all minor updates, such as copy editing, from this list.
 
+### January 31, 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Updated the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-groups">Customer Groups</a> in the Customer Management Guide to clarify that Admin users cannot edit a customer’s Customer Group after the customer has been assigned to a company.</p>
+</td>
+      <td>
+        Technical
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/pull/81">pull request</a></td>
+    </tr>
+  </tbody>
+</table>
+
 ### January 20, 2026
 
 <table style="table-layout:auto;">
