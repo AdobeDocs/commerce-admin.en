@@ -3,13 +3,14 @@ title: Product reports
 description: The product reports available in Adobe Commerce and Magento Open Source give you insight regarding products viewed and ordered, bestsellers, stock levels, and downloads.
 exl-id: 7b2430dd-050a-407d-b922-39df5b3c52d1
 feature: Products, Reporting
-badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Product reports
 
 The product reports give you insight regarding products viewed and ordered, bestsellers, stock levels, and downloads.
 
 ## [!UICONTROL Product Views Report]
+
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
 
 The [!UICONTROL Product Views Report] shows the products that have been viewed during a time interval or range of dates. The report includes the product name, price, and number of views.
 
@@ -42,6 +43,8 @@ On the _Admin_ sidebar, go to **[!UICONTROL Reports]** > _[!UICONTROL Products]_
 ![Ordered Products Report](./assets/products-ordered.png){width="600"}
 
 ## [!UICONTROL Downloads Report]
+
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
 
 The [!UICONTROL Downloads Report] lists all downloads during the specified time interval or date range. The report includes the product name, download link, and SKU, with the number of purchases and downloads.
 
