@@ -145,7 +145,7 @@ The invoices are saved in a single PDF file that can be sent to a printer or sav
 
 ## Custom capture amounts
 
->[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service projects only (Adobe-managed SaaS infrastructure)."}
+[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service projects only (Adobe-managed SaaS infrastructure)."}
 
 To provide merchants with greater flexibility for partial captures and specialized payment scenarios, the Invoice API supports custom capture amounts using extension attributes.
 
