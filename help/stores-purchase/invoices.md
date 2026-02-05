@@ -149,7 +149,7 @@ The invoices are saved in a single PDF file that can be sent to a printer or sav
 
 To provide merchants with greater flexibility for partial captures and specialized payment scenarios, the Invoice API supports custom capture amounts using extension attributes.
 
-The Invoice API supports custom capture amounts using extension attributes. This capability allows merchants to capture a custom amount when creating an invoice using the [`POST V1/order/:orderId/invoice`](https://developer.adobe.com/commerce/webapi/reference/rest/saas/) REST endpoint and specifying the amount in the `extension_attributes.custom_capture_amount` field of the payload.
+You can make REST calls to capture a custom amount when creating an invoice.  Use the [`POST V1/order/:orderId/invoice`](https://developer.adobe.com/commerce/webapi/reference/rest/saas/) REST endpoint and specify the custom amount in the `extension_attributes.custom_capture_amount` field of the payload.
 
 >[!NOTE]
 >
