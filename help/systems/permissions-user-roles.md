@@ -47,6 +47,10 @@ To give someone restricted access to the Admin, the first step is to create a ro
 
 1. Under _[!UICONTROL Roles Resources]_, set **[!UICONTROL Resource Access]** to `Custom`.
 
+   >[!NOTE]
+   >
+   >If Two Factor Authentication (2FA) is required to login to the Admin, make sure that you enable the Resource `Permissions` > `Two Factor Auth` for this role - otherwise, newly created users with this  `Custom` role scope will not be able to set up 2FA for the first time to access the Admin.
+
 1. In the **[!UICONTROL Resource]** tree structure, select the checkbox of each Admin capability that the role can access.
 
    To create an Admin role with access to tax settings, choose both the Sales/Tax and System/Tax resources. If setting up a website for a region that differs from your default [shipping point of origin](../stores-purchase/shipping-settings.md#point-of-origin), you must allow access to the System/Shipping resources for the role. The shipping settings determine the store tax rate that is used for catalog prices.
