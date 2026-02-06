@@ -49,7 +49,7 @@ To give someone restricted access to the Admin, the first step is to create a ro
 
    >[!NOTE]
    >
-   >If Two Factor Authentication (2FA) is required to login to the Admin, make sure that you enable the Resource `Permissions` > `Two Factor Auth` for this role - otherwise, newly created users with this  `Custom` role scope will not be able to set up 2FA for the first time to access the Admin.
+   >If Two Factor Authentication (2FA) is required to login to the Admin, make sure that you enable the Resource `Permissions` > `Two Factor Auth` for this role. Otherwise, newly created users with this  `Custom` role scope cannot set up 2FA when they access the Admin for the first time.
 
 1. In the **[!UICONTROL Resource]** tree structure, select the checkbox of each Admin capability that the role can access.
 
