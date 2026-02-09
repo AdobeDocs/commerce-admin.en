@@ -24,7 +24,7 @@ This section contains the changes made in the last 60 days. We exclude all minor
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/ebb6348c6b5a30f5de4025f39bae0061b397a4b9">commit</a></td>
     </tr>
     <tr>
-      <td><p>[!BADGE PaaS only]{type=Informative url=”https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions” tooltip=”Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only.”} Updated the prerequisites for configuring the IMS integration for Adobe Commerce to provide information about requesting access to the Adobe Admin Console.</p>
+      <td><p>[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."} Updated the prerequisites for configuring the IMS integration for Adobe Commerce to provide information about requesting access to the Adobe Admin Console.</p>
 </td>
       <td>
         Technical, feedback
@@ -46,7 +46,7 @@ This section contains the changes made in the last 60 days. We exclude all minor
   </thead>
   <tbody>
     <tr>
-      <td><p>Updated the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-groups">Customer Groups</a> in the Customer Management Guide to clarify that Admin users cannot edit a customer’s Customer Group after the customer has been assigned to a company.</p>
+      <td><p>Updated the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-groups">Customer Groups</a> in the Customer Management Guide to clarify that Admin users cannot edit a customer's Customer Group after the customer has been assigned to a company.</p>
 </td>
       <td>
         Technical
@@ -68,7 +68,7 @@ This section contains the changes made in the last 60 days. We exclude all minor
   </thead>
   <tbody>
     <tr>
-      <td><p>Changed product references from “Adobe Sensei” to “Adobe AI” to reflect Adobe branding updates.</p>
+      <td><p>Changed product references from "Adobe Sensei" to "Adobe AI" to reflect Adobe branding updates.</p>
 </td>
       <td>
         Feedback
