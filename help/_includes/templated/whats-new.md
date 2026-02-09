@@ -4,6 +4,36 @@
 
 This section contains the changes made in the last 60 days. We exclude all minor updates, such as copy editing, from this list.
 
+### February 2, 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Updated <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law">Cookie law compliance</a> to add the missing <code class="language-plaintext highlighter-rouge">mage-cache-timeout</code> localStorage key and convert the exempt cookies list to a table format.</p>
+</td>
+      <td>
+        Technical, feedback
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/ebb6348c6b5a30f5de4025f39bae0061b397a4b9">commit</a></td>
+    </tr>
+    <tr>
+      <td><p>[!BADGE PaaS only]{type=Informative url=”https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions” tooltip=”Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only.”} Updated the prerequisites for configuring the IMS integration for Adobe Commerce to provide information about requesting access to the Adobe Admin Console.</p>
+</td>
+      <td>
+        Technical, feedback
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/8ea546c5e1cc9296c8b056ea7e25984a66d43851">commit</a></td>
+    </tr>
+  </tbody>
+</table>
+
 ### January 31, 2026
 
 <table style="table-layout:auto;">
@@ -110,28 +140,6 @@ This section contains the changes made in the last 60 days. We exclude all minor
         Feedback
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/1154cd5ced746ac6dfd609946528f281774bbaaa">commit</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### December 11, 2025
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Description</th>
-      <th>Type</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Updated the descriptions for the <code class="language-plaintext highlighter-rouge">NOFOLLOW</code> robots meta directives in the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview">SEO documentation</a>.<br /><em>Fixes issue <a href="https://github.com/AdobeDocs/commerce-admin.en/issues/82">#82</a>.</em></p>
-</td>
-      <td>
-        Technical, feedback
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/76e7c13c89b8ae53c4a3b56e5f090e6ffaa0b423">commit</a></td>
     </tr>
   </tbody>
 </table>

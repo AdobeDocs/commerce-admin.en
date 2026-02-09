@@ -2,8 +2,37 @@
 title: What's new
 description: This section contains the changes made in the last 60 days. We exclude
   all minor updates, such as copy editing, from this list.
-updated: Mon Feb 2 10:02:12 2026
+updated: Mon Feb 9 11:12:20 2026
 entries:
+- description: Updated [Cookie law compliance](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law)
+    to add the missing `mage-cache-timeout` localStorage key and convert the exempt
+    cookies list to a table format.
+  versions: ''
+  type: technical, feedback
+  date: February 2, 2026
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/742
+  merge_commit: ebb6348c6b5a30f5de4025f39bae0061b397a4b9
+  contributor: meker
+  membership:
+  labels:
+  - editorial
+  - technical
+  - feedback
+- description: '[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions"
+    tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure)
+    and on-premises projects only."} Updated the prerequisites for configuring the
+    IMS integration for Adobe Commerce to provide information about requesting access
+    to the Adobe Admin Console.'
+  versions: ''
+  type: technical, feedback
+  date: February 2, 2026
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/738
+  merge_commit: 8ea546c5e1cc9296c8b056ea7e25984a66d43851
+  contributor: meker
+  membership:
+  labels:
+  - technical
+  - feedback
 - description: Updated the [Customer Groups](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-groups)
     in the Customer Management Guide to clarify that Admin users cannot edit a customer’s
     Customer Group after the customer has been assigned to a company.
