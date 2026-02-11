@@ -19,6 +19,12 @@ To implement this integration, see [Configure the Commerce Admin Integration wit
 
 When this integration is enabled, Commerce Admin users experience changes to the default Commerce Admin login and authentication workflow as they perform routine tasks in the Admin that require reauthentication, such as creating an Admin user. Two-factor authentication (2FA) enforcement on the Adobe organization level is required for module enablement. The default Admin login and 2FA are disabled, and the _[!UICONTROL Sign In with Adobe ID]_ button replaces the default Admin sign in form. Entitlements are still managed from the Admin.
 
+>![IMPORTANT]
+>
+>The AdobeIms integration is all-or-nothing. You cannot exempt specific users from the integration; once enabled, all users must log in via AdobeIms.
+>
+>**Do not enable the integration until you are fully aware of these consequences.**
+
 ## How Admin integration with IMS affects Commerce passwords
 
 Commerce deployments that have been integrated with Adobe IMS require an Adobe ID account with access to the Adobe IMS organization that is configured for the Commerce application during the IMS enablement process.  When the IMS integration is enabled, admin users authenticate through the Adobe sign in page using their Adobe credentials. The Commerce passwords and user names for admin users are no longer used for authentication as long as the Adobe IMS integration is enabled.
