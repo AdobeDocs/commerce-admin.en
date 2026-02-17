@@ -21,9 +21,9 @@ When this integration is enabled, Commerce Admin users experience changes to the
 
 >![IMPORTANT]
 >
->The AdobeIms integration is all-or-nothing. You cannot exempt specific users from the integration; once enabled, all users must log in via AdobeIms.
+>The AdobeIms integration is applied globally. Once enabled, all users are required to authenticate through AdobeIms; individual users cannot be excluded from this configuration.
 >
->**Do not enable the integration until you are fully aware of these consequences.**
+>**Enable this integration only after fully understanding its implications.**
 
 ## How Admin integration with IMS affects Commerce passwords
 
