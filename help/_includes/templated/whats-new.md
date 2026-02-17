@@ -4,6 +4,28 @@
 
 This section contains the changes made in the last 60 days. We exclude all minor updates, such as copy editing, from this list.
 
+### February 10, 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Updates to the Admin documentation for the Adobe Commerce as a Cloud Service February release:<br />- Added documentation for <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#custom-capture-amounts">custom capture amounts</a> when creating invoices in the REST API, which allows merchants to capture custom amounts when creating invoices for partial captures and specialized payment scenarios.<br />- Indicates which reports in the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/reports-menu">Reports menu</a> are now PaaS only.</p>
+</td>
+      <td>
+        Major update
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/0c602db5a7291b95d725bce59df53923490d6b96">commit</a></td>
+    </tr>
+  </tbody>
+</table>
+
 ### February 2, 2026
 
 <table style="table-layout:auto;">
