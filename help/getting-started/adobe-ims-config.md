@@ -13,7 +13,7 @@ This integration supports Commerce merchants with Admin users who have an Adobe 
 
 >[!IMPORTANT]
 >
->Once enabled, all Admin users must log in via AdobeIms. You cannot exempt specific users from the integration - username and password login is no longer available for individual users.
+>The AdobeIms integration is applied globally. Once enabled, all users are required to authenticate through AdobeIms. Individual users cannot be excluded from this configuration, and username and password login is no longer available for individual users.
 >
 >Admin users should save their Commerce Admin credentials (username and password) and 2FA credentials before enabling this integration. These credentials are needed if the IMS integration is disabled.
 
