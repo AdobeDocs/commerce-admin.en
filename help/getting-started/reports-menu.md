@@ -3,7 +3,6 @@ title: '[!UICONTROL Reports] menu'
 description: Adobe Commerce and Magento Open Source provide a wide selection of reports to keep you informed on your marketing efforts, sales products, and customer activity.
 feature: Admin Workspace, Reporting
 exl-id: f6356590-ba89-4c97-a9fc-efbd0dacf31a
-badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # [!UICONTROL Reports] menu
 
@@ -23,6 +22,8 @@ A selection of [marketing reports](marketing-reports.md), including Products in 
 
 ### [!UICONTROL Reviews]
 
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+
 The selection of product [review reports](review-reports.md) includes By Customer and By Product.
 
 ### [!UICONTROL Sales]
@@ -30,6 +31,8 @@ The selection of product [review reports](review-reports.md) includes By Custome
 The selection of [sales reports](sales-reports.md) includes Orders, Tax, Invoiced, Shipping, Refunds, Coupons, and settlement reports for PayPal and Braintree.
 
 ### [!UICONTROL System Insights]
+
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
 
 (Adobe Commerce only) The [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html) provides system insights for installations of Adobe Commerce on cloud infrastructure with 24/7 real-time performance monitoring, reports, and recommendations.
 
@@ -43,12 +46,18 @@ The selection of [product reports](product-reports.md) includes Views, Bestselle
 
 ### [!UICONTROL Private Sales]
 
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+
 (Adobe Commerce only) The selection of reports for [private sales and events](private-sales-reports.md) includes Invitation, Invited Customers, and Conversions.
 
 ### [!UICONTROL Statistics]
 
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+
 [Statistics](sales-reports.md#refresh-statistics) is a tool that reduces the performance impact of generating reports by calculating and storing statistical data. Rather than recalculate the statistics every time a report is generated, the stored statistics are used until you refresh the statistics.
 
 ### [!DNL Commerce Intelligence]
+
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
 
 Integrated [[!DNL Commerce Intelligence]](business-intelligence.md) tools provide the insight that you need for making strategic business decisions.
