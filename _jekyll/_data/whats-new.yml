@@ -2,8 +2,20 @@
 title: What's new
 description: This section contains the changes made in the last 60 days. We exclude
   all minor updates, such as copy editing, from this list.
-updated: Fri Feb 13 15:20:03 2026
+updated: Fri Feb 20 15:20:01 2026
 entries:
+- description: Updated PaaS only badging on the [Reports menu](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/reports-menu)
+    page.
+  versions: ''
+  type: feedback
+  date: February 19, 2026
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/755
+  merge_commit: e2a73e2a47d1e8befa43a6b0f942c4b440d296b7
+  contributor: jhoover
+  membership:
+  labels:
+  - editorial
+  - feedback
 - description: Updates to the Admin documentation for the Adobe Commerce as a Cloud
     Service February release:<br/>- Added documentation for [custom capture amounts](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#custom-capture-amounts)
     when creating invoices in the REST API, which allows merchants to capture custom
