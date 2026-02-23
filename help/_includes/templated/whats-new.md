@@ -4,6 +4,28 @@
 
 This section contains the changes made in the last 60 days. We exclude all minor updates, such as copy editing, from this list.
 
+### February 19, 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Updated PaaS only badging on the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/reports-menu">Reports menu</a> page.</p>
+</td>
+      <td>
+        Feedback
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/e2a73e2a47d1e8befa43a6b0f942c4b440d296b7">commit</a></td>
+    </tr>
+  </tbody>
+</table>
+
 ### February 10, 2026
 
 <table style="table-layout:auto;">
@@ -140,28 +162,6 @@ This section contains the changes made in the last 60 days. We exclude all minor
         Major update, new topic
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/70e73b47c4b0342ade3deab64dbe39f29b82191f">commit</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### December 17, 2025
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Description</th>
-      <th>Type</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Updated the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty">Rewards and loyalty topic</a> to clarify how tax is calculated when customers use reward points or store credit during checkout.</p>
-</td>
-      <td>
-        Feedback
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/1154cd5ced746ac6dfd609946528f281774bbaaa">commit</a></td>
     </tr>
   </tbody>
 </table>
