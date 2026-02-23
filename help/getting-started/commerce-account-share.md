@@ -13,6 +13,8 @@ The [!DNL Commerce] Support team does not have access to the account and cannot 
 >[!NOTE]
 >
 >All actions taken by users with shared access are the sole responsibility of the primary account holder. Adobe is not responsible for any actions taken by users who have shared access to your account.
+>
+>The Billing History section shows only older invoices that were created before a change to our billing system. If you don’t see any newer invoices listed, those invoices have been transitioned to the new system and will not be accessible from this view.
 
 ![Shared access settings](./assets/shared-access.png){width="600" zoomable="yes"}
 
