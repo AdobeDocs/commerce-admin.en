@@ -12,7 +12,7 @@ The [!DNL Commerce] Support team does not have access to the account and cannot 
 
 ![Shared access settings](./assets/shared-access.png){width="600" zoomable="yes"}
 
-The Billing History section shows only older invoices that were created before a change to our billing system. If you don’t see any newer invoices listed, those invoices have been transitioned to the new system and will not be accessible from this view.
+The Billing History section shows only older invoices that were created before a change to our billing system. If you don’t see any newer invoices listed, those invoices have been transitioned to the new system and are not accessible from this view.
 
 >[!IMPORTANT]
 >
