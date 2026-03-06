@@ -36,7 +36,7 @@ Your store can be configured to require shoppers to open an account before makin
 
 [!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service projects only (Adobe-managed SaaS infrastructure)."}
 
-An optional, store-level configuration, which is disabled by default, allows merchants to track guest orders placed using an email address that matches a registered customer account.
+An optional, store-level configuration, which is disabled by default, allows guest shoppers to track their orders placed using an email address that matches a registered customer account.
 
 When enabled, guest checkout orders placed with a registered email remain accessible, while also appearing in the customer's order history.
 
