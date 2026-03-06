@@ -9,7 +9,7 @@ feature: User Account
 
 A [!DNL Commerce] account is your central access point for managing Adobe Commerce services. From the account dashboard, you can view subscriptions, manage Commerce Services API keys, review historical billing information, and collaborate with other users in your organization.
 
-If you need to [submit your first ticket](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) or manage your Adobe Commerce relationship—rather than working within a specific storefront—start by creating or accessing your [!DNL Commerce] account.
+If you need to [submit your first ticket](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) or manage your Adobe Commerce relationship — rather than working within a specific storefront — start by creating or accessing your [!DNL Commerce] account.
 
 You can access your [!DNL Commerce] account from the [!DNL Commerce] website. From the account dashboard, you can view information related to the products and services you have purchased and provide [Shared Access](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#provide-shared-access) to other users. Some information, such as Commerce Services API keys, is visible only to license owners.
 
