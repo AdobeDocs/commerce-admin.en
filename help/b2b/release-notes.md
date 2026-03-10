@@ -140,6 +140,17 @@ Previously, unassigning products with a large number of long product SKUs from S
 
 _ACP2E-4097_
 
+
+## B2B v1.5.2-p4
+
+@@ -55,7 +163,7 @@ Compatible with Adobe Commerce versions 2.4.7 to 2.4.7-p9, 2.4.6 to 2.4.6-p14.
+*March 10, 2026*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce versions 2.4.8-p4, 2.4.7-p9, and 2.4.6-p14 security patch releases.
+Compatible with Adobe Commerce versions 2.4.7 to 2.4.7-p9, 2.4.6 to 2.4.6-p14
+
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html).
+
 ## B2B v1.5.2-p3
 
 *October 14, 2025*
@@ -571,6 +582,14 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 
 ![Fixed issue](../assets/fix.svg) <!--- ACP2E-6829--> The **[!UICONTROL Place Order]** button now works as expected when completing a purchase with an approved quote request. Issues with the negotiable quote `negotiableQuoteCheckoutSessionPlugin` plugin have been resolved.
 
+## B2B v1.3.4-p16
+
+*March 10, 2026*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.0 and newer versions
+
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html).
+
 ## B2B v1.3.4-p15
 
 *October 14, 2025*
@@ -660,6 +679,15 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 ![Fixed issue](../assets/fix.svg) <!--- ACP2E-607 -->Company name is now visible as expected in the billing and shipping address sections of the checkout workflow.
 
 ![Fixed issue](../assets/fix.svg) <!--- ACP2E-375 -->Store credit is now unavailable when the **[!UICONTROL Zero Subtotal Checkout]** payment method is disabled. Previously, the Store Credit checkbox was not functional during order placement from the Admin. The application did not place the order with the store credit and displayed this error: `The requested Payment Method is not available`.
+
+## B2B v1.3.3-p17
+
+*March 10, 2026*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.0 and newer versions
+
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html)
+
 
 ## B2B v1.3.3-p16
 
