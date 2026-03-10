@@ -586,7 +586,7 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 
 *March 10, 2026*
 
-[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.0 and newer versions
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.5-p16 (extended support)
 
 ![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html).
 
@@ -684,7 +684,7 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 
 *March 10, 2026*
 
-[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.0 and newer versions
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.4-p17 (extended support)
 
 ![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html)
 
