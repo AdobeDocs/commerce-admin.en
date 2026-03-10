@@ -46,7 +46,7 @@ _AC-15662_
 
 #### Exception on adding a grouped product to a requisition list when category permissions are enabled
 
-Fixed a TypeError that occurred when adding grouped products to a requisition list with category permissions enabled by ensuring product options are handled safely as arrays, allowing all product types to be added without exceptions.
+Fixed a TypeError that occurred when adding grouped products to a requisition list with category permissions enabled by ensuring that product options are handled safely as arrays. This fix allows all product types to be added without exceptions.
 
 _AC-15862_
 
