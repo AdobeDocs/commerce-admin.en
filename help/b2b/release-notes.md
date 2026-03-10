@@ -135,7 +135,7 @@ _AC-14711_
 
 #### Shared Catalog Save Returns Deprecated Functionality Error
 
-Admin can successfully unassign products from Shared Catalog.
+An Admin can now successfully unassign products from the Shared Catalog.
 Previously, unassigning products with a large number of long product SKUs from Shared Catalog resulted in an error.
 
 _ACP2E-4097_
