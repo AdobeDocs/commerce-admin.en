@@ -40,7 +40,7 @@ _AC-13447_
 
 #### Restricted admin can't assign company to shared catalog
 
-Fixed an issue where restricted admin users encountered an exception when assigning a company to a shared catalog; the update ensures the assignment works correctly without errors.
+Fixed an issue where restricted Admin users encountered an exception when assigning a company to a shared catalog. The update ensures that the assignment works correctly without errors.
 
 _AC-15662_
 
