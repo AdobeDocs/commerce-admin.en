@@ -1,13 +1,14 @@
 ---
 title:  Create and access your [!DNL Commerce] account
 description: Learn about [!DNL Commerce] accounts, which manage the products and services that you have purchased.
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 feature: User Account
 ---
 
 # Access your [!DNL Commerce] account
 
-A [!DNL Commerce] account is your central access point for managing Adobe Commerce services. From the account dashboard, you can view subscriptions, manage Commerce Services API keys, review historical billing information, and collaborate with other users in your organization.
+A [!DNL Commerce] account is your central access point for managing Adobe Commerce services for Adobe Commerce projects deployed on cloud infrastructure or on-premises. From the account dashboard, you can view subscriptions, manage Commerce Services API keys, review historical billing information, and collaborate with other users in your organization.
 
 If you need to [submit your first ticket](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) or manage your Adobe Commerce relationship — rather than working within a specific storefront — start by creating or accessing your [!DNL Commerce] account.
 
