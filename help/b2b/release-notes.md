@@ -22,7 +22,7 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 
 Compatible with Adobe Commerce version 2.4.9-beta1.
 
-The B2B v1.5.3-beta1 release includes quality improvements and bug fixes.
+- ![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html)
 
 ### B2B
 
