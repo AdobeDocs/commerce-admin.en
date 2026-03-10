@@ -58,7 +58,7 @@ _AC-8575_
 
 #### The grand total calculation does not include the Tax amount
 
-Order contains correct totals when placed from an existing Purchase Order with Cross Border Trade enabled.
+An order now contains correct totals when placed from an existing Purchase Order with Cross Border Trade enabled.
 
 _ACP2E-3727_
 
@@ -94,7 +94,7 @@ _ACP2E-4040_
 
 #### Community themes contain resources for Commerce edition modules
 
-Removed Commerce-only styling resources from Community themes by relocating them to their respective module directories. This prevents unused CSS from being bundled in Community Edition, reducing unnecessary payload and eliminating dead style rules while ensuring proper styling when Commerce modules are enabled.
+Removed Commerce-only styling resources from Community themes by relocating them to their respective module directories. This prevents unused CSS from being bundled in the Community Edition, reducing unnecessary payload and eliminating dead style rules while ensuring proper styling when Commerce modules are enabled.
 
 _AC-15347_
 
@@ -102,7 +102,7 @@ _AC-15347_
 
 #### GraphQL Response for Order placement does not include the exception message
 
-Reverted previous change that was returning errors in a different format. Now potential errors are returned in a consistent manner, not breaking GraphQL schema.
+Reverted previous change that was returning errors in a different format. Now, potential errors are returned in a consistent manner that does not breaking GraphQL schema.
 
 _ACP2E-3399_
 
@@ -110,7 +110,7 @@ _ACP2E-3399_
 
 #### Unable to create requisition list for product assigned to new website and source
 
-Fixed an issue where requisition lists could not be created for products assigned to a new website and source when "Add Store Code to URLs" was enabled. The problem occurred because the store code was stripped from the API request, causing an unauthorized error. After the fix, the correct store context is preserved and requisition lists are created successfully.
+Fixed an issue where requisition lists could not be created for products assigned to a new website and source when [!UICONTROL Add Store Code to URLs] is enabled. The problem occurred because the store code was stripped from the API request, causing an unauthorized error. After the fix, the correct store context is preserved and requisition lists are created successfully.
 
 _AC-16226_
 
@@ -129,7 +129,7 @@ _AC-15280_
 #### Requisition List Page Print Option Is Not Working
 
 The Print option on the Requisition List page now works correctly.
-Previously, clicking "Print" resulted in the error: "An error has happened during application run. See exception log for details."
+Previously, clicking [!UICONTROL Print] resulted in the error: `An error has happened during application run. See exception log for details.`
 
 _AC-14711_
 
