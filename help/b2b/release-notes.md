@@ -22,8 +22,7 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 
 Compatible with Adobe Commerce version 2.4.9-beta1.
 
-The B2B v1.5.3-beta1 release includes quality improvements and bug fixes.
-The release also includes the security fixes documented in [Security Bulletin APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html).
+The B2B v1.5.3-beta1 release includes quality improvements and bug fixes. The release also includes the security fixes documented in [Security Bulletin APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html).
 
 ### Negotiable quote
 
@@ -183,7 +182,7 @@ The B2B v1.5.1 release includes quality improvements and bug fixes.
 [!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce versions 2.4.7-p3+ and 2.4.6-p8+ security patch releases.
 Compatible with Adobe Commerce versions 2.4.8-beta1, 2.4.7 to 2.4.7-p2, 2.4.6 to 2.4.6-p7.
 
-Adobe Commerce B2B version 1.5.0 is also compatible with PHP 8.3 and supports the [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server). 
+Adobe Commerce B2B version 1.5.0 is also compatible with PHP 8.3 and supports the [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
 
 The B2B v1.5.0 release includes new features, quality improvements, and bug fixes.
 
@@ -197,7 +196,7 @@ The B2B v1.5.0 release includes new features, quality improvements, and bug fixe
 
 - Add and manage company assignments from the new *[!UICONTROL Company Hierarchy]* section on the *[!UICONTROL Company Account]* page in the Admin.
 
-- Sort and filter companies by the new *[!UICONTROL Company Type]* setting. In the companies grid, the *[!UICONTROL Company Type]* column indicates whether a company is an individual company or part of organizational hierarchy (parent or child).
+- Sort and filter companies by the new *[!UICONTROL Company Type]* setting. In the companies grid, the *[!UICONTROL Company Type]* column indicates whether a company is an individual company or part of an organizational hierarchy (parent or child).
 
 ![New](../assets/new.svg) **Manage company configuration at scale**<!--B2B-2849-->—Quickly change company configuration settings for selected companies using the *[!UICONTROL Change company setting]* bulk action now available when managing companies from the *[!UICONTROL Companies]* or *[!UICONTROL Company Hierarchy]* grid. For example, if you create a new shared catalog for a group of companies, you can change the shared catalog configuration in a single action instead of editing each company individually.
 
@@ -205,13 +204,13 @@ The B2B v1.5.0 release includes new features, quality improvements, and bug fixe
 
 ### Company accounts
 
-![New](../assets/new.svg)<!--B2B-2828--> **Multi-company assignment**—Simplify company account access for company users by assigning a user to multiple companies. For example, if you have a buyer that orders from multiple company sites, create a single account and assign all companies the buyer works with to that account. Then, the buyer can log in one time, and switch between company accounts by choosing the company from the storefront.
+![New](../assets/new.svg)<!--B2B-2828--> **Multi-company assignment**—Simplify company account access for company users by assigning a user to multiple companies. For example, if you have a buyer who orders from multiple company sites, create a single account and assign all companies the buyer works with to that account. Then, the buyer can log in one time, and switch between company accounts by choosing the company from the storefront.
 
 >[!NOTE]
 >
 >A company user can be assigned to multiple companies, but they can be the company administrator for only one company.
 
-![New](../assets/new.svg) <!--B2B-2747--> **Company scope selector**—Provides ability for company users that are assigned to multiple companies to change companies on the storefront. When the scope is switched, the data updates to show the information based on the new company context. For example, if the new company uses a different shared catalog, the company user sees products, prices, and other information based on the new shared catalog. Content related to orders, quotes, quote templates also updates based on the context of the selected company.
+![New](../assets/new.svg) <!--B2B-2747--> **Company scope selector**—Provides the ability for company users that are assigned to multiple companies to change companies on the storefront. When the scope is switched, the data updates to show the information based on the new company context. For example, if the new company uses a different shared catalog, the company user sees products, prices, and other information based on the new shared catalog. Content related to orders, quotes, quote templates also updates based on the context of the selected company.
 
 >[!NOTE]
 >
@@ -221,7 +220,7 @@ The B2B v1.5.0 release includes new features, quality improvements, and bug fixe
 
 ### Quotes and quote templates
 
-Improvements to quoting capabilities help Buyers and Sellers manage quotes and quote negotiation more effectively.
+Improvements to quoting capabilities help buyers and sellers manage quotes and quote negotiation more effectively.
 
 ![New](../assets/new.svg) **Quote templates**—<!--B2B-3367-->Buyers and sellers can now streamline the quote process by creating reusable and customizable quote templates. Using quote templates, the quote negotiation process can be completed once, and buyers can generate pre-approved linked quotes for recurring orders instead of going through the quote negotiation process for each order. Quote templates extend the existing quote functionality by adding the following advanced features:
 
@@ -242,7 +241,7 @@ Improvements to quoting capabilities help Buyers and Sellers manage quotes and q
 
 - **Move quote item to requisition list**<!--B2B-2755-->—Buyers now have the flexibility to remove products from a quote and save them to a requisition list if they decide not to include them in the quote negotiation process.
 
-- **Remove multiple products from a quote**<!--B2B-2881-->—On quotes with a large number of products, buyers can now remove multiple products from the quote by selecting them and using the *[!UICONTROL Remove]* option from the *[!UICONTROL Actions]* control on the Quote detail page. In previous releases, a buyer had to delete products one at time.
+- **Remove multiple products from a quote**<!--B2B-2881-->—On quotes with a large number of products, buyers can now remove multiple products from the quote by selecting them one at a time and using the *[!UICONTROL Remove]* option from the *[!UICONTROL Actions]* control on the Quote detail page. In previous releases, a buyer had to delete products one at a time.
 
 - **Line item discount locking**<!--B2B-2597-->—During quote negotiation, sellers can use line item discount locking for more flexibility when applying discounts during the quote negotiation process. For example, a Seller can apply a special line item discount to an item and lock the item to prevent further discounting. When an item is locked, the item price cannot be updated when a quote-level discount is applied. See [Initiate quote for a buyer](sales-rep-initiates-quote.md).
 
@@ -328,11 +327,13 @@ Improvements to quoting capabilities help Buyers and Sellers manage quotes and q
 
 ## B2B v1.4.2-p2
 
+*August 6, 2024*
+
 [!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.7-p2+ and 2.4.6-p7+ security patch releases.
 
 ![New](../assets/new.svg) Added compatibility with Adobe Commerce 2.4.7-p2+ and 2.4.6-p7+ security patch releases.
 
-![Fixed issue](../assets/fix.svg) Includes the security fixes documented in Security Bulletin xxxx.
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in Security Bulletin [APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
 
 {{b2b-compatibility}}
 
@@ -874,7 +875,7 @@ This release includes improvements to order approvals, shipping methods, shoppin
 
 ![New](../assets/new.svg) B2B merchants can now control shipping methods that are offered to each Company.<!--- BUNDLE-160 161 162 -->
 
-![New](../assets/new.svg) Merchants can now allow users to clear the contents of their shopping cart in a single action and can configure this ability independently on each website <!--- BUNDLE-108 -->
+![New](../assets/new.svg) Merchants can now allow users to clear the contents of their shopping cart in a single action and can configure this ability independently on each website. <!--- BUNDLE-108 -->
 
 ![New](../assets/new.svg) B2B buyers can now add individual items or the entire contents of their shopping cart directly to a requisition list. <!--- BUNDLE-145 144-->
 
@@ -906,7 +907,9 @@ This release includes improvements to order approvals, shipping methods, shoppin
 
 ![Fixed issue](../assets/fix.svg) Custom customer address attributes fields are now displayed as expected in the storefront checkout workflow. <!--- MC-35607-->
 
-![Fixed issue](../assets/fix.svg) The B2B Features configuration tab now opens correctly. <!--- MC-35458--> Guests can now use QuickOrder to add products to their cart and then successfully remove items. Previously, when a shopper used QuickOrder to add multiple products to their cart, and then removed a product, the product was not removed. <!--- MC-35327-->
+![Fixed issue](../assets/fix.svg) The B2B Features configuration tab now opens correctly. <!--- MC-35458-->
+
+![Fixed issue](../assets/fix.svg) Guests can now use QuickOrder to add products to their cart and then successfully remove items. Previously, when a shopper used QuickOrder to add multiple products to their cart, and then removed a product, the product was not removed. <!--- MC-35327-->
 
 ![Fixed issue](../assets/fix.svg) A company can now be updated using the REST API PUT `/V1/company/:companyId` request without specifying the `region_id` when state is configured as **not required**. Previously, even though `region_id` was not required, Adobe Commerce threw an error if it was not specified. <!--- MC-35304-->
 
@@ -950,7 +953,7 @@ This release includes improvements to order approvals, shipping methods, shoppin
 
 ![New](../assets/new.svg) Added support for Adobe Commerce 2.4.0.
 
-![New](../assets/new.svg) Storefront Order Search, with added thanks for contribution by Marek Mularczyk from [Divante](https://www.divante.com/) and community members.
+![New](../assets/new.svg) Storefront Order Search, with thanks for the contribution by Marek Mularczyk from [Divante](https://www.divante.com/) and community members.
 
 ![New](../assets/new.svg) Purchase Orders are enhanced and rewritten. They are now included by default in Adobe Commerce.
 
@@ -1000,7 +1003,7 @@ This release includes improvements to order approvals, shipping methods, shoppin
 
 ![Fixed issue](../assets/fix.svg) Previously, when changing the admin of a company, the original admin address would be copied to the new admin, giving them two addresses. Now, only the correct address is added.
 
-![Fixed issue](../assets/fix.svg) Previously, using the API to save a quote item when git is set to "Allowed and Notify Customer" would fail. This API call now works as expected.
+![Fixed issue](../assets/fix.svg) Previously, using the API to save a quote item when backorder is set to "Allowed and Notify Customer" would fail.  "Allowed and Notify Customer" would fail. This API call now works as expected.
 
 ![Fixed issue](../assets/fix.svg) The Fixed Product Tax is now displayed on the Quotes detail page.
 
