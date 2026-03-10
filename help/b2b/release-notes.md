@@ -52,7 +52,7 @@ _AC-15862_
 
 #### Add to Requisition list button disappears when we try to add it from category page
 
-Previously, the Add to Requisition List button disappeared when adding from the category page. This is now fixed and the requisition list button is visible on the category page.
+Previously, the [!UICONTROL Add to Requisition List] button disappeared when it was added from the category page. This is now fixed, and the requisition list button is visible on the category page.
 
 _AC-8575_
 
