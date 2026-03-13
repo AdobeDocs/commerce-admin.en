@@ -2,8 +2,47 @@
 title: What's new
 description: This section contains the changes made in the last 60 days. We exclude
   all minor updates, such as copy editing, from this list.
-updated: Fri Mar 6 15:20:27 2026
+updated: Thu Mar 12 19:11:25 2026
 entries:
+- description: "[Email reminders](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules)
+    are now available in Adobe Commerce as a Cloud Service."
+  versions: ''
+  type: major-update
+  date: March 10, 2026
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/761
+  merge_commit: af1530af58cb73c49e3dcc0d82577bb97efbb50e
+  contributor: jhoover
+  membership:
+  labels:
+  - major-update
+  - hold for release
+- description: Added a new Allow Guest Order Access for Registered Emails setting
+    that allows merchants to track guest orders placed with a registered email.
+  versions: ''
+  type: major-update
+  date: March 10, 2026
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/762
+  merge_commit: 891fd0f08a952cd38bc92b41a4d54197f58f8a4d
+  contributor: jhoover
+  membership:
+  labels:
+  - major-update
+  - hold for release
+- description: 'Updated [Release notes](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes)
+    with B2B v1.5.3-beta1 (March 2026): quality improvements and bug fixes for quotes,
+    requisition lists, shared catalogs, checkout, GraphQL, and related areas, plus
+    minor copy and consistency fixes.'
+  versions: 2.4.9
+  type: major-update
+  date: March 10, 2026
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/769
+  merge_commit: e097f7e6848929b53dd7ade2e63bf8653ff0feed
+  contributor: shevtsov
+  membership:
+  labels:
+  - major-update
+  - release notes
+  - 2.4.9
 - description: Updated PaaS only badging on the [Reports menu](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/reports-menu)
     page.
   versions: ''
