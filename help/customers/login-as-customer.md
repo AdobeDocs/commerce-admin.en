@@ -54,13 +54,13 @@ Enabling _Login as Customer_ requires that you enable the feature in your Commer
 
 1. Set **[!UICONTROL Enable Login as Customer]** to `Yes`.
 
-1. _(Optional, PaaS only)_ Set **[!UICONTROL Disable Page Cache for Admin User]** to `No` to enable the page cache when the Admin user logs in as a customer.
+1. _(Optional)_ Set **[!UICONTROL Disable Page Cache for Admin User]** to `No` to enable the page cache when the Admin user logs in as a customer.
 
    >[!WARNING]
    >
    > Disabling the page cache (`Yes` - default) ensures that the user logging in as Customer gets fresh, uncached data.
 
-1. _(Optional, PaaS only)_ Set **[!UICONTROL Store View to Log in]** to `Manual Selection` if you have a multi-site and/or multi-store setup and want the Admin user to select the store view when logging in as a customer.
+1. _(Optional)_ Set **[!UICONTROL Store View to Log in]** to `Manual Selection` if you have a multi-site and/or multi-store setup and want the Admin user to select the store view when logging in as a customer.
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
