@@ -10,6 +10,12 @@ At times, customers need help with their order. Store administrators can use _Lo
 
 Any actions taken while logged in as the customer are applied to the actual customer's account.
 
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+
 When it is enabled for an _Admin_ user, the _[!UICONTROL Login as Customer]_ button appears in multiple pages:
 
 * [Customer Edit page](../customers/update-account.md)
@@ -19,6 +25,20 @@ When it is enabled for an _Admin_ user, the _[!UICONTROL Login as Customer]_ but
 * [Credit Memo View page](../stores-purchase/credit-memo-create.md)
 
 ![Login As Customer](assets/login-as-customer.png){width="600" zoomable="yes"}
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and Adobe Commerce Optimizer projects only (Adobe-managed SaaS infrastructure)."}
+
+In Adobe Commerce as a Cloud Service, the Login as Customer feature uses a **One-Time Code (OTC)** workflow instead of a direct login. Administrators generate a short-lived, single-use code for a customer. This code can then be exchanged for a customer access token through GraphQL, enabling passwordless Login as Customer workflows for seller-assisted shopping scenarios.
+
+The feature comprises the following components:
+
+* **Admin UI** - On the customer edit page, administrators can request a one-time code (OTC) instead of directly logging in as a customer.
+* **REST API** - A programmatic endpoint for OTC generation, useful for admin scripts and third-party integrations.
+* **GraphQL API** - Mutations that exchange an OTC for a customer access token for storefront or headless commerce flows.
+
+>[!ENDTABS]
 
 ## Enable Login as Customer
 
@@ -34,13 +54,13 @@ Enabling _Login as Customer_ requires that you enable the feature in your Commer
 
 1. Set **[!UICONTROL Enable Login as Customer]** to `Yes`.
 
-1. _(Optional)_ Set **[!UICONTROL Disable Page Cache for Admin User]** to `No` to enable the page cache when the Admin user logs in as a customer.
+1. _(Optional, PaaS only)_ Set **[!UICONTROL Disable Page Cache for Admin User]** to `No` to enable the page cache when the Admin user logs in as a customer.
 
    >[!WARNING]
    >
    > Disabling the page cache (`Yes` - default) ensures that the user logging in as Customer gets fresh, uncached data.
 
-1. _(Optional)_ Set **[!UICONTROL Store View to Log in]** to `Manual Selection` if you have a multi-site and/or multi-store setup and want the Admin user to select the store view when logging in as a customer.
+1. _(Optional, PaaS only)_ Set **[!UICONTROL Store View to Log in]** to `Manual Selection` if you have a multi-site and/or multi-store setup and want the Admin user to select the store view when logging in as a customer.
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
@@ -67,7 +87,45 @@ Enabling _Login as Customer_ requires that you enable the feature in your Commer
 
 1. Click **[!UICONTROL Save Role]**.
 
+## Customer account permission for remote shopping assistance
+
+To enable account access for store support staff from the Admin, a customer must enable the feature for their account:
+
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+
+1. The customer goes to the **[!UICONTROL Account Information]** page.
+
+1. Selects the **[!UICONTROL Allow remote shopping assistance]** checkbox.
+
+1. The customer clicks **[!UICONTROL Save]**.
+
+![Account Information Page](assets/permission.png){width="700" zoomable="yes"}
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and Adobe Commerce Optimizer projects only (Adobe-managed SaaS infrastructure)."}
+
+The customer must have the `login_as_customer_assistance_allowed` extension attribute set to **2**. This can be configured on the **Edit Customer** page in the Admin or through GraphQL when creating or editing a customer.
+
+![Customer consent extension attribute configuration on the Edit Customer page](assets/customer-consent-attribute.png){width="600" zoomable="yes"}
+
+>[!ENDTABS]
+
+>[!WARNING]
+>
+>Without this permission, an Admin user cannot log in as this customer.
+
 ## Login as a customer from the Admin
+
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > [!UICONTROL _All Customers_].
 
@@ -81,21 +139,172 @@ Enabling _Login as Customer_ requires that you enable the feature in your Commer
    >
    >The administrator can now log in as a user without their permission from the storefront.
 
-## Customer account permission for remote shopping assistance
+>[!TAB Adobe Commerce as a Cloud Service]
 
-To enable account access for store support staff from the Admin, a customer must enable the feature for their account:
+[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and Adobe Commerce Optimizer projects only (Adobe-managed SaaS infrastructure)."}
 
-1. The customer goes to the **[!UICONTROL Account Information]** page.
+### Request a One-Time Code (OTC) from the Admin
 
-1. Selects the **[!UICONTROL Allow remote shopping assistance]** checkbox.
+1. Navigate to **[!UICONTROL Customers]** and select a customer to open the edit page.
 
-1. The customer clicks **[!UICONTROL Save]**.
+1. On the Edit Customer page, click **[!UICONTROL Get Customer Login OTC]**.
 
-![Account Information Page](assets/permission.png){width="700" zoomable="yes"}
+   ![Get Customer Login OTC button on the Edit Customer page](assets/get-customer-login-otc-button.png){width="600" zoomable="yes"}
 
->[!WARNING]
+1. Enter a **[!UICONTROL Reason]** (required) and click **[!UICONTROL Request]**.
+
+   ![OTC request modal with Reason field](assets/otc-reason-modal.png){width="600" zoomable="yes"}
+
+   >[!NOTE]
+   >
+   >The **Reason** field is required. It is passed to the OTP generation flow and is reserved for use in upcoming audit and event logging features.
+
+1. The generated OTC is displayed in the modal. Use this code with the `generateCustomerToken` or `exchangeOtpForCustomerToken` GraphQL mutation for customer authorization.
+
+   ![Generated OTC displayed in the modal](assets/otc-generated-code.png){width="300" zoomable="yes"}
+
+>[!IMPORTANT]
 >
->Without this permission, an Admin user cannot log in as this customer.
+>The generated One-Time Code OTC is valid for 30 seconds by default and is invalidated after a single use. The TTL can be configured by submitting a [support ticket](https://experienceleague.adobe.com/home?support-tab=home#support).
+
+After the One-Time Code is generated, you can use it by navigating to your storefront and logging in using the following credentials:
+
+* **Email**: The customer's email address
+* **Password**: The generated One-Time Code (OTC)
+
+### Generate a One-Time Code using the REST API
+
+The POST `V1/customer/:customerId/otp` endpoint provides a programmatic way to generate an OTC for a customer. This is useful for admin UIs, scripts, or third-party integrations that need to trigger OTC issuance consistently.
+
+| Item | Value |
+|---|---|
+| **Method** | POST |
+| **URL** | `/rest/V1/customer/:customerId/otp` |
+| **Authentication** | Admin token (Bearer). Required ACL: `Magento_LoginAsCustomer::login`. |
+| **Request body** | JSON with optional `reason` field. Used for auditing and logging. |
+| **Success response** | HTTP 200, JSON with `otp` (32-character hex string). |
+| **Error responses** | Standard Web API errors (for example, 401, 403). If Login as Customer assistance is disabled for the customer, may surface as 500 or a mapped exception. |
+
+**Request example:**
+
+```text
+POST /rest/V1/customer/:customerId/otp
+Content-Type: application/json
+```
+
+```json
+{"reason": "Support session"}
+```
+
+**Response example:**
+
+```json
+{"otp": "a1b2c3d4e5f6789012345678abcdef01"}
+```
+
+### Exchange a One-Time Code for a customer token using GraphQL
+
+After generating an OTC (from the Admin UI or REST API), use one of the following GraphQL mutations to exchange it for a customer access token.
+
+#### `generateCustomerToken` mutation
+
+The `generateCustomerToken(email, password)` mutation returns a customer token. The `password` argument is evaluated in the following order:
+
+1. **Customer password (default)** - The customer's account password.
+1. **Customer Reset Password Token (one-time use)** - A valid token from **Forgot password** (for example, the `requestPasswordResetEmail` mutation). Consumed on first use.
+1. **Admin-generated OTC (one-time code)** - A code generated by an admin for the customer through the REST API or Admin UI. One-time use, short-lived (30 seconds by default).
+
+**Schema:**
+
+```graphql
+type Mutation {
+  generateCustomerToken(email: String!, password: String!): CustomerToken
+}
+
+type CustomerToken {
+  token: String!
+}
+```
+
+**Example: login with admin OTC**
+
+```graphql
+mutation GenerateCustomerToken($email: String!, $password: String!) {
+  generateCustomerToken(email: $email, password: $password) {
+    token
+  }
+}
+```
+
+Variables (use the OTC as `password`):
+
+```json
+{
+  "email": "customer@example.com",
+  "password": "<admin-generated-OTC>"
+}
+```
+
+#### `exchangeOtpForCustomerToken` mutation
+
+The `exchangeOtpForCustomerToken` mutation exchanges a password reset token or OTP generated by an admin for a customer access token. The OTP is invalidated after successful exchange (one-time use). This endpoint respects reCAPTCHA configuration.
+
+**Schema:**
+
+```graphql
+type Mutation {
+  exchangeOtpForCustomerToken(
+    email: String!
+    otp: String!
+  ): CustomerToken
+}
+
+type CustomerToken {
+  token: String!
+}
+```
+
+**Example request:**
+
+```graphql
+mutation ExchangeOtpForCustomerToken($email: String!, $otp: String!) {
+  exchangeOtpForCustomerToken(email: $email, otp: $otp) {
+    token
+  }
+}
+```
+
+Variables:
+
+```json
+{
+  "email": "customer@example.com",
+  "otp": "<one-time-password>"
+}
+```
+
+**Example response:**
+
+```json
+{
+  "data": {
+    "exchangeOtpForCustomerToken": {
+      "token": "<customer-access-token>"
+    }
+  }
+}
+```
+
+#### Mutation summary
+
+| Mutation | Use case |
+|---|---|
+| `generateCustomerToken(email, password)` | Single entry point: customer password, Password Reset Token, Admin OTC, or OTP (tried after password/reset). |
+| `exchangeOtpForCustomerToken(email, otp)` | OTP or Reset Password Token exchange. OTP (or Reset Password Token) is consumed after use. |
+
+Password Reset Token and Admin OTC are both passed as the `password` argument to `generateCustomerToken`. The resolver detects the token type and validates accordingly.
+
+>[!ENDTABS]
 
 ## Use Login as Customer
 
