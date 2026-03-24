@@ -111,6 +111,10 @@ To enable account access for store support staff from the Admin, a customer must
 
 The customer must have the `login_as_customer_assistance_allowed` extension attribute set to **2**. This can be configured on the **Edit Customer** page in the Admin or through GraphQL when creating or editing a customer.
 
+>[!WARNING]
+>
+>Without this permission, an Admin user cannot log in as this customer.
+
 ![Customer consent extension attribute configuration on the Edit Customer page](assets/customer-consent-attribute.png){width="600" zoomable="yes"}
 
 To set this permission with GraphQL for an existing customer account, use the [`updateCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/update-v2/) mutation.
@@ -128,10 +132,6 @@ mutation {
 ```
 
 >[!ENDTABS]
-
->[!WARNING]
->
->Without this permission, an Admin user cannot log in as this customer.
 
 ## Login as a customer from the Admin
 
@@ -189,6 +189,8 @@ After the One-Time Code is generated, you can use it by navigating to your store
 
 * **Email**: The customer's email address
 * **Password**: The generated One-Time Code (OTC)
+
+>[!ENDTABS]
 
 ## Use Login as Customer
 
