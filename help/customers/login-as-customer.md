@@ -117,19 +117,7 @@ The customer must have the `login_as_customer_assistance_allowed` extension attr
 
 ![Customer consent extension attribute configuration on the Edit Customer page](assets/customer-consent-attribute.png){width="600" zoomable="yes"}
 
-To set this permission with GraphQL for an existing customer account, use the [`updateCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/update-v2/) mutation.
-
-**Query** (`updateCustomerV2`):
-
-```graphql
-mutation {
-  updateCustomerV2(input: { allow_remote_shopping_assistance: true }) {
-    customer {
-      allow_remote_shopping_assistance
-    }
-  }
-}
-```
+To set this permission with GraphQL for an existing customer account, set the `allow_remote_shopping_assistance` input to `true` using the [`updateCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/update-v2/) or [`createCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/create-v2/) mutations.
 
 >[!ENDTABS]
 
