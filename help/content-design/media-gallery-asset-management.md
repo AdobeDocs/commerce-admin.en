@@ -19,7 +19,7 @@ The new [Media Gallery](media-gallery.md) provides tools for managing uploaded m
 
 >[!NOTE]
 >
->The selected asset is automatically uploaded to the selected folder. You can only upload an asset in the pub/media/wysywig and pub/media/catalog/category folders (or other folders added by modules, but not to a storage folder itself).
+>The selected asset is automatically uploaded to the selected folder. You can only upload an asset in the `pub/media/wysywig` and `pub/media/catalog/category` folders (or other folders added by modules, but not to a storage folder itself).
 
 ## View asset details
 
