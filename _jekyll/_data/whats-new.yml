@@ -2,8 +2,19 @@
 title: What's new
 description: This section contains the changes made in the last 60 days. We exclude
   all minor updates, such as copy editing, from this list.
-updated: Fri Mar 20 15:19:54 2026
+updated: Fri Mar 27 15:20:14 2026
 entries:
+- description: Added Adobe Commerce as a Cloud Service instructions to [Provide shopper
+    assistance](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer).
+  versions: ''
+  type: major-update
+  date: March 25, 2026
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/778
+  merge_commit: 159f4b95fa90908cc021e3b1d5faf594ec077aae
+  contributor: jhoover
+  membership:
+  labels:
+  - major-update
 - description: "[Email reminders](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules)
     are now available in Adobe Commerce as a Cloud Service."
   versions: ''
