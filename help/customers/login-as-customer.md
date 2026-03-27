@@ -10,6 +10,12 @@ At times, customers need help with their order. Store administrators can use _Lo
 
 Any actions taken while logged in as the customer are applied to the actual customer's account.
 
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+
 When it is enabled for an _Admin_ user, the _[!UICONTROL Login as Customer]_ button appears in multiple pages:
 
 * [Customer Edit page](../customers/update-account.md)
@@ -19,6 +25,20 @@ When it is enabled for an _Admin_ user, the _[!UICONTROL Login as Customer]_ but
 * [Credit Memo View page](../stores-purchase/credit-memo-create.md)
 
 ![Login As Customer](assets/login-as-customer.png){width="600" zoomable="yes"}
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and Adobe Commerce Optimizer projects only (Adobe-managed SaaS infrastructure)."}
+
+In Adobe Commerce as a Cloud Service, the Login as Customer feature uses a **One-Time Code (OTC)** workflow instead of a direct login. Administrators generate a short-lived, single-use code for a customer. This code can then be exchanged for a customer access token through GraphQL, enabling passwordless Login as Customer workflows for seller-assisted shopping scenarios.
+
+The feature comprises the following components:
+
+* **Admin UI** - On the customer edit page, administrators can request a one-time code (OTC) instead of directly logging in as a customer.
+* **[REST API](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/login-as-customer/)** - A programmatic endpoint for OTC generation, useful for admin scripts and third-party integrations.
+* **GraphQL API** - Mutations that exchange an OTC for a customer access token for storefront or headless commerce flows.
+
+>[!ENDTABS]
 
 ## Enable Login as Customer
 
@@ -67,7 +87,47 @@ Enabling _Login as Customer_ requires that you enable the feature in your Commer
 
 1. Click **[!UICONTROL Save Role]**.
 
+## Customer account permission for remote shopping assistance
+
+To enable account access for store support staff from the Admin, a customer must enable the feature for their account:
+
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+
+1. The customer goes to the **[!UICONTROL Account Information]** page.
+
+1. Selects the **[!UICONTROL Allow remote shopping assistance]** checkbox.
+
+1. The customer clicks **[!UICONTROL Save]**.
+
+![Account Information Page](assets/permission.png){width="700" zoomable="yes"}
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and Adobe Commerce Optimizer projects only (Adobe-managed SaaS infrastructure)."}
+
+The customer must have the `login_as_customer_assistance_allowed` extension attribute set to **2**. This can be configured on the **Edit Customer** page in the Admin or through GraphQL when creating or editing a customer.
+
+>[!WARNING]
+>
+>Without this permission, an Admin user cannot log in as this customer.
+
+![Customer consent extension attribute configuration on the Edit Customer page](assets/customer-consent-attribute.png){width="600" zoomable="yes"}
+
+To set this permission with GraphQL for an existing customer account, set the `allow_remote_shopping_assistance` input to `true` using the [`updateCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/update-v2/) or [`createCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/create-v2/) mutations.
+
+>[!ENDTABS]
+
 ## Login as a customer from the Admin
+
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > [!UICONTROL _All Customers_].
 
@@ -81,21 +141,44 @@ Enabling _Login as Customer_ requires that you enable the feature in your Commer
    >
    >The administrator can now log in as a user without their permission from the storefront.
 
-## Customer account permission for remote shopping assistance
+>[!TAB Adobe Commerce as a Cloud Service]
 
-To enable account access for store support staff from the Admin, a customer must enable the feature for their account:
+[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and Adobe Commerce Optimizer projects only (Adobe-managed SaaS infrastructure)."}
 
-1. The customer goes to the **[!UICONTROL Account Information]** page.
-
-1. Selects the **[!UICONTROL Allow remote shopping assistance]** checkbox.
-
-1. The customer clicks **[!UICONTROL Save]**.
-
-![Account Information Page](assets/permission.png){width="700" zoomable="yes"}
-
->[!WARNING]
+>[!NOTE]
 >
->Without this permission, an Admin user cannot log in as this customer.
+>For guidance on implementing this feature using REST, see the [Login as Customer](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/login-as-customer/) REST API documentation.
+
+### Request a One-Time Code (OTC) from the Admin
+
+1. Navigate to **[!UICONTROL Customers]** and select a customer to open the edit page.
+
+1. On the Edit Customer page, click **[!UICONTROL Get Customer Login OTC]**.
+
+   ![Get Customer Login OTC button on the Edit Customer page](assets/get-customer-login-otc-button.png){width="600" zoomable="yes"}
+
+1. Enter a **[!UICONTROL Reason]** (required) and click **[!UICONTROL Request]**.
+
+   ![OTC request modal with Reason field](assets/otc-reason-modal.png){width="600" zoomable="yes"}
+
+   >[!NOTE]
+   >
+   >The **Reason** field is required. It is passed to the OTP generation flow and is reserved for use in upcoming audit and event logging features.
+
+1. The generated OTC is displayed in the modal. Use this code with the `generateCustomerToken` or `exchangeOtpForCustomerToken` GraphQL mutation for customer authorization.
+
+   ![Generated OTC displayed in the modal](assets/otc-generated-code.png){width="300" zoomable="yes"}
+
+>[!IMPORTANT]
+>
+>The generated One-Time Code OTC is valid for 30 seconds by default and is invalidated after a single use. The TTL can be configured by submitting a [support ticket](https://experienceleague.adobe.com/home?support-tab=home#support).
+
+After the One-Time Code is generated, you can use it by navigating to your storefront and logging in using the following credentials:
+
+* **Email**: The customer's email address
+* **Password**: The generated One-Time Code (OTC)
+
+>[!ENDTABS]
 
 ## Use Login as Customer
 
