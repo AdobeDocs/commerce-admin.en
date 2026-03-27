@@ -11,9 +11,7 @@ Use folders to organize images in the new [Media Gallery](media-gallery.md). As 
 
 ## Create a folder
 
->[!NOTE] 
->
->You can only create a folder in the `pub/media/wysywig` and `pub/media/catalog/category` folders (or other folders added by modules, but not to a storage folder itself).
+You can only create a folder in the `pub/media/wysywig`, `pub/media/catalog/category`, or other folders added by modules.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Media]_ > **[!UICONTROL Media Gallery]**.
 
