@@ -105,3 +105,16 @@ Shared Access allows you to grant trusted users—such as colleagues, partners, 
 See the [Share a Commerce account](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share?lang=en) section of Adobe Commerce Getting Started Guide for detailed steps on setting up a shared account.
 
 For detailed instructions on submitting a Commerce support case, see the [Adobe Commerce Help Center user guide](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case).
+
+## Summary
+
+| Scenario | What's happening | What to do with Adobe ID | What to do for MAGE ID / Commerce account | Outcome |
+| --- | --- | --- | --- | --- |
+| New to Adobe and Commerce | No Adobe ID, no MAGE ID | Create an Adobe ID when prompted during sign-in to https://account.magento.com | After Adobe ID is created, sign in again to https://account.magento.com | A Commerce account is created and a MAGE ID is generated and linked to the Adobe ID |
+| Has Adobe ID, but no MAGE ID yet | Uses other Adobe products only | Sign in with Adobe ID at https://account.magento.com | First successful sign-in creates the Commerce account and MAGE ID | MAGE ID is created and linked automatically |
+| Legacy Commerce customer with old MAGE ID | Has a historical MAGE ID but no Adobe ID | Create an Adobe ID at https://account.adobe.com using the same email as the existing MAGE ID | Sign in to https://account.magento.com using "Sign in with Adobe ID" | Existing MAGE ID is linked to the new Adobe ID |
+| Adobe ID and MAGE ID exist but not linked | Emails for Adobe ID and Commerce differ | Align the Adobe ID email to match the Commerce account email (or vice versa, depending on ownership) | After emails match, sign in via "Sign in with Adobe ID" at https://account.magento.com | Adobe ID becomes the login; the MAGE ID remains the entitlement identifier |
+| Has Adobe ID but "no MAGE ID" | Never signed in to https://account.magento.com | Use the existing Adobe ID | Sign in at https://account.magento.com for the first time | This first sign-in generates and links a MAGE ID |
+| Uses only cloud project login (accounts.magento.cloud) | Can access cloud project but not classic Commerce account | Continue using Adobe ID for cloud project | If Marketplace/licenses are needed, also sign in at https://account.magento.com with the same Adobe ID | A classic Commerce account (with MAGE ID) is created and linked |
+
+If a user believes they should have Commerce entitlements but does not see a MAGE ID, the default next step is to sign in at https://account.magento.com using their Adobe ID so that a Commerce account and MAGE ID can be created or correctly linked.
