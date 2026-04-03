@@ -2,8 +2,20 @@
 title: What's new
 description: This section contains the changes made in the last 60 days. We exclude
   all minor updates, such as copy editing, from this list.
-updated: Fri Mar 27 15:20:14 2026
+updated: Fri Apr 3 16:35:39 2026
 entries:
+- description: Added the `numeric` and `file` [attribute input types](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types)
+    and added a [Product File Attributes](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/product-file-attributes)
+    page in the configuration reference.
+  versions: ''
+  type: major-update
+  date: April 1, 2026
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/783
+  merge_commit: 907fc809707f64973e3dffe6f9089ca6bd358989
+  contributor: jhoover
+  membership:
+  labels:
+  - major-update
 - description: Added Adobe Commerce as a Cloud Service instructions to [Provide shopper
     assistance](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer).
   versions: ''

@@ -4,6 +4,28 @@
 
 This section contains the changes made in the last 60 days. We exclude all minor updates, such as copy editing, from this list.
 
+### April 1, 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Added the <code class="language-plaintext highlighter-rouge">numeric</code> and <code class="language-plaintext highlighter-rouge">file</code> <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types">attribute input types</a> and added a <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/product-file-attributes">Product File Attributes</a> page in the configuration reference.</p>
+</td>
+      <td>
+        Major update
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/907fc809707f64973e3dffe6f9089ca6bd358989">commit</a></td>
+    </tr>
+  </tbody>
+</table>
+
 ### March 25, 2026
 
 <table style="table-layout:auto;">
@@ -104,58 +126,6 @@ This section contains the changes made in the last 60 days. We exclude all minor
         Major update
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/0c602db5a7291b95d725bce59df53923490d6b96">commit</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### February 2, 2026
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Description</th>
-      <th>Type</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Updated <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law">Cookie law compliance</a> to add the missing <code class="language-plaintext highlighter-rouge">mage-cache-timeout</code> localStorage key and convert the exempt cookies list to a table format.</p>
-</td>
-      <td>
-        Technical, feedback
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/ebb6348c6b5a30f5de4025f39bae0061b397a4b9">commit</a></td>
-    </tr>
-    <tr>
-      <td><p>[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."} Updated the prerequisites for configuring the IMS integration for Adobe Commerce to provide information about requesting access to the Adobe Admin Console.</p>
-</td>
-      <td>
-        Technical, feedback
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/8ea546c5e1cc9296c8b056ea7e25984a66d43851">commit</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### January 31, 2026
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Description</th>
-      <th>Type</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Updated the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-groups">Customer Groups</a> in the Customer Management Guide to clarify that Admin users cannot edit a customer’s Customer Group after the customer has been assigned to a company.</p>
-</td>
-      <td>
-        Technical
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/pull/81">pull request</a></td>
     </tr>
   </tbody>
 </table>
