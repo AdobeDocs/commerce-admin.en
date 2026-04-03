@@ -7,7 +7,7 @@ badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.ad
 ---
 # The [!DNL Media Gallery]
 
-With Adobe Commerce or Magento Open Source 2.4, merchants can use the new _enhanced_ [!DNL Media Gallery] to organize and manage their media files on the server. This new [!DNL Media Gallery] contains the same functionalities as the existing media storage, but includes an improved user interface and a closer integration with [Adobe Stock][adobe-stock].
+With Adobe Commerce or Magento Open Source 2.4, merchants can use the new _enhanced_ [!DNL Media Gallery] to organize and manage their media files on the server. This new [!DNL Media Gallery] contains the same functionalities as the existing media storage, but includes an improved user interface and a closer integration with [Adobe Stock](https://stock.adobe.com).
 
 ![Images displayed in the Media Gallery grid](./assets/media-gallery-grid.png){width="700" zoomable="yes"}
 
@@ -66,6 +66,3 @@ To access the new Media Gallery when you are adding or editing a page:
 To learn more about the [!DNL Media Gallery], watch this video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/343785?quality=12&learn=on)
-
-[adobe-stock]: https://stock.adobe.com
-

@@ -1,13 +1,24 @@
 ---
 title:  Create and access your [!DNL Commerce] account
 description: Learn about [!DNL Commerce] accounts, which manage the products and services that you have purchased.
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 feature: User Account
 ---
 
 # Access your [!DNL Commerce] account
 
-You can access your [!DNL Commerce] account from the [!DNL Commerce] website. From the dashboard of your [!DNL Commerce] account, you can find information that is related to the products and services that you have purchased, as well as your contact and billing information. Some information is visible to license owners only.
+A [!DNL Commerce] account is your central access point for managing Adobe Commerce services for Adobe Commerce projects deployed on cloud infrastructure or on-premises. From the account dashboard, you can view subscriptions, manage Commerce Services API keys, review historical billing information, and collaborate with other users in your organization.
+
+If you need to [submit your first ticket](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) or manage your Adobe Commerce relationship — rather than working within a specific storefront — start by creating or accessing your [!DNL Commerce] account.
+
+You can access your [!DNL Commerce] account from the [!DNL Commerce] website. From the account dashboard, you can view information related to the products and services you have purchased and provide [Shared Access](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#provide-shared-access) to other users. Some information, such as Commerce Services API keys, is visible only to license owners.
+
+>[!NOTE]
+>
+>The **[!UICONTROL Billing History]** section on the [!DNL Commerce] account page displays only invoices created before the billing system update.
+>
+>If newer invoices are not listed, they have been transitioned to the new system and are not accessible from this page.
 
 ![Your [!DNL Commerce] account](./assets/home-acct.png){width="700"}
 
@@ -21,13 +32,13 @@ However, a user who wants to streamline their login to Adobe Commerce and Adobe 
 
 ## Log in to your [!DNL Commerce] account
 
-An Adobe ID is required to access your Commerce account. If you have an existing [!DNL Commerce] account but have not signed in since August 2022, you must create an Adobe ID during the sign-in process. Completing this step is necessary before you can log in to your account.
+An Adobe ID is required to access your [!DNL Commerce] account. If you have an existing [!DNL Commerce] account but have not signed in since August 2022, you must create an Adobe ID during the sign-in process. You must complete this step before you can log in to your account.
 
 >[!WARNING]
 >
->Use the email address that is associated with your existing Commerce account MAGEID to create the Adobe ID. Using a different, brand new email address creates a new MAGEID.
+>If you cannot find the Commerce organization when submitting an Adobe Commerce [support case](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case), it usually means one of the following: the Account Owner has not created an Adobe ID, or an Adobe ID exists but is not linked to the Commerce account.
 
-1. Go to the [[!DNL Commerce] site](https://account.magento.com/customer/account/login/).
+1. Go to the [[!DNL Commerce]](https://account.magento.com/customer/account/login/) site.
 
 1. Click **[!UICONTROL Sign in with Adobe ID]**.
 
@@ -86,3 +97,24 @@ Anyone can create a free [!DNL Commerce] account. The email address that you use
 1. Enter your email address.
 
 1. Click **[!UICONTROL Continue]**.
+
+## Providing Shared Access to your Commerce account
+
+Shared Access allows you to grant trusted users—such as colleagues, partners, or administrators—permission to manage your Adobe Commerce relationship on your behalf without using your personal login. This includes allowing others to open and track support cases.
+
+See the [Share a Commerce account](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share?lang=en) section of Adobe Commerce Getting Started Guide for detailed steps on setting up a shared account.
+
+For detailed instructions on submitting a Commerce support case, see the [Adobe Commerce Help Center user guide](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case).
+
+## Summary
+
+| Scenario | What's happening | What to do with Adobe ID | What to do for MAGE ID / Commerce account | Outcome |
+| --- | --- | --- | --- | --- |
+| New to Adobe and Commerce | No Adobe ID, no MAGE ID | Create an Adobe ID when prompted during sign-in to https://account.magento.com | After Adobe ID is created, sign in again to https://account.magento.com | A Commerce account is created and a MAGE ID is generated and linked to the Adobe ID |
+| Has Adobe ID, but no MAGE ID yet | Uses other Adobe products only | Sign in with Adobe ID at https://account.magento.com | First successful sign-in creates the Commerce account and MAGE ID | MAGE ID is created and linked automatically |
+| Legacy Commerce customer with old MAGE ID | Has a historical MAGE ID but no Adobe ID | Create an Adobe ID at https://account.adobe.com using the same email as the existing MAGE ID | Sign in to https://account.magento.com using "Sign in with Adobe ID" | Existing MAGE ID is linked to the new Adobe ID |
+| Adobe ID and MAGE ID exist but not linked | Emails for Adobe ID and Commerce differ | Align the Adobe ID email to match the Commerce account email (or vice versa, depending on ownership) | After emails match, sign in via "Sign in with Adobe ID" at https://account.magento.com | Adobe ID becomes the login; the MAGE ID remains the entitlement identifier |
+| Has Adobe ID but "no MAGE ID" | Never signed in to https://account.magento.com | Use the existing Adobe ID | Sign in at https://account.magento.com for the first time | This first sign-in generates and links a MAGE ID |
+| Uses only cloud project login (accounts.magento.cloud) | Can access cloud project but not classic Commerce account | Continue using Adobe ID for cloud project | If Marketplace/licenses are needed, also sign in at https://account.magento.com with the same Adobe ID | A classic Commerce account (with MAGE ID) is created and linked |
+
+If a user believes they should have Commerce entitlements but does not see a MAGE ID, the default next step is to sign in at https://account.magento.com using their Adobe ID so that a Commerce account and MAGE ID can be created or correctly linked.

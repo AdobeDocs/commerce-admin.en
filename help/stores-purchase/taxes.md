@@ -101,8 +101,5 @@ _**To collect digital goods tax information:**_
 
 Additional resources:
 
-- [European Commission Taxation and Customs Union ][1]
-- [EU 1015 Place of Supply Changes][2]
-
-[1]: https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm
-[2]: https://www2.deloitte.com/global/en/services/tax.html
+- [European Commission Taxation and Customs Union ](https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)
+- [EU 1015 Place of Supply Changes](https://www2.deloitte.com/global/en/services/tax.html)

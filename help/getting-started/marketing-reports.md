@@ -3,7 +3,6 @@ title: Marketing reports
 description: Marketing reports provide information about the status of shopping carts, the use of search terms, and newsletter transmissions.
 exl-id: 3ff6d4f7-ab8d-4e4e-b9e9-b12e3a08de62
 feature: Marketing Tools, Reporting
-badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Marketing reports
 
@@ -17,6 +16,8 @@ The [!UICONTROL Products in Cart] report provides a list of all products current
 
 ## [!UICONTROL Search Terms Report]
 
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+
 The [Search Terms](../catalog/search-terms.md#search-terms-report) report shows what your customers are looking for in each store view. The report includes the number of matching items found in the catalog, and how many times the search term has been used.
 
 ![Search Terms Report](./assets/search-terms.png){width="600"}
@@ -28,6 +29,8 @@ The [!UICONTROL Abandoned Carts] report lists all registered customers who have 
 ![Abandoned Carts Report](./assets/abandoned-carts.png){width="600"}
 
 ## [!UICONTROL Newsletter Problems Report]
+
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
 
 The [!UICONTROL Newsletter Problems Report] includes information about any newsletter queue that failed to transmit successfully. The report includes the name of each subscriber, queue date and subject, and the information about the error.
 

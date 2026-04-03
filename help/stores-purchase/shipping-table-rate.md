@@ -109,7 +109,7 @@ The first step is to complete the default settings for table rates. You can comp
 1. Complete the table with appropriate values for the shipping calculation condition.
 
    - Use an asterisk (*) as a wildcard that represents all possible values in any category.
-   - The _[!UICONTROL Country]_ column must contain a [valid three-character code][1] for each row.
+   - The _[!UICONTROL Country]_ column must contain a [valid three-character code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) for each row.
    - Sort the data by _[!UICONTROL Region/State]_ so the specific locations are at the top of the list, and the wildcard locations at the bottom. Using this method processes the rules with the absolute values first, and the wildcard values later.
    - Zip/postal code ranges are not supported. Use an asterisk (*) to allow all codes within the region/state, or specify a single code for a specific location in the _[!UICONTROL Zip/Postal Code]_ column. 
    - Values in the _[!UICONTROL Weight (and above)]_ column can have a maximum of four decimal places (such as `2.5075`). Using more decimal places in the data causes the import to fail. 
@@ -188,6 +188,3 @@ This example uses the Weight v. Destination condition to create different shippi
 1. In the upper-left corner, set **[!UICONTROL Store View]** to `Main Website`, or to any other website where the configuration applies.
 
 1. For **[!UICONTROL Import]**, click **[!UICONTROL Choose File]** and select your completed `tablerates.csv` file to import the rates.
-
-
-[1]: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3

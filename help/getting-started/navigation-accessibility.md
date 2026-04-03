@@ -6,9 +6,9 @@ feature: Compliance
 ---
 # Accessibility
 
-Some visitors to your site rely on keyboard controls for navigation —rather than a mouse — while others might use touch or voice commands. Although keyboard navigation controls vary by browser and platform, the Tab key is commonly used to move the focus through the fields, links, and buttons on a page. To learn more, see [Keyboard Shortcuts][1]{:target="_blank"}.
+Some visitors to your site rely on keyboard controls for navigation —rather than a mouse — while others might use touch or voice commands. Although keyboard navigation controls vary by browser and platform, the Tab key is commonly used to move the focus through the fields, links, and buttons on a page. To learn more, see [Keyboard Shortcuts](https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts){:target="_blank"}.
 
-For more information about accessibility, see [Accessibility Guidelines][2]{:target="_blank"} in the developer documentation.
+For more information about accessibility, see [Accessibility Guidelines](https://developer.adobe.com/commerce/admin-developer/pattern-library/general/accessibility-guidelines/){:target="_blank"} in the developer documentation.
 
 ## Windows
 
@@ -46,6 +46,3 @@ For more information about accessibility, see [Accessibility Guidelines][2]{:tar
 |Scroll Horizontally|`Left`, `Right`|
 
 {style="table-layout:auto"}
-
-[1]: https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts
-[2]: https://developer.adobe.com/commerce/admin-developer/pattern-library/general/accessibility-guidelines/

@@ -28,6 +28,7 @@ feature: Configuration
   - [XML Sitemap](./catalog/xml-sitemap.md)
   - [RSS Feeds](./catalog/rss-feeds.md)
   - [Email to a Friend](./catalog/email-to-a-friend.md)
+  - [Product File Attributes](./catalog/product-file-attributes.md)
 - Security {#security}
   - [2FA](./security/2fa.md)
   - [Google reCAPTCHA Admin Panel](./security/google-recaptcha-admin.md)

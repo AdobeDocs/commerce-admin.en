@@ -3,6 +3,7 @@ title: Google reCAPTCHA Enterprise
 description: Learn how to configure Google reCAPTCHA Enterprise to protect your Adobe Commerce as a Cloud Service storefront from bots and fraudulent activities.
 role: Admin
 feature: Configuration, Security
+badgeSaas: label="SaaS only" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service projects only (Adobe-managed SaaS infrastructure)."
 ---
 # Google reCAPTCHA Enterprise
 
@@ -11,6 +12,8 @@ feature: Configuration, Security
 >[!NOTE]
 >
 >This feature does NOT provide reCAPTCHA support for the Admin.
+
+[reCAPTCHA integration](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/user-auth/recaptcha/) describes how to add support for reCAPTCHA Enterprise into your storefront.
 
 See [Google reCAPTCHA V3 and V2](security-google-recaptcha.md) for information about configuring other versions of Google reCAPTCHA.
 
@@ -22,7 +25,7 @@ Google reCAPTCHA Enterprise includes the following features:
 - **Risk score analysis**: Provides detailed risk scores (0.0-1.0) for each interaction
 - **Configurable thresholds**: Set minimum acceptable risk scores per tenant
 - **Multi-tenant Support**: Per-tenant configuration with isolated Google Cloud projects
-- **Encrypted credentials**: Service account credentials stored encrypted in database
+- **Encrypted credentials**: Service account credentials stored encrypted in a database
 - **Form protection**: Protects all standard Commerce forms, including login, checkout, product reviews, and more.
 
 ## Prerequisites
@@ -50,17 +53,19 @@ Follow these general steps to set up Google reCAPTCHA Enterprise for your storef
 
 ## Step 2: Configure Google reCAPTCHA for the storefront
 
-1. In the left panel under _[!UICONTROL Security]_, choose **[!UICONTROL Google reCAPTCHA Storefront]**.
+1. On the Adobe Commerce _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
-1. Complete the **[!UICONTROL reCAPTCHA Enterprise]** section as follows.
+1. Expand _[!UICONTROL Security]_ and choose **[!UICONTROL Google reCAPTCHA Storefront]**.
 
-   - For **[!UICONTROL Site Key]**, copy and paste your reCAPTCHA Enterprise site key from your Google Cloud console.
+1. Scroll down to the **[!UICONTROL reCAPTCHA Enterprise]** section, and complete the configuration as follows.
+
+   - For **[!UICONTROL Site Key]**, copy and paste your reCAPTCHA Enterprise site key from your Google Cloud Console.
 
    - For **[!UICONTROL Google Cloud Project ID]**, copy and paste the project ID from your Google Cloud project.
    
    - For **[!UICONTROL Service Account JSON]**, copy the contents of the Service Account JSON key file that you downloaded in [Step 1: Set up Google reCAPTCHA Enterprise](#step-1-set-up-google-recaptcha-enterprise).
 
-   - For **[!UICONTROL Minimum Score Threshold]**, enter the minimum score (0.0-1.0) to identify when a user interaction is flagged as a potential risk; where 1.0 is a typical user interaction, and 0.0 is likely a bot.
+   - For **[!UICONTROL Minimum Score Threshold]**, enter the minimum score (0.0-1.0) to identify when a user interaction is flagged as a potential risk. A score of 1.0 is a typical user interaction, and 0.0 is likely a bot.
 
    - For **[!UICONTROL Badge Position]**, choose the position of the invisible reCAPTCHA badge on each page. Options: `Inline` / `Bottom Right` / `Bottom Left`.
 
@@ -68,10 +73,10 @@ Follow these general steps to set up Google reCAPTCHA Enterprise for your storef
 
    - For **[!UICONTROL Language Code]**, enter a [two-character code](https://developers.google.com/recaptcha/docs/language) that specifies the language used for Google reCAPTCHA text and messaging.
 
-   - For **[!UICONTROL Validation Failure Message]**, optionally change the message displayed on the storefront when validation is not succesful.
+   - For **[!UICONTROL Validation Failure Message]**, optionally change the message displayed on the storefront when validation is not successful.
 
 
-1. Expand the **[!UICONTROL Storefront]** section and set each storefront form that you want t protect to **[!UICONTROL reCAPTCHA Enterprise]**.
+1. Expand the **[!UICONTROL Storefront]** section and set each storefront form that you want to protect to **[!UICONTROL reCAPTCHA Enterprise]**.
 
    {{recaptcha-forms-list}}
 

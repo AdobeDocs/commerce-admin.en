@@ -4,7 +4,7 @@
 
 This section contains the changes made in the last 60 days. We exclude all minor updates, such as copy editing, from this list.
 
-### December 17, 2025
+### April 1, 2026
 
 <table style="table-layout:auto;">
   <thead>
@@ -16,17 +16,99 @@ This section contains the changes made in the last 60 days. We exclude all minor
   </thead>
   <tbody>
     <tr>
-      <td><p>Updated the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty">Rewards and loyalty topic</a> to clarify how tax is calculated when customers use reward points or store credit during checkout.</p>
+      <td><p>Added the <code class="language-plaintext highlighter-rouge">numeric</code> and <code class="language-plaintext highlighter-rouge">file</code> <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types">attribute input types</a> and added a <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/product-file-attributes">Product File Attributes</a> page in the configuration reference.</p>
+</td>
+      <td>
+        Major update
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/907fc809707f64973e3dffe6f9089ca6bd358989">commit</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### March 25, 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Added Adobe Commerce as a Cloud Service instructions to <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer">Provide shopper assistance</a>.</p>
+</td>
+      <td>
+        Major update
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/159f4b95fa90908cc021e3b1d5faf594ec077aae">commit</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### March 10, 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules">Email reminders</a> are now available in Adobe Commerce as a Cloud Service.</p>
+</td>
+      <td>
+        Major update
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/af1530af58cb73c49e3dcc0d82577bb97efbb50e">commit</a></td>
+    </tr>
+    <tr>
+      <td><p>Added a new Allow Guest Order Access for Registered Emails setting that allows merchants to track guest orders placed with a registered email.</p>
+</td>
+      <td>
+        Major update
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/891fd0f08a952cd38bc92b41a4d54197f58f8a4d">commit</a></td>
+    </tr>
+    <tr>
+      <td><p>Updated <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes">Release notes</a> with B2B v1.5.3-beta1 (March 2026): quality improvements and bug fixes for quotes, requisition lists, shared catalogs, checkout, GraphQL, and related areas, plus minor copy and consistency fixes.</p>
+</td>
+      <td>
+        Major update
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/e097f7e6848929b53dd7ade2e63bf8653ff0feed">commit</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### February 19, 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Updated PaaS only badging on the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/reports-menu">Reports menu</a> page.</p>
 </td>
       <td>
         Feedback
       </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/1154cd5ced746ac6dfd609946528f281774bbaaa">commit</a></td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/e2a73e2a47d1e8befa43a6b0f942c4b440d296b7">commit</a></td>
     </tr>
   </tbody>
 </table>
 
-### December 11, 2025
+### February 10, 2026
 
 <table style="table-layout:auto;">
   <thead>
@@ -38,78 +120,12 @@ This section contains the changes made in the last 60 days. We exclude all minor
   </thead>
   <tbody>
     <tr>
-      <td><p>Updated the descriptions for the <code class="language-plaintext highlighter-rouge">NOFOLLOW</code> robots meta directives in the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview">SEO documentation</a>.<br /><em>Fixes issue <a href="https://github.com/AdobeDocs/commerce-admin.en/issues/82">#82</a>.</em></p>
+      <td><p>Updates to the Admin documentation for the Adobe Commerce as a Cloud Service February release:<br />- Added documentation for <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#custom-capture-amounts">custom capture amounts</a> when creating invoices in the REST API, which allows merchants to capture custom amounts when creating invoices for partial captures and specialized payment scenarios.<br />- Indicates which reports in the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/reports-menu">Reports menu</a> are now PaaS only.</p>
 </td>
       <td>
-        Technical, feedback
+        Major update
       </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/76e7c13c89b8ae53c4a3b56e5f090e6ffaa0b423">commit</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### November 24, 2025
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Description</th>
-      <th>Type</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Added information about which default cookies should not be disabled for <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law">Cookie law compliance</a>.</p>
-</td>
-      <td>
-        Technical
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/dbc09915e0ce6f052fa797ddd103f051ea289625">commit</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### November 15, 2025
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Description</th>
-      <th>Type</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Added guidance about the availability of Page Builder preview on the CMS Page to the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/page-add">Add and remove pages</a> and the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/workspace">Page Builder Workspace</a> topics. The preview does not display content unless it is available in the Default Store View.</p>
-</td>
-      <td>
-        Technical, feedback
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/929fe633f473af030f44e9b0d6b0f9bf8b4c53d5">commit</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### November 13, 2025
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Description</th>
-      <th>Type</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>The <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan">Security Scan tool</a> has been updated to support merchants with Commerce storefronts deployed as Adobe Experience Manager sites.</p>
-</td>
-      <td>
-        Technical
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/467decc88b33ada26ae7aa4afbf9b4a8e78f23cc">commit</a></td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/0c602db5a7291b95d725bce59df53923490d6b96">commit</a></td>
     </tr>
   </tbody>
 </table>

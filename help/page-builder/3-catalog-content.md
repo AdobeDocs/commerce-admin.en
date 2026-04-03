@@ -114,7 +114,7 @@ In this part of the exercise, you learn how easy it is to customize a product pa
 
 1. Enter the **[!UICONTROL Video URL]**.
 
-   The video can be hosted on either [YouTube][1] or [Vimeo][2]. The video in this example can be found on YouTube at the following URL:
+   The video can be hosted on either [YouTube](https://www.youtube.com/) or [Vimeo](https://vimeo.com/). The video in this example can be found on YouTube at the following URL:
 
       `https://www.youtube.com/watch?v=ZpFrNyD4100`
 
@@ -283,6 +283,3 @@ In this step, you create two new custom attributes to show how the [!DNL Page Bu
    ![[!DNL Page Builder] and Text Editor attributes in the storefront](./assets/pb-storefront-product-attribute.png){width="600" zoomable="yes"}
 
 You have completed the [!DNL Page Builder] Catalog Content exercise. Keep the work that you created, so you can refer to it later.
-
-[1]: https://www.youtube.com/
-[2]: https://vimeo.com/

@@ -72,8 +72,6 @@ The prices in the storefront take precedence from the highest to the lowest quan
 
 [!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service projects only (Adobe-managed SaaS infrastructure)."}
 
-[!BADGE Sandbox]{type=Caution tooltip="The items listed are currently only available in Sandbox environments. Adobe makes new releases available in Sandbox environments first to provide time for you to test upcoming changes before the release is available on Production environments."}
-
 In previous versions of Commerce, tier pricing could not be used in conjunction with catalog price rules. The catalog rules ignored tier price configuration and calculated discounts only from the original base price. Using Adobe Commerce as a Cloud Service, you can now choose to include tier pricing in the calculation of catalog price rules.
 
 To enable this functionality:

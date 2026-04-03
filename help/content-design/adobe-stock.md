@@ -7,7 +7,7 @@ badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.ad
 ---
 # Adobe Stock Integration
 
-To get access to countless media assets for use in your store, integrate [Adobe Stock][adobe-stock] with [!UICONTROL Commerce].
+To get access to countless media assets for use in your store, integrate [Adobe Stock](https://stock.adobe.com) with [!UICONTROL Commerce].
 
 ![Adobe Stock Search Results](./assets/adobe-stock-search-grid.png){width="700" zoomable="yes"}
 
@@ -17,13 +17,13 @@ The Adobe Stock service provides businesses with access to millions of high-qual
 
 This integration requires:
 
-- An [Adobe Developer][dev-console] account
+- An [Adobe Developer](https://developer.adobe.com/console/home) account
 - Adobe Commerce or Magento Open Source, 2.3.4 or later
 
 Licensing Adobe Stock images requires:
 
-- An [Adobe account][adobe-signin]
-- A paid [Adobe Stock][adobe-stock] plan associated with the account
+- An [Adobe account](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)
+- A paid [Adobe Stock](https://stock.adobe.com) plan associated with the account
 
 ## Integrate [!DNL Commerce] and Adobe Stock
 
@@ -34,7 +34,7 @@ Configuring the Adobe Stock integration for Adobe Commerce is a two-step process
 
 ### Create an Adobe Developer integration
 
-1. Navigate to the [Adobe Developer Console][dev-console].
+1. Navigate to the [Adobe Developer Console](https://developer.adobe.com/console/home).
 
 1. Under _[!UICONTROL Quick Start]_, click **[!UICONTROL Create new project]**.
 
@@ -56,7 +56,7 @@ Configuring the Adobe Stock integration for Adobe Commerce is a two-step process
    - Any periods (`.`) must be escaped with two backslashes (`\\`).
    - Add `.*` to the end of the pattern.
 
-   Using the example from the previous default redirect URI, it would be `https://store\\.myshop\\.com/admin_hgkq1l/adobe_ims/oauth/callback/.*`.
+   Using the example from the previous default redirect URI, the pattern would be `https://store\\.myshop\\.com/admin_hgkq1l/adobe_ims/oauth/callback/.*`
 
 1. Click **[!UICONTROL Next]**.
 
@@ -68,7 +68,7 @@ Configuring the Adobe Stock integration for Adobe Commerce is a two-step process
 
 ### Configure the Adobe Stock integration
 
-To set the system configuration in your [!DNL Commerce] Admin, use the _API Key_ and _Client secret_ generated in the [previous section][create-integration].
+To set the system configuration in your [!DNL Commerce] Admin, use the _API Key_ and _Client secret_ generated in the [previous section](#create-an-adobeio-integration).
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -89,8 +89,3 @@ To set the system configuration in your [!DNL Commerce] Admin, use the _API Key_
    Give the validation a few seconds. If your credentials are valid, you should see a green _Connection Successful!_ message.
 
 1. When complete, click **[!UICONTROL Save Config]**.
-
-[adobe-stock]: https://stock.adobe.com
-[adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html
-[dev-console]: https://developer.adobe.com/console/home
-[create-integration]: #create-an-adobeio-integration

@@ -6,15 +6,15 @@ feature: Marketing Tools, Integration
 ---
 # Google AdWords
 
-[Google AdWords][1] is a service that you can use to place ads in Google Search results and on the pages of companies in the Google Display Network. The AdWords dashboard includes tools to manage your campaigns, track response, and measure results.
+[Google AdWords](https://www.google.com/adwords/) is a service that you can use to place ads in Google Search results and on the pages of companies in the Google Display Network. The AdWords dashboard includes tools to manage your campaigns, track response, and measure results.
 
-Conversion tracking shows the number of ad clicks that lead to a sale or other valuable action. The _Success_ page that appears to your customer after an order has been submitted is used to track conversions because it appears only after a sale. After completing the Google AdWords configuration for your store, there is no need to copy the conversion tracking script to the Success page, because Commerce already has the necessary information. To learn more, see [Google AdWords Help][2].
+Conversion tracking shows the number of ad clicks that lead to a sale or other valuable action. The _Success_ page that appears to your customer after an order has been submitted is used to track conversions because it appears only after a sale. After completing the Google AdWords configuration for your store, there is no need to copy the conversion tracking script to the Success page, because Commerce already has the necessary information. To learn more, see [Google AdWords Help](https://support.google.com/adwords/answer/6095821).
 
 ![Adobe Ad in Google Search Results](./assets/google-adwords-adobe-ad.png){width="500"}
 
 ## Step 1. Create a Google AdWords campaign
 
-1. Visit [Google AdWords][3], and sign up for an account.
+1. Visit [Google AdWords](https://ads.google.com/), and sign up for an account.
 
 1. Follow the instructions to create a campaign.
 
@@ -84,7 +84,7 @@ Conversion tracking shows the number of ad clicks that lead to a sale or other v
       - `2` - Displays a two-line notification with a link to more information about Google tracking.
       - `3` - Displays no customer notification.
 
-   - Enter the [hexadecimal code][4]{:target="_blank"} for the **[!UICONTROL Conversion Color]** that you want to use for the Google Site Stats notification label.
+   - Enter the [hexadecimal code](https://www.w3schools.com/colors/colors_picker.asp){:target="_blank"} for the **[!UICONTROL Conversion Color]** that you want to use for the Google Site Stats notification label.
 
    - Enter the encrypted text for the **[!UICONTROL Conversion Label]** that appears on the Google Sites Stat notification.
 
@@ -126,8 +126,3 @@ Conversion tracking shows the number of ad clicks that lead to a sale or other v
 ## Step 4. Verify the configuration
 
 Within a few hours, the tracking status in your Google AdWords dashboard changes from `Unverified` to `No recent conversions` or `Recording conversions`. When someone clicks your ad and makes a purchase, the conversion appears on the Conversion Actions page of your dashboard and campaign report.
-
-[1]: https://www.google.com/adwords/
-[2]: https://support.google.com/adwords/answer/6095821
-[3]: https://ads.google.com/
-[4]: https://www.w3schools.com/colors/colors_picker.asp

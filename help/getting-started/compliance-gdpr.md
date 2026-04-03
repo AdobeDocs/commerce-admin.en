@@ -31,7 +31,7 @@ If your business is required to comply with both the GDPR and the [California Co
 - The CCPA has additional data inventory and mapping requirements.
 - The regulations have different privacy policy requirements.
 
-Businesses that comply with GDPR might have additional obligations under the CCPA. To learn more, see the [CCPA Fact Sheet][3]{:target="_blank"}.
+Businesses that comply with GDPR might have additional obligations under the CCPA. To learn more, see the [CCPA Fact Sheet](https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf){:target="_blank"}.
 
 ## Best practices
 
@@ -41,10 +41,6 @@ Businesses that comply with GDPR might have additional obligations under the CCP
 
 - Maintain transparency and keep thorough documentation.
 
-- To learn how Adobe helps merchants comply with applicable legal obligations, visit the [website][1]{:target="_blank"}.
+- To learn how Adobe helps merchants comply with applicable legal obligations, visit the [website](https://business.adobe.com/privacy/general-data-protection-regulation.html){:target="_blank"}.
 
-- For data flow diagrams and database entity mapping, see the [Personal Information Reference][2]{: target="_blank"}.
-
-[1]: https://business.adobe.com/privacy/general-data-protection-regulation.html
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html
-[3]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf
+- For data flow diagrams and database entity mapping, see the [Personal Information Reference](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html){: target="_blank"}.

@@ -10,7 +10,7 @@ feature: Compliance
 >
 >This information is one in a series of topics to help Adobe Commerce merchants and developers understand the implications of the California Consumer Privacy Act. The information is based on the text of the statute. To confirm if CCPA applies to your business, consult with your attorney.
 
-The [California Consumer Privacy Act][5] (CCPA) expands the rights of consumers in California for determining how their personal information is collected, stored, and used. Its emphasis is the protection of consumers from the unauthorized sale or exchange or their personal information. The CCPA was enacted in 2018 and went into effect January 1, 2020.
+The [California Consumer Privacy Act](https://oag.ca.gov/privacy/ccpa) (CCPA) expands the rights of consumers in California for determining how their personal information is collected, stored, and used. Its emphasis is the protection of consumers from the unauthorized sale or exchange or their personal information. The CCPA was enacted in 2018 and went into effect January 1, 2020.
 
 The CCPA grants the following new rights to consumers:
 
@@ -50,13 +50,13 @@ If your business is required to comply with both the [General Data Protection Re
 - The CCPA has additional data inventory and mapping requirements.
 - The regulations have different privacy policy requirements.
 
-Businesses that comply with GDPR might have additional obligations under the CCPA. To learn more, see the [CCPA Fact Sheet][3]{:target="_blank"}.
+Businesses that comply with GDPR might have additional obligations under the CCPA. To learn more, see the [CCPA Fact Sheet](https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf){:target="_blank"}.
 
 ### Compliance roadmap
 
 A coordinated effort is required to develop and implement a plan to address compliance. Use this roadmap as a guide to mobilize resources and prioritize tasks so you can move ahead on multiple fronts. The process is essentially the same for all [!DNL Commerce] installations, with the following exception:
 
-- **Adobe Commerce on cloud infrastructure**: Merchants with stores hosted on Adobe [cloud infrastructure][4]{:target="_blank"} can ask their Adobe Commerce Technical Account Manager or Customer Support for help with responding to consumer requests.
+- **Adobe Commerce on cloud infrastructure**: Merchants with stores hosted on Adobe [cloud infrastructure](https://www.adobe.com/commerce/magento.html){:target="_blank"} can ask their Adobe Commerce Technical Account Manager or Customer Support for help with responding to consumer requests.
 
 - **On-Premise**: Merchants with on-premise installations of Adobe Commerce or Magento Open Source must develop their own processes and tools to respond to and manage consumer requests related to privacy regulations.
 
@@ -105,8 +105,8 @@ Take inventory of your digital properties, including all integrations and who ha
 
 1. See the following topics for applicable data flow diagrams and database entity mappings for each version:
 
-   - [Personal Information Reference (2.x)][1]
-   - [Personal Information Reference (1.x)][2]
+   - [Personal Information Reference (2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html)
+   - [Personal Information Reference (1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html)
 
    ![diagram](./assets/privacy-frontend-diagram.svg)
 
@@ -199,9 +199,3 @@ Review your current privacy policy and consider what, if any, additional disclos
 **Stakeholders:** Customer Service, Administrative Support
 
 For 24 months after each individual rights request is received, maintain a record of the request and your company's response.
-
-[1]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html
-[3]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf
-[4]: https://www.adobe.com/commerce/magento.html
-[5]: https://oag.ca.gov/privacy/ccpa

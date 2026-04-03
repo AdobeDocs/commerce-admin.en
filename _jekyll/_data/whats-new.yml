@@ -2,8 +2,179 @@
 title: What's new
 description: This section contains the changes made in the last 60 days. We exclude
   all minor updates, such as copy editing, from this list.
-updated: Fri Jan 9 15:32:46 2026
+updated: Fri Apr 3 16:35:39 2026
 entries:
+- description: Added the `numeric` and `file` [attribute input types](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types)
+    and added a [Product File Attributes](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/product-file-attributes)
+    page in the configuration reference.
+  versions: ''
+  type: major-update
+  date: April 1, 2026
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/783
+  merge_commit: 907fc809707f64973e3dffe6f9089ca6bd358989
+  contributor: jhoover
+  membership:
+  labels:
+  - major-update
+- description: Added Adobe Commerce as a Cloud Service instructions to [Provide shopper
+    assistance](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer).
+  versions: ''
+  type: major-update
+  date: March 25, 2026
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/778
+  merge_commit: 159f4b95fa90908cc021e3b1d5faf594ec077aae
+  contributor: jhoover
+  membership:
+  labels:
+  - major-update
+- description: "[Email reminders](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules)
+    are now available in Adobe Commerce as a Cloud Service."
+  versions: ''
+  type: major-update
+  date: March 10, 2026
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/761
+  merge_commit: af1530af58cb73c49e3dcc0d82577bb97efbb50e
+  contributor: jhoover
+  membership:
+  labels:
+  - major-update
+  - hold for release
+- description: Added a new Allow Guest Order Access for Registered Emails setting
+    that allows merchants to track guest orders placed with a registered email.
+  versions: ''
+  type: major-update
+  date: March 10, 2026
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/762
+  merge_commit: 891fd0f08a952cd38bc92b41a4d54197f58f8a4d
+  contributor: jhoover
+  membership:
+  labels:
+  - major-update
+  - hold for release
+- description: 'Updated [Release notes](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes)
+    with B2B v1.5.3-beta1 (March 2026): quality improvements and bug fixes for quotes,
+    requisition lists, shared catalogs, checkout, GraphQL, and related areas, plus
+    minor copy and consistency fixes.'
+  versions: 2.4.9
+  type: major-update
+  date: March 10, 2026
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/769
+  merge_commit: e097f7e6848929b53dd7ade2e63bf8653ff0feed
+  contributor: shevtsov
+  membership:
+  labels:
+  - major-update
+  - release notes
+  - 2.4.9
+- description: Updated PaaS only badging on the [Reports menu](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/reports-menu)
+    page.
+  versions: ''
+  type: feedback
+  date: February 19, 2026
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/755
+  merge_commit: e2a73e2a47d1e8befa43a6b0f942c4b440d296b7
+  contributor: jhoover
+  membership:
+  labels:
+  - editorial
+  - feedback
+- description: Updates to the Admin documentation for the Adobe Commerce as a Cloud
+    Service February release:<br/>- Added documentation for [custom capture amounts](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#custom-capture-amounts)
+    when creating invoices in the REST API, which allows merchants to capture custom
+    amounts when creating invoices for partial captures and specialized payment scenarios.<br/>-
+    Indicates which reports in the [Reports menu](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/reports-menu)
+    are now PaaS only.
+  versions: ''
+  type: major-update
+  date: February 10, 2026
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/749
+  merge_commit: 0c602db5a7291b95d725bce59df53923490d6b96
+  contributor: jhoover
+  membership:
+  labels:
+  - major-update
+  - hold for release
+- description: Updated [Cookie law compliance](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law)
+    to add the missing `mage-cache-timeout` localStorage key and convert the exempt
+    cookies list to a table format.
+  versions: ''
+  type: technical, feedback
+  date: February 2, 2026
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/742
+  merge_commit: ebb6348c6b5a30f5de4025f39bae0061b397a4b9
+  contributor: meker
+  membership:
+  labels:
+  - editorial
+  - technical
+  - feedback
+- description: '[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions"
+    tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure)
+    and on-premises projects only."} Updated the prerequisites for configuring the
+    IMS integration for Adobe Commerce to provide information about requesting access
+    to the Adobe Admin Console.'
+  versions: ''
+  type: technical, feedback
+  date: February 2, 2026
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/738
+  merge_commit: 8ea546c5e1cc9296c8b056ea7e25984a66d43851
+  contributor: meker
+  membership:
+  labels:
+  - technical
+  - feedback
+- description: Updated the [Customer Groups](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-groups)
+    in the Customer Management Guide to clarify that Admin users cannot edit a customer’s
+    Customer Group after the customer has been assigned to a company.
+  versions: ''
+  type: technical
+  date: January 31, 2026
+  link: https://github.com/AdobeDocs/commerce-admin.en/pull/81
+  merge_commit: ac72d6ecc6a6e920d08b7426efa4a39d0f692766
+  contributor: apoltoratskyi
+  membership:
+  labels:
+  - technical
+- description: Changed product references from "Adobe Sensei" to "Adobe AI" to reflect
+    Adobe branding updates.
+  versions: ''
+  type: feedback
+  date: January 20, 2026
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/723
+  merge_commit: 4077b922dae0ed9a9050a5f6160143a636646daa
+  contributor: meker
+  membership:
+  labels:
+  - feedback
+- description: Added clarification when [Order Ready For Pickup in Store](https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/sales-emails#order-ready-for-pickup-in-store)
+    emails are available.
+  versions: ''
+  type: feedback
+  date: January 16, 2026
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/725
+  merge_commit: 65fd67dcd3c14daddfc0f36493dc6da3630898a1
+  contributor: keharper
+  membership:
+  labels:
+  - feedback
+- description: Added the following features to Adobe Commerce as a Cloud Service:<br/>-
+    Added support for [Google reCAPTCHA Enterprise](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-google-recaptcha-enterprise),
+    which provides advanced bot protection with adaptive risk analysis and machine
+    learning capabilities.<br/>- Transform shipment tracking numbers included in shopper
+    emails from plain text into clickable links by [enabling Custom Tracking URLs](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-settings#shipment-tracking-urls).
+    This feature is supported for USPS, UPS, FedEx, and DHL.<br/>- You can now combine
+    tiered pricing discounts with catalog rule discounts using [catalog price rules](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/product-price-tier#enable-tier-pricing-for-catalog-price-rules).
+    This enhancement allows you to create more dynamic and competitive pricing strategies.
+  versions: ''
+  type: major-update, new-topic
+  date: January 15, 2026
+  link: https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/pull/721
+  merge_commit: 70e73b47c4b0342ade3deab64dbe39f29b82191f
+  contributor: jhoover
+  membership:
+  labels:
+  - major-update
+  - new-topic
 - description: Updated the [Rewards and loyalty topic](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty)
     to clarify how tax is calculated when customers use reward points or store credit
     during checkout.

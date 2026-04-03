@@ -63,7 +63,7 @@ feature: Site Management, Configuration
 |[!UICONTROL Secure Base URL for User Media Files]|Store View|A path that points to the location of  catalog images and other media files. The files can be on either an unsecure or secure channel. A placeholder is used to represent the base URL. If your Commerce installation has multiple sites with the same folder structure, you can have a different media folder for each. This gives you the ability to back up and roll back each media folder separately. You can also specify a media folder outside of your Commerce installation.|
 |[!UICONTROL Use Secure URLs on Storefront]|Store View|If your domain has a security certificate, you can choose to run the storefront, with or without SSL encryption. Options:<br />**`Yes`** - Store URLs begin with `https` to indicate that the page is delivered with encrypted, secure protocol. <br />**`No`** - Store URLs begin with `http` to indicate that the page is delivered without secure protocol.|
 |[!UICONTROL Use Secure URLs in Admin]|Global|If your domain has a security certificate, you can choose to run the store Admin, with or without SSL encryption. Options: <br />**`Yes`** - Admin URLs begin with `https` to indicate that the page is delivered with encrypted, secure protocol.<br />**`No`** - Admin URLs begin with `http` to indicate that the page is delivered without secure protocol.<br /> When secure URLs are enabled for both the store and Admin, two additional fields appear to enable and configure `HSTS`.|
-|[!UICONTROL Enable HTTP Strict Transport Security (HSTS)]|Store View|When enabled, [`HSTS`][1] provides a measure of security against "man in the middle" attacks, and prevents users from overriding the "invalid certificate" message. Options: `Yes` / `No`|
+|[!UICONTROL Enable HTTP Strict Transport Security (HSTS)]|Store View|When enabled, [`HSTS`](https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html) provides a measure of security against "man in the middle" attacks, and prevents users from overriding the "invalid certificate" message. Options: `Yes` / `No`|
 |[!UICONTROL Upgrade Insecure Requests]|Store View| When enabled, converts unsecure (`HTTP`) requests received from the browser to the secure (`HTTPS`) protocol. Options: `Yes` / `No`|
 |[!UICONTROL Offloader Header]|Global|Specifies the `offloader_header` value in your server configuration to identify the protocol between the client and load balancer. Most Commerce installations use the default value, `X-Forwarded-Proto` (XFP) to identify the protocol as either `HTTP` or `HTTPS`.|
 
@@ -144,5 +144,3 @@ feature: Site Management, Configuration
 |[!UICONTROL Show Notice if Local Storage is Disabled]|Store View|Displays a message if the local cache is disabled. Options: `Yes` / `No`|
 
 {style="table-layout:auto"}
-
-[1]: https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html

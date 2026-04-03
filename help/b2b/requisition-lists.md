@@ -6,7 +6,7 @@ feature: B2B
 ---
 # Requisition lists
 
-Using a requisition list saves time when purchasing frequently ordered products because items are added to the shopping cart directly from the list. Buyers can maintain multiple lists that focus on products from different vendors, buyers, teams, campaigns, or anything else that streamlines their workflow. It is available for both logged-in users and guests.
+Using a requisition list saves time when purchasing frequently ordered products because items are added to the shopping cart directly from the list. Buyers can maintain multiple lists that focus on products from different vendors, buyers, teams, campaigns, or anything else that streamlines their workflow. The requisition list capability is available to logged-in users.
 
 >[!NOTE]
 >

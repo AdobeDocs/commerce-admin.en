@@ -10,11 +10,13 @@ Your [!DNL Commerce] account contains information that you can make available to
 
 The [!DNL Commerce] Support team does not have access to the account and cannot set up shared access for you. Only the primary account holder with appropriate permissions can set up shared access. When you share account access, all sensitive information, such as your billing history or credit card information, remains protected and is never available to other users.
 
->[!NOTE]
+![Shared access settings](./assets/shared-access.png){width="600" zoomable="yes"}
+
+The Billing History section shows only older invoices that were created before a change to our billing system. If you don’t see any newer invoices listed, those invoices have been transitioned to the new system and are not accessible from this view.
+
+>[!IMPORTANT]
 >
 >All actions taken by users with shared access are the sole responsibility of the primary account holder. Adobe is not responsible for any actions taken by users who have shared access to your account.
-
-![Shared access settings](./assets/shared-access.png){width="600" zoomable="yes"}
 
 ## Set up a shared account
 

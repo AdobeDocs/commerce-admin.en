@@ -174,7 +174,7 @@ Commerce uses the following [customer configuration settings](../customers/accou
 
 ## VAT ID validation
 
-_VAT ID Validation_ automatically calculates the required tax for B2B transactions that take place within the European Union (EU), based on the merchant and customer locale. Commerce performs VAT ID validation using the web services of the [European Commission][1] server.
+_VAT ID Validation_ automatically calculates the required tax for B2B transactions that take place within the European Union (EU), based on the merchant and customer locale. Commerce performs VAT ID validation using the web services of the [European Commission](https://ec.europa.eu/taxation_customs/vies/) server.
 
 >[!NOTE]
 >
@@ -320,6 +320,3 @@ Create the [tax rules](tax-rules.md) for using VAT ID Validation effectively.
    To change the default setting, clear the **Use system values** checkbox. Hold down the Ctrl key (PC) or the Command key (Mac) and click each country that you want to add or remove.
 
 1. When complete, click **[!UICONTROL Save Config]**.
-
-
-[1]: https://ec.europa.eu/taxation_customs/vies/
