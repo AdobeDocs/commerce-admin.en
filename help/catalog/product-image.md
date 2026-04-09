@@ -78,6 +78,22 @@ To exclude an image from the thumbnail gallery, select the **[!UICONTROL Hidden]
 
 ![Hidden Images](./assets/product-images-and-videos-hidden.png){width="600" zoomable="yes"}
 
+## Manage images and videos at the store view level
+
+When you switch the **[!UICONTROL Store View]** chooser to a specific store view (not **[!UICONTROL All Store Views]**), the _[!UICONTROL Images and Videos]_ section provides additional controls to manage how images are displayed for that store view without affecting the default scope.
+
+### Reorder images for a store view
+
+When working in a store view scope, a **[!UICONTROL Use Default Order]** checkbox appears at the bottom of the _[!UICONTROL Images and Videos]_ box. Select this checkbox to revert the image display order to the sequence defined at the default scope.
+
+![Images And Videos – Store View](./assets/product-images-and-videos-rearrange-store-scope.png){width="600" zoomable="yes"}
+
+### Set image details for a store view
+
+When you open the Image Detail view at store view scope, each field — including **[!UICONTROL Alt Text]**, the image **[!UICONTROL Role]** assignments (Base, Small, Thumbnail, Swatch), and **[!UICONTROL Hide from Product Page]** — displays a **[!UICONTROL Use Default Value]** checkbox. Select this checkbox to inherit the value configured at the default scope for that field.
+
+![Image Detail View – Store View](./assets/product-image-detail-store-scope.png){width="600" zoomable="yes"}
+
 ## Image roles
 
 |Image Role|Description|
