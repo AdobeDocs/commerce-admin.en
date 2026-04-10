@@ -2,7 +2,7 @@
 title: What's new
 description: This section contains the changes made in the last 60 days. We exclude
   all minor updates, such as copy editing, from this list.
-updated: Fri Apr 3 16:35:39 2026
+updated: Fri Apr 10 15:20:31 2026
 entries:
 - description: Added the `numeric` and `file` [attribute input types](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types)
     and added a [Product File Attributes](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/product-file-attributes)
