@@ -53,7 +53,7 @@ Before setting up an email reminder rule, you must first [set up a cart price ru
    >
    >The same email reminder is **_not retriggered_** for the same customer for **_new_** abandoned carts and wish lists **_after_** the _[!UICONTROL Repeat Schedule]_ period is over.
    >
-   >Adobe Commerce as a Cloud Service has an experimental feature that allows rules to repeat, see [Rule reusability](#rule-reusability) for more information.
+   >Adobe Commerce as a Cloud Service has an experimental feature that allows a single rule to be applied multiple times, see [Rule reusability](#rule-reusability) for more information.
 
    Complete the condition to describe the scenario that triggers the email reminder.
 
@@ -87,11 +87,11 @@ Before setting up an email reminder rule, you must first [set up a cart price ru
 
       ![Titles and descriptions - store view](./assets/email-reminder-rules-title-descriptions-per-store-view.png){width="500" zoomable="yes"}
 
-1. [!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and Adobe Commerce Optimizer projects only (Adobe-managed SaaS infrastructure)."} If you are using [!DNL Adobe Commerce as a Cloud Service], you can enable [rule reusability](#rule-reusability) by marking the [!UICONTROL Rule Repeatability] checkbox.
+1. [!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and Adobe Commerce Optimizer projects only (Adobe-managed SaaS infrastructure)."} If you are using [!DNL Adobe Commerce as a Cloud Service], you can enable [rule reusability](#rule-reusability) by selecting the [!UICONTROL Rule Repeatability] checkbox.
 
    >[!IMPORTANT]
    >
-   >This an experimental feature and is not enabled by default. To enable it, contact your Adobe Commerce Customer Success Manager or create a support ticket. It will be made available to all Adobe Commerce as a Cloud Service customers in a future release.
+   >This feature is experimental and disabled by default. To request access, contact your Adobe Commerce Customer Success Manager or submit a support ticket. The feature will be available to all Adobe Commerce as a Cloud Service customers in a future release.
 
 1. When complete, click **[!UICONTROL Save]**.
 
@@ -103,9 +103,9 @@ Before setting up an email reminder rule, you must first [set up a cart price ru
 >
 >This an experimental feature and is not enabled by default. To enable it, contact your Adobe Commerce Customer Success Manager or create a support ticket. It will be made available to all Adobe Commerce as a Cloud Service customers in a future release.
 
-Rule reusability allows you to reuse the same rule for multiple email reminders. This is useful in scenarios where you want the rule to reapply to the customer at a later time.  Without rule repeatability, a user who clears their cart or completes the purchase will no longer be eligible for the rule.
+Rule reusability allows you to reuse a single rule for multiple email reminders. This is useful when you want the rule to apply to the same customer at a later time. Without rule repeatability, the rule no longer applies after a customer clears their cart or completes a purchase.
 
-Marking the [!UICONTROL Rule Reusability] checkbox on the [!UICONTROL Emails and Labels] tab allows the rule to apply to users again after the original rule trigger no longer applies.
+Selecting the [!UICONTROL Rule Reusability] checkbox on the [!UICONTROL Emails and Labels] tab allows the rule to apply to users again after the original rule trigger no longer applies.
 
 >[!BEGINSHADEBOX]
 
@@ -113,8 +113,8 @@ Consider the following example:
 
 You have an abandoned cart rule that is triggered after 1 day and retriggers 3 and 5 days later. A user abandons a cart and 1 day later, they receive an abandoned cart email reminder. After 2 days, the user decides to complete their purchase. The cart is no longer abandoned. 10 days later, the user abandons a new cart with different items.
 
-- If [!UICONTROL Rule Reusability] is enabled, the user will receive a new abandoned cart email reminder.
-- If [!UICONTROL Rule Reusability] is disabled, the user will **not** receive any additional abandoned cart email reminders.
+- If [!UICONTROL Rule Reusability] is enabled, the user receives a new abandoned cart email reminder.
+- If [!UICONTROL Rule Reusability] is disabled, the user does **not** receive any additional abandoned cart email reminders.
 
 >[!ENDSHADEBOX]
 
