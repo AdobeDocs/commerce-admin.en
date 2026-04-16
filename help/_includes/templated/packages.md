@@ -1,18 +1,18 @@
 # Adobe Commerce with B2B packages
 
-<!-- 
+<!--
 The 'packages' variable contains the 'packages' node of the '_data/codebase/b2b/composer_lock.json' file
 -->
 
-<!-- 
+<!--
 The 'packages-dev' variable contains the 'packages-dev' node of the '_data/codebase/b2b/composer_lock.json' file
 -->
 
-<!-- 
+<!--
 The 'product' variable contains data of the 'magento/product-enterprise-edition' package
 -->
 
-<!-- 
+<!--
 The edition variable contains `commerce-b2b` value from the _data/names.yml file
 -->
 
