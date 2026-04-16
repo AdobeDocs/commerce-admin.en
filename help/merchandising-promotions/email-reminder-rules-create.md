@@ -91,7 +91,7 @@ Before setting up an email reminder rule, you must first [set up a cart price ru
 
    >[!IMPORTANT]
    >
-   >This feature is experimental and disabled by default. To request access, contact your Adobe Commerce Customer Success Manager or submit a support ticket. The feature will be available to all Adobe Commerce as a Cloud Service customers in a future release.
+   >The rule repeatability option is an experimental feature that is disabled by default.  For details on enabling the option, see [Rule repeatability](#rule-repeatabilty).
 
 1. When complete, click **[!UICONTROL Save]**.
 
