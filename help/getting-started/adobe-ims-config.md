@@ -13,6 +13,8 @@ This integration supports Commerce merchants with Admin users who have an Adobe 
 
 >[!IMPORTANT]
 >
+>The AdobeIms integration is applied globally. Once enabled, all users are required to authenticate through AdobeIms. Individual users cannot be excluded from this configuration, and username and password login is no longer available for individual users.
+>
 >Admin users should save their Commerce Admin credentials (username and password) and 2FA credentials before enabling this integration. These credentials are needed if the IMS integration is disabled.
 
 ## Prerequisites
@@ -20,13 +22,17 @@ This integration supports Commerce merchants with Admin users who have an Adobe 
 * Adobe Commerce 2.4.5 or later
 * An Adobe.com account with access to the [Adobe Admin Console](https://adminconsole.adobe.com/).
 
+  >[!NOTE]
+  >
+  >If you do not have access to the Adobe Commerce Admin console, submit a request to your account team to provision access.
+
 The administrator who configures this integration needs the following credentials during module enablement:
 
 * Organization ID (obtained from [Adobe Admin Console](https://adminconsole.adobe.com/)), which must be at least 24 characters in length. The authenticated user must belong to this IMS organization. For information about finding your organization ID, see [Organizations in Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
 * 2FA should be enforced on the Organization level in Adobe Admin Console to enable the module. Check [Authentication setings](https://helpx.adobe.com/enterprise/using/authentication-settings.html#two-step-verification).
 * Client ID
 * Client secret
-* Client ID and client secret are available after retrieving API keys from the [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/credentials/).
+* Client ID and client secret are available after retrieving API keys from the [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/credentials).
 
 Commerce Admin users must create an account with an Adobe ID to log in.
 
@@ -100,3 +106,7 @@ Enter `bin/magento admin:adobe-ims:enable`. You are prompted to enter the follow
 Adobe Commerce displays a message that indicates whether enablement succeeded or failed.
 
 After successfully enabling this feature, you can transition other Adobe Commerce user accounts to Adobe IMS accounts. Adobe Commerce users must belong to the configured Adobe organization to log in using an Adobe ID.
+
+## Identity and Single Sign-On
+
+For information about identity configuration options including Adobe ID, Enterprise ID, and Federated ID, and instructions for configuring Single Sign-On (SSO) for secure access to Adobe apps, see [Set up identity and Single Sign-On](https://helpx.adobe.com/enterprise/using/set-up-identity.html) in the *Enterprise Admin Console* documentation.

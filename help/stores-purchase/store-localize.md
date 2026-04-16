@@ -8,11 +8,11 @@ topic: Commerce, Localization
 
 Most of the text that appears to be hard-coded on pages throughout your store can be instantly changed to a different language by changing the locale of the view. Changing the locale does not actually translate the text word-for-word, but simply references a different translation table that provides the interface text that is used throughout the store. The text that can be changed includes navigational titles, labels, buttons, and links such as _My Cart_ and _My Account_. You can also use the [Inline Translation](../configuration-reference/advanced/developer.md) tool to touch up text in the interface.
 
-Language packs can be found under [Translations & Localization][1]{:target="_blank"} on Commerce Marketplace. New extensions are continually added to Marketplace, so check back often.
+Language packs can be found under [Translations & Localization](https://marketplace.magento.com/extensions/content-customizations/translations-localization.html){:target="_blank"} on Commerce Marketplace. New extensions are continually added to Marketplace, so check back often.
 
 ## Step 1: Install a language pack
 
-Follow the standard instructions for installing the language pack extension. For detailed information about installing an extension, see [General CLI installation][2] in the _Extensions Guide_.
+Follow the standard instructions for installing the language pack extension. For detailed information about installing an extension, see [General CLI installation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) in the _Extensions Guide_.
 
 ## Step 2: Create a store view for the language
 
@@ -133,7 +133,3 @@ If your store has multiple views in different languages, the same products are a
    ![Manage Options](./assets/manage-option-tab.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Attribute]**.
-
-
-[1]: https://marketplace.magento.com/extensions/content-customizations/translations-localization.html
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html

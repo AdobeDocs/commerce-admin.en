@@ -51,7 +51,7 @@ When the state of new orders is set to `Processing`, the option to _Automaticall
 >
 >Invoices are not created automatically for orders placed by using `Gift Card`, `Store Credit`, `Reward Points`, or other offline payment methods.
 
-An invoice for the order must be generated before it can be printed. To view or print the PDF, first download and install a PDF reader such as [Adobe Acrobat Reader][1].
+An invoice for the order must be generated before it can be printed. To view or print the PDF, first download and install a PDF reader such as [Adobe Acrobat Reader](https://www.adobe.com/acrobat/pdf-reader.html "Get Adobe Reader").
 
 **_To invoice an order:_**
 
@@ -119,7 +119,7 @@ Invoices can be printed individually or as a batch. However, before an invoice c
 
 >[!NOTE]
 >
->To view or print the PDF, you must have a PDF reader. You can download [Adobe Reader][1] at no charge.
+>To view or print the PDF, you must have a PDF reader. You can download [Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "Get Adobe Reader") at no charge.
 
 ### Print a single invoice
 
@@ -143,4 +143,16 @@ Invoices can be printed individually or as a batch. However, before an invoice c
 
 The invoices are saved in a single PDF file that can be sent to a printer or saved.
 
-[1]: https://www.adobe.com/acrobat/pdf-reader.html "Get Adobe Reader"
+## Custom capture amounts
+
+[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service projects only (Adobe-managed SaaS infrastructure)."}
+
+To provide merchants with greater flexibility for partial captures and specialized payment scenarios, the Invoice API supports custom capture amounts using extension attributes.
+
+You can make REST calls to capture a custom amount when creating an invoice.  Use the [`POST V1/order/:orderId/invoice`](https://developer.adobe.com/commerce/webapi/reference/rest/saas/) REST endpoint and specify the custom amount in the `extension_attributes.custom_capture_amount` field of the payload.
+
+>[!NOTE]
+>
+>Contact your support representative to enable this feature.
+>
+>Due to legal restrictions, the custom capture amount is only available in the North American (NA) region and other regions where payment overcapture is permitted.

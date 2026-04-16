@@ -266,7 +266,7 @@ The payment method used for the order determines the refund buttons that are ava
 
 ## Print a credit memo
 
-To print or view the completed credit memo, you must have a PDF reader installed. You can download [Adobe Reader][1] at no charge.
+To print or view the completed credit memo, you must have a PDF reader installed. You can download [Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "Get Adobe Reader") at no charge.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > _[!UICONTROL Operations]_ > **[!UICONTROL Credit Memos]**.
 
@@ -293,6 +293,3 @@ To print or view the completed credit memo, you must have a PDF reader installe
    - To save the document, click **[!UICONTROL Save]** and follow the prompts to save the file to your computer. When the download is complete, open the PDF in Adobe Reader and print the document.
 
    - To view the document, click **[!UICONTROL Open]**. The printed-ready PDF credit memo opens in Adobe Reader. From here, you can either print the credit memo or save it to your computer.
-
-
-[1]: https://www.adobe.com/acrobat/pdf-reader.html "Get Adobe Reader"

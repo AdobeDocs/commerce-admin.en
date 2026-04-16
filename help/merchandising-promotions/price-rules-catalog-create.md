@@ -25,7 +25,7 @@ Follow these instructions to apply a discount to specific products whenever a se
 1. Set the **[!UICONTROL Status]** of the price rule as needed.
 
    By default, the status is `Inactive`.
-   
+
    After the rule is created, its status can be updated by changing the status to `Active` or `Inactive` as needed.
 
 1. Select the **[!UICONTROL Websites]** where the rule is to be available.
@@ -38,6 +38,10 @@ Follow these instructions to apply a discount to specific products whenever a se
 1. ![Magento Open Source](../assets/open-source.svg) (Magento Open Source only) Enter the **[!UICONTROL From]** and **[!UICONTROL To]** dates to determine when the price rule is in effect.
 
    You can enter the dates or use the **[!UICONTROL Calendar]** (![Calendar icon](../assets/icon-calendar.png)) to choose the dates. If you leave the dates blank, the rule is enabled when the price rule is saved.
+
+   >[!NOTE]
+   >
+   >The `From` and `To` fields have been removed from the Catalog price rule configuration page in Adobe Commerce and cannot be modified directly on the catalog price rule. You must create a scheduled update to set the schedule for price rule activation.
 
 1. Enter a number to establish the **[!UICONTROL Priority]** of this rule in relation to other rules.
 
@@ -60,7 +64,7 @@ Most of the available conditions are based on existing attribute values. To appl
    ![Catalog price rule - condition line 1](./assets/catalog-condition1.png){width="400"}
 
    The statement has two bold links that you can click to display the selection of options for that part of the statement. You can create different conditions by changing the combination of these values. 
-   
+
 1. Change the statement in any of the following ways:
 
    - Click **[!UICONTROL ALL]** and select `ALL` or `ANY`.
@@ -140,7 +144,7 @@ Most of the available conditions are based on existing attribute values. To appl
 1. Enter the **[!UICONTROL Discount Amount]**.
 
 1. To stop processing other rules after this rule is applied, set **[!UICONTROL Discard Subsequent Rules]** to `Yes`.
-   
+
    Setting this value to `Yes` is a safeguard to prevent the system from applying multiple discounts (rules) to the same product.
 
 ## Step 4: Add related dynamic blocks

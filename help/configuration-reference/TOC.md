@@ -20,7 +20,6 @@ feature: Configuration
   - [Contacts](./general/contacts.md)
   - [Reports](./general/reports.md)
   - [Content Management](./general/content-management.md)
-  - [New Relic Reporting](./general/new-relic-reporting.md)
   - [Advanced Reporting](./general/advanced-reporting.md)
 - Catalog {#catalog}
   - [Catalog](./catalog/catalog.md)
@@ -29,6 +28,7 @@ feature: Configuration
   - [XML Sitemap](./catalog/xml-sitemap.md)
   - [RSS Feeds](./catalog/rss-feeds.md)
   - [Email to a Friend](./catalog/email-to-a-friend.md)
+  - [Product File Attributes](./catalog/product-file-attributes.md)
 - Security {#security}
   - [2FA](./security/2fa.md)
   - [Google reCAPTCHA Admin Panel](./security/google-recaptcha-admin.md)
@@ -78,5 +78,4 @@ feature: Configuration
   - [Admin](./advanced/admin.md)
   - [System](./advanced/system.md)
   - [Developer](./advanced/developer.md)
-- [Return to Admin User Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
-
+- [Return to Admin User Guides](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

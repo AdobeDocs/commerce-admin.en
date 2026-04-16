@@ -158,6 +158,8 @@ feature: Configuration, Communications
 
 ## [!UICONTROL Order Ready For Pickup in Store]
 
+This option requires [Inventory Management](../../inventory-management/guide-overview.md) to be enabled.
+
 ![Order Ready For Pickup in Store](./assets/sales-emails-ready-pickup.png)<!-- zoom -->
 
 <!-- [Order Ready For Pickup in Store](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->

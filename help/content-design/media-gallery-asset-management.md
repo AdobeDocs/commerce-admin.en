@@ -9,6 +9,8 @@ badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.ad
 
 The new [Media Gallery](media-gallery.md) provides tools for managing uploaded media files, and assets that you acquire through an [Adobe Stock integration](adobe-stock.md). If you have saved an Adobe Stock [image preview](adobe-stock-save-preview.md), you can also [license](adobe-stock-license-image.md) the image in the new Media Gallery.
 
+Assets can only be uploaded to `pub/media/wysywig`, `pub/media/catalog/category`, or other folders added by modules.
+
 ## Upload an asset
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Content]** > _[!UICONTROL Media]_ > **[!UICONTROL Media Gallery]**.
@@ -16,8 +18,8 @@ The new [Media Gallery](media-gallery.md) provides tools for managing uploaded m
 1. Click **[!UICONTROL Upload Image]**.
 
 1. Select the file to be uploaded.
-
-   The selected asset is automatically uploaded to the selected folder (or to the storage root if no folder is selected).
+   
+   The selected asset is automatically uploaded to the selected folder.
 
 ## View asset details
 

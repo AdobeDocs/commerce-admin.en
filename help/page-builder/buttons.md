@@ -101,7 +101,7 @@ When you are working with the Buttons content type, you add and edit individual 
 
       ![Choose CMS page for button link](./assets/pb-elements-button-settings-button-link-page-search.png){width="600" zoomable="yes"}
 
-1. Complete the [advanced settings][advanced-settings] as needed.
+1. Complete the [advanced settings](#change-advanced-settings) as needed.
 
 1. When complete, click **[!UICONTROL Save]** in the upper-right corner to apply the settings and return to the [!DNL Page Builder] workspace.
 
@@ -129,7 +129,7 @@ The following sections describe a series of steps to start with an individual bu
 
    ![Contact Us button settings](./assets/pb-elements-button-set-edit-button2-toolbox-settings.png){width="600" zoomable="yes"}
 
-1. Complete the [advanced settings][advanced-settings] as needed.
+1. Complete the [advanced settings](#change-advanced-settings) as needed.
 
 1. When complete, click **[!UICONTROL Save]** to apply the settings and return to the [!DNL Page Builder] workspace.
 
@@ -161,7 +161,7 @@ The following sections describe a series of steps to start with an individual bu
 
    ![Stacked buttons of the same size](./assets/pb-elements-buttons-settings-appearance-stacked.png){width="300"}
 
-1. Update the remaining settings as needed, using the descriptions from [Change settings for a button container][button-container].
+1. Update the remaining settings as needed, using the descriptions from [Change settings for a button container](#change-settings-for-a-button-container).
 
 1. When complete, click **[!UICONTROL Save]** to apply the settings and return to the [!DNL Page Builder] workspace.
 
@@ -208,7 +208,7 @@ The following sections describe a series of steps to start with an individual bu
 
       {style="table-layout:auto"}
 
-1. Complete the [advanced settings][advanced-settings] as needed.
+1. Complete the [advanced settings](#change-advanced-settings) as needed.
 
 1. To save the settings and return to the [!DNL Page Builder] workspace, click **[!UICONTROL Save]** in the upper-right corner.
 
@@ -231,7 +231,7 @@ The following sections describe a series of steps to start with an individual bu
 
       When set to `Yes`, all buttons in the container have a consistent size, based on the length of the longest button text.
 
-1. Complete the [Advanced settings][advanced-settings] as needed.
+1. Complete the [Advanced settings](#change-advanced-settings) as needed.
 
 1. When complete, click **[!UICONTROL Save]** to apply the settings and return to the [!DNL Page Builder] workspace.
 
@@ -292,7 +292,5 @@ You can modify the _[!UICONTROL Advanced]_ settings for individual buttons and f
 
    {style="table-layout:auto"}
 
-[advanced-settings]: #change-advanced-settings
-[button-container]: #change-settings-for-a-button-container
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

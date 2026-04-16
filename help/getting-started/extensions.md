@@ -116,7 +116,7 @@ For implementation details and technical requirements, see the [Live Search User
 
 ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce only
 
-[!DNL Product Recommendations] is an Adobe Commerce-exclusive feature powered by Adobe Sensei AI technology that delivers personalized product suggestions throughout the customer shopping journey. The solution analyzes shopper behavior and product relationships in real-time to automatically generate relevant recommendations, requiring no manual merchandising rules. This AI-driven approach helps increase conversion rates and revenue potential while creating more engaging product discovery experiences for shoppers.
+[!DNL Product Recommendations] is an Adobe Commerce-exclusive feature powered by Adobe AI technology that delivers personalized product suggestions throughout the customer shopping journey. The solution analyzes shopper behavior and product relationships in real-time to automatically generate relevant recommendations, requiring no manual merchandising rules. This AI-driven approach helps increase conversion rates and revenue potential while creating more engaging product discovery experiences for shoppers.
 
 For implementation details and best practices, see the [[!DNL Product Recommendations] User Guide](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html).
 

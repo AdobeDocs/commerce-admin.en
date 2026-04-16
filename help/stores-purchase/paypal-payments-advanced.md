@@ -7,7 +7,7 @@ badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.ad
 ---
 # PayPal Payments Advanced
 
-[PayPal Payments Advanced][4] is a [PCI-compliant](../getting-started/compliance-pci.md) solution that lets your customers pay by debit or credit card without leaving your site. It includes an embedded checkout page that can be customized to create a seamless and secure checkout experience.
+[PayPal Payments Advanced](https://developer.paypal.com/docs/payflow/gs-ppa-hosted-pages/) is a [PCI-compliant](../getting-started/compliance-pci.md) solution that lets your customers pay by debit or credit card without leaving your site. It includes an embedded checkout page that can be customized to create a seamless and secure checkout experience.
 
 Even customers without a PayPal account can make purchases through the PayPal secure payment gateway. Accepted cards include Visa, MasterCard, Switch/Maestro, and Solo credit cards in the United States and United Kingdom. For additional convenience, PayPal Express Checkout is included with PayPal Payments Advanced.
 
@@ -22,7 +22,7 @@ Even customers without a PayPal account can make purchases through the PayPal se
 
 ## Requirements
 
-- [PayPal business account][1]
+- [PayPal business account](https://www.paypal.com/webapps/mpp/how-to-sell-online)
 - If you manage multiple Adobe Commerce and Magento Open Source websites, you must have a separate PayPal merchant account for each website.
 
 ## Checkout workflow
@@ -56,7 +56,7 @@ Processing orders with PayPal Payments Advanced is the same as for any regular P
 
 Before you set up PayPal Payments Advanced in Commerce, you must configure your account on the PayPal website.
 
-1. Log in to your [PayPal business account][2].
+1. Log in to your [PayPal business account](https://manager.paypal.com/).
 
 1. Go to **[!UICONTROL Service Settings]** > **[!UICONTROL Hosted Checkout Pages]** > **[!UICONTROL Set Up Menu]** and complete the following settings:
 
@@ -80,7 +80,7 @@ Before you set up PayPal Payments Advanced in Commerce, you must configure your 
 
 1. Set up another user (recommended by PayPal):
 
-   - Log in to your [PayPal business account][2].
+   - Log in to your [PayPal business account](https://manager.paypal.com/).
 
    - To set up another user, follow the instructions.
 
@@ -138,7 +138,7 @@ Before you set up PayPal Payments Advanced in Commerce, you must configure your 
 
 1. To run test transactions, set **[!UICONTROL Test Mode]** to `Yes`.
 
-   When testing the configuration in a sandbox, use only [credit card numbers][3] that are recommended by PayPal. When you are ready to go to production, return to the configuration and set Test Mode to `No`.
+   When testing the configuration in a sandbox, use only [credit card numbers](https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm) that are recommended by PayPal. When you are ready to go to production, return to the configuration and set Test Mode to `No`.
 
 1. If your system uses a proxy server to establish the connection to the PayPal system, set **[!UICONTROL Use Proxy]** to `Yes` and do the following:
 
@@ -457,8 +457,3 @@ Use the _[!UICONTROL Frontend Experience Settings]_ to choose which PayPal logos
 1. To allow the customer to complete the transaction from the PayPal site without returning to your store for Order Review, set **[!UICONTROL Skip Order Review Step]** to `Yes`.
 
 1. When complete, click **[!UICONTROL Save Config]**.
-
-[1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
-[2]: https://manager.paypal.com/
-[3]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
-[4]: https://developer.paypal.com/docs/payflow/gs-ppa-hosted-pages/

@@ -78,7 +78,7 @@ Fraud protection services and filters examine submitted orders before the transa
 
 - [PayPal Fraud Management Filter](paypal.md#paypal-fraud-management-filters)
 
-- [Fraud Protection Solutions on Marketplace][1]
+- [Fraud Protection Solutions on Marketplace](https://marketplace.magento.com/catalogsearch/result?q=fraud%20protection)
 
 >[!NOTE]
 >
@@ -88,6 +88,4 @@ Fraud protection services and filters examine submitted orders before the transa
 
 [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
 
-For help with troubleshooting payment issues, see the [Support Knowledgebase](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=en).
-
-[1]: https://marketplace.magento.com/catalogsearch/result?q=fraud%20protection
+For help with troubleshooting payment issues, see the [Support Knowledgebase](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html).

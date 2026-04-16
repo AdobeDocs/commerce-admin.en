@@ -115,6 +115,16 @@ feature: Configuration, Orders
 
 {style="table-layout:auto"}
 
+## [!UICONTROL Promotions]
+
+[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service projects only (Adobe-managed SaaS infrastructure)."}
+
+![Promotions Settings](./assets/sales-promotions-settings.png)<!-- zoom -->
+
+|Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
+|--- |--- |--- |
+|[!UICONTROL Apply Catalog Price Rule on Grouped Price]|Global|Enables [tier pricing for catalog price rules](../../catalog/product-price-tier.md) when the quantity of a tier price is set to `1`.  Options: `Yes` / `No`|
+
 ## [!UICONTROL Gift Options]
 
 ![Gift Options](./assets/sales-gift-options.png)<!-- zoom -->

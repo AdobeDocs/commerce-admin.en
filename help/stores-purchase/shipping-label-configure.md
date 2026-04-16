@@ -12,10 +12,10 @@ The following settings must be made at the product level, and in the configurati
 
 |[!UICONTROL Carrier]|Requirements|
 |-------|--------|
-|[USPS](usps.md)|Requires a USPS account. As of February 23, 2018, USPS requires all shipping labels to include postage.|
-[UPS](ups.md)|Requires a UPS account. Shipping labels are available only for shipments that originate in the U.S.-Specific credentials are required for stores outside the US.|
+|[USPS](usps.md)|Requires a USPS account for the shipping label postage.|
+|[UPS](ups.md)|Requires a UPS account. Shipping labels are available only for shipments that originate in the U.S.-Specific credentials are required for stores outside the US.|
 |[FedEx](fedex.md)|Requires a FedEx account. For stores outside of the U.S., shipping labels are supported for international shipments only. FedEx does not allow domestic shipments that originate outside of the U.S|
-[DHL](dhl.md)|Requires a DHL account. Shipping labels are supported only for shipments that originate in the U.S.|
+|[DHL](dhl.md)|Requires a DHL account. Shipping labels are supported only for shipments that originate in the U.S.|
 
 {style="table-layout:auto"}
 

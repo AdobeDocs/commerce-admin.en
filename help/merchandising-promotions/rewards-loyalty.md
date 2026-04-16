@@ -28,6 +28,10 @@ Points can be redeemed by Admin users and customers (if enabled) during checkout
 
 >[!NOTE]
 >
+>Reward points and store credit do not reduce the taxable base of the order. Tax is calculated on the subtotal before these discounts are applied. The points or credit only reduce the final amount that the customer pays.
+
+>[!NOTE]
+>
 >Reward points are not recommended for use with COD purchases, because receipt of payment cannot be confirmed until after the order is invoiced.
 
 ## Refund to reward points
@@ -177,8 +181,3 @@ All actions related to reward points are displayed in the customer's _[!UICONTRO
 
 {style="table-layout:auto"}
 
-## Troubleshooting resources
-
-For help with troubleshooting reward points issues, see the following Commerce Support Knowledge Base articles:
-
-- [404 error - removing rewards points on multi-shipping checkout](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html)

@@ -60,10 +60,8 @@ recommendations: noDisplay
   + [Product reports](product-reports.md)
   + [Private sales reports](private-sales-reports.md)
   + [Commerce Intelligence tools](business-intelligence.md)
-  + [New Relic reporting](new-relic-reporting.md)
 + Resources {#resources}
   + [Ecosystem](resources.md)
   + [Extensions](extensions.md)
   + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [Return to Admin User Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
-
++ [Return to Admin User Guides](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

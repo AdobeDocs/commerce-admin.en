@@ -40,7 +40,7 @@ The following table shows the compatibility between versions of Adobe Commerce a
 
 | Adobe Commerce | Supported | Notes |
 |----------------|-----------|-------|
-| 2.4.7-p4 and later | 1.2.0 | 2.4.7-p4 support requires a [hotfix](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27147) |
+| 2.4.7-p4 and later -p versions | 1.2.0 | 2.4.7-p4 support requires a [hotfix](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27147) |
 | 2.4.6-p9 - 2.4.6-p10 | 1.2.0 | |
 | 2.4.6-p8 | 1.1.0 | Support for [data services](#adobe-commerce-services) was introduced in 1.1.0 |
 | 2.4.6-p3 - 2.4.6-p7 | 1.0.0 | |

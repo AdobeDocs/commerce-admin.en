@@ -35,3 +35,19 @@ For more information about changing these settings, see [Shipping settings](../.
 |[!UICONTROL Shipping Policy]|Store View|Contains your shipping policy as text.|
 
 {style="table-layout:auto"}
+
+## [!UICONTROL Shipment Tracking URLs]
+
+[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service projects only (Adobe-managed SaaS infrastructure)."}
+
+![Shipping Policy Parameters](./assets/shipping-settings-shipment-tracking-urls.png)<!-- zoom -->
+
+|Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
+|--- |--- |--- |
+|[!UICONTROL Enable Custom Tracking URLs]|Store View|Determines whether shipment tracking numbers sent in shopper emails are links or plain text. The default value of `No` indicates the numbers are plain text. Options: `Yes` / `No`|
+|[!UICONTROL USPS Tracking URL]|Store View|The URL template for United States Postal Service shipments.|
+|[!UICONTROL UPS Tracking URL]|Store View|The URL template for United Parcel Service shipments.|
+|[!UICONTROL FedEx Tracking URL]|Store View|The URL template for Federal Express shipments.|
+|[!UICONTROL DHL Tracking URL]|Store View|The URL template for DHL Express shipments.|
+
+{style="table-layout:auto"}

@@ -20,7 +20,7 @@ Braintree offers a fully customizable checkout experience with fraud detection a
 
 ## Step 1: Get your Braintree credentials
 
-Go to [Braintree Payments][1] and sign up for an account.
+Go to [Braintree Payments](https://www.braintreepayments.com/) and sign up for an account.
 
 ## Step 2: Complete the basic settings
 
@@ -40,7 +40,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 1. Set the current operating **[!UICONTROL Environment]** for Braintree transactions to `Sandbox` or `Production`
 
-   When testing the configuration in a sandbox, use only [credit card numbers][2] that are recommended by Braintree. When you are ready to go to production with Braintree, set **[!UICONTROL Environment]** to `Production`.
+   When testing the configuration in a sandbox, use only [credit card numbers](https://developers.braintreepayments.com/reference/general/testing/php) that are recommended by Braintree. When you are ready to go to production with Braintree, set **[!UICONTROL Environment]** to `Production`.
 
    ![Basic Credentials Settings](../configuration-reference/sales/assets/payment-methods-braintree-basic-config.png){width="600" zoomable="yes"}
 
@@ -436,6 +436,3 @@ The following descriptors are used to identify purchases on customer credit card
 ## 2.4 upgrade notes 
 
 Beginning with Adobe Commerce and Magento Open Source 2.4.0, the Braintree extension is included in the release. If you are migrating to Commerce 2.4.x from a pre-2.4.0 version that has the Marketplace Braintree extension installed, you must uninstall that extension (`paypal/module-braintree` or `gene/module-braintree`) and update any code customizations to use the `PayPal_Braintree` namespace instead of `Magento_Braintree`. Configuration settings from the core Commerce Braintree Payments bundled extension and the extension distributed on Commerce Marketplace persist and payments placed with those previous versions can still be captured, voided, or refunded as normal.
-
-[1]: https://www.braintreepayments.com/
-[2]: https://developers.braintreepayments.com/reference/general/testing/php

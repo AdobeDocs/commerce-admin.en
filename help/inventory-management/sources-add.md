@@ -32,7 +32,7 @@ If editing the Default Source, you can edit all configurations except name and c
 
     - For **[!UICONTROL Latitude]** and **[!UICONTROL Longitude]**, enter the Global Positioning System (GPS) coordinates of the facility location.
 
-      To find the GPS coordinates with [Google Maps][1], enter the address in the search box. Right-click the marker on the map and choose **[!UICONTROL What's here?]**. The GPS coordinates appear in the details box below the street address.
+      To find the GPS coordinates with [Google Maps](https://www.google.com/maps), enter the address in the search box. Right-click the marker on the map and choose **[!UICONTROL What's here?]**. The GPS coordinates appear in the details box below the street address.
 
       ![General source options](assets/inventory-source-general.png)
 
@@ -117,5 +117,3 @@ If editing the Default Source, you can edit all configurations except name and c
 |**[!UICONTROL Pickup Location]**| |
 |[!UICONTROL Frontend Name]|The name of the pickup location for the source that is displayed on the storefront.|
 |[!UICONTROL Frontend Description]|The description of the pickup location for the source that is displayed on the storefront. It can contain attached images.|
-
-[1]: https://www.google.com/maps

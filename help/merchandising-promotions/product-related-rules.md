@@ -129,9 +129,4 @@ The behavior of product relationship rules and display of matched products are d
 
 ## Use Real-Time CDP audiences to inform related product rules
 
->[!NOTE]
->
->This feature is in beta. If you would like to join the beta program, send a request to [dataconnection@adobe.com](mailto:dataconnection@adobe.com). 
-
-
 Learn how to [activate](../customers/audience-activation.md) Real-Time CDP audiences into your Adobe Commerce instance to inform related product rules.

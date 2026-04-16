@@ -16,13 +16,77 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 >
 >See [Product availability](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) for information about versions of the B2B Commerce extension supported for available Adobe Commerce releases.
 
-## B2B v1.5.3-alpha2
+## B2B v1.5.3-beta1
 
-*August 12, 2025*
+*March 10, 2026*
 
-Compatibile with Adobe Commerce version 2.4.9-alpha2
+Compatible with Adobe Commerce version 2.4.9-beta1.
 
-![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
+The B2B v1.5.3-beta1 release includes quality improvements and bug fixes. The release also includes the security fixes documented in [Security Bulletin APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html).
+
+### Negotiable quote
+
+![Fixed issue](../assets/fix.svg)<!-- AC-11973 --> **Negotiable quote checkout with Payflow Pro**—Adobe Commerce now successfully places orders when checking out from a negotiable quote using the Payflow Pro credit card payment method. Previously, when B2B features were enabled and a buyer proceeded to checkout from a negotiable quote, selecting Payflow Pro and clicking Place Order caused the page to keep loading indefinitely with no error message, and the order was never created.
+
+![Fixed issue](../assets/fix.svg)<!-- AC-13447 --> **Success message after negotiable quote rename**—Adobe Commerce now consistently displays a success message after a negotiable quote or quote template is renamed on the storefront. Previously, when a buyer renamed a negotiable quote, the success message would intermittently not appear (often clearing almost immediately), which also caused automated tests that wait for this message to fail even though the rename operation itself succeeded.
+
+![Fixed issue](../assets/fix.svg)<!-- AC-15280 --> **Shipping cost in PayPal Express negotiable quote checkout**—Adobe Commerce now applies the correct shipping cost when completing a PayPal Express Checkout for an approved negotiable quote. Previously, shipping costs were incorrectly doubled, leading to inflated totals.
+
+### Purchase orders
+
+![Fixed issue](../assets/fix.svg)<!-- ACP2E-3727 --> **Purchase Order totals with Cross Border Trade**—An order now contains correct totals when placed from an existing Purchase Order with Cross Border Trade enabled.
+
+### Requisition list
+
+![Fixed issue](../assets/fix.svg)<!-- AC-15862 --> **Grouped products in requisition lists with category permissions**—Fixed a TypeError that occurred when adding grouped products to a requisition list with category permissions enabled. After the fix, product options are handled safely as arrays, allowing all product types to be added without errors.
+
+![Fixed issue](../assets/fix.svg)<!-- AC-8575 --> **Add to Requisition List button on category page**—The [!UICONTROL Add to Requisition List] button is now visible on the category page. Previously, the button disappeared when users tried to add a product from the category page.
+
+![Fixed issue](../assets/fix.svg)<!-- AC-14711 --> **Requisition List page print option**—The Print option on the Requisition List page now works correctly. Previously, clicking [!UICONTROL Print] resulted in the error: `An error has happened during application run. See exception log for details.`
+
+![Fixed issue](../assets/fix.svg)<!-- AC-16226 --> **Requisition list creation with Add Store Code to URLs**—Fixed an issue where requisition lists could not be created for products assigned to a new website and source when [!UICONTROL Add Store Code to URLs] is enabled. The problem occurred because the store code was stripped from the API request, causing an unauthorized error. After the fix, the correct store context is preserved and requisition lists are created successfully.
+
+### Shared catalog
+
+![Fixed issue](../assets/fix.svg)<!-- ACP2E-3796 --> **Shared catalog category unassignment performance**—Performance is significantly improved when unassigning categories in a B2B shared catalog. Previously, it took a long time to unassign categories via the REST API.
+
+![Fixed issue](../assets/fix.svg)<!-- ACP2E-4097 --> **Product unassignment from Shared Catalog**—An Admin can now successfully unassign products from the Shared Catalog. Previously, unassigning products with a large number of long product SKUs from Shared Catalog resulted in an error.
+
+![Fixed issue](../assets/fix.svg)<!-- AC-15662 --> **Shared catalog company assignment for restricted admins**—Fixed an issue where restricted Admin users encountered an exception when assigning a company to a shared catalog.
+
+### Cart and checkout
+
+![Fixed issue](../assets/fix.svg)<!-- AC-15962 --> **Checkout redirect after session expiry**—Fixed an issue where users were redirected to the My Account login page instead of the checkout login after session expiry, ensuring they are correctly taken to checkout with the login form.
+
+![Fixed issue](../assets/fix.svg)<!-- ACP2E-4223 --> **Checkout address validation for REST and GraphQL**—Customer address data validation has been improved to be more consistent between REST and GraphQL for checkout.
+
+### Framework
+
+![Fixed issue](../assets/fix.svg)<!-- ACP2E-4040 --> **Frontend 500 error from cached layout structure**—Fixed an issue where a page would return a 500 error due to an incorrect layout structure being cached in the layout.
+
+![Fixed issue](../assets/fix.svg)<!-- AC-15347 --> **Commerce styling resources in Community themes**—Removed Commerce-only styling resources from Community themes by relocating them to their respective module directories. This prevents unused CSS from being bundled in the Community Edition, which reduces unnecessary payload and eliminates dead style rules while ensuring proper styling when Commerce modules are enabled.
+
+### GraphQL
+
+![Fixed issue](../assets/fix.svg)<!-- ACP2E-3399 --> **GraphQL error response format**—Reverted a previous change that was returning errors in a different format. Now, potential errors are returned in a consistent manner that does not break the GraphQL schema.
+
+## B2B v1.5.2-p4
+
+*March 10, 2026*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce versions 2.4.8-p4, 2.4.7-p9, and 2.4.6-p14 security patch releases.
+Compatible with Adobe Commerce versions 2.4.7 to 2.4.7-p9, 2.4.6 to 2.4.6-p14.
+
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html).
+
+## B2B v1.5.2-p3
+
+*October 14, 2025*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce versions 2.4.8-p3, 2.4.7-p8, and 2.4.6-p13 security patch releases.
+Compatible with Adobe Commerce versions 2.4.7 to 2.4.7-p7, 2.4.6 to 2.4.6-p12.
+
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html).
 
 ## B2B v1.5.2-p2
 
@@ -38,7 +102,7 @@ Compatible with Adobe Commerce versions 2.4.7 to 2.4.7-p6, 2.4.6 to 2.4.6-p11.
 *June 10, 2025*
 
 [!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce versions 2.4.8-p1, 2.4.7-p6, and 2.4.6-p11 security patch releases.
-Compatible with Adobe Commerce versions 2.4.7 to 2.4.7-p5, 2.4.6 to 2.4.6-p10
+Compatible with Adobe Commerce versions 2.4.7 to 2.4.7-p5, 2.4.6 to 2.4.6-p10.
 
 ![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html).
 
@@ -47,7 +111,7 @@ Compatible with Adobe Commerce versions 2.4.7 to 2.4.7-p5, 2.4.6 to 2.4.6-p10
 *April 8, 2025*
 
 [!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce versions 2.4.8, 2.4.7-p5 and 2.4.6-p10 security patch releases.
-Compatible with Adobe Commerce versions 2.4.7 to 2.4.7-p4, 2.4.6 to 2.4.6-p9
+Compatible with Adobe Commerce versions 2.4.7 to 2.4.7-p4, 2.4.6 to 2.4.6-p9.
 
 The B2B v1.5.2 release includes quality improvements and bug fixes.
 
@@ -87,7 +151,7 @@ This enhancement builds on B2B 1.5.0's multi-company membership capability, whic
 *February 11, 2025*
 
 [!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce versions 2.4.7-p4+ and 2.4.6-p9+ security patch releases.
-Compatible with Adobe Commerce versions 2.4.8-beta1 to 2.4.8-beta2, 2.4.7 to 2.4.7-p3, 2.4.6 to 2.4.6-p8
+Compatible with Adobe Commerce versions 2.4.8-beta1 to 2.4.8-beta2, 2.4.7 to 2.4.7-p3, 2.4.6 to 2.4.6-p8.
 
 The B2B v1.5.1 release includes quality improvements and bug fixes.
 
@@ -107,7 +171,7 @@ The B2B v1.5.1 release includes quality improvements and bug fixes.
 
 ![Fixed issue](../assets/fix.svg)<!-- B2B-4222 --> Introduced a new shopping cart management system designed to streamline the shopping experience for users managing multiple company accounts. The new system associates shopping carts with individual companies rather than the customer account to streamline the shopping experience and improve the workflow by supporting the following capabilities.
 
-- **Company-specific carts:**—Shopping carts are now linked to individual companies to support company-specific pricing and product options.
+- **Company-specific carts**—Shopping carts are now linked to individual companies to support company-specific pricing and product options.
 - **Seamless switching**—Users can easily switch between different company accounts without affecting the contents of each company's cart.
 - **Contextual Integrity**—All cart details remain within the context of the respective company, providing a consistent and reliable shopping experience.
 
@@ -118,7 +182,7 @@ The B2B v1.5.1 release includes quality improvements and bug fixes.
 [!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce versions 2.4.7-p3+ and 2.4.6-p8+ security patch releases.
 Compatible with Adobe Commerce versions 2.4.8-beta1, 2.4.7 to 2.4.7-p2, 2.4.6 to 2.4.6-p7.
 
-Adobe Commerce B2B version 1.5.0 is also compatible with PHP 8.3 and supports the [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server). 
+Adobe Commerce B2B version 1.5.0 is also compatible with PHP 8.3 and supports the [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
 
 The B2B v1.5.0 release includes new features, quality improvements, and bug fixes.
 
@@ -126,40 +190,41 @@ The B2B v1.5.0 release includes new features, quality improvements, and bug fixe
 >
 > Learn about backward-incompatible changes (BICs) introduced in the B2B 1.5.0 release by reviewing the highlights and reference information in the [Backward Incompatible Changes](backward-incompatible-changes.md) topic.
 
-### Company Management
+### Company management
 
 ![New](../assets/new.svg) **Company Management**<!--B2B-2901-->—Merchants can now view and manage Adobe Commerce companies as hierarchical organizations by assigning companies to designated parent companies. After a company is assigned to a parent, the parent company administrator can manage the company account. Only authorized Admin users can add and manage company assignments. For details, see [Manage company hierarchy](manage-company-hierarchy.md).
 
 - Add and manage company assignments from the new *[!UICONTROL Company Hierarchy]* section on the *[!UICONTROL Company Account]* page in the Admin.
 
-- Sort and filter companies by the new *[!UICONTROL Company Type]* setting. In the companies grid, the *[!UICONTROL Company Type]* column indicates whether a company is an individual company or part of organizational hierarchy (parent or child).
+- Sort and filter companies by the new *[!UICONTROL Company Type]* setting. In the companies grid, the *[!UICONTROL Company Type]* column indicates whether a company is an individual company or part of an organizational hierarchy (parent or child).
 
 ![New](../assets/new.svg) **Manage company configuration at scale**<!--B2B-2849-->—Quickly change company configuration settings for selected companies using the *[!UICONTROL Change company setting]* bulk action now available when managing companies from the *[!UICONTROL Companies]* or *[!UICONTROL Company Hierarchy]* grid. For example, if you create a new shared catalog for a group of companies, you can change the shared catalog configuration in a single action instead of editing each company individually.
 
 ![New](../assets/new.svg) API Developers can use the new Company Relations REST API endpoint `/V1/company/{parentId}/relations` to create, view, and remove company assignments. See [Manage company objects](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/) in the *Web API Developer Guide*.
 
-### Company Accounts
+### Company accounts
 
-![New](../assets/new.svg)<!--B2B-2828--> **Multi-company assignment**—Simplify company account access for company users by assigning a user to multiple companies. For example, if you have a buyer that orders from multiple company sites, create a single account and assign all companies the buyer works with to that account. Then, the buyer can log in one time, and switch between company accounts by choosing the company from the storefront.
+![New](../assets/new.svg)<!--B2B-2828--> **Multi-company assignment**—Simplify company account access for company users by assigning a user to multiple companies. For example, if you have a buyer who orders from multiple company sites, create a single account and assign all companies the buyer works with to that account. Then, the buyer can log in one time, and switch between company accounts by choosing the company from the storefront.
 
 >[!NOTE]
 >
 >A company user can be assigned to multiple companies, but they can be the company administrator for only one company.
 
-![New](../assets/new.svg) <!--B2B-2747--> **Company scope selector**—Provides ability for company users that are assigned to multiple companies to change companies on the storefront. When the scope is switched, the data updates to show the information based on the new company context. For example, if the new company uses a different shared catalog, the company user sees products, prices, and other information based on the new shared catalog. Content related to orders, quotes, quote templates also updates based on the context of the selected company.
+![New](../assets/new.svg) <!--B2B-2747--> **Company scope selector**—Provides the ability for company users that are assigned to multiple companies to change companies on the storefront. When the scope is switched, the data updates to show the information based on the new company context. For example, if the new company uses a different shared catalog, the company user sees products, prices, and other information based on the new shared catalog. Content related to orders, quotes, quote templates also updates based on the context of the selected company.
 
 >[!NOTE]
+>
 >The shopping cart contents reflect items selected by the current customer. If the customer has an active shopping cart and selects a different company, they are prompted to update the cart to reflect the product assortment, pricing, and promotional discounts based on the new company context. Products that are not available in the catalog associated with the new company are removed from the cart. If the product has a different price or availability, the cart updates to reflect the data available in the context of the selected company.<!--B2B-4222-->
 
 ![Fixed issue](../assets/fix.svg)<!--ACP2E-1933--> Company administrators can now add company users from the storefront. Previously, Commerce logged an error when an Admin user tried to add a new user: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
 
-### Quotes and Quote Templates
+### Quotes and quote templates
 
-Improvements to quoting capabilities help Buyers and Sellers manage quotes and quote negotiation more effectively.
+Improvements to quoting capabilities help buyers and sellers manage quotes and quote negotiation more effectively.
 
 ![New](../assets/new.svg) **Quote templates**—<!--B2B-3367-->Buyers and sellers can now streamline the quote process by creating reusable and customizable quote templates. Using quote templates, the quote negotiation process can be completed once, and buyers can generate pre-approved linked quotes for recurring orders instead of going through the quote negotiation process for each order. Quote templates extend the existing quote functionality by adding the following advanced features:
 
-- **Order thresholds** allow sellers to set minimum and maximum order commitments, ensuring the buyer adhere to agreed-upon purchasing volumes.
+- **Order thresholds** allow sellers to set minimum and maximum order commitments, ensuring the buyer adheres to agreed-upon purchasing volumes.
 - **Setting minimum and maximum item order quantities** provides the buyer with the flexibility to adjust order quantities on the linked quote without requiring a new template or further negotiation.
 - **Track the number of linked quotes generated and successfully completed orders** to gain insights into the fulfillment of negotiated agreements.
 - **Linked quotes** are pre-approved quotes that the buyer generates from an active quote template to submit recurring orders based on the terms negotiated in the quote template.
@@ -172,11 +237,11 @@ Improvements to quoting capabilities help Buyers and Sellers manage quotes and q
 
 - **Rename Quote**<!--B2B-2596-->—Buyers can now change a quote name from the [Quote detail](account-dashboard-my-quotes.md#quote-actions) page by selecting the **[!UICONTROL Rename]** option. This option is available to authorized buyers when they are editing the quote. Name change events are recorded in the Quote History Log.
 
-- **Duplicate Quote**<!--B2B-2701-->—Buyers and sellers can now create a new quote by copying an existing quote. A copy is created from the Quote detail view by selecting  **[!UICONTROL Create Copy]** on the [Quote detail view](quote-price-negotiation.md#button-bar) in the Admin or the [Storefront](account-dashboard-my-quotes.md#quote-actions).
+- **Duplicate Quote**<!--B2B-2701-->—Buyers and sellers can now create a new quote by copying an existing quote. A copy is created from the Quote detail view by selecting **[!UICONTROL Create Copy]** on the [Quote detail view](quote-price-negotiation.md#button-bar) in the Admin or the [Storefront](account-dashboard-my-quotes.md#quote-actions).
 
 - **Move quote item to requisition list**<!--B2B-2755-->—Buyers now have the flexibility to remove products from a quote and save them to a requisition list if they decide not to include them in the quote negotiation process.
 
-- **Remove multiple products from a quote**<!--B2B-2881-->—On quotes with a large number of products, buyers can now remove multiple products from the quote by selecting them and using the *[!UICONTROL Remove]* option from the *[!UICONTROL Actions]* control on the Quote detail page. In previous releases, a buyer had to delete products one at time.
+- **Remove multiple products from a quote**<!--B2B-2881-->—On quotes with a large number of products, buyers can now remove multiple products from the quote by selecting them one at a time and using the *[!UICONTROL Remove]* option from the *[!UICONTROL Actions]* control on the Quote detail page. In previous releases, a buyer had to delete products one at a time.
 
 - **Line item discount locking**<!--B2B-2597-->—During quote negotiation, sellers can use line item discount locking for more flexibility when applying discounts during the quote negotiation process. For example, a Seller can apply a special line item discount to an item and lock the item to prevent further discounting. When an item is locked, the item price cannot be updated when a quote-level discount is applied. See [Initiate quote for a buyer](sales-rep-initiates-quote.md).
 
@@ -184,15 +249,25 @@ Improvements to quoting capabilities help Buyers and Sellers manage quotes and q
 
 - Merchants clicking the *[!UICONTROL Print]* button in the Quote detail view in the Admin are now prompted to save the quote as a PDF. Previously, merchants were redirected to a page that contained quote details. <!--ACP2E-1984-->
 
-- Previously when sending a customer quote with `0` percentage and changing quantity, the admin throws an exception but saved the quantity. After this fix applies, for the `0 percentage` proper exception with a message will be thrown. <!--ACP2E-1742-->
+- Previously, when sending a customer quote with `0` percentage and changing quantity, the Admin threw an exception but saved the quantity. After this fix, a proper exception with a message is thrown for the 0% case. <!--ACP2E-1742-->
 
 - During quote negotiation, a seller can now specify a `0%` discount in the Negotiated Quote quote discount field and send the quote back to the buyer. Previously, if the seller entered a 0% discount and sent the quote back to the buyer, the Admin returned an `Exception occurred during quote sending` error message. <!--ACP2E-1742-->
 
-- ReCaptcha validation now works correctly during the checkout process for a B2B quote when ReCaptcha V3 is configured for storefront checkout. Previously,  the validation failed with a `recaptcha validation failed, please try again` error message.  <!--ACP2E-2097-->
+- ReCaptcha validation now works correctly during the checkout process for a B2B quote when ReCaptcha V3 is configured for storefront checkout. Previously, the validation failed with a `recaptcha validation failed, please try again` error message.  <!--ACP2E-2097-->
 
-### Purchase Orders
+### Purchase orders
 
 ![Fixed issue](../assets/fix.svg) <!--ACP2E-1825-->Purchase orders can no longer be placed by a user associated with the company after the company has been blocked. Previously, a user associated with the company could place purchase orders when the company was blocked.
+
+## B2B v1.4.2-p8
+
+*October 14, 2025*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.7-p8+ and 2.4.6-p13+ security patch releases.
+
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html).
+
+{{b2b-compatibility}}
 
 ## B2B v1.4.2-p7
 
@@ -252,11 +327,13 @@ Improvements to quoting capabilities help Buyers and Sellers manage quotes and q
 
 ## B2B v1.4.2-p2
 
+*August 6, 2024*
+
 [!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.7-p2+ and 2.4.6-p7+ security patch releases.
 
 ![New](../assets/new.svg) Added compatibility with Adobe Commerce 2.4.7-p2+ and 2.4.6-p7+ security patch releases.
 
-![Fixed issue](../assets/fix.svg) Includes the Security fixes documented in Security Bulletin xxxx.
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in Security Bulletin [APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
 
 {{b2b-compatibility}}
 
@@ -282,7 +359,7 @@ The B2B v1.4.2 release includes quality improvements and bug fixes.
 
 >[!IMPORTANT]
 >
->Adobe Commerce B2B version 1.4.2+ is compatible with PHP 8.2. If you upgrade the Commerce instance to version 2.4.7+, ensure that the instance uses PHP version 8.2 to maintain compatibility with Adobe Commerce B2B release. Additionally, B2B 1.4.2+ does not currently support the [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server). 
+>Adobe Commerce B2B version 1.4.2+ is compatible with PHP 8.2. If you upgrade the Commerce instance to version 2.4.7+, ensure that the instance uses PHP version 8.2 to maintain compatibility with Adobe Commerce B2B release. Additionally, B2B 1.4.2+ does not currently support the [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
 
 ## B2B v1.4.1
 
@@ -306,7 +383,7 @@ The B2B v1.4.1 release includes quality improvements and bug fixes.
 
 *June 13, 2023*
 
-[!BADGE Supported]{type=Informative tooltip="Supported"} [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Compatible with Adobe Commerce 2.4.7-beta1
+[!BADGE Supported]{type=Informative tooltip="Supported"} [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Compatible with Adobe Commerce 2.4.7-beta1.
 
 This release includes new capabilities and enhancements for B2B negotiable quotes and multiple bug fixes.
 
@@ -318,9 +395,9 @@ This release includes new capabilities and enhancements for B2B negotiable quote
 
 ![Fixed issue](../assets/fix.svg) Adobe Commerce now displays correct details during payment when the Purchase Orders option is enabled and a virtual quote that was created with the PayPal payment option has been selected. Previously, totals were displayed as zero under these conditions.
 
-![Fixed issue](../assets/fix.svg) <!--ACP2E-1504--> Validation errors no longer occur when you try to save a company with a credit limit that exceeds 999. Previously, for company credit limits greater than 999, Adobe commerce inserted a comma separator, which caused a validation error that prevented updates from being saved.
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1504--> Validation errors no longer occur when you try to save a company with a credit limit that exceeds 999. Previously, for company credit limits greater than 999, Adobe Commerce inserted a comma separator, which caused a validation error that prevented updates from being saved.
 
-![Fixed issue](../assets/fix.svg) <!--ACP2E-1474-->  The selected shipping address now remains unchanged when you place an order with a negotiable quote. Previously, when you placed an order, the selected shipping address was changed to the default shipping address.
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1474--> The selected shipping address now remains unchanged when you place an order with a negotiable quote. Previously, when you placed an order, the selected shipping address was changed to the default shipping address.
 
 ![Fixed issue](../assets/fix.svg) <!--ACP2E-1429--> In the Store Configuration settings for B2B Features, the **[!UICONTROL Enable Shared Catalog direct products price assigning]** field is now disabled automatically. On the storefront, it is hidden when the **[!UICONTROL Enable Company]** setting or **[!UICONTROL Enable Shared Catalog]** setting is set to **[!UICONTROL No]**.
 
@@ -344,7 +421,15 @@ Your requirements could not be resolved to an installable set of packages.
 Installation failed, reverting ./composer.json and ./composer.lock to their original content.
 ```
 
-You can fix this issue by adding manual dependencies for the B2B security package by adding manual dependencies for the B2B security package with a [stability tag](https://getcomposer.org/doc/04-schema.md#package-links). For instructions, see the [Adobe Commerce Knowledge Base](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html).
+You can fix this issue by adding manual dependencies for the B2B security package with a [stability tag](https://getcomposer.org/doc/04-schema.md#package-links). For instructions, see the [Adobe Commerce Knowledge Base](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html).
+
+## B2B v1.3.5-p13
+
+*October 14, 2025*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.6-p13+ security patch releases.
+
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html).
 
 ## B2B v1.3.5-p12
 
@@ -404,7 +489,7 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 
 >[!NOTE]
 >
->After you upgrade Commerce from 2.4.6 to the [latest release](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html#2.4.6), make sure to  update to the supported B2B 1.3.5 patch release. Or, upgrade the B2B extension from version 1.3.5 to version 1.4.0 or later to get the latest features.
+>After you upgrade Commerce from 2.4.6 to the [latest release](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html#2.4.6), make sure to update to the supported B2B 1.3.5 patch release. Or, upgrade the B2B extension from version 1.3.5 to version 1.4.0 or later to get the latest features.
 
 ![New](../assets/new.svg) Added support for Adobe Commerce 2.4.6.
 
@@ -427,6 +512,22 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 ![Fixed issue](../assets/fix.svg) <!--- ACP2E-2456--> Category queries now return product prices according to store configuration settings when there are no category permissions explicitly set on the category being queried.
 
 ![Fixed issue](../assets/fix.svg) <!--- ACP2E-6829--> The **[!UICONTROL Place Order]** button now works as expected when completing a purchase with an approved quote request. Issues with the negotiable quote `negotiableQuoteCheckoutSessionPlugin` plugin have been resolved.
+
+## B2B v1.3.4-p16
+
+*March 10, 2026*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.5-p16 (extended support)
+
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html).
+
+## B2B v1.3.4-p15
+
+*October 14, 2025*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.0 and newer versions
+
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html).
 
 ## B2B v1.3.4-p14
 
@@ -509,6 +610,22 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 ![Fixed issue](../assets/fix.svg) <!--- ACP2E-607 -->Company name is now visible as expected in the billing and shipping address sections of the checkout workflow.
 
 ![Fixed issue](../assets/fix.svg) <!--- ACP2E-375 -->Store credit is now unavailable when the **[!UICONTROL Zero Subtotal Checkout]** payment method is disabled. Previously, the Store Credit checkbox was not functional during order placement from the Admin. The application did not place the order with the store credit and displayed this error: `The requested Payment Method is not available`.
+
+## B2B v1.3.3-p17
+
+*March 10, 2026*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.4-p17 (extended support)
+
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html).
+
+## B2B v1.3.3-p16
+
+*October 14, 2025*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.0 and newer versions
+
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html).
 
 ## B2B v1.3.3-p15
 
@@ -614,7 +731,7 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 
 ![Fixed issue](../assets/fix.svg) <!--- MC-41523--> Adobe Commerce now sends company emails from the correct `from` email address and scope. Previously, Adobe Commerce did not consider website scope when sending company credit assignment or update email.
 
-### Quick Order
+### Quick order
 
 ![Fixed issue](../assets/fix.svg) <!--- MC-42104--> Creating an order using Quick Order from a CSV file now works as expected with nonexistent SKUs.
 
@@ -660,7 +777,7 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 
 ![Fixed issue](../assets/fix.svg) <!--- MC-40454--> Adobe Commerce now displays the correct product price when you add a product with a customizable option `(File)` to a wish list from a requisition list. The link to the uploaded file is also visible as expected. Previously, Adobe Commerce displayed incorrect product prices and did not display the link to the file.
 
-![Fixed issue](../assets/fix.svg) <!--- MC-36383--> Products with a customizable option `(File)` can now be added to a shopping cart from a requisition list. 
+![Fixed issue](../assets/fix.svg) <!--- MC-36383--> Products with a customizable option `(File)` can now be added to a shopping cart from a requisition list.
 
 ### Shared catalog
 
@@ -674,7 +791,7 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 
 ![Fixed issue](../assets/fix.svg) <!--- MC-39802--> Filters are now filtered by the current category and displayed correctly on all pages when shared catalogs are enabled. Previously, filters were wrongly calculated for the current page only and were not filtered by the current category.
 
-![Fixed issue](../assets/fix.svg) <!--- MC-39522--> The GraphQL `products` query no longer returns  a product's price range and category for products that are not assigned to a shared catalog when shared catalog is enabled. Previously, the query returned the product's aggregations, even though the product itself was not returned in the `items` array.
+![Fixed issue](../assets/fix.svg) <!--- MC-39522--> The GraphQL `products` query no longer returns a product's price range and category for products that are not assigned to a shared catalog when shared catalog is enabled. Previously, the query returned the product's aggregations, even though the product itself was not returned in the `items` array.
 
 ## B2B v1.3.1
 
@@ -738,9 +855,9 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 
 - Buyers are redirected to the shopping cart when trying to place an order from a purchase order using PayPal Express Checkout when **[!UICONTROL In-Context Mode]** is disabled. <!--- B2B-1604-->
 
-- Adobe Commerce sometimes displays a 404 error when a buyer creates a purchase order and then navigates to the checkout page. This error occurs when a buyer has previously created a different purchase order with an online payment method before navigating to the checkout page without completing the previous purchase. The buyer can still place the purchase order. **_Work around_**: None. <!--- B2B-1605-->
+- Adobe Commerce sometimes displays a 404 error when a buyer creates a purchase order and then navigates to the checkout page. This error occurs when a buyer has previously created a different purchase order with an online payment method before navigating to the checkout page without completing the previous purchase. The buyer can still place the purchase order. **_Workaround_**: None. <!--- B2B-1605-->
 
-- Discounts for a specific payment method persist during checkout for a purchase order even when the buyer changes their payment method during final checkout. As a result, customers can receive a discount that they are not entitled to. This issue occurs because a cart rule for the original payment method is still applied despite the change in payment method. **_Work around_**: None. See the [Adobe Commerce 2.4.2 B2B known issue: discount remains for online Purchase Orders after payment method is changed](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/magento-2.4.2-b2b-discount-remains-pay-method-change.html) _Knowledge Base_ article. <!-- B2B-1012 -->
+- Discounts for a specific payment method persist during checkout for a purchase order even when the buyer changes their payment method during final checkout. As a result, customers can receive a discount that they are not entitled to. This issue occurs because a cart rule for the original payment method is still applied despite the change in payment method. **_Workaround_**: None. See the [Adobe Commerce 2.4.2 B2B known issue: discount remains for online Purchase Orders after payment method is changed](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/magento-2.4.2-b2b-discount-remains-pay-method-change.html) _Knowledge Base_ article. <!-- B2B-1012 -->
 
 - The `deleteRequisitionListOutput` query returns details about the deleted requisition list instead of the remaining requisition lists. <!--- MC-39894-->
 
@@ -758,7 +875,7 @@ This release includes improvements to order approvals, shipping methods, shoppin
 
 ![New](../assets/new.svg) B2B merchants can now control shipping methods that are offered to each Company.<!--- BUNDLE-160 161 162 -->
 
-![New](../assets/new.svg) Merchants can now allow users to clear the contents of their shopping cart in a single action and can configure this ability independently on each website <!--- BUNDLE-108 -->
+![New](../assets/new.svg) Merchants can now allow users to clear the contents of their shopping cart in a single action and can configure this ability independently on each website. <!--- BUNDLE-108 -->
 
 ![New](../assets/new.svg) B2B buyers can now add individual items or the entire contents of their shopping cart directly to a requisition list. <!--- BUNDLE-145 144-->
 
@@ -786,11 +903,13 @@ This release includes improvements to order approvals, shipping methods, shoppin
 
 ![Fixed issue](../assets/fix.svg) The HTML container that surrounds product price on requisition lists is now rendered correctly for the children of bundled products. <!--- MC-36331-->
 
-![Fixed issue](../assets/fix.svg) Merchants can now designate the language in which company user email is sent when creating a company in multi-language deployments. Previously, the drop-down menu the enables merchants to select the appropriate store view and language was not displayed.  <!--- MC-35777-->
+![Fixed issue](../assets/fix.svg) Merchants can now designate the language in which company user email is sent when creating a company in multi-language deployments. Previously, the drop-down menu that enables merchants to select the appropriate store view and language was not displayed.  <!--- MC-35777-->
 
 ![Fixed issue](../assets/fix.svg) Custom customer address attributes fields are now displayed as expected in the storefront checkout workflow. <!--- MC-35607-->
 
-![Fixed issue](../assets/fix.svg) The B2B Features configuration tab now opens correctly. <!--- MC-35458-->Guests can now use QuickOrder to add products to their cart and then successfully remove items. Previously, when a shopper used QuickOrder to add multiple products to their cart, and then removed a product, the product was not removed. <!--- MC-35327-->
+![Fixed issue](../assets/fix.svg) The B2B Features configuration tab now opens correctly. <!--- MC-35458-->
+
+![Fixed issue](../assets/fix.svg) Guests can now use QuickOrder to add products to their cart and then successfully remove items. Previously, when a shopper used QuickOrder to add multiple products to their cart, and then removed a product, the product was not removed. <!--- MC-35327-->
 
 ![Fixed issue](../assets/fix.svg) A company can now be updated using the REST API PUT `/V1/company/:companyId` request without specifying the `region_id` when state is configured as **not required**. Previously, even though `region_id` was not required, Adobe Commerce threw an error if it was not specified. <!--- MC-35304-->
 
@@ -834,7 +953,7 @@ This release includes improvements to order approvals, shipping methods, shoppin
 
 ![New](../assets/new.svg) Added support for Adobe Commerce 2.4.0.
 
-![New](../assets/new.svg) Storefront Order Search, with added thanks for contribution by Marek Mularczyk from [Divante](https://www.divante.com/) and community members.
+![New](../assets/new.svg) Storefront Order Search, with thanks for the contribution by Marek Mularczyk from [Divante](https://www.divante.com/) and community members.
 
 ![New](../assets/new.svg) Purchase Orders are enhanced and rewritten. They are now included by default in Adobe Commerce.
 
@@ -884,7 +1003,7 @@ This release includes improvements to order approvals, shipping methods, shoppin
 
 ![Fixed issue](../assets/fix.svg) Previously, when changing the admin of a company, the original admin address would be copied to the new admin, giving them two addresses. Now, only the correct address is added.
 
-![Fixed issue](../assets/fix.svg) Previously, using the API to save a quote item when git is set to "Allowed and Notify Customer" would fail. This API call now works as expected.
+![Fixed issue](../assets/fix.svg) Previously, using the API to save a quote item when backorder is set to "Allowed and Notify Customer" would fail.  "Allowed and Notify Customer" would fail. This API call now works as expected.
 
 ![Fixed issue](../assets/fix.svg) The Fixed Product Tax is now displayed on the Quotes detail page.
 

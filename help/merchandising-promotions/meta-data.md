@@ -33,7 +33,7 @@ Meta descriptions provide a brief overview of the page for search results listin
 
 ## Rich snippets
 
-Rich snippets provide detailed information for search results listings and other applications. By default, structured data markup that is based on the [schema.org][1] standard is added to your store's product template. As a result, more information is available for search engines to include as _rich snippets_ in product listings.
+Rich snippets provide detailed information for search results listings and other applications. By default, structured data markup that is based on the [schema.org](https://schema.org/) standard is added to your store's product template. As a result, more information is available for search engines to include as _rich snippets_ in product listings.
 
 ## Canonical meta tag
 
@@ -93,5 +93,3 @@ You can avoid being penalized by search engines by omitting the category from th
 Watch this video to learn about managing SEO meta data:
 
 >[!VIDEO](https://video.tv.adobe.com/v/343750?quality=12&learn=on)
-
-[1]: https://schema.org/

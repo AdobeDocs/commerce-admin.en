@@ -70,7 +70,7 @@ If [!DNL Google Maps] is already configured for your store, you can skip this st
 
 1. Click the project drop-down and select or create the project for which you want to add an API key.
 
-1. To configure your API credentials, follow the [instructions][1] in the [!DNL Google Maps] documentation.
+1. To configure your API credentials, follow the [instructions](https://developers.google.com/maps/documentation/javascript/get-api-key) in the [!DNL Google Maps] documentation.
 
 1. Copy your API Key to the clipboard.
 
@@ -399,5 +399,3 @@ Because this dynamic block is visible only to members of a specific customer seg
 You have completed the Block exercise. Make sure to keep your work for reference.
 
 When you are ready, proceed to [Part 3: Catalog Content](3-catalog-content.md)
-
-[1]: https://developers.google.com/maps/documentation/javascript/get-api-key

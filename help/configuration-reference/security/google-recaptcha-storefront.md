@@ -57,6 +57,25 @@ For more information about using Google reCAPTCHA to secure your store, see Goog
 
 {style="table-layout:auto"}
 
+## [!UICONTROL reCAPTCHA Enterprise]
+
+[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service projects only (Adobe-managed SaaS infrastructure)."}
+
+![reCAPTCHA v3 Enterprise](./assets/recaptcha-storefront-v3-enterprise.png)<!-- zoom -->
+
+|Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
+|--|--|--|
+[!UICONTROL Site Key]|Website|The site key that is created when you register your Google reCAPTCHA Enterprise account.|
+[!UICONTROL Google Cloud Project ID]|Website|The project ID is displayed in the **Project info** section on the project's dashboard.|
+[!UICONTROL Service Account JSON]|Website|Download the service account key from the Google Cloud console and paste its contents into this field.|
+[!UICONTROL Minimum Score Threshold]|Website|The minimum score that identifies a user interaction as a potential risk, where 1.0 is a typical user interaction, and 0.0 is likely a bot. Default: `0.5`|
+[!UICONTROL Badge Position]|Website|The position of the invisible reCAPTCHA badge on each page. Options: `Inline` / `Bottom Right` / `Bottom Left`|
+[!UICONTROL Theme]|Website|Determines the style of the Google reCAPTCHA box. Options: `Light Theme` (default) / `Dark Theme`|
+[!UICONTROL Language Code]|Store view|A [two-character code](https://developers.google.com/recaptcha/docs/language) that specifies the language that is used for Google reCAPTCHA text and messaging. Leave the field blank to use the default language of the user's browser. |
+[!UICONTROL Validation Failure Message]|Store view|A message to display when validation fails.|
+
+{style="table-layout:auto"}
+
 ## [!UICONTROL reCAPTCHA Failure Messages]
 
 ![Failure messages](./assets/recaptcha-storefront-failure-messages.png)<!-- zoom -->

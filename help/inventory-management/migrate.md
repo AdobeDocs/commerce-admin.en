@@ -48,9 +48,9 @@ When you install Magento Open Source 2.4.x or Adobe Commerce 2.4.x, the followin
 
 ## [!DNL Commerce Order Management] and [!DNL Inventory Management]
 
-[Commerce Order Management (MCOM)][1] is not compatible with the [!DNL Inventory Management]. When installed, MCOM modules provide all inventory management features to [!DNL Commerce], including single- and multi-source management, stocks, reservations, and more. The [!DNL Inventory Management] modules are disabled by default.
+[Commerce Order Management (MCOM)](https://commerce-docs.github.io/oms-documentation-archive/) is not compatible with the [!DNL Inventory Management]. When installed, MCOM modules provide all inventory management features to [!DNL Commerce], including single- and multi-source management, stocks, reservations, and more. The [!DNL Inventory Management] modules are disabled by default.
 
-MCOM provides extensive features and services for advanced omnichannel order management, global inventory and multi-sourcing, store to warehouse fulfillment, and centralized customer service. For a complete list of features, see the [MCOM Feature list][2].
+MCOM provides extensive features and services for advanced omnichannel order management, global inventory and multi-sourcing, store to warehouse fulfillment, and centralized customer service. For a complete list of features, see the [MCOM Feature list](https://commerce-docs.github.io/oms-documentation-archive/getting-started/feature-list/).
 
 [!DNL Inventory Management] extends existing [!DNL Commerce] features with additional options to track in-process orders, on-hand inventory, available inventory for a stock, and APIs for extension development.
 
@@ -65,6 +65,3 @@ You may want to disable [!DNL Inventory Management] modules to:
 - Use [!DNL Order Management System] for inventory management. The current connector does not support [!DNL Inventory Management] interfaces. For OMS merchants upgrading to Adobe Commerce 2.4.0, they must disable these modules.
 
 For complete details, see [Install and Update](install-update.md).
-
-[1]: https://commerce-docs.github.io/oms-documentation-archive/
-[2]: https://commerce-docs.github.io/oms-documentation-archive/getting-started/feature-list/

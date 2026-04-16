@@ -31,3 +31,13 @@ Your store can be configured to require shoppers to open an account before makin
    If necessary, clear the **[!UICONTROL Use system value]** checkbox to enable changes to this setting.
 
 1. Click **[!UICONTROL Save Config]**.
+
+## Allow guest order access for registered emails
+
+[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service projects only (Adobe-managed SaaS infrastructure)."}
+
+An optional, store-level configuration, which is disabled by default, allows guest shoppers to track their orders placed using an email address that matches a registered customer account.
+
+When enabled, guest checkout orders placed with a registered email remain accessible, while also appearing in the customer's order history.
+
+To enable this feature, navigate to **Stores** > Settings > **Configuration** > Sales > **Sales** > **Guest Checkout** and set the **Allow Guest Order Access for Registered Emails** setting to `Yes`.

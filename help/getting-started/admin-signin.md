@@ -30,7 +30,7 @@ For additional security, you can determine which parts of the _Admin_ each user 
 
 ### Step 1: Set up two-factor authentication
 
-Before you can sign in to the _Admin_ of your store, you must have a two-factor authentication solution set up and ready to use. To learn more about the authentication process used by each solution, see [Using Two-Factor Authentication](../systems/security-two-factor-authentication-use.md). By default, [!DNL Commerce] supports [Google Authenticator][1].
+Before you can sign in to the _Admin_ of your store, you must have a two-factor authentication solution set up and ready to use. To learn more about the authentication process used by each solution, see [Using Two-Factor Authentication](../systems/security-two-factor-authentication-use.md). By default, [!DNL Commerce] supports [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_US).
 
 Ask your [!DNL Commerce] system administrator which 2FA solutions are supported for the store. Then, complete the setup of your preferred 2FA solution according to the provider's instructions.
 
@@ -150,7 +150,6 @@ The Admin provides access to manage the orders, customers, products, shipping, a
 
 1. Click **[!UICONTROL Save Config]**.
 
-[1]: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_US
 
 ## Maintan secure access to the Admin
 

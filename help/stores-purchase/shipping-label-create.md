@@ -18,10 +18,10 @@ Contact each carrier that you use to activate shipping labels for your store.
 
 Follow the instructions provided by each carrier to add shipping label support to your account.
 
-- **FedEx** - Contact [FedEx Web Integration Services][1] to learn about the label printing requirements for your account.
-- **USPS** - Refer to the [Web Tools API Portal][4] under Shipper Support Center to learn how to set up your label printing credentials.
-- **UPS**- Contact [UPS][2] to confirm that your account supports shipping labels. To generate shipping labels, you must use the UPS XML option.
-- **DHL** - Contact [DHL eCommerce Solutions][3] to learn about the label printing requirements for your account.
+- **FedEx** - Contact [FedEx Web Integration Services](https://www.fedex.com/en-us/api/get-support.html) to learn about the label printing requirements for your account.
+- **USPS** - Refer to the [Web Tools API Portal](https://www.usps.com/business/web-tools-apis/#ssc) under Shipper Support Center to learn how to set up your label printing credentials.
+- **UPS**- Contact [UPS](https://www.ups.com/us/en/support/contact-us.page) to confirm that your account supports shipping labels. To generate shipping labels, you must use the UPS XML option.
+- **DHL** - Contact [DHL eCommerce Solutions](https://www.dhl.com/us-en/home/our-divisions/ecommerce-solutions.html) to learn about the label printing requirements for your account.
 
 ## Step 2: Update the configuration for each carrier
 
@@ -53,11 +53,32 @@ United Parcel Service ships both domestically and internationally. However, ship
 
 The [!DNL United States Postal Service] ships both domestically and internationally.
 
+{{$include /help/_includes/usps-api-type-configuration-note.md}}
+
 1. Continuing in the **[!UICONTROL Delivery Methods]** configuration, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL USPS]** section.
+
+1. Select **[!UICONTROL USPS Type]** as `USPS Rest APIs` or `USPS Web Tools API`.
 
 1. Verify that the **[!UICONTROL Secure Gateway URL]** is correct.
 
 1. Enter the **[!UICONTROL Password]** provided to you by USPS.
+
+1. Verify that the following configuration is complete based on the selected **[!UICONTROL USPS Type]**:
+
+   If you are using the USPS Web Tools API:
+      - User Id
+      - Password
+
+   If you are using the USPS REST APIs:
+      - Consumer Key
+      - Consumer Secret
+      - Pricing Options
+      - Account Type
+      - Account Number
+      - Customer Registration ID (CRID)
+      - Mailer Identifier (MID)
+      - Manifest MID
+      - AES/ITN
 
 1. Set **[!UICONTROL Size]** to `Large` and enter values for the following dimensions:
 
@@ -260,7 +281,5 @@ You can click **[!UICONTROL Cancel]** to stop the process, if needed. The packag
 
 {style="table-layout:auto"}
 
-[1]: https://www.fedex.com/en-us/api/get-support.html
-[2]: https://www.ups.com/us/en/support/contact-us.page
-[3]: https://www.dhl.com/us-en/home/our-divisions/ecommerce-solutions.html
-[4]: https://www.usps.com/business/web-tools-apis/#ssc
+
+<!-- Last updated from includes: 2025-11-26 10:55:00 -->

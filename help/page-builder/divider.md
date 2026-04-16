@@ -54,7 +54,7 @@ Although most divider containers are invisible, the following example displays t
 
 1. Change the divider **[!UICONTROL Line Color]** using one of the following methods:
 
-   - Enter a valid [HTML color name][1]. For example, `Teal`.
+   - Enter a valid [HTML color name](https://en.wikipedia.org/wiki/Web_colors). For example, `Teal`.
    - Enter the hexadecimal color value. For example, `#008080`.
 
    When complete, click **[!UICONTROL Apply]**.
@@ -150,6 +150,5 @@ For a formatted divider with specific settings, it is more efficient to make a d
 
    ![Moving the duplicated divider into position](./assets/pb-elements-divider-move-guideline.png){width="500" zoomable="yes"}
 
-[1]: https://en.wikipedia.org/wiki/Web_colors
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->
