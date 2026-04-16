@@ -43,9 +43,11 @@ When customers purchase the available 25 products, new orders enter as backorder
 >
 >When a customer places an order using _[!UICONTROL backorder qty]_, [!DNL Inventory Management] automatically subtracts the quantity from the salable quantity. If an order is not shipped and is canceled, the quantity returns to the aggregated virtual salable quantity. The **_canceled order quantity is not assigned to any of the sources_**, but is returned to the total number of products available for sale (_[!UICONTROL Salable Quantity]_ column  on the products grid).
 
-<!--### Notify for Quantity Below JIRA MDVA-8099 MDVA-33783
+<!--
+### Notify for Quantity Below JIRA MDVA-8099 MDVA-33783
 
-The _Notify for Quantity Below_ configuration option is configurable at the global, source, and product levels. When it is enabled, the system sends an email notification when the product quantity reaches a level at or below the configured value. For this example, a notification is triggered when the product has a quantity of 10 or less. When backorders are enabled, _Notify for Quantity Below_ is determined by the Salable Quantity (`Salable Quantity = Quantity - (Out-of-Stock Threshold)`). -->
+The _Notify for Quantity Below_ configuration option is configurable at the global, source, and product levels. When it is enabled, the system sends an email notification when the product quantity reaches a level at or below the configured value. For this example, a notification is triggered when the product has a quantity of 10 or less. When backorders are enabled, _Notify for Quantity Below_ is determined by the Salable Quantity (`Salable Quantity = Quantity - (Out-of-Stock Threshold)`). 
+-->
 
 ### Stock status
 
