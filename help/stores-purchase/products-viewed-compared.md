@@ -3,8 +3,11 @@ title: Recently viewed or compared products
 description: Learn how to configure the storefront content blocks for recently viewed and compared products.
 exl-id: a4580835-68c2-4eb0-825e-0939eeab921b
 feature: Products, Storefront
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Recently viewed or compared products
+
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
 
 The _Recently Viewed and Recently Compared_ blocks usually appear in the right sidebar of a catalog page. The number of products listed in each can be configured for each website, store, or store view.
 
