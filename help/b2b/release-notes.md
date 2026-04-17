@@ -331,6 +331,8 @@ Improvements to quoting capabilities help buyers and sellers manage quotes and q
 
 *August 6, 2024*
 
+*August 6, 2024*
+
 [!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.7-p2+ and 2.4.6-p7+ security patch releases.
 
 - Added compatibility with Adobe Commerce 2.4.7-p2+ and 2.4.6-p7+ security patch releases.
@@ -733,6 +735,7 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 
 - <!--- MC-41523--> Adobe Commerce now sends company emails from the correct `from` email address and scope. Previously, Adobe Commerce did not consider website scope when sending company credit assignment or update email.
 
+
 #### Quick order
 
 - <!--- MC-42104--> Creating an order using Quick Order from a CSV file now works as expected with nonexistent SKUs.
@@ -780,6 +783,7 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 - <!--- MC-40454--> Adobe Commerce now displays the correct product price when you add a product with a customizable option `(File)` to a wish list from a requisition list. The link to the uploaded file is also visible as expected. Previously, Adobe Commerce displayed incorrect product prices and did not display the link to the file.
 
 - <!--- MC-36383--> Products with a customizable option `(File)` can now be added to a shopping cart from a requisition list.
+
 
 #### Shared catalog
 
