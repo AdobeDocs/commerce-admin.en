@@ -126,7 +126,7 @@ A reservation contains the following information:
 | `stock_id` | Integer | The ID of the stock the product is assigned to |
 | `sku` | String | The SKU of the product |
 | `quantity` | Float | The number of items in this reservation |
-| `metadata` | String | The event type, object type, and object ID for this reservation. For example, `{"event_type":"order_placed","object_type":"order",| "object_id":"8"}` |
+| `metadata` | String | The event type, object type, and object ID for this reservation. For example, `{"event_type":"order_placed","object_type":"order",\| "object_id":"8"}` |
 
 {style="table-layout:auto"}
 

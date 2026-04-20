@@ -2,7 +2,6 @@
 user-guide-title: Admin Systems Guide
 user-guide-description: This guide provides detailed information about Admin security, maintenance operations, and system-wide resources that support organizational functions within your Adobe Commerce store.
 breadcrumb-title: Admin Systems Guide
-hide: no
 role: Admin, Leader
 feature: System
 ---
