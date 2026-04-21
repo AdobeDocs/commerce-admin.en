@@ -12,7 +12,7 @@ Use the _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_ section to se
 
 Every block consists of a list of products which belong to a specific option.
 
-|Field|Description|    
+|Field|Description|
 |--- |--- |
 |[!UICONTROL ID]|A unique numeric identifier that is assigned to product entity.|
 |[!UICONTROL Thumbnail]|Product thumbnail image.|

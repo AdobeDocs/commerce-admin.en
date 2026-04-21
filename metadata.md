@@ -11,7 +11,7 @@ git-repo: https://github.com/AdobeDocs/commerce-admin.en
 role: Admin, User
 level: Beginner, Intermediate
 topic: Commerce, Administration
-index: yes
+index: true
 ---
 
 # Metadata for internal use
