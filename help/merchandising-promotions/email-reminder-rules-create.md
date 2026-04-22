@@ -52,6 +52,8 @@ Before setting up an email reminder rule, you must first [set up a cart price ru
    >If a customer has more than one matched abandoned cart, wish list, or combination of both, the email reminder is triggered only once for that customer. To trigger the same email reminder again, use the _[!UICONTROL Repeat Schedule]_ field to set the number of days between emails. <br/>
    >
    >The same email reminder is **_not retriggered_** for the same customer for **_new_** abandoned carts and wish lists **_after_** the _[!UICONTROL Repeat Schedule]_ period is over.
+   >
+   >Adobe Commerce as a Cloud Service has an experimental feature that allows a single rule to be applied multiple times, see [Rule repeatability](#rule-repeatability) for more information.
 
    Complete the condition to describe the scenario that triggers the email reminder.
 
@@ -85,7 +87,38 @@ Before setting up an email reminder rule, you must first [set up a cart price ru
 
       ![Titles and descriptions - store view](./assets/email-reminder-rules-title-descriptions-per-store-view.png){width="500" zoomable="yes"}
 
+1. [!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and Adobe Commerce Optimizer projects only (Adobe-managed SaaS infrastructure)."} If you are using [!DNL Adobe Commerce as a Cloud Service], you can enable [rule repeatability](#rule-repeatability) by selecting the [!UICONTROL Rule Repeatability] checkbox.
+
+   >[!IMPORTANT]
+   >
+   >The rule repeatability option is an experimental feature that is disabled by default.  For details on enabling the option, see [Rule repeatability](#rule-repeatabilty).
+
 1. When complete, click **[!UICONTROL Save]**.
+
+## Rule repeatability
+
+[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and Adobe Commerce Optimizer projects only (Adobe-managed SaaS infrastructure)."}
+
+>[!IMPORTANT]
+>
+>This an experimental feature and is not enabled by default. To enable it, contact your Adobe Commerce Customer Success Manager or create a support ticket. It will be made available to all Adobe Commerce as a Cloud Service customers in a future release.
+
+Rule repeatability allows you to reuse a single rule for multiple email reminders. This is useful when you want the rule to apply to the same customer at a later time. Without rule repeatability, the rule no longer applies after a customer clears their cart or completes a purchase.
+
+Selecting the **[!UICONTROL Rule Repeatability]** checkbox on the **[!UICONTROL General Information]** tab allows the rule to apply to users again after the original rule trigger no longer applies.
+
+![Rule repeatability](./assets/rule-repeatability.png){width="600" zoomable="yes"}
+
+>[!BEGINSHADEBOX]
+
+Consider the following example:
+
+You have an abandoned cart rule that is triggered after 1 day and retriggers 3 and 5 days later. A user abandons a cart and 1 day later, they receive an abandoned cart email reminder. After 2 days, the user decides to complete their purchase. The cart is no longer abandoned. 10 days later, the user abandons a new cart with different items.
+
+- If **[!UICONTROL Rule Repeatability]** is enabled, the user receives a new abandoned cart email reminder.
+- If **[!UICONTROL Rule Repeatability]** is disabled, the user does **not** receive any additional abandoned cart email reminders.
+
+>[!ENDSHADEBOX]
 
 ## Trigger conditions
 
