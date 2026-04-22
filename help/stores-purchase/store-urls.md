@@ -45,11 +45,11 @@ Adobe Commerce and Magento Open Source can be configured to deliver all pages ov
 
    - **[!UICONTROL Base URL for Static View Files]** — (Optional) Specify an alternate location for the base URL for static view files by entering the path starting with the following placeholder:
 
-      \{\{unsecure_base_url}}
+      \{\{unsecure_base_url\}\}
 
    - **[!UICONTROL Base URL for User Media Files]** — (Optional) Specify an alternate location for the base URL for user media files by entering the path starting with the following placeholder:
 
-      \{\{unsecure_base_url}}
+      \{\{unsecure_base_url\}\}
 
       For a typical installation, there is no need to update the paths for the static view files or media files because they are relative to the base URL.
 
@@ -75,11 +75,11 @@ If your domain has a valid security certificate, you can configure the URLs of b
 
    - **[!UICONTROL Secure Base URL for Static View Files]** — (Optional) Specify an alternate location for the secure base URL for static view files by entering the path starting with the following placeholder:
 
-        \{\{secure_base_url}}
+        \{\{secure_base_url\}\}
 
    - **[!UICONTROL Secure Base URL for User Media Files]** — (Optional) Specify an alternate location for the secure base URL for user media files by entering the path starting with the following placeholder:
 
-        \{\{secure_base_url}}
+        \{\{secure_base_url\}\}
 
 1. To enhance security, set both of the following options to `Yes`.
 
