@@ -148,25 +148,25 @@ After each scheduled import job, a reindex operation is performed automatically.
 
 #### [!UICONTROL Import Settings]
 
-| Field | Description | 
-| ----- | ----------- | 
-| [!UICONTROL Name] | The name of the import. Helps you to distinguish it if many different scheduled imports are created.| 
-| [!UICONTROL Description] | (Optional) You can enter a description.| 
-| [!UICONTROL Entity Type] | Defines the data to be imported.| 
+| Field | Description |
+| ----- | ----------- |
+| [!UICONTROL Name] | The name of the import. Helps you to distinguish it if many different scheduled imports are created.|
+| [!UICONTROL Description] | (Optional) You can enter a description.|
+| [!UICONTROL Entity Type] | Defines the data to be imported.|
 | [!UICONTROL Import Behavior] | Defines how complex data is handled if the entities being imported exist in the database. Complex data for products include categories, websites, custom options, tier prices, related products, up-sells, cross-sells, and associated products data. Complex data for customers include addresses. Options:<br>**[!UICONTROL Add/Update Complex Data]** - The new complex data are added or updated to the existing complex data for existing entries in the database. This is the default value.<br>**[!UICONTROL Add/Update]** - New data is added to the existing entries in the database. All fields except `sku` can be updated for products. Any multiple field values that are not listed in the CSV file, such as categories or websites, remain in the database after the import.<br>**[!UICONTROL Replace]** - The existing complex data for the existing entities are replaced.<br>**[!UICONTROL Delete Entities]** - If imported entities exist in the database, they are deleted from the database.<br>**[!UICONTROL Custom Action]** - The existing complex entities are customized during the import process. |
 | [!UICONTROL Start Time] | Set the start hour, minutes, and seconds of the import. |
 | [!UICONTROL Frequency] | Define how often the import is run. Options: `Daily` / `Weekly` / `Monthly` |
-| [!UICONTROL On Error] | Define the system behavior in case errors are found during file validation. Options:<br>**Stop Import** — The file is not imported if any errors are found during validation. This is the default value.<br>**Continue Processing** - In case errors are found during validation, but importing is possible, the file is imported.| 
-| [!UICONTROL Status] | The import is enabled by default. You can suspend it by setting the Status to `Disabled`.| 
-| [!UICONTROL Field Separator] | Determines the character that is used to separate fields. Default value: `,` (comma)| 
-| [!UICONTROL Multiple Value Separator]| Determines the character that is used to separate multiple values within a field. Default value: `,` (comma)| 
+| [!UICONTROL On Error] | Define the system behavior in case errors are found during file validation. Options:<br>**Stop Import** — The file is not imported if any errors are found during validation. This is the default value.<br>**Continue Processing** - In case errors are found during validation, but importing is possible, the file is imported.|
+| [!UICONTROL Status] | The import is enabled by default. You can suspend it by setting the Status to `Disabled`.|
+| [!UICONTROL Field Separator] | Determines the character that is used to separate fields. Default value: `,` (comma)|
+| [!UICONTROL Multiple Value Separator]| Determines the character that is used to separate multiple values within a field. Default value: `,` (comma)|
 
 {style="table-layout:auto"}
 
 #### [!UICONTROL Import File Information]
 
-| Field | Description | 
-| ----- | ----------- | 
+| Field | Description |
+| ----- | ----------- |
 | [!UICONTROL Server Type] | You can import from a file on the same server where Commerce is deployed (select `Local Server`) or from the remote FTP server (select `Remote FTP`). If you select _[!UICONTROL Remote FTP]_, additional options for credentials and file transfer settings appear. If the remote storage module is enabled, `Local Server` type is automatically switched to `Remote Storage`. |
 | [!UICONTROL File Directory] | Specify the directory where the import file is located. If Server Type is set to _[!UICONTROL Local Server]_, specify the path relative to the Commerce installation directory. For example: `var/import` or `import_export/import` for remote storage. |
 | [!UICONTROL File Name] | Specify the name of the import file. |
@@ -176,8 +176,8 @@ After each scheduled import job, a reindex operation is performed automatically.
 
 #### [!UICONTROL Import Failed Emails]
 
-| Field | Description | 
-| ----- | ----------- | 
+| Field | Description |
+| ----- | ----------- |
 | [!UICONTROL Failed Email Receiver] | Specify the email address to which an email notification (failed import email) is sent if the import fails. |
 | [!UICONTROL Failed Email Sender] | Specify the email address that is used as the sender for the import failed email. |
 | [!UICONTROL Failed Email Template] | Select a template for the import failed email. By default, only the Import Failed (Default Template from Locale option is available. Custom templates can be created under _[!UICONTROL System]_ > _[!UICONTROL Transactional Emails]_. |
@@ -296,8 +296,8 @@ The details of each export are not written to a log, but if there is failure you
 
 #### [!UICONTROL Export Settings]
 
-| Field | Description | 
-| ----- | ----------- | 
+| Field | Description |
+| ----- | ----------- |
 | [!UICONTROL Name] | The name of the export. Helps you to distinguish it if many different scheduled exports are created. |
 | [!UICONTROL Description] | (Optional) A description of the scheduled export. |
 | [!UICONTROL Entity Type] | Identifies the data to be exported. After the selection is made, the Entity Attributes appear below. Options: `Advanced Pricing` / `Products` / `Customer Finances` / `Customers Main File` / `Customer Addresses` / `Stock Sources` |
@@ -310,8 +310,8 @@ The details of each export are not written to a log, but if there is failure you
 
 #### [!UICONTROL Export Settings Information]
 
-| Field | Description | 
-| ----- | ----------- | 
+| Field | Description |
+| ----- | ----------- |
 | [!UICONTROL Server Type] | Determines the location of the export file. Options:<br>**Local Server** — Places the export file on the same server where Commerce is deployed. If the Remote storage module is enabled, `Local Server` is switched to `Remote Storage`.<br>**Remote FTP** — Places the export file on a remote server. Additional options for credentials and file transfer settings appear. |
 | [!UICONTROL File Directory] | Specify the directory where the export file is placed. In case _[!UICONTROL Server Type]_ is set to `Local Server`, specify the path relative to the Commerce installation path. For example, `var/export`, or `import_export/export` for remote storage. |
 
@@ -319,8 +319,8 @@ The details of each export are not written to a log, but if there is failure you
 
 #### [!UICONTROL Export Failed Emails]
 
-| Field | Description | 
-| ----- | ----------- | 
+| Field | Description |
+| ----- | ----------- |
 | [!UICONTROL Failed Email Receiver] | Specify the email address to which an email notification (export failed email) is sent if the export fails. |
 | [!UICONTROL Failed Email Sender] | Specify the email address that is used as export failed email sender. |
 | [!UICONTROL Failed Email Template] | Select a template for the failed export email. By default, only the `Export Failed (Default Template from Locale)` option is available. |

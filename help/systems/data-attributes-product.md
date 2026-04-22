@@ -89,7 +89,7 @@ The installation used to export this data has the sample data installed, and has
 |`upsell_position`|Determines the position (sort order) of the SKUs that are listed as up-sell products in the `upsell_skus` column.|
 |`additional_images`|The  file names of any additional image to be associated with the product, preceded by a forward slash. For example: `/image.jpg`|
 |`additional_image_labels`|The labels associated with any additional images. For example: `Label 1`, `Label 2`|
-|`custom_options`|Specifies the properties and values assigned to each custom option. For example: <br/>`name=Color, type=drop_down, required=1, price= price_type=fixed, sku=, option_title=Black|name=Color, type=drop_down, required=1, price=, price_type=fixed, sku=, option_title=White`|
+|`custom_options`|Specifies the properties and values assigned to each custom option. For example: <br/>`name=Color, type=drop_down, required=1, price= price_type=fixed, sku=, option_title=Black\|name=Color, type=drop_down, required=1, price=, price_type=fixed, sku=, option_title=White`|
 
 {style="table-layout:auto"}
 
@@ -124,7 +124,7 @@ If you export a configurable product, you would find the standard attributes tha
 |Attribute|Description|
 |--- |--- |
 |`configurable_variation_labels`|Labels that identify product variations. For example: `Choose Color:` or `Choose Size:`|
-|`configurable_variations`|Describes the values associated with a product variation. For example: `sku=sku-red xs,color=red,size=xs,price=10.99,display=1,image=/pub/media/import/image1.png|sku=sku-red-m,color=red,size=m,price=20.88,display=1,image=/pub/media/import/image2.png`|
+|`configurable_variations`|Describes the values associated with a product variation. For example: `sku=sku-red xs,color=red,size=xs,price=10.99,display=1,image=/pub/media/import/image1.png\|sku=sku-red-m,color=red,size=m,price=20.88,display=1,image=/pub/media/import/image2.png`|
 
 {style="table-layout:auto"}
 
