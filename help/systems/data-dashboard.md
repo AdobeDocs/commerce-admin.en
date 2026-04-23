@@ -10,7 +10,7 @@ The Data Management Dashboard offers an overview of the synchronization status f
 
 >[!NOTE]
 >
->If you have installed the [Adobe Commerce Optimizer Connector ](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview) to export catalog data to Adobe Commerce Optimizer, use the [Data Feed Sync Status page](../optimizer/setup/data-sync.md) in Commerce Optimizer Studio to check data successfully synchronized to Optimizer instead of the Data Management Dashboard.
+>If you have installed the [Adobe Commerce Optimizer Connector ](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview) to export catalog data to Adobe Commerce Optimizer, use the [Data Sync page](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) in Commerce Optimizer Studio to verify successful data synchronization, rather than the Data Management Dashboard.
 
 ## Audience
 
