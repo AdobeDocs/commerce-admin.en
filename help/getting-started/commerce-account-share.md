@@ -6,9 +6,12 @@ feature: User Account
 ---
 # Share a [!DNL Commerce] account
 
-Your [!DNL Commerce] account contains information that you can make available to trusted employees and service providers who help manage your site. As the primary account holder, you have authority to grant limited access to other [!DNL Commerce] account holders. Shared access can be revoked, but cannot be transferred from one user to another.
+Your [!DNL Commerce] account contains information that you can make available to trusted employees and service providers who help manage your site. When you share account access, all sensitive information, such as your billing history or credit card information, remains protected and is never available to other users.
 
-The [!DNL Commerce] Support team does not have access to the account and cannot set up shared access for you. Only the primary account holder with appropriate permissions can set up shared access. When you share account access, all sensitive information, such as your billing history or credit card information, remains protected and is never available to other users.
+The primary account holder has the authority to grant limited access to other [!DNL Commerce] account holders. Shared access can be revoked, but not transferred. For ``Cloud Shared Access from MAG[XYZ]`` entries, the user record **cannot be deleted here**, but access **can still be revoked**.
+
+Only the primary account holder with the appropriate permissions can formally grant shared access. If the primary account holder no longer has access or has left the company, the customer should use the [Commerce account transfer process](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-transfer) to move ownership to a new contact. Although the Commerce Support team may be able to impersonate the customer in limited scenarios, shared access should be configured by the customer to reduce security and liability risk.
+
 
 ![Shared access settings](./assets/shared-access.png){width="600" zoomable="yes"}
 
