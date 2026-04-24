@@ -84,7 +84,7 @@ When you switch the **[!UICONTROL Store View]** selector to a specific store vie
 
 ### Reorder images for a store view
 
-When working in a store view scope, a **[!UICONTROL Use Default Order]** checkbox appears at the bottom of the _[!UICONTROL Images and Videos]_ box. Select this checkbox to revert the image display order to the sequence defined at the default scope.
+When working in a store view scope, a **[!UICONTROL Use Default Order]** checkbox appears below the _[!UICONTROL Images and Videos]_ box. Select this checkbox to revert the image display order to the sequence defined at the default scope.
 
 ![Images And Videos – Store View](./assets/product-images-and-videos-rearrange-store-scope.png){width="600" zoomable="yes"}
 
