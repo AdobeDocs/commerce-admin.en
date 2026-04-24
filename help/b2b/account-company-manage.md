@@ -39,7 +39,7 @@ You can manage accounts individually or in groups.
 
   ![Select action to apply to selected companies](assets/companies-change-settings-edit-selection.png){width="675" zoomable="yes"}
 
-- View or change a group of selected company accounts by using the options available from the [!UICONTROL Actions]** control above the grid.
+- View or change a group of selected company accounts by using the options available from the [!UICONTROL Actions] control above the grid.
 
   ![Select action to apply to selected companies](assets/companies-change-settings-mass-action-selection.png){width="675" zoomable="yes"}
 
