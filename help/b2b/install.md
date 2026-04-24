@@ -46,7 +46,7 @@ The Adobe Commerce B2B extension, `magento/extension-b2b` is available for all s
 
 >[!ENDSHADEBOX]
 
-Install the B2B extension (`magento/b2b-extension`) using Composer. The extension is a composer metapackage that includes the collection of modules that enable the B2B capabilities for an Adobe Commerce instance. For a list of included modules, see [B2B Packages](packages.md).
+Install the B2B extension (`magento/extension-b2b`) using Composer. The extension is a composer metapackage that includes the collection of modules that enable the B2B capabilities for an Adobe Commerce instance. For a list of included modules, see [B2B Packages](packages.md).
 
 >[!BEGINTABS]
 
@@ -184,7 +184,7 @@ Prevent possible processing issues or delays by adding the following parameters 
 
 - `--batch-size <value>`— Allows you to limit the system resources consumed by the consumers (CPU, memory). Using smaller batches reduces resource usage and, thus, leads to slower processing.  If specified, messages in a queue are consumed in batches of `<value>` each. This option is applicable for the batch consumer only. If `--batch-size` is not defined, the batch consumer receives all available messages in a queue.
 
-For information about additional configuration options, see [Specific-configuration](https://experienceleague.adobe.com//en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues#specific-configuration).
+For information about additional configuration options, see [Specific-configuration](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues#specific-configuration).
 
 ### Start message consumers
 
