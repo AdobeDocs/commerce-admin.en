@@ -80,7 +80,7 @@ To exclude an image from the thumbnail gallery, select the **[!UICONTROL Hidden]
 
 ## Manage images and videos at the store view level
 
-When you switch the **[!UICONTROL Store View]** chooser to a specific store view (not **[!UICONTROL All Store Views]**), the _[!UICONTROL Images and Videos]_ section provides additional controls to manage how images are displayed for that store view without affecting the default scope.
+When you switch the **[!UICONTROL Store View]** selector to a specific store view (not **[!UICONTROL All Store Views]**), the _[!UICONTROL Images and Videos]_ section provides additional controls to manage how images are displayed for that store view without affecting the default scope.
 
 ### Reorder images for a store view
 
