@@ -50,7 +50,7 @@ The [sales representative](account-company-manage.md) that is assigned as the pr
 
 1. Complete the **[!UICONTROL Company Status Change]** section:
 
-   - Set **[!UICONTROL Company Status Change for Email Recipient]** to the [store contact](../getting-started/store-details.md#store-email-addresses) who is to be notified when the status of a company changes.
+   - Set **[!UICONTROL Company Status Change Email Recipient]** to the [store contact](../getting-started/store-details.md#store-email-addresses) who is to be notified when the status of a company changes.
 
    - In the **[!UICONTROL Send Company Status Change Email Copy To]** field, enter the email address of each person who is to receive a copy of the status change notification. Separate multiple email addresses with a comma.
 
