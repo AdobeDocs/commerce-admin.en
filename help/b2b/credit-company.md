@@ -161,7 +161,7 @@ When managing company credit, implement robust security measures to protect sens
 
 ## Best practices
 
-* * **Credit Policy Management**—When managing company credit, establish clear policies for setting credit limits based on customer payment history and business relationships. Regularly review outstanding balances and payment patterns to assess risk, and always document changes to credit settings with detailed reasons for audit purposes.
+* **Credit Policy Management**—When managing company credit, establish clear policies for setting credit limits based on customer payment history and business relationships. Regularly review outstanding balances and payment patterns to assess risk, and always document changes to credit settings with detailed reasons for audit purposes.
 
 Process payments promptly to maintain accurate balances, and ensure credit currency settings align with each company's primary business operations.
 
