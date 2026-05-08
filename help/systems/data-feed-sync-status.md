@@ -51,7 +51,7 @@ The Data Feed Status page is available to all Commerce merchants with active lic
 
 >[!NOTE]
 >
->You do not need to install the Data Feed Status extension on [!DNL Adobe Commerce as a Cloud Service](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview) instances.
+>You do not need to install the Data Feed Status extension on [[!DNL Adobe Commerce as a Cloud Service]](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview) instances.
 >The extension is available by default if at least one of the following services is enabled in the Commerce deployment:  Product Recommendations v6+, Live Search v4.1+, or Catalog Service v1.17+.
 
 **Requirements**
