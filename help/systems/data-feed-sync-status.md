@@ -32,7 +32,7 @@ Status is tracked for the following feeds:
 
 ## Verify data successfully synchronized to Commerce Services
 
-Use the following methods to check data successfully synchronized to connected Commerce services:
+Use the following methods to verify that data has successfully synchronized with connected Commerce services:
 
 - For Adobe Commerce on cloud or on premises, or Adobe Commerce as a Cloud Service deployments, check the [Data management dashboard](data-dashboard.md).
 - For Adobe Commerce on cloud or on premises deployments configured with the [Adobe Commerce Optimizer Connector](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview), check the [Data Sync page](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) in Commerce Optimizer Studio.
