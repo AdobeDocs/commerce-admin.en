@@ -7,7 +7,7 @@ description: Reused notes and visual elements to note a feature or page applying
 ## EE only feature {#ee-feature}
 
 <table style="border:1px solid red">
-<tr><td><img alt="Adobe Commerce feature" src="../assets/adobe-logo.svg" width="20" height="20" /> Exclusive feature only in Adobe Commerce (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">Learn more</a>)</td></tr>
+<tr><td><img alt="Adobe Commerce feature" src="../assets/adobe-logo.svg" width="20" height="20" /> This is an exclusive feature that is available only in Adobe Commerce and is not available in Magento Open Source. (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">Learn more</a>)</td></tr>
 </table>
 
 ## B2B only feature {#b2b-feature}

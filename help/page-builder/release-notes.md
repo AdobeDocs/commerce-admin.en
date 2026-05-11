@@ -24,7 +24,8 @@ These release notes describe releases of [!DNL Page Builder] and include:
 
 ![New](../assets/new.svg) **New menu options to duplicate, hide, and delete Columns groups** - With these new options, users can duplicate, hide, and delete [!DNL Columns] groups — just like they can with content types.<!--- PB-507-->
 
-![New](../assets/new.svg) <!-- Issue 594 -->**New multiline column support added to Column group** - With this addition, users can manipulate multiple lines of columns inside one [!DNL Columns] group to make help make column layouts much more flexible.<!--- PB-108-->
+![New](../assets/new.svg) <!-- Issue 594 -->**New multiline column support added to Column group** - With this addition, users can manipulate multiple lines of columns inside one [!DNL Columns] group to make help make column layouts much more flexible.
+<!--- PB-108-->
 
 See [Layout - Column](./column.md) for information about using the new [!DNL Columns] group.
 

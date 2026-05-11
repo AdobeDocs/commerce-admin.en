@@ -78,7 +78,6 @@ feature: CMS, Page Content
   - [Migrate media files to AEM Assets](aem-assets-migrate-data.md)
   - Manage assets {#manage}
     - [Use AEM Assets with Commerce](aem-assets-manage.md)
-- Media {#media}
 - Content staging {#staging}
   - [Overview](content-staging.md)
   - [Schedule an update](content-staging-scheduled-update.md)
@@ -86,3 +85,8 @@ feature: CMS, Page Content
   - [Add a campaign item](content-staging-add-item.md)
   - [Preview a campaign](content-staging-preview.md)
 - [Return to Admin User Guides](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
+
+<!--
+Add above "Content staging" when articles are available?
+- Media {#media}
+-->

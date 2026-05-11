@@ -3,6 +3,7 @@ title: Recently viewed or compared products
 description: Learn how to configure the storefront content blocks for recently viewed and compared products.
 exl-id: a4580835-68c2-4eb0-825e-0939eeab921b
 feature: Products, Storefront
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Recently viewed or compared products
 

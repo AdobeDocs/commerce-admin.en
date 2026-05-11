@@ -3,7 +3,6 @@ title: Manage Company Hierarchies
 description: Build and manage company hierarchies to support B2B organizations with complex operational models.
 feature: B2B, Companies
 role: Admin
-hide: no
 hidefromtoc: no
 exl-id: a277ed95-7935-4d27-adb2-35116972732b
 ---
