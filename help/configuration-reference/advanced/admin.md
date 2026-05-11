@@ -78,7 +78,8 @@ For more information about changing these settings, see [Change the startup page
 
 {style="table-layout:auto"}
 
-<!-- Feature still in development 
+<!-- 
+Feature still in development 
 ## [!UICONTROL Unified Experience]
 
 ![Store Configuration for Unified Experience](./assets/admin-uex-configuration.png)

@@ -3,7 +3,6 @@ title: Company Management
 description: Streamline administration and management of B2B organizations with complex operational models.
 feature: B2B, Companies, Storefront
 role: Admin
-hide: no
 hidefromtoc: no
 exl-id: 8246be3d-ff9f-4f9f-875d-1b999befc534
 ---

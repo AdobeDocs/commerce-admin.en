@@ -1,5 +1,11 @@
 .DS_Store
-Gemfile.lock
+adobe-paas.code-workspace
+.idea
+
 _site
 tmp
+Gemfile.lock
+
 .cursor
+.claude
+.env
