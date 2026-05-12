@@ -61,7 +61,22 @@ The [!DNL United States Postal Service] ships both domestically and internationa
 
 1. Verify that the **[!UICONTROL Secure Gateway URL]** is correct.
 
-1. Enter the **[!UICONTROL Password]** provided to you by USPS.
+1. Verify that the following configuration is complete based on the selected **[!UICONTROL USPS Type]**:
+
+   If you are using the USPS Web Tools API:
+      - User Id
+      - Password
+
+   If you are using the USPS Rest APIs:
+      - Consumer Key
+      - Consumer Secret
+      - Pricing Options
+      - Account Type
+      - Account Number
+      - Customer Registration ID (CRID)
+      - Mailer Identifier (MID)
+      - Manifest MID
+      - AES/ITN
 
 1. Verify that the following configuration is complete based on the selected **[!UICONTROL USPS Type]**:
 
@@ -109,13 +124,15 @@ DHL provides international shipping services.
 
 1. Continuing in the **[!UICONTROL Delivery Methods]** configuration, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL DHL]** section.
 
-1. Verify that the **[!UICONTROL Gateway URL]** is correct.
+1. Select **[!UICONTROL DHL Type]** as `DHL REST` or `DHL XML`.
 
-1. Verify that the following credentials are complete:
+1. Verify that the following credentials are complete based on the **[!UICONTROL DHL Type]** selection:
 
    - Access ID
    - Password
    - Account Number
+   - API Key
+   - API Secret
 
 1. Click **[!UICONTROL Save Config]**.
 

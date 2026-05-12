@@ -27,7 +27,11 @@ By default, images inserted into the catalog from the WYSIWYG editor have relati
 
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL WYSIWYG Options]** section.
 
-   ![WYSIWYG Options](./assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
+   ![WYSIWYG Options](../configuration-reference/general/assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>TinyMCE has been replaced with Hugerte as the default WYSIWYG editor in Magento 2.4.6 and later versions.
 
 1. Set **[!UICONTROL Use Static URLs for Media Content in WYSIWYG]** to one of the following:
 

@@ -30,9 +30,15 @@ You can also open a [USPS Web Tools](https://secure.shippingapis.com/registratio
 
 1. Set **[!UICONTROL Enabled for Checkout]** to `Yes`.
 
-1. Set **[!UICONTROL USPS Type]** to `USPS Rest APIs` if you are using the USPS REST API.
+1. Set the USPS API type.
 
-   If you are using the USPS Web Tools API, set **[!UICONTROL USPS Type]** to `USPS Web Tools API`.
+   - If you are using the USPS REST API, set **[!UICONTROL USPS Type]** to `USPS REST API`. 
+
+   - If you are using the USPS Web Tools API, set **[!UICONTROL USPS Type]** to `USPS Web Tools API`.
+   
+   >[!NOTE]
+   >
+   >The USPS Rest APIs are the preferred method for integrating with USPS. The USPS Web Tools API is deprecated and may be removed in future releases.
 
 1. If needed, enter the **[!UICONTROL Gateway URL]** to access USPS shipping rates.
 
@@ -42,16 +48,17 @@ You can also open a [USPS Web Tools](https://secure.shippingapis.com/registratio
 
 1. Use the credentials provided by USPS to complete the following fields:
 
-   If you are using the USPS Rest APIs, you must provide the following credentials:
+   If you are using the USPS Rest APIs, provide the following credentials:
 
-      - **[!UICONTROL Consumer Key]**
-      - **[!UICONTROL Consumer Secret]**
-      - **[!UICONTROL Pricing Options]**
+   - **[!UICONTROL Consumer Key]**
+   - **[!UICONTROL Consumer Secret]**
+   - **[!UICONTROL Pricing Options]**
 
-   If you are using the USPS Web Tools API, you must provide the following credentials:
+   If you are using the USPS Web Tools API, provide the following credentials:
 
-      - **[!UICONTROL User ID]**
-      - **[!UICONTROL Password]**
+   - **[!UICONTROL User ID]**
+   - **[!UICONTROL Password]**
+
 
 1. Set **[!UICONTROL Mode]** to one of the following:
 
@@ -94,7 +101,7 @@ The handling fee is optional, and appears as an extra charge that is added to th
 
 1. Enter the amount of the **[!UICONTROL Handling Fee]** to be charged.
 
-   To enter a percentage, use the decimal format. For example, enter `0.25` for 25%.
+   To enter a percentage, use the decimal format. For example, enter `25` for 25%.
 
    ![USPS Handling Fee](../configuration-reference/sales/assets/delivery-methods-usps-handling-fee.png){width="600" zoomable="yes"}
 

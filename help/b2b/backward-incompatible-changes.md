@@ -7,7 +7,7 @@ exl-id: 79b66843-3f34-4fe9-9670-53d19b749eb4
 
 Review the high-level reference information for all backward-incompatible changes in B2B for Adobe Commerce releases. See the highlights section for incompatible changes that have a major impact and require detailed explanation and special instructions.
 
-{{$include /help/_includes/backward-incompatible-changes/1-5-2-to-1-5-3-beta1.md}}
+{{$include /help/_includes/backward-incompatible-changes/1-5-2-to-1-5-3.md}}
 
 {{$include /help/_includes/backward-incompatible-changes/1-5-1-to-1-5-2.md}}
 
@@ -25,4 +25,4 @@ Review the high-level reference information for all backward-incompatible change
 
 {{$include /help/_includes/backward-incompatible-changes/1-3-3-to-1-3-4.md}}
 
-<!-- Last updated from includes: 2025-04-29 22:23:23 -->
+<!-- Last updated from includes: 2026-03-06 20:14:18 -->
