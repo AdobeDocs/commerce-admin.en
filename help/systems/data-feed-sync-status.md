@@ -3,8 +3,8 @@ title: Data Feed Sync Status Monitoring
 description: Monitor data export synchronization and identify any issues or delays with feed processing for [!DNL Catalog Service], [!DNL Live Search], and [!DNL Product Recommendations].
 feature: Products, Customers, Data Import/Export
 badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
+exl-id: 4e1b9da0-450c-4488-8693-1938a948e792
 ---
-
 # Data Feed Sync Status Monitoring
 
 Adobe Commerce administrators can monitor the synchronization status of data exported from Adobe Commerce to connected Commerce services using the Data Feed Sync Status page in the Commerce Admin.

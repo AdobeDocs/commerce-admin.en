@@ -2,6 +2,7 @@
 title: '[!UICONTROL Catalog] &gt; [!UICONTROL Product File Attributes]'
 description: Review the configurations settings on the [!UICONTROL Catalog] &gt; [!UICONTROL Product File Attributes] page of the Commerce Admin.
 feature: Configuration, Catalog Management
+exl-id: 2cf3644a-9269-436c-9264-985a9bc74c24
 ---
 # [!UICONTROL Catalog] > [!UICONTROL Product File Attributes]
 
