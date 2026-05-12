@@ -1,8 +1,47 @@
 ---
-title: '[!DNL Adobe Commerce B2B] release notes'
+title: "[!DNL Adobe Commerce B2B] release notes"
 description: Review the release notes for information about changes in [!DNL Adobe Commerce B2B] releases.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
+TQID: https://experienceleague.adobe.com/d-IieNYP0V4T5mh69jzuYy5ELc8FWbD12qPvJ2P2eZo
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # [!DNL Adobe Commerce B2B] release notes
 
@@ -16,59 +55,151 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 >
 >See [Product availability](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) for information about versions of the B2B Commerce extension supported for available Adobe Commerce releases.
 
-## B2B v1.5.3-beta1
+## B2B v1.5.3
 
-*March 10, 2026*
+*May 12, 2026*
 
-Compatible with Adobe Commerce version 2.4.9-beta1.
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.9.
 
-The B2B v1.5.3-beta1 release includes quality improvements and bug fixes. The release also includes the security fixes documented in [Security Bulletin APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html).
+The B2B v1.5.3 release includes quality improvements, bug fixes, and the security fixes documented in [Security Bulletin APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html).
 
 ### Negotiable quote
 
-![Fixed issue](../assets/fix.svg)<!-- AC-11973 --> **Negotiable quote checkout with Payflow Pro**—Adobe Commerce now successfully places orders when checking out from a negotiable quote using the Payflow Pro credit card payment method. Previously, when B2B features were enabled and a buyer proceeded to checkout from a negotiable quote, selecting Payflow Pro and clicking Place Order caused the page to keep loading indefinitely with no error message, and the order was never created.
+![Fixed issue](../assets/fix.svg)<!-- AC-11973 --> **Negotiable quote checkout with Payflow Pro**—Adobe Commerce now places orders when checking out from a negotiable quote using the Payflow Pro credit card payment method. Previously, when a buyer selected Payflow Pro and clicked [!UICONTROL Place Order] in a negotiable quote checkout, the page loaded indefinitely with no error and the order was never created.
 
-![Fixed issue](../assets/fix.svg)<!-- AC-13447 --> **Success message after negotiable quote rename**—Adobe Commerce now consistently displays a success message after a negotiable quote or quote template is renamed on the storefront. Previously, when a buyer renamed a negotiable quote, the success message would intermittently not appear (often clearing almost immediately), which also caused automated tests that wait for this message to fail even though the rename operation itself succeeded.
+![Fixed issue](../assets/fix.svg)<!-- AC-13447 --> **Success message after negotiable quote rename**—Adobe Commerce now displays a success message after a negotiable quote or quote template is renamed on the storefront. Previously, when a buyer renamed a negotiable quote, the success message would clear immediately, even though the rename succeeded.
 
 ![Fixed issue](../assets/fix.svg)<!-- AC-15280 --> **Shipping cost in PayPal Express negotiable quote checkout**—Adobe Commerce now applies the correct shipping cost when completing a PayPal Express Checkout for an approved negotiable quote. Previously, shipping costs were incorrectly doubled, leading to inflated totals.
 
+![Fixed issue](../assets/fix.svg)<!-- B2B-2646 --> **Downloadable products in negotiable quotes (Admin)**—Administrators can add and update downloadable products on a negotiable quote when the [!UICONTROL Links can be purchased separately] option is enabled. Previously, the Admin could fail to save those line items.
+
+![Fixed issue](../assets/fix.svg)<!-- B2B-3546 --> **Line items when sending a negotiable quote**—Submitting a negotiable quote no longer clears all line items if the seller selects [!UICONTROL Send] before the line item grid finishes loading. Previously, sending the quote too early could remove every item from the quote.
+
+![Fixed issue](../assets/fix.svg)<!-- B2B-3705 --> **Print for negotiable quotes on the storefront**—Buyers can print a negotiable quote from the storefront without hitting an application error. Previously, using [!UICONTROL Print] could trigger an exception.
+
+![Fixed issue](../assets/fix.svg)<!-- B2B-4254 --> **[!UICONTROL Proceed to Checkout] for declined negotiable quotes**—The [!UICONTROL Proceed to Checkout] action is disabled on the storefront when a negotiable quote is in a declined state, so buyers are not offered checkout for a quote that cannot be completed.
+
+![Fixed issue](../assets/fix.svg)<!-- B2B-4622 --> **Quantities on printed negotiable quotes**—PDF output for a printed negotiable quote from the storefront now shows line item quantities. Previously, quantities could be missing from the PDF.
+
+![Fixed issue](../assets/fix.svg)<!-- ACP2E-3639 --> **Expiration reminder after quote is ordered**—The negotiable quote expiration reminder email is no longer sent after the quote has been used to place an order. Previously, buyers received expiration reminders for quotes that had already been converted to orders.
+
+![Fixed issue](../assets/fix.svg)<!-- ACP2E-3873 --> **Filtering quotes by created date**—The Admin negotiable quotes grid now correctly filters quotes by their creation date.
+
+![Fixed issue](../assets/fix.svg)<!-- ACP2E-3956, B2B-4612 --> **Bundle products in negotiable quotes (Admin)**—Administrators no longer encounter errors when configuring bundle products on the [!UICONTROL Edit Quote] screen or when sending a quote that contains bundle products to the merchant.
+
+![Fixed issue](../assets/fix.svg)<!-- ACP2E-4134 --> **`/carts/search` REST API with negotiable quotes**—The `GET /carts/search` REST endpoint now returns consistent results when negotiable quotes are involved.
+
+![Fixed issue](../assets/fix.svg)<!-- ACP2E-4547 --> **Adding SKUs to quotes for non-shared catalog products**—Administrators can now add a SKU to a negotiable quote when the product is not in a shared catalog. Previously, this action produced an error.
+
+![Fixed issue](../assets/fix.svg)<!-- B2B-3176 --> **Quote item ID collision**—Resolved a conflict between `quote-item-id` and `quote-item-grid-index-id` that could result in invalid quote data or unexpected behavior in the line item grid.
+
+![Fixed issue](../assets/fix.svg)<!-- B2B-3544 --> **Configurable products in quotes after a child is disabled**—A configurable product now remains in the negotiable quote when one of its child products is disabled. Previously, disabling a child product caused the parent to disappear from the quote.
+
+![Fixed issue](../assets/fix.svg)<!-- B2B-4479 --> **Saving a quote with today's expiration date across time zones**—Administrators can save a negotiable quote with today's expiration date even when it is already the next day in UTC. Previously, this combination failed validation.
+
+![Fixed issue](../assets/fix.svg)<!-- B2B-4616 --> **Gift products with configurable products in quotes**—Quotes containing gift products alongside configurable products no longer trigger errors during processing.
+
 ### Purchase orders
 
-![Fixed issue](../assets/fix.svg)<!-- ACP2E-3727 --> **Purchase Order totals with Cross Border Trade**—An order now contains correct totals when placed from an existing Purchase Order with Cross Border Trade enabled.
+![Fixed issue](../assets/fix.svg)<!-- ACP2E-3727 --> **Purchase order totals with Cross Border Trade**—An order now contains correct totals when placed from an existing purchase order with Cross Border Trade enabled.
+
+![Fixed issue](../assets/fix.svg)<!-- ACP2E-3794 --> **Credit card payment with Terms and Conditions on purchase order**—Buyers can now finalize an order from a purchase order using a credit card payment method after accepting [!UICONTROL Terms and Conditions].
+
+![Fixed issue](../assets/fix.svg)<!-- AC-16829 --> **Purchase order view button error state**—The purchase order view buttons now reflect the correct `hasError` state from stock and catalog checks. Previously, buttons could appear available when the order could not proceed.
+
+![Fixed issue](../assets/fix.svg)<!-- B2B-4614 --> **Subtotal including tax on purchase orders**—The [!UICONTROL Subtotal incl. Tax] value now displays correctly on the purchase order summary.
 
 ### Requisition list
 
-![Fixed issue](../assets/fix.svg)<!-- AC-15862 --> **Grouped products in requisition lists with category permissions**—Fixed a TypeError that occurred when adding grouped products to a requisition list with category permissions enabled. After the fix, product options are handled safely as arrays, allowing all product types to be added without errors.
+![Fixed issue](../assets/fix.svg)<!-- ACP2E-3707 --> **Requisition list export path**—Requisition list exports are now written to `var/export/requisition_lists/`.
 
-![Fixed issue](../assets/fix.svg)<!-- AC-8575 --> **Add to Requisition List button on category page**—The [!UICONTROL Add to Requisition List] button is now visible on the category page. Previously, the button disappeared when users tried to add a product from the category page.
+>[!IMPORTANT]
+>
+>The export path for requisitions list has changed to `var/export/requisition_lists/`. Update any integrations or tooling that relied on the previous path before upgrading.
 
-![Fixed issue](../assets/fix.svg)<!-- AC-14711 --> **Requisition List page print option**—The Print option on the Requisition List page now works correctly. Previously, clicking [!UICONTROL Print] resulted in the error: `An error has happened during application run. See exception log for details.`
+![Fixed issue](../assets/fix.svg)<!-- AC-15862 --> **Grouped products in requisition lists with category permissions**—Shoppers can add grouped products to a requisition list when category permissions are enabled without errors. Previously, adding those products could fail.
 
-![Fixed issue](../assets/fix.svg)<!-- AC-16226 --> **Requisition list creation with Add Store Code to URLs**—Fixed an issue where requisition lists could not be created for products assigned to a new website and source when [!UICONTROL Add Store Code to URLs] is enabled. The problem occurred because the store code was stripped from the API request, causing an unauthorized error. After the fix, the correct store context is preserved and requisition lists are created successfully.
+![Fixed issue](../assets/fix.svg)<!-- AC-8575 --> **[!UICONTROL Add to Requisition List] button on the category page**—The [!UICONTROL Add to Requisition List] button is now visible on the category page. Previously, the button disappeared when users tried to add a product from the category page.
+
+![Fixed issue](../assets/fix.svg)<!-- AC-14711 --> **Requisition List page print option**—The Print option on the Requisition List page now works correctly. Previously, selecting [!UICONTROL Print] resulted in the error: `[!UICONTROL An error has happened during application run. See exception log for details.]`
+
+![Fixed issue](../assets/fix.svg)<!-- AC-16226 --> **Requisition list creation with Add Store Code to URLs**—Requisition lists can now be created for products assigned to a new website and source when [!UICONTROL Add Store Code to URLs] is enabled. Previously, the store code was stripped from the API request, causing an unauthorized error.
+
+![Fixed issue](../assets/fix.svg)<!-- ACP2E-3535 --> **Item count after `addProductsToRequisitionList`**—The `items_count` value on a requisition list now updates immediately after a call to `addProductsToRequisitionList`. Previously, the count did not reflect newly added items.
+
+![Fixed issue](../assets/fix.svg)<!-- ACP2E-3707 --> **Requisition list export path**—Requisition list exports are now written to `var/export/requisition_lists/`.
+
+>[!IMPORTANT]
+>
+>The export path for requisitions list has changed to `var/export/requisition_lists/`. Update any integrations or tooling that relied on the previous path before upgrading.
 
 ### Shared catalog
 
 ![Fixed issue](../assets/fix.svg)<!-- ACP2E-3796 --> **Shared catalog category unassignment performance**—Performance is significantly improved when unassigning categories in a B2B shared catalog. Previously, it took a long time to unassign categories via the REST API.
 
-![Fixed issue](../assets/fix.svg)<!-- ACP2E-4097 --> **Product unassignment from Shared Catalog**—An Admin can now successfully unassign products from the Shared Catalog. Previously, unassigning products with a large number of long product SKUs from Shared Catalog resulted in an error.
+![Fixed issue](../assets/fix.svg)<!-- ACP2E-4097 --> **Product unassignment from shared catalog**—An Admin can now unassign products from a shared catalog. Previously, unassigning products with a large number of long product SKUs from a shared catalog resulted in an error.
 
 ![Fixed issue](../assets/fix.svg)<!-- AC-15662 --> **Shared catalog company assignment for restricted admins**—Fixed an issue where restricted Admin users encountered an exception when assigning a company to a shared catalog.
 
+![Fixed issue](../assets/fix.svg)<!-- ACP2E-4017 --> **Product lookup in shared catalog**—Resolved the *The product that was requested doesn't exist* error that occurred during shared catalog operations.
+
+![Fixed issue](../assets/fix.svg)<!-- ACP2E-4083 --> **Shared catalog save performance**—Saving a shared catalog no longer issues unnecessary per-item cache invalidations, reducing save time in the Admin.
+
+![Fixed issue](../assets/fix.svg)<!-- ACP2E-4317 --> **Assigning SKUs to a shared catalog via API**—The shared catalog REST API no longer returns an error when assigning a SKU.
+
+### Company
+
+![New](../assets/new.svg)<!-- ACP2E-3539 --> **B2B company customer import and export**—Administrators can now import and export B2B company customer data using the standard Admin import and export tools.
+
+![Fixed issue](../assets/fix.svg)<!-- AC-16364 --> **[!UICONTROL Reset] for [!UICONTROL Associate to Company] in customer form**—The [!UICONTROL Reset] button on the Admin customer add and edit form now clears the [!UICONTROL Associate to Company] field along with the rest of the form, without requiring a page reload. Previously, [!UICONTROL Reset] did not restore the [!UICONTROL Associate to Company] field, leaving the form in an inconsistent state.
+
+![Fixed issue](../assets/fix.svg)<!-- ACP2E-3730 --> **Multi-company assignment via Customer Repository API**—The Customer Repository API now returns all companies that a customer is assigned to, allowing assignment to multiple companies.
+
+![Fixed issue](../assets/fix.svg)<!-- ACP2E-4022, ACP2E-4089 --> **Companies grid in Admin**—Improved performance of the Admin [!UICONTROL Companies] grid for large data sets, and administrators whose role is restricted to a non-default website no longer see an error when opening the grid.
+
+![Fixed issue](../assets/fix.svg)<!-- ACP2E-4027 --> **Company registration emails to the General Contact**—Storefront company-registration emails are now delivered to the configured General Contact. Previously, the emails were not sent.
+
+![Fixed issue](../assets/fix.svg)<!-- ACP2E-4292 --> **Customer-to-company assignment integrity**—Customers are now associated only with their assigned companies. Previously, a customer could appear under unrelated companies.
+
+![Fixed issue](../assets/fix.svg)<!-- ACP2E-4564 --> **Multi-site Company GraphQL queries with `X-Adobe-Company`**—Merchants no longer receive an authorization error when including the `X-Adobe-Company` header in Company GraphQL queries in a multi-site setup.
+
 ### Cart and checkout
 
-![Fixed issue](../assets/fix.svg)<!-- AC-15962 --> **Checkout redirect after session expiry**—Fixed an issue where users were redirected to the My Account login page instead of the checkout login after session expiry, ensuring they are correctly taken to checkout with the login form.
+![Fixed issue](../assets/fix.svg)<!-- AC-15962, ACP2E-4210 --> **Checkout redirect after session expiry**—Buyers who continue to checkout after a session expires are now correctly redirected through the checkout login flow. Previously, they could be sent to the [!UICONTROL My Account] login page or to an *Access Denied* page instead of the checkout login flow.
 
 ![Fixed issue](../assets/fix.svg)<!-- ACP2E-4223 --> **Checkout address validation for REST and GraphQL**—Customer address data validation has been improved to be more consistent between REST and GraphQL for checkout.
 
+![Fixed issue](../assets/fix.svg)<!-- AC-16605 --> **[!UICONTROL Proceed to Checkout] and [!UICONTROL Request a Quote] on cart after company assignment**—The [!UICONTROL Proceed to Checkout] and [!UICONTROL Request a Quote] buttons now appear on the cart page immediately after a logged-in buyer is assigned to a company on the storefront. Previously, both buttons were hidden until the buyer logged out and logged back in, blocking them from completing or negotiating their purchase.
+
+![Fixed issue](../assets/fix.svg)<!-- AC-16530 --> **Cart prices with staged catalog price rules**—Cart product prices now refresh when a catalog price rule that affects them is adjusted through a staging update. Previously, cart prices continued to reflect the old rule.
+
+![Fixed issue](../assets/fix.svg)<!-- ACP2E-4451, ACP2E-4498 --> **Pricing in Quick Order**—Product prices in the [!UICONTROL Quick Order] feature now display correctly and include Fixed Product Taxes (FPT). Previously, prices could be incorrect for some products and did not always include FPT.
+
 ### Framework
 
-![Fixed issue](../assets/fix.svg)<!-- ACP2E-4040 --> **Frontend 500 error from cached layout structure**—Fixed an issue where a page would return a 500 error due to an incorrect layout structure being cached in the layout.
+![Fixed issue](../assets/fix.svg)<!-- ACP2E-4040 --> **Frontend 500 error from cached layout structure**—Fixed an issue where a page could return a 500 error due to an incorrect layout structure being cached in the layout.
 
 ![Fixed issue](../assets/fix.svg)<!-- AC-15347 --> **Commerce styling resources in Community themes**—Removed Commerce-only styling resources from Community themes by relocating them to their respective module directories. This prevents unused CSS from being bundled in the Community Edition, which reduces unnecessary payload and eliminates dead style rules while ensuring proper styling when Commerce modules are enabled.
+
+![Fixed issue](../assets/fix.svg)<!-- ACP2E-4491 --> **Performance with multiple stores and websites**—Improved the performance of the `Magento\Store\Model\System\Store` class, reducing overhead for merchants running many stores and websites. For more information, see the [GitHub contribution](https://github.com/magento/magento2/commit/e2b23caa).
+
+![Fixed issue](../assets/fix.svg)<!-- ACP2E-3850 --> **B2B Setup Patch performance**—Improved performance of a B2B Setup Patch that runs during installation or upgrade.
 
 ### GraphQL
 
 ![Fixed issue](../assets/fix.svg)<!-- ACP2E-3399 --> **GraphQL error response format**—Reverted a previous change that was returning errors in a different format. Now, potential errors are returned in a consistent manner that does not break the GraphQL schema.
+
+![Fixed issue](../assets/fix.svg)<!-- ACP2E-4639 --> **`RequisitionList` GraphQL type correction**—The `RequisitionList` query now exposes a new `requisition_list_items` field that returns the corrected `RequisitionListItems` type. The previous `items` field that returned `RequistionListItems` (typo type) is now deprecated. Update integrations to use the new field; the deprecated field remains available for backward compatibility.
+
+![Fixed issue](../assets/fix.svg)<!-- ACP2E-4552 --> **Company Status fields in GraphQL**—The `Company.profile` GraphQL query now returns Company Status fields.
+
+![Fixed issue](../assets/fix.svg)<!-- ACP2E-3990 --> **Customer ID in B2B GraphQL responses**—The B2B GraphQL schema now returns the Customer ID. Integrations can retrieve the ID directly without an additional call.
+
+![Fixed issue](../assets/fix.svg)<!-- ACP2E-4023 --> **Conflicting `id` types in B2B GraphQL**—Resolved a schema validation error (`Fields "id" conflict because they return conflicting types ID and ID`) that previously caused some B2B GraphQL queries to fail.
+
+#### Known issues
+
+No known issues in this release.
 
 ## B2B v1.5.2-p4
 
@@ -249,7 +380,7 @@ Improvements to quoting capabilities help buyers and sellers manage quotes and q
 
 - **Fixes for existing quote capabilities**
 
-- Merchants clicking the *[!UICONTROL Print]* button in the Quote detail view in the Admin are now prompted to save the quote as a PDF. Previously, merchants were redirected to a page that contained quote details. <!--ACP2E-1984-->
+- Merchants selecting the *[!UICONTROL Print]* button in the Quote detail view in the Admin are now prompted to save the quote as a PDF. Previously, merchants were redirected to a page that contained quote details. <!--ACP2E-1984-->
 
 - Previously, when sending a customer quote with `0` percentage and changing quantity, the Admin threw an exception but saved the quantity. After this fix, a proper exception with a message is thrown for the 0% case. <!--ACP2E-1742-->
 
