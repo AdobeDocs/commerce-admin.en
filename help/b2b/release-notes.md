@@ -127,12 +127,6 @@ The B2B v1.5.3 release includes quality improvements, bug fixes, and the securit
 
 ![Fixed issue](../assets/fix.svg)<!-- ACP2E-3535 --> **Item count after `addProductsToRequisitionList`**—The `items_count` value on a requisition list now updates immediately after a call to `addProductsToRequisitionList`. Previously, the count did not reflect newly added items.
 
-![Fixed issue](../assets/fix.svg)<!-- ACP2E-3707 --> **Requisition list export path**—Requisition list exports are now written to `var/export/requisition_lists/`.
-
->[!IMPORTANT]
->
->The export path for requisitions list has changed to `var/export/requisition_lists/`. Update any integrations or tooling that relied on the previous path before upgrading.
-
 ### Shared catalog
 
 ![Fixed issue](../assets/fix.svg)<!-- ACP2E-3796 --> **Shared catalog category unassignment performance**—Performance is significantly improved when unassigning categories in a B2B shared catalog. Previously, it took a long time to unassign categories via the REST API.
