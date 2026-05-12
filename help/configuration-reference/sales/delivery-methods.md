@@ -185,7 +185,7 @@ feature: Configuration, Shipping/Delivery
 |[!UICONTROL Gateway URL]|Website|The URL that is used to connect to the USPS system to dynamically retrieve shipping rates.|
 |[!UICONTROL Secure Gateway URL]|Website|The secure URL that is used to connect to the USPS system over a secure socket layer (SSL) to dynamically retrieve shipping rates.|
 |[!UICONTROL Title]|Store View|The title of this shipping option as it appears in the shopping cart checkout.|
-|[!UICONTROL USPS Type]|Website|Choose **USPS Rest APIs** or **USPS Web Tools API** based on which one you will use.|
+|[!UICONTROL USPS Type]|Website|Choose **USPS Rest APIs**. **USPS Web Tools API** is not supported.|
 |[!UICONTROL User ID]|Website|Your USPS shipper account user ID.|
 |[!UICONTROL Password]|Website|Your USPS shipper account password.|
 |[!UICONTROL Mode]|Website|Determines the mode of transmission used for data sent to the USPS system. Options include: <br/>**`Development`** - USPS does not verify that data received from the Commerce server is sent over SSL. <br/>**`Live`** - USPS verifies that data received from the Commerce server is sent over a secure socket layer (SSL).|
@@ -201,7 +201,7 @@ feature: Configuration, Shipping/Delivery
 
 {style="table-layout:auto"}
 
-The following fields are available only if you have applied the [USPS REST API Migration quality patch](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210). This patch enables support for the USPS APIs, a REST-based platform that replaces the Web Tools APIs. For details, see [USPS Web Tools API deprecation](../../stores-purchase/carriers.md).
+If the following fields are not displayed, you must apply the [USPS REST API Migration quality patch](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210). This patch enables support for the USPS APIs, a REST-based platform that replaces the Web Tools APIs. For details, see [USPS Web Tools API deprecation](../../stores-purchase/carriers.md).
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
