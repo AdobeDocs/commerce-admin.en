@@ -195,6 +195,15 @@ The B2B v1.5.3 release includes quality improvements, bug fixes, and the securit
 
 No known issues in this release.
 
+## B2B v1.5.2-p5
+
+*May 12, 2026*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce versions 2.4.8-p5, 2.4.7-p10, and 2.4.6-p15 security patch releases.
+Compatible with Adobe Commerce versions 2.4.7 to 2.4.7-p10, 2.4.6 to 2.4.6-p15.
+
+![Fixed issue](../assets/fix.svg) Includes the security fixes documented in [Security Bulletin APSB26-49](https://helpx.adobe.com/security/products/magento/apsb26-49.html).
+
 ## B2B v1.5.2-p4
 
 *March 10, 2026*
