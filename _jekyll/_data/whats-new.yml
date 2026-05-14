@@ -2,8 +2,35 @@
 title: What's new
 description: This section contains the changes made in the last 60 days. We exclude
   all minor updates, such as copy editing, from this list.
-updated: Fri May 8 15:19:55 2026
+updated: Wed May 13 18:37:19 2026
 entries:
+- description: Updated [USPS](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps)
+    and related shipping carrier pages to reflect that the USPS Web Tools API was
+    retired on January 25, 2026, and that USPS REST APIs are now the only supported
+    integration method.
+  versions: 2.4.9
+  type: major-update, feedback
+  date: May 12, 2026
+  link: enterprise:AdobeDocs/commerce-admin.en/pull/813
+  merge_commit: 13155decdb96b62757e1044bb99dcddb1e1f8036
+  contributor: keharper
+  labels:
+  - major-update
+  - feedback
+  - 2.4.9
+- description: Published the [Adobe Commerce B2B v1.5.3 release notes](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes#b2b-v153)
+    covering new B2B company customer import and export, fixes across negotiable quotes,
+    purchase orders, requisition lists, shared catalogs, company management, cart
+    and checkout, framework, and GraphQL, plus the requisition list export path change
+    to `var/export/requisition_lists/`.
+  versions: ''
+  type: major-update
+  date: May 12, 2026
+  link: enterprise:AdobeDocs/commerce-admin.en/pull/811
+  merge_commit: d87900bf27745154d5a643dc828d5c1abc0130df
+  contributor: meker
+  labels:
+  - major-update
 - description: Added the `numeric` and `file` [attribute input types](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types)
     and added a [Product File Attributes](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/product-file-attributes)
     page in the configuration reference.
