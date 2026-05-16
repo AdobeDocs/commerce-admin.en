@@ -153,13 +153,13 @@ To set this permission with GraphQL for an existing customer account, set the `a
 
 1. Navigate to **[!UICONTROL Customers]** and select a customer to open the edit page.
 
-1. On the Edit Customer page, click **[!UICONTROL Get Customer Login OTC]**.
+1. On the Edit Customer page, click **[!UICONTROL Generate Login Code]**.
 
-   ![Get Customer Login OTC button on the Edit Customer page](assets/get-customer-login-otc-button.png){width="600" zoomable="yes"}
+   ![Get Customer Login OTC button on the Edit Customer page](assets/get-customer-login-otc-button-new.png){width="600" zoomable="yes"}
 
 1. Enter a **[!UICONTROL Reason]** (required) and click **[!UICONTROL Request]**.
 
-   ![OTC request modal with Reason field](assets/otc-reason-modal.png){width="600" zoomable="yes"}
+   ![OTC request modal with Reason field](assets/otc-reason-modal-new.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -167,11 +167,11 @@ To set this permission with GraphQL for an existing customer account, set the `a
 
 1. The generated OTC is displayed in the modal. Use this code with the `generateCustomerToken` or `exchangeOtpForCustomerToken` GraphQL mutation for customer authorization.
 
-   ![Generated OTC displayed in the modal](assets/otc-generated-code.png){width="300" zoomable="yes"}
+   ![Generated OTC displayed in the modal](assets/otc-generated-code-new.png){width="300" zoomable="yes"}
 
 >[!IMPORTANT]
 >
->The generated One-Time Code OTC is valid for 30 seconds by default and is invalidated after a single use. The TTL can be configured by submitting a [support ticket](https://experienceleague.adobe.com/home?support-tab=home#support).
+>The generated One-Time Code OTC is valid for 60 seconds by default and is invalidated after a single use. The TTL can be configured by submitting a [support ticket](https://experienceleague.adobe.com/home?support-tab=home#support).
 
 After the One-Time Code is generated, you can use it by navigating to your storefront and logging in using the following credentials:
 
@@ -188,7 +188,7 @@ After the One-Time Code is generated, you can use it by navigating to your store
 
 _Login as Customer_ allows you to see the site just as the customer does, and allows you to troubleshoot and take other actions for the customer. If you have an assigned user role with the required permissions:
 
-1. You can click **[!UICONTROL Login as Customer]** on the pages listed in the previous section.
+1. You can click **[!UICONTROL Login as Customer / Generate Login Code]** on the pages listed in the previous section.
 1. The Login as Customer actions are available in the Actions Report.
 
 >[!WARNING]
