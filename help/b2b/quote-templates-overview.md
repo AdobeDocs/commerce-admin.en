@@ -41,9 +41,7 @@ Quote templates can be initiated by the buyer or the seller.
 
   ![Seller initiating a buyer quote from the Quotes grid in the Admin](./assets/quote-template-create-from-grid.png){width="700" zoomable="yes"}
   
-  When the seller creates the quote template, the expiration date ([!UICONTROL Valid until] date field) defaults to 180 days. If the buyer created the template, the expiration date is blank.  The buyer must set the expiration date before sending the template back to the buyer for review.
-
-  When the seller creates the quote template, the expiration date (*[!UICONTROL Valid until]* date field) defaults to 180 days. If the buyer created the template, the expiration date is blank.  The buyer must set the expiration date before sending the template back to the buyer for review.
+  When the seller creates the quote template, the expiration date (*[!UICONTROL Valid until]* date field) defaults to 180 days. If the buyer created the template, the expiration date is blank. The buyer must set the expiration date before sending the template back to the seller for review.
 
 **Step 2: Quote review and negotiation (Review)**
 
