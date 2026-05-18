@@ -41,9 +41,9 @@ The configuration options vary for each carrier. However, all require the follow
 
 Adobe Commerce versions 2.4.6, 2.4.7, and 2.4.8 use the Legacy Web Tools APIs for out-of-the-box shipping integration with USPS. USPS has introduced USPS APIs, a REST-based platform to replace the Legacy Web Tools APIs.
 
-On January 25, 2026, USPS is retiring the Legacy Web Tools APIs. After this date, all requests to the Web Tools APIs will fail.
+As of January 25, 2026, USPS has retired the Legacy Web Tools APIs. After this date, all requests to the Web Tools APIs will fail.
 
-To avoid disruption of USPS shipping services, take the following actions before January 25, 2026:
+To avoid disruption of USPS shipping services, upgrade to the latest version of Adobe Commerce, or take the following actions:
 
 - Apply the [USPS REST API Migration quality patch](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) to add support for integrating with the USPS REST APIs.
 
