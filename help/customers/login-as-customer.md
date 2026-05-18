@@ -188,7 +188,7 @@ After the One-Time Code is generated, you can use it by navigating to your store
 
 _Login as Customer_ allows you to see the site just as the customer does, and allows you to troubleshoot and take other actions for the customer. If you have an assigned user role with the required permissions:
 
-1. You can click **[!UICONTROL Login as Customer / Generate Login Code]** on the pages listed in the previous section.
+1. You can click **[!UICONTROL Login as Customer]** or **[!UICONTROL Generate Login Code]** on the pages listed in the previous section.
 1. The Login as Customer actions are available in the Actions Report.
 
 >[!WARNING]
