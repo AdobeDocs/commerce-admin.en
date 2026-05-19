@@ -40,7 +40,8 @@ The following table shows the compatibility between versions of Adobe Commerce a
 
 | Adobe Commerce | Supported | Notes |
 |----------------|-----------|-------|
-| 2.4.7-p4 and later -p versions | 1.2.0 | 2.4.7-p4 support requires a [hotfix](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27147) |
+| 2.4.8-p5 | 1.3.0 | 2.4.8-p5 support requires a [compatibility patch](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-30555) |
+| 2.4.7-p4 and later -p versions | 1.2.0 | 2.4.7-p4 support requires a [compatibility patch](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27147) |
 | 2.4.6-p9 - 2.4.6-p10 | 1.2.0 | |
 | 2.4.6-p8 | 1.1.0 | Support for [data services](#adobe-commerce-services) was introduced in 1.1.0 |
 | 2.4.6-p3 - 2.4.6-p7 | 1.0.0 | |
@@ -63,7 +64,7 @@ The following table shows the compatibility between versions of Adobe Commerce a
 
 >[!ENDSHADEBOX]
 
-Install the latest version of Adobe's HIPAA-Ready Services extension (`magento/hipaa-ee`) on an instance that is running Adobe Commerce version  2.4.7-p5 or 2.4.6-p3 through 2.4.6-p8. The extension is delivered as a composer metapackage from the [repo.magento.com](https://repo.magento.com) repository. The metapackage includes the collection of modules that enable the HIPAA capabilities for an Adobe Commerce instance.
+Install the latest version of Adobe's HIPAA-Ready Services extension (`magento/hipaa-ee`) on an instance that is running a supported Adobe Commerce version (see [System requirements](#system-requirements)). The extension is delivered as a composer metapackage from the [repo.magento.com](https://repo.magento.com) repository. The metapackage includes the collection of modules that enable the HIPAA capabilities for an Adobe Commerce instance.
 
 >[!NOTE]
 >
