@@ -27,6 +27,9 @@ Data for all product types can be imported into the store. In addition, you can 
 - If there is no value, or there is a non-valid value, for a required attribute, then the existing value is not replaced.
 - If the complex data for the entity is invalid, the entity (the corresponding row or rows) cannot be imported, except the case, when Delete Entities was selected in the Import Behavior drop-down menu.
 
+>[!NOTE]
+>For large catalogs, omit the `categories` and `url_key` columns from the import file if neither category assignments nor URL keys are changing. When either column is present, URL-rewrite regeneration runs for every product in the file, which can significantly increase import duration and may cause timeout errors on Cloud deployments.
+
 ### Complex data
 
 If an attribute that is specified in the import file exists and its value is derived from a defined set of values, the following applies:
