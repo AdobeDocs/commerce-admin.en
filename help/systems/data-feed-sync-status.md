@@ -3,8 +3,8 @@ title: Data Feed Sync Status Monitoring
 description: Monitor data export synchronization and identify any issues or delays with feed processing for [!DNL Catalog Service], [!DNL Live Search], and [!DNL Product Recommendations].
 feature: Products, Customers, Data Import/Export
 badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
+exl-id: 4e1b9da0-450c-4488-8693-1938a948e792
 ---
-
 # Data Feed Sync Status Monitoring
 
 Adobe Commerce administrators can monitor the synchronization status of data exported from Adobe Commerce to connected Commerce services using the Data Feed Sync Status page in the Commerce Admin.
@@ -13,7 +13,7 @@ Adobe Commerce administrators can monitor the synchronization status of data exp
 
 This page provides real-time insights into the health and performance of data export feeds that transfer product and category data from Commerce to external services such as [!DNL Product Recommendations], [!DNL Live Search], and [!DNL Catalog Service].
 
-The sync status page shows only the export status. A success status indicates that the data is successfully exported and will eventually be available in connected Commerce services. Use the [Data management dashboard](data-dashboard.md) to see the actual state of entity synchronization.
+The sync status page shows only the export status. A success status indicates that the data is successfully exported and will eventually be available in connected Commerce services.
 
 Monitoring feed status helps ensure data consistency and enables prompt resolution of any issues that arise during the export process. Administrators can:
 
@@ -30,6 +30,13 @@ Status is tracked for the following feeds:
 * Product Prices Feed
 * Product Variants Feed
 
+## Verify data successfully synchronized to Commerce Services
+
+Use the following methods to verify that data has successfully synchronized with connected Commerce services:
+
+* For Adobe Commerce on cloud or on premises, or Adobe Commerce as a Cloud Service deployments, check the [Data management dashboard](data-dashboard.md).
+* For Adobe Commerce on cloud or on premises deployments configured with the [Adobe Commerce Optimizer Connector](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview), check the [Data Sync page](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) in Commerce Optimizer Studio.
+
 >[!TIP]
 >
 >To learn more about the data synchronization process, see [Synchronize data with SaaS data export](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-synchronization)in the *SaaS Data Export Guide*.
@@ -40,7 +47,12 @@ The Data Feed Status page is available to all Commerce merchants with active lic
 
 * [[!DNL Product Recommendations v6.0.0+]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)
 * [[!DNL Live Search v4.1.0+]](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview)
-* [[!DNL Catalog Service v1.17+]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview) with an active license.
+* [[!DNL Catalog Service v1.17+]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview) with an active license
+
+>[!NOTE]
+>
+>You do not need to install the Data Feed Status extension on [[!DNL Adobe Commerce as a Cloud Service]](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview) instances.
+>The extension is available by default if at least one of the following services is enabled in the Commerce deployment:  Product Recommendations v6+, Live Search v4.1+, or Catalog Service v1.17+.
 
 **Requirements**
 

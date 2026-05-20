@@ -4,6 +4,7 @@ description: Learn how to configure Google reCAPTCHA Enterprise to protect your 
 role: Admin
 feature: Configuration, Security
 badgeSaas: label="SaaS only" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service projects only (Adobe-managed SaaS infrastructure)."
+exl-id: 2c88488c-8ff1-41db-b81b-89ad164e134d
 ---
 # Google reCAPTCHA Enterprise
 

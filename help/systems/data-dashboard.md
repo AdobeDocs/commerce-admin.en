@@ -8,6 +8,10 @@ exl-id: 63c261c1-1a52-46f7-93f8-81055edf1f7b
 
 The Data Management Dashboard offers an overview of the synchronization status for product data transferred from the Commerce database to Commerce SaaS services. Users can conveniently monitor product sync statuses and initiate data resynchronization from a unified dashboard. This feature provides valuable insights into the availability of product data for your storefront, ensuring it can be promptly displayed to your shoppers.
 
+>[!NOTE]
+>
+>If you have installed the [Adobe Commerce Optimizer Connector ](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview) to export catalog data to Adobe Commerce Optimizer, use the [Data Sync page](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) in Commerce Optimizer Studio to verify successful data synchronization, rather than the Data Management Dashboard.
+
 ## Audience
 
 The Data Management Dashboard is available at no additional cost to all Commerce merchants using [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview), [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview), or [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview) with an active license.

@@ -21,7 +21,11 @@ The following topics provide detailed information about using the editor:
 
 The WYSIWYG editor is enabled by default, and can be used to edit content on CMS pages and blocks, and in products and categories. From the configuration, you can activate or deactivate the editor, and elect to use static, rather than [dynamic](../catalog/catalog-urls.md#dynamic-url), URLs for media content in product and category descriptions.
 
-![WYSIWYG Options](./assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
+![WYSIWYG Options](../configuration-reference/general/assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>TinyMCE has been replaced with Hugerte as the default WYSIWYG editor in Magento 2.4.6 and later versions.
 
 For a detailed description of all WYSIWYG options, see [Content Management](../configuration-reference/general/content-management.md) in the _Configuration Reference_.
 

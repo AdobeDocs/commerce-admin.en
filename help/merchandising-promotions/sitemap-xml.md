@@ -182,6 +182,11 @@ Your site map should be updated as frequently as the content on your site change
 
 1. To generate a sitemap, set **[!UICONTROL Enabled]** to `Yes` and do the following:
 
+   - Set **[!UICONTROL Generation Method]** to one of the following:
+
+      - `Standard` - Processes all data in memory.
+      - `Batch` - Uses memory-optimized processing for large catalogs. This option is available starting with the 2.4.9 release.
+
    - Set **[!UICONTROL Start Time]** to the hour, minute, and second that you want the sitemap to be updated.
 
    - Set **[!UICONTROL Frequency]** to one of the following:
@@ -221,3 +226,33 @@ Your site map should be updated as frequently as the content on your site change
 1. If using a `robots.txt` file to provide instructions to search engines that crawl your site, set **[!UICONTROL Enable Submission to Robots.txt]** to `Yes`.
 
 1. When complete, click **[!UICONTROL Save Config]**.
+
+## Alternative cronjob for large catalogs
+
+>[!NOTE]
+>
+>For stores with large catalogs, you can use an alternative cronjob to ensure that all data is generated. In `app/code/Magento/Sitemap/etc/config.xml`, replace:
+>
+>```xml
+><jobs>
+>  <sitemap_generate>
+>    <schedule>
+>      <cron_expr>0 0 * * *</cron_expr>
+>    </schedule>
+>  </sitemap_generate>
+></jobs>
+>```
+>
+>with:
+>
+>```xml
+><jobs>
+>  <sitemap_generate_batch>
+>    <schedule>
+>      <cron_expr>0 0 * * *</cron_expr>
+>    </schedule>
+>  </sitemap_generate_batch>
+></jobs>
+>```
+>
+>This change enables batch sitemap generation, which is recommended for large catalogs.

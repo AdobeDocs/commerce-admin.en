@@ -110,6 +110,8 @@ feature: Configuration, Catalog Management
 
 ## [!UICONTROL Recently Viewed/Compared Products]
 
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+
 ![Recently Viewed/Compared Products](./assets/catalog-recently-viewed-and-compared-products.png)<!-- zoom -->
 
 <!-- Recently Viewed/Compared Products](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/products-viewed-compared) -->

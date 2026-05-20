@@ -19,7 +19,7 @@ Contact each carrier that you use to activate shipping labels for your store.
 Follow the instructions provided by each carrier to add shipping label support to your account.
 
 - **FedEx** - Contact [FedEx Web Integration Services](https://www.fedex.com/en-us/api/get-support.html) to learn about the label printing requirements for your account.
-- **USPS** - Refer to the [Web Tools API Portal](https://www.usps.com/business/web-tools-apis/#ssc) under Shipper Support Center to learn how to set up your label printing credentials.
+- **USPS** - Refer to the [USPS Portal](https://developers.usps.com/) to learn how to set up your label printing credentials.
 - **UPS**- Contact [UPS](https://www.ups.com/us/en/support/contact-us.page) to confirm that your account supports shipping labels. To generate shipping labels, you must use the UPS XML option.
 - **DHL** - Contact [DHL eCommerce Solutions](https://www.dhl.com/us-en/home/our-divisions/ecommerce-solutions.html) to learn about the label printing requirements for your account.
 
@@ -59,15 +59,13 @@ The [!DNL United States Postal Service] ships both domestically and internationa
 
 1. Select **[!UICONTROL USPS Type]** as `USPS Rest APIs` or `USPS Web Tools API`.
 
+   >[!NOTE]
+   >
+   >USPS no longer supports the USPS Web Tools API.
+
 1. Verify that the **[!UICONTROL Secure Gateway URL]** is correct.
 
-1. Enter the **[!UICONTROL Password]** provided to you by USPS.
-
 1. Verify that the following configuration is complete based on the selected **[!UICONTROL USPS Type]**:
-
-   If you are using the USPS Web Tools API:
-      - User Id
-      - Password
 
    If you are using the USPS REST APIs:
       - Consumer Key
@@ -79,6 +77,10 @@ The [!DNL United States Postal Service] ships both domestically and internationa
       - Mailer Identifier (MID)
       - Manifest MID
       - AES/ITN
+
+   If you are using the USPS Web Tools API:
+      - User Id
+      - Password
 
 1. Set **[!UICONTROL Size]** to `Large` and enter values for the following dimensions:
 
@@ -109,13 +111,15 @@ DHL provides international shipping services.
 
 1. Continuing in the **[!UICONTROL Delivery Methods]** configuration, expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL DHL]** section.
 
-1. Verify that the **[!UICONTROL Gateway URL]** is correct.
+1. Select **[!UICONTROL DHL Type]** as `DHL REST` or `DHL XML`.
 
-1. Verify that the following credentials are complete:
+1. Verify that the following credentials are complete based on the **[!UICONTROL DHL Type]** selection:
 
    - Access ID
    - Password
    - Account Number
+   - API Key
+   - API Secret
 
 1. Click **[!UICONTROL Save Config]**.
 
@@ -282,4 +286,4 @@ You can click **[!UICONTROL Cancel]** to stop the process, if needed. The packag
 {style="table-layout:auto"}
 
 
-<!-- Last updated from includes: 2025-11-26 10:55:00 -->
+<!-- Last updated from includes: 2026-05-12 15:47:19 -->
