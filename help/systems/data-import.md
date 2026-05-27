@@ -28,7 +28,8 @@ Data for all product types can be imported into the store. In addition, you can 
 - If the complex data for the entity is invalid, the entity (the corresponding row or rows) cannot be imported, except the case, when Delete Entities was selected in the Import Behavior drop-down menu.
 
 >[!NOTE]
->For large catalogs, omit the `categories` and `url_key` columns from the import file if neither category assignments nor URL keys are changing. When either column is present, URL-rewrite regeneration runs for every product in the file, which can significantly increase import duration and may cause timeout errors on Cloud deployments.
+>
+>For large catalogs, omit the `categories` and `url_key` columns from the import file if you are not changing category assignments or URL keys. If either column is present, Adobe Commerce regenerates URL rewrites for every product in the file. That extra work lengthens the import and can cause timeout errors on Adobe Commerce on Cloud.
 
 ### Complex data
 
