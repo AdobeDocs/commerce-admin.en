@@ -8,3 +8,4 @@ exclude:
   - Gemfile.lock
 kramdown:
   smart_quotes: ["apos", "apos", "quot", "quot"]
+  syntax_highlighter: none
