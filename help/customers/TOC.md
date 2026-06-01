@@ -1,5 +1,6 @@
 ---
 user-guide-title: Customer Management Guide
+user-guide-description: Comprehensive information about customer account, group, and segment management features for Adobe Commerce and Magento Open Source administrators.
 breadcrumb-title: Customer Management
 feature: Customers
 ---
