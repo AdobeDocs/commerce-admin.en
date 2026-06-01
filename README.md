@@ -52,7 +52,7 @@ If you are part of the Adobe community and you want to create a new article or s
 
 ### Major changes from Adobe Employees
 
-If you are a technical writer, program manager, or developer from the product team for an Adobe Experience Cloud solution and it is your job to contribute to or author technical articles, you should use the private repository at `https://git.corp.adobe.com/AdobeDocs`.
+If you are a technical writer, program manager, or developer from the product team for an Adobe Experience Cloud solution and it is your job to contribute to or author technical articles, you should use the private repository at `https://github.com/Adobe-Enterprise-Docs/commerce-admin.en`.
 
 ## Tools and setup
 
