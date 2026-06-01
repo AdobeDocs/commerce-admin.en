@@ -175,6 +175,28 @@ You can export coupon codes to a CSV or Excel XML file by selecting the file for
 
 To delete coupon codes, select one or more codes from the list. Select `Delete` from the **[!UICONTROL Actions]**  selector, and then click **[!UICONTROL Submit]**.
 
+### Method 3: Custom coupon codes
+
+[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and Adobe Commerce Optimizer projects only (Adobe-managed SaaS infrastructure)."}
+
+After creating a [cart price rule](price-rules-cart.md), you can manually add custom coupon codes to the rule.
+
+1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_ > **[!UICONTROL Cart Price Rules]** and select the rule you want to add custom coupon codes to.
+
+1. Expand the **[!UICONTROL Manage Coupon Codes]** section, and click **[!UICONTROL Add Coupon Code]**.
+
+   ![custom coupon codes](./assets/custom-coupon-codes.png){width="600" zoomable="yes"}
+
+1. In the **[!UICONTROL Add Custom Coupon]** dialog, enter the coupon code you want to use for the cart price rule and click **[!UICONTROL Save]**.
+
+   ![add coupon codes](./assets/add-custom-coupon.png){width="600" zoomable="yes"}
+
+1. Custom coupon codes can be edited by clicking **[!UICONTROL Edit]** in the **[!UICONTROL Actions]** column.
+
+   ![edit coupon codes](./assets/edit-coupon-code.png){width="600" zoomable="yes"}
+
+1. Click **[!UICONTROL Save]** to update the cart price rule.
+
 ## Coupons report
 
 The _Coupons_ report aggregates data from each coupon that is used during a specific date range. Because coupons are applied from the shopping cart, the report includes data from all redeemed coupons, regardless of [order status](../stores-purchase/order-status.md). As a result, the report might include both projected and actual totals. The report can be filtered for a specific store view, time period, order status, and cart price rule.
