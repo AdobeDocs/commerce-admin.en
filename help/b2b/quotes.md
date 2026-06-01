@@ -33,7 +33,7 @@ Quotes can be initiated by the buyer or the seller.
 
 This diagram shows the quote statuses for a buyer and seller (Admin) in the different steps when you initiate a quote.
 
-![Quotes Status Workflow](./assets/quote-status-workflow.svg){width="700" zoomable="yes"}
+![Quotes Status Workflow](./assets/quote-status-workflow.png){width="700" zoomable="yes"}
 
 **Step 1: Quote creation (New)**
 
