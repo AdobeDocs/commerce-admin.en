@@ -191,11 +191,52 @@ After creating a [cart price rule](price-rules-cart.md), you can manually add cu
 
    ![add coupon codes](./assets/add-custom-coupon.png){width="600" zoomable="yes"}
 
-1. Custom coupon codes can be edited by clicking **[!UICONTROL Edit]** in the **[!UICONTROL Actions]** column.
-
-   ![edit coupon codes](./assets/edit-coupon-code.png){width="600" zoomable="yes"}
-
 1. Click **[!UICONTROL Save]** to update the cart price rule.
+
+To delete custom coupon codes, select the codes to delete in the grid and then select **[!UICONTROL Delete]** from the **[!UICONTROL Actions]** selector.
+
+To edit custom coupon codes or see usage details, click **[!UICONTROL Edit]** in the **[!UICONTROL Actions]** column.
+
+<InlineAlert variant="info" slots="text"/>
+
+The main coupon code that belongs to the cart price rule cannot be edited or deleted.
+
+![edit coupon codes](./assets/edit-coupon-code.png){width="600" zoomable="yes"}
+
+#### Bulk import custom coupon codes
+
+If you have a list of pre-defined coupon codes, you can attach them to the cart price rule from a CSV file instead of adding each code individually. The CSV file should consist of a single column with the coupon codes.
+
+1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_ > **[!UICONTROL Cart Price Rules]** and select the rule you want to import custom coupon codes into.
+
+1. Expand the **[!UICONTROL Manage Coupon Codes]** section, and click **[!UICONTROL Import]**.
+
+   >[!NOTE]
+   >
+   >The **[!UICONTROL Import]** button is available on saved cart price rules with **[!UICONTROL Coupon]** set to `Specific Coupon` and **[!UICONTROL Use Auto Generation]** turned off.
+
+1. In the **[!UICONTROL Import Coupons]** dialog, click **[!UICONTROL Choose File]** and select the CSV file that contains the coupon codes you want to import.
+
+   The CSV file must meet the following requirements:
+
+   | Requirement | Value |
+   | ------------- | ------- |
+   | Maximum codes per file | 1,000 |
+   | Maximum file size | 512 KB |
+   | Maximum code length | 255 characters per code |
+   | Duplicate codes | Not allowed within the same file |
+
+   {style="table-layout:auto"}
+
+   After the file is selected, the dialog displays a **[!UICONTROL Preview]** that shows the number of codes ready to import and a sample of the first codes from the file.
+
+   ![Import coupons dialog](./assets/import-custom-coupons.png){width="600" zoomable="yes"}
+
+1. Click **[!UICONTROL Import]**. The dialog displays a summary with the number of codes queued for import and a list of any existing codes that were skipped.
+
+   ![Import coupons result](./assets/import-coupons-result.png){width="600" zoomable="yes"}
+ 
+To monitor the progress and detailed results of the import, click **[!UICONTROL View progress in Bulk Actions Log]**, or go to **[!UICONTROL System]** > _[!UICONTROL Action Log]_ > **[!UICONTROL Bulk Actions]**. Each import appears as a single entry in the **[!UICONTROL Bulk Actions]** and select an entry.
 
 ## Coupons report
 
