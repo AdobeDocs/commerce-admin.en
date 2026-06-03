@@ -114,12 +114,12 @@ Wrap the completed markup tag inside an anchor tag, using the markup tag instead
 
 #### Markup in anchor tag
 
-`<a href="{{markup tag goes here}}">Link Text\</a>`
+`<a href="{{markup tag goes here}}">Link Text</a>`
 
 Paste the completed anchor tag into the code of any CMS page, block, banner, or email template, where you want the link to appear.
 
 ### Complete link with markup
 
-`<a href="{{store url='apparel/shoes'}}">Shoe Sale\</a>`
+`<a href="{{store url='apparel/shoes'}}">Shoe Sale</a>`
 
 <!-- Last updated from includes: 2022-08-30 15:36:09 -->
