@@ -27,6 +27,10 @@ Data for all product types can be imported into the store. In addition, you can 
 - If there is no value, or there is a non-valid value, for a required attribute, then the existing value is not replaced.
 - If the complex data for the entity is invalid, the entity (the corresponding row or rows) cannot be imported, except the case, when Delete Entities was selected in the Import Behavior drop-down menu.
 
+>[!NOTE]
+>
+>For large catalogs, omit the `categories` and `url_key` columns from the import file if you are not changing category assignments or URL keys. If either column is present, Adobe Commerce regenerates URL rewrites for every product in the file. That extra work lengthens the import and can cause timeout errors on Adobe Commerce on Cloud.
+
 ### Complex data
 
 If an attribute that is specified in the import file exists and its value is derived from a defined set of values, the following applies:
