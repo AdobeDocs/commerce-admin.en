@@ -220,7 +220,7 @@ If you have a list of pre-defined coupon codes, you can attach them to the cart 
    The CSV file must meet the following requirements:
 
    | Requirement | Value |
-   | ------------- | ------- |
+   |-------------|-------|
    | Maximum codes per file | 1,000 |
    | Maximum file size | 512 KB |
    | Maximum code length | 255 characters per code |
