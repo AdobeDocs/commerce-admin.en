@@ -11,11 +11,11 @@ Inventory Management gives you tools to control stock across many locations. Use
 
 **Key capabilities**
 
-* Control and manage inventory across multiple locations with dedicated tools.
-* The Admin provides configuration and reporting features.
-* Use the command-line interface for installation and backend tasks.
-* Track and adjust sources, stocks, and quantities for accurate order fulfillment.
-* Access detailed resources for troubleshooting and advanced customization.
+- Control and manage inventory across multiple locations with dedicated tools.
+- The Admin provides configuration and reporting features.
+- Use the command-line interface for installation and backend tasks.
+- Track and adjust sources, stocks, and quantities for accurate order fulfillment.
+- Access detailed resources for troubleshooting and advanced customization.
 
 This guide is intended for administrators working in the Adobe Commerce and Magento Open Source Admin. It provides detailed information about enabling the Inventory Management module, including configuration and management of its features. It assumes a basic understanding of the core [!DNL Commerce] configuration and functionality.
 
