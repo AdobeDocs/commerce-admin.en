@@ -1,6 +1,6 @@
 ---
 title: Delete inventory stocks
-description: Learn how to delete an inventory stock.
+description: Delete a custom stock in the Admin and reassign websites to another stock so salable quantities and open orders stay accurate.
 exl-id: 420e0bbf-6382-471d-9ad2-16587191e5e7
 ---
 # Delete stocks

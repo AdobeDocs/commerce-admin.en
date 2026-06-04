@@ -1,6 +1,6 @@
 ---
 title: Import and export inventory
-description: Use the native import and export features with expanded [!DNL Inventory Management] options to update sources and quantities by SKU.
+description: Import and export [!DNL Inventory Management] source assignments and per-source quantities by SKU using native catalog data transfer tools.
 exl-id: cb2d2e0d-aef8-4b18-b013-9a7b0ab448bd
 feature: Inventory, Data Import/Export
 ---

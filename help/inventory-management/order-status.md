@@ -1,6 +1,6 @@
 ---
 title: Order status and reservations
-description: Learn about automatic reservation entry or changes that update the salable quantity for a stock (or sales channel) and the on-hand inventory quantity per source.
+description: Learn how invoicing, shipping, cancellations, and refunds update [!DNL Inventory Management] reservations and on-hand quantities per source.
 exl-id: d264cb49-5aa8-4949-ae87-5efcd463d38c
 feature: Inventory, Orders, Shipping/Delivery
 ---

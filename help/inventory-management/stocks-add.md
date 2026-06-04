@@ -1,6 +1,6 @@
 ---
-title: Add an inventory tock
-description: Learn how to add a stock and map sources to sales channels (websites), providing a direct link to salable quantities and product inventories.
+title: Add an inventory stock
+description: Add a custom stock in the Admin, assign websites and sources, and prioritize sources for salable quantity and shipments.
 exl-id: d0032ed7-c0d6-4654-b182-43a165e7dcf6
 ---
 # Add a stock

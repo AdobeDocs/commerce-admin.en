@@ -1,12 +1,12 @@
 ---
 title: Manage inventory quantities
-description: Learn how to assign sources and quantities for new products or change existing products.
+description: Overview of Admin procedures to assign sources and per-source quantities for new and existing products in [!DNL Inventory Management].
 exl-id: b3d4a4c0-725a-4e62-854f-efb6a5709f73
 feature: Inventory, Products
 ---
 # Manage inventory quantities
 
-The following information details how to assign sources and quantities for new products or change existing products.
+Use the following procedures to assign sources and quantities for new or existing products.
 
 When creating products, assign sources and quantities during product creation. See [Create a product](../catalog/product-create.md) for full instructions. These pages includes single- and multi-source information for sources and quantities per source.
 

@@ -1,6 +1,6 @@
 ---
 title: Assign inventory sources per product
-description: Learn how to assign an inventory source to a product.
+description: Assign one or more [!DNL Inventory Management] sources to a product in the Admin before you set per-source quantities and thresholds.
 exl-id: 7e47be25-633e-4f5d-bb61-0d9e79b6dbad
 feature: Inventory, Products
 ---

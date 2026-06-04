@@ -1,6 +1,6 @@
 ---
 title: Assign inventory quantities per product
-description: Learn how to update the inventory quantities for your product and track the on-hand, available stock amounts.
+description: Set per-source on-hand quantities and thresholds on a product page to keep [!DNL Inventory Management] salable stock accurate.
 exl-id: 935385bb-6657-4d49-980e-96a3d0d3a187
 feature: Inventory, Products
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Enable [!DNL Inventory Management]"
-description: Learn how to enable [!DNL Inventory Management] at the global store or product level.
+description: Enable or disable [!DNL Inventory Management] and Manage Stock at the store or product level to control salable quantity and fulfillment tracking.
 exl-id: 89bd2f8b-b9e4-4b9a-b729-f7bd71f764c9
 feature: Inventory, Configuration
 ---
@@ -8,7 +8,12 @@ feature: Inventory, Configuration
 
 To manage your product inventory, enable [!DNL Inventory Management] at the global store or product level. When the _Manage Stock_ option is enabled, [!DNL Inventory Management] automatically tracks product quantities available for the site through configured stocks and sources. Every feature and option begins tracking and reporting when enabled, without additional configuration.
 
-Your business runs and inventory updates at the speed of sales. As customers shop, you receive exact, updated information for available stock per sales channel and source. Available Salable Quantities update per stock when customers add products to cart and complete purchases and when and you manage orders, create shipments, and issue refunds. Arrivals of new or transferred stock update to your sources, immediately available for online sales. Backorders complete up to specified thresholds without infinite orders or additional configurations. And you enter and complete partial or full shipments across one or more sources with recommendations, giving you complete control over order fulfillment and on-hand inventory.
+When [!DNL Inventory Management] is enabled, inventory updates with your sales activity:
+
+- Salable quantities update per stock when customers add products to carts, complete checkout, and when you ship or refund orders.
+- New or transferred stock at a source becomes available for online sales after you update quantities.
+- Backorders honor configured thresholds without extra setup.
+- You can create partial or full shipments from one or more sources using algorithm recommendations or manual source selection.
 
 >[!NOTE]
 >

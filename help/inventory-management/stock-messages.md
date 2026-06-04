@@ -1,12 +1,12 @@
 ---
 title: Stock message scenarios
-description: Learn about the combination of configuration settings that control stock availability messages on product pages and in listings of products on catalog pages.
+description: Configure [!DNL Inventory Management] stock availability messages that appear on storefront product pages and category product listings.
 exl-id: 63114305-e695-445b-91cd-9e0fb2729ec4
 feature: Inventory, Configuration
 ---
 # Stock message scenarios
 
-You can use a combination of configuration settings to control stock availability messages on product pages and in listings of products on catalog pages.
+Configure how stock availability messages appear on product pages and catalog listings using the settings in the following sections.
 
 ![Grouped Product with "Out of Stock" Message](assets/storefront-out-of-stock-message.png){width="600" zoomable="yes"}
 

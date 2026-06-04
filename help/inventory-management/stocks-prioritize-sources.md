@@ -1,6 +1,6 @@
 ---
 title: Prioritize inventory sources for a stock
-description: Learn how to arrange sources from top to bottom in priority, which is used when determining shipment and inventory deductions.
+description: Set source priority order on a stock in the Admin to control Source Selection Algorithm recommendations during shipment.
 exl-id: 16db3ee3-ce99-40dd-b1a3-fcb145b1298f
 feature: Inventory, Configuration
 ---

@@ -1,6 +1,6 @@
 ---
 title: Configure the Distance Priority Algorithm
-description: Set the configuration for comparing the location of the shipping destination address with source locations to determine the closest source to fulfill shipments.
+description: Configure the Distance Priority Source Selection Algorithm using Google Maps or offline geocodes to recommend the closest source.
 exl-id: 4dec179a-25ac-48db-a84b-4974798272b0
 feature: Inventory, Configuration
 ---

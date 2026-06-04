@@ -1,6 +1,6 @@
 ---
 title: Disable inventory sources
-description: Learn how to disable sources and modify information, including location and point of contact.
+description: Disable [!DNL Inventory Management] sources that no longer accept orders while you retain historical order and shipment data.
 exl-id: 3fcbfa3c-8bb7-4e08-a395-9760bbd69f04
 ---
 # Disable sources

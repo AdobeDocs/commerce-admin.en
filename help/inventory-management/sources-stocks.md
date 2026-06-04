@@ -1,17 +1,17 @@
 ---
 title: Stocks and sources
-description: Learn about the relationships between products, sources, and stocks.
+description: Learn how stocks and sources relate in [!DNL Inventory Management] so salable quantity on your [!DNL Commerce] storefront matches physical inventory.
 exl-id: 01bbbd82-898b-4757-ab40-0d8b89ec59bc
 ---
 # Stocks and sources
 
-Manage your inventory regardless of warehouse location, type of product or service, or sales channel. Fulfill orders and ship products from multiple warehouses, brick-and-mortar stores, distribution centers, and drop shipping to complete orders with a focus on balanced inventory, shipping costs, and more.
+Manage your inventory regardless of warehouse location, type of product or service, or sales channel. Fulfill orders and ship products from multiple locations to complete orders with a focus on balanced inventory, shipping costs, and more.
 
 These descriptions include products, sources, and stocks for a bicycle company with multiple shipment locations and websites in the United States and Europe.
 
 ## Sources
 
-[Sources](sources-manage.md) are the physical locations where product inventory is managed and shipped for order fulfillment or where services are available. These locations can include warehouses, brick-and-mortar stores, distribution centers, and drop shippers. [!DNL Commerce] uses the quantities and salable quantities per stock and manages inventory amounts automatically for managed products and orders. If you have one source, you are considered in _single-source_ mode. If you have multiple sources, you are considered in _multi-source_ mode.
+A [source](sources-manage.md) is a physical or virtual location where product inventory is managed and shipped for order fulfillment or where services are available. [!DNL Commerce] uses the quantities and salable quantities per stock and manages inventory amounts automatically for managed products and orders. If you have one source, you are considered in _single-source_ mode. If you have multiple sources, you are considered in _multi-source_ mode.
 
 A source can have priority in the scope of stock in one warehouse, but not necessarily in all warehouses as the source can be reused in different stocks. The number of stocks and sources adds to the complexity for determining the best warehouse or store to fulfill an order. For example, you may have a limited number of products available from your brick-and-mortar locations with an extensive inventory in your warehouses and services in key locations with limited availability.
 
@@ -55,8 +55,8 @@ The following are important options to understand for [!DNL Inventory Management
 >
 >The Out-of-Stock Threshold value supports negative and positive amounts. If you enable Backorders, set this value to a negative amount for the maximum number of products that can be backordered before the product is truly considered out of stock.
 
-## Inventory Management demo
+## Demo
 
-Watch this video to learn about Inventory Management sources and stocks:
+Watch this video to learn about [!DNL Inventory Management] sources and stocks:
 
 >[!VIDEO](https://video.tv.adobe.com/v/343748?quality=12&learn=on)

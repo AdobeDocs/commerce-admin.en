@@ -1,6 +1,6 @@
 ---
-title: Manage inventory stock
-description: Learn how stock is used to represent a virtual, aggregated inventory of products for sources of your sales channels.
+title: Manage stock
+description: Manage stocks in the Admin to map sources to sales channels, prioritize fulfillment, and keep salable quantities accurate.
 exl-id: 076b1325-2de4-46d3-9976-d900bd2cef47
 ---
 # Manage stock
@@ -39,7 +39,7 @@ For a multi-store installation, the Default Stock is initially assigned to the [
 |--|--|
 |[!UICONTROL Add New Stock]|Opens the _[!UICONTROL New Stock]_ form that is used to enter a new inventory stock for mapping inventory to sales channel.|
 
-## Manage Stock column descriptions
+## Manage stock column descriptions
 
 |Column|Description|
 |--|--|

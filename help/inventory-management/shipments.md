@@ -1,6 +1,6 @@
 ---
 title: Manage orders and shipments from inventory
-description: Learn about the additional [!DNL Inventory Management] features and options for managing inventory quantities through the shipment process.
+description: Manage orders, partial shipments, refunds, and cancellations in [!DNL Inventory Management] as salable and on-hand quantities update automatically.
 exl-id: cc4ca518-d98c-48f3-9051-6fb3c6fae9fe
 feature: Inventory, Shipping/Delivery
 ---

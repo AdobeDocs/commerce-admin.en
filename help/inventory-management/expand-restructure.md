@@ -1,6 +1,6 @@
 ---
 title: Expand and restructure inventory
-description: Learn how to expand to a multi-source merchant or reduce down to a single-source merchant.
+description: Expand from single-source to multi-source inventory or restructure back to a single source as your [!DNL Commerce] business changes.
 exl-id: 880474e3-6533-4b2f-adf7-4312787ff736
 feature: Inventory, Configuration
 ---

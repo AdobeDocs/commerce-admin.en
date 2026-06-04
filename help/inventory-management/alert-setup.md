@@ -1,6 +1,6 @@
 ---
 title: Product alerts
-description: Learn about product alerts and how to use them to notify customers about stock status and price changes for products.
+description: Set up in-stock and price-change product alerts, email templates, and run settings in the [!DNL Inventory Management] catalog configuration.
 exl-id: c9f736c5-7bba-4e3e-804d-5b0fe52c8f9b
 feature: Inventory, Configuration
 ---
@@ -14,7 +14,7 @@ Customers can subscribe to two types of alerts by email - price change alerts an
 
 When price change alerts are enabled, a _Notify me when the price drops_ link appears on every product page. Customers can click the link to subscribe to alerts related to the product. Guests are prompted to open an account with your store. Whenever the price changes or the product goes on special, everyone who has subscribed to the alert receives an email alert.
 
-## In-Stock alerts
+## In-stock alerts
 
 The in-stock alert creates a link called _Notify me when this product is in stock_ for every product that is out of stock. Customers can click the link to subscribe to the alert. When the product is back in stock, customers receive an email notification that the product is available. Products with alerts have a _Product Alerts_ tab in the Product Information panel that lists the customers who have subscribed to an alert.
 
@@ -77,7 +77,7 @@ For more detailed information about using email messaging, see [Message Template
 
 1. Click **[!UICONTROL Save Template]**.
 
-## Product Alert Run Settings
+## Product alert run settings
 
 These settings allow you to select how often [!DNL Commerce] checks for changes that require alerts to be sent. You can also select the recipient, sender, and template for emails that are sent if the sending of alerts fails.
 

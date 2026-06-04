@@ -1,6 +1,6 @@
 ---
 title: "Install, update, and remove [!DNL Inventory Management]"
-description: Learn how to manage the [!DNL Inventory Management] metapackage.
+description: Install, enable, disable, remove, or upgrade the [!DNL Inventory Management] metapackage on Adobe Commerce and Magento Open Source 2.4.x.
 exl-id: d088ff35-c0e1-41c8-89fb-78180eaefbf7
 level: Experienced
 feature: Inventory, Install
@@ -80,9 +80,9 @@ The [!DNL Inventory Management] installation process adds all modules to the `<M
 
 When installed, upgraded, or updated, the _[!UICONTROL Manage Stock]_ option in the Admin is enabled by default. This option enables inventory tracking and management, but does not affect module status. To disable modules, see the next section.
 
-For more information about configurations, see [Configure Inventory Management](configuration.md).
+For more information about configurations, see [Configure [!DNL Inventory Management]](configuration.md).
 
-## Disable Inventory Management
+## Disable [!DNL Inventory Management] {#disable-inventory-management}
 
 >[!IMPORTANT]
 >
@@ -108,7 +108,7 @@ When complete, the system provides a list of modules and values in `<Magento_ins
 >
 >If you have the OMS Connector modules installed, make sure that you do not disable the `Magento_InventoryMessageBus` module, which is a Connector module. It is required to use the Connector with OMS.
 
-## Remove Inventory Management
+## Remove [!DNL Inventory Management] {#remove-inventory-management}
 
 >[!IMPORTANT]
 >
@@ -194,7 +194,7 @@ If you choose not to use the [!DNL Inventory Management] functionality, you can 
 
 When this change is complete, run composer install, and it automatically removes these Inventory Management modules.
 
-## Upgrade Inventory Management
+## Upgrade [!DNL Inventory Management] {#upgrade-inventory-management}
 
 ### Previous [!DNL Commerce] versions
 

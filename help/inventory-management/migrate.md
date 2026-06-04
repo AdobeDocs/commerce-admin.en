@@ -1,6 +1,6 @@
 ---
 title: '[!DNL Commerce] upgrades'
-description: Learn how Adobe Commerce and Magento Open Source upgrades affect catalog and [!DNL Inventory Management] configurations.
+description: Learn how upgrading to Adobe Commerce or Magento Open Source 2.4.x changes catalog inventory, stocks, and [!DNL Inventory Management] modules.
 exl-id: ba640b91-0f29-46df-bfd9-1c43433a751f
 feature: Inventory, Upgrade
 ---

@@ -1,10 +1,12 @@
 ---
 title: "Configure [!DNL Inventory Management] global options"
-description: Learn how to configure the default [!DNL Inventory Management] configuration options for product and stock for your websites.
+description: Configure global [!DNL Inventory Management] catalog settings for product stock options, thresholds, and storefront display across all websites.
 exl-id: 1a8c9605-ae61-4d45-b549-64911b329203
 feature: Inventory, Configuration
 ---
 # Configure [!DNL Inventory Management] global options
+
+These global settings apply to your entire catalog under **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Inventory]**.
 
 Configure the default configuration options for product and stock for your websites. Some of these settings can be overridden per product through [Configuring Product Options](product-options.md). To configure Distance Priority settings, see [Configuring Distance Priority Algorithm](distance-priority-algorithm.md).
 

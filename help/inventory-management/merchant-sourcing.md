@@ -1,6 +1,6 @@
 ---
 title: Merchant sourcing types
-description: Learn about the two sourcing types based on the number of locations, or sources, in your business.
+description: Compare single-source and multi-source merchant modes to choose how you assign sources, stocks, and quantities in [!DNL Inventory Management].
 exl-id: ec928929-5826-4504-9fd0-84256b37cb39
 feature: Inventory, Products
 ---

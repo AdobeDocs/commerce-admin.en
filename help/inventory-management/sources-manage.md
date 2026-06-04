@@ -1,11 +1,11 @@
 ---
 title: Manage inventory sources
-description: Learn about sources and how they define the physical locations where product inventory is managed and shipped for order fulfillment, or where services are available.
+description: Overview of Admin tasks to add, edit, enable, and disable [!DNL Inventory Management] sources that store and ship product inventory.
 exl-id: 1315a8c9-7791-4c4b-9463-3126b79793c2
 ---
 # Manage sources
 
-Sources are the physical locations where product inventory is managed and shipped for order fulfillment, or where services are available. These locations can include warehouses, brick-and-mortar stores, distribution centers, pickup locations, and drop shippers. You allocate inventory quantities to these sources, and [!DNL Commerce] automatically aggregates the total salable products for your stocks. For large companies, add multiple sources for all of your locations: in different geographic locations by country and continent, locations in a city, based on the type of inventory, even based on services.
+Use this topic to add, edit, enable, and disable sources. For how sources relate to stocks and salable quantity, see [Stocks and sources](sources-stocks.md).
 
 It is recommended that you provide specific physical geographical locations when creating a source. That allows the _Distance Priority Algorithm_ to compare the location of the shipping destination address with the available source locations to determine the closest source to fulfill shipments. You can use Google Maps or offline calculations, which use geocodes. For more information about this _Distance Priority Algorithm_, see [Configure Distance Priority Algorithm](distance-priority-algorithm.md).
 
