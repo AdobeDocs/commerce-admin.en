@@ -35,7 +35,7 @@ The Data Feed Sync Status page is available at no additional cost to Commerce me
 - [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)
 - [[!DNL Adobe Commerce Optimizer]](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview)
 
-The feature is installed automatically when you enable any of these services, including on [[!DNL Adobe Commerce as a Cloud Service]](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview) instances.
+The feature is installed automatically when you enable any of these services on any Adobe Commerce deployment.
 
 ## Access the sync status page {#access-data-feed-sync-status-page}
 
