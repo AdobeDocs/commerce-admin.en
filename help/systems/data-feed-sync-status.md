@@ -1,13 +1,13 @@
 ---
-title: Data Feed Sync Status Monitoring
-description: Learn how to monitor data feed export sync and troubleshoot sync issues for [!DNL Catalog Service], [!DNL Live Search], and [!DNL Product Recommendations].
+title: Monitor Data Feed Sync Status in Commerce
+description: Learn how to monitor data feed exports and troubleshoot synchronization issues for [!DNL Catalog Service], [!DNL Live Search], and [!DNL Product Recommendations].
 feature: Products, Customers, Data Import/Export
 role: Admin
 level: Beginner
 exl-id: 4e1b9da0-450c-4488-8693-1938a948e792
 ---
 
-# Data Feed Sync Status Monitoring
+# Data Feed Sync Status monitoring
 
 The [!UICONTROL Data Feed Sync Status] page lets Commerce administrators monitor export health for product and category data feeds in the Admin area.
 
@@ -24,7 +24,7 @@ Status is tracked for the following feeds:
 
 >[!NOTE]
 >
-> This page reports export status only. A success status means data was exported successfully—it does not confirm that data is available in connected services.
+> This page reports export status only. A success status means data was exported successfully—it does not confirm that data is available in connected services. See [Confirm data in connected services](#confirm-data-in-connected-services) for details.
 
 ## Audience and availability {#audience}
 
@@ -33,11 +33,11 @@ The Data Feed Sync Status page is available at no additional cost to Commerce me
 - [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)
 - [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview)
 - [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)
-- [[!DNL Adobe Commerce Optimizer Connector]](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview)
+- [[!DNL Adobe Commerce Optimizer]](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview)
 
 The feature is installed automatically when you enable any of these services, including on [[!DNL Adobe Commerce as a Cloud Service]](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview) instances.
 
-### Access sync status {#access-data-feed-sync-status-page}
+## Access the sync status page {#access-data-feed-sync-status-page}
 
 From the Admin area, navigate to **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** > **[!UICONTROL Data Feed Sync Status]**.
 
@@ -55,13 +55,11 @@ The summary grid lists each feed and its export counts.
 | **Failed Records** | Number of records that failed to be sent to connected Commerce services. |
 | **Action** | Select **[!UICONTROL Details]** to view the sync activity for a feed. |
 
-
 ## Data Feed Sync Status details {#data-feed-sync-status-details}
 
 From the summary page, select a feed name or select **[!UICONTROL Details]** to view export status for each feed item:
 
 ![Data Feed Sync Status details page with feed item status reporting](assets/data-feed-sync-status-details.png){width="600" zoomable="yes"}
-
 
 | Field | Description |
 | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -73,7 +71,6 @@ From the summary page, select a feed name or select **[!UICONTROL Details]** to 
 | **Is Entity Deleted?** | Indicates whether the entity has been deleted in Adobe Commerce. Deleted items are displayed only if sync failed. |
 | **Request ID** | Unique ID for the sync request. Provide it to Support when troubleshooting entity updates. |
 | **Error** | Detailed error information for synchronization failures |
-
 
 You can manage the view using the following controls:
 
@@ -87,7 +84,7 @@ You can manage the view using the following controls:
 | ------------- | --------------- |
 | Indexer status | <ul><li>**Ready**: The indexer is up to date. No reindex required.</li><li>**Reindex required**: Source data changed. Run a reindex to capture recent changes.</li><li>**Processing**: Indexing is in progress.</li></ul> |
 | Changelog backlog | <ul><li>**All synced**: No pending changes to process.</li><li>**Items in backlog**: Number of pending changes waiting to be processed. A backlog of more than 1,000 items may indicate performance issues.</li></ul> |
-| Indexer mode | <ul><li>**Schedule mode** (recommended): The indexer runs on schedule, which reduces the risk of data loss.</li><li>**Update on Save** (realtime): Shown as a warning on the page. Realtime mode is not expected and increases the risk of data loss under load.</li></ul> |
+| Indexer mode | <ul><li>**Schedule mode** (recommended): The indexer runs on schedule, which reduces the risk of data loss.</li><li>**Update on Save** (real time): Shown as a warning on the page. Real-time mode is not expected and increases the risk of data loss under load.</li></ul> |
 
 >[!TIP]
 >
@@ -101,7 +98,6 @@ You can manage the view using the following controls:
 | **Failed, will retry** | Failed to send, but the system will attempt to resend. | Monitor for resolution |
 | **Failed, require attention** | Failed due to application or data error. | Investigate and resolve the issue in the [!UICONTROL Error] column |
 | **Awaiting submission** | Changes detected in the changelog but not yet processed. | Normal processing state |
-
 
 ## Monitor data feed status
 
@@ -117,7 +113,7 @@ When the number of successfully sent records matches the number of source record
 >
 > Adobe also provides command-line interface tools and system logs that developers and system integrators can use to manage and track sync operations. For details, see the [SaaS Data Export Guide](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
 
-### Manage and resync failed exports {#manage-failed-exports}
+### Manage failed exports {#manage-failed-exports}
 
 To review failed exports and schedule a resync:
 
@@ -125,12 +121,14 @@ To review failed exports and schedule a resync:
 1. Select **[!UICONTROL Details]**.
 1. Review error messages in the [!UICONTROL Error] column.
 1. Select the records to resync using the checkboxes.
-1. From the [!UICONTROL Mass Action] menu, select **[!UICONTROL Schedule Resync]**, click **[!UICONTROL Submit]**, and confirm the operation.
+1. From the [!UICONTROL Mass Action] menu, select **[!UICONTROL Schedule Resync]**, select **[!UICONTROL Submit]**, and confirm the operation.
 1. Monitor status changes on the details page.
 
-The system automatically retries certain failures. Manually resync when you need to:
+The system automatically retries certain failures.
 
 #### When to resync manually {#resync-feed-items}
+
+Manually resync in these cases:
 
 - Authentication or permission errors (401 or 403 status codes) persist
 - You fixed data format issues that caused payload errors
@@ -163,12 +161,11 @@ To verify end-to-end synchronization after exports complete, use one of the foll
 | Authentication failures | 401 or 403 status codes in the [!UICONTROL Error] column | <ul><li>Verify API credentials and tokens</li><li>Check external service account permissions</li><li>Renew expired tokens or contact your service provider</li><li>After credentials are restored, [resync affected records](#manage-failed-exports)</li></ul> |
 | Missing Data Feed Sync Status page | **[!UICONTROL Data Feed Sync Status]** is not listed under **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** after you enable a connected service | <ul><li>Confirm an eligible service is enabled (see [Audience and availability](#audience))</li><li>[Install the extension manually](#install-the-extension)</li></ul> |
 
-
-### Install the extension {#install-the-extension}
+## Install the extension {#install-the-extension}
 
 Manual installation is only required on Adobe Commerce on Cloud or on-premises deployments if the [!UICONTROL Data Feed Sync Status] page is missing from the Admin area after you enable an eligible service. See [Audience and availability](#audience).
 
-#### Prerequisites
+### Prerequisites
 
 - PHP 8.1, 8.2, 8.3, or 8.4
 - Adobe Commerce 2.4.4+
@@ -176,7 +173,7 @@ Manual installation is only required on Adobe Commerce on Cloud or on-premises d
 - Access to [repo.magento.com](https://repo.magento.com). To generate keys and obtain the necessary rights, see [Get your authentication keys](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). For Cloud installations, see the [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
 - Access to the command line of the Adobe Commerce application server.
 
-#### Installation steps
+### Installation steps
 
 Add the `magento/module-data-exporter-status` module using Composer:
 
@@ -193,4 +190,3 @@ For detailed installation steps, see the following guides:
 >
 > - [Data Management Dashboard](data-dashboard.md)
 > - [SaaS Data Export Guide](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview)
-
