@@ -38,22 +38,26 @@ The heart of [!DNL Inventory Management] tracks every available product virtuall
 
 >[!NOTE]
 >
->Refer to the [developer documentation](https://developer.adobe.com/commerce/php/development/framework/inventory-management/) for information about working with the [!DNL Inventory Management] system programmatically.
+>See the [developer documentation](https://developer.adobe.com/commerce/php/development/framework/inventory-management/) for information about working with the [!DNL Inventory Management] system programmatically.
 
-## Source Selection Algorithm
+## Source selection algorithm
 
 The Source Selection Algorithm (SSA) analyzes and determines the best match for sources and shipping using the priority order of sources configured in a stock. During order shipment, the algorithm provides a recommended list of sources, available quantities, and amounts to deduct according to the selected algorithm. [!DNL Inventory Management] provides a Priority algorithm and supports extensions for new options.
 
 With multiple source locations, global customers, and carriers with various shipping options and fees, knowing your actual available inventory and finding the best shipment option can be difficult. SSA does the work for you from tracking inventory salable quantities across all sources to calculating and making recommendations for shipments.
 
-**Track Inventory** - Using stocks and sources, the SSA checks the sales channel of incoming product requests and determines available inventory:
+### Track inventory
+
+Using stocks and sources, the SSA checks the sales channel of incoming product requests and determines available inventory:
 
 - Calculates the aggregated virtual salable quantity of all assigned sources per stock: aggregates Quantity - Out-of-Stock Threshold per source
 - Subtracts the Out-of-Stock Threshold amount from salable quantity to protect against overselling
 - Reserves inventory quantities on order submission, deducting from in-stock inventory at order processing and shipment
 - Supports backorders with enhanced options for negative thresholds
 
-**Manage Shipments** - The algorithm helps when you process and ship orders. You can run the algorithm to get recommendations on the best sources for shipping the product or override the selections to:
+### Manage shipments
+
+The algorithm helps when you process and ship orders. You can run the algorithm to get recommendations on the best sources for shipping the product or override the selections to:
 
 - Ship partial shipments, sending only a few products from specific locations and completing the full order later
 - Ship the entire order from one source
@@ -65,7 +69,7 @@ SSA is extensible for third-party support and custom algorithms for recommending
 >
 >SSA functions differently for Virtual and Downloadable products, which may not incur shipping costs. In these cases, the system runs the algorithm implicitly when it creates invoices, and always uses the suggested results. You cannot adjust these results for Virtual and Downloadable products.
 
-### Source Priority Algorithm
+### Source priority algorithm
 
 Custom stocks include an assigned list of sources to sell and ship available product inventory through your storefront. The Source Priority Algorithm uses the order of assigned sources in the stock to recommend product deductions per source when invoicing and shipping the order.
 
@@ -76,21 +80,21 @@ When run, the algorithm:
 - Continues down the list until the order shipment is filled
 - Skips disabled sources if found in the list
 
-To configure, assign and order sources to a custom stock. See [Prioritizing Sources for a Stock](stocks-prioritize-sources.md).
+To configure, assign, and order sources to a custom stock, see [Prioritizing Sources for a Stock](stocks-prioritize-sources.md).
 
 The following example details the mapped sources in order, available quantity, and recommended source and amount to deduct and ship. The top source is a Drop Shipper in the United Kingdom with an available quantity of 240.
 
 ![Example SSA recommendations for a mountain bike](assets/ssa-sources-example.png){width="600" zoomable="yes"}
 
-### Distance Priority Algorithm
+### Distance priority algorithm
 
-The Distance Priority Algorithm compares the location of the shipping destination address with source locations to determine the closest source to fulfill shipments. The distance may be determined by physical distance or time spent traveling from one location to another, using imported database locations or Google directions (driving, walking, or bicycling).
+The distance priority algorithm compares the location of the shipping destination address with source locations to determine the closest source to fulfill shipments. The distance may be determined by physical distance or time spent traveling from one location to another, using imported database locations or Google directions (driving, walking, or bicycling).
 
 You have two options for calculating the distance and time to find the closest source for shipment fulfillment:
 
-- **Google MAP** - Uses [Google Maps Platform](https://cloud.google.com/maps-platform/) services to calculate the distance and time between the shipping destination address and source locations (address and GPS coordinates). This option uses the source's Latitude and Longitude. A Google API key is required with [Geocoding API](https://developers.google.com/maps/documentation/geocoding/start) and [Distance Matrix API](https://developers.google.com/maps/documentation/distance-matrix/start) enabled. This option requires a Google billing plan and may incur charges through Google.
+- [!UICONTROL Google MAP] — Uses [Google Maps Platform](https://cloud.google.com/maps-platform/) services to calculate the distance and time between the shipping destination address and source locations (address and GPS coordinates). This option uses the source's Latitude and Longitude. A Google API key is required with [Geocoding API](https://developers.google.com/maps/documentation/geocoding/start) and [Distance Matrix API](https://developers.google.com/maps/documentation/distance-matrix/start) enabled. This option requires a Google billing plan and may incur charges through Google.
 
-- **Offline Calculation** - Calculates the distance using downloaded and imported geocode data to determine the closest source to the shipping destination address. This option uses the country codes of the shipping address and source. To configure this option, you may require developer assistance to initially download and import geocodes using a command line.
+- [!UICONTROL Offline Calculation] — Calculates the distance using downloaded and imported geocode data to determine the closest source to the shipping destination address. This option uses the country codes of the shipping address and source. To configure this option, you may require developer assistance to initially download and import geocodes using a command line.
 
 To configure, select configurations and complete additional steps such as the Google API key or downloading shipping data. See [Configure the Distance Priority Algorithm](distance-priority-algorithm.md).
 
@@ -134,9 +138,9 @@ Before the system can issue a reservation in response to a new order, it determi
 
 - **StockItem quantity**. The StockItem quantity is the aggregated amount of inventory from all the physical sources for the current sales channel. Consider an example where the Baltimore source has 20 units of a product, the Austin source has 25 units of the same product, and the Reno source has 10. When all of these sources are linked to Stock A, the StockItem count for this product is 55 (20 + 25 + 10). (When items are shipped, the Inventory indexer updates the quantities available at each source.)
 
-- **Outstanding reservations**. The system totals all the initial reservations that have not been compensated. This number is always negative. If customer A has a reservation for ten items, and customer B has a reservation 5 for items, then outstanding reservations for the product total -15.
+- **Outstanding reservations**. The system totals all the initial reservations that have not been compensated. This number is always negative. If customer A has a reservation for ten items, and customer B has a reservation for five items, then outstanding reservations for the product total -15.
 
-Therefore, the merchant can fulfill an incoming order as long as the customer orders less than 40 (55 + -15) units.
+Therefore, the merchant can fulfill an incoming order as long as the customer orders fewer than 40 (55 + -15) units.
 
 When you complete processing an order (Complete, Canceled, Closed), all reservations in the scope of that order should resolve to `0`. This clears all salable quantity holds.
 
@@ -162,13 +166,12 @@ The metadata `event_type` can have the following values:
 
 - `order_placed`
 - `order_canceled`
+- `order_place_failed`
 - `shipment_created`
 - `creditmemo_created`
 - `invoice_created`
 
-Currently, the metadata object type must be `order`, and the object ID is the order ID.
-
-In future releases, it might be possible to create a reservation when a customer adds an item to a shopping cart. Each item could be reserved for a fixed amount of time, such as 15 minutes, allowing the customer to reserve items while continuing to shop. When this type of reservation is enabled, the metadata could contain additional types of information.
+The metadata `object_type` must be `order`, and the `object_id` is the order ID.
 
 ## Reservation lifecycle
 
@@ -184,7 +187,7 @@ The following example shows the sequence of reservations generated for a simple 
    event_type = order_placed
    ```
 
-1. The customer sends an invoice for 20 items, essentially canceling 5 of the units ordered.
+1. The customer sends an invoice for 20 items, essentially canceling five of the units ordered.
 
    ```text
    reservation_id = 2
@@ -210,7 +213,7 @@ The three `quantity` values sum up to 0 (-25 + 5 + 20). The system does not modi
 
 The `inventory_cleanup_reservations` cron job executes SQL queries to clear the reservation database table. By default, it runs daily at midnight, but you can configure the times and frequency. The cron job runs a script that queries the database to find complete reservation sequences in which the sum of quantity values is 0. When all reservations for a given product that originated on the same day (or other configured time) have been compensated, the cron job deletes the reservations all at once.
 
-The `inventory_reservations_cleanup` cron job is not the same as the `inventory.reservations.cleanup` message queue consumer. The consumer asynchronously deletes reservations by product SKU after a product has been removed, whereas the cron job clears the entire reservations table. The consumer is required when you enable the [**Synchronize with Catalog**](../configuration-reference/catalog/inventory.md) stock option in the store configuration. See [Manage message queues](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) in the _Configuration Guide_.
+The `inventory_reservations_cleanup` cron job is not the same as the `inventory.reservations.cleanup` message queue consumer. The consumer asynchronously deletes reservations by product SKU after a product has been removed, whereas the cron job clears the entire reservations table. The consumer is required when you enable the [**Synchronize with Catalog**](../configuration-reference/catalog/inventory.md) stock option in the store configuration. See [Manage message queues](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html){target="_blank"} in the _Configuration Guide_.
 
 Often, all initial reservations produced in a single day cannot be compensated that same day. This situation can occur when a customer places an order just before the cron job begins or makes the purchase with an offline payment method, such as a bank transfer. The compensated reservation sequences remain in the database until they are all compensated. This practice does not interfere with reservation calculations, because the total for each reservation is 0.
 
@@ -224,11 +227,11 @@ As changes complete in orders and product amounts, [!DNL Commerce] automatically
 
 Here is how they work:
 
-- **Submitted Order** - When an order is submitted for several products, a reservation enters for that amount. For example, ordering five backpacks from a US website enters a reservation of `-5` for that SKU and stock. The salable quantity is reduced by 5.
+- *Submitted order* — When an order is submitted for several products, a reservation enters for that amount. For example, ordering five backpacks from a US website enters a reservation of `-5` for that SKU and stock. The salable quantity is reduced by 5.
 
-- **Canceled Order** - When an order is canceled (all or partial), a compensation reservation enters to clear that amount. For example, canceling three backpacks enters a +3 reservation for that SKU and stock, clearing the hold. The salable quantity is increased by 3.
+- *Canceled order* — When an order is canceled (all or partial), a compensation reservation enters to clear that amount. For example, canceling three backpacks enters a +3 reservation for that SKU and stock, clearing the hold. The salable quantity is increased by 3.
 
-- **Shipped Order** - When an order ships (all or partial), a compensation reservation enters to clear that amount. For example, shipping two backpacks enters a +2 reservation for that SKU and stock, clearing the hold. The product quantity is directly reduced by 2 for the shipment. The calculated salable quantity is also updated for the reduced stock amount, but is no longer affected by the reservation.
+- *Shipped order* — When an order ships (all or partial), a compensation reservation enters to clear that amount. For example, shipping two backpacks enters a +2 reservation for that SKU and stock, clearing the hold. The product quantity is directly reduced by 2 for the shipment. The calculated salable quantity is also updated for the reduced stock amount, but is no longer affected by the reservation.
 
 ![Reservation updates](assets/diagram-reservation.png){width="600" zoomable="yes"}
 
@@ -241,6 +244,5 @@ All reservations must be cleared by compensations when orders complete fulfillme
 If you remove all sources from a product for a stock with pending orders, you may have stuck reservations.
 
 {{$include /help/_includes/unassign-source.md}}
-
 
 <!-- Last updated from includes: 2022-08-30 15:36:09 -->
