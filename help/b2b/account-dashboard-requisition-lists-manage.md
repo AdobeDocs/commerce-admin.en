@@ -1,8 +1,29 @@
 ---
-title: '[!UICONTROL My Requisition Lists]'
+title: "[!UICONTROL My Requisition Lists]"
 description: Learn about the customer experience for requisition lists, which is available in their account dashboard.
 exl-id: ed1b41aa-9c36-49f8-80f2-ad0eb151b7a5
 feature: B2B, Companies
+TQID: https://experienceleague.adobe.com/pwiF8OEOXHcE4Pqb2wNbE8kravY2fx7k359g-loTcns
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # [!UICONTROL My Requisition Lists]
 

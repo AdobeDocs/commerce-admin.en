@@ -1,8 +1,34 @@
 ---
-title: '[!UICONTROL My Quote Templates]'
+title: "[!UICONTROL My Quote Templates]"
 description: Learn about the customer experience for quote templates, which is available in the storefront account dashboard.
 feature: B2B, Companies, Quotes
 exl-id: 3d95a44e-b874-442b-af96-0dc6b589d0f7
+TQID: https://experienceleague.adobe.com/E2xR1PkAHidID85ro6fIz--mGtI358VvmXdKcSApVww
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # [!UICONTROL My Quote Templates]
 
