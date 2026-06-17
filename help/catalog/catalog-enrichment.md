@@ -79,7 +79,7 @@ Work with your Commerce administrator or implementation partner to ensure the fo
 
 1. In [!UICONTROL Customer Configuration], select the **[!UICONTROL Commerce]** tab.
 
-   ![Commerce configuration on the Customer Configuration tab](../assets/llmo-commerce-config.png){width="700" zoomable="yes"}
+   Update image.
 
 1. Click **[!UICONTROL Add Store View]** to create a new row, or expand an existing store view entry to edit it.
 1. Enter the **[!UICONTROL Store View URL]** (required).
@@ -127,7 +127,7 @@ After catalog enrichment is enabled, review suggestions and apply approved updat
 1. Click **[!UICONTROL Commerce Opportunity]** to show optimization types for your [!DNL Adobe Commerce] catalog.
 1. Select **[!UICONTROL Product Catalog Enrichment]**.
 
-   ![Commerce opportunities filter and Product Catalog Enrichment](../assets/llmo-opportunities.png){width="700" zoomable="yes"}
+   Update image.
 
 1. click catalog enrichment from catalog menu.
 1. Land on main catalog enrichment page.
@@ -204,7 +204,7 @@ After you apply an update, suggestions move to **[!UICONTROL Fixed Suggestions]*
 
    The product form shows the enriched product name.
 
-   ![Product name field after catalog enrichment](../assets/llmo-admin-name.png){width="700" zoomable="yes"}
+   Update image.
 
 1. Optional: Select **[!UICONTROL Override LLM Optimizer provided Product Name]** if you want to keep a manually entered name instead.
 
@@ -214,7 +214,7 @@ After you apply an update, suggestions move to **[!UICONTROL Fixed Suggestions]*
 
    The enriched description appears when you applied description changes.
 
-   ![Description field after catalog enrichment](../assets/llmo-admin-description.png){width="700" zoomable="yes"}
+   Update image.
 
 1. Optional: Select **[!UICONTROL Override LLM Optimizer provided Description]** if you want to keep a manually entered description instead.
 
