@@ -7,11 +7,7 @@ badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.ad
 ---
 # Catalog enrichment
 
->[!IMPORTANT]
->
->Access to catalog enrichment is restricted. Contact your Technical Account Manager for details.
-
-Catalog enrichment is a native [!DNL Adobe Commerce] capability that helps you improve product names and descriptions. Your catalog is represented more accurately when shoppers use LLMs and AI assistants for product research and discovery.
+Catalog enrichment is a native [!DNL Adobe Commerce] capability that helps you improve product names and descriptions so that your catalog is represented more accurately when shoppers use LLMs and AI assistants for product research and discovery.
 
 This topic covers catalog enrichment only. Suggestions apply to catalog fields in Commerce, not product detail page (PDP) layout, page structure, or other storefront content. PDP enrichment is not part of this capability.
 
@@ -37,10 +33,10 @@ Because product names and descriptions live in Commerce, improving copy once can
 
 ## Prerequisites {#prerequisites}
 
-The following prerequisites apply when you have access to catalog enrichment. Contact your Technical Account Manager for details.
+The following prerequisites apply when you have access to catalog enrichment.
 
 - Your storefront can be crawled by LLM-oriented and agentic bots where crawl coverage is required for catalog-aware suggestions.
-- Required Commerce services and catalog connectivity are enabled and healthy. Initial enablement is described in [Enable catalog enrichment](#enable-catalog-enrichment).
+- Required Commerce services and catalog connectivity are enabled and healthy. See [Enable catalog enrichment](#enable-catalog-enrichment) to learn more.
 
 ## How it works {#how-it-works}
 
@@ -70,101 +66,31 @@ Work with your Commerce administrator or implementation partner to ensure the fo
     install
     ```
 
-    **[!UICONTROL Catalog enrichment]** now available in the *Catalog* menu.
+    **[!UICONTROL Catalog enrichment]** is now available in the *Catalog* menu.
 
+1. From the Admin, select **Catalog** -> **Catalog Enrichment**.
 
-### Add a store view {#add-store-view}
+    The **Catalog Enrichment** page appears.
 
-**To add a store view for catalog enrichment:**
+1. Select the store view for catalog enrichment, such as **Default**.
 
-1. In [!UICONTROL Customer Configuration], select the **[!UICONTROL Commerce]** tab.
+    You can select from exiting store views or click **Add store view** to add another store view to the **Scope** drop down.
 
-   Update image.
+1. In the store view details section, you see the selected store view and you can provide any additional store view details. Such as what???
 
-1. Click **[!UICONTROL Add Store View]** to create a new row, or expand an existing store view entry to edit it.
-1. Enter the **[!UICONTROL Store View URL]** (required).
+1. (Optional) Select **Remove store view** if you do not want catalog enrichment for that store view.
 
-   Use the storefront URL for that store view, including any locale or path prefix (for example, `https://brand.example.com/` or `https://brand.example.com/fr/`).
+1. Click **Save**.
 
-1. Enter the **[!UICONTROL Environment ID]** (required).
+    After you save, it may take up to 24 hours for product suggestions to populate the catalog enrichment page. When they are ready, you can review and apply suggestions to your Commerce catalog.
 
-   This value is the identifier for the Adobe Commerce environment connected to this store view.
+### ??? Setup CDN log forwarding (how?).
 
-### Complete connection details {#complete-connection-details}
-
-**To complete connection details for a store view:**
-
-1. Enter **[!UICONTROL Website Code]**, **[!UICONTROL Store Code]**, and **[!UICONTROL Store View Code]** (required).
-
-   These values must match the codes in your Commerce Admin for the website, store, and store view you connect.
-
-1. Optional: Enter **[!UICONTROL Host Name]** with the hostname of your Commerce instance (for example, `www.example.com`) if that value is different from the URL.
-1. Enter the **[!UICONTROL Adobe Commerce Endpoint]**.
-
-   This value is the base URL of your Adobe Commerce instance used for API access.
-
-1. Enter or paste the **[!UICONTROL API Key]** used to authenticate requests to Commerce APIs.
-
-   Click **[!UICONTROL Copy]** next to the field if you need to copy the key elsewhere securely.
-
-1. Click **[!UICONTROL Save]** to store the configuration.
-
-After you save, wait for any initial sync or validation job to complete before relying on enrichment suggestions for that store view.
-
-To remove a store view configuration, open that entry and click **[!UICONTROL Delete]**.
-
-### Setup CDN log forwarding (how?).
-
-After you complete these steps, it will take some time before URLs are identified as needing updating. When they are ready you can review and apply suggestions to your Commerce catalog.
+What needs to happen here? Is Fastly what a Commerce merchant would use? i.e. https://experienceleague.adobe.com/en/docs/llm-optimizer/using/log-forwarding/fastly
 
 ## Review and apply catalog enrichment {#review-and-apply}
 
-After catalog enrichment is enabled, review suggestions and apply approved updates to product names and descriptions in Commerce.
-
-**To open catalog enrichment suggestions:**
-
-1. In the left rail, click **[!UICONTROL Opportunities]**.
-1. Click **[!UICONTROL Commerce Opportunity]** to show optimization types for your [!DNL Adobe Commerce] catalog.
-1. Select **[!UICONTROL Product Catalog Enrichment]**.
-
-   Update image.
-
-1. click catalog enrichment from catalog menu.
-1. Land on main catalog enrichment page.
-
-    you'll see a list of urls the feature identified as needing to be updated.
-
-- Catalog data that enrichment must read is exported or synchronized according to your architecture (including any SaaS data exporter or connector in your deployment).
-- API access, credentials, and environment URLs (sandbox vs production) match the tenant configured for your project.
-
-Administrators complete one-time project configuration to activate catalog enrichment for each store view. Configuration is managed in the [!DNL Adobe LLM Optimizer] [!UICONTROL Customer Configuration] experience (the service that powers enrichment behind the scenes).
-
-### Configuration field reference {#configuration-fields}
-
-| Field | Description |
-| --- | --- |
-| [!UICONTROL Store View URL] | Public URL of the store view in scope for catalog enrichment. |
-| [!UICONTROL Environment ID] | Commerce environment identifier (from your cloud or deployment documentation, or Admin where applicable). |
-| [!UICONTROL Website Code] | Commerce website code for the website that owns the catalog. |
-| [!UICONTROL Store Code] | Commerce store code for the store under that website. |
-| [!UICONTROL Store View Code] | Commerce store view code for the store view (for example, `default`). |
-| [!UICONTROL Host Name] | Hostname of the Commerce storefront or instance when the form asks for it in addition to other URLs. |
-| [!UICONTROL Adobe Commerce Endpoint] | Instance URL used to reach Commerce APIs. |
-| [!UICONTROL API Key] | Secret key for API authentication; treat it like any production credential. |
-
-### Confirm environment readiness {#confirm-tenant-readiness}
-
-- Verify that connected sandbox projects are not mixed with production Commerce data, unless this is intentional.
-- Align user roles in Experience Cloud and Commerce so the people who approve catalog updates have the right permissions on both sides.
-
-### Opportunity metrics {#opportunity-metrics}
-
-Each opportunity view summarizes impact so you can prioritize work:
-
-- **[!UICONTROL Product Pages]** or **[!UICONTROL URLs]**: The products evaluated for catalog enrichment.
-- **[!UICONTROL Agentic Traffic]**: Visits and interactions initiated by AI agents that can help you prioritize high-impact opportunities first.
-
-### Suggestion states {#suggestion-states}
+After catalog enrichment is enabled and configured, product suggestions display on the Catalog Enrichment page. From here, you can review suggestions and apply approved updates to product names and descriptions in your Commerce catalog.
 
 Catalog enrichment uses the following workflow views:
 
@@ -172,16 +98,18 @@ Catalog enrichment uses the following workflow views:
 - **[!UICONTROL Fixed Suggestions]**: Items you already applied or resolved.
 - **[!UICONTROL Ignored Suggestions]**: Items you intentionally excluded from action.
 
+SHOW SCREENSHOT
+
 ### Deploy approved suggestions {#review-deploy-catalog}
 
-You can edit a suggestion before you deploy it or move it to **[!UICONTROL Ignored Suggestions]** if it does not match your strategy.
+To deploy approved suggestions:
 
-**To deploy approved suggestions:**
-
-1. Open **[!UICONTROL Product Catalog Enrichment]** from **[!UICONTROL Opportunities]**.
-1. In the **[!UICONTROL URLs with Suggestions]** table, select **[!UICONTROL Current Suggestions]**.
+1. Select **[!UICONTROL Current Suggestions]**.
 1. Click the expand control for the URL or SKU row to show the proposed product name and product description updates.
 1. Review the suggestion and confirm it matches your merchandising and SEO strategy.
+
+    You can edit a suggestion before you deploy it or move it to **[!UICONTROL Ignored Suggestions]** if it does not match your strategy.
+
 1. Select the row for the URL or SKU to update.
 1. Click **[!UICONTROL Deploy optimizations]** and confirm.
 
