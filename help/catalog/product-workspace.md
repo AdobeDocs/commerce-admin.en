@@ -32,6 +32,10 @@ topic_v2:
 
 The product workspace is basically the same for all product types, although the selection of fields changes depending on the attribute set that is used. The product attributes are at the top of the form, followed by expandable sections of product information. When a new product is saved for the first time, the _[!UICONTROL Store View]_ chooser appears at the upper left of the form.
 
+>[!NOTE]
+>
+>Applied catalog enrichment updates appear in the product name at the top of the form and in the **[!UICONTROL Content]** section. For more information, see [Catalog enrichment](catalog-enrichment.md).
+
 ![Product workspace](./assets/product-workspace-ee.png){width="700" zoomable="yes"}
 
 ## [!UICONTROL Enable Product] setting

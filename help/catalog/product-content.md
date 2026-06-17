@@ -32,6 +32,10 @@ topic_v2:
 
 The _[!UICONTROL Content]_ section is used to enter and edit the main product description that appears on the product page. The short description can be used in most RSS feeds, and might also appear in catalog listings, depending on [theme](../content-design/themes.md).
 
+>[!NOTE]
+>
+>Catalog enrichment can apply AI-suggested updates to the product name and description in this section. For more information, see [Catalog enrichment](catalog-enrichment.md).
+
 ## Add the product description in [!DNL Page Builder]
 
 1. Open the product in edit mode.

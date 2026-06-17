@@ -27,7 +27,7 @@ topic_v2:
 ---
 # [!UICONTROL Catalog] menu
 
-The [!UICONTROL Catalog] menu provides easy access to product creation, category, and inventory management tools, and shared catalogs for custom pricing in [B2B stores](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+The [!UICONTROL Catalog] menu provides easy access to product creation, category, and inventory management tools, shared catalogs for custom pricing in [B2B stores](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html), and catalog enrichment for AI-assisted discovery.
 
 >[!BEGINTABS]
 
@@ -64,3 +64,11 @@ Create the [category](categories.md) structure that is the foundation of your st
 For stores with Adobe Commerce B2B installed and enabled, [shared catalogs](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html) give you the ability to make custom pricing available to different companies.
 
 ![Shared catalog products](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}
+
+## [!UICONTROL Catalog enrichment]
+
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+
+Use [catalog enrichment](catalog-enrichment.md) to review and apply AI-suggested improvements to product names and descriptions so your catalog is represented accurately in LLM and AI-assisted discovery.
+
+NEED TO ADD SCREENSHOT OF UI WHEN FINALIZED
