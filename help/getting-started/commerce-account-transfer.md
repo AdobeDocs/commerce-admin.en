@@ -40,27 +40,34 @@ The following information describes the process for transferring a Commerce (MAG
 
 ## Identify your transfer type
 
-The type of Commerce account transfer depends on the Commerce account credentials available to the current owner and the new owner. The following scenarios describe the different transfer types based on these credentials.
+The appropriate Commerce account transfer process depends on the account status of the current owner and the new owner, and on whether the current owner's email address is still accessible. For example, if the current owner has left the company, you might still need access to emails sent to that address. 
+
+The following scenarios describe the available transfer options based on these conditions.
 
 | Transfer type | Current owner | New owner |
 | ------------- | ------------- | --------- |
-| [New Adobe ID and email change](#new-adobe-id-and-email-change) | Has a MAGEID that **_has not been connected_** to an Adobe login account | Does not have a MAGEID and is not connected to an Adobe login account. |
-| [Email change](#email-change) | Has a MAGEID that is **_connected_** with an Adobe login account. | Has an Adobe login account, but **_does not have a MAGEID_** connected to an Adobe login account. |
-| [Adobe ID account switch](#adobe-id-account-switch) | Has a MAGEID that is **_connected_** to an Adobe login account. | Has a MAGEID and is connected to an Adobe login account. |
+| [New Adobe ID and email change](#new-adobe-id-and-email-change) | Has a MAGEID that **_has not been connected_** to an Adobe login account | Does not have a MAGEID and **_does not have_** an Adobe login account. |
+| [Email change only](#email-change) | Has a MAGEID that is **_connected_** with an Adobe login account. | Has an Adobe login account, but **_does not have a MAGEID_** connected to the account. |
+| [Adobe ID account switch](#adobe-id-account-switch) | Has a MAGEID that is **_connected_** to an Adobe login account. | Has a MAGEID and **_is connected_** to an Adobe login account. |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->As Adobe Commerce continues to integrate with other Adobe solutions, a Commerce account (MAGEID) now requires an association with an Adobe login. This Adobe ID uses the same email address connected to your Commerce account.
+>As Adobe Commerce continues to integrate with other Adobe solutions, a Commerce account (MAGEID) now requires an association with an Adobe login. This Adobe ID uses the same email address connected to your [Commerce account.](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create?lang=en#create-a-commerce-account)
 
 ## New Adobe ID and email change
 
 >[!IMPORTANT]
 >
 >Review the [transfer types](#identify-your-transfer-type) and make sure that you meet the preconditions for this sequence of steps.
+>
+>Follow these steps when:
+>- the Current owner is still with the company
+>- the Current owner either does not have an Adobe login account, or has an Adobe login account that is not connected to their [Commerce account (MAGE ID)](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create?lang=en#create-a-commerce-account)
+>- the New owner does not have an Adobe login account and does not have a Commerce account
 
-This transfer type requires having an Adobe ID that's linked to the existing Commerce account, and then changing that account to the email address for the new owner.
+This transfer type requires the Current owner to have an Adobe ID that's linked to an existing Commerce account, and then changing that account to the email address for the New owner.
 
 1. Go to the [Commerce account login](https://account.magento.com/customer/account/login/) page.
 
@@ -68,7 +75,7 @@ This transfer type requires having an Adobe ID that's linked to the existing Com
 
 1. Click **[!UICONTROL Create an account]**.
 
-1. Enter the email address of the current owner and a password.
+1. Enter the email address of the current owner and their password.
 
 1. Click **[!UICONTROL Continue]**.
 
@@ -97,6 +104,11 @@ This transfer type requires having an Adobe ID that's linked to the existing Com
 >[!IMPORTANT]
 >
 >Review the [transfer types](#identify-your-transfer-type) and make sure that you meet the preconditions for this sequence of steps.
+>
+>Follow these steps when:
+>- the Current owner is still with the company
+>- the Current owner has an Adobe login account that has been connected to their [Commerce account (MAGE ID)](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create?lang=en#create-a-commerce-account)
+>- The New owner has an existing Adobe login account that has not been connected to their Commerce account
 
 This transfer type results in the current account owner losing access to other Adobe products.
 
@@ -121,24 +133,29 @@ This transfer type results in the current account owner losing access to other A
 >[!IMPORTANT]
 >
 >Review the [transfer types](#identify-your-transfer-type) and make sure that you meet the preconditions for this sequence of steps.
+>
+>Follow these steps when:
+>- the Current owner is no longer with the company, but emails sent to the current owner's company email address are still accessible, or your IT team can forward those emails to an authorized contact
+>- the current owner has an Adobe login account that is connected to their [Commerce account (MAGE ID)](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create?lang=en#create-a-commerce-account)
+>- the new owner has an Adobe login account that is connected to their Commerce account
 
-This transfer type uses a temporary email address to switch account ownership when both the current owner and new owner have existing Adobe IDs, and you want to retain both accounts. To complete the ownership transfer, you must use a temporary email address that is not associated with an Adobe ID.
+This transfer type uses a temporary email address to switch account ownership when both the current owner and new owner have existing Adobe IDs, and you want to retain both Adobe IDs. To complete the ownership transfer, you must use a temporary email address that is not associated with an Adobe ID.
 
 ### Change to a temporary account
 
-The current owner completes these steps to associate their Adobe ID with another, temporary email address.
+Complete these steps to associate the Current owner's Adobe ID with another, temporary email address. You must have access to the email address so that you can retrieve the email with the confirmation code.
+
+>[!NOTE]
+>
+>You must have access to the Current owner's email address so that you can retrieve the email with the confirmation code.
+>
+>If you cannot access the Current owner's email, ask your IT team to set up email forwarding for the account email address in your company email system. If email forwarding cannot be configured, ensure the new Account Owner has an Adobe ID and then [submit a Support request](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) with all necessary details to initiate the account transfer.
 
 1. Navigate to [account.adobe.com](https://account.adobe.com/) and complete the Adobe login.
 
 1. Under your account name and avatar, click **[!UICONTROL Change Email]**.
 
 1. In the dialog, enter a valid temporary email address that is not used by an Adobe ID.
-
->[!NOTE]
->
->You must have access to the email address so that you can retrieve the email with the confirmation code.
->
->If you cannot access the account email, ask your IT team to set up email forwarding for the account email address in your company email system. If email forwarding cannot be configured, ensure the new Account Owner has an Adobe ID and then [submit a Support request](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) with all necessary details to initiate the account transfer.
 
 1. Click **[!UICONTROL Change]**.
 
