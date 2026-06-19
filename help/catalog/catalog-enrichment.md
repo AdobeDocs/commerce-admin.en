@@ -9,13 +9,13 @@ badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.ad
 
 Catalog enrichment is a native [!DNL Adobe Commerce] capability that helps you improve product names and descriptions so that your catalog is represented more accurately when shoppers use LLMs and AI assistants for product research and discovery.
 
-This topic covers catalog enrichment only. Suggestions apply to catalog fields in Commerce, not product detail page (PDP) layout, page structure, or other storefront content. PDP enrichment is not part of this capability.
-
 >[!NOTE]
 >
 >Catalog enrichment is powered by [!DNL Adobe LLM Optimizer] behind the scenes. You use enrichment as part of your Commerce catalog workflow. You do not manage a separate LLM Optimizer integration to apply approved name and description updates. For broader LLM monitoring and optimization outside Commerce, see the [LLM Optimizer product documentation](https://experienceleague.adobe.com/en/docs/llm-optimizer/using/home).
 
-## What catalog enrichment does {#what-catalog-enrichment-does}
+## How it works {#how-it-works}
+
+Your [!DNL Adobe Commerce] product catalog is the system of record for product data: names, descriptions, attributes, pricing, and inventory. Adobe Commerce Storefront MCP (Model Context Protocol) connects live catalog data to Adobe AI experiences. Catalog Agent uses that interface so [!DNL Adobe LLM Optimizer] can identify gaps in product names and descriptions, propose improvements, and write approved changes back to Commerce when you review them in the Commerce Admin.
 
 Catalog enrichment helps your team move from broad discovery insights to actionable catalog updates:
 
@@ -24,6 +24,11 @@ Catalog enrichment helps your team move from broad discovery insights to actiona
 - Apply approved updates directly to the Commerce catalog so the Admin, storefront, and other channels that read those fields stay aligned.
 
 Because product names and descriptions live in Commerce, improving copy once can benefit every channel that consumes that product data. The benefit depends on how and when your systems refresh.
+
+| Direction | Purpose |
+| --- | --- |
+| Commerce catalog -> analysis | Catalog and URL signals feed enrichment suggestions. |
+| Enrichment -> Commerce catalog | After you approve an update, changes to product name and description are saved to the Commerce catalog so the Admin and storefront reflect the optimized values. |
 
 ## Who this is for {#who-this-is-for}
 
@@ -38,20 +43,11 @@ The following prerequisites apply when you have access to catalog enrichment.
 - Your storefront can be crawled by LLM-oriented and agentic bots where crawl coverage is required for catalog-aware suggestions.
 - Required Commerce services and catalog connectivity are enabled and healthy. See [Enable catalog enrichment](#enable-catalog-enrichment) to learn more.
 
-## How it works {#how-it-works}
-
-Your [!DNL Adobe Commerce] product catalog is the system of record for product data. Catalog enrichment uses Adobe AI services, including Catalog Agent and [!DNL Adobe LLM Optimizer], to analyze catalog signals, propose clearer product names and descriptions, and write approved changes back to Commerce.
-
-| Direction | Purpose |
-| --- | --- |
-| Commerce catalog -> analysis | Catalog and URL signals feed enrichment suggestions. |
-| Enrichment -> Commerce catalog | After you approve an update, changes to product name and description are saved to the Commerce catalog so the Admin and storefront reflect the optimized values. |
-
 ## Enable catalog enrichment {#enable-catalog-enrichment}
 
 Work with your Commerce administrator or implementation partner to ensure the following before you review or apply suggestions:
 
-### Install
+## Install catalog enrichment extension and catalog services
 
 1. Install the catalog enrichment extension in your Commerce instance by running the following command:
 
@@ -66,7 +62,7 @@ Work with your Commerce administrator or implementation partner to ensure the fo
     install
     ```
 
-    **[!UICONTROL Catalog enrichment]** is now available in the *Catalog* menu.
+    **[!UICONTROL Catalog enrichment]** is now available in your Commerce instance.
 
 1. From the Admin, select **Catalog** -> **Catalog Enrichment**.
 
@@ -80,13 +76,16 @@ Work with your Commerce administrator or implementation partner to ensure the fo
 
 1. (Optional) Select **Remove store view** if you do not want catalog enrichment for that store view.
 
+1. Setup CDN log forwarding
+
+For GA, this will be handled either by the Commerce onboarding team, a button wired to an API call that does it for the merchant, or a link to the following ExL article so they can set it up: https://experienceleague.adobe.com/en/docs/llm-optimizer/using/log-forwarding/fastly
+
+
+From Xiaoxiao: "I am thinking that for CDN logfowarding, instead of a warning message, can we provide a button 'enable CDN log forwarding' for the customer to click. This aligns with the LLMO experience. Also, the click is the trigger/sends notification to us (email, slack, create the jira ticket for our customer support team, etc.) that the customers now have installed the extension, provided the config, and wanted to start the audit to generate the suggestions. In the near term, when these notifications are there, the customer support team manually work on the enablement. In the long term, this enablement is automated via some tools."
+
 1. Click **Save**.
 
     After you save, it may take up to 24 hours for product suggestions to populate the catalog enrichment page. When they are ready, you can review and apply suggestions to your Commerce catalog.
-
-### ??? Setup CDN log forwarding (how?).
-
-What needs to happen here? Is Fastly what a Commerce merchant would use? i.e. https://experienceleague.adobe.com/en/docs/llm-optimizer/using/log-forwarding/fastly
 
 ## Review and apply catalog enrichment {#review-and-apply}
 
