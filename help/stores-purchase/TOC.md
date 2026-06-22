@@ -5,6 +5,7 @@ breadcrumb-title: Stores and Purchase Experience
 role: Admin, User
 feature: Storefront
 recommendations: noDisplay
+nudge: true
 ---
 
 # Stores and Purchase Experience Guide {#stores-sales}
