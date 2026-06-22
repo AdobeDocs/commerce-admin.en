@@ -150,3 +150,4 @@ There are two variations of the Catalog Search configuration. The first method d
 To control the minimum number of terms from your query that the search results should match for return, specify a value for **[!UICONTROL Minimum Terms to Match]**. Specifying this value ensures optimal results relevancy for shoppers. For a list of accepted values, see [minimum_should_match parameter](https://opensearch.org/docs/latest/query-dsl/minimum-should-match/) in the OpenSearch documentation.
 
 When complete, click **[!UICONTROL Save Config]**.
+

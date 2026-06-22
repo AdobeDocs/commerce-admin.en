@@ -189,3 +189,4 @@ Use either of the following methods to create swatches for your products.
 1. When configuration for images, price, and quantity are complete, click **[!UICONTROL Next]** in the upper-right corner.
 
    The current product variations appear at the bottom of the Configuration section. If you are satisfied with the configurations, click **[!UICONTROL Generate Products]**.
+

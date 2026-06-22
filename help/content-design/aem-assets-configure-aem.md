@@ -145,3 +145,4 @@ The Product Data UI component is added automatically based on the template.
 ## Next step
 
 [Install Adobe Commerce packages](aem-assets-configure-commerce.md)
+

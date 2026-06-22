@@ -87,3 +87,4 @@ The attributes are organized into groups that determine where they appear in the
 1. Click **[!UICONTROL Delete]**.
 
 1. When prompted to confirm, click **[!UICONTROL OK]**.
+

@@ -139,3 +139,4 @@ This configuration setting for the product display limitation is disabled by def
 |[!UICONTROL Allow Gift Message]|Displays the availability of the gift message option for the product.|
 
 {style="table-layout:auto"}
+

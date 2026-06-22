@@ -142,3 +142,4 @@ According to the Google developer [Terms and Conditions](https://developers.goog
 |[!UICONTROL Role]|Determines how the preview image is used in your store. You can choose any combination of options: `Base Image`, `Small Image`, `Thumbnail`, `Swatch Image`, `Hide from Product Page`|
 
 {style="table-layout:auto"}
+
