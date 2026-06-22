@@ -60,7 +60,7 @@ To create an approval rule, a customer completes the following steps:
 
 1. If needed, changes the rule from **[!UICONTROL Enabled]** to **[!UICONTROL Disabled]**.
 
-   The rule is as enabled as the default, but a customer can create the rule using a disabled setting and then enable it later when they are ready to enforce it.
+   The rule is enabled by default, but a customer can create the rule using a disabled setting and then enable it later when they are ready to enforce it.
 
 1. For **[!UICONTROL Rule name]**, enters a short but descriptive name for the Rule, such as `Orders less than $100`.
 
