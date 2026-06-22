@@ -112,3 +112,4 @@ If a cart price rule is triggered by the purchase, the initial calculation appli
 | [!UICONTROL Date]   | Allows the customer to enter a date or time or choose the value from a calendar. Options: <br />**[!UICONTROL Date]** - An input field for a date value. The date can be typed directly into the field or selected from a list or calendar. The input method and format is determined by the [date and time options](attributes-input-types.md#date-and-time-options) configuration.<br />**[!UICONTROL Date & Time]** - An input field for a date and time value.<br />**[!UICONTROL Time]** - An input field for a time value. |
 
 {style="table-layout:auto"}
+

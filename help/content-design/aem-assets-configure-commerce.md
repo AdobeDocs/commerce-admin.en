@@ -294,3 +294,4 @@ On the Integrations page, generate the OAuth authentication credentials by click
 
 [Connect the Adobe Commerce and AEM Assets project environments and select the matching strategy for synchronizing assets](aem-assets-setup-synchronization.md)
 
+
