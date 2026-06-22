@@ -5,6 +5,7 @@ breadcrumb-title: Getting Started
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
+nudge: true
 ---
 
 # Adobe Commerce Admin Getting Started Guide {#start}
