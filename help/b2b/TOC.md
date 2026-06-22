@@ -5,6 +5,7 @@ breadcrumb-title: "[!DNL Adobe Commerce B2B]"
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
+nudge: true
 ---
 
 # [!DNL Adobe Commerce B2B] Guide {#b2b}
