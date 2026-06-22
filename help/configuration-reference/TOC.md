@@ -4,6 +4,7 @@ user-guide-description: This guide provides reference information for all store 
 breadcrumb-title: Configuration Reference
 role: Admin, Developer, User
 feature: Configuration
+nudge: true
 ---
 
 # Configuration Reference Guide {#config}
