@@ -3,6 +3,7 @@ title: Catalog enrichment
 description: Use the native catalog enrichment capability in Adobe Commerce to review and apply AI-suggested improvements to product names and descriptions for LLM and AI-assisted discovery.
 role: Admin, User, Leader
 recommendations: noCatalog
+hide: true
 badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 # Catalog enrichment
@@ -42,6 +43,20 @@ The following prerequisites apply when you have access to catalog enrichment.
 
 - Your storefront can be crawled by LLM-oriented and agentic bots where crawl coverage is required for catalog-aware suggestions.
 - Required Commerce services and catalog connectivity are enabled and healthy. See [Enable catalog enrichment](#enable-catalog-enrichment) to learn more.
+
+
+NEED TO MENTION IMS ORG INFO...SOMETHING LIKE:
+
+## Prerequisites
+
+- Adobe Experience Cloud organization (IMS org)
+- Access to Adobe Admin Console
+
+> If you do not have an IMS organization, contact your Adobe account team to provision one.
+
+you can link here for ims org stuff: https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations
+
+
 
 ## Enable catalog enrichment {#enable-catalog-enrichment}
 
