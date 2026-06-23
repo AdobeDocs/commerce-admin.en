@@ -5,6 +5,29 @@ role: Admin, User, Leader
 recommendations: noCatalog
 hide: true
 badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
+autotag-review: '2026-06-23T17:36:07.142Z'
+TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+  - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Catalog enrichment
 
@@ -54,8 +77,7 @@ NEED TO MENTION IMS ORG INFO...SOMETHING LIKE:
 
 > If you do not have an IMS organization, contact your Adobe account team to provision one.
 
-you can link here for ims org stuff: https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations
-
+Link here for general Adobe-wide IMS org information: https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations
 
 
 ## Enable catalog enrichment {#enable-catalog-enrichment}
