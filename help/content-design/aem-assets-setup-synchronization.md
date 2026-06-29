@@ -102,3 +102,4 @@ If a merchant sets a [Custom Domain Name](https://experienceleague.adobe.com/en/
 ## Next step
 
 [Use AEM Assets with Commerce](aem-assets-manage.md)
+

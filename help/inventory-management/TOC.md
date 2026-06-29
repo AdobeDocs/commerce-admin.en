@@ -4,6 +4,7 @@ user-guide-description: Learn how to use [!DNL Inventory Management] features to
 breadcrumb-title: "[!DNL Inventory Management]"
 role: Admin, Leader, User
 feature: Inventory
+nudge: true
 ---
 
 # [!DNL Inventory Management] User Guide {#inventory}

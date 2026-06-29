@@ -208,3 +208,4 @@ Before deleting an attribute, make sure that it is not currently used by any pro
    ![Delete attribute](./assets/attribute-delete.png){width="600" zoomable="yes"}
 
 1. When prompted to confirm, click **[!UICONTROL OK]**.
+

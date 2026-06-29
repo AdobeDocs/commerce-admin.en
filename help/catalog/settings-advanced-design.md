@@ -48,3 +48,4 @@ The _[!UICONTROL Design]_ settings allow a different theme to be applied to the 
 |[!UICONTROL Custom Layout Update]|Store View|Used to access options to update a custom layout on the product page.|
 
 {style="table-layout:auto"}
+
