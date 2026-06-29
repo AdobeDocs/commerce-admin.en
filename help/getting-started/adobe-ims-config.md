@@ -89,8 +89,8 @@ To create projects for an organization, the Adobe Admin account for the organiza
 1. Click **[!UICONTROL Add API]** on the newly created Project page.
 1. Select **[!UICONTROL Adobe Services]** > **[!UICONTROL Adobe Commerce with Adobe ID]**.
 1. Select **[!UICONTROL Oauth 2.0 Web]**.
-1. Specify the **[!UICONTROL Redirect URI]**: `https://<commerce_base_url>/`
-1. Specify the **[!UICONTROL Redirect URI pattern]**: `https://<commerce_base_url>/.*`
+1. Specify the **[!UICONTROL Redirect URI]**: `https://<admin_base_url>/adobe_ims_auth/oauth/imscallback`
+1. Specify the **[!UICONTROL Redirect URI pattern]**: `https://mcstaging\.example\.com/<admin_path>/adobe_ims_auth/oauth/imscallback.*`
 
    Escape any dots in the hostname by preceding the dots with `\\`. Adding a wildcard to the end of the URL supports the Adobe Commerce Admin secret key.
 
