@@ -7,19 +7,19 @@ description: Reused notes and visual elements to note a feature or page applying
 ## EE only feature {#ee-feature}
 
 <table style="border:1px solid red">
-<tr><td><img alt="Adobe Commerce feature" src="../assets/adobe-logo.svg" width="20" height="20" /> This is an exclusive feature that is available only in Adobe Commerce and is not available in Magento Open Source. (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">Learn more</a>)</td></tr>
+<tr><td><img alt="Adobe Commerce feature" src="/help/assets/adobe-logo.svg" width="20" height="20" /> This is an exclusive feature that is available only in Adobe Commerce and is not available in Magento Open Source. (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">Learn more</a>)</td></tr>
 </table>
 
 ## B2B only feature {#b2b-feature}
 
 <table style="border:1px solid green">
-<tr><td><img alt="Adobe Commerce B2B feature" src="../assets/b2b.svg" width="20" height="20" /> Exclusive feature available only with <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html">Adobe Commerce B2B</a></td></tr>
+<tr><td><img alt="Adobe Commerce B2B feature" src="/help/assets/b2b.svg" width="20" height="20" /> Exclusive feature available only with <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html">Adobe Commerce B2B</a></td></tr>
 </table>
 
 ## CE only feature {#ce-feature}
 
 <table style="border:1px solid orange">
-<tr><td><img alt="Magento Open Source feature" src="../assets/open-source.svg" width="20" height="20" /> Alternative method is required for Magento Open Source (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">Learn more</a>)</td></tr>
+<tr><td><img alt="Magento Open Source feature" src="/help/assets/open-source.svg" width="20" height="20" /> Alternative method is required for Magento Open Source (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">Learn more</a>)</td></tr>
 </table>
 
 ## IMS admin authentication note {#ims-admin-note}
@@ -69,7 +69,7 @@ To access the store configuration settings, choose **[!UICONTROL Stores]** > _[!
 
 | Documentation resource | Description |
 |----------------------- | ----------- |
-| [Adobe Commerce 2.4 Admin User Guides](../landing/home.md) | Documentation and resources for merchants working in the Admin. |
+| [Adobe Commerce 2.4 Admin User Guides](/help/landing/home.md) | Documentation and resources for merchants working in the Admin. |
 | [Services for Adobe Commerce Documentation](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html) | Documentation to support a collection of merchandising services that help merchants integrate key components of their business with their store. |
 | [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Step-by-step procedures for deploying Adobe Commerce on a managed, automated hosting cloud platform. |
 | [Adobe Commerce 2.4 Operational Guides](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Systems documentation about the concepts, processes, tools, and best practices to develop, deploy, and maintain Adobe Commerce on Cloud and on-premises projects. |
