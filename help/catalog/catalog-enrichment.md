@@ -103,7 +103,7 @@ Configure catalog enrichment on the **[!UICONTROL Settings]** tab so Adobe LLM O
 1. Open the **[!UICONTROL Settings]** tab.
 1. In **[!UICONTROL Commerce Configuration]**, expand the store view panel labeled with its URL.
 
-   Provide your [!DNL Adobe Commerce] environment details to enable the Catalog LLMO Service and audit workflows.
+   Provide your [!DNL Adobe Commerce] environment details to enable the Catalog LLM Optimizer Service and audit workflows.
 
    ![Commerce Configuration on the Catalog Enrichment Settings tab](./assets/catalog-enrichment-commerce-config.png)
 
@@ -142,7 +142,7 @@ Required fields are marked with an asterisk (*) on the **[!UICONTROL Commerce Co
 
 ### Review and apply catalog enrichment {#review-and-apply}
 
-After catalog enrichment is enabled and configured, product suggestions display on the **[!UICONTROL Agentic Opportunities]** page. From here, you can review suggestions and apply approved updates to product names and descriptions in your Commerce catalog.
+After catalog enrichment is enabled and configured, product suggestions display on the **[!UICONTROL Catalog Enrichment]** page. From here, you can review suggestions and apply approved updates to product names and descriptions in your Commerce catalog.
 
 Catalog enrichment uses the following workflow views:
 
@@ -150,7 +150,7 @@ Catalog enrichment uses the following workflow views:
 - **[!UICONTROL Fixed Suggestions]**: Items you already applied or resolved.
 - **[!UICONTROL Ignored Suggestions]**: Items you intentionally excluded from action.
 
-SHOW SCREENSHOT
+![URLs with Suggestions](./assets/urls-with-suggestions.png)
 
 ### Deploy approved suggestions {#review-deploy-catalog}
 
@@ -171,7 +171,7 @@ Approved name and description changes are saved to your [!DNL Adobe Commerce] ca
 >
 >Treat each applied update as a production catalog change. Use your normal change-control, staging, and QA practices. Apply updates only after merchandising and SEO stakeholders agree on the final copy.
 
-After you apply an update, suggestions move to **[!UICONTROL Fixed Suggestions]** with an **Applied** status.
+After you apply an update, suggestions move to **[!UICONTROL Fixed Suggestions]** with a **Marked as Fixed** status.
 
 ## Verify enrichment in the Admin {#verify-in-admin}
 
@@ -182,9 +182,9 @@ After you apply an update, suggestions move to **[!UICONTROL Fixed Suggestions]*
 1. Search for the SKU.
 1. Open the product in edit mode.
 
-   The product form shows the enriched product name.
+   The product form shows the enriched product name and/or description.
 
-   (Update image.)
+   ![Enriched Product Name](./assets/enriched-product-name.png)
 
 1. Optional: Select **[!UICONTROL Override LLM Optimizer provided Product Name]** if you want to keep a manually entered name instead.
 
@@ -194,7 +194,7 @@ After you apply an update, suggestions move to **[!UICONTROL Fixed Suggestions]*
 
    The enriched description appears when you applied description changes.
 
-   (Update image.)
+   ![Enrich Product Description](./assets/enrich-product-description.png)
 
 1. Optional: Select **[!UICONTROL Override LLM Optimizer provided Description]** if you want to keep a manually entered description instead.
 
@@ -208,7 +208,7 @@ After you apply an update, suggestions move to **[!UICONTROL Fixed Suggestions]*
 1. Confirm that regions that show the long description match what you approved.
 1. Optional: Confirm downstream channels that consume the same catalog attributes, where relevant to your rollout.
 
-## Overrides, ingestion, and stale suggestions {#overrides-ingestion}
+## Overrides, ingestion, and outdated suggestions {#overrides-ingestion}
 
 After catalog enrichment updates a product's name or description, other ingestion systems may change the same fields. Examples include REST API calls, CSV imports, and PIM feeds.
 
@@ -218,14 +218,14 @@ If an external process writes the original name or description (the value that e
 
 ### New value re-ingested {#new-value-reingested}
 
-If the external process sends a new value that is not a repeat of the pre-enrichment text, Commerce honors the new catalog value. For example, a rename from "Red Shoes" to "Iconic Red Shoes" replaces the enriched value. The related enrichment suggestion is typically marked as *Stale* because the live catalog no longer matches the suggestion context.
+If the external process sends a new value that is not a repeat of the pre-enrichment text, Commerce honors the new catalog value. For example, a rename from "Red Shoes" to "Iconic Red Shoes" replaces the enriched value. The related enrichment suggestion is typically marked as *Outdated* because the live catalog no longer matches the suggestion context.
 
 ### Manual override in the Admin {#manual-override-in-the-admin}
 
 If you manually edit the product name or description in the [!DNL Adobe Commerce] Admin:
 
 - The Admin value wins as the system of record for that manual change.
-- The enrichment suggestion is marked *Stale*.
+- The enrichment suggestion is marked *Outdated*.
 - The suggestion workflow moves back toward the original state for that item so you can re-baseline or accept a new suggestion if analysis runs again.
 
 These rules help you know whether catalog enrichment, ingestion feeds, or Admin edits are authoritative when multiple channels touch the same SKU.
@@ -242,6 +242,7 @@ These rules help you know whether catalog enrichment, ingestion feeds, or Admin 
 - Coordinate with SEO and brand teams before bulk applying titles or descriptions.
 - Re-sync or re-analyze after major catalog imports so that suggestions reflect the current catalog state.
 
-## Examples
+<!--## Examples
 
 This section will provide examples of what enrichment before/after looks like:
+-->
