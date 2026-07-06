@@ -121,7 +121,7 @@ Configure catalog enrichment on the **[!UICONTROL Settings]** tab so Adobe LLM O
 
 1. Click **[!UICONTROL Save]**.
 
-After you save, wait for any initial sync or validation job to complete before relying on catalog or audit results for that store view. It may take up to 24 hours for product suggestions to appear on the **[!UICONTROL Agentic Opportunities]** tab.
+After you save, wait for any initial sync or validation job to complete before relying on catalog or audit results for that store view. It may take up to 24 hours for product suggestions to appear on the **[!UICONTROL Catalog Enrichment]** page.
 
 To remove a store view configuration, expand that entry and click **[!UICONTROL Delete]**.
 
@@ -205,6 +205,9 @@ After you apply an update, suggestions move to **[!UICONTROL Fixed Suggestions]*
 1. Search for the SKU on your storefront.
 1. Open the product page.
 1. Confirm that the product name matches what you approved.
+
+   It may take some time before enrichments appear on your storefront.
+
 1. Confirm that regions that show the long description match what you approved.
 1. Optional: Confirm downstream channels that consume the same catalog attributes, where relevant to your rollout.
 
