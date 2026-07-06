@@ -242,7 +242,4 @@ These rules help you know whether catalog enrichment, ingestion feeds, or Admin 
 - Coordinate with SEO and brand teams before bulk applying titles or descriptions.
 - Re-sync or re-analyze after major catalog imports so that suggestions reflect the current catalog state.
 
-<!--## Examples
-
-This section will provide examples of what enrichment before/after looks like:
--->
+<!--## Examples This section will provide examples of what enrichment before/after looks like:-->
