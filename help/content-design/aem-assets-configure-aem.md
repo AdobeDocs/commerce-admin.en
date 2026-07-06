@@ -48,6 +48,7 @@ The template adds the following resources to the AEM Assets authoring environmen
 - A [sample tagged and approved Commerce asset](https://github.com/ankumalh/assets-commerce/blob/main/ui.content/src/main/content/jcr_root/content/dam/wknd/en/activities/hiking/equipment_6.jpg/.content.xml) `equipment_6.jpg` to support initial asset synchronization. Only approved Commerce assets can be synchronized from AEM Assets to Adobe Commerce.
 
 >[!NOTE]
+>
 >For additional information about the `commerce-assets` AEM project template, see the [Readme](https://github.com/ankumalh/assets-commerce).
 
 You need the following resources and permissions to use this AEM project to update the environment configuration:
@@ -133,16 +134,15 @@ The Product Data UI component is added automatically based on the template.
 
 #### Apply the metadata profile to Commerce assets source folder
 
-   1. From the[!UICONTROL  Metadata Profiles] page, select the Commerce integration profile.
+1. From the[!UICONTROL  Metadata Profiles] page, select the Commerce integration profile.
+1. From the action menu, select **[!UICONTROL Apply Metadata Profiles to Folders]**.
+1. Select the folder containing Commerce assets.
 
-   1. From the action menu, select **[!UICONTROL Apply Metadata Profiles to Folders]**.
+   Create a Commerce folder if it does not exist.
 
-   1. Select the folder containing Commerce assets.
-
-      Create a Commerce folder if it does not exist.
-
-   1. Click **[!UICONTROL Apply]**.
+1. Click **[!UICONTROL Apply]**.
 
 ## Next step
 
 [Install Adobe Commerce packages](aem-assets-configure-commerce.md)
+

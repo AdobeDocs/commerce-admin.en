@@ -249,3 +249,4 @@ The Search Terms report shows the number of results for each term, and the numbe
 |[!UICONTROL Hits]|Number of uses|
 
 {style="table-layout:auto"}
+

@@ -45,3 +45,4 @@ Use the _[!UICONTROL Update Attributes]_ tool to change one or more attributes i
    ![Bulk updating for attributes](./assets/bulk-product-attribute-update.png){width="600" zoomable="yes"}
 
 1. When finished, click **[!UICONTROL Save]**.
+

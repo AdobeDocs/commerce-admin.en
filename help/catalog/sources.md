@@ -61,3 +61,4 @@ The _[!UICONTROL Sources]_ section of the product settings lists the sources fro
 |[!UICONTROL Actions]|For an assigned source, click **[!UICONTROL Unassign]** to make the source not available for the product. For an unassigned source, click **[!UICONTROL Assign Sources]** to make a source available for the product. For more information about [!UICONTROL Assign Sources] options, see [Assigning Sources per Product](../inventory-management/sources-assign-per-product.md).|
 
 {style="table-layout:auto"}
+

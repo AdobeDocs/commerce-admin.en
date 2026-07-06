@@ -3,6 +3,7 @@ user-guide-title: Adobe Commerce Admin User Guides
 user-guide-description: Documentation and resources for Adobe Commerce and Magento Open Source merchants working in the Admin.
 title: Adobe Commerce Admin User Guides
 feature: Admin Workspace
+nudge: true
 ---
 # Adobe Commerce Admin User Guides {#user-guides}
 

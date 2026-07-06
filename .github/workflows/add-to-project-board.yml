@@ -1,0 +1,17 @@
+##### Aggregate Commerce PRs and Issues into a respective Organizational Project #####
+
+name: Add pull requests and issues to projects
+
+on:
+  pull_request_target:
+    types:
+      - opened
+  issues:
+    types:
+      - opened
+
+jobs:
+  call-workflow-add-to-project:
+    if: github.event.repository.visibility == 'public'
+    uses: AdobeDocs/commerce-contributor/.github/workflows/add-to-project_job.yml@main
+    secrets: inherit

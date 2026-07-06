@@ -138,3 +138,4 @@ Product attributes that are enabled for catalog search can be assigned a weight 
    ![Search Weight](./assets/search-weight.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Attribute]**.
+

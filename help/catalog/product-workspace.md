@@ -120,3 +120,4 @@ For a detailed list of these settings, see [Product Fields Auto-Generation](../c
 - `{{short_description}}`
 - `{{size}}`
 - `{{sku}}`
+

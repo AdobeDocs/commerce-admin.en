@@ -55,3 +55,4 @@ The _[!UICONTROL Product in Websites]_ section identifies each website where the
    Because the scope of the base currency is set to `website`, it is possible to sell the product for a different price in each website.
 
 1. When complete, click **[!UICONTROL Save]**.
+
