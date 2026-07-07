@@ -81,7 +81,7 @@ Work with your Commerce administrator or implementation partner to ensure the fo
 
     ```bash
     composer require magento/llm-optimizer
-    php bin/magento setup:upgrade
+    bin/magento setup:upgrade
     ```
 
 1. Install Catalog services based on your Commerce infrastructure ([on Cloud infrastructure or On-premises](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension)).
