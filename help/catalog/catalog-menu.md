@@ -69,6 +69,6 @@ For stores with Adobe Commerce B2B installed and enabled, [shared catalogs](http
 
 [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
 
-Use [catalog enrichment](catalog-enrichment.md) to review and apply AI-suggested improvements to product names and descriptions so your catalog is represented accurately in LLM and AI-assisted discovery.
+Use [catalog enrichment](catalog-enrichment.md) to review and apply AI-suggested improvements to product names and short descriptions so your catalog is represented accurately in LLM and AI-assisted discovery.
 
-NEED TO ADD SCREENSHOT OF UI WHEN FINALIZED
+![Catalog Enrichment](./assets/agentic-opportunities.png)

@@ -1,6 +1,6 @@
 ---
 title: Catalog enrichment
-description: Use the native catalog enrichment capability in Adobe Commerce to review and apply AI-suggested improvements to product names and descriptions for LLM and AI-assisted discovery.
+description: Use the native catalog enrichment capability in Adobe Commerce to review and apply AI-suggested improvements to product names and short descriptions for LLM and AI-assisted discovery.
 role: Admin, User, Leader
 recommendations: noCatalog
 hide: true
@@ -31,7 +31,7 @@ topic_v2:
 ---
 # Catalog enrichment
 
-Catalog enrichment is a native [!DNL Adobe Commerce] capability that helps you improve product names and descriptions so that your catalog is represented more accurately when shoppers use LLMs and AI assistants for product research and discovery.
+Catalog enrichment is a native [!DNL Adobe Commerce] capability that helps you improve product names and short descriptions so that your catalog is represented more accurately when shoppers use LLMs and AI assistants for product research and discovery.
 
 >[!NOTE]
 >
@@ -39,15 +39,15 @@ Catalog enrichment is a native [!DNL Adobe Commerce] capability that helps you i
 
 ## How it works {#how-it-works}
 
-Your [!DNL Adobe Commerce] product catalog is the system of record for product data: names, descriptions, attributes, pricing, and inventory. Adobe Commerce Storefront MCP (Model Context Protocol) connects live catalog data to Adobe AI experiences. From there the Catalog Agent uses that interface so [!DNL Adobe LLM Optimizer] can identify gaps in product names and descriptions, propose improvements, and write approved changes back to Commerce so you can review them in the Commerce Admin.
+Your [!DNL Adobe Commerce] product catalog is the system of record for product data: names, descriptions, attributes, pricing, and inventory. Adobe Commerce Storefront MCP (Model Context Protocol) connects live catalog data to Adobe AI experiences. From there the Catalog Agent uses that interface so [!DNL Adobe LLM Optimizer] can identify gaps in product names and short descriptions, propose improvements, and write approved changes back to Commerce so you can review them in the Commerce Admin.
 
 With catalog enrichment, you can:
 
-- Identify gaps and inconsistencies in product names and descriptions that affect how LLMs interpret your products.
+- Identify gaps and inconsistencies in product names and short descriptions that affect how LLMs interpret your products.
 - Review suggested improvements with supporting context, including justifications and before-and-after comparisons.
 - Apply approved updates directly to the Commerce catalog so the Admin, storefront, and other channels that read those fields stay aligned.
 
-Because product names and descriptions live in Commerce, improving copy once can benefit every channel that consumes that product data. The benefit depends on how and when your systems refresh.
+Because product names and short descriptions live in Commerce, improving copy once can benefit every channel that consumes that product data. The benefit depends on how and when your systems refresh.
 
 | Direction | Purpose |
 | --- | --- |
@@ -66,8 +66,8 @@ The following prerequisites apply when you have access to catalog enrichment.
 
 - Your storefront can be crawled by LLM-oriented and agentic bots where crawl coverage is required for catalog-aware suggestions.
 - Required Commerce services and catalog connectivity are enabled and healthy. See [Enable catalog enrichment](#enable-catalog-enrichment) to learn more.
-- [Adobe Experience Cloud organization (IMS)](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations)
-- Access to Adobe Admin Console
+- [IMS is configured)](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations).
+- You have access to Adobe Admin Console.
 
 > If you do not have an IMS organization, contact your Adobe account team to provision one.
 
@@ -84,7 +84,7 @@ Work with your Commerce administrator or implementation partner to ensure the fo
     bin/magento setup:upgrade
     ```
 
-1. Install Catalog services based on your Commerce infrastructure ([on Cloud infrastructure or On-premises](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension)).
+1. If you have not already installed Catalog services, [do so](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
 
     **[!UICONTROL Catalog enrichment]** is now available in your Commerce instance.
 
@@ -111,7 +111,7 @@ Configure catalog enrichment on the **[!UICONTROL Settings]** tab so Adobe LLM O
 
     - **[!UICONTROL Store View URL]**: URL corresponding to the store view (for example, `https://brand.example.com/fr/`).
     - **[!UICONTROL Environment ID]**: Unique identifier for the Adobe Commerce environment that the connection accesses.
-    - **[!UICONTROL Website Code]**, **[!UICONTROL Store Code]**, and **[!UICONTROL Store View Code]**: Website, store, and store view codes for the Commerce website in context. These values must match the codes in your Commerce Admin.
+    - **[!UICONTROL Website Code]**, **[!UICONTROL Store Code]**, and **[!UICONTROL Store View Code]**: Website, store, and store view codes for the Commerce website. These values must match the codes in your Commerce Admin.
 
 1. Optional: Enter **[!UICONTROL Host Name]**, **[!UICONTROL Adobe Commerce Endpoint]**, and **[!UICONTROL API Key]** if your environment requires them.
 
@@ -125,7 +125,7 @@ After you save, wait for any initial sync or validation job to complete before r
 
 To remove a store view configuration, expand that entry and click **[!UICONTROL Delete]**.
 
-### Field descriptions {#commerce-connection-fields}
+#### Field descriptions {#commerce-connection-fields}
 
 Required fields are marked with an asterisk (*) on the **[!UICONTROL Commerce Configuration]** form.
 
@@ -133,16 +133,16 @@ Required fields are marked with an asterisk (*) on the **[!UICONTROL Commerce Co
 | --- | --- | --- |
 | Store View URL | Yes | URL corresponding to the store view (for example, `https://brand.example.com/fr/`). |
 | Environment ID | Yes | Unique identifier for the Adobe Commerce environment that the connection accesses. |
-| Website Code | Yes | Website Code of the Commerce website in context. |
-| Store Code | Yes | Store Code of the Commerce website in context. |
-| Store View Code | Yes | Store View of the Commerce website in context. |
+| Website Code | Yes | Website Code of the Commerce website. |
+| Store Code | Yes | Store Code of the Commerce website. |
+| Store View Code | Yes | Store View of the Commerce website. |
 | Host Name | No | Host name of your Adobe Commerce instance. |
 | Adobe Commerce Endpoint | No | Your Adobe Commerce instance URL used for API access. |
 | API Key | No | Authentication key used to securely access Adobe Commerce APIs. Treat it like any production credential. |
 
 ### Review and apply catalog enrichment {#review-and-apply}
 
-After catalog enrichment is enabled and configured, product suggestions display on the **[!UICONTROL Catalog Enrichment]** page. From here, you can review suggestions and apply approved updates to product names and descriptions in your Commerce catalog.
+After catalog enrichment is enabled and configured, product suggestions display on the **[!UICONTROL Agentic Opportunities]** tab. From here, you can review suggestions and apply approved updates to product names and short descriptions in your Commerce catalog.
 
 Catalog enrichment uses the following workflow views:
 
@@ -150,7 +150,7 @@ Catalog enrichment uses the following workflow views:
 - **[!UICONTROL Fixed Suggestions]**: Items you already applied or resolved.
 - **[!UICONTROL Ignored Suggestions]**: Items you intentionally excluded from action.
 
-![URLs with Suggestions](./assets/urls-with-suggestions.png)
+![Catalog Enrichment](./assets/agentic-opportunities.png)
 
 ### Deploy approved suggestions {#review-deploy-catalog}
 
@@ -160,7 +160,7 @@ To deploy approved suggestions:
 1. Click the expand control for the URL or SKU row to show the proposed product name and product description updates.
 1. Review the suggestion and confirm it matches your merchandising and SEO strategy.
 
-    You can edit a suggestion before you deploy it or move it to **[!UICONTROL Ignored Suggestions]** if it does not match your strategy.
+  You can edit a suggestion before you deploy it or move it to **[!UICONTROL Ignored Suggestions]** if it does not match your strategy.
 
 1. Select the row for the URL or SKU to update.
 1. Click **[!UICONTROL Deploy optimizations]** and confirm.
@@ -197,6 +197,8 @@ After you apply an update, suggestions move to **[!UICONTROL Fixed Suggestions]*
    ![Enrich Product Description](./assets/enrich-product-description.png)
 
 1. Optional: Select **[!UICONTROL Override LLM Optimizer provided Description]** if you want to keep a manually entered description instead.
+
+  Manual overrides affect how suggestions stay in sync with the catalog. For more information, see [Manual override in the Admin](#manual-override-in-the-admin).
 
 ## Verify enrichment on the storefront {#verify-storefront}
 
@@ -235,7 +237,7 @@ These rules help you know whether catalog enrichment, ingestion feeds, or Admin 
 
 ## Limits and considerations {#limits}
 
-- Enrichment applies to product names and descriptions only. It does not change PDP layout, widgets, or other page-level storefront content.
+- Enrichment applies to product names and short descriptions only. It does not change PDP layout, widgets, or other page-level storefront content.
 - Large catalogs and high URL counts can affect how quickly analysis completes and how many suggestions appear at once.
 - Meaningful suggestions assume that LLM-relevant bots can access the product URLs you care about. Robots rules, authentication, geo-blocking, and heavy personalization can reduce coverage.
 
