@@ -204,7 +204,7 @@ After you apply an update, suggestions move to **[!UICONTROL Fixed Suggestions]*
 
 1. Search for the SKU on your storefront.
 1. Open the product page.
-1. Confirm that the product name matches what you approved.
+1. Confirm that the product name and description matches what you approved.
 
    It may take some time before enrichments appear on your storefront.
 
