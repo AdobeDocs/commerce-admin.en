@@ -34,7 +34,7 @@ The _[!UICONTROL Content]_ section is used to enter and edit the main product de
 
 >[!NOTE]
 >
->Catalog enrichment can apply AI-suggested updates to the product name and description in this section. For more information, see [Catalog enrichment](catalog-enrichment.md).
+>Catalog enrichment can apply AI-suggested updates to the product name and long description in this section. For more information, see [Catalog enrichment](catalog-enrichment.md).
 
 ## Add the product description in [!DNL Page Builder]
 
