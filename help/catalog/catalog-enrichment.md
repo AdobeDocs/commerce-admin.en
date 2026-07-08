@@ -67,7 +67,7 @@ The following prerequisites apply when you have access to catalog enrichment.
 - Your storefront can be crawled by LLM-oriented and agentic bots where crawl coverage is required for catalog-aware suggestions.
 - Required Commerce services and catalog connectivity are enabled and healthy. See [Enable catalog enrichment](#enable-catalog-enrichment) to learn more.
 - [IMS is configured)](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations).
-- You have access to Adobe Admin Console.
+- You have access to the [Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
 
 > If you do not have an IMS organization, contact your Adobe account team to provision one.
 
