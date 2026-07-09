@@ -35,11 +35,11 @@ Catalog enrichment is a native [!DNL Adobe Commerce] capability that helps you i
 
 >[!NOTE]
 >
->Catalog enrichment is powered by [!DNL Adobe LLM Optimizer] behind the scenes. You use enrichment as part of your Commerce catalog workflow. You do not manage a separate LLM Optimizer integration to apply approved name and description updates. For broader LLM monitoring and optimization outside Commerce, see the [LLM Optimizer product documentation](https://experienceleague.adobe.com/en/docs/llm-optimizer/using/home).
+>Catalog enrichment is powered by Commerce Catalog Agent and [!DNL Adobe LLM Optimizer] behind the scenes. You use enrichment as part of your Commerce catalog workflow. You do not manage a separate LLM Optimizer integration to apply approved name and description updates. For broader LLM monitoring and optimization outside Commerce, see the [LLM Optimizer product documentation](https://experienceleague.adobe.com/en/docs/llm-optimizer/using/home).
 
 ## How it works {#how-it-works}
 
-Your [!DNL Adobe Commerce] product catalog is the system of record for product data: names, descriptions, attributes, pricing, and inventory. Adobe Commerce Storefront MCP (Model Context Protocol) connects live catalog data to Adobe AI experiences. From there, the Catalog Agent uses that interface so [!DNL Adobe LLM Optimizer] can identify gaps in product names and long descriptions, propose improvements, and write approved changes back to Commerce so you can review them in the Commerce Admin.
+Your [!DNL Adobe Commerce] product catalog is the system of record for product data: names, descriptions, attributes, pricing, and inventory. Adobe Commerce Storefront MCP (Model Context Protocol) connects live catalog data to Adobe AI experiences. From there, the Catalog Agent can identify gaps in product names and long descriptions, propose improvements, and write approved changes back to Commerce so you can review them in the Commerce Admin.
 
 With catalog enrichment, you can:
 
@@ -66,7 +66,7 @@ The following prerequisites apply when you have access to catalog enrichment.
 
 - Your storefront can be crawled by LLM-oriented and agentic bots where crawl coverage is required for catalog-aware suggestions.
 - Required Commerce services and catalog connectivity are enabled and healthy. See [Enable catalog enrichment](#enable-catalog-enrichment) to learn more.
-- [IMS is configured)](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations).
+- [IMS is configured](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations).
 - You have access to the [Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
 
 > If you do not have an IMS organization, contact your Adobe account team to provision one.
@@ -96,7 +96,7 @@ After you install the catalog enrichment and catalog services extensions, the ca
 
 ### Configure catalog enrichment
 
-Configure catalog enrichment on the **[!UICONTROL Settings]** tab so Adobe LLM Optimizer can connect to your [!DNL Adobe Commerce] environment and surface suggestions in the Commerce Admin.
+Configure catalog enrichment on the **[!UICONTROL Settings]** tab so Commerce Catalog Agent can connect to your [!DNL Adobe Commerce] environment and surface suggestions in the Commerce Admin.
 
 1. In the Admin, go to **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**.
 1. In the **[!UICONTROL Scope]** list at the top of the page, select the store view you want to configure, or leave **[!UICONTROL All Store Views]** to manage settings across store views.
@@ -186,7 +186,7 @@ After you apply an update, suggestions move to **[!UICONTROL Fixed Suggestions]*
 
    ![Enriched Product Name](./assets/enriched-product-name.png)
 
-1. Optional: Select **[!UICONTROL Override LLM Optimizer provided Product Name]** if you want to keep a manually entered name instead.
+1. Optional: Select **[!UICONTROL Override Catalog Agent provided Product Name]** if you want to keep a manually entered name instead.
 
    Manual overrides affect how suggestions stay in sync with the catalog. For more information, see [Manual override in the Admin](#manual-override-in-the-admin).
 
@@ -196,7 +196,7 @@ After you apply an update, suggestions move to **[!UICONTROL Fixed Suggestions]*
 
    ![Enrich Product Description](./assets/enrich-product-description.png)
 
-1. Optional: Select **[!UICONTROL Override LLM Optimizer provided Description]** if you want to keep a manually entered description instead.
+1. Optional: Select **[!UICONTROL Override Catalog Agent provided Description]** if you want to keep a manually entered description instead.
 
   Manual overrides affect how suggestions stay in sync with the catalog. For more information, see [Manual override in the Admin](#manual-override-in-the-admin).
 
