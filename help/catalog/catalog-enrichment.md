@@ -39,7 +39,7 @@ Catalog enrichment is a native [!DNL Adobe Commerce] capability that helps you i
 
 ## How it works {#how-it-works}
 
-Your [!DNL Adobe Commerce] product catalog is the system of record for product data: names, descriptions, attributes, pricing, and inventory. Adobe Commerce Storefront MCP (Model Context Protocol) connects live catalog data to Adobe AI experiences. From there the Catalog Agent uses that interface so [!DNL Adobe LLM Optimizer] can identify gaps in product names and long descriptions, propose improvements, and write approved changes back to Commerce so you can review them in the Commerce Admin.
+Your [!DNL Adobe Commerce] product catalog is the system of record for product data: names, descriptions, attributes, pricing, and inventory. Adobe Commerce Storefront MCP (Model Context Protocol) connects live catalog data to Adobe AI experiences. From there, the Catalog Agent uses that interface so [!DNL Adobe LLM Optimizer] can identify gaps in product names and long descriptions, propose improvements, and write approved changes back to Commerce so you can review them in the Commerce Admin.
 
 With catalog enrichment, you can:
 
