@@ -48,7 +48,7 @@ topic_v2:
 
 It is important to understand the following terms as you work with [!DNL Inventory Management]:
 
-[!UICONTROL Sources] represent physical or virtual locations that store and ship available products. See [Stocks and sources](sources-stocks.md) for examples and diagrams. (Any location can be designated as a source for virtual products.)
+[!UICONTROL Sources] represent physical locations that store and ship available products. See [Stocks and sources](sources-stocks.md) for examples and diagrams. (Any location can be designated as a source for virtual products.)
 
 [!UICONTROL Stocks] map a sales channel (currently limited to websites) to source locations and on-hand inventory. A stock can map to multiple sales channels, but a sales channel can be assigned to only one stock.
 

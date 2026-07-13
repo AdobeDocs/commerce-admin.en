@@ -64,7 +64,7 @@ This guide covers:
 
 ## Developer information
 
-Access advanced resources for APIs, customization, and module architecture. See [[!DNL Inventory Management]](https://developer.adobe.com/commerce/webapi/rest/inventory/) in the developer documentation for technical details about APIs and algorithm customization.
+Access advanced resources for APIs, customization, and module architecture. See [[!DNL Inventory Management]](https://developer.adobe.com/commerce/webapi/rest/inventory/) in the REST API developer documentation for technical details about APIs and algorithm customization.
 
 ## Commerce documentation
 

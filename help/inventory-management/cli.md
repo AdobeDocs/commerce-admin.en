@@ -1,6 +1,6 @@
 ---
 title: "[!DNL Inventory Management] CLI reference"
-description: Learn about the Inventory Management Commerce CLI commands for managing inventory data and configuration settings.
+description: "Learn about the [!DNL Inventory Management Commerce] CLI commands for managing inventory data and configuration settings."
 exl-id: d92dffce-94a1-443c-8c72-98fecbbd5320
 level: Experienced
 feature: Inventory, Configuration
@@ -26,6 +26,8 @@ topic_v2:
     internal-label: Administration
 ---
 # [!DNL Inventory Management] CLI reference
+
+[!DNL Inventory Management] provides commands to manage inventory data and configuration settings.
 
 These commands include:
 
