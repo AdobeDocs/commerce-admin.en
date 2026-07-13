@@ -116,7 +116,6 @@ Configure catalog enrichment on the **[!UICONTROL Settings]** tab so Commerce Ca
 1. Optional: Enter **[!UICONTROL Host Name]** and **[!UICONTROL API Key]** if your environment requires them.
 
     - **[!UICONTROL Host Name]**: Host name of your Adobe Commerce instance.
-    - **[!UICONTROL Adobe Commerce Endpoint]**: This field is not used.
     - **[!UICONTROL API Key]**: Authentication key used to securely access Adobe Commerce APIs. Click **[!UICONTROL Copy]** next to the field if you need to copy the key elsewhere.
 
 1. Click **[!UICONTROL Save]**.
@@ -137,7 +136,6 @@ Required fields are marked with an asterisk (*) on the **[!UICONTROL Commerce Co
 | Store Code | Yes | Store Code of the Commerce website. |
 | Store View Code | Yes | Store View of the Commerce website. |
 | Host Name | No | Host name of your Adobe Commerce instance. |
-| Adobe Commerce Endpoint | No | This field is not used. |
 | API Key | No | Authentication key used to securely access Adobe Commerce APIs. Treat it like any production credential. |
 
 ### Review and apply catalog enrichment {#review-and-apply}
