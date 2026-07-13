@@ -83,6 +83,7 @@ feature: Catalog Management
     + [Design](settings-advanced-design.md)
     + [Autosettings](product-autosettings.md)
     + [Gift Options](product-gift-options.md)
+  + {hide-from-toc}[Catalog enrichment](catalog-enrichment.md)
 + Product attributes {#product-attributes}
   + [Attributes overview](product-attributes.md)
   + [Attribute input type](attributes-input-types.md)

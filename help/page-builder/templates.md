@@ -1,8 +1,23 @@
 ---
-title: '[!DNL Page Builder] Templates'
+title: "[!DNL Page Builder] Templates"
 description: Learn how to save your existing [!DNL Page Builder] content as a template, and then apply that template to another area.
 exl-id: 02c1a93f-4186-4af9-ad35-bd0f5734f979
 feature: Page Builder, Page Content
+TQID: https://experienceleague.adobe.com/P61L0tgCPw78m-241VFZrlTugCZT3sRlHhHRyr-ARNs
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
 ---
 # [!DNL Page Builder] Templates
 
