@@ -68,7 +68,7 @@ Access advanced resources for APIs, customization, and module architecture. See 
 
 ## Commerce documentation
 
-Find user, merchant, cloud, and developer guides to help with every part of Adobe Commerce. Use these resources for any setup or management need.
+Find merchant, cloud, and developer guides to help with every part of Adobe Commerce. Use these resources for any setup or management need.
 
 {{docs-links}}
 

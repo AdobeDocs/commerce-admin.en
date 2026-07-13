@@ -28,7 +28,7 @@ topic_v2:
 ---
 # Manage inventory quantities
 
-Use the following procedures to assign sources and quantities for new or existing products.
+Use the following guidelines to assign sources and quantities for new or existing products.
 
 When creating products, assign sources and quantities during product creation. See [Create a product](../catalog/product-create.md) for full instructions. These pages includes single- and multi-source information for sources and quantities per source.
 

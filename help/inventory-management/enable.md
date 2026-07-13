@@ -1,6 +1,6 @@
 ---
 title: "Enable [!DNL Inventory Management]"
-description: Enable or disable [!DNL Inventory Management] and Manage Stock at the store or product level to control salable quantity and fulfillment tracking.
+description: Enable or disable [!DNL Inventory Management] and manage stock at the store or product level to control salable quantity and fulfillment tracking.
 exl-id: 89bd2f8b-b9e4-4b9a-b729-f7bd71f764c9
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/evCX34nY-m7WQnZt3xw7ng6-It7Xlf5DTanjKbP1fCk

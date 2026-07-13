@@ -1,6 +1,6 @@
 ---
 title: Expand and restructure inventory
-description: Expand from single-source to multi-source inventory or restructure back to a single source as your [!DNL Commerce] business changes.
+description: Expand from single-source to multi-source inventory or restructure back to a single source as your business changes.
 exl-id: 880474e3-6533-4b2f-adf7-4312787ff736
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/w4TV-BQrg0RzlHn4DVSdHFPD2M5CF11wA7I5OyA7jsY

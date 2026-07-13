@@ -1,6 +1,6 @@
 ---
 title: Stocks and sources
-description: Learn how stocks and sources relate in [!DNL Inventory Management] so salable quantity on your [!DNL Commerce] storefront matches physical inventory.
+description: Learn how stocks and sources relate in [!DNL Inventory Management] so salable quantities on your [!DNL Commerce] storefront match physical inventory.
 exl-id: 01bbbd82-898b-4757-ab40-0d8b89ec59bc
 TQID: https://experienceleague.adobe.com/3nQssDNA41zHJH0SCN6VdMqqfbHCeyc6K0B91-BF8Kc
 product_v2:
@@ -35,7 +35,7 @@ These descriptions include products, sources, and stocks for a bicycle company w
 
 ## Sources
 
-A [source](sources-manage.md) is a physical or virtual location where product inventory is managed and shipped for order fulfillment or where services are available. [!DNL Commerce] uses the quantities and salable quantities per stock and manages inventory amounts automatically for managed products and orders. If you have one source, you are considered in _single-source_ mode. If you have multiple sources, you are considered in _multi-source_ mode.
+A [source](sources-manage.md) is a physical location where product inventory is managed and shipped for order fulfillment or where services are available. [!DNL Commerce] uses the quantities and salable quantities per stock and manages inventory amounts automatically for managed products and orders. If you have one source, you are considered in _single-source_ mode. If you have multiple sources, you are considered in _multi-source_ mode.
 
 A source can have priority in the scope of stock in one warehouse, but not necessarily in all warehouses as the source can be reused in different stocks. The number of stocks and sources adds to the complexity for determining the best warehouse or store to fulfill an order. For example, you may have a limited number of products available from your brick-and-mortar locations with an extensive inventory in your warehouses and services in key locations with limited availability.
 
