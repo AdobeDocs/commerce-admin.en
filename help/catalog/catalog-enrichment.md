@@ -39,7 +39,7 @@ Catalog enrichment is a native [!DNL Adobe Commerce] capability that helps you i
 
 ## How it works {#how-it-works}
 
-Your [!DNL Adobe Commerce] product catalog is the system of record for product data: names, descriptions, attributes, pricing, and inventory. [!DNL Adobe Commerce]Storefront MCP (Model Context Protocol) connects live catalog data to Adobe AI experiences. From there, the Catalog Agent can identify gaps in product names and long descriptions, propose improvements, and write approved changes back to Commerce so you can review them in the Commerce Admin.
+Your [!DNL Adobe Commerce] product catalog is the system of record for product data: names, descriptions, attributes, pricing, and inventory. [!DNL Adobe Commerce] Storefront MCP (Model Context Protocol) connects live catalog data to Adobe AI experiences. From there, the Catalog Agent can identify gaps in product names and long descriptions, propose improvements, and write approved changes back to Commerce so you can review them in the Commerce Admin.
 
 With catalog enrichment, you can:
 
@@ -110,7 +110,7 @@ Configure catalog enrichment on the **[!UICONTROL Settings]** tab so [!DNL Comme
 1. Enter the required connection details for the store view.
 
     - **[!UICONTROL Store View URL]**: URL corresponding to the store view (for example, `https://brand.example.com/fr/`).
-    - **[!UICONTROL Environment ID]**: Unique identifier for the [!DNL Adobe Commerce]environment that the connection accesses.
+    - **[!UICONTROL Environment ID]**: Unique identifier for the [!DNL Adobe Commerce] environment that the connection accesses.
     - **[!UICONTROL Website Code]**, **[!UICONTROL Store Code]**, and **[!UICONTROL Store View Code]**: Website, store, and store view codes for the Commerce website. These values must match the codes in your Commerce Admin.
 
 1. Optional: Enter **[!UICONTROL Host Name]** and **[!UICONTROL API Key]** if your environment requires them.
@@ -136,7 +136,7 @@ Required fields are marked with an asterisk (*) on the **[!UICONTROL Commerce Co
 | Store Code | Yes | Store Code of the Commerce website. |
 | Store View Code | Yes | Store View of the Commerce website. |
 | Host Name | No | Host name of your [!DNL Adobe Commerce] instance. |
-| API Key | No | Authentication key used to securely access [!DNL Adobe Commerce]APIs. Treat it like any production credential. |
+| API Key | No | Authentication key used to securely access [!DNL Adobe Commerce] APIs. Treat it like any production credential. |
 
 ### Review and apply catalog enrichment {#review-and-apply}
 
