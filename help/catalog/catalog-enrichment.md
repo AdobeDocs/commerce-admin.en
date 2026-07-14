@@ -72,7 +72,7 @@ The following prerequisites apply when you have access to catalog enrichment.
 
 >[!NOTE]
 >
->As part of setup, Commerce checks whether your organization has signed the GenAI rider that covers the AI services behind catalog enrichment. If you have not yet signed the rider or opted out, you are prompted to do so before you can use catalog enrichment.
+>As part of setup, Commerce checks whether your organization has signed the GenAI rider that covers the AI services behind catalog enrichment. If you have not yet signed the rider or opted out, you are prompted to sign or update the rider before you can use catalog enrichment.
 
 ## Enable catalog enrichment {#enable-catalog-enrichment}
 
