@@ -2,8 +2,31 @@
 title: What's new
 description: This section contains the changes made in the last 60 days. We exclude
   all minor updates, such as copy editing, from this list.
-updated: Fri Jun 26 17:39:45 2026
+updated: Tue Jul 14 10:58:09 2026
 entries:
+- description: Added [Catalog enrichment](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/catalog-enrichment)
+    with guidance for reviewing and applying AI-suggested product name and description
+    updates in the Admin, and linked the topic from the [Catalog menu](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog-menu),
+    [guide overview](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/guide-overview),
+    and related product settings topics.
+  versions: ''
+  type: new-topic
+  date: July 9, 2026
+  link: enterprise:Adobe-Enterprise-Docs/commerce-admin.en/pull/841
+  merge_commit: 6cd9281329fd909e38e4bbf41159eadfed2f9ad3
+  contributor: emarr_adobe
+  labels:
+  - new-topic
+- description: Added [Update System Administrator access](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-system-admin-account)
+    with guidance for managing System Administrator assignments in Adobe Admin Console.
+  versions: ''
+  type: feedback
+  date: June 30, 2026
+  link: enterprise:Adobe-Enterprise-Docs/commerce-admin.en/pull/852
+  merge_commit: 927b633eaa9af471440cfb950b429a60b3df94a8
+  contributor: meker_adobe
+  labels:
+  - feedback
 - description: Added the ability to [create custom coupon](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#method-3-custom-coupon-codes)
     codes in Adobe Commerce as a Cloud Service.
   versions: ''
