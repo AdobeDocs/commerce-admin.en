@@ -4,6 +4,50 @@
 
 This section contains the changes made in the last 60 days. We exclude all minor updates, such as copy editing, from this list.
 
+### July 9, 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Added <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/catalog-enrichment">Catalog enrichment</a> with guidance for reviewing and applying AI-suggested product name and description updates in the Admin, and linked the topic from the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog-menu">Catalog menu</a>, <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/guide-overview">guide overview</a>, and related product settings topics.</p>
+</td>
+      <td>
+        New topic
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/6cd9281329fd909e38e4bbf41159eadfed2f9ad3">commit</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### June 30, 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Added <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-system-admin-account">Update System Administrator access</a> with guidance for managing System Administrator assignments in Adobe Admin Console.</p>
+</td>
+      <td>
+        Feedback
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/927b633eaa9af471440cfb950b429a60b3df94a8">commit</a></td>
+    </tr>
+  </tbody>
+</table>
+
 ### June 3, 2026
 
 <table style="table-layout:auto;">
@@ -44,36 +88,6 @@ This section contains the changes made in the last 60 days. We exclude all minor
         Feedback, technical
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/b224cff0c5db4c1b318d3e7165aa34f4662f7e3e">commit</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### May 12, 2026
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Description</th>
-      <th>Type</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Updated <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps">USPS</a> and related shipping carrier pages to reflect that the USPS Web Tools API was retired on January 25, 2026, and that USPS REST APIs are now the only supported integration method.</p>
-</td>
-      <td>
-        Major update, feedback
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/13155decdb96b62757e1044bb99dcddb1e1f8036">commit</a></td>
-    </tr>
-    <tr>
-      <td><p>Published the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes#b2b-v153">Adobe Commerce B2B v1.5.3 release notes</a> covering new B2B company customer import and export, fixes across negotiable quotes, purchase orders, requisition lists, shared catalogs, company management, cart and checkout, framework, and GraphQL, plus the requisition list export path change to <code>var/export/requisition_lists/</code>.</p>
-</td>
-      <td>
-        Major update
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/d87900bf27745154d5a643dc828d5c1abc0130df">commit</a></td>
     </tr>
   </tbody>
 </table>
