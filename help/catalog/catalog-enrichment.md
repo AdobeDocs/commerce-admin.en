@@ -68,8 +68,11 @@ The following prerequisites apply when you have access to catalog enrichment.
 - Required Commerce services and catalog connectivity are enabled and healthy. See [Enable catalog enrichment](#enable-catalog-enrichment) to learn more.
 - [IMS is configured](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations).
 - You have access to the [Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
+- Your organization has signed the GenAI rider, or explicitly opted out, for the underlying AI services.
 
-> If you do not have an IMS organization, contact your Adobe account team to provision one.
+>[!NOTE]
+>
+>As part of setup, Commerce checks whether your organization has signed the GenAI rider that covers the AI services behind catalog enrichment. If you have not yet signed the rider or opted out, you are prompted to do so before you can use catalog enrichment.
 
 ## Enable catalog enrichment {#enable-catalog-enrichment}
 
