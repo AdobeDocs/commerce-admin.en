@@ -115,11 +115,7 @@ Configure catalog enrichment on the **[!UICONTROL Settings]** tab so [!DNL Comme
     - **[!UICONTROL Store View URL]**: URL corresponding to the store view (for example, `https://brand.example.com/fr/`).
     - **[!UICONTROL Environment ID]**: Unique identifier for the [!DNL Adobe Commerce] environment that the connection accesses.
     - **[!UICONTROL Website Code]**, **[!UICONTROL Store Code]**, and **[!UICONTROL Store View Code]**: Website, store, and store view codes for the Commerce website. These values must match the codes in your Commerce Admin.
-
-1. Optional: Enter **[!UICONTROL Host Name]** and **[!UICONTROL API Key]** if your environment requires them.
-
     - **[!UICONTROL Host Name]**: Host name of your [!DNL Adobe Commerce] instance.
-    - **[!UICONTROL API Key]**: Authentication key used to securely access [!DNL Adobe Commerce] APIs. Click **[!UICONTROL Copy]** next to the field if you need to copy the key elsewhere.
 
 1. Click **[!UICONTROL Save]**.
 
@@ -138,8 +134,7 @@ Required fields are marked with an asterisk (*) on the **[!UICONTROL Commerce Co
 | Website Code | Yes | Website Code of the Commerce website. |
 | Store Code | Yes | Store Code of the Commerce website. |
 | Store View Code | Yes | Store View of the Commerce website. |
-| Host Name | No | Host name of your [!DNL Adobe Commerce] instance. |
-| API Key | No | Authentication key used to securely access [!DNL Adobe Commerce] APIs. Treat it like any production credential. |
+| Host Name | Yes | Host name of your [!DNL Adobe Commerce] instance. |
 
 ### Review and apply catalog enrichment {#review-and-apply}
 
