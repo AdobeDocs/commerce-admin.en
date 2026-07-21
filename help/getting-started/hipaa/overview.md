@@ -347,3 +347,5 @@ The following features are disabled by default in the HIPAA-readiness module. Me
 - **[Newsletter feature](../../merchandising-promotions/newsletters.md)**—This feature is disabled to prevent PHI being used in a marketing context.
 
 - **[Advanced Reporting service setting](../../getting-started/business-intelligence.md)**—This configuration setting is disabled to prevent PHI from being used for analysis and reporting.
+
+- **[Catalog Enrichment](../../catalog/catalog-enrichment.md)**—This feature is disabled because it relies on non-HIPAA-ready AI services ([!DNL Commerce Catalog Agent] and [!DNL Adobe LLM Optimizer]) that analyze storefront and catalog signals outside of the HIPAA-ready boundary. Enabling this feature could expose PHI to systems that are not covered under Adobe's HIPAA-Ready Services.
