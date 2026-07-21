@@ -259,7 +259,7 @@ Catalog enrichment reads the technical attributes and reasons through how they i
 | Honey Process, Arabica | Rich, creamy mouthfeel | Oils absorbed from the mucilage during drying add viscosity and body. |
 | Honey Process, Altitude 900-1200m | Caramel undertones | Denser, high-altitude beans develop more complex sugars, deepened by honey processing. |
 
-Catalog enrichment applies these inferred characteristics to the product name and description fields:
+Catalog enrichment applies these inferred characteristics to the product copy:
 
 - **Before**: "Medium Roast Coffee Beans - Arabica, Brazil Minas Gerais, Honey Process, 900-1200m"
 - **After**: "Arabica beans grown at 900-1200m in Brazil's Minas Gerais, honey processed and medium roasted, develop a naturally sweet, creamy mouthfeel with distinct hazelnut character, caramel undertones, and low acidity. A consistent, approachable specialty coffee best experienced through pour over."
