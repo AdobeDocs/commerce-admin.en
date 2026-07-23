@@ -3,7 +3,6 @@ title: Catalog enrichment
 description: Use the native catalog enrichment capability in Adobe Commerce to review and apply AI-suggested improvements to product names and long descriptions for LLM and AI-assisted discovery.
 role: Admin, User, Leader
 recommendations: noCatalog
-hide: true
 badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
@@ -243,4 +242,37 @@ These rules help you know whether catalog enrichment, ingestion feeds, or Admin 
 - Coordinate with SEO and brand teams before bulk applying titles or descriptions.
 - Re-sync or re-analyze after major catalog imports so that suggestions reflect the current catalog state.
 
-<!--## Examples This section will provide examples of what enrichment before/after looks like:-->
+## Examples
+
+The following examples show how catalog enrichment turns raw technical attributes into shopper-focused, narrative product copy that LLMs can use to answer shopping questions.
+
+### Example: Coffee product with technical attributes
+
+A coffee retailer's catalog stores only the technical specifications for a medium roast coffee bean product: bean variety, origin region, processing method, roast level, and altitude range. These fields describe the product but do not communicate its value to a shopper, so an AI assistant has little to work with when answering a question like "what coffee has a smooth, low-acid flavor?"
+
+Catalog enrichment reads the technical attributes and reasons through how they interact to infer shopper-relevant characteristics:
+
+| Technical attribute | Inferred characteristic | Reasoning |
+| --- | --- | --- |
+| Honey Process, Medium Roast | Low acidity | Fruit mucilage left on the bean during honey processing suppresses acidity, and the medium roast breaks down residual acidic compounds. |
+| Honey Process, Arabica, Medium Roast | Hazelnut flavor | Fruit sugars from the mucilage combine with Arabica's natural nut notes, amplified at medium roast. |
+| Honey Process, Arabica | Rich, creamy mouthfeel | Oils absorbed from the mucilage during drying add viscosity and body. |
+| Honey Process, Altitude 900-1200m | Caramel undertones | Denser, high-altitude beans develop more complex sugars, deepened by honey processing. |
+
+Catalog enrichment applies these inferred characteristics to the product copy:
+
+- **Before**: "Medium Roast Coffee Beans - Arabica, Brazil Minas Gerais, Honey Process, 900-1200m"
+- **After**: "Arabica beans grown at 900-1200m in Brazil's Minas Gerais, honey processed and medium roasted, develop a naturally sweet, creamy mouthfeel with distinct hazelnut character, caramel undertones, and low acidity. A consistent, approachable specialty coffee best experienced through pour over."
+
+The updated name and description are saved directly to the Commerce catalog, so the storefront, LLM feeds, and other channels that read those fields all reflect the same enriched copy.
+
+### Example: Modular furniture configuration
+
+A furniture retailer sells a modular sectional couch where the product description lists only the configuration codes and fabric name, for example, `6 Standard Seats + 6 Standard Sides in Sapphire Navy Corded Velvet`. This shorthand is understandable to a returning customer but gives an AI assistant little context about how the product functions or what makes it durable or comfortable.
+
+Catalog enrichment expands the configuration and fabric attributes into a narrative description that explains what each component does and why it matters to a shopper:
+
+- **Before**: "6 Standard Seats + 6 Standard Sides in Sapphire Navy Corded Velvet"
+- **After**: "This configuration includes 6 Standard Seat Insert Sets and 6 Standard Side Inserts that function interchangeably as arms or backs, forming the modular building blocks of your layout. Each Seat features Standard Foam with three high-density layers designed to preserve lift and resist sagging. The Sapphire Navy Corded Velvet cover is as durable as it is luxurious, featuring textured cords that create a subtle sheen and a soft, plush feel. Covers are hand-sewn for a precise, tailored look and are machine washable and changeable, so your sectional can evolve with your space."
+
+Because the enriched description is written back to the Commerce catalog, it is available to AI bots crawling the product detail page as well as to any downstream channel or feed that consumes the product's catalog data, without changing the layout or design that shoppers see on the page.
