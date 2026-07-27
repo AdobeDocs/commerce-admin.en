@@ -87,6 +87,10 @@ Category product rules can speed up the process of assigning specific products t
     - `Less than or equal to`
     - `Contains`
 
+>[!NOTE]
+>
+>The **Contains** operator now accepts multiple comma-separated values, evaluated as an OR match. A single rule row can therefore match any of several terms instead of just one.
+
 1. Enter the **[!UICONTROL Value]** that is to be matched.
 
    ![Add Condition to Category Rule](../catalog/assets/category-rule-create.png){width="500"}
@@ -128,6 +132,7 @@ Category product rules can speed up the process of assigning specific products t
 >[!NOTE]
 >
 >When setting up a category rule, the products are matched and assigned to the rule when the category is saved. If you add a product to the catalog and want to include it in the rule, you must resave each category that is set to match products by rule. This ensures that the new product is included.
+
 
 ### Menu options
 
