@@ -50,7 +50,7 @@ nudge: true
   - [Sales](./sales/sales.md)
   - [Sales Emails](./sales/sales-emails.md)
   - [Quotes](./sales/quotes.md)
-  - [PDF Print-outs](./sales/pdf-print-outs.md)
+  - [PDF Printouts](./sales/pdf-print-outs.md)
   - [Tax](./sales/tax.md)
   - [Checkout](./sales/checkout.md)
   - [Shipping Settings](./sales/shipping-settings.md)
