@@ -74,6 +74,7 @@ nudge: true
   - [Web API](./services/magento-web-api.md)
   - [Commerce Services](./services/saas.md)
   - [OAuth](./services/oauth.md)
+  - [Email Suppression](./services/email-suppression.md)
 - Advanced {#advanced}
   - [Admin](./advanced/admin.md)
   - [System](./advanced/system.md)
