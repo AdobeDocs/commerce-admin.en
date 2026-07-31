@@ -177,7 +177,7 @@ To avoid changes to your live store, create a product using the described proper
    - [!UICONTROL Attribute Set]: Default
    - [!UICONTROL Product Name]: My Product
    - [!UICONTROL SKU]: Tutorial
-   - [!UICONTROL Price]: 75.00 
+   - [!UICONTROL Price]: 75.00
    - [!UICONTROL Quantity]: 100
    - [!UICONTROL Stock Status]: In Stock
    - [!UICONTROL Weight]: 1
@@ -197,7 +197,7 @@ In this step, you create two new custom attributes to show how the [!DNL Page Bu
 
    For this example, use `My Page Builder Attribute` for the label.
 
-1. Set **[!UICONTROL Catalog Input Type for Store Owner]** to `Page Builder`.
+1. Set **[!UICONTROL Catalog Input Type for Store Owner]** to `Page Builder`. [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
 
    When creating a custom attribute, you can specify the editor that is most suitable to the application as either `Page Builder` or the standard, WYSIWYG `Text Editor`.
 
