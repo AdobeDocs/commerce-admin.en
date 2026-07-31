@@ -54,10 +54,12 @@ You can create attributes while working on a product or from the _[!UICONTROL Pr
    |Date|Displays a date value in the [preferred format](attributes-input-types.md#date-and-time-options) and [time zone](../getting-started/store-details.md#locale-options). Date values can be selected from a list or a calendar ( ![Calendar icon](../assets/icon-calendar.png) ). <br/><br/>**_Note:_** Depending on your system configuration, _Admin_ users can enter dates directly into a field or select a date from the calendar or list. For information about specifying date and time values, see [Date and time options](attributes-input-types.md#date-and-time-options).|
    |`Yes/No`|Displays a drop-down list with pre-defined options of `Yes` and `No`.|
    |`Dropdown`|Displays a drop-down list of values that accepts only a single selection. The Dropdown input type is a key component of [configurable products](product-create-configurable.md).|
+   | `Number` | 
    |`Multiple Select`|Displays a drop-down list of values that accepts multiple selections.|
    |`Price`|This input type is used to create price fields that are in addition to the predefined attributes: Price, Special Price, Tier Price, and Cost. The currency used is determined by your system configuration.|
    |`Media Image`|Associates an extra image with a product, such as a product logo, care instructions, or ingredients from a food label. When you add a media image attribute to the attribute set of a product, it becomes an extra image type, along with Base, Small, and Thumbnail. The media image attribute can be excluded from the [storefront media browser](catalog-images-video.md#storefront-media-browser).|
-   |`Fixed Product Tax`|Lets you define [FPT rates](../stores-purchase/fixed-product-tax.md) based on the requirements of your locale.|
+   |`File` |
+   |`Fixed Product Tax`| Lets you define [FPT rates](../stores-purchase/fixed-product-tax.md) based on the requirements of your locale.|
    |`Visual Swatch`|Displays a swatch that depicts the color, texture, or pattern of a configurable product. A [visual swatch](swatches.md) can be filled with a hexadecimal color value, or display an uploaded image that represents the color, material, texture, or pattern of the option.|
    |`Text Swatch`|A text-based representation of a configurable product option that is frequently used for size. [Text swatches](swatches.md#text-based-swatches) can also include hexadecimal color values.|
    |`Page Builder`|A fully functioning [Page Builder](../page-builder/introduction.md) workspace at the attribute location that makes it easy to add engaging content to the product page.|
