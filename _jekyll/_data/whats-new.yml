@@ -2,8 +2,19 @@
 title: What's new
 description: This section contains the changes made in the last 60 days. We exclude
   all minor updates, such as copy editing, from this list.
-updated: Fri Jul 24 16:37:05 2026
+updated: Fri Jul 31 15:20:14 2026
 entries:
+- description: Learn how to suppress specific categories of automated system email,
+    such as order or marketing notifications, directly from the Admin in [Email Suppression](https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/email-suppression).
+  versions: ''
+  type: major-update, new-topic
+  date: July 29, 2026
+  link: enterprise:Adobe-Enterprise-Docs/commerce-admin.en/pull/866
+  merge_commit: a5d95844e8e81ea4d401e79ebc1f236aab977dcd
+  contributor: jhoover_adobe
+  labels:
+  - major-update
+  - new-topic
 - description: Added [Catalog enrichment](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/catalog-enrichment)
     with guidance for reviewing and applying AI-suggested product name and description
     updates in the Admin, and linked the topic from the [Catalog menu](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog-menu),

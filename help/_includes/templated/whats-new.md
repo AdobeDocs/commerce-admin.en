@@ -4,6 +4,28 @@
 
 This section contains the changes made in the last 60 days. We exclude all minor updates, such as copy editing, from this list.
 
+### July 29, 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Learn how to suppress specific categories of automated system email, such as order or marketing notifications, directly from the Admin in <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/email-suppression">Email Suppression</a>.</p>
+</td>
+      <td>
+        Major update, new topic
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/a5d95844e8e81ea4d401e79ebc1f236aab977dcd">commit</a></td>
+    </tr>
+  </tbody>
+</table>
+
 ### July 9, 2026
 
 <table style="table-layout:auto;">
