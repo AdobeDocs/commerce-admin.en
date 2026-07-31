@@ -27,6 +27,7 @@ topic_v2:
     internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
+last-update: 2023-09-11
 ---
 # Elements - Text
 
