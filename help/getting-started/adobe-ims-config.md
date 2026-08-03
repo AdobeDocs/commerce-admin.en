@@ -92,7 +92,7 @@ To create projects for an organization, the Adobe Admin account for the organiza
 1. Specify the **[!UICONTROL Redirect URI]**: `https://<commerce_base_url>/`
 1. Specify the **[!UICONTROL Redirect URI pattern]**: `https://<commerce_base_url>/.*`
 
-   Escape any dots in the hostname by preceding the dots with `\\`. Adding a wildcard to the end of the URL enables the Adobe Commerce Admin secret key.
+   Escape any dots in the hostname by preceding the dots with `\\`. Adding a wildcard to the end of the redirect URI pattern supports the Adobe Commerce Admin secret key.
 
 1. Click **[!UICONTROL Save configured API]**.
 1. Copy the [!UICONTROL Client ID] and [!UICONTROL Client Secret] keys from the created project.
