@@ -85,3 +85,4 @@ Each field in the form corresponds to an attribute from your product catalog. To
    ![Search Results](./assets/storefront-search-advanced-results-modify.png){width="700" zoomable="yes"}
 
 1. If they do not see what they are looking for in the search results, the customer clicks **[!UICONTROL Modify your search]** and tries another combination of criteria.
+

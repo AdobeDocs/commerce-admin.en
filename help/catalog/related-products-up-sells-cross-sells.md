@@ -130,3 +130,4 @@ Cross-sell items are similar to impulse purchases positioned next to the cash re
    ![Cross-sell Products](./assets/product-cross-sell-add.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Add Selected Products]**.
+

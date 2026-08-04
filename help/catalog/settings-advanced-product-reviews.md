@@ -71,3 +71,4 @@ The _[!UICONTROL Product Reviews]_ section lists all reviews that customers have
 1. When complete, click **[!UICONTROL Save Review]**.
 
 Reviews with the `Pending` and `Not Approved` statuses are not displayed on the storefront.
+

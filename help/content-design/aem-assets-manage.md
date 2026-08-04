@@ -52,3 +52,4 @@ You can add assets into your catalog categories content once you have enabled an
 1. Click **[!UICONTROL Save]** and continue.
 
    For more information to create a category, see [Complete the category content](../catalog/category-create.md#step-3-complete-the-category-content).
+

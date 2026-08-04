@@ -4,6 +4,7 @@ user-guide-description: This guide provides reference information for all store 
 breadcrumb-title: Configuration Reference
 role: Admin, Developer, User
 feature: Configuration
+nudge: true
 ---
 
 # Configuration Reference Guide {#config}
@@ -73,6 +74,7 @@ feature: Configuration
   - [Web API](./services/magento-web-api.md)
   - [Commerce Services](./services/saas.md)
   - [OAuth](./services/oauth.md)
+  - [Email Suppression](./services/email-suppression.md)
 - Advanced {#advanced}
   - [Admin](./advanced/admin.md)
   - [System](./advanced/system.md)

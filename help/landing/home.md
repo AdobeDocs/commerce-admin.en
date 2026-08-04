@@ -48,6 +48,8 @@ topic_v2:
     internal-label: Machine learning
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
+nudge: true
+last-update: 2026-07-14
 ---
 # <!-- use banner as heading -->![Admin documentation](./assets/banner-user-home.png) {#documentation}
 

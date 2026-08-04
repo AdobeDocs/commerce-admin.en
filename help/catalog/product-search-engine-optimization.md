@@ -38,6 +38,10 @@ The _[!UICONTROL Search Engine Optimization]_ settings for a product specify the
 
 The default value for each meta data field can be auto-generated based on values specified in the configuration. Each field contains a placeholder that is replaced by an actual value. For more information, see [Product Fields Auto-Generation](../configuration-reference/catalog/catalog.md#uicontrol-product-fields-auto-generation).
 
+>[!NOTE]
+>
+>Catalog enrichment helps improve product names and descriptions for LLM and AI-assisted discovery. It does not replace SEO meta fields. For more information, see [Catalog enrichment](catalog-enrichment.md).
+
 ## Complete the SEO fields
 
 1. Open the product in edit mode.

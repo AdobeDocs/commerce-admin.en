@@ -5,6 +5,8 @@ breadcrumb-title: Getting Started
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
+nudge: true
+color: red
 ---
 
 # Adobe Commerce Admin Getting Started Guide {#start}
@@ -16,6 +18,7 @@ recommendations: noDisplay
   + [Secure your account](commerce-account-secure.md)
   + [Share your account](commerce-account-share.md)
   + [Transfer an account](commerce-account-transfer.md)
+  + [Update System Administrator access](commerce-system-admin-account.md)
 + Site compliance {#compliance}
   + HIPAA readiness on Adobe Commerce{#hipaa-ready-service}
     + [Overview](hipaa/overview.md)

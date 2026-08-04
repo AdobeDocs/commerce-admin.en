@@ -4,6 +4,7 @@ user-guide-description: Adobe Commerce and Magento Open Source include many tool
 breadcrumb-title: Merchandising and Promotions
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
+nudge: true
 ---
 
 # Adobe Commerce Merchandising and Promotions Guide {#marketing}

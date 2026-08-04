@@ -49,6 +49,7 @@ This guide covers:
 | [Catalog search](search.md) | Review the tools that customers can use to locate products on the storefront, and configure the search experience according to your product catalog.|
 | [Categories](categories.md) | Establish the basic category structure of your catalog in a way that optimizes the shopper experience on your storefront.|
 | [Products](products-list.md) | Create products from simple to complex with multiple options, swatches, customizable bundles. Create downloadable products, and virtual products for services and other non-tangible items.|
+| [Catalog enrichment](catalog-enrichment.md) | Review and apply AI-suggested improvements to product names and descriptions so your catalog is represented accurately in LLM and AI-assisted discovery. |
 | [Product attributes](product-attributes.md) | Create attributes with input controls for product options, and to provide additional information on product pages. |
 
 {style="table-layout:auto"}

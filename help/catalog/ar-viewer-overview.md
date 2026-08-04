@@ -60,3 +60,4 @@ In order to use [!DNL AR Viewer], you must have the following available for your
 * `.USDZ` only: This feature only supports `.USDZ` files.
 * `qr-code`: Requires `endroid/qr-code` version 4.5.
 * `Catalog module`: Requires `magento/module-catalog` version 104.0.0.
+
