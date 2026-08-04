@@ -1,6 +1,6 @@
 ---
 title: Monitor Data Feed Sync Status in Commerce
-description: Learn how to monitor data feed exports and troubleshoot synchronization issues for [!DNL Catalog Service], [!DNL Live Search], and [!DNL Product Recommendations].
+description: Track exports. Diagnose sync issues for [!DNL Catalog Service], [!DNL Live Search], [!DNL Product Recommendations], and [!DNL Adobe Commerce Optimizer Connector].
 feature: Products, Customers, Data Import/Export
 role: Admin
 level: Beginner
@@ -33,8 +33,6 @@ topic_v2:
     internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
@@ -44,19 +42,15 @@ topic_v2:
 ---
 
 # Data Feed Sync Status monitoring
-
 The [!UICONTROL Data Feed Sync Status] page lets Commerce administrators monitor export health for product and category data feeds in the Admin area.
 
-Status is tracked for the following feeds:
+The feeds displayed in the summary grid depend on the connected Commerce service and connector configuration. Use the feed names shown in the Data Feed Sync Status page for the current deployment.
 
-- Products feed
-- Product Attributes feed
-- Categories feed
-- Product Overrides feed
-- Product Prices feed
-- Product Variants feed
+**Supported feeds by platform**
 
-<a id="export-status-scope"></a>
+- [[!DNL Adobe Commerce Optimizer Connector] export feeds](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/reference/connector-reference#supported-feeds
+
+<!--TO DO-export feeds list for Adobe Commerce on Cloud, On Premises, Adobe Commerce as a Cloud Service, is it the list in SaaS Export Guide? -->
 
 >[!NOTE]
 >
@@ -69,9 +63,9 @@ The Data Feed Sync Status page is available at no additional cost to Commerce me
 - [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)
 - [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview)
 - [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)
-- [[!DNL Adobe Commerce Optimizer]](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview)
+- [[!DNL Adobe Commerce Optimizer Connector]](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview)
 
-The feature is installed automatically when you enable any of these services on any Adobe Commerce deployment.
+The Data Feed Sync Status page is available automatically in supported Commerce service configurations. On Adobe Commerce on Cloud Infrastructure and on-premises deployments, if the page is missing after an eligible service or connector is enabled, follow the manual installation instructions below. Do not use the Composer installation procedure for product-managed SaaS experiences.
 
 ## Access the sync status page {#access-data-feed-sync-status-page}
 
@@ -87,7 +81,7 @@ The summary grid lists each feed and its export counts.
 | ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Feed Name** | Feed indexer for an entity or part of an entity (product, product price). |
 | **Source Records** | Number of Commerce records that require synchronization. Can exceed the Admin grid count because feed items are scoped (for example, Store View code). |
-| **Successfully Sent Records** | Number of records successfully transmitted to connected Commerce services for further processing. If sync errors occurred, this number may be smaller than the number of source records. |
+| **Successfully Sent Records** | Number of feed items successfully submitted from Commerce to the configured service endpoint. This does not confirm downstream ingestion or catalog availability. If sync errors occurred, this number may be smaller than the number of source records. |
 | **Failed Records** | Number of records that failed to be sent to connected Commerce services. |
 | **Action** | Select **[!UICONTROL Details]** to view the sync activity for a feed. |
 
@@ -103,7 +97,7 @@ From the summary page, select a feed name or select **[!UICONTROL Details]** to 
 | **Entity ID** | The unique identifier of the source entity (product ID, category ID, and so on) |
 | **Feed Identifiers** | Unique identifiers for the feed item. For example, SKU and Store View code for the products feed. Values vary by feed. |
 | **Export Status** | The [synchronization status](#export-status-types) of the feed item, with color-coded indicators |
-| **Last Sync Date** | Date and time the entity was last sent to connected Commerce services |
+| **Last Sync Date** | Date and time of the most recent export attempt or submission from Commerce. This timestamp does not confirm downstream availability.|
 | **Is Entity Deleted?** | Indicates whether the entity has been deleted in Adobe Commerce. Deleted items are displayed only if sync failed. |
 | **Request ID** | Unique ID for the sync request. Provide it to Support when troubleshooting entity updates. |
 | **Error** | Detailed error information for synchronization failures |
@@ -130,20 +124,20 @@ You can manage the view using the following controls:
 
 | **Status** | **Description** | **Action required** |
 | ----------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------ |
-| **Submitted to service** | Feed item successfully sent to connected Commerce services for processing. | None |
+| **Submitted to service** | The feed item was successfully submitted from Commerce for downstream processing. | None |
 | **Failed, will retry** | Failed to send, but the system will attempt to resend. | Monitor for resolution |
-| **Failed, require attention** | Failed due to application or data error. | Investigate and resolve the issue in the [!UICONTROL Error] column |
+| **Failed, requires attention** | Failed due to application or data error. | Investigate and resolve the issue in the [!UICONTROL Error] column |
 | **Awaiting submission** | Changes detected in the changelog but not yet processed. | Normal processing state |
 
 ## Monitor data feed status
 
-When you update product- and category-related entities in the Commerce database, the data transfers to Commerce services according to your feed configuration. You can monitor this process in real time from the Data Feed Sync Status summary page.
+When you update product- and category-related entities in the Commerce database, the data transfers to Commerce services according to your feed configuration. You can monitor export activity and its current status from the [!UICONTROL Data Feed Sync Status] summary page.
 
 >[!IMPORTANT]
 >
 > The time it takes to complete data synchronization varies based on your catalog size, the volume of updated data, and external service performance.
 
-When the number of successfully sent records matches the number of source records, export is complete.
+When the successfully sent count matches the source count for a feed, and no items remain awaiting submission or failed, Commerce has completed export for that feed. Use the appropriate dashboard to [confirm downstream availability](#confirm-data-in-connected-services].
 
 >[!NOTE]
 >
@@ -175,8 +169,9 @@ Manually resync in these cases:
 
 To verify end-to-end synchronization after exports complete, use one of the following methods. For the limits of export status on this page, see the [note above](#export-status-scope).
 
-- For Adobe Commerce on Cloud or on-premises, or [!DNL Adobe Commerce as a Cloud Service] deployments, check the [Data Management Dashboard](data-dashboard.md).
-- For Adobe Commerce on Cloud or on-premises deployments configured with the [Adobe Commerce Optimizer Connector](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview), check the [Data Sync page](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) in [!DNL Commerce Optimizer Studio].
+- [!DNL Adobe Commerce as a Cloud Service] with Commerce services, check the the applicable [Data Management Dashboard](data-dashboard.md) to confirm downstream availability.
+- Adobe Commerce on Cloud or On Premises with Adobe Commerce Optimizer Connector: Check Commerce Admin export status first, then check the [Data Sync page](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) in [!DNL Commerce Optimizer Studio]
+- [!DNL Adobe Commerce Optimizer] (stand-alone):  Data is not exported from the Commerce backend. Use the [Data Sync page](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) in [!DNL Commerce Optimizer Studio] to confirm data availability.
 
 >[!TIP]
 >
@@ -195,7 +190,10 @@ To verify end-to-end synchronization after exports complete, use one of the foll
 | High failure rates | Many records show *Failed, require attention* status | <ul><li>Check external service status and configuration</li><li>Review error messages for patterns in the [!UICONTROL Error] column</li><li>After you resolve the underlying issue, see [Manage and resync failed exports](#manage-failed-exports)</li><li>Contact external service support if needed</li></ul> |
 | Slow export performance | High changelog backlog or slow status updates | <ul><li>Check [feed health indicators](#feed-health-indicators) for indexer and backlog status</li><li>Rerun indexing if **Reindex required** is shown</li><li>Monitor external service response times</li><li>Schedule exports during off-peak hours when possible</li><li>Review system resources and performance</li></ul> |
 | Authentication failures | 401 or 403 status codes in the [!UICONTROL Error] column | <ul><li>Verify API credentials and tokens</li><li>Check external service account permissions</li><li>Renew expired tokens or contact your service provider</li><li>After credentials are restored, [resync affected records](#manage-failed-exports)</li></ul> |
-| Missing Data Feed Sync Status page | **[!UICONTROL Data Feed Sync Status]** is not listed under **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** after you enable a connected service | <ul><li>Confirm an eligible service is enabled (see [Audience and availability](#audience))</li><li>[Install the extension manually](#install-the-extension)</li></ul> |
+| Missing Data Feed Sync Status page | **[!UICONTROL Data Feed Sync Status]** is not listed under **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** after you enable a connected service | <ul><li>For Commerce as a Cloud Service, confirm an eligible service is enabled (see [Audience and availability](#audience))</li><li>For Commerce on Cloud or On Premises only, [Install the extension manually](#install-the-extension)</li></ul> |
+
+Adobe Commerce on Cloud Infrastructure or on-premises: confirm that an eligible service or the Adobe Commerce Optimizer Connector is enabled; if the page is still missing, follow the manual installation instructions.
+ACCS or Adobe Commerce Optimizer: do not install the module manually; use the product-managed synchronization experience or contact the appropriate service support team.
 
 ## Install the extension {#install-the-extension}
 
@@ -203,8 +201,7 @@ Manual installation is only required on Adobe Commerce on Cloud or on-premises d
 
 ### Prerequisites
 
-- PHP 8.1, 8.2, 8.3, or 8.4
-- Adobe Commerce 2.4.4+
+- Adobe Commerce 2.4.4+. For detailed requirements, see [System requirements](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements).
 - [Adobe Commerce Data Export Extension](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/manage-extension), version 103.4.15 or later
 - Access to [repo.magento.com](https://repo.magento.com). To generate keys and obtain the necessary rights, see [Get your authentication keys](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). For Cloud installations, see the [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
 - Access to the command line of the Adobe Commerce application server.
