@@ -45,16 +45,6 @@ topic_v2:
 
 The [!UICONTROL Data Feed Sync Status] page lets Commerce administrators monitor export health for product and category data feeds in the Admin area.
 
-The feeds displayed in the summary grid depend on the connected Commerce service and connector configuration. Use the feed names shown in the Data Feed Sync Status page for the current deployment.
-
-- For [!DNL Adobe Commerce on Cloud, On Premises, and Commerce as a Cloud Service] with configured Commerce Services, [Supported Feeds](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/reference/feed-table-reference#supported-feeds) in the _SaaS Data Export Guide_.
-
-- For [!DNL Adobe Commerce Optimizer Connector], see [Supported feeds](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/reference/connector-reference#supported-feeds) in the _Adobe Commerce Optimizer Connector Guide_.
-
->[!NOTE]
->
-> This page reports export status only. A success status means data was exported successfully—it does not confirm that data is available in connected services. See [Confirm data in connected services](#confirm-data-in-connected-services) for details.
-
 ## Audience and availability {#audience}
 
 The Data Feed Sync Status page is available at no additional cost to Commerce merchants with an active license for one of the following services:
@@ -71,6 +61,19 @@ The Data Feed Sync Status page is available automatically in supported Commerce 
 From the Admin area, navigate to **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** > **[!UICONTROL Data Feed Sync Status]**.
 
 ![Data Feed Sync Status page summarizing data feed export activity](assets/data-feed-sync-status.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+> This page reports export status only. A success status means data was exported successfully—it does not confirm that data is available in connected services. See [Confirm data in connected services](#confirm-data-in-connected-services) for details.
+
+## Available export feeds
+
+The list of available export feeds you can manage from the Data Sync Status page depend on which Commerce services are connected.
+
+- **For [!DNL Adobe Commerce on Cloud, On Premises, and Commerce as a Cloud Service] with configured Commerce Services:** See [Supported Feeds](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/reference/feed-table-reference#supported-feeds) in the _SaaS Data Export Guide_.
+
+- **For Adobe Commerce on Cloud or On-Premises deployments configured with the[!DNL Adobe Commerce Optimizer Connector]:** See [Supported feeds](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/reference/connector-reference#supported-feeds) in the _Adobe Commerce Optimizer Connector Guide_.
+
 
 ## Data Feed Sync Status summary {#data-feed-sync-status-summary}
 
@@ -168,9 +171,9 @@ Manually resync in these cases:
 
 To verify end-to-end synchronization after exports complete, use one of the following methods. For the limits of export status on this page, see the [note above](#export-status-scope).
 
-- [!DNL Adobe Commerce as a Cloud Service] with Commerce services, check the applicable [Data Management Dashboard](data-dashboard.md) to confirm downstream availability.
-- Adobe Commerce on Cloud or On-Premises with Adobe Commerce Optimizer Connector: Check Commerce Admin export status first, then check the [Data Sync page](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) in [!DNL Commerce Optimizer Studio]
-- [!DNL Adobe Commerce Optimizer] (stand-alone):  Data is not exported from the Commerce backend. Use the [Data Sync page](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) in [!DNL Commerce Optimizer Studio] to confirm data availability.
+- **[!DNL Adobe Commerce as a Cloud Service] with Commerce services:** Check the applicable [Data Management Dashboard](data-dashboard.md) to confirm downstream availability.
+- **Adobe Commerce on Cloud or On-Premises with Adobe Commerce Optimizer Connector**: Check Commerce Admin export status first, then check the [Data Sync page](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) in [!DNL Commerce Optimizer Studio]
+- **[!DNL Adobe Commerce Optimizer] (stand-alone):**  Data is not exported from the Commerce backend. Use the [Data Sync page](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) in [!DNL Commerce Optimizer Studio] to confirm data availability.
 
 >[!TIP]
 >
