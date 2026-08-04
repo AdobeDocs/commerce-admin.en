@@ -42,6 +42,7 @@ topic_v2:
 ---
 
 # Data Feed Sync Status monitoring
+
 The [!UICONTROL Data Feed Sync Status] page lets Commerce administrators monitor export health for product and category data feeds in the Admin area.
 
 The feeds displayed in the summary grid depend on the connected Commerce service and connector configuration. Use the feed names shown in the Data Feed Sync Status page for the current deployment.
