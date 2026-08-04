@@ -51,7 +51,7 @@ This integration supports Commerce merchants with Admin users who have an Adobe 
 
   >[!NOTE]
   >
-  >If you do not have access to the Adobe Commerce Admin Console, submit a request to your account team to provision access.
+  >If you do not have access to the Adobe Admin Console, submit a request to your account team to provision access.
 
 The administrator who configures this integration needs the following credentials during module enablement:
 
