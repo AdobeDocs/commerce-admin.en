@@ -47,11 +47,9 @@ The [!UICONTROL Data Feed Sync Status] page lets Commerce administrators monitor
 
 The feeds displayed in the summary grid depend on the connected Commerce service and connector configuration. Use the feed names shown in the Data Feed Sync Status page for the current deployment.
 
-**Supported feeds by platform**
+- For [[!DNL Adobe Commerce on Cloud, On Premises, and Commerce as a Cloud Service] with configured Commerce Services, [Supported Feeds](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/reference/feed-table-reference#supported-feeds) in the _SaaS Data Export Guide_.
 
-- [[!DNL Adobe Commerce Optimizer Connector] export feeds](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/reference/connector-reference#supported-feeds
-
-<!--TO DO-export feeds list for Adobe Commerce on Cloud, On Premises, Adobe Commerce as a Cloud Service, is it the list in SaaS Export Guide? -->
+- [[!DNL Adobe Commerce Optimizer Connector], see [Supported feeds](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/reference/connector-reference#supported-feeds) in the _Adobe Commerce Optimizer Connector Guide_.
 
 >[!NOTE]
 >
