@@ -85,6 +85,6 @@ The [actions controls](../getting-started/admin-actions-control.md) in the upper
 |[!UICONTROL Customer Tax Class]|The tax class that is assigned to the corresponding customer group. This column does not appear in the default grid, but can be added by changing the column layout.|
 |[!UICONTROL Created At]|The date and time the shared catalog was created.|
 |[!UICONTROL Created By]|The first and last name of the store administrator who created the shared catalog.|
-|[!UICONTROL Action]|Lists actions that be applied to selected catalogs. Options: `Set Pricing and Structure` / `Assign Companies` / `General Settings` / `Delete`|
+|[!UICONTROL Action]|Lists actions that can be applied to selected catalogs. Options: `Set Pricing and Structure` / `Assign Companies` / `General Settings` / `Delete`|
 
 {style="table-layout:auto"}
