@@ -3,6 +3,7 @@ title: Action logs
 description: Learn about action logs and how to configure logged actions to help you to track all the changes made to your store.
 exl-id: a482adfe-a63f-428b-b078-7542a1e2ecee
 feature: Logs, Configuration
+badgePaas: label="PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud and On-Premises projects only."
 TQID: https://experienceleague.adobe.com/UtJhP452hJXDyEyjxrknuF4WPoLza-UcnuWxP6ILtq8
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
