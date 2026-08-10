@@ -3,7 +3,6 @@ title: Action logs
 description: Learn about action logs and how to configure logged actions to help you to track all the changes made to your store.
 exl-id: a482adfe-a63f-428b-b078-7542a1e2ecee
 feature: Logs, Configuration
-badgePaas: label="PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud and On-Premises projects only."
 TQID: https://experienceleague.adobe.com/UtJhP452hJXDyEyjxrknuF4WPoLza-UcnuWxP6ILtq8
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -46,6 +45,10 @@ View the [Action Logs Report](action-log-report.md) to review logged admin actio
 ![Advanced configuration - admin actions logging](../configuration-reference/advanced/assets/admin-actions-logging.png){width="600" zoomable="yes"}
 
 For a detailed list of the configuration settings, see [Admin Actions Log Archiving](../configuration-reference/advanced/system.md) in the _Configuration Reference_.
+
+>[!NOTE]
+>
+>On the Adobe Commerce as a Cloud Service platform, you cannot configure the Action log report, Action log archive, and Bulk actions log, but you can review the report output from **[!UICONTROL System]** > _[!UICONTROL Action Logs]_ menu in the Admin. 
 
 ## Configure Admin actions for logging
 
