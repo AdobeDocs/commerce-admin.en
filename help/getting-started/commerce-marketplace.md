@@ -136,7 +136,7 @@ Log in issues are typically related to a mismatch between your MAGEID and email 
 
 ### Open source questions
 
-The Marketplace Support team resolves issues related to the [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) and [commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) sites only. Please direct questions about Magento Open Source to the [Community Forum](https://community.magento.com/) or [contact a partner](https://business.adobe.com/products/magento/partners.html) who can assist with Magento Open Source.
+The Marketplace Support team resolves issues related to the [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) and [commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) sites only. Please direct questions about Magento Open Source to a [partner](https://business.adobe.com/products/magento/partners.html) who can assist with Magento Open Source.
 
 ### Refund requests
 
