@@ -2,8 +2,20 @@
 title: What's new
 description: This section contains the changes made in the last 60 days. We exclude
   all minor updates, such as copy editing, from this list.
-updated: Fri Jul 31 15:20:14 2026
+updated: Fri Aug 7 15:20:28 2026
 entries:
+- description: Refreshed the [Data Feed Sync Status](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status)
+    topic to match the current Admin experience, clarify that the page reports export
+    status only, and document when the feature is available across Commerce service
+    licenses.
+  versions: ''
+  type: major-update
+  date: August 4, 2026
+  link: enterprise:Adobe-Enterprise-Docs/commerce-admin.en/pull/838
+  merge_commit: 9d7ecab0454b1a1041f1bcd8b4fbda8032ebaac5
+  contributor: meker_adobe
+  labels:
+  - major-update
 - description: Learn how to suppress specific categories of automated system email,
     such as order or marketing notifications, directly from the Admin in [Email Suppression](https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/email-suppression).
   versions: ''

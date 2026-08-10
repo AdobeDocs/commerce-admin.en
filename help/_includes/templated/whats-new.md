@@ -4,6 +4,28 @@
 
 This section contains the changes made in the last 60 days. We exclude all minor updates, such as copy editing, from this list.
 
+### August 4, 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Refreshed the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">Data Feed Sync Status</a> topic to match the current Admin experience, clarify that the page reports export status only, and document when the feature is available across Commerce service licenses.</p>
+</td>
+      <td>
+        Major update
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/9d7ecab0454b1a1041f1bcd8b4fbda8032ebaac5">commit</a></td>
+    </tr>
+  </tbody>
+</table>
+
 ### July 29, 2026
 
 <table style="table-layout:auto;">
@@ -66,50 +88,6 @@ This section contains the changes made in the last 60 days. We exclude all minor
         Feedback
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/927b633eaa9af471440cfb950b429a60b3df94a8">commit</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### June 3, 2026
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Description</th>
-      <th>Type</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Added the ability to <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#method-3-custom-coupon-codes">create custom coupon</a> codes in Adobe Commerce as a Cloud Service.</p>
-</td>
-      <td>
-        Major update
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/4b59525dc5d2d9a8ec1fe4271bf4c9dee8e02c15">commit</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### June 2, 2026
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Description</th>
-      <th>Type</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Updated the Commerce <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/import/data-import">data import</a> documentation with guidance about how to avoid unnecessary URL-rewrite generation during import operations.</p>
-</td>
-      <td>
-        Feedback, technical
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/b224cff0c5db4c1b318d3e7165aa34f4662f7e3e">commit</a></td>
     </tr>
   </tbody>
 </table>
