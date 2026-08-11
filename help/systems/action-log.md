@@ -48,7 +48,7 @@ For a detailed list of the configuration settings, see [Admin Actions Log Archiv
 
 >[!NOTE]
 >
->On the Adobe Commerce as a Cloud Service platform, you cannot configure the Action log report, Action log archive, and Bulk actions log, but you can review the report output from **[!UICONTROL System]** > _[!UICONTROL Action Logs]_ menu in the Admin. 
+>On the [!DNL Adobe Commerce as a Cloud Service] platform, you cannot configure the Action log report, Action log archive, and Bulk actions log, but you can review the report output from **[!UICONTROL System]** > _[!UICONTROL Action Logs]_ menu in the Admin. 
 
 ## Configure Admin actions for logging
 
