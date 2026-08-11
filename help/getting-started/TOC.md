@@ -6,6 +6,7 @@ role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
 nudge: true
+color: red
 ---
 
 # Adobe Commerce Admin Getting Started Guide {#start}

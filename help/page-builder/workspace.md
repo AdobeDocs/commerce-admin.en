@@ -27,6 +27,7 @@ topic_v2:
     internal-label: Customer engagement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
+last-update: 2025-11-14
 ---
 # [!DNL Page Builder] Workspace
 

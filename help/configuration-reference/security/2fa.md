@@ -3,7 +3,7 @@ title: "[!UICONTROL Security] &gt; [!UICONTROL 2FA]"
 description: Review the configurations settings on the [!UICONTROL Security] &gt; [!UICONTROL 2FA] page of the Commerce Admin.
 exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 feature: Configuration, Security
-TQID: https://experienceleague.adobe.com/-5t8bTj14iB---88TotUNefATWwE80LTswPO3xVWU70
+TQID: https://experienceleague.adobe.com/-5t8bTj14iB%2D%2D%2D88TotUNefATWwE80LTswPO3xVWU70
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce

@@ -32,7 +32,7 @@ topic_v2:
 ---
 # Attribute input types
 
-When viewed from the Admin, attributes are the fields that you complete when you create a product. The input type that is assigned to an attribute determines the type of data that can be entered and the format of the field or input control. From the standpoint of the customer, attributes provide information about the product, and are the options and data entry fields that must be completed to purchase a product.
+When viewed from the Admin, attributes are the fields that you complete when you create a product. The input type that is assigned to an attribute determines the type of data that can be entered and the format of the field or input control. For the customer, attributes provide information about the product, and are the options and data entry fields that must be completed to purchase a product.
 
 ## Input types
 
@@ -53,13 +53,13 @@ When viewed from the Admin, attributes are the fields that you complete when you
 |[!UICONTROL Fixed Product Tax]|Lets you define [FPT rates](../stores-purchase/fixed-product-tax.md) based on the requirements of your locale.|
 |[!UICONTROL Visual Swatch]|Displays a swatch that depicts the color, texture, or pattern of a configurable product. A [visual swatch](swatches.md) can be filled with a hexadecimal color value, or display an uploaded image that represents the color, material, texture, or pattern of the option.|
 |[!UICONTROL Text Swatch]|A text-based representation of a configurable product option that is frequently used for size. [Text swatches](swatches.md) can also include hexadecimal color values.|
-|[!UICONTROL Page Builder]|A [[!DNL Page Builder]](../page-builder/workspace.md) workspace at the attribute location that makes it easy to add engaging content to the product page.|
+|[!UICONTROL Page Builder] [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."} |A [[!DNL Page Builder]](../page-builder/workspace.md) workspace at the attribute location that makes it easy to add engaging content to the product page.|
 
 {style="table-layout:auto"}
 
 ## Date and time options
 
-You can customize the format of date and time fields, and select the input control that is used for data entry. Dates values can be selected from a drop-down list, or pop-up calendar.
+You can customize the format of date and time fields, and select the input control that is used for data entry. Date values can be selected from a drop-down list, or pop-up calendar.
 
 ![Example - storefront popup calendar](./assets/storefront-popup-calendar.png){width="700" zoomable="yes"}
 
