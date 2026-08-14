@@ -4,6 +4,7 @@ description: Review the configurations settings on the [!UICONTROL Advanced] &gt
 exl-id: 546b8d01-9611-4415-ab2b-29be560316f5
 role: Admin
 feature: Configuration, Admin Workspace
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 TQID: https://experienceleague.adobe.com/nLIhR9z4VAqGUnR2MqQOav3sHg4tnjObhj36K-P08TE
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

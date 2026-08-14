@@ -46,6 +46,10 @@ View the [Action Logs Report](action-log-report.md) to review logged admin actio
 
 For a detailed list of the configuration settings, see [Admin Actions Log Archiving](../configuration-reference/advanced/system.md) in the _Configuration Reference_.
 
+>[!NOTE]
+>
+>On the [!DNL Adobe Commerce as a Cloud Service] platform, you cannot configure the Action log report, Action log archive, and Bulk actions log, but you can review the report output from **[!UICONTROL System]** > _[!UICONTROL Action Logs]_ menu in the Admin. 
+
 ## Configure Admin actions for logging
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
