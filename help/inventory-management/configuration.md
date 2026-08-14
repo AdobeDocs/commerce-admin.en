@@ -1,6 +1,6 @@
 ---
-title: Configure [!DNL Inventory Management]
-description: Learn about the configuration of [!DNL Inventory Management] options that determine source availability, storefront products, and order shipment.
+title: "Configure [!DNL Inventory Management]"
+description: Overview of [!DNL Inventory Management] configuration at the catalog and product level for storefront display, stock, and shipment behavior.
 exl-id: 1696999e-77b1-45c7-9b0b-dd1512427cff
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/3ay4K29pe2WkzYT-A5NXh83sHRvd5YJ8aoVqusrbZeE

@@ -1,6 +1,6 @@
 ---
-title: "[!DNL Inventory Management] release notes"
-description: Review the release notes for information about all [!DNL Inventory Management] releases.
+title: '[!DNL Inventory Management] release notes'
+description: Review [!DNL Inventory Management] release notes for new features, fixes, and known issues in each Community Engineering module version.
 exl-id: 856b9503-7621-4beb-ac2f-3eb1a240cebc
 feature: Inventory, Release Notes
 TQID: https://experienceleague.adobe.com/UaHQorWcNwDPzAMuV-e27DDH-G5D0k5qENPTINNfiTk

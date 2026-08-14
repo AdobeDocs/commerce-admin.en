@@ -1,6 +1,6 @@
 ---
 title: Create multi-source shipments
-description: Learn how multi-source merchants can create and send shipments.
+description: Create multi-source shipments in the Admin using Source Selection Algorithm recommendations or manual per-source quantities.
 exl-id: d2995139-0fc3-4379-a4ec-b0d38ed566bb
 feature: Inventory, Shipping/Delivery
 TQID: https://experienceleague.adobe.com/IpRJ-mlwOVkNJymlJFV8o-aQp1oDU-xyNE7C6iVDR2E

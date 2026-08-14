@@ -1,6 +1,6 @@
 ---
 title: Configure the Source Priority Algorithm
-description: Learn how to configure the source priority used for the order of assigned sources in your stock to make recommendations.
+description: Configure source priority order in a stock so the Source Priority algorithm recommends sources for shipments and deductions.
 exl-id: 7b25212d-0cd0-4280-be23-c67f06db900a
 feature: Inventory, Shipping/Delivery
 TQID: https://experienceleague.adobe.com/TB4THYjkzbNvEbsjNzOewNtYS6JoRvLDiQQCovSMkbI

@@ -1,6 +1,6 @@
 ---
-title: Configure [!DNL Inventory Management] backorders
-description: Learn how to configure backorders to support sale of out-of-stock products.
+title: "Configure [!DNL Inventory Management] backorders"
+description: Configure global and per-product backorders in [!DNL Inventory Management] to sell and ship products when on-hand quantity is zero.
 exl-id: 2fe778df-781e-4cda-8b85-47cf973c9e94
 feature: Inventory, Orders
 TQID: https://experienceleague.adobe.com/-lJVY97Onykamv--OTs7byd-lNcuNTdgRBs-59A-h1c

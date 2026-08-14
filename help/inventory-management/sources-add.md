@@ -1,6 +1,6 @@
 ---
 title: Add an inventory source
-description: Learn how to create a source for a location, such as a warehouse, brick-and-mortar store, distribution center, or drop shipper.
+description: Add a [!DNL Inventory Management] source in the Admin for a warehouse, store, distribution center, or other fulfillment location.
 exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/hDIRVPayqLXgx3nxOSeDf6R7sT9t6d9AFGEeyQpyj6o
@@ -30,7 +30,7 @@ topic_v2:
 ---
 # Add a source
 
-Manage inventory and order fulfillment from multiple locations with custom sources. Create a source for each location such as warehouses, brick-and-mortar stores, distribution centers, and drop shippers. Assign sources and update quantities per product
+Manage inventory and order fulfillment from multiple locations with custom sources. Create a source for each location such as warehouses, brick-and-mortar stores, distribution centers, and drop shippers. Assign sources and update quantities per product.
 
 If editing the Default Source, you can edit all configurations except name and code. It is recommended that single-source merchants add information matching their location.
 

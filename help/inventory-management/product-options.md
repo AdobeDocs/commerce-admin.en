@@ -1,6 +1,6 @@
 ---
-title: Configure [!DNL Inventory Management] product options
-description: Learn how to configure the [!DNL Inventory Management] product configuration options.
+title: "Configure [!DNL Inventory Management] product options"
+description: Configure per-product [!DNL Inventory Management] and Advanced Inventory options that override global stock and source settings.
 exl-id: b5cff7d2-5197-4362-9503-b07c80793ac7
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/Fz3Z2nuzHQygjnE5EZYNYi2riXQ1fV2Ufn0sNmjns2s

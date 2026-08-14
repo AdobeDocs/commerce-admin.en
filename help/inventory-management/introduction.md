@@ -1,6 +1,6 @@
 ---
-title: Introduction to Inventory Management
-description: Learn how to use [!DNL Inventory Management] features to manage stock in multiple locations so that your [!DNL Commerce] store accurately reflects the physical inventory.
+title: Introduction to [!DNL Inventory Management]
+description: "Learn how to use [!DNL Inventory Management] for [!DNL Commerce] to manage inventory across sources and stocks, calculate salable quantities, track reservations, and support order fulfillment. Use the Admin to configure settings and generate reports, and the command-line interface for setup and background changes."
 exl-id: 6a7dd27e-248f-4c40-b2db-0d70529422a1
 TQID: https://experienceleague.adobe.com/7v-G-DZEki7y-4HSmq-rJxsmu6vih26jRYYCRRUF-XY
 product_v2:
@@ -27,31 +27,39 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 ---
-# Introduction to Inventory Management
+# Introduction to [!DNL Inventory Management]
 
-[!DNL Inventory Management] for [!DNL Commerce] gives you the tools to manage your product inventory. Merchants with a single store to multiple warehouses, stores, pickup locations, drop shippers, and more can use these features to maintain quantities for sales and handle shipments to complete orders. You can track your inventory quantities, provide accurate salable stock amounts to customers for all of your websites, and ship according to recommendations based on distance or priority. You can also configure your preferred product configurations globally (for all stores and products), per source, and per product. These features grow with your business, allowing you to work from a single warehouse or a complex shipping network with a few additional settings.
+[!DNL Inventory Management] for [!DNL Commerce] helps merchants manage inventory across one or more websites and physical or virtual product locations. It provides tools in the Admin and command-line interface to configure inventory, track on-hand and aggregate salable quantities, protect inventory during checkout, and support order fulfillment. You can use [!DNL Inventory Management] for a single source or a multi-source network that includes warehouses, stores, pickup locations, drop shippers, and other fulfillment locations.
+
+## Ways to use [!DNL Inventory Management]
+
+- **Admin:** Set inventory options and generate inventory reports.
+- **Command-line interface:** Run setup commands and apply inventory changes in the background.
+- **Configuration scope:** Configure inventory settings globally, per source, or per product.
+
+## Key features
 
 [!DNL Inventory Management] features include:
 
-- Different configurations for merchants whose inventory originates from a single source and from multiple sources
-- Stocks for tracking available aggregated quantities through assigned sources
+- Different configurations for merchants whose inventory originates from a single source or from multiple sources
+- Stocks for tracking aggregated salable quantities across assigned sources
 - Concurrent checkout protection
-- Shipment matching algorithms
+- Shipment-matching algorithms that support fulfillment recommendations based on distance or priority
 
 >[!NOTE]
 >
 >These features were developed as part of the [Inventory Management](https://github.com/magento/inventory) (formerly MSI) project through the Community Engineering program.<br/>
 >
->The [!DNL Inventory Management] module is installed with Magento Open Source and Adobe Commerce, with all features enabled by default. For information about changes included in module releases, see the [Release Notes](release-notes.md). 
+>The [!DNL Inventory Management] module is installed with Magento Open Source and Adobe Commerce, with all features enabled by default. For information about changes included in module releases, see the [Release Notes](release-notes.md).
 
 ## Basic terminology
 
 It is important to understand the following terms as you work with [!DNL Inventory Management]:
 
-[!UICONTROL **Sources**] represent physical locations that store and ship available products. These locations can include warehouses, brick-and-mortar stores, distribution centers, and drop shippers. (Any location can be designated as a source for virtual products.)
+[!UICONTROL Sources] represent physical locations that store and ship available products. See [Stocks and sources](sources-stocks.md) for examples and diagrams. (Any location can be designated as a source for virtual products.)
 
-[!UICONTROL **Stocks**] map a sales channel (currently limited to websites) to source locations and on-hand inventory. A stock can map to multiple sales channels, but a sales channel can be assigned to only one stock.
+[!UICONTROL Stocks] map a sales channel (currently limited to websites) to source locations and on-hand inventory. A stock can map to multiple sales channels, but a sales channel can be assigned to only one stock.
 
-[!UICONTROL **Aggregate Salable Quantity**] is the total virtual inventory that can be sold through a sales channel. The amount is calculated across all sources assigned to a stock.
+[!UICONTROL Aggregate Salable Quantity] is the total virtual inventory that can be sold through a sales channel. The amount is calculated across all sources assigned to a stock.
 
-[!UICONTROL **Reservations**] track deductions from the salable quantity as customers add products to carts and complete checkout. When an order ships, the reservation clears and deducts the shipped amounts from specific source inventory quantities.
+[!UICONTROL Reservations] track deductions from the salable quantity as customers add products to carts and complete checkout. When an order ships, the reservation clears and deducts the shipped amounts from specific source inventory quantities.
