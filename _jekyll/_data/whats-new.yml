@@ -2,7 +2,7 @@
 title: What's new
 description: This section contains the changes made in the last 60 days. We exclude
   all minor updates, such as copy editing, from this list.
-updated: Fri Aug 7 15:20:28 2026
+updated: Fri Aug 14 15:20:25 2026
 entries:
 - description: Refreshed the [Data Feed Sync Status](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status)
     topic to match the current Admin experience, clarify that the page reports export
