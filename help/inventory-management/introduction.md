@@ -1,7 +1,6 @@
 ---
 title: Introduction to [!DNL Inventory Management]
-description: "Learn how to use [!DNL Inventory Management] for [!DNL Commerce] to manage inventory across sources and stocks, calculate salable quantities, track reservations, and support order fulfillment. Use the Admin to configure settings and generate reports, and the command-line interface for setup and background changes.
-
+description: "Learn how to use [!DNL Inventory Management] for [!DNL Commerce] to manage inventory across sources and stocks, calculate salable quantities, track reservations, and support order fulfillment. Use the Admin to configure settings and generate reports, and the command-line interface for setup and background changes."
 exl-id: 6a7dd27e-248f-4c40-b2db-0d70529422a1
 TQID: https://experienceleague.adobe.com/7v-G-DZEki7y-4HSmq-rJxsmu6vih26jRYYCRRUF-XY
 product_v2:
