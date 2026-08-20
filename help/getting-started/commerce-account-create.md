@@ -48,7 +48,7 @@ You can access your [!DNL Commerce] account from the [!DNL Commerce] website. Fr
 
 Your [!DNL Commerce] account login is separate from your store Admin login. You will normally use different credentials for each, and access to each system is managed independently.
 
-However, a user who wants to streamline their login to Adobe Commerce and Adobe Business products can configure their Adobe ID to log in to the store Admin: [Configure the Commerce Admin Integration with Adobe ID](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config) in the *IMS Integration Guide for Commerce*.
+However, a user who wants to streamline their login to Adobe Commerce and Adobe Business products can configure their Adobe ID to log in to the store Admin: [Configure the Commerce Admin Integration with Adobe ID](/help/getting-started/adobe-ims-config.md) in the *IMS Integration Guide for Commerce*.
 
 >[!NOTE]
 >
@@ -126,7 +126,7 @@ Anyone can create a free [!DNL Commerce] account. The email address that you use
 
 Shared Access allows you to grant trusted users—such as colleagues, partners, or administrators—permission to manage your Adobe Commerce relationship on your behalf without using your personal login. This includes allowing others to open and track support cases.
 
-See the [Share a Commerce account](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share?lang=en) section of Adobe Commerce Getting Started Guide for detailed steps on setting up a shared account.
+See the [Share a Commerce account](/help/getting-started/commerce-account-share.md) section of Adobe Commerce Getting Started Guide for detailed steps on setting up a shared account.
 
 For detailed instructions on submitting a Commerce support case, see the [Adobe Commerce Help Center user guide](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case).
 

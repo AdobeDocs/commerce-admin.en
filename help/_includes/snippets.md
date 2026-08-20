@@ -7,19 +7,19 @@ description: Reused notes and visual elements to note a feature or page applying
 ## EE only feature {#ee-feature}
 
 <table style="border:1px solid red">
-<tr><td><img alt="Adobe Commerce feature" src="/help/assets/adobe-logo.svg" width="20" height="20" /> This is an exclusive feature that is available only in Adobe Commerce and is not available in Magento Open Source. (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">Learn more</a>)</td></tr>
+<tr><td><img alt="Adobe Commerce feature" src="/help/assets/adobe-logo.svg" width="20" height="20" /> This is an exclusive feature that is available only in Adobe Commerce and is not available in Magento Open Source. (<a href="/help/landing/home.md#product-editions">Learn more</a>)</td></tr>
 </table>
 
 ## B2B only feature {#b2b-feature}
 
 <table style="border:1px solid green">
-<tr><td><img alt="Adobe Commerce B2B feature" src="/help/assets/b2b.svg" width="20" height="20" /> Exclusive feature available only with <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html">Adobe Commerce B2B</a></td></tr>
+<tr><td><img alt="Adobe Commerce B2B feature" src="/help/assets/b2b.svg" width="20" height="20" /> Exclusive feature available only with <a href="/help/b2b/introduction.md">Adobe Commerce B2B</a></td></tr>
 </table>
 
 ## CE only feature {#ce-feature}
 
 <table style="border:1px solid orange">
-<tr><td><img alt="Magento Open Source feature" src="/help/assets/open-source.svg" width="20" height="20" /> Alternative method is required for Magento Open Source (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">Learn more</a>)</td></tr>
+<tr><td><img alt="Magento Open Source feature" src="/help/assets/open-source.svg" width="20" height="20" /> Alternative method is required for Magento Open Source (<a href="/help/landing/home.md#product-editions">Learn more</a>)</td></tr>
 </table>
 
 ## IMS admin authentication note {#ims-admin-note}

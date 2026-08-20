@@ -34,7 +34,7 @@ topic_v2:
 
 >[!TIP]
 >
->With the installation and enablement of Adobe Commerce B2B, the buying experience can be personalized with company-specific features. Adobe Commerce B2B is an integrated solution that supports both B2B and B2C models. For more information about the B2B features, see the [Adobe Commerce B2B User Guide](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>With the installation and enablement of Adobe Commerce B2B, the buying experience can be personalized with company-specific features. Adobe Commerce B2B is an integrated solution that supports both B2B and B2C models. For more information about the B2B features, see the [Adobe Commerce B2B User Guide](/help/b2b/introduction.md).
 
 {{config}}
 

@@ -49,13 +49,13 @@ The AEM Assets Integration for Commerce extension has the following system and c
 
 You need the following roles and permissions to set up the integration.
 
-- [Commerce cloud project administrator](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access)—Install required extensions and configure the Commerce application server from the Admin or the command line.
+- [Commerce cloud project administrator](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/user-access)—Install required extensions and configure the Commerce application server from the Admin or the command line.
 
   - Access [repo.magento.com](https://repo.magento.com/admin/dashboard) to install the extension.
 
-    For key generation and obtaining the necessary rights, see [Get your authentication keys](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). For cloud installations, see the [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
+    For key generation and obtaining the necessary rights, see [Get your authentication keys](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). For cloud installations, see the [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/authentication-keys)
 
-- [Commerce Admin](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview)—Update store configuration and manage Commerce user accounts.
+- [Commerce Admin](/help/getting-started/guide-overview.md)—Update store configuration and manage Commerce user accounts.
 
 >[!TIP]
 >

@@ -56,7 +56,7 @@ The following scenarios describe the available transfer options based on these c
 
 >[!NOTE]
 >
->As Adobe Commerce continues to integrate with other Adobe solutions, an Adobe Commerce account (MAGEID) now requires an association with an Adobe ID. The Adobe ID uses the same email address connected to your [Adobe Commerce account](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create?lang=en#create-a-commerce-account).
+>As Adobe Commerce continues to integrate with other Adobe solutions, an Adobe Commerce account (MAGEID) now requires an association with an Adobe ID. The Adobe ID uses the same email address connected to your [Adobe Commerce account](/help/getting-started/commerce-account-create.md#create-a-commerce-account).
 
 ## Verify an Adobe ID email change
 
@@ -75,7 +75,7 @@ Several transfer paths use the same verification workflow on [account.adobe.com]
 >Review the [transfer types](#identify-your-transfer-type) and confirm that this path matches your situation:
 >
 >- The current owner is still with the company.
->- The current owner either does not have an Adobe ID, or has an Adobe ID that is not connected to their [Adobe Commerce account (MAGEID)](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create?lang=en#create-a-commerce-account).
+>- The current owner either does not have an Adobe ID, or has an Adobe ID that is not connected to their [Adobe Commerce account (MAGEID)](/help/getting-started/commerce-account-create.md#create-a-commerce-account).
 >- The new owner does not have an Adobe ID and does not have an Adobe Commerce account.
 
 Use this path when the current owner has a MAGEID that is not yet linked to an Adobe ID. The current owner first creates and links an Adobe ID, then changes that Adobe ID email address to the new owner's email address.
@@ -113,7 +113,7 @@ After the new owner verifies the email address, continue to [Final steps](#final
 >Review the [transfer types](#identify-your-transfer-type) and confirm that this path matches your situation:
 >
 >- The current owner is still with the company.
->- The current owner has an Adobe ID that is connected to their [Adobe Commerce account (MAGEID)](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create?lang=en#create-a-commerce-account).
+>- The current owner has an Adobe ID that is connected to their [Adobe Commerce account (MAGEID)](/help/getting-started/commerce-account-create.md#create-a-commerce-account).
 >- The new owner has an Adobe ID that is not connected to an Adobe Commerce account.
 
 Before you begin, note that this transfer type results in the current account owner losing access to other Adobe products tied to that Adobe ID.
@@ -137,7 +137,7 @@ After the new owner verifies the email address, continue to [Final steps](#final
 >Review the [transfer types](#identify-your-transfer-type) and confirm that this path matches your situation:
 >
 >- The current owner is no longer with the company, but emails sent to the current owner's company email address are still accessible, or your IT team can forward those emails to an authorized contact.
->- The current owner has an Adobe ID that is connected to their [Adobe Commerce account (MAGEID)](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create?lang=en#create-a-commerce-account).
+>- The current owner has an Adobe ID that is connected to their [Adobe Commerce account (MAGEID)](/help/getting-started/commerce-account-create.md#create-a-commerce-account).
 >- The new owner has an Adobe ID that is connected to their Adobe Commerce account.
 
 This transfer type uses a temporary email address to switch account ownership when both the current owner and new owner have existing Adobe IDs, and you want to retain both Adobe IDs. To complete the ownership transfer, you must use a temporary email address that is not associated with an Adobe ID.

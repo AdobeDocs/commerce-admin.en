@@ -37,7 +37,7 @@ Merchants who have integrated their Commerce instance with the Adobe IMS authent
 
 Commerce deployments revert to the default Commerce authentication workflow and password policies after the IMS integration is disabled. Only admin user workflows are affected when this integration is either enabled or disabled. 
 
-See [Your Admin account](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html) for an overview of the Commerce Admin sign-in.
+See [Your Admin account](/help/getting-started/admin-signin.md) for an overview of the Commerce Admin sign-in.
 
 ## Step 1: Disable the integration 
 
@@ -61,7 +61,7 @@ After disabling the integration, admin users must use a Commerce password to log
 
 * Commerce admin users who remember their pre-existing Commerce password (that is, a Commerce password that was created before the IMS integration) can use it to log in to the Admin.
 
-* Commerce admin users who either do not have a pre-existing Commerce password or have forgotten it must create a new password. To create a new password, admin users can use the [!UICONTROL Forgot your password?] feature on the Commerce login page to create a new password. See [Reset customer passwords](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/password-reset.html). Commerce will not accept an empty password field.
+* Commerce admin users who either do not have a pre-existing Commerce password or have forgotten it must create a new password. To create a new password, admin users can use the [!UICONTROL Forgot your password?] feature on the Commerce login page to create a new password. See [Reset customer passwords](/help/customers/password-reset.md). Commerce will not accept an empty password field.
 
 ## After disabling the integration
 

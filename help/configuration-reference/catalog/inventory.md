@@ -34,7 +34,7 @@ topic_v2:
 
 >[!NOTE]
 >
->[!DNL Inventory Management] for Adobe Commerce and Magento Open Source gives you the tools to manage your product inventory. Merchants with a single store to multiple warehouses, stores, pickup locations, drop shippers, and more can use these features to maintain quantities for sales and handle shipments to complete orders. For more information about these features and how you can use them to manage stock in multiple locations, see the [_[!DNL Inventory Management] User Guide_](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html).
+>[!DNL Inventory Management] for Adobe Commerce and Magento Open Source gives you the tools to manage your product inventory. Merchants with a single store to multiple warehouses, stores, pickup locations, drop shippers, and more can use these features to maintain quantities for sales and handle shipments to complete orders. For more information about these features and how you can use them to manage stock in multiple locations, see the [_[!DNL Inventory Management] User Guide_](/help/inventory-management/introduction.md).
 
 ## [!UICONTROL Stock Options]
 

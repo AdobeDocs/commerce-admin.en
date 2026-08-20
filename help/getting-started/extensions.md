@@ -145,7 +145,7 @@ Adobe offers additional extensions that must be installed separately using Compo
 
 [!DNL Adobe Commerce B2B] is an integrated extension that transforms standard Commerce stores into comprehensive business-to-business platforms. It enables companies to manage complex organizational structures with multiple buyers, custom roles, and purchasing permissions under unified company accounts. Key functionalities include company-specific catalogs and pricing, negotiable quotes, purchase order management, requisition lists, and quick ordering capabilities. The solution supports both B2B and B2C models on a single instance, making it flexible for diverse business needs. The extension requires a separate license and seamlessly integrates with Adobe Commerce's core features to provide a complete B2B e-commerce solution.
 
-For provisioning, contact your Adobe Account Representative. For implementation details and configuration steps, see the [[!DNL B2B for Adobe Commerce] User Guide](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+For provisioning, contact your Adobe Account Representative. For implementation details and configuration steps, see the [[!DNL B2B for Adobe Commerce] User Guide](/help/b2b/introduction.md).
 
 ### [!DNL AEM Assets Integration for Commerce]
 

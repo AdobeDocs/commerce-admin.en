@@ -38,7 +38,7 @@ Your [!DNL Commerce] account contains information that you can make available to
 
 The primary account holder has the authority to grant limited access to other [!DNL Commerce] account holders. Shared access can be revoked, but not transferred. For ``Cloud Shared Access from MAG[XYZ]`` entries, the user record **cannot be deleted here**, but access **can still be revoked**.
 
-Only the primary account holder with the appropriate permissions can formally grant shared access. If the primary account holder no longer has access or has left the company, the customer should use the [Commerce account transfer process](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-transfer) to move ownership to a new contact. Although the Commerce Support team may be able to impersonate the customer in limited scenarios, shared access should be configured by the customer to reduce security and liability risk.
+Only the primary account holder with the appropriate permissions can formally grant shared access. If the primary account holder no longer has access or has left the company, the customer should use the [Commerce account transfer process](/help/getting-started/commerce-account-transfer.md) to move ownership to a new contact. Although the Commerce Support team may be able to impersonate the customer in limited scenarios, shared access should be configured by the customer to reduce security and liability risk.
 
 
 ![Shared access settings](./assets/shared-access.png){width="600" zoomable="yes"}
@@ -53,7 +53,7 @@ The Billing History section shows only older invoices that were created before a
 
 1. Before you begin, get the following information from the [!DNL Commerce] account of the **new shared access grantee**:
 
-   - The user must have already registered for an account at account.adobe.com and be logged in through account.magento.com. See [Create a Commerce account](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account) for more details.
+   - The user must have already registered for an account at account.adobe.com and be logged in through account.magento.com. See [Create a Commerce account](/help/getting-started/commerce-account-create.md#create-a-commerce-account) for more details.
    - The `MAGE ID/Account ID (MAG00XXXXXXX)` is displayed in the upper-left corner of the _[!UICONTROL Magento]_ tab, just above the **Log Out** link.
    - The `Email` address that is associated with the account.
 
@@ -91,7 +91,7 @@ The Billing History section shows only older invoices that were created before a
 
 >[!NOTE]
 >
->It is not necessary to share access to the _[!UICONTROL Security Tool]_ - Any user with a MAGE ID can set up the Security Scan Tool with their own account. They just need the necessary privileges to make changes to the site and to verify ownership of the domain using one of the [required methods](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan)).
+>It is not necessary to share access to the _[!UICONTROL Security Tool]_ - Any user with a MAGE ID can set up the Security Scan Tool with their own account. They just need the necessary privileges to make changes to the site and to verify ownership of the domain using one of the [required methods](/help/systems/security-scan.md)).
 
 ## Access a shared account
 
