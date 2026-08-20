@@ -49,7 +49,7 @@ The _[!UICONTROL Cache Management]_ page shows the status of each primary cache 
 
 After clearing a cache, always refresh your browser to make sure that you can see the most recent files. Clearing the Commerce cache does not clear your web browser cache. You might need to clear the browser cache to see updated content.
 
-Additional technical information about Adobe Commerce caching is available from the [Cache overview](https://developer.adobe.com/commerce/frontend-core/guide/caching/){:target="_blank"} in the _Commerce Frontend Development Guide_.
+Additional technical information about Adobe Commerce caching is available from the [Cache overview](https://developer.adobe.com/commerce/frontend-core/guide/caching){:target="_blank"} in the _Commerce Frontend Development Guide_.
 
 Access the _[!UICONTROL Cache Management]_ page by doing one of the following:
 
@@ -180,13 +180,13 @@ Developers and system integrators use these values to configure and manage cachi
 | [!UICONTROL Reflections]| Clears API interface reflection data, that typically is generated during runtime. |`REFLECTION`| `reflection` |
 | `Database DDL operations` | Database schema. If necessary, Commerce cleans up this cache automatically, but third-party developers can put any data in any segment of the cache. Clean or flush this cache type after you make custom changes to the database schema. (In other words, these are updates that Commerce does not make itself.) One way to update the database schema automatically is using the magento setup:db-schema:upgrade command. | `DB_DDL`               | `db_ddl`|
 | [!UICONTROL Compiled Config] | Results of code compilation. | `COMPILED_CONFIG` | `compiled_config`|
-| [!UICONTROL Webhooks Response Cache]| Caches responses to webhook requests. For more information, see the [Webhooks Guide](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes/#enhancements-2) in the Commerce developer documentation.                                | `WEBHOOKS_RESPONSE` | `webhooks_response`|
+| [!UICONTROL Webhooks Response Cache]| Caches responses to webhook requests. For more information, see the [Webhooks Guide](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes#enhancements-2) in the Commerce developer documentation.                                | `WEBHOOKS_RESPONSE` | `webhooks_response`|
 | [!UICONTROL EAV types and attributes] | Caches entity types declaration for metadata related to Entity Attribute Value (EAV) attributes. Attributes include store labels, links to related PHP code, attribute rendering, search settings, and so on. You typically do not need to clean or flush this cache type. | `EAV`| `eav`|
 | [!UICONTROL Customer Notification] | Temporary notifications that appear in the user interface. |`CUSTOMER_NOTIFICATION` | `customer_notification`|
 | [!UICONTROL GraphQL Query Resolver Results] | Caches the results from GraphQL query resolvers for customer, CMS page, CMS block, and product media gallery entities. Keep this cache enabled to improve GraphQL performance. | `GRAPHQL_QUERY_RESOLVER_RESULT` | `graphql_query_resolver_result` |
 | [!UICONTROL Integrations Configuration] | Integration configuration file. Clean or flush this cache after changing or adding integrations. | `INTEGRATION` | `config_integration` |
 | [!UICONTROL Integrations API Configuration] | Compiled integration APIs configuration for store integrations. | `INTEGRATION_API_CONFIG` | `config_integration_api` |
-| [!UICONTROL Admin UI SDK Cache] | Caches customizations to the Admin. See [Admin configuration and testing](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/configuration/) in the _Admin UI SDK Guide_. | `ADMIN_UI_SDK` | `admin_ui_sdk` |
+| [!UICONTROL Admin UI SDK Cache] | Caches customizations to the Admin. See [Admin configuration and testing](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/configuration) in the _Admin UI SDK Guide_. | `ADMIN_UI_SDK` | `admin_ui_sdk` |
 | [!UICONTROL Page Cache] | Full page caching. | `FPC` | `full_page` |
 | [!UICONTROL Target Rule] | Target Rule Index | `TARGET_RULE` | `target_rule`|
 | [!UICONTROL Web Services Configuration] | Caching the Web API structure. | `WEBSERVICE`| `config_webservice`|
@@ -227,7 +227,7 @@ For technical information, see [Configure and Use Varnish](https://experiencelea
 
 1. To set the timeout for the page cache, enter the **[!UICONTROL TTL for public content]**. (The default value is `86400`)
 
-1. To specify the maximum number of [layout handles](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) to process on the [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) HTTP endpoint, enter the **[!UICONTROL Handles param size]**. Restricting the size can improve security and performance. (The default value is `100`)
+1. To specify the maximum number of [layout handles](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) to process on the [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/varnish/use-varnish-esi) HTTP endpoint, enter the **[!UICONTROL Handles param size]**. Restricting the size can improve security and performance. (The default value is `100`)
 
 1. If using Varnish, complete the **[!UICONTROL Varnish Configuration]** section as follows:
 

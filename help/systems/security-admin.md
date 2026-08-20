@@ -58,7 +58,7 @@ In addition to the security settings in this section, [two-factor authentication
 >
 >Stores that have enabled [!DNL Adobe Identity Management Services] (IMS) authentication have native Adobe Commerce and Magento Open Source 2FA disabled. Admin users who are logged into their Commerce instance with their Adobe credentials do not need to reauthenticate for many Admin tasks. Authentication is handled by Adobe IMS when the Admin user logs into their current session. See [[!DNL Adobe Identity Management Service] (IMS) Integration Overview](../getting-started/adobe-ims-integration-overview.md).
 
-For technical information, see [Security overview](https://developer.adobe.com/commerce/php/architecture/basics/security/){:target="_blank"} in the developer documentation.
+For technical information, see [Security overview](https://developer.adobe.com/commerce/php/architecture/basics/security){:target="_blank"} in the developer documentation.
 
 ![Admin security](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
 

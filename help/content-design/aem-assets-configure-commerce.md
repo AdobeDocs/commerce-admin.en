@@ -177,13 +177,13 @@ The AEM Assets Integration uses the Adobe I/O Events service to send custom even
 Before configuring Adobe I/O Events, verify the RabbitMQ and cron job configuration for your Commerce project: 
 
 - Ensure that RabbitMQ is enabled and listening for events.
-  - [RabbitMQ Setup for Adobe Commerce on premises](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
-  - [RabbitMQ Setup for Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
-  - Verify that [cron jobs are enabled](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration). Cron jobs are required for communication and workflows for the AEM Assets integration.
+  - [RabbitMQ Setup for Adobe Commerce on premises](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/service/rabbitmq)
+  - [RabbitMQ Setup for Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/service/rabbitmq)
+  - Verify that [cron jobs are enabled](https://developer.adobe.com/commerce/extensibility/events/configure-commerce#check-cron-and-message-queue-configuration). Cron jobs are required for communication and workflows for the AEM Assets integration.
 
 >[!NOTE]
 >
-> For projects on Commerce version 2.4.5, you must [install the Adobe I/O modules](https://developer.adobe.com/commerce/extensibility/events/installation/#install-adobe-io-modules-on-commerce). In Commerce version 2.4.6+, these modules are loaded automatically. For the AEM Assets integration for Commerce, you only need to install the modules. App Builder setup is not required.
+> For projects on Commerce version 2.4.5, you must [install the Adobe I/O modules](https://developer.adobe.com/commerce/extensibility/events/installation#install-adobe-io-modules-on-commerce). In Commerce version 2.4.6+, these modules are loaded automatically. For the AEM Assets integration for Commerce, you only need to install the modules. App Builder setup is not required.
 
 
 ### Enable the Commerce Eventing framework
@@ -288,7 +288,7 @@ On the Integrations page, generate the OAuth authentication credentials by click
 
 >[!NOTE]
 >
->You can also generate authentication credentials using the Adobe Commerce APIs. For details about this process and more information about OAuth-based authentication for Adobe Commerce, see [OAuth-based authentication](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) in the Adobe Developer documentation.
+>You can also generate authentication credentials using the Adobe Commerce APIs. For details about this process and more information about OAuth-based authentication for Adobe Commerce, see [OAuth-based authentication](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth) in the Adobe Developer documentation.
 
 ## Next step
 

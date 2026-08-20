@@ -54,19 +54,19 @@ The following resources provide a starting point for new adopters to familiarize
 ### Commerce resources
 
 -  [Setting up I/O Events for Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/)
--  [Configuring Events for Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/)
+-  [Configuring Events for Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/configure-commerce)
 -  [Setting up Admin UI SDK](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
 -  [Converting an extension to an app](https://developer.adobe.com/commerce/extensibility/app-development/#how-do-i-port-an-extension-into-an-app)
 
 ### App Builder resources
 
 -  [Commerce App Builder Overview](https://developer.adobe.com/commerce/extensibility/app-development/)
--  [Setting up API Mesh for Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
--  [Deploying App Builder apps](https://developer.adobe.com/app-builder/docs/guides/deployment/)
--  [CI/CD for App Builder apps](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
+-  [Setting up API Mesh for Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic/)
+-  [Deploying App Builder apps](https://developer.adobe.com/app-builder/docs/guides/app_builder_guides/deployment/deployment)
+-  [CI/CD for App Builder apps](https://developer.adobe.com/app-builder/docs/guides/app_builder_guides/deployment/cicd-for-app-builder-apps)
 -  Getting Started with App Builder/Developer Console
-   -  [Getting started with App Builder](https://developer.adobe.com/app-builder/docs/getting_started/)
-   -  [Understanding Projects and Workspaces](https://developer.adobe.com/app-builder/docs/resources/videos/exploring/projects-and-workspaces/)
+   -  [Getting started with App Builder](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app)
+   -  [Understanding Projects and Workspaces](https://developer.adobe.com/app-builder/docs/resources/videos/exploring/projects-and-workspaces)
 
 ## [!DNL Marketplace] credentials
 

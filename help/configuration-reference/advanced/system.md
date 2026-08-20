@@ -210,7 +210,7 @@ For more information about changing these settings, see [Full-page caching](../.
 |--- |--- |--- |
 |[!UICONTROL Caching Application]|Global|Determines the application that is used to manage the full-page cache. Options: <br/>**`Built-in Application`** - Not recommended for the production environment. <br/>**`Varnish Caching`** - Recommended for the production environment.|
 |[!UICONTROL TTL for public content]|Global|Determines the lifetime of the public content cache in seconds. Default value: `120`|
-|[!UICONTROL Handles param size]| global|Specifies the maximum number of [layout handles](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) to process on the [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) HTTP endpoint. Restricting the size can improve security and performance. Default value: `100`|
+|[!UICONTROL Handles param size]| global|Specifies the maximum number of [layout handles](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) to process on the [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/varnish/use-varnish-esi) HTTP endpoint. Restricting the size can improve security and performance. Default value: `100`|
 |**[!UICONTROL Varnish Configuration]**|||
 |[!UICONTROL Access list]|Global|Specifies the IP addresses that can purge the Varnish configuration to generate a config file. Separate multiple entries with a comma. Default value: `localhost`|
 |[!UICONTROL Backend host]|Global|Specifies the backend host that generates config files. Default value: `localhost`|

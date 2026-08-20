@@ -67,9 +67,9 @@ The following steps show how to use a layout update to place a block on a page. 
 
 ### Step 2: Compose the layout update in XML
 
-1. Compose the layout instructions in XML to [Reference a CMS Block](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-manage/).
+1. Compose the layout instructions in XML to [Reference a CMS Block](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-manage).
 
-1. Save the [layout instructions](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-instructions/) on the server in the layout folder where XML files are saved for the theme.
+1. Save the [layout instructions](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-instructions) on the server in the layout folder where XML files are saved for the theme.
 
    For example:
 

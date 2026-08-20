@@ -336,7 +336,7 @@ The B2B v1.5.0 release includes new features, quality improvements, and bug fixe
 
 - **Manage company configuration at scale**<!--B2B-2849-->—Quickly change company configuration settings for selected companies using the *[!UICONTROL Change company setting]* bulk action now available when managing companies from the *[!UICONTROL Companies]* or *[!UICONTROL Company Hierarchy]* grid. For example, if you create a new shared catalog for a group of companies, you can change the shared catalog configuration in a single action instead of editing each company individually.
 
-- API Developers can use the new Company Relations REST API endpoint `/V1/company/{parentId}/relations` to create, view, and remove company assignments. See [Manage company objects](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/) in the *Web API Developer Guide*.
+- API Developers can use the new Company Relations REST API endpoint `/V1/company/{parentId}/relations` to create, view, and remove company assignments. See [Manage company objects](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object) in the *Web API Developer Guide*.
 
 #### Company accounts
 
@@ -515,13 +515,13 @@ The B2B v1.4.1 release includes quality improvements and bug fixes.
 
 - <!--ACP2E-1793-->The swatch selector for a configurable product is now displayed as expected in the requisition list item configuration page. Previously, the swatch selector was displayed as a dropdown field in the requisition list item configuration page.
 
-- <!--ACP2E-1968-->When using the [Company GraphQL query](https://developer.adobe.com/commerce/webapi/graphql/schema/b2b/company/queries/company/#return-the-company-structure) to return company details, results are now returned successfully without error.
+- <!--ACP2E-1968-->When using the [Company GraphQL query](https://developer.adobe.com/commerce/webapi/graphql/schema/b2b/company/queries/company#return-the-company-structure) to return company details, results are now returned successfully without error.
 
 ### B2B v1.4.0
 
 *June 13, 2023*
 
-[!BADGE Supported]{type=Informative tooltip="Supported"} [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Compatible with Adobe Commerce 2.4.7-beta1.
+[!BADGE Supported]{type=Informative tooltip="Supported"} [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/security-patches/2-4-6-patches). Compatible with Adobe Commerce 2.4.7-beta1.
 
 This release includes new capabilities and enhancements for B2B negotiable quotes and multiple bug fixes.
 

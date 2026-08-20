@@ -69,7 +69,7 @@ Commerce Admin APIs are affected when Admin authentication with Adobe IMS is ena
 
 After the Adobe IMS integration is enabled, admin users must use [Adobe IMS OAuth tokens](https://developer.adobe.com/developer-console/docs/guides/authentication/) for Adobe Commerce API endpoints that require authentication. Client solutions obtain the tokens dynamically for web API use. This authentication mechanism is enabled for REST and SOAP web API areas as part of configuring this integration.
 
-See [Token-based authentication](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-token/) for an overview of how web APIs use Commerce access tokens, including IMS access tokens.
+See [Token-based authentication](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-token) for an overview of how web APIs use Commerce access tokens, including IMS access tokens.
 
 ## Commerce session management and Adobe IMS access tokens
 

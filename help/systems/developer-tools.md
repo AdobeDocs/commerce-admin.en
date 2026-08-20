@@ -51,14 +51,14 @@ Use the advanced developer tools to determine the compilation mode during fronte
 
 Your Adobe Commerce or Magento Open Source instance can be deployed to run in either _production_ or _developer mode_. The tools and configuration settings that are designed specifically for developers can be accessed only while the store is running in _developer mode_.
 
-The operation mode can be changed only from the command line of the server by a user with appropriate permissions. See [Set the operation mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) in the _Configuration Guide_ for more information.
+The operation mode can be changed only from the command line of the server by a user with appropriate permissions. See [Set the operation mode](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode) in the _Configuration Guide_ for more information.
 
 Most topics in the merchant documentation apply to a Commerce instance that is running in production mode. However, the following configuration settings and tools can be used only when the installation is running in developer mode.
 
 ## Frontend development workflow
 
 The Frontend Development Workflow type determines if Less compilation takes place on the client- or server side during development. Less is an extension of CSS that has additional features and conventions, and that produces streamlined code. Client-side Less compilation is recommended for theme development. Server-side compilation is the default mode. The development workflow options are not available for stores in production mode.
-See [Client-side LESS compilation vs. server-side](https://developer.adobe.com/commerce/frontend-core/guide/css/quickstart/compilation-mode/){:target="_blank"} in the Commerce developer documentation.
+See [Client-side LESS compilation vs. server-side](https://developer.adobe.com/commerce/frontend-core/guide/css/quickstart/compilation-mode){:target="_blank"} in the Commerce developer documentation.
 
 >[!NOTE]
 >
@@ -193,7 +193,7 @@ Template path hints are a diagnostic tool that adds notation with the path to ea
 >
 >Template Path Hints can be edited in [developer mode](../systems/developer-tools.md#operation-modes) only.
 
-See [Locate templates, layouts, and styles](https://developer.adobe.com/commerce/frontend-core/guide/themes/debug/){:target="_blank"} in the Commerce developer documentation.
+See [Locate templates, layouts, and styles](https://developer.adobe.com/commerce/frontend-core/guide/themes/debug){:target="_blank"} in the Commerce developer documentation.
 
 ![Example storefront - template path hints](./assets/storefront-template-path-hints.png){width="700" zoomable="yes"}
 

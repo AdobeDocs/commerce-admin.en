@@ -34,7 +34,7 @@ topic_v2:
 ---
 # Integrations
 
-Defining an integration in the Commerce Admin establishes the location of OAuth credentials and redirect URL for third-party integrations, and identifies the available API resources that are needed for the integration. For more detailed information about the integration registration process, see [OAuth-based authentication](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) in the Commerce developer documentation.
+Defining an integration in the Commerce Admin establishes the location of OAuth credentials and redirect URL for third-party integrations, and identifies the available API resources that are needed for the integration. For more detailed information about the integration registration process, see [OAuth-based authentication](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth) in the Commerce developer documentation.
 
 ![Integrations](./assets/integrations.png){width="700" zoomable="yes"}
 
@@ -123,7 +123,7 @@ By default, the system does not permit anonymous guest access to CMS, catalog, a
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
-For additional information, see [Restricting access to anonymous web APIs](https://developer.adobe.com/commerce/webapi/rest/use-rest/anonymous-api-security/) in the Commerce developer documentation.
+For additional information, see [Restricting access to anonymous web APIs](https://developer.adobe.com/commerce/webapi/rest/use-rest/anonymous-api-security) in the Commerce developer documentation.
 
 ## Delete an integration
 

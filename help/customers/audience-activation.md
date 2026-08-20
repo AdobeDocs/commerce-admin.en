@@ -358,14 +358,14 @@ The following query returns all dynamic blocks associated with multiple audience
 }
 ```
 
-Learn more about the `dynamicBlocks` GraphQL query in the [developer documentation](https://developer.adobe.com/commerce/webapi/graphql/schema/store/queries/dynamic-blocks/).
+Learn more about the `dynamicBlocks` GraphQL query in the [developer documentation](https://developer.adobe.com/commerce/webapi/graphql/schema/store/queries/dynamic-blocks).
 
 ## Retrieve audiences using the Adobe Experience Platform Mobile SDK
 
 You can retrieve Real-Time CDP audiences using the Adobe Experience Platform Mobile SDK.
 
 1. [Install](#install-the-extension) the Audience Activation extension.
-1. [install and configure the SDK for your mobile Commerce site](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/mobile-sdk-epc.html).
+1. [install and configure the SDK for your mobile Commerce site](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/mobile-sdk-epc).
 
 >[!IMPORTANT]
 >
@@ -453,5 +453,5 @@ This issue can be caused by insufficient API privileges for the generated token.
 1. Open the credentials, then select **[!UICONTROL Roles]** -> **[!UICONTROL Add roles]**.
 1. Add the role that contains **[!UICONTROL Manage destinations]** permission.
 1. Click **[!UICONTROL Save]**.
-1. [Regenerate](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#generate-access-token) the access token in Console.
-1. Verify that token provides a valid response using the [Target Connections API](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/getTargetConnections).
+1. [Regenerate](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#generate-access-token) the access token in Console.
+1. Verify that token provides a valid response using the [Target Connections API](https://developer.adobe.com/experience-platform-apis/references/destinations#tag/Target-connections/operation/getTargetConnections).
