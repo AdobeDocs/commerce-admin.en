@@ -193,7 +193,7 @@ topic_v2:
 
 >[!NOTE]
 >
->The standard search configuration described in this section differs for [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
+>The standard search configuration described in this section differs for [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview).
 
 <!-- [Layered Navigation - Automatic (equalize price ranges)](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#configure-layered-navigation) -->
 
@@ -238,7 +238,7 @@ topic_v2:
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)| Description                                                                                                                                                                                                                                                                                                                                                                                              |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|[!UICONTROL Popular Search Terms]|Store View| Determines if _Popular Search Terms_ is implemented in the store. This setting does not apply to stores that use [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html). Options: `Enable` / `Disable`                                                                                                                                              |
+|[!UICONTROL Popular Search Terms]|Store View| Determines if _Popular Search Terms_ is implemented in the store. This setting does not apply to stores that use [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview). Options: `Enable` / `Disable`                                                                                                                                              |
 |[!UICONTROL Product URL Suffix]|Store View| Determines if a suffix, such as html or htm, is applied to product URLs. If used, do not include a period before the suffix, because it is applied automatically.                                                                                                                                                                                                                                        |
 |[!UICONTROL Category URL Suffix]|Store View| Determines if a suffix, such as html or htm, is applied to category URLs. If used, do not include a period before the suffix, because it is applied automatically.                                                                                                                                                                                                                                       |
 |[!UICONTROL Use Categories Path for Product URLs]|Store View| Determines if category paths are included in product URLs on the storefront. Doing so can cause multiple URLs to point to the same page, which might impact search rank. To learn more, see [Canonical meta tag](../../merchandising-promotions/meta-data.md#canonical-meta-tag).                                                                                                                                          |
@@ -265,7 +265,7 @@ topic_v2:
 
 ## [!UICONTROL Catalog Search]
 
-You can configure Catalog Search using [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) or third-party search engine services that Adobe Commerce supports. Follow the instructions for your installation.
+You can configure Catalog Search using [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) or third-party search engine services that Adobe Commerce supports. Follow the instructions for your installation.
 
 ### Adobe Commerce with [!DNL Live Search]
 

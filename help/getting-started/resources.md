@@ -47,7 +47,7 @@ Adobe provides a wealth of business and technical resources, self-help tools, an
 
 | Ecosystem resource | Description |
 | ------------------ | ----------- |
-|[Product documentation](https://experienceleague.adobe.com/docs/commerce.html)|Merchants, designers, and developers can use the documentation to gain a deeper insight into how they can apply the power of [!DNL Commerce] to grow their business.|
+|[Product documentation](https://experienceleague.adobe.com/en/docs/commerce)|Merchants, designers, and developers can use the documentation to gain a deeper insight into how they can apply the power of [!DNL Commerce] to grow their business.|
 |[Commerce Resources Library](https://business.adobe.com/resources/commerce.html)|Access Ebooks, Commerce whitepapers, and webinars to gain expert insight and online business resources to help develop and improve your store.|
 |[Adobe Product Security Incident Response](https://helpx.adobe.com/security.html)|Join the Security Alert Registry to get the latest information on potential vulnerabilities and [Security Best Practices](https://www.adobe.com/content/dam/cc/en/security/pdfs/Adobe-Magento-Commerce-Best-Practices-Guide.pdf).|
 |[Blog](https://business.adobe.com/blog/?ch_Products=Commerce)|Check out the blog for the latest information about new features, trends, best practices, upcoming events, and more.|

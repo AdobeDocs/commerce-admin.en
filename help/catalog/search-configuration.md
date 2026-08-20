@@ -56,7 +56,7 @@ There are two variations of the Catalog Search configuration. The first method d
 
    The default value is `100`. Entering a value of `0` caches all search terms and results when entered a second time.
 
-1. To change the maximum number of lines that are available for returned results in the [storefront pop over](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-storefront/quick-tour.html), enter a different **[!UICONTROL Autocomplete Limit]** value.
+1. To change the maximum number of lines that are available for returned results in the [storefront pop over](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview), enter a different **[!UICONTROL Autocomplete Limit]** value.
 
    Restricting the number of lines improves the performance of searches and reduces the size of the returned list. The default value is `8` lines.
 

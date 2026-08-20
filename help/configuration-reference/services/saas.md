@@ -29,7 +29,7 @@ topic_v2:
 ---
 # [!UICONTROL Services] > [!UICONTROL Commerce Services Connector]
 
-To learn how to connect your store to Adobe Commerce services, see [Commerce Services](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html).
+To learn how to connect your store to Adobe Commerce services, see [Commerce Services](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas).
 
 {{config}}
 
@@ -62,7 +62,7 @@ To learn how to connect your store to Adobe Commerce services, see [Commerce Ser
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |[!UICONTROL Project]|Global|Name of the SaaS project that groups all of your SaaS data spaces. A _Create Project_ button appears if no SaaS projects exist.|
-|[!UICONTROL Data Space]|Global|Lists the SaaS data spaces in the specified SaaS project. The number of SaaS data spaces depends on your [Commerce license](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html):<br />Adobe Commerce - One production data space; two testing data spaces;<br />Magento Open Source - One production data space; no testing data spaces|
+|[!UICONTROL Data Space]|Global|Lists the SaaS data spaces in the specified SaaS project. The number of SaaS data spaces depends on your [Commerce license](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas):<br />Adobe Commerce - One production data space; two testing data spaces;<br />Magento Open Source - One production data space; no testing data spaces|
 
 {style="table-layout:auto"}
 
