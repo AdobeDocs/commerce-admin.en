@@ -1,6 +1,6 @@
 ---
 title: Store localization
-description: Learn how to localize a store or store view.
+description: Learn how to localize a store or store view by changing its locale, which swaps the translation table used for navigation, labels, buttons, and links.
 exl-id: 64e1b431-f599-444c-9d39-207bb95f0400
 topic: Commerce, Localization
 TQID: https://experienceleague.adobe.com/nSFO5Er6Qj--sCbOzjSAhAsAXBxPpwwSinJhpsVNggc

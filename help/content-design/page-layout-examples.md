@@ -1,6 +1,6 @@
 ---
 title: Storefront layout examples
-description: Review the examples of page layout options.
+description: Review storefront page layout examples showing how column width, main content area, and sidebar placement change across different Adobe Commerce themes.
 exl-id: 1cda1175-269b-42b9-bf4e-9bf14483da1d
 badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 TQID: https://experienceleague.adobe.com/rYnP28GqKMyPGcZSkCWAJAjlA6tNv2Rr-l4DDegU-UQ
