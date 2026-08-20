@@ -32,13 +32,13 @@ topic_v2:
 
 As business responsibilities change, you might need to transfer your Adobe Commerce account to a new owner or to another email address. This transfer requires a change to the primary user email associated with the account.
 
-The following information describes the process for transferring an Adobe Commerce account (MAGEID). It does not include changes to Adobe Commerce on cloud infrastructure project ownership or [!DNL New Relic] ownership. For more information about cloud project access, see [Manage user access](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) in the _Commerce on Cloud Infrastructure Guide_.
+The following information describes the process for transferring an Adobe Commerce account (MAGEID). It does not include changes to Adobe Commerce on cloud infrastructure project ownership or [!DNL New Relic] ownership. For more information about cloud project access, see [Manage user access](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/user-access) in the _Commerce on Cloud Infrastructure Guide_.
 
 >[!IMPORTANT]
 >
 >If the new account owner purchased extensions using Shared Access, access to those extensions is lost as soon as the account transfer starts.
 >
->Before requesting the account transfer, make sure that the new owner retrieves the Order IDs for the purchases from [their [!DNL Commerce Marketplace] account](https://commercemarketplace.adobe.com/sales/order/history/) and requests a refund from the [[!DNL Commerce Marketplace] team](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case). Extension purchases cannot be transferred to a different account.
+>Before requesting the account transfer, make sure that the new owner retrieves the Order IDs for the purchases from [their [!DNL Commerce Marketplace] account](https://commercemarketplace.adobe.com/sales/order/history/) and requests a refund from the [[!DNL Commerce Marketplace] team](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case). Extension purchases cannot be transferred to a different account.
 
 ## Identify your transfer type
 

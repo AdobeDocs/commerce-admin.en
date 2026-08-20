@@ -79,7 +79,7 @@ Install the B2B extension (`magento/b2b-extension`) using Composer. The extensio
 >
 >When installing Adobe Commerce B2B on cloud infrastructure, Adobe recommends that you deploy your Adobe Commerce application to an Integration or Staging environment before beginning.
 
-Adobe recommends working in a development branch when adding the B2B extension to your project. If you do not have a branch, see [Create a branch for development](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches). When installing the B2B extension, the `Magento_B2b` extension name is automatically inserted in the `app/etc/config.php` file. There is no need to edit the file directly.
+Adobe recommends working in a development branch when adding the B2B extension to your project. If you do not have a branch, see [Create a branch for development](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/cli-branches). When installing the B2B extension, the `Magento_B2b` extension name is automatically inserted in the `app/etc/config.php` file. There is no need to edit the file directly.
 
 **To install the B2B extension**:
 
@@ -115,7 +115,7 @@ Adobe recommends working in a development branch when adding the B2B extension t
 
    >[!NOTE]
    >
-   >Pushing updates to the cloud environment initiates the Commerce cloud deployment process to apply the changes. Check the deployment status from the [deploy log](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process). If you encounter deployment errors, see [Recover from component failure](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment).
+   >Pushing updates to the cloud environment initiates the Commerce cloud deployment process to apply the changes. Check the deployment status from the [deploy log](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/deploy/process). If you encounter deployment errors, see [Recover from component failure](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/deploy/recover-failed-deployment).
 
 1. After the build and deploy finishes, use SSH to log in to the remote environment and verify that the B2B extension is installed and enabled.
 

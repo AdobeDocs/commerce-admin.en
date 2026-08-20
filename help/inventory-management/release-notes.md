@@ -299,7 +299,7 @@ New modules for [!DNL Inventory Management] 1.1.2 Beta include:
 
 [!DNL Inventory Management] 1.1.0 (module version: `inventory-composer-metapackage = 1.1.0`)  is supported and compatible with version 2.3.0 of Adobe Commerce, Adobe Commerce on cloud infrastructure, and the Magento Open Source code base. [!DNL Inventory Management] 1.1.1 is released only as a package name update, supported for version 2.3.1 and compatible with version 2.3.0 of Adobe Commerce, Adobe Commerce on cloud infrastructure, and the Magento Open Source code base.
 
-![Fixed issue](../assets/fix.svg) **Added support for Elasticsearch for single and multi-source modes** — You can now configure and use Elasticsearch with custom stocks. See [Set up Elasticsearch service](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html){target="_blank"} for installation information. <!-- PR https://github.com/magento/inventory/pull/1943 -->
+![Fixed issue](../assets/fix.svg) **Added support for Elasticsearch for single and multi-source modes** — You can now configure and use Elasticsearch with custom stocks. See [Set up Elasticsearch service](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/service/elasticsearch){target="_blank"} for installation information. <!-- PR https://github.com/magento/inventory/pull/1943 -->
 
 ![Fixed issue](../assets/fix.svg) Resolved performance issues with Default Stock to drastically increase performance with numerous operations. Improvements increase performance for single-source mode, Transfer Inventory to Source, Storefront Category pages, and Salable Quantity calculations.
 

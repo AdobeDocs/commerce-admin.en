@@ -32,11 +32,11 @@ topic_v2:
 ---
 # Configure catalog search
 
-There are two variations of the Catalog Search configuration. The first method describes the available settings when [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) is installed. The second method describes the configuration settings for native Adobe Commerce with [OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html){:target="_blank"}.
+There are two variations of the Catalog Search configuration. The first method describes the available settings when [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) is installed. The second method describes the configuration settings for native Adobe Commerce with [OpenSearch](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview){:target="_blank"}.
 
 >[!NOTE]
 >
->For cloud infrastructure projects, see additional instructions in the [_Commerce on Cloud Infrastructure Guide_](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/opensearch).
+>For cloud infrastructure projects, see additional instructions in the [_Commerce on Cloud Infrastructure Guide_](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/service/opensearch).
 
 ## Method 1: Adobe Commerce with [!DNL Live Search]
 

@@ -84,7 +84,7 @@ Use this method to install the [!DNL AEM Assets Integration] extension for a Com
 
    >[!NOTE]
    >
-   >For information about managing Commerce project environments locally, see [Managing branches with the CLI](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches) in the _Adobe Commerce on Cloud Infrastructure User Guide_.
+   >For information about managing Commerce project environments locally, see [Managing branches with the CLI](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/cli-branches) in the _Adobe Commerce on Cloud Infrastructure User Guide_.
 
 1. Check out the environment branch to update using the Adobe Commerce Cloud CLI.
 
@@ -114,7 +114,7 @@ Use this method to install the [!DNL AEM Assets Integration] extension for a Com
    git push origin <branch-name>
    ```
 
-   Pushing the updates initiates the [Commerce cloud deployment process](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process) to apply the changes. Check the deployment status from the [deploy log](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
+   Pushing the updates initiates the [Commerce cloud deployment process](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/deploy/process) to apply the changes. Check the deployment status from the [deploy log](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/test/log-locations#deploy-log).
 
 >[!TAB On-premises]
 
@@ -238,7 +238,7 @@ Before creating a snippet based on this example, review the values to determine 
 
 - `content`: The snippet of VCL code to run, which checks the client IP address. If the IP is in the Edge ACL, it is blocked from access with a `405 Not allowed` error for the entire website. All other client IP addresses are allowed access.
 
-For detailed information about using VCL snippets to block incoming requests, see [Custom VCL for blocking requests](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking) in the _Commerce on Cloud Infrastructure Guide_.
+For detailed information about using VCL snippets to block incoming requests, see [Custom VCL for blocking requests](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking) in the _Commerce on Cloud Infrastructure Guide_.
 
 >[!ENDSHADEBOX]
 

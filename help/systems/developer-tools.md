@@ -165,7 +165,7 @@ Before using a tool such as [template path hints](#template-path-hints), make su
 >
 >Developer Client Restrictions can be set in [Developer Mode](../systems/developer-tools.md#operation-modes) only.
 
-For technical information, see [Custom VCL for allowing requests](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html) in the _Commerce on Cloud Infrastructure Guide_.
+For technical information, see [Custom VCL for allowing requests](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist) in the _Commerce on Cloud Infrastructure Guide_.
 
 **_To add your IP address to the allowlist:_**
 
