@@ -264,7 +264,7 @@ You can activate audiences in a headless Adobe Commerce instance, such as AEM an
 
 ### Cart price rules and related product rules
 
-For cart price rules and related product rules, a headless storefront communicates to the Experience Platform through the [Commerce Integration Framework (CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). The framework provides a server-side API that is implemented using GraphQL. Audience information, such as a shopper's segment, passes to Commerce through a GraphQL header parameter named: `aep-segments-membership`.
+For cart price rules and related product rules, a headless storefront communicates to the Experience Platform through the [Commerce Integration Framework (CIF)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/content-and-commerce/cif-storefront/integrations/magento). The framework provides a server-side API that is implemented using GraphQL. Audience information, such as a shopper's segment, passes to Commerce through a GraphQL header parameter named: `aep-segments-membership`.
 
 The overall architecture is as follows:
 
