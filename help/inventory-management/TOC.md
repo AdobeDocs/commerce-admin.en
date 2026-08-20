@@ -53,4 +53,4 @@ nudge: true
   - [Overview](shipments.md)
   - [Create shipments](shipments-create.md)
 - [CLI reference](cli.md)
-- [Return to Admin User Guides](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
+- [Return to Admin User Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
