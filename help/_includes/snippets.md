@@ -50,7 +50,7 @@ description: Reused notes and visual elements to note a feature or page applying
 
 >[!NOTE]
 >
->Price rules are automatically processed with other system rules. Processing frequency depends on the [cron configuration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html). When you create a price rule, allow enough time for it to get into the system. WHen you are sure it is in the system, test the rule.
+>Price rules are automatically processed with other system rules. Processing frequency depends on the [cron configuration](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs). When you create a price rule, allow enough time for it to get into the system. WHen you are sure it is in the system, test the rule.
 
 ## Configuration settings {#config}
 

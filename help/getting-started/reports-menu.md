@@ -62,7 +62,7 @@ The selection of [sales reports](sales-reports.md) includes Orders, Tax, Invoice
 
 [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
 
-(Adobe Commerce only) The [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html) provides system insights for installations of Adobe Commerce on cloud infrastructure with 24/7 real-time performance monitoring, reports, and recommendations.
+(Adobe Commerce only) The [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/access) provides system insights for installations of Adobe Commerce on cloud infrastructure with 24/7 real-time performance monitoring, reports, and recommendations.
 
 ### [!UICONTROL Customers]
 

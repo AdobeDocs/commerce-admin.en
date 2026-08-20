@@ -53,7 +53,7 @@ Make sure to update the [email header](../systems/email-template-custom.md#heade
    - `Disable` - Sends sales email when triggered by an event.
    - `Enable` - Sends sales email at predetermined, regular intervals.
 
-   Adobe Commerce Support recommends enabling asynchronous sending to improve the order placement performance. See [Configuration best practices for order processing](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration.html) in Adobe Commerce Support Knowledge Base.
+   Adobe Commerce Support recommends enabling asynchronous sending to improve the order placement performance. See [Configuration best practices for order processing](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration) in Adobe Commerce Support Knowledge Base.
 
 ## Step 3. Complete the details for each sales email message
 

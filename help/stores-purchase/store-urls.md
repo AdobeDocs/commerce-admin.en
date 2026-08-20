@@ -162,7 +162,7 @@ If after following the configuration instructions, some pages continue to be ser
 
 ## Use a custom Admin URL
 
-As a [security best practice](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), Adobe recommends that you use a unique Admin URL instead of the default _admin_ or a common term such as _backend_. Although it does not directly protect your site from a determined bad actor, it can reduce exposure to scripts that try to gain unauthorized access.
+As a [security best practice](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices), Adobe recommends that you use a unique Admin URL instead of the default _admin_ or a common term such as _backend_. Although it does not directly protect your site from a determined bad actor, it can reduce exposure to scripts that try to gain unauthorized access.
 
 >[!NOTE]
 >

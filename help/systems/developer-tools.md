@@ -83,7 +83,7 @@ See [Client-side LESS compilation vs. server-side](https://developer.adobe.com/
 
 Adding a digital signature to the URL of static files makes it possible for browsers to detect when a newer version of the file is available. Static files that can be tracked with digital signatures include JavaScript, CSS, images, and fonts. The signature is appended to the path directly after the base URL. If a file's signature differs from what is stored in the browser's cache, then the newer version of the file is used.
 
-See [Static content signing](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html){:target="_blank"} in the Commerce developer documentation.
+See [Static content signing](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/static-content-signing){:target="_blank"} in the Commerce developer documentation.
 
 >[!NOTE]
 >
@@ -115,7 +115,7 @@ The time it takes to load resource files can be reduced by merging and bundling 
 
 By default, Adobe Commerce and Magento Open Source do not merge, bundle, or minimize files, and the project developer should determine which file optimization methods should be used.
 
-See [Performance best practices](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html) for more information.
+See [Performance best practices](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/overview) for more information.
 
 >[!NOTE]
 >

@@ -290,7 +290,7 @@ Adobe Commerce supports OpenSearch and Elasticsearch. Adobe Commerce versions 2.
 
 >[!IMPORTANT]
 >
->- Due to the Elasticsearch 7 end-of-support announcement for August 2023, Adobe recommends that all Adobe Commerce customers migrate to the OpenSearch 2.x search engine. For information about migrating your search engine during an upgrade, see [Migrating to OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) in the _Upgrade Guide_.
+>- Due to the Elasticsearch 7 end-of-support announcement for August 2023, Adobe recommends that all Adobe Commerce customers migrate to the OpenSearch 2.x search engine. For information about migrating your search engine during an upgrade, see [Migrating to OpenSearch](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration) in the _Upgrade Guide_.
 >- In versions 2.4.4 and 2.4.3-p2, all fields labeled Elasticsearch also apply to OpenSearch. When support for Elasticsearch 8.x was introduced in version 2.4.6, new labels were created to distinguish between Elasticsearch and OpenSearch configurations. However, the configuration options for both are the same.
 
 ![Catalog search configuration options](./assets/catalog-search-opensearch.png){zoomable="yes"}

@@ -80,7 +80,7 @@ For technical information, see the [[!DNL Advanced Reporting]](https://developer
 
 * In the [!DNL Commerce] configuration for store URLs, **[!UICONTROL Use Secure URLs on Storefront]** and **[!UICONTROL Use Secure URLs in Admin]** must be set to `Yes`.
 
-* [[!DNL Commerce] crontab](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html) is created and cron jobs are running on the installed server.
+* [[!DNL Commerce] crontab](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) is created and cron jobs are running on the installed server.
 
 >[!NOTE]
 >

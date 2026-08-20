@@ -32,7 +32,7 @@ Language packs can be found under [Translations & Localization](https://marketpl
 
 ## Step 1: Install a language pack
 
-Follow the standard instructions for installing the language pack extension. For detailed information about installing an extension, see [General CLI installation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) in the _Extensions Guide_.
+Follow the standard instructions for installing the language pack extension. For detailed information about installing an extension, see [General CLI installation](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions) in the _Extensions Guide_.
 
 ## Step 2: Create a store view for the language
 

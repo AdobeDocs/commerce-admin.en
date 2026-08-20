@@ -85,7 +85,7 @@ If you exceed the maximum session size, no error displays but the system logs th
 
 Adobe Commerce and Magento Open Source allow you to validate session variables as a protective measure against possible session fixation attacks or attempts to poison or hijack user sessions. The Session Validation Settings determine how session variables are validated during each store visit and if the session ID is included in the URL of the store.
 
-For technical information, see [Use Redis for session storage](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html) in the _Configuration Guide_.
+For technical information, see [Use Redis for session storage](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/redis-session) in the _Configuration Guide_.
 
 ![General configuration - Web session validation](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 

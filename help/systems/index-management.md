@@ -102,7 +102,7 @@ Reindexing and caching have different purposes in Commerce. Indexes track databa
 
 ## Reindex using the command line
 
-Commerce provides additional reindex options using the command line. For complete details and command options, see [Reindex](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex){:target="blank"} in the _Configuration Guide_.
+Commerce provides additional reindex options using the command line. For complete details and command options, see [Reindex](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex){:target="blank"} in the _Configuration Guide_.
 
 ## Index trigger events
 

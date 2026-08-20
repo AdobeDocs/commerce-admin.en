@@ -106,7 +106,7 @@ Configure the default configuration options for product and stock for your websi
 
       >[!NOTE]
       >
-      >To configure and support _asynchronous queue managers_, you must issue a command using the command line. This step may require developer assistance. See [Start message queue consumers](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) in the _Configuration Guide_.
+      >To configure and support _asynchronous queue managers_, you must issue a command using the command line. This step may require developer assistance. See [Start message queue consumers](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/start-message-queues) in the _Configuration Guide_.
 
     - If enabled, set the **[!UICONTROL Asynchronous batch size]**. The default batch size is 100. When bulk processes reach this amount, the system triggers it.
 

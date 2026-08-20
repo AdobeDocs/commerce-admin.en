@@ -42,7 +42,7 @@ These release notes describe releases of [!DNL Inventory Management] and include
 
 [!DNL Inventory Management] is a Magento Open Source Community Engineering special project open to contributors. To take part and contribute, see the [GitHub project](https://github.com/magento/inventory) repository and [wiki](https://github.com/magento/inventory/wiki) to get started. To discuss the project, join the [Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY) channel ([self-signup](https://opensource.magento.com/slack)).
 
-[Release schedule](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"} for supported and compatible releases.
+[Release schedule](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/schedule){target="_blank"} for supported and compatible releases.
 
 ## v1.2.7
 

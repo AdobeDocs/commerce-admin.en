@@ -128,7 +128,7 @@ Before you try to import many images, review the steps in the import method that
 
    If importing multiple images for a single `sku`, insert the images in a column named `additional_images` (add the column if not already added), separated by commas: `image02.jpg,image03.jpg`
 
-For more information about enabling and managing the Remote storage module, see [Configure remote storage](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html) in the _Configuration guide_.
+For more information about enabling and managing the Remote storage module, see [Configure remote storage](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage) in the _Configuration guide_.
 
 >[!NOTE]
 >

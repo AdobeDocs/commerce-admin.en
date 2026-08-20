@@ -48,9 +48,9 @@ This section contains information about updates to the Audience Activation exten
 ![Fix](../assets/fix.svg) - Fixes and improvements
 ![Bug](../assets/bug.svg) - Known issues
 
-See [Upcoming Releases](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) to learn about release schedules and support.
+See [Upcoming Releases](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/schedule) to learn about release schedules and support.
 
-See the developer documentation to [learn about product compatibility](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html).
+See the developer documentation to [learn about product compatibility](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability).
 
 ## Supported service updates
 

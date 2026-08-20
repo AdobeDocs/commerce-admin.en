@@ -208,7 +208,7 @@ Cached content can be used to process the requests from similar types of visits.
 - `Sessioned` - During a sessioned visit, shoppers who interact with the store are assigned a session ID. Interactions include activities such as comparing products or adding products to the shopping cart. Cached pages that are generated during the session are used only by that shopper during the session.
 - `Customer` - Customer sessions are created for customers that log in and shop using their registered account. During the session, customers can be presented with special offers, promotions, and prices based on their assigned customer group.
 
-For technical information, see [Configure and Use Varnish](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html){:target="_blank"} and [Use Redis for the Commerce page and default cache](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html){:target="_blank"} in the _Configuration Guide_.
+For technical information, see [Configure and Use Varnish](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish){:target="_blank"} and [Use Redis for the Commerce page and default cache](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache){:target="_blank"} in the _Configuration Guide_.
 
 **_To configure the full-page cache:_**
 
@@ -237,7 +237,7 @@ For technical information, see [Configure and Use Varnish](https://experiencelea
 
    - **[!UICONTROL Backend port]** - Identify the backend port that is used to generate config files. The default value is: `8080`.
 
-   - **[!UICONTROL Grace period]** - Specify the number of seconds to use as a grace period to generate config files. See [Advanced Varnish configuration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html) in the _Configuration Guide_.
+   - **[!UICONTROL Grace period]** - Specify the number of seconds to use as a grace period to generate config files. See [Advanced Varnish configuration](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish-advanced) in the _Configuration Guide_.
 
    - To export the configuration as a `varnish.vcl` file, click the button for the version of Varnish that you use.
 

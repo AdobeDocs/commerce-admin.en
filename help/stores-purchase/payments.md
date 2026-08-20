@@ -57,7 +57,7 @@ Some payment integrations and bundled extensions have been removed in 2.4.x rele
 
 - **Amazon Pay** and **Klarna**: Adobe Commerce and Magento Open Source releases 2.4.0 through 2.4.3 included these vendor-developed extensions. Starting with the 2.4.4 release, these extensions are no longer bundled with the core release and must be installed and updated from the Commerce Marketplace. The Marketplace also provides access to current documentation provided by the extension developer.
 
-   If you have either of these bundled extension enabled and configured, you must update your composer.json file as part of the 2.4.4 upgrade process and to manage extension updates going forward. See [Upgrade modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) in the _Upgrade Guide_ for more information.
+   If you have either of these bundled extension enabled and configured, you must update your composer.json file as part of the 2.4.4 upgrade process and to manage extension updates going forward. See [Upgrade modules](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade) in the _Upgrade Guide_ for more information.
 
 ## Offline payment methods
 

@@ -53,7 +53,7 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 
 >[!NOTE]
 >
->See [Product availability](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) for information about versions of the B2B Commerce extension supported for available Adobe Commerce releases.
+>See [Product availability](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability) for information about versions of the B2B Commerce extension supported for available Adobe Commerce releases.
 
 ## B2B v1.5.3
 
@@ -503,7 +503,7 @@ The B2B v1.4.2 release includes quality improvements and bug fixes.
 
 *August 7, 2023*
 
-[!BADGE Supported]{type=Informative tooltip="Supported"} [Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Compatible with Adobe Commerce 2.4.7-beta1.
+[!BADGE Supported]{type=Informative tooltip="Supported"} [Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/security-patches/2-4-6-patches). Compatible with Adobe Commerce 2.4.7-beta1.
 
 The B2B v1.4.1 release includes quality improvements and bug fixes.
 
@@ -547,7 +547,7 @@ This release includes new capabilities and enhancements for B2B negotiable quote
 
 #### Known issue
 
-If you install or upgrade B2B 1.4.0 on [Adobe Commerce version 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html), the following error occurs:
+If you install or upgrade B2B 1.4.0 on [Adobe Commerce version 2.4.6-p1](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/security-patches/2-4-6-patches), the following error occurs:
 
 ```
 Your requirements could not be resolved to an installable set of packages.
@@ -627,7 +627,7 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 
 >[!NOTE]
 >
->After you upgrade Commerce from 2.4.6 to the [latest release](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html#2.4.6), make sure to update to the supported B2B 1.3.5 patch release. Or, upgrade the B2B extension from version 1.3.5 to version 1.4.0 or later to get the latest features.
+>After you upgrade Commerce from 2.4.6 to the [latest release](https://experienceleague.adobe.com/en/docs/commerce-operations/release/versions#2.4.6), make sure to update to the supported B2B 1.3.5 patch release. Or, upgrade the B2B extension from version 1.3.5 to version 1.4.0 or later to get the latest features.
 
 - Added support for Adobe Commerce 2.4.6.
 

@@ -51,7 +51,7 @@ Here are some examples of how URLs can be configured for multiple stores:
 | `yourdomain.com/store1`<br>`yourdomain.com/store2` | Each store has a different path, but shares a domain. |
 | `store1.yourdomain.com`<br>`store2.yourdomain.com` | Each store has a different subdomain of the primary domain. |
 
-Multi-store installations of Adobe Commerce must be configured from the Admin and also from the command line of the server. The Adobe Commerce [Configuration Guide](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) provides detailed instructions for configuring the server environment.
+Multi-store installations of Adobe Commerce must be configured from the Admin and also from the command line of the server. The Adobe Commerce [Configuration Guide](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-overview) provides detailed instructions for configuring the server environment.
 
 ### Step 1: Choose the store domain
 

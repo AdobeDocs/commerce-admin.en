@@ -191,7 +191,7 @@ Access to the following resources can be assigned to a custom role. See the link
 |[`Reports`](../getting-started/reports-menu.md) | [`Marketing`](../getting-started/marketing-reports.md)|`Shopping Cart`<br />[`Search Terms`](../catalog/search-terms.md#search-terms-report)<br />`Newsletter Problem Reports`|
 ||[`Reviews`](../getting-started/review-reports.md)<br />||
 ||[`Sales`](../getting-started/sales-reports.md)||
-||`System Insights` ![Adobe Commerce](../assets/adobe-logo.svg)|[`Site-Wide Analysis Tool`](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html)|
+||`System Insights` ![Adobe Commerce](../assets/adobe-logo.svg)|[`Site-Wide Analysis Tool`](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/access)|
 ||[`Customers`](../getting-started/customer-reports.md)<br/>[`Products`](../getting-started/product-reports.md)<br/>[`Private Sales`](../getting-started/private-sales-reports.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br />[`Statistics`](../getting-started/reports-menu.md#uicontrol-statistics)<br />[`Business Intelligence`](../getting-started/business-intelligence.md)||
 |[`Stores`](../stores-purchase/stores.md) | [`Settings`](../stores-purchase/stores-menu.md) | [`All Stores`](../stores-purchase/stores.md)<br/>[`Configuration`](../configuration-reference/guide-overview.md)<br/>[`Terms and Conditions`](../stores-purchase/terms-and-conditions.md)<br/>[`Order Status`](../stores-purchase/order-status.md)|
 ||[`Inventory`](../inventory-management/sources-stocks.md)|[`Sources`](../inventory-management/sources-manage.md)<br/>[`Stocks`](../inventory-management/stocks-manage.md)|

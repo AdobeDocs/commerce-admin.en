@@ -144,8 +144,8 @@ Take inventory of your digital properties, including all integrations and who ha
 
 1. See the following topics for applicable data flow diagrams and database entity mappings for each version:
 
-   - [Personal Information Reference (2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html)
-   - [Personal Information Reference (1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html)
+   - [Personal Information Reference (2.x)](https://experienceleague.adobe.com/en/docs/commerce-operations/security-and-compliance/reference/data-m2)
+   - [Personal Information Reference (1.x)](https://experienceleague.adobe.com/en/docs/commerce-operations/security-and-compliance/reference/data-m1)
 
    ![diagram](./assets/privacy-frontend-diagram.svg)
 

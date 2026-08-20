@@ -35,7 +35,7 @@ The [!DNL AR Viewer] only supports `.USDZ` files.
 
 [!DNL AR Viewer] is installed as an extension from the [Adobe Commerce Marketplace](https://commercemarketplace.adobe.com/magento-module-arviewer.html){target=_blank}.
 
-See the [_Installation Guide_](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) for more information about the extension installation process.
+See the [_Installation Guide_](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions) for more information about the extension installation process.
 
 After the [!DNL AR Viewer] extension is installed and configured, Admin users can set up, customize, and manage product listings to include 3D models.
 

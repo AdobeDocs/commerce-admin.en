@@ -122,7 +122,7 @@ To create sitemaps for a multistore instance, do the following:
 
 >[!NOTE]
 >
->If your site uses the [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html) web server engine, you should update the [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) file in the root of your website to direct any other sitemap requests to the proper place.
+>If your site uses the [Apache](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/web-server/apache) web server engine, you should update the [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) file in the root of your website to direct any other sitemap requests to the proper place.
 
 ## Column descriptions
 
