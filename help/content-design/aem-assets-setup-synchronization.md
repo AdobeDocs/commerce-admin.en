@@ -48,7 +48,7 @@ For the initial setup, use the default *Match by product sku* rule.
 
 - Create a support ticket to request enablement for the AEM Assets for Commerce Integration. In the ticket, include the **[!UICONTROL Program ID]**, **[!UICONTROL Environment ID]** and **[!UICONTROL IMS Org ID]** for the AEM Assets Authoring environment that you want to connect to Commerce.
 
-- Provide the **[!UICONTROL Asset Selector IMS Client ID]**. See [ImsAuthProps](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app) in the *AEM Assets Selector* documentation.
+- Provide the **[!UICONTROL Asset Selector IMS Client ID]**. See [ImsAuthProps](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-advisor/integrate-adobe-non-adobe-applications) in the *AEM Assets Selector* documentation.
 
 ## Configure the connection
 
@@ -69,7 +69,7 @@ For the initial setup, use the default *Match by product sku* rule.
 
 1. Enter the **[!UICONTROL Asset Selector IMS Client ID]**.
 
-   The [Asset Selector IMS Client ID](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app#ims-auth-props) is required by the [!UICONTROL Assets Selector], an AEM Assets feature that allows users to embed visual assets directly into Commerce product pages.
+   The [Asset Selector IMS Client ID](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-advisor/integrate-adobe-non-adobe-applications) is required by the [!UICONTROL Assets Selector], an AEM Assets feature that allows users to embed visual assets directly into Commerce product pages.
 
 1. Select the [[!UICONTROL Commerce integration]](aem-assets-configure-commerce.md#add-the-integration-to-the-commerce-environment) for authenticating requests between Commerce and the asset matching service.
 

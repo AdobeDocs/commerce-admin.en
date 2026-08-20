@@ -77,5 +77,5 @@ When the product details are updated with the 3D model:
 
 >[!NOTE]
 >
-> For a series of demonstration videos of a user adding a 3d model to a product, see the [AR Viewer for Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/catalog/augmented-reality.html) page in _Commerce Videos and Tutorials_.
+> For a series of demonstration videos of a user adding a 3d model to a product, see the [AR Viewer for Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/catalog/augmented-reality) page in _Commerce Videos and Tutorials_.
 
