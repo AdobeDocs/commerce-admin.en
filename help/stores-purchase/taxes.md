@@ -34,7 +34,7 @@ Configure your store to calculate taxes according to the requirements of your lo
 >
 >Adobe Commerce and Magento Open Source releases 2.4.0 through 2.4.3 included the Vertex vendor-developed extension used to integrate with the Vertex Cloud to provide tax management and address cleansing. Starting with the 2.4.4 release, this extension is no longer bundled with the core release and must be installed and updated from the Commerce Marketplace or directly from the vendor. [Contact Vertex](https://marketplace.magento.com/partner/vertex_inc) for information about the extension and documentation.<br><br>
 >
->If you have the bundled extension enabled and configured, you must update your composer.json file as part of the 2.4.4 upgrade process and to manage extension updates going forward. See [Upgrade modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) in the _Upgrade Guide_.
+>If you have the bundled extension enabled and configured, you must update your composer.json file as part of the 2.4.4 upgrade process and to manage extension updates going forward. See [Upgrade modules](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade) in the _Upgrade Guide_.
 
 ## Quick reference
 

@@ -48,7 +48,7 @@ A Sales Representative can create a quote from the Quotes or Customer Grid.
 
 >[!NOTE]
 >
->For a video demo of a seller creating a quote for a buyer, see [Sales Representative initiates the quote](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html) in _Commerce Videos and Tutorials_.
+>For a video demo of a seller creating a quote for a buyer, see [Sales Representative initiates the quote](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote) in _Commerce Videos and Tutorials_.
 
 ### Create a quote from the Quote grid
 
@@ -100,7 +100,7 @@ After creating the draft quote, add product items, apply discounts, and communic
    
    >[!NOTE]
    >
-   >For a video demo of a how discounts at the line item work, see [Sales Representative applies discount to a quote line item](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html) in _Commerce Videos and Tutorials_.
+   >For a video demo of a how discounts at the line item work, see [Sales Representative applies discount to a quote line item](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount) in _Commerce Videos and Tutorials_.
 
 1. Apply a quote-level discount as needed:
 

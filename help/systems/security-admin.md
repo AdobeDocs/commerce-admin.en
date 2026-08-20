@@ -39,7 +39,7 @@ topic_v2:
 ---
 # Configure Admin security
 
-We recommend that you take a multifaceted approach to protect the security of your store. You can begin by using a [custom Admin URL](../stores-purchase/store-urls.md#use-a-custom-admin-url) that is not easy to guess, rather than the obvious "Admin" or "Backend." By default, passwords that are used to [log in](../getting-started/admin-signin.md) to the Admin must be seven or more characters long and include both letters and numbers. You can configure the minimum password length requirement to enhance security based on your organization's needs. As a [best practice](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), use only strong Admin passwords that include a combination of letters, numbers, and symbols. Adobe Commerce and Magento Open Source do not allow the reuse of the last four passwords assigned to the account.
+We recommend that you take a multifaceted approach to protect the security of your store. You can begin by using a [custom Admin URL](../stores-purchase/store-urls.md#use-a-custom-admin-url) that is not easy to guess, rather than the obvious "Admin" or "Backend." By default, passwords that are used to [log in](../getting-started/admin-signin.md) to the Admin must be seven or more characters long and include both letters and numbers. You can configure the minimum password length requirement to enhance security based on your organization's needs. As a [best practice](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices), use only strong Admin passwords that include a combination of letters, numbers, and symbols. Adobe Commerce and Magento Open Source do not allow the reuse of the last four passwords assigned to the account.
 
 The Admin security configuration gives you the ability to:
 
@@ -58,7 +58,7 @@ In addition to the security settings in this section, [two-factor authentication
 >
 >Stores that have enabled [!DNL Adobe Identity Management Services] (IMS) authentication have native Adobe Commerce and Magento Open Source 2FA disabled. Admin users who are logged into their Commerce instance with their Adobe credentials do not need to reauthenticate for many Admin tasks. Authentication is handled by Adobe IMS when the Admin user logs into their current session. See [[!DNL Adobe Identity Management Service] (IMS) Integration Overview](../getting-started/adobe-ims-integration-overview.md).
 
-For technical information, see [Security overview](https://developer.adobe.com/commerce/php/architecture/basics/security/){:target="_blank"} in the developer documentation.
+For technical information, see [Security overview](https://developer.adobe.com/commerce/php/architecture/basics/security){:target="_blank"} in the developer documentation.
 
 ![Admin security](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
 

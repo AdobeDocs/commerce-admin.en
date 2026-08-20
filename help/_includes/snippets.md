@@ -7,19 +7,19 @@ description: Reused notes and visual elements to note a feature or page applying
 ## EE only feature {#ee-feature}
 
 <table style="border:1px solid red">
-<tr><td><img alt="Adobe Commerce feature" src="/help/assets/adobe-logo.svg" width="20" height="20" /> This is an exclusive feature that is available only in Adobe Commerce and is not available in Magento Open Source. (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">Learn more</a>)</td></tr>
+<tr><td><img alt="Adobe Commerce feature" src="/help/assets/adobe-logo.svg" width="20" height="20" /> This is an exclusive feature that is available only in Adobe Commerce and is not available in Magento Open Source. (<a href="/help/landing/home.md#product-editions">Learn more</a>)</td></tr>
 </table>
 
 ## B2B only feature {#b2b-feature}
 
 <table style="border:1px solid green">
-<tr><td><img alt="Adobe Commerce B2B feature" src="/help/assets/b2b.svg" width="20" height="20" /> Exclusive feature available only with <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html">Adobe Commerce B2B</a></td></tr>
+<tr><td><img alt="Adobe Commerce B2B feature" src="/help/assets/b2b.svg" width="20" height="20" /> Exclusive feature available only with <a href="/help/b2b/introduction.md">Adobe Commerce B2B</a></td></tr>
 </table>
 
 ## CE only feature {#ce-feature}
 
 <table style="border:1px solid orange">
-<tr><td><img alt="Magento Open Source feature" src="/help/assets/open-source.svg" width="20" height="20" /> Alternative method is required for Magento Open Source (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">Learn more</a>)</td></tr>
+<tr><td><img alt="Magento Open Source feature" src="/help/assets/open-source.svg" width="20" height="20" /> Alternative method is required for Magento Open Source (<a href="/help/landing/home.md#product-editions">Learn more</a>)</td></tr>
 </table>
 
 ## IMS admin authentication note {#ims-admin-note}
@@ -50,7 +50,7 @@ description: Reused notes and visual elements to note a feature or page applying
 
 >[!NOTE]
 >
->Price rules are automatically processed with other system rules. Processing frequency depends on the [cron configuration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html). When you create a price rule, allow enough time for it to get into the system. WHen you are sure it is in the system, test the rule.
+>Price rules are automatically processed with other system rules. Processing frequency depends on the [cron configuration](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs). When you create a price rule, allow enough time for it to get into the system. WHen you are sure it is in the system, test the rule.
 
 ## Configuration settings {#config}
 
@@ -62,7 +62,7 @@ To access the store configuration settings, choose **[!UICONTROL Stores]** > _[!
 >
 >Beginning June 2024, Adobe Commerce merchants can no longer transact with the current UPS integration. This is because the United Parcel Service (UPS) APIs used by the native Adobe Commerce integration do not currently support the required OAuth 2.0 security model. To enable the integration, [create an application on the UPS developer platform](https://developer.ups.com/get-started) to obtain the credentials required for OAuth 2.0. Use the new credentials as the `username` and `password` in the Commerce UPS Shipping configuration. To learn more about the security model change, see [Developer Portal Access Key Migration Guide_](https://developer.ups.com/oauth-developer-guide). <br/>
 >
->Merchants should [apply a quality patch update](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.html) to their store to migrate from the SOAP API to the RESTful API, which supports OAuth 2.0 authentication protocols.
+>Merchants should [apply a quality patch update](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27146) to their store to migrate from the SOAP API to the RESTful API, which supports OAuth 2.0 authentication protocols.
 
 
 ## Available documentation {#docs-links}
@@ -70,10 +70,10 @@ To access the store configuration settings, choose **[!UICONTROL Stores]** > _[!
 | Documentation resource | Description |
 |----------------------- | ----------- |
 | [Adobe Commerce 2.4 Admin User Guides](/help/landing/home.md) | Documentation and resources for merchants working in the Admin. |
-| [Services for Adobe Commerce Documentation](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html) | Documentation to support a collection of merchandising services that help merchants integrate key components of their business with their store. |
-| [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Step-by-step procedures for deploying Adobe Commerce on a managed, automated hosting cloud platform. |
-| [Adobe Commerce 2.4 Operational Guides](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Systems documentation about the concepts, processes, tools, and best practices to develop, deploy, and maintain Adobe Commerce on Cloud and on-premises projects. |
-| [Adobe Commerce 2.4 Developer Documentation](https://developer.adobe.com/commerce/docs) | Developer-focused documentation used to customize Adobe Commerce and integrate with third-party systems. |
+| [Services for Adobe Commerce Documentation](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home) | Documentation to support a collection of merchandising services that help merchants integrate key components of their business with their store. |
+| [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/overview) | Step-by-step procedures for deploying Adobe Commerce on a managed, automated hosting cloud platform. |
+| [Adobe Commerce 2.4 Operational Guides](https://experienceleague.adobe.com/en/docs/commerce-operations/operational-guides/home) | Systems documentation about the concepts, processes, tools, and best practices to develop, deploy, and maintain Adobe Commerce on Cloud and on-premises projects. |
+| [Adobe Commerce 2.4 Developer Documentation](https://developer.adobe.com/commerce/docs/) | Developer-focused documentation used to customize Adobe Commerce and integrate with third-party systems. |
 
 {style="table-layout:auto"}
 

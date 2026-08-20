@@ -1,8 +1,6 @@
 ---
 title: Adobe Commerce Admin User Guides
-description: Browse Adobe Commerce product documentation
-seo-title: Services for Adobe Commerce
-seo-description: Documentation and resources for Adobe Commerce and Magento Open Source users working in the Admin.
+description: Search for self-help articles and tutorials on Adobe Commerce Admin. Get expert support for configuring, managing, and troubleshooting your Commerce store.
 breadcrumb-title: Admin User Guides
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
 TQID: https://experienceleague.adobe.com/zoHXvfhkWovXcAk0S9hTpQOTIHbLYhfjyFqc-cCjLLE
@@ -61,7 +59,7 @@ The information in the Admin User Guides is designed to accommodate business use
 
 Adobe Commerce is an agile B2B and B2C commerce platform which enables merchants and brands to accelerate revenue through customer-centric digital commerce experiences across online and physical spaces. It is the leading choice for mid-size and enterprise organizations as it offers the most flexible deployment models from on-prem to managed cloud with guaranteed SLAs. Adobe Commerce enables API-first integrations and fully customizable extensions, and the richest set of enterprise-grade commerce experience capabilities from marketing to merchandising and fulfillment. Adobe Commerce is built on an open-source code base to deliver flexibility and extensibility like no other commerce platform.
 
-For a list of the advanced capabilities included with Adobe Commerce, see [Commerce features](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html) in the _Release Information_.
+For a list of the advanced capabilities included with Adobe Commerce, see [Commerce features](https://experienceleague.adobe.com/en/docs/commerce-operations/release/features) in the _Release Information_.
 
 ## Magento Open Source code base
 

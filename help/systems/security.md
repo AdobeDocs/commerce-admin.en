@@ -49,7 +49,7 @@ Visit the [Security Center](https://helpx.adobe.com/security.html){:target="_bla
 
 ![Security Center](./assets/product-security-home.png){width="700" zoomable="yes"}
 
-For information about security best practices, see [Secure your Commerce Site and Infrastructure](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) in the _Implementation Playbook_.
+For information about security best practices, see [Secure your Commerce Site and Infrastructure](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices) in the _Implementation Playbook_.
 
 ## Security action plan
 

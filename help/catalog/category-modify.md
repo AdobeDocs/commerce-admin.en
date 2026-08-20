@@ -1,6 +1,6 @@
 ---
 title: Modify a category
-description: Learn how to move or delete a category.
+description: Learn how to move a category to a new position in the category tree or delete it from the catalog, and how to avoid broken product links when you do.
 exl-id: 7acc2cee-3e95-4d55-864e-6c62ae08eb91
 feature: Catalog Management, Categories
 TQID: https://experienceleague.adobe.com/uLJicknHwUzTRYgirA-nePB75bdjkLUhaHJzM3DZ0lY

@@ -42,4 +42,4 @@ nudge: true
   - [Products](products.md)
   - [Product Recommendations](recommendations.md)
 - [Templates](templates.md)
-- [Return to Admin User Guides](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
+- [Return to Admin User Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

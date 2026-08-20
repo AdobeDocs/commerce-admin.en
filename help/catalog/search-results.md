@@ -34,7 +34,7 @@ topic_v2:
 
 >[!NOTE]
 >
->This page describes standard search functionality that might differ from [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
+>This page describes standard search functionality that might differ from [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview).
 
 The _Search Results_ list includes all products that match the search criteria entered in the Quick Search box or the Advanced Search form. Every product list in the catalog has essentially the same controls. The only difference is that one is the result of a search query, and the other difference is the result of [navigation](navigation.md).
 
@@ -50,7 +50,7 @@ With **ElasticSearch**:
 
 >[!IMPORTANT]
 >
->Due to the Elasticsearch 7 end-of-support announcement for August 2023, it is recommended that all Adobe Commerce customers migrate to the OpenSearch 2.x search engine. For information about migrating your search engine during product upgrade, see [Migrating to OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) in the _Upgrade Guide_.
+>Due to the Elasticsearch 7 end-of-support announcement for August 2023, it is recommended that all Adobe Commerce customers migrate to the OpenSearch 2.x search engine. For information about migrating your search engine during product upgrade, see [Migrating to OpenSearch](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration) in the _Upgrade Guide_.
 
 ## Keyword mapping to extend search results
 

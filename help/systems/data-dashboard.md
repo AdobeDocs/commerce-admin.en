@@ -55,8 +55,8 @@ The dashboard contains the following fields:
 |Field|Description|
 |--- |--- |
 | Scope | Specific website for the synced data.|
-|[!DNL Product Recommendations]|Displays sync status, number of products synced, and a table of the [displayable](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/inventory#stock-options) synced products for [!DNL Product Recommendations].|
-|[!DNL Live Search]|Displays sync status, number of products synced, and a table of the [displayable](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/inventory#stock-options) synced products for [!DNL Live Search].|
+|[!DNL Product Recommendations]|Displays sync status, number of products synced, and a table of the [displayable](/help/configuration-reference/catalog/inventory.md#stock-options) synced products for [!DNL Product Recommendations].|
+|[!DNL Live Search]|Displays sync status, number of products synced, and a table of the [displayable](/help/configuration-reference/catalog/inventory.md#stock-options) synced products for [!DNL Live Search].|
 |[!DNL Catalog Service]|Displays sync status, number of products synced, and a table of the synced products for [!DNL Catalog Service].|
 |Settings| Opens a dialog where you can [manually resync the catalog data](#resync-catalog-data).|
 |Sync status|Displays the number of products that have been transferred from the Commerce database to any of the SaaS services within the last three hours. If you make infrequent updates to your catalog, this value is frequently zero. If a sync is in progress, click **[!UICONTROL Refresh]** to get an updated count.|

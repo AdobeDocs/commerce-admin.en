@@ -53,7 +53,7 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 
 >[!NOTE]
 >
->See [Product availability](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) for information about versions of the B2B Commerce extension supported for available Adobe Commerce releases.
+>See [Product availability](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability) for information about versions of the B2B Commerce extension supported for available Adobe Commerce releases.
 
 ## B2B v1.5.3
 
@@ -336,7 +336,7 @@ The B2B v1.5.0 release includes new features, quality improvements, and bug fixe
 
 - **Manage company configuration at scale**<!--B2B-2849-->—Quickly change company configuration settings for selected companies using the *[!UICONTROL Change company setting]* bulk action now available when managing companies from the *[!UICONTROL Companies]* or *[!UICONTROL Company Hierarchy]* grid. For example, if you create a new shared catalog for a group of companies, you can change the shared catalog configuration in a single action instead of editing each company individually.
 
-- API Developers can use the new Company Relations REST API endpoint `/V1/company/{parentId}/relations` to create, view, and remove company assignments. See [Manage company objects](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/) in the *Web API Developer Guide*.
+- API Developers can use the new Company Relations REST API endpoint `/V1/company/{parentId}/relations` to create, view, and remove company assignments. See [Manage company objects](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object) in the *Web API Developer Guide*.
 
 #### Company accounts
 
@@ -503,7 +503,7 @@ The B2B v1.4.2 release includes quality improvements and bug fixes.
 
 *August 7, 2023*
 
-[!BADGE Supported]{type=Informative tooltip="Supported"} [Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Compatible with Adobe Commerce 2.4.7-beta1.
+[!BADGE Supported]{type=Informative tooltip="Supported"} [Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/security-patches/2-4-6-patches). Compatible with Adobe Commerce 2.4.7-beta1.
 
 The B2B v1.4.1 release includes quality improvements and bug fixes.
 
@@ -515,13 +515,13 @@ The B2B v1.4.1 release includes quality improvements and bug fixes.
 
 - <!--ACP2E-1793-->The swatch selector for a configurable product is now displayed as expected in the requisition list item configuration page. Previously, the swatch selector was displayed as a dropdown field in the requisition list item configuration page.
 
-- <!--ACP2E-1968-->When using the [Company GraphQL query](https://developer.adobe.com/commerce/webapi/graphql/schema/b2b/company/queries/company/#return-the-company-structure) to return company details, results are now returned successfully without error.
+- <!--ACP2E-1968-->When using the [Company GraphQL query](https://developer.adobe.com/commerce/webapi/graphql/schema/b2b/company/queries/company#return-the-company-structure) to return company details, results are now returned successfully without error.
 
 ### B2B v1.4.0
 
 *June 13, 2023*
 
-[!BADGE Supported]{type=Informative tooltip="Supported"} [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Compatible with Adobe Commerce 2.4.7-beta1.
+[!BADGE Supported]{type=Informative tooltip="Supported"} [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/security-patches/2-4-6-patches). Compatible with Adobe Commerce 2.4.7-beta1.
 
 This release includes new capabilities and enhancements for B2B negotiable quotes and multiple bug fixes.
 
@@ -547,7 +547,7 @@ This release includes new capabilities and enhancements for B2B negotiable quote
 
 #### Known issue
 
-If you install or upgrade B2B 1.4.0 on [Adobe Commerce version 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html), the following error occurs:
+If you install or upgrade B2B 1.4.0 on [Adobe Commerce version 2.4.6-p1](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/security-patches/2-4-6-patches), the following error occurs:
 
 ```
 Your requirements could not be resolved to an installable set of packages.
@@ -559,7 +559,7 @@ Your requirements could not be resolved to an installable set of packages.
 Installation failed, reverting ./composer.json and ./composer.lock to their original content.
 ```
 
-You can fix this issue by adding manual dependencies for the B2B security package with a [stability tag](https://getcomposer.org/doc/04-schema.md#package-links). For instructions, see the [Adobe Commerce Knowledge Base](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html).
+You can fix this issue by adding manual dependencies for the B2B security package with a [stability tag](https://getcomposer.org/doc/04-schema.md#package-links). For instructions, see the [Adobe Commerce Knowledge Base](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1-4-0-installation-fails-on-adobe-commerce-2-4-6-p1-on-premises).
 
 ### B2B v1.3.5-p13
 
@@ -627,7 +627,7 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 
 >[!NOTE]
 >
->After you upgrade Commerce from 2.4.6 to the [latest release](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html#2.4.6), make sure to update to the supported B2B 1.3.5 patch release. Or, upgrade the B2B extension from version 1.3.5 to version 1.4.0 or later to get the latest features.
+>After you upgrade Commerce from 2.4.6 to the [latest release](https://experienceleague.adobe.com/en/docs/commerce-operations/release/versions#2.4.6), make sure to update to the supported B2B 1.3.5 patch release. Or, upgrade the B2B extension from version 1.3.5 to version 1.4.0 or later to get the latest features.
 
 - Added support for Adobe Commerce 2.4.6.
 
@@ -997,7 +997,7 @@ You can fix this issue by adding manual dependencies for the B2B security packag
 
 - Adobe Commerce sometimes displays a 404 error when a buyer creates a purchase order and then navigates to the checkout page. This error occurs when a buyer has previously created a different purchase order with an online payment method before navigating to the checkout page without completing the previous purchase. The buyer can still place the purchase order. **_Workaround_**: None. <!--- B2B-1605-->
 
-- Discounts for a specific payment method persist during checkout for a purchase order even when the buyer changes their payment method during final checkout. As a result, customers can receive a discount that they are not entitled to. This issue occurs because a cart rule for the original payment method is still applied despite the change in payment method. **_Workaround_**: None. See the [Adobe Commerce 2.4.2 B2B known issue: discount remains for online Purchase Orders after payment method is changed](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/magento-2.4.2-b2b-discount-remains-pay-method-change.html) _Knowledge Base_ article. <!-- B2B-1012 -->
+- Discounts for a specific payment method persist during checkout for a purchase order even when the buyer changes their payment method during final checkout. As a result, customers can receive a discount that they are not entitled to. This issue occurs because a cart rule for the original payment method is still applied despite the change in payment method. **_Workaround_**: None. See the [Adobe Commerce 2.4.2 B2B known issue: discount remains for online Purchase Orders after payment method is changed](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/payments/magento-2-4-2-b2b-discount-remains-pay-method-change) _Knowledge Base_ article. <!-- B2B-1012 -->
 
 - The `deleteRequisitionListOutput` query returns details about the deleted requisition list instead of the remaining requisition lists. <!--- MC-39894-->
 

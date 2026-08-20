@@ -73,7 +73,7 @@ You can use Instant Purchase with Braintree or Payment Services for Adobe Commer
 Learn how to configure the payment method and enable vaulting for Braintree or Payment Services:
 
 - [Braintree](braintree.md)
-- [Payment Services documentation](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)
+- [Payment Services documentation](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview)
 
 ### Step 3: Enable Instant Purchase
 

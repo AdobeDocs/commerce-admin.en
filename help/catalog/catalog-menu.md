@@ -27,7 +27,7 @@ topic_v2:
 ---
 # [!UICONTROL Catalog] menu
 
-The [!UICONTROL Catalog] menu provides easy access to product creation, category, and inventory management tools, shared catalogs for custom pricing in [B2B stores](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html), and catalog enrichment for AI-assisted discovery.
+The [!UICONTROL Catalog] menu provides easy access to product creation, category, and inventory management tools, shared catalogs for custom pricing in [B2B stores](/help/b2b/introduction.md), and catalog enrichment for AI-assisted discovery.
 
 >[!BEGINTABS]
 
@@ -61,7 +61,7 @@ Create the [category](categories.md) structure that is the foundation of your st
 
 ## [!UICONTROL Shared Catalogs]
 
-For stores with Adobe Commerce B2B installed and enabled, [shared catalogs](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html) give you the ability to make custom pricing available to different companies.
+For stores with Adobe Commerce B2B installed and enabled, [shared catalogs](/help/b2b/catalog-shared.md) give you the ability to make custom pricing available to different companies.
 
 ![Shared catalog products](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}
 

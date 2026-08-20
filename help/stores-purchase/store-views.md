@@ -1,6 +1,6 @@
 ---
 title: Store views
-description: Learn how to add and edit a store view.
+description: Learn how to add and edit a store view in Adobe Commerce, which lets shoppers switch locales using the language chooser in your storefront header.
 exl-id: aa1f7f1c-a6d0-4ec2-83fe-15fb9646634a
 feature: Site Management, System
 TQID: https://experienceleague.adobe.com/2VMBTnzG3lqsNEyx-e46rqDs1wHofaDeHL3j3SuqxOE

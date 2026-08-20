@@ -44,14 +44,14 @@ Adobe Commerce and Magento Open Source perform some operations on schedule by pe
 
 >[!IMPORTANT]
 >
->Commerce services must be installed in crontab to ensure that core components, and some third-party extensions, to function as expected. See the [instructions in the _Installation Guide_](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html) for detailed information about installing services to crontab.
+>Commerce services must be installed in crontab to ensure that core components, and some third-party extensions, to function as expected. See the [instructions in the _Installation Guide_](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/next-steps/configuration) for detailed information about installing services to crontab.
 
 In addition, you can configure the following to run according to a cron schedule:
 
 - Order System Grid Updates and Reindexing
 - Pending Payment Lifetime
 
-Make sure that the [base URLs](../stores-purchase/store-urls.md) for the store are set correctly so that the URLs that are generated during cron operations are correct. For Adobe Commerce on cloud infrastructure, see [Set up cron jobs](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html) in the _Commerce on Cloud Infrastructure Guide_. For on-premise, see [Configure and run con](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html) in the _Configuration Guide_.
+Make sure that the [base URLs](../stores-purchase/store-urls.md) for the store are set correctly so that the URLs that are generated during cron operations are correct. For Adobe Commerce on cloud infrastructure, see [Set up cron jobs](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property) in the _Commerce on Cloud Infrastructure Guide_. For on-premise, see [Configure and run con](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) in the _Configuration Guide_.
 
 ## Configure cron
 

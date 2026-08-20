@@ -198,7 +198,7 @@ Additional buttons become available when the profile is saved for the first time
 |**[!UICONTROL Reset]**|Resets any unsaved changes in the customer form to their previous values.|
 |**[!UICONTROL Create Order]**|Creates an order for the customer.|
 |**[!UICONTROL Reset Password]**|Sends a [reset password](../customers/password-reset.md) link to the customer by email.|
-|**[!UICONTROL Force Sign-in]**|Revokes the OAuth access tokens that are associated with the customer account. This function can be used only with customer accounts that have been assigned OAuth tokens as part of a web API [integration](../systems/integrations.md). To learn more, see [OAuth-based authentication](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) in the developer documentation.|
+|**[!UICONTROL Force Sign-in]**|Revokes the OAuth access tokens that are associated with the customer account. This function can be used only with customer accounts that have been assigned OAuth tokens as part of a web API [integration](../systems/integrations.md). To learn more, see [OAuth-based authentication](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth) in the developer documentation.|
 |**[!UICONTROL Manage Shopping Cart]**|Allows the administrator to manage the shopping cart for the customer.|
 |**[!UICONTROL Save and Continue Edit]**|Saves changes and keeps the customer profile open.|
 |**[!UICONTROL Save Customer]**|Saves changes and closes the customer profile.|

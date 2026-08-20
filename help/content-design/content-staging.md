@@ -99,6 +99,6 @@ To learn about content staging, watch this video:
 
 For help with troubleshooting content staging issues, see the following [!DNL Commerce] Support Knowledge Base articles:
 
-- [Error 404 on all pages due to content staging issue](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html)
-- [Scheduled Content Staging updates not displayed with stale Fastly cache](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html)
-- [Can I schedule Content Staging updates for prices in a shared catalog?](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html)
+- [Error 404 on all pages due to content staging issue](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27785)
+- [Scheduled Content Staging updates not displayed with stale Fastly cache](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache)
+- [Can I schedule Content Staging updates for prices in a shared catalog?](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog)

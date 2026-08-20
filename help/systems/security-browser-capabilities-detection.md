@@ -41,7 +41,7 @@ Like most websites and applications on the Internet, Adobe Commerce and Magento 
 - If the browser's privacy settings disallow cookies, you can configure the system to automatically redirect them to the [Enable Cookies](../content-design/pages.md#enable-cookies) page, which explains how to make the recommended settings with most browsers.
 - If the browser's privacy settings disallow JavaScript, you can configure the system to display the following message above the header of every page.
 
-For technical information, refer to [Supported browsers](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html#supported-browsers) in the _Installation Guide_.
+For technical information, refer to [Supported browsers](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements#supported-browsers) in the _Installation Guide_.
 
 ## Configure browser capabilities detection
 

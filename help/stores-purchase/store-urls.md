@@ -162,7 +162,7 @@ If after following the configuration instructions, some pages continue to be ser
 
 ## Use a custom Admin URL
 
-As a [security best practice](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), Adobe recommends that you use a unique Admin URL instead of the default _admin_ or a common term such as _backend_. Although it does not directly protect your site from a determined bad actor, it can reduce exposure to scripts that try to gain unauthorized access.
+As a [security best practice](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices), Adobe recommends that you use a unique Admin URL instead of the default _admin_ or a common term such as _backend_. Although it does not directly protect your site from a determined bad actor, it can reduce exposure to scripts that try to gain unauthorized access.
 
 >[!NOTE]
 >
@@ -178,7 +178,7 @@ Although it is possible to change the Admin URL and path to another location, an
 
 >[!NOTE]
 >
->As a precaution, do not try to change the Admin URL yourself unless you know how to edit configuration files on the server. For Adobe Commerce projects deployed on cloud infrastructure, change the Admin URL by following the [instructions](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html#admin-url) in the *Adobe Commerce on Cloud Infrastructure Guide*.
+>As a precaution, do not try to change the Admin URL yourself unless you know how to edit configuration files on the server. For Adobe Commerce projects deployed on cloud infrastructure, change the Admin URL by following the [instructions](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin#admin-url) in the *Adobe Commerce on Cloud Infrastructure Guide*.
 
 ### Method 1: Change from the Admin
 
@@ -224,7 +224,7 @@ Although it is possible to change the Admin URL and path to another location, an
 
    >[!TIP]
    >
-   >For Adobe Commerce on cloud infrastructure, you can set up a custom admin path using the `ADMIN_URL` variable in the Cloud UI. See the [Admin variables topic](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html) in the _Commerce on Cloud Infrastructure Guide_.
+   >For Adobe Commerce on cloud infrastructure, you can set up a custom admin path using the `ADMIN_URL` variable in the Cloud UI. See the [Admin variables topic](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin) in the _Commerce on Cloud Infrastructure Guide_.
 
    - **Default Admin Path**
 

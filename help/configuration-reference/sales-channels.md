@@ -32,7 +32,7 @@ topic_v2:
 
 {{config}}
 
-These settings are available when [[!DNL Amazon Sales Channel]](https://experienceleague.adobe.com/docs/commerce-channels/amazon/getting-started/install.html) is installed.
+These settings are available when [[!DNL Amazon Sales Channel]](https://experienceleague.adobe.com/en/docs/discontinued/using/commerce-channels) is installed.
 
 ![Sales Channel Settings](./assets/config-sales-channel-global-settings.png)<!-- zoom -->
 

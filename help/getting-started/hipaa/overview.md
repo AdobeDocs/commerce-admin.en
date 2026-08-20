@@ -320,7 +320,7 @@ The following table identifies Adobe Commerce services that are available for th
 | [Payment Services](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview)                                                                           | No             | No         |
 | [Data Connection Back Office Events](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice)                                     | Yes            | Yes        |
 | [Data Connection Storefront Events](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#storefront-events)                                | No             | No         |
-| [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation)                                                                                      | No             | No         |
+| [Audience Activation](/help/customers/audience-activation.md)                                                                                      | No             | No         |
 
 ### Tools
 

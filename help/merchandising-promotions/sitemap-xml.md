@@ -43,7 +43,7 @@ When enabled, Commerce creates a file called `sitemap.xml` that is saved to you
 
 While your site is in development, you might include instructions in the `robots.txt` file for web crawlers to avoid indexing the site. Then before the launch, you can change the instructions to allow the site to be indexed.
 
-For technical information, see [Add sitemap and robots.txt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html) in the _Commerce on Cloud Infrastructure Guide_.
+For technical information, see [Add sitemap and robots.txt](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/robots-sitemap) in the _Commerce on Cloud Infrastructure Guide_.
 
 ![Sitemap grid](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
@@ -122,7 +122,7 @@ To create sitemaps for a multistore instance, do the following:
 
 >[!NOTE]
 >
->If your site uses the [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html) web server engine, you should update the [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) file in the root of your website to direct any other sitemap requests to the proper place.
+>If your site uses the [Apache](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/web-server/apache) web server engine, you should update the [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) file in the root of your website to direct any other sitemap requests to the proper place.
 
 ## Column descriptions
 

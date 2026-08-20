@@ -32,13 +32,13 @@ topic_v2:
 
 As business responsibilities change, you might need to transfer your Adobe Commerce account to a new owner or to another email address. This transfer requires a change to the primary user email associated with the account.
 
-The following information describes the process for transferring an Adobe Commerce account (MAGEID). It does not include changes to Adobe Commerce on cloud infrastructure project ownership or [!DNL New Relic] ownership. For more information about cloud project access, see [Manage user access](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) in the _Commerce on Cloud Infrastructure Guide_.
+The following information describes the process for transferring an Adobe Commerce account (MAGEID). It does not include changes to Adobe Commerce on cloud infrastructure project ownership or [!DNL New Relic] ownership. For more information about cloud project access, see [Manage user access](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/user-access) in the _Commerce on Cloud Infrastructure Guide_.
 
 >[!IMPORTANT]
 >
 >If the new account owner purchased extensions using Shared Access, access to those extensions is lost as soon as the account transfer starts.
 >
->Before requesting the account transfer, make sure that the new owner retrieves the Order IDs for the purchases from [their [!DNL Commerce Marketplace] account](https://commercemarketplace.adobe.com/sales/order/history/) and requests a refund from the [[!DNL Commerce Marketplace] team](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case). Extension purchases cannot be transferred to a different account.
+>Before requesting the account transfer, make sure that the new owner retrieves the Order IDs for the purchases from [their [!DNL Commerce Marketplace] account](https://commercemarketplace.adobe.com/sales/order/history/) and requests a refund from the [[!DNL Commerce Marketplace] team](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case). Extension purchases cannot be transferred to a different account.
 
 ## Identify your transfer type
 
@@ -56,7 +56,7 @@ The following scenarios describe the available transfer options based on these c
 
 >[!NOTE]
 >
->As Adobe Commerce continues to integrate with other Adobe solutions, an Adobe Commerce account (MAGEID) now requires an association with an Adobe ID. The Adobe ID uses the same email address connected to your [Adobe Commerce account](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create?lang=en#create-a-commerce-account).
+>As Adobe Commerce continues to integrate with other Adobe solutions, an Adobe Commerce account (MAGEID) now requires an association with an Adobe ID. The Adobe ID uses the same email address connected to your [Adobe Commerce account](/help/getting-started/commerce-account-create.md#create-a-commerce-account).
 
 ## Verify an Adobe ID email change
 
@@ -75,7 +75,7 @@ Several transfer paths use the same verification workflow on [account.adobe.com]
 >Review the [transfer types](#identify-your-transfer-type) and confirm that this path matches your situation:
 >
 >- The current owner is still with the company.
->- The current owner either does not have an Adobe ID, or has an Adobe ID that is not connected to their [Adobe Commerce account (MAGEID)](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create?lang=en#create-a-commerce-account).
+>- The current owner either does not have an Adobe ID, or has an Adobe ID that is not connected to their [Adobe Commerce account (MAGEID)](/help/getting-started/commerce-account-create.md#create-a-commerce-account).
 >- The new owner does not have an Adobe ID and does not have an Adobe Commerce account.
 
 Use this path when the current owner has a MAGEID that is not yet linked to an Adobe ID. The current owner first creates and links an Adobe ID, then changes that Adobe ID email address to the new owner's email address.
@@ -113,7 +113,7 @@ After the new owner verifies the email address, continue to [Final steps](#final
 >Review the [transfer types](#identify-your-transfer-type) and confirm that this path matches your situation:
 >
 >- The current owner is still with the company.
->- The current owner has an Adobe ID that is connected to their [Adobe Commerce account (MAGEID)](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create?lang=en#create-a-commerce-account).
+>- The current owner has an Adobe ID that is connected to their [Adobe Commerce account (MAGEID)](/help/getting-started/commerce-account-create.md#create-a-commerce-account).
 >- The new owner has an Adobe ID that is not connected to an Adobe Commerce account.
 
 Before you begin, note that this transfer type results in the current account owner losing access to other Adobe products tied to that Adobe ID.
@@ -137,7 +137,7 @@ After the new owner verifies the email address, continue to [Final steps](#final
 >Review the [transfer types](#identify-your-transfer-type) and confirm that this path matches your situation:
 >
 >- The current owner is no longer with the company, but emails sent to the current owner's company email address are still accessible, or your IT team can forward those emails to an authorized contact.
->- The current owner has an Adobe ID that is connected to their [Adobe Commerce account (MAGEID)](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create?lang=en#create-a-commerce-account).
+>- The current owner has an Adobe ID that is connected to their [Adobe Commerce account (MAGEID)](/help/getting-started/commerce-account-create.md#create-a-commerce-account).
 >- The new owner has an Adobe ID that is connected to their Adobe Commerce account.
 
 This transfer type uses a temporary email address to switch account ownership when both the current owner and new owner have existing Adobe IDs, and you want to retain both Adobe IDs. To complete the ownership transfer, you must use a temporary email address that is not associated with an Adobe ID.
@@ -148,7 +148,7 @@ Complete these steps to associate the current owner's Adobe ID with a temporary 
 
 >[!NOTE]
 >
->If you cannot access the current owner's email, ask your IT team to set up email forwarding for the account email address in your company email system. If email forwarding cannot be configured, ensure the new account owner has an Adobe ID and then [submit a support request](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) with all necessary details to initiate the account transfer.
+>If you cannot access the current owner's email, ask your IT team to set up email forwarding for the account email address in your company email system. If email forwarding cannot be configured, ensure the new account owner has an Adobe ID and then [submit a support request](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) with all necessary details to initiate the account transfer.
 
 1. Navigate to [account.adobe.com](https://account.adobe.com/) and complete the Adobe login.
 
@@ -192,7 +192,7 @@ After the new owner verifies the email address, continue to [Final steps](#final
 
 Complete these steps after completing the [New Adobe ID and email change](#new-adobe-id-and-email-change), [Email change only](#email-change), or [Adobe ID account switch](#adobe-id-account-switch) process.
 
-1. As the new owner, [submit a support request](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide?lang=en#support-case).
+1. As the new owner, [submit a support request](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case).
 
    Include the following details:
 

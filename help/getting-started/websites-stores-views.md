@@ -32,7 +32,7 @@ Every Adobe Commerce and Magento Open Source installation has a [hierarchy](../s
 
 >[!NOTE]
 >
->To learn more, see [Multiple websites or stores ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) in the [!DNL Commerce] developer documentation.
+>To learn more, see [Multiple websites or stores ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-overview) in the [!DNL Commerce] developer documentation.
 
 ## Websites
 

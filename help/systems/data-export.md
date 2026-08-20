@@ -100,7 +100,7 @@ The checkbox in the first column is used to exclude attributes from the export f
 
 1. Scroll down and click **[!UICONTROL Continue]** in the lower-right corner of the page.
 
-   Upon completion of the task, the file is processed through a message queue (make sure that your cron job is running). The exported file is saved in the `var/export/ folder`. For more information about the message queue, see [Manage message queues](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) in the _Configuration Guide_.
+   Upon completion of the task, the file is processed through a message queue (make sure that your cron job is running). The exported file is saved in the `var/export/ folder`. For more information about the message queue, see [Manage message queues](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues) in the _Configuration Guide_.
 
    You can save or open the exported CSV file as a spreadsheet, then edit the data and import it back into your store.
 
@@ -112,4 +112,4 @@ The checkbox in the first column is used to exclude attributes from the export f
 
 For help with troubleshooting data export issues, see the following Commerce Support Knowledge Base articles:
 
-- [Exported products .csv file does not appear](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html)
+- [Exported products .csv file does not appear](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-csv-file-does-not-appear)

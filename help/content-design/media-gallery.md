@@ -55,7 +55,7 @@ With Adobe Commerce or Magento Open Source 2.4, merchants can use the new _enhan
 
 >[!NOTE]
 >
->Full functionality for new [!DNL Media Gallery] requires `media.gallery.synchronization` and `media.content.synchronization` queue consumers to be started for initial synchronization. See [Manage message queues](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) in the _Configuration Guide_ for more details.
+>Full functionality for new [!DNL Media Gallery] requires `media.gallery.synchronization` and `media.content.synchronization` queue consumers to be started for initial synchronization. See [Manage message queues](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues) in the _Configuration Guide_ for more details.
 
 ## Access the new [!DNL Media Gallery]
 

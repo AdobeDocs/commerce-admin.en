@@ -103,7 +103,7 @@ See [Set up Site Search](https://support.google.com/analytics/answer/1012264) in
 
 ## Step 2. Configure your [!DNL Google Tag Manager] account
 
-The following instructions show how to configure a new container with the basic settings. A sample [Composer](https://developer.adobe.com/commerce/php/development/composer/) configuration (.json) file is used to simplify the process, importing to generate a tag in a new container. For this example, creating a container, rather than modify an existing container, is recommended.
+The following instructions show how to configure a new container with the basic settings. A sample [Composer](https://developer.adobe.com/commerce/php/development/composer) configuration (.json) file is used to simplify the process, importing to generate a tag in a new container. For this example, creating a container, rather than modify an existing container, is recommended.
 
 >[!NOTE]
 >

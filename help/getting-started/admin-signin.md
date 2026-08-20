@@ -194,7 +194,7 @@ The Admin provides access to manage the orders, customers, products, shipping, a
 
 To ensure the security of your admin, conduct regular audits of users and roles with admin access.
 
-Additionally, consider [updating the Admin Base URL configuration](https://experienceleague.adobe.com/en/docs/commerce-admin/config/advanced/admin#admin-base-url) to change the default `/admin` endpoint to a custom path. Configuring a custom path provides the following security benefits:
+Additionally, consider [updating the Admin Base URL configuration](/help/configuration-reference/advanced/admin.md#admin-base-url) to change the default `/admin` endpoint to a custom path. Configuring a custom path provides the following security benefits:
 
 **Enhanced Security**: The default "admin" path is widely known and often targeted by malicious actors attempting brute force attacks. By changing it to a unique, custom value, you significantly reduce the risk of unauthorized access attempts.
 
@@ -206,4 +206,4 @@ Additionally, consider [updating the Admin Base URL configuration](https://exper
 
 >[!NOTE]
 >
->If a breach is suspected, make sure to remove all unknown Admin users and reset all Admin passwords and review the [Security action plan](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security) for further steps.
+>If a breach is suspected, make sure to remove all unknown Admin users and reset all Admin passwords and review the [Security action plan](/help/systems/security.md) for further steps.

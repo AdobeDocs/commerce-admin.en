@@ -70,5 +70,5 @@ Watch this video to learn how Adobe Commerce and AEM Assets work together to str
 
 ## Support
 
-If you need information or have questions not covered in this guide, contact your AEM Assets Integration sales representative or create a [support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) to receive additional help.
+If you need information or have questions not covered in this guide, contact your AEM Assets Integration sales representative or create a [support ticket](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) to receive additional help.
 

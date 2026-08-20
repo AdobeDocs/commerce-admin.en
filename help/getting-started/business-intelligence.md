@@ -54,7 +54,7 @@ Use Commerce Intelligence tools to gain the insight used to make sound business 
 
 ## [!DNL Commerce Intelligence] account
 
-When you activate a [!DNL Commerce Intelligence] account through Adobe, you get access to five dashboards with approximately 70 reports. These reports are designed to provide insights around your data and answer questions like "How are my orders growing month-over-month?", "Who are my most loyal customers?", and "Is my coupon strategy working?" For detailed information about this tool set, see the [Commerce Intelligence User Guide](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html).
+When you activate a [!DNL Commerce Intelligence] account through Adobe, you get access to five dashboards with approximately 70 reports. These reports are designed to provide insights around your data and answer questions like "How are my orders growing month-over-month?", "Who are my most loyal customers?", and "Is my coupon strategy working?" For detailed information about this tool set, see the [Commerce Intelligence User Guide](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/guide-overview).
 
 ## [!DNL Advanced Reporting]
 
@@ -80,7 +80,7 @@ For technical information, see the [[!DNL Advanced Reporting]](https://developer
 
 * In the [!DNL Commerce] configuration for store URLs, **[!UICONTROL Use Secure URLs on Storefront]** and **[!UICONTROL Use Secure URLs in Admin]** must be set to `Yes`.
 
-* [[!DNL Commerce] crontab](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html) is created and cron jobs are running on the installed server.
+* [[!DNL Commerce] crontab](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) is created and cron jobs are running on the installed server.
 
 >[!NOTE]
 >

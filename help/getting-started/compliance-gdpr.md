@@ -74,4 +74,4 @@ Businesses that comply with GDPR might have additional obligations under the CCP
 
 - To learn how Adobe helps merchants comply with applicable legal obligations, visit the [website](https://business.adobe.com/privacy/general-data-protection-regulation.html){:target="_blank"}.
 
-- For data flow diagrams and database entity mapping, see the [Personal Information Reference](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html){: target="_blank"}.
+- For data flow diagrams and database entity mapping, see the [Personal Information Reference](https://experienceleague.adobe.com/en/docs/commerce-operations/security-and-compliance/reference/data-m2){: target="_blank"}.

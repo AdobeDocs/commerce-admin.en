@@ -58,7 +58,7 @@ The Adobe Commerce B2B extension, `magento/extension-b2b` is available for all s
 
 - Access to [repo.magento.com](https://repo.magento.com/) to download the extension. For key generation and obtaining the necessary rights, see [Get your authentication keys](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys).
 
-  Save authentication keys for installation by defining them globally in your [COMPOSER_HOME](https://getcomposer.org/doc/03-cli.md#composer-home) directory. Or, save them to an [auth.json](https://developer.adobe.com/commerce/contributor/guides/install/clone-repository/#authentication-file) file in the Adobe Commerce application root directory.
+  Save authentication keys for installation by defining them globally in your [COMPOSER_HOME](https://getcomposer.org/doc/03-cli.md#composer-home) directory. Or, save them to an [auth.json](https://developer.adobe.com/commerce/contributor/guides/install/clone-repository#authentication-file) file in the Adobe Commerce application root directory.
 
 - [Supported version of the B2B extension](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability)–Determine the most recent version of the B2B extension that is supported on the deployed Adobe Commerce version.
 
@@ -79,7 +79,7 @@ Install the B2B extension (`magento/b2b-extension`) using Composer. The extensio
 >
 >When installing Adobe Commerce B2B on cloud infrastructure, Adobe recommends that you deploy your Adobe Commerce application to an Integration or Staging environment before beginning.
 
-Adobe recommends working in a development branch when adding the B2B extension to your project. If you do not have a branch, see [Create a branch for development](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches). When installing the B2B extension, the `Magento_B2b` extension name is automatically inserted in the `app/etc/config.php` file. There is no need to edit the file directly.
+Adobe recommends working in a development branch when adding the B2B extension to your project. If you do not have a branch, see [Create a branch for development](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/cli-branches). When installing the B2B extension, the `Magento_B2b` extension name is automatically inserted in the `app/etc/config.php` file. There is no need to edit the file directly.
 
 **To install the B2B extension**:
 
@@ -115,7 +115,7 @@ Adobe recommends working in a development branch when adding the B2B extension t
 
    >[!NOTE]
    >
-   >Pushing updates to the cloud environment initiates the Commerce cloud deployment process to apply the changes. Check the deployment status from the [deploy log](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process). If you encounter deployment errors, see [Recover from component failure](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment).
+   >Pushing updates to the cloud environment initiates the Commerce cloud deployment process to apply the changes. Check the deployment status from the [deploy log](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/deploy/process). If you encounter deployment errors, see [Recover from component failure](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/deploy/recover-failed-deployment).
 
 1. After the build and deploy finishes, use SSH to log in to the remote environment and verify that the B2B extension is installed and enabled.
 
@@ -191,7 +191,7 @@ The Adobe Commerce B2B extension uses MySQL for message queue management. The fo
 | `purchaseorder.validation`               | Validates purchase order against relevant [approval rules](account-dashboard-approval-rules.md). Required when the [**[!UICONTROL Purchase Orders]**](purchase-order-flow.md) option is enabled in the Admin System configuration settings.                                                                                                                                                                                                                                                                              |
 | `quoteItemCleaner`                       | Deletes invalid or inactive price quotes when a product is deleted from the catalog or removed from the cart. Required when the [**[!UICONTROL Quotes]**](quotes.md) option is enabled in the Admin System configuration settings.                                                                                                                                                                                                                                                                                       |
 | `inventoryQtyCounter`                    | Asynchronously corrects the stock index after an order is placed or a product is removed. Required when the [**[!UICONTROL Use deferred stock update]**](../configuration-reference/catalog/inventory.md#product-stock-options) option is enabled for Inventory Management in the Admin configuration settings. See [Performance Best Practices](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/configuration#deferred-stock-update).                                       |
-| `async.operations.all`                   | Creates messages for each individual task of a [bulk operation](https://developer.adobe.com/commerce/php/development/components/message-queues/bulk-operations/) such as importing or exporting items, changing prices on a mass scale, and assigning products to a warehouse. Required when the [**Admin bulk operations**](../configuration-reference/catalog/inventory.md#admin-bulk-operations) option for [!DNL Inventory Management] is set to **Run asynchronously** in the Admin System configuration settings. |
+| `async.operations.all`                   | Creates messages for each individual task of a [bulk operation](https://developer.adobe.com/commerce/php/development/components/message-queues/bulk-operations) such as importing or exporting items, changing prices on a mass scale, and assigning products to a warehouse. Required when the [**Admin bulk operations**](../configuration-reference/catalog/inventory.md#admin-bulk-operations) option for [!DNL Inventory Management] is set to **Run asynchronously** in the Admin System configuration settings. |
 
 {style="table-layout:auto"}
 

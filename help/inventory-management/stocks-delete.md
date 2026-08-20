@@ -1,6 +1,6 @@
 ---
 title: Delete inventory stocks
-description: Delete a custom stock in the Admin and reassign websites to another stock so salable quantities and open orders stay accurate.
+description: Learn how to delete a custom stock in the Commerce Admin and reassign its websites to another stock first, so salable quantities and open orders stay accurate.
 exl-id: 420e0bbf-6382-471d-9ad2-16587191e5e7
 TQID: https://experienceleague.adobe.com/H6WjUk2tfqMqNbGkgkF22XvB8lFINXuLmHotNBeZIyU
 product_v2:

@@ -1,6 +1,6 @@
 ---
 title: Value added tax (VAT)
-description: "&lt;Add description here&gt;"
+description: Learn how Adobe Commerce calculates value-added tax (VAT) using merchant or customer address rules, and how to apply different VAT rates by product or service.
 exl-id: 20dbcb86-e558-47f2-968d-b5c9ec5f665b
 feature: Taxes
 TQID: https://experienceleague.adobe.com/CEUmSPDUdWxMGWRC4bXjSsBfuYJqkPNYtVx-mqxt1-M

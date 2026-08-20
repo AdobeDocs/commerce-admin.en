@@ -44,4 +44,4 @@ The CSV file has separate columns for `downloadable_links` and `downloadable_sam
 
   ![Example data - downloadable product with downloadable samples](./assets/data-import-downloadable-samples.png){width="400" zoomable="yes"}
 
-For more information about enabling and managing the remote storage module, see [Configure remote storage](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html) in the _Configuration guide_.
+For more information about enabling and managing the remote storage module, see [Configure remote storage](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage) in the _Configuration guide_.

@@ -42,7 +42,7 @@ These release notes describe releases of [!DNL Inventory Management] and include
 
 [!DNL Inventory Management] is a Magento Open Source Community Engineering special project open to contributors. To take part and contribute, see the [GitHub project](https://github.com/magento/inventory) repository and [wiki](https://github.com/magento/inventory/wiki) to get started. To discuss the project, join the [Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY) channel ([self-signup](https://opensource.magento.com/slack)).
 
-[Release schedule](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"} for supported and compatible releases.
+[Release schedule](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/schedule){target="_blank"} for supported and compatible releases.
 
 ## v1.2.7
 
@@ -283,13 +283,13 @@ New modules for [!DNL Inventory Management] 1.1.2 Beta include:
         'Magento_InventoryExportStockApi' => 0,
 ```
 
-![New](../assets/new.svg) **Added a Bulk Partial Stock Transfer Endpoint** - Current bulk transfer endpoints move all assigned quantity from an origin to a destination source. The new `/rest/V1/inventory/bulk-partial-source-transfer` endpoint allows merchants to transfer partial stock from source to source as a bulk operation. To transfer a specific amount of quantity, enter a request to the endpoint with the `sku`, `qty`, `origin_source_code`, and `destination_source_code`. Transfers verify that the source is assigned to the `sku`, enough quantity exists to transfer, and so on. See [Inventory mass actions](https://developer.adobe.com/commerce/webapi/rest/inventory/bulk-inventory/){target="_blank"} in the REST API documentation. <!-- https://github.com/magento/inventory/pull/2117 -->
+![New](../assets/new.svg) **Added a Bulk Partial Stock Transfer Endpoint** - Current bulk transfer endpoints move all assigned quantity from an origin to a destination source. The new `/rest/V1/inventory/bulk-partial-source-transfer` endpoint allows merchants to transfer partial stock from source to source as a bulk operation. To transfer a specific amount of quantity, enter a request to the endpoint with the `sku`, `qty`, `origin_source_code`, and `destination_source_code`. Transfers verify that the source is assigned to the `sku`, enough quantity exists to transfer, and so on. See [Inventory mass actions](https://developer.adobe.com/commerce/webapi/rest/inventory/bulk-inventory){target="_blank"} in the REST API documentation. <!-- https://github.com/magento/inventory/pull/2117 -->
 
 ![New](../assets/new.svg) **Added Reservation CLI** - New commands give you options to detect and resolve reservation inconsistencies. As orders submit and change status, [!DNL Inventory Management] generates initial reservations and updates through compensation reservations. These commands return a list of detected inconsistencies by Order ID, SKU, and Stock ID and create reservations to resolve. See the [CLI reference](cli.md) for more information. <!-- https://github.com/magento/inventory/pull/2199 https://github.com/magento/inventory/pull/2184 https://github.com/magento/inventory/pull/2171 https://github.com/magento/inventory/pull/2148  -->
 
 ![New](../assets/new.svg) **Performance improvements for sources and SSA options** -  Sorting and selecting sources during shipment caused performance degradation for stocks with high numbers of sources. This release provides significant performance improvements to list and sort available sources when reviewing and selecting SSA options in shipments. <!-- https://github.com/magento/inventory/pull/2056 https://github.com/magento/inventory/pull/2090 -->
 
-![New](../assets/new.svg) **Added GraphQL support for Inventory Management** - This release installs a new `magento/module-inventory-graph-ql` module. The GraphQL [ProductInterface attributes](https://developer.adobe.com/commerce/webapi/graphql/schema/products/interfaces/attributes/){target="_blank"} now includes the `only_x_left_in_stock` and `stock_status` attributes for [!DNL Inventory Management] support. <!-- https://github.com/magento/inventory/pull/2124 -->
+![New](../assets/new.svg) **Added GraphQL support for Inventory Management** - This release installs a new `magento/module-inventory-graph-ql` module. The GraphQL [ProductInterface attributes](https://developer.adobe.com/commerce/webapi/graphql/schema/products/interfaces/attributes){target="_blank"} now includes the `only_x_left_in_stock` and `stock_status` attributes for [!DNL Inventory Management] support. <!-- https://github.com/magento/inventory/pull/2124 -->
 
 ![New](../assets/new.svg) **Simplified UI for Assigned Sources** - The Assigned Sources table in product pages has simplified content for easier updates and increased performance when displaying many sources. All sources list by source name (hover over for `source_code`).
 
@@ -299,7 +299,7 @@ New modules for [!DNL Inventory Management] 1.1.2 Beta include:
 
 [!DNL Inventory Management] 1.1.0 (module version: `inventory-composer-metapackage = 1.1.0`)  is supported and compatible with version 2.3.0 of Adobe Commerce, Adobe Commerce on cloud infrastructure, and the Magento Open Source code base. [!DNL Inventory Management] 1.1.1 is released only as a package name update, supported for version 2.3.1 and compatible with version 2.3.0 of Adobe Commerce, Adobe Commerce on cloud infrastructure, and the Magento Open Source code base.
 
-![Fixed issue](../assets/fix.svg) **Added support for Elasticsearch for single and multi-source modes** — You can now configure and use Elasticsearch with custom stocks. See [Set up Elasticsearch service](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html){target="_blank"} for installation information. <!-- PR https://github.com/magento/inventory/pull/1943 -->
+![Fixed issue](../assets/fix.svg) **Added support for Elasticsearch for single and multi-source modes** — You can now configure and use Elasticsearch with custom stocks. See [Set up Elasticsearch service](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/service/elasticsearch){target="_blank"} for installation information. <!-- PR https://github.com/magento/inventory/pull/1943 -->
 
 ![Fixed issue](../assets/fix.svg) Resolved performance issues with Default Stock to drastically increase performance with numerous operations. Improvements increase performance for single-source mode, Transfer Inventory to Source, Storefront Category pages, and Salable Quantity calculations.
 
