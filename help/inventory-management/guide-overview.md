@@ -78,5 +78,5 @@ Use support articles and ticket systems to solve inventory issues fast. Get extr
 
 If you need information or have questions that are not covered in this guide, use the following resources:
 
-- [Stock status incorrect after Inventory install](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.html)
-- [Support tickets](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket)—Submit a ticket to receive additional help.
+- [Stock status incorrect after Inventory install](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-29910)
+- [Support tickets](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)—Submit a ticket to receive additional help.

@@ -112,4 +112,4 @@ The checkbox in the first column is used to exclude attributes from the export f
 
 For help with troubleshooting data export issues, see the following Commerce Support Knowledge Base articles:
 
-- [Exported products .csv file does not appear](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html)
+- [Exported products .csv file does not appear](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-csv-file-does-not-appear)

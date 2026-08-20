@@ -148,7 +148,7 @@ Complete these steps to associate the current owner's Adobe ID with a temporary 
 
 >[!NOTE]
 >
->If you cannot access the current owner's email, ask your IT team to set up email forwarding for the account email address in your company email system. If email forwarding cannot be configured, ensure the new account owner has an Adobe ID and then [submit a support request](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) with all necessary details to initiate the account transfer.
+>If you cannot access the current owner's email, ask your IT team to set up email forwarding for the account email address in your company email system. If email forwarding cannot be configured, ensure the new account owner has an Adobe ID and then [submit a support request](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) with all necessary details to initiate the account transfer.
 
 1. Navigate to [account.adobe.com](https://account.adobe.com/) and complete the Adobe login.
 
@@ -192,7 +192,7 @@ After the new owner verifies the email address, continue to [Final steps](#final
 
 Complete these steps after completing the [New Adobe ID and email change](#new-adobe-id-and-email-change), [Email change only](#email-change), or [Adobe ID account switch](#adobe-id-account-switch) process.
 
-1. As the new owner, [submit a support request](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide?lang=en#support-case).
+1. As the new owner, [submit a support request](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case).
 
    Include the following details:
 
