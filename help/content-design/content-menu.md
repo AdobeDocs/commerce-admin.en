@@ -30,6 +30,8 @@ topic_v2:
 >
 >When the new [[!DNL Media Gallery]](media-gallery.md) is enabled, the _[!UICONTROL Media]_ section appears with a single option to access the [!DNL Media Gallery]. You can set the **[!UICONTROL Enable Old Media Gallery]** option to `No` by going to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]** and choosing **[!UICONTROL Advanced]** > **[!UICONTROL System]** in the left panel.
 
+**[!UICONTROL Old Media Gallery]** is deprecated and not supported anymore. We recommend to use a **[!UICONTROL New Media Gallery]**.
+
 >[!BEGINTABS]
 
 >[!TAB Adobe Commerce]
