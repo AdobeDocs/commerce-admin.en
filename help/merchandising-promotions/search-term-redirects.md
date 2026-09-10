@@ -1,11 +1,23 @@
 ---
 title: Search-Term Redirects and Storefront Routing
 description: Learn how to choose search-term redirects, URL rewrites, Live Search rules, or storefront routing by deployment for Adobe Commerce and Edge Delivery Services.
-short-description: Choose the right redirect or merchandising capability for standard Commerce, Live Search, and Edge Delivery Services storefronts.
 feature: Merchandising, Search
 role: Admin, User
 level: Intermediate
 topic: Commerce, Administration
+autotag-review: '2026-09-10T17:42:01.349Z'
+TQID: 'https://experienceleague.adobe.com/Vxw3B0zOzLZfAm3qn8gJKHGSNtVhkN2Bfmcauhj0sdM'
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Search-term redirects and storefront routing
 
