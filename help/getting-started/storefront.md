@@ -115,6 +115,8 @@ With [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/li
 
 With [standard catalog search](../catalog/search.md), your store includes a Search box in the upper-right corner, and a link to Advanced Search in the footer. All search terms that shoppers submit are saved, so you can see exactly what they're looking for. You can offer suggestions, and enter synonyms and common misspellings. Then, display a specific page when a search term is entered.
 
+For guidance on search-term redirects, URL rewrites, and routing for [!DNL Live Search] or [!DNL Edge Delivery Services], see [Search-term redirects and storefront routing](../merchandising-promotions/search-term-redirects.md).
+
 ![Example of standard catalog search results](./assets/storefront-search-results-page-full.png){width="700"}
 
 ## Product page
