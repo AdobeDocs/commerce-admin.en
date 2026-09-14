@@ -47,7 +47,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 nudge: true
-last-update: 2026-09-04
+last-update: 2026-09-11
 ---
 # <!-- use banner as heading -->![Admin documentation](./assets/banner-user-home.png) {#documentation}
 
