@@ -41,11 +41,11 @@ Use the following guidance to identify the capability that matches your requirem
 
 | Requirement | Recommended capability |
 | --- | --- |
-| Send a specific query from standard [!DNL Adobe Commerce] search to a page | Configure a search term in [Manage search terms](../catalog/search-terms.md), where supported |
-| Change product ranking or visibility in search results | Use [!DNL Live Search] synonyms or merchandising rules |
-| Redirect an old product, category, or CMS URL | Use the Commerce [URL Rewrite](url-rewrite.md) tool when it applies to your deployment |
-| Redirect an [!DNL Edge Delivery Services] path | Use storefront or CDN routing |
-| Preserve legacy URLs after a storefront migration | Create and test a legacy-to-new URL redirect map |
+| Send a specific query from standard [!DNL Adobe Commerce] search to a page | Configure a search term in [Manage search terms](../catalog/search-terms.md), where supported. |
+| Change product ranking or visibility in search results | Use [!DNL Live Search] [synonyms](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/synonyms/synonyms) or [merchandising rules](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/rules/rules-add). |
+| Redirect an old product, category, or CMS URL | Use the Commerce [URL Rewrite](url-rewrite.md) tool when it applies to your deployment. |
+| Redirect an [!DNL Edge Delivery Services] path | Use storefront or CDN routing. |
+| Preserve legacy URLs after a storefront migration | Create and test a legacy-to-new URL redirect map. |
 
 ## Standard Commerce search
 
@@ -61,13 +61,13 @@ To create or update this type of redirect, see [Manage search terms](../catalog/
 
 Use a URL rewrite when the source is an existing URL rather than a shopper-entered search term. Common examples include redirecting:
 
-* An old product URL to a new product URL
+* An old product URL to a new product URL.
 
-* A retired category URL to a replacement category URL
+* A retired category URL to a replacement category URL.
 
-* An outdated CMS page URL to a new content page URL
+* An outdated CMS page URL to a new content page URL.
 
-For deployments that support the URL Rewrite tool, go to **[!UICONTROL Marketing]** > **[!UICONTROL SEO & Search]** > **[!UICONTROL URL Rewrites]** to create the redirect. For procedures, see [URL rewrites](url-rewrite.md).
+For deployments that support the URL Rewrite tool, go to **[!UICONTROL Marketing]** > **[!UICONTROL SEO & Search]** > **[!UICONTROL URL Rewrites]** to create the redirect. For step-by-step guidance, see [URL rewrites](url-rewrite.md).
 
 >[!NOTE]
 >
