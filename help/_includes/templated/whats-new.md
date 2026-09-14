@@ -69,25 +69,3 @@ This section contains the changes made in the last 60 days. We exclude all minor
     </tr>
   </tbody>
 </table>
-
-### July 9, 2026
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Description</th>
-      <th>Type</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Added <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/catalog-enrichment">Catalog enrichment</a> with guidance for reviewing and applying AI-suggested product name and description updates in the Admin, and linked the topic from the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog-menu">Catalog menu</a>, <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/guide-overview">guide overview</a>, and related product settings topics.</p>
-</td>
-      <td>
-        New topic
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/6cd9281329fd909e38e4bbf41159eadfed2f9ad3">commit</a></td>
-    </tr>
-  </tbody>
-</table>
