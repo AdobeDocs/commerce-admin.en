@@ -71,7 +71,7 @@ For deployments that support the URL Rewrite tool, go to **[!UICONTROL Marketing
 
 >[!NOTE]
 >
->The [URL rewrites](url-rewrite.md) topic is marked PaaS only. For [!DNL Adobe Commerce as a Cloud Service] or an [!DNL Edge Delivery Services] storefront, use the routing guidance for that storefront instead.
+>The [URL rewrites](url-rewrite.md) topic applies to PaaS only. For [!DNL Adobe Commerce as a Cloud Service] or an [!DNL Edge Delivery Services] storefront, use the routing guidance for that storefront instead.
 
 ## Live Search
 
