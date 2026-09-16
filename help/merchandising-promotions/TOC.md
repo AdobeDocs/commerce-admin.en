@@ -68,6 +68,7 @@ nudge: true
     - [Create email reminders](email-reminder-rules-create.md)
 - Search engine optimization {#seo}
   - [SEO overview and best practices](seo-overview.md)
+  - [Search-term redirects and storefront routing](search-term-redirects.md)
   - [Meta data](meta-data.md)
   - [Site maps](sitemap-xml.md)
   - URL rewrites {#url-rewrites}

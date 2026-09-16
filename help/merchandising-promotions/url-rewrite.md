@@ -45,6 +45,8 @@ topic_v2:
 
 The URL rewrites tool lets you change any URL that is associated with a product, category, or CMS page. When you create a URL rewrite, Commerce automatically creates a permanent redirect (301) so that any links pointing to the old URL are redirected to the new address.
 
+Use a search-term redirect when the source is a shopper-entered query rather than an existing URL. For more guidance, see [Search-term redirects and storefront routing](search-term-redirects.md).
+
 >[!NOTE]
 >
 >To update URL rewrites for multiple or all products simultaneously, refer to [Multiple URL rewrites](url-rewrite-product.md#multiple-url-rewrites).
