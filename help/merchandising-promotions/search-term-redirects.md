@@ -107,21 +107,14 @@ Before switching traffic to the new storefront:
 
 ## Troubleshoot redirects
 
-### A search term does not redirect
+Use the following checks when a redirect does not behave as expected across [!DNL Adobe Commerce] search, storefront routing, and store views.
 
-Confirm that the storefront uses standard catalog search, the search query matches the configured term, and the search term is assigned to the correct store view. If [!DNL Live Search] is enabled, verify that the redirect is implemented in the storefront or edge layer.
-
-### A redirect works on Luma but not on Edge Delivery Services
-
-Confirm that the redirect is configured in the [!DNL Edge Delivery Services] storefront or CDN routing layer. [!DNL Adobe Commerce] Admin URL rewrites might not receive the request.
-
-### Live Search returns results instead of redirecting
-
-Use [!DNL Live Search] rules for product ranking and visibility. For navigation to a content or campaign page, configure the redirect in the storefront or edge layer.
-
-### A redirect works in one store view but not another
-
-Check the store view assigned to the search term or URL rule. Test the full locale path and query in each affected store view.
+| Issue | What to check |
+| --- | --- |
+| A search term does not redirect | Confirm that the storefront uses standard catalog search, the search query matches the configured term, and the search term is assigned to the correct store view. If [!DNL Live Search] is enabled, verify that the redirect is implemented in the storefront or edge layer. |
+| A redirect works on Luma but not on Edge Delivery Services | Confirm that the redirect is configured in the [!DNL Edge Delivery Services] storefront or CDN routing layer. [!DNL Adobe Commerce] Admin URL rewrites might not receive the request. |
+| Live Search returns results instead of redirecting | Use [!DNL Live Search] rules for product ranking and visibility. For navigation to a content or campaign page, configure the redirect in the storefront or edge layer. |
+| A redirect works in one store view but not another | Check the store view assigned to the search term or URL rule. Test the full locale path and query in each affected store view. |
 
 ## More help on this topic
 
