@@ -50,7 +50,7 @@ description: Reused notes and visual elements to note a feature or page applying
 
 >[!NOTE]
 >
->Price rules are automatically processed with other system rules. Processing frequency depends on the [cron configuration](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs). When you create a price rule, allow enough time for it to get into the system. WHen you are sure it is in the system, test the rule.
+>Price rules are automatically processed with other system rules. Processing frequency depends on the [cron configuration](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs). When you create a price rule, allow enough time for it to get into the system. When you are sure it is in the system, test the rule.
 
 ## Configuration settings {#config}
 
@@ -63,7 +63,6 @@ To access the store configuration settings, choose **[!UICONTROL Stores]** > _[!
 >Beginning June 2024, Adobe Commerce merchants can no longer transact with the current UPS integration. This is because the United Parcel Service (UPS) APIs used by the native Adobe Commerce integration do not currently support the required OAuth 2.0 security model. To enable the integration, [create an application on the UPS developer platform](https://developer.ups.com/get-started) to obtain the credentials required for OAuth 2.0. Use the new credentials as the `username` and `password` in the Commerce UPS Shipping configuration. To learn more about the security model change, see [Developer Portal Access Key Migration Guide_](https://developer.ups.com/oauth-developer-guide). <br/>
 >
 >Merchants should [apply a quality patch update](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27146) to their store to migrate from the SOAP API to the RESTful API, which supports OAuth 2.0 authentication protocols.
-
 
 ## Available documentation {#docs-links}
 

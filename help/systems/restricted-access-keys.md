@@ -1,6 +1,6 @@
 ---
 title: Manage Restricted Access Keys in Commerce
-description: Create, assign, and delete the restricted access keys that secure B2B shared catalog projections for the Adobe Commerce Optimizer Connector.
+description: Create, assign, and delete the restricted access keys that secure B2B shared catalog views synchronized to Adobe Commerce Optimizer.
 feature: Products, Customers, Data Import/Export
 role: Admin
 level: Intermediate
@@ -31,83 +31,90 @@ topic_v2:
     internal-label: Administration
 ---
 
-# Restricted Access Keys management
+# Manage restricted access keys
 
-[!BADGE Private Beta]{type=Caution tooltip="Requires the Adobe Commerce Optimizer Connector B2B extension, which is currently in private beta."} Learn how to create, assign, and delete the RSA key pairs that the [!DNL Adobe Commerce Optimizer Connector B2B extension] uses to secure private catalog views in [!DNL Adobe Commerce Optimizer].
+[!BADGE Private Beta]{type=Caution tooltip="Requires the Adobe Commerce Optimizer Connector for B2B extension, which is currently in private beta."}
+
+Use the Restricted Access Keys page to manage access keys for private catalog views created by the [!DNL Adobe Commerce Optimizer Connector for B2B]. The connector synchronizes B2B shared catalog configurations from Adobe Commerce to Adobe Commerce Optimizer.
 
 >[!NOTE]
 >
->This page manages keys for B2B shared catalog projections from the Commerce Admin. It's a different page from [!UICONTROL Restricted Access Keys] in [!DNL Adobe Commerce Optimizer] Studio, which manages keys you create manually for non-B2B use cases such as partner portals. See [Restricted access keys](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"} in the *Adobe Commerce Optimizer Guide* for that page.
+>For manually created keys used to manage private catalogs in non-B2B scenarios, such as partner portals, manage keys from [[!DNL Adobe Commerce Optimizer Studio]](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"}.
 
 ## Audience and availability {#audience}
 
-[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud Infrastructure and on-premises projects only."} The Restricted Access Keys page is available to Adobe Commerce on Cloud Infrastructure and on-premises merchants who use B2B shared catalogs with the [!DNL Adobe Commerce Optimizer Connector] B2B extension. The page is installed and enabled automatically with the extension—there is no separate installation step.
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud Infrastructure and on-premises projects only."}
 
-When a catalog view is first created for a shared catalog, the extension automatically generates and assigns one key. Use this page to view that key, and to create, assign, or delete additional keys.
+The [!UICONTROL Restricted Access Keys] page is available to Adobe Commerce on Cloud Infrastructure and on-premises merchants who use B2B shared catalogs with the [!DNL Adobe Commerce Optimizer Connector for B2B]. The connector installs and enables the page automatically.
+
+When a catalog view is first created for a shared catalog, the connector automatically generates and assigns one key. Use this page to view that key, and to create, assign, or delete additional keys.
 
 ## Access the Restricted Access Keys page {#access-restricted-access-keys-page}
 
 From the Admin area, navigate to **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** > **[!UICONTROL Restricted Access Keys]**.
 
-![Restricted Access Keys page listing keys and their assigned catalog views](assets/restricted-access-keys-admin.png){width="600" zoomable="yes"}
+![Restricted Access Keys page listing keys and their assigned catalog views](assets/restricted-access-keys.png){width="600" zoomable="yes"}
 
 This page lists every key regardless of whether it's assigned to a catalog view. To assign a key to a specific catalog view, use the [!UICONTROL Edit Restricted Access Keys] action on that catalog view instead. See [Assign keys to a catalog view](#assign-keys-to-a-catalog-view).
 
 ## Restricted Access Keys summary {#restricted-access-keys-summary}
 
-The grid lists one row per key:
+The grid contains one key per row.
 
 | Field | Description |
 | --- | --- |
-| **Key ID** | The key's unique identifier. |
+| **Key ID** | The unique key identifier. |
 | **Title** | A label you provide to identify the key. |
 | **Assigned Catalog Views** | The catalog views this key is currently assigned to. |
-| **Expires At** | The key's expiration date. |
+| **Expires At** | The key expiration date. |
 | **Actions** | Row-level actions. See [Manage keys](#manage-keys). |
-
->[!NOTE]
->
->There's no status or "active" column on this grid. A key's link status (assigned, linking, or failed) appears only in the [!UICONTROL Edit Restricted Access Keys] picker for a specific catalog view. Which of a catalog view's assigned keys is used to sign tokens is determined automatically—see [Key selection and rotation](#key-selection-and-rotation).
 
 ## Manage keys {#manage-keys}
 
-- **[!UICONTROL Create Key]**—Generates a new, unassigned key pair. Commerce generates the key pair and holds the private key; the public key isn't registered with [!DNL Adobe Commerce Optimizer] until you assign the key to a catalog view.
+- **[!UICONTROL Create Key]**—Generates a new, unassigned key pair. Commerce generates the key pair and stores the private key. The public key isn't registered with [!DNL Adobe Commerce Optimizer] until you assign the key to a catalog view.
 - **[!UICONTROL View Public Key]**—Opens a read-only view of the key's public key, so you can copy it to re-register or re-sync the key if needed. The private key is never displayed.
 - **[!UICONTROL Delete]**—Removes the key and revokes its remote registration in [!DNL Adobe Commerce Optimizer]. Storefront tokens already issued with this key remain valid until they expire. This action can't be undone.
 
 >[!NOTE]
 >
->An expired key can only be deleted—you can't assign or unassign an expired key.
+>An expired key can only be deleted. You cannot assign or unassign an expired key.
 
-## Assign keys to a catalog view {#assign-keys-to-a-catalog-view}
+## Create a key
 
-Assign or unassign keys from the catalog view itself, not from the main [!UICONTROL Restricted Access Keys] grid.
+ On the [!UICONTROL Restricted Access Keys] page, create a key by selecting  **[!UICONTROL Create Key]**.
 
-1. Open the shared catalog's or company's catalog view list in the Admin.
-1. Select **[!UICONTROL Edit Restricted Access Keys]** for the catalog view you want to update.
+Commerce generates a new key pair and stores the private key. The Restricted Access Keys table updates with a new key entry showing the unique key ID. Use this [!UICONTROL Key ID] when you assign the key to a catalog view.
 
-   ![Edit Restricted Access Keys picker showing keys assigned to a catalog view](assets/restricted-access-keys-edit-modal.png){width="500" zoomable="yes"}
+The public key is not registered with [!DNL Adobe Commerce Optimizer] until you assign the key to a catalog view. After registration, the Restricted Access Keys table entry is updated to show the catalog assignment and expiration date.
 
-1. In the **[!UICONTROL Access Keys]** field, select one to three keys to assign. Keys already assigned to a different catalog view are labeled accordingly.
-1. Click **[!UICONTROL Save]**.
+## Assign or remove restricted access keys {#assign-keys-to-a-catalog-view}
 
-A catalog view must have at least one key and can have at most three. If you try to assign a fourth key, the save fails with a message telling you to remove one first.
+{{$include /help/_includes/edit-restricted-access-keys.md}}
 
 ## Key selection and rotation {#key-selection-and-rotation}
 
-There's no manual "set active" action. When more than one key is assigned to a catalog view, [!DNL Adobe Commerce Optimizer] automatically uses the assigned, unexpired key with the latest expiration date to sign tokens.
+When more than one key is assigned to a catalog view, [!DNL Adobe Commerce Optimizer] automatically uses the assigned, unexpired key with the latest expiration date to sign tokens.
 
 >[!IMPORTANT]
 >
->Automatic key rotation isn't available yet. Keys default to a long expiration period, so this isn't an immediate concern. To rotate a key manually, create a new key, assign it to the catalog view alongside the existing one, confirm the new key is being used, then delete the old key.
+>Automatic key rotation is not available yet. Keys default to a long expiration period. To rotate a key manually, create a new key, assign it to the catalog view alongside the existing one. After confirming that the new key is being used, delete the old key.
+
+To change the default expiration period applied to newly created keys, go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Services]** > **[!UICONTROL ACO Restricted Access Keys]** > **[!UICONTROL Provisioning]** > **[!UICONTROL Default key lifetime (days)]**. See [Services > ACO Restricted Access Keys](../configuration-reference/services/aco-restricted-access-keys.md).
 
 ## Known limitations {#known-limitations}
 
-- There's no "active" or status indicator on the main [!UICONTROL Restricted Access Keys] grid. A key's link status per catalog view is only visible in the [!UICONTROL Edit Restricted Access Keys] picker.
-- Automatic key rotation isn't available yet. See [Key selection and rotation](#key-selection-and-rotation).
+- There is no active or status indicator on the main [!UICONTROL Restricted Access Keys] grid.
+
+  You can see the link status on the [!UICONTROL Edit Restricted Access Keys] page. Use the dropdown to view available keys and their status. If a key is assigned to a catalog view, it is linked. If it is not assigned, it has no status. You can assign those keys to the catalog view you are editing.
+
+  In the [!UICONTROL Catalog View Sync Status] page, you can see keys linked to a catalog view from the catalog view detail page (**[!UICONTROL View details]** action). The detail page also shows the key history, including when it was assigned or unassigned from a catalog view.
+
+- Automatic key rotation is not available yet.
 
 >[!MORELIKETHIS]
 >
+> - [Manage catalog view configuration](/help/b2b/catalog-views-manage.md) — Assign these keys from the shared catalog or company account
 > - [Catalog View Sync Status monitoring](catalog-view-sync-status.md) — Monitor and reconcile the catalog views these keys protect
+> - [Services > ACO Restricted Access Keys](../configuration-reference/services/aco-restricted-access-keys.md) — Configure the default key expiration period
 > - [Manage restricted access keys](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/restricted-access-keys){target="_blank"} in the *Adobe Commerce Optimizer Connector Guide* — Learn how these keys fit into B2B shared catalog sync
 > - [Restricted access keys](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"} in the *Adobe Commerce Optimizer Guide* — The manual, ACO Studio–based key flow for non-B2B use cases

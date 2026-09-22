@@ -1,5 +1,5 @@
 ---
-title: Catalog View Sync Status monitoring
+title: Catalog View Sync Status Monitoring
 description: Monitor B2B shared catalog projection health and reconcile catalog views, policies, price books, and access keys for the Adobe Commerce Optimizer Connector.
 feature: Products, Customers, Data Import/Export
 role: Admin
@@ -35,11 +35,11 @@ topic_v2:
     internal-label: Administration
 ---
 
-# Catalog View sync status monitoring
+# Catalog view sync status monitoring
 
 [!BADGE Private Beta]{type=Caution tooltip="Requires the Adobe Commerce Optimizer Connector for B2B extension, which is currently in private beta."}
 
-The [!UICONTROL Catalog View Sync Status] page lets Commerce administrators monitor and repair the sync health of B2B shared catalog projections—the catalog views, policies, price books, and restricted access keys that the [!DNL Adobe Commerce Optimizer Connector] creates in [!DNL Adobe Commerce Optimizer] from your [!DNL Adobe Commerce] shared catalogs.
+Commerce administrators use the [!UICONTROL Catalog View Sync Status] page to monitor and repair shared catalog projections to [!DNL Adobe Commerce Optimizer]. [!DNL Adobe Commerce Optimizer Connector for B2B] creates a projection. For each store view within the shared catalog's website scope, the connector creates an [!DNL Adobe Commerce Optimizer] catalog view and synchronizes its associated product assortment policy, price book reference, and restricted access key configuration.
 
 Use the [!UICONTROL Catalog View Sync Status] page to troubleshoot a company seeing the wrong assortment, pricing, or catalog access.
 
@@ -51,7 +51,7 @@ Use the [!UICONTROL Catalog View Sync Status] page to troubleshoot a company see
 
 [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud Infrastructure and on-premises projects only."}
 
-The Catalog View Sync Status page is available to Adobe Commerce on Cloud Infrastructure and on-premises merchants who use B2B shared catalogs with the [!DNL Adobe Commerce Optimizer Connector for B2B] extension. The page is installed and enabled automatically with the extension.
+The [!UICONTROL Catalog View Sync Status] page is available to Adobe Commerce on Cloud Infrastructure and on-premises merchants who use B2B shared catalogs with the [!DNL Adobe Commerce Optimizer Connector for B2B] integration. The page is installed and enabled automatically when the connector extension is installed.
 
 ## Access the Catalog View Sync Status page {#access-catalog-view-sync-status-page}
 
@@ -100,39 +100,56 @@ The grid lists one row per catalog view:
 | **Healthy** | No drift detected. The catalog view, policy, price book, and keys match your [!DNL Adobe Commerce] configuration. |
 | **Degraded** | Drift was detected and is repairable—for example, a policy or price book was changed directly in [!DNL Adobe Commerce Optimizer]. |
 | **Failed** | The catalog view was never created, or was deleted directly in [!DNL Adobe Commerce Optimizer]. |
-| **Pending** | The catalog view hasn't been reconciled yet, or is waiting on its first projection. |
+| **Pending** | The catalog view has not been reconciled yet, or is waiting on its first projection. |
 | **Retiring** | The shared catalog was deleted in [!DNL Adobe Commerce], and the catalog view is inside its deletion grace period. |
-| **Deleted** | The catalog view projection was removed after its grace period. Kept as a record on the [!UICONTROL Deleted] tab for 90 days. |
+| **Deleted** | The catalog view projection was removed after its grace period. It is kept as a record on the [!UICONTROL Deleted] tab for 90 days. |
 | **Orphaned** | The catalog view or key exists in [!DNL Adobe Commerce Optimizer] but has no corresponding [!DNL Adobe Commerce] source. See [Orphaned in ACO tab](#orphaned-in-aco-tab). |
 
 ### Configure the deletion grace period {#configure-the-deletion-grace-period}
 
-The deletion grace period defaults to 7 days. To change it, go to the [!DNL Adobe Commerce] Admin (not [!DNL Adobe Commerce Optimizer] Studio) and navigate to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Services]** > **[!UICONTROL ACO Shared Catalog Sync]** > **[!UICONTROL Deletion]** > **[!UICONTROL Deletion Grace Period (days)]**. Setting this field to `0` removes the catalog view's ACO projection immediately, with no grace period. See [Services > ACO Shared Catalog Sync](../configuration-reference/services/aco-shared-catalog-sync.md) for all available sync and drift reconciler settings.
+The deletion grace period specifies the data retention window for catalog views and associated data after the associated shared catalog is deleted. The value defaults to 7 days.
+After the window expires, all data is removed.
+
+#### Change the data retention setting
+
+1. Open the [!DNL Adobe Commerce] Admin.
+
+1. From the  **[!UICONTROL Stores]** menu, select  **[!UICONTROL Configuration]** > **[!UICONTROL Services]** > **[!UICONTROL ACO Catalog View Sync]** > **[!UICONTROL Deletion]** > **[!UICONTROL Deletion Grace Period (days)]**.
+
+1. Update the **[!UICONTROL Deletion Grace Period (days)]** value as needed.
+
+   To remove a catalog view ACO projection immediately after deleting a shared catalog, set this value to `0`.
+
+1. Select **[!UICONTROL Save Config]**.
 
 
+For details, see [Services > ACO Catalog View Sync](../configuration-reference/services/aco-catalog-view-sync.md) for all available sync and drift reconciler settings.
 
-## Reconcile and repair drift {#reconcile-and-repair-drift}
 
-[!DNL Adobe Commerce] is the authoritative source for B2B shared catalog projection. Reconciliation compares your [!DNL Adobe Commerce] configuration against [!DNL Adobe Commerce Optimizer] and reports or repairs any difference.
+## Reconcile and repair configuration differences {#reconcile-and-repair-drift}
+
+[!DNL Adobe Commerce] is the authoritative source for B2B shared catalog projection. Reconciliation compares your [!DNL Adobe Commerce] configuration against [!DNL Adobe Commerce Optimizer] and reports or repairs any differences.
 
 >[!IMPORTANT]
 >
->Changes made directly in [!DNL Adobe Commerce Optimizer] to a connector-managed catalog view, policy, price book, or key are not authoritative. Reconciliation reports these as drift and, when you repair, reverts them to match [!DNL Adobe Commerce]. Make configuration changes in [!DNL Adobe Commerce], not in [!DNL Adobe Commerce Optimizer]. Repair does not remove policies you added manually alongside the connector-managed one.
+>Changes made directly in [!DNL Adobe Commerce Optimizer] to a connector-managed catalog view, policy, price book, or key are not the primary source of truth. Reconciliation reports these as configuration differences and, when you repair, reverts them to match [!DNL Adobe Commerce]. Make configuration changes in [!DNL Adobe Commerce], not in [!DNL Adobe Commerce Optimizer]. Repair does not remove policies you added manually alongside the connector-managed one.
 
 Use the page-level buttons to reconcile:
 
-- **[!UICONTROL Reconcile]**—Checks for drift and updates the sync status without making any changes in [!DNL Adobe Commerce Optimizer].
-- **[!UICONTROL Reconcile & Repair]**—Checks for drift and automatically restores the expected configuration for any repairable drift.
+- **[!UICONTROL Reconcile]**—Checks for configuration differences and updates the sync status without making any changes in [!DNL Adobe Commerce Optimizer].
+- **[!UICONTROL Reconcile & Repair]**—Checks for configuration differences and automatically restores the expected configuration for any repairable differences.
+
+  A successful repair updates the grid immediately, so you can confirm the fix without waiting for the next scheduled reconcile.
 
 Use the **[!UICONTROL Action]** menu on a row to:
 
-- **[!UICONTROL View details]**—Open the catalog view detail page, including its drift history and linked companies.
+- **[!UICONTROL View details]**—Open the catalog view detail page, including its history of configuration differences and linked companies.
 - **[!UICONTROL Open in ACO admin]**—Open the catalog view directly in [!DNL Adobe Commerce Optimizer] Studio.
 - **[!UICONTROL Copy ID]**—Copy the catalog view's identifier.
 
 ## Orphaned in ACO tab {#orphaned-in-aco-tab}
 
-The **[!UICONTROL Orphaned in ACO]** tab lists catalog views and restricted access keys that exist in [!DNL Adobe Commerce Optimizer] but have no corresponding [!DNL Adobe Commerce] source—for example, entities created manually in [!DNL Adobe Commerce Optimizer] Studio rather than by the connector. These entities can't appear in the main grid because there's no [!DNL Adobe Commerce] record to match them against.
+The **[!UICONTROL Orphaned in ACO]** tab lists catalog views and restricted access keys that exist in [!DNL Adobe Commerce Optimizer] but have no corresponding [!DNL Adobe Commerce] source—for example, entities created manually in [!DNL Adobe Commerce Optimizer] Studio rather than by the connector. These entities cannot appear in the main grid because there is no [!DNL Adobe Commerce] record to match them against.
 
 ![Orphaned in ACO tab listing entities with no Adobe Commerce source](assets/catalog-view-sync-orphan.png){width="600" zoomable="yes"}
 
@@ -142,11 +159,11 @@ The **[!UICONTROL Orphaned in ACO]** tab lists catalog views and restricted acce
 | **ACO ID** | The identifier of the entity in [!DNL Adobe Commerce Optimizer]. |
 | **Detail** | Additional context about the entity, such as its policy. |
 | **First Seen** | When reconciliation first detected this entity. |
-| **Action** | Select **[!UICONTROL Copy ID]** to copy the entity identifier, since this tab has no deep link to [!DNL Adobe Commerce Optimizer]. Use the copied ID to locate and remove the entity from [[!DNL Adobe Commerce Optimizer] Studio catalog views.] |
+| **Action** | Select **[!UICONTROL Copy ID]** to copy the entity identifier, since this tab has no deep link to [!DNL Adobe Commerce Optimizer]. Use the copied ID to locate and remove the entity from [!DNL Adobe Commerce Optimizer] Studio catalog views. |
 
 >[!NOTE]
 >
->This tab is report-only. Reconciliation never deletes orphaned entities. Remove them directly in [!DNL Adobe Commerce Optimizer] Studio if they're no longer needed.
+>This tab is report-only. Reconciliation never deletes orphaned entities. Remove them directly in [!DNL Adobe Commerce Optimizer] Studio if they are no longer needed.
 
 ## Deleted tab {#deleted-tab}
 
@@ -165,14 +182,15 @@ Rows on this tab are cleared automatically after 90 days.
 
 ## Known limitations
 
-- There's no visual indicator in [!DNL Adobe Commerce Optimizer] Studio that distinguishes connector-managed catalog views from manually created ones. Use this page, not the [!DNL Adobe Commerce Optimizer] Studio UI, to determine what the connector manages.
-- The **[!UICONTROL Orphaned in ACO]** tab's **[!UICONTROL ACO ID]** column identifies a catalog view or key, not a unique identifier in the traditional sense. Column naming is subject to change.
-- Deep links from this page directly to the corresponding record in [!DNL Adobe Commerce Optimizer] Studio aren't available yet, except through **[!UICONTROL Open in ACO admin]** on the [!UICONTROL Catalog Views] tab.
+- There is no visual indicator in [!DNL Adobe Commerce Optimizer] Studio that distinguishes connector-managed catalog views from manually created ones. Use this page, not the [!DNL Adobe Commerce Optimizer] Studio UI, to determine what the connector manages.
+- The **[!UICONTROL Orphaned in ACO]** tab's **[!UICONTROL ACO ID]** column identifies a catalog view or key, not a unique identifier. Column naming is subject to change.
+- Deep links from this page directly to the corresponding record in [!DNL Adobe Commerce Optimizer] Studio are not available yet, except through **[!UICONTROL Open in ACO admin]** on the [!UICONTROL Catalog Views] tab.
 
 >[!MORELIKETHIS]
 >
+> - [Manage catalog view configuration](/help/b2b/catalog-views-manage.md) — Review catalog views from the shared catalog or company account
 > - [Data Feed Sync Status](data-feed-sync-status.md)
-> - [Services > ACO Shared Catalog Sync](../configuration-reference/services/aco-shared-catalog-sync.md) — Configure the deletion and creation grace periods and the drift reconciler
+> - [Services > ACO Catalog View Sync](../configuration-reference/services/aco-catalog-view-sync.md) — Configure the deletion and creation grace periods and the drift reconciler
 > - [Restricted Access Keys management](restricted-access-keys.md) — Manage the keys whose expiration this page surfaces
 > - [Monitor catalog view synchronization for B2B shared catalogs](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status) in the *Adobe Commerce Optimizer Connector Guide*
 > - [Private catalog views](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/private-catalog-view)
