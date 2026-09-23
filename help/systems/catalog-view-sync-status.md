@@ -159,7 +159,7 @@ The **[!UICONTROL Orphaned in ACO]** tab lists catalog views and restricted acce
 | **ACO ID** | The identifier of the entity in [!DNL Adobe Commerce Optimizer]. |
 | **Detail** | Additional context about the entity, such as its policy. |
 | **First Seen** | When reconciliation first detected this entity. |
-| **Action** | Select **[!UICONTROL Copy ID]** to copy the entity identifier, since this tab has no deep link to [!DNL Adobe Commerce Optimizer]. Use the copied ID to locate and remove the entity from [!DNL Adobe Commerce Optimizer] Studio catalog views. |
+| **Action** | Select **[!UICONTROL Copy ID]** to copy the entity identifier. Use the copied ID to locate and remove the entity from [!DNL Adobe Commerce Optimizer] Studio catalog views. |
 
 >[!NOTE]
 >
