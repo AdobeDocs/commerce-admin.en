@@ -63,7 +63,7 @@ This guide covers:
 | [Enable Basic B2B Features](enable-basic-features.md) | After you install [!DNL Adobe Commerce B2B], you must enable the features that you want to activate for your store. |
 | [Company Accounts](account-companies.md) | Learn about company accounts and how they provide the primary building block for providing support for B2B buyers on your store. |
 | [Company Management](manage-companies.md) | Learn how B2B Commerce site administrators can build company hierarchies to streamline the management of multiple companies that belong to the same business enterprise. |
-| [Shared Catalogs](catalog-shared.md) | Learn about using shared catalogs to maintain gated catalogs with custom pricing for different companies. For customers with the [!DNL Adobe Commerce Optimizer Connector], learn about synchronizing B2B shared catalogs to [!DNL Adobe Commerce Optimizer] catalog views. |
+| [Shared Catalogs](catalog-shared.md) | Learn about using shared catalogs to maintain private catalogs with custom pricing for different companies. For customers with the [!DNL Adobe Commerce Optimizer Connector for B2B], learn how to synchronize B2B shared catalogs to [!DNL Adobe Commerce Optimizer] as private catalog views to power storefront experiences using advanced merchandising capabilities. |
 | [Quick Orders](quick-order.md) | Learn about quick order functionality and enabling it for your customers. |
 | [Purchase Orders](purchase-order-flow.md) | Learn about purchase order workflows that allow companies to track and control their spending. |
 | [Quotes](quotes.md) | Learn about quote workflows and how you can provide this service to your company accounts. |
