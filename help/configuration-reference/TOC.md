@@ -75,6 +75,7 @@ nudge: true
   - [Commerce Services Connector](./services/saas.md)
   - [OAuth](./services/oauth.md)
   - [Email Suppression](./services/email-suppression.md)
+  - [ACO Catalog View](./services/aco-catalog-view.md)
   - [ACO Catalog View Sync](./services/aco-catalog-view-sync.md)
   - [ACO Restricted Access Keys](./services/aco-restricted-access-keys.md)
 - Advanced {#advanced}

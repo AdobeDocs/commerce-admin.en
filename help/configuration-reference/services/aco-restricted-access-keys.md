@@ -40,7 +40,7 @@ Use this setting to control the default expiration period that the [!DNL Adobe C
 
 ## [!UICONTROL Provisioning]
 
-![Provisioning](./assets/aco-restricted-access-keys-expiry-configuration.png)<!-- zoom -->
+![Provisioning](./assets/optimizer-restricted-access-key-config.png)<!-- zoom -->
 
 | Field | [Scope](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 | --- | --- | --- |
@@ -54,5 +54,6 @@ Use this setting to control the default expiration period that the [!DNL Adobe C
 
 >[!MORELIKETHIS]
 >
+> - [ACO Catalog View](./aco-catalog-view.md) — Configure storefront access tokens for catalog views
 > - [Restricted Access Keys management](../../systems/restricted-access-keys.md) — Create, assign, and delete restricted access keys
 > - [Catalog View Sync Status monitoring](../../systems/catalog-view-sync-status.md) — Monitor keys nearing expiration

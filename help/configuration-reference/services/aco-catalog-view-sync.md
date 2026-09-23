@@ -66,5 +66,6 @@ Use these settings to control how the [!DNL Adobe Commerce Optimizer Connector f
 
 >[!MORELIKETHIS]
 >
+> - [ACO Catalog View](./aco-catalog-view.md) — Configure access tokens for storefront reads of a catalog view
 > - [Catalog View Sync Status monitoring](../../systems/catalog-view-sync-status.md) — Monitor sync health and reconcile drift using these settings
 > - [Restricted Access Keys management](../../systems/restricted-access-keys.md) — Manage the access keys assigned to synchronized catalog views

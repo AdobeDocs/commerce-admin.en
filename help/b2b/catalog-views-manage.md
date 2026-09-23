@@ -47,7 +47,9 @@ Both catalog views can share the same price book when they use the same website 
 
 ## Catalog view authentication
 
-The connector protects catalog views with [!UICONTROL Restricted Access Keys]. Adobe Commerce uses the private key to sign an access token for an authorized buyer, while [!DNL Adobe Commerce Optimizer] validates the token against the corresponding public key associated with the catalog view before returning protected catalog data.
+The connector protects catalog views with restricted access keys. Adobe Commerce uses the private key to sign an access token for an authorized buyer. Before returning protected catalog data, [!DNL Adobe Commerce Optimizer] validates the token against the corresponding public key associated with the requested catalog view.
+
+To configure the token lifetime or disable token issuance, see [Services > ACO Catalog View](/help/configuration-reference/services/aco-catalog-view.md).
 
 You can review these catalog views and manage their assigned keys from either the shared catalog's _[!UICONTROL Catalog Views]_ tab or the associated company's _[!UICONTROL Catalog Views]_ section—both list the same catalog views and current key assignments. See [Edit restricted access keys](#edit-restricted-access-keys) for the exact navigation path from each location.
 
@@ -65,6 +67,7 @@ For additional details, see [Manage restricted access keys](/help/systems/restri
 
 >[!MORELIKETHIS]
 >
+> - [Services > ACO Catalog View](/help/configuration-reference/services/aco-catalog-view.md)
 > - [Catalog View Sync Status monitoring](/help/systems/catalog-view-sync-status.md)
 > - [Manage your shared catalogs](catalog-shared-manage.md)
 > - [Manage company accounts](account-company-manage.md)
