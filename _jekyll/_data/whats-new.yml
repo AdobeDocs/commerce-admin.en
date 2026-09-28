@@ -2,8 +2,20 @@
 title: What's new
 description: This section contains the changes made in the last 60 days. We exclude
   all minor updates, such as copy editing, from this list.
-updated: Fri Sep 18 15:22:24 2026
+updated: Mon Sep 28 10:52:05 2026
 entries:
+- description: Updated [Add a source](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/sources/sources-add)
+    to include the new Visible on Storefront toggle for Adobe Commerce as a Cloud
+    Service. Each inventory source can now be individually flagged for storefront
+    visibility. Sources are hidden by default.
+  versions: ''
+  type: major-update
+  date: September 23, 2026
+  link: enterprise:Adobe-Enterprise-Docs/commerce-admin.en/pull/905
+  merge_commit: 1b3beb5c914dae4c07dd591e9b975c0f35bb23cd
+  contributor: jhoover_adobe
+  labels:
+  - major-update
 - description: Removed Adobe Commerce 2.4.8-p5 from the list of supported versions
     for [B2B 1.5.2-p5](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes#b2b-v152-p5).
     2.4.8 customers should use B2B version 1.5.3 instead.
