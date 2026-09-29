@@ -31,8 +31,6 @@ topic_v2:
 ---
 # [!UICONTROL Services] > [!UICONTROL ACO Catalog View]
 
-[!BADGE Private Beta]{type=Caution tooltip="Requires the Adobe Commerce Optimizer Connector for B2B extension, which is currently in private beta."}
-
 Use these settings to control the access tokens issued by the [!DNL Adobe Commerce Optimizer Connector for B2B]. Storefronts use these tokens to authenticate to Commerce Optimizer private catalog views populated with data synchronized from custom shared catalogs configured in the Admin.
 
 {{config}}

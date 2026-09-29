@@ -132,8 +132,6 @@ The detail information of any shared catalog can be easily updated from the Acti
 
 ## Manage catalog view configuration
 
-[!BADGE Private Beta]{type=Caution tooltip="Requires the Adobe Commerce Optimizer Connector for B2B extension, which is currently in private beta."}
-
 With the [!DNL Adobe Commerce Optimizer Connector for B2B] extension installed, the _[!UICONTROL Catalog Views]_ section of a shared catalog lists the [!DNL Adobe Commerce Optimizer] catalog views projected from the shared catalog, and lets you manage the restricted access keys that secure them.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.

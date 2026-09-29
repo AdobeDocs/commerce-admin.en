@@ -72,7 +72,7 @@ The [!DNL Adobe Commerce Optimizer Connector] synchronizes catalog and pricing d
 
 >[!NOTE]
 >
->[!BADGE Private Beta]{type=Caution tooltip="Requires the Adobe Commerce Optimizer Connector for B2B extension, which is currently in private beta."} For B2B merchants, the [!DNL Adobe Commerce Optimizer Connector for B2B] automatically synchronizes your shared catalogs into [!DNL Adobe Commerce Optimizer] as protected catalog views, secured by restricted access keys, so contract-specific product assortment and pricing stay in sync between the two systems.
+>For B2B merchants, the [!DNL Adobe Commerce Optimizer Connector for B2B] automatically synchronizes your shared catalogs into [!DNL Adobe Commerce Optimizer] as protected catalog views, secured by restricted access keys, so contract-specific product assortment and pricing stay in sync between the two systems.
 
 For more information, see the [[!DNL Adobe Commerce Optimizer Connector] Integration Guide](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview).
 
@@ -84,7 +84,7 @@ For more information, see [Working with Shared Catalogs](catalog-shared.md).
 
 >[!NOTE]
 >
->[!BADGE Private Beta]{type=Caution tooltip="Requires the Adobe Commerce Optimizer Connector for B2B extension, which is currently in private beta."} If the [!DNL Adobe Commerce Optimizer Connector for B2B] extension is installed, each shared catalog is also projected into [!DNL Adobe Commerce Optimizer] as one or more catalog views—one per store view in the shared catalog. For more information, see [Manage catalog view configuration](catalog-views-manage.md) and [Catalog view sync status monitoring](/help/systems/catalog-view-sync-status.md).
+>If the [!DNL Adobe Commerce Optimizer Connector for B2B] extension is installed, each shared catalog is also projected into [!DNL Adobe Commerce Optimizer] as one or more catalog views—one per store view in the shared catalog. For more information, see [Manage catalog view configuration](catalog-views-manage.md) and [Catalog view sync status monitoring](/help/systems/catalog-view-sync-status.md).
 
 ## Quick Order
 

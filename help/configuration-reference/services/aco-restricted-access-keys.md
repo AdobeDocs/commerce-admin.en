@@ -3,7 +3,6 @@ title: "[!UICONTROL Services] &gt; [!UICONTROL ACO Restricted Access Keys]"
 description: Review the configuration settings on the [!UICONTROL Services] &gt; [!UICONTROL ACO Restricted Access Keys] page of the Commerce Admin.
 feature: Configuration, Security
 badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
-badgeBeta: label="Private Beta" type="Caution" tooltip="Requires the Adobe Commerce Optimizer Connector for B2B extension, which is currently in private beta."
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -31,8 +30,6 @@ topic_v2:
     internal-label: Administration
 ---
 # [!UICONTROL Services] > [!UICONTROL ACO Restricted Access Keys]
-
-[!BADGE Private Beta]{type=Caution tooltip="Requires the Adobe Commerce Optimizer Connector for B2B extension, which is currently in private beta."}
 
 Use this setting to control the default expiration period that the [!DNL Adobe Commerce Optimizer Connector for B2B] applies to restricted access keys it provisions for B2B shared catalog views. To create, assign, and delete these keys, see [Restricted Access Keys management](../../systems/restricted-access-keys.md).
 

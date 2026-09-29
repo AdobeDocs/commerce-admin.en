@@ -31,8 +31,6 @@ topic_v2:
 ---
 # [!UICONTROL Services] > [!UICONTROL ACO Catalog View Sync]
 
-[!BADGE Private Beta]{type=Caution tooltip="Requires the Adobe Commerce Optimizer Connector for B2B extension, which is currently in private beta."}
-
 Use these settings to control how the [!DNL Adobe Commerce Optimizer Connector for B2B] synchronizes B2B shared catalog configurations—catalog view, policy, price book, and key—into [!DNL Adobe Commerce Optimizer] and how it resolves configuration differences between the two systems. See [Catalog View Sync Status monitoring](../../systems/catalog-view-sync-status.md) to monitor the results of these settings.
 
 {{config}}

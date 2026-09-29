@@ -37,8 +37,6 @@ topic_v2:
 
 # Catalog view sync status monitoring
 
-[!BADGE Private Beta]{type=Caution tooltip="Requires the Adobe Commerce Optimizer Connector for B2B extension, which is currently in private beta."}
-
 Use the Catalog View Sync Status page to monitor synchronization and troubleshoot catalog views that have been projected to Adobe Commerce Optimizer. For each custom shared catalog, the [!DNL Adobe Commerce Optimizer Connector for B2B] creates a catalog view for every store view within the shared catalog's website scope. Each catalog view is configured with an assortment policy, its linked price book, and the public key used to validate restricted-access tokens. Adobe Commerce retains the corresponding catalog view metadata, including the private key and default Price Book ID.
 
 >[!NOTE]
@@ -120,9 +118,7 @@ After the window expires, all data is removed.
 
 1. Select **[!UICONTROL Save Config]**.
 
-
 For details, see [Services > ACO Catalog View Sync](../configuration-reference/services/aco-catalog-view-sync.md) for all available sync and drift reconciler settings.
-
 
 ## Reconcile and repair configuration differences {#reconcile-and-repair-drift}
 

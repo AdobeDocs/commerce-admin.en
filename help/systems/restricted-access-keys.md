@@ -33,8 +33,6 @@ topic_v2:
 
 # Manage restricted access keys
 
-[!BADGE Private Beta]{type=Caution tooltip="Requires the Adobe Commerce Optimizer Connector for B2B extension, which is currently in private beta."}
-
 Use the Restricted Access Keys page to manage access keys for private catalog views created by the [!DNL Adobe Commerce Optimizer Connector for B2B]. The connector synchronizes B2B shared catalog configurations from Adobe Commerce to Adobe Commerce Optimizer.
 
 >[!NOTE]
