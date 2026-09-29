@@ -45,7 +45,7 @@ Merchants can use the [!DNL Media Gallery] to organize and manage their media fi
 
    ![Advanced configuration - [!DNL Media Gallery]](./assets/system-media-gallery.png){width="600" zoomable="yes"}
 
-1. Set **[!UICONTROL Enable Old Media Gallery]** to `No`.
+1. Verify that **[!UICONTROL Enable Old Media Gallery]** is set to `No`.
 
    >[!IMPORTANT]
    >
