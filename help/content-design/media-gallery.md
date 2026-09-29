@@ -49,7 +49,7 @@ With Adobe Commerce or Magento Open Source 2.4, merchants can use the new _enhan
 
    >[!NOTE]
    >
-   >**[!UICONTROL Old Media Gallery]** is deprecated and not supported anymore. We recommend to use a **[!UICONTROL New Media Gallery]**.
+   >The option to enable the **[!UICONTROL Old Media Gallery]** is no longer supported.  Make sure this option is set to `No` so that the currently supported Media Gallery capabilities are enabled.
 
 1. Click **[!UICONTROL Save Config]**.
 
