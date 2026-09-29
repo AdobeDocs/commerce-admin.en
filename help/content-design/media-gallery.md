@@ -47,10 +47,9 @@ With Adobe Commerce or Magento Open Source 2.4, merchants can use the new _enhan
 
 1. Set **[!UICONTROL Enable Old Media Gallery]** to `No`.
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >The option to enable the **[!UICONTROL Old Media Gallery]** is no longer supported.  Make sure this option is set to `No` so that the currently supported Media Gallery capabilities are enabled.
-
+   >The option to enable the **[!UICONTROL Old Media Gallery]** is deprecated. Ensure that this setting is always set to `No`. 
 1. Click **[!UICONTROL Save Config]**.
 
 1. When prompted, click the **[!UICONTROL Cache Management]** link in the system message and refresh the invalid cache.
