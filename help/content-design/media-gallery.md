@@ -27,7 +27,7 @@ topic_v2:
 ---
 # The [!DNL Media Gallery]
 
-With Adobe Commerce or Magento Open Source 2.4, merchants can use the new _enhanced_ [!DNL Media Gallery] to organize and manage their media files on the server. This new [!DNL Media Gallery] contains the same functionalities as the existing media storage, but includes an improved user interface and a closer integration with [Adobe Stock](https://stock.adobe.com).
+Merchants can use the [!DNL Media Gallery] to organize and manage their media files on the server.
 
 ![Images displayed in the Media Gallery grid](./assets/media-gallery-grid.png){width="700" zoomable="yes"}
 
