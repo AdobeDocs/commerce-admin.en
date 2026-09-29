@@ -37,14 +37,14 @@ Use these settings to control the access tokens issued by the [!DNL Adobe Commer
 
 {{config}}
 
-![Adobe Commerce Admin Configuration page showing Services expanded with ACO Catalog View selected. The Access Token Configuration panel displays Token TTL in seconds set to 3600 and Issue Access Tokens set to Yes, with explanatory text below each field. The left navigation lists Magento Web API, Commerce Services Connector, OAuth, ACO Catalog View, ACO Catalog View Sync, and ACO Restricted Access Keys. The page also shows the Default Config scope selector, Save Config button, search and notification icons, and the admin account menu.](./assets/aco-catalog-view-access-token-config.png)<!-- zoom -->
+![Adobe Commerce Admin showing ACO Catalog View access-token settings, with a 3,600-second TTL and token issuance enabled.](./assets/aco-catalog-view-access-token-config.png)<!-- zoom -->
 
 ## [!UICONTROL Access Token Configuration]
 
 | Field | [Scope](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 | --- | --- | --- |
 | [!UICONTROL Token TTL (seconds)] | Global | Number of seconds an access token remains valid after it is generated. This setting is read only at the default scope. Values configured at the website or store-view scope are ignored. Defaults to: 3600 seconds. |
-| [!UICONTROL Issue Access Tokens] | Store View | Controls whether the storefront can obtain an access token for a catalog view. When set to `No`, `Company.catalogViewContext` returns the catalog view ID but no access token, so storefronts cannot authenticate to gated [!DNL Adobe Commerce Optimizer] reads. |
+| [!UICONTROL Issue Access Tokens] | Store View | Controls whether the storefront can obtain an access token for a catalog view. When set to `No`, `Company.catalogViewContext` returns the catalog view ID but no access token, so storefronts cannot authenticate to read from  [!DNL Adobe Commerce Optimizer] private catalog views synchronized from Adobe Commerce. |
 
 {style="table-layout:auto"}
 
