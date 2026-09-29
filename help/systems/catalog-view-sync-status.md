@@ -39,9 +39,7 @@ topic_v2:
 
 [!BADGE Private Beta]{type=Caution tooltip="Requires the Adobe Commerce Optimizer Connector for B2B extension, which is currently in private beta."}
 
-Commerce administrators use the [!UICONTROL Catalog View Sync Status] page to monitor and repair shared catalog projections to [!DNL Adobe Commerce Optimizer]. [!DNL Adobe Commerce Optimizer Connector for B2B] creates a projection. For each store view within the shared catalog's website scope, the connector creates an [!DNL Adobe Commerce Optimizer] catalog view and synchronizes its associated product assortment policy, price book reference, and restricted access key configuration.
-
-Use the [!UICONTROL Catalog View Sync Status] page to troubleshoot a company seeing the wrong assortment, pricing, or catalog access.
+Use the Catalog View Sync Status page to monitor synchronization and troubleshoot catalog views that have been projected to Adobe Commerce Optimizer. For each custom shared catalog, the [!DNL Adobe Commerce Optimizer Connector for B2B] creates a catalog view for every store view within the shared catalog's website scope. Each catalog view is configured with an assortment policy, its linked price book, and the public key used to validate restricted-access tokens. Adobe Commerce retains the corresponding catalog view metadata, including the private key and default Price Book ID.
 
 >[!NOTE]
 >
