@@ -35,7 +35,7 @@ With Adobe Commerce or Magento Open Source 2.4, merchants can use the new _enhan
 >
 >Product images added to the [_[!UICONTROL Images and Videos]_ product section](../catalog/product-image.md#upload-an-image) are not managed by the [!DNL Media Gallery]. Only images used in the _[!UICONTROL Content]_ product section fields are displayed and filtered in the new [!DNL Media Gallery].
 
-## Enable the new [!DNL Media Gallery]
+## Verify the [!DNL Media Gallery] configurtion {#enable-the-new-media-gallery}
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
