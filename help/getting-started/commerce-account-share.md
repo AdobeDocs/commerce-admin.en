@@ -43,7 +43,7 @@ Only the primary account holder with the appropriate permissions can formally gr
 
 ![Shared access settings](./assets/shared-access.png){width="600" zoomable="yes"}
 
-The Billing History section shows only older invoices that were created before a change to our billing system. If you don’t see any newer invoices listed, those invoices have been transitioned to the new system and are not accessible from this view.
+The Billing History section shows only older invoices that were created before a change to our billing system. If you don't see any newer invoices listed, those invoices have been transitioned to the new system and are not accessible from this view.
 
 >[!IMPORTANT]
 >
@@ -146,9 +146,9 @@ The following instructions are written from the perspective of a shared user who
 
 1. When prompted to confirm, click **[!UICONTROL Delete User]**.
 
- >[!NOTE]
- >
- >You cannot delete users with the Share Name of _Cloud Shared Access from MAG[XYZ]_ in this interface. See [How to delete users who were granted shared access via a Cloud project?](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#remove-cloud-shared-access-users).
+>[!NOTE]
+>
+>You cannot delete users with the Share Name of _Cloud Shared Access from MAG[XYZ]_ in this interface. See [How to delete users who were granted shared access via a Cloud project?](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#remove-cloud-shared-access-users).
 
 ## Related Reading
 
