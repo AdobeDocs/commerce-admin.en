@@ -49,7 +49,8 @@ Merchants can use the [!DNL Media Gallery] to organize and manage their media fi
 
    >[!IMPORTANT]
    >
-   >The option to enable the **[!UICONTROL Old Media Gallery]** is deprecated. Ensure that this setting is always set to `No`. 
+   >The option to enable the **[!UICONTROL Old Media Gallery]** is deprecated. Ensure that this setting is always set to `No`.
+ 
 1. Click **[!UICONTROL Save Config]**.
 
 1. When prompted, click the **[!UICONTROL Cache Management]** link in the system message and refresh the invalid cache.
