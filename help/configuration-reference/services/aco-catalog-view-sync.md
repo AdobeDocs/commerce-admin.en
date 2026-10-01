@@ -41,7 +41,7 @@ Use these settings to control how the [!DNL Adobe Commerce Optimizer Connector f
 
 | Field | [Scope](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 | --- | --- | --- |
-| [!UICONTROL Deletion Grace Period (days)] | Global | Retention period for shared catalog data. Specifies the number of days a deleted shared catalog's catalog views, policies, and metadata are retained before being hard-deleted, allowing rollback. Set to `0` to hard-delete immediately. |
+| [!UICONTROL Deletion Grace Period (days)] | Global | Retention period for shared catalog data. Specifies the number of days a deleted shared catalog's catalog views, policies, and metadata are retained before being hard-deleted. The value defaults to 7 days. Set to `0` to hard-delete immediately. |
 
 {style="table-layout:auto"}
 

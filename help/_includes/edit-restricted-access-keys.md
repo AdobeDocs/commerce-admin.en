@@ -25,6 +25,6 @@ A catalog view must have at least one key and can have at most three. If you try
 
 1. Select **[!UICONTROL Done]** to assign the key to the catalog view.
 
-1. To remove a key from the **[!UICONTROL Access Control]** field, select the `x` in the key name entry to remove it.
+1. To remove a key from the **[!UICONTROL Access Keys]** field, select the `x` in the key name entry to remove it.
 
 1. Click **[!UICONTROL Save]**.

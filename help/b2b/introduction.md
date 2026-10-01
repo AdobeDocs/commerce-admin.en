@@ -84,7 +84,7 @@ For more information, see [Working with Shared Catalogs](catalog-shared.md).
 
 >[!NOTE]
 >
->If the [!DNL Adobe Commerce Optimizer Connector for B2B] extension is installed, each shared catalog is also projected into [!DNL Adobe Commerce Optimizer] as one or more catalog views—one per store view in the shared catalog. For more information, see [Manage catalog view configuration](catalog-views-manage.md) and [Catalog view sync status monitoring](/help/systems/catalog-view-sync-status.md).
+>If the [!DNL Adobe Commerce Optimizer Connector for B2B] extension is installed, each custom shared catalog is also projected into [!DNL Adobe Commerce Optimizer] as one or more catalog views—one per store view in the shared catalog. For more information, see [Manage catalog view configuration](catalog-views-manage.md) and [Catalog view sync status monitoring](/help/systems/catalog-view-sync-status.md).
 
 ## Quick Order
 

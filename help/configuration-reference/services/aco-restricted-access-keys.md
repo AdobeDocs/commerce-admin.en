@@ -41,7 +41,7 @@ Use this setting to control the default expiration period that the [!DNL Adobe C
 
 | Field | [Scope](../../getting-started/websites-stores-views.md#scope-settings) | Description |
 | --- | --- | --- |
-| [!UICONTROL Default key lifetime (days)] | Global | Validity period for newly provisioned restricted access keys. [!DNL Adobe Commerce Optimizer] requires an expiration date at least one minute in the future on every key, and excludes expired keys from gateway reads, so a value of at least one day is always applied. Default value: `36500` |
+| [!UICONTROL Default key expiry (days)] | Global | Validity period for newly provisioned restricted access keys. [!DNL Adobe Commerce Optimizer] requires an expiration date at least one minute in the future on every key, and excludes expired keys from gateway reads, so a value of at least one day is always applied. Default value: `36500` |
 
 {style="table-layout:auto"}
 

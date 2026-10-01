@@ -87,7 +87,7 @@ The grid lists one row per catalog view:
 | **Key Expires** | The expiration date of the catalog view's restricted access key, and the number of days remaining. |
 | **Drift** | The type of drift detected, if any. |
 | **Last Reconciled** | When the reconciliation process last checked this catalog view. |
-| **Action** | Row-level actions. See [Reconcile and repair drift](#reconcile-and-repair-drift). |
+| **Action** | **[!UICONTROL View details]** opens the Catalog View Sync Status details page to view current status, drift, access keys, and recent events. **[!UICONTROL Open in ACO admin]** opens the catalog view details page in [!DNL Adobe Commerce Optimizer] Studio. **[!UICONTROL Copy ID]** copies the catalog view ID for reference. See [Reconcile and repair drift](#reconcile-and-repair-drift). |
 
 ## Sync status values {#sync-status-values}
 
@@ -131,15 +131,16 @@ For details, see [Services > ACO Catalog View Sync](../configuration-reference/s
 Use the page-level buttons to reconcile:
 
 - **[!UICONTROL Reconcile]**—Checks for configuration differences and updates the sync status without making any changes in [!DNL Adobe Commerce Optimizer].
+
 - **[!UICONTROL Reconcile & Repair]**—Checks for configuration differences and automatically restores the expected configuration for any repairable differences.
 
-  A successful repair updates the grid immediately, so you can confirm the fix without waiting for the next scheduled reconcile.
+  Selecting **[!UICONTROL Reconcile & Repair]** sends an asynchronous reconcile request and returns before the repair runs. A confirmation message says the status  refresh shortly, but the page does not reload automatically. Wait for processing to finish, then refresh the grid to check the result.
 
 Use the **[!UICONTROL Action]** menu on a row to:
 
-- **[!UICONTROL View details]**—Open the catalog view detail page, including its history of configuration differences and linked companies.
-- **[!UICONTROL Open in ACO admin]**—Open the catalog view directly in [!DNL Adobe Commerce Optimizer] Studio.
-- **[!UICONTROL Copy ID]**—Copy the catalog view's identifier.
+- **[!UICONTROL View details]**—Open the Catalog View Sync Status details page to view the current status, drift, access keys, and recent events.
+- **[!UICONTROL Open in ACO admin]**—Open the catalog view details page in [!DNL Adobe Commerce Optimizer] Studio.
+- **[!UICONTROL Copy ID]**—Copy the catalog view ID for reference.
 
 ## Orphaned in ACO tab {#orphaned-in-aco-tab}
 
@@ -177,8 +178,7 @@ Rows on this tab are cleared automatically after 90 days.
 ## Known limitations
 
 - There is no visual indicator in [!DNL Adobe Commerce Optimizer] Studio that distinguishes connector-managed catalog views from manually created ones. Use this page, not the [!DNL Adobe Commerce Optimizer] Studio UI, to determine what the connector manages.
-- The **[!UICONTROL Orphaned in ACO]** tab's **[!UICONTROL ACO ID]** column identifies a catalog view or key, not a unique identifier. Column naming is subject to change.
-- Deep links from this page directly to the corresponding record in [!DNL Adobe Commerce Optimizer] Studio are not available yet, except through **[!UICONTROL Open in ACO admin]** on the [!UICONTROL Catalog Views] tab.
+- The **[!UICONTROL Orphaned in ACO]** tab's **[!UICONTROL ACO ID]** column identifies a catalog view, policy, or access key, not a unique identifier. Column naming is subject to change.
 
 >[!MORELIKETHIS]
 >

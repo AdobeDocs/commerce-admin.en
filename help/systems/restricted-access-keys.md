@@ -91,7 +91,7 @@ The public key is not registered with [!DNL Adobe Commerce Optimizer] until you 
 
 ## Key selection and rotation {#key-selection-and-rotation}
 
-When more than one key is assigned to a catalog view, [!DNL Adobe Commerce Optimizer] automatically uses the assigned, unexpired key with the latest expiration date to sign tokens.
+When more than one key is assigned to a catalog view, [!DNL Adobe Commerce] automatically uses the assigned, unexpired key with the latest expiration date to sign tokens.
 
 >[!IMPORTANT]
 >
